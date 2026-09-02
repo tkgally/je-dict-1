@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "14902_zokuzokuto_ex1",
-      "japanese": "{客|きゃく}が{続々|ぞくぞく}と{集|あつ}まった。",
+      "japanese": "⟦{客|きゃく}→客：00865_kyaku⟧⟦が→が：00051_ga⟧{続々|ぞくぞく}と⟦{集|あつ}まった→集まる：01162_atsumaru⟧。",
       "english": "Customers gathered one after another.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "14902_zokuzokuto_ex2",
-      "japanese": "{新|あたら}しい{情報|じょうほう}が{続々|ぞくぞく}と{入|はい}ってくる。",
+      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦{情報|じょうほう}→情報：03348_jouhou⟧⟦が→が：00051_ga⟧{続々|ぞくぞく}と⟦{入|はい}ってくる→入ってくる：29060_haittekuru⟧。",
       "english": "New information keeps pouring in one after another.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "14902_zokuzokuto_ex3",
-      "japanese": "{開店|かいてん}セールの{日|ひ}には、{朝|あさ}から{買|か}い{物客|ものきゃく}が{続々|ぞくぞく}と{店|みせ}に{押|お}し{寄|よ}せた。",
+      "japanese": "⟦{開店|かいてん}→開店：14569_kaiten⟧⟦セール→セール：07780_seeru⟧⟦の→の：09472_no⟧⟦{日|ひ}→日：02249_hi⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧、⟦{朝|あさ}→朝：02277_asa⟧⟦から→から：00504_kara⟧{買|か}い{物客|ものきゃく}⟦が→が：00051_ga⟧{続々|ぞくぞく}と⟦{店|みせ}→店：00497_mise⟧⟦に→に：00314_ni⟧⟦{押|お}し{寄|よ}せた→押し寄せる：06733_oshiyoseru⟧。",
       "english": "On the day of the opening sale, shoppers flocked to the store one after another from the morning.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{続々|ぞくぞく}と is an adverb describing things happening in rapid succession. The と particle is optional but commonly included. It is used with verbs of appearance, arrival, or emergence.\n\nCOMMON COLLOCATIONS:\n- {続々|ぞくぞく}と{集|あつ}まる (to gather one after another)\n- {続々|ぞくぞく}と{届|とど}く (to arrive in succession)\n- {続々|ぞくぞく}と{発売|はつばい}される (to be released one after another)\n- {続々|ぞくぞく}と{参加|さんか}する (to join one after another)\n\nCAUTION:\nDo not confuse with ぞくぞくする (to shiver, to get chills), which describes a physical sensation. {続々|ぞくぞく}と always modifies a verb describing successive events.",
+  "notes": "USAGE:\n{続々|ぞくぞく}と is an adverb describing things happening in rapid succession. The ⟦と→と：00512_to⟧ particle is optional but commonly included. It is used with verbs of appearance, arrival, or emergence.\n\nCOMMON COLLOCATIONS:\n- {続々|ぞくぞく}と⟦{集|あつ}まる→集まる：01162_atsumaru⟧ (to gather one after another)\n- {続々|ぞくぞく}と⟦{届|とど}く→届く：00899_todoku⟧ (to arrive in succession)\n- {続々|ぞくぞく}と⟦{発売|はつばい}→発売：04315_hatsubai⟧⟦される→する：00392_suru⟧ (to be released one after another)\n- {続々|ぞくぞく}と⟦{参加|さんか}する→参加する：25408_sankasuru⟧ (to join one after another)\n\nWATCH OUT:\nDo not confuse with ぞくぞく⟦する→する：00392_suru⟧ (to shiver, to get chills), which describes a physical sensation. {続々|ぞくぞく}と always modifies a verb describing successive events.",
   "cross_references": [
     {
       "type": "synonym",
@@ -52,11 +52,18 @@
       "headword": "{次々|つぎつぎ}と",
       "label": "one after another",
       "target_id": "07028_tsugitsugito"
+    },
+    {
+      "type": "related",
+      "target_id": "15419_aitsuide",
+      "reading": "あいついで",
+      "headword": "{相次|あいつ}いで",
+      "label": "one after another"
     }
   ],
   "metadata": {
     "created": "2026-03-04T05:50:12Z",
-    "modified": "2026-08-27T12:49:51Z",
+    "modified": "2026-09-02T04:01:39Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

@@ -2,7 +2,7 @@
   "id": "08736_otomosuru",
   "headword": "お{供|とも}する",
   "reading": "おともする",
-  "part_of_speech": "verb (suru)",
+  "part_of_speech": "suru verb",
   "gloss": "to accompany (humble); to go with",
   "conjugation": {
     "type": "suru",
@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "08736_otomosuru_ex1",
-      "japanese": "{社長|しゃちょう}の{出張|しゅっちょう}にお{供|とも}します。",
+      "japanese": "⟦{社長|しゃちょう}→社長：01428_shachou⟧⟦の→の：09472_no⟧⟦{出張|しゅっちょう}→出張：01094_shucchou⟧⟦に→に：00314_ni⟧お{供|とも}します。",
       "english": "I will accompany the president on his business trip.",
       "sense_numbers": [
         1
@@ -114,7 +114,7 @@
     },
     {
       "id": "08736_otomosuru_ex2",
-      "japanese": "ぜひお{供|とも}させてください。",
+      "japanese": "ぜひお{供|とも}⟦させて→する：00392_suru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please allow me to accompany you.",
       "sense_numbers": [
         1
@@ -124,7 +124,7 @@
     },
     {
       "id": "08736_otomosuru_ex3",
-      "japanese": "{先生|せんせい}のお{買|か}い{物|もの}にお{供|とも}した。",
+      "japanese": "⟦{先生|せんせい}→先生：00609_sensei⟧⟦の→の：09472_no⟧お⟦{買|か}い{物|もの}→買い物：00853_kaimono⟧⟦に→に：00314_ni⟧お{供|とも}した。",
       "english": "I accompanied my teacher on her shopping.",
       "sense_numbers": [
         1
@@ -133,7 +133,7 @@
       "notes": null
     }
   ],
-  "notes": "KEIGO TYPE:\nHumble speech ({謙譲語|けんじょうご}). Used when the speaker accompanies someone of higher status.\n\nサ{変|へん} verb (する verb)\n- お{供|とも}します (polite)\n- お{供|とも}させていただきます (very humble)\n\nRELATED EXPRESSIONS:\n- お{供|とも} - companion; attendant (noun)\n- {同行|どうこう}する - to accompany (neutral)\n- {一緒|いっしょ}に{行|い}く - to go together (casual)\n\nTRADITIONAL CONTEXT:\nHistorically, お{供|とも} referred to servants or retainers accompanying their lord. Today it's used in business and formal contexts.",
+  "notes": "KEIGO TYPE:\nHumble speech (⟦{謙譲語|けんじょうご}→謙譲語：15869_kenjougo⟧). Used when the speaker accompanies someone of higher status.\n\nサ{変|へん} verb (⟦する→する：00392_suru⟧ verb)\n- お{供|とも}します (polite)\n- お{供|とも}⟦させて→する：00392_suru⟧⟦いただきます→いただく：01326_itadaku⟧ (very humble)\n\nRELATED WORDS:\n- お{供|とも} - companion; attendant (noun)\n- ⟦{同行|どうこう}する→同行する：21427_doukousuru⟧ - to accompany (neutral)\n- ⟦{一緒|いっしょ}→一緒：02848_issho⟧⟦に→に：00314_ni⟧⟦{行|い}く→行く：00119_iku⟧ - to go together (casual)\n\nTRADITIONAL CONTEXT:\nHistorically, お{供|とも} referred to servants or retainers accompanying their lord. Today it's used in business and formal contexts.",
   "cross_references": [
     {
       "type": "synonym",
@@ -141,6 +141,13 @@
       "reading": "どうこう",
       "headword": "{同行|どうこう}",
       "label": "neutral"
+    },
+    {
+      "type": "related",
+      "target_id": "21427_doukousuru",
+      "reading": "どうこうする",
+      "headword": "{同行|どうこう}する",
+      "label": "to accompany"
     }
   ],
   "metadata": {
@@ -158,6 +165,6 @@
       "politeness": "humble"
     },
     "created": "2026-01-28T03:33:57Z",
-    "modified": "2026-08-03T15:18:36Z"
+    "modified": "2026-09-02T04:01:16Z"
   }
 }

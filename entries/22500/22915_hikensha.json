@@ -15,40 +15,67 @@
   "examples": [
     {
       "id": "22915_hikensha_ex1",
-      "japanese": "{被験者|ひけんしゃ}を{募集|ぼしゅう}する。",
+      "japanese": "{被験者|ひけんしゃ}⟦を→を：00422_wo⟧⟦{募集|ぼしゅう}→募集：03035_boshuu⟧⟦する→する：00392_suru⟧。",
       "english": "We recruit test subjects.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "22915_hikensha_ex2",
-      "japanese": "{被験者|ひけんしゃ}の{同意|どうい}を{得|え}てから{実験|じっけん}を{始|はじ}めた。",
+      "japanese": "{被験者|ひけんしゃ}⟦の→の：09472_no⟧⟦{同意|どうい}→同意：05092_doui⟧⟦を→を：00422_wo⟧⟦{得|え}て→得る：02014_eru⟧⟦から→から：00504_kara⟧⟦{実験|じっけん}→実験：03273_jikken⟧⟦を→を：00422_wo⟧⟦{始|はじ}めた→始める：00531_hajimeru⟧。",
       "english": "The experiment began after obtaining the subjects' consent.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "22915_hikensha_ex3",
-      "japanese": "この{臨床|りんしょう}{試験|しけん}では200{人|にん}の{被験者|ひけんしゃ}が{参加|さんか}した。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{臨床|りんしょう}→臨床：13975_rinshou⟧⟦{試験|しけん}→試験：01422_shiken⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧200⟦{人|にん}→〜人：00658_nin⟧⟦の→の：09472_no⟧{被験者|ひけんしゃ}⟦が→が：00051_ga⟧⟦{参加|さんか}した→参加する：25408_sankasuru⟧。",
       "english": "Two hundred participants took part in this clinical trial.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {被|ひ} (to undergo, receive) + {験|けん} (test, examine) + {者|しゃ} (person). Refers to the person being tested or examined in a research setting. Common in academic papers, medical trials, and psychology studies.\n\nCOMMON COLLOCATIONS:\n- {被験者|ひけんしゃ}を{募集|ぼしゅう}する: to recruit test subjects\n- {被験者|ひけんしゃ}の{同意|どうい}: subject's consent\n- {被験者|ひけんしゃ}{番号|ばんごう}: subject number\n- {被験者|ひけんしゃ}グループ: subject group\n\nSIMILAR WORDS:\n- {実験|じっけん}{対象|たいしょう}: experimental target — more general, can include non-human subjects\n- {参加者|さんかしゃ}: participant — broader term used in surveys, events, and studies alike\n- {患者|かんじゃ}: patient — used in medical treatment contexts rather than research",
+  "notes": "Composed of {被|ひ} (to undergo, receive) + {験|けん} (test, examine) + ⟦{者|しゃ}→〜者：04662_sha⟧ (person). Refers to the person being tested or examined in a research setting. Common in academic papers, medical trials, and psychology studies.\n\nCOMMON COLLOCATIONS:\n- {被験者|ひけんしゃ}⟦を→を：00422_wo⟧⟦{募集|ぼしゅう}→募集：03035_boshuu⟧⟦する→する：00392_suru⟧: to recruit test subjects\n- {被験者|ひけんしゃ}⟦の→の：09472_no⟧⟦{同意|どうい}→同意：05092_doui⟧: subject's consent\n- {被験者|ひけんしゃ}⟦{番号|ばんごう}→番号：02939_bangou⟧: subject number\n- {被験者|ひけんしゃ}⟦グループ→グループ：03840_guruupu⟧: subject group\n\nSIMILAR WORDS:\n- ⟦{実験|じっけん}→実験：03273_jikken⟧⟦{対象|たいしょう}→対象：03393_taishou⟧: experimental target — more general, can include non-human subjects\n- ⟦{参加者|さんかしゃ}→参加者：03059_sankasha⟧: participant — broader term used in surveys, events, and studies alike\n- ⟦{患者|かんじゃ}→患者：00170_kanja⟧: patient — used in medical treatment contexts rather than research",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03059_sankasha",
+      "reading": "さんかしゃ",
+      "headword": "{参加者|さんかしゃ}",
+      "label": "participant"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00170_kanja",
+      "reading": "かんじゃ",
+      "headword": "{患者|かんじゃ}",
+      "label": "patient"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["science", "health"],
+      "pos": [
+        "noun"
+      ],
+      "semantic": [
+        "science",
+        "health"
+      ],
       "formality": "formal",
       "politeness": "plain"
     },
     "created": "2026-04-07T21:09:31Z",
-    "modified": "2026-07-31T00:22:30Z"
+    "modified": "2026-09-02T04:02:10Z"
   }
 }

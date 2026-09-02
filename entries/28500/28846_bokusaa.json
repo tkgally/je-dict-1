@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28846_bokusaa_ex1",
-      "japanese": "{彼|かれ}は{有名|ゆうめい}なボクサーだ。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{有名|ゆうめい}→有名：01106_yuumei⟧なボクサーだ。",
       "english": "He is a famous boxer.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28846_bokusaa_ex2",
-      "japanese": "プロボクサーになるには{厳|きび}しい{練習|れんしゅう}が{必要|ひつよう}だ。",
+      "japanese": "プロボクサー⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{厳|きび}しい→厳しい：01125_kibishii⟧⟦{練習|れんしゅう}→練習：05323_renshuu⟧⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧だ。",
       "english": "Becoming a professional boxer requires intense training.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28846_bokusaa_ex3",
-      "japanese": "そのボクサーは{世界|せかい}{王座|おうざ}を{三度|さんど}{防衛|ぼうえい}した。",
+      "japanese": "⟦その→その：00993_sono⟧ボクサー⟦は→は：00079_ha⟧⟦{世界|せかい}→世界：01447_sekai⟧⟦{王座|おうざ}→王座：21328_ouza⟧⟦を→を：00422_wo⟧⟦{三度|さんど}→三度：15154_sando⟧⟦{防衛|ぼうえい}→防衛：09783_bouei⟧⟦した→する：00392_suru⟧。",
       "english": "That boxer defended his world title three times.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "Loanword from English \"boxer.\" Refers only to the athlete, not the dog breed or men's underwear (those are usually distinguished by context — see below).\n\nCOMMON COLLOCATIONS:\n- プロボクサー: professional boxer\n- アマチュアボクサー: amateur boxer\n- {女性|じょせい}ボクサー: female boxer\n- ボクサー{出身|しゅっしん}: with a boxing background\n\nOTHER MEANINGS OF ボクサー:\nIn other contexts ボクサー can also refer to:\n- The dog breed (\"Boxer\"), usually clarified as ボクサー{犬|けん}.\n- ボクサーパンツ (boxer shorts/briefs) for men's underwear.\nThe standalone word ボクサー most often means the athlete.",
+  "notes": "Loanword from English \"boxer.\" Refers only to the athlete, not the dog breed or men's underwear (those are usually distinguished by context — see below).\n\nCOMMON COLLOCATIONS:\n- プロボクサー: professional boxer\n- ⟦アマチュア→アマチュア：10730_amachua⟧ボクサー: amateur boxer\n- ⟦{女性|じょせい}→女性：01617_josei⟧ボクサー: female boxer\n- ボクサー⟦{出身|しゅっしん}→出身：03221_shusshin⟧: with a boxing background\n\nOTHER MEANINGS OF ボクサー:\nIn other contexts ボクサー can also refer to:\n- The dog breed (\"Boxer\"), usually clarified as ボクサー{犬|けん}.\n- ボクサー⟦パンツ→パンツ：01374_pantsu⟧ (boxer shorts/briefs) for men's underwear.\nThe standalone word ボクサー most often means the athlete.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "05235_bokushingu",
+      "reading": "ぼくしんぐ",
+      "headword": "ボクシング",
+      "label": "boxing"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +62,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "sports",
         "person"
@@ -61,6 +70,6 @@
       "domain": []
     },
     "created": "2026-06-06T03:08:40Z",
-    "modified": "2026-08-08T18:34:17Z"
+    "modified": "2026-09-02T04:02:35Z"
   }
 }

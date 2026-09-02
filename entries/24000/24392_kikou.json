@@ -3,7 +3,7 @@
   "headword": "{起工|きこう}",
   "reading": "きこう",
   "romaji": "kikou",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "commencement of construction; groundbreaking",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24392_kikou_ex1",
-      "japanese": "{来月|らいげつ}{起工|きこう}する{予定|よてい}だ。",
+      "japanese": "⟦{来月|らいげつ}→来月：00744_raigetsu⟧{起工|きこう}⟦する→する：00392_suru⟧⟦{予定|よてい}→予定：00824_yotei⟧だ。",
       "english": "Construction is scheduled to commence next month.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24392_kikou_ex2",
-      "japanese": "{新|あたら}しい{橋|はし}の{起工|きこう}{式|しき}が{行|おこな}われた。",
+      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦{橋|はし}→橋：02163_hashi⟧⟦の→の：09472_no⟧{起工|きこう}{式|しき}⟦が→が：00051_ga⟧⟦{行|おこな}われた→行う：01238_okonau⟧。",
       "english": "A groundbreaking ceremony was held for the new bridge.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24392_kikou_ex3",
-      "japanese": "このビルは{昨年|さくねん}{起工|きこう}し、{再来年|さらいねん}に{完成|かんせい}する{見込|みこ}みだ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦ビル→ビル：01500_biru⟧⟦は→は：00079_ha⟧⟦{昨年|さくねん}→昨年：10433_sakunen⟧{起工|きこう}し、⟦{再来年|さらいねん}→再来年：01417_sarainen⟧⟦に→に：00314_ni⟧⟦{完成|かんせい}する→完成する：25528_kanseisuru⟧⟦{見込|みこ}み→見込み：06872_mikomi⟧だ。",
       "english": "This building broke ground last year and is expected to be completed the year after next.",
       "sense_numbers": [
         1
@@ -45,7 +45,7 @@
     },
     {
       "id": "24392_kikou_ex4",
-      "japanese": "{住民|じゅうみん}の{反対|はんたい}で{起工|きこう}が{遅|おく}れている。",
+      "japanese": "⟦{住民|じゅうみん}→住民：03281_juumin⟧⟦の→の：09472_no⟧⟦{反対|はんたい}→反対：01497_hantai⟧⟦で→で：00502_de⟧{起工|きこう}⟦が→が：00051_ga⟧⟦{遅|おく}れている→遅れる：00741_okureru⟧。",
       "english": "The start of construction is being delayed due to residents' opposition.",
       "sense_numbers": [
         1
@@ -54,8 +54,38 @@
       "notes": null
     }
   ],
-  "notes": "A formal term used in construction, engineering, and news reporting for the start of building work. Typically used for large-scale projects such as buildings, bridges, dams, and public infrastructure. Small home renovations would not normally use this term.\n\nCOMMON COLLOCATIONS:\n- {起工|きこう}{式|しき}: groundbreaking ceremony\n- {起工|きこう}{日|び}: date of commencement of construction\n- {起工|きこう}する: to commence construction\n- {起工|きこう}が{遅|おく}れる: for the start of construction to be delayed\n\nSIMILAR WORDS:\n- {着工|ちゃっこう}: start of construction — very similar, slightly more commonly used in everyday news\n- {竣工|しゅんこう}: completion of construction — the opposite: when building work is finished\n- {建設|けんせつ}: construction — the general term for the activity of building\n- {地鎮祭|じちんさい}: groundbreaking ceremony — the Shinto purification ceremony held before construction\n\nFORMATION:\n{起|き} (to start, to rise) + {工|こう} (construction, work) — literally \"starting construction.\"",
+  "notes": "A formal term used in construction, engineering, and news reporting for the start of building work. Typically used for large-scale projects such as buildings, bridges, dams, and public infrastructure. Small home renovations would not normally use this term.\n\nCOMMON COLLOCATIONS:\n- {起工|きこう}{式|しき}: groundbreaking ceremony\n- {起工|きこう}{日|び}: date of commencement of construction\n- {起工|きこう}⟦する→する：00392_suru⟧: to commence construction\n- {起工|きこう}⟦が→が：00051_ga⟧⟦{遅|おく}れる→遅れる：00741_okureru⟧: for the start of construction to be delayed\n\nSIMILAR WORDS:\n- ⟦{着工|ちゃっこう}→着工：11101_chakkou⟧: start of construction — very similar, slightly more commonly used in everyday news\n- ⟦{竣工|しゅんこう}→竣工：16491_shunkou⟧: completion of construction — the opposite: when building work is finished\n- ⟦{建設|けんせつ}→建設：02708_kensetsu⟧: construction — the general term for the activity of building\n- ⟦{地鎮祭|じちんさい}→地鎮祭：30680_jichinsai⟧: groundbreaking ceremony — the Shinto purification ceremony held before construction\n\nFORMS:\n{起|き} (to start, to rise) + {工|こう} (construction, work) — literally \"starting construction.\"",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11101_chakkou",
+      "reading": "ちゃっこう",
+      "headword": "{着工|ちゃっこう}",
+      "label": "start of construction"
+    },
+    {
+      "type": "antonym",
+      "target_id": "16491_shunkou",
+      "reading": "しゅんこう",
+      "headword": "{竣工|しゅんこう}",
+      "label": "completion of construction"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02708_kensetsu",
+      "reading": "けんせつ",
+      "headword": "{建設|けんせつ}",
+      "label": "construction"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30680_jichinsai",
+      "reading": "じちんさい",
+      "headword": "{地鎮祭|じちんさい}",
+      "label": "groundbreaking ceremony"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -71,7 +101,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-18T16:29:37Z",
-    "modified": "2026-08-02T18:32:34Z"
+    "modified": "2026-09-02T04:02:18Z"
   },
   "conjugation": {
     "type": "suru",

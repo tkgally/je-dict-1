@@ -15,41 +15,60 @@
   "examples": [
     {
       "id": "29247_genzaijikoku_ex1",
-      "japanese": "{現在時刻|げんざいじこく}は{午後|ごご}{三時|さんじ}です。",
+      "japanese": "{現在時刻|げんざいじこく}⟦は→は：00079_ha⟧⟦{午後|ごご}→午後：00544_gogo⟧⟦{三時|さんじ}→三時：10983_sanji⟧です。",
       "english": "The current time is 3 p.m.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29247_genzaijikoku_ex2",
-      "japanese": "{画面|がめん}に{現在時刻|げんざいじこく}が{表示|ひょうじ}される。",
+      "japanese": "⟦{画面|がめん}→画面：04406_gamen⟧⟦に→に：00314_ni⟧{現在時刻|げんざいじこく}⟦が→が：00051_ga⟧⟦{表示|ひょうじ}される→表示する：26973_hyoujisuru⟧。",
       "english": "The current time is displayed on the screen.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29247_genzaijikoku_ex3",
-      "japanese": "アプリを{開|ひら}くと、{世界|せかい}{各地|かくち}の{現在時刻|げんざいじこく}をすぐに{確認|かくにん}できる。",
+      "japanese": "⟦アプリ→アプリ：04722_apuri⟧⟦を→を：00422_wo⟧⟦{開|ひら}く→開く：01979_hiraku⟧⟦と→と：00512_to⟧、⟦{世界|せかい}{各地|かくち}→世界各地：24526_sekaikakuchi⟧⟦の→の：09472_no⟧{現在時刻|げんざいじこく}⟦を→を：00422_wo⟧⟦すぐ→すぐ：00814_sugu⟧⟦に→に：00314_ni⟧⟦{確認|かくにん}できる→確認する：25332_kakuninsuru⟧。",
       "english": "When you open the app, you can immediately check the current time in places around the world.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Formed from {現在|げんざい} (present, now) + {時刻|じこく} (point in time). A set phrase used wherever the present clock time is shown or announced.\n\nCOMMON COLLOCATIONS:\n- {現在時刻|げんざいじこく}を{確認|かくにん}する: to check the current time\n- {現在時刻|げんざいじこく}を{表示|ひょうじ}する: to display the current time\n\nSIMILAR WORDS:\n- {時刻|じこく}: point in time — a specific moment on the clock, not necessarily the present one\n- {現時点|げんじてん}: the present point — refers to \"as of now\" in a broader sense, not just the clock time",
+  "notes": "Formed from ⟦{現在|げんざい}→現在：01556_genzai⟧ (present, now) + ⟦{時刻|じこく}→時刻：03270_jikoku⟧ (point in time). A set phrase used wherever the present clock time is shown or announced.\n\nCOMMON COLLOCATIONS:\n- {現在時刻|げんざいじこく}⟦を→を：00422_wo⟧⟦{確認|かくにん}する→確認する：25332_kakuninsuru⟧: to check the current time\n- {現在時刻|げんざいじこく}⟦を→を：00422_wo⟧⟦{表示|ひょうじ}する→表示する：26973_hyoujisuru⟧: to display the current time\n\nSIMILAR WORDS:\n- ⟦{時刻|じこく}→時刻：03270_jikoku⟧: point in time — a specific moment on the clock, not necessarily the present one\n- ⟦{現時点|げんじてん}→現時点：13556_genjiten⟧: the present point — refers to \"as of now\" in a broader sense, not just the clock time",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13556_genjiten",
+      "reading": "げんじてん",
+      "headword": "{現時点|げんじてん}",
+      "label": "the present point"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["time-general"],
+      "politeness": "plain",
+      "semantic": [
+        "time-general"
+      ],
       "domain": []
     },
     "created": "2026-06-14T12:18:51Z",
-    "modified": "2026-06-14T12:18:51Z"
+    "modified": "2026-09-02T04:02:36Z"
   }
 }

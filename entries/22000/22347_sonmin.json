@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22347_sonmin_ex1",
-      "japanese": "{村民|そんみん}が{集会|しゅうかい}に{参加|さんか}した。",
+      "japanese": "{村民|そんみん}⟦が→が：00051_ga⟧⟦{集会|しゅうかい}→集会：14654_shuukai⟧⟦に→に：00314_ni⟧⟦{参加|さんか}した→参加する：25408_sankasuru⟧。",
       "english": "The villagers attended the meeting.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22347_sonmin_ex2",
-      "japanese": "{村民|そんみん}{全員|ぜんいん}が{避難|ひなん}を{完了|かんりょう}した。",
+      "japanese": "{村民|そんみん}⟦{全員|ぜんいん}→全員：03310_zenin⟧⟦が→が：00051_ga⟧⟦{避難|ひなん}→避難：07908_hinan⟧⟦を→を：00422_wo⟧⟦{完了|かんりょう}した→完了する：20676_kanryousuru⟧。",
       "english": "All the villagers completed their evacuation.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22347_sonmin_ex3",
-      "japanese": "この{祭|まつ}りは{村民|そんみん}の{協力|きょうりょく}なしでは{成|な}り{立|た}たない{大切|たいせつ}な{行事|ぎょうじ}だ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{祭|まつ}り→祭り：03735_matsuri⟧⟦は→は：00079_ha⟧{村民|そんみん}⟦の→の：09472_no⟧⟦{協力|きょうりょく}→協力：00261_kyouryoku⟧なし⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{成|な}り{立|た}たない→成り立つ：07921_naritatsu⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧な⟦{行事|ぎょうじ}→行事：00078_gyouji⟧だ。",
       "english": "This festival is an important event that cannot be held without the cooperation of the villagers.",
       "sense_numbers": [
         1
@@ -44,8 +44,45 @@
       "notes": null
     }
   ],
-  "notes": "The standard formal term for people living in a village ({村|むら}). Follows the common pattern of place type + {民|みん} (people).\n\nCOMMON COLLOCATIONS:\n- {村民|そんみん}{税|ぜい}: village resident tax\n- {村民|そんみん}{大会|たいかい}: village assembly; villagers' meeting\n- {村民|そんみん}{投票|とうひょう}: village residents' vote\n\nRELATED TERMS:\n- {町民|ちょうみん}: town residents\n- {市民|しみん}: city residents; citizens\n- {県民|けんみん}: prefectural residents\n- {住民|じゅうみん}: residents — general term not tied to a specific administrative unit",
+  "notes": "The standard formal term for people living in a village (⟦{村|むら}→村：02261_mura⟧). Follows the common pattern of place type + {民|みん} (people).\n\nCOMMON COLLOCATIONS:\n- {村民|そんみん}{税|ぜい}: village resident tax\n- {村民|そんみん}⟦{大会|たいかい}→大会：03386_taikai⟧: village assembly; villagers' meeting\n- {村民|そんみん}⟦{投票|とうひょう}→投票：03453_touhyou⟧: village residents' vote\n\nRELATED WORDS:\n- ⟦{町民|ちょうみん}→町民：18191_choumin⟧: town residents\n- ⟦{市民|しみん}→市民：01426_shimin⟧: city residents; citizens\n- ⟦{県民|けんみん}→県民：22700_kenmin⟧: prefectural residents\n- ⟦{住民|じゅうみん}→住民：03281_juumin⟧: residents — general term not tied to a specific administrative unit",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "18191_choumin",
+      "reading": "ちょうみん",
+      "headword": "{町民|ちょうみん}",
+      "label": "town residents"
+    },
+    {
+      "type": "related",
+      "target_id": "01426_shimin",
+      "reading": "しみん",
+      "headword": "{市民|しみん}",
+      "label": "city residents"
+    },
+    {
+      "type": "related",
+      "target_id": "22700_kenmin",
+      "reading": "けんみん",
+      "headword": "{県民|けんみん}",
+      "label": "prefectural residents"
+    },
+    {
+      "type": "related",
+      "target_id": "03281_juumin",
+      "reading": "じゅうみん",
+      "headword": "{住民|じゅうみん}",
+      "label": "residents"
+    },
+    {
+      "type": "related",
+      "target_id": "13062_murabito",
+      "reading": "むらびと",
+      "headword": "{村人|むらびと}",
+      "label": "villager"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +96,6 @@
       ]
     },
     "created": "2026-04-05T19:20:40Z",
-    "modified": "2026-04-10T08:28:27Z"
+    "modified": "2026-09-02T04:02:07Z"
   }
 }

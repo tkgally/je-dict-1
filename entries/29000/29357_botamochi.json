@@ -9,36 +9,42 @@
     {
       "sense_number": 1,
       "gloss": "botamochi; sticky rice ball coated with sweet red bean paste",
-      "explanation": "A traditional sweet made of pounded glutinous rice formed into a ball and covered with {あんこ|あんこ} (sweet red bean paste). It is closely associated with the spring equinox, when it is offered to ancestors."
+      "explanation": "A traditional sweet made of pounded glutinous rice formed into a ball and covered with あんこ (sweet red bean paste). It is closely associated with the spring equinox, when it is offered to ancestors."
     }
   ],
   "examples": [
     {
       "id": "29357_botamochi_ex1",
-      "japanese": "{牡丹餅|ぼたもち}を{作|つく}る。",
+      "japanese": "{牡丹餅|ぼたもち}⟦を→を：00422_wo⟧⟦{作|つく}る→作る：00481_tsukuru⟧。",
       "english": "I make botamochi.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29357_botamochi_ex2",
-      "japanese": "お{彼岸|ひがん}に{牡丹餅|ぼたもち}を{供|そな}える。",
+      "japanese": "⟦お{彼岸|ひがん}→お彼岸：08933_ohigan⟧⟦に→に：00314_ni⟧{牡丹餅|ぼたもち}⟦を→を：00422_wo⟧⟦{供|そな}える→供える：11562_sonaeru⟧。",
       "english": "We offer botamochi at the equinox.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29357_botamochi_ex3",
-      "japanese": "{祖母|そぼ}は{春|はる}の{彼岸|ひがん}にいつも{牡丹餅|ぼたもち}を{作|つく}ってくれる。",
+      "japanese": "⟦{祖母|そぼ}→祖母：00813_sobo⟧⟦は→は：00079_ha⟧⟦{春|はる}→春：00627_haru⟧⟦の→の：09472_no⟧⟦{彼岸|ひがん}→彼岸：12612_higan⟧⟦に→に：00314_ni⟧⟦いつも→いつも：00599_itsumo⟧{牡丹餅|ぼたもち}⟦を→を：00422_wo⟧⟦{作|つく}って→作る：00481_tsukuru⟧⟦くれる→くれる：00724_kureru⟧。",
       "english": "My grandmother always makes botamochi for the spring equinox.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Named after the {牡丹|ぼたん} (peony), a spring flower. The same sweet eaten at the autumn equinox is usually called おはぎ, named after the bush clover ({萩|はぎ}) that blooms then.\n\nCULTURAL CONTEXT:\n- Strongly tied to お{彼岸|ひがん} (the equinoxes), when it is offered at family altars and graves\n- Source of the proverb {棚|たな}から{牡丹餅|ぼたもち} (\"botamochi from a shelf\"), meaning an unexpected stroke of luck",
+  "notes": "Named after the ⟦{牡丹|ぼたん}→牡丹：13488_botan⟧ (peony), a spring flower. The same sweet eaten at the autumn equinox is usually called ⟦おはぎ→おはぎ：29365_ohagi⟧, named after the bush clover ({萩|はぎ}) that blooms then.\n\nCULTURAL NOTE:\n- Strongly tied to ⟦お{彼岸|ひがん}→お彼岸：08933_ohigan⟧ (the equinoxes), when it is offered at family altars and graves\n- Source of the proverb ⟦{棚|たな}→棚：01650_tana⟧⟦から→から：00504_kara⟧{牡丹餅|ぼたもち} (\"botamochi from a shelf\"), meaning an unexpected stroke of luck",
   "cross_references": [
     {
       "type": "related",
@@ -46,19 +52,31 @@
       "reading": "たなからぼたもち",
       "headword": "{棚|たな}から{牡丹餅|ぼたもち}",
       "label": "proverb: unexpected good fortune"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29365_ohagi",
+      "reading": "おはぎ",
+      "headword": "おはぎ",
+      "label": "ohagi"
     }
   ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["food", "culture"],
+      "politeness": "plain",
+      "semantic": [
+        "food",
+        "culture"
+      ],
       "domain": []
     },
     "created": "2026-06-20T00:19:53Z",
-    "modified": "2026-06-20T00:19:53Z"
+    "modified": "2026-09-02T04:02:36Z"
   }
 }

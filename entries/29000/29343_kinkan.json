@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "29343_kinkan_ex1",
-      "japanese": "{近刊|きんかん}の{案内|あんない}が{届|とど}いた。",
+      "japanese": "{近刊|きんかん}⟦の→の：09472_no⟧⟦{案内|あんない}→案内：01291_annai⟧⟦が→が：00051_ga⟧⟦{届|とど}いた→届く：00899_todoku⟧。",
       "english": "An announcement of forthcoming books arrived.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29343_kinkan_ex2",
-      "japanese": "その{作家|さっか}の{近刊|きんかん}を{楽|たの}しみにしている。",
+      "japanese": "⟦その→その：00993_sono⟧⟦{作家|さっか}→作家：01414_sakka⟧⟦の→の：09472_no⟧{近刊|きんかん}⟦を→を：00422_wo⟧⟦{楽|たの}しみ→楽しみ：01651_tanoshimi⟧にして⟦いる→いる：00495_iru⟧。",
       "english": "I'm looking forward to that author's forthcoming book.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29343_kinkan_ex3",
-      "japanese": "{出版社|しゅっぱんしゃ}のサイトには、{来月|らいげつ}の{近刊|きんかん}リストが{掲載|けいさい}されている。",
+      "japanese": "⟦{出版社|しゅっぱんしゃ}→出版社：11765_shuppansha⟧⟦の→の：09472_no⟧⟦サイト→サイト：05603_saito⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧、⟦{来月|らいげつ}→来月：00744_raigetsu⟧⟦の→の：09472_no⟧{近刊|きんかん}⟦リスト→リスト：09786_risuto⟧⟦が→が：00051_ga⟧⟦{掲載|けいさい}→掲載：08993_keisai⟧⟦されている→する：00392_suru⟧。",
       "english": "The publisher's website lists next month's forthcoming titles.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {近|きん} (near) + {刊|かん} (publication). Used in publishing and bookselling to announce books due out soon.\n\nCOMMON COLLOCATIONS:\n- {近刊|きんかん}{予告|よこく}: announcement of forthcoming books\n- {近刊|きんかん}{案内|あんない}: forthcoming-titles guide\n- {近刊|きんかん}{予定|よてい}: scheduled for upcoming release\n\nSIMILAR WORDS:\n- {新刊|しんかん}: new publication — a book that has just been released\n- {既刊|きかん}: already published — books already in print",
+  "notes": "Composed of {近|きん} (near) + {刊|かん} (publication). Used in publishing and bookselling to announce books due out soon.\n\nCOMMON COLLOCATIONS:\n- {近刊|きんかん}⟦{予告|よこく}→予告：08379_yokoku⟧: announcement of forthcoming books\n- {近刊|きんかん}⟦{案内|あんない}→案内：01291_annai⟧: forthcoming-titles guide\n- {近刊|きんかん}⟦{予定|よてい}→予定：00824_yotei⟧: scheduled for upcoming release\n\nSIMILAR WORDS:\n- ⟦{新刊|しんかん}→新刊：16466_shinkan⟧: new publication — a book that has just been released\n- ⟦{既刊|きかん}→既刊：17885_kikan⟧: already published — books already in print",
   "cross_references": [
     {
       "type": "related",
@@ -46,18 +52,29 @@
       "reading": "しんかん",
       "headword": "{新刊|しんかん}",
       "label": "new publication"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17885_kikan",
+      "reading": "きかん",
+      "headword": "{既刊|きかん}",
+      "label": "already published"
     }
   ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["media"],
+      "semantic": [
+        "media"
+      ],
       "domain": []
     },
     "created": "2026-06-19T07:33:25Z",
-    "modified": "2026-06-19T07:33:25Z"
+    "modified": "2026-09-02T04:02:36Z"
   }
 }

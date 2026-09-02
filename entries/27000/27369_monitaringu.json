@@ -4,19 +4,19 @@
   "reading": "もにたりんぐ",
   "romaji": "monitaringu",
   "schema_version": "2.0",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "monitoring; ongoing observation/measurement of a system or condition",
   "definitions": [
     {
       "sense_number": 1,
       "gloss": "monitoring; continuous observation; tracking",
-      "explanation": "Ongoing observation, measurement, or tracking of a process, system, environment, or person's condition. Used in business, IT, healthcare, environmental science, and consumer-product testing. Often combined with {する} as a verb (モニタリングする = to monitor)."
+      "explanation": "Ongoing observation, measurement, or tracking of a process, system, environment, or person's condition. Used in business, IT, healthcare, environmental science, and consumer-product testing. Often combined with する as a verb (モニタリングする = to monitor)."
     }
   ],
   "examples": [
     {
       "id": "27369_monitaringu_ex1",
-      "japanese": "{患者|かんじゃ}をモニタリングする。",
+      "japanese": "⟦{患者|かんじゃ}→患者：00170_kanja⟧⟦を→を：00422_wo⟧モニタリング⟦する→する：00392_suru⟧。",
       "english": "To monitor the patient.",
       "sense_numbers": [
         1
@@ -26,7 +26,7 @@
     },
     {
       "id": "27369_monitaringu_ex2",
-      "japanese": "{水質|すいしつ}のモニタリングを{続|つづ}けている。",
+      "japanese": "⟦{水質|すいしつ}→水質：22420_suishitsu⟧⟦の→の：09472_no⟧モニタリング⟦を→を：00422_wo⟧⟦{続|つづ}け→続く：00903_tsuzuku⟧て⟦いる→いる：00495_iru⟧。",
       "english": "We are continuing to monitor water quality.",
       "sense_numbers": [
         1
@@ -36,7 +36,7 @@
     },
     {
       "id": "27369_monitaringu_ex3",
-      "japanese": "{社内|しゃない}ネットワークの{通信|つうしん}をモニタリングするツールを{導入|どうにゅう}した。",
+      "japanese": "⟦{社内|しゃない}→社内：13731_shanai⟧⟦ネットワーク→ネットワーク：04759_nettowaaku⟧⟦の→の：09472_no⟧⟦{通信|つうしん}→通信：03514_tsuushin⟧⟦を→を：00422_wo⟧モニタリング⟦する→する：00392_suru⟧⟦ツール→ツール：11044_tsuuru⟧⟦を→を：00422_wo⟧⟦{導入|どうにゅう}した→導入する：16055_dounyuusuru⟧。",
       "english": "We introduced a tool that monitors traffic on the company network.",
       "sense_numbers": [
         1
@@ -46,7 +46,7 @@
     },
     {
       "id": "27369_monitaringu_ex4",
-      "japanese": "{新薬|しんやく}の{副作用|ふくさよう}については、{長期間|ちょうきかん}にわたって{慎重|しんちょう}にモニタリングを{行|おこな}う{必要|ひつよう}がある。",
+      "japanese": "⟦{新薬|しんやく}→新薬：28055_shinyaku⟧⟦の→の：09472_no⟧⟦{副作用|ふくさよう}→副作用：05015_fukusayou⟧⟦について→〜について：03103_nitsuite⟧⟦は→は：00079_ha⟧、⟦{長期間|ちょうきかん}→長期間：25696_choukikan⟧⟦に→に：00314_ni⟧わたって⟦{慎重|しんちょう}→慎重：03264_shinchou⟧⟦に→に：00314_ni⟧モニタリング⟦を→を：00422_wo⟧⟦{行|おこな}う→行う：01238_okonau⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "It is necessary to carefully monitor the side effects of the new drug over a long period.",
       "sense_numbers": [
         1
@@ -55,10 +55,40 @@
       "notes": null
     }
   ],
-  "notes": "モニタリング is the English loanword \"monitoring,\" used widely in technical, business, and scientific contexts.\n\nTYPICAL DOMAINS:\n- IT / network management ({通信|つうしん}のモニタリング, システムモニタリング)\n- Healthcare ({患者|かんじゃ}のモニタリング, {心拍|しんぱく}モニタリング)\n- Environmental science ({大気|たいき}{汚染|おせん}のモニタリング, {水質|すいしつ}モニタリング)\n- Consumer research (モニタリング{調査|ちょうさ} \"monitor surveys\" using paid testers)\n- Marketing and broadcasting (audience monitoring)\n\nCOMMON COLLOCATIONS:\n- モニタリングを{行|おこな}う: to carry out monitoring (formal)\n- モニタリングする: to monitor\n- {遠隔|えんかく}モニタリング: remote monitoring\n- {常時|じょうじ}モニタリング: continuous monitoring\n- モニタリングシステム: monitoring system\n- モニタリング{結果|けっか}: monitoring results\n\nSIMILAR / RELATED TERMS:\n- {監視|かんし}: surveillance, monitoring — the native equivalent. Often interchangeable with モニタリング for security cameras and supervisory observation, but {監視|かんし} carries a stronger \"watching for trouble\" nuance and can sound vigilant or even oppressive in human contexts. モニタリング feels more neutral and technical.\n- {観測|かんそく}: observation, measurement — used for scientific or meteorological observation rather than continuous tracking of a system\n- {追跡|ついせき}: tracking, pursuit — emphasizes following a moving target (a vehicle, a package, a virus's spread)\n- {計測|けいそく}: measurement — a single act or series of measurements rather than ongoing monitoring\n\nUSAGE NOTES:\n- In business and tech writing, モニタリング tends to be preferred for systems, data flows, and processes; {監視|かんし} is more common for security and human-supervisory contexts.\n- The Japanese popular TV show \"モニタリング\" (a candid-camera-style program) is a well-known cultural reference for the word, where it specifically means \"observing how subjects react.\"",
+  "notes": "モニタリング is the English loanword \"monitoring,\" used widely in technical, business, and scientific contexts.\n\nTYPICAL DOMAINS:\n- IT / network management (⟦{通信|つうしん}→通信：03514_tsuushin⟧⟦の→の：09472_no⟧モニタリング, ⟦システム→システム：08428_shisutemu⟧モニタリング)\n- Healthcare (⟦{患者|かんじゃ}→患者：00170_kanja⟧⟦の→の：09472_no⟧モニタリング, ⟦{心拍|しんぱく}→心拍：25482_shinpaku⟧モニタリング)\n- Environmental science (⟦{大気|たいき}{汚染|おせん}→大気汚染：09254_taikiosen⟧⟦の→の：09472_no⟧モニタリング, ⟦{水質|すいしつ}→水質：22420_suishitsu⟧モニタリング)\n- Consumer research (モニタリング⟦{調査|ちょうさ}→調査：03489_chousa⟧ \"monitor surveys\" using paid testers)\n- Marketing and broadcasting (audience monitoring)\n\nCOMMON COLLOCATIONS:\n- モニタリング⟦を→を：00422_wo⟧⟦{行|おこな}う→行う：01238_okonau⟧: to carry out monitoring (formal)\n- モニタリング⟦する→する：00392_suru⟧: to monitor\n- ⟦{遠隔|えんかく}→遠隔：14381_enkaku⟧モニタリング: remote monitoring\n- ⟦{常時|じょうじ}→常時：19766_jouji⟧モニタリング: continuous monitoring\n- モニタリングシステム: monitoring system\n- モニタリング⟦{結果|けっか}→結果：02486_kekka⟧: monitoring results\n\nSIMILAR / RELATED TERMS:\n- ⟦{監視|かんし}→監視：05521_kanshi⟧: surveillance, monitoring — the native equivalent. Often interchangeable with モニタリング for security cameras and supervisory observation, but ⟦{監視|かんし}→監視：05521_kanshi⟧ carries a stronger \"watching for trouble\" nuance and can sound vigilant or even oppressive in human contexts. モニタリング feels more neutral and technical.\n- ⟦{観測|かんそく}→観測：00183_kansoku⟧: observation, measurement — used for scientific or meteorological observation rather than continuous tracking of a system\n- ⟦{追跡|ついせき}→追跡：09722_tsuiseki⟧: tracking, pursuit — emphasizes following a moving target (a vehicle, a package, a virus's spread)\n- ⟦{計測|けいそく}→計測：14189_keisoku⟧: measurement — a single act or series of measurements rather than ongoing monitoring\n\nUSAGE:\n- In business and tech writing, モニタリング tends to be preferred for systems, data flows, and processes; ⟦{監視|かんし}→監視：05521_kanshi⟧ is more common for security and human-supervisory contexts.\n- The Japanese popular TV show \"モニタリング\" (a candid-camera-style program) is a well-known cultural reference for the word, where it specifically means \"observing how subjects react.\"",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05521_kanshi",
+      "reading": "かんし",
+      "headword": "{監視|かんし}",
+      "label": "surveillance, monitoring"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00183_kansoku",
+      "reading": "かんそく",
+      "headword": "{観測|かんそく}",
+      "label": "observation, measurement"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09722_tsuiseki",
+      "reading": "ついせき",
+      "headword": "{追跡|ついせき}",
+      "label": "tracking, pursuit"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14189_keisoku",
+      "reading": "けいそく",
+      "headword": "{計測|けいそく}",
+      "label": "measurement"
+    }
+  ],
   "metadata": {
     "created": "2026-05-10T03:06:33Z",
-    "modified": "2026-08-07T16:10:18Z",
+    "modified": "2026-09-02T04:02:30Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
@@ -76,7 +106,8 @@
         "cognition",
         "measurement"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   },
   "conjugation": {

@@ -2,7 +2,7 @@
   "id": "06719_sukusho",
   "headword": "スクショ",
   "reading": "すくしょ",
-  "part_of_speech": "noun; suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "screenshot",
   "conjugation": {
     "type": "suru",
@@ -133,11 +133,19 @@
       ]
     }
   ],
-  "notes": "ETYMOLOGY:\nAbbreviation of ⟦スクリーンショット→スクリーンショット：28437_sukuriinshotto⟧ (screen shot).\n\nGRAMMAR:\n・スクショ⟦を→を：00422_wo⟧⟦{撮|と}る→撮る：00760_toru⟧ - to take a screenshot\n・スクショ⟦する→する：00392_suru⟧ - to screenshot (verb)\n\nUSAGE:\nVery common in casual and online contexts. The full form ⟦スクリーンショット→スクリーンショット：28437_sukuriinshotto⟧ is used in more formal or technical writing.\n\nCOMMON COLLOCATIONS:\n・スクショ⟦を→を：00422_wo⟧⟦{撮|と}る→撮る：00760_toru⟧ (to take a screenshot)\n・スクショ⟦を→を：00422_wo⟧⟦{保存|ほぞん}する→保存：03626_hozon⟧ (to save a screenshot)\n・スクショ⟦を→を：00422_wo⟧⟦{送|おく}る→送る：00742_okuru⟧ (to send a screenshot)\n・スクショ⟦を→を：00422_wo⟧⟦{貼|は}る→貼る：10447_haru⟧ (to post/attach a screenshot)\n\nABBREVIATION PATTERN:\nSimilar abbreviated katakana words:\n・⟦パソコン→パソコン：01538_pasokon⟧ (personal computer)\n・⟦コンビニ→コンビニ：01081_konbini⟧ (convenience store)\n・⟦スマホ→スマホ：04721_sumaho⟧ (smartphone)",
-  "cross_references": [],
+  "notes": "ETYMOLOGY:\nAbbreviation of ⟦スクリーンショット→スクリーンショット：28437_sukuriinshotto⟧ (screen shot).\n\nCOMMON PATTERNS:\n- スクショ⟦を→を：00422_wo⟧⟦{撮|と}る→撮る：00760_toru⟧ - to take a screenshot\n- スクショ⟦する→する：00392_suru⟧ - to screenshot (verb)\n\nUSAGE:\nVery common in casual and online contexts. The full form ⟦スクリーンショット→スクリーンショット：28437_sukuriinshotto⟧ is used in more formal or technical writing.\n\nCOMMON COLLOCATIONS:\n- スクショ⟦を→を：00422_wo⟧⟦{撮|と}る→撮る：00760_toru⟧ (to take a screenshot)\n- スクショ⟦を→を：00422_wo⟧⟦{保存|ほぞん}する→保存：03626_hozon⟧ (to save a screenshot)\n- スクショ⟦を→を：00422_wo⟧⟦{送|おく}る→送る：00742_okuru⟧ (to send a screenshot)\n- スクショ⟦を→を：00422_wo⟧⟦{貼|は}る→貼る：10447_haru⟧ (to post/attach a screenshot)\n\nABBREVIATION PATTERN:\nSimilar abbreviated katakana words:\n- ⟦パソコン→パソコン：01538_pasokon⟧ (personal computer)\n- ⟦コンビニ→コンビニ：01081_konbini⟧ (convenience store)\n- ⟦スマホ→スマホ：04721_sumaho⟧ (smartphone)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "28437_sukuriinshotto",
+      "reading": "すくりーんしょっと",
+      "headword": "スクリーンショット",
+      "label": "screenshot"
+    }
+  ],
   "metadata": {
     "created": "2026-01-18T04:42:13Z",
-    "modified": "2026-08-01T00:19:39Z",
+    "modified": "2026-09-02T04:00:52Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -153,7 +161,8 @@
       "semantic": [
         "electronics"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

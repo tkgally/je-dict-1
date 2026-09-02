@@ -3,7 +3,7 @@
   "headword": "イメージする",
   "reading": "いめーじする",
   "romaji": "imeejisuru",
-  "part_of_speech": "verb",
+  "part_of_speech": "suru verb",
   "gloss": "to imagine; to visualize; to picture",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "20991_imeejisuru_ex1",
-      "japanese": "{成功|せいこう}した{自分|じぶん}をイメージする。",
+      "japanese": "⟦{成功|せいこう}した→成功する：21445_seikousuru⟧⟦{自分|じぶん}→自分：02887_jibun⟧⟦を→を：00422_wo⟧イメージする。",
       "english": "To picture yourself succeeding.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "20991_imeejisuru_ex2",
-      "japanese": "{完成|かんせい}{形|けい}をイメージしてから{作|つく}り{始|はじ}める。",
+      "japanese": "⟦{完成|かんせい}→完成：01550_kansei⟧{形|けい}⟦を→を：00422_wo⟧イメージして⟦から→から：00504_kara⟧⟦{作|つく}り→作る：00481_tsukuru⟧{始|はじ}める。",
       "english": "I start making it after visualizing the finished form.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "20991_imeejisuru_ex3",
-      "japanese": "{日本|にほん}と{聞|き}いて、どんなことをイメージしますか。",
+      "japanese": "⟦{日本|にほん}→日本：03876_nihon⟧⟦と→と：00512_to⟧⟦{聞|き}いて→聞く：00483_kiku⟧、⟦どんな→どんな：02924_donna⟧こと⟦を→を：00422_wo⟧イメージします⟦か→か：09473_ka⟧。",
       "english": "When you hear 'Japan,' what do you picture?",
       "sense_numbers": [
         1
@@ -44,9 +44,32 @@
       "notes": null
     }
   ],
-  "notes": "A する verb from the English loanword 'image.' Widely used in everyday Japanese, especially in contexts of mental visualization, branding, and impressions.\n\nCOMMON COLLOCATIONS:\n- ～をイメージする: to imagine/picture ~\n- イメージしやすい: easy to imagine\n- イメージしにくい: hard to imagine\n- イメージ{通|どお}り: just as imagined\n\nUSAGE:\nUnlike English 'imagine,' イメージする often focuses on forming a concrete mental picture rather than abstract supposition. For hypothetical scenarios ('imagine if...'), {想像|そうぞう}する is more natural.\n\nSIMILAR WORDS:\n- {想像|そうぞう}する: to imagine — broader; includes hypothetical and creative imagination\n- {思|おも}い{浮|う}かべる: to call to mind, to picture — native Japanese equivalent\n- {連想|れんそう}する: to associate (mentally) — triggered association rather than deliberate visualization",
+  "notes": "A ⟦する→する：00392_suru⟧ verb from the English loanword 'image.' Widely used in everyday Japanese, especially in contexts of mental visualization, branding, and impressions.\n\nCOMMON COLLOCATIONS:\n- ～⟦を→を：00422_wo⟧イメージする: to imagine/picture ~\n- イメージしやすい: easy to imagine\n- イメージしにくい: hard to imagine\n- ⟦イメージ→イメージ：03832_imeeji⟧{通|どお}り: just as imagined\n\nUSAGE:\nUnlike English 'imagine,' イメージする often focuses on forming a concrete mental picture rather than abstract supposition. For hypothetical scenarios ('imagine if...'), ⟦{想像|そうぞう}する→想像する：06060_souzousuru⟧ is more natural.\n\nSIMILAR WORDS:\n- ⟦{想像|そうぞう}する→想像する：06060_souzousuru⟧: to imagine — broader; includes hypothetical and creative imagination\n- ⟦{思|おも}い{浮|う}かべる→思い浮かべる：06980_omoiukaberu⟧: to call to mind, to picture — native Japanese equivalent\n- ⟦{連想|れんそう}する→連想する：22433_rensousuru⟧: to associate (mentally) — triggered association rather than deliberate visualization",
   "conjugation_type": "suru",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06060_souzousuru",
+      "reading": "そうぞうする",
+      "headword": "{想像|そうぞう}する",
+      "label": "to imagine"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06980_omoiukaberu",
+      "reading": "おもいうかべる",
+      "headword": "{思|おも}い{浮|う}かべる",
+      "label": "to call to mind, to picture"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22433_rensousuru",
+      "reading": "れんそうする",
+      "headword": "{連想|れんそう}する",
+      "label": "to associate"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -58,10 +81,11 @@
       "semantic": [
         "cognition"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-03-31T09:50:13Z",
-    "modified": "2026-03-31T09:50:13Z"
+    "modified": "2026-09-02T04:02:01Z"
   },
   "conjugation": {
     "type": "suru",

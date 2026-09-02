@@ -3,7 +3,7 @@
   "id": "15937_jukou",
   "headword": "{受講|じゅこう}",
   "reading": "じゅこう",
-  "part_of_speech": "noun / verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "taking a course; attending a lecture",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "15937_jukou_ex1",
-      "japanese": "オンライン{講座|こうざ}を{受講|じゅこう}している。",
+      "japanese": "⟦オンライン→オンライン：05278_onrain⟧⟦{講座|こうざ}→講座：09790_kouza⟧⟦を→を：00422_wo⟧{受講|じゅこう}⟦している→する：00392_suru⟧。",
       "english": "I am taking an online course.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "15937_jukou_ex2",
-      "japanese": "{受講|じゅこう}{申|もう}し{込|こ}みは{来週|らいしゅう}までです。",
+      "japanese": "{受講|じゅこう}⟦{申|もう}し{込|こ}み→申し込み：03161_moushikomi⟧⟦は→は：00079_ha⟧⟦{来週|らいしゅう}→来週：00746_raishuu⟧⟦まで→まで：00490_made⟧です。",
       "english": "Registration for the course is until next week.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "15937_jukou_ex3",
-      "japanese": "{新入社員|しんにゅうしゃいん}は{全員|ぜんいん}、{安全|あんぜん}{研修|けんしゅう}を{受講|じゅこう}しなければならない。",
+      "japanese": "⟦{新入社員|しんにゅうしゃいん}→新入社員：15536_shinnyuushain⟧⟦は→は：00079_ha⟧⟦{全員|ぜんいん}→全員：03310_zenin⟧、⟦{安全|あんぜん}→安全：01131_anzen⟧⟦{研修|けんしゅう}→研修：05322_kenshuu⟧⟦を→を：00422_wo⟧{受講|じゅこう}し⟦なければならない→なければならない：27600_nakerebanaranai⟧。",
       "english": "All new employees must take the safety training course.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,11 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{受講|じゅこう} is a formal term for attending lectures or courses. It is more formal than simply saying {授業|じゅぎょう}を{受|う}ける (to take a class) and is preferred in official contexts like university course registration or corporate training.\n\nCOMMON COLLOCATIONS:\n- {受講|じゅこう}する (to take a course)\n- {受講|じゅこう}{者|しゃ} (course participant, attendee)\n- {受講|じゅこう}{料|りょう} (course fee)\n- {受講|じゅこう}{申|もう}し{込|こ}み (course registration)\n- {受講|じゅこう}{証明書|しょうめいしょ} (certificate of completion)\n\nSIMILAR WORDS:\n{聴講|ちょうこう} means to audit a course (attend without credit), while {受講|じゅこう} implies formal enrollment.",
+  "notes": "USAGE:\n{受講|じゅこう} is a formal term for attending lectures or courses. It is more formal than simply saying ⟦{授業|じゅぎょう}→授業：00781_jugyou⟧⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧ (to take a class) and is preferred in official contexts like university course registration or corporate training.\n\nCOMMON COLLOCATIONS:\n- {受講|じゅこう}⟦する→する：00392_suru⟧ (to take a course)\n- {受講|じゅこう}{者|しゃ} (course participant, attendee)\n- {受講|じゅこう}{料|りょう} (course fee)\n- {受講|じゅこう}⟦{申|もう}し{込|こ}み→申し込み：03161_moushikomi⟧ (course registration)\n- {受講|じゅこう}⟦{証明書|しょうめいしょ}→証明書：09785_shoumeisho⟧ (certificate of completion)\n\nSIMILAR WORDS:\n{聴講|ちょうこう} means to audit a course (attend without credit), while {受講|じゅこう} implies formal enrollment.",
   "cross_references": [],
   "metadata": {
     "created": "2026-03-09T00:40:47Z",
-    "modified": "2026-03-29T03:08:18Z",
+    "modified": "2026-09-02T04:01:43Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -151,7 +151,8 @@
       "semantic": [
         "education"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

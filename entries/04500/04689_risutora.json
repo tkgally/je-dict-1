@@ -168,7 +168,7 @@
       "notes": null
     }
   ],
-  "notes": "リストラ is an abbreviation of 'リストラクチャリング' (restructuring) from English.\n\nIn Japanese, リストラ primarily focuses on the workforce reduction aspect, often used to describe layoffs.\n\nCOMMON COLLOCATIONS:\n- リストラ⟦する→する：00392_suru⟧ (to restructure; to lay off)\n- リストラ⟦される→する：00392_suru⟧ (to be laid off)\n- リストラ⟦に→に：00314_ni⟧⟦{遭|あ}う→遭う：09500_au⟧ (to face/suffer layoffs)\n- リストラ⟦{候補|こうほ}→候補：02804_kouho⟧ (layoff candidate)\n\nRELATED TERMS:\n- ⟦{人員削減|じんいんさくげん}→人員削減：noentry⟧ (workforce reduction)\n- ⟦{合理化|ごうりか}→合理化：17148_gourika⟧ (rationalization)\n- ⟦{解雇|かいこ}→解雇：04561_kaiko⟧ (dismissal)\n- ⟦{早期退職|そうきたいしょく}→早期退職：08070_soukitaishoku⟧ (early retirement)\n\nCULTURAL NOTE:\nリストラ became a common term during Japan's economic stagnation in the 1990s-2000s. It often carries negative connotations in Japanese.",
+  "notes": "リストラ is an abbreviation of 'リストラクチャリング' (restructuring) from English.\n\nIn Japanese, リストラ primarily focuses on the workforce reduction aspect, often used to describe layoffs.\n\nCOMMON COLLOCATIONS:\n- リストラ⟦する→する：00392_suru⟧ (to restructure; to lay off)\n- リストラ⟦される→する：00392_suru⟧ (to be laid off)\n- リストラ⟦に→に：00314_ni⟧⟦{遭|あ}う→遭う：09500_au⟧ (to face/suffer layoffs)\n- リストラ⟦{候補|こうほ}→候補：02804_kouho⟧ (layoff candidate)\n\nRELATED WORDS:\n- ⟦{人員削減|じんいんさくげん}→人員削減：noentry⟧ (workforce reduction)\n- ⟦{合理化|ごうりか}→合理化：17148_gourika⟧ (rationalization)\n- ⟦{解雇|かいこ}→解雇：04561_kaiko⟧ (dismissal)\n- ⟦{早期退職|そうきたいしょく}→早期退職：08070_soukitaishoku⟧ (early retirement)\n\nCULTURAL NOTE:\nリストラ became a common term during Japan's economic stagnation in the 1990s-2000s. It often carries negative connotations in Japanese.",
   "cross_references": [
     {
       "type": "related",
@@ -176,11 +176,39 @@
       "reading": "かいこ",
       "headword": "{解雇|かいこ}",
       "label": "dismissal"
+    },
+    {
+      "type": "related",
+      "target_id": "17148_gourika",
+      "reading": "ごうりか",
+      "headword": "{合理化|ごうりか}",
+      "label": "rationalization"
+    },
+    {
+      "type": "related",
+      "target_id": "08070_soukitaishoku",
+      "reading": "そうきたいしょく",
+      "headword": "{早期退職|そうきたいしょく}",
+      "label": "early retirement"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07656_saihen",
+      "reading": "さいへん",
+      "headword": "{再編|さいへん}",
+      "label": "restructuring"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18401_yatoidome",
+      "reading": "やといどめ",
+      "headword": "{雇|やと}い{止|ど}め",
+      "label": "non-renewal of contract"
     }
   ],
   "metadata": {
     "created": "2026-01-15T23:09:03Z",
-    "modified": "2026-06-01T20:12:35Z",
+    "modified": "2026-09-02T04:00:52Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
@@ -192,7 +220,8 @@
       "semantic": [
         "work"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

@@ -3,7 +3,7 @@
   "headword": "{生|う}まれつき",
   "reading": "うまれつき",
   "romaji": "umaretsuki",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, adverb",
   "gloss": "by nature; from birth; innate quality",
   "definitions": [
     {
@@ -15,40 +15,67 @@
   "examples": [
     {
       "id": "21201_umaretsuki_ex1",
-      "japanese": "{彼女|かのじょ}は{生|う}まれつき{目|め}がいい。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧{生|う}まれつき⟦{目|め}→目：00525_me⟧⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧。",
       "english": "She has naturally good eyesight.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21201_umaretsuki_ex2",
-      "japanese": "{生|う}まれつきの{才能|さいのう}だけでは{成功|せいこう}できない。",
+      "japanese": "{生|う}まれつき⟦の→の：09472_no⟧⟦{才能|さいのう}→才能：02772_sainou⟧⟦だけ→〜だけ：03093_dake⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{成功|せいこう}できない→成功する：21445_seikousuru⟧。",
       "english": "You can't succeed on innate talent alone.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21201_umaretsuki_ex3",
-      "japanese": "{生|う}まれつき{体|からだ}が{弱|よわ}かったが、{運動|うんどう}を{続|つづ}けて{健康|けんこう}になった。",
+      "japanese": "{生|う}まれつき⟦{体|からだ}→体：00784_karada⟧⟦が→が：00051_ga⟧⟦{弱|よわ}かった→弱い：00825_yowai⟧⟦が→が：00051_ga⟧、⟦{運動|うんどう}→運動：00821_undou⟧⟦を→を：00422_wo⟧⟦{続|つづ}け→続く：00903_tsuzuku⟧て⟦{健康|けんこう}→健康：02706_kenkou⟧になった。",
       "english": "I was frail from birth, but I became healthy by continuing to exercise.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Combines {生|う}まれる (to be born) with つき (attached/inherent). Can function as a noun modifying another noun with の ({生|う}まれつきの{性格|せいかく} 'innate personality') or as an adverb directly modifying a predicate ({生|う}まれつき{足|あし}が{速|はや}い 'naturally fast on one's feet').\n\nCOMMON COLLOCATIONS:\n- {生|う}まれつきの{才能|さいのう}: innate talent\n- {生|う}まれつきの{性格|せいかく}: natural temperament\n- {生|う}まれつき{体|からだ}が{弱|よわ}い: physically frail from birth\n- {生|う}まれつき{目|め}が{悪|わる}い: born with poor eyesight\n\nSIMILAR WORDS:\n- {先天的|せんてんてき}: congenital, innate — more formal and medical/academic in tone\n- {天性|てんせい}: natural gift, innate nature — literary, often used for positive traits\n- {持|も}って{生|う}まれた: born with — a verbal phrase with the same meaning",
+  "notes": "Combines ⟦{生|う}まれる→生まれる：00905_umareru⟧ (to be born) with つき (attached/inherent). Can function as a noun modifying another noun with ⟦の→の：09472_no⟧ ({生|う}まれつき⟦の→の：09472_no⟧⟦{性格|せいかく}→性格：03371_seikaku⟧ 'innate personality') or as an adverb directly modifying a predicate ({生|う}まれつき⟦{足|あし}→足：00575_ashi⟧⟦が→が：00051_ga⟧⟦{速|はや}い→速い：00514_hayai⟧ 'naturally fast on one's feet').\n\nCOMMON COLLOCATIONS:\n- {生|う}まれつき⟦の→の：09472_no⟧⟦{才能|さいのう}→才能：02772_sainou⟧: innate talent\n- {生|う}まれつき⟦の→の：09472_no⟧⟦{性格|せいかく}→性格：03371_seikaku⟧: natural temperament\n- {生|う}まれつき⟦{体|からだ}→体：00784_karada⟧⟦が→が：00051_ga⟧⟦{弱|よわ}い→弱い：00825_yowai⟧: physically frail from birth\n- {生|う}まれつき⟦{目|め}→目：00525_me⟧⟦が→が：00051_ga⟧⟦{悪|わる}い→悪い：00908_warui⟧: born with poor eyesight\n\nSIMILAR WORDS:\n- {先天的|せんてんてき}: congenital, innate — more formal and medical/academic in tone\n- ⟦{天性|てんせい}→天性：23367_tensei⟧: natural gift, innate nature — literary, often used for positive traits\n- ⟦{持|も}って→持つ：00478_motsu⟧⟦{生|う}まれた→生まれる：00905_umareru⟧: born with — a verbal phrase with the same meaning",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23367_tensei",
+      "reading": "てんせい",
+      "headword": "{天性|てんせい}",
+      "label": "natural gift, innate nature"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22765_mochimae",
+      "reading": "もちまえ",
+      "headword": "{持|も}ち{前|まえ}",
+      "label": "natural trait"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adverb"],
+      "pos": [
+        "noun",
+        "adverb"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["abstract"]
+      "semantic": [
+        "abstract"
+      ]
     },
     "created": "2026-04-01T14:16:10Z",
-    "modified": "2026-04-01T14:16:10Z"
+    "modified": "2026-09-02T04:02:02Z"
   }
 }

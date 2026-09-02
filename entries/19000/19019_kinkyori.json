@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "19019_kinkyori_ex1",
-      "japanese": "{近距離|きんきょり}の{通勤|つうきん}は{楽|らく}だ。",
+      "japanese": "{近距離|きんきょり}⟦の→の：09472_no⟧⟦{通勤|つうきん}→通勤：03512_tsuukin⟧⟦は→は：00079_ha⟧⟦{楽|らく}→楽：02169_raku⟧だ。",
       "english": "A short-distance commute is easy.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "19019_kinkyori_ex2",
-      "japanese": "{近距離|きんきょり}から{写真|しゃしん}を{撮|と}った。",
+      "japanese": "{近距離|きんきょり}⟦から→から：00504_kara⟧⟦{写真|しゃしん}→写真：00753_shashin⟧⟦を→を：00422_wo⟧⟦{撮|と}った→撮る：00760_toru⟧。",
       "english": "I took a photo from close range.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "19019_kinkyori_ex3",
-      "japanese": "{近距離|きんきょり}の{引|ひ}っ{越|こ}しなら{自分|じぶん}でできるかもしれない。",
+      "japanese": "{近距離|きんきょり}⟦の→の：09472_no⟧{引|ひ}っ{越|こ}しなら⟦{自分|じぶん}→自分：02887_jibun⟧⟦で→で：00502_de⟧⟦できる→できる：00557_dekiru⟧⟦かもしれない→かもしれない：00164_kamoshirenai⟧。",
       "english": "If it's a short-distance move, you might be able to do it yourself.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "{近距離|きんきょり} indicates a short or close-range distance. A compound of {近|きん} (near) + {距離|きょり} (distance). Commonly used as a modifier before nouns.\n\nCOMMON COLLOCATIONS:\n- {近距離|きんきょり}{通勤|つうきん}: short-distance commute\n- {近距離|きんきょり}{恋愛|れんあい}: relationship with someone nearby (vs long-distance)\n- {近距離|きんきょり}{攻撃|こうげき}: close-range attack\n- {近距離|きんきょり}{無線|むせん}: short-range wireless\n- {近距離|きんきょり}{引|ひ}っ{越|こ}し: short-distance move\n\nCONTRAST:\n- {長距離|ちょうきょり}: long distance (opposite)\n- {中距離|ちゅうきょり}: medium distance\n- {短距離|たんきょり}: short distance (more commonly used for races and sprints)",
+  "notes": "{近距離|きんきょり} indicates a short or close-range distance. A compound of {近|きん} (near) + ⟦{距離|きょり}→距離：05331_kyori⟧ (distance). Commonly used as a modifier before nouns.\n\nCOMMON COLLOCATIONS:\n- {近距離|きんきょり}⟦{通勤|つうきん}→通勤：03512_tsuukin⟧: short-distance commute\n- {近距離|きんきょり}⟦{恋愛|れんあい}→恋愛：12634_renai⟧: relationship with someone nearby (vs long-distance)\n- {近距離|きんきょり}⟦{攻撃|こうげき}→攻撃：02748_kougeki⟧: close-range attack\n- {近距離|きんきょり}⟦{無線|むせん}→無線：09226_musen⟧: short-range wireless\n- {近距離|きんきょり}{引|ひ}っ{越|こ}し: short-distance move\n\nSIMILAR WORDS:\n- ⟦{長距離|ちょうきょり}→長距離：09271_choukyori⟧: long distance (opposite)\n- ⟦{中距離|ちゅうきょり}→中距離：22985_chuukyori⟧: medium distance\n- ⟦{短距離|たんきょり}→短距離：09270_tankyori⟧: short distance (more commonly used for races and sprints)",
   "cross_references": [
     {
       "type": "antonym",
@@ -52,11 +52,32 @@
       "reading": "えんきょり",
       "headword": "{遠距離|えんきょり}",
       "label": "long distance"
+    },
+    {
+      "type": "antonym",
+      "target_id": "09271_choukyori",
+      "reading": "ちょうきょり",
+      "headword": "{長距離|ちょうきょり}",
+      "label": "long distance"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22985_chuukyori",
+      "reading": "ちゅうきょり",
+      "headword": "{中距離|ちゅうきょり}",
+      "label": "medium distance"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09270_tankyori",
+      "reading": "たんきょり",
+      "headword": "{短距離|たんきょり}",
+      "label": "short distance"
     }
   ],
   "metadata": {
     "created": "2026-03-24T01:00:27Z",
-    "modified": "2026-07-26T09:39:42Z",
+    "modified": "2026-09-02T04:01:54Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

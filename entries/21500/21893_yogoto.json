@@ -3,7 +3,7 @@
   "headword": "{夜毎|よごと}",
   "reading": "よごと",
   "romaji": "yogoto",
-  "part_of_speech": "adverb",
+  "part_of_speech": "adverb, noun",
   "gloss": "every night; nightly; night after night",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21893_yogoto_ex1",
-      "japanese": "{夜毎|よごと}{夢|ゆめ}を{見|み}る。",
+      "japanese": "{夜毎|よごと}⟦{夢|ゆめ}→夢：01519_yume⟧⟦を→を：00422_wo⟧⟦{見|み}る→見る：00283_miru⟧。",
       "english": "To dream every night.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21893_yogoto_ex2",
-      "japanese": "{夜毎|よごと}の{宴|うたげ}に{明|あ}け{暮|く}れる。",
+      "japanese": "{夜毎|よごと}⟦の→の：09472_no⟧⟦{宴|うたげ}→宴：12286_utage⟧⟦に→に：00314_ni⟧⟦{明|あ}け{暮|く}れる→明け暮れる：13068_akekureru⟧。",
       "english": "To spend one's days absorbed in nightly banquets.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21893_yogoto_ex3",
-      "japanese": "{夜毎|よごと}{繁華街|はんかがい}に{繰|く}り{出|だ}す{若者|わかもの}たちが{後|あと}を{絶|た}たない。",
+      "japanese": "{夜毎|よごと}⟦{繁華街|はんかがい}→繁華街：09392_hankagai⟧⟦に→に：00314_ni⟧⟦{繰|く}り{出|だ}す→繰り出す：13882_kuridasu⟧⟦{若者|わかもの}→若者：03037_wakamono⟧たち⟦が→が：00051_ga⟧⟦{後|あと}→後：09580_ato⟧⟦を→を：00422_wo⟧{絶|た}たない。",
       "english": "There is no end to the young people who head out to the entertainment district night after night.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "A literary/poetic adverb formed from {夜|よ} (night) + {毎|ごと} (every). More evocative and literary than {毎晩|まいばん} (every evening).\n\nCOMMON COLLOCATIONS:\n- {夜毎|よごと}の{夢|ゆめ}: nightly dreams\n- {夜毎|よごと}の{宴|うたげ}: nightly feasts/parties\n- {夜毎|よごと}{繰|く}り{返|かえ}す: to repeat night after night\n\nSIMILAR WORDS:\n- {毎晩|まいばん}: every evening/night — the standard, everyday term\n- {毎夜|まいよ}: every night — slightly formal, between {夜毎|よごと} and {毎晩|まいばん}\n- {日毎|ひごと}: every day; day by day — the daytime counterpart\n\nREGISTER:\nSlightly literary and poetic. Used in written language, narratives, and formal descriptions more than in casual conversation.",
+  "notes": "A literary/poetic adverb formed from {夜|よ} (night) + ⟦{毎|ごと}→〜毎：04012_goto⟧ (every). More evocative and literary than ⟦{毎晩|まいばん}→毎晩：00967_maiban⟧ (every evening).\n\nCOMMON COLLOCATIONS:\n- {夜毎|よごと}⟦の→の：09472_no⟧⟦{夢|ゆめ}→夢：01519_yume⟧: nightly dreams\n- {夜毎|よごと}⟦の→の：09472_no⟧⟦{宴|うたげ}→宴：12286_utage⟧: nightly feasts/parties\n- {夜毎|よごと}⟦{繰|く}り{返|かえ}す→繰り返す：02051_kurikaesu⟧: to repeat night after night\n\nSIMILAR WORDS:\n- ⟦{毎晩|まいばん}→毎晩：00967_maiban⟧: every evening/night — the standard, everyday term\n- {毎夜|まいよ}: every night — slightly formal, between {夜毎|よごと} and ⟦{毎晩|まいばん}→毎晩：00967_maiban⟧\n- {日毎|ひごと}: every day; day by day — the daytime counterpart\n\nREGISTER:\nSlightly literary and poetic. Used in written language, narratives, and formal descriptions more than in casual conversation.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00967_maiban",
+      "reading": "まいばん",
+      "headword": "{毎晩|まいばん}",
+      "label": "every evening/night"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +69,6 @@
       ]
     },
     "created": "2026-04-03T20:29:32Z",
-    "modified": "2026-07-29T12:35:11Z"
+    "modified": "2026-09-02T04:02:05Z"
   }
 }

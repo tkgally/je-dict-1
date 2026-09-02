@@ -54,7 +54,7 @@
     },
     {
       "id": "01428_shachou_ex5",
-      "japanese": "⟦うち→内：01328_uchi⟧⟦の→の：09472_no⟧{社長|しゃちょう}⟦は→は：00079_ha⟧⟦{若|わか}い→若い：00823_wakai⟧⟦けど→けど：09477_kedo⟧、⟦{経験|けいけん}→経験：01179_keiken⟧⟦が→が：00051_ga⟧⟦{豊富|ほうふ}→豊富：03620_houfu⟧⟦で→で：00502_de⟧⟦{社員|しゃいん}→社員：03065_shain⟧⟦から→から：00504_kara⟧⟦{信頼|しんらい}→信頼：03268_shinrai⟧されている。",
+      "japanese": "⟦うち→内：01328_uchi⟧⟦の→の：09472_no⟧{社長|しゃちょう}⟦は→は：00079_ha⟧⟦{若|わか}い→若い：00823_wakai⟧⟦けど→けど：09477_kedo⟧、⟦{経験|けいけん}→経験：01179_keiken⟧⟦が→が：00051_ga⟧⟦{豊富|ほうふ}→豊富：03620_houfu⟧⟦で→で：00502_de⟧⟦{社員|しゃいん}→社員：03065_shain⟧⟦から→から：00504_kara⟧⟦{信頼|しんらい}→信頼：03268_shinrai⟧⟦されている→する：00392_suru⟧。",
       "english": "Our president is young, but has a wealth of experience and is trusted by the employees.",
       "notes": null,
       "has_audio": false,
@@ -85,11 +85,46 @@
       "reading": "かちょう",
       "headword": "{課長|かちょう}",
       "label": "section chief (below president)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03286_joushi",
+      "reading": "じょうし",
+      "headword": "{上司|じょうし}",
+      "label": "boss, superior"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14964_yatoinushi",
+      "reading": "やといぬし",
+      "headword": "{雇|やと}い{主|ぬし}",
+      "label": "employer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16188_keieisha",
+      "reading": "けいえいしゃ",
+      "headword": "{経営者|けいえいしゃ}",
+      "label": "business owner"
+    },
+    {
+      "type": "related",
+      "target_id": "19291_senmu",
+      "reading": "せんむ",
+      "headword": "{専務|せんむ}",
+      "label": "executive director"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26898_rijichou",
+      "reading": "りじちょう",
+      "headword": "{理事長|りじちょう}",
+      "label": "chairperson"
     }
   ],
   "metadata": {
     "created": "2026-01-08T12:44:06Z",
-    "modified": "2026-05-15T16:18:17Z",
+    "modified": "2026-09-02T04:00:59Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "core",
     "tags": {

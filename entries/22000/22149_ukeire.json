@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22149_ukeire_ex1",
-      "japanese": "{難民|なんみん}の{受|う}け{入|い}れ。",
+      "japanese": "⟦{難民|なんみん}→難民：05313_nanmin⟧⟦の→の：09472_no⟧{受|う}け{入|い}れ。",
       "english": "Acceptance of refugees.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22149_ukeire_ex2",
-      "japanese": "{留学生|りゅうがくせい}の{受|う}け{入|い}れ{体制|たいせい}を{整|ととの}える。",
+      "japanese": "⟦{留学生|りゅうがくせい}→留学生：02986_ryuugakusei⟧⟦の→の：09472_no⟧{受|う}け{入|い}れ⟦{体制|たいせい}→体制：04490_taisei⟧⟦を→を：00422_wo⟧⟦{整|ととの}える→整える：04259_totonoeru⟧。",
       "english": "To prepare a system for accepting international students.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22149_ukeire_ex3",
-      "japanese": "{地域|ちいき}{住民|じゅうみん}の{受|う}け{入|い}れなしには、この{計画|けいかく}は{進|すす}められない。",
+      "japanese": "⟦{地域|ちいき}→地域：01461_chiiki⟧⟦{住民|じゅうみん}→住民：03281_juumin⟧⟦の→の：09472_no⟧{受|う}け{入|い}れなし⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧、⟦この→この：00962_kono⟧⟦{計画|けいかく}→計画：01172_keikaku⟧⟦は→は：00079_ha⟧⟦{進|すす}められない→進める：01949_susumeru⟧。",
       "english": "This plan cannot proceed without acceptance from local residents.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "The nominal form of the verb {受|う}け{入|い}れる (to accept). Very commonly used as a noun modifier in compound expressions.\n\nCOMMON COLLOCATIONS:\n- {受|う}け{入|い}れ{態勢|たいせい}: acceptance system/setup\n- {受|う}け{入|い}れ{先|さき}: receiving party; host institution\n- {受|う}け{入|い}れ{可能|かのう}: acceptable; able to be accepted\n- {患者|かんじゃ}の{受|う}け{入|い}れ: admission of patients\n- {条件|じょうけん}の{受|う}け{入|い}れ: acceptance of conditions\n\nSIMILAR WORDS:\n- {受容|じゅよう}: acceptance — more abstract and literary; used in psychology and academic contexts\n- {承認|しょうにん}: approval — implies formal authorization, not just acceptance\n- {容認|ようにん}: tolerance; tacit approval — accepting something reluctantly or without opposing it\n\nREGISTER:\nNeutral to slightly formal. Very common in news, policy discussions, and institutional contexts.",
+  "notes": "The nominal form of the verb {受|う}け{入|い}れる (to accept). Very commonly used as a noun modifier in compound expressions.\n\nCOMMON COLLOCATIONS:\n- {受|う}け{入|い}れ⟦{態勢|たいせい}→態勢：12937_taisei⟧: acceptance system/setup\n- {受|う}け{入|い}れ⟦{先|さき}→先：02883_saki⟧: receiving party; host institution\n- {受|う}け{入|い}れ⟦{可能|かのう}→可能：00175_kanou⟧: acceptable; able to be accepted\n- ⟦{患者|かんじゃ}→患者：00170_kanja⟧⟦の→の：09472_no⟧{受|う}け{入|い}れ: admission of patients\n- ⟦{条件|じょうけん}→条件：03285_jouken⟧⟦の→の：09472_no⟧{受|う}け{入|い}れ: acceptance of conditions\n\nSIMILAR WORDS:\n- ⟦{受容|じゅよう}→受容：11948_juyou⟧: acceptance — more abstract and literary; used in psychology and academic contexts\n- ⟦{承認|しょうにん}→承認：03237_shounin⟧: approval — implies formal authorization, not just acceptance\n- ⟦{容認|ようにん}→容認：12344_younin⟧: tolerance; tacit approval — accepting something reluctantly or without opposing it\n\nREGISTER:\nNeutral to slightly formal. Very common in news, policy discussions, and institutional contexts.",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -59,7 +59,7 @@
       ]
     },
     "created": "2026-04-05T04:01:11Z",
-    "modified": "2026-08-08T15:22:27Z"
+    "modified": "2026-09-02T04:02:06Z"
   },
   "cross_references": [
     {
@@ -68,6 +68,27 @@
       "headword": "{受|う}け{入|い}れる",
       "label": "to accept, to receive",
       "type": "related"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11948_juyou",
+      "reading": "じゅよう",
+      "headword": "{受容|じゅよう}",
+      "label": "acceptance"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03237_shounin",
+      "reading": "しょうにん",
+      "headword": "{承認|しょうにん}",
+      "label": "approval"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12344_younin",
+      "reading": "ようにん",
+      "headword": "{容認|ようにん}",
+      "label": "tolerance"
     }
   ]
 }

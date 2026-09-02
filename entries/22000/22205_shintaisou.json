@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22205_shintaisou_ex1",
-      "japanese": "{娘|むすめ}は{新体操|しんたいそう}を{習|なら}っている。",
+      "japanese": "⟦{娘|むすめ}→娘：02263_musume⟧⟦は→は：00079_ha⟧{新体操|しんたいそう}⟦を→を：00422_wo⟧⟦{習|なら}っている→習う：00479_narau⟧。",
       "english": "My daughter is learning rhythmic gymnastics.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22205_shintaisou_ex2",
-      "japanese": "{新体操|しんたいそう}の{選手|せんしゅ}は{柔軟性|じゅうなんせい}が{求|もと}められる。",
+      "japanese": "{新体操|しんたいそう}⟦の→の：09472_no⟧⟦{選手|せんしゅ}→選手：03823_senshu⟧⟦は→は：00079_ha⟧⟦{柔軟性|じゅうなんせい}→柔軟性：05796_juunansei⟧⟦が→が：00051_ga⟧⟦{求|もと}められる→求める：02316_motomeru⟧。",
       "english": "Rhythmic gymnastics athletes are required to have flexibility.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22205_shintaisou_ex3",
-      "japanese": "オリンピックの{新体操|しんたいそう}{団体|だんたい}で{日本|にほん}チームが{銅|どう}メダルを{獲得|かくとく}した。",
+      "japanese": "⟦オリンピック→オリンピック：09899_orinpikku⟧⟦の→の：09472_no⟧{新体操|しんたいそう}⟦{団体|だんたい}→団体：03426_dantai⟧⟦で→で：00502_de⟧⟦{日本|にほん}→日本：03876_nihon⟧⟦チーム→チーム：03858_chiimu⟧⟦が→が：00051_ga⟧⟦{銅|どう}メダル→銅メダル：22344_doumedaru⟧⟦を→を：00422_wo⟧⟦{獲得|かくとく}→獲得：05624_kakutoku⟧⟦した→する：00392_suru⟧。",
       "english": "The Japanese team won a bronze medal in the Olympic rhythmic gymnastics team event.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Literally 'new gymnastics,' composed of {新|しん} (new) + {体操|たいそう} (gymnastics/exercises). The name reflects that rhythmic gymnastics was introduced to Japan as a newer form distinct from traditional {器械体操|きかいたいそう} (artistic gymnastics on apparatus).\n\nCOMMON COLLOCATIONS:\n- {新体操|しんたいそう}の{選手|せんしゅ} — rhythmic gymnastics athlete\n- {新体操|しんたいそう}{部|ぶ} — rhythmic gymnastics club (at school)\n- {新体操|しんたいそう}{団体|だんたい} — rhythmic gymnastics team event\n- {新体操|しんたいそう}{個人|こじん} — rhythmic gymnastics individual event\n\nAPPARATUS:\nThe five apparatus used in competition:\n- リボン — ribbon\n- フープ — hoop\n- ボール — ball\n- クラブ — clubs\n- ロープ — rope\n\nSIMILAR WORDS:\n- {体操|たいそう} — gymnastics (general term); calisthenics\n- {器械体操|きかいたいそう} — artistic gymnastics (on apparatus like bars and beam)\n- {体操競技|たいそうきょうぎ} — competitive gymnastics",
+  "notes": "Literally 'new gymnastics,' composed of {新|しん} (new) + ⟦{体操|たいそう}→体操：04493_taisou⟧ (gymnastics/exercises). The name reflects that rhythmic gymnastics was introduced to Japan as a newer form distinct from traditional ⟦{器械体操|きかいたいそう}→器械体操：28514_kikaitaisou⟧ (artistic gymnastics on apparatus).\n\nCOMMON COLLOCATIONS:\n- {新体操|しんたいそう}⟦の→の：09472_no⟧⟦{選手|せんしゅ}→選手：03823_senshu⟧ — rhythmic gymnastics athlete\n- {新体操|しんたいそう}{部|ぶ} — rhythmic gymnastics club (at school)\n- {新体操|しんたいそう}⟦{団体|だんたい}→団体：03426_dantai⟧ — rhythmic gymnastics team event\n- {新体操|しんたいそう}⟦{個人|こじん}→個人：02758_kojin⟧ — rhythmic gymnastics individual event\n\nAPPARATUS:\nThe five apparatus used in competition:\n- ⟦リボン→リボン：11256_ribon⟧ — ribbon\n- フープ — hoop\n- ⟦ボール→ボール：00017_booru⟧ — ball\n- ⟦クラブ→クラブ：10812_kurabu⟧ — clubs\n- ⟦ロープ→ロープ：27860_roopu⟧ — rope\n\nSIMILAR WORDS:\n- ⟦{体操|たいそう}→体操：04493_taisou⟧ — gymnastics (general term); calisthenics\n- ⟦{器械体操|きかいたいそう}→器械体操：28514_kikaitaisou⟧ — artistic gymnastics (on apparatus like bars and beam)\n- ⟦{体操競技|たいそうきょうぎ}→体操競技：26394_taisoukyougi⟧ — competitive gymnastics",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "28514_kikaitaisou",
+      "reading": "きかいたいそう",
+      "headword": "{器械体操|きかいたいそう}",
+      "label": "artistic gymnastics"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26394_taisoukyougi",
+      "reading": "たいそうきょうぎ",
+      "headword": "{体操競技|たいそうきょうぎ}",
+      "label": "competitive gymnastics"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,12 +69,12 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "sports"
       ]
     },
     "created": "2026-04-05T14:16:10Z",
-    "modified": "2026-04-05T14:16:10Z"
+    "modified": "2026-09-02T04:02:07Z"
   }
 }

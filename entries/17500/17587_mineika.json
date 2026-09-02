@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "17587_mineika_ex1",
-      "japanese": "{国鉄|こくてつ}が{民営化|みんえいか}された。",
+      "japanese": "⟦{国鉄|こくてつ}→国鉄：30643_kokutetsu⟧⟦が→が：00051_ga⟧{民営化|みんえいか}⟦された→する：00392_suru⟧。",
       "english": "The national railways were privatized.",
       "sense_numbers": [
         1
@@ -114,7 +114,7 @@
     },
     {
       "id": "17587_mineika_ex2",
-      "japanese": "{郵政|ゆうせい}{民営化|みんえいか}が{行|おこな}われた。",
+      "japanese": "{郵政|ゆうせい}{民営化|みんえいか}⟦が→が：00051_ga⟧⟦{行|おこな}われた→行う：01238_okonau⟧。",
       "english": "Postal privatization was carried out.",
       "sense_numbers": [
         1
@@ -124,7 +124,7 @@
     },
     {
       "id": "17587_mineika_ex3",
-      "japanese": "{民営化|みんえいか}で{効率|こうりつ}が{上|あ}がると{期待|きたい}されている。",
+      "japanese": "{民営化|みんえいか}⟦で→で：00502_de⟧⟦{効率|こうりつ}→効率：11794_kouritsu⟧⟦が→が：00051_ga⟧⟦{上|あ}がる→上がる：00615_agaru⟧⟦と→と：00512_to⟧⟦{期待|きたい}→期待：00238_kitai⟧⟦されている→する：00392_suru⟧。",
       "english": "It is expected that privatization will improve efficiency.",
       "sense_numbers": [
         1
@@ -133,7 +133,7 @@
       "notes": null
     }
   ],
-  "notes": "{民営化|みんえいか} refers to the process of transferring government-owned enterprises to private ownership.\n\nKANJI BREAKDOWN:\n- {民|みん} (people, private, civilian)\n- {営|えい} (manage, operate)\n- {化|か} (-ization, change into)\n\nHISTORICAL EXAMPLES IN JAPAN:\n- 1987: {国鉄|こくてつ}{民営化|みんえいか} (JNR privatization → JR companies)\n- 2007: {郵政|ゆうせい}{民営化|みんえいか} (postal privatization)\n\nUSAGE:\n- {民営化|みんえいか}する (to privatize - suru verb)\n- {民営化|みんえいか}される (to be privatized)\n\nRELATED TERMS:\n- {国有化|こくゆうか} (nationalization - opposite)\n- {公営|こうえい} (public management)\n- {民間|みんかん} (private sector)\n\nCOMMON COLLOCATIONS:\n- {民営化|みんえいか}{推進|すいしん} (promotion of privatization)\n- {民営化|みんえいか}{反対|はんたい} (opposition to privatization)",
+  "notes": "{民営化|みんえいか} refers to the process of transferring government-owned enterprises to private ownership.\n\nWRITING:\n- {民|みん} (people, private, civilian)\n- {営|えい} (manage, operate)\n- ⟦{化|か}→〜化：28335_ka⟧ (-ization, change into)\n\nHISTORICAL EXAMPLES IN JAPAN:\n- 1987: ⟦{国鉄|こくてつ}→国鉄：30643_kokutetsu⟧{民営化|みんえいか} (JNR privatization → JR companies)\n- 2007: {郵政|ゆうせい}{民営化|みんえいか} (postal privatization)\n\nUSAGE:\n- {民営化|みんえいか}⟦する→する：00392_suru⟧ (to privatize - suru verb)\n- {民営化|みんえいか}⟦される→する：00392_suru⟧ (to be privatized)\n\nRELATED WORDS:\n- ⟦{国有化|こくゆうか}→国有化：17588_kokuyuuka⟧ (nationalization - opposite)\n- ⟦{公営|こうえい}→公営：22485_kouei⟧ (public management)\n- ⟦{民間|みんかん}→民間：13260_minkan⟧ (private sector)\n\nCOMMON COLLOCATIONS:\n- {民営化|みんえいか}⟦{推進|すいしん}→推進：12908_suishin⟧ (promotion of privatization)\n- {民営化|みんえいか}⟦{反対|はんたい}→反対：01497_hantai⟧ (opposition to privatization)",
   "cross_references": [
     {
       "type": "antonym",
@@ -141,6 +141,34 @@
       "headword": "{国有化|こくゆうか}",
       "label": "nationalization",
       "target_id": "17588_kokuyuuka"
+    },
+    {
+      "type": "related",
+      "target_id": "22485_kouei",
+      "reading": "こうえい",
+      "headword": "{公営|こうえい}",
+      "label": "public management"
+    },
+    {
+      "type": "related",
+      "target_id": "13260_minkan",
+      "reading": "みんかん",
+      "headword": "{民間|みんかん}",
+      "label": "private sector"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24836_shiyuuka",
+      "reading": "しゆうか",
+      "headword": "{私有化|しゆうか}",
+      "label": "privatization"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26495_kokkakanri",
+      "reading": "こっかかんり",
+      "headword": "{国家管理|こっかかんり}",
+      "label": "state control"
     }
   ],
   "metadata": {
@@ -151,6 +179,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "domain": [
         "business",
         "legal"
@@ -162,6 +191,6 @@
       "verb_class": "suru"
     },
     "created": "2026-01-25T00:28:52Z",
-    "modified": "2026-03-18T10:11:24Z"
+    "modified": "2026-09-02T04:01:49Z"
   }
 }

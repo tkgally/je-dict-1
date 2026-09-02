@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "11827_gensaku_ex1",
-      "japanese": "この{映画|えいが}の{原作|げんさく}は{小説|しょうせつ}だ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{映画|えいが}→映画：02273_eiga⟧⟦の→の：09472_no⟧{原作|げんさく}⟦は→は：00079_ha⟧⟦{小説|しょうせつ}→小説：01434_shousetsu⟧だ。",
       "english": "The original work this movie is based on is a novel.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11827_gensaku_ex2",
-      "japanese": "{原作|げんさく}を{読|よ}んでからアニメを{見|み}た。",
+      "japanese": "{原作|げんさく}⟦を→を：00422_wo⟧⟦{読|よ}んで→読む：00426_yomu⟧⟦から→から：00504_kara⟧⟦アニメ→アニメ：01527_anime⟧⟦を→を：00422_wo⟧⟦{見|み}た→見る：00283_miru⟧。",
       "english": "I watched the anime after reading the original work.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11827_gensaku_ex3",
-      "japanese": "{原作|げんさく}とドラマではストーリーの{結末|けつまつ}が{大|おお}きく{異|こと}なっている。",
+      "japanese": "{原作|げんさく}⟦と→と：00512_to⟧⟦ドラマ→ドラマ：03867_dorama⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦ストーリー→ストーリー：11018_sutoorii⟧⟦の→の：09472_no⟧⟦{結末|けつまつ}→結末：15091_ketsumatsu⟧⟦が→が：00051_ga⟧⟦{大|おお}きく→大きい：00335_ookii⟧⟦{異|こと}なっている→異なる：02101_kotonaru⟧。",
       "english": "The ending of the story differs significantly between the original work and the TV drama.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "Extremely common in discussions of adaptations — comparing manga to anime, novels to films, etc. {原作|げんさく}{者|しゃ} refers to the author of the original work.\n\nCOMMON COLLOCATIONS:\n・{原作|げんさく}を{読|よ}む — to read the original work\n・{原作|げんさく}{者|しゃ} — the original author\n・{原作|げんさく}に{忠実|ちゅうじつ} — faithful to the original\n・{原作|げんさく}{通|どお}り — as in the original\n・{原作|げんさく}ファン — fans of the original work",
+  "notes": "Extremely common in discussions of adaptations — comparing manga to anime, novels to films, etc. {原作|げんさく}{者|しゃ} refers to the author of the original work.\n\nCOMMON COLLOCATIONS:\n- {原作|げんさく}⟦を→を：00422_wo⟧⟦{読|よ}む→読む：00426_yomu⟧ — to read the original work\n- {原作|げんさく}{者|しゃ} — the original author\n- {原作|げんさく}⟦に→に：00314_ni⟧⟦{忠実|ちゅうじつ}→忠実：12570_chuujitsu⟧ — faithful to the original\n- {原作|げんさく}{通|どお}り — as in the original\n- {原作|げんさく}⟦ファン→ファン：10065_fan⟧ — fans of the original work",
   "cross_references": [
     {
       "type": "contrast",
@@ -46,17 +52,35 @@
       "reading": "げんあん",
       "headword": "{原案|げんあん}",
       "label": "original concept"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20563_genbun",
+      "reading": "げんぶん",
+      "headword": "{原文|げんぶん}",
+      "label": "original text"
+    },
+    {
+      "type": "related",
+      "target_id": "23773_eigaka",
+      "reading": "えいがか",
+      "headword": "{映画化|えいがか}",
+      "label": "film adaptation"
     }
   ],
   "metadata": {
     "created": "2026-02-18T12:23:39Z",
-    "modified": "2026-04-25T10:12:38Z",
+    "modified": "2026-09-02T04:01:26Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["leisure"]
+      "semantic": [
+        "leisure"
+      ]
     }
   }
 }

@@ -25,7 +25,7 @@
     },
     {
       "id": "18665_kakegoto_ex2",
-      "japanese": "{賭|か}け{事|ごと}に{手|て}を{出|だ}して{借金|しゃっきん}を{作|つく}った。",
+      "japanese": "{賭|か}け{事|ごと}⟦に→に：00314_ni⟧⟦{手|て}→手：00569_te⟧⟦を→を：00422_wo⟧⟦{出|だ}して→出す：01087_dasu⟧⟦{借金|しゃっきん}→借金：03203_shakkin⟧⟦を→を：00422_wo⟧⟦{作|つく}った→作る：00481_tsukuru⟧。",
       "english": "He got into gambling and ended up in debt.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "18665_kakegoto_ex3",
-      "japanese": "{日本|にほん}では{多|おお}くの{賭|か}け{事|ごと}が{法律|ほうりつ}で{禁止|きんし}されているが、{競馬|けいば}などは{例外|れいがい}として{認|みと}められている。",
+      "japanese": "⟦{日本|にほん}→日本：03876_nihon⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧{多|おお}く⟦の→の：09472_no⟧{賭|か}け{事|ごと}⟦が→が：00051_ga⟧⟦{法律|ほうりつ}→法律：01722_houritsu⟧⟦で→で：00502_de⟧⟦{禁止|きんし}→禁止：02643_kinshi⟧⟦されている→する：00392_suru⟧⟦が→が：00051_ga⟧、⟦{競馬|けいば}→競馬：00207_keiba⟧⟦など→〜など：03095_nado⟧⟦は→は：00079_ha⟧⟦{例外|れいがい}→例外：03798_reigai⟧⟦として→として：06802_toshite⟧⟦{認|みと}められている→認める：02429_mitomeru⟧。",
       "english": "In Japan, most gambling is prohibited by law, but exceptions like horse racing are permitted.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Also written {賭|か}け{事|ごと} with okurigana. Common collocations: {賭|か}け{事|ごと}に{手|て}を{出|だ}す (to get into gambling), {賭|か}け{事|ごと}にのめり{込|こ}む (to get addicted to gambling), {賭|か}け{事|ごと}で{身|み}を{滅|ほろ}ぼす (to ruin oneself through gambling). In Japan, most gambling is illegal, but certain forms are state-sanctioned: {競馬|けいば} (horse racing), {競輪|けいりん} (bicycle racing), {宝|たから}くじ (lottery). Related: ギャンブル (gambling — loanword), {賭博|とばく} (gambling — formal/legal term).",
+  "notes": "Also written {賭|か}け{事|ごと} with okurigana. Common collocations: {賭|か}け{事|ごと}⟦に→に：00314_ni⟧⟦{手|て}を{出|だ}す→手を出す：22776_tewodasu⟧ (to get into gambling), {賭|か}け{事|ごと}⟦に→に：00314_ni⟧のめり{込|こ}む (to get addicted to gambling), {賭|か}け{事|ごと}⟦で→で：00502_de⟧⟦{身|み}→身：01764_mi⟧⟦を→を：00422_wo⟧⟦{滅|ほろ}ぼす→滅ぼす：13332_horobosu⟧ (to ruin oneself through gambling). In Japan, most gambling is illegal, but certain forms are state-sanctioned: ⟦{競馬|けいば}→競馬：00207_keiba⟧ (horse racing), ⟦{競輪|けいりん}→競輪：09247_keirin⟧ (bicycle racing), ⟦{宝|たから}くじ→宝くじ：18549_takarakuji⟧ (lottery). Related: ⟦ギャンブル→ギャンブル：10811_gyanburu⟧ (gambling — loanword), ⟦{賭博|とばく}→賭博：24057_tobaku⟧ (gambling — formal/legal term).",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -60,6 +60,13 @@
       "reading": "ばくち",
       "headword": "{博打|ばくち}",
       "label": "traditional, rough connotation"
+    },
+    {
+      "type": "related",
+      "target_id": "09859_kakeru",
+      "reading": "かける",
+      "headword": "{賭|か}ける",
+      "label": "to bet, to wager"
     }
   ],
   "metadata": {
@@ -75,6 +82,6 @@
       ]
     },
     "created": "2026-03-22T11:48:03Z",
-    "modified": "2026-07-22T00:20:00Z"
+    "modified": "2026-09-02T04:01:53Z"
   }
 }

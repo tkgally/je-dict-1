@@ -3,7 +3,7 @@
   "headword": "{再構築|さいこうちく}",
   "reading": "さいこうちく",
   "romaji": "saikouchiku",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "reconstruction; rebuilding; restructuring",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "18916_saikouchiku_ex1",
-      "japanese": "{信頼関係|しんらいかんけい}を{再構築|さいこうちく}する。",
+      "japanese": "⟦{信頼関係|しんらいかんけい}→信頼関係：16095_shinraikankei⟧⟦を→を：00422_wo⟧{再構築|さいこうちく}⟦する→する：00392_suru⟧。",
       "english": "To rebuild a relationship of trust.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "18916_saikouchiku_ex2",
-      "japanese": "システムの{再構築|さいこうちく}には{時間|じかん}がかかる。",
+      "japanese": "⟦システム→システム：08428_shisutemu⟧⟦の→の：09472_no⟧{再構築|さいこうちく}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{時間|じかん}がかかる→時間がかかる：26082_jikangakakaru⟧。",
       "english": "Rebuilding the system takes time.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "18916_saikouchiku_ex3",
-      "japanese": "{老朽化|ろうきゅうか}した{組織|そしき}を{一|いち}から{再構築|さいこうちく}する{必要|ひつよう}がある。",
+      "japanese": "⟦{老朽化|ろうきゅうか}→老朽化：07646_roukyuuka⟧⟦した→する：00392_suru⟧⟦{組織|そしき}→組織：03320_soshiki⟧⟦を→を：00422_wo⟧⟦{一|いち}→一：00705_ichi⟧⟦から→から：00504_kara⟧{再構築|さいこうちく}⟦する→する：00392_suru⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "The aging organization needs to be rebuilt from scratch.",
       "sense_numbers": [
         1
@@ -134,7 +134,7 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {再|さい} (again) + {構築|こうちく} (construction, building). Takes する to form a verb. Common collocations: {信頼|しんらい}の{再構築|さいこうちく} (rebuilding trust), {組織|そしき}の{再構築|さいこうちく} (restructuring an organization), システムの{再構築|さいこうちく} (rebuilding a system). In IT contexts, often refers to rebuilding a system or database. Distinct from {改修|かいしゅう} (renovation/patching) — {再構築|さいこうちく} implies starting over.",
+  "notes": "Composed of ⟦{再|さい}→再〜：03953_sai⟧ (again) + ⟦{構築|こうちく}→構築：13164_kouchiku⟧ (construction, building). Takes ⟦する→する：00392_suru⟧ to form a verb. Common collocations: ⟦{信頼|しんらい}→信頼：03268_shinrai⟧⟦の→の：09472_no⟧{再構築|さいこうちく} (rebuilding trust), ⟦{組織|そしき}→組織：03320_soshiki⟧⟦の→の：09472_no⟧{再構築|さいこうちく} (restructuring an organization), ⟦システム→システム：08428_shisutemu⟧⟦の→の：09472_no⟧{再構築|さいこうちく} (rebuilding a system). In IT contexts, often refers to rebuilding a system or database. Distinct from ⟦{改修|かいしゅう}→改修：12924_kaishuu⟧ (renovation/patching) — {再構築|さいこうちく} implies starting over.",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -148,9 +148,10 @@
       "semantic": [
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-03-23T09:27:15Z",
-    "modified": "2026-03-23T09:27:15Z"
+    "modified": "2026-09-02T04:01:54Z"
   }
 }

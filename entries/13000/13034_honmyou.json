@@ -15,41 +15,108 @@
   "examples": [
     {
       "id": "13034_honmyou_ex1",
-      "japanese": "あの{芸能人|げいのうじん}の{本名|ほんみょう}は{知|し}られていない。",
+      "japanese": "⟦あの→あの：00915_ano⟧⟦{芸能人|げいのうじん}→芸能人：14959_geinoujin⟧⟦の→の：09472_no⟧{本名|ほんみょう}⟦は→は：00079_ha⟧⟦{知|し}られていない→知る：00458_shiru⟧。",
       "english": "That celebrity's real name is not known.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13034_honmyou_ex2",
-      "japanese": "{芸名|げいめい}ではなく{本名|ほんみょう}で{活動|かつどう}している。",
+      "japanese": "⟦{芸名|げいめい}→芸名：25284_geimei⟧⟦ではなく→ではなく：09578_dehanaku⟧{本名|ほんみょう}⟦で→で：00502_de⟧⟦{活動|かつどう}→活動：00201_katsudou⟧⟦している→する：00392_suru⟧。",
       "english": "She performs under her real name, not a stage name.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13034_honmyou_ex3",
-      "japanese": "インターネット{上|じょう}では{本名|ほんみょう}を{使|つか}わない{人|ひと}が{多|おお}い。",
+      "japanese": "⟦インターネット→インターネット：04723_intaanetto⟧⟦{上|じょう}→〜上：30365_jou⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧{本名|ほんみょう}⟦を→を：00422_wo⟧⟦{使|つか}わない→使う：00473_tsukau⟧⟦{人|ひと}→人：00476_hito⟧⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "Many people don't use their real names on the internet.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{本名|ほんみょう} is a person's actual legal name, as opposed to any kind of alias, stage name, or pseudonym.\n\nREADING NOTE:\nAlso sometimes read as ほんめい, though ほんみょう is the standard modern reading.\n\nCOMMON COLLOCATIONS:\n- {本名|ほんみょう}を{明|あ}かす: to reveal one's real name\n- {本名|ほんみょう}で{活動|かつどう}する: to work under one's real name\n- {本名|ほんみょう}{非公開|ひこうかい}: real name not disclosed\n- {本名|ほんみょう}を{隠|かく}す: to hide one's real name\n\nCONTRASTS WITH OTHER NAME TYPES:\n- {芸名|げいめい}: stage name (entertainers)\n- {筆名|ひつめい} / ペンネーム: pen name (writers)\n- {偽名|ぎめい}: false name, alias\n- ハンドルネーム: online handle/username\n- {通称|つうしょう}: commonly used name, nickname\n- {旧姓|きゅうせい}: maiden name, former surname\n\nUSAGE:\nWith the rise of the internet and social media, the concept of {本名|ほんみょう} vs. online identity has become an important topic in Japan. {本名|ほんみょう}{登録|とうろく} (real-name registration) is required on some platforms.",
-  "cross_references": [],
+  "notes": "{本名|ほんみょう} is a person's actual legal name, as opposed to any kind of alias, stage name, or pseudonym.\n\nPRONUNCIATION:\nAlso sometimes read as ほんめい, though ほんみょう is the standard modern reading.\n\nCOMMON COLLOCATIONS:\n- {本名|ほんみょう}⟦を→を：00422_wo⟧⟦{明|あ}かす→明かす：12961_akasu⟧: to reveal one's real name\n- {本名|ほんみょう}⟦で→で：00502_de⟧⟦{活動|かつどう}→活動：00201_katsudou⟧⟦する→する：00392_suru⟧: to work under one's real name\n- {本名|ほんみょう}⟦{非公開|ひこうかい}→非公開：16599_hikoukai⟧: real name not disclosed\n- {本名|ほんみょう}⟦を→を：00422_wo⟧⟦{隠|かく}す→隠す：02034_kakusu⟧: to hide one's real name\n\nCONTRASTS WITH OTHER NAME TYPES:\n- ⟦{芸名|げいめい}→芸名：25284_geimei⟧: stage name (entertainers)\n- ⟦{筆名|ひつめい}→筆名：25451_hitsumei⟧ / ⟦ペンネーム→ペンネーム：25452_penneemu⟧: pen name (writers)\n- ⟦{偽名|ぎめい}→偽名：18259_gimei⟧: false name, alias\n- ⟦ハンドルネーム→ハンドルネーム：29587_handoruneemu⟧: online handle/username\n- ⟦{通称|つうしょう}→通称：14404_tsuushou⟧: commonly used name, nickname\n- ⟦{旧姓|きゅうせい}→旧姓：12957_kyuusei⟧: maiden name, former surname\n\nUSAGE:\nWith the rise of the internet and social media, the concept of {本名|ほんみょう} vs. online identity has become an important topic in Japan. {本名|ほんみょう}⟦{登録|とうろく}→登録：05703_touroku⟧ (real-name registration) is required on some platforms.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25284_geimei",
+      "reading": "げいめい",
+      "headword": "{芸名|げいめい}",
+      "label": "stage name"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25451_hitsumei",
+      "reading": "ひつめい",
+      "headword": "{筆名|ひつめい}",
+      "label": "pen name"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25452_penneemu",
+      "reading": "ぺんねーむ",
+      "headword": "ペンネーム",
+      "label": "pen name"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18259_gimei",
+      "reading": "ぎめい",
+      "headword": "{偽名|ぎめい}",
+      "label": "false name, alias"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29587_handoruneemu",
+      "reading": "はんどるねーむ",
+      "headword": "ハンドルネーム",
+      "label": "online handle/username"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14404_tsuushou",
+      "reading": "つうしょう",
+      "headword": "{通称|つうしょう}",
+      "label": "commonly used name, nickname"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12957_kyuusei",
+      "reading": "きゅうせい",
+      "headword": "{旧姓|きゅうせい}",
+      "label": "maiden name, former surname"
+    },
+    {
+      "type": "antonym",
+      "target_id": "23549_nikkuneemu",
+      "reading": "にっくねーむ",
+      "headword": "ニックネーム",
+      "label": "nickname"
+    }
+  ],
   "metadata": {
     "created": "2026-02-23T06:37:03Z",
-    "modified": "2026-04-04T12:31:47Z",
+    "modified": "2026-09-02T04:01:31Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["person"]
+      "semantic": [
+        "person"
+      ]
     }
   }
 }

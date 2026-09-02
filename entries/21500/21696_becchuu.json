@@ -15,40 +15,60 @@
   "examples": [
     {
       "id": "21696_becchuu_ex1",
-      "japanese": "この{色|いろ}は{別注|べっちゅう}{品|ひん}です。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{色|いろ}→色：00849_iro⟧⟦は→は：00079_ha⟧{別注|べっちゅう}⟦{品|ひん}→品：03712_hin⟧です。",
       "english": "This color is a special-order item.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21696_becchuu_ex2",
-      "japanese": "{別注|べっちゅう}モデルは{数量|すうりょう}{限定|げんてい}です。",
+      "japanese": "{別注|べっちゅう}⟦モデル→モデル：05112_moderu⟧⟦は→は：00079_ha⟧⟦{数量|すうりょう}{限定|げんてい}→数量限定：09822_suuryougentei⟧です。",
       "english": "The custom model is available in limited quantities.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21696_becchuu_ex3",
-      "japanese": "あのセレクトショップが{有名|ゆうめい}ブランドに{別注|べっちゅう}をかけた{限定|げんてい}コレクションが{人気|にんき}だ。",
+      "japanese": "⟦あの→あの：00915_ano⟧セレクト⟦ショップ→ショップ：08913_shoppu⟧⟦が→が：00051_ga⟧⟦{有名|ゆうめい}→有名：01106_yuumei⟧⟦ブランド→ブランド：05221_burando⟧⟦に→に：00314_ni⟧{別注|べっちゅう}⟦を→を：00422_wo⟧⟦かけた→かける：00854_kakeru⟧⟦{限定|げんてい}→限定：10997_gentei⟧⟦コレクション→コレクション：07327_korekushon⟧⟦が→が：00051_ga⟧⟦{人気|にんき}→人気：01488_ninki⟧だ。",
       "english": "The limited collection that boutique commissioned from a famous brand is popular.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Commonly encountered in fashion and retail, where shops commission exclusive colorways or designs from brands. The compound uses {別|べつ} (separate, special) + {注|ちゅう} (order, abbreviation of {注文|ちゅうもん}). Often used as a modifier: {別注|べっちゅう}{品|ひん} (custom item).\n\nCOMMON COLLOCATIONS:\n- {別注|べっちゅう}{品|ひん}: special-order item\n- {別注|べっちゅう}モデル: custom model\n- {別注|べっちゅう}をかける: to place a special order (with a manufacturer)\n- {別注|べっちゅう}カラー: exclusive colorway\n\nSIMILAR WORDS:\n- {特注|とくちゅう}: custom-made, bespoke (very close synonym; slightly more emphasis on unique specification)\n- オーダーメイド: made-to-order (loanword, more for individual custom items)\n- {受注|じゅちゅう}{生産|せいさん}: made-to-order production",
+  "notes": "Commonly encountered in fashion and retail, where shops commission exclusive colorways or designs from brands. The compound uses ⟦{別|べつ}→別：01216_betsu⟧ (separate, special) + ⟦{注|ちゅう}→注：03434_chuu⟧ (order, abbreviation of ⟦{注文|ちゅうもん}→注文：03485_chuumon⟧). Often used as a modifier: {別注|べっちゅう}⟦{品|ひん}→品：03712_hin⟧ (custom item).\n\nCOMMON COLLOCATIONS:\n- {別注|べっちゅう}⟦{品|ひん}→品：03712_hin⟧: special-order item\n- {別注|べっちゅう}⟦モデル→モデル：05112_moderu⟧: custom model\n- {別注|べっちゅう}⟦を→を：00422_wo⟧⟦かける→かける：00854_kakeru⟧: to place a special order (with a manufacturer)\n- {別注|べっちゅう}⟦カラー→カラー：10820_karaa⟧: exclusive colorway\n\nSIMILAR WORDS:\n- ⟦{特注|とくちゅう}→特注：13486_tokuchuu⟧: custom-made, bespoke (very close synonym; slightly more emphasis on unique specification)\n- オーダー⟦メイド→メイド：12377_meido⟧: made-to-order (loanword, more for individual custom items)\n- ⟦{受注|じゅちゅう}→受注：05133_juchuu⟧⟦{生産|せいさん}→生産：01444_seisan⟧: made-to-order production",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13486_tokuchuu",
+      "reading": "とくちゅう",
+      "headword": "{特注|とくちゅう}",
+      "label": "custom-made, bespoke (very close synonym"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["business", "shopping"]
+      "semantic": [
+        "business",
+        "shopping"
+      ]
     },
     "created": "2026-04-02T21:25:32Z",
-    "modified": "2026-04-02T21:25:32Z"
+    "modified": "2026-09-02T04:02:04Z"
   }
 }

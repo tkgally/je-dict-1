@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "17817_mouiwofuruu_ex1",
-      "japanese": "インフルエンザが{猛威|もうい}を{振|ふ}るっている。",
+      "japanese": "⟦インフルエンザ→インフルエンザ：05384_infuruenza⟧⟦が→が：00051_ga⟧{猛威|もうい}を{振|ふ}るって⟦いる→いる：00495_iru⟧。",
       "english": "The flu is raging.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "17817_mouiwofuruu_ex2",
-      "japanese": "{台風|たいふう}が{九州|きゅうしゅう}{地方|ちほう}で{猛威|もうい}を{振|ふ}るった。",
+      "japanese": "⟦{台風|たいふう}→台風：01455_taifuu⟧⟦が→が：00051_ga⟧⟦{九州|きゅうしゅう}→九州：15647_kyuushuu⟧⟦{地方|ちほう}→地方：02369_chihou⟧⟦で→で：00502_de⟧{猛威|もうい}を{振|ふ}るった。",
       "english": "The typhoon wreaked havoc in the Kyushu region.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "17817_mouiwofuruu_ex3",
-      "japanese": "{世界中|せかいじゅう}で{猛威|もうい}を{振|ふ}るった{感染症|かんせんしょう}は、{多|おお}くの{人|ひと}の{生活|せいかつ}を{変|か}えた。",
+      "japanese": "⟦{世界中|せかいじゅう}→世界中：10171_sekaijuu⟧⟦で→で：00502_de⟧{猛威|もうい}を{振|ふ}るった⟦{感染症|かんせんしょう}→感染症：15681_kansenshou⟧⟦は→は：00079_ha⟧、{多|おお}く⟦の→の：09472_no⟧⟦{人|ひと}→人：00476_hito⟧⟦の→の：09472_no⟧⟦{生活|せいかつ}→生活：01443_seikatsu⟧⟦を→を：00422_wo⟧⟦{変|か}えた→変える：01089_kaeru⟧。",
       "english": "The infectious disease that raged around the world changed many people's lives.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,19 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA set expression almost exclusively used with natural disasters, diseases, storms, and similar destructive forces. Not used for human anger or emotions.\n\nCOMMON SUBJECTS:\n- {台風|たいふう} (typhoon)\n- インフルエンザ / {感染症|かんせんしょう} (flu / infectious disease)\n- {猛暑|もうしょ} (extreme heat)\n- {山火事|やまかじ} (wildfire)\n\nASPECT:\n{猛威|もうい}を{振|ふ}るっている indicates the destruction is currently ongoing.",
-  "cross_references": [],
+  "notes": "USAGE:\nA set expression almost exclusively used with natural disasters, diseases, storms, and similar destructive forces. Not used for human anger or emotions.\n\nCOMMON SUBJECTS:\n- ⟦{台風|たいふう}→台風：01455_taifuu⟧ (typhoon)\n- ⟦インフルエンザ→インフルエンザ：05384_infuruenza⟧ / ⟦{感染症|かんせんしょう}→感染症：15681_kansenshou⟧ (flu / infectious disease)\n- ⟦{猛暑|もうしょ}→猛暑：08311_mousho⟧ (extreme heat)\n- ⟦{山火事|やまかじ}→山火事：19433_yamakaji⟧ (wildfire)\n\nASPECT (ている):\n{猛威|もうい}を{振|ふ}るって⟦いる→いる：00495_iru⟧ indicates the destruction is currently ongoing.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "22797_iryokuwofuruu",
+      "reading": "いりょくをふるう",
+      "headword": "{威力|いりょく}を{振|ふ}るう",
+      "label": "to exert power"
+    }
+  ],
   "metadata": {
     "created": "2026-03-19T04:20:37Z",
-    "modified": "2026-07-24T21:50:29Z",
+    "modified": "2026-09-02T04:01:49Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

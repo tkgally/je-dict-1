@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "19782_shiketsu_ex1",
-      "japanese": "まず{止血|しけつ}をしてください。",
+      "japanese": "⟦まず→まず：00796_mazu⟧{止血|しけつ}⟦を→を：00422_wo⟧⟦して→する：00392_suru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "First, stop the bleeding.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "19782_shiketsu_ex2",
-      "japanese": "{傷口|きずぐち}を{強|つよ}く{押|お}さえて{止血|しけつ}した。",
+      "japanese": "⟦{傷口|きずぐち}→傷口：09517_kizuguchi⟧⟦を→を：00422_wo⟧⟦{強|つよ}く→強い：00820_tsuyoi⟧⟦{押|お}さえて→押さえる：02021_osaeru⟧{止血|しけつ}⟦した→する：00392_suru⟧。",
       "english": "I pressed hard on the wound to stop the bleeding.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "19782_shiketsu_ex3",
-      "japanese": "{救急|きゅうきゅう}{講習|こうしゅう}で{止血|しけつ}の{方法|ほうほう}を{学|まな}んだ。",
+      "japanese": "⟦{救急|きゅうきゅう}→救急：15075_kyuukyuu⟧{講習|こうしゅう}⟦で→で：00502_de⟧{止血|しけつ}⟦の→の：09472_no⟧⟦{方法|ほうほう}→方法：03621_houhou⟧⟦を→を：00422_wo⟧⟦{学|まな}んだ→学ぶ：01987_manabu⟧。",
       "english": "I learned how to stop bleeding in a first aid course.",
       "sense_numbers": [
         1
@@ -134,8 +134,31 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {止|し} (to stop) and {血|けつ} (blood). An essential first aid term. Also functions as a する verb: {止血|しけつ}する (to stop the bleeding).\n\nCOMMON COLLOCATIONS:\n- {止血|しけつ}する — to stop the bleeding\n- {止血|しけつ}{帯|たい} — tourniquet\n- {止血|しけつ}{剤|ざい} — hemostatic agent, styptic\n- {止血|しけつ}{処置|しょち} — hemostatic treatment\n\nUSAGE:\nAppears in first aid instructions, medical discussions, and emergency situations. In first aid, the basic method is {直接|ちょくせつ}{圧迫|あっぱく}{止血|しけつ}{法|ほう} (direct pressure hemostasis) — pressing firmly on the wound.\n\nRELATED TERMS:\n- {出血|しゅっけつ} — bleeding, hemorrhage\n- {流血|りゅうけつ} — bloodshed; more dramatic and figurative\n- {輸血|ゆけつ} — blood transfusion",
+  "notes": "Composed of {止|し} (to stop) and {血|けつ} (blood). An essential first aid term. Also functions as a ⟦する→する：00392_suru⟧ verb: {止血|しけつ}⟦する→する：00392_suru⟧ (to stop the bleeding).\n\nCOMMON COLLOCATIONS:\n- {止血|しけつ}⟦する→する：00392_suru⟧ — to stop the bleeding\n- {止血|しけつ}{帯|たい} — tourniquet\n- {止血|しけつ}{剤|ざい} — hemostatic agent, styptic\n- {止血|しけつ}⟦{処置|しょち}→処置：05823_shochi⟧ — hemostatic treatment\n\nUSAGE:\nAppears in first aid instructions, medical discussions, and emergency situations. In first aid, the basic method is ⟦{直接|ちょくせつ}→直接：03499_chokusetsu⟧⟦{圧迫|あっぱく}→圧迫：12013_appaku⟧{止血|しけつ}⟦{法|ほう}→法：13620_hou⟧ (direct pressure hemostasis) — pressing firmly on the wound.\n\nRELATED WORDS:\n- ⟦{出血|しゅっけつ}→出血：11735_shukketsu⟧ — bleeding, hemorrhage\n- ⟦{流血|りゅうけつ}→流血：19781_ryuuketsu⟧ — bloodshed; more dramatic and figurative\n- ⟦{輸血|ゆけつ}→輸血：04083_yuketsu⟧ — blood transfusion",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "11735_shukketsu",
+      "reading": "しゅっけつ",
+      "headword": "{出血|しゅっけつ}",
+      "label": "bleeding, hemorrhage"
+    },
+    {
+      "type": "related",
+      "target_id": "19781_ryuuketsu",
+      "reading": "りゅうけつ",
+      "headword": "{流血|りゅうけつ}",
+      "label": "bloodshed"
+    },
+    {
+      "type": "related",
+      "target_id": "04083_yuketsu",
+      "reading": "ゆけつ",
+      "headword": "{輸血|ゆけつ}",
+      "label": "blood transfusion"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -151,6 +174,6 @@
       "verb_class": "suru"
     },
     "created": "2026-03-26T23:29:06Z",
-    "modified": "2026-07-27T12:46:57Z"
+    "modified": "2026-09-02T04:01:57Z"
   }
 }

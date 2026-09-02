@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "15516_hitozukiai_ex1",
-      "japanese": "{人付|ひとづ}き{合|あ}いが{苦手|にがて}だ。",
+      "japanese": "{人付|ひとづ}き{合|あ}い⟦が→が：00051_ga⟧⟦{苦手|にがて}→苦手：03513_nigate⟧だ。",
       "english": "I'm bad at socializing.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "15516_hitozukiai_ex2",
-      "japanese": "{社会人|しゃかいじん}になると{人付|ひとづ}き{合|あ}いが{増|ふ}える。",
+      "japanese": "⟦{社会人|しゃかいじん}→社会人：13730_shakaijin⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦と→と：00512_to⟧{人付|ひとづ}き{合|あ}い⟦が→が：00051_ga⟧⟦{増|ふ}える→増える：01183_fueru⟧。",
       "english": "When you start working, social obligations increase.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "15516_hitozukiai_ex3",
-      "japanese": "{彼|かれ}は{人付|ひとづ}き{合|あ}いがよく、{誰|だれ}とでもすぐに{仲良|なかよ}くなれる。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{人付|ひとづ}き{合|あ}い⟦が→が：00051_ga⟧⟦よく→よく：00601_yoku⟧、⟦{誰|だれ}→誰：00534_dare⟧⟦と→と：00512_to⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧⟦すぐ→すぐ：00814_sugu⟧⟦に→に：00314_ni⟧⟦{仲良|なかよ}く→仲良い：29434_nakayoi⟧⟦なれる→なる：01970_naru⟧。",
       "english": "He's good with people and can quickly become friends with anyone.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,19 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{人付|ひとづ}き{合|あ}い is a common word for describing how well or how much one socializes. It often appears with {苦手|にがて} (bad at), {上手|じょうず} (good at), or {広|ひろ}い (wide, extensive).\n\nCOMMON COLLOCATIONS:\n- {人付|ひとづ}き{合|あ}いが{苦手|にがて}だ (to be bad at socializing)\n- {人付|ひとづ}き{合|あ}いがいい (to be sociable)\n- {人付|ひとづ}き{合|あ}いが{広|ひろ}い (to have a wide social circle)\n- {人付|ひとづ}き{合|あ}いを{避|さ}ける (to avoid socializing)",
-  "cross_references": [],
+  "notes": "USAGE:\n{人付|ひとづ}き{合|あ}い is a common word for describing how well or how much one socializes. It often appears with ⟦{苦手|にがて}→苦手：03513_nigate⟧ (bad at), ⟦{上手|じょうず}→上手：00707_jouzu⟧ (good at), or ⟦{広|ひろ}い→広い：00704_hiroi⟧ (wide, extensive).\n\nCOMMON COLLOCATIONS:\n- {人付|ひとづ}き{合|あ}い⟦が→が：00051_ga⟧⟦{苦手|にがて}→苦手：03513_nigate⟧だ (to be bad at socializing)\n- {人付|ひとづ}き{合|あ}い⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧ (to be sociable)\n- {人付|ひとづ}き{合|あ}い⟦が→が：00051_ga⟧⟦{広|ひろ}い→広い：00704_hiroi⟧ (to have a wide social circle)\n- {人付|ひとづ}き{合|あ}い⟦を→を：00422_wo⟧⟦{避|さ}ける→避ける：02109_sakeru⟧ (to avoid socializing)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22542_shosei",
+      "reading": "しょせい",
+      "headword": "{処世|しょせい}",
+      "label": "getting along in the world"
+    }
+  ],
   "metadata": {
     "created": "2026-03-07T09:34:07Z",
-    "modified": "2026-07-16T15:31:26Z",
+    "modified": "2026-09-02T04:01:41Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

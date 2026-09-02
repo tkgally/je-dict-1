@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "23081_kyandii_ex1",
-      "japanese": "キャンディーをなめる。",
+      "japanese": "キャンディー⟦を→を：00422_wo⟧なめる。",
       "english": "To suck on a candy.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "23081_kyandii_ex2",
-      "japanese": "のどが{痛|いた}いので、キャンディーを{買|か}った。",
+      "japanese": "のど⟦が→が：00051_ga⟧⟦{痛|いた}い→痛い：01108_itai⟧⟦の→の：09472_no⟧で、キャンディー⟦を→を：00422_wo⟧⟦{買|か}った→買う：00489_kau⟧。",
       "english": "I bought some candy because my throat hurts.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "23081_kyandii_ex3",
-      "japanese": "{子|こ}どもたちにカラフルなキャンディーを{配|くば}ったら、みんな{喜|よろこ}んだ。",
+      "japanese": "{子|こ}どもたち⟦に→に：00314_ni⟧⟦カラフル→カラフル：10803_karafuru⟧なキャンディー⟦を→を：00422_wo⟧⟦{配|くば}ったら→配る：03921_kubaru⟧、⟦みんな→みんな：02972_minna⟧⟦{喜|よろこ}んだ→喜ぶ：01169_yorokobu⟧。",
       "english": "When I handed out colorful candies to the children, they were all delighted.",
       "sense_numbers": [
         1
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "A loanword from English 'candy.' In Japanese, キャンディー generally refers to hard candies or boiled sweets, while broader categories of sweets have different terms. The shorter form キャンディ is also used.\n\nCOMMON COLLOCATIONS:\n- キャンディーをなめる: to suck on a candy\n- キャンディーを{配|くば}る: to hand out candy\n- フルーツキャンディー: fruit candy\n- のどキャンディー: throat candy; cough drop\n\nSIMILAR WORDS:\n- {飴|あめ}: candy; hard candy — the native Japanese word, more commonly used in everyday speech\n- お{菓子|かし}: sweets; snacks — broader term covering all confections\n- ドロップ: drop candy — hard candy, often fruit-flavored, in a tin\n- チョコレート: chocolate — a different category of confection",
+  "notes": "A loanword from English 'candy.' In Japanese, キャンディー generally refers to hard candies or boiled sweets, while broader categories of sweets have different terms. The shorter form キャンディ is also used.\n\nCOMMON COLLOCATIONS:\n- キャンディー⟦を→を：00422_wo⟧なめる: to suck on a candy\n- キャンディー⟦を→を：00422_wo⟧⟦{配|くば}る→配る：03921_kubaru⟧: to hand out candy\n- ⟦フルーツ→フルーツ：11247_furuutsu⟧キャンディー: fruit candy\n- のどキャンディー: throat candy; cough drop\n\nSIMILAR WORDS:\n- ⟦{飴|あめ}→飴：00687_ame⟧: candy; hard candy — the native Japanese word, more commonly used in everyday speech\n- ⟦お{菓子|かし}→お菓子：02852_okashi⟧: sweets; snacks — broader term covering all confections\n- ドロップ: drop candy — hard candy, often fruit-flavored, in a tin\n- ⟦チョコレート→チョコレート：05183_chokoreeto⟧: chocolate — a different category of confection",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00687_ame",
+      "reading": "あめ",
+      "headword": "{飴|あめ}",
+      "label": "candy"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02852_okashi",
+      "reading": "おかし",
+      "headword": "お{菓子|かし}",
+      "label": "sweets"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05183_chokoreeto",
+      "reading": "ちょこれーと",
+      "headword": "チョコレート",
+      "label": "chocolate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16971_amedama",
+      "reading": "あめだま",
+      "headword": "{飴玉|あめだま}",
+      "label": "hard candy"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +89,6 @@
       ]
     },
     "created": "2026-04-08T18:28:53Z",
-    "modified": "2026-04-10T08:28:27Z"
+    "modified": "2026-09-02T04:02:10Z"
   }
 }

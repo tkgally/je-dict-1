@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26737_baibu_ex1",
-      "japanese": "{携帯|けいたい}をバイブにする。",
+      "japanese": "⟦{携帯|けいたい}→携帯：00715_keitai⟧⟦を→を：00422_wo⟧バイブ⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧。",
       "english": "Put the phone on vibrate.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26737_baibu_ex2",
-      "japanese": "{会議|かいぎ}{中|ちゅう}はバイブモードにしてください。",
+      "japanese": "⟦{会議|かいぎ}{中|ちゅう}→会議中：16781_kaigichuu⟧⟦は→は：00079_ha⟧バイブ⟦モード→モード：11596_moodo⟧にして⟦ください→ください：02899_kudasai⟧。",
       "english": "Please set your phone to vibrate mode during the meeting.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26737_baibu_ex3",
-      "japanese": "ポケットの{中|なか}でバイブが{鳴|な}っていることに{気|き}づかなかった。",
+      "japanese": "⟦ポケット→ポケット：02964_poketto⟧⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧⟦で→で：00502_de⟧バイブ⟦が→が：00051_ga⟧⟦{鳴|な}っている→鳴る：01143_naru⟧こと⟦に→に：00314_ni⟧{気|き}づかなかった。",
       "english": "I didn't notice the phone vibrating in my pocket.",
       "sense_numbers": [
         1
@@ -44,8 +44,23 @@
       "notes": null
     }
   ],
-  "notes": "An abbreviation of バイブレーション (vibration), from English \"vibe/vibration.\" In everyday Japanese, バイブ almost always refers to the vibration function on a mobile phone. The phrase バイブにする (\"put on vibrate\") is extremely common in daily life.\n\nCOMMON COLLOCATIONS:\n- バイブにする: to set to vibrate\n- バイブモード: vibrate mode\n- バイブが{鳴|な}る: the vibration goes off\n- バイブ{機能|きのう}: vibration function\n\nUSAGE:\nIn casual speech, バイブ is the standard way to refer to phone vibration. Signs in cinemas, hospitals, and meeting rooms often instruct people to switch to マナーモード (manner mode), which typically includes vibrate.",
-  "cross_references": [],
+  "notes": "An abbreviation of バイブレーション (vibration), from English \"vibe/vibration.\" In everyday Japanese, バイブ almost always refers to the vibration function on a mobile phone. The phrase バイブ⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧ (\"put on vibrate\") is extremely common in daily life.\n\nCOMMON COLLOCATIONS:\n- バイブ⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧: to set to vibrate\n- バイブ⟦モード→モード：11596_moodo⟧: vibrate mode\n- バイブ⟦が→が：00051_ga⟧⟦{鳴|な}る→鳴る：01143_naru⟧: the vibration goes off\n- バイブ⟦{機能|きのう}→機能：13165_kinou⟧: vibration function\n\nUSAGE:\nIn casual speech, バイブ is the standard way to refer to phone vibration. Signs in cinemas, hospitals, and meeting rooms often instruct people to switch to ⟦マナーモード→マナーモード：07687_manaamoodo⟧ (manner mode), which typically includes vibrate.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "08040_chakushinon",
+      "reading": "ちゃくしんおん",
+      "headword": "{着信音|ちゃくしんおん}",
+      "label": "ringtone"
+    },
+    {
+      "type": "related",
+      "target_id": "08179_shindou",
+      "reading": "しんどう",
+      "headword": "{振動|しんどう}",
+      "label": "vibration"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -63,6 +78,6 @@
       ]
     },
     "created": "2026-05-04T15:31:06Z",
-    "modified": "2026-08-06T12:47:03Z"
+    "modified": "2026-09-02T04:02:27Z"
   }
 }

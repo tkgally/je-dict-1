@@ -19,7 +19,7 @@
   "examples": [
     {
       "id": "02205_kuro_ex1",
-      "japanese": "{黒|くろ}い⟦{服|ふく}→服：00695_fuku⟧⟦を→を：00422_wo⟧⟦{着|き}る→着る：00541_kiru⟧。",
+      "japanese": "⟦{黒|くろ}い→黒い：00588_kuroi⟧⟦{服|ふく}→服：00695_fuku⟧⟦を→を：00422_wo⟧⟦{着|き}る→着る：00541_kiru⟧。",
       "english": "To wear black clothes.",
       "notes": null,
       "has_audio": false,
@@ -39,7 +39,7 @@
     },
     {
       "id": "02205_kuro_ex3",
-      "japanese": "{黒|くろ}い⟦{猫|ねこ}→猫：02237_neko⟧⟦が→が：00051_ga⟧⟦{好|す}きです→好き：02355_suki⟧。",
+      "japanese": "⟦{黒|くろ}い→黒い：00588_kuroi⟧⟦{猫|ねこ}→猫：02237_neko⟧⟦が→が：00051_ga⟧⟦{好|す}きです→好き：02355_suki⟧。",
       "english": "I like black cats.",
       "notes": null,
       "has_audio": false,
@@ -49,7 +49,7 @@
     },
     {
       "id": "02205_kuro_ex4",
-      "japanese": "⟦{髪|かみ}→髪：02196_kami⟧⟦が→が：00051_ga⟧{黒|くろ}い。",
+      "japanese": "⟦{髪|かみ}→髪：02196_kami⟧⟦が→が：00051_ga⟧⟦{黒|くろ}い→黒い：00588_kuroi⟧。",
       "english": "Their hair is black.",
       "notes": null,
       "has_audio": false,
@@ -59,7 +59,7 @@
     },
     {
       "id": "02205_kuro_ex5",
-      "japanese": "⟦{空|そら}→空：02216_sora⟧⟦が→が：00051_ga⟧{黒|くろ}く⟦なってきた→なる：01970_naru⟧。",
+      "japanese": "⟦{空|そら}→空：02216_sora⟧⟦が→が：00051_ga⟧⟦{黒|くろ}く→黒い：00588_kuroi⟧⟦なってきた→なる：01970_naru⟧。",
       "english": "The sky is getting dark.",
       "notes": null,
       "has_audio": false,
@@ -118,7 +118,7 @@
       ]
     }
   ],
-  "notes": "{黒|くろ} means black (color) or guilty (slang).\n\nCOLOR MEANING:\n- {黒|くろ}い: black (i-adjective form)\n- ⟦{真|ま}っ{黒|くろ}→真っ黒：07614_makkuro⟧: pitch black, jet black\n- ⟦{黒髪|くろかみ}→黒髪：20251_kurokami⟧: black hair\n\nSLANG MEANING:\n- {黒|くろ}: guilty\n- ⟦{白|しろ}→白：13854_shiro⟧: innocent\n- ⟦{白|しろ}→白：13854_shiro⟧⟦か→か：09473_ka⟧{黒|くろ}⟦か→か：09473_ka⟧: innocent or guilty\n\nCOMPOUNDS:\n- ⟦{黒字|くろじ}→黒字：04715_kuroji⟧: in the black (profit) vs. ⟦{赤字|あかじ}→赤字：04712_akaji⟧ (deficit)\n- ⟦{黒板|こくばん}→黒板：02756_kokuban⟧: blackboard\n- ⟦{腹黒|はらぐろ}い→腹黒い：07740_haraguroi⟧: scheming, having a black heart\n\nCONTRAST:\n- {黒|くろ}: black\n- ⟦{白|しろ}→白：13854_shiro⟧: white",
+  "notes": "{黒|くろ} means black (color) or guilty (slang).\n\nCOLOR MEANING:\n- ⟦{黒|くろ}い→黒い：00588_kuroi⟧: black (i-adjective form)\n- ⟦{真|ま}っ{黒|くろ}→真っ黒：07614_makkuro⟧: pitch black, jet black\n- ⟦{黒髪|くろかみ}→黒髪：20251_kurokami⟧: black hair\n\nSLANG MEANING:\n- {黒|くろ}: guilty\n- ⟦{白|しろ}→白：13854_shiro⟧: innocent\n- ⟦{白|しろ}→白：13854_shiro⟧⟦か→か：09473_ka⟧{黒|くろ}⟦か→か：09473_ka⟧: innocent or guilty\n\nCOMPOUNDS:\n- ⟦{黒字|くろじ}→黒字：04715_kuroji⟧: in the black (profit) vs. ⟦{赤字|あかじ}→赤字：04712_akaji⟧ (deficit)\n- ⟦{黒板|こくばん}→黒板：02756_kokuban⟧: blackboard\n- ⟦{腹黒|はらぐろ}い→腹黒い：07740_haraguroi⟧: scheming, having a black heart\n\nSIMILAR WORDS:\n- {黒|くろ}: black\n- ⟦{白|しろ}→白：13854_shiro⟧: white",
   "cross_references": [
     {
       "type": "antonym",
@@ -126,11 +126,18 @@
       "reading": "しろ",
       "headword": "{白|しろ}",
       "label": "white; innocent"
+    },
+    {
+      "type": "related",
+      "target_id": "04303_haiiro",
+      "reading": "はいいろ",
+      "headword": "{灰色|はいいろ}",
+      "label": "gray, grey"
     }
   ],
   "metadata": {
     "created": "2026-01-09T12:13:12Z",
-    "modified": "2026-05-18T19:16:37Z",
+    "modified": "2026-09-02T04:01:01Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08411_riigusen_ex1",
-      "japanese": "リーグ{戦|せん}が{来週|らいしゅう}{始|はじ}まる。",
+      "japanese": "リーグ{戦|せん}⟦が→が：00051_ga⟧⟦{来週|らいしゅう}→来週：00746_raishuu⟧⟦{始|はじ}まる→始まる：00841_hajimaru⟧。",
       "english": "The league matches start next week.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "08411_riigusen_ex2",
-      "japanese": "リーグ{戦|せん}で{首位|しゅい}に{立|た}っている。",
+      "japanese": "リーグ{戦|せん}⟦で→で：00502_de⟧⟦{首位|しゅい}→首位：14677_shui⟧⟦に→に：00314_ni⟧⟦{立|た}っている→立つ：00758_tatsu⟧。",
       "english": "We're in first place in the league.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "08411_riigusen_ex3",
-      "japanese": "リーグ{戦|せん}の{後|あと}、トーナメントが{行|おこな}われる。",
+      "japanese": "リーグ{戦|せん}⟦の→の：09472_no⟧⟦{後|あと}→後：09580_ato⟧、⟦トーナメント→トーナメント：08408_toonamento⟧⟦が→が：00051_ga⟧⟦{行|おこな}われる→行う：01238_okonau⟧。",
       "english": "After the league matches, a tournament will be held.",
       "sense_numbers": [
         1
@@ -43,7 +43,7 @@
       "notes": null
     }
   ],
-  "notes": "FORMATION:\nリーグ (league, from English) + {戦|せん} (competition, match)\n\nCONTRAST:\n- リーグ{戦|せん} (round-robin format - all teams play each other)\n- トーナメント{戦|せん} (knockout format - one loss eliminates)\n\nADVANTAGES:\nIn リーグ{戦|せん}, teams can lose some matches and still win overall, allowing for a fairer assessment of strength over time.\n\nRELATED WORDS:\n- {総当|そうあ}たり{戦|せん} (round-robin tournament)\n- リーグ{優勝|ゆうしょう} (league championship)\n- {勝|か}ち{点|てん} (league points)\n- {順位|じゅんい} (ranking, standing)",
+  "notes": "FORMS:\n⟦リーグ→リーグ：11600_riigu⟧ (league, from English) + ⟦{戦|せん}→〜戦：28346_sen⟧ (competition, match)\n\nSIMILAR WORDS:\n- リーグ{戦|せん} (round-robin format - all teams play each other)\n- ⟦トーナメント→トーナメント：08408_toonamento⟧⟦{戦|せん}→〜戦：28346_sen⟧ (knockout format - one loss eliminates)\n\nADVANTAGES:\nIn リーグ{戦|せん}, teams can lose some matches and still win overall, allowing for a fairer assessment of strength over time.\n\nRELATED WORDS:\n- {総当|そうあ}たり⟦{戦|せん}→〜戦：28346_sen⟧ (round-robin tournament)\n- ⟦リーグ→リーグ：11600_riigu⟧⟦{優勝|ゆうしょう}→優勝：03647_yuushou⟧ (league championship)\n- ⟦{勝|か}ち{点|てん}→勝ち点：30390_kachiten⟧ (league points)\n- ⟦{順位|じゅんい}→順位：14679_juni⟧ (ranking, standing)",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -51,12 +51,13 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "sports"
       ]
     },
     "created": "2026-01-26T05:21:17Z",
-    "modified": "2026-08-12T12:50:50Z"
+    "modified": "2026-09-02T04:01:15Z"
   },
   "cross_references": [
     {
@@ -65,6 +66,20 @@
       "reading": "とーなめんと",
       "headword": "トーナメント",
       "label": "knockout format"
+    },
+    {
+      "type": "related",
+      "target_id": "30390_kachiten",
+      "reading": "かちてん",
+      "headword": "{勝|か}ち{点|てん}",
+      "label": "league points"
+    },
+    {
+      "type": "related",
+      "target_id": "14679_juni",
+      "reading": "じゅんい",
+      "headword": "{順位|じゅんい}",
+      "label": "ranking, standing"
     }
   ]
 }

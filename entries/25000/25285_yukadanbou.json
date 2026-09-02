@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25285_yukadanbou_ex1",
-      "japanese": "この{部屋|へや}には{床暖房|ゆかだんぼう}がついている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{部屋|へや}→部屋：00507_heya⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{床暖房|ゆかだんぼう}⟦が→が：00051_ga⟧ついて⟦いる→いる：00495_iru⟧。",
       "english": "This room has floor heating.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25285_yukadanbou_ex2",
-      "japanese": "{床暖房|ゆかだんぼう}をつけると{足元|あしもと}から{暖|あたた}かくなる。",
+      "japanese": "{床暖房|ゆかだんぼう}⟦を→を：00422_wo⟧⟦つける→つける：00562_tsukeru⟧⟦と→と：00512_to⟧⟦{足元|あしもと}→足元：04096_ashimoto⟧⟦から→から：00504_kara⟧⟦{暖|あたた}かく→暖かい：00618_atatakai⟧⟦なる→なる：01970_naru⟧。",
       "english": "When you turn on the floor heating, it warms you from your feet up.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25285_yukadanbou_ex3",
-      "japanese": "{新|あたら}しいマンションには{床暖房|ゆかだんぼう}が{標準|ひょうじゅん}{装備|そうび}されていることが{多|おお}い。",
+      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦マンション→マンション：01035_manshon⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{床暖房|ゆかだんぼう}⟦が→が：00051_ga⟧⟦{標準|ひょうじゅん}→標準：04832_hyoujun⟧⟦{装備|そうび}→装備：14103_soubi⟧⟦されている→する：00392_suru⟧こと⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "Many new apartment buildings come with floor heating as a standard feature.",
       "sense_numbers": [
         1
@@ -44,20 +44,37 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {床|ゆか} (floor) + {暖房|だんぼう} (heating). A popular feature in modern Japanese homes and apartments. Often abbreviated as {床暖|ゆかだん} in casual speech and real estate listings.\n\nCOMMON COLLOCATIONS:\n- {床暖房|ゆかだんぼう}をつける: to turn on the floor heating\n- {床暖房|ゆかだんぼう}{付|つ}き: equipped with floor heating\n- {床暖房|ゆかだんぼう}を{設置|せっち}する: to install floor heating\n- ガス{式|しき}{床暖房|ゆかだんぼう}: gas-powered floor heating\n- {電気|でんき}{式|しき}{床暖房|ゆかだんぼう}: electric floor heating\n\nSIMILAR WORDS:\n- エアコン: air conditioner — the most common heating/cooling device in Japan\n- {暖房|だんぼう}: heating — general term for any heating system\n- こたつ: kotatsu — a heated table with a blanket, a traditional Japanese heating method\n\nNOTE: Floor heating is valued in Japan because the floor-sitting lifestyle makes foot warmth especially important. It is a major selling point in real estate.",
+  "notes": "Composed of ⟦{床|ゆか}→床：03652_yuka⟧ (floor) + ⟦{暖房|だんぼう}→暖房：01657_danbou⟧ (heating). A popular feature in modern Japanese homes and apartments. Often abbreviated as {床暖|ゆかだん} in casual speech and real estate listings.\n\nCOMMON COLLOCATIONS:\n- {床暖房|ゆかだんぼう}⟦を→を：00422_wo⟧⟦つける→つける：00562_tsukeru⟧: to turn on the floor heating\n- {床暖房|ゆかだんぼう}⟦{付|つ}き→付き：26333_tsuki⟧: equipped with floor heating\n- {床暖房|ゆかだんぼう}⟦を→を：00422_wo⟧⟦{設置|せっち}する→設置する：26989_secchisuru⟧: to install floor heating\n- ⟦ガス→ガス：01344_gasu⟧{式|しき}{床暖房|ゆかだんぼう}: gas-powered floor heating\n- ⟦{電気|でんき}→電気：09780_denki⟧{式|しき}{床暖房|ゆかだんぼう}: electric floor heating\n\nSIMILAR WORDS:\n- ⟦エアコン→エアコン：05282_eakon⟧: air conditioner — the most common heating/cooling device in Japan\n- ⟦{暖房|だんぼう}→暖房：01657_danbou⟧: heating — general term for any heating system\n- こたつ: kotatsu — a heated table with a blanket, a traditional Japanese heating method\n\nNOTE: Floor heating is valued in Japan because the floor-sitting lifestyle makes foot warmth especially important. It is a major selling point in real estate.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05282_eakon",
+      "reading": "えあこん",
+      "headword": "エアコン",
+      "label": "air conditioner"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05070_kotatsu",
+      "reading": "こたつ",
+      "headword": "{炬燵|こたつ}",
+      "label": "kotatsu"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "building",
         "electronics"
       ]
     },
     "created": "2026-04-24T13:17:39Z",
-    "modified": "2026-08-04T12:59:53Z"
+    "modified": "2026-09-02T04:02:21Z"
   }
 }

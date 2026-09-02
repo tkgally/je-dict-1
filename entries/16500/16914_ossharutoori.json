@@ -25,7 +25,7 @@
     },
     {
       "id": "16914_ossharutoori_ex2",
-      "japanese": "{先生|せんせい}の{仰|おっしゃ}る{通|とお}り、もっと{練習|れんしゅう}が{必要|ひつよう}です。",
+      "japanese": "⟦{先生|せんせい}→先生：00609_sensei⟧⟦の→の：09472_no⟧{仰|おっしゃ}る{通|とお}り、⟦もっと→もっと：00798_motto⟧⟦{練習|れんしゅう}→練習：05323_renshuu⟧⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧です。",
       "english": "Just as the teacher says, more practice is needed.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "16914_ossharutoori_ex3",
-      "japanese": "{仰|おっしゃ}る{通|とお}り、{現状|げんじょう}のままでは{問題|もんだい}が{解決|かいけつ}しません。",
+      "japanese": "{仰|おっしゃ}る{通|とお}り、⟦{現状|げんじょう}→現状：02721_genjou⟧⟦の→の：09472_no⟧まま⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{問題|もんだい}→問題：00797_mondai⟧⟦が→が：00051_ga⟧⟦{解決|かいけつ}しません→解決する：17191_kaiketsusuru⟧。",
       "english": "As you rightly point out, the problem won't be solved if things stay as they are.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,26 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA highly polite expression of agreement, appropriate in business meetings, formal conversations, and when speaking to superiors. {仰|おっしゃ}る is the honorific form of {言|い}う.\n\nFORMALITY SCALE:\n- その{通|とお}り (neutral)\n- {言|い}う{通|とお}り (casual)\n- おっしゃる{通|とお}り (formal/honorific)\n\nSIMILAR WORDS:\n- その{通|とお}り: that's right — neutral level of agreement\n- まさに: exactly — emphasizes precision of the point",
-  "cross_references": [],
+  "notes": "USAGE:\nA highly polite expression of agreement, appropriate in business meetings, formal conversations, and when speaking to superiors. {仰|おっしゃ}る is the honorific form of ⟦{言|い}う→言う：00515_iu⟧.\n\nFORMALITY SCALE:\n- ⟦その{通|とお}り→その通り：22252_sonotoori⟧ (neutral)\n- ⟦{言|い}う→言う：00515_iu⟧⟦{通|とお}り→通り：01475_toori⟧ (casual)\n- ⟦おっしゃる→おっしゃる：01299_ossharu⟧⟦{通|とお}り→通り：01475_toori⟧ (formal/honorific)\n\nSIMILAR WORDS:\n- ⟦その{通|とお}り→その通り：22252_sonotoori⟧: that's right — neutral level of agreement\n- ⟦まさに→まさに：00270_masani⟧: exactly — emphasizes precision of the point",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22252_sonotoori",
+      "reading": "そのとおり",
+      "headword": "その{通|とお}り",
+      "label": "that's right"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00270_masani",
+      "reading": "まさに",
+      "headword": "まさに",
+      "label": "exactly"
+    }
+  ],
   "metadata": {
     "created": "2026-03-15T00:18:56Z",
-    "modified": "2026-03-15T00:18:56Z",
+    "modified": "2026-09-02T04:01:46Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

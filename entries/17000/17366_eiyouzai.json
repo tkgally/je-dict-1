@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "17366_eiyouzai_ex1",
-      "japanese": "{栄養|えいよう}{剤|ざい}を{飲|の}んだ。",
+      "japanese": "{栄養|えいよう}{剤|ざい}⟦を→を：00422_wo⟧⟦{飲|の}んだ→飲む：00322_nomu⟧。",
       "english": "I took a nutritional supplement.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "17366_eiyouzai_ex2",
-      "japanese": "{疲|つか}れたときは{栄養|えいよう}{剤|ざい}に{頼|たよ}ることがある。",
+      "japanese": "⟦{疲|つか}れた→疲れる：00901_tsukareru⟧とき⟦は→は：00079_ha⟧{栄養|えいよう}{剤|ざい}⟦に→に：00314_ni⟧⟦{頼|たよ}る→頼る：02069_tayoru⟧こと⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "When I'm tired, I sometimes rely on nutritional supplements.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "17366_eiyouzai_ex3",
-      "japanese": "{医師|いし}から{栄養|えいよう}{剤|ざい}の{点滴|てんてき}を{受|う}けた。",
+      "japanese": "⟦{医師|いし}→医師：11851_ishi⟧⟦から→から：00504_kara⟧{栄養|えいよう}{剤|ざい}⟦の→の：09472_no⟧⟦{点滴|てんてき}→点滴：10580_tenteki⟧⟦を→を：00422_wo⟧⟦{受|う}けた→受ける：01215_ukeru⟧。",
       "english": "I received a nutritional supplement via IV drip from the doctor.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nCovers a wide range of products from over-the-counter vitamin drinks (like those sold at convenience stores) to medical nutrient preparations administered in hospitals. In everyday use, often refers to energy drinks and vitamin supplements.\n\nCOMMON COLLOCATIONS:\n- {栄養|えいよう}{剤|ざい}を{飲|の}む (to take a nutritional supplement)\n- {栄養|えいよう}{剤|ざい}の{点滴|てんてき} (nutritional IV drip)\n\nSIMILAR WORDS:\n- サプリメント: supplement — loanword, often used for tablets and capsules\n- {栄養|えいよう}ドリンク: energy drink — specifically liquid form\n- {健康|けんこう}{食品|しょくひん}: health food — broader category",
+  "notes": "USAGE:\nCovers a wide range of products from over-the-counter vitamin drinks (like those sold at convenience stores) to medical nutrient preparations administered in hospitals. In everyday use, often refers to energy drinks and vitamin supplements.\n\nCOMMON COLLOCATIONS:\n- {栄養|えいよう}{剤|ざい}⟦を→を：00422_wo⟧⟦{飲|の}む→飲む：00322_nomu⟧ (to take a nutritional supplement)\n- {栄養|えいよう}{剤|ざい}⟦の→の：09472_no⟧⟦{点滴|てんてき}→点滴：10580_tenteki⟧ (nutritional IV drip)\n\nSIMILAR WORDS:\n- ⟦サプリメント→サプリメント：10937_sapurimento⟧: supplement — loanword, often used for tablets and capsules\n- ⟦{栄養|えいよう}→栄養：01882_eiyou⟧⟦ドリンク→ドリンク：23507_dorinku⟧: energy drink — specifically liquid form\n- ⟦{健康|けんこう}{食品|しょくひん}→健康食品：17355_kenkoushokuhin⟧: health food — broader category",
   "cross_references": [
     {
       "type": "synonym",
@@ -59,11 +59,18 @@
       "reading": "えいよう",
       "headword": "{栄養|えいよう}",
       "label": "nutrition"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17355_kenkoushokuhin",
+      "reading": "けんこうしょくひん",
+      "headword": "{健康|けんこう}{食品|しょくひん}",
+      "label": "health food"
     }
   ],
   "metadata": {
     "created": "2026-03-17T08:21:25Z",
-    "modified": "2026-05-06T07:07:17Z",
+    "modified": "2026-09-02T04:01:48Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

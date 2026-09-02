@@ -15,40 +15,89 @@
   "examples": [
     {
       "id": "20242_ousetsushitsu_ex1",
-      "japanese": "{応接室|おうせつしつ}でお{待|ま}ちください。",
+      "japanese": "{応接室|おうせつしつ}⟦で→で：00502_de⟧お⟦{待|ま}ち→待つ：00469_matsu⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please wait in the reception room.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20242_ousetsushitsu_ex2",
-      "japanese": "お{客|きゃく}さまを{応接室|おうせつしつ}にご{案内|あんない}した。",
+      "japanese": "お⟦{客|きゃく}→客：00865_kyaku⟧さま⟦を→を：00422_wo⟧{応接室|おうせつしつ}⟦に→に：00314_ni⟧ご⟦{案内|あんない}した→案内する：20203_annaisuru⟧。",
       "english": "I showed the guest to the reception room.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20242_ousetsushitsu_ex3",
-      "japanese": "{社長|しゃちょう}が{応接室|おうせつしつ}で{取引先|とりひきさき}と{打|う}ち{合|あ}わせをしているので、{終|お}わるまで{入|はい}らないでください。",
+      "japanese": "⟦{社長|しゃちょう}→社長：01428_shachou⟧⟦が→が：00051_ga⟧{応接室|おうせつしつ}⟦で→で：00502_de⟧⟦{取引先|とりひきさき}→取引先：11083_torihikisaki⟧⟦と→と：00512_to⟧⟦{打|う}ち{合|あ}わせ→打ち合わせ：07155_uchiawase⟧⟦を→を：00422_wo⟧⟦している→する：00392_suru⟧⟦の→の：09472_no⟧で、{終|お}わる⟦まで→まで：00490_made⟧⟦{入|はい}らないで→入る：00494_hairu⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "The president is having a meeting with a client in the reception room, so please don't go in until they're finished.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {応接|おうせつ} (reception, receiving guests) + {室|しつ} (room). Found in offices, larger homes, and institutional buildings. In a Japanese office, the {応接室|おうせつしつ} is typically furnished with sofas and a coffee table, separate from the open workspace.\n\nCOMMON COLLOCATIONS:\n- {応接室|おうせつしつ}に{案内|あんない}する: to show someone to the reception room\n- {応接室|おうせつしつ}で{待|ま}つ: to wait in the reception room\n- {応接室|おうせつしつ}のソファー: reception room sofa\n- {応接室|おうせつしつ}に{通|とお}す: to usher someone into the reception room\n\nSIMILAR WORDS:\n- {会議室|かいぎしつ}: meeting room, conference room — for internal meetings\n- {待合室|まちあいしつ}: waiting room — in hospitals, stations, etc.\n- {客間|きゃくま}: guest room — in a Japanese-style home\n- {応接間|おうせつま}: reception room — synonym, slightly more old-fashioned",
+  "notes": "Composed of ⟦{応接|おうせつ}→応接：04109_ousetsu⟧ (reception, receiving guests) + ⟦{室|しつ}→室：09946_shitsu⟧ (room). Found in offices, larger homes, and institutional buildings. In a Japanese office, the {応接室|おうせつしつ} is typically furnished with sofas and a coffee table, separate from the open workspace.\n\nCOMMON COLLOCATIONS:\n- {応接室|おうせつしつ}⟦に→に：00314_ni⟧⟦{案内|あんない}する→案内する：20203_annaisuru⟧: to show someone to the reception room\n- {応接室|おうせつしつ}⟦で→で：00502_de⟧⟦{待|ま}つ→待つ：00469_matsu⟧: to wait in the reception room\n- {応接室|おうせつしつ}⟦の→の：09472_no⟧⟦ソファー→ソファー：05607_sofaa⟧: reception room sofa\n- {応接室|おうせつしつ}⟦に→に：00314_ni⟧⟦{通|とお}す→通す：02300_toosu⟧: to usher someone into the reception room\n\nSIMILAR WORDS:\n- ⟦{会議室|かいぎしつ}→会議室：01265_kaigishitsu⟧: meeting room, conference room — for internal meetings\n- ⟦{待合室|まちあいしつ}→待合室：07373_machiaishitsu⟧: waiting room — in hospitals, stations, etc.\n- ⟦{客間|きゃくま}→客間：00257_kyakuma⟧: guest room — in a Japanese-style home\n- ⟦{応接間|おうせつま}→応接間：08530_ousetsuma⟧: reception room — synonym, slightly more old-fashioned",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01265_kaigishitsu",
+      "reading": "かいぎしつ",
+      "headword": "{会議室|かいぎしつ}",
+      "label": "meeting room, conference room"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07373_machiaishitsu",
+      "reading": "まちあいしつ",
+      "headword": "{待合室|まちあいしつ}",
+      "label": "waiting room"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00257_kyakuma",
+      "reading": "きゃくま",
+      "headword": "{客間|きゃくま}",
+      "label": "guest room"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08530_ousetsuma",
+      "reading": "おうせつま",
+      "headword": "{応接間|おうせつま}",
+      "label": "reception room"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21832_danwashitsu",
+      "reading": "だんわしつ",
+      "headword": "{談話室|だんわしつ}",
+      "label": "lounge"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["place", "business", "building"]
+      "semantic": [
+        "place",
+        "business",
+        "building"
+      ]
     },
     "created": "2026-03-28T18:07:14Z",
-    "modified": "2026-03-28T18:07:14Z"
+    "modified": "2026-09-02T04:01:59Z"
   }
 }

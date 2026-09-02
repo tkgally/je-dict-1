@@ -15,38 +15,74 @@
   "examples": [
     {
       "id": "25448_sunuuzu_ex1",
-      "japanese": "スヌーズを{止|と}める。",
+      "japanese": "スヌーズ⟦を→を：00422_wo⟧⟦{止|と}める→止める：00678_tomeru⟧。",
       "english": "To turn off the snooze.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "25448_sunuuzu_ex2",
-      "japanese": "スヌーズを{何度|なんど}も{押|お}してしまう。",
+      "japanese": "スヌーズ⟦を→を：00422_wo⟧⟦{何度|なんど}→何度：17592_nando⟧⟦も→も：00484_mo⟧⟦{押|お}して→押す：02854_osu⟧しまう。",
       "english": "I keep hitting snooze over and over.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "25448_sunuuzu_ex3",
-      "japanese": "スヌーズ{機能|きのう}に{頼|たよ}りすぎて、{毎朝|まいあさ}{遅刻|ちこく}しそうになる。",
+      "japanese": "スヌーズ⟦{機能|きのう}→機能：13165_kinou⟧⟦に→に：00314_ni⟧⟦{頼|たよ}り→頼る：02069_tayoru⟧すぎて、⟦{毎朝|まいあさ}→毎朝：00966_maiasa⟧⟦{遅刻|ちこく}→遅刻：03465_chikoku⟧しそう⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧。",
       "english": "I rely too much on the snooze function and nearly end up late every morning.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "From English \"snooze.\" Refers specifically to the alarm clock feature on smartphones and alarm clocks that delays the alarm by a set interval (usually 5-10 minutes). Very commonly used in everyday Japanese, especially when talking about morning routines.\n\nCOMMON COLLOCATIONS:\n- スヌーズを{押|お}す: to hit snooze\n- スヌーズを{止|と}める: to stop the snooze\n- スヌーズ{機能|きのう}: snooze function\n- スヌーズを{設定|せってい}する: to set the snooze\n- スヌーズ{間隔|かんかく}: snooze interval\n\nSIMILAR WORDS:\n- {目覚|めざ}まし: alarm clock — the device or app itself\n- アラーム: alarm — the general alert sound or setting\n- {二度寝|にどね}: falling back asleep — going back to sleep after waking up, which snooze enables",
+  "notes": "From English \"snooze.\" Refers specifically to the alarm clock feature on smartphones and alarm clocks that delays the alarm by a set interval (usually 5-10 minutes). Very commonly used in everyday Japanese, especially when talking about morning routines.\n\nCOMMON COLLOCATIONS:\n- スヌーズ⟦を→を：00422_wo⟧⟦{押|お}す→押す：02854_osu⟧: to hit snooze\n- スヌーズ⟦を→を：00422_wo⟧⟦{止|と}める→止める：00678_tomeru⟧: to stop the snooze\n- スヌーズ⟦{機能|きのう}→機能：13165_kinou⟧: snooze function\n- スヌーズ⟦を→を：00422_wo⟧⟦{設定|せってい}→設定：04767_settei⟧⟦する→する：00392_suru⟧: to set the snooze\n- スヌーズ⟦{間隔|かんかく}→間隔：02622_kankaku⟧: snooze interval\n\nSIMILAR WORDS:\n- ⟦{目覚|めざ}まし→目覚まし：08550_mezamashi⟧: alarm clock — the device or app itself\n- ⟦アラーム→アラーム：10707_araamu⟧: alarm — the general alert sound or setting\n- ⟦{二度寝|にどね}→二度寝：07694_nidone⟧: falling back asleep — going back to sleep after waking up, which snooze enables",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08550_mezamashi",
+      "reading": "めざまし",
+      "headword": "{目覚|めざ}まし",
+      "label": "alarm clock"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10707_araamu",
+      "reading": "あらーむ",
+      "headword": "アラーム",
+      "label": "alarm"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07694_nidone",
+      "reading": "にどね",
+      "headword": "{二度寝|にどね}",
+      "label": "falling back asleep"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["daily-life", "technology"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "daily-life",
+        "technology"
+      ]
     },
     "created": "2026-04-25T13:32:29Z",
-    "modified": "2026-04-25T13:32:29Z"
+    "modified": "2026-09-02T04:02:22Z"
   }
 }

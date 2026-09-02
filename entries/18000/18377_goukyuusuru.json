@@ -3,7 +3,7 @@
   "id": "18377_goukyuusuru",
   "headword": "{号泣|ごうきゅう}する",
   "reading": "ごうきゅうする",
-  "part_of_speech": "noun, suru verb, intransitive",
+  "part_of_speech": "noun, suru verb (intransitive)",
   "gloss": "to wail; to cry loudly",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "18377_goukyuusuru_ex1",
-      "japanese": "{感動|かんどう}して{号泣|ごうきゅう}した。",
+      "japanese": "⟦{感動|かんどう}して→感動する：21603_kandousuru⟧{号泣|ごうきゅう}した。",
       "english": "I was so moved that I cried my eyes out.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "18377_goukyuusuru_ex2",
-      "japanese": "{映画|えいが}のラストシーンで{観客|かんきゃく}が{号泣|ごうきゅう}していた。",
+      "japanese": "⟦{映画|えいが}→映画：02273_eiga⟧⟦の→の：09472_no⟧⟦ラスト→ラスト：30487_rasuto⟧⟦シーン→シーン：08914_shiin⟧⟦で→で：00502_de⟧⟦{観客|かんきゃく}→観客：02556_kankyaku⟧⟦が→が：00051_ga⟧{号泣|ごうきゅう}して⟦いた→いる：00495_iru⟧。",
       "english": "The audience was sobbing during the last scene of the movie.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "18377_goukyuusuru_ex3",
-      "japanese": "{卒業式|そつぎょうしき}で{友達|ともだち}との{別|わか}れが{辛|つら}くて、{人前|ひとまえ}で{号泣|ごうきゅう}してしまった。",
+      "japanese": "⟦{卒業式|そつぎょうしき}→卒業式：05584_sotsugyoushiki⟧⟦で→で：00502_de⟧⟦{友達|ともだち}→友達：01478_tomodachi⟧⟦と→と：00512_to⟧⟦の→の：09472_no⟧⟦{別|わか}れ→別れ：03788_wakare⟧⟦が→が：00051_ga⟧⟦{辛|つら}くて→辛い：01112_tsurai⟧、⟦{人前|ひとまえ}→人前：19380_hitomae⟧⟦で→で：00502_de⟧{号泣|ごうきゅう}してしまった。",
       "english": "At the graduation ceremony, parting with my friends was so painful that I ended up wailing in front of everyone.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nOriginally a strong literary word meaning to cry with loud, audible sobs. In modern casual usage, especially online and among younger speakers, {号泣|ごうきゅう} is often used more loosely to mean \"crying a lot\" or even \"tearing up,\" somewhat diluting its original intensity.\n\nCOMMON COLLOCATIONS:\n- {感動|かんどう}して{号泣|ごうきゅう}する (to cry from being moved)\n- {人前|ひとまえ}で{号泣|ごうきゅう}する (to cry in public)\n- {号泣|ごうきゅう}する{映画|えいが} (a movie that makes you cry)\n\nSIMILAR WORDS:\n- {泣|な}く: The basic word for crying — neutral in intensity.\n- {涙|なみだ}を{流|なが}す: To shed tears — more literary, can be quiet.\n- {嗚咽|おえつ}する: To sob, to choke up — emphasizes the physical act of sobbing with a constricted voice.",
+  "notes": "USAGE:\nOriginally a strong literary word meaning to cry with loud, audible sobs. In modern casual usage, especially online and among younger speakers, ⟦{号泣|ごうきゅう}→号泣：15038_goukyuu⟧ is often used more loosely to mean \"crying a lot\" or even \"tearing up,\" somewhat diluting its original intensity.\n\nCOMMON COLLOCATIONS:\n- ⟦{感動|かんどう}して→感動する：21603_kandousuru⟧{号泣|ごうきゅう}する (to cry from being moved)\n- ⟦{人前|ひとまえ}→人前：19380_hitomae⟧⟦で→で：00502_de⟧{号泣|ごうきゅう}する (to cry in public)\n- {号泣|ごうきゅう}する⟦{映画|えいが}→映画：02273_eiga⟧ (a movie that makes you cry)\n\nSIMILAR WORDS:\n- ⟦{泣|な}く→泣く：00655_naku⟧: The basic word for crying — neutral in intensity.\n- ⟦{涙|なみだ}→涙：02235_namida⟧⟦を→を：00422_wo⟧⟦{流|なが}す→流す：01968_nagasu⟧: To shed tears — more literary, can be quiet.\n- ⟦{嗚咽|おえつ}→嗚咽：16567_oetsu⟧⟦する→する：00392_suru⟧: To sob, to choke up — emphasizes the physical act of sobbing with a constricted voice.",
   "cross_references": [
     {
       "type": "synonym",
@@ -142,11 +142,39 @@
       "reading": "なきさけぶ",
       "headword": "{泣|な}き{叫|さけ}ぶ",
       "label": "to wail"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00655_naku",
+      "reading": "なく",
+      "headword": "{泣|な}く",
+      "label": "The basic word for crying"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16567_oetsu",
+      "reading": "おえつ",
+      "headword": "{嗚咽|おえつ}",
+      "label": "To sob, to choke up"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13342_nakikuzureru",
+      "reading": "なきくずれる",
+      "headword": "{泣|な}き{崩|くず}れる",
+      "label": "to break down in tears"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24461_musebinaku",
+      "reading": "むせびなく",
+      "headword": "むせび{泣|な}く",
+      "label": "to sob"
     }
   ],
   "metadata": {
     "created": "2026-03-21T10:54:29Z",
-    "modified": "2026-05-07T08:09:41Z",
+    "modified": "2026-09-02T04:01:52Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

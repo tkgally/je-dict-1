@@ -3,7 +3,7 @@
   "headword": "{塗布|とふ}",
   "reading": "とふ",
   "romaji": "tofu",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "application (of ointment, cream, paint, etc.); spreading on a surface",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24594_tofu_ex1",
-      "japanese": "{薬|くすり}を{患部|かんぶ}に{塗布|とふ}する。",
+      "japanese": "⟦{薬|くすり}→薬：00793_kusuri⟧⟦を→を：00422_wo⟧⟦{患部|かんぶ}→患部：18653_kanbu⟧⟦に→に：00314_ni⟧{塗布|とふ}⟦する→する：00392_suru⟧。",
       "english": "Apply the medicine to the affected area.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24594_tofu_ex2",
-      "japanese": "{一日|いちにち}{三回|さんかい}、{軟膏|なんこう}を{塗布|とふ}してください。",
+      "japanese": "⟦{一日|いちにち}→一日：00942_ichinichi⟧⟦{三回|さんかい}→三回：30448_sankai⟧、{軟膏|なんこう}⟦を→を：00422_wo⟧{塗布|とふ}⟦して→する：00392_suru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please apply the ointment three times a day.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24594_tofu_ex3",
-      "japanese": "{日焼|ひや}け{止|ど}めは{外出|がいしゅつ}の{三十分前|さんじゅっぷんまえ}に{塗布|とふ}するのが{効果的|こうかてき}です。",
+      "japanese": "⟦{日焼|ひや}け{止|ど}め→日焼け止め：05120_hiyakedome⟧⟦は→は：00079_ha⟧⟦{外出|がいしゅつ}→外出：02543_gaishutsu⟧⟦の→の：09472_no⟧{三十分前|さんじゅっぷんまえ}⟦に→に：00314_ni⟧{塗布|とふ}⟦する→する：00392_suru⟧⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦{効果的|こうかてき}→効果的：04793_koukateki⟧です。",
       "english": "Applying sunscreen thirty minutes before going out is most effective.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "A formal term for applying or spreading a substance onto a surface, most commonly used in medical and pharmaceutical contexts. In everyday speech, {塗|ぬ}る is the standard verb for applying or spreading.\n\nCOMMON COLLOCATIONS:\n- {薬|くすり}を{塗布|とふ}する: to apply medicine\n- {軟膏|なんこう}を{塗布|とふ}する: to apply ointment\n- {塗布|とふ}{量|りょう}: amount to apply\n- {塗布|とふ}{面|めん}: application surface\n\nSIMILAR WORDS:\n- {塗|ぬ}る: to paint, to apply — everyday verb for spreading substances on surfaces\n- {散布|さんぷ}: spraying, scattering — applying a substance by spraying rather than direct contact",
+  "notes": "A formal term for applying or spreading a substance onto a surface, most commonly used in medical and pharmaceutical contexts. In everyday speech, ⟦{塗|ぬ}る→塗る：01174_nuru⟧ is the standard verb for applying or spreading.\n\nCOMMON COLLOCATIONS:\n- ⟦{薬|くすり}→薬：00793_kusuri⟧⟦を→を：00422_wo⟧{塗布|とふ}⟦する→する：00392_suru⟧: to apply medicine\n- {軟膏|なんこう}⟦を→を：00422_wo⟧{塗布|とふ}⟦する→する：00392_suru⟧: to apply ointment\n- {塗布|とふ}⟦{量|りょう}→量：03799_ryou⟧: amount to apply\n- {塗布|とふ}⟦{面|めん}→面：09933_men⟧: application surface\n\nSIMILAR WORDS:\n- ⟦{塗|ぬ}る→塗る：01174_nuru⟧: to paint, to apply — everyday verb for spreading substances on surfaces\n- ⟦{散布|さんぷ}→散布：21064_sanpu⟧: spraying, scattering — applying a substance by spraying rather than direct contact",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01174_nuru",
+      "reading": "ぬる",
+      "headword": "{塗|ぬ}る",
+      "label": "to paint, to apply"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21064_sanpu",
+      "reading": "さんぷ",
+      "headword": "{散布|さんぷ}",
+      "label": "spraying, scattering"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,10 +77,11 @@
       "semantic": [
         "health"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-04-19T16:26:24Z",
-    "modified": "2026-08-03T09:22:27Z"
+    "modified": "2026-09-02T04:02:18Z"
   },
   "conjugation": {
     "type": "suru",

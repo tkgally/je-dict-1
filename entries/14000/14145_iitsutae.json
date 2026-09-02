@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "14145_iitsutae_ex1",
-      "japanese": "この{村|むら}には{古|ふる}い{言|い}い{伝|つた}えがある。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{村|むら}→村：02261_mura⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{古|ふる}い→古い：00488_furui⟧{言|い}い{伝|つた}え⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "This village has an old legend.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14145_iitsutae_ex2",
-      "japanese": "{言|い}い{伝|つた}えによると、この{山|やま}には{神|かみ}が{住|す}んでいる。",
+      "japanese": "{言|い}い{伝|つた}え⟦によると→〜によると：03104_niyoruto⟧、⟦この→この：00962_kono⟧⟦{山|やま}→山：02168_yama⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{神|かみ}→神：02147_kami⟧⟦が→が：00051_ga⟧⟦{住|す}んでいる→住む：00673_sumu⟧。",
       "english": "According to legend, a god lives in this mountain.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14145_iitsutae_ex3",
-      "japanese": "{祖母|そぼ}から{聞|き}いた{言|い}い{伝|つた}えを、{今度|こんど}は{自分|じぶん}の{子供|こども}に{伝|つた}えたい。",
+      "japanese": "⟦{祖母|そぼ}→祖母：00813_sobo⟧⟦から→から：00504_kara⟧⟦{聞|き}いた→聞く：00483_kiku⟧{言|い}い{伝|つた}え⟦を→を：00422_wo⟧、⟦{今度|こんど}→今度：01327_kondo⟧⟦は→は：00079_ha⟧⟦{自分|じぶん}→自分：02887_jibun⟧⟦の→の：09472_no⟧⟦{子供|こども}→子供：00554_kodomo⟧⟦に→に：00314_ni⟧⟦{伝|つた}えたい→伝える：01220_tsutaeru⟧。",
       "english": "I want to pass on the stories I heard from my grandmother to my own children.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\n{言|い}い{伝|つた}え emphasizes that the story has been passed down orally, distinguishing it from written records. Compare with {伝説|でんせつ} (legend), which is more formal and can refer to famous legends known widely, while {言|い}い{伝|つた}え often refers to local or family oral traditions.\n\nCOMMON COLLOCATIONS:\n- {言|い}い{伝|つた}えによると: according to legend/tradition\n- {古|ふる}い{言|い}い{伝|つた}え: an old legend\n- {地元|じもと}の{言|い}い{伝|つた}え: local folklore\n- {言|い}い{伝|つた}えが{残|のこ}る: a legend survives/remains",
+  "notes": "USAGE:\n{言|い}い{伝|つた}え emphasizes that the story has been passed down orally, distinguishing it from written records. Compare with ⟦{伝説|でんせつ}→伝説：11446_densetsu⟧ (legend), which is more formal and can refer to famous legends known widely, while {言|い}い{伝|つた}え often refers to local or family oral traditions.\n\nCOMMON COLLOCATIONS:\n- {言|い}い{伝|つた}え⟦によると→〜によると：03104_niyoruto⟧: according to legend/tradition\n- ⟦{古|ふる}い→古い：00488_furui⟧{言|い}い{伝|つた}え: an old legend\n- ⟦{地元|じもと}→地元：09941_jimoto⟧⟦の→の：09472_no⟧{言|い}い{伝|つた}え: local folklore\n- {言|い}い{伝|つた}え⟦が→が：00051_ga⟧⟦{残|のこ}る→残る：01187_nokoru⟧: a legend survives/remains",
   "cross_references": [
     {
       "type": "synonym",
@@ -46,18 +52,36 @@
       "reading": "でんせつ",
       "headword": "{伝説|でんせつ}",
       "label": "legend (formal, widely known)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21570_kuchizutae",
+      "reading": "くちづたえ",
+      "headword": "{口伝|くちづた}え",
+      "label": "word of mouth"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27115_kuden",
+      "reading": "くでん",
+      "headword": "{口伝|くでん}",
+      "label": "oral tradition"
     }
   ],
   "metadata": {
     "created": "2026-02-28T01:22:08Z",
-    "modified": "2026-04-30T04:29:16Z",
+    "modified": "2026-09-02T04:01:36Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["communication"]
+      "semantic": [
+        "communication"
+      ]
     }
   }
 }

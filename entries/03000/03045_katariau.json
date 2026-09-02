@@ -153,7 +153,7 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive). Pattern: Xと{語|かた}り{合|あ}う (to talk with X).\n\n{語|かた}り{合|あ}う is formed from ⟦{語|かた}る→語る：01930_kataru⟧ (to tell, narrate) + ⟦{合|あ}う→合う：10466_au⟧ (mutual action suffix). The {合|あ}う indicates both parties participating.\n\nCOMMON PATTERNS:\n- ～と{語|かた}り{合|あ}う (to talk with ~)\n- ～⟦について→〜について：03103_nitsuite⟧{語|かた}り{合|あ}う (to talk about ~)\n- ⟦{夜|よる}→夜：00487_yoru⟧⟦を→を：00422_wo⟧⟦{徹|てっ}して→徹する：12567_tessuru⟧{語|かた}り{合|あ}う (to talk all night long)\n\nSIMILAR WORDS:\n- {語|かた}り{合|あ}う: to talk together (implies depth/meaning)\n- ⟦{話|はな}し{合|あ}う→話し合う：02396_hanashiau⟧: to discuss (more practical/decision-focused)\n- ⟦{語|かた}る→語る：01930_kataru⟧: to tell, narrate (one-directional)",
+  "notes": "TRANSITIVITY: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive). Pattern: X⟦と→と：00512_to⟧{語|かた}り{合|あ}う (to talk with X).\n\n{語|かた}り{合|あ}う is formed from ⟦{語|かた}る→語る：01930_kataru⟧ (to tell, narrate) + ⟦{合|あ}う→合う：10466_au⟧ (mutual action suffix). The ⟦{合|あ}う→合う：10466_au⟧ indicates both parties participating.\n\nCOMMON PATTERNS:\n- ～⟦と→と：00512_to⟧{語|かた}り{合|あ}う (to talk with ~)\n- ～⟦について→〜について：03103_nitsuite⟧{語|かた}り{合|あ}う (to talk about ~)\n- ⟦{夜|よる}→夜：00487_yoru⟧⟦を→を：00422_wo⟧⟦{徹|てっ}して→徹する：12567_tessuru⟧{語|かた}り{合|あ}う (to talk all night long)\n\nSIMILAR WORDS:\n- {語|かた}り{合|あ}う: to talk together (implies depth/meaning)\n- ⟦{話|はな}し{合|あ}う→話し合う：02396_hanashiau⟧: to discuss (more practical/decision-focused)\n- ⟦{語|かた}る→語る：01930_kataru⟧: to tell, narrate (one-directional)",
   "cross_references": [
     {
       "type": "related",
@@ -168,11 +168,25 @@
       "headword": "{話|はな}し{合|あ}う",
       "label": "to discuss",
       "target_id": "02396_hanashiau"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19502_kotobawokawasu",
+      "reading": "ことばをかわす",
+      "headword": "{言葉|ことば}を{交|か}わす",
+      "label": "to exchange words"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20658_hanashikomu",
+      "reading": "はなしこむ",
+      "headword": "{話|はな}し{込|こ}む",
+      "label": "to get deeply involved in conversation"
     }
   ],
   "metadata": {
     "created": "2026-01-11T11:12:00Z",
-    "modified": "2026-05-23T16:16:19Z",
+    "modified": "2026-09-02T04:01:02Z",
     "schema_version": "2.0",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",

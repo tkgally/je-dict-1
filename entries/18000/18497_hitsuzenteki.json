@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "18497_hitsuzenteki_ex1",
-      "japanese": "それは{必然的|ひつぜんてき}な{結果|けっか}だった。",
+      "japanese": "⟦それ→それ：00994_sore⟧⟦は→は：00079_ha⟧{必然的|ひつぜんてき}な⟦{結果|けっか}→結果：02486_kekka⟧だった。",
       "english": "It was an inevitable result.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "18497_hitsuzenteki_ex2",
-      "japanese": "{技術|ぎじゅつ}の{進歩|しんぽ}に{伴|ともな}い、{変化|へんか}は{必然的|ひつぜんてき}に{起|お}こる。",
+      "japanese": "⟦{技術|ぎじゅつ}→技術：01389_gijutsu⟧⟦の→の：09472_no⟧⟦{進歩|しんぽ}→進歩：03265_shinpo⟧⟦に{伴|ともな}い→に伴い：06804_nitomonai⟧、⟦{変化|へんか}→変化：03615_henka⟧⟦は→は：00079_ha⟧{必然的|ひつぜんてき}⟦に→に：00314_ni⟧⟦{起|お}こる→起こる：01910_okoru⟧。",
       "english": "With advances in technology, change inevitably occurs.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "18497_hitsuzenteki_ex3",
-      "japanese": "{人口|じんこう}が{減|へ}れば、{労働力|ろうどうりょく}{不足|ぶそく}は{必然的|ひつぜんてき}に{深刻|しんこく}になる。",
+      "japanese": "⟦{人口|じんこう}→人口：01618_jinkou⟧⟦が→が：00051_ga⟧⟦{減|へ}れば→減る：01985_heru⟧、⟦{労働力|ろうどうりょく}→労働力：16276_roudouryoku⟧{不足|ぶそく}⟦は→は：00079_ha⟧{必然的|ひつぜんてき}⟦に→に：00314_ni⟧⟦{深刻|しんこく}→深刻：01567_shinkoku⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧。",
       "english": "If the population declines, the labor shortage will inevitably become severe.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "{必然的|ひつぜんてき} describes something that is bound to happen as a logical or natural consequence. It implies that the outcome could not have been otherwise.\n\nFORMS:\n- な-adjective: {必然的|ひつぜんてき}な{結果|けっか} (an inevitable result)\n- Adverbial: {必然的|ひつぜんてき}に (inevitably)\n\nRELATED WORDS:\n- {必然|ひつぜん}: inevitability (base noun, also stands alone)\n- {偶然的|ぐうぜんてき}: accidental, coincidental (opposite)\n- {偶然|ぐうぜん}: coincidence, chance (opposite base noun)\n- {不可避|ふかひ}: unavoidable (similar meaning, slightly more formal)\n\nREGISTER:\nCommon in academic writing, essays, and formal discussion. Rarely used in casual conversation, where speakers would say {当然|とうぜん} (naturally) or しかたがない (it can't be helped) instead.",
+  "notes": "{必然的|ひつぜんてき} describes something that is bound to happen as a logical or natural consequence. It implies that the outcome could not have been otherwise.\n\nFORMS:\n- な-adjective: {必然的|ひつぜんてき}な⟦{結果|けっか}→結果：02486_kekka⟧ (an inevitable result)\n- Adverbial: {必然的|ひつぜんてき}⟦に→に：00314_ni⟧ (inevitably)\n\nRELATED WORDS:\n- ⟦{必然|ひつぜん}→必然：05533_hitsuzen⟧: inevitability (base noun, also stands alone)\n- {偶然的|ぐうぜんてき}: accidental, coincidental (opposite)\n- ⟦{偶然|ぐうぜん}→偶然：02674_guuzen⟧: coincidence, chance (opposite base noun)\n- ⟦{不可避|ふかひ}→不可避：15524_fukahi⟧: unavoidable (similar meaning, slightly more formal)\n\nREGISTER:\nCommon in academic writing, essays, and formal discussion. Rarely used in casual conversation, where speakers would say ⟦{当然|とうぜん}→当然：01591_touzen⟧ (naturally) or ⟦しかたがない→しかたがない：07380_shikataganai⟧ (it can't be helped) instead.",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -62,7 +62,7 @@
       ]
     },
     "created": "2026-03-22T03:14:11Z",
-    "modified": "2026-05-08T10:08:08Z"
+    "modified": "2026-09-02T04:01:52Z"
   },
   "cross_references": [
     {
@@ -71,6 +71,13 @@
       "reading": "ぐうぜん",
       "headword": "{偶然|ぐうぜん}",
       "label": "coincidence, chance"
+    },
+    {
+      "type": "related",
+      "target_id": "15524_fukahi",
+      "reading": "ふかひ",
+      "headword": "{不可避|ふかひ}",
+      "label": "unavoidable"
     }
   ]
 }

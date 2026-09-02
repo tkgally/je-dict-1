@@ -3,7 +3,7 @@
   "headword": "{視覚化|しかくか}",
   "reading": "しかくか",
   "romaji": "shikakuka",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "visualization; making visible",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "20758_shikakuka_ex1",
-      "japanese": "データの{視覚化|しかくか}。",
+      "japanese": "⟦データ→データ：03944_deeta⟧⟦の→の：09472_no⟧{視覚化|しかくか}。",
       "english": "Data visualization.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "20758_shikakuka_ex2",
-      "japanese": "グラフを{使|つか}って{結果|けっか}を{視覚化|しかくか}する。",
+      "japanese": "⟦グラフ→グラフ：04864_gurafu⟧⟦を→を：00422_wo⟧⟦{使|つか}って→使う：00473_tsukau⟧⟦{結果|けっか}→結果：02486_kekka⟧⟦を→を：00422_wo⟧{視覚化|しかくか}⟦する→する：00392_suru⟧。",
       "english": "To visualize the results using graphs.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "20758_shikakuka_ex3",
-      "japanese": "{複雑|ふくざつ}な{統計|とうけい}データを{視覚化|しかくか}することで、{傾向|けいこう}が{一目|ひとめ}でわかるようになる。",
+      "japanese": "⟦{複雑|ふくざつ}→複雑：01115_fukuzatsu⟧な⟦{統計|とうけい}→統計：04271_toukei⟧⟦データ→データ：03944_deeta⟧⟦を→を：00422_wo⟧{視覚化|しかくか}⟦する→する：00392_suru⟧ことで、⟦{傾向|けいこう}→傾向：02695_keikou⟧⟦が→が：00051_ga⟧⟦{一目|ひとめ}→一目：08728_hitome⟧⟦で→で：00502_de⟧わかる⟦ようになる→ようになる：28408_youninaru⟧。",
       "english": "By visualizing complex statistical data, you can see the trends at a glance.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {視覚|しかく} (visual sense, vision) and {化|か} (-ization). Functions as a suru-verb: {視覚化|しかくか}する (to visualize).\n\nUSAGE:\nWidely used in business, science, technology, and education. With the growth of data analytics and presentation tools, {視覚化|しかくか} has become increasingly common in everyday business Japanese.\n\nCOMMON COLLOCATIONS:\n- データの{視覚化|しかくか} — data visualization\n- {情報|じょうほう}を{視覚化|しかくか}する — to visualize information\n- {視覚化|しかくか}ツール — visualization tools\n- {視覚化|しかくか}して{示|しめ}す — to show by visualizing\n\nSIMILAR WORDS:\n- {可視化|かしか} — making visible, visualization; a close synonym that emphasizes making something previously invisible perceptible\n- {見|み}える{化|か} — making visible (business jargon); a more casual, native-Japanese coinage popular in management contexts\n- {図式化|ずしきか} — diagramming, schematizing; specifically creating diagrams or schemas",
+  "notes": "A compound of ⟦{視覚|しかく}→視覚：02837_shikaku⟧ (visual sense, vision) and ⟦{化|か}→〜化：28335_ka⟧ (-ization). Functions as a suru-verb: {視覚化|しかくか}⟦する→する：00392_suru⟧ (to visualize).\n\nUSAGE:\nWidely used in business, science, technology, and education. With the growth of data analytics and presentation tools, {視覚化|しかくか} has become increasingly common in everyday business Japanese.\n\nCOMMON COLLOCATIONS:\n- ⟦データ→データ：03944_deeta⟧⟦の→の：09472_no⟧{視覚化|しかくか} — data visualization\n- ⟦{情報|じょうほう}→情報：03348_jouhou⟧⟦を→を：00422_wo⟧{視覚化|しかくか}⟦する→する：00392_suru⟧ — to visualize information\n- {視覚化|しかくか}⟦ツール→ツール：11044_tsuuru⟧ — visualization tools\n- {視覚化|しかくか}⟦して→する：00392_suru⟧⟦{示|しめ}す→示す：01948_shimesu⟧ — to show by visualizing\n\nSIMILAR WORDS:\n- ⟦{可視化|かしか}→可視化：07644_kashika⟧ — making visible, visualization; a close synonym that emphasizes making something previously invisible perceptible\n- ⟦{見|み}える{化|か}→見える化：26239_mieruka⟧ — making visible (business jargon); a more casual, native-Japanese coinage popular in management contexts\n- {図式化|ずしきか} — diagramming, schematizing; specifically creating diagrams or schemas",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07644_kashika",
+      "reading": "かしか",
+      "headword": "{可視化|かしか}",
+      "label": "making visible, visualization"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26239_mieruka",
+      "reading": "みえるか",
+      "headword": "{見|み}える{化|か}",
+      "label": "making visible"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,7 +78,7 @@
       "verb_class": "suru"
     },
     "created": "2026-03-30T15:13:57Z",
-    "modified": "2026-03-30T15:13:57Z"
+    "modified": "2026-09-02T04:02:00Z"
   },
   "conjugation": {
     "type": "suru",

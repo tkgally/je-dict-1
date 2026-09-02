@@ -24,7 +24,7 @@
     },
     {
       "id": "06779_izureniseyo_ex2",
-      "japanese": "⟦{理由|りゆう}→理由：01102_riyuu⟧⟦は→は：00079_ha⟧どうあれ、いずれにせよ⟦{謝|あやま}る→謝る：01177_ayamaru⟧⟦べき→べき：10016_beki⟧⟦だ→だ：09496_da⟧。",
+      "japanese": "⟦{理由|りゆう}→理由：01102_riyuu⟧⟦は→は：00079_ha⟧⟦どう→どう：00543_dou⟧⟦あれ→ある：00006_aru⟧、いずれにせよ⟦{謝|あやま}る→謝る：01177_ayamaru⟧⟦べき→べき：10016_beki⟧⟦だ→だ：09496_da⟧。",
       "english": "Whatever the reason, you should apologize anyway.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "いずれにせよ is a formal conjunction-like adverb used to introduce a conclusion that holds true regardless of the preceding circumstances. It typically appears at the beginning of a sentence.\n\nREGISTER:\nThis is a written/formal expression, common in essays, news, speeches, and business communication. It sounds stiff in casual conversation.\n\nVARIATIONS:\n- いずれにせよ: most formal\n- いずれにしても: formal, slightly softer\n- どちらにせよ: formal, implies choosing between two stated options\n- ⟦どちらにしても→どちらにしても：22124_dochiranishitemo⟧: somewhat formal, between two options\n\nいずれ〜 forms cover any number of possibilities, while どちら〜 forms assume exactly two. せよ (the classical imperative of する) is stiffer than しても in every pair.\n\nCASUAL EQUIVALENTS:\n- ⟦とにかく→とにかく：03464_tonikaku⟧: anyway (general-purpose, casual)\n- ⟦ともかく→ともかく：06780_tomokaku⟧: anyhow (casual, slightly literary)\n- どっちにしても: either way (casual spoken form)\n\nGRAMMAR:\nFollowed by a statement of conclusion or decision — often an obligation (⟦なければならない→なければならない：27600_nakerebanaranai⟧) or a prediction. It typically follows a clause that raises alternatives or admits uncertainty: 〜か〜か⟦{分|わ}からない→分かる：00463_wakaru⟧⟦が→が：00051_ga⟧、いずれにせよ…",
+  "notes": "いずれにせよ is a formal conjunction-like adverb used to introduce a conclusion that holds true regardless of the preceding circumstances. It typically appears at the beginning of a sentence.\n\nREGISTER:\nThis is a written/formal expression, common in essays, news, speeches, and business communication. It sounds stiff in casual conversation.\n\nFORMS:\n- いずれにせよ: most formal\n- いずれにして⟦も→も：00484_mo⟧: formal, slightly softer\n- ⟦どちら→どちら：00927_dochira⟧⟦に→に：00314_ni⟧⟦せよ→する：00392_suru⟧: formal, implies choosing between two stated options\n- ⟦どちらにしても→どちらにしても：22124_dochiranishitemo⟧: somewhat formal, between two options\n\n⟦いずれ→いずれ：01789_izure⟧〜 forms cover any number of possibilities, while ⟦どちら→どちら：00927_dochira⟧〜 forms assume exactly two. ⟦せよ→する：00392_suru⟧ (the classical imperative of ⟦する→する：00392_suru⟧) is stiffer than ⟦して→する：00392_suru⟧⟦も→も：00484_mo⟧ in every pair.\n\nCASUAL EQUIVALENTS:\n- ⟦とにかく→とにかく：03464_tonikaku⟧: anyway (general-purpose, casual)\n- ⟦ともかく→ともかく：06780_tomokaku⟧: anyhow (casual, slightly literary)\n- ⟦どっち→どっち：02922_docchi⟧にして⟦も→も：00484_mo⟧: either way (casual spoken form)\n\nCOMMON PATTERNS:\nFollowed by a statement of conclusion or decision — often an obligation (⟦なければならない→なければならない：27600_nakerebanaranai⟧) or a prediction. It typically follows a clause that raises alternatives or admits uncertainty: 〜か〜⟦か→か：09473_ka⟧⟦{分|わ}からない→分かる：00463_wakaru⟧⟦が→が：00051_ga⟧、いずれにせよ…",
   "cross_references": [
     {
       "type": "synonym",
@@ -72,11 +72,53 @@
       "reading": "どのみち",
       "headword": "どのみち",
       "label": "either way (less formal)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06355_douse",
+      "reading": "どうせ",
+      "headword": "どうせ",
+      "label": "anyway"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07337_tomoare",
+      "reading": "ともあれ",
+      "headword": "ともあれ",
+      "label": "anyway"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19569_naniwatomoare",
+      "reading": "なにわともあれ",
+      "headword": "{何|なに}はともあれ",
+      "label": "anyway"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19735_docchinishiro",
+      "reading": "どっちにしろ",
+      "headword": "どっちにしろ",
+      "label": "either way"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25976_tonimokakunimo",
+      "reading": "とにもかくにも",
+      "headword": "とにもかくにも",
+      "label": "at any rate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30653_izurenishitemo",
+      "reading": "いずれにしても",
+      "headword": "いずれにしても",
+      "label": "in any case"
     }
   ],
   "metadata": {
     "created": "2026-01-18T06:56:58Z",
-    "modified": "2026-08-14T14:49:22Z",
+    "modified": "2026-09-02T04:01:09Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

@@ -15,41 +15,69 @@
   "examples": [
     {
       "id": "24960_doryokukyuu_ex1",
-      "japanese": "うちの{会社|かいしゃ}は{努力給|どりょくきゅう}を{導入|どうにゅう}した。",
+      "japanese": "うち⟦の→の：09472_no⟧⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦は→は：00079_ha⟧{努力給|どりょくきゅう}⟦を→を：00422_wo⟧⟦{導入|どうにゅう}した→導入する：16055_dounyuusuru⟧。",
       "english": "Our company introduced effort-based pay.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "24960_doryokukyuu_ex2",
-      "japanese": "{努力給|どりょくきゅう}のおかげで、{若|わか}い{社員|しゃいん}のやる{気|き}が{上|あ}がった。",
+      "japanese": "{努力給|どりょくきゅう}⟦の→の：09472_no⟧⟦おかげ→おかげ：01362_okage⟧で、{若|わか}い⟦{社員|しゃいん}→社員：03065_shain⟧⟦の→の：09472_no⟧⟦やる{気|き}→やる気：05089_yaruki⟧⟦が→が：00051_ga⟧⟦{上|あ}がった→上がる：00615_agaru⟧。",
       "english": "Thanks to effort-based pay, the motivation of young employees increased.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "24960_doryokukyuu_ex3",
-      "japanese": "{年功序列|ねんこうじょれつ}から{努力給|どりょくきゅう}への{移行|いこう}は、{日本|にほん}の{企業|きぎょう}にとって{大|おお}きな{転換|てんかん}だ。",
+      "japanese": "⟦{年功序列|ねんこうじょれつ}→年功序列：12532_nenkoujoretsu⟧⟦から→から：00504_kara⟧{努力給|どりょくきゅう}⟦へ→へ：02473_he⟧⟦の→の：09472_no⟧⟦{移行|いこう}→移行：13776_ikou⟧⟦は→は：00079_ha⟧、⟦{日本|にほん}→日本：03876_nihon⟧⟦の→の：09472_no⟧⟦{企業|きぎょう}→企業：00225_kigyou⟧⟦にとって→にとって：06803_nitotte⟧⟦{大|おお}きな→大きな：02849_ookina⟧⟦{転換|てんかん}→転換：19439_tenkan⟧だ。",
       "english": "The shift from seniority-based pay to effort-based pay is a major transition for Japanese companies.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Compound of {努力|どりょく} (effort) and {給|きゅう} (salary; wages). The suffix ~{給|きゅう} appears in many compensation-related compounds. This term reflects an ongoing shift in Japanese workplace culture away from the traditional {年功序列|ねんこうじょれつ} (seniority-based) system.\n\nCOMMON COLLOCATIONS:\n- {努力給|どりょくきゅう}を{導入|どうにゅう}する: to introduce effort-based pay\n- {努力給|どりょくきゅう}{制度|せいど}: effort-based pay system\n- {努力給|どりょくきゅう}と{固定給|こていきゅう}: effort-based and fixed pay\n\nSIMILAR WORDS:\n- {成果給|せいかきゅう}: results-based pay, tied specifically to measurable outcomes\n- {歩合給|ぶあいきゅう}: commission-based pay, calculated as a percentage of sales\n- {固定給|こていきゅう}: fixed salary, not variable by performance\n- {年功給|ねんこうきゅう}: seniority-based pay, increases with years of service",
+  "notes": "Compound of ⟦{努力|どりょく}→努力：03490_doryoku⟧ (effort) and {給|きゅう} (salary; wages). The suffix ~{給|きゅう} appears in many compensation-related compounds. This term reflects an ongoing shift in Japanese workplace culture away from the traditional ⟦{年功序列|ねんこうじょれつ}→年功序列：12532_nenkoujoretsu⟧ (seniority-based) system.\n\nCOMMON COLLOCATIONS:\n- {努力給|どりょくきゅう}⟦を→を：00422_wo⟧⟦{導入|どうにゅう}する→導入する：16055_dounyuusuru⟧: to introduce effort-based pay\n- {努力給|どりょくきゅう}⟦{制度|せいど}→制度：03291_seido⟧: effort-based pay system\n- {努力給|どりょくきゅう}⟦と→と：00512_to⟧⟦{固定給|こていきゅう}→固定給：18879_koteikyuu⟧: effort-based and fixed pay\n\nSIMILAR WORDS:\n- {成果給|せいかきゅう}: results-based pay, tied specifically to measurable outcomes\n- ⟦{歩合給|ぶあいきゅう}→歩合給：22050_buaikyuu⟧: commission-based pay, calculated as a percentage of sales\n- ⟦{固定給|こていきゅう}→固定給：18879_koteikyuu⟧: fixed salary, not variable by performance\n- {年功給|ねんこうきゅう}: seniority-based pay, increases with years of service",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22050_buaikyuu",
+      "reading": "ぶあいきゅう",
+      "headword": "{歩合給|ぶあいきゅう}",
+      "label": "commission-based pay, calculated…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18879_koteikyuu",
+      "reading": "こていきゅう",
+      "headword": "{固定|こてい}{給|きゅう}",
+      "label": "fixed salary, not variable…"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["work"],
-      "domain": ["business"]
+      "semantic": [
+        "work"
+      ],
+      "domain": [
+        "business"
+      ]
     },
     "created": "2026-04-21T14:28:44Z",
-    "modified": "2026-04-21T14:28:44Z"
+    "modified": "2026-09-02T04:02:20Z"
   }
 }

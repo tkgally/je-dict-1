@@ -3,7 +3,7 @@
   "id": "17295_kidousuru",
   "headword": "{起動|きどう}する",
   "reading": "きどうする",
-  "part_of_speech": "verb-suru",
+  "part_of_speech": "suru verb",
   "gloss": "to start up; to boot; to launch (a machine or program)",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "17295_kidousuru_ex1",
-      "japanese": "パソコンを{起動|きどう}する。",
+      "japanese": "⟦パソコン→パソコン：01538_pasokon⟧⟦を→を：00422_wo⟧{起動|きどう}する。",
       "english": "To start up the computer.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "17295_kidousuru_ex2",
-      "japanese": "アプリを{起動|きどう}したが、{画面|がめん}が{真|ま}っ{白|しろ}のままだ。",
+      "japanese": "⟦アプリ→アプリ：04722_apuri⟧⟦を→を：00422_wo⟧{起動|きどう}した⟦が→が：00051_ga⟧、⟦{画面|がめん}→画面：04406_gamen⟧⟦が→が：00051_ga⟧⟦{真|ま}っ{白|しろ}→真っ白：07613_masshiro⟧⟦の→の：09472_no⟧ままだ。",
       "english": "I launched the app, but the screen stayed blank.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "17295_kidousuru_ex3",
-      "japanese": "パソコンが{正常|せいじょう}に{起動|きどう}しない{場合|ばあい}は、{電源|でんげん}を{切|き}って{数分|すうふん}{待|ま}ってからもう{一度|いちど}{試|ため}してください。",
+      "japanese": "⟦パソコン→パソコン：01538_pasokon⟧⟦が→が：00051_ga⟧⟦{正常|せいじょう}→正常：03085_seijou⟧⟦に→に：00314_ni⟧{起動|きどう}しない⟦{場合|ばあい}→場合：01704_baai⟧⟦は→は：00079_ha⟧、⟦{電源|でんげん}→電源：04429_dengen⟧⟦を→を：00422_wo⟧⟦{切|き}って→切る：02693_kiru⟧⟦{数分|すうふん}→数分：21623_suufun⟧⟦{待|ま}って→待つ：00469_matsu⟧からもう⟦{一度|いちど}→一度：01312_ichido⟧⟦{試|ため}して→試す：02130_tamesu⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "If the computer does not start up normally, turn off the power, wait a few minutes, and try again.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nUsed both transitively (パソコンを{起動|きどう}する 'start up the computer') and intransitively (パソコンが{起動|きどう}する 'the computer starts up'). Essential vocabulary for anyone using computers or smartphones in Japanese.\n\nCOMMON COLLOCATIONS:\n- パソコンを{起動|きどう}する (boot a computer)\n- アプリを{起動|きどう}する (launch an app)\n- {起動|きどう}{時間|じかん} (startup time)\n- {起動|きどう}{画面|がめん} (startup screen)\n- {再|さい}{起動|きどう}する (restart/reboot)\n\nSIMILAR WORDS:\n- {立|た}ち{上|あ}げる: to start up/launch — more colloquial synonym\n- {再|さい}{起動|きどう}する: to restart/reboot — very commonly used for troubleshooting",
+  "notes": "USAGE:\nUsed both transitively (⟦パソコン→パソコン：01538_pasokon⟧⟦を→を：00422_wo⟧{起動|きどう}する 'start up the computer') and intransitively (⟦パソコン→パソコン：01538_pasokon⟧⟦が→が：00051_ga⟧{起動|きどう}する 'the computer starts up'). Essential vocabulary for anyone using computers or smartphones in Japanese.\n\nCOMMON COLLOCATIONS:\n- ⟦パソコン→パソコン：01538_pasokon⟧⟦を→を：00422_wo⟧{起動|きどう}する (boot a computer)\n- ⟦アプリ→アプリ：04722_apuri⟧⟦を→を：00422_wo⟧{起動|きどう}する (launch an app)\n- ⟦{起動|きどう}→起動：18262_kidou⟧⟦{時間|じかん}→時間：00468_jikan⟧ (startup time)\n- ⟦{起動|きどう}→起動：18262_kidou⟧⟦{画面|がめん}→画面：04406_gamen⟧ (startup screen)\n- {再|さい}{起動|きどう}する (restart/reboot)\n\nSIMILAR WORDS:\n- ⟦{立|た}ち{上|あ}げる→立ち上げる：07892_tachiageru⟧: to start up/launch — more colloquial synonym\n- {再|さい}{起動|きどう}する: to restart/reboot — very commonly used for troubleshooting",
   "prominent_see_also": [
     {
       "target_id": "18262_kidou",
@@ -150,11 +150,18 @@
       "reading": "たちあげる",
       "headword": "{立|た}ち{上|あ}げる",
       "label": "to start up (colloquial)"
+    },
+    {
+      "type": "related",
+      "target_id": "19361_shidousuru",
+      "reading": "しどうする",
+      "headword": "{始動|しどう}する",
+      "label": "to start up"
     }
   ],
   "metadata": {
     "created": "2026-03-17T04:37:32Z",
-    "modified": "2026-05-06T06:14:35Z",
+    "modified": "2026-09-02T04:01:47Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

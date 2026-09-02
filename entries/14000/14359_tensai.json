@@ -3,7 +3,7 @@
   "id": "14359_tensai",
   "headword": "{転載|てんさい}",
   "reading": "てんさい",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "reposting; reprinting",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "14359_tensai_ex1",
-      "japanese": "{無断|むだん}{転載|てんさい}{禁止|きんし}。",
+      "japanese": "⟦{無断|むだん}→無断：13382_mudan⟧{転載|てんさい}⟦{禁止|きんし}→禁止：02643_kinshi⟧。",
       "english": "Unauthorized reproduction prohibited.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "14359_tensai_ex2",
-      "japanese": "この{記事|きじ}を{転載|てんさい}してもいいですか。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{記事|きじ}→記事：00227_kiji⟧⟦を→を：00422_wo⟧{転載|てんさい}⟦して→する：00392_suru⟧⟦も→も：00484_mo⟧⟦いい→いい：00118_ii⟧です⟦か→か：09473_ka⟧。",
       "english": "May I repost this article?",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "14359_tensai_ex3",
-      "japanese": "{許可|きょか}なく{他人|たにん}の{写真|しゃしん}を{転載|てんさい}すると、{著作権|ちょさくけん}の{問題|もんだい}になる。",
+      "japanese": "⟦{許可|きょか}→許可：00259_kyoka⟧⟦なく→ない：01118_nai⟧⟦{他人|たにん}→他人：01459_tanin⟧⟦の→の：09472_no⟧⟦{写真|しゃしん}→写真：00753_shashin⟧⟦を→を：00422_wo⟧{転載|てんさい}⟦する→する：00392_suru⟧⟦と→と：00512_to⟧、⟦{著作権|ちょさくけん}→著作権：14022_chosakuken⟧⟦の→の：09472_no⟧⟦{問題|もんだい}→問題：00797_mondai⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧。",
       "english": "Reposting someone else's photos without permission can lead to copyright issues.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE NOTES:\n{転載|てんさい} refers specifically to reproducing or reposting content from one medium or platform to another. It is commonly seen in copyright notices on websites and publications.\n\nPARTICLE PATTERNS:\n- を{転載|てんさい}する (to repost/reprint something)\n- からの{転載|てんさい} (reprint from...)\n\nCOMMON COLLOCATIONS:\n- {無断|むだん}{転載|てんさい} (unauthorized reproduction)\n- {転載|てんさい}{禁止|きんし} (reproduction prohibited)\n- {記事|きじ}を{転載|てんさい}する (repost an article)\n\nSIMILAR WORDS:\n{転載|てんさい} focuses on reproducing content across platforms. Compare with {引用|いんよう} (quotation), which refers to citing a portion of someone's work with attribution.",
+  "notes": "USAGE:\n{転載|てんさい} refers specifically to reproducing or reposting content from one medium or platform to another. It is commonly seen in copyright notices on websites and publications.\n\nCOMMON PATTERNS:\n- ⟦を→を：00422_wo⟧{転載|てんさい}⟦する→する：00392_suru⟧ (to repost/reprint something)\n- ⟦から→から：00504_kara⟧⟦の→の：09472_no⟧{転載|てんさい} (reprint from...)\n\nCOMMON COLLOCATIONS:\n- ⟦{無断|むだん}→無断：13382_mudan⟧{転載|てんさい} (unauthorized reproduction)\n- {転載|てんさい}⟦{禁止|きんし}→禁止：02643_kinshi⟧ (reproduction prohibited)\n- ⟦{記事|きじ}→記事：00227_kiji⟧⟦を→を：00422_wo⟧{転載|てんさい}⟦する→する：00392_suru⟧ (repost an article)\n\nSIMILAR WORDS:\n{転載|てんさい} focuses on reproducing content across platforms. Compare with ⟦{引用|いんよう}→引用：01850_inyou⟧ (quotation), which refers to citing a portion of someone's work with attribution.",
   "prominent_see_also": [
     {
       "target_id": "09934_tensai",
@@ -150,11 +150,18 @@
       "reading": "いんよう",
       "headword": "{引用|いんよう}",
       "label": "quotation, citation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26928_inyousuru",
+      "reading": "いんようする",
+      "headword": "{引用|いんよう}する",
+      "label": "to quote"
     }
   ],
   "metadata": {
     "created": "2026-02-28T13:05:03Z",
-    "modified": "2026-04-23T08:17:03Z",
+    "modified": "2026-09-02T04:01:37Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -167,7 +174,8 @@
       "semantic": [
         "communication"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

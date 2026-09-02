@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "08157_ogoru_ex1",
-      "japanese": "{今日|きょう}はおごるよ。",
+      "japanese": "⟦{今日|きょう}→今日：00496_kyou⟧⟦は→は：00079_ha⟧おごる⟦よ→よ：09475_yo⟧。",
       "english": "I'll treat you today.",
       "sense_numbers": [
         1
@@ -114,7 +114,7 @@
     },
     {
       "id": "08157_ogoru_ex2",
-      "japanese": "コーヒーをおごってもらった。",
+      "japanese": "⟦コーヒー→コーヒー：00789_koohii⟧⟦を→を：00422_wo⟧おごって⟦もらった→もらう：00520_morau⟧。",
       "english": "Someone treated me to coffee.",
       "sense_numbers": [
         1
@@ -124,7 +124,7 @@
     },
     {
       "id": "08157_ogoru_ex3",
-      "japanese": "{先輩|せんぱい}がラーメンをおごってくれた。",
+      "japanese": "⟦{先輩|せんぱい}→先輩：01451_senpai⟧⟦が→が：00051_ga⟧⟦ラーメン→ラーメン：05181_raamen⟧⟦を→を：00422_wo⟧おごって⟦くれた→くれる：00724_kureru⟧。",
       "english": "My senior treated me to ramen.",
       "sense_numbers": [
         1
@@ -134,7 +134,7 @@
     },
     {
       "id": "08157_ogoru_ex4",
-      "japanese": "ここは{私|わたし}がおごります。",
+      "japanese": "⟦ここ→ここ：00961_koko⟧⟦は→は：00079_ha⟧⟦{私|わたし}→私：02988_watashi⟧⟦が→が：00051_ga⟧おごります。",
       "english": "This one's on me.",
       "sense_numbers": [
         1
@@ -144,7 +144,7 @@
     },
     {
       "id": "08157_ogoru_ex5",
-      "japanese": "{誕生日|たんじょうび}だからおごってあげる。",
+      "japanese": "⟦{誕生日|たんじょうび}→誕生日：02910_tanjoubi⟧だ⟦から→から：00504_kara⟧おごって⟦あげる→あげる：00546_ageru⟧。",
       "english": "Since it's your birthday, I'll treat you.",
       "sense_numbers": [
         1
@@ -153,7 +153,7 @@
       "notes": null
     }
   ],
-  "notes": "PATTERNS:\n- Xをおごる (to treat someone to X)\n- おごってもらう (to be treated by someone)\n- おごってあげる (to treat someone - giving perspective)\n- おごってくれる (to treat someone - receiving perspective)\n\nRELATED EXPRESSIONS:\n- {割|わ}り{勘|かん} (splitting the bill - opposite concept)\n- ご{馳走|ちそう}する (to treat - more formal)\n- {払|はら}ってあげる (to pay for someone)\n\nINFORMAL KANJI:\nSometimes written as {奢|おご}る, but hiragana is more common.\n\nNOTE:\nDifferent from {驕|おご}る (to be arrogant), which is a separate word with a different meaning.",
+  "notes": "COMMON PATTERNS:\n- X⟦を→を：00422_wo⟧おごる (to treat someone to X)\n- おごって⟦もらう→もらう：00520_morau⟧ (to be treated by someone)\n- おごって⟦あげる→あげる：00546_ageru⟧ (to treat someone - giving perspective)\n- おごって⟦くれる→くれる：00724_kureru⟧ (to treat someone - receiving perspective)\n\nRELATED WORDS:\n- ⟦{割|わ}り{勘|かん}→割り勘：08156_warikan⟧ (splitting the bill - opposite concept)\n- ⟦ご{馳走|ちそう}→ご馳走：01336_gochisou⟧⟦する→する：00392_suru⟧ (to treat - more formal)\n- ⟦{払|はら}って→払う：00535_harau⟧⟦あげる→あげる：00546_ageru⟧ (to pay for someone)\n\nINFORMAL KANJI:\nSometimes written as {奢|おご}る, but hiragana is more common.\n\nUSAGE:\nDifferent from {驕|おご}る (to be arrogant), which is a separate word with a different meaning.",
   "cross_references": [
     {
       "type": "antonym",
@@ -168,6 +168,13 @@
       "reading": "ごちそう",
       "headword": "ご{馳走|ちそう}",
       "label": "to treat (formal)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25251_mitsugu",
+      "reading": "みつぐ",
+      "headword": "{貢|みつ}ぐ",
+      "label": "to support financially"
     }
   ],
   "metadata": {
@@ -177,14 +184,16 @@
         "verb-godan"
       ],
       "formality": "informal",
+      "politeness": "plain",
       "semantic": [
         "money",
         "food",
         "society"
       ],
-      "verb_class": "godan-ru"
+      "verb_class": "godan-ru",
+      "transitivity": "transitive"
     },
     "created": "2026-01-25T07:33:27Z",
-    "modified": "2026-08-11T21:34:29Z"
+    "modified": "2026-09-02T04:01:14Z"
   }
 }

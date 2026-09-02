@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24917_hourousha_ex1",
-      "japanese": "{彼|かれ}は{放浪者|ほうろうしゃ}のような{生活|せいかつ}をしている。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{放浪者|ほうろうしゃ}⟦の→の：09472_no⟧ような⟦{生活|せいかつ}→生活：01443_seikatsu⟧⟦を→を：00422_wo⟧⟦している→する：00392_suru⟧。",
       "english": "He lives like a wanderer.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24917_hourousha_ex2",
-      "japanese": "{若|わか}い{頃|ころ}は{放浪者|ほうろうしゃ}として{世界|せかい}を{旅|たび}した。",
+      "japanese": "{若|わか}い{頃|ころ}⟦は→は：00079_ha⟧{放浪者|ほうろうしゃ}⟦として→として：06802_toshite⟧⟦{世界|せかい}→世界：01447_sekai⟧⟦を→を：00422_wo⟧⟦{旅|たび}→旅：03407_tabi⟧⟦した→する：00392_suru⟧。",
       "english": "In my youth, I traveled the world as a wanderer.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24917_hourousha_ex3",
-      "japanese": "その{小説|しょうせつ}は、{戦後|せんご}の{日本|にほん}を{放浪|ほうろう}する{一人|ひとり}の{放浪者|ほうろうしゃ}の{物語|ものがたり}だ。",
+      "japanese": "⟦その→その：00993_sono⟧⟦{小説|しょうせつ}→小説：01434_shousetsu⟧⟦は→は：00079_ha⟧、⟦{戦後|せんご}→戦後：12853_sengo⟧⟦の→の：09472_no⟧⟦{日本|にほん}→日本：03876_nihon⟧⟦を→を：00422_wo⟧⟦{放浪|ほうろう}→放浪：17757_hourou⟧⟦する→する：00392_suru⟧⟦{一人|ひとり}→一人：00630_hitori⟧⟦の→の：09472_no⟧{放浪者|ほうろうしゃ}⟦の→の：09472_no⟧⟦{物語|ものがたり}→物語：03634_monogatari⟧だ。",
       "english": "The novel is the story of a wanderer roaming through postwar Japan.",
       "sense_numbers": [
         1
@@ -44,20 +44,37 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {放浪|ほうろう} (wandering, roaming) and {者|しゃ} (person). The word has a literary quality and is commonly found in novels, biographies, and historical writing.\n\nDepending on context, {放浪者|ほうろうしゃ} can evoke either a romantic image of a free spirit who chooses to wander, or a more pitiable image of someone with no home or purpose.\n\nCOMMON COLLOCATIONS:\n- {放浪者|ほうろうしゃ}のような{生活|せいかつ}: a wanderer's lifestyle\n- {孤独|こどく}な{放浪者|ほうろうしゃ}: a lonely wanderer\n- {放浪者|ほうろうしゃ}の{旅|たび}: a vagabond's journey\n\nSIMILAR WORDS:\n- {放浪|ほうろう}: wandering (the act itself, not the person)\n- {流浪|るろう}: wandering, vagrancy — more literary; carries a stronger sense of being without roots\n- {浮浪者|ふろうしゃ}: vagrant, homeless person — more negative connotation, implies poverty and homelessness\n- {旅人|たびびと}: traveler — neutral, without the connotation of lacking a home",
+  "notes": "A compound of ⟦{放浪|ほうろう}→放浪：17757_hourou⟧ (wandering, roaming) and ⟦{者|しゃ}→〜者：04662_sha⟧ (person). The word has a literary quality and is commonly found in novels, biographies, and historical writing.\n\nDepending on context, {放浪者|ほうろうしゃ} can evoke either a romantic image of a free spirit who chooses to wander, or a more pitiable image of someone with no home or purpose.\n\nCOMMON COLLOCATIONS:\n- {放浪者|ほうろうしゃ}⟦の→の：09472_no⟧ような⟦{生活|せいかつ}→生活：01443_seikatsu⟧: a wanderer's lifestyle\n- ⟦{孤独|こどく}→孤独：04843_kodoku⟧な{放浪者|ほうろうしゃ}: a lonely wanderer\n- {放浪者|ほうろうしゃ}⟦の→の：09472_no⟧⟦{旅|たび}→旅：03407_tabi⟧: a vagabond's journey\n\nSIMILAR WORDS:\n- ⟦{放浪|ほうろう}→放浪：17757_hourou⟧: wandering (the act itself, not the person)\n- ⟦{流浪|るろう}→流浪：22648_rurou⟧: wandering, vagrancy — more literary; carries a stronger sense of being without roots\n- {浮浪者|ふろうしゃ}: vagrant, homeless person — more negative connotation, implies poverty and homelessness\n- ⟦{旅人|たびびと}→旅人：12725_tabibito⟧: traveler — neutral, without the connotation of lacking a home",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22648_rurou",
+      "reading": "るろう",
+      "headword": "{流浪|るろう}",
+      "label": "wandering, vagrancy"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12725_tabibito",
+      "reading": "たびびと",
+      "headword": "{旅人|たびびと}",
+      "label": "traveler"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "person",
         "travel"
       ]
     },
     "created": "2026-04-21T13:09:07Z",
-    "modified": "2026-08-03T09:22:27Z"
+    "modified": "2026-09-02T04:02:20Z"
   }
 }

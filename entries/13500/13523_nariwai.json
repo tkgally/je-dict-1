@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "13523_nariwai_ex1",
-      "japanese": "{農業|のうぎょう}を{生業|なりわい}としている。",
+      "japanese": "⟦{農業|のうぎょう}→農業：01491_nougyou⟧⟦を→を：00422_wo⟧{生業|なりわい}⟦として→として：06802_toshite⟧⟦いる→いる：00495_iru⟧。",
       "english": "I make my living through farming.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "13523_nariwai_ex2",
-      "japanese": "{漁師|りょうし}を{生業|なりわい}とする{家庭|かてい}で{育|そだ}った。",
+      "japanese": "⟦{漁師|りょうし}→漁師：21205_ryoushi⟧⟦を→を：00422_wo⟧{生業|なりわい}⟦と→と：00512_to⟧⟦する→する：00392_suru⟧⟦{家庭|かてい}→家庭：12315_katei⟧⟦で→で：00502_de⟧⟦{育|そだ}った→育つ：01951_sodatsu⟧。",
       "english": "I grew up in a household that made its living from fishing.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "13523_nariwai_ex3",
-      "japanese": "{先祖|せんぞ}{代々|だいだい}、この{土地|とち}で{米作|こめづく}りを{生業|なりわい}としてきた。",
+      "japanese": "⟦{先祖|せんぞ}→先祖：04040_senzo⟧⟦{代々|だいだい}→代々：05899_daidai⟧、⟦この→この：00962_kono⟧⟦{土地|とち}→土地：02226_tochi⟧⟦で→で：00502_de⟧{米作|こめづく}り⟦を→を：00422_wo⟧{生業|なりわい}⟦として→として：06802_toshite⟧きた。",
       "english": "For generations, our ancestors have made their living growing rice on this land.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nUsed with を～とする (to make something one's livelihood). This word has a somewhat literary or dignified tone and often implies traditional, manual, or artisanal work rather than modern office jobs. It is frequently used in contexts about rural life, traditional crafts, and historical occupations.\n\nRELATED WORDS:\n- {職業|しょくぎょう}: occupation (neutral, formal term)\n- {生計|せいけい}: livelihood (focuses on the financial aspect)\n- {仕事|しごと}: work, job (everyday term)\n\nGRAMMAR:\n- ～を{生業|なりわい}とする: to make ~ one's livelihood\n- ～を{生業|なりわい}にする: to make ~ one's livelihood (slightly more casual)\n\nCOMMON COLLOCATIONS:\n- {農業|のうぎょう}を{生業|なりわい}とする: to make a living from farming\n- {生業|なりわい}を{立|た}てる: to establish a livelihood\n- {生業|なりわい}を{営|いとな}む: to carry on a livelihood",
+  "notes": "USAGE:\nUsed with ⟦を→を：00422_wo⟧～⟦と→と：00512_to⟧⟦する→する：00392_suru⟧ (to make something one's livelihood). This word has a somewhat literary or dignified tone and often implies traditional, manual, or artisanal work rather than modern office jobs. It is frequently used in contexts about rural life, traditional crafts, and historical occupations.\n\nRELATED WORDS:\n- ⟦{職業|しょくぎょう}→職業：03245_shokugyou⟧: occupation (neutral, formal term)\n- ⟦{生計|せいけい}→生計：13524_seikei⟧: livelihood (focuses on the financial aspect)\n- ⟦{仕事|しごと}→仕事：00480_shigoto⟧: work, job (everyday term)\n\nCOMMON PATTERNS:\n- ～⟦を→を：00422_wo⟧{生業|なりわい}⟦と→と：00512_to⟧⟦する→する：00392_suru⟧: to make ~ one's livelihood\n- ～⟦を→を：00422_wo⟧{生業|なりわい}⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧: to make ~ one's livelihood (slightly more casual)\n\nCOMMON COLLOCATIONS:\n- ⟦{農業|のうぎょう}→農業：01491_nougyou⟧⟦を→を：00422_wo⟧{生業|なりわい}⟦と→と：00512_to⟧⟦する→する：00392_suru⟧: to make a living from farming\n- {生業|なりわい}⟦を→を：00422_wo⟧⟦{立|た}てる→立てる：01196_tateru⟧: to establish a livelihood\n- {生業|なりわい}⟦を→を：00422_wo⟧⟦{営|いとな}む→営む：11837_itonamu⟧: to carry on a livelihood",
   "cross_references": [
     {
       "type": "synonym",
@@ -52,11 +52,32 @@
       "reading": "せいけい",
       "headword": "{生計|せいけい}",
       "label": "livelihood"
+    },
+    {
+      "type": "related",
+      "target_id": "03245_shokugyou",
+      "reading": "しょくぎょう",
+      "headword": "{職業|しょくぎょう}",
+      "label": "occupation"
+    },
+    {
+      "type": "related",
+      "target_id": "00480_shigoto",
+      "reading": "しごと",
+      "headword": "{仕事|しごと}",
+      "label": "work, job"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12887_hongyou",
+      "reading": "ほんぎょう",
+      "headword": "{本業|ほんぎょう}",
+      "label": "main occupation, primary business"
     }
   ],
   "metadata": {
     "created": "2026-02-25T13:57:28Z",
-    "modified": "2026-04-29T04:08:17Z",
+    "modified": "2026-09-02T04:01:33Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

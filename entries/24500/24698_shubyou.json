@@ -15,41 +15,62 @@
   "examples": [
     {
       "id": "24698_shubyou_ex1",
-      "japanese": "{種苗|しゅびょう}を{購入|こうにゅう}する。",
+      "japanese": "{種苗|しゅびょう}⟦を→を：00422_wo⟧⟦{購入|こうにゅう}→購入：03057_kounyuu⟧⟦する→する：00392_suru⟧。",
       "english": "To purchase seeds and seedlings.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "24698_shubyou_ex2",
-      "japanese": "{春|はる}になると{種苗店|しゅびょうてん}は{にぎ}わう。",
+      "japanese": "⟦{春|はる}→春：00627_haru⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦と→と：00512_to⟧{種苗店|しゅびょうてん}⟦は→は：00079_ha⟧にぎわう。",
       "english": "Seed shops become bustling when spring arrives.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "24698_shubyou_ex3",
-      "japanese": "{新品種|しんひんしゅ}の{種苗|しゅびょう}は{種苗法|しゅびょうほう}によって{保護|ほご}されている。",
+      "japanese": "{新品種|しんひんしゅ}⟦の→の：09472_no⟧{種苗|しゅびょう}⟦は→は：00079_ha⟧{種苗法|しゅびょうほう}⟦によって→によって：06801_niyotte⟧⟦{保護|ほご}→保護：03625_hogo⟧⟦されている→する：00392_suru⟧。",
       "english": "Seeds and seedlings of new varieties are protected by the Plant Variety Protection and Seed Act.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Combines {種|しゅ} (seed) and {苗|びょう} (seedling). Used primarily in agriculture, gardening, and legal contexts. In everyday conversation, people more often say {種|たね} (seeds) or {苗|なえ} (seedlings) separately.\n\nCOMMON COLLOCATIONS:\n- {種苗店|しゅびょうてん}: seed and seedling shop\n- {種苗法|しゅびょうほう}: Plant Variety Protection and Seed Act\n- {種苗|しゅびょう}{会社|かいしゃ}: seed company\n- {種苗|しゅびょう}の{生産|せいさん}: production of planting stock\n- {種苗|しゅびょう}{交換会|こうかんかい}: seed exchange event\n\nSIMILAR WORDS:\n- {種|たね}: seed — everyday word for individual seeds\n- {苗|なえ}: seedling, young plant — everyday word for transplantable young plants\n- {苗木|なえぎ}: sapling, nursery tree — specifically young trees for transplanting",
+  "notes": "Combines ⟦{種|しゅ}→種：28584_shu⟧ (seed) and {苗|びょう} (seedling). Used primarily in agriculture, gardening, and legal contexts. In everyday conversation, people more often say ⟦{種|たね}→種：02157_tane⟧ (seeds) or ⟦{苗|なえ}→苗：05489_nae⟧ (seedlings) separately.\n\nCOMMON COLLOCATIONS:\n- {種苗店|しゅびょうてん}: seed and seedling shop\n- {種苗法|しゅびょうほう}: Plant Variety Protection and Seed Act\n- {種苗|しゅびょう}⟦{会社|かいしゃ}→会社：00607_kaisha⟧: seed company\n- {種苗|しゅびょう}⟦の→の：09472_no⟧⟦{生産|せいさん}→生産：01444_seisan⟧: production of planting stock\n- {種苗|しゅびょう}{交換会|こうかんかい}: seed exchange event\n\nSIMILAR WORDS:\n- ⟦{種|たね}→種：02157_tane⟧: seed — everyday word for individual seeds\n- ⟦{苗|なえ}→苗：05489_nae⟧: seedling, young plant — everyday word for transplantable young plants\n- ⟦{苗木|なえぎ}→苗木：15679_naegi⟧: sapling, nursery tree — specifically young trees for transplanting",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15679_naegi",
+      "reading": "なえぎ",
+      "headword": "{苗木|なえぎ}",
+      "label": "sapling, nursery tree"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["plant-general"],
-      "domain": ["technical"]
+      "semantic": [
+        "plant-general"
+      ],
+      "domain": [
+        "technical"
+      ]
     },
     "created": "2026-04-20T12:12:25Z",
-    "modified": "2026-04-20T12:12:25Z"
+    "modified": "2026-09-02T04:02:19Z"
   }
 }

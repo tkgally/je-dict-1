@@ -3,7 +3,7 @@
   "headword": "{聡明|そうめい}",
   "reading": "そうめい",
   "romaji": "soumei",
-  "part_of_speech": "adjective-na",
+  "part_of_speech": "na-adjective",
   "gloss": "wise; intelligent; clear-headed",
   "definitions": [
     {
@@ -15,40 +15,73 @@
   "examples": [
     {
       "id": "28251_soumei_ex1",
-      "japanese": "{聡明|そうめい}な{女性|じょせい}だ。",
+      "japanese": "{聡明|そうめい}な⟦{女性|じょせい}→女性：01617_josei⟧だ。",
       "english": "She is an intelligent woman.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28251_soumei_ex2",
-      "japanese": "{彼|かれ}は{若|わか}いが{聡明|そうめい}で{判断力|はんだんりょく}がある。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{若|わか}い⟦が→が：00051_ga⟧{聡明|そうめい}⟦で→で：00502_de⟧⟦{判断力|はんだんりょく}→判断力：17617_handanryoku⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "He is young but bright and has good judgment.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28251_soumei_ex3",
-      "japanese": "{聡明|そうめい}な{彼女|かのじょ}は、{複雑|ふくざつ}な{問題|もんだい}もすぐに{理解|りかい}してしまう。",
+      "japanese": "{聡明|そうめい}な⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧、⟦{複雑|ふくざつ}→複雑：01115_fukuzatsu⟧な⟦{問題|もんだい}→問題：00797_mondai⟧⟦も→も：00484_mo⟧⟦すぐ→すぐ：00814_sugu⟧⟦に→に：00314_ni⟧⟦{理解|りかい}して→理解する：06059_rikaisuru⟧しまう。",
       "english": "Being clear-headed, she immediately understands even complicated problems.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A complimentary, somewhat formal word praising a person's intelligence and good judgment. Used of people, not of objects or ideas.\n\nCONJUGATION:\n- Negative: {聡明|そうめい}ではない\n- Te-form: {聡明|そうめい}で\n- Past: {聡明|そうめい}だった\n\nSIMILAR WORDS:\n- {賢|かしこ}い: clever, smart — more everyday and can sound calculating; {聡明|そうめい} is more refined and admiring.\n- {頭|あたま}がいい: smart — casual and neutral, about raw ability.\n- {利口|りこう}: clever, shrewd — often of practical cleverness, and also used of animals.",
+  "notes": "A complimentary, somewhat formal word praising a person's intelligence and good judgment. Used of people, not of objects or ideas.\n\nCONJUGATION:\n- Negative: {聡明|そうめい}で⟦は→は：00079_ha⟧⟦ない→ない：01118_nai⟧\n- Te-form: {聡明|そうめい}で\n- Past: {聡明|そうめい}だった\n\nSIMILAR WORDS:\n- ⟦{賢|かしこ}い→賢い：00192_kashikoi⟧: clever, smart — more everyday and can sound calculating; {聡明|そうめい} is more refined and admiring.\n- ⟦{頭|あたま}がいい→頭がいい：20316_atamagaii⟧: smart — casual and neutral, about raw ability.\n- ⟦{利口|りこう}→利口：03801_rikou⟧: clever, shrewd — often of practical cleverness, and also used of animals.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00192_kashikoi",
+      "reading": "かしこい",
+      "headword": "{賢|かしこ}い",
+      "label": "clever, smart"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20316_atamagaii",
+      "reading": "あたまがいい",
+      "headword": "{頭|あたま}がいい",
+      "label": "smart"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03801_rikou",
+      "reading": "りこう",
+      "headword": "{利口|りこう}",
+      "label": "clever, shrewd"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-na"],
+      "pos": [
+        "adjective-na"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["descriptive"]
+      "semantic": [
+        "descriptive"
+      ]
     },
     "created": "2026-05-28T02:09:06Z",
-    "modified": "2026-05-28T02:09:06Z"
+    "modified": "2026-09-02T04:02:33Z"
   }
 }

@@ -24,7 +24,7 @@
     },
     {
       "id": "03649_yuujin_ex2",
-      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{古|ふる}く→古い：00488_furui⟧から⟦の→の：09472_no⟧{友人|ゆうじん}⟦です→です：09485_desu⟧。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{古|ふる}く→古い：00488_furui⟧⟦から→から：00504_kara⟧⟦の→の：09472_no⟧{友人|ゆうじん}⟦です→です：09485_desu⟧。",
       "english": "He is a friend from way back.",
       "notes": null,
       "has_audio": false,
@@ -63,10 +63,10 @@
       ]
     }
   ],
-  "notes": "USAGE: {友人|ゆうじん} is a more formal word for friend, commonly used in written language and formal speech. ⟦{友達|ともだち}→友達：01478_tomodachi⟧ is more casual and frequently used in everyday conversation.\n\nCOMMON PATTERNS:\n・{友人|ゆうじん}⟦{関係|かんけい}→関係：01298_kankei⟧ (friendships)\n・{友人|ゆうじん}⟦の→の：09472_no⟧⟦{紹介|しょうかい}→紹介：01432_shoukai⟧ (introduction from a friend)\n・⟦{親|した}しい→親しい：02345_shitashii⟧{友人|ゆうじん} (close friend)\n\nCONTRAST:\n・⟦{友達|ともだち}→友達：01478_tomodachi⟧ - friend (casual)\n・{友人|ゆうじん} - friend (formal)\n・⟦{親友|しんゆう}→親友：03266_shinyuu⟧ - best friend, close friend",
+  "notes": "USAGE: {友人|ゆうじん} is a more formal word for friend, commonly used in written language and formal speech. ⟦{友達|ともだち}→友達：01478_tomodachi⟧ is more casual and frequently used in everyday conversation.\n\nCOMMON PATTERNS:\n- {友人|ゆうじん}⟦{関係|かんけい}→関係：01298_kankei⟧ (friendships)\n- {友人|ゆうじん}⟦の→の：09472_no⟧⟦{紹介|しょうかい}→紹介：01432_shoukai⟧ (introduction from a friend)\n- ⟦{親|した}しい→親しい：02345_shitashii⟧{友人|ゆうじん} (close friend)\n\nSIMILAR WORDS:\n- ⟦{友達|ともだち}→友達：01478_tomodachi⟧ - friend (casual)\n- {友人|ゆうじん} - friend (formal)\n- ⟦{親友|しんゆう}→親友：03266_shinyuu⟧ - best friend, close friend",
   "metadata": {
     "created": "2026-01-12T16:03:00Z",
-    "modified": "2026-05-26T20:08:31Z",
+    "modified": "2026-09-02T04:01:03Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
@@ -90,6 +90,27 @@
       "headword": "{友達|ともだち}",
       "label": "friend (everyday)",
       "target_id": "01478_tomodachi"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03266_shinyuu",
+      "reading": "しんゆう",
+      "headword": "{親友|しんゆう}",
+      "label": "best friend, close friend"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03253_shiriai",
+      "reading": "しりあい",
+      "headword": "{知|し}り{合|あ}い",
+      "label": "acquaintance"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07305_kaonajimi",
+      "reading": "かおなじみ",
+      "headword": "{顔馴染|かおなじ}み",
+      "label": "familiar face"
     }
   ]
 }

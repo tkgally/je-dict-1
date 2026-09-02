@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "05898_kokkoku_ex1",
-      "japanese": "⟦{状況|じょうきょう}→状況：01576_joukyou⟧⟦は→は：00079_ha⟧{刻々|こっこく}と⟦{変|か}わっている→変わる：00714_kawaru⟧。",
+      "japanese": "⟦{状況|じょうきょう}→状況：01576_joukyou⟧⟦は→は：00079_ha⟧{刻々|こっこく}⟦と→と：00512_to⟧⟦{変|か}わっている→変わる：00714_kawaru⟧。",
       "english": "The situation is changing moment by moment.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "05898_kokkoku_ex2",
-      "japanese": "{刻々|こっこく}と⟦{迫|せま}る→迫る：03928_semaru⟧⟦{締|し}め{切|き}り→締め切り：04162_shimekiri⟧⟦に→に：00314_ni⟧⟦{追|お}われている→追う：02016_ou⟧。",
+      "japanese": "{刻々|こっこく}⟦と→と：00512_to⟧⟦{迫|せま}る→迫る：03928_semaru⟧⟦{締|し}め{切|き}り→締め切り：04162_shimekiri⟧⟦に→に：00314_ni⟧⟦{追|お}われている→追う：02016_ou⟧。",
       "english": "I'm being chased by a deadline that's getting closer by the minute.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "05898_kokkoku_ex3",
-      "japanese": "⟦ニュース→ニュース：04437_nyuusu⟧⟦で→で：00502_de⟧{刻々|こっこく}と⟦{情報|じょうほう}→情報：03348_jouhou⟧⟦が→が：00051_ga⟧⟦{入|はい}ってくる→入ってくる：29060_haittekuru⟧。",
+      "japanese": "⟦ニュース→ニュース：04437_nyuusu⟧⟦で→で：00502_de⟧{刻々|こっこく}⟦と→と：00512_to⟧⟦{情報|じょうほう}→情報：03348_jouhou⟧⟦が→が：00051_ga⟧⟦{入|はい}ってくる→入ってくる：29060_haittekuru⟧。",
       "english": "Information is coming in continuously through the news.",
       "notes": null,
       "has_audio": false,
@@ -43,11 +43,26 @@
       ]
     }
   ],
-  "notes": "{刻々|こっこく} emphasizes continuous, incremental change over time. It is typically used for situations that are urgent, evolving, or dramatic.\n\nGRAMMAR:\nAs a taru-adjective, it takes the particle と when modifying a verb: {刻々|こっこく}と⟦{変|か}わる→変わる：00714_kawaru⟧. It does not take な or の.\n\nCOMMON PATTERNS:\n- {刻々|こっこく}と⟦{変|か}わる→変わる：00714_kawaru⟧: to change moment by moment\n- {刻々|こっこく}と⟦{迫|せま}る→迫る：03928_semaru⟧: to approach steadily\n- {刻々|こっこく}と⟦{過|す}ぎる→過ぎる：01219_sugiru⟧: to pass moment by moment\n- {刻々|こっこく}と⟦{悪化|あっか}する→悪化：11077_akka⟧: to worsen steadily\n\nREGISTER:\nSlightly literary or formal. Common in news reporting and written Japanese. Less common in casual conversation.\n\nETYMOLOGY:\n{刻|こく} originally referred to units of time, so {刻々|こっこく} literally means \"time period by time period.\"\n\nSIMILAR WORDS:\n- ⟦{次第|しだい}に→次第に：05531_shidaini⟧: gradually (more general, less dramatic)\n- ⟦{徐々|じょじょ}に→徐々に：04131_jojoni⟧: little by little (slower pace implied)",
-  "cross_references": [],
+  "notes": "{刻々|こっこく} emphasizes continuous, incremental change over time. It is typically used for situations that are urgent, evolving, or dramatic.\n\nCOMMON PATTERNS:\nAs a taru-adjective, it takes the particle ⟦と→と：00512_to⟧ when modifying a verb: {刻々|こっこく}⟦と→と：00512_to⟧⟦{変|か}わる→変わる：00714_kawaru⟧. It does not take な or ⟦の→の：09472_no⟧.\n- {刻々|こっこく}⟦と→と：00512_to⟧⟦{変|か}わる→変わる：00714_kawaru⟧: to change moment by moment\n- {刻々|こっこく}⟦と→と：00512_to⟧⟦{迫|せま}る→迫る：03928_semaru⟧: to approach steadily\n- {刻々|こっこく}⟦と→と：00512_to⟧⟦{過|す}ぎる→過ぎる：01219_sugiru⟧: to pass moment by moment\n- {刻々|こっこく}⟦と→と：00512_to⟧⟦{悪化|あっか}する→悪化：11077_akka⟧: to worsen steadily\n\nREGISTER:\nSlightly literary or formal. Common in news reporting and written Japanese. Less common in casual conversation.\n\nETYMOLOGY:\n{刻|こく} originally referred to units of time, so {刻々|こっこく} literally means \"time period by time period.\"\n\nSIMILAR WORDS:\n- ⟦{次第|しだい}に→次第に：05531_shidaini⟧: gradually (more general, less dramatic)\n- ⟦{徐々|じょじょ}に→徐々に：04131_jojoni⟧: little by little (slower pace implied)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05531_shidaini",
+      "reading": "しだいに",
+      "headword": "{次第|しだい}に",
+      "label": "gradually"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04131_jojoni",
+      "reading": "じょじょに",
+      "headword": "{徐々|じょじょ}に",
+      "label": "little by little"
+    }
+  ],
   "metadata": {
     "created": "2026-01-16T14:51:32Z",
-    "modified": "2026-08-08T09:25:02Z",
+    "modified": "2026-09-02T04:01:07Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

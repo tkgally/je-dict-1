@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24612_toujousha_ex1",
-      "japanese": "{搭乗者|とうじょうしゃ}は{全員|ぜんいん}{無事|ぶじ}だった。",
+      "japanese": "{搭乗者|とうじょうしゃ}⟦は→は：00079_ha⟧⟦{全員|ぜんいん}→全員：03310_zenin⟧⟦{無事|ぶじ}→無事：01602_buji⟧だった。",
       "english": "All passengers were safe.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24612_toujousha_ex2",
-      "japanese": "{搭乗者|とうじょうしゃ}の{名簿|めいぼ}を{確認|かくにん}してください。",
+      "japanese": "{搭乗者|とうじょうしゃ}⟦の→の：09472_no⟧⟦{名簿|めいぼ}→名簿：11870_meibo⟧⟦を→を：00422_wo⟧⟦{確認|かくにん}して→確認する：25332_kakuninsuru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please check the passenger manifest.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24612_toujousha_ex3",
-      "japanese": "この{便|びん}の{搭乗者|とうじょうしゃ}{数|すう}は{約|やく}200{名|めい}と{発表|はっぴょう}された。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{便|びん}→便：28160_bin⟧⟦の→の：09472_no⟧{搭乗者|とうじょうしゃ}⟦{数|すう}→数：03360_suu⟧⟦は→は：00079_ha⟧⟦{約|やく}→約：09563_yaku⟧200{名|めい}⟦と→と：00512_to⟧⟦{発表|はっぴょう}→発表：03562_happyou⟧⟦された→する：00392_suru⟧。",
       "english": "The number of passengers on this flight was announced as approximately 200.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {搭乗|とうじょう} ('boarding; embarkation') and {者|しゃ} ('person'). A formal term used primarily in aviation and maritime contexts. In everyday conversation, {乗客|じょうきゃく} is far more common for 'passenger.'\n\nUSAGE:\nAppears frequently in news reports about flights, accidents, and official documents. The word specifically implies the person has already boarded, not someone waiting to board. For someone who has checked in but not yet boarded, {搭乗予定者|とうじょうよていしゃ} may be used.\n\nCOMMON COLLOCATIONS:\n- {搭乗者|とうじょうしゃ}{全員|ぜんいん}: all passengers on board\n- {搭乗者|とうじょうしゃ}{名簿|めいぼ}: passenger manifest\n- {搭乗者|とうじょうしゃ}{数|すう}: number of passengers\n- {搭乗者|とうじょうしゃ}の{安全|あんぜん}: passenger safety\n\nSIMILAR WORDS:\n- {乗客|じょうきゃく}: passenger — the everyday term for passengers on trains, buses, planes, etc.; more common in daily use\n- {搭乗員|とうじょういん}: crew member — refers to crew (pilots, flight attendants), not passengers\n- {旅客|りょかく}: traveler; passenger — formal/literary; often used in compound words like {旅客機|りょかくき} ('passenger plane')",
+  "notes": "Compound of ⟦{搭乗|とうじょう}→搭乗：06200_toujou⟧ ('boarding; embarkation') and ⟦{者|しゃ}→〜者：04662_sha⟧ ('person'). A formal term used primarily in aviation and maritime contexts. In everyday conversation, ⟦{乗客|じょうきゃく}→乗客：03284_joukyaku⟧ is far more common for 'passenger.'\n\nUSAGE:\nAppears frequently in news reports about flights, accidents, and official documents. The word specifically implies the person has already boarded, not someone waiting to board. For someone who has checked in but not yet boarded, {搭乗予定者|とうじょうよていしゃ} may be used.\n\nCOMMON COLLOCATIONS:\n- {搭乗者|とうじょうしゃ}⟦{全員|ぜんいん}→全員：03310_zenin⟧: all passengers on board\n- {搭乗者|とうじょうしゃ}⟦{名簿|めいぼ}→名簿：11870_meibo⟧: passenger manifest\n- {搭乗者|とうじょうしゃ}⟦{数|すう}→数：03360_suu⟧: number of passengers\n- {搭乗者|とうじょうしゃ}⟦の→の：09472_no⟧⟦{安全|あんぜん}→安全：01131_anzen⟧: passenger safety\n\nSIMILAR WORDS:\n- ⟦{乗客|じょうきゃく}→乗客：03284_joukyaku⟧: passenger — the everyday term for passengers on trains, buses, planes, etc.; more common in daily use\n- {搭乗員|とうじょういん}: crew member — refers to crew (pilots, flight attendants), not passengers\n- ⟦{旅客|りょかく}→旅客：12950_ryokaku⟧: traveler; passenger — formal/literary; often used in compound words like ⟦{旅客機|りょかくき}→旅客機：17838_ryokakuki⟧ ('passenger plane')",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03284_joukyaku",
+      "reading": "じょうきゃく",
+      "headword": "{乗客|じょうきゃく}",
+      "label": "passenger"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12950_ryokaku",
+      "reading": "りょかく",
+      "headword": "{旅客|りょかく}",
+      "label": "traveler"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,6 +78,6 @@
       ]
     },
     "created": "2026-04-20T09:08:47Z",
-    "modified": "2026-08-03T09:22:27Z"
+    "modified": "2026-09-02T04:02:19Z"
   }
 }

@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "13105_kakushin_ex1",
-      "japanese": "{問題|もんだい}の{核心|かくしん}に{触|ふ}れる。",
+      "japanese": "⟦{問題|もんだい}→問題：00797_mondai⟧⟦の→の：09472_no⟧{核心|かくしん}⟦に→に：00314_ni⟧⟦{触|ふ}れる→触れる：01984_fureru⟧。",
       "english": "To touch on the crux of the problem.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13105_kakushin_ex2",
-      "japanese": "{彼|かれ}の{話|はなし}は{核心|かくしん}を{突|つ}いていた。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧⟦{話|はなし}→話：01496_hanashi⟧⟦は→は：00079_ha⟧{核心|かくしん}⟦を→を：00422_wo⟧⟦{突|つ}いていた→突く：12735_tsuku⟧。",
       "english": "His remarks hit the heart of the matter.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13105_kakushin_ex3",
-      "japanese": "{議論|ぎろん}が{長引|ながび}いているが、そろそろ{核心|かくしん}に{迫|せま}るべきだ。",
+      "japanese": "⟦{議論|ぎろん}→議論：02650_giron⟧⟦が→が：00051_ga⟧⟦{長引|ながび}いている→長引く：14473_nagabiku⟧⟦が→が：00051_ga⟧、⟦そろそろ→そろそろ：01259_sorosoro⟧{核心|かくしん}⟦に→に：00314_ni⟧⟦{迫|せま}る→迫る：03928_semaru⟧べきだ。",
       "english": "The discussion has been dragging on, but it's time we got to the heart of the matter.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "COMMON COLLOCATIONS:\n- {核心|かくしん}に{触|ふ}れる: to touch on the core issue\n- {核心|かくしん}を{突|つ}く: to hit the nail on the head\n- {核心|かくしん}に{迫|せま}る: to get to the heart of the matter\n- {核心|かくしん}{部分|ぶぶん}: the core part\n\nSIMILAR WORDS:\n{核心|かくしん} focuses on the most critical point of an argument or issue. {要点|ようてん} (key point) is broader and more neutral, while {核心|かくしん} emphasizes the idea of penetrating to the essential center.",
+  "notes": "COMMON COLLOCATIONS:\n- {核心|かくしん}⟦に→に：00314_ni⟧⟦{触|ふ}れる→触れる：01984_fureru⟧: to touch on the core issue\n- {核心|かくしん}⟦を→を：00422_wo⟧⟦{突|つ}く→突く：12735_tsuku⟧: to hit the nail on the head\n- {核心|かくしん}⟦に→に：00314_ni⟧⟦{迫|せま}る→迫る：03928_semaru⟧: to get to the heart of the matter\n- {核心|かくしん}⟦{部分|ぶぶん}→部分：03715_bubun⟧: the core part\n\nSIMILAR WORDS:\n{核心|かくしん} focuses on the most critical point of an argument or issue. ⟦{要点|ようてん}→要点：01668_youten⟧ (key point) is broader and more neutral, while {核心|かくしん} emphasizes the idea of penetrating to the essential center.",
   "prominent_see_also": [
     {
       "target_id": "05617_kakushin",
@@ -53,17 +59,50 @@
       "note": "homophone — conviction"
     }
   ],
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01467_chuushin",
+      "reading": "ちゅうしん",
+      "headword": "{中心|ちゅうしん}",
+      "label": "center, core"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07799_konkan",
+      "reading": "こんかん",
+      "headword": "{根幹|こんかん}",
+      "label": "core"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11369_chuukaku",
+      "reading": "ちゅうかく",
+      "headword": "{中核|ちゅうかく}",
+      "label": "nucleus, core, central pillar"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24197_honmaru",
+      "reading": "ほんまる",
+      "headword": "{本丸|ほんまる}",
+      "label": "main enclosure of a castle"
+    }
+  ],
   "metadata": {
     "created": "2026-02-23T11:16:43Z",
-    "modified": "2026-04-14T10:22:14Z",
+    "modified": "2026-09-02T04:01:31Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["abstract"]
+      "semantic": [
+        "abstract"
+      ]
     }
   }
 }

@@ -16,39 +16,66 @@
   "examples": [
     {
       "id": "29206_shukusai_ex1",
-      "japanese": "{春|はる}の{祝祭|しゅくさい}が{始|はじ}まった。",
+      "japanese": "⟦{春|はる}→春：00627_haru⟧⟦の→の：09472_no⟧{祝祭|しゅくさい}⟦が→が：00051_ga⟧⟦{始|はじ}まった→始まる：00841_hajimaru⟧。",
       "english": "The spring celebration has begun.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29206_shukusai_ex2",
-      "japanese": "{国中|くにじゅう}が{祝祭|しゅくさい}{気分|きぶん}に{包|つつ}まれた。",
+      "japanese": "⟦{国中|くにじゅう}→国中：27766_kunijuu⟧⟦が→が：00051_ga⟧{祝祭|しゅくさい}⟦{気分|きぶん}→気分：01306_kibun⟧⟦に→に：00314_ni⟧⟦{包|つつ}まれた→包む：01226_tsutsumu⟧。",
       "english": "The whole country was wrapped in a festive mood.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29206_shukusai_ex3",
-      "japanese": "{中世|ちゅうせい}ヨーロッパの{宗教的|しゅうきょうてき}な{祝祭|しゅくさい}を{研究|けんきゅう}している。",
+      "japanese": "⟦{中世|ちゅうせい}→中世：05524_chuusei⟧⟦ヨーロッパ→ヨーロッパ：00427_yooroppa⟧⟦の→の：09472_no⟧{宗教的|しゅうきょうてき}な{祝祭|しゅくさい}⟦を→を：00422_wo⟧⟦{研究|けんきゅう}→研究：01396_kenkyuu⟧⟦している→する：00392_suru⟧。",
       "english": "I am researching religious celebrations in medieval Europe.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "SIMILAR WORDS:\n- {祭|まつ}り: festival — the common everyday word; more informal; refers to traditional local festivals\n- {祭典|さいてん}: ceremony; formal festival — used for large-scale official events (e.g., {オリンピック|おりんぴっく}祭典)\n- {祝祭|しゅくさい}: celebration/festivity — more literary and formal; often used in historical or religious contexts\n\nCOMMON COLLOCATIONS:\n- {祝祭|しゅくさい}{日|び}: public holiday; festival day\n- {祝祭|しゅくさい}{気分|きぶん}: festive mood\n- {宗教的|しゅうきょうてき}{祝祭|しゅくさい}: religious celebration",
+  "notes": "SIMILAR WORDS:\n- ⟦{祭|まつ}り→祭り：03735_matsuri⟧: festival — the common everyday word; more informal; refers to traditional local festivals\n- ⟦{祭典|さいてん}→祭典：17745_saiten⟧: ceremony; formal festival — used for large-scale official events (e.g., ⟦オリンピック→オリンピック：09899_orinpikku⟧祭典)\n- {祝祭|しゅくさい}: celebration/festivity — more literary and formal; often used in historical or religious contexts\n\nCOMMON COLLOCATIONS:\n- {祝祭|しゅくさい}{日|び}: public holiday; festival day\n- {祝祭|しゅくさい}⟦{気分|きぶん}→気分：01306_kibun⟧: festive mood\n- {宗教的|しゅうきょうてき}{祝祭|しゅくさい}: religious celebration",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03735_matsuri",
+      "reading": "まつり",
+      "headword": "{祭|まつ}り",
+      "label": "festival"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17745_saiten",
+      "reading": "さいてん",
+      "headword": "{祭典|さいてん}",
+      "label": "ceremony"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["culture", "leisure"]
+      "semantic": [
+        "culture",
+        "leisure"
+      ]
     },
     "created": "2026-06-13T03:41:18Z",
-    "modified": "2026-06-13T03:41:18Z"
+    "modified": "2026-09-02T04:02:36Z"
   }
 }

@@ -15,41 +15,67 @@
   "examples": [
     {
       "id": "16182_enogu_ex1",
-      "japanese": "{絵|え}の{具|ぐ}で{絵|え}を{描|か}いた。",
+      "japanese": "{絵|え}の{具|ぐ}⟦で→で：00502_de⟧⟦{絵|え}→絵：02613_e⟧⟦を→を：00422_wo⟧⟦{描|か}いた→描く：28436_kaku⟧。",
       "english": "I painted a picture with paints.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16182_enogu_ex2",
-      "japanese": "{赤|あか}い{絵|え}の{具|ぐ}が{足|た}りなくなった。",
+      "japanese": "⟦{赤|あか}い→赤い：00585_akai⟧{絵|え}の{具|ぐ}⟦が→が：00051_ga⟧⟦{足|た}りなく→足りる：01209_tariru⟧⟦なった→なる：01970_naru⟧。",
       "english": "I ran out of red paint.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16182_enogu_ex3",
-      "japanese": "{図工|ずこう}の{時間|じかん}に{水彩|すいさい}{絵|え}の{具|ぐ}を{使|つか}って{風景画|ふうけいが}を{描|か}いた。",
+      "japanese": "⟦{図工|ずこう}→図工：19698_zukou⟧⟦の→の：09472_no⟧⟦{時間|じかん}→時間：00468_jikan⟧⟦に→に：00314_ni⟧⟦{水彩|すいさい}→水彩：24163_suisai⟧{絵|え}の{具|ぐ}⟦を→を：00422_wo⟧⟦{使|つか}って→使う：00473_tsukau⟧⟦{風景画|ふうけいが}→風景画：28196_fuukeiga⟧⟦を→を：00422_wo⟧⟦{描|か}いた→描く：28436_kaku⟧。",
       "english": "During art class, I used watercolors to paint a landscape.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\n{絵|え}の{具|ぐ} is the general word for art paints. It is a standard item in Japanese school supplies, with {水彩|すいさい}{絵|え}の{具|ぐ} (watercolors) being the most common type used in elementary school art classes ({図工|ずこう}). The word {具|ぐ} here means \"tool\" or \"material.\"\n\nCOMMON COLLOCATIONS:\n- {水彩|すいさい}{絵|え}の{具|ぐ} (watercolor paints)\n- {油|あぶら}{絵|え}の{具|ぐ} (oil paints)\n- {絵|え}の{具|ぐ}セット (paint set)\n- {絵|え}の{具|ぐ}を{混|ま}ぜる (to mix paints)",
-  "cross_references": [],
+  "notes": "USAGE:\n{絵|え}の{具|ぐ} is the general word for art paints. It is a standard item in Japanese school supplies, with ⟦{水彩|すいさい}→水彩：24163_suisai⟧{絵|え}の{具|ぐ} (watercolors) being the most common type used in elementary school art classes (⟦{図工|ずこう}→図工：19698_zukou⟧). The word ⟦{具|ぐ}→具：07857_gu⟧ here means \"tool\" or \"material.\"\n\nCOMMON COLLOCATIONS:\n- ⟦{水彩|すいさい}→水彩：24163_suisai⟧{絵|え}の{具|ぐ} (watercolor paints)\n- {油|あぶら}{絵|え}の{具|ぐ} (oil paints)\n- {絵|え}の{具|ぐ}⟦セット→セット：03853_setto⟧ (paint set)\n- {絵|え}の{具|ぐ}⟦を→を：00422_wo⟧⟦{混|ま}ぜる→混ぜる：02423_mazeru⟧ (to mix paints)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "00342_penki",
+      "reading": "ぺんき",
+      "headword": "ペンキ",
+      "label": "paint"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25640_suisaienogu",
+      "reading": "すいさいえのぐ",
+      "headword": "{水彩絵具|すいさいえのぐ}",
+      "label": "watercolor paint"
+    }
+  ],
   "metadata": {
     "created": "2026-03-11T01:02:43Z",
-    "modified": "2026-03-11T01:02:43Z",
+    "modified": "2026-09-02T04:01:44Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["art", "tool"]
+      "semantic": [
+        "art",
+        "tool"
+      ]
     }
   }
 }

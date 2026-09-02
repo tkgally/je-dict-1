@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "07799_konkan_ex1",
-      "japanese": "{問題|もんだい}の{根幹|こんかん}に{触|ふ}れる。",
+      "japanese": "⟦{問題|もんだい}→問題：00797_mondai⟧⟦の→の：09472_no⟧{根幹|こんかん}⟦に→に：00314_ni⟧⟦{触|ふ}れる→触れる：01984_fureru⟧。",
       "english": "To get to the root of the problem.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "07799_konkan_ex2",
-      "japanese": "これは{会社|かいしゃ}の{経営|けいえい}の{根幹|こんかん}に{関|かか}わる{問題|もんだい}だ。",
+      "japanese": "⟦これ→これ：00963_kore⟧⟦は→は：00079_ha⟧⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦の→の：09472_no⟧⟦{経営|けいえい}→経営：02740_keiei⟧⟦の→の：09472_no⟧{根幹|こんかん}⟦に→に：00314_ni⟧⟦{関|かか}わる→関わる：03020_kakawaru⟧⟦{問題|もんだい}→問題：00797_mondai⟧だ。",
       "english": "This is an issue that affects the core of the company's management.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "07799_konkan_ex3",
-      "japanese": "{教育|きょういく}の{根幹|こんかん}を{成|な}すのは{家庭|かてい}での{躾|しつけ}だ。",
+      "japanese": "⟦{教育|きょういく}→教育：01313_kyouiku⟧⟦の→の：09472_no⟧{根幹|こんかん}⟦を→を：00422_wo⟧{成|な}す⟦の→の：09472_no⟧⟦は→は：00079_ha⟧⟦{家庭|かてい}→家庭：12315_katei⟧⟦で→で：00502_de⟧⟦の→の：09472_no⟧⟦{躾|しつけ}→躾：10342_shitsuke⟧だ。",
       "english": "Home discipline forms the foundation of education.",
       "sense_numbers": [
         1
@@ -43,7 +43,37 @@
       "notes": null
     }
   ],
-  "notes": "{根幹|こんかん} combines {根|こん} (root) + {幹|かん} (trunk), referring to the essential foundation or core of something.\n\nCommon expressions:\n- {根幹|こんかん}を{成|な}す (to form the basis of)\n- {根幹|こんかん}に{関|かか}わる (to concern the fundamentals)\n- {根幹|こんかん}を{揺|ゆ}るがす (to shake the foundations)\n- {根幹|こんかん}{部分|ぶぶん} (core part)\n\nUsed in formal or written contexts when discussing fundamental aspects of systems, organizations, or concepts.\n\nSIMILAR WORDS:\n- {根本|こんぽん} (root, fundamental - slightly more common)\n- {基盤|きばん} (foundation, base)\n- {核心|かくしん} (core, heart of the matter)",
+  "notes": "{根幹|こんかん} combines {根|こん} (root) + {幹|かん} (trunk), referring to the essential foundation or core of something.\n\nCommon expressions:\n- {根幹|こんかん}⟦を→を：00422_wo⟧{成|な}す (to form the basis of)\n- {根幹|こんかん}⟦に→に：00314_ni⟧⟦{関|かか}わる→関わる：03020_kakawaru⟧ (to concern the fundamentals)\n- {根幹|こんかん}⟦を→を：00422_wo⟧⟦{揺|ゆ}るがす→揺るがす：12936_yurugasu⟧ (to shake the foundations)\n- {根幹|こんかん}⟦{部分|ぶぶん}→部分：03715_bubun⟧ (core part)\n\nUsed in formal or written contexts when discussing fundamental aspects of systems, organizations, or concepts.\n\nSIMILAR WORDS:\n- ⟦{根本|こんぽん}→根本：13107_konpon⟧ (root, fundamental - slightly more common)\n- ⟦{基盤|きばん}→基盤：00220_kiban⟧ (foundation, base)\n- ⟦{核心|かくしん}→核心：13105_kakushin⟧ (core, heart of the matter)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13107_konpon",
+      "reading": "こんぽん",
+      "headword": "{根本|こんぽん}",
+      "label": "root, fundamental"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00220_kiban",
+      "reading": "きばん",
+      "headword": "{基盤|きばん}",
+      "label": "foundation, base"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13105_kakushin",
+      "reading": "かくしん",
+      "headword": "{核心|かくしん}",
+      "label": "core, heart of the matter"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29321_shuyoubu",
+      "reading": "しゅようぶ",
+      "headword": "{主要部|しゅようぶ}",
+      "label": "main part"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -57,6 +87,6 @@
       ]
     },
     "created": "2026-01-21T03:55:15Z",
-    "modified": "2026-06-20T09:50:36Z"
+    "modified": "2026-09-02T04:01:12Z"
   }
 }

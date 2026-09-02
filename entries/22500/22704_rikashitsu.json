@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22704_rikashitsu_ex1",
-      "japanese": "{理科室|りかしつ}で{実験|じっけん}をする。",
+      "japanese": "{理科室|りかしつ}⟦で→で：00502_de⟧⟦{実験|じっけん}→実験：03273_jikken⟧⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧。",
       "english": "To do an experiment in the science lab.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22704_rikashitsu_ex2",
-      "japanese": "{理科室|りかしつ}には{顕微鏡|けんびきょう}がたくさんある。",
+      "japanese": "{理科室|りかしつ}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{顕微鏡|けんびきょう}→顕微鏡：05482_kenbikyou⟧⟦が→が：00051_ga⟧⟦たくさん→たくさん：00597_takusan⟧⟦ある→ある：00006_aru⟧。",
       "english": "There are many microscopes in the science lab.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22704_rikashitsu_ex3",
-      "japanese": "{子|こ}どもたちは{理科室|りかしつ}で{楽|たの}しそうに{化学|かがく}{実験|じっけん}をしていた。",
+      "japanese": "{子|こ}どもたち⟦は→は：00079_ha⟧{理科室|りかしつ}⟦で→で：00502_de⟧{楽|たの}しそう⟦に→に：00314_ni⟧⟦{化学|かがく}→化学：05336_kagaku_chem⟧⟦{実験|じっけん}→実験：03273_jikken⟧⟦を→を：00422_wo⟧⟦していた→する：00392_suru⟧。",
       "english": "The children were happily doing chemistry experiments in the science lab.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {理科|りか} (science, as a school subject) + {室|しつ} (room). Found in elementary and middle schools in Japan. Unlike regular classrooms, the {理科室|りかしつ} typically has special desks with gas taps and sinks, along with storage for lab equipment.\n\nCOMMON COLLOCATIONS:\n- {理科室|りかしつ}で{実験|じっけん}する: to do experiments in the science lab\n- {理科室|りかしつ}の{器具|きぐ}: science lab equipment\n- {理科室|りかしつ}の{人体模型|じんたいもけい}: anatomical model in the science lab\n\nRELATED TERMS:\n- {音楽室|おんがくしつ}: music room — another specialized school room\n- {家庭科室|かていかしつ}: home economics room\n- {図工室|ずこうしつ}: arts and crafts room\n- {理科|りか}: science (as a school subject)",
+  "notes": "A compound of ⟦{理科|りか}→理科：03994_rika⟧ (science, as a school subject) + ⟦{室|しつ}→室：09946_shitsu⟧ (room). Found in elementary and middle schools in Japan. Unlike regular classrooms, the {理科室|りかしつ} typically has special desks with gas taps and sinks, along with storage for lab equipment.\n\nCOMMON COLLOCATIONS:\n- {理科室|りかしつ}⟦で→で：00502_de⟧⟦{実験|じっけん}→実験：03273_jikken⟧⟦する→する：00392_suru⟧: to do experiments in the science lab\n- {理科室|りかしつ}⟦の→の：09472_no⟧⟦{器具|きぐ}→器具：03980_kigu⟧: science lab equipment\n- {理科室|りかしつ}⟦の→の：09472_no⟧{人体模型|じんたいもけい}: anatomical model in the science lab\n\nRELATED WORDS:\n- {音楽室|おんがくしつ}: music room — another specialized school room\n- {家庭科室|かていかしつ}: home economics room\n- {図工室|ずこうしつ}: arts and crafts room\n- ⟦{理科|りか}→理科：03994_rika⟧: science (as a school subject)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "19807_bijutsushitsu",
+      "reading": "びじゅつしつ",
+      "headword": "{美術室|びじゅつしつ}",
+      "label": "art room"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,6 +70,6 @@
       "politeness": "plain"
     },
     "created": "2026-04-07T12:34:49Z",
-    "modified": "2026-08-01T06:41:09Z"
+    "modified": "2026-09-02T04:02:09Z"
   }
 }

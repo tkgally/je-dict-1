@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "19849_amagasa_ex1",
-      "japanese": "{雨傘|あまがさ}を{持|も}ってきた。",
+      "japanese": "{雨傘|あまがさ}⟦を→を：00422_wo⟧⟦{持|も}って→持つ：00478_motsu⟧きた。",
       "english": "I brought a rain umbrella.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "19849_amagasa_ex2",
-      "japanese": "{黒|くろ}い{雨傘|あまがさ}を{買|か}った。",
+      "japanese": "⟦{黒|くろ}い→黒い：00588_kuroi⟧{雨傘|あまがさ}⟦を→を：00422_wo⟧⟦{買|か}った→買う：00489_kau⟧。",
       "english": "I bought a black rain umbrella.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "19849_amagasa_ex3",
-      "japanese": "{折|お}りたたみの{雨傘|あまがさ}をかばんに{入|い}れておくと{便利|べんり}だ。",
+      "japanese": "⟦{折|お}りたたみ→折りたたみ：11332_oritatami⟧⟦の→の：09472_no⟧{雨傘|あまがさ}⟦を→を：00422_wo⟧⟦かばん→かばん：00637_kaban⟧⟦に→に：00314_ni⟧⟦{入|い}れて→入れる：01098_ireru⟧おく⟦と→と：00512_to⟧⟦{便利|べんり}→便利：00830_benri⟧だ。",
       "english": "It's convenient to keep a folding rain umbrella in your bag.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "Distinguishes a rain umbrella from a {日傘|ひがさ} (parasol/sun umbrella). While {傘|かさ} alone usually implies a rain umbrella, {雨傘|あまがさ} is used when the distinction matters.\n\nCOMMON COLLOCATIONS:\n- {雨傘|あまがさ}を{差|さ}す — to put up a rain umbrella\n- {折|お}りたたみ{雨傘|あまがさ} — folding rain umbrella\n- {雨傘|あまがさ}{立|た}て — umbrella stand\n\nSIMILAR WORDS:\n- {傘|かさ} — umbrella (general term, usually implies rain umbrella)\n- {日傘|ひがさ} — parasol, sun umbrella\n- {相合傘|あいあいがさ} — sharing an umbrella (romantic connotation)",
+  "notes": "Distinguishes a rain umbrella from a ⟦{日傘|ひがさ}→日傘：04686_higasa⟧ (parasol/sun umbrella). While ⟦{傘|かさ}→傘：00639_kasa⟧ alone usually implies a rain umbrella, {雨傘|あまがさ} is used when the distinction matters.\n\nCOMMON COLLOCATIONS:\n- {雨傘|あまがさ}⟦を→を：00422_wo⟧⟦{差|さ}す→差す：17637_sasu⟧ — to put up a rain umbrella\n- {折|お}りたたみ{雨傘|あまがさ} — folding rain umbrella\n- {雨傘|あまがさ}{立|た}て — umbrella stand\n\nSIMILAR WORDS:\n- ⟦{傘|かさ}→傘：00639_kasa⟧ — umbrella (general term, usually implies rain umbrella)\n- ⟦{日傘|ひがさ}→日傘：04686_higasa⟧ — parasol, sun umbrella\n- {相合傘|あいあいがさ} — sharing an umbrella (romantic connotation)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04686_higasa",
+      "reading": "ひがさ",
+      "headword": "{日傘|ひがさ}",
+      "label": "parasol, sun umbrella"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +69,6 @@
       ]
     },
     "created": "2026-03-27T03:25:49Z",
-    "modified": "2026-07-27T12:42:09Z"
+    "modified": "2026-09-02T04:01:57Z"
   }
 }

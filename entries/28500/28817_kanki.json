@@ -3,7 +3,7 @@
   "headword": "{喚起|かんき}",
   "reading": "かんき",
   "romaji": "kanki",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "arousal; calling to attention; evocation",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28817_kanki_ex1",
-      "japanese": "{注意|ちゅうい}を{喚起|かんき}する。",
+      "japanese": "⟦{注意|ちゅうい}→注意：01464_chuui⟧⟦を→を：00422_wo⟧{喚起|かんき}⟦する→する：00392_suru⟧。",
       "english": "To call attention to something.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28817_kanki_ex2",
-      "japanese": "{世論|よろん}の{喚起|かんき}を{目的|もくてき}とした{記事|きじ}だ。",
+      "japanese": "⟦{世論|よろん}→世論：16145_yoron⟧⟦の→の：09472_no⟧{喚起|かんき}⟦を→を：00422_wo⟧⟦{目的|もくてき}→目的：02433_mokuteki⟧とした⟦{記事|きじ}→記事：00227_kiji⟧だ。",
       "english": "It is an article aimed at arousing public opinion.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28817_kanki_ex3",
-      "japanese": "{環境問題|かんきょうもんだい}への{関心|かんしん}を{喚起|かんき}するための{講演会|こうえんかい}が{開|ひら}かれた。",
+      "japanese": "⟦{環境問題|かんきょうもんだい}→環境問題：10136_kankyoumondai⟧⟦へ→へ：02473_he⟧⟦の→の：09472_no⟧⟦{関心|かんしん}→関心：00182_kanshin⟧⟦を→を：00422_wo⟧{喚起|かんき}⟦する→する：00392_suru⟧⟦ため→ため：01145_tame⟧⟦の→の：09472_no⟧⟦{講演会|こうえんかい}→講演会：15096_kouenkai⟧⟦が→が：00051_ga⟧⟦{開|ひら}かれた→開く：01979_hiraku⟧。",
       "english": "A lecture was held to raise interest in environmental issues.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "Formal, written register. Typically appears with abstract objects like {注意|ちゅうい}, {関心|かんしん}, {興味|きょうみ}, {世論|よろん}, {記憶|きおく}. Common in news and academic writing.\n\nCOMMON COLLOCATIONS:\n- {注意|ちゅうい}{喚起|かんき}: a warning; calling attention to a danger\n- {関心|かんしん}を{喚起|かんき}する: to arouse interest\n- {興味|きょうみ}を{喚起|かんき}する: to spark interest\n- {世論|よろん}を{喚起|かんき}する: to mobilize public opinion\n- {記憶|きおく}を{喚起|かんき}する: to bring back memories\n\nSIMILAR WORDS:\n- {呼|よ}び{起|お}こす: to evoke; to call up — more concrete and conversational\n- {引|ひ}き{起|お}こす: to cause; to bring about — focuses on causing an event, not awareness",
+  "notes": "Formal, written register. Typically appears with abstract objects like ⟦{注意|ちゅうい}→注意：01464_chuui⟧, ⟦{関心|かんしん}→関心：00182_kanshin⟧, ⟦{興味|きょうみ}→興味：01316_kyoumi⟧, ⟦{世論|よろん}→世論：16145_yoron⟧, ⟦{記憶|きおく}→記憶：00234_kioku⟧. Common in news and academic writing.\n\nCOMMON COLLOCATIONS:\n- {注意|ちゅうい}{喚起|かんき}: a warning; calling attention to a danger\n- ⟦{関心|かんしん}→関心：00182_kanshin⟧⟦を→を：00422_wo⟧{喚起|かんき}⟦する→する：00392_suru⟧: to arouse interest\n- ⟦{興味|きょうみ}→興味：01316_kyoumi⟧⟦を→を：00422_wo⟧{喚起|かんき}⟦する→する：00392_suru⟧: to spark interest\n- ⟦{世論|よろん}→世論：16145_yoron⟧⟦を→を：00422_wo⟧{喚起|かんき}⟦する→する：00392_suru⟧: to mobilize public opinion\n- ⟦{記憶|きおく}→記憶：00234_kioku⟧⟦を→を：00422_wo⟧{喚起|かんき}⟦する→する：00392_suru⟧: to bring back memories\n\nSIMILAR WORDS:\n- {呼|よ}び{起|お}こす: to evoke; to call up — more concrete and conversational\n- ⟦{引|ひ}き{起|お}こす→引き起こす：06165_hikiokosu⟧: to cause; to bring about — focuses on causing an event, not awareness",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06165_hikiokosu",
+      "reading": "ひきおこす",
+      "headword": "{引|ひ}き{起|お}こす",
+      "label": "to cause"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -55,7 +64,7 @@
       ],
       "transitivity": "transitive",
       "formality": "formal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "abstract",
         "communication"
@@ -64,7 +73,7 @@
       "verb_class": "suru"
     },
     "created": "2026-06-06T02:07:42Z",
-    "modified": "2026-06-06T02:07:42Z"
+    "modified": "2026-09-02T04:02:35Z"
   },
   "conjugation": {
     "type": "suru",

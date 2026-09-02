@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "notes": "{副作用|ふくさよう} refers to side effects of medication or medical treatment. {副|ふく} means 'secondary/sub-' and ⟦{作用|さよう}→作用：05761_sayou⟧ means 'effect/action.'\n\nCOMMON EXPRESSIONS:\n- {副作用|ふくさよう}⟦が→が：00051_ga⟧⟦{出|で}る→出る：00513_deru⟧: to experience side effects\n- {副作用|ふくさよう}⟦が→が：00051_ga⟧⟦{強|つよ}い→強い：00820_tsuyoi⟧: to have strong side effects\n- {副作用|ふくさよう}⟦が→が：00051_ga⟧⟦{少|すく}ない→少ない：01136_sukunai⟧: to have few side effects\n- {副作用|ふくさよう}⟦の→の：09472_no⟧⟦リスク→リスク：06752_risuku⟧: risk of side effects\n\nCOMMON SIDE EFFECTS:\n- ⟦{眠気|ねむけ}→眠気：06534_nemuke⟧: drowsiness\n- ⟦{吐|は}き{気|け}→吐き気：05021_hakike⟧: nausea\n- ⟦{頭痛|ずつう}→頭痛：03369_zutsuu⟧: headache\n- ⟦{発疹|はっしん}→発疹：20451_hasshin⟧: rash\n\nRELATED WORDS:\n- ⟦{薬|くすり}→薬：00793_kusuri⟧: medicine\n- ⟦{効能|こうのう}→効能：11920_kounou⟧: efficacy\n- ⟦{服用|ふくよう}→服用：15267_fukuyou⟧: taking medicine",
+  "notes": "{副作用|ふくさよう} refers to side effects of medication or medical treatment. ⟦{副|ふく}→副〜：03965_fuku⟧ means 'secondary/sub-' and ⟦{作用|さよう}→作用：05761_sayou⟧ means 'effect/action.'\n\nCOMMON EXPRESSIONS:\n- {副作用|ふくさよう}⟦が→が：00051_ga⟧⟦{出|で}る→出る：00513_deru⟧: to experience side effects\n- {副作用|ふくさよう}⟦が→が：00051_ga⟧⟦{強|つよ}い→強い：00820_tsuyoi⟧: to have strong side effects\n- {副作用|ふくさよう}⟦が→が：00051_ga⟧⟦{少|すく}ない→少ない：01136_sukunai⟧: to have few side effects\n- {副作用|ふくさよう}⟦の→の：09472_no⟧⟦リスク→リスク：06752_risuku⟧: risk of side effects\n\nCOMMON SIDE EFFECTS:\n- ⟦{眠気|ねむけ}→眠気：06534_nemuke⟧: drowsiness\n- ⟦{吐|は}き{気|け}→吐き気：05021_hakike⟧: nausea\n- ⟦{頭痛|ずつう}→頭痛：03369_zutsuu⟧: headache\n- ⟦{発疹|はっしん}→発疹：20451_hasshin⟧: rash\n\nRELATED WORDS:\n- ⟦{薬|くすり}→薬：00793_kusuri⟧: medicine\n- ⟦{効能|こうのう}→効能：11920_kounou⟧: efficacy\n- ⟦{服用|ふくよう}→服用：15267_fukuyou⟧: taking medicine",
   "cross_references": [
     {
       "type": "related",
@@ -55,11 +55,53 @@
       "reading": "こうのう",
       "headword": "{効能|こうのう}",
       "label": "efficacy (intended effect)"
+    },
+    {
+      "type": "related",
+      "target_id": "00793_kusuri",
+      "reading": "くすり",
+      "headword": "{薬|くすり}",
+      "label": "medicine"
+    },
+    {
+      "type": "related",
+      "target_id": "15267_fukuyou",
+      "reading": "ふくよう",
+      "headword": "{服用|ふくよう}",
+      "label": "taking medicine"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21819_yakkou",
+      "reading": "やっこう",
+      "headword": "{薬効|やっこう}",
+      "label": "medicinal effect"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22503_hansayou",
+      "reading": "はんさよう",
+      "headword": "{反作用|はんさよう}",
+      "label": "reaction"
+    },
+    {
+      "type": "related",
+      "target_id": "23619_zoueizai",
+      "reading": "ぞうえいざい",
+      "headword": "{造影剤|ぞうえいざい}",
+      "label": "contrast agent"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28799_fukuhannou",
+      "reading": "ふくはんのう",
+      "headword": "{副反応|ふくはんのう}",
+      "label": "side effect (esp. of a vaccine)"
     }
   ],
   "metadata": {
     "created": "2026-01-14T10:37:17Z",
-    "modified": "2026-04-13T02:39:53Z",
+    "modified": "2026-09-02T04:01:06Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

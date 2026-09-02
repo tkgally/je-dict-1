@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "16037_uchiiwai_ex1",
-      "japanese": "{出産|しゅっさん}の{内祝|うちいわ}いを{贈|おく}った。",
+      "japanese": "⟦{出産|しゅっさん}→出産：11734_shussan⟧⟦の→の：09472_no⟧{内祝|うちいわ}い⟦を→を：00422_wo⟧⟦{贈|おく}った→贈る：09862_okuru⟧。",
       "english": "I sent return gifts for the baby shower presents.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16037_uchiiwai_ex2",
-      "japanese": "{内祝|うちいわ}いには{何|なに}を{選|えら}べばいいか{迷|まよ}っている。",
+      "japanese": "{内祝|うちいわ}い⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{何|なに}→何：00498_nani⟧⟦を→を：00422_wo⟧⟦{選|えら}べば→選ぶ：00835_erabu⟧⟦いい→いい：00118_ii⟧⟦か→か：09473_ka⟧⟦{迷|まよ}っている→迷う：02426_mayou⟧。",
       "english": "I'm unsure what to choose for the return gifts.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16037_uchiiwai_ex3",
-      "japanese": "{結婚|けっこん}のお{祝|いわ}いをいただいたので、{内祝|うちいわ}いとして{半額|はんがく}ほどの{品物|しなもの}を{用意|ようい}した。",
+      "japanese": "⟦{結婚|けっこん}→結婚：02514_kekkon⟧⟦の→の：09472_no⟧⟦お{祝|いわ}い→お祝い：01339_oiwai⟧⟦を→を：00422_wo⟧⟦いただいた→いただく：01326_itadaku⟧⟦の→の：09472_no⟧で、{内祝|うちいわ}い⟦として→として：06802_toshite⟧⟦{半額|はんがく}→半額：09546_hangaku⟧ほど⟦の→の：09472_no⟧⟦{品物|しなもの}→品物：00886_shinamono⟧⟦を→を：00422_wo⟧⟦{用意|ようい}した→用意する：22428_youisuru⟧。",
       "english": "Since I received wedding gifts, I prepared return gifts worth about half the value.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\n{内祝|うちいわ}い originally meant a celebration within the family ({内|うち} = within), but in modern usage it almost always refers to the return gift given to those who sent congratulatory gifts.\n\nCOMMON COLLOCATIONS:\n- {出産|しゅっさん}{内祝|うちいわ}い (return gift for birth congratulations)\n- {結婚|けっこん}{内祝|うちいわ}い (return gift for wedding congratulations)\n- {快気|かいき}{内祝|うちいわ}い (return gift after recovery from illness)\n- {内祝|うちいわ}いを{贈|おく}る (to send a return gift)\n\nCULTURE:\nThe standard practice is to give a return gift worth approximately half ({半返|はんがえ}し) to one-third of the value of the gift received. Popular items include sweets, towels, tableware, and catalogue gifts. The gift is typically accompanied by a のし (decorative wrapper) bearing the words {内祝|うちいわ}い.",
+  "notes": "USAGE:\n{内祝|うちいわ}い originally meant a celebration within the family (⟦{内|うち}→内：01328_uchi⟧ = within), but in modern usage it almost always refers to the return gift given to those who sent congratulatory gifts.\n\nCOMMON COLLOCATIONS:\n- ⟦{出産|しゅっさん}→出産：11734_shussan⟧{内祝|うちいわ}い (return gift for birth congratulations)\n- ⟦{結婚|けっこん}→結婚：02514_kekkon⟧{内祝|うちいわ}い (return gift for wedding congratulations)\n- {快気|かいき}{内祝|うちいわ}い (return gift after recovery from illness)\n- {内祝|うちいわ}い⟦を→を：00422_wo⟧⟦{贈|おく}る→贈る：09862_okuru⟧ (to send a return gift)\n\nCULTURAL NOTE:\nThe standard practice is to give a return gift worth approximately half ({半返|はんがえ}し) to one-third of the value of the gift received. Popular items include sweets, towels, tableware, and catalogue gifts. The gift is typically accompanied by a のし (decorative wrapper) bearing the words {内祝|うちいわ}い.",
   "cross_references": [
     {
       "type": "related",
@@ -46,18 +52,43 @@
       "reading": "おいわい",
       "headword": "お{祝|いわ}い",
       "label": "celebration, gift"
+    },
+    {
+      "type": "related",
+      "target_id": "08354_okaeshi",
+      "reading": "おかえし",
+      "headword": "お{返|かえ}し",
+      "label": "return gift"
+    },
+    {
+      "type": "related",
+      "target_id": "08356_goshuugi",
+      "reading": "ごしゅうぎ",
+      "headword": "ご{祝儀|しゅうぎ}",
+      "label": "congratulatory gift money"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20278_henreihin",
+      "reading": "へんれいひん",
+      "headword": "{返礼品|へんれいひん}",
+      "label": "return gift"
     }
   ],
   "metadata": {
     "created": "2026-03-09T08:40:25Z",
-    "modified": "2026-05-02T10:22:31Z",
+    "modified": "2026-09-02T04:01:43Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

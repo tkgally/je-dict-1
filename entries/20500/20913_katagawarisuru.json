@@ -3,7 +3,7 @@
   "headword": "{肩代|かたが}わりする",
   "reading": "かたがわりする",
   "romaji": "katagawarisuru",
-  "part_of_speech": "verb",
+  "part_of_speech": "suru verb",
   "gloss": "to take over (a burden, debt, responsibility)",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "20913_katagawarisuru_ex1",
-      "japanese": "{借金|しゃっきん}を{肩代|かたが}わりする。",
+      "japanese": "⟦{借金|しゃっきん}→借金：03203_shakkin⟧⟦を→を：00422_wo⟧{肩代|かたが}わりする。",
       "english": "To take over someone's debt.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "20913_katagawarisuru_ex2",
-      "japanese": "{親|おや}が{息子|むすこ}のローンを{肩代|かたが}わりした。",
+      "japanese": "⟦{親|おや}→親：01357_oya⟧⟦が→が：00051_ga⟧⟦{息子|むすこ}→息子：00799_musuko⟧⟦の→の：09472_no⟧⟦ローン→ローン：06579_roon⟧⟦を→を：00422_wo⟧{肩代|かたが}わりした。",
       "english": "The parents took over their son's loan.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "20913_katagawarisuru_ex3",
-      "japanese": "{費用|ひよう}を{会社|かいしゃ}が{肩代|かたが}わりしてくれることになった。",
+      "japanese": "⟦{費用|ひよう}→費用：03588_hiyou⟧⟦を→を：00422_wo⟧⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦が→が：00051_ga⟧{肩代|かたが}わりして⟦くれる→くれる：00724_kureru⟧ことになった。",
       "english": "The company agreed to cover the costs on my behalf.",
       "sense_numbers": [
         1
@@ -44,9 +44,32 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {肩|かた} (shoulder) + {代|か}わり (substitution) + する. The image is of placing someone else's burden on your own shoulders. Most commonly used for financial obligations but can extend to any responsibility.\n\nCOMMON COLLOCATIONS:\n- {借金|しゃっきん}を{肩代|かたが}わりする: to take over a debt\n- {費用|ひよう}を{肩代|かたが}わりする: to cover costs (for someone)\n- {責任|せきにん}を{肩代|かたが}わりする: to take over a responsibility\n- {損失|そんしつ}を{肩代|かたが}わりする: to absorb a loss\n\nSIMILAR WORDS:\n- {立|た}て{替|か}える: to pay on someone's behalf (with expectation of repayment)\n- {引|ひ}き{受|う}ける: to take on, to undertake — more general, not specifically about burdens\n- {負担|ふたん}する: to bear (a cost) — neutral, doesn't imply taking it from someone else",
+  "notes": "Composed of ⟦{肩|かた}→肩：02192_kata⟧ (shoulder) + ⟦{代|か}わり→代わり：01296_kawari⟧ (substitution) + ⟦する→する：00392_suru⟧. The image is of placing someone else's burden on your own shoulders. Most commonly used for financial obligations but can extend to any responsibility.\n\nCOMMON COLLOCATIONS:\n- ⟦{借金|しゃっきん}→借金：03203_shakkin⟧⟦を→を：00422_wo⟧{肩代|かたが}わりする: to take over a debt\n- ⟦{費用|ひよう}→費用：03588_hiyou⟧⟦を→を：00422_wo⟧{肩代|かたが}わりする: to cover costs (for someone)\n- ⟦{責任|せきにん}→責任：03298_sekinin⟧⟦を→を：00422_wo⟧{肩代|かたが}わりする: to take over a responsibility\n- ⟦{損失|そんしつ}→損失：04875_sonshitsu⟧⟦を→を：00422_wo⟧{肩代|かたが}わりする: to absorb a loss\n\nSIMILAR WORDS:\n- ⟦{立|た}て{替|か}える→立て替える：05759_tatekaeru⟧: to pay on someone's behalf (with expectation of repayment)\n- ⟦{引|ひ}き{受|う}ける→引き受ける：03140_hikiukeru⟧: to take on, to undertake — more general, not specifically about burdens\n- ⟦{負担|ふたん}→負担：09752_futan⟧⟦する→する：00392_suru⟧: to bear (a cost) — neutral, doesn't imply taking it from someone else",
   "conjugation_type": "suru",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05759_tatekaeru",
+      "reading": "たてかえる",
+      "headword": "{立|た}て{替|か}える",
+      "label": "to pay on someone's behalf"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03140_hikiukeru",
+      "reading": "ひきうける",
+      "headword": "{引|ひ}き{受|う}ける",
+      "label": "to take on, to undertake"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09752_futan",
+      "reading": "ふたん",
+      "headword": "{負担|ふたん}",
+      "label": "to bear"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,10 +82,11 @@
         "action",
         "finance"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-03-30T20:15:20Z",
-    "modified": "2026-03-30T20:15:20Z"
+    "modified": "2026-09-02T04:02:01Z"
   },
   "conjugation": {
     "type": "suru",

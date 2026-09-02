@@ -15,40 +15,80 @@
   "examples": [
     {
       "id": "22388_seiku_ex1",
-      "japanese": "これは{有名|ゆうめい}な{成句|せいく}だ。",
+      "japanese": "⟦これ→これ：00963_kore⟧⟦は→は：00079_ha⟧⟦{有名|ゆうめい}→有名：01106_yuumei⟧な{成句|せいく}だ。",
       "english": "This is a famous set phrase.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "22388_seiku_ex2",
-      "japanese": "{辞書|じしょ}で{成句|せいく}を{調|しら}べる。",
+      "japanese": "⟦{辞書|じしょ}→辞書：04707_jisho⟧⟦で→で：00502_de⟧{成句|せいく}⟦を→を：00422_wo⟧⟦{調|しら}べる→調べる：01213_shiraberu⟧。",
       "english": "To look up set phrases in a dictionary.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "22388_seiku_ex3",
-      "japanese": "「{七転|ななころ}び{八起|やお}き」は{日本語|にほんご}の{代表的|だいひょうてき}な{成句|せいく}の{一|ひと}つだ。",
+      "japanese": "「⟦{七転|ななころ}び{八起|やお}き→七転び八起き：06141_nanakorobiyaoki⟧」⟦は→は：00079_ha⟧⟦{日本語|にほんご}→日本語：00614_nihongo⟧⟦の→の：09472_no⟧⟦{代表的|だいひょうてき}→代表的：05670_daihyouteki⟧な{成句|せいく}⟦の→の：09472_no⟧⟦{一|ひと}つ→一つ：02948_hitotsu⟧だ。",
       "english": "\"Fall seven times, get up eight\" is one of the most representative set phrases in Japanese.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A linguistic term for expressions whose form is conventionally fixed. Covers idioms, proverbs, and other set phrases. The word is used in language study, dictionaries, and discussions about language.\n\nCOMMON COLLOCATIONS:\n- {成句|せいく}を{使|つか}う: to use a set phrase\n- {成句|せいく}を{覚|おぼ}える: to learn set phrases\n- {慣用|かんよう}{成句|せいく}: idiomatic set phrase\n- {英語|えいご}の{成句|せいく}: English idioms\n\nSIMILAR WORDS:\n- {慣用句|かんようく}: idiom — specifically an idiomatic expression whose meaning differs from the literal words\n- {諺|ことわざ}: proverb — a traditional saying conveying wisdom or a lesson\n- {四字熟語|よじじゅくご}: four-character compound — a specific type of fixed expression using exactly four kanji\n- {決|き}まり{文句|もんく}: stock phrase / set expression — a routine phrase used in specific social situations\n\nUSAGE NOTE:\n{成句|せいく} is a broader category that encompasses {慣用句|かんようく}, {諺|ことわざ}, and other types of fixed expressions. In dictionaries, entries labeled {成句|せいく} indicate that the expression is a fixed combination.",
+  "notes": "A linguistic term for expressions whose form is conventionally fixed. Covers idioms, proverbs, and other set phrases. The word is used in language study, dictionaries, and discussions about language.\n\nCOMMON COLLOCATIONS:\n- {成句|せいく}⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧: to use a set phrase\n- {成句|せいく}⟦を→を：00422_wo⟧⟦{覚|おぼ}える→覚える：00739_oboeru⟧: to learn set phrases\n- ⟦{慣用|かんよう}→慣用：13037_kanyou⟧{成句|せいく}: idiomatic set phrase\n- ⟦{英語|えいご}→英語：02274_eigo⟧⟦の→の：09472_no⟧{成句|せいく}: English idioms\n\nSIMILAR WORDS:\n- ⟦{慣用句|かんようく}→慣用句：15890_kanyouku⟧: idiom — specifically an idiomatic expression whose meaning differs from the literal words\n- ⟦{諺|ことわざ}→諺：02765_kotowaza⟧: proverb — a traditional saying conveying wisdom or a lesson\n- ⟦{四字熟語|よじじゅくご}→四字熟語：15663_yojijukugo⟧: four-character compound — a specific type of fixed expression using exactly four kanji\n- ⟦{決|き}まり{文句|もんく}→決まり文句：21431_kimarimonku⟧: stock phrase / set expression — a routine phrase used in specific social situations\n\nUSAGE:\n{成句|せいく} is a broader category that encompasses ⟦{慣用句|かんようく}→慣用句：15890_kanyouku⟧, ⟦{諺|ことわざ}→諺：02765_kotowaza⟧, and other types of fixed expressions. In dictionaries, entries labeled {成句|せいく} indicate that the expression is a fixed combination.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15890_kanyouku",
+      "reading": "かんようく",
+      "headword": "{慣用句|かんようく}",
+      "label": "idiom"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02765_kotowaza",
+      "reading": "ことわざ",
+      "headword": "{諺|ことわざ}",
+      "label": "proverb"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15663_yojijukugo",
+      "reading": "よじじゅくご",
+      "headword": "{四字熟語|よじじゅくご}",
+      "label": "four-character compound"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21431_kimarimonku",
+      "reading": "きまりもんく",
+      "headword": "{決|き}まり{文句|もんく}",
+      "label": "stock phrase / set expression"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["language"]
+      "semantic": [
+        "language"
+      ]
     },
     "created": "2026-04-05T20:15:12Z",
-    "modified": "2026-04-05T20:15:12Z"
+    "modified": "2026-09-02T04:02:07Z"
   }
 }

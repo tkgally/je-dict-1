@@ -2,7 +2,7 @@
   "id": "00404_teru",
   "headword": "{照|て}る",
   "reading": "てる",
-  "part_of_speech": "godan verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to shine",
   "conjugation": {
     "type": "godan",
@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "00404_teru_ex1",
-      "japanese": "⟦{太陽|たいよう}→太陽：03398_taiyou⟧⟦が→が：00051_ga⟧{照|て}っている。",
+      "japanese": "⟦{太陽|たいよう}→太陽：03398_taiyou⟧⟦が→が：00051_ga⟧{照|て}って⟦いる→いる：00495_iru⟧。",
       "english": "The sun is shining.",
       "notes": null,
       "has_audio": false,
@@ -134,10 +134,18 @@
     }
   ],
   "notes": "{照|て}る is an intransitive verb meaning to shine (of the sun, etc.).\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n- Pair: ⟦{照|て}らす→照らす：04669_terasu⟧ (transitive, to illuminate)\n\nASPECT (ている):\n- {照|て}って⟦いる→いる：00495_iru⟧ means 'is shining' (ongoing state)\n\nCOMMON PATTERNS:\n- ⟦{太陽|たいよう}→太陽：03398_taiyou⟧⟦が→が：00051_ga⟧{照|て}る: the sun shines\n- ⟦{日|ひ}→日：02249_hi⟧⟦が→が：00051_ga⟧{照|て}る: the sun shines\n- ⟦{照|て}り{返|かえ}す→照り返す：28906_terikaesu⟧: to reflect (light)\n\nWEATHER EXPRESSION:\n{照|て}ったり⟦{降|ふ}ったり→降る：00839_furu⟧ = sometimes sunny, sometimes rainy (changeable weather)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19550_teritsukeru",
+      "reading": "てりつける",
+      "headword": "{照|て}りつける",
+      "label": "to shine down intensely"
+    }
+  ],
   "metadata": {
     "created": "2026-01-13T00:40:50Z",
-    "modified": "2026-08-08T09:25:02Z",
+    "modified": "2026-09-02T04:00:57Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

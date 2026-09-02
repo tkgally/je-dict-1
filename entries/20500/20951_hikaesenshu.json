@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "20951_hikaesenshu_ex1",
-      "japanese": "{控|ひか}え{選手|せんしゅ}として{待機|たいき}する。",
+      "japanese": "{控|ひか}え{選手|せんしゅ}⟦として→として：06802_toshite⟧⟦{待機|たいき}→待機：09677_taiki⟧⟦する→する：00392_suru⟧。",
       "english": "To stand by as a substitute player.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "20951_hikaesenshu_ex2",
-      "japanese": "{怪我|けが}をした{選手|せんしゅ}に{代|か}わって{控|ひか}え{選手|せんしゅ}が{出場|しゅつじょう}した。",
+      "japanese": "{怪我|けが}⟦を→を：00422_wo⟧⟦した→する：00392_suru⟧⟦{選手|せんしゅ}→選手：03823_senshu⟧⟦に→に：00314_ni⟧⟦{代|か}わって→代わる：11718_kawaru⟧{控|ひか}え{選手|せんしゅ}⟦が→が：00051_ga⟧⟦{出場|しゅつじょう}した→出場する：20348_shutsujousuru⟧。",
       "english": "A substitute player entered the game in place of the injured player.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "20951_hikaesenshu_ex3",
-      "japanese": "{長|なが}い{間|あいだ}{控|ひか}え{選手|せんしゅ}だったが、{今|こん}シーズンからレギュラーになった。",
+      "japanese": "⟦{長|なが}い→長い：00491_nagai⟧⟦{間|あいだ}→間：00914_aida⟧{控|ひか}え{選手|せんしゅ}だった⟦が→が：00051_ga⟧、⟦{今|こん}→今〜：03952_kon⟧⟦シーズン→シーズン：10944_shiizun⟧⟦から→から：00504_kara⟧⟦レギュラー→レギュラー：11396_regyuraa⟧になった。",
       "english": "I was a bench player for a long time, but I became a starter this season.",
       "sense_numbers": [
         1
@@ -43,8 +43,45 @@
       "notes": null
     }
   ],
-  "notes": "Common in sports coverage. The word {控|ひか}え comes from {控|ひか}える (to wait, to hold back), reflecting the idea of waiting in reserve.\n\nCOMMON COLLOCATIONS:\n- {控|ひか}え{選手|せんしゅ}に{回|まわ}る: to be moved to the bench\n- {控|ひか}え{選手|せんしゅ}として{登録|とうろく}する: to be registered as a reserve\n- {控|ひか}え{選手|せんしゅ}が{出場|しゅつじょう}する: a substitute enters the game\n\nSIMILAR WORDS:\n- レギュラー: regular, starter — a player in the starting lineup\n- ベンチ{入|い}り: making the bench — being named to the game-day roster\n- {補欠|ほけつ}: substitute, alternate — broader term not limited to sports\n- {交代選手|こうたいせんしゅ}: replacement player — emphasizes the act of switching in",
+  "notes": "Common in sports coverage. The word ⟦{控|ひか}え→控える：10054_hikaeru⟧ comes from ⟦{控|ひか}える→控える：10054_hikaeru⟧ (to wait, to hold back), reflecting the idea of waiting in reserve.\n\nCOMMON COLLOCATIONS:\n- {控|ひか}え{選手|せんしゅ}⟦に→に：00314_ni⟧⟦{回|まわ}る→回る：01150_mawaru⟧: to be moved to the bench\n- {控|ひか}え{選手|せんしゅ}⟦として→として：06802_toshite⟧⟦{登録|とうろく}する→登録する：25227_tourokusuru⟧: to be registered as a reserve\n- {控|ひか}え{選手|せんしゅ}⟦が→が：00051_ga⟧⟦{出場|しゅつじょう}する→出場する：20348_shutsujousuru⟧: a substitute enters the game\n\nSIMILAR WORDS:\n- ⟦レギュラー→レギュラー：11396_regyuraa⟧: regular, starter — a player in the starting lineup\n- ⟦ベンチ{入|い}り→ベンチ入り：26063_benchiiri⟧: making the bench — being named to the game-day roster\n- ⟦{補欠|ほけつ}→補欠：16029_hoketsu⟧: substitute, alternate — broader term not limited to sports\n- ⟦{交代選手|こうたいせんしゅ}→交代選手：26414_koutaisenshu⟧: replacement player — emphasizes the act of switching in",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11396_regyuraa",
+      "reading": "れぎゅらー",
+      "headword": "レギュラー",
+      "label": "regular, starter"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26063_benchiiri",
+      "reading": "べんちいり",
+      "headword": "ベンチ{入|い}り",
+      "label": "making the bench"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16029_hoketsu",
+      "reading": "ほけつ",
+      "headword": "{補欠|ほけつ}",
+      "label": "substitute, alternate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26414_koutaisenshu",
+      "reading": "こうたいせんしゅ",
+      "headword": "{交代|こうたい}{選手|せんしゅ}",
+      "label": "replacement player"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06589_sutamen",
+      "reading": "すためん",
+      "headword": "スタメン",
+      "label": "starting lineup"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -58,6 +95,6 @@
       ]
     },
     "created": "2026-03-30T22:20:11Z",
-    "modified": "2026-03-30T22:20:11Z"
+    "modified": "2026-09-02T04:02:01Z"
   }
 }

@@ -3,7 +3,7 @@
   "id": "13584_bakugeki",
   "headword": "{爆撃|ばくげき}",
   "reading": "ばくげき",
-  "part_of_speech": "noun; verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "bombing, bombardment",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "13584_bakugeki_ex1",
-      "japanese": "{都市|とし}が{爆撃|ばくげき}を{受|う}けた。",
+      "japanese": "⟦{都市|とし}→都市：01477_toshi⟧⟦が→が：00051_ga⟧{爆撃|ばくげき}⟦を→を：00422_wo⟧⟦{受|う}けた→受ける：01215_ukeru⟧。",
       "english": "The city was bombed.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "13584_bakugeki_ex2",
-      "japanese": "{爆撃|ばくげき}により{多|おお}くの{建物|たてもの}が{破壊|はかい}された。",
+      "japanese": "{爆撃|ばくげき}⟦に→に：00314_ni⟧⟦より→より：09476_yori⟧{多|おお}く⟦の→の：09472_no⟧⟦{建物|たてもの}→建物：01458_tatemono⟧⟦が→が：00051_ga⟧⟦{破壊|はかい}→破壊：13678_hakai⟧⟦された→する：00392_suru⟧。",
       "english": "Many buildings were destroyed by the bombing.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "13584_bakugeki_ex3",
-      "japanese": "{戦時中|せんじちゅう}、この{地域|ちいき}は{何度|なんど}も{爆撃|ばくげき}を{受|う}け、{町|まち}は{焼|や}け{野原|のはら}になった。",
+      "japanese": "⟦{戦時中|せんじちゅう}→戦時中：28629_senjichuu⟧、⟦この→この：00962_kono⟧⟦{地域|ちいき}→地域：01461_chiiki⟧⟦は→は：00079_ha⟧⟦{何度|なんど}→何度：17592_nando⟧⟦も→も：00484_mo⟧{爆撃|ばくげき}⟦を→を：00422_wo⟧⟦{受|う}け→受ける：01215_ukeru⟧、⟦{町|まち}→町：00613_machi⟧⟦は→は：00079_ha⟧⟦{焼|や}け→焼ける：01138_yakeru⟧⟦{野原|のはら}→野原：14417_nohara⟧になった。",
       "english": "During the war, this area was bombed repeatedly and the town was reduced to a burned wasteland.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "FORMATION:\n{爆|ばく} (explode) + {撃|げき} (strike, attack). Can also function as a する verb: {爆撃|ばくげき}する (to bomb).\n\nSIMILAR WORDS:\n- {空襲|くうしゅう}: air raid — focuses on the aerial nature of the attack\n- {爆撃|ばくげき}: bombing — specifically emphasizes the use of bombs\n- {砲撃|ほうげき}: bombardment with artillery, not from aircraft\n\nCOMMON COLLOCATIONS:\n- {爆撃|ばくげき}を{受|う}ける: be bombed\n- {爆撃|ばくげき}する: to bomb\n- {爆撃機|ばくげきき}: bomber (aircraft)\n- {無差別|むさべつ}{爆撃|ばくげき}: indiscriminate bombing",
+  "notes": "FORMS:\n{爆|ばく} (explode) + {撃|げき} (strike, attack). Can also function as a ⟦する→する：00392_suru⟧ verb: {爆撃|ばくげき}⟦する→する：00392_suru⟧ (to bomb).\n\nSIMILAR WORDS:\n- ⟦{空襲|くうしゅう}→空襲：19775_kuushuu⟧: air raid — focuses on the aerial nature of the attack\n- {爆撃|ばくげき}: bombing — specifically emphasizes the use of bombs\n- ⟦{砲撃|ほうげき}→砲撃：19779_hougeki⟧: bombardment with artillery, not from aircraft\n\nCOMMON COLLOCATIONS:\n- {爆撃|ばくげき}⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧: be bombed\n- {爆撃|ばくげき}⟦する→する：00392_suru⟧: to bomb\n- {爆撃機|ばくげきき}: bomber (aircraft)\n- ⟦{無差別|むさべつ}→無差別：13492_musabetsu⟧{爆撃|ばくげき}: indiscriminate bombing",
   "cross_references": [
     {
       "type": "synonym",
@@ -149,11 +149,18 @@
       "reading": "ほうげき",
       "headword": "{砲撃|ほうげき}",
       "label": "artillery bombardment"
+    },
+    {
+      "type": "related",
+      "target_id": "19783_kuubaku",
+      "reading": "くうばく",
+      "headword": "{空爆|くうばく}",
+      "label": "aerial bombing"
     }
   ],
   "metadata": {
     "created": "2026-02-26T09:46:50Z",
-    "modified": "2026-04-29T05:15:51Z",
+    "modified": "2026-09-02T04:01:33Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

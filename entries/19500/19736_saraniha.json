@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "19736_saraniha_ex1",
-      "japanese": "{成績|せいせき}が{上|あ}がり、{更|さら}には{自信|じしん}もついた。",
+      "japanese": "⟦{成績|せいせき}→成績：03379_seiseki⟧⟦が→が：00051_ga⟧⟦{上|あ}がり→上がる：00615_agaru⟧、{更|さら}には⟦{自信|じしん}→自信：10143_jishin⟧⟦も→も：00484_mo⟧ついた。",
       "english": "My grades went up, and furthermore, I gained confidence.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "19736_saraniha_ex2",
-      "japanese": "{雨|あめ}が{降|ふ}り、{更|さら}には{風|かぜ}も{強|つよ}くなった。",
+      "japanese": "⟦{雨|あめ}→雨：00583_ame⟧⟦が→が：00051_ga⟧⟦{降|ふ}り→降る：00839_furu⟧、{更|さら}には⟦{風|かぜ}→風：00641_kaze⟧⟦も→も：00484_mo⟧⟦{強|つよ}く→強い：00820_tsuyoi⟧⟦なった→なる：01970_naru⟧。",
       "english": "It rained, and on top of that, the wind picked up.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "19736_saraniha_ex3",
-      "japanese": "この{地域|ちいき}は{交通|こうつう}の{便|べん}がよく、{更|さら}には{自然|しぜん}も{豊|ゆた}かで{住|す}みやすい。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{地域|ちいき}→地域：01461_chiiki⟧⟦は→は：00079_ha⟧⟦{交通|こうつう}→交通：01584_koutsuu⟧⟦の→の：09472_no⟧⟦{便|べん}→便：26147_ben⟧⟦が→が：00051_ga⟧⟦よく→よく：00601_yoku⟧、{更|さら}には⟦{自然|しぜん}→自然：01423_shizen⟧⟦も→も：00484_mo⟧⟦{豊|ゆた}か→豊か：03654_yutaka⟧で⟦{住|す}み→住む：00673_sumu⟧やすい。",
       "english": "This area has good transportation, and moreover, it is rich in nature and easy to live in.",
       "sense_numbers": [
         1
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {更|さら}に (further, additionally) and the topic particle は, which adds emphasis and a sense of building upon what came before. Often used to introduce a point that escalates in importance.\n\nSIMILAR WORDS:\n- {更|さら}に — additionally; without は, it simply adds more without the escalating nuance\n- そのうえ — on top of that; similar escalation but slightly more colloquial\n- しかも — moreover; emphasizes that the additional fact is surprising or noteworthy\n- おまけに — on top of that; more casual, often with a negative or ironic tone\n- {加|くわ}えて — in addition; more formal, used in structured arguments\n\nREGISTER:\nNeutral to slightly formal. Common in both written and spoken Japanese, especially in explanations, reports, and presentations.",
+  "notes": "Composed of ⟦{更|さら}に→更に：03817_sarani⟧ (further, additionally) and the topic particle ⟦は→は：00079_ha⟧, which adds emphasis and a sense of building upon what came before. Often used to introduce a point that escalates in importance.\n\nSIMILAR WORDS:\n- ⟦{更|さら}に→更に：03817_sarani⟧ — additionally; without ⟦は→は：00079_ha⟧, it simply adds more without the escalating nuance\n- ⟦そのうえ→そのうえ：00381_sonoue⟧ — on top of that; similar escalation but slightly more colloquial\n- ⟦しかも→しかも：03818_shikamo⟧ — moreover; emphasizes that the additional fact is surprising or noteworthy\n- ⟦おまけ→おまけ：08160_omake⟧⟦に→に：00314_ni⟧ — on top of that; more casual, often with a negative or ironic tone\n- ⟦{加|くわ}えて→加える：01941_kuwaeru⟧ — in addition; more formal, used in structured arguments\n\nREGISTER:\nNeutral to slightly formal. Common in both written and spoken Japanese, especially in explanations, reports, and presentations.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00381_sonoue",
+      "reading": "そのうえ",
+      "headword": "そのうえ",
+      "label": "on top of that"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03818_shikamo",
+      "reading": "しかも",
+      "headword": "しかも",
+      "label": "moreover"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21779_omakeni",
+      "reading": "おまけに",
+      "headword": "おまけに",
+      "label": "on top of that"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21781_kuwaete",
+      "reading": "くわえて",
+      "headword": "{加|くわ}えて",
+      "label": "in addition"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +90,6 @@
       ]
     },
     "created": "2026-03-26T15:18:58Z",
-    "modified": "2026-07-27T12:42:09Z"
+    "modified": "2026-09-02T04:01:57Z"
   }
 }

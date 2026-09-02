@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "07664_oomaka_ex1",
-      "japanese": "まず{大|おお}まかな{計画|けいかく}を{立|た}てよう。",
+      "japanese": "⟦まず→まず：00796_mazu⟧{大|おお}まかな⟦{計画|けいかく}→計画：01172_keikaku⟧⟦を→を：00422_wo⟧⟦{立|た}てよう→立てる：01196_tateru⟧。",
       "english": "Let's start by making a rough plan.",
       "has_audio": false,
       "sense_numbers": [
@@ -23,7 +23,7 @@
     },
     {
       "id": "07664_oomaka_ex2",
-      "japanese": "{大|おお}まかに{言|い}うと、そういうことだ。",
+      "japanese": "{大|おお}まか⟦に→に：00314_ni⟧⟦{言|い}う→言う：00515_iu⟧⟦と→と：00512_to⟧、⟦そういう→そういう：09579_souiu⟧ことだ。",
       "english": "Roughly speaking, that's what it's about.",
       "has_audio": false,
       "sense_numbers": [
@@ -32,7 +32,7 @@
     },
     {
       "id": "07664_oomaka_ex3",
-      "japanese": "{大|おお}まかな{見積|みつも}もりで{百万円|ひゃくまんえん}くらいかかる。",
+      "japanese": "{大|おお}まかな{見積|みつも}もり⟦で→で：00502_de⟧{百万円|ひゃくまんえん}くらい⟦かかる→かかる：00711_kakaru⟧。",
       "english": "A rough estimate would be about one million yen.",
       "has_audio": false,
       "sense_numbers": [
@@ -40,10 +40,33 @@
       ]
     }
   ],
-  "notes": "{大|おお}まか is a na-adjective meaning rough, approximate, or lacking in fine detail. It describes giving only a general outline without precise specifics.\n\nFORMS:\n- {大|おお}まかな〜: modifier (a rough ~)\n- {大|おお}まかに: adverbial form (roughly, broadly)\n\nCOMMON COLLOCATIONS:\n- {大|おお}まかな{計画|けいかく}: rough plan\n- {大|おお}まかな{見積|みつも}もり: rough estimate\n- {大|おお}まかに{言|い}うと: roughly speaking\n- {大|おお}まかな{流|なが}れ: general flow/outline\n- {大|おお}まかな{説明|せつめい}: broad explanation\n\nSIMILAR WORDS:\n- ざっくり: roughly, loosely (casual)\n- {概|おおむ}ね: generally, on the whole\n- {大体|だいたい}: roughly, approximately\n- {漠然|ばくぜん}と: vaguely (more negative nuance)\n\nUSAGE:\n{大|おお}まか is neutral and commonly used in business and everyday contexts when precision is not needed or when starting with a broad overview.",
+  "notes": "{大|おお}まか is a na-adjective meaning rough, approximate, or lacking in fine detail. It describes giving only a general outline without precise specifics.\n\nFORMS:\n- {大|おお}まかな〜: modifier (a rough ~)\n- {大|おお}まか⟦に→に：00314_ni⟧: adverbial form (roughly, broadly)\n\nCOMMON COLLOCATIONS:\n- {大|おお}まかな⟦{計画|けいかく}→計画：01172_keikaku⟧: rough plan\n- {大|おお}まかな{見積|みつも}もり: rough estimate\n- {大|おお}まか⟦に→に：00314_ni⟧⟦{言|い}う→言う：00515_iu⟧⟦と→と：00512_to⟧: roughly speaking\n- {大|おお}まかな⟦{流|なが}れ→流れ：03504_nagare⟧: general flow/outline\n- {大|おお}まかな⟦{説明|せつめい}→説明：01449_setsumei⟧: broad explanation\n\nSIMILAR WORDS:\n- ⟦ざっくり→ざっくり：05655_zakkuri⟧: roughly, loosely (casual)\n- ⟦{概|おおむ}ね→概ね：05732_oomune⟧: generally, on the whole\n- {大体|だいたい}: roughly, approximately\n- ⟦{漠然|ばくぜん}→漠然：09120_bakuzen⟧⟦と→と：00512_to⟧: vaguely (more negative nuance)\n\nUSAGE:\n{大|おお}まか is neutral and commonly used in business and everyday contexts when precision is not needed or when starting with a broad overview.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05732_oomune",
+      "reading": "おおむね",
+      "headword": "{概|おおむ}ね",
+      "label": "generally, on the whole"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18208_bakuzento",
+      "reading": "ばくぜんと",
+      "headword": "{漠然|ばくぜん}と",
+      "label": "vaguely"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22979_gaikatsuteki",
+      "reading": "がいかつてき",
+      "headword": "{概括的|がいかつてき}",
+      "label": "general"
+    }
+  ],
   "metadata": {
     "created": "2026-01-20T14:05:39Z",
-    "modified": "2026-06-19T21:43:28Z",
+    "modified": "2026-09-02T04:01:12Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -51,6 +74,7 @@
         "adjective-na"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "descriptive",
         "quantity"

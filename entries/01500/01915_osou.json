@@ -168,11 +168,40 @@
       ]
     }
   ],
-  "notes": "{襲|おそ}う is a transitive godan verb meaning to attack, assault, or strike.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- Takes ⟦を→を：00422_wo⟧ for the target: X⟦を→を：00422_wo⟧{襲|おそ}う\n\nUSAGE CONTEXTS:\n1. Physical attacks: ⟦{敵|てき}→敵：03546_teki⟧⟦を→を：00422_wo⟧{襲|おそ}う (attack the enemy)\n2. Natural disasters: ⟦{台風|たいふう}→台風：01455_taifuu⟧⟦が→が：00051_ga⟧⟦{町|まち}→町：00613_machi⟧⟦を→を：00422_wo⟧{襲|おそ}う (typhoon strikes the town)\n3. Emotions/feelings: ⟦{不安|ふあん}→不安：00836_fuan⟧⟦が→が：00051_ga⟧{襲|おそ}う (anxiety strikes)\n\nPASSIVE FORM (COMMON):\n- X⟦に→に：00314_ni⟧{襲|おそ}われる: to be attacked/struck by X\n- ⟦{眠気|ねむけ}→眠気：06534_nemuke⟧⟦に→に：00314_ni⟧{襲|おそ}われる: to be overcome by drowsiness\n- ⟦{恐怖|きょうふ}→恐怖：02585_kyoufu⟧⟦に→に：00314_ni⟧{襲|おそ}われる: to be seized by fear\n\nRELATED:\n- ⟦{襲撃|しゅうげき}→襲撃：14127_shuugeki⟧: attack, raid (noun)\n- ⟦{奇襲|きしゅう}→奇襲：12193_kishuu⟧: surprise attack",
-  "cross_references": [],
+  "notes": "{襲|おそ}う is a transitive godan verb meaning to attack, assault, or strike.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- Takes ⟦を→を：00422_wo⟧ for the target: X⟦を→を：00422_wo⟧{襲|おそ}う\n\nUSAGE:\n1. Physical attacks: ⟦{敵|てき}→敵：03546_teki⟧⟦を→を：00422_wo⟧{襲|おそ}う (attack the enemy)\n2. Natural disasters: ⟦{台風|たいふう}→台風：01455_taifuu⟧⟦が→が：00051_ga⟧⟦{町|まち}→町：00613_machi⟧⟦を→を：00422_wo⟧{襲|おそ}う (typhoon strikes the town)\n3. Emotions/feelings: ⟦{不安|ふあん}→不安：00836_fuan⟧⟦が→が：00051_ga⟧{襲|おそ}う (anxiety strikes)\n\nPASSIVE FORM (COMMON):\n- X⟦に→に：00314_ni⟧{襲|おそ}われる: to be attacked/struck by X\n- ⟦{眠気|ねむけ}→眠気：06534_nemuke⟧⟦に→に：00314_ni⟧{襲|おそ}われる: to be overcome by drowsiness\n- ⟦{恐怖|きょうふ}→恐怖：02585_kyoufu⟧⟦に→に：00314_ni⟧{襲|おそ}われる: to be seized by fear\n\nRELATED WORDS:\n- ⟦{襲撃|しゅうげき}→襲撃：14127_shuugeki⟧: attack, raid (noun)\n- ⟦{奇襲|きしゅう}→奇襲：12193_kishuu⟧: surprise attack",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "14127_shuugeki",
+      "reading": "しゅうげき",
+      "headword": "{襲撃|しゅうげき}",
+      "label": "attack, raid"
+    },
+    {
+      "type": "related",
+      "target_id": "12193_kishuu",
+      "reading": "きしゅう",
+      "headword": "{奇襲|きしゅう}",
+      "label": "surprise attack"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28386_furikakaru",
+      "reading": "ふりかかる",
+      "headword": "{降|ふ}りかかる",
+      "label": "to befall"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30267_tobikakaru",
+      "reading": "とびかかる",
+      "headword": "{飛|と}び{掛|か}かる",
+      "label": "to pounce on"
+    }
+  ],
   "metadata": {
     "created": "2026-01-09T12:31:17Z",
-    "modified": "2026-05-17T17:14:21Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

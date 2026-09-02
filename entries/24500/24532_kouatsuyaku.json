@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24532_kouatsuyaku_ex1",
-      "japanese": "{毎朝|まいあさ}{降圧薬|こうあつやく}を{飲|の}んでいる。",
+      "japanese": "⟦{毎朝|まいあさ}→毎朝：00966_maiasa⟧{降圧薬|こうあつやく}⟦を→を：00422_wo⟧⟦{飲|の}んでいる→飲む：00322_nomu⟧。",
       "english": "I take blood pressure medication every morning.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24532_kouatsuyaku_ex2",
-      "japanese": "{医師|いし}に{降圧薬|こうあつやく}を{処方|しょほう}された。",
+      "japanese": "⟦{医師|いし}→医師：11851_ishi⟧⟦に→に：00314_ni⟧{降圧薬|こうあつやく}⟦を→を：00422_wo⟧⟦{処方|しょほう}→処方：05976_shohou⟧⟦された→する：00392_suru⟧。",
       "english": "I was prescribed antihypertensive medication by my doctor.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24532_kouatsuyaku_ex3",
-      "japanese": "{降圧薬|こうあつやく}は{自己判断|じこはんだん}でやめてはいけないので、{必|かなら}ず{医師|いし}と{相談|そうだん}してから{服用|ふくよう}を{調整|ちょうせい}するべきだ。",
+      "japanese": "{降圧薬|こうあつやく}⟦は→は：00079_ha⟧{自己判断|じこはんだん}⟦で→で：00502_de⟧⟦やめて→やめる：00909_yameru⟧⟦は→は：00079_ha⟧いけない⟦の→の：09472_no⟧で、⟦{必|かなら}ず→必ず：01249_kanarazu⟧⟦{医師|いし}→医師：11851_ishi⟧⟦と→と：00512_to⟧⟦{相談|そうだん}して→相談する：01845_soudansuru⟧⟦から→から：00504_kara⟧⟦{服用|ふくよう}→服用：15267_fukuyou⟧⟦を→を：00422_wo⟧⟦{調整|ちょうせい}する→調整する：10442_chouseisuru⟧べきだ。",
       "english": "You should not stop taking blood pressure medication on your own, so be sure to consult with your doctor before adjusting your dosage.",
       "sense_numbers": [
         1
@@ -44,19 +44,43 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {降圧|こうあつ} (lowering blood pressure) and {薬|やく} (medicine). Also written as {降圧剤|こうあつざい} with {剤|ざい} instead of {薬|やく}; both are common and interchangeable.\n\nHypertension ({高血圧|こうけつあつ}) is one of the most prevalent health conditions in Japan, and {降圧薬|こうあつやく} is among the most commonly prescribed categories of medication.\n\nCOMMON COLLOCATIONS:\n- {降圧薬|こうあつやく}を{服用|ふくよう}する: to take antihypertensive medication\n- {降圧薬|こうあつやく}を{処方|しょほう}する: to prescribe blood pressure medication\n- {降圧薬|こうあつやく}の{副作用|ふくさよう}: side effects of blood pressure medication\n- {降圧薬|こうあつやく}の{種類|しゅるい}: types of antihypertensives\n\nRELATED TERMS:\n- {降圧剤|こうあつざい}: antihypertensive (alternative form with {剤|ざい})\n- {高血圧|こうけつあつ}: high blood pressure; hypertension\n- {血圧|けつあつ}: blood pressure\n- {処方薬|しょほうやく}: prescription medication",
+  "notes": "A compound of {降圧|こうあつ} (lowering blood pressure) and {薬|やく} (medicine). Also written as {降圧剤|こうあつざい} with ⟦{剤|ざい}→〜剤：30790_zai⟧ instead of {薬|やく}; both are common and interchangeable.\n\nHypertension (⟦{高血圧|こうけつあつ}→高血圧：04415_kouketsuatsu⟧) is one of the most prevalent health conditions in Japan, and {降圧薬|こうあつやく} is among the most commonly prescribed categories of medication.\n\nCOMMON COLLOCATIONS:\n- {降圧薬|こうあつやく}⟦を→を：00422_wo⟧⟦{服用|ふくよう}する→服用する：21605_fukuyousuru⟧: to take antihypertensive medication\n- {降圧薬|こうあつやく}⟦を→を：00422_wo⟧⟦{処方|しょほう}→処方：05976_shohou⟧⟦する→する：00392_suru⟧: to prescribe blood pressure medication\n- {降圧薬|こうあつやく}⟦の→の：09472_no⟧⟦{副作用|ふくさよう}→副作用：05015_fukusayou⟧: side effects of blood pressure medication\n- {降圧薬|こうあつやく}⟦の→の：09472_no⟧⟦{種類|しゅるい}→種類：01560_shurui⟧: types of antihypertensives\n\nRELATED WORDS:\n- {降圧剤|こうあつざい}: antihypertensive (alternative form with ⟦{剤|ざい}→〜剤：30790_zai⟧)\n- ⟦{高血圧|こうけつあつ}→高血圧：04415_kouketsuatsu⟧: high blood pressure; hypertension\n- ⟦{血圧|けつあつ}→血圧：00218_ketsuatsu⟧: blood pressure\n- ⟦{処方薬|しょほうやく}→処方薬：18860_shohouyaku⟧: prescription medication",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "04415_kouketsuatsu",
+      "reading": "こうけつあつ",
+      "headword": "{高血圧|こうけつあつ}",
+      "label": "high blood pressure"
+    },
+    {
+      "type": "related",
+      "target_id": "00218_ketsuatsu",
+      "reading": "けつあつ",
+      "headword": "{血圧|けつあつ}",
+      "label": "blood pressure"
+    },
+    {
+      "type": "related",
+      "target_id": "18860_shohouyaku",
+      "reading": "しょほうやく",
+      "headword": "{処方薬|しょほうやく}",
+      "label": "prescription medication"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "health"
       ]
     },
     "created": "2026-04-19T13:12:22Z",
-    "modified": "2026-08-03T09:22:27Z"
+    "modified": "2026-09-02T04:02:18Z"
   }
 }

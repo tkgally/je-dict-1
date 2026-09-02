@@ -3,7 +3,7 @@
   "headword": "{現実逃避|げんじつとうひ}",
   "reading": "げんじつとうひ",
   "romaji": "genjitsutouhi",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "escapism; escape from reality",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26811_genjitsutouhi_ex1",
-      "japanese": "ゲームは{現実逃避|げんじつとうひ}の{手段|しゅだん}だ。",
+      "japanese": "⟦ゲーム→ゲーム：03842_geemu⟧⟦は→は：00079_ha⟧{現実逃避|げんじつとうひ}⟦の→の：09472_no⟧⟦{手段|しゅだん}→手段：03219_shudan⟧だ。",
       "english": "Games are a means of escapism.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26811_genjitsutouhi_ex2",
-      "japanese": "{試験|しけん}{前|まえ}になると{現実逃避|げんじつとうひ}で{掃除|そうじ}を{始|はじ}める。",
+      "japanese": "⟦{試験|しけん}→試験：01422_shiken⟧⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦と→と：00512_to⟧{現実逃避|げんじつとうひ}⟦で→で：00502_de⟧⟦{掃除|そうじ}→掃除：02889_souji⟧⟦を→を：00422_wo⟧{始|はじ}める。",
       "english": "When exams approach, I start cleaning as a form of escapism.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26811_genjitsutouhi_ex3",
-      "japanese": "{現実逃避|げんじつとうひ}ばかりしていないで、そろそろ{問題|もんだい}に{向|む}き{合|あ}わないといけない。",
+      "japanese": "{現実逃避|げんじつとうひ}⟦ばかり→〜ばかり：02006_bakari⟧⟦していないで→する：00392_suru⟧、⟦そろそろ→そろそろ：01259_sorosoro⟧⟦{問題|もんだい}→問題：00797_mondai⟧⟦に→に：00314_ni⟧⟦{向|む}き{合|あ}わない→向き合う：04652_mukiau⟧⟦と→と：00512_to⟧いけない。",
       "english": "I need to stop escaping from reality and start facing the problem.",
       "sense_numbers": [
         1
@@ -44,8 +44,16 @@
       "notes": null
     }
   ],
-  "notes": "A four-character compound ({四字熟語|よじじゅくご}) widely used in casual conversation, especially among younger speakers. Often used self-deprecatingly or humorously to describe procrastination or indulging in hobbies instead of facing responsibilities.\n\nCOMMON COLLOCATIONS:\n- {現実逃避|げんじつとうひ}する: to escape from reality\n- {現実逃避|げんじつとうひ}の{手段|しゅだん}: a means of escapism\n- {現実逃避|げんじつとうひ}に{走|はし}る: to run toward escapism\n- {現実逃避|げんじつとうひ}をやめる: to stop escaping reality\n\nSIMILAR WORDS:\n- {逃避|とうひ}: avoidance, escape — more general, not limited to reality\n- {先延|さきの}ばし: procrastination — focuses on delay rather than psychological escape\n- {白昼夢|はくちゅうむ}: daydream — one specific form of escapism\n\nETYMOLOGY:\n{現実|げんじつ} (reality) + {逃避|とうひ} (escape, avoidance). Literal meaning: \"reality-escape.\"",
-  "cross_references": [],
+  "notes": "A four-character compound (⟦{四字熟語|よじじゅくご}→四字熟語：15663_yojijukugo⟧) widely used in casual conversation, especially among younger speakers. Often used self-deprecatingly or humorously to describe procrastination or indulging in hobbies instead of facing responsibilities.\n\nCOMMON COLLOCATIONS:\n- {現実逃避|げんじつとうひ}⟦する→する：00392_suru⟧: to escape from reality\n- {現実逃避|げんじつとうひ}⟦の→の：09472_no⟧⟦{手段|しゅだん}→手段：03219_shudan⟧: a means of escapism\n- {現実逃避|げんじつとうひ}⟦に→に：00314_ni⟧⟦{走|はし}る→走る：00519_hashiru⟧: to run toward escapism\n- {現実逃避|げんじつとうひ}⟦を→を：00422_wo⟧⟦やめる→やめる：00909_yameru⟧: to stop escaping reality\n\nSIMILAR WORDS:\n- ⟦{逃避|とうひ}→逃避：14419_touhi⟧: avoidance, escape — more general, not limited to reality\n- ⟦{先延|さきの}ばし→先延ばし：11522_sakinobashi⟧: procrastination — focuses on delay rather than psychological escape\n- {白昼夢|はくちゅうむ}: daydream — one specific form of escapism\n\nETYMOLOGY:\n⟦{現実|げんじつ}→現実：02720_genjitsu⟧ (reality) + ⟦{逃避|とうひ}→逃避：14419_touhi⟧ (escape, avoidance). Literal meaning: \"reality-escape.\"",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11522_sakinobashi",
+      "reading": "さきのばし",
+      "headword": "{先延|さきの}ばし",
+      "label": "procrastination"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -63,7 +71,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-05T12:10:28Z",
-    "modified": "2026-08-06T12:44:19Z"
+    "modified": "2026-09-02T04:02:27Z"
   },
   "conjugation": {
     "type": "suru",

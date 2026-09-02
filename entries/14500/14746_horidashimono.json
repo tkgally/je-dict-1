@@ -15,41 +15,59 @@
   "examples": [
     {
       "id": "14746_horidashimono_ex1",
-      "japanese": "フリーマーケットで{掘|ほ}り{出|だ}し{物|もの}を{見|み}つけた。",
+      "japanese": "⟦フリーマーケット→フリーマーケット：09804_furiimaaketto⟧⟦で→で：00502_de⟧{掘|ほ}り{出|だ}し{物|もの}⟦を→を：00422_wo⟧⟦{見|み}つけた→見つける：01180_mitsukeru⟧。",
       "english": "I found a bargain at the flea market.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14746_horidashimono_ex2",
-      "japanese": "この{花瓶|かびん}は{掘|ほ}り{出|だ}し{物|もの}だった。100{円|えん}で{買|か}ったのに{本物|ほんもの}だ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{花瓶|かびん}→花瓶：02867_kabin⟧⟦は→は：00079_ha⟧{掘|ほ}り{出|だ}し{物|もの}だった。100⟦{円|えん}→円：00774_en⟧⟦で→で：00502_de⟧⟦{買|か}った→買う：00489_kau⟧⟦の→の：09472_no⟧⟦に→に：00314_ni⟧⟦{本物|ほんもの}→本物：03628_honmono⟧だ。",
       "english": "This vase was a real find. I bought it for 100 yen, and it's the real thing.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14746_horidashimono_ex3",
-      "japanese": "{中古|ちゅうこ}ショップを{回|まわ}れば、{掘|ほ}り{出|だ}し{物|もの}に{出会|であ}えることがある。",
+      "japanese": "⟦{中古|ちゅうこ}→中古：03479_chuuko⟧⟦ショップ→ショップ：08913_shoppu⟧⟦を→を：00422_wo⟧⟦{回|まわ}れば→回る：01150_mawaru⟧、{掘|ほ}り{出|だ}し{物|もの}⟦に→に：00314_ni⟧⟦{出会|であ}える→出会う：02298_deau⟧こと⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "If you visit secondhand shops, you can sometimes come across real bargains.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "Literally \"a dug-out thing\" — like digging up buried treasure. The word conveys the excitement of finding something valuable that others overlooked.\n\nCOMMON COLLOCATIONS:\n- {掘|ほ}り{出|だ}し{物|もの}を{見|み}つける (to find a bargain)\n- {掘|ほ}り{出|だ}し{物|もの}に{出会|であ}う (to come across a treasure)\n- {思|おも}わぬ{掘|ほ}り{出|だ}し{物|もの} (an unexpected find)\n\nOften used at: フリーマーケット (flea markets), {骨董|こっとう}{市|いち} (antique fairs), {古本|ふるほん}{市|いち} (used book fairs), リサイクルショップ (thrift shops).",
-  "cross_references": [],
+  "notes": "Literally \"a dug-out thing\" — like digging up buried treasure. The word conveys the excitement of finding something valuable that others overlooked.\n\nCOMMON COLLOCATIONS:\n- {掘|ほ}り{出|だ}し{物|もの}⟦を→を：00422_wo⟧⟦{見|み}つける→見つける：01180_mitsukeru⟧ (to find a bargain)\n- {掘|ほ}り{出|だ}し{物|もの}⟦に→に：00314_ni⟧⟦{出会|であ}う→出会う：02298_deau⟧ (to come across a treasure)\n- ⟦{思|おも}わぬ→思う：00492_omou⟧{掘|ほ}り{出|だ}し{物|もの} (an unexpected find)\n\nOften used at: ⟦フリーマーケット→フリーマーケット：09804_furiimaaketto⟧ (flea markets), {骨董|こっとう}⟦{市|いち}→市：10013_ichi⟧ (antique fairs), ⟦{古本|ふるほん}→古本：14745_furuhon⟧⟦{市|いち}→市：10013_ichi⟧ (used book fairs), ⟦リサイクル→リサイクル：04624_risaikuru⟧⟦ショップ→ショップ：08913_shoppu⟧ (thrift shops).",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17979_hiraimono",
+      "reading": "ひらいもの",
+      "headword": "{拾|ひろ}い{物|もの}",
+      "label": "found object"
+    }
+  ],
   "metadata": {
     "created": "2026-03-03T09:54:30Z",
-    "modified": "2026-03-03T09:54:30Z",
+    "modified": "2026-09-02T04:01:38Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

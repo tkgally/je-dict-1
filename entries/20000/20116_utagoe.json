@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "20116_utagoe_ex1",
-      "japanese": "{美|うつく}しい{歌声|うたごえ}が{聞|き}こえる。",
+      "japanese": "⟦{美|うつく}しい→美しい：01121_utsukushii⟧{歌声|うたごえ}⟦が→が：00051_ga⟧⟦{聞|き}こえる→聞こえる：01229_kikoeru⟧。",
       "english": "A beautiful singing voice can be heard.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "20116_utagoe_ex2",
-      "japanese": "{彼女|かのじょ}の{歌声|うたごえ}に{聴衆|ちょうしゅう}は{魅了|みりょう}された。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦の→の：09472_no⟧{歌声|うたごえ}⟦に→に：00314_ni⟧⟦{聴衆|ちょうしゅう}→聴衆：13907_choushuu⟧⟦は→は：00079_ha⟧⟦{魅了|みりょう}→魅了：14685_miryou⟧⟦された→する：00392_suru⟧。",
       "english": "The audience was captivated by her singing voice.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "20116_utagoe_ex3",
-      "japanese": "{教会|きょうかい}から{子|こ}どもたちの{元気|げんき}な{歌声|うたごえ}が{響|ひび}いてきた。",
+      "japanese": "⟦{教会|きょうかい}→教会：01387_kyoukai⟧⟦から→から：00504_kara⟧{子|こ}どもたち⟦の→の：09472_no⟧⟦{元気|げんき}→元気：00696_genki⟧な{歌声|うたごえ}⟦が→が：00051_ga⟧⟦{響|ひび}いて→響く：00099_hibiku⟧きた。",
       "english": "The cheerful singing voices of children rang out from the church.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {歌|うた} (song) + {声|ごえ} (voice). A poetic and evocative word that captures both the quality of a singer's voice and the ambient sound of singing.\n\nCOMMON COLLOCATIONS:\n- {美|うつく}しい{歌声|うたごえ}: beautiful singing voice\n- {歌声|うたごえ}が{響|ひび}く: a singing voice resounds\n- {歌声|うたごえ}が{聞|き}こえる: a singing voice can be heard\n- {歌声|うたごえ}に{魅|み}せられる: to be enchanted by a singing voice\n- {歌声|うたごえ}{喫茶|きっさ}: singing cafe (a type of cafe popular in the Showa era)\n\nSIMILAR WORDS:\n- {声|こえ}: voice — the general word for voice\n- {歌唱力|かしょうりょく}: singing ability — focuses on skill rather than the sound itself\n- {声量|せいりょう}: vocal volume/power — a technical aspect of voice quality\n\nCULTURAL CONTEXT:\n{歌声|うたごえ}{喫茶|きっさ} were cafes popular in the 1950s-60s where customers sang together, a precursor to modern karaoke. The {歌声|うたごえ}{運動|うんどう} (singing movement) was a postwar cultural movement that promoted group singing.",
+  "notes": "A compound of ⟦{歌|うた}→歌：02179_uta⟧ (song) + {声|ごえ} (voice). A poetic and evocative word that captures both the quality of a singer's voice and the ambient sound of singing.\n\nCOMMON COLLOCATIONS:\n- ⟦{美|うつく}しい→美しい：01121_utsukushii⟧{歌声|うたごえ}: beautiful singing voice\n- {歌声|うたごえ}⟦が→が：00051_ga⟧⟦{響|ひび}く→響く：00099_hibiku⟧: a singing voice resounds\n- {歌声|うたごえ}⟦が→が：00051_ga⟧⟦{聞|き}こえる→聞こえる：01229_kikoeru⟧: a singing voice can be heard\n- {歌声|うたごえ}⟦に→に：00314_ni⟧⟦{魅|み}せられる→魅せる：14707_miseru⟧: to be enchanted by a singing voice\n- {歌声|うたごえ}⟦{喫茶|きっさ}→喫茶：28984_kissa⟧: singing cafe (a type of cafe popular in the Showa era)\n\nSIMILAR WORDS:\n- ⟦{声|こえ}→声：02207_koe⟧: voice — the general word for voice\n- ⟦{歌唱力|かしょうりょく}→歌唱力：18125_kashouryoku⟧: singing ability — focuses on skill rather than the sound itself\n- {声量|せいりょう}: vocal volume/power — a technical aspect of voice quality\n\nCULTURAL NOTE:\n{歌声|うたごえ}⟦{喫茶|きっさ}→喫茶：28984_kissa⟧ were cafes popular in the 1950s-60s where customers sang together, a precursor to modern karaoke. The {歌声|うたごえ}⟦{運動|うんどう}→運動：00821_undou⟧ (singing movement) was a postwar cultural movement that promoted group singing.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18125_kashouryoku",
+      "reading": "かしょうりょく",
+      "headword": "{歌唱力|かしょうりょく}",
+      "label": "singing ability"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29481_hanashigoe",
+      "reading": "はなしごえ",
+      "headword": "{話|はな}し{声|ごえ}",
+      "label": "speaking voice"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +75,6 @@
       ]
     },
     "created": "2026-03-28T13:00:56Z",
-    "modified": "2026-06-16T12:23:55Z"
+    "modified": "2026-09-02T04:01:58Z"
   }
 }

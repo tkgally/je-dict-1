@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22659_ryokouki_ex1",
-      "japanese": "{旅行記|りょこうき}を{書|か}く。",
+      "japanese": "{旅行記|りょこうき}⟦を→を：00422_wo⟧⟦{書|か}く→書く：00477_kaku⟧。",
       "english": "To write a travelogue.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22659_ryokouki_ex2",
-      "japanese": "{彼女|かのじょ}のヨーロッパ{旅行記|りょこうき}がブログで{人気|にんき}だ。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦の→の：09472_no⟧⟦ヨーロッパ→ヨーロッパ：00427_yooroppa⟧{旅行記|りょこうき}⟦が→が：00051_ga⟧⟦ブログ→ブログ：05104_burogu⟧⟦で→で：00502_de⟧⟦{人気|にんき}→人気：01488_ninki⟧だ。",
       "english": "Her European travelogue is popular on her blog.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22659_ryokouki_ex3",
-      "japanese": "{明治|めいじ}{時代|じだい}の{作家|さっか}による{旅行記|りょこうき}を{読|よ}むと、{当時|とうじ}の{日本|にほん}の{様子|ようす}がよく{分|わ}かる。",
+      "japanese": "⟦{明治|めいじ}{時代|じだい}→明治時代：28080_meijijidai⟧⟦の→の：09472_no⟧⟦{作家|さっか}→作家：01414_sakka⟧⟦による→による：28349_niyoru⟧{旅行記|りょこうき}⟦を→を：00422_wo⟧⟦{読|よ}む→読む：00426_yomu⟧⟦と→と：00512_to⟧、⟦{当時|とうじ}→当時：01615_touji⟧⟦の→の：09472_no⟧⟦{日本|にほん}→日本：03876_nihon⟧⟦の→の：09472_no⟧⟦{様子|ようす}→様子：01521_yousu⟧⟦が→が：00051_ga⟧⟦よく→よく：00601_yoku⟧⟦{分|わ}かる→分かる：00463_wakaru⟧。",
       "english": "Reading travelogues by Meiji-era writers gives a good picture of what Japan was like at the time.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {旅行|りょこう} (travel) and {記|き} (record/account). Can refer to anything from a casual blog post about a trip to a published literary work.\n\nCOMMON COLLOCATIONS:\n- {旅行記|りょこうき}を{書|か}く: to write a travelogue\n- {旅行記|りょこうき}を{読|よ}む: to read a travelogue\n- {海外|かいがい}{旅行記|りょこうき}: overseas travel journal\n\nSIMILAR WORDS:\n- {紀行文|きこうぶん}: travel essay — more literary; implies a polished piece of writing rather than a personal record\n- {旅日記|たびにっき}: travel diary — more personal and day-by-day in format\n- {旅行|りょこう}ブログ: travel blog — the modern, casual equivalent",
+  "notes": "A compound of ⟦{旅行|りょこう}→旅行：00748_ryokou⟧ (travel) and {記|き} (record/account). Can refer to anything from a casual blog post about a trip to a published literary work.\n\nCOMMON COLLOCATIONS:\n- {旅行記|りょこうき}⟦を→を：00422_wo⟧⟦{書|か}く→書く：00477_kaku⟧: to write a travelogue\n- {旅行記|りょこうき}⟦を→を：00422_wo⟧⟦{読|よ}む→読む：00426_yomu⟧: to read a travelogue\n- ⟦{海外|かいがい}→海外：00134_kaigai⟧{旅行記|りょこうき}: overseas travel journal\n\nSIMILAR WORDS:\n- ⟦{紀行文|きこうぶん}→紀行文：22669_kikoubun⟧: travel essay — more literary; implies a polished piece of writing rather than a personal record\n- ⟦{旅日記|たびにっき}→旅日記：22691_tabinikki⟧: travel diary — more personal and day-by-day in format\n- ⟦{旅行|りょこう}→旅行：00748_ryokou⟧⟦ブログ→ブログ：05104_burogu⟧: travel blog — the modern, casual equivalent",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22669_kikoubun",
+      "reading": "きこうぶん",
+      "headword": "{紀行文|きこうぶん}",
+      "label": "travel essay"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22691_tabinikki",
+      "reading": "たびにっき",
+      "headword": "{旅日記|たびにっき}",
+      "label": "travel diary"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23123_miyagebanashi",
+      "reading": "みやげばなし",
+      "headword": "{土産話|みやげばなし}",
+      "label": "travel stories"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -57,9 +80,9 @@
         "art"
       ],
       "formality": "neutral",
-      "politeness": null
+      "politeness": "plain"
     },
     "created": "2026-04-06T21:26:44Z",
-    "modified": "2026-07-30T15:38:57Z"
+    "modified": "2026-09-02T04:02:09Z"
   }
 }

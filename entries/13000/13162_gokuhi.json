@@ -3,7 +3,7 @@
   "id": "13162_gokuhi",
   "headword": "{極秘|ごくひ}",
   "reading": "ごくひ",
-  "part_of_speech": "adjective-na",
+  "part_of_speech": "na-adjective",
   "gloss": "top secret, strictly confidential",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "13162_gokuhi_ex1",
-      "japanese": "この{情報|じょうほう}は{極秘|ごくひ}だ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{情報|じょうほう}→情報：03348_jouhou⟧⟦は→は：00079_ha⟧{極秘|ごくひ}だ。",
       "english": "This information is top secret.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "13162_gokuhi_ex2",
-      "japanese": "{極秘|ごくひ}の{会議|かいぎ}が{行|おこな}われた。",
+      "japanese": "{極秘|ごくひ}⟦の→の：09472_no⟧⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦が→が：00051_ga⟧⟦{行|おこな}われた→行う：01238_okonau⟧。",
       "english": "A top-secret meeting was held.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "13162_gokuhi_ex3",
-      "japanese": "{新製品|しんせいひん}の{開発|かいはつ}は{極秘|ごくひ}のプロジェクトとして{進|すす}められていた。",
+      "japanese": "⟦{新製品|しんせいひん}→新製品：18629_shinseihin⟧⟦の→の：09472_no⟧⟦{開発|かいはつ}→開発：06746_kaihatsu⟧⟦は→は：00079_ha⟧{極秘|ごくひ}⟦の→の：09472_no⟧⟦プロジェクト→プロジェクト：06764_purojekuto⟧⟦として→として：06802_toshite⟧⟦{進|すす}められていた→進める：01949_susumeru⟧。",
       "english": "The development of the new product was being carried out as a top-secret project.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "FORMS:\n- Modifier: {極秘|ごくひ}の + noun (top-secret ~)\n- Predicate: {極秘|ごくひ}だ\n- Adverbial: {極秘|ごくひ}に / {極秘|ごくひ}で (in secret, confidentially)\n\nETYMOLOGY:\n{極|ごく} (extreme, utmost) + {秘|ひ} (secret). Literally \"extremely secret.\"\n\nUSAGE:\nOften used as a noun modifier with の: {極秘|ごくひ}の{書類|しょるい} (top-secret documents). Also appears as a stamp or label on documents: {極秘|ごくひ} (CONFIDENTIAL / TOP SECRET). Frequently used in business, government, and military contexts.\n\nCOMMON COLLOCATIONS:\n- {極秘|ごくひ}{情報|じょうほう}: top-secret information\n- {極秘|ごくひ}{資料|しりょう}: classified documents\n- {極秘|ごくひ}に{進|すす}める: to carry out in strict secrecy\n- {極秘|ごくひ}{扱|あつか}い: classified treatment\n\nSIMILAR WORDS:\n- {秘密|ひみつ}: secret (general, everyday)\n- {機密|きみつ}: classified, confidential (official/institutional)",
+  "notes": "FORMS:\n- Modifier: {極秘|ごくひ}⟦の→の：09472_no⟧ + noun (top-secret ~)\n- Predicate: {極秘|ごくひ}だ\n- Adverbial: {極秘|ごくひ}⟦に→に：00314_ni⟧ / {極秘|ごくひ}⟦で→で：00502_de⟧ (in secret, confidentially)\n\nETYMOLOGY:\n⟦{極|ごく}→極：03816_goku⟧ (extreme, utmost) + {秘|ひ} (secret). Literally \"extremely secret.\"\n\nUSAGE:\nOften used as a noun modifier with ⟦の→の：09472_no⟧: {極秘|ごくひ}⟦の→の：09472_no⟧⟦{書類|しょるい}→書類：01103_shorui⟧ (top-secret documents). Also appears as a stamp or label on documents: {極秘|ごくひ} (CONFIDENTIAL / TOP SECRET). Frequently used in business, government, and military contexts.\n\nCOMMON COLLOCATIONS:\n- {極秘|ごくひ}⟦{情報|じょうほう}→情報：03348_jouhou⟧: top-secret information\n- {極秘|ごくひ}⟦{資料|しりょう}→資料：04166_shiryou⟧: classified documents\n- {極秘|ごくひ}⟦に→に：00314_ni⟧⟦{進|すす}める→進める：01949_susumeru⟧: to carry out in strict secrecy\n- {極秘|ごくひ}⟦{扱|あつか}い→扱い：12777_atsukai⟧: classified treatment\n\nSIMILAR WORDS:\n- ⟦{秘密|ひみつ}→秘密：02504_himitsu⟧: secret (general, everyday)\n- ⟦{機密|きみつ}→機密：13179_kimitsu⟧: classified, confidential (official/institutional)",
   "cross_references": [
     {
       "type": "synonym",
@@ -59,11 +59,46 @@
       "reading": "きみつ",
       "headword": "{機密|きみつ}",
       "label": "classified (official)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22676_naimitsu",
+      "reading": "ないみつ",
+      "headword": "{内密|ないみつ}",
+      "label": "confidential"
+    },
+    {
+      "type": "related",
+      "target_id": "22818_shuhi",
+      "reading": "しゅひ",
+      "headword": "{守秘|しゅひ}",
+      "label": "confidentiality"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24152_shagaihi",
+      "reading": "しゃがいひ",
+      "headword": "{社外秘|しゃがいひ}",
+      "label": "confidential"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26428_shanaihi",
+      "reading": "しゃないひ",
+      "headword": "{社内|しゃない}{秘|ひ}",
+      "label": "confidential (within a company)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27190_naibujouhou",
+      "reading": "ないぶじょうほう",
+      "headword": "{内部情報|ないぶじょうほう}",
+      "label": "internal information"
     }
   ],
   "metadata": {
     "created": "2026-02-23T12:16:40Z",
-    "modified": "2026-08-24T00:38:19Z",
+    "modified": "2026-09-02T04:01:32Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

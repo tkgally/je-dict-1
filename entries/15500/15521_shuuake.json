@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "15521_shuuake_ex1",
-      "japanese": "{週明|しゅうあ}けに{会議|かいぎ}がある。",
+      "japanese": "{週明|しゅうあ}け⟦に→に：00314_ni⟧⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There's a meeting at the start of next week.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "15521_shuuake_ex2",
-      "japanese": "{週明|しゅうあ}けの{月曜日|げつようび}に{返事|へんじ}をします。",
+      "japanese": "{週明|しゅうあ}け⟦の→の：09472_no⟧⟦{月曜日|げつようび}→月曜日：00624_getsuyoubi⟧⟦に→に：00314_ni⟧⟦{返事|へんじ}→返事：00844_henji⟧⟦を→を：00422_wo⟧⟦します→する：00392_suru⟧。",
       "english": "I'll reply on Monday at the start of the week.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "15521_shuuake_ex3",
-      "japanese": "{週明|しゅうあ}けの{株式|かぶしき}{市場|しじょう}は{大幅|おおはば}な{値上|ねあ}がりで{始|はじ}まった。",
+      "japanese": "{週明|しゅうあ}け⟦の→の：09472_no⟧⟦{株式|かぶしき}→株式：04772_kabushiki⟧⟦{市場|しじょう}→市場：09685_shijou⟧⟦は→は：00079_ha⟧⟦{大幅|おおはば}→大幅：12170_oohaba⟧な⟦{値上|ねあ}がり→値上がり：11538_neagari⟧⟦で→で：00502_de⟧⟦{始|はじ}まった→始まる：00841_hajimaru⟧。",
       "english": "The stock market opened sharply higher at the start of the week.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,33 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{週明|しゅうあ}け is a practical business and media term. It typically means Monday, but after a long holiday it can refer to the first business day back. It follows the same pattern as other ～{明|あ}け words.\n\nCOMMON COLLOCATIONS:\n- {週明|しゅうあ}けに (at the beginning of the week)\n- {週明|しゅうあ}けから (from the start of the week)\n- {週明|しゅうあ}けの{月曜日|げつようび} (Monday, the start of the week)\n\nRELATED WORDS:\n- {年明|としあ}け: beginning of the new year\n- {月明|つきあ}け: beginning of the month\n- {明|あ}け{方|がた}: dawn",
-  "cross_references": [],
+  "notes": "USAGE:\n{週明|しゅうあ}け is a practical business and media term. It typically means Monday, but after a long holiday it can refer to the first business day back. It follows the same pattern as other ～⟦{明|あ}け→明け：13157_ake⟧ words.\n\nCOMMON COLLOCATIONS:\n- {週明|しゅうあ}け⟦に→に：00314_ni⟧ (at the beginning of the week)\n- {週明|しゅうあ}け⟦から→から：00504_kara⟧ (from the start of the week)\n- {週明|しゅうあ}け⟦の→の：09472_no⟧⟦{月曜日|げつようび}→月曜日：00624_getsuyoubi⟧ (Monday, the start of the week)\n\nRELATED WORDS:\n- ⟦{年明|としあ}け→年明け：12476_toshiake⟧: beginning of the new year\n- {月明|つきあ}け: beginning of the month\n- ⟦{明|あ}け{方|がた}→明け方：17595_akegata⟧: dawn",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "12476_toshiake",
+      "reading": "としあけ",
+      "headword": "{年明|としあ}け",
+      "label": "beginning of the new year"
+    },
+    {
+      "type": "related",
+      "target_id": "17595_akegata",
+      "reading": "あけがた",
+      "headword": "{明|あ}け{方|がた}",
+      "label": "dawn"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03030_shuumatsu",
+      "reading": "しゅうまつ",
+      "headword": "{週末|しゅうまつ}",
+      "label": "weekend"
+    }
+  ],
   "metadata": {
     "created": "2026-03-07T09:34:07Z",
-    "modified": "2026-07-16T15:31:26Z",
+    "modified": "2026-09-02T04:01:41Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

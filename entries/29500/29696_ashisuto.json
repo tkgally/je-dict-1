@@ -3,7 +3,7 @@
   "headword": "アシスト",
   "reading": "あしすと",
   "romaji": "ashisuto",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "assist; support; help",
   "definitions": [
     {
@@ -20,7 +20,7 @@
   "examples": [
     {
       "id": "29696_ashisuto_ex1",
-      "japanese": "{先輩|せんぱい}をアシストする。",
+      "japanese": "⟦{先輩|せんぱい}→先輩：01451_senpai⟧⟦を→を：00422_wo⟧アシスト⟦する→する：00392_suru⟧。",
       "english": "I support my senior colleague.",
       "sense_numbers": [
         1
@@ -30,7 +30,7 @@
     },
     {
       "id": "29696_ashisuto_ex2",
-      "japanese": "このモーターが{走|はし}りをアシストする。",
+      "japanese": "⟦この→この：00962_kono⟧⟦モーター→モーター：23127_mootaa⟧⟦が→が：00051_ga⟧{走|はし}り⟦を→を：00422_wo⟧アシスト⟦する→する：00392_suru⟧。",
       "english": "This motor assists your ride.",
       "sense_numbers": [
         1
@@ -40,7 +40,7 @@
     },
     {
       "id": "29696_ashisuto_ex3",
-      "japanese": "{新人|しんじん}がうまく{仕事|しごと}を{進|すす}められるよう、{周|まわ}りがアシストした。",
+      "japanese": "⟦{新人|しんじん}→新人：02500_shinjin⟧⟦が→が：00051_ga⟧⟦うまく→うまい：01279_umai⟧⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦を→を：00422_wo⟧⟦{進|すす}められる→進める：01949_susumeru⟧よう、⟦{周|まわ}り→周り：01732_mawari⟧⟦が→が：00051_ga⟧アシスト⟦した→する：00392_suru⟧。",
       "english": "The team helped the newcomer so he could get his work done smoothly.",
       "sense_numbers": [
         1
@@ -50,7 +50,7 @@
     },
     {
       "id": "29696_ashisuto_ex4",
-      "japanese": "{見事|みごと}なアシストだった。",
+      "japanese": "⟦{見事|みごと}→見事：03744_migoto⟧なアシストだった。",
       "english": "That was a brilliant assist.",
       "sense_numbers": [
         2
@@ -60,7 +60,7 @@
     },
     {
       "id": "29696_ashisuto_ex5",
-      "japanese": "{彼|かれ}は{今季|こんき}アシストが{多|おお}い。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{今季|こんき}アシスト⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "He has a lot of assists this season.",
       "sense_numbers": [
         2
@@ -70,7 +70,7 @@
     },
     {
       "id": "29696_ashisuto_ex6",
-      "japanese": "{絶妙|ぜつみょう}なパスがアシストとなり、チームは{逆転|ぎゃくてん}した。",
+      "japanese": "⟦{絶妙|ぜつみょう}→絶妙：13812_zetsumyou⟧な⟦パス→パス：00340_pasu⟧⟦が→が：00051_ga⟧アシストとなり、⟦チーム→チーム：03858_chiimu⟧⟦は→は：00079_ha⟧⟦{逆転|ぎゃくてん}→逆転：06839_gyakuten⟧⟦した→する：00392_suru⟧。",
       "english": "An exquisite pass became the assist, and the team came from behind to win.",
       "sense_numbers": [
         2
@@ -79,8 +79,24 @@
       "notes": null
     }
   ],
-  "notes": "Loanword from English \"assist,\" used both as a general term for support and as a sports statistic. As a suru-verb (アシストする) it means to help or back up.\n\nCOMMON COLLOCATIONS:\n- {電動|でんどう}アシスト{自転車|じてんしゃ}: power-assisted bicycle\n- アシスト{機能|きのう}: assist function (of a device)\n- アシストを{決|き}める: to record an assist (in sports)\n\nSIMILAR WORDS:\n- {支援|しえん}: support, aid — the native term; more formal and often organizational\n- サポート: support — broad loanword; overlaps with sense 1 but not the sports sense",
+  "notes": "Loanword from English \"assist,\" used both as a general term for support and as a sports statistic. As a suru-verb (アシスト⟦する→する：00392_suru⟧) it means to help or back up.\n\nCOMMON COLLOCATIONS:\n- {電動|でんどう}アシスト{自転車|じてんしゃ}: power-assisted bicycle\n- アシスト⟦{機能|きのう}→機能：13165_kinou⟧: assist function (of a device)\n- アシスト⟦を→を：00422_wo⟧⟦{決|き}める→決める：00858_kimeru⟧: to record an assist (in sports)\n\nSIMILAR WORDS:\n- ⟦{支援|しえん}→支援：07778_shien⟧: support, aid — the native term; more formal and often organizational\n- ⟦サポート→サポート：07776_sapooto⟧: support — broad loanword; overlaps with sense 1 but not the sports sense",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07778_shien",
+      "reading": "しえん",
+      "headword": "{支援|しえん}",
+      "label": "support, aid"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07776_sapooto",
+      "reading": "さぽーと",
+      "headword": "サポート",
+      "label": "support"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -89,15 +105,16 @@
         "verb-suru"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "action"
       ],
       "domain": [],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-07-06T09:17:25Z",
-    "modified": "2026-07-06T09:17:25Z"
+    "modified": "2026-09-02T04:02:37Z"
   },
   "conjugation": {
     "type": "suru",

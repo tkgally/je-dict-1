@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "18359_ikkozutsu_ex1",
-      "japanese": "お{菓子|かし}を{一個|いっこ}ずつ{配|くば}る。",
+      "japanese": "⟦お{菓子|かし}→お菓子：02852_okashi⟧⟦を→を：00422_wo⟧{一個|いっこ}ずつ⟦{配|くば}る→配る：03921_kubaru⟧。",
       "english": "To hand out sweets one each.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "18359_ikkozutsu_ex2",
-      "japanese": "{卵|たまご}を{一個|いっこ}ずつ{割|わ}って{入|い}れてください。",
+      "japanese": "⟦{卵|たまご}→卵：02222_tamago⟧⟦を→を：00422_wo⟧{一個|いっこ}ずつ⟦{割|わ}って→割る：02334_waru⟧⟦{入|い}れて→入れる：01098_ireru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please crack and add the eggs one at a time.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "18359_ikkozutsu_ex3",
-      "japanese": "{問題|もんだい}を{一個|いっこ}ずつ{片付|かたづ}けていけば、いつか{全部|ぜんぶ}{終|お}わる。",
+      "japanese": "⟦{問題|もんだい}→問題：00797_mondai⟧⟦を→を：00422_wo⟧{一個|いっこ}ずつ⟦{片付|かたづ}けて→片付ける：01192_katazukeru⟧いけば、いつか⟦{全部|ぜんぶ}→全部：02888_zenbu⟧{終|お}わる。",
       "english": "If you tackle the problems one by one, you'll eventually finish them all.",
       "sense_numbers": [
         1
@@ -43,8 +43,17 @@
       "notes": null
     }
   ],
-  "notes": "{一個|いっこ}ずつ means 'one at a time' or 'one each,' using the versatile counter {個|こ} for small, discrete objects.\n\nPATTERN:\nPart of the ～ずつ pattern, which attaches to a quantity to mean 'each' or 'at a time.' The same structure works with other counters:\n- {一人|ひとり}ずつ (one person at a time)\n- {一枚|いちまい}ずつ (one sheet at a time)\n- {一本|いっぽん}ずつ (one [long object] at a time)\n- {少|すこ}しずつ (little by little)\n\nUSAGE:\n- Very common in everyday speech because {個|こ} is a general-purpose counter for small objects\n- Often used for distributing items: お{菓子|かし}を{一個|いっこ}ずつ{配|くば}る (hand out sweets one each)\n- Also used for doing things methodically: {問題|もんだい}を{一個|いっこ}ずつ{解|と}く (solve problems one at a time)",
+  "notes": "{一個|いっこ}ずつ means 'one at a time' or 'one each,' using the versatile counter ⟦{個|こ}→〜個：00645_ko⟧ for small, discrete objects.\n\nCOMMON PATTERNS:\nPart of the ～⟦ずつ→〜ずつ：03092_zutsu⟧ pattern, which attaches to a quantity to mean 'each' or 'at a time.' The same structure works with other counters:\n- ⟦{一人|ひとり}→一人：00630_hitori⟧⟦ずつ→〜ずつ：03092_zutsu⟧ (one person at a time)\n- ⟦{一枚|いちまい}→一枚：08889_ichimai⟧⟦ずつ→〜ずつ：03092_zutsu⟧ (one sheet at a time)\n- ⟦{一本|いっぽん}→一本：08888_ippon⟧⟦ずつ→〜ずつ：03092_zutsu⟧ (one [long object] at a time)\n- ⟦{少|すこ}し→少し：00596_sukoshi⟧⟦ずつ→〜ずつ：03092_zutsu⟧ (little by little)\n\nUSAGE:\n- Very common in everyday speech because ⟦{個|こ}→〜個：00645_ko⟧ is a general-purpose counter for small objects\n- Often used for distributing items: ⟦お{菓子|かし}→お菓子：02852_okashi⟧⟦を→を：00422_wo⟧{一個|いっこ}ずつ⟦{配|くば}る→配る：03921_kubaru⟧ (hand out sweets one each)\n- Also used for doing things methodically: ⟦{問題|もんだい}→問題：00797_mondai⟧⟦を→を：00422_wo⟧{一個|いっこ}ずつ⟦{解|と}く→解く：02301_toku⟧ (solve problems one at a time)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24348_hitotsuzutsu",
+      "reading": "ひとつずつ",
+      "headword": "{一|ひと}つずつ",
+      "label": "one by one"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -58,6 +67,6 @@
       ]
     },
     "created": "2026-03-21T10:00:40Z",
-    "modified": "2026-06-08T02:21:06Z"
+    "modified": "2026-09-02T04:01:51Z"
   }
 }

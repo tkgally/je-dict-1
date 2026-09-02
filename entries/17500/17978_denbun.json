@@ -3,7 +3,7 @@
   "id": "17978_denbun",
   "headword": "{伝聞|でんぶん}",
   "reading": "でんぶん",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "hearsay; rumor; secondhand information",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "17978_denbun_ex1",
-      "japanese": "それは{伝聞|でんぶん}にすぎない。",
+      "japanese": "⟦それ→それ：00994_sore⟧⟦は→は：00079_ha⟧{伝聞|でんぶん}⟦に→に：00314_ni⟧すぎない。",
       "english": "That's nothing more than hearsay.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "17978_denbun_ex2",
-      "japanese": "{伝聞|でんぶん}によると、{来月|らいげつ}{社長|しゃちょう}が{交代|こうたい}するらしい。",
+      "japanese": "{伝聞|でんぶん}⟦によると→〜によると：03104_niyoruto⟧、⟦{来月|らいげつ}→来月：00744_raigetsu⟧⟦{社長|しゃちょう}→社長：01428_shachou⟧⟦が→が：00051_ga⟧⟦{交代|こうたい}→交代：14943_koutai⟧⟦する→する：00392_suru⟧らしい。",
       "english": "According to what I've heard, the company president will be replaced next month.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "17978_denbun_ex3",
-      "japanese": "{裁判|さいばん}では{伝聞|でんぶん}{証拠|しょうこ}は{原則|げんそく}として{認|みと}められない。",
+      "japanese": "⟦{裁判|さいばん}→裁判：02773_saiban⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧{伝聞|でんぶん}⟦{証拠|しょうこ}→証拠：10575_shouko⟧⟦は→は：00079_ha⟧⟦{原則|げんそく}→原則：11801_gensoku⟧⟦として→として：06802_toshite⟧⟦{認|みと}められない→認める：02429_mitomeru⟧。",
       "english": "In court, hearsay evidence is generally not admissible.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,40 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA formal word used in news, legal, and academic contexts. In grammar studies, {伝聞|でんぶん} also refers to the hearsay evidential form (〜そうだ, 〜とのことだ) — a way of marking that information comes from a secondary source.\n\nCOMMON COLLOCATIONS:\n- {伝聞|でんぶん}によると (according to what one has heard)\n- {伝聞|でんぶん}{情報|じょうほう} (hearsay information)\n- {伝聞|でんぶん}{証拠|しょうこ} (hearsay evidence)\n- {伝聞|でんぶん}にすぎない (nothing more than hearsay)\n\nSIMILAR WORDS:\n- うわさ: rumor — more colloquial and informal\n- {風聞|ふうぶん}: rumor — literary synonym, less common\n- {又聞|またぎ}き: secondhand information — specifically means hearing something through an intermediary",
-  "cross_references": [],
+  "notes": "USAGE:\nA formal word used in news, legal, and academic contexts. In grammar studies, {伝聞|でんぶん} also refers to the hearsay evidential form (〜そうだ, 〜⟦と→と：00512_to⟧⟦の→の：09472_no⟧ことだ) — a way of marking that information comes from a secondary source.\n\nCOMMON COLLOCATIONS:\n- {伝聞|でんぶん}⟦によると→〜によると：03104_niyoruto⟧ (according to what one has heard)\n- {伝聞|でんぶん}⟦{情報|じょうほう}→情報：03348_jouhou⟧ (hearsay information)\n- {伝聞|でんぶん}⟦{証拠|しょうこ}→証拠：10575_shouko⟧ (hearsay evidence)\n- {伝聞|でんぶん}⟦に→に：00314_ni⟧すぎない (nothing more than hearsay)\n\nSIMILAR WORDS:\n- うわさ: rumor — more colloquial and informal\n- {風聞|ふうぶん}: rumor — literary synonym, less common\n- {又聞|またぎ}き: secondhand information — specifically means hearing something through an intermediary",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01871_uwasa",
+      "reading": "うわさ",
+      "headword": "{噂|うわさ}",
+      "label": "rumor"
+    },
+    {
+      "type": "related",
+      "target_id": "09802_wahou",
+      "reading": "わほう",
+      "headword": "{話法|わほう}",
+      "label": "narration style"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21570_kuchizutae",
+      "reading": "くちづたえ",
+      "headword": "{口伝|くちづた}え",
+      "label": "word of mouth"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27182_kuchizute",
+      "reading": "くちづて",
+      "headword": "{口伝|くちづて}",
+      "label": "word of mouth"
+    }
+  ],
   "metadata": {
     "created": "2026-03-19T10:08:58Z",
-    "modified": "2026-03-29T03:08:18Z",
+    "modified": "2026-09-02T04:01:50Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

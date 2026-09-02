@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "15885_keshoushitsu_ex1",
-      "japanese": "{化粧室|けしょうしつ}はどこですか。",
+      "japanese": "{化粧室|けしょうしつ}⟦は→は：00079_ha⟧⟦どこ→どこ：00539_doko⟧です⟦か→か：09473_ka⟧。",
       "english": "Where is the restroom?",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15885_keshoushitsu_ex2",
-      "japanese": "{化粧室|けしょうしつ}は{二階|にかい}にございます。",
+      "japanese": "{化粧室|けしょうしつ}⟦は→は：00079_ha⟧⟦{二階|にかい}→二階：27513_nikai⟧⟦に→に：00314_ni⟧⟦ございます→ございます：01300_gozaimasu⟧。",
       "english": "The restroom is on the second floor.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15885_keshoushitsu_ex3",
-      "japanese": "{会議|かいぎ}の{前|まえ}に{化粧室|けしょうしつ}に{立|た}ち{寄|よ}って{身|み}だしなみを{整|ととの}えた。",
+      "japanese": "⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦の→の：09472_no⟧⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧{化粧室|けしょうしつ}⟦に→に：00314_ni⟧⟦{立|た}ち{寄|よ}って→立ち寄る：04638_tachiyoru⟧⟦{身|み}だしなみ→身だしなみ：14286_midashinami⟧⟦を→を：00422_wo⟧⟦{整|ととの}えた→整える：04259_totonoeru⟧。",
       "english": "Before the meeting, I stopped by the powder room to freshen up.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "COMPOSITION:\n{化粧|けしょう} (makeup, grooming) + {室|しつ} (room). Literally \"grooming room\" — a euphemistic way of saying toilet or bathroom.\n\nFORMALITY:\nThis is a polite, indirect term for a restroom. It is commonly seen on signs in upscale venues. In everyday conversation, トイレ or お{手洗|てあら}い are more common.\n\nCOMMON COLLOCATIONS:\n- {化粧室|けしょうしつ}に{行|い}く (to go to the restroom)\n- {化粧室|けしょうしつ}に{立|た}つ (to excuse oneself to the restroom)\n- {女性用化粧室|じょせいようけしょうしつ} (women's restroom)",
+  "notes": "ETYMOLOGY:\n⟦{化粧|けしょう}→化粧：02699_keshou⟧ (makeup, grooming) + ⟦{室|しつ}→室：09946_shitsu⟧ (room). Literally \"grooming room\" — a euphemistic way of saying toilet or bathroom.\n\nREGISTER:\nThis is a polite, indirect term for a restroom. It is commonly seen on signs in upscale venues. In everyday conversation, ⟦トイレ→トイレ：00818_toire⟧ or ⟦お{手洗|てあら}い→お手洗い：02861_otearai⟧ are more common.\n\nCOMMON COLLOCATIONS:\n- {化粧室|けしょうしつ}⟦に→に：00314_ni⟧⟦{行|い}く→行く：00119_iku⟧ (to go to the restroom)\n- {化粧室|けしょうしつ}⟦に→に：00314_ni⟧⟦{立|た}つ→立つ：00758_tatsu⟧ (to excuse oneself to the restroom)\n- {女性用化粧室|じょせいようけしょうしつ} (women's restroom)",
   "cross_references": [
     {
       "type": "synonym",
@@ -46,18 +52,51 @@
       "reading": "おてあらい",
       "headword": "お{手洗|てあら}い",
       "label": "restroom (polite, everyday)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00818_toire",
+      "reading": "といれ",
+      "headword": "トイレ",
+      "label": "toilet, bathroom"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12761_tearai",
+      "reading": "てあらい",
+      "headword": "{手洗|てあら}い",
+      "label": "handwashing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19472_benjo",
+      "reading": "べんじょ",
+      "headword": "{便所|べんじょ}",
+      "label": "toilet"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23786_koushuutoire",
+      "reading": "こうしゅうといれ",
+      "headword": "{公衆|こうしゅう}トイレ",
+      "label": "public toilet"
     }
   ],
   "metadata": {
     "created": "2026-03-08T13:21:32Z",
-    "modified": "2026-05-02T07:20:50Z",
+    "modified": "2026-09-02T04:01:42Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "polite",
-      "semantic": ["building", "daily-life"]
+      "semantic": [
+        "building",
+        "daily-life"
+      ]
     }
   }
 }

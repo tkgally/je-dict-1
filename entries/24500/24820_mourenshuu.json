@@ -3,7 +3,7 @@
   "headword": "{猛練習|もうれんしゅう}",
   "reading": "もうれんしゅう",
   "romaji": "mourenshuu",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "intensive practice; rigorous training",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24820_mourenshuu_ex1",
-      "japanese": "{猛練習|もうれんしゅう}を{重|かさ}ねる。",
+      "japanese": "{猛練習|もうれんしゅう}⟦を→を：00422_wo⟧⟦{重|かさ}ねる→重ねる：02039_kasaneru⟧。",
       "english": "To undergo intensive practice repeatedly.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24820_mourenshuu_ex2",
-      "japanese": "{大会|たいかい}{前|まえ}に{猛練習|もうれんしゅう}に{励|はげ}んだ。",
+      "japanese": "⟦{大会|たいかい}→大会：03386_taikai⟧⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧{猛練習|もうれんしゅう}⟦に→に：00314_ni⟧⟦{励|はげ}んだ→励む：11822_hagemu⟧。",
       "english": "I devoted myself to intensive practice before the tournament.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24820_mourenshuu_ex3",
-      "japanese": "{毎日|まいにち}の{猛練習|もうれんしゅう}のおかげで、{彼女|かのじょ}はついに{全国|ぜんこく}{大会|たいかい}で{優勝|ゆうしょう}した。",
+      "japanese": "⟦{毎日|まいにち}→毎日：00729_mainichi⟧⟦の→の：09472_no⟧{猛練習|もうれんしゅう}⟦の→の：09472_no⟧⟦おかげ→おかげ：01362_okage⟧で、⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧ついに⟦{全国|ぜんこく}→全国：03311_zenkoku⟧⟦{大会|たいかい}→大会：03386_taikai⟧⟦で→で：00502_de⟧⟦{優勝|ゆうしょう}した→優勝する：25496_yuushousuru⟧。",
       "english": "Thanks to daily intensive practice, she finally won the national championship.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Describes a level of practice or training that goes far beyond normal effort — grueling, relentless, and sustained. Composed of {猛|もう} (fierce, intense) + {練習|れんしゅう} (practice). Often associated with sports, music, and martial arts in Japan, where a culture of {根性|こんじょう} (guts, perseverance) values pushing through hardship.\n\nCOMMON COLLOCATIONS:\n- {猛練習|もうれんしゅう}を{重|かさ}ねる — to practice intensively again and again\n- {猛練習|もうれんしゅう}に{励|はげ}む — to devote oneself to intensive training\n- {猛練習|もうれんしゅう}の{成果|せいか} — the results of rigorous practice\n- {猛練習|もうれんしゅう}の{日々|ひび} — days of intensive training\n\nSIMILAR WORDS:\n- {特訓|とっくん} — special/intensive training (often one-on-one or focused on a weak point)\n- {猛特訓|もうとっくん} — extremely intensive special training (even more intense)\n- {練習|れんしゅう} — practice (neutral, general term)\n- {稽古|けいこ} — practice, rehearsal (traditional arts, martial arts)",
+  "notes": "Describes a level of practice or training that goes far beyond normal effort — grueling, relentless, and sustained. Composed of {猛|もう} (fierce, intense) + ⟦{練習|れんしゅう}→練習：05323_renshuu⟧ (practice). Often associated with sports, music, and martial arts in Japan, where a culture of ⟦{根性|こんじょう}→根性：19215_konjou⟧ (guts, perseverance) values pushing through hardship.\n\nCOMMON COLLOCATIONS:\n- {猛練習|もうれんしゅう}⟦を→を：00422_wo⟧⟦{重|かさ}ねる→重ねる：02039_kasaneru⟧ — to practice intensively again and again\n- {猛練習|もうれんしゅう}⟦に→に：00314_ni⟧⟦{励|はげ}む→励む：11822_hagemu⟧ — to devote oneself to intensive training\n- {猛練習|もうれんしゅう}⟦の→の：09472_no⟧⟦{成果|せいか}→成果：06745_seika⟧ — the results of rigorous practice\n- {猛練習|もうれんしゅう}⟦の→の：09472_no⟧⟦{日々|ひび}→日々：04804_hibi⟧ — days of intensive training\n\nSIMILAR WORDS:\n- ⟦{特訓|とっくん}→特訓：13466_tokkun⟧ — special/intensive training (often one-on-one or focused on a weak point)\n- ⟦{猛特訓|もうとっくん}→猛特訓：24374_moutokkun⟧ — extremely intensive special training (even more intense)\n- ⟦{練習|れんしゅう}→練習：05323_renshuu⟧ — practice (neutral, general term)\n- ⟦{稽古|けいこ}→稽古：00210_keiko⟧ — practice, rehearsal (traditional arts, martial arts)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13466_tokkun",
+      "reading": "とっくん",
+      "headword": "{特訓|とっくん}",
+      "label": "special/intensive training"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24374_moutokkun",
+      "reading": "もうとっくん",
+      "headword": "{猛特訓|もうとっくん}",
+      "label": "extremely intensive special training"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00210_keiko",
+      "reading": "けいこ",
+      "headword": "{稽古|けいこ}",
+      "label": "practice, rehearsal"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,6 +76,8 @@
         "noun",
         "verb-suru"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "sports",
         "education"
@@ -61,7 +86,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-21T09:13:43Z",
-    "modified": "2026-04-21T09:13:43Z"
+    "modified": "2026-09-02T04:02:20Z"
   },
   "conjugation": {
     "type": "suru",

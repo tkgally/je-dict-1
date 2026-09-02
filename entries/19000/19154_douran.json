@@ -15,41 +15,62 @@
   "examples": [
     {
       "id": "19154_douran_ex1",
-      "japanese": "{国内|こくない}が{動乱|どうらん}に{陥|おちい}る。",
+      "japanese": "⟦{国内|こくない}→国内：02998_kokunai⟧⟦が→が：00051_ga⟧{動乱|どうらん}⟦に→に：00314_ni⟧⟦{陥|おちい}る→陥る：14537_ochiiru⟧。",
       "english": "The country falls into turmoil.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19154_douran_ex2",
-      "japanese": "{幕末|ばくまつ}の{動乱|どうらん}を{描|えが}いた{小説|しょうせつ}を{読|よ}んだ。",
+      "japanese": "⟦{幕末|ばくまつ}→幕末：12531_bakumatsu⟧⟦の→の：09472_no⟧{動乱|どうらん}⟦を→を：00422_wo⟧⟦{描|えが}いた→描く：02013_egaku⟧⟦{小説|しょうせつ}→小説：01434_shousetsu⟧⟦を→を：00422_wo⟧⟦{読|よ}んだ→読む：00426_yomu⟧。",
       "english": "I read a novel depicting the turmoil at the end of the Edo period.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19154_douran_ex3",
-      "japanese": "{政治的|せいじてき}な{動乱|どうらん}が{続|つづ}き、{多|おお}くの{市民|しみん}が{国外|こくがい}へ{避難|ひなん}した。",
+      "japanese": "⟦{政治的|せいじてき}→政治的：05684_seijiteki⟧な{動乱|どうらん}⟦が→が：00051_ga⟧⟦{続|つづ}き→続く：00903_tsuzuku⟧、{多|おお}く⟦の→の：09472_no⟧⟦{市民|しみん}→市民：01426_shimin⟧⟦が→が：00051_ga⟧⟦{国外|こくがい}→国外：20936_kokugai⟧⟦へ→へ：02473_he⟧⟦{避難|ひなん}した→避難する：26827_hinansuru⟧。",
       "english": "Amid ongoing political upheaval, many citizens fled the country.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A literary and formal word often found in news reporting and historical writing. Common collocations: {動乱|どうらん}の{時代|じだい} (era of turmoil), {動乱|どうらん}に{陥|おちい}る (to fall into turmoil), {政治的|せいじてき}{動乱|どうらん} (political upheaval). The {朝鮮動乱|ちょうせんどうらん} is a formal Japanese name for the Korean War. Compare with {混乱|こんらん} (confusion, disorder — more general and milder) and {暴動|ぼうどう} (riot — a specific violent act).",
+  "notes": "A literary and formal word often found in news reporting and historical writing. Common collocations: {動乱|どうらん}⟦の→の：09472_no⟧⟦{時代|じだい}→時代：01424_jidai⟧ (era of turmoil), {動乱|どうらん}⟦に→に：00314_ni⟧⟦{陥|おちい}る→陥る：14537_ochiiru⟧ (to fall into turmoil), ⟦{政治的|せいじてき}→政治的：05684_seijiteki⟧{動乱|どうらん} (political upheaval). The {朝鮮動乱|ちょうせんどうらん} is a formal Japanese name for the Korean War. Compare with ⟦{混乱|こんらん}→混乱：02811_konran⟧ (confusion, disorder — more general and milder) and ⟦{暴動|ぼうどう}→暴動：15533_boudou⟧ (riot — a specific violent act).",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13371_gekidou",
+      "reading": "げきどう",
+      "headword": "{激動|げきどう}",
+      "label": "upheaval, turbulence"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"],
-      "style": ["written"]
+      "semantic": [
+        "general"
+      ],
+      "style": [
+        "written"
+      ]
     },
     "created": "2026-03-24T11:23:00Z",
-    "modified": "2026-03-24T11:23:00Z"
+    "modified": "2026-09-02T04:01:54Z"
   }
 }

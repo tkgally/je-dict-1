@@ -15,40 +15,81 @@
   "examples": [
     {
       "id": "21583_shindo_ex1",
-      "japanese": "{授業|じゅぎょう}の{進度|しんど}が{速|はや}い。",
+      "japanese": "⟦{授業|じゅぎょう}→授業：00781_jugyou⟧⟦の→の：09472_no⟧{進度|しんど}⟦が→が：00051_ga⟧⟦{速|はや}い→速い：00514_hayai⟧。",
       "english": "The pace of the class is fast.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21583_shindo_ex2",
-      "japanese": "{工事|こうじ}の{進度|しんど}を{確認|かくにん}した。",
+      "japanese": "⟦{工事|こうじ}→工事：00244_kouji⟧⟦の→の：09472_no⟧{進度|しんど}⟦を→を：00422_wo⟧⟦{確認|かくにん}した→確認する：25332_kakuninsuru⟧。",
       "english": "I checked the progress of the construction.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21583_shindo_ex3",
-      "japanese": "{学校|がっこう}によって{教科書|きょうかしょ}の{進度|しんど}が{違|ちが}うので、{転校|てんこう}すると{戸惑|とまど}うことがある。",
+      "japanese": "⟦{学校|がっこう}→学校：00055_gakkou⟧⟦によって→によって：06801_niyotte⟧⟦{教科書|きょうかしょ}→教科書：01085_kyoukasho⟧⟦の→の：09472_no⟧{進度|しんど}⟦が→が：00051_ga⟧⟦{違|ちが}う→違う：01957_chigau⟧⟦の→の：09472_no⟧で、⟦{転校|てんこう}する→転校する：25400_tenkousuru⟧⟦と→と：00512_to⟧⟦{戸惑|とまど}う→戸惑う：06036_tomadou⟧こと⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "Since the pace of the textbook differs between schools, transferring can be confusing.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Compound of {進|しん} (advance) and {度|ど} (degree). Focuses on the rate or extent of advancement, particularly in structured contexts like education, construction, or project management.\n\nCOMMON COLLOCATIONS:\n- {進度|しんど}が{速|はや}い: the progress is fast\n- {進度|しんど}が{遅|おそ}い: the progress is slow\n- {進度|しんど}を{合|あ}わせる: to match the pace\n- {進度|しんど}を{確認|かくにん}する: to check the progress\n- {学習|がくしゅう}{進度|しんど}: learning progress/pace\n\nSIMILAR WORDS:\n- {進捗|しんちょく}: progress — more formal, used in business for project status updates\n- {進行|しんこう}: progression, advance — the act of moving forward, broader usage\n- ペース: pace — loanword used casually for speed of progress",
+  "notes": "Compound of {進|しん} (advance) and ⟦{度|ど}→〜度：09845_do⟧ (degree). Focuses on the rate or extent of advancement, particularly in structured contexts like education, construction, or project management.\n\nCOMMON COLLOCATIONS:\n- {進度|しんど}⟦が→が：00051_ga⟧⟦{速|はや}い→速い：00514_hayai⟧: the progress is fast\n- {進度|しんど}⟦が→が：00051_ga⟧⟦{遅|おそ}い→遅い：00533_osoi⟧: the progress is slow\n- {進度|しんど}⟦を→を：00422_wo⟧⟦{合|あ}わせる→合わせる：01872_awaseru⟧: to match the pace\n- {進度|しんど}⟦を→を：00422_wo⟧⟦{確認|かくにん}する→確認する：25332_kakuninsuru⟧: to check the progress\n- ⟦{学習|がくしゅう}→学習：02623_gakushuu⟧{進度|しんど}: learning progress/pace\n\nSIMILAR WORDS:\n- ⟦{進捗|しんちょく}→進捗：07377_shinchoku⟧: progress — more formal, used in business for project status updates\n- ⟦{進行|しんこう}→進行：03686_shinkou⟧: progression, advance — the act of moving forward, broader usage\n- ⟦ペース→ペース：11173_peesu⟧: pace — loanword used casually for speed of progress",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07377_shinchoku",
+      "reading": "しんちょく",
+      "headword": "{進捗|しんちょく}",
+      "label": "progress"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03686_shinkou",
+      "reading": "しんこう",
+      "headword": "{進行|しんこう}",
+      "label": "progression, advance"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11173_peesu",
+      "reading": "ぺーす",
+      "headword": "ペース",
+      "label": "pace"
+    },
+    {
+      "type": "homophone",
+      "target_id": "22807_shindo",
+      "reading": "しんど",
+      "headword": "{震度|しんど}",
+      "label": "seismic intensity"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["education", "work"]
+      "semantic": [
+        "education",
+        "work"
+      ]
     },
     "created": "2026-04-02T17:24:46Z",
-    "modified": "2026-04-02T17:24:46Z"
+    "modified": "2026-09-02T04:02:04Z"
   }
 }

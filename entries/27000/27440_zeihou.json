@@ -15,41 +15,78 @@
   "examples": [
     {
       "id": "27440_zeihou_ex1",
-      "japanese": "{税法|ぜいほう}が{改正|かいせい}された。",
+      "japanese": "{税法|ぜいほう}⟦が→が：00051_ga⟧⟦{改正|かいせい}→改正：00446_kaisei⟧⟦された→する：00392_suru⟧。",
       "english": "The tax law was revised.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27440_zeihou_ex2",
-      "japanese": "{税法|ぜいほう}の{知識|ちしき}があると{確定申告|かくていしんこく}が{楽|らく}になる。",
+      "japanese": "{税法|ぜいほう}⟦の→の：09472_no⟧⟦{知識|ちしき}→知識：01463_chishiki⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧⟦と→と：00512_to⟧⟦{確定申告|かくていしんこく}→確定申告：04902_kakuteishinkoku⟧⟦が→が：00051_ga⟧⟦{楽|らく}になる→楽になる：26083_rakuninaru⟧。",
       "english": "Having knowledge of tax law makes filing tax returns easier.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27440_zeihou_ex3",
-      "japanese": "{毎年|まいとし}{税法|ぜいほう}は{細|こま}かく{変|か}わるので、{専門家|せんもんか}に{相談|そうだん}するのが{安心|あんしん}だ。",
+      "japanese": "⟦{毎年|まいとし}→毎年：00731_maitoshi⟧{税法|ぜいほう}⟦は→は：00079_ha⟧⟦{細|こま}かく→細かい：01245_komakai⟧⟦{変|か}わる→変わる：00714_kawaru⟧⟦の→の：09472_no⟧で、⟦{専門家|せんもんか}→専門家：03088_senmonka⟧⟦に→に：00314_ni⟧⟦{相談|そうだん}する→相談する：01845_soudansuru⟧⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦{安心|あんしん}→安心：01288_anshin⟧だ。",
       "english": "Tax law changes in detail every year, so it's reassuring to consult a specialist.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Compound of {税|ぜい} (tax) + {法|ほう} (law). Used both as a general term for the area of law and as a generic reference to specific tax statutes.\n\nCOMMON COLLOCATIONS:\n- {税法|ぜいほう}{改正|かいせい}: tax-law revision\n- {税法|ぜいほう}{違反|いはん}: tax-law violation\n- {税法|ぜいほう}{上|じょう}の{扱|あつか}い: treatment under tax law\n- {国際|こくさい}{税法|ぜいほう}: international tax law\n\nRELATED WORDS:\n- {税制|ぜいせい}: tax system — broader, refers to the overall structure of taxation, not the statutes themselves\n- {税務|ぜいむ}: tax matters; tax affairs — administrative side ({税務署|ぜいむしょ} 'tax office')\n- {法律|ほうりつ}: law (general) — the general word; {税法|ぜいほう} is one branch",
+  "notes": "Compound of ⟦{税|ぜい}→税：03767_zei⟧ (tax) + ⟦{法|ほう}→法：13620_hou⟧ (law). Used both as a general term for the area of law and as a generic reference to specific tax statutes.\n\nCOMMON COLLOCATIONS:\n- {税法|ぜいほう}⟦{改正|かいせい}→改正：00446_kaisei⟧: tax-law revision\n- {税法|ぜいほう}⟦{違反|いはん}→違反：01824_ihan⟧: tax-law violation\n- {税法|ぜいほう}{上|じょう}⟦の→の：09472_no⟧⟦{扱|あつか}い→扱い：12777_atsukai⟧: treatment under tax law\n- ⟦{国際|こくさい}→国際：01406_kokusai⟧{税法|ぜいほう}: international tax law\n\nRELATED WORDS:\n- ⟦{税制|ぜいせい}→税制：28854_zeisei⟧: tax system — broader, refers to the overall structure of taxation, not the statutes themselves\n- ⟦{税務|ぜいむ}→税務：30025_zeimu⟧: tax matters; tax affairs — administrative side (⟦{税務署|ぜいむしょ}→税務署：13782_zeimusho⟧ 'tax office')\n- ⟦{法律|ほうりつ}→法律：01722_houritsu⟧: law (general) — the general word; {税法|ぜいほう} is one branch",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "28854_zeisei",
+      "reading": "ぜいせい",
+      "headword": "{税制|ぜいせい}",
+      "label": "tax system"
+    },
+    {
+      "type": "related",
+      "target_id": "30025_zeimu",
+      "reading": "ぜいむ",
+      "headword": "{税務|ぜいむ}",
+      "label": "tax matters"
+    },
+    {
+      "type": "related",
+      "target_id": "01722_houritsu",
+      "reading": "ほうりつ",
+      "headword": "{法律|ほうりつ}",
+      "label": "law"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
-      "politeness": null,
-      "semantic": ["law", "finance"],
-      "domain": ["legal", "business"]
+      "politeness": "plain",
+      "semantic": [
+        "law",
+        "finance"
+      ],
+      "domain": [
+        "legal",
+        "business"
+      ]
     },
     "created": "2026-05-12T03:04:54Z",
-    "modified": "2026-05-12T03:04:54Z"
+    "modified": "2026-09-02T04:02:30Z"
   }
 }

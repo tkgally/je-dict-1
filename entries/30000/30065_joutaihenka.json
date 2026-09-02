@@ -3,7 +3,7 @@
   "headword": "{状態変化|じょうたいへんか}",
   "reading": "じょうたいへんか",
   "romaji": "joutaihenka",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "change of state; state transition",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30065_joutaihenka_ex1",
-      "japanese": "{水|みず}は{状態変化|じょうたいへんか}する。",
+      "japanese": "⟦{水|みず}→水：02258_mizu⟧⟦は→は：00079_ha⟧{状態変化|じょうたいへんか}⟦する→する：00392_suru⟧。",
       "english": "Water changes state.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30065_joutaihenka_ex2",
-      "japanese": "{加熱|かねつ}によって{状態変化|じょうたいへんか}が{起|お}こる。",
+      "japanese": "⟦{加熱|かねつ}→加熱：00168_kanetsu⟧⟦によって→によって：06801_niyotte⟧{状態変化|じょうたいへんか}⟦が→が：00051_ga⟧⟦{起|お}こる→起こる：01910_okoru⟧。",
       "english": "Heating causes a change of state.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30065_joutaihenka_ex3",
-      "japanese": "{氷|こおり}が{水|みず}になるのは{身近|みぢか}な{状態変化|じょうたいへんか}の{例|れい}だ。",
+      "japanese": "⟦{氷|こおり}→氷：02753_koori⟧⟦が→が：00051_ga⟧⟦{水|みず}→水：02258_mizu⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦の→の：09472_no⟧⟦は→は：00079_ha⟧⟦{身近|みぢか}→身近：03157_mijika⟧な{状態変化|じょうたいへんか}⟦の→の：09472_no⟧⟦{例|れい}→例：09932_rei⟧だ。",
       "english": "Ice turning into water is a familiar example of a change of state.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "Combines {状態|じょうたい} (state) with {変化|へんか} (change). A physics and chemistry term for a substance moving between solid, liquid, and gas. Commonly used with する.\n\nCOMMON COLLOCATIONS:\n- {状態変化|じょうたいへんか}が{起|お}こる: a change of state occurs\n- {状態変化|じょうたいへんか}する: to change state\n\nSIMILAR WORDS:\n- {相変化|そうへんか}: phase change — a near-synonym more common in physics; also covers changes between crystal structures\n- {変化|へんか}: change — the general word, not limited to states of matter",
+  "notes": "Combines ⟦{状態|じょうたい}→状態：03345_joutai⟧ (state) with ⟦{変化|へんか}→変化：03615_henka⟧ (change). A physics and chemistry term for a substance moving between solid, liquid, and gas. Commonly used with ⟦する→する：00392_suru⟧.\n\nCOMMON COLLOCATIONS:\n- {状態変化|じょうたいへんか}⟦が→が：00051_ga⟧⟦{起|お}こる→起こる：01910_okoru⟧: a change of state occurs\n- {状態変化|じょうたいへんか}⟦する→する：00392_suru⟧: to change state\n\nSIMILAR WORDS:\n- ⟦{相変化|そうへんか}→相変化：30062_souhenka⟧: phase change — a near-synonym more common in physics; also covers changes between crystal structures\n- ⟦{変化|へんか}→変化：03615_henka⟧: change — the general word, not limited to states of matter",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "30062_souhenka",
+      "reading": "そうへんか",
+      "headword": "{相変化|そうへんか}",
+      "label": "phase change"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -54,7 +63,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "science"
       ],
@@ -65,7 +74,7 @@
       "verb_class": "suru"
     },
     "created": "2026-07-23T21:21:47Z",
-    "modified": "2026-07-23T21:21:47Z"
+    "modified": "2026-09-02T04:02:38Z"
   },
   "conjugation": {
     "type": "suru",

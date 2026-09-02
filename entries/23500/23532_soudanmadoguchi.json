@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "23532_soudanmadoguchi_ex1",
-      "japanese": "{相談|そうだん}{窓口|まどぐち}に{行|い}く。",
+      "japanese": "{相談|そうだん}{窓口|まどぐち}⟦に→に：00314_ni⟧⟦{行|い}く→行く：00119_iku⟧。",
       "english": "To go to the consultation counter.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "23532_soudanmadoguchi_ex2",
-      "japanese": "{市|し}{役所|やくしょ}の{相談|そうだん}{窓口|まどぐち}で{手続|てつづ}きについて{聞|き}いた。",
+      "japanese": "⟦{市|し}{役所|やくしょ}→市役所：03067_shiyakusho⟧⟦の→の：09472_no⟧{相談|そうだん}{窓口|まどぐち}⟦で→で：00502_de⟧⟦{手続|てつづ}き→手続き：05453_tetsuzuki⟧⟦について→〜について：03103_nitsuite⟧⟦{聞|き}いた→聞く：00483_kiku⟧。",
       "english": "I asked about the procedures at the city hall consultation counter.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "23532_soudanmadoguchi_ex3",
-      "japanese": "{消費者|しょうひしゃ}{相談|そうだん}{窓口|まどぐち}に{苦情|くじょう}を{申|もう}し{出|で}た。",
+      "japanese": "⟦{消費者|しょうひしゃ}→消費者：09866_shouhisha⟧{相談|そうだん}{窓口|まどぐち}⟦に→に：00314_ni⟧⟦{苦情|くじょう}→苦情：00252_kujou⟧⟦を→を：00422_wo⟧⟦{申|もう}し{出|で}た→申し出る：10465_moushideru⟧。",
       "english": "I filed a complaint at the consumer consultation counter.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {相談|そうだん} (consultation) and {窓口|まどぐち} (counter/window). This is a frequently encountered term in Japanese bureaucratic and institutional contexts. Many government offices, hospitals, and companies have dedicated consultation counters for specific topics.\n\nCOMMON COLLOCATIONS:\n- {相談|そうだん}{窓口|まどぐち}に{問|と}い{合|あ}わせる: to inquire at the consultation counter\n- {相談|そうだん}{窓口|まどぐち}を{設|もう}ける: to set up a consultation counter\n- {無料|むりょう}{相談|そうだん}{窓口|まどぐち}: free consultation counter\n- {電話|でんわ}{相談|そうだん}{窓口|まどぐち}: telephone consultation line\n\nCOMMON TYPES:\n- {消費者|しょうひしゃ}{相談|そうだん}{窓口|まどぐち}: consumer advice desk\n- {税務|ぜいむ}{相談|そうだん}{窓口|まどぐち}: tax consultation desk\n- {法律|ほうりつ}{相談|そうだん}{窓口|まどぐち}: legal consultation desk\n- {外国人|がいこくじん}{相談|そうだん}{窓口|まどぐち}: foreign residents' help desk\n\nSIMILAR WORDS:\n- {受付|うけつけ}: reception desk — a general-purpose reception counter\n- {案内所|あんないじょ}: information desk — provides directions and general information",
+  "notes": "A compound of ⟦{相談|そうだん}→相談：02089_soudan⟧ (consultation) and ⟦{窓口|まどぐち}→窓口：03154_madoguchi⟧ (counter/window). This is a frequently encountered term in Japanese bureaucratic and institutional contexts. Many government offices, hospitals, and companies have dedicated consultation counters for specific topics.\n\nCOMMON COLLOCATIONS:\n- {相談|そうだん}{窓口|まどぐち}⟦に→に：00314_ni⟧⟦{問|と}い{合|あ}わせる→問い合わせる：17737_toiawaseru⟧: to inquire at the consultation counter\n- {相談|そうだん}{窓口|まどぐち}⟦を→を：00422_wo⟧⟦{設|もう}ける→設ける：14220_moukeru⟧: to set up a consultation counter\n- ⟦{無料|むりょう}→無料：01662_muryou⟧{相談|そうだん}{窓口|まどぐち}: free consultation counter\n- ⟦{電話|でんわ}→電話：01471_denwa⟧{相談|そうだん}{窓口|まどぐち}: telephone consultation line\n\nTYPES:\n- ⟦{消費者|しょうひしゃ}→消費者：09866_shouhisha⟧{相談|そうだん}{窓口|まどぐち}: consumer advice desk\n- ⟦{税務|ぜいむ}→税務：30025_zeimu⟧{相談|そうだん}{窓口|まどぐち}: tax consultation desk\n- ⟦{法律|ほうりつ}→法律：01722_houritsu⟧{相談|そうだん}{窓口|まどぐち}: legal consultation desk\n- ⟦{外国人|がいこくじん}→外国人：02869_gaikokujin⟧{相談|そうだん}{窓口|まどぐち}: foreign residents' help desk\n\nSIMILAR WORDS:\n- ⟦{受付|うけつけ}→受付：01325_uketsuke⟧: reception desk — a general-purpose reception counter\n- ⟦{案内所|あんないじょ}→案内所：17418_annaijo⟧: information desk — provides directions and general information",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01325_uketsuke",
+      "reading": "うけつけ",
+      "headword": "{受付|うけつけ}",
+      "label": "reception desk"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17418_annaijo",
+      "reading": "あんないじょ",
+      "headword": "{案内所|あんないじょ}",
+      "label": "information desk"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +76,6 @@
       ]
     },
     "created": "2026-04-12T15:12:30Z",
-    "modified": "2026-08-01T21:36:06Z"
+    "modified": "2026-09-02T04:02:13Z"
   }
 }

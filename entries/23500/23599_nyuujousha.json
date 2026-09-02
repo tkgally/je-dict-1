@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "23599_nyuujousha_ex1",
-      "japanese": "{入場者|にゅうじょうしゃ}は{千人|せんにん}を{超|こ}えた。",
+      "japanese": "{入場者|にゅうじょうしゃ}⟦は→は：00079_ha⟧{千人|せんにん}⟦を→を：00422_wo⟧⟦{超|こ}えた→超える：01942_koeru⟧。",
       "english": "The number of attendees exceeded one thousand.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "23599_nyuujousha_ex2",
-      "japanese": "{展覧会|てんらんかい}の{入場者|にゅうじょうしゃ}{数|すう}は{去年|きょねん}より{増|ふ}えた。",
+      "japanese": "⟦{展覧会|てんらんかい}→展覧会：01470_tenrankai⟧⟦の→の：09472_no⟧{入場者|にゅうじょうしゃ}⟦{数|すう}→数：03360_suu⟧⟦は→は：00079_ha⟧⟦{去年|きょねん}→去年：00727_kyonen⟧⟦より→より：09476_yori⟧⟦{増|ふ}えた→増える：01183_fueru⟧。",
       "english": "The number of visitors to the exhibition increased compared to last year.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "23599_nyuujousha_ex3",
-      "japanese": "{先着|せんちゃく}100{名|めい}の{入場者|にゅうじょうしゃ}にプレゼントを{配|くば}るそうだ。",
+      "japanese": "⟦{先着|せんちゃく}→先着：08320_senchaku⟧100{名|めい}⟦の→の：09472_no⟧{入場者|にゅうじょうしゃ}⟦に→に：00314_ni⟧⟦プレゼント→プレゼント：01791_purezento⟧⟦を→を：00422_wo⟧⟦{配|くば}る→配る：03921_kubaru⟧そうだ。",
       "english": "I hear they're giving out gifts to the first 100 people who enter.",
       "sense_numbers": [
         1
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {入場|にゅうじょう} (entering a venue) and the suffix {〜者|しゃ} (person). The word is mildly formal and appears most often in written announcements, news reports, and official statistics — you will see it on event posters, signage, and in news stories about attendance figures.\n\nCOMMON COLLOCATIONS:\n- {入場者|にゅうじょうしゃ}{数|すう}: number of visitors, attendance count\n- {入場者|にゅうじょうしゃ}が{増|ふ}える: the number of attendees increases\n- {入場者|にゅうじょうしゃ}が{減|へ}る: the number of attendees decreases\n- {先着|せんちゃく}の{入場者|にゅうじょうしゃ}: the first visitors (on a first-come basis)\n- {入場者|にゅうじょうしゃ}{全員|ぜんいん}: all attendees\n\nSIMILAR WORDS:\n- {来場者|らいじょうしゃ}: visitor, attendee — nearly synonymous, emphasizing \"coming to\" rather than \"entering\"; common in event announcements\n- {観客|かんきゃく}: spectator, audience member — for performances and sports\n- {参加者|さんかしゃ}: participant — someone who takes part, not just enters\n- {来客|らいきゃく}: guest, visitor — used for visitors to a home or office, not events",
+  "notes": "Composed of ⟦{入場|にゅうじょう}→入場：03521_nyuujou⟧ (entering a venue) and the suffix {〜者|しゃ} (person). The word is mildly formal and appears most often in written announcements, news reports, and official statistics — you will see it on event posters, signage, and in news stories about attendance figures.\n\nCOMMON COLLOCATIONS:\n- {入場者|にゅうじょうしゃ}⟦{数|すう}→数：03360_suu⟧: number of visitors, attendance count\n- {入場者|にゅうじょうしゃ}⟦が→が：00051_ga⟧⟦{増|ふ}える→増える：01183_fueru⟧: the number of attendees increases\n- {入場者|にゅうじょうしゃ}⟦が→が：00051_ga⟧⟦{減|へ}る→減る：01985_heru⟧: the number of attendees decreases\n- ⟦{先着|せんちゃく}→先着：08320_senchaku⟧⟦の→の：09472_no⟧{入場者|にゅうじょうしゃ}: the first visitors (on a first-come basis)\n- {入場者|にゅうじょうしゃ}⟦{全員|ぜんいん}→全員：03310_zenin⟧: all attendees\n\nSIMILAR WORDS:\n- ⟦{来場者|らいじょうしゃ}→来場者：19023_raijousha⟧: visitor, attendee — nearly synonymous, emphasizing \"coming to\" rather than \"entering\"; common in event announcements\n- ⟦{観客|かんきゃく}→観客：02556_kankyaku⟧: spectator, audience member — for performances and sports\n- ⟦{参加者|さんかしゃ}→参加者：03059_sankasha⟧: participant — someone who takes part, not just enters\n- ⟦{来客|らいきゃく}→来客：13061_raikyaku⟧: guest, visitor — used for visitors to a home or office, not events",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19023_raijousha",
+      "reading": "らいじょうしゃ",
+      "headword": "{来場者|らいじょうしゃ}",
+      "label": "visitor, attendee"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02556_kankyaku",
+      "reading": "かんきゃく",
+      "headword": "{観客|かんきゃく}",
+      "label": "spectator, audience member"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03059_sankasha",
+      "reading": "さんかしゃ",
+      "headword": "{参加者|さんかしゃ}",
+      "label": "participant"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13061_raikyaku",
+      "reading": "らいきゃく",
+      "headword": "{来客|らいきゃく}",
+      "label": "guest, visitor"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +90,6 @@
       ]
     },
     "created": "2026-04-12T19:25:11Z",
-    "modified": "2026-08-01T21:36:06Z"
+    "modified": "2026-09-02T04:02:13Z"
   }
 }

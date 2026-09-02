@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "16781_kaigichuu_ex1",
-      "japanese": "{部長|ぶちょう}は{会議中|かいぎちゅう}です。",
+      "japanese": "⟦{部長|ぶちょう}→部長：01017_buchou⟧⟦は→は：00079_ha⟧{会議中|かいぎちゅう}です。",
       "english": "The department head is in a meeting.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "16781_kaigichuu_ex2",
-      "japanese": "{会議中|かいぎちゅう}は{携帯|けいたい}をマナーモードにしてください。",
+      "japanese": "{会議中|かいぎちゅう}⟦は→は：00079_ha⟧⟦{携帯|けいたい}→携帯：00715_keitai⟧⟦を→を：00422_wo⟧⟦マナーモード→マナーモード：07687_manaamoodo⟧にして⟦ください→ください：02899_kudasai⟧。",
       "english": "Please put your phone on silent mode during the meeting.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "16781_kaigichuu_ex3",
-      "japanese": "ドアに「{会議中|かいぎちゅう}」の{札|ふだ}がかかっていたので、{入|はい}らなかった。",
+      "japanese": "⟦ドア→ドア：00773_doa⟧⟦に→に：00314_ni⟧「{会議中|かいぎちゅう}」⟦の→の：09472_no⟧⟦{札|ふだ}→札：23002_fuda⟧⟦が→が：00051_ga⟧⟦かかっていた→かかる：00711_kakaru⟧⟦の→の：09472_no⟧で、⟦{入|はい}らなかった→入る：00494_hairu⟧。",
       "english": "There was an \"In Meeting\" sign on the door, so I didn't go in.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA compound of {会議|かいぎ} (meeting) + {中|ちゅう} (during). The suffix 〜{中|ちゅう} can be attached to many activity nouns to mean \"in the middle of\" (e.g., {食事中|しょくじちゅう}, {授業中|じゅぎょうちゅう}).\n\nOften displayed on door signs or as a status message in business settings. In modern contexts, also used as an online status indicator.\n\nCOMMON COLLOCATIONS:\n- {会議中|かいぎちゅう}の{電話|でんわ} (a phone call during a meeting)\n- ただいま{会議中|かいぎちゅう}です (currently in a meeting — polite)",
+  "notes": "USAGE:\nA compound of ⟦{会議|かいぎ}→会議：00710_kaigi⟧ (meeting) + ⟦{中|ちゅう}→〜中：09840_chuu⟧ (during). The suffix 〜⟦{中|ちゅう}→〜中：09840_chuu⟧ can be attached to many activity nouns to mean \"in the middle of\" (e.g., {食事中|しょくじちゅう}, ⟦{授業中|じゅぎょうちゅう}→授業中：20544_jugyouchuu⟧).\n\nOften displayed on door signs or as a status message in business settings. In modern contexts, also used as an online status indicator.\n\nCOMMON COLLOCATIONS:\n- {会議中|かいぎちゅう}⟦の→の：09472_no⟧⟦{電話|でんわ}→電話：01471_denwa⟧ (a phone call during a meeting)\n- ⟦ただいま→ただいま：01062_tadaima⟧{会議中|かいぎちゅう}です (currently in a meeting — polite)",
   "cross_references": [
     {
       "type": "related",
@@ -59,11 +59,18 @@
       "reading": "じゅぎょうちゅう",
       "headword": "{授業中|じゅぎょうちゅう}",
       "label": "during class"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24976_tsuuwachuu",
+      "reading": "つうわちゅう",
+      "headword": "{通話中|つうわちゅう}",
+      "label": "on a call"
     }
   ],
   "metadata": {
     "created": "2026-03-14T10:32:03Z",
-    "modified": "2026-07-21T06:41:24Z",
+    "modified": "2026-09-02T04:01:46Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

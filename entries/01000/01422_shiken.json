@@ -2,7 +2,7 @@
   "id": "01422_shiken",
   "headword": "{試験|しけん}",
   "reading": "しけん",
-  "part_of_speech": "noun (verbal)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "examination, test",
   "conjugation": {
     "type": "suru",
@@ -168,7 +168,7 @@
       ]
     }
   ],
-  "notes": "{試験|しけん} means examination/test and also forms a suru verb for experiments/trials.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- No standard intransitive pair\n- Pattern: [noun]⟦を→を：00422_wo⟧{試験|しけん}⟦する→する：00392_suru⟧\n\nTWO MEANINGS:\n1. Exam/test: ⟦{入学|にゅうがく}→入学：02092_nyuugaku⟧{試験|しけん} (entrance exam)\n2. Experiment/trial: {試験|しけん}⟦{運転|うんてん}→運転：01335_unten⟧ (test drive)\n\nCOMMON EXPRESSIONS (EXAMS):\n- {試験|しけん}⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧: to take an exam\n- {試験|しけん}⟦に→に：00314_ni⟧⟦{受|う}かる→受かる：19367_ukaru⟧: to pass an exam\n- {試験|しけん}⟦に→に：00314_ni⟧⟦{合格|ごうかく}→合格：02816_goukaku⟧⟦する→する：00392_suru⟧: to pass (formal)\n- {試験|しけん}⟦に→に：00314_ni⟧⟦{落|お}ちる→落ちる：01242_ochiru⟧: to fail an exam\n- {試験|しけん}⟦{勉強|べんきょう}→勉強：00770_benkyou⟧: studying for exams\n\nTYPES OF EXAMS:\n- ⟦{期末|きまつ}→期末：22375_kimatsu⟧{試験|しけん}: final exam\n- ⟦{中間|ちゅうかん}→中間：05458_chuukan⟧{試験|しけん}: midterm exam\n- ⟦{入学|にゅうがく}→入学：02092_nyuugaku⟧{試験|しけん}: entrance exam\n- ⟦{運転|うんてん}→運転：01335_unten⟧⟦{免許|めんきょ}→免許：03808_menkyo⟧{試験|しけん}: driving test\n\nCONTRAST:\n⟦テスト→テスト：01065_tesuto⟧ is also used for tests, especially smaller classroom quizzes.",
+  "notes": "{試験|しけん} means examination/test and also forms a suru verb for experiments/trials.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- No standard intransitive pair\n- Pattern: [noun]⟦を→を：00422_wo⟧{試験|しけん}⟦する→する：00392_suru⟧\n\nTWO MEANINGS:\n1. Exam/test: ⟦{入学|にゅうがく}→入学：02092_nyuugaku⟧{試験|しけん} (entrance exam)\n2. Experiment/trial: {試験|しけん}⟦{運転|うんてん}→運転：01335_unten⟧ (test drive)\n\nCOMMON EXPRESSIONS (EXAMS):\n- {試験|しけん}⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧: to take an exam\n- {試験|しけん}⟦に→に：00314_ni⟧⟦{受|う}かる→受かる：19367_ukaru⟧: to pass an exam\n- {試験|しけん}⟦に→に：00314_ni⟧⟦{合格|ごうかく}→合格：02816_goukaku⟧⟦する→する：00392_suru⟧: to pass (formal)\n- {試験|しけん}⟦に→に：00314_ni⟧⟦{落|お}ちる→落ちる：01242_ochiru⟧: to fail an exam\n- {試験|しけん}⟦{勉強|べんきょう}→勉強：00770_benkyou⟧: studying for exams\n\nTYPES OF EXAMS:\n- ⟦{期末|きまつ}→期末：22375_kimatsu⟧{試験|しけん}: final exam\n- ⟦{中間|ちゅうかん}→中間：05458_chuukan⟧{試験|しけん}: midterm exam\n- ⟦{入学|にゅうがく}→入学：02092_nyuugaku⟧{試験|しけん}: entrance exam\n- ⟦{運転|うんてん}→運転：01335_unten⟧⟦{免許|めんきょ}→免許：03808_menkyo⟧{試験|しけん}: driving test\n\nSIMILAR WORDS:\n⟦テスト→テスト：01065_tesuto⟧ is also used for tests, especially smaller classroom quizzes.",
   "cross_references": [
     {
       "type": "synonym",
@@ -176,11 +176,46 @@
       "reading": "てすと",
       "headword": "テスト",
       "label": "informal"
+    },
+    {
+      "type": "related",
+      "target_id": "02130_tamesu",
+      "reading": "ためす",
+      "headword": "{試|ため}す",
+      "label": "to try, to test, to attempt"
+    },
+    {
+      "type": "related",
+      "target_id": "03410_tameshi",
+      "reading": "ためし",
+      "headword": "{試|ため}し",
+      "label": "trial, test, try"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23321_koutoushimon",
+      "reading": "こうとうしもん",
+      "headword": "{口頭試問|こうとうしもん}",
+      "label": "oral examination"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24313_jisshoujikken",
+      "reading": "じっしょうじっけん",
+      "headword": "{実証実験|じっしょうじっけん}",
+      "label": "demonstration experiment"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27557_shoutesuto",
+      "reading": "しょうてすと",
+      "headword": "{小|しょう}テスト",
+      "label": "quiz"
     }
   ],
   "metadata": {
     "created": "2026-01-08T12:57:38Z",
-    "modified": "2026-05-15T16:11:58Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

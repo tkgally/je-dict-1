@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "20922_hoyouchi_ex1",
-      "japanese": "{山|やま}の{保養地|ほようち}で{過|す}ごす。",
+      "japanese": "⟦{山|やま}→山：02168_yama⟧⟦の→の：09472_no⟧{保養地|ほようち}⟦で→で：00502_de⟧⟦{過|す}ごす→過ごす：02062_sugosu⟧。",
       "english": "To spend time at a mountain retreat.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "20922_hoyouchi_ex2",
-      "japanese": "{軽井沢|かるいざわ}は{昔|むかし}から{保養地|ほようち}として{知|し}られている。",
+      "japanese": "⟦{軽井沢|かるいざわ}→軽井沢：30713_karuizawa⟧⟦は→は：00079_ha⟧⟦{昔|むかし}→昔：01515_mukashi⟧⟦から→から：00504_kara⟧{保養地|ほようち}⟦として→として：06802_toshite⟧⟦{知|し}られている→知る：00458_shiru⟧。",
       "english": "Karuizawa has been known as a health resort since long ago.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "20922_hoyouchi_ex3",
-      "japanese": "{温泉|おんせん}のある{保養地|ほようち}で{心身|しんしん}をリフレッシュした。",
+      "japanese": "⟦{温泉|おんせん}→温泉：04117_onsen⟧⟦の→の：09472_no⟧⟦ある→ある：00006_aru⟧{保養地|ほようち}⟦で→で：00502_de⟧⟦{心身|しんしん}→心身：04206_shinshin⟧⟦を→を：00422_wo⟧⟦リフレッシュ→リフレッシュ：11261_rifuresshu⟧⟦した→する：00392_suru⟧。",
       "english": "I refreshed my body and mind at a resort with hot springs.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {保養|ほよう} (rest, recuperation) + {地|ち} (place). Refers to destinations valued for their restorative qualities — clean mountain air, hot springs, quiet seaside settings, etc. Many Japanese companies and organizations maintain {保養所|ほようじょ} (rest facilities) for employees.\n\nCOMMON COLLOCATIONS:\n- {温泉|おんせん}{保養地|ほようち}: hot spring resort\n- {高原|こうげん}の{保養地|ほようち}: highland retreat\n- {海辺|うみべ}の{保養地|ほようち}: seaside resort\n- {保養地|ほようち}として{発展|はってん}する: to develop as a health resort\n\nRELATED TERMS:\n- {保養所|ほようじょ}: rest facility, retreat house — a specific building or facility (often company-owned)\n- {避暑地|ひしょち}: summer retreat — a place to escape summer heat\n- {湯治場|とうじば}: hot spring cure site — a place specifically for therapeutic bathing\n- リゾート: resort — the loanword, more associated with leisure than health",
+  "notes": "Composed of ⟦{保養|ほよう}→保養：11574_hoyou⟧ (rest, recuperation) + {地|ち} (place). Refers to destinations valued for their restorative qualities — clean mountain air, hot springs, quiet seaside settings, etc. Many Japanese companies and organizations maintain {保養所|ほようじょ} (rest facilities) for employees.\n\nCOMMON COLLOCATIONS:\n- ⟦{温泉|おんせん}→温泉：04117_onsen⟧{保養地|ほようち}: hot spring resort\n- ⟦{高原|こうげん}→高原：05497_kougen⟧⟦の→の：09472_no⟧{保養地|ほようち}: highland retreat\n- ⟦{海辺|うみべ}→海辺：05498_umibe⟧⟦の→の：09472_no⟧{保養地|ほようち}: seaside resort\n- {保養地|ほようち}⟦として→として：06802_toshite⟧⟦{発展|はってん}する→発展する：25331_hattensuru⟧: to develop as a health resort\n\nRELATED WORDS:\n- {保養所|ほようじょ}: rest facility, retreat house — a specific building or facility (often company-owned)\n- ⟦{避暑地|ひしょち}→避暑地：16506_hishochi⟧: summer retreat — a place to escape summer heat\n- {湯治場|とうじば}: hot spring cure site — a place specifically for therapeutic bathing\n- ⟦リゾート→リゾート：11394_rizooto⟧: resort — the loanword, more associated with leisure than health",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "16506_hishochi",
+      "reading": "ひしょち",
+      "headword": "{避暑地|ひしょち}",
+      "label": "summer retreat"
+    },
+    {
+      "type": "related",
+      "target_id": "11394_rizooto",
+      "reading": "りぞーと",
+      "headword": "リゾート",
+      "label": "resort"
+    },
+    {
+      "type": "related",
+      "target_id": "25814_bessouchi",
+      "reading": "べっそうち",
+      "headword": "{別荘地|べっそうち}",
+      "label": "resort area"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +83,6 @@
       ]
     },
     "created": "2026-03-30T20:18:13Z",
-    "modified": "2026-07-28T09:35:50Z"
+    "modified": "2026-09-02T04:02:01Z"
   }
 }

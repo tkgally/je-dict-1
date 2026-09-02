@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "23493_suifu_ex1",
-      "japanese": "{水夫|すいふ}たちが{帆|ほ}を{張|は}った。",
+      "japanese": "{水夫|すいふ}たち⟦が→が：00051_ga⟧{帆|ほ}⟦を→を：00422_wo⟧⟦{張|は}った→張る：12583_haru⟧。",
       "english": "The sailors hoisted the sails.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "23493_suifu_ex2",
-      "japanese": "{祖父|そふ}は{若|わか}い{頃|ころ}、{水夫|すいふ}として{世界|せかい}を{回|まわ}った。",
+      "japanese": "⟦{祖父|そふ}→祖父：01452_sofu⟧⟦は→は：00079_ha⟧{若|わか}い{頃|ころ}、{水夫|すいふ}⟦として→として：06802_toshite⟧⟦{世界|せかい}→世界：01447_sekai⟧⟦を→を：00422_wo⟧⟦{回|まわ}った→回る：01150_mawaru⟧。",
       "english": "My grandfather traveled around the world as a sailor when he was young.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "23493_suifu_ex3",
-      "japanese": "{古|ふる}い{小説|しょうせつ}には、{嵐|あらし}と{闘|たたか}う{水夫|すいふ}たちの{姿|すがた}がよく{描|えが}かれている。",
+      "japanese": "⟦{古|ふる}い→古い：00488_furui⟧⟦{小説|しょうせつ}→小説：01434_shousetsu⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧、⟦{嵐|あらし}→嵐：01695_arashi⟧⟦と→と：00512_to⟧⟦{闘|たたか}う→闘う：17304_tatakau⟧{水夫|すいふ}たち⟦の→の：09472_no⟧⟦{姿|すがた}→姿：03363_sugata⟧⟦が→が：00051_ga⟧⟦よく→よく：00601_yoku⟧⟦{描|えが}かれている→描く：02013_egaku⟧。",
       "english": "Old novels often depict sailors battling storms.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {水|すい} (water) and {夫|ふ} (man, laborer). Also read as かこ in classical Japanese. The word evokes traditional seafaring and appears frequently in literature, historical accounts, and stories about the age of sail. In modern maritime usage, {船員|せんいん} or {乗組員|のりくみいん} are the standard terms for crew members.\n\nCOMMON COLLOCATIONS:\n- {水夫|すいふ}として{働|はたら}く: to work as a sailor\n- {水夫|すいふ}を{雇|やと}う: to hire sailors\n- {水夫|すいふ}{長|ちょう}: boatswain, chief deckhand\n\nSIMILAR WORDS:\n- {船員|せんいん}: crew member, seafarer — the modern, official term for anyone working aboard a ship\n- {乗組員|のりくみいん}: crew member — used for the crew of ships, aircraft, or spacecraft\n- {船|ふな}{乗|の}り: sailor, mariner — a slightly more colloquial word with a romantic or adventurous connotation\n- {海員|かいいん}: seaman, maritime worker — a formal term used in labor law and maritime regulations",
+  "notes": "A compound of {水|すい} (water) and {夫|ふ} (man, laborer). Also read as かこ in classical Japanese. The word evokes traditional seafaring and appears frequently in literature, historical accounts, and stories about the age of sail. In modern maritime usage, ⟦{船員|せんいん}→船員：22495_senin⟧ or ⟦{乗組員|のりくみいん}→乗組員：21154_norikumiin⟧ are the standard terms for crew members.\n\nCOMMON COLLOCATIONS:\n- {水夫|すいふ}⟦として→として：06802_toshite⟧⟦{働|はたら}く→働く：00503_hataraku⟧: to work as a sailor\n- {水夫|すいふ}⟦を→を：00422_wo⟧⟦{雇|やと}う→雇う：02320_yatou⟧: to hire sailors\n- {水夫|すいふ}⟦{長|ちょう}→〜長：04665_chou⟧: boatswain, chief deckhand\n\nSIMILAR WORDS:\n- ⟦{船員|せんいん}→船員：22495_senin⟧: crew member, seafarer — the modern, official term for anyone working aboard a ship\n- ⟦{乗組員|のりくみいん}→乗組員：21154_norikumiin⟧: crew member — used for the crew of ships, aircraft, or spacecraft\n- {船|ふな}{乗|の}り: sailor, mariner — a slightly more colloquial word with a romantic or adventurous connotation\n- {海員|かいいん}: seaman, maritime worker — a formal term used in labor law and maritime regulations",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22495_senin",
+      "reading": "せんいん",
+      "headword": "{船員|せんいん}",
+      "label": "crew member, seafarer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21154_norikumiin",
+      "reading": "のりくみいん",
+      "headword": "{乗組員|のりくみいん}",
+      "label": "crew member"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +76,6 @@
       ]
     },
     "created": "2026-04-12T10:31:57Z",
-    "modified": "2026-07-27T06:23:09Z"
+    "modified": "2026-09-02T04:02:13Z"
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "20046_urame_ex1",
-      "japanese": "{親切|しんせつ}が{裏目|うらめ}に{出|で}た。",
+      "japanese": "⟦{親切|しんせつ}→親切：01144_shinsetsu⟧⟦が→が：00051_ga⟧{裏目|うらめ}⟦に→に：00314_ni⟧⟦{出|で}た→出る：00513_deru⟧。",
       "english": "My kindness backfired.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "20046_urame_ex2",
-      "japanese": "{節約|せつやく}しようとしたことが{裏目|うらめ}に{出|で}た。",
+      "japanese": "⟦{節約|せつやく}しよう→節約する：25226_setsuyakusuru⟧としたこと⟦が→が：00051_ga⟧{裏目|うらめ}⟦に→に：00314_ni⟧⟦{出|で}た→出る：00513_deru⟧。",
       "english": "Trying to save money backfired.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "20046_urame_ex3",
-      "japanese": "{彼|かれ}のアドバイスに{従|したが}ったが、すべてが{裏目|うらめ}に{出|で}てしまった。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧⟦アドバイス→アドバイス：10699_adobaisu⟧⟦に→に：00314_ni⟧⟦{従|したが}った→従う：02059_shitagau⟧⟦が→が：00051_ga⟧、すべて⟦が→が：00051_ga⟧{裏目|うらめ}⟦に→に：00314_ni⟧⟦{出|で}て→出る：00513_deru⟧しまった。",
       "english": "I followed his advice, but everything turned out the opposite of what was intended.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "Describes a situation where something done with good intentions or a reasonable plan produces the opposite result. Almost always used in the set phrase {裏目|うらめ}に{出|で}る (to backfire). Originally a dice term — the \"back face\" of the die, meaning the opposite of the expected roll.\n\nCOMMON COLLOCATIONS:\n- {裏目|うらめ}に{出|で}る: to backfire, to produce the opposite result\n- {裏目|うらめ}に{出|で}た: backfired (past tense)\n- {何|なに}もかも{裏目|うらめ}に{出|で}る: everything backfires\n\nETYMOLOGY:\nFrom dice gambling. The {裏目|うらめ} is the face of the die opposite to what you aimed for. When things go {裏目|うらめ}に{出|で}る, the result is the reverse of what was hoped.\n\nSIMILAR WORDS:\n- {逆効果|ぎゃくこうか}: counterproductive effect — focuses on the negative result rather than the reversal of intentions",
+  "notes": "Describes a situation where something done with good intentions or a reasonable plan produces the opposite result. Almost always used in the set phrase {裏目|うらめ}⟦に→に：00314_ni⟧⟦{出|で}る→出る：00513_deru⟧ (to backfire). Originally a dice term — the \"back face\" of the die, meaning the opposite of the expected roll.\n\nCOMMON COLLOCATIONS:\n- {裏目|うらめ}⟦に→に：00314_ni⟧⟦{出|で}る→出る：00513_deru⟧: to backfire, to produce the opposite result\n- {裏目|うらめ}⟦に→に：00314_ni⟧⟦{出|で}た→出る：00513_deru⟧: backfired (past tense)\n- ⟦{何|なに}もかも→何もかも：26777_nanimokamo⟧{裏目|うらめ}⟦に→に：00314_ni⟧⟦{出|で}る→出る：00513_deru⟧: everything backfires\n\nETYMOLOGY:\nFrom dice gambling. The {裏目|うらめ} is the face of the die opposite to what you aimed for. When things go {裏目|うらめ}⟦に→に：00314_ni⟧⟦{出|で}る→出る：00513_deru⟧, the result is the reverse of what was hoped.\n\nSIMILAR WORDS:\n- ⟦{逆効果|ぎゃくこうか}→逆効果：14315_gyakukouka⟧: counterproductive effect — focuses on the negative result rather than the reversal of intentions",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14315_gyakukouka",
+      "reading": "ぎゃくこうか",
+      "headword": "{逆効果|ぎゃくこうか}",
+      "label": "counterproductive effect"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +69,6 @@
       ]
     },
     "created": "2026-03-28T06:10:14Z",
-    "modified": "2026-03-28T06:10:14Z"
+    "modified": "2026-09-02T04:01:58Z"
   }
 }

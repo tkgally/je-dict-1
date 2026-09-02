@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "08446_outo_ex1",
-      "japanese": "{嘔吐|おうと}が{止|と}まらない。",
+      "japanese": "{嘔吐|おうと}⟦が→が：00051_ga⟧⟦{止|と}まらない→止まる：00555_tomaru⟧。",
       "english": "I can't stop vomiting.",
       "sense_numbers": [
         1
@@ -114,7 +114,7 @@
     },
     {
       "id": "08446_outo_ex2",
-      "japanese": "{吐|は}き{気|け}と{嘔吐|おうと}の{症状|しょうじょう}がある。",
+      "japanese": "⟦{吐|は}き{気|け}→吐き気：05021_hakike⟧⟦と→と：00512_to⟧{嘔吐|おうと}⟦の→の：09472_no⟧⟦{症状|しょうじょう}→症状：03234_shoujou⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "I have symptoms of nausea and vomiting.",
       "sense_numbers": [
         1
@@ -124,7 +124,7 @@
     },
     {
       "id": "08446_outo_ex3",
-      "japanese": "{食中毒|しょくちゅうどく}で{嘔吐|おうと}した。",
+      "japanese": "⟦{食中毒|しょくちゅうどく}→食中毒：07020_shokuchuudoku⟧⟦で→で：00502_de⟧{嘔吐|おうと}⟦した→する：00392_suru⟧。",
       "english": "I vomited due to food poisoning.",
       "sense_numbers": [
         1
@@ -133,7 +133,23 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {嘔|おう} (vomit) + {吐|と} (spit out). A formal/medical term; not typically used in casual conversation.\n\nREGISTER COMPARISON:\n- {嘔吐|おうと}: formal/medical (used in reports, hospital settings)\n- {吐|は}く: standard (\"to throw up\")\n- {戻|もど}す: euphemistic (\"to bring up\")\n- ゲロを{吐|は}く: crude/slang (\"to puke\")\n\nCOMMON COLLOCATIONS:\n- {嘔吐|おうと}する: to vomit\n- {嘔吐|おうと}が{止|と}まらない: cannot stop vomiting\n- {嘔吐|おうと}{物|ぶつ}: vomit (the substance)\n- {嘔吐|おうと}を{催|もよお}す: to feel the urge to vomit\n\nRELATED SYMPTOMS:\n- {吐|は}き{気|け}: nausea\n- {悪心|おしん}: nausea (medical term)\n- {下痢|げり}: diarrhea (often occurs together)\n\nNOTE:\nThe kanji {嘔|おう} is complex and rarely handwritten. The word is more commonly seen in print and medical documents.",
+  "notes": "Composed of {嘔|おう} (vomit) + {吐|と} (spit out). A formal/medical term; not typically used in casual conversation.\n\nREGISTER COMPARISON:\n- {嘔吐|おうと}: formal/medical (used in reports, hospital settings)\n- ⟦{吐|は}く→吐く：04397_haku⟧: standard (\"to throw up\")\n- ⟦{戻|もど}す→戻す：02317_modosu⟧: euphemistic (\"to bring up\")\n- ゲロ⟦を→を：00422_wo⟧⟦{吐|は}く→吐く：04397_haku⟧: crude/slang (\"to puke\")\n\nCOMMON COLLOCATIONS:\n- {嘔吐|おうと}⟦する→する：00392_suru⟧: to vomit\n- {嘔吐|おうと}⟦が→が：00051_ga⟧⟦{止|と}まらない→止まる：00555_tomaru⟧: cannot stop vomiting\n- {嘔吐|おうと}⟦{物|ぶつ}→〜物：28336_butsu⟧: vomit (the substance)\n- {嘔吐|おうと}⟦を→を：00422_wo⟧⟦{催|もよお}す→催す：11517_moyoosu⟧: to feel the urge to vomit\n\nRELATED SYMPTOMS:\n- ⟦{吐|は}き{気|け}→吐き気：05021_hakike⟧: nausea\n- {悪心|おしん}: nausea (medical term)\n- ⟦{下痢|げり}→下痢：05382_geri⟧: diarrhea (often occurs together)\n\nUSAGE:\nThe kanji {嘔|おう} is complex and rarely handwritten. The word is more commonly seen in print and medical documents.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "05021_hakike",
+      "reading": "はきけ",
+      "headword": "{吐|は}き{気|け}",
+      "label": "nausea"
+    },
+    {
+      "type": "related",
+      "target_id": "05382_geri",
+      "reading": "げり",
+      "headword": "{下痢|げり}",
+      "label": "diarrhea"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -142,6 +158,7 @@
         "verb-suru"
       ],
       "formality": "formal",
+      "politeness": "plain",
       "semantic": [
         "health",
         "body-internal"
@@ -149,6 +166,6 @@
       "verb_class": "suru"
     },
     "created": "2026-01-27T00:58:00Z",
-    "modified": "2026-08-12T12:51:44Z"
+    "modified": "2026-09-02T04:01:15Z"
   }
 }

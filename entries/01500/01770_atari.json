@@ -69,7 +69,7 @@
     },
     {
       "id": "01770_atari_ex6",
-      "japanese": "⟦{来週|らいしゅう}→来週：00746_raishuu⟧{辺|あた}り⟦に→に：00314_ni⟧⟦{一度|いちど}→一度：01312_ichido⟧⟦{会|あ}って→会う：00482_au⟧⟦{話|はなし}→話：01496_hanashi⟧⟦を→を：00422_wo⟧しませんか。",
+      "japanese": "⟦{来週|らいしゅう}→来週：00746_raishuu⟧{辺|あた}り⟦に→に：00314_ni⟧⟦{一度|いちど}→一度：01312_ichido⟧⟦{会|あ}って→会う：00482_au⟧⟦{話|はなし}→話：01496_hanashi⟧⟦を→を：00422_wo⟧⟦しません→する：00392_suru⟧⟦か→か：09473_ka⟧。",
       "english": "Shall we meet up around next week and talk?",
       "notes": null,
       "has_audio": false,
@@ -78,7 +78,7 @@
       ]
     }
   ],
-  "notes": "{辺|あた}り has two main uses: indicating a physical vicinity (sense 1) and indicating approximation of time, amount, or location (sense 2). It is very common in everyday conversation.\n\nCOMMON PATTERNS:\n- ⟦この→この：00962_kono⟧{辺|あた}り: around here\n- ～⟦の→の：09472_no⟧{辺|あた}り: near ~, around ~\n- 3⟦{時|じ}→〜時：09869_ji⟧{辺|あた}り: around 3 o'clock\n- 1000⟦{円|えん}→円：00774_en⟧{辺|あた}り: around 1,000 yen\n- ⟦{来週|らいしゅう}→来週：00746_raishuu⟧{辺|あた}り: around next week\n\nWRITING:\nOften written in hiragana as あたり, especially in casual contexts. The kanji {辺|あた}り is standard; {周|あた}り (emphasizing surroundings) is an alternative.\n\nSIMILAR WORDS:\n- ⟦{近|ちか}く→近く：00923_chikaku⟧: nearby (more specific about closeness)\n- ⟦{付近|ふきん}→付近：00044_fukin⟧: vicinity (more formal)\n- ⟦ぐらい→ぐらい：02900_gurai⟧/⟦くらい→くらい：noentry⟧: about, approximately (for quantities and time, but not places)\n\nCAUTION:\nDo not confuse with ⟦{当|あ}たり→当たり：01919_atari⟧ (hit, success, winning) — same reading, different kanji.",
+  "notes": "{辺|あた}り has two main uses: indicating a physical vicinity (sense 1) and indicating approximation of time, amount, or location (sense 2). It is very common in everyday conversation.\n\nCOMMON PATTERNS:\n- ⟦この→この：00962_kono⟧{辺|あた}り: around here\n- ～⟦の→の：09472_no⟧{辺|あた}り: near ~, around ~\n- 3⟦{時|じ}→〜時：09869_ji⟧{辺|あた}り: around 3 o'clock\n- 1000⟦{円|えん}→円：00774_en⟧{辺|あた}り: around 1,000 yen\n- ⟦{来週|らいしゅう}→来週：00746_raishuu⟧{辺|あた}り: around next week\n\nWRITING:\nOften written in hiragana as あたり, especially in casual contexts. The kanji {辺|あた}り is standard; {周|あた}り (emphasizing surroundings) is an alternative.\n\nSIMILAR WORDS:\n- ⟦{近|ちか}く→近く：00923_chikaku⟧: nearby (more specific about closeness)\n- ⟦{付近|ふきん}→付近：00044_fukin⟧: vicinity (more formal)\n- ⟦ぐらい→ぐらい：02900_gurai⟧/⟦くらい→くらい：noentry⟧: about, approximately (for quantities and time, but not places)\n\nWATCH OUT:\nDo not confuse with ⟦{当|あ}たり→当たり：01919_atari⟧ (hit, success, winning) — same reading, different kanji.",
   "cross_references": [
     {
       "type": "synonym",
@@ -86,11 +86,39 @@
       "reading": "ふきん",
       "headword": "{付近|ふきん}",
       "label": "vicinity (formal)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00923_chikaku",
+      "reading": "ちかく",
+      "headword": "{近|ちか}く",
+      "label": "nearby"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01462_chikaku",
+      "reading": "ちかく",
+      "headword": "{近く|ちかく}",
+      "label": "nearby, vicinity"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01732_mawari",
+      "reading": "まわり",
+      "headword": "{周|まわ}り",
+      "label": "surroundings, vicinity"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22119_kinpen",
+      "reading": "きんぺん",
+      "headword": "{近辺|きんぺん}",
+      "label": "nearby area"
     }
   ],
   "metadata": {
     "created": "2026-01-09T12:15:00Z",
-    "modified": "2026-06-11T10:45:00Z",
+    "modified": "2026-09-02T04:01:00Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

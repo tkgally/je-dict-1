@@ -23,7 +23,7 @@
     },
     {
       "id": "09762_dougi_ex2",
-      "japanese": "{動議|どうぎ}⟦を→を：00422_wo⟧{提出|ていしゅつ}する。",
+      "japanese": "{動議|どうぎ}⟦を→を：00422_wo⟧⟦{提出|ていしゅつ}する→提出する：19644_teishutsusuru⟧。",
       "english": "To submit a motion.",
       "has_audio": false,
       "sense_numbers": [
@@ -32,7 +32,7 @@
     },
     {
       "id": "09762_dougi_ex3",
-      "japanese": "{議長|ぎちょう}⟦が→が：00051_ga⟧{動議|どうぎ}⟦を→を：00422_wo⟧{却下|きゃっか}した。",
+      "japanese": "⟦{議長|ぎちょう}→議長：02681_gichou⟧⟦が→が：00051_ga⟧{動議|どうぎ}⟦を→を：00422_wo⟧⟦{却下|きゃっか}→却下：05908_kyakka⟧⟦した→する：00392_suru⟧。",
       "english": "The chairperson rejected the motion.",
       "has_audio": false,
       "sense_numbers": [
@@ -40,10 +40,10 @@
       ]
     }
   ],
-  "notes": "{動議|どうぎ} is a formal term used in parliamentary and committee contexts.\n\nCOMMON COLLOCATIONS:\n- {動議|どうぎ}⟦を→を：00422_wo⟧{提出|ていしゅつ}する: to submit a motion\n- {動議|どうぎ}⟦が→が：00051_ga⟧⟦{可決|かけつ}される→可決：00148_kaketsu⟧: a motion is passed\n- {動議|どうぎ}⟦が→が：00051_ga⟧{否決|ひけつ}される: a motion is rejected\n- {緊急|きんきゅう}{動議|どうぎ}: urgent motion\n\nRELATED TERMS:\n- {議案|ぎあん}: bill, agenda item\n- {提案|ていあん}: proposal",
+  "notes": "{動議|どうぎ} is a formal term used in parliamentary and committee contexts.\n\nCOMMON COLLOCATIONS:\n- {動議|どうぎ}⟦を→を：00422_wo⟧⟦{提出|ていしゅつ}する→提出する：19644_teishutsusuru⟧: to submit a motion\n- {動議|どうぎ}⟦が→が：00051_ga⟧⟦{可決|かけつ}される→可決：00148_kaketsu⟧: a motion is passed\n- {動議|どうぎ}⟦が→が：00051_ga⟧⟦{否決|ひけつ}→否決：08396_hiketsu⟧⟦される→する：00392_suru⟧: a motion is rejected\n- ⟦{緊急|きんきゅう}→緊急：11327_kinkyuu⟧{動議|どうぎ}: urgent motion\n\nRELATED WORDS:\n- ⟦{議案|ぎあん}→議案：20813_gian⟧: bill, agenda item\n- ⟦{提案|ていあん}→提案：03536_teian⟧: proposal",
   "metadata": {
     "created": "2026-02-03T09:58:52Z",
-    "modified": "2026-02-03T09:58:52Z",
+    "modified": "2026-09-02T04:01:19Z",
     "ai_model": "opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -78,6 +78,20 @@
       "reading": "かけつ",
       "headword": "{可決|かけつ}",
       "label": "passage, approval"
+    },
+    {
+      "type": "related",
+      "target_id": "20813_gian",
+      "reading": "ぎあん",
+      "headword": "{議案|ぎあん}",
+      "label": "bill, agenda item"
+    },
+    {
+      "type": "related",
+      "target_id": "03536_teian",
+      "reading": "ていあん",
+      "headword": "{提案|ていあん}",
+      "label": "proposal"
     }
   ]
 }

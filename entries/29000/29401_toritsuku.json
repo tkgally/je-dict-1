@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29401_toritsuku_ex1",
-      "japanese": "{子|こ}どもが{母親|ははおや}に{取|と}り{付|つ}く。",
+      "japanese": "{子|こ}ども⟦が→が：00051_ga⟧⟦{母親|ははおや}→母親：03564_hahaoya⟧⟦に→に：00314_ni⟧{取|と}り{付|つ}く。",
       "english": "The child clings to its mother.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29401_toritsuku_ex2",
-      "japanese": "{難|むずか}しい{問題|もんだい}に{取|と}り{付|つ}く。",
+      "japanese": "⟦{難|むずか}しい→難しい：00517_muzukashii⟧⟦{問題|もんだい}→問題：00797_mondai⟧⟦に→に：00314_ni⟧{取|と}り{付|つ}く。",
       "english": "to tackle a difficult problem",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29401_toritsuku_ex3",
-      "japanese": "{彼|かれ}は{冷|つめ}たくて、{取|と}り{付|つ}く{島|しま}もなかった。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{冷|つめ}たくて→冷たい：00681_tsumetai⟧、{取|と}り{付|つ}く⟦{島|しま}→島：00885_shima⟧⟦も→も：00484_mo⟧⟦なかった→ない：01118_nai⟧。",
       "english": "He was so cold that there was no way to approach him.",
       "sense_numbers": [
         1
@@ -44,13 +44,20 @@
       "notes": null
     }
   ],
-  "notes": "TRANSITIVITY: {自動詞|じどうし} (intransitive). The thing clung to or tackled is marked with に.\n\nIDIOM:\n- {取|と}り{付|つ}く{島|しま}もない: to be utterly unapproachable; to leave one no opening (literally \"not even an island to cling to\")\n\nSIMILAR WORDS:\n- {取|と}り{憑|つ}く: to possess (of a spirit) — same reading, written with {憑|つ}く; a ghost or obsession takes hold of someone\n- しがみつく: to cling tightly — more physical and desperate",
+  "notes": "TRANSITIVITY: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive). The thing clung to or tackled is marked with ⟦に→に：00314_ni⟧.\n\nCOMMON EXPRESSIONS:\n- {取|と}り{付|つ}く⟦{島|しま}→島：00885_shima⟧⟦も→も：00484_mo⟧⟦ない→ない：01118_nai⟧: to be utterly unapproachable; to leave one no opening (literally \"not even an island to cling to\")\n\nSIMILAR WORDS:\n- ⟦{取|と}り{憑|つ}く→取り憑く：11969_toritsuku⟧: to possess (of a spirit) — same reading, written with {憑|つ}く; a ghost or obsession takes hold of someone\n- ⟦しがみつく→しがみつく：10352_shigamitsuku⟧: to cling tightly — more physical and desperate",
   "cross_references": [
     {
       "type": "homophone",
       "target_id": "11969_toritsuku",
       "reading": "とりつく",
       "headword": "{取|と}り{憑|つ}く"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10352_shigamitsuku",
+      "reading": "しがみつく",
+      "headword": "しがみつく",
+      "label": "to cling tightly"
     }
   ],
   "schema_version": "2.0",
@@ -70,7 +77,7 @@
       "verb_class": "godan-ku"
     },
     "created": "2026-06-22T01:45:27Z",
-    "modified": "2026-06-22T01:56:58Z"
+    "modified": "2026-09-02T04:02:36Z"
   },
   "conjugation": {
     "type": "godan",

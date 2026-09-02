@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25289_toumeido_ex1",
-      "japanese": "この{湖|みずうみ}は{透明度|とうめいど}が{高|たか}い。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{湖|みずうみ}→湖：00867_mizuumi⟧⟦は→は：00079_ha⟧{透明度|とうめいど}⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧。",
       "english": "This lake has high water clarity.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25289_toumeido_ex2",
-      "japanese": "{海|うみ}の{透明度|とうめいど}は{天候|てんこう}によって{変|か}わる。",
+      "japanese": "⟦{海|うみ}→海：00556_umi⟧⟦の→の：09472_no⟧{透明度|とうめいど}⟦は→は：00079_ha⟧⟦{天候|てんこう}→天候：03558_tenkou⟧⟦によって→によって：06801_niyotte⟧⟦{変|か}わる→変わる：00714_kawaru⟧。",
       "english": "The transparency of the sea changes depending on the weather.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25289_toumeido_ex3",
-      "japanese": "{沖縄|おきなわ}の{海|うみ}は{透明度|とうめいど}が{高|たか}く、{海底|かいてい}まで{見通|みとお}せるほどだ。",
+      "japanese": "⟦{沖縄|おきなわ}→沖縄：11009_okinawa⟧⟦の→の：09472_no⟧⟦{海|うみ}→海：00556_umi⟧⟦は→は：00079_ha⟧{透明度|とうめいど}⟦が→が：00051_ga⟧⟦{高|たか}く→高い：00500_takai⟧、⟦{海底|かいてい}→海底：13287_kaitei⟧⟦まで→まで：00490_made⟧⟦{見通|みとお}せる→見通す：18734_mitoosu⟧ほどだ。",
       "english": "The sea in Okinawa is so clear that you can see all the way to the ocean floor.",
       "sense_numbers": [
         1
@@ -44,20 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {透明|とうめい} (transparent, clear) + {度|ど} (degree). Most commonly used to describe the clarity of water in lakes, oceans, and rivers. Also used figuratively for organizational transparency.\n\nCOMMON COLLOCATIONS:\n- {透明度|とうめいど}が{高|たか}い: high transparency/clarity\n- {透明度|とうめいど}が{低|ひく}い: low transparency\n- {透明度|とうめいど}を{測|はか}る: to measure transparency\n- {水|みず}の{透明度|とうめいど}: water clarity\n- {透明度|とうめいど}が{落|お}ちる: transparency decreases\n\nSIMILAR WORDS:\n- {透明|とうめい}: transparent, clear — the base adjective describing the property itself\n- {透明性|とうめいせい}: transparency — used more abstractly for organizational/political transparency\n- {濁|にご}り: turbidity, murkiness — the opposite quality",
+  "notes": "Composed of ⟦{透明|とうめい}→透明：04565_toumei⟧ (transparent, clear) + ⟦{度|ど}→〜度：09845_do⟧ (degree). Most commonly used to describe the clarity of water in lakes, oceans, and rivers. Also used figuratively for organizational transparency.\n\nCOMMON COLLOCATIONS:\n- {透明度|とうめいど}⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧: high transparency/clarity\n- {透明度|とうめいど}⟦が→が：00051_ga⟧⟦{低|ひく}い→低い：02947_hikui⟧: low transparency\n- {透明度|とうめいど}⟦を→を：00422_wo⟧⟦{測|はか}る→測る：01977_hakaru⟧: to measure transparency\n- ⟦{水|みず}→水：02258_mizu⟧⟦の→の：09472_no⟧{透明度|とうめいど}: water clarity\n- {透明度|とうめいど}⟦が→が：00051_ga⟧⟦{落|お}ちる→落ちる：01242_ochiru⟧: transparency decreases\n\nSIMILAR WORDS:\n- ⟦{透明|とうめい}→透明：04565_toumei⟧: transparent, clear — the base adjective describing the property itself\n- ⟦{透明性|とうめいせい}→透明性：05576_toumeisei⟧: transparency — used more abstractly for organizational/political transparency\n- ⟦{濁|にご}り→濁り：13431_nigori⟧: turbidity, murkiness — the opposite quality",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05576_toumeisei",
+      "reading": "とうめいせい",
+      "headword": "{透明性|とうめいせい}",
+      "label": "transparency"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13431_nigori",
+      "reading": "にごり",
+      "headword": "{濁|にご}り",
+      "label": "turbidity, murkiness"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "nature",
         "science"
       ]
     },
     "created": "2026-04-24T13:19:45Z",
-    "modified": "2026-04-24T13:19:45Z"
+    "modified": "2026-09-02T04:02:21Z"
   }
 }

@@ -15,40 +15,81 @@
   "examples": [
     {
       "id": "20224_kawabe_ex1",
-      "japanese": "{川辺|かわべ}を{散歩|さんぽ}した。",
+      "japanese": "{川辺|かわべ}⟦を→を：00422_wo⟧⟦{散歩|さんぽ}した→散歩する：26840_sanposuru⟧。",
       "english": "I took a walk along the riverbank.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20224_kawabe_ex2",
-      "japanese": "{川辺|かわべ}に{座|すわ}って{弁当|べんとう}を{食|た}べた。",
+      "japanese": "{川辺|かわべ}⟦に→に：00314_ni⟧⟦{座|すわ}って→座る：00757_suwaru⟧⟦{弁当|べんとう}→弁当：01014_bentou⟧⟦を→を：00422_wo⟧⟦{食|た}べた→食べる：00396_taberu⟧。",
       "english": "I sat by the river and ate my lunch.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20224_kawabe_ex3",
-      "japanese": "{春|はる}になると、{川辺|かわべ}の{桜|さくら}が{一斉|いっせい}に{咲|さ}き、{花見|はなみ}を{楽|たの}しむ{人|ひと}でにぎわう。",
+      "japanese": "⟦{春|はる}→春：00627_haru⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦と→と：00512_to⟧、{川辺|かわべ}⟦の→の：09472_no⟧⟦{桜|さくら}→桜：02212_sakura⟧⟦が→が：00051_ga⟧⟦{一斉|いっせい}→一斉：01726_issei⟧⟦に→に：00314_ni⟧⟦{咲|さ}き→咲く：08150_saku⟧、⟦{花見|はなみ}→花見：01700_hanami⟧⟦を→を：00422_wo⟧⟦{楽|たの}しむ→楽しむ：01203_tanoshimu⟧⟦{人|ひと}→人：00476_hito⟧⟦で→で：00502_de⟧にぎわう。",
       "english": "In spring, the cherry blossoms along the river bloom all at once, and the area bustles with people enjoying hanami.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {川|かわ} (river) + {辺|べ} (vicinity, edge). A simple, everyday word for the area beside a river. Also read as かわべり in some contexts.\n\nCOMMON COLLOCATIONS:\n- {川辺|かわべ}を{歩|ある}く: to walk along the riverside\n- {川辺|かわべ}に{座|すわ}る: to sit by the river\n- {川辺|かわべ}の{風景|ふうけい}: riverside scenery\n- {川辺|かわべ}の{公園|こうえん}: riverside park\n\nSIMILAR WORDS:\n- {川岸|かわぎし}: riverbank — focuses more on the bank/embankment itself\n- {岸辺|きしべ}: shore, bank — broader, can be used for lakes and seas too\n- {河川敷|かせんしき}: riverbed area — the flat area between the river and the levee",
+  "notes": "Composed of ⟦{川|かわ}→川：02186_kawa⟧ (river) + {辺|べ} (vicinity, edge). A simple, everyday word for the area beside a river. Also read as かわべり in some contexts.\n\nCOMMON COLLOCATIONS:\n- {川辺|かわべ}⟦を→を：00422_wo⟧⟦{歩|ある}く→歩く：00538_aruku⟧: to walk along the riverside\n- {川辺|かわべ}⟦に→に：00314_ni⟧⟦{座|すわ}る→座る：00757_suwaru⟧: to sit by the river\n- {川辺|かわべ}⟦の→の：09472_no⟧⟦{風景|ふうけい}→風景：03591_fuukei⟧: riverside scenery\n- {川辺|かわべ}⟦の→の：09472_no⟧⟦{公園|こうえん}→公園：00581_kouen⟧: riverside park\n\nSIMILAR WORDS:\n- ⟦{川岸|かわぎし}→川岸：24545_kawagishi⟧: riverbank — focuses more on the bank/embankment itself\n- ⟦{岸辺|きしべ}→岸辺：20225_kishibe⟧: shore, bank — broader, can be used for lakes and seas too\n- ⟦{河川敷|かせんしき}→河川敷：24122_kasenshiki⟧: riverbed area — the flat area between the river and the levee",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24545_kawagishi",
+      "reading": "かわぎし",
+      "headword": "{川岸|かわぎし}",
+      "label": "riverbank"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20225_kishibe",
+      "reading": "きしべ",
+      "headword": "{岸辺|きしべ}",
+      "label": "shore, bank"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24122_kasenshiki",
+      "reading": "かせんしき",
+      "headword": "{河川敷|かせんしき}",
+      "label": "riverbed area"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24366_kagan",
+      "reading": "かがん",
+      "headword": "{河岸|かがん}",
+      "label": "riverbank"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["nature", "location"]
+      "semantic": [
+        "nature",
+        "location"
+      ]
     },
     "created": "2026-03-28T17:14:57Z",
-    "modified": "2026-03-28T17:14:57Z"
+    "modified": "2026-09-02T04:01:58Z"
   }
 }

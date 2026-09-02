@@ -3,7 +3,7 @@
   "headword": "{堆肥化|たいひか}",
   "reading": "たいひか",
   "romaji": "taihika",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "composting; turning waste into compost",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29825_taihika_ex1",
-      "japanese": "{生|なま}ごみを{堆肥化|たいひか}する。",
+      "japanese": "{生|なま}ごみ⟦を→を：00422_wo⟧{堆肥化|たいひか}⟦する→する：00392_suru⟧。",
       "english": "Compost the food waste.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29825_taihika_ex2",
-      "japanese": "{落|お}ち{葉|ば}の{堆肥化|たいひか}を{進|すす}める。",
+      "japanese": "⟦{落|お}ち{葉|ば}→落ち葉：14108_ochiba⟧⟦の→の：09472_no⟧{堆肥化|たいひか}⟦を→を：00422_wo⟧⟦{進|すす}める→進める：01949_susumeru⟧。",
       "english": "Promote the composting of fallen leaves.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29825_taihika_ex3",
-      "japanese": "{家庭|かてい}の{生|なま}ごみを{堆肥化|たいひか}して{畑|はたけ}で{使|つか}っている。",
+      "japanese": "⟦{家庭|かてい}→家庭：12315_katei⟧⟦の→の：09472_no⟧{生|なま}ごみ⟦を→を：00422_wo⟧{堆肥化|たいひか}⟦して→する：00392_suru⟧⟦{畑|はたけ}→畑：00842_hatake⟧⟦で→で：00502_de⟧⟦{使|つか}っている→使う：00473_tsukau⟧。",
       "english": "We compost household food scraps and use them in the field.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "{堆肥|たいひ} (compost, organic manure) + {化|か} (-ization). The {化|か} suffix forms nouns and する-verbs meaning \"conversion into\".\n\nRELATED WORDS:\n- {堆肥|たいひ}: compost; organic manure\n- {肥料|ひりょう}: fertilizer\n- コンポスト: compost; compost bin",
+  "notes": "⟦{堆肥|たいひ}→堆肥：06471_taihi⟧ (compost, organic manure) + ⟦{化|か}→〜化：28335_ka⟧ (-ization). The ⟦{化|か}→〜化：28335_ka⟧ suffix forms nouns and ⟦する→する：00392_suru⟧-verbs meaning \"conversion into\".\n\nRELATED WORDS:\n- ⟦{堆肥|たいひ}→堆肥：06471_taihi⟧: compost; organic manure\n- ⟦{肥料|ひりょう}→肥料：06102_hiryou⟧: fertilizer\n- ⟦コンポスト→コンポスト：29822_konposuto⟧: compost; compost bin",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "06102_hiryou",
+      "reading": "ひりょう",
+      "headword": "{肥料|ひりょう}",
+      "label": "fertilizer"
+    },
+    {
+      "type": "related",
+      "target_id": "29822_konposuto",
+      "reading": "こんぽすと",
+      "headword": "コンポスト",
+      "label": "compost"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -54,15 +70,16 @@
         "verb-suru"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "action"
       ],
       "domain": [],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-07-14T06:18:33Z",
-    "modified": "2026-07-14T06:18:33Z"
+    "modified": "2026-09-02T04:02:38Z"
   },
   "conjugation": {
     "type": "suru",

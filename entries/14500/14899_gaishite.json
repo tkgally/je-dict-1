@@ -15,42 +15,69 @@
   "examples": [
     {
       "id": "14899_gaishite_ex1",
-      "japanese": "{概|がい}して{好評|こうひょう}だった。",
+      "japanese": "{概|がい}して⟦{好評|こうひょう}→好評：16720_kouhyou⟧だった。",
       "english": "It was generally well received.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14899_gaishite_ex2",
-      "japanese": "{概|がい}して{日本人|にほんじん}は{時間|じかん}に{正確|せいかく}だ。",
+      "japanese": "{概|がい}して⟦{日本人|にほんじん}→日本人：10112_nihonjin⟧⟦は→は：00079_ha⟧⟦{時間|じかん}→時間：00468_jikan⟧⟦に→に：00314_ni⟧⟦{正確|せいかく}→正確：03372_seikaku⟧だ。",
       "english": "Japanese people are generally punctual.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14899_gaishite_ex3",
-      "japanese": "{今年|ことし}の{試験結果|しけんけっか}は{概|がい}して{良好|りょうこう}であったと{言|い}える。",
+      "japanese": "⟦{今年|ことし}→今年：00722_kotoshi⟧⟦の→の：09472_no⟧{試験結果|しけんけっか}⟦は→は：00079_ha⟧{概|がい}して⟦{良好|りょうこう}→良好：13954_ryoukou⟧であった⟦と→と：00512_to⟧⟦{言|い}える→言う：00515_iu⟧。",
       "english": "It can be said that this year's exam results were generally favorable.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\n{概|がい}して is a formal adverb meaning \"generally\" or \"on the whole.\" It typically appears at the beginning of a sentence or before the predicate it modifies. It is more common in written language, news, and formal presentations than in casual conversation.\n\nCOMMON PATTERNS:\n- {概|がい}して + adjective/na-adjective + だ (generally [adjective])\n- {概|がい}して + noun + は (generally, [noun] ...)\n- {概|がい}して{言|い}えば (generally speaking)\n\nSIMILAR WORDS:\n- {概|がい}して: generally (formal, often written)\n- たいてい: usually, mostly (neutral, everyday)\n- {総|そう}じて: overall, in general (formal, similar register to {概|がい}して)\n- {大体|だいたい}: roughly, more or less (casual, approximate)",
-  "cross_references": [],
+  "notes": "USAGE:\n{概|がい}して is a formal adverb meaning \"generally\" or \"on the whole.\" It typically appears at the beginning of a sentence or before the predicate it modifies. It is more common in written language, news, and formal presentations than in casual conversation.\n\nCOMMON PATTERNS:\n- {概|がい}して + adjective/na-adjective + だ (generally [adjective])\n- {概|がい}して + noun + ⟦は→は：00079_ha⟧ (generally, [noun] ...)\n- {概|がい}して⟦{言|い}えば→言う：00515_iu⟧ (generally speaking)\n\nSIMILAR WORDS:\n- {概|がい}して: generally (formal, often written)\n- ⟦たいてい→たいてい：01129_taitei⟧: usually, mostly (neutral, everyday)\n- ⟦{総|そう}じて→総じて：13845_soujite⟧: overall, in general (formal, similar register to {概|がい}して)\n- {大体|だいたい}: roughly, more or less (casual, approximate)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01129_taitei",
+      "reading": "たいてい",
+      "headword": "たいてい",
+      "label": "usually, mostly"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13845_soujite",
+      "reading": "そうじて",
+      "headword": "{総|そう}じて",
+      "label": "overall, in general"
+    }
+  ],
   "metadata": {
     "created": "2026-03-04T05:48:58Z",
-    "modified": "2026-03-04T05:48:58Z",
+    "modified": "2026-09-02T04:01:39Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adverb"],
+      "pos": [
+        "adverb"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["descriptive"],
-      "style": ["written"]
+      "semantic": [
+        "descriptive"
+      ],
+      "style": [
+        "written"
+      ]
     }
   }
 }

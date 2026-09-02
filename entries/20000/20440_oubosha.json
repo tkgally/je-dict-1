@@ -15,40 +15,80 @@
   "examples": [
     {
       "id": "20440_oubosha_ex1",
-      "japanese": "{応募者|おうぼしゃ}が{殺到|さっとう}した。",
+      "japanese": "{応募者|おうぼしゃ}⟦が→が：00051_ga⟧⟦{殺到|さっとう}→殺到：15036_sattou⟧⟦した→する：00392_suru⟧。",
       "english": "Applicants flooded in.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20440_oubosha_ex2",
-      "japanese": "{応募者|おうぼしゃ}{全員|ぜんいん}に{連絡|れんらく}を{差|さ}し{上|あ}げます。",
+      "japanese": "{応募者|おうぼしゃ}⟦{全員|ぜんいん}→全員：03310_zenin⟧⟦に→に：00314_ni⟧⟦{連絡|れんらく}→連絡：01524_renraku⟧⟦を→を：00422_wo⟧⟦{差|さ}し{上|あ}げます→差し上げる：01597_sashiageru⟧。",
       "english": "We will contact all applicants.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20440_oubosha_ex3",
-      "japanese": "{今回|こんかい}のコンテストには{百人|ひゃくにん}を{超|こ}える{応募者|おうぼしゃ}が{集|あつ}まった。",
+      "japanese": "⟦{今回|こんかい}→今回：01409_konkai⟧⟦の→の：09472_no⟧⟦コンテスト→コンテスト：03843_kontesuto⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{百人|ひゃくにん}→百人：10985_hyakunin⟧⟦を→を：00422_wo⟧⟦{超|こ}える→超える：01942_koeru⟧{応募者|おうぼしゃ}⟦が→が：00051_ga⟧⟦{集|あつ}まった→集まる：01162_atsumaru⟧。",
       "english": "More than a hundred entrants gathered for this contest.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {応募|おうぼ} (application, entry) and {者|しゃ} (person). Refers specifically to someone who responds to a public invitation — a job listing, a contest, a campaign, etc.\n\nUSAGE:\nVery common in business and hiring contexts. Unlike {志願者|しがんしゃ} (volunteer) or {候補者|こうほしゃ} (candidate), {応募者|おうぼしゃ} emphasizes the responsive nature of the application — someone applied because an opportunity was announced.\n\nCOMMON COLLOCATIONS:\n- {応募者|おうぼしゃ}{多数|たすう} — many applicants\n- {応募者|おうぼしゃ}を{募|つの}る — to solicit applicants\n- {応募者|おうぼしゃ}{全員|ぜんいん} — all applicants\n- {応募者|おうぼしゃ}{数|すう} — number of applicants\n\nSIMILAR WORDS:\n- {候補者|こうほしゃ} — candidate, nominee (broader, includes those nominated by others)\n- {志願者|しがんしゃ} — volunteer, someone who puts themselves forward\n- {受験者|じゅけんしゃ} — examinee, test-taker (specifically for exams)",
+  "notes": "A compound of ⟦{応募|おうぼ}→応募：03014_oubo⟧ (application, entry) and ⟦{者|しゃ}→〜者：04662_sha⟧ (person). Refers specifically to someone who responds to a public invitation — a job listing, a contest, a campaign, etc.\n\nUSAGE:\nVery common in business and hiring contexts. Unlike ⟦{志願者|しがんしゃ}→志願者：20919_shigansha⟧ (volunteer) or ⟦{候補者|こうほしゃ}→候補者：20439_kouhosha⟧ (candidate), {応募者|おうぼしゃ} emphasizes the responsive nature of the application — someone applied because an opportunity was announced.\n\nCOMMON COLLOCATIONS:\n- {応募者|おうぼしゃ}⟦{多数|たすう}→多数：05612_tasuu⟧ — many applicants\n- {応募者|おうぼしゃ}⟦を→を：00422_wo⟧⟦{募|つの}る→募る：10878_tsunoru⟧ — to solicit applicants\n- {応募者|おうぼしゃ}⟦{全員|ぜんいん}→全員：03310_zenin⟧ — all applicants\n- {応募者|おうぼしゃ}⟦{数|すう}→数：03360_suu⟧ — number of applicants\n\nSIMILAR WORDS:\n- ⟦{候補者|こうほしゃ}→候補者：20439_kouhosha⟧ — candidate, nominee (broader, includes those nominated by others)\n- ⟦{志願者|しがんしゃ}→志願者：20919_shigansha⟧ — volunteer, someone who puts themselves forward\n- {受験者|じゅけんしゃ} — examinee, test-taker (specifically for exams)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20439_kouhosha",
+      "reading": "こうほしゃ",
+      "headword": "{候補者|こうほしゃ}",
+      "label": "candidate, nominee"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20919_shigansha",
+      "reading": "しがんしゃ",
+      "headword": "{志願者|しがんしゃ}",
+      "label": "volunteer, someone who puts themselves…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21747_kyuushokusha",
+      "reading": "きゅうしょくしゃ",
+      "headword": "{求職者|きゅうしょくしゃ}",
+      "label": "job seeker"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23920_shutsujousha",
+      "reading": "しゅつじょうしゃ",
+      "headword": "{出場者|しゅつじょうしゃ}",
+      "label": "participant"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["business"]
+      "semantic": [
+        "business"
+      ]
     },
     "created": "2026-03-29T14:08:48Z",
-    "modified": "2026-03-29T14:08:48Z"
+    "modified": "2026-09-02T04:01:59Z"
   }
 }

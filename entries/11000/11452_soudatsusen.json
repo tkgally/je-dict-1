@@ -15,41 +15,73 @@
   "examples": [
     {
       "id": "11452_soudatsusen_ex1",
-      "japanese": "{優勝|ゆうしょう}{争奪戦|そうだつせん}が{始|はじ}まった。",
+      "japanese": "⟦{優勝|ゆうしょう}→優勝：03647_yuushou⟧{争奪戦|そうだつせん}⟦が→が：00051_ga⟧⟦{始|はじ}まった→始まる：00841_hajimaru⟧。",
       "english": "The battle for the championship has begun.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11452_soudatsusen_ex2",
-      "japanese": "{人材|じんざい}の{争奪戦|そうだつせん}が{激|はげ}しくなっている。",
+      "japanese": "⟦{人材|じんざい}→人材：11426_jinzai⟧⟦の→の：09472_no⟧{争奪戦|そうだつせん}⟦が→が：00051_ga⟧⟦{激|はげ}しく→激しい：02348_hageshii⟧⟦なっている→なる：01970_naru⟧。",
       "english": "The competition for talent is intensifying.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11452_soudatsusen_ex3",
-      "japanese": "{限定|げんてい}{商品|しょうひん}をめぐる{争奪戦|そうだつせん}が{毎回|まいかい}{繰|く}り{広|ひろ}げられる。",
+      "japanese": "⟦{限定|げんてい}→限定：10997_gentei⟧⟦{商品|しょうひん}→商品：01436_shouhin⟧⟦を→を：00422_wo⟧めぐる{争奪戦|そうだつせん}⟦が→が：00051_ga⟧⟦{毎回|まいかい}→毎回：13202_maikai⟧⟦{繰|く}り{広|ひろ}げられる→繰り広げる：06982_kurihirogeru⟧。",
       "english": "A scramble over limited-edition products takes place every time.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{争奪戦|そうだつせん} describes a fierce competition where multiple parties scramble to obtain the same thing. Composed of {争奪|そうだつ} (scramble for possession) + {戦|せん} (battle).\n\nCOMMON COLLOCATIONS:\n- {優勝|ゆうしょう}{争奪戦|そうだつせん}: championship battle\n- {人材|じんざい}{争奪戦|そうだつせん}: talent war (companies competing for workers)\n- {市場|しじょう}{争奪戦|そうだつせん}: market share battle\n- 〜をめぐる{争奪戦|そうだつせん}: a battle over ~\n- {熾烈|しれつ}な{争奪戦|そうだつせん}: fierce competition\n\nUSAGE:\nOften used in sports, business, and politics to describe intense competition. It conveys more urgency and intensity than simple {競争|きょうそう} (competition).\n\nSIMILAR WORDS:\n- {競争|きょうそう}: competition (general, less intense)\n- {戦|たたか}い: fight, battle (broader)\n- {争|あらそ}い: dispute, conflict",
-  "cross_references": [],
+  "notes": "{争奪戦|そうだつせん} describes a fierce competition where multiple parties scramble to obtain the same thing. Composed of {争奪|そうだつ} (scramble for possession) + ⟦{戦|せん}→〜戦：28346_sen⟧ (battle).\n\nCOMMON COLLOCATIONS:\n- ⟦{優勝|ゆうしょう}→優勝：03647_yuushou⟧{争奪戦|そうだつせん}: championship battle\n- ⟦{人材|じんざい}→人材：11426_jinzai⟧{争奪戦|そうだつせん}: talent war (companies competing for workers)\n- ⟦{市場|しじょう}→市場：09685_shijou⟧{争奪戦|そうだつせん}: market share battle\n- 〜⟦を→を：00422_wo⟧めぐる{争奪戦|そうだつせん}: a battle over ~\n- ⟦{熾烈|しれつ}→熾烈：16024_shiretsu⟧な{争奪戦|そうだつせん}: fierce competition\n\nUSAGE:\nOften used in sports, business, and politics to describe intense competition. It conveys more urgency and intensity than simple ⟦{競争|きょうそう}→競争：01388_kyousou⟧ (competition).\n\nSIMILAR WORDS:\n- ⟦{競争|きょうそう}→競争：01388_kyousou⟧: competition (general, less intense)\n- ⟦{戦|たたか}い→戦い：02070_tatakai⟧: fight, battle (broader)\n- ⟦{争|あらそ}い→争い：09992_arasoi⟧: dispute, conflict",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01388_kyousou",
+      "reading": "きょうそう",
+      "headword": "{競争|きょうそう}",
+      "label": "competition"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02070_tatakai",
+      "reading": "たたかい",
+      "headword": "{戦|たたか}い",
+      "label": "fight, battle"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09992_arasoi",
+      "reading": "あらそい",
+      "headword": "{争|あらそ}い",
+      "label": "dispute, conflict"
+    }
+  ],
   "metadata": {
     "created": "2026-02-16T10:57:49Z",
-    "modified": "2026-03-30T03:38:10Z",
+    "modified": "2026-09-02T04:01:25Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

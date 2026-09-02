@@ -3,7 +3,7 @@
   "headword": "{倒壊|とうかい}",
   "reading": "とうかい",
   "romaji": "toukai",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "collapse; destruction (of a building or structure)",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25308_toukai_ex1",
-      "japanese": "{地震|じしん}で{建物|たてもの}が{倒壊|とうかい}した。",
+      "japanese": "⟦{地震|じしん}→地震：01608_jishin⟧⟦で→で：00502_de⟧⟦{建物|たてもの}→建物：01458_tatemono⟧⟦が→が：00051_ga⟧{倒壊|とうかい}⟦した→する：00392_suru⟧。",
       "english": "The building collapsed in the earthquake.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25308_toukai_ex2",
-      "japanese": "{倒壊|とうかい}した{家屋|かおく}から{生存者|せいぞんしゃ}が{救出|きゅうしゅつ}された。",
+      "japanese": "{倒壊|とうかい}⟦した→する：00392_suru⟧⟦{家屋|かおく}→家屋：00188_kaoku⟧⟦から→から：00504_kara⟧⟦{生存者|せいぞんしゃ}→生存者：21241_seizonsha⟧⟦が→が：00051_ga⟧⟦{救出|きゅうしゅつ}→救出：12918_kyuushutsu⟧⟦された→する：00392_suru⟧。",
       "english": "Survivors were rescued from the collapsed houses.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25308_toukai_ex3",
-      "japanese": "{老朽化|ろうきゅうか}した{橋|はし}が{倒壊|とうかい}する{危険性|きけんせい}があると{専門家|せんもんか}が{警告|けいこく}した。",
+      "japanese": "⟦{老朽化|ろうきゅうか}→老朽化：07646_roukyuuka⟧⟦した→する：00392_suru⟧⟦{橋|はし}→橋：02163_hashi⟧⟦が→が：00051_ga⟧{倒壊|とうかい}⟦する→する：00392_suru⟧⟦{危険性|きけんせい}→危険性：17827_kikensei⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧⟦と→と：00512_to⟧⟦{専門家|せんもんか}→専門家：03088_senmonka⟧⟦が→が：00051_ga⟧⟦{警告|けいこく}→警告：02696_keikoku⟧⟦した→する：00392_suru⟧。",
       "english": "Experts warned that the aging bridge is in danger of collapsing.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Specifically describes the collapse or destruction of buildings and structures. Used extensively in disaster reporting, particularly for earthquakes and typhoons. Composed of {倒|とう} (topple) and {壊|かい} (destroy).\n\nCOMMON COLLOCATIONS:\n- {建物|たてもの}が{倒壊|とうかい}する: a building collapses\n- {全壊|ぜんかい}/{半壊|はんかい}: total/partial collapse\n- {倒壊|とうかい}の{危険|きけん}: danger of collapse\n- {倒壊|とうかい}{家屋|かおく}: collapsed buildings\n\nSIMILAR WORDS:\n- {崩壊|ほうかい}: collapse, breakdown — broader; used for systems, regimes, structures\n- {崩落|ほうらく}: cave-in, collapse — used for cliffs, tunnels, roofs falling in\n- {倒れる|たおれる}: fall over — more general; people or objects falling",
+  "notes": "Specifically describes the collapse or destruction of buildings and structures. Used extensively in disaster reporting, particularly for earthquakes and typhoons. Composed of {倒|とう} (topple) and {壊|かい} (destroy).\n\nCOMMON COLLOCATIONS:\n- ⟦{建物|たてもの}→建物：01458_tatemono⟧⟦が→が：00051_ga⟧{倒壊|とうかい}⟦する→する：00392_suru⟧: a building collapses\n- {全壊|ぜんかい}/{半壊|はんかい}: total/partial collapse\n- {倒壊|とうかい}⟦の→の：09472_no⟧⟦{危険|きけん}→危険：01141_kiken⟧: danger of collapse\n- {倒壊|とうかい}⟦{家屋|かおく}→家屋：00188_kaoku⟧: collapsed buildings\n\nSIMILAR WORDS:\n- ⟦{崩壊|ほうかい}→崩壊：09067_houkai⟧: collapse, breakdown — broader; used for systems, regimes, structures\n- {崩落|ほうらく}: cave-in, collapse — used for cliffs, tunnels, roofs falling in\n- ⟦{倒|たお}れる→倒れる：01160_taoreru⟧: fall over — more general; people or objects falling",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09067_houkai",
+      "reading": "ほうかい",
+      "headword": "{崩壊|ほうかい}",
+      "label": "collapse, breakdown"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01160_taoreru",
+      "reading": "たおれる",
+      "headword": "{倒|たお}れる",
+      "label": "fall over"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +69,16 @@
         "noun",
         "verb-suru"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "nature"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     },
     "created": "2026-04-24T14:22:22Z",
-    "modified": "2026-04-24T14:22:22Z"
+    "modified": "2026-09-02T04:02:21Z"
   },
   "conjugation": {
     "type": "suru",

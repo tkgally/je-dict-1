@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "10330_guzuru_ex1",
-      "japanese": "{赤|あか}ちゃんがぐずっている。",
+      "japanese": "⟦{赤|あか}ちゃん→赤ちゃん：01282_akachan⟧⟦が→が：00051_ga⟧ぐずって⟦いる→いる：00495_iru⟧。",
       "english": "The baby is fussing.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "10330_guzuru_ex2",
-      "japanese": "{眠|ねむ}くなると、この{子|こ}はすぐぐずる。",
+      "japanese": "⟦{眠|ねむ}く→眠い：00872_nemui⟧⟦なる→なる：01970_naru⟧⟦と→と：00512_to⟧、⟦この→この：00962_kono⟧⟦{子|こ}→子：09851_ko⟧⟦は→は：00079_ha⟧⟦すぐ→すぐ：00814_sugu⟧ぐずる。",
       "english": "When this child gets sleepy, they start whining right away.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "10330_guzuru_ex3",
-      "japanese": "{夕方|ゆうがた}になると{疲|つか}れてぐずり{始|はじ}めるので、{早|はや}めに{帰|かえ}ろう。",
+      "japanese": "⟦{夕方|ゆうがた}→夕方：01010_yuugata⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦と→と：00512_to⟧⟦{疲|つか}れて→疲れる：00901_tsukareru⟧ぐずり{始|はじ}める⟦の→の：09472_no⟧で、⟦{早|はや}め→早め：11176_hayame⟧⟦に→に：00314_ni⟧⟦{帰|かえ}ろう→帰る：00508_kaeru⟧。",
       "english": "They start getting fussy in the evening when they're tired, so let's head home early.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,19 @@
       ]
     }
   ],
-  "notes": "Mainly describes the behavior of children who are in a bad mood, whining and crying or being demanding.\n\nCOMMON PATTERNS:\n- ぐずり{始|はじ}める: to start fussing\n- ぐずっている: to be fussing\n\nUSAGE: Most commonly used about babies and small children. The related adverb ぐずぐず describes being slow or indecisive.",
-  "cross_references": [],
+  "notes": "Mainly describes the behavior of children who are in a bad mood, whining and crying or being demanding.\n\nCOMMON PATTERNS:\n- ぐずり{始|はじ}める: to start fussing\n- ぐずって⟦いる→いる：00495_iru⟧: to be fussing\n\nUSAGE: Most commonly used about babies and small children. The related adverb ⟦ぐずぐず→ぐずぐず：05844_guzuguzu⟧ describes being slow or indecisive.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25850_guzuguzusuru",
+      "reading": "ぐずぐずする",
+      "headword": "ぐずぐずする",
+      "label": "to dawdle"
+    }
+  ],
   "metadata": {
     "created": "2026-02-07T06:48:21Z",
-    "modified": "2026-08-14T01:00:44Z",
+    "modified": "2026-09-02T04:01:20Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
@@ -147,6 +155,7 @@
       "transitivity": "intransitive",
       "verb_class": "godan-ru",
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "emotion"
       ]

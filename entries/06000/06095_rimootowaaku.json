@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nリモートワーク became widely used in Japan during the COVID-19 pandemic starting in 2020. It's often used interchangeably with テレワーク, though テレワーク was more common in government and corporate contexts before the pandemic.\n\nCOMMON PATTERNS:\n・リモートワーク⟦で→で：00502_de⟧⟦{働|はたら}く→働く：00503_hataraku⟧ (work remotely)\n・リモートワーク⟦を→を：00422_wo⟧⟦{導入|どうにゅう}する→導入：10127_dounyuu⟧ (introduce remote work)\n・リモートワーク⟦{可能|かのう}→可能：00175_kanou⟧ (remote work available)\n\nSIMILAR TERMS:\n・テレワーク - telework (older, more formal term)\n・⟦{在宅|ざいたく}→在宅：07696_zaitaku⟧⟦{勤務|きんむ}→勤務：04545_kinmu⟧ - work from home (WFH)\n・ハイブリッドワーク - hybrid work",
+  "notes": "USAGE:\nリモートワーク became widely used in Japan during the COVID-19 pandemic starting in 2020. It's often used interchangeably with ⟦テレワーク→テレワーク：05397_terewaaku⟧, though ⟦テレワーク→テレワーク：05397_terewaaku⟧ was more common in government and corporate contexts before the pandemic.\n\nCOMMON PATTERNS:\n- リモートワーク⟦で→で：00502_de⟧⟦{働|はたら}く→働く：00503_hataraku⟧ (work remotely)\n- リモートワーク⟦を→を：00422_wo⟧⟦{導入|どうにゅう}する→導入：10127_dounyuu⟧ (introduce remote work)\n- リモートワーク⟦{可能|かのう}→可能：00175_kanou⟧ (remote work available)\n\nSIMILAR WORDS:\n- ⟦テレワーク→テレワーク：05397_terewaaku⟧ - telework (older, more formal term)\n- ⟦{在宅|ざいたく}→在宅：07696_zaitaku⟧⟦{勤務|きんむ}→勤務：04545_kinmu⟧ - work from home (WFH)\n- ⟦ハイブリッド→ハイブリッド：11391_haiburiddo⟧ワーク - hybrid work",
   "cross_references": [
     {
       "type": "synonym",
@@ -51,11 +51,60 @@
       "headword": "{在宅勤務|ざいたくきんむ}",
       "label": "work from home",
       "target_id": "06158_zaitakukinmu"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05397_terewaaku",
+      "reading": "てれわーく",
+      "headword": "テレワーク",
+      "label": "telework"
+    },
+    {
+      "type": "related",
+      "target_id": "06152_furiiransu",
+      "reading": "ふりーらんす",
+      "headword": "フリーランス",
+      "label": "freelance"
+    },
+    {
+      "type": "related",
+      "target_id": "06405_nomado",
+      "reading": "のまど",
+      "headword": "ノマド",
+      "label": "digital nomad"
+    },
+    {
+      "type": "related",
+      "target_id": "07111_waakuraifubaransu",
+      "reading": "わーくらいふばらんす",
+      "headword": "ワークライフバランス",
+      "label": "work-life balance"
+    },
+    {
+      "type": "related",
+      "target_id": "08593_haiburiddokinmu",
+      "reading": "はいぶりっどきんむ",
+      "headword": "ハイブリッド{勤務|きんむ}",
+      "label": "hybrid work"
+    },
+    {
+      "type": "related",
+      "target_id": "08612_waakeeshon",
+      "reading": "わーけーしょん",
+      "headword": "ワーケーション",
+      "label": "workcation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18868_zaitakuwaaku",
+      "reading": "ざいたくわーく",
+      "headword": "{在宅|ざいたく}ワーク",
+      "label": "working from home"
     }
   ],
   "metadata": {
     "created": "2026-01-17T03:13:44Z",
-    "modified": "2026-06-12T15:55:26Z",
+    "modified": "2026-09-02T04:01:08Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

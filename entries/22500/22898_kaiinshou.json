@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22898_kaiinshou_ex1",
-      "japanese": "{会員証|かいいんしょう}を{見|み}せてください。",
+      "japanese": "{会員証|かいいんしょう}⟦を→を：00422_wo⟧⟦{見|み}せて→見せる：01988_miseru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please show your membership card.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22898_kaiinshou_ex2",
-      "japanese": "ジムの{会員証|かいいんしょう}を{忘|わす}れてきた。",
+      "japanese": "⟦ジム→ジム：04735_jimu⟧⟦の→の：09472_no⟧{会員証|かいいんしょう}⟦を→を：00422_wo⟧⟦{忘|わす}れて→忘れる：00474_wasureru⟧きた。",
       "english": "I forgot to bring my gym membership card.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22898_kaiinshou_ex3",
-      "japanese": "{入会|にゅうかい}すると、その{場|ば}で{会員証|かいいんしょう}が{発行|はっこう}される。",
+      "japanese": "⟦{入会|にゅうかい}する→入会する：19522_nyuukaisuru⟧⟦と→と：00512_to⟧、⟦その→その：00993_sono⟧⟦{場|ば}→場：03699_ba⟧⟦で→で：00502_de⟧{会員証|かいいんしょう}⟦が→が：00051_ga⟧⟦{発行|はっこう}される→発行する：19236_hakkousuru⟧。",
       "english": "When you sign up, a membership card is issued on the spot.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "A practical everyday word. Membership cards are extremely common in Japan — gyms, video rental shops, bookstores, loyalty programs, and many other businesses issue them.\n\nCOMMON COLLOCATIONS:\n- {会員証|かいいんしょう}を{提示|ていじ}する: to present one's membership card\n- {会員証|かいいんしょう}を{発行|はっこう}する: to issue a membership card\n- デジタル{会員証|かいいんしょう}: digital membership card\n- {会員証|かいいんしょう}の{更新|こうしん}: renewal of a membership card\n\nRELATED TERMS:\n- {会員|かいいん}: member\n- {身分証|みぶんしょう}: ID card — general identification, not specific to membership\n- {診察券|しんさつけん}: patient registration card — similar concept for medical facilities\n\nCULTURAL NOTE:\nMany Japanese shops and services offer point cards ({ポイントカード}) that also serve as a form of membership card, combining loyalty rewards with member identification.",
+  "notes": "A practical everyday word. Membership cards are extremely common in Japan — gyms, video rental shops, bookstores, loyalty programs, and many other businesses issue them.\n\nCOMMON COLLOCATIONS:\n- {会員証|かいいんしょう}⟦を→を：00422_wo⟧⟦{提示|ていじ}する→提示する：26842_teijisuru⟧: to present one's membership card\n- {会員証|かいいんしょう}⟦を→を：00422_wo⟧⟦{発行|はっこう}する→発行する：19236_hakkousuru⟧: to issue a membership card\n- ⟦デジタル→デジタル：05870_dejitaru⟧{会員証|かいいんしょう}: digital membership card\n- {会員証|かいいんしょう}⟦の→の：09472_no⟧⟦{更新|こうしん}→更新：04765_koushin⟧: renewal of a membership card\n\nRELATED WORDS:\n- ⟦{会員|かいいん}→会員：02535_kaiin⟧: member\n- ⟦{身分証|みぶんしょう}→身分証：11508_mibunshou⟧: ID card — general identification, not specific to membership\n- ⟦{診察券|しんさつけん}→診察券：09709_shinsatsuken⟧: patient registration card — similar concept for medical facilities\n\nCULTURAL NOTE:\nMany Japanese shops and services offer point cards (⟦ポイントカード→ポイントカード：09835_pointokaado⟧) that also serve as a form of membership card, combining loyalty rewards with member identification.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "11508_mibunshou",
+      "reading": "みぶんしょう",
+      "headword": "{身分証|みぶんしょう}",
+      "label": "ID card"
+    },
+    {
+      "type": "related",
+      "target_id": "09709_shinsatsuken",
+      "reading": "しんさつけん",
+      "headword": "{診察券|しんさつけん}",
+      "label": "patient registration card"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +75,6 @@
       ]
     },
     "created": "2026-04-07T20:17:00Z",
-    "modified": "2026-04-10T08:28:27Z"
+    "modified": "2026-09-02T04:02:10Z"
   }
 }

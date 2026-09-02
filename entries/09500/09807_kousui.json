@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "09807_kousui_ex1",
-      "japanese": "{降水|こうすい}{量|りょう}⟦が→が：00051_ga⟧{多|おお}い。",
+      "japanese": "{降水|こうすい}{量|りょう}⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "Precipitation is heavy.",
       "has_audio": false,
       "sense_numbers": [
@@ -23,7 +23,7 @@
     },
     {
       "id": "09807_kousui_ex2",
-      "japanese": "{降水|こうすい}{確率|かくりつ}⟦は→は：00079_ha⟧50%です。",
+      "japanese": "{降水|こうすい}⟦{確率|かくりつ}→確率：00159_kakuritsu⟧⟦は→は：00079_ha⟧50%です。",
       "english": "The chance of precipitation is 50%.",
       "has_audio": false,
       "sense_numbers": [
@@ -32,7 +32,7 @@
     },
     {
       "id": "09807_kousui_ex3",
-      "japanese": "{年間|ねんかん}{降水|こうすい}{量|りょう}⟦を→を：00422_wo⟧{測|はか}る。",
+      "japanese": "⟦{年間|ねんかん}→年間：00974_nenkan⟧{降水|こうすい}{量|りょう}⟦を→を：00422_wo⟧⟦{測|はか}る→測る：01977_hakaru⟧。",
       "english": "To measure annual precipitation.",
       "has_audio": false,
       "sense_numbers": [
@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "notes": "{降水|こうすい} is a meteorological term for precipitation.\n\nCOMMON COLLOCATIONS:\n- {降水|こうすい}{量|りょう} (precipitation amount)\n- {降水|こうすい}{確率|かくりつ} (chance of precipitation)\n- {年間|ねんかん}{降水|こうすい}{量|りょう} (annual precipitation)\n- {降水|こうすい}がある (there is precipitation)\n\nINCLUDES:\n- {雨|あめ} (rain)\n- {雪|ゆき} (snow)\n- {霰|あられ} (hail)\n- {霙|みぞれ} (sleet)\n\nNOTE: Do not confuse with {香水|こうすい} (perfume), which has the same reading.",
+  "notes": "{降水|こうすい} is a meteorological term for precipitation.\n\nCOMMON COLLOCATIONS:\n- {降水|こうすい}{量|りょう} (precipitation amount)\n- {降水|こうすい}⟦{確率|かくりつ}→確率：00159_kakuritsu⟧ (chance of precipitation)\n- ⟦{年間|ねんかん}→年間：00974_nenkan⟧{降水|こうすい}{量|りょう} (annual precipitation)\n- {降水|こうすい}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧ (there is precipitation)\n\nINCLUDES:\n- ⟦{雨|あめ}→雨：00583_ame⟧ (rain)\n- ⟦{雪|ゆき}→雪：00584_yuki⟧ (snow)\n- ⟦{霰|あられ}→霰：05392_arare⟧ (hail)\n- ⟦{霙|みぞれ}→霙：06505_mizore⟧ (sleet)\n\nNOTE: Do not confuse with ⟦{香水|こうすい}→香水：00247_kousui⟧ (perfume), which has the same reading.",
   "prominent_see_also": [
     {
       "target_id": "00247_kousui",
@@ -49,9 +49,18 @@
       "note": "perfume"
     }
   ],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21711_kouu",
+      "reading": "こうう",
+      "headword": "{降雨|こうう}",
+      "label": "rainfall"
+    }
+  ],
   "metadata": {
     "created": "2026-02-03T11:36:14Z",
-    "modified": "2026-04-23T07:31:27Z",
+    "modified": "2026-09-02T04:01:19Z",
     "ai_model": "claude-opus-4-5-20251101",
     "vocabulary_tier": "general",
     "tags": {

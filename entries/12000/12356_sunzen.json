@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "12356_sunzen_ex1",
-      "japanese": "{衝突|しょうとつ}{寸前|すんぜん}で{止|と}まった。",
+      "japanese": "⟦{衝突|しょうとつ}→衝突：03235_shoutotsu⟧{寸前|すんぜん}⟦で→で：00502_de⟧⟦{止|と}まった→止まる：00555_tomaru⟧。",
       "english": "It stopped just before the collision.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12356_sunzen_ex2",
-      "japanese": "{締|し}め{切|き}り{寸前|すんぜん}にレポートを{出|だ}した。",
+      "japanese": "⟦{締|し}め{切|き}り→締め切り：04162_shimekiri⟧{寸前|すんぜん}⟦に→に：00314_ni⟧⟦レポート→レポート：01543_repooto⟧⟦を→を：00422_wo⟧⟦{出|だ}した→出す：01087_dasu⟧。",
       "english": "I submitted the report just before the deadline.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12356_sunzen_ex3",
-      "japanese": "{会社|かいしゃ}は{倒産|とうさん}{寸前|すんぜん}だったが、{新|あたら}しい{投資家|とうしか}が{現|あらわ}れて{助|たす}かった。",
+      "japanese": "⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦は→は：00079_ha⟧⟦{倒産|とうさん}→倒産：03452_tousan⟧{寸前|すんぜん}だった⟦が→が：00051_ga⟧、⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦{投資家|とうしか}→投資家：16242_toushika⟧⟦が→が：00051_ga⟧⟦{現|あらわ}れて→現れる：01870_arawareru⟧⟦{助|たす}かった→助かる：01956_tasukaru⟧。",
       "english": "The company was on the verge of bankruptcy, but a new investor appeared and saved it.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "GRAMMAR:\n{寸前|すんぜん} attaches directly to nouns (Xの{寸前|すんぜん} or X{寸前|すんぜん}) to mean \"just before X\" or \"on the verge of X.\" It can also follow the dictionary form of verbs with の or する (e.g., {爆発|ばくはつ}する{寸前|すんぜん}).\n\nCOLLOCATIONS:\n- {衝突|しょうとつ}{寸前|すんぜん} — just before collision\n- {倒産|とうさん}{寸前|すんぜん} — on the verge of bankruptcy\n- {締|し}め{切|き}り{寸前|すんぜん} — just before the deadline\n- {崩壊|ほうかい}{寸前|すんぜん} — on the verge of collapse\n\nSIMILAR WORDS:\n{直前|ちょくぜん} also means just before but is more neutral and commonly used for scheduled events. {寸前|すんぜん} has a more dramatic nuance, often implying a close call or near miss.",
+  "notes": "COMMON PATTERNS:\n{寸前|すんぜん} attaches directly to nouns (X⟦の→の：09472_no⟧{寸前|すんぜん} or X{寸前|すんぜん}) to mean \"just before X\" or \"on the verge of X.\" It can also follow the dictionary form of verbs with ⟦の→の：09472_no⟧ or ⟦する→する：00392_suru⟧ (e.g., ⟦{爆発|ばくはつ}→爆発：03575_bakuhatsu⟧⟦する→する：00392_suru⟧{寸前|すんぜん}).\n\nCOMMON COLLOCATIONS:\n- ⟦{衝突|しょうとつ}→衝突：03235_shoutotsu⟧{寸前|すんぜん} — just before collision\n- ⟦{倒産|とうさん}→倒産：03452_tousan⟧{寸前|すんぜん} — on the verge of bankruptcy\n- ⟦{締|し}め{切|き}り→締め切り：04162_shimekiri⟧{寸前|すんぜん} — just before the deadline\n- ⟦{崩壊|ほうかい}→崩壊：09067_houkai⟧{寸前|すんぜん} — on the verge of collapse\n\nSIMILAR WORDS:\n⟦{直前|ちょくぜん}→直前：13651_chokuzen⟧ also means just before but is more neutral and commonly used for scheduled events. {寸前|すんぜん} has a more dramatic nuance, often implying a close call or near miss.",
   "cross_references": [
     {
       "type": "contrast",
@@ -46,18 +52,29 @@
       "reading": "ちょくぜん",
       "headword": "{直前|ちょくぜん}",
       "label": "just before (neutral)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23136_chokuzenni",
+      "reading": "ちょくぜんに",
+      "headword": "{直前|ちょくぜん}に",
+      "label": "immediately before"
     }
   ],
   "metadata": {
     "created": "2026-02-21T05:23:56Z",
-    "modified": "2026-04-26T09:20:33Z",
+    "modified": "2026-09-02T04:01:28Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["time-general"]
+      "semantic": [
+        "time-general"
+      ]
     }
   }
 }

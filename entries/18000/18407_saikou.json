@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "18407_saikou_ex1",
-      "japanese": "{採光|さいこう}のいい{部屋|へや}だ。",
+      "japanese": "{採光|さいこう}⟦の→の：09472_no⟧⟦いい→いい：00118_ii⟧⟦{部屋|へや}→部屋：00507_heya⟧だ。",
       "english": "This room has good natural lighting.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "18407_saikou_ex2",
-      "japanese": "{大|おお}きな{窓|まど}で{採光|さいこう}を{確保|かくほ}した。",
+      "japanese": "⟦{大|おお}きな→大きな：02849_ookina⟧⟦{窓|まど}→窓：02254_mado⟧⟦で→で：00502_de⟧{採光|さいこう}⟦を→を：00422_wo⟧⟦{確保|かくほ}→確保：13681_kakuho⟧⟦した→する：00392_suru⟧。",
       "english": "Large windows ensure sufficient natural lighting.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "18407_saikou_ex3",
-      "japanese": "この{設計|せっけい}は{採光|さいこう}と{換気|かんき}を{両立|りょうりつ}させている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{設計|せっけい}→設計：03300_sekkei⟧⟦は→は：00079_ha⟧{採光|さいこう}⟦と→と：00512_to⟧⟦{換気|かんき}→換気：00172_kanki⟧⟦を→を：00422_wo⟧⟦{両立|りょうりつ}→両立：11310_ryouritsu⟧⟦させている→する：00392_suru⟧。",
       "english": "This design achieves both natural lighting and ventilation.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "{採光|さいこう} combines {採|さい} (to gather) and {光|こう} (light) — literally \"gathering light.\"\n\nCOMMON COLLOCATIONS:\n- {採光|さいこう}がいい/わるい — good/poor natural lighting\n- {採光|さいこう}を{確保|かくほ}する — to secure natural lighting\n- {採光|さいこう}{窓|まど} — window for natural lighting\n\nIn Japanese building regulations, residential rooms must meet minimum {採光|さいこう} standards. Real estate listings frequently mention {採光|さいこう} as a selling point, especially for south-facing rooms ({南向|みなみむ}き).",
+  "notes": "{採光|さいこう} combines {採|さい} (to gather) and {光|こう} (light) — literally \"gathering light.\"\n\nCOMMON COLLOCATIONS:\n- {採光|さいこう}⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧/わるい — good/poor natural lighting\n- {採光|さいこう}⟦を→を：00422_wo⟧⟦{確保|かくほ}→確保：13681_kakuho⟧⟦する→する：00392_suru⟧ — to secure natural lighting\n- {採光|さいこう}⟦{窓|まど}→窓：02254_mado⟧ — window for natural lighting\n\nIn Japanese building regulations, residential rooms must meet minimum {採光|さいこう} standards. Real estate listings frequently mention {採光|さいこう} as a selling point, especially for south-facing rooms (⟦{南向|みなみむ}き→南向き：22595_minamimuki⟧).",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "07096_fukinuke",
+      "reading": "ふきぬけ",
+      "headword": "{吹|ふ}き{抜|ぬ}け",
+      "label": "atrium"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,6 +71,6 @@
       ]
     },
     "created": "2026-03-22T00:39:35Z",
-    "modified": "2026-05-08T10:08:08Z"
+    "modified": "2026-09-02T04:01:52Z"
   }
 }

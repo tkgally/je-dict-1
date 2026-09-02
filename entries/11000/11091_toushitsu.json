@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "11091_toushitsu_ex1",
-      "japanese": "{糖質|とうしつ}を{控|ひか}えている。",
+      "japanese": "{糖質|とうしつ}⟦を→を：00422_wo⟧⟦{控|ひか}えている→控える：10054_hikaeru⟧。",
       "english": "I'm cutting back on carbs.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "11091_toushitsu_ex2",
-      "japanese": "この{食品|しょくひん}は{糖質|とうしつ}が{少|すく}ないです。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{食品|しょくひん}→食品：03247_shokuhin⟧⟦は→は：00079_ha⟧{糖質|とうしつ}⟦が→が：00051_ga⟧⟦{少|すく}ない→少ない：01136_sukunai⟧です。",
       "english": "This food product is low in carbohydrates.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "11091_toushitsu_ex3",
-      "japanese": "{糖質|とうしつ}{制限|せいげん}ダイエットが{最近|さいきん}{流行|はや}っている。",
+      "japanese": "{糖質|とうしつ}⟦{制限|せいげん}→制限：03375_seigen⟧⟦ダイエット→ダイエット：17678_daietto⟧⟦が→が：00051_ga⟧⟦{最近|さいきん}→最近：00881_saikin⟧⟦{流行|はや}っている→流行る：02400_hayaru⟧。",
       "english": "Low-carb diets have been popular recently.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{糖質|とうしつ} is the term commonly seen on Japanese nutrition labels and in diet-related discussions. It refers to digestible carbohydrates (sugars and starches), as opposed to {食物繊維|しょくもつせんい} (dietary fiber).\n\nNUTRITION LABEL NOTE:\nJapanese food labels list {炭水化物|たんすいかぶつ} (total carbohydrates) which equals {糖質|とうしつ} + {食物繊維|しょくもつせんい}.\n\nCOMMON COLLOCATIONS:\n- {糖質|とうしつ}{制限|せいげん} (carb restriction, low-carb)\n- {糖質|とうしつ}オフ (sugar-free/low-carb — used on product labels)\n- {糖質|とうしつ}{量|りょう} (carbohydrate content)\n\nRELATED NUTRITION TERMS:\n- {脂質|ししつ} (lipids, fats)\n- たんぱく{質|しつ} (protein)\n- {炭水化物|たんすいかぶつ} (total carbohydrates, including fiber)",
+  "notes": "USAGE:\n{糖質|とうしつ} is the term commonly seen on Japanese nutrition labels and in diet-related discussions. It refers to digestible carbohydrates (sugars and starches), as opposed to ⟦{食物繊維|しょくもつせんい}→食物繊維：15118_shokumotsuseni⟧ (dietary fiber).\n\nNUTRITION LABEL NOTE:\nJapanese food labels list ⟦{炭水化物|たんすいかぶつ}→炭水化物：06208_tansuikabutsu⟧ (total carbohydrates) which equals {糖質|とうしつ} + ⟦{食物繊維|しょくもつせんい}→食物繊維：15118_shokumotsuseni⟧.\n\nCOMMON COLLOCATIONS:\n- {糖質|とうしつ}⟦{制限|せいげん}→制限：03375_seigen⟧ (carb restriction, low-carb)\n- {糖質|とうしつ}⟦オフ→オフ：10733_ofu⟧ (sugar-free/low-carb — used on product labels)\n- {糖質|とうしつ}{量|りょう} (carbohydrate content)\n\nRELATED NUTRITION TERMS:\n- ⟦{脂質|ししつ}→脂質：11092_shishitsu⟧ (lipids, fats)\n- たんぱく⟦{質|しつ}→質：01425_shitsu⟧ (protein)\n- ⟦{炭水化物|たんすいかぶつ}→炭水化物：06208_tansuikabutsu⟧ (total carbohydrates, including fiber)",
   "cross_references": [
     {
       "type": "related",
@@ -52,11 +52,32 @@
       "reading": "ししつ",
       "headword": "{脂質|ししつ}",
       "label": "fat, lipids"
+    },
+    {
+      "type": "related",
+      "target_id": "06208_tansuikabutsu",
+      "reading": "たんすいかぶつ",
+      "headword": "{炭水化物|たんすいかぶつ}",
+      "label": "total carbohydrates, including fiber"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15847_toubun",
+      "reading": "とうぶん",
+      "headword": "{糖分|とうぶん}",
+      "label": "sugar content"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24648_tourui",
+      "reading": "とうるい",
+      "headword": "{糖類|とうるい}",
+      "label": "sugars"
     }
   ],
   "metadata": {
     "created": "2026-02-13T12:38:59Z",
-    "modified": "2026-04-25T04:12:08Z",
+    "modified": "2026-09-02T04:01:23Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

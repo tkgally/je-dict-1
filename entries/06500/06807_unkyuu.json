@@ -2,7 +2,7 @@
   "id": "06807_unkyuu",
   "headword": "{運休|うんきゅう}",
   "reading": "うんきゅう",
-  "part_of_speech": "noun / suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "service suspension (transportation)",
   "conjugation": {
     "type": "suru",
@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "06807_unkyuu_ex1",
-      "japanese": "⟦{台風|たいふう}→台風：01455_taifuu⟧⟦の→の：09472_no⟧⟦{影響|えいきょう}→影響：01877_eikyou⟧⟦で→で：00502_de⟧⟦{電車|でんしゃ}→電車：00522_densha⟧⟦が→が：00051_ga⟧{運休|うんきゅう}している。",
+      "japanese": "⟦{台風|たいふう}→台風：01455_taifuu⟧⟦の→の：09472_no⟧⟦{影響|えいきょう}→影響：01877_eikyou⟧⟦で→で：00502_de⟧⟦{電車|でんしゃ}→電車：00522_densha⟧⟦が→が：00051_ga⟧{運休|うんきゅう}⟦している→する：00392_suru⟧。",
       "english": "Trains are suspended due to the typhoon.",
       "sense_numbers": [
         1
@@ -127,7 +127,7 @@
       ]
     }
   ],
-  "notes": "FORMATION: {運|うん} (transport) + {休|きゅう} (rest/suspension).\n\nCOMMON COLLOCATIONS:\n・{運休|うんきゅう}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧ (become suspended)\n・{運休|うんきゅう}⟦する→する：00392_suru⟧ (suspend service)\n・{運休|うんきゅう}⟦{情報|じょうほう}→情報：03348_jouhou⟧ (service suspension information)\n・{運休|うんきゅう}⟦が→が：00051_ga⟧⟦{出|で}る→出る：00513_deru⟧ (suspensions are announced)\n・⟦{計画|けいかく}→計画：01172_keikaku⟧{運休|うんきゅう} (planned service suspension)\n\nRELATED TERMS:\n・⟦{遅延|ちえん}→遅延：06749_chien⟧ (delay)\n・⟦{運行|うんこう}→運行：14375_unkou⟧ (service operation)\n・⟦{再開|さいかい}→再開：05219_saikai⟧ (resumption of service)\n・⟦{振替|ふりかえ}→振替：15942_furikae⟧⟦{輸送|ゆそう}→輸送：04084_yusou⟧ (alternative transportation)",
+  "notes": "FORMATION: ⟦{運|うん}→運：02143_un⟧ (transport) + {休|きゅう} (rest/suspension).\n\nCOMMON COLLOCATIONS:\n- {運休|うんきゅう}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧ (become suspended)\n- {運休|うんきゅう}⟦する→する：00392_suru⟧ (suspend service)\n- {運休|うんきゅう}⟦{情報|じょうほう}→情報：03348_jouhou⟧ (service suspension information)\n- {運休|うんきゅう}⟦が→が：00051_ga⟧⟦{出|で}る→出る：00513_deru⟧ (suspensions are announced)\n- ⟦{計画|けいかく}→計画：01172_keikaku⟧{運休|うんきゅう} (planned service suspension)\n\nRELATED WORDS:\n- ⟦{遅延|ちえん}→遅延：06749_chien⟧ (delay)\n- ⟦{運行|うんこう}→運行：14375_unkou⟧ (service operation)\n- ⟦{再開|さいかい}→再開：05219_saikai⟧ (resumption of service)\n- ⟦{振替|ふりかえ}→振替：15942_furikae⟧⟦{輸送|ゆそう}→輸送：04084_yusou⟧ (alternative transportation)",
   "cross_references": [
     {
       "type": "related",
@@ -147,11 +147,39 @@
       "target_id": "05219_saikai",
       "reading": "さいかい",
       "headword": "{再開|さいかい}"
+    },
+    {
+      "type": "related",
+      "target_id": "08352_furikaeyusou",
+      "reading": "ふりかえゆそう",
+      "headword": "{振替輸送|ふりかえゆそう}",
+      "label": "alternative transportation"
+    },
+    {
+      "type": "related",
+      "target_id": "09509_kekkou",
+      "reading": "けっこう",
+      "headword": "{欠航|けっこう}",
+      "label": "flight cancellation, service suspension"
+    },
+    {
+      "type": "related",
+      "target_id": "23320_mabikiunten",
+      "reading": "まびきうんてん",
+      "headword": "{間引|まび}き{運転|うんてん}",
+      "label": "reduced service (of trains/buses)"
+    },
+    {
+      "type": "related",
+      "target_id": "23323_orikaeshiunten",
+      "reading": "おりかえしうんてん",
+      "headword": "{折返|おりかえ}し{運転|うんてん}",
+      "label": "shuttle operation"
     }
   ],
   "metadata": {
     "created": "2026-01-18T07:17:46Z",
-    "modified": "2026-08-06T15:38:28Z",
+    "modified": "2026-09-02T04:01:09Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

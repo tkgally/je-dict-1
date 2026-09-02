@@ -2,7 +2,7 @@
   "id": "11328_koudai",
   "headword": "{広大|こうだい}",
   "reading": "こうだい",
-  "part_of_speech": "adjective-na",
+  "part_of_speech": "na-adjective",
   "gloss": "vast; extensive; immense",
   "definitions": [
     {
@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "11328_koudai_ex1",
-      "japanese": "{広大|こうだい}な{土地|とち}が{広|ひろ}がっている。",
+      "japanese": "{広大|こうだい}な⟦{土地|とち}→土地：02226_tochi⟧⟦が→が：00051_ga⟧⟦{広|ひろ}がっている→広がる：01980_hirogaru⟧。",
       "english": "Vast land stretches out.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "11328_koudai_ex2",
-      "japanese": "この{公園|こうえん}は{広大|こうだい}で、{一日|いちにち}では{回|まわ}りきれない。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{公園|こうえん}→公園：00581_kouen⟧⟦は→は：00079_ha⟧{広大|こうだい}で、⟦{一日|いちにち}→一日：00942_ichinichi⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{回|まわ}り→回る：01150_mawaru⟧きれない。",
       "english": "This park is so vast that you can't see it all in one day.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "11328_koudai_ex3",
-      "japanese": "オーストラリアには{広大|こうだい}な{砂漠|さばく}があり、{人|ひと}がほとんど{住|す}んでいない{地域|ちいき}も{多|おお}い。",
+      "japanese": "⟦オーストラリア→オーストラリア：28144_oosutoraria⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{広大|こうだい}な⟦{砂漠|さばく}→砂漠：09508_sabaku⟧⟦が→が：00051_ga⟧⟦あり→ある：00006_aru⟧、⟦{人|ひと}→人：00476_hito⟧⟦が→が：00051_ga⟧⟦ほとんど→ほとんど：00847_hotondo⟧⟦{住|す}んでいない→住む：00673_sumu⟧⟦{地域|ちいき}→地域：01461_chiiki⟧⟦も→も：00484_mo⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "Australia has vast deserts, and there are many areas where almost no one lives.",
       "notes": null,
       "has_audio": false,
@@ -43,11 +43,11 @@
       ]
     }
   ],
-  "notes": "{広大|こうだい} is a na-adjective describing extremely large areas or spaces.\n\nWORD FORMATION:\n{広|こう} (wide) + {大|だい} (large)\n\nCOMMON COLLOCATIONS:\n- {広大|こうだい}な{土地|とち}: vast land\n- {広大|こうだい}な{敷地|しきち}: extensive grounds\n- {広大|こうだい}な{自然|しぜん}: vast nature\n- {広大|こうだい}な{平原|へいげん}: vast plain\n\nSIMILAR WORDS:\n- {広|ひろ}い: wide, spacious (general, everyday)\n- {広大|こうだい}: vast, immense (literary, emphasizes enormous scale)\n- {膨大|ぼうだい}: enormous (used for quantity or volume, not area)",
+  "notes": "{広大|こうだい} is a na-adjective describing extremely large areas or spaces.\n\nFORMS:\n{広|こう} (wide) + {大|だい} (large)\n\nCOMMON COLLOCATIONS:\n- {広大|こうだい}な⟦{土地|とち}→土地：02226_tochi⟧: vast land\n- {広大|こうだい}な⟦{敷地|しきち}→敷地：00365_shikichi⟧: extensive grounds\n- {広大|こうだい}な⟦{自然|しぜん}→自然：01423_shizen⟧: vast nature\n- {広大|こうだい}な⟦{平原|へいげん}→平原：27685_heigen⟧: vast plain\n\nSIMILAR WORDS:\n- ⟦{広|ひろ}い→広い：00704_hiroi⟧: wide, spacious (general, everyday)\n- {広大|こうだい}: vast, immense (literary, emphasizes enormous scale)\n- ⟦{膨大|ぼうだい}→膨大：08997_boudai⟧: enormous (used for quantity or volume, not area)",
   "schema_version": "2.0",
   "metadata": {
     "created": "2026-02-16T00:41:26Z",
-    "modified": "2026-04-25T04:12:08Z",
+    "modified": "2026-09-02T04:01:24Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
@@ -67,6 +67,27 @@
       "reading": "ひろい",
       "headword": "{広|ひろ}い",
       "label": "wide (everyday)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08997_boudai",
+      "reading": "ぼうだい",
+      "headword": "{膨大|ぼうだい}",
+      "label": "enormous"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03973_hirobiro",
+      "reading": "ひろびろ",
+      "headword": "{広々|ひろびろ}",
+      "label": "spaciously"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19608_yuudai",
+      "reading": "ゆうだい",
+      "headword": "{雄大|ゆうだい}",
+      "label": "grand"
     }
   ]
 }

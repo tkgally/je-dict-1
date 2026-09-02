@@ -15,41 +15,73 @@
   "examples": [
     {
       "id": "15935_hondou_ex1",
-      "japanese": "{本堂|ほんどう}でお{参|まい}りをした。",
+      "japanese": "{本堂|ほんどう}⟦で→で：00502_de⟧⟦お{参|まい}り→お参り：16837_omairi⟧⟦を→を：00422_wo⟧⟦した→する：00392_suru⟧。",
       "english": "I prayed at the main hall of the temple.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15935_hondou_ex2",
-      "japanese": "{本堂|ほんどう}は{国宝|こくほう}に{指定|してい}されている。",
+      "japanese": "{本堂|ほんどう}⟦は→は：00079_ha⟧⟦{国宝|こくほう}→国宝：09642_kokuhou⟧⟦に→に：00314_ni⟧⟦{指定|してい}→指定：00373_shitei⟧⟦されている→する：00392_suru⟧。",
       "english": "The main hall is designated as a national treasure.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15935_hondou_ex3",
-      "japanese": "{修復|しゅうふく}{工事|こうじ}を{終|お}えた{本堂|ほんどう}が、{美|うつく}しい{姿|すがた}を{取|と}り{戻|もど}した。",
+      "japanese": "⟦{修復|しゅうふく}→修復：11544_shuufuku⟧⟦{工事|こうじ}→工事：00244_kouji⟧⟦を→を：00422_wo⟧⟦{終|お}えた→終える：02019_oeru⟧{本堂|ほんどう}⟦が→が：00051_ga⟧、⟦{美|うつく}しい→美しい：01121_utsukushii⟧⟦{姿|すがた}→姿：03363_sugata⟧⟦を→を：00422_wo⟧⟦{取|と}り{戻|もど}した→取り戻す：04223_torimodosu⟧。",
       "english": "The main hall, having completed restoration work, has regained its beautiful appearance.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\n{本堂|ほんどう} is used specifically for Buddhist temples. When visiting temples in Japan, it is the main building where visitors go to pray. Major temple main halls, such as those at {清水寺|きよみずでら} or {東大寺|とうだいじ}, are important cultural landmarks.\n\nCOMMON COLLOCATIONS:\n- {本堂|ほんどう}にお{参|まい}りする (to pray at the main hall)\n- {本堂|ほんどう}の{前|まえ} (in front of the main hall)\n- {本堂|ほんどう}の{修復|しゅうふく} (restoration of the main hall)\n\nSIMILAR WORDS:\nShinto shrines use {本殿|ほんでん} (main sanctuary) or {拝殿|はいでん} (worship hall) instead of {本堂|ほんどう}. {金堂|こんどう} is an alternative name for the main hall used in some older temple traditions.",
-  "cross_references": [],
+  "notes": "USAGE:\n{本堂|ほんどう} is used specifically for Buddhist temples. When visiting temples in Japan, it is the main building where visitors go to pray. Major temple main halls, such as those at {清水寺|きよみずでら} or {東大寺|とうだいじ}, are important cultural landmarks.\n\nCOMMON COLLOCATIONS:\n- {本堂|ほんどう}⟦に→に：00314_ni⟧⟦お{参|まい}り→お参り：16837_omairi⟧⟦する→する：00392_suru⟧ (to pray at the main hall)\n- {本堂|ほんどう}⟦の→の：09472_no⟧⟦{前|まえ}→前：02255_mae⟧ (in front of the main hall)\n- {本堂|ほんどう}⟦の→の：09472_no⟧⟦{修復|しゅうふく}→修復：11544_shuufuku⟧ (restoration of the main hall)\n\nSIMILAR WORDS:\nShinto shrines use ⟦{本殿|ほんでん}→本殿：13090_honden⟧ (main sanctuary) or ⟦{拝殿|はいでん}→拝殿：24252_haiden⟧ (worship hall) instead of {本堂|ほんどう}. {金堂|こんどう} is an alternative name for the main hall used in some older temple traditions.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24252_haiden",
+      "reading": "はいでん",
+      "headword": "{拝殿|はいでん}",
+      "label": "worship hall"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24639_honzan",
+      "reading": "ほんざん",
+      "headword": "{本山|ほんざん}",
+      "label": "head temple"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25003_butsuden",
+      "reading": "ぶつでん",
+      "headword": "{仏殿|ぶつでん}",
+      "label": "Buddha hall"
+    }
+  ],
   "metadata": {
     "created": "2026-03-09T00:40:08Z",
-    "modified": "2026-03-09T00:40:08Z",
+    "modified": "2026-09-02T04:01:43Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["building"]
+      "semantic": [
+        "building"
+      ]
     }
   }
 }

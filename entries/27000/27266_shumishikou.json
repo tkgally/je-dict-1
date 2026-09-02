@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "27266_shumishikou_ex1",
-      "japanese": "{趣味|しゅみ}{嗜好|しこう}は{人|ひと}それぞれだ。",
+      "japanese": "{趣味|しゅみ}{嗜好|しこう}⟦は→は：00079_ha⟧⟦{人|ひと}それぞれ→人それぞれ：24844_hitosorezore⟧だ。",
       "english": "Everyone has different tastes and preferences.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "27266_shumishikou_ex2",
-      "japanese": "{顧客|こきゃく}の{趣味|しゅみ}{嗜好|しこう}に{合|あ}わせた{商品|しょうひん}を{開発|かいはつ}する。",
+      "japanese": "⟦{顧客|こきゃく}→顧客：08632_kokyaku⟧⟦の→の：09472_no⟧{趣味|しゅみ}{嗜好|しこう}⟦に→に：00314_ni⟧⟦{合|あ}わせた→合わせる：01872_awaseru⟧⟦{商品|しょうひん}→商品：01436_shouhin⟧⟦を→を：00422_wo⟧⟦{開発|かいはつ}→開発：06746_kaihatsu⟧⟦する→する：00392_suru⟧。",
       "english": "We develop products tailored to customers' tastes and preferences.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "27266_shumishikou_ex3",
-      "japanese": "SNSの{投稿|とうこう}から{趣味|しゅみ}{嗜好|しこう}を{分析|ぶんせき}して、{広告|こうこく}を{表示|ひょうじ}する{仕組|しく}みになっている。",
+      "japanese": "SNS⟦の→の：09472_no⟧⟦{投稿|とうこう}→投稿：04733_toukou⟧⟦から→から：00504_kara⟧{趣味|しゅみ}{嗜好|しこう}⟦を→を：00422_wo⟧⟦{分析|ぶんせき}して→分析する：25338_bunsekisuru⟧、⟦{広告|こうこく}→広告：02747_koukoku⟧⟦を→を：00422_wo⟧⟦{表示|ひょうじ}する→表示する：26973_hyoujisuru⟧⟦{仕組|しく}み→仕組み：07168_shikumi⟧になっている。",
       "english": "The system analyzes tastes and preferences from social media posts and displays advertisements accordingly.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "A {四字熟語|よじじゅくご}-style compound pairing {趣味|しゅみ} (hobbies; tastes) with {嗜好|しこう} (liking; preference, especially for food, drink, or sensory pleasures). Together they encompass a person's full range of personal tastes.\n\nNUANCE:\n{趣味|しゅみ} alone covers hobbies and aesthetic taste, while {嗜好|しこう} alone leans toward preferences for consumables (coffee, alcohol, tobacco) and sensory pleasures. The compound covers both domains.\n\nCOMMON COLLOCATIONS:\n- {趣味|しゅみ}{嗜好|しこう}が{合|あ}う: to share similar tastes\n- {趣味|しゅみ}{嗜好|しこう}に{合|あ}わせる: to match someone's preferences\n- {個人|こじん}の{趣味|しゅみ}{嗜好|しこう}: individual tastes and preferences\n- {趣味|しゅみ}{嗜好|しこう}を{把握|はあく}する: to understand someone's preferences\n\nSIMILAR WORDS:\n- {好|この}み: preference; taste — more casual, everyday word for personal preference\n- {嗜好品|しこうひん}: luxury items; indulgences — specifically refers to items like coffee, tea, tobacco, and alcohol",
+  "notes": "A ⟦{四字熟語|よじじゅくご}→四字熟語：15663_yojijukugo⟧-style compound pairing ⟦{趣味|しゅみ}→趣味：00889_shumi⟧ (hobbies; tastes) with ⟦{嗜好|しこう}→嗜好：12060_shikou⟧ (liking; preference, especially for food, drink, or sensory pleasures). Together they encompass a person's full range of personal tastes.\n\nUSAGE:\n⟦{趣味|しゅみ}→趣味：00889_shumi⟧ alone covers hobbies and aesthetic taste, while ⟦{嗜好|しこう}→嗜好：12060_shikou⟧ alone leans toward preferences for consumables (coffee, alcohol, tobacco) and sensory pleasures. The compound covers both domains.\n\nCOMMON COLLOCATIONS:\n- {趣味|しゅみ}{嗜好|しこう}⟦が→が：00051_ga⟧⟦{合|あ}う→合う：10466_au⟧: to share similar tastes\n- {趣味|しゅみ}{嗜好|しこう}⟦に→に：00314_ni⟧⟦{合|あ}わせる→合わせる：01872_awaseru⟧: to match someone's preferences\n- ⟦{個人|こじん}→個人：02758_kojin⟧⟦の→の：09472_no⟧{趣味|しゅみ}{嗜好|しこう}: individual tastes and preferences\n- {趣味|しゅみ}{嗜好|しこう}⟦を→を：00422_wo⟧⟦{把握|はあく}する→把握する：19628_haakusuru⟧: to understand someone's preferences\n\nSIMILAR WORDS:\n- ⟦{好|この}み→好み：02767_konomi⟧: preference; taste — more casual, everyday word for personal preference\n- ⟦{嗜好品|しこうひん}→嗜好品：18161_shikouhin⟧: luxury items; indulgences — specifically refers to items like coffee, tea, tobacco, and alcohol",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02767_konomi",
+      "reading": "このみ",
+      "headword": "{好|この}み",
+      "label": "preference"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18161_shikouhin",
+      "reading": "しこうひん",
+      "headword": "{嗜好品|しこうひん}",
+      "label": "luxury items"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +69,13 @@
         "noun"
       ],
       "formality": "formal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "general"
       ],
       "domain": []
     },
     "created": "2026-05-08T12:10:21Z",
-    "modified": "2026-05-08T12:10:21Z"
+    "modified": "2026-09-02T04:02:29Z"
   }
 }

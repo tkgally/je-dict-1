@@ -3,7 +3,7 @@
   "headword": "{転送|てんそう}する",
   "reading": "てんそうする",
   "romaji": "tensousuru",
-  "part_of_speech": "noun, verb (する)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "to forward; to transfer; to redirect",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21617_tensousuru_ex1",
-      "japanese": "メールを{転送|てんそう}する。",
+      "japanese": "⟦メール→メール：04435_meeru⟧⟦を→を：00422_wo⟧{転送|てんそう}する。",
       "english": "To forward an email.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21617_tensousuru_ex2",
-      "japanese": "{郵便物|ゆうびんぶつ}を{新|あたら}しい{住所|じゅうしょ}に{転送|てんそう}してもらった。",
+      "japanese": "⟦{郵便物|ゆうびんぶつ}→郵便物：18044_yuubinbutsu⟧⟦を→を：00422_wo⟧⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦{住所|じゅうしょ}→住所：01430_juusho⟧⟦に→に：00314_ni⟧{転送|てんそう}して⟦もらった→もらう：00520_morau⟧。",
       "english": "I had my mail forwarded to my new address.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21617_tensousuru_ex3",
-      "japanese": "この{書類|しょるい}を{担当者|たんとうしゃ}に{転送|てんそう}してください。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{書類|しょるい}→書類：01103_shorui⟧⟦を→を：00422_wo⟧⟦{担当者|たんとうしゃ}→担当者：09676_tantousha⟧⟦に→に：00314_ni⟧{転送|てんそう}して⟦ください→ください：02899_kudasai⟧。",
       "english": "Please forward this document to the person in charge.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "A common word in both postal and digital communication contexts.\n\nCOMMON COLLOCATIONS:\n- メールを{転送|てんそう}する: to forward an email\n- {郵便|ゆうびん}{転送|てんそう}: mail forwarding\n- {転送|てんそう}{先|さき}: forwarding destination\n- {転送|てんそう}{届|とどけ}: forwarding request/notification\n- {電話|でんわ}{転送|てんそう}: call forwarding\n- データ{転送|てんそう}: data transfer\n\nSIMILAR WORDS:\n- {送|おく}る: to send — general, does not imply forwarding\n- {回送|かいそう}する: to forward/route — used for vehicles or freight\n- {送信|そうしん}する: to transmit — digital communication, original sending\n\nUSAGE:\nWhen moving house, the Japanese postal service ({郵便局|ゆうびんきょく}) offers a free {転送|てんそう} service that redirects mail to your new address for one year. Submit a {転居届|てんきょとどけ} to activate it.",
+  "notes": "A common word in both postal and digital communication contexts.\n\nCOMMON COLLOCATIONS:\n- ⟦メール→メール：04435_meeru⟧⟦を→を：00422_wo⟧{転送|てんそう}する: to forward an email\n- ⟦{郵便|ゆうびん}→郵便：03803_yuubin⟧⟦{転送|てんそう}→転送：14792_tensou⟧: mail forwarding\n- ⟦{転送|てんそう}{先|さき}→転送先：26102_tensousaki⟧: forwarding destination\n- ⟦{転送|てんそう}→転送：14792_tensou⟧{届|とどけ}: forwarding request/notification\n- ⟦{電話|でんわ}→電話：01471_denwa⟧⟦{転送|てんそう}→転送：14792_tensou⟧: call forwarding\n- ⟦データ→データ：03944_deeta⟧⟦{転送|てんそう}→転送：14792_tensou⟧: data transfer\n\nSIMILAR WORDS:\n- ⟦{送|おく}る→送る：00742_okuru⟧: to send — general, does not imply forwarding\n- {回送|かいそう}⟦する→する：00392_suru⟧: to forward/route — used for vehicles or freight\n- ⟦{送信|そうしん}する→送信する：26780_soushinsuru⟧: to transmit — digital communication, original sending\n\nUSAGE:\nWhen moving house, the Japanese postal service (⟦{郵便局|ゆうびんきょく}→郵便局：00579_yuubinkyoku⟧) offers a free ⟦{転送|てんそう}→転送：14792_tensou⟧ service that redirects mail to your new address for one year. Submit a ⟦{転居届|てんきょとどけ}→転居届：10284_tenkyotodoke⟧ to activate it.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00742_okuru",
+      "reading": "おくる",
+      "headword": "{送|おく}る",
+      "label": "to send"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26780_soushinsuru",
+      "reading": "そうしんする",
+      "headword": "{送信|そうしん}する",
+      "label": "to transmit"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -58,10 +74,11 @@
       "semantic": [
         "communication"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-04-02T18:15:20Z",
-    "modified": "2026-04-02T18:15:20Z"
+    "modified": "2026-09-02T04:02:04Z"
   },
   "conjugation": {
     "type": "suru",

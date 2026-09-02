@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30556_higaigaku_ex1",
-      "japanese": "{被害額|ひがいがく}はまだ{分|わ}からない。",
+      "japanese": "{被害額|ひがいがく}⟦は→は：00079_ha⟧⟦まだ→まだ：00603_mada⟧⟦{分|わ}からない→分かる：00463_wakaru⟧。",
       "english": "The amount of damage is not yet known.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30556_higaigaku_ex2",
-      "japanese": "{台風|たいふう}の{被害額|ひがいがく}は{百億円|ひゃくおくえん}を{超|こ}えた。",
+      "japanese": "⟦{台風|たいふう}→台風：01455_taifuu⟧⟦の→の：09472_no⟧{被害額|ひがいがく}⟦は→は：00079_ha⟧{百億円|ひゃくおくえん}⟦を→を：00422_wo⟧⟦{超|こ}えた→超える：01942_koeru⟧。",
       "english": "The damage from the typhoon exceeded ten billion yen.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30556_higaigaku_ex3",
-      "japanese": "{警察|けいさつ}は、この{詐欺|さぎ}{事件|じけん}の{被害額|ひがいがく}を{約|やく}{三千万円|さんぜんまんえん}と{発表|はっぴょう}した。",
+      "japanese": "⟦{警察|けいさつ}→警察：01393_keisatsu⟧⟦は→は：00079_ha⟧、⟦この→この：00962_kono⟧⟦{詐欺|さぎ}→詐欺：09789_sagi⟧⟦{事件|じけん}→事件：01568_jiken⟧⟦の→の：09472_no⟧{被害額|ひがいがく}⟦を→を：00422_wo⟧⟦{約|やく}→約：09563_yaku⟧{三千万円|さんぜんまんえん}⟦と→と：00512_to⟧⟦{発表|はっぴょう}した→発表する：25231_happyousuru⟧。",
       "english": "Police announced that the losses in this fraud case came to about thirty million yen.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "{被害|ひがい} (damage, harm) plus {額|がく} (sum, amount of money). Always about money — for physical extent of damage, use {被害|ひがい}{状況|じょうきょう} or {被害|ひがい}の{規模|きぼ}.\n\nCOMMON COLLOCATIONS:\n- {被害額|ひがいがく}を{算出|さんしゅつ}する: to calculate the losses\n- {被害額|ひがいがく}が{膨|ふく}らむ: for the losses to swell\n- {被害額|ひがいがく}は{約|やく}〜{円|えん}: the losses come to about ~ yen\n- {総|そう}{被害額|ひがいがく}: total losses\n\nSIMILAR WORDS:\n- {損害額|そんがいがく}: amount of loss — the same figure seen from the side of loss rather than of being victimized; common in contracts and insurance\n- {損害|そんがい}: damage, loss — the harm itself, not the figure",
+  "notes": "⟦{被害|ひがい}→被害：02572_higai⟧ (damage, harm) plus ⟦{額|がく}→額：02607_gaku⟧ (sum, amount of money). Always about money — for physical extent of damage, use ⟦{被害|ひがい}→被害：02572_higai⟧⟦{状況|じょうきょう}→状況：01576_joukyou⟧ or ⟦{被害|ひがい}→被害：02572_higai⟧⟦の→の：09472_no⟧⟦{規模|きぼ}→規模：05095_kibo⟧.\n\nCOMMON COLLOCATIONS:\n- {被害額|ひがいがく}⟦を→を：00422_wo⟧⟦{算出|さんしゅつ}→算出：15350_sanshutsu⟧⟦する→する：00392_suru⟧: to calculate the losses\n- {被害額|ひがいがく}⟦が→が：00051_ga⟧⟦{膨|ふく}らむ→膨らむ：05342_fukuramu⟧: for the losses to swell\n- {被害額|ひがいがく}⟦は→は：00079_ha⟧⟦{約|やく}→約：09563_yaku⟧〜⟦{円|えん}→円：00774_en⟧: the losses come to about ~ yen\n- ⟦{総|そう}→総〜：03958_sou⟧{被害額|ひがいがく}: total losses\n\nSIMILAR WORDS:\n- ⟦{損害額|そんがいがく}→損害額：30547_songaigaku⟧: amount of loss — the same figure seen from the side of loss rather than of being victimized; common in contracts and insurance\n- ⟦{損害|そんがい}→損害：02615_songai⟧: damage, loss — the harm itself, not the figure",
   "cross_references": [
     {
       "type": "related",
@@ -57,6 +57,20 @@
       "target_id": "02665_kingaku",
       "reading": "きんがく",
       "headword": "{金額|きんがく}"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30547_songaigaku",
+      "reading": "そんがいがく",
+      "headword": "{損害額|そんがいがく}",
+      "label": "amount of loss"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02615_songai",
+      "reading": "そんがい",
+      "headword": "{損害|そんがい}",
+      "label": "damage, loss"
     }
   ],
   "schema_version": "2.0",
@@ -67,7 +81,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "money",
         "quantity"
@@ -75,6 +89,6 @@
       "domain": []
     },
     "created": "2026-08-11T03:21:14Z",
-    "modified": "2026-08-11T03:21:14Z"
+    "modified": "2026-09-02T04:02:40Z"
   }
 }

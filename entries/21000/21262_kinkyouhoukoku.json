@@ -3,7 +3,7 @@
   "headword": "{近況報告|きんきょうほうこく}",
   "reading": "きんきょうほうこく",
   "romaji": "kinkyouhoukoku",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "update on recent situation",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21262_kinkyouhoukoku_ex1",
-      "japanese": "{近況報告|きんきょうほうこく}をお{願|ねが}いします。",
+      "japanese": "{近況報告|きんきょうほうこく}⟦を→を：00422_wo⟧お{願|ねが}いします。",
       "english": "Please give us an update on how you've been.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21262_kinkyouhoukoku_ex2",
-      "japanese": "{同窓会|どうそうかい}で{近況報告|きんきょうほうこく}をし{合|あ}った。",
+      "japanese": "⟦{同窓会|どうそうかい}→同窓会：15875_dousoukai⟧⟦で→で：00502_de⟧{近況報告|きんきょうほうこく}⟦を→を：00422_wo⟧し{合|あ}った。",
       "english": "We shared updates on our lives at the class reunion.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21262_kinkyouhoukoku_ex3",
-      "japanese": "{年賀状|ねんがじょう}に{簡単|かんたん}な{近況報告|きんきょうほうこく}を{添|そ}えるのが{一般的|いっぱんてき}だ。",
+      "japanese": "⟦{年賀状|ねんがじょう}→年賀状：06227_nengajou⟧⟦に→に：00314_ni⟧⟦{簡単|かんたん}→簡単：00713_kantan⟧な{近況報告|きんきょうほうこく}⟦を→を：00422_wo⟧⟦{添|そ}える→添える：13315_soeru⟧⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦{一般的|いっぱんてき}→一般的：04784_ippanteki⟧だ。",
       "english": "It is common to include a brief update on your life in New Year's cards.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {近況|きんきょう} (recent situation) and {報告|ほうこく} (report). Frequently encountered in reunion settings, letters, and social media posts. In Japanese social culture, sharing {近況報告|きんきょうほうこく} is an important way to maintain relationships.\n\nCOMMON COLLOCATIONS:\n- {近況報告|きんきょうほうこく}をする: to give an update on one's situation\n- {近況報告|きんきょうほうこく}を{兼|か}ねて: also serving as a life update\n- {簡単|かんたん}な{近況報告|きんきょうほうこく}: a brief status update\n\nRELATED TERMS:\n- {近況|きんきょう}: recent situation — the base word; often used in {近況|きんきょう}はいかがですか (How have you been?)\n- {報告|ほうこく}: report — the general term for reporting or giving an account\n- {消息|しょうそく}: news of someone, whereabouts — more formal; used when you haven't heard from someone in a while",
+  "notes": "A compound of ⟦{近況|きんきょう}→近況：14327_kinkyou⟧ (recent situation) and ⟦{報告|ほうこく}→報告：03618_houkoku⟧ (report). Frequently encountered in reunion settings, letters, and social media posts. In Japanese social culture, sharing {近況報告|きんきょうほうこく} is an important way to maintain relationships.\n\nCOMMON COLLOCATIONS:\n- {近況報告|きんきょうほうこく}⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧: to give an update on one's situation\n- {近況報告|きんきょうほうこく}⟦を→を：00422_wo⟧⟦{兼|か}ねて→兼ねる：11668_kaneru⟧: also serving as a life update\n- ⟦{簡単|かんたん}→簡単：00713_kantan⟧な{近況報告|きんきょうほうこく}: a brief status update\n\nRELATED WORDS:\n- ⟦{近況|きんきょう}→近況：14327_kinkyou⟧: recent situation — the base word; often used in ⟦{近況|きんきょう}→近況：14327_kinkyou⟧⟦は→は：00079_ha⟧⟦いかが→いかが：02846_ikaga⟧です⟦か→か：09473_ka⟧ (How have you been?)\n- ⟦{報告|ほうこく}→報告：03618_houkoku⟧: report — the general term for reporting or giving an account\n- ⟦{消息|しょうそく}→消息：19242_shousoku⟧: news of someone, whereabouts — more formal; used when you haven't heard from someone in a while",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "19242_shousoku",
+      "reading": "しょうそく",
+      "headword": "{消息|しょうそく}",
+      "label": "news of someone, whereabouts"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26397_kinkyoubun",
+      "reading": "きんきょうぶん",
+      "headword": "{近況文|きんきょうぶん}",
+      "label": "status update"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30046_joutaihoukoku",
+      "reading": "じょうたいほうこく",
+      "headword": "状態報告",
+      "label": "status report"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,7 +84,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-01T16:11:50Z",
-    "modified": "2026-04-01T16:11:50Z"
+    "modified": "2026-09-02T04:02:02Z"
   },
   "conjugation": {
     "type": "suru",

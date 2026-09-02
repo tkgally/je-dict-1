@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "23586_enzanshi_ex1",
-      "japanese": "「+」は{足|た}し{算|ざん}の{演算子|えんざんし}だ。",
+      "japanese": "「+」⟦は→は：00079_ha⟧⟦{足|た}し{算|ざん}→足し算：05332_tashizan⟧⟦の→の：09472_no⟧{演算子|えんざんし}だ。",
       "english": "\"+\" is the operator for addition.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "23586_enzanshi_ex2",
-      "japanese": "{比較|ひかく}{演算子|えんざんし}を{使|つか}って{二|ふた}つの{値|あたい}を{比|くら}べる。",
+      "japanese": "⟦{比較|ひかく}→比較：03576_hikaku⟧{演算子|えんざんし}⟦を→を：00422_wo⟧⟦{使|つか}って→使う：00473_tsukau⟧⟦{二|ふた}つ→二つ：02953_futatsu⟧⟦の→の：09472_no⟧⟦{値|あたい}→値：21704_atai⟧⟦を→を：00422_wo⟧⟦{比|くら}べる→比べる：01237_kuraberu⟧。",
       "english": "Use comparison operators to compare two values.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "23586_enzanshi_ex3",
-      "japanese": "{論理|ろんり}{演算子|えんざんし}のANDとORは、{複数|ふくすう}の{条件|じょうけん}を{組|く}み{合|あ}わせるときに{使|つか}われる。",
+      "japanese": "⟦{論理|ろんり}→論理：06026_ronri⟧{演算子|えんざんし}⟦の→の：09472_no⟧AND⟦と→と：00512_to⟧OR⟦は→は：00079_ha⟧、⟦{複数|ふくすう}→複数：14236_fukusuu⟧⟦の→の：09472_no⟧⟦{条件|じょうけん}→条件：03285_jouken⟧⟦を→を：00422_wo⟧⟦{組|く}み{合|あ}わせる→組み合わせる：04659_kumiawaseru⟧とき⟦に→に：00314_ni⟧⟦{使|つか}われる→使う：00473_tsukau⟧。",
       "english": "The logical operators AND and OR are used when combining multiple conditions.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {演算|えんざん} (calculation, operation) and {子|し} (element, unit). Used in mathematics, logic, and especially computer programming. The matching word for the values that operators act on is {被|ひ}{演算子|えんざんし} (operand) or オペランド.\n\nCOMMON COLLOCATIONS:\n- {算術|さんじゅつ}{演算子|えんざんし}: arithmetic operator (+, -, *, /)\n- {比較|ひかく}{演算子|えんざんし}: comparison operator (==, <, >)\n- {論理|ろんり}{演算子|えんざんし}: logical operator (AND, OR, NOT)\n- {代入|だいにゅう}{演算子|えんざんし}: assignment operator (=)\n\nRELATED TERMS:\n- {被|ひ}{演算子|えんざんし} / オペランド: operand — the value(s) an operator acts on\n- {演算|えんざん}: operation; calculation — the act the operator performs\n- {関数|かんすう}: function — a broader abstraction used for reusable operations in programming",
+  "notes": "Compound of ⟦{演算|えんざん}→演算：05150_enzan⟧ (calculation, operation) and {子|し} (element, unit). Used in mathematics, logic, and especially computer programming. The matching word for the values that operators act on is {被|ひ}{演算子|えんざんし} (operand) or オペランド.\n\nCOMMON COLLOCATIONS:\n- {算術|さんじゅつ}{演算子|えんざんし}: arithmetic operator (+, -, *, /)\n- ⟦{比較|ひかく}→比較：03576_hikaku⟧{演算子|えんざんし}: comparison operator (==, <, >)\n- ⟦{論理|ろんり}→論理：06026_ronri⟧{演算子|えんざんし}: logical operator (AND, OR, NOT)\n- ⟦{代入|だいにゅう}→代入：17080_dainyuu⟧{演算子|えんざんし}: assignment operator (=)\n\nRELATED WORDS:\n- {被|ひ}{演算子|えんざんし} / オペランド: operand — the value(s) an operator acts on\n- ⟦{演算|えんざん}→演算：05150_enzan⟧: operation; calculation — the act the operator performs\n- ⟦{関数|かんすう}→関数：04796_kansuu⟧: function — a broader abstraction used for reusable operations in programming",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "04796_kansuu",
+      "reading": "かんすう",
+      "headword": "{関数|かんすう}",
+      "label": "function"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -64,6 +73,6 @@
       ]
     },
     "created": "2026-04-12T18:11:29Z",
-    "modified": "2026-08-01T21:36:06Z"
+    "modified": "2026-09-02T04:02:13Z"
   }
 }

@@ -326,13 +326,13 @@ Run the extraction script to find potential references:
 
 ```bash
 # Dry run — see proposed changes
-python3 build/extract_references.py
+python3 build/harvest_crossrefs.py --ids <id,id>   # dry run by default
 
 # Apply changes
-python3 build/extract_references.py --apply
+python3 build/harvest_crossrefs.py --ids <id,id> --apply
 
 # Single entry
-python3 build/extract_references.py --id 00396_taberu
+python3 build/harvest_crossrefs.py --ids 00396 --report
 ```
 
 **Note:** The extraction script now performs immediate resolution. When a target entry exists, the extracted reference automatically includes `target_id`.

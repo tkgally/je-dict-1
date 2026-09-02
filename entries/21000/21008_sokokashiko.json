@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21008_sokokashiko_ex1",
-      "japanese": "{桜|さくら}がそこかしこに{咲|さ}いている。",
+      "japanese": "⟦{桜|さくら}→桜：02212_sakura⟧⟦が→が：00051_ga⟧そこかしこ⟦に→に：00314_ni⟧⟦{咲|さ}いている→咲く：08150_saku⟧。",
       "english": "Cherry blossoms are blooming here and there.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21008_sokokashiko_ex2",
-      "japanese": "{街|まち}のそこかしこにカフェがある。",
+      "japanese": "⟦{街|まち}→街：17306_machi⟧⟦の→の：09472_no⟧そこかしこ⟦に→に：00314_ni⟧⟦カフェ→カフェ：06767_kafe⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There are cafes all over the town.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21008_sokokashiko_ex3",
-      "japanese": "{台風|たいふう}の{後|あと}、そこかしこに{折|お}れた{枝|えだ}や{散|ち}らばったゴミが{見|み}られた。",
+      "japanese": "⟦{台風|たいふう}→台風：01455_taifuu⟧⟦の→の：09472_no⟧⟦{後|あと}→後：09580_ato⟧、そこかしこ⟦に→に：00314_ni⟧⟦{折|お}れた→折れる：01266_oreru⟧⟦{枝|えだ}→枝：02181_eda⟧や⟦{散|ち}らばった→散らばる：12713_chirabaru⟧⟦ゴミ→ゴミ：00840_gomi⟧⟦が→が：00051_ga⟧⟦{見|み}られた→見る：00283_miru⟧。",
       "english": "After the typhoon, broken branches and scattered debris could be seen everywhere.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "A slightly literary adverb meaning \"here and there\" or \"all over.\" Composed of そこ (there) + かしこ (over there), combining two demonstratives to express the idea of multiple scattered locations. More evocative and descriptive than あちこち.\n\nUSAGE:\nOften used in written prose and descriptive passages. Can follow a noun with the particle に (そこかしこに) to indicate location.\n\nSIMILAR WORDS:\n- あちこち: here and there — the most common everyday equivalent; neutral register\n- あちらこちら: here and there — polite form of あちこち\n- {至|いた}るところ: everywhere — emphasizes completeness of distribution; slightly formal\n- {方々|ほうぼう}: all around, in many places — implies searching or moving around",
+  "notes": "A slightly literary adverb meaning \"here and there\" or \"all over.\" Composed of ⟦そこ→そこ：00991_soko⟧ (there) + かしこ (over there), combining two demonstratives to express the idea of multiple scattered locations. More evocative and descriptive than ⟦あちこち→あちこち：01687_achikochi⟧.\n\nUSAGE:\nOften used in written prose and descriptive passages. Can follow a noun with the particle ⟦に→に：00314_ni⟧ (そこかしこ⟦に→に：00314_ni⟧) to indicate location.\n\nSIMILAR WORDS:\n- ⟦あちこち→あちこち：01687_achikochi⟧: here and there — the most common everyday equivalent; neutral register\n- ⟦あちらこちら→あちらこちら：25969_achirakochira⟧: here and there — polite form of ⟦あちこち→あちこち：01687_achikochi⟧\n- {至|いた}るところ: everywhere — emphasizes completeness of distribution; slightly formal\n- ⟦{方々|ほうぼう}→方々：00116_houbou⟧: all around, in many places — implies searching or moving around",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01687_achikochi",
+      "reading": "あちこち",
+      "headword": "あちこち",
+      "label": "here and there"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25969_achirakochira",
+      "reading": "あちらこちら",
+      "headword": "あちらこちら",
+      "label": "here and there"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00116_houbou",
+      "reading": "ほうぼう",
+      "headword": "{方々|ほうぼう}",
+      "label": "all around, in many places"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +82,6 @@
       ]
     },
     "created": "2026-03-31T14:08:52Z",
-    "modified": "2026-07-29T00:22:41Z"
+    "modified": "2026-09-02T04:02:01Z"
   }
 }

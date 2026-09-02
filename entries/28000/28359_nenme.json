@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28359_nenme_ex1",
-      "japanese": "{今年|ことし}で{三年目|さんねんめ}だ。",
+      "japanese": "⟦{今年|ことし}→今年：00722_kotoshi⟧⟦で→で：00502_de⟧{三年目|さんねんめ}だ。",
       "english": "This year is my third year.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28359_nenme_ex2",
-      "japanese": "{入社|にゅうしゃ}{五年目|ごねんめ}に{昇進|しょうしん}した。",
+      "japanese": "⟦{入社|にゅうしゃ}→入社：03131_nyuusha⟧{五年目|ごねんめ}⟦に→に：00314_ni⟧⟦{昇進|しょうしん}→昇進：04553_shoushin⟧⟦した→する：00392_suru⟧。",
       "english": "I was promoted in my fifth year at the company.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28359_nenme_ex3",
-      "japanese": "{結婚|けっこん}{十年目|じゅうねんめ}の{記念|きねん}に、{家族|かぞく}で{旅行|りょこう}に{出|で}かけた。",
+      "japanese": "⟦{結婚|けっこん}→結婚：02514_kekkon⟧{十年目|じゅうねんめ}⟦の→の：09472_no⟧⟦{記念|きねん}→記念：00232_kinen⟧⟦に→に：00314_ni⟧、⟦{家族|かぞく}→家族：00552_kazoku⟧⟦で→で：00502_de⟧⟦{旅行|りょこう}→旅行：00748_ryokou⟧⟦に→に：00314_ni⟧⟦{出|で}かけた→出かける：00833_dekakeru⟧。",
       "english": "To mark our tenth year of marriage, our family went on a trip together.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "Combines a counter ({年|ねん} years) with the ordinal suffix {目|め} (Nth). The counted year is inclusive: {一年目|いちねんめ} is the first year, not the year after the first.\n\nCOMMON COLLOCATIONS:\n- {入社|にゅうしゃ}{三年目|さんねんめ}: third year at the company\n- {結婚|けっこん}{十年目|じゅうねんめ}: tenth year of marriage\n- {留学|りゅうがく}{二年目|にねんめ}: second year of study abroad\n- {創業|そうぎょう}{百年目|ひゃくねんめ}: hundredth year since founding\n\nSIMILAR WORDS:\n- {年間|ねんかん}: a span of N years (duration) — {三年間|さんねんかん} \"for three years\"\n- {年|ねん}{後|ご}: N years later — {三年後|さんねんご} \"three years from now\"",
+  "notes": "Combines a counter (⟦{年|ねん}→年：09876_nen⟧ years) with the ordinal suffix ⟦{目|め}→目：00525_me⟧ (Nth). The counted year is inclusive: {一年目|いちねんめ} is the first year, not the year after the first.\n\nCOMMON COLLOCATIONS:\n- ⟦{入社|にゅうしゃ}→入社：03131_nyuusha⟧{三年目|さんねんめ}: third year at the company\n- ⟦{結婚|けっこん}→結婚：02514_kekkon⟧{十年目|じゅうねんめ}: tenth year of marriage\n- ⟦{留学|りゅうがく}→留学：03677_ryuugaku⟧{二年目|にねんめ}: second year of study abroad\n- ⟦{創業|そうぎょう}→創業：11792_sougyou⟧{百年目|ひゃくねんめ}: hundredth year since founding\n\nSIMILAR WORDS:\n- ⟦{年間|ねんかん}→年間：00974_nenkan⟧: a span of N years (duration) — ⟦{三年間|さんねんかん}→三年間：28861_sannenkan⟧ \"for three years\"\n- ⟦{年|ねん}→年：09876_nen⟧⟦{後|ご}→後：30157_go⟧: N years later — {三年後|さんねんご} \"three years from now\"",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00974_nenkan",
+      "reading": "ねんかん",
+      "headword": "{年間|ねんかん}",
+      "label": "a span of N years"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +62,13 @@
         "suffix"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "time-general"
       ],
       "domain": []
     },
     "created": "2026-05-29T04:09:30Z",
-    "modified": "2026-08-08T18:34:17Z"
+    "modified": "2026-09-02T04:02:33Z"
   }
 }

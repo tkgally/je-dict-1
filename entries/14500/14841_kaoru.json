@@ -3,7 +3,7 @@
   "id": "14841_kaoru",
   "headword": "{香|かお}る",
   "reading": "かおる",
-  "part_of_speech": "verb, godan",
+  "part_of_speech": "verb (godan)",
   "gloss": "to smell sweet; to be fragrant",
   "conjugation": {
     "type": "godan",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "14841_kaoru_ex1",
-      "japanese": "{梅|うめ}の{花|はな}が{香|かお}る。",
+      "japanese": "{梅|うめ}の{花|はな}⟦が→が：00051_ga⟧{香|かお}る。",
       "english": "The plum blossoms are fragrant.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "14841_kaoru_ex2",
-      "japanese": "{焼|や}きたてのパンが{香|かお}るキッチン。",
+      "japanese": "⟦{焼|や}きたて→焼きたて：16735_yakitate⟧⟦の→の：09472_no⟧⟦パン→パン：00553_pan⟧⟦が→が：00051_ga⟧{香|かお}る⟦キッチン→キッチン：10815_kicchin⟧。",
       "english": "A kitchen fragrant with freshly baked bread.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "14841_kaoru_ex3",
-      "japanese": "{風|かぜ}に{乗|の}って{金木犀|きんもくせい}の{甘|あま}い{香|かお}りが{香|かお}ってきた。",
+      "japanese": "⟦{風|かぜ}→風：00641_kaze⟧⟦に→に：00314_ni⟧⟦{乗|の}って→乗る：00511_noru⟧{金木犀|きんもくせい}⟦の→の：09472_no⟧⟦{甘|あま}い→甘い：00617_amai⟧⟦{香|かお}り→香り：00189_kaori⟧⟦が→が：00051_ga⟧{香|かお}ってきた。",
       "english": "The sweet scent of osmanthus wafted over on the breeze.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE NOTES:\n{香|かお}る is an intransitive godan verb used exclusively for pleasant or agreeable scents. For bad smells, use {臭|にお}う instead.\n\nASPECT (ている):\n{香|かお}っている describes an ongoing state of being fragrant.\n\nSIMILAR WORDS:\n- {匂|にお}う covers a wider range of smells (both pleasant and unpleasant)\n- {香|かお}る is limited to pleasant fragrances and has a more literary or elevated feel\n\nCOMMON COLLOCATIONS:\n- {花|はな}が{香|かお}る (flowers are fragrant)\n- コーヒーが{香|かお}る (coffee smells wonderful)\n- {香|かお}り{高|たか}い (richly fragrant)\n\nThe kanji {香|かお} also appears in the noun {香|かお}り (fragrance, aroma).",
+  "notes": "USAGE:\n{香|かお}る is an intransitive godan verb used exclusively for pleasant or agreeable scents. For bad smells, use {臭|にお}う instead.\n\nASPECT (ている):\n{香|かお}って⟦いる→いる：00495_iru⟧ describes an ongoing state of being fragrant.\n\nSIMILAR WORDS:\n- ⟦{匂|にお}う→匂う：00319_niou⟧ covers a wider range of smells (both pleasant and unpleasant)\n- {香|かお}る is limited to pleasant fragrances and has a more literary or elevated feel\n\nCOMMON COLLOCATIONS:\n- ⟦{花|はな}→花：00523_hana⟧⟦が→が：00051_ga⟧{香|かお}る (flowers are fragrant)\n- ⟦コーヒー→コーヒー：00789_koohii⟧⟦が→が：00051_ga⟧{香|かお}る (coffee smells wonderful)\n- ⟦{香|かお}り→香り：00189_kaori⟧⟦{高|たか}い→高い：00500_takai⟧ (richly fragrant)\n\nThe kanji {香|かお} also appears in the noun ⟦{香|かお}り→香り：00189_kaori⟧ (fragrance, aroma).",
   "cross_references": [
     {
       "type": "contrast",
@@ -142,11 +142,25 @@
       "reading": "におう",
       "headword": "{匂|にお}う",
       "label": "to smell (pleasant or unpleasant)"
+    },
+    {
+      "type": "related",
+      "target_id": "00189_kaori",
+      "reading": "かおり",
+      "headword": "{香|かお}り",
+      "label": "fragrance, aroma, scent"
+    },
+    {
+      "type": "homophone",
+      "target_id": "19582_kaoru",
+      "reading": "かおる",
+      "headword": "{薫|かお}る",
+      "label": "to give off a pleasant fragrance"
     }
   ],
   "metadata": {
     "created": "2026-03-04T04:30:01Z",
-    "modified": "2026-05-01T04:26:51Z",
+    "modified": "2026-09-02T04:01:39Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

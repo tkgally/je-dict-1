@@ -15,41 +15,69 @@
   "examples": [
     {
       "id": "18918_yamitorihiki_ex1",
-      "japanese": "{闇取引|やみとりひき}で{逮捕|たいほ}された。",
+      "japanese": "{闇取引|やみとりひき}⟦で→で：00502_de⟧⟦{逮捕|たいほ}→逮捕：03397_taiho⟧⟦された→する：00392_suru⟧。",
       "english": "He was arrested for illegal transactions.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "18918_yamitorihiki_ex2",
-      "japanese": "{武器|ぶき}の{闇取引|やみとりひき}が{問題|もんだい}になっている。",
+      "japanese": "⟦{武器|ぶき}→武器：03605_buki⟧⟦の→の：09472_no⟧{闇取引|やみとりひき}⟦が→が：00051_ga⟧⟦{問題|もんだい}→問題：00797_mondai⟧になっている。",
       "english": "Illegal arms dealing has become a problem.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "18918_yamitorihiki_ex3",
-      "japanese": "{戦後|せんご}の{日本|にほん}では{食料品|しょくりょうひん}の{闇取引|やみとりひき}が{横行|おうこう}していた。",
+      "japanese": "⟦{戦後|せんご}→戦後：12853_sengo⟧⟦の→の：09472_no⟧⟦{日本|にほん}→日本：03876_nihon⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{食料品|しょくりょうひん}→食料品：01439_shokuryouhin⟧⟦の→の：09472_no⟧{闇取引|やみとりひき}⟦が→が：00051_ga⟧{横行|おうこう}⟦していた→する：00392_suru⟧。",
       "english": "In postwar Japan, black market dealing of food was rampant.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {闇|やみ} (darkness, secrecy) + {取引|とりひき} (transaction, deal). The prefix {闇|やみ} is productive for illegal/underground activities: {闇|やみ}ルート (illegal channel), {闇|やみ}{金融|きんゆう} (loan sharking), {闇|やみ}{市|いち} (black market). Historically associated with the postwar black market ({闇市|やみいち}). In modern usage, appears in news about organized crime, smuggling, and online illegal sales.",
+  "notes": "Composed of ⟦{闇|やみ}→闇：14528_yami⟧ (darkness, secrecy) + ⟦{取引|とりひき}→取引：04700_torihiki⟧ (transaction, deal). The prefix ⟦{闇|やみ}→闇：14528_yami⟧ is productive for illegal/underground activities: ⟦{闇|やみ}→闇：14528_yami⟧⟦ルート→ルート：11250_ruuto⟧ (illegal channel), ⟦{闇|やみ}→闇：14528_yami⟧⟦{金融|きんゆう}→金融：02664_kinyuu⟧ (loan sharking), {闇|やみ}{市|いち} (black market). Historically associated with the postwar black market ({闇市|やみいち}). In modern usage, appears in news about organized crime, smuggling, and online illegal sales.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20266_mitsuyu",
+      "reading": "みつゆ",
+      "headword": "{密輸|みつゆ}",
+      "label": "smuggling"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22415_mitsubai",
+      "reading": "みつばい",
+      "headword": "{密売|みつばい}",
+      "label": "illegal sale"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["legal"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "legal"
+      ]
     },
     "created": "2026-03-23T09:27:50Z",
-    "modified": "2026-03-23T09:27:50Z"
+    "modified": "2026-09-02T04:01:54Z"
   }
 }

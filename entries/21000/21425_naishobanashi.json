@@ -15,40 +15,73 @@
   "examples": [
     {
       "id": "21425_naishobanashi_ex1",
-      "japanese": "{内緒話|ないしょばなし}をする。",
+      "japanese": "{内緒話|ないしょばなし}⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧。",
       "english": "To have a secret conversation.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21425_naishobanashi_ex2",
-      "japanese": "{子|こ}どもたちが{内緒話|ないしょばなし}をしてくすくす{笑|わら}っている。",
+      "japanese": "{子|こ}どもたち⟦が→が：00051_ga⟧{内緒話|ないしょばなし}⟦を→を：00422_wo⟧⟦して→する：00392_suru⟧⟦くすくす{笑|わら}っている→くすくす笑う：25280_kusukusuwarau⟧。",
       "english": "The children are whispering secrets and giggling.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21425_naishobanashi_ex3",
-      "japanese": "{会議中|かいぎちゅう}に{隣|となり}の{人|ひと}と{内緒話|ないしょばなし}をしていたら、{上司|じょうし}に{注意|ちゅうい}された。",
+      "japanese": "⟦{会議中|かいぎちゅう}→会議中：16781_kaigichuu⟧⟦に→に：00314_ni⟧⟦{隣|となり}→隣：01003_tonari⟧⟦の→の：09472_no⟧⟦{人|ひと}→人：00476_hito⟧⟦と→と：00512_to⟧{内緒話|ないしょばなし}⟦を→を：00422_wo⟧⟦していたら→する：00392_suru⟧、⟦{上司|じょうし}→上司：03286_joushi⟧⟦に→に：00314_ni⟧⟦{注意|ちゅうい}→注意：01464_chuui⟧⟦された→する：00392_suru⟧。",
       "english": "I was whispering with the person next to me during the meeting and got scolded by my boss.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {内緒|ないしょ} (secret, private) and {話|はなし} (talk, conversation). Evokes an image of people leaning close together and speaking in hushed tones. Common in everyday conversation, especially when describing children whispering or coworkers sharing gossip.\n\nCOMMON COLLOCATIONS:\n- {内緒話|ないしょばなし}をする: to have a secret talk\n- {内緒話|ないしょばなし}が{聞|き}こえる: to overhear whispering\n- {耳元|みみもと}で{内緒話|ないしょばなし}: whispering in someone's ear\n\nSIMILAR WORDS:\n- ひそひそ{話|ばなし}: whispering — emphasizes the hushed manner of speaking rather than the secret content\n- {密談|みつだん}: secret discussion — more formal and serious, often about plans or schemes",
+  "notes": "A compound of ⟦{内緒|ないしょ}→内緒：03126_naisho⟧ (secret, private) and ⟦{話|はなし}→話：01496_hanashi⟧ (talk, conversation). Evokes an image of people leaning close together and speaking in hushed tones. Common in everyday conversation, especially when describing children whispering or coworkers sharing gossip.\n\nCOMMON COLLOCATIONS:\n- {内緒話|ないしょばなし}⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧: to have a secret talk\n- {内緒話|ないしょばなし}⟦が→が：00051_ga⟧⟦{聞|き}こえる→聞こえる：01229_kikoeru⟧: to overhear whispering\n- ⟦{耳元|みみもと}→耳元：28311_mimimoto⟧⟦で→で：00502_de⟧{内緒話|ないしょばなし}: whispering in someone's ear\n\nSIMILAR WORDS:\n- ⟦ひそひそ→ひそひそ：06273_hisohiso⟧{話|ばなし}: whispering — emphasizes the hushed manner of speaking rather than the secret content\n- ⟦{密談|みつだん}→密談：17980_mitsudan⟧: secret discussion — more formal and serious, often about plans or schemes",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17980_mitsudan",
+      "reading": "みつだん",
+      "headword": "{密談|みつだん}",
+      "label": "secret discussion"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18899_mimiuchi",
+      "reading": "みみうち",
+      "headword": "{耳打|みみう}ち",
+      "label": "whispering in someone's ear"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24485_himitsubanashi",
+      "reading": "ひみつばなし",
+      "headword": "{秘密話|ひみつばなし}",
+      "label": "secret talk"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "informal",
       "politeness": "plain",
-      "semantic": ["communication"]
+      "semantic": [
+        "communication"
+      ]
     },
     "created": "2026-04-02T03:19:54Z",
-    "modified": "2026-04-02T03:19:54Z"
+    "modified": "2026-09-02T04:02:03Z"
   }
 }

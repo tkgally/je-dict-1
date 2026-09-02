@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08536_mushiki_ex1",
-      "japanese": "{蒸|む}し{器|き}で{野菜|やさい}を{蒸|む}す。",
+      "japanese": "{蒸|む}し{器|き}⟦で→で：00502_de⟧⟦{野菜|やさい}→野菜：02265_yasai⟧⟦を→を：00422_wo⟧⟦{蒸|む}す→蒸す：02307_musu⟧。",
       "english": "To steam vegetables in a steamer.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "08536_mushiki_ex2",
-      "japanese": "{竹|たけ}の{蒸|む}し{器|き}を{買|か}った。",
+      "japanese": "⟦{竹|たけ}→竹：02220_take⟧⟦の→の：09472_no⟧{蒸|む}し{器|き}⟦を→を：00422_wo⟧⟦{買|か}った→買う：00489_kau⟧。",
       "english": "I bought a bamboo steamer.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "08536_mushiki_ex3",
-      "japanese": "{蒸|む}し{器|き}で{茶碗蒸|ちゃわんむ}しを{作|つく}った。",
+      "japanese": "{蒸|む}し{器|き}⟦で→で：00502_de⟧⟦{茶碗蒸|ちゃわんむ}し→茶碗蒸し：17312_chawanmushi⟧⟦を→を：00422_wo⟧⟦{作|つく}った→作る：00481_tsukuru⟧。",
       "english": "I made chawanmushi in a steamer.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
     },
     {
       "id": "08536_mushiki_ex4",
-      "japanese": "{電気|でんき}{蒸|む}し{器|き}は{温度|おんど}{管理|かんり}が{楽|らく}だ。",
+      "japanese": "⟦{電気|でんき}→電気：09780_denki⟧{蒸|む}し{器|き}⟦は→は：00079_ha⟧⟦{温度|おんど}→温度：00333_ondo⟧⟦{管理|かんり}→管理：00178_kanri⟧⟦が→が：00051_ga⟧⟦{楽|らく}→楽：02169_raku⟧だ。",
       "english": "Electric steamers make temperature control easy.",
       "sense_numbers": [
         1
@@ -53,7 +53,37 @@
       "notes": null
     }
   ],
-  "notes": "TYPES:\n- {竹|たけ}の{蒸|む}し{器|き} - bamboo steamer (Chinese/Asian style)\n- {金属|きんぞく}{製|せい} - metal steamer\n- {電気|でんき}{蒸|む}し{器|き} - electric steamer\n- せいろ - steaming basket (traditional Japanese/Chinese)\n\nCOMMON STEAMED DISHES:\n- {茶碗蒸|ちゃわんむ}し - savory egg custard\n- {蒸|む}し{野菜|やさい} - steamed vegetables\n- {肉|にく}まん - steamed buns\n- {点心|てんしん} - dim sum\n\nRELATED EQUIPMENT:\n- {圧力鍋|あつりょくなべ} - pressure cooker\n- {鍋|なべ} - pot",
+  "notes": "TYPES:\n- ⟦{竹|たけ}→竹：02220_take⟧⟦の→の：09472_no⟧{蒸|む}し{器|き} - bamboo steamer (Chinese/Asian style)\n- ⟦{金属|きんぞく}{製|せい}→金属製：28457_kinzokusei⟧ - metal steamer\n- ⟦{電気|でんき}→電気：09780_denki⟧{蒸|む}し{器|き} - electric steamer\n- せいろ - steaming basket (traditional Japanese/Chinese)\n\nCOMMON STEAMED DISHES:\n- ⟦{茶碗蒸|ちゃわんむ}し→茶碗蒸し：17312_chawanmushi⟧ - savory egg custard\n- ⟦{蒸|む}し→蒸す：02307_musu⟧⟦{野菜|やさい}→野菜：02265_yasai⟧ - steamed vegetables\n- ⟦{肉|にく}まん→肉まん：28810_nikuman⟧ - steamed buns\n- ⟦{点心|てんしん}→点心：13426_tenshin⟧ - dim sum\n\nRELATED EQUIPMENT:\n- ⟦{圧力鍋|あつりょくなべ}→圧力鍋：08535_atsuryokunabe⟧ - pressure cooker\n- ⟦{鍋|なべ}→鍋：01038_nabe⟧ - pot",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "08535_atsuryokunabe",
+      "reading": "あつりょくなべ",
+      "headword": "{圧力鍋|あつりょくなべ}",
+      "label": "pressure cooker"
+    },
+    {
+      "type": "related",
+      "target_id": "01038_nabe",
+      "reading": "なべ",
+      "headword": "{鍋|なべ}",
+      "label": "pot"
+    },
+    {
+      "type": "related",
+      "target_id": "02307_musu",
+      "reading": "むす",
+      "headword": "{蒸|む}す",
+      "label": "to steam, to be humid"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28848_seiro",
+      "reading": "せいろ",
+      "headword": "{蒸籠|せいろ}",
+      "label": "bamboo steamer"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,12 +91,13 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "cooking",
         "tool"
       ]
     },
     "created": "2026-01-27T10:33:10Z",
-    "modified": "2026-06-22T12:50:00Z"
+    "modified": "2026-09-02T04:01:15Z"
   }
 }

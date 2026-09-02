@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26659_kinyuuhikishime_ex1",
-      "japanese": "{金融引|きんゆうひ}き{締|し}めが{続|つづ}いている。",
+      "japanese": "{金融引|きんゆうひ}き{締|し}め⟦が→が：00051_ga⟧⟦{続|つづ}いている→続く：00903_tsuzuku⟧。",
       "english": "Monetary tightening is continuing.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26659_kinyuuhikishime_ex2",
-      "japanese": "{中央銀行|ちゅうおうぎんこう}は{金融引|きんゆうひ}き{締|し}めに{転|てん}じた。",
+      "japanese": "⟦{中央銀行|ちゅうおうぎんこう}→中央銀行：10173_chuuouginkou⟧⟦は→は：00079_ha⟧{金融引|きんゆうひ}き{締|し}め⟦に→に：00314_ni⟧{転|てん}じた。",
       "english": "The central bank shifted to monetary tightening.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26659_kinyuuhikishime_ex3",
-      "japanese": "{急激|きゅうげき}な{金融引|きんゆうひ}き{締|し}めは{景気後退|けいきこうたい}を{招|まね}く{恐|おそ}れがある。",
+      "japanese": "⟦{急激|きゅうげき}→急激：02633_kyuugeki⟧な{金融引|きんゆうひ}き{締|し}め⟦は→は：00079_ha⟧{景気後退|けいきこうたい}⟦を→を：00422_wo⟧⟦{招|まね}く→招く：02425_maneku⟧{恐|おそ}れ⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "Rapid monetary tightening risks causing a recession.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {金融|きんゆう} (finance/monetary) and {引き締め|ひきしめ} (tightening). Refers to central bank policies aimed at reducing the money supply or raising interest rates to control inflation and cool down an overheating economy.\n\nCOMMON COLLOCATIONS:\n- {金融引|きんゆうひ}き{締|し}めに{転|てん}じる: to shift to tightening\n- {金融引|きんゆうひ}き{締|し}め{政策|せいさく}: tightening policy\n- {金融引|きんゆうひ}き{締|し}めの{影響|えいきょう}: effects of tightening\n- {段階的|だんかいてき}な{金融引|きんゆうひ}き{締|し}め: gradual tightening\n\nSIMILAR WORDS:\n- {金融緩和|きんゆうかんわ}: monetary easing (the opposite policy)\n- {利上|りあ}げ: interest rate hike (a specific tightening tool)\n- {量的引き締め|りょうてきひきしめ}: quantitative tightening",
+  "notes": "A compound of ⟦{金融|きんゆう}→金融：02664_kinyuu⟧ (finance/monetary) and ⟦{引き締|ひきし}め→引き締める：15264_hikishimeru⟧ (tightening). Refers to central bank policies aimed at reducing the money supply or raising interest rates to control inflation and cool down an overheating economy.\n\nCOMMON COLLOCATIONS:\n- {金融引|きんゆうひ}き{締|し}め⟦に→に：00314_ni⟧{転|てん}じる: to shift to tightening\n- {金融引|きんゆうひ}き{締|し}め⟦{政策|せいさく}→政策：10070_seisaku⟧: tightening policy\n- {金融引|きんゆうひ}き{締|し}め⟦の→の：09472_no⟧⟦{影響|えいきょう}→影響：01877_eikyou⟧: effects of tightening\n- ⟦{段階的|だんかいてき}→段階的：06174_dankaiteki⟧な{金融引|きんゆうひ}き{締|し}め: gradual tightening\n\nSIMILAR WORDS:\n- ⟦{金融緩和|きんゆうかんわ}→金融緩和：24263_kinyuukanwa⟧: monetary easing (the opposite policy)\n- ⟦{利上|りあ}げ→利上げ：11987_riage⟧: interest rate hike (a specific tightening tool)\n- {量的引き締|りょうてきひきし}め: quantitative tightening",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24263_kinyuukanwa",
+      "reading": "きんゆうかんわ",
+      "headword": "{金融緩和|きんゆうかんわ}",
+      "label": "monetary easing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11987_riage",
+      "reading": "りあげ",
+      "headword": "{利上|りあ}げ",
+      "label": "interest rate hike"
+    },
+    {
+      "type": "related",
+      "target_id": "26656_seisakukinri",
+      "reading": "せいさくきんり",
+      "headword": "{政策金利|せいさくきんり}",
+      "label": "policy interest rate"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +83,6 @@
       ]
     },
     "created": "2026-05-04T11:21:14Z",
-    "modified": "2026-05-04T11:21:14Z"
+    "modified": "2026-09-02T04:02:27Z"
   }
 }

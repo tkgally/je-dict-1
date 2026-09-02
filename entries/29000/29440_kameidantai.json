@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29440_kameidantai_ex1",
-      "japanese": "{加盟団体|かめいだんたい}が{増|ふ}えた。",
+      "japanese": "{加盟団体|かめいだんたい}⟦が→が：00051_ga⟧⟦{増|ふ}えた→増える：01183_fueru⟧。",
       "english": "The number of member organizations increased.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29440_kameidantai_ex2",
-      "japanese": "{各|かく}{加盟団体|かめいだんたい}の{代表|だいひょう}が{集|あつ}まった。",
+      "japanese": "⟦{各|かく}→各〜：00449_kaku⟧{加盟団体|かめいだんたい}⟦の→の：09472_no⟧⟦{代表|だいひょう}→代表：03419_daihyou⟧⟦が→が：00051_ga⟧⟦{集|あつ}まった→集まる：01162_atsumaru⟧。",
       "english": "Representatives of each member organization gathered.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29440_kameidantai_ex3",
-      "japanese": "この{連盟|れんめい}には{全国|ぜんこく}から{百|ひゃく}を{超|こ}える{加盟団体|かめいだんたい}が{参加|さんか}している。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{連盟|れんめい}→連盟：23112_renmei⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{全国|ぜんこく}→全国：03311_zenkoku⟧⟦から→から：00504_kara⟧⟦{百|ひゃく}→百：00780_hyaku⟧⟦を→を：00422_wo⟧⟦{超|こ}える→超える：01942_koeru⟧{加盟団体|かめいだんたい}⟦が→が：00051_ga⟧⟦{参加|さんか}している→参加する：25408_sankasuru⟧。",
       "english": "This federation has over a hundred member organizations participating from across the country.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Written {加盟|かめい} (joining, affiliation) + {団体|だんたい} (organization, body). Common in contexts involving leagues, federations, and international bodies.\n\nSIMILAR WORDS:\n- {加盟国|かめいこく}: member nation — the same {加盟|かめい} applied to countries (e.g. of the UN)\n- {会員|かいいん}: member — refers to an individual member rather than an organization",
+  "notes": "Written ⟦{加盟|かめい}→加盟：05769_kamei⟧ (joining, affiliation) + ⟦{団体|だんたい}→団体：03426_dantai⟧ (organization, body). Common in contexts involving leagues, federations, and international bodies.\n\nSIMILAR WORDS:\n- ⟦{加盟国|かめいこく}→加盟国：19160_kameikoku⟧: member nation — the same ⟦{加盟|かめい}→加盟：05769_kamei⟧ applied to countries (e.g. of the UN)\n- ⟦{会員|かいいん}→会員：02535_kaiin⟧: member — refers to an individual member rather than an organization",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19160_kameikoku",
+      "reading": "かめいこく",
+      "headword": "{加盟国|かめいこく}",
+      "label": "member nation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02535_kaiin",
+      "reading": "かいいん",
+      "headword": "{会員|かいいん}",
+      "label": "member"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +69,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "society"
       ],
       "domain": []
     },
     "created": "2026-06-23T09:30:32Z",
-    "modified": "2026-06-23T09:30:32Z"
+    "modified": "2026-09-02T04:02:36Z"
   }
 }

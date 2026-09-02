@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "13036_kaitei_ex1",
-      "japanese": "{運賃|うんちん}が{改定|かいてい}された。",
+      "japanese": "⟦{運賃|うんちん}→運賃：05299_unchin⟧⟦が→が：00051_ga⟧{改定|かいてい}⟦された→する：00392_suru⟧。",
       "english": "The fares were revised.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "13036_kaitei_ex2",
-      "japanese": "{来月|らいげつ}から{料金|りょうきん}の{改定|かいてい}が{実施|じっし}される。",
+      "japanese": "⟦{来月|らいげつ}→来月：00744_raigetsu⟧⟦から→から：00504_kara⟧⟦{料金|りょうきん}→料金：03797_ryoukin⟧⟦の→の：09472_no⟧{改定|かいてい}⟦が→が：00051_ga⟧⟦{実施|じっし}される→実施する：19634_jisshisuru⟧。",
       "english": "A rate revision will be implemented from next month.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "13036_kaitei_ex3",
-      "japanese": "{最低|さいてい}{賃金|ちんぎん}の{改定|かいてい}について{労使|ろうし}が{協議|きょうぎ}している。",
+      "japanese": "⟦{最低|さいてい}{賃金|ちんぎん}→最低賃金：13442_saiteichingin⟧⟦の→の：09472_no⟧{改定|かいてい}⟦について→〜について：03103_nitsuite⟧⟦{労使|ろうし}→労使：27897_roushi⟧⟦が→が：00051_ga⟧⟦{協議|きょうぎ}→協議：02635_kyougi⟧⟦している→する：00392_suru⟧。",
       "english": "Labor and management are negotiating the revision of the minimum wage.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nUsed for revising prices, rates, standards, and regulations. Distinguished from the homophone {改訂|かいてい}, which refers to revising written texts and documents. A helpful mnemonic: {改定|かいてい} uses {定|てい} (to fix/establish), so it concerns fixed values like prices; {改訂|かいてい} uses {訂|てい} (to correct text), so it concerns written documents.\n\nCOMMON COLLOCATIONS:\n- {料金|りょうきん}{改定|かいてい}: rate revision\n- {運賃|うんちん}{改定|かいてい}: fare revision\n- {価格|かかく}{改定|かいてい}: price revision\n- {基準|きじゅん}の{改定|かいてい}: revision of standards\n\nSIMILAR WORDS:\n- {改訂|かいてい}: revision of text/documents (homophone, different kanji)",
+  "notes": "USAGE:\nUsed for revising prices, rates, standards, and regulations. Distinguished from the homophone ⟦{改訂|かいてい}→改訂：13044_kaitei⟧, which refers to revising written texts and documents. A helpful mnemonic: {改定|かいてい} uses {定|てい} (to fix/establish), so it concerns fixed values like prices; ⟦{改訂|かいてい}→改訂：13044_kaitei⟧ uses {訂|てい} (to correct text), so it concerns written documents.\n\nCOMMON COLLOCATIONS:\n- ⟦{料金|りょうきん}→料金：03797_ryoukin⟧{改定|かいてい}: rate revision\n- {運賃|うんちん}{改定|かいてい}: fare revision\n- ⟦{価格|かかく}→価格：00147_kakaku⟧{改定|かいてい}: price revision\n- ⟦{基準|きじゅん}→基準：00228_kijun⟧⟦の→の：09472_no⟧{改定|かいてい}: revision of standards\n\nSIMILAR WORDS:\n- ⟦{改訂|かいてい}→改訂：13044_kaitei⟧: revision of text/documents (homophone, different kanji)",
   "cross_references": [
     {
       "type": "contrast",
@@ -142,11 +142,18 @@
       "headword": "{改訂|かいてい}",
       "label": "revision of text",
       "target_id": "13044_kaitei"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24821_jouhoushuusei",
+      "reading": "じょうほうしゅうせい",
+      "headword": "{上方|じょうほう}{修正|しゅうせい}",
+      "label": "upward revision"
     }
   ],
   "metadata": {
     "created": "2026-02-23T06:37:45Z",
-    "modified": "2026-03-29T10:42:23Z",
+    "modified": "2026-09-02T04:01:31Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

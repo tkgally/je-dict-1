@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "16554_dokusha_ex1",
-      "japanese": "{読者|どくしゃ}からの{手紙|てがみ}が{届|とど}いた。",
+      "japanese": "{読者|どくしゃ}⟦から→から：00504_kara⟧⟦の→の：09472_no⟧⟦{手紙|てがみ}→手紙：00675_tegami⟧⟦が→が：00051_ga⟧⟦{届|とど}いた→届く：00899_todoku⟧。",
       "english": "A letter from a reader arrived.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "16554_dokusha_ex2",
-      "japanese": "この{雑誌|ざっし}は{若|わか}い{読者|どくしゃ}に{人気|にんき}がある。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{雑誌|ざっし}→雑誌：00686_zasshi⟧⟦は→は：00079_ha⟧{若|わか}い{読者|どくしゃ}⟦に→に：00314_ni⟧⟦{人気|にんき}→人気：01488_ninki⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "This magazine is popular with young readers.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "16554_dokusha_ex3",
-      "japanese": "{読者|どくしゃ}の{意見|いけん}を{参考|さんこう}にして、{記事|きじ}の{内容|ないよう}を{改善|かいぜん}した。",
+      "japanese": "{読者|どくしゃ}⟦の→の：09472_no⟧⟦{意見|いけん}→意見：01303_iken⟧⟦を→を：00422_wo⟧⟦{参考|さんこう}→参考：02828_sankou⟧にして、⟦{記事|きじ}→記事：00227_kiji⟧⟦の→の：09472_no⟧⟦{内容|ないよう}→内容：01482_naiyou⟧⟦を→を：00422_wo⟧⟦{改善|かいぜん}した→改善する：26828_kaizensuru⟧。",
       "english": "We improved the article content based on reader feedback.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nRefers to someone who reads books, newspapers, magazines, or online articles. Often used in publishing contexts to mean \"audience\" or \"readership.\"\n\nCOMMON COLLOCATIONS:\n- {読者|どくしゃ}{層|そう} (readership demographic)\n- {読者|どくしゃ}アンケート (reader survey)\n- {読者|どくしゃ}{投稿|とうこう} (reader submission)\n- {愛読者|あいどくしゃ} (devoted reader)\n\nSIMILAR WORDS:\n- {筆者|ひっしゃ}: writer, author — the opposite role from the reader\n- {著者|ちょしゃ}: author — specifically the person who wrote a book",
+  "notes": "USAGE:\nRefers to someone who reads books, newspapers, magazines, or online articles. Often used in publishing contexts to mean \"audience\" or \"readership.\"\n\nCOMMON COLLOCATIONS:\n- {読者|どくしゃ}{層|そう} (readership demographic)\n- {読者|どくしゃ}⟦アンケート→アンケート：03829_ankeeto⟧ (reader survey)\n- {読者|どくしゃ}⟦{投稿|とうこう}→投稿：04733_toukou⟧ (reader submission)\n- {愛読者|あいどくしゃ} (devoted reader)\n\nSIMILAR WORDS:\n- ⟦{筆者|ひっしゃ}→筆者：04348_hissha⟧: writer, author — the opposite role from the reader\n- ⟦{著者|ちょしゃ}→著者：03501_chosha⟧: author — specifically the person who wrote a book",
   "cross_references": [
     {
       "type": "contrast",
@@ -59,11 +59,25 @@
       "reading": "ちょしゃ",
       "headword": "{著者|ちょしゃ}",
       "label": "author"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02570_shichousha",
+      "reading": "しちょうしゃ",
+      "headword": "{視聴者|しちょうしゃ}",
+      "label": "viewer, audience (TV/video)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29511_risunaa",
+      "reading": "りすなー",
+      "headword": "リスナー",
+      "label": "listener"
     }
   ],
   "metadata": {
     "created": "2026-03-13T23:53:06Z",
-    "modified": "2026-07-20T00:31:17Z",
+    "modified": "2026-09-02T04:01:45Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

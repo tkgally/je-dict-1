@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "15873_botsuraku_ex1",
-      "japanese": "{名家|めいか}の{没落|ぼつらく}を{描|えが}いた{小説|しょうせつ}だ。",
+      "japanese": "⟦{名家|めいか}→名家：23910_meika⟧⟦の→の：09472_no⟧{没落|ぼつらく}⟦を→を：00422_wo⟧⟦{描|えが}いた→描く：02013_egaku⟧⟦{小説|しょうせつ}→小説：01434_shousetsu⟧だ。",
       "english": "It is a novel depicting the downfall of a distinguished family.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "15873_botsuraku_ex2",
-      "japanese": "その{帝国|ていこく}は{戦争|せんそう}によって{没落|ぼつらく}した。",
+      "japanese": "⟦その→その：00993_sono⟧⟦{帝国|ていこく}→帝国：12420_teikoku⟧⟦は→は：00079_ha⟧⟦{戦争|せんそう}→戦争：01450_sensou⟧⟦によって→によって：06801_niyotte⟧{没落|ぼつらく}⟦した→する：00392_suru⟧。",
       "english": "That empire fell into ruin because of war.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "15873_botsuraku_ex3",
-      "japanese": "{貴族|きぞく}の{没落|ぼつらく}とともに、{古|ふる}い{文化|ぶんか}や{伝統|でんとう}も{失|うしな}われていった。",
+      "japanese": "⟦{貴族|きぞく}→貴族：17414_kizoku⟧⟦の→の：09472_no⟧{没落|ぼつらく}⟦とともに→とともに：30485_totomoni⟧、⟦{古|ふる}い→古い：00488_furui⟧⟦{文化|ぶんか}→文化：01504_bunka⟧や⟦{伝統|でんとう}→伝統：09585_dentou⟧⟦も→も：00484_mo⟧⟦{失|うしな}われて→失う：01887_ushinau⟧いった。",
       "english": "Along with the decline of the aristocracy, old culture and traditions were also lost.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "{没落|ぼつらく} describes the process of losing power, wealth, or status — falling from a position of prominence. Often used for families, dynasties, nations, and aristocracy.\n\nCOMPOUND: {没|ぼつ} (sink/fall) + {落|らく} (fall/drop). Both characters convey falling, giving the word a strong sense of irreversible decline.\n\nCOMMON COLLOCATIONS:\n- {没落|ぼつらく}する: to fall into ruin\n- {没落|ぼつらく}した{貴族|きぞく}: a ruined/fallen aristocrat\n- {没落|ぼつらく}の{道|みち}をたどる: to follow the path of decline\n- {名門|めいもん}の{没落|ぼつらく}: the decline of a distinguished family\n\nSIMILAR WORDS:\n- {衰退|すいたい}: decline, decay (more gradual, used for institutions and industries)\n- {凋落|ちょうらく}: decline, fall (literary; originally describes withering plants)\n- {崩壊|ほうかい}: collapse (more sudden and complete)\n\nREGISTER:\nFormal/literary. Common in historical writing, novels, and news.",
+  "notes": "{没落|ぼつらく} describes the process of losing power, wealth, or status — falling from a position of prominence. Often used for families, dynasties, nations, and aristocracy.\n\nCOMPOUND: {没|ぼつ} (sink/fall) + {落|らく} (fall/drop). Both characters convey falling, giving the word a strong sense of irreversible decline.\n\nCOMMON COLLOCATIONS:\n- {没落|ぼつらく}⟦する→する：00392_suru⟧: to fall into ruin\n- {没落|ぼつらく}⟦した→する：00392_suru⟧⟦{貴族|きぞく}→貴族：17414_kizoku⟧: a ruined/fallen aristocrat\n- {没落|ぼつらく}⟦の→の：09472_no⟧⟦{道|みち}→道：00505_michi⟧⟦を→を：00422_wo⟧たどる: to follow the path of decline\n- ⟦{名門|めいもん}→名門：11955_meimon⟧⟦の→の：09472_no⟧{没落|ぼつらく}: the decline of a distinguished family\n\nSIMILAR WORDS:\n- ⟦{衰退|すいたい}→衰退：07428_suitai⟧: decline, decay (more gradual, used for institutions and industries)\n- ⟦{凋落|ちょうらく}→凋落：09919_chouraku⟧: decline, fall (literary; originally describes withering plants)\n- ⟦{崩壊|ほうかい}→崩壊：09067_houkai⟧: collapse (more sudden and complete)\n\nREGISTER:\nFormal/literary. Common in historical writing, novels, and news.",
   "cross_references": [
     {
       "type": "synonym",
@@ -149,11 +149,32 @@
       "reading": "ほうかい",
       "headword": "{崩壊|ほうかい}",
       "label": "collapse (sudden)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09919_chouraku",
+      "reading": "ちょうらく",
+      "headword": "{凋落|ちょうらく}",
+      "label": "decline, fall (literary"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19790_tenraku",
+      "reading": "てんらく",
+      "headword": "{転落|てんらく}",
+      "label": "fall"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20008_hametsu",
+      "reading": "はめつ",
+      "headword": "{破滅|はめつ}",
+      "label": "ruin"
     }
   ],
   "metadata": {
     "created": "2026-03-08T13:21:32Z",
-    "modified": "2026-05-02T07:20:50Z",
+    "modified": "2026-09-02T04:01:42Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

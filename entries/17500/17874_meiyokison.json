@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "17874_meiyokison_ex1",
-      "japanese": "{名誉毀損|めいよきそん}で{訴|うった}える。",
+      "japanese": "{名誉毀損|めいよきそん}⟦で→で：00502_de⟧⟦{訴|うった}える→訴える：01891_uttaeru⟧。",
       "english": "To sue for defamation.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "17874_meiyokison_ex2",
-      "japanese": "SNSでの{発言|はつげん}が{名誉毀損|めいよきそん}にあたる{可能性|かのうせい}がある。",
+      "japanese": "SNS⟦で→で：00502_de⟧⟦の→の：09472_no⟧⟦{発言|はつげん}→発言：05099_hatsugen⟧⟦が→が：00051_ga⟧{名誉毀損|めいよきそん}⟦に→に：00314_ni⟧あたる⟦{可能性|かのうせい}→可能性：04818_kanousei⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "Statements on social media may constitute defamation.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "17874_meiyokison_ex3",
-      "japanese": "{事実|じじつ}でないことを{公|おおやけ}に{広|ひろ}めると、{名誉毀損|めいよきそん}として{罪|つみ}に{問|と}われることがある。",
+      "japanese": "⟦{事実|じじつ}→事実：03271_jijitsu⟧でないこと⟦を→を：00422_wo⟧⟦{公|おおやけ}→公：11991_ooyake⟧⟦に→に：00314_ni⟧⟦{広|ひろ}める→広める：02405_hiromeru⟧⟦と→と：00512_to⟧、{名誉毀損|めいよきそん}⟦として→として：06802_toshite⟧⟦{罪|つみ}→罪：03532_tsumi⟧⟦に→に：00314_ni⟧⟦{問|と}われる→問う：02299_tou⟧こと⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "Publicly spreading untrue information can lead to criminal charges of defamation.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA legal and formal term. In Japan, {名誉毀損|めいよきそん} can be both a criminal offense ({名誉毀損罪|めいよきそんざい}) and grounds for civil lawsuit. Unlike in some countries, even true statements can constitute defamation in Japan if they damage someone's reputation without justification.\n\nCOMMON COLLOCATIONS:\n- {名誉毀損|めいよきそん}で{訴|うった}える (to sue for defamation)\n- {名誉毀損|めいよきそん}{罪|ざい} (crime of defamation)\n- {名誉毀損|めいよきそん}にあたる (to constitute defamation)\n- {名誉毀損|めいよきそん}{訴訟|そしょう} (defamation lawsuit)",
+  "notes": "USAGE:\nA legal and formal term. In Japan, {名誉毀損|めいよきそん} can be both a criminal offense ({名誉毀損罪|めいよきそんざい}) and grounds for civil lawsuit. Unlike in some countries, even true statements can constitute defamation in Japan if they damage someone's reputation without justification.\n\nCOMMON COLLOCATIONS:\n- {名誉毀損|めいよきそん}⟦で→で：00502_de⟧⟦{訴|うった}える→訴える：01891_uttaeru⟧ (to sue for defamation)\n- {名誉毀損|めいよきそん}{罪|ざい} (crime of defamation)\n- {名誉毀損|めいよきそん}⟦に→に：00314_ni⟧あたる (to constitute defamation)\n- {名誉毀損|めいよきそん}⟦{訴訟|そしょう}→訴訟：07642_soshou⟧ (defamation lawsuit)",
   "cross_references": [
     {
       "type": "related",
@@ -52,11 +52,25 @@
       "reading": "めいよ",
       "headword": "{名誉|めいよ}",
       "label": "honor, reputation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24641_meiyokaifuku",
+      "reading": "めいよかいふく",
+      "headword": "{名誉回復|めいよかいふく}",
+      "label": "restoration of honor"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26134_fukeizai",
+      "reading": "ふけいざい",
+      "headword": "{不敬罪|ふけいざい}",
+      "label": "lese-majeste"
     }
   ],
   "metadata": {
     "created": "2026-03-19T06:58:32Z",
-    "modified": "2026-07-24T21:50:29Z",
+    "modified": "2026-09-02T04:01:50Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

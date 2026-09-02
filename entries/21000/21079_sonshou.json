@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21079_sonshou_ex1",
-      "japanese": "{建物|たてもの}の{損傷|そんしょう}がひどい。",
+      "japanese": "⟦{建物|たてもの}→建物：01458_tatemono⟧⟦の→の：09472_no⟧{損傷|そんしょう}⟦が→が：00051_ga⟧⟦ひどい→ひどい：01097_hidoi⟧。",
       "english": "The damage to the building is severe.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21079_sonshou_ex2",
-      "japanese": "{地震|じしん}で{道路|どうろ}が{損傷|そんしょう}を{受|う}けた。",
+      "japanese": "⟦{地震|じしん}→地震：01608_jishin⟧⟦で→で：00502_de⟧⟦{道路|どうろ}→道路：01481_douro⟧⟦が→が：00051_ga⟧{損傷|そんしょう}⟦を→を：00422_wo⟧⟦{受|う}けた→受ける：01215_ukeru⟧。",
       "english": "The road sustained damage from the earthquake.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21079_sonshou_ex3",
-      "japanese": "{脳|のう}に{損傷|そんしょう}を{受|う}けると、{記憶|きおく}に{影響|えいきょう}が{出|で}ることがある。",
+      "japanese": "⟦{脳|のう}→脳：03537_nou⟧⟦に→に：00314_ni⟧{損傷|そんしょう}⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧⟦と→と：00512_to⟧、⟦{記憶|きおく}→記憶：00234_kioku⟧⟦に→に：00314_ni⟧⟦{影響|えいきょう}→影響：01877_eikyou⟧⟦が→が：00051_ga⟧⟦{出|で}る→出る：00513_deru⟧こと⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "If the brain sustains damage, it can affect memory.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Describes physical damage, harm, or impairment to objects, structures, or body parts. More formal than {傷|きず} and often used in news reports, medical contexts, and official assessments.\n\nCOMMON COLLOCATIONS:\n- {損傷|そんしょう}を{受|う}ける: to sustain damage\n- {損傷|そんしょう}がひどい: the damage is severe\n- {損傷|そんしょう}を{修復|しゅうふく}する: to repair damage\n- {神経|しんけい}{損傷|そんしょう}: nerve damage\n- {脳|のう}{損傷|そんしょう}: brain injury\n\nSIMILAR WORDS:\n- {破損|はそん}: breakage, damage — emphasizes that something is broken, often used for objects and equipment\n- {傷|きず}: wound, scratch — more everyday and concrete, used for visible injuries or scratches\n- {被害|ひがい}: harm, damage — broader term focusing on the suffering or loss caused, often used for disasters",
+  "notes": "Describes physical damage, harm, or impairment to objects, structures, or body parts. More formal than ⟦{傷|きず}→傷：02201_kizu⟧ and often used in news reports, medical contexts, and official assessments.\n\nCOMMON COLLOCATIONS:\n- {損傷|そんしょう}⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧: to sustain damage\n- {損傷|そんしょう}⟦が→が：00051_ga⟧⟦ひどい→ひどい：01097_hidoi⟧: the damage is severe\n- {損傷|そんしょう}⟦を→を：00422_wo⟧⟦{修復|しゅうふく}→修復：11544_shuufuku⟧⟦する→する：00392_suru⟧: to repair damage\n- ⟦{神経|しんけい}→神経：03257_shinkei⟧{損傷|そんしょう}: nerve damage\n- ⟦{脳|のう}→脳：03537_nou⟧{損傷|そんしょう}: brain injury\n\nSIMILAR WORDS:\n- ⟦{破損|はそん}→破損：13679_hason⟧: breakage, damage — emphasizes that something is broken, often used for objects and equipment\n- ⟦{傷|きず}→傷：02201_kizu⟧: wound, scratch — more everyday and concrete, used for visible injuries or scratches\n- ⟦{被害|ひがい}→被害：02572_higai⟧: harm, damage — broader term focusing on the suffering or loss caused, often used for disasters",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13679_hason",
+      "reading": "はそん",
+      "headword": "{破損|はそん}",
+      "label": "breakage, damage"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02572_higai",
+      "reading": "ひがい",
+      "headword": "{被害|ひがい}",
+      "label": "harm, damage"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +75,6 @@
       ]
     },
     "created": "2026-03-31T17:11:17Z",
-    "modified": "2026-07-29T00:22:41Z"
+    "modified": "2026-09-02T04:02:02Z"
   }
 }

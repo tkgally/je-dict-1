@@ -14,40 +14,74 @@
   "examples": [
     {
       "id": "20528_teibanshouhin_ex1",
-      "japanese": "この{靴|くつ}はブランドの{定番商品|ていばんしょうひん}だ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{靴|くつ}→靴：00725_kutsu⟧⟦は→は：00079_ha⟧⟦ブランド→ブランド：05221_burando⟧⟦の→の：09472_no⟧{定番商品|ていばんしょうひん}だ。",
       "english": "These shoes are one of the brand's staple products.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20528_teibanshouhin_ex2",
-      "japanese": "{定番商品|ていばんしょうひん}は{年間|ねんかん}を{通|つう}じて{売|う}れる。",
+      "japanese": "{定番商品|ていばんしょうひん}⟦は→は：00079_ha⟧⟦{年間|ねんかん}→年間：00974_nenkan⟧⟦を→を：00422_wo⟧⟦{通|つう}じて→通じる：02289_tsuujiru⟧⟦{売|う}れる→売れる：02012_ureru⟧。",
       "english": "Standard products sell throughout the year.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20528_teibanshouhin_ex3",
-      "japanese": "{季節限定|きせつげんてい}ではなく、{定番商品|ていばんしょうひん}として{定着|ていちゃく}した{味|あじ}もある。",
+      "japanese": "⟦{季節限定|きせつげんてい}→季節限定：09823_kisetsugentei⟧⟦ではなく→ではなく：09578_dehanaku⟧、{定番商品|ていばんしょうひん}⟦として→として：06802_toshite⟧⟦{定着|ていちゃく}→定着：07594_teichaku⟧⟦した→する：00392_suru⟧⟦{味|あじ}→味：00826_aji⟧⟦も→も：00484_mo⟧⟦ある→ある：00006_aru⟧。",
       "english": "Some flavors have become established as standard products rather than seasonal limited editions.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {定番|ていばん} (standard, classic) and {商品|しょうひん} (product, goods). {定番|ていばん} originally comes from kabuki theater, where it referred to a fixed program or repertoire.\n\nCOMMON COLLOCATIONS:\n- {定番商品|ていばんしょうひん}を{揃|そろ}える: to stock standard products\n- {定番商品|ていばんしょうひん}として{定着|ていちゃく}する: to become established as a staple\n- {定番商品|ていばんしょうひん}の{ラインナップ}: lineup of standard products\n\nRELATED TERMS:\n- {定番|ていばん}: standard, classic, go-to (can modify many nouns beyond products)\n- {新商品|しんしょうひん}: new product\n- {限定商品|げんていしょうひん}: limited-edition product\n- {売|う}れ{筋商品|すじしょうひん}: best-selling product",
+  "notes": "Composed of ⟦{定番|ていばん}→定番：12265_teiban⟧ (standard, classic) and ⟦{商品|しょうひん}→商品：01436_shouhin⟧ (product, goods). ⟦{定番|ていばん}→定番：12265_teiban⟧ originally comes from kabuki theater, where it referred to a fixed program or repertoire.\n\nCOMMON COLLOCATIONS:\n- {定番商品|ていばんしょうひん}⟦を→を：00422_wo⟧⟦{揃|そろ}える→揃える：01952_soroeru⟧: to stock standard products\n- {定番商品|ていばんしょうひん}⟦として→として：06802_toshite⟧⟦{定着|ていちゃく}→定着：07594_teichaku⟧⟦する→する：00392_suru⟧: to become established as a staple\n- {定番商品|ていばんしょうひん}⟦の→の：09472_no⟧ラインナップ: lineup of standard products\n\nRELATED WORDS:\n- ⟦{定番|ていばん}→定番：12265_teiban⟧: standard, classic, go-to (can modify many nouns beyond products)\n- ⟦{新商品|しんしょうひん}→新商品：11504_shinshouhin⟧: new product\n- {限定商品|げんていしょうひん}: limited-edition product\n- {売|う}れ{筋商品|すじしょうひん}: best-selling product",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "11504_shinshouhin",
+      "reading": "しんしょうひん",
+      "headword": "{新商品|しんしょうひん}",
+      "label": "new product"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21609_ninkishouhin",
+      "reading": "にんきしょうひん",
+      "headword": "{人気|にんき}{商品|しょうひん}",
+      "label": "popular product"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23266_shuryokushouhin",
+      "reading": "しゅりょくしょうひん",
+      "headword": "{主力商品|しゅりょくしょうひん}",
+      "label": "flagship product"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["business", "shopping"]
+      "semantic": [
+        "business",
+        "shopping"
+      ]
     },
     "created": "2026-03-29T17:04:44Z",
-    "modified": "2026-03-29T17:04:44Z"
+    "modified": "2026-09-02T04:02:00Z"
   }
 }

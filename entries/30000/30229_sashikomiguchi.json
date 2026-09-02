@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30229_sashikomiguchi_ex1",
-      "japanese": "{差|さ}し{込|こ}み{口|ぐち}が{見|み}つからない。",
+      "japanese": "{差|さ}し{込|こ}み{口|ぐち}⟦が→が：00051_ga⟧⟦{見|み}つからない→見つかる：01173_mitsukaru⟧。",
       "english": "I can't find the socket.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30229_sashikomiguchi_ex2",
-      "japanese": "USBの{差|さ}し{込|こ}み{口|ぐち}はパソコンの{裏側|うらがわ}にある。",
+      "japanese": "USB⟦の→の：09472_no⟧{差|さ}し{込|こ}み{口|ぐち}⟦は→は：00079_ha⟧⟦パソコン→パソコン：01538_pasokon⟧⟦の→の：09472_no⟧⟦{裏側|うらがわ}→裏側：03042_uragawa⟧⟦に→に：00314_ni⟧⟦ある→ある：00006_aru⟧。",
       "english": "The USB port is on the back of the computer.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30229_sashikomiguchi_ex3",
-      "japanese": "この{部屋|へや}は{差|さ}し{込|こ}み{口|ぐち}が{少|すく}ないので、{延長|えんちょう}コードが{必要|ひつよう}だ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{部屋|へや}→部屋：00507_heya⟧⟦は→は：00079_ha⟧{差|さ}し{込|こ}み{口|ぐち}⟦が→が：00051_ga⟧⟦{少|すく}ない→少ない：01136_sukunai⟧⟦の→の：09472_no⟧で、⟦{延長|えんちょう}コード→延長コード：07087_enchoukoodo⟧⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧だ。",
       "english": "This room has few outlets, so an extension cord is necessary.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "{差|さ}し{込|こ}む (to insert, to plug in) + {口|ぐち} (opening). A plain, descriptive word for any hole something plugs into, so it works where a more specific term is unknown or unnecessary.\n\nCOMMON COLLOCATIONS:\n- {電源|でんげん}の{差|さ}し{込|こ}み{口|ぐち}: power outlet\n- イヤホンの{差|さ}し{込|こ}み{口|ぐち}: headphone jack\n- {差|さ}し{込|こ}み{口|ぐち}に{差|さ}し{込|こ}む: to plug into the socket\n\nSIMILAR WORDS:\n- コンセント: electrical outlet — the everyday word for a wall socket specifically\n- ポート: port — used for computer connectors in technical writing\n- {差|さ}し{込|こ}みプラグ: plug — the part that goes in, not the opening",
+  "notes": "⟦{差|さ}し{込|こ}む→差し込む：04235_sashikomu⟧ (to insert, to plug in) + {口|ぐち} (opening). A plain, descriptive word for any hole something plugs into, so it works where a more specific term is unknown or unnecessary.\n\nCOMMON COLLOCATIONS:\n- ⟦{電源|でんげん}→電源：04429_dengen⟧⟦の→の：09472_no⟧{差|さ}し{込|こ}み{口|ぐち}: power outlet\n- ⟦イヤホン→イヤホン：04421_iyahon⟧⟦の→の：09472_no⟧{差|さ}し{込|こ}み{口|ぐち}: headphone jack\n- {差|さ}し{込|こ}み{口|ぐち}⟦に→に：00314_ni⟧⟦{差|さ}し{込|こ}む→差し込む：04235_sashikomu⟧: to plug into the socket\n\nSIMILAR WORDS:\n- ⟦コンセント→コンセント：04431_konsento⟧: electrical outlet — the everyday word for a wall socket specifically\n- ⟦ポート→ポート：24425_pooto⟧: port — used for computer connectors in technical writing\n- {差|さ}し{込|こ}み⟦プラグ→プラグ：07807_puragu⟧: plug — the part that goes in, not the opening",
   "cross_references": [
     {
       "type": "related",
@@ -57,6 +57,27 @@
       "target_id": "04431_konsento",
       "reading": "こんせんと",
       "headword": "コンセント"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24425_pooto",
+      "reading": "ぽーと",
+      "headword": "ポート",
+      "label": "port"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30186_nyuuryokutanshi",
+      "reading": "にゅうりょくたんし",
+      "headword": "入力端子",
+      "label": "input terminal"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30215_tanshi",
+      "reading": "たんし",
+      "headword": "端子",
+      "label": "terminal"
     }
   ],
   "schema_version": "2.0",
@@ -67,7 +88,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "electronics",
         "tool"
@@ -75,6 +96,6 @@
       "domain": []
     },
     "created": "2026-07-29T18:17:31Z",
-    "modified": "2026-07-29T18:17:31Z"
+    "modified": "2026-09-02T04:02:39Z"
   }
 }

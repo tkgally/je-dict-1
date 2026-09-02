@@ -3,7 +3,7 @@
   "headword": "{差別的|さべつてき}",
   "reading": "さべつてき",
   "romaji": "sabetsuteki",
-  "part_of_speech": "adjective-na",
+  "part_of_speech": "na-adjective",
   "gloss": "discriminatory; prejudicial",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29667_sabetsuteki_ex1",
-      "japanese": "{差別的|さべつてき}な{発言|はつげん}をする。",
+      "japanese": "{差別的|さべつてき}な⟦{発言|はつげん}→発言：05099_hatsugen⟧⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧。",
       "english": "To make a discriminatory remark.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29667_sabetsuteki_ex2",
-      "japanese": "その{規則|きそく}は{女性|じょせい}に{差別的|さべつてき}だ。",
+      "japanese": "⟦その→その：00993_sono⟧⟦{規則|きそく}→規則：01382_kisoku⟧⟦は→は：00079_ha⟧⟦{女性|じょせい}→女性：01617_josei⟧⟦に→に：00314_ni⟧{差別的|さべつてき}だ。",
       "english": "That rule is discriminatory toward women.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29667_sabetsuteki_ex3",
-      "japanese": "{外国人|がいこくじん}を{差別的|さべつてき}に{扱|あつか}うことは{許|ゆる}されない。",
+      "japanese": "⟦{外国人|がいこくじん}→外国人：02869_gaikokujin⟧⟦を→を：00422_wo⟧{差別的|さべつてき}⟦に→に：00314_ni⟧⟦{扱|あつか}う→扱う：01862_atsukau⟧こと⟦は→は：00079_ha⟧⟦{許|ゆる}されない→許す：02325_yurusu⟧。",
       "english": "Treating foreigners in a discriminatory way is not acceptable.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "Formed from {差別|さべつ} (discrimination) plus the suffix {的|てき} (-like, -ial), producing a na-adjective. It describes speech, rules, or treatment that discriminates unfairly.\n\nCOMMON COLLOCATIONS:\n- {差別的|さべつてき}な{発言|はつげん}: a discriminatory remark\n- {差別的|さべつてき}な{扱|あつか}い: discriminatory treatment\n- {差別的|さべつてき}な{制度|せいど}: a discriminatory system\n\nUSAGE:\nUsed adverbially as {差別的|さべつてき}に and predicatively as ～に{差別的|さべつてき}だ (discriminatory toward ～).",
+  "notes": "Formed from ⟦{差別|さべつ}→差別：01633_sabetsu⟧ (discrimination) plus the suffix ⟦{的|てき}→〜的：09839_teki⟧ (-like, -ial), producing a na-adjective. It describes speech, rules, or treatment that discriminates unfairly.\n\nCOMMON COLLOCATIONS:\n- {差別的|さべつてき}な⟦{発言|はつげん}→発言：05099_hatsugen⟧: a discriminatory remark\n- {差別的|さべつてき}な⟦{扱|あつか}い→扱い：12777_atsukai⟧: discriminatory treatment\n- {差別的|さべつてき}な⟦{制度|せいど}→制度：03291_seido⟧: a discriminatory system\n\nUSAGE:\nUsed adverbially as {差別的|さべつてき}⟦に→に：00314_ni⟧ and predicatively as ～⟦に→に：00314_ni⟧{差別的|さべつてき}だ (discriminatory toward ～).",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "06388_haitateki",
+      "reading": "はいたてき",
+      "headword": "{排他的|はいたてき}",
+      "label": "exclusive, exclusionary"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +62,13 @@
         "adjective-na"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "society"
       ],
       "domain": []
     },
     "created": "2026-07-03T18:18:03Z",
-    "modified": "2026-07-03T18:18:03Z"
+    "modified": "2026-09-02T04:02:37Z"
   }
 }

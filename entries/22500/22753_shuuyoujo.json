@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22753_shuuyoujo_ex1",
-      "japanese": "{戦時中|せんじちゅう}、{多|おお}くの{人|ひと}が{収容所|しゅうようじょ}に{送|おく}られた。",
+      "japanese": "⟦{戦時中|せんじちゅう}→戦時中：28629_senjichuu⟧、{多|おお}く⟦の→の：09472_no⟧⟦{人|ひと}→人：00476_hito⟧⟦が→が：00051_ga⟧{収容所|しゅうようじょ}⟦に→に：00314_ni⟧⟦{送|おく}られた→送る：00742_okuru⟧。",
       "english": "During the war, many people were sent to internment camps.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22753_shuuyoujo_ex2",
-      "japanese": "{難民|なんみん}{収容所|しゅうようじょ}の{環境|かんきょう}{改善|かいぜん}が{求|もと}められている。",
+      "japanese": "⟦{難民|なんみん}→難民：05313_nanmin⟧{収容所|しゅうようじょ}⟦の→の：09472_no⟧⟦{環境|かんきょう}→環境：00174_kankyou⟧⟦{改善|かいぜん}→改善：00144_kaizen⟧⟦が→が：00051_ga⟧⟦{求|もと}められている→求める：02316_motomeru⟧。",
       "english": "Improvements to conditions in refugee camps are being called for.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22753_shuuyoujo_ex3",
-      "japanese": "{強制収容所|きょうせいしゅうようじょ}の{跡地|あとち}が{博物館|はくぶつかん}として{保存|ほぞん}されている。",
+      "japanese": "{強制収容所|きょうせいしゅうようじょ}⟦の→の：09472_no⟧⟦{跡地|あとち}→跡地：14281_atochi⟧⟦が→が：00051_ga⟧⟦{博物館|はくぶつかん}→博物館：01494_hakubutsukan⟧⟦として→として：06802_toshite⟧⟦{保存|ほぞん}→保存：03626_hozon⟧⟦されている→する：00392_suru⟧。",
       "english": "The site of the former concentration camp has been preserved as a museum.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {収容|しゅうよう} ('accommodation, detention, housing') and {所|じょ} ('place'). The word itself is neutral — the nature of the facility depends on context. It can range from a refugee processing center to a wartime concentration camp.\n\nCOMMON COLLOCATIONS:\n- {強制収容所|きょうせいしゅうようじょ}: concentration camp, forced internment camp\n- {難民|なんみん}{収容所|しゅうようじょ}: refugee camp\n- {捕虜|ほりょ}{収容所|しゅうようじょ}: prisoner-of-war camp\n- {入管|にゅうかん}{収容所|しゅうようじょ}: immigration detention center\n- {収容所|しゅうようじょ}に{送|おく}られる: to be sent to a camp\n\nSIMILAR WORDS:\n- {刑務所|けいむしょ}: prison — for convicted criminals serving sentences\n- {拘置所|こうちしょ}: detention house — for suspects awaiting trial\n- {難民|なんみん}キャンプ: refugee camp — the loanword-based alternative",
+  "notes": "Composed of ⟦{収容|しゅうよう}→収容：11800_shuuyou⟧ ('accommodation, detention, housing') and {所|じょ} ('place'). The word itself is neutral — the nature of the facility depends on context. It can range from a refugee processing center to a wartime concentration camp.\n\nCOMMON COLLOCATIONS:\n- {強制収容所|きょうせいしゅうようじょ}: concentration camp, forced internment camp\n- ⟦{難民|なんみん}→難民：05313_nanmin⟧{収容所|しゅうようじょ}: refugee camp\n- ⟦{捕虜|ほりょ}→捕虜：20662_horyo⟧{収容所|しゅうようじょ}: prisoner-of-war camp\n- {入管|にゅうかん}{収容所|しゅうようじょ}: immigration detention center\n- {収容所|しゅうようじょ}⟦に→に：00314_ni⟧⟦{送|おく}られる→送る：00742_okuru⟧: to be sent to a camp\n\nSIMILAR WORDS:\n- ⟦{刑務所|けいむしょ}→刑務所：19074_keimusho⟧: prison — for convicted criminals serving sentences\n- ⟦{拘置所|こうちしょ}→拘置所：30455_kouchisho⟧: detention house — for suspects awaiting trial\n- ⟦{難民|なんみん}→難民：05313_nanmin⟧⟦キャンプ→キャンプ：03837_kyanpu⟧: refugee camp — the loanword-based alternative",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19074_keimusho",
+      "reading": "けいむしょ",
+      "headword": "{刑務所|けいむしょ}",
+      "label": "prison"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30455_kouchisho",
+      "reading": "こうちしょ",
+      "headword": "{拘置所|こうちしょ}",
+      "label": "detention house"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,6 +77,6 @@
       "politeness": "plain"
     },
     "created": "2026-04-07T14:17:55Z",
-    "modified": "2026-07-30T15:49:39Z"
+    "modified": "2026-09-02T04:02:09Z"
   }
 }

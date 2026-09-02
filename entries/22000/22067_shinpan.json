@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22067_shinpan_ex1",
-      "japanese": "{新版|しんぱん}が{出|で}た。",
+      "japanese": "{新版|しんぱん}⟦が→が：00051_ga⟧⟦{出|で}た→出る：00513_deru⟧。",
       "english": "A new edition came out.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22067_shinpan_ex2",
-      "japanese": "この{辞書|じしょ}の{新版|しんぱん}が{来月|らいげつ}{発売|はつばい}される。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{辞書|じしょ}→辞書：04707_jisho⟧⟦の→の：09472_no⟧{新版|しんぱん}⟦が→が：00051_ga⟧⟦{来月|らいげつ}→来月：00744_raigetsu⟧⟦{発売|はつばい}→発売：04315_hatsubai⟧⟦される→する：00392_suru⟧。",
       "english": "The new edition of this dictionary will go on sale next month.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22067_shinpan_ex3",
-      "japanese": "{旧版|きゅうばん}と{新版|しんぱん}の{違|ちが}いは、{巻末|かんまつ}の{索引|さくいん}が{充実|じゅうじつ}した{点|てん}だ。",
+      "japanese": "{旧版|きゅうばん}⟦と→と：00512_to⟧{新版|しんぱん}⟦の→の：09472_no⟧⟦{違|ちが}い→違い：03432_chigai⟧⟦は→は：00079_ha⟧、⟦{巻末|かんまつ}→巻末：21973_kanmatsu⟧⟦の→の：09472_no⟧⟦{索引|さくいん}→索引：04168_sakuin⟧⟦が→が：00051_ga⟧⟦{充実|じゅうじつ}した→充実した：16627_juujitsushita⟧⟦{点|てん}→点：01553_ten⟧だ。",
       "english": "The difference between the old and new editions is that the index at the end has been expanded.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {新|しん} (new) and {版|ぱん} (edition/version). Used for updated or revised versions of books, textbooks, software, and other published works. The reading is しんぱん (with rendaku on {版|はん}).\n\nCOMMON COLLOCATIONS:\n- {新版|しんぱん}を{出|だ}す: to release a new edition\n- {新版|しんぱん}が{出|で}る: a new edition comes out\n- {改訂|かいてい}{新版|しんぱん}: revised new edition\n\nSIMILAR WORDS:\n- {改訂版|かいていばん} — revised edition (emphasizes revision of content)\n- {増補版|ぞうほばん} — expanded edition (content added)\n- {旧版|きゅうばん} — old edition (the opposite)\n- {初版|しょはん} — first edition",
+  "notes": "A compound of {新|しん} (new) and {版|ぱん} (edition/version). Used for updated or revised versions of books, textbooks, software, and other published works. The reading is しんぱん (with rendaku on ⟦{版|はん}→版：03698_han⟧).\n\nCOMMON COLLOCATIONS:\n- {新版|しんぱん}⟦を→を：00422_wo⟧⟦{出|だ}す→出す：01087_dasu⟧: to release a new edition\n- {新版|しんぱん}⟦が→が：00051_ga⟧⟦{出|で}る→出る：00513_deru⟧: a new edition comes out\n- ⟦{改訂|かいてい}→改訂：13044_kaitei⟧{新版|しんぱん}: revised new edition\n\nSIMILAR WORDS:\n- ⟦{改訂版|かいていばん}→改訂版：17716_kaiteiban⟧ — revised edition (emphasizes revision of content)\n- ⟦{増補版|ぞうほばん}→増補版：24013_zouhoban⟧ — expanded edition (content added)\n- {旧版|きゅうばん} — old edition (the opposite)\n- ⟦{初版|しょはん}→初版：15827_shohan⟧ — first edition",
   "cross_references": [
     {
       "type": "synonym",
@@ -59,6 +59,13 @@
       "reading": "ぞうほばん",
       "headword": "{増補版|ぞうほばん}",
       "label": "augmented edition"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15827_shohan",
+      "reading": "しょはん",
+      "headword": "{初版|しょはん}",
+      "label": "first edition"
     }
   ],
   "schema_version": "2.0",
@@ -68,12 +75,14 @@
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "publishing"
       ],
       "usage_context": []
     },
     "created": "2026-04-04T22:17:56Z",
-    "modified": "2026-06-16T12:23:55Z"
+    "modified": "2026-09-02T04:02:06Z"
   }
 }

@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08897_efudaburyuu_ex1",
-      "japanese": "FWがゴールを{決|き}めた。",
+      "japanese": "FW⟦が→が：00051_ga⟧⟦ゴール→ゴール：03845_gooru⟧⟦を→を：00422_wo⟧⟦{決|き}めた→決める：00858_kimeru⟧。",
       "english": "The forward scored a goal.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "08897_efudaburyuu_ex2",
-      "japanese": "{彼|かれ}はFWとしてプレーしている。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧FW⟦として→として：06802_toshite⟧⟦プレー→プレー：29432_puree⟧⟦している→する：00392_suru⟧。",
       "english": "He plays as a forward.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "08897_efudaburyuu_ex3",
-      "japanese": "チームには{得点力|とくてんりょく}のあるFWが{必要|ひつよう}だ。",
+      "japanese": "⟦チーム→チーム：03858_chiimu⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{得点力|とくてんりょく}⟦の→の：09472_no⟧⟦ある→ある：00006_aru⟧FW⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧だ。",
       "english": "The team needs a forward with scoring ability.",
       "notes": null,
       "has_audio": false,
@@ -43,11 +43,19 @@
       ]
     }
   ],
-  "notes": "FW stands for Forward. It is the standard abbreviation for the attacking position in soccer.\n\nCOMMON COLLOCATIONS:\n- {得点力|とくてんりょく}のあるFW: forward with scoring ability\n- エースFW: ace forward\n- センターFW (CF): center forward\n- FWの{選手|せんしゅ}: forward player\n\nALTERNATIVE TERMS:\n- フォワード: forward (full word)\n- ストライカー: striker\n- {攻撃|こうげき}{陣|じん}: offensive line\n\nSOCCER POSITIONS:\n- GK: goalkeeper\n- DF: defender\n- MF: midfielder\n- FW: forward",
-  "cross_references": [],
+  "notes": "FW stands for Forward. It is the standard abbreviation for the attacking position in soccer.\n\nCOMMON COLLOCATIONS:\n- {得点力|とくてんりょく}⟦の→の：09472_no⟧⟦ある→ある：00006_aru⟧FW: forward with scoring ability\n- ⟦エース→エース：28537_eesu⟧FW: ace forward\n- ⟦センター→センター：03854_sentaa⟧FW (CF): center forward\n- FW⟦の→の：09472_no⟧⟦{選手|せんしゅ}→選手：03823_senshu⟧: forward player\n\nALTERNATIVE TERMS:\n- ⟦フォワード→フォワード：06586_fowaado⟧: forward (full word)\n- ストライカー: striker\n- ⟦{攻撃|こうげき}→攻撃：02748_kougeki⟧⟦{陣|じん}→陣：30535_jin⟧: offensive line\n\nSOCCER POSITIONS:\n- GK: goalkeeper\n- DF: defender\n- MF: midfielder\n- FW: forward",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06586_fowaado",
+      "reading": "ふぉわーど",
+      "headword": "フォワード",
+      "label": "forward"
+    }
+  ],
   "metadata": {
     "created": "2026-01-29T02:54:31Z",
-    "modified": "2026-06-23T01:38:10Z",
+    "modified": "2026-09-02T04:01:16Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

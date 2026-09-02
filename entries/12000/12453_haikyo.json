@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "12453_haikyo_ex1",
-      "japanese": "この{建物|たてもの}は{廃墟|はいきょ}になっている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{建物|たてもの}→建物：01458_tatemono⟧⟦は→は：00079_ha⟧{廃墟|はいきょ}になっている。",
       "english": "This building has become a ruin.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "12453_haikyo_ex2",
-      "japanese": "{戦争|せんそう}で{町|まち}は{廃墟|はいきょ}と{化|か}した。",
+      "japanese": "⟦{戦争|せんそう}→戦争：01450_sensou⟧⟦で→で：00502_de⟧⟦{町|まち}→町：00613_machi⟧⟦は→は：00079_ha⟧{廃墟|はいきょ}⟦と→と：00512_to⟧⟦{化|か}した→化す：29802_kasu⟧。",
       "english": "The town was reduced to ruins by the war.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "12453_haikyo_ex3",
-      "japanese": "{廃墟|はいきょ}となった{工場|こうじょう}を{写真|しゃしん}に{撮|と}る{趣味|しゅみ}を{持|も}つ{人|ひと}が{増|ふ}えている。",
+      "japanese": "{廃墟|はいきょ}⟦と→と：00512_to⟧⟦なった→なる：01970_naru⟧⟦{工場|こうじょう}→工場：01082_koujou⟧⟦を→を：00422_wo⟧⟦{写真|しゃしん}→写真：00753_shashin⟧⟦に→に：00314_ni⟧⟦{撮|と}る→撮る：00760_toru⟧⟦{趣味|しゅみ}→趣味：00889_shumi⟧⟦を→を：00422_wo⟧⟦{持|も}つ→持つ：00478_motsu⟧⟦{人|ひと}→人：00476_hito⟧⟦が→が：00051_ga⟧⟦{増|ふ}えている→増える：01183_fueru⟧。",
       "english": "More and more people have the hobby of photographing abandoned factories.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,61 @@
       ]
     }
   ],
-  "notes": "USAGE:\nAlso written as {廃虚|はいきょ} with a simplified second kanji. In recent years, {廃墟|はいきょ} exploration and photography have become popular hobbies in Japan, though entering abandoned buildings without permission is illegal. {廃墟|はいきょ}マニア refers to people enthusiastic about exploring ruins.\n\nCOMMON COLLOCATIONS:\n- {廃墟|はいきょ}になる: to become ruins\n- {廃墟|はいきょ}と{化|か}す: to be reduced to ruins\n- {廃墟|はいきょ}{探索|たんさく}: ruin exploration\n- {廃墟|はいきょ}マニア: ruin enthusiast",
-  "cross_references": [],
+  "notes": "USAGE:\nAlso written as {廃虚|はいきょ} with a simplified second kanji. In recent years, {廃墟|はいきょ} exploration and photography have become popular hobbies in Japan, though entering abandoned buildings without permission is illegal. {廃墟|はいきょ}⟦マニア→マニア：11150_mania⟧ refers to people enthusiastic about exploring ruins.\n\nCOMMON COLLOCATIONS:\n- {廃墟|はいきょ}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧: to become ruins\n- {廃墟|はいきょ}⟦と→と：00512_to⟧⟦{化|か}す→化す：29802_kasu⟧: to be reduced to ruins\n- {廃墟|はいきょ}⟦{探索|たんさく}→探索：12919_tansaku⟧: ruin exploration\n- {廃墟|はいきょ}⟦マニア→マニア：11150_mania⟧: ruin enthusiast",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03778_kouhai",
+      "reading": "こうはい",
+      "headword": "{荒廃|こうはい}",
+      "label": "ruin, devastation, decay"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14281_atochi",
+      "reading": "あとち",
+      "headword": "{跡地|あとち}",
+      "label": "former site"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16965_arehateru",
+      "reading": "あれはてる",
+      "headword": "{荒|あ}れ{果|は}てる",
+      "label": "to be completely ruined"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20128_arechi",
+      "reading": "あれち",
+      "headword": "{荒|あ}れ{地|ち}",
+      "label": "wasteland"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21135_kouryou",
+      "reading": "こうりょう",
+      "headword": "{荒涼|こうりょう}",
+      "label": "desolate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27607_yakeato",
+      "reading": "やけあと",
+      "headword": "{焼|や}け{跡|あと}",
+      "label": "burned ruins"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30528_zangai",
+      "reading": "ざんがい",
+      "headword": "{残骸|ざんがい}",
+      "label": "wreckage"
+    }
+  ],
   "metadata": {
     "created": "2026-02-21T06:48:49Z",
-    "modified": "2026-07-05T12:55:36Z",
+    "modified": "2026-09-02T04:01:29Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

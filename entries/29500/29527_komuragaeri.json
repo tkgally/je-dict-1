@@ -15,41 +15,60 @@
   "examples": [
     {
       "id": "29527_komuragaeri_ex1",
-      "japanese": "{夜中|よなか}にこむら{返|がえ}りが{起|お}きた。",
+      "japanese": "⟦{夜中|よなか}→夜中：01008_yonaka⟧⟦に→に：00314_ni⟧こむら{返|がえ}り⟦が→が：00051_ga⟧⟦{起|お}きた→起きる：00521_okiru⟧。",
       "english": "I got a calf cramp in the middle of the night.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29527_komuragaeri_ex2",
-      "japanese": "{運動|うんどう}{中|ちゅう}にこむら{返|がえ}りを{起|お}こした。",
+      "japanese": "⟦{運動|うんどう}→運動：00821_undou⟧⟦{中|ちゅう}→〜中：09840_chuu⟧⟦に→に：00314_ni⟧こむら{返|がえ}り⟦を→を：00422_wo⟧⟦{起|お}こした→起こす：01234_okosu⟧。",
       "english": "I got a calf cramp during exercise.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29527_komuragaeri_ex3",
-      "japanese": "{水分|すいぶん}が{足|た}りないと、こむら{返|がえ}りになりやすいそうだ。",
+      "japanese": "⟦{水分|すいぶん}→水分：04302_suibun⟧⟦が→が：00051_ga⟧⟦{足|た}りない→足りる：01209_tariru⟧⟦と→と：00512_to⟧、こむら{返|がえ}り⟦に→に：00314_ni⟧⟦なり→なる：01970_naru⟧やすいそうだ。",
       "english": "Apparently, when you're short on fluids, you're prone to calf cramps.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "An everyday word for a painful calf-muscle cramp. Commonly triggered by fatigue, cold, dehydration, or mineral imbalance, and frequent during sleep or swimming.\n\nCOMMON COLLOCATIONS:\n- こむら{返|がえ}りが{起|お}きる: a calf cramp occurs\n- こむら{返|がえ}りを{起|お}こす: to get a calf cramp\n\nSIMILAR WORDS:\n- {痙攣|けいれん}: convulsion, spasm — the broader medical term for involuntary muscle contraction\n- つる: to cramp up (verb) — the colloquial verb, as in {足|あし}がつる (one's leg cramps)",
+  "notes": "An everyday word for a painful calf-muscle cramp. Commonly triggered by fatigue, cold, dehydration, or mineral imbalance, and frequent during sleep or swimming.\n\nCOMMON COLLOCATIONS:\n- こむら{返|がえ}り⟦が→が：00051_ga⟧⟦{起|お}きる→起きる：00521_okiru⟧: a calf cramp occurs\n- こむら{返|がえ}り⟦を→を：00422_wo⟧⟦{起|お}こす→起こす：01234_okosu⟧: to get a calf cramp\n\nSIMILAR WORDS:\n- ⟦{痙攣|けいれん}→痙攣：06301_keiren⟧: convulsion, spasm — the broader medical term for involuntary muscle contraction\n- つる: to cramp up (verb) — the colloquial verb, as in ⟦{足|あし}→足：00575_ashi⟧⟦が→が：00051_ga⟧つる (one's leg cramps)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06301_keiren",
+      "reading": "けいれん",
+      "headword": "{痙攣|けいれん}",
+      "label": "convulsion, spasm"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["health"],
+      "politeness": "plain",
+      "semantic": [
+        "health"
+      ],
       "domain": []
     },
     "created": "2026-06-27T18:18:39Z",
-    "modified": "2026-06-27T18:18:39Z"
+    "modified": "2026-09-02T04:02:37Z"
   }
 }

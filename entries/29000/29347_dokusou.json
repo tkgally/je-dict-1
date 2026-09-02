@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "29347_dokusou_ex1",
-      "japanese": "{独創|どくそう}に{富|と}む{作品|さくひん}。",
+      "japanese": "{独創|どくそう}⟦に→に：00314_ni⟧⟦{富|と}む→富む：12343_tomu⟧⟦{作品|さくひん}→作品：02776_sakuhin⟧。",
       "english": "a work full of originality",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29347_dokusou_ex2",
-      "japanese": "その{研究|けんきゅう}は{独創|どくそう}に{欠|か}けている。",
+      "japanese": "⟦その→その：00993_sono⟧⟦{研究|けんきゅう}→研究：01396_kenkyuu⟧⟦は→は：00079_ha⟧{独創|どくそう}⟦に→に：00314_ni⟧⟦{欠|か}けている→欠ける：13167_kakeru⟧。",
       "english": "That research lacks originality.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29347_dokusou_ex3",
-      "japanese": "{芸術|げいじゅつ}の{世界|せかい}では、{技術|ぎじゅつ}よりも{独創|どくそう}が{評価|ひょうか}されることがある。",
+      "japanese": "⟦{芸術|げいじゅつ}→芸術：02712_geijutsu⟧⟦の→の：09472_no⟧⟦{世界|せかい}→世界：01447_sekai⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧、⟦{技術|ぎじゅつ}→技術：01389_gijutsu⟧⟦より→より：09476_yori⟧⟦も→も：00484_mo⟧{独創|どくそう}⟦が→が：00051_ga⟧⟦{評価|ひょうか}→評価：03583_hyouka⟧⟦される→する：00392_suru⟧こと⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "In the art world, originality is sometimes valued more than technique.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Refers to inventing or creating something from one's own ideas rather than imitating. Most common in the derived forms {独創的|どくそうてき} (original, creative) and {独創性|どくそうせい} (originality).\n\nCOMMON COLLOCATIONS:\n- {独創|どくそう}に{富|と}む: to be full of originality\n- {独創|どくそう}{性|せい}: originality\n- {独創|どくそう}{的|てき}: original; creative\n\nSIMILAR WORDS:\n- {創造|そうぞう}: creation — the act of creating, broader than originality\n- {独自|どくじ}: one's own; unique — emphasizes being distinct from others",
+  "notes": "Refers to inventing or creating something from one's own ideas rather than imitating. Most common in the derived forms ⟦{独創的|どくそうてき}→独創的：06242_dokusouteki⟧ (original, creative) and ⟦{独創性|どくそうせい}→独創性：05794_dokusousei⟧ (originality).\n\nCOMMON COLLOCATIONS:\n- {独創|どくそう}⟦に→に：00314_ni⟧⟦{富|と}む→富む：12343_tomu⟧: to be full of originality\n- {独創|どくそう}{性|せい}: originality\n- {独創|どくそう}{的|てき}: original; creative\n\nSIMILAR WORDS:\n- ⟦{創造|そうぞう}→創造：03317_souzou⟧: creation — the act of creating, broader than originality\n- ⟦{独自|どくじ}→独自：05614_dokuji⟧: one's own; unique — emphasizes being distinct from others",
   "cross_references": [
     {
       "type": "related",
@@ -46,18 +52,43 @@
       "reading": "どくそうてき",
       "headword": "{独創的|どくそうてき}",
       "label": "original; creative"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03317_souzou",
+      "reading": "そうぞう",
+      "headword": "{創造|そうぞう}",
+      "label": "creation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05614_dokuji",
+      "reading": "どくじ",
+      "headword": "{独自|どくじ}",
+      "label": "one's own"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22819_soui",
+      "reading": "そうい",
+      "headword": "{創意|そうい}",
+      "label": "originality"
     }
   ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["abstract"],
+      "semantic": [
+        "abstract"
+      ],
       "domain": []
     },
     "created": "2026-06-19T07:33:25Z",
-    "modified": "2026-06-19T07:33:25Z"
+    "modified": "2026-09-02T04:02:36Z"
   }
 }

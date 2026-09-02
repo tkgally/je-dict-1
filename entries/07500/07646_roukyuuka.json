@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "07646_roukyuuka_ex1",
-      "japanese": "{建物|たてもの}が{老朽化|ろうきゅうか}している。",
+      "japanese": "⟦{建物|たてもの}→建物：01458_tatemono⟧⟦が→が：00051_ga⟧{老朽化|ろうきゅうか}⟦している→する：00392_suru⟧。",
       "english": "The building is deteriorating with age.",
       "has_audio": false,
       "sense_numbers": [
@@ -113,7 +113,7 @@
     },
     {
       "id": "07646_roukyuuka_ex2",
-      "japanese": "{老朽化|ろうきゅうか}したインフラの{更新|こうしん}が{急務|きゅうむ}だ。",
+      "japanese": "{老朽化|ろうきゅうか}⟦した→する：00392_suru⟧⟦インフラ→インフラ：09898_infura⟧⟦の→の：09472_no⟧⟦{更新|こうしん}→更新：04765_koushin⟧⟦が→が：00051_ga⟧⟦{急務|きゅうむ}→急務：21059_kyuumu⟧だ。",
       "english": "Updating the aging infrastructure is urgent.",
       "has_audio": false,
       "sense_numbers": [
@@ -122,7 +122,7 @@
     },
     {
       "id": "07646_roukyuuka_ex3",
-      "japanese": "{老朽化|ろうきゅうか}が{進|すす}んだ{水道管|すいどうかん}を{交換|こうかん}するため、{大規模|だいきぼ}な{工事|こうじ}が{行|おこな}われた。",
+      "japanese": "{老朽化|ろうきゅうか}⟦が→が：00051_ga⟧⟦{進|すす}んだ→進む：01225_susumu⟧⟦{水道管|すいどうかん}→水道管：08094_suidoukan⟧⟦を→を：00422_wo⟧⟦{交換|こうかん}→交換：02746_koukan⟧⟦する→する：00392_suru⟧⟦ため→ため：01145_tame⟧、⟦{大規模|だいきぼ}→大規模：12185_daikibo⟧な⟦{工事|こうじ}→工事：00244_kouji⟧⟦が→が：00051_ga⟧⟦{行|おこな}われた→行う：01238_okonau⟧。",
       "english": "Large-scale construction was carried out to replace aging water pipes.",
       "has_audio": false,
       "sense_numbers": [
@@ -130,7 +130,7 @@
       ]
     }
   ],
-  "notes": "COMMON COLLOCATIONS:\n・{建物|たてもの}の{老朽化|ろうきゅうか} - building deterioration\n・{設備|せつび}の{老朽化|ろうきゅうか} - equipment aging\n・インフラの{老朽化|ろうきゅうか} - infrastructure deterioration\n・{老朽化|ろうきゅうか}した{橋|はし} - an aging bridge\n・{老朽化|ろうきゅうか}{対策|たいさく} - measures against deterioration\n\nUSAGE NOTES:\nPrimarily used for physical structures and equipment, not for people (though {老化|ろうか} can be used for biological aging).\n\nRELATED WORDS:\n・{劣化|れっか} - deterioration, degradation (more general)\n・{老化|ろうか} - aging (biological)",
+  "notes": "COMMON COLLOCATIONS:\n- ⟦{建物|たてもの}→建物：01458_tatemono⟧⟦の→の：09472_no⟧{老朽化|ろうきゅうか} - building deterioration\n- ⟦{設備|せつび}→設備：03301_setsubi⟧⟦の→の：09472_no⟧{老朽化|ろうきゅうか} - equipment aging\n- ⟦インフラ→インフラ：09898_infura⟧⟦の→の：09472_no⟧{老朽化|ろうきゅうか} - infrastructure deterioration\n- {老朽化|ろうきゅうか}⟦した→する：00392_suru⟧⟦{橋|はし}→橋：02163_hashi⟧ - an aging bridge\n- {老朽化|ろうきゅうか}⟦{対策|たいさく}→対策：02511_taisaku⟧ - measures against deterioration\n\nUSAGE:\nPrimarily used for physical structures and equipment, not for people (though ⟦{老化|ろうか}→老化：13905_rouka⟧ can be used for biological aging).\n\nRELATED WORDS:\n- ⟦{劣化|れっか}→劣化：07647_rekka⟧ - deterioration, degradation (more general)\n- ⟦{老化|ろうか}→老化：13905_rouka⟧ - aging (biological)",
   "cross_references": [
     {
       "type": "related",
@@ -138,11 +138,32 @@
       "headword": "{劣化|れっか}",
       "label": "deterioration",
       "target_id": "07647_rekka"
+    },
+    {
+      "type": "related",
+      "target_id": "13905_rouka",
+      "reading": "ろうか",
+      "headword": "{老化|ろうか}",
+      "label": "aging"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22517_furubokeru",
+      "reading": "ふるぼける",
+      "headword": "{古|ふる}ぼける",
+      "label": "to look old and worn"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28785_boroi",
+      "reading": "ぼろい",
+      "headword": "ぼろい",
+      "label": "shabby"
     }
   ],
   "metadata": {
     "created": "2026-01-20T13:21:59Z",
-    "modified": "2026-06-19T21:43:28Z",
+    "modified": "2026-09-02T04:01:12Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -151,13 +172,15 @@
         "verb-suru"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "change"
       ],
       "domain": [
         "technical"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

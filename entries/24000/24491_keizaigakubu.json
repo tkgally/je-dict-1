@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24491_keizaigakubu_ex1",
-      "japanese": "{経済学部|けいざいがくぶ}に{入|はい}った。",
+      "japanese": "{経済学部|けいざいがくぶ}⟦に→に：00314_ni⟧⟦{入|はい}った→入る：00494_hairu⟧。",
       "english": "I entered the faculty of economics.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24491_keizaigakubu_ex2",
-      "japanese": "{姉|あね}は{経済学部|けいざいがくぶ}の{三年生|さんねんせい}だ。",
+      "japanese": "⟦{姉|あね}→姉：00571_ane⟧⟦は→は：00079_ha⟧{経済学部|けいざいがくぶ}⟦の→の：09472_no⟧⟦{三年生|さんねんせい}→三年生：27560_sannensei⟧だ。",
       "english": "My older sister is a third-year student in the economics department.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24491_keizaigakubu_ex3",
-      "japanese": "この{大学|だいがく}の{経済学部|けいざいがくぶ}は、{国際|こくさい}{経済|けいざい}の{研究|けんきゅう}で{有名|ゆうめい}だ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{大学|だいがく}→大学：00608_daigaku⟧⟦の→の：09472_no⟧{経済学部|けいざいがくぶ}⟦は→は：00079_ha⟧、⟦{国際|こくさい}→国際：01406_kokusai⟧⟦{経済|けいざい}→経済：01394_keizai⟧⟦の→の：09472_no⟧⟦{研究|けんきゅう}→研究：01396_kenkyuu⟧⟦で→で：00502_de⟧⟦{有名|ゆうめい}→有名：01106_yuumei⟧だ。",
       "english": "This university's economics faculty is famous for its research in international economics.",
       "sense_numbers": [
         1
@@ -44,19 +44,37 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {経済|けいざい} (economics) and {学部|がくぶ} (faculty/department). Japanese universities are organized into {学部|がくぶ}, which are larger divisions than individual departments. Asking someone's {学部|がくぶ} is a standard part of self-introduction among university students.\n\nCOMMON COLLOCATIONS:\n- {経済学部|けいざいがくぶ}に{所属|しょぞく}する: to belong to the economics faculty\n- {経済学部|けいざいがくぶ}を{卒業|そつぎょう}する: to graduate from the economics faculty\n- {経済学部|けいざいがくぶ}の{学生|がくせい}: economics student\n\nOTHER {学部|がくぶ} NAMES:\n- {法学部|ほうがくぶ}: faculty of law\n- {文学部|ぶんがくぶ}: faculty of literature/humanities\n- {理学部|りがくぶ}: faculty of science\n- {工学部|こうがくぶ}: faculty of engineering\n- {医学部|いがくぶ}: faculty of medicine",
+  "notes": "A compound of ⟦{経済|けいざい}→経済：01394_keizai⟧ (economics) and {学部|がくぶ} (faculty/department). Japanese universities are organized into {学部|がくぶ}, which are larger divisions than individual departments. Asking someone's {学部|がくぶ} is a standard part of self-introduction among university students.\n\nCOMMON COLLOCATIONS:\n- {経済学部|けいざいがくぶ}⟦に→に：00314_ni⟧⟦{所属|しょぞく}→所属：12750_shozoku⟧⟦する→する：00392_suru⟧: to belong to the economics faculty\n- {経済学部|けいざいがくぶ}⟦を→を：00422_wo⟧⟦{卒業|そつぎょう}→卒業：01643_sotsugyou⟧⟦する→する：00392_suru⟧: to graduate from the economics faculty\n- {経済学部|けいざいがくぶ}⟦の→の：09472_no⟧⟦{学生|がくせい}→学生：00610_gakusei⟧: economics student\n\nOTHER {学部|がくぶ} NAMES:\n- ⟦{法学部|ほうがくぶ}→法学部：24334_hougakubu⟧: faculty of law\n- ⟦{文学部|ぶんがくぶ}→文学部：24048_bungakubu⟧: faculty of literature/humanities\n- ⟦{理学部|りがくぶ}→理学部：24492_rigakubu⟧: faculty of science\n- ⟦{工学部|こうがくぶ}→工学部：24493_kougakubu⟧: faculty of engineering\n- ⟦{医学部|いがくぶ}→医学部：27620_igakubu⟧: faculty of medicine",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "24048_bungakubu",
+      "reading": "ぶんがくぶ",
+      "headword": "{文学部|ぶんがくぶ}",
+      "label": "Faculty of Letters, Faculty of Humanities"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27974_shougakubu",
+      "reading": "しょうがくぶ",
+      "headword": "{商学部|しょうがくぶ}",
+      "label": "faculty of commerce"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "education"
       ]
     },
     "created": "2026-04-19T12:30:57Z",
-    "modified": "2026-04-19T12:30:57Z"
+    "modified": "2026-09-02T04:02:18Z"
   }
 }

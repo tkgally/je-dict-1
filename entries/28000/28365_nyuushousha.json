@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28365_nyuushousha_ex1",
-      "japanese": "{入賞者|にゅうしょうしゃ}が{発表|はっぴょう}された。",
+      "japanese": "{入賞者|にゅうしょうしゃ}⟦が→が：00051_ga⟧⟦{発表|はっぴょう}→発表：03562_happyou⟧⟦された→する：00392_suru⟧。",
       "english": "The prize winners were announced.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28365_nyuushousha_ex2",
-      "japanese": "{入賞者|にゅうしょうしゃ}には{賞金|しょうきん}が{贈|おく}られる。",
+      "japanese": "{入賞者|にゅうしょうしゃ}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{賞金|しょうきん}→賞金：14234_shoukin⟧⟦が→が：00051_ga⟧⟦{贈|おく}られる→贈る：09862_okuru⟧。",
       "english": "Prize money is awarded to the winners.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28365_nyuushousha_ex3",
-      "japanese": "{作文|さくぶん}コンクールの{入賞者|にゅうしょうしゃ}が{壇上|だんじょう}に{並|なら}んで、{記念|きねん}{写真|しゃしん}を{撮|と}った。",
+      "japanese": "⟦{作文|さくぶん}→作文：02884_sakubun⟧⟦コンクール→コンクール：28795_konkuuru⟧⟦の→の：09472_no⟧{入賞者|にゅうしょうしゃ}⟦が→が：00051_ga⟧⟦{壇上|だんじょう}→壇上：21719_danjou⟧⟦に→に：00314_ni⟧⟦{並|なら}んで→並ぶ：00605_narabu⟧、⟦{記念|きねん}{写真|しゃしん}→記念写真：23222_kinenshashin⟧⟦を→を：00422_wo⟧⟦{撮|と}った→撮る：00760_toru⟧。",
       "english": "The winners of the essay contest lined up on stage and took a commemorative photo.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {入賞|にゅうしょう} (winning a prize) + {者|しゃ} (person). Refers to anyone awarded a rank, not only the top winner.\n\nCOMMON COLLOCATIONS:\n- {入賞者|にゅうしょうしゃ}{発表|はっぴょう}: announcement of winners\n- {入賞者|にゅうしょうしゃ}{一覧|いちらん}: list of prize winners\n- コンクールの{入賞者|にゅうしょうしゃ}: contest winners\n- {入賞者|にゅうしょうしゃ}に{選|えら}ばれる: to be chosen as a prize winner\n\nSIMILAR WORDS:\n- {受賞者|じゅしょうしゃ}: award winner — broader; used for named awards and prizes (Nobel, etc.)\n- {優勝者|ゆうしょうしゃ}: champion; first-place winner — specifically the top finisher",
+  "notes": "Compound of ⟦{入賞|にゅうしょう}→入賞：11670_nyuushou⟧ (winning a prize) + ⟦{者|しゃ}→〜者：04662_sha⟧ (person). Refers to anyone awarded a rank, not only the top winner.\n\nCOMMON COLLOCATIONS:\n- {入賞者|にゅうしょうしゃ}⟦{発表|はっぴょう}→発表：03562_happyou⟧: announcement of winners\n- {入賞者|にゅうしょうしゃ}⟦{一覧|いちらん}→一覧：17694_ichiran⟧: list of prize winners\n- ⟦コンクール→コンクール：28795_konkuuru⟧⟦の→の：09472_no⟧{入賞者|にゅうしょうしゃ}: contest winners\n- {入賞者|にゅうしょうしゃ}⟦に→に：00314_ni⟧⟦{選|えら}ばれる→選ぶ：00835_erabu⟧: to be chosen as a prize winner\n\nSIMILAR WORDS:\n- ⟦{受賞者|じゅしょうしゃ}→受賞者：24174_jushousha⟧: award winner — broader; used for named awards and prizes (Nobel, etc.)\n- ⟦{優勝者|ゆうしょうしゃ}→優勝者：21822_yuushousha⟧: champion; first-place winner — specifically the top finisher",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24174_jushousha",
+      "reading": "じゅしょうしゃ",
+      "headword": "{受賞者|じゅしょうしゃ}",
+      "label": "award winner"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21822_yuushousha",
+      "reading": "ゆうしょうしゃ",
+      "headword": "{優勝者|ゆうしょうしゃ}",
+      "label": "champion"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24415_medarisuto",
+      "reading": "めだりすと",
+      "headword": "メダリスト",
+      "label": "medalist"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +76,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "person"
       ],
       "domain": []
     },
     "created": "2026-05-29T04:09:30Z",
-    "modified": "2026-08-08T18:34:17Z"
+    "modified": "2026-09-02T04:02:33Z"
   }
 }

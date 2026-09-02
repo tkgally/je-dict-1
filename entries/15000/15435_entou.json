@@ -15,42 +15,76 @@
   "examples": [
     {
       "id": "15435_entou_ex1",
-      "japanese": "{円筒|えんとう}{形|がた}の{容器|ようき}に{入|い}れた。",
+      "japanese": "{円筒|えんとう}{形|がた}⟦の→の：09472_no⟧⟦{容器|ようき}→容器：03656_youki⟧⟦に→に：00314_ni⟧⟦{入|い}れた→入れる：01098_ireru⟧。",
       "english": "I put it in a cylindrical container.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15435_entou_ex2",
-      "japanese": "この{建物|たてもの}は{円筒|えんとう}{形|がた}のデザインが{特徴的|とくちょうてき}だ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{建物|たてもの}→建物：01458_tatemono⟧⟦は→は：00079_ha⟧{円筒|えんとう}{形|がた}⟦の→の：09472_no⟧⟦デザイン→デザイン：03860_dezain⟧⟦が→が：00051_ga⟧⟦{特徴的|とくちょうてき}→特徴的：06740_tokuchouteki⟧だ。",
       "english": "This building features a distinctive cylindrical design.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15435_entou_ex3",
-      "japanese": "{紙|かみ}を{丸|まる}めて{円筒|えんとう}の{形|かたち}にし、{望遠鏡|ぼうえんきょう}のように{覗|のぞ}いた。",
+      "japanese": "⟦{紙|かみ}→紙：00712_kami⟧⟦を→を：00422_wo⟧⟦{丸|まる}めて→丸める：11313_marumeru⟧{円筒|えんとう}⟦の→の：09472_no⟧⟦{形|かたち}→形：02193_katachi⟧にし、⟦{望遠鏡|ぼうえんきょう}→望遠鏡：05483_bouenkyou⟧⟦のように→のように：30291_noyouni⟧⟦{覗|のぞ}いた→覗く：02388_nozoku⟧。",
       "english": "I rolled the paper into a cylinder and looked through it like a telescope.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nOften used with {形|がた}/{形|けい} to form {円筒形|えんとうがた}/{円筒形|えんとうけい} (cylindrical shape). Appears in technical, architectural, and everyday descriptions of shapes.\n\nCOMMON COLLOCATIONS:\n- {円筒|えんとう}{形|がた} (cylindrical shape)\n- {円筒|えんとう}{状|じょう} (cylindrical)\n- {円筒|えんとう}の{表面積|ひょうめんせき} (surface area of a cylinder)\n\nRELATED WORDS:\n- {円錐|えんすい}: cone\n- {球|きゅう}: sphere\n- {直方体|ちょくほうたい}: rectangular prism\n- {筒|つつ}: tube, pipe",
-  "cross_references": [],
+  "notes": "USAGE:\nOften used with {形|がた}/{形|けい} to form {円筒形|えんとうがた}/{円筒形|えんとうけい} (cylindrical shape). Appears in technical, architectural, and everyday descriptions of shapes.\n\nCOMMON COLLOCATIONS:\n- {円筒|えんとう}{形|がた} (cylindrical shape)\n- {円筒|えんとう}{状|じょう} (cylindrical)\n- {円筒|えんとう}⟦の→の：09472_no⟧⟦{表面積|ひょうめんせき}→表面積：28898_hyoumenseki⟧ (surface area of a cylinder)\n\nRELATED WORDS:\n- ⟦{円錐|えんすい}→円錐：05550_ensui⟧: cone\n- ⟦{球|きゅう}→球：28895_kyuu⟧: sphere\n- ⟦{直方体|ちょくほうたい}→直方体：24531_chokuhoutai⟧: rectangular prism\n- ⟦{筒|つつ}→筒：28102_tsutsu⟧: tube, pipe",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "05550_ensui",
+      "reading": "えんすい",
+      "headword": "{円錐|えんすい}",
+      "label": "cone"
+    },
+    {
+      "type": "related",
+      "target_id": "28895_kyuu",
+      "reading": "きゅう",
+      "headword": "{球|きゅう}",
+      "label": "sphere"
+    },
+    {
+      "type": "related",
+      "target_id": "24531_chokuhoutai",
+      "reading": "ちょくほうたい",
+      "headword": "{直方体|ちょくほうたい}",
+      "label": "rectangular prism"
+    }
+  ],
   "metadata": {
     "created": "2026-03-06T13:50:58Z",
-    "modified": "2026-03-06T13:50:58Z",
+    "modified": "2026-09-02T04:01:41Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["technical"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "technical"
+      ]
     }
   }
 }

@@ -15,40 +15,80 @@
   "examples": [
     {
       "id": "22187_sayonara_ex1",
-      "japanese": "さよなら、{元気|げんき}でね。",
+      "japanese": "さよなら、⟦{元気|げんき}→元気：00696_genki⟧で⟦ね→ね：09474_ne⟧。",
       "english": "Goodbye, take care.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "22187_sayonara_ex2",
-      "japanese": "{先生|せんせい}、さようなら。",
+      "japanese": "⟦{先生|せんせい}→先生：00609_sensei⟧、⟦さようなら→さようなら：10531_sayounara⟧。",
       "english": "Goodbye, teacher.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "22187_sayonara_ex3",
-      "japanese": "{空港|くうこう}で{友人|ゆうじん}にさよならを{言|い}ったとき、{涙|なみだ}が{出|で}た。",
+      "japanese": "⟦{空港|くうこう}→空港：00648_kuukou⟧⟦で→で：00502_de⟧⟦{友人|ゆうじん}→友人：03649_yuujin⟧⟦に→に：00314_ni⟧さよなら⟦を→を：00422_wo⟧⟦{言|い}った→言う：00515_iu⟧とき、⟦{涙|なみだ}→涙：02235_namida⟧⟦が→が：00051_ga⟧⟦{出|で}た→出る：00513_deru⟧。",
       "english": "When I said goodbye to my friend at the airport, tears came to my eyes.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Despite being one of the most well-known Japanese words internationally, さよなら actually carries a sense of finality or long-term separation. Japanese speakers rarely use it for casual daily partings.\n\nFORMS:\n- さようなら — the full, formal form\n- さよなら — slightly shortened, the most common written form\n- さよーなら — elongated casual form\n\nUSAGE:\n- Used when children leave school: {先生|せんせい}、さようなら\n- Used for emotional farewells (moving away, long trips, breakups)\n- Can sound dramatic or final in everyday conversation\n\nSIMILAR WORDS:\n- じゃあね / じゃあまたね — see you later (casual, everyday)\n- バイバイ — bye-bye (very casual, often used by younger people)\n- では / それでは — well then (polite parting, used in business)\n- {失礼|しつれい}します — excuse me, I'll be going (formal, workplace)",
+  "notes": "Despite being one of the most well-known Japanese words internationally, さよなら actually carries a sense of finality or long-term separation. Japanese speakers rarely use it for casual daily partings.\n\nFORMS:\n- ⟦さようなら→さようなら：10531_sayounara⟧ — the full, formal form\n- さよなら — slightly shortened, the most common written form\n- さよーなら — elongated casual form\n\nUSAGE:\n- Used when children leave school: ⟦{先生|せんせい}→先生：00609_sensei⟧、⟦さようなら→さようなら：10531_sayounara⟧\n- Used for emotional farewells (moving away, long trips, breakups)\n- Can sound dramatic or final in everyday conversation\n\nSIMILAR WORDS:\n- ⟦じゃあ→じゃあ：02989_jaa⟧⟦ね→ね：09474_ne⟧ / ⟦じゃあまた→じゃあまた：22757_jaamata⟧⟦ね→ね：09474_ne⟧ — see you later (casual, everyday)\n- バイバイ — bye-bye (very casual, often used by younger people)\n- ⟦では→では：02945_deha⟧ / ⟦それ→それ：00994_sore⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧ — well then (polite parting, used in business)\n- {失礼|しつれい}します — excuse me, I'll be going (formal, workplace)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05305_jaane",
+      "reading": "じゃあね",
+      "headword": "じゃあね",
+      "label": "see you later"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02945_deha",
+      "reading": "では",
+      "headword": "では",
+      "label": "well then"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02944_soredeha",
+      "reading": "それでは",
+      "headword": "それでは",
+      "label": "well then"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21922_shitsureishimasu",
+      "reading": "しつれいします",
+      "headword": "{失礼|しつれい}します",
+      "label": "excuse me, I'll be going"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["interjection"],
+      "pos": [
+        "interjection"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["greeting"]
+      "semantic": [
+        "greeting"
+      ]
     },
     "created": "2026-04-05T04:31:20Z",
-    "modified": "2026-04-05T04:31:20Z"
+    "modified": "2026-09-02T04:02:07Z"
   }
 }

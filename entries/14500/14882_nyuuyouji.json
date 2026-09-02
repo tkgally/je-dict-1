@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "14882_nyuuyouji_ex1",
-      "japanese": "{乳幼児|にゅうようじ}は{入場無料|にゅうじょうむりょう}です。",
+      "japanese": "{乳幼児|にゅうようじ}⟦は→は：00079_ha⟧{入場無料|にゅうじょうむりょう}です。",
       "english": "Infants and toddlers get in free.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14882_nyuuyouji_ex2",
-      "japanese": "{乳幼児|にゅうようじ}を{連|つ}れての{旅行|りょこう}は{大変|たいへん}だ。",
+      "japanese": "{乳幼児|にゅうようじ}⟦を→を：00422_wo⟧⟦{連|つ}れて→連れる：01240_tsureru⟧⟦の→の：09472_no⟧⟦{旅行|りょこう}→旅行：00748_ryokou⟧⟦は→は：00079_ha⟧⟦{大変|たいへん}→大変：00594_taihen⟧だ。",
       "english": "Traveling with young children is tough.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14882_nyuuyouji_ex3",
-      "japanese": "この{薬|くすり}は{乳幼児|にゅうようじ}の{手|て}の{届|とど}かない{場所|ばしょ}に{保管|ほかん}してください。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{薬|くすり}→薬：00793_kusuri⟧⟦は→は：00079_ha⟧{乳幼児|にゅうようじ}⟦の→の：09472_no⟧⟦{手|て}→手：00569_te⟧⟦の→の：09472_no⟧⟦{届|とど}かない→届く：00899_todoku⟧⟦{場所|ばしょ}→場所：00829_basho⟧⟦に→に：00314_ni⟧⟦{保管|ほかん}して→保管する：25536_hokansuru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please keep this medicine out of reach of young children.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{乳幼児|にゅうようじ} is a compound of {乳児|にゅうじ} (nursing infant, roughly 0-1 years old) and {幼児|ようじ} (young child, roughly 1-6 years old). It is commonly used in official, medical, and public contexts.\n\nCOMMON COLLOCATIONS:\n- {乳幼児|にゅうようじ}{健診|けんしん} (infant health checkup)\n- {乳幼児|にゅうようじ}{突然死|とつぜんし}{症候群|しょうこうぐん} (sudden infant death syndrome / SIDS)\n- {乳幼児|にゅうようじ}{向|む}け (for infants and toddlers)\n\nUSAGE NOTES:\nThis word is frequently seen on signs, product labels, and in health-related materials. It is more formal and specific than {子供|こども} or {赤|あか}ちゃん. You will encounter it at hospitals, on medicine packaging, and in public facility rules.",
+  "notes": "{乳幼児|にゅうようじ} is a compound of ⟦{乳児|にゅうじ}→乳児：11414_nyuuji⟧ (nursing infant, roughly 0-1 years old) and ⟦{幼児|ようじ}→幼児：12478_youji⟧ (young child, roughly 1-6 years old). It is commonly used in official, medical, and public contexts.\n\nCOMMON COLLOCATIONS:\n- {乳幼児|にゅうようじ}⟦{健診|けんしん}→健診：17390_kenshin⟧ (infant health checkup)\n- {乳幼児|にゅうようじ}⟦{突然死|とつぜんし}→突然死：20490_totsuzenshi⟧⟦{症候群|しょうこうぐん}→症候群：30368_shoukougun⟧ (sudden infant death syndrome / SIDS)\n- {乳幼児|にゅうようじ}{向|む}け (for infants and toddlers)\n\nUSAGE:\nThis word is frequently seen on signs, product labels, and in health-related materials. It is more formal and specific than ⟦{子供|こども}→子供：00554_kodomo⟧ or ⟦{赤|あか}ちゃん→赤ちゃん：01282_akachan⟧. You will encounter it at hospitals, on medicine packaging, and in public facility rules.",
   "cross_references": [
     {
       "type": "related",
@@ -53,18 +59,29 @@
       "reading": "ようじ",
       "headword": "{幼児|ようじ}",
       "label": "young child (1-6)"
+    },
+    {
+      "type": "related",
+      "target_id": "08652_shounika",
+      "reading": "しょうにか",
+      "headword": "{小児科|しょうにか}",
+      "label": "pediatrics"
     }
   ],
   "metadata": {
     "created": "2026-03-04T05:26:06Z",
-    "modified": "2026-05-01T04:26:51Z",
+    "modified": "2026-09-02T04:01:39Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["person"]
+      "semantic": [
+        "person"
+      ]
     }
   }
 }

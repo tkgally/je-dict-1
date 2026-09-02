@@ -15,41 +15,80 @@
   "examples": [
     {
       "id": "14281_atochi_ex1",
-      "japanese": "{工場|こうじょう}の{跡地|あとち}に{公園|こうえん}ができた。",
+      "japanese": "⟦{工場|こうじょう}→工場：01082_koujou⟧⟦の→の：09472_no⟧{跡地|あとち}⟦に→に：00314_ni⟧⟦{公園|こうえん}→公園：00581_kouen⟧⟦が→が：00051_ga⟧⟦できた→できる：00557_dekiru⟧。",
       "english": "A park was built on the former factory site.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14281_atochi_ex2",
-      "japanese": "{学校|がっこう}の{跡地|あとち}をどう{利用|りよう}するか{議論|ぎろん}されている。",
+      "japanese": "⟦{学校|がっこう}→学校：00055_gakkou⟧⟦の→の：09472_no⟧{跡地|あとち}⟦を→を：00422_wo⟧⟦どう→どう：00543_dou⟧⟦{利用|りよう}する→利用する：21735_riyousuru⟧⟦か→か：09473_ka⟧⟦{議論|ぎろん}→議論：02650_giron⟧⟦されている→する：00392_suru⟧。",
       "english": "There is debate over how to use the former school site.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14281_atochi_ex3",
-      "japanese": "{城|しろ}の{跡地|あとち}は{今|いま}では{観光|かんこう}スポットとして{多|おお}くの{人|ひと}が{訪|おとず}れる。",
+      "japanese": "⟦{城|しろ}→城：03255_shiro⟧⟦の→の：09472_no⟧{跡地|あとち}⟦は→は：00079_ha⟧⟦{今|いま}→今：00945_ima⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{観光|かんこう}→観光：00173_kankou⟧⟦スポット→スポット：11578_supotto⟧⟦として→として：06802_toshite⟧{多|おお}く⟦の→の：09472_no⟧⟦{人|ひと}→人：00476_hito⟧⟦が→が：00051_ga⟧⟦{訪|おとず}れる→訪れる：07678_otozureru⟧。",
       "english": "The castle ruins are now visited by many people as a tourist spot.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "Compound of {跡|あと} (trace, remains) + {地|ち} (land, ground). Commonly used in news and planning discussions about redevelopment.\n\nCOMMON COLLOCATIONS:\n- {工場|こうじょう}{跡地|あとち} (former factory site)\n- {基地|きち}{跡地|あとち} (former military base site)\n- {跡地|あとち}{利用|りよう} (reuse of a former site)\n- {跡地|あとち}に{建|た}てる (to build on a former site)\n\nSIMILAR WORDS:\n- {遺跡|いせき}: ruins, archaeological site (older, historical significance)\n- {廃墟|はいきょ}: ruins (emphasizes decay and abandonment)\n- {更地|さらち}: vacant lot, cleared land (land with nothing on it)",
-  "cross_references": [],
+  "notes": "Compound of ⟦{跡|あと}→跡：02174_ato⟧ (trace, remains) + {地|ち} (land, ground). Commonly used in news and planning discussions about redevelopment.\n\nCOMMON COLLOCATIONS:\n- ⟦{工場|こうじょう}→工場：01082_koujou⟧{跡地|あとち} (former factory site)\n- ⟦{基地|きち}→基地：03982_kichi⟧{跡地|あとち} (former military base site)\n- {跡地|あとち}⟦{利用|りよう}→利用：01752_riyou⟧ (reuse of a former site)\n- {跡地|あとち}⟦に→に：00314_ni⟧⟦{建|た}てる→建てる：01189_tateru⟧ (to build on a former site)\n\nSIMILAR WORDS:\n- ⟦{遺跡|いせき}→遺跡：09527_iseki⟧: ruins, archaeological site (older, historical significance)\n- ⟦{廃墟|はいきょ}→廃墟：12453_haikyo⟧: ruins (emphasizes decay and abandonment)\n- ⟦{更地|さらち}→更地：17562_sarachi⟧: vacant lot, cleared land (land with nothing on it)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09527_iseki",
+      "reading": "いせき",
+      "headword": "{遺跡|いせき}",
+      "label": "ruins, archaeological site"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12453_haikyo",
+      "reading": "はいきょ",
+      "headword": "{廃墟|はいきょ}",
+      "label": "ruins"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17562_sarachi",
+      "reading": "さらち",
+      "headword": "{更地|さらち}",
+      "label": "vacant lot, cleared land"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27607_yakeato",
+      "reading": "やけあと",
+      "headword": "{焼|や}け{跡|あと}",
+      "label": "burned ruins"
+    }
+  ],
   "metadata": {
     "created": "2026-02-28T09:24:20Z",
-    "modified": "2026-02-28T09:24:20Z",
+    "modified": "2026-09-02T04:01:36Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["geography"]
+      "semantic": [
+        "geography"
+      ]
     }
   }
 }

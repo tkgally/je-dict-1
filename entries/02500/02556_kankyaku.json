@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{観客|かんきゃく} refers to people who watch performances, sports, or events.\n\nCOMMON PATTERNS:\n- {観客|かんきゃく}⟦{席|せき}→席：02215_seki⟧ (spectator seats, audience area)\n- {観客|かんきゃく}⟦{動員|どういん}→動員：11927_douin⟧ (audience turnout)\n- {観客|かんきゃく}⟦を→を：00422_wo⟧⟦{沸|わ}かせる→沸く：01122_waku⟧ (to excite the audience)\n\nCOUNTER: ⟦{人|にん}→〜人：00658_nin⟧ or ⟦{名|めい}→〜名：04015_mei⟧\n\nRELATED WORDS:\n- ⟦{聴衆|ちょうしゅう}→聴衆：13907_choushuu⟧: audience (for lectures, speeches)\n- ⟦{視聴者|しちょうしゃ}→視聴者：02570_shichousha⟧: viewer (TV, online)\n- {観客|かんきゃく}: audience (live events, sports)\n- ⟦{観衆|かんしゅう}→観衆：22893_kanshuu⟧: spectators (more literary)\n\nUSAGE NOTE:\n- Used for live performances, sports events, theater\n- Not typically used for TV viewers (use ⟦{視聴者|しちょうしゃ}→視聴者：02570_shichousha⟧)",
+  "notes": "{観客|かんきゃく} refers to people who watch performances, sports, or events.\n\nCOMMON PATTERNS:\n- {観客|かんきゃく}⟦{席|せき}→席：02215_seki⟧ (spectator seats, audience area)\n- {観客|かんきゃく}⟦{動員|どういん}→動員：11927_douin⟧ (audience turnout)\n- {観客|かんきゃく}⟦を→を：00422_wo⟧⟦{沸|わ}かせる→沸く：01122_waku⟧ (to excite the audience)\n\nCOUNTER: ⟦{人|にん}→〜人：00658_nin⟧ or ⟦{名|めい}→〜名：04015_mei⟧\n\nRELATED WORDS:\n- ⟦{聴衆|ちょうしゅう}→聴衆：13907_choushuu⟧: audience (for lectures, speeches)\n- ⟦{視聴者|しちょうしゃ}→視聴者：02570_shichousha⟧: viewer (TV, online)\n- {観客|かんきゃく}: audience (live events, sports)\n- ⟦{観衆|かんしゅう}→観衆：22893_kanshuu⟧: spectators (more literary)\n\nUSAGE:\n- Used for live performances, sports events, theater\n- Not typically used for TV viewers (use ⟦{視聴者|しちょうしゃ}→視聴者：02570_shichousha⟧)",
   "cross_references": [
     {
       "type": "related",
@@ -58,11 +58,53 @@
       "reading": "ちょうしゅう",
       "headword": "{聴衆|ちょうしゅう}",
       "label": "audience (lectures)"
+    },
+    {
+      "type": "related",
+      "target_id": "22893_kanshuu",
+      "reading": "かんしゅう",
+      "headword": "{観衆|かんしゅう}",
+      "label": "spectators"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19023_raijousha",
+      "reading": "らいじょうしゃ",
+      "headword": "{来場者|らいじょうしゃ}",
+      "label": "visitor"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20381_boukansha",
+      "reading": "ぼうかんしゃ",
+      "headword": "{傍観者|ぼうかんしゃ}",
+      "label": "bystander"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22772_kanshousha",
+      "reading": "かんしょうしゃ",
+      "headword": "{鑑賞者|かんしょうしゃ}",
+      "label": "viewer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23599_nyuujousha",
+      "reading": "にゅうじょうしゃ",
+      "headword": "{入場者|にゅうじょうしゃ}",
+      "label": "attendee"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27722_kenbutsunin",
+      "reading": "けんぶつにん",
+      "headword": "{見物人|けんぶつにん}",
+      "label": "spectator"
     }
   ],
   "metadata": {
     "created": "2026-01-11T09:42:28Z",
-    "modified": "2026-05-21T13:16:38Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

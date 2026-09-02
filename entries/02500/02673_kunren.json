@@ -2,7 +2,7 @@
   "id": "02673_kunren",
   "headword": "{訓練|くんれん}",
   "reading": "くんれん",
-  "part_of_speech": "noun / suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "training, drill, practice",
   "definitions": [
     {
@@ -39,7 +39,7 @@
     },
     {
       "id": "02673_kunren_ex3",
-      "japanese": "⟦{新入|しんにゅう}→新入：11503_shinnyuu⟧⟦{社員|しゃいん}→社員：03065_shain⟧⟦を→を：00422_wo⟧{訓練|くんれん}する。",
+      "japanese": "⟦{新入|しんにゅう}→新入：11503_shinnyuu⟧⟦{社員|しゃいん}→社員：03065_shain⟧⟦を→を：00422_wo⟧{訓練|くんれん}⟦する→する：00392_suru⟧。",
       "english": "To train new employees.",
       "notes": null,
       "has_audio": false,
@@ -59,7 +59,7 @@
     },
     {
       "id": "02673_kunren_ex5",
-      "japanese": "⟦{精神|せいしん}→精神：03377_seishin⟧⟦を→を：00422_wo⟧{訓練|くんれん}して⟦{強|つよ}く→強い：00820_tsuyoi⟧⟦なる→なる：01970_naru⟧。",
+      "japanese": "⟦{精神|せいしん}→精神：03377_seishin⟧⟦を→を：00422_wo⟧{訓練|くんれん}⟦して→する：00392_suru⟧⟦{強|つよ}く→強い：00820_tsuyoi⟧⟦なる→なる：01970_naru⟧。",
       "english": "To train and strengthen one's spirit.",
       "notes": null,
       "has_audio": false,
@@ -78,7 +78,7 @@
       ]
     }
   ],
-  "notes": "{訓練|くんれん} refers to systematic skill development.\n\nCOMMON PATTERNS:\n- {訓練|くんれん}する (to train)\n- {訓練|くんれん}⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧ (to receive training)\n- {訓練|くんれん}⟦を→を：00422_wo⟧⟦{積|つ}む→積む：02294_tsumu⟧ (to accumulate training)\n\nTYPES OF TRAINING:\n- ⟦{避難|ひなん}→避難：07908_hinan⟧{訓練|くんれん} (evacuation drill)\n- ⟦{防災|ぼうさい}→防災：07907_bousai⟧{訓練|くんれん} (disaster drill)\n- ⟦{軍事|ぐんじ}→軍事：14392_gunji⟧{訓練|くんれん} (military training)\n- ⟦{職業|しょくぎょう}→職業：03245_shokugyou⟧{訓練|くんれん} (vocational training)\n\nSIMILAR WORDS:\n- {訓練|くんれん}: training (formal, systematic)\n- ⟦{練習|れんしゅう}→練習：05323_renshuu⟧: practice (general, skill development)\n- ⟦{研修|けんしゅう}→研修：05322_kenshuu⟧: training seminar (professional development)",
+  "notes": "{訓練|くんれん} refers to systematic skill development.\n\nCOMMON PATTERNS:\n- {訓練|くんれん}⟦する→する：00392_suru⟧ (to train)\n- {訓練|くんれん}⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧ (to receive training)\n- {訓練|くんれん}⟦を→を：00422_wo⟧⟦{積|つ}む→積む：02294_tsumu⟧ (to accumulate training)\n\nTYPES OF TRAINING:\n- ⟦{避難|ひなん}→避難：07908_hinan⟧{訓練|くんれん} (evacuation drill)\n- ⟦{防災|ぼうさい}→防災：07907_bousai⟧{訓練|くんれん} (disaster drill)\n- ⟦{軍事|ぐんじ}→軍事：14392_gunji⟧{訓練|くんれん} (military training)\n- ⟦{職業|しょくぎょう}→職業：03245_shokugyou⟧{訓練|くんれん} (vocational training)\n\nSIMILAR WORDS:\n- {訓練|くんれん}: training (formal, systematic)\n- ⟦{練習|れんしゅう}→練習：05323_renshuu⟧: practice (general, skill development)\n- ⟦{研修|けんしゅう}→研修：05322_kenshuu⟧: training seminar (professional development)",
   "cross_references": [
     {
       "type": "related",
@@ -86,11 +86,67 @@
       "headword": "{練習|れんしゅう}",
       "label": "practice",
       "target_id": "05323_renshuu"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05322_kenshuu",
+      "reading": "けんしゅう",
+      "headword": "{研修|けんしゅう}",
+      "label": "training seminar"
+    },
+    {
+      "type": "related",
+      "target_id": "08190_tanren",
+      "reading": "たんれん",
+      "headword": "{鍛錬|たんれん}",
+      "label": "training"
+    },
+    {
+      "type": "related",
+      "target_id": "08246_shuuren",
+      "reading": "しゅうれん",
+      "headword": "{修練|しゅうれん}",
+      "label": "training"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16886_shuuren",
+      "reading": "しゅうれん",
+      "headword": "{習練|しゅうれん}",
+      "label": "training"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20811_choukyou",
+      "reading": "ちょうきょう",
+      "headword": "{調教|ちょうきょう}",
+      "label": "training"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22991_renshuusuru",
+      "reading": "れんしゅうする",
+      "headword": "{練習|れんしゅう}する",
+      "label": "to practice"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25391_shugyousuru",
+      "reading": "しゅぎょうする",
+      "headword": "{修行|しゅぎょう}する",
+      "label": "to undergo training"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27353_kyoushuu",
+      "reading": "きょうしゅう",
+      "headword": "{教習|きょうしゅう}",
+      "label": "training"
     }
   ],
   "metadata": {
     "created": "2026-01-11T07:03:55Z",
-    "modified": "2026-05-21T19:15:50Z",
+    "modified": "2026-09-02T04:01:02Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

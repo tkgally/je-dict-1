@@ -24,7 +24,7 @@
   "examples": [
     {
       "id": "08728_hitome_ex1",
-      "japanese": "{一目|ひとめ}で{分|わ}かった。",
+      "japanese": "{一目|ひとめ}⟦で→で：00502_de⟧⟦{分|わ}かった→分かる：00463_wakaru⟧。",
       "english": "I understood at a glance.",
       "sense_numbers": [
         1,
@@ -35,7 +35,7 @@
     },
     {
       "id": "08728_hitome_ex2",
-      "japanese": "{一目|ひとめ}{見|み}て{気|き}に{入|い}った。",
+      "japanese": "{一目|ひとめ}⟦{見|み}て→見る：00283_miru⟧⟦{気|き}に{入|い}った→気に入る：02047_kiniiru⟧。",
       "english": "I liked it the moment I saw it.",
       "sense_numbers": [
         1
@@ -45,7 +45,7 @@
     },
     {
       "id": "08728_hitome_ex3",
-      "japanese": "{彼女|かのじょ}に{一目|ひとめ}{惚|ぼ}れした。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦に→に：00314_ni⟧{一目|ひとめ}{惚|ぼ}れ⟦した→する：00392_suru⟧。",
       "english": "I fell in love with her at first sight.",
       "sense_numbers": [
         2
@@ -55,7 +55,7 @@
     },
     {
       "id": "08728_hitome_ex4",
-      "japanese": "{一目|ひとめ}を{気|き}にする。",
+      "japanese": "{一目|ひとめ}⟦を→を：00422_wo⟧⟦{気|き}にする→気にする：03026_kinisuru⟧。",
       "english": "To care about what people think.",
       "sense_numbers": [
         3
@@ -65,7 +65,7 @@
     },
     {
       "id": "08728_hitome_ex5",
-      "japanese": "{一目|ひとめ}を{避|さ}けて{会|あ}った。",
+      "japanese": "{一目|ひとめ}⟦を→を：00422_wo⟧⟦{避|さ}けて→避ける：02109_sakeru⟧⟦{会|あ}った→会う：00482_au⟧。",
       "english": "We met out of the public eye.",
       "sense_numbers": [
         3
@@ -75,7 +75,7 @@
     },
     {
       "id": "08728_hitome_ex6",
-      "japanese": "{一目|ひとめ}のある{場所|ばしょ}では{話|はな}しにくい。",
+      "japanese": "{一目|ひとめ}⟦の→の：09472_no⟧⟦ある→ある：00006_aru⟧⟦{場所|ばしょ}→場所：00829_basho⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{話|はな}し→話す：00467_hanasu⟧にくい。",
       "english": "It's hard to talk in a place where people might see us.",
       "sense_numbers": [
         3
@@ -84,7 +84,7 @@
       "notes": null
     }
   ],
-  "notes": "{一目|ひとめ} has three main uses: a brief look, instant recognition, and being seen by others.\n\nREADING NOTE:\nAlso read as いちもく in the compound {一目|いちもく}{瞭然|りょうぜん} (perfectly clear at a glance).\n\nCOMMON EXPRESSIONS:\n- {一目|ひとめ}{惚|ぼ}れ: love at first sight\n- {一目|ひとめ}{置|お}く: to hold someone in respect/esteem\n- {一目|ひとめ}{散|さん}に{逃|に}げる: to flee at full speed\n- {一目|ひとめ}で{分|わ}かる: to understand at a glance\n- {一目|ひとめ}を{気|き}にする: to worry about what people think\n- {一目|ひとめ}を{避|さ}ける: to avoid public attention\n\nCONTRAST:\n- {一目|ひとめ}: one glance (brief, instant)\n- {一見|いっけん}: at first glance / apparently (implies a superficial impression that may be wrong)",
+  "notes": "{一目|ひとめ} has three main uses: a brief look, instant recognition, and being seen by others.\n\nPRONUNCIATION:\nAlso read as いちもく in the compound {一目|いちもく}{瞭然|りょうぜん} (perfectly clear at a glance).\n\nCOMMON EXPRESSIONS:\n- {一目|ひとめ}{惚|ぼ}れ: love at first sight\n- {一目|ひとめ}⟦{置|お}く→置く：01092_oku⟧: to hold someone in respect/esteem\n- {一目|ひとめ}{散|さん}⟦に→に：00314_ni⟧⟦{逃|に}げる→逃げる：01151_nigeru⟧: to flee at full speed\n- {一目|ひとめ}⟦で→で：00502_de⟧⟦{分|わ}かる→分かる：00463_wakaru⟧: to understand at a glance\n- {一目|ひとめ}⟦を→を：00422_wo⟧⟦{気|き}にする→気にする：03026_kinisuru⟧: to worry about what people think\n- {一目|ひとめ}⟦を→を：00422_wo⟧⟦{避|さ}ける→避ける：02109_sakeru⟧: to avoid public attention\n\nSIMILAR WORDS:\n- {一目|ひとめ}: one glance (brief, instant)\n- ⟦{一見|いっけん}→一見：17699_ikken⟧: at first glance / apparently (implies a superficial impression that may be wrong)",
   "cross_references": [
     {
       "type": "homophone",
@@ -92,6 +92,13 @@
       "reading": "ひとめ",
       "headword": "{人目|ひとめ}",
       "label": "public eye"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17699_ikken",
+      "reading": "いっけん",
+      "headword": "{一見|いっけん}",
+      "label": "at first glance / apparently"
     }
   ],
   "metadata": {
@@ -101,12 +108,13 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "cognition",
         "appearance"
       ]
     },
     "created": "2026-01-28T03:32:51Z",
-    "modified": "2026-08-12T12:52:42Z"
+    "modified": "2026-09-02T04:01:16Z"
   }
 }

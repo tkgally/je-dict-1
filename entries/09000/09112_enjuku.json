@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "09112_enjuku_ex1",
-      "japanese": "{円熟|えんじゅく}した{演技|えんぎ}",
+      "japanese": "{円熟|えんじゅく}⟦した→する：00392_suru⟧⟦{演技|えんぎ}→演技：01890_engi⟧",
       "english": "a mature performance",
       "sense_numbers": [
         1
@@ -114,7 +114,7 @@
     },
     {
       "id": "09112_enjuku_ex2",
-      "japanese": "{彼|かれ}の{芸術|げいじゅつ}は{年|とし}を{重|かさ}ねて{円熟|えんじゅく}してきた。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧⟦{芸術|げいじゅつ}→芸術：02712_geijutsu⟧⟦は→は：00079_ha⟧⟦{年|とし}を{重|かさ}ねて→年を重ねる：20549_toshiwokasaneru⟧{円熟|えんじゅく}してきた。",
       "english": "His art has matured over the years.",
       "sense_numbers": [
         1
@@ -124,7 +124,7 @@
     },
     {
       "id": "09112_enjuku_ex3",
-      "japanese": "{円熟|えんじゅく}{味|み}のある{文章|ぶんしょう}を{書|か}くには、{長年|ながねん}の{経験|けいけん}が{必要|ひつよう}だ。",
+      "japanese": "{円熟|えんじゅく}{味|み}⟦の→の：09472_no⟧⟦ある→ある：00006_aru⟧⟦{文章|ぶんしょう}→文章：02957_bunshou⟧⟦を→を：00422_wo⟧⟦{書|か}く→書く：00477_kaku⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧、⟦{長年|ながねん}→長年：09684_naganen⟧⟦の→の：09472_no⟧⟦{経験|けいけん}→経験：01179_keiken⟧⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧だ。",
       "english": "Writing prose with the flavor of maturity requires years of experience.",
       "sense_numbers": [
         1
@@ -133,7 +133,7 @@
       "notes": null
     }
   ],
-  "notes": "USAGE: {円熟|えんじゅく} implies a positive refinement that comes with age and experience, not merely growing old. It suggests that skills or character have reached their peak through gradual development.\n\nCOMMON COLLOCATIONS:\n- {円熟|えんじゅく}した{演技|えんぎ}/{技術|ぎじゅつ}/{作風|さくふう} (mature performance/technique/style)\n- {円熟|えんじゅく}{味|み} (mellow flavor, mature quality)\n- {円熟|えんじゅく}の{境地|きょうち} (state of maturity)\n\nRELATED WORDS:\n- {熟練|じゅくれん} (skilled mastery - emphasizes technical proficiency)\n- {老練|ろうれん} (experienced, seasoned - emphasizes practical wisdom)\n- {成熟|せいじゅく} (maturity - more general, can be biological)",
+  "notes": "USAGE: {円熟|えんじゅく} implies a positive refinement that comes with age and experience, not merely growing old. It suggests that skills or character have reached their peak through gradual development.\n\nCOMMON COLLOCATIONS:\n- {円熟|えんじゅく}⟦した→する：00392_suru⟧⟦{演技|えんぎ}→演技：01890_engi⟧/⟦{技術|ぎじゅつ}→技術：01389_gijutsu⟧/⟦{作風|さくふう}→作風：11460_sakufuu⟧ (mature performance/technique/style)\n- {円熟|えんじゅく}{味|み} (mellow flavor, mature quality)\n- {円熟|えんじゅく}⟦の→の：09472_no⟧⟦{境地|きょうち}→境地：12121_kyouchi⟧ (state of maturity)\n\nRELATED WORDS:\n- ⟦{熟練|じゅくれん}→熟練：09081_jukuren⟧ (skilled mastery - emphasizes technical proficiency)\n- ⟦{老練|ろうれん}→老練：09080_rouren⟧ (experienced, seasoned - emphasizes practical wisdom)\n- ⟦{成熟|せいじゅく}→成熟：12638_seijuku⟧ (maturity - more general, can be biological)",
   "cross_references": [
     {
       "type": "synonym",
@@ -148,11 +148,18 @@
       "reading": "せいじゅく",
       "headword": "{成熟|せいじゅく}",
       "label": "maturity (general)"
+    },
+    {
+      "type": "related",
+      "target_id": "09080_rouren",
+      "reading": "ろうれん",
+      "headword": "{老練|ろうれん}",
+      "label": "experienced, seasoned"
     }
   ],
   "metadata": {
     "created": "2026-01-31T10:42:40Z",
-    "modified": "2026-04-22T07:28:30Z",
+    "modified": "2026-09-02T04:01:17Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

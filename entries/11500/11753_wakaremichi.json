@@ -15,40 +15,65 @@
   "examples": [
     {
       "id": "11753_wakaremichi_ex1",
-      "japanese": "{分|わ}かれ{道|みち}で{右|みぎ}に{曲|ま}がった。",
+      "japanese": "{分|わ}かれ{道|みち}⟦で→で：00502_de⟧⟦{右|みぎ}→右：02257_migi⟧⟦に→に：00314_ni⟧⟦{曲|ま}がった→曲がる：00649_magaru⟧。",
       "english": "I turned right at the fork in the road.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11753_wakaremichi_ex2",
-      "japanese": "{人生|じんせい}の{分|わ}かれ{道|みち}に{立|た}っている。",
+      "japanese": "⟦{人生|じんせい}→人生：03355_jinsei⟧⟦の→の：09472_no⟧{分|わ}かれ{道|みち}⟦に→に：00314_ni⟧⟦{立|た}っている→立つ：00758_tatsu⟧。",
       "english": "I'm standing at a crossroads in life.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11753_wakaremichi_ex3",
-      "japanese": "{進学|しんがく}か{就職|しゅうしょく}か、{分|わ}かれ{道|みち}に{立|た}った{時|とき}に{恩師|おんし}の{言葉|ことば}が{背中|せなか}を{押|お}してくれた。",
+      "japanese": "⟦{進学|しんがく}→進学：03256_shingaku⟧⟦か→か：09473_ka⟧⟦{就職|しゅうしょく}→就職：03209_shuushoku⟧⟦か→か：09473_ka⟧、{分|わ}かれ{道|みち}⟦に→に：00314_ni⟧⟦{立|た}った→立つ：00758_tatsu⟧{時|とき}⟦に→に：00314_ni⟧⟦{恩師|おんし}→恩師：12598_onshi⟧⟦の→の：09472_no⟧⟦{言葉|ことば}→言葉：02880_kotoba⟧⟦が→が：00051_ga⟧⟦{背中|せなか}→背中：00810_senaka⟧⟦を→を：00422_wo⟧⟦{押|お}して→押す：02854_osu⟧⟦くれた→くれる：00724_kureru⟧。",
       "english": "When I stood at the crossroads of continuing my education or getting a job, my mentor's words gave me the push I needed.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "Compound of {分|わ}かれ (branching, from {分|わ}かれる) + {道|みち} (road, path). Used both literally and figuratively.\n\nCOMMON COLLOCATIONS:\n・{分|わ}かれ{道|みち}に{立|た}つ (to stand at a crossroads)\n・{人生|じんせい}の{分|わ}かれ{道|みち} (crossroads of life)\n・{運命|うんめい}の{分|わ}かれ{道|みち} (fateful turning point)\n\nUSAGE NOTES:\nThe figurative meaning (a critical decision point) is at least as common as the literal meaning. The expression {分|わ}かれ{道|みち}に{立|た}つ (to stand at a crossroads) is a standard metaphor for facing a major life decision.",
-  "cross_references": [],
+  "notes": "Compound of ⟦{分|わ}かれ→分かれる：10976_wakareru⟧ (branching, from ⟦{分|わ}かれる→分かれる：10976_wakareru⟧) + ⟦{道|みち}→道：00505_michi⟧ (road, path). Used both literally and figuratively.\n\nCOMMON COLLOCATIONS:\n- {分|わ}かれ{道|みち}⟦に→に：00314_ni⟧⟦{立|た}つ→立つ：00758_tatsu⟧ (to stand at a crossroads)\n- ⟦{人生|じんせい}→人生：03355_jinsei⟧⟦の→の：09472_no⟧{分|わ}かれ{道|みち} (crossroads of life)\n- ⟦{運命|うんめい}→運命：06879_unmei⟧⟦の→の：09472_no⟧{分|わ}かれ{道|みち} (fateful turning point)\n\nUSAGE:\nThe figurative meaning (a critical decision point) is at least as common as the literal meaning. The expression {分|わ}かれ{道|みち}⟦に→に：00314_ni⟧⟦{立|た}つ→立つ：00758_tatsu⟧ (to stand at a crossroads) is a standard metaphor for facing a major life decision.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17828_edawakare",
+      "reading": "えだわかれ",
+      "headword": "{枝分|えだわ}かれ",
+      "label": "branching"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19820_kiro",
+      "reading": "きろ",
+      "headword": "{岐路|きろ}",
+      "label": "crossroads, turning point"
+    }
+  ],
   "metadata": {
     "created": "2026-02-17T22:55:05Z",
-    "modified": "2026-02-17T22:55:05Z",
+    "modified": "2026-09-02T04:01:26Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

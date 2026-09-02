@@ -15,40 +15,60 @@
   "examples": [
     {
       "id": "22974_darekare_ex1",
-      "japanese": "{誰彼|だれかれ}なく{話|はな}しかける。",
+      "japanese": "{誰彼|だれかれ}⟦なく→ない：01118_nai⟧⟦{話|はな}しかける→話しかける：03134_hanashikakeru⟧。",
       "english": "To talk to anyone and everyone.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "22974_darekare_ex2",
-      "japanese": "{誰彼|だれかれ}かまわず{愚痴|ぐち}をこぼす{人|ひと}がいる。",
+      "japanese": "{誰彼|だれかれ}⟦かまわ→かまう：01212_kamau⟧ず⟦{愚痴|ぐち}→愚痴：06623_guchi⟧⟦を→を：00422_wo⟧⟦こぼす→こぼす：02104_kobosu⟧⟦{人|ひと}→人：00476_hito⟧⟦が→が：00051_ga⟧⟦いる→いる：00495_iru⟧。",
       "english": "There are people who complain to anyone who will listen.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "22974_darekare_ex3",
-      "japanese": "{彼女|かのじょ}は{誰彼|だれかれ}なく{優|やさ}しく{接|せっ}するので、みんなに{好|す}かれている。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧{誰彼|だれかれ}⟦なく→ない：01118_nai⟧⟦{優|やさ}しく→優しい：02640_yasashii⟧⟦{接|せっ}する→接する：12920_sessuru⟧⟦の→の：09472_no⟧で、⟦みんな→みんな：02972_minna⟧⟦に→に：00314_ni⟧⟦{好|す}かれている→好く：30762_suku⟧。",
       "english": "She treats everyone kindly without exception, so everyone likes her.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {誰|だれ} (who) and {彼|かれ} (that person), meaning \"this person and that person\" — i.e., anyone without distinction. Most commonly appears in the pattern {誰彼|だれかれ}なく (without regard to who).\n\nCOMMON PATTERNS:\n- {誰彼|だれかれ}なく: to anyone; indiscriminately\n- {誰彼|だれかれ}かまわず: without caring who; regardless of who\n- {誰彼|だれかれ}となく: from various people; from no one in particular\n\nSIMILAR WORDS:\n- {誰|だれ}でも: anyone; everybody — more common in everyday speech\n- {誰|だれ}にでも: to anyone — similar meaning but more colloquial\n- {不特定多数|ふとくていたすう}: unspecified large number of people — formal, often administrative\n\nREGISTER:\nSomewhat literary and formal. More common in written language than casual speech. The pattern {誰彼|だれかれ}なく is the most frequently encountered usage.",
+  "notes": "A compound of ⟦{誰|だれ}→誰：00534_dare⟧ (who) and ⟦{彼|かれ}→彼：01292_kare⟧ (that person), meaning \"this person and that person\" — i.e., anyone without distinction. Most commonly appears in the pattern {誰彼|だれかれ}⟦なく→ない：01118_nai⟧ (without regard to who).\n\nCOMMON PATTERNS:\n- {誰彼|だれかれ}⟦なく→ない：01118_nai⟧: to anyone; indiscriminately\n- {誰彼|だれかれ}⟦かまわ→かまう：01212_kamau⟧ず: without caring who; regardless of who\n- {誰彼|だれかれ}⟦と→と：00512_to⟧⟦なく→ない：01118_nai⟧: from various people; from no one in particular\n\nSIMILAR WORDS:\n- ⟦{誰|だれ}→誰：00534_dare⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧: anyone; everybody — more common in everyday speech\n- ⟦{誰|だれ}→誰：00534_dare⟧⟦に→に：00314_ni⟧で⟦も→も：00484_mo⟧: to anyone — similar meaning but more colloquial\n- {不特定多数|ふとくていたすう}: unspecified large number of people — formal, often administrative\n\nREGISTER:\nSomewhat literary and formal. More common in written language than casual speech. The pattern {誰彼|だれかれ}⟦なく→ない：01118_nai⟧ is the most frequently encountered usage.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08498_daredemo",
+      "reading": "だれでも",
+      "headword": "{誰|だれ}でも",
+      "label": "anyone"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "pronoun"],
+      "pos": [
+        "noun",
+        "pronoun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["person"]
+      "semantic": [
+        "person"
+      ]
     },
     "created": "2026-04-08T14:16:56Z",
-    "modified": "2026-07-31T00:22:50Z"
+    "modified": "2026-09-02T04:02:10Z"
   }
 }

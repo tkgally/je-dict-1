@@ -15,41 +15,60 @@
   "examples": [
     {
       "id": "29083_shiitoberuto_ex1",
-      "japanese": "シートベルトを{締|し}めてください。",
+      "japanese": "シートベルト⟦を→を：00422_wo⟧⟦{締|し}めて→締める：10057_shimeru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please fasten your seat belt.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29083_shiitoberuto_ex2",
-      "japanese": "シートベルトの{着用|ちゃくよう}は{法律|ほうりつ}で{義務付|ぎむづ}けられている。",
+      "japanese": "シートベルト⟦の→の：09472_no⟧⟦{着用|ちゃくよう}→着用：13693_chakuyou⟧⟦は→は：00079_ha⟧⟦{法律|ほうりつ}→法律：01722_houritsu⟧⟦で→で：00502_de⟧{義務付|ぎむづ}けられて⟦いる→いる：00495_iru⟧。",
       "english": "Wearing a seat belt is required by law.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29083_shiitoberuto_ex3",
-      "japanese": "{後部座席|こうぶざせき}でもシートベルトを{必|かなら}ず{着用|ちゃくよう}しなければならない。",
+      "japanese": "⟦{後部座席|こうぶざせき}→後部座席：22157_koubuzaseki⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧シートベルト⟦を→を：00422_wo⟧⟦{必|かなら}ず→必ず：01249_kanarazu⟧⟦{着用|ちゃくよう}→着用：13693_chakuyou⟧し⟦なければならない→なければならない：27600_nakerebanaranai⟧。",
       "english": "You must always wear a seat belt even in the back seat.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "From English \"seat belt.\" Loanword used universally in Japan.\n\nCOMMON COLLOCATIONS:\n- シートベルトを{締|し}める／{着用|ちゃくよう}する: to fasten/wear a seat belt\n- シートベルトを{外|はず}す: to unfasten a seat belt\n- シートベルト{着用|ちゃくよう}{義務|ぎむ}: seat belt requirement\n- シートベルト{非着用|ひちゃくよう}: not wearing a seat belt (legal violation term)",
+  "notes": "From English \"seat belt.\" Loanword used universally in Japan.\n\nCOMMON COLLOCATIONS:\n- シートベルト⟦を→を：00422_wo⟧⟦{締|し}める→締める：10057_shimeru⟧／⟦{着用|ちゃくよう}する→着用する：26849_chakuyousuru⟧: to fasten/wear a seat belt\n- シートベルト⟦を→を：00422_wo⟧⟦{外|はず}す→外す：02394_hazusu⟧: to unfasten a seat belt\n- シートベルト⟦{着用|ちゃくよう}→着用：13693_chakuyou⟧⟦{義務|ぎむ}→義務：02647_gimu⟧: seat belt requirement\n- シートベルト{非着用|ひちゃくよう}: not wearing a seat belt (legal violation term)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24261_anzentai",
+      "reading": "あんぜんたい",
+      "headword": "{安全帯|あんぜんたい}",
+      "label": "safety belt"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["transportation"],
+      "politeness": "plain",
+      "semantic": [
+        "transportation"
+      ],
       "domain": []
     },
     "created": "2026-06-10T12:29:56Z",
-    "modified": "2026-06-10T12:29:56Z"
+    "modified": "2026-09-02T04:02:35Z"
   }
 }

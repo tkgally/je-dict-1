@@ -3,7 +3,7 @@
   "headword": "{柔弱|じゅうじゃく}",
   "reading": "じゅうじゃく",
   "romaji": "juujaku",
-  "part_of_speech": "adjective-na, noun",
+  "part_of_speech": "na-adjective, noun",
   "gloss": "weak; feeble; effeminate; soft",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26267_juujaku_ex1",
-      "japanese": "{柔弱|じゅうじゃく}な{体|からだ}を{鍛|きた}える。",
+      "japanese": "{柔弱|じゅうじゃく}な⟦{体|からだ}→体：00784_karada⟧⟦を→を：00422_wo⟧⟦{鍛|きた}える→鍛える：12326_kitaeru⟧。",
       "english": "To train a weak body.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26267_juujaku_ex2",
-      "japanese": "{彼|かれ}は{見|み}た{目|め}は{柔弱|じゅうじゃく}だが、{意志|いし}は{強|つよ}い。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{見|み}た{目|め}→見た目：14110_mitame⟧⟦は→は：00079_ha⟧{柔弱|じゅうじゃく}だ⟦が→が：00051_ga⟧、⟦{意志|いし}→意志：01712_ishi⟧⟦は→は：00079_ha⟧⟦{強|つよ}い→強い：00820_tsuyoi⟧。",
       "english": "He looks frail, but his willpower is strong.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26267_juujaku_ex3",
-      "japanese": "{祖父|そふ}は、{現代|げんだい}の{若者|わかもの}は{柔弱|じゅうじゃく}になったと{嘆|なげ}いている。",
+      "japanese": "⟦{祖父|そふ}→祖父：01452_sofu⟧⟦は→は：00079_ha⟧、⟦{現代|げんだい}→現代：02722_gendai⟧⟦の→の：09472_no⟧⟦{若者|わかもの}→若者：03037_wakamono⟧⟦は→は：00079_ha⟧{柔弱|じゅうじゃく}になった⟦と→と：00512_to⟧⟦{嘆|なげ}いている→嘆く：11814_nageku⟧。",
       "english": "My grandfather laments that today's young people have become soft.",
       "sense_numbers": [
         1
@@ -44,12 +44,28 @@
       "notes": null
     }
   ],
-  "notes": "Describes physical or mental weakness, often with a nuance of being too delicate or pampered. The word is literary and somewhat old-fashioned, typically used by older speakers or in written criticism. It can describe both physical frailty and a lack of resilience or toughness.\n\nCOMMON COLLOCATIONS:\n- {柔弱|じゅうじゃく}な{体質|たいしつ}: a frail constitution\n- {柔弱|じゅうじゃく}な{性格|せいかく}: a weak/timid character\n- {柔弱|じゅうじゃく}に{育|そだ}つ: to grow up soft/pampered\n- {柔弱|じゅうじゃく}な{青年|せいねん}: an effeminate young man\n\nSIMILAR WORDS:\n- {軟弱|なんじゃく}: weak, spineless (similar meaning but more commonly used; stronger negative tone)\n- {虚弱|きょじゃく}: physically frail, delicate (medical/physical weakness without the moral judgment)\n- {ひ弱|ひよわ}: delicate, fragile (casual; often used for appearance)",
-  "cross_references": [],
+  "notes": "Describes physical or mental weakness, often with a nuance of being too delicate or pampered. The word is literary and somewhat old-fashioned, typically used by older speakers or in written criticism. It can describe both physical frailty and a lack of resilience or toughness.\n\nCOMMON COLLOCATIONS:\n- {柔弱|じゅうじゃく}な⟦{体質|たいしつ}→体質：08243_taishitsu⟧: a frail constitution\n- {柔弱|じゅうじゃく}な⟦{性格|せいかく}→性格：03371_seikaku⟧: a weak/timid character\n- {柔弱|じゅうじゃく}⟦に→に：00314_ni⟧⟦{育|そだ}つ→育つ：01951_sodatsu⟧: to grow up soft/pampered\n- {柔弱|じゅうじゃく}な⟦{青年|せいねん}→青年：03292_seinen⟧: an effeminate young man\n\nSIMILAR WORDS:\n- ⟦{軟弱|なんじゃく}→軟弱：14358_nanjaku⟧: weak, spineless (similar meaning but more commonly used; stronger negative tone)\n- ⟦{虚弱|きょじゃく}→虚弱：09196_kyojaku⟧: physically frail, delicate (medical/physical weakness without the moral judgment)\n- {ひ弱|ひよわ}: delicate, fragile (casual; often used for appearance)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14358_nanjaku",
+      "reading": "なんじゃく",
+      "headword": "{軟弱|なんじゃく}",
+      "label": "weak, spineless (similar meaning but…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09196_kyojaku",
+      "reading": "きょじゃく",
+      "headword": "{虚弱|きょじゃく}",
+      "label": "physically frail, delicate"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
+      "politeness": "plain",
       "semantic": [
         "personality",
         "health"
@@ -60,6 +76,6 @@
       ]
     },
     "created": "2026-04-30T14:22:41Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T04:02:25Z"
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "20134_kuufukukan_ex1",
-      "japanese": "{空腹感|くうふくかん}を{感|かん}じる。",
+      "japanese": "{空腹感|くうふくかん}⟦を→を：00422_wo⟧⟦{感|かん}じる→感じる：02044_kanjiru⟧。",
       "english": "To feel hunger.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "20134_kuufukukan_ex2",
-      "japanese": "{水|みず}を{飲|の}むと{空腹感|くうふくかん}が{少|すこ}し{和|やわ}らぐ。",
+      "japanese": "⟦{水|みず}→水：02258_mizu⟧⟦を→を：00422_wo⟧⟦{飲|の}む→飲む：00322_nomu⟧⟦と→と：00512_to⟧{空腹感|くうふくかん}⟦が→が：00051_ga⟧⟦{少|すこ}し→少し：00596_sukoshi⟧⟦{和|やわ}らぐ→和らぐ：07896_yawaragu⟧。",
       "english": "Drinking water eases the feeling of hunger a little.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "20134_kuufukukan_ex3",
-      "japanese": "ストレスがたまると{空腹感|くうふくかん}がないのに{食|た}べてしまうことがある。",
+      "japanese": "⟦ストレス→ストレス：03827_sutoresu⟧⟦が→が：00051_ga⟧たまる⟦と→と：00512_to⟧{空腹感|くうふくかん}⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧⟦の→の：09472_no⟧⟦に→に：00314_ni⟧⟦{食|た}べて→食べる：00396_taberu⟧しまうこと⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "When stress builds up, you sometimes eat even without feeling hungry.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {空腹|くうふく} (empty stomach, hunger) + {感|かん} (feeling, sensation). Treats hunger as a measurable physical sensation rather than a simple state.\n\nCOMMON COLLOCATIONS:\n- {空腹感|くうふくかん}を{感|かん}じる: to feel hunger\n- {空腹感|くうふくかん}を{紛|まぎ}らわす: to distract oneself from hunger\n- {空腹感|くうふくかん}が{和|やわ}らぐ: hunger subsides\n- {空腹感|くうふくかん}を{抑|おさ}える: to suppress hunger\n\nSIMILAR WORDS:\n- {空腹|くうふく}: hunger, empty stomach — the state itself rather than the sensation\n- お{腹|なか}がすく: to get hungry — the most common everyday expression\n- {飢|う}え: starvation, hunger — much stronger; implies severe deprivation\n- {食欲|しょくよく}: appetite — the desire to eat; can exist without actual hunger\n\nUSAGE:\nCommonly used in health, diet, and medical contexts. Often appears in discussions about managing appetite, fasting, or distinguishing between genuine hunger and emotional eating.",
+  "notes": "Composed of ⟦{空腹|くうふく}→空腹：06532_kuufuku⟧ (empty stomach, hunger) + ⟦{感|かん}→〜感：28578_kan⟧ (feeling, sensation). Treats hunger as a measurable physical sensation rather than a simple state.\n\nCOMMON COLLOCATIONS:\n- {空腹感|くうふくかん}⟦を→を：00422_wo⟧⟦{感|かん}じる→感じる：02044_kanjiru⟧: to feel hunger\n- {空腹感|くうふくかん}⟦を→を：00422_wo⟧⟦{紛|まぎ}らわす→紛らわす：08206_magirawasu⟧: to distract oneself from hunger\n- {空腹感|くうふくかん}⟦が→が：00051_ga⟧⟦{和|やわ}らぐ→和らぐ：07896_yawaragu⟧: hunger subsides\n- {空腹感|くうふくかん}⟦を→を：00422_wo⟧⟦{抑|おさ}える→抑える：12806_osaeru⟧: to suppress hunger\n\nSIMILAR WORDS:\n- ⟦{空腹|くうふく}→空腹：06532_kuufuku⟧: hunger, empty stomach — the state itself rather than the sensation\n- ⟦お{腹|なか}→お腹：00805_onaka⟧⟦が→が：00051_ga⟧⟦すく→すく：00756_suku⟧: to get hungry — the most common everyday expression\n- ⟦{飢|う}え→飢え：19826_ue⟧: starvation, hunger — much stronger; implies severe deprivation\n- ⟦{食欲|しょくよく}→食欲：03249_shokuyoku⟧: appetite — the desire to eat; can exist without actual hunger\n\nUSAGE:\nCommonly used in health, diet, and medical contexts. Often appears in discussions about managing appetite, fasting, or distinguishing between genuine hunger and emotional eating.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19826_ue",
+      "reading": "うえ",
+      "headword": "{飢|う}え",
+      "label": "starvation, hunger"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03249_shokuyoku",
+      "reading": "しょくよく",
+      "headword": "{食欲|しょくよく}",
+      "label": "appetite"
+    },
+    {
+      "type": "related",
+      "target_id": "21523_manpukukan",
+      "reading": "まんぷくかん",
+      "headword": "{満腹感|まんぷくかん}",
+      "label": "feeling of fullness"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +83,6 @@
       ]
     },
     "created": "2026-03-28T14:18:08Z",
-    "modified": "2026-07-28T00:51:36Z"
+    "modified": "2026-09-02T04:01:58Z"
   }
 }

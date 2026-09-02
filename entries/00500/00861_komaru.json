@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "00861_komaru_ex1",
-      "japanese": "⟦お{金|かね}→お金：00611_okane⟧⟦が→が：00051_ga⟧⟦なくて→ない：01118_nai⟧{困|こま}っています。",
+      "japanese": "⟦お{金|かね}→お金：00611_okane⟧⟦が→が：00051_ga⟧⟦なくて→ない：01118_nai⟧{困|こま}って⟦います→いる：00495_iru⟧。",
       "english": "I'm in trouble because I don't have money.",
       "notes": "⟦ている→ている：noentry⟧ form for ongoing state",
       "has_audio": false,
@@ -134,7 +134,7 @@
     },
     {
       "id": "00861_komaru_ex4",
-      "japanese": "⟦{電車|でんしゃ}→電車：00522_densha⟧⟦が→が：00051_ga⟧⟦{止|と}まって→止まる：00555_tomaru⟧、{困|こま}っています。",
+      "japanese": "⟦{電車|でんしゃ}→電車：00522_densha⟧⟦が→が：00051_ga⟧⟦{止|と}まって→止まる：00555_tomaru⟧、{困|こま}って⟦います→いる：00495_iru⟧。",
       "english": "The train has stopped and I'm in trouble.",
       "notes": null,
       "has_audio": false,
@@ -144,7 +144,7 @@
     },
     {
       "id": "00861_komaru_ex5",
-      "japanese": "⟦{日本語|にほんご}→日本語：00614_nihongo⟧⟦が→が：00051_ga⟧⟦わからなくて→分かる：00463_wakaru⟧{困|こま}っていたら、⟦{親切|しんせつ}な→親切：01144_shinsetsu⟧⟦{人|ひと}→人：00476_hito⟧⟦が→が：00051_ga⟧⟦{助|たす}けて→助ける：00895_tasukeru⟧⟦くれました→くれる：00724_kureru⟧。",
+      "japanese": "⟦{日本語|にほんご}→日本語：00614_nihongo⟧⟦が→が：00051_ga⟧⟦わからなくて→分かる：00463_wakaru⟧{困|こま}って⟦いたら→いる：00495_iru⟧、⟦{親切|しんせつ}な→親切：01144_shinsetsu⟧⟦{人|ひと}→人：00476_hito⟧⟦が→が：00051_ga⟧⟦{助|たす}けて→助ける：00895_tasukeru⟧⟦くれました→くれる：00724_kureru⟧。",
       "english": "When I was having trouble because I didn't understand Japanese, a kind person helped me.",
       "notes": null,
       "has_audio": false,
@@ -153,7 +153,7 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive). No pair verb. Pattern: X⟦に→に：00314_ni⟧{困|こま}る (be troubled by X) or X⟦で→で：00502_de⟧{困|こま}る.\n\nASPECT: ⟦ている→ている：noentry⟧ indicates ongoing state. {困|こま}っている = 'is in trouble/difficulty.'\n\nCOMMON PATTERNS:\n・{困|こま}っている (am in trouble)\n・〜なくて{困|こま}る (be troubled because there's no ~)\n・{困|こま}った (exclamation: this is a problem!)\n・{困|こま}った⟦こと→こと：01164_koto⟧⟦に→に：00314_ni⟧ (unfortunately)\n\n{困|こま}った can function as an adjective meaning 'troublesome.'",
+  "notes": "TRANSITIVITY: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive). No pair verb. Pattern: X⟦に→に：00314_ni⟧{困|こま}る (be troubled by X) or X⟦で→で：00502_de⟧{困|こま}る.\n\nASPECT: ⟦ている→ている：noentry⟧ indicates ongoing state. {困|こま}って⟦いる→いる：00495_iru⟧ = 'is in trouble/difficulty.'\n\nCOMMON PATTERNS:\n- {困|こま}って⟦いる→いる：00495_iru⟧ (am in trouble)\n- 〜⟦なくて→ない：01118_nai⟧{困|こま}る (be troubled because there's no ~)\n- {困|こま}った (exclamation: this is a problem!)\n- {困|こま}った⟦こと→こと：01164_koto⟧⟦に→に：00314_ni⟧ (unfortunately)\n\n{困|こま}った can function as an adjective meaning 'troublesome.'",
   "cross_references": [
     {
       "type": "synonym",
@@ -168,11 +168,32 @@
       "reading": "こんなん",
       "headword": "{困難|こんなん}",
       "label": "noun: difficulty, hardship"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12704_oujou",
+      "reading": "おうじょう",
+      "headword": "{往生|おうじょう}",
+      "label": "passing away"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17192_konwakusuru",
+      "reading": "こんわくする",
+      "headword": "{困惑|こんわく}する",
+      "label": "to be bewildered"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25357_kurousuru",
+      "reading": "くろうする",
+      "headword": "{苦労|くろう}する",
+      "label": "to have trouble"
     }
   ],
   "metadata": {
     "created": "2026-01-07T12:52:57Z",
-    "modified": "2026-07-25T09:17:59Z",
+    "modified": "2026-09-02T04:00:58Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

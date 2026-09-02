@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "18452_saijiki_ex1",
-      "japanese": "{歳時記|さいじき}で{季語|きご}を{調|しら}べた。",
+      "japanese": "{歳時記|さいじき}⟦で→で：00502_de⟧⟦{季語|きご}→季語：09561_kigo⟧⟦を→を：00422_wo⟧⟦{調|しら}べた→調べる：01213_shiraberu⟧。",
       "english": "I looked up seasonal words in a saijiki.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "18452_saijiki_ex2",
-      "japanese": "{俳句|はいく}を{始|はじ}めるなら{歳時記|さいじき}を{一冊|いっさつ}{持|も}つとよい。",
+      "japanese": "⟦{俳句|はいく}→俳句：00083_haiku⟧⟦を→を：00422_wo⟧{始|はじ}めるなら{歳時記|さいじき}⟦を→を：00422_wo⟧⟦{一冊|いっさつ}→一冊：23149_issatsu⟧⟦{持|も}つ→持つ：00478_motsu⟧⟦と→と：00512_to⟧よい。",
       "english": "If you start writing haiku, it's good to have one saijiki.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "18452_saijiki_ex3",
-      "japanese": "{歳時記|さいじき}をめくると、{日本|にほん}の{四季|しき}の{豊|ゆた}かさを{感|かん}じることができる。",
+      "japanese": "{歳時記|さいじき}⟦を→を：00422_wo⟧めくる⟦と→と：00512_to⟧、⟦{日本|にほん}→日本：03876_nihon⟧⟦の→の：09472_no⟧⟦{四季|しき}→四季：11809_shiki⟧⟦の→の：09472_no⟧⟦{豊|ゆた}か→豊か：03654_yutaka⟧さ⟦を→を：00422_wo⟧⟦{感|かん}じる→感じる：02044_kanjiru⟧こと⟦が→が：00051_ga⟧⟦できる→できる：00557_dekiru⟧。",
       "english": "Flipping through a saijiki, you can feel the richness of Japan's four seasons.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "The {歳時記|さいじき} is indispensable for haiku poets. It categorizes {季語|きご} (seasonal words) into the five traditional seasons: {春|はる} (spring), {夏|なつ} (summer), {秋|あき} (autumn), {冬|ふゆ} (winter), and {新年|しんねん} (New Year). Famous ones include {角川|かどかわ}{歳時記|さいじき} and {合本|がっぽん}{俳句|はいく}{歳時記|さいじき}.\n\nCOMMON COLLOCATIONS:\n- {歳時記|さいじき}を{引|ひ}く — to look up (a word) in a saijiki\n- {歳時記|さいじき}をめくる — to browse a saijiki\n- {俳句|はいく}{歳時記|さいじき} — haiku saijiki\n\nRELATED WORDS:\n- {季語|きご} — seasonal word (for haiku)\n- {俳句|はいく} — haiku\n- {歳時|さいじ} — seasonal events and customs",
+  "notes": "The {歳時記|さいじき} is indispensable for haiku poets. It categorizes ⟦{季語|きご}→季語：09561_kigo⟧ (seasonal words) into the five traditional seasons: ⟦{春|はる}→春：00627_haru⟧ (spring), ⟦{夏|なつ}→夏：02236_natsu⟧ (summer), ⟦{秋|あき}→秋：02276_aki⟧ (autumn), ⟦{冬|ふゆ}→冬：00623_fuyu⟧ (winter), and ⟦{新年|しんねん}→新年：09787_shinnen⟧ (New Year). Famous ones include {角川|かどかわ}{歳時記|さいじき} and ⟦{合本|がっぽん}→合本：24633_gappon⟧⟦{俳句|はいく}→俳句：00083_haiku⟧{歳時記|さいじき}.\n\nCOMMON COLLOCATIONS:\n- {歳時記|さいじき}⟦を→を：00422_wo⟧⟦{引|ひ}く→引く：01978_hiku⟧ — to look up (a word) in a saijiki\n- {歳時記|さいじき}⟦を→を：00422_wo⟧めくる — to browse a saijiki\n- ⟦{俳句|はいく}→俳句：00083_haiku⟧{歳時記|さいじき} — haiku saijiki\n\nRELATED WORDS:\n- ⟦{季語|きご}→季語：09561_kigo⟧ — seasonal word (for haiku)\n- ⟦{俳句|はいく}→俳句：00083_haiku⟧ — haiku\n- {歳時|さいじ} — seasonal events and customs",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "09561_kigo",
+      "reading": "きご",
+      "headword": "{季語|きご}",
+      "label": "seasonal word"
+    },
+    {
+      "type": "related",
+      "target_id": "00083_haiku",
+      "reading": "はいく",
+      "headword": "{俳句|はいく}",
+      "label": "haiku"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +76,6 @@
       ]
     },
     "created": "2026-03-22T02:31:30Z",
-    "modified": "2026-05-08T10:08:08Z"
+    "modified": "2026-09-02T04:01:52Z"
   }
 }

@@ -3,8 +3,31 @@
   "id": "21920_suiryousuru",
   "headword": "{推量|すいりょう}する",
   "reading": "すいりょうする",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "to conjecture; to guess; to surmise",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17957_suisokusuru",
+      "reading": "すいそくする",
+      "headword": "{推測|すいそく}する",
+      "label": "to guess, to speculate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25242_suisatsusuru",
+      "reading": "すいさつする",
+      "headword": "{推察|すいさつ}する",
+      "label": "to infer, to surmise"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16398_okusoku",
+      "reading": "おくそく",
+      "headword": "{憶測|おくそく}",
+      "label": "to speculate"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -12,15 +35,17 @@
         "noun",
         "verb-suru"
       ],
+      "politeness": "plain",
       "semantic": [
         "cognition"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-04-03T21:30:38Z",
-    "modified": "2026-07-30T03:35:34Z"
+    "modified": "2026-09-02T04:02:05Z"
   },
-  "notes": "A formal word for guessing or conjecturing based on limited evidence. Also an important grammatical term in Japanese: {推量|すいりょう}{形|けい} (conjectural form) refers to verb endings like だろう and でしょう.\n\nCOMMON COLLOCATIONS:\n- {推量|すいりょう}{形|けい}: conjectural form (grammar term)\n- ～から{推量|すいりょう}する: to surmise from ~\n- {推量|すいりょう}の{域|いき}を{出|で}ない: to not go beyond conjecture\n- {推量|すいりょう}にすぎない: to be merely conjecture\n\nSIMILAR WORDS:\n- {推測|すいそく}する: to guess, to speculate — very close synonym; slightly more common in everyday usage\n- {推察|すいさつ}する: to infer, to surmise — more formal; often implies sympathetic understanding\n- {憶測|おくそく}する: to speculate — carries a negative nuance of unfounded speculation\n- {見当|けんとう}をつける: to make a rough estimate — more casual\n\nREGISTER:\nFormal. More common in written language, academic discussions, and grammar terminology. In everyday speech, {推測|すいそく} or simply {想像|そうぞう} are more natural.",
+  "notes": "A formal word for guessing or conjecturing based on limited evidence. Also an important grammatical term in Japanese: ⟦{推量|すいりょう}→推量：21807_suiryou⟧{形|けい} (conjectural form) refers to verb endings like だろう and でしょう.\n\nCOMMON COLLOCATIONS:\n- ⟦{推量|すいりょう}→推量：21807_suiryou⟧{形|けい}: conjectural form (grammar term)\n- ～⟦から→から：00504_kara⟧{推量|すいりょう}する: to surmise from ~\n- ⟦{推量|すいりょう}→推量：21807_suiryou⟧⟦の→の：09472_no⟧{域|いき}⟦を→を：00422_wo⟧⟦{出|で}ない→出る：00513_deru⟧: to not go beyond conjecture\n- ⟦{推量|すいりょう}→推量：21807_suiryou⟧⟦に→に：00314_ni⟧すぎない: to be merely conjecture\n\nSIMILAR WORDS:\n- ⟦{推測|すいそく}する→推測する：17957_suisokusuru⟧: to guess, to speculate — very close synonym; slightly more common in everyday usage\n- ⟦{推察|すいさつ}する→推察する：25242_suisatsusuru⟧: to infer, to surmise — more formal; often implies sympathetic understanding\n- ⟦{憶測|おくそく}→憶測：16398_okusoku⟧⟦する→する：00392_suru⟧: to speculate — carries a negative nuance of unfounded speculation\n- ⟦{見当|けんとう}→見当：02795_kentou⟧⟦を→を：00422_wo⟧⟦つける→つける：00562_tsukeru⟧: to make a rough estimate — more casual\n\nREGISTER:\nFormal. More common in written language, academic discussions, and grammar terminology. In everyday speech, ⟦{推測|すいそく}→推測：12821_suisoku⟧ or simply ⟦{想像|そうぞう}→想像：02489_souzou⟧ are more natural.",
   "conjugation": {
     "type": "suru",
     "forms": [
@@ -121,7 +146,7 @@
   "examples": [
     {
       "id": "21920_suiryousuru_ex1",
-      "japanese": "{相手|あいて}の{気持|きも}ちを{推量|すいりょう}する。",
+      "japanese": "⟦{相手|あいて}→相手：01677_aite⟧⟦の→の：09472_no⟧{気持|きも}ち⟦を→を：00422_wo⟧{推量|すいりょう}する。",
       "english": "To guess the other person's feelings.",
       "sense_numbers": [
         1
@@ -131,7 +156,7 @@
     },
     {
       "id": "21920_suiryousuru_ex2",
-      "japanese": "{状況|じょうきょう}から{結果|けっか}を{推量|すいりょう}するのは{難|むずか}しい。",
+      "japanese": "⟦{状況|じょうきょう}→状況：01576_joukyou⟧⟦から→から：00504_kara⟧⟦{結果|けっか}→結果：02486_kekka⟧⟦を→を：00422_wo⟧{推量|すいりょう}する⟦の→の：09472_no⟧⟦は→は：00079_ha⟧⟦{難|むずか}しい→難しい：00517_muzukashii⟧。",
       "english": "It is difficult to surmise the outcome from the situation.",
       "sense_numbers": [
         1
@@ -141,7 +166,7 @@
     },
     {
       "id": "21920_suiryousuru_ex3",
-      "japanese": "{彼|かれ}の{表情|ひょうじょう}から{推量|すいりょう}すると、あまり{賛成|さんせい}ではないようだ。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧⟦{表情|ひょうじょう}→表情：03585_hyoujou⟧⟦から→から：00504_kara⟧{推量|すいりょう}する⟦と→と：00512_to⟧、⟦あまり→あまり：00604_amari⟧⟦{賛成|さんせい}→賛成：02829_sansei⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦ない→ない：01118_nai⟧ようだ。",
       "english": "Judging from his expression, it seems he doesn't really agree.",
       "sense_numbers": [
         1

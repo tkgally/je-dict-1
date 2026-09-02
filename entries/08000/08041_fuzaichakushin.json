@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08041_fuzaichakushin_ex1",
-      "japanese": "{不在着信|ふざいちゃくしん}が3{件|けん}あった。",
+      "japanese": "{不在着信|ふざいちゃくしん}⟦が→が：00051_ga⟧3⟦{件|けん}→件：11720_ken⟧⟦あった→ある：00006_aru⟧。",
       "english": "I had three missed calls.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "08041_fuzaichakushin_ex2",
-      "japanese": "{知|し}らない{番号|ばんごう}から{不在着信|ふざいちゃくしん}があった。",
+      "japanese": "⟦{知|し}らない→知る：00458_shiru⟧⟦{番号|ばんごう}→番号：02939_bangou⟧⟦から→から：00504_kara⟧{不在着信|ふざいちゃくしん}⟦が→が：00051_ga⟧⟦あった→ある：00006_aru⟧。",
       "english": "I had a missed call from an unknown number.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "08041_fuzaichakushin_ex3",
-      "japanese": "{不在着信|ふざいちゃくしん}に{気|き}づいて{折|お}り{返|かえ}し{電話|でんわ}をした。",
+      "japanese": "{不在着信|ふざいちゃくしん}⟦に→に：00314_ni⟧{気|き}づいて⟦{折|お}り{返|かえ}し→折り返す：21024_orikaesu⟧⟦{電話|でんわ}→電話：01471_denwa⟧⟦を→を：00422_wo⟧⟦した→する：00392_suru⟧。",
       "english": "I noticed the missed call and called back.",
       "sense_numbers": [
         1
@@ -43,7 +43,7 @@
       "notes": null
     }
   ],
-  "notes": "A phone call that was received but not answered. The caller's number is typically recorded so the recipient can call back later.\n\nWORD FORMATION:\n- {不在|ふざい} (absence, away) + {着信|ちゃくしん} (incoming call)\n\nCOMMON PATTERNS:\n- {不在着信|ふざいちゃくしん}がある: to have a missed call\n- {不在着信|ふざいちゃくしん}に{気|き}づく: to notice a missed call\n- {不在着信|ふざいちゃくしん}が{残|のこ}る: a missed call is left/recorded\n\nCOUNTER:\nCounted with {件|けん}: {不在着信|ふざいちゃくしん}が3{件|けん}ある (there are 3 missed calls).\n\nRELATED TERMS:\n- {折|お}り{返|かえ}し{電話|でんわ}: return call, callback\n- {着信履歴|ちゃくしんりれき}: call history\n- {留守番電話|るすばんでんわ} / {留守電|るすでん}: voicemail",
+  "notes": "A phone call that was received but not answered. The caller's number is typically recorded so the recipient can call back later.\n\nFORMS:\n- ⟦{不在|ふざい}→不在：11302_fuzai⟧ (absence, away) + ⟦{着信|ちゃくしん}→着信：07685_chakushin⟧ (incoming call)\n\nCOMMON PATTERNS:\n- {不在着信|ふざいちゃくしん}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧: to have a missed call\n- {不在着信|ふざいちゃくしん}⟦に→に：00314_ni⟧{気|き}づく: to notice a missed call\n- {不在着信|ふざいちゃくしん}⟦が→が：00051_ga⟧⟦{残|のこ}る→残る：01187_nokoru⟧: a missed call is left/recorded\n\nCOUNTER:\nCounted with ⟦{件|けん}→件：11720_ken⟧: {不在着信|ふざいちゃくしん}⟦が→が：00051_ga⟧3⟦{件|けん}→件：11720_ken⟧⟦ある→ある：00006_aru⟧ (there are 3 missed calls).\n\nRELATED WORDS:\n- ⟦{折|お}り{返|かえ}し→折り返す：21024_orikaesu⟧⟦{電話|でんわ}→電話：01471_denwa⟧: return call, callback\n- ⟦{着信履歴|ちゃくしんりれき}→着信履歴：17362_chakushinrireki⟧: call history\n- ⟦{留守番電話|るすばんでんわ}→留守番電話：15878_rusubandenwa⟧ / ⟦{留守電|るすでん}→留守電：07686_rusuden⟧: voicemail",
   "cross_references": [
     {
       "type": "related",
@@ -51,6 +51,34 @@
       "headword": "{着信音|ちゃくしんおん}",
       "label": "ringtone; notification sound",
       "target_id": "08040_chakushinon"
+    },
+    {
+      "type": "related",
+      "target_id": "17362_chakushinrireki",
+      "reading": "ちゃくしんりれき",
+      "headword": "{着信|ちゃくしん}{履歴|りれき}",
+      "label": "call history"
+    },
+    {
+      "type": "related",
+      "target_id": "15878_rusubandenwa",
+      "reading": "るすばんでんわ",
+      "headword": "{留守番電話|るすばんでんわ}",
+      "label": "voicemail"
+    },
+    {
+      "type": "related",
+      "target_id": "07686_rusuden",
+      "reading": "るすでん",
+      "headword": "{留守電|るすでん}",
+      "label": "voicemail"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24682_hasshinrireki",
+      "reading": "はっしんりれき",
+      "headword": "{発信履歴|はっしんりれき}",
+      "label": "outgoing call history"
     }
   ],
   "metadata": {
@@ -60,12 +88,13 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "technology",
         "communication"
       ]
     },
     "created": "2026-01-25T00:53:15Z",
-    "modified": "2026-08-11T09:37:41Z"
+    "modified": "2026-09-02T04:01:13Z"
   }
 }

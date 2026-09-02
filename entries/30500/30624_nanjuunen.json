@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30624_nanjuunen_ex1",
-      "japanese": "{何十年|なんじゅうねん}も{前|まえ}の{話|はなし}だ。",
+      "japanese": "{何十年|なんじゅうねん}⟦も→も：00484_mo⟧⟦{前|まえ}→前：02255_mae⟧⟦の→の：09472_no⟧⟦{話|はなし}→話：01496_hanashi⟧だ。",
       "english": "That was decades ago.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30624_nanjuunen_ex2",
-      "japanese": "この{寺|てら}は{何十年|なんじゅうねん}にも{渡|わた}って{守|まも}られてきた。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{寺|てら}→寺：01676_tera⟧⟦は→は：00079_ha⟧{何十年|なんじゅうねん}⟦に→に：00314_ni⟧⟦も→も：00484_mo⟧⟦{渡|わた}って→渡る：02441_wataru⟧⟦{守|まも}られて→守る：01986_mamoru⟧きた。",
       "english": "This temple has been looked after for decades.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30624_nanjuunen_ex3",
-      "japanese": "{何十年|なんじゅうねん}{働|はたら}いても{家|いえ}が{買|か}えないという{声|こえ}が{若|わか}い{世代|せだい}から{上|あ}がっている。",
+      "japanese": "{何十年|なんじゅうねん}⟦{働|はたら}いて→働く：00503_hataraku⟧⟦も→も：00484_mo⟧⟦{家|いえ}→家：00612_ie⟧⟦が→が：00051_ga⟧⟦{買|か}えない→買う：00489_kau⟧⟦という→という：09577_toiu⟧⟦{声|こえ}→声：02207_koe⟧⟦が→が：00051_ga⟧{若|わか}い⟦{世代|せだい}→世代：05102_sedai⟧⟦から→から：00504_kara⟧⟦{上|あ}がっている→上がる：00615_agaru⟧。",
       "english": "Young people are saying that even decades of work won't buy them a house.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "USAGE:\nAlmost always followed by も, which supplies the sense of \"as many as.\" Without も the phrase reads as a genuine question — {何十年|なんじゅうねん}かかりますか (how many decades will it take?).\n\nCOMMON COLLOCATIONS:\n- {何十年|なんじゅうねん}も{前|まえ}: decades ago\n- {何十年|なんじゅうねん}ぶり: for the first time in decades\n- {何十年|なんじゅうねん}にも{渡|わた}って: over the course of decades\n\nSIMILAR WORDS:\n- {数十年|すうじゅうねん}: several decades — the written, more measured equivalent\n- {何年|なんねん}も: for many years — a smaller, vaguer span",
+  "notes": "USAGE:\nAlmost always followed by ⟦も→も：00484_mo⟧, which supplies the sense of \"as many as.\" Without ⟦も→も：00484_mo⟧ the phrase reads as a genuine question — {何十年|なんじゅうねん}⟦かかります→かかる：00711_kakaru⟧⟦か→か：09473_ka⟧ (how many decades will it take?).\n\nCOMMON COLLOCATIONS:\n- {何十年|なんじゅうねん}⟦も→も：00484_mo⟧⟦{前|まえ}→前：02255_mae⟧: decades ago\n- {何十年|なんじゅうねん}⟦ぶり→〜ぶり：28358_buri⟧: for the first time in decades\n- {何十年|なんじゅうねん}⟦に→に：00314_ni⟧⟦も→も：00484_mo⟧⟦{渡|わた}って→渡る：02441_wataru⟧: over the course of decades\n\nSIMILAR WORDS:\n- ⟦{数十年|すうじゅうねん}→数十年：30639_suujuunen⟧: several decades — the written, more measured equivalent\n- ⟦{何年|なんねん}→何年：12737_nannen⟧⟦も→も：00484_mo⟧: for many years — a smaller, vaguer span",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "30639_suujuunen",
+      "reading": "すうじゅうねん",
+      "headword": "{数十年|すうじゅうねん}",
+      "label": "several decades"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30659_juusuunen",
+      "reading": "じゅうすうねん",
+      "headword": "{十数年|じゅうすうねん}",
+      "label": "ten-odd years"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +69,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "time-period",
         "quantity"
@@ -61,6 +77,6 @@
       "domain": []
     },
     "created": "2026-08-13T18:28:31Z",
-    "modified": "2026-08-13T18:28:31Z"
+    "modified": "2026-09-02T04:02:41Z"
   }
 }

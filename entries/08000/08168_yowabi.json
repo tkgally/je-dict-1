@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08168_yowabi_ex1",
-      "japanese": "{弱火|よわび}で{煮|に}る。",
+      "japanese": "{弱火|よわび}⟦で→で：00502_de⟧⟦{煮|に}る→煮る：01971_niru⟧。",
       "english": "To simmer on low heat.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "08168_yowabi_ex2",
-      "japanese": "{弱火|よわび}にして{蓋|ふた}をする。",
+      "japanese": "{弱火|よわび}にして⟦{蓋|ふた}→蓋：03896_futa⟧⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧。",
       "english": "Turn to low heat and cover with a lid.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "08168_yowabi_ex3",
-      "japanese": "{弱火|よわび}で{二十分|にじゅっぷん}{煮込|にこ}む。",
+      "japanese": "{弱火|よわび}⟦で→で：00502_de⟧{二十分|にじゅっぷん}⟦{煮込|にこ}む→煮込む：05822_nikomu⟧。",
       "english": "Simmer on low heat for 20 minutes.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
     },
     {
       "id": "08168_yowabi_ex4",
-      "japanese": "{焦|こ}げないように{弱火|よわび}にしてください。",
+      "japanese": "⟦{焦|こ}げない→焦げる：05344_kogeru⟧よう⟦に→に：00314_ni⟧{弱火|よわび}にして⟦ください→ください：02899_kudasai⟧。",
       "english": "Please turn it to low heat so it doesn't burn.",
       "sense_numbers": [
         1
@@ -54,7 +54,7 @@
     },
     {
       "id": "08168_yowabi_ex5",
-      "japanese": "{弱火|よわび}でじっくり{火|ひ}を{通|とお}す。",
+      "japanese": "{弱火|よわび}⟦で→で：00502_de⟧⟦じっくり→じっくり：06252_jikkuri⟧⟦{火|ひ}→火：02248_hi⟧⟦を→を：00422_wo⟧⟦{通|とお}す→通す：02300_toosu⟧。",
       "english": "Cook thoroughly on low heat.",
       "sense_numbers": [
         1
@@ -63,7 +63,7 @@
       "notes": null
     }
   ],
-  "notes": "HEAT LEVELS IN COOKING:\n- {弱火|よわび} (low heat)\n- {中火|ちゅうび} (medium heat)\n- {強火|つよび} (high heat)\n- とろ{火|び} (very low/simmering heat)\n\nCOMMON PATTERNS:\n- {弱火|よわび}にする (to turn to low heat)\n- {弱火|よわび}で{煮|に}る (to simmer on low heat)\n- {弱火|よわび}で{炒|いた}める (to sauté on low heat)\n\nUSAGE:\nUsed frequently in recipes and cooking instructions. Essential for dishes requiring slow cooking or preventing burning.",
+  "notes": "HEAT LEVELS IN COOKING:\n- {弱火|よわび} (low heat)\n- ⟦{中火|ちゅうび}→中火：08169_chuubi⟧ (medium heat)\n- ⟦{強火|つよび}→強火：08170_tsuyobi⟧ (high heat)\n- ⟦とろ{火|び}→とろ火：08577_torobi⟧ (very low/simmering heat)\n\nCOMMON PATTERNS:\n- {弱火|よわび}⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧ (to turn to low heat)\n- {弱火|よわび}⟦で→で：00502_de⟧⟦{煮|に}る→煮る：01971_niru⟧ (to simmer on low heat)\n- {弱火|よわび}⟦で→で：00502_de⟧⟦{炒|いた}める→炒める：01879_itameru⟧ (to sauté on low heat)\n\nUSAGE:\nUsed frequently in recipes and cooking instructions. Essential for dishes requiring slow cooking or preventing burning.",
   "cross_references": [
     {
       "type": "related",
@@ -76,6 +76,13 @@
       "reading": "つよび",
       "headword": "{強火|つよび}",
       "target_id": "08170_tsuyobi"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19886_karyoku",
+      "reading": "かりょく",
+      "headword": "{火力|かりょく}",
+      "label": "heat output"
     }
   ],
   "metadata": {
@@ -85,11 +92,12 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "cooking"
       ]
     },
     "created": "2026-01-25T07:33:27Z",
-    "modified": "2026-02-03T14:48:46Z"
+    "modified": "2026-09-02T04:01:14Z"
   }
 }

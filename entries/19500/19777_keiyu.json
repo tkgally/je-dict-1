@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "19777_keiyu_ex1",
-      "japanese": "この{車|くるま}は{軽油|けいゆ}で{走|はし}る。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{車|くるま}→車：00516_kuruma⟧⟦は→は：00079_ha⟧{軽油|けいゆ}⟦で→で：00502_de⟧⟦{走|はし}る→走る：00519_hashiru⟧。",
       "english": "This car runs on diesel.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "19777_keiyu_ex2",
-      "japanese": "{軽油|けいゆ}の{値段|ねだん}がまた{上|あ}がった。",
+      "japanese": "{軽油|けいゆ}⟦の→の：09472_no⟧⟦{値段|ねだん}→値段：00871_nedan⟧⟦が→が：00051_ga⟧⟦また→また：00969_mata⟧⟦{上|あ}がった→上がる：00615_agaru⟧。",
       "english": "The price of diesel went up again.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "19777_keiyu_ex3",
-      "japanese": "ガソリンスタンドで{間違|まちが}えて{軽油|けいゆ}を{入|い}れてしまうと、エンジンが{壊|こわ}れることがある。",
+      "japanese": "⟦ガソリンスタンド→ガソリンスタンド：01348_gasorinsutando⟧⟦で→で：00502_de⟧⟦{間違|まちが}えて→間違える：01109_machigaeru⟧{軽油|けいゆ}⟦を→を：00422_wo⟧⟦{入|い}れて→入れる：01098_ireru⟧しまう⟦と→と：00512_to⟧、⟦エンジン→エンジン：03835_enjin⟧⟦が→が：00051_ga⟧⟦{壊|こわ}れる→壊れる：00791_kowareru⟧こと⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "If you accidentally put diesel in at the gas station, it can damage the engine.",
       "sense_numbers": [
         1
@@ -44,8 +44,45 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {軽|けい} (light) and {油|ゆ} (oil). Despite the name 'light oil,' {軽油|けいゆ} refers specifically to diesel fuel, not to a lighter form of gasoline. The name distinguishes it from {重油|じゅうゆ} (heavy oil/bunker fuel).\n\nCAUTION FOR LEARNERS:\nAt Japanese gas stations, fuel nozzles are color-coded: green for {軽油|けいゆ} (diesel), red for レギュラー (regular gasoline), and yellow for ハイオク (premium gasoline). Do not confuse {軽油|けいゆ} with {軽|けい}{自動車|じどうしゃ} (kei car) — kei cars typically run on gasoline, not diesel.\n\nCOMMON COLLOCATIONS:\n- {軽油|けいゆ}{車|しゃ} — diesel vehicle\n- {軽油|けいゆ}{価格|かかく} — diesel price\n- {軽油|けいゆ}を{入|い}れる — to fill up with diesel\n\nRELATED TERMS:\n- ガソリン — gasoline\n- {重油|じゅうゆ} — heavy oil, bunker fuel\n- ディーゼル — diesel (the loanword, used for engines and technology)\n- {灯油|とうゆ} — kerosene",
+  "notes": "Composed of {軽|けい} (light) and {油|ゆ} (oil). Despite the name 'light oil,' {軽油|けいゆ} refers specifically to diesel fuel, not to a lighter form of gasoline. The name distinguishes it from ⟦{重油|じゅうゆ}→重油：21768_juuyu⟧ (heavy oil/bunker fuel).\n\nCAUTION FOR LEARNERS:\nAt Japanese gas stations, fuel nozzles are color-coded: green for {軽油|けいゆ} (diesel), red for ⟦レギュラー→レギュラー：11396_regyuraa⟧ (regular gasoline), and yellow for ハイオク (premium gasoline). Do not confuse {軽油|けいゆ} with ⟦{軽|けい}{自動車|じどうしゃ}→軽自動車：14298_keijidousha⟧ (kei car) — kei cars typically run on gasoline, not diesel.\n\nCOMMON COLLOCATIONS:\n- {軽油|けいゆ}⟦{車|しゃ}→車：09874_sha⟧ — diesel vehicle\n- {軽油|けいゆ}⟦{価格|かかく}→価格：00147_kakaku⟧ — diesel price\n- {軽油|けいゆ}⟦を→を：00422_wo⟧⟦{入|い}れる→入れる：01098_ireru⟧ — to fill up with diesel\n\nRELATED WORDS:\n- ⟦ガソリン→ガソリン：01346_gasorin⟧ — gasoline\n- ⟦{重油|じゅうゆ}→重油：21768_juuyu⟧ — heavy oil, bunker fuel\n- ディーゼル — diesel (the loanword, used for engines and technology)\n- ⟦{灯油|とうゆ}→灯油：04071_touyu⟧ — kerosene",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "01346_gasorin",
+      "reading": "がそりん",
+      "headword": "ガソリン",
+      "label": "gasoline"
+    },
+    {
+      "type": "related",
+      "target_id": "21768_juuyu",
+      "reading": "じゅうゆ",
+      "headword": "{重油|じゅうゆ}",
+      "label": "heavy oil, bunker fuel"
+    },
+    {
+      "type": "related",
+      "target_id": "04071_touyu",
+      "reading": "とうゆ",
+      "headword": "{灯油|とうゆ}",
+      "label": "kerosene"
+    },
+    {
+      "type": "related",
+      "target_id": "21637_genyu",
+      "reading": "げんゆ",
+      "headword": "{原油|げんゆ}",
+      "label": "crude oil"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28044_nenryouyu",
+      "reading": "ねんりょうゆ",
+      "headword": "燃料油",
+      "label": "fuel oil"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +97,6 @@
       ]
     },
     "created": "2026-03-26T23:27:23Z",
-    "modified": "2026-07-27T12:42:09Z"
+    "modified": "2026-09-02T04:01:57Z"
   }
 }

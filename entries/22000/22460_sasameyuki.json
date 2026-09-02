@@ -15,40 +15,67 @@
   "examples": [
     {
       "id": "22460_sasameyuki_ex1",
-      "japanese": "{細雪|ささめゆき}が{舞|ま}っている。",
+      "japanese": "{細雪|ささめゆき}⟦が→が：00051_ga⟧⟦{舞|ま}っている→舞う：04573_mau⟧。",
       "english": "Fine snow is dancing in the air.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "22460_sasameyuki_ex2",
-      "japanese": "{窓|まど}の{外|そと}には{細雪|ささめゆき}が{静|しず}かに{降|ふ}っていた。",
+      "japanese": "⟦{窓|まど}→窓：02254_mado⟧⟦の→の：09472_no⟧⟦{外|そと}→外：00671_soto⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{細雪|ささめゆき}⟦が→が：00051_ga⟧⟦{静|しず}か→静か：00755_shizuka⟧⟦に→に：00314_ni⟧⟦{降|ふ}っていた→降る：00839_furu⟧。",
       "english": "Outside the window, fine snow was falling quietly.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "22460_sasameyuki_ex3",
-      "japanese": "{夕暮|ゆうぐ}れの{街|まち}に{細雪|ささめゆき}が{降|ふ}り{始|はじ}め、{景色|けしき}が{一変|いっぺん}した。",
+      "japanese": "⟦{夕暮|ゆうぐ}れ→夕暮れ：07682_yuugure⟧⟦の→の：09472_no⟧⟦{街|まち}→街：17306_machi⟧⟦に→に：00314_ni⟧{細雪|ささめゆき}⟦が→が：00051_ga⟧⟦{降|ふ}り→降る：00839_furu⟧{始|はじ}め、⟦{景色|けしき}→景色：01395_keshiki⟧⟦が→が：00051_ga⟧⟦{一変|いっぺん}→一変：11203_ippen⟧⟦した→する：00392_suru⟧。",
       "english": "Fine snow began to fall on the town at dusk, transforming the scenery.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A literary and poetic word for delicate, gently falling snow. Composed of {細|ささめ} (fine, delicate) + {雪|ゆき} (snow). Evokes a quiet, elegant winter atmosphere and is associated with refined, literary Japanese.\n\nCOMMON COLLOCATIONS:\n- {細雪|ささめゆき}が{舞|ま}う: fine snow dances in the air\n- {細雪|ささめゆき}が{降|ふ}る: fine snow falls\n- {細雪|ささめゆき}の{中|なか}: amid the gently falling snow\n\nLITERARY NOTE:\nThe most famous use of this word is as the title of {谷崎潤一郎|たにざきじゅんいちろう}'s novel {細雪|ささめゆき} (The Makioka Sisters, 1943-1948), a masterwork of modern Japanese literature depicting the lives of four sisters in a wealthy Osaka family. The title evokes the beauty and transience of their fading world.\n\nSIMILAR WORDS:\n- {粉雪|こなゆき}: powder snow — light, dry snow; less literary than {細雪|ささめゆき}\n- {新雪|しんせつ}: fresh snow — emphasizes newness rather than delicacy\n- {小雪|こゆき}: light snow — a more neutral term for light snowfall; also the name of a seasonal division in the traditional calendar",
+  "notes": "A literary and poetic word for delicate, gently falling snow. Composed of {細|ささめ} (fine, delicate) + ⟦{雪|ゆき}→雪：00584_yuki⟧ (snow). Evokes a quiet, elegant winter atmosphere and is associated with refined, literary Japanese.\n\nCOMMON COLLOCATIONS:\n- {細雪|ささめゆき}⟦が→が：00051_ga⟧⟦{舞|ま}う→舞う：04573_mau⟧: fine snow dances in the air\n- {細雪|ささめゆき}⟦が→が：00051_ga⟧⟦{降|ふ}る→降る：00839_furu⟧: fine snow falls\n- {細雪|ささめゆき}⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧: amid the gently falling snow\n\nLITERARY NOTE:\nThe most famous use of this word is as the title of {谷崎潤一郎|たにざきじゅんいちろう}'s novel {細雪|ささめゆき} (The Makioka Sisters, 1943-1948), a masterwork of modern Japanese literature depicting the lives of four sisters in a wealthy Osaka family. The title evokes the beauty and transience of their fading world.\n\nSIMILAR WORDS:\n- ⟦{粉雪|こなゆき}→粉雪：13858_konayuki⟧: powder snow — light, dry snow; less literary than {細雪|ささめゆき}\n- ⟦{新雪|しんせつ}→新雪：22448_shinsetsu⟧: fresh snow — emphasizes newness rather than delicacy\n- {小雪|こゆき}: light snow — a more neutral term for light snowfall; also the name of a seasonal division in the traditional calendar",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13858_konayuki",
+      "reading": "こなゆき",
+      "headword": "{粉雪|こなゆき}",
+      "label": "powder snow"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22448_shinsetsu",
+      "reading": "しんせつ",
+      "headword": "{新雪|しんせつ}",
+      "label": "fresh snow"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["nature", "weather"]
+      "semantic": [
+        "nature",
+        "weather"
+      ]
     },
     "created": "2026-04-06T12:13:25Z",
-    "modified": "2026-04-06T12:13:25Z"
+    "modified": "2026-09-02T04:02:08Z"
   }
 }

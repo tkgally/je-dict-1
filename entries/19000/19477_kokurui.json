@@ -15,40 +15,80 @@
   "examples": [
     {
       "id": "19477_kokurui_ex1",
-      "japanese": "{穀類|こくるい}は{主食|しゅしょく}として{大切|たいせつ}だ。",
+      "japanese": "{穀類|こくるい}⟦は→は：00079_ha⟧⟦{主食|しゅしょく}→主食：11408_shushoku⟧⟦として→として：06802_toshite⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧だ。",
       "english": "Grains are important as a staple food.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19477_kokurui_ex2",
-      "japanese": "{穀類|こくるい}の{価格|かかく}が{上昇|じょうしょう}している。",
+      "japanese": "{穀類|こくるい}⟦の→の：09472_no⟧⟦{価格|かかく}→価格：00147_kakaku⟧⟦が→が：00051_ga⟧⟦{上昇|じょうしょう}している→上昇する：21681_joushousuru⟧。",
       "english": "Grain prices are rising.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19477_kokurui_ex3",
-      "japanese": "{健康|けんこう}のために、{精製|せいせい}されていない{穀類|こくるい}を{多|おお}く{取|と}るようにしている。",
+      "japanese": "⟦{健康|けんこう}→健康：02706_kenkou⟧⟦の→の：09472_no⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧、⟦{精製|せいせい}→精製：21559_seisei⟧⟦されていない→する：00392_suru⟧{穀類|こくるい}⟦を→を：00422_wo⟧⟦{多|おお}く→多い：01127_ooi⟧⟦{取|と}る→取る：00565_toru⟧ようにして⟦いる→いる：00495_iru⟧。",
       "english": "For my health, I try to eat more unrefined grains.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A general term encompassing cereal grains — {米|こめ} (rice), {麦|むぎ} (wheat/barley), {玉蜀黍|とうもろこし} (corn), {粟|あわ} (millet), etc. Commonly used in nutrition labels, agricultural reports, and food science. In everyday conversation, specific grain names are more common.\n\nCOMMON COLLOCATIONS:\n- {穀類|こくるい}を{食|た}べる — to eat grains\n- {全粒|ぜんりゅう}{穀類|こくるい} — whole grains\n- {穀類|こくるい}の{生産|せいさん} — grain production\n- {穀類|こくるい}の{価格|かかく} — grain prices\n\nSIMILAR WORDS:\n- {穀物|こくもつ} — grain, cereal; very similar meaning, slightly more common in general contexts\n- {雑穀|ざっこく} — miscellaneous grains (millet, sorghum, etc.); grains other than rice and wheat\n- {主食|しゅしょく} — staple food; broader category that includes grains but also potatoes, bread, etc.",
+  "notes": "A general term encompassing cereal grains — ⟦{米|こめ}→米：01323_kome⟧ (rice), ⟦{麦|むぎ}→麦：05427_mugi⟧ (wheat/barley), {玉蜀黍|とうもろこし} (corn), {粟|あわ} (millet), etc. Commonly used in nutrition labels, agricultural reports, and food science. In everyday conversation, specific grain names are more common.\n\nCOMMON COLLOCATIONS:\n- {穀類|こくるい}⟦を→を：00422_wo⟧⟦{食|た}べる→食べる：00396_taberu⟧ — to eat grains\n- {全粒|ぜんりゅう}{穀類|こくるい} — whole grains\n- {穀類|こくるい}⟦の→の：09472_no⟧⟦{生産|せいさん}→生産：01444_seisan⟧ — grain production\n- {穀類|こくるい}⟦の→の：09472_no⟧⟦{価格|かかく}→価格：00147_kakaku⟧ — grain prices\n\nSIMILAR WORDS:\n- ⟦{穀物|こくもつ}→穀物：02806_kokumotsu⟧ — grain, cereal; very similar meaning, slightly more common in general contexts\n- ⟦{雑穀|ざっこく}→雑穀：20948_zakkoku⟧ — miscellaneous grains (millet, sorghum, etc.); grains other than rice and wheat\n- ⟦{主食|しゅしょく}→主食：11408_shushoku⟧ — staple food; broader category that includes grains but also potatoes, bread, etc.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02806_kokumotsu",
+      "reading": "こくもつ",
+      "headword": "{穀物|こくもつ}",
+      "label": "grain, cereal"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20948_zakkoku",
+      "reading": "ざっこく",
+      "headword": "{雑穀|ざっこく}",
+      "label": "miscellaneous grains"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11408_shushoku",
+      "reading": "しゅしょく",
+      "headword": "{主食|しゅしょく}",
+      "label": "staple food"
+    },
+    {
+      "type": "related",
+      "target_id": "19500_mamerui",
+      "reading": "まめるい",
+      "headword": "{豆類|まめるい}",
+      "label": "beans"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food"]
+      "semantic": [
+        "food"
+      ]
     },
     "created": "2026-03-26T01:23:07Z",
-    "modified": "2026-03-26T01:23:07Z"
+    "modified": "2026-09-02T04:01:56Z"
   }
 }

@@ -2,7 +2,7 @@
   "id": "04439_henshuu",
   "headword": "{編集|へんしゅう}",
   "reading": "へんしゅう",
-  "part_of_speech": "noun, suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "editing",
   "conjugation": {
     "type": "suru",
@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "04439_henshuu_ex1",
-      "japanese": "⟦{動画|どうが}→動画：04443_douga⟧⟦を→を：00422_wo⟧{編集|へんしゅう}する。",
+      "japanese": "⟦{動画|どうが}→動画：04443_douga⟧⟦を→を：00422_wo⟧{編集|へんしゅう}⟦する→する：00392_suru⟧。",
       "english": "I edit videos.",
       "notes": null,
       "has_audio": false,
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "COMPOUND: {編|へん} (compile) + {集|しゅう} (gather)\n\nCOMMON COLLOCATIONS:\n・⟦{編集|へんしゅう}{者|しゃ}→編集者：09587_henshuusha⟧ (editor)\n・⟦{編集|へんしゅう}{長|ちょう}→編集長：noentry⟧ (editor-in-chief)\n・⟦{編集|へんしゅう}{部|ぶ}→編集部：noentry⟧ (editorial department)\n・⟦{動画|どうが}→動画：04443_douga⟧{編集|へんしゅう} (video editing)\n・⟦{写真|しゃしん}→写真：00753_shashin⟧{編集|へんしゅう} (photo editing)\n・{編集|へんしゅう}⟦ソフト→ソフト：01532_sofuto⟧ (editing software)\n\nCONTEXTS:\n・Publishing: books, magazines\n・Media: video, audio, photography\n・Software: text, code",
+  "notes": "COMPOUND: ⟦{編|へん}→〜編：28472_hen⟧ (compile) + {集|しゅう} (gather)\n\nCOMMON COLLOCATIONS:\n- ⟦{編集|へんしゅう}{者|しゃ}→編集者：09587_henshuusha⟧ (editor)\n- ⟦{編集|へんしゅう}{長|ちょう}→編集長：noentry⟧ (editor-in-chief)\n- ⟦{編集|へんしゅう}{部|ぶ}→編集部：noentry⟧ (editorial department)\n- ⟦{動画|どうが}→動画：04443_douga⟧{編集|へんしゅう} (video editing)\n- ⟦{写真|しゃしん}→写真：00753_shashin⟧{編集|へんしゅう} (photo editing)\n- {編集|へんしゅう}⟦ソフト→ソフト：01532_sofuto⟧ (editing software)\n\nUSAGE:\n- Publishing: books, magazines\n- Media: video, audio, photography\n- Software: text, code",
   "prominent_see_also": [
     {
       "target_id": "21991_henshuusuru",
@@ -149,11 +149,18 @@
       "reading": "さつえい",
       "headword": "{撮影|さつえい}",
       "label": "filming, photography"
+    },
+    {
+      "type": "related",
+      "target_id": "08387_kouetsu",
+      "reading": "こうえつ",
+      "headword": "{校閲|こうえつ}",
+      "label": "proofreading"
     }
   ],
   "metadata": {
     "created": "2026-01-14T14:59:53Z",
-    "modified": "2026-06-10T17:34:32Z",
+    "modified": "2026-09-02T04:01:04Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -166,7 +173,8 @@
       "semantic": [
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

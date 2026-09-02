@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22706_oobunrenji_ex1",
-      "japanese": "オーブンレンジでパンを{焼|や}く。",
+      "japanese": "オーブンレンジ⟦で→で：00502_de⟧⟦パン→パン：00553_pan⟧⟦を→を：00422_wo⟧⟦{焼|や}く→焼く：01123_yaku⟧。",
       "english": "To bake bread in the combination microwave oven.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22706_oobunrenji_ex2",
-      "japanese": "{新|あたら}しいオーブンレンジを{買|か}った。",
+      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧オーブンレンジ⟦を→を：00422_wo⟧⟦{買|か}った→買う：00489_kau⟧。",
       "english": "I bought a new combination microwave oven.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22706_oobunrenji_ex3",
-      "japanese": "このオーブンレンジは{温|あたた}めもグリルもできて{便利|べんり}だ。",
+      "japanese": "⟦この→この：00962_kono⟧オーブンレンジ⟦は→は：00079_ha⟧⟦{温|あたた}め→温める：02096_atatameru⟧⟦も→も：00484_mo⟧グリル⟦も→も：00484_mo⟧⟦できて→できる：00557_dekiru⟧⟦{便利|べんり}→便利：00830_benri⟧だ。",
       "english": "This combination microwave oven is convenient because it can both reheat and grill.",
       "sense_numbers": [
         1
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "A wasei-eigo (Japanese-coined English) compound of \"oven\" + \"range\" (from \"microwave range\"). In Japan, standalone ovens are uncommon in home kitchens due to space constraints, so the オーブンレンジ serves as the standard oven for most households.\n\nCOMMON COLLOCATIONS:\n- オーブンレンジで{焼|や}く: to bake/roast in a combination oven\n- オーブンレンジで{温|あたた}める: to reheat in a microwave oven\n- オーブンレンジの{買|か}い{替|か}え: replacing one's microwave oven\n\nSIMILAR WORDS:\n- {電子|でんし}レンジ: microwave oven — has only microwave function, no oven capability\n- オーブントースター: toaster oven — smaller, simpler appliance for toasting and light baking\n- {炊飯器|すいはんき}: rice cooker — another essential Japanese kitchen appliance",
+  "notes": "A wasei-eigo (Japanese-coined English) compound of \"oven\" + \"range\" (from \"microwave range\"). In Japan, standalone ovens are uncommon in home kitchens due to space constraints, so the オーブンレンジ serves as the standard oven for most households.\n\nCOMMON COLLOCATIONS:\n- オーブンレンジ⟦で→で：00502_de⟧⟦{焼|や}く→焼く：01123_yaku⟧: to bake/roast in a combination oven\n- オーブンレンジ⟦で→で：00502_de⟧⟦{温|あたた}める→温める：02096_atatameru⟧: to reheat in a microwave oven\n- オーブンレンジ⟦の→の：09472_no⟧⟦{買|か}い{替|か}え→買い替え：17389_kaikae⟧: replacing one's microwave oven\n\nSIMILAR WORDS:\n- ⟦{電子|でんし}レンジ→電子レンジ：04973_denshirenji⟧: microwave oven — has only microwave function, no oven capability\n- ⟦オーブントースター→オーブントースター：23412_oobuntoosutaa⟧: toaster oven — smaller, simpler appliance for toasting and light baking\n- ⟦{炊飯器|すいはんき}→炊飯器：04972_suihanki⟧: rice cooker — another essential Japanese kitchen appliance",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04973_denshirenji",
+      "reading": "でんしれんじ",
+      "headword": "{電子|でんし}レンジ",
+      "label": "microwave oven"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23412_oobuntoosutaa",
+      "reading": "おーぶんとーすたー",
+      "headword": "オーブントースター",
+      "label": "toaster oven"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04972_suihanki",
+      "reading": "すいはんき",
+      "headword": "{炊飯器|すいはんき}",
+      "label": "rice cooker"
+    },
+    {
+      "type": "related",
+      "target_id": "01047_renji",
+      "reading": "れんじ",
+      "headword": "レンジ",
+      "label": "microwave"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,6 +91,6 @@
       "politeness": "plain"
     },
     "created": "2026-04-07T12:35:24Z",
-    "modified": "2026-08-01T06:42:57Z"
+    "modified": "2026-09-02T04:02:09Z"
   }
 }

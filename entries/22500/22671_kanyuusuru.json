@@ -3,7 +3,7 @@
   "headword": "{加入|かにゅう}する",
   "reading": "かにゅうする",
   "romaji": "kanyuusuru",
-  "part_of_speech": "verb-suru",
+  "part_of_speech": "suru verb",
   "gloss": "to join; to become a member; to subscribe",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22671_kanyuusuru_ex1",
-      "japanese": "{保険|ほけん}に{加入|かにゅう}する。",
+      "japanese": "⟦{保険|ほけん}→保険：01509_hoken⟧⟦に→に：00314_ni⟧{加入|かにゅう}する。",
       "english": "To subscribe to insurance.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22671_kanyuusuru_ex2",
-      "japanese": "{組合|くみあい}に{加入|かにゅう}することにした。",
+      "japanese": "⟦{組合|くみあい}→組合：02669_kumiai⟧⟦に→に：00314_ni⟧{加入|かにゅう}することにした。",
       "english": "I decided to join the union.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22671_kanyuusuru_ex3",
-      "japanese": "この{国|くに}は{昨年|さくねん}{国際|こくさい}{機関|きかん}に{加入|かにゅう}した。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{国|くに}→国：02204_kuni⟧⟦は→は：00079_ha⟧⟦{昨年|さくねん}→昨年：10433_sakunen⟧⟦{国際|こくさい}→国際：01406_kokusai⟧⟦{機関|きかん}→機関：02630_kikan⟧⟦に→に：00314_ni⟧{加入|かにゅう}した。",
       "english": "This country joined the international organization last year.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Used for formally joining organizations, subscribing to services, or entering agreements. The particle に marks the group or service being joined. The noun form {加入|かにゅう} is commonly used on its own, especially in compound phrases.\n\nCOMMON COLLOCATIONS:\n- {保険|ほけん}に{加入|かにゅう}する: to take out insurance\n- {組合|くみあい}に{加入|かにゅう}する: to join a union\n- {新規|しんき}{加入|かにゅう}: new enrollment\n- {加入|かにゅう}{者|しゃ}: subscriber; member\n- {加入|かにゅう}{手続|てつづ}き: enrollment procedure\n\nSIMILAR WORDS:\n- {入会|にゅうかい}する: to join (a club or association) — used for clubs, gyms, and membership-based groups, while {加入|かにゅう}する is broader and includes insurance, unions, and international bodies\n- {参加|さんか}する: to participate — focuses on taking part in an event or activity, not becoming a formal member",
+  "notes": "Used for formally joining organizations, subscribing to services, or entering agreements. The particle ⟦に→に：00314_ni⟧ marks the group or service being joined. The noun form ⟦{加入|かにゅう}→加入：11915_kanyuu⟧ is commonly used on its own, especially in compound phrases.\n\nCOMMON COLLOCATIONS:\n- ⟦{保険|ほけん}→保険：01509_hoken⟧⟦に→に：00314_ni⟧{加入|かにゅう}する: to take out insurance\n- ⟦{組合|くみあい}→組合：02669_kumiai⟧⟦に→に：00314_ni⟧{加入|かにゅう}する: to join a union\n- ⟦{新規|しんき}→新規：06289_shinki⟧⟦{加入|かにゅう}→加入：11915_kanyuu⟧: new enrollment\n- ⟦{加入|かにゅう}{者|しゃ}→加入者：22913_kanyuusha⟧: subscriber; member\n- ⟦{加入|かにゅう}→加入：11915_kanyuu⟧⟦{手続|てつづ}き→手続き：05453_tetsuzuki⟧: enrollment procedure\n\nSIMILAR WORDS:\n- ⟦{入会|にゅうかい}する→入会する：19522_nyuukaisuru⟧: to join (a club or association) — used for clubs, gyms, and membership-based groups, while {加入|かにゅう}する is broader and includes insurance, unions, and international bodies\n- ⟦{参加|さんか}する→参加する：25408_sankasuru⟧: to participate — focuses on taking part in an event or activity, not becoming a formal member",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19522_nyuukaisuru",
+      "reading": "にゅうかいする",
+      "headword": "{入会|にゅうかい}する",
+      "label": "to join"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25408_sankasuru",
+      "reading": "さんかする",
+      "headword": "{参加|さんか}する",
+      "label": "to participate"
+    },
+    {
+      "type": "related",
+      "target_id": "22913_kanyuusha",
+      "reading": "かにゅうしゃ",
+      "headword": "{加入者|かにゅうしゃ}",
+      "label": "subscriber"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,7 +84,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-07T00:50:18Z",
-    "modified": "2026-08-01T06:41:09Z"
+    "modified": "2026-09-02T04:02:09Z"
   },
   "conjugation": {
     "type": "suru",

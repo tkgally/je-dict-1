@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "09723_haitatsujoukyou_ex1",
-      "japanese": "{配達|はいたつ}{状況|じょうきょう}を{確認|かくにん}する。",
+      "japanese": "{配達|はいたつ}{状況|じょうきょう}⟦を→を：00422_wo⟧⟦{確認|かくにん}する→確認する：25332_kakuninsuru⟧。",
       "english": "To check the delivery status.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "09723_haitatsujoukyou_ex2",
-      "japanese": "アプリで{配達|はいたつ}{状況|じょうきょう}がわかる。",
+      "japanese": "⟦アプリ→アプリ：04722_apuri⟧⟦で→で：00502_de⟧{配達|はいたつ}{状況|じょうきょう}⟦が→が：00051_ga⟧わかる。",
       "english": "You can see the delivery status on the app.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "09723_haitatsujoukyou_ex3",
-      "japanese": "{配達|はいたつ}{状況|じょうきょう}を{見|み}たら、もう{近|ちか}くまで{来|き}ていた。",
+      "japanese": "{配達|はいたつ}{状況|じょうきょう}⟦を→を：00422_wo⟧⟦{見|み}たら→見る：00283_miru⟧、⟦もう→もう：00602_mou⟧{近|ちか}く⟦まで→まで：00490_made⟧⟦{来|き}ていた→来る：00254_kuru⟧。",
       "english": "When I checked the delivery status, it was already nearby.",
       "notes": null,
       "has_audio": false,
@@ -43,10 +43,10 @@
       ]
     }
   ],
-  "notes": "Compound of {配達|はいたつ} (delivery) + {状況|じょうきょう} (status/situation). Used when tracking packages through delivery services.\n\nCOMMON COLLOCATIONS:\n- {配達|はいたつ}{状況|じょうきょう}を{確認|かくにん}する: to check the delivery status\n- {配達|はいたつ}{状況|じょうきょう}の{通知|つうち}: delivery status notification\n- {配達|はいたつ}{状況|じょうきょう}を{追跡|ついせき}する: to track the delivery status\n\nCOMMON STATUS TERMS:\n- {受付|うけつけ}{済|ず}み: order accepted\n- {発送済|はっそうず}み: shipped\n- {配達中|はいたつちゅう}: out for delivery\n- {配達完了|はいたつかんりょう}: delivered\n- {不在|ふざい}{持|も}ち{戻|もど}り: returned to facility (recipient absent)\n- {再配達|さいはいたつ}: redelivery\n\nRELATED TERMS:\n- {追跡|ついせき}{番号|ばんごう}: tracking number\n- {配送|はいそう}: shipping/delivery (broader term)\n- {宅配便|たくはいびん}: home delivery service (e.g., ヤマト{運輸|うんゆ}, {佐川|さがわ}{急便|きゅうびん})",
+  "notes": "Compound of ⟦{配達|はいたつ}→配達：00084_haitatsu⟧ (delivery) + ⟦{状況|じょうきょう}→状況：01576_joukyou⟧ (status/situation). Used when tracking packages through delivery services.\n\nCOMMON COLLOCATIONS:\n- {配達|はいたつ}{状況|じょうきょう}⟦を→を：00422_wo⟧⟦{確認|かくにん}する→確認する：25332_kakuninsuru⟧: to check the delivery status\n- {配達|はいたつ}{状況|じょうきょう}⟦の→の：09472_no⟧⟦{通知|つうち}→通知：04061_tsuuchi⟧: delivery status notification\n- {配達|はいたつ}{状況|じょうきょう}⟦を→を：00422_wo⟧⟦{追跡|ついせき}→追跡：09722_tsuiseki⟧⟦する→する：00392_suru⟧: to track the delivery status\n\nCOMMON STATUS TERMS:\n- ⟦{受付|うけつけ}→受付：01325_uketsuke⟧⟦{済|ず}み→〜済み：04013_zumi⟧: order accepted\n- ⟦{発送済|はっそうず}み→発送済み：15440_hassouzumi⟧: shipped\n- {配達中|はいたつちゅう}: out for delivery\n- {配達完了|はいたつかんりょう}: delivered\n- ⟦{不在|ふざい}→不在：11302_fuzai⟧{持|も}ち{戻|もど}り: returned to facility (recipient absent)\n- ⟦{再配達|さいはいたつ}→再配達：09690_saihaitatsu⟧: redelivery\n\nRELATED WORDS:\n- ⟦{追跡|ついせき}{番号|ばんごう}→追跡番号：14996_tsuisekibangou⟧: tracking number\n- ⟦{配送|はいそう}→配送：05464_haisou⟧: shipping/delivery (broader term)\n- ⟦{宅配便|たくはいびん}→宅配便：09534_takuhaibin⟧: home delivery service (e.g., ヤマト{運輸|うんゆ}, {佐川|さがわ}{急便|きゅうびん})",
   "metadata": {
     "created": "2026-02-03T07:17:27Z",
-    "modified": "2026-06-24T18:40:49Z",
+    "modified": "2026-09-02T04:01:19Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -75,6 +75,27 @@
       "reading": "ついせき",
       "headword": "{追跡|ついせき}",
       "label": "tracking"
+    },
+    {
+      "type": "related",
+      "target_id": "14996_tsuisekibangou",
+      "reading": "ついせきばんごう",
+      "headword": "{追跡番号|ついせきばんごう}",
+      "label": "tracking number"
+    },
+    {
+      "type": "related",
+      "target_id": "05464_haisou",
+      "reading": "はいそう",
+      "headword": "{配送|はいそう}",
+      "label": "shipping/delivery"
+    },
+    {
+      "type": "related",
+      "target_id": "09534_takuhaibin",
+      "reading": "たくはいびん",
+      "headword": "{宅配便|たくはいびん}",
+      "label": "home delivery service"
     }
   ]
 }

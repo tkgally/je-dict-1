@@ -15,40 +15,66 @@
   "examples": [
     {
       "id": "20021_watage_ex1",
-      "japanese": "たんぽぽの{綿毛|わたげ}を{飛|と}ばした。",
+      "japanese": "⟦たんぽぽ→たんぽぽ：05486_tanpopo⟧⟦の→の：09472_no⟧{綿毛|わたげ}⟦を→を：00422_wo⟧⟦{飛|と}ばした→飛ばす：02373_tobasu⟧。",
       "english": "I blew the dandelion fluff away.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20021_watage_ex2",
-      "japanese": "ひなの{体|からだ}は{綿毛|わたげ}で{覆|おお}われている。",
+      "japanese": "ひな⟦の→の：09472_no⟧⟦{体|からだ}→体：00784_karada⟧⟦は→は：00079_ha⟧{綿毛|わたげ}⟦で→で：00502_de⟧⟦{覆|おお}われている→覆う：02020_oou⟧。",
       "english": "The chick's body is covered in down.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20021_watage_ex3",
-      "japanese": "{風|かぜ}に{乗|の}って{綿毛|わたげ}がふわふわと{空|そら}に{舞|ま}い{上|あ}がった。",
+      "japanese": "⟦{風|かぜ}→風：00641_kaze⟧⟦に→に：00314_ni⟧⟦{乗|の}って→乗る：00511_noru⟧{綿毛|わたげ}⟦が→が：00051_ga⟧⟦ふわふわ→ふわふわ：05156_fuwafuwa⟧⟦と→と：00512_to⟧⟦{空|そら}→空：02216_sora⟧⟦に→に：00314_ni⟧⟦{舞|ま}い{上|あ}がった→舞い上がる：06043_maiagaru⟧。",
       "english": "The fluff floated up into the sky, carried by the wind.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Compound of {綿|わた} (cotton) and {毛|げ} (hair/fur). Refers to anything soft, light, and fluffy — most iconically the seed heads of dandelions, but also the downy feathers of young birds and fine body hair.\n\nCOMMON COLLOCATIONS:\n- たんぽぽの{綿毛|わたげ}: dandelion fluff/puff\n- {綿毛|わたげ}が{飛|と}ぶ: fluff floats away\n- {綿毛|わたげ}で{覆|おお}われる: to be covered in down\n- {綿毛|わたげ}のような: fluffy like down\n\nSIMILAR WORDS:\n- {羽毛|うもう}: feathers, down — specifically bird feathers; used in products like {羽毛|うもう}ぶとん (down comforter)\n- {産毛|うぶげ}: fine body hair, peach fuzz — the soft hair on a baby's skin or a peach\n- {毛|け}: hair, fur — the general word for animal hair\n\nCULTURAL NOTE:\nBlowing dandelion {綿毛|わたげ} is a well-known childhood activity in Japan, as elsewhere. It evokes a gentle, nostalgic image of spring and early summer.",
+  "notes": "Compound of ⟦{綿|わた}→綿：00421_wata⟧ (cotton) and {毛|げ} (hair/fur). Refers to anything soft, light, and fluffy — most iconically the seed heads of dandelions, but also the downy feathers of young birds and fine body hair.\n\nCOMMON COLLOCATIONS:\n- ⟦たんぽぽ→たんぽぽ：05486_tanpopo⟧⟦の→の：09472_no⟧{綿毛|わたげ}: dandelion fluff/puff\n- {綿毛|わたげ}⟦が→が：00051_ga⟧⟦{飛|と}ぶ→飛ぶ：00759_tobu⟧: fluff floats away\n- {綿毛|わたげ}⟦で→で：00502_de⟧⟦{覆|おお}われる→覆う：02020_oou⟧: to be covered in down\n- {綿毛|わたげ}⟦の→の：09472_no⟧ような: fluffy like down\n\nSIMILAR WORDS:\n- ⟦{羽毛|うもう}→羽毛：13915_umou⟧: feathers, down — specifically bird feathers; used in products like ⟦{羽毛|うもう}→羽毛：13915_umou⟧ぶとん (down comforter)\n- ⟦{産毛|うぶげ}→産毛：16158_ubuge⟧: fine body hair, peach fuzz — the soft hair on a baby's skin or a peach\n- ⟦{毛|け}→毛：01392_ke⟧: hair, fur — the general word for animal hair\n\nCULTURAL NOTE:\nBlowing dandelion {綿毛|わたげ} is a well-known childhood activity in Japan, as elsewhere. It evokes a gentle, nostalgic image of spring and early summer.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13915_umou",
+      "reading": "うもう",
+      "headword": "{羽毛|うもう}",
+      "label": "feathers, down"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16158_ubuge",
+      "reading": "うぶげ",
+      "headword": "{産毛|うぶげ}",
+      "label": "fine body hair, peach fuzz"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["nature"]
+      "semantic": [
+        "nature"
+      ]
     },
     "created": "2026-03-28T05:24:37Z",
-    "modified": "2026-03-28T05:24:37Z"
+    "modified": "2026-09-02T04:01:58Z"
   }
 }

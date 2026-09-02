@@ -43,10 +43,10 @@
       ]
     }
   ],
-  "notes": "USAGE: {選手|せんしゅ} refers to athletes or players who compete in sports or games. The word contains {選|せん} (select) because these are people chosen to represent.\n\nCOMMON PATTERNS:\n・⟦{野球|やきゅう}→野球：04727_yakyuu⟧/⟦サッカー→サッカー：04726_sakkaa⟧/⟦テニス→テニス：01784_tenisu⟧{選手|せんしゅ} (baseball/soccer/tennis player)\n・⟦{代表|だいひょう}→代表：03419_daihyou⟧{選手|せんしゅ} (representative player)\n・⟦プロ→プロ：03871_puro⟧{選手|せんしゅ} (professional athlete)\n・⟦{選手|せんしゅ}{権|けん}→選手権：14432_senshuken⟧ (championship)\n・{選手|せんしゅ}⟦{生命|せいめい}→生命：03296_seimei⟧ (athletic career)\n\nCONTRAST:\n・{選手|せんしゅ} - athlete, player (competitive)\n・⟦プレイヤー→プレイヤー：15082_pureiyaa⟧ - player (general, including non-competitive)\n・⟦{競技者|きょうぎしゃ}→競技者：noentry⟧ - competitor (formal)",
+  "notes": "USAGE: {選手|せんしゅ} refers to athletes or players who compete in sports or games. The word contains ⟦{選|せん}→選：09879_sen⟧ (select) because these are people chosen to represent.\n\nCOMMON PATTERNS:\n- ⟦{野球|やきゅう}→野球：04727_yakyuu⟧/⟦サッカー→サッカー：04726_sakkaa⟧/⟦テニス→テニス：01784_tenisu⟧{選手|せんしゅ} (baseball/soccer/tennis player)\n- ⟦{代表|だいひょう}→代表：03419_daihyou⟧{選手|せんしゅ} (representative player)\n- ⟦プロ→プロ：03871_puro⟧{選手|せんしゅ} (professional athlete)\n- ⟦{選手|せんしゅ}{権|けん}→選手権：14432_senshuken⟧ (championship)\n- {選手|せんしゅ}⟦{生命|せいめい}→生命：03296_seimei⟧ (athletic career)\n\nSIMILAR WORDS:\n- {選手|せんしゅ} - athlete, player (competitive)\n- ⟦プレイヤー→プレイヤー：15082_pureiyaa⟧ - player (general, including non-competitive)\n- ⟦{競技者|きょうぎしゃ}→競技者：noentry⟧ - competitor (formal)",
   "metadata": {
     "created": "2026-01-12T13:34:27Z",
-    "modified": "2026-05-27T19:18:44Z",
+    "modified": "2026-09-02T04:01:03Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -69,6 +69,27 @@
       "reading": "きょうぎ",
       "headword": "{競技|きょうぎ}",
       "label": "competition, athletic event"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15082_pureiyaa",
+      "reading": "ぷれいやー",
+      "headword": "プレイヤー",
+      "label": "player"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21578_sousha",
+      "reading": "そうしゃ",
+      "headword": "{走者|そうしゃ}",
+      "label": "runner"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23920_shutsujousha",
+      "reading": "しゅつじょうしゃ",
+      "headword": "{出場者|しゅつじょうしゃ}",
+      "label": "participant"
     }
   ]
 }

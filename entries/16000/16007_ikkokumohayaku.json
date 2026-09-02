@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "16007_ikkokumohayaku_ex1",
-      "japanese": "{一刻|いっこく}も{早|はや}く{逃|に}げなさい。",
+      "japanese": "{一刻|いっこく}も{早|はや}く⟦{逃|に}げ→逃げる：01151_nigeru⟧⟦なさい→なさる：01307_nasaru⟧。",
       "english": "Run away immediately!",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "16007_ikkokumohayaku_ex2",
-      "japanese": "{一刻|いっこく}も{早|はや}く{問題|もんだい}を{解決|かいけつ}しなければならない。",
+      "japanese": "{一刻|いっこく}も{早|はや}く⟦{問題|もんだい}→問題：00797_mondai⟧⟦を→を：00422_wo⟧⟦{解決|かいけつ}→解決：00136_kaiketsu⟧し⟦なければならない→なければならない：27600_nakerebanaranai⟧。",
       "english": "We must solve this problem as soon as possible.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "16007_ikkokumohayaku_ex3",
-      "japanese": "{被災者|ひさいしゃ}を{一刻|いっこく}も{早|はや}く{救助|きゅうじょ}する{必要|ひつよう}がある。",
+      "japanese": "⟦{被災者|ひさいしゃ}→被災者：25337_hisaisha⟧⟦を→を：00422_wo⟧{一刻|いっこく}も{早|はや}く⟦{救助|きゅうじょ}→救助：02588_kyuujo⟧⟦する→する：00392_suru⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "The disaster victims need to be rescued without a moment's delay.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{一刻|いっこく} literally means \"one moment\" or \"one instant.\" The expression {一刻|いっこく}も{早|はや}く conveys that even the smallest unit of time matters — there must be no delay. It is more emphatic and literary than できるだけ{早|はや}く or なるべく{早|はや}く. Often used in urgent situations involving safety, emergencies, or critical deadlines.\n\nCOMMON COLLOCATIONS:\n- {一刻|いっこく}も{早|はや}く〜する{必要|ひつよう}がある (need to do ~ immediately)\n- {一刻|いっこく}も{早|はや}く〜してほしい (want ~ done ASAP)\n\nSIMILAR WORDS:\n- できるだけ{早|はや}く: as soon as possible — less emphatic, everyday usage\n- なるべく{早|はや}く: as soon as possible — polite, everyday usage\n- {至急|しきゅう}: urgently — formal, often used in business",
+  "notes": "USAGE:\n⟦{一刻|いっこく}→一刻：08924_ikkoku⟧ literally means \"one moment\" or \"one instant.\" The expression {一刻|いっこく}も{早|はや}く conveys that even the smallest unit of time matters — there must be no delay. It is more emphatic and literary than ⟦できるだけ{早|はや}く→できるだけ早く：24470_dekirudakehayaku⟧ or ⟦なるべく→なるべく：01281_narubeku⟧⟦{早|はや}く→早い：00514_hayai⟧. Often used in urgent situations involving safety, emergencies, or critical deadlines.\n\nCOMMON COLLOCATIONS:\n- {一刻|いっこく}も{早|はや}く〜⟦する→する：00392_suru⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧ (need to do ~ immediately)\n- {一刻|いっこく}も{早|はや}く〜⟦して→する：00392_suru⟧ほしい (want ~ done ASAP)\n\nSIMILAR WORDS:\n- ⟦できるだけ{早|はや}く→できるだけ早く：24470_dekirudakehayaku⟧: as soon as possible — less emphatic, everyday usage\n- ⟦なるべく→なるべく：01281_narubeku⟧⟦{早|はや}く→早い：00514_hayai⟧: as soon as possible — polite, everyday usage\n- ⟦{至急|しきゅう}→至急：03679_shikyuu⟧: urgently — formal, often used in business",
   "cross_references": [
     {
       "type": "synonym",
@@ -52,11 +52,18 @@
       "reading": "しきゅう",
       "headword": "{至急|しきゅう}",
       "label": "formal, business"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24470_dekirudakehayaku",
+      "reading": "できるだけはやく",
+      "headword": "できるだけ{早|はや}く",
+      "label": "as soon as possible"
     }
   ],
   "metadata": {
     "created": "2026-03-09T06:24:29Z",
-    "modified": "2026-06-08T02:21:12Z",
+    "modified": "2026-09-02T04:01:43Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

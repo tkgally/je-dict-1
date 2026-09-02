@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "19420_sukusuku_ex1",
-      "japanese": "{赤|あか}ちゃんがすくすく{育|そだ}っている。",
+      "japanese": "⟦{赤|あか}ちゃん→赤ちゃん：01282_akachan⟧⟦が→が：00051_ga⟧すくすく⟦{育|そだ}っている→育つ：01951_sodatsu⟧。",
       "english": "The baby is growing up healthy and strong.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "19420_sukusuku_ex2",
-      "japanese": "{庭|にわ}の{木|き}がすくすくと{伸|の}びている。",
+      "japanese": "⟦{庭|にわ}→庭：02239_niwa⟧⟦の→の：09472_no⟧⟦{木|き}→木：00524_ki⟧⟦が→が：00051_ga⟧すくすく⟦と→と：00512_to⟧⟦{伸|の}びている→伸びる：01974_nobiru⟧。",
       "english": "The tree in the garden is growing vigorously.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "19420_sukusuku_ex3",
-      "japanese": "{子供|こども}たちがすくすく{育|そだ}つように、{栄養|えいよう}のある{食事|しょくじ}を{心|こころ}がけている。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧たち⟦が→が：00051_ga⟧すくすく⟦{育|そだ}つ→育つ：01951_sodatsu⟧よう⟦に→に：00314_ni⟧、⟦{栄養|えいよう}→栄養：01882_eiyou⟧⟦の→の：09472_no⟧⟦ある→ある：00006_aru⟧⟦{食事|しょくじ}→食事：02087_shokuji⟧⟦を→を：00422_wo⟧⟦{心|こころ}がけている→心がける：10015_kokorogakeru⟧。",
       "english": "I make sure to provide nutritious meals so the children grow up healthy.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "すくすく describes steady, healthy growth, conveying a sense of thriving without obstacles. It is a mimetic adverb (オノマトペ) with a warm, positive tone, often used when speaking affectionately about children or watching plants flourish. It often appears with と as すくすくと.\n\nCOMMON COLLOCATIONS:\n- すくすく{育|そだ}つ: to grow up healthily\n- すくすく{伸|の}びる: to grow tall vigorously\n- すくすく{成長|せいちょう}する: to develop healthily\n\nUSAGE:\n- Almost always used with {育|そだ}つ, {伸|の}びる, or {成長|せいちょう}する.\n- Applies to children, young animals, and plants — not adults.\n\nSIMILAR WORDS:\n- ぐんぐん: growing rapidly, with emphasis on speed and momentum\n- のびのび: growing freely, with emphasis on being uninhibited and relaxed\n- すくすく: growing healthily, with emphasis on steady, trouble-free development",
+  "notes": "すくすく describes steady, healthy growth, conveying a sense of thriving without obstacles. It is a mimetic adverb (⟦オノマトペ→オノマトペ：22607_onomatope⟧) with a warm, positive tone, often used when speaking affectionately about children or watching plants flourish. It often appears with ⟦と→と：00512_to⟧ as すくすく⟦と→と：00512_to⟧.\n\nCOMMON COLLOCATIONS:\n- すくすく⟦{育|そだ}つ→育つ：01951_sodatsu⟧: to grow up healthily\n- すくすく⟦{伸|の}びる→伸びる：01974_nobiru⟧: to grow tall vigorously\n- すくすく⟦{成長|せいちょう}→成長：03290_seichou⟧⟦する→する：00392_suru⟧: to develop healthily\n\nUSAGE:\n- Almost always used with ⟦{育|そだ}つ→育つ：01951_sodatsu⟧, ⟦{伸|の}びる→伸びる：01974_nobiru⟧, or ⟦{成長|せいちょう}→成長：03290_seichou⟧⟦する→する：00392_suru⟧.\n- Applies to children, young animals, and plants — not adults.\n\nSIMILAR WORDS:\n- ⟦ぐんぐん→ぐんぐん：06177_gungun⟧: growing rapidly, with emphasis on speed and momentum\n- のびのび: growing freely, with emphasis on being uninhibited and relaxed\n- すくすく: growing healthily, with emphasis on steady, trouble-free development",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06177_gungun",
+      "reading": "ぐんぐん",
+      "headword": "ぐんぐん",
+      "label": "growing rapidly, with emphasis on speed…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10397_nobinobi",
+      "reading": "のびのび",
+      "headword": "{伸|の}び{伸|の}び",
+      "label": "growing freely, with emphasis on being…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20500_morimori",
+      "reading": "もりもり",
+      "headword": "もりもり",
+      "label": "heartily"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +82,6 @@
       ]
     },
     "created": "2026-03-25T13:28:10Z",
-    "modified": "2026-06-08T02:21:06Z"
+    "modified": "2026-09-02T04:01:55Z"
   }
 }

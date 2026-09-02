@@ -16,7 +16,7 @@
   "examples": [
     {
       "id": "24586_suujuubai_ex1",
-      "japanese": "{処理|しょり}{速度|そくど}が{数十倍|すうじゅうばい}になった。",
+      "japanese": "⟦{処理|しょり}→処理：03251_shori⟧⟦{速度|そくど}→速度：03319_sokudo⟧⟦が→が：00051_ga⟧{数十倍|すうじゅうばい}になった。",
       "english": "The processing speed increased by dozens of times.",
       "sense_numbers": [
         1
@@ -26,7 +26,7 @@
     },
     {
       "id": "24586_suujuubai_ex2",
-      "japanese": "{都心|としん}の{地価|ちか}は{郊外|こうがい}の{数十倍|すうじゅうばい}だ。",
+      "japanese": "⟦{都心|としん}→都心：04072_toshin⟧⟦の→の：09472_no⟧⟦{地価|ちか}→地価：12130_chika⟧⟦は→は：00079_ha⟧⟦{郊外|こうがい}→郊外：01403_kougai⟧⟦の→の：09472_no⟧{数十倍|すうじゅうばい}だ。",
       "english": "Land prices in the city center are dozens of times higher than in the suburbs.",
       "sense_numbers": [
         1
@@ -36,7 +36,7 @@
     },
     {
       "id": "24586_suujuubai_ex3",
-      "japanese": "インターネットの{普及|ふきゅう}により、{情報|じょうほう}の{伝達|でんたつ}{速度|そくど}は{以前|いぜん}の{数十倍|すうじゅうばい}に{達|たっ}している。",
+      "japanese": "⟦インターネット→インターネット：04723_intaanetto⟧⟦の→の：09472_no⟧⟦{普及|ふきゅう}→普及：07592_fukyuu⟧⟦に→に：00314_ni⟧⟦より→より：09476_yori⟧、⟦{情報|じょうほう}→情報：03348_jouhou⟧⟦の→の：09472_no⟧⟦{伝達|でんたつ}→伝達：11570_dentatsu⟧⟦{速度|そくど}→速度：03319_sokudo⟧⟦は→は：00079_ha⟧⟦{以前|いぜん}→以前：01790_izen⟧⟦の→の：09472_no⟧{数十倍|すうじゅうばい}⟦に→に：00314_ni⟧⟦{達|たっ}している→達する：02129_tassuru⟧。",
       "english": "With the spread of the internet, the speed of information transmission has reached dozens of times what it was before.",
       "sense_numbers": [
         1
@@ -45,11 +45,26 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {数|すう} (several) + {十|じゅう} (ten) + {倍|ばい} (times/fold). Part of a productive pattern: {数|すう} + counter creates approximate numbers ({数十|すうじゅう} = tens of, {数百|すうひゃく} = hundreds of, {数千|すうせん} = thousands of). Adding {倍|ばい} expresses multiples. Commonly used in news, technology, and business contexts to describe dramatic increases.\n\nCOMMON COLLOCATIONS:\n- {数十倍|すうじゅうばい}になる: to become dozens of times greater\n- {数十倍|すうじゅうばい}の{差|さ}: a difference of dozens of times\n- {数十倍|すうじゅうばい}に{増|ふ}える: to increase by dozens of times\n\nRELATED TERMS:\n- {数倍|すうばい}: several times — a smaller multiplier\n- {数百倍|すうひゃくばい}: hundreds of times — a larger multiplier\n- {何倍|なんばい}: how many times — question form",
-  "cross_references": [],
+  "notes": "Composed of ⟦{数|すう}→数：03360_suu⟧ (several) + ⟦{十|じゅう}→十：00708_juu⟧ (ten) + ⟦{倍|ばい}→倍：01492_bai⟧ (times/fold). Part of a productive pattern: ⟦{数|すう}→数：03360_suu⟧ + counter creates approximate numbers (⟦{数十|すうじゅう}→数十：21400_suujuu⟧ = tens of, ⟦{数百|すうひゃく}→数百：23368_suuhyaku⟧ = hundreds of, {数千|すうせん} = thousands of). Adding ⟦{倍|ばい}→倍：01492_bai⟧ expresses multiples. Commonly used in news, technology, and business contexts to describe dramatic increases.\n\nCOMMON COLLOCATIONS:\n- {数十倍|すうじゅうばい}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧: to become dozens of times greater\n- {数十倍|すうじゅうばい}⟦の→の：09472_no⟧⟦{差|さ}→差：02771_sa⟧: a difference of dozens of times\n- {数十倍|すうじゅうばい}⟦に→に：00314_ni⟧⟦{増|ふ}える→増える：01183_fueru⟧: to increase by dozens of times\n\nRELATED WORDS:\n- ⟦{数倍|すうばい}→数倍：15184_suubai⟧: several times — a smaller multiplier\n- {数百倍|すうひゃくばい}: hundreds of times — a larger multiplier\n- ⟦{何倍|なんばい}→何倍：22969_nanbai⟧: how many times — question form",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "15184_suubai",
+      "reading": "すうばい",
+      "headword": "{数倍|すうばい}",
+      "label": "several times"
+    },
+    {
+      "type": "related",
+      "target_id": "22969_nanbai",
+      "reading": "なんばい",
+      "headword": "{何倍|なんばい}",
+      "label": "how many times"
+    }
+  ],
   "metadata": {
     "created": "2026-04-19T15:24:12Z",
-    "modified": "2026-08-03T09:22:27Z",
+    "modified": "2026-09-02T04:02:18Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

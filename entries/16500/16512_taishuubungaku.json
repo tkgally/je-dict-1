@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "16512_taishuubungaku_ex1",
-      "japanese": "{大衆文学|たいしゅうぶんがく}は{幅広|はばひろ}い{読者|どくしゃ}に{親|した}しまれている。",
+      "japanese": "{大衆文学|たいしゅうぶんがく}⟦は→は：00079_ha⟧⟦{幅広|はばひろ}い→幅広い：11326_habahiroi⟧⟦{読者|どくしゃ}→読者：16554_dokusha⟧⟦に→に：00314_ni⟧⟦{親|した}しまれている→親しむ：14139_shitashimu⟧。",
       "english": "Popular fiction is enjoyed by a wide range of readers.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "16512_taishuubungaku_ex2",
-      "japanese": "{推理小説|すいりしょうせつ}や{時代小説|じだいしょうせつ}は{大衆文学|たいしゅうぶんがく}に{分類|ぶんるい}される。",
+      "japanese": "⟦{推理小説|すいりしょうせつ}→推理小説：28077_suirishousetsu⟧や{時代小説|じだいしょうせつ}⟦は→は：00079_ha⟧{大衆文学|たいしゅうぶんがく}⟦に→に：00314_ni⟧⟦{分類|ぶんるい}される→分類する：25224_bunruisuru⟧。",
       "english": "Mystery novels and period novels are classified as popular fiction.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "16512_taishuubungaku_ex3",
-      "japanese": "{純文学|じゅんぶんがく}と{大衆文学|たいしゅうぶんがく}の{境界|きょうかい}は{年々|ねんねん}{曖昧|あいまい}になってきている。",
+      "japanese": "⟦{純文学|じゅんぶんがく}→純文学：13983_junbungaku⟧⟦と→と：00512_to⟧{大衆文学|たいしゅうぶんがく}⟦の→の：09472_no⟧⟦{境界|きょうかい}→境界：12096_kyoukai⟧⟦は→は：00079_ha⟧⟦{年々|ねんねん}→年々：10417_nennen⟧⟦{曖昧|あいまい}→曖昧：08051_aimai⟧になってきて⟦いる→いる：00495_iru⟧。",
       "english": "The boundary between literary fiction and popular fiction has become increasingly blurred over the years.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "CULTURE:\nIn Japanese literary circles, {大衆文学|たいしゅうぶんがく} is distinguished from {純文学|じゅんぶんがく} (literary fiction). The {直木賞|なおきしょう} (Naoki Prize) is awarded for the best work of popular fiction, while the {芥川賞|あくたがわしょう} (Akutagawa Prize) is for literary fiction. Major authors include {松本清張|まつもとせいちょう} and {東野圭吾|ひがしのけいご}.\n\nCOMMON COLLOCATIONS:\n- {大衆文学|たいしゅうぶんがく}の{作家|さっか} (popular fiction writer)\n- {大衆文学|たいしゅうぶんがく}と{純文学|じゅんぶんがく} (popular fiction and literary fiction)\n\nSIMILAR WORDS:\n- {純文学|じゅんぶんがく}: literary fiction — works focused on artistic expression rather than entertainment\n- エンターテインメント{小説|しょうせつ}: entertainment fiction — a more recent synonym",
+  "notes": "CULTURAL NOTE:\nIn Japanese literary circles, {大衆文学|たいしゅうぶんがく} is distinguished from ⟦{純文学|じゅんぶんがく}→純文学：13983_junbungaku⟧ (literary fiction). The ⟦{直木賞|なおきしょう}→直木賞：15560_naokishou⟧ (Naoki Prize) is awarded for the best work of popular fiction, while the ⟦{芥川賞|あくたがわしょう}→芥川賞：15559_akutagawashou⟧ (Akutagawa Prize) is for literary fiction. Major authors include {松本清張|まつもとせいちょう} and {東野圭吾|ひがしのけいご}.\n\nCOMMON COLLOCATIONS:\n- {大衆文学|たいしゅうぶんがく}⟦の→の：09472_no⟧⟦{作家|さっか}→作家：01414_sakka⟧ (popular fiction writer)\n- {大衆文学|たいしゅうぶんがく}⟦と→と：00512_to⟧⟦{純文学|じゅんぶんがく}→純文学：13983_junbungaku⟧ (popular fiction and literary fiction)\n\nSIMILAR WORDS:\n- ⟦{純文学|じゅんぶんがく}→純文学：13983_junbungaku⟧: literary fiction — works focused on artistic expression rather than entertainment\n- ⟦エンターテインメント→エンターテインメント：10775_entaateinmento⟧⟦{小説|しょうせつ}→小説：01434_shousetsu⟧: entertainment fiction — a more recent synonym",
   "cross_references": [
     {
       "type": "antonym",
@@ -52,11 +52,18 @@
       "reading": "じゅんぶんがく",
       "headword": "{純文学|じゅんぶんがく}",
       "label": "literary fiction"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26651_tsuuzokubungaku",
+      "reading": "つうぞくぶんがく",
+      "headword": "{通俗文学|つうぞくぶんがく}",
+      "label": "popular literature"
     }
   ],
   "metadata": {
     "created": "2026-03-13T03:52:43Z",
-    "modified": "2026-07-20T00:31:17Z",
+    "modified": "2026-09-02T04:01:45Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

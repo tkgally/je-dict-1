@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28373_burokkubei_ex1",
-      "japanese": "{家|いえ}の{周|まわ}りはブロック{塀|べい}だ。",
+      "japanese": "⟦{家|いえ}→家：00612_ie⟧⟦の→の：09472_no⟧⟦{周|まわ}り→周り：01732_mawari⟧⟦は→は：00079_ha⟧ブロック{塀|べい}だ。",
       "english": "The house is surrounded by a concrete block wall.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28373_burokkubei_ex2",
-      "japanese": "{古|ふる}いブロック{塀|べい}が{倒|たお}れる{危険|きけん}がある。",
+      "japanese": "⟦{古|ふる}い→古い：00488_furui⟧ブロック{塀|べい}⟦が→が：00051_ga⟧⟦{倒|たお}れる→倒れる：01160_taoreru⟧⟦{危険|きけん}→危険：01141_kiken⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There is a risk that the old block wall will collapse.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28373_burokkubei_ex3",
-      "japanese": "{地震|じしん}で{倒壊|とうかい}したブロック{塀|べい}に{巻|ま}き{込|こ}まれる{事故|じこ}が{各地|かくち}で{発生|はっせい}した。",
+      "japanese": "⟦{地震|じしん}→地震：01608_jishin⟧⟦で→で：00502_de⟧⟦{倒壊|とうかい}→倒壊：25308_toukai⟧⟦した→する：00392_suru⟧ブロック{塀|べい}⟦に→に：00314_ni⟧⟦{巻|ま}き{込|こ}まれる→巻き込む：05753_makikomu⟧⟦{事故|じこ}→事故：00851_jiko⟧⟦が→が：00051_ga⟧⟦{各地|かくち}→各地：00155_kakuchi⟧⟦で→で：00502_de⟧⟦{発生|はっせい}した→発生する：25529_hasseisuru⟧。",
       "english": "Accidents involving collapsed block walls during the earthquake occurred in various places.",
       "sense_numbers": [
         1
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "Compound of ブロック (block) + {塀|べい} (wall, fence). Very common around Japanese residential properties.\n\nCOMMON COLLOCATIONS:\n- ブロック{塀|べい}を{建|た}てる: build a block wall\n- ブロック{塀|べい}が{倒|たお}れる: a block wall falls over\n- ブロック{塀|べい}の{倒壊|とうかい}: collapse of a block wall\n- {古|ふる}いブロック{塀|べい}: old block wall\n\nSIMILAR WORDS:\n- {石塀|いしべい}: stone wall — built with stones rather than concrete blocks\n- {壁|かべ}: wall — interior or structural wall of a building\n- フェンス: fence — metal or wire fencing, not solid",
+  "notes": "Compound of ⟦ブロック→ブロック：05902_burokku⟧ (block) + {塀|べい} (wall, fence). Very common around Japanese residential properties.\n\nCOMMON COLLOCATIONS:\n- ブロック{塀|べい}⟦を→を：00422_wo⟧⟦{建|た}てる→建てる：01189_tateru⟧: build a block wall\n- ブロック{塀|べい}⟦が→が：00051_ga⟧⟦{倒|たお}れる→倒れる：01160_taoreru⟧: a block wall falls over\n- ブロック{塀|べい}⟦の→の：09472_no⟧⟦{倒壊|とうかい}→倒壊：25308_toukai⟧: collapse of a block wall\n- ⟦{古|ふる}い→古い：00488_furui⟧ブロック{塀|べい}: old block wall\n\nSIMILAR WORDS:\n- ⟦{石塀|いしべい}→石塀：28374_ishibei⟧: stone wall — built with stones rather than concrete blocks\n- ⟦{壁|かべ}→壁：01290_kabe⟧: wall — interior or structural wall of a building\n- ⟦フェンス→フェンス：26996_fensu⟧: fence — metal or wire fencing, not solid",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "28374_ishibei",
+      "reading": "いしべい",
+      "headword": "{石塀|いしべい}",
+      "label": "stone wall"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01290_kabe",
+      "reading": "かべ",
+      "headword": "{壁|かべ}",
+      "label": "wall"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26996_fensu",
+      "reading": "ふぇんす",
+      "headword": "フェンス",
+      "label": "fence"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28264_itabei",
+      "reading": "いたべい",
+      "headword": "{板塀|いたべい}",
+      "label": "wooden fence"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +83,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "building",
         "daily-life"
@@ -61,6 +91,6 @@
       "domain": []
     },
     "created": "2026-05-29T04:09:30Z",
-    "modified": "2026-08-08T18:34:17Z"
+    "modified": "2026-09-02T04:02:33Z"
   }
 }

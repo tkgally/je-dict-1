@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30309_jikoshihon_ex1",
-      "japanese": "{自己資本|じこしほん}が{増|ふ}えた。",
+      "japanese": "{自己資本|じこしほん}⟦が→が：00051_ga⟧⟦{増|ふ}えた→増える：01183_fueru⟧。",
       "english": "Shareholders' equity increased.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30309_jikoshihon_ex2",
-      "japanese": "この{銀行|ぎんこう}は{自己資本|じこしほん}{比率|ひりつ}が{高|たか}い。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{銀行|ぎんこう}→銀行：00578_ginkou⟧⟦は→は：00079_ha⟧{自己資本|じこしほん}{比率|ひりつ}⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧。",
       "english": "This bank has a high capital adequacy ratio.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30309_jikoshihon_ex3",
-      "japanese": "{借入|かりいれ}に{頼|たよ}らず{自己資本|じこしほん}で{設備投資|せつびとうし}をまかなう{方針|ほうしん}だ。",
+      "japanese": "⟦{借入|かりいれ}→借入：07557_kariire⟧⟦に→に：00314_ni⟧⟦{頼|たよ}ら→頼る：02069_tayoru⟧ず{自己資本|じこしほん}⟦で→で：00502_de⟧{設備投資|せつびとうし}⟦を→を：00422_wo⟧まかなう⟦{方針|ほうしん}→方針：04871_houshin⟧だ。",
       "english": "The policy is to fund capital investment out of equity rather than relying on borrowing.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Literally \"one's own capital\". On a Japanese balance sheet it corresponds broadly to net assets: what would be left for shareholders after all liabilities were settled.\n\nCOMMON COLLOCATIONS:\n- {自己資本|じこしほん}{比率|ひりつ}: equity ratio; capital adequacy ratio\n- {自己資本|じこしほん}{利益率|りえきりつ}: return on equity (ROE)\n- {自己資本|じこしほん}を{充実|じゅうじつ}させる: to strengthen the capital base\n\nSIMILAR WORDS:\n- {他人資本|たにんしほん}: borrowed capital — funds that must be repaid\n- {資本金|しほんきん}: stated capital — only the amount formally registered as capital\n- {純資産|じゅんしさん}: net assets — the balance-sheet line closest in meaning",
+  "notes": "Literally \"one's own capital\". On a Japanese balance sheet it corresponds broadly to net assets: what would be left for shareholders after all liabilities were settled.\n\nCOMMON COLLOCATIONS:\n- {自己資本|じこしほん}{比率|ひりつ}: equity ratio; capital adequacy ratio\n- {自己資本|じこしほん}{利益率|りえきりつ}: return on equity (ROE)\n- {自己資本|じこしほん}⟦を→を：00422_wo⟧⟦{充実|じゅうじつ}→充実：04845_juujitsu⟧⟦させる→する：00392_suru⟧: to strengthen the capital base\n\nSIMILAR WORDS:\n- ⟦{他人資本|たにんしほん}→他人資本：30321_taninshihon⟧: borrowed capital — funds that must be repaid\n- {資本金|しほんきん}: stated capital — only the amount formally registered as capital\n- ⟦{純資産|じゅんしさん}→純資産：30322_junshisan⟧: net assets — the balance-sheet line closest in meaning",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "30321_taninshihon",
+      "reading": "たにんしほん",
+      "headword": "{他人資本|たにんしほん}",
+      "label": "borrowed capital"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30322_junshisan",
+      "reading": "じゅんしさん",
+      "headword": "{純資産|じゅんしさん}",
+      "label": "net assets"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +69,7 @@
         "noun"
       ],
       "formality": "formal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "finance",
         "economics"
@@ -63,6 +79,6 @@
       ]
     },
     "created": "2026-08-01T15:17:17Z",
-    "modified": "2026-08-01T15:17:17Z"
+    "modified": "2026-09-02T04:02:39Z"
   }
 }

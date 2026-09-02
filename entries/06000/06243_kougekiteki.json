@@ -78,7 +78,7 @@
       ]
     }
   ],
-  "notes": "FORMS:\n・Adverbial: {攻撃的|こうげきてき}⟦に→に：00314_ni⟧ (aggressively)\n・Noun: ⟦{攻撃|こうげき}→攻撃：02748_kougeki⟧ (attack)\n\nCOMMON PATTERNS:\n・{攻撃的|こうげきてき}な⟦{態度|たいど}→態度：03396_taido⟧ (aggressive attitude)\n・{攻撃的|こうげきてき}な⟦{発言|はつげん}→発言：05099_hatsugen⟧ (aggressive remarks)\n・{攻撃的|こうげきてき}な⟦{戦術|せんじゅつ}→戦術：12748_senjutsu⟧ (offensive tactics)\n\nCONTRAST:\n・{攻撃的|こうげきてき} ↔ ⟦{防御的|ぼうぎょてき}→防御的：06741_bougyoteki⟧ (defensive)\n・In sports: {攻撃的|こうげきてき}な⟦プレー→プレー：29432_puree⟧ (offensive play) vs ⟦{守備的|しゅびてき}→守備的：29431_shubiteki⟧な⟦プレー→プレー：29432_puree⟧ (defensive play)\n\nNUANCE: When describing personality or behavior (sense 1), often has negative connotations. In sports/strategy contexts (sense 2), it is neutral or positive.",
+  "notes": "FORMS:\n- Adverbial: {攻撃的|こうげきてき}⟦に→に：00314_ni⟧ (aggressively)\n- Noun: ⟦{攻撃|こうげき}→攻撃：02748_kougeki⟧ (attack)\n\nCOMMON PATTERNS:\n- {攻撃的|こうげきてき}な⟦{態度|たいど}→態度：03396_taido⟧ (aggressive attitude)\n- {攻撃的|こうげきてき}な⟦{発言|はつげん}→発言：05099_hatsugen⟧ (aggressive remarks)\n- {攻撃的|こうげきてき}な⟦{戦術|せんじゅつ}→戦術：12748_senjutsu⟧ (offensive tactics)\n\nSIMILAR WORDS:\n- {攻撃的|こうげきてき} ↔ ⟦{防御的|ぼうぎょてき}→防御的：06741_bougyoteki⟧ (defensive)\n- In sports: {攻撃的|こうげきてき}な⟦プレー→プレー：29432_puree⟧ (offensive play) vs ⟦{守備的|しゅびてき}→守備的：29431_shubiteki⟧な⟦プレー→プレー：29432_puree⟧ (defensive play)\n\nNUANCE: When describing personality or behavior (sense 1), often has negative connotations. In sports/strategy contexts (sense 2), it is neutral or positive.",
   "cross_references": [
     {
       "type": "antonym",
@@ -93,11 +93,46 @@
       "headword": "{攻撃|こうげき}",
       "label": "attack",
       "target_id": "02748_kougeki"
+    },
+    {
+      "type": "antonym",
+      "target_id": "23647_jieiteki",
+      "reading": "じえいてき",
+      "headword": "{自衛的|じえいてき}",
+      "label": "self-defensive"
+    },
+    {
+      "type": "antonym",
+      "target_id": "23955_boueiteki",
+      "reading": "ぼうえいてき",
+      "headword": "{防衛的|ぼうえいてき}",
+      "label": "defensive"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25884_tekitaitekina",
+      "reading": "てきたいてきな",
+      "headword": "{敵対的|てきたいてき}な",
+      "label": "hostile"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25932_chousenteki",
+      "reading": "ちょうせんてき",
+      "headword": "{挑戦的|ちょうせんてき}",
+      "label": "challenging"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25936_tekitaiteki",
+      "reading": "てきたいてき",
+      "headword": "{敵対的|てきたいてき}",
+      "label": "hostile"
     }
   ],
   "metadata": {
     "created": "2026-01-17T06:46:31Z",
-    "modified": "2026-08-25T00:21:26Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

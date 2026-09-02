@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "10690_sanjo_ex1",
-      "japanese": "{彼女|かのじょ}は{三女|さんじょ}だ。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧{三女|さんじょ}だ。",
       "english": "She is the third daughter.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "10690_sanjo_ex2",
-      "japanese": "うちの{三女|さんじょ}はまだ{赤|あか}ちゃんだ。",
+      "japanese": "うち⟦の→の：09472_no⟧{三女|さんじょ}⟦は→は：00079_ha⟧⟦まだ→まだ：00603_mada⟧⟦{赤|あか}ちゃん→赤ちゃん：01282_akachan⟧だ。",
       "english": "Our third daughter is still a baby.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "10690_sanjo_ex3",
-      "japanese": "{三女|さんじょ}が{生|う}まれて、{家|いえ}がさらに{賑|にぎ}やかになった。",
+      "japanese": "{三女|さんじょ}⟦が→が：00051_ga⟧⟦{生|う}まれて→生まれる：00905_umareru⟧、⟦{家|いえ}→家：00612_ie⟧⟦が→が：00051_ga⟧さらに{賑|にぎ}やかになった。",
       "english": "With the birth of our third daughter, the house became even livelier.",
       "notes": null,
       "has_audio": false,
@@ -44,18 +44,25 @@
       ]
     }
   ],
-  "notes": "BIRTH ORDER TERMS (daughters):\n- {長女|ちょうじょ}: eldest daughter\n- {次女|じじょ}: second daughter\n- {三女|さんじょ}: third daughter\n- {四女|よんじょ}: fourth daughter\n\nBIRTH ORDER TERMS (sons):\n- {長男|ちょうなん}: eldest son\n- {次男|じなん}: second son\n- {三男|さんなん}: third son\n\nUSAGE:\nUsed in formal introductions, family discussions, and official documents. In casual speech, people more often say {三番目|さんばんめ}の{娘|むすめ} (third daughter).",
+  "notes": "BIRTH ORDER TERMS (daughters):\n- ⟦{長女|ちょうじょ}→長女：14518_choujo⟧: eldest daughter\n- ⟦{次女|じじょ}→次女：15831_jijo⟧: second daughter\n- {三女|さんじょ}: third daughter\n- {四女|よんじょ}: fourth daughter\n\nBIRTH ORDER TERMS (sons):\n- ⟦{長男|ちょうなん}→長男：14519_chounan⟧: eldest son\n- ⟦{次男|じなん}→次男：13210_jinan⟧: second son\n- ⟦{三男|さんなん}→三男：10689_sannan⟧: third son\n\nUSAGE:\nUsed in formal introductions, family discussions, and official documents. In casual speech, people more often say {三番目|さんばんめ}⟦の→の：09472_no⟧⟦{娘|むすめ}→娘：02263_musume⟧ (third daughter).",
   "cross_references": [
     {
       "type": "related",
       "reading": "さんなん",
       "headword": "{三男|さんなん}",
       "target_id": "10689_sannan"
+    },
+    {
+      "type": "related",
+      "target_id": "18548_suemusume",
+      "reading": "すえむすめ",
+      "headword": "{末娘|すえむすめ}",
+      "label": "youngest daughter"
     }
   ],
   "metadata": {
     "created": "2026-02-09T04:11:25Z",
-    "modified": "2026-02-19T12:42:20Z",
+    "modified": "2026-09-02T04:01:22Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

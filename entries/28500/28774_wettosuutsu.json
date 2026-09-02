@@ -15,41 +15,75 @@
   "examples": [
     {
       "id": "28774_wettosuutsu_ex1",
-      "japanese": "ウェットスーツを{着|き}て{海|うみ}に{入|はい}った。",
+      "japanese": "ウェットスーツ⟦を→を：00422_wo⟧⟦{着|き}て→着る：00541_kiru⟧⟦{海|うみ}→海：00556_umi⟧⟦に→に：00314_ni⟧⟦{入|はい}った→入る：00494_hairu⟧。",
       "english": "I put on a wetsuit and went into the sea.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28774_wettosuutsu_ex2",
-      "japanese": "{冬|ふゆ}のサーフィンには{厚|あつ}めのウェットスーツが{必要|ひつよう}だ。",
+      "japanese": "⟦{冬|ふゆ}→冬：00623_fuyu⟧⟦の→の：09472_no⟧⟦サーフィン→サーフィン：05237_saafin⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{厚|あつ}め⟦の→の：09472_no⟧ウェットスーツ⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧だ。",
       "english": "Winter surfing requires a thicker wetsuit.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28774_wettosuutsu_ex3",
-      "japanese": "{体|からだ}にぴったり{合|あ}うウェットスーツを{選|えら}ぶことが{保温|ほおん}の{鍵|かぎ}になる。",
+      "japanese": "⟦{体|からだ}→体：00784_karada⟧⟦に→に：00314_ni⟧⟦ぴったり→ぴったり：02362_pittari⟧⟦{合|あ}う→合う：10466_au⟧ウェットスーツ⟦を→を：00422_wo⟧⟦{選|えら}ぶ→選ぶ：00835_erabu⟧こと⟦が→が：00051_ga⟧⟦{保温|ほおん}→保温：17467_hoon⟧⟦の→の：09472_no⟧⟦{鍵|かぎ}→鍵：02189_kagi⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧。",
       "english": "Choosing a wetsuit that fits the body snugly is the key to staying warm.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "From English \"wet suit\". Worn primarily for surfing, diving, and other cold-water activities; the thin layer of water trapped against the skin warms up and provides insulation.\n\nCOMMON COLLOCATIONS:\n- ウェットスーツを{着|き}る: to put on a wetsuit\n- ウェットスーツを{脱|ぬ}ぐ: to take off a wetsuit\n- {厚|あつ}めのウェットスーツ: thicker wetsuit\n\nSIMILAR WORDS:\n- ドライスーツ: drysuit — fully sealed suit for very cold water; keeps the wearer completely dry\n- ラッシュガード: rash guard — thin shirt worn for sun protection and to prevent chafing, not for insulation",
+  "notes": "From English \"wet suit\". Worn primarily for surfing, diving, and other cold-water activities; the thin layer of water trapped against the skin warms up and provides insulation.\n\nCOMMON COLLOCATIONS:\n- ウェットスーツ⟦を→を：00422_wo⟧⟦{着|き}る→着る：00541_kiru⟧: to put on a wetsuit\n- ウェットスーツ⟦を→を：00422_wo⟧⟦{脱|ぬ}ぐ→脱ぐ：00518_nugu⟧: to take off a wetsuit\n- {厚|あつ}め⟦の→の：09472_no⟧ウェットスーツ: thicker wetsuit\n\nSIMILAR WORDS:\n- ⟦ドライ→ドライ：11147_dorai⟧⟦スーツ→スーツ：01367_suutsu⟧: drysuit — fully sealed suit for very cold water; keeps the wearer completely dry\n- ⟦ラッシュガード→ラッシュガード：27422_rasshugaado⟧: rash guard — thin shirt worn for sun protection and to prevent chafing, not for insulation",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "27422_rasshugaado",
+      "reading": "らっしゅがーど",
+      "headword": "ラッシュガード",
+      "label": "rash guard"
+    },
+    {
+      "type": "related",
+      "target_id": "05237_saafin",
+      "reading": "さーふぃん",
+      "headword": "サーフィン",
+      "label": "surfing"
+    },
+    {
+      "type": "related",
+      "target_id": "05238_daibingu",
+      "reading": "だいびんぐ",
+      "headword": "ダイビング",
+      "label": "diving"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["clothing", "sports"],
+      "politeness": "plain",
+      "semantic": [
+        "clothing",
+        "sports"
+      ],
       "domain": []
     },
     "created": "2026-06-05T03:07:50Z",
-    "modified": "2026-06-05T03:07:50Z"
+    "modified": "2026-09-02T04:02:34Z"
   }
 }

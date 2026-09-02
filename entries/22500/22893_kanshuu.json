@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22893_kanshuu_ex1",
-      "japanese": "{観衆|かんしゅう}が{歓声|かんせい}を{上|あ}げた。",
+      "japanese": "{観衆|かんしゅう}⟦が→が：00051_ga⟧⟦{歓声|かんせい}→歓声：02686_kansei⟧⟦を→を：00422_wo⟧⟦{上|あ}げた→上げる：02443_ageru⟧。",
       "english": "The crowd let out a cheer.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22893_kanshuu_ex2",
-      "japanese": "{五万人|ごまんにん}の{観衆|かんしゅう}がスタジアムを{埋|う}めた。",
+      "japanese": "{五万人|ごまんにん}⟦の→の：09472_no⟧{観衆|かんしゅう}⟦が→が：00051_ga⟧⟦スタジアム→スタジアム：23905_sutajiamu⟧⟦を→を：00422_wo⟧⟦{埋|う}めた→埋める：01901_umeru⟧。",
       "english": "A crowd of fifty thousand filled the stadium.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22893_kanshuu_ex3",
-      "japanese": "{選手|せんしゅ}のプレーに{観衆|かんしゅう}は{息|いき}を{飲|の}んで{見守|みまも}っていた。",
+      "japanese": "⟦{選手|せんしゅ}→選手：03823_senshu⟧⟦の→の：09472_no⟧⟦プレー→プレー：29432_puree⟧⟦に→に：00314_ni⟧{観衆|かんしゅう}⟦は→は：00079_ha⟧⟦{息|いき}→息：02176_iki⟧⟦を→を：00422_wo⟧⟦{飲|の}んで→飲む：00322_nomu⟧⟦{見守|みまも}っていた→見守る：04574_mimamoru⟧。",
       "english": "The spectators watched the player's performance with bated breath.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Refers to a group of people watching a live event. Most commonly used for sports events, concerts, and public spectacles. The word emphasizes the crowd as a collective body.\n\nCOMMON COLLOCATIONS:\n- {大勢|おおぜい}の{観衆|かんしゅう}: a large crowd of spectators\n- {観衆|かんしゅう}を{沸|わ}かせる: to excite the crowd\n- {観衆|かんしゅう}が{詰|つ}めかける: spectators pour in\n- {観衆|かんしゅう}{動員|どういん}{数|すう}: number of spectators mobilized\n\nSIMILAR WORDS:\n- {観客|かんきゃく}: audience, spectators — nearly synonymous but slightly more formal; often used for numbered counts\n- {聴衆|ちょうしゅう}: audience — specifically for listeners (lectures, music)\n- {見物人|けんぶつにん}: onlooker, bystander — more casual, watching out of curiosity",
+  "notes": "Refers to a group of people watching a live event. Most commonly used for sports events, concerts, and public spectacles. The word emphasizes the crowd as a collective body.\n\nCOMMON COLLOCATIONS:\n- ⟦{大勢|おおぜい}→大勢：02850_oozei⟧⟦の→の：09472_no⟧{観衆|かんしゅう}: a large crowd of spectators\n- {観衆|かんしゅう}⟦を→を：00422_wo⟧⟦{沸|わ}かせる→沸く：01122_waku⟧: to excite the crowd\n- {観衆|かんしゅう}⟦が→が：00051_ga⟧⟦{詰|つ}めかける→詰めかける：14192_tsumekakeru⟧: spectators pour in\n- {観衆|かんしゅう}⟦{動員|どういん}→動員：11927_douin⟧⟦{数|すう}→数：03360_suu⟧: number of spectators mobilized\n\nSIMILAR WORDS:\n- ⟦{観客|かんきゃく}→観客：02556_kankyaku⟧: audience, spectators — nearly synonymous but slightly more formal; often used for numbered counts\n- ⟦{聴衆|ちょうしゅう}→聴衆：13907_choushuu⟧: audience — specifically for listeners (lectures, music)\n- ⟦{見物人|けんぶつにん}→見物人：27722_kenbutsunin⟧: onlooker, bystander — more casual, watching out of curiosity",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02556_kankyaku",
+      "reading": "かんきゃく",
+      "headword": "{観客|かんきゃく}",
+      "label": "audience, spectators"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13907_choushuu",
+      "reading": "ちょうしゅう",
+      "headword": "{聴衆|ちょうしゅう}",
+      "label": "audience"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27722_kenbutsunin",
+      "reading": "けんぶつにん",
+      "headword": "{見物人|けんぶつにん}",
+      "label": "onlooker, bystander"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +82,6 @@
       ]
     },
     "created": "2026-04-07T20:17:00Z",
-    "modified": "2026-07-30T15:20:15Z"
+    "modified": "2026-09-02T04:02:10Z"
   }
 }

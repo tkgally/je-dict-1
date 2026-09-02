@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "14675_shokuen_ex1",
-      "japanese": "{食塩|しょくえん}の{取|と}りすぎに{注意|ちゅうい}しましょう。",
+      "japanese": "{食塩|しょくえん}⟦の→の：09472_no⟧⟦{取|と}り→取る：00565_toru⟧すぎ⟦に→に：00314_ni⟧⟦{注意|ちゅうい}→注意：01464_chuui⟧⟦しましょう→する：00392_suru⟧。",
       "english": "Let's be careful not to consume too much salt.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "14675_shokuen_ex2",
-      "japanese": "この{食品|しょくひん}の{食塩|しょくえん}{相当量|そうとうりょう}は2グラムです。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{食品|しょくひん}→食品：03247_shokuhin⟧⟦の→の：09472_no⟧{食塩|しょくえん}{相当量|そうとうりょう}⟦は→は：00079_ha⟧2⟦グラム→グラム：01354_guramu⟧です。",
       "english": "The salt equivalent in this food product is 2 grams.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "14675_shokuen_ex3",
-      "japanese": "{日本人|にほんじん}の{一日|いちにち}あたりの{食塩|しょくえん}{摂取量|せっしゅりょう}は{世界的|せかいてき}に{見|み}ても{多|おお}いと{言|い}われている。",
+      "japanese": "⟦{日本人|にほんじん}→日本人：10112_nihonjin⟧⟦の→の：09472_no⟧⟦{一日|いちにち}→一日：00942_ichinichi⟧あたり⟦の→の：09472_no⟧{食塩|しょくえん}{摂取量|せっしゅりょう}⟦は→は：00079_ha⟧⟦{世界的|せかいてき}→世界的：20935_sekaiteki⟧⟦に→に：00314_ni⟧⟦{見|み}て→見る：00283_miru⟧⟦も→も：00484_mo⟧⟦{多|おお}い→多い：01127_ooi⟧⟦と→と：00512_to⟧⟦{言|い}われている→言う：00515_iu⟧。",
       "english": "It is said that the daily salt intake of Japanese people is high even by global standards.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "Used in health, nutrition, and scientific contexts. In everyday cooking, {塩|しお} is the standard word. {食塩|しょくえん} appears on nutrition labels, in dietary guidelines, and in chemistry.\n\nCOMMON COLLOCATIONS:\n- {食塩|しょくえん}{摂取量|せっしゅりょう} (salt intake)\n- {食塩|しょくえん}{相当量|そうとうりょう} (salt equivalent — on nutrition labels)\n- {食塩|しょくえん}{水|すい} (saline solution)\n- {食塩|しょくえん}を{控|ひか}える (reduce salt intake)\n- {無|む}{食塩|しょくえん} (salt-free)\n\nSIMILAR WORDS:\n- {塩|しお} is the everyday word for salt\n- {食塩|しょくえん} is used on labels, in health advice, and in chemistry\n- {塩分|えんぶん} refers to salt content in food",
+  "notes": "Used in health, nutrition, and scientific contexts. In everyday cooking, ⟦{塩|しお}→塩：00887_shio⟧ is the standard word. {食塩|しょくえん} appears on nutrition labels, in dietary guidelines, and in chemistry.\n\nCOMMON COLLOCATIONS:\n- {食塩|しょくえん}{摂取量|せっしゅりょう} (salt intake)\n- {食塩|しょくえん}{相当量|そうとうりょう} (salt equivalent — on nutrition labels)\n- {食塩|しょくえん}{水|すい} (saline solution)\n- {食塩|しょくえん}⟦を→を：00422_wo⟧⟦{控|ひか}える→控える：10054_hikaeru⟧ (reduce salt intake)\n- ⟦{無|む}→無：17750_mu⟧{食塩|しょくえん} (salt-free)\n\nSIMILAR WORDS:\n- ⟦{塩|しお}→塩：00887_shio⟧ is the everyday word for salt\n- {食塩|しょくえん} is used on labels, in health advice, and in chemistry\n- ⟦{塩分|えんぶん}→塩分：09945_enbun⟧ refers to salt content in food",
   "cross_references": [
     {
       "type": "synonym",
@@ -52,11 +52,18 @@
       "reading": "しお",
       "headword": "{塩|しお}",
       "label": "salt (everyday)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09945_enbun",
+      "reading": "えんぶん",
+      "headword": "{塩分|えんぶん}",
+      "label": "refers to salt content in food"
     }
   ],
   "metadata": {
     "created": "2026-03-02T10:59:43Z",
-    "modified": "2026-04-30T09:17:48Z",
+    "modified": "2026-09-02T04:01:38Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

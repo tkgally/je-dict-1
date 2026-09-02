@@ -3,7 +3,7 @@
   "id": "15239_shikan",
   "headword": "{弛緩|しかん}",
   "reading": "しかん",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "relaxation; slackening; loosening",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "15239_shikan_ex1",
-      "japanese": "{筋肉|きんにく}が{弛緩|しかん}する。",
+      "japanese": "⟦{筋肉|きんにく}→筋肉：02646_kinniku⟧⟦が→が：00051_ga⟧{弛緩|しかん}⟦する→する：00392_suru⟧。",
       "english": "The muscles relax.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "15239_shikan_ex2",
-      "japanese": "{入浴|にゅうよく}すると{体|からだ}の{緊張|きんちょう}が{弛緩|しかん}する。",
+      "japanese": "⟦{入浴|にゅうよく}→入浴：11642_nyuuyoku⟧⟦する→する：00392_suru⟧⟦と→と：00512_to⟧⟦{体|からだ}→体：00784_karada⟧⟦の→の：09472_no⟧⟦{緊張|きんちょう}→緊張：02494_kinchou⟧⟦が→が：00051_ga⟧{弛緩|しかん}⟦する→する：00392_suru⟧。",
       "english": "Taking a bath relaxes the body's tension.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "15239_shikan_ex3",
-      "japanese": "{長|なが}い{平和|へいわ}が{続|つづ}くと{社会全体|しゃかいぜんたい}に{気|き}の{弛緩|しかん}が{生|う}まれやすい。",
+      "japanese": "⟦{長|なが}い→長い：00491_nagai⟧⟦{平和|へいわ}→平和：01507_heiwa⟧⟦が→が：00051_ga⟧⟦{続|つづ}く→続く：00903_tsuzuku⟧⟦と→と：00512_to⟧{社会全体|しゃかいぜんたい}⟦に→に：00314_ni⟧⟦{気|き}→気：02199_ki⟧⟦の→の：09472_no⟧{弛緩|しかん}⟦が→が：00051_ga⟧⟦{生|う}まれ→生まれる：00905_umareru⟧やすい。",
       "english": "When a long period of peace continues, a slackening of vigilance tends to develop across society.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "FORMATION: {弛|し} (slacken, loosen) + {緩|かん} (relax, ease). Both characters convey the meaning of loosening.\n\nUSAGE: {弛緩|しかん} is a somewhat formal or technical word. In medical contexts, it refers to muscle relaxation. Figuratively, it describes a loosening of discipline, tension, or vigilance.\n\nCOMMON COLLOCATIONS:\n- {筋肉|きんにく}の{弛緩|しかん}: muscle relaxation\n- {筋|きん}{弛緩剤|しかんざい}: muscle relaxant\n- {緊張|きんちょう}と{弛緩|しかん}: tension and relaxation\n- {規律|きりつ}の{弛緩|しかん}: slackening of discipline\n\nSIMILAR WORDS:\n- {弛緩|しかん}: formal/technical term for loosening or relaxation\n- リラックス: relaxation (casual, loanword)\n- {緩和|かんわ}: easing, alleviation (for regulations, pain, etc.)",
+  "notes": "FORMATION: {弛|し} (slacken, loosen) + {緩|かん} (relax, ease). Both characters convey the meaning of loosening.\n\nUSAGE: {弛緩|しかん} is a somewhat formal or technical word. In medical contexts, it refers to muscle relaxation. Figuratively, it describes a loosening of discipline, tension, or vigilance.\n\nCOMMON COLLOCATIONS:\n- ⟦{筋肉|きんにく}→筋肉：02646_kinniku⟧⟦の→の：09472_no⟧{弛緩|しかん}: muscle relaxation\n- {筋|きん}{弛緩剤|しかんざい}: muscle relaxant\n- ⟦{緊張|きんちょう}→緊張：02494_kinchou⟧⟦と→と：00512_to⟧{弛緩|しかん}: tension and relaxation\n- ⟦{規律|きりつ}→規律：00236_kiritsu⟧⟦の→の：09472_no⟧{弛緩|しかん}: slackening of discipline\n\nSIMILAR WORDS:\n- {弛緩|しかん}: formal/technical term for loosening or relaxation\n- ⟦リラックス→リラックス：02531_rirakkusu⟧: relaxation (casual, loanword)\n- ⟦{緩和|かんわ}→緩和：13846_kanwa⟧: easing, alleviation (for regulations, pain, etc.)",
   "cross_references": [
     {
       "type": "antonym",
@@ -142,11 +142,25 @@
       "reading": "きんちょう",
       "headword": "{緊張|きんちょう}",
       "label": "tension"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02531_rirakkusu",
+      "reading": "りらっくす",
+      "headword": "リラックス",
+      "label": "relaxation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13846_kanwa",
+      "reading": "かんわ",
+      "headword": "{緩和|かんわ}",
+      "label": "easing, alleviation"
     }
   ],
   "metadata": {
     "created": "2026-03-05T10:22:12Z",
-    "modified": "2026-07-15T18:53:39Z",
+    "modified": "2026-09-02T04:01:40Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

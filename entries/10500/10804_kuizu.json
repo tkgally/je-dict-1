@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "10804_kuizu_ex1",
-      "japanese": "クイズに{答|こた}える。",
+      "japanese": "クイズ⟦に→に：00314_ni⟧⟦{答|こた}える→答える：01099_kotaeru⟧。",
       "english": "To answer a quiz question.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "10804_kuizu_ex2",
-      "japanese": "クイズ{番組|ばんぐみ}を{見|み}るのが{好|す}きだ。",
+      "japanese": "クイズ⟦{番組|ばんぐみ}→番組：01705_bangumi⟧⟦を→を：00422_wo⟧⟦{見|み}る→見る：00283_miru⟧⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦{好|す}き→好き：02355_suki⟧だ。",
       "english": "I like watching quiz shows.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "10804_kuizu_ex3",
-      "japanese": "{忘年会|ぼうねんかい}でクイズ{大会|たいかい}をやったら、{盛|も}り{上|あ}がった。",
+      "japanese": "⟦{忘年会|ぼうねんかい}→忘年会：15800_bounenkai⟧⟦で→で：00502_de⟧クイズ⟦{大会|たいかい}→大会：03386_taikai⟧⟦を→を：00422_wo⟧⟦やったら→やる：02980_yaru⟧、⟦{盛|も}り{上|あ}がった→盛り上がる：06344_moriagaru⟧。",
       "english": "We held a quiz competition at the year-end party and it was a hit.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,33 @@
       ]
     }
   ],
-  "notes": "USAGE:\nクイズ in Japanese usage leans toward entertainment-style trivia rather than academic testing. Quiz shows (クイズ{番組|ばんぐみ}) are a staple of Japanese television. For classroom tests, テスト or {試験|しけん} is used instead.\n\nCOMMON COLLOCATIONS:\n- クイズ{番組|ばんぐみ}: quiz show\n- クイズ{大会|たいかい}: quiz competition\n- クイズを{出|だ}す: to give a quiz question\n- クイズに{正解|せいかい}する: to answer a quiz correctly",
-  "cross_references": [],
+  "notes": "USAGE:\nクイズ in Japanese usage leans toward entertainment-style trivia rather than academic testing. Quiz shows (クイズ⟦{番組|ばんぐみ}→番組：01705_bangumi⟧) are a staple of Japanese television. For classroom tests, ⟦テスト→テスト：01065_tesuto⟧ or ⟦{試験|しけん}→試験：01422_shiken⟧ is used instead.\n\nCOMMON COLLOCATIONS:\n- クイズ⟦{番組|ばんぐみ}→番組：01705_bangumi⟧: quiz show\n- クイズ⟦{大会|たいかい}→大会：03386_taikai⟧: quiz competition\n- クイズ⟦を→を：00422_wo⟧⟦{出|だ}す→出す：01087_dasu⟧: to give a quiz question\n- クイズ⟦に→に：00314_ni⟧⟦{正解|せいかい}→正解：03083_seikai⟧⟦する→する：00392_suru⟧: to answer a quiz correctly",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04283_nazonazo",
+      "reading": "なぞなぞ",
+      "headword": "{謎々|なぞなぞ}",
+      "label": "riddle"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25873_nazotoki",
+      "reading": "なぞとき",
+      "headword": "なぞ{解|と}き",
+      "label": "puzzle-solving"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27557_shoutesuto",
+      "reading": "しょうてすと",
+      "headword": "{小|しょう}テスト",
+      "label": "quiz"
+    }
+  ],
   "metadata": {
     "created": "2026-02-10T08:06:05Z",
-    "modified": "2026-08-15T00:33:36Z",
+    "modified": "2026-09-02T04:01:22Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

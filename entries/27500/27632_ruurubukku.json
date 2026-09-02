@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "27632_ruurubukku_ex1",
-      "japanese": "ルールブックを{確認|かくにん}した。",
+      "japanese": "ルールブック⟦を→を：00422_wo⟧⟦{確認|かくにん}した→確認する：25332_kakuninsuru⟧。",
       "english": "I checked the rulebook.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "27632_ruurubukku_ex2",
-      "japanese": "{審判|しんぱん}はルールブックに{従|したが}って{判定|はんてい}した。",
+      "japanese": "⟦{審判|しんぱん}→審判：03331_shinpan⟧⟦は→は：00079_ha⟧ルールブック⟦に→に：00314_ni⟧⟦{従|したが}って→従う：02059_shitagau⟧⟦{判定|はんてい}→判定：09767_hantei⟧⟦した→する：00392_suru⟧。",
       "english": "The referee made the call in accordance with the rulebook.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "27632_ruurubukku_ex3",
-      "japanese": "{今年|ことし}からルールブックが{大幅|おおはば}に{改訂|かいてい}された。",
+      "japanese": "⟦{今年|ことし}→今年：00722_kotoshi⟧⟦から→から：00504_kara⟧ルールブック⟦が→が：00051_ga⟧⟦{大幅|おおはば}→大幅：12170_oohaba⟧⟦に→に：00314_ni⟧⟦{改訂|かいてい}→改訂：13044_kaitei⟧⟦された→する：00392_suru⟧。",
       "english": "The rulebook was significantly revised starting this year.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "From English 'rulebook'. Most commonly refers to the official rules document of a sport or game, but extends to any codified rule set.\n\nCOMMON COLLOCATIONS:\n- ルールブックに{従|したが}う: to follow the rulebook\n- ルールブックを{改訂|かいてい}する: to revise the rulebook\n- ルールブックに{書|か}いてある: it's written in the rulebook\n- {公式|こうしき}ルールブック: official rulebook\n\nSIMILAR WORDS:\n- {規則|きそく}: rule, regulation — the rules themselves rather than the book\n- {規定|きてい}{集|しゅう}: a compilation of regulations — more formal, often for organizations\n- マニュアル: manual — broader, includes operating instructions, not just rules",
+  "notes": "From English 'rulebook'. Most commonly refers to the official rules document of a sport or game, but extends to any codified rule set.\n\nCOMMON COLLOCATIONS:\n- ルールブック⟦に→に：00314_ni⟧⟦{従|したが}う→従う：02059_shitagau⟧: to follow the rulebook\n- ルールブック⟦を→を：00422_wo⟧⟦{改訂|かいてい}→改訂：13044_kaitei⟧⟦する→する：00392_suru⟧: to revise the rulebook\n- ルールブック⟦に→に：00314_ni⟧⟦{書|か}いてある→書く：00477_kaku⟧: it's written in the rulebook\n- ⟦{公式|こうしき}→公式：04167_koushiki⟧ルールブック: official rulebook\n\nSIMILAR WORDS:\n- ⟦{規則|きそく}→規則：01382_kisoku⟧: rule, regulation — the rules themselves rather than the book\n- ⟦{規定|きてい}→規定：14136_kitei⟧{集|しゅう}: a compilation of regulations — more formal, often for organizations\n- ⟦マニュアル→マニュアル：26993_manyuaru⟧: manual — broader, includes operating instructions, not just rules",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01382_kisoku",
+      "reading": "きそく",
+      "headword": "{規則|きそく}",
+      "label": "rule, regulation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26993_manyuaru",
+      "reading": "まにゅある",
+      "headword": "マニュアル",
+      "label": "manual"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +69,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "sports",
         "tool"
@@ -61,6 +77,6 @@
       "domain": []
     },
     "created": "2026-05-15T04:12:19Z",
-    "modified": "2026-08-07T16:10:18Z"
+    "modified": "2026-09-02T04:02:31Z"
   }
 }

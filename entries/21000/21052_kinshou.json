@@ -15,40 +15,73 @@
   "examples": [
     {
       "id": "21052_kinshou_ex1",
-      "japanese": "{金賞|きんしょう}を{受賞|じゅしょう}した。",
+      "japanese": "{金賞|きんしょう}⟦を→を：00422_wo⟧⟦{受賞|じゅしょう}→受賞：11867_jushou⟧⟦した→する：00392_suru⟧。",
       "english": "They won the gold prize.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21052_kinshou_ex2",
-      "japanese": "この{日本酒|にほんしゅ}は{全国|ぜんこく}コンクールで{金賞|きんしょう}を{取|と}った。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{日本酒|にほんしゅ}→日本酒：12954_nihonshu⟧⟦は→は：00079_ha⟧⟦{全国|ぜんこく}→全国：03311_zenkoku⟧⟦コンクール→コンクール：28795_konkuuru⟧⟦で→で：00502_de⟧{金賞|きんしょう}⟦を→を：00422_wo⟧⟦{取|と}った→取る：00565_toru⟧。",
       "english": "This sake won a gold prize at a national competition.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21052_kinshou_ex3",
-      "japanese": "{吹奏楽|すいそうがく}コンクールで{金賞|きんしょう}を{目指|めざ}して、{毎日|まいにち}{練習|れんしゅう}を{重|かさ}ねた。",
+      "japanese": "⟦{吹奏楽|すいそうがく}→吹奏楽：07535_suisougaku⟧⟦コンクール→コンクール：28795_konkuuru⟧⟦で→で：00502_de⟧{金賞|きんしょう}⟦を→を：00422_wo⟧⟦{目指|めざ}して→目指す：10528_mezasu⟧、⟦{毎日|まいにち}→毎日：00729_mainichi⟧⟦{練習|れんしゅう}→練習：05323_renshuu⟧⟦を→を：00422_wo⟧⟦{重|かさ}ねた→重ねる：02039_kasaneru⟧。",
       "english": "Aiming for the gold prize at the wind ensemble competition, they practiced every day.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "The top award given at competitions and contests. Commonly seen in contexts like music competitions (especially school wind ensemble contests), sake and food competitions, art exhibitions, and product awards.\n\nAWARD HIERARCHY:\n- {金賞|きんしょう}: gold prize (first)\n- {銀賞|ぎんしょう}: silver prize (second)\n- {銅賞|どうしょう}: bronze prize (third)\n\nCOMMON COLLOCATIONS:\n- {金賞|きんしょう}を{受賞|じゅしょう}する: to receive the gold prize\n- {金賞|きんしょう}を{取|と}る: to win the gold prize\n- {金賞|きんしょう}を{目指|めざ}す: to aim for the gold prize\n- {金賞|きんしょう}{受賞|じゅしょう}{作品|さくひん}: gold-prize-winning work\n\nSIMILAR WORDS:\n- {金|きん}メダル: gold medal — used for sports competitions like the Olympics\n- {優勝|ゆうしょう}: championship win — the overall winner of a tournament, not an award tier",
+  "notes": "The top award given at competitions and contests. Commonly seen in contexts like music competitions (especially school wind ensemble contests), sake and food competitions, art exhibitions, and product awards.\n\nAWARD HIERARCHY:\n- {金賞|きんしょう}: gold prize (first)\n- {銀賞|ぎんしょう}: silver prize (second)\n- {銅賞|どうしょう}: bronze prize (third)\n\nCOMMON COLLOCATIONS:\n- {金賞|きんしょう}⟦を→を：00422_wo⟧⟦{受賞|じゅしょう}→受賞：11867_jushou⟧⟦する→する：00392_suru⟧: to receive the gold prize\n- {金賞|きんしょう}⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧: to win the gold prize\n- {金賞|きんしょう}⟦を→を：00422_wo⟧⟦{目指|めざ}す→目指す：10528_mezasu⟧: to aim for the gold prize\n- {金賞|きんしょう}⟦{受賞|じゅしょう}→受賞：11867_jushou⟧⟦{作品|さくひん}→作品：02776_sakuhin⟧: gold-prize-winning work\n\nSIMILAR WORDS:\n- ⟦{金|きん}メダル→金メダル：20781_kinmedaru⟧: gold medal — used for sports competitions like the Olympics\n- ⟦{優勝|ゆうしょう}→優勝：03647_yuushou⟧: championship win — the overall winner of a tournament, not an award tier",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20781_kinmedaru",
+      "reading": "きんめだる",
+      "headword": "{金|きん}メダル",
+      "label": "gold medal"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03647_yuushou",
+      "reading": "ゆうしょう",
+      "headword": "{優勝|ゆうしょう}",
+      "label": "championship win"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24271_saiyuushuushou",
+      "reading": "さいゆうしゅうしょう",
+      "headword": "{最優秀賞|さいゆうしゅうしょう}",
+      "label": "grand prize"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["culture"]
+      "semantic": [
+        "culture"
+      ]
     },
     "created": "2026-03-31T16:18:29Z",
-    "modified": "2026-03-31T16:18:29Z"
+    "modified": "2026-09-02T04:02:02Z"
   }
 }

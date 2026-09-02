@@ -14,41 +14,80 @@
   "examples": [
     {
       "id": "09290_dokkairyoku_ex1",
-      "japanese": "{読解力|どっかいりょく}を{鍛|きた}える。",
+      "japanese": "{読解力|どっかいりょく}⟦を→を：00422_wo⟧⟦{鍛|きた}える→鍛える：12326_kitaeru⟧。",
       "english": "To train one's reading comprehension.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "09290_dokkairyoku_ex2",
-      "japanese": "{読解力|どっかいりょく}のテストで{高|たか}い{点|てん}を{取|と}った。",
+      "japanese": "{読解力|どっかいりょく}⟦の→の：09472_no⟧⟦テスト→テスト：01065_tesuto⟧⟦で→で：00502_de⟧⟦{高|たか}い→高い：00500_takai⟧⟦{点|てん}→点：01553_ten⟧⟦を→を：00422_wo⟧⟦{取|と}った→取る：00565_toru⟧。",
       "english": "I scored high on the reading comprehension test.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "09290_dokkairyoku_ex3",
-      "japanese": "{子|こ}どもの{読解力|どっかいりょく}を{伸|の}ばすには{読書|どくしょ}が{大切|たいせつ}だ。",
+      "japanese": "{子|こ}ども⟦の→の：09472_no⟧{読解力|どっかいりょく}⟦を→を：00422_wo⟧⟦{伸|の}ばす→伸ばす：01973_nobasu⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{読書|どくしょ}→読書：03484_dokusho⟧⟦が→が：00051_ga⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧だ。",
       "english": "Reading is important to develop children's reading comprehension.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "{読解力|どっかいりょく} refers to the ability to understand written texts. It is a key skill tested in language exams and important for academic success.\n\nCOMMON COLLOCATIONS:\n- {読解力|どっかいりょく}を{高|たか}める (to improve reading comprehension)\n- {読解力|どっかいりょく}テスト (reading comprehension test)\n- {読解力|どっかいりょく}の{向上|こうじょう} (improvement in reading ability)\n\nRELATED SKILLS:\n- {語彙力|ごいりょく} (vocabulary ability)\n- {聴解力|ちょうかいりょく} (listening comprehension)\n- {表現力|ひょうげんりょく} (expressive ability)",
-  "cross_references": [],
+  "notes": "{読解力|どっかいりょく} refers to the ability to understand written texts. It is a key skill tested in language exams and important for academic success.\n\nCOMMON COLLOCATIONS:\n- {読解力|どっかいりょく}⟦を→を：00422_wo⟧⟦{高|たか}める→高める：02065_takameru⟧ (to improve reading comprehension)\n- {読解力|どっかいりょく}⟦テスト→テスト：01065_tesuto⟧ (reading comprehension test)\n- {読解力|どっかいりょく}⟦の→の：09472_no⟧⟦{向上|こうじょう}→向上：02731_koujou⟧ (improvement in reading ability)\n\nRELATED SKILLS:\n- ⟦{語彙力|ごいりょく}→語彙力：09906_goiryoku⟧ (vocabulary ability)\n- {聴解力|ちょうかいりょく} (listening comprehension)\n- ⟦{表現力|ひょうげんりょく}→表現力：21315_hyougenryoku⟧ (expressive ability)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "09906_goiryoku",
+      "reading": "ごいりょく",
+      "headword": "{語彙力|ごいりょく}",
+      "label": "vocabulary ability"
+    },
+    {
+      "type": "related",
+      "target_id": "21315_hyougenryoku",
+      "reading": "ひょうげんりょく",
+      "headword": "{表現力|ひょうげんりょく}",
+      "label": "expressive ability"
+    },
+    {
+      "type": "related",
+      "target_id": "25635_tangoryoku",
+      "reading": "たんごりょく",
+      "headword": "{単語力|たんごりょく}",
+      "label": "vocabulary ability"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28017_kokugoryoku",
+      "reading": "こくごりょく",
+      "headword": "国語力",
+      "label": "Japanese language ability"
+    }
+  ],
   "metadata": {
     "created": "2026-02-01T06:19:49Z",
-    "modified": "2026-02-01T06:19:49Z",
+    "modified": "2026-09-02T04:01:17Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["education"]
+      "semantic": [
+        "education"
+      ]
     }
   }
 }

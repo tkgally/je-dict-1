@@ -3,7 +3,7 @@
   "id": "12911_teppai",
   "headword": "{撤廃|てっぱい}",
   "reading": "てっぱい",
-  "part_of_speech": "noun / suru verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "abolition, repeal, removal",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "12911_teppai_ex1",
-      "japanese": "{関税|かんぜい}を{撤廃|てっぱい}する。",
+      "japanese": "⟦{関税|かんぜい}→関税：05136_kanzei⟧⟦を→を：00422_wo⟧{撤廃|てっぱい}⟦する→する：00392_suru⟧。",
       "english": "To abolish tariffs.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "12911_teppai_ex2",
-      "japanese": "{入国|にゅうこく}{制限|せいげん}が{撤廃|てっぱい}された。",
+      "japanese": "⟦{入国|にゅうこく}→入国：15859_nyuukoku⟧⟦{制限|せいげん}→制限：03375_seigen⟧⟦が→が：00051_ga⟧{撤廃|てっぱい}⟦された→する：00392_suru⟧。",
       "english": "Entry restrictions were removed.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "12911_teppai_ex3",
-      "japanese": "{時代遅|じだいおく}れの{規制|きせい}を{撤廃|てっぱい}し、{自由|じゆう}な{競争|きょうそう}を{促|うなが}すべきだという{意見|いけん}が{出|で}ている。",
+      "japanese": "⟦{時代遅|じだいおく}れ→時代遅れ：12719_jidaiokure⟧⟦の→の：09472_no⟧⟦{規制|きせい}→規制：02598_kisei⟧⟦を→を：00422_wo⟧{撤廃|てっぱい}し、⟦{自由|じゆう}→自由：01148_jiyuu⟧な⟦{競争|きょうそう}→競争：01388_kyousou⟧⟦を→を：00422_wo⟧⟦{促|うなが}す→促す：10875_unagasu⟧べきだ⟦という→という：09577_toiu⟧⟦{意見|いけん}→意見：01303_iken⟧⟦が→が：00051_ga⟧⟦{出|で}ている→出る：00513_deru⟧。",
       "english": "There are opinions that outdated regulations should be abolished to encourage free competition.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nUsed as both a noun and a suru verb. Applies to laws, regulations, tariffs, restrictions, and systems. Implies that the item in question is completely removed, not simply reformed or revised. Common in political, economic, and policy discussions.\n\nCOMMON COLLOCATIONS:\n- {規制|きせい}を{撤廃|てっぱい}する: to abolish regulations\n- {関税|かんぜい}の{撤廃|てっぱい}: abolition of tariffs\n- {制限|せいげん}を{撤廃|てっぱい}する: to remove restrictions\n- {制度|せいど}の{撤廃|てっぱい}: abolition of a system\n\nSIMILAR WORDS:\n- {廃止|はいし}: abolition, discontinuation (broader, includes services and practices)\n- {廃棄|はいき}: disposal, scrapping (physical objects or agreements)",
+  "notes": "USAGE:\nUsed as both a noun and a suru verb. Applies to laws, regulations, tariffs, restrictions, and systems. Implies that the item in question is completely removed, not simply reformed or revised. Common in political, economic, and policy discussions.\n\nCOMMON COLLOCATIONS:\n- ⟦{規制|きせい}→規制：02598_kisei⟧⟦を→を：00422_wo⟧{撤廃|てっぱい}⟦する→する：00392_suru⟧: to abolish regulations\n- ⟦{関税|かんぜい}→関税：05136_kanzei⟧⟦の→の：09472_no⟧{撤廃|てっぱい}: abolition of tariffs\n- ⟦{制限|せいげん}→制限：03375_seigen⟧⟦を→を：00422_wo⟧{撤廃|てっぱい}⟦する→する：00392_suru⟧: to remove restrictions\n- ⟦{制度|せいど}→制度：03291_seido⟧⟦の→の：09472_no⟧{撤廃|てっぱい}: abolition of a system\n\nSIMILAR WORDS:\n- ⟦{廃止|はいし}→廃止：12483_haishi⟧: abolition, discontinuation (broader, includes services and practices)\n- ⟦{廃棄|はいき}→廃棄：12482_haiki⟧: disposal, scrapping (physical objects or agreements)",
   "cross_references": [
     {
       "type": "related",
@@ -149,11 +149,53 @@
       "reading": "てっかい",
       "headword": "{撤回|てっかい}",
       "label": "retraction, withdrawal"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12483_haishi",
+      "reading": "はいし",
+      "headword": "{廃止|はいし}",
+      "label": "abolition, discontinuation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12482_haiki",
+      "reading": "はいき",
+      "headword": "{廃棄|はいき}",
+      "label": "disposal, scrapping"
+    },
+    {
+      "type": "related",
+      "target_id": "05762_kaijo",
+      "reading": "かいじょ",
+      "headword": "{解除|かいじょ}",
+      "label": "cancellation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24885_kinshikaijo",
+      "reading": "きんしかいじょ",
+      "headword": "{禁止解除|きんしかいじょ}",
+      "label": "lifting a ban"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25553_bokumetsusuru",
+      "reading": "ぼくめつする",
+      "headword": "{撲滅|ぼくめつ}する",
+      "label": "to eradicate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26843_kaijosuru",
+      "reading": "かいじょする",
+      "headword": "{解除|かいじょ}する",
+      "label": "to cancel"
     }
   ],
   "metadata": {
     "created": "2026-02-22T14:28:15Z",
-    "modified": "2026-04-27T09:13:01Z",
+    "modified": "2026-09-02T04:01:31Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

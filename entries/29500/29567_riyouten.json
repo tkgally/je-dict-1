@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29567_riyouten_ex1",
-      "japanese": "{駅前|えきまえ}の{理容店|りようてん}に{行|い}く。",
+      "japanese": "⟦{駅前|えきまえ}→駅前：09593_ekimae⟧⟦の→の：09472_no⟧{理容店|りようてん}⟦に→に：00314_ni⟧⟦{行|い}く→行く：00119_iku⟧。",
       "english": "I'm going to the barbershop in front of the station.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29567_riyouten_ex2",
-      "japanese": "{理容店|りようてん}では{散髪|さんぱつ}と{顔|かお}そりをしてもらえる。",
+      "japanese": "{理容店|りようてん}⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{散髪|さんぱつ}→散髪：06318_sanpatsu⟧⟦と→と：00512_to⟧⟦{顔|かお}そり→顔そり：29566_kaosori⟧⟦を→を：00422_wo⟧⟦して→する：00392_suru⟧⟦もらえる→もらう：00520_morau⟧。",
       "english": "At a barbershop you can get a haircut and a face shave.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29567_riyouten_ex3",
-      "japanese": "{祖父|そふ}は{何十年|なんじゅうねん}も{同|おな}じ{理容店|りようてん}に{通|かよ}っている。",
+      "japanese": "⟦{祖父|そふ}→祖父：01452_sofu⟧⟦は→は：00079_ha⟧⟦{何十年|なんじゅうねん}→何十年：30624_nanjuunen⟧⟦も→も：00484_mo⟧⟦{同|おな}じ→同じ：02857_onaji⟧{理容店|りようてん}⟦に→に：00314_ni⟧⟦{通|かよ}っている→通う：01217_kayou⟧。",
       "english": "My grandfather has gone to the same barbershop for decades.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "A formal term for a barbershop, common on signs and in official contexts. Barbershops are licensed separately from beauty salons ({美容院|びよういん}) and may shave customers with a razor.\n\nCOMMON COLLOCATIONS:\n- {理容店|りようてん}に{行|い}く: to go to the barbershop\n- {理容店|りようてん}を{営|いとな}む: to run a barbershop\n\nSIMILAR WORDS:\n- {床屋|とこや}: barbershop — the casual everyday word for the same place\n- {理髪店|りはつてん}: barbershop — another formal synonym\n- {美容院|びよういん}: beauty salon — does styling and perms; legally distinct from a barbershop",
+  "notes": "A formal term for a barbershop, common on signs and in official contexts. Barbershops are licensed separately from beauty salons (⟦{美容院|びよういん}→美容院：06319_biyouin⟧) and may shave customers with a razor.\n\nCOMMON COLLOCATIONS:\n- {理容店|りようてん}⟦に→に：00314_ni⟧⟦{行|い}く→行く：00119_iku⟧: to go to the barbershop\n- {理容店|りようてん}⟦を→を：00422_wo⟧⟦{営|いとな}む→営む：11837_itonamu⟧: to run a barbershop\n\nSIMILAR WORDS:\n- ⟦{床屋|とこや}→床屋：01682_tokoya⟧: barbershop — the casual everyday word for the same place\n- ⟦{理髪店|りはつてん}→理髪店：06320_rihatsuten⟧: barbershop — another formal synonym\n- ⟦{美容院|びよういん}→美容院：06319_biyouin⟧: beauty salon — does styling and perms; legally distinct from a barbershop",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01682_tokoya",
+      "reading": "とこや",
+      "headword": "{床屋|とこや}",
+      "label": "barbershop"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06320_rihatsuten",
+      "reading": "りはつてん",
+      "headword": "{理髪店|りはつてん}",
+      "label": "barbershop"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06319_biyouin",
+      "reading": "びよういん",
+      "headword": "{美容院|びよういん}",
+      "label": "beauty salon"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +76,13 @@
         "noun"
       ],
       "formality": "formal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "building"
       ],
       "domain": []
     },
     "created": "2026-06-29T03:18:08Z",
-    "modified": "2026-06-29T03:18:08Z"
+    "modified": "2026-09-02T04:02:37Z"
   }
 }

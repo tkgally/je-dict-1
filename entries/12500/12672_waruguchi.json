@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "12672_waruguchi_ex1",
-      "japanese": "{悪口|わるぐち}を{言|い}う。",
+      "japanese": "{悪口|わるぐち}⟦を→を：00422_wo⟧⟦{言|い}う→言う：00515_iu⟧。",
       "english": "To bad-mouth someone.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12672_waruguchi_ex2",
-      "japanese": "{人|ひと}の{悪口|わるぐち}ばかり{言|い}ってはいけない。",
+      "japanese": "⟦{人|ひと}→人：00476_hito⟧⟦の→の：09472_no⟧{悪口|わるぐち}⟦ばかり→〜ばかり：02006_bakari⟧⟦{言|い}って→言う：00515_iu⟧⟦は→は：00079_ha⟧いけない。",
       "english": "You shouldn't always be bad-mouthing other people.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12672_waruguchi_ex3",
-      "japanese": "{陰|かげ}で{悪口|わるぐち}を{言|い}われていたことを{知|し}って、とてもショックだった。",
+      "japanese": "⟦{陰|かげ}→陰：14593_kage⟧⟦で→で：00502_de⟧{悪口|わるぐち}⟦を→を：00422_wo⟧⟦{言|い}われていた→言う：00515_iu⟧こと⟦を→を：00422_wo⟧⟦{知|し}って→知る：00458_shiru⟧、⟦とても→とても：00593_totemo⟧⟦ショック→ショック：03847_shokku⟧だった。",
       "english": "I was very shocked to learn that people had been talking behind my back.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "READING:\nThe standard modern reading is わるぐち. The reading わるくち also exists but is less common in everyday speech.\n\nUSAGE:\nThe most common collocation is {悪口|わるぐち}を{言|い}う (to say bad things about someone, to bad-mouth). The word often implies talking about someone negatively in their absence.\n\nCOMMON COLLOCATIONS:\n- {悪口|わるぐち}を{言|い}う: to bad-mouth, to speak ill of\n- {悪口|わるぐち}を{叩|たた}く: to hurl insults (stronger)\n- {陰|かげ}で{悪口|わるぐち}: talking behind someone's back\n- {悪口|わるぐち}{雑言|ぞうごん}: verbal abuse, a stream of insults",
+  "notes": "PRONUNCIATION:\nThe standard modern reading is わるぐち. The reading わるくち also exists but is less common in everyday speech.\n\nUSAGE:\nThe most common collocation is {悪口|わるぐち}⟦を→を：00422_wo⟧⟦{言|い}う→言う：00515_iu⟧ (to say bad things about someone, to bad-mouth). The word often implies talking about someone negatively in their absence.\n\nCOMMON COLLOCATIONS:\n- {悪口|わるぐち}⟦を→を：00422_wo⟧⟦{言|い}う→言う：00515_iu⟧: to bad-mouth, to speak ill of\n- {悪口|わるぐち}⟦を→を：00422_wo⟧⟦{叩|たた}く→叩く：02072_tataku⟧: to hurl insults (stronger)\n- ⟦{陰|かげ}→陰：14593_kage⟧⟦で→で：00502_de⟧{悪口|わるぐち}: talking behind someone's back\n- {悪口|わるぐち}{雑言|ぞうごん}: verbal abuse, a stream of insults",
   "prominent_see_also": [
     {
       "target_id": "03794_warukuchi",
@@ -54,18 +60,37 @@
       "reading": "かげぐち",
       "headword": "{陰口|かげぐち}",
       "label": "talking behind someone's back"
+    },
+    {
+      "type": "related",
+      "target_id": "07396_herazuguchi",
+      "reading": "へらずぐち",
+      "headword": "{減|へ}らず{口|ぐち}",
+      "label": "backtalk"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28909_uramigoto",
+      "reading": "うらみごと",
+      "headword": "{恨|うら}み{言|ごと}",
+      "label": "words of resentment"
     }
   ],
   "metadata": {
     "created": "2026-02-22T05:45:15Z",
-    "modified": "2026-04-27T07:31:57Z",
+    "modified": "2026-09-02T04:01:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["language", "emotion"]
+      "semantic": [
+        "language",
+        "emotion"
+      ]
     }
   }
 }

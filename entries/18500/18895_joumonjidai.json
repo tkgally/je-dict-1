@@ -15,42 +15,69 @@
   "examples": [
     {
       "id": "18895_joumonjidai_ex1",
-      "japanese": "{縄文|じょうもん}{時代|じだい}の{土器|どき}が{発見|はっけん}された。",
+      "japanese": "{縄文|じょうもん}{時代|じだい}⟦の→の：09472_no⟧⟦{土器|どき}→土器：09658_doki⟧⟦が→が：00051_ga⟧⟦{発見|はっけん}→発見：00085_hakken⟧⟦された→する：00392_suru⟧。",
       "english": "Pottery from the Jomon period was discovered.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18895_joumonjidai_ex2",
-      "japanese": "{縄文|じょうもん}{時代|じだい}の{人々|ひとびと}は{狩猟|しゅりょう}{採集|さいしゅう}で{生活|せいかつ}していた。",
+      "japanese": "{縄文|じょうもん}{時代|じだい}⟦の→の：09472_no⟧⟦{人々|ひとびと}→人々：03141_hitobito⟧⟦は→は：00079_ha⟧⟦{狩猟|しゅりょう}→狩猟：13507_shuryou⟧⟦{採集|さいしゅう}→採集：00355_saishuu⟧⟦で→で：00502_de⟧⟦{生活|せいかつ}していた→生活する：01839_seikatsusuru⟧。",
       "english": "People of the Jomon period lived by hunting and gathering.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18895_joumonjidai_ex3",
-      "japanese": "{青森県|あおもりけん}の{三内丸山遺跡|さんないまるやまいせき}は{縄文|じょうもん}{時代|じだい}を{代表|だいひょう}する{遺跡|いせき}の{一|ひと}つだ。",
+      "japanese": "⟦{青森県|あおもりけん}→青森県：28145_aomoriken⟧⟦の→の：09472_no⟧{三内丸山遺跡|さんないまるやまいせき}⟦は→は：00079_ha⟧{縄文|じょうもん}{時代|じだい}⟦を→を：00422_wo⟧⟦{代表|だいひょう}→代表：03419_daihyou⟧⟦する→する：00392_suru⟧⟦{遺跡|いせき}→遺跡：09527_iseki⟧⟦の→の：09472_no⟧⟦{一|ひと}つ→一つ：02948_hitotsu⟧だ。",
       "english": "The Sannai-Maruyama site in Aomori Prefecture is one of the most representative sites of the Jomon period.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nA fundamental term in Japanese history education. The Jomon period is followed by the {弥生|やよい}{時代|じだい} (Yayoi period), which introduced rice farming.\n\nKEY TERMS:\n- {縄文|じょうもん}{土器|どき}: Jomon pottery — the cord-marked pottery that gives the period its name\n- {土偶|どぐう}: clay figurine — iconic Jomon artifacts\n- {貝塚|かいづか}: shell mound — archaeological sites where Jomon people discarded shells\n\nSIMILAR WORDS:\n- {弥生|やよい}{時代|じだい}: Yayoi period (approx. 300 BCE-300 CE) — the next period, marked by rice cultivation and metalworking\n- {旧石器|きゅうせっき}{時代|じだい}: Paleolithic period — the period before Jomon",
-  "cross_references": [],
+  "notes": "USAGE:\nA fundamental term in Japanese history education. The Jomon period is followed by the ⟦{弥生|やよい}{時代|じだい}→弥生時代：20426_yayoijidai⟧ (Yayoi period), which introduced rice farming.\n\nKEY TERMS:\n- ⟦{縄文|じょうもん}{土器|どき}→縄文土器：26598_joumondoki⟧: Jomon pottery — the cord-marked pottery that gives the period its name\n- ⟦{土偶|どぐう}→土偶：12370_doguu⟧: clay figurine — iconic Jomon artifacts\n- ⟦{貝塚|かいづか}→貝塚：28137_kaizuka⟧: shell mound — archaeological sites where Jomon people discarded shells\n\nSIMILAR WORDS:\n- ⟦{弥生|やよい}{時代|じだい}→弥生時代：20426_yayoijidai⟧: Yayoi period (approx. 300 BCE-300 CE) — the next period, marked by rice cultivation and metalworking\n- {旧石器|きゅうせっき}⟦{時代|じだい}→時代：01424_jidai⟧: Paleolithic period — the period before Jomon",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20426_yayoijidai",
+      "reading": "やよいじだい",
+      "headword": "{弥生時代|やよいじだい}",
+      "label": "Yayoi period"
+    },
+    {
+      "type": "related",
+      "target_id": "26598_joumondoki",
+      "reading": "じょうもんどき",
+      "headword": "{縄文|じょうもん}{土器|どき}",
+      "label": "Jomon pottery"
+    }
+  ],
   "metadata": {
     "created": "2026-03-23T06:26:22Z",
-    "modified": "2026-03-23T06:26:22Z",
+    "modified": "2026-09-02T04:01:53Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["time-period"],
-      "domain": ["academic"]
+      "semantic": [
+        "time-period"
+      ],
+      "domain": [
+        "academic"
+      ]
     }
   }
 }

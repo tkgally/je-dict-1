@@ -14,42 +14,67 @@
   "examples": [
     {
       "id": "19458_okiai_ex1",
-      "japanese": "{沖合|おきあい}に{船|ふね}が{見|み}える。",
+      "japanese": "{沖合|おきあい}⟦に→に：00314_ni⟧⟦{船|ふね}→船：00775_fune⟧⟦が→が：00051_ga⟧⟦{見|み}える→見える：01165_mieru⟧。",
       "english": "I can see a ship offshore.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "19458_okiai_ex2",
-      "japanese": "{沖合|おきあい}で{大|おお}きなクジラが{泳|およ}いでいた。",
+      "japanese": "{沖合|おきあい}⟦で→で：00502_de⟧⟦{大|おお}きな→大きな：02849_ookina⟧クジラ⟦が→が：00051_ga⟧⟦{泳|およ}いでいた→泳ぐ：00545_oyogu⟧。",
       "english": "A large whale was swimming offshore.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "19458_okiai_ex3",
-      "japanese": "{台風|たいふう}が{沖合|おきあい}を{通過|つうか}した。",
+      "japanese": "⟦{台風|たいふう}→台風：01455_taifuu⟧⟦が→が：00051_ga⟧{沖合|おきあい}⟦を→を：00422_wo⟧⟦{通過|つうか}した→通過する：22435_tsuukasuru⟧。",
       "english": "The typhoon passed through the waters offshore.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{沖合|おきあい} refers to the area of sea at some distance from the shore, beyond the immediate coastal zone. It is commonly used in weather reports, fishing contexts, and news about maritime incidents to specify locations away from land.\n\nSTRUCTURE:\n- {沖|おき} (open sea, offshore) + {合|あい} (area around)\n\nCOMMON PATTERNS:\n- {沖合|おきあい}で (offshore, in the open sea)\n- {沖合|おきあい}に (out to sea)\n- ～の{沖合|おきあい} (off the coast of ~)\n- {沖合|おきあい}～キロ (~ kilometers offshore)\n\nRELATED WORDS:\n- {沖|おき} (open sea — also used alone, slightly more literary)\n- {岸|きし} (shore, bank — opposite direction)\n- {沿岸|えんがん} (coast, coastal area — closer to shore than {沖合|おきあい})",
-  "cross_references": [],
+  "notes": "{沖合|おきあい} refers to the area of sea at some distance from the shore, beyond the immediate coastal zone. It is commonly used in weather reports, fishing contexts, and news about maritime incidents to specify locations away from land.\n\nCOMMON PATTERNS:\n- ⟦{沖|おき}→沖：02144_oki⟧ (open sea, offshore) + {合|あい} (area around)\n- {沖合|おきあい}⟦で→で：00502_de⟧ (offshore, in the open sea)\n- {沖合|おきあい}⟦に→に：00314_ni⟧ (out to sea)\n- ～⟦の→の：09472_no⟧{沖合|おきあい} (off the coast of ~)\n- {沖合|おきあい}～⟦キロ→キロ：01350_kiro⟧ (~ kilometers offshore)\n\nRELATED WORDS:\n- ⟦{沖|おき}→沖：02144_oki⟧ (open sea — also used alone, slightly more literary)\n- ⟦{岸|きし}→岸：02545_kishi⟧ (shore, bank — opposite direction)\n- ⟦{沿岸|えんがん}→沿岸：13280_engan⟧ (coast, coastal area — closer to shore than {沖合|おきあい})",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "02545_kishi",
+      "reading": "きし",
+      "headword": "{岸|きし}",
+      "label": "shore, bank"
+    },
+    {
+      "type": "related",
+      "target_id": "13280_engan",
+      "reading": "えんがん",
+      "headword": "{沿岸|えんがん}",
+      "label": "coast, coastal area"
+    }
+  ],
   "metadata": {
     "created": "2026-03-25T14:52:30Z",
-    "modified": "2026-03-25T14:52:30Z",
+    "modified": "2026-09-02T04:01:56Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["geography"]
+      "semantic": [
+        "geography"
+      ]
     }
   }
 }

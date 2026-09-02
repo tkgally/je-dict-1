@@ -14,30 +14,36 @@
   "examples": [
     {
       "id": "10229_imada_ex1",
-      "japanese": "{問題|もんだい}は{未|いま}だ{解決|かいけつ}していない。",
+      "japanese": "⟦{問題|もんだい}→問題：00797_mondai⟧⟦は→は：00079_ha⟧{未|いま}だ⟦{解決|かいけつ}していない→解決する：17191_kaiketsusuru⟧。",
       "english": "The problem has not yet been resolved.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10229_imada_ex2",
-      "japanese": "{原因|げんいん}は{未|いま}だ{不明|ふめい}だ。",
+      "japanese": "⟦{原因|げんいん}→原因：01400_genin⟧⟦は→は：00079_ha⟧{未|いま}だ⟦{不明|ふめい}→不明：11352_fumei⟧だ。",
       "english": "The cause is still unknown.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10229_imada_ex3",
-      "japanese": "{彼|かれ}からは{未|いま}だに{連絡|れんらく}がない。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦から→から：00504_kara⟧⟦は→は：00079_ha⟧{未|いま}だ⟦に→に：00314_ni⟧⟦{連絡|れんらく}→連絡：01524_renraku⟧⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧。",
       "english": "I still haven't heard from him.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{未|いま}だ is a formal adverb meaning \"still\" or \"not yet,\" equivalent to the everyday word まだ but with a more literary or serious tone.\n\nWRITING:\nCan be written as {未|いま}だ or {今|いま}だ. The {未|いま}だ spelling is more common and emphasizes the \"not yet\" sense.\n\nCOMMON PATTERNS:\n- {未|いま}だに + verb: still (to this day) — emphasizes continuation over time\n- {未|いま}だ〜ない: not yet (formal)\n- {未|いま}だかつてない: unprecedented (set phrase)\n\nSIMILAR WORDS:\n- まだ: still, not yet (neutral, everyday)\n- {依然|いぜん}として: still, as before (formal, emphasizes no change)\n\nREGISTER:\nFormal. Common in news reports, official statements, and written language. In casual speech, まだ is the natural choice.",
+  "notes": "{未|いま}だ is a formal adverb meaning \"still\" or \"not yet,\" equivalent to the everyday word ⟦まだ→まだ：00603_mada⟧ but with a more literary or serious tone.\n\nWRITING:\nCan be written as {未|いま}だ or ⟦{今|いま}→今：00945_ima⟧だ. The {未|いま}だ spelling is more common and emphasizes the \"not yet\" sense.\n\nCOMMON PATTERNS:\n- {未|いま}だ⟦に→に：00314_ni⟧ + verb: still (to this day) — emphasizes continuation over time\n- {未|いま}だ〜⟦ない→ない：01118_nai⟧: not yet (formal)\n- {未|いま}だ⟦かつて→かつて：10303_katsute⟧⟦ない→ない：01118_nai⟧: unprecedented (set phrase)\n\nSIMILAR WORDS:\n- ⟦まだ→まだ：00603_mada⟧: still, not yet (neutral, everyday)\n- ⟦{依然|いぜん}として→依然として：16358_izentoshite⟧: still, as before (formal, emphasizes no change)\n\nREGISTER:\nFormal. Common in news reports, official statements, and written language. In casual speech, ⟦まだ→まだ：00603_mada⟧ is the natural choice.",
   "cross_references": [
     {
       "type": "contrast",
@@ -52,17 +58,28 @@
       "reading": "いぜん",
       "headword": "{依然|いぜん}",
       "label": "still, as before (formal)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16358_izentoshite",
+      "reading": "いぜんとして",
+      "headword": "{依然|いぜん}として",
+      "label": "still, as before"
     }
   ],
   "metadata": {
     "created": "2026-02-05T14:29:50Z",
-    "modified": "2026-04-24T05:32:11Z",
+    "modified": "2026-09-02T04:01:20Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adverb"],
+      "pos": [
+        "adverb"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

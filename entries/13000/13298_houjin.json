@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "13298_houjin_ex1",
-      "japanese": "{法人|ほうじん}を{設立|せつりつ}した。",
+      "japanese": "{法人|ほうじん}⟦を→を：00422_wo⟧⟦{設立|せつりつ}した→設立する：17473_setsuritsusuru⟧。",
       "english": "I established a corporation.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "13298_houjin_ex2",
-      "japanese": "{法人税|ほうじんぜい}の{引|ひ}き{下|さ}げが{検討|けんとう}されている。",
+      "japanese": "{法人税|ほうじんぜい}⟦の→の：09472_no⟧⟦{引|ひ}き{下|さ}げ→引き下げ：12553_hikisage⟧⟦が→が：00051_ga⟧⟦{検討|けんとう}→検討：02710_kentou⟧⟦されている→する：00392_suru⟧。",
       "english": "A reduction in corporate tax is being considered.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "13298_houjin_ex3",
-      "japanese": "この{口座|こうざ}は{法人|ほうじん}{向|む}けで、{個人|こじん}ではお{申|もう}し{込|こ}みできません。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{口座|こうざ}→口座：05419_kouza⟧⟦は→は：00079_ha⟧{法人|ほうじん}{向|む}け⟦で→で：00502_de⟧、⟦{個人|こじん}→個人：02758_kojin⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧お⟦{申|もう}し{込|こ}み→申し込み：03161_moushikomi⟧⟦できません→できる：00557_dekiru⟧。",
       "english": "This account is for corporations; individuals cannot apply.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA legal and business term. Frequently used as a modifier: {法人|ほうじん}{税|ぜい} (corporate tax), {法人|ほうじん}{向|む}け (for corporations), {法人|ほうじん}{名|めい} (corporate name). Often contrasted with {個人|こじん} (individual).\n\nTypes of {法人|ほうじん} include {株式会社|かぶしきがいしゃ} (stock corporation), NPO{法人|ほうじん} (NPO), and {社団法人|しゃだんほうじん} (incorporated association).\n\nCOMMON COLLOCATIONS:\n- {法人税|ほうじんぜい}: corporate tax\n- {法人|ほうじん}{向|む}け: for corporate clients\n- {法人|ほうじん}{名|めい}: corporate name\n- {法人|ほうじん}を{設立|せつりつ}する: to establish a corporation\n- NPO{法人|ほうじん}: NPO (nonprofit organization)",
+  "notes": "USAGE:\nA legal and business term. Frequently used as a modifier: {法人|ほうじん}{税|ぜい} (corporate tax), {法人|ほうじん}{向|む}け (for corporations), {法人|ほうじん}{名|めい} (corporate name). Often contrasted with ⟦{個人|こじん}→個人：02758_kojin⟧ (individual).\n\nTypes of {法人|ほうじん} include ⟦{株式会社|かぶしきがいしゃ}→株式会社：19101_kabushikigaisha⟧ (stock corporation), NPO{法人|ほうじん} (NPO), and {社団法人|しゃだんほうじん} (incorporated association).\n\nCOMMON COLLOCATIONS:\n- {法人税|ほうじんぜい}: corporate tax\n- {法人|ほうじん}{向|む}け: for corporate clients\n- {法人|ほうじん}{名|めい}: corporate name\n- {法人|ほうじん}⟦を→を：00422_wo⟧⟦{設立|せつりつ}する→設立する：17473_setsuritsusuru⟧: to establish a corporation\n- NPO{法人|ほうじん}: NPO (nonprofit organization)",
   "cross_references": [
     {
       "type": "antonym",
@@ -52,11 +52,39 @@
       "reading": "こじん",
       "headword": "{個人|こじん}",
       "label": "individual"
+    },
+    {
+      "type": "related",
+      "target_id": "00225_kigyou",
+      "reading": "きぎょう",
+      "headword": "{企業|きぎょう}",
+      "label": "company, enterprise"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24186_shadan",
+      "reading": "しゃだん",
+      "headword": "{社団|しゃだん}",
+      "label": "incorporated association"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24850_kojinjigyou",
+      "reading": "こじんじぎょう",
+      "headword": "{個人事業|こじんじぎょう}",
+      "label": "sole proprietorship"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26304_kojinjigyounushi",
+      "reading": "こじんじぎょうぬし",
+      "headword": "{個人事業主|こじんじぎょうぬし}",
+      "label": "sole proprietor"
     }
   ],
   "metadata": {
     "created": "2026-02-24T08:58:32Z",
-    "modified": "2026-08-24T00:39:35Z",
+    "modified": "2026-09-02T04:01:32Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

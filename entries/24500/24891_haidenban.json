@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24891_haidenban_ex1",
-      "japanese": "{配電盤|はいでんばん}のブレーカーが{落|お}ちた。",
+      "japanese": "{配電盤|はいでんばん}⟦の→の：09472_no⟧⟦ブレーカー→ブレーカー：07496_bureekaa⟧⟦が→が：00051_ga⟧⟦{落|お}ちた→落ちる：01242_ochiru⟧。",
       "english": "The breaker on the electrical panel tripped.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24891_haidenban_ex2",
-      "japanese": "{配電盤|はいでんばん}の{点検|てんけん}は{定期的|ていきてき}に{行|おこな}う{必要|ひつよう}がある。",
+      "japanese": "{配電盤|はいでんばん}⟦の→の：09472_no⟧⟦{点検|てんけん}→点検：09765_tenken⟧⟦は→は：00079_ha⟧⟦{定期的|ていきてき}→定期的：06173_teikiteki⟧⟦に→に：00314_ni⟧⟦{行|おこな}う→行う：01238_okonau⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "The distribution board needs to be inspected regularly.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24891_haidenban_ex3",
-      "japanese": "{停電|ていでん}のときはまず{配電盤|はいでんばん}を{確認|かくにん}してください。",
+      "japanese": "⟦{停電|ていでん}→停電：03544_teiden⟧⟦の→の：09472_no⟧とき⟦は→は：00079_ha⟧⟦まず→まず：00796_mazu⟧{配電盤|はいでんばん}⟦を→を：00422_wo⟧⟦{確認|かくにん}して→確認する：25332_kakuninsuru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "When there's a power outage, first check the electrical panel.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {配電|はいでん} (power distribution) + {盤|ばん} (board/panel). Found in every building, from homes to factories. Knowing this word is practical for everyday life in Japan, especially when dealing with electrical issues or reading building guides.\n\nCOMMON COLLOCATIONS:\n- {配電盤|はいでんばん}の{点検|てんけん}: inspection of the electrical panel\n- {配電盤|はいでんばん}の{交換|こうかん}: replacement of the distribution board\n- {配電盤|はいでんばん}を{確認|かくにん}する: to check the electrical panel\n- {主|しゅ}{配電盤|はいでんばん}: main distribution board\n\nSIMILAR WORDS:\n- {分電盤|ぶんでんばん}: sub-distribution panel; breaker box — the household version that divides circuits for rooms\n- ブレーカー: breaker; circuit breaker — individual safety switches within the panel\n- {制御盤|せいぎょばん}: control panel — for controlling equipment, not just distributing power\n- {電気|でんき}メーター: electric meter — measures usage, separate from the distribution board",
+  "notes": "Compound of ⟦{配電|はいでん}→配電：30069_haiden⟧ (power distribution) + ⟦{盤|ばん}→盤：18576_ban⟧ (board/panel). Found in every building, from homes to factories. Knowing this word is practical for everyday life in Japan, especially when dealing with electrical issues or reading building guides.\n\nCOMMON COLLOCATIONS:\n- {配電盤|はいでんばん}⟦の→の：09472_no⟧⟦{点検|てんけん}→点検：09765_tenken⟧: inspection of the electrical panel\n- {配電盤|はいでんばん}⟦の→の：09472_no⟧⟦{交換|こうかん}→交換：02746_koukan⟧: replacement of the distribution board\n- {配電盤|はいでんばん}⟦を→を：00422_wo⟧⟦{確認|かくにん}する→確認する：25332_kakuninsuru⟧: to check the electrical panel\n- {主|しゅ}{配電盤|はいでんばん}: main distribution board\n\nSIMILAR WORDS:\n- ⟦{分電盤|ぶんでんばん}→分電盤：23334_bundenban⟧: sub-distribution panel; breaker box — the household version that divides circuits for rooms\n- ⟦ブレーカー→ブレーカー：07496_bureekaa⟧: breaker; circuit breaker — individual safety switches within the panel\n- {制御盤|せいぎょばん}: control panel — for controlling equipment, not just distributing power\n- ⟦{電気|でんき}→電気：09780_denki⟧⟦メーター→メーター：23517_meetaa⟧: electric meter — measures usage, separate from the distribution board",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23334_bundenban",
+      "reading": "ぶんでんばん",
+      "headword": "{分電盤|ぶんでんばん}",
+      "label": "sub-distribution panel"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07496_bureekaa",
+      "reading": "ぶれーかー",
+      "headword": "ブレーカー",
+      "label": "breaker"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +76,6 @@
       ]
     },
     "created": "2026-04-21T11:27:44Z",
-    "modified": "2026-08-03T09:22:27Z"
+    "modified": "2026-09-02T04:02:20Z"
   }
 }

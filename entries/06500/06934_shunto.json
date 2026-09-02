@@ -45,7 +45,7 @@
       ]
     }
   ],
-  "notes": "TYPE: Mimetic word (gitaigo) describing an emotional state.\n\nVISUAL IMAGE: The sound suggests something deflating - drooping shoulders, a lowered head, energy going out of a person all at once.\n\nCOMMON TRIGGERS: being scolded, disappointment, rejection, failure, bad news.\n\nCOMMON PATTERNS:\n- しゅんと⟦なる→なる：01970_naru⟧ - to become dejected\n- しゅんと⟦している→する：00392_suru⟧ - to be in a dejected state\n- しゅんと⟦した→する：00392_suru⟧ + noun - with a dejected expression or manner\n\nSIMILAR EXPRESSIONS:\n- ⟦がっかり→がっかり：00054_gakkari⟧ - disappointed (focuses on the letdown itself)\n- ⟦しょんぼり→しょんぼり：05834_shonbori⟧ - dejectedly, forlornly (a lasting sad state)\n- ⟦うなだれる→うなだれる：07835_unadareru⟧ - to hang one's head (the physical gesture)\n- ⟦{元気|げんき}→元気：00696_genki⟧⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧ - lacking energy (plainest wording)\n\nCONTRAST:\n- しゅんと: deflated, visibly dejected\n- ⟦けろっと→けろっと：06933_kerotto⟧: nonchalant, unaffected - the opposite reaction\n\nOFTEN USED FOR: children after a scolding, pets (dogs especially), and anyone who has just had bad news.",
+  "notes": "TYPE: Mimetic word (gitaigo) describing an emotional state.\n\nVISUAL IMAGE: The sound suggests something deflating - drooping shoulders, a lowered head, energy going out of a person all at once.\n\nCOMMON TRIGGERS: being scolded, disappointment, rejection, failure, bad news.\n\nCOMMON PATTERNS:\n- しゅんと⟦なる→なる：01970_naru⟧ - to become dejected\n- しゅんと⟦している→する：00392_suru⟧ - to be in a dejected state\n- しゅんと⟦した→する：00392_suru⟧ + noun - with a dejected expression or manner\n\nSIMILAR WORDS:\n- ⟦がっかり→がっかり：00054_gakkari⟧ - disappointed (focuses on the letdown itself)\n- ⟦しょんぼり→しょんぼり：05834_shonbori⟧ - dejectedly, forlornly (a lasting sad state)\n- ⟦うなだれる→うなだれる：07835_unadareru⟧ - to hang one's head (the physical gesture)\n- ⟦{元気|げんき}→元気：00696_genki⟧⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧ - lacking energy (plainest wording)\n- しゅんと: deflated, visibly dejected\n- ⟦けろっと→けろっと：06933_kerotto⟧: nonchalant, unaffected - the opposite reaction\n\nOFTEN USED FOR: children after a scolding, pets (dogs especially), and anyone who has just had bad news.",
   "cross_references": [
     {
       "type": "related",
@@ -67,11 +67,32 @@
       "headword": "けろっと",
       "label": "nonchalant (opposite reaction)",
       "target_id": "06933_kerotto"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00054_gakkari",
+      "reading": "がっかり",
+      "headword": "がっかり",
+      "label": "disappointed"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07835_unadareru",
+      "reading": "うなだれる",
+      "headword": "{項垂|うなだ}れる",
+      "label": "to hang one's head"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19488_genkiganai",
+      "reading": "げんきがない",
+      "headword": "{元気|げんき}がない",
+      "label": "lacking energy"
     }
   ],
   "metadata": {
     "created": "2026-01-18T10:29:28Z",
-    "modified": "2026-08-14T21:21:34Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

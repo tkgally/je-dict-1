@@ -15,31 +15,60 @@
   "examples": [
     {
       "id": "21041_daiichigengo_ex1",
-      "japanese": "{私|わたし}の{第一言語|だいいちげんご}は{日本語|にほんご}です。",
+      "japanese": "⟦{私|わたし}→私：02988_watashi⟧⟦の→の：09472_no⟧{第一言語|だいいちげんご}⟦は→は：00079_ha⟧⟦{日本語|にほんご}→日本語：00614_nihongo⟧です。",
       "english": "My first language is Japanese.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21041_daiichigengo_ex2",
-      "japanese": "{第一言語|だいいちげんご}が{英語|えいご}ではない{学生|がくせい}も{多|おお}い。",
+      "japanese": "{第一言語|だいいちげんご}⟦が→が：00051_ga⟧⟦{英語|えいご}→英語：02274_eigo⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦ない→ない：01118_nai⟧⟦{学生|がくせい}→学生：00610_gakusei⟧⟦も→も：00484_mo⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "There are also many students whose first language is not English.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21041_daiichigengo_ex3",
-      "japanese": "{第一言語|だいいちげんご}の{習得|しゅうとく}は{幼児期|ようじき}に{自然|しぜん}に{行|おこな}われる。",
+      "japanese": "{第一言語|だいいちげんご}⟦の→の：09472_no⟧⟦{習得|しゅうとく}→習得：13903_shuutoku⟧⟦は→は：00079_ha⟧{幼児期|ようじき}⟦に→に：00314_ni⟧⟦{自然|しぜん}→自然：01423_shizen⟧⟦に→に：00314_ni⟧⟦{行|おこな}われる→行う：01238_okonau⟧。",
       "english": "First language acquisition occurs naturally during early childhood.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A linguistic term for the language a person learns first, often used in academic and educational contexts. Abbreviated as L1 in linguistics.\n\nCOMMON COLLOCATIONS:\n- {第一言語|だいいちげんご}の{習得|しゅうとく}: first language acquisition\n- {第一言語|だいいちげんご}{話者|わしゃ}: native speaker (of a first language)\n- {第一言語|だいいちげんご}と{第二言語|だいにげんご}: first language and second language\n\nSIMILAR WORDS:\n- {母語|ぼご}: mother tongue — the most common everyday term for one's native language\n- {母国語|ぼこくご}: national language of one's home country — slightly different nuance; refers to the language of one's country rather than what one acquired first\n- {第二言語|だいにげんご}: second language (L2) — the complement to {第一言語|だいいちげんご}\n\nUSAGE:\nMore technical than {母語|ぼご}. Used particularly in discussions of language acquisition, bilingualism, and language education policy. Important in contexts where a person may have grown up speaking a different language from the dominant language of their country.",
+  "notes": "A linguistic term for the language a person learns first, often used in academic and educational contexts. Abbreviated as L1 in linguistics.\n\nCOMMON COLLOCATIONS:\n- {第一言語|だいいちげんご}⟦の→の：09472_no⟧⟦{習得|しゅうとく}→習得：13903_shuutoku⟧: first language acquisition\n- {第一言語|だいいちげんご}{話者|わしゃ}: native speaker (of a first language)\n- {第一言語|だいいちげんご}⟦と→と：00512_to⟧⟦{第二言語|だいにげんご}→第二言語：22976_dainigengo⟧: first language and second language\n\nSIMILAR WORDS:\n- ⟦{母語|ぼご}→母語：13228_bogo⟧: mother tongue — the most common everyday term for one's native language\n- ⟦{母国語|ぼこくご}→母国語：13207_bokokugo⟧: national language of one's home country — slightly different nuance; refers to the language of one's country rather than what one acquired first\n- ⟦{第二言語|だいにげんご}→第二言語：22976_dainigengo⟧: second language (L2) — the complement to {第一言語|だいいちげんご}\n\nUSAGE:\nMore technical than ⟦{母語|ぼご}→母語：13228_bogo⟧. Used particularly in discussions of language acquisition, bilingualism, and language education policy. Important in contexts where a person may have grown up speaking a different language from the dominant language of their country.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13228_bogo",
+      "reading": "ぼご",
+      "headword": "{母語|ぼご}",
+      "label": "mother tongue"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13207_bokokugo",
+      "reading": "ぼこくご",
+      "headword": "{母国語|ぼこくご}",
+      "label": "national language of one's home country"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22976_dainigengo",
+      "reading": "だいにげんご",
+      "headword": "{第二言語|だいにげんご}",
+      "label": "second language"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -54,6 +83,6 @@
       ]
     },
     "created": "2026-03-31T15:34:25Z",
-    "modified": "2026-03-31T15:34:25Z"
+    "modified": "2026-09-02T04:02:02Z"
   }
 }

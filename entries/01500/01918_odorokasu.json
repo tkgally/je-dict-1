@@ -124,7 +124,7 @@
     },
     {
       "id": "01918_odorokasu_ex3",
-      "japanese": "⟦{世界|せかい}→世界：01447_sekai⟧⟦を→を：00422_wo⟧{驚|おどろ}かせた⟦{発見|はっけん}→発見：00085_hakken⟧。",
+      "japanese": "⟦{世界|せかい}→世界：01447_sekai⟧⟦を→を：00422_wo⟧⟦{驚|おどろ}かせた→驚く：01255_odoroku⟧⟦{発見|はっけん}→発見：00085_hakken⟧。",
       "english": "A discovery that astonished the world.",
       "notes": null,
       "has_audio": false,
@@ -144,7 +144,7 @@
     },
     {
       "id": "01918_odorokasu_ex5",
-      "japanese": "⟦{後|うし}ろ→後ろ：00683_ushiro⟧⟦から→から：00504_kara⟧⟦{急|きゅう}に→急：13042_kyuu⟧⟦{声|こえ}→声：02207_koe⟧⟦を→を：00422_wo⟧かけて⟦{人|ひと}→人：00476_hito⟧⟦を→を：00422_wo⟧{驚|おどろ}かす⟦の→の：09472_no⟧⟦は→は：00079_ha⟧よくない。",
+      "japanese": "⟦{後|うし}ろ→後ろ：00683_ushiro⟧⟦から→から：00504_kara⟧⟦{急|きゅう}に→急：13042_kyuu⟧⟦{声|こえ}→声：02207_koe⟧⟦を→を：00422_wo⟧⟦かけて→かける：00854_kakeru⟧⟦{人|ひと}→人：00476_hito⟧⟦を→を：00422_wo⟧{驚|おどろ}かす⟦の→の：09472_no⟧⟦は→は：00079_ha⟧⟦よくない→いい：00118_ii⟧。",
       "english": "It's not good to startle people by suddenly calling out from behind.",
       "notes": null,
       "has_audio": false,
@@ -153,7 +153,7 @@
       ]
     }
   ],
-  "notes": "{驚|おどろ}かす is a godan verb meaning to surprise, startle, or astonish someone.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- Pair: ⟦{驚|おどろ}く→驚く：01255_odoroku⟧ (intransitive, to be surprised)\n\nASPECT (ている):\n{驚|おどろ}かしている indicates ongoing or repeated surprising actions.\n\nCOMMON PATTERNS:\n- 〜⟦を→を：00422_wo⟧{驚|おどろ}かす: to surprise someone\n- ⟦{世界|せかい}→世界：01447_sekai⟧⟦を→を：00422_wo⟧{驚|おどろ}かせる: to astonish the world\n- ⟦サプライズ→サプライズ：10936_sapuraizu⟧⟦で→で：00502_de⟧{驚|おどろ}かす: to surprise with a surprise (party, etc.)\n\nUSAGE:\nUsed for both positive surprises (birthday parties) and negative startling (pranks, sudden noises).",
+  "notes": "{驚|おどろ}かす is a godan verb meaning to surprise, startle, or astonish someone.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- Pair: ⟦{驚|おどろ}く→驚く：01255_odoroku⟧ (intransitive, to be surprised)\n\nASPECT (ている):\n{驚|おどろ}かして⟦いる→いる：00495_iru⟧ indicates ongoing or repeated surprising actions.\n\nCOMMON PATTERNS:\n- 〜⟦を→を：00422_wo⟧{驚|おどろ}かす: to surprise someone\n- ⟦{世界|せかい}→世界：01447_sekai⟧⟦を→を：00422_wo⟧⟦{驚|おどろ}かせる→驚く：01255_odoroku⟧: to astonish the world\n- ⟦サプライズ→サプライズ：10936_sapuraizu⟧⟦で→で：00502_de⟧{驚|おどろ}かす: to surprise with a surprise (party, etc.)\n\nUSAGE:\nUsed for both positive surprises (birthday parties) and negative startling (pranks, sudden noises).",
   "prominent_see_also": [
     {
       "target_id": "01255_odoroku",
@@ -162,10 +162,18 @@
       "note": "intransitive"
     }
   ],
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25726_kowagaraseru",
+      "reading": "こわがらせる",
+      "headword": "{怖|こわ}がらせる",
+      "label": "to frighten"
+    }
+  ],
   "metadata": {
     "created": "2026-01-09T12:40:48Z",
-    "modified": "2026-05-17T17:14:21Z",
+    "modified": "2026-09-02T04:01:00Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

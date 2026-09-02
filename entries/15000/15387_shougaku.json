@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "15387_shougaku_ex1",
-      "japanese": "{少額|しょうがく}の{投資|とうし}から{始|はじ}める。",
+      "japanese": "{少額|しょうがく}⟦の→の：09472_no⟧⟦{投資|とうし}→投資：04711_toushi⟧⟦から→から：00504_kara⟧{始|はじ}める。",
       "english": "To start with a small investment.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15387_shougaku_ex2",
-      "japanese": "{少額|しょうがく}でも{毎月|まいつき}{貯金|ちょきん}することが{大切|たいせつ}だ。",
+      "japanese": "{少額|しょうがく}⟦で→で：00502_de⟧⟦も→も：00484_mo⟧⟦{毎月|まいつき}→毎月：00732_maitsuki⟧⟦{貯金|ちょきん}→貯金：03497_chokin⟧⟦する→する：00392_suru⟧こと⟦が→が：00051_ga⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧だ。",
       "english": "It's important to save money every month, even if it's a small amount.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15387_shougaku_ex3",
-      "japanese": "{少額|しょうがく}{訴訟|そしょう}は{手続|てつづ}きが{簡単|かんたん}で、{弁護士|べんごし}なしでも{起|お}こせる。",
+      "japanese": "{少額|しょうがく}⟦{訴訟|そしょう}→訴訟：07642_soshou⟧⟦は→は：00079_ha⟧⟦{手続|てつづ}き→手続き：05453_tetsuzuki⟧⟦が→が：00051_ga⟧⟦{簡単|かんたん}→簡単：00713_kantan⟧で、⟦{弁護士|べんごし}→弁護士：03150_bengoshi⟧なし⟦で→で：00502_de⟧⟦も→も：00484_mo⟧⟦{起|お}こせる→起こす：01234_okosu⟧。",
       "english": "Small claims lawsuits have simple procedures and can be filed without a lawyer.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{少額|しょうがく} means a small amount of money. It is a formal word commonly used in financial, legal, and business contexts.\n\nCOMPOUND:\n{少|しょう} (small, few) + {額|がく} (amount, sum).\n\nCOMMON COLLOCATIONS:\n- {少額|しょうがく}{投資|とうし}: small investment\n- {少額|しょうがく}{訴訟|そしょう}: small claims suit\n- {少額|しょうがく}{決済|けっさい}: small payment/transaction\n- {少額|しょうがく}から{始|はじ}める: to start with a small amount\n\nANTONYMS:\n- {高額|こうがく}: large amount of money (high value)\n- {多額|たがく}: large sum (emphasizes quantity)\n\nNOTE:\n{少額|しょうがく} specifically refers to money. For small amounts of other things, use {少量|しょうりょう} (small quantity) or {少数|しょうすう} (small number).",
+  "notes": "{少額|しょうがく} means a small amount of money. It is a formal word commonly used in financial, legal, and business contexts.\n\nCOMPOUNDS:\n{少|しょう} (small, few) + ⟦{額|がく}→額：02607_gaku⟧ (amount, sum).\n\nCOMMON COLLOCATIONS:\n- {少額|しょうがく}⟦{投資|とうし}→投資：04711_toushi⟧: small investment\n- {少額|しょうがく}⟦{訴訟|そしょう}→訴訟：07642_soshou⟧: small claims suit\n- {少額|しょうがく}⟦{決済|けっさい}→決済：05466_kessai⟧: small payment/transaction\n- {少額|しょうがく}⟦から→から：00504_kara⟧{始|はじ}める: to start with a small amount\n\nSIMILAR WORDS:\n- ⟦{高額|こうがく}→高額：14704_kougaku⟧: large amount of money (high value)\n- ⟦{多額|たがく}→多額：12309_tagaku⟧: large sum (emphasizes quantity)\n\nUSAGE:\n{少額|しょうがく} specifically refers to money. For small amounts of other things, use ⟦{少量|しょうりょう}→少量：12436_shouryou⟧ (small quantity) or ⟦{少数|しょうすう}→少数：05611_shousuu⟧ (small number).",
   "cross_references": [
     {
       "type": "antonym",
@@ -46,18 +52,36 @@
       "reading": "たがく",
       "headword": "{多額|たがく}",
       "label": "large sum"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14704_kougaku",
+      "reading": "こうがく",
+      "headword": "{高額|こうがく}",
+      "label": "large amount of money"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23841_koguchi",
+      "reading": "こぐち",
+      "headword": "{小口|こぐち}",
+      "label": "small amount"
     }
   ],
   "metadata": {
     "created": "2026-03-06T12:31:57Z",
-    "modified": "2026-04-26T09:20:33Z",
+    "modified": "2026-09-02T04:01:41Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["quantity"]
+      "semantic": [
+        "quantity"
+      ]
     }
   }
 }

@@ -3,7 +3,7 @@
   "headword": "{編集|へんしゅう}する",
   "reading": "へんしゅうする",
   "romaji": "henshuusuru",
-  "part_of_speech": "noun, verb (する)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "to edit; to compile",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "21991_henshuusuru_ex1",
-      "japanese": "{動画|どうが}を{編集|へんしゅう}する。",
+      "japanese": "⟦{動画|どうが}→動画：04443_douga⟧⟦を→を：00422_wo⟧{編集|へんしゅう}する。",
       "english": "To edit a video.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "21991_henshuusuru_ex2",
-      "japanese": "{彼|かれ}は{雑誌|ざっし}の{記事|きじ}を{編集|へんしゅう}している。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{雑誌|ざっし}→雑誌：00686_zasshi⟧⟦の→の：09472_no⟧⟦{記事|きじ}→記事：00227_kiji⟧⟦を→を：00422_wo⟧{編集|へんしゅう}して⟦いる→いる：00495_iru⟧。",
       "english": "He is editing a magazine article.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "21991_henshuusuru_ex3",
-      "japanese": "{撮影|さつえい}した{写真|しゃしん}をアプリで{編集|へんしゅう}してからSNSに{投稿|とうこう}した。",
+      "japanese": "⟦{撮影|さつえい}した→撮影する：21990_satsueisuru⟧⟦{写真|しゃしん}→写真：00753_shashin⟧⟦を→を：00422_wo⟧⟦アプリ→アプリ：04722_apuri⟧⟦で→で：00502_de⟧{編集|へんしゅう}して⟦から→から：00504_kara⟧SNS⟦に→に：00314_ni⟧⟦{投稿|とうこう}した→投稿する：18994_toukousuru⟧。",
       "english": "I edited the photos I took with an app before posting them on social media.",
       "sense_numbers": [
         1
@@ -134,7 +134,7 @@
       "notes": null
     }
   ],
-  "notes": "A versatile word covering all types of editing — text, video, audio, images, and code. In modern usage, especially common in the context of digital content creation.\n\nCOMMON COLLOCATIONS:\n- {動画|どうが}を{編集|へんしゅう}する: to edit a video\n- {原稿|げんこう}を{編集|へんしゅう}する: to edit a manuscript\n- {編集|へんしゅう}{者|しゃ}: editor\n- {編集|へんしゅう}{部|ぶ}: editorial department\n- {編集|へんしゅう}{長|ちょう}: editor-in-chief\n- {編集|へんしゅう}{作業|さぎょう}: editing work\n\nSIMILAR WORDS:\n- {校正|こうせい}する: to proofread — checking for errors in a near-final text\n- {修正|しゅうせい}する: to revise, correct — making specific fixes\n- {加工|かこう}する: to process, retouch — often used for image editing",
+  "notes": "A versatile word covering all types of editing — text, video, audio, images, and code. In modern usage, especially common in the context of digital content creation.\n\nCOMMON COLLOCATIONS:\n- ⟦{動画|どうが}→動画：04443_douga⟧⟦を→を：00422_wo⟧{編集|へんしゅう}する: to edit a video\n- ⟦{原稿|げんこう}→原稿：00064_genkou⟧⟦を→を：00422_wo⟧{編集|へんしゅう}する: to edit a manuscript\n- ⟦{編集|へんしゅう}{者|しゃ}→編集者：09587_henshuusha⟧: editor\n- ⟦{編集|へんしゅう}→編集：04439_henshuu⟧⟦{部|ぶ}→〜部：00440_bu⟧: editorial department\n- ⟦{編集|へんしゅう}→編集：04439_henshuu⟧⟦{長|ちょう}→〜長：04665_chou⟧: editor-in-chief\n- ⟦{編集|へんしゅう}→編集：04439_henshuu⟧⟦{作業|さぎょう}→作業：02775_sagyou⟧: editing work\n\nSIMILAR WORDS:\n- ⟦{校正|こうせい}→校正：21081_kousei⟧⟦する→する：00392_suru⟧: to proofread — checking for errors in a near-final text\n- ⟦{修正|しゅうせい}する→修正する：25527_shuuseisuru⟧: to revise, correct — making specific fixes\n- ⟦{加工|かこう}する→加工する：25223_kakousuru⟧: to process, retouch — often used for image editing",
   "prominent_see_also": [
     {
       "target_id": "04439_henshuu",
@@ -144,6 +144,29 @@
     }
   ],
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21081_kousei",
+      "reading": "こうせい",
+      "headword": "{校正|こうせい}",
+      "label": "to proofread"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25527_shuuseisuru",
+      "reading": "しゅうせいする",
+      "headword": "{修正|しゅうせい}する",
+      "label": "to revise, correct"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25223_kakousuru",
+      "reading": "かこうする",
+      "headword": "{加工|かこう}する",
+      "label": "to process, retouch"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -157,9 +180,10 @@
         "media",
         "work"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-04-04T19:29:57Z",
-    "modified": "2026-04-08T02:02:20Z"
+    "modified": "2026-09-02T04:02:06Z"
   }
 }

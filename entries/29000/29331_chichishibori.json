@@ -15,39 +15,58 @@
   "examples": [
     {
       "id": "29331_chichishibori_ex1",
-      "japanese": "{牧場|ぼくじょう}で{乳搾|ちちしぼ}りを{体験|たいけん}した。",
+      "japanese": "⟦{牧場|ぼくじょう}→牧場：06103_bokujou⟧⟦で→で：00502_de⟧{乳搾|ちちしぼ}り⟦を→を：00422_wo⟧⟦{体験|たいけん}した→体験する：09858_taikensuru⟧。",
       "english": "I tried milking at a ranch.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29331_chichishibori_ex2",
-      "japanese": "{毎朝|まいあさ}{牛|うし}の{乳搾|ちちしぼ}りをする。",
+      "japanese": "⟦{毎朝|まいあさ}→毎朝：00966_maiasa⟧⟦{牛|うし}→牛：01857_ushi⟧⟦の→の：09472_no⟧{乳搾|ちちしぼ}り⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧。",
       "english": "I milk the cows every morning.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29331_chichishibori_ex3",
-      "japanese": "{昔|むかし}は{手|て}で{乳搾|ちちしぼ}りをしていたが、{今|いま}は{機械|きかい}を{使|つか}う{農家|のうか}が{多|おお}い。",
+      "japanese": "⟦{昔|むかし}→昔：01515_mukashi⟧⟦は→は：00079_ha⟧⟦{手|て}→手：00569_te⟧⟦で→で：00502_de⟧{乳搾|ちちしぼ}り⟦を→を：00422_wo⟧⟦していた→する：00392_suru⟧⟦が→が：00051_ga⟧、⟦{今|いま}→今：00945_ima⟧⟦は→は：00079_ha⟧⟦{機械|きかい}→機械：02366_kikai⟧⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧⟦{農家|のうか}→農家：03539_nouka⟧⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "In the past milking was done by hand, but now many farms use machines.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {乳|ちち} (milk) + {搾|しぼ}り (squeezing, from {搾|しぼ}る, to wring or press out).\n\nCOMMON COLLOCATIONS:\n- {乳搾|ちちしぼ}りを{体験|たいけん}する: to try milking as a hands-on experience\n- {手|て}{搾|しぼ}りの{乳搾|ちちしぼ}り: hand-milking\n- {牛|うし}の{乳搾|ちちしぼ}り: milking a cow",
+  "notes": "Composed of ⟦{乳|ちち}→乳：19347_chichi⟧ (milk) + {搾|しぼ}り (squeezing, from ⟦{搾|しぼ}る→搾る：18724_shiboru⟧, to wring or press out).\n\nCOMMON COLLOCATIONS:\n- {乳搾|ちちしぼ}り⟦を→を：00422_wo⟧⟦{体験|たいけん}する→体験する：09858_taikensuru⟧: to try milking as a hands-on experience\n- ⟦{手|て}→手：00569_te⟧{搾|しぼ}り⟦の→の：09472_no⟧{乳搾|ちちしぼ}り: hand-milking\n- ⟦{牛|うし}→牛：01857_ushi⟧⟦の→の：09472_no⟧{乳搾|ちちしぼ}り: milking a cow",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24182_sakunyuu",
+      "reading": "さくにゅう",
+      "headword": "{搾乳|さくにゅう}",
+      "label": "milking (a cow or other animal)"
+    }
+  ],
   "metadata": {
     "created": "2026-06-18T15:20:33Z",
-    "modified": "2026-06-18T15:20:33Z",
+    "modified": "2026-09-02T04:02:36Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["work"],
+      "politeness": "plain",
+      "semantic": [
+        "work"
+      ],
       "domain": []
     }
   }

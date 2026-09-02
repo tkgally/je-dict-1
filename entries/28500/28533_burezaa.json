@@ -15,41 +15,74 @@
   "examples": [
     {
       "id": "28533_burezaa_ex1",
-      "japanese": "{紺色|こんいろ}のブレザーを{着|き}た。",
+      "japanese": "⟦{紺色|こんいろ}→紺色：13792_koniro⟧⟦の→の：09472_no⟧ブレザー⟦を→を：00422_wo⟧⟦{着|き}た→着る：00541_kiru⟧。",
       "english": "I put on a navy blazer.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28533_burezaa_ex2",
-      "japanese": "この{高校|こうこう}の{制服|せいふく}はブレザーだ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{高校|こうこう}→高校：01083_koukou⟧⟦の→の：09472_no⟧⟦{制服|せいふく}→制服：03086_seifuku⟧⟦は→は：00079_ha⟧ブレザーだ。",
       "english": "This high school's uniform is a blazer style.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28533_burezaa_ex3",
-      "japanese": "{面接|めんせつ}にはブレザーとスラックスで{行|い}くつもりだ。",
+      "japanese": "⟦{面接|めんせつ}→面接：01100_mensetsu⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧ブレザー⟦と→と：00512_to⟧⟦スラックス→スラックス：18433_surakkusu⟧⟦で→で：00502_de⟧⟦{行|い}く→行く：00119_iku⟧⟦つもり→つもり：01152_tsumori⟧だ。",
       "english": "I plan to go to the interview in a blazer and slacks.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "From English \"blazer.\" In Japan, often evokes school uniforms — many junior high and high schools have adopted ブレザー-style uniforms in place of the older {学|がく}{ラン|らん}/セーラー{服|ふく} styles.\n\nCOMMON COLLOCATIONS:\n- ブレザーを{着|き}る: to wear a blazer\n- ブレザーの{制服|せいふく}: blazer-style uniform\n- {紺|こん}のブレザー: navy blazer\n- ブレザー{姿|すがた}: someone dressed in a blazer\n\nSIMILAR WORDS:\n- ジャケット: jacket — broader term covering many jacket styles, including blazers\n- スーツ: suit — a matching jacket and trousers/skirt; more formal than ブレザー",
+  "notes": "From English \"blazer.\" In Japan, often evokes school uniforms — many junior high and high schools have adopted ブレザー-style uniforms in place of the older ⟦{学|がく}ラン→学ラン：18414_gakuran⟧/⟦セーラー{服|ふく}→セーラー服：17677_seeraafuku⟧ styles.\n\nCOMMON COLLOCATIONS:\n- ブレザー⟦を→を：00422_wo⟧⟦{着|き}る→着る：00541_kiru⟧: to wear a blazer\n- ブレザー⟦の→の：09472_no⟧⟦{制服|せいふく}→制服：03086_seifuku⟧: blazer-style uniform\n- ⟦{紺|こん}→紺：03885_kon⟧⟦の→の：09472_no⟧ブレザー: navy blazer\n- ブレザー⟦{姿|すがた}→姿：03363_sugata⟧: someone dressed in a blazer\n\nSIMILAR WORDS:\n- ⟦ジャケット→ジャケット：04522_jaketto⟧: jacket — broader term covering many jacket styles, including blazers\n- ⟦スーツ→スーツ：01367_suutsu⟧: suit — a matching jacket and trousers/skirt; more formal than ブレザー",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04522_jaketto",
+      "reading": "じゃけっと",
+      "headword": "ジャケット",
+      "label": "jacket"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01367_suutsu",
+      "reading": "すーつ",
+      "headword": "スーツ",
+      "label": "suit"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23433_buruzon",
+      "reading": "ぶるぞん",
+      "headword": "ブルゾン",
+      "label": "blouson"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["clothing"],
+      "politeness": "plain",
+      "semantic": [
+        "clothing"
+      ],
       "domain": []
     },
     "created": "2026-06-01T04:07:37Z",
-    "modified": "2026-06-01T04:07:37Z"
+    "modified": "2026-09-02T04:02:34Z"
   }
 }

@@ -4,7 +4,7 @@
   "reading": "ふごうか",
   "romaji": "fugouka",
   "schema_version": "2.0",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "encoding (math/computing)",
   "definitions": [
     {
@@ -16,7 +16,7 @@
   "examples": [
     {
       "id": "27345_fugouka_ex1",
-      "japanese": "{文字|もじ}の{符号化|ふごうか}が{違|ちが}う。",
+      "japanese": "⟦{文字|もじ}→文字：03632_moji⟧⟦の→の：09472_no⟧{符号化|ふごうか}⟦が→が：00051_ga⟧⟦{違|ちが}う→違う：01957_chigau⟧。",
       "english": "The character encoding is different.",
       "sense_numbers": [
         1
@@ -26,7 +26,7 @@
     },
     {
       "id": "27345_fugouka_ex2",
-      "japanese": "このファイルはUTF-8で{符号化|ふごうか}されている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦ファイル→ファイル：05280_fairu⟧⟦は→は：00079_ha⟧UTF-8⟦で→で：00502_de⟧{符号化|ふごうか}⟦されている→する：00392_suru⟧。",
       "english": "This file is encoded in UTF-8.",
       "sense_numbers": [
         1
@@ -36,7 +36,7 @@
     },
     {
       "id": "27345_fugouka_ex3",
-      "japanese": "{動画|どうが}を{送信|そうしん}する{前|まえ}にH.264で{符号化|ふごうか}する。",
+      "japanese": "⟦{動画|どうが}→動画：04443_douga⟧⟦を→を：00422_wo⟧⟦{送信|そうしん}する→送信する：26780_soushinsuru⟧⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧H.264⟦で→で：00502_de⟧{符号化|ふごうか}⟦する→する：00392_suru⟧。",
       "english": "Before transmitting the video, we encode it in H.264.",
       "sense_numbers": [
         1
@@ -46,7 +46,7 @@
     },
     {
       "id": "27345_fugouka_ex4",
-      "japanese": "{情報|じょうほう}{理論|りろん}では、データを{効率|こうりつ}{良|よ}く{符号化|ふごうか}する{方法|ほうほう}や、{誤|あやま}りを{訂正|ていせい}できる{符号化|ふごうか}{方式|ほうしき}が{研究|けんきゅう}されている。",
+      "japanese": "⟦{情報|じょうほう}→情報：03348_jouhou⟧⟦{理論|りろん}→理論：04708_riron⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧、⟦データ→データ：03944_deeta⟧⟦を→を：00422_wo⟧⟦{効率|こうりつ}→効率：11794_kouritsu⟧⟦{良|よ}く→良い：02350_yoi⟧{符号化|ふごうか}⟦する→する：00392_suru⟧⟦{方法|ほうほう}→方法：03621_houhou⟧や、⟦{誤|あやま}り→誤り：01772_ayamari⟧⟦を→を：00422_wo⟧⟦{訂正|ていせい}できる→訂正する：10443_teiseisuru⟧{符号化|ふごうか}⟦{方式|ほうしき}→方式：05454_houshiki⟧⟦が→が：00051_ga⟧⟦{研究|けんきゅう}→研究：01396_kenkyuu⟧⟦されている→する：00392_suru⟧。",
       "english": "In information theory, researchers study ways to encode data efficiently as well as encoding schemes that can correct errors.",
       "sense_numbers": [
         1
@@ -55,10 +55,33 @@
       "notes": null
     }
   ],
-  "notes": "{符号化|ふごうか} is a technical term meaning \"encoding,\" formed from {符号|ふごう} (\"code, sign\") and the productive suffix ~{化|か} (\"-ization\"). It is used across mathematics, information theory, telecommunications, and computer science, and is the standard formal translation for English \"encoding\" in academic and technical writing.\n\nFORMATION:\n- {符号|ふごう} (\"code, symbol\") + ~{化|か} (\"-ization, becoming\") → {符号化|ふごうか}\n\nCOMMON COLLOCATIONS:\n- {文字|もじ}{符号化|ふごうか} / {文字|もじ}{符号化|ふごうか}{方式|ほうしき}: character encoding / character encoding scheme\n- {符号化|ふごうか}する: to encode\n- {符号化|ふごうか}される: to be encoded\n- {符号化|ふごうか}{方式|ほうしき}: encoding scheme / coding system\n- {音声|おんせい}{符号化|ふごうか}: audio encoding / speech coding\n- {映像|えいぞう}{符号化|ふごうか}: video encoding\n- {誤|あやま}り{訂正|ていせい}{符号化|ふごうか}: error-correcting coding\n\nSIMILAR / CONTRASTING TERMS:\n- {復号|ふくごう} / {復号化|ふくごうか}: decoding (the inverse operation)\n- エンコード: encode (loanword; common in everyday IT contexts, especially file conversions)\n- デコード: decode (the loanword counterpart)\n- {暗号化|あんごうか}: encryption (a related but distinct operation; encrypts for secrecy rather than to convert form)\n- {圧縮|あっしゅく}: compression (often combined with encoding for audio/video codecs)\n\nUSAGE NOTES:\n- In casual programming and IT speech, the loanword エンコード is more common (\"このファイル、UTF-8でエンコードしてある\"). {符号化|ふごうか} is preferred in academic papers, formal documentation, and standards documents.\n- {符号化|ふごうか} should not be confused with {暗号化|あんごうか} (\"encryption\"), which specifically refers to converting data into a form unreadable without a key. Encoding ({符号化|ふごうか}) is about representation, encryption ({暗号化|あんごうか}) is about secrecy.",
+  "notes": "{符号化|ふごうか} is a technical term meaning \"encoding,\" formed from ⟦{符号|ふごう}→符号：00042_fugou⟧ (\"code, sign\") and the productive suffix ~⟦{化|か}→〜化：28335_ka⟧ (\"-ization\"). It is used across mathematics, information theory, telecommunications, and computer science, and is the standard formal translation for English \"encoding\" in academic and technical writing.\n\nFORMS:\n- ⟦{符号|ふごう}→符号：00042_fugou⟧ (\"code, symbol\") + ~⟦{化|か}→〜化：28335_ka⟧ (\"-ization, becoming\") → {符号化|ふごうか}\n\nCOMMON COLLOCATIONS:\n- ⟦{文字|もじ}→文字：03632_moji⟧{符号化|ふごうか} / ⟦{文字|もじ}→文字：03632_moji⟧{符号化|ふごうか}⟦{方式|ほうしき}→方式：05454_houshiki⟧: character encoding / character encoding scheme\n- {符号化|ふごうか}⟦する→する：00392_suru⟧: to encode\n- {符号化|ふごうか}⟦される→する：00392_suru⟧: to be encoded\n- {符号化|ふごうか}⟦{方式|ほうしき}→方式：05454_houshiki⟧: encoding scheme / coding system\n- ⟦{音声|おんせい}→音声：04445_onsei⟧{符号化|ふごうか}: audio encoding / speech coding\n- ⟦{映像|えいぞう}→映像：04444_eizou⟧{符号化|ふごうか}: video encoding\n- ⟦{誤|あやま}り→誤り：01772_ayamari⟧⟦{訂正|ていせい}→訂正：16493_teisei⟧{符号化|ふごうか}: error-correcting coding\n\nSIMILAR / CONTRASTING TERMS:\n- ⟦{復号|ふくごう}→復号：08416_fukugou⟧ / {復号化|ふくごうか}: decoding (the inverse operation)\n- エンコード: encode (loanword; common in everyday IT contexts, especially file conversions)\n- デコード: decode (the loanword counterpart)\n- ⟦{暗号化|あんごうか}→暗号化：08415_angouka⟧: encryption (a related but distinct operation; encrypts for secrecy rather than to convert form)\n- ⟦{圧縮|あっしゅく}→圧縮：04884_asshuku⟧: compression (often combined with encoding for audio/video codecs)\n\nUSAGE:\n- In casual programming and IT speech, the loanword エンコード is more common (\"⟦この→この：00962_kono⟧⟦ファイル→ファイル：05280_fairu⟧、UTF-8⟦で→で：00502_de⟧エンコード⟦してある→する：00392_suru⟧\"). {符号化|ふごうか} is preferred in academic papers, formal documentation, and standards documents.\n- {符号化|ふごうか} should not be confused with ⟦{暗号化|あんごうか}→暗号化：08415_angouka⟧ (\"encryption\"), which specifically refers to converting data into a form unreadable without a key. Encoding ({符号化|ふごうか}) is about representation, encryption (⟦{暗号化|あんごうか}→暗号化：08415_angouka⟧) is about secrecy.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08416_fukugou",
+      "reading": "ふくごう",
+      "headword": "{復号|ふくごう}",
+      "label": "decoding"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08415_angouka",
+      "reading": "あんごうか",
+      "headword": "{暗号化|あんごうか}",
+      "label": "encryption (a related but distinct…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04884_asshuku",
+      "reading": "あっしゅく",
+      "headword": "{圧縮|あっしゅく}",
+      "label": "compression"
+    }
+  ],
   "metadata": {
     "created": "2026-05-09T12:08:45Z",
-    "modified": "2026-05-09T12:08:45Z",
+    "modified": "2026-09-02T04:02:30Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

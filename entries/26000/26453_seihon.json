@@ -15,39 +15,67 @@
   "examples": [
     {
       "id": "26453_seihon_ex1",
-      "japanese": "{契約書|けいやくしょ}の{正本|せいほん}を{保管|ほかん}する。",
+      "japanese": "⟦{契約書|けいやくしょ}→契約書：06416_keiyakusho⟧⟦の→の：09472_no⟧{正本|せいほん}⟦を→を：00422_wo⟧⟦{保管|ほかん}する→保管する：25536_hokansuru⟧。",
       "english": "To keep the original copy of the contract.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26453_seihon_ex2",
-      "japanese": "{判決|はんけつ}の{正本|せいほん}が{裁判所|さいばんしょ}から{届|とど}いた。",
+      "japanese": "⟦{判決|はんけつ}→判決：05906_hanketsu⟧⟦の→の：09472_no⟧{正本|せいほん}⟦が→が：00051_ga⟧⟦{裁判所|さいばんしょ}→裁判所：09665_saibansho⟧⟦から→から：00504_kara⟧⟦{届|とど}いた→届く：00899_todoku⟧。",
       "english": "The official copy of the verdict arrived from the court.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26453_seihon_ex3",
-      "japanese": "この{文書|ぶんしょ}はコピーではなく{正本|せいほん}であることを{確認|かくにん}してください。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{文書|ぶんしょ}→文書：12947_bunsho⟧⟦は→は：00079_ha⟧⟦コピー→コピー：04883_kopii⟧⟦ではなく→ではなく：09578_dehanaku⟧{正本|せいほん}⟦である→である：09855_dearu⟧こと⟦を→を：00422_wo⟧⟦{確認|かくにん}して→確認する：25332_kakuninsuru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please confirm that this document is the original, not a copy.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {正|せい} (correct, authentic) and {本|ほん} (book, document). In legal contexts, the {正本|せいほん} is a certified copy issued by a court that has the same effect as the original. Distinct from an ordinary copy ({写|うつ}し or コピー).\n\nCOMMON COLLOCATIONS:\n- {正本|せいほん}を{交付|こうふ}する: to issue an official copy\n- {正本|せいほん}を{保管|ほかん}する: to store the original\n- {判決|はんけつ}{正本|せいほん}: certified copy of a judgment\n- {契約|けいやく}{正本|せいほん}: original contract document\n\nSIMILAR WORDS:\n- {原本|げんぽん}: original — the very first version of a document from which copies are made\n- {副本|ふくほん}: duplicate, secondary copy — an official copy made alongside the original\n- {謄本|とうほん}: certified copy — a full copy of an official register, such as a family register ({戸籍|こせき}{謄本|とうほん})",
-  "cross_references": [],
+  "notes": "Composed of ⟦{正|せい}→正：09511_sei⟧ (correct, authentic) and {本|ほん} (book, document). In legal contexts, the {正本|せいほん} is a certified copy issued by a court that has the same effect as the original. Distinct from an ordinary copy (⟦{写|うつ}し→写し：22466_utsushi⟧ or ⟦コピー→コピー：04883_kopii⟧).\n\nCOMMON COLLOCATIONS:\n- {正本|せいほん}⟦を→を：00422_wo⟧⟦{交付|こうふ}する→交付する：19899_koufusuru⟧: to issue an official copy\n- {正本|せいほん}⟦を→を：00422_wo⟧⟦{保管|ほかん}する→保管する：25536_hokansuru⟧: to store the original\n- ⟦{判決|はんけつ}→判決：05906_hanketsu⟧{正本|せいほん}: certified copy of a judgment\n- ⟦{契約|けいやく}→契約：02698_keiyaku⟧{正本|せいほん}: original contract document\n\nSIMILAR WORDS:\n- ⟦{原本|げんぽん}→原本：15697_genpon⟧: original — the very first version of a document from which copies are made\n- {副本|ふくほん}: duplicate, secondary copy — an official copy made alongside the original\n- ⟦{謄本|とうほん}→謄本：29796_touhon⟧: certified copy — a full copy of an official register, such as a family register (⟦{戸籍|こせき}{謄本|とうほん}→戸籍謄本：10286_kosekitouhon⟧)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15697_genpon",
+      "reading": "げんぽん",
+      "headword": "{原本|げんぽん}",
+      "label": "original"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29796_touhon",
+      "reading": "とうほん",
+      "headword": "{謄本|とうほん}",
+      "label": "certified copy"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["law", "work"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "law",
+        "work"
+      ]
     },
     "created": "2026-05-02T11:28:07Z",
-    "modified": "2026-05-02T11:28:07Z"
+    "modified": "2026-09-02T04:02:26Z"
   }
 }

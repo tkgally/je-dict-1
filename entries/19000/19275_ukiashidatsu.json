@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "19275_ukiashidatsu_ex1",
-      "japanese": "{敵|てき}の{攻撃|こうげき}に{浮|う}き{足|あし}{立|だ}った。",
+      "japanese": "⟦{敵|てき}→敵：03546_teki⟧⟦の→の：09472_no⟧⟦{攻撃|こうげき}→攻撃：02748_kougeki⟧⟦に→に：00314_ni⟧{浮|う}き{足|あし}{立|だ}った。",
       "english": "They panicked under the enemy's attack.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "19275_ukiashidatsu_ex2",
-      "japanese": "{噂|うわさ}を{聞|き}いて{社内|しゃない}が{浮|う}き{足|あし}{立|だ}っている。",
+      "japanese": "⟦{噂|うわさ}→噂：01871_uwasa⟧⟦を→を：00422_wo⟧⟦{聞|き}いて→聞く：00483_kiku⟧⟦{社内|しゃない}→社内：13731_shanai⟧⟦が→が：00051_ga⟧{浮|う}き{足|あし}{立|だ}って⟦いる→いる：00495_iru⟧。",
       "english": "The office is on edge after hearing the rumor.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "19275_ukiashidatsu_ex3",
-      "japanese": "リストラの{話|はなし}が{出|で}て、{社員|しゃいん}たちが{浮|う}き{足|あし}{立|だ}っている。",
+      "japanese": "⟦リストラ→リストラ：04689_risutora⟧⟦の→の：09472_no⟧⟦{話|はなし}→話：01496_hanashi⟧⟦が→が：00051_ga⟧⟦{出|で}て→出る：00513_deru⟧、⟦{社員|しゃいん}→社員：03065_shain⟧たち⟦が→が：00051_ga⟧{浮|う}き{足|あし}{立|だ}って⟦いる→いる：00495_iru⟧。",
       "english": "Talk of layoffs has the employees in a state of panic.",
       "sense_numbers": [
         1
@@ -134,8 +134,31 @@
       "notes": null
     }
   ],
-  "notes": "Literally describes feet ({足|あし}) that are lifted ({浮|う}く), as if ready to flee. The image is of someone on their toes, unable to stand firmly because of anxiety or fear.\n\nCOMMON COLLOCATIONS:\n- {浮|う}き{足|あし}{立|だ}った{様子|ようす}: a restless/panicked demeanor\n- {浮|う}き{足|あし}{立|だ}っている: to be in a state of panic\n\nSIMILAR WORDS:\n- {慌|あわ}てる: to panic, to be flustered — more general, can apply to individual situations\n- {動揺|どうよう}する: to be shaken, to be unsettled — focuses on emotional disturbance\n- {狼狽|ろうばい}する: to be thrown into confusion — stronger, implies complete loss of composure\n\nNOTE:\nIn recent years, some speakers use {浮|う}き{足|あし}{立|だ}つ positively to mean \"excited, eager\" (e.g., excited before a trip), but this is considered a non-standard usage by language authorities. The traditional meaning is negative — anxious and wanting to flee.",
+  "notes": "Literally describes feet (⟦{足|あし}→足：00575_ashi⟧) that are lifted (⟦{浮|う}く→浮く：00413_uku⟧), as if ready to flee. The image is of someone on their toes, unable to stand firmly because of anxiety or fear.\n\nCOMMON COLLOCATIONS:\n- {浮|う}き{足|あし}{立|だ}った⟦{様子|ようす}→様子：01521_yousu⟧: a restless/panicked demeanor\n- {浮|う}き{足|あし}{立|だ}って⟦いる→いる：00495_iru⟧: to be in a state of panic\n\nSIMILAR WORDS:\n- ⟦{慌|あわ}てる→慌てる：01874_awateru⟧: to panic, to be flustered — more general, can apply to individual situations\n- ⟦{動揺|どうよう}する→動揺する：25352_douyousuru⟧: to be shaken, to be unsettled — focuses on emotional disturbance\n- ⟦{狼狽|ろうばい}→狼狽：08683_roubai⟧⟦する→する：00392_suru⟧: to be thrown into confusion — stronger, implies complete loss of composure\n\nUSAGE:\nIn recent years, some speakers use {浮|う}き{足|あし}{立|だ}つ positively to mean \"excited, eager\" (e.g., excited before a trip), but this is considered a non-standard usage by language authorities. The traditional meaning is negative — anxious and wanting to flee.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01874_awateru",
+      "reading": "あわてる",
+      "headword": "{慌|あわ}てる",
+      "label": "to panic, to be flustered"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25352_douyousuru",
+      "reading": "どうようする",
+      "headword": "{動揺|どうよう}する",
+      "label": "to be shaken, to be unsettled"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08683_roubai",
+      "reading": "ろうばい",
+      "headword": "{狼狽|ろうばい}",
+      "label": "to be thrown into confusion"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -147,9 +170,10 @@
       "semantic": [
         "emotion"
       ],
-      "verb_class": "godan-tsu"
+      "verb_class": "godan-tsu",
+      "transitivity": "intransitive"
     },
     "created": "2026-03-25T03:40:33Z",
-    "modified": "2026-03-25T03:40:33Z"
+    "modified": "2026-09-02T04:01:55Z"
   }
 }

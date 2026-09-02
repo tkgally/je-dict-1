@@ -2,7 +2,7 @@
   "id": "03758_zenshin",
   "headword": "{前進|ぜんしん}",
   "reading": "ぜんしん",
-  "part_of_speech": "noun / suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "advance, progress",
   "conjugation": {
     "type": "suru",
@@ -168,7 +168,7 @@
       ]
     }
   ],
-  "notes": "ANTONYM:\n・⟦{後退|こうたい}→後退：12556_koutai⟧ (retreat, regression)\n\nCOMMON COLLOCATIONS:\n・{前進|ぜんしん}⟦する→する：00392_suru⟧ (to advance, to make progress)\n・{前進|ぜんしん}⟦を→を：00422_wo⟧⟦{続|つづ}ける→続ける：01231_tsuzukeru⟧ (to continue advancing)\n・⟦{一歩|いっぽ}→一歩：08890_ippo⟧{前進|ぜんしん} (one step forward)\n・{前進|ぜんしん}⟦{基地|きち}→基地：03982_kichi⟧ (forward base - military)\n\nSIMILAR WORDS:\n・⟦{進歩|しんぽ}→進歩：03265_shinpo⟧ (progress, improvement - general)\n・⟦{発展|はってん}→発展：03561_hatten⟧ (development, growth)\n・{前進|ぜんしん} (advance - often physical or concrete)",
+  "notes": "SIMILAR WORDS:\n- ⟦{後退|こうたい}→後退：12556_koutai⟧ (retreat, regression)\n- ⟦{進歩|しんぽ}→進歩：03265_shinpo⟧ (progress, improvement - general)\n- ⟦{発展|はってん}→発展：03561_hatten⟧ (development, growth)\n- {前進|ぜんしん} (advance - often physical or concrete)\n\nCOMMON COLLOCATIONS:\n- {前進|ぜんしん}⟦する→する：00392_suru⟧ (to advance, to make progress)\n- {前進|ぜんしん}⟦を→を：00422_wo⟧⟦{続|つづ}ける→続ける：01231_tsuzukeru⟧ (to continue advancing)\n- ⟦{一歩|いっぽ}→一歩：08890_ippo⟧{前進|ぜんしん} (one step forward)\n- {前進|ぜんしん}⟦{基地|きち}→基地：03982_kichi⟧ (forward base - military)",
   "cross_references": [
     {
       "type": "antonym",
@@ -183,11 +183,25 @@
       "headword": "{進歩|しんぽ}",
       "label": "progress",
       "target_id": "03265_shinpo"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03561_hatten",
+      "reading": "はってん",
+      "headword": "{発展|はってん}",
+      "label": "development, growth"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07377_shinchoku",
+      "reading": "しんちょく",
+      "headword": "{進捗|しんちょく}",
+      "label": "progress"
     }
   ],
   "metadata": {
     "created": "2026-01-12T12:48:00Z",
-    "modified": "2026-05-27T15:35:00Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

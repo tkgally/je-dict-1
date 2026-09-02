@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30146_tesabaki_ex1",
-      "japanese": "{見事|みごと}な{手|て}さばきだ。",
+      "japanese": "⟦{見事|みごと}→見事：03744_migoto⟧な{手|て}さばきだ。",
       "english": "What splendid handiwork.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30146_tesabaki_ex2",
-      "japanese": "{職人|しょくにん}の{手|て}さばきに{目|め}を{奪|うば}われた。",
+      "japanese": "⟦{職人|しょくにん}→職人：09868_shokunin⟧⟦の→の：09472_no⟧{手|て}さばき⟦に→に：00314_ni⟧⟦{目|め}→目：00525_me⟧⟦を→を：00422_wo⟧⟦{奪|うば}われた→奪う：01895_ubau⟧。",
       "english": "I was captivated by the craftsman's handling.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30146_tesabaki_ex3",
-      "japanese": "{板前|いたまえ}は{慣|な}れた{手|て}さばきで{魚|さかな}を{三枚|さんまい}におろした。",
+      "japanese": "⟦{板前|いたまえ}→板前：13118_itamae⟧⟦は→は：00079_ha⟧⟦{慣|な}れた→慣れる：00870_nareru⟧{手|て}さばき⟦で→で：00502_de⟧⟦{魚|さかな}→魚：00499_sakana⟧⟦を→を：00422_wo⟧{三枚|さんまい}におろした。",
       "english": "With practiced hands the chef filleted the fish into three pieces.",
       "sense_numbers": [
         1
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "{手|て} (hand) + さばき, the noun form of {捌|さば}く (to handle, to deal with). The word describes the visible motion of the hands, so it appears most often when someone is watching an expert at work.\n\nCOMMON COLLOCATIONS:\n- {鮮|あざ}やかな{手|て}さばき: brilliant handling\n- {慣|な}れた{手|て}さばき: practiced, well-accustomed handling\n- {手|て}さばきが{早|はや}い: to have quick hands\n\nSIMILAR WORDS:\n- {手際|てぎわ}: skill, efficiency — covers the whole procedure, not just the hands\n- {腕前|うでまえ}: ability, prowess — the level of skill itself rather than how it looks",
+  "notes": "⟦{手|て}→手：00569_te⟧ (hand) + さばき, the noun form of ⟦{捌|さば}く→捌く：27532_sabaku⟧ (to handle, to deal with). The word describes the visible motion of the hands, so it appears most often when someone is watching an expert at work.\n\nCOMMON COLLOCATIONS:\n- ⟦{鮮|あざ}やか→鮮やか：05702_azayaka⟧な{手|て}さばき: brilliant handling\n- ⟦{慣|な}れた→慣れる：00870_nareru⟧{手|て}さばき: practiced, well-accustomed handling\n- {手|て}さばき⟦が→が：00051_ga⟧⟦{早|はや}い→早い：00514_hayai⟧: to have quick hands\n\nSIMILAR WORDS:\n- ⟦{手際|てぎわ}→手際：06657_tegiwa⟧: skill, efficiency — covers the whole procedure, not just the hands\n- ⟦{腕前|うでまえ}→腕前：07299_udemae⟧: ability, prowess — the level of skill itself rather than how it looks",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06657_tegiwa",
+      "reading": "てぎわ",
+      "headword": "{手際|てぎわ}",
+      "label": "skill, efficiency"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07299_udemae",
+      "reading": "うでまえ",
+      "headword": "{腕前|うでまえ}",
+      "label": "ability, prowess"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28847_houchousabaki",
+      "reading": "ほうちょうさばき",
+      "headword": "{包丁|ほうちょう}さばき",
+      "label": "knife skills"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30134_tetsuki",
+      "reading": "てつき",
+      "headword": "{手|て}つき",
+      "label": "way one uses one's hands"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +83,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "movement",
         "evaluation"
@@ -61,6 +91,6 @@
       "domain": []
     },
     "created": "2026-07-27T03:18:27Z",
-    "modified": "2026-07-27T03:18:27Z"
+    "modified": "2026-09-02T04:02:38Z"
   }
 }

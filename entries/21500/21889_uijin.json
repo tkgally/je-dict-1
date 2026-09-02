@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21889_uijin_ex1",
-      "japanese": "{初陣|ういじん}を{飾|かざ}る。",
+      "japanese": "{初陣|ういじん}⟦を→を：00422_wo⟧⟦{飾|かざ}る→飾る：01185_kazaru⟧。",
       "english": "To make a successful debut.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21889_uijin_ex2",
-      "japanese": "{新人|しんじん}{監督|かんとく}が{初陣|ういじん}で{勝利|しょうり}をおさめた。",
+      "japanese": "⟦{新人|しんじん}→新人：02500_shinjin⟧⟦{監督|かんとく}→監督：00185_kantoku⟧⟦が→が：00051_ga⟧{初陣|ういじん}⟦で→で：00502_de⟧⟦{勝利|しょうり}→勝利：11795_shouri⟧⟦を→を：00422_wo⟧おさめた。",
       "english": "The rookie coach won his first game.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21889_uijin_ex3",
-      "japanese": "{選挙|せんきょ}の{初陣|ういじん}は{落選|らくせん}に{終|お}わったが、{貴重|きちょう}な{経験|けいけん}になった。",
+      "japanese": "⟦{選挙|せんきょ}→選挙：03303_senkyo⟧⟦の→の：09472_no⟧{初陣|ういじん}⟦は→は：00079_ha⟧⟦{落選|らくせん}→落選：07075_rakusen⟧⟦に→に：00314_ni⟧⟦{終|お}わった→終わる：00567_owaru⟧⟦が→が：00051_ga⟧、⟦{貴重|きちょう}→貴重：00223_kichou⟧な⟦{経験|けいけん}→経験：01179_keiken⟧になった。",
       "english": "His first election campaign ended in defeat, but it was a valuable experience.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Originally referred to a samurai's first battle, marking a rite of passage into adulthood. In modern usage, it is applied figuratively to any significant first challenge — a coach's first game, a politician's first election, an athlete's first competition, etc.\n\nCOMMON COLLOCATIONS:\n- {初陣|ういじん}を{飾|かざ}る: to have a successful debut\n- {初陣|ういじん}を{果|は}たす: to complete one's first battle/debut\n- {初陣|ういじん}で{勝利|しょうり}: to win on one's debut\n- {選挙|せんきょ}の{初陣|ういじん}: first election campaign\n\nETYMOLOGY:\n{初|うい} is an archaic reading meaning 'first' (also seen in {初々|ういうい}しい). {陣|じん} means 'battle formation' or 'camp.' The combination literally means 'first battle.'\n\nSIMILAR WORDS:\n- デビュー: debut — loanword, used broadly for first public appearances\n- {初戦|しょせん}: first match/game — specifically for sports matches\n- {初舞台|はつぶたい}: first stage performance — specifically for performing arts",
+  "notes": "Originally referred to a samurai's first battle, marking a rite of passage into adulthood. In modern usage, it is applied figuratively to any significant first challenge — a coach's first game, a politician's first election, an athlete's first competition, etc.\n\nCOMMON COLLOCATIONS:\n- {初陣|ういじん}⟦を→を：00422_wo⟧⟦{飾|かざ}る→飾る：01185_kazaru⟧: to have a successful debut\n- {初陣|ういじん}⟦を→を：00422_wo⟧⟦{果|は}たす→果たす：10060_hatasu⟧: to complete one's first battle/debut\n- {初陣|ういじん}⟦で→で：00502_de⟧⟦{勝利|しょうり}→勝利：11795_shouri⟧: to win on one's debut\n- ⟦{選挙|せんきょ}→選挙：03303_senkyo⟧⟦の→の：09472_no⟧{初陣|ういじん}: first election campaign\n\nETYMOLOGY:\n{初|うい} is an archaic reading meaning 'first' (also seen in ⟦{初々|ういうい}しい→初々しい：10595_uiuishii⟧). ⟦{陣|じん}→陣：30535_jin⟧ means 'battle formation' or 'camp.' The combination literally means 'first battle.'\n\nSIMILAR WORDS:\n- ⟦デビュー→デビュー：11016_debyuu⟧: debut — loanword, used broadly for first public appearances\n- ⟦{初戦|しょせん}→初戦：21654_shosen⟧: first match/game — specifically for sports matches\n- ⟦{初舞台|はつぶたい}→初舞台：15437_hatsubutai⟧: first stage performance — specifically for performing arts",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11016_debyuu",
+      "reading": "でびゅー",
+      "headword": "デビュー",
+      "label": "debut"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21654_shosen",
+      "reading": "しょせん",
+      "headword": "{初戦|しょせん}",
+      "label": "first match/game"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15437_hatsubutai",
+      "reading": "はつぶたい",
+      "headword": "{初舞台|はつぶたい}",
+      "label": "first stage performance"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +83,6 @@
       ]
     },
     "created": "2026-04-03T20:27:39Z",
-    "modified": "2026-07-29T12:35:11Z"
+    "modified": "2026-09-02T04:02:05Z"
   }
 }

@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08711_satsukibare_ex1",
-      "japanese": "{今日|きょう}は{五月晴|さつきば}れだ。",
+      "japanese": "⟦{今日|きょう}→今日：00496_kyou⟧⟦は→は：00079_ha⟧{五月晴|さつきば}れだ。",
       "english": "Today is a beautiful May day.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "08711_satsukibare_ex2",
-      "japanese": "{五月晴|さつきば}れの{下|もと}、{運動会|うんどうかい}が{行|おこな}われた。",
+      "japanese": "{五月晴|さつきば}れ⟦の→の：09472_no⟧{下|もと}、⟦{運動会|うんどうかい}→運動会：03013_undoukai⟧⟦が→が：00051_ga⟧⟦{行|おこな}われた→行う：01238_okonau⟧。",
       "english": "The sports day was held under clear May skies.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "08711_satsukibare_ex3",
-      "japanese": "{久|ひさ}しぶりの{五月晴|さつきば}れで、{洗濯物|せんたくもの}がよく{乾|かわ}いた。",
+      "japanese": "⟦{久|ひさ}しぶり→久しぶり：01711_hisashiburi⟧⟦の→の：09472_no⟧{五月晴|さつきば}れで、⟦{洗濯物|せんたくもの}→洗濯物：09533_sentakumono⟧⟦が→が：00051_ga⟧⟦よく→よく：00601_yoku⟧⟦{乾|かわ}いた→乾く：00786_kawaku⟧。",
       "english": "It was a rare clear May day, so the laundry dried well.",
       "sense_numbers": [
         1
@@ -43,7 +43,23 @@
       "notes": null
     }
   ],
-  "notes": "COMPOUND:\n{五月|さつき} (fifth month/May in lunar calendar) + {晴|ば}れ (clear weather)\n\nETYMOLOGY:\nOriginally referred to clear spells during the rainy season ({梅雨|つゆ}), which fell in the fifth month of the lunar calendar. The lunar fifth month corresponds roughly to June in the modern calendar.\n\nMODERN USAGE:\nToday, {五月晴|さつきば}れ is commonly used to describe pleasant, clear weather in May (modern calendar). Weather forecasters sometimes note this shift from the original meaning.\n\nSEASONAL WORD ({季語|きご}):\n{五月晴|さつきば}れ is a traditional seasonal word (kigo) for early summer in haiku.\n\nRELATED SEASONAL EXPRESSIONS:\n- {秋晴|あきば}れ - clear autumn weather\n- {小春日和|こはるびより} - Indian summer\n- {梅雨晴|つゆば}れ - break in the rainy season",
+  "notes": "COMPOUNDS:\n{五月|さつき} (fifth month/May in lunar calendar) + {晴|ば}れ (clear weather)\n\nETYMOLOGY:\nOriginally referred to clear spells during the rainy season (⟦{梅雨|つゆ}→梅雨：02232_tsuyu⟧), which fell in the fifth month of the lunar calendar. The lunar fifth month corresponds roughly to June in the modern calendar.\n\nMODERN USAGE:\nToday, {五月晴|さつきば}れ is commonly used to describe pleasant, clear weather in May (modern calendar). Weather forecasters sometimes note this shift from the original meaning.\n\nSEASONAL WORD ({季語|きご}):\n{五月晴|さつきば}れ is a traditional seasonal word (kigo) for early summer in haiku.\n\nRELATED SEASONAL EXPRESSIONS:\n- ⟦{秋晴|あきば}れ→秋晴れ：08335_akibare⟧ - clear autumn weather\n- ⟦{小春日和|こはるびより}→小春日和：08336_koharubiyori⟧ - Indian summer\n- {梅雨晴|つゆば}れ - break in the rainy season",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "08335_akibare",
+      "reading": "あきばれ",
+      "headword": "{秋晴|あきば}れ",
+      "label": "clear autumn weather"
+    },
+    {
+      "type": "related",
+      "target_id": "08336_koharubiyori",
+      "reading": "こはるびより",
+      "headword": "{小春日和|こはるびより}",
+      "label": "Indian summer"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -51,12 +67,13 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "weather",
         "time-season"
       ]
     },
     "created": "2026-01-28T02:51:15Z",
-    "modified": "2026-06-23T01:38:10Z"
+    "modified": "2026-09-02T04:01:16Z"
   }
 }

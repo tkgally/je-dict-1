@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22664_shukugan_ex1",
-      "japanese": "{宿願|しゅくがん}を{果|は}たす。",
+      "japanese": "{宿願|しゅくがん}⟦を→を：00422_wo⟧⟦{果|は}たす→果たす：10060_hatasu⟧。",
       "english": "To fulfill a long-cherished wish.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22664_shukugan_ex2",
-      "japanese": "{宿願|しゅくがん}だったオリンピック{出場|しゅつじょう}がついに{実現|じつげん}した。",
+      "japanese": "{宿願|しゅくがん}だった⟦オリンピック→オリンピック：09899_orinpikku⟧⟦{出場|しゅつじょう}→出場：03223_shutsujou⟧⟦が→が：00051_ga⟧ついに⟦{実現|じつげん}→実現：03276_jitsugen⟧⟦した→する：00392_suru⟧。",
       "english": "My long-held dream of competing in the Olympics finally came true.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22664_shukugan_ex3",
-      "japanese": "{三十年|さんじゅうねん}にわたる{宿願|しゅくがん}であった{和平|わへい}{条約|じょうやく}の{締結|ていけつ}が{達成|たっせい}された。",
+      "japanese": "{三十年|さんじゅうねん}⟦に→に：00314_ni⟧わたる{宿願|しゅくがん}であった{和平|わへい}⟦{条約|じょうやく}→条約：04912_jouyaku⟧⟦の→の：09472_no⟧⟦{締結|ていけつ}→締結：13870_teiketsu⟧⟦が→が：00051_ga⟧⟦{達成|たっせい}→達成：04816_tassei⟧⟦された→する：00392_suru⟧。",
       "english": "The signing of the peace treaty, a goal pursued for thirty years, was achieved.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {宿|しゅく} (long-standing) and {願|がん} (wish/prayer). A literary, elevated word that emphasizes the depth and duration of a desire. Often used in formal speeches, news articles, and historical writing.\n\nCOMMON COLLOCATIONS:\n- {宿願|しゅくがん}を{果|は}たす: to fulfill a long-cherished wish\n- {宿願|しゅくがん}が{叶|かな}う: a long-held wish comes true\n- {宿願|しゅくがん}を{達成|たっせい}する: to achieve a long-held goal\n- {宿願|しゅくがん}の{実現|じつげん}: realization of a long-cherished wish\n\nSIMILAR WORDS:\n- {悲願|ひがん}: earnest wish — similar formality but adds a nuance of desperate longing or repeated failed attempts\n- {念願|ねんがん}: long-cherished desire — very close in meaning; slightly more common in everyday usage\n- {願望|がんぼう}: desire, aspiration — more general and less literary",
+  "notes": "A compound of {宿|しゅく} (long-standing) and {願|がん} (wish/prayer). A literary, elevated word that emphasizes the depth and duration of a desire. Often used in formal speeches, news articles, and historical writing.\n\nCOMMON COLLOCATIONS:\n- {宿願|しゅくがん}⟦を→を：00422_wo⟧⟦{果|は}たす→果たす：10060_hatasu⟧: to fulfill a long-cherished wish\n- {宿願|しゅくがん}⟦が→が：00051_ga⟧⟦{叶|かな}う→叶う：05303_kanau⟧: a long-held wish comes true\n- {宿願|しゅくがん}⟦を→を：00422_wo⟧⟦{達成|たっせい}する→達成する：22183_tasseisuru⟧: to achieve a long-held goal\n- {宿願|しゅくがん}⟦の→の：09472_no⟧⟦{実現|じつげん}→実現：03276_jitsugen⟧: realization of a long-cherished wish\n\nSIMILAR WORDS:\n- ⟦{悲願|ひがん}→悲願：21839_higan⟧: earnest wish — similar formality but adds a nuance of desperate longing or repeated failed attempts\n- ⟦{念願|ねんがん}→念願：17955_nengan⟧: long-cherished desire — very close in meaning; slightly more common in everyday usage\n- ⟦{願望|がんぼう}→願望：05085_ganbou⟧: desire, aspiration — more general and less literary",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21839_higan",
+      "reading": "ひがん",
+      "headword": "{悲願|ひがん}",
+      "label": "earnest wish"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17955_nengan",
+      "reading": "ねんがん",
+      "headword": "{念願|ねんがん}",
+      "label": "long-cherished desire"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05085_ganbou",
+      "reading": "がんぼう",
+      "headword": "{願望|がんぼう}",
+      "label": "desire, aspiration"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -56,9 +79,9 @@
         "abstract"
       ],
       "formality": "formal",
-      "politeness": null
+      "politeness": "plain"
     },
     "created": "2026-04-06T21:28:11Z",
-    "modified": "2026-04-06T21:28:11Z"
+    "modified": "2026-09-02T04:02:09Z"
   }
 }

@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "17365_kirisoroeru_ex1",
-      "japanese": "{髪|かみ}を{切|き}り{揃|そろ}えた。",
+      "japanese": "⟦{髪|かみ}→髪：02196_kami⟧⟦を→を：00422_wo⟧{切|き}り{揃|そろ}えた。",
       "english": "I had my hair trimmed evenly.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "17365_kirisoroeru_ex2",
-      "japanese": "{生垣|いけがき}をきれいに{切|き}り{揃|そろ}えた。",
+      "japanese": "⟦{生垣|いけがき}→生垣：18309_ikegaki⟧⟦を→を：00422_wo⟧⟦きれい→きれい：00717_kirei⟧⟦に→に：00314_ni⟧{切|き}り{揃|そろ}えた。",
       "english": "I neatly trimmed the hedge.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "17365_kirisoroeru_ex3",
-      "japanese": "{爪|つめ}を{切|き}り{揃|そろ}えてから{面接|めんせつ}に{向|む}かった。",
+      "japanese": "⟦{爪|つめ}→爪：02159_tsume⟧⟦を→を：00422_wo⟧{切|き}り{揃|そろ}えて⟦から→から：00504_kara⟧⟦{面接|めんせつ}→面接：01100_mensetsu⟧⟦に→に：00314_ni⟧⟦{向|む}かった→向かう：01186_mukau⟧。",
       "english": "I trimmed my nails neatly before heading to the interview.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,26 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA compound verb combining {切|き}る (to cut) and {揃|そろ}える (to arrange uniformly). Emphasizes making things even and uniform, not just cutting.\n\nCOMMON COLLOCATIONS:\n- {髪|かみ}を{切|き}り{揃|そろ}える (to trim hair evenly)\n- {前髪|まえがみ}を{切|き}り{揃|そろ}える (to trim bangs evenly)\n- {生垣|いけがき}を{切|き}り{揃|そろ}える (to trim a hedge)\n\nSIMILAR WORDS:\n- {切|き}る: to cut — general cutting without the nuance of uniformity\n- {整|ととの}える: to arrange, to put in order — broader, not specific to cutting",
-  "cross_references": [],
+  "notes": "USAGE:\nA compound verb combining ⟦{切|き}る→切る：02693_kiru⟧ (to cut) and ⟦{揃|そろ}える→揃える：01952_soroeru⟧ (to arrange uniformly). Emphasizes making things even and uniform, not just cutting.\n\nCOMMON COLLOCATIONS:\n- ⟦{髪|かみ}→髪：02196_kami⟧⟦を→を：00422_wo⟧{切|き}り{揃|そろ}える (to trim hair evenly)\n- ⟦{前髪|まえがみ}→前髪：19004_maegami⟧⟦を→を：00422_wo⟧{切|き}り{揃|そろ}える (to trim bangs evenly)\n- ⟦{生垣|いけがき}→生垣：18309_ikegaki⟧⟦を→を：00422_wo⟧{切|き}り{揃|そろ}える (to trim a hedge)\n\nSIMILAR WORDS:\n- ⟦{切|き}る→切る：02693_kiru⟧: to cut — general cutting without the nuance of uniformity\n- ⟦{整|ととの}える→整える：04259_totonoeru⟧: to arrange, to put in order — broader, not specific to cutting",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02693_kiru",
+      "reading": "きる",
+      "headword": "{切|き}る",
+      "label": "to cut"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04259_totonoeru",
+      "reading": "ととのえる",
+      "headword": "{整|ととの}える",
+      "label": "to arrange, to put in order"
+    }
+  ],
   "metadata": {
     "created": "2026-03-17T08:20:57Z",
-    "modified": "2026-03-29T03:08:18Z",
+    "modified": "2026-09-02T04:01:48Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

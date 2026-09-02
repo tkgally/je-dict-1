@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24316_ashiyubi_ex1",
-      "japanese": "{足指|あしゆび}をぶつけて{痛|いた}い。",
+      "japanese": "{足指|あしゆび}⟦を→を：00422_wo⟧⟦ぶつけて→ぶつける：02413_butsukeru⟧⟦{痛|いた}い→痛い：01108_itai⟧。",
       "english": "I stubbed my toe and it hurts.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24316_ashiyubi_ex2",
-      "japanese": "{足指|あしゆび}を{広|ひろ}げるストレッチをしている。",
+      "japanese": "{足指|あしゆび}⟦を→を：00422_wo⟧⟦{広|ひろ}げる→広げる：01981_hirogeru⟧⟦ストレッチ→ストレッチ：05239_sutorecchi⟧⟦を→を：00422_wo⟧⟦している→する：00392_suru⟧。",
       "english": "I'm doing toe-spreading stretches.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24316_ashiyubi_ex3",
-      "japanese": "{冬|ふゆ}になると{足指|あしゆび}が{冷|ひ}えて{感覚|かんかく}がなくなることがある。",
+      "japanese": "⟦{冬|ふゆ}→冬：00623_fuyu⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦と→と：00512_to⟧{足指|あしゆび}⟦が→が：00051_ga⟧⟦{冷|ひ}えて→冷える：01154_hieru⟧⟦{感覚|かんかく}→感覚：02593_kankaku⟧⟦が→が：00051_ga⟧なくなること⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "In winter, my toes sometimes get so cold that I lose feeling in them.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {足|あし} (foot, leg) + {指|ゆび} (finger, digit). Japanese uses {指|ゆび} for both fingers and toes, so {足指|あしゆび} specifies the toes. Also written as {足|あし}の{指|ゆび} in everyday speech.\n\nCOMMON COLLOCATIONS:\n- {足指|あしゆび}を{動|うご}かす — move one's toes\n- {足指|あしゆび}が{冷|ひ}える — toes get cold\n- {足指|あしゆび}の{間|あいだ} — between the toes\n- {足指|あしゆび}の{爪|つめ} — toenails\n\nSIMILAR WORDS:\n- {手指|てゆび}/{手|て}の{指|ゆび} — finger; the hand counterpart, specifying fingers rather than toes\n- {指|ゆび} — finger/toe; the general word that covers both, with context determining which\n- つま{先|さき} — tip of the toes, tiptoe; refers to the front end of the foot rather than individual toes",
+  "notes": "A compound of ⟦{足|あし}→足：00575_ashi⟧ (foot, leg) + ⟦{指|ゆび}→指：01518_yubi⟧ (finger, digit). Japanese uses ⟦{指|ゆび}→指：01518_yubi⟧ for both fingers and toes, so {足指|あしゆび} specifies the toes. Also written as ⟦{足|あし}→足：00575_ashi⟧⟦の→の：09472_no⟧⟦{指|ゆび}→指：01518_yubi⟧ in everyday speech.\n\nCOMMON COLLOCATIONS:\n- {足指|あしゆび}⟦を→を：00422_wo⟧⟦{動|うご}かす→動かす：01885_ugokasu⟧ — move one's toes\n- {足指|あしゆび}⟦が→が：00051_ga⟧⟦{冷|ひ}える→冷える：01154_hieru⟧ — toes get cold\n- {足指|あしゆび}⟦の→の：09472_no⟧⟦{間|あいだ}→間：00914_aida⟧ — between the toes\n- {足指|あしゆび}⟦の→の：09472_no⟧⟦{爪|つめ}→爪：02159_tsume⟧ — toenails\n\nSIMILAR WORDS:\n- {手指|てゆび}/⟦{手|て}→手：00569_te⟧⟦の→の：09472_no⟧⟦{指|ゆび}→指：01518_yubi⟧ — finger; the hand counterpart, specifying fingers rather than toes\n- ⟦{指|ゆび}→指：01518_yubi⟧ — finger/toe; the general word that covers both, with context determining which\n- つま{先|さき} — tip of the toes, tiptoe; refers to the front end of the foot rather than individual toes",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -52,11 +52,12 @@
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "body-part"
       ]
     },
     "created": "2026-04-18T13:21:28Z",
-    "modified": "2026-08-02T18:32:34Z"
+    "modified": "2026-09-02T04:02:17Z"
   }
 }

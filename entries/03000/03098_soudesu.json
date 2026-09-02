@@ -44,7 +44,7 @@
     },
     {
       "id": "03098_soudesu_ex3",
-      "japanese": "「⟦{田中|たなか}→田中：09528_tanaka⟧⟦さん→〜さん：09848_san⟧⟦です→です：09485_desu⟧か。」「⟦はい→はい：09574_hai⟧、そうです。」",
+      "japanese": "「⟦{田中|たなか}→田中：09528_tanaka⟧⟦さん→〜さん：09848_san⟧⟦です→です：09485_desu⟧⟦か→か：09473_ka⟧。」「⟦はい→はい：09574_hai⟧、そうです。」",
       "english": "\"Are you Tanaka-san?\" \"Yes, that's right.\"",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "03098_soudesu_ex10",
-      "japanese": "⟦{元気|げんき}→元気：00696_genki⟧そうですね。",
+      "japanese": "⟦{元気|げんき}→元気：00696_genki⟧そうです⟦ね→ね：09474_ne⟧。",
       "english": "You look well.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
     },
     {
       "id": "03098_soudesu_ex12",
-      "japanese": "「⟦これ→これ：00963_kore⟧⟦です→です：09485_desu⟧か。」「そうです。」",
+      "japanese": "「⟦これ→これ：00963_kore⟧⟦です→です：09485_desu⟧⟦か→か：09473_ka⟧。」「そうです。」",
       "english": "\"Is it this one?\" \"Yes, that's right.\"",
       "notes": null,
       "has_audio": false,
@@ -144,7 +144,7 @@
     },
     {
       "id": "03098_soudesu_ex13",
-      "japanese": "「⟦{日本人|にほんじん}→日本人：10112_nihonjin⟧⟦です→です：09485_desu⟧か。」「そうです。」",
+      "japanese": "「⟦{日本人|にほんじん}→日本人：10112_nihonjin⟧⟦です→です：09485_desu⟧⟦か→か：09473_ka⟧。」「そうです。」",
       "english": "\"Are you Japanese?\" \"Yes, I am.\"",
       "notes": null,
       "has_audio": false,
@@ -173,7 +173,7 @@
       ]
     }
   ],
-  "notes": "TWO DIFFERENT PATTERNS:\n\n【HEARSAY そうです】\nPlain form + そうです = \"I heard that ~\"\n- Verb: ⟦{行|い}く→行く：00119_iku⟧そうです (I hear they'll go)\n- い-adj: ⟦{高|たか}い→高い：00500_takai⟧そうです (I hear it's expensive)\n- な-adj: ⟦{静|しず}か→静か：00755_shizuka⟧⟦だ→だ：09496_da⟧そうです (I hear it's quiet)\n- Noun: ⟦{学生|がくせい}→学生：00610_gakusei⟧⟦だ→だ：09496_da⟧そうです (I hear they're a student)\n\n【APPEARANCE そうです】\nStem + そうです = \"It looks/seems ~\"\n- Verb stem: ⟦{降|ふ}り→降る：00839_furu⟧そうです (it looks like it'll rain)\n- い-adj stem: ⟦おいし→おいしい：00740_oishii⟧そう (looks delicious)\n- な-adj stem: ⟦{元気|げんき}→元気：00696_genki⟧そう (looks healthy)\n\nEXCEPTION: ⟦いい→いい：00118_ii⟧ → よさそう (looks good), ⟦ない→ない：01118_nai⟧ → なさそう (doesn't seem like)\n\nNEGATIVE FORMS:\n- Hearsay: 〜ないそうです\n- Appearance: 〜そうにない / 〜そうもない",
+  "notes": "TWO DIFFERENT PATTERNS:\n\n【HEARSAY そうです】\nPlain form + そうです = \"I heard that ~\"\n- Verb: ⟦{行|い}く→行く：00119_iku⟧そうです (I hear they'll go)\n- い-adj: ⟦{高|たか}い→高い：00500_takai⟧そうです (I hear it's expensive)\n- な-adj: ⟦{静|しず}か→静か：00755_shizuka⟧⟦だ→だ：09496_da⟧そうです (I hear it's quiet)\n- Noun: ⟦{学生|がくせい}→学生：00610_gakusei⟧⟦だ→だ：09496_da⟧そうです (I hear they're a student)\n\n【APPEARANCE そうです】\nStem + そうです = \"It looks/seems ~\"\n- Verb stem: ⟦{降|ふ}り→降る：00839_furu⟧そうです (it looks like it'll rain)\n- い-adj stem: ⟦おいし→おいしい：00740_oishii⟧そう (looks delicious)\n- な-adj stem: ⟦{元気|げんき}→元気：00696_genki⟧そう (looks healthy)\n\nEXCEPTION: ⟦いい→いい：00118_ii⟧ → よさそう (looks good), ⟦ない→ない：01118_nai⟧ → なさそう (doesn't seem like)\n\nNEGATIVE FORMS:\n- Hearsay: 〜⟦ない→ない：01118_nai⟧そうです\n- Appearance: 〜そうにない / 〜そう⟦も→も：00484_mo⟧⟦ない→ない：01118_nai⟧",
   "cross_references": [
     {
       "type": "contrast",
@@ -188,11 +188,18 @@
       "headword": "ようだ",
       "label": "appearance/conjecture",
       "target_id": "26593_youda"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22252_sonotoori",
+      "reading": "そのとおり",
+      "headword": "その{通|とお}り",
+      "label": "exactly"
     }
   ],
   "metadata": {
     "created": "2026-01-11T12:36:04Z",
-    "modified": "2026-08-12T06:29:54Z",
+    "modified": "2026-09-02T04:01:02Z",
     "schema_version": "2.0",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",

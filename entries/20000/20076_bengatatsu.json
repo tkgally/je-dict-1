@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "20076_bengatatsu_ex1",
-      "japanese": "{彼女|かのじょ}は{弁|べん}が{立|た}つ。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧{弁|べん}が{立|た}つ。",
       "english": "She is very articulate.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "20076_bengatatsu_ex2",
-      "japanese": "{弁|べん}が{立|た}つ{人|ひと}は{会議|かいぎ}で{有利|ゆうり}だ。",
+      "japanese": "{弁|べん}が{立|た}つ⟦{人|ひと}→人：00476_hito⟧⟦は→は：00079_ha⟧⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦で→で：00502_de⟧⟦{有利|ゆうり}→有利：03651_yuuri⟧だ。",
       "english": "People who are eloquent have an advantage in meetings.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "20076_bengatatsu_ex3",
-      "japanese": "あの{弁護士|べんごし}は{弁|べん}が{立|た}つので、{裁判|さいばん}でいつも{説得力|せっとくりょく}がある。",
+      "japanese": "⟦あの→あの：00915_ano⟧⟦{弁護士|べんごし}→弁護士：03150_bengoshi⟧⟦は→は：00079_ha⟧{弁|べん}が{立|た}つ⟦の→の：09472_no⟧で、⟦{裁判|さいばん}→裁判：02773_saiban⟧⟦で→で：00502_de⟧⟦いつも→いつも：00599_itsumo⟧⟦{説得力|せっとくりょく}がある→説得力がある：25151_settokuryokugaaru⟧。",
       "english": "That lawyer is so eloquent that they are always persuasive in court.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "The {弁|べん} here refers to speech or eloquence (as in {弁論|べんろん}, debate). {立|た}つ conveys the idea of something being prominent or effective. Together, the expression means someone's speaking ability is strong.\n\nCOMMON PATTERNS:\n- {弁|べん}が{立|た}つ{人|ひと}: an articulate person\n- {弁|べん}が{立|た}つから: because one is eloquent\n\nNUANCE:\nWhile generally positive (skilled speaker), it can sometimes carry a slightly negative nuance suggesting someone is too smooth-talking or overly clever with words, depending on context.\n\nSIMILAR EXPRESSIONS:\n- {口|くち}が{達者|たっしゃ}: to have a glib tongue — often implies being too talkative or fast-talking; can be negative\n- {口|くち}がうまい: to be a smooth talker — often negative, implying flattery or manipulation\n- {雄弁|ゆうべん}な: eloquent — more formal and literary; always positive",
+  "notes": "The {弁|べん} here refers to speech or eloquence (as in ⟦{弁論|べんろん}→弁論：24557_benron⟧, debate). ⟦{立|た}つ→立つ：00758_tatsu⟧ conveys the idea of something being prominent or effective. Together, the expression means someone's speaking ability is strong.\n\nCOMMON PATTERNS:\n- {弁|べん}が{立|た}つ⟦{人|ひと}→人：00476_hito⟧: an articulate person\n- {弁|べん}が{立|た}つ⟦から→から：00504_kara⟧: because one is eloquent\n\nUSAGE:\nWhile generally positive (skilled speaker), it can sometimes carry a slightly negative nuance suggesting someone is too smooth-talking or overly clever with words, depending on context.\n\nSIMILAR WORDS:\n- ⟦{口|くち}→口：00560_kuchi⟧⟦が→が：00051_ga⟧⟦{達者|たっしゃ}→達者：20383_tassha⟧: to have a glib tongue — often implies being too talkative or fast-talking; can be negative\n- ⟦{口|くち}→口：00560_kuchi⟧⟦が→が：00051_ga⟧⟦うまい→うまい：01279_umai⟧: to be a smooth talker — often negative, implying flattery or manipulation\n- ⟦{雄弁|ゆうべん}→雄弁：14579_yuuben⟧な: eloquent — more formal and literary; always positive",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -59,7 +59,7 @@
       ]
     },
     "created": "2026-03-28T07:37:19Z",
-    "modified": "2026-07-26T15:19:51Z"
+    "modified": "2026-09-02T04:01:58Z"
   },
   "cross_references": [
     {
@@ -68,6 +68,20 @@
       "headword": "{口下手|くちべた}",
       "label": "poor at expressing oneself",
       "target_id": "06645_kuchibeta"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14579_yuuben",
+      "reading": "ゆうべん",
+      "headword": "{雄弁|ゆうべん}",
+      "label": "eloquent"
+    },
+    {
+      "type": "related",
+      "target_id": "15420_kuchidassha",
+      "reading": "くちだっしゃ",
+      "headword": "{口達者|くちだっしゃ}",
+      "label": "talkative"
     }
   ]
 }

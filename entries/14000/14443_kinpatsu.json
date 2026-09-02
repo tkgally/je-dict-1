@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "14443_kinpatsu_ex1",
-      "japanese": "{彼女|かのじょ}は{金髪|きんぱつ}だ。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧{金髪|きんぱつ}だ。",
       "english": "She has blonde hair.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14443_kinpatsu_ex2",
-      "japanese": "{髪|かみ}を{金髪|きんぱつ}に{染|そ}めた。",
+      "japanese": "⟦{髪|かみ}→髪：02196_kami⟧⟦を→を：00422_wo⟧{金髪|きんぱつ}⟦に→に：00314_ni⟧⟦{染|そ}めた→染める：04253_someru⟧。",
       "english": "I dyed my hair blonde.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14443_kinpatsu_ex3",
-      "japanese": "{金髪|きんぱつ}に{青|あお}い{目|め}の{外国人|がいこくじん}{観光客|かんこうきゃく}が{写真|しゃしん}を{撮|と}っていた。",
+      "japanese": "{金髪|きんぱつ}⟦に→に：00314_ni⟧⟦{青|あお}い→青い：00586_aoi⟧⟦{目|め}→目：00525_me⟧⟦の→の：09472_no⟧⟦{外国人|がいこくじん}→外国人：02869_gaikokujin⟧⟦{観光客|かんこうきゃく}→観光客：03022_kankoukyaku⟧⟦が→が：00051_ga⟧⟦{写真|しゃしん}→写真：00753_shashin⟧⟦を→を：00422_wo⟧⟦{撮|と}っていた→撮る：00760_toru⟧。",
       "english": "A foreign tourist with blonde hair and blue eyes was taking photos.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "A compound of {金|きん} (gold) and {髪|はつ} (hair). Literally \"gold hair.\"\n\nCOMMON COLLOCATIONS:\n- {金髪|きんぱつ}に{染|そ}める (to dye one's hair blonde)\n- {金髪|きんぱつ}の{女性|じょせい} (a blonde woman)\n- {金髪|きんぱつ}{碧眼|へきがん} (blond hair and blue eyes — a set phrase describing stereotypical Western appearance)\n\nIn Japanese context, {金髪|きんぱつ} often refers to dyed blonde hair, which can carry different social connotations depending on the setting. In schools and workplaces with strict dress codes, {金髪|きんぱつ} may be prohibited. The four-character compound {金髪|きんぱつ}{碧眼|へきがん} is a well-known descriptive phrase for a stereotypically Western appearance.",
+  "notes": "A compound of {金|きん} (gold) and {髪|はつ} (hair). Literally \"gold hair.\"\n\nCOMMON COLLOCATIONS:\n- {金髪|きんぱつ}⟦に→に：00314_ni⟧⟦{染|そ}める→染める：04253_someru⟧ (to dye one's hair blonde)\n- {金髪|きんぱつ}⟦の→の：09472_no⟧⟦{女性|じょせい}→女性：01617_josei⟧ (a blonde woman)\n- {金髪|きんぱつ}{碧眼|へきがん} (blond hair and blue eyes — a set phrase describing stereotypical Western appearance)\n\nIn Japanese context, {金髪|きんぱつ} often refers to dyed blonde hair, which can carry different social connotations depending on the setting. In schools and workplaces with strict dress codes, {金髪|きんぱつ} may be prohibited. The four-character compound {金髪|きんぱつ}{碧眼|へきがん} is a well-known descriptive phrase for a stereotypically Western appearance.",
   "cross_references": [
     {
       "type": "related",
@@ -53,19 +59,30 @@
       "reading": "くろかみ",
       "headword": "{黒髪|くろかみ}",
       "label": "black hair"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14551_ginpatsu",
+      "reading": "ぎんぱつ",
+      "headword": "{銀髪|ぎんぱつ}",
+      "label": "silver hair"
     }
   ],
   "metadata": {
     "created": "2026-03-01T09:37:43Z",
-    "modified": "2026-04-30T06:34:37Z",
+    "modified": "2026-09-02T04:01:37Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "transitivity": null,
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["body-part"]
+      "semantic": [
+        "body-part"
+      ]
     }
   }
 }

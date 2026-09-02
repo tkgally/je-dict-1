@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "14106_higaisha_ex1",
-      "japanese": "{被害者|ひがいしゃ}の{家族|かぞく}に{連絡|れんらく}する。",
+      "japanese": "{被害者|ひがいしゃ}⟦の→の：09472_no⟧⟦{家族|かぞく}→家族：00552_kazoku⟧⟦に→に：00314_ni⟧⟦{連絡|れんらく}する→連絡する：20202_renrakusuru⟧。",
       "english": "Contact the victim's family.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14106_higaisha_ex2",
-      "japanese": "{詐欺|さぎ}の{被害者|ひがいしゃ}が{増|ふ}えている。",
+      "japanese": "⟦{詐欺|さぎ}→詐欺：09789_sagi⟧⟦の→の：09472_no⟧{被害者|ひがいしゃ}⟦が→が：00051_ga⟧⟦{増|ふ}えている→増える：01183_fueru⟧。",
       "english": "The number of fraud victims is increasing.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14106_higaisha_ex3",
-      "japanese": "{事件|じけん}の{被害者|ひがいしゃ}は{長年|ながねん}にわたり{精神的|せいしんてき}な{苦痛|くつう}に{悩|なや}まされてきた。",
+      "japanese": "⟦{事件|じけん}→事件：01568_jiken⟧⟦の→の：09472_no⟧{被害者|ひがいしゃ}⟦は→は：00079_ha⟧⟦{長年|ながねん}→長年：09684_naganen⟧⟦に→に：00314_ni⟧わたり⟦{精神的|せいしんてき}→精神的：05851_seishinteki⟧な⟦{苦痛|くつう}→苦痛：02652_kutsuu⟧⟦に→に：00314_ni⟧⟦{悩|なや}まされて→悩ます：12602_nayamasu⟧きた。",
       "english": "The victim of the incident has suffered from psychological distress for many years.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE NOTE:\n{被害者|ひがいしゃ} is composed of {被害|ひがい} (damage, harm) and {者|しゃ} (person). It is the standard term used in news, legal contexts, and formal writing. The antonym is {加害者|かがいしゃ} (perpetrator, offender).\n\nIn colloquial speech, people sometimes use {被害者|ひがいしゃ} figuratively to express that they feel victimized in everyday situations.\n\nCOMMON COLLOCATIONS:\n- {被害者|ひがいしゃ}{遺族|いぞく} (bereaved family of a victim)\n- {被害者|ひがいしゃ}{支援|しえん} (victim support)\n- {被害者|ひがいしゃ}{意識|いしき} (victim mentality)\n- {被害者|ひがいしゃ}{側|がわ} (the victim's side)\n\nSIMILAR WORDS:\n- {犠牲者|ぎせいしゃ}: victim, casualty (emphasizes sacrifice, often in disasters or wars)\n- {加害者|かがいしゃ}: perpetrator, offender (antonym)",
+  "notes": "USAGE:\n{被害者|ひがいしゃ} is composed of ⟦{被害|ひがい}→被害：02572_higai⟧ (damage, harm) and ⟦{者|しゃ}→〜者：04662_sha⟧ (person). It is the standard term used in news, legal contexts, and formal writing. The antonym is ⟦{加害者|かがいしゃ}→加害者：11916_kagaisha⟧ (perpetrator, offender).\n\nIn colloquial speech, people sometimes use {被害者|ひがいしゃ} figuratively to express that they feel victimized in everyday situations.\n\nCOMMON COLLOCATIONS:\n- {被害者|ひがいしゃ}⟦{遺族|いぞく}→遺族：14886_izoku⟧ (bereaved family of a victim)\n- {被害者|ひがいしゃ}⟦{支援|しえん}→支援：07778_shien⟧ (victim support)\n- {被害者|ひがいしゃ}⟦{意識|いしき}→意識：01714_ishiki⟧ (victim mentality)\n- {被害者|ひがいしゃ}⟦{側|がわ}→〜側：03090_gawa⟧ (the victim's side)\n\nSIMILAR WORDS:\n- ⟦{犠牲者|ぎせいしゃ}→犠牲者：18769_giseisha⟧: victim, casualty (emphasizes sacrifice, often in disasters or wars)\n- ⟦{加害者|かがいしゃ}→加害者：11916_kagaisha⟧: perpetrator, offender (antonym)",
   "cross_references": [
     {
       "type": "antonym",
@@ -46,19 +52,74 @@
       "reading": "かがいしゃ",
       "headword": "{加害者|かがいしゃ}",
       "label": "perpetrator"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18769_giseisha",
+      "reading": "ぎせいしゃ",
+      "headword": "{犠牲者|ぎせいしゃ}",
+      "label": "victim, casualty"
+    },
+    {
+      "type": "related",
+      "target_id": "19370_ejiki",
+      "reading": "えじき",
+      "headword": "{餌食|えじき}",
+      "label": "prey"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23513_keganin",
+      "reading": "けがにん",
+      "headword": "{怪我人|けがにん}",
+      "label": "injured person"
+    },
+    {
+      "type": "related",
+      "target_id": "25337_hisaisha",
+      "reading": "ひさいしゃ",
+      "headword": "{被災者|ひさいしゃ}",
+      "label": "disaster victim"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26731_souguusha",
+      "reading": "そうぐうしゃ",
+      "headword": "{遭遇者|そうぐうしゃ}",
+      "label": "person who encounters"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27169_fushousha",
+      "reading": "ふしょうしゃ",
+      "headword": "{負傷者|ふしょうしゃ}",
+      "label": "injured person"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27187_shishousha",
+      "reading": "ししょうしゃ",
+      "headword": "{死傷者|ししょうしゃ}",
+      "label": "casualties"
     }
   ],
   "metadata": {
     "created": "2026-02-28T00:50:06Z",
-    "modified": "2026-04-25T09:21:10Z",
+    "modified": "2026-09-02T04:01:36Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["person"],
-      "domain": ["legal"]
+      "semantic": [
+        "person"
+      ],
+      "domain": [
+        "legal"
+      ]
     }
   }
 }

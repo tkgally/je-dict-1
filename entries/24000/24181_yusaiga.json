@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24181_yusaiga_ex1",
-      "japanese": "{美術館|びじゅつかん}に{油彩画|ゆさいが}が{飾|かざ}られている。",
+      "japanese": "⟦{美術館|びじゅつかん}→美術館：01717_bijutsukan⟧⟦に→に：00314_ni⟧{油彩画|ゆさいが}⟦が→が：00051_ga⟧⟦{飾|かざ}られている→飾る：01185_kazaru⟧。",
       "english": "Oil paintings are displayed in the art museum.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24181_yusaiga_ex2",
-      "japanese": "この{油彩画|ゆさいが}は{十九世紀|じゅうきゅうせいき}のフランスで{描|えが}かれた。",
+      "japanese": "⟦この→この：00962_kono⟧{油彩画|ゆさいが}⟦は→は：00079_ha⟧{十九世紀|じゅうきゅうせいき}⟦の→の：09472_no⟧⟦フランス→フランス：19418_furansu⟧⟦で→で：00502_de⟧⟦{描|えが}かれた→描く：02013_egaku⟧。",
       "english": "This oil painting was painted in nineteenth-century France.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24181_yusaiga_ex3",
-      "japanese": "{祖父|そふ}は{趣味|しゅみ}で{油彩画|ゆさいが}を{描|か}いており、{自宅|じたく}には{何十枚|なんじゅうまい}もの{作品|さくひん}がある。",
+      "japanese": "⟦{祖父|そふ}→祖父：01452_sofu⟧⟦は→は：00079_ha⟧⟦{趣味|しゅみ}→趣味：00889_shumi⟧⟦で→で：00502_de⟧{油彩画|ゆさいが}⟦を→を：00422_wo⟧⟦{描|か}いて→描く：28436_kaku⟧おり、⟦{自宅|じたく}→自宅：00129_jitaku⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{何十枚|なんじゅうまい}⟦も→も：00484_mo⟧⟦の→の：09472_no⟧⟦{作品|さくひん}→作品：02776_sakuhin⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "My grandfather paints oil paintings as a hobby, and there are dozens of works at his home.",
       "sense_numbers": [
         1
@@ -44,20 +44,37 @@
       "notes": null
     }
   ],
-  "notes": "Refers specifically to a painting created with oil-based paints. The formal term for what is colloquially called {油絵|あぶらえ}. Oil painting as a technique was introduced to Japan during the Meiji period.\n\nCOMMON COLLOCATIONS:\n- {油彩画|ゆさいが}を{描|か}く: to paint an oil painting\n- {油彩画|ゆさいが}{展|てん}: oil painting exhibition\n- {小品|しょうひん}の{油彩画|ゆさいが}: a small oil painting\n\nSIMILAR WORDS:\n- {油絵|あぶらえ}: oil painting — the everyday, colloquial equivalent\n- {水彩画|すいさいが}: watercolor painting — uses water-soluble paints; lighter and more transparent than oil\n- {油彩|ゆさい}: oil painting (technique/medium) — refers to the method rather than the finished work",
+  "notes": "Refers specifically to a painting created with oil-based paints. The formal term for what is colloquially called ⟦{油絵|あぶらえ}→油絵：07076_aburae⟧. Oil painting as a technique was introduced to Japan during the Meiji period.\n\nCOMMON COLLOCATIONS:\n- {油彩画|ゆさいが}⟦を→を：00422_wo⟧⟦{描|か}く→描く：28436_kaku⟧: to paint an oil painting\n- {油彩画|ゆさいが}⟦{展|てん}→〜展：28468_ten⟧: oil painting exhibition\n- {小品|しょうひん}⟦の→の：09472_no⟧{油彩画|ゆさいが}: a small oil painting\n\nSIMILAR WORDS:\n- ⟦{油絵|あぶらえ}→油絵：07076_aburae⟧: oil painting — the everyday, colloquial equivalent\n- ⟦{水彩画|すいさいが}→水彩画：07077_suisaiga⟧: watercolor painting — uses water-soluble paints; lighter and more transparent than oil\n- ⟦{油彩|ゆさい}→油彩：27155_yusai⟧: oil painting (technique/medium) — refers to the method rather than the finished work",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07076_aburae",
+      "reading": "あぶらえ",
+      "headword": "{油絵|あぶらえ}",
+      "label": "oil painting"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07077_suisaiga",
+      "reading": "すいさいが",
+      "headword": "{水彩画|すいさいが}",
+      "label": "watercolor painting"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "art"
       ],
       "usage": []
     },
     "created": "2026-04-17T21:43:35Z",
-    "modified": "2026-04-17T21:43:35Z"
+    "modified": "2026-09-02T04:02:17Z"
   }
 }

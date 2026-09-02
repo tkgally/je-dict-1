@@ -15,40 +15,74 @@
   "examples": [
     {
       "id": "20488_gunjouiro_ex1",
-      "japanese": "{空|そら}が{群青色|ぐんじょういろ}に{染|そ}まった。",
+      "japanese": "⟦{空|そら}→空：02216_sora⟧⟦が→が：00051_ga⟧{群青色|ぐんじょういろ}⟦に→に：00314_ni⟧⟦{染|そ}まった→染まる：04254_somaru⟧。",
       "english": "The sky was stained deep blue.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20488_gunjouiro_ex2",
-      "japanese": "{群青色|ぐんじょういろ}の{海|うみ}がとても{美|うつく}しかった。",
+      "japanese": "{群青色|ぐんじょういろ}⟦の→の：09472_no⟧⟦{海|うみ}→海：00556_umi⟧⟦が→が：00051_ga⟧⟦とても→とても：00593_totemo⟧⟦{美|うつく}しかった→美しい：01121_utsukushii⟧。",
       "english": "The ultramarine sea was very beautiful.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20488_gunjouiro_ex3",
-      "japanese": "{日本画|にほんが}では{群青色|ぐんじょういろ}は{伝統的|でんとうてき}な{顔料|がんりょう}として{使|つか}われてきた。",
+      "japanese": "⟦{日本画|にほんが}→日本画：18225_nihonga⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧{群青色|ぐんじょういろ}⟦は→は：00079_ha⟧⟦{伝統的|でんとうてき}→伝統的：04802_dentouteki⟧な⟦{顔料|がんりょう}→顔料：19796_ganryou⟧⟦として→として：06802_toshite⟧⟦{使|つか}われて→使う：00473_tsukau⟧きた。",
       "english": "In Japanese painting, ultramarine has been used as a traditional pigment.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {群青|ぐんじょう} (ultramarine pigment) + {色|いろ} (color). {群青|ぐんじょう} alone can also refer to the color, but adding {色|いろ} makes it explicitly a color name.\n\nCOMMON COLLOCATIONS:\n- {群青色|ぐんじょういろ}の{空|そら}: ultramarine sky\n- {群青色|ぐんじょういろ}の{海|うみ}: deep blue sea\n- {群青色|ぐんじょういろ}に{輝|かがや}く: to shine in deep blue\n\nCULTURAL NOTE:\nUltramarine ({群青|ぐんじょう}) is one of the traditional Japanese colors ({日本|にほん}の{伝統色|でんとうしょく}), historically valued in Japanese painting ({日本画|にほんが}). The pigment was originally made from the mineral {瑠璃|るり} (lapis lazuli).\n\nSIMILAR WORDS:\n- {紺色|こんいろ}: navy blue, dark blue — a darker, more muted blue\n- {藍色|あいいろ}: indigo — a blue derived from plant-based indigo dye\n- {瑠璃色|るりいろ}: lapis lazuli blue — similar vivid blue, named after the mineral itself",
+  "notes": "A compound of ⟦{群青|ぐんじょう}→群青：14067_gunjou⟧ (ultramarine pigment) + ⟦{色|いろ}→色：00849_iro⟧ (color). ⟦{群青|ぐんじょう}→群青：14067_gunjou⟧ alone can also refer to the color, but adding ⟦{色|いろ}→色：00849_iro⟧ makes it explicitly a color name.\n\nCOMMON COLLOCATIONS:\n- {群青色|ぐんじょういろ}⟦の→の：09472_no⟧⟦{空|そら}→空：02216_sora⟧: ultramarine sky\n- {群青色|ぐんじょういろ}⟦の→の：09472_no⟧⟦{海|うみ}→海：00556_umi⟧: deep blue sea\n- {群青色|ぐんじょういろ}⟦に→に：00314_ni⟧⟦{輝|かがや}く→輝く：02032_kagayaku⟧: to shine in deep blue\n\nCULTURAL NOTE:\nUltramarine (⟦{群青|ぐんじょう}→群青：14067_gunjou⟧) is one of the traditional Japanese colors (⟦{日本|にほん}→日本：03876_nihon⟧⟦の→の：09472_no⟧{伝統色|でんとうしょく}), historically valued in Japanese painting (⟦{日本画|にほんが}→日本画：18225_nihonga⟧). The pigment was originally made from the mineral {瑠璃|るり} (lapis lazuli).\n\nSIMILAR WORDS:\n- ⟦{紺色|こんいろ}→紺色：13792_koniro⟧: navy blue, dark blue — a darker, more muted blue\n- ⟦{藍色|あいいろ}→藍色：15519_aiiro⟧: indigo — a blue derived from plant-based indigo dye\n- ⟦{瑠璃色|るりいろ}→瑠璃色：22958_ruriiro⟧: lapis lazuli blue — similar vivid blue, named after the mineral itself",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13792_koniro",
+      "reading": "こんいろ",
+      "headword": "{紺色|こんいろ}",
+      "label": "navy blue, dark blue"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15519_aiiro",
+      "reading": "あいいろ",
+      "headword": "{藍色|あいいろ}",
+      "label": "indigo"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22958_ruriiro",
+      "reading": "るりいろ",
+      "headword": "{瑠璃色|るりいろ}",
+      "label": "lapis lazuli blue"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["color", "art"]
+      "semantic": [
+        "color",
+        "art"
+      ]
     },
     "created": "2026-03-29T15:24:28Z",
-    "modified": "2026-03-29T15:24:28Z"
+    "modified": "2026-09-02T04:01:59Z"
   }
 }

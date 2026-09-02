@@ -19,7 +19,7 @@
   "examples": [
     {
       "id": "10081_youni_ex1",
-      "japanese": "{忙|いそが}しくても、{日課|にっか}だけは{欠|か}かさないようにしている。",
+      "japanese": "⟦{忙|いそが}しくて→忙しい：00591_isogashii⟧⟦も→も：00484_mo⟧、⟦{日課|にっか}→日課：00317_nikka⟧⟦だけ→〜だけ：03093_dake⟧⟦は→は：00079_ha⟧⟦{欠|か}かさない→欠かす：10138_kakasu⟧ように⟦している→する：00392_suru⟧。",
       "english": "Even when busy, I make sure not to miss my daily routine.",
       "notes": "Purpose usage with している",
       "has_audio": false,
@@ -29,7 +29,7 @@
     },
     {
       "id": "10081_youni_ex2",
-      "japanese": "{忘|わす}れないようにメモする。",
+      "japanese": "⟦{忘|わす}れない→忘れる：00474_wasureru⟧ように⟦メモする→メモする：25501_memosuru⟧。",
       "english": "I take notes so that I don't forget.",
       "notes": null,
       "has_audio": false,
@@ -39,7 +39,7 @@
     },
     {
       "id": "10081_youni_ex3",
-      "japanese": "{風邪|かぜ}を{引|ひ}かないように{気|き}をつけてください。",
+      "japanese": "⟦{風邪|かぜ}→風邪：02188_kaze⟧⟦を→を：00422_wo⟧⟦{引|ひ}かない→引く：01978_hiku⟧ように{気|き}をつけて⟦ください→ください：02899_kudasai⟧。",
       "english": "Please be careful not to catch a cold.",
       "notes": null,
       "has_audio": false,
@@ -49,7 +49,7 @@
     },
     {
       "id": "10081_youni_ex4",
-      "japanese": "{鳥|とり}のように{空|そら}を{飛|と}びたい。",
+      "japanese": "⟦{鳥|とり}→鳥：00679_tori⟧⟦の→の：09472_no⟧ように⟦{空|そら}→空：02216_sora⟧⟦を→を：00422_wo⟧⟦{飛|と}びたい→飛ぶ：00759_tobu⟧。",
       "english": "I want to fly through the sky like a bird.",
       "notes": "Comparison usage",
       "has_audio": false,
@@ -58,11 +58,33 @@
       ]
     }
   ],
-  "notes": "GRAMMAR PATTERNS:\n\n1. PURPOSE (〜ように):\n・V(dictionary/ない) + ように (so that V / so that not V)\n・{間|ま}に{合|あ}うように{早|はや}く{出|で}る (leave early so as to be on time)\n・{忘|わす}れないようにする (make sure not to forget)\n\n2. COMPARISON (〜のように):\n・N + のように (like N)\n・{子|こ}どものように (like a child)\n・{言|い}ったように (as I said)\n\nCOMMON EXPRESSIONS:\n・ようにする (to make sure to, to try to)\n・ようになる (to come to, to become able to)\n・ように{言|い}う (to tell someone to)\n\nDISTINCTION:\n・ように (purpose/manner) - this entry\n・ために (purpose/reason) - implies more direct causation",
-  "cross_references": [],
+  "notes": "COMMON PATTERNS:\n\n1. PURPOSE (〜ように):\n- V(dictionary/⟦ない→ない：01118_nai⟧) + ように (so that V / so that not V)\n- ⟦{間|ま}に{合|あ}う→間に合う：01142_maniau⟧ように⟦{早|はや}く→早い：00514_hayai⟧⟦{出|で}る→出る：00513_deru⟧ (leave early so as to be on time)\n- ⟦{忘|わす}れない→忘れる：00474_wasureru⟧ように⟦する→する：00392_suru⟧ (make sure not to forget)\n\n2. COMPARISON (〜のように):\n- N + ⟦の→の：09472_no⟧ように (like N)\n- {子|こ}ども⟦の→の：09472_no⟧ように (like a child)\n- ⟦{言|い}った→言う：00515_iu⟧ように (as I said)\n\nCOMMON EXPRESSIONS:\n- ように⟦する→する：00392_suru⟧ (to make sure to, to try to)\n- ように⟦なる→なる：01970_naru⟧ (to come to, to become able to)\n- ように⟦{言|い}う→言う：00515_iu⟧ (to tell someone to)\n\nSIMILAR WORDS:\n- ように (purpose/manner) - this entry\n- ⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧ (purpose/reason) - implies more direct causation",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "28332_tameni",
+      "reading": "ために",
+      "headword": "ために",
+      "label": "purpose/reason"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29166_beku",
+      "reading": "べく",
+      "headword": "べく",
+      "label": "in order to"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30292_youna",
+      "reading": "ような",
+      "headword": "ような",
+      "label": "like"
+    }
+  ],
   "metadata": {
     "created": "2026-02-05T02:14:44Z",
-    "modified": "2026-08-14T01:00:44Z",
+    "modified": "2026-09-02T04:01:20Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

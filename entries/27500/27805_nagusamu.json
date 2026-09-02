@@ -3,7 +3,7 @@
   "headword": "{慰|なぐさ}む",
   "reading": "なぐさむ",
   "romaji": "nagusamu",
-  "part_of_speech": "verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to be comforted; to find solace",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "27805_nagusamu_ex1",
-      "japanese": "{心|こころ}が{慰|なぐさ}む。",
+      "japanese": "⟦{心|こころ}→心：01321_kokoro⟧⟦が→が：00051_ga⟧{慰|なぐさ}む。",
       "english": "My heart is comforted.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "27805_nagusamu_ex2",
-      "japanese": "{音楽|おんがく}を{聞|き}くと{気|き}が{慰|なぐさ}む。",
+      "japanese": "⟦{音楽|おんがく}→音楽：00661_ongaku⟧⟦を→を：00422_wo⟧⟦{聞|き}く→聞く：00483_kiku⟧⟦と→と：00512_to⟧⟦{気|き}→気：02199_ki⟧⟦が→が：00051_ga⟧{慰|なぐさ}む。",
       "english": "Listening to music soothes me.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "27805_nagusamu_ex3",
-      "japanese": "{友人|ゆうじん}の{優|やさ}しい{言葉|ことば}に{少|すこ}し{心|こころ}が{慰|なぐさ}んだ。",
+      "japanese": "⟦{友人|ゆうじん}→友人：03649_yuujin⟧⟦の→の：09472_no⟧{優|やさ}しい⟦{言葉|ことば}→言葉：02880_kotoba⟧⟦に→に：00314_ni⟧⟦{少|すこ}し→少し：00596_sukoshi⟧⟦{心|こころ}→心：01321_kokoro⟧⟦が→が：00051_ga⟧{慰|なぐさ}んだ。",
       "english": "My friend's kind words gave my heart a little comfort.",
       "sense_numbers": [
         1
@@ -44,8 +44,25 @@
       "notes": null
     }
   ],
-  "notes": "TRANSITIVITY: Intransitive godan verb. Xが{慰|なぐさ}む, typically with {心|こころ} or {気|き} as the subject. The transitive pair is {慰|なぐさ}める (to comfort someone).\n\nSomewhat literary; in everyday speech the transitive {慰|なぐさ}める or the noun {慰|なぐさ}め is more common.\n\nCOMMON COLLOCATIONS:\n- {心|こころ}が{慰|なぐさ}む: one's heart is soothed\n- {気|き}が{慰|なぐさ}む: one's feelings are eased\n\nSIMILAR WORDS:\n- {慰|なぐさ}める: to comfort someone — the transitive counterpart\n- {癒|い}える: to heal — of a wound or grief mending over time",
+  "notes": "TRANSITIVITY: Intransitive godan verb. X⟦が→が：00051_ga⟧{慰|なぐさ}む, typically with ⟦{心|こころ}→心：01321_kokoro⟧ or ⟦{気|き}→気：02199_ki⟧ as the subject. The transitive pair is ⟦{慰|なぐさ}める→慰める：02133_nagusameru⟧ (to comfort someone).\n\nSomewhat literary; in everyday speech the transitive ⟦{慰|なぐさ}める→慰める：02133_nagusameru⟧ or the noun ⟦{慰|なぐさ}め→慰め：21650_nagusame⟧ is more common.\n\nCOMMON COLLOCATIONS:\n- ⟦{心|こころ}→心：01321_kokoro⟧⟦が→が：00051_ga⟧{慰|なぐさ}む: one's heart is soothed\n- ⟦{気|き}→気：02199_ki⟧⟦が→が：00051_ga⟧{慰|なぐさ}む: one's feelings are eased\n\nSIMILAR WORDS:\n- ⟦{慰|なぐさ}める→慰める：02133_nagusameru⟧: to comfort someone — the transitive counterpart\n- ⟦{癒|い}える→癒える：20856_ieru⟧: to heal — of a wound or grief mending over time",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20856_ieru",
+      "reading": "いえる",
+      "headword": "{癒|い}える",
+      "label": "to heal"
+    }
+  ],
+  "prominent_see_also": [
+    {
+      "target_id": "02133_nagusameru",
+      "reading": "なぐさめる",
+      "headword": "{慰|なぐさ}める",
+      "note": "transitive"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,7 +79,7 @@
       "verb_class": "godan-mu"
     },
     "created": "2026-05-19T03:07:48Z",
-    "modified": "2026-05-19T03:07:48Z"
+    "modified": "2026-09-02T04:02:31Z"
   },
   "conjugation": {
     "type": "godan",

@@ -2,7 +2,7 @@
   "id": "03542_teishutsu",
   "headword": "{提出|ていしゅつ}",
   "reading": "ていしゅつ",
-  "part_of_speech": "noun, suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "submission, presentation",
   "conjugation": {
     "type": "suru",
@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "03542_teishutsu_ex1",
-      "japanese": "レポート⟦を→を：00422_wo⟧{提出|ていしゅつ}⟦してください→する：00392_suru⟧。",
+      "japanese": "⟦レポート→レポート：01543_repooto⟧⟦を→を：00422_wo⟧{提出|ていしゅつ}⟦してください→する：00392_suru⟧。",
       "english": "Please submit the report.",
       "notes": null,
       "has_audio": false,
@@ -133,11 +133,33 @@
       ]
     }
   ],
-  "notes": "COMMON PATTERNS:\n・〜⟦を→を：00422_wo⟧{提出|ていしゅつ}⟦する→する：00392_suru⟧ (to submit ~)\n・{提出|ていしゅつ}⟦{期限|きげん}→期限：12861_kigen⟧ (submission deadline)\n・{提出|ていしゅつ}{物|ぶつ} (things to be submitted)\n\nCOMMON USES:\n・⟦{書類|しょるい}→書類：01103_shorui⟧⟦を→を：00422_wo⟧{提出|ていしゅつ}⟦する→する：00392_suru⟧ (to submit documents)\n・⟦{申請書|しんせいしょ}→申請書：07486_shinseisho⟧⟦を→を：00422_wo⟧{提出|ていしゅつ}⟦する→する：00392_suru⟧ (to submit an application)\n・⟦{宿題|しゅくだい}→宿題：00812_shukudai⟧⟦を→を：00422_wo⟧{提出|ていしゅつ}⟦する→する：00392_suru⟧ (to submit homework)\n・⟦{辞表|じひょう}→辞表：27086_jihyou⟧⟦を→を：00422_wo⟧{提出|ていしゅつ}⟦する→する：00392_suru⟧ (to submit a resignation letter)\n\nSIMILAR WORDS:\n・{提出|ていしゅつ}: Submit (formal documents, applications)\n・⟦{出|だ}す→出す：01087_dasu⟧: Turn in, hand in (more casual)",
-  "cross_references": [],
+  "notes": "COMMON PATTERNS:\n- 〜⟦を→を：00422_wo⟧{提出|ていしゅつ}⟦する→する：00392_suru⟧ (to submit ~)\n- {提出|ていしゅつ}⟦{期限|きげん}→期限：12861_kigen⟧ (submission deadline)\n- {提出|ていしゅつ}{物|ぶつ} (things to be submitted)\n\nCOMMON COLLOCATIONS:\n- ⟦{書類|しょるい}→書類：01103_shorui⟧⟦を→を：00422_wo⟧{提出|ていしゅつ}⟦する→する：00392_suru⟧ (to submit documents)\n- ⟦{申請書|しんせいしょ}→申請書：07486_shinseisho⟧⟦を→を：00422_wo⟧{提出|ていしゅつ}⟦する→する：00392_suru⟧ (to submit an application)\n- ⟦{宿題|しゅくだい}→宿題：00812_shukudai⟧⟦を→を：00422_wo⟧{提出|ていしゅつ}⟦する→する：00392_suru⟧ (to submit homework)\n- ⟦{辞表|じひょう}→辞表：27086_jihyou⟧⟦を→を：00422_wo⟧{提出|ていしゅつ}⟦する→する：00392_suru⟧ (to submit a resignation letter)\n\nSIMILAR WORDS:\n- {提出|ていしゅつ}: Submit (formal documents, applications)\n- ⟦{出|だ}す→出す：01087_dasu⟧: Turn in, hand in (more casual)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01087_dasu",
+      "reading": "だす",
+      "headword": "{出|だ}す",
+      "label": "Turn in, hand in"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04234_sashidasu",
+      "reading": "さしだす",
+      "headword": "{差|さ}し{出|だ}す",
+      "label": "to hold out"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12905_teiji",
+      "reading": "ていじ",
+      "headword": "{提示|ていじ}",
+      "label": "presentation, showing, display"
+    }
+  ],
   "metadata": {
     "created": "2026-01-12T09:35:00Z",
-    "modified": "2026-05-26T13:19:13Z",
+    "modified": "2026-09-02T04:01:03Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -151,7 +173,8 @@
         "communication",
         "education"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

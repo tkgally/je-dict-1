@@ -3,7 +3,7 @@
   "headword": "{奮励|ふんれい}",
   "reading": "ふんれい",
   "romaji": "funrei",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "strenuous effort; exertion; striving hard",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24606_funrei_ex1",
-      "japanese": "{社員|しゃいん}{一同|いちどう}、{奮励|ふんれい}{努力|どりょく}いたします。",
+      "japanese": "⟦{社員|しゃいん}→社員：03065_shain⟧⟦{一同|いちどう}→一同：08918_ichidou⟧、{奮励|ふんれい}⟦{努力|どりょく}→努力：03490_doryoku⟧⟦いたします→いたす：01314_itasu⟧。",
       "english": "All employees will strive and work hard.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24606_funrei_ex2",
-      "japanese": "{今後|こんご}とも{奮励|ふんれい}して{業務|ぎょうむ}に{取|と}り{組|く}んでまいります。",
+      "japanese": "⟦{今後|こんご}→今後：02808_kongo⟧とも{奮励|ふんれい}⟦して→する：00392_suru⟧⟦{業務|ぎょうむ}→業務：09630_gyoumu⟧⟦に→に：00314_ni⟧⟦{取|と}り{組|く}んで→取り組む：04225_torikumu⟧まいります。",
       "english": "I will continue to devote my utmost efforts to my work.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24606_funrei_ex3",
-      "japanese": "{先人|せんじん}たちの{奮励|ふんれい}のおかげで、この{地域|ちいき}は{荒|あ}れ{地|ち}から{豊|ゆた}かな{農地|のうち}へと{変|か}わった。",
+      "japanese": "⟦{先人|せんじん}→先人：23803_senjin⟧たち⟦の→の：09472_no⟧{奮励|ふんれい}⟦の→の：09472_no⟧⟦おかげ→おかげ：01362_okage⟧で、⟦この→この：00962_kono⟧⟦{地域|ちいき}→地域：01461_chiiki⟧⟦は→は：00079_ha⟧⟦{荒|あ}れ{地|ち}→荒れ地：20128_arechi⟧⟦から→から：00504_kara⟧⟦{豊|ゆた}か→豊か：03654_yutaka⟧な⟦{農地|のうち}→農地：14354_nouchi⟧⟦へ→へ：02473_he⟧⟦と→と：00512_to⟧⟦{変|か}わった→変わる：00714_kawaru⟧。",
       "english": "Thanks to the strenuous efforts of our predecessors, this region was transformed from wasteland into fertile farmland.",
       "sense_numbers": [
         1
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "A formal word expressing vigorous exertion and dedicated effort. Often used in business speeches, formal letters, and historical contexts. Carries a stronger sense of spirited determination than {努力|どりょく} alone.\n\nCOMMON COLLOCATIONS:\n- {奮励努力|ふんれいどりょく}: strenuous effort (emphatic compound)\n- {奮励|ふんれい}する: to strive, to exert oneself\n- {奮励|ふんれい}して{取|と}り{組|く}む: to tackle with vigorous effort\n\nSIMILAR WORDS:\n- {努力|どりょく}: effort — the most common and neutral term for effort\n- {奮闘|ふんとう}: hard fight, struggle — implies fighting against adversity\n- {精進|しょうじん}: devotion, diligence — carries a spiritual or self-improvement nuance\n- {尽力|じんりょく}: utmost effort — formal, often used for effort on behalf of others",
+  "notes": "A formal word expressing vigorous exertion and dedicated effort. Often used in business speeches, formal letters, and historical contexts. Carries a stronger sense of spirited determination than ⟦{努力|どりょく}→努力：03490_doryoku⟧ alone.\n\nCOMMON COLLOCATIONS:\n- {奮励努力|ふんれいどりょく}: strenuous effort (emphatic compound)\n- {奮励|ふんれい}⟦する→する：00392_suru⟧: to strive, to exert oneself\n- {奮励|ふんれい}⟦して→する：00392_suru⟧⟦{取|と}り{組|く}む→取り組む：04225_torikumu⟧: to tackle with vigorous effort\n\nSIMILAR WORDS:\n- ⟦{努力|どりょく}→努力：03490_doryoku⟧: effort — the most common and neutral term for effort\n- ⟦{奮闘|ふんとう}→奮闘：07901_funtou⟧: hard fight, struggle — implies fighting against adversity\n- ⟦{精進|しょうじん}→精進：13788_shoujin⟧: devotion, diligence — carries a spiritual or self-improvement nuance\n- ⟦{尽力|じんりょく}→尽力：09336_jinryoku⟧: utmost effort — formal, often used for effort on behalf of others",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03490_doryoku",
+      "reading": "どりょく",
+      "headword": "{努力|どりょく}",
+      "label": "effort"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07901_funtou",
+      "reading": "ふんとう",
+      "headword": "{奮闘|ふんとう}",
+      "label": "hard fight, struggle"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13788_shoujin",
+      "reading": "しょうじん",
+      "headword": "{精進|しょうじん}",
+      "label": "devotion, diligence"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09336_jinryoku",
+      "reading": "じんりょく",
+      "headword": "{尽力|じんりょく}",
+      "label": "utmost effort"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,10 +91,11 @@
       "semantic": [
         "general"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     },
     "created": "2026-04-19T16:31:09Z",
-    "modified": "2026-04-19T16:31:09Z"
+    "modified": "2026-09-02T04:02:19Z"
   },
   "conjugation": {
     "type": "suru",

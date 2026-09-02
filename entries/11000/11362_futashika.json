@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "11362_futashika_ex1",
-      "japanese": "{記憶|きおく}が{不確|ふたし}かだ。",
+      "japanese": "⟦{記憶|きおく}→記憶：00234_kioku⟧⟦が→が：00051_ga⟧{不確|ふたし}かだ。",
       "english": "My memory is uncertain.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "11362_futashika_ex2",
-      "japanese": "{不確|ふたし}かな{情報|じょうほう}を{信|しん}じてはいけない。",
+      "japanese": "{不確|ふたし}かな⟦{情報|じょうほう}→情報：03348_jouhou⟧⟦を→を：00422_wo⟧⟦{信|しん}じて→信じる：01111_shinjiru⟧⟦は→は：00079_ha⟧いけない。",
       "english": "You shouldn't believe unreliable information.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "11362_futashika_ex3",
-      "japanese": "{足元|あしもと}が{不確|ふたし}かなので、{手|て}すりにつかまって{歩|ある}いた。",
+      "japanese": "⟦{足元|あしもと}→足元：04096_ashimoto⟧⟦が→が：00051_ga⟧{不確|ふたし}かな⟦の→の：09472_no⟧で、⟦{手|て}すり→手すり：12754_tesuri⟧⟦に→に：00314_ni⟧つかまって⟦{歩|ある}いた→歩く：00538_aruku⟧。",
       "english": "My footing was unsteady, so I walked holding onto the handrail.",
       "notes": null,
       "has_audio": false,
@@ -44,18 +44,25 @@
       ]
     }
   ],
-  "notes": "WORD FORMATION:\n{不|ふ} (not) + {確|たし}か (certain, definite). The antonym is {確|たし}か (certain).\n\nUSAGE:\nDescribes anything that lacks certainty — memories, information, foundations, or futures. Often used when hedging or admitting a lack of confidence in what one is saying.\n\nCOMMON COLLOCATIONS:\n- {不確|ふたし}かな{記憶|きおく}: uncertain memory\n- {不確|ふたし}かな{情報|じょうほう}: unreliable information\n- {足元|あしもと}が{不確|ふたし}か: unsteady on one's feet\n- {不確|ふたし}かな{未来|みらい}: uncertain future",
+  "notes": "FORMS:\n{不|ふ} (not) + ⟦{確|たし}か→確か：00894_tashika⟧ (certain, definite). The antonym is ⟦{確|たし}か→確か：00894_tashika⟧ (certain).\n\nUSAGE:\nDescribes anything that lacks certainty — memories, information, foundations, or futures. Often used when hedging or admitting a lack of confidence in what one is saying.\n\nCOMMON COLLOCATIONS:\n- {不確|ふたし}かな⟦{記憶|きおく}→記憶：00234_kioku⟧: uncertain memory\n- {不確|ふたし}かな⟦{情報|じょうほう}→情報：03348_jouhou⟧: unreliable information\n- ⟦{足元|あしもと}→足元：04096_ashimoto⟧⟦が→が：00051_ga⟧{不確|ふたし}か: unsteady on one's feet\n- {不確|ふたし}かな⟦{未来|みらい}→未来：03748_mirai⟧: uncertain future",
   "cross_references": [
     {
       "type": "antonym",
       "reading": "たしか",
       "headword": "{確|たし}か",
       "target_id": "00894_tashika"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24296_fukakutei",
+      "reading": "ふかくてい",
+      "headword": "{不確定|ふかくてい}",
+      "label": "uncertain"
     }
   ],
   "metadata": {
     "created": "2026-02-16T01:06:12Z",
-    "modified": "2026-06-30T06:28:36Z",
+    "modified": "2026-09-02T04:01:24Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

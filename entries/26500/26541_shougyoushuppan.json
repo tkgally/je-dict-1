@@ -3,7 +3,7 @@
   "headword": "{商業出版|しょうぎょうしゅっぱん}",
   "reading": "しょうぎょうしゅっぱん",
   "romaji": "shougyoushuppan",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "commercial publishing; trade publishing",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26541_shougyoushuppan_ex1",
-      "japanese": "{商業出版|しょうぎょうしゅっぱん}で{本|ほん}を{出|だ}すのが{夢|ゆめ}だ。",
+      "japanese": "{商業出版|しょうぎょうしゅっぱん}⟦で→で：00502_de⟧{本|ほん}⟦を→を：00422_wo⟧⟦{出|だ}す→出す：01087_dasu⟧⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦{夢|ゆめ}→夢：01519_yume⟧だ。",
       "english": "My dream is to publish a book through a commercial publisher.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26541_shougyoushuppan_ex2",
-      "japanese": "{商業出版|しょうぎょうしゅっぱん}と{自費出版|じひしゅっぱん}の{違|ちが}いを{知|し}っていますか。",
+      "japanese": "{商業出版|しょうぎょうしゅっぱん}⟦と→と：00512_to⟧⟦{自費出版|じひしゅっぱん}→自費出版：23968_jihishuppan⟧⟦の→の：09472_no⟧⟦{違|ちが}い→違い：03432_chigai⟧⟦を→を：00422_wo⟧⟦{知|し}っています→知る：00458_shiru⟧⟦か→か：09473_ka⟧。",
       "english": "Do you know the difference between commercial publishing and self-publishing?",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26541_shougyoushuppan_ex3",
-      "japanese": "{商業出版|しょうぎょうしゅっぱん}では{出版社|しゅっぱんしゃ}が{費用|ひよう}を{負担|ふたん}するため、{著者|ちょしゃ}の{金銭的|きんせんてき}リスクが{少|すく}ない。",
+      "japanese": "{商業出版|しょうぎょうしゅっぱん}⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{出版社|しゅっぱんしゃ}→出版社：11765_shuppansha⟧⟦が→が：00051_ga⟧⟦{費用|ひよう}→費用：03588_hiyou⟧⟦を→を：00422_wo⟧⟦{負担|ふたん}→負担：09752_futan⟧⟦する→する：00392_suru⟧⟦ため→ため：01145_tame⟧、⟦{著者|ちょしゃ}→著者：03501_chosha⟧⟦の→の：09472_no⟧⟦{金銭的|きんせんてき}→金銭的：21897_kinsenteki⟧⟦リスク→リスク：06752_risuku⟧⟦が→が：00051_ga⟧⟦{少|すく}ない→少ない：01136_sukunai⟧。",
       "english": "In commercial publishing, the publisher bears the costs, so the author takes on less financial risk.",
       "sense_numbers": [
         1
@@ -44,8 +44,30 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {商業|しょうぎょう} (commerce, business) and {出版|しゅっぱん} (publishing). This term gained prominence as self-publishing and online publishing grew, creating a need to distinguish traditional publisher-funded publishing from author-funded alternatives.\n\nCOMMON COLLOCATIONS:\n- {商業出版|しょうぎょうしゅっぱん}する: to publish commercially\n- {商業出版|しょうぎょうしゅっぱん}{物|ぶつ}: commercially published work\n- {商業出版|しょうぎょうしゅっぱん}デビュー: commercial publishing debut\n\nSIMILAR WORDS:\n- {自費出版|じひしゅっぱん}: self-publishing (vanity press) — the author pays for production costs\n- {同人誌|どうじんし}: doujinshi, self-published works — often fan-created content sold at events like コミケ (Comiket)\n- {電子出版|でんししゅっぱん}: electronic publishing — publishing in digital format, which can be either commercial or self-published",
-  "cross_references": [],
+  "notes": "Composed of ⟦{商業|しょうぎょう}→商業：09940_shougyou⟧ (commerce, business) and ⟦{出版|しゅっぱん}→出版：03222_shuppan⟧ (publishing). This term gained prominence as self-publishing and online publishing grew, creating a need to distinguish traditional publisher-funded publishing from author-funded alternatives.\n\nCOMMON COLLOCATIONS:\n- {商業出版|しょうぎょうしゅっぱん}⟦する→する：00392_suru⟧: to publish commercially\n- {商業出版|しょうぎょうしゅっぱん}{物|ぶつ}: commercially published work\n- {商業出版|しょうぎょうしゅっぱん}⟦デビュー→デビュー：11016_debyuu⟧: commercial publishing debut\n\nSIMILAR WORDS:\n- ⟦{自費出版|じひしゅっぱん}→自費出版：23968_jihishuppan⟧: self-publishing (vanity press) — the author pays for production costs\n- ⟦{同人誌|どうじんし}→同人誌：07326_doujinshi⟧: doujinshi, self-published works — often fan-created content sold at events like コミケ (Comiket)\n- {電子出版|でんししゅっぱん}: electronic publishing — publishing in digital format, which can be either commercial or self-published",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23968_jihishuppan",
+      "reading": "じひしゅっぱん",
+      "headword": "{自費|じひ}{出版|しゅっぱん}",
+      "label": "self-publishing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07326_doujinshi",
+      "reading": "どうじんし",
+      "headword": "{同人誌|どうじんし}",
+      "label": "doujinshi, self-published works"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26382_jikoshuppan",
+      "reading": "じこしゅっぱん",
+      "headword": "{自己出版|じこしゅっぱん}",
+      "label": "self-publishing"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -65,7 +87,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-02T15:28:06Z",
-    "modified": "2026-05-02T15:28:06Z"
+    "modified": "2026-09-02T04:02:26Z"
   },
   "conjugation": {
     "type": "suru",

@@ -3,7 +3,7 @@
   "headword": "{断念|だんねん}する",
   "reading": "だんねんする",
   "romaji": "dannensuru",
-  "part_of_speech": "verb",
+  "part_of_speech": "suru verb",
   "gloss": "to give up; to abandon (a plan or hope)",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "20717_dannensuru_ex1",
-      "japanese": "{留学|りゅうがく}を{断念|だんねん}する。",
+      "japanese": "⟦{留学|りゅうがく}→留学：03677_ryuugaku⟧⟦を→を：00422_wo⟧{断念|だんねん}する。",
       "english": "To give up on studying abroad.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "20717_dannensuru_ex2",
-      "japanese": "{資金不足|しきんぶそく}で{計画|けいかく}を{断念|だんねん}した。",
+      "japanese": "{資金不足|しきんぶそく}⟦で→で：00502_de⟧⟦{計画|けいかく}→計画：01172_keikaku⟧⟦を→を：00422_wo⟧{断念|だんねん}した。",
       "english": "I abandoned the plan due to a lack of funds.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "20717_dannensuru_ex3",
-      "japanese": "{怪我|けが}のため、{選手|せんしゅ}は{今季|こんき}の{出場|しゅつじょう}を{断念|だんねん}せざるを{得|え}なかった。",
+      "japanese": "{怪我|けが}⟦の→の：09472_no⟧⟦ため→ため：01145_tame⟧、⟦{選手|せんしゅ}→選手：03823_senshu⟧⟦は→は：00079_ha⟧{今季|こんき}⟦の→の：09472_no⟧⟦{出場|しゅつじょう}→出場：03223_shutsujou⟧⟦を→を：00422_wo⟧{断念|だんねん}せざる⟦を→を：00422_wo⟧⟦{得|え}なかった→得る：02014_eru⟧。",
       "english": "Due to injury, the athlete had no choice but to give up competing this season.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "A する verb meaning to completely give up on something. Composed of {断|だん} (sever/cut off) + {念|ねん} (thought/wish), literally meaning to 'cut off one's wish.' Carries a tone of finality and is more formal than {諦|あきら}める.\n\nCOMMON COLLOCATIONS:\n- {計画|けいかく}を{断念|だんねん}する: to abandon a plan\n- {出場|しゅつじょう}を{断念|だんねん}する: to withdraw from a competition\n- {留学|りゅうがく}を{断念|だんねん}する: to give up on studying abroad\n- {断念|だんねん}せざるを{得|え}ない: to have no choice but to give up\n- {泣|な}く{泣|な}く{断念|だんねん}する: to reluctantly give up\n\nUSAGE:\nOften appears in news articles and formal writing. Typically used for significant decisions — giving up on major plans, career goals, or ambitions — rather than everyday small matters.\n\nSIMILAR WORDS:\n- {諦|あきら}める: to give up — more conversational and broader in scope; can be used for small or large matters\n- {放棄|ほうき}する: to abandon, to forfeit — emphasizes discarding something one has a right to\n- {撤回|てっかい}する: to withdraw, to retract — specifically about retracting a statement, proposal, or offer",
+  "notes": "A ⟦する→する：00392_suru⟧ verb meaning to completely give up on something. Composed of {断|だん} (sever/cut off) + ⟦{念|ねん}→念：12766_nen⟧ (thought/wish), literally meaning to 'cut off one's wish.' Carries a tone of finality and is more formal than ⟦{諦|あきら}める→諦める：01813_akirameru⟧.\n\nCOMMON COLLOCATIONS:\n- ⟦{計画|けいかく}→計画：01172_keikaku⟧⟦を→を：00422_wo⟧{断念|だんねん}する: to abandon a plan\n- ⟦{出場|しゅつじょう}→出場：03223_shutsujou⟧⟦を→を：00422_wo⟧{断念|だんねん}する: to withdraw from a competition\n- ⟦{留学|りゅうがく}→留学：03677_ryuugaku⟧⟦を→を：00422_wo⟧{断念|だんねん}する: to give up on studying abroad\n- {断念|だんねん}せざる⟦を→を：00422_wo⟧⟦{得|え}ない→得る：02014_eru⟧: to have no choice but to give up\n- {泣|な}く{泣|な}く{断念|だんねん}する: to reluctantly give up\n\nUSAGE:\nOften appears in news articles and formal writing. Typically used for significant decisions — giving up on major plans, career goals, or ambitions — rather than everyday small matters.\n\nSIMILAR WORDS:\n- ⟦{諦|あきら}める→諦める：01813_akirameru⟧: to give up — more conversational and broader in scope; can be used for small or large matters\n- ⟦{放棄|ほうき}する→放棄する：25353_houkisuru⟧: to abandon, to forfeit — emphasizes discarding something one has a right to\n- ⟦{撤回|てっかい}→撤回：12910_tekkai⟧⟦する→する：00392_suru⟧: to withdraw, to retract — specifically about retracting a statement, proposal, or offer",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01813_akirameru",
+      "reading": "あきらめる",
+      "headword": "{諦|あきら}める",
+      "label": "to give up"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25353_houkisuru",
+      "reading": "ほうきする",
+      "headword": "{放棄|ほうき}する",
+      "label": "to abandon, to forfeit"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12910_tekkai",
+      "reading": "てっかい",
+      "headword": "{撤回|てっかい}",
+      "label": "to withdraw, to retract"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -57,10 +80,11 @@
       "semantic": [
         "cognition"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-03-30T14:23:42Z",
-    "modified": "2026-07-29T00:22:41Z"
+    "modified": "2026-09-02T04:02:00Z"
   },
   "conjugation": {
     "type": "suru",

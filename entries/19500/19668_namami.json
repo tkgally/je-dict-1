@@ -15,40 +15,73 @@
   "examples": [
     {
       "id": "19668_namami_ex1",
-      "japanese": "{生身|なまみ}の{人間|にんげん}には{限界|げんかい}がある。",
+      "japanese": "{生身|なまみ}⟦の→の：09472_no⟧⟦{人間|にんげん}→人間：03523_ningen⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{限界|げんかい}→限界：02715_genkai⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "Flesh-and-blood humans have limits.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19668_namami_ex2",
-      "japanese": "ロボットではなく、{生身|なまみ}の{人|ひと}と{話|はな}したい。",
+      "japanese": "⟦ロボット→ロボット：06404_robotto⟧⟦ではなく→ではなく：09578_dehanaku⟧、{生身|なまみ}⟦の→の：09472_no⟧⟦{人|ひと}→人：00476_hito⟧⟦と→と：00512_to⟧⟦{話|はな}したい→話す：00467_hanasu⟧。",
       "english": "I want to talk to a real person, not a robot.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19668_namami_ex3",
-      "japanese": "{生身|なまみ}の{体|からだ}で{宇宙|うちゅう}に{出|で}ることはできない。",
+      "japanese": "{生身|なまみ}⟦の→の：09472_no⟧⟦{体|からだ}→体：00784_karada⟧⟦で→で：00502_de⟧⟦{宇宙|うちゅう}→宇宙：01861_uchuu⟧⟦に→に：00314_ni⟧⟦{出|で}る→出る：00513_deru⟧こと⟦は→は：00079_ha⟧⟦できない→できる：00557_dekiru⟧。",
       "english": "You can't go out into space with an unprotected human body.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {生|なま} (raw, living) and {身|み} (body). Emphasizes the vulnerability and reality of the physical human body.\n\nUSAGE:\nAlmost always appears in the phrase {生身|なまみ}の{人間|にんげん} (a flesh-and-blood human) or {生身|なまみ}の{体|からだ} (a mortal body). Used when contrasting real people with machines, virtual beings, or superhuman entities. Carries a nuance of human vulnerability and physicality.\n\nCOMMON COLLOCATIONS:\n- {生身|なまみ}の{人間|にんげん} — a real, flesh-and-blood human\n- {生身|なまみ}の{体|からだ} — a mortal/physical body\n- {生身|なまみ}で — with one's bare body; unprotected\n\nRELATED TERMS:\n- {肉体|にくたい} — physical body; the body as opposed to the mind or spirit\n- {素手|すで} — bare hands; without tools or weapons\n- {本人|ほんにん} — the person themselves; in person",
+  "notes": "A compound of ⟦{生|なま}→生：03509_nama⟧ (raw, living) and ⟦{身|み}→身：01764_mi⟧ (body). Emphasizes the vulnerability and reality of the physical human body.\n\nUSAGE:\nAlmost always appears in the phrase {生身|なまみ}⟦の→の：09472_no⟧⟦{人間|にんげん}→人間：03523_ningen⟧ (a flesh-and-blood human) or {生身|なまみ}⟦の→の：09472_no⟧⟦{体|からだ}→体：00784_karada⟧ (a mortal body). Used when contrasting real people with machines, virtual beings, or superhuman entities. Carries a nuance of human vulnerability and physicality.\n\nCOMMON COLLOCATIONS:\n- {生身|なまみ}⟦の→の：09472_no⟧⟦{人間|にんげん}→人間：03523_ningen⟧ — a real, flesh-and-blood human\n- {生身|なまみ}⟦の→の：09472_no⟧⟦{体|からだ}→体：00784_karada⟧ — a mortal/physical body\n- {生身|なまみ}⟦で→で：00502_de⟧ — with one's bare body; unprotected\n\nRELATED WORDS:\n- ⟦{肉体|にくたい}→肉体：13912_nikutai⟧ — physical body; the body as opposed to the mind or spirit\n- ⟦{素手|すで}→素手：13817_sude⟧ — bare hands; without tools or weapons\n- ⟦{本人|ほんにん}→本人：03627_honnin⟧ — the person themselves; in person",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "13912_nikutai",
+      "reading": "にくたい",
+      "headword": "{肉体|にくたい}",
+      "label": "physical body"
+    },
+    {
+      "type": "related",
+      "target_id": "13817_sude",
+      "reading": "すで",
+      "headword": "{素手|すで}",
+      "label": "bare hands"
+    },
+    {
+      "type": "related",
+      "target_id": "03627_honnin",
+      "reading": "ほんにん",
+      "headword": "{本人|ほんにん}",
+      "label": "the person themselves"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["body-part"]
+      "semantic": [
+        "body-part"
+      ]
     },
     "created": "2026-03-26T11:45:15Z",
-    "modified": "2026-07-26T21:31:07Z"
+    "modified": "2026-09-02T04:01:56Z"
   }
 }

@@ -14,30 +14,36 @@
   "examples": [
     {
       "id": "09652_mokugekisha_ex1",
-      "japanese": "{彼|かれ}はその{事件|じけん}の{目撃者|もくげきしゃ}だ。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦その→その：00993_sono⟧⟦{事件|じけん}→事件：01568_jiken⟧⟦の→の：09472_no⟧{目撃者|もくげきしゃ}だ。",
       "english": "He is an eyewitness to the incident.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09652_mokugekisha_ex2",
-      "japanese": "{警察|けいさつ}は{目撃者|もくげきしゃ}を{探|さが}している。",
+      "japanese": "⟦{警察|けいさつ}→警察：01393_keisatsu⟧⟦は→は：00079_ha⟧{目撃者|もくげきしゃ}⟦を→を：00422_wo⟧⟦{探|さが}している→探す：00493_sagasu⟧。",
       "english": "The police are looking for witnesses.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09652_mokugekisha_ex3",
-      "japanese": "{目撃者|もくげきしゃ}の{証言|しょうげん}が{事件|じけん}{解決|かいけつ}の{鍵|かぎ}になった。",
+      "japanese": "{目撃者|もくげきしゃ}⟦の→の：09472_no⟧⟦{証言|しょうげん}→証言：11088_shougen⟧⟦が→が：00051_ga⟧⟦{事件|じけん}→事件：01568_jiken⟧⟦{解決|かいけつ}→解決：00136_kaiketsu⟧⟦の→の：09472_no⟧⟦{鍵|かぎ}→鍵：02189_kagi⟧になった。",
       "english": "The eyewitness testimony became the key to solving the case.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "A person who directly witnessed an event, especially a crime or accident. Commonly appears in news reports and crime contexts.\n\nFORMATION:\n{目撃|もくげき} (witnessing) + {者|しゃ} (person).\n\nCOMMON COLLOCATIONS:\n- {目撃者|もくげきしゃ}を{探|さが}す: to look for witnesses\n- {目撃者|もくげきしゃ}の{証言|しょうげん}: eyewitness testimony\n- {目撃者|もくげきしゃ}が{名乗|なの}り{出|で}る: a witness comes forward\n- {目撃者|もくげきしゃ}に{話|はなし}を{聞|き}く: to interview witnesses\n\nRELATED TERMS:\n- {目撃|もくげき}する: to witness (verb)\n- {証人|しょうにん}: witness (legal term, broader — includes non-eyewitnesses)\n- {証言|しょうげん}: testimony",
+  "notes": "A person who directly witnessed an event, especially a crime or accident. Commonly appears in news reports and crime contexts.\n\nFORMS:\n⟦{目撃|もくげき}→目撃：13627_mokugeki⟧ (witnessing) + ⟦{者|しゃ}→〜者：04662_sha⟧ (person).\n\nCOMMON COLLOCATIONS:\n- {目撃者|もくげきしゃ}⟦を→を：00422_wo⟧⟦{探|さが}す→探す：00493_sagasu⟧: to look for witnesses\n- {目撃者|もくげきしゃ}⟦の→の：09472_no⟧⟦{証言|しょうげん}→証言：11088_shougen⟧: eyewitness testimony\n- {目撃者|もくげきしゃ}⟦が→が：00051_ga⟧⟦{名乗|なの}り{出|で}る→名乗り出る：21784_nanorideru⟧: a witness comes forward\n- {目撃者|もくげきしゃ}⟦に→に：00314_ni⟧⟦{話|はなし}→話：01496_hanashi⟧⟦を→を：00422_wo⟧⟦{聞|き}く→聞く：00483_kiku⟧: to interview witnesses\n\nRELATED WORDS:\n- ⟦{目撃|もくげき}する→目撃する：20232_mokugekisuru⟧: to witness (verb)\n- ⟦{証人|しょうにん}→証人：18845_shounin⟧: witness (legal term, broader — includes non-eyewitnesses)\n- ⟦{証言|しょうげん}→証言：11088_shougen⟧: testimony",
   "cross_references": [
     {
       "type": "related",
@@ -52,18 +58,50 @@
       "reading": "しょうにん",
       "headword": "{証人|しょうにん}",
       "label": "witness (legal)"
+    },
+    {
+      "type": "related",
+      "target_id": "20232_mokugekisuru",
+      "reading": "もくげきする",
+      "headword": "{目撃|もくげき}する",
+      "label": "to witness"
+    },
+    {
+      "type": "related",
+      "target_id": "11088_shougen",
+      "reading": "しょうげん",
+      "headword": "{証言|しょうげん}",
+      "label": "testimony"
+    },
+    {
+      "type": "related",
+      "target_id": "23604_hakkensha",
+      "reading": "はっけんしゃ",
+      "headword": "{発見者|はっけんしゃ}",
+      "label": "discoverer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26731_souguusha",
+      "reading": "そうぐうしゃ",
+      "headword": "{遭遇者|そうぐうしゃ}",
+      "label": "person who encounters"
     }
   ],
   "metadata": {
     "created": "2026-02-03T02:58:32Z",
-    "modified": "2026-04-23T06:13:56Z",
+    "modified": "2026-09-02T04:01:19Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["person"]
+      "semantic": [
+        "person"
+      ]
     }
   }
 }

@@ -3,7 +3,7 @@
   "headword": "{鼓動|こどう}",
   "reading": "こどう",
   "romaji": "kodou",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "heartbeat; pulsation; throb",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "19609_kodou_ex1",
-      "japanese": "{心臓|しんぞう}の{鼓動|こどう}が{速|はや}くなった。",
+      "japanese": "⟦{心臓|しんぞう}→心臓：03262_shinzou⟧⟦の→の：09472_no⟧{鼓動|こどう}⟦が→が：00051_ga⟧⟦{速|はや}く→速い：00514_hayai⟧⟦なった→なる：01970_naru⟧。",
       "english": "My heartbeat quickened.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "19609_kodou_ex2",
-      "japanese": "{静|しず}かな{部屋|へや}で{自分|じぶん}の{鼓動|こどう}が{聞|き}こえた。",
+      "japanese": "⟦{静|しず}か→静か：00755_shizuka⟧な⟦{部屋|へや}→部屋：00507_heya⟧⟦で→で：00502_de⟧⟦{自分|じぶん}→自分：02887_jibun⟧⟦の→の：09472_no⟧{鼓動|こどう}⟦が→が：00051_ga⟧⟦{聞|き}こえた→聞こえる：01229_kikoeru⟧。",
       "english": "I could hear my own heartbeat in the quiet room.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "19609_kodou_ex3",
-      "japanese": "{舞台|ぶたい}に{上|あ}がる{直前|ちょくぜん}、{胸|むね}が{激|はげ}しく{鼓動|こどう}していた。",
+      "japanese": "⟦{舞台|ぶたい}→舞台：03606_butai⟧⟦に→に：00314_ni⟧⟦{上|あ}がる→上がる：00615_agaru⟧⟦{直前|ちょくぜん}→直前：13651_chokuzen⟧、⟦{胸|むね}→胸：00972_mune⟧⟦が→が：00051_ga⟧⟦{激|はげ}しく→激しい：02348_hageshii⟧{鼓動|こどう}⟦していた→する：00392_suru⟧。",
       "english": "Just before going on stage, my heart was pounding intensely.",
       "sense_numbers": [
         1
@@ -134,8 +134,45 @@
       "notes": null
     }
   ],
-  "notes": "The character {鼓|こ} means \"drum,\" so {鼓動|こどう} literally means \"drumming movement,\" vividly capturing the rhythmic beating of the heart. Frequently used in literary and emotional contexts.\n\nCOMMON COLLOCATIONS:\n- {心臓|しんぞう}の{鼓動|こどう}: heartbeat\n- {鼓動|こどう}が{速|はや}まる: heartbeat quickens\n- {鼓動|こどう}が{激|はげ}しくなる: heartbeat becomes intense\n- {鼓動|こどう}が{聞|き}こえる: one can hear the heartbeat\n- {鼓動|こどう}が{高鳴|たかな}る: heart pounds (with excitement)\n\nSIMILAR WORDS:\n- {脈拍|みゃくはく}: pulse — medical/clinical term for the pulse rate; objective and technical\n- {動悸|どうき}: palpitations — emphasizes abnormal or uncomfortable rapid heartbeat, often associated with anxiety or medical conditions\n- {拍動|はくどう}: pulsation — more technical, used in medical contexts for the rhythmic beating of the heart or arteries",
+  "notes": "The character {鼓|こ} means \"drum,\" so {鼓動|こどう} literally means \"drumming movement,\" vividly capturing the rhythmic beating of the heart. Frequently used in literary and emotional contexts.\n\nCOMMON COLLOCATIONS:\n- ⟦{心臓|しんぞう}→心臓：03262_shinzou⟧⟦の→の：09472_no⟧{鼓動|こどう}: heartbeat\n- {鼓動|こどう}⟦が→が：00051_ga⟧{速|はや}まる: heartbeat quickens\n- {鼓動|こどう}⟦が→が：00051_ga⟧⟦{激|はげ}しく→激しい：02348_hageshii⟧⟦なる→なる：01970_naru⟧: heartbeat becomes intense\n- {鼓動|こどう}⟦が→が：00051_ga⟧⟦{聞|き}こえる→聞こえる：01229_kikoeru⟧: one can hear the heartbeat\n- {鼓動|こどう}⟦が→が：00051_ga⟧⟦{高鳴|たかな}る→高鳴る：20269_takanaru⟧: heart pounds (with excitement)\n\nSIMILAR WORDS:\n- ⟦{脈拍|みゃくはく}→脈拍：17839_myakuhaku⟧: pulse — medical/clinical term for the pulse rate; objective and technical\n- ⟦{動悸|どうき}→動悸：06299_douki⟧: palpitations — emphasizes abnormal or uncomfortable rapid heartbeat, often associated with anxiety or medical conditions\n- ⟦{拍動|はくどう}→拍動：26245_hakudou⟧: pulsation — more technical, used in medical contexts for the rhythmic beating of the heart or arteries",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17839_myakuhaku",
+      "reading": "みゃくはく",
+      "headword": "{脈拍|みゃくはく}",
+      "label": "pulse"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06299_douki",
+      "reading": "どうき",
+      "headword": "{動悸|どうき}",
+      "label": "palpitations"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26245_hakudou",
+      "reading": "はくどう",
+      "headword": "{拍動|はくどう}",
+      "label": "pulsation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25482_shinpaku",
+      "reading": "しんぱく",
+      "headword": "{心拍|しんぱく}",
+      "label": "heartbeat"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26244_ritsudou",
+      "reading": "りつどう",
+      "headword": "{律動|りつどう}",
+      "label": "rhythm"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -152,6 +189,6 @@
       "verb_class": "suru"
     },
     "created": "2026-03-26T08:29:17Z",
-    "modified": "2026-03-26T08:29:17Z"
+    "modified": "2026-09-02T04:01:56Z"
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "18622_jukensei_ex1",
-      "japanese": "{息子|むすこ}は{今年|ことし}{受験生|じゅけんせい}だ。",
+      "japanese": "⟦{息子|むすこ}→息子：00799_musuko⟧⟦は→は：00079_ha⟧⟦{今年|ことし}→今年：00722_kotoshi⟧{受験生|じゅけんせい}だ。",
       "english": "My son is an exam candidate this year.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "18622_jukensei_ex2",
-      "japanese": "{受験生|じゅけんせい}なので{毎日|まいにち}{遅|おそ}くまで{勉強|べんきょう}している。",
+      "japanese": "{受験生|じゅけんせい}な⟦の→の：09472_no⟧で⟦{毎日|まいにち}→毎日：00729_mainichi⟧⟦{遅|おそ}く→遅い：00533_osoi⟧⟦まで→まで：00490_made⟧⟦{勉強|べんきょう}している→勉強する：00527_benkyousuru⟧。",
       "english": "Since I'm preparing for exams, I study late every day.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "18622_jukensei_ex3",
-      "japanese": "{冬|ふゆ}になると{受験生|じゅけんせい}を{応援|おうえん}する{広告|こうこく}が{街|まち}にあふれる。",
+      "japanese": "⟦{冬|ふゆ}→冬：00623_fuyu⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦と→と：00512_to⟧{受験生|じゅけんせい}⟦を→を：00422_wo⟧⟦{応援|おうえん}する→応援する：21988_ouensuru⟧⟦{広告|こうこく}→広告：02747_koukoku⟧⟦が→が：00051_ga⟧⟦{街|まち}→街：17306_machi⟧⟦に→に：00314_ni⟧あふれる。",
       "english": "When winter comes, advertisements encouraging exam students fill the city.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,26 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA culturally significant term in Japan where entrance examinations are a major life event. The exam season peaks in January through March. Families, schools, and businesses all rally around {受験生|じゅけんせい}, with special foods, good-luck charms, and support campaigns.\n\nCOMMON COLLOCATIONS:\n- {受験生|じゅけんせい}を{応援|おうえん}する (to support an exam student)\n- {受験生|じゅけんせい}{向|む}け (for exam students)\n- {受験生|じゅけんせい}の{親|おや} (parents of exam students)\n- {受験生|じゅけんせい}{生活|せいかつ} (exam preparation lifestyle)",
-  "cross_references": [],
+  "notes": "USAGE:\nA culturally significant term in Japan where entrance examinations are a major life event. The exam season peaks in January through March. Families, schools, and businesses all rally around {受験生|じゅけんせい}, with special foods, good-luck charms, and support campaigns.\n\nCOMMON COLLOCATIONS:\n- {受験生|じゅけんせい}⟦を→を：00422_wo⟧⟦{応援|おうえん}する→応援する：21988_ouensuru⟧ (to support an exam student)\n- {受験生|じゅけんせい}{向|む}け (for exam students)\n- {受験生|じゅけんせい}⟦の→の：09472_no⟧⟦{親|おや}→親：01357_oya⟧ (parents of exam students)\n- {受験生|じゅけんせい}⟦{生活|せいかつ}→生活：01443_seikatsu⟧ (exam preparation lifestyle)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "09977_jukenbenkyou",
+      "reading": "じゅけんべんきょう",
+      "headword": "{受験勉強|じゅけんべんきょう}",
+      "label": "exam preparation, studying for entrance exams"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27560_sannensei",
+      "reading": "さんねんせい",
+      "headword": "{三年生|さんねんせい}",
+      "label": "third-year student"
+    }
+  ],
   "metadata": {
     "created": "2026-03-22T10:41:08Z",
-    "modified": "2026-03-22T10:41:08Z",
+    "modified": "2026-09-02T04:01:52Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

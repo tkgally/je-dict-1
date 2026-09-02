@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "15773_osuimono_ex1",
-      "japanese": "お{吸|す}い{物|もの}に{三|み}つ{葉|ば}を{添|そ}えた。",
+      "japanese": "お{吸|す}い{物|もの}⟦に→に：00314_ni⟧⟦{三|み}つ{葉|ば}→三つ葉：11242_mitsuba⟧⟦を→を：00422_wo⟧⟦{添|そ}えた→添える：13315_soeru⟧。",
       "english": "I garnished the clear soup with mitsuba.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "15773_osuimono_ex2",
-      "japanese": "{今日|きょう}の{夕食|ゆうしょく}はお{吸|す}い{物|もの}と{焼|や}き{魚|ざかな}にしよう。",
+      "japanese": "⟦{今日|きょう}→今日：00496_kyou⟧⟦の→の：09472_no⟧⟦{夕食|ゆうしょく}→夕食：03006_yuushoku⟧⟦は→は：00079_ha⟧お{吸|す}い{物|もの}⟦と→と：00512_to⟧⟦{焼|や}き{魚|ざかな}→焼き魚：13406_yakizakana⟧⟦に→に：00314_ni⟧⟦しよう→する：00392_suru⟧。",
       "english": "Let's have clear soup and grilled fish for dinner tonight.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "15773_osuimono_ex3",
-      "japanese": "{料亭|りょうてい}で{出|だ}されたお{吸|す}い{物|もの}は、{出汁|だし}の{香|かお}りが{上品|じょうひん}で{感動|かんどう}した。",
+      "japanese": "⟦{料亭|りょうてい}→料亭：21710_ryoutei⟧⟦で→で：00502_de⟧⟦{出|だ}された→出す：01087_dasu⟧お{吸|す}い{物|もの}⟦は→は：00079_ha⟧、⟦{出汁|だし}→出汁：04917_dashi⟧⟦の→の：09472_no⟧⟦{香|かお}り→香り：00189_kaori⟧⟦が→が：00051_ga⟧⟦{上品|じょうひん}→上品：03081_jouhin⟧で⟦{感動|かんどう}した→感動する：21603_kandousuru⟧。",
       "english": "The clear soup served at the traditional restaurant had such an elegant dashi aroma that it moved me.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nお{吸|す}い{物|もの} is the polite form of {吸|す}い{物|もの}. The お prefix is almost always used in everyday speech. It is a standard part of Japanese washoku cuisine and commonly served at formal meals, celebrations, and traditional restaurants.\n\nCOMMON COLLOCATIONS:\n- お{吸|す}い{物|もの}を{作|つく}る (make clear soup)\n- {松茸|まつたけ}のお{吸|す}い{物|もの} (matsutake mushroom clear soup)\n- はまぐりのお{吸|す}い{物|もの} (clam clear soup — traditional at Hinamatsuri)\n\nSIMILAR WORDS:\n{味噌汁|みそしる} is miso soup, which uses fermented soybean paste and is opaque. お{吸|す}い{物|もの} uses a clear dashi broth and is considered more refined. {汁物|しるもの} is a general term for any soup served as part of a Japanese meal.",
+  "notes": "USAGE:\nお{吸|す}い{物|もの} is the polite form of ⟦{吸|す}い{物|もの}→吸い物：04990_suimono⟧. The お prefix is almost always used in everyday speech. It is a standard part of Japanese washoku cuisine and commonly served at formal meals, celebrations, and traditional restaurants.\n\nCOMMON COLLOCATIONS:\n- お{吸|す}い{物|もの}⟦を→を：00422_wo⟧⟦{作|つく}る→作る：00481_tsukuru⟧ (make clear soup)\n- ⟦{松茸|まつたけ}→松茸：13119_matsutake⟧⟦の→の：09472_no⟧お{吸|す}い{物|もの} (matsutake mushroom clear soup)\n- ⟦はまぐり→ハマグリ：23183_hamaguri⟧⟦の→の：09472_no⟧お{吸|す}い{物|もの} (clam clear soup — traditional at Hinamatsuri)\n\nSIMILAR WORDS:\n⟦{味噌汁|みそしる}→味噌汁：04954_misoshiru⟧ is miso soup, which uses fermented soybean paste and is opaque. お{吸|す}い{物|もの} uses a clear dashi broth and is considered more refined. ⟦{汁物|しるもの}→汁物：06231_shirumono⟧ is a general term for any soup served as part of a Japanese meal.",
   "cross_references": [
     {
       "type": "contrast",
@@ -52,11 +52,18 @@
       "reading": "みそしる",
       "headword": "{味噌汁|みそしる}",
       "label": "miso soup; opaque"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20984_sumashijiru",
+      "reading": "すましじる",
+      "headword": "{澄|す}まし{汁|じる}",
+      "label": "clear soup"
     }
   ],
   "metadata": {
     "created": "2026-03-08T09:40:28Z",
-    "modified": "2026-05-02T05:13:00Z",
+    "modified": "2026-09-02T04:01:42Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

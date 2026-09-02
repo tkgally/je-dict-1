@@ -15,41 +15,67 @@
   "examples": [
     {
       "id": "29626_shinshokusayou_ex1",
-      "japanese": "{川|かわ}の{侵食作用|しんしょくさよう}で{谷|たに}ができる。",
+      "japanese": "⟦{川|かわ}→川：02186_kawa⟧⟦の→の：09472_no⟧{侵食作用|しんしょくさよう}⟦で→で：00502_de⟧⟦{谷|たに}→谷：02223_tani⟧⟦が→が：00051_ga⟧⟦できる→できる：00557_dekiru⟧。",
       "english": "Rivers form valleys through erosion.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29626_shinshokusayou_ex2",
-      "japanese": "{風|かぜ}の{侵食作用|しんしょくさよう}が{岩|いわ}を{削|けず}る。",
+      "japanese": "⟦{風|かぜ}→風：00641_kaze⟧⟦の→の：09472_no⟧{侵食作用|しんしょくさよう}⟦が→が：00051_ga⟧⟦{岩|いわ}→岩：00850_iwa⟧⟦を→を：00422_wo⟧⟦{削|けず}る→削る：03922_kezuru⟧。",
       "english": "Wind erosion wears away the rock.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29626_shinshokusayou_ex3",
-      "japanese": "{長|なが}い{年月|ねんげつ}をかけた{侵食作用|しんしょくさよう}が{地形|ちけい}を{変|か}えていく。",
+      "japanese": "⟦{長|なが}い→長い：00491_nagai⟧⟦{年月|ねんげつ}→年月：00310_nengetsu⟧⟦を→を：00422_wo⟧⟦かけた→かける：00854_kakeru⟧{侵食作用|しんしょくさよう}⟦が→が：00051_ga⟧⟦{地形|ちけい}→地形：12083_chikei⟧⟦を→を：00422_wo⟧⟦{変|か}えて→変える：01089_kaeru⟧いく。",
       "english": "Erosion over long ages gradually reshapes the landscape.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "USAGE: {侵食作用|しんしょくさよう} is the geological action of erosion, combining {侵食|しんしょく} (erosion) with {作用|さよう} (action, effect). It is common in earth-science contexts.\n\nCOMMON COLLOCATIONS:\n- {水|みず}の{侵食作用|しんしょくさよう}: water erosion\n- {侵食作用|しんしょくさよう}を{受|う}ける: to undergo erosion\n\nSIMILAR WORDS:\n- {風化作用|ふうかさよう}: weathering — the breakdown of rock in place, without transport\n- {堆積|たいせき}: deposition — the opposite process, in which sediment builds up",
+  "notes": "USAGE: {侵食作用|しんしょくさよう} is the geological action of erosion, combining ⟦{侵食|しんしょく}→侵食：10927_shinshoku⟧ (erosion) with ⟦{作用|さよう}→作用：05761_sayou⟧ (action, effect). It is common in earth-science contexts.\n\nCOMMON COLLOCATIONS:\n- ⟦{水|みず}→水：02258_mizu⟧⟦の→の：09472_no⟧{侵食作用|しんしょくさよう}: water erosion\n- {侵食作用|しんしょくさよう}⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧: to undergo erosion\n\nSIMILAR WORDS:\n- ⟦{風化作用|ふうかさよう}→風化作用：29627_fuukasayou⟧: weathering — the breakdown of rock in place, without transport\n- ⟦{堆積|たいせき}→堆積：29631_taiseki⟧: deposition — the opposite process, in which sediment builds up",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "29627_fuukasayou",
+      "reading": "ふうかさよう",
+      "headword": "{風化作用|ふうかさよう}",
+      "label": "weathering"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29631_taiseki",
+      "reading": "たいせき",
+      "headword": "{堆積|たいせき}",
+      "label": "deposition"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["geography"],
+      "politeness": "plain",
+      "semantic": [
+        "geography"
+      ],
       "domain": []
     },
     "created": "2026-07-01T18:18:59Z",
-    "modified": "2026-07-01T18:18:59Z"
+    "modified": "2026-09-02T04:02:37Z"
   }
 }

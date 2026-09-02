@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29686_aamu_ex1",
-      "japanese": "ロボットのアームが{動|うご}く。",
+      "japanese": "⟦ロボット→ロボット：06404_robotto⟧⟦の→の：09472_no⟧アーム⟦が→が：00051_ga⟧⟦{動|うご}く→動く：00904_ugoku⟧。",
       "english": "The robot's arm moves.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29686_aamu_ex2",
-      "japanese": "アームが{伸|の}びて{部品|ぶひん}をつかんだ。",
+      "japanese": "アーム⟦が→が：00051_ga⟧⟦{伸|の}びて→伸びる：01974_nobiru⟧⟦{部品|ぶひん}→部品：00020_buhin⟧⟦を→を：00422_wo⟧つかんだ。",
       "english": "The arm extended and grabbed the part.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29686_aamu_ex3",
-      "japanese": "この{機械|きかい}のアームは、{重|おも}い{荷物|にもつ}でも{正確|せいかく}に{運|はこ}べる。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{機械|きかい}→機械：02366_kikai⟧⟦の→の：09472_no⟧アーム⟦は→は：00079_ha⟧、⟦{重|おも}い→重い：00804_omoi⟧⟦{荷物|にもつ}→荷物：00737_nimotsu⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧⟦{正確|せいかく}→正確：03372_seikaku⟧⟦に→に：00314_ni⟧⟦{運|はこ}べる→運ぶ：01088_hakobu⟧。",
       "english": "This machine's arm can carry even heavy loads accurately.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "From English \"arm.\" In Japanese it refers to an arm-shaped mechanical part, not the human arm.\n\nCOMMON COLLOCATIONS:\n- ロボットアーム: robot arm\n- アームを{伸|の}ばす: to extend the arm\n- {可動|かどう}アーム: movable arm\n\nSIMILAR WORDS:\n- {腕|うで}: arm — the human or animal arm; the everyday word for a body part\n- レバー: lever — a bar operated by hand to control a machine, not a reaching arm",
+  "notes": "From English \"arm.\" In Japanese it refers to an arm-shaped mechanical part, not the human arm.\n\nCOMMON COLLOCATIONS:\n- ⟦ロボット→ロボット：06404_robotto⟧アーム: robot arm\n- アーム⟦を→を：00422_wo⟧⟦{伸|の}ばす→伸ばす：01973_nobasu⟧: to extend the arm\n- ⟦{可動|かどう}→可動：20058_kadou⟧アーム: movable arm\n\nSIMILAR WORDS:\n- ⟦{腕|うで}→腕：01006_ude⟧: arm — the human or animal arm; the everyday word for a body part\n- ⟦レバー→レバー：11263_rebaa⟧: lever — a bar operated by hand to control a machine, not a reaching arm",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01006_ude",
+      "reading": "うで",
+      "headword": "{腕|うで}",
+      "label": "arm"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11263_rebaa",
+      "reading": "ればー",
+      "headword": "レバー",
+      "label": "lever"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +69,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "technology"
       ],
       "domain": []
     },
     "created": "2026-07-05T03:18:57Z",
-    "modified": "2026-07-05T03:18:57Z"
+    "modified": "2026-09-02T04:02:37Z"
   }
 }

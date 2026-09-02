@@ -15,41 +15,80 @@
   "examples": [
     {
       "id": "11121_beteran_ex1",
-      "japanese": "ベテランの{運転手|うんてんしゅ}だ。",
+      "japanese": "ベテラン⟦の→の：09472_no⟧⟦{運転手|うんてんしゅ}→運転手：01333_untenshu⟧だ。",
       "english": "He's a veteran driver.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11121_beteran_ex2",
-      "japanese": "{彼女|かのじょ}はこの{業界|ぎょうかい}で{二十年|にじゅうねん}のベテランだ。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧⟦この→この：00962_kono⟧⟦{業界|ぎょうかい}→業界：13129_gyoukai⟧⟦で→で：00502_de⟧{二十年|にじゅうねん}⟦の→の：09472_no⟧ベテランだ。",
       "english": "She's a twenty-year veteran in this industry.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11121_beteran_ex3",
-      "japanese": "ベテランの{技術|ぎじゅつ}を{若|わか}い{世代|せだい}にどう{伝|つた}えるかが{課題|かだい}だ。",
+      "japanese": "ベテラン⟦の→の：09472_no⟧⟦{技術|ぎじゅつ}→技術：01389_gijutsu⟧⟦を→を：00422_wo⟧{若|わか}い⟦{世代|せだい}→世代：05102_sedai⟧⟦に→に：00314_ni⟧⟦どう→どう：00543_dou⟧⟦{伝|つた}える→伝える：01220_tsutaeru⟧⟦か→か：09473_ka⟧⟦が→が：00051_ga⟧⟦{課題|かだい}→課題：00132_kadai⟧だ。",
       "english": "The challenge is how to pass on veteran expertise to the younger generation.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nAlways positive in connotation, implying skill and reliability gained through long experience. Unlike English \"veteran,\" it does not refer to military veterans (for which {退役軍人|たいえきぐんじん} is used).\n\nCOMMON COLLOCATIONS:\n- ベテランの{社員|しゃいん} (veteran employee)\n- ベテラン{選手|せんしゅ} (veteran player/athlete)\n- ベテラン{俳優|はいゆう} (seasoned actor)\n- {大|だい}ベテラン (a great veteran, someone with very long experience)\n\nETYMOLOGY:\nFrom English \"veteran.\" The Japanese usage focuses on professional experience rather than military service.",
-  "cross_references": [],
+  "notes": "USAGE:\nAlways positive in connotation, implying skill and reliability gained through long experience. Unlike English \"veteran,\" it does not refer to military veterans (for which {退役軍人|たいえきぐんじん} is used).\n\nCOMMON COLLOCATIONS:\n- ベテラン⟦の→の：09472_no⟧⟦{社員|しゃいん}→社員：03065_shain⟧ (veteran employee)\n- ベテラン⟦{選手|せんしゅ}→選手：03823_senshu⟧ (veteran player/athlete)\n- ベテラン⟦{俳優|はいゆう}→俳優：03547_haiyuu⟧ (seasoned actor)\n- {大|だい}ベテラン (a great veteran, someone with very long experience)\n\nETYMOLOGY:\nFrom English \"veteran.\" The Japanese usage focuses on professional experience rather than military service.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02500_shinjin",
+      "reading": "しんじん",
+      "headword": "{新人|しんじん}",
+      "label": "newcomer, new employee"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07457_furukabu",
+      "reading": "ふるかぶ",
+      "headword": "{古株|ふるかぶ}",
+      "label": "old-timer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07458_shingao",
+      "reading": "しんがお",
+      "headword": "{新顔|しんがお}",
+      "label": "newcomer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23783_jukurensha",
+      "reading": "じゅくれんしゃ",
+      "headword": "{熟練者|じゅくれんしゃ}",
+      "label": "skilled worker"
+    }
+  ],
   "metadata": {
     "created": "2026-02-14T03:15:22Z",
-    "modified": "2026-02-14T03:15:22Z",
+    "modified": "2026-09-02T04:01:24Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["person"]
+      "semantic": [
+        "person"
+      ]
     }
   }
 }

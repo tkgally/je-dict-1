@@ -3,7 +3,7 @@
   "headword": "{好|す}かれる",
   "reading": "すかれる",
   "romaji": "sukareru",
-  "part_of_speech": "verb",
+  "part_of_speech": "verb (ichidan)",
   "gloss": "to be liked; to be popular",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26104_sukareru_ex1",
-      "japanese": "みんなに{好|す}かれている。",
+      "japanese": "⟦みんな→みんな：02972_minna⟧⟦に→に：00314_ni⟧{好|す}かれて⟦いる→いる：00495_iru⟧。",
       "english": "Everyone likes him/her.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26104_sukareru_ex2",
-      "japanese": "{先生|せんせい}に{好|す}かれる{生徒|せいと}になりたい。",
+      "japanese": "⟦{先生|せんせい}→先生：00609_sensei⟧⟦に→に：00314_ni⟧{好|す}かれる⟦{生徒|せいと}→生徒：01051_seito⟧⟦に→に：00314_ni⟧⟦なりたい→なる：01970_naru⟧。",
       "english": "I want to be the kind of student that teachers like.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26104_sukareru_ex3",
-      "japanese": "{人|ひと}に{好|す}かれるためには、まず{相手|あいて}の{話|はなし}をよく{聞|き}くことが{大切|たいせつ}だ。",
+      "japanese": "⟦{人|ひと}→人：00476_hito⟧⟦に→に：00314_ni⟧{好|す}かれる⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧、⟦まず→まず：00796_mazu⟧⟦{相手|あいて}→相手：01677_aite⟧⟦の→の：09472_no⟧⟦{話|はなし}→話：01496_hanashi⟧⟦を→を：00422_wo⟧⟦よく→よく：00601_yoku⟧⟦{聞|き}く→聞く：00483_kiku⟧こと⟦が→が：00051_ga⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧だ。",
       "english": "To be liked by others, it is important to first listen carefully to what they have to say.",
       "sense_numbers": [
         1
@@ -44,8 +44,16 @@
       "notes": null
     }
   ],
-  "notes": "The passive form of {好|す}く (to like), but far more commonly used than the active form in modern Japanese. While {好|す}き (the adjective) is the standard way to express liking something, {好|す}かれる is the natural way to say someone is liked by others. The active verb {好|す}く is relatively rare in speech.\n\nCOMMON COLLOCATIONS:\n- みんなに{好|す}かれる: to be liked by everyone\n- {人|ひと}に{好|す}かれる: to be liked by people\n- {好|す}かれる{性格|せいかく}: a likable personality\n- {好|す}かれる{人|ひと}: a popular/well-liked person\n\nSIMILAR WORDS:\n- {愛|あい}される: to be loved — deeper emotional attachment than being liked\n- モテる: to be popular (romantically) — specifically about romantic attractiveness\n- {人気|にんき}がある: to be popular — broader, can apply to things, places, celebrities",
-  "cross_references": [],
+  "notes": "The passive form of {好|す}く (to like), but far more commonly used than the active form in modern Japanese. While ⟦{好|す}き→好き：02355_suki⟧ (the adjective) is the standard way to express liking something, {好|す}かれる is the natural way to say someone is liked by others. The active verb {好|す}く is relatively rare in speech.\n\nCOMMON COLLOCATIONS:\n- ⟦みんな→みんな：02972_minna⟧⟦に→に：00314_ni⟧{好|す}かれる: to be liked by everyone\n- ⟦{人|ひと}→人：00476_hito⟧⟦に→に：00314_ni⟧{好|す}かれる: to be liked by people\n- {好|す}かれる⟦{性格|せいかく}→性格：03371_seikaku⟧: a likable personality\n- {好|す}かれる⟦{人|ひと}→人：00476_hito⟧: a popular/well-liked person\n\nSIMILAR WORDS:\n- ⟦{愛|あい}される→愛する：01811_aisuru⟧: to be loved — deeper emotional attachment than being liked\n- モテる: to be popular (romantically) — specifically about romantic attractiveness\n- ⟦{人気|にんき}→人気：01488_ninki⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧: to be popular — broader, can apply to things, places, celebrities",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09311_moteru",
+      "reading": "もてる",
+      "headword": "モテる",
+      "label": "to be popular"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,14 +61,17 @@
       "pos": [
         "verb-ichidan"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "emotion",
         "society"
       ],
-      "verb_class": "ichidan"
+      "verb_class": "ichidan",
+      "transitivity": "intransitive"
     },
     "created": "2026-04-29T13:35:18Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T04:02:25Z"
   },
   "conjugation": {
     "type": "ichidan",

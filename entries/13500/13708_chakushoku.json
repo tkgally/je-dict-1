@@ -3,7 +3,7 @@
   "id": "13708_chakushoku",
   "headword": "{着色|ちゃくしょく}",
   "reading": "ちゃくしょく",
-  "part_of_speech": "noun / suru verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "coloring, dyeing",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "13708_chakushoku_ex1",
-      "japanese": "{着色|ちゃくしょく}{料|りょう}を{使|つか}わない。",
+      "japanese": "{着色|ちゃくしょく}{料|りょう}⟦を→を：00422_wo⟧⟦{使|つか}わない→使う：00473_tsukau⟧。",
       "english": "No food coloring is used.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "13708_chakushoku_ex2",
-      "japanese": "{天然|てんねん}の{着色|ちゃくしょく}{料|りょう}で{色|いろ}をつけた。",
+      "japanese": "⟦{天然|てんねん}→天然：03560_tennen⟧⟦の→の：09472_no⟧{着色|ちゃくしょく}{料|りょう}⟦で→で：00502_de⟧⟦{色|いろ}→色：00849_iro⟧⟦を→を：00422_wo⟧⟦つけた→つける：00562_tsukeru⟧。",
       "english": "It was colored using natural coloring agents.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "13708_chakushoku_ex3",
-      "japanese": "この{和菓子|わがし}は{植物|しょくぶつ}から{抽出|ちゅうしゅつ}した{成分|せいぶん}で{着色|ちゃくしょく}されている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{和菓子|わがし}→和菓子：04962_wagashi⟧⟦は→は：00079_ha⟧⟦{植物|しょくぶつ}→植物：03248_shokubutsu⟧⟦から→から：00504_kara⟧⟦{抽出|ちゅうしゅつ}した→抽出する：19627_chuushutsusuru⟧⟦{成分|せいぶん}→成分：04344_seibun⟧⟦で→で：00502_de⟧{着色|ちゃくしょく}⟦されている→する：00392_suru⟧。",
       "english": "This Japanese confection is colored with ingredients extracted from plants.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,33 @@
       ]
     }
   ],
-  "notes": "USAGE:\nMost commonly encountered in food labeling and manufacturing contexts. {着色|ちゃくしょく}{料|りょう} (coloring agent, food coloring) is the most frequent compound. Also used in art and craft contexts for the process of applying color.\n\nCOMMON COLLOCATIONS:\n- {着色|ちゃくしょく}{料|りょう}: coloring agent, food dye\n- {人工|じんこう}{着色|ちゃくしょく}{料|りょう}: artificial coloring\n- {着色|ちゃくしょく}{料|りょう}{不使用|ふしよう}: no artificial coloring used\n- {着色|ちゃくしょく}する: to color, to dye",
-  "cross_references": [],
+  "notes": "USAGE:\nMost commonly encountered in food labeling and manufacturing contexts. {着色|ちゃくしょく}{料|りょう} (coloring agent, food coloring) is the most frequent compound. Also used in art and craft contexts for the process of applying color.\n\nCOMMON COLLOCATIONS:\n- {着色|ちゃくしょく}{料|りょう}: coloring agent, food dye\n- ⟦{人工|じんこう}→人工：11573_jinkou⟧{着色|ちゃくしょく}{料|りょう}: artificial coloring\n- {着色|ちゃくしょく}{料|りょう}⟦{不使用|ふしよう}→不使用：29835_fushiyou⟧: no artificial coloring used\n- {着色|ちゃくしょく}⟦する→する：00392_suru⟧: to color, to dye",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21817_saishoku",
+      "reading": "さいしょく",
+      "headword": "{彩色|さいしょく}",
+      "label": "coloring"
+    },
+    {
+      "type": "related",
+      "target_id": "22940_irozuke",
+      "reading": "いろづけ",
+      "headword": "{色|いろ}づけ",
+      "label": "coloring"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26212_irozukeru",
+      "reading": "いろづける",
+      "headword": "{色付|いろづ}ける",
+      "label": "to color"
+    }
+  ],
   "metadata": {
     "created": "2026-02-26T13:33:09Z",
-    "modified": "2026-03-29T03:07:35Z",
+    "modified": "2026-09-02T04:01:34Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -151,7 +173,8 @@
       "semantic": [
         "color"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

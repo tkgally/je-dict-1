@@ -15,41 +15,66 @@
   "examples": [
     {
       "id": "11247_furuutsu_ex1",
-      "japanese": "フルーツパフェを{食|た}べた。",
+      "japanese": "フルーツ⟦パフェ→パフェ：11122_pafe⟧⟦を→を：00422_wo⟧⟦{食|た}べた→食べる：00396_taberu⟧。",
       "english": "I had a fruit parfait.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11247_furuutsu_ex2",
-      "japanese": "{旬|しゅん}のフルーツは{甘|あま}くて{美味|おい}しい。",
+      "japanese": "⟦{旬|しゅん}→旬：12716_shun⟧⟦の→の：09472_no⟧フルーツ⟦は→は：00079_ha⟧⟦{甘|あま}くて→甘い：00617_amai⟧⟦{美味|おい}しい→美味しい：00740_oishii⟧。",
       "english": "Seasonal fruits are sweet and delicious.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11247_furuutsu_ex3",
-      "japanese": "フルーツの{盛|も}り{合|あ}わせをデザートに{注文|ちゅうもん}した。",
+      "japanese": "フルーツ⟦の→の：09472_no⟧⟦{盛|も}り{合|あ}わせ→盛り合わせ：21762_moriawase⟧⟦を→を：00422_wo⟧⟦デザート→デザート：00036_dezaato⟧⟦に→に：00314_ni⟧⟦{注文|ちゅうもん}した→注文する：21390_chuumon⟧。",
       "english": "I ordered an assorted fruit platter for dessert.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nフルーツ and {果物|くだもの} both mean \"fruit,\" but they have different nuances. {果物|くだもの} is the general Japanese word used in everyday contexts (buying fruit at a shop, eating fruit at home). フルーツ tends to appear in more stylish, commercial, or culinary contexts — dessert menus, product names, and advertising. For example, a restaurant would list フルーツタルト, not {果物|くだもの}タルト.\n\nCOMMON COLLOCATIONS:\n- フルーツパフェ: fruit parfait\n- フルーツジュース: fruit juice\n- フルーツケーキ: fruit cake\n- フルーツの{盛|も}り{合|あ}わせ: assorted fruit platter\n- ドライフルーツ: dried fruit",
-  "cross_references": [],
+  "notes": "USAGE:\nフルーツ and ⟦{果物|くだもの}→果物：00509_kudamono⟧ both mean \"fruit,\" but they have different nuances. ⟦{果物|くだもの}→果物：00509_kudamono⟧ is the general Japanese word used in everyday contexts (buying fruit at a shop, eating fruit at home). フルーツ tends to appear in more stylish, commercial, or culinary contexts — dessert menus, product names, and advertising. For example, a restaurant would list フルーツ⟦タルト→タルト：27311_taruto⟧, not ⟦{果物|くだもの}→果物：00509_kudamono⟧⟦タルト→タルト：27311_taruto⟧.\n\nCOMMON COLLOCATIONS:\n- フルーツ⟦パフェ→パフェ：11122_pafe⟧: fruit parfait\n- フルーツジュース: fruit juice\n- フルーツケーキ: fruit cake\n- フルーツ⟦の→の：09472_no⟧⟦{盛|も}り{合|あ}わせ→盛り合わせ：21762_moriawase⟧: assorted fruit platter\n- ドライフルーツ: dried fruit",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00146_kajitsu",
+      "reading": "かじつ",
+      "headword": "{果実|かじつ}",
+      "label": "fruit"
+    },
+    {
+      "type": "related",
+      "target_id": "00509_kudamono",
+      "reading": "くだもの",
+      "headword": "{果物|くだもの}",
+      "label": "fruit"
+    }
+  ],
   "metadata": {
     "created": "2026-02-15T09:16:30Z",
-    "modified": "2026-02-15T09:16:30Z",
+    "modified": "2026-09-02T04:01:24Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food"]
+      "semantic": [
+        "food"
+      ]
     }
   }
 }

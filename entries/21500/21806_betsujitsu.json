@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21806_betsujitsu_ex1",
-      "japanese": "{別|べつ}{日|じつ}に{変更|へんこう}する。",
+      "japanese": "{別|べつ}{日|じつ}⟦に→に：00314_ni⟧⟦{変更|へんこう}する→変更する：30779_henkousuru⟧。",
       "english": "To change to a different day.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21806_betsujitsu_ex2",
-      "japanese": "{都合|つごう}が{悪|わる}ければ{別|べつ}{日|じつ}でも{構|かま}いません。",
+      "japanese": "⟦{都合|つごう}→都合：01672_tsugou⟧⟦が→が：00051_ga⟧⟦{悪|わる}ければ→悪い：00908_warui⟧{別|べつ}{日|じつ}⟦で→で：00502_de⟧⟦も→も：00484_mo⟧{構|かま}いません。",
       "english": "If it's not convenient, another day is fine too.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21806_betsujitsu_ex3",
-      "japanese": "{雨天|うてん}の{場合|ばあい}は{別|べつ}{日|じつ}に{延期|えんき}させていただきます。",
+      "japanese": "⟦{雨天|うてん}→雨天：15325_uten⟧⟦の→の：09472_no⟧⟦{場合|ばあい}→場合：01704_baai⟧⟦は→は：00079_ha⟧{別|べつ}{日|じつ}⟦に→に：00314_ni⟧⟦{延期|えんき}→延期：01888_enki⟧⟦させて→する：00392_suru⟧⟦いただきます→いただく：01326_itadaku⟧。",
       "english": "In the event of rain, we will postpone to another day.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {別|べつ} (different, separate) and {日|じつ} (day). Commonly used in scheduling and business contexts when proposing or requesting an alternative date.\n\nCOMMON COLLOCATIONS:\n- {別|べつ}{日|じつ}に{変更|へんこう}する: to change to another day\n- {別|べつ}{日|じつ}に{延期|えんき}する: to postpone to another day\n- {別|べつ}{日|じつ}を{設|もう}ける: to set up a different date\n- {別|べつ}{日|じつ}でも{可|か}: another day is also acceptable\n\nSIMILAR WORDS:\n- {後日|ごじつ}: a later day — implies a future date, not just a different one\n- {他|た}の{日|ひ}: another day — less formal, more conversational\n- {改|あらた}めて: on another occasion — used as an adverb, broader than just changing dates",
+  "notes": "A compound of ⟦{別|べつ}→別：01216_betsu⟧ (different, separate) and {日|じつ} (day). Commonly used in scheduling and business contexts when proposing or requesting an alternative date.\n\nCOMMON COLLOCATIONS:\n- {別|べつ}{日|じつ}⟦に→に：00314_ni⟧⟦{変更|へんこう}する→変更する：30779_henkousuru⟧: to change to another day\n- {別|べつ}{日|じつ}⟦に→に：00314_ni⟧⟦{延期|えんき}する→延期する：02517_enkisuru⟧: to postpone to another day\n- {別|べつ}{日|じつ}⟦を→を：00422_wo⟧⟦{設|もう}ける→設ける：14220_moukeru⟧: to set up a different date\n- {別|べつ}{日|じつ}⟦で→で：00502_de⟧⟦も→も：00484_mo⟧{可|か}: another day is also acceptable\n\nSIMILAR WORDS:\n- ⟦{後日|ごじつ}→後日：12510_gojitsu⟧: a later day — implies a future date, not just a different one\n- ⟦{他|た}→他：03381_ta⟧⟦の→の：09472_no⟧⟦{日|ひ}→日：02249_hi⟧: another day — less formal, more conversational\n- {改|あらた}めて: on another occasion — used as an adverb, broader than just changing dates",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12510_gojitsu",
+      "reading": "ごじつ",
+      "headword": "{後日|ごじつ}",
+      "label": "a later day"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08526_aratamete",
+      "reading": "あらためて",
+      "headword": "{改|あらた}めて",
+      "label": "on another occasion"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +75,6 @@
       ]
     },
     "created": "2026-04-03T18:21:50Z",
-    "modified": "2026-07-29T12:35:11Z"
+    "modified": "2026-09-02T04:02:05Z"
   }
 }

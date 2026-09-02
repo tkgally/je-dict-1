@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{都市|とし} is a formal term for city or urban area.\n\nFORMALITY:\nMore formal than {町|まち} (town) or {市|し} (city as administrative unit). Used in news, academic, and official contexts.\n\nCOMMON EXPRESSIONS:\n- ⟦{大|おお}{都市|とし}→大都市：12204_daitoshi⟧: major city, metropolis\n- {都市|とし}⟦{開発|かいはつ}→開発：06746_kaihatsu⟧: urban development\n- {都市|とし}⟦{計画|けいかく}→計画：01172_keikaku⟧: urban planning\n- ⟦{都市|とし}{部|ぶ}→都市部：14549_toshibu⟧: urban area\n\nCOMPOUNDS:\n- ⟦{首都|しゅと}→首都：03224_shuto⟧: capital city\n- ⟦{都市化|としか}→都市化：05787_toshika⟧: urbanization\n- ⟦{地方|ちほう}→地方：02369_chihou⟧{都市|とし}: regional city\n\nCONTRAST:\n- {都市|とし}: city (formal, general) ↔ ⟦{田舎|いなか}→田舎：01320_inaka⟧: countryside\n- {都市|とし}: urban area ↔ ⟦{農村|のうそん}→農村：04292_nouson⟧: rural village",
+  "notes": "{都市|とし} is a formal term for city or urban area.\n\nREGISTER:\nMore formal than ⟦{町|まち}→町：00613_machi⟧ (town) or ⟦{市|し}→市：01599_shi⟧ (city as administrative unit). Used in news, academic, and official contexts.\n\nCOMMON EXPRESSIONS:\n- ⟦{大|おお}{都市|とし}→大都市：12204_daitoshi⟧: major city, metropolis\n- {都市|とし}⟦{開発|かいはつ}→開発：06746_kaihatsu⟧: urban development\n- {都市|とし}⟦{計画|けいかく}→計画：01172_keikaku⟧: urban planning\n- ⟦{都市|とし}{部|ぶ}→都市部：14549_toshibu⟧: urban area\n\nCOMPOUNDS:\n- ⟦{首都|しゅと}→首都：03224_shuto⟧: capital city\n- ⟦{都市化|としか}→都市化：05787_toshika⟧: urbanization\n- ⟦{地方|ちほう}→地方：02369_chihou⟧{都市|とし}: regional city\n\nSIMILAR WORDS:\n- {都市|とし}: city (formal, general) ↔ ⟦{田舎|いなか}→田舎：01320_inaka⟧: countryside\n- {都市|とし}: urban area ↔ ⟦{農村|のうそん}→農村：04292_nouson⟧: rural village",
   "cross_references": [
     {
       "type": "antonym",
@@ -51,11 +51,25 @@
       "reading": "いなか",
       "headword": "{田舎|いなか}",
       "label": "countryside"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03115_daitokai",
+      "reading": "だいとかい",
+      "headword": "{大都会|だいとかい}",
+      "label": "metropolis, big city"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17306_machi",
+      "reading": "まち",
+      "headword": "{街|まち}",
+      "label": "town"
     }
   ],
   "metadata": {
     "created": "2026-01-08T12:19:26Z",
-    "modified": "2026-05-15T18:24:31Z",
+    "modified": "2026-09-02T04:00:59Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

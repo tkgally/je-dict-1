@@ -3,7 +3,7 @@
   "id": "18296_urawokaku",
   "headword": "{裏|うら}をかく",
   "reading": "うらをかく",
-  "part_of_speech": "expression; verb (godan)",
+  "part_of_speech": "expression, verb (godan)",
   "gloss": "to outwit; to outsmart",
   "conjugation": {
     "type": "godan",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "18296_urawokaku_ex1",
-      "japanese": "{相手|あいて}の{裏|うら}をかく{作戦|さくせん}だ。",
+      "japanese": "⟦{相手|あいて}→相手：01677_aite⟧⟦の→の：09472_no⟧{裏|うら}をかく⟦{作戦|さくせん}→作戦：09673_sakusen⟧だ。",
       "english": "It's a strategy to outwit the opponent.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "18296_urawokaku_ex2",
-      "japanese": "{敵|てき}の{裏|うら}をかいて{勝利|しょうり}を{収|おさ}めた。",
+      "japanese": "⟦{敵|てき}→敵：03546_teki⟧⟦の→の：09472_no⟧{裏|うら}をかいて⟦{勝利|しょうり}→勝利：11795_shouri⟧⟦を→を：00422_wo⟧⟦{収|おさ}めた→収める：02022_osameru⟧。",
       "english": "We outsmarted the enemy and achieved victory.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "18296_urawokaku_ex3",
-      "japanese": "{予想|よそう}の{裏|うら}をかくような{展開|てんかい}に、{観客|かんきゃく}は{驚|おどろ}きの{声|こえ}を{上|あ}げた。",
+      "japanese": "⟦{予想|よそう}→予想：03664_yosou⟧⟦の→の：09472_no⟧{裏|うら}をかくような⟦{展開|てんかい}→展開：04542_tenkai⟧⟦に→に：00314_ni⟧、⟦{観客|かんきゃく}→観客：02556_kankyaku⟧⟦は→は：00079_ha⟧⟦{驚|おどろ}き→驚き：02562_odoroki⟧⟦の→の：09472_no⟧⟦{声|こえ}→声：02207_koe⟧⟦を→を：00422_wo⟧⟦{上|あ}げた→上げる：02443_ageru⟧。",
       "english": "The audience gasped at the unexpected turn of events that defied all predictions.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,26 @@
       ]
     }
   ],
-  "notes": "USAGE:\nThe verb かく here means to go beyond or surpass (not \"to write\" or \"to scratch\"). The {裏|うら} refers to the hidden or unexpected side. The expression implies cleverness and is often used positively for strategic thinking, though it can also mean being deceptive.\n\nCOMMON COLLOCATIONS:\n- {相手|あいて}の{裏|うら}をかく (to outwit the opponent)\n- {予想|よそう}の{裏|うら}をかく (to defy expectations)\n- {裏|うら}をかかれる (to be outwitted — passive form)\n\nSIMILAR WORDS:\n- {出|で}し{抜|ぬ}く: to get the jump on, to steal a march — implies taking action before the other\n- {騙|だま}す: to deceive — more negatively connoted, implies dishonesty",
-  "cross_references": [],
+  "notes": "USAGE:\nThe verb かく here means to go beyond or surpass (not \"to write\" or \"to scratch\"). The ⟦{裏|うら}→裏：02178_ura⟧ refers to the hidden or unexpected side. The expression implies cleverness and is often used positively for strategic thinking, though it can also mean being deceptive.\n\nCOMMON COLLOCATIONS:\n- ⟦{相手|あいて}→相手：01677_aite⟧⟦の→の：09472_no⟧{裏|うら}をかく (to outwit the opponent)\n- ⟦{予想|よそう}→予想：03664_yosou⟧⟦の→の：09472_no⟧{裏|うら}をかく (to defy expectations)\n- {裏|うら}をかかれる (to be outwitted — passive form)\n\nSIMILAR WORDS:\n- {出|で}し{抜|ぬ}く: to get the jump on, to steal a march — implies taking action before the other\n- ⟦{騙|だま}す→騙す：02286_damasu⟧: to deceive — more negatively connoted, implies dishonesty",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02286_damasu",
+      "reading": "だます",
+      "headword": "{騙|だま}す",
+      "label": "to deceive"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20161_dashinuku",
+      "reading": "だしぬく",
+      "headword": "{出|だ}し{抜|ぬ}く",
+      "label": "to outsmart"
+    }
+  ],
   "metadata": {
     "created": "2026-03-21T01:19:35Z",
-    "modified": "2026-07-25T06:43:21Z",
+    "modified": "2026-09-02T04:01:51Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -152,7 +167,8 @@
         "action",
         "idiom"
       ],
-      "verb_class": "godan-ku"
+      "verb_class": "godan-ku",
+      "transitivity": "transitive"
     }
   }
 }

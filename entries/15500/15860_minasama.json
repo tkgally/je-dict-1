@@ -25,7 +25,7 @@
     },
     {
       "id": "15860_minasama_ex2",
-      "japanese": "{皆様|みなさま}のご{協力|きょうりょく}に{感謝|かんしゃ}いたします。",
+      "japanese": "{皆様|みなさま}⟦の→の：09472_no⟧ご⟦{協力|きょうりょく}→協力：00261_kyouryoku⟧⟦に→に：00314_ni⟧⟦{感謝|かんしゃ}→感謝：00181_kansha⟧⟦いたします→いたす：01314_itasu⟧。",
       "english": "I am grateful for everyone's cooperation.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "15860_minasama_ex3",
-      "japanese": "{皆様|みなさま}のご{健康|けんこう}とご{多幸|たこう}をお{祈|いの}りいたします。",
+      "japanese": "{皆様|みなさま}⟦の→の：09472_no⟧ご⟦{健康|けんこう}→健康：02706_kenkou⟧⟦と→と：00512_to⟧ご{多幸|たこう}⟦を→を：00422_wo⟧お⟦{祈|いの}り→祈り：13732_inori⟧⟦いたします→いたす：01314_itasu⟧。",
       "english": "I wish everyone good health and happiness.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "{皆様|みなさま} is the honorific form of みなさん, using {様|さま} instead of さん.\n\nFORMALITY LEVELS:\n- みんな: everyone (casual)\n- みなさん: everyone (standard polite)\n- {皆様|みなさま}: everyone (formal/honorific)\n\nWHERE USED:\nStandard in business emails, public announcements, formal speeches, and customer-facing communication. Using みなさん in these contexts would sound too casual.\n\nCOMMON COLLOCATIONS:\n- {皆様|みなさま}へ: to everyone (letter/email opening)\n- {皆様|みなさま}のおかげで: thanks to everyone\n- お{客様|きゃくさま}{皆様|みなさま}: all of our customers\n- ご{来場|らいじょう}の{皆様|みなさま}: all attendees\n- {皆様|みなさま}のご{健勝|けんしょう}をお{祈|いの}りいたします: I wish everyone good health (closing formula)",
+  "notes": "{皆様|みなさま} is the honorific form of みなさん, using ⟦{様|さま}→様：01549_sama⟧ instead of さん.\n\nFORMALITY LEVELS:\n- ⟦みんな→みんな：02972_minna⟧: everyone (casual)\n- みなさん: everyone (standard polite)\n- {皆様|みなさま}: everyone (formal/honorific)\n\nWHERE USED:\nStandard in business emails, public announcements, formal speeches, and customer-facing communication. Using みなさん in these contexts would sound too casual.\n\nCOMMON COLLOCATIONS:\n- {皆様|みなさま}⟦へ→へ：02473_he⟧: to everyone (letter/email opening)\n- {皆様|みなさま}⟦の→の：09472_no⟧⟦おかげ→おかげ：01362_okage⟧⟦で→で：00502_de⟧: thanks to everyone\n- ⟦お{客様|きゃくさま}→お客様：08780_okyakusama⟧{皆様|みなさま}: all of our customers\n- ご⟦{来場|らいじょう}→来場：17703_raijou⟧⟦の→の：09472_no⟧{皆様|みなさま}: all attendees\n- {皆様|みなさま}⟦の→の：09472_no⟧ご{健勝|けんしょう}⟦を→を：00422_wo⟧お⟦{祈|いの}り→祈り：13732_inori⟧⟦いたします→いたす：01314_itasu⟧: I wish everyone good health (closing formula)",
   "prominent_see_also": [
     {
       "target_id": "02971_minasan",
@@ -53,10 +53,18 @@
       "note": "standard polite form"
     }
   ],
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23265_kankeishakakui",
+      "reading": "かんけいしゃかくい",
+      "headword": "{関係者各位|かんけいしゃかくい}",
+      "label": "to whom it may concern"
+    }
+  ],
   "metadata": {
     "created": "2026-03-08T13:21:32Z",
-    "modified": "2026-07-18T04:02:53Z",
+    "modified": "2026-09-02T04:01:42Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

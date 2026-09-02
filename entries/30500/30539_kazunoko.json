@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30539_kazunoko_ex1",
-      "japanese": "{数|かず}の{子|こ}が{好|す}きだ。",
+      "japanese": "{数|かず}の{子|こ}⟦が→が：00051_ga⟧⟦{好|す}き→好き：02355_suki⟧だ。",
       "english": "I like herring roe.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30539_kazunoko_ex2",
-      "japanese": "{正月|しょうがつ}には{数|かず}の{子|こ}を{食|た}べる。",
+      "japanese": "⟦{正月|しょうがつ}→正月：01433_shougatsu⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{数|かず}の{子|こ}⟦を→を：00422_wo⟧⟦{食|た}べる→食べる：00396_taberu⟧。",
       "english": "We eat herring roe at New Year.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30539_kazunoko_ex3",
-      "japanese": "{塩|しお}を{抜|ぬ}いてから{出汁|だし}につけると、{数|かず}の{子|こ}の{歯|は}ごたえが{生|い}きる。",
+      "japanese": "⟦{塩|しお}→塩：00887_shio⟧⟦を→を：00422_wo⟧⟦{抜|ぬ}いて→抜く：02384_nuku⟧⟦から→から：00504_kara⟧⟦{出汁|だし}→出汁：04917_dashi⟧につける⟦と→と：00512_to⟧、{数|かず}の{子|こ}⟦の→の：09472_no⟧{歯|は}ごたえ⟦が→が：00051_ga⟧⟦{生|い}きる→生きる：01184_ikiru⟧。",
       "english": "Soaking out the salt and then steeping it in dashi brings out the crunch of the herring roe.",
       "sense_numbers": [
         1
@@ -44,8 +44,37 @@
       "notes": null
     }
   ],
-  "notes": "The name comes from {鰊|かど}, an old word for herring: {鰊|かど}の{子|こ} became かずのこ, later written with {数|かず}.\n\nCOMMON COLLOCATIONS:\n- {数|かず}の{子|こ}の{塩抜|しおぬ}き: soaking the salt out of herring roe\n- {味付|あじつ}け{数|かず}の{子|こ}: pre-seasoned herring roe\n- {数|かず}の{子|こ}の{歯|は}ごたえ: the crunch of herring roe\n\nCULTURAL NOTE:\n- In the New Year's {御節|おせち} box it stands for fertility and many descendants, since one block holds countless eggs. It sits alongside {黒豆|くろまめ} (black beans, for health) and {田作|たづく}り (candied sardines, for a good harvest) as one of the three classic {祝|いわ}い{肴|ざかな}.",
-  "cross_references": [],
+  "notes": "The name comes from {鰊|かど}, an old word for herring: {鰊|かど}⟦の→の：09472_no⟧⟦{子|こ}→子：09851_ko⟧ became かずのこ, later written with ⟦{数|かず}→数：00204_kazu⟧.\n\nCOMMON COLLOCATIONS:\n- {数|かず}の{子|こ}⟦の→の：09472_no⟧⟦{塩抜|しおぬ}き→塩抜き：12163_shionuki⟧: soaking the salt out of herring roe\n- ⟦{味付|あじつ}け→味付け：05830_ajitsuke⟧{数|かず}の{子|こ}: pre-seasoned herring roe\n- {数|かず}の{子|こ}⟦の→の：09472_no⟧{歯|は}ごたえ: the crunch of herring roe\n\nCULTURAL NOTE:\n- In the New Year's {御節|おせち} box it stands for fertility and many descendants, since one block holds countless eggs. It sits alongside ⟦{黒豆|くろまめ}→黒豆：30552_kuromame⟧ (black beans, for health) and ⟦{田作|たづく}り→田作り：30553_tazukuri⟧ (candied sardines, for a good harvest) as one of the three classic ⟦{祝|いわ}い{肴|ざかな}→祝い肴：30554_iwaizakana⟧.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15258_tarako",
+      "reading": "たらこ",
+      "headword": "たらこ",
+      "label": "cod roe"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21830_shirako",
+      "reading": "しらこ",
+      "headword": "{白子|しらこ}",
+      "label": "milt"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23740_kyabia",
+      "reading": "きゃびあ",
+      "headword": "キャビア",
+      "label": "caviar"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30538_tobiko",
+      "reading": "とびこ",
+      "headword": "とびこ",
+      "label": "flying fish roe (sushi topping)"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -54,7 +83,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "food",
         "culture"
@@ -62,6 +91,6 @@
       "domain": []
     },
     "created": "2026-08-10T00:22:10Z",
-    "modified": "2026-08-10T00:22:10Z"
+    "modified": "2026-09-02T04:02:40Z"
   }
 }

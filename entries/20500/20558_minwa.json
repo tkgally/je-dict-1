@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "20558_minwa_ex1",
-      "japanese": "{日本|にほん}の{民話|みんわ}を{読|よ}む。",
+      "japanese": "⟦{日本|にほん}→日本：03876_nihon⟧⟦の→の：09472_no⟧{民話|みんわ}⟦を→を：00422_wo⟧⟦{読|よ}む→読む：00426_yomu⟧。",
       "english": "To read Japanese folk tales.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "20558_minwa_ex2",
-      "japanese": "おばあちゃんが{地元|じもと}の{民話|みんわ}を{聞|き}かせてくれた。",
+      "japanese": "⟦おばあちゃん→おばあちゃん：10968_obaachan⟧⟦が→が：00051_ga⟧⟦{地元|じもと}→地元：09941_jimoto⟧⟦の→の：09472_no⟧{民話|みんわ}⟦を→を：00422_wo⟧⟦{聞|き}かせて→聞く：00483_kiku⟧⟦くれた→くれる：00724_kureru⟧。",
       "english": "My grandmother told me local folk tales.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "20558_minwa_ex3",
-      "japanese": "この{地域|ちいき}には{山|やま}の{神|かみ}にまつわる{民話|みんわ}がたくさん{残|のこ}っている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{地域|ちいき}→地域：01461_chiiki⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{山|やま}の{神|かみ}⟦に→に：00314_ni⟧まつわる{民話|みんわ}⟦が→が：00051_ga⟧⟦たくさん→たくさん：00597_takusan⟧⟦{残|のこ}っている→残る：01187_nokoru⟧。",
       "english": "Many folk tales about the mountain deity remain in this region.",
       "sense_numbers": [
         1
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "Refers to stories that have been passed down orally by common people, typically rooted in a specific region or community. Japanese folk tales often feature animals ({動物|どうぶつ}), spirits ({妖怪|ようかい}), or deities ({神|かみ}) and carry moral lessons.\n\nCOMMON COLLOCATIONS:\n- {民話|みんわ}を{語|かた}る: to tell a folk tale\n- {民話|みんわ}を{伝|つた}える: to pass down a folk tale\n- {民話|みんわ}{集|しゅう}: collection of folk tales\n- {地方|ちほう}の{民話|みんわ}: regional folk tales\n- {民話|みんわ}の{里|さと}: a village known for its folk tales\n\nSIMILAR WORDS:\n- {昔話|むかしばなし}: old tale — the most common everyday term for folk tales, often starting with {昔|むかし}むかし (\"once upon a time\")\n- {伝説|でんせつ}: legend — typically tied to a specific place, person, or event\n- {神話|しんわ}: myth — stories about gods and the origins of the world\n- {寓話|ぐうわ}: fable — a story with an explicit moral lesson, often featuring animals",
+  "notes": "Refers to stories that have been passed down orally by common people, typically rooted in a specific region or community. Japanese folk tales often feature animals (⟦{動物|どうぶつ}→動物：01480_doubutsu⟧), spirits (⟦{妖怪|ようかい}→妖怪：12222_youkai⟧), or deities (⟦{神|かみ}→神：02147_kami⟧) and carry moral lessons.\n\nCOMMON COLLOCATIONS:\n- {民話|みんわ}⟦を→を：00422_wo⟧⟦{語|かた}る→語る：01930_kataru⟧: to tell a folk tale\n- {民話|みんわ}⟦を→を：00422_wo⟧⟦{伝|つた}える→伝える：01220_tsutaeru⟧: to pass down a folk tale\n- {民話|みんわ}{集|しゅう}: collection of folk tales\n- ⟦{地方|ちほう}→地方：02369_chihou⟧⟦の→の：09472_no⟧{民話|みんわ}: regional folk tales\n- {民話|みんわ}⟦の→の：09472_no⟧⟦{里|さと}→里：02214_sato⟧: a village known for its folk tales\n\nSIMILAR WORDS:\n- ⟦{昔話|むかしばなし}→昔話：12718_mukashibanashi⟧: old tale — the most common everyday term for folk tales, often starting with {昔|むかし}むかし (\"once upon a time\")\n- ⟦{伝説|でんせつ}→伝説：11446_densetsu⟧: legend — typically tied to a specific place, person, or event\n- ⟦{神話|しんわ}→神話：00367_shinwa⟧: myth — stories about gods and the origins of the world\n- ⟦{寓話|ぐうわ}→寓話：20571_guuwa⟧: fable — a story with an explicit moral lesson, often featuring animals",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12718_mukashibanashi",
+      "reading": "むかしばなし",
+      "headword": "{昔話|むかしばなし}",
+      "label": "old tale"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11446_densetsu",
+      "reading": "でんせつ",
+      "headword": "{伝説|でんせつ}",
+      "label": "legend"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00367_shinwa",
+      "reading": "しんわ",
+      "headword": "{神話|しんわ}",
+      "label": "myth"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20571_guuwa",
+      "reading": "ぐうわ",
+      "headword": "{寓話|ぐうわ}",
+      "label": "fable"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +90,6 @@
       ]
     },
     "created": "2026-03-29T18:08:30Z",
-    "modified": "2026-07-28T09:35:50Z"
+    "modified": "2026-09-02T04:02:00Z"
   }
 }

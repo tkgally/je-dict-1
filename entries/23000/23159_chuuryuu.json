@@ -3,7 +3,7 @@
   "headword": "{駐留|ちゅうりゅう}",
   "reading": "ちゅうりゅう",
   "romaji": "chuuryuu",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "stationing (of troops); being stationed; military presence",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "23159_chuuryuu_ex1",
-      "japanese": "{米軍|べいぐん}が{日本|にほん}に{駐留|ちゅうりゅう}している。",
+      "japanese": "{米軍|べいぐん}⟦が→が：00051_ga⟧⟦{日本|にほん}→日本：03876_nihon⟧⟦に→に：00314_ni⟧{駐留|ちゅうりゅう}⟦している→する：00392_suru⟧。",
       "english": "U.S. forces are stationed in Japan.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "23159_chuuryuu_ex2",
-      "japanese": "{駐留|ちゅうりゅう}{軍|ぐん}の{撤退|てったい}が{決|き}まった。",
+      "japanese": "{駐留|ちゅうりゅう}{軍|ぐん}⟦の→の：09472_no⟧⟦{撤退|てったい}→撤退：12822_tettai⟧⟦が→が：00051_ga⟧⟦{決|き}まった→決まる：01233_kimaru⟧。",
       "english": "The withdrawal of the stationed forces was decided.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "23159_chuuryuu_ex3",
-      "japanese": "{海外|かいがい}{駐留|ちゅうりゅう}の{費用|ひよう}は{毎年|まいとし}{巨額|きょがく}に{上|のぼ}る。",
+      "japanese": "⟦{海外|かいがい}→海外：00134_kaigai⟧{駐留|ちゅうりゅう}⟦の→の：09472_no⟧⟦{費用|ひよう}→費用：03588_hiyou⟧⟦は→は：00079_ha⟧⟦{毎年|まいとし}→毎年：00731_maitoshi⟧⟦{巨額|きょがく}→巨額：12416_kyogaku⟧⟦に→に：00314_ni⟧⟦{上|のぼ}る→上る：21460_noboru⟧。",
       "english": "The cost of overseas stationing amounts to an enormous sum every year.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {駐|ちゅう} (stationed, parked) + {留|りゅう} (stay, remain). Specifically refers to military forces being stationed in a location, usually abroad. One of the key terms for discussing U.S. military bases in Japan and other international security topics.\n\nCOMMON COLLOCATIONS:\n- {駐留|ちゅうりゅう}{軍|ぐん}: stationed forces\n- {駐留|ちゅうりゅう}{米軍|べいぐん}: U.S. forces stationed (in Japan/abroad)\n- {海外|かいがい}{駐留|ちゅうりゅう}: overseas stationing\n- {駐留|ちゅうりゅう}{経費|けいひ}: stationing costs (host nation support)\n- {駐留|ちゅうりゅう}{協定|きょうてい}: stationing agreement (SOFA)\n\nSIMILAR WORDS:\n- {駐屯|ちゅうとん}: garrisoning — more specifically about troops being quartered at a base or garrison\n- {派遣|はけん}: dispatch, deployment — the act of sending forces, rather than their continued presence\n- {配備|はいび}: deployment, positioning — placing military equipment or forces in strategic positions",
+  "notes": "Composed of {駐|ちゅう} (stationed, parked) + {留|りゅう} (stay, remain). Specifically refers to military forces being stationed in a location, usually abroad. One of the key terms for discussing U.S. military bases in Japan and other international security topics.\n\nCOMMON COLLOCATIONS:\n- {駐留|ちゅうりゅう}{軍|ぐん}: stationed forces\n- {駐留|ちゅうりゅう}{米軍|べいぐん}: U.S. forces stationed (in Japan/abroad)\n- ⟦{海外|かいがい}→海外：00134_kaigai⟧{駐留|ちゅうりゅう}: overseas stationing\n- {駐留|ちゅうりゅう}⟦{経費|けいひ}→経費：04696_keihi⟧: stationing costs (host nation support)\n- {駐留|ちゅうりゅう}⟦{協定|きょうてい}→協定：05320_kyoutei⟧: stationing agreement (SOFA)\n\nSIMILAR WORDS:\n- ⟦{駐屯|ちゅうとん}→駐屯：22864_chuuton⟧: garrisoning — more specifically about troops being quartered at a base or garrison\n- ⟦{派遣|はけん}→派遣：13273_haken⟧: dispatch, deployment — the act of sending forces, rather than their continued presence\n- ⟦{配備|はいび}→配備：25292_haibi⟧: deployment, positioning — placing military equipment or forces in strategic positions",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22864_chuuton",
+      "reading": "ちゅうとん",
+      "headword": "{駐屯|ちゅうとん}",
+      "label": "garrisoning"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13273_haken",
+      "reading": "はけん",
+      "headword": "{派遣|はけん}",
+      "label": "dispatch, deployment"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25292_haibi",
+      "reading": "はいび",
+      "headword": "{配備|はいび}",
+      "label": "deployment, positioning"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,7 +84,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-08T20:37:58Z",
-    "modified": "2026-04-08T20:37:58Z"
+    "modified": "2026-09-02T04:02:11Z"
   },
   "conjugation": {
     "type": "suru",

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25664_yushutsukoku_ex1",
-      "japanese": "{日本|にほん}は{自動車|じどうしゃ}の{輸出国|ゆしゅつこく}だ。",
+      "japanese": "⟦{日本|にほん}→日本：03876_nihon⟧⟦は→は：00079_ha⟧⟦{自動車|じどうしゃ}→自動車：02886_jidousha⟧⟦の→の：09472_no⟧{輸出国|ゆしゅつこく}だ。",
       "english": "Japan is an automobile-exporting country.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25664_yushutsukoku_ex2",
-      "japanese": "{主要|しゅよう}な{石油|せきゆ}{輸出国|ゆしゅつこく}が{会議|かいぎ}を{開|ひら}いた。",
+      "japanese": "⟦{主要|しゅよう}→主要：01649_shuyou⟧な⟦{石油|せきゆ}→石油：01448_sekiyu⟧{輸出国|ゆしゅつこく}⟦が→が：00051_ga⟧⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦を→を：00422_wo⟧⟦{開|ひら}いた→開く：01979_hiraku⟧。",
       "english": "The major oil-exporting countries held a conference.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25664_yushutsukoku_ex3",
-      "japanese": "この{地域|ちいき}では{農産物|のうさんぶつ}の{輸出国|ゆしゅつこく}と{輸入国|ゆにゅうこく}の{間|あいだ}で{貿易|ぼうえき}{摩擦|まさつ}が{起|お}きている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{地域|ちいき}→地域：01461_chiiki⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{農産物|のうさんぶつ}→農産物：14360_nousanbutsu⟧⟦の→の：09472_no⟧{輸出国|ゆしゅつこく}⟦と→と：00512_to⟧⟦{輸入国|ゆにゅうこく}→輸入国：25665_yunyuukoku⟧⟦の→の：09472_no⟧⟦{間|あいだ}→間：00914_aida⟧⟦で→で：00502_de⟧⟦{貿易|ぼうえき}→貿易：01727_boueki⟧⟦{摩擦|まさつ}→摩擦：00271_masatsu⟧⟦が→が：00051_ga⟧⟦{起|お}きている→起きる：00521_okiru⟧。",
       "english": "In this region, trade friction has arisen between agricultural exporting and importing countries.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {輸出|ゆしゅつ} (export) and {国|こく} (country). The {国|こく} suffix is productive for forming country-type labels: {先進国|せんしんこく} (developed country), {途上国|とじょうこく} (developing country).\n\nCOMMON COLLOCATIONS:\n- {石油|せきゆ}{輸出国|ゆしゅつこく}: oil-exporting country\n- {最大|さいだい}の{輸出国|ゆしゅつこく}: the largest exporter\n- {輸出国|ゆしゅつこく}{機構|きこう}: organization of exporting countries (as in OPEC)\n- {純|じゅん}{輸出国|ゆしゅつこく}: net exporter\n\nSIMILAR/RELATED WORDS:\n- {輸入国|ゆにゅうこく}: importing country — the counterpart\n- {貿易国|ぼうえきこく}: trading nation — broader term covering both import and export\n- {輸出|ゆしゅつ}: export (the act itself)",
+  "notes": "A compound of ⟦{輸出|ゆしゅつ}→輸出：02094_yushutsu⟧ (export) and {国|こく} (country). The {国|こく} suffix is productive for forming country-type labels: ⟦{先進国|せんしんこく}→先進国：11624_senshinkoku⟧ (developed country), ⟦{途上国|とじょうこく}→途上国：14424_tojoukoku⟧ (developing country).\n\nCOMMON COLLOCATIONS:\n- ⟦{石油|せきゆ}→石油：01448_sekiyu⟧{輸出国|ゆしゅつこく}: oil-exporting country\n- ⟦{最大|さいだい}→最大：04827_saidai⟧⟦の→の：09472_no⟧{輸出国|ゆしゅつこく}: the largest exporter\n- {輸出国|ゆしゅつこく}⟦{機構|きこう}→機構：02784_kikou⟧: organization of exporting countries (as in OPEC)\n- ⟦{純|じゅん}→純〜：28361_jun⟧{輸出国|ゆしゅつこく}: net exporter\n\nSIMILAR/RELATED WORDS:\n- ⟦{輸入国|ゆにゅうこく}→輸入国：25665_yunyuukoku⟧: importing country — the counterpart\n- {貿易国|ぼうえきこく}: trading nation — broader term covering both import and export\n- ⟦{輸出|ゆしゅつ}→輸出：02094_yushutsu⟧: export (the act itself)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25665_yunyuukoku",
+      "reading": "ゆにゅうこく",
+      "headword": "{輸入国|ゆにゅうこく}",
+      "label": "importing country"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,6 +71,6 @@
       ]
     },
     "created": "2026-04-26T14:31:18Z",
-    "modified": "2026-08-04T21:23:34Z"
+    "modified": "2026-09-02T04:02:23Z"
   }
 }

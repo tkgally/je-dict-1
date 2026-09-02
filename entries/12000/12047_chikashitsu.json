@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "12047_chikashitsu_ex1",
-      "japanese": "{地下室|ちかしつ}に{荷物|にもつ}を{運|はこ}ぶ。",
+      "japanese": "{地下室|ちかしつ}⟦に→に：00314_ni⟧⟦{荷物|にもつ}→荷物：00737_nimotsu⟧⟦を→を：00422_wo⟧⟦{運|はこ}ぶ→運ぶ：01088_hakobu⟧。",
       "english": "To carry luggage to the basement.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12047_chikashitsu_ex2",
-      "japanese": "この{家|いえ}には{広|ひろ}い{地下室|ちかしつ}がある。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{家|いえ}→家：00612_ie⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{広|ひろ}い→広い：00704_hiroi⟧{地下室|ちかしつ}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "This house has a spacious basement.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12047_chikashitsu_ex3",
-      "japanese": "ワインは{温度|おんど}が{一定|いってい}の{地下室|ちかしつ}で{保管|ほかん}するのが{理想的|りそうてき}だ。",
+      "japanese": "⟦ワイン→ワイン：01067_wain⟧⟦は→は：00079_ha⟧⟦{温度|おんど}→温度：00333_ondo⟧⟦が→が：00051_ga⟧⟦{一定|いってい}→一定：01735_ittei⟧⟦の→の：09472_no⟧{地下室|ちかしつ}⟦で→で：00502_de⟧⟦{保管|ほかん}する→保管する：25536_hokansuru⟧⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦{理想的|りそうてき}→理想的：04797_risouteki⟧だ。",
       "english": "Ideally, wine should be stored in a basement where the temperature is constant.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nLess common in traditional Japanese residential architecture than in Western countries, but found in modern buildings. {地下|ちか} alone can mean \"underground\" or \"basement level\" (as in {地下|ちか}1{階|かい}, basement floor 1), while {地下室|ちかしつ} specifically means a room below ground.\n\nCOMMON COLLOCATIONS:\n- {地下室|ちかしつ}に{降|お}りる: to go down to the basement\n- {地下室|ちかしつ}に{保管|ほかん}する: to store in the basement\n- {地下室|ちかしつ}{付|つ}き: with a basement",
+  "notes": "USAGE:\nLess common in traditional Japanese residential architecture than in Western countries, but found in modern buildings. ⟦{地下|ちか}→地下：03429_chika⟧ alone can mean \"underground\" or \"basement level\" (as in ⟦{地下|ちか}→地下：03429_chika⟧1⟦{階|かい}→階：01034_kai⟧, basement floor 1), while {地下室|ちかしつ} specifically means a room below ground.\n\nCOMMON COLLOCATIONS:\n- {地下室|ちかしつ}⟦に→に：00314_ni⟧⟦{降|お}りる→降りる：00568_oriru⟧: to go down to the basement\n- {地下室|ちかしつ}⟦に→に：00314_ni⟧⟦{保管|ほかん}する→保管する：25536_hokansuru⟧: to store in the basement\n- {地下室|ちかしつ}⟦{付|つ}き→付き：26333_tsuki⟧: with a basement",
   "cross_references": [
     {
       "type": "related",
@@ -53,18 +59,29 @@
       "reading": "やねうら",
       "headword": "{屋根裏|やねうら}",
       "label": "attic"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24566_chikai",
+      "reading": "ちかい",
+      "headword": "{地階|ちかい}",
+      "label": "basement floor"
     }
   ],
   "metadata": {
     "created": "2026-02-19T13:38:05Z",
-    "modified": "2026-04-26T04:23:53Z",
+    "modified": "2026-09-02T04:01:27Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["building"]
+      "semantic": [
+        "building"
+      ]
     }
   }
 }

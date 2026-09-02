@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25452_penneemu_ex1",
-      "japanese": "ペンネームで{投稿|とうこう}する。",
+      "japanese": "ペンネーム⟦で→で：00502_de⟧⟦{投稿|とうこう}する→投稿する：18994_toukousuru⟧。",
       "english": "To submit a piece under a pen name.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25452_penneemu_ex2",
-      "japanese": "{彼女|かのじょ}はペンネームで{小説|しょうせつ}を{書|か}いている。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧ペンネーム⟦で→で：00502_de⟧⟦{小説|しょうせつ}→小説：01434_shousetsu⟧⟦を→を：00422_wo⟧⟦{書|か}いている→書く：00477_kaku⟧。",
       "english": "She writes novels under a pen name.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25452_penneemu_ex3",
-      "japanese": "ペンネームを{決|き}めるのに{時間|じかん}がかかったが、{気|き}に{入|い}った{名前|なまえ}が{見|み}つかった。",
+      "japanese": "ペンネーム⟦を→を：00422_wo⟧⟦{決|き}める→決める：00858_kimeru⟧⟦の→の：09472_no⟧⟦に→に：00314_ni⟧⟦{時間|じかん}→時間：00468_jikan⟧⟦が→が：00051_ga⟧⟦かかった→かかる：00711_kakaru⟧⟦が→が：00051_ga⟧、⟦{気|き}に{入|い}った→気に入る：02047_kiniiru⟧⟦{名前|なまえ}→名前：02234_namae⟧⟦が→が：00051_ga⟧⟦{見|み}つかった→見つかる：01173_mitsukaru⟧。",
       "english": "It took time to decide on a pen name, but I found a name I liked.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "From English \"pen name.\" More commonly used in modern Japanese than the native equivalent {筆名|ひつめい}, especially among younger writers and in casual contexts. While {筆名|ひつめい} has a more literary and formal feel, ペンネーム is the everyday choice.\n\nCOMMON COLLOCATIONS:\n- ペンネームを{使|つか}う: to use a pen name\n- ペンネームで{活動|かつどう}する: to be active under a pen name\n- ペンネームを{決|き}める: to decide on a pen name\n- ペンネームで{発表|はっぴょう}する: to publish under a pen name\n\nSIMILAR WORDS:\n- {筆名|ひつめい}: pen name — the Sino-Japanese equivalent, more formal and literary\n- ハンドルネーム: handle name; screen name — used for online identities\n- {芸名|げいめい}: stage name — used by performers and entertainers",
+  "notes": "From English \"pen name.\" More commonly used in modern Japanese than the native equivalent ⟦{筆名|ひつめい}→筆名：25451_hitsumei⟧, especially among younger writers and in casual contexts. While ⟦{筆名|ひつめい}→筆名：25451_hitsumei⟧ has a more literary and formal feel, ペンネーム is the everyday choice.\n\nCOMMON COLLOCATIONS:\n- ペンネーム⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧: to use a pen name\n- ペンネーム⟦で→で：00502_de⟧⟦{活動|かつどう}→活動：00201_katsudou⟧⟦する→する：00392_suru⟧: to be active under a pen name\n- ペンネーム⟦を→を：00422_wo⟧⟦{決|き}める→決める：00858_kimeru⟧: to decide on a pen name\n- ペンネーム⟦で→で：00502_de⟧⟦{発表|はっぴょう}する→発表する：25231_happyousuru⟧: to publish under a pen name\n\nSIMILAR WORDS:\n- ⟦{筆名|ひつめい}→筆名：25451_hitsumei⟧: pen name — the Sino-Japanese equivalent, more formal and literary\n- ⟦ハンドルネーム→ハンドルネーム：29587_handoruneemu⟧: handle name; screen name — used for online identities\n- ⟦{芸名|げいめい}→芸名：25284_geimei⟧: stage name — used by performers and entertainers",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -52,13 +52,14 @@
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "media",
         "culture"
       ]
     },
     "created": "2026-04-25T13:33:54Z",
-    "modified": "2026-08-04T12:59:53Z"
+    "modified": "2026-09-02T04:02:22Z"
   },
   "cross_references": [
     {
@@ -67,6 +68,41 @@
       "reading": "ひつめい",
       "headword": "{筆名|ひつめい}",
       "label": "formal"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29587_handoruneemu",
+      "reading": "はんどるねーむ",
+      "headword": "ハンドルネーム",
+      "label": "handle name"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25284_geimei",
+      "reading": "げいめい",
+      "headword": "{芸名|げいめい}",
+      "label": "stage name"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13034_honmyou",
+      "reading": "ほんみょう",
+      "headword": "{本名|ほんみょう}",
+      "label": "real name, true name"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18259_gimei",
+      "reading": "ぎめい",
+      "headword": "{偽名|ぎめい}",
+      "label": "false name"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20754_gagou",
+      "reading": "がごう",
+      "headword": "{雅号|がごう}",
+      "label": "pen name"
     }
   ]
 }

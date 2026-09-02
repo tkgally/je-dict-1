@@ -19,7 +19,7 @@
   "examples": [
     {
       "id": "30683_janaito_ex1",
-      "japanese": "{大人|おとな}じゃないと{入|はい}れない。",
+      "japanese": "⟦{大人|おとな}→大人：02856_otona⟧じゃないと⟦{入|はい}れない→入る：00494_hairu⟧。",
       "english": "You can't go in unless you're an adult.",
       "sense_numbers": [
         1
@@ -29,7 +29,7 @@
     },
     {
       "id": "30683_janaito_ex2",
-      "japanese": "{土曜日|どようび}じゃないと{時間|じかん}が{取|と}れません。",
+      "japanese": "⟦{土曜日|どようび}→土曜日：00621_doyoubi⟧じゃないと⟦{時間|じかん}→時間：00468_jikan⟧⟦が→が：00051_ga⟧⟦{取|と}れません→取れる：02376_toreru⟧。",
       "english": "I can't find time unless it's a Saturday.",
       "sense_numbers": [
         1
@@ -39,7 +39,7 @@
     },
     {
       "id": "30683_janaito_ex3",
-      "japanese": "この{仕事|しごと}は{経験者|けいけんしゃ}じゃないと{任|まか}せられないと{部長|ぶちょう}が{言|い}っている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦は→は：00079_ha⟧⟦{経験者|けいけんしゃ}→経験者：18664_keikensha⟧じゃないと⟦{任|まか}せられない→任せる：02417_makaseru⟧⟦と→と：00512_to⟧⟦{部長|ぶちょう}→部長：01017_buchou⟧⟦が→が：00051_ga⟧⟦{言|い}っている→言う：00515_iu⟧。",
       "english": "The manager says this job can only be entrusted to someone with experience.",
       "sense_numbers": [
         1
@@ -49,7 +49,7 @@
     },
     {
       "id": "30683_janaito_ex4",
-      "japanese": "{急|いそ}ごう。じゃないと{間|ま}に{合|あ}わない。",
+      "japanese": "⟦{急|いそ}ごう→急ぐ：01191_isogu⟧。じゃないと⟦{間|ま}に{合|あ}わない→間に合う：01142_maniau⟧。",
       "english": "Let's hurry. Otherwise we won't make it.",
       "sense_numbers": [
         2
@@ -59,7 +59,7 @@
     },
     {
       "id": "30683_janaito_ex5",
-      "japanese": "{傘|かさ}を{持|も}っていきなよ。じゃないと{濡|ぬ}れるよ。",
+      "japanese": "⟦{傘|かさ}→傘：00639_kasa⟧⟦を→を：00422_wo⟧⟦{持|も}って→持つ：00478_motsu⟧いきな⟦よ→よ：09475_yo⟧。じゃないと⟦{濡|ぬ}れる→濡れる：00800_nureru⟧⟦よ→よ：09475_yo⟧。",
       "english": "Take an umbrella. Otherwise you'll get wet.",
       "sense_numbers": [
         2
@@ -69,7 +69,7 @@
     },
     {
       "id": "30683_janaito_ex6",
-      "japanese": "{今日中|きょうじゅう}に{返事|へんじ}をしたほうがいい。じゃないと{相手|あいて}を{待|ま}たせることになる。",
+      "japanese": "⟦{今日中|きょうじゅう}→今日中：19382_kyoujuu⟧⟦に→に：00314_ni⟧⟦{返事|へんじ}→返事：00844_henji⟧⟦を→を：00422_wo⟧⟦した→する：00392_suru⟧⟦ほうがいい→ほうがいい：10078_hougaii⟧。じゃないと⟦{相手|あいて}→相手：01677_aite⟧⟦を→を：00422_wo⟧⟦{待|ま}たせる→待つ：00469_matsu⟧こと⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧。",
       "english": "You'd better reply today. Otherwise you'll end up keeping them waiting.",
       "sense_numbers": [
         2
@@ -78,8 +78,24 @@
       "notes": null
     }
   ],
-  "notes": "The contraction of ではないと. Casual: fine in conversation and messages, but ではないと or でないと is expected in writing.\n\nCOMMON PATTERNS:\n- [noun]じゃないと[できない/{無理|むり}]: it has to be ~, or it can't be done\n- {今|いま}じゃないと{間|ま}に{合|あ}わない: it has to be now or we won't make it\n- じゃないと〜ちゃう: casual warning of an unwanted result\n\nSIMILAR WORDS:\n- でないと: the same meaning in a more neutral register, usable in writing\n- じゃなければ: slightly more formal, and less pointed as a warning\n- そうしないと: refers back to an action rather than attaching to a noun",
+  "notes": "The contraction of ⟦では→では：02945_deha⟧⟦ない→ない：01118_nai⟧⟦と→と：00512_to⟧. Casual: fine in conversation and messages, but ⟦では→では：02945_deha⟧⟦ない→ない：01118_nai⟧⟦と→と：00512_to⟧ or でないと is expected in writing.\n\nCOMMON PATTERNS:\n- [noun]じゃないと[⟦できない→できる：00557_dekiru⟧/⟦{無理|むり}→無理：01558_muri⟧]: it has to be ~, or it can't be done\n- ⟦{今|いま}→今：00945_ima⟧じゃないと⟦{間|ま}に{合|あ}わない→間に合う：01142_maniau⟧: it has to be now or we won't make it\n- じゃないと〜ちゃう: casual warning of an unwanted result\n\nSIMILAR WORDS:\n- でないと: the same meaning in a more neutral register, usable in writing\n- じゃ⟦なければ→ない：01118_nai⟧: slightly more formal, and less pointed as a warning\n- ⟦そうしないと→そうしないと：30682_soushinaito⟧: refers back to an action rather than attaching to a noun",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "30684_denaito",
+      "reading": "でないと",
+      "headword": "でないと",
+      "label": "the same meaning in a more neutral…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30682_soushinaito",
+      "reading": "そうしないと",
+      "headword": "そうしないと",
+      "label": "refers back to an action rather…"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -96,6 +112,6 @@
       ]
     },
     "created": "2026-08-16T06:19:38Z",
-    "modified": "2026-08-16T06:19:38Z"
+    "modified": "2026-09-02T04:02:41Z"
   }
 }

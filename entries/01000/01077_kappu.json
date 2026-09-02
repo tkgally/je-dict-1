@@ -59,7 +59,7 @@
     },
     {
       "id": "01077_kappu_ex5",
-      "japanese": "1カップ⟦は→は：00079_ha⟧⟦{約|やく}→約：09563_yaku⟧200ミリリットル⟦です→です：09485_desu⟧。",
+      "japanese": "1カップ⟦は→は：00079_ha⟧⟦{約|やく}→約：09563_yaku⟧200⟦ミリリットル→ミリリットル：28700_miririttoru⟧⟦です→です：09485_desu⟧。",
       "english": "One cup is approximately 200 milliliters.",
       "notes": null,
       "has_audio": false,
@@ -79,10 +79,39 @@
     }
   ],
   "notes": "カップ refers to a cup for drinking or a unit of measurement, from English 'cup.'\n\nAS A CONTAINER:\n- ⟦コーヒー→コーヒー：00789_koohii⟧カップ: coffee cup\n- ⟦ティー→ティー：30405_tii⟧カップ: tea cup\n- ⟦{紙|かみ}→紙：00712_kami⟧カップ: paper cup\n- カップ⟦ラーメン→ラーメン：05181_raamen⟧: cup noodles\n\nAS A MEASUREMENT:\n1カップ = approximately 200ml in Japan (differs from US cup = ~240ml)\n\nCOOKING USAGE:\n- ⟦{水|みず}→水：02258_mizu⟧1カップ: 1 cup of water\n- ⟦{砂糖|さとう}→砂糖：00884_satou⟧カップ⟦{半分|はんぶん}→半分：02938_hanbun⟧: half a cup of sugar\n\nCOUNTER:\n⟦{個|こ}→〜個：00645_ko⟧ for cups as objects.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00862_koppu",
+      "reading": "こっぷ",
+      "headword": "コップ",
+      "label": "glass, cup"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22527_oosaji",
+      "reading": "おおさじ",
+      "headword": "{大|おお}さじ",
+      "label": "tablespoon"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22869_magu",
+      "reading": "まぐ",
+      "headword": "マグ",
+      "label": "mug"
+    },
+    {
+      "type": "related",
+      "target_id": "23426_koohiikappu",
+      "reading": "こーひーかっぷ",
+      "headword": "コーヒーカップ",
+      "label": "coffee cup"
+    }
+  ],
   "metadata": {
     "created": "2026-01-07T12:40:36Z",
-    "modified": "2026-08-09T12:26:58Z",
+    "modified": "2026-09-02T04:00:58Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

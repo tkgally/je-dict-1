@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "13210_jinan_ex1",
-      "japanese": "{彼|かれ}は{三|さん}{人|にん}{兄弟|きょうだい}の{次男|じなん}だ。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{三|さん}{人|にん}→三人：10978_sannin⟧⟦{兄弟|きょうだい}→兄弟：00964_kyoudai⟧⟦の→の：09472_no⟧{次男|じなん}だ。",
       "english": "He is the second son of three brothers.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13210_jinan_ex2",
-      "japanese": "{次男|じなん}は{来年|らいねん}{小学校|しょうがっこう}に{入|はい}る。",
+      "japanese": "{次男|じなん}⟦は→は：00079_ha⟧⟦{来年|らいねん}→来年：00745_rainen⟧⟦{小学校|しょうがっこう}→小学校：01055_shougakkou⟧⟦に→に：00314_ni⟧⟦{入|はい}る→入る：00494_hairu⟧。",
       "english": "Our second son will enter elementary school next year.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13210_jinan_ex3",
-      "japanese": "{昔|むかし}は{長男|ちょうなん}が{家|いえ}を{継|つ}ぎ、{次男|じなん}は{独立|どくりつ}するのが{一般的|いっぱんてき}だった。",
+      "japanese": "⟦{昔|むかし}→昔：01515_mukashi⟧⟦は→は：00079_ha⟧⟦{長男|ちょうなん}→長男：14519_chounan⟧⟦が→が：00051_ga⟧⟦{家|いえ}→家：00612_ie⟧⟦を→を：00422_wo⟧⟦{継|つ}ぎ→継ぐ：02292_tsugu⟧、{次男|じなん}⟦は→は：00079_ha⟧⟦{独立|どくりつ}→独立：03488_dokuritsu⟧⟦する→する：00392_suru⟧⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦{一般的|いっぱんてき}→一般的：04784_ippanteki⟧だった。",
       "english": "In the past, the eldest son would inherit the household, and the second son would strike out on his own.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{次男|じなん} means second son. Part of the Japanese birth-order system that is commonly used in daily life, official documents, and family registers ({戸籍|こせき}).\n\nBIRTH ORDER - SONS:\n- {長男|ちょうなん}: eldest son\n- {次男|じなん}: second son\n- {三男|さんなん}: third son\n\nBIRTH ORDER - DAUGHTERS:\n- {長女|ちょうじょ}: eldest daughter\n- {次女|じじょ}: second daughter\n- {三女|さんじょ}: third daughter\n\nCULTURAL NOTE:\nIn traditional Japanese families, the {長男|ちょうなん} often bears special responsibilities like inheriting the family home and caring for elderly parents. The {次男|じなん} historically had more freedom. This distinction has weakened in modern times but still influences family dynamics.",
+  "notes": "{次男|じなん} means second son. Part of the Japanese birth-order system that is commonly used in daily life, official documents, and family registers (⟦{戸籍|こせき}→戸籍：12695_koseki⟧).\n\nBIRTH ORDER - SONS:\n- ⟦{長男|ちょうなん}→長男：14519_chounan⟧: eldest son\n- {次男|じなん}: second son\n- ⟦{三男|さんなん}→三男：10689_sannan⟧: third son\n\nBIRTH ORDER - DAUGHTERS:\n- ⟦{長女|ちょうじょ}→長女：14518_choujo⟧: eldest daughter\n- ⟦{次女|じじょ}→次女：15831_jijo⟧: second daughter\n- ⟦{三女|さんじょ}→三女：10690_sanjo⟧: third daughter\n\nCULTURAL NOTE:\nIn traditional Japanese families, the ⟦{長男|ちょうなん}→長男：14519_chounan⟧ often bears special responsibilities like inheriting the family home and caring for elderly parents. The {次男|じなん} historically had more freedom. This distinction has weakened in modern times but still influences family dynamics.",
   "cross_references": [
     {
       "type": "related",
@@ -53,18 +59,37 @@
       "reading": "じじょ",
       "headword": "{次女|じじょ}",
       "label": "second daughter"
+    },
+    {
+      "type": "related",
+      "target_id": "00799_musuko",
+      "reading": "むすこ",
+      "headword": "{息子|むすこ}",
+      "label": "son"
+    },
+    {
+      "type": "related",
+      "target_id": "15132_suekko",
+      "reading": "すえっこ",
+      "headword": "{末|すえ}っ{子|こ}",
+      "label": "youngest child"
     }
   ],
   "metadata": {
     "created": "2026-02-24T06:17:21Z",
-    "modified": "2026-04-28T06:26:02Z",
+    "modified": "2026-09-02T04:01:32Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["family", "person"]
+      "semantic": [
+        "family",
+        "person"
+      ]
     }
   }
 }

@@ -3,7 +3,7 @@
   "id": "14127_shuugeki",
   "headword": "{襲撃|しゅうげき}",
   "reading": "しゅうげき",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "attack, raid, assault",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "14127_shuugeki_ex1",
-      "japanese": "{銀行|ぎんこう}が{襲撃|しゅうげき}された。",
+      "japanese": "⟦{銀行|ぎんこう}→銀行：00578_ginkou⟧⟦が→が：00051_ga⟧{襲撃|しゅうげき}⟦された→する：00392_suru⟧。",
       "english": "The bank was attacked.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "14127_shuugeki_ex2",
-      "japanese": "{敵|てき}の{襲撃|しゅうげき}に{備|そな}えて{警備|けいび}を{強化|きょうか}した。",
+      "japanese": "⟦{敵|てき}→敵：03546_teki⟧⟦の→の：09472_no⟧{襲撃|しゅうげき}⟦に→に：00314_ni⟧⟦{備|そな}えて→備える：02125_sonaeru⟧⟦{警備|けいび}→警備：00208_keibi⟧⟦を→を：00422_wo⟧⟦{強化|きょうか}した→強化する：25344_kyoukasuru⟧。",
       "english": "Security was strengthened in preparation for an enemy raid.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "14127_shuugeki_ex3",
-      "japanese": "{深夜|しんや}に{襲撃|しゅうげき}を{受|う}けた{村|むら}は、{大|おお}きな{被害|ひがい}を{出|だ}した。",
+      "japanese": "⟦{深夜|しんや}→深夜：00368_shinya⟧⟦に→に：00314_ni⟧{襲撃|しゅうげき}⟦を→を：00422_wo⟧⟦{受|う}けた→受ける：01215_ukeru⟧⟦{村|むら}→村：02261_mura⟧⟦は→は：00079_ha⟧、⟦{大|おお}きな→大きな：02849_ookina⟧⟦{被害|ひがい}→被害：02572_higai⟧⟦を→を：00422_wo⟧⟦{出|だ}した→出す：01087_dasu⟧。",
       "english": "The village that was attacked late at night suffered heavy damage.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{襲撃|しゅうげき} implies a sudden, often violent attack. Compare with {攻撃|こうげき} (attack in general, including sustained military operations), which is broader in scope. {襲撃|しゅうげき} emphasizes the surprise or sudden nature of the assault.\n\nCOMMON COLLOCATIONS:\n- {襲撃|しゅうげき}する: to attack, to raid\n- {襲撃|しゅうげき}を{受|う}ける: to be attacked\n- {襲撃|しゅうげき}{事件|じけん}: attack incident\n- {襲撃|しゅうげき}に{備|そな}える: to prepare for an attack\n- テロ{襲撃|しゅうげき}: terrorist attack",
+  "notes": "USAGE:\n{襲撃|しゅうげき} implies a sudden, often violent attack. Compare with ⟦{攻撃|こうげき}→攻撃：02748_kougeki⟧ (attack in general, including sustained military operations), which is broader in scope. {襲撃|しゅうげき} emphasizes the surprise or sudden nature of the assault.\n\nCOMMON COLLOCATIONS:\n- {襲撃|しゅうげき}⟦する→する：00392_suru⟧: to attack, to raid\n- {襲撃|しゅうげき}⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧: to be attacked\n- {襲撃|しゅうげき}⟦{事件|じけん}→事件：01568_jiken⟧: attack incident\n- {襲撃|しゅうげき}⟦に→に：00314_ni⟧⟦{備|そな}える→備える：02125_sonaeru⟧: to prepare for an attack\n- テロ{襲撃|しゅうげき}: terrorist attack",
   "cross_references": [
     {
       "type": "synonym",
@@ -142,11 +142,39 @@
       "reading": "こうげき",
       "headword": "{攻撃|こうげき}",
       "label": "attack (general)"
+    },
+    {
+      "type": "related",
+      "target_id": "01915_osou",
+      "reading": "おそう",
+      "headword": "{襲|おそ}う",
+      "label": "to attack, to strike"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17077_raishuu",
+      "reading": "らいしゅう",
+      "headword": "{来襲|らいしゅう}",
+      "label": "raid"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22514_machibuseru",
+      "reading": "まちぶせる",
+      "headword": "{待|ま}ち{伏|ふ}せる",
+      "label": "to ambush"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22544_kyuushuu",
+      "reading": "きゅうしゅう",
+      "headword": "{急襲|きゅうしゅう}",
+      "label": "raid"
     }
   ],
   "metadata": {
     "created": "2026-02-28T01:15:36Z",
-    "modified": "2026-04-30T04:29:16Z",
+    "modified": "2026-09-02T04:01:36Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

@@ -3,7 +3,7 @@
   "id": "17435_ichibetsu",
   "headword": "{一瞥|いちべつ}",
   "reading": "いちべつ",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "a glance, a glimpse",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "17435_ichibetsu_ex1",
-      "japanese": "{彼|かれ}は{書類|しょるい}に{一瞥|いちべつ}をくれた。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{書類|しょるい}→書類：01103_shorui⟧⟦に→に：00314_ni⟧{一瞥|いちべつ}⟦を→を：00422_wo⟧⟦くれた→くれる：00724_kureru⟧。",
       "english": "He gave the documents a quick glance.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "17435_ichibetsu_ex2",
-      "japanese": "{一瞥|いちべつ}しただけで、{興味|きょうみ}なさそうに{立|た}ち{去|さ}った。",
+      "japanese": "{一瞥|いちべつ}⟦した→する：00392_suru⟧⟦だけ→〜だけ：03093_dake⟧で、⟦{興味|きょうみ}→興味：01316_kyoumi⟧なさそう⟦に→に：00314_ni⟧⟦{立|た}ち{去|さ}った→立ち去る：04640_tachisaru⟧。",
       "english": "After just a glance, she walked away looking uninterested.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "17435_ichibetsu_ex3",
-      "japanese": "{部屋|へや}を{一瞥|いちべつ}すると、{何|なに}かが{変|か}わっていることに{気|き}づいた。",
+      "japanese": "⟦{部屋|へや}→部屋：00507_heya⟧⟦を→を：00422_wo⟧{一瞥|いちべつ}⟦する→する：00392_suru⟧⟦と→と：00512_to⟧、⟦{何|なに}か→何か：03873_nanika⟧⟦が→が：00051_ga⟧⟦{変|か}わっている→変わる：00714_kawaru⟧こと⟦に→に：00314_ni⟧{気|き}づいた。",
       "english": "When I glanced around the room, I noticed something had changed.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,11 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA literary or formal word for a brief look. Often implies that the glance is quick and possibly dismissive. Common in written narrative and formal speech. Can be used with する (to glance) or くれる/{与|あた}える (to give a glance).\n\nCOMMON COLLOCATIONS:\n- {一瞥|いちべつ}する (to glance at)\n- {一瞥|いちべつ}をくれる (to give a glance)\n- {一瞥|いちべつ}もしない (to not even glance at)\n\nSIMILAR WORDS:\n- ちらっと{見|み}る: to glance — casual, everyday expression\n- {一瞥|いちべつ}: a glance — more literary and formal",
+  "notes": "USAGE:\nA literary or formal word for a brief look. Often implies that the glance is quick and possibly dismissive. Common in written narrative and formal speech. Can be used with ⟦する→する：00392_suru⟧ (to glance) or ⟦くれる→くれる：00724_kureru⟧/⟦{与|あた}える→与える：01821_ataeru⟧ (to give a glance).\n\nCOMMON COLLOCATIONS:\n- {一瞥|いちべつ}⟦する→する：00392_suru⟧ (to glance at)\n- {一瞥|いちべつ}⟦を→を：00422_wo⟧⟦くれる→くれる：00724_kureru⟧ (to give a glance)\n- {一瞥|いちべつ}もしない (to not even glance at)\n\nSIMILAR WORDS:\n- ちらっ⟦と→と：00512_to⟧⟦{見|み}る→見る：00283_miru⟧: to glance — casual, everyday expression\n- {一瞥|いちべつ}: a glance — more literary and formal",
   "cross_references": [],
   "metadata": {
     "created": "2026-03-17T23:23:18Z",
-    "modified": "2026-07-23T19:02:37Z",
+    "modified": "2026-09-02T04:01:48Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -155,7 +155,8 @@
         "action",
         "cognition"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

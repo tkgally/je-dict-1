@@ -3,7 +3,7 @@
   "headword": "ロマンチック",
   "reading": "ろまんちっく",
   "romaji": "romanchikku",
-  "part_of_speech": "adjective",
+  "part_of_speech": "na-adjective",
   "gloss": "romantic",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22110_romanchikku_ex1",
-      "japanese": "ロマンチックな{夜景|やけい}だ。",
+      "japanese": "ロマンチックな⟦{夜景|やけい}→夜景：10434_yakei⟧だ。",
       "english": "What a romantic night view.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22110_romanchikku_ex2",
-      "japanese": "{彼|かれ}はロマンチックなプロポーズをした。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧ロマンチックなプロポーズ⟦を→を：00422_wo⟧⟦した→する：00392_suru⟧。",
       "english": "He made a romantic proposal.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22110_romanchikku_ex3",
-      "japanese": "{夕焼|ゆうや}けに{染|そ}まった{海辺|うみべ}を{二人|ふたり}で{歩|ある}くなんて、ロマンチックですね。",
+      "japanese": "⟦{夕焼|ゆうや}け→夕焼け：05045_yuuyake⟧⟦に→に：00314_ni⟧⟦{染|そ}まった→染まる：04254_somaru⟧⟦{海辺|うみべ}→海辺：05498_umibe⟧⟦を→を：00422_wo⟧⟦{二人|ふたり}→二人：00622_futari⟧⟦で→で：00502_de⟧⟦{歩|ある}く→歩く：00538_aruku⟧⟦なんて→なんて：06918_nante⟧、ロマンチックです⟦ね→ね：09474_ne⟧。",
       "english": "Walking along the seaside at sunset together — how romantic!",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "A loanword from English \"romantic\" (via German \"romantisch\"). Functions as a na-adjective in Japanese. Very commonly used in everyday conversation, especially when describing dates, scenery, and gestures.\n\nCOMMON COLLOCATIONS:\n- ロマンチックな{雰囲気|ふんいき}: romantic atmosphere\n- ロマンチックな{場所|ばしょ}: romantic place\n- ロマンチックなディナー: romantic dinner\n- ロマンチックな{映画|えいが}: romantic movie\n\nUSAGE NOTE:\nSometimes written as ロマンティック, which is closer to the English pronunciation. Both forms are used, but ロマンチック is more established in Japanese.\n\nSIMILAR WORDS:\n- ロマンティック: romantic — variant spelling, slightly more literary\n- {甘|あま}い: sweet — can describe a romantic mood or atmosphere in casual speech\n- {情緒的|じょうちょてき}: emotional, sentimental — more formal, focuses on emotional depth rather than romantic feeling",
+  "notes": "A loanword from English \"romantic\" (via German \"romantisch\"). Functions as a na-adjective in Japanese. Very commonly used in everyday conversation, especially when describing dates, scenery, and gestures.\n\nCOMMON COLLOCATIONS:\n- ロマンチックな⟦{雰囲気|ふんいき}→雰囲気：03604_funiki⟧: romantic atmosphere\n- ロマンチックな⟦{場所|ばしょ}→場所：00829_basho⟧: romantic place\n- ロマンチックな⟦ディナー→ディナー：27996_dinaa⟧: romantic dinner\n- ロマンチックな⟦{映画|えいが}→映画：02273_eiga⟧: romantic movie\n\nUSAGE:\nSometimes written as ロマンティック, which is closer to the English pronunciation. Both forms are used, but ロマンチック is more established in Japanese.\n\nSIMILAR WORDS:\n- ロマンティック: romantic — variant spelling, slightly more literary\n- ⟦{甘|あま}い→甘い：00617_amai⟧: sweet — can describe a romantic mood or atmosphere in casual speech\n- ⟦{情緒的|じょうちょてき}→情緒的：23817_jouchoteki⟧: emotional, sentimental — more formal, focuses on emotional depth rather than romantic feeling",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00617_amai",
+      "reading": "あまい",
+      "headword": "{甘|あま}い",
+      "label": "sweet"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23817_jouchoteki",
+      "reading": "じょうちょてき",
+      "headword": "{情緒的|じょうちょてき}",
+      "label": "emotional, sentimental"
+    },
+    {
+      "type": "related",
+      "target_id": "11402_romansu",
+      "reading": "ろまんす",
+      "headword": "ロマンス",
+      "label": "romance, love affair"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +82,6 @@
       ]
     },
     "created": "2026-04-05T02:21:17Z",
-    "modified": "2026-04-10T08:28:27Z"
+    "modified": "2026-09-02T04:02:06Z"
   }
 }

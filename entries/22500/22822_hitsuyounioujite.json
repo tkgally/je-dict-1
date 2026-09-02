@@ -3,7 +3,7 @@
   "headword": "{必要|ひつよう}に{応|おう}じて",
   "reading": "ひつようにおうじて",
   "romaji": "hitsuyounioujite",
-  "part_of_speech": "expression",
+  "part_of_speech": "expression, adverb",
   "gloss": "as needed; as required; as necessary; when the need arises",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22822_hitsuyounioujite_ex1",
-      "japanese": "{必要|ひつよう}に{応|おう}じて{調整|ちょうせい}する。",
+      "japanese": "{必要|ひつよう}に{応|おう}じて⟦{調整|ちょうせい}する→調整する：10442_chouseisuru⟧。",
       "english": "I'll adjust as needed.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22822_hitsuyounioujite_ex2",
-      "japanese": "{必要|ひつよう}に{応|おう}じて{休憩|きゅうけい}を{取|と}ってください。",
+      "japanese": "{必要|ひつよう}に{応|おう}じて⟦{休憩|きゅうけい}→休憩：00262_kyuukei⟧⟦を→を：00422_wo⟧⟦{取|と}って→取る：00565_toru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please take breaks as needed.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22822_hitsuyounioujite_ex3",
-      "japanese": "{必要|ひつよう}に{応|おう}じて{専門家|せんもんか}に{相談|そうだん}することをお{勧|すす}めします。",
+      "japanese": "{必要|ひつよう}に{応|おう}じて⟦{専門家|せんもんか}→専門家：03088_senmonka⟧⟦に→に：00314_ni⟧⟦{相談|そうだん}する→相談する：01845_soudansuru⟧こと⟦を→を：00422_wo⟧お⟦{勧|すす}め→勧める：02120_susumeru⟧⟦します→する：00392_suru⟧。",
       "english": "We recommend consulting a specialist as necessary.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "A set phrase meaning \"according to necessity\" or \"when needed.\" Composed of {必要|ひつよう} (necessity) + に (particle) + {応|おう}じて (in response to; according to). Widely used in business, instructions, and official documents.\n\nCOMMON PATTERNS:\n- {必要|ひつよう}に{応|おう}じて + verb: do something as needed\n- {必要|ひつよう}に{応|おう}じた + noun: appropriate/tailored (noun)\n\nUSAGE:\nSlightly formal. Common in manuals, guidelines, workplace instructions, and official communication. In casual speech, {必要|ひつよう}なら (if necessary) is a simpler alternative.\n\nSIMILAR EXPRESSIONS:\n- {必要|ひつよう}なら: if necessary — more casual\n- {適宜|てきぎ}: as appropriate — more formal, implies using good judgment\n- {場合|ばあい}によっては: depending on the situation",
+  "notes": "A set phrase meaning \"according to necessity\" or \"when needed.\" Composed of ⟦{必要|ひつよう}→必要：00846_hitsuyou⟧ (necessity) + ⟦に→に：00314_ni⟧ (particle) + ⟦{応|おう}じて→応じる：02018_oujiru⟧ (in response to; according to). Widely used in business, instructions, and official documents.\n\nCOMMON PATTERNS:\n- {必要|ひつよう}に{応|おう}じて + verb: do something as needed\n- ⟦{必要|ひつよう}→必要：00846_hitsuyou⟧⟦に→に：00314_ni⟧⟦{応|おう}じた→応じる：02018_oujiru⟧ + noun: appropriate/tailored (noun)\n\nUSAGE:\nSlightly formal. Common in manuals, guidelines, workplace instructions, and official communication. In casual speech, ⟦{必要|ひつよう}→必要：00846_hitsuyou⟧なら (if necessary) is a simpler alternative.\n\nSIMILAR WORDS:\n- ⟦{必要|ひつよう}→必要：00846_hitsuyou⟧なら: if necessary — more casual\n- ⟦{適宜|てきぎ}→適宜：22373_tekigi⟧: as appropriate — more formal, implies using good judgment\n- ⟦{場合|ばあい}によっては→場合によっては：22761_baainiyotteha⟧: depending on the situation",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22373_tekigi",
+      "reading": "てきぎ",
+      "headword": "{適宜|てきぎ}",
+      "label": "as appropriate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22761_baainiyotteha",
+      "reading": "ばあいによっては",
+      "headword": "{場合|ばあい}によっては",
+      "label": "depending on the situation"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,11 +69,12 @@
         "expression",
         "adverb"
       ],
+      "politeness": "plain",
       "semantic": [
         "grammatical"
       ]
     },
     "created": "2026-04-07T17:09:29Z",
-    "modified": "2026-07-31T00:22:50Z"
+    "modified": "2026-09-02T04:02:09Z"
   }
 }

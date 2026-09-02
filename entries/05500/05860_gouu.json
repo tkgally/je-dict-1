@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{豪雨|ごうう} refers to very heavy rainfall, often causing flooding or damage. More intense than ⟦{大雨|おおあめ}→大雨：03015_ooame⟧.\n\nWORD FORMATION:\n⟦{豪|ごう}→豪：noentry⟧ (great, intense) + ⟦{雨|う}→雨：00583_ame⟧ (rain)\n\nCOMMON EXPRESSIONS:\n- {豪雨|ごうう}に⟦{見舞|みま}われる→見舞われる：27351_mimawareru⟧: to be hit by heavy rain\n- {豪雨|ごうう}で⟦{浸水|しんすい}→浸水：14945_shinsui⟧⟦する→する：00392_suru⟧: to be flooded by heavy rain\n\nCOMPOUNDS:\n- {豪雨|ごうう}⟦{警報|けいほう}→警報：09515_keihou⟧: heavy rain warning\n- ⟦{集中|しゅうちゅう}→集中：03212_shuuchuu⟧{豪雨|ごうう}: localized torrential rain\n- {豪雨|ごうう}⟦{災害|さいがい}→災害：09636_saigai⟧: heavy rain disaster\n- ⟦{記録的|きろくてき}→記録的：28788_kirokuteki⟧{豪雨|ごうう}: record-breaking heavy rain\n\nRAIN INTENSITY SCALE:\n- ⟦{小雨|こさめ}→小雨：05861_kosame⟧: light rain\n- ⟦{雨|あめ}→雨：00583_ame⟧: rain\n- ⟦{大雨|おおあめ}→大雨：03015_ooame⟧: heavy rain\n- {豪雨|ごうう}: torrential rain\n\nNote: Common in news reports about weather disasters.",
+  "notes": "{豪雨|ごうう} refers to very heavy rainfall, often causing flooding or damage. More intense than ⟦{大雨|おおあめ}→大雨：03015_ooame⟧.\n\nFORMS:\n⟦{豪|ごう}→豪：noentry⟧ (great, intense) + ⟦{雨|う}→雨：00583_ame⟧ (rain)\n\nCOMMON EXPRESSIONS:\n- {豪雨|ごうう}⟦に→に：00314_ni⟧⟦{見舞|みま}われる→見舞われる：27351_mimawareru⟧: to be hit by heavy rain\n- {豪雨|ごうう}⟦で→で：00502_de⟧⟦{浸水|しんすい}→浸水：14945_shinsui⟧⟦する→する：00392_suru⟧: to be flooded by heavy rain\n\nCOMPOUNDS:\n- {豪雨|ごうう}⟦{警報|けいほう}→警報：09515_keihou⟧: heavy rain warning\n- ⟦{集中|しゅうちゅう}→集中：03212_shuuchuu⟧{豪雨|ごうう}: localized torrential rain\n- {豪雨|ごうう}⟦{災害|さいがい}→災害：09636_saigai⟧: heavy rain disaster\n- ⟦{記録的|きろくてき}→記録的：28788_kirokuteki⟧{豪雨|ごうう}: record-breaking heavy rain\n\nRAIN INTENSITY SCALE:\n- ⟦{小雨|こさめ}→小雨：05861_kosame⟧: light rain\n- ⟦{雨|あめ}→雨：00583_ame⟧: rain\n- ⟦{大雨|おおあめ}→大雨：03015_ooame⟧: heavy rain\n- {豪雨|ごうう}: torrential rain\n\nNote: Common in news reports about weather disasters.",
   "cross_references": [
     {
       "type": "contrast",
@@ -58,11 +58,32 @@
       "reading": "おおあめ",
       "headword": "{大雨|おおあめ}",
       "label": "heavy rain"
+    },
+    {
+      "type": "related",
+      "target_id": "07670_boufuuu",
+      "reading": "ぼうふうう",
+      "headword": "{暴風雨|ぼうふうう}",
+      "label": "storm"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21711_kouu",
+      "reading": "こうう",
+      "headword": "{降雨|こうう}",
+      "label": "rainfall"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24555_uryou",
+      "reading": "うりょう",
+      "headword": "{雨量|うりょう}",
+      "label": "rainfall"
     }
   ],
   "metadata": {
     "created": "2026-01-16T13:54:16Z",
-    "modified": "2026-06-08T18:04:59Z",
+    "modified": "2026-09-02T04:01:07Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

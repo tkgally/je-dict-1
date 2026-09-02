@@ -3,7 +3,7 @@
   "id": "14276_arawareru",
   "headword": "{表|あらわ}れる",
   "reading": "あらわれる",
-  "part_of_speech": "verb, ichidan",
+  "part_of_speech": "verb (ichidan)",
   "gloss": "to show; to manifest; to be expressed",
   "conjugation": {
     "type": "ichidan",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "14276_arawareru_ex1",
-      "japanese": "{努力|どりょく}の{成果|せいか}が{表|あらわ}れた。",
+      "japanese": "⟦{努力|どりょく}→努力：03490_doryoku⟧⟦の→の：09472_no⟧⟦{成果|せいか}→成果：06745_seika⟧⟦が→が：00051_ga⟧{表|あらわ}れた。",
       "english": "The results of the effort showed.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "14276_arawareru_ex2",
-      "japanese": "{不安|ふあん}が{顔|かお}に{表|あらわ}れている。",
+      "japanese": "⟦{不安|ふあん}→不安：00836_fuan⟧⟦が→が：00051_ga⟧⟦{顔|かお}→顔：00558_kao⟧⟦に→に：00314_ni⟧{表|あらわ}れて⟦いる→いる：00495_iru⟧。",
       "english": "Anxiety is showing on her face.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "14276_arawareru_ex3",
-      "japanese": "{性格|せいかく}は{言葉|ことば}づかいに{表|あらわ}れるものだ。",
+      "japanese": "⟦{性格|せいかく}→性格：03371_seikaku⟧⟦は→は：00079_ha⟧⟦{言葉|ことば}づかい→言葉づかい：14167_kotobazukai⟧⟦に→に：00314_ni⟧{表|あらわ}れるものだ。",
       "english": "Personality is something that shows through in one's choice of words.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,26 @@
       ]
     }
   ],
-  "notes": "{表|あらわ}れる is an intransitive ichidan verb. The key distinction from {現|あらわ}れる is that {表|あらわ}れる is used when something abstract or internal becomes externally visible, while {現|あらわ}れる describes physical appearance or emergence.\n\nASPECT (ている):\n{表|あらわ}れている indicates that something is currently visible or showing.\n\nPARTICLE PATTERNS:\n- ～が{表|あらわ}れる (something shows/manifests)\n- ～に{表|あらわ}れる (shows in/on something)\n\nCOMMON COLLOCATIONS:\n- {効果|こうか}が{表|あらわ}れる (effects show)\n- {結果|けっか}に{表|あらわ}れる (show in the results)\n- {態度|たいど}に{表|あらわ}れる (show in one's attitude)\n- {症状|しょうじょう}が{表|あらわ}れる (symptoms manifest)\n\nSIMILAR WORDS:\n- {現|あらわ}れる: to appear, to emerge (physical appearance of a person or thing)\n- {出|で}る: to come out (more general, everyday usage)",
-  "cross_references": [],
+  "notes": "{表|あらわ}れる is an intransitive ichidan verb. The key distinction from ⟦{現|あらわ}れる→現れる：01870_arawareru⟧ is that {表|あらわ}れる is used when something abstract or internal becomes externally visible, while ⟦{現|あらわ}れる→現れる：01870_arawareru⟧ describes physical appearance or emergence.\n\nASPECT (ている):\n{表|あらわ}れて⟦いる→いる：00495_iru⟧ indicates that something is currently visible or showing.\n\nCOMMON PATTERNS:\n- ～⟦が→が：00051_ga⟧{表|あらわ}れる (something shows/manifests)\n- ～⟦に→に：00314_ni⟧{表|あらわ}れる (shows in/on something)\n\nCOMMON COLLOCATIONS:\n- ⟦{効果|こうか}→効果：02726_kouka⟧⟦が→が：00051_ga⟧{表|あらわ}れる (effects show)\n- ⟦{結果|けっか}→結果：02486_kekka⟧⟦に→に：00314_ni⟧{表|あらわ}れる (show in the results)\n- ⟦{態度|たいど}→態度：03396_taido⟧⟦に→に：00314_ni⟧{表|あらわ}れる (show in one's attitude)\n- ⟦{症状|しょうじょう}→症状：03234_shoujou⟧⟦が→が：00051_ga⟧{表|あらわ}れる (symptoms manifest)\n\nSIMILAR WORDS:\n- ⟦{現|あらわ}れる→現れる：01870_arawareru⟧: to appear, to emerge (physical appearance of a person or thing)\n- ⟦{出|で}る→出る：00513_deru⟧: to come out (more general, everyday usage)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00513_deru",
+      "reading": "でる",
+      "headword": "{出|で}る",
+      "label": "to come out"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01773_araware",
+      "reading": "あらわれ",
+      "headword": "{現|あらわ}れ",
+      "label": "manifestation, expression, indication"
+    }
+  ],
   "metadata": {
     "created": "2026-02-28T09:22:17Z",
-    "modified": "2026-04-30T06:34:37Z",
+    "modified": "2026-09-02T04:01:36Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

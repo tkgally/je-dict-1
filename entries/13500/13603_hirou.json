@@ -3,7 +3,7 @@
   "id": "13603_hirou",
   "headword": "{疲労|ひろう}",
   "reading": "ひろう",
-  "part_of_speech": "noun; verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "fatigue, weariness, exhaustion",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "13603_hirou_ex1",
-      "japanese": "{疲労|ひろう}が{溜|た}まっている。",
+      "japanese": "{疲労|ひろう}⟦が→が：00051_ga⟧⟦{溜|た}まっている→溜まる：02067_tamaru⟧。",
       "english": "Fatigue has been building up.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "13603_hirou_ex2",
-      "japanese": "{長時間|ちょうじかん}の{運転|うんてん}による{疲労|ひろう}で{事故|じこ}が{増|ふ}えている。",
+      "japanese": "⟦{長時間|ちょうじかん}→長時間：10165_choujikan⟧⟦の→の：09472_no⟧⟦{運転|うんてん}→運転：01335_unten⟧⟦による→による：28349_niyoru⟧{疲労|ひろう}⟦で→で：00502_de⟧⟦{事故|じこ}→事故：00851_jiko⟧⟦が→が：00051_ga⟧⟦{増|ふ}えている→増える：01183_fueru⟧。",
       "english": "Accidents are increasing due to fatigue from long hours of driving.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "13603_hirou_ex3",
-      "japanese": "{慢性的|まんせいてき}な{疲労|ひろう}を{感|かん}じている{人|ひと}は、{生活|せいかつ}{習慣|しゅうかん}を{見直|みなお}すことが{大切|たいせつ}です。",
+      "japanese": "{慢性的|まんせいてき}な{疲労|ひろう}⟦を→を：00422_wo⟧⟦{感|かん}じている→感じる：02044_kanjiru⟧⟦{人|ひと}→人：00476_hito⟧⟦は→は：00079_ha⟧、⟦{生活|せいかつ}{習慣|しゅうかん}→生活習慣：19568_seikatsushuukan⟧⟦を→を：00422_wo⟧⟦{見直|みなお}す→見直す：04579_minaosu⟧こと⟦が→が：00051_ga⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧です。",
       "english": "For people experiencing chronic fatigue, it is important to review their lifestyle habits.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "SIMILAR WORDS:\n- {疲|つか}れ: tiredness — everyday, casual term\n- {疲労|ひろう}: fatigue — more formal/technical, used in writing and medical contexts\n\nUSAGE:\nAlso functions as a する verb: {疲労|ひろう}する (to become fatigued). In technical contexts, {金属|きんぞく}{疲労|ひろう} (metal fatigue) refers to the weakening of materials under repeated stress.\n\nCOMMON COLLOCATIONS:\n- {疲労|ひろう}が{溜|た}まる: fatigue builds up\n- {疲労|ひろう}を{感|かん}じる: feel fatigue\n- {疲労|ひろう}{回復|かいふく}: fatigue recovery\n- {慢性|まんせい}{疲労|ひろう}: chronic fatigue\n- {疲労|ひろう}{骨折|こっせつ}: stress fracture",
+  "notes": "SIMILAR WORDS:\n- ⟦{疲|つか}れ→疲れ：03518_tsukare⟧: tiredness — everyday, casual term\n- {疲労|ひろう}: fatigue — more formal/technical, used in writing and medical contexts\n\nUSAGE:\nAlso functions as a ⟦する→する：00392_suru⟧ verb: {疲労|ひろう}⟦する→する：00392_suru⟧ (to become fatigued). In technical contexts, ⟦{金属|きんぞく}→金属：02645_kinzoku⟧{疲労|ひろう} (metal fatigue) refers to the weakening of materials under repeated stress.\n\nCOMMON COLLOCATIONS:\n- {疲労|ひろう}⟦が→が：00051_ga⟧⟦{溜|た}まる→溜まる：02067_tamaru⟧: fatigue builds up\n- {疲労|ひろう}⟦を→を：00422_wo⟧⟦{感|かん}じる→感じる：02044_kanjiru⟧: feel fatigue\n- {疲労|ひろう}⟦{回復|かいふく}→回復：03812_kaifuku⟧: fatigue recovery\n- ⟦{慢性|まんせい}→慢性：09014_mansei⟧{疲労|ひろう}: chronic fatigue\n- {疲労|ひろう}⟦{骨折|こっせつ}→骨折：02763_kossetsu⟧: stress fracture",
   "cross_references": [
     {
       "type": "synonym",
@@ -142,11 +142,39 @@
       "reading": "つかれ",
       "headword": "{疲|つか}れ",
       "label": "tiredness (everyday)"
+    },
+    {
+      "type": "related",
+      "target_id": "05023_kentaikan",
+      "reading": "けんたいかん",
+      "headword": "{倦怠感|けんたいかん}",
+      "label": "fatigue, malaise"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06003_kyodatsu",
+      "reading": "きょだつ",
+      "headword": "{虚脱|きょだつ}",
+      "label": "lethargy"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25286_natsuzukare",
+      "reading": "なつづかれ",
+      "headword": "{夏疲|なつづか}れ",
+      "label": "summer fatigue"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29849_konpai",
+      "reading": "こんぱい",
+      "headword": "{困憊|こんぱい}",
+      "label": "utter exhaustion"
     }
   ],
   "metadata": {
     "created": "2026-02-26T09:54:27Z",
-    "modified": "2026-04-29T05:15:51Z",
+    "modified": "2026-09-02T04:01:33Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

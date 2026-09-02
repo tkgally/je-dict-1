@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "14040_kaidou_ex1",
-      "japanese": "{東海道|とうかいどう}は{江戸|えど}と{京都|きょうと}を{結|むす}ぶ{街道|かいどう}だった。",
+      "japanese": "{東海道|とうかいどう}⟦は→は：00079_ha⟧⟦{江戸|えど}→江戸：19369_edo⟧⟦と→と：00512_to⟧⟦{京都|きょうと}→京都：09484_kyouto⟧⟦を→を：00422_wo⟧⟦{結|むす}ぶ→結ぶ：02308_musubu⟧{街道|かいどう}だった。",
       "english": "The Tokaido was the highway connecting Edo and Kyoto.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "14040_kaidou_ex2",
-      "japanese": "{古|ふる}い{街道|かいどう}に{沿|そ}って{宿場町|しゅくばまち}が{並|なら}んでいた。",
+      "japanese": "⟦{古|ふる}い→古い：00488_furui⟧{街道|かいどう}⟦に→に：00314_ni⟧⟦{沿|そ}って→沿う：13279_sou⟧⟦{宿場町|しゅくばまち}→宿場町：24771_shukubamachi⟧⟦が→が：00051_ga⟧⟦{並|なら}んでいた→並ぶ：00605_narabu⟧。",
       "english": "Post towns were lined up along the old highway.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "14040_kaidou_ex3",
-      "japanese": "この{街道|かいどう}は{昔|むかし}、{参勤交代|さんきんこうたい}の{大名行列|だいみょうぎょうれつ}が{通|とお}った{道|みち}として{知|し}られている。",
+      "japanese": "⟦この→この：00962_kono⟧{街道|かいどう}⟦は→は：00079_ha⟧⟦{昔|むかし}→昔：01515_mukashi⟧、⟦{参勤交代|さんきんこうたい}→参勤交代：12846_sankinkoutai⟧⟦の→の：09472_no⟧{大名行列|だいみょうぎょうれつ}⟦が→が：00051_ga⟧⟦{通|とお}った→通る：01243_tooru⟧⟦{道|みち}→道：00505_michi⟧⟦として→として：06802_toshite⟧⟦{知|し}られている→知る：00458_shiru⟧。",
       "english": "This highway is known as a road that daimyo processions used to travel along during the alternate attendance system.",
       "notes": null,
       "has_audio": false,
@@ -44,19 +44,26 @@
       ]
     }
   ],
-  "notes": "USAGE:\nPrimarily associated with historical highways, especially the five major routes ({五街道|ごかいどう}) of the Edo period. Also used figuratively in the expression {出世|しゅっせ}{街道|かいどう} (path to success).\n\nFAMOUS ROUTES:\n- {東海道|とうかいどう}: Tokaido (Edo to Kyoto along the coast)\n- {中山道|なかせんどう}: Nakasendo (Edo to Kyoto through the mountains)\n- {日光街道|にっこうかいどう}: Nikko Kaido (Edo to Nikko)\n\nFIGURATIVE USE:\n- {出世|しゅっせ}{街道|かいどう}: the road to success",
+  "notes": "USAGE:\nPrimarily associated with historical highways, especially the five major routes ({五街道|ごかいどう}) of the Edo period. Also used figuratively in the expression ⟦{出世|しゅっせ}→出世：08359_shusse⟧{街道|かいどう} (path to success).\n- ⟦{出世|しゅっせ}→出世：08359_shusse⟧{街道|かいどう}: the road to success\n\nFAMOUS ROUTES:\n- {東海道|とうかいどう}: Tokaido (Edo to Kyoto along the coast)\n- {中山道|なかせんどう}: Nakasendo (Edo to Kyoto through the mountains)\n- {日光街道|にっこうかいどう}: Nikko Kaido (Edo to Nikko)",
   "cross_references": [
     {
       "type": "related",
       "reading": "とおり",
-      "headword": "{通り|とおり}",
+      "headword": "{通|とお}り",
       "label": "street, avenue",
       "target_id": "01475_toori"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26630_bashamichi",
+      "reading": "ばしゃみち",
+      "headword": "{馬車道|ばしゃみち}",
+      "label": "carriage road"
     }
   ],
   "metadata": {
     "created": "2026-02-27T10:12:15Z",
-    "modified": "2026-08-02T12:18:13Z",
+    "modified": "2026-09-02T04:01:35Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

@@ -15,41 +15,73 @@
   "examples": [
     {
       "id": "11275_buusu_ex1",
-      "japanese": "ブースを{設置|せっち}する。",
+      "japanese": "ブース⟦を→を：00422_wo⟧⟦{設置|せっち}する→設置する：26989_secchisuru⟧。",
       "english": "To set up a booth.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11275_buusu_ex2",
-      "japanese": "{展示会|てんじかい}のブースで{新商品|しんしょうひん}を{紹介|しょうかい}した。",
+      "japanese": "⟦{展示会|てんじかい}→展示会：21869_tenjikai⟧⟦の→の：09472_no⟧ブース⟦で→で：00502_de⟧⟦{新商品|しんしょうひん}→新商品：11504_shinshouhin⟧⟦を→を：00422_wo⟧⟦{紹介|しょうかい}した→紹介する：05641_shoukaisuru⟧。",
       "english": "I introduced new products at the trade show booth.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11275_buusu_ex3",
-      "japanese": "コミケでは{朝|あさ}から{人気|にんき}サークルのブースに{長|なが}い{列|れつ}ができる。",
+      "japanese": "コミケ⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{朝|あさ}→朝：02277_asa⟧⟦から→から：00504_kara⟧⟦{人気|にんき}→人気：01488_ninki⟧⟦サークル→サークル：10933_saakuru⟧⟦の→の：09472_no⟧ブース⟦に→に：00314_ni⟧⟦{長|なが}い→長い：00491_nagai⟧⟦{列|れつ}→列：02171_retsu⟧⟦が→が：00051_ga⟧⟦できる→できる：00557_dekiru⟧。",
       "english": "At Comiket, long lines form at popular circles' booths from the morning.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "From English \"booth.\" In Japanese, ブース typically refers to a partitioned or designated space at events, exhibitions, or in offices. It is the standard loanword for trade show displays and event stalls.\n\nCOMMON COLLOCATIONS:\n- ブースを{出|だ}す (to have/run a booth at an event)\n- ブースを{設置|せっち}する (to set up a booth)\n- ブースに{立|た}ち{寄|よ}る (to stop by a booth)\n- {展示|てんじ}ブース (exhibition booth)\n- {撮影|さつえい}ブース (photo booth)\n- {電話|でんわ}ブース (phone booth)\n- {投票|とうひょう}ブース (voting booth)\n\nSIMILAR WORDS:\n- {屋台|やたい}: food stall, street stand (outdoors, traditional)\n- {売店|ばいてん}: shop counter, kiosk (permanent)\n- スタンド: stand (for displays or spectators)",
-  "cross_references": [],
+  "notes": "From English \"booth.\" In Japanese, ブース typically refers to a partitioned or designated space at events, exhibitions, or in offices. It is the standard loanword for trade show displays and event stalls.\n\nCOMMON COLLOCATIONS:\n- ブース⟦を→を：00422_wo⟧⟦{出|だ}す→出す：01087_dasu⟧ (to have/run a booth at an event)\n- ブース⟦を→を：00422_wo⟧⟦{設置|せっち}する→設置する：26989_secchisuru⟧ (to set up a booth)\n- ブース⟦に→に：00314_ni⟧⟦{立|た}ち{寄|よ}る→立ち寄る：04638_tachiyoru⟧ (to stop by a booth)\n- ⟦{展示|てんじ}→展示：12401_tenji⟧ブース (exhibition booth)\n- ⟦{撮影|さつえい}→撮影：04175_satsuei⟧ブース (photo booth)\n- ⟦{電話|でんわ}→電話：01471_denwa⟧ブース (phone booth)\n- ⟦{投票|とうひょう}→投票：03453_touhyou⟧ブース (voting booth)\n\nSIMILAR WORDS:\n- ⟦{屋台|やたい}→屋台：10549_yatai⟧: food stall, street stand (outdoors, traditional)\n- ⟦{売店|ばいてん}→売店：01493_baiten⟧: shop counter, kiosk (permanent)\n- ⟦スタンド→スタンド：00394_sutando⟧: stand (for displays or spectators)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "10549_yatai",
+      "reading": "やたい",
+      "headword": "{屋台|やたい}",
+      "label": "food stall, street stand"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01493_baiten",
+      "reading": "ばいてん",
+      "headword": "{売店|ばいてん}",
+      "label": "shop counter, kiosk"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00394_sutando",
+      "reading": "すたんど",
+      "headword": "スタンド",
+      "label": "stand"
+    }
+  ],
   "metadata": {
     "created": "2026-02-15T10:01:30Z",
-    "modified": "2026-03-31T01:51:57Z",
+    "modified": "2026-09-02T04:01:24Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

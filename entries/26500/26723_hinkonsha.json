@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26723_hinkonsha_ex1",
-      "japanese": "{貧困者|ひんこんしゃ}への{支援|しえん}が{求|もと}められている。",
+      "japanese": "{貧困者|ひんこんしゃ}⟦へ→へ：02473_he⟧⟦の→の：09472_no⟧⟦{支援|しえん}→支援：07778_shien⟧⟦が→が：00051_ga⟧⟦{求|もと}められている→求める：02316_motomeru⟧。",
       "english": "Support for the impoverished is being called for.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26723_hinkonsha_ex2",
-      "japanese": "{貧困者|ひんこんしゃ}の{割合|わりあい}は{年|ねん}々{増加|ぞうか}している。",
+      "japanese": "{貧困者|ひんこんしゃ}⟦の→の：09472_no⟧⟦{割合|わりあい}→割合：01760_wariai⟧⟦は→は：00079_ha⟧{年|ねん}々⟦{増加|ぞうか}→増加：03329_zouka⟧⟦している→する：00392_suru⟧。",
       "english": "The proportion of people in poverty is increasing year by year.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26723_hinkonsha_ex3",
-      "japanese": "NPO{団体|だんたい}が{貧困者|ひんこんしゃ}に{食料|しょくりょう}や{衣類|いるい}を{配布|はいふ}するボランティアを{行|おこな}っている。",
+      "japanese": "NPO⟦{団体|だんたい}→団体：03426_dantai⟧⟦が→が：00051_ga⟧{貧困者|ひんこんしゃ}⟦に→に：00314_ni⟧⟦{食料|しょくりょう}→食料：03250_shokuryou⟧や⟦{衣類|いるい}→衣類：04680_irui⟧⟦を→を：00422_wo⟧⟦{配布|はいふ}→配布：14410_haifu⟧⟦する→する：00392_suru⟧⟦ボランティア→ボランティア：04834_borantia⟧⟦を→を：00422_wo⟧⟦{行|おこな}っている→行う：01238_okonau⟧。",
       "english": "An NPO is running a volunteer program distributing food and clothing to the poor.",
       "sense_numbers": [
         1
@@ -44,8 +44,23 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {貧困|ひんこん} (poverty) and {者|しゃ} (person). A formal term used in social policy, news reporting, and academic discussion. In everyday conversation, {貧|まず}しい{人|ひと} is more natural.\n\nCOMMON COLLOCATIONS:\n- {貧困者|ひんこんしゃ}{支援|しえん}: poverty relief/support for the poor\n- {貧困者|ひんこんしゃ}の{救済|きゅうさい}: rescue/aid for the poor\n- {貧困者|ひんこんしゃ}{対策|たいさく}: anti-poverty measures\n\nSIMILAR WORDS:\n- {貧|まず}しい{人|ひと}: poor person — plain everyday expression\n- {生活困窮者|せいかつこんきゅうしゃ}: person in financial difficulty — official/legal term\n- {低所得者|ていしょとくしゃ}: low-income earner — a related but more specific term\n- {貧困層|ひんこんそう}: poverty class — refers to the social group as a whole",
-  "cross_references": [],
+  "notes": "Composed of ⟦{貧困|ひんこん}→貧困：04836_hinkon⟧ (poverty) and ⟦{者|しゃ}→〜者：04662_sha⟧ (person). A formal term used in social policy, news reporting, and academic discussion. In everyday conversation, ⟦{貧|まず}しい→貧しい：02349_mazushii⟧⟦{人|ひと}→人：00476_hito⟧ is more natural.\n\nCOMMON COLLOCATIONS:\n- {貧困者|ひんこんしゃ}⟦{支援|しえん}→支援：07778_shien⟧: poverty relief/support for the poor\n- {貧困者|ひんこんしゃ}⟦の→の：09472_no⟧⟦{救済|きゅうさい}→救済：12928_kyuusai⟧: rescue/aid for the poor\n- {貧困者|ひんこんしゃ}⟦{対策|たいさく}→対策：02511_taisaku⟧: anti-poverty measures\n\nSIMILAR WORDS:\n- ⟦{貧|まず}しい→貧しい：02349_mazushii⟧⟦{人|ひと}→人：00476_hito⟧: poor person — plain everyday expression\n- {生活困窮者|せいかつこんきゅうしゃ}: person in financial difficulty — official/legal term\n- ⟦{低所得者|ていしょとくしゃ}→低所得者：25124_teishotokusha⟧: low-income earner — a related but more specific term\n- ⟦{貧困層|ひんこんそう}→貧困層：18435_hinkonsou⟧: poverty class — refers to the social group as a whole",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25124_teishotokusha",
+      "reading": "ていしょとくしゃ",
+      "headword": "{低所得者|ていしょとくしゃ}",
+      "label": "low-income earner"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18435_hinkonsou",
+      "reading": "ひんこんそう",
+      "headword": "{貧困層|ひんこんそう}",
+      "label": "poverty class"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,12 +68,13 @@
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "person",
         "society"
       ]
     },
     "created": "2026-05-04T14:18:14Z",
-    "modified": "2026-08-06T12:44:19Z"
+    "modified": "2026-09-02T04:02:27Z"
   }
 }

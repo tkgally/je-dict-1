@@ -14,38 +14,66 @@
   "examples": [
     {
       "id": "08240_zentei_ex1",
-      "japanese": "それを{前提|ぜんてい}に{話|はな}す。",
+      "japanese": "⟦それ→それ：00994_sore⟧⟦を→を：00422_wo⟧{前提|ぜんてい}⟦に→に：00314_ni⟧⟦{話|はな}す→話す：00467_hanasu⟧。",
       "english": "I'll speak on that premise.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "08240_zentei_ex2",
-      "japanese": "{結婚|けっこん}を{前提|ぜんてい}に{付|つ}き{合|あ}う。",
+      "japanese": "⟦{結婚|けっこん}→結婚：02514_kekkon⟧⟦を→を：00422_wo⟧{前提|ぜんてい}⟦に→に：00314_ni⟧⟦{付|つ}き{合|あ}う→付き合う：02291_tsukiau⟧。",
       "english": "To date with marriage in mind.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "08240_zentei_ex3",
-      "japanese": "この{計画|けいかく}は{全員|ぜんいん}{参加|さんか}を{前提|ぜんてい}としている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{計画|けいかく}→計画：01172_keikaku⟧⟦は→は：00079_ha⟧⟦{全員|ぜんいん}→全員：03310_zenin⟧⟦{参加|さんか}→参加：02498_sanka⟧⟦を→を：00422_wo⟧{前提|ぜんてい}⟦として→として：06802_toshite⟧⟦いる→いる：00495_iru⟧。",
       "english": "This plan assumes everyone's participation.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "USAGE:\n- 〜を{前提|ぜんてい}に/として (on the premise of ~; assuming ~)\n- {前提|ぜんてい}{条件|じょうけん} (precondition, prerequisite)\n- {大|だい}{前提|ぜんてい} (major premise - in logic)\n\nCOMMON EXPRESSIONS:\n- {結婚|けっこん}を{前提|ぜんてい}に (with marriage in mind - said of dating)\n- {前提|ぜんてい}が{崩|くず}れる (the premise collapses)\n\nLOGIC:\nIn formal logic: {大前提|だいぜんてい} (major premise), {小前提|しょうぜんてい} (minor premise)\n\nRELATED:\n- {仮定|かてい} (assumption, hypothesis)\n- {条件|じょうけん} (condition)\n- {基|もと} (basis)",
+  "notes": "USAGE:\n- 〜⟦を→を：00422_wo⟧{前提|ぜんてい}⟦に→に：00314_ni⟧/⟦として→として：06802_toshite⟧ (on the premise of ~; assuming ~)\n- {前提|ぜんてい}{条件|じょうけん} (precondition, prerequisite)\n- {大|だい}{前提|ぜんてい} (major premise - in logic)\n\nCOMMON EXPRESSIONS:\n- ⟦{結婚|けっこん}→結婚：02514_kekkon⟧⟦を→を：00422_wo⟧{前提|ぜんてい}⟦に→に：00314_ni⟧ (with marriage in mind - said of dating)\n- {前提|ぜんてい}⟦が→が：00051_ga⟧⟦{崩|くず}れる→崩れる：04248_kuzureru⟧ (the premise collapses)\n\nLOGIC:\nIn formal logic: {大前提|だいぜんてい} (major premise), {小前提|しょうぜんてい} (minor premise)\n\nRELATED WORDS:\n- ⟦{仮定|かてい}→仮定：02601_katei⟧ (assumption, hypothesis)\n- ⟦{条件|じょうけん}→条件：03285_jouken⟧ (condition)\n- {基|もと} (basis)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "02601_katei",
+      "reading": "かてい",
+      "headword": "{仮定|かてい}",
+      "label": "assumption, hypothesis"
+    },
+    {
+      "type": "related",
+      "target_id": "03285_jouken",
+      "reading": "じょうけん",
+      "headword": "{条件|じょうけん}",
+      "label": "condition"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "semantic": ["abstract", "logic"]
+      "politeness": "plain",
+      "semantic": [
+        "abstract",
+        "logic"
+      ]
     },
     "created": "2026-01-25T09:58:37Z",
-    "modified": "2026-01-25T09:58:37Z"
+    "modified": "2026-09-02T04:01:14Z"
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "13551_iron_ex1",
-      "japanese": "{異論|いろん}はありませんか。",
+      "japanese": "{異論|いろん}⟦は→は：00079_ha⟧⟦ありません→ある：00006_aru⟧⟦か→か：09473_ka⟧。",
       "english": "Are there any objections?",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "13551_iron_ex2",
-      "japanese": "その{提案|ていあん}に{対|たい}して{異論|いろん}を{唱|とな}える{人|ひと}はいなかった。",
+      "japanese": "⟦その→その：00993_sono⟧⟦{提案|ていあん}→提案：03536_teian⟧⟦に{対|たい}して→に対して：06800_nitaishite⟧{異論|いろん}⟦を→を：00422_wo⟧⟦{唱|とな}える→唱える：10467_tonaeru⟧⟦{人|ひと}→人：00476_hito⟧はいなかった。",
       "english": "No one raised an objection to that proposal.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "13551_iron_ex3",
-      "japanese": "{委員会|いいんかい}では{異論|いろん}が{相次|あいつ}ぎ、{結論|けつろん}は{次回|じかい}に{持|も}ち{越|こ}しとなった。",
+      "japanese": "⟦{委員会|いいんかい}→委員会：12234_iinkai⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧{異論|いろん}⟦が→が：00051_ga⟧{相次|あいつ}ぎ、⟦{結論|けつろん}→結論：02704_ketsuron⟧⟦は→は：00079_ha⟧⟦{次回|じかい}→次回：13170_jikai⟧⟦に→に：00314_ni⟧{持|も}ち{越|こ}し⟦と→と：00512_to⟧⟦なった→なる：01970_naru⟧。",
       "english": "Dissenting opinions came one after another at the committee meeting, and the conclusion was carried over to the next session.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{異論|いろん} refers to a differing opinion in a discussion or debate, not a formal legal objection. It is commonly used in meetings, academic settings, and public discourse.\n\nCOMMON COLLOCATIONS:\n- {異論|いろん}を{唱|とな}える (raise an objection)\n- {異論|いろん}がない (no objections)\n- {異論|いろん}が{出|で}る (objections come up)\n- {異論|いろん}{反論|はんろん} (objections and counterarguments)\n\nSIMILAR WORDS:\n- {異議|いぎ}: formal objection or protest (used in legal and parliamentary contexts)\n- {反論|はんろん}: counterargument (directly arguing against a specific point)\n- {反対|はんたい}: opposition (broader disagreement, not just a stated opinion)",
+  "notes": "USAGE:\n{異論|いろん} refers to a differing opinion in a discussion or debate, not a formal legal objection. It is commonly used in meetings, academic settings, and public discourse.\n\nCOMMON COLLOCATIONS:\n- {異論|いろん}⟦を→を：00422_wo⟧⟦{唱|とな}える→唱える：10467_tonaeru⟧ (raise an objection)\n- {異論|いろん}⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧ (no objections)\n- {異論|いろん}⟦が→が：00051_ga⟧⟦{出|で}る→出る：00513_deru⟧ (objections come up)\n- {異論|いろん}⟦{反論|はんろん}→反論：08677_hanron⟧ (objections and counterarguments)\n\nSIMILAR WORDS:\n- ⟦{異議|いぎ}→異議：13552_igi⟧: formal objection or protest (used in legal and parliamentary contexts)\n- ⟦{反論|はんろん}→反論：08677_hanron⟧: counterargument (directly arguing against a specific point)\n- ⟦{反対|はんたい}→反対：01497_hantai⟧: opposition (broader disagreement, not just a stated opinion)",
   "cross_references": [
     {
       "type": "related",
@@ -59,11 +59,32 @@
       "reading": "いせつ",
       "headword": "{異説|いせつ}",
       "label": "alternative theory"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13552_igi",
+      "reading": "いぎ",
+      "headword": "{異議|いぎ}",
+      "label": "formal objection or protest"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01497_hantai",
+      "reading": "はんたい",
+      "headword": "{反対|はんたい}",
+      "label": "opposition"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24246_hantaiiken",
+      "reading": "はんたいいけん",
+      "headword": "{反対意見|はんたいいけん}",
+      "label": "opposing opinion"
     }
   ],
   "metadata": {
     "created": "2026-02-25T14:24:49Z",
-    "modified": "2026-05-07T07:05:50Z",
+    "modified": "2026-09-02T04:01:33Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

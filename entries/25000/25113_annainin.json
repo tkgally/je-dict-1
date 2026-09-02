@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25113_annainin_ex1",
-      "japanese": "{案内人|あんないにん}に{従|したが}ってください。",
+      "japanese": "{案内人|あんないにん}⟦に→に：00314_ni⟧⟦{従|したが}って→従う：02059_shitagau⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please follow the guide.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25113_annainin_ex2",
-      "japanese": "{地元|じもと}の{案内人|あんないにん}が{観光地|かんこうち}を{紹介|しょうかい}してくれた。",
+      "japanese": "⟦{地元|じもと}→地元：09941_jimoto⟧⟦の→の：09472_no⟧{案内人|あんないにん}⟦が→が：00051_ga⟧⟦{観光地|かんこうち}→観光地：14163_kankouchi⟧⟦を→を：00422_wo⟧⟦{紹介|しょうかい}して→紹介する：05641_shoukaisuru⟧⟦くれた→くれる：00724_kureru⟧。",
       "english": "A local guide introduced us to the tourist spots.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25113_annainin_ex3",
-      "japanese": "{山|やま}に{登|のぼ}るときは{経験豊富|けいけんほうふ}な{案内人|あんないにん}と{一緒|いっしょ}に{行|い}くのが{安全|あんぜん}だ。",
+      "japanese": "⟦{山|やま}→山：02168_yama⟧⟦に→に：00314_ni⟧⟦{登|のぼ}る→登る：00660_noboru⟧とき⟦は→は：00079_ha⟧⟦{経験豊富|けいけんほうふ}→経験豊富：19017_keikenhoufu⟧な{案内人|あんないにん}⟦と→と：00512_to⟧⟦{一緒|いっしょ}→一緒：02848_issho⟧⟦に→に：00314_ni⟧⟦{行|い}く→行く：00119_iku⟧⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦{安全|あんぜん}→安全：01131_anzen⟧だ。",
       "english": "When climbing mountains, it's safest to go with an experienced guide.",
       "sense_numbers": [
         1
@@ -44,20 +44,44 @@
       "notes": null
     }
   ],
-  "notes": "Combines {案内|あんない} (guidance, showing around) and {人|にん} (person). Refers to someone whose role is to lead, guide, or escort others. Commonly used for tour guides, mountain guides, and museum guides.\n\nCOMMON COLLOCATIONS:\n- {山岳|さんがく}{案内人|あんないにん}: mountain guide\n- {観光|かんこう}{案内人|あんないにん}: sightseeing guide\n- {案内人|あんないにん}を{頼|たの}む: to hire a guide\n- {案内人|あんないにん}なしで: without a guide\n\nSIMILAR WORDS:\n- ガイド: guide — the English loanword, used more casually and broadly\n- {案内係|あんないがかり}: guide; usher — emphasizes the job role or assigned duty\n- {案内者|あんないしゃ}: guide — more formal variant with the same meaning",
+  "notes": "Combines ⟦{案内|あんない}→案内：01291_annai⟧ (guidance, showing around) and ⟦{人|にん}→〜人：00658_nin⟧ (person). Refers to someone whose role is to lead, guide, or escort others. Commonly used for tour guides, mountain guides, and museum guides.\n\nCOMMON COLLOCATIONS:\n- ⟦{山岳|さんがく}→山岳：12522_sangaku⟧{案内人|あんないにん}: mountain guide\n- ⟦{観光|かんこう}→観光：00173_kankou⟧{案内人|あんないにん}: sightseeing guide\n- {案内人|あんないにん}⟦を→を：00422_wo⟧⟦{頼|たの}む→頼む：01104_tanomu⟧: to hire a guide\n- {案内人|あんないにん}なし⟦で→で：00502_de⟧: without a guide\n\nSIMILAR WORDS:\n- ⟦ガイド→ガイド：05116_gaido⟧: guide — the English loanword, used more casually and broadly\n- ⟦{案内係|あんないがかり}→案内係：23067_annaigakari⟧: guide; usher — emphasizes the job role or assigned duty\n- {案内者|あんないしゃ}: guide — more formal variant with the same meaning",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05116_gaido",
+      "reading": "がいど",
+      "headword": "ガイド",
+      "label": "guide"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23067_annaigakari",
+      "reading": "あんないがかり",
+      "headword": "{案内係|あんないがかり}",
+      "label": "guide"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27273_sendousha",
+      "reading": "せんどうしゃ",
+      "headword": "{先導者|せんどうしゃ}",
+      "label": "leader"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "person",
         "travel"
       ]
     },
     "created": "2026-04-23T11:19:59Z",
-    "modified": "2026-08-04T12:59:53Z"
+    "modified": "2026-09-02T04:02:21Z"
   }
 }

@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{肥料|ひりょう} is the general term for fertilizer. In gardening and agriculture, choosing the right type is important for plant health.\n\nCOMMON PATTERNS:\n・{肥料|ひりょう}⟦を→を：00422_wo⟧⟦まく→撒く：12711_maku⟧/⟦{施|ほどこ}す→施す：12985_hodokosu⟧ (spread/apply fertilizer)\n・{肥料|ひりょう}⟦を→を：00422_wo⟧⟦{与|あた}える→与える：01821_ataeru⟧ (give fertilizer)\n\nTYPES OF FERTILIZER:\n・⟦{有機|ゆうき}→有機：03643_yuuki⟧{肥料|ひりょう} (organic fertilizer)\n・⟦{化学|かがく}→化学：05336_kagaku_chem⟧{肥料|ひりょう}/⟦{化成|かせい}→化成：noentry⟧{肥料|ひりょう} (chemical fertilizer)\n・⟦{堆肥|たいひ}→堆肥：06471_taihi⟧ (compost)\n・⟦{液体|えきたい}→液体：04134_ekitai⟧{肥料|ひりょう}/⟦{液肥|えきひ}→液肥：26357_ekihi⟧ (liquid fertilizer)\n\nRELATED TERMS:\n・⟦{施肥|せひ}→施肥：26188_sehi⟧ (fertilization - the act)\n・⟦{追肥|ついひ}→追肥：08232_tsuihi⟧ (additional fertilizing)\n・⟦{元肥|もとごえ}→元肥：26356_motogoe⟧ (base fertilizer)",
+  "notes": "USAGE:\n{肥料|ひりょう} is the general term for fertilizer. In gardening and agriculture, choosing the right type is important for plant health.\n\nCOMMON PATTERNS:\n- {肥料|ひりょう}⟦を→を：00422_wo⟧⟦まく→撒く：12711_maku⟧/⟦{施|ほどこ}す→施す：12985_hodokosu⟧ (spread/apply fertilizer)\n- {肥料|ひりょう}⟦を→を：00422_wo⟧⟦{与|あた}える→与える：01821_ataeru⟧ (give fertilizer)\n\nTYPES OF FERTILIZER:\n- ⟦{有機|ゆうき}→有機：03643_yuuki⟧{肥料|ひりょう} (organic fertilizer)\n- ⟦{化学|かがく}→化学：05336_kagaku_chem⟧{肥料|ひりょう}/⟦{化成|かせい}→化成：noentry⟧{肥料|ひりょう} (chemical fertilizer)\n- ⟦{堆肥|たいひ}→堆肥：06471_taihi⟧ (compost)\n- ⟦{液体|えきたい}→液体：04134_ekitai⟧{肥料|ひりょう}/⟦{液肥|えきひ}→液肥：26357_ekihi⟧ (liquid fertilizer)\n\nRELATED WORDS:\n- ⟦{施肥|せひ}→施肥：26188_sehi⟧ (fertilization - the act)\n- ⟦{追肥|ついひ}→追肥：08232_tsuihi⟧ (additional fertilizing)\n- ⟦{元肥|もとごえ}→元肥：26356_motogoe⟧ (base fertilizer)",
   "cross_references": [
     {
       "type": "related",
@@ -51,11 +51,60 @@
       "headword": "{堆肥|たいひ}",
       "label": "compost",
       "target_id": "06471_taihi"
+    },
+    {
+      "type": "related",
+      "target_id": "26188_sehi",
+      "reading": "せひ",
+      "headword": "{施肥|せひ}",
+      "label": "fertilization"
+    },
+    {
+      "type": "related",
+      "target_id": "08232_tsuihi",
+      "reading": "ついひ",
+      "headword": "{追肥|ついひ}",
+      "label": "additional fertilizing"
+    },
+    {
+      "type": "related",
+      "target_id": "26356_motogoe",
+      "reading": "もとごえ",
+      "headword": "{元肥|もとごえ}",
+      "label": "base fertilizer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19666_shiryou",
+      "reading": "しりょう",
+      "headword": "{飼料|しりょう}",
+      "label": "animal feed"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26551_oigoe",
+      "reading": "おいごえ",
+      "headword": "{追|お}い{肥|ごえ}",
+      "label": "additional fertilizer"
+    },
+    {
+      "type": "related",
+      "target_id": "29825_taihika",
+      "reading": "たいひか",
+      "headword": "{堆肥化|たいひか}",
+      "label": "composting"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30665_koyashi",
+      "reading": "こやし",
+      "headword": "{肥|こ}やし",
+      "label": "manure"
     }
   ],
   "metadata": {
     "created": "2026-01-17T03:13:44Z",
-    "modified": "2026-06-13T06:38:32Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

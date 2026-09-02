@@ -3,7 +3,7 @@
   "headword": "{履行|りこう}する",
   "reading": "りこうする",
   "romaji": "rikousuru",
-  "part_of_speech": "noun, suru verb, transitive",
+  "part_of_speech": "noun, suru verb (transitive)",
   "gloss": "to fulfill; to carry out; to perform",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "20155_rikousuru_ex1",
-      "japanese": "{契約|けいやく}を{履行|りこう}する。",
+      "japanese": "⟦{契約|けいやく}→契約：02698_keiyaku⟧⟦を→を：00422_wo⟧{履行|りこう}する。",
       "english": "To fulfill a contract.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "20155_rikousuru_ex2",
-      "japanese": "{約束|やくそく}を{履行|りこう}しなければならない。",
+      "japanese": "⟦{約束|やくそく}→約束：01517_yakusoku⟧⟦を→を：00422_wo⟧{履行|りこう}し⟦なければならない→なければならない：27600_nakerebanaranai⟧。",
       "english": "One must fulfill one's promises.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "20155_rikousuru_ex3",
-      "japanese": "{相手方|あいてがた}が{義務|ぎむ}を{履行|りこう}しない{場合|ばあい}、{損害賠償|そんがいばいしょう}を{請求|せいきゅう}できる。",
+      "japanese": "{相手方|あいてがた}⟦が→が：00051_ga⟧⟦{義務|ぎむ}→義務：02647_gimu⟧⟦を→を：00422_wo⟧{履行|りこう}しない⟦{場合|ばあい}→場合：01704_baai⟧、{損害賠償|そんがいばいしょう}⟦を→を：00422_wo⟧⟦{請求|せいきゅう}できる→請求する：26988_seikyuusuru⟧。",
       "english": "If the other party does not fulfill their obligations, you can claim damages.",
       "sense_numbers": [
         1
@@ -134,8 +134,31 @@
       "notes": null
     }
   ],
-  "notes": "A する-verb from {履行|りこう}, a compound of {履|り} (carry out, step on) and {行|こう} (perform, go). A formal word most often found in legal, contractual, and official contexts. Not typically used in casual conversation.\n\nTRANSITIVITY:\nTransitive — takes を to mark the obligation being fulfilled.\n\nCOMMON COLLOCATIONS:\n- {契約|けいやく}を{履行|りこう}する — to fulfill a contract\n- {義務|ぎむ}を{履行|りこう}する — to perform a duty\n- {債務|さいむ}{履行|りこう} — performance of debt obligations\n- {履行|りこう}{期限|きげん} — deadline for performance\n\nSIMILAR WORDS:\n- {遂行|すいこう}する — to accomplish, to execute (focuses on carrying through to completion)\n- {実行|じっこう}する — to execute, to carry out (more general, less formal)\n- {果|は}たす — to fulfill, to accomplish (native Japanese, usable in casual contexts)",
+  "notes": "A ⟦する→する：00392_suru⟧-verb from ⟦{履行|りこう}→履行：15293_rikou⟧, a compound of {履|り} (carry out, step on) and {行|こう} (perform, go). A formal word most often found in legal, contractual, and official contexts. Not typically used in casual conversation.\n\nTRANSITIVITY:\nTransitive — takes ⟦を→を：00422_wo⟧ to mark the obligation being fulfilled.\n\nCOMMON COLLOCATIONS:\n- ⟦{契約|けいやく}→契約：02698_keiyaku⟧⟦を→を：00422_wo⟧{履行|りこう}する — to fulfill a contract\n- ⟦{義務|ぎむ}→義務：02647_gimu⟧⟦を→を：00422_wo⟧{履行|りこう}する — to perform a duty\n- ⟦{債務|さいむ}→債務：06578_saimu⟧⟦{履行|りこう}→履行：15293_rikou⟧ — performance of debt obligations\n- ⟦{履行|りこう}→履行：15293_rikou⟧⟦{期限|きげん}→期限：12861_kigen⟧ — deadline for performance\n\nSIMILAR WORDS:\n- ⟦{遂行|すいこう}する→遂行する：20156_suikousuru⟧ — to accomplish, to execute (focuses on carrying through to completion)\n- ⟦{実行|じっこう}する→実行する：22146_jikkousuru⟧ — to execute, to carry out (more general, less formal)\n- ⟦{果|は}たす→果たす：10060_hatasu⟧ — to fulfill, to accomplish (native Japanese, usable in casual contexts)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20156_suikousuru",
+      "reading": "すいこうする",
+      "headword": "{遂行|すいこう}する",
+      "label": "to accomplish, to execute"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22146_jikkousuru",
+      "reading": "じっこうする",
+      "headword": "{実行|じっこう}する",
+      "label": "to execute, to carry out"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10060_hatasu",
+      "reading": "はたす",
+      "headword": "{果|は}たす",
+      "label": "to fulfill, to accomplish"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -152,6 +175,6 @@
       "verb_class": "suru"
     },
     "created": "2026-03-28T15:12:49Z",
-    "modified": "2026-03-28T15:12:49Z"
+    "modified": "2026-09-02T04:01:58Z"
   }
 }

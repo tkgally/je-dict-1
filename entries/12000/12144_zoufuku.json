@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "12144_zoufuku_ex1",
-      "japanese": "{音|おと}を{増幅|ぞうふく}する。",
+      "japanese": "⟦{音|おと}→音：00743_oto⟧⟦を→を：00422_wo⟧{増幅|ぞうふく}⟦する→する：00392_suru⟧。",
       "english": "To amplify sound.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "12144_zoufuku_ex2",
-      "japanese": "SNSがうわさを{増幅|ぞうふく}させた。",
+      "japanese": "SNS⟦が→が：00051_ga⟧うわさ⟦を→を：00422_wo⟧{増幅|ぞうふく}⟦させた→する：00392_suru⟧。",
       "english": "Social media amplified the rumor.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "12144_zoufuku_ex3",
-      "japanese": "メディアの{報道|ほうどう}が{人々|ひとびと}の{不安|ふあん}を{増幅|ぞうふく}させ、パニックにつながった。",
+      "japanese": "⟦メディア→メディア：11165_media⟧⟦の→の：09472_no⟧⟦{報道|ほうどう}→報道：04438_houdou⟧⟦が→が：00051_ga⟧⟦{人々|ひとびと}→人々：03141_hitobito⟧⟦の→の：09472_no⟧⟦{不安|ふあん}→不安：00836_fuan⟧⟦を→を：00422_wo⟧{増幅|ぞうふく}⟦させ→する：00392_suru⟧、⟦パニック→パニック：11171_panikku⟧⟦に→に：00314_ni⟧つながった。",
       "english": "Media coverage amplified people's anxiety, leading to panic.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,11 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{増幅|ぞうふく} can be used both technically (electronics, audio) and figuratively (emotions, social phenomena). In its figurative use, it often describes how something negative — fear, anxiety, rumors — gets magnified, especially through media or social dynamics.\n\nCOMMON COLLOCATIONS:\n- {音|おと}を{増幅|ぞうふく}する: to amplify sound\n- {信号|しんごう}を{増幅|ぞうふく}する: to amplify a signal\n- {不安|ふあん}を{増幅|ぞうふく}させる: to amplify anxiety\n- {増幅|ぞうふく}{器|き}: amplifier (device)",
+  "notes": "USAGE:\n{増幅|ぞうふく} can be used both technically (electronics, audio) and figuratively (emotions, social phenomena). In its figurative use, it often describes how something negative — fear, anxiety, rumors — gets magnified, especially through media or social dynamics.\n\nCOMMON COLLOCATIONS:\n- ⟦{音|おと}→音：00743_oto⟧⟦を→を：00422_wo⟧{増幅|ぞうふく}⟦する→する：00392_suru⟧: to amplify sound\n- ⟦{信号|しんごう}→信号：03258_shingou⟧⟦を→を：00422_wo⟧{増幅|ぞうふく}⟦する→する：00392_suru⟧: to amplify a signal\n- ⟦{不安|ふあん}→不安：00836_fuan⟧⟦を→を：00422_wo⟧{増幅|ぞうふく}⟦させる→する：00392_suru⟧: to amplify anxiety\n- {増幅|ぞうふく}{器|き}: amplifier (device)",
   "cross_references": [],
   "metadata": {
     "created": "2026-02-20T09:00:24Z",
-    "modified": "2026-03-29T03:07:35Z",
+    "modified": "2026-09-02T04:01:27Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -154,7 +154,8 @@
       "domain": [
         "technical"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

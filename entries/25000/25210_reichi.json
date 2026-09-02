@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "25210_reichi_ex1",
-      "japanese": "この{山|やま}は{古|ふる}くからの{霊地|れいち}だ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{山|やま}→山：02168_yama⟧⟦は→は：00079_ha⟧⟦{古|ふる}く→古い：00488_furui⟧⟦から→から：00504_kara⟧⟦の→の：09472_no⟧{霊地|れいち}だ。",
       "english": "This mountain has been a sacred place since ancient times.",
       "has_audio": false,
       "sense_numbers": [
@@ -24,7 +24,7 @@
     },
     {
       "id": "25210_reichi_ex2",
-      "japanese": "{霊地|れいち}を{巡|めぐ}る{旅|たび}に{出|で}た。",
+      "japanese": "{霊地|れいち}⟦を→を：00422_wo⟧⟦{巡|めぐ}る→巡る：03930_meguru⟧⟦{旅|たび}→旅：03407_tabi⟧⟦に→に：00314_ni⟧⟦{出|で}た→出る：00513_deru⟧。",
       "english": "I set out on a journey visiting sacred places.",
       "has_audio": false,
       "sense_numbers": [
@@ -34,7 +34,7 @@
     },
     {
       "id": "25210_reichi_ex3",
-      "japanese": "{熊野|くまの}は{日本|にほん}を{代表|だいひょう}する{霊地|れいち}のひとつで、{多|おお}くの{巡礼者|じゅんれいしゃ}が{訪|おとず}れる。",
+      "japanese": "{熊野|くまの}⟦は→は：00079_ha⟧⟦{日本|にほん}→日本：03876_nihon⟧⟦を→を：00422_wo⟧⟦{代表|だいひょう}→代表：03419_daihyou⟧⟦する→する：00392_suru⟧{霊地|れいち}⟦の→の：09472_no⟧ひとつで、{多|おお}く⟦の→の：09472_no⟧{巡礼者|じゅんれいしゃ}⟦が→が：00051_ga⟧⟦{訪|おとず}れる→訪れる：07678_otozureru⟧。",
       "english": "Kumano is one of Japan's most renowned sacred places, and many pilgrims visit there.",
       "has_audio": false,
       "sense_numbers": [
@@ -43,11 +43,26 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {霊|れい} (spirit, soul) + {地|ち} (place, ground). Refers to locations believed to have spiritual power or divine significance in Shinto, Buddhism, or folk religion.\n\nCULTURAL NOTE:\nJapan has many famous {霊地|れいち}, including mountain peaks, ancient forests, waterfalls, and temple/shrine complexes. These are often destinations for pilgrimage ({巡礼|じゅんれい}) and spiritual practice ({修行|しゅぎょう}). Examples include {高野山|こうやさん}, {熊野|くまの}, and {出羽三山|でわさんざん}.\n\nCOMMON COLLOCATIONS:\n- {霊地|れいち}を{巡|めぐ}る: to visit sacred places\n- {霊地|れいち}{巡礼|じゅんれい}: pilgrimage to sacred places\n- {古|いにしえ}の{霊地|れいち}: an ancient holy site\n\nSIMILAR WORDS:\n- {聖地|せいち}: holy land, sacred place — often used for both religious and secular \"mecca\" (e.g., anime pilgrimage sites)\n- {霊場|れいじょう}: sacred place of worship — specifically a pilgrimage site, often part of a numbered circuit\n- {霊山|れいざん}: sacred mountain",
-  "cross_references": [],
+  "notes": "Composed of ⟦{霊|れい}→霊：14667_rei⟧ (spirit, soul) + {地|ち} (place, ground). Refers to locations believed to have spiritual power or divine significance in Shinto, Buddhism, or folk religion.\n\nCULTURAL NOTE:\nJapan has many famous {霊地|れいち}, including mountain peaks, ancient forests, waterfalls, and temple/shrine complexes. These are often destinations for pilgrimage (⟦{巡礼|じゅんれい}→巡礼：10662_junrei⟧) and spiritual practice (⟦{修行|しゅぎょう}→修行：05522_shugyou⟧). Examples include {高野山|こうやさん}, {熊野|くまの}, and {出羽三山|でわさんざん}.\n\nCOMMON COLLOCATIONS:\n- {霊地|れいち}⟦を→を：00422_wo⟧⟦{巡|めぐ}る→巡る：03930_meguru⟧: to visit sacred places\n- {霊地|れいち}⟦{巡礼|じゅんれい}→巡礼：10662_junrei⟧: pilgrimage to sacred places\n- {古|いにしえ}⟦の→の：09472_no⟧{霊地|れいち}: an ancient holy site\n\nSIMILAR WORDS:\n- ⟦{聖地|せいち}→聖地：18255_seichi⟧: holy land, sacred place — often used for both religious and secular \"mecca\" (e.g., anime pilgrimage sites)\n- ⟦{霊場|れいじょう}→霊場：14866_reijou⟧: sacred place of worship — specifically a pilgrimage site, often part of a numbered circuit\n- {霊山|れいざん}: sacred mountain",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18255_seichi",
+      "reading": "せいち",
+      "headword": "{聖地|せいち}",
+      "label": "holy land, sacred place"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14866_reijou",
+      "reading": "れいじょう",
+      "headword": "{霊場|れいじょう}",
+      "label": "sacred place of worship"
+    }
+  ],
   "metadata": {
     "created": "2026-04-23T14:45:45Z",
-    "modified": "2026-08-04T12:59:53Z",
+    "modified": "2026-09-02T04:02:21Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",

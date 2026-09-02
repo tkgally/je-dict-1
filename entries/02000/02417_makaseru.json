@@ -2,7 +2,7 @@
   "id": "02417_makaseru",
   "headword": "{任|まか}せる",
   "reading": "まかせる",
-  "part_of_speech": "ichidan verb",
+  "part_of_speech": "verb (ichidan)",
   "gloss": "to entrust, to leave to",
   "conjugation": {
     "type": "ichidan",
@@ -189,7 +189,7 @@
     },
     {
       "id": "02417_makaseru_ex9",
-      "japanese": "⟦{料理|りょうり}→料理：01523_ryouri⟧⟦は→は：00079_ha⟧⟦{彼|かれ}→彼：01292_kare⟧⟦に→に：00314_ni⟧{任|まか}せてある。",
+      "japanese": "⟦{料理|りょうり}→料理：01523_ryouri⟧⟦は→は：00079_ha⟧⟦{彼|かれ}→彼：01292_kare⟧⟦に→に：00314_ni⟧{任|まか}せて⟦ある→ある：00006_aru⟧。",
       "english": "The cooking has been entrusted to him.",
       "notes": null,
       "has_audio": false,
@@ -208,7 +208,7 @@
       ]
     }
   ],
-  "notes": "{任|まか}せる is a transitive ichidan verb meaning to entrust something to someone or let something take its course.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- Pattern: [person]に〜を{任|まか}せる\n\nTWO MAIN MEANINGS:\n1. To entrust to a person: ⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦を→を：00422_wo⟧{任|まか}せる (entrust work)\n2. To leave to fate/nature: ⟦{流|なが}れ→流れ：03504_nagare⟧⟦に→に：00314_ni⟧{任|まか}せる (go with the flow)\n\nCOMMON EXPRESSIONS:\n- ⟦お{任|まか}せ→おまかせ：08310_omakase⟧⟦します→する：00392_suru⟧: I'll leave it to you (polite, often at restaurants)\n- {任|まか}せて!: Leave it to me!\n- ⟦{運|うん}→運：02143_un⟧⟦を→を：00422_wo⟧⟦{天|てん}→天：noentry⟧⟦に→に：00314_ni⟧{任|まか}せる: to leave it to fate\n- ⟦{成|な}り{行|ゆ}き→成り行き：07311_nariyuki⟧⟦に→に：00314_ni⟧{任|まか}せる: to let things take their course\n- ⟦{自然|しぜん}→自然：01423_shizen⟧⟦に→に：00314_ni⟧{任|まか}せる: to let nature take its course\n\nRESTAURANT USAGE:\n⟦お{任|まか}せ→おまかせ：08310_omakase⟧ means \"chef's choice\" - the chef decides what to serve.",
+  "notes": "{任|まか}せる is a transitive ichidan verb meaning to entrust something to someone or let something take its course.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- Pattern: [person]⟦に→に：00314_ni⟧〜⟦を→を：00422_wo⟧{任|まか}せる\n\nTWO MAIN MEANINGS:\n1. To entrust to a person: ⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦を→を：00422_wo⟧{任|まか}せる (entrust work)\n2. To leave to fate/nature: ⟦{流|なが}れ→流れ：03504_nagare⟧⟦に→に：00314_ni⟧{任|まか}せる (go with the flow)\n\nCOMMON EXPRESSIONS:\n- ⟦お{任|まか}せ→おまかせ：08310_omakase⟧⟦します→する：00392_suru⟧: I'll leave it to you (polite, often at restaurants)\n- {任|まか}せて!: Leave it to me!\n- ⟦{運|うん}→運：02143_un⟧⟦を→を：00422_wo⟧⟦{天|てん}→天：noentry⟧⟦に→に：00314_ni⟧{任|まか}せる: to leave it to fate\n- ⟦{成|な}り{行|ゆ}き→成り行き：07311_nariyuki⟧⟦に→に：00314_ni⟧{任|まか}せる: to let things take their course\n- ⟦{自然|しぜん}→自然：01423_shizen⟧⟦に→に：00314_ni⟧{任|まか}せる: to let nature take its course\n\nRESTAURANT USAGE:\n⟦お{任|まか}せ→おまかせ：08310_omakase⟧ means \"chef's choice\" - the chef decides what to serve.",
   "cross_references": [
     {
       "type": "synonym",
@@ -216,11 +216,25 @@
       "reading": "ゆだねる",
       "headword": "{委|ゆだ}ねる",
       "label": "formal, literary"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22988_shinraisuru",
+      "reading": "しんらいする",
+      "headword": "{信頼|しんらい}する",
+      "label": "to trust"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27012_ininsuru",
+      "reading": "いにんする",
+      "headword": "{委任|いにん}する",
+      "label": "to entrust"
     }
   ],
   "metadata": {
     "created": "2026-01-09T08:57:17Z",
-    "modified": "2026-05-20T18:10:01Z",
+    "modified": "2026-09-02T04:01:01Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "core",
     "tags": {

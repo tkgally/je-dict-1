@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29053_purezenteeshon_ex1",
-      "japanese": "プレゼンテーションの{準備|じゅんび}をする。",
+      "japanese": "プレゼンテーション⟦の→の：09472_no⟧⟦{準備|じゅんび}→準備：01431_junbi⟧⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧。",
       "english": "I prepare for the presentation.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29053_purezenteeshon_ex2",
-      "japanese": "プレゼンテーションがうまくいって{安堵|あんど}した。",
+      "japanese": "プレゼンテーション⟦が→が：00051_ga⟧⟦うまく→うまい：01279_umai⟧いって⟦{安堵|あんど}した→安堵する：15624_andosuru⟧。",
       "english": "I was relieved that the presentation went well.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29053_purezenteeshon_ex3",
-      "japanese": "{会議|かいぎ}では{新|あたら}しいプロジェクトについてプレゼンテーションを{行|おこな}い、{参加者|さんかしゃ}から{多|おお}くの{質問|しつもん}を{受|う}けた。",
+      "japanese": "⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦プロジェクト→プロジェクト：06764_purojekuto⟧⟦について→〜について：03103_nitsuite⟧プレゼンテーション⟦を→を：00422_wo⟧⟦{行|おこな}い→行う：01238_okonau⟧、⟦{参加者|さんかしゃ}→参加者：03059_sankasha⟧⟦から→から：00504_kara⟧{多|おお}く⟦の→の：09472_no⟧⟦{質問|しつもん}→質問：00888_shitsumon⟧⟦を→を：00422_wo⟧⟦{受|う}けた→受ける：01215_ukeru⟧。",
       "english": "At the meeting, I gave a presentation on the new project and received many questions from the participants.",
       "sense_numbers": [
         1
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "Loanword from English 'presentation'. Commonly shortened to プレゼン in informal speech and writing. The full form プレゼンテーション is used in more formal contexts.\n\nCOMMON COLLOCATIONS:\n- プレゼンテーションをする／{行|おこな}う: to give a presentation\n- プレゼンテーションの{準備|じゅんび}: presentation preparation\n- プレゼンテーション{資料|しりょう}: presentation materials/slides\n- プレゼンテーションスキル: presentation skills\n\nSIMILAR WORDS:\n- プレゼン: the common informal abbreviation; interchangeable in most contexts\n- {発表|はっぴょう}: announcement, presentation — broader term covering academic or public presentations, reports, and announcements",
+  "notes": "Loanword from English 'presentation'. Commonly shortened to ⟦プレゼン→プレゼン：05505_purezen⟧ in informal speech and writing. The full form プレゼンテーション is used in more formal contexts.\n\nCOMMON COLLOCATIONS:\n- プレゼンテーション⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧／⟦{行|おこな}う→行う：01238_okonau⟧: to give a presentation\n- プレゼンテーション⟦の→の：09472_no⟧⟦{準備|じゅんび}→準備：01431_junbi⟧: presentation preparation\n- プレゼンテーション⟦{資料|しりょう}→資料：04166_shiryou⟧: presentation materials/slides\n- プレゼンテーション⟦スキル→スキル：08815_sukiru⟧: presentation skills\n\nSIMILAR WORDS:\n- ⟦プレゼン→プレゼン：05505_purezen⟧: the common informal abbreviation; interchangeable in most contexts\n- ⟦{発表|はっぴょう}→発表：03562_happyou⟧: announcement, presentation — broader term covering academic or public presentations, reports, and announcements",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "05505_purezen",
+      "reading": "ぷれぜん",
+      "headword": "プレゼン",
+      "label": "the common informal abbreviation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03562_happyou",
+      "reading": "はっぴょう",
+      "headword": "{発表|はっぴょう}",
+      "label": "announcement, presentation"
+    },
+    {
+      "type": "related",
+      "target_id": "05754_moritsuke",
+      "reading": "もりつけ",
+      "headword": "{盛|も}り{付|つ}け",
+      "label": "food arrangement"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24471_koutouhappyou",
+      "reading": "こうとうはっぴょう",
+      "headword": "{口頭|こうとう}{発表|はっぴょう}",
+      "label": "oral presentation"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +83,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "work",
         "communication"
@@ -63,6 +93,6 @@
       ]
     },
     "created": "2026-06-09T17:38:56Z",
-    "modified": "2026-06-09T17:38:56Z"
+    "modified": "2026-09-02T04:02:35Z"
   }
 }

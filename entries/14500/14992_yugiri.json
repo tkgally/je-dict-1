@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "14992_yugiri_ex1",
-      "japanese": "{麺|めん}の{湯切|ゆぎ}りをする。",
+      "japanese": "⟦{麺|めん}→麺：14644_men⟧⟦の→の：09472_no⟧{湯切|ゆぎ}り⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧。",
       "english": "Drain the hot water from the noodles.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "14992_yugiri_ex2",
-      "japanese": "{湯切|ゆぎ}りが{甘|あま}いとスープが{薄|うす}くなる。",
+      "japanese": "{湯切|ゆぎ}り⟦が→が：00051_ga⟧⟦{甘|あま}い→甘い：00617_amai⟧⟦と→と：00512_to⟧⟦スープ→スープ：00395_suupu⟧⟦が→が：00051_ga⟧⟦{薄|うす}く→薄い：00764_usui⟧⟦なる→なる：01970_naru⟧。",
       "english": "If you don't drain the water thoroughly, the broth will become watery.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "14992_yugiri_ex3",
-      "japanese": "ラーメン{屋|や}の{店主|てんしゅ}が{豪快|ごうかい}に{湯切|ゆぎ}りをしている{姿|すがた}はかっこいい。",
+      "japanese": "⟦ラーメン→ラーメン：05181_raamen⟧⟦{屋|や}→〜屋：03096_ya⟧⟦の→の：09472_no⟧⟦{店主|てんしゅ}→店主：12451_tenshu⟧⟦が→が：00051_ga⟧⟦{豪快|ごうかい}→豪快：14228_goukai⟧⟦に→に：00314_ni⟧{湯切|ゆぎ}り⟦を→を：00422_wo⟧⟦している→する：00392_suru⟧⟦{姿|すがた}→姿：03363_sugata⟧⟦は→は：00079_ha⟧⟦かっこいい→かっこいい：09378_kakkoii⟧。",
       "english": "It looks cool when a ramen shop owner does a vigorous noodle draining.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,26 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{湯切|ゆぎ}り is commonly associated with ramen preparation, where the cook lifts noodles from boiling water in a strainer and shakes off excess water before placing them in the broth. The quality of {湯切|ゆぎ}り affects the final taste of the dish.\n\nCOMMON COLLOCATIONS:\n- {湯切|ゆぎ}りをする (to drain hot water)\n- {湯切|ゆぎ}りが{甘|あま}い (draining is insufficient)\n- しっかり{湯切|ゆぎ}りする (to drain thoroughly)\n\nRELATED WORDS:\n- {水切|みずき}り: draining water (cold)\n- {茹|ゆ}でる: to boil",
-  "cross_references": [],
+  "notes": "USAGE:\n{湯切|ゆぎ}り is commonly associated with ramen preparation, where the cook lifts noodles from boiling water in a strainer and shakes off excess water before placing them in the broth. The quality of {湯切|ゆぎ}り affects the final taste of the dish.\n\nCOMMON COLLOCATIONS:\n- {湯切|ゆぎ}り⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧ (to drain hot water)\n- {湯切|ゆぎ}り⟦が→が：00051_ga⟧⟦{甘|あま}い→甘い：00617_amai⟧ (draining is insufficient)\n- ⟦しっかり→しっかり：01272_shikkari⟧{湯切|ゆぎ}り⟦する→する：00392_suru⟧ (to drain thoroughly)\n\nRELATED WORDS:\n- ⟦{水切|みずき}り→水切り：08573_mizukiri⟧: draining water (cold)\n- ⟦{茹|ゆ}でる→茹でる：02324_yuderu⟧: to boil",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "08573_mizukiri",
+      "reading": "みずきり",
+      "headword": "{水切|みずき}り",
+      "label": "draining water"
+    },
+    {
+      "type": "related",
+      "target_id": "02324_yuderu",
+      "reading": "ゆでる",
+      "headword": "{茹|ゆ}でる",
+      "label": "to boil"
+    }
+  ],
   "metadata": {
     "created": "2026-03-04T11:07:29Z",
-    "modified": "2026-03-04T11:07:29Z",
+    "modified": "2026-09-02T04:01:39Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

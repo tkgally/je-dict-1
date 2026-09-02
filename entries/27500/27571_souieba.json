@@ -3,7 +3,7 @@
   "headword": "そういえば",
   "reading": "そういえば",
   "romaji": "souieba",
-  "part_of_speech": "expression",
+  "part_of_speech": "expression, conjunction",
   "gloss": "speaking of which; come to think of it; that reminds me",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "27571_souieba_ex1",
-      "japanese": "そういえば、{昨日|きのう}{彼|かれ}に{会|あ}ったよ。",
+      "japanese": "そういえば、⟦{昨日|きのう}→昨日：00859_kinou⟧⟦{彼|かれ}→彼：01292_kare⟧⟦に→に：00314_ni⟧⟦{会|あ}った→会う：00482_au⟧⟦よ→よ：09475_yo⟧。",
       "english": "Come to think of it, I ran into him yesterday.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "27571_souieba_ex2",
-      "japanese": "そういえば、{宿題|しゅくだい}{出|だ}した?",
+      "japanese": "そういえば、⟦{宿題|しゅくだい}→宿題：00812_shukudai⟧⟦{出|だ}した→出す：01087_dasu⟧?",
       "english": "By the way, did you turn in the homework?",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "27571_souieba_ex3",
-      "japanese": "そういえば、{来週|らいしゅう}の{会議|かいぎ}の{場所|ばしょ}が{変|か}わったって{聞|き}いた{気|き}がする。",
+      "japanese": "そういえば、⟦{来週|らいしゅう}→来週：00746_raishuu⟧⟦の→の：09472_no⟧⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦の→の：09472_no⟧⟦{場所|ばしょ}→場所：00829_basho⟧⟦が→が：00051_ga⟧⟦{変|か}わった→変わる：00714_kawaru⟧⟦って→って：29146_tte⟧⟦{聞|き}いた→聞く：00483_kiku⟧⟦{気|き}→気：02199_ki⟧⟦が→が：00051_ga⟧⟦する→する：00392_suru⟧。",
       "english": "Come to think of it, I think I heard the location of next week's meeting has changed.",
       "sense_numbers": [
         1
@@ -44,8 +44,45 @@
       "notes": null
     }
   ],
-  "notes": "Literally 'if (one) says so' — そう (so/that way) + {言|い}えば (if one says). Used when the current topic prompts the speaker to recall something related. The follow-up is usually loosely connected to what was just said.\n\nGRAMMAR:\n- Sentence-initial only, followed by a comma.\n- Often paired with けど or んだけど before stating the new point.\n\nCOMMON COLLOCATIONS:\n- そういえば、{昔|むかし}…: come to think of it, in the old days …\n- そういえば、{聞|き}いた?: speaking of which, did you hear?\n- そういえば、そうだね: oh yeah, that's true (when reminded of something)\n\nSIMILAR WORDS:\n- ところで: by the way (deliberate topic change, not necessarily reminded by context)\n- それはそうと: by the way; that aside (more deliberate shift away from current topic)\n- ちなみに: incidentally; for your information (adds related info)",
+  "notes": "Literally 'if (one) says so' — そう (so/that way) + ⟦{言|い}えば→言う：00515_iu⟧ (if one says). Used when the current topic prompts the speaker to recall something related. The follow-up is usually loosely connected to what was just said.\n\nCOMMON PATTERNS:\n- Sentence-initial only, followed by a comma.\n- Often paired with けど or んだ⟦けど→けど：09477_kedo⟧ before stating the new point.\n\nCOMMON COLLOCATIONS:\n- そういえば、⟦{昔|むかし}→昔：01515_mukashi⟧…: come to think of it, in the old days …\n- そういえば、⟦{聞|き}いた→聞く：00483_kiku⟧?: speaking of which, did you hear?\n- そういえば、そうだ⟦ね→ね：09474_ne⟧: oh yeah, that's true (when reminded of something)\n\nSIMILAR WORDS:\n- ⟦ところ→ところ：01137_tokoro⟧⟦で→で：00502_de⟧: by the way (deliberate topic change, not necessarily reminded by context)\n- ⟦それはそうと→それはそうと：27572_sorehasouto⟧: by the way; that aside (more deliberate shift away from current topic)\n- ちなみ⟦に→に：00314_ni⟧: incidentally; for your information (adds related info)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01002_tokorode",
+      "reading": "ところで",
+      "headword": "ところで",
+      "label": "by the way"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27572_sorehasouto",
+      "reading": "それはそうと",
+      "headword": "それはそうと",
+      "label": "by the way"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05210_chinamini",
+      "reading": "ちなみに",
+      "headword": "ちなみに",
+      "label": "incidentally"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06284_teka",
+      "reading": "てか",
+      "headword": "てか",
+      "label": "or rather, I mean, actually"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10744_sousou",
+      "reading": "そうそう",
+      "headword": "そうそう",
+      "label": "yeah yeah, that's right"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -54,13 +91,13 @@
         "conjunction"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "expression"
       ],
       "domain": []
     },
     "created": "2026-05-14T03:13:49Z",
-    "modified": "2026-08-07T16:10:18Z"
+    "modified": "2026-09-02T04:02:31Z"
   }
 }

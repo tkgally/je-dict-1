@@ -3,7 +3,7 @@
   "id": "14658_kouyou",
   "headword": "{高揚|こうよう}",
   "reading": "こうよう",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "elation; uplift; heightening",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "14658_kouyou_ex1",
-      "japanese": "{気分|きぶん}が{高揚|こうよう}している。",
+      "japanese": "⟦{気分|きぶん}→気分：01306_kibun⟧⟦が→が：00051_ga⟧{高揚|こうよう}⟦している→する：00392_suru⟧。",
       "english": "My spirits are high.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "14658_kouyou_ex2",
-      "japanese": "{勝利|しょうり}でチームの{士気|しき}が{高揚|こうよう}した。",
+      "japanese": "⟦{勝利|しょうり}→勝利：11795_shouri⟧⟦で→で：00502_de⟧⟦チーム→チーム：03858_chiimu⟧⟦の→の：09472_no⟧⟦{士気|しき}→士気：19824_shiki⟧⟦が→が：00051_ga⟧{高揚|こうよう}⟦した→する：00392_suru⟧。",
       "english": "The victory boosted the team's morale.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "14658_kouyou_ex3",
-      "japanese": "コンサートの{会場|かいじょう}は{高揚|こうよう}{感|かん}に{包|つつ}まれていた。",
+      "japanese": "⟦コンサート→コンサート：01360_konsaato⟧⟦の→の：09472_no⟧⟦{会場|かいじょう}→会場：01269_kaijou⟧⟦は→は：00079_ha⟧{高揚|こうよう}⟦{感|かん}→〜感：28578_kan⟧⟦に→に：00314_ni⟧⟦{包|つつ}まれていた→包む：01226_tsutsumu⟧。",
       "english": "The concert venue was wrapped in a sense of elation.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,26 @@
       ]
     }
   ],
-  "notes": "{高揚|こうよう}する functions as a suru-verb meaning \"to rise\" or \"to be uplifted.\"\n\nCOMMON COLLOCATIONS:\n- {気分|きぶん}が{高揚|こうよう}する (spirits rise)\n- {士気|しき}が{高揚|こうよう}する (morale is boosted)\n- {高揚|こうよう}{感|かん} (feeling of elation)\n- ナショナリズムの{高揚|こうよう} (rise of nationalism)\n- {意識|いしき}の{高揚|こうよう} (heightening of awareness)\n\nNot to be confused with the homophone {紅葉|こうよう} (autumn leaves). {高揚|こうよう} describes emotional or psychological elevation. A somewhat formal word, more commonly seen in writing than in casual speech.",
-  "cross_references": [],
+  "notes": "{高揚|こうよう}⟦する→する：00392_suru⟧ functions as a suru-verb meaning \"to rise\" or \"to be uplifted.\"\n\nCOMMON COLLOCATIONS:\n- ⟦{気分|きぶん}→気分：01306_kibun⟧⟦が→が：00051_ga⟧{高揚|こうよう}⟦する→する：00392_suru⟧ (spirits rise)\n- ⟦{士気|しき}→士気：19824_shiki⟧⟦が→が：00051_ga⟧{高揚|こうよう}⟦する→する：00392_suru⟧ (morale is boosted)\n- {高揚|こうよう}⟦{感|かん}→〜感：28578_kan⟧ (feeling of elation)\n- ナショナリズム⟦の→の：09472_no⟧{高揚|こうよう} (rise of nationalism)\n- ⟦{意識|いしき}→意識：01714_ishiki⟧⟦の→の：09472_no⟧{高揚|こうよう} (heightening of awareness)\n\nNot to be confused with the homophone ⟦{紅葉|こうよう}→紅葉：04151_kouyou⟧ (autumn leaves). {高揚|こうよう} describes emotional or psychological elevation. A somewhat formal word, more commonly seen in writing than in casual speech.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22574_koufungimi",
+      "reading": "こうふんぎみ",
+      "headword": "{興奮気味|こうふんぎみ}",
+      "label": "somewhat excited"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28051_takaburu",
+      "reading": "たかぶる",
+      "headword": "{高|たか}ぶる",
+      "label": "to get excited"
+    }
+  ],
   "metadata": {
     "created": "2026-03-02T09:37:57Z",
-    "modified": "2026-03-29T03:08:18Z",
+    "modified": "2026-09-02T04:01:38Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

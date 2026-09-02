@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "08382_kanran_ex1",
-      "japanese": "{展示会|てんじかい}を{観覧|かんらん}する。",
+      "japanese": "⟦{展示会|てんじかい}→展示会：21869_tenjikai⟧⟦を→を：00422_wo⟧{観覧|かんらん}⟦する→する：00392_suru⟧。",
       "english": "To view an exhibition.",
       "sense_numbers": [
         1
@@ -114,7 +114,7 @@
     },
     {
       "id": "08382_kanran_ex2",
-      "japanese": "{観覧料|かんらんりょう}は{無料|むりょう}です。",
+      "japanese": "{観覧料|かんらんりょう}⟦は→は：00079_ha⟧⟦{無料|むりょう}→無料：01662_muryou⟧です。",
       "english": "Admission is free.",
       "sense_numbers": [
         1
@@ -124,7 +124,7 @@
     },
     {
       "id": "08382_kanran_ex3",
-      "japanese": "{一般|いっぱん}{観覧|かんらん}は{午前|ごぜん}10{時|じ}からです。",
+      "japanese": "⟦{一般|いっぱん}→一般：01737_ippan⟧{観覧|かんらん}⟦は→は：00079_ha⟧⟦{午前|ごぜん}→午前：00548_gozen⟧10⟦{時|じ}→時：09869_ji⟧⟦から→から：00504_kara⟧です。",
       "english": "Public viewing starts at 10 AM.",
       "sense_numbers": [
         1
@@ -133,7 +133,51 @@
       "notes": null
     }
   ],
-  "notes": "FORMATION:\n{観|かん} (view, watch) + {覧|らん} (look at, see) → watch and view\n\nVERB FORM:\n{観覧|かんらん}する (to view, to watch)\n\nRELATED COMPOUNDS:\n- {観覧車|かんらんしゃ} (Ferris wheel - literally \"viewing wheel\")\n- {観覧料|かんらんりょう} (admission fee)\n- {観覧席|かんらんせき} (spectator seats)\n- {一般|いっぱん}{観覧|かんらん} (public viewing/admission)\n\nRELATED WORDS:\n- {鑑賞|かんしょう} (appreciation, viewing - for art/music)\n- {見学|けんがく} (observation visit, tour)\n- {観戦|かんせん} (watching a game/match)\n\nDISTINCTION:\n{観覧|かんらん} is a general term for viewing. {鑑賞|かんしょう} implies appreciation with deeper engagement (art, music). {見学|けんがく} implies a learning or educational purpose. {観戦|かんせん} is specifically for sports.",
+  "notes": "FORMS:\n{観|かん} (view, watch) + {覧|らん} (look at, see) → watch and view\n{観覧|かんらん}⟦する→する：00392_suru⟧ (to view, to watch)\n\nCOMPOUNDS:\n- ⟦{観覧車|かんらんしゃ}→観覧車：09221_kanransha⟧ (Ferris wheel - literally \"viewing wheel\")\n- {観覧料|かんらんりょう} (admission fee)\n- {観覧席|かんらんせき} (spectator seats)\n- ⟦{一般|いっぱん}→一般：01737_ippan⟧{観覧|かんらん} (public viewing/admission)\n\nRELATED WORDS:\n- ⟦{鑑賞|かんしょう}→鑑賞：14516_kanshou⟧ (appreciation, viewing - for art/music)\n- ⟦{見学|けんがく}→見学：00214_kengaku⟧ (observation visit, tour)\n- ⟦{観戦|かんせん}→観戦：14142_kansen⟧ (watching a game/match)\n\nSIMILAR WORDS:\n{観覧|かんらん} is a general term for viewing. ⟦{鑑賞|かんしょう}→鑑賞：14516_kanshou⟧ implies appreciation with deeper engagement (art, music). ⟦{見学|けんがく}→見学：00214_kengaku⟧ implies a learning or educational purpose. ⟦{観戦|かんせん}→観戦：14142_kansen⟧ is specifically for sports.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "14516_kanshou",
+      "reading": "かんしょう",
+      "headword": "{鑑賞|かんしょう}",
+      "label": "appreciation, viewing"
+    },
+    {
+      "type": "related",
+      "target_id": "00214_kengaku",
+      "reading": "けんがく",
+      "headword": "{見学|けんがく}",
+      "label": "observation visit, tour"
+    },
+    {
+      "type": "related",
+      "target_id": "14142_kansen",
+      "reading": "かんせん",
+      "headword": "{観戦|かんせん}",
+      "label": "watching a game/match"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01398_kenbutsu",
+      "reading": "けんぶつ",
+      "headword": "{見物|けんぶつ}",
+      "label": "sightseeing, watching"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20259_kenbutsusuru",
+      "reading": "けんぶつする",
+      "headword": "{見物|けんぶつ}する",
+      "label": "to sightsee"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22793_miru",
+      "reading": "みる",
+      "headword": "{観|み}る",
+      "label": "to watch"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -142,14 +186,16 @@
         "verb-suru"
       ],
       "formality": "formal",
+      "politeness": "plain",
       "semantic": [
         "entertainment",
         "culture",
         "leisure"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-01-26T04:46:09Z",
-    "modified": "2026-08-12T12:50:50Z"
+    "modified": "2026-09-02T04:01:15Z"
   }
 }

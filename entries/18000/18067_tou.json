@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "18067_tou_ex1",
-      "japanese": "{牛|うし}が3{頭|とう}いる。",
+      "japanese": "⟦{牛|うし}→牛：01857_ushi⟧⟦が→が：00051_ga⟧3{頭|とう}⟦いる→いる：00495_iru⟧。",
       "english": "There are three cows.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "18067_tou_ex2",
-      "japanese": "{動物園|どうぶつえん}に{象|ぞう}が2{頭|とう}いる。",
+      "japanese": "⟦{動物園|どうぶつえん}→動物園：01686_doubutsuen⟧⟦に→に：00314_ni⟧⟦{象|ぞう}→象：03328_zou⟧⟦が→が：00051_ga⟧2{頭|とう}⟦いる→いる：00495_iru⟧。",
       "english": "There are two elephants at the zoo.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "18067_tou_ex3",
-      "japanese": "この{牧場|ぼくじょう}では{馬|うま}を50{頭|とう}ほど{飼|か}っている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{牧場|ぼくじょう}→牧場：06103_bokujou⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{馬|うま}→馬：01865_uma⟧⟦を→を：00422_wo⟧50{頭|とう}ほど⟦{飼|か}っている→飼う：08151_kau⟧。",
       "english": "This ranch keeps about fifty horses.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "COUNTING:\n1{頭|とう} (いっとう), 2{頭|とう} (にとう), 3{頭|とう} (さんとう), 4{頭|とう} (よんとう), 5{頭|とう} (ごとう), 6{頭|とう} (ろくとう), 7{頭|とう} (ななとう), 8{頭|とう} (はっとう), 9{頭|とう} (きゅうとう), 10{頭|とう} (じゅっとう)\n\nUSAGE:\nUsed for large animals: cattle, horses, elephants, whales, gorillas, etc. For smaller animals like dogs, cats, and rabbits, use {匹|ひき}. For birds, use {羽|わ}. The dividing line between {頭|とう} and {匹|ひき} is roughly whether the animal is bigger than a person can carry. Insects and butterflies counted with {頭|とう} in scientific contexts.\n\nSIMILAR COUNTERS:\n- {匹|ひき}: for small and medium animals\n- {羽|わ}: for birds\n- {尾|び}: for fish (formal/technical)",
+  "notes": "COUNTING PATTERNS:\n1{頭|とう} (いっとう), 2{頭|とう} (にとう), 3{頭|とう} (さんとう), 4{頭|とう} (よんとう), 5{頭|とう} (ごとう), 6{頭|とう} (ろくとう), 7{頭|とう} (ななとう), 8{頭|とう} (はっとう), 9{頭|とう} (きゅうとう), 10{頭|とう} (じゅっとう)\n\nUSAGE:\nUsed for large animals: cattle, horses, elephants, whales, gorillas, etc. For smaller animals like dogs, cats, and rabbits, use ⟦{匹|ひき}→匹：00939_hiki⟧. For birds, use ⟦{羽|わ}→羽：01007_wa⟧. The dividing line between {頭|とう} and ⟦{匹|ひき}→匹：00939_hiki⟧ is roughly whether the animal is bigger than a person can carry. Insects and butterflies counted with {頭|とう} in scientific contexts.\n\nSIMILAR WORDS:\n- ⟦{匹|ひき}→匹：00939_hiki⟧: for small and medium animals\n- ⟦{羽|わ}→羽：01007_wa⟧: for birds\n- ⟦{尾|び}→尾：18068_bi⟧: for fish (formal/technical)",
   "cross_references": [
     {
       "type": "related",
@@ -66,11 +66,18 @@
       "reading": "わ",
       "headword": "{羽|わ}",
       "label": "counter for birds and rabbits"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18068_bi",
+      "reading": "び",
+      "headword": "{尾|び}",
+      "label": "for fish"
     }
   ],
   "metadata": {
     "created": "2026-03-20T01:07:55Z",
-    "modified": "2026-08-10T12:40:05Z",
+    "modified": "2026-09-02T04:01:50Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24729_baikubin_ex1",
-      "japanese": "{急|いそ}ぎの{書類|しょるい}をバイク{便|びん}で{送|おく}った。",
+      "japanese": "{急|いそ}ぎ⟦の→の：09472_no⟧⟦{書類|しょるい}→書類：01103_shorui⟧⟦を→を：00422_wo⟧バイク{便|びん}⟦で→で：00502_de⟧⟦{送|おく}った→送る：00742_okuru⟧。",
       "english": "I sent the urgent documents by motorcycle courier.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24729_baikubin_ex2",
-      "japanese": "バイク{便|びん}なら{都内|とない}{当日|とうじつ}{配達|はいたつ}が{可能|かのう}だ。",
+      "japanese": "バイク{便|びん}なら⟦{都内|とない}→都内：19144_tonai⟧⟦{当日|とうじつ}→当日：04558_toujitsu⟧⟦{配達|はいたつ}→配達：00084_haitatsu⟧⟦が→が：00051_ga⟧⟦{可能|かのう}→可能：00175_kanou⟧だ。",
       "english": "With a motorcycle courier, same-day delivery within Tokyo is possible.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24729_baikubin_ex3",
-      "japanese": "{契約書|けいやくしょ}の{原本|げんぽん}はバイク{便|びん}で{届|とど}けてもらうことにした。",
+      "japanese": "⟦{契約書|けいやくしょ}→契約書：06416_keiyakusho⟧⟦の→の：09472_no⟧⟦{原本|げんぽん}→原本：15697_genpon⟧⟦は→は：00079_ha⟧バイク{便|びん}⟦で→で：00502_de⟧⟦{届|とど}けて→届ける：01248_todokeru⟧⟦もらう→もらう：00520_morau⟧ことにした。",
       "english": "We decided to have the original contract delivered by motorcycle courier.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Composed of バイク (motorcycle, from English \"bike\") + {便|びん} (service, delivery). A specialized delivery option common in major Japanese cities, particularly Tokyo and Osaka, valued for speed in congested urban areas.\n\nCOMMON COLLOCATIONS:\n- バイク{便|びん}で{送|おく}る: to send by motorcycle courier\n- バイク{便|びん}を{手配|てはい}する: to arrange a motorcycle courier\n- バイク{便|びん}{会社|かいしゃ}: motorcycle courier company\n- {即日|そくじつ}バイク{便|びん}: same-day motorcycle delivery\n\nSIMILAR WORDS:\n- {宅配便|たくはいびん}: home delivery service — standard parcel delivery (Yamato, Sagawa, etc.)\n- {速達|そくたつ}: express mail — Japan Post's fast delivery option\n- {自転車便|じてんしゃびん}: bicycle courier — similar concept but using bicycles",
+  "notes": "Composed of ⟦バイク→バイク：05081_baiku⟧ (motorcycle, from English \"bike\") + ⟦{便|びん}→便：28160_bin⟧ (service, delivery). A specialized delivery option common in major Japanese cities, particularly Tokyo and Osaka, valued for speed in congested urban areas.\n\nCOMMON COLLOCATIONS:\n- バイク{便|びん}⟦で→で：00502_de⟧⟦{送|おく}る→送る：00742_okuru⟧: to send by motorcycle courier\n- バイク{便|びん}⟦を→を：00422_wo⟧⟦{手配|てはい}→手配：07604_tehai⟧⟦する→する：00392_suru⟧: to arrange a motorcycle courier\n- バイク{便|びん}⟦{会社|かいしゃ}→会社：00607_kaisha⟧: motorcycle courier company\n- ⟦{即日|そくじつ}→即日：09661_sokujitsu⟧バイク{便|びん}: same-day motorcycle delivery\n\nSIMILAR WORDS:\n- ⟦{宅配便|たくはいびん}→宅配便：09534_takuhaibin⟧: home delivery service — standard parcel delivery (Yamato, Sagawa, etc.)\n- ⟦{速達|そくたつ}→速達：04393_sokutatsu⟧: express mail — Japan Post's fast delivery option\n- {自転車便|じてんしゃびん}: bicycle courier — similar concept but using bicycles",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09534_takuhaibin",
+      "reading": "たくはいびん",
+      "headword": "{宅配便|たくはいびん}",
+      "label": "home delivery service"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04393_sokutatsu",
+      "reading": "そくたつ",
+      "headword": "{速達|そくたつ}",
+      "label": "express mail"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -64,6 +80,6 @@
       ]
     },
     "created": "2026-04-20T13:14:50Z",
-    "modified": "2026-08-03T09:22:27Z"
+    "modified": "2026-09-02T04:02:19Z"
   }
 }

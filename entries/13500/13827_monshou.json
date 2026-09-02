@@ -15,41 +15,59 @@
   "examples": [
     {
       "id": "13827_monshou_ex1",
-      "japanese": "{王家|おうけ}の{紋章|もんしょう}が{刻|きざ}まれている。",
+      "japanese": "⟦{王家|おうけ}→王家：13548_ouke⟧⟦の→の：09472_no⟧{紋章|もんしょう}⟦が→が：00051_ga⟧⟦{刻|きざ}まれている→刻む：03918_kizamu⟧。",
       "english": "The royal coat of arms is engraved on it.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13827_monshou_ex2",
-      "japanese": "この{盾|たて}には{騎士|きし}の{家|いえ}の{紋章|もんしょう}が{描|えが}かれている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{盾|たて}→盾：03430_tate⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{騎士|きし}→騎士：14716_kishi⟧⟦の→の：09472_no⟧⟦{家|いえ}→家：00612_ie⟧⟦の→の：09472_no⟧{紋章|もんしょう}⟦が→が：00051_ga⟧⟦{描|えが}かれている→描く：02013_egaku⟧。",
       "english": "The knight's family crest is depicted on this shield.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13827_monshou_ex3",
-      "japanese": "ヨーロッパでは、{紋章|もんしょう}は{家柄|いえがら}や{地位|ちい}を{示|しめ}す{重要|じゅうよう}なシンボルだった。",
+      "japanese": "⟦ヨーロッパ→ヨーロッパ：00427_yooroppa⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧、{紋章|もんしょう}⟦は→は：00079_ha⟧⟦{家柄|いえがら}→家柄：16695_iegara⟧や⟦{地位|ちい}→地位：03427_chii⟧⟦を→を：00422_wo⟧⟦{示|しめ}す→示す：01948_shimesu⟧⟦{重要|じゅうよう}→重要：01575_juuyou⟧な⟦シンボル→シンボル：10948_shinboru⟧だった。",
       "english": "In Europe, coats of arms were important symbols indicating family lineage and status.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\n{紋章|もんしょう} can refer to both Japanese {家紋|かもん} (family crests) and Western heraldic designs. In practice, it is more commonly used for Western-style coats of arms and in fantasy/game contexts, while {家紋|かもん} is preferred for traditional Japanese family crests.\n\nCOMMON COLLOCATIONS:\n- {紋章|もんしょう}{学|がく}: heraldry\n- {家|いえ}の{紋章|もんしょう}: family crest\n- {王家|おうけ}の{紋章|もんしょう}: royal coat of arms\n- {紋章|もんしょう}を{掲|かか}げる: to display a coat of arms",
-  "cross_references": [],
+  "notes": "USAGE:\n{紋章|もんしょう} can refer to both Japanese ⟦{家紋|かもん}→家紋：15366_kamon⟧ (family crests) and Western heraldic designs. In practice, it is more commonly used for Western-style coats of arms and in fantasy/game contexts, while ⟦{家紋|かもん}→家紋：15366_kamon⟧ is preferred for traditional Japanese family crests.\n\nCOMMON COLLOCATIONS:\n- {紋章|もんしょう}{学|がく}: heraldry\n- ⟦{家|いえ}→家：00612_ie⟧⟦の→の：09472_no⟧{紋章|もんしょう}: family crest\n- ⟦{王家|おうけ}→王家：13548_ouke⟧⟦の→の：09472_no⟧{紋章|もんしょう}: royal coat of arms\n- {紋章|もんしょう}⟦を→を：00422_wo⟧⟦{掲|かか}げる→掲げる：12791_kakageru⟧: to display a coat of arms",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "30333_kokushou",
+      "reading": "こくしょう",
+      "headword": "{国章|こくしょう}",
+      "label": "national emblem"
+    }
+  ],
   "metadata": {
     "created": "2026-02-27T05:07:36Z",
-    "modified": "2026-02-27T05:07:36Z",
+    "modified": "2026-09-02T04:01:34Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

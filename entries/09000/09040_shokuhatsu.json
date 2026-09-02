@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "09040_shokuhatsu_ex1",
-      "japanese": "{彼|かれ}の{言葉|ことば}に{触発|しょくはつ}された。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧⟦{言葉|ことば}→言葉：02880_kotoba⟧⟦に→に：00314_ni⟧{触発|しょくはつ}⟦された→する：00392_suru⟧。",
       "english": "I was inspired by his words.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "09040_shokuhatsu_ex2",
-      "japanese": "この{映画|えいが}に{触発|しょくはつ}されて{小説|しょうせつ}を{書|か}き{始|はじ}めた。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{映画|えいが}→映画：02273_eiga⟧⟦に→に：00314_ni⟧{触発|しょくはつ}⟦されて→する：00392_suru⟧⟦{小説|しょうせつ}→小説：01434_shousetsu⟧⟦を→を：00422_wo⟧⟦{書|か}き{始|はじ}めた→書き始める：22272_kakihajimeru⟧。",
       "english": "Inspired by this movie, I started writing a novel.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "09040_shokuhatsu_ex3",
-      "japanese": "{友人|ゆうじん}の{成功|せいこう}に{触発|しょくはつ}されて{起業|きぎょう}を{決意|けつい}した。",
+      "japanese": "⟦{友人|ゆうじん}→友人：03649_yuujin⟧⟦の→の：09472_no⟧⟦{成功|せいこう}→成功：02638_seikou⟧⟦に→に：00314_ni⟧{触発|しょくはつ}⟦されて→する：00392_suru⟧⟦{起業|きぎょう}→起業：16193_kigyou⟧⟦を→を：00422_wo⟧⟦{決意|けつい}した→決意する：28116_ketsuisuru⟧。",
       "english": "Inspired by my friend's success, I decided to start a business.",
       "notes": null,
       "has_audio": false,
@@ -43,11 +43,26 @@
       ]
     }
   ],
-  "notes": "{触発|しょくはつ} emphasizes external stimulus.\n\nUSAGE:\n- Often passive: ～に{触発|しょくはつ}される (to be inspired by)\n- Implies that something external prompts action or ideas\n\nCOMMON PATTERNS:\n- ～に{触発|しょくはつ}される: to be inspired/triggered by\n- ～に{触発|しょくはつ}されて: inspired by (doing something)\n- {触発|しょくはつ}を{受|う}ける: to receive inspiration\n\nCONTRAST:\n- {触発|しょくはつ}: emphasizes external trigger\n- {刺激|しげき}: stimulation (more general)\n- {インスピレーション}: inspiration (loanword, more artistic)",
-  "cross_references": [],
+  "notes": "{触発|しょくはつ} emphasizes external stimulus.\n\nUSAGE:\n- Often passive: ～⟦に→に：00314_ni⟧{触発|しょくはつ}⟦される→する：00392_suru⟧ (to be inspired by)\n- Implies that something external prompts action or ideas\n\nCOMMON PATTERNS:\n- ～⟦に→に：00314_ni⟧{触発|しょくはつ}⟦される→する：00392_suru⟧: to be inspired/triggered by\n- ～⟦に→に：00314_ni⟧{触発|しょくはつ}⟦されて→する：00392_suru⟧: inspired by (doing something)\n- {触発|しょくはつ}⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧: to receive inspiration\n\nSIMILAR WORDS:\n- {触発|しょくはつ}: emphasizes external trigger\n- ⟦{刺激|しげき}→刺激：03166_shigeki⟧: stimulation (more general)\n- インスピレーション: inspiration (loanword, more artistic)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03166_shigeki",
+      "reading": "しげき",
+      "headword": "{刺激|しげき}",
+      "label": "stimulation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16098_kanka",
+      "reading": "かんか",
+      "headword": "{感化|かんか}",
+      "label": "influence"
+    }
+  ],
   "metadata": {
     "created": "2026-01-30T23:06:47Z",
-    "modified": "2026-08-12T21:25:53Z",
+    "modified": "2026-09-02T04:01:17Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

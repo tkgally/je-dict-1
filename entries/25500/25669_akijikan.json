@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25669_akijikan_ex1",
-      "japanese": "{空|あ}き{時間|じかん}に{勉強|べんきょう}する。",
+      "japanese": "{空|あ}き{時間|じかん}⟦に→に：00314_ni⟧⟦{勉強|べんきょう}する→勉強する：00527_benkyousuru⟧。",
       "english": "I study during my free time.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25669_akijikan_ex2",
-      "japanese": "{午後|ごご}に{少|すこ}し{空|あ}き{時間|じかん}ができた。",
+      "japanese": "⟦{午後|ごご}→午後：00544_gogo⟧⟦に→に：00314_ni⟧⟦{少|すこ}し→少し：00596_sukoshi⟧{空|あ}き{時間|じかん}⟦が→が：00051_ga⟧⟦できた→できる：00557_dekiru⟧。",
       "english": "I had a little free time open up in the afternoon.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25669_akijikan_ex3",
-      "japanese": "{会議|かいぎ}と{会議|かいぎ}の{間|あいだ}の{空|あ}き{時間|じかん}を{使|つか}ってメールの{返信|へんしん}を{済|す}ませた。",
+      "japanese": "⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦と→と：00512_to⟧⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦の→の：09472_no⟧⟦{間|あいだ}→間：00914_aida⟧⟦の→の：09472_no⟧{空|あ}き{時間|じかん}⟦を→を：00422_wo⟧⟦{使|つか}って→使う：00473_tsukau⟧⟦メール→メール：04435_meeru⟧⟦の→の：09472_no⟧⟦{返信|へんしん}→返信：14350_henshin⟧⟦を→を：00422_wo⟧⟦{済|す}ませた→済む：01950_sumu⟧。",
       "english": "I used the free time between meetings to get through my email replies.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {空|あ}き (empty, available) and {時間|じかん} (time). Describes gaps or openings in a schedule rather than leisure time in general. Commonly used in workplace and school settings.\n\nCOMMON COLLOCATIONS:\n- {空|あ}き{時間|じかん}を{使|つか}う: to use one's free time\n- {空|あ}き{時間|じかん}ができる: to have free time open up\n- {空|あ}き{時間|じかん}を{有効|ゆうこう}に{使|つか}う: to use free time effectively\n- {空|あ}き{時間|じかん}に{何|なに}をする: what to do in one's free time\n\nSIMILAR WORDS:\n- {暇|ひま}: free time, not busy — broader, can imply boredom or having nothing to do\n- {余暇|よか}: leisure — formal term for recreational time off from work\n- {自由|じゆう}{時間|じかん}: free time — often used in structured settings like school trips or tours",
+  "notes": "A compound of ⟦{空|あ}き→空く：11062_aku⟧ (empty, available) and ⟦{時間|じかん}→時間：00468_jikan⟧ (time). Describes gaps or openings in a schedule rather than leisure time in general. Commonly used in workplace and school settings.\n\nCOMMON COLLOCATIONS:\n- {空|あ}き{時間|じかん}⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧: to use one's free time\n- {空|あ}き{時間|じかん}⟦が→が：00051_ga⟧⟦できる→できる：00557_dekiru⟧: to have free time open up\n- {空|あ}き{時間|じかん}⟦を→を：00422_wo⟧⟦{有効|ゆうこう}→有効：03645_yuukou⟧⟦に→に：00314_ni⟧⟦{使|つか}う→使う：00473_tsukau⟧: to use free time effectively\n- {空|あ}き{時間|じかん}⟦に→に：00314_ni⟧⟦{何|なに}→何：00498_nani⟧⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧: what to do in one's free time\n\nSIMILAR WORDS:\n- ⟦{暇|ひま}→暇：00592_hima⟧: free time, not busy — broader, can imply boredom or having nothing to do\n- ⟦{余暇|よか}→余暇：15194_yoka⟧: leisure — formal term for recreational time off from work\n- ⟦{自由|じゆう}→自由：01148_jiyuu⟧⟦{時間|じかん}→時間：00468_jikan⟧: free time — often used in structured settings like school trips or tours",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00592_hima",
+      "reading": "ひま",
+      "headword": "{暇|ひま}",
+      "label": "free time, not busy"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15194_yoka",
+      "reading": "よか",
+      "headword": "{余暇|よか}",
+      "label": "leisure"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -63,6 +79,6 @@
       ]
     },
     "created": "2026-04-26T15:13:56Z",
-    "modified": "2026-08-04T21:23:34Z"
+    "modified": "2026-09-02T04:02:23Z"
   }
 }

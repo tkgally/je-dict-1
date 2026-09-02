@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22585_teatsuku_ex1",
-      "japanese": "{手厚|てあつ}くもてなす。",
+      "japanese": "{手厚|てあつ}く⟦もてなす→もてなす：10635_motenasu⟧。",
       "english": "To entertain warmly.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22585_teatsuku_ex2",
-      "japanese": "{怪我人|けがにん}を{手厚|てあつ}く{看護|かんご}した。",
+      "japanese": "⟦{怪我人|けがにん}→怪我人：23513_keganin⟧⟦を→を：00422_wo⟧{手厚|てあつ}く⟦{看護|かんご}→看護：13668_kango⟧⟦した→する：00392_suru⟧。",
       "english": "The injured person was cared for attentively.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22585_teatsuku_ex3",
-      "japanese": "この{会社|かいしゃ}は{社員|しゃいん}の{福利厚生|ふくりこうせい}を{手厚|てあつ}く{保障|ほしょう}している。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦は→は：00079_ha⟧⟦{社員|しゃいん}→社員：03065_shain⟧⟦の→の：09472_no⟧⟦{福利厚生|ふくりこうせい}→福利厚生：04882_fukurikousei⟧⟦を→を：00422_wo⟧{手厚|てあつ}く⟦{保障|ほしょう}→保障：03719_hoshou⟧⟦している→する：00392_suru⟧。",
       "english": "This company generously provides employee welfare benefits.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "The adverbial form of {手厚|てあつ}い (generous, cordial, thorough). Describes doing something with exceptional care, warmth, or generosity — going above and beyond ordinary treatment. Used in contexts of hospitality, caregiving, support, and service.\n\nCOMMON COLLOCATIONS:\n- {手厚|てあつ}くもてなす: to treat with warm hospitality\n- {手厚|てあつ}く{看護|かんご}する: to nurse attentively\n- {手厚|てあつ}く{保護|ほご}する: to protect generously\n- {手厚|てあつ}く{支援|しえん}する: to support generously\n- {手厚|てあつ}く{葬|ほうむ}る: to give a proper burial\n\nSIMILAR WORDS:\n- {丁寧|ていねい}に: politely, carefully — more neutral and everyday; focuses on politeness\n- {手厚|てあつ}い: generous, cordial — the adjective form\n- {厚|あつ}く: thickly; warmly — can also mean with warm hospitality, but more limited in usage",
+  "notes": "The adverbial form of ⟦{手厚|てあつ}い→手厚い：12802_teatsui⟧ (generous, cordial, thorough). Describes doing something with exceptional care, warmth, or generosity — going above and beyond ordinary treatment. Used in contexts of hospitality, caregiving, support, and service.\n\nCOMMON COLLOCATIONS:\n- {手厚|てあつ}く⟦もてなす→もてなす：10635_motenasu⟧: to treat with warm hospitality\n- {手厚|てあつ}く⟦{看護|かんご}→看護：13668_kango⟧⟦する→する：00392_suru⟧: to nurse attentively\n- {手厚|てあつ}く⟦{保護|ほご}する→保護する：25374_hogosuru⟧: to protect generously\n- {手厚|てあつ}く⟦{支援|しえん}する→支援する：25534_shiensuru⟧: to support generously\n- {手厚|てあつ}く⟦{葬|ほうむ}る→葬る：07874_houmuru⟧: to give a proper burial\n\nSIMILAR WORDS:\n- ⟦{丁寧|ていねい}→丁寧：00896_teinei⟧⟦に→に：00314_ni⟧: politely, carefully — more neutral and everyday; focuses on politeness\n- ⟦{手厚|てあつ}い→手厚い：12802_teatsui⟧: generous, cordial — the adjective form\n- ⟦{厚|あつ}く→厚い：00690_atsui⟧: thickly; warmly — can also mean with warm hospitality, but more limited in usage",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00896_teinei",
+      "reading": "ていねい",
+      "headword": "{丁寧|ていねい}",
+      "label": "politely, carefully"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12802_teatsui",
+      "reading": "てあつい",
+      "headword": "{手厚|てあつ}い",
+      "label": "generous, cordial"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +76,6 @@
       "politeness": "plain"
     },
     "created": "2026-04-06T18:19:56Z",
-    "modified": "2026-07-30T15:38:57Z"
+    "modified": "2026-09-02T04:02:08Z"
   }
 }

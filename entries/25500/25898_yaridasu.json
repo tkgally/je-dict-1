@@ -3,7 +3,7 @@
   "headword": "やり{出|だ}す",
   "reading": "やりだす",
   "romaji": "yaridasu",
-  "part_of_speech": "verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to start doing; to begin (something)",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25898_yaridasu_ex1",
-      "japanese": "{急|きゅう}にやり{出|だ}した。",
+      "japanese": "⟦{急|きゅう}→急：13042_kyuu⟧⟦に→に：00314_ni⟧やり{出|だ}した。",
       "english": "He suddenly started doing it.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25898_yaridasu_ex2",
-      "japanese": "{子|こ}どもたちが{庭|にわ}でサッカーをやり{出|だ}した。",
+      "japanese": "{子|こ}どもたち⟦が→が：00051_ga⟧⟦{庭|にわ}→庭：02239_niwa⟧⟦で→で：00502_de⟧⟦サッカー→サッカー：04726_sakkaa⟧⟦を→を：00422_wo⟧やり{出|だ}した。",
       "english": "The children started playing soccer in the yard.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25898_yaridasu_ex3",
-      "japanese": "{彼|かれ}は{一度|いちど}やり{出|だ}すと{止|と}まらない{性格|せいかく}だ。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{一度|いちど}→一度：01312_ichido⟧やり{出|だ}す⟦と→と：00512_to⟧⟦{止|と}まらない→止まる：00555_tomaru⟧⟦{性格|せいかく}→性格：03371_seikaku⟧だ。",
       "english": "He has the kind of personality where once he starts something, he can't stop.",
       "sense_numbers": [
         1
@@ -44,8 +44,16 @@
       "notes": null
     }
   ],
-  "notes": "A compound verb combining やる (to do) + {出|だ}す (auxiliary verb indicating the start of an action). The ～{出|だ}す pattern is productive in Japanese, attaching to many verbs to express the sudden or spontaneous beginning of an action.\n\nMore colloquial and energetic than {始|はじ}める. Often implies that the action began somewhat abruptly or without much deliberation.\n\nGRAMMAR NOTE:\nThe ～{出|だ}す auxiliary can attach to many verb stems: {走|はし}り{出|だ}す (start running), {泣|な}き{出|だ}す (burst into tears), {笑|わら}い{出|だ}す (start laughing). やり{出|だ}す is the most general form since やる covers doing anything.\n\nCOMMON COLLOCATIONS:\n- {急|きゅう}にやり{出|だ}す: to suddenly start doing\n- やり{出|だ}したら{止|と}まらない: once started, can't stop\n- {勝手|かって}にやり{出|だ}す: to start doing on one's own\n\nSIMILAR WORDS:\n- {始|はじ}める: to begin — neutral and formal, works in all registers\n- {取|と}りかかる: to set about; to get started on — emphasizes tackling a task\n- し{出|だ}す: to start doing — similar compound but with する instead of やる, slightly more formal",
-  "cross_references": [],
+  "notes": "A compound verb combining ⟦やる→やる：02980_yaru⟧ (to do) + ⟦{出|だ}す→出す：01087_dasu⟧ (auxiliary verb indicating the start of an action). The ～⟦{出|だ}す→出す：01087_dasu⟧ pattern is productive in Japanese, attaching to many verbs to express the sudden or spontaneous beginning of an action.\n\nMore colloquial and energetic than {始|はじ}める. Often implies that the action began somewhat abruptly or without much deliberation.\n\nCOMMON PATTERNS:\nThe ～⟦{出|だ}す→出す：01087_dasu⟧ auxiliary can attach to many verb stems: ⟦{走|はし}り{出|だ}す→走り出す：06679_hashiridasu⟧ (start running), ⟦{泣|な}き{出|だ}す→泣き出す：06343_nakidasu⟧ (burst into tears), ⟦{笑|わら}い{出|だ}す→笑い出す：06678_waraidasu⟧ (start laughing). やり{出|だ}す is the most general form since ⟦やる→やる：02980_yaru⟧ covers doing anything.\n\nCOMMON COLLOCATIONS:\n- ⟦{急|きゅう}→急：13042_kyuu⟧⟦に→に：00314_ni⟧やり{出|だ}す: to suddenly start doing\n- やり{出|だ}したら⟦{止|と}まらない→止まる：00555_tomaru⟧: once started, can't stop\n- ⟦{勝手|かって}→勝手：03021_katte⟧⟦に→に：00314_ni⟧やり{出|だ}す: to start doing on one's own\n\nSIMILAR WORDS:\n- {始|はじ}める: to begin — neutral and formal, works in all registers\n- {取|と}りかかる: to set about; to get started on — emphasizes tackling a task\n- し⟦{出|だ}す→出す：01087_dasu⟧: to start doing — similar compound but with ⟦する→する：00392_suru⟧ instead of ⟦やる→やる：02980_yaru⟧, slightly more formal",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00531_hajimeru",
+      "reading": "はじめる",
+      "headword": "{始|はじ}める",
+      "label": "to begin"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -54,6 +62,7 @@
         "verb-godan"
       ],
       "formality": "informal",
+      "politeness": "plain",
       "semantic": [
         "action"
       ],
@@ -61,7 +70,7 @@
       "verb_class": "godan-su"
     },
     "created": "2026-04-28T11:26:52Z",
-    "modified": "2026-04-28T11:26:52Z"
+    "modified": "2026-09-02T04:02:24Z"
   },
   "conjugation": {
     "type": "godan",

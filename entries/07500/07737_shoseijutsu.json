@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "07737_shoseijutsu_ex1",
-      "japanese": "{処世術|しょせいじゅつ}を{身|み}につける。",
+      "japanese": "{処世術|しょせいじゅつ}⟦を→を：00422_wo⟧⟦{身|み}につける→身につける：03158_minitsukeru⟧。",
       "english": "To acquire social skills for getting through life.",
       "has_audio": false,
       "sense_numbers": [
@@ -23,7 +23,7 @@
     },
     {
       "id": "07737_shoseijutsu_ex2",
-      "japanese": "それは{彼|かれ}の{処世術|しょせいじゅつ}の{一|ひと}つだ。",
+      "japanese": "⟦それ→それ：00994_sore⟧⟦は→は：00079_ha⟧⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧{処世術|しょせいじゅつ}⟦の→の：09472_no⟧⟦{一|ひと}つ→一つ：02948_hitotsu⟧だ。",
       "english": "That's one of his strategies for getting by in life.",
       "has_audio": false,
       "sense_numbers": [
@@ -32,7 +32,7 @@
     },
     {
       "id": "07737_shoseijutsu_ex3",
-      "japanese": "{会社|かいしゃ}で{生|い}き{残|のこ}るための{処世術|しょせいじゅつ}を{学|まな}んだ。",
+      "japanese": "⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦で→で：00502_de⟧⟦{生|い}き{残|のこ}る→生き残る：13521_ikinokoru⟧⟦ため→ため：01145_tame⟧⟦の→の：09472_no⟧{処世術|しょせいじゅつ}⟦を→を：00422_wo⟧⟦{学|まな}んだ→学ぶ：01987_manabu⟧。",
       "english": "I learned the art of surviving in the company.",
       "has_audio": false,
       "sense_numbers": [
@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "notes": "ETYMOLOGY:\n{処世|しょせい} (getting through the world) + {術|じゅつ} (art, technique) - techniques for navigating life.\n\nUSAGE:\nRefers to practical wisdom including:\n・Reading social situations\n・Building relationships\n・Avoiding conflicts\n・Advancing one's interests diplomatically\n\nCOLLOCATIONS:\n・{処世術|しょせいじゅつ}を{身|み}につける - to acquire life skills\n・{処世術|しょせいじゅつ}に{長|た}けている - to be skilled at social navigation\n・{巧|たく}みな{処世術|しょせいじゅつ} - clever social maneuvering\n\nRELATED:\n・{世渡|よわた}り - getting through life\n・{根回|ねまわ}し - groundwork, preparation",
+  "notes": "ETYMOLOGY:\n⟦{処世|しょせい}→処世：22542_shosei⟧ (getting through the world) + ⟦{術|じゅつ}→術：14265_jutsu⟧ (art, technique) - techniques for navigating life.\n\nUSAGE:\nRefers to practical wisdom including:\n- Reading social situations\n- Building relationships\n- Avoiding conflicts\n- Advancing one's interests diplomatically\n\nCOMMON COLLOCATIONS:\n- {処世術|しょせいじゅつ}⟦を→を：00422_wo⟧⟦{身|み}につける→身につける：03158_minitsukeru⟧ - to acquire life skills\n- {処世術|しょせいじゅつ}⟦に→に：00314_ni⟧⟦{長|た}けている→長ける：14540_takeru⟧ - to be skilled at social navigation\n- ⟦{巧|たく}み→巧み：07153_takumi⟧な{処世術|しょせいじゅつ} - clever social maneuvering\n\nRELATED WORDS:\n- ⟦{世渡|よわた}り→世渡り：07736_yowatari⟧ - getting through life\n- ⟦{根回|ねまわ}し→根回し：07727_nemawashi⟧ - groundwork, preparation",
   "cross_references": [
     {
       "type": "related",
@@ -48,11 +48,25 @@
       "headword": "{世渡|よわた}り",
       "label": "getting through life",
       "target_id": "07736_yowatari"
+    },
+    {
+      "type": "related",
+      "target_id": "07727_nemawashi",
+      "reading": "ねまわし",
+      "headword": "{根回|ねまわ}し",
+      "label": "groundwork, preparation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26090_jinseitetsugaku",
+      "reading": "じんせいてつがく",
+      "headword": "{人生哲学|じんせいてつがく}",
+      "label": "philosophy of life"
     }
   ],
   "metadata": {
     "created": "2026-01-21T00:27:59Z",
-    "modified": "2026-06-19T21:43:28Z",
+    "modified": "2026-09-02T04:01:12Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +74,7 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "society",
         "cognition"

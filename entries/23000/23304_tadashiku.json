@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "23304_tadashiku_ex1",
-      "japanese": "{正|ただ}しく{答|こた}える。",
+      "japanese": "{正|ただ}しく⟦{答|こた}える→答える：01099_kotaeru⟧。",
       "english": "To answer correctly.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "23304_tadashiku_ex2",
-      "japanese": "パスワードを{正|ただ}しく{入力|にゅうりょく}してください。",
+      "japanese": "⟦パスワード→パスワード：05277_pasuwaado⟧⟦を→を：00422_wo⟧{正|ただ}しく⟦{入力|にゅうりょく}して→入力する：28127_nyuuryokusuru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please enter your password correctly.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "23304_tadashiku_ex3",
-      "japanese": "{箸|はし}の{持|も}ち{方|かた}を{正|ただ}しく{教|おし}える。",
+      "japanese": "⟦{箸|はし}→箸：01026_hashi⟧⟦の→の：09472_no⟧⟦{持|も}ち{方|かた}→持ち方：28218_mochikata⟧⟦を→を：00422_wo⟧{正|ただ}しく⟦{教|おし}える→教える：00526_oshieru⟧。",
       "english": "To teach the correct way to hold chopsticks.",
       "sense_numbers": [
         1
@@ -45,7 +45,7 @@
     },
     {
       "id": "23304_tadashiku_ex4",
-      "japanese": "{情報|じょうほう}を{正|ただ}しく{理解|りかい}することが{大切|たいせつ}です。",
+      "japanese": "⟦{情報|じょうほう}→情報：03348_jouhou⟧⟦を→を：00422_wo⟧{正|ただ}しく⟦{理解|りかい}する→理解する：06059_rikaisuru⟧こと⟦が→が：00051_ga⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧です。",
       "english": "It is important to understand the information correctly.",
       "sense_numbers": [
         1
@@ -54,8 +54,38 @@
       "notes": null
     }
   ],
-  "notes": "The adverbial form of {正|ただ}しい (correct, right, proper), formed by replacing the final い with く. Used to describe actions performed in a correct or proper manner.\n\nCOMMON COLLOCATIONS:\n- {正|ただ}しく{答|こた}える: to answer correctly\n- {正|ただ}しく{書|か}く: to write correctly\n- {正|ただ}しく{使|つか}う: to use properly\n- {正|ただ}しく{理解|りかい}する: to understand correctly\n- {正|ただ}しく{発音|はつおん}する: to pronounce correctly\n- {正|ただ}しく{作動|さどう}する: to operate properly (of machines)\n\nSIMILAR WORDS:\n- ちゃんと: properly; neatly — more colloquial; emphasizes doing something the way it should be done\n- きちんと: neatly; precisely — emphasizes orderliness and thoroughness\n- {適切|てきせつ}に: appropriately; suitably — emphasizes appropriateness to the situation\n- {正確|せいかく}に: accurately; precisely — emphasizes precision, often for measurements or data\n\nUSAGE:\n{正|ただ}しく focuses on conformity to what is correct or right, whether grammatically, factually, morally, or procedurally. It is more neutral and formal than ちゃんと.",
+  "notes": "The adverbial form of ⟦{正|ただ}しい→正しい：00893_tadashii⟧ (correct, right, proper), formed by replacing the final い with く. Used to describe actions performed in a correct or proper manner.\n\nCOMMON COLLOCATIONS:\n- {正|ただ}しく⟦{答|こた}える→答える：01099_kotaeru⟧: to answer correctly\n- {正|ただ}しく⟦{書|か}く→書く：00477_kaku⟧: to write correctly\n- {正|ただ}しく⟦{使|つか}う→使う：00473_tsukau⟧: to use properly\n- {正|ただ}しく⟦{理解|りかい}する→理解する：06059_rikaisuru⟧: to understand correctly\n- {正|ただ}しく⟦{発音|はつおん}する→発音する：26844_hatsuonsuru⟧: to pronounce correctly\n- {正|ただ}しく⟦{作動|さどう}→作動：11692_sadou⟧⟦する→する：00392_suru⟧: to operate properly (of machines)\n\nSIMILAR WORDS:\n- ⟦ちゃんと→ちゃんと：02359_chanto⟧: properly; neatly — more colloquial; emphasizes doing something the way it should be done\n- ⟦きちんと→きちんと：00222_kichinto⟧: neatly; precisely — emphasizes orderliness and thoroughness\n- ⟦{適切|てきせつ}→適切：01621_tekisetsu⟧⟦に→に：00314_ni⟧: appropriately; suitably — emphasizes appropriateness to the situation\n- ⟦{正確|せいかく}→正確：03372_seikaku⟧⟦に→に：00314_ni⟧: accurately; precisely — emphasizes precision, often for measurements or data\n\nUSAGE:\n{正|ただ}しく focuses on conformity to what is correct or right, whether grammatically, factually, morally, or procedurally. It is more neutral and formal than ⟦ちゃんと→ちゃんと：02359_chanto⟧.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02359_chanto",
+      "reading": "ちゃんと",
+      "headword": "ちゃんと",
+      "label": "properly"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00222_kichinto",
+      "reading": "きちんと",
+      "headword": "きちんと",
+      "label": "neatly"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23137_tekisetsuni",
+      "reading": "てきせつに",
+      "headword": "{適切|てきせつ}に",
+      "label": "appropriately"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03372_seikaku",
+      "reading": "せいかく",
+      "headword": "{正確|せいかく}",
+      "label": "accurately"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -69,6 +99,6 @@
       ]
     },
     "created": "2026-04-11T17:04:08Z",
-    "modified": "2026-07-31T18:20:34Z"
+    "modified": "2026-09-02T04:02:11Z"
   }
 }

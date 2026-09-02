@@ -15,46 +15,64 @@
   "examples": [
     {
       "id": "26015_bousho_ex1",
-      "japanese": "{都内|とない}{某所|ぼうしょ}で{会|あ}った。",
+      "japanese": "⟦{都内|とない}→都内：19144_tonai⟧{某所|ぼうしょ}⟦で→で：00502_de⟧⟦{会|あ}った→会う：00482_au⟧。",
       "english": "We met at a certain place in Tokyo.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26015_bousho_ex2",
-      "japanese": "{某所|ぼうしょ}にある{隠|かく}れ{家|が}レストランに{行|い}った。",
+      "japanese": "{某所|ぼうしょ}⟦に→に：00314_ni⟧⟦ある→ある：00006_aru⟧⟦{隠|かく}れ{家|が}→隠れ家：16379_kakurega⟧⟦レストラン→レストラン：01048_resutoran⟧⟦に→に：00314_ni⟧⟦{行|い}った→行く：00119_iku⟧。",
       "english": "I went to a hidden restaurant at an undisclosed location.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26015_bousho_ex3",
-      "japanese": "{撮影|さつえい}は{関東|かんとう}{某所|ぼうしょ}で{行|おこな}われたそうだ。",
+      "japanese": "⟦{撮影|さつえい}→撮影：04175_satsuei⟧⟦は→は：00079_ha⟧⟦{関東|かんとう}→関東：00186_kantou⟧{某所|ぼうしょ}⟦で→で：00502_de⟧⟦{行|おこな}われた→行う：01238_okonau⟧そうだ。",
       "english": "I heard that the filming took place at a certain location in the Kanto region.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Frequently used in media, blogs, and casual storytelling to create an air of mystery or simply to keep a location anonymous. Often preceded by a broad area name: {都内|とない}{某所|ぼうしょ} (somewhere in Tokyo), {関西|かんさい}{某所|ぼうしょ} (somewhere in Kansai).\n\nCOMMON COLLOCATIONS:\n- {都内|とない}{某所|ぼうしょ}: somewhere in Tokyo\n- {関東|かんとう}{某所|ぼうしょ}: somewhere in Kanto\n- {某所|ぼうしょ}にて: at a certain place (formal)\n- {某所|ぼうしょ}で{撮影|さつえい}する: to film at an undisclosed location\n\nSIMILAR WORDS:\n- {某社|ぼうしゃ}: a certain company — the business counterpart in the {某|ぼう}〜 series\n- どこか: somewhere — the everyday, casual equivalent\n- とある{場所|ばしょ}: a certain place — similar nuance but slightly more conversational",
+  "notes": "Frequently used in media, blogs, and casual storytelling to create an air of mystery or simply to keep a location anonymous. Often preceded by a broad area name: ⟦{都内|とない}→都内：19144_tonai⟧{某所|ぼうしょ} (somewhere in Tokyo), ⟦{関西|かんさい}→関西：00179_kansai⟧{某所|ぼうしょ} (somewhere in Kansai).\n\nCOMMON COLLOCATIONS:\n- ⟦{都内|とない}→都内：19144_tonai⟧{某所|ぼうしょ}: somewhere in Tokyo\n- ⟦{関東|かんとう}→関東：00186_kantou⟧{某所|ぼうしょ}: somewhere in Kanto\n- {某所|ぼうしょ}⟦にて→〜にて：21803_nite⟧: at a certain place (formal)\n- {某所|ぼうしょ}⟦で→で：00502_de⟧⟦{撮影|さつえい}する→撮影する：21990_satsueisuru⟧: to film at an undisclosed location\n\nSIMILAR WORDS:\n- ⟦{某社|ぼうしゃ}→某社：26014_bousha⟧: a certain company — the business counterpart in the ⟦{某|ぼう}→某：19351_bou⟧〜 series\n- ⟦どこか→どこか：02361_dokoka⟧: somewhere — the everyday, casual equivalent\n- とある⟦{場所|ばしょ}→場所：00829_basho⟧: a certain place — similar nuance but slightly more conversational",
   "cross_references": [
     {
       "type": "related",
       "target_id": "26014_bousha",
       "reading": "ぼうしゃ",
       "label": "某〜 pattern for companies"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02361_dokoka",
+      "reading": "どこか",
+      "headword": "どこか",
+      "label": "somewhere"
     }
   ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["geography"]
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "geography"
+      ]
     },
     "created": "2026-04-28T16:12:29Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T04:02:24Z"
   }
 }

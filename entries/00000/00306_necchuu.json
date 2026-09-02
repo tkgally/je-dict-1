@@ -2,7 +2,7 @@
   "id": "00306_necchuu",
   "headword": "{熱中|ねっちゅう}",
   "reading": "ねっちゅう",
-  "part_of_speech": "noun; suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "enthusiasm; absorption",
   "conjugation": {
     "type": "suru",
@@ -130,7 +130,7 @@
       ]
     }
   ],
-  "notes": "{熱中|ねっちゅう} describes intense absorption or enthusiasm for something.\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n- No standard transitive pair\n- Pattern: {熱中|ねっちゅう}する\n\nCOMMON PATTERNS:\n- 〜⟦に→に：00314_ni⟧{熱中|ねっちゅう}する (to be absorbed in ~)\n- {熱中|ねっちゅう}している (is engrossed)\n- {熱中|ねっちゅう}する⟦あまり→あまり：00604_amari⟧ (being so absorbed that...)\n\nRELATED EXPRESSIONS:\n- ⟦{熱中症|ねっちゅうしょう}→熱中症：08330_necchuushou⟧ (heat stroke) - uses same kanji but different meaning\n- ⟦{夢中|むちゅう}→夢中：03752_muchuu⟧ - similar meaning (completely absorbed, crazy about)\n- ⟦{没頭|ぼっとう}→没頭：07625_bottou⟧ - more formal (to devote oneself to)\n\nNUANCE:\n- {熱中|ねっちゅう} implies passionate, intense focus\n- Can be positive (dedication) or cautionary (obsession)\n- Often used with hobbies, sports, games, work\n\nASPECT (ている):\n- [X]⟦に→に：00314_ni⟧{熱中|ねっちゅう}している: is absorbed in X, is engrossed in X (stative — describes an ongoing mental state)\n- {熱中|ねっちゅう}していた: was absorbed (past continuing state)\n- Note: {熱中|ねっちゅう}する describes a mental state of absorption. The ている form is the default way to describe being currently engrossed in something. ⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{研究|けんきゅう}→研究：01396_kenkyuu⟧⟦に→に：00314_ni⟧{熱中|ねっちゅう}している = \"He is absorbed in his research\" (an ongoing state of dedication, not a momentary action).",
+  "notes": "{熱中|ねっちゅう} describes intense absorption or enthusiasm for something.\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n- No standard transitive pair\n- Pattern: {熱中|ねっちゅう}⟦する→する：00392_suru⟧\n\nCOMMON PATTERNS:\n- 〜⟦に→に：00314_ni⟧{熱中|ねっちゅう}⟦する→する：00392_suru⟧ (to be absorbed in ~)\n- {熱中|ねっちゅう}⟦している→する：00392_suru⟧ (is engrossed)\n- {熱中|ねっちゅう}⟦する→する：00392_suru⟧⟦あまり→あまり：00604_amari⟧ (being so absorbed that...)\n\nRELATED WORDS:\n- ⟦{熱中症|ねっちゅうしょう}→熱中症：08330_necchuushou⟧ (heat stroke) - uses same kanji but different meaning\n- ⟦{夢中|むちゅう}→夢中：03752_muchuu⟧ - similar meaning (completely absorbed, crazy about)\n- ⟦{没頭|ぼっとう}→没頭：07625_bottou⟧ - more formal (to devote oneself to)\n\nUSAGE:\n- {熱中|ねっちゅう} implies passionate, intense focus\n- Can be positive (dedication) or cautionary (obsession)\n- Often used with hobbies, sports, games, work\n\nASPECT (ている):\n- [X]⟦に→に：00314_ni⟧{熱中|ねっちゅう}⟦している→する：00392_suru⟧: is absorbed in X, is engrossed in X (stative — describes an ongoing mental state)\n- {熱中|ねっちゅう}⟦していた→する：00392_suru⟧: was absorbed (past continuing state)\n- Note: {熱中|ねっちゅう}⟦する→する：00392_suru⟧ describes a mental state of absorption. The て⟦いる→いる：00495_iru⟧ form is the default way to describe being currently engrossed in something. ⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{研究|けんきゅう}→研究：01396_kenkyuu⟧⟦に→に：00314_ni⟧{熱中|ねっちゅう}⟦している→する：00392_suru⟧ = \"He is absorbed in his research\" (an ongoing state of dedication, not a momentary action).",
   "cross_references": [
     {
       "type": "synonym",
@@ -145,11 +145,18 @@
       "headword": "{没頭|ぼっとう}",
       "label": "devote oneself",
       "target_id": "07625_bottou"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05087_jounetsu",
+      "reading": "じょうねつ",
+      "headword": "{情熱|じょうねつ}",
+      "label": "passion"
     }
   ],
   "metadata": {
     "created": "2026-01-13T03:14:22Z",
-    "modified": "2026-05-10T15:10:02Z",
+    "modified": "2026-09-02T04:00:57Z",
     "ai_model": "claude-opus-4-5-20251101",
     "vocabulary_tier": "general",
     "tags": {

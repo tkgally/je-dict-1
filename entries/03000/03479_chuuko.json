@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "SIMILAR WORDS:\n・{中古|ちゅうこ}: Used, secondhand (standard term for pre-owned goods)\n・⟦{古|ふる}い→古い：00488_furui⟧: Old (general adjective, not specifically 'used')\n・⟦お{古|ふる}→お古：noentry⟧: Hand-me-down (especially clothes passed to younger siblings)\n\nCOMMON COLLOCATIONS:\n・{中古|ちゅうこ}⟦{車|しゃ}→車：09874_sha⟧/⟦{車|くるま}→車：00516_kuruma⟧ (used car)\n・{中古|ちゅうこ}⟦{品|ひん}→品：03712_hin⟧ (used goods, secondhand items)\n・{中古|ちゅうこ}⟦マンション→マンション：01035_manshon⟧ (pre-owned apartment/condo)\n・{中古|ちゅうこ}⟦{住宅|じゅうたく}→住宅：03280_juutaku⟧ (pre-owned house)\n\nUSAGE NOTE:\n{中古|ちゅうこ} is neutral and commonly used in commerce. For something very old or antique, ⟦{骨董品|こっとうひん}→骨董品：06990_kottouhin⟧ is used instead.",
+  "notes": "SIMILAR WORDS:\n- {中古|ちゅうこ}: Used, secondhand (standard term for pre-owned goods)\n- ⟦{古|ふる}い→古い：00488_furui⟧: Old (general adjective, not specifically 'used')\n- ⟦お{古|ふる}→お古：noentry⟧: Hand-me-down (especially clothes passed to younger siblings)\n\nCOMMON COLLOCATIONS:\n- {中古|ちゅうこ}⟦{車|しゃ}→車：09874_sha⟧/⟦{車|くるま}→車：00516_kuruma⟧ (used car)\n- {中古|ちゅうこ}⟦{品|ひん}→品：03712_hin⟧ (used goods, secondhand items)\n- {中古|ちゅうこ}⟦マンション→マンション：01035_manshon⟧ (pre-owned apartment/condo)\n- {中古|ちゅうこ}⟦{住宅|じゅうたく}→住宅：03280_juutaku⟧ (pre-owned house)\n\nUSAGE:\n{中古|ちゅうこ} is neutral and commonly used in commerce. For something very old or antique, ⟦{骨董品|こっとうひん}→骨董品：06990_kottouhin⟧ is used instead.",
   "cross_references": [
     {
       "type": "antonym",
@@ -58,11 +58,46 @@
       "reading": "しんちく",
       "headword": "{新築|しんちく}",
       "label": "newly built"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00488_furui",
+      "reading": "ふるい",
+      "headword": "{古|ふる}い",
+      "label": "Old"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20674_shinpindouyou",
+      "reading": "しんぴんどうよう",
+      "headword": "{新品同様|しんぴんどうよう}",
+      "label": "like new"
+    },
+    {
+      "type": "antonym",
+      "target_id": "21316_mishiyou",
+      "reading": "みしよう",
+      "headword": "{未使用|みしよう}",
+      "label": "unused"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25681_riyuusu",
+      "reading": "りゆーす",
+      "headword": "リユース",
+      "label": "reuse"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29014_chiku",
+      "reading": "ちく",
+      "headword": "{築|ちく}",
+      "label": "(building) age"
     }
   ],
   "metadata": {
     "created": "2026-01-12T09:19:30Z",
-    "modified": "2026-05-25T20:06:16Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "schema_version": "2.0",

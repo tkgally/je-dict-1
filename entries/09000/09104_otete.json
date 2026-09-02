@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "09104_otete_ex1",
-      "japanese": "おてて{洗|あら}おうね。",
+      "japanese": "おてて⟦{洗|あら}おう→洗う：00827_arau⟧⟦ね→ね：09474_ne⟧。",
       "english": "Let's wash your hands.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "09104_otete_ex2",
-      "japanese": "おててをつないで。",
+      "japanese": "おてて⟦を→を：00422_wo⟧つないで。",
       "english": "Hold hands.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "09104_otete_ex3",
-      "japanese": "{赤|あか}ちゃんがおててをぱちぱちしている。",
+      "japanese": "⟦{赤|あか}ちゃん→赤ちゃん：01282_akachan⟧⟦が→が：00051_ga⟧おてて⟦を→を：00422_wo⟧⟦ぱちぱち→ぱちぱち：05889_pachipachi⟧⟦している→する：00392_suru⟧。",
       "english": "The baby is clapping their hands.",
       "sense_numbers": [
         1
@@ -43,11 +43,40 @@
       "notes": null
     }
   ],
-  "notes": "WORD FORMATION: お (honorific/affectionate prefix) + て (hand) + て (reduplication for baby talk).\n\nUSAGE: Used by adults when speaking to babies and toddlers, or by young children themselves. Part of a set of baby talk words.\n\nRELATED BABY TALK WORDS:\n- おめめ (eyes)\n- あんよ (feet/walking)\n- ねんね (sleep)\n- まんま (food)\n\nNOTE: Using baby talk with older children may be seen as babying them.",
-  "cross_references": [],
+  "notes": "WORD FORMATION: お (honorific/affectionate prefix) + て (hand) + て (reduplication for baby talk).\n\nUSAGE: Used by adults when speaking to babies and toddlers, or by young children themselves. Part of a set of baby talk words.\n\nRELATED BABY TALK WORDS:\n- ⟦おめめ→おめめ：09105_omeme⟧ (eyes)\n- ⟦あんよ→あんよ：09106_anyo⟧ (feet/walking)\n- ねん⟦ね→ね：09474_ne⟧ (sleep)\n- ⟦まんま→まんま：09108_manma⟧ (food)\n\nNOTE: Using baby talk with older children may be seen as babying them.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "09105_omeme",
+      "reading": "おめめ",
+      "headword": "おめめ",
+      "label": "eyes"
+    },
+    {
+      "type": "related",
+      "target_id": "09106_anyo",
+      "reading": "あんよ",
+      "headword": "あんよ",
+      "label": "feet/walking"
+    },
+    {
+      "type": "related",
+      "target_id": "09107_nenne",
+      "reading": "ねんね",
+      "headword": "ねんね",
+      "label": "sleep"
+    },
+    {
+      "type": "related",
+      "target_id": "09108_manma",
+      "reading": "まんま",
+      "headword": "まんま",
+      "label": "food"
+    }
+  ],
   "metadata": {
     "created": "2026-01-31T04:25:12Z",
-    "modified": "2026-08-12T21:25:53Z",
+    "modified": "2026-09-02T04:01:17Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

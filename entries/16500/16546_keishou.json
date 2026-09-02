@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "16546_keishou_ex1",
-      "japanese": "{幸|さいわ}い{軽傷|けいしょう}で{済|す}んだ。",
+      "japanese": "⟦{幸|さいわ}い→幸い：02774_saiwai⟧{軽傷|けいしょう}⟦で→で：00502_de⟧⟦{済|す}んだ→済む：01950_sumu⟧。",
       "english": "Fortunately, it was just a minor injury.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "16546_keishou_ex2",
-      "japanese": "{乗客|じょうきゃく}3{人|にん}が{軽傷|けいしょう}を{負|お}った。",
+      "japanese": "⟦{乗客|じょうきゃく}→乗客：03284_joukyaku⟧3⟦{人|にん}→〜人：00658_nin⟧⟦が→が：00051_ga⟧{軽傷|けいしょう}⟦を→を：00422_wo⟧⟦{負|お}った→負う：02017_ou⟧。",
       "english": "Three passengers sustained minor injuries.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "16546_keishou_ex3",
-      "japanese": "{地震|じしん}による{被害|ひがい}は{軽傷|けいしょう}{者|しゃ}{数名|すうめい}にとどまった。",
+      "japanese": "⟦{地震|じしん}→地震：01608_jishin⟧⟦による→による：28349_niyoru⟧⟦{被害|ひがい}→被害：02572_higai⟧⟦は→は：00079_ha⟧{軽傷|けいしょう}⟦{者|しゃ}→〜者：04662_sha⟧{数名|すうめい}⟦に→に：00314_ni⟧とどまった。",
       "english": "The earthquake damage was limited to several people with minor injuries.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA formal term commonly used in news reports and official statements. Injuries are classified by severity: {軽傷|けいしょう} (minor), {重傷|じゅうしょう} (serious), {重体|じゅうたい} (critical condition). Note that {軽傷|けいしょう} uses the kanji {傷|しょう} (wound), while the synonym {軽症|けいしょう} uses {症|しょう} (condition/illness).\n\nCOMMON COLLOCATIONS:\n- {軽傷|けいしょう}を{負|お}う (to sustain a minor injury)\n- {軽傷|けいしょう}で{済|す}む (to get away with just a minor injury)\n- {軽傷|けいしょう}{者|しゃ} (person with minor injuries)\n\nSIMILAR WORDS:\n- {重傷|じゅうしょう}: serious injury — a severe wound requiring hospitalization\n- {軽症|けいしょう}: mild condition — same reading, but refers to mild illness rather than physical wounds\n- {打撲|だぼく}: bruise, contusion — a specific type of minor injury",
+  "notes": "USAGE:\nA formal term commonly used in news reports and official statements. Injuries are classified by severity: {軽傷|けいしょう} (minor), ⟦{重傷|じゅうしょう}→重傷：14414_juushou⟧ (serious), ⟦{重体|じゅうたい}→重体：01753_juutai⟧ (critical condition). Note that {軽傷|けいしょう} uses the kanji {傷|しょう} (wound), while the synonym ⟦{軽症|けいしょう}→軽症：14348_keishou⟧ uses {症|しょう} (condition/illness).\n\nCOMMON COLLOCATIONS:\n- {軽傷|けいしょう}⟦を→を：00422_wo⟧⟦{負|お}う→負う：02017_ou⟧ (to sustain a minor injury)\n- {軽傷|けいしょう}⟦で→で：00502_de⟧⟦{済|す}む→済む：01950_sumu⟧ (to get away with just a minor injury)\n- {軽傷|けいしょう}⟦{者|しゃ}→〜者：04662_sha⟧ (person with minor injuries)\n\nSIMILAR WORDS:\n- ⟦{重傷|じゅうしょう}→重傷：14414_juushou⟧: serious injury — a severe wound requiring hospitalization\n- ⟦{軽症|けいしょう}→軽症：14348_keishou⟧: mild condition — same reading, but refers to mild illness rather than physical wounds\n- ⟦{打撲|だぼく}→打撲：05017_daboku⟧: bruise, contusion — a specific type of minor injury",
   "cross_references": [
     {
       "type": "antonym",
@@ -59,11 +59,25 @@
       "reading": "じゅうたい",
       "headword": "{重体|じゅうたい}",
       "label": "critical condition"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05017_daboku",
+      "reading": "だぼく",
+      "headword": "{打撲|だぼく}",
+      "label": "bruise, contusion"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30429_ookega",
+      "reading": "おおけが",
+      "headword": "{大|おお}けが",
+      "label": "serious injury"
     }
   ],
   "metadata": {
     "created": "2026-03-13T06:49:15Z",
-    "modified": "2026-05-04T07:39:45Z",
+    "modified": "2026-09-02T04:01:45Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

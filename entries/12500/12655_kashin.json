@@ -15,42 +15,62 @@
   "examples": [
     {
       "id": "12655_kashin_ex1",
-      "japanese": "{殿様|とのさま}に{仕|つか}える{家臣|かしん}たち。",
+      "japanese": "⟦{殿様|とのさま}→殿様：10455_tonosama⟧⟦に→に：00314_ni⟧⟦{仕|つか}える→仕える：11547_tsukaeru⟧{家臣|かしん}たち。",
       "english": "The retainers who serve the lord.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12655_kashin_ex2",
-      "japanese": "{家臣|かしん}たちは{主君|しゅくん}に{忠誠|ちゅうせい}を{誓|ちか}った。",
+      "japanese": "{家臣|かしん}たち⟦は→は：00079_ha⟧⟦{主君|しゅくん}→主君：11712_shukun⟧⟦に→に：00314_ni⟧⟦{忠誠|ちゅうせい}→忠誠：12593_chuusei⟧⟦を→を：00422_wo⟧⟦{誓|ちか}った→誓う：00030_chikau⟧。",
       "english": "The retainers pledged their loyalty to their lord.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12655_kashin_ex3",
-      "japanese": "{織田|おだ}{信長|のぶなが}は{多|おお}くの{有能|ゆうのう}な{家臣|かしん}を{抱|かか}え、{天下|てんか}{統一|とういつ}を{目指|めざ}した。",
+      "japanese": "{織田|おだ}{信長|のぶなが}⟦は→は：00079_ha⟧{多|おお}く⟦の→の：09472_no⟧⟦{有能|ゆうのう}→有能：03650_yuunou⟧な{家臣|かしん}⟦を→を：00422_wo⟧⟦{抱|かか}え→抱える：02031_kakaeru⟧、⟦{天下|てんか}{統一|とういつ}→天下統一：20946_tenkatouitsu⟧⟦を→を：00422_wo⟧⟦{目指|めざ}した→目指す：10528_mezasu⟧。",
       "english": "Oda Nobunaga gathered many capable retainers and aimed to unify the country.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nPrimarily a historical term from the feudal era. {家臣|かしん} specifically implies a hereditary or household retainer — someone who belongs to the lord's household as opposed to a temporary ally. The related term {家臣団|かしんだん} refers to the collective body of retainers.\n\nIn modern usage, {家臣|かしん} appears mainly in historical fiction, period dramas, and discussions of Japanese history.\n\nCOMMON COLLOCATIONS:\n- {家臣|かしん}{団|だん}: retainer corps, body of vassals\n- {家臣|かしん}に{仕|つか}える: to serve as a retainer\n- {忠実|ちゅうじつ}な{家臣|かしん}: loyal retainer\n- {譜代|ふだい}の{家臣|かしん}: hereditary retainer",
-  "cross_references": [],
+  "notes": "USAGE:\nPrimarily a historical term from the feudal era. {家臣|かしん} specifically implies a hereditary or household retainer — someone who belongs to the lord's household as opposed to a temporary ally. The related term {家臣団|かしんだん} refers to the collective body of retainers.\n\nIn modern usage, {家臣|かしん} appears mainly in historical fiction, period dramas, and discussions of Japanese history.\n\nCOMMON COLLOCATIONS:\n- {家臣|かしん}⟦{団|だん}→〜団：04663_dan⟧: retainer corps, body of vassals\n- {家臣|かしん}⟦に→に：00314_ni⟧⟦{仕|つか}える→仕える：11547_tsukaeru⟧: to serve as a retainer\n- ⟦{忠実|ちゅうじつ}→忠実：12570_chuujitsu⟧な{家臣|かしん}: loyal retainer\n- {譜代|ふだい}⟦の→の：09472_no⟧{家臣|かしん}: hereditary retainer",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "11712_shukun",
+      "reading": "しゅくん",
+      "headword": "{主君|しゅくん}",
+      "label": "feudal lord, liege lord"
+    }
+  ],
   "metadata": {
     "created": "2026-02-22T05:24:05Z",
-    "modified": "2026-02-22T05:24:05Z",
+    "modified": "2026-09-02T04:01:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["person"],
-      "style": ["written"]
+      "semantic": [
+        "person"
+      ],
+      "style": [
+        "written"
+      ]
     }
   }
 }

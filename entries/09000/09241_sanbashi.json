@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "09241_sanbashi_ex1",
-      "japanese": "{船|ふね}が{桟橋|さんばし}に{着|つ}いた。",
+      "japanese": "⟦{船|ふね}→船：00775_fune⟧⟦が→が：00051_ga⟧{桟橋|さんばし}⟦に→に：00314_ni⟧⟦{着|つ}いた→着く：00680_tsuku⟧。",
       "english": "The ship arrived at the pier.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "09241_sanbashi_ex2",
-      "japanese": "{桟橋|さんばし}で{釣|つ}りをする。",
+      "japanese": "{桟橋|さんばし}⟦で→で：00502_de⟧⟦{釣|つ}り→釣り：03439_tsuri⟧⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧。",
       "english": "To fish from the pier.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "09241_sanbashi_ex3",
-      "japanese": "{観光船|かんこうせん}は{桟橋|さんばし}から{出発|しゅっぱつ}する。",
+      "japanese": "{観光船|かんこうせん}⟦は→は：00079_ha⟧{桟橋|さんばし}⟦から→から：00504_kara⟧⟦{出発|しゅっぱつ}する→出発する：01832_shuppatsusuru⟧。",
       "english": "The sightseeing boat departs from the pier.",
       "notes": null,
       "has_audio": false,
@@ -43,11 +43,54 @@
       ]
     }
   ],
-  "notes": "{桟橋|さんばし} refers to a structure extending into water where boats dock and passengers board or disembark. It can range from a small wooden jetty to a larger pier.\n\nWORD FORMATION:\n{桟|さん} (scaffold, plank) + {橋|ばし} (bridge).\n\nCOMMON COLLOCATIONS:\n- {桟橋|さんばし}に{着|つ}く: to arrive at the pier\n- {桟橋|さんばし}から{出発|しゅっぱつ}する: to depart from the pier\n- {桟橋|さんばし}で{釣|つ}りをする: to fish from the pier\n- {桟橋|さんばし}に{船|ふね}を{繋|つな}ぐ: to moor a boat at the pier\n\nSIMILAR WORDS:\n- {埠頭|ふとう}: wharf, quay (larger, for commercial/cargo ships)\n- {波止場|はとば}: wharf, dock (slightly literary or nostalgic tone)\n- {港|みなと}: harbor, port (broader term for the whole port area)\n- {桟橋|さんばし} typically suggests a smaller structure, often for passenger boats or leisure use",
-  "cross_references": [],
+  "notes": "{桟橋|さんばし} refers to a structure extending into water where boats dock and passengers board or disembark. It can range from a small wooden jetty to a larger pier.\n\nFORMS:\n{桟|さん} (scaffold, plank) + {橋|ばし} (bridge).\n\nCOMMON COLLOCATIONS:\n- {桟橋|さんばし}⟦に→に：00314_ni⟧⟦{着|つ}く→着く：00680_tsuku⟧: to arrive at the pier\n- {桟橋|さんばし}⟦から→から：00504_kara⟧⟦{出発|しゅっぱつ}する→出発する：01832_shuppatsusuru⟧: to depart from the pier\n- {桟橋|さんばし}⟦で→で：00502_de⟧⟦{釣|つ}り→釣り：03439_tsuri⟧⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧: to fish from the pier\n- {桟橋|さんばし}⟦に→に：00314_ni⟧⟦{船|ふね}→船：00775_fune⟧⟦を→を：00422_wo⟧⟦{繋|つな}ぐ→繋ぐ：01962_tsunagu⟧: to moor a boat at the pier\n\nSIMILAR WORDS:\n- ⟦{埠頭|ふとう}→埠頭：20686_futou⟧: wharf, quay (larger, for commercial/cargo ships)\n- ⟦{波止場|はとば}→波止場：15348_hatoba⟧: wharf, dock (slightly literary or nostalgic tone)\n- ⟦{港|みなと}→港：01512_minato⟧: harbor, port (broader term for the whole port area)\n- {桟橋|さんばし} typically suggests a smaller structure, often for passenger boats or leisure use",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20686_futou",
+      "reading": "ふとう",
+      "headword": "{埠頭|ふとう}",
+      "label": "wharf, quay"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15348_hatoba",
+      "reading": "はとば",
+      "headword": "{波止場|はとば}",
+      "label": "wharf, dock"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01512_minato",
+      "reading": "みなと",
+      "headword": "{港|みなと}",
+      "label": "harbor, port"
+    },
+    {
+      "type": "related",
+      "target_id": "19675_ganpeki",
+      "reading": "がんぺき",
+      "headword": "{岸壁|がんぺき}",
+      "label": "quay wall"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21296_funatsukiba",
+      "reading": "ふなつきば",
+      "headword": "{船着|ふなつ}き{場|ば}",
+      "label": "boat landing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23850_mariina",
+      "reading": "まりーな",
+      "headword": "マリーナ",
+      "label": "marina (harbor for pleasure boats)"
+    }
+  ],
   "metadata": {
     "created": "2026-02-01T04:57:35Z",
-    "modified": "2026-08-12T21:25:53Z",
+    "modified": "2026-09-02T04:01:17Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

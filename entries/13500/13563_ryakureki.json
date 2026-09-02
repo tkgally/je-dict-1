@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "13563_ryakureki_ex1",
-      "japanese": "{著者|ちょしゃ}の{略歴|りゃくれき}を{読|よ}んだ。",
+      "japanese": "⟦{著者|ちょしゃ}→著者：03501_chosha⟧⟦の→の：09472_no⟧{略歴|りゃくれき}⟦を→を：00422_wo⟧⟦{読|よ}んだ→読む：00426_yomu⟧。",
       "english": "I read the author's short biography.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "13563_ryakureki_ex2",
-      "japanese": "{応募|おうぼ}の{際|さい}は{略歴|りゃくれき}を{添付|てんぷ}してください。",
+      "japanese": "⟦{応募|おうぼ}→応募：03014_oubo⟧⟦の→の：09472_no⟧⟦{際|さい}→際：02819_sai⟧⟦は→は：00079_ha⟧{略歴|りゃくれき}⟦を→を：00422_wo⟧⟦{添付|てんぷ}→添付：07376_tenpu⟧⟦して→する：00392_suru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please attach a brief résumé when applying.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "13563_ryakureki_ex3",
-      "japanese": "セミナーの{資料|しりょう}には{各|かく}{講師|こうし}の{略歴|りゃくれき}と{専門|せんもん}{分野|ぶんや}が{記載|きさい}されていた。",
+      "japanese": "⟦セミナー→セミナー：11000_seminaa⟧⟦の→の：09472_no⟧⟦{資料|しりょう}→資料：04166_shiryou⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{各|かく}→各〜：00449_kaku⟧⟦{講師|こうし}→講師：00451_koushi⟧⟦の→の：09472_no⟧{略歴|りゃくれき}⟦と→と：00512_to⟧⟦{専門|せんもん}→専門：01251_senmon⟧⟦{分野|ぶんや}→分野：03612_bunya⟧⟦が→が：00051_ga⟧⟦{記載|きさい}→記載：14169_kisai⟧⟦されていた→する：00392_suru⟧。",
       "english": "The seminar materials included a brief biography and area of expertise for each instructor.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{略歴|りゃくれき} is a formal word for a condensed personal history. It appears in printed materials like conference programs, book jackets, and official introductions. Unlike a full {履歴書|りれきしょ} (formal résumé), a {略歴|りゃくれき} typically lists only key highlights.\n\nCOMMON COLLOCATIONS:\n- {略歴|りゃくれき}を{紹介|しょうかい}する (introduce someone's background)\n- {著者|ちょしゃ}{略歴|りゃくれき} (author biography)\n- {略歴|りゃくれき}を{添付|てんぷ}する (attach a brief résumé)\n\nSIMILAR WORDS:\n- {履歴書|りれきしょ}: résumé, CV (formal, detailed document for job applications)\n- {経歴|けいれき}: career history, background (detailed account of work experience)\n- {自己紹介|じこしょうかい}: self-introduction (broader, not limited to career)",
+  "notes": "USAGE:\n{略歴|りゃくれき} is a formal word for a condensed personal history. It appears in printed materials like conference programs, book jackets, and official introductions. Unlike a full ⟦{履歴書|りれきしょ}→履歴書：04691_rirekisho⟧ (formal résumé), a {略歴|りゃくれき} typically lists only key highlights.\n\nCOMMON COLLOCATIONS:\n- {略歴|りゃくれき}⟦を→を：00422_wo⟧⟦{紹介|しょうかい}する→紹介する：05641_shoukaisuru⟧ (introduce someone's background)\n- ⟦{著者|ちょしゃ}→著者：03501_chosha⟧{略歴|りゃくれき} (author biography)\n- {略歴|りゃくれき}⟦を→を：00422_wo⟧⟦{添付|てんぷ}→添付：07376_tenpu⟧⟦する→する：00392_suru⟧ (attach a brief résumé)\n\nSIMILAR WORDS:\n- ⟦{履歴書|りれきしょ}→履歴書：04691_rirekisho⟧: résumé, CV (formal, detailed document for job applications)\n- ⟦{経歴|けいれき}→経歴：13795_keireki⟧: career history, background (detailed account of work experience)\n- ⟦{自己紹介|じこしょうかい}→自己紹介：12331_jikoshoukai⟧: self-introduction (broader, not limited to career)",
   "cross_references": [
     {
       "type": "related",
@@ -52,11 +52,25 @@
       "reading": "けいれき",
       "headword": "{経歴|けいれき}",
       "label": "career history"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04691_rirekisho",
+      "reading": "りれきしょ",
+      "headword": "{履歴書|りれきしょ}",
+      "label": "résumé, CV"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12331_jikoshoukai",
+      "reading": "じこしょうかい",
+      "headword": "{自己紹介|じこしょうかい}",
+      "label": "self-introduction"
     }
   ],
   "metadata": {
     "created": "2026-02-25T14:29:26Z",
-    "modified": "2026-04-29T04:08:17Z",
+    "modified": "2026-09-02T04:01:33Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

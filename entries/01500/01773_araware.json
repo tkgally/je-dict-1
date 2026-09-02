@@ -29,7 +29,7 @@
     },
     {
       "id": "01773_araware_ex2",
-      "japanese": "⟦{感謝|かんしゃ}→感謝：00181_kansha⟧⟦の→の：09472_no⟧⟦{気持|きも}ち→気持ち：01385_kimochi⟧⟦の→の：09472_no⟧{現|あらわ}れとして⟦{花|はな}→花：00523_hana⟧⟦を→を：00422_wo⟧⟦{贈|おく}った→贈る：09862_okuru⟧。",
+      "japanese": "⟦{感謝|かんしゃ}→感謝：00181_kansha⟧⟦の→の：09472_no⟧⟦{気持|きも}ち→気持ち：01385_kimochi⟧⟦の→の：09472_no⟧{現|あらわ}れ⟦として→として：06802_toshite⟧⟦{花|はな}→花：00523_hana⟧⟦を→を：00422_wo⟧⟦{贈|おく}った→贈る：09862_okuru⟧。",
       "english": "I gave flowers as an expression of gratitude.",
       "notes": null,
       "has_audio": false,
@@ -59,7 +59,7 @@
     },
     {
       "id": "01773_araware_ex5",
-      "japanese": "⟦{不満|ふまん}→不満：02497_fuman⟧⟦の→の：09472_no⟧{現|あらわ}れとして⟦{見|み}るべきだ→見る：00283_miru⟧。",
+      "japanese": "⟦{不満|ふまん}→不満：02497_fuman⟧⟦の→の：09472_no⟧{現|あらわ}れ⟦として→として：06802_toshite⟧⟦{見|み}るべきだ→見る：00283_miru⟧。",
       "english": "It should be seen as an indication of dissatisfaction.",
       "notes": null,
       "has_audio": false,
@@ -78,7 +78,7 @@
       ]
     }
   ],
-  "notes": "The noun form of ⟦{現|あらわ}れる→現れる：01870_arawareru⟧ (to appear). Used to describe something abstract — a feeling, quality, or condition — made visible or tangible.\n\nCOMMON PATTERNS:\n- 〜⟦の→の：09472_no⟧{現|あらわ}れ: manifestation/expression of ~\n- ⟦{気持|きも}ち→気持ち：01385_kimochi⟧⟦の→の：09472_no⟧{現|あらわ}れ: expression of feelings\n- 〜⟦の→の：09472_no⟧{現|あらわ}れとして: as a manifestation of ~\n\nUSAGE:\nOften used in somewhat formal or analytical contexts. The thing manifested is typically abstract (emotions, qualities, conditions), while the {現|あらわ}れ itself is the concrete or visible sign.\n\nSIMILAR WORDS:\n- ⟦{表|あらわ}れ→表れる：14276_arawareru⟧: can also mean manifestation (with different kanji)\n- ⟦{兆|きざ}し→兆し：06633_kizashi⟧: sign, omen (forward-looking)\n- ⟦{証拠|しょうこ}→証拠：10575_shouko⟧: evidence (more concrete, factual)",
+  "notes": "The noun form of ⟦{現|あらわ}れる→現れる：01870_arawareru⟧ (to appear). Used to describe something abstract — a feeling, quality, or condition — made visible or tangible.\n\nCOMMON PATTERNS:\n- 〜⟦の→の：09472_no⟧{現|あらわ}れ: manifestation/expression of ~\n- ⟦{気持|きも}ち→気持ち：01385_kimochi⟧⟦の→の：09472_no⟧{現|あらわ}れ: expression of feelings\n- 〜⟦の→の：09472_no⟧{現|あらわ}れ⟦として→として：06802_toshite⟧: as a manifestation of ~\n\nUSAGE:\nOften used in somewhat formal or analytical contexts. The thing manifested is typically abstract (emotions, qualities, conditions), while the {現|あらわ}れ itself is the concrete or visible sign.\n\nSIMILAR WORDS:\n- ⟦{表|あらわ}れ→表れる：14276_arawareru⟧: can also mean manifestation (with different kanji)\n- ⟦{兆|きざ}し→兆し：06633_kizashi⟧: sign, omen (forward-looking)\n- ⟦{証拠|しょうこ}→証拠：10575_shouko⟧: evidence (more concrete, factual)",
   "prominent_see_also": [
     {
       "target_id": "01870_arawareru",
@@ -87,10 +87,32 @@
       "note": "verb form"
     }
   ],
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14276_arawareru",
+      "reading": "あらわれる",
+      "headword": "{表|あらわ}れる",
+      "label": "can also mean manifestation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06633_kizashi",
+      "reading": "きざし",
+      "headword": "{兆|きざ}し",
+      "label": "sign, omen"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10575_shouko",
+      "reading": "しょうこ",
+      "headword": "{証拠|しょうこ}",
+      "label": "evidence"
+    }
+  ],
   "metadata": {
     "created": "2026-01-09T12:15:00Z",
-    "modified": "2026-05-16T22:11:50Z",
+    "modified": "2026-09-02T04:01:00Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

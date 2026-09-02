@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "12720_houkago_ex1",
-      "japanese": "{放課後|ほうかご}に{友達|ともだち}と{遊|あそ}んだ。",
+      "japanese": "{放課後|ほうかご}⟦に→に：00314_ni⟧⟦{友達|ともだち}→友達：01478_tomodachi⟧⟦と→と：00512_to⟧⟦{遊|あそ}んだ→遊ぶ：00550_asobu⟧。",
       "english": "I hung out with friends after school.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "12720_houkago_ex2",
-      "japanese": "{放課後|ほうかご}は{部活|ぶかつ}の{練習|れんしゅう}がある。",
+      "japanese": "{放課後|ほうかご}⟦は→は：00079_ha⟧⟦{部活|ぶかつ}→部活：05377_bukatsu⟧⟦の→の：09472_no⟧⟦{練習|れんしゅう}→練習：05323_renshuu⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "I have club practice after school.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "12720_houkago_ex3",
-      "japanese": "{放課後|ほうかご}の{教室|きょうしつ}に{残|のこ}って、{先生|せんせい}に{質問|しつもん}した。",
+      "japanese": "{放課後|ほうかご}⟦の→の：09472_no⟧⟦{教室|きょうしつ}→教室：00794_kyoushitsu⟧⟦に→に：00314_ni⟧⟦{残|のこ}って→残る：01187_nokoru⟧、⟦{先生|せんせい}→先生：00609_sensei⟧⟦に→に：00314_ni⟧⟦{質問|しつもん}した→質問する：05637_shitsumonsuru⟧。",
       "english": "I stayed in the classroom after school and asked the teacher a question.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,26 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{放課後|ほうかご} specifically refers to the period after school classes end. It is primarily associated with elementary, middle, and high school contexts — not typically used for university. A culturally significant time in Japanese school life, as many students participate in {部活動|ぶかつどう} (club activities) during this period.\n\nCOMMON COLLOCATIONS:\n- {放課後|ほうかご}の{教室|きょうしつ}: the classroom after school\n- {放課後|ほうかご}に{残|のこ}る: to stay after school\n- {放課後|ほうかご}の{活動|かつどう}: after-school activities",
-  "cross_references": [],
+  "notes": "USAGE:\n{放課後|ほうかご} specifically refers to the period after school classes end. It is primarily associated with elementary, middle, and high school contexts — not typically used for university. A culturally significant time in Japanese school life, as many students participate in ⟦{部活動|ぶかつどう}→部活動：14539_bukatsudou⟧ (club activities) during this period.\n\nCOMMON COLLOCATIONS:\n- {放課後|ほうかご}⟦の→の：09472_no⟧⟦{教室|きょうしつ}→教室：00794_kyoushitsu⟧: the classroom after school\n- {放課後|ほうかご}⟦に→に：00314_ni⟧⟦{残|のこ}る→残る：01187_nokoru⟧: to stay after school\n- {放課後|ほうかご}⟦の→の：09472_no⟧⟦{活動|かつどう}→活動：00201_katsudou⟧: after-school activities",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "22045_gekoujikan",
+      "reading": "げこうじかん",
+      "headword": "{下校時間|げこうじかん}",
+      "label": "school dismissal time"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27204_kagai",
+      "reading": "かがい",
+      "headword": "{課外|かがい}",
+      "label": "extracurricular"
+    }
+  ],
   "metadata": {
     "created": "2026-02-22T06:23:32Z",
-    "modified": "2026-04-27T07:31:57Z",
+    "modified": "2026-09-02T04:01:30Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

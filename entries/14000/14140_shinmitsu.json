@@ -3,7 +3,7 @@
   "id": "14140_shinmitsu",
   "headword": "{親密|しんみつ}",
   "reading": "しんみつ",
-  "part_of_speech": "adjective-na",
+  "part_of_speech": "na-adjective",
   "gloss": "intimate, close",
   "definitions": [
     {
@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "14140_shinmitsu_ex1",
-      "japanese": "{二人|ふたり}は{親密|しんみつ}な{関係|かんけい}だ。",
+      "japanese": "⟦{二人|ふたり}→二人：00622_futari⟧⟦は→は：00079_ha⟧{親密|しんみつ}な⟦{関係|かんけい}→関係：01298_kankei⟧だ。",
       "english": "The two have an intimate relationship.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14140_shinmitsu_ex2",
-      "japanese": "{両国|りょうこく}の{親密|しんみつ}な{関係|かんけい}は{長|なが}い{歴史|れきし}がある。",
+      "japanese": "⟦{両国|りょうこく}→両国：10010_ryoukoku⟧⟦の→の：09472_no⟧{親密|しんみつ}な⟦{関係|かんけい}→関係：01298_kankei⟧⟦は→は：00079_ha⟧⟦{長|なが}い→長い：00491_nagai⟧⟦{歴史|れきし}→歴史：02267_rekishi⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "The close relationship between the two countries has a long history.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14140_shinmitsu_ex3",
-      "japanese": "{仕事|しごと}を{通|とお}じて、{次第|しだい}に{親密|しんみつ}さが{増|ま}していった。",
+      "japanese": "⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦を→を：00422_wo⟧{通|とお}じて、⟦{次第|しだい}→次第：03175_shidai⟧⟦に→に：00314_ni⟧{親密|しんみつ}さ⟦が→が：00051_ga⟧⟦{増|ま}して→増す：02422_masu⟧いった。",
       "english": "Through working together, their closeness gradually grew.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\n{親密|しんみつ} is more formal than {親|した}しい (close, familiar) and is typically used for describing relationships rather than modifying people directly. It emphasizes the depth and mutual nature of closeness.\n\nCOMMON COLLOCATIONS:\n- {親密|しんみつ}な{関係|かんけい}: intimate/close relationship\n- {親密|しんみつ}さ: intimacy, closeness\n- {親密|しんみつ}になる: to become close/intimate\n- {親密|しんみつ}な{交流|こうりゅう}: close exchange/interaction\n- {親密|しんみつ}{度|ど}: degree of closeness",
+  "notes": "USAGE:\n{親密|しんみつ} is more formal than ⟦{親|した}しい→親しい：02345_shitashii⟧ (close, familiar) and is typically used for describing relationships rather than modifying people directly. It emphasizes the depth and mutual nature of closeness.\n\nCOMMON COLLOCATIONS:\n- {親密|しんみつ}な⟦{関係|かんけい}→関係：01298_kankei⟧: intimate/close relationship\n- {親密|しんみつ}さ: intimacy, closeness\n- {親密|しんみつ}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧: to become close/intimate\n- {親密|しんみつ}な⟦{交流|こうりゅう}→交流：02732_kouryuu⟧: close exchange/interaction\n- {親密|しんみつ}⟦{度|ど}→〜度：09845_do⟧: degree of closeness",
   "cross_references": [
     {
       "type": "synonym",
@@ -46,18 +52,36 @@
       "reading": "したしい",
       "headword": "{親|した}しい",
       "label": "close, familiar (everyday)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23818_yuukouteki",
+      "reading": "ゆうこうてき",
+      "headword": "{友好的|ゆうこうてき}",
+      "label": "friendly"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25559_kinmitsuna",
+      "reading": "きんみつな",
+      "headword": "{緊密|きんみつ}な",
+      "label": "close"
     }
   ],
   "metadata": {
     "created": "2026-02-28T01:20:21Z",
-    "modified": "2026-04-30T04:29:16Z",
+    "modified": "2026-09-02T04:01:36Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-na"],
+      "pos": [
+        "adjective-na"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["emotion"]
+      "semantic": [
+        "emotion"
+      ]
     }
   }
 }

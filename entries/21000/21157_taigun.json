@@ -15,40 +15,73 @@
   "examples": [
     {
       "id": "21157_taigun_ex1",
-      "japanese": "イワシの{大群|たいぐん}が{現|あらわ}れた。",
+      "japanese": "⟦イワシ→イワシ：10718_iwashi⟧⟦の→の：09472_no⟧{大群|たいぐん}⟦が→が：00051_ga⟧⟦{現|あらわ}れた→現れる：01870_arawareru⟧。",
       "english": "A huge school of sardines appeared.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21157_taigun_ex2",
-      "japanese": "バッタの{大群|たいぐん}が{農地|のうち}を{襲|おそ}った。",
+      "japanese": "⟦バッタ→バッタ：06515_batta⟧⟦の→の：09472_no⟧{大群|たいぐん}⟦が→が：00051_ga⟧⟦{農地|のうち}→農地：14354_nouchi⟧⟦を→を：00422_wo⟧⟦{襲|おそ}った→襲う：01915_osou⟧。",
       "english": "A swarm of locusts attacked the farmland.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21157_taigun_ex3",
-      "japanese": "{観光|かんこう}シーズンになると、{大群|たいぐん}の{観光客|かんこうきゃく}がこの{島|しま}を{訪|おとず}れる。",
+      "japanese": "⟦{観光|かんこう}→観光：00173_kankou⟧⟦シーズン→シーズン：10944_shiizun⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦と→と：00512_to⟧、{大群|たいぐん}⟦の→の：09472_no⟧⟦{観光客|かんこうきゃく}→観光客：03022_kankoukyaku⟧⟦が→が：00051_ga⟧⟦この→この：00962_kono⟧⟦{島|しま}→島：00885_shima⟧⟦を→を：00422_wo⟧⟦{訪|おとず}れる→訪れる：07678_otozureru⟧。",
       "english": "When tourist season arrives, throngs of tourists visit this island.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {大|たい} (large) + {群|ぐん} (group, flock). Used for impressively large numbers of living things — animals, insects, people — or sometimes objects. The word emphasizes the sheer scale of the group.\n\nCOMMON COLLOCATIONS:\n- {蝶|ちょう}の{大群|たいぐん}: a swarm of butterflies\n- {大群|たいぐん}で{押|お}し{寄|よ}せる: to swarm in; to descend in large numbers\n- {大群|たいぐん}が{発生|はっせい}する: a large group/swarm appears\n\nSIMILAR WORDS:\n- {群|む}れ: group; flock; herd — more neutral in size\n- {集団|しゅうだん}: group; mass — more organized, often used for people\n- {群衆|ぐんしゅう}: crowd; throng — specifically a crowd of people",
+  "notes": "Composed of {大|たい} (large) + ⟦{群|ぐん}→群：02790_gun⟧ (group, flock). Used for impressively large numbers of living things — animals, insects, people — or sometimes objects. The word emphasizes the sheer scale of the group.\n\nCOMMON COLLOCATIONS:\n- ⟦{蝶|ちょう}→蝶：04288_chou⟧⟦の→の：09472_no⟧{大群|たいぐん}: a swarm of butterflies\n- {大群|たいぐん}⟦で→で：00502_de⟧⟦{押|お}し{寄|よ}せる→押し寄せる：06733_oshiyoseru⟧: to swarm in; to descend in large numbers\n- {大群|たいぐん}⟦が→が：00051_ga⟧⟦{発生|はっせい}する→発生する：25529_hasseisuru⟧: a large group/swarm appears\n\nSIMILAR WORDS:\n- ⟦{群|む}れ→群れ：00298_mure⟧: group; flock; herd — more neutral in size\n- ⟦{集団|しゅうだん}→集団：03211_shuudan⟧: group; mass — more organized, often used for people\n- ⟦{群衆|ぐんしゅう}→群衆：14930_gunshuu⟧: crowd; throng — specifically a crowd of people",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00298_mure",
+      "reading": "むれ",
+      "headword": "{群|む}れ",
+      "label": "group"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03211_shuudan",
+      "reading": "しゅうだん",
+      "headword": "{集団|しゅうだん}",
+      "label": "group"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14930_gunshuu",
+      "reading": "ぐんしゅう",
+      "headword": "{群衆|ぐんしゅう}",
+      "label": "crowd"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["nature"]
+      "semantic": [
+        "nature"
+      ]
     },
     "created": "2026-03-31T21:38:19Z",
-    "modified": "2026-03-31T21:38:19Z"
+    "modified": "2026-09-02T04:02:02Z"
   }
 }

@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "09344_tsukitomeru_ex1",
-      "japanese": "{原因|げんいん}を{突|つ}き{止|と}める。",
+      "japanese": "⟦{原因|げんいん}→原因：01400_genin⟧⟦を→を：00422_wo⟧{突|つ}き{止|と}める。",
       "english": "Pinpoint the cause.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "09344_tsukitomeru_ex2",
-      "japanese": "{犯人|はんにん}の{居場所|いばしょ}を{突|つ}き{止|と}めた。",
+      "japanese": "⟦{犯人|はんにん}→犯人：03572_hannin⟧⟦の→の：09472_no⟧⟦{居場所|いばしょ}→居場所：12366_ibasho⟧⟦を→を：00422_wo⟧{突|つ}き{止|と}めた。",
       "english": "I tracked down the culprit's whereabouts.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "09344_tsukitomeru_ex3",
-      "japanese": "{何|なん}{時間|じかん}もかけてバグの{原因|げんいん}を{突|つ}き{止|と}めた。",
+      "japanese": "⟦{何|なん}{時間|じかん}→何時間：30372_nanjikan⟧⟦も→も：00484_mo⟧⟦かけて→かける：00854_kakeru⟧⟦バグ→バグ：06098_bagu⟧⟦の→の：09472_no⟧⟦{原因|げんいん}→原因：01400_genin⟧⟦を→を：00422_wo⟧{突|つ}き{止|と}めた。",
       "english": "I spent hours tracking down the cause of the bug.",
       "notes": null,
       "has_audio": false,
@@ -133,11 +133,26 @@
       ]
     }
   ],
-  "notes": "{突|つ}き{止|と}める means to investigate thoroughly until the truth, cause, or identity of something is determined. It implies persistent effort and a conclusive result.\n\nTRANSITIVITY:\n- Type: {他動詞|たどうし} (transitive)\n- Takes を for the object being investigated\n\nASPECT (ている):\n{突|つ}き{止|と}めている means 'has ascertained' (resulting state) — the investigation is complete and the answer is known.\n\nCOMMON OBJECTS:\n- {原因|げんいん}を{突|つ}き{止|と}める: ascertain the cause\n- {犯人|はんにん}を{突|つ}き{止|と}める: track down the culprit\n- {真相|しんそう}を{突|つ}き{止|と}める: get to the truth\n- {居場所|いばしょ}を{突|つ}き{止|と}める: track down someone's location\n- {身元|みもと}を{突|つ}き{止|と}める: identify someone's identity",
-  "cross_references": [],
+  "notes": "{突|つ}き{止|と}める means to investigate thoroughly until the truth, cause, or identity of something is determined. It implies persistent effort and a conclusive result.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- Takes ⟦を→を：00422_wo⟧ for the object being investigated\n\nASPECT (ている):\n{突|つ}き{止|と}めて⟦いる→いる：00495_iru⟧ means 'has ascertained' (resulting state) — the investigation is complete and the answer is known.\n\nCOMMON OBJECTS:\n- ⟦{原因|げんいん}→原因：01400_genin⟧⟦を→を：00422_wo⟧{突|つ}き{止|と}める: ascertain the cause\n- ⟦{犯人|はんにん}→犯人：03572_hannin⟧⟦を→を：00422_wo⟧{突|つ}き{止|と}める: track down the culprit\n- ⟦{真相|しんそう}→真相：17447_shinsou⟧⟦を→を：00422_wo⟧{突|つ}き{止|と}める: get to the truth\n- ⟦{居場所|いばしょ}→居場所：12366_ibasho⟧⟦を→を：00422_wo⟧{突|つ}き{止|と}める: track down someone's location\n- ⟦{身元|みもと}→身元：15710_mimoto⟧⟦を→を：00422_wo⟧{突|つ}き{止|と}める: identify someone's identity",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17297_mitsukedasu",
+      "reading": "みつけだす",
+      "headword": "{見|み}つけ{出|だ}す",
+      "label": "to find out"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19642_tokuteisuru",
+      "reading": "とくていする",
+      "headword": "{特定|とくてい}する",
+      "label": "to identify"
+    }
+  ],
   "metadata": {
     "created": "2026-02-01T07:50:45Z",
-    "modified": "2026-08-12T21:25:53Z",
+    "modified": "2026-09-02T04:01:18Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

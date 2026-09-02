@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "11741_shonichi_ex1",
-      "japanese": "{公演|こうえん}の{初日|しょにち}は{満席|まんせき}だった。",
+      "japanese": "⟦{公演|こうえん}→公演：11639_kouen⟧⟦の→の：09472_no⟧{初日|しょにち}⟦は→は：00079_ha⟧⟦{満席|まんせき}→満席：07585_manseki⟧だった。",
       "english": "The opening day of the performance was sold out.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11741_shonichi_ex2",
-      "japanese": "{大会|たいかい}{初日|しょにち}から{好|こう}スタートを{切|き}った。",
+      "japanese": "⟦{大会|たいかい}→大会：03386_taikai⟧{初日|しょにち}⟦から→から：00504_kara⟧{好|こう}⟦スタート→スタート：11053_sutaato⟧⟦を→を：00422_wo⟧⟦{切|き}った→切る：02693_kiru⟧。",
       "english": "We got off to a good start from the first day of the tournament.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11741_shonichi_ex3",
-      "japanese": "{映画|えいが}の{初日|しょにち}{興行|こうぎょう}{収入|しゅうにゅう}が{歴代|れきだい}{一|いち}{位|い}を{記録|きろく}した。",
+      "japanese": "⟦{映画|えいが}→映画：02273_eiga⟧⟦の→の：09472_no⟧{初日|しょにち}⟦{興行|こうぎょう}→興行：13985_kougyou⟧⟦{収入|しゅうにゅう}→収入：03213_shuunyuu⟧⟦が→が：00051_ga⟧⟦{歴代|れきだい}→歴代：13199_rekidai⟧⟦{一|いち}{位|い}→一位：08926_ichii⟧⟦を→を：00422_wo⟧⟦{記録|きろく}した→記録する：25341_kirokusuru⟧。",
       "english": "The film's opening day box office revenue set an all-time record.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "Compound of {初|しょ} (first) + {日|にち} (day). Commonly used for performances, tournaments, sales events, and similar multi-day occasions.\n\nCOMMON COLLOCATIONS:\n・{初日|しょにち}を{迎|むか}える (to welcome opening day)\n・{公演|こうえん}{初日|しょにち} (opening night of a show)\n・{大会|たいかい}{初日|しょにち} (first day of a tournament)\n・{初日|しょにち}から (from the very first day)\n・{初日|しょにち}の{出|で} (the first sunrise of the new year — read as はつひので)\n\nUSAGE NOTES:\nNote the different reading {初日|はつひ}の{出|で} (はつひので) specifically for the first sunrise of the new year, which is a traditional New Year's custom. In all other contexts, the reading is しょにち.",
+  "notes": "Compound of ⟦{初|しょ}→初〜：03955_sho⟧ (first) + ⟦{日|にち}→日：12732_nichi⟧ (day). Commonly used for performances, tournaments, sales events, and similar multi-day occasions.\n\nCOMMON COLLOCATIONS:\n- {初日|しょにち}⟦を→を：00422_wo⟧⟦{迎|むか}える→迎える：01193_mukaeru⟧ (to welcome opening day)\n- ⟦{公演|こうえん}→公演：11639_kouen⟧{初日|しょにち} (opening night of a show)\n- ⟦{大会|たいかい}→大会：03386_taikai⟧{初日|しょにち} (first day of a tournament)\n- {初日|しょにち}⟦から→から：00504_kara⟧ (from the very first day)\n- {初日|しょにち}の{出|で} (the first sunrise of the new year — read as はつひので)\n\nUSAGE:\nNote the different reading {初日|はつひ}の{出|で} (はつひので) specifically for the first sunrise of the new year, which is a traditional New Year's custom. In all other contexts, the reading is しょにち.",
   "cross_references": [
     {
       "type": "antonym",
@@ -46,17 +52,28 @@
       "reading": "さいしゅうび",
       "headword": "{最終日|さいしゅうび}",
       "label": "last day"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25203_rakujitsu",
+      "reading": "らくじつ",
+      "headword": "{楽日|らくじつ}",
+      "label": "closing day"
     }
   ],
   "metadata": {
     "created": "2026-02-17T22:50:26Z",
-    "modified": "2026-04-25T08:21:10Z",
+    "modified": "2026-09-02T04:01:26Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["time-general"]
+      "semantic": [
+        "time-general"
+      ]
     }
   }
 }

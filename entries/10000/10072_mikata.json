@@ -19,7 +19,7 @@
   "examples": [
     {
       "id": "10072_mikata_ex1",
-      "japanese": "{物事|ものごと}の{見方|みかた}は{人|ひと}によって{違|ちが}う。",
+      "japanese": "⟦{物事|ものごと}→物事：00291_monogoto⟧⟦の→の：09472_no⟧{見方|みかた}⟦は→は：00079_ha⟧⟦{人|ひと}→人：00476_hito⟧⟦によって→によって：06801_niyotte⟧⟦{違|ちが}う→違う：01957_chigau⟧。",
       "english": "Perspectives on things differ from person to person.",
       "notes": null,
       "has_audio": false,
@@ -29,7 +29,7 @@
     },
     {
       "id": "10072_mikata_ex2",
-      "japanese": "{見方|みかた}を{変|か}えてみよう。",
+      "japanese": "{見方|みかた}⟦を→を：00422_wo⟧⟦{変|か}えて→変える：01089_kaeru⟧みよう。",
       "english": "Let's try changing our perspective.",
       "notes": null,
       "has_audio": false,
@@ -39,7 +39,7 @@
     },
     {
       "id": "10072_mikata_ex3",
-      "japanese": "{地図|ちず}の{見方|みかた}を{教|おし}えてください。",
+      "japanese": "⟦{地図|ちず}→地図：02914_chizu⟧⟦の→の：09472_no⟧{見方|みかた}⟦を→を：00422_wo⟧⟦{教|おし}えて→教える：00526_oshieru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please teach me how to read a map.",
       "notes": null,
       "has_audio": false,
@@ -49,7 +49,7 @@
     },
     {
       "id": "10072_mikata_ex4",
-      "japanese": "{新|あたら}しい{見方|みかた}を{提案|ていあん}する。",
+      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧{見方|みかた}⟦を→を：00422_wo⟧⟦{提案|ていあん}する→提案する：06057_teiansuru⟧。",
       "english": "To propose a new perspective.",
       "notes": null,
       "has_audio": false,
@@ -58,11 +58,33 @@
       ]
     }
   ],
-  "notes": "HOMOPHONE:\n・{味方|みかた} (ally, supporter) - different kanji\n\nCOMMON PATTERNS:\n・{見方|みかた}を{変|か}える (to change one's perspective)\n・〜の{見方|みかた} (way of looking at ~)\n・{見方|みかた}によっては (depending on how you look at it)\n\nSIMILAR WORDS:\n・{見方|みかた} vs. {観点|かんてん} vs. {視点|してん}\n  - {見方|みかた}: general word for viewpoint\n  - {観点|かんてん}: standpoint (more formal)\n  - {視点|してん}: point of view (often used in analysis)",
-  "cross_references": [],
+  "notes": "WATCH OUT:\n- ⟦{味方|みかた}→味方：03743_mikata⟧ (ally, supporter) - different kanji\n\nCOMMON PATTERNS:\n- {見方|みかた}⟦を→を：00422_wo⟧⟦{変|か}える→変える：01089_kaeru⟧ (to change one's perspective)\n- 〜⟦の→の：09472_no⟧{見方|みかた} (way of looking at ~)\n- {見方|みかた}⟦によって→によって：06801_niyotte⟧⟦は→は：00079_ha⟧ (depending on how you look at it)\n\nSIMILAR WORDS:\n- {見方|みかた} vs. ⟦{観点|かんてん}→観点：05582_kanten⟧ vs. ⟦{視点|してん}→視点：03187_shiten⟧\n  - {見方|みかた}: general word for viewpoint\n  - ⟦{観点|かんてん}→観点：05582_kanten⟧: standpoint (more formal)\n  - ⟦{視点|してん}→視点：03187_shiten⟧: point of view (often used in analysis)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05582_kanten",
+      "reading": "かんてん",
+      "headword": "{観点|かんてん}",
+      "label": "standpoint"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03187_shiten",
+      "reading": "してん",
+      "headword": "{視点|してん}",
+      "label": "point of view"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18881_toraekata",
+      "reading": "とらえかた",
+      "headword": "{捉|とら}え{方|かた}",
+      "label": "way of perceiving"
+    }
+  ],
   "metadata": {
     "created": "2026-02-05T02:14:44Z",
-    "modified": "2026-02-05T02:14:44Z",
+    "modified": "2026-09-02T04:01:20Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

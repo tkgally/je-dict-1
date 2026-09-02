@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "16561_taikei_ex1",
-      "japanese": "{体型|たいけい}を{気|き}にしている。",
+      "japanese": "{体型|たいけい}⟦を→を：00422_wo⟧⟦{気|き}にしている→気にする：03026_kinisuru⟧。",
       "english": "I'm concerned about my figure.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "16561_taikei_ex2",
-      "japanese": "{父親|ちちおや}と{同|おな}じ{体型|たいけい}になってきた。",
+      "japanese": "⟦{父親|ちちおや}→父親：03469_chichioya⟧⟦と→と：00512_to⟧⟦{同|おな}じ→同じ：02857_onaji⟧{体型|たいけい}になってきた。",
       "english": "I'm starting to get the same build as my father.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "16561_taikei_ex3",
-      "japanese": "{自分|じぶん}の{体型|たいけい}に{合|あ}った{服|ふく}を{選|えら}ぶことが{大切|たいせつ}だ。",
+      "japanese": "⟦{自分|じぶん}→自分：02887_jibun⟧⟦の→の：09472_no⟧{体型|たいけい}⟦に→に：00314_ni⟧⟦{合|あ}った→合う：10466_au⟧⟦{服|ふく}→服：00695_fuku⟧⟦を→を：00422_wo⟧⟦{選|えら}ぶ→選ぶ：00835_erabu⟧こと⟦が→が：00051_ga⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧だ。",
       "english": "It's important to choose clothes that suit your body type.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nUsed when discussing physical appearance, clothing fit, health, or fitness. Not interchangeable with the homophone {体系|たいけい} (system, framework), which refers to organized structures of knowledge or ideas.\n\nCOMMON COLLOCATIONS:\n- {体型|たいけい}を{維持|いじ}する (to maintain one's figure)\n- {体型|たいけい}が{変|か}わる (one's body shape changes)\n- {体型|たいけい}カバー (hiding one's body shape with clothing)\n- がっちりした{体型|たいけい} (a sturdy build)\n- スリムな{体型|たいけい} (a slim figure)\n\nSIMILAR WORDS:\n- {体格|たいかく}: physique — more formal, focuses on skeletal frame and muscular build\n- スタイル: figure — casual, often implies attractiveness",
+  "notes": "USAGE:\nUsed when discussing physical appearance, clothing fit, health, or fitness. Not interchangeable with the homophone ⟦{体系|たいけい}→体系：04487_taikei⟧ (system, framework), which refers to organized structures of knowledge or ideas.\n\nCOMMON COLLOCATIONS:\n- {体型|たいけい}⟦を→を：00422_wo⟧⟦{維持|いじ}する→維持する：17311_ijisuru⟧ (to maintain one's figure)\n- {体型|たいけい}⟦が→が：00051_ga⟧⟦{変|か}わる→変わる：00714_kawaru⟧ (one's body shape changes)\n- {体型|たいけい}⟦カバー→カバー：07812_kabaa⟧ (hiding one's body shape with clothing)\n- ⟦がっちり→がっちり：05653_gacchiri⟧⟦した→する：00392_suru⟧{体型|たいけい} (a sturdy build)\n- ⟦スリム→スリム：21695_surimu⟧な{体型|たいけい} (a slim figure)\n\nSIMILAR WORDS:\n- ⟦{体格|たいかく}→体格：16207_taikaku⟧: physique — more formal, focuses on skeletal frame and muscular build\n- ⟦スタイル→スタイル：03851_sutairu⟧: figure — casual, often implies attractiveness",
   "cross_references": [
     {
       "type": "synonym",
@@ -52,11 +52,25 @@
       "reading": "たいかく",
       "headword": "{体格|たいかく}",
       "label": "physique (formal)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03851_sutairu",
+      "reading": "すたいる",
+      "headword": "スタイル",
+      "label": "figure"
+    },
+    {
+      "type": "related",
+      "target_id": "03395_taijuu",
+      "reading": "たいじゅう",
+      "headword": "{体重|たいじゅう}",
+      "label": "body weight"
     }
   ],
   "metadata": {
     "created": "2026-03-13T23:55:43Z",
-    "modified": "2026-07-20T00:31:17Z",
+    "modified": "2026-09-02T04:01:45Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

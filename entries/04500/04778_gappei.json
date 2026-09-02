@@ -2,7 +2,7 @@
   "id": "04778_gappei",
   "headword": "{合併|がっぺい}",
   "reading": "がっぺい",
-  "part_of_speech": "noun (verbal)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "merger",
   "conjugation": {
     "type": "suru",
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "{合併|がっぺい} refers to the merger or consolidation of organizations.\n\nWORD STRUCTURE:\n{合|がっ} (combine) + {併|ぺい} (merge) - to join together.\n\nVERB FORM:\n{合併|がっぺい}⟦する→する：00392_suru⟧: to merge\n{合併|がっぺい}⟦される→する：00392_suru⟧: to be merged\n\nCOMMON COLLOCATIONS:\n- ⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦が→が：00051_ga⟧{合併|がっぺい}⟦する→する：00392_suru⟧: companies merge\n- ⟦{市町村|しちょうそん}→市町村：16065_shichouson⟧{合併|がっぺい}: municipal merger\n- {合併|がっぺい}⟦{交渉|こうしょう}→交渉：02727_koushou⟧: merger negotiations\n- {合併|がっぺい}⟦{後|ご}→後：09580_ato⟧: after the merger\n- {合併|がっぺい}⟦{比率|ひりつ}→比率：06727_hiritsu⟧: merger ratio\n\nCONTEXTS:\n- Business: company mergers (M&A)\n- Government: municipal consolidation (⟦{平成|へいせい}→平成：11180_heisei⟧⟦の→の：09472_no⟧{大|だい}{合併|がっぺい})\n\nRELATED:\n- ⟦{買収|ばいしゅう}→買収：04780_baishuu⟧: acquisition\n- ⟦{統合|とうごう}→統合：09615_tougou⟧: integration",
+  "notes": "{合併|がっぺい} refers to the merger or consolidation of organizations.\n\nETYMOLOGY:\n{合|がっ} (combine) + {併|ぺい} (merge) - to join together.\n\nFORMS:\n{合併|がっぺい}⟦する→する：00392_suru⟧: to merge\n{合併|がっぺい}⟦される→する：00392_suru⟧: to be merged\n\nCOMMON COLLOCATIONS:\n- ⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦が→が：00051_ga⟧{合併|がっぺい}⟦する→する：00392_suru⟧: companies merge\n- ⟦{市町村|しちょうそん}→市町村：16065_shichouson⟧{合併|がっぺい}: municipal merger\n- {合併|がっぺい}⟦{交渉|こうしょう}→交渉：02727_koushou⟧: merger negotiations\n- {合併|がっぺい}⟦{後|ご}→後：09580_ato⟧: after the merger\n- {合併|がっぺい}⟦{比率|ひりつ}→比率：06727_hiritsu⟧: merger ratio\n\nUSAGE:\n- Business: company mergers (M&A)\n- Government: municipal consolidation (⟦{平成|へいせい}→平成：11180_heisei⟧⟦の→の：09472_no⟧{大|だい}{合併|がっぺい})\n\nRELATED WORDS:\n- ⟦{買収|ばいしゅう}→買収：04780_baishuu⟧: acquisition\n- ⟦{統合|とうごう}→統合：09615_tougou⟧: integration",
   "cross_references": [
     {
       "type": "related",
@@ -141,11 +141,53 @@
       "headword": "{買収|ばいしゅう}",
       "label": "acquisition",
       "target_id": "04780_baishuu"
+    },
+    {
+      "type": "related",
+      "target_id": "09615_tougou",
+      "reading": "とうごう",
+      "headword": "{統合|とうごう}",
+      "label": "integration"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04185_goudou",
+      "reading": "ごうどう",
+      "headword": "{合同|ごうどう}",
+      "label": "joint, combined, merger"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11902_gouryuu",
+      "reading": "ごうりゅう",
+      "headword": "{合流|ごうりゅう}",
+      "label": "joining, merging, confluence"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19670_heigou",
+      "reading": "へいごう",
+      "headword": "{併合|へいごう}",
+      "label": "annexation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22907_gyoumuteikei",
+      "reading": "ぎょうむていけい",
+      "headword": "{業務|ぎょうむ}{提携|ていけい}",
+      "label": "business alliance"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24949_kogaishaka",
+      "reading": "こがいしゃか",
+      "headword": "{子会社化|こがいしゃか}",
+      "label": "subsidiarization"
     }
   ],
   "metadata": {
     "created": "2026-01-16T00:25:12Z",
-    "modified": "2026-06-02T16:39:42Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

@@ -15,41 +15,69 @@
   "examples": [
     {
       "id": "16243_shuhigimu_ex1",
-      "japanese": "{守秘義務|しゅひぎむ}がある。",
+      "japanese": "{守秘義務|しゅひぎむ}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There is a duty of confidentiality.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16243_shuhigimu_ex2",
-      "japanese": "{医師|いし}には{患者|かんじゃ}の{情報|じょうほう}に{関|かん}する{守秘義務|しゅひぎむ}がある。",
+      "japanese": "⟦{医師|いし}→医師：11851_ishi⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{患者|かんじゃ}→患者：00170_kanja⟧⟦の→の：09472_no⟧⟦{情報|じょうほう}→情報：03348_jouhou⟧⟦に→に：00314_ni⟧⟦{関|かん}する→関する：02045_kansuru⟧{守秘義務|しゅひぎむ}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "Doctors have a duty of confidentiality regarding patient information.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16243_shuhigimu_ex3",
-      "japanese": "{守秘義務|しゅひぎむ}に{違反|いはん}した{場合|ばあい}、{法的|ほうてき}な{責任|せきにん}を{問|と}われる{可能性|かのうせい}がある。",
+      "japanese": "{守秘義務|しゅひぎむ}⟦に→に：00314_ni⟧⟦{違反|いはん}→違反：01824_ihan⟧⟦した→する：00392_suru⟧⟦{場合|ばあい}→場合：01704_baai⟧、⟦{法的|ほうてき}→法的：13300_houteki⟧な⟦{責任|せきにん}→責任：03298_sekinin⟧⟦を→を：00422_wo⟧⟦{問|と}われる→問う：02299_tou⟧⟦{可能性|かのうせい}→可能性：04818_kanousei⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "If you violate the duty of confidentiality, you may face legal consequences.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\n{守秘義務|しゅひぎむ} is a formal legal and professional term. It commonly appears in employment contracts and professional codes of conduct.\n\nWORD FORMATION:\n{守秘|しゅひ} (keeping secrets) + {義務|ぎむ} (duty, obligation).\n\nCOMMON COLLOCATIONS:\n- {守秘義務|しゅひぎむ}がある: to have a duty of confidentiality\n- {守秘義務|しゅひぎむ}を{守|まも}る: to uphold confidentiality\n- {守秘義務|しゅひぎむ}に{違反|いはん}する: to violate confidentiality\n- {守秘義務|しゅひぎむ}{契約|けいやく}: confidentiality agreement (NDA)",
-  "cross_references": [],
+  "notes": "USAGE:\n{守秘義務|しゅひぎむ} is a formal legal and professional term. It commonly appears in employment contracts and professional codes of conduct.\n\nFORMS:\n⟦{守秘|しゅひ}→守秘：22818_shuhi⟧ (keeping secrets) + ⟦{義務|ぎむ}→義務：02647_gimu⟧ (duty, obligation).\n\nCOMMON COLLOCATIONS:\n- {守秘義務|しゅひぎむ}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧: to have a duty of confidentiality\n- {守秘義務|しゅひぎむ}⟦を→を：00422_wo⟧⟦{守|まも}る→守る：01986_mamoru⟧: to uphold confidentiality\n- {守秘義務|しゅひぎむ}⟦に→に：00314_ni⟧⟦{違反|いはん}→違反：01824_ihan⟧⟦する→する：00392_suru⟧: to violate confidentiality\n- {守秘義務|しゅひぎむ}{契約|けいやく}: confidentiality agreement (NDA)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23565_kimitsuhoji",
+      "reading": "きみつほじ",
+      "headword": "{機密|きみつ}{保持|ほじ}",
+      "label": "confidentiality"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26520_himitsuhoji",
+      "reading": "ひみつほじ",
+      "headword": "{秘密|ひみつ}{保持|ほじ}",
+      "label": "confidentiality"
+    }
+  ],
   "metadata": {
     "created": "2026-03-11T08:04:30Z",
-    "modified": "2026-03-11T08:04:30Z",
+    "modified": "2026-09-02T04:01:44Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "domain": ["legal", "business"],
-      "semantic": ["law"]
+      "domain": [
+        "legal",
+        "business"
+      ],
+      "semantic": [
+        "law"
+      ]
     }
   }
 }

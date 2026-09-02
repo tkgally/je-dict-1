@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "05369_orooro_ex1",
-      "japanese": "⟦{火事|かじ}→火事：01283_kaji⟧⟦で→で：00502_de⟧おろおろしてしまった。",
+      "japanese": "⟦{火事|かじ}→火事：01283_kaji⟧⟦で→で：00502_de⟧おろおろ⟦して→する：00392_suru⟧しまった。",
       "english": "I was flustered because of the fire.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "05369_orooro_ex2",
-      "japanese": "おろおろしていても⟦{始|はじ}まらない→始まる：00841_hajimaru⟧。",
+      "japanese": "おろおろ⟦していて→する：00392_suru⟧⟦も→も：00484_mo⟧⟦{始|はじ}まらない→始まる：00841_hajimaru⟧。",
       "english": "Being flustered won't help anything.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "05369_orooro_ex3",
-      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧おろおろするばかりだった。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧おろおろ⟦する→する：00392_suru⟧⟦ばかり→〜ばかり：02006_bakari⟧だった。",
       "english": "She could only stand there bewildered.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "おろおろ is an onomatopoeic adverb describing a state of helpless confusion and panic. The person wants to act but doesn't know what to do, often standing frozen or pacing anxiously.\n\nGRAMMAR PATTERNS:\n- おろおろする: to be flustered, to panic helplessly\n- おろおろと⟦{歩|ある}き→歩く：00538_aruku⟧⟦{回|まわ}る→回る：01150_mawaru⟧: to pace around in a panic\n- おろおろするばかり: can only stand bewildered (unable to do anything)\n- おろおろしている⟦{場合|ばあい}→場合：01704_baai⟧じゃない: this is no time to be standing around helpless\n\nSIMILAR ONOMATOPOEIA:\n- ⟦あたふた→あたふた：20601_atafuta⟧: in a rush, frantically (implies hurried movement)\n- ⟦おどおど→おどおど：05371_odoodo⟧: nervously, timidly (implies fear or shyness)\n- ⟦まごまご→まごまご：07527_magomago⟧: bewildered, confused (implies indecision)\n- ⟦うろうろ→うろうろ：05168_urouro⟧: wandering aimlessly (implies purposeless movement)\n\nNUANCE:\nおろおろ emphasizes the helplessness — the person is overwhelmed and unable to take proper action, unlike ⟦あたふた→あたふた：20601_atafuta⟧ where they are at least rushing to act.",
+  "notes": "おろおろ is an onomatopoeic adverb describing a state of helpless confusion and panic. The person wants to act but doesn't know what to do, often standing frozen or pacing anxiously.\n\nCOMMON PATTERNS:\n- おろおろ⟦する→する：00392_suru⟧: to be flustered, to panic helplessly\n- おろおろ⟦と→と：00512_to⟧⟦{歩|ある}き→歩く：00538_aruku⟧⟦{回|まわ}る→回る：01150_mawaru⟧: to pace around in a panic\n- おろおろ⟦する→する：00392_suru⟧⟦ばかり→〜ばかり：02006_bakari⟧: can only stand bewildered (unable to do anything)\n- おろおろ⟦している→する：00392_suru⟧⟦{場合|ばあい}→場合：01704_baai⟧⟦じゃない→じゃない：28483_janai⟧: this is no time to be standing around helpless\n\nSIMILAR ONOMATOPOEIA:\n- ⟦あたふた→あたふた：20601_atafuta⟧: in a rush, frantically (implies hurried movement)\n- ⟦おどおど→おどおど：05371_odoodo⟧: nervously, timidly (implies fear or shyness)\n- ⟦まごまご→まごまご：07527_magomago⟧: bewildered, confused (implies indecision)\n- ⟦うろうろ→うろうろ：05168_urouro⟧: wandering aimlessly (implies purposeless movement)\n\nUSAGE:\nおろおろ emphasizes the helplessness — the person is overwhelmed and unable to take proper action, unlike ⟦あたふた→あたふた：20601_atafuta⟧ where they are at least rushing to act.",
   "cross_references": [
     {
       "type": "related",
@@ -72,11 +72,18 @@
       "reading": "うろうろ",
       "headword": "うろうろ",
       "label": "wandering aimlessly"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21714_tajitaji",
+      "reading": "たじたじ",
+      "headword": "たじたじ",
+      "label": "faltering"
     }
   ],
   "metadata": {
     "created": "2026-01-16T05:48:20Z",
-    "modified": "2026-06-05T19:07:26Z",
+    "modified": "2026-09-02T04:01:06Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

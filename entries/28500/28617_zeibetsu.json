@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28617_zeibetsu_ex1",
-      "japanese": "1000{円|えん}（{税別|ぜいべつ}）です。",
+      "japanese": "1000⟦{円|えん}→円：00774_en⟧（{税別|ぜいべつ}）です。",
       "english": "It's 1,000 yen (tax not included).",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28617_zeibetsu_ex2",
-      "japanese": "メニューの{価格|かかく}は{税別|ぜいべつ}で{表示|ひょうじ}されている。",
+      "japanese": "⟦メニュー→メニュー：11166_menyuu⟧⟦の→の：09472_no⟧⟦{価格|かかく}→価格：00147_kakaku⟧⟦は→は：00079_ha⟧{税別|ぜいべつ}⟦で→で：00502_de⟧⟦{表示|ひょうじ}→表示：03143_hyouji⟧⟦されている→する：00392_suru⟧。",
       "english": "Menu prices are shown without tax.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28617_zeibetsu_ex3",
-      "japanese": "{税別|ぜいべつ}{表示|ひょうじ}だと{安|やす}く{見|み}えるが、{会計|かいけい}で{思|おも}ったより{高|たか}くなることがある。",
+      "japanese": "{税別|ぜいべつ}⟦{表示|ひょうじ}→表示：03143_hyouji⟧だ⟦と→と：00512_to⟧⟦{安|やす}く→安い：00464_yasui⟧⟦{見|み}える→見える：01165_mieru⟧⟦が→が：00051_ga⟧、⟦{会計|かいけい}→会計：02536_kaikei⟧⟦で→で：00502_de⟧⟦{思|おも}った→思う：00492_omou⟧⟦より→より：09476_yori⟧⟦{高|たか}く→高い：00500_takai⟧⟦なる→なる：01970_naru⟧こと⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "Tax-excluded prices look cheaper, but the bill can end up higher than expected.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "{税|ぜい} (tax) + {別|べつ} (separate). Used as a noun and as a parenthetical price label, usually written （{税別|ぜいべつ}）.\n\nCOMMON COLLOCATIONS:\n- {税別|ぜいべつ}{価格|かかく}: pre-tax price\n- {税別|ぜいべつ}{表示|ひょうじ}: tax-excluded display\n- {税別|ぜいべつ}で{表示|ひょうじ}する: to display prices without tax\n\nSIMILAR WORDS:\n- {税込|ぜいこみ}: tax included — direct opposite\n- {本体|ほんたい}{価格|かかく}: base price (before tax) — formal equivalent on receipts\n- {外税|そとぜい}: 'external tax' — pricing convention where tax is added separately at checkout",
+  "notes": "⟦{税|ぜい}→税：03767_zei⟧ (tax) + ⟦{別|べつ}→別：01216_betsu⟧ (separate). Used as a noun and as a parenthetical price label, usually written （{税別|ぜいべつ}）.\n\nCOMMON COLLOCATIONS:\n- {税別|ぜいべつ}⟦{価格|かかく}→価格：00147_kakaku⟧: pre-tax price\n- {税別|ぜいべつ}⟦{表示|ひょうじ}→表示：03143_hyouji⟧: tax-excluded display\n- {税別|ぜいべつ}⟦で→で：00502_de⟧⟦{表示|ひょうじ}する→表示する：26973_hyoujisuru⟧: to display prices without tax\n\nSIMILAR WORDS:\n- ⟦{税込|ぜいこみ}→税込：09559_zeikomi⟧: tax included — direct opposite\n- ⟦{本体|ほんたい}→本体：13033_hontai⟧⟦{価格|かかく}→価格：00147_kakaku⟧: base price (before tax) — formal equivalent on receipts\n- ⟦{外税|そとぜい}→外税：10262_sotozei⟧: 'external tax' — pricing convention where tax is added separately at checkout",
   "cross_references": [
     {
       "type": "antonym",
@@ -52,6 +52,13 @@
       "reading": "ぜいこみ",
       "headword": "{税込|ぜいこみ}",
       "label": "tax included"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10262_sotozei",
+      "reading": "そとぜい",
+      "headword": "{外税|そとぜい}",
+      "label": "'external tax'"
     }
   ],
   "schema_version": "2.0",
@@ -62,7 +69,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "money",
         "shopping"
@@ -72,6 +79,6 @@
       ]
     },
     "created": "2026-06-03T02:08:21Z",
-    "modified": "2026-06-03T02:08:21Z"
+    "modified": "2026-09-02T04:02:34Z"
   }
 }

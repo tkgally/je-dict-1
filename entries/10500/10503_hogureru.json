@@ -110,7 +110,7 @@
   "examples": [
     {
       "id": "10503_hogureru_ex1",
-      "japanese": "{糸|いと}がほぐれた。",
+      "japanese": "⟦{糸|いと}→糸：01315_ito⟧⟦が→が：00051_ga⟧ほぐれた。",
       "english": "The thread came loose.",
       "notes": null,
       "has_audio": false,
@@ -120,7 +120,7 @@
     },
     {
       "id": "10503_hogureru_ex2",
-      "japanese": "{結|むす}び{目|め}がほぐれてきた。",
+      "japanese": "⟦{結|むす}び{目|め}→結び目：16569_musubime⟧⟦が→が：00051_ga⟧ほぐれてきた。",
       "english": "The knot has started to come undone.",
       "notes": null,
       "has_audio": false,
@@ -130,7 +130,7 @@
     },
     {
       "id": "10503_hogureru_ex3",
-      "japanese": "{毛糸|けいと}が{絡|から}まってなかなかほぐれない。",
+      "japanese": "⟦{毛糸|けいと}→毛糸：00212_keito⟧⟦が→が：00051_ga⟧⟦{絡|から}まって→絡まる：20834_karamaru⟧⟦なかなか→なかなか：01547_nakanaka⟧ほぐれない。",
       "english": "The yarn is tangled and won't come apart easily.",
       "notes": null,
       "has_audio": false,
@@ -140,7 +140,7 @@
     },
     {
       "id": "10503_hogureru_ex4",
-      "japanese": "{緊張|きんちょう}がほぐれた。",
+      "japanese": "⟦{緊張|きんちょう}→緊張：02494_kinchou⟧⟦が→が：00051_ga⟧ほぐれた。",
       "english": "My tension eased.",
       "notes": null,
       "has_audio": false,
@@ -150,7 +150,7 @@
     },
     {
       "id": "10503_hogureru_ex5",
-      "japanese": "{肩|かた}の{力|ちから}がほぐれてきた。",
+      "japanese": "⟦{肩|かた}→肩：02192_kata⟧⟦の→の：09472_no⟧⟦{力|ちから}→力：01661_chikara⟧⟦が→が：00051_ga⟧ほぐれてきた。",
       "english": "The tension in my shoulders has started to ease.",
       "notes": null,
       "has_audio": false,
@@ -160,7 +160,7 @@
     },
     {
       "id": "10503_hogureru_ex6",
-      "japanese": "{温|あたた}かいお{茶|ちゃ}を{飲|の}んだら、{気持|きも}ちがほぐれた。",
+      "japanese": "⟦{温|あたた}かい→温かい：13395_atatakai⟧⟦お{茶|ちゃ}→お茶：00576_ocha⟧⟦を→を：00422_wo⟧⟦{飲|の}んだら→飲む：00322_nomu⟧、{気持|きも}ち⟦が→が：00051_ga⟧ほぐれた。",
       "english": "After drinking warm tea, I felt relaxed.",
       "notes": null,
       "has_audio": false,
@@ -169,11 +169,19 @@
       ]
     }
   ],
-  "notes": "CONJUGATION (ichidan):\n- Negative: ほぐれない\n- Te-form: ほぐれて\n- Past: ほぐれた\n\nTRANSITIVITY:\nIntransitive. The transitive counterpart is ほぐす (to loosen, to untangle).\n\nASPECT:\nほぐれている indicates a state of being loosened or relaxed.\n\nCOMMON COLLOCATIONS:\n- {緊張|きんちょう}がほぐれる: tension eases\n- {体|からだ}がほぐれる: body loosens up\n- {表情|ひょうじょう}がほぐれる: expression softens\n- {糸|いと}がほぐれる: thread comes loose",
-  "cross_references": [],
+  "notes": "CONJUGATION (ichidan):\n- Negative: ほぐれない\n- Te-form: ほぐれて\n- Past: ほぐれた\n\nTRANSITIVITY:\nIntransitive. The transitive counterpart is ⟦ほぐす→ほぐす：10496_hogusu⟧ (to loosen, to untangle).\n\nASPECT (ている):\nほぐれて⟦いる→いる：00495_iru⟧ indicates a state of being loosened or relaxed.\n\nCOMMON COLLOCATIONS:\n- ⟦{緊張|きんちょう}→緊張：02494_kinchou⟧⟦が→が：00051_ga⟧ほぐれる: tension eases\n- ⟦{体|からだ}→体：00784_karada⟧⟦が→が：00051_ga⟧ほぐれる: body loosens up\n- ⟦{表情|ひょうじょう}→表情：03585_hyoujou⟧⟦が→が：00051_ga⟧ほぐれる: expression softens\n- ⟦{糸|いと}→糸：01315_ito⟧⟦が→が：00051_ga⟧ほぐれる: thread comes loose",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "28626_torokeru",
+      "reading": "とろける",
+      "headword": "とろける",
+      "label": "to melt"
+    }
+  ],
   "metadata": {
     "created": "2026-02-07T23:54:21Z",
-    "modified": "2026-06-27T03:38:18Z",
+    "modified": "2026-09-02T04:01:21Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

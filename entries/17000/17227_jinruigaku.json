@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "17227_jinruigaku_ex1",
-      "japanese": "{大学|だいがく}で{人類学|じんるいがく}を{学|まな}んでいる。",
+      "japanese": "⟦{大学|だいがく}→大学：00608_daigaku⟧⟦で→で：00502_de⟧{人類学|じんるいがく}⟦を→を：00422_wo⟧⟦{学|まな}んでいる→学ぶ：01987_manabu⟧。",
       "english": "I'm studying anthropology at university.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "17227_jinruigaku_ex2",
-      "japanese": "{文化|ぶんか}{人類学|じんるいがく}のレポートを{書|か}いた。",
+      "japanese": "⟦{文化|ぶんか}→文化：01504_bunka⟧{人類学|じんるいがく}⟦の→の：09472_no⟧⟦レポート→レポート：01543_repooto⟧⟦を→を：00422_wo⟧⟦{書|か}いた→書く：00477_kaku⟧。",
       "english": "I wrote a paper on cultural anthropology.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "17227_jinruigaku_ex3",
-      "japanese": "{人類学|じんるいがく}の{視点|してん}から{日本|にほん}の{祭|まつ}りを{研究|けんきゅう}している{教授|きょうじゅ}がいる。",
+      "japanese": "{人類学|じんるいがく}⟦の→の：09472_no⟧⟦{視点|してん}→視点：03187_shiten⟧⟦から→から：00504_kara⟧⟦{日本|にほん}→日本：03876_nihon⟧⟦の→の：09472_no⟧⟦{祭|まつ}り→祭り：03735_matsuri⟧⟦を→を：00422_wo⟧⟦{研究|けんきゅう}→研究：01396_kenkyuu⟧⟦している→する：00392_suru⟧⟦{教授|きょうじゅ}→教授：02589_kyouju⟧⟦が→が：00051_ga⟧⟦いる→いる：00495_iru⟧。",
       "english": "There is a professor who studies Japanese festivals from an anthropological perspective.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "WORD FORMATION:\n{人類|じんるい} (humanity, humankind) + {学|がく} (study, -ology). The {学|がく} suffix is productive for academic disciplines.\n\nBRANCHES:\n- {文化|ぶんか}{人類学|じんるいがく} (cultural anthropology)\n- {社会|しゃかい}{人類学|じんるいがく} (social anthropology)\n- {自然|しぜん}{人類学|じんるいがく} / {形質|けいしつ}{人類学|じんるいがく} (physical anthropology)\n\nCOMMON COLLOCATIONS:\n- {人類学|じんるいがく}{者|しゃ} (anthropologist)\n- {人類学|じんるいがく}の{研究|けんきゅう} (anthropological research)\n- {人類学|じんるいがく}を{専攻|せんこう}する (to major in anthropology)\n- {人類学|じんるいがく}{的|てき} (anthropological)",
+  "notes": "FORMS:\n⟦{人類|じんるい}→人類：01578_jinrui⟧ (humanity, humankind) + ⟦{学|がく}→〜学：09846_gaku⟧ (study, -ology). The ⟦{学|がく}→〜学：09846_gaku⟧ suffix is productive for academic disciplines.\n\nBRANCHES:\n- ⟦{文化|ぶんか}→文化：01504_bunka⟧{人類学|じんるいがく} (cultural anthropology)\n- ⟦{社会|しゃかい}→社会：01427_shakai⟧{人類学|じんるいがく} (social anthropology)\n- ⟦{自然|しぜん}→自然：01423_shizen⟧{人類学|じんるいがく} / {形質|けいしつ}{人類学|じんるいがく} (physical anthropology)\n\nCOMMON COLLOCATIONS:\n- {人類学|じんるいがく}⟦{者|しゃ}→〜者：04662_sha⟧ (anthropologist)\n- {人類学|じんるいがく}⟦の→の：09472_no⟧⟦{研究|けんきゅう}→研究：01396_kenkyuu⟧ (anthropological research)\n- {人類学|じんるいがく}⟦を→を：00422_wo⟧⟦{専攻|せんこう}→専攻：01587_senkou⟧⟦する→する：00392_suru⟧ (to major in anthropology)\n- {人類学|じんるいがく}⟦{的|てき}→〜的：09839_teki⟧ (anthropological)",
   "cross_references": [
     {
       "type": "related",
@@ -52,11 +52,18 @@
       "reading": "じんるい",
       "headword": "{人類|じんるい}",
       "label": "humanity"
+    },
+    {
+      "type": "related",
+      "target_id": "20088_koukogaku",
+      "reading": "こうこがく",
+      "headword": "{考古学|こうこがく}",
+      "label": "archaeology"
     }
   ],
   "metadata": {
     "created": "2026-03-17T00:13:33Z",
-    "modified": "2026-07-23T06:28:55Z",
+    "modified": "2026-09-02T04:01:47Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

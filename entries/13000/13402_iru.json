@@ -3,7 +3,7 @@
   "id": "13402_iru",
   "headword": "{炒|い}る",
   "reading": "いる",
-  "part_of_speech": "godan verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to roast, to parch, to toast (dry heat)",
   "conjugation": {
     "type": "godan",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "13402_iru_ex1",
-      "japanese": "ごまを{炒|い}る。",
+      "japanese": "ごま⟦を→を：00422_wo⟧{炒|い}る。",
       "english": "Roast the sesame seeds.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "13402_iru_ex2",
-      "japanese": "{大豆|だいず}をフライパンで{炒|い}ってください。",
+      "japanese": "⟦{大豆|だいず}→大豆：10536_daizu⟧⟦を→を：00422_wo⟧⟦フライパン→フライパン：01025_furaipan⟧⟦で→で：00502_de⟧{炒|い}って⟦ください→ください：02899_kudasai⟧。",
       "english": "Please roast the soybeans in a frying pan.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "13402_iru_ex3",
-      "japanese": "{節分|せつぶん}には{炒|い}った{大豆|だいず}を{年|とし}の{数|かず}だけ{食|た}べる{風習|ふうしゅう}がある。",
+      "japanese": "⟦{節分|せつぶん}→節分：18971_setsubun⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{炒|い}った⟦{大豆|だいず}→大豆：10536_daizu⟧⟦を→を：00422_wo⟧⟦{年|とし}→年：00486_toshi⟧⟦の→の：09472_no⟧⟦{数|かず}→数：00204_kazu⟧⟦だけ→〜だけ：03093_dake⟧⟦{食|た}べる→食べる：00396_taberu⟧⟦{風習|ふうしゅう}→風習：05826_fuushuu⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There is a custom of eating roasted soybeans equal to one's age on Setsubun.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,19 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY:\nTransitive ({他動詞|たどうし}). No intransitive pair.\n\nKANJI NOTE:\nAlso written {煎|い}る. Both kanji are used, though {炒|い}る is more common for dry-roasting in a pan.\n\nDISTINCTION FROM {炒|いた}める:\n{炒|い}る refers to dry roasting without oil (seeds, beans, tea leaves), while {炒|いた}める means to stir-fry with oil (vegetables, meat). This distinction is important in cooking contexts.\n\nCOMMON COLLOCATIONS:\n- ごまを{炒|い}る: to roast sesame seeds\n- {豆|まめ}を{炒|い}る: to roast beans\n- コーヒー{豆|まめ}を{炒|い}る: to roast coffee beans",
-  "cross_references": [],
+  "notes": "TRANSITIVITY:\nTransitive (⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧). No intransitive pair.\n\nWRITING:\nAlso written ⟦{煎|い}る→煎る：16887_iru⟧. Both kanji are used, though {炒|い}る is more common for dry-roasting in a pan.\n\nDISTINCTION FROM {炒|いた}める:\n{炒|い}る refers to dry roasting without oil (seeds, beans, tea leaves), while ⟦{炒|いた}める→炒める：01879_itameru⟧ means to stir-fry with oil (vegetables, meat). This distinction is important in cooking contexts.\n\nCOMMON COLLOCATIONS:\n- ごま⟦を→を：00422_wo⟧{炒|い}る: to roast sesame seeds\n- ⟦{豆|まめ}→豆：03738_mame⟧⟦を→を：00422_wo⟧{炒|い}る: to roast beans\n- ⟦コーヒー{豆|まめ}→コーヒー豆：25759_koohiimame⟧⟦を→を：00422_wo⟧{炒|い}る: to roast coffee beans",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25504_baisensuru",
+      "reading": "ばいせんする",
+      "headword": "{焙煎|ばいせん}する",
+      "label": "to roast (coffee beans, tea leaves, etc.)"
+    }
+  ],
   "metadata": {
     "created": "2026-02-24T11:34:56Z",
-    "modified": "2026-03-29T03:07:35Z",
+    "modified": "2026-09-02T04:01:33Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

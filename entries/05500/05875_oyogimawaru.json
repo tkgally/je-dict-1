@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "05875_oyogimawaru_ex1",
-      "japanese": "⟦{魚|さかな}→魚：00499_sakana⟧⟦が→が：00051_ga⟧⟦{水槽|すいそう}→水槽：09956_suisou⟧⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧⟦を→を：00422_wo⟧{泳|およ}ぎ{回|まわ}っている。",
+      "japanese": "⟦{魚|さかな}→魚：00499_sakana⟧⟦が→が：00051_ga⟧⟦{水槽|すいそう}→水槽：09956_suisou⟧⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧⟦を→を：00422_wo⟧{泳|およ}ぎ{回|まわ}って⟦いる→いる：00495_iru⟧。",
       "english": "The fish are swimming around in the tank.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "05875_oyogimawaru_ex2",
-      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧⟦たち→達：01551_tachi⟧⟦が→が：00051_ga⟧⟦プール→プール：02958_puuru⟧⟦で→で：00502_de⟧{泳|およ}ぎ{回|まわ}っていた。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧⟦たち→達：01551_tachi⟧⟦が→が：00051_ga⟧⟦プール→プール：02958_puuru⟧⟦で→で：00502_de⟧{泳|およ}ぎ{回|まわ}って⟦いた→いる：00495_iru⟧。",
       "english": "The children were swimming around in the pool.",
       "notes": null,
       "has_audio": false,
@@ -133,17 +133,47 @@
       ]
     }
   ],
-  "notes": "A compound verb meaning to swim around freely or in various directions.\n\nCOMPOUND VERB:\nFormed from ⟦{泳|およ}ぐ→泳ぐ：00545_oyogu⟧ (to swim) + ⟦{回|まわ}る→回る：01150_mawaru⟧ (to go around). The ～⟦{回|まわ}る→回る：01150_mawaru⟧ pattern indicates movement in various directions or throughout an area.\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n- The subject (fish, person, etc.) moves freely through water\n\nASPECT (ている):\n{泳|およ}ぎ{回|まわ}っている describes the ongoing action of swimming around, emphasizing continuous movement in multiple directions.\n\nSIMILAR ～{回|まわ}る COMPOUNDS:\n- ⟦{走|はし}り{回|まわ}る→走り回る：04608_hashirimawaru⟧: to run around\n- ⟦{歩|ある}き{回|まわ}る→歩き回る：04605_arukimawaru⟧: to walk around\n- ⟦{飛|と}び{回|まわ}る→飛び回る：04610_tobimawaru⟧: to fly around\n- ⟦{動|うご}き{回|まわ}る→動き回る：04612_ugokimawaru⟧: to move around",
+  "notes": "A compound verb meaning to swim around freely or in various directions.\n\nCOMPOUND VERB:\nFormed from ⟦{泳|およ}ぐ→泳ぐ：00545_oyogu⟧ (to swim) + ⟦{回|まわ}る→回る：01150_mawaru⟧ (to go around). The ～⟦{回|まわ}る→回る：01150_mawaru⟧ pattern indicates movement in various directions or throughout an area.\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n- The subject (fish, person, etc.) moves freely through water\n\nASPECT (ている):\n{泳|およ}ぎ{回|まわ}って⟦いる→いる：00495_iru⟧ describes the ongoing action of swimming around, emphasizing continuous movement in multiple directions.\n\nSIMILAR ～{回|まわ}る COMPOUNDS:\n- ⟦{走|はし}り{回|まわ}る→走り回る：04608_hashirimawaru⟧: to run around\n- ⟦{歩|ある}き{回|まわ}る→歩き回る：04605_arukimawaru⟧: to walk around\n- ⟦{飛|と}び{回|まわ}る→飛び回る：04610_tobimawaru⟧: to fly around\n- ⟦{動|うご}き{回|まわ}る→動き回る：04612_ugokimawaru⟧: to move around",
   "cross_references": [
-    {"type": "related", "target_id": "00545_oyogu", "reading": "およぐ", "headword": "{泳|およ}ぐ", "label": "to swim"},
-    {"type": "related", "target_id": "04605_arukimawaru", "reading": "あるきまわる", "headword": "{歩|ある}き{回|まわ}る", "label": "to walk around"},
-    {"type": "related", "target_id": "04608_hashirimawaru", "reading": "はしりまわる", "headword": "{走|はし}り{回|まわ}る", "label": "to run around"},
-    {"type": "related", "target_id": "04610_tobimawaru", "reading": "とびまわる", "headword": "{飛|と}び{回|まわ}る", "label": "to fly around"},
-    {"type": "related", "target_id": "04612_ugokimawaru", "reading": "うごきまわる", "headword": "{動|うご}き{回|まわ}る", "label": "to move around"}
+    {
+      "type": "related",
+      "target_id": "00545_oyogu",
+      "reading": "およぐ",
+      "headword": "{泳|およ}ぐ",
+      "label": "to swim"
+    },
+    {
+      "type": "related",
+      "target_id": "04605_arukimawaru",
+      "reading": "あるきまわる",
+      "headword": "{歩|ある}き{回|まわ}る",
+      "label": "to walk around"
+    },
+    {
+      "type": "related",
+      "target_id": "04608_hashirimawaru",
+      "reading": "はしりまわる",
+      "headword": "{走|はし}り{回|まわ}る",
+      "label": "to run around"
+    },
+    {
+      "type": "related",
+      "target_id": "04610_tobimawaru",
+      "reading": "とびまわる",
+      "headword": "{飛|と}び{回|まわ}る",
+      "label": "to fly around"
+    },
+    {
+      "type": "related",
+      "target_id": "04612_ugokimawaru",
+      "reading": "うごきまわる",
+      "headword": "{動|うご}き{回|まわ}る",
+      "label": "to move around"
+    }
   ],
   "metadata": {
     "created": "2026-01-16T14:02:31Z",
-    "modified": "2026-06-08T19:03:25Z",
+    "modified": "2026-09-02T04:01:07Z",
     "schema_version": "2.0",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",

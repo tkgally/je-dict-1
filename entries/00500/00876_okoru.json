@@ -109,7 +109,7 @@
   "examples": [
     {
       "id": "00876_okoru_ex1",
-      "japanese": "⟦{母|はは}→母：00549_haha⟧⟦は→は：00079_ha⟧{怒|おこ}っています。",
+      "japanese": "⟦{母|はは}→母：00549_haha⟧⟦は→は：00079_ha⟧{怒|おこ}って⟦います→いる：00495_iru⟧。",
       "english": "My mother is angry.",
       "notes": "ている form for current state",
       "has_audio": false,
@@ -139,7 +139,7 @@
     },
     {
       "id": "00876_okoru_ex4",
-      "japanese": "⟦そんなに→そんなに：01646_sonnani⟧{怒|おこ}らなくても⟦いい→いい：00118_ii⟧⟦でしょう→でしょう：09887_deshou⟧。",
+      "japanese": "⟦そんなに→そんなに：01646_sonnani⟧{怒|おこ}らなくて⟦も→も：00484_mo⟧⟦いい→いい：00118_ii⟧⟦でしょう→でしょう：09887_deshou⟧。",
       "english": "There's no need to get so angry.",
       "notes": null,
       "has_audio": false,
@@ -149,7 +149,7 @@
     },
     {
       "id": "00876_okoru_ex5",
-      "japanese": "⟦{友達|ともだち}→友達：01478_tomodachi⟧⟦が→が：00051_ga⟧⟦とても→とても：00593_totemo⟧{怒|おこ}っていて、⟦{話|はなし}→話：01496_hanashi⟧⟦を→を：00422_wo⟧⟦して→する：00392_suru⟧⟦くれなくなった→くれる：00724_kureru⟧⟦ので→ので：09501_node⟧、⟦どう→どう：00543_dou⟧⟦したら→する：00392_suru⟧⟦いい→いい：00118_ii⟧⟦か→か：09473_ka⟧⟦{分|わ}かりません→分かる：00463_wakaru⟧。",
+      "japanese": "⟦{友達|ともだち}→友達：01478_tomodachi⟧⟦が→が：00051_ga⟧⟦とても→とても：00593_totemo⟧{怒|おこ}って⟦いて→いる：00495_iru⟧、⟦{話|はなし}→話：01496_hanashi⟧⟦を→を：00422_wo⟧⟦して→する：00392_suru⟧⟦くれなくなった→くれる：00724_kureru⟧⟦ので→ので：09501_node⟧、⟦どう→どう：00543_dou⟧⟦したら→する：00392_suru⟧⟦いい→いい：00118_ii⟧⟦か→か：09473_ka⟧⟦{分|わ}かりません→分かる：00463_wakaru⟧。",
       "english": "My friend is very angry and stopped talking to me, so I don't know what to do.",
       "notes": null,
       "has_audio": false,
@@ -208,7 +208,7 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive) for 'get angry'; can be ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive) for 'scold.' No pair verb. Pattern: X⟦が→が：00051_ga⟧{怒|おこ}る (X gets angry) or X⟦が→が：00051_ga⟧Y⟦を→を：00422_wo⟧{怒|おこ}る (X scolds Y).\n\nASPECT: ている indicates resulting state. {怒|おこ}っている = 'is angry' (state, not 'is getting angry').\n\nCOMMON PATTERNS:\n・{怒|おこ}っている (is angry - state)\n・{怒|おこ}られる (be scolded - passive)\n・{怒|おこ}らないで (don't get angry)\n・⟦すぐ→すぐ：00814_sugu⟧{怒|おこ}る (get angry easily)\n\nHOMOPHONE: Different from ⟦{起|お}こる→起こる：01910_okoru⟧ (to happen/occur) which uses different kanji.",
+  "notes": "TRANSITIVITY: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive) for 'get angry'; can be ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive) for 'scold.' No pair verb. Pattern: X⟦が→が：00051_ga⟧{怒|おこ}る (X gets angry) or X⟦が→が：00051_ga⟧Y⟦を→を：00422_wo⟧{怒|おこ}る (X scolds Y).\n\nASPECT: て⟦いる→いる：00495_iru⟧ indicates resulting state. {怒|おこ}って⟦いる→いる：00495_iru⟧ = 'is angry' (state, not 'is getting angry').\n\nCOMMON PATTERNS:\n- {怒|おこ}って⟦いる→いる：00495_iru⟧ (is angry - state)\n- {怒|おこ}られる (be scolded - passive)\n- {怒|おこ}らないで (don't get angry)\n- ⟦すぐ→すぐ：00814_sugu⟧{怒|おこ}る (get angry easily)\n\nHOMOPHONE: Different from ⟦{起|お}こる→起こる：01910_okoru⟧ (to happen/occur) which uses different kanji.",
   "cross_references": [
     {
       "type": "synonym",
@@ -223,11 +223,39 @@
       "reading": "はらがたつ",
       "headword": "{腹|はら}が{立|た}つ",
       "label": "to feel angry (idiom)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06436_fungai",
+      "reading": "ふんがい",
+      "headword": "{憤慨|ふんがい}",
+      "label": "indignation, resentment"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12637_ikidooru",
+      "reading": "いきどおる",
+      "headword": "{憤|いきどお}る",
+      "label": "to be indignant, to be furious"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19802_okoraseru",
+      "reading": "おこらせる",
+      "headword": "{怒|おこ}らせる",
+      "label": "to make angry"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30587_atamanikuru",
+      "reading": "あたまにくる",
+      "headword": "{頭|あたま}に{来|く}る",
+      "label": "to get angry"
     }
   ],
   "metadata": {
     "created": "2026-01-07T12:04:46Z",
-    "modified": "2026-07-31T03:21:29Z",
+    "modified": "2026-09-02T04:00:58Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

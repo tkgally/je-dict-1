@@ -2,7 +2,7 @@
   "id": "21332_youninsuru",
   "headword": "{容認|ようにん}する",
   "reading": "ようにんする",
-  "part_of_speech": "noun, suru verb, transitive",
+  "part_of_speech": "noun, suru verb (transitive)",
   "gloss": "to tolerate; to accept; to approve",
   "definitions": [
     {
@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "21332_youninsuru_ex1",
-      "japanese": "{政府|せいふ}がそれを{容認|ようにん}した。",
+      "japanese": "⟦{政府|せいふ}→政府：03294_seifu⟧⟦が→が：00051_ga⟧⟦それ→それ：00994_sore⟧⟦を→を：00422_wo⟧{容認|ようにん}した。",
       "english": "The government approved it.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "21332_youninsuru_ex2",
-      "japanese": "このような{行為|こうい}は{容認|ようにん}できない。",
+      "japanese": "⟦この→この：00962_kono⟧ような⟦{行為|こうい}→行為：10021_koui⟧⟦は→は：00079_ha⟧{容認|ようにん}できない。",
       "english": "Such conduct cannot be tolerated.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "21332_youninsuru_ex3",
-      "japanese": "{国際|こくさい}{社会|しゃかい}は{核兵器|かくへいき}の{使用|しよう}を{容認|ようにん}すべきではない。",
+      "japanese": "⟦{国際|こくさい}→国際：01406_kokusai⟧⟦{社会|しゃかい}→社会：01427_shakai⟧⟦は→は：00079_ha⟧⟦{核兵器|かくへいき}→核兵器：13126_kakuheiki⟧⟦の→の：09472_no⟧⟦{使用|しよう}→使用：01637_shiyou⟧⟦を→を：00422_wo⟧⟦{容認|ようにん}→容認：12344_younin⟧すべきで⟦は→は：00079_ha⟧⟦ない→ない：01118_nai⟧。",
       "english": "The international community should not condone the use of nuclear weapons.",
       "sense_numbers": [
         1
@@ -43,8 +43,38 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {容|よう} (contain, tolerate) + {認|にん} (acknowledge). A formal word often used in political, legal, and diplomatic contexts. Implies accepting something as permissible rather than positively endorsing it.\n\nCOMMON COLLOCATIONS:\n- {暗黙|あんもく}の{容認|ようにん}: tacit approval\n- {容認|ようにん}できない: unacceptable, intolerable\n- {容認|ようにん}{姿勢|しせい}: stance of acceptance\n- {容認|ようにん}{範囲|はんい}: acceptable range\n\nSIMILAR WORDS:\n- {許可|きょか}する: to permit (official authorization)\n- {承認|しょうにん}する: to approve (formal endorsement)\n- {黙認|もくにん}する: to tacitly approve (knowing but not objecting)\n- {認|みと}める: to acknowledge, to approve (broader, everyday usage)",
+  "notes": "Compound of {容|よう} (contain, tolerate) + {認|にん} (acknowledge). A formal word often used in political, legal, and diplomatic contexts. Implies accepting something as permissible rather than positively endorsing it.\n\nCOMMON COLLOCATIONS:\n- ⟦{暗黙|あんもく}→暗黙：12876_anmoku⟧⟦の→の：09472_no⟧⟦{容認|ようにん}→容認：12344_younin⟧: tacit approval\n- {容認|ようにん}できない: unacceptable, intolerable\n- ⟦{容認|ようにん}→容認：12344_younin⟧⟦{姿勢|しせい}→姿勢：00371_shisei⟧: stance of acceptance\n- ⟦{容認|ようにん}→容認：12344_younin⟧⟦{範囲|はんい}→範囲：03567_hani⟧: acceptable range\n\nSIMILAR WORDS:\n- ⟦{許可|きょか}する→許可する：20063_kyokasuru⟧: to permit (official authorization)\n- ⟦{承認|しょうにん}する→承認する：20064_shouninsuru⟧: to approve (formal endorsement)\n- ⟦{黙認|もくにん}→黙認：07944_mokunin⟧⟦する→する：00392_suru⟧: to tacitly approve (knowing but not objecting)\n- ⟦{認|みと}める→認める：02429_mitomeru⟧: to acknowledge, to approve (broader, everyday usage)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20063_kyokasuru",
+      "reading": "きょかする",
+      "headword": "{許可|きょか}する",
+      "label": "to permit"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20064_shouninsuru",
+      "reading": "しょうにんする",
+      "headword": "{承認|しょうにん}する",
+      "label": "to approve"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07944_mokunin",
+      "reading": "もくにん",
+      "headword": "{黙認|もくにん}",
+      "label": "to tacitly approve"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02429_mitomeru",
+      "reading": "みとめる",
+      "headword": "{認|みと}める",
+      "label": "to acknowledge, to approve"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,7 +92,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-02T01:02:41Z",
-    "modified": "2026-07-29T12:35:11Z"
+    "modified": "2026-09-02T04:02:03Z"
   },
   "conjugation": {
     "type": "suru",

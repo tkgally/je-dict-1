@@ -3,7 +3,7 @@
   "headword": "{録音|ろくおん}する",
   "reading": "ろくおんする",
   "romaji": "rokuonsuru",
-  "part_of_speech": "verb (suru)",
+  "part_of_speech": "suru verb",
   "gloss": "to record (audio); to make a recording",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25388_rokuonsuru_ex1",
-      "japanese": "{会議|かいぎ}を{録音|ろくおん}する。",
+      "japanese": "⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦を→を：00422_wo⟧{録音|ろくおん}する。",
       "english": "To record a meeting.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25388_rokuonsuru_ex2",
-      "japanese": "スマホで{授業|じゅぎょう}の{内容|ないよう}を{録音|ろくおん}した。",
+      "japanese": "⟦スマホ→スマホ：04721_sumaho⟧⟦で→で：00502_de⟧⟦{授業|じゅぎょう}→授業：00781_jugyou⟧⟦の→の：09472_no⟧⟦{内容|ないよう}→内容：01482_naiyou⟧⟦を→を：00422_wo⟧{録音|ろくおん}した。",
       "english": "I recorded the class content on my smartphone.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25388_rokuonsuru_ex3",
-      "japanese": "このアルバムは{有名|ゆうめい}なスタジオで{録音|ろくおん}されたものだ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦アルバム→アルバム：03831_arubamu⟧⟦は→は：00079_ha⟧⟦{有名|ゆうめい}→有名：01106_yuumei⟧な⟦スタジオ→スタジオ：11583_sutajio⟧⟦で→で：00502_de⟧{録音|ろくおん}されたものだ。",
       "english": "This album was recorded at a famous studio.",
       "sense_numbers": [
         1
@@ -44,8 +44,52 @@
       "notes": null
     }
   ],
-  "notes": "Specifically refers to audio recording, as distinct from video recording. The kanji literally combine {録|ろく} (record) and {音|おん} (sound).\n\nCOMMON COLLOCATIONS:\n- {録音|ろくおん}{機能|きのう}: recording function\n- {録音|ろくおん}データ: recording data\n- {録音|ろくおん}スタジオ: recording studio\n- {録音|ろくおん}{禁止|きんし}: recording prohibited\n- ボイス{録音|ろくおん}: voice recording\n\nSIMILAR WORDS:\n- {録画|ろくが}する: to record video — captures both image and sound, while {録音|ろくおん} is audio only\n- {収録|しゅうろく}する: to record (for broadcast) — typically used for professional recording of TV/radio programs, while {録音|ろくおん} is more general\n- {撮影|さつえい}する: to film, to photograph — captures visual images, possibly with sound",
+  "notes": "Specifically refers to audio recording, as distinct from video recording. The kanji literally combine {録|ろく} (record) and {音|おん} (sound).\n\nCOMMON COLLOCATIONS:\n- ⟦{録音|ろくおん}→録音：05107_rokuon⟧⟦{機能|きのう}→機能：13165_kinou⟧: recording function\n- ⟦{録音|ろくおん}→録音：05107_rokuon⟧⟦データ→データ：03944_deeta⟧: recording data\n- ⟦{録音|ろくおん}→録音：05107_rokuon⟧⟦スタジオ→スタジオ：11583_sutajio⟧: recording studio\n- ⟦{録音|ろくおん}→録音：05107_rokuon⟧⟦{禁止|きんし}→禁止：02643_kinshi⟧: recording prohibited\n- ボイス⟦{録音|ろくおん}→録音：05107_rokuon⟧: voice recording\n\nSIMILAR WORDS:\n- ⟦{録画|ろくが}→録画：04441_rokuga⟧⟦する→する：00392_suru⟧: to record video — captures both image and sound, while ⟦{録音|ろくおん}→録音：05107_rokuon⟧ is audio only\n- ⟦{収録|しゅうろく}→収録：08378_shuuroku⟧⟦する→する：00392_suru⟧: to record (for broadcast) — typically used for professional recording of TV/radio programs, while ⟦{録音|ろくおん}→録音：05107_rokuon⟧ is more general\n- ⟦{撮影|さつえい}する→撮影する：21990_satsueisuru⟧: to film, to photograph — captures visual images, possibly with sound",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04441_rokuga",
+      "reading": "ろくが",
+      "headword": "{録画|ろくが}",
+      "label": "to record video"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08378_shuuroku",
+      "reading": "しゅうろく",
+      "headword": "{収録|しゅうろく}",
+      "label": "to record"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21990_satsueisuru",
+      "reading": "さつえいする",
+      "headword": "{撮影|さつえい}する",
+      "label": "to film, to photograph"
+    },
+    {
+      "type": "related",
+      "target_id": "03101_rajikase",
+      "reading": "らじかせ",
+      "headword": "ラジカセ",
+      "label": "radio cassette player"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25341_kirokusuru",
+      "reading": "きろくする",
+      "headword": "{記録|きろく}する",
+      "label": "to record"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27731_toru",
+      "reading": "とる",
+      "headword": "{録|と}る",
+      "label": "to record (audio or video)"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,7 +106,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-25T11:15:05Z",
-    "modified": "2026-04-25T11:15:05Z"
+    "modified": "2026-09-02T04:02:22Z"
   },
   "conjugation": {
     "type": "suru",

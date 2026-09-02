@@ -3,7 +3,7 @@
   "headword": "{居残|いのこ}る",
   "reading": "いのこる",
   "romaji": "inokoru",
-  "part_of_speech": "verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to stay behind; to remain after others leave",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "27644_inokoru_ex1",
-      "japanese": "{今日|きょう}は{居残|いのこ}って{仕事|しごと}をした。",
+      "japanese": "⟦{今日|きょう}→今日：00496_kyou⟧⟦は→は：00079_ha⟧{居残|いのこ}って⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦を→を：00422_wo⟧⟦した→する：00392_suru⟧。",
       "english": "I stayed behind today to work.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "27644_inokoru_ex2",
-      "japanese": "{生徒|せいと}が{掃除|そうじ}のために{居残|いのこ}っている。",
+      "japanese": "⟦{生徒|せいと}→生徒：01051_seito⟧⟦が→が：00051_ga⟧⟦{掃除|そうじ}→掃除：02889_souji⟧⟦の→の：09472_no⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧{居残|いのこ}って⟦いる→いる：00495_iru⟧。",
       "english": "The students are staying behind to clean.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "27644_inokoru_ex3",
-      "japanese": "{締|し}め{切|き}りに{間|ま}に{合|あ}わせるため、{社員|しゃいん}{数名|すうめい}が{遅|おそ}くまで{居残|いのこ}って{作業|さぎょう}を{続|つづ}けた。",
+      "japanese": "⟦{締|し}め{切|き}り→締め切り：04162_shimekiri⟧⟦に→に：00314_ni⟧⟦{間|ま}に{合|あ}わせる→間に合う：01142_maniau⟧⟦ため→ため：01145_tame⟧、⟦{社員|しゃいん}→社員：03065_shain⟧{数名|すうめい}⟦が→が：00051_ga⟧⟦{遅|おそ}く→遅い：00533_osoi⟧⟦まで→まで：00490_made⟧{居残|いのこ}って⟦{作業|さぎょう}→作業：02775_sagyou⟧⟦を→を：00422_wo⟧⟦{続|つづ}け→続く：00903_tsuzuku⟧た。",
       "english": "To meet the deadline, a few employees stayed behind working until late.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {居|い}る (to be present, to stay) + {残|のこ}る (to remain). Class: godan verb (る → り/った). The intransitive pairing of {残|のこ}す (transitive).\n\nTRANSITIVITY: Intransitive. The subject stays behind on their own.\n\nCOMMON COLLOCATIONS:\n- {居残|いのこ}って{仕事|しごと}をする: to work overtime / stay behind to work\n- {居残|いのこ}り{勉強|べんきょう}: studying after class (often as discipline at school)\n- {一人|ひとり}で{居残|いのこ}る: to be the only one left behind\n- {遅|おそ}くまで{居残|いのこ}る: to stay behind until late\n\nSIMILAR WORDS:\n- {残業|ざんぎょう}する: to work overtime — specifically work, more common in business contexts\n- {居残|いのこ}り: noun form, the act/penalty of staying behind (school setting)\n- {残|のこ}る: to remain — broader, includes inanimate things; does not specifically mean staying after others leave",
+  "notes": "Compound of {居|い}る (to be present, to stay) + ⟦{残|のこ}る→残る：01187_nokoru⟧ (to remain). Class: godan verb (る → り/った). The intransitive pairing of ⟦{残|のこ}す→残す：01975_nokosu⟧ (transitive).\n\nTRANSITIVITY: Intransitive. The subject stays behind on their own.\n\nCOMMON COLLOCATIONS:\n- {居残|いのこ}って⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧: to work overtime / stay behind to work\n- {居残|いのこ}り⟦{勉強|べんきょう}→勉強：00770_benkyou⟧: studying after class (often as discipline at school)\n- ⟦{一人|ひとり}→一人：00630_hitori⟧⟦で→で：00502_de⟧{居残|いのこ}る: to be the only one left behind\n- ⟦{遅|おそ}く→遅い：00533_osoi⟧⟦まで→まで：00490_made⟧{居残|いのこ}る: to stay behind until late\n\nSIMILAR WORDS:\n- ⟦{残業|ざんぎょう}→残業：01071_zangyou⟧⟦する→する：00392_suru⟧: to work overtime — specifically work, more common in business contexts\n- {居残|いのこ}り: noun form, the act/penalty of staying behind (school setting)\n- ⟦{残|のこ}る→残る：01187_nokoru⟧: to remain — broader, includes inanimate things; does not specifically mean staying after others leave",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01071_zangyou",
+      "reading": "ざんぎょう",
+      "headword": "{残業|ざんぎょう}",
+      "label": "to work overtime"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -54,7 +63,7 @@
       ],
       "transitivity": "intransitive",
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "action"
       ],
@@ -62,7 +71,7 @@
       "verb_class": "godan-ru"
     },
     "created": "2026-05-15T04:12:19Z",
-    "modified": "2026-05-15T04:12:19Z"
+    "modified": "2026-09-02T04:02:31Z"
   },
   "conjugation": {
     "type": "godan",

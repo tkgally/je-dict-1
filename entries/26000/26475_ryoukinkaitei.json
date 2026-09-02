@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26475_ryoukinkaitei_ex1",
-      "japanese": "{来月|らいげつ}から{料金|りょうきん}{改定|かいてい}がある。",
+      "japanese": "⟦{来月|らいげつ}→来月：00744_raigetsu⟧⟦から→から：00504_kara⟧{料金|りょうきん}{改定|かいてい}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There will be a rate change starting next month.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26475_ryoukinkaitei_ex2",
-      "japanese": "{運賃|うんちん}の{料金|りょうきん}{改定|かいてい}により、{来月|らいげつ}から{新|あたら}しい{運賃|うんちん}が{適用|てきよう}される。",
+      "japanese": "⟦{運賃|うんちん}→運賃：05299_unchin⟧⟦の→の：09472_no⟧{料金|りょうきん}{改定|かいてい}⟦に→に：00314_ni⟧⟦より→より：09476_yori⟧、⟦{来月|らいげつ}→来月：00744_raigetsu⟧⟦から→から：00504_kara⟧⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦{運賃|うんちん}→運賃：05299_unchin⟧⟦が→が：00051_ga⟧⟦{適用|てきよう}される→適用する：21739_tekiyousuru⟧。",
       "english": "Due to the fare revision, new fares will be applied from next month.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26475_ryoukinkaitei_ex3",
-      "japanese": "{会社|かいしゃ}は{原材料費|げんざいりょうひ}の{高騰|こうとう}を{理由|りゆう}に{料金|りょうきん}{改定|かいてい}を{発表|はっぴょう}した。",
+      "japanese": "⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦は→は：00079_ha⟧{原材料費|げんざいりょうひ}⟦の→の：09472_no⟧⟦{高騰|こうとう}→高騰：14647_koutou⟧⟦を→を：00422_wo⟧⟦{理由|りゆう}→理由：01102_riyuu⟧⟦に→に：00314_ni⟧{料金|りょうきん}{改定|かいてい}⟦を→を：00422_wo⟧⟦{発表|はっぴょう}した→発表する：25231_happyousuru⟧。",
       "english": "The company announced a price revision citing the surge in raw material costs.",
       "sense_numbers": [
         1
@@ -44,8 +44,16 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {料金|りょうきん} (fee, charge) and {改定|かいてい} (revision, amendment). Used when prices or rates are officially changed, whether increased or decreased. Often appears in formal announcements from service providers, utilities, and transportation companies.\n\nCOMMON COLLOCATIONS:\n- {料金|りょうきん}{改定|かいてい}の{通知|つうち}: notice of rate revision\n- {料金|りょうきん}{改定|かいてい}を{実施|じっし}する: to implement a fee revision\n- {料金|りょうきん}{改定|かいてい}の{理由|りゆう}: reason for the price change\n\nSIMILAR WORDS:\n- {値上|ねあ}げ: price increase — specifically means raising prices, while {料金|りょうきん}{改定|かいてい} is neutral and can mean either direction\n- {価格|かかく}{変更|へんこう}: price change — more general term that can apply to individual products, while {料金|りょうきん}{改定|かいてい} implies a systematic, official revision\n- {改定|かいてい} vs {改訂|かいてい}: both read かいてい, but {改定|かいてい} revises rules/rates while {改訂|かいてい} revises written texts like books",
-  "cross_references": [],
+  "notes": "Composed of ⟦{料金|りょうきん}→料金：03797_ryoukin⟧ (fee, charge) and ⟦{改定|かいてい}→改定：13036_kaitei⟧ (revision, amendment). Used when prices or rates are officially changed, whether increased or decreased. Often appears in formal announcements from service providers, utilities, and transportation companies.\n\nCOMMON COLLOCATIONS:\n- {料金|りょうきん}{改定|かいてい}⟦の→の：09472_no⟧⟦{通知|つうち}→通知：04061_tsuuchi⟧: notice of rate revision\n- {料金|りょうきん}{改定|かいてい}⟦を→を：00422_wo⟧⟦{実施|じっし}する→実施する：19634_jisshisuru⟧: to implement a fee revision\n- {料金|りょうきん}{改定|かいてい}⟦の→の：09472_no⟧⟦{理由|りゆう}→理由：01102_riyuu⟧: reason for the price change\n\nSIMILAR WORDS:\n- ⟦{値上|ねあ}げ→値上げ：07582_neage⟧: price increase — specifically means raising prices, while {料金|りょうきん}{改定|かいてい} is neutral and can mean either direction\n- ⟦{価格|かかく}→価格：00147_kakaku⟧⟦{変更|へんこう}→変更：03616_henkou⟧: price change — more general term that can apply to individual products, while {料金|りょうきん}{改定|かいてい} implies a systematic, official revision\n- ⟦{改定|かいてい}→改定：13036_kaitei⟧ vs ⟦{改訂|かいてい}→改訂：13044_kaitei⟧: both read かいてい, but ⟦{改定|かいてい}→改定：13036_kaitei⟧ revises rules/rates while ⟦{改訂|かいてい}→改訂：13044_kaitei⟧ revises written texts like books",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07582_neage",
+      "reading": "ねあげ",
+      "headword": "{値上|ねあ}げ",
+      "label": "price increase"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -61,6 +69,6 @@
       ]
     },
     "created": "2026-05-02T12:15:34Z",
-    "modified": "2026-06-12T12:41:12Z"
+    "modified": "2026-09-02T04:02:26Z"
   }
 }

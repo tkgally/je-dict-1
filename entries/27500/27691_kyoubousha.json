@@ -15,41 +15,69 @@
   "examples": [
     {
       "id": "27691_kyoubousha_ex1",
-      "japanese": "{警察|けいさつ}は{共謀者|きょうぼうしゃ}を{探|さが}している。",
+      "japanese": "⟦{警察|けいさつ}→警察：01393_keisatsu⟧⟦は→は：00079_ha⟧{共謀者|きょうぼうしゃ}⟦を→を：00422_wo⟧⟦{探|さが}している→探す：00493_sagasu⟧。",
       "english": "The police are searching for the co-conspirators.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27691_kyoubousha_ex2",
-      "japanese": "かれは{事件|じけん}の{共謀者|きょうぼうしゃ}とされた。",
+      "japanese": "かれ⟦は→は：00079_ha⟧⟦{事件|じけん}→事件：01568_jiken⟧⟦の→の：09472_no⟧{共謀者|きょうぼうしゃ}⟦と→と：00512_to⟧⟦された→する：00392_suru⟧。",
       "english": "He was named a co-conspirator in the incident.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27691_kyoubousha_ex3",
-      "japanese": "{取|と}り{調|しら}べで、ほかに{二人|ふたり}の{共謀者|きょうぼうしゃ}がいたことが{分|わ}かった。",
+      "japanese": "{取|と}り{調|しら}べで、ほか⟦に→に：00314_ni⟧⟦{二人|ふたり}→二人：00622_futari⟧⟦の→の：09472_no⟧{共謀者|きょうぼうしゃ}がいたこと⟦が→が：00051_ga⟧⟦{分|わ}かった→分かる：00463_wakaru⟧。",
       "english": "The investigation revealed that there were two other co-conspirators.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {共謀|きょうぼう} (conspiring together) + {者|しゃ} (person). A formal, legal term for someone who takes part in planning a crime with others.\n\nCOMMON COLLOCATIONS:\n- {事件|じけん}の{共謀者|きょうぼうしゃ}: a co-conspirator in a case\n- {共謀者|きょうぼうしゃ}を{特定|とくてい}する: to identify the co-conspirators\n\nSIMILAR WORDS:\n- {共犯者|きょうはんしゃ}: accomplice — one who takes part in committing the crime, not only in planning it\n- {主犯|しゅはん}: principal offender — the leader who plays the central role in a crime",
+  "notes": "Composed of ⟦{共謀|きょうぼう}→共謀：19002_kyoubou⟧ (conspiring together) + ⟦{者|しゃ}→〜者：04662_sha⟧ (person). A formal, legal term for someone who takes part in planning a crime with others.\n\nCOMMON COLLOCATIONS:\n- ⟦{事件|じけん}→事件：01568_jiken⟧⟦の→の：09472_no⟧{共謀者|きょうぼうしゃ}: a co-conspirator in a case\n- {共謀者|きょうぼうしゃ}⟦を→を：00422_wo⟧⟦{特定|とくてい}する→特定する：19642_tokuteisuru⟧: to identify the co-conspirators\n\nSIMILAR WORDS:\n- {共犯者|きょうはんしゃ}: accomplice — one who takes part in committing the crime, not only in planning it\n- ⟦{主犯|しゅはん}→主犯：18011_shuhan⟧: principal offender — the leader who plays the central role in a crime",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18011_shuhan",
+      "reading": "しゅはん",
+      "headword": "{主犯|しゅはん}",
+      "label": "principal offender"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26754_inbousha",
+      "reading": "いんぼうしゃ",
+      "headword": "{陰謀者|いんぼうしゃ}",
+      "label": "conspirator"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
-      "politeness": null,
-      "semantic": ["person"],
-      "domain": ["legal"]
+      "politeness": "plain",
+      "semantic": [
+        "person"
+      ],
+      "domain": [
+        "legal"
+      ]
     },
     "created": "2026-05-16T04:08:30Z",
-    "modified": "2026-05-16T04:08:30Z"
+    "modified": "2026-09-02T04:02:31Z"
   }
 }

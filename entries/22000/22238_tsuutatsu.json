@@ -3,7 +3,7 @@
   "headword": "{通達|つうたつ}",
   "reading": "つうたつ",
   "romaji": "tsuutatsu",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "official notice; directive; circular",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22238_tsuutatsu_ex1",
-      "japanese": "{省|しょう}から{通達|つうたつ}が{出|で}た。",
+      "japanese": "{省|しょう}⟦から→から：00504_kara⟧{通達|つうたつ}⟦が→が：00051_ga⟧⟦{出|で}た→出る：00513_deru⟧。",
       "english": "A directive was issued from the ministry.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22238_tsuutatsu_ex2",
-      "japanese": "{本社|ほんしゃ}から{新|あたら}しい{通達|つうたつ}が{届|とど}いた。",
+      "japanese": "⟦{本社|ほんしゃ}→本社：09565_honsha⟧⟦から→から：00504_kara⟧⟦{新|あたら}しい→新しい：00506_atarashii⟧{通達|つうたつ}⟦が→が：00051_ga⟧⟦{届|とど}いた→届く：00899_todoku⟧。",
       "english": "A new directive arrived from headquarters.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22238_tsuutatsu_ex3",
-      "japanese": "{文部科学省|もんぶかがくしょう}の{通達|つうたつ}に{従|したが}って{対応|たいおう}する。",
+      "japanese": "{文部科学省|もんぶかがくしょう}⟦の→の：09472_no⟧{通達|つうたつ}⟦に→に：00314_ni⟧⟦{従|したが}って→従う：02059_shitagau⟧⟦{対応|たいおう}→対応：02510_taiou⟧⟦する→する：00392_suru⟧。",
       "english": "We will respond in accordance with the directive from the Ministry of Education.",
       "sense_numbers": [
         1
@@ -45,7 +45,7 @@
     },
     {
       "id": "22238_tsuutatsu_ex4",
-      "japanese": "{残業|ざんぎょう}{削減|さくげん}に{関|かん}する{通達|つうたつ}が{全社|ぜんしゃ}に{通達|つうたつ}された。",
+      "japanese": "⟦{残業|ざんぎょう}→残業：01071_zangyou⟧⟦{削減|さくげん}→削減：11789_sakugen⟧⟦に→に：00314_ni⟧⟦{関|かん}する→関する：02045_kansuru⟧{通達|つうたつ}⟦が→が：00051_ga⟧{全社|ぜんしゃ}⟦に→に：00314_ni⟧{通達|つうたつ}⟦された→する：00392_suru⟧。",
       "english": "A directive regarding overtime reduction was circulated company-wide.",
       "sense_numbers": [
         1
@@ -54,8 +54,59 @@
       "notes": null
     }
   ],
-  "notes": "A formal term for official instructions flowing downward through an organizational hierarchy. In government, a {通達|つうたつ} is a directive from a ministry or agency to subordinate offices interpreting or implementing law. In business, it refers to company-wide notices from management.\n\nCOMMON COLLOCATIONS:\n- {通達|つうたつ}を{出|だ}す: to issue a directive\n- {通達|つうたつ}に{従|したが}う: to follow a directive\n- {通達|つうたつ}が{届|とど}く: a directive arrives\n- {通達|つうたつ}する: to notify officially; to circulate a directive\n- {行政|ぎょうせい}{通達|つうたつ}: administrative directive\n\nSIMILAR WORDS:\n- {通知|つうち}: notification; notice — more general, can be from any source to any recipient\n- {指示|しじ}: instruction; direction — a broader term for orders or instructions\n- {公告|こうこく}: public notice — an announcement made to the general public\n- {告示|こくじ}: official announcement — a formal public proclamation by a government body",
+  "notes": "A formal term for official instructions flowing downward through an organizational hierarchy. In government, a {通達|つうたつ} is a directive from a ministry or agency to subordinate offices interpreting or implementing law. In business, it refers to company-wide notices from management.\n\nCOMMON COLLOCATIONS:\n- {通達|つうたつ}⟦を→を：00422_wo⟧⟦{出|だ}す→出す：01087_dasu⟧: to issue a directive\n- {通達|つうたつ}⟦に→に：00314_ni⟧⟦{従|したが}う→従う：02059_shitagau⟧: to follow a directive\n- {通達|つうたつ}⟦が→が：00051_ga⟧⟦{届|とど}く→届く：00899_todoku⟧: a directive arrives\n- {通達|つうたつ}⟦する→する：00392_suru⟧: to notify officially; to circulate a directive\n- ⟦{行政|ぎょうせい}→行政：14122_gyousei⟧{通達|つうたつ}: administrative directive\n\nSIMILAR WORDS:\n- ⟦{通知|つうち}→通知：04061_tsuuchi⟧: notification; notice — more general, can be from any source to any recipient\n- ⟦{指示|しじ}→指示：09674_shiji⟧: instruction; direction — a broader term for orders or instructions\n- ⟦{公告|こうこく}→公告：24565_koukoku⟧: public notice — an announcement made to the general public\n- {告示|こくじ}: official announcement — a formal public proclamation by a government body",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04061_tsuuchi",
+      "reading": "つうち",
+      "headword": "{通知|つうち}",
+      "label": "notification"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09674_shiji",
+      "reading": "しじ",
+      "headword": "{指示|しじ}",
+      "label": "instruction"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24565_koukoku",
+      "reading": "こうこく",
+      "headword": "{公告|こうこく}",
+      "label": "public notice"
+    },
+    {
+      "type": "related",
+      "target_id": "09516_hatsurei",
+      "reading": "はつれい",
+      "headword": "{発令|はつれい}",
+      "label": "issuance (of an order/warning)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20432_tsuukoku",
+      "reading": "つうこく",
+      "headword": "{通告|つうこく}",
+      "label": "notice"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23449_shijisho",
+      "reading": "しじしょ",
+      "headword": "{指示書|しじしょ}",
+      "label": "written instructions"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25620_gyoumurenraku",
+      "reading": "ぎょうむれんらく",
+      "headword": "{業務連絡|ぎょうむれんらく}",
+      "label": "work-related notice"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -72,7 +123,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-05T15:13:24Z",
-    "modified": "2026-04-05T15:13:24Z"
+    "modified": "2026-09-02T04:02:07Z"
   },
   "conjugation": {
     "type": "suru",

@@ -15,41 +15,74 @@
   "examples": [
     {
       "id": "16665_iritate_ex1",
-      "japanese": "{煎|い}り{立|た}てのコーヒーはいい{香|かお}りがする。",
+      "japanese": "{煎|い}り{立|た}て⟦の→の：09472_no⟧⟦コーヒー→コーヒー：00789_koohii⟧⟦は→は：00079_ha⟧⟦いい→いい：00118_ii⟧⟦{香|かお}り→香り：00189_kaori⟧⟦が→が：00051_ga⟧⟦する→する：00392_suru⟧。",
       "english": "Freshly roasted coffee has a wonderful aroma.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16665_iritate_ex2",
-      "japanese": "{煎|い}り{立|た}ての{胡麻|ごま}を{料理|りょうり}にかけた。",
+      "japanese": "{煎|い}り{立|た}て⟦の→の：09472_no⟧⟦{胡麻|ごま}→胡麻：10337_goma⟧⟦を→を：00422_wo⟧⟦{料理|りょうり}→料理：01523_ryouri⟧⟦に→に：00314_ni⟧⟦かけた→かける：00854_kakeru⟧。",
       "english": "I sprinkled freshly roasted sesame seeds on the dish.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16665_iritate_ex3",
-      "japanese": "この{店|みせ}では{煎|い}り{立|た}ての{豆|まめ}を{使|つか}ったコーヒーが{楽|たの}しめる。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{店|みせ}→店：00497_mise⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧{煎|い}り{立|た}て⟦の→の：09472_no⟧⟦{豆|まめ}→豆：03738_mame⟧⟦を→を：00422_wo⟧⟦{使|つか}った→使う：00473_tsukau⟧⟦コーヒー→コーヒー：00789_koohii⟧⟦が→が：00051_ga⟧⟦{楽|たの}しめる→楽しむ：01203_tanoshimu⟧。",
       "english": "At this shop, you can enjoy coffee made with freshly roasted beans.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nPart of the 〜たて pattern meaning \"freshly done.\" Most commonly used with coffee beans and sesame seeds. The aroma is often emphasized.\n\nCOMMON COLLOCATIONS:\n- {煎|い}り{立|た}てのコーヒー (freshly roasted coffee)\n- {煎|い}り{立|た}ての{豆|まめ} (freshly roasted beans)\n- {煎|い}り{立|た}ての{胡麻|ごま} (freshly roasted sesame)\n\nSIMILAR WORDS:\n- {焼|や}きたて: freshly baked — just out of the oven\n- {揚|あ}げたて: freshly fried — just out of the fryer",
-  "cross_references": [],
+  "notes": "USAGE:\nPart of the 〜たて pattern meaning \"freshly done.\" Most commonly used with coffee beans and sesame seeds. The aroma is often emphasized.\n\nCOMMON COLLOCATIONS:\n- {煎|い}り{立|た}て⟦の→の：09472_no⟧⟦コーヒー→コーヒー：00789_koohii⟧ (freshly roasted coffee)\n- {煎|い}り{立|た}て⟦の→の：09472_no⟧⟦{豆|まめ}→豆：03738_mame⟧ (freshly roasted beans)\n- {煎|い}り{立|た}て⟦の→の：09472_no⟧⟦{胡麻|ごま}→胡麻：10337_goma⟧ (freshly roasted sesame)\n\nSIMILAR WORDS:\n- ⟦{焼|や}きたて→焼きたて：16735_yakitate⟧: freshly baked — just out of the oven\n- ⟦{揚|あ}げたて→揚げたて：16736_agetate⟧: freshly fried — just out of the fryer",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16735_yakitate",
+      "reading": "やきたて",
+      "headword": "{焼|や}きたて",
+      "label": "freshly baked"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16736_agetate",
+      "reading": "あげたて",
+      "headword": "{揚|あ}げたて",
+      "label": "freshly fried"
+    },
+    {
+      "type": "related",
+      "target_id": "15234_takitate",
+      "reading": "たきたて",
+      "headword": "{炊|た}き{立|た}て",
+      "label": "freshly cooked (rice)"
+    }
+  ],
   "metadata": {
     "created": "2026-03-14T02:12:10Z",
-    "modified": "2026-03-14T02:12:10Z",
+    "modified": "2026-09-02T04:01:45Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-no"],
+      "pos": [
+        "noun",
+        "adjective-no"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food"]
+      "semantic": [
+        "food"
+      ]
     }
   }
 }

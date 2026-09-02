@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "15320_kitaidoori_ex1",
-      "japanese": "{期待通|きたいどお}りの{結果|けっか}だった。",
+      "japanese": "{期待通|きたいどお}り⟦の→の：09472_no⟧⟦{結果|けっか}→結果：02486_kekka⟧だった。",
       "english": "The result was as expected.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "15320_kitaidoori_ex2",
-      "japanese": "{新商品|しんしょうひん}は{期待通|きたいどお}りによく{売|う}れた。",
+      "japanese": "⟦{新商品|しんしょうひん}→新商品：11504_shinshouhin⟧⟦は→は：00079_ha⟧{期待通|きたいどお}り⟦に→に：00314_ni⟧⟦よく→よく：00601_yoku⟧⟦{売|う}れた→売れる：02012_ureru⟧。",
       "english": "The new product sold well, just as expected.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "15320_kitaidoori_ex3",
-      "japanese": "{彼|かれ}は{期待通|きたいどお}りの{活躍|かつやく}を{見|み}せてくれた。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{期待通|きたいどお}り⟦の→の：09472_no⟧⟦{活躍|かつやく}→活躍：02541_katsuyaku⟧⟦を→を：00422_wo⟧⟦{見|み}せて→見せる：01988_miseru⟧⟦くれた→くれる：00724_kureru⟧。",
       "english": "He performed just as well as we had hoped.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nUsed as an adverb or as a no-adjective modifying nouns. Often appears in sentences evaluating outcomes.\n\nCOMMON COLLOCATIONS:\n- {期待通|きたいどお}りの{結果|けっか} (the expected result)\n- {期待通|きたいどお}りの{成果|せいか} (the expected achievement)\n- {期待通|きたいどお}りに{進|すす}む (to proceed as expected)\n\nRELATED PATTERNS:\nOther 〜{通|どお}り patterns: {予想通|よそうどお}り (as predicted), {計画通|けいかくどお}り (as planned), {思|おも}った{通|とお}り (as one thought).",
+  "notes": "USAGE:\nUsed as an adverb or as a no-adjective modifying nouns. Often appears in sentences evaluating outcomes.\n\nCOMMON COLLOCATIONS:\n- {期待通|きたいどお}り⟦の→の：09472_no⟧⟦{結果|けっか}→結果：02486_kekka⟧ (the expected result)\n- {期待通|きたいどお}り⟦の→の：09472_no⟧⟦{成果|せいか}→成果：06745_seika⟧ (the expected achievement)\n- {期待通|きたいどお}り⟦に→に：00314_ni⟧⟦{進|すす}む→進む：01225_susumu⟧ (to proceed as expected)\n\nRELATED PATTERNS:\nOther 〜{通|どお}り patterns: ⟦{予想通|よそうどお}り→予想通り：16795_yosoudoori⟧ (as predicted), {計画通|けいかくどお}り (as planned), ⟦{思|おも}った→思う：00492_omou⟧⟦{通|とお}り→通り：01475_toori⟧ (as one thought).",
   "cross_references": [
     {
       "type": "related",
@@ -59,11 +59,18 @@
       "reading": "よていどおり",
       "headword": "{予定通|よていどお}り",
       "label": "as scheduled"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25845_omoidoori",
+      "reading": "おもいどおり",
+      "headword": "{思|おも}い{通|どお}り",
+      "label": "as one wishes"
     }
   ],
   "metadata": {
     "created": "2026-03-06T09:45:57Z",
-    "modified": "2026-05-01T06:14:09Z",
+    "modified": "2026-09-02T04:01:40Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -71,6 +78,7 @@
         "adverb"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "evaluation"
       ]

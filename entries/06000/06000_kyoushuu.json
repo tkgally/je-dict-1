@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{郷愁|きょうしゅう} is a literary word that combines {郷|きょう} (hometown) and {愁|しゅう} (sorrow/melancholy).\n\nCOMMON PATTERNS:\n- {郷愁|きょうしゅう}⟦を→を：00422_wo⟧⟦{感|かん}じる→感じる：02044_kanjiru⟧: to feel nostalgia\n- {郷愁|きょうしゅう}⟦に→に：00314_ni⟧⟦{駆|か}られる→駆る：14715_karu⟧: to be driven by nostalgia\n- {郷愁|きょうしゅう}⟦を→を：00422_wo⟧⟦{誘|さそ}う→誘う：01947_sasou⟧: to evoke nostalgia\n\nCONTRAST:\n- ⟦{懐|なつ}かしさ→懐かしさ：06729_natsukashisa⟧: nostalgia (more casual, warm feeling)\n- ⟦ホームシック→ホームシック：29084_hoomushikku⟧: homesickness (loanword, more direct)\n- ⟦{望郷|ぼうきょう}→望郷：19931_boukyou⟧: longing for home (very literary)",
+  "notes": "{郷愁|きょうしゅう} is a literary word that combines {郷|きょう} (hometown) and {愁|しゅう} (sorrow/melancholy).\n\nCOMMON PATTERNS:\n- {郷愁|きょうしゅう}⟦を→を：00422_wo⟧⟦{感|かん}じる→感じる：02044_kanjiru⟧: to feel nostalgia\n- {郷愁|きょうしゅう}⟦に→に：00314_ni⟧⟦{駆|か}られる→駆る：14715_karu⟧: to be driven by nostalgia\n- {郷愁|きょうしゅう}⟦を→を：00422_wo⟧⟦{誘|さそ}う→誘う：01947_sasou⟧: to evoke nostalgia\n\nSIMILAR WORDS:\n- ⟦{懐|なつ}かしさ→懐かしさ：06729_natsukashisa⟧: nostalgia (more casual, warm feeling)\n- ⟦ホームシック→ホームシック：29084_hoomushikku⟧: homesickness (loanword, more direct)\n- ⟦{望郷|ぼうきょう}→望郷：19931_boukyou⟧: longing for home (very literary)",
   "cross_references": [
     {
       "type": "related",
@@ -51,11 +51,60 @@
       "reading": "なつかしい",
       "headword": "{懐|なつか}しい",
       "label": "nostalgic"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06729_natsukashisa",
+      "reading": "なつかしさ",
+      "headword": "{懐|なつ}かしさ",
+      "label": "nostalgia"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29084_hoomushikku",
+      "reading": "ほーむしっく",
+      "headword": "ホームシック",
+      "label": "homesickness"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19931_boukyou",
+      "reading": "ぼうきょう",
+      "headword": "{望郷|ぼうきょう}",
+      "label": "longing for home"
+    },
+    {
+      "type": "related",
+      "target_id": "08262_sabishisa",
+      "reading": "さびしさ",
+      "headword": "{寂|さび}しさ",
+      "label": "loneliness"
+    },
+    {
+      "type": "related",
+      "target_id": "09043_kanshou",
+      "reading": "かんしょう",
+      "headword": "{感傷|かんしょう}",
+      "label": "sentimentality"
+    },
+    {
+      "type": "related",
+      "target_id": "09913_natsukashimu",
+      "reading": "なつかしむ",
+      "headword": "{懐|なつ}かしむ",
+      "label": "to feel nostalgic about, to reminisce fondly"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30313_nosutarujii",
+      "reading": "のすたるじー",
+      "headword": "ノスタルジー",
+      "label": "nostalgia"
     }
   ],
   "metadata": {
     "created": "2026-01-16T21:25:32Z",
-    "modified": "2026-08-08T09:25:02Z",
+    "modified": "2026-09-02T03:02:30Z",
     "schema_version": "2.0",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28528_tanpenshuu_ex1",
-      "japanese": "この{作家|さっか}の{短編集|たんぺんしゅう}を{買|か}った。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{作家|さっか}→作家：01414_sakka⟧⟦の→の：09472_no⟧{短編集|たんぺんしゅう}⟦を→を：00422_wo⟧⟦{買|か}った→買う：00489_kau⟧。",
       "english": "I bought this author's short story collection.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28528_tanpenshuu_ex2",
-      "japanese": "{寝|ね}る{前|まえ}に{短編集|たんぺんしゅう}を1{話|わ}ずつ{読|よ}んでいる。",
+      "japanese": "⟦{寝|ね}る→寝る：00470_neru⟧⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧{短編集|たんぺんしゅう}⟦を→を：00422_wo⟧1{話|わ}⟦ずつ→〜ずつ：03092_zutsu⟧⟦{読|よ}んでいる→読む：00426_yomu⟧。",
       "english": "I read one story from a short story collection each night before bed.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28528_tanpenshuu_ex3",
-      "japanese": "デビュー{作|さく}は{長編|ちょうへん}ではなく{短編集|たんぺんしゅう}だった。",
+      "japanese": "⟦デビュー→デビュー：11016_debyuu⟧⟦{作|さく}→作：27430_saku⟧⟦は→は：00079_ha⟧⟦{長編|ちょうへん}→長編：14475_chouhen⟧⟦ではなく→ではなく：09578_dehanaku⟧{短編集|たんぺんしゅう}だった。",
       "english": "Their debut work was not a novel but a short story collection.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {短編|たんぺん} (short piece) + {集|しゅう} (collection). Each story in such a volume is called a {短編|たんぺん} or {短編|たんぺん}{小説|しょうせつ}.\n\nCOMMON COLLOCATIONS:\n- {短編集|たんぺんしゅう}を{読|よ}む: to read a short story collection\n- {短編集|たんぺんしゅう}を{出|だ}す: to publish a short story collection\n- ミステリー{短編集|たんぺんしゅう}: mystery short story collection\n\nSIMILAR WORDS:\n- {長編|ちょうへん}{小説|しょうせつ}: novel; long-form work — antonym\n- {中編|ちゅうへん}: novella — between short story and novel in length\n- アンソロジー: anthology — loanword, often used for multi-author collections\n- {作品集|さくひんしゅう}: works collection — broader, can include any genre or medium",
+  "notes": "Compound of ⟦{短編|たんぺん}→短編：04512_tanpen⟧ (short piece) + {集|しゅう} (collection). Each story in such a volume is called a ⟦{短編|たんぺん}→短編：04512_tanpen⟧ or ⟦{短編|たんぺん}{小説|しょうせつ}→短編小説：20776_tanpenshousetsu⟧.\n\nCOMMON COLLOCATIONS:\n- {短編集|たんぺんしゅう}⟦を→を：00422_wo⟧⟦{読|よ}む→読む：00426_yomu⟧: to read a short story collection\n- {短編集|たんぺんしゅう}⟦を→を：00422_wo⟧⟦{出|だ}す→出す：01087_dasu⟧: to publish a short story collection\n- ⟦ミステリー→ミステリー：22731_misuterii⟧{短編集|たんぺんしゅう}: mystery short story collection\n\nSIMILAR WORDS:\n- ⟦{長編|ちょうへん}{小説|しょうせつ}→長編小説：20799_chouhenshousetsu⟧: novel; long-form work — antonym\n- ⟦{中編|ちゅうへん}→中編：19271_chuuhen⟧: novella — between short story and novel in length\n- アンソロジー: anthology — loanword, often used for multi-author collections\n- {作品集|さくひんしゅう}: works collection — broader, can include any genre or medium",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "20799_chouhenshousetsu",
+      "reading": "ちょうへんしょうせつ",
+      "headword": "{長編小説|ちょうへんしょうせつ}",
+      "label": "novel"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19271_chuuhen",
+      "reading": "ちゅうへん",
+      "headword": "{中編|ちゅうへん}",
+      "label": "novella"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +69,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "media"
       ],
       "domain": []
     },
     "created": "2026-06-01T03:11:38Z",
-    "modified": "2026-08-08T18:34:17Z"
+    "modified": "2026-09-02T04:02:34Z"
   }
 }

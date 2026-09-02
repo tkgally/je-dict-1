@@ -15,41 +15,67 @@
   "examples": [
     {
       "id": "18261_shusaisha_ex1",
-      "japanese": "イベントの{主催者|しゅさいしゃ}に{連絡|れんらく}した。",
+      "japanese": "⟦イベント→イベント：09594_ibento⟧⟦の→の：09472_no⟧{主催者|しゅさいしゃ}⟦に→に：00314_ni⟧⟦{連絡|れんらく}した→連絡する：20202_renrakusuru⟧。",
       "english": "I contacted the event organizer.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18261_shusaisha_ex2",
-      "japanese": "{主催者|しゅさいしゃ}が{開会|かいかい}の{挨拶|あいさつ}をした。",
+      "japanese": "{主催者|しゅさいしゃ}⟦が→が：00051_ga⟧⟦{開会|かいかい}→開会：04118_kaikai⟧⟦の→の：09472_no⟧⟦{挨拶|あいさつ}→挨拶：02505_aisatsu⟧⟦を→を：00422_wo⟧⟦した→する：00392_suru⟧。",
       "english": "The organizer gave the opening address.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18261_shusaisha_ex3",
-      "japanese": "{天候|てんこう}が{悪|わる}いため、{主催者|しゅさいしゃ}の{判断|はんだん}でマラソン{大会|たいかい}は{中止|ちゅうし}になった。",
+      "japanese": "⟦{天候|てんこう}→天候：03558_tenkou⟧⟦が→が：00051_ga⟧⟦{悪|わる}い→悪い：00908_warui⟧⟦ため→ため：01145_tame⟧、{主催者|しゅさいしゃ}⟦の→の：09472_no⟧⟦{判断|はんだん}→判断：03571_handan⟧⟦で→で：00502_de⟧⟦マラソン→マラソン：04732_marason⟧⟦{大会|たいかい}→大会：03386_taikai⟧⟦は→は：00079_ha⟧⟦{中止|ちゅうし}→中止：03481_chuushi⟧になった。",
       "english": "Due to bad weather, the marathon was cancelled at the organizer's discretion.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nThe base word {主催|しゅさい} means \"hosting\" or \"organizing,\" and {主催者|しゅさいしゃ} adds the person/entity suffix. {主催|しゅさい} alone is also commonly used: ～{主催|しゅさい}の (hosted by ~).\n\nCOMMON COLLOCATIONS:\n- {主催者|しゅさいしゃ}{側|がわ} (the organizer's side)\n- {主催者|しゅさいしゃ}{発表|はっぴょう} (announcement by the organizer)\n- イベントの{主催者|しゅさいしゃ} (the event organizer)\n- {主催者|しゅさいしゃ}の{責任|せきにん} (the organizer's responsibility)\n\nRELATED:\n- {主催|しゅさい}: hosting; organizing — the act itself, often used as a modifier: ～{主催|しゅさい}の{大会|たいかい} (a tournament hosted by ~)",
-  "cross_references": [],
+  "notes": "USAGE:\nThe base word ⟦{主催|しゅさい}→主催：11405_shusai⟧ means \"hosting\" or \"organizing,\" and {主催者|しゅさいしゃ} adds the person/entity suffix. ⟦{主催|しゅさい}→主催：11405_shusai⟧ alone is also commonly used: ～⟦{主催|しゅさい}→主催：11405_shusai⟧⟦の→の：09472_no⟧ (hosted by ~).\n\nCOMMON COLLOCATIONS:\n- {主催者|しゅさいしゃ}⟦{側|がわ}→〜側：03090_gawa⟧ (the organizer's side)\n- {主催者|しゅさいしゃ}⟦{発表|はっぴょう}→発表：03562_happyou⟧ (announcement by the organizer)\n- ⟦イベント→イベント：09594_ibento⟧⟦の→の：09472_no⟧{主催者|しゅさいしゃ} (the event organizer)\n- {主催者|しゅさいしゃ}⟦の→の：09472_no⟧⟦{責任|せきにん}→責任：03298_sekinin⟧ (the organizer's responsibility)\n\nRELATED WORDS:\n- ⟦{主催|しゅさい}→主催：11405_shusai⟧: hosting; organizing — the act itself, often used as a modifier: ～⟦{主催|しゅさい}→主催：11405_shusai⟧⟦の→の：09472_no⟧⟦{大会|たいかい}→大会：03386_taikai⟧ (a tournament hosted by ~)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07859_sewanin",
+      "reading": "せわにん",
+      "headword": "{世話人|せわにん}",
+      "label": "organizer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25722_hosuto",
+      "reading": "ほすと",
+      "headword": "ホスト",
+      "label": "host"
+    }
+  ],
   "metadata": {
     "created": "2026-03-20T13:52:29Z",
-    "modified": "2026-03-20T13:52:29Z",
+    "modified": "2026-09-02T04:01:51Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["person", "work"]
+      "semantic": [
+        "person",
+        "work"
+      ]
     }
   }
 }

@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "18035_igo_ex1",
-      "japanese": "{囲碁|いご}を{打|う}つ。",
+      "japanese": "{囲碁|いご}⟦を→を：00422_wo⟧⟦{打|う}つ→打つ：01221_utsu⟧。",
       "english": "To play Go.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "18035_igo_ex2",
-      "japanese": "{祖父|そふ}は{毎週|まいしゅう}{囲碁|いご}{教室|きょうしつ}に{通|かよ}っている。",
+      "japanese": "⟦{祖父|そふ}→祖父：01452_sofu⟧⟦は→は：00079_ha⟧⟦{毎週|まいしゅう}→毎週：00730_maishuu⟧{囲碁|いご}⟦{教室|きょうしつ}→教室：00794_kyoushitsu⟧⟦に→に：00314_ni⟧⟦{通|かよ}っている→通う：01217_kayou⟧。",
       "english": "My grandfather goes to Go classes every week.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "18035_igo_ex3",
-      "japanese": "{囲碁|いご}の{世界|せかい}{大会|たいかい}で{日本|にほん}の{棋士|きし}が{優勝|ゆうしょう}した。",
+      "japanese": "{囲碁|いご}⟦の→の：09472_no⟧⟦{世界|せかい}→世界：01447_sekai⟧⟦{大会|たいかい}→大会：03386_taikai⟧⟦で→で：00502_de⟧⟦{日本|にほん}→日本：03876_nihon⟧⟦の→の：09472_no⟧⟦{棋士|きし}→棋士：27809_kishi⟧⟦が→が：00051_ga⟧⟦{優勝|ゆうしょう}した→優勝する：25496_yuushousuru⟧。",
       "english": "A Japanese Go player won the world championship.",
       "sense_numbers": [
         1
@@ -43,7 +43,7 @@
       "notes": null
     }
   ],
-  "notes": "{囲碁|いご} is the Japanese name for the board game Go, one of the oldest strategy games in the world. Often shortened to just {碁|ご} in casual speech.\n\nKEY VOCABULARY:\n- {碁盤|ごばん}: Go board\n- {碁石|ごいし}: Go stones\n- {対局|たいきょく}: match, game\n- {棋士|きし}: professional Go player\n- {段|だん}: rank (e.g., {初段|しょだん}, {九段|くだん})\n- {手|て}: a move\n\nUSAGE:\nThe verb for playing Go is {打|う}つ (to play/strike), not する: {碁|ご}を{打|う}つ. This is shared with {将棋|しょうぎ}.\n\nHOMOPHONE:\nNot to be confused with {以後|いご} (from now on, hereafter) — same reading, different kanji and meaning.\n\nCULTURAL NOTE:\nGo has a long tradition in Japan. The {日本棋院|にほんきいん} (Nihon Ki-in) is the main professional organization.",
+  "notes": "{囲碁|いご} is the Japanese name for the board game Go, one of the oldest strategy games in the world. Often shortened to just ⟦{碁|ご}→碁：02138_go⟧ in casual speech.\n\nKEY VOCABULARY:\n- ⟦{碁盤|ごばん}→碁盤：13716_goban⟧: Go board\n- ⟦{碁石|ごいし}→碁石：19754_goishi⟧: Go stones\n- ⟦{対局|たいきょく}→対局：17420_taikyoku⟧: match, game\n- ⟦{棋士|きし}→棋士：27809_kishi⟧: professional Go player\n- ⟦{段|だん}→段：03424_dan⟧: rank (e.g., ⟦{初段|しょだん}→初段：28129_shodan⟧, {九段|くだん})\n- ⟦{手|て}→手：00569_te⟧: a move\n\nUSAGE:\nThe verb for playing Go is ⟦{打|う}つ→打つ：01221_utsu⟧ (to play/strike), not ⟦する→する：00392_suru⟧: ⟦{碁|ご}→碁：02138_go⟧⟦を→を：00422_wo⟧⟦{打|う}つ→打つ：01221_utsu⟧. This is shared with ⟦{将棋|しょうぎ}→将棋：04172_shougi⟧.\n\nWATCH OUT:\nNot to be confused with ⟦{以後|いご}→以後：01710_igo⟧ (from now on, hereafter) — same reading, different kanji and meaning.\n\nCULTURAL NOTE:\nGo has a long tradition in Japan. The {日本棋院|にほんきいん} (Nihon Ki-in) is the main professional organization.",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -58,7 +58,7 @@
       ]
     },
     "created": "2026-03-19T12:18:31Z",
-    "modified": "2026-04-03T00:02:52Z"
+    "modified": "2026-09-02T04:01:50Z"
   },
   "cross_references": [
     {
@@ -67,6 +67,13 @@
       "reading": "しょうぎ",
       "headword": "{将棋|しょうぎ}",
       "label": "shogi (board game)"
+    },
+    {
+      "type": "related",
+      "target_id": "19754_goishi",
+      "reading": "ごいし",
+      "headword": "{碁石|ごいし}",
+      "label": "Go stone"
     }
   ]
 }

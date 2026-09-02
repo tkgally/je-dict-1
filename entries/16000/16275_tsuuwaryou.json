@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "16275_tsuuwaryou_ex1",
-      "japanese": "{通話料|つうわりょう}が{高|たか}い。",
+      "japanese": "{通話料|つうわりょう}⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧。",
       "english": "The call charges are expensive.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16275_tsuuwaryou_ex2",
-      "japanese": "{国際|こくさい}{通話料|つうわりょう}は{国内|こくない}より{高|たか}くなる。",
+      "japanese": "⟦{国際|こくさい}→国際：01406_kokusai⟧{通話料|つうわりょう}⟦は→は：00079_ha⟧⟦{国内|こくない}→国内：02998_kokunai⟧⟦より→より：09476_yori⟧⟦{高|たか}く→高い：00500_takai⟧⟦なる→なる：01970_naru⟧。",
       "english": "International call charges are higher than domestic ones.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16275_tsuuwaryou_ex3",
-      "japanese": "このプランなら{通話料|つうわりょう}{無料|むりょう}で{何時間|なんじかん}でも{話|はな}せます。",
+      "japanese": "⟦この→この：00962_kono⟧⟦プラン→プラン：00345_puran⟧なら{通話料|つうわりょう}⟦{無料|むりょう}→無料：01662_muryou⟧⟦で→で：00502_de⟧⟦{何時間|なんじかん}→何時間：30372_nanjikan⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧⟦{話|はな}せます→話す：00467_hanasu⟧。",
       "english": "With this plan, you can talk for as long as you want with no call charges.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{通話料|つうわりょう} is composed of {通話|つうわ} (telephone call) + {料|りょう} (fee, charge).\n\nCOMMON COLLOCATIONS:\n- {通話料|つうわりょう}{無料|むりょう}: free calls, no call charges\n- {通話料|つうわりょう}{込|こ}み: call charges included\n- {国際|こくさい}{通話料|つうわりょう}: international calling rates\n- {通話料|つうわりょう}がかかる: call charges apply\n\nRELATED WORDS:\n- {通信料|つうしんりょう}: data charges (for internet)\n- {基本料|きほんりょう}: basic fee (monthly plan cost)",
+  "notes": "{通話料|つうわりょう} is composed of ⟦{通話|つうわ}→通話：14369_tsuuwa⟧ (telephone call) + ⟦{料|りょう}→料：28172_ryou⟧ (fee, charge).\n\nCOMMON COLLOCATIONS:\n- {通話料|つうわりょう}⟦{無料|むりょう}→無料：01662_muryou⟧: free calls, no call charges\n- {通話料|つうわりょう}⟦{込|こ}み→込み：28615_komi⟧: call charges included\n- ⟦{国際|こくさい}→国際：01406_kokusai⟧{通話料|つうわりょう}: international calling rates\n- {通話料|つうわりょう}⟦が→が：00051_ga⟧⟦かかる→かかる：00711_kakaru⟧: call charges apply\n\nRELATED WORDS:\n- ⟦{通信料|つうしんりょう}→通信料：19852_tsuushinryou⟧: data charges (for internet)\n- {基本料|きほんりょう}: basic fee (monthly plan cost)",
   "cross_references": [
     {
       "type": "related",
@@ -46,18 +52,31 @@
       "reading": "つうわ",
       "headword": "{通話|つうわ}",
       "label": "phone call"
+    },
+    {
+      "type": "related",
+      "target_id": "19852_tsuushinryou",
+      "reading": "つうしんりょう",
+      "headword": "{通信料|つうしんりょう}",
+      "label": "data charges"
     }
   ],
   "metadata": {
     "created": "2026-03-11T10:37:31Z",
-    "modified": "2026-05-03T07:09:48Z",
+    "modified": "2026-09-02T04:01:44Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["technical"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "technical"
+      ]
     }
   }
 }

@@ -3,7 +3,7 @@
   "headword": "{統括|とうかつ}する",
   "reading": "とうかつする",
   "romaji": "toukatsusuru",
-  "part_of_speech": "verb",
+  "part_of_speech": "suru verb",
   "gloss": "to oversee; to supervise; to coordinate",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22376_toukatsusuru_ex1",
-      "japanese": "{全体|ぜんたい}を{統括|とうかつ}する。",
+      "japanese": "⟦{全体|ぜんたい}→全体：03314_zentai⟧⟦を→を：00422_wo⟧{統括|とうかつ}する。",
       "english": "To oversee the whole operation.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22376_toukatsusuru_ex2",
-      "japanese": "{彼|かれ}は{三|みっ}つの{部門|ぶもん}を{統括|とうかつ}している。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{三|みっ}つ→三つ：02970_mittsu⟧⟦の→の：09472_no⟧⟦{部門|ぶもん}→部門：14406_bumon⟧⟦を→を：00422_wo⟧{統括|とうかつ}して⟦いる→いる：00495_iru⟧。",
       "english": "He oversees three departments.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22376_toukatsusuru_ex3",
-      "japanese": "プロジェクト{全体|ぜんたい}を{統括|とうかつ}する{責任者|せきにんしゃ}が{必要|ひつよう}だ。",
+      "japanese": "⟦プロジェクト→プロジェクト：06764_purojekuto⟧⟦{全体|ぜんたい}→全体：03314_zentai⟧⟦を→を：00422_wo⟧{統括|とうかつ}する⟦{責任者|せきにんしゃ}→責任者：17175_sekininsha⟧⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧だ。",
       "english": "We need a person in charge to coordinate the entire project.",
       "sense_numbers": [
         1
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "Emphasizes unified management of multiple components from a position of authority. The person who {統括|とうかつ}する is above the individual parts, bringing them together under one direction.\n\nCOMMON COLLOCATIONS:\n- {全体|ぜんたい}を{統括|とうかつ}する: to oversee the whole\n- {部門|ぶもん}を{統括|とうかつ}する: to coordinate departments\n- {業務|ぎょうむ}を{統括|とうかつ}する: to manage operations collectively\n- {統括|とうかつ}{責任者|せきにんしゃ}: overall supervisor\n- {統括|とうかつ}{部長|ぶちょう}: general manager\n- {統括|とうかつ}マネージャー: coordinating manager\n\nSIMILAR WORDS:\n- {管理|かんり}する: to manage — broader term for day-to-day management and administration\n- {総括|そうかつ}する: to summarize / to review — focuses on wrapping up and evaluating, not ongoing management\n- {統率|とうそつ}する: to lead / to command — emphasizes leadership of people, often military or team contexts\n- {監督|かんとく}する: to supervise / to direct — emphasizes watching over and ensuring quality\n\nREGISTER:\nFormal. Common in business and organizational contexts. In casual speech, まとめる is a simpler alternative.",
+  "notes": "Emphasizes unified management of multiple components from a position of authority. The person who {統括|とうかつ}する is above the individual parts, bringing them together under one direction.\n\nCOMMON COLLOCATIONS:\n- ⟦{全体|ぜんたい}→全体：03314_zentai⟧⟦を→を：00422_wo⟧{統括|とうかつ}する: to oversee the whole\n- ⟦{部門|ぶもん}→部門：14406_bumon⟧⟦を→を：00422_wo⟧{統括|とうかつ}する: to coordinate departments\n- ⟦{業務|ぎょうむ}→業務：09630_gyoumu⟧⟦を→を：00422_wo⟧{統括|とうかつ}する: to manage operations collectively\n- ⟦{統括|とうかつ}→統括：05825_toukatsu⟧⟦{責任者|せきにんしゃ}→責任者：17175_sekininsha⟧: overall supervisor\n- ⟦{統括|とうかつ}→統括：05825_toukatsu⟧⟦{部長|ぶちょう}→部長：01017_buchou⟧: general manager\n- ⟦{統括|とうかつ}→統括：05825_toukatsu⟧⟦マネージャー→マネージャー：29755_maneejaa⟧: coordinating manager\n\nSIMILAR WORDS:\n- ⟦{管理|かんり}する→管理する：21910_kanrisuru⟧: to manage — broader term for day-to-day management and administration\n- ⟦{総括|そうかつ}→総括：13877_soukatsu⟧⟦する→する：00392_suru⟧: to summarize / to review — focuses on wrapping up and evaluating, not ongoing management\n- ⟦{統率|とうそつ}する→統率する：17858_tousotsusuru⟧: to lead / to command — emphasizes leadership of people, often military or team contexts\n- ⟦{監督|かんとく}する→監督する：21986_kantokusuru⟧: to supervise / to direct — emphasizes watching over and ensuring quality\n\nREGISTER:\nFormal. Common in business and organizational contexts. In casual speech, ⟦まとめる→まとめる：02424_matomeru⟧ is a simpler alternative.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21910_kanrisuru",
+      "reading": "かんりする",
+      "headword": "{管理|かんり}する",
+      "label": "to manage"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13877_soukatsu",
+      "reading": "そうかつ",
+      "headword": "{総括|そうかつ}",
+      "label": "to summarize / to review"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17858_tousotsusuru",
+      "reading": "とうそつする",
+      "headword": "{統率|とうそつ}する",
+      "label": "to lead / to command"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21986_kantokusuru",
+      "reading": "かんとくする",
+      "headword": "{監督|かんとく}する",
+      "label": "to supervise / to direct"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -57,10 +87,11 @@
       "semantic": [
         "business"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-04-05T20:10:26Z",
-    "modified": "2026-04-05T20:10:26Z"
+    "modified": "2026-09-02T04:02:07Z"
   },
   "conjugation": {
     "type": "suru",

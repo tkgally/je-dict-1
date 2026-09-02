@@ -16,7 +16,7 @@
   "examples": [
     {
       "id": "30171_shishasuu_ex1",
-      "japanese": "{死者数|ししゃすう}が{増|ふ}えている。",
+      "japanese": "{死者数|ししゃすう}⟦が→が：00051_ga⟧⟦{増|ふ}えている→増える：01183_fueru⟧。",
       "english": "The death toll is rising.",
       "sense_numbers": [
         1
@@ -26,7 +26,7 @@
     },
     {
       "id": "30171_shishasuu_ex2",
-      "japanese": "{地震|じしん}の{死者数|ししゃすう}はまだ{確定|かくてい}していない。",
+      "japanese": "⟦{地震|じしん}→地震：01608_jishin⟧⟦の→の：09472_no⟧{死者数|ししゃすう}⟦は→は：00079_ha⟧⟦まだ→まだ：00603_mada⟧⟦{確定|かくてい}→確定：13707_kakutei⟧⟦していない→する：00392_suru⟧。",
       "english": "The death toll from the earthquake has not yet been confirmed.",
       "sense_numbers": [
         1
@@ -36,7 +36,7 @@
     },
     {
       "id": "30171_shishasuu_ex3",
-      "japanese": "{交通事故|こうつうじこ}の{死者数|ししゃすう}は、{十年|じゅうねん}{前|まえ}と{比|くら}べて{大幅|おおはば}に{減|へ}っている。",
+      "japanese": "⟦{交通事故|こうつうじこ}→交通事故：21255_koutsuujiko⟧⟦の→の：09472_no⟧{死者数|ししゃすう}⟦は→は：00079_ha⟧、{十年|じゅうねん}⟦{前|まえ}→前：02255_mae⟧⟦と→と：00512_to⟧⟦{比|くら}べて→比べる：01237_kuraberu⟧⟦{大幅|おおはば}→大幅：12170_oohaba⟧⟦に→に：00314_ni⟧⟦{減|へ}っている→減る：01985_heru⟧。",
       "english": "The number of traffic-accident deaths has fallen sharply compared with ten years ago.",
       "sense_numbers": [
         1
@@ -45,7 +45,30 @@
       "notes": null
     }
   ],
-  "notes": "Formed from {死者|ししゃ} (the dead, a fatality) plus the suffix {数|すう} (number of). The suffix is highly productive: {参加者数|さんかしゃすう} (number of participants), {感染者数|かんせんしゃすう} (number of infected).\n\nCOMMON COLLOCATIONS:\n- {死者数|ししゃすう}が{増|ふ}える: for the death toll to rise\n- {死者数|ししゃすう}を{発表|はっぴょう}する: to announce the death toll\n- {累計|るいけい}{死者数|ししゃすう}: cumulative death toll\n\nSIMILAR WORDS:\n- {犠牲者|ぎせいしゃ}: victim — emphasizes that the deaths were a sacrifice or loss, and is more emotive\n- {死亡者数|しぼうしゃすう}: number of deaths — stiffer and more bureaucratic; common in official statistics",
+  "notes": "Formed from ⟦{死者|ししゃ}→死者：13225_shisha⟧ (the dead, a fatality) plus the suffix ⟦{数|すう}→数：03360_suu⟧ (number of). The suffix is highly productive: {参加者数|さんかしゃすう} (number of participants), ⟦{感染者数|かんせんしゃすう}→感染者数：30152_kansenshasuu⟧ (number of infected).\n\nCOMMON COLLOCATIONS:\n- {死者数|ししゃすう}⟦が→が：00051_ga⟧⟦{増|ふ}える→増える：01183_fueru⟧: for the death toll to rise\n- {死者数|ししゃすう}⟦を→を：00422_wo⟧⟦{発表|はっぴょう}する→発表する：25231_happyousuru⟧: to announce the death toll\n- ⟦{累計|るいけい}→累計：08327_ruikei⟧{死者数|ししゃすう}: cumulative death toll\n\nSIMILAR WORDS:\n- ⟦{犠牲者|ぎせいしゃ}→犠牲者：18769_giseisha⟧: victim — emphasizes that the deaths were a sacrifice or loss, and is more emotive\n- ⟦{死亡者数|しぼうしゃすう}→死亡者数：30188_shiboushasuu⟧: number of deaths — stiffer and more bureaucratic; common in official statistics",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18769_giseisha",
+      "reading": "ぎせいしゃ",
+      "headword": "{犠牲者|ぎせいしゃ}",
+      "label": "victim"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30188_shiboushasuu",
+      "reading": "しぼうしゃすう",
+      "headword": "死亡者数",
+      "label": "number of deaths"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30152_kansenshasuu",
+      "reading": "かんせんしゃすう",
+      "headword": "{感染者数|かんせんしゃすう}",
+      "label": "number of infected people"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +76,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "quantity"
       ],
       "domain": []
     },
     "created": "2026-07-27T21:18:32Z",
-    "modified": "2026-07-27T21:18:32Z"
+    "modified": "2026-09-02T04:02:39Z"
   }
 }

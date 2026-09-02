@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "12016_kokusai_ex1",
-      "japanese": "{国債|こくさい}を{発行|はっこう}する。",
+      "japanese": "{国債|こくさい}⟦を→を：00422_wo⟧⟦{発行|はっこう}する→発行する：19236_hakkousuru⟧。",
       "english": "To issue government bonds.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "12016_kokusai_ex2",
-      "japanese": "{日本|にほん}の{国債|こくさい}{残高|ざんだか}は{増|ふ}え{続|つづ}けている。",
+      "japanese": "⟦{日本|にほん}→日本：03876_nihon⟧⟦の→の：09472_no⟧{国債|こくさい}⟦{残高|ざんだか}→残高：05422_zandaka⟧⟦は→は：00079_ha⟧⟦{増|ふ}え→増える：01183_fueru⟧⟦{続|つづ}け→続く：00903_tsuzuku⟧て⟦いる→いる：00495_iru⟧。",
       "english": "Japan's outstanding government debt keeps growing.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "12016_kokusai_ex3",
-      "japanese": "{低金利|ていきんり}{時代|じだい}には{国債|こくさい}の{利回|りまわ}りも{低|ひく}くなる。",
+      "japanese": "{低金利|ていきんり}⟦{時代|じだい}→時代：01424_jidai⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{国債|こくさい}⟦の→の：09472_no⟧⟦{利回|りまわ}り→利回り：18661_rimawari⟧⟦も→も：00484_mo⟧⟦{低|ひく}く→低い：02947_hikui⟧⟦なる→なる：01970_naru⟧。",
       "english": "In an era of low interest rates, government bond yields also fall.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA key financial and economic term frequently seen in news. {国債|こくさい} is the bond itself, not the aggregate national debt; the total is {国債|こくさい}{残高|ざんだか} or {国|くに}の{借金|しゃっきん}. Not to be confused with the homophone {国際|こくさい} (international), which is far more common in daily life.\n\nCOMMON COLLOCATIONS:\n- {国債|こくさい}を{発行|はっこう}する: to issue government bonds\n- {国債|こくさい}{残高|ざんだか}: outstanding government debt\n- {国債|こくさい}の{利回|りまわ}り: government bond yield\n- {国債|こくさい}{市場|しじょう}: government bond market\n- {赤字|あかじ}{国債|こくさい}: deficit-financing bonds",
+  "notes": "USAGE:\nA key financial and economic term frequently seen in news. {国債|こくさい} is the bond itself, not the aggregate national debt; the total is {国債|こくさい}⟦{残高|ざんだか}→残高：05422_zandaka⟧ or ⟦{国|くに}→国：02204_kuni⟧⟦の→の：09472_no⟧⟦{借金|しゃっきん}→借金：03203_shakkin⟧. Not to be confused with the homophone ⟦{国際|こくさい}→国際：01406_kokusai⟧ (international), which is far more common in daily life.\n\nCOMMON COLLOCATIONS:\n- {国債|こくさい}⟦を→を：00422_wo⟧⟦{発行|はっこう}する→発行する：19236_hakkousuru⟧: to issue government bonds\n- {国債|こくさい}⟦{残高|ざんだか}→残高：05422_zandaka⟧: outstanding government debt\n- {国債|こくさい}⟦の→の：09472_no⟧⟦{利回|りまわ}り→利回り：18661_rimawari⟧: government bond yield\n- {国債|こくさい}⟦{市場|しじょう}→市場：09685_shijou⟧: government bond market\n- ⟦{赤字|あかじ}→赤字：04712_akaji⟧{国債|こくさい}: deficit-financing bonds",
   "cross_references": [
     {
       "id": "01406_kokusai",
@@ -53,11 +53,46 @@
       "headword": "{国際|こくさい}",
       "description": "Homophone. {国際|こくさい} means international.",
       "target_id": "01406_kokusai"
+    },
+    {
+      "type": "related",
+      "target_id": "05757_zaisei",
+      "reading": "ざいせい",
+      "headword": "{財政|ざいせい}",
+      "label": "public finance"
+    },
+    {
+      "type": "related",
+      "target_id": "15006_kokko",
+      "reading": "こっこ",
+      "headword": "{国庫|こっこ}",
+      "label": "national treasury"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15636_saiken",
+      "reading": "さいけん",
+      "headword": "{債券|さいけん}",
+      "label": "bond"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24079_shasai",
+      "reading": "しゃさい",
+      "headword": "{社債|しゃさい}",
+      "label": "corporate bond"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24747_kousai",
+      "reading": "こうさい",
+      "headword": "{公債|こうさい}",
+      "label": "government bond"
     }
   ],
   "metadata": {
     "created": "2026-02-19T11:49:27Z",
-    "modified": "2026-08-16T12:29:03Z",
+    "modified": "2026-09-02T04:01:27Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

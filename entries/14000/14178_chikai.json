@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "14178_chikai_ex1",
-      "japanese": "{二人|ふたり}は{愛|あい}の{誓|ちか}いを{立|た}てた。",
+      "japanese": "⟦{二人|ふたり}→二人：00622_futari⟧⟦は→は：00079_ha⟧⟦{愛|あい}→愛：02370_ai⟧⟦の→の：09472_no⟧{誓|ちか}い⟦を→を：00422_wo⟧⟦{立|た}てた→立てる：01196_tateru⟧。",
       "english": "The two made a vow of love.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14178_chikai_ex2",
-      "japanese": "{新年|しんねん}の{誓|ちか}いを{心|こころ}に{刻|きざ}んだ。",
+      "japanese": "⟦{新年|しんねん}→新年：09787_shinnen⟧⟦の→の：09472_no⟧{誓|ちか}い⟦を→を：00422_wo⟧⟦{心|こころ}→心：01321_kokoro⟧⟦に→に：00314_ni⟧⟦{刻|きざ}んだ→刻む：03918_kizamu⟧。",
       "english": "I engraved my New Year's pledge in my heart.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14178_chikai_ex3",
-      "japanese": "{選手|せんしゅ}たちは{正々堂々|せいせいどうどう}と{戦|たたか}うことを{誓|ちか}いの{言葉|ことば}として{述|の}べた。",
+      "japanese": "⟦{選手|せんしゅ}→選手：03823_senshu⟧たち⟦は→は：00079_ha⟧⟦{正々堂々|せいせいどうどう}→正々堂々：25225_seiseidoudou⟧⟦と→と：00512_to⟧⟦{戦|たたか}う→戦う：02071_tatakau⟧こと⟦を→を：00422_wo⟧{誓|ちか}い⟦の→の：09472_no⟧⟦{言葉|ことば}→言葉：02880_kotoba⟧⟦として→として：06802_toshite⟧⟦{述|の}べた→述べる：02389_noberu⟧。",
       "english": "The athletes declared their pledge to compete fairly and squarely.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\n{誓|ちか}い is the noun form of {誓|ちか}う (to swear, to vow). It carries a solemn, weighty tone — stronger than {約束|やくそく} (promise). Common contexts include wedding vows, oaths of office, and personal resolutions. The phrase {誓|ちか}いの{言葉|ことば} (words of pledge) is used at ceremonies. It is a homophone of {近|ちか}い (near), which has a completely different meaning.\n\nCOMMON COLLOCATIONS:\n- {誓|ちか}いを{立|た}てる: to make a vow\n- {誓|ちか}いの{言葉|ことば}: pledge, oath (at ceremonies)\n- {愛|あい}の{誓|ちか}い: vow of love\n- {誓|ちか}いを{守|まも}る: to keep one's vow",
+  "notes": "USAGE:\n{誓|ちか}い is the noun form of ⟦{誓|ちか}う→誓う：00030_chikau⟧ (to swear, to vow). It carries a solemn, weighty tone — stronger than ⟦{約束|やくそく}→約束：01517_yakusoku⟧ (promise). Common contexts include wedding vows, oaths of office, and personal resolutions. The phrase {誓|ちか}い⟦の→の：09472_no⟧⟦{言葉|ことば}→言葉：02880_kotoba⟧ (words of pledge) is used at ceremonies. It is a homophone of ⟦{近|ちか}い→近い：00530_chikai⟧ (near), which has a completely different meaning.\n\nCOMMON COLLOCATIONS:\n- {誓|ちか}い⟦を→を：00422_wo⟧⟦{立|た}てる→立てる：01196_tateru⟧: to make a vow\n- {誓|ちか}い⟦の→の：09472_no⟧⟦{言葉|ことば}→言葉：02880_kotoba⟧: pledge, oath (at ceremonies)\n- ⟦{愛|あい}→愛：02370_ai⟧⟦の→の：09472_no⟧{誓|ちか}い: vow of love\n- {誓|ちか}い⟦を→を：00422_wo⟧⟦{守|まも}る→守る：01986_mamoru⟧: to keep one's vow",
   "prominent_see_also": [
     {
       "target_id": "00030_chikau",
@@ -60,18 +66,29 @@
       "reading": "やくそく",
       "headword": "{約束|やくそく}",
       "label": "promise (less solemn)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20626_yubikiri",
+      "reading": "ゆびきり",
+      "headword": "{指切|ゆびき}り",
+      "label": "pinky swear"
     }
   ],
   "metadata": {
     "created": "2026-02-28T01:56:00Z",
-    "modified": "2026-04-30T05:18:10Z",
+    "modified": "2026-09-02T04:01:36Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["communication"]
+      "semantic": [
+        "communication"
+      ]
     }
   }
 }

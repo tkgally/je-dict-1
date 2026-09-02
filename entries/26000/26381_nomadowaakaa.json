@@ -15,39 +15,59 @@
   "examples": [
     {
       "id": "26381_nomadowaakaa_ex1",
-      "japanese": "{彼|かれ}はノマドワーカーだ。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧ノマドワーカーだ。",
       "english": "He's a digital nomad.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26381_nomadowaakaa_ex2",
-      "japanese": "カフェでノマドワーカーをよく{見|み}かける。",
+      "japanese": "⟦カフェ→カフェ：06767_kafe⟧⟦で→で：00502_de⟧ノマドワーカー⟦を→を：00422_wo⟧⟦よく→よく：00601_yoku⟧⟦{見|み}かける→見かける：01644_mikakeru⟧。",
       "english": "You often see digital nomads at cafés.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26381_nomadowaakaa_ex3",
-      "japanese": "コロナ{禍|か}をきっかけにノマドワーカーとして{働|はたら}き{始|はじ}めた{人|ひと}が{増|ふ}えた。",
+      "japanese": "⟦コロナ{禍|か}→コロナ禍：29315_koronaka⟧⟦を→を：00422_wo⟧⟦きっかけ→きっかけ：10309_kikkake⟧⟦に→に：00314_ni⟧ノマドワーカー⟦として→として：06802_toshite⟧⟦{働|はたら}き→働く：00503_hataraku⟧⟦{始|はじ}めた→始める：00531_hajimeru⟧⟦{人|ひと}→人：00476_hito⟧⟦が→が：00051_ga⟧⟦{増|ふ}えた→増える：01183_fueru⟧。",
       "english": "The pandemic led to an increase in people who started working as digital nomads.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A Japanese-English hybrid loanword from 'nomad' (ノマド) and 'worker' (ワーカー). The concept gained popularity in Japan around 2012-2013 and surged after the COVID-19 pandemic normalized remote work. Sometimes shortened to just ノマド in casual usage.\n\nUnlike テレワーク or リモートワーク, which simply mean working from home or remotely, ノマドワーカー specifically implies working from multiple different locations without a fixed base.\n\nCOMMON COLLOCATIONS:\n- ノマドワーカー{向|む}けのカフェ: café catering to digital nomads\n- ノマドワーカーとして{働|はたら}く: to work as a digital nomad\n- ノマド{生活|せいかつ}: nomad lifestyle\n\nSIMILAR WORDS:\n- フリーランス: freelancer — independent contractor, but may work from a fixed location\n- テレワーカー: teleworker — works remotely but usually from home, for a single employer\n- リモートワーカー: remote worker — similar to teleworker, broader term",
-  "cross_references": [],
+  "notes": "A Japanese-English hybrid loanword from 'nomad' (⟦ノマド→ノマド：06405_nomado⟧) and 'worker' (⟦ワーカー→ワーカー：29688_waakaa⟧). The concept gained popularity in Japan around 2012-2013 and surged after the COVID-19 pandemic normalized remote work. Sometimes shortened to just ⟦ノマド→ノマド：06405_nomado⟧ in casual usage.\n\nUnlike ⟦テレワーク→テレワーク：05397_terewaaku⟧ or ⟦リモートワーク→リモートワーク：06095_rimootowaaku⟧, which simply mean working from home or remotely, ノマドワーカー specifically implies working from multiple different locations without a fixed base.\n\nCOMMON COLLOCATIONS:\n- ノマドワーカー{向|む}け⟦の→の：09472_no⟧⟦カフェ→カフェ：06767_kafe⟧: café catering to digital nomads\n- ノマドワーカー⟦として→として：06802_toshite⟧⟦{働|はたら}く→働く：00503_hataraku⟧: to work as a digital nomad\n- ⟦ノマド→ノマド：06405_nomado⟧⟦{生活|せいかつ}→生活：01443_seikatsu⟧: nomad lifestyle\n\nSIMILAR WORDS:\n- ⟦フリーランス→フリーランス：06152_furiiransu⟧: freelancer — independent contractor, but may work from a fixed location\n- テレワーカー: teleworker — works remotely but usually from home, for a single employer\n- ⟦リモート→リモート：04743_rimooto⟧⟦ワーカー→ワーカー：29688_waakaa⟧: remote worker — similar to teleworker, broader term",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06152_furiiransu",
+      "reading": "ふりーらんす",
+      "headword": "フリーランス",
+      "label": "freelancer"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["work", "technology"]
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "work",
+        "technology"
+      ]
     },
     "created": "2026-05-01T13:30:53Z",
-    "modified": "2026-05-01T13:30:53Z"
+    "modified": "2026-09-02T04:02:26Z"
   }
 }

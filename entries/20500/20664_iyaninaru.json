@@ -15,40 +15,73 @@
   "examples": [
     {
       "id": "20664_iyaninaru_ex1",
-      "japanese": "{仕事|しごと}が{嫌|いや}になった。",
+      "japanese": "⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦が→が：00051_ga⟧{嫌|いや}になった。",
       "english": "I got fed up with my job.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20664_iyaninaru_ex2",
-      "japanese": "{毎日|まいにち}{同|おな}じことの{繰|く}り{返|かえ}しで{嫌|いや}になる。",
+      "japanese": "⟦{毎日|まいにち}→毎日：00729_mainichi⟧⟦{同|おな}じ→同じ：02857_onaji⟧こと⟦の→の：09472_no⟧⟦{繰|く}り{返|かえ}し→繰り返し：10320_kurikaeshi⟧⟦で→で：00502_de⟧{嫌|いや}になる。",
       "english": "Repeating the same thing every day makes me sick of it.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20664_iyaninaru_ex3",
-      "japanese": "{自分|じぶん}の{優柔不断|ゆうじゅうふだん}さが{嫌|いや}になることがある。",
+      "japanese": "⟦{自分|じぶん}→自分：02887_jibun⟧⟦の→の：09472_no⟧⟦{優柔不断|ゆうじゅうふだん}→優柔不断：16842_yuujuufudan⟧さ⟦が→が：00051_ga⟧{嫌|いや}になること⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "Sometimes I get disgusted with my own indecisiveness.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A very common and natural expression in everyday Japanese. Conveys a strong sense of weariness, frustration, or disgust. Can be directed at situations, people, or oneself.\n\nUSAGE:\nThe thing one is fed up with is marked by が: Xが{嫌|いや}になる. It can also express self-directed frustration: {自分|じぶん}が{嫌|いや}になる (to become disgusted with oneself).\n\nCOMMON PATTERNS:\n- Xが{嫌|いや}になる: to become fed up with X\n- {嫌|いや}になるほど: to the point of being sick of it\n- もう{嫌|いや}になった: I've had enough already\n\nSIMILAR WORDS:\n- うんざりする: to be fed up — stronger emphasis on boredom and exhaustion\n- {飽|あ}きる: to get tired of — emphasizes loss of interest rather than aversion\n- {懲|こ}りる: to learn one's lesson — implies being fed up after a bad experience",
+  "notes": "A very common and natural expression in everyday Japanese. Conveys a strong sense of weariness, frustration, or disgust. Can be directed at situations, people, or oneself.\n\nUSAGE:\nThe thing one is fed up with is marked by が: X⟦が→が：00051_ga⟧{嫌|いや}になる. It can also express self-directed frustration: ⟦{自分|じぶん}→自分：02887_jibun⟧⟦が→が：00051_ga⟧{嫌|いや}になる (to become disgusted with oneself).\n\nCOMMON PATTERNS:\n- X⟦が→が：00051_ga⟧{嫌|いや}になる: to become fed up with X\n- {嫌|いや}になるほど: to the point of being sick of it\n- ⟦もう→もう：00602_mou⟧{嫌|いや}になった: I've had enough already\n\nSIMILAR WORDS:\n- ⟦うんざりする→うんざりする：20665_unzarisuru⟧: to be fed up — stronger emphasis on boredom and exhaustion\n- ⟦{飽|あ}きる→飽きる：01815_akiru⟧: to get tired of — emphasizes loss of interest rather than aversion\n- ⟦{懲|こ}りる→懲りる：07569_koriru⟧: to learn one's lesson — implies being fed up after a bad experience",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20665_unzarisuru",
+      "reading": "うんざりする",
+      "headword": "うんざりする",
+      "label": "to be fed up"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01815_akiru",
+      "reading": "あきる",
+      "headword": "{飽|あ}きる",
+      "label": "to get tired of"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07569_koriru",
+      "reading": "こりる",
+      "headword": "{懲|こ}りる",
+      "label": "to learn one's lesson"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["expression"],
+      "pos": [
+        "expression"
+      ],
       "formality": "informal",
       "politeness": "plain",
-      "semantic": ["emotion"]
+      "semantic": [
+        "emotion"
+      ]
     },
     "created": "2026-03-30T06:33:30Z",
-    "modified": "2026-03-30T06:33:30Z"
+    "modified": "2026-09-02T04:02:00Z"
   }
 }

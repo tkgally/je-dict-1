@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "15290_yoteidoori_ex1",
-      "japanese": "{会議|かいぎ}は{予定通|よていどお}り{始|はじ}まった。",
+      "japanese": "⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦は→は：00079_ha⟧{予定通|よていどお}り⟦{始|はじ}まった→始まる：00841_hajimaru⟧。",
       "english": "The meeting started as scheduled.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "15290_yoteidoori_ex2",
-      "japanese": "{工事|こうじ}は{予定通|よていどお}り{進|すす}んでいます。",
+      "japanese": "⟦{工事|こうじ}→工事：00244_kouji⟧⟦は→は：00079_ha⟧{予定通|よていどお}り⟦{進|すす}んでいます→進む：01225_susumu⟧。",
       "english": "The construction is progressing on schedule.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "15290_yoteidoori_ex3",
-      "japanese": "{天候|てんこう}が{悪|わる}かったが、{運動会|うんどうかい}は{予定通|よていどお}り{開催|かいさい}された。",
+      "japanese": "⟦{天候|てんこう}→天候：03558_tenkou⟧⟦が→が：00051_ga⟧⟦{悪|わる}かった→悪い：00908_warui⟧⟦が→が：00051_ga⟧、⟦{運動会|うんどうかい}→運動会：03013_undoukai⟧⟦は→は：00079_ha⟧{予定通|よていどお}り⟦{開催|かいさい}→開催：10457_kaisai⟧⟦された→する：00392_suru⟧。",
       "english": "The weather was bad, but the sports festival was held as planned.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{予定通|よていどお}り can function as an adverb modifying a verb, or as a noun with に or の. It is one of the most common ～{通|どお}り expressions.\n\nPATTERN:\nThe ～{通|どお}り pattern attaches to nouns to mean \"as (noun).\" Other common examples: {計画通|けいかくどお}り (as planned), {期待通|きたいどお}り (as expected), {説明通|せつめいどお}り (as explained).\n\nCOMMON COLLOCATIONS:\n- {予定通|よていどお}り{進|すす}む (to proceed on schedule)\n- {予定通|よていどお}り{開催|かいさい}する (to hold as scheduled)\n- {予定通|よていどお}り{届|とど}く (to arrive on time)",
+  "notes": "USAGE:\n{予定通|よていどお}り can function as an adverb modifying a verb, or as a noun with ⟦に→に：00314_ni⟧ or ⟦の→の：09472_no⟧. It is one of the most common ～{通|どお}り expressions.\n\nCOMMON PATTERNS:\nThe ～{通|どお}り pattern attaches to nouns to mean \"as (noun).\" Other common examples: {計画通|けいかくどお}り (as planned), ⟦{期待通|きたいどお}り→期待通り：15320_kitaidoori⟧ (as expected), {説明通|せつめいどお}り (as explained).\n\nCOMMON COLLOCATIONS:\n- {予定通|よていどお}り⟦{進|すす}む→進む：01225_susumu⟧ (to proceed on schedule)\n- {予定通|よていどお}り⟦{開催|かいさい}する→開催する：10441_kaisaisuru⟧ (to hold as scheduled)\n- {予定通|よていどお}り⟦{届|とど}く→届く：00899_todoku⟧ (to arrive on time)",
   "cross_references": [
     {
       "type": "related",
@@ -52,11 +52,18 @@
       "reading": "よてい",
       "headword": "{予定|よてい}",
       "label": "schedule, plan"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20620_jikandoori",
+      "reading": "じかんどおり",
+      "headword": "{時間通|じかんどお}り",
+      "label": "on time"
     }
   ],
   "metadata": {
     "created": "2026-03-06T08:50:07Z",
-    "modified": "2026-07-16T07:06:35Z",
+    "modified": "2026-09-02T04:01:40Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

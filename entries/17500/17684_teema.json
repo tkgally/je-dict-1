@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "17684_teema_ex1",
-      "japanese": "{今回|こんかい}のテーマは{環境|かんきょう}{問題|もんだい}です。",
+      "japanese": "⟦{今回|こんかい}→今回：01409_konkai⟧⟦の→の：09472_no⟧テーマ⟦は→は：00079_ha⟧⟦{環境|かんきょう}{問題|もんだい}→環境問題：10136_kankyoumondai⟧です。",
       "english": "Today's theme is environmental issues.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "17684_teema_ex2",
-      "japanese": "この{映画|えいが}のテーマは{家族|かぞく}の{絆|きずな}だ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{映画|えいが}→映画：02273_eiga⟧⟦の→の：09472_no⟧テーマ⟦は→は：00079_ha⟧⟦{家族|かぞく}→家族：00552_kazoku⟧⟦の→の：09472_no⟧⟦{絆|きずな}→絆：02509_kizuna⟧だ。",
       "english": "The theme of this movie is family bonds.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "17684_teema_ex3",
-      "japanese": "{卒業|そつぎょう}{論文|ろんぶん}のテーマがなかなか{決|き}まらなくて{困|こま}っている。",
+      "japanese": "⟦{卒業|そつぎょう}{論文|ろんぶん}→卒業論文：09259_sotsugyouronbun⟧⟦の→の：09472_no⟧テーマ⟦が→が：00051_ga⟧⟦なかなか→なかなか：01547_nakanaka⟧⟦{決|き}まらなくて→決まる：01233_kimaru⟧⟦{困|こま}っている→困る：00861_komaru⟧。",
       "english": "I'm having trouble deciding on a topic for my graduation thesis.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,54 @@
       ]
     }
   ],
-  "notes": "ORIGIN:\nFrom German \"Thema\" (theme). The German pronunciation explains why the Japanese is テーマ rather than シーム (from English \"theme\").\n\nUSAGE:\nテーマ is used very widely — for academic topics, artistic themes, discussion subjects, event motifs, and more. テーマパーク (theme park) and テーマ{曲|きょく} (theme song) are also common compound words.\n\nCOMMON COLLOCATIONS:\n- テーマを{決|き}める: to decide on a theme\n- テーマ{曲|きょく}: theme song\n- テーマパーク: theme park\n- {今月|こんげつ}のテーマ: this month's theme\n- テーマに{沿|そ}う: to be in line with the theme",
-  "cross_references": [],
+  "notes": "ETYMOLOGY:\nFrom German \"Thema\" (theme). The German pronunciation explains why the Japanese is テーマ rather than シーム (from English \"theme\").\n\nUSAGE:\nテーマ is used very widely — for academic topics, artistic themes, discussion subjects, event motifs, and more. テーマパーク (theme park) and テーマ⟦{曲|きょく}→曲：09881_kyoku⟧ (theme song) are also common compound words.\n\nCOMMON COLLOCATIONS:\n- テーマ⟦を→を：00422_wo⟧⟦{決|き}める→決める：00858_kimeru⟧: to decide on a theme\n- テーマ⟦{曲|きょく}→曲：09881_kyoku⟧: theme song\n- テーマパーク: theme park\n- ⟦{今月|こんげつ}→今月：00720_kongetsu⟧⟦の→の：09472_no⟧テーマ: this month's theme\n- テーマ⟦に→に：00314_ni⟧⟦{沿|そ}う→沿う：13279_sou⟧: to be in line with the theme",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03793_wadai",
+      "reading": "わだい",
+      "headword": "{話題|わだい}",
+      "label": "topic, subject"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10140_daizai",
+      "reading": "だいざい",
+      "headword": "{題材|だいざい}",
+      "label": "subject matter"
+    },
+    {
+      "type": "related",
+      "target_id": "11045_topikku",
+      "reading": "とぴっく",
+      "headword": "トピック",
+      "label": "topic, subject"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11159_mochiifu",
+      "reading": "もちーふ",
+      "headword": "モチーフ",
+      "label": "motif, theme, inspiration"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11545_shudai",
+      "reading": "しゅだい",
+      "headword": "{主題|しゅだい}",
+      "label": "theme, subject, topic"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21556_meidai",
+      "reading": "めいだい",
+      "headword": "{命題|めいだい}",
+      "label": "proposition"
+    }
+  ],
   "metadata": {
     "created": "2026-02-12T11:47:02Z",
-    "modified": "2026-03-18T10:11:24Z",
+    "modified": "2026-09-02T04:01:49Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

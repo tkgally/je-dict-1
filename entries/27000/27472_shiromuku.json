@@ -15,41 +15,60 @@
   "examples": [
     {
       "id": "27472_shiromuku_ex1",
-      "japanese": "{花嫁|はなよめ}は{白無垢|しろむく}を{着|き}ていた。",
+      "japanese": "⟦{花嫁|はなよめ}→花嫁：04318_hanayome⟧⟦は→は：00079_ha⟧{白無垢|しろむく}⟦を→を：00422_wo⟧⟦{着|き}ていた→着る：00541_kiru⟧。",
       "english": "The bride was wearing a white wedding kimono.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27472_shiromuku_ex2",
-      "japanese": "{白無垢|しろむく}{姿|すがた}の{母|はは}の{写真|しゃしん}を{見|み}つけた。",
+      "japanese": "{白無垢|しろむく}⟦{姿|すがた}→姿：03363_sugata⟧⟦の→の：09472_no⟧⟦{母|はは}→母：00549_haha⟧⟦の→の：09472_no⟧⟦{写真|しゃしん}→写真：00753_shashin⟧⟦を→を：00422_wo⟧⟦{見|み}つけた→見つける：01180_mitsukeru⟧。",
       "english": "I found a photo of my mother in her white wedding kimono.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27472_shiromuku_ex3",
-      "japanese": "{神前式|しんぜんしき}では{白無垢|しろむく}を、{披露宴|ひろうえん}では{色|いろ}{打掛|うちかけ}を{着|き}るのが{伝統的|でんとうてき}だ。",
+      "japanese": "⟦{神前式|しんぜんしき}→神前式：28943_shinzenshiki⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧{白無垢|しろむく}⟦を→を：00422_wo⟧、⟦{披露宴|ひろうえん}→披露宴：05636_hirouen⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{色|いろ}→色：00849_iro⟧{打掛|うちかけ}⟦を→を：00422_wo⟧⟦{着|き}る→着る：00541_kiru⟧⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦{伝統的|でんとうてき}→伝統的：04802_dentouteki⟧だ。",
       "english": "Traditionally, the bride wears a white shiromuku for the Shinto ceremony and a colored uchikake at the reception.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Compound of {白|しろ} (white) + {無垢|むく} (pure/unblemished). The all-white kimono ensemble traditionally worn by Japanese brides, including the outer {打掛|うちかけ}, inner kimono, and accessories — all in white. The bride often changes into a colorful {色|いろ}{打掛|うちかけ} at the reception, symbolizing being 'dyed' the colors of her new family.\n\nCULTURAL CONTEXT:\nIn the {神前式|しんぜんしき} (Shinto wedding ceremony), {白無垢|しろむく} is the most formal choice. The pure white symbolizes the bride's innocence and her readiness to be 'colored' by the new family she is joining.\n\nRELATED TERMS:\n- {打掛|うちかけ}: outer bridal robe\n- {色|いろ}{打掛|うちかけ}: colored bridal robe (worn at the reception)\n- {綿帽子|わたぼうし}: white hood worn over the bride's hair\n- {角隠|つのかく}し: a band of white silk worn over the bride's headdress",
+  "notes": "Compound of ⟦{白|しろ}→白：13854_shiro⟧ (white) + ⟦{無垢|むく}→無垢：13421_muku⟧ (pure/unblemished). The all-white kimono ensemble traditionally worn by Japanese brides, including the outer {打掛|うちかけ}, inner kimono, and accessories — all in white. The bride often changes into a colorful ⟦{色|いろ}→色：00849_iro⟧{打掛|うちかけ} at the reception, symbolizing being 'dyed' the colors of her new family.\n\nCULTURAL NOTE:\nIn the ⟦{神前式|しんぜんしき}→神前式：28943_shinzenshiki⟧ (Shinto wedding ceremony), {白無垢|しろむく} is the most formal choice. The pure white symbolizes the bride's innocence and her readiness to be 'colored' by the new family she is joining.\n\nRELATED WORDS:\n- {打掛|うちかけ}: outer bridal robe\n- ⟦{色|いろ}→色：00849_iro⟧{打掛|うちかけ}: colored bridal robe (worn at the reception)\n- {綿帽子|わたぼうし}: white hood worn over the bride's hair\n- {角隠|つのかく}し: a band of white silk worn over the bride's headdress",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "27343_wedingudoresu",
+      "reading": "うぇでぃんぐどれす",
+      "headword": "ウェディングドレス",
+      "label": "wedding dress"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["culture"],
+      "politeness": "plain",
+      "semantic": [
+        "culture"
+      ],
       "domain": []
     },
     "created": "2026-05-12T04:10:44Z",
-    "modified": "2026-05-12T04:10:44Z"
+    "modified": "2026-09-02T04:02:30Z"
   }
 }

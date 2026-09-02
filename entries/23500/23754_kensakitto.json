@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "23754_kensakitto_ex1",
-      "japanese": "{検査|けんさ}キットを{買|か}った。",
+      "japanese": "{検査|けんさ}キット⟦を→を：00422_wo⟧⟦{買|か}った→買う：00489_kau⟧。",
       "english": "I bought a test kit.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "23754_kensakitto_ex2",
-      "japanese": "{薬局|やっきょく}で{抗原|こうげん}{検査|けんさ}キットを{販売|はんばい}している。",
+      "japanese": "⟦{薬局|やっきょく}→薬局：01069_yakkyoku⟧⟦で→で：00502_de⟧{抗原|こうげん}{検査|けんさ}キット⟦を→を：00422_wo⟧⟦{販売|はんばい}→販売：03573_hanbai⟧⟦している→する：00392_suru⟧。",
       "english": "Antigen test kits are sold at pharmacies.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "23754_kensakitto_ex3",
-      "japanese": "{発熱|はつねつ}したので、{自宅|じたく}で{検査|けんさ}キットを{使|つか}って{結果|けっか}を{確認|かくにん}した。",
+      "japanese": "⟦{発熱|はつねつ}→発熱：06297_hatsunetsu⟧⟦した→する：00392_suru⟧⟦の→の：09472_no⟧で、⟦{自宅|じたく}→自宅：00129_jitaku⟧⟦で→で：00502_de⟧{検査|けんさ}キット⟦を→を：00422_wo⟧⟦{使|つか}って→使う：00473_tsukau⟧⟦{結果|けっか}→結果：02486_kekka⟧⟦を→を：00422_wo⟧⟦{確認|かくにん}した→確認する：25332_kakuninsuru⟧。",
       "english": "Since I had a fever, I used a test kit at home to check the result.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {検査|けんさ} ('test, examination, inspection') + キット (from English 'kit'). Most commonly refers to medical self-test kits: antigen/PCR tests for infectious diseases, pregnancy tests, DNA tests, allergy tests, and the like. Can also refer to industrial or environmental test kits (water quality, soil testing, etc.).\n\nCOMMON COLLOCATIONS:\n- {抗原|こうげん}{検査|けんさ}キット: antigen test kit\n- PCR{検査|けんさ}キット: PCR test kit\n- {妊娠|にんしん}{検査|けんさ}キット: pregnancy test kit\n- {検査|けんさ}キットを{使|つか}う: to use a test kit\n- {検査|けんさ}キットで{調|しら}べる: to check with a test kit\n- {検査|けんさ}キットが{陽性|ようせい}/{陰性|いんせい}: the test kit is positive/negative\n\nRELATED TERMS:\n- {検査|けんさ}: test, examination, inspection — the general term\n- {抗原|こうげん}{検査|けんさ}: antigen test\n- {陽性|ようせい}: positive (test result)\n- {陰性|いんせい}: negative (test result)\n- {自己|じこ}{検査|けんさ}: self-testing",
+  "notes": "Compound of ⟦{検査|けんさ}→検査：02707_kensa⟧ ('test, examination, inspection') + キット (from English 'kit'). Most commonly refers to medical self-test kits: antigen/PCR tests for infectious diseases, pregnancy tests, DNA tests, allergy tests, and the like. Can also refer to industrial or environmental test kits (water quality, soil testing, etc.).\n\nCOMMON COLLOCATIONS:\n- {抗原|こうげん}{検査|けんさ}キット: antigen test kit\n- PCR{検査|けんさ}キット: PCR test kit\n- ⟦{妊娠|にんしん}→妊娠：12227_ninshin⟧{検査|けんさ}キット: pregnancy test kit\n- {検査|けんさ}キット⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧: to use a test kit\n- {検査|けんさ}キット⟦で→で：00502_de⟧⟦{調|しら}べる→調べる：01213_shiraberu⟧: to check with a test kit\n- {検査|けんさ}キット⟦が→が：00051_ga⟧{陽性|ようせい}/⟦{陰性|いんせい}→陰性：22817_insei⟧: the test kit is positive/negative\n\nRELATED WORDS:\n- ⟦{検査|けんさ}→検査：02707_kensa⟧: test, examination, inspection — the general term\n- ⟦{抗原|こうげん}→抗原：17907_kougen⟧⟦{検査|けんさ}→検査：02707_kensa⟧: antigen test\n- {陽性|ようせい}: positive (test result)\n- ⟦{陰性|いんせい}→陰性：22817_insei⟧: negative (test result)\n- ⟦{自己|じこ}→自己：23357_jiko⟧⟦{検査|けんさ}→検査：02707_kensa⟧: self-testing",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "02707_kensa",
+      "reading": "けんさ",
+      "headword": "{検査|けんさ}",
+      "label": "test, examination, inspection"
+    },
+    {
+      "type": "related",
+      "target_id": "22817_insei",
+      "reading": "いんせい",
+      "headword": "{陰性|いんせい}",
+      "label": "negative"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +75,6 @@
       ]
     },
     "created": "2026-04-14T18:04:30Z",
-    "modified": "2026-08-02T06:24:09Z"
+    "modified": "2026-09-02T04:02:14Z"
   }
 }

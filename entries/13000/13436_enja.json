@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "13436_enja_ex1",
-      "japanese": "{演者|えんじゃ}が{舞台|ぶたい}に{登場|とうじょう}した。",
+      "japanese": "{演者|えんじゃ}⟦が→が：00051_ga⟧⟦{舞台|ぶたい}→舞台：03606_butai⟧⟦に→に：00314_ni⟧⟦{登場|とうじょう}→登場：13625_toujou⟧⟦した→する：00392_suru⟧。",
       "english": "The performer appeared on stage.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13436_enja_ex2",
-      "japanese": "{今回|こんかい}の{演者|えんじゃ}は{若手|わかて}の{落語家|らくごか}だ。",
+      "japanese": "⟦{今回|こんかい}→今回：01409_konkai⟧⟦の→の：09472_no⟧{演者|えんじゃ}⟦は→は：00079_ha⟧⟦{若手|わかて}→若手：13989_wakate⟧⟦の→の：09472_no⟧⟦{落語家|らくごか}→落語家：28498_rakugoka⟧だ。",
       "english": "This time the performer is a young rakugo artist.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13436_enja_ex3",
-      "japanese": "{学会|がっかい}では{各|かく}{演者|えんじゃ}に{十五分|じゅうごふん}の{発表|はっぴょう}{時間|じかん}が{与|あた}えられる。",
+      "japanese": "⟦{学会|がっかい}→学会：04139_gakkai⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{各|かく}→各〜：00449_kaku⟧{演者|えんじゃ}⟦に→に：00314_ni⟧{十五分|じゅうごふん}⟦の→の：09472_no⟧⟦{発表|はっぴょう}→発表：03562_happyou⟧⟦{時間|じかん}→時間：00468_jikan⟧⟦が→が：00051_ga⟧⟦{与|あた}えられる→与える：01821_ataeru⟧。",
       "english": "At the conference, each presenter is given fifteen minutes for their presentation.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nUsed in two main contexts: (1) traditional and modern performing arts, where it refers to an actor, musician, or stage performer; and (2) academic and medical conferences, where it means \"presenter\" or \"speaker\" giving a talk.\n\nSIMILAR WORDS:\n{出演者|しゅつえんしゃ} is a close synonym meaning \"cast member\" or \"performer\" and is more common in television and film contexts. {演者|えんじゃ} has a slightly more formal or traditional feel and is preferred in traditional arts and academic settings.\n\nCOMMON COLLOCATIONS:\n- {演者|えんじゃ}が{演|えん}じる: the performer acts/performs\n- {演者|えんじゃ}の{紹介|しょうかい}: introduction of the performer\n- {各|かく}{演者|えんじゃ}: each presenter",
+  "notes": "USAGE:\nUsed in two main contexts: (1) traditional and modern performing arts, where it refers to an actor, musician, or stage performer; and (2) academic and medical conferences, where it means \"presenter\" or \"speaker\" giving a talk.\n\nSIMILAR WORDS:\n⟦{出演者|しゅつえんしゃ}→出演者：11340_shutsuensha⟧ is a close synonym meaning \"cast member\" or \"performer\" and is more common in television and film contexts. {演者|えんじゃ} has a slightly more formal or traditional feel and is preferred in traditional arts and academic settings.\n\nCOMMON COLLOCATIONS:\n- {演者|えんじゃ}⟦が→が：00051_ga⟧⟦{演|えん}じる→演じる：13330_enjiru⟧: the performer acts/performs\n- {演者|えんじゃ}⟦の→の：09472_no⟧⟦{紹介|しょうかい}→紹介：01432_shoukai⟧: introduction of the performer\n- ⟦{各|かく}→各〜：00449_kaku⟧{演者|えんじゃ}: each presenter",
   "cross_references": [
     {
       "type": "synonym",
@@ -46,18 +52,30 @@
       "reading": "しゅつえんしゃ",
       "headword": "{出演者|しゅつえんしゃ}",
       "label": "performer (TV/film)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24231_pafoomaa",
+      "reading": "ぱふぉーまー",
+      "headword": "パフォーマー",
+      "label": "performer"
     }
   ],
   "metadata": {
     "created": "2026-02-24T12:43:40Z",
-    "modified": "2026-04-28T10:15:25Z",
+    "modified": "2026-09-02T04:01:33Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["person", "occupation"]
+      "semantic": [
+        "person",
+        "occupation"
+      ]
     }
   }
 }

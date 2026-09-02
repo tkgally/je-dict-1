@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "13102_yuzu_ex1",
-      "japanese": "{柚子|ゆず}の{香|かお}りがいい。",
+      "japanese": "{柚子|ゆず}⟦の→の：09472_no⟧⟦{香|かお}り→香り：00189_kaori⟧⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧。",
       "english": "The yuzu smells wonderful.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "13102_yuzu_ex2",
-      "japanese": "{鍋|なべ}に{柚子|ゆず}の{皮|かわ}を{入|い}れた。",
+      "japanese": "⟦{鍋|なべ}→鍋：01038_nabe⟧⟦に→に：00314_ni⟧{柚子|ゆず}⟦の→の：09472_no⟧⟦{皮|かわ}→皮：02187_kawa⟧⟦を→を：00422_wo⟧⟦{入|い}れた→入れる：01098_ireru⟧。",
       "english": "I put some yuzu peel in the hot pot.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "13102_yuzu_ex3",
-      "japanese": "{冬至|とうじ}には{柚子|ゆず}{湯|ゆ}に{入|はい}る{習慣|しゅうかん}がある。",
+      "japanese": "⟦{冬至|とうじ}→冬至：11756_touji⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{柚子|ゆず}{湯|ゆ}⟦に→に：00314_ni⟧⟦{入|はい}る→入る：00494_hairu⟧⟦{習慣|しゅうかん}→習慣：01429_shuukan⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There is a custom of taking a yuzu bath on the winter solstice.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,26 @@
       ]
     }
   ],
-  "notes": "CULTURE:\n{柚子|ゆず} is an iconic Japanese citrus prized more for its fragrance than its juice. It is a staple in Japanese cuisine, used as a garnish, flavoring, and aromatic.\n\nCOMMON COMPOUNDS:\n- {柚子|ゆず}こしょう: yuzu pepper paste (a condiment from Kyushu)\n- {柚子|ゆず}{湯|ゆ}: yuzu bath (taken on the winter solstice for good health)\n- {柚子|ゆず}{酢|ず}: yuzu vinegar\n\nThe word is often written in hiragana (ゆず) or katakana (ユズ) in casual contexts, but the kanji {柚子|ゆず} appears in formal writing and on product labels.",
-  "cross_references": [],
+  "notes": "CULTURAL NOTE:\n{柚子|ゆず} is an iconic Japanese citrus prized more for its fragrance than its juice. It is a staple in Japanese cuisine, used as a garnish, flavoring, and aromatic.\n\nCOMPOUNDS:\n- {柚子|ゆず}こしょう: yuzu pepper paste (a condiment from Kyushu)\n- {柚子|ゆず}⟦{湯|ゆ}→湯：01740_yu⟧: yuzu bath (taken on the winter solstice for good health)\n- {柚子|ゆず}{酢|ず}: yuzu vinegar\n\nThe word is often written in hiragana (ゆず) or katakana (ユズ) in casual contexts, but the kanji {柚子|ゆず} appears in formal writing and on product labels.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20306_kabosu",
+      "reading": "かぼす",
+      "headword": "かぼす",
+      "label": "kabosu"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21815_sudachi",
+      "reading": "すだち",
+      "headword": "すだち",
+      "label": "sudachi"
+    }
+  ],
   "metadata": {
     "created": "2026-02-23T11:16:43Z",
-    "modified": "2026-07-08T17:24:36Z",
+    "modified": "2026-09-02T04:01:31Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

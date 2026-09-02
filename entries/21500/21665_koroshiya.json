@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21665_koroshiya_ex1",
-      "japanese": "{殺|ころ}し{屋|や}を{雇|やと}う。",
+      "japanese": "{殺|ころ}し{屋|や}⟦を→を：00422_wo⟧⟦{雇|やと}う→雇う：02320_yatou⟧。",
       "english": "To hire a hitman.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21665_koroshiya_ex2",
-      "japanese": "その{映画|えいが}は{伝説|でんせつ}の{殺|ころ}し{屋|や}の{物語|ものがたり}だ。",
+      "japanese": "⟦その→その：00993_sono⟧⟦{映画|えいが}→映画：02273_eiga⟧⟦は→は：00079_ha⟧⟦{伝説|でんせつ}→伝説：11446_densetsu⟧⟦の→の：09472_no⟧{殺|ころ}し{屋|や}⟦の→の：09472_no⟧⟦{物語|ものがたり}→物語：03634_monogatari⟧だ。",
       "english": "That movie is the story of a legendary assassin.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21665_koroshiya_ex3",
-      "japanese": "{組織|そしき}に{裏切|うらぎ}られた{殺|ころ}し{屋|や}が{復讐|ふくしゅう}に{乗|の}り{出|だ}すという{筋書|すじが}きだ。",
+      "japanese": "⟦{組織|そしき}→組織：03320_soshiki⟧⟦に→に：00314_ni⟧⟦{裏切|うらぎ}られた→裏切る：02011_uragiru⟧{殺|ころ}し{屋|や}⟦が→が：00051_ga⟧⟦{復讐|ふくしゅう}→復讐：12512_fukushuu⟧⟦に→に：00314_ni⟧⟦{乗|の}り{出|だ}す→乗り出す：05760_noridasu⟧⟦という→という：09577_toiu⟧⟦{筋書|すじが}き→筋書き：16463_sujigaki⟧だ。",
       "english": "It's a plot about a hitman betrayed by the organization who sets out for revenge.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {殺|ころ}し (killing, from the verb {殺|ころ}す) + {屋|や} (person who does something as a profession, often with a negative connotation). The {屋|や} suffix here implies someone who does this as their trade.\n\nCOMMON COLLOCATIONS:\n- {殺|ころ}し{屋|や}を{雇|やと}う: to hire a hitman\n- {殺|ころ}し{屋|や}を{差|さ}し{向|む}ける: to send an assassin\n- {凄腕|すごうで}の{殺|ころ}し{屋|や}: a skilled assassin\n- {伝説|でんせつ}の{殺|ころ}し{屋|や}: a legendary hitman\n\nUSAGE:\nMost commonly encountered in fiction (movies, novels, manga, anime) and occasionally in news about organized crime. Not a word used in polite or everyday conversation.\n\nSIMILAR WORDS:\n- {暗殺者|あんさつしゃ}: assassin — more formal; used for political assassination\n- {刺客|しかく}: assassin — literary/historical; used in samurai or political contexts",
+  "notes": "Compound of {殺|ころ}し (killing, from the verb ⟦{殺|ころ}す→殺す：01944_korosu⟧) + ⟦{屋|や}→〜屋：03096_ya⟧ (person who does something as a profession, often with a negative connotation). The ⟦{屋|や}→〜屋：03096_ya⟧ suffix here implies someone who does this as their trade.\n\nCOMMON COLLOCATIONS:\n- {殺|ころ}し{屋|や}⟦を→を：00422_wo⟧⟦{雇|やと}う→雇う：02320_yatou⟧: to hire a hitman\n- {殺|ころ}し{屋|や}⟦を→を：00422_wo⟧{差|さ}し{向|む}ける: to send an assassin\n- ⟦{凄腕|すごうで}→凄腕：07300_sugoude⟧⟦の→の：09472_no⟧{殺|ころ}し{屋|や}: a skilled assassin\n- ⟦{伝説|でんせつ}→伝説：11446_densetsu⟧⟦の→の：09472_no⟧{殺|ころ}し{屋|や}: a legendary hitman\n\nUSAGE:\nMost commonly encountered in fiction (movies, novels, manga, anime) and occasionally in news about organized crime. Not a word used in polite or everyday conversation.\n\nSIMILAR WORDS:\n- ⟦{暗殺者|あんさつしゃ}→暗殺者：17181_ansatsusha⟧: assassin — more formal; used for political assassination\n- {刺客|しかく}: assassin — literary/historical; used in samurai or political contexts",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17181_ansatsusha",
+      "reading": "あんさつしゃ",
+      "headword": "{暗殺者|あんさつしゃ}",
+      "label": "assassin"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +69,6 @@
       ]
     },
     "created": "2026-04-02T20:25:51Z",
-    "modified": "2026-07-29T12:35:11Z"
+    "modified": "2026-09-02T04:02:04Z"
   }
 }

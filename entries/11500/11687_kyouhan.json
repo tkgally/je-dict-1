@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "11687_kyouhan_ex1",
-      "japanese": "{共犯|きょうはん}{者|しゃ}が{逮捕|たいほ}された。",
+      "japanese": "{共犯|きょうはん}{者|しゃ}⟦が→が：00051_ga⟧⟦{逮捕|たいほ}→逮捕：03397_taiho⟧⟦された→する：00392_suru⟧。",
       "english": "The accomplice was arrested.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "11687_kyouhan_ex2",
-      "japanese": "{二人|ふたり}は{共犯|きょうはん}{関係|かんけい}にあった。",
+      "japanese": "⟦{二人|ふたり}→二人：00622_futari⟧⟦は→は：00079_ha⟧{共犯|きょうはん}⟦{関係|かんけい}→関係：01298_kankei⟧にあった。",
       "english": "The two were accomplices.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "11687_kyouhan_ex3",
-      "japanese": "{彼|かれ}は{事件|じけん}の{共犯|きょうはん}として{起訴|きそ}された。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{事件|じけん}→事件：01568_jiken⟧⟦の→の：09472_no⟧{共犯|きょうはん}⟦として→として：06802_toshite⟧⟦{起訴|きそ}→起訴：10577_kiso⟧⟦された→する：00392_suru⟧。",
       "english": "He was charged as an accomplice in the case.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "Used in legal and criminal contexts. Can function as both the abstract concept (complicity) and to describe the person ({共犯|きょうはん}{者|しゃ}).\n\nCOMMON COLLOCATIONS:\n・{共犯|きょうはん}{者|しゃ} (accomplice)\n・{共犯|きょうはん}{関係|かんけい} (relationship as accomplices)\n・{共犯|きょうはん}として (as an accomplice)\n\nLEGAL USAGE:\nIn Japanese criminal law, {共犯|きょうはん} is a technical term covering various forms of joint criminal liability, including {共同|きょうどう}{正犯|せいはん} (co-principal), {教唆犯|きょうさはん} (instigator), and {幇助犯|ほうじょはん} (aiding and abetting).",
+  "notes": "Used in legal and criminal contexts. Can function as both the abstract concept (complicity) and to describe the person ({共犯|きょうはん}{者|しゃ}).\n\nCOMMON COLLOCATIONS:\n- {共犯|きょうはん}{者|しゃ} (accomplice)\n- {共犯|きょうはん}⟦{関係|かんけい}→関係：01298_kankei⟧ (relationship as accomplices)\n- {共犯|きょうはん}⟦として→として：06802_toshite⟧ (as an accomplice)\n\nLEGAL USAGE:\nIn Japanese criminal law, {共犯|きょうはん} is a technical term covering various forms of joint criminal liability, including ⟦{共同|きょうどう}→共同：02591_kyoudou⟧⟦{正犯|せいはん}→正犯：23640_seihan⟧ (co-principal), {教唆犯|きょうさはん} (instigator), and {幇助犯|ほうじょはん} (aiding and abetting).",
   "cross_references": [
     {
       "type": "contrast",
@@ -52,11 +52,18 @@
       "reading": "しゅはん",
       "headword": "{主犯|しゅはん}",
       "label": "principal offender"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23640_seihan",
+      "reading": "せいはん",
+      "headword": "{正犯|せいはん}",
+      "label": "principal (offender)"
     }
   ],
   "metadata": {
     "created": "2026-02-17T20:25:48Z",
-    "modified": "2026-05-08T04:12:06Z",
+    "modified": "2026-09-02T04:01:26Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

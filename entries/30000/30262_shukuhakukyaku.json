@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30262_shukuhakukyaku_ex1",
-      "japanese": "{宿泊客|しゅくはくきゃく}が{増|ふ}えている。",
+      "japanese": "{宿泊客|しゅくはくきゃく}⟦が→が：00051_ga⟧⟦{増|ふ}えている→増える：01183_fueru⟧。",
       "english": "The number of overnight guests is increasing.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "30262_shukuhakukyaku_ex2",
-      "japanese": "{宿泊客|しゅくはくきゃく}は{温泉|おんせん}を{無料|むりょう}で{利用|りよう}できます。",
+      "japanese": "{宿泊客|しゅくはくきゃく}⟦は→は：00079_ha⟧⟦{温泉|おんせん}→温泉：04117_onsen⟧⟦を→を：00422_wo⟧⟦{無料|むりょう}→無料：01662_muryou⟧⟦で→で：00502_de⟧⟦{利用|りよう}→利用：01752_riyou⟧⟦できます→できる：00557_dekiru⟧。",
       "english": "Overnight guests may use the hot spring free of charge.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "30262_shukuhakukyaku_ex3",
-      "japanese": "{昨年|さくねん}のこの{地域|ちいき}の{宿泊客|しゅくはくきゃく}のうち、{半分|はんぶん}{近|ちか}くが{外国|がいこく}からの{旅行者|りょこうしゃ}だった。",
+      "japanese": "⟦{昨年|さくねん}→昨年：10433_sakunen⟧⟦の→の：09472_no⟧⟦この→この：00962_kono⟧⟦{地域|ちいき}→地域：01461_chiiki⟧⟦の→の：09472_no⟧{宿泊客|しゅくはくきゃく}のうち、⟦{半分|はんぶん}→半分：02938_hanbun⟧{近|ちか}く⟦が→が：00051_ga⟧⟦{外国|がいこく}→外国：02868_gaikoku⟧⟦から→から：00504_kara⟧⟦の→の：09472_no⟧⟦{旅行者|りょこうしゃ}→旅行者：22927_ryokousha⟧だった。",
       "english": "Nearly half of this region's overnight guests last year were travelers from abroad.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,23 @@
       ]
     }
   ],
-  "notes": "From {宿泊|しゅくはく} (lodging, staying overnight) + {客|きゃく} (guest, customer). It marks the guest as staying the night, in contrast with someone who only uses a restaurant or bath.\n\nCOMMON COLLOCATIONS:\n- {宿泊客|しゅくはくきゃく}が{増|ふ}える: the number of guests rises\n- {宿泊客|しゅくはくきゃく}を{迎|むか}える: to receive guests\n- {宿泊客|しゅくはくきゃく}{限定|げんてい}: for overnight guests only\n- {宿泊客|しゅくはくきゃく}{数|すう}: the number of overnight guests\n\nSIMILAR WORDS:\n- {利用|りよう}{客|きゃく}: user, patron — anyone using a facility, whether staying overnight or not\n- {観光客|かんこうきゃく}: tourist, sightseer — defined by the purpose of the trip, not by staying overnight",
+  "notes": "From ⟦{宿泊|しゅくはく}→宿泊：03216_shukuhaku⟧ (lodging, staying overnight) + ⟦{客|きゃく}→客：00865_kyaku⟧ (guest, customer). It marks the guest as staying the night, in contrast with someone who only uses a restaurant or bath.\n\nCOMMON COLLOCATIONS:\n- {宿泊客|しゅくはくきゃく}⟦が→が：00051_ga⟧⟦{増|ふ}える→増える：01183_fueru⟧: the number of guests rises\n- {宿泊客|しゅくはくきゃく}⟦を→を：00422_wo⟧⟦{迎|むか}える→迎える：01193_mukaeru⟧: to receive guests\n- {宿泊客|しゅくはくきゃく}⟦{限定|げんてい}→限定：10997_gentei⟧: for overnight guests only\n- {宿泊客|しゅくはくきゃく}⟦{数|すう}→数：03360_suu⟧: the number of overnight guests\n\nSIMILAR WORDS:\n- ⟦{利用|りよう}→利用：01752_riyou⟧⟦{客|きゃく}→客：00865_kyaku⟧: user, patron — anyone using a facility, whether staying overnight or not\n- ⟦{観光客|かんこうきゃく}→観光客：03022_kankoukyaku⟧: tourist, sightseer — defined by the purpose of the trip, not by staying overnight",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03022_kankoukyaku",
+      "reading": "かんこうきゃく",
+      "headword": "{観光客|かんこうきゃく}",
+      "label": "tourist, sightseer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30252_taizaisha",
+      "reading": "たいざいしゃ",
+      "headword": "{滞在者|たいざいしゃ}",
+      "label": "person staying"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,6 +78,6 @@
       ]
     },
     "created": "2026-07-31T06:19:07Z",
-    "modified": "2026-07-31T06:19:07Z"
+    "modified": "2026-09-02T04:02:39Z"
   }
 }

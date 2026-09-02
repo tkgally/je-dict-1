@@ -15,40 +15,87 @@
   "examples": [
     {
       "id": "19429_byoureki_ex1",
-      "japanese": "{病歴|びょうれき}を{聞|き}かれた。",
+      "japanese": "{病歴|びょうれき}⟦を→を：00422_wo⟧⟦{聞|き}かれた→聞く：00483_kiku⟧。",
       "english": "I was asked about my medical history.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19429_byoureki_ex2",
-      "japanese": "{初診|しょしん}のとき、{病歴|びょうれき}を{書|か}く{必要|ひつよう}がある。",
+      "japanese": "⟦{初診|しょしん}→初診：11090_shoshin⟧⟦の→の：09472_no⟧とき、{病歴|びょうれき}⟦を→を：00422_wo⟧⟦{書|か}く→書く：00477_kaku⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "At the first visit, you need to fill out your medical history.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19429_byoureki_ex3",
-      "japanese": "{家族|かぞく}の{病歴|びょうれき}も{診断|しんだん}の{参考|さんこう}になることがある。",
+      "japanese": "⟦{家族|かぞく}→家族：00552_kazoku⟧⟦の→の：09472_no⟧{病歴|びょうれき}⟦も→も：00484_mo⟧⟦{診断|しんだん}→診断：04209_shindan⟧⟦の→の：09472_no⟧⟦{参考|さんこう}→参考：02828_sankou⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧こと⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "A family's medical history can also be useful for diagnosis.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "{病歴|びょうれき} refers to a chronological record of a person's past illnesses, surgeries, treatments, and medical conditions. It is commonly requested at hospitals and clinics, especially during an initial visit, and is essential for proper diagnosis and treatment planning.\n\nWORD STRUCTURE:\nA compound of {病|びょう} (illness) + {歴|れき} (history, record). The {歴|れき} suffix appears in many record-related words.\n\nCOMMON COLLOCATIONS:\n- {病歴|びょうれき}を{聞|き}く: to ask about medical history\n- {病歴|びょうれき}を{書|か}く: to write down medical history\n- {病歴|びょうれき}を{調|しら}べる: to check medical history\n- {家族|かぞく}の{病歴|びょうれき}: family medical history\n\nRELATED TERMS:\n- {既往歴|きおうれき}: past medical history (formal medical term)\n- {家族歴|かぞくれき}: family medical history\n- {職歴|しょくれき}: work history\n- {学歴|がくれき}: educational background",
+  "notes": "{病歴|びょうれき} refers to a chronological record of a person's past illnesses, surgeries, treatments, and medical conditions. It is commonly requested at hospitals and clinics, especially during an initial visit, and is essential for proper diagnosis and treatment planning.\n\nETYMOLOGY:\nA compound of {病|びょう} (illness) + {歴|れき} (history, record). The {歴|れき} suffix appears in many record-related words.\n\nCOMMON COLLOCATIONS:\n- {病歴|びょうれき}⟦を→を：00422_wo⟧⟦{聞|き}く→聞く：00483_kiku⟧: to ask about medical history\n- {病歴|びょうれき}⟦を→を：00422_wo⟧⟦{書|か}く→書く：00477_kaku⟧: to write down medical history\n- {病歴|びょうれき}⟦を→を：00422_wo⟧⟦{調|しら}べる→調べる：01213_shiraberu⟧: to check medical history\n- ⟦{家族|かぞく}→家族：00552_kazoku⟧⟦の→の：09472_no⟧{病歴|びょうれき}: family medical history\n\nRELATED WORDS:\n- ⟦{既往歴|きおうれき}→既往歴：26536_kioureki⟧: past medical history (formal medical term)\n- {家族歴|かぞくれき}: family medical history\n- ⟦{職歴|しょくれき}→職歴：17959_shokureki⟧: work history\n- ⟦{学歴|がくれき}→学歴：02628_gakureki⟧: educational background",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "26536_kioureki",
+      "reading": "きおうれき",
+      "headword": "{既往歴|きおうれき}",
+      "label": "past medical history"
+    },
+    {
+      "type": "related",
+      "target_id": "17959_shokureki",
+      "reading": "しょくれき",
+      "headword": "{職歴|しょくれき}",
+      "label": "work history"
+    },
+    {
+      "type": "related",
+      "target_id": "02628_gakureki",
+      "reading": "がくれき",
+      "headword": "{学歴|がくれき}",
+      "label": "educational background"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08623_kioushou",
+      "reading": "きおうしょう",
+      "headword": "{既往症|きおうしょう}",
+      "label": "medical history"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30197_shinryouroku",
+      "reading": "しんりょうろく",
+      "headword": "診療録",
+      "label": "medical record"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["health"]
+      "semantic": [
+        "health"
+      ]
     },
     "created": "2026-03-25T13:28:10Z",
-    "modified": "2026-07-26T21:32:58Z"
+    "modified": "2026-09-02T04:01:55Z"
   }
 }

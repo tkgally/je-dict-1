@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "09858_taikensuru_ex1",
-      "japanese": "{寺院|じいん}で{座禅|ざぜん}を{体験|たいけん}した。",
+      "japanese": "⟦{寺院|じいん}→寺院：00122_jiin⟧⟦で→で：00502_de⟧⟦{座禅|ざぜん}→座禅：09641_zazen⟧⟦を→を：00422_wo⟧{体験|たいけん}した。",
       "english": "I experienced Zen meditation at the temple.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "09858_taikensuru_ex2",
-      "japanese": "{日本|にほん}の{文化|ぶんか}を{体験|たいけん}したい。",
+      "japanese": "⟦{日本|にほん}→日本：03876_nihon⟧⟦の→の：09472_no⟧⟦{文化|ぶんか}→文化：01504_bunka⟧⟦を→を：00422_wo⟧{体験|たいけん}したい。",
       "english": "I want to experience Japanese culture.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "09858_taikensuru_ex3",
-      "japanese": "{初|はじ}めて{地震|じしん}を{体験|たいけん}した。",
+      "japanese": "⟦{初|はじ}めて→初めて：02932_hajimete⟧⟦{地震|じしん}→地震：01608_jishin⟧⟦を→を：00422_wo⟧{体験|たいけん}した。",
       "english": "I experienced an earthquake for the first time.",
       "notes": null,
       "has_audio": false,
@@ -133,11 +133,26 @@
       ]
     }
   ],
-  "notes": "{体験|たいけん}する means to personally experience something firsthand.\n\nCOMMON COLLOCATIONS:\n- {体験|たいけん}する: to experience\n- {体験|たいけん}できる: can experience\n- {体験|たいけん}{学習|がくしゅう}: hands-on learning\n- {体験|たいけん}{談|だん}: personal account\n- {体験|たいけん}{入学|にゅうがく}: trial enrollment\n\nSIMILAR WORDS:\n- {経験|けいけん}する: to experience (broader, includes accumulated experience)\n- {体験|たいけん}: emphasizes direct, firsthand experience\n\nTRANSITIVITY:\n- Type: Transitive ({他動詞|たどうし})\n- Pattern: 〜を{体験|たいけん}する",
-  "cross_references": [],
+  "notes": "{体験|たいけん}する means to personally experience something firsthand.\n\nCOMMON COLLOCATIONS:\n- {体験|たいけん}する: to experience\n- {体験|たいけん}できる: can experience\n- ⟦{体験|たいけん}{学習|がくしゅう}→体験学習：23854_taikengakushuu⟧: hands-on learning\n- ⟦{体験|たいけん}{談|だん}→体験談：25618_taikendan⟧: personal account\n- ⟦{体験|たいけん}→体験：11443_taiken⟧⟦{入学|にゅうがく}→入学：02092_nyuugaku⟧: trial enrollment\n\nSIMILAR WORDS:\n- ⟦{経験|けいけん}→経験：01179_keiken⟧⟦する→する：00392_suru⟧: to experience (broader, includes accumulated experience)\n- ⟦{体験|たいけん}→体験：11443_taiken⟧: emphasizes direct, firsthand experience\n\nTRANSITIVITY:\n- Type: Transitive (⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧)\n- Pattern: 〜⟦を→を：00422_wo⟧{体験|たいけん}する",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01179_keiken",
+      "reading": "けいけん",
+      "headword": "{経験|けいけん}",
+      "label": "to experience"
+    },
+    {
+      "type": "related",
+      "target_id": "21877_mikikisuru",
+      "reading": "みききする",
+      "headword": "{見聞|みき}きする",
+      "label": "to see and hear"
+    }
+  ],
   "metadata": {
     "created": "2026-02-04T01:44:31Z",
-    "modified": "2026-03-29T03:05:07Z",
+    "modified": "2026-09-02T04:01:19Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

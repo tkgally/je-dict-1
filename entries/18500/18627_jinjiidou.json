@@ -15,42 +15,70 @@
   "examples": [
     {
       "id": "18627_jinjiidou_ex1",
-      "japanese": "{四月|しがつ}に{人事|じんじ}{異動|いどう}がある。",
+      "japanese": "⟦{四月|しがつ}→四月：00668_shigatsu⟧⟦に→に：00314_ni⟧{人事|じんじ}{異動|いどう}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There will be personnel changes in April.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18627_jinjiidou_ex2",
-      "japanese": "{人事|じんじ}{異動|いどう}で{営業部|えいぎょうぶ}に{配属|はいぞく}された。",
+      "japanese": "{人事|じんじ}{異動|いどう}⟦で→で：00502_de⟧⟦{営業部|えいぎょうぶ}→営業部：19381_eigyoubu⟧⟦に→に：00314_ni⟧⟦{配属|はいぞく}→配属：06159_haizoku⟧⟦された→する：00392_suru⟧。",
       "english": "I was assigned to the sales department in the personnel reshuffle.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18627_jinjiidou_ex3",
-      "japanese": "{大規模|だいきぼ}な{人事|じんじ}{異動|いどう}が{発表|はっぴょう}され、{社内|しゃない}は{騒然|そうぜん}としている。",
+      "japanese": "⟦{大規模|だいきぼ}→大規模：12185_daikibo⟧な{人事|じんじ}{異動|いどう}⟦が→が：00051_ga⟧⟦{発表|はっぴょう}→発表：03562_happyou⟧⟦され→する：00392_suru⟧、⟦{社内|しゃない}→社内：13731_shanai⟧⟦は→は：00079_ha⟧⟦{騒然|そうぜん}→騒然：15689_souzen⟧⟦として→として：06802_toshite⟧⟦いる→いる：00495_iru⟧。",
       "english": "A large-scale personnel reshuffle was announced, and the office is in an uproar.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nIn Japanese companies, {人事|じんじ}{異動|いどう} typically happens at the start of the fiscal year (April) or mid-year (October). It is a normal part of corporate life and can include transfers to different departments, branch offices, or even subsidiaries.\n\nCOMMON COLLOCATIONS:\n- {人事|じんじ}{異動|いどう}が{発表|はっぴょう}される (personnel changes are announced)\n- {人事|じんじ}{異動|いどう}の{内示|ないじ} (unofficial notification of transfer)\n- {定期|ていき}{人事|じんじ}{異動|いどう} (regular personnel reshuffle)\n- {人事|じんじ}{異動|いどう}の{季節|きせつ} (personnel transfer season)",
-  "cross_references": [],
+  "notes": "USAGE:\nIn Japanese companies, {人事|じんじ}{異動|いどう} typically happens at the start of the fiscal year (April) or mid-year (October). It is a normal part of corporate life and can include transfers to different departments, branch offices, or even subsidiaries.\n\nCOMMON COLLOCATIONS:\n- {人事|じんじ}{異動|いどう}⟦が→が：00051_ga⟧⟦{発表|はっぴょう}される→発表する：25231_happyousuru⟧ (personnel changes are announced)\n- {人事|じんじ}{異動|いどう}⟦の→の：09472_no⟧⟦{内示|ないじ}→内示：18056_naiji⟧ (unofficial notification of transfer)\n- ⟦{定期|ていき}→定期：03538_teiki⟧{人事|じんじ}{異動|いどう} (regular personnel reshuffle)\n- {人事|じんじ}{異動|いどう}⟦の→の：09472_no⟧⟦{季節|きせつ}→季節：01304_kisetsu⟧ (personnel transfer season)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "08610_haichitenkan",
+      "reading": "はいちてんかん",
+      "headword": "{配置転換|はいちてんかん}",
+      "label": "job transfer"
+    },
+    {
+      "type": "related",
+      "target_id": "21047_battekijinji",
+      "reading": "ばってきじんじ",
+      "headword": "{抜擢人事|ばってきじんじ}",
+      "label": "promotion based on merit"
+    }
+  ],
   "metadata": {
     "created": "2026-03-22T10:41:08Z",
-    "modified": "2026-03-22T10:41:08Z",
+    "modified": "2026-09-02T04:01:52Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["work", "change"],
-      "domain": ["business"]
+      "semantic": [
+        "work",
+        "change"
+      ],
+      "domain": [
+        "business"
+      ]
     }
   }
 }

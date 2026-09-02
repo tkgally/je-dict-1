@@ -3,7 +3,7 @@
   "headword": "{選任|せんにん}",
   "reading": "せんにん",
   "romaji": "sennin",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "appointment; selection (of a person for a post)",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30646_sennin_ex1",
-      "japanese": "{新|あたら}しい{監査役|かんさやく}を{選任|せんにん}した。",
+      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦{監査役|かんさやく}→監査役：29075_kansayaku⟧⟦を→を：00422_wo⟧{選任|せんにん}⟦した→する：00392_suru⟧。",
       "english": "A new auditor was appointed.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30646_sennin_ex2",
-      "japanese": "{弁護人|べんごにん}の{選任|せんにん}を{裁判所|さいばんしょ}に{申|もう}し{立|た}てた。",
+      "japanese": "{弁護人|べんごにん}⟦の→の：09472_no⟧{選任|せんにん}⟦を→を：00422_wo⟧⟦{裁判所|さいばんしょ}→裁判所：09665_saibansho⟧⟦に→に：00314_ni⟧⟦{申|もう}し{立|た}てた→申し立てる：27400_moushitateru⟧。",
       "english": "A request for the appointment of defense counsel was filed with the court.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30646_sennin_ex3",
-      "japanese": "{株主総会|かぶぬしそうかい}で{取締役|とりしまりやく}{三名|さんめい}が{選任|せんにん}され、{任期|にんき}は{二年|にねん}となった。",
+      "japanese": "{株主総会|かぶぬしそうかい}⟦で→で：00502_de⟧⟦{取締役|とりしまりやく}→取締役：12124_torishimariyaku⟧{三名|さんめい}⟦が→が：00051_ga⟧{選任|せんにん}⟦され→する：00392_suru⟧、⟦{任期|にんき}→任期：11553_ninki⟧⟦は→は：00079_ha⟧⟦{二年|にねん}→二年：28862_ninen⟧⟦と→と：00512_to⟧⟦なった→なる：01970_naru⟧。",
       "english": "Three directors were appointed at the shareholders' meeting, with two-year terms.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "COMMON COLLOCATIONS:\n- {役員|やくいん}を{選任|せんにん}する: to appoint officers\n- {選任|せんにん}{決議|けつぎ}: a resolution of appointment\n- {選任|せんにん}される: to be appointed\n- {解任|かいにん}: dismissal from a post — the standard opposite\n\nSIMILAR WORDS:\n- {任命|にんめい}: appointment — by a superior's authority, common in government and companies\n- {選出|せんしゅつ}: election, selection — emphasizes choosing from among candidates, often by vote\n- {就任|しゅうにん}: taking office — seen from the appointee's side",
+  "notes": "COMMON COLLOCATIONS:\n- ⟦{役員|やくいん}→役員：11329_yakuin⟧⟦を→を：00422_wo⟧{選任|せんにん}⟦する→する：00392_suru⟧: to appoint officers\n- {選任|せんにん}⟦{決議|けつぎ}→決議：16467_ketsugi⟧: a resolution of appointment\n- {選任|せんにん}⟦される→する：00392_suru⟧: to be appointed\n- ⟦{解任|かいにん}→解任：17173_kainin⟧: dismissal from a post — the standard opposite\n\nSIMILAR WORDS:\n- ⟦{任命|にんめい}→任命：09764_ninmei⟧: appointment — by a superior's authority, common in government and companies\n- ⟦{選出|せんしゅつ}→選出：14448_senshutsu⟧: election, selection — emphasizes choosing from among candidates, often by vote\n- ⟦{就任|しゅうにん}→就任：12368_shuunin⟧: taking office — seen from the appointee's side",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09764_ninmei",
+      "reading": "にんめい",
+      "headword": "{任命|にんめい}",
+      "label": "appointment"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14448_senshutsu",
+      "reading": "せんしゅつ",
+      "headword": "{選出|せんしゅつ}",
+      "label": "election, selection"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12368_shuunin",
+      "reading": "しゅうにん",
+      "headword": "{就任|しゅうにん}",
+      "label": "taking office"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -54,7 +77,7 @@
         "verb-suru"
       ],
       "formality": "formal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "law",
         "work"
@@ -63,10 +86,11 @@
         "legal",
         "business"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-08-14T15:52:31Z",
-    "modified": "2026-08-14T15:52:31Z"
+    "modified": "2026-09-02T04:02:41Z"
   },
   "conjugation": {
     "type": "suru",

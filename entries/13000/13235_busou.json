@@ -3,7 +3,7 @@
   "id": "13235_busou",
   "headword": "{武装|ぶそう}",
   "reading": "ぶそう",
-  "part_of_speech": "noun / suru verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "armament, being armed",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "13235_busou_ex1",
-      "japanese": "{武装|ぶそう}した{兵士|へいし}が{警備|けいび}している。",
+      "japanese": "{武装|ぶそう}⟦した→する：00392_suru⟧⟦{兵士|へいし}→兵士：11680_heishi⟧⟦が→が：00051_ga⟧⟦{警備|けいび}→警備：00208_keibi⟧⟦している→する：00392_suru⟧。",
       "english": "Armed soldiers are standing guard.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "13235_busou_ex2",
-      "japanese": "{武装|ぶそう}{解除|かいじょ}が{和平|わへい}の{条件|じょうけん}とされた。",
+      "japanese": "{武装|ぶそう}⟦{解除|かいじょ}→解除：05762_kaijo⟧⟦が→が：00051_ga⟧{和平|わへい}⟦の→の：09472_no⟧⟦{条件|じょうけん}→条件：03285_jouken⟧⟦と→と：00512_to⟧⟦された→する：00392_suru⟧。",
       "english": "Disarmament was made a condition for peace.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "13235_busou_ex3",
-      "japanese": "{武装|ぶそう}{勢力|せいりょく}が{国境|こっきょう}{付近|ふきん}で{活動|かつどう}を{続|つづ}けており、{住民|じゅうみん}は{不安|ふあん}を{感|かん}じている。",
+      "japanese": "{武装|ぶそう}⟦{勢力|せいりょく}→勢力：11812_seiryoku⟧⟦が→が：00051_ga⟧⟦{国境|こっきょう}→国境：02762_kokkyou⟧⟦{付近|ふきん}→付近：00044_fukin⟧⟦で→で：00502_de⟧⟦{活動|かつどう}→活動：00201_katsudou⟧⟦を→を：00422_wo⟧⟦{続|つづ}け→続く：00903_tsuzuku⟧ており、⟦{住民|じゅうみん}→住民：03281_juumin⟧⟦は→は：00079_ha⟧⟦{不安|ふあん}→不安：00836_fuan⟧⟦を→を：00422_wo⟧⟦{感|かん}じている→感じる：02044_kanjiru⟧。",
       "english": "Armed forces continue to operate near the border, and residents feel uneasy.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nFunctions as both a noun and a suru verb ({武装|ぶそう}する = to arm oneself). The past participle {武装|ぶそう}した is commonly used as a modifier meaning 'armed.' Frequently appears in news reporting about conflicts and security.\n\nCOMMON COLLOCATIONS:\n- {武装|ぶそう}{解除|かいじょ}: disarmament\n- {武装|ぶそう}{勢力|せいりょく}: armed forces/groups\n- {武装|ぶそう}{集団|しゅうだん}: armed group\n- {完全|かんぜん}{武装|ぶそう}: fully armed\n- {武装|ぶそう}した{兵士|へいし}: armed soldier",
+  "notes": "USAGE:\nFunctions as both a noun and a suru verb ({武装|ぶそう}⟦する→する：00392_suru⟧ = to arm oneself). The past participle {武装|ぶそう}⟦した→する：00392_suru⟧ is commonly used as a modifier meaning 'armed.' Frequently appears in news reporting about conflicts and security.\n\nCOMMON COLLOCATIONS:\n- {武装|ぶそう}⟦{解除|かいじょ}→解除：05762_kaijo⟧: disarmament\n- {武装|ぶそう}⟦{勢力|せいりょく}→勢力：11812_seiryoku⟧: armed forces/groups\n- {武装|ぶそう}⟦{集団|しゅうだん}→集団：03211_shuudan⟧: armed group\n- ⟦{完全|かんぜん}→完全：01552_kanzen⟧{武装|ぶそう}: fully armed\n- {武装|ぶそう}⟦した→する：00392_suru⟧⟦{兵士|へいし}→兵士：11680_heishi⟧: armed soldier",
   "cross_references": [
     {
       "type": "related",
@@ -142,11 +142,18 @@
       "headword": "{武力|ぶりょく}",
       "label": "military power",
       "target_id": "13221_buryoku"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22011_gunbi",
+      "reading": "ぐんび",
+      "headword": "{軍備|ぐんび}",
+      "label": "armaments"
     }
   ],
   "metadata": {
     "created": "2026-02-24T06:44:51Z",
-    "modified": "2026-03-29T10:42:23Z",
+    "modified": "2026-09-02T04:01:32Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

@@ -2,7 +2,7 @@
   "id": "11405_shusai",
   "headword": "{主催|しゅさい}",
   "reading": "しゅさい",
-  "part_of_speech": "noun / suru verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "hosting, sponsoring (an event)",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "11405_shusai_ex1",
-      "japanese": "{市|し}が{主催|しゅさい}するイベントだ。",
+      "japanese": "⟦{市|し}→市：01599_shi⟧⟦が→が：00051_ga⟧{主催|しゅさい}⟦する→する：00392_suru⟧⟦イベント→イベント：09594_ibento⟧だ。",
       "english": "It's an event hosted by the city.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "11405_shusai_ex2",
-      "japanese": "NPOが{主催|しゅさい}したチャリティーコンサートに{参加|さんか}した。",
+      "japanese": "NPO⟦が→が：00051_ga⟧{主催|しゅさい}⟦した→する：00392_suru⟧チャリティー⟦コンサート→コンサート：01360_konsaato⟧⟦に→に：00314_ni⟧⟦{参加|さんか}した→参加する：25408_sankasuru⟧。",
       "english": "I attended a charity concert organized by an NPO.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "11405_shusai_ex3",
-      "japanese": "{大学|だいがく}が{主催|しゅさい}する{国際|こくさい}シンポジウムが{来月|らいげつ}{開催|かいさい}される{予定|よてい}だ。",
+      "japanese": "⟦{大学|だいがく}→大学：00608_daigaku⟧⟦が→が：00051_ga⟧{主催|しゅさい}⟦する→する：00392_suru⟧⟦{国際|こくさい}→国際：01406_kokusai⟧シンポジウム⟦が→が：00051_ga⟧⟦{来月|らいげつ}→来月：00744_raigetsu⟧⟦{開催|かいさい}される→開催する：10441_kaisaisuru⟧⟦{予定|よてい}→予定：00824_yotei⟧だ。",
       "english": "An international symposium hosted by the university is scheduled to be held next month.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,26 @@
       ]
     }
   ],
-  "notes": "{主催|しゅさい} means to host, sponsor, or organize an event. It emphasizes the role of being the primary organizer who plans and runs the event, not merely a participant or attendee.\n\nCOMMON COLLOCATIONS:\n- {主催|しゅさい}する: to host/organize\n- {主催|しゅさい}{者|しゃ}: organizer, host (person)\n- {主催|しゅさい}{団体|だんたい}: organizing body/group\n- {主催|しゅさい}{側|がわ}: the hosting side\n\nPATTERN:\nThe organizer is marked with が: 「Xが{主催|しゅさい}するY」 means \"Y hosted by X.\" The event can also appear as a direct object: 「Xが{大会|たいかい}を{主催|しゅさい}する」.\n\nSIMILAR WORDS:\n- {開催|かいさい}: holding/staging an event (focuses on the event taking place, not who organized it)\n- {主催|しゅさい}: hosting/organizing (focuses on the organizer's role)",
-  "cross_references": [],
+  "notes": "{主催|しゅさい} means to host, sponsor, or organize an event. It emphasizes the role of being the primary organizer who plans and runs the event, not merely a participant or attendee.\n\nCOMMON COLLOCATIONS:\n- {主催|しゅさい}⟦する→する：00392_suru⟧: to host/organize\n- {主催|しゅさい}{者|しゃ}: organizer, host (person)\n- {主催|しゅさい}⟦{団体|だんたい}→団体：03426_dantai⟧: organizing body/group\n- {主催|しゅさい}⟦{側|がわ}→〜側：03090_gawa⟧: the hosting side\n\nCOMMON PATTERNS:\nThe organizer is marked with が: 「X⟦が→が：00051_ga⟧{主催|しゅさい}⟦する→する：00392_suru⟧Y」 means \"Y hosted by X.\" The event can also appear as a direct object: 「X⟦が→が：00051_ga⟧⟦{大会|たいかい}→大会：03386_taikai⟧⟦を→を：00422_wo⟧{主催|しゅさい}⟦する→する：00392_suru⟧」.\n\nSIMILAR WORDS:\n- ⟦{開催|かいさい}→開催：10457_kaisai⟧: holding/staging an event (focuses on the event taking place, not who organized it)\n- {主催|しゅさい}: hosting/organizing (focuses on the organizer's role)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "10457_kaisai",
+      "reading": "かいさい",
+      "headword": "{開催|かいさい}",
+      "label": "holding/staging an event"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18790_kyousai",
+      "reading": "きょうさい",
+      "headword": "{共催|きょうさい}",
+      "label": "co-hosting"
+    }
+  ],
   "metadata": {
     "created": "2026-02-16T07:35:11Z",
-    "modified": "2026-06-30T18:44:39Z",
+    "modified": "2026-09-02T04:01:25Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

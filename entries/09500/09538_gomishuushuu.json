@@ -14,27 +14,33 @@
   "examples": [
     {
       "id": "09538_gomishuushuu_ex1",
-      "japanese": "ごみ{収集|しゅうしゅう}は{朝|あさ}{八時|はちじ}までです。",
+      "japanese": "ごみ{収集|しゅうしゅう}⟦は→は：00079_ha⟧⟦{朝|あさ}→朝：02277_asa⟧{八時|はちじ}⟦まで→まで：00490_made⟧です。",
       "english": "Garbage collection is by 8 AM.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09538_gomishuushuu_ex2",
-      "japanese": "{明日|あした}はごみ{収集|しゅうしゅう}の{日|ひ}だ。",
+      "japanese": "⟦{明日|あした}→明日：00501_ashita⟧⟦は→は：00079_ha⟧ごみ{収集|しゅうしゅう}⟦の→の：09472_no⟧⟦{日|ひ}→日：02249_hi⟧だ。",
       "english": "Tomorrow is garbage collection day.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09538_gomishuushuu_ex3",
-      "japanese": "{祝日|しゅくじつ}はごみ{収集|しゅうしゅう}がないので、{次|つぎ}の{収集|しゅうしゅう}{日|び}に{出|だ}してください。",
+      "japanese": "⟦{祝日|しゅくじつ}→祝日：07588_shukujitsu⟧⟦は→は：00079_ha⟧ごみ{収集|しゅうしゅう}⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧⟦の→の：09472_no⟧で、⟦{次|つぎ}→次：00819_tsugi⟧⟦の→の：09472_no⟧⟦{収集|しゅうしゅう}{日|び}→収集日：17710_shuushuubi⟧⟦に→に：00314_ni⟧⟦{出|だ}して→出す：01087_dasu⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "There is no garbage collection on holidays, so please put it out on the next collection day.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "COMMON COLLOCATIONS:\n- ごみ{収集|しゅうしゅう}{日|び}: garbage collection day\n- ごみ{収集|しゅうしゅう}{車|しゃ}: garbage truck\n- ごみ{収集|しゅうしゅう}{場所|ばしょ}: garbage collection point\n\nUSAGE NOTE:\nGarbage must be put out before the scheduled collection time, usually early morning. Each type of waste has different collection days.\n\nRELATED:\n- {回収|かいしゅう}: collection, pickup\n- ごみ{置|お}き{場|ば}: garbage collection area",
+  "notes": "COMMON COLLOCATIONS:\n- ごみ{収集|しゅうしゅう}{日|び}: garbage collection day\n- ごみ{収集|しゅうしゅう}⟦{車|しゃ}→車：09874_sha⟧: garbage truck\n- ごみ{収集|しゅうしゅう}⟦{場所|ばしょ}→場所：00829_basho⟧: garbage collection point\n\nUSAGE:\nGarbage must be put out before the scheduled collection time, usually early morning. Each type of waste has different collection days.\n\nRELATED WORDS:\n- ⟦{回収|かいしゅう}→回収：03019_kaishuu⟧: collection, pickup\n- ⟦ごみ→ゴミ：00840_gomi⟧⟦{置|お}き{場|ば}→置き場：22477_okiba⟧: garbage collection area",
   "cross_references": [
     {
       "type": "related",
@@ -49,18 +55,36 @@
       "reading": "しげんごみ",
       "headword": "{資源|しげん}ごみ",
       "label": "recyclable waste"
+    },
+    {
+      "type": "related",
+      "target_id": "03019_kaishuu",
+      "reading": "かいしゅう",
+      "headword": "{回収|かいしゅう}",
+      "label": "collection, pickup"
+    },
+    {
+      "type": "related",
+      "target_id": "22230_gomibukuro",
+      "reading": "ごみぶくろ",
+      "headword": "ごみ{袋|ぶくろ}",
+      "label": "trash bag"
     }
   ],
   "metadata": {
     "created": "2026-02-02T10:39:21Z",
-    "modified": "2026-04-23T05:18:28Z",
+    "modified": "2026-09-02T04:01:18Z",
     "ai_model": "claude-opus-4-5-20251101",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["work"]
+      "semantic": [
+        "work"
+      ]
     }
   }
 }

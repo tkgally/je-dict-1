@@ -14,34 +14,62 @@
   "examples": [
     {
       "id": "25201_sandaime_ex1",
-      "japanese": "{彼|かれ}はこの{店|みせ}の{三代目|さんだいめ}だ。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦この→この：00962_kono⟧⟦{店|みせ}→店：00497_mise⟧⟦の→の：09472_no⟧{三代目|さんだいめ}だ。",
       "english": "He is the third-generation owner of this shop.",
       "has_audio": false,
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "notes": null
     },
     {
       "id": "25201_sandaime_ex2",
-      "japanese": "{三代目|さんだいめ}の{社長|しゃちょう}が{会社|かいしゃ}を{大|おお}きくした。",
+      "japanese": "{三代目|さんだいめ}⟦の→の：09472_no⟧⟦{社長|しゃちょう}→社長：01428_shachou⟧⟦が→が：00051_ga⟧⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦を→を：00422_wo⟧⟦{大|おお}きく→大きい：00335_ookii⟧⟦した→する：00392_suru⟧。",
       "english": "The third-generation president grew the company.",
       "has_audio": false,
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "notes": null
     },
     {
       "id": "25201_sandaime_ex3",
-      "japanese": "この{蕎麦屋|そばや}は{三代目|さんだいめ}が{伝統|でんとう}の{味|あじ}を{守|まも}り{続|つづ}けている。",
+      "japanese": "⟦この→この：00962_kono⟧{蕎麦屋|そばや}⟦は→は：00079_ha⟧{三代目|さんだいめ}⟦が→が：00051_ga⟧⟦{伝統|でんとう}→伝統：09585_dentou⟧⟦の→の：09472_no⟧⟦{味|あじ}→味：00826_aji⟧⟦を→を：00422_wo⟧⟦{守|まも}り→守る：01986_mamoru⟧⟦{続|つづ}け→続く：00903_tsuzuku⟧て⟦いる→いる：00495_iru⟧。",
       "english": "At this soba restaurant, the third-generation owner continues to preserve the traditional flavor.",
       "has_audio": false,
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "notes": null
     }
   ],
-  "notes": "Composed of {三|さん} (three) + {代目|だいめ} (ordinal suffix for generations or successions). Commonly used for family businesses, traditional arts, and performing arts lineages in Japan.\n\nCULTURAL NOTE:\nIn Japanese business culture, multi-generational family businesses are highly respected. There is a well-known saying: {売|う}り{家|いえ}と{唐様|からよう}で{書|か}く{三代目|さんだいめ} — roughly meaning the third generation squanders the family fortune. This reflects the common concern about generational decline.\n\nCOMMON COLLOCATIONS:\n- {三代目|さんだいめ}の{店主|てんしゅ}: third-generation shop owner\n- {三代目|さんだいめ}を{継|つ}ぐ: to succeed as the third generation\n- {三代目|さんだいめ}{当主|とうしゅ}: third-generation head of a family\n\nRELATED TERMS:\n- {初代|しょだい}: first generation, founder\n- {二代目|にだいめ}: second generation\n- {四代目|よだいめ}: fourth generation\n- {老舗|しにせ}: long-established shop",
-  "cross_references": [],
+  "notes": "Composed of ⟦{三|さん}→三：00749_san⟧ (three) + {代目|だいめ} (ordinal suffix for generations or successions). Commonly used for family businesses, traditional arts, and performing arts lineages in Japan.\n\nCULTURAL NOTE:\nIn Japanese business culture, multi-generational family businesses are highly respected. There is a well-known saying: {売|う}り{家|いえ}⟦と→と：00512_to⟧{唐様|からよう}⟦で→で：00502_de⟧⟦{書|か}く→書く：00477_kaku⟧{三代目|さんだいめ} — roughly meaning the third generation squanders the family fortune. This reflects the common concern about generational decline.\n\nCOMMON COLLOCATIONS:\n- {三代目|さんだいめ}⟦の→の：09472_no⟧⟦{店主|てんしゅ}→店主：12451_tenshu⟧: third-generation shop owner\n- {三代目|さんだいめ}⟦を→を：00422_wo⟧⟦{継|つ}ぐ→継ぐ：02292_tsugu⟧: to succeed as the third generation\n- {三代目|さんだいめ}⟦{当主|とうしゅ}→当主：12765_toushu⟧: third-generation head of a family\n\nRELATED WORDS:\n- ⟦{初代|しょだい}→初代：11778_shodai⟧: first generation, founder\n- ⟦{二代目|にだいめ}→二代目：15809_nidaime⟧: second generation\n- {四代目|よだいめ}: fourth generation\n- ⟦{老舗|しにせ}→老舗：16152_shinise⟧: long-established shop",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "11778_shodai",
+      "reading": "しょだい",
+      "headword": "{初代|しょだい}",
+      "label": "first generation, founder"
+    },
+    {
+      "type": "related",
+      "target_id": "15809_nidaime",
+      "reading": "にだいめ",
+      "headword": "{二代目|にだいめ}",
+      "label": "second generation"
+    },
+    {
+      "type": "related",
+      "target_id": "16152_shinise",
+      "reading": "しにせ",
+      "headword": "{老舗|しにせ}",
+      "label": "long-established shop"
+    }
+  ],
   "metadata": {
     "created": "2026-04-23T14:40:37Z",
-    "modified": "2026-04-23T14:40:37Z",
+    "modified": "2026-09-02T04:02:21Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",

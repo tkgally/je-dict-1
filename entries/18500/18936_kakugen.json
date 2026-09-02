@@ -15,40 +15,80 @@
   "examples": [
     {
       "id": "18936_kakugen_ex1",
-      "japanese": "これは{有名|ゆうめい}な{格言|かくげん}だ。",
+      "japanese": "⟦これ→これ：00963_kore⟧⟦は→は：00079_ha⟧⟦{有名|ゆうめい}→有名：01106_yuumei⟧な{格言|かくげん}だ。",
       "english": "This is a famous maxim.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "18936_kakugen_ex2",
-      "japanese": "{祖父|そふ}はよく{格言|かくげん}を{引用|いんよう}して{話|はな}した。",
+      "japanese": "⟦{祖父|そふ}→祖父：01452_sofu⟧⟦は→は：00079_ha⟧⟦よく→よく：00601_yoku⟧{格言|かくげん}⟦を→を：00422_wo⟧⟦{引用|いんよう}して→引用する：26928_inyousuru⟧⟦{話|はな}した→話す：00467_hanasu⟧。",
       "english": "My grandfather often spoke by quoting proverbs.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "18936_kakugen_ex3",
-      "japanese": "「{時|とき}は{金|かね}なり」という{格言|かくげん}は{世界中|せかいじゅう}で{知|し}られている。",
+      "japanese": "「{時|とき}⟦は→は：00079_ha⟧⟦{金|かね}→金：02618_kane⟧なり」⟦という→という：09577_toiu⟧{格言|かくげん}⟦は→は：00079_ha⟧⟦{世界中|せかいじゅう}→世界中：10171_sekaijuu⟧⟦で→で：00502_de⟧⟦{知|し}られている→知る：00458_shiru⟧。",
       "english": "The maxim 'time is money' is known throughout the world.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Distinguished from related words: {諺|ことわざ} (proverb) refers to folk sayings passed down through generations, while {格言|かくげん} tends to refer to more literary or attributed sayings. {名言|めいげん} (famous saying) emphasizes that the quote is well-known and often attributed to a specific person. Common collocations include {格言|かくげん}を{引用|いんよう}する (to quote an aphorism) and {格言|かくげん}{集|しゅう} (collection of maxims).",
+  "notes": "Distinguished from related words: ⟦{諺|ことわざ}→諺：02765_kotowaza⟧ (proverb) refers to folk sayings passed down through generations, while {格言|かくげん} tends to refer to more literary or attributed sayings. ⟦{名言|めいげん}→名言：20185_meigen⟧ (famous saying) emphasizes that the quote is well-known and often attributed to a specific person. Common collocations include {格言|かくげん}⟦を→を：00422_wo⟧⟦{引用|いんよう}する→引用する：26928_inyousuru⟧ (to quote an aphorism) and {格言|かくげん}{集|しゅう} (collection of maxims).",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02765_kotowaza",
+      "reading": "ことわざ",
+      "headword": "{諺|ことわざ}",
+      "label": "proverb, saying, maxim"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20185_meigen",
+      "reading": "めいげん",
+      "headword": "{名言|めいげん}",
+      "label": "famous saying"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20974_kingen",
+      "reading": "きんげん",
+      "headword": "{金言|きんげん}",
+      "label": "wise saying"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22461_keiku",
+      "reading": "けいく",
+      "headword": "{警句|けいく}",
+      "label": "epigram"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["language"]
+      "semantic": [
+        "language"
+      ]
     },
     "created": "2026-03-23T10:15:39Z",
-    "modified": "2026-03-23T10:15:39Z"
+    "modified": "2026-09-02T04:01:54Z"
   }
 }

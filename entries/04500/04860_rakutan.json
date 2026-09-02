@@ -2,7 +2,7 @@
   "id": "04860_rakutan",
   "headword": "{落胆|らくたん}",
   "reading": "らくたん",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "disappointment, dejection",
   "conjugation": {
     "type": "suru",
@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "04860_rakutan_ex1",
-      "japanese": "⟦{結果|けっか}→結果：02486_kekka⟧⟦に→に：00314_ni⟧{落胆|らくたん}した。",
+      "japanese": "⟦{結果|けっか}→結果：02486_kekka⟧⟦に→に：00314_ni⟧{落胆|らくたん}⟦した→する：00392_suru⟧。",
       "english": "I was disappointed by the results.",
       "has_audio": false,
       "sense_numbers": [
@@ -122,7 +122,7 @@
     },
     {
       "id": "04860_rakutan_ex3",
-      "japanese": "{落胆|らくたん}している⟦{場合|ばあい}→場合：01704_baai⟧⟦では→では：02945_deha⟧⟦ない→ない：01118_nai⟧。",
+      "japanese": "{落胆|らくたん}⟦している→する：00392_suru⟧⟦{場合|ばあい}→場合：01704_baai⟧⟦では→では：02945_deha⟧⟦ない→ない：01118_nai⟧。",
       "english": "This is not the time to be dejected.",
       "has_audio": false,
       "sense_numbers": [
@@ -130,7 +130,7 @@
       ]
     }
   ],
-  "notes": "{落胆|らくたん} expresses disappointment or discouragement, typically at a deeper level than casual disappointment.\n\nWORD FORMATION:\n{落|らく} (fall) + {胆|たん} (courage/spirit) — literally \"one's spirit falls\"\n\nCOMMON PATTERNS:\n- 〜⟦に→に：00314_ni⟧{落胆|らくたん}する: to be disappointed by ~\n- {落胆|らくたん}⟦を→を：00422_wo⟧⟦{隠|かく}せない→隠す：02034_kakusu⟧: unable to hide disappointment\n- {落胆|らくたん}している⟦{場合|ばあい}→場合：01704_baai⟧⟦では→では：02945_deha⟧⟦ない→ない：01118_nai⟧: no time to be dejected\n\nREGISTER:\nMore formal and literary than がっかり. Common in news reports, written language, and formal speech.\n\nSIMILAR WORDS:\n- ⟦がっかり→がっかり：00054_gakkari⟧: disappointed (casual, everyday)\n- ⟦{失望|しつぼう}→失望：03183_shitsubou⟧: disappointment (also formal)",
+  "notes": "{落胆|らくたん} expresses disappointment or discouragement, typically at a deeper level than casual disappointment.\n\nFORMS:\n{落|らく} (fall) + {胆|たん} (courage/spirit) — literally \"one's spirit falls\"\n\nCOMMON PATTERNS:\n- 〜⟦に→に：00314_ni⟧{落胆|らくたん}⟦する→する：00392_suru⟧: to be disappointed by ~\n- {落胆|らくたん}⟦を→を：00422_wo⟧⟦{隠|かく}せない→隠す：02034_kakusu⟧: unable to hide disappointment\n- {落胆|らくたん}⟦している→する：00392_suru⟧⟦{場合|ばあい}→場合：01704_baai⟧⟦では→では：02945_deha⟧⟦ない→ない：01118_nai⟧: no time to be dejected\n\nREGISTER:\nMore formal and literary than ⟦がっかり→がっかり：00054_gakkari⟧. Common in news reports, written language, and formal speech.\n\nSIMILAR WORDS:\n- ⟦がっかり→がっかり：00054_gakkari⟧: disappointed (casual, everyday)\n- ⟦{失望|しつぼう}→失望：03183_shitsubou⟧: disappointment (also formal)",
   "cross_references": [
     {
       "type": "synonym",
@@ -145,11 +145,25 @@
       "reading": "しつぼう",
       "headword": "{失望|しつぼう}",
       "label": "disappointment (formal)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20774_shitsui",
+      "reading": "しつい",
+      "headword": "{失意|しつい}",
+      "label": "disappointment"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23139_kitaihazure",
+      "reading": "きたいはずれ",
+      "headword": "{期待外|きたいはず}れ",
+      "label": "disappointment"
     }
   ],
   "metadata": {
     "created": "2026-01-15T23:59:03Z",
-    "modified": "2026-06-02T20:10:05Z",
+    "modified": "2026-09-02T04:01:05Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

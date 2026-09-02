@@ -3,7 +3,7 @@
   "headword": "{断念|だんねん}",
   "reading": "だんねん",
   "romaji": "dannen",
-  "part_of_speech": "noun / する verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "giving up; abandoning (a plan or hope)",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "18938_dannen_ex1",
-      "japanese": "{留学|りゅうがく}を{断念|だんねん}した。",
+      "japanese": "⟦{留学|りゅうがく}→留学：03677_ryuugaku⟧⟦を→を：00422_wo⟧{断念|だんねん}⟦した→する：00392_suru⟧。",
       "english": "I gave up on studying abroad.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "18938_dannen_ex2",
-      "japanese": "{資金不足|しきんぶそく}で{計画|けいかく}を{断念|だんねん}せざるを{得|え}なかった。",
+      "japanese": "{資金不足|しきんぶそく}⟦で→で：00502_de⟧⟦{計画|けいかく}→計画：01172_keikaku⟧⟦を→を：00422_wo⟧{断念|だんねん}⟦せざる→する：00392_suru⟧⟦を→を：00422_wo⟧⟦{得|え}なかった→得る：02014_eru⟧。",
       "english": "Due to lack of funds, we had no choice but to abandon the plan.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "18938_dannen_ex3",
-      "japanese": "{怪我|けが}のせいでオリンピック{出場|しゅつじょう}を{断念|だんねん}した{選手|せんしゅ}も{少|すく}なくない。",
+      "japanese": "{怪我|けが}⟦の→の：09472_no⟧せい⟦で→で：00502_de⟧⟦オリンピック→オリンピック：09899_orinpikku⟧⟦{出場|しゅつじょう}→出場：03223_shutsujou⟧⟦を→を：00422_wo⟧{断念|だんねん}⟦した→する：00392_suru⟧⟦{選手|せんしゅ}→選手：03823_senshu⟧⟦も→も：00484_mo⟧⟦{少|すく}なくない→少ない：01136_sukunai⟧。",
       "english": "There are quite a few athletes who had to give up competing in the Olympics due to injury.",
       "sense_numbers": [
         1
@@ -134,7 +134,7 @@
       "notes": null
     }
   ],
-  "notes": "{断念|だんねん} means to reluctantly give up on a plan, goal, or hope. It implies a deliberate decision after considerable thought or effort.\n\nWORD FORMATION:\n{断|だん} (cut, sever) + {念|ねん} (thought, wish)\n\nCOMMON PATTERNS:\n- 〜を{断念|だんねん}する: to give up on ~\n- {断念|だんねん}せざるを{得|え}ない: to have no choice but to give up\n- {断念|だんねん}に{追|お}い{込|こ}まれる: to be forced to give up\n\nSIMILAR WORDS:\n- {諦|あきら}める: to give up, resign oneself (more general, less formal)\n- {断念|だんねん}する: to abandon a plan (formal, for significant decisions)\n\n{断念|だんねん} is typically used for weighty matters — career plans, life goals, projects. {諦|あきら}める is broader and works for both trivial and serious situations.\n\nREGISTER:\nFormal. Common in news and written Japanese.",
+  "notes": "{断念|だんねん} means to reluctantly give up on a plan, goal, or hope. It implies a deliberate decision after considerable thought or effort.\n\nFORMS:\n{断|だん} (cut, sever) + ⟦{念|ねん}→念：12766_nen⟧ (thought, wish)\n\nCOMMON PATTERNS:\n- 〜⟦を→を：00422_wo⟧{断念|だんねん}⟦する→する：00392_suru⟧: to give up on ~\n- {断念|だんねん}⟦せざる→する：00392_suru⟧⟦を→を：00422_wo⟧⟦{得|え}ない→得る：02014_eru⟧: to have no choice but to give up\n- {断念|だんねん}⟦に→に：00314_ni⟧⟦{追|お}い{込|こ}まれる→追い込む：06371_oikomu⟧: to be forced to give up\n\nSIMILAR WORDS:\n- ⟦{諦|あきら}める→諦める：01813_akirameru⟧: to give up, resign oneself (more general, less formal)\n- {断念|だんねん}⟦する→する：00392_suru⟧: to abandon a plan (formal, for significant decisions)\n\n{断念|だんねん} is typically used for weighty matters — career plans, life goals, projects. ⟦{諦|あきら}める→諦める：01813_akirameru⟧ is broader and works for both trivial and serious situations.\n\nREGISTER:\nFormal. Common in news and written Japanese.",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -148,10 +148,11 @@
       "semantic": [
         "cognition"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-03-23T10:16:11Z",
-    "modified": "2026-07-26T09:39:42Z"
+    "modified": "2026-09-02T04:01:54Z"
   },
   "cross_references": [
     {
@@ -160,6 +161,13 @@
       "reading": "あきらめ",
       "headword": "{諦|あきら}め",
       "label": "resignation, giving up"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01813_akirameru",
+      "reading": "あきらめる",
+      "headword": "{諦|あきら}める",
+      "label": "to give up, resign oneself"
     }
   ]
 }

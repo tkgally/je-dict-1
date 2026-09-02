@@ -15,41 +15,69 @@
   "examples": [
     {
       "id": "29445_kouyuuchi_ex1",
-      "japanese": "ここは{公有地|こうゆうち}だ。",
+      "japanese": "⟦ここ→ここ：00961_koko⟧⟦は→は：00079_ha⟧{公有地|こうゆうち}だ。",
       "english": "This is public land.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29445_kouyuuchi_ex2",
-      "japanese": "{公有地|こうゆうち}に{建物|たてもの}を{建|た}てる。",
+      "japanese": "{公有地|こうゆうち}⟦に→に：00314_ni⟧⟦{建物|たてもの}→建物：01458_tatemono⟧⟦を→を：00422_wo⟧⟦{建|た}てる→建てる：01189_tateru⟧。",
       "english": "to put up a building on public land.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29445_kouyuuchi_ex3",
-      "japanese": "{市|し}は{公有地|こうゆうち}の{一部|いちぶ}を{公園|こうえん}として{整備|せいび}した。",
+      "japanese": "⟦{市|し}→市：01599_shi⟧⟦は→は：00079_ha⟧{公有地|こうゆうち}⟦の→の：09472_no⟧⟦{一部|いちぶ}→一部：06783_ichibu⟧⟦を→を：00422_wo⟧⟦{公園|こうえん}→公園：00581_kouen⟧⟦として→として：06802_toshite⟧⟦{整備|せいび}した→整備する：17849_seibisuru⟧。",
       "english": "The city developed part of the public land into a park.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Used in administrative, legal, and urban-planning contexts for land held by the public sector.\n\nCOMMON COLLOCATIONS:\n- {公有地|こうゆうち}の{管理|かんり}: management of public land\n- {公有地|こうゆうち}を{売却|ばいきゃく}する: to sell off public land\n- {公有地|こうゆうち}の{有効|ゆうこう}{利用|りよう}: effective use of public land\n\nSIMILAR WORDS:\n- {私有地|しゆうち}: privately owned land — the direct antonym\n- {国有地|こくゆうち}: state-owned land — owned specifically by the national government",
+  "notes": "Used in administrative, legal, and urban-planning contexts for land held by the public sector.\n\nCOMMON COLLOCATIONS:\n- {公有地|こうゆうち}⟦の→の：09472_no⟧⟦{管理|かんり}→管理：00178_kanri⟧: management of public land\n- {公有地|こうゆうち}⟦を→を：00422_wo⟧⟦{売却|ばいきゃく}→売却：12123_baikyaku⟧⟦する→する：00392_suru⟧: to sell off public land\n- {公有地|こうゆうち}⟦の→の：09472_no⟧⟦{有効|ゆうこう}→有効：03645_yuukou⟧⟦{利用|りよう}→利用：01752_riyou⟧: effective use of public land\n\nSIMILAR WORDS:\n- ⟦{私有地|しゆうち}→私有地：22702_shiyuuchi⟧: privately owned land — the direct antonym\n- ⟦{国有地|こくゆうち}→国有地：29463_kokuyuuchi⟧: state-owned land — owned specifically by the national government",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "22702_shiyuuchi",
+      "reading": "しゆうち",
+      "headword": "{私有地|しゆうち}",
+      "label": "privately owned land"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29463_kokuyuuchi",
+      "reading": "こくゆうち",
+      "headword": "{国有地|こくゆうち}",
+      "label": "state-owned land"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["society"],
-      "domain": ["legal"]
+      "politeness": "plain",
+      "semantic": [
+        "society"
+      ],
+      "domain": [
+        "legal"
+      ]
     },
     "created": "2026-06-24T00:19:16Z",
-    "modified": "2026-06-24T00:19:16Z"
+    "modified": "2026-09-02T04:02:37Z"
   }
 }

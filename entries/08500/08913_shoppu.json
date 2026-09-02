@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08913_shoppu_ex1",
-      "japanese": "{新|あたら}しいショップがオープンした。",
+      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧ショップ⟦が→が：00051_ga⟧⟦オープン→オープン：10831_oopun⟧⟦した→する：00392_suru⟧。",
       "english": "A new shop opened.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "08913_shoppu_ex2",
-      "japanese": "セレクトショップで{服|ふく}を{買|か}う。",
+      "japanese": "セレクトショップ⟦で→で：00502_de⟧⟦{服|ふく}→服：00695_fuku⟧⟦を→を：00422_wo⟧⟦{買|か}う→買う：00489_kau⟧。",
       "english": "I buy clothes at a select shop.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "08913_shoppu_ex3",
-      "japanese": "オンラインショップで{注文|ちゅうもん}できる。",
+      "japanese": "⟦オンライン→オンライン：05278_onrain⟧ショップ⟦で→で：00502_de⟧⟦{注文|ちゅうもん}できる→注文する：21390_chuumon⟧。",
       "english": "You can order from the online shop.",
       "notes": null,
       "has_audio": false,
@@ -43,11 +43,47 @@
       ]
     }
   ],
-  "notes": "ショップ is commonly used in compound words to describe specialized stores.\n\nCOMMON COMPOUNDS:\n- オンラインショップ/ネットショップ: online shop\n- セレクトショップ: select shop (curated boutique)\n- コーヒーショップ: coffee shop\n- {携帯|けいたい}ショップ: mobile phone shop\n- ペットショップ: pet shop\n- ギフトショップ: gift shop\n- {免税|めんぜい}ショップ: duty-free shop\n\nDISTINCTION FROM SIMILAR WORDS:\n- {店|みせ}: general word for shop/store\n- ストア: store (often larger retail)\n- {店舗|てんぽ}: shop, store (more formal)\n- {販売店|はんばいてん}: retail store",
-  "cross_references": [],
+  "notes": "ショップ is commonly used in compound words to describe specialized stores.\n\nCOMPOUNDS:\n- ⟦オンライン→オンライン：05278_onrain⟧ショップ/ネットショップ: online shop\n- セレクトショップ: select shop (curated boutique)\n- コーヒーショップ: coffee shop\n- ⟦{携帯|けいたい}→携帯：00715_keitai⟧ショップ: mobile phone shop\n- ⟦ペット→ペット：02959_petto⟧ショップ: pet shop\n- ギフトショップ: gift shop\n- ⟦{免税|めんぜい}→免税：09706_menzei⟧ショップ: duty-free shop\n\nDISTINCTION FROM SIMILAR WORDS:\n- ⟦{店|みせ}→店：00497_mise⟧: general word for shop/store\n- ストア: store (often larger retail)\n- ⟦{店舗|てんぽ}→店舗：12481_tenpo⟧: shop, store (more formal)\n- ⟦{販売店|はんばいてん}→販売店：20898_hanbaiten⟧: retail store",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00497_mise",
+      "reading": "みせ",
+      "headword": "{店|みせ}",
+      "label": "general word for shop/store"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12481_tenpo",
+      "reading": "てんぽ",
+      "headword": "{店舗|てんぽ}",
+      "label": "shop, store"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20898_hanbaiten",
+      "reading": "はんばいてん",
+      "headword": "{販売店|はんばいてん}",
+      "label": "retail store"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08986_miseya",
+      "reading": "みせや",
+      "headword": "{店屋|みせや}",
+      "label": "store"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21164_omise",
+      "reading": "おみせ",
+      "headword": "お{店|みせ}",
+      "label": "shop"
+    }
+  ],
   "metadata": {
     "created": "2026-01-29T03:37:14Z",
-    "modified": "2026-08-12T21:25:53Z",
+    "modified": "2026-09-02T04:01:16Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

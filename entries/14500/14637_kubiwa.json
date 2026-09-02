@@ -15,41 +15,66 @@
   "examples": [
     {
       "id": "14637_kubiwa_ex1",
-      "japanese": "{犬|いぬ}に{首輪|くびわ}をつけた。",
+      "japanese": "⟦{犬|いぬ}→犬：00632_inu⟧⟦に→に：00314_ni⟧{首輪|くびわ}⟦を→を：00422_wo⟧⟦つけた→つける：00562_tsukeru⟧。",
       "english": "I put a collar on the dog.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14637_kubiwa_ex2",
-      "japanese": "{赤|あか}い{首輪|くびわ}をした{猫|ねこ}を{見|み}かけた。",
+      "japanese": "⟦{赤|あか}い→赤い：00585_akai⟧{首輪|くびわ}⟦を→を：00422_wo⟧⟦した→する：00392_suru⟧⟦{猫|ねこ}→猫：02237_neko⟧⟦を→を：00422_wo⟧⟦{見|み}かけた→見かける：01644_mikakeru⟧。",
       "english": "I spotted a cat wearing a red collar.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14637_kubiwa_ex3",
-      "japanese": "{首輪|くびわ}に{名前|なまえ}と{電話番号|でんわばんごう}が{書|か}いてあったので、{飼|か}い{主|ぬし}に{連絡|れんらく}できた。",
+      "japanese": "{首輪|くびわ}⟦に→に：00314_ni⟧⟦{名前|なまえ}→名前：02234_namae⟧⟦と→と：00512_to⟧⟦{電話番号|でんわばんごう}→電話番号：10159_denwabangou⟧⟦が→が：00051_ga⟧⟦{書|か}いてあった→書く：00477_kaku⟧⟦の→の：09472_no⟧で、⟦{飼|か}い{主|ぬし}→飼い主：15281_kainushi⟧⟦に→に：00314_ni⟧⟦{連絡|れんらく}→連絡：01524_renraku⟧⟦できた→できる：00557_dekiru⟧。",
       "english": "The collar had a name and phone number on it, so I was able to contact the owner.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "Compound of {首|くび} (neck) + {輪|わ} (ring/band). Refers almost exclusively to animal collars in modern Japanese.\n\nCOMMON COLLOCATIONS:\n- {首輪|くびわ}をつける: to put on a collar\n- {首輪|くびわ}を{外|はず}す: to take off a collar\n- {首輪|くびわ}をした{犬|いぬ}: a dog wearing a collar\n- {首輪|くびわ}に{名札|なふだ}をつける: to attach a name tag to a collar\n\nCONTRAST:\n- ネックレス: necklace (for people — jewelry)\n- リード/{引|ひ}き{綱|づな}: leash (often attached to the {首輪|くびわ})\n- ハーネス: harness (alternative to collar for dogs)\n\nNOTE:\nIn modern Japanese, {首輪|くびわ} is not used for human jewelry. Saying someone has a {首輪|くびわ} metaphorically implies being controlled or restrained.",
-  "cross_references": [],
+  "notes": "Compound of ⟦{首|くび}→首：00792_kubi⟧ (neck) + ⟦{輪|わ}→輪：02142_wa⟧ (ring/band). Refers almost exclusively to animal collars in modern Japanese.\n\nCOMMON COLLOCATIONS:\n- {首輪|くびわ}⟦を→を：00422_wo⟧⟦つける→つける：00562_tsukeru⟧: to put on a collar\n- {首輪|くびわ}⟦を→を：00422_wo⟧⟦{外|はず}す→外す：02394_hazusu⟧: to take off a collar\n- {首輪|くびわ}⟦を→を：00422_wo⟧⟦した→する：00392_suru⟧⟦{犬|いぬ}→犬：00632_inu⟧: a dog wearing a collar\n- {首輪|くびわ}⟦に→に：00314_ni⟧⟦{名札|なふだ}→名札：12338_nafuda⟧⟦を→を：00422_wo⟧⟦つける→つける：00562_tsukeru⟧: to attach a name tag to a collar\n\nSIMILAR WORDS:\n- ⟦ネックレス→ネックレス：04539_nekkuresu⟧: necklace (for people — jewelry)\n- ⟦リード→リード：11601_riido⟧/{引|ひ}き{綱|づな}: leash (often attached to the {首輪|くびわ})\n- ハーネス: harness (alternative to collar for dogs)\n\nUSAGE:\nIn modern Japanese, {首輪|くびわ} is not used for human jewelry. Saying someone has a {首輪|くびわ} metaphorically implies being controlled or restrained.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04539_nekkuresu",
+      "reading": "ねっくれす",
+      "headword": "ネックレス",
+      "label": "necklace (for people"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11601_riido",
+      "reading": "りーど",
+      "headword": "リード",
+      "label": "leash"
+    }
+  ],
   "metadata": {
     "created": "2026-03-02T09:30:09Z",
-    "modified": "2026-03-26T19:36:44Z",
+    "modified": "2026-09-02T04:01:38Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "12019_shouhyou_ex1",
-      "japanese": "{商標|しょうひょう}を{登録|とうろく}する。",
+      "japanese": "{商標|しょうひょう}⟦を→を：00422_wo⟧⟦{登録|とうろく}する→登録する：25227_tourokusuru⟧。",
       "english": "To register a trademark.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "12019_shouhyou_ex2",
-      "japanese": "この{名前|なまえ}は{登録|とうろく}{商標|しょうひょう}です。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{名前|なまえ}→名前：02234_namae⟧⟦は→は：00079_ha⟧{登録|とうろく}{商標|しょうひょう}です。",
       "english": "This name is a registered trademark.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "12019_shouhyou_ex3",
-      "japanese": "{商標|しょうひょう}{権|けん}の{侵害|しんがい}で{訴|うった}えられた{企業|きぎょう}が{和解金|わかいきん}を{支払|しはら}った。",
+      "japanese": "{商標|しょうひょう}{権|けん}⟦の→の：09472_no⟧⟦{侵害|しんがい}→侵害：11563_shingai⟧⟦で→で：00502_de⟧⟦{訴|うった}えられた→訴える：01891_uttaeru⟧⟦{企業|きぎょう}→企業：00225_kigyou⟧⟦が→が：00051_ga⟧{和解金|わかいきん}⟦を→を：00422_wo⟧⟦{支払|しはら}った→支払う：02116_shiharau⟧。",
       "english": "The company that was sued for trademark infringement paid a settlement.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,19 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA legal and business term. Commonly seen with {登録|とうろく} (registration) in the phrase {登録|とうろく}{商標|しょうひょう} (registered trademark, equivalent to the ® symbol). The symbol ™ is sometimes shown as TM in Japanese text.\n\nCOMMON COLLOCATIONS:\n- {登録|とうろく}{商標|しょうひょう}: registered trademark (®)\n- {商標|しょうひょう}{権|けん}: trademark rights\n- {商標|しょうひょう}{侵害|しんがい}: trademark infringement\n- {商標|しょうひょう}を{登録|とうろく}する: to register a trademark\n- {商標|しょうひょう}{法|ほう}: Trademark Act",
-  "cross_references": [],
+  "notes": "USAGE:\nA legal and business term. Commonly seen with ⟦{登録|とうろく}→登録：05703_touroku⟧ (registration) in the phrase {登録|とうろく}{商標|しょうひょう} (registered trademark, equivalent to the ® symbol). The symbol ™ is sometimes shown as TM in Japanese text.\n\nCOMMON COLLOCATIONS:\n- {登録|とうろく}{商標|しょうひょう}: registered trademark (®)\n- {商標|しょうひょう}{権|けん}: trademark rights\n- {商標|しょうひょう}⟦{侵害|しんがい}→侵害：11563_shingai⟧: trademark infringement\n- {商標|しょうひょう}⟦を→を：00422_wo⟧⟦{登録|とうろく}する→登録する：25227_tourokusuru⟧: to register a trademark\n- {商標|しょうひょう}{法|ほう}: Trademark Act",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19272_shougou",
+      "reading": "しょうごう",
+      "headword": "{商号|しょうごう}",
+      "label": "trade name"
+    }
+  ],
   "metadata": {
     "created": "2026-02-19T11:50:17Z",
-    "modified": "2026-02-19T11:50:17Z",
+    "modified": "2026-09-02T04:01:27Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

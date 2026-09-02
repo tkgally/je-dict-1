@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "18581_ruishou_ex1",
-      "japanese": "{隣家|りんか}の{火事|かじ}で{類焼|るいしょう}した。",
+      "japanese": "{隣家|りんか}⟦の→の：09472_no⟧⟦{火事|かじ}→火事：01283_kaji⟧⟦で→で：00502_de⟧{類焼|るいしょう}⟦した→する：00392_suru⟧。",
       "english": "Our house burned due to a fire spreading from the neighbor's.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "18581_ruishou_ex2",
-      "japanese": "{類焼|るいしょう}を{防|ふせ}ぐために{防火壁|ぼうかへき}がある。",
+      "japanese": "{類焼|るいしょう}⟦を→を：00422_wo⟧⟦{防|ふせ}ぐ→防ぐ：02409_fusegu⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧{防火壁|ぼうかへき}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There is a firewall to prevent the spread of fire from neighboring buildings.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "18581_ruishou_ex3",
-      "japanese": "{木造|もくぞう}{住宅|じゅうたく}が{密集|みっしゅう}する{地域|ちいき}では{類焼|るいしょう}の{危険|きけん}が{高|たか}い。",
+      "japanese": "⟦{木造|もくぞう}→木造：08328_mokuzou⟧⟦{住宅|じゅうたく}→住宅：03280_juutaku⟧⟦が→が：00051_ga⟧⟦{密集|みっしゅう}する→密集する：19630_misshuusuru⟧⟦{地域|ちいき}→地域：01461_chiiki⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧{類焼|るいしょう}⟦の→の：09472_no⟧⟦{危険|きけん}→危険：01141_kiken⟧⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧。",
       "english": "In areas densely packed with wooden houses, the risk of fire spreading between buildings is high.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,33 @@
       ]
     }
   ],
-  "notes": "USAGE:\nUsed with する to mean \"to be damaged by fire spreading from a neighbor.\" Under Japanese law ({失火責任法|しっかせきにんほう}), the person whose building caught fire first is generally not liable for damages to neighboring properties from an accidental fire, making fire insurance essential.\n\nCOMMON COLLOCATIONS:\n- {類焼|るいしょう}する (to be damaged by a neighboring fire)\n- {類焼|るいしょう}を{防|ふせ}ぐ (to prevent fire from spreading)\n- {類焼|るいしょう}の{被害|ひがい} (damage from fire spread)\n\nSIMILAR WORDS:\n- {延焼|えんしょう}: spread of fire — a broader term for fire spreading, not limited to neighboring buildings\n- {失火|しっか}: accidental fire — the fire that originates, as opposed to the secondary damage",
-  "cross_references": [],
+  "notes": "USAGE:\nUsed with ⟦する→する：00392_suru⟧ to mean \"to be damaged by fire spreading from a neighbor.\" Under Japanese law ({失火責任法|しっかせきにんほう}), the person whose building caught fire first is generally not liable for damages to neighboring properties from an accidental fire, making fire insurance essential.\n\nCOMMON COLLOCATIONS:\n- {類焼|るいしょう}⟦する→する：00392_suru⟧ (to be damaged by a neighboring fire)\n- {類焼|るいしょう}⟦を→を：00422_wo⟧⟦{防|ふせ}ぐ→防ぐ：02409_fusegu⟧ (to prevent fire from spreading)\n- {類焼|るいしょう}⟦の→の：09472_no⟧⟦{被害|ひがい}→被害：02572_higai⟧ (damage from fire spread)\n\nSIMILAR WORDS:\n- ⟦{延焼|えんしょう}→延焼：12519_enshou⟧: spread of fire — a broader term for fire spreading, not limited to neighboring buildings\n- ⟦{失火|しっか}→失火：21237_shikka⟧: accidental fire — the fire that originates, as opposed to the secondary damage",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12519_enshou",
+      "reading": "えんしょう",
+      "headword": "{延焼|えんしょう}",
+      "label": "spread of fire"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21237_shikka",
+      "reading": "しっか",
+      "headword": "{失火|しっか}",
+      "label": "accidental fire"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24445_hanshou",
+      "reading": "はんしょう",
+      "headword": "{半焼|はんしょう}",
+      "label": "partial fire damage"
+    }
+  ],
   "metadata": {
     "created": "2026-03-22T09:02:47Z",
-    "modified": "2026-07-25T21:35:01Z",
+    "modified": "2026-09-02T04:01:52Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

@@ -43,10 +43,40 @@
       ]
     }
   ],
-  "notes": "From English \"stress.\" Widely used in modern Japanese for mental/emotional pressure. Unlike English, ストレス in Japanese almost exclusively refers to psychological stress, not physical force.\n\nCOMMON PATTERNS:\n- ストレス⟦が→が：00051_ga⟧⟦たまる→溜まる：02067_tamaru⟧: stress builds up\n- ストレス⟦を→を：00422_wo⟧⟦{感|かん}じる→感じる：02044_kanjiru⟧: to feel stress\n- ストレス⟦を→を：00422_wo⟧⟦{発散|はっさん}→発散：09132_hassan⟧⟦する→する：00392_suru⟧: to release/vent stress\n- ストレス⟦を→を：00422_wo⟧⟦{解消|かいしょう}する→解消する：21324_kaishousuru⟧: to relieve stress\n- ストレス⟦で→で：00502_de⟧⟦{体調|たいちょう}→体調：04644_taichou⟧⟦を→を：00422_wo⟧⟦{崩|くず}す→崩す：03919_kuzusu⟧: to get sick from stress\n\nCOMMON COMPOUNDS:\n- ストレス⟦{解消法|かいしょうほう}→解消法：noentry⟧: stress relief methods\n- ストレスフリー: stress-free\n- ストレス⟦{社会|しゃかい}→社会：01427_shakai⟧: stressful society\n- ストレス⟦{太|ぶと}り→太り：noentry⟧: stress-related weight gain\n\nSIMILAR WORDS:\n- ⟦{緊張|きんちょう}→緊張：02494_kinchou⟧: tension, nervousness (situational, not chronic)\n- ⟦プレッシャー→プレッシャー：07163_puresshaa⟧: pressure (from expectations/deadlines)",
+  "notes": "From English \"stress.\" Widely used in modern Japanese for mental/emotional pressure. Unlike English, ストレス in Japanese almost exclusively refers to psychological stress, not physical force.\n\nCOMMON PATTERNS:\n- ストレス⟦が→が：00051_ga⟧⟦たまる→溜まる：02067_tamaru⟧: stress builds up\n- ストレス⟦を→を：00422_wo⟧⟦{感|かん}じる→感じる：02044_kanjiru⟧: to feel stress\n- ストレス⟦を→を：00422_wo⟧⟦{発散|はっさん}→発散：09132_hassan⟧⟦する→する：00392_suru⟧: to release/vent stress\n- ストレス⟦を→を：00422_wo⟧⟦{解消|かいしょう}する→解消する：21324_kaishousuru⟧: to relieve stress\n- ストレス⟦で→で：00502_de⟧⟦{体調|たいちょう}→体調：04644_taichou⟧⟦を→を：00422_wo⟧⟦{崩|くず}す→崩す：03919_kuzusu⟧: to get sick from stress\n\nCOMPOUNDS:\n- ストレス⟦{解消法|かいしょうほう}→解消法：noentry⟧: stress relief methods\n- ストレス⟦フリー→フリー：11001_furii⟧: stress-free\n- ストレス⟦{社会|しゃかい}→社会：01427_shakai⟧: stressful society\n- ストレス⟦{太|ぶと}り→太り：noentry⟧: stress-related weight gain\n\nSIMILAR WORDS:\n- ⟦{緊張|きんちょう}→緊張：02494_kinchou⟧: tension, nervousness (situational, not chronic)\n- ⟦プレッシャー→プレッシャー：07163_puresshaa⟧: pressure (from expectations/deadlines)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02494_kinchou",
+      "reading": "きんちょう",
+      "headword": "{緊張|きんちょう}",
+      "label": "tension, nervousness"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07163_puresshaa",
+      "reading": "ぷれっしゃー",
+      "headword": "プレッシャー",
+      "label": "pressure"
+    },
+    {
+      "type": "related",
+      "target_id": "08596_mentaruherusu",
+      "reading": "めんたるへるす",
+      "headword": "メンタルヘルス",
+      "label": "mental health"
+    },
+    {
+      "type": "related",
+      "target_id": "08597_moetsukishoukougun",
+      "reading": "もえつきしょうこうぐん",
+      "headword": "{燃|も}え{尽|つ}き{症候群|しょうこうぐん}",
+      "label": "burnout syndrome"
+    }
+  ],
   "metadata": {
     "created": "2026-01-12T13:34:27Z",
-    "modified": "2026-05-27T19:23:39Z",
+    "modified": "2026-09-02T04:01:03Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

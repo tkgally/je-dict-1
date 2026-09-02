@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "15412_kyougaku_ex1",
-      "japanese": "この{学校|がっこう}は{共学|きょうがく}です。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{学校|がっこう}→学校：00055_gakkou⟧⟦は→は：00079_ha⟧{共学|きょうがく}です。",
       "english": "This school is coeducational.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "15412_kyougaku_ex2",
-      "japanese": "{来年|らいねん}から{共学|きょうがく}になる{予定|よてい}だ。",
+      "japanese": "⟦{来年|らいねん}→来年：00745_rainen⟧⟦から→から：00504_kara⟧{共学|きょうがく}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦{予定|よてい}→予定：00824_yotei⟧だ。",
       "english": "It is scheduled to become coeducational starting next year.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "15412_kyougaku_ex3",
-      "japanese": "{戦後|せんご}、{多|おお}くの{学校|がっこう}が{男女|だんじょ}{共学|きょうがく}に{切|き}り{替|か}わった。",
+      "japanese": "⟦{戦後|せんご}→戦後：12853_sengo⟧、{多|おお}く⟦の→の：09472_no⟧⟦{学校|がっこう}→学校：00055_gakkou⟧⟦が→が：00051_ga⟧⟦{男女|だんじょ}→男女：03117_danjo⟧{共学|きょうがく}⟦に→に：00314_ni⟧⟦{切|き}り{替|か}わった→切り替わる：28245_kirikawaru⟧。",
       "english": "After the war, many schools switched to coeducation.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nOften used in the full form {男女|だんじょ}{共学|きょうがく}. The shortened form {共学|きょうがく} is common in casual speech. Used as a noun that can also modify other nouns (e.g., {共学|きょうがく}の{学校|がっこう}).\n\nCOMMON COLLOCATIONS:\n- {男女|だんじょ}{共学|きょうがく} (coeducation)\n- {共学|きょうがく}の{大学|だいがく} (coeducational university)\n- {共学|きょうがく}になる (to become coeducational)\n- {共学|きょうがく}{化|か} (becoming coeducational)\n\nRELATED WORDS:\n- {男子校|だんしこう}: boys' school\n- {女子校|じょしこう}: girls' school\n- {別学|べつがく}: separate-gender education",
+  "notes": "USAGE:\nOften used in the full form ⟦{男女|だんじょ}→男女：03117_danjo⟧{共学|きょうがく}. The shortened form {共学|きょうがく} is common in casual speech. Used as a noun that can also modify other nouns (e.g., {共学|きょうがく}⟦の→の：09472_no⟧⟦{学校|がっこう}→学校：00055_gakkou⟧).\n\nCOMMON COLLOCATIONS:\n- ⟦{男女|だんじょ}→男女：03117_danjo⟧{共学|きょうがく} (coeducation)\n- {共学|きょうがく}⟦の→の：09472_no⟧⟦{大学|だいがく}→大学：00608_daigaku⟧ (coeducational university)\n- {共学|きょうがく}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧ (to become coeducational)\n- {共学|きょうがく}⟦{化|か}→〜化：28335_ka⟧ (becoming coeducational)\n\nRELATED WORDS:\n- ⟦{男子校|だんしこう}→男子校：15311_danshikou⟧: boys' school\n- ⟦{女子校|じょしこう}→女子校：22046_joshikou⟧: girls' school\n- {別学|べつがく}: separate-gender education",
   "cross_references": [
     {
       "type": "contrast",
@@ -59,11 +59,18 @@
       "reading": "じょしこう",
       "headword": "{女子校|じょしこう}",
       "label": "girls' school"
+    },
+    {
+      "type": "related",
+      "target_id": "24527_danjobetsugaku",
+      "reading": "だんじょべつがく",
+      "headword": "{男女別学|だんじょべつがく}",
+      "label": "single-sex education"
     }
   ],
   "metadata": {
     "created": "2026-03-06T13:42:10Z",
-    "modified": "2026-05-01T06:14:09Z",
+    "modified": "2026-09-02T04:01:41Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "07792_chigiru_ex1",
-      "japanese": "パンを{千切|ちぎ}って{食|た}べる。",
+      "japanese": "⟦パン→パン：00553_pan⟧⟦を→を：00422_wo⟧{千切|ちぎ}って⟦{食|た}べる→食べる：00396_taberu⟧。",
       "english": "To tear bread and eat it.",
       "sense_numbers": [
         1
@@ -114,7 +114,7 @@
     },
     {
       "id": "07792_chigiru_ex2",
-      "japanese": "{手紙|てがみ}を{細|こま}かく{千切|ちぎ}った。",
+      "japanese": "⟦{手紙|てがみ}→手紙：00675_tegami⟧⟦を→を：00422_wo⟧⟦{細|こま}かく→細かい：01245_komakai⟧{千切|ちぎ}った。",
       "english": "I tore the letter into small pieces.",
       "sense_numbers": [
         1
@@ -124,7 +124,7 @@
     },
     {
       "id": "07792_chigiru_ex3",
-      "japanese": "{花|はな}びらを{一枚|いちまい}ずつ{千切|ちぎ}る。",
+      "japanese": "⟦{花|はな}びら→花びら：13988_hanabira⟧⟦を→を：00422_wo⟧⟦{一枚|いちまい}→一枚：08889_ichimai⟧⟦ずつ→〜ずつ：03092_zutsu⟧{千切|ちぎ}る。",
       "english": "To pick off the petals one by one.",
       "sense_numbers": [
         1
@@ -133,7 +133,15 @@
       "notes": null
     }
   ],
-  "notes": "{千切|ちぎ}る is a godan verb meaning to tear something into pieces by hand.\n\nTRANSITIVITY:\n- Type: Transitive ({他動詞|たどうし})\n- Pattern: Xを{千切|ちぎ}る\n\nASPECT (ている):\n{千切|ちぎ}っている can indicate ongoing tearing or the resulting state of having torn something.\n\nCOMMON PATTERNS:\n- パンを{千切|ちぎ}る (tear bread)\n- {紙|かみ}を{千切|ちぎ}る (tear paper)\n- {葉|は}を{千切|ちぎ}る (pick leaves)\n\nRelated expressions:\n- {千切|ちぎ}れる (intransitive: to be torn)\n- {千切|ちぎ}りキャベツ (hand-torn cabbage - cooking term)\n\nORTHOGRAPHY:\nOften written in hiragana as ちぎる.",
+  "notes": "{千切|ちぎ}る is a godan verb meaning to tear something into pieces by hand.\n\nTRANSITIVITY:\n- Type: Transitive (⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧)\n- Pattern: X⟦を→を：00422_wo⟧{千切|ちぎ}る\n\nASPECT (ている):\n{千切|ちぎ}って⟦いる→いる：00495_iru⟧ can indicate ongoing tearing or the resulting state of having torn something.\n\nCOMMON PATTERNS:\n- ⟦パン→パン：00553_pan⟧⟦を→を：00422_wo⟧{千切|ちぎ}る (tear bread)\n- ⟦{紙|かみ}→紙：00712_kami⟧⟦を→を：00422_wo⟧{千切|ちぎ}る (tear paper)\n- ⟦{葉|は}→葉：02241_ha⟧⟦を→を：00422_wo⟧{千切|ちぎ}る (pick leaves)\n\nRelated expressions:\n- ⟦{千切|ちぎ}れる→千切れる：11941_chigireru⟧ (intransitive: to be torn)\n- {千切|ちぎ}り⟦キャベツ→キャベツ：05187_kyabetsu⟧ (hand-torn cabbage - cooking term)\n\nWRITING:\nOften written in hiragana as ちぎる.",
+  "prominent_see_also": [
+    {
+      "target_id": "11941_chigireru",
+      "reading": "ちぎれる",
+      "headword": "{千切|ちぎ}れる",
+      "note": "intransitive"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -149,6 +157,6 @@
       "verb_class": "godan-ru"
     },
     "created": "2026-01-21T03:55:15Z",
-    "modified": "2026-01-21T03:55:15Z"
+    "modified": "2026-09-02T04:01:12Z"
   }
 }

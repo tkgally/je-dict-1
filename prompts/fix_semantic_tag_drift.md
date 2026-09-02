@@ -1,5 +1,11 @@
 # Fix Semantic Tag Drift (Cleanup P11 / Tooling item 6)
 
+> **Note (2026-09-02):** this prompt predates the current process. Where it says `make build` or
+> to commit `docs/`, run `make index` instead — the site is built by GitHub Actions after the merge
+> and `docs/` is no longer tracked. Where it says to place inline links or `noentry` markers by hand,
+> run `python3 build/auto_link.py --ids <ids> --apply` instead and add missing words as candidates.
+> The scheduled Routine is `prompts/routine2.md`; see `enhancement/assessment-2026-09-02.md`.
+
 Drive the dictionary-wide remediation of **semantic-tag-vs-headword drift** — the
 pervasive batch-creation error where a word carries a semantic tag that has
 nothing to do with its meaning (一期一会 → `furniture`, 朱肉 → `animal-mammal`,

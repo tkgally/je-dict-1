@@ -2,7 +2,7 @@
   "id": "09402_rankouge",
   "headword": "{乱高下|らんこうげ}",
   "reading": "らんこうげ",
-  "part_of_speech": "noun / suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "wild fluctuation, volatile swings",
   "conjugation": {
     "type": "suru",
@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "09402_rankouge_ex1",
-      "japanese": "{株価|かぶか}が{乱高下|らんこうげ}している。",
+      "japanese": "⟦{株価|かぶか}→株価：05154_kabuka⟧⟦が→が：00051_ga⟧{乱高下|らんこうげ}⟦している→する：00392_suru⟧。",
       "english": "Stock prices are fluctuating wildly.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "09402_rankouge_ex2",
-      "japanese": "{市場|しじょう}は{乱高下|らんこうげ}を{繰|く}り{返|かえ}している。",
+      "japanese": "⟦{市場|しじょう}→市場：09685_shijou⟧⟦は→は：00079_ha⟧{乱高下|らんこうげ}⟦を→を：00422_wo⟧⟦{繰|く}り{返|かえ}している→繰り返す：02051_kurikaesu⟧。",
       "english": "The market keeps experiencing wild swings.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "09402_rankouge_ex3",
-      "japanese": "{為替|かわせ}{相場|そうば}の{乱高下|らんこうげ}に{投資家|とうしか}は{翻弄|ほんろう}されている。",
+      "japanese": "⟦{為替|かわせ}→為替：04021_kawase⟧⟦{相場|そうば}→相場：07668_souba⟧⟦の→の：09472_no⟧{乱高下|らんこうげ}⟦に→に：00314_ni⟧⟦{投資家|とうしか}→投資家：16242_toushika⟧⟦は→は：00079_ha⟧⟦{翻弄|ほんろう}→翻弄：09329_honrou⟧⟦されている→する：00392_suru⟧。",
       "english": "Investors are being tossed about by the wild fluctuations in the exchange rate.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
     },
     {
       "id": "09402_rankouge_ex4",
-      "japanese": "{仮想通貨|かそうつうか}は{乱高下|らんこうげ}が{激|はげ}しい。",
+      "japanese": "⟦{仮想通貨|かそうつうか}→仮想通貨：06400_kasoutsuuka⟧⟦は→は：00079_ha⟧{乱高下|らんこうげ}⟦が→が：00051_ga⟧⟦{激|はげ}しい→激しい：02348_hageshii⟧。",
       "english": "Cryptocurrency has extreme volatility.",
       "notes": null,
       "has_audio": false,
@@ -143,10 +143,10 @@
       ]
     }
   ],
-  "notes": "{乱高下|らんこうげ} combines {乱|らん} (disorder), {高|こう} (high), and {下|げ} (down), vividly describing chaotic up-and-down movements. It's commonly used for volatile markets.\n\nCommon collocations:\n- {株価|かぶか}の{乱高下|らんこうげ}: wild stock price swings\n- {為替|かわせ}の{乱高下|らんこうげ}: currency volatility\n- {乱高下|らんこうげ}を{繰|く}り{返|かえ}す: to swing wildly repeatedly\n\nRelated terms:\n- {値動|ねうご}き: price movement\n- {変動|へんどう}: fluctuation\n- {不安定|ふあんてい}: unstable",
+  "notes": "{乱高下|らんこうげ} combines {乱|らん} (disorder), ⟦{高|こう}→高〜：03951_kou⟧ (high), and {下|げ} (down), vividly describing chaotic up-and-down movements. It's commonly used for volatile markets.\n\nCommon collocations:\n- ⟦{株価|かぶか}→株価：05154_kabuka⟧⟦の→の：09472_no⟧{乱高下|らんこうげ}: wild stock price swings\n- ⟦{為替|かわせ}→為替：04021_kawase⟧⟦の→の：09472_no⟧{乱高下|らんこうげ}: currency volatility\n- {乱高下|らんこうげ}⟦を→を：00422_wo⟧⟦{繰|く}り{返|かえ}す→繰り返す：02051_kurikaesu⟧: to swing wildly repeatedly\n\nRelated terms:\n- ⟦{値動|ねうご}き→値動き：09403_neugoki⟧: price movement\n- ⟦{変動|へんどう}→変動：09936_hendou⟧: fluctuation\n- ⟦{不安定|ふあんてい}→不安定：11318_fuantei⟧: unstable",
   "metadata": {
     "created": "2026-02-01T09:16:25Z",
-    "modified": "2026-04-22T08:43:07Z",
+    "modified": "2026-09-02T04:01:18Z",
     "ai_model": "opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -160,7 +160,8 @@
         "business",
         "finance"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   },
   "cross_references": [

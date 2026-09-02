@@ -15,41 +15,66 @@
   "examples": [
     {
       "id": "18882_juuroudou_ex1",
-      "japanese": "{引|ひ}っ{越|こ}しは{重|じゅう}{労働|ろうどう}だ。",
+      "japanese": "{引|ひ}っ{越|こ}し⟦は→は：00079_ha⟧{重|じゅう}{労働|ろうどう}だ。",
       "english": "Moving house is hard labor.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18882_juuroudou_ex2",
-      "japanese": "{毎日|まいにち}{重|じゅう}{労働|ろうどう}で{体|からだ}がボロボロだ。",
+      "japanese": "⟦{毎日|まいにち}→毎日：00729_mainichi⟧{重|じゅう}{労働|ろうどう}⟦で→で：00502_de⟧⟦{体|からだ}→体：00784_karada⟧⟦が→が：00051_ga⟧ボロボロだ。",
       "english": "My body is falling apart from heavy labor every day.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18882_juuroudou_ex3",
-      "japanese": "{介護|かいご}の{仕事|しごと}は{精神的|せいしんてき}にも{肉体的|にくたいてき}にも{重|じゅう}{労働|ろうどう}だと{言|い}われている。",
+      "japanese": "⟦{介護|かいご}→介護：04805_kaigo⟧⟦の→の：09472_no⟧⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦は→は：00079_ha⟧⟦{精神的|せいしんてき}→精神的：05851_seishinteki⟧⟦に→に：00314_ni⟧⟦も→も：00484_mo⟧⟦{肉体的|にくたいてき}→肉体的：06198_nikutaiteki⟧⟦に→に：00314_ni⟧⟦も→も：00484_mo⟧{重|じゅう}{労働|ろうどう}だ⟦と→と：00512_to⟧⟦{言|い}われている→言う：00515_iu⟧。",
       "english": "Caregiving work is said to be hard labor both mentally and physically.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nCan describe literal heavy physical work or be used figuratively for any extremely demanding task. Often used emphatically in everyday conversation.\n\nCOMMON COLLOCATIONS:\n- {重|じゅう}{労働|ろうどう}を{強|し}いられる (to be forced into hard labor)\n- {重|じゅう}{労働|ろうどう}に{耐|た}える (to endure hard labor)\n- {肉体的|にくたいてき}な{重|じゅう}{労働|ろうどう} (physically demanding labor)\n\nSIMILAR WORDS:\n- {肉体|にくたい}{労働|ろうどう}: physical labor — emphasizes it being bodily work, not necessarily exhausting\n- {過重|かじゅう}{労働|ろうどう}: overwork — excessive work hours, a social issue in Japan",
-  "cross_references": [],
+  "notes": "USAGE:\nCan describe literal heavy physical work or be used figuratively for any extremely demanding task. Often used emphatically in everyday conversation.\n\nCOMMON COLLOCATIONS:\n- {重|じゅう}{労働|ろうどう}⟦を→を：00422_wo⟧⟦{強|し}いられる→強いる：15604_shiiru⟧ (to be forced into hard labor)\n- {重|じゅう}{労働|ろうどう}⟦に→に：00314_ni⟧⟦{耐|た}える→耐える：12087_taeru⟧ (to endure hard labor)\n- ⟦{肉体的|にくたいてき}→肉体的：06198_nikutaiteki⟧な{重|じゅう}{労働|ろうどう} (physically demanding labor)\n\nSIMILAR WORDS:\n- ⟦{肉体|にくたい}{労働|ろうどう}→肉体労働：22825_nikutairoudou⟧: physical labor — emphasizes it being bodily work, not necessarily exhausting\n- {過重|かじゅう}⟦{労働|ろうどう}→労働：03785_roudou⟧: overwork — excessive work hours, a social issue in Japan",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22825_nikutairoudou",
+      "reading": "にくたいろうどう",
+      "headword": "{肉体労働|にくたいろうどう}",
+      "label": "physical labor"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24287_keiroudou",
+      "reading": "けいろうどう",
+      "headword": "{軽労働|けいろうどう}",
+      "label": "light work"
+    }
+  ],
   "metadata": {
     "created": "2026-03-23T06:21:53Z",
-    "modified": "2026-03-23T06:21:53Z",
+    "modified": "2026-09-02T04:01:53Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["work"]
+      "semantic": [
+        "work"
+      ]
     }
   }
 }

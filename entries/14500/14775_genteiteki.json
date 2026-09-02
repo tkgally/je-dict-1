@@ -3,7 +3,7 @@
   "id": "14775_genteiteki",
   "headword": "{限定的|げんていてき}",
   "reading": "げんていてき",
-  "part_of_speech": "adjective (na)",
+  "part_of_speech": "na-adjective",
   "gloss": "limited; restrictive; restricted in scope",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "14775_genteiteki_ex1",
-      "japanese": "{効果|こうか}は{限定的|げんていてき}だった。",
+      "japanese": "⟦{効果|こうか}→効果：02726_kouka⟧⟦は→は：00079_ha⟧{限定的|げんていてき}だった。",
       "english": "The effect was limited.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "14775_genteiteki_ex2",
-      "japanese": "その{政策|せいさく}の{影響|えいきょう}は{限定的|げんていてき}なものにとどまった。",
+      "japanese": "⟦その→その：00993_sono⟧⟦{政策|せいさく}→政策：10070_seisaku⟧⟦の→の：09472_no⟧⟦{影響|えいきょう}→影響：01877_eikyou⟧⟦は→は：00079_ha⟧{限定的|げんていてき}なもの⟦に→に：00314_ni⟧とどまった。",
       "english": "The impact of that policy remained limited.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "14775_genteiteki_ex3",
-      "japanese": "{今回|こんかい}の{調査|ちょうさ}は{限定的|げんていてき}な{範囲|はんい}で{行|おこな}われたため、{全体|ぜんたい}の{傾向|けいこう}を{把握|はあく}するには{不十分|ふじゅうぶん}だ。",
+      "japanese": "⟦{今回|こんかい}→今回：01409_konkai⟧⟦の→の：09472_no⟧⟦{調査|ちょうさ}→調査：03489_chousa⟧⟦は→は：00079_ha⟧{限定的|げんていてき}な⟦{範囲|はんい}→範囲：03567_hani⟧⟦で→で：00502_de⟧⟦{行|おこな}われた→行う：01238_okonau⟧⟦ため→ため：01145_tame⟧、⟦{全体|ぜんたい}→全体：03314_zentai⟧⟦の→の：09472_no⟧⟦{傾向|けいこう}→傾向：02695_keikou⟧⟦を→を：00422_wo⟧⟦{把握|はあく}する→把握する：19628_haakusuru⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{不十分|ふじゅうぶん}→不十分：05616_fujuubun⟧だ。",
       "english": "Since this survey was conducted within a limited scope, it is insufficient for grasping the overall trend.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE: {限定的|げんていてき} is a na-adjective commonly used in news reports, academic writing, and business discussions. It is often used to temper expectations or describe partial results.\n\nCOMMON COLLOCATIONS:\n- {限定的|げんていてき}な{効果|こうか} (limited effect)\n- {限定的|げんていてき}な{影響|えいきょう} (limited impact)\n- {限定的|げんていてき}な{範囲|はんい} (limited scope/range)\n- {限定的|げんていてき}な{使用|しよう} (restricted use)\n- {限定的|げんていてき}にとどまる (to remain limited)\n\nSIMILAR WORDS: Compare with {限定|げんてい} (limited, as in limited edition), which is used as a noun modifier ({限定|げんてい}{品|ひん}, limited product). {限定的|げんていてき} is the adjectival form used for describing scope or extent.",
+  "notes": "USAGE: {限定的|げんていてき} is a na-adjective commonly used in news reports, academic writing, and business discussions. It is often used to temper expectations or describe partial results.\n\nCOMMON COLLOCATIONS:\n- {限定的|げんていてき}な⟦{効果|こうか}→効果：02726_kouka⟧ (limited effect)\n- {限定的|げんていてき}な⟦{影響|えいきょう}→影響：01877_eikyou⟧ (limited impact)\n- {限定的|げんていてき}な⟦{範囲|はんい}→範囲：03567_hani⟧ (limited scope/range)\n- {限定的|げんていてき}な⟦{使用|しよう}→使用：01637_shiyou⟧ (restricted use)\n- {限定的|げんていてき}⟦に→に：00314_ni⟧とどまる (to remain limited)\n\nSIMILAR WORDS: Compare with ⟦{限定|げんてい}→限定：10997_gentei⟧ (limited, as in limited edition), which is used as a noun modifier (⟦{限定|げんてい}{品|ひん}→限定品：16189_genteihin⟧, limited product). {限定的|げんていてき} is the adjectival form used for describing scope or extent.",
   "cross_references": [
     {
       "type": "antonym",
@@ -52,11 +52,18 @@
       "reading": "もうらてき",
       "headword": "{網羅的|もうらてき}",
       "label": "exhaustive"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23813_kyokushoteki",
+      "reading": "きょくしょてき",
+      "headword": "{局所的|きょくしょてき}",
+      "label": "local"
     }
   ],
   "metadata": {
     "created": "2026-03-03T11:29:28Z",
-    "modified": "2026-04-11T01:25:09Z",
+    "modified": "2026-09-02T04:01:38Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

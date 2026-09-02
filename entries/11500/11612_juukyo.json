@@ -14,42 +14,81 @@
   "examples": [
     {
       "id": "11612_juukyo_ex1",
-      "japanese": "{住居|じゅうきょ}の{確保|かくほ}が{必要|ひつよう}だ。",
+      "japanese": "{住居|じゅうきょ}⟦の→の：09472_no⟧⟦{確保|かくほ}→確保：13681_kakuho⟧⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧だ。",
       "english": "Securing housing is necessary.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11612_juukyo_ex2",
-      "japanese": "{不法|ふほう}に{他人|たにん}の{住居|じゅうきょ}に{侵入|しんにゅう}してはならない。",
+      "japanese": "⟦{不法|ふほう}→不法：11361_fuhou⟧⟦に→に：00314_ni⟧⟦{他人|たにん}→他人：01459_tanin⟧⟦の→の：09472_no⟧{住居|じゅうきょ}⟦に→に：00314_ni⟧⟦{侵入|しんにゅう}して→侵入する：17343_shinnyuusuru⟧⟦は→は：00079_ha⟧⟦ならない→なる：01970_naru⟧。",
       "english": "One must not illegally enter another person's residence.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11612_juukyo_ex3",
-      "japanese": "{災害|さいがい}で{住居|じゅうきょ}を{失|うしな}った{人|ひと}たちに{仮設|かせつ}{住宅|じゅうたく}が{提供|ていきょう}された。",
+      "japanese": "⟦{災害|さいがい}→災害：09636_saigai⟧⟦で→で：00502_de⟧{住居|じゅうきょ}⟦を→を：00422_wo⟧⟦{失|うしな}った→失う：01887_ushinau⟧⟦{人|ひと}→人：00476_hito⟧たち⟦に→に：00314_ni⟧⟦{仮設|かせつ}→仮設：21123_kasetsu⟧⟦{住宅|じゅうたく}→住宅：03280_juutaku⟧⟦が→が：00051_ga⟧⟦{提供|ていきょう}→提供：12909_teikyou⟧⟦された→する：00392_suru⟧。",
       "english": "Temporary housing was provided to people who lost their homes in the disaster.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "A formal word for a dwelling or residence, commonly found in legal and administrative language. The everyday equivalent is {家|いえ} or {住|す}まい.\n\nIn legal contexts, {住居|じゅうきょ}{侵入|しんにゅう} refers to unlawful entry or trespassing.\n\nCOMMON COLLOCATIONS:\n・{住居|じゅうきょ}を{構|かま}える — to set up a residence\n・{住居|じゅうきょ}{侵入|しんにゅう} — trespassing; unlawful entry\n・{住居|じゅうきょ}{費|ひ} — housing costs\n・{住居|じゅうきょ}{地域|ちいき} — residential area",
-  "cross_references": [],
+  "notes": "A formal word for a dwelling or residence, commonly found in legal and administrative language. The everyday equivalent is ⟦{家|いえ}→家：00612_ie⟧ or ⟦{住|す}まい→住まい：11555_sumai⟧.\n\nIn legal contexts, {住居|じゅうきょ}⟦{侵入|しんにゅう}→侵入：11440_shinnyuu⟧ refers to unlawful entry or trespassing.\n\nCOMMON COLLOCATIONS:\n- {住居|じゅうきょ}⟦を→を：00422_wo⟧⟦{構|かま}える→構える：09567_kamaeru⟧ — to set up a residence\n- {住居|じゅうきょ}⟦{侵入|しんにゅう}→侵入：11440_shinnyuu⟧ — trespassing; unlawful entry\n- {住居|じゅうきょ}{費|ひ} — housing costs\n- {住居|じゅうきょ}⟦{地域|ちいき}→地域：01461_chiiki⟧ — residential area",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00188_kaoku",
+      "reading": "かおく",
+      "headword": "{家屋|かおく}",
+      "label": "house"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19266_kyojuuchi",
+      "reading": "きょじゅうち",
+      "headword": "{居住地|きょじゅうち}",
+      "label": "place of residence"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23029_tei",
+      "reading": "てい",
+      "headword": "{邸|てい}",
+      "label": "mansion"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25478_sumika",
+      "reading": "すみか",
+      "headword": "{住処|すみか}",
+      "label": "dwelling"
+    }
+  ],
   "metadata": {
     "created": "2026-02-17T14:36:39Z",
-    "modified": "2026-02-17T14:36:39Z",
+    "modified": "2026-09-02T04:01:25Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["building"]
+      "semantic": [
+        "building"
+      ]
     }
   }
 }

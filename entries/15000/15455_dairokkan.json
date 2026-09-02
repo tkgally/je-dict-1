@@ -15,41 +15,80 @@
   "examples": [
     {
       "id": "15455_dairokkan_ex1",
-      "japanese": "{第六感|だいろっかん}が{働|はたら}いた。",
+      "japanese": "{第六感|だいろっかん}⟦が→が：00051_ga⟧⟦{働|はたら}いた→働く：00503_hataraku⟧。",
       "english": "My sixth sense kicked in.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15455_dairokkan_ex2",
-      "japanese": "{彼女|かのじょ}は{第六感|だいろっかん}が{鋭|するど}い{人|ひと}だ。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧{第六感|だいろっかん}⟦が→が：00051_ga⟧⟦{鋭|するど}い→鋭い：02347_surudoi⟧⟦{人|ひと}→人：00476_hito⟧だ。",
       "english": "She is a person with keen intuition.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15455_dairokkan_ex3",
-      "japanese": "{第六感|だいろっかん}で{何|なに}か{良|よ}くないことが{起|お}こりそうな{気|き}がした。",
+      "japanese": "{第六感|だいろっかん}⟦で→で：00502_de⟧⟦{何|なに}か→何か：03873_nanika⟧⟦{良|よ}くない→良い：02350_yoi⟧こと⟦が→が：00051_ga⟧⟦{起|お}こり→起こる：01910_okoru⟧そうな⟦{気|き}→気：02199_ki⟧がした。",
       "english": "My gut feeling told me something bad was about to happen.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nUsed the same way as \"sixth sense\" in English. Often appears with {働|はたら}く (to work, to kick in) or {鋭|するど}い (sharp, keen).\n\nCOMMON COLLOCATIONS:\n- {第六感|だいろっかん}が{働|はたら}く (one's sixth sense kicks in)\n- {第六感|だいろっかん}が{鋭|するど}い (to have keen intuition)\n- {第六感|だいろっかん}で{感|かん}じる (to sense with one's sixth sense)\n\nRELATED:\n- {直感|ちょっかん} (intuition — more commonly used in everyday speech)\n- {勘|かん} (intuition, hunch — more casual)",
-  "cross_references": [],
+  "notes": "USAGE:\nUsed the same way as \"sixth sense\" in English. Often appears with ⟦{働|はたら}く→働く：00503_hataraku⟧ (to work, to kick in) or ⟦{鋭|するど}い→鋭い：02347_surudoi⟧ (sharp, keen).\n\nCOMMON COLLOCATIONS:\n- {第六感|だいろっかん}⟦が→が：00051_ga⟧⟦{働|はたら}く→働く：00503_hataraku⟧ (one's sixth sense kicks in)\n- {第六感|だいろっかん}⟦が→が：00051_ga⟧⟦{鋭|するど}い→鋭い：02347_surudoi⟧ (to have keen intuition)\n- {第六感|だいろっかん}⟦で→で：00502_de⟧⟦{感|かん}じる→感じる：02044_kanjiru⟧ (to sense with one's sixth sense)\n\nRELATED WORDS:\n- ⟦{直感|ちょっかん}→直感：07624_chokkan⟧ (intuition — more commonly used in everyday speech)\n- ⟦{勘|かん}→勘：02149_kan⟧ (intuition, hunch — more casual)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "07624_chokkan",
+      "reading": "ちょっかん",
+      "headword": "{直感|ちょっかん}",
+      "label": "intuition"
+    },
+    {
+      "type": "related",
+      "target_id": "02149_kan",
+      "reading": "かん",
+      "headword": "{勘|かん}",
+      "label": "intuition, hunch"
+    },
+    {
+      "type": "related",
+      "target_id": "05698_gokan",
+      "reading": "ごかん",
+      "headword": "{五感|ごかん}",
+      "label": "the five senses"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22214_reikan",
+      "reading": "れいかん",
+      "headword": "{霊感|れいかん}",
+      "label": "spiritual sensitivity"
+    }
+  ],
   "metadata": {
     "created": "2026-03-07T07:37:29Z",
-    "modified": "2026-03-07T07:37:29Z",
+    "modified": "2026-09-02T04:01:41Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["cognition"]
+      "semantic": [
+        "cognition"
+      ]
     }
   }
 }

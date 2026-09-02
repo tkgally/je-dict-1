@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "15260_taezu_ex1",
-      "japanese": "{川|かわ}は{絶|た}えず{流|なが}れている。",
+      "japanese": "⟦{川|かわ}→川：02186_kawa⟧⟦は→は：00079_ha⟧{絶|た}えず⟦{流|なが}れている→流れる：01969_nagareru⟧。",
       "english": "The river flows ceaselessly.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "15260_taezu_ex2",
-      "japanese": "{彼|かれ}は{絶|た}えず{新|あたら}しいことに{挑戦|ちょうせん}している。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{絶|た}えず⟦{新|あたら}しい→新しい：00506_atarashii⟧こと⟦に→に：00314_ni⟧⟦{挑戦|ちょうせん}している→挑戦する：21602_chousensuru⟧。",
       "english": "He is constantly challenging himself with new things.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "15260_taezu_ex3",
-      "japanese": "この{地域|ちいき}では{絶|た}えず{地震|じしん}の{危険|きけん}にさらされている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{地域|ちいき}→地域：01461_chiiki⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧{絶|た}えず⟦{地震|じしん}→地震：01608_jishin⟧⟦の→の：09472_no⟧⟦{危険|きけん}→危険：01141_kiken⟧⟦に→に：00314_ni⟧さらされて⟦いる→いる：00495_iru⟧。",
       "english": "This region is constantly exposed to the danger of earthquakes.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,47 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{絶|た}えず is an adverb derived from the verb {絶|た}える (to cease, to run out) with the negative ず form. It literally means \"without ceasing.\"\n\nSIMILAR WORDS:\n- {絶|た}えず: constantly, without interruption (slightly literary)\n- いつも: always, at all times (everyday usage)\n- {常|つね}に: invariably, at all times (formal)\n- ずっと: continuously, the whole time (casual)\n\nCOMMON COLLOCATIONS:\n- {絶|た}えず{変化|へんか}する (to change constantly)\n- {絶|た}えず{努力|どりょく}する (to make constant effort)\n- {絶|た}えず{流|なが}れる (to flow ceaselessly)",
-  "cross_references": [],
+  "notes": "USAGE:\n{絶|た}えず is an adverb derived from the verb ⟦{絶|た}える→絶える：13814_taeru⟧ (to cease, to run out) with the negative ず form. It literally means \"without ceasing.\"\n\nSIMILAR WORDS:\n- {絶|た}えず: constantly, without interruption (slightly literary)\n- ⟦いつも→いつも：00599_itsumo⟧: always, at all times (everyday usage)\n- ⟦{常|つね}→常：28958_tsune⟧⟦に→に：00314_ni⟧: invariably, at all times (formal)\n- ⟦ずっと→ずっと：00912_zutto⟧: continuously, the whole time (casual)\n\nCOMMON COLLOCATIONS:\n- {絶|た}えず⟦{変化|へんか}する→変化する：20997_henkasuru⟧ (to change constantly)\n- {絶|た}えず⟦{努力|どりょく}する→努力する：20201_doryokusuru⟧ (to make constant effort)\n- {絶|た}えず⟦{流|なが}れる→流れる：01969_nagareru⟧ (to flow ceaselessly)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00599_itsumo",
+      "reading": "いつも",
+      "headword": "いつも",
+      "label": "always, at all times"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01619_tsuneni",
+      "reading": "つねに",
+      "headword": "{常|つね}に",
+      "label": "invariably, at all times"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00912_zutto",
+      "reading": "ずっと",
+      "headword": "ずっと",
+      "label": "continuously, the whole time"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03130_nichiya",
+      "reading": "にちや",
+      "headword": "{日夜|にちや}",
+      "label": "day and night, constantly"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04192_shijuu",
+      "reading": "しじゅう",
+      "headword": "{始終|しじゅう}",
+      "label": "constantly, from start to end"
+    }
+  ],
   "metadata": {
     "created": "2026-03-06T08:08:05Z",
-    "modified": "2026-07-16T07:06:35Z",
+    "modified": "2026-09-02T04:01:40Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

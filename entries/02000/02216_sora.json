@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "{空|そら} means sky—the visible expanse above the earth.\n\nKANJI READINGS:\nThe kanji has multiple readings with different meanings:\n- {空|そら}: sky (native Japanese reading)\n- {空|から}: empty (e.g., ⟦{空|から}っぽ→からっぽ：02354_karappo⟧ = empty)\n- {空|くう}: void, emptiness (Sino-Japanese, Buddhist)\n\nCOMMON COMPOUNDS:\n- ⟦{青空|あおぞら}→青空：10084_aozora⟧: blue sky\n- ⟦{夜空|よぞら}→夜空：09591_yozora⟧: night sky\n- ⟦{大空|おおぞら}→大空：25275_oozora⟧: the great sky, heavens\n- ⟦{空模様|そらもよう}→空模様：19362_soramoyou⟧: sky conditions, weather\n- ⟦{空港|くうこう}→空港：00648_kuukou⟧: airport\n- ⟦{空気|くうき}→空気：01390_kuuki⟧: air, atmosphere\n- ⟦{空中|くうちゅう}→空中：21842_kuuchuu⟧: in the air, midair\n\nCOMMON EXPRESSIONS:\n- {空|そら}⟦を→を：00422_wo⟧⟦{見上|みあ}げる→見上げる：04567_miageru⟧: to look up at the sky\n- {空|そら}⟦が→が：00051_ga⟧⟦{曇|くも}る→曇る：00723_kumoru⟧: the sky becomes cloudy\n- {空|そら}⟦が→が：00051_ga⟧⟦{晴|は}れる→晴れる：00701_hareru⟧: the sky clears up\n\nRELATED WORDS:\n- ⟦{天|てん}→天：noentry⟧: heaven, sky (more literary)\n- ⟦{雲|くも}→雲：02202_kumo⟧: cloud\n- ⟦{星|ほし}→星：01510_hoshi⟧: star",
+  "notes": "{空|そら} means sky—the visible expanse above the earth.\n\nKANJI READINGS:\nThe kanji has multiple readings with different meanings:\n- {空|そら}: sky (native Japanese reading)\n- ⟦{空|から}→空：27640_kara⟧: empty (e.g., ⟦{空|から}っぽ→からっぽ：02354_karappo⟧ = empty)\n- ⟦{空|くう}→空〜：03949_kuu⟧: void, emptiness (Sino-Japanese, Buddhist)\n\nCOMPOUNDS:\n- ⟦{青空|あおぞら}→青空：10084_aozora⟧: blue sky\n- ⟦{夜空|よぞら}→夜空：09591_yozora⟧: night sky\n- ⟦{大空|おおぞら}→大空：25275_oozora⟧: the great sky, heavens\n- ⟦{空模様|そらもよう}→空模様：19362_soramoyou⟧: sky conditions, weather\n- ⟦{空港|くうこう}→空港：00648_kuukou⟧: airport\n- ⟦{空気|くうき}→空気：01390_kuuki⟧: air, atmosphere\n- ⟦{空中|くうちゅう}→空中：21842_kuuchuu⟧: in the air, midair\n\nCOMMON EXPRESSIONS:\n- {空|そら}⟦を→を：00422_wo⟧⟦{見上|みあ}げる→見上げる：04567_miageru⟧: to look up at the sky\n- {空|そら}⟦が→が：00051_ga⟧⟦{曇|くも}る→曇る：00723_kumoru⟧: the sky becomes cloudy\n- {空|そら}⟦が→が：00051_ga⟧⟦{晴|は}れる→晴れる：00701_hareru⟧: the sky clears up\n\nRELATED WORDS:\n- ⟦{天|てん}→天：noentry⟧: heaven, sky (more literary)\n- ⟦{雲|くも}→雲：02202_kumo⟧: cloud\n- ⟦{星|ほし}→星：01510_hoshi⟧: star",
   "cross_references": [
     {
       "type": "antonym",
@@ -71,11 +71,32 @@
       "reading": "りく",
       "headword": "{陸|りく}",
       "label": "land"
+    },
+    {
+      "type": "related",
+      "target_id": "02202_kumo",
+      "reading": "くも",
+      "headword": "{雲|くも}",
+      "label": "cloud"
+    },
+    {
+      "type": "related",
+      "target_id": "01510_hoshi",
+      "reading": "ほし",
+      "headword": "{星|ほし}",
+      "label": "star"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28464_ten",
+      "reading": "てん",
+      "headword": "{天|てん}",
+      "label": "heaven"
     }
   ],
   "metadata": {
     "created": "2026-01-09T12:20:18Z",
-    "modified": "2026-06-11T18:03:17Z",
+    "modified": "2026-09-02T04:01:01Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

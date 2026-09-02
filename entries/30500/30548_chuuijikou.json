@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30548_chuuijikou_ex1",
-      "japanese": "{注意事項|ちゅういじこう}をお{読|よ}みください。",
+      "japanese": "{注意事項|ちゅういじこう}⟦を→を：00422_wo⟧お⟦{読|よ}み→読む：00426_yomu⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please read the points to note.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30548_chuuijikou_ex2",
-      "japanese": "{申込書|もうしこみしょ}の{裏面|りめん}に{注意事項|ちゅういじこう}が{書|か}いてある。",
+      "japanese": "⟦{申込書|もうしこみしょ}→申込書：03162_moushikomisho⟧⟦の→の：09472_no⟧⟦{裏面|りめん}→裏面：18245_rimen⟧⟦に→に：00314_ni⟧{注意事項|ちゅういじこう}⟦が→が：00051_ga⟧⟦{書|か}いてある→書く：00477_kaku⟧。",
       "english": "The precautions are written on the back of the application form.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30548_chuuijikou_ex3",
-      "japanese": "{出発前|しゅっぱつまえ}に{注意事項|ちゅういじこう}を{確認|かくにん}しておかないと、{現地|げんち}で{困|こま}ることがある。",
+      "japanese": "{出発前|しゅっぱつまえ}⟦に→に：00314_ni⟧{注意事項|ちゅういじこう}⟦を→を：00422_wo⟧⟦{確認|かくにん}して→確認する：25332_kakuninsuru⟧おかない⟦と→と：00512_to⟧、⟦{現地|げんち}→現地：13502_genchi⟧⟦で→で：00502_de⟧⟦{困|こま}る→困る：00861_komaru⟧こと⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "If you don't check the guidance points before departure, you may run into trouble on site.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Formed from {注意|ちゅうい} (caution, attention) plus {事項|じこう} (items, matters). Standard on forms, tickets, manuals, and event announcements; the tone is administrative rather than urgent.\n\nCOMMON COLLOCATIONS:\n- {注意事項|ちゅういじこう}を{確認|かくにん}する: to check the points to note\n- {注意事項|ちゅういじこう}をよく{読|よ}む: to read the precautions carefully\n- {注意事項|ちゅういじこう}を{守|まも}る: to observe the stated rules\n- {以下|いか}の{注意事項|ちゅういじこう}: the following points\n\nSIMILAR WORDS:\n- {注意書|ちゅういが}き: a written warning — the printed text itself, often a single line\n- {警告|けいこく}: warning — far stronger, used where there is real danger",
+  "notes": "Formed from ⟦{注意|ちゅうい}→注意：01464_chuui⟧ (caution, attention) plus ⟦{事項|じこう}→事項：11469_jikou⟧ (items, matters). Standard on forms, tickets, manuals, and event announcements; the tone is administrative rather than urgent.\n\nCOMMON COLLOCATIONS:\n- {注意事項|ちゅういじこう}⟦を→を：00422_wo⟧⟦{確認|かくにん}する→確認する：25332_kakuninsuru⟧: to check the points to note\n- {注意事項|ちゅういじこう}⟦を→を：00422_wo⟧⟦よく→よく：00601_yoku⟧⟦{読|よ}む→読む：00426_yomu⟧: to read the precautions carefully\n- {注意事項|ちゅういじこう}⟦を→を：00422_wo⟧⟦{守|まも}る→守る：01986_mamoru⟧: to observe the stated rules\n- ⟦{以下|いか}→以下：01294_ika⟧⟦の→の：09472_no⟧{注意事項|ちゅういじこう}: the following points\n\nSIMILAR WORDS:\n- ⟦{注意書|ちゅういが}き→注意書き：20579_chuuigaki⟧: a written warning — the printed text itself, often a single line\n- ⟦{警告|けいこく}→警告：02696_keikoku⟧: warning — far stronger, used where there is real danger",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20579_chuuigaki",
+      "reading": "ちゅういがき",
+      "headword": "{注意書|ちゅういが}き",
+      "label": "a written warning"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02696_keikoku",
+      "reading": "けいこく",
+      "headword": "{警告|けいこく}",
+      "label": "warning"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +69,7 @@
         "noun"
       ],
       "formality": "formal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "communication",
         "daily-life"
@@ -61,6 +77,6 @@
       "domain": []
     },
     "created": "2026-08-10T09:22:29Z",
-    "modified": "2026-08-10T09:22:29Z"
+    "modified": "2026-09-02T04:02:40Z"
   }
 }

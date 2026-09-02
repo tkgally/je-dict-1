@@ -15,41 +15,59 @@
   "examples": [
     {
       "id": "13779_hiden_ex1",
-      "japanese": "{秘伝|ひでん}のたれを{使|つか}っている。",
+      "japanese": "{秘伝|ひでん}⟦の→の：09472_no⟧⟦たれ→タレ：10500_tare⟧⟦を→を：00422_wo⟧⟦{使|つか}っている→使う：00473_tsukau⟧。",
       "english": "They use a secret sauce recipe.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13779_hiden_ex2",
-      "japanese": "この{技|わざ}は{師匠|ししょう}から{秘伝|ひでん}として{教|おし}わった。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{技|わざ}→技：02172_waza⟧⟦は→は：00079_ha⟧⟦{師匠|ししょう}→師匠：12421_shishou⟧⟦から→から：00504_kara⟧{秘伝|ひでん}⟦として→として：06802_toshite⟧{教|おし}わった。",
       "english": "I learned this technique as a secret tradition from my master.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13779_hiden_ex3",
-      "japanese": "{創業|そうぎょう}{以来|いらい}の{秘伝|ひでん}のレシピが、この{店|みせ}の{味|あじ}を{支|ささ}えている。",
+      "japanese": "⟦{創業|そうぎょう}→創業：11792_sougyou⟧⟦{以来|いらい}→以来：01831_irai⟧⟦の→の：09472_no⟧{秘伝|ひでん}⟦の→の：09472_no⟧⟦レシピ→レシピ：07157_reshipi⟧⟦が→が：00051_ga⟧、⟦この→この：00962_kono⟧⟦{店|みせ}→店：00497_mise⟧⟦の→の：09472_no⟧⟦{味|あじ}→味：00826_aji⟧⟦を→を：00422_wo⟧⟦{支|ささ}えている→支える：01946_sasaeru⟧。",
       "english": "A secret recipe passed down since the founding supports the taste of this shop.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\n{秘伝|ひでん} implies knowledge that has been carefully guarded and passed down through generations. It carries a sense of tradition, exclusivity, and value. In modern usage, it often appears in food marketing (\"secret recipe\") and martial arts contexts.\n\nCOMMON COLLOCATIONS:\n- {秘伝|ひでん}のたれ: secret sauce\n- {秘伝|ひでん}のレシピ: secret recipe\n- {秘伝|ひでん}の{技|わざ}: secret technique\n- {秘伝|ひでん}を{伝|つた}える: to pass on a secret tradition\n- {門外不出|もんがいふしゅつ}の{秘伝|ひでん}: a secret never shared outside the school\n\nSIMILAR WORDS:\n{秘訣|ひけつ} means \"secret\" or \"key\" (to success), focusing on a crucial piece of advice or method. {秘伝|ひでん} emphasizes the traditional, inherited nature of the secret knowledge.",
-  "cross_references": [],
+  "notes": "USAGE:\n{秘伝|ひでん} implies knowledge that has been carefully guarded and passed down through generations. It carries a sense of tradition, exclusivity, and value. In modern usage, it often appears in food marketing (\"secret recipe\") and martial arts contexts.\n\nCOMMON COLLOCATIONS:\n- {秘伝|ひでん}⟦の→の：09472_no⟧⟦たれ→タレ：10500_tare⟧: secret sauce\n- {秘伝|ひでん}⟦の→の：09472_no⟧⟦レシピ→レシピ：07157_reshipi⟧: secret recipe\n- {秘伝|ひでん}⟦の→の：09472_no⟧⟦{技|わざ}→技：02172_waza⟧: secret technique\n- {秘伝|ひでん}⟦を→を：00422_wo⟧⟦{伝|つた}える→伝える：01220_tsutaeru⟧: to pass on a secret tradition\n- {門外不出|もんがいふしゅつ}⟦の→の：09472_no⟧{秘伝|ひでん}: a secret never shared outside the school\n\nSIMILAR WORDS:\n⟦{秘訣|ひけつ}→秘訣：13750_hiketsu⟧ means \"secret\" or \"key\" (to success), focusing on a crucial piece of advice or method. {秘伝|ひでん} emphasizes the traditional, inherited nature of the secret knowledge.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25811_hijutsu",
+      "reading": "ひじゅつ",
+      "headword": "{秘術|ひじゅつ}",
+      "label": "secret art"
+    }
+  ],
   "metadata": {
     "created": "2026-02-27T03:15:54Z",
-    "modified": "2026-02-27T03:15:54Z",
+    "modified": "2026-09-02T04:01:34Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

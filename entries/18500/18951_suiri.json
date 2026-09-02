@@ -3,7 +3,7 @@
   "headword": "{推理|すいり}",
   "reading": "すいり",
   "romaji": "suiri",
-  "part_of_speech": "noun / する verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "reasoning; deduction; inference",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "18951_suiri_ex1",
-      "japanese": "{推理|すいり}{小説|しょうせつ}が{好|す}きだ。",
+      "japanese": "{推理|すいり}⟦{小説|しょうせつ}→小説：01434_shousetsu⟧⟦が→が：00051_ga⟧⟦{好|す}き→好き：02355_suki⟧だ。",
       "english": "I like mystery novels.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "18951_suiri_ex2",
-      "japanese": "{探偵|たんてい}は{鋭|するど}い{推理|すいり}で{犯人|はんにん}を{突|つ}き{止|と}めた。",
+      "japanese": "⟦{探偵|たんてい}→探偵：07033_tantei⟧⟦は→は：00079_ha⟧⟦{鋭|するど}い→鋭い：02347_surudoi⟧{推理|すいり}⟦で→で：00502_de⟧⟦{犯人|はんにん}→犯人：03572_hannin⟧⟦を→を：00422_wo⟧⟦{突|つ}き{止|と}めた→突き止める：09344_tsukitomeru⟧。",
       "english": "The detective identified the culprit through sharp deduction.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "18951_suiri_ex3",
-      "japanese": "{証拠|しょうこ}から{推理|すいり}すると、{犯行|はんこう}は{深夜|しんや}に{行|おこな}われたようだ。",
+      "japanese": "⟦{証拠|しょうこ}→証拠：10575_shouko⟧⟦から→から：00504_kara⟧{推理|すいり}⟦する→する：00392_suru⟧⟦と→と：00512_to⟧、⟦{犯行|はんこう}→犯行：13472_hankou⟧⟦は→は：00079_ha⟧⟦{深夜|しんや}→深夜：00368_shinya⟧⟦に→に：00314_ni⟧⟦{行|おこな}われた→行う：01238_okonau⟧ようだ。",
       "english": "Reasoning from the evidence, it appears the crime was committed late at night.",
       "sense_numbers": [
         1
@@ -134,8 +134,52 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {推|すい} (conjecture, infer) + {理|り} (logic, reason). Refers to logical reasoning from evidence — most commonly associated with detective fiction and mystery genres.\n\nCOMMON COLLOCATIONS:\n- {推理|すいり}{小説|しょうせつ}: mystery novel, detective fiction\n- {推理|すいり}ドラマ: mystery drama/show\n- {推理|すいり}する: to reason, to deduce\n- {推理|すいり}{力|りょく}: reasoning ability\n- {鋭|するど}い{推理|すいり}: sharp deduction\n\nCONTRAST:\n- {推測|すいそく}: guess, conjecture (less rigorous, more speculative)\n- {推定|すいてい}: estimation, presumption (more objective, often statistical)\n- {論理|ろんり}: logic (abstract and academic, not detective-related)",
+  "notes": "Composed of {推|すい} (conjecture, infer) + {理|り} (logic, reason). Refers to logical reasoning from evidence — most commonly associated with detective fiction and mystery genres.\n\nCOMMON COLLOCATIONS:\n- {推理|すいり}⟦{小説|しょうせつ}→小説：01434_shousetsu⟧: mystery novel, detective fiction\n- {推理|すいり}⟦ドラマ→ドラマ：03867_dorama⟧: mystery drama/show\n- {推理|すいり}⟦する→する：00392_suru⟧: to reason, to deduce\n- {推理|すいり}{力|りょく}: reasoning ability\n- ⟦{鋭|するど}い→鋭い：02347_surudoi⟧{推理|すいり}: sharp deduction\n\nSIMILAR WORDS:\n- ⟦{推測|すいそく}→推測：12821_suisoku⟧: guess, conjecture (less rigorous, more speculative)\n- ⟦{推定|すいてい}→推定：04293_suitei⟧: estimation, presumption (more objective, often statistical)\n- ⟦{論理|ろんり}→論理：06026_ronri⟧: logic (abstract and academic, not detective-related)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12821_suisoku",
+      "reading": "すいそく",
+      "headword": "{推測|すいそく}",
+      "label": "guess, conjecture"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04293_suitei",
+      "reading": "すいてい",
+      "headword": "{推定|すいてい}",
+      "label": "estimation, presumption"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06026_ronri",
+      "reading": "ろんり",
+      "headword": "{論理|ろんり}",
+      "label": "logic"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20773_suiron",
+      "reading": "すいろん",
+      "headword": "{推論|すいろん}",
+      "label": "inference"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21807_suiryou",
+      "reading": "すいりょう",
+      "headword": "{推量|すいりょう}",
+      "label": "conjecture"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25873_nazotoki",
+      "reading": "なぞとき",
+      "headword": "なぞ{解|と}き",
+      "label": "puzzle-solving"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -151,6 +195,6 @@
       "verb_class": "suru"
     },
     "created": "2026-03-23T10:19:58Z",
-    "modified": "2026-07-26T09:39:42Z"
+    "modified": "2026-09-02T04:01:54Z"
   }
 }

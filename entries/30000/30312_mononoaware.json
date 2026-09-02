@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30312_mononoaware_ex1",
-      "japanese": "{物|もの}の{哀|あわ}れを{感|かん}じる。",
+      "japanese": "{物|もの}の{哀|あわ}れ⟦を→を：00422_wo⟧⟦{感|かん}じる→感じる：02044_kanjiru⟧。",
       "english": "I feel the pathos of things.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30312_mononoaware_ex2",
-      "japanese": "{散|ち}る{桜|さくら}に{物|もの}の{哀|あわ}れを{覚|おぼ}えた。",
+      "japanese": "⟦{散|ち}る→散る：02075_chiru⟧⟦{桜|さくら}→桜：02212_sakura⟧⟦に→に：00314_ni⟧{物|もの}の{哀|あわ}れ⟦を→を：00422_wo⟧⟦{覚|おぼ}えた→覚える：00739_oboeru⟧。",
       "english": "The falling cherry blossoms stirred a sense of the pathos of things in me.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30312_mononoaware_ex3",
-      "japanese": "{本居宣長|もとおりのりなが}は、{源氏物語|げんじものがたり}の{本質|ほんしつ}は{物|もの}の{哀|あわ}れにあると{説|と}いた。",
+      "japanese": "{本居宣長|もとおりのりなが}⟦は→は：00079_ha⟧、{源氏物語|げんじものがたり}⟦の→の：09472_no⟧⟦{本質|ほんしつ}→本質：04810_honshitsu⟧⟦は→は：00079_ha⟧{物|もの}の{哀|あわ}れ⟦に→に：00314_ni⟧⟦ある→ある：00006_aru⟧⟦と→と：00512_to⟧⟦{説|と}いた→説く：14245_toku⟧。",
       "english": "Motoori Norinaga argued that the essence of The Tale of Genji lies in mono no aware.",
       "sense_numbers": [
         1
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "Often written without kanji as もののあはれ in classical texts and as もののあわれ in modern ones. The Edo scholar {本居宣長|もとおりのりなが} made the phrase the centre of his reading of Heian literature, and it has been treated as a defining Japanese aesthetic ever since.\n\nCOMMON COLLOCATIONS:\n- {物|もの}の{哀|あわ}れを{感|かん}じる: to feel the pathos of things\n- {物|もの}の{哀|あわ}れを{知|し}る: to be sensitive to the pathos of things\n- {物|もの}の{哀|あわ}れの{美|び}: the beauty of transience\n\nSIMILAR WORDS:\n- {無常|むじょう}: impermanence — the Buddhist doctrine behind the feeling, not the feeling itself\n- {侘|わ}び{寂|さび}: wabi-sabi — beauty in simplicity and age, a related but distinct ideal\n- {切|せつ}ない: bittersweet, aching — the everyday adjective for a comparable emotion",
+  "notes": "Often written without kanji as もの⟦の→の：09472_no⟧あはれ in classical texts and as もののあわれ in modern ones. The Edo scholar {本居宣長|もとおりのりなが} made the phrase the centre of his reading of Heian literature, and it has been treated as a defining Japanese aesthetic ever since.\n\nCOMMON COLLOCATIONS:\n- {物|もの}の{哀|あわ}れ⟦を→を：00422_wo⟧⟦{感|かん}じる→感じる：02044_kanjiru⟧: to feel the pathos of things\n- {物|もの}の{哀|あわ}れ⟦を→を：00422_wo⟧⟦{知|し}る→知る：00458_shiru⟧: to be sensitive to the pathos of things\n- {物|もの}の{哀|あわ}れ⟦の→の：09472_no⟧⟦{美|び}→美：28891_bi⟧: the beauty of transience\n\nSIMILAR WORDS:\n- ⟦{無常|むじょう}→無常：13422_mujou⟧: impermanence — the Buddhist doctrine behind the feeling, not the feeling itself\n- ⟦{侘|わ}び→侘び：10655_wabi⟧{寂|さび}: wabi-sabi — beauty in simplicity and age, a related but distinct ideal\n- ⟦{切|せつ}ない→切ない：06167_setsunai⟧: bittersweet, aching — the everyday adjective for a comparable emotion",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13422_mujou",
+      "reading": "むじょう",
+      "headword": "{無常|むじょう}",
+      "label": "impermanence"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06167_setsunai",
+      "reading": "せつない",
+      "headword": "{切|せつ}ない",
+      "label": "bittersweet, aching"
+    },
+    {
+      "type": "related",
+      "target_id": "09056_yuugen",
+      "reading": "ゆうげん",
+      "headword": "{幽玄|ゆうげん}",
+      "label": "profound mystery"
+    },
+    {
+      "type": "related",
+      "target_id": "22851_mujoukan",
+      "reading": "むじょうかん",
+      "headword": "{無常感|むじょうかん}",
+      "label": "sense of impermanence"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +83,7 @@
         "noun"
       ],
       "formality": "formal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "culture",
         "emotion",
@@ -62,6 +92,6 @@
       "domain": []
     },
     "created": "2026-08-01T15:17:17Z",
-    "modified": "2026-08-01T15:17:17Z"
+    "modified": "2026-09-02T04:02:39Z"
   }
 }

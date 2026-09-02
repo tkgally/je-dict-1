@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28398_nikendonari_ex1",
-      "japanese": "{二軒隣|にけんどなり}は{花屋|はなや}だ。",
+      "japanese": "{二軒隣|にけんどなり}⟦は→は：00079_ha⟧⟦{花屋|はなや}→花屋：03136_hanaya⟧だ。",
       "english": "Two doors down is a flower shop.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28398_nikendonari_ex2",
-      "japanese": "{二軒隣|にけんどなり}の{家族|かぞく}と{仲良|なかよ}くしている。",
+      "japanese": "{二軒隣|にけんどなり}⟦の→の：09472_no⟧⟦{家族|かぞく}→家族：00552_kazoku⟧⟦と→と：00512_to⟧⟦{仲良|なかよ}く→仲良い：29434_nakayoi⟧⟦している→する：00392_suru⟧。",
       "english": "We get along well with the family two doors down.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28398_nikendonari_ex3",
-      "japanese": "{二軒隣|にけんどなり}のおじいさんが{毎朝|まいあさ}{庭|にわ}の{掃除|そうじ}をしている。",
+      "japanese": "{二軒隣|にけんどなり}⟦の→の：09472_no⟧⟦おじいさん→おじいさん：02860_ojiisan⟧⟦が→が：00051_ga⟧⟦{毎朝|まいあさ}→毎朝：00966_maiasa⟧⟦{庭|にわ}→庭：02239_niwa⟧⟦の→の：09472_no⟧⟦{掃除|そうじ}→掃除：02889_souji⟧⟦を→を：00422_wo⟧⟦している→する：00392_suru⟧。",
       "english": "The elderly man two doors down sweeps his garden every morning.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {二軒|にけん} (two buildings, using the counter 〜{軒|けん} for houses and shops) + {隣|となり} (next to). The と of {隣|となり} voices to ど in this compound.\n\nCOMMON COLLOCATIONS:\n- {二軒隣|にけんどなり}の{家|いえ}: the house two doors down\n- {二軒隣|にけんどなり}に{住|す}む: live two doors down\n\nRELATED COUNTING:\n- {隣|となり}: next door\n- {二軒隣|にけんどなり}: two doors down\n- {三軒隣|さんげんどなり}: three doors down",
+  "notes": "Compound of {二軒|にけん} (two buildings, using the counter 〜{軒|けん} for houses and shops) + ⟦{隣|となり}→隣：01003_tonari⟧ (next to). The ⟦と→と：00512_to⟧ of ⟦{隣|となり}→隣：01003_tonari⟧ voices to ど in this compound.\n\nCOMMON COLLOCATIONS:\n- {二軒隣|にけんどなり}⟦の→の：09472_no⟧⟦{家|いえ}→家：00612_ie⟧: the house two doors down\n- {二軒隣|にけんどなり}⟦に→に：00314_ni⟧⟦{住|す}む→住む：00673_sumu⟧: live two doors down\n\nRELATED COUNTING:\n- ⟦{隣|となり}→隣：01003_tonari⟧: next door\n- {二軒隣|にけんどなり}: two doors down\n- {三軒隣|さんげんどなり}: three doors down",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,7 +53,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "direction",
         "daily-life"
@@ -61,6 +61,6 @@
       "domain": []
     },
     "created": "2026-05-30T04:08:44Z",
-    "modified": "2026-08-08T18:34:17Z"
+    "modified": "2026-09-02T04:02:33Z"
   }
 }

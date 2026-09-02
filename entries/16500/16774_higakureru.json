@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "16774_higakureru_ex1",
-      "japanese": "{日|ひ}が{暮|く}れるのが{早|はや}くなった。",
+      "japanese": "{日|ひ}が{暮|く}れる⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦{早|はや}く→早い：00514_hayai⟧⟦なった→なる：01970_naru⟧。",
       "english": "The sun has started setting earlier.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "16774_higakureru_ex2",
-      "japanese": "{日|ひ}が{暮|く}れる{前|まえ}に{家|いえ}に{帰|かえ}りなさい。",
+      "japanese": "{日|ひ}が{暮|く}れる⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧⟦{家|いえ}→家：00612_ie⟧⟦に→に：00314_ni⟧⟦{帰|かえ}り→帰る：00508_kaeru⟧⟦なさい→なさる：01307_nasaru⟧。",
       "english": "Come home before it gets dark.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "16774_higakureru_ex3",
-      "japanese": "{冬|ふゆ}になると{日|ひ}が{暮|く}れるのが{早|はや}いので、{四時|よじ}にはもう{暗|くら}くなっている。",
+      "japanese": "⟦{冬|ふゆ}→冬：00623_fuyu⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦と→と：00512_to⟧{日|ひ}が{暮|く}れる⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦{早|はや}い→早い：00514_hayai⟧⟦の→の：09472_no⟧で、⟦{四時|よじ}→四時：30328_yoji⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦もう→もう：00602_mou⟧⟦{暗|くら}く→暗い：00647_kurai⟧⟦なっている→なる：01970_naru⟧。",
       "english": "In winter the sun sets early, so it's already dark by four o'clock.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,19 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA very common everyday expression. The subject {日|ひ} refers to the sun/daylight. {暮|く}れる means to come to an end or to darken. Often used to talk about seasonal changes in daylight hours.\n\nCOMMON PATTERNS:\n- {日|ひ}が{暮|く}れる{前|まえ}に (before sunset)\n- {日|ひ}が{暮|く}れるのが{早|はや}い (the sun sets early)\n- {日|ひ}が{暮|く}れてから (after dark)\n\nRELATED EXPRESSIONS:\n- {日|ひ}が{沈|しず}む: the sun sinks/sets — focuses on the physical sun\n- {夕暮|ゆうぐ}れ: dusk, twilight — the time period itself",
-  "cross_references": [],
+  "notes": "USAGE:\nA very common everyday expression. The subject ⟦{日|ひ}→日：02249_hi⟧ refers to the sun/daylight. {暮|く}れる means to come to an end or to darken. Often used to talk about seasonal changes in daylight hours.\n\nCOMMON PATTERNS:\n- {日|ひ}が{暮|く}れる⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧ (before sunset)\n- {日|ひ}が{暮|く}れる⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦{早|はや}い→早い：00514_hayai⟧ (the sun sets early)\n- {日|ひ}が{暮|く}れて⟦から→から：00504_kara⟧ (after dark)\n\nRELATED WORDS:\n- ⟦{日|ひ}→日：02249_hi⟧⟦が→が：00051_ga⟧⟦{沈|しず}む→沈む：02061_shizumu⟧: the sun sinks/sets — focuses on the physical sun\n- ⟦{夕暮|ゆうぐ}れ→夕暮れ：07682_yuugure⟧: dusk, twilight — the time period itself",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "07682_yuugure",
+      "reading": "ゆうぐれ",
+      "headword": "{夕暮|ゆうぐ}れ",
+      "label": "dusk, twilight"
+    }
+  ],
   "metadata": {
     "created": "2026-03-14T06:28:39Z",
-    "modified": "2026-07-21T06:41:24Z",
+    "modified": "2026-09-02T04:01:46Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

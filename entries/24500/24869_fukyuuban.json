@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24869_fukyuuban_ex1",
-      "japanese": "この{辞典|じてん}の{普及版|ふきゅうばん}が{出|で}た。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{辞典|じてん}→辞典：01640_jiten⟧⟦の→の：09472_no⟧{普及版|ふきゅうばん}⟦が→が：00051_ga⟧⟦{出|で}た→出る：00513_deru⟧。",
       "english": "A popular edition of this dictionary was released.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24869_fukyuuban_ex2",
-      "japanese": "{学生|がくせい}には{普及版|ふきゅうばん}をお{勧|すす}めします。",
+      "japanese": "⟦{学生|がくせい}→学生：00610_gakusei⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{普及版|ふきゅうばん}⟦を→を：00422_wo⟧お⟦{勧|すす}め→勧める：02120_susumeru⟧⟦します→する：00392_suru⟧。",
       "english": "I recommend the affordable edition for students.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24869_fukyuuban_ex3",
-      "japanese": "{豪華版|ごうかばん}は{高|たか}すぎたので、{後|あと}から{発売|はつばい}された{普及版|ふきゅうばん}を{買|か}った。",
+      "japanese": "⟦{豪華版|ごうかばん}→豪華版：24861_goukaban⟧⟦は→は：00079_ha⟧{高|たか}すぎた⟦の→の：09472_no⟧で、⟦{後|あと}→後：09580_ato⟧⟦から→から：00504_kara⟧⟦{発売|はつばい}→発売：04315_hatsubai⟧⟦された→する：00392_suru⟧{普及版|ふきゅうばん}⟦を→を：00422_wo⟧⟦{買|か}った→買う：00489_kau⟧。",
       "english": "The deluxe edition was too expensive, so I bought the popular edition that came out later.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {普及|ふきゅう} (dissemination/spread) + {版|ばん} (edition). The emphasis is on making content accessible to a wide audience at a reasonable price. Common in publishing for books, dictionaries, and encyclopedias.\n\nCOMMON COLLOCATIONS:\n- {普及版|ふきゅうばん}を{出|だ}す: to release a popular edition\n- {普及版|ふきゅうばん}{価格|かかく}: affordable-edition pricing\n- {新書|しんしょ}{普及版|ふきゅうばん}: mass-market paperback edition\n\nSIMILAR WORDS:\n- {豪華版|ごうかばん}: deluxe edition — the higher-end counterpart\n- {文庫版|ぶんこばん}: pocket paperback edition — specifically the small A6-format paperbacks common in Japan\n- {通常版|つうじょうばん}: standard edition — neutral term without the \"affordable\" connotation\n- {廉価版|れんかばん}: bargain edition — explicitly emphasizes low price",
+  "notes": "Composed of ⟦{普及|ふきゅう}→普及：07592_fukyuu⟧ (dissemination/spread) + {版|ばん} (edition). The emphasis is on making content accessible to a wide audience at a reasonable price. Common in publishing for books, dictionaries, and encyclopedias.\n\nCOMMON COLLOCATIONS:\n- {普及版|ふきゅうばん}⟦を→を：00422_wo⟧⟦{出|だ}す→出す：01087_dasu⟧: to release a popular edition\n- {普及版|ふきゅうばん}⟦{価格|かかく}→価格：00147_kakaku⟧: affordable-edition pricing\n- ⟦{新書|しんしょ}→新書：16406_shinsho⟧{普及版|ふきゅうばん}: mass-market paperback edition\n\nSIMILAR WORDS:\n- ⟦{豪華版|ごうかばん}→豪華版：24861_goukaban⟧: deluxe edition — the higher-end counterpart\n- {文庫版|ぶんこばん}: pocket paperback edition — specifically the small A6-format paperbacks common in Japan\n- {通常版|つうじょうばん}: standard edition — neutral term without the \"affordable\" connotation\n- {廉価版|れんかばん}: bargain edition — explicitly emphasizes low price",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24861_goukaban",
+      "reading": "ごうかばん",
+      "headword": "{豪華版|ごうかばん}",
+      "label": "deluxe edition"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +68,6 @@
       ]
     },
     "created": "2026-04-21T10:34:22Z",
-    "modified": "2026-08-03T21:48:00Z"
+    "modified": "2026-09-02T04:02:20Z"
   }
 }

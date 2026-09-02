@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25081_jusha_ex1",
-      "japanese": "{江戸|えど}{時代|じだい}には{多|おお}くの{儒者|じゅしゃ}がいた。",
+      "japanese": "⟦{江戸|えど}{時代|じだい}→江戸時代：20431_edojidai⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{多|おお}く⟦の→の：09472_no⟧{儒者|じゅしゃ}がいた。",
       "english": "There were many Confucian scholars during the Edo period.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25081_jusha_ex2",
-      "japanese": "{儒者|じゅしゃ}たちは{藩|はん}の{政治|せいじ}にも{大|おお}きな{影響|えいきょう}を{与|あた}えた。",
+      "japanese": "{儒者|じゅしゃ}たち⟦は→は：00079_ha⟧⟦{藩|はん}→藩：14124_han⟧⟦の→の：09472_no⟧⟦{政治|せいじ}→政治：01629_seiji⟧⟦に→に：00314_ni⟧⟦も→も：00484_mo⟧⟦{大|おお}きな→大きな：02849_ookina⟧⟦{影響|えいきょう}→影響：01877_eikyou⟧⟦を→を：00422_wo⟧⟦{与|あた}えた→与える：01821_ataeru⟧。",
       "english": "Confucian scholars also had a great influence on domain politics.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25081_jusha_ex3",
-      "japanese": "{有名|ゆうめい}な{儒者|じゅしゃ}である{荻生徂徠|おぎゅうそらい}は、{独自|どくじ}の{学問|がくもん}{体系|たいけい}を{築|きず}いた。",
+      "japanese": "⟦{有名|ゆうめい}→有名：01106_yuumei⟧な{儒者|じゅしゃ}⟦である→である：09855_dearu⟧{荻生徂徠|おぎゅうそらい}⟦は→は：00079_ha⟧、⟦{独自|どくじ}→独自：05614_dokuji⟧⟦の→の：09472_no⟧⟦{学問|がくもん}→学問：02604_gakumon⟧⟦{体系|たいけい}→体系：04487_taikei⟧⟦を→を：00422_wo⟧⟦{築|きず}いた→築く：02046_kizuku⟧。",
       "english": "The famous Confucian scholar Ogyu Sorai established his own system of learning.",
       "sense_numbers": [
         1
@@ -44,14 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Refers specifically to scholars of Confucianism ({儒学|じゅがく}), a philosophical tradition originating in China that emphasizes ethics, social harmony, and proper governance. In Japan, Confucian scholars were particularly influential during the Edo period (1603-1868), when the Tokugawa shogunate adopted Neo-Confucianism as its official ideology.\n\nCOMMON COLLOCATIONS:\n- {儒者|じゅしゃ}の{教|おし}え: teachings of Confucian scholars\n- {儒者|じゅしゃ}として{仕|つか}える: to serve as a Confucian scholar/advisor\n- {御用|ごよう}{儒者|じゅしゃ}: a Confucian scholar in official government service\n\nSIMILAR WORDS:\n- {儒学者|じゅがくしゃ}: Confucian scholar — a synonymous but slightly more formal compound\n- {学者|がくしゃ}: scholar — a general term for any academic or learned person\n- {朱子学者|しゅしがくしゃ}: Neo-Confucian scholar — specifically a follower of Zhu Xi's school of thought\n- {国学者|こくがくしゃ}: scholar of National Learning — scholars who studied Japan's native traditions as a counterpoint to Chinese Confucianism",
+  "notes": "Refers specifically to scholars of Confucianism ({儒学|じゅがく}), a philosophical tradition originating in China that emphasizes ethics, social harmony, and proper governance. In Japan, Confucian scholars were particularly influential during the Edo period (1603-1868), when the Tokugawa shogunate adopted Neo-Confucianism as its official ideology.\n\nCOMMON COLLOCATIONS:\n- {儒者|じゅしゃ}⟦の→の：09472_no⟧⟦{教|おし}え→教え：01909_oshie⟧: teachings of Confucian scholars\n- {儒者|じゅしゃ}⟦として→として：06802_toshite⟧⟦{仕|つか}える→仕える：11547_tsukaeru⟧: to serve as a Confucian scholar/advisor\n- ⟦{御用|ごよう}→御用：12848_goyou⟧{儒者|じゅしゃ}: a Confucian scholar in official government service\n\nSIMILAR WORDS:\n- {儒学者|じゅがくしゃ}: Confucian scholar — a synonymous but slightly more formal compound\n- ⟦{学者|がくしゃ}→学者：02544_gakusha⟧: scholar — a general term for any academic or learned person\n- {朱子学者|しゅしがくしゃ}: Neo-Confucian scholar — specifically a follower of Zhu Xi's school of thought\n- {国学者|こくがくしゃ}: scholar of National Learning — scholars who studied Japan's native traditions as a counterpoint to Chinese Confucianism",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02544_gakusha",
+      "reading": "がくしゃ",
+      "headword": "{学者|がくしゃ}",
+      "label": "scholar"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "history",
         "culture",
@@ -59,6 +69,6 @@
       ]
     },
     "created": "2026-04-22T13:23:37Z",
-    "modified": "2026-04-22T13:23:37Z"
+    "modified": "2026-09-02T04:02:21Z"
   }
 }

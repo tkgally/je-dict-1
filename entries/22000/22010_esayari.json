@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22010_esayari_ex1",
-      "japanese": "{餌|えさ}やりは{禁止|きんし}です。",
+      "japanese": "{餌|えさ}やり⟦は→は：00079_ha⟧⟦{禁止|きんし}→禁止：02643_kinshi⟧です。",
       "english": "Feeding is prohibited.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22010_esayari_ex2",
-      "japanese": "{毎朝|まいあさ}{金魚|きんぎょ}の{餌|えさ}やりをする。",
+      "japanese": "⟦{毎朝|まいあさ}→毎朝：00966_maiasa⟧⟦{金魚|きんぎょ}→金魚：00233_kingyo⟧⟦の→の：09472_no⟧{餌|えさ}やり⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧。",
       "english": "I feed the goldfish every morning.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22010_esayari_ex3",
-      "japanese": "{動物園|どうぶつえん}では{来場者|らいじょうしゃ}が{参加|さんか}できる{餌|えさ}やり{体験|たいけん}が{人気|にんき}だ。",
+      "japanese": "⟦{動物園|どうぶつえん}→動物園：01686_doubutsuen⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{来場者|らいじょうしゃ}→来場者：19023_raijousha⟧⟦が→が：00051_ga⟧⟦{参加|さんか}できる→参加する：25408_sankasuru⟧{餌|えさ}やり⟦{体験|たいけん}→体験：11443_taiken⟧⟦が→が：00051_ga⟧⟦{人気|にんき}→人気：01488_ninki⟧だ。",
       "english": "At the zoo, the feeding experience that visitors can participate in is popular.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {餌|えさ} (feed; bait) and やり (giving). Very commonly seen on signs in parks, zoos, and public areas where feeding wild animals is restricted.\n\nCOMMON COLLOCATIONS:\n- {餌|えさ}やり{禁止|きんし}: no feeding (sign)\n- {餌|えさ}やりをする: to feed (animals)\n- {餌|えさ}やりの{時間|じかん}: feeding time\n- {餌|えさ}やり{体験|たいけん}: feeding experience (at a zoo or farm)\n\nSIMILAR WORDS:\n- {給餌|きゅうじ}: feeding — formal/technical term used in agriculture and animal husbandry\n- {餌付|えづ}け: taming animals with food; habituating wild animals to being fed — often has a negative connotation when done to wild animals\n\nUSAGE:\nThe phrase {餌|えさ}やり{禁止|きんし} (no feeding) is one of the most common signs in Japanese parks and tourist areas, especially around deer, pigeons, and stray cats.",
+  "notes": "A compound of ⟦{餌|えさ}→餌：01886_esa⟧ (feed; bait) and ⟦やり→やる：02980_yaru⟧ (giving). Very commonly seen on signs in parks, zoos, and public areas where feeding wild animals is restricted.\n\nCOMMON COLLOCATIONS:\n- {餌|えさ}やり⟦{禁止|きんし}→禁止：02643_kinshi⟧: no feeding (sign)\n- {餌|えさ}やり⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧: to feed (animals)\n- {餌|えさ}やり⟦の→の：09472_no⟧⟦{時間|じかん}→時間：00468_jikan⟧: feeding time\n- {餌|えさ}やり⟦{体験|たいけん}→体験：11443_taiken⟧: feeding experience (at a zoo or farm)\n\nSIMILAR WORDS:\n- {給餌|きゅうじ}: feeding — formal/technical term used in agriculture and animal husbandry\n- ⟦{餌付|えづ}け→餌付け：19231_ezuke⟧: taming animals with food; habituating wild animals to being fed — often has a negative connotation when done to wild animals\n\nUSAGE:\nThe phrase {餌|えさ}やり⟦{禁止|きんし}→禁止：02643_kinshi⟧ (no feeding) is one of the most common signs in Japanese parks and tourist areas, especially around deer, pigeons, and stray cats.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19231_ezuke",
+      "reading": "えづけ",
+      "headword": "{餌付|えづ}け",
+      "label": "taming animals with food"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +69,6 @@
       ]
     },
     "created": "2026-04-04T20:22:25Z",
-    "modified": "2026-07-30T03:35:34Z"
+    "modified": "2026-09-02T04:02:06Z"
   }
 }

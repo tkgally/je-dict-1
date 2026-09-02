@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08425_komyunikeeshon_ex1",
-      "japanese": "コミュニケーションが{大切|たいせつ}だ。",
+      "japanese": "コミュニケーション⟦が→が：00051_ga⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧だ。",
       "english": "Communication is important.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "08425_komyunikeeshon_ex2",
-      "japanese": "{彼|かれ}とはコミュニケーションが{取|と}りにくい。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦と→と：00512_to⟧⟦は→は：00079_ha⟧コミュニケーション⟦が→が：00051_ga⟧⟦{取|と}り→取る：00565_toru⟧にくい。",
       "english": "It's hard to communicate with him.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "08425_komyunikeeshon_ex3",
-      "japanese": "チーム{内|ない}のコミュニケーションを{改善|かいぜん}する{必要|ひつよう}がある。",
+      "japanese": "⟦チーム→チーム：03858_chiimu⟧⟦{内|ない}→〜内：09853_nai⟧⟦の→の：09472_no⟧コミュニケーション⟦を→を：00422_wo⟧⟦{改善|かいぜん}する→改善する：26828_kaizensuru⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "We need to improve communication within the team.",
       "sense_numbers": [
         1
@@ -43,7 +43,23 @@
       "notes": null
     }
   ],
-  "notes": "コミュニケーション covers interpersonal communication broadly — exchanging ideas, feelings, and information. It is used in both everyday and business/academic contexts.\n\nLOANWORD:\nFrom English \"communication.\"\n\nCOMMON COLLOCATIONS:\n- コミュニケーションを{取|と}る (to communicate)\n- コミュニケーション{能力|のうりょく} (communication skills)\n- コミュニケーション{不足|ぶそく} (lack of communication)\n- コミュニケーションを{図|はか}る (to seek to communicate)\n\nABBREVIATIONS:\nOften shortened to コミュ in casual compound words:\n- コミュ{力|りょく} (communication ability — slang)\n- コミュ{障|しょう} (communication disorder — colloquial, sometimes offensive)\n\nUSAGE:\nUnlike English, the verb pairing is コミュニケーションを{取|と}る (literally \"take communication\"), not する.",
+  "notes": "コミュニケーション covers interpersonal communication broadly — exchanging ideas, feelings, and information. It is used in both everyday and business/academic contexts.\n\nLOANWORD:\nFrom English \"communication.\"\n\nCOMMON COLLOCATIONS:\n- コミュニケーション⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧ (to communicate)\n- コミュニケーション⟦{能力|のうりょく}→能力：03541_nouryoku⟧ (communication skills)\n- コミュニケーション{不足|ぶそく} (lack of communication)\n- コミュニケーション⟦を→を：00422_wo⟧⟦{図|はか}る→図る：12006_hakaru⟧ (to seek to communicate)\n\nFORMS:\nOften shortened to コミュ in casual compound words:\n- ⟦コミュ{力|りょく}→コミュ力：08820_komyuryoku⟧ (communication ability — slang)\n- ⟦コミュ{障|しょう}→コミュ障：06461_komyushou⟧ (communication disorder — colloquial, sometimes offensive)\n\nUSAGE:\nUnlike English, the verb pairing is コミュニケーション⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧ (literally \"take communication\"), not ⟦する→する：00392_suru⟧.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18049_sotsuu",
+      "reading": "そつう",
+      "headword": "{疎通|そつう}",
+      "label": "communication"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20932_fureai",
+      "reading": "ふれあい",
+      "headword": "ふれあい",
+      "label": "interaction"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -51,6 +67,7 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "society",
         "business"
@@ -58,6 +75,6 @@
       "loanword": "English"
     },
     "created": "2026-01-27T00:58:00Z",
-    "modified": "2026-08-11T21:34:29Z"
+    "modified": "2026-09-02T04:01:15Z"
   }
 }

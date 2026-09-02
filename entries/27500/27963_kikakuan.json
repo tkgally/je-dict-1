@@ -15,41 +15,69 @@
   "examples": [
     {
       "id": "27963_kikakuan_ex1",
-      "japanese": "{企画案|きかくあん}を{出|だ}す。",
+      "japanese": "{企画案|きかくあん}⟦を→を：00422_wo⟧⟦{出|だ}す→出す：01087_dasu⟧。",
       "english": "I submit a project proposal.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27963_kikakuan_ex2",
-      "japanese": "{会議|かいぎ}で{新|あたら}しい{企画案|きかくあん}を{説明|せつめい}した。",
+      "japanese": "⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦で→で：00502_de⟧⟦{新|あたら}しい→新しい：00506_atarashii⟧{企画案|きかくあん}⟦を→を：00422_wo⟧⟦{説明|せつめい}した→説明する：05639_setsumeisuru⟧。",
       "english": "I explained the new project proposal at the meeting.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27963_kikakuan_ex3",
-      "japanese": "{部長|ぶちょう}に{企画案|きかくあん}を{何度|なんど}も{書|か}き{直|なお}すように{言|い}われた。",
+      "japanese": "⟦{部長|ぶちょう}→部長：01017_buchou⟧⟦に→に：00314_ni⟧{企画案|きかくあん}⟦を→を：00422_wo⟧⟦{何度|なんど}→何度：17592_nando⟧⟦も→も：00484_mo⟧⟦{書|か}き{直|なお}す→書き直す：04597_kakinaosu⟧よう⟦に→に：00314_ni⟧⟦{言|い}われた→言う：00515_iu⟧。",
       "english": "The department head told me to rewrite the project proposal many times.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Common in business: a written proposal for an event, campaign, or new product that is presented for approval. The {案|あん} suffix marks it as a draft idea still open to revision.\n\nCOMMON COLLOCATIONS:\n- {企画案|きかくあん}を{出|だ}す・{提出|ていしゅつ}する: to submit a proposal\n- {企画案|きかくあん}を{練|ね}る: to work out / refine a proposal\n- {企画案|きかくあん}が{通|とお}る: a proposal is approved\n\nSIMILAR WORDS:\n- {改善案|かいぜんあん}: improvement proposal — focuses on fixing an existing situation\n- {提案|ていあん}: proposal, suggestion — the general act of proposing",
+  "notes": "Common in business: a written proposal for an event, campaign, or new product that is presented for approval. The ⟦{案|あん}→案：01776_an⟧ suffix marks it as a draft idea still open to revision.\n\nCOMMON COLLOCATIONS:\n- {企画案|きかくあん}⟦を→を：00422_wo⟧⟦{出|だ}す→出す：01087_dasu⟧・⟦{提出|ていしゅつ}する→提出する：19644_teishutsusuru⟧: to submit a proposal\n- {企画案|きかくあん}⟦を→を：00422_wo⟧⟦{練|ね}る→練る：09751_neru⟧: to work out / refine a proposal\n- {企画案|きかくあん}⟦が→が：00051_ga⟧⟦{通|とお}る→通る：01243_tooru⟧: a proposal is approved\n\nSIMILAR WORDS:\n- ⟦{改善案|かいぜんあん}→改善案：27964_kaizenan⟧: improvement proposal — focuses on fixing an existing situation\n- ⟦{提案|ていあん}→提案：03536_teian⟧: proposal, suggestion — the general act of proposing",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "27964_kaizenan",
+      "reading": "かいぜんあん",
+      "headword": "{改善案|かいぜんあん}",
+      "label": "improvement proposal"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03536_teian",
+      "reading": "ていあん",
+      "headword": "{提案|ていあん}",
+      "label": "proposal, suggestion"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["work"],
-      "domain": ["business"]
+      "semantic": [
+        "work"
+      ],
+      "domain": [
+        "business"
+      ]
     },
     "created": "2026-05-23T04:06:38Z",
-    "modified": "2026-05-23T04:06:38Z"
+    "modified": "2026-09-02T04:02:32Z"
   }
 }

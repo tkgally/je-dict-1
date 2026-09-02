@@ -3,7 +3,7 @@
   "id": "14556_hakudaku",
   "headword": "{白濁|はくだく}",
   "reading": "はくだく",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "cloudiness; turbidity; milky white",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "14556_hakudaku_ex1",
-      "japanese": "スープが{白濁|はくだく}している。",
+      "japanese": "⟦スープ→スープ：00395_suupu⟧⟦が→が：00051_ga⟧{白濁|はくだく}⟦している→する：00392_suru⟧。",
       "english": "The soup is cloudy white.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "14556_hakudaku_ex2",
-      "japanese": "この{温泉|おんせん}は{白濁|はくだく}した{湯|ゆ}が{特徴|とくちょう}だ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{温泉|おんせん}→温泉：04117_onsen⟧⟦は→は：00079_ha⟧{白濁|はくだく}⟦した→する：00392_suru⟧⟦{湯|ゆ}→湯：01740_yu⟧⟦が→が：00051_ga⟧⟦{特徴|とくちょう}→特徴：03456_tokuchou⟧だ。",
       "english": "This hot spring is known for its milky white water.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "14556_hakudaku_ex3",
-      "japanese": "{豚骨|とんこつ}ラーメンの{白濁|はくだく}スープは{骨|ほね}を{長時間|ちょうじかん}{煮込|にこ}んで{作|つく}る。",
+      "japanese": "⟦{豚骨|とんこつ}→豚骨：17669_tonkotsu⟧⟦ラーメン→ラーメン：05181_raamen⟧⟦の→の：09472_no⟧{白濁|はくだく}⟦スープ→スープ：00395_suupu⟧⟦は→は：00079_ha⟧⟦{骨|ほね}→骨：02166_hone⟧⟦を→を：00422_wo⟧⟦{長時間|ちょうじかん}→長時間：10165_choujikan⟧⟦{煮込|にこ}んで→煮込む：05822_nikomu⟧⟦{作|つく}る→作る：00481_tsukuru⟧。",
       "english": "The milky white broth of tonkotsu ramen is made by simmering bones for a long time.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,11 @@
       ]
     }
   ],
-  "notes": "A する verb. Describes a liquid turning opaque and whitish. Commonly encountered in food descriptions (especially ramen and hot pot) and when describing hot springs.\n\nCOMMON COLLOCATIONS:\n- {白濁|はくだく}したスープ (cloudy white soup)\n- {白濁|はくだく}した{湯|ゆ} (milky hot spring water)\n- {白濁|はくだく}{色|いろ} (milky white color)\n\nIn medical contexts, {白濁|はくだく} can describe cloudy urine or other bodily fluids, where it may indicate a health concern.",
+  "notes": "A ⟦する→する：00392_suru⟧ verb. Describes a liquid turning opaque and whitish. Commonly encountered in food descriptions (especially ramen and hot pot) and when describing hot springs.\n\nCOMMON COLLOCATIONS:\n- {白濁|はくだく}⟦した→する：00392_suru⟧⟦スープ→スープ：00395_suupu⟧ (cloudy white soup)\n- {白濁|はくだく}⟦した→する：00392_suru⟧⟦{湯|ゆ}→湯：01740_yu⟧ (milky hot spring water)\n- {白濁|はくだく}⟦{色|いろ}→色：00849_iro⟧ (milky white color)\n\nIn medical contexts, {白濁|はくだく} can describe cloudy urine or other bodily fluids, where it may indicate a health concern.",
   "cross_references": [],
   "metadata": {
     "created": "2026-03-02T06:31:21Z",
-    "modified": "2026-03-29T03:08:18Z",
+    "modified": "2026-09-02T04:01:37Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -151,7 +151,8 @@
       "semantic": [
         "color"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

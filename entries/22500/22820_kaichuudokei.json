@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22820_kaichuudokei_ex1",
-      "japanese": "{祖父|そふ}の{懐中時計|かいちゅうどけい}をもらった。",
+      "japanese": "⟦{祖父|そふ}→祖父：01452_sofu⟧⟦の→の：09472_no⟧{懐中時計|かいちゅうどけい}⟦を→を：00422_wo⟧⟦もらった→もらう：00520_morau⟧。",
       "english": "I received my grandfather's pocket watch.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22820_kaichuudokei_ex2",
-      "japanese": "{金|きん}の{懐中時計|かいちゅうどけい}を{持|も}っている。",
+      "japanese": "{金|きん}⟦の→の：09472_no⟧{懐中時計|かいちゅうどけい}⟦を→を：00422_wo⟧⟦{持|も}っている→持つ：00478_motsu⟧。",
       "english": "I have a gold pocket watch.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22820_kaichuudokei_ex3",
-      "japanese": "{彼|かれ}はポケットから{懐中時計|かいちゅうどけい}を{取|と}り{出|だ}して{時間|じかん}を{確認|かくにん}した。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦ポケット→ポケット：02964_poketto⟧⟦から→から：00504_kara⟧{懐中時計|かいちゅうどけい}⟦を→を：00422_wo⟧⟦{取|と}り{出|だ}して→取り出す：04220_toridasu⟧⟦{時間|じかん}→時間：00468_jikan⟧⟦を→を：00422_wo⟧⟦{確認|かくにん}した→確認する：25332_kakuninsuru⟧。",
       "english": "He took out a pocket watch from his pocket and checked the time.",
       "sense_numbers": [
         1
@@ -44,19 +44,37 @@
       "notes": null
     }
   ],
-  "notes": "A small clock carried in a pocket, typically attached to a chain. A compound of {懐中|かいちゅう} (in one's pocket; on one's person) and {時計|どけい} (clock/watch). Although no longer a common everyday item, pocket watches appear frequently in literature, period dramas, and as collector's items.\n\nCOMMON COLLOCATIONS:\n- {懐中時計|かいちゅうどけい}の{鎖|くさり}: pocket watch chain\n- {懐中時計|かいちゅうどけい}を{開|ひら}く: to open a pocket watch\n- {金|きん}の{懐中時計|かいちゅうどけい}: a gold pocket watch\n- アンティークの{懐中時計|かいちゅうどけい}: an antique pocket watch\n\nRELATED TERMS:\n- {腕時計|うでどけい}: wristwatch\n- {懐中|かいちゅう}{電灯|でんとう}: flashlight (another {懐中|かいちゅう} compound)\n- {時計|とけい}: clock; watch",
+  "notes": "A small clock carried in a pocket, typically attached to a chain. A compound of ⟦{懐中|かいちゅう}→懐中：22597_kaichuu⟧ (in one's pocket; on one's person) and {時計|どけい} (clock/watch). Although no longer a common everyday item, pocket watches appear frequently in literature, period dramas, and as collector's items.\n\nCOMMON COLLOCATIONS:\n- {懐中時計|かいちゅうどけい}⟦の→の：09472_no⟧⟦{鎖|くさり}→鎖：02658_kusari⟧: pocket watch chain\n- {懐中時計|かいちゅうどけい}⟦を→を：00422_wo⟧⟦{開|ひら}く→開く：01979_hiraku⟧: to open a pocket watch\n- {金|きん}⟦の→の：09472_no⟧{懐中時計|かいちゅうどけい}: a gold pocket watch\n- ⟦アンティーク→アンティーク：30728_antiiku⟧⟦の→の：09472_no⟧{懐中時計|かいちゅうどけい}: an antique pocket watch\n\nRELATED WORDS:\n- ⟦{腕時計|うでどけい}→腕時計：04538_udedokei⟧: wristwatch\n- ⟦{懐中|かいちゅう}{電灯|でんとう}→懐中電灯：05479_kaichuudentou⟧: flashlight (another ⟦{懐中|かいちゅう}→懐中：22597_kaichuu⟧ compound)\n- ⟦{時計|とけい}→時計：00677_tokei⟧: clock; watch",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "04538_udedokei",
+      "reading": "うでどけい",
+      "headword": "{腕時計|うでどけい}",
+      "label": "wristwatch"
+    },
+    {
+      "type": "related",
+      "target_id": "05479_kaichuudentou",
+      "reading": "かいちゅうでんとう",
+      "headword": "{懐中電灯|かいちゅうでんとう}",
+      "label": "flashlight"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "daily-life"
       ]
     },
     "created": "2026-04-07T17:08:49Z",
-    "modified": "2026-04-07T17:08:49Z"
+    "modified": "2026-09-02T04:02:09Z"
   }
 }

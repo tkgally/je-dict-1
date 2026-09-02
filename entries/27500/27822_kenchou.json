@@ -15,41 +15,61 @@
   "examples": [
     {
       "id": "27822_kenchou_ex1",
-      "japanese": "{県庁|けんちょう}に{勤|つと}めている。",
+      "japanese": "{県庁|けんちょう}⟦に→に：00314_ni⟧⟦{勤|つと}めている→勤める：00902_tsutomeru⟧。",
       "english": "I work at the prefectural government office.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27822_kenchou_ex2",
-      "japanese": "その{手続|てつづ}きは{県庁|けんちょう}でできる。",
+      "japanese": "⟦その→その：00993_sono⟧⟦{手続|てつづ}き→手続き：05453_tetsuzuki⟧⟦は→は：00079_ha⟧{県庁|けんちょう}⟦で→で：00502_de⟧⟦できる→できる：00557_dekiru⟧。",
       "english": "You can do that procedure at the prefectural office.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27822_kenchou_ex3",
-      "japanese": "{県庁|けんちょう}{所在地|しょざいち}は、その{県|けん}で{最|もっと}も{人口|じんこう}が{多|おお}い{都市|とし}とは{限|かぎ}らない。",
+      "japanese": "{県庁|けんちょう}⟦{所在地|しょざいち}→所在地：15409_shozaichi⟧⟦は→は：00079_ha⟧、⟦その→その：00993_sono⟧⟦{県|けん}→県：02151_ken⟧⟦で→で：00502_de⟧⟦{最|もっと}も→最も：01736_mottomo⟧⟦{人口|じんこう}→人口：01618_jinkou⟧⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧⟦{都市|とし}→都市：01477_toshi⟧⟦と→と：00512_to⟧⟦は→は：00079_ha⟧⟦{限|かぎ}らない→限る：02033_kagiru⟧。",
       "english": "The city where the prefectural office is located is not necessarily the most populous city in the prefecture.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "The administrative headquarters of a {県|けん} (prefecture). Can refer to the building itself or to the prefectural government as an organization.\n\nCOMMON COLLOCATIONS:\n- {県庁|けんちょう}{所在地|しょざいち}: the prefectural capital (city where the office sits)\n- {県庁|けんちょう}に{勤|つと}める: to work at the prefectural office\n- {県庁|けんちょう}{前|まえ}: in front of the prefectural office (a common place name)\n\nSIMILAR WORDS:\n- {市役所|しやくしょ}: city hall — the equivalent office at the municipal level\n- {都庁|とちょう}: Tokyo Metropolitan Government office — the equivalent for {東京都|とうきょうと}",
+  "notes": "The administrative headquarters of a ⟦{県|けん}→県：02151_ken⟧ (prefecture). Can refer to the building itself or to the prefectural government as an organization.\n\nCOMMON COLLOCATIONS:\n- {県庁|けんちょう}⟦{所在地|しょざいち}→所在地：15409_shozaichi⟧: the prefectural capital (city where the office sits)\n- {県庁|けんちょう}⟦に→に：00314_ni⟧⟦{勤|つと}める→勤める：00902_tsutomeru⟧: to work at the prefectural office\n- {県庁|けんちょう}{前|まえ}: in front of the prefectural office (a common place name)\n\nSIMILAR WORDS:\n- ⟦{市役所|しやくしょ}→市役所：03067_shiyakusho⟧: city hall — the equivalent office at the municipal level\n- {都庁|とちょう}: Tokyo Metropolitan Government office — the equivalent for {東京都|とうきょうと}",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03067_shiyakusho",
+      "reading": "しやくしょ",
+      "headword": "{市役所|しやくしょ}",
+      "label": "city hall"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["society", "building"],
+      "politeness": "plain",
+      "semantic": [
+        "society",
+        "building"
+      ],
       "domain": []
     },
     "created": "2026-05-19T04:03:25Z",
-    "modified": "2026-05-19T04:03:25Z"
+    "modified": "2026-09-02T04:02:31Z"
   }
 }

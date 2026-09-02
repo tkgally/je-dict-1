@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28028_isshunde_ex1",
-      "japanese": "{一瞬|いっしゅん}で{消|き}えた。",
+      "japanese": "{一瞬|いっしゅん}で⟦{消|き}えた→消える：02520_kieru⟧。",
       "english": "It vanished in an instant.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28028_isshunde_ex2",
-      "japanese": "{火|ひ}は{一瞬|いっしゅん}で{広|ひろ}がった。",
+      "japanese": "⟦{火|ひ}→火：02248_hi⟧⟦は→は：00079_ha⟧{一瞬|いっしゅん}で⟦{広|ひろ}がった→広がる：01980_hirogaru⟧。",
       "english": "The fire spread in a flash.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28028_isshunde_ex3",
-      "japanese": "{彼|かれ}の{一言|ひとこと}で、{場|ば}の{空気|くうき}が{一瞬|いっしゅん}で{変|か}わった。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧⟦{一言|ひとこと}→一言：03708_hitokoto⟧で、⟦{場|ば}→場：03699_ba⟧⟦の→の：09472_no⟧⟦{空気|くうき}→空気：01390_kuuki⟧⟦が→が：00051_ga⟧{一瞬|いっしゅん}で⟦{変|か}わった→変わる：00714_kawaru⟧。",
       "english": "With one word from him, the mood of the room changed in an instant.",
       "sense_numbers": [
         1
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "Adverbial phrase built from the noun {一瞬|いっしゅん} (a moment, a split second) plus で.\n\nCOMMON COLLOCATIONS:\n- {一瞬|いっしゅん}で{終|お}わる: to be over in an instant\n- {一瞬|いっしゅん}で{消|き}える: to disappear instantly\n- {一瞬|いっしゅん}で{判断|はんだん}する: to decide in a split second\n\nSIMILAR WORDS:\n- あっという{間|ま}に: in the blink of an eye — emphasizes that time passed faster than expected\n- {瞬時|しゅんじ}に: instantaneously — more formal and technical",
+  "notes": "Adverbial phrase built from the noun ⟦{一瞬|いっしゅん}→一瞬：01805_isshun⟧ (a moment, a split second) plus ⟦で→で：00502_de⟧.\n\nCOMMON COLLOCATIONS:\n- {一瞬|いっしゅん}で{終|お}わる: to be over in an instant\n- {一瞬|いっしゅん}で⟦{消|き}える→消える：02520_kieru⟧: to disappear instantly\n- {一瞬|いっしゅん}で⟦{判断|はんだん}する→判断する：06062_handansuru⟧: to decide in a split second\n\nSIMILAR WORDS:\n- ⟦あっという{間|ま}に→あっという間に：25467_attoiumani⟧: in the blink of an eye — emphasizes that time passed faster than expected\n- ⟦{瞬時|しゅんじ}→瞬時：13662_shunji⟧⟦に→に：00314_ni⟧: instantaneously — more formal and technical",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25467_attoiumani",
+      "reading": "あっというまに",
+      "headword": "あっという{間|ま}に",
+      "label": "in the blink of an eye"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18755_shunjini",
+      "reading": "しゅんじに",
+      "headword": "{瞬時|しゅんじ}に",
+      "label": "instantaneously"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10426_attoiuma",
+      "reading": "あっというま",
+      "headword": "あっという{間|ま}",
+      "label": "in the blink of an eye, in no time"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21215_matatakumani",
+      "reading": "またたくまに",
+      "headword": "{瞬|またた}く{間|ま}に",
+      "label": "in the blink of an eye"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +83,13 @@
         "expression"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "time-general"
       ],
       "domain": []
     },
     "created": "2026-05-24T04:10:04Z",
-    "modified": "2026-08-08T03:27:39Z"
+    "modified": "2026-09-02T04:02:32Z"
   }
 }

@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "COMMON COLLOCATIONS:\n- {単語|たんご}⟦を→を：00422_wo⟧⟦{覚|おぼ}える→覚える：00739_oboeru⟧ (to memorize words)\n- {単語|たんご}⟦を→を：00422_wo⟧⟦{調|しら}べる→調べる：01213_shiraberu⟧ (to look up a word)\n- ⟦{単語帳|たんごちょう}→単語帳：25348_tangochou⟧ (vocabulary notebook/flashcards)\n- {単語|たんご}⟦テスト→テスト：01065_tesuto⟧ (vocabulary test)\n\nRELATED TERMS:\n- ⟦{語彙|ごい}→語彙：14214_goi⟧ (vocabulary - formal/academic)\n- ⟦{言葉|ことば}→言葉：02880_kotoba⟧ (word, language - broader meaning)\n- ⟦{熟語|じゅくご}→熟語：04219_jukugo⟧ (compound word, idiom)\n\nLANGUAGE LEARNING:\n- ⟦{基本|きほん}→基本：00226_kihon⟧{単語|たんご} (basic vocabulary)\n- ⟦{必須|ひっす}→必須：12516_hissu⟧{単語|たんご} (essential vocabulary)",
+  "notes": "COMMON COLLOCATIONS:\n- {単語|たんご}⟦を→を：00422_wo⟧⟦{覚|おぼ}える→覚える：00739_oboeru⟧ (to memorize words)\n- {単語|たんご}⟦を→を：00422_wo⟧⟦{調|しら}べる→調べる：01213_shiraberu⟧ (to look up a word)\n- ⟦{単語帳|たんごちょう}→単語帳：25348_tangochou⟧ (vocabulary notebook/flashcards)\n- {単語|たんご}⟦テスト→テスト：01065_tesuto⟧ (vocabulary test)\n\nRELATED WORDS:\n- ⟦{語彙|ごい}→語彙：14214_goi⟧ (vocabulary - formal/academic)\n- ⟦{言葉|ことば}→言葉：02880_kotoba⟧ (word, language - broader meaning)\n- ⟦{熟語|じゅくご}→熟語：04219_jukugo⟧ (compound word, idiom)\n\nLANGUAGE LEARNING:\n- ⟦{基本|きほん}→基本：00226_kihon⟧{単語|たんご} (basic vocabulary)\n- ⟦{必須|ひっす}→必須：12516_hissu⟧{単語|たんご} (essential vocabulary)",
   "cross_references": [
     {
       "type": "related",
@@ -51,11 +51,46 @@
       "headword": "{言葉|ことば}",
       "label": "word, language",
       "target_id": "02880_kotoba"
+    },
+    {
+      "type": "related",
+      "target_id": "14214_goi",
+      "reading": "ごい",
+      "headword": "{語彙|ごい}",
+      "label": "vocabulary"
+    },
+    {
+      "type": "related",
+      "target_id": "04219_jukugo",
+      "reading": "じゅくご",
+      "headword": "{熟語|じゅくご}",
+      "label": "compound word, idiom"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02840_goku",
+      "reading": "ごく",
+      "headword": "{語句|ごく}",
+      "label": "words, phrases, wording"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29273_keitaiso",
+      "reading": "けいたいそ",
+      "headword": "{形態素|けいたいそ}",
+      "label": "morpheme"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30523_waado",
+      "reading": "わーど",
+      "headword": "ワード",
+      "label": "word"
     }
   ],
   "metadata": {
     "created": "2026-01-12T14:33:00Z",
-    "modified": "2026-06-12T18:25:47Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

@@ -15,41 +15,62 @@
   "examples": [
     {
       "id": "18678_kamiki_ex1",
-      "japanese": "{上期|かみき}の{売上|うりあげ}。",
+      "japanese": "{上期|かみき}⟦の→の：09472_no⟧⟦{売上|うりあげ}→売上：04102_uriage⟧。",
       "english": "First-half sales.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "18678_kamiki_ex2",
-      "japanese": "{上期|かみき}の{業績|ぎょうせき}は{好調|こうちょう}だった。",
+      "japanese": "{上期|かみき}⟦の→の：09472_no⟧⟦{業績|ぎょうせき}→業績：04873_gyouseki⟧⟦は→は：00079_ha⟧⟦{好調|こうちょう}→好調：12209_kouchou⟧だった。",
       "english": "The first-half performance was strong.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "18678_kamiki_ex3",
-      "japanese": "{上期|かみき}{決算|けっさん}の{結果|けっか}を{受|う}けて、{通期|つうき}の{見通|みとお}しを{上方|じょうほう}{修正|しゅうせい}した。",
+      "japanese": "{上期|かみき}⟦{決算|けっさん}→決算：05973_kessan⟧⟦の→の：09472_no⟧⟦{結果|けっか}→結果：02486_kekka⟧⟦を→を：00422_wo⟧⟦{受|う}けて→受ける：01215_ukeru⟧、{通期|つうき}⟦の→の：09472_no⟧⟦{見通|みとお}し→見通し：10566_mitooshi⟧⟦を→を：00422_wo⟧⟦{上方|じょうほう}{修正|しゅうせい}→上方修正：24821_jouhoushuusei⟧⟦した→する：00392_suru⟧。",
       "english": "Based on the first-half earnings results, the full-year outlook was revised upward.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A business term. In Japan, most companies and the government use a fiscal year running from April to March, so {上期|かみき} is April–September. Also read as じょうき in some contexts. Common collocations: {上期|かみき}{決算|けっさん} (first-half earnings), {上期|かみき}{業績|ぎょうせき} (first-half results). The opposite is {下期|しもき} (second half of the fiscal year, October–March). Related: {通期|つうき} (full year), {四半期|しはんき} (quarter).",
+  "notes": "A business term. In Japan, most companies and the government use a fiscal year running from April to March, so {上期|かみき} is April–September. Also read as じょうき in some contexts. Common collocations: {上期|かみき}⟦{決算|けっさん}→決算：05973_kessan⟧ (first-half earnings), {上期|かみき}⟦{業績|ぎょうせき}→業績：04873_gyouseki⟧ (first-half results). The opposite is ⟦{下期|しもき}→下期：18679_shimoki⟧ (second half of the fiscal year, October–March). Related: {通期|つうき} (full year), ⟦{四半期|しはんき}→四半期：10103_shihanki⟧ (quarter).",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "18679_shimoki",
+      "reading": "しもき",
+      "headword": "{下期|しもき}",
+      "label": "second half (of a fiscal year)"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["time-period"],
-      "domain": ["business"]
+      "semantic": [
+        "time-period"
+      ],
+      "domain": [
+        "business"
+      ]
     },
     "created": "2026-03-22T11:52:14Z",
-    "modified": "2026-03-22T11:52:14Z"
+    "modified": "2026-09-02T04:01:53Z"
   }
 }

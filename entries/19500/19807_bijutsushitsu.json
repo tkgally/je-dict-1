@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "19807_bijutsushitsu_ex1",
-      "japanese": "{美術室|びじゅつしつ}で{絵|え}を{描|か}く。",
+      "japanese": "{美術室|びじゅつしつ}⟦で→で：00502_de⟧⟦{絵|え}→絵：02613_e⟧⟦を→を：00422_wo⟧⟦{描|か}く→描く：28436_kaku⟧。",
       "english": "To paint in the art room.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "19807_bijutsushitsu_ex2",
-      "japanese": "{放課後|ほうかご}、{美術室|びじゅつしつ}で{作品|さくひん}を{仕上|しあ}げた。",
+      "japanese": "⟦{放課後|ほうかご}→放課後：12720_houkago⟧、{美術室|びじゅつしつ}⟦で→で：00502_de⟧⟦{作品|さくひん}→作品：02776_sakuhin⟧⟦を→を：00422_wo⟧⟦{仕上|しあ}げた→仕上げる：04664_shiageru⟧。",
       "english": "After school, I finished my artwork in the art room.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "19807_bijutsushitsu_ex3",
-      "japanese": "{美術室|びじゅつしつ}には{石膏像|せっこうぞう}やイーゼルが{並|なら}んでいた。",
+      "japanese": "{美術室|びじゅつしつ}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{石膏像|せっこうぞう}やイーゼル⟦が→が：00051_ga⟧⟦{並|なら}んでいた→並ぶ：00605_narabu⟧。",
       "english": "Plaster busts and easels were lined up in the art room.",
       "sense_numbers": [
         1
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {美術|びじゅつ} (art, fine arts) and {室|しつ} (room). A standard fixture in Japanese schools, where {美術|びじゅつ} is a required subject in junior high school.\n\nRELATED SCHOOL ROOMS:\n- {音楽室|おんがくしつ} — music room\n- {理科室|りかしつ} — science room/lab\n- {家庭科室|かていかしつ} — home economics room\n- {図工室|ずこうしつ} — arts and crafts room (elementary school)\n- {体育館|たいいくかん} — gymnasium\n\nSIMILAR WORDS:\n- {画室|がしつ} — artist's studio (professional, not school)\n- アトリエ — atelier, art studio (professional or personal workspace)",
+  "notes": "A compound of ⟦{美術|びじゅつ}→美術：04447_bijutsu⟧ (art, fine arts) and ⟦{室|しつ}→室：09946_shitsu⟧ (room). A standard fixture in Japanese schools, where ⟦{美術|びじゅつ}→美術：04447_bijutsu⟧ is a required subject in junior high school.\n\nRELATED SCHOOL ROOMS:\n- {音楽室|おんがくしつ} — music room\n- ⟦{理科室|りかしつ}→理科室：22704_rikashitsu⟧ — science room/lab\n- {家庭科室|かていかしつ} — home economics room\n- {図工室|ずこうしつ} — arts and crafts room (elementary school)\n- ⟦{体育館|たいいくかん}→体育館：03111_taiikukan⟧ — gymnasium\n\nSIMILAR WORDS:\n- ⟦{画室|がしつ}→画室：24568_gashitsu⟧ — artist's studio (professional, not school)\n- ⟦アトリエ→アトリエ：10698_atorie⟧ — atelier, art studio (professional or personal workspace)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "22704_rikashitsu",
+      "reading": "りかしつ",
+      "headword": "{理科室|りかしつ}",
+      "label": "science room/lab"
+    },
+    {
+      "type": "related",
+      "target_id": "03111_taiikukan",
+      "reading": "たいいくかん",
+      "headword": "{体育館|たいいくかん}",
+      "label": "gymnasium"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24568_gashitsu",
+      "reading": "がしつ",
+      "headword": "{画室|がしつ}",
+      "label": "artist's studio"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10698_atorie",
+      "reading": "あとりえ",
+      "headword": "アトリエ",
+      "label": "atelier, art studio"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +90,6 @@
       ]
     },
     "created": "2026-03-27T00:21:25Z",
-    "modified": "2026-07-27T12:42:09Z"
+    "modified": "2026-09-02T04:01:57Z"
   }
 }

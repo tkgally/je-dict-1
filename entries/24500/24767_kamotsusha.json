@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24767_kamotsusha_ex1",
-      "japanese": "{貨物車|かもつしゃ}が{通過|つうか}した。",
+      "japanese": "{貨物車|かもつしゃ}⟦が→が：00051_ga⟧⟦{通過|つうか}した→通過する：22435_tsuukasuru⟧。",
       "english": "A freight vehicle passed by.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24767_kamotsusha_ex2",
-      "japanese": "{貨物車|かもつしゃ}の{通行|つうこう}が{制限|せいげん}されている{道路|どうろ}がある。",
+      "japanese": "{貨物車|かもつしゃ}⟦の→の：09472_no⟧⟦{通行|つうこう}→通行：03436_tsuukou⟧⟦が→が：00051_ga⟧⟦{制限|せいげん}→制限：03375_seigen⟧⟦されている→する：00392_suru⟧⟦{道路|どうろ}→道路：01481_douro⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There are roads where freight vehicles are restricted.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24767_kamotsusha_ex3",
-      "japanese": "{駅|えき}の{引|ひ}き{込|こ}み{線|せん}に{古|ふる}い{貨物車|かもつしゃ}が{何両|なんりょう}か{留置|りゅうち}されていた。",
+      "japanese": "⟦{駅|えき}→駅：02180_eki⟧⟦の→の：09472_no⟧⟦{引|ひ}き{込|こ}み→引き込む：05736_hikikomu⟧⟦{線|せん}→線：09901_sen⟧⟦に→に：00314_ni⟧⟦{古|ふる}い→古い：00488_furui⟧{貨物車|かもつしゃ}⟦が→が：00051_ga⟧{何両|なんりょう}⟦か→か：09473_ka⟧{留置|りゅうち}⟦されていた→する：00392_suru⟧。",
       "english": "Several old freight cars were parked on the siding at the station.",
       "sense_numbers": [
         1
@@ -44,19 +44,44 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {貨物|かもつ} (freight, cargo) and {車|しゃ} (vehicle, car). Can refer to either a railway freight car or a road vehicle used for hauling goods.\n\nIn the railway context, {貨物車|かもつしゃ} specifically refers to individual freight cars as distinct from {貨物列車|かもつれっしゃ} (freight train), which is the entire train. On roads, it refers to trucks and other cargo-carrying vehicles.\n\nCOMMON COLLOCATIONS:\n- {貨物車|かもつしゃ}の{通行|つうこう}: freight vehicle traffic\n- {貨物車|かもつしゃ}{専用|せんよう}: freight vehicles only\n- {有蓋|ゆうがい}{貨物車|かもつしゃ}: covered freight car (railway)\n\nSIMILAR WORDS:\n- {貨物列車|かもつれっしゃ}: freight train — the entire train, not individual cars\n- トラック: truck — the common word for a cargo truck on the road\n- {貨車|かしゃ}: freight car — shortened form, used mainly for railway cars",
+  "notes": "A compound of ⟦{貨物|かもつ}→貨物：00165_kamotsu⟧ (freight, cargo) and ⟦{車|しゃ}→車：09874_sha⟧ (vehicle, car). Can refer to either a railway freight car or a road vehicle used for hauling goods.\n\nIn the railway context, {貨物車|かもつしゃ} specifically refers to individual freight cars as distinct from ⟦{貨物列車|かもつれっしゃ}→貨物列車：16297_kamotsuressha⟧ (freight train), which is the entire train. On roads, it refers to trucks and other cargo-carrying vehicles.\n\nCOMMON COLLOCATIONS:\n- {貨物車|かもつしゃ}⟦の→の：09472_no⟧⟦{通行|つうこう}→通行：03436_tsuukou⟧: freight vehicle traffic\n- {貨物車|かもつしゃ}⟦{専用|せんよう}→専用：12385_senyou⟧: freight vehicles only\n- {有蓋|ゆうがい}{貨物車|かもつしゃ}: covered freight car (railway)\n\nSIMILAR WORDS:\n- ⟦{貨物列車|かもつれっしゃ}→貨物列車：16297_kamotsuressha⟧: freight train — the entire train, not individual cars\n- ⟦トラック→トラック：03863_torakku⟧: truck — the common word for a cargo truck on the road\n- {貨車|かしゃ}: freight car — shortened form, used mainly for railway cars",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16297_kamotsuressha",
+      "reading": "かもつれっしゃ",
+      "headword": "{貨物列車|かもつれっしゃ}",
+      "label": "freight train"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03863_torakku",
+      "reading": "とらっく",
+      "headword": "トラック",
+      "label": "truck"
+    },
+    {
+      "type": "related",
+      "target_id": "15018_shouyousha",
+      "reading": "しょうようしゃ",
+      "headword": "{商用車|しょうようしゃ}",
+      "label": "commercial vehicle"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "transportation"
       ]
     },
     "created": "2026-04-20T14:39:02Z",
-    "modified": "2026-08-03T09:22:27Z"
+    "modified": "2026-09-02T04:02:19Z"
   }
 }

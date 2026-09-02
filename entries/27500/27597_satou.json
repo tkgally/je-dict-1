@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "27597_satou_ex1",
-      "japanese": "{佐藤|さとう}さん、こんにちは。",
+      "japanese": "{佐藤|さとう}さん、⟦こんにちは→こんにちは：02839_konnichiha⟧。",
       "english": "Hello, Mr./Ms. Sato.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "27597_satou_ex2",
-      "japanese": "クラスに{佐藤|さとう}さんが{二人|ふたり}いる。",
+      "japanese": "⟦クラス→クラス：01084_kurasu⟧⟦に→に：00314_ni⟧{佐藤|さとう}さん⟦が→が：00051_ga⟧⟦{二人|ふたり}→二人：00622_futari⟧⟦いる→いる：00495_iru⟧。",
       "english": "There are two Satos in the class.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "27597_satou_ex3",
-      "japanese": "{日本|にほん}でいちばん{多|おお}い{苗字|みょうじ}は{佐藤|さとう}だと{言|い}われている。",
+      "japanese": "⟦{日本|にほん}→日本：03876_nihon⟧⟦で→で：00502_de⟧いちばん⟦{多|おお}い→多い：01127_ooi⟧⟦{苗字|みょうじ}→苗字：14012_myouji⟧⟦は→は：00079_ha⟧{佐藤|さとう}だ⟦と→と：00512_to⟧⟦{言|い}われている→言う：00515_iu⟧。",
       "english": "Sato is said to be the most common surname in Japan.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "A surname so common it is often used as a stand-in name in language textbooks, sample forms, and demonstration materials.\n\nNOTE ON HOMOPHONES:\nさとう is also the reading for several unrelated words. In context the meaning is usually clear:\n- {砂糖|さとう}: sugar\n- {左党|さとう}: left-wing party; (idiomatically) drinker\n\nCULTURAL CONTEXT:\nThe origin is generally traced to the {藤原|ふじわら} clan, with {佐|さ} referring to the {左衛門尉|さえもんのじょう} office. Today the name is most concentrated in northeastern Japan ({東北|とうほく}). It alternates with {鈴木|すずき} for the top spot in nationwide surname rankings.",
+  "notes": "A surname so common it is often used as a stand-in name in language textbooks, sample forms, and demonstration materials.\n\nNOTE ON HOMOPHONES:\nさとう is also the reading for several unrelated words. In context the meaning is usually clear:\n- ⟦{砂糖|さとう}→砂糖：00884_satou⟧: sugar\n- ⟦{左党|さとう}→左党：23468_satou⟧: left-wing party; (idiomatically) drinker\n\nCULTURAL NOTE:\nThe origin is generally traced to the {藤原|ふじわら} clan, with {佐|さ} referring to the {左衛門尉|さえもんのじょう} office. Today the name is most concentrated in northeastern Japan (⟦{東北|とうほく}→東北：27542_touhoku⟧). It alternates with ⟦{鈴木|すずき}→鈴木：09530_suzuki⟧ for the top spot in nationwide surname rankings.",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,13 +53,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "person"
       ],
       "domain": []
     },
     "created": "2026-05-14T04:05:39Z",
-    "modified": "2026-08-07T16:10:18Z"
+    "modified": "2026-09-02T04:02:31Z"
   }
 }

@@ -15,41 +15,59 @@
   "examples": [
     {
       "id": "15068_koten_ex1",
-      "japanese": "{来月|らいげつ}、{初|はじ}めての{個展|こてん}を{開|ひら}く。",
+      "japanese": "⟦{来月|らいげつ}→来月：00744_raigetsu⟧、⟦{初|はじ}めて→初めて：02932_hajimete⟧⟦の→の：09472_no⟧{個展|こてん}⟦を→を：00422_wo⟧⟦{開|ひら}く→開く：01979_hiraku⟧。",
       "english": "Next month, I'm holding my first solo exhibition.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15068_koten_ex2",
-      "japanese": "{友人|ゆうじん}の{個展|こてん}を{見|み}に{画廊|がろう}へ{行|い}った。",
+      "japanese": "⟦{友人|ゆうじん}→友人：03649_yuujin⟧⟦の→の：09472_no⟧{個展|こてん}⟦を→を：00422_wo⟧⟦{見|み}→見る：00283_miru⟧⟦に→に：00314_ni⟧⟦{画廊|がろう}→画廊：16430_garou⟧⟦へ→へ：02473_he⟧⟦{行|い}った→行く：00119_iku⟧。",
       "english": "I went to a gallery to see a friend's solo exhibition.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15068_koten_ex3",
-      "japanese": "{彼女|かのじょ}は{国内外|こくないがい}で{個展|こてん}を{開|ひら}いている{人気|にんき}の{写真家|しゃしんか}だ。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧⟦{国内外|こくないがい}→国内外：17208_kokunaigai⟧⟦で→で：00502_de⟧{個展|こてん}⟦を→を：00422_wo⟧⟦{開|ひら}いている→開く：01979_hiraku⟧⟦{人気|にんき}→人気：01488_ninki⟧⟦の→の：09472_no⟧⟦{写真家|しゃしんか}→写真家：05501_shashinka⟧だ。",
       "english": "She is a popular photographer who holds solo exhibitions both domestically and abroad.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\n{個展|こてん} is the standard word for a solo art exhibition. It is an abbreviation of {個人|こじん}{展覧会|てんらんかい} (individual exhibition).\n\nCOMMON COLLOCATIONS:\n- {個展|こてん}を{開|ひら}く (to hold a solo exhibition)\n- {個展|こてん}を{開催|かいさい}する (to organize a solo exhibition)\n- {初|はつ}{個展|こてん} (first solo exhibition)\n\nSIMILAR WORDS:\n{展覧会|てんらんかい} is the general term for \"exhibition.\" グループ{展|てん} is a group exhibition. {回顧展|かいこてん} is a retrospective exhibition.",
-  "cross_references": [],
+  "notes": "USAGE:\n{個展|こてん} is the standard word for a solo art exhibition. It is an abbreviation of ⟦{個人|こじん}→個人：02758_kojin⟧⟦{展覧会|てんらんかい}→展覧会：01470_tenrankai⟧ (individual exhibition).\n\nCOMMON COLLOCATIONS:\n- {個展|こてん}⟦を→を：00422_wo⟧⟦{開|ひら}く→開く：01979_hiraku⟧ (to hold a solo exhibition)\n- {個展|こてん}⟦を→を：00422_wo⟧⟦{開催|かいさい}する→開催する：10441_kaisaisuru⟧ (to organize a solo exhibition)\n- ⟦{初|はつ}→初：10632_hatsu⟧{個展|こてん} (first solo exhibition)\n\nSIMILAR WORDS:\n⟦{展覧会|てんらんかい}→展覧会：01470_tenrankai⟧ is the general term for \"exhibition.\" ⟦グループ→グループ：03840_guruupu⟧⟦{展|てん}→〜展：28468_ten⟧ is a group exhibition. {回顧展|かいこてん} is a retrospective exhibition.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20279_tenran",
+      "reading": "てんらん",
+      "headword": "{展覧|てんらん}",
+      "label": "exhibition"
+    }
+  ],
   "metadata": {
     "created": "2026-03-05T06:26:16Z",
-    "modified": "2026-03-05T06:26:16Z",
+    "modified": "2026-09-02T04:01:39Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["leisure"]
+      "semantic": [
+        "leisure"
+      ]
     }
   }
 }

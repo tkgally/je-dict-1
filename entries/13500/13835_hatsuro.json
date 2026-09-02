@@ -3,7 +3,7 @@
   "id": "13835_hatsuro",
   "headword": "{発露|はつろ}",
   "reading": "はつろ",
-  "part_of_speech": "noun / verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "expression, manifestation, revelation",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "13835_hatsuro_ex1",
-      "japanese": "{愛情|あいじょう}の{発露|はつろ}だと{思|おも}う。",
+      "japanese": "⟦{愛情|あいじょう}→愛情：01673_aijou⟧⟦の→の：09472_no⟧{発露|はつろ}だ⟦と→と：00512_to⟧⟦{思|おも}う→思う：00492_omou⟧。",
       "english": "I think it's an expression of love.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "13835_hatsuro_ex2",
-      "japanese": "あの{行動|こうどう}は、{彼女|かのじょ}の{正義感|せいぎかん}の{発露|はつろ}にほかならない。",
+      "japanese": "⟦あの→あの：00915_ano⟧⟦{行動|こうどう}→行動：02728_koudou⟧⟦は→は：00079_ha⟧、⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦の→の：09472_no⟧⟦{正義感|せいぎかん}→正義感：28751_seigikan⟧⟦の→の：09472_no⟧{発露|はつろ}⟦にほかならない→にほかならない：28579_nihokanaranai⟧。",
       "english": "That action is nothing less than a manifestation of her sense of justice.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "13835_hatsuro_ex3",
-      "japanese": "{芸術|げいじゅつ}とは、{人間|にんげん}の{内面|ないめん}にある{感情|かんじょう}が{発露|はつろ}したものだ。",
+      "japanese": "⟦{芸術|げいじゅつ}→芸術：02712_geijutsu⟧⟦と→と：00512_to⟧⟦は→は：00079_ha⟧、⟦{人間|にんげん}→人間：03523_ningen⟧⟦の→の：09472_no⟧⟦{内面|ないめん}→内面：11689_naimen⟧⟦に→に：00314_ni⟧⟦ある→ある：00006_aru⟧⟦{感情|かんじょう}→感情：00171_kanjou⟧⟦が→が：00051_ga⟧{発露|はつろ}⟦した→する：00392_suru⟧ものだ。",
       "english": "Art is the outward manifestation of the emotions within a person.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,26 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA literary and formal word. Used to describe the outward expression of inner qualities, feelings, or truths. Common in essays, literary criticism, and philosophical writing. Rarely used in casual conversation.\n\nSIMILAR WORDS:\n- {表現|ひょうげん}: expression (more general and everyday)\n- {表出|ひょうしゅつ}: expression, externalization (more academic)\n- {露呈|ろてい}: exposure, coming to light (often for negative things)\n\nCOMMON COLLOCATIONS:\n- {感情|かんじょう}の{発露|はつろ}: expression of emotion\n- {愛情|あいじょう}の{発露|はつろ}: expression of love\n- {才能|さいのう}の{発露|はつろ}: manifestation of talent\n- {本性|ほんしょう}の{発露|はつろ}: revelation of one's true nature",
-  "cross_references": [],
+  "notes": "USAGE:\nA literary and formal word. Used to describe the outward expression of inner qualities, feelings, or truths. Common in essays, literary criticism, and philosophical writing. Rarely used in casual conversation.\n\nSIMILAR WORDS:\n- ⟦{表現|ひょうげん}→表現：03584_hyougen⟧: expression (more general and everyday)\n- {表出|ひょうしゅつ}: expression, externalization (more academic)\n- ⟦{露呈|ろてい}→露呈：09149_rotei⟧: exposure, coming to light (often for negative things)\n\nCOMMON COLLOCATIONS:\n- ⟦{感情|かんじょう}→感情：00171_kanjou⟧⟦の→の：09472_no⟧{発露|はつろ}: expression of emotion\n- ⟦{愛情|あいじょう}→愛情：01673_aijou⟧⟦の→の：09472_no⟧{発露|はつろ}: expression of love\n- ⟦{才能|さいのう}→才能：02772_sainou⟧⟦の→の：09472_no⟧{発露|はつろ}: manifestation of talent\n- ⟦{本性|ほんしょう}→本性：12873_honshou⟧⟦の→の：09472_no⟧{発露|はつろ}: revelation of one's true nature",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03584_hyougen",
+      "reading": "ひょうげん",
+      "headword": "{表現|ひょうげん}",
+      "label": "expression"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09149_rotei",
+      "reading": "ろてい",
+      "headword": "{露呈|ろてい}",
+      "label": "exposure, coming to light"
+    }
+  ],
   "metadata": {
     "created": "2026-02-27T05:10:26Z",
-    "modified": "2026-03-29T03:07:35Z",
+    "modified": "2026-09-02T04:01:34Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -155,7 +170,8 @@
         "written",
         "literary"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

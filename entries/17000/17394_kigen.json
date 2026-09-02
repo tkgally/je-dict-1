@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "17394_kigen_ex1",
-      "japanese": "{言葉|ことば}の{起源|きげん}を{調|しら}べる。",
+      "japanese": "⟦{言葉|ことば}→言葉：02880_kotoba⟧⟦の→の：09472_no⟧{起源|きげん}⟦を→を：00422_wo⟧⟦{調|しら}べる→調べる：01213_shiraberu⟧。",
       "english": "Look up the origin of a word.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "17394_kigen_ex2",
-      "japanese": "オリンピックの{起源|きげん}は{古代|こだい}ギリシャにある。",
+      "japanese": "⟦オリンピック→オリンピック：09899_orinpikku⟧⟦の→の：09472_no⟧{起源|きげん}⟦は→は：00079_ha⟧⟦{古代|こだい}→古代：05324_kodai⟧⟦ギリシャ→ギリシャ：28897_girisha⟧⟦に→に：00314_ni⟧⟦ある→ある：00006_aru⟧。",
       "english": "The Olympics have their origins in ancient Greece.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "17394_kigen_ex3",
-      "japanese": "{生命|せいめい}の{起源|きげん}についてはさまざまな{学説|がくせつ}があるが、まだ{完全|かんぜん}には{解明|かいめい}されていない。",
+      "japanese": "⟦{生命|せいめい}→生命：03296_seimei⟧⟦の→の：09472_no⟧{起源|きげん}⟦について→〜について：03103_nitsuite⟧⟦は→は：00079_ha⟧さまざまな⟦{学説|がくせつ}→学説：08102_gakusetsu⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧⟦が→が：00051_ga⟧、⟦まだ→まだ：00603_mada⟧⟦{完全|かんぜん}→完全：01552_kanzen⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{解明|かいめい}→解明：14164_kaimei⟧⟦されていない→する：00392_suru⟧。",
       "english": "There are various theories about the origin of life, but it has not yet been fully explained.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,19 @@
       ]
     }
   ],
-  "notes": "USAGE:\nUsed for the historical or primordial beginning of something. The pattern 〜の{起源|きげん} (the origin of ~) is extremely common. Appears frequently in academic, scientific, and cultural contexts.\n\nNOTE: Not to be confused with the homophones {期限|きげん} (deadline, time limit), {機嫌|きげん} (mood, temper), or {紀元|きげん} (era, epoch).\n\nCOMMON COLLOCATIONS:\n- {起源|きげん}をたどる (to trace the origin)\n- {起源|きげん}を{探|さぐ}る (to investigate the origin)\n- 〜に{起源|きげん}を{持|も}つ (to have its origin in ~)\n- {生命|せいめい}の{起源|きげん} (the origin of life)\n- {文明|ぶんめい}の{起源|きげん} (the origin of civilization)",
-  "cross_references": [],
+  "notes": "USAGE:\nUsed for the historical or primordial beginning of something. The pattern 〜⟦の→の：09472_no⟧{起源|きげん} (the origin of ~) is extremely common. Appears frequently in academic, scientific, and cultural contexts.\n\nNOTE: Not to be confused with the homophones ⟦{期限|きげん}→期限：12861_kigen⟧ (deadline, time limit), ⟦{機嫌|きげん}→機嫌：02367_kigen⟧ (mood, temper), or ⟦{紀元|きげん}→紀元：13822_kigen⟧ (era, epoch).\n\nCOMMON COLLOCATIONS:\n- {起源|きげん}⟦を→を：00422_wo⟧たどる (to trace the origin)\n- {起源|きげん}⟦を→を：00422_wo⟧⟦{探|さぐ}る→探る：03923_saguru⟧ (to investigate the origin)\n- 〜⟦に→に：00314_ni⟧{起源|きげん}⟦を→を：00422_wo⟧⟦{持|も}つ→持つ：00478_motsu⟧ (to have its origin in ~)\n- ⟦{生命|せいめい}→生命：03296_seimei⟧⟦の→の：09472_no⟧{起源|きげん} (the origin of life)\n- ⟦{文明|ぶんめい}→文明：03611_bunmei⟧⟦の→の：09472_no⟧{起源|きげん} (the origin of civilization)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19932_kongen",
+      "reading": "こんげん",
+      "headword": "{根源|こんげん}",
+      "label": "root"
+    }
+  ],
   "metadata": {
     "created": "2026-03-17T10:34:13Z",
-    "modified": "2026-03-17T10:34:13Z",
+    "modified": "2026-09-02T04:01:48Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

@@ -2,7 +2,7 @@
   "id": "11815_toutatsu",
   "headword": "{到達|とうたつ}",
   "reading": "とうたつ",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "reaching, attaining, arrival",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "11815_toutatsu_ex1",
-      "japanese": "{目標|もくひょう}に{到達|とうたつ}した。",
+      "japanese": "⟦{目標|もくひょう}→目標：03631_mokuhyou⟧⟦に→に：00314_ni⟧{到達|とうたつ}⟦した→する：00392_suru⟧。",
       "english": "We reached the goal.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "11815_toutatsu_ex2",
-      "japanese": "{登山|とざん}{隊|たい}がついに{山頂|さんちょう}に{到達|とうたつ}した。",
+      "japanese": "⟦{登山|とざん}→登山：03457_tozan⟧⟦{隊|たい}→隊：03383_tai⟧⟦が→が：00051_ga⟧ついに⟦{山頂|さんちょう}→山頂：09942_sanchou⟧⟦に→に：00314_ni⟧{到達|とうたつ}⟦した→する：00392_suru⟧。",
       "english": "The climbing team finally reached the summit.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "11815_toutatsu_ex3",
-      "japanese": "{売上|うりあげ}が{過去|かこ}{最高|さいこう}の{金額|きんがく}に{到達|とうたつ}する{見込|みこ}みだ。",
+      "japanese": "⟦{売上|うりあげ}→売上：04102_uriage⟧⟦が→が：00051_ga⟧⟦{過去|かこ}→過去：00152_kako⟧⟦{最高|さいこう}→最高：02637_saikou⟧⟦の→の：09472_no⟧⟦{金額|きんがく}→金額：02665_kingaku⟧⟦に→に：00314_ni⟧{到達|とうたつ}⟦する→する：00392_suru⟧⟦{見込|みこ}み→見込み：06872_mikomi⟧だ。",
       "english": "Sales are expected to reach a record-high amount.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "{到達|とうたつ}する means to reach or arrive at a destination, goal, or level after effort or progress. More formal than {着|つ}く and emphasizes the culmination of a process.\n\nTRANSITIVITY:\n- Type: {自動詞|じどうし} (intransitive)\n- Pattern: ～に{到達|とうたつ}する\n\nCOMMON COLLOCATIONS:\n- {目標|もくひょう}に{到達|とうたつ}する: to reach a goal\n- {山頂|さんちょう}に{到達|とうたつ}する: to reach the summit\n- {到達|とうたつ}{点|てん}: point reached, attainment level\n- {到達|とうたつ}{度|ど}: degree of attainment\n\nSIMILAR WORDS:\n- {着|つ}く: to arrive (everyday, less formal)\n- {達成|たっせい}する: to achieve, to accomplish (focuses on completing a goal)\n- {達|たっ}する: to reach (slightly less formal than {到達|とうたつ})",
+  "notes": "{到達|とうたつ}⟦する→する：00392_suru⟧ means to reach or arrive at a destination, goal, or level after effort or progress. More formal than ⟦{着|つ}く→着く：00680_tsuku⟧ and emphasizes the culmination of a process.\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n- Pattern: ～⟦に→に：00314_ni⟧{到達|とうたつ}⟦する→する：00392_suru⟧\n\nCOMMON COLLOCATIONS:\n- ⟦{目標|もくひょう}→目標：03631_mokuhyou⟧⟦に→に：00314_ni⟧{到達|とうたつ}⟦する→する：00392_suru⟧: to reach a goal\n- ⟦{山頂|さんちょう}→山頂：09942_sanchou⟧⟦に→に：00314_ni⟧{到達|とうたつ}⟦する→する：00392_suru⟧: to reach the summit\n- {到達|とうたつ}{点|てん}: point reached, attainment level\n- {到達|とうたつ}⟦{度|ど}→〜度：09845_do⟧: degree of attainment\n\nSIMILAR WORDS:\n- ⟦{着|つ}く→着く：00680_tsuku⟧: to arrive (everyday, less formal)\n- ⟦{達成|たっせい}する→達成する：22183_tasseisuru⟧: to achieve, to accomplish (focuses on completing a goal)\n- ⟦{達|たっ}する→達する：02129_tassuru⟧: to reach (slightly less formal than {到達|とうたつ})",
   "cross_references": [
     {
       "type": "contrast",
@@ -142,11 +142,39 @@
       "reading": "とうちゃく",
       "headword": "{到着|とうちゃく}",
       "label": "arrival (physical)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00680_tsuku",
+      "reading": "つく",
+      "headword": "{着|つ}く",
+      "label": "to arrive"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22183_tasseisuru",
+      "reading": "たっせいする",
+      "headword": "{達成|たっせい}する",
+      "label": "to achieve, to accomplish"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02129_tassuru",
+      "reading": "たっする",
+      "headword": "{達|たっ}する",
+      "label": "to reach"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21537_ikitsuku",
+      "reading": "いきつく",
+      "headword": "{行|い}き{着|つ}く",
+      "label": "to end up at"
     }
   ],
   "metadata": {
     "created": "2026-02-18T12:19:22Z",
-    "modified": "2026-04-25T09:21:10Z",
+    "modified": "2026-09-02T04:01:26Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

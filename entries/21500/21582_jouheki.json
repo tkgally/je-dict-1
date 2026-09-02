@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21582_jouheki_ex1",
-      "japanese": "{城壁|じょうへき}が{高|たか}くそびえている。",
+      "japanese": "{城壁|じょうへき}⟦が→が：00051_ga⟧⟦{高|たか}く→高い：00500_takai⟧⟦そびえている→そびえる：10360_sobieru⟧。",
       "english": "The castle walls tower high.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21582_jouheki_ex2",
-      "japanese": "{敵|てき}は{城壁|じょうへき}を{越|こ}えて{侵入|しんにゅう}した。",
+      "japanese": "⟦{敵|てき}→敵：03546_teki⟧⟦は→は：00079_ha⟧{城壁|じょうへき}⟦を→を：00422_wo⟧⟦{越|こ}えて→越える：02099_koeru⟧⟦{侵入|しんにゅう}した→侵入する：17343_shinnyuusuru⟧。",
       "english": "The enemy crossed the castle wall and invaded.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21582_jouheki_ex3",
-      "japanese": "この{街|まち}は{中世|ちゅうせい}に{築|きず}かれた{城壁|じょうへき}に{囲|かこ}まれていて、{観光客|かんこうきゃく}に{人気|にんき}がある。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{街|まち}→街：17306_machi⟧⟦は→は：00079_ha⟧⟦{中世|ちゅうせい}→中世：05524_chuusei⟧⟦に→に：00314_ni⟧⟦{築|きず}かれた→築く：02046_kizuku⟧{城壁|じょうへき}⟦に→に：00314_ni⟧⟦{囲|かこ}まれていて→囲む：02037_kakomu⟧、⟦{観光客|かんこうきゃく}→観光客：03022_kankoukyaku⟧⟦に→に：00314_ni⟧⟦{人気|にんき}→人気：01488_ninki⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "This town is surrounded by castle walls built in the Middle Ages and is popular with tourists.",
       "sense_numbers": [
         1
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {城|じょう} (castle) and {壁|へき} (wall). Refers to the outer defensive walls of a castle or fortified settlement.\n\nCOMMON COLLOCATIONS:\n- {城壁|じょうへき}を{築|きず}く: to build castle walls\n- {城壁|じょうへき}に{囲|かこ}まれた: surrounded by castle walls\n- {城壁|じょうへき}を{登|のぼ}る: to climb the castle wall\n- {城壁|じょうへき}の{跡|あと}: ruins of castle walls\n\nSIMILAR WORDS:\n- {石垣|いしがき}: stone wall — specifically the stone foundations and walls of Japanese castles\n- {城|しろ}: castle — the entire castle structure\n- {堀|ほり}: moat — the water-filled trench surrounding a castle\n- {砦|とりで}: fortress, stronghold — a smaller defensive structure",
+  "notes": "Compound of {城|じょう} (castle) and {壁|へき} (wall). Refers to the outer defensive walls of a castle or fortified settlement.\n\nCOMMON COLLOCATIONS:\n- {城壁|じょうへき}⟦を→を：00422_wo⟧⟦{築|きず}く→築く：02046_kizuku⟧: to build castle walls\n- {城壁|じょうへき}⟦に→に：00314_ni⟧⟦{囲|かこ}まれた→囲む：02037_kakomu⟧: surrounded by castle walls\n- {城壁|じょうへき}⟦を→を：00422_wo⟧⟦{登|のぼ}る→登る：00660_noboru⟧: to climb the castle wall\n- {城壁|じょうへき}⟦の→の：09472_no⟧⟦{跡|あと}→跡：02174_ato⟧: ruins of castle walls\n\nSIMILAR WORDS:\n- ⟦{石垣|いしがき}→石垣：19673_ishigaki⟧: stone wall — specifically the stone foundations and walls of Japanese castles\n- ⟦{城|しろ}→城：03255_shiro⟧: castle — the entire castle structure\n- ⟦{堀|ほり}→堀：03725_hori⟧: moat — the water-filled trench surrounding a castle\n- ⟦{砦|とりで}→砦：24127_toride⟧: fortress, stronghold — a smaller defensive structure",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19673_ishigaki",
+      "reading": "いしがき",
+      "headword": "{石垣|いしがき}",
+      "label": "stone wall"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03725_hori",
+      "reading": "ほり",
+      "headword": "{堀|ほり}",
+      "label": "moat"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24127_toride",
+      "reading": "とりで",
+      "headword": "{砦|とりで}",
+      "label": "fortress, stronghold"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24431_bouheki",
+      "reading": "ぼうへき",
+      "headword": "{防壁|ぼうへき}",
+      "label": "defensive wall"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +90,6 @@
       ]
     },
     "created": "2026-04-02T17:24:29Z",
-    "modified": "2026-07-29T12:35:11Z"
+    "modified": "2026-09-02T04:02:04Z"
   }
 }

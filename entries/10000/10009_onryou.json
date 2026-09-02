@@ -14,30 +14,36 @@
   "examples": [
     {
       "id": "10009_onryou_ex1",
-      "japanese": "{音量|おんりょう}を{上|あ}げる。",
+      "japanese": "{音量|おんりょう}⟦を→を：00422_wo⟧⟦{上|あ}げる→上げる：02443_ageru⟧。",
       "english": "To turn up the volume.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10009_onryou_ex2",
-      "japanese": "{音量|おんりょう}を{下|さ}げてください。",
+      "japanese": "{音量|おんりょう}⟦を→を：00422_wo⟧⟦{下|さ}げて→下げる：00807_sageru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please turn down the volume.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10009_onryou_ex3",
-      "japanese": "マイクの{音量|おんりょう}を{調整|ちょうせい}する。",
+      "japanese": "⟦マイク→マイク：00267_maiku⟧⟦の→の：09472_no⟧{音量|おんりょう}⟦を→を：00422_wo⟧⟦{調整|ちょうせい}する→調整する：10442_chouseisuru⟧。",
       "english": "To adjust the microphone volume.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{音量|おんりょう} refers specifically to the volume or loudness of sound.\n\nWORD FORMATION:\n{音|おん} (sound) + {量|りょう} (quantity, amount) = sound volume\n\nCOMMON EXPRESSIONS:\n- {音量|おんりょう}を{上|あ}げる: to turn up the volume\n- {音量|おんりょう}を{下|さ}げる: to turn down the volume\n- {音量|おんりょう}を{調整|ちょうせい}する: to adjust the volume\n- {音量|おんりょう}{調節|ちょうせつ}: volume control\n- {最大|さいだい}{音量|おんりょう}: maximum volume\n\nSIMILAR WORDS:\n- ボリューム: volume (loanword, commonly used)\n- {音|おと}の{大|おお}きさ: loudness (more casual)",
+  "notes": "{音量|おんりょう} refers specifically to the volume or loudness of sound.\n\nFORMS:\n{音|おん} (sound) + ⟦{量|りょう}→量：03799_ryou⟧ (quantity, amount) = sound volume\n\nCOMMON EXPRESSIONS:\n- {音量|おんりょう}⟦を→を：00422_wo⟧⟦{上|あ}げる→上げる：02443_ageru⟧: to turn up the volume\n- {音量|おんりょう}⟦を→を：00422_wo⟧⟦{下|さ}げる→下げる：00807_sageru⟧: to turn down the volume\n- {音量|おんりょう}⟦を→を：00422_wo⟧⟦{調整|ちょうせい}する→調整する：10442_chouseisuru⟧: to adjust the volume\n- {音量|おんりょう}{調節|ちょうせつ}: volume control\n- ⟦{最大|さいだい}→最大：04827_saidai⟧{音量|おんりょう}: maximum volume\n\nSIMILAR WORDS:\n- ⟦ボリューム→ボリューム：27002_boryuumu⟧: volume (loanword, commonly used)\n- ⟦{音|おと}→音：00743_oto⟧⟦の→の：09472_no⟧⟦{大|おお}きさ→大きさ：10969_ookisa⟧: loudness (more casual)",
   "prominent_see_also": [
     {
       "target_id": "13454_onryou",
@@ -53,17 +59,35 @@
       "reading": "ねいろ",
       "headword": "{音色|ねいろ}",
       "label": "tone, timbre"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27002_boryuumu",
+      "reading": "ぼりゅーむ",
+      "headword": "ボリューム",
+      "label": "volume"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30097_onatsu",
+      "reading": "おんあつ",
+      "headword": "{音圧|おんあつ}",
+      "label": "sound pressure"
     }
   ],
   "metadata": {
     "created": "2026-02-04T13:51:51Z",
-    "modified": "2026-04-28T10:15:25Z",
+    "modified": "2026-09-02T04:01:19Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

@@ -3,7 +3,7 @@
   "id": "14377_kado",
   "headword": "{過度|かど}",
   "reading": "かど",
-  "part_of_speech": "adjective, na-adjective",
+  "part_of_speech": "na-adjective",
   "gloss": "excessive; immoderate",
   "definitions": [
     {
@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "14377_kado_ex1",
-      "japanese": "{過度|かど}な{飲酒|いんしゅ}は{体|からだ}に{悪|わる}い。",
+      "japanese": "{過度|かど}な⟦{飲酒|いんしゅ}→飲酒：08635_inshu⟧⟦は→は：00079_ha⟧⟦{体|からだ}→体：00784_karada⟧⟦に→に：00314_ni⟧⟦{悪|わる}い→悪い：00908_warui⟧。",
       "english": "Excessive drinking is bad for the body.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14377_kado_ex2",
-      "japanese": "{過度|かど}なストレスが{病気|びょうき}の{原因|げんいん}になった。",
+      "japanese": "{過度|かど}な⟦ストレス→ストレス：03827_sutoresu⟧⟦が→が：00051_ga⟧⟦{病気|びょうき}→病気：00771_byouki⟧⟦の→の：09472_no⟧⟦{原因|げんいん}→原因：01400_genin⟧になった。",
       "english": "Excessive stress was the cause of the illness.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14377_kado_ex3",
-      "japanese": "{過度|かど}な{期待|きたい}をかけると、{子|こ}どもにプレッシャーを{与|あた}えてしまう。",
+      "japanese": "{過度|かど}な⟦{期待|きたい}→期待：00238_kitai⟧⟦を→を：00422_wo⟧⟦かける→かける：00854_kakeru⟧⟦と→と：00512_to⟧、{子|こ}ども⟦に→に：00314_ni⟧⟦プレッシャー→プレッシャー：07163_puresshaa⟧⟦を→を：00422_wo⟧⟦{与|あた}えて→与える：01821_ataeru⟧しまう。",
       "english": "Placing excessive expectations on children puts pressure on them.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE NOTES:\n{過度|かど} is almost always used as a modifier with な, describing something that goes beyond reasonable limits. It is formal in tone and common in medical, health, and policy writing.\n\nPATTERNS:\n- {過度|かど}な + noun (excessive...)\n- {過度|かど}に + verb/adjective (excessively...)\n\nCOMMON COLLOCATIONS:\n- {過度|かど}なストレス (excessive stress)\n- {過度|かど}な{飲酒|いんしゅ} (excessive drinking)\n- {過度|かど}な{運動|うんどう} (excessive exercise)\n- {過度|かど}な{期待|きたい} (excessive expectations)\n- {過度|かど}な{心配|しんぱい} (excessive worry)\n\nSIMILAR WORDS:\n{過剰|かじょう} (surplus, excess) emphasizes having too much of something. {過度|かど} emphasizes that the degree or extent has gone too far.",
+  "notes": "USAGE:\n{過度|かど} is almost always used as a modifier with な, describing something that goes beyond reasonable limits. It is formal in tone and common in medical, health, and policy writing.\n\nCOMMON PATTERNS:\n- {過度|かど}な + noun (excessive...)\n- {過度|かど}⟦に→に：00314_ni⟧ + verb/adjective (excessively...)\n\nCOMMON COLLOCATIONS:\n- {過度|かど}な⟦ストレス→ストレス：03827_sutoresu⟧ (excessive stress)\n- {過度|かど}な⟦{飲酒|いんしゅ}→飲酒：08635_inshu⟧ (excessive drinking)\n- {過度|かど}な⟦{運動|うんどう}→運動：00821_undou⟧ (excessive exercise)\n- {過度|かど}な⟦{期待|きたい}→期待：00238_kitai⟧ (excessive expectations)\n- {過度|かど}な⟦{心配|しんぱい}→心配：00811_shinpai⟧ (excessive worry)\n\nSIMILAR WORDS:\n⟦{過剰|かじょう}→過剰：04123_kajou⟧ (surplus, excess) emphasizes having too much of something. {過度|かど} emphasizes that the degree or extent has gone too far.",
   "cross_references": [
     {
       "type": "contrast",
@@ -46,18 +52,36 @@
       "reading": "かじょう",
       "headword": "{過剰|かじょう}",
       "label": "surplus, excess"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13141_kyokudo",
+      "reading": "きょくど",
+      "headword": "{極度|きょくど}",
+      "label": "extreme, utmost"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19564_dogasugiru",
+      "reading": "どがすぎる",
+      "headword": "{度|ど}が{過|す}ぎる",
+      "label": "to go too far"
     }
   ],
   "metadata": {
     "created": "2026-02-28T13:11:28Z",
-    "modified": "2026-02-28T13:11:28Z",
+    "modified": "2026-09-02T04:01:37Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-na"],
+      "pos": [
+        "adjective-na"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["descriptive"]
+      "semantic": [
+        "descriptive"
+      ]
     }
   }
 }

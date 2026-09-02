@@ -3,7 +3,7 @@
   "id": "11100_kessai",
   "headword": "{決裁|けっさい}",
   "reading": "けっさい",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "approval, authorization",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "11100_kessai_ex1",
-      "japanese": "{部長|ぶちょう}の{決裁|けっさい}をもらってから{進|すす}めてください。",
+      "japanese": "⟦{部長|ぶちょう}→部長：01017_buchou⟧⟦の→の：09472_no⟧{決裁|けっさい}⟦を→を：00422_wo⟧⟦もらって→もらう：00520_morau⟧⟦から→から：00504_kara⟧⟦{進|すす}めて→進める：01949_susumeru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please proceed after getting the department head's approval.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "11100_kessai_ex2",
-      "japanese": "この{予算|よさん}は{社長|しゃちょう}の{決裁|けっさい}が{必要|ひつよう}だ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{予算|よさん}→予算：03663_yosan⟧⟦は→は：00079_ha⟧⟦{社長|しゃちょう}→社長：01428_shachou⟧⟦の→の：09472_no⟧{決裁|けっさい}⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧だ。",
       "english": "This budget requires the president's authorization.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "11100_kessai_ex3",
-      "japanese": "{電子|でんし}{決裁|けっさい}システムの{導入|どうにゅう}で、{書類|しょるい}の{処理|しょり}{速度|そくど}が{大幅|おおはば}に{上|あ}がった。",
+      "japanese": "⟦{電子|でんし}→電子：03449_denshi⟧{決裁|けっさい}⟦システム→システム：08428_shisutemu⟧⟦の→の：09472_no⟧⟦{導入|どうにゅう}→導入：10127_dounyuu⟧⟦で→で：00502_de⟧、⟦{書類|しょるい}→書類：01103_shorui⟧⟦の→の：09472_no⟧⟦{処理|しょり}→処理：03251_shori⟧⟦{速度|そくど}→速度：03319_sokudo⟧⟦が→が：00051_ga⟧⟦{大幅|おおはば}→大幅：12170_oohaba⟧⟦に→に：00314_ni⟧⟦{上|あ}がった→上がる：00615_agaru⟧。",
       "english": "The introduction of an electronic approval system significantly sped up document processing.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,26 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{決裁|けっさい} refers to the act of a superior formally approving a proposal or expenditure. It is a key concept in Japanese organizational culture where decisions typically require approval through a hierarchical chain.\n\nCOMMON COLLOCATIONS:\n- {決裁|けっさい}を{得|え}る (to obtain approval)\n- {決裁|けっさい}を{下|くだ}す (to hand down approval)\n- {決裁|けっさい}{権|けん} (authorization authority)\n- {決裁|けっさい}{書類|しょるい} (approval documents)\n\nSIMILAR WORDS:\n- {決裁|けっさい}: official approval from a superior (managerial sign-off)\n- {決済|けっさい}: financial settlement or payment (different kanji, same reading)\n- {承認|しょうにん}: general approval or endorsement",
-  "cross_references": [],
+  "notes": "USAGE:\n{決裁|けっさい} refers to the act of a superior formally approving a proposal or expenditure. It is a key concept in Japanese organizational culture where decisions typically require approval through a hierarchical chain.\n\nCOMMON COLLOCATIONS:\n- {決裁|けっさい}⟦を→を：00422_wo⟧⟦{得|え}る→得る：02014_eru⟧ (to obtain approval)\n- {決裁|けっさい}⟦を→を：00422_wo⟧⟦{下|くだ}す→下す：12329_kudasu⟧ (to hand down approval)\n- {決裁|けっさい}{権|けん} (authorization authority)\n- {決裁|けっさい}⟦{書類|しょるい}→書類：01103_shorui⟧ (approval documents)\n\nSIMILAR WORDS:\n- {決裁|けっさい}: official approval from a superior (managerial sign-off)\n- ⟦{決済|けっさい}→決済：05466_kessai⟧: financial settlement or payment (different kanji, same reading)\n- ⟦{承認|しょうにん}→承認：03237_shounin⟧: general approval or endorsement",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03237_shounin",
+      "reading": "しょうにん",
+      "headword": "{承認|しょうにん}",
+      "label": "general approval or endorsement"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26152_ringisho",
+      "reading": "りんぎしょ",
+      "headword": "{稟議書|りんぎしょ}",
+      "label": "written proposal for approval"
+    }
+  ],
   "metadata": {
     "created": "2026-02-13T12:41:35Z",
-    "modified": "2026-03-29T03:07:35Z",
+    "modified": "2026-09-02T04:01:24Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

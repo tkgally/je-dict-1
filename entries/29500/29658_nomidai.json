@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29658_nomidai_ex1",
-      "japanese": "{飲|の}み{代|だい}をおごる。",
+      "japanese": "{飲|の}み{代|だい}⟦を→を：00422_wo⟧⟦おごる→おごる：08157_ogoru⟧。",
       "english": "To treat someone to the drinks.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29658_nomidai_ex2",
-      "japanese": "{今夜|こんや}の{飲|の}み{代|だい}は{割|わ}り{勘|かん}にしよう。",
+      "japanese": "⟦{今夜|こんや}→今夜：01411_konya⟧⟦の→の：09472_no⟧{飲|の}み{代|だい}⟦は→は：00079_ha⟧⟦{割|わ}り{勘|かん}→割り勘：08156_warikan⟧⟦に→に：00314_ni⟧⟦しよう→する：00392_suru⟧。",
       "english": "Let's split tonight's drinking bill.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29658_nomidai_ex3",
-      "japanese": "{給料日|きゅうりょうび}の{前|まえ}は{飲|の}み{代|だい}を{節約|せつやく}している。",
+      "japanese": "⟦{給料日|きゅうりょうび}→給料日：27561_kyuuryoubi⟧⟦の→の：09472_no⟧⟦{前|まえ}→前：02255_mae⟧⟦は→は：00079_ha⟧{飲|の}み{代|だい}⟦を→を：00422_wo⟧⟦{節約|せつやく}している→節約する：25226_setsuyakusuru⟧。",
       "english": "Before payday I cut back on my drinking expenses.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Formed from {飲|の}む (to drink) plus {代|だい} (charge, fee). A colloquial word for the money spent on alcohol, distinct from the cost of food.\n\nCOMMON COLLOCATIONS:\n- {飲|の}み{代|だい}をおごる: to treat someone to the drinks\n- {飲|の}み{代|だい}を{割|わ}り{勘|かん}にする: to split the drinking bill\n- {飲|の}み{代|だい}がかさむ: for the drinking tab to add up\n\nSIMILAR WORDS:\n- {飲食代|いんしょくだい}: food and drink bill — covers meals as well as drinks\n- ツケ: tab; deferred payment — an unpaid running account, not the amount itself",
+  "notes": "Formed from ⟦{飲|の}む→飲む：00322_nomu⟧ (to drink) plus ⟦{代|だい}→〜代：28331_dai⟧ (charge, fee). A colloquial word for the money spent on alcohol, distinct from the cost of food.\n\nCOMMON COLLOCATIONS:\n- {飲|の}み{代|だい}⟦を→を：00422_wo⟧⟦おごる→おごる：08157_ogoru⟧: to treat someone to the drinks\n- {飲|の}み{代|だい}⟦を→を：00422_wo⟧⟦{割|わ}り{勘|かん}→割り勘：08156_warikan⟧⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧: to split the drinking bill\n- {飲|の}み{代|だい}⟦が→が：00051_ga⟧かさむ: for the drinking tab to add up\n\nSIMILAR WORDS:\n- ⟦{飲食代|いんしょくだい}→飲食代：29657_inshokudai⟧: food and drink bill — covers meals as well as drinks\n- ⟦ツケ→ツケ：29659_tsuke⟧: tab; deferred payment — an unpaid running account, not the amount itself",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "29657_inshokudai",
+      "reading": "いんしょくだい",
+      "headword": "{飲食代|いんしょくだい}",
+      "label": "food and drink bill"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29659_tsuke",
+      "reading": "つけ",
+      "headword": "ツケ",
+      "label": "tab"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +69,7 @@
         "noun"
       ],
       "formality": "informal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "money"
       ],
@@ -62,6 +78,6 @@
       ]
     },
     "created": "2026-07-03T18:18:03Z",
-    "modified": "2026-07-03T18:18:03Z"
+    "modified": "2026-09-02T04:02:37Z"
   }
 }

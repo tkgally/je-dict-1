@@ -2,7 +2,7 @@
   "id": "11932_housou",
   "headword": "{包装|ほうそう}",
   "reading": "ほうそう",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "packaging, wrapping",
   "conjugation": {
     "type": "suru",
@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "11932_housou_ex1",
-      "japanese": "プレゼントを{包装|ほうそう}してもらった。",
+      "japanese": "⟦プレゼント→プレゼント：01791_purezento⟧⟦を→を：00422_wo⟧{包装|ほうそう}⟦して→する：00392_suru⟧⟦もらった→もらう：00520_morau⟧。",
       "english": "I had the present gift-wrapped.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "11932_housou_ex2",
-      "japanese": "{過剰|かじょう}{包装|ほうそう}はゴミを{増|ふ}やす。",
+      "japanese": "⟦{過剰|かじょう}→過剰：04123_kajou⟧{包装|ほうそう}⟦は→は：00079_ha⟧⟦ゴミ→ゴミ：00840_gomi⟧⟦を→を：00422_wo⟧⟦{増|ふ}やす→増やす：02410_fuyasu⟧。",
       "english": "Excessive packaging increases waste.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "11932_housou_ex3",
-      "japanese": "{商品|しょうひん}の{包装|ほうそう}を{簡素|かんそ}にすることで、コストを{削減|さくげん}できる。",
+      "japanese": "⟦{商品|しょうひん}→商品：01436_shouhin⟧⟦の→の：09472_no⟧{包装|ほうそう}⟦を→を：00422_wo⟧⟦{簡素|かんそ}→簡素：09202_kanso⟧⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧ことで、⟦コスト→コスト：06666_kosuto⟧⟦を→を：00422_wo⟧⟦{削減|さくげん}できる→削減する：25399_sakugensuru⟧。",
       "english": "By simplifying the product packaging, we can reduce costs.",
       "notes": null,
       "has_audio": false,
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "Covers both commercial product packaging and gift wrapping. Also functions as a suru verb: {包装|ほうそう}する.\n\nCULTURAL CONTEXT:\nJapan is known for elaborate gift wrapping. Many department stores and shops offer {包装|ほうそう} as a free service. At the same time, {過剰|かじょう}{包装|ほうそう} (excessive packaging) has become an environmental concern.\n\nCOMMON COLLOCATIONS:\n- {包装|ほうそう}する: to wrap, to package\n- {包装|ほうそう}{紙|し}: wrapping paper\n- {過剰|かじょう}{包装|ほうそう}: excessive packaging\n- {簡易|かんい}{包装|ほうそう}: simple packaging\n- ギフト{包装|ほうそう}: gift wrapping\n- {個別|こべつ}{包装|ほうそう}: individual wrapping\n\nCONTRAST:\n- {包装|ほうそう}: wrapping/packaging (general)\n- {梱包|こんぽう}: packing (for shipping/transport, heavier-duty)",
+  "notes": "Covers both commercial product packaging and gift wrapping. Also functions as a suru verb: {包装|ほうそう}⟦する→する：00392_suru⟧.\n\nCULTURAL NOTE:\nJapan is known for elaborate gift wrapping. Many department stores and shops offer {包装|ほうそう} as a free service. At the same time, ⟦{過剰|かじょう}→過剰：04123_kajou⟧{包装|ほうそう} (excessive packaging) has become an environmental concern.\n\nCOMMON COLLOCATIONS:\n- {包装|ほうそう}⟦する→する：00392_suru⟧: to wrap, to package\n- {包装|ほうそう}{紙|し}: wrapping paper\n- ⟦{過剰|かじょう}→過剰：04123_kajou⟧{包装|ほうそう}: excessive packaging\n- ⟦{簡易|かんい}→簡易：13804_kani⟧{包装|ほうそう}: simple packaging\n- ⟦ギフト→ギフト：10824_gifuto⟧{包装|ほうそう}: gift wrapping\n- ⟦{個別|こべつ}→個別：11566_kobetsu⟧{包装|ほうそう}: individual wrapping\n\nSIMILAR WORDS:\n- {包装|ほうそう}: wrapping/packaging (general)\n- ⟦{梱包|こんぽう}→梱包：07937_konpou⟧: packing (for shipping/transport, heavier-duty)",
   "cross_references": [
     {
       "type": "synonym",
@@ -141,11 +141,25 @@
       "reading": "らっぴんぐ",
       "headword": "ラッピング",
       "label": "gift wrapping (casual)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07937_konpou",
+      "reading": "こんぽう",
+      "headword": "{梱包|こんぽう}",
+      "label": "packing"
+    },
+    {
+      "type": "related",
+      "target_id": "01226_tsutsumu",
+      "reading": "つつむ",
+      "headword": "{包|つつ}む",
+      "label": "to wrap, to cover"
     }
   ],
   "metadata": {
     "created": "2026-02-18T14:20:42Z",
-    "modified": "2026-04-20T06:28:06Z",
+    "modified": "2026-09-02T04:01:27Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
@@ -159,7 +173,8 @@
       "semantic": [
         "general"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   },
   "prominent_see_also": [

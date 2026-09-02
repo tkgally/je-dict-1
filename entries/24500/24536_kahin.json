@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24536_kahin_ex1",
-      "japanese": "この{陶器|とうき}は{佳品|かひん}として{知|し}られている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{陶器|とうき}→陶器：14531_touki⟧⟦は→は：00079_ha⟧{佳品|かひん}⟦として→として：06802_toshite⟧⟦{知|し}られている→知る：00458_shiru⟧。",
       "english": "This ceramic piece is known as a fine article.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24536_kahin_ex2",
-      "japanese": "{展覧会|てんらんかい}には{多|おお}くの{佳品|かひん}が{並|なら}んでいた。",
+      "japanese": "⟦{展覧会|てんらんかい}→展覧会：01470_tenrankai⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{多|おお}く⟦の→の：09472_no⟧{佳品|かひん}⟦が→が：00051_ga⟧⟦{並|なら}んでいた→並ぶ：00605_narabu⟧。",
       "english": "Many fine works were displayed at the exhibition.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24536_kahin_ex3",
-      "japanese": "{地元|じもと}の{職人|しょくにん}が{手|て}がけた{佳品|かひん}の{数々|かずかず}が{贈答用|ぞうとうよう}としても{喜|よろこ}ばれている。",
+      "japanese": "⟦{地元|じもと}→地元：09941_jimoto⟧⟦の→の：09472_no⟧⟦{職人|しょくにん}→職人：09868_shokunin⟧⟦が→が：00051_ga⟧⟦{手|て}がけた→手がける：12753_tegakeru⟧{佳品|かひん}⟦の→の：09472_no⟧⟦{数々|かずかず}→数々：12722_kazukazu⟧⟦が→が：00051_ga⟧⟦{贈答用|ぞうとうよう}→贈答用：20285_zoutouyou⟧⟦として→として：06802_toshite⟧⟦も→も：00484_mo⟧⟦{喜|よろこ}ばれている→喜ぶ：01169_yorokobu⟧。",
       "english": "The many fine articles crafted by local artisans are also well received as gifts.",
       "sense_numbers": [
         1
@@ -44,20 +44,44 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {佳|か} (good, beautiful, fine) and {品|ひん} (article, item). A literary and somewhat formal word. While {佳|か} can describe beauty in a general sense, {佳品|かひん} specifically emphasizes quality craftsmanship or artistic merit rather than just aesthetic appeal.\n\nCOMMON COLLOCATIONS:\n- {佳品|かひん}を{集|あつ}める: to collect fine articles\n- {佳品|かひん}が{並|なら}ぶ: fine pieces are lined up\n- {知|し}る{人|ひと}ぞ{知|し}る{佳品|かひん}: a fine article known to connoisseurs\n\nSIMILAR WORDS:\n- {名品|めいひん}: masterpiece; famous article — implies wider recognition and higher prestige\n- {逸品|いっぴん}: gem; outstanding item — stronger praise, suggesting something exceptional\n- {良品|りょうひん}: quality goods — more commercial, emphasizing reliable quality over artistic merit",
+  "notes": "A compound of {佳|か} (good, beautiful, fine) and ⟦{品|ひん}→品：03712_hin⟧ (article, item). A literary and somewhat formal word. While {佳|か} can describe beauty in a general sense, {佳品|かひん} specifically emphasizes quality craftsmanship or artistic merit rather than just aesthetic appeal.\n\nCOMMON COLLOCATIONS:\n- {佳品|かひん}⟦を→を：00422_wo⟧⟦{集|あつ}める→集める：01170_atsumeru⟧: to collect fine articles\n- {佳品|かひん}⟦が→が：00051_ga⟧⟦{並|なら}ぶ→並ぶ：00605_narabu⟧: fine pieces are lined up\n- ⟦{知|し}る→知る：00458_shiru⟧⟦{人|ひと}→人：00476_hito⟧ぞ⟦{知|し}る→知る：00458_shiru⟧{佳品|かひん}: a fine article known to connoisseurs\n\nSIMILAR WORDS:\n- ⟦{名品|めいひん}→名品：19478_meihin⟧: masterpiece; famous article — implies wider recognition and higher prestige\n- ⟦{逸品|いっぴん}→逸品：19463_ippin⟧: gem; outstanding item — stronger praise, suggesting something exceptional\n- {良品|りょうひん}: quality goods — more commercial, emphasizing reliable quality over artistic merit",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19478_meihin",
+      "reading": "めいひん",
+      "headword": "{名品|めいひん}",
+      "label": "masterpiece"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19463_ippin",
+      "reading": "いっぴん",
+      "headword": "{逸品|いっぴん}",
+      "label": "gem"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23897_yuuhin",
+      "reading": "ゆうひん",
+      "headword": "{優品|ゆうひん}",
+      "label": "fine piece"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "art",
         "general"
       ]
     },
     "created": "2026-04-19T13:13:46Z",
-    "modified": "2026-08-03T09:22:27Z"
+    "modified": "2026-09-02T04:02:18Z"
   }
 }

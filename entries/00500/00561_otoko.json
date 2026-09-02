@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "00561_otoko_ex1",
-      "japanese": "⟦あの→あの：00915_ano⟧{男|おとこ}⟦の→の：09472_no⟧⟦{人|ひと}→人：00476_hito⟧⟦は→は：00079_ha⟧{田中|たなか}⟦さん→〜さん：09848_san⟧⟦です→です：09485_desu⟧。",
+      "japanese": "⟦あの→あの：00915_ano⟧{男|おとこ}⟦の→の：09472_no⟧⟦{人|ひと}→人：00476_hito⟧⟦は→は：00079_ha⟧⟦{田中|たなか}→田中：09528_tanaka⟧⟦さん→〜さん：09848_san⟧⟦です→です：09485_desu⟧。",
       "english": "That man is Mr. Tanaka.",
       "notes": "⟦{男|おとこ}の{人|ひと}→男の人：00337_otokonohito⟧ is more polite than {男|おとこ} alone",
       "has_audio": false,
@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "{男|おとこ} means man or male.\n\nPOLITENESS LEVELS:\n- {男|おとこ}: man (neutral/casual)\n- ⟦{男|おとこ}の{人|ひと}→男の人：00337_otokonohito⟧: man (polite)\n- ⟦{男性|だんせい}→男性：01655_dansei⟧: male (formal/official)\n\nCOMMON EXPRESSIONS:\n- ⟦{男|おとこ}の{子|こ}→男の子：02862_otokonoko⟧: boy\n- ⟦{男|おとこ}の{人|ひと}→男の人：00337_otokonohito⟧: man (polite reference)\n- ⟦{男|おとこ}らしい→男らしい：15549_otokorashii⟧: manly, masculine\n- {男|おとこ}⟦{友達|ともだち}→友達：01478_tomodachi⟧: male friend\n\nREADINGS:\n- おとこ: standalone word\n- だん/なん: in compounds (⟦{男性|だんせい}→男性：01655_dansei⟧, ⟦{男子|だんし}→男子：03425_danshi⟧)\n\nCONTRAST:\n- {男|おとこ}: man\n- ⟦{女|おんな}→女：00559_onna⟧: woman\n- ⟦{男性|だんせい}→男性：01655_dansei⟧: male (formal)\n- ⟦{女性|じょせい}→女性：01617_josei⟧: female (formal)",
+  "notes": "{男|おとこ} means man or male.\n\nPOLITENESS LEVELS:\n- {男|おとこ}: man (neutral/casual)\n- ⟦{男|おとこ}の{人|ひと}→男の人：00337_otokonohito⟧: man (polite)\n- ⟦{男性|だんせい}→男性：01655_dansei⟧: male (formal/official)\n\nCOMMON EXPRESSIONS:\n- ⟦{男|おとこ}の{子|こ}→男の子：02862_otokonoko⟧: boy\n- ⟦{男|おとこ}の{人|ひと}→男の人：00337_otokonohito⟧: man (polite reference)\n- ⟦{男|おとこ}らしい→男らしい：15549_otokorashii⟧: manly, masculine\n- {男|おとこ}⟦{友達|ともだち}→友達：01478_tomodachi⟧: male friend\n\nPRONUNCIATION:\n- おとこ: standalone word\n- だん/なん: in compounds (⟦{男性|だんせい}→男性：01655_dansei⟧, ⟦{男子|だんし}→男子：03425_danshi⟧)\n\nSIMILAR WORDS:\n- {男|おとこ}: man\n- ⟦{女|おんな}→女：00559_onna⟧: woman\n- ⟦{男性|だんせい}→男性：01655_dansei⟧: male (formal)\n- ⟦{女性|じょせい}→女性：01617_josei⟧: female (formal)",
   "cross_references": [
     {
       "type": "antonym",
@@ -84,11 +84,18 @@
       "reading": "ひと",
       "headword": "{人|ひと}",
       "target_id": "00476_hito"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01617_josei",
+      "reading": "じょせい",
+      "headword": "{女性|じょせい}",
+      "label": "female"
     }
   ],
   "metadata": {
     "created": "2026-01-07T12:03:48Z",
-    "modified": "2026-05-11T22:12:09Z",
+    "modified": "2026-09-02T04:00:57Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

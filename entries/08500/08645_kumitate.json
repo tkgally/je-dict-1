@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08645_kumitate_ex1",
-      "japanese": "{家具|かぐ}の{組|く}み{立|た}てを{自分|じぶん}でした。",
+      "japanese": "⟦{家具|かぐ}→家具：12314_kagu⟧⟦の→の：09472_no⟧{組|く}み{立|た}て⟦を→を：00422_wo⟧⟦{自分|じぶん}→自分：02887_jibun⟧でした。",
       "english": "I assembled the furniture myself.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "08645_kumitate_ex2",
-      "japanese": "この{製品|せいひん}は{組|く}み{立|た}て{式|しき}だ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{製品|せいひん}→製品：01445_seihin⟧⟦は→は：00079_ha⟧{組|く}み{立|た}て{式|しき}だ。",
       "english": "This product requires assembly.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "08645_kumitate_ex3",
-      "japanese": "{組|く}み{立|た}て{説明書|せつめいしょ}を{読|よ}んでから{始|はじ}めた。",
+      "japanese": "{組|く}み{立|た}て⟦{説明書|せつめいしょ}→説明書：19368_setsumeisho⟧⟦を→を：00422_wo⟧⟦{読|よ}んで→読む：00426_yomu⟧⟦から→から：00504_kara⟧⟦{始|はじ}めた→始める：00531_hajimeru⟧。",
       "english": "I started after reading the assembly instructions.",
       "sense_numbers": [
         1
@@ -43,7 +43,7 @@
       "notes": null
     }
   ],
-  "notes": "RELATED VERB:\n{組|く}み{立|た}てる - to assemble, to put together (compound verb)\n\nCOMMON COLLOCATIONS:\n- {組|く}み{立|た}て{式|しき} - requiring assembly, build-it-yourself\n- {組|く}み{立|た}て{工場|こうじょう} - assembly plant\n- {組|く}み{立|た}て{ライン} - assembly line\n- {組|く}み{立|た}て{説明書|せつめいしょ} - assembly instructions\n- {組|く}み{立|た}て{作業|さぎょう} - assembly work\n\nCONTEXTS:\n- IKEA-style furniture\n- Manufacturing\n- DIY projects\n- Model kits (プラモデル)\n\nOPPOSITE:\n- {分解|ぶんかい} - disassembly",
+  "notes": "RELATED VERB:\n{組|く}み{立|た}てる - to assemble, to put together (compound verb)\n\nCOMMON COLLOCATIONS:\n- {組|く}み{立|た}て{式|しき} - requiring assembly, build-it-yourself\n- {組|く}み{立|た}て⟦{工場|こうじょう}→工場：01082_koujou⟧ - assembly plant\n- {組|く}み{立|た}てライン - assembly line\n- {組|く}み{立|た}て⟦{説明書|せつめいしょ}→説明書：19368_setsumeisho⟧ - assembly instructions\n- {組|く}み{立|た}て⟦{作業|さぎょう}→作業：02775_sagyou⟧ - assembly work\n\nUSAGE:\n- IKEA-style furniture\n- Manufacturing\n- DIY projects\n- Model kits (⟦プラモデル→プラモデル：07328_puramoderu⟧)\n\nSIMILAR WORDS:\n- ⟦{分解|ぶんかい}→分解：08389_bunkai⟧ - disassembly",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -51,13 +51,14 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "creation",
         "work"
       ]
     },
     "created": "2026-01-27T13:19:35Z",
-    "modified": "2026-08-12T12:51:44Z"
+    "modified": "2026-09-02T04:01:15Z"
   },
   "cross_references": [
     {
@@ -66,6 +67,13 @@
       "reading": "ぶんかい",
       "headword": "{分解|ぶんかい}",
       "label": "disassembly"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02730_kouzou",
+      "reading": "こうぞう",
+      "headword": "{構造|こうぞう}",
+      "label": "structure, construction"
     }
   ]
 }

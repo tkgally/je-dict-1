@@ -63,11 +63,40 @@
       ]
     }
   ],
-  "notes": "{乗客|じょうきゃく} is used for passengers on public transportation.\n\nCOMMON COLLOCATIONS:\n- {乗客|じょうきゃく}⟦{数|すう}→数：00204_kazu⟧ (number of passengers)\n- {乗客|じょうきゃく}⟦を→を：00422_wo⟧⟦{乗|の}せる→乗せる：01972_noseru⟧ (to carry passengers)\n- {乗客|じょうきゃく}⟦{名簿|めいぼ}→名簿：11870_meibo⟧ (passenger list)\n\nCOMPARISON:\n- {乗客|じょうきゃく}: passenger (general term for public transport)\n- ⟦お{客|きゃく}さん→客：00865_kyaku⟧: customer/passenger (polite, service context)\n- ⟦{搭乗者|とうじょうしゃ}→搭乗者：24612_toujousha⟧: passenger (aviation, formal)",
-  "cross_references": [],
+  "notes": "{乗客|じょうきゃく} is used for passengers on public transportation.\n\nCOMMON COLLOCATIONS:\n- {乗客|じょうきゃく}⟦{数|すう}→数：00204_kazu⟧ (number of passengers)\n- {乗客|じょうきゃく}⟦を→を：00422_wo⟧⟦{乗|の}せる→乗せる：01972_noseru⟧ (to carry passengers)\n- {乗客|じょうきゃく}⟦{名簿|めいぼ}→名簿：11870_meibo⟧ (passenger list)\n\nSIMILAR WORDS:\n- {乗客|じょうきゃく}: passenger (general term for public transport)\n- ⟦お{客|きゃく}さん→客：00865_kyaku⟧: customer/passenger (polite, service context)\n- ⟦{搭乗者|とうじょうしゃ}→搭乗者：24612_toujousha⟧: passenger (aviation, formal)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00865_kyaku",
+      "reading": "きゃく",
+      "headword": "{客|きゃく}",
+      "label": "customer/passenger"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24612_toujousha",
+      "reading": "とうじょうしゃ",
+      "headword": "{搭乗者|とうじょうしゃ}",
+      "label": "passenger"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12950_ryokaku",
+      "reading": "りょかく",
+      "headword": "{旅客|りょかく}",
+      "label": "passenger, traveler"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24973_jouin",
+      "reading": "じょういん",
+      "headword": "{乗員|じょういん}",
+      "label": "crew member"
+    }
+  ],
   "metadata": {
     "created": "2026-01-12T01:10:50Z",
-    "modified": "2026-05-24T20:11:38Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

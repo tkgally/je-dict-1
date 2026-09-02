@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25666_amefuri_ex1",
-      "japanese": "{今日|きょう}は{雨降|あめふ}りだ。",
+      "japanese": "⟦{今日|きょう}→今日：00496_kyou⟧⟦は→は：00079_ha⟧{雨降|あめふ}りだ。",
       "english": "It's rainy today.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25666_amefuri_ex2",
-      "japanese": "{雨降|あめふ}りの{日|ひ}は{家|いえ}で{本|ほん}を{読|よ}む。",
+      "japanese": "{雨降|あめふ}り⟦の→の：09472_no⟧⟦{日|ひ}→日：02249_hi⟧⟦は→は：00079_ha⟧⟦{家|いえ}→家：00612_ie⟧⟦で→で：00502_de⟧{本|ほん}⟦を→を：00422_wo⟧⟦{読|よ}む→読む：00426_yomu⟧。",
       "english": "On rainy days, I read books at home.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25666_amefuri_ex3",
-      "japanese": "{三日|みっか}{続|つづ}きの{雨降|あめふ}りで{洗濯物|せんたくもの}が{乾|かわ}かなくて{困|こま}っている。",
+      "japanese": "⟦{三日|みっか}→三日：02969_mikka⟧⟦{続|つづ}き→続き：03526_tsuzuki⟧⟦の→の：09472_no⟧{雨降|あめふ}り⟦で→で：00502_de⟧⟦{洗濯物|せんたくもの}→洗濯物：09533_sentakumono⟧⟦が→が：00051_ga⟧⟦{乾|かわ}かなくて→乾く：00786_kawaku⟧⟦{困|こま}っている→困る：00861_komaru⟧。",
       "english": "Three straight days of rain have left me unable to dry the laundry.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {雨|あめ} (rain) and {降|ふ}り (falling), describing the state or weather condition of rain. More casual and colloquial than {降雨|こうう}, which is the formal or meteorological term.\n\nCOMMON COLLOCATIONS:\n- {雨降|あめふ}りの{日|ひ}: rainy day\n- {雨降|あめふ}り{続|つづ}き: continuous rain\n- {雨降|あめふ}りの{中|なか}: in the rain\n\nSIMILAR WORDS:\n- {降雨|こうう}: rainfall — formal, used in weather reports and official writing\n- {雨天|うてん}: rainy weather — formal, used for event announcements (e.g., {雨天|うてん}{中止|ちゅうし})\n- {雨|あめ}: rain — the most general and neutral term\n\nCULTURAL NOTE:\nThe children's song {雨降|あめふ}りお{月|つき}さん is a well-known traditional nursery rhyme, making this word familiar from an early age.",
+  "notes": "A compound of ⟦{雨|あめ}→雨：00583_ame⟧ (rain) and {降|ふ}り (falling), describing the state or weather condition of rain. More casual and colloquial than ⟦{降雨|こうう}→降雨：21711_kouu⟧, which is the formal or meteorological term.\n\nCOMMON COLLOCATIONS:\n- {雨降|あめふ}り⟦の→の：09472_no⟧⟦{日|ひ}→日：02249_hi⟧: rainy day\n- {雨降|あめふ}り⟦{続|つづ}き→続く：00903_tsuzuku⟧: continuous rain\n- {雨降|あめふ}り⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧: in the rain\n\nSIMILAR WORDS:\n- ⟦{降雨|こうう}→降雨：21711_kouu⟧: rainfall — formal, used in weather reports and official writing\n- ⟦{雨天|うてん}→雨天：15325_uten⟧: rainy weather — formal, used for event announcements (e.g., ⟦{雨天|うてん}→雨天：15325_uten⟧⟦{中止|ちゅうし}→中止：03481_chuushi⟧)\n- ⟦{雨|あめ}→雨：00583_ame⟧: rain — the most general and neutral term\n\nCULTURAL NOTE:\nThe children's song {雨降|あめふ}りお⟦{月|つき}→月：02230_tsuki⟧さん is a well-known traditional nursery rhyme, making this word familiar from an early age.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21711_kouu",
+      "reading": "こうう",
+      "headword": "{降雨|こうう}",
+      "label": "rainfall"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15325_uten",
+      "reading": "うてん",
+      "headword": "{雨天|うてん}",
+      "label": "rainy weather"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,6 +78,6 @@
       ]
     },
     "created": "2026-04-26T15:12:48Z",
-    "modified": "2026-04-26T15:12:48Z"
+    "modified": "2026-09-02T04:02:23Z"
   }
 }

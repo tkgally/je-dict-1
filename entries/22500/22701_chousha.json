@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22701_chousha_ex1",
-      "japanese": "{新|あたら}しい{庁舎|ちょうしゃ}が{完成|かんせい}した。",
+      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧{庁舎|ちょうしゃ}⟦が→が：00051_ga⟧⟦{完成|かんせい}した→完成する：25528_kanseisuru⟧。",
       "english": "The new government building was completed.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22701_chousha_ex2",
-      "japanese": "{市|し}{庁舎|ちょうしゃ}は{駅前|えきまえ}にある。",
+      "japanese": "{市|し}{庁舎|ちょうしゃ}⟦は→は：00079_ha⟧⟦{駅前|えきまえ}→駅前：09593_ekimae⟧⟦に→に：00314_ni⟧⟦ある→ある：00006_aru⟧。",
       "english": "The city hall building is in front of the station.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22701_chousha_ex3",
-      "japanese": "{地震|じしん}で{庁舎|ちょうしゃ}が{大|おお}きな{被害|ひがい}を{受|う}けた。",
+      "japanese": "⟦{地震|じしん}→地震：01608_jishin⟧⟦で→で：00502_de⟧{庁舎|ちょうしゃ}⟦が→が：00051_ga⟧⟦{大|おお}きな→大きな：02849_ookina⟧⟦{被害|ひがい}→被害：02572_higai⟧⟦を→を：00422_wo⟧⟦{受|う}けた→受ける：01215_ukeru⟧。",
       "english": "The government building suffered major damage in the earthquake.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {庁|ちょう} (government office, agency) + {舎|しゃ} (building, quarters). Refers specifically to buildings that house government administrative functions, not private office buildings.\n\nCOMMON COLLOCATIONS:\n- {市|し}{庁舎|ちょうしゃ}: city hall building\n- {県|けん}{庁舎|ちょうしゃ}: prefectural office building\n- {庁舎|ちょうしゃ}の{建|た}て{替|か}え: rebuilding of a government office\n- {仮|かり}{庁舎|ちょうしゃ}: temporary government building\n\nSIMILAR WORDS:\n- {役所|やくしょ}: government office — refers to the institution or office itself, while {庁舎|ちょうしゃ} emphasizes the physical building\n- {市役所|しやくしょ}: city hall — the office as an institution, whereas {市|し}{庁舎|ちょうしゃ} refers to the building housing it\n- {官庁|かんちょう}: government agency — refers to the organization rather than the building",
+  "notes": "A compound of {庁|ちょう} (government office, agency) + {舎|しゃ} (building, quarters). Refers specifically to buildings that house government administrative functions, not private office buildings.\n\nCOMMON COLLOCATIONS:\n- {市|し}{庁舎|ちょうしゃ}: city hall building\n- ⟦{県|けん}→県：02151_ken⟧{庁舎|ちょうしゃ}: prefectural office building\n- {庁舎|ちょうしゃ}⟦の→の：09472_no⟧⟦{建|た}て{替|か}え→建て替え：19739_tatekae⟧: rebuilding of a government office\n- ⟦{仮|かり}→仮：11551_kari⟧{庁舎|ちょうしゃ}: temporary government building\n\nSIMILAR WORDS:\n- ⟦{役所|やくしょ}→役所：06455_yakusho⟧: government office — refers to the institution or office itself, while {庁舎|ちょうしゃ} emphasizes the physical building\n- ⟦{市役所|しやくしょ}→市役所：03067_shiyakusho⟧: city hall — the office as an institution, whereas {市|し}{庁舎|ちょうしゃ} refers to the building housing it\n- ⟦{官庁|かんちょう}→官庁：12470_kanchou⟧: government agency — refers to the organization rather than the building",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06455_yakusho",
+      "reading": "やくしょ",
+      "headword": "{役所|やくしょ}",
+      "label": "government office"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03067_shiyakusho",
+      "reading": "しやくしょ",
+      "headword": "{市役所|しやくしょ}",
+      "label": "city hall"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12470_kanchou",
+      "reading": "かんちょう",
+      "headword": "{官庁|かんちょう}",
+      "label": "government agency"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,6 +84,6 @@
       "politeness": "plain"
     },
     "created": "2026-04-07T12:33:56Z",
-    "modified": "2026-08-01T06:41:09Z"
+    "modified": "2026-09-02T04:02:09Z"
   }
 }

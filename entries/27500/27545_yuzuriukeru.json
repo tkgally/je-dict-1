@@ -3,7 +3,7 @@
   "headword": "{譲|ゆず}り{受|う}ける",
   "reading": "ゆずりうける",
   "romaji": "yuzuriukeru",
-  "part_of_speech": "verb-ichidan",
+  "part_of_speech": "verb (ichidan)",
   "gloss": "to inherit; to receive (something passed down); to take over",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "27545_yuzuriukeru_ex1",
-      "japanese": "{父|ちち}から{時計|とけい}を{譲|ゆず}り{受|う}けた。",
+      "japanese": "⟦{父|ちち}→父：00566_chichi⟧⟦から→から：00504_kara⟧⟦{時計|とけい}→時計：00677_tokei⟧⟦を→を：00422_wo⟧{譲|ゆず}り{受|う}けた。",
       "english": "I inherited a watch from my father.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "27545_yuzuriukeru_ex2",
-      "japanese": "{祖母|そぼ}の{家|いえ}を{譲|ゆず}り{受|う}けることになった。",
+      "japanese": "⟦{祖母|そぼ}→祖母：00813_sobo⟧⟦の→の：09472_no⟧⟦{家|いえ}→家：00612_ie⟧⟦を→を：00422_wo⟧{譲|ゆず}り{受|う}けることになった。",
       "english": "It was decided that I would take over my grandmother's house.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "27545_yuzuriukeru_ex3",
-      "japanese": "{先代|せんだい}から{店|みせ}を{譲|ゆず}り{受|う}けて、{今|いま}は{私|わたし}が{経営|けいえい}している。",
+      "japanese": "⟦{先代|せんだい}→先代：14793_sendai⟧⟦から→から：00504_kara⟧⟦{店|みせ}→店：00497_mise⟧⟦を→を：00422_wo⟧{譲|ゆず}り{受|う}けて、⟦{今|いま}→今：00945_ima⟧⟦は→は：00079_ha⟧⟦{私|わたし}→私：02988_watashi⟧⟦が→が：00051_ga⟧⟦{経営|けいえい}→経営：02740_keiei⟧⟦している→する：00392_suru⟧。",
       "english": "I took over the shop from the previous owner, and now I'm running it.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {譲|ゆず}る (to hand down, transfer) + {受|う}ける (to receive). Transitive: the object is what is received. The source person is marked with から or に.\n\nTRANSITIVITY: Transitive (~を{譲|ゆず}り{受|う}ける).\n\nCOMMON COLLOCATIONS:\n- {親|おや}から{譲|ゆず}り{受|う}ける: to inherit from a parent\n- {店|みせ}を{譲|ゆず}り{受|う}ける: to take over a shop\n- {土地|とち}を{譲|ゆず}り{受|う}ける: to receive land\n- {会社|かいしゃ}を{譲|ゆず}り{受|う}ける: to take over a company\n\nSIMILAR WORDS:\n- {相続|そうぞく}する: to inherit — legal/formal, usually after death\n- {引|ひ}き{継|つ}ぐ: to take over — emphasizes continuing what someone started\n- もらう: to receive — much more general; not limited to succession",
+  "notes": "Compound of ⟦{譲|ゆず}る→譲る：02323_yuzuru⟧ (to hand down, transfer) + ⟦{受|う}ける→受ける：01215_ukeru⟧ (to receive). Transitive: the object is what is received. The source person is marked with ⟦から→から：00504_kara⟧ or ⟦に→に：00314_ni⟧.\n\nTRANSITIVITY: Transitive (~⟦を→を：00422_wo⟧{譲|ゆず}り{受|う}ける).\n\nCOMMON COLLOCATIONS:\n- ⟦{親|おや}→親：01357_oya⟧⟦から→から：00504_kara⟧{譲|ゆず}り{受|う}ける: to inherit from a parent\n- ⟦{店|みせ}→店：00497_mise⟧⟦を→を：00422_wo⟧{譲|ゆず}り{受|う}ける: to take over a shop\n- ⟦{土地|とち}→土地：02226_tochi⟧⟦を→を：00422_wo⟧{譲|ゆず}り{受|う}ける: to receive land\n- ⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦を→を：00422_wo⟧{譲|ゆず}り{受|う}ける: to take over a company\n\nSIMILAR WORDS:\n- ⟦{相続|そうぞく}→相続：03690_souzoku⟧⟦する→する：00392_suru⟧: to inherit — legal/formal, usually after death\n- ⟦{引|ひ}き{継|つ}ぐ→引き継ぐ：12458_hikitsugu⟧: to take over — emphasizes continuing what someone started\n- ⟦もらう→もらう：00520_morau⟧: to receive — much more general; not limited to succession",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03690_souzoku",
+      "reading": "そうぞく",
+      "headword": "{相続|そうぞく}",
+      "label": "to inherit"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12458_hikitsugu",
+      "reading": "ひきつぐ",
+      "headword": "{引|ひ}き{継|つ}ぐ",
+      "label": "to take over"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00520_morau",
+      "reading": "もらう",
+      "headword": "もらう",
+      "label": "to receive"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +76,7 @@
         "verb-ichidan"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "business",
         "family"
@@ -63,7 +86,7 @@
       "verb_class": "ichidan"
     },
     "created": "2026-05-14T01:41:20Z",
-    "modified": "2026-08-07T16:10:18Z"
+    "modified": "2026-09-02T04:02:31Z"
   },
   "conjugation": {
     "type": "ichidan",

@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "18319_itsuu_ex1",
-      "japanese": "{胃痛|いつう}がひどい。",
+      "japanese": "{胃痛|いつう}⟦が→が：00051_ga⟧⟦ひどい→ひどい：01097_hidoi⟧。",
       "english": "My stomachache is terrible.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18319_itsuu_ex2",
-      "japanese": "ストレスで{胃痛|いつう}が{起|お}きた。",
+      "japanese": "⟦ストレス→ストレス：03827_sutoresu⟧⟦で→で：00502_de⟧{胃痛|いつう}⟦が→が：00051_ga⟧⟦{起|お}きた→起きる：00521_okiru⟧。",
       "english": "I got a stomachache from stress.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18319_itsuu_ex3",
-      "japanese": "{胃痛|いつう}が{続|つづ}くようなら{病院|びょういん}に{行|い}ったほうがいい。",
+      "japanese": "{胃痛|いつう}⟦が→が：00051_ga⟧⟦{続|つづ}く→続く：00903_tsuzuku⟧ようなら⟦{病院|びょういん}→病院：00577_byouin⟧⟦に→に：00314_ni⟧⟦{行|い}った→行く：00119_iku⟧⟦ほうがいい→ほうがいい：10078_hougaii⟧。",
       "english": "If the stomach pain continues, you should go to the hospital.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nMore formal/medical than {胃|い}が{痛|いた}い (my stomach hurts). Also used figuratively in internet slang to describe emotional stress caused by watching something cringe-worthy or anxiety-inducing (e.g., {胃痛|いつう}アニメ — an anime that causes stomach-churning anxiety).\n\nCOMMON COLLOCATIONS:\n- {胃痛|いつう}がする (to have a stomachache)\n- {胃痛|いつう}{薬|やく}/{胃痛|いつう}の{薬|くすり} (stomach pain medicine)\n- ストレス{性|せい}{胃痛|いつう} (stress-induced stomach pain)\n\nSIMILAR WORDS:\n- {腹痛|ふくつう}: abdominal pain — broader, includes intestinal pain\n- {胃|い}が{痛|いた}い: my stomach hurts — casual/spoken equivalent",
+  "notes": "USAGE:\nMore formal/medical than ⟦{胃|い}→胃：01706_i⟧⟦が→が：00051_ga⟧⟦{痛|いた}い→痛い：01108_itai⟧ (my stomach hurts). Also used figuratively in internet slang to describe emotional stress caused by watching something cringe-worthy or anxiety-inducing (e.g., {胃痛|いつう}⟦アニメ→アニメ：01527_anime⟧ — an anime that causes stomach-churning anxiety).\n\nCOMMON COLLOCATIONS:\n- {胃痛|いつう}⟦が→が：00051_ga⟧⟦する→する：00392_suru⟧ (to have a stomachache)\n- {胃痛|いつう}{薬|やく}/{胃痛|いつう}⟦の→の：09472_no⟧⟦{薬|くすり}→薬：00793_kusuri⟧ (stomach pain medicine)\n- ⟦ストレス→ストレス：03827_sutoresu⟧⟦{性|せい}→性：09880_sei⟧{胃痛|いつう} (stress-induced stomach pain)\n\nSIMILAR WORDS:\n- ⟦{腹痛|ふくつう}→腹痛：05019_fukutsuu⟧: abdominal pain — broader, includes intestinal pain\n- ⟦{胃|い}→胃：01706_i⟧⟦が→が：00051_ga⟧⟦{痛|いた}い→痛い：01108_itai⟧: my stomach hurts — casual/spoken equivalent",
   "cross_references": [
     {
       "type": "related",
@@ -46,19 +52,32 @@
       "reading": "ふくつう",
       "headword": "{腹痛|ふくつう}",
       "label": "abdominal pain (broader)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25491_ien",
+      "reading": "いえん",
+      "headword": "{胃炎|いえん}",
+      "label": "gastritis"
     }
   ],
   "metadata": {
     "created": "2026-03-21T09:12:03Z",
-    "modified": "2026-05-08T09:06:15Z",
+    "modified": "2026-09-02T04:01:51Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["body-internal"],
-      "domain": ["medical"]
+      "semantic": [
+        "body-internal"
+      ],
+      "domain": [
+        "medical"
+      ]
     }
   }
 }

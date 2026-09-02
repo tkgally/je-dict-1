@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30666_chesuto_ex1",
-      "japanese": "チェストに{服|ふく}をしまう。",
+      "japanese": "チェスト⟦に→に：00314_ni⟧⟦{服|ふく}→服：00695_fuku⟧⟦を→を：00422_wo⟧しまう。",
       "english": "I put my clothes away in the chest of drawers.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30666_chesuto_ex2",
-      "japanese": "{寝室|しんしつ}に{木|き}のチェストを{置|お}いた。",
+      "japanese": "⟦{寝室|しんしつ}→寝室：05300_shinshitsu⟧⟦に→に：00314_ni⟧⟦{木|き}→木：00524_ki⟧⟦の→の：09472_no⟧チェスト⟦を→を：00422_wo⟧⟦{置|お}いた→置く：01092_oku⟧。",
       "english": "I put a wooden chest of drawers in the bedroom.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30666_chesuto_ex3",
-      "japanese": "{引|ひ}っ{越|こ}しを{機|き}に{古|ふる}いチェストを{処分|しょぶん}して、{収納|しゅうのう}を{見直|みなお}すことにした。",
+      "japanese": "{引|ひ}っ{越|こ}し⟦を→を：00422_wo⟧⟦{機|き}→〜機：09843_ki⟧⟦に→に：00314_ni⟧⟦{古|ふる}い→古い：00488_furui⟧チェスト⟦を→を：00422_wo⟧⟦{処分|しょぶん}→処分：05520_shobun⟧⟦して→する：00392_suru⟧、⟦{収納|しゅうのう}→収納：07497_shuunou⟧⟦を→を：00422_wo⟧⟦{見直|みなお}す→見直す：04579_minaosu⟧ことにした。",
       "english": "I decided to get rid of the old chest of drawers when I moved and rethink my storage.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "COMMON COMPOUNDS:\n- {衣装|いしょう}チェスト: clothing chest\n- ローチェスト: low chest, a waist-height chest of drawers\n- ツールチェスト: tool chest\n\nSIMILAR WORDS:\n- たんす: traditional Japanese chest of drawers — the older, more common word\n- {収納|しゅうのう}ケース: storage case — usually plastic boxes rather than furniture\n\nCOMMON MISTAKE:\nDo not use チェスト for the part of the body. The chest of a person is {胸|むね}; チェスト in a fitness or clothing-size context refers to the chest measurement, not the body part itself.",
+  "notes": "COMPOUNDS:\n- ⟦{衣装|いしょう}→衣装：14102_ishou⟧チェスト: clothing chest\n- ローチェスト: low chest, a waist-height chest of drawers\n- ⟦ツール→ツール：11044_tsuuru⟧チェスト: tool chest\n\nSIMILAR WORDS:\n- たんす: traditional Japanese chest of drawers — the older, more common word\n- ⟦{収納|しゅうのう}→収納：07497_shuunou⟧⟦ケース→ケース：03841_keesu⟧: storage case — usually plastic boxes rather than furniture\n\nWATCH OUT:\nDo not use チェスト for the part of the body. The chest of a person is ⟦{胸|むね}→胸：00972_mune⟧; チェスト in a fitness or clothing-size context refers to the chest measurement, not the body part itself.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05012_tansu",
+      "reading": "たんす",
+      "headword": "{箪笥|たんす}",
+      "label": "traditional Japanese chest of drawers"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23739_doressaa",
+      "reading": "どれっさー",
+      "headword": "ドレッサー",
+      "label": "dresser"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +69,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "furniture"
       ],
       "domain": []
     },
     "created": "2026-08-15T12:20:22Z",
-    "modified": "2026-08-15T12:20:22Z"
+    "modified": "2026-09-02T04:02:41Z"
   }
 }

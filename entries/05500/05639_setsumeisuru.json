@@ -2,7 +2,7 @@
   "id": "05639_setsumeisuru",
   "headword": "{説明|せつめい}する",
   "reading": "せつめいする",
-  "part_of_speech": "verb (suru)",
+  "part_of_speech": "suru verb",
   "gloss": "to explain",
   "conjugation": {
     "type": "suru",
@@ -153,11 +153,26 @@
       ]
     }
   ],
-  "notes": "To make something clear by describing it in detail. One of the most commonly used する verbs.\n\nCOMMON PATTERNS:\n- 〜⟦を→を：00422_wo⟧{説明|せつめい}⟦する→する：00392_suru⟧: to explain ~\n- 〜⟦について→について：03103_nitsuite⟧{説明|せつめい}⟦する→する：00392_suru⟧: to explain about ~\n- ⟦{分|わ}かりやすく→分かりやすい：09582_wakariyasui⟧{説明|せつめい}⟦する→する：00392_suru⟧: to explain clearly\n- ⟦{詳|くわ}しく→詳しい：02483_kuwashii⟧{説明|せつめい}⟦する→する：00392_suru⟧: to explain in detail\n- {説明|せつめい}⟦する→する：00392_suru⟧⟦まで→まで：00490_made⟧⟦も→も：00484_mo⟧⟦ない→ない：01118_nai⟧: goes without saying\n\nCOMMON COMPOUNDS:\n- ⟦{説明書|せつめいしょ}→説明書：19368_setsumeisho⟧: instruction manual\n- ⟦{説明会|せつめいかい}→説明会：03087_setsumeikai⟧: briefing session, information session\n- {説明|せつめい}⟦{不足|ぶそく}→不足：03598_fusoku⟧: insufficient explanation\n- {説明|せつめい}⟦{責任|せきにん}→責任：03298_sekinin⟧: accountability (duty to explain)\n\nNOUN FORM:\n{説明|せつめい} can also be used as a standalone noun: {説明|せつめい}⟦を→を：00422_wo⟧⟦{求|もと}める→求める：02316_motomeru⟧ (to demand an explanation), {説明|せつめい}⟦を→を：00422_wo⟧⟦{聞|き}く→聞く：00483_kiku⟧ (to listen to an explanation).",
-  "cross_references": [],
+  "notes": "To make something clear by describing it in detail. One of the most commonly used ⟦する→する：00392_suru⟧ verbs.\n\nCOMMON PATTERNS:\n- 〜⟦を→を：00422_wo⟧{説明|せつめい}⟦する→する：00392_suru⟧: to explain ~\n- 〜⟦について→について：03103_nitsuite⟧{説明|せつめい}⟦する→する：00392_suru⟧: to explain about ~\n- ⟦{分|わ}かりやすく→分かりやすい：09582_wakariyasui⟧{説明|せつめい}⟦する→する：00392_suru⟧: to explain clearly\n- ⟦{詳|くわ}しく→詳しい：02483_kuwashii⟧{説明|せつめい}⟦する→する：00392_suru⟧: to explain in detail\n- {説明|せつめい}⟦する→する：00392_suru⟧⟦まで→まで：00490_made⟧⟦も→も：00484_mo⟧⟦ない→ない：01118_nai⟧: goes without saying\n\nCOMPOUNDS:\n- ⟦{説明書|せつめいしょ}→説明書：19368_setsumeisho⟧: instruction manual\n- ⟦{説明会|せつめいかい}→説明会：03087_setsumeikai⟧: briefing session, information session\n- ⟦{説明|せつめい}→説明：01449_setsumei⟧⟦{不足|ぶそく}→不足：03598_fusoku⟧: insufficient explanation\n- {説明|せつめい}⟦{責任|せきにん}→責任：03298_sekinin⟧: accountability (duty to explain)\n\nFORMS:\n⟦{説明|せつめい}→説明：01449_setsumei⟧ can also be used as a standalone noun: ⟦{説明|せつめい}→説明：01449_setsumei⟧⟦を→を：00422_wo⟧⟦{求|もと}める→求める：02316_motomeru⟧ (to demand an explanation), ⟦{説明|せつめい}→説明：01449_setsumei⟧⟦を→を：00422_wo⟧⟦{聞|き}く→聞く：00483_kiku⟧ (to listen to an explanation).",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17850_kaisetsusuru",
+      "reading": "かいせつする",
+      "headword": "{解説|かいせつ}する",
+      "label": "to explain"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20203_annaisuru",
+      "reading": "あんないする",
+      "headword": "{案内|あんない}する",
+      "label": "to guide"
+    }
+  ],
   "metadata": {
     "created": "2026-01-16T08:34:03Z",
-    "modified": "2026-06-07T17:07:27Z",
+    "modified": "2026-09-02T04:01:07Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
@@ -169,7 +184,8 @@
       "semantic": [
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   },
   "prominent_see_also": [

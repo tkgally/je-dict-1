@@ -15,40 +15,80 @@
   "examples": [
     {
       "id": "19758_kanrengaisha_ex1",
-      "japanese": "{関連会社|かんれんがいしゃ}と{協力|きょうりょく}する。",
+      "japanese": "{関連会社|かんれんがいしゃ}⟦と→と：00512_to⟧⟦{協力|きょうりょく}する→協力する：25370_kyouryokusuru⟧。",
       "english": "To cooperate with affiliated companies.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19758_kanrengaisha_ex2",
-      "japanese": "この{会社|かいしゃ}は{大手|おおて}メーカーの{関連会社|かんれんがいしゃ}だ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦は→は：00079_ha⟧⟦{大手|おおて}→大手：12171_oote⟧⟦メーカー→メーカー：11158_meekaa⟧⟦の→の：09472_no⟧{関連会社|かんれんがいしゃ}だ。",
       "english": "This company is an affiliate of a major manufacturer.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19758_kanrengaisha_ex3",
-      "japanese": "{関連会社|かんれんがいしゃ}を{含|ふく}めたグループ{全体|ぜんたい}の{売上|うりあげ}は{過去|かこ}{最高|さいこう}を{記録|きろく}した。",
+      "japanese": "{関連会社|かんれんがいしゃ}⟦を→を：00422_wo⟧⟦{含|ふく}めた→含める：02408_fukumeru⟧⟦グループ→グループ：03840_guruupu⟧⟦{全体|ぜんたい}→全体：03314_zentai⟧⟦の→の：09472_no⟧⟦{売上|うりあげ}→売上：04102_uriage⟧⟦は→は：00079_ha⟧⟦{過去|かこ}→過去：00152_kako⟧⟦{最高|さいこう}→最高：02637_saikou⟧⟦を→を：00422_wo⟧⟦{記録|きろく}した→記録する：25341_kirokusuru⟧。",
       "english": "Total group sales, including affiliated companies, reached a record high.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Compound of {関連|かんれん} (related, affiliated) and {会社|かいしゃ} (company). In accounting and legal terms, this refers specifically to a company where the parent holds significant influence (typically 20-50% ownership) but not majority control.\n\nCOMMON COLLOCATIONS:\n- {関連会社|かんれんがいしゃ}を{設立|せつりつ}する — to establish an affiliated company\n- {関連会社|かんれんがいしゃ}の{業績|ぎょうせき} — affiliated company's performance\n- {関連会社|かんれんがいしゃ}への{出資|しゅっし} — investment in an affiliated company\n- {関連会社|かんれんがいしゃ}を{含|ふく}む — including affiliated companies\n\nRELATED TERMS:\n- {親会社|おやがいしゃ} — parent company\n- {子会社|こがいしゃ} — subsidiary (majority-owned)\n- {グループ会社|ぐるーぷがいしゃ} — group company (informal collective term)\n- {系列|けいれつ} — keiretsu; business group network",
+  "notes": "Compound of ⟦{関連|かんれん}→関連：00177_kanren⟧ (related, affiliated) and ⟦{会社|かいしゃ}→会社：00607_kaisha⟧ (company). In accounting and legal terms, this refers specifically to a company where the parent holds significant influence (typically 20-50% ownership) but not majority control.\n\nCOMMON COLLOCATIONS:\n- {関連会社|かんれんがいしゃ}⟦を→を：00422_wo⟧⟦{設立|せつりつ}する→設立する：17473_setsuritsusuru⟧ — to establish an affiliated company\n- {関連会社|かんれんがいしゃ}⟦の→の：09472_no⟧⟦{業績|ぎょうせき}→業績：04873_gyouseki⟧ — affiliated company's performance\n- {関連会社|かんれんがいしゃ}⟦へ→へ：02473_he⟧⟦の→の：09472_no⟧⟦{出資|しゅっし}→出資：07643_shusshi⟧ — investment in an affiliated company\n- {関連会社|かんれんがいしゃ}⟦を→を：00422_wo⟧⟦{含|ふく}む→含む：01982_fukumu⟧ — including affiliated companies\n\nRELATED WORDS:\n- ⟦{親会社|おやがいしゃ}→親会社：19734_oyagaisha⟧ — parent company\n- ⟦{子会社|こがいしゃ}→子会社：12258_kogaisha⟧ — subsidiary (majority-owned)\n- {グループ会社|ぐるーぷがいしゃ} — group company (informal collective term)\n- ⟦{系列|けいれつ}→系列：13821_keiretsu⟧ — keiretsu; business group network",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "19734_oyagaisha",
+      "reading": "おやがいしゃ",
+      "headword": "{親会社|おやがいしゃ}",
+      "label": "parent company"
+    },
+    {
+      "type": "related",
+      "target_id": "12258_kogaisha",
+      "reading": "こがいしゃ",
+      "headword": "{子会社|こがいしゃ}",
+      "label": "subsidiary"
+    },
+    {
+      "type": "related",
+      "target_id": "13821_keiretsu",
+      "reading": "けいれつ",
+      "headword": "{系列|けいれつ}",
+      "label": "keiretsu"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23693_teikeisaki",
+      "reading": "ていけいさき",
+      "headword": "{提携先|ていけいさき}",
+      "label": "business partner"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["business"]
+      "semantic": [
+        "business"
+      ]
     },
     "created": "2026-03-26T15:26:41Z",
-    "modified": "2026-03-26T15:26:41Z"
+    "modified": "2026-09-02T04:01:57Z"
   }
 }

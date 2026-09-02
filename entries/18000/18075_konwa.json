@@ -3,7 +3,7 @@
   "id": "18075_konwa",
   "headword": "{混和|こんわ}",
   "reading": "こんわ",
-  "part_of_speech": "noun / verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "mixing, blending",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "18075_konwa_ex1",
-      "japanese": "2{種類|しゅるい}の{液体|えきたい}を{混和|こんわ}する。",
+      "japanese": "2⟦{種類|しゅるい}→種類：01560_shurui⟧⟦の→の：09472_no⟧⟦{液体|えきたい}→液体：04134_ekitai⟧⟦を→を：00422_wo⟧{混和|こんわ}⟦する→する：00392_suru⟧。",
       "english": "Mix two types of liquid together.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "18075_konwa_ex2",
-      "japanese": "{薬品|やくひん}を{混和|こんわ}して{新|あたら}しい{溶液|ようえき}を{作|つく}る。",
+      "japanese": "⟦{薬品|やくひん}→薬品：11055_yakuhin⟧⟦を→を：00422_wo⟧{混和|こんわ}⟦して→する：00392_suru⟧⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦{溶液|ようえき}→溶液：15120_youeki⟧⟦を→を：00422_wo⟧⟦{作|つく}る→作る：00481_tsukuru⟧。",
       "english": "Create a new solution by mixing chemicals.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "18075_konwa_ex3",
-      "japanese": "セメントと{砂|すな}を{適切|てきせつ}な{割合|わりあい}で{混和|こんわ}する{必要|ひつよう}がある。",
+      "japanese": "⟦セメント→セメント：19401_semento⟧⟦と→と：00512_to⟧⟦{砂|すな}→砂：00890_suna⟧⟦を→を：00422_wo⟧⟦{適切|てきせつ}→適切：01621_tekisetsu⟧な⟦{割合|わりあい}→割合：01760_wariai⟧⟦で→で：00502_de⟧{混和|こんわ}⟦する→する：00392_suru⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "It's necessary to mix cement and sand in the proper ratio.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "WORD FORMATION:\n{混|こん} (mix) + {和|わ} (harmonize, blend). Implies mixing things together into a harmonious blend.\n\nUSAGE:\nA technical term more common in scientific, pharmaceutical, and industrial contexts than in everyday conversation. For everyday mixing, {混|ま}ぜる is more natural.\n\nSIMILAR WORDS:\n- {混合|こんごう}: mixing, mixture (more general)\n- {混|ま}ぜる: to mix (everyday verb)\n- {調合|ちょうごう}: compounding, preparation (especially medicine)\n- {配合|はいごう}: blending, formulation\n\nCOMMON COLLOCATIONS:\n- {混和|こんわ}{材|ざい}: admixture (concrete additive)\n- {混和|こんわ}{剤|ざい}: blending agent",
+  "notes": "FORMS:\n{混|こん} (mix) + {和|わ} (harmonize, blend). Implies mixing things together into a harmonious blend.\n\nUSAGE:\nA technical term more common in scientific, pharmaceutical, and industrial contexts than in everyday conversation. For everyday mixing, ⟦{混|ま}ぜる→混ぜる：02423_mazeru⟧ is more natural.\n\nSIMILAR WORDS:\n- ⟦{混合|こんごう}→混合：04154_kongou⟧: mixing, mixture (more general)\n- ⟦{混|ま}ぜる→混ぜる：02423_mazeru⟧: to mix (everyday verb)\n- ⟦{調合|ちょうごう}→調合：20424_chougou⟧: compounding, preparation (especially medicine)\n- ⟦{配合|はいごう}→配合：16196_haigou⟧: blending, formulation\n\nCOMMON COLLOCATIONS:\n- {混和|こんわ}⟦{材|ざい}→〜材：28347_zai⟧: admixture (concrete additive)\n- {混和|こんわ}⟦{剤|ざい}→〜剤：30790_zai⟧: blending agent",
   "cross_references": [
     {
       "type": "synonym",
@@ -142,11 +142,32 @@
       "reading": "こんごう",
       "headword": "{混合|こんごう}",
       "label": "mixing (more general)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02423_mazeru",
+      "reading": "まぜる",
+      "headword": "{混|ま}ぜる",
+      "label": "to mix"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20424_chougou",
+      "reading": "ちょうごう",
+      "headword": "{調合|ちょうごう}",
+      "label": "compounding, preparation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16196_haigou",
+      "reading": "はいごう",
+      "headword": "{配合|はいごう}",
+      "label": "blending, formulation"
     }
   ],
   "metadata": {
     "created": "2026-03-20T01:11:34Z",
-    "modified": "2026-05-08T04:12:06Z",
+    "modified": "2026-09-02T04:01:50Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -162,7 +183,8 @@
       "domain": [
         "technical"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

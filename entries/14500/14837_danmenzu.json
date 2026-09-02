@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "14837_danmenzu_ex1",
-      "japanese": "{建物|たてもの}の{断面図|だんめんず}を{見|み}た。",
+      "japanese": "⟦{建物|たてもの}→建物：01458_tatemono⟧⟦の→の：09472_no⟧{断面図|だんめんず}⟦を→を：00422_wo⟧⟦{見|み}た→見る：00283_miru⟧。",
       "english": "I looked at the cross-section diagram of the building.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "14837_danmenzu_ex2",
-      "japanese": "{教科書|きょうかしょ}に{地球|ちきゅう}の{断面図|だんめんず}が{載|の}っていた。",
+      "japanese": "⟦{教科書|きょうかしょ}→教科書：01085_kyoukasho⟧⟦に→に：00314_ni⟧⟦{地球|ちきゅう}→地球：03461_chikyuu⟧⟦の→の：09472_no⟧{断面図|だんめんず}⟦が→が：00051_ga⟧⟦{載|の}っていた→載る：27882_noru⟧。",
       "english": "There was a cross-section diagram of the Earth in the textbook.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "14837_danmenzu_ex3",
-      "japanese": "エンジンの{断面図|だんめんず}を{使|つか}って、{内部|ないぶ}の{仕組|しく}みを{説明|せつめい}した。",
+      "japanese": "⟦エンジン→エンジン：03835_enjin⟧⟦の→の：09472_no⟧{断面図|だんめんず}⟦を→を：00422_wo⟧⟦{使|つか}って→使う：00473_tsukau⟧、⟦{内部|ないぶ}→内部：05583_naibu⟧⟦の→の：09472_no⟧⟦{仕組|しく}み→仕組み：07168_shikumi⟧⟦を→を：00422_wo⟧⟦{説明|せつめい}した→説明する：05639_setsumeisuru⟧。",
       "english": "I used a cross-section diagram of the engine to explain the internal mechanism.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "A compound of {断面|だんめん} (cross-section, cut surface) and {図|ず} (diagram, drawing).\n\nCOMMON COLLOCATIONS:\n- {断面図|だんめんず}を{描|か}く (to draw a cross-section)\n- {断面図|だんめんず}を{示|しめ}す (to show a cross-section)\n- {縦|たて}{断面図|だんめんず} (longitudinal cross-section)\n- {横|よこ}{断面図|だんめんず} (transverse cross-section)\n\nRelated technical drawing types include {平面図|へいめんず} (floor plan / plan view) and {立面図|りつめんず} (elevation / front view).",
+  "notes": "A compound of ⟦{断面|だんめん}→断面：21317_danmen⟧ (cross-section, cut surface) and ⟦{図|ず}→図：03368_zu⟧ (diagram, drawing).\n\nCOMMON COLLOCATIONS:\n- {断面図|だんめんず}⟦を→を：00422_wo⟧⟦{描|か}く→描く：28436_kaku⟧ (to draw a cross-section)\n- {断面図|だんめんず}⟦を→を：00422_wo⟧⟦{示|しめ}す→示す：01948_shimesu⟧ (to show a cross-section)\n- {縦|たて}{断面図|だんめんず} (longitudinal cross-section)\n- {横|よこ}{断面図|だんめんず} (transverse cross-section)\n\nRelated technical drawing types include ⟦{平面図|へいめんず}→平面図：23670_heimenzu⟧ (floor plan / plan view) and ⟦{立面図|りつめんず}→立面図：23671_ritsumenzu⟧ (elevation / front view).",
   "cross_references": [
     {
       "type": "related",
@@ -59,11 +59,39 @@
       "reading": "せっけいず",
       "headword": "{設計図|せっけいず}",
       "label": "blueprint; design drawing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23670_heimenzu",
+      "reading": "へいめんず",
+      "headword": "{平面図|へいめんず}",
+      "label": "floor plan"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23671_ritsumenzu",
+      "reading": "りつめんず",
+      "headword": "{立面図|りつめんず}",
+      "label": "elevation drawing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23885_sokumenzu",
+      "reading": "そくめんず",
+      "headword": "{側面図|そくめんず}",
+      "label": "side view (drawing), side elevation"
+    },
+    {
+      "type": "related",
+      "target_id": "26751_kouzouzu",
+      "reading": "こうぞうず",
+      "headword": "{構造図|こうぞうず}",
+      "label": "structural diagram"
     }
   ],
   "metadata": {
     "created": "2026-03-04T04:11:56Z",
-    "modified": "2026-05-01T04:26:51Z",
+    "modified": "2026-09-02T04:01:39Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

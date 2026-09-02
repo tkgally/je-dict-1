@@ -15,41 +15,80 @@
   "examples": [
     {
       "id": "14893_kizuato_ex1",
-      "japanese": "{腕|うで}に{傷跡|きずあと}が{残|のこ}っている。",
+      "japanese": "⟦{腕|うで}→腕：01006_ude⟧⟦に→に：00314_ni⟧{傷跡|きずあと}⟦が→が：00051_ga⟧⟦{残|のこ}っている→残る：01187_nokoru⟧。",
       "english": "There is a scar on my arm.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14893_kizuato_ex2",
-      "japanese": "{手術|しゅじゅつ}の{傷跡|きずあと}はだんだん{目立|めだ}たなくなった。",
+      "japanese": "⟦{手術|しゅじゅつ}→手術：03218_shujutsu⟧⟦の→の：09472_no⟧{傷跡|きずあと}⟦は→は：00079_ha⟧⟦だんだん→だんだん：00832_dandan⟧⟦{目立|めだ}たなく→目立つ：02431_medatsu⟧⟦なった→なる：01970_naru⟧。",
       "english": "The surgical scar gradually became less noticeable.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14893_kizuato_ex3",
-      "japanese": "{戦争|せんそう}の{傷跡|きずあと}は{今|いま}も{街|まち}のあちこちに{残|のこ}っている。",
+      "japanese": "⟦{戦争|せんそう}→戦争：01450_sensou⟧⟦の→の：09472_no⟧{傷跡|きずあと}⟦は→は：00079_ha⟧⟦{今|いま}→今：00945_ima⟧⟦も→も：00484_mo⟧⟦{街|まち}→街：17306_machi⟧⟦の→の：09472_no⟧⟦あちこち→あちこち：01687_achikochi⟧⟦に→に：00314_ni⟧⟦{残|のこ}っている→残る：01187_nokoru⟧。",
       "english": "The scars of war still remain throughout the city.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{傷跡|きずあと} is a compound of {傷|きず} (wound) and {跡|あと} (trace, mark). It refers to the mark left after healing, not the wound itself.\n\nCOMMON COLLOCATIONS:\n- {傷跡|きずあと}が{残|のこ}る (a scar remains)\n- {傷跡|きずあと}が{消|き}える (a scar fades)\n- {傷跡|きずあと}が{目立|めだ}つ (a scar is noticeable)\n- {心|こころ}の{傷跡|きずあと} (emotional scars)\n\nUSAGE NOTES:\nThe figurative usage is very common. {戦争|せんそう}の{傷跡|きずあと} (scars of war), {災害|さいがい}の{傷跡|きずあと} (scars of a disaster), and {心|こころ}の{傷跡|きずあと} (emotional scars) are all frequently seen in news and literature.",
-  "cross_references": [],
+  "notes": "{傷跡|きずあと} is a compound of ⟦{傷|きず}→傷：02201_kizu⟧ (wound) and ⟦{跡|あと}→跡：02174_ato⟧ (trace, mark). It refers to the mark left after healing, not the wound itself.\n\nCOMMON COLLOCATIONS:\n- {傷跡|きずあと}⟦が→が：00051_ga⟧⟦{残|のこ}る→残る：01187_nokoru⟧ (a scar remains)\n- {傷跡|きずあと}⟦が→が：00051_ga⟧⟦{消|き}える→消える：02520_kieru⟧ (a scar fades)\n- {傷跡|きずあと}⟦が→が：00051_ga⟧⟦{目立|めだ}つ→目立つ：02431_medatsu⟧ (a scar is noticeable)\n- ⟦{心|こころ}→心：01321_kokoro⟧⟦の→の：09472_no⟧{傷跡|きずあと} (emotional scars)\n\nUSAGE:\nThe figurative usage is very common. ⟦{戦争|せんそう}→戦争：01450_sensou⟧⟦の→の：09472_no⟧{傷跡|きずあと} (scars of war), ⟦{災害|さいがい}→災害：09636_saigai⟧⟦の→の：09472_no⟧{傷跡|きずあと} (scars of a disaster), and ⟦{心|こころ}→心：01321_kokoro⟧⟦の→の：09472_no⟧{傷跡|きずあと} (emotional scars) are all frequently seen in news and literature.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "09775_kasabuta",
+      "reading": "かさぶた",
+      "headword": "かさぶた",
+      "label": "scab"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24324_tsumeato",
+      "reading": "つめあと",
+      "headword": "{爪痕|つめあと}",
+      "label": "scratch mark"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25747_nikibiato",
+      "reading": "にきびあと",
+      "headword": "ニキビ{跡|あと}",
+      "label": "acne scar"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26546_hankon",
+      "reading": "はんこん",
+      "headword": "{瘢痕|はんこん}",
+      "label": "scar"
+    }
+  ],
   "metadata": {
     "created": "2026-03-04T05:30:21Z",
-    "modified": "2026-03-04T05:30:21Z",
+    "modified": "2026-09-02T04:01:39Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["body-part"]
+      "semantic": [
+        "body-part"
+      ]
     }
   }
 }

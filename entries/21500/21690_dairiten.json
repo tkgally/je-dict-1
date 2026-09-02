@@ -15,40 +15,94 @@
   "examples": [
     {
       "id": "21690_dairiten_ex1",
-      "japanese": "{旅行|りょこう}{代理店|だいりてん}で{航空|こうくう}{券|けん}を{予約|よやく}した。",
+      "japanese": "{旅行|りょこう}{代理店|だいりてん}⟦で→で：00502_de⟧⟦{航空|こうくう}{券|けん}→航空券：19426_koukuuken⟧⟦を→を：00422_wo⟧⟦{予約|よやく}した→予約する：22989_yoyakusuru⟧。",
       "english": "I booked a plane ticket at a travel agency.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21690_dairiten_ex2",
-      "japanese": "この{車|くるま}の{正規|せいき}{代理店|だいりてん}はどこですか。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{車|くるま}→車：00516_kuruma⟧⟦の→の：09472_no⟧⟦{正規|せいき}→正規：03776_seiki⟧{代理店|だいりてん}⟦は→は：00079_ha⟧⟦どこ→どこ：00539_doko⟧です⟦か→か：09473_ka⟧。",
       "english": "Where is the authorized dealer for this car?",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21690_dairiten_ex3",
-      "japanese": "{広告|こうこく}{代理店|だいりてん}に{新|あたら}しいキャンペーンの{企画|きかく}を{依頼|いらい}した。",
+      "japanese": "{広告|こうこく}{代理店|だいりてん}⟦に→に：00314_ni⟧⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦キャンペーン→キャンペーン：10809_kyanpeen⟧⟦の→の：09472_no⟧⟦{企画|きかく}→企画：04879_kikaku⟧⟦を→を：00422_wo⟧⟦{依頼|いらい}した→依頼する：21376_irai⟧。",
       "english": "We asked the advertising agency to plan a new campaign.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {代理|だいり} (proxy, agent) + {店|てん} (shop, business). Very common in business contexts.\n\nCOMMON COLLOCATIONS:\n- {旅行|りょこう}{代理店|だいりてん}: travel agency\n- {広告|こうこく}{代理店|だいりてん}: advertising agency\n- {保険|ほけん}{代理店|だいりてん}: insurance agency\n- {正規|せいき}{代理店|だいりてん}: authorized dealer\n- {販売|はんばい}{代理店|だいりてん}: sales agent/distributor\n\nSIMILAR WORDS:\n- {代理人|だいりにん}: agent (a person, not a business)\n- {販売店|はんばいてん}: retail shop (sells directly, may not be an agent)\n- {仲介|ちゅうかい}{業者|ぎょうしゃ}: broker, intermediary",
+  "notes": "A compound of ⟦{代理|だいり}→代理：03422_dairi⟧ (proxy, agent) + ⟦{店|てん}→店：10011_ten⟧ (shop, business). Very common in business contexts.\n\nCOMMON COLLOCATIONS:\n- {旅行|りょこう}{代理店|だいりてん}: travel agency\n- {広告|こうこく}{代理店|だいりてん}: advertising agency\n- ⟦{保険|ほけん}→保険：01509_hoken⟧{代理店|だいりてん}: insurance agency\n- ⟦{正規|せいき}→正規：03776_seiki⟧{代理店|だいりてん}: authorized dealer\n- ⟦{販売|はんばい}→販売：03573_hanbai⟧{代理店|だいりてん}: sales agent/distributor\n\nSIMILAR WORDS:\n- ⟦{代理人|だいりにん}→代理人：18508_dairinin⟧: agent (a person, not a business)\n- ⟦{販売店|はんばいてん}→販売店：20898_hanbaiten⟧: retail shop (sells directly, may not be an agent)\n- ⟦{仲介|ちゅうかい}→仲介：09718_chuukai⟧⟦{業者|ぎょうしゃ}→業者：13130_gyousha⟧: broker, intermediary",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18508_dairinin",
+      "reading": "だいりにん",
+      "headword": "{代理人|だいりにん}",
+      "label": "agent"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20898_hanbaiten",
+      "reading": "はんばいてん",
+      "headword": "{販売店|はんばいてん}",
+      "label": "retail shop"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20450_chokueiten",
+      "reading": "ちょくえいてん",
+      "headword": "{直営店|ちょくえいてん}",
+      "label": "company-operated store"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24107_toriatsukaiten",
+      "reading": "とりあつかいてん",
+      "headword": "{取扱店|とりあつかいてん}",
+      "label": "authorized dealer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25100_toritsugiten",
+      "reading": "とりつぎてん",
+      "headword": "{取次店|とりつぎてん}",
+      "label": "agency"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26200_senbaiten",
+      "reading": "せんばいてん",
+      "headword": "{専売店|せんばいてん}",
+      "label": "exclusive dealer"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["business"]
+      "semantic": [
+        "business"
+      ]
     },
     "created": "2026-04-02T21:23:35Z",
-    "modified": "2026-04-02T21:23:35Z"
+    "modified": "2026-09-02T04:02:04Z"
   }
 }

@@ -2,7 +2,7 @@
   "id": "03625_hogo",
   "headword": "{保護|ほご}",
   "reading": "ほご",
-  "part_of_speech": "noun, suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "protection",
   "conjugation": {
     "type": "suru",
@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "03625_hogo_ex1",
-      "japanese": "⟦{環境|かんきょう}→環境：00174_kankyou⟧⟦を→を：00422_wo⟧{保護|ほご}する⟦こと→こと：01164_koto⟧⟦が→が：00051_ga⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧⟦だ→だ：09496_da⟧。",
+      "japanese": "⟦{環境|かんきょう}→環境：00174_kankyou⟧⟦を→を：00422_wo⟧{保護|ほご}⟦する→する：00392_suru⟧⟦こと→こと：01164_koto⟧⟦が→が：00051_ga⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧⟦だ→だ：09496_da⟧。",
       "english": "It's important to protect the environment.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "03625_hogo_ex2",
-      "japanese": "⟦{警察|けいさつ}→警察：01393_keisatsu⟧⟦に→に：00314_ni⟧{保護|ほご}された。",
+      "japanese": "⟦{警察|けいさつ}→警察：01393_keisatsu⟧⟦に→に：00314_ni⟧{保護|ほご}⟦された→する：00392_suru⟧。",
       "english": "I was taken into police protection.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "03625_hogo_ex3",
-      "japanese": "⟦{絶滅|ぜつめつ}{危惧|きぐ}{種|しゅ}→絶滅危惧種：04642_zetsumetsukigushu⟧⟦を→を：00422_wo⟧{保護|ほご}する⟦{法律|ほうりつ}→法律：01722_houritsu⟧⟦が→が：00051_ga⟧ある。",
+      "japanese": "⟦{絶滅|ぜつめつ}{危惧|きぐ}{種|しゅ}→絶滅危惧種：04642_zetsumetsukigushu⟧⟦を→を：00422_wo⟧{保護|ほご}⟦する→する：00392_suru⟧⟦{法律|ほうりつ}→法律：01722_houritsu⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There are laws to protect endangered species.",
       "notes": null,
       "has_audio": false,
@@ -133,10 +133,40 @@
       ]
     }
   ],
-  "notes": "USAGE: {保護|ほご} is used in contexts ranging from environmental protection to legal protection to parental care.\n\nCOMMON PATTERNS:\n・{保護|ほご}する (to protect)\n・{保護|ほご}⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧ (to receive protection)\n・{保護|ほご}⟦の→の：09472_no⟧⟦{下|もと}→元：03878_moto⟧⟦に→に：00314_ni⟧ (under protection)\n\nCOMMON COMPOUNDS:\n・⟦{環境|かんきょう}→環境：00174_kankyou⟧{保護|ほご} (environmental protection)\n・⟦{自然|しぜん}→自然：01423_shizen⟧{保護|ほご} (nature conservation)\n・⟦{人権|じんけん}→人権：05416_jinken⟧{保護|ほご} (human rights protection)\n・{保護|ほご}⟦{者|しゃ}→〜者：04662_sha⟧ (guardian)",
+  "notes": "USAGE: {保護|ほご} is used in contexts ranging from environmental protection to legal protection to parental care.\n\nCOMMON PATTERNS:\n- {保護|ほご}⟦する→する：00392_suru⟧ (to protect)\n- {保護|ほご}⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧ (to receive protection)\n- {保護|ほご}⟦の→の：09472_no⟧⟦{下|もと}→元：03878_moto⟧⟦に→に：00314_ni⟧ (under protection)\n\nCOMPOUNDS:\n- ⟦{環境|かんきょう}→環境：00174_kankyou⟧{保護|ほご} (environmental protection)\n- ⟦{自然|しぜん}→自然：01423_shizen⟧{保護|ほご} (nature conservation)\n- ⟦{人権|じんけん}→人権：05416_jinken⟧{保護|ほご} (human rights protection)\n- {保護|ほご}⟦{者|しゃ}→〜者：04662_sha⟧ (guardian)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "03756_zetsumetsu",
+      "reading": "ぜつめつ",
+      "headword": "{絶滅|ぜつめつ}",
+      "label": "extinction, extermination"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16552_hodou",
+      "reading": "ほどう",
+      "headword": "{補導|ほどう}",
+      "label": "taking a minor into protective custody"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19292_aigo",
+      "reading": "あいご",
+      "headword": "{愛護|あいご}",
+      "label": "protection"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23019_bougo",
+      "reading": "ぼうご",
+      "headword": "{防護|ぼうご}",
+      "label": "protection"
+    }
+  ],
   "metadata": {
     "created": "2026-01-12T15:38:00Z",
-    "modified": "2026-08-13T15:50:29Z",
+    "modified": "2026-09-02T04:01:03Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

@@ -2,7 +2,7 @@
   "id": "04460_enshutsu",
   "headword": "{演出|えんしゅつ}",
   "reading": "えんしゅつ",
-  "part_of_speech": "noun, suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "direction, production",
   "conjugation": {
     "type": "suru",
@@ -168,7 +168,7 @@
       ]
     }
   ],
-  "notes": "COMPOUND: {演|えん} (perform) + {出|しゅつ} (produce, put out)\n\nCOMMON COLLOCATIONS:\n・{演出|えんしゅつ}⟦する→する：00392_suru⟧ (to direct, to produce)\n・⟦{演出|えんしゅつ}{家|か}→演出家：15916_enshutsuka⟧ (director, producer)\n・⟦{舞台|ぶたい}→舞台：03606_butai⟧{演出|えんしゅつ} (stage direction)\n・⟦{照明|しょうめい}→照明：03243_shoumei⟧{演出|えんしゅつ} (lighting effects)\n・⟦{派手|はで}→派手：03563_hade⟧⟦な→な：09497_na⟧{演出|えんしゅつ} (flashy production)\n\nCONTRAST:\n・{演出|えんしゅつ} - artistic direction (how to present)\n・⟦{監督|かんとく}→監督：00185_kantoku⟧ - overall director (film/TV)\n・⟦{脚本|きゃくほん}→脚本：04459_kyakuhon⟧ - script (what to say)\n\nEXTENDED USE:\nCan describe any creative presentation, not just theater:\n・⟦{結婚式|けっこんしき}→結婚式：05493_kekkonshiki⟧の{演出|えんしゅつ} (wedding presentation/effects)\n・⟦イベント→イベント：09594_ibento⟧の{演出|えんしゅつ} (event production)",
+  "notes": "COMPOUND: {演|えん} (perform) + {出|しゅつ} (produce, put out)\n\nCOMMON COLLOCATIONS:\n- {演出|えんしゅつ}⟦する→する：00392_suru⟧ (to direct, to produce)\n- ⟦{演出|えんしゅつ}{家|か}→演出家：15916_enshutsuka⟧ (director, producer)\n- ⟦{舞台|ぶたい}→舞台：03606_butai⟧{演出|えんしゅつ} (stage direction)\n- ⟦{照明|しょうめい}→照明：03243_shoumei⟧{演出|えんしゅつ} (lighting effects)\n- ⟦{派手|はで}→派手：03563_hade⟧⟦な→な：09497_na⟧{演出|えんしゅつ} (flashy production)\n\nSIMILAR WORDS:\n- {演出|えんしゅつ} - artistic direction (how to present)\n- ⟦{監督|かんとく}→監督：00185_kantoku⟧ - overall director (film/TV)\n- ⟦{脚本|きゃくほん}→脚本：04459_kyakuhon⟧ - script (what to say)\n\nUSAGE:\nCan describe any creative presentation, not just theater:\n- ⟦{結婚式|けっこんしき}→結婚式：05493_kekkonshiki⟧⟦の→の：09472_no⟧{演出|えんしゅつ} (wedding presentation/effects)\n- ⟦イベント→イベント：09594_ibento⟧⟦の→の：09472_no⟧{演出|えんしゅつ} (event production)",
   "cross_references": [
     {
       "type": "related",
@@ -176,11 +176,39 @@
       "headword": "{脚本|きゃくほん}",
       "label": "script",
       "target_id": "04459_kyakuhon"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00185_kantoku",
+      "reading": "かんとく",
+      "headword": "{監督|かんとく}",
+      "label": "overall director"
+    },
+    {
+      "type": "related",
+      "target_id": "17497_butaisouchi",
+      "reading": "ぶたいそうち",
+      "headword": "{舞台装置|ぶたいそうち}",
+      "label": "stage set"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22519_furitsukeru",
+      "reading": "ふりつける",
+      "headword": "{振|ふ}り{付|つ}ける",
+      "label": "to choreograph"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24895_shukou",
+      "reading": "しゅこう",
+      "headword": "{趣向|しゅこう}",
+      "label": "idea"
     }
   ],
   "metadata": {
     "created": "2026-01-14T14:59:53Z",
-    "modified": "2026-06-10T17:34:32Z",
+    "modified": "2026-09-02T04:01:04Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

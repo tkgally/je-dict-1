@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "18118_dokusou_ex1",
-      "japanese": "{毒草|どくそう}に{気|き}をつける。",
+      "japanese": "{毒草|どくそう}⟦に→に：00314_ni⟧⟦{気|き}をつける→気をつける：09771_kiwotsukeru⟧。",
       "english": "To be careful of poisonous plants.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18118_dokusou_ex2",
-      "japanese": "{山菜|さんさい}{採|と}りでは{毒草|どくそう}と{間違|まちが}えないよう{注意|ちゅうい}が{必要|ひつよう}だ。",
+      "japanese": "⟦{山菜|さんさい}{採|と}り→山菜採り：15017_sansaitori⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧{毒草|どくそう}⟦と→と：00512_to⟧⟦{間違|まちが}えない→間違える：01109_machigaeru⟧よう⟦{注意|ちゅうい}→注意：01464_chuui⟧⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧だ。",
       "english": "When picking wild vegetables, you need to be careful not to confuse them with poisonous plants.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18118_dokusou_ex3",
-      "japanese": "{毒草|どくそう}を{食用|しょくよう}の{植物|しょくぶつ}と{誤|あやま}って{食|た}べてしまい、{病院|びょういん}に{搬送|はんそう}された。",
+      "japanese": "{毒草|どくそう}⟦を→を：00422_wo⟧⟦{食用|しょくよう}→食用：25328_shokuyou⟧⟦の→の：09472_no⟧⟦{植物|しょくぶつ}→植物：03248_shokubutsu⟧⟦と→と：00512_to⟧⟦{誤|あやま}って→誤る：27433_ayamaru⟧⟦{食|た}べて→食べる：00396_taberu⟧しまい、⟦{病院|びょういん}→病院：00577_byouin⟧⟦に→に：00314_ni⟧⟦{搬送|はんそう}→搬送：24543_hansou⟧⟦された→する：00392_suru⟧。",
       "english": "Someone mistakenly ate a poisonous plant thinking it was edible and was transported to the hospital.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nOften appears in news about accidental poisoning from misidentified wild plants, which is a recurring problem in Japan, particularly with mountain vegetables ({山菜|さんさい}).\n\nCOMMON COLLOCATIONS:\n- {毒草|どくそう}を{見分|みわ}ける (to distinguish poisonous plants)\n- {毒草|どくそう}と{間違|まちが}える (to mistake for a poisonous plant)\n- {毒草|どくそう}{図鑑|ずかん} (poisonous plant field guide)\n\nSIMILAR WORDS:\n- {薬草|やくそう}: medicinal herb — the opposite, a plant with healing properties\n- {毒|どく}キノコ: poisonous mushroom — the fungal equivalent",
+  "notes": "USAGE:\nOften appears in news about accidental poisoning from misidentified wild plants, which is a recurring problem in Japan, particularly with mountain vegetables (⟦{山菜|さんさい}→山菜：12404_sansai⟧).\n\nCOMMON COLLOCATIONS:\n- {毒草|どくそう}⟦を→を：00422_wo⟧⟦{見分|みわ}ける→見分ける：06348_miwakeru⟧ (to distinguish poisonous plants)\n- {毒草|どくそう}⟦と→と：00512_to⟧⟦{間違|まちが}える→間違える：01109_machigaeru⟧ (to mistake for a poisonous plant)\n- {毒草|どくそう}⟦{図鑑|ずかん}→図鑑：00437_zukan⟧ (poisonous plant field guide)\n\nSIMILAR WORDS:\n- ⟦{薬草|やくそう}→薬草：14033_yakusou⟧: medicinal herb — the opposite, a plant with healing properties\n- ⟦{毒|どく}→毒：10052_doku⟧キノコ: poisonous mushroom — the fungal equivalent",
   "cross_references": [
     {
       "type": "antonym",
@@ -46,18 +52,29 @@
       "reading": "やくそう",
       "headword": "{薬草|やくそう}",
       "label": "medicinal herb"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25213_dokukinoko",
+      "reading": "どくきのこ",
+      "headword": "{毒茸|どくきのこ}",
+      "label": "poisonous mushroom"
     }
   ],
   "metadata": {
     "created": "2026-03-20T02:47:23Z",
-    "modified": "2026-05-08T05:05:08Z",
+    "modified": "2026-09-02T04:01:50Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["plant-general"]
+      "semantic": [
+        "plant-general"
+      ]
     }
   }
 }

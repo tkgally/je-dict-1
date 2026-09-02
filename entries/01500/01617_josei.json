@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "{女性|じょせい} is a formal, neutral term for women.\n\nCOMPARISON OF TERMS:\n- {女性|じょせい}: woman (formal, neutral)\n- ⟦{女|おんな}→女：00559_onna⟧: woman/female (can be rude in some contexts)\n- ⟦{女|おんな}→女：00559_onna⟧⟦の→の：09472_no⟧⟦{人|ひと}→人：00476_hito⟧: woman (polite, everyday)\n- ⟦{女|おんな}の{子|こ}→女の子：02865_onnanoko⟧: girl\n- {女|め}: female (literary, compounds)\n\nCOMMON COLLOCATIONS:\n- {女性|じょせい}⟦{社員|しゃいん}→社員：03065_shain⟧: female employee\n- {女性|じょせい}⟦{専用|せんよう}→専用：12385_senyou⟧: women-only\n- {女性|じょせい}⟦{向|む}け→向け：11011_muke⟧: for women\n- ⟦{若|わか}い→若い：00823_wakai⟧{女性|じょせい}: young woman\n\nOPPOSITE:\n- ⟦{男性|だんせい}→男性：01655_dansei⟧: man, male",
+  "notes": "{女性|じょせい} is a formal, neutral term for women.\n\nCOMPARISON OF TERMS:\n- {女性|じょせい}: woman (formal, neutral)\n- ⟦{女|おんな}→女：00559_onna⟧: woman/female (can be rude in some contexts)\n- ⟦{女|おんな}→女：00559_onna⟧⟦の→の：09472_no⟧⟦{人|ひと}→人：00476_hito⟧: woman (polite, everyday)\n- ⟦{女|おんな}の{子|こ}→女の子：02865_onnanoko⟧: girl\n- {女|め}: female (literary, compounds)\n\nCOMMON COLLOCATIONS:\n- {女性|じょせい}⟦{社員|しゃいん}→社員：03065_shain⟧: female employee\n- {女性|じょせい}⟦{専用|せんよう}→専用：12385_senyou⟧: women-only\n- {女性|じょせい}⟦{向|む}け→向け：11011_muke⟧: for women\n- ⟦{若|わか}い→若い：00823_wakai⟧{女性|じょせい}: young woman\n\nSIMILAR WORDS:\n- ⟦{男性|だんせい}→男性：01655_dansei⟧: man, male",
   "cross_references": [
     {
       "type": "antonym",
@@ -78,11 +78,32 @@
       "headword": "{女|おんな}",
       "target_id": "00559_onna",
       "label": "casual"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02865_onnanoko",
+      "reading": "おんなのこ",
+      "headword": "{女|おんな}の{子|こ}",
+      "label": "girl"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00561_otoko",
+      "reading": "おとこ",
+      "headword": "{男|おとこ}",
+      "label": "man, male"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03350_joshi",
+      "reading": "じょし",
+      "headword": "{女子|じょし}",
+      "label": "woman, girl, female"
     }
   ],
   "metadata": {
     "created": "2026-01-09T12:53:27Z",
-    "modified": "2026-05-16T13:13:30Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "core",
     "tags": {

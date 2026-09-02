@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28655_kousoudate_ex1",
-      "japanese": "{駅前|えきまえ}に{高層建|こうそうだ}てが{並|なら}んでいる。",
+      "japanese": "⟦{駅前|えきまえ}→駅前：09593_ekimae⟧⟦に→に：00314_ni⟧{高層建|こうそうだ}て⟦が→が：00051_ga⟧⟦{並|なら}んでいる→並ぶ：00605_narabu⟧。",
       "english": "High-rise buildings line the area in front of the station.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28655_kousoudate_ex2",
-      "japanese": "{近所|きんじょ}に{新|あたら}しい{高層建|こうそうだ}てのマンションができた。",
+      "japanese": "⟦{近所|きんじょ}→近所：01318_kinjo⟧⟦に→に：00314_ni⟧⟦{新|あたら}しい→新しい：00506_atarashii⟧{高層建|こうそうだ}て⟦の→の：09472_no⟧⟦マンション→マンション：01035_manshon⟧⟦が→が：00051_ga⟧⟦できた→できる：00557_dekiru⟧。",
       "english": "A new high-rise apartment building went up in the neighborhood.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28655_kousoudate_ex3",
-      "japanese": "{地震|じしん}の{多|おお}い{日本|にほん}では、{高層建|こうそうだ}てに{厳|きび}しい{耐震|たいしん}{基準|きじゅん}が{設|もう}けられている。",
+      "japanese": "⟦{地震|じしん}→地震：01608_jishin⟧⟦の→の：09472_no⟧⟦{多|おお}い→多い：01127_ooi⟧⟦{日本|にほん}→日本：03876_nihon⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧、{高層建|こうそうだ}て⟦に→に：00314_ni⟧⟦{厳|きび}しい→厳しい：01125_kibishii⟧⟦{耐震|たいしん}→耐震：06222_taishin⟧⟦{基準|きじゅん}→基準：00228_kijun⟧⟦が→が：00051_ga⟧⟦{設|もう}けられている→設ける：14220_moukeru⟧。",
       "english": "In earthquake-prone Japan, strict seismic standards apply to high-rises.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {高層|こうそう} (high-rise; many-storied) + the suffix {建|だ}て (number-of-stories building). Often interchangeable with {高層建物|こうそうたてもの} or {高層|こうそう}ビル, depending on register.\n\nCOMMON COLLOCATIONS:\n- {高層建|こうそうだ}てのマンション: high-rise condominium\n- {高層建|こうそうだ}てのオフィスビル: high-rise office building\n- {超|ちょう}{高層建|こうそうだ}て: super-tall / skyscraper-class\n\nSIMILAR WORDS:\n- {高層|こうそう}ビル: high-rise building — more common in everyday speech\n- タワーマンション: tower-style condominium — specifically tall residential towers\n- {平屋建|ひらやだ}て: single-story building — the 〜{建|だ}て counterpart at the other extreme",
+  "notes": "Compound of ⟦{高層|こうそう}→高層：04145_kousou⟧ (high-rise; many-storied) + the suffix {建|だ}て (number-of-stories building). Often interchangeable with {高層建物|こうそうたてもの} or ⟦{高層|こうそう}ビル→高層ビル：16994_kousoubiru⟧, depending on register.\n\nCOMMON COLLOCATIONS:\n- {高層建|こうそうだ}て⟦の→の：09472_no⟧⟦マンション→マンション：01035_manshon⟧: high-rise condominium\n- {高層建|こうそうだ}て⟦の→の：09472_no⟧オフィスビル: high-rise office building\n- {超|ちょう}{高層建|こうそうだ}て: super-tall / skyscraper-class\n\nSIMILAR WORDS:\n- ⟦{高層|こうそう}ビル→高層ビル：16994_kousoubiru⟧: high-rise building — more common in everyday speech\n- ⟦タワーマンション→タワーマンション：28914_tawaamanshon⟧: tower-style condominium — specifically tall residential towers\n- ⟦{平屋建|ひらやだ}て→平屋建て：28473_hirayadate⟧: single-story building — the 〜{建|だ}て counterpart at the other extreme",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16994_kousoubiru",
+      "reading": "こうそうびる",
+      "headword": "{高層|こうそう}ビル",
+      "label": "high-rise building"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28914_tawaamanshon",
+      "reading": "たわーまんしょん",
+      "headword": "タワーマンション",
+      "label": "tower-style condominium"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28473_hirayadate",
+      "reading": "ひらやだて",
+      "headword": "{平屋|ひらや}{建|だ}て",
+      "label": "single-story building"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +76,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "building"
       ],
       "domain": []
     },
     "created": "2026-06-03T03:21:22Z",
-    "modified": "2026-08-08T18:36:01Z"
+    "modified": "2026-09-02T04:02:34Z"
   }
 }

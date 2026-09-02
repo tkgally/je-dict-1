@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28688_hirugao_ex1",
-      "japanese": "{道端|みちばた}に{昼顔|ひるがお}が{咲|さ}いている。",
+      "japanese": "⟦{道端|みちばた}→道端：28126_michibata⟧⟦に→に：00314_ni⟧{昼顔|ひるがお}⟦が→が：00051_ga⟧⟦{咲|さ}いている→咲く：08150_saku⟧。",
       "english": "Bindweed is blooming by the roadside.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28688_hirugao_ex2",
-      "japanese": "{昼顔|ひるがお}は{昼間|ひるま}に{花|はな}を{開|ひら}く。",
+      "japanese": "{昼顔|ひるがお}⟦は→は：00079_ha⟧⟦{昼間|ひるま}→昼間：01713_hiruma⟧⟦に→に：00314_ni⟧⟦{花|はな}→花：00523_hana⟧⟦を→を：00422_wo⟧⟦{開|ひら}く→開く：01979_hiraku⟧。",
       "english": "Bindweed opens its flowers in the daytime.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28688_hirugao_ex3",
-      "japanese": "{淡|あわ}いピンクの{昼顔|ひるがお}が{土手|どて}に{広|ひろ}がっていた。",
+      "japanese": "⟦{淡|あわ}い→淡い：13293_awai⟧⟦ピンク→ピンク：04718_pinku⟧⟦の→の：09472_no⟧{昼顔|ひるがお}⟦が→が：00051_ga⟧⟦{土手|どて}→土手：12051_dote⟧⟦に→に：00314_ni⟧⟦{広|ひろ}がっていた→広がる：01980_hirogaru⟧。",
       "english": "Pale pink bindweed flowers had spread across the riverbank.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Named from {昼|ひる} (daytime) + {顔|がお} (face), reflecting that the flowers open during the day. Forms a set with {朝顔|あさがお} (morning glory) and {夕顔|ゆうがお} (moonflower).\n\nCOMMON COLLOCATIONS:\n- {昼顔|ひるがお}が{咲|さ}く: bindweed blooms\n- {野生|やせい}の{昼顔|ひるがお}: wild bindweed\n\nCULTURAL CONTEXT:\nThe word also became widely associated with the 2014 TV drama \"{昼顔|ひるがお}〜{平日|へいじつ}{午後3時|ごごさんじ}の{恋人|こいびと}たち〜\", giving {昼顔|ひるがお} a colloquial second meaning of \"daytime affair (between married people)\" in modern usage.\n\nSIMILAR WORDS:\n- {朝顔|あさがお}: morning glory — opens in morning\n- {夕顔|ゆうがお}: moonflower (bottle gourd) — opens in evening",
+  "notes": "Named from ⟦{昼|ひる}→昼：00540_hiru⟧ (daytime) + {顔|がお} (face), reflecting that the flowers open during the day. Forms a set with ⟦{朝顔|あさがお}→朝顔：05001_asagao⟧ (morning glory) and ⟦{夕顔|ゆうがお}→夕顔：28687_yuugao⟧ (moonflower).\n\nCOMMON COLLOCATIONS:\n- {昼顔|ひるがお}⟦が→が：00051_ga⟧⟦{咲|さ}く→咲く：08150_saku⟧: bindweed blooms\n- ⟦{野生|やせい}→野生：14439_yasei⟧⟦の→の：09472_no⟧{昼顔|ひるがお}: wild bindweed\n\nCULTURAL NOTE:\nThe word also became widely associated with the 2014 TV drama \"{昼顔|ひるがお}〜⟦{平日|へいじつ}→平日：03033_heijitsu⟧{午後3時|ごごさんじ}⟦の→の：09472_no⟧⟦{恋人|こいびと}→恋人：02724_koibito⟧たち〜\", giving {昼顔|ひるがお} a colloquial second meaning of \"daytime affair (between married people)\" in modern usage.\n\nSIMILAR WORDS:\n- ⟦{朝顔|あさがお}→朝顔：05001_asagao⟧: morning glory — opens in morning\n- ⟦{夕顔|ゆうがお}→夕顔：28687_yuugao⟧: moonflower (bottle gourd) — opens in evening",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05001_asagao",
+      "reading": "あさがお",
+      "headword": "{朝顔|あさがお}",
+      "label": "morning glory"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28687_yuugao",
+      "reading": "ゆうがお",
+      "headword": "{夕顔|ゆうがお}",
+      "label": "moonflower"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +69,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "plant-flower",
         "nature"
@@ -61,6 +77,6 @@
       "domain": []
     },
     "created": "2026-06-04T02:08:09Z",
-    "modified": "2026-08-08T18:34:17Z"
+    "modified": "2026-09-02T04:02:34Z"
   }
 }

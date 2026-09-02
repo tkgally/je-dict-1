@@ -3,7 +3,7 @@
   "headword": "{裏向|うらむ}き",
   "reading": "うらむき",
   "romaji": "uramuki",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "face down; inside out; reversed",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22550_uramuki_ex1",
-      "japanese": "カードを{裏向|うらむ}きに{置|お}く。",
+      "japanese": "⟦カード→カード：03836_kaado⟧⟦を→を：00422_wo⟧{裏向|うらむ}き⟦に→に：00314_ni⟧⟦{置|お}く→置く：01092_oku⟧。",
       "english": "Place the card face down.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22550_uramuki_ex2",
-      "japanese": "シャツが{裏向|うらむ}きになっているよ。",
+      "japanese": "⟦シャツ→シャツ：01052_shatsu⟧⟦が→が：00051_ga⟧{裏向|うらむ}きになっている⟦よ→よ：09475_yo⟧。",
       "english": "Your shirt is inside out.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22550_uramuki_ex3",
-      "japanese": "{写真|しゃしん}が{裏向|うらむ}きに{飾|かざ}られていたので、{誰|だれ}も{気|き}づかなかった。",
+      "japanese": "⟦{写真|しゃしん}→写真：00753_shashin⟧⟦が→が：00051_ga⟧{裏向|うらむ}き⟦に→に：00314_ni⟧⟦{飾|かざ}られていた→飾る：01185_kazaru⟧⟦の→の：09472_no⟧で、⟦{誰|だれ}も→誰も：18610_daremo⟧{気|き}づかなかった。",
       "english": "The photo was displayed face down, so nobody noticed.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {裏|うら} (back, reverse side) + {向|む}き (facing, direction). Describes the orientation of an object where the back or hidden side is exposed. The opposite is {表向|おもてむ}き (face up, outward-facing), though {表向|おもてむ}き also has the figurative meaning of 'ostensible' or 'on the surface.'\n\nCOMMON COLLOCATIONS:\n- {裏向|うらむ}きに{置|お}く: to place face down\n- {裏向|うらむ}きにする: to turn face down\n- {裏向|うらむ}きになっている: to be inside out / face down\n\nSIMILAR WORDS:\n- {表向|おもてむ}き: face up, outward-facing — the opposite orientation; also means 'ostensibly'\n- {裏返|うらがえ}し: turned inside out — emphasis on the action of flipping over\n- {上向|うわむ}き: facing up — oriented upward\n- {下向|したむ}き: facing down — oriented downward",
+  "notes": "Composed of ⟦{裏|うら}→裏：02178_ura⟧ (back, reverse side) + ⟦{向|む}き→向き：12041_muki⟧ (facing, direction). Describes the orientation of an object where the back or hidden side is exposed. The opposite is ⟦{表向|おもてむ}き→表向き：17918_omotemuki⟧ (face up, outward-facing), though ⟦{表向|おもてむ}き→表向き：17918_omotemuki⟧ also has the figurative meaning of 'ostensible' or 'on the surface.'\n\nCOMMON COLLOCATIONS:\n- {裏向|うらむ}き⟦に→に：00314_ni⟧⟦{置|お}く→置く：01092_oku⟧: to place face down\n- {裏向|うらむ}き⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧: to turn face down\n- {裏向|うらむ}きになっている: to be inside out / face down\n\nSIMILAR WORDS:\n- ⟦{表向|おもてむ}き→表向き：17918_omotemuki⟧: face up, outward-facing — the opposite orientation; also means 'ostensibly'\n- ⟦{裏返|うらがえ}し→裏返し：14032_uragaeshi⟧: turned inside out — emphasis on the action of flipping over\n- ⟦{上向|うわむ}き→上向き：27459_uwamuki⟧: facing up — oriented upward\n- {下向|したむ}き: facing down — oriented downward",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17918_omotemuki",
+      "reading": "おもてむき",
+      "headword": "{表向|おもてむ}き",
+      "label": "face up, outward-facing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14032_uragaeshi",
+      "reading": "うらがえし",
+      "headword": "{裏返|うらがえ}し",
+      "label": "turned inside out"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27459_uwamuki",
+      "reading": "うわむき",
+      "headword": "{上向|うわむ}き",
+      "label": "facing up"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +83,6 @@
       ]
     },
     "created": "2026-04-06T17:34:53Z",
-    "modified": "2026-07-30T15:20:15Z"
+    "modified": "2026-09-02T04:02:08Z"
   }
 }

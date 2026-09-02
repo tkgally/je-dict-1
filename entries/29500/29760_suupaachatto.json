@@ -15,41 +15,76 @@
   "examples": [
     {
       "id": "29760_suupaachatto_ex1",
-      "japanese": "スーパーチャットを{送|おく}る。",
+      "japanese": "スーパーチャット⟦を→を：00422_wo⟧⟦{送|おく}る→送る：00742_okuru⟧。",
       "english": "Send a Super Chat.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29760_suupaachatto_ex2",
-      "japanese": "{配信中|はいしんちゅう}にスーパーチャットが{届|とど}く。",
+      "japanese": "{配信中|はいしんちゅう}⟦に→に：00314_ni⟧スーパーチャット⟦が→が：00051_ga⟧⟦{届|とど}く→届く：00899_todoku⟧。",
       "english": "A Super Chat arrives during the stream.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29760_suupaachatto_ex3",
-      "japanese": "{人気|にんき}の{配信者|はいしんしゃ}は、{視聴者|しちょうしゃ}からのスーパーチャットで{収入|しゅうにゅう}を{得|え}ている。",
+      "japanese": "⟦{人気|にんき}→人気：01488_ninki⟧⟦の→の：09472_no⟧⟦{配信者|はいしんしゃ}→配信者：16573_haishinsha⟧⟦は→は：00079_ha⟧、⟦{視聴者|しちょうしゃ}→視聴者：02570_shichousha⟧⟦から→から：00504_kara⟧⟦の→の：09472_no⟧スーパーチャット⟦で→で：00502_de⟧⟦{収入|しゅうにゅう}→収入：03213_shuunyuu⟧⟦を→を：00422_wo⟧⟦{得|え}ている→得る：02014_eru⟧。",
       "english": "Popular streamers earn income from viewers' Super Chats.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A YouTube Live feature: a paid, highlighted comment that supports the streamer. Commonly abbreviated スパチャ.\n\nCOMMON COLLOCATIONS:\n- スーパーチャットを{送|おく}る: to send a Super Chat\n- スーパーチャットで{応援|おうえん}する: to support (a streamer) with a Super Chat\n\nSIMILAR WORDS:\n- {投|な}げ{銭|せん}: tip; donation — the general idea of tipping an online performer\n- スパチャ: the common abbreviation of スーパーチャット",
+  "notes": "A YouTube Live feature: a paid, highlighted comment that supports the streamer. Commonly abbreviated ⟦スパチャ→スパチャ：29761_supacha⟧.\n\nCOMMON COLLOCATIONS:\n- スーパーチャット⟦を→を：00422_wo⟧⟦{送|おく}る→送る：00742_okuru⟧: to send a Super Chat\n- スーパーチャット⟦で→で：00502_de⟧⟦{応援|おうえん}する→応援する：21988_ouensuru⟧: to support (a streamer) with a Super Chat\n\nSIMILAR WORDS:\n- ⟦{投|な}げ{銭|せん}→投げ銭：06444_nagesen⟧: tip; donation — the general idea of tipping an online performer\n- ⟦スパチャ→スパチャ：29761_supacha⟧: the common abbreviation of スーパーチャット",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06444_nagesen",
+      "reading": "なげせん",
+      "headword": "{投|な}げ{銭|せん}",
+      "label": "tip"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29761_supacha",
+      "reading": "すぱちゃ",
+      "headword": "スパチャ",
+      "label": "the common abbreviation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23649_nagesenkinou",
+      "reading": "なげせんきのう",
+      "headword": "{投|な}げ{銭|せん}{機能|きのう}",
+      "label": "tipping feature"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["technology"],
-      "domain": ["internet"]
+      "politeness": "plain",
+      "semantic": [
+        "technology"
+      ],
+      "domain": [
+        "internet"
+      ]
     },
     "created": "2026-07-10T12:26:59Z",
-    "modified": "2026-07-10T12:26:59Z"
+    "modified": "2026-09-02T04:02:37Z"
   }
 }

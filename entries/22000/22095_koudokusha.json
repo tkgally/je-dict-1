@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22095_koudokusha_ex1",
-      "japanese": "{購読者|こうどくしゃ}{数|すう}が{減|へ}っている。",
+      "japanese": "{購読者|こうどくしゃ}⟦{数|すう}→数：03360_suu⟧⟦が→が：00051_ga⟧⟦{減|へ}っている→減る：01985_heru⟧。",
       "english": "The number of subscribers is declining.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22095_koudokusha_ex2",
-      "japanese": "{新聞|しんぶん}の{購読者|こうどくしゃ}にはクーポンが{届|とど}く。",
+      "japanese": "⟦{新聞|しんぶん}→新聞：01440_shinbun⟧⟦の→の：09472_no⟧{購読者|こうどくしゃ}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦クーポン→クーポン：06446_kuupon⟧⟦が→が：00051_ga⟧⟦{届|とど}く→届く：00899_todoku⟧。",
       "english": "Newspaper subscribers receive coupons.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22095_koudokusha_ex3",
-      "japanese": "このメールマガジンの{購読者|こうどくしゃ}は{全国|ぜんこく}に{十万人|じゅうまんにん}いる。",
+      "japanese": "⟦この→この：00962_kono⟧⟦メール→メール：04435_meeru⟧マガジン⟦の→の：09472_no⟧{購読者|こうどくしゃ}⟦は→は：00079_ha⟧⟦{全国|ぜんこく}→全国：03311_zenkoku⟧⟦に→に：00314_ni⟧{十万人|じゅうまんにん}⟦いる→いる：00495_iru⟧。",
       "english": "This email newsletter has 100,000 subscribers nationwide.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {購読|こうどく} (subscription, subscribing) + {者|しゃ} (person). Originally referred to subscribers of print publications, but now also used for digital newsletters and online subscription services.\n\nCOMMON COLLOCATIONS:\n- {購読者|こうどくしゃ}{数|すう}: number of subscribers\n- {購読者|こうどくしゃ}を{増|ふ}やす: to increase subscribers\n- {購読者|こうどくしゃ}{向|む}け: for subscribers\n- {有料|ゆうりょう}{購読者|こうどくしゃ}: paid subscriber\n\nSIMILAR WORDS:\n- {読者|どくしゃ}: reader — broader term for anyone who reads something, not necessarily a subscriber\n- {定期|ていき}{購読者|こうどくしゃ}: regular subscriber — emphasizes ongoing subscription\n- {視聴者|しちょうしゃ}: viewer — subscriber/audience of TV or video content",
+  "notes": "Composed of ⟦{購読|こうどく}→購読：04468_koudoku⟧ (subscription, subscribing) + ⟦{者|しゃ}→〜者：04662_sha⟧ (person). Originally referred to subscribers of print publications, but now also used for digital newsletters and online subscription services.\n\nCOMMON COLLOCATIONS:\n- {購読者|こうどくしゃ}⟦{数|すう}→数：03360_suu⟧: number of subscribers\n- {購読者|こうどくしゃ}⟦を→を：00422_wo⟧⟦{増|ふ}やす→増やす：02410_fuyasu⟧: to increase subscribers\n- {購読者|こうどくしゃ}{向|む}け: for subscribers\n- ⟦{有料|ゆうりょう}→有料：03178_yuuryou⟧{購読者|こうどくしゃ}: paid subscriber\n\nSIMILAR WORDS:\n- ⟦{読者|どくしゃ}→読者：16554_dokusha⟧: reader — broader term for anyone who reads something, not necessarily a subscriber\n- ⟦{定期|ていき}→定期：03538_teiki⟧{購読者|こうどくしゃ}: regular subscriber — emphasizes ongoing subscription\n- ⟦{視聴者|しちょうしゃ}→視聴者：02570_shichousha⟧: viewer — subscriber/audience of TV or video content",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02570_shichousha",
+      "reading": "しちょうしゃ",
+      "headword": "{視聴者|しちょうしゃ}",
+      "label": "viewer"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +68,6 @@
       ]
     },
     "created": "2026-04-05T02:21:17Z",
-    "modified": "2026-04-10T08:28:27Z"
+    "modified": "2026-09-02T04:02:06Z"
   }
 }

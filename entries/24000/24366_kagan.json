@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24366_kagan_ex1",
-      "japanese": "{河岸|かがん}に{桜|さくら}が{咲|さ}いている。",
+      "japanese": "{河岸|かがん}⟦に→に：00314_ni⟧⟦{桜|さくら}→桜：02212_sakura⟧⟦が→が：00051_ga⟧⟦{咲|さ}いている→咲く：08150_saku⟧。",
       "english": "Cherry blossoms are blooming along the riverbank.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24366_kagan_ex2",
-      "japanese": "{河岸|かがん}を{散歩|さんぽ}するのが{日課|にっか}だ。",
+      "japanese": "{河岸|かがん}⟦を→を：00422_wo⟧⟦{散歩|さんぽ}する→散歩する：26840_sanposuru⟧⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦{日課|にっか}→日課：00317_nikka⟧だ。",
       "english": "Walking along the riverbank is my daily routine.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24366_kagan_ex3",
-      "japanese": "{大雨|おおあめ}で{河岸|かがん}が{浸食|しんしょく}されて{道路|どうろ}が{崩|くず}れた。",
+      "japanese": "⟦{大雨|おおあめ}→大雨：03015_ooame⟧⟦で→で：00502_de⟧{河岸|かがん}⟦が→が：00051_ga⟧{浸食|しんしょく}⟦されて→する：00392_suru⟧⟦{道路|どうろ}→道路：01481_douro⟧⟦が→が：00051_ga⟧⟦{崩|くず}れた→崩れる：04248_kuzureru⟧。",
       "english": "The riverbank was eroded by heavy rain and the road collapsed.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {河|か} ('river') and {岸|がん} ('shore; bank'). The standard Sino-Japanese term for a riverbank, used in geography, urban planning, and everyday description.\n\nUSAGE:\n- Read as かがん in the standard Sino-Japanese reading. There is also a native reading かし, which historically referred to a riverside fish market or wholesale market (as in {日本橋|にほんばし}{魚河岸|うおがし}, the old Tsukiji fish market's predecessor).\n- {河岸|かがん} is the neutral, descriptive term. For the expression {河岸|かし}を{変|か}える ('to change the scene; to move to a different bar or restaurant'), the reading is かし.\n- Used in news reports about flooding, erosion, and infrastructure along rivers.\n\nCOMMON COLLOCATIONS:\n- {河岸|かがん}の{浸食|しんしょく}: riverbank erosion\n- {河岸|かがん}{段丘|だんきゅう}: river terrace (geographical term)\n- {河岸|かがん}を{歩|ある}く: to walk along the riverbank\n- {河岸|かがん}に{沿|そ}って: along the riverbank\n\nSIMILAR WORDS:\n- {川岸|かわぎし}: riverbank — the native Japanese reading with the same meaning, slightly more conversational\n- {岸|きし}: shore; bank — the general term for any shoreline (river, lake, or sea)\n- {川辺|かわべ}: riverside — a gentler, more scenic word evoking a pleasant riverside area\n- {堤防|ていぼう}: levee; embankment — the man-made structure built to prevent flooding, not the natural bank",
+  "notes": "Compound of {河|か} ('river') and {岸|がん} ('shore; bank'). The standard Sino-Japanese term for a riverbank, used in geography, urban planning, and everyday description.\n\nUSAGE:\n- Read as かがん in the standard Sino-Japanese reading. There is also a native reading かし, which historically referred to a riverside fish market or wholesale market (as in {日本橋|にほんばし}{魚河岸|うおがし}, the old Tsukiji fish market's predecessor).\n- {河岸|かがん} is the neutral, descriptive term. For the expression {河岸|かし}⟦を→を：00422_wo⟧⟦{変|か}える→変える：01089_kaeru⟧ ('to change the scene; to move to a different bar or restaurant'), the reading is かし.\n- Used in news reports about flooding, erosion, and infrastructure along rivers.\n\nCOMMON COLLOCATIONS:\n- {河岸|かがん}⟦の→の：09472_no⟧{浸食|しんしょく}: riverbank erosion\n- {河岸|かがん}{段丘|だんきゅう}: river terrace (geographical term)\n- {河岸|かがん}⟦を→を：00422_wo⟧⟦{歩|ある}く→歩く：00538_aruku⟧: to walk along the riverbank\n- {河岸|かがん}⟦に→に：00314_ni⟧⟦{沿|そ}って→沿う：13279_sou⟧: along the riverbank\n\nSIMILAR WORDS:\n- ⟦{川岸|かわぎし}→川岸：24545_kawagishi⟧: riverbank — the native Japanese reading with the same meaning, slightly more conversational\n- ⟦{岸|きし}→岸：02545_kishi⟧: shore; bank — the general term for any shoreline (river, lake, or sea)\n- ⟦{川辺|かわべ}→川辺：20224_kawabe⟧: riverside — a gentler, more scenic word evoking a pleasant riverside area\n- ⟦{堤防|ていぼう}→堤防：19409_teibou⟧: levee; embankment — the man-made structure built to prevent flooding, not the natural bank",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24545_kawagishi",
+      "reading": "かわぎし",
+      "headword": "{川岸|かわぎし}",
+      "label": "riverbank"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20224_kawabe",
+      "reading": "かわべ",
+      "headword": "{川辺|かわべ}",
+      "label": "riverside"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19409_teibou",
+      "reading": "ていぼう",
+      "headword": "{堤防|ていぼう}",
+      "label": "levee"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -64,6 +87,6 @@
       ]
     },
     "created": "2026-04-18T15:22:27Z",
-    "modified": "2026-04-18T15:22:27Z"
+    "modified": "2026-09-02T04:02:17Z"
   }
 }

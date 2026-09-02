@@ -15,41 +15,70 @@
   "examples": [
     {
       "id": "23584_jikiteepu_ex1",
-      "japanese": "{磁気|じき}テープにデータを{保存|ほぞん}する。",
+      "japanese": "{磁気|じき}テープ⟦に→に：00314_ni⟧⟦データ→データ：03944_deeta⟧⟦を→を：00422_wo⟧⟦{保存|ほぞん}→保存：03626_hozon⟧⟦する→する：00392_suru⟧。",
       "english": "To save data onto magnetic tape.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "23584_jikiteepu_ex2",
-      "japanese": "{昔|むかし}は{音楽|おんがく}を{磁気|じき}テープに{録音|ろくおん}していた。",
+      "japanese": "⟦{昔|むかし}→昔：01515_mukashi⟧⟦は→は：00079_ha⟧⟦{音楽|おんがく}→音楽：00661_ongaku⟧⟦を→を：00422_wo⟧{磁気|じき}テープ⟦に→に：00314_ni⟧⟦{録音|ろくおん}していた→録音する：25388_rokuonsuru⟧。",
       "english": "In the past, music was recorded onto magnetic tape.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "23584_jikiteepu_ex3",
-      "japanese": "{大量|たいりょう}のデータを{長期|ちょうき}{保管|ほかん}するには、{今|いま}でも{磁気|じき}テープが{使|つか}われている。",
+      "japanese": "⟦{大量|たいりょう}→大量：03112_tairyou⟧⟦の→の：09472_no⟧⟦データ→データ：03944_deeta⟧⟦を→を：00422_wo⟧⟦{長期|ちょうき}→長期：03487_chouki⟧⟦{保管|ほかん}する→保管する：25536_hokansuru⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧、⟦{今|いま}→今：00945_ima⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧{磁気|じき}テープ⟦が→が：00051_ga⟧⟦{使|つか}われている→使う：00473_tsukau⟧。",
       "english": "Magnetic tape is still used today for the long-term storage of large amounts of data.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Compound of {磁気|じき} (magnetism) and the loanword テープ (tape). Covers cassette audio tapes, VHS video tapes, and computer backup tapes. Although consumer use has declined dramatically, magnetic tape remains important for enterprise data archiving because of its low cost per terabyte and long shelf life.\n\nCOMMON COLLOCATIONS:\n- {磁気|じき}テープに{記録|きろく}する: to record onto magnetic tape\n- {磁気|じき}テープが{劣化|れっか}する: the magnetic tape deteriorates\n- {磁気|じき}テープ{装置|そうち}: magnetic tape drive\n- バックアップ{用|よう}の{磁気|じき}テープ: magnetic tape for backups\n\nRELATED TERMS:\n- カセットテープ: cassette tape — an audio format using magnetic tape\n- ビデオテープ: videotape — a video format using magnetic tape\n- ハードディスク: hard disk — a magnetic storage device using rotating platters rather than tape",
+  "notes": "Compound of ⟦{磁気|じき}→磁気：03334_jiki⟧ (magnetism) and the loanword ⟦テープ→テープ：01535_teepu⟧ (tape). Covers cassette audio tapes, VHS video tapes, and computer backup tapes. Although consumer use has declined dramatically, magnetic tape remains important for enterprise data archiving because of its low cost per terabyte and long shelf life.\n\nCOMMON COLLOCATIONS:\n- {磁気|じき}テープ⟦に→に：00314_ni⟧⟦{記録|きろく}する→記録する：25341_kirokusuru⟧: to record onto magnetic tape\n- {磁気|じき}テープ⟦が→が：00051_ga⟧⟦{劣化|れっか}→劣化：07647_rekka⟧⟦する→する：00392_suru⟧: the magnetic tape deteriorates\n- {磁気|じき}テープ⟦{装置|そうち}→装置：03318_souchi⟧: magnetic tape drive\n- ⟦バックアップ→バックアップ：04870_bakkuappu⟧⟦{用|よう}→〜用：09842_you⟧⟦の→の：09472_no⟧{磁気|じき}テープ: magnetic tape for backups\n\nRELATED WORDS:\n- ⟦カセットテープ→カセットテープ：27932_kasettoteepu⟧: cassette tape — an audio format using magnetic tape\n- ビデオテープ: videotape — a video format using magnetic tape\n- ⟦ハードディスク→ハードディスク：06603_haadodisuku⟧: hard disk — a magnetic storage device using rotating platters rather than tape",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "27932_kasettoteepu",
+      "reading": "かせっとてーぷ",
+      "headword": "カセットテープ",
+      "label": "cassette tape"
+    },
+    {
+      "type": "related",
+      "target_id": "06603_haadodisuku",
+      "reading": "はーどでぃすく",
+      "headword": "ハードディスク",
+      "label": "hard disk"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "domain": ["technical"],
-      "semantic": ["technology", "media"]
+      "domain": [
+        "technical"
+      ],
+      "semantic": [
+        "technology",
+        "media"
+      ]
     },
     "created": "2026-04-12T18:10:48Z",
-    "modified": "2026-04-12T18:10:48Z"
+    "modified": "2026-09-02T04:02:13Z"
   }
 }

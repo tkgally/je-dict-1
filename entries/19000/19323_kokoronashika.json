@@ -15,40 +15,66 @@
   "examples": [
     {
       "id": "19323_kokoronashika_ex1",
-      "japanese": "{心|こころ}なしか{顔色|かおいろ}が{悪|わる}い。",
+      "japanese": "{心|こころ}なしか⟦{顔色|かおいろ}→顔色：25468_kaoiro⟧⟦が→が：00051_ga⟧⟦{悪|わる}い→悪い：00908_warui⟧。",
       "english": "Somehow, your complexion looks pale.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19323_kokoronashika_ex2",
-      "japanese": "{心|こころ}なしか、{今日|きょう}は{空気|くうき}が{暖|あたた}かい{気|き}がする。",
+      "japanese": "{心|こころ}なしか、⟦{今日|きょう}→今日：00496_kyou⟧⟦は→は：00079_ha⟧⟦{空気|くうき}→空気：01390_kuuki⟧⟦が→が：00051_ga⟧⟦{暖|あたた}かい→暖かい：00618_atatakai⟧⟦{気|き}→気：02199_ki⟧⟦が→が：00051_ga⟧⟦する→する：00392_suru⟧。",
       "english": "It seems like the air feels warmer today, somehow.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19323_kokoronashika_ex3",
-      "japanese": "{久|ひさ}しぶりに{会|あ}った{友人|ゆうじん}は、{心|こころ}なしか{以前|いぜん}より{痩|や}せたように{見|み}えた。",
+      "japanese": "⟦{久|ひさ}しぶり→久しぶり：01711_hisashiburi⟧⟦に→に：00314_ni⟧⟦{会|あ}った→会う：00482_au⟧⟦{友人|ゆうじん}→友人：03649_yuujin⟧⟦は→は：00079_ha⟧、{心|こころ}なしか⟦{以前|いぜん}→以前：01790_izen⟧⟦より→より：09476_yori⟧⟦{痩|や}せた→痩せる：01146_yaseru⟧よう⟦に→に：00314_ni⟧⟦{見|み}えた→見える：01165_mieru⟧。",
       "english": "When I met my friend after a long time, they seemed to have lost weight somehow.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Literally means 'without intention' or 'without conscious thought,' implying that the speaker's impression may be subjective rather than objective. The speaker acknowledges uncertainty about what they perceive.\n\nCOMMON COLLOCATIONS:\n- {心|こころ}なしか〜{気|き}がする — it somewhat feels like...\n- {心|こころ}なしか〜ように{見|み}える — it somehow seems like...\n- {心|こころ}なしか{元気|げんき}がない — somehow lacking energy\n\nUSAGE:\nTypically placed at the beginning of a clause or sentence. Often followed by expressions of appearance or feeling ({気|き}がする, ように{見|み}える, etc.). Conveys a gentle, tentative observation — the speaker notices something but does not want to state it as fact.\n\nSIMILAR WORDS:\n- なんとなく — somehow, vaguely (more casual; {心|こころ}なしか is more literary)\n- どことなく — in some way, somehow (similar nuance but focuses on an unidentifiable quality)",
+  "notes": "Literally means 'without intention' or 'without conscious thought,' implying that the speaker's impression may be subjective rather than objective. The speaker acknowledges uncertainty about what they perceive.\n\nCOMMON COLLOCATIONS:\n- {心|こころ}なしか〜⟦{気|き}→気：02199_ki⟧⟦が→が：00051_ga⟧⟦する→する：00392_suru⟧ — it somewhat feels like...\n- {心|こころ}なしか〜よう⟦に→に：00314_ni⟧⟦{見|み}える→見える：01165_mieru⟧ — it somehow seems like...\n- {心|こころ}なしか⟦{元気|げんき}がない→元気がない：19488_genkiganai⟧ — somehow lacking energy\n\nUSAGE:\nTypically placed at the beginning of a clause or sentence. Often followed by expressions of appearance or feeling (⟦{気|き}→気：02199_ki⟧⟦が→が：00051_ga⟧⟦する→する：00392_suru⟧, よう⟦に→に：00314_ni⟧⟦{見|み}える→見える：01165_mieru⟧, etc.). Conveys a gentle, tentative observation — the speaker notices something but does not want to state it as fact.\n\nSIMILAR WORDS:\n- なんとなく — somehow, vaguely (more casual; {心|こころ}なしか is more literary)\n- ⟦どことなく→どことなく：18218_dokotonaku⟧ — in some way, somehow (similar nuance but focuses on an unidentifiable quality)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08702_nantonaku",
+      "reading": "なんとなく",
+      "headword": "{何|なん}となく",
+      "label": "somehow, vaguely (more casual"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18218_dokotonaku",
+      "reading": "どことなく",
+      "headword": "どことなく",
+      "label": "in some way, somehow"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adverb"],
+      "pos": [
+        "adverb"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["expression"]
+      "semantic": [
+        "expression"
+      ]
     },
     "created": "2026-03-25T08:36:04Z",
-    "modified": "2026-03-25T08:36:04Z"
+    "modified": "2026-09-02T04:01:55Z"
   }
 }

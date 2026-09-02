@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "19755_sounen_ex1",
-      "japanese": "{壮年|そうねん}の{男性|だんせい}。",
+      "japanese": "{壮年|そうねん}⟦の→の：09472_no⟧⟦{男性|だんせい}→男性：01655_dansei⟧。",
       "english": "A man in his prime.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "19755_sounen_ex2",
-      "japanese": "{壮年期|そうねんき}に{入|はい}ってから{体力|たいりょく}の{大切|たいせつ}さを{感|かん}じる。",
+      "japanese": "⟦{壮年期|そうねんき}→壮年期：26410_sounenki⟧⟦に→に：00314_ni⟧⟦{入|はい}って→入る：00494_hairu⟧⟦から→から：00504_kara⟧⟦{体力|たいりょく}→体力：05318_tairyoku⟧⟦の→の：09472_no⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧さ⟦を→を：00422_wo⟧⟦{感|かん}じる→感じる：02044_kanjiru⟧。",
       "english": "After entering middle age, you come to appreciate the importance of physical fitness.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "19755_sounen_ex3",
-      "japanese": "{彼|かれ}は{壮年|そうねん}にして{会社|かいしゃ}を{一|ひと}つの{大企業|だいきぎょう}に{育|そだ}て{上|あ}げた。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{壮年|そうねん}にして⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦を→を：00422_wo⟧⟦{一|ひと}つ→一つ：02948_hitotsu⟧⟦の→の：09472_no⟧⟦{大企業|だいきぎょう}→大企業：12277_daikigyou⟧⟦に→に：00314_ni⟧{育|そだ}て{上|あ}げた。",
       "english": "In the prime of his life, he built the company into a large corporation.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {壮|そう} (vigorous, robust) and {年|ねん} (year, age). Unlike {中年|ちゅうねん} (middle age), which can carry a neutral or slightly negative connotation, {壮年|そうねん} emphasizes vigor and capability.\n\nAGE STAGES IN JAPANESE:\n- {青年|せいねん} — youth; young adult (roughly teens to 20s)\n- {壮年|そうねん} — prime of life (roughly 30s to 50s)\n- {中年|ちゅうねん} — middle age (roughly 40s to 50s; overlaps with {壮年|そうねん} but less positive)\n- {老年|ろうねん} — old age (roughly 60s and beyond)\n\nCOMMON COLLOCATIONS:\n- {壮年期|そうねんき} — the prime of life (as a life stage)\n- {壮年|そうねん}の{男性|だんせい} — a man in his prime\n- {壮年|そうねん}にして — in one's prime\n\nREGISTER:\nSomewhat formal and literary. In everyday speech, {中年|ちゅうねん} or specific age references are more common.",
+  "notes": "Compound of {壮|そう} (vigorous, robust) and ⟦{年|ねん}→年：09876_nen⟧ (year, age). Unlike ⟦{中年|ちゅうねん}→中年：11307_chuunen⟧ (middle age), which can carry a neutral or slightly negative connotation, {壮年|そうねん} emphasizes vigor and capability.\n\nAGE STAGES IN JAPANESE:\n- ⟦{青年|せいねん}→青年：03292_seinen⟧ — youth; young adult (roughly teens to 20s)\n- {壮年|そうねん} — prime of life (roughly 30s to 50s)\n- ⟦{中年|ちゅうねん}→中年：11307_chuunen⟧ — middle age (roughly 40s to 50s; overlaps with {壮年|そうねん} but less positive)\n- ⟦{老年|ろうねん}→老年：14072_rounen⟧ — old age (roughly 60s and beyond)\n\nCOMMON COLLOCATIONS:\n- ⟦{壮年期|そうねんき}→壮年期：26410_sounenki⟧ — the prime of life (as a life stage)\n- {壮年|そうねん}⟦の→の：09472_no⟧⟦{男性|だんせい}→男性：01655_dansei⟧ — a man in his prime\n- {壮年|そうねん}にして — in one's prime\n\nREGISTER:\nSomewhat formal and literary. In everyday speech, ⟦{中年|ちゅうねん}→中年：11307_chuunen⟧ or specific age references are more common.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19988_chuukounen",
+      "reading": "ちゅうこうねん",
+      "headword": "{中高年|ちゅうこうねん}",
+      "label": "middle-aged and older people"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26695_midorueiji",
+      "reading": "みどるえいじ",
+      "headword": "ミドルエイジ",
+      "label": "middle age"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +76,6 @@
       ]
     },
     "created": "2026-03-26T15:25:33Z",
-    "modified": "2026-07-27T12:42:09Z"
+    "modified": "2026-09-02T04:01:57Z"
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "20686_futou_ex1",
-      "japanese": "{埠頭|ふとう}に{船|ふね}が{着|つ}いた。",
+      "japanese": "{埠頭|ふとう}⟦に→に：00314_ni⟧⟦{船|ふね}→船：00775_fune⟧⟦が→が：00051_ga⟧⟦{着|つ}いた→着く：00680_tsuku⟧。",
       "english": "A ship arrived at the wharf.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "20686_futou_ex2",
-      "japanese": "コンテナが{埠頭|ふとう}に{積|つ}み{上|あ}げられている。",
+      "japanese": "⟦コンテナ→コンテナ：09805_kontena⟧⟦が→が：00051_ga⟧{埠頭|ふとう}⟦に→に：00314_ni⟧⟦{積|つ}み{上|あ}げられている→積み上げる：07920_tsumiageru⟧。",
       "english": "Containers are piled up on the dock.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "20686_futou_ex3",
-      "japanese": "{横浜|よこはま}の{大|おお}さん{橋|ばし}{埠頭|ふとう}は{観光|かんこう}スポットとしても{人気|にんき}がある。",
+      "japanese": "⟦{横浜|よこはま}→横浜：28138_yokohama⟧⟦の→の：09472_no⟧{大|おお}さん{橋|ばし}{埠頭|ふとう}⟦は→は：00079_ha⟧⟦{観光|かんこう}→観光：00173_kankou⟧⟦スポット→スポット：11578_supotto⟧⟦として→として：06802_toshite⟧⟦も→も：00484_mo⟧⟦{人気|にんき}→人気：01488_ninki⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "Yokohama's Osanbashi Pier is also popular as a tourist spot.",
       "sense_numbers": [
         1
@@ -44,8 +44,45 @@
       "notes": null
     }
   ],
-  "notes": "Refers to a waterfront structure for ships to dock. While the kanji {埠|ふ} specifically denotes a wharf or landing place, it is rarely used outside this compound.\n\nCOMMON COLLOCATIONS:\n- {埠頭|ふとう}に{着|つ}く: to arrive at the wharf\n- {埠頭|ふとう}で{荷|に}を{降|お}ろす: to unload cargo at the dock\n- コンテナ{埠頭|ふとう}: container terminal\n- {旅客|りょかく}{埠頭|ふとう}: passenger terminal\n\nSIMILAR WORDS:\n- {港|みなと}: port, harbor — the broader term for the entire port area\n- {桟橋|さんばし}: pier, jetty — a narrower structure extending into the water\n- {波止場|はとば}: wharf — a slightly literary or nostalgic synonym\n\nNOTE:\nMajor Japanese ports like {横浜|よこはま}, {神戸|こうべ}, and {東京|とうきょう} have well-known named {埠頭|ふとう} that double as landmarks and tourist destinations.",
+  "notes": "Refers to a waterfront structure for ships to dock. While the kanji {埠|ふ} specifically denotes a wharf or landing place, it is rarely used outside this compound.\n\nCOMMON COLLOCATIONS:\n- {埠頭|ふとう}⟦に→に：00314_ni⟧⟦{着|つ}く→着く：00680_tsuku⟧: to arrive at the wharf\n- {埠頭|ふとう}⟦で→で：00502_de⟧⟦{荷|に}→荷：28294_ni⟧⟦を→を：00422_wo⟧⟦{降|お}ろす→降ろす：01923_orosu⟧: to unload cargo at the dock\n- ⟦コンテナ→コンテナ：09805_kontena⟧{埠頭|ふとう}: container terminal\n- ⟦{旅客|りょかく}→旅客：12950_ryokaku⟧{埠頭|ふとう}: passenger terminal\n\nSIMILAR WORDS:\n- ⟦{港|みなと}→港：01512_minato⟧: port, harbor — the broader term for the entire port area\n- ⟦{桟橋|さんばし}→桟橋：09241_sanbashi⟧: pier, jetty — a narrower structure extending into the water\n- ⟦{波止場|はとば}→波止場：15348_hatoba⟧: wharf — a slightly literary or nostalgic synonym\n\nUSAGE:\nMajor Japanese ports like ⟦{横浜|よこはま}→横浜：28138_yokohama⟧, ⟦{神戸|こうべ}→神戸：30710_koube⟧, and ⟦{東京|とうきょう}→東京：09564_toukyou⟧ have well-known named {埠頭|ふとう} that double as landmarks and tourist destinations.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01512_minato",
+      "reading": "みなと",
+      "headword": "{港|みなと}",
+      "label": "port, harbor"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09241_sanbashi",
+      "reading": "さんばし",
+      "headword": "{桟橋|さんばし}",
+      "label": "pier, jetty"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15348_hatoba",
+      "reading": "はとば",
+      "headword": "{波止場|はとば}",
+      "label": "wharf"
+    },
+    {
+      "type": "related",
+      "target_id": "19675_ganpeki",
+      "reading": "がんぺき",
+      "headword": "{岸壁|がんぺき}",
+      "label": "quay wall"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21296_funatsukiba",
+      "reading": "ふなつきば",
+      "headword": "{船着|ふなつ}き{場|ば}",
+      "label": "boat landing"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +97,6 @@
       ]
     },
     "created": "2026-03-30T07:46:06Z",
-    "modified": "2026-07-28T09:35:50Z"
+    "modified": "2026-09-02T04:02:00Z"
   }
 }

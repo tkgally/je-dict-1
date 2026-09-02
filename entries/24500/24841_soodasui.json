@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24841_soodasui_ex1",
-      "japanese": "ウイスキーをソーダ{水|すい}で{割|わ}る。",
+      "japanese": "⟦ウイスキー→ウイスキー：00412_uisukii⟧⟦を→を：00422_wo⟧ソーダ{水|すい}⟦で→で：00502_de⟧⟦{割|わ}る→割る：02334_waru⟧。",
       "english": "To mix whisky with soda water.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24841_soodasui_ex2",
-      "japanese": "{暑|あつ}い{日|ひ}にはソーダ{水|すい}が{気持|きも}ちいい。",
+      "japanese": "⟦{暑|あつ}い→暑い：00619_atsui⟧⟦{日|ひ}→日：02249_hi⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧ソーダ{水|すい}⟦が→が：00051_ga⟧⟦{気持|きも}ちいい→気持ちいい：09583_kimochiii⟧。",
       "english": "Soda water feels refreshing on a hot day.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24841_soodasui_ex3",
-      "japanese": "{最近|さいきん}は{健康志向|けんこうしこう}でソーダ{水|すい}をそのまま{飲|の}む{人|ひと}が{増|ふ}えている。",
+      "japanese": "⟦{最近|さいきん}→最近：00881_saikin⟧⟦は→は：00079_ha⟧{健康志向|けんこうしこう}⟦で→で：00502_de⟧ソーダ{水|すい}⟦を→を：00422_wo⟧⟦そのまま→そのまま：03322_sonomama⟧⟦{飲|の}む→飲む：00322_nomu⟧⟦{人|ひと}→人：00476_hito⟧⟦が→が：00051_ga⟧⟦{増|ふ}えている→増える：01183_fueru⟧。",
       "english": "Recently, due to health consciousness, more people are drinking soda water straight.",
       "sense_numbers": [
         1
@@ -44,20 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "Carbonated water, either plain or used as a mixer. Composed of ソーダ (soda, from English) + {水|すい} (water). In Japan, ソーダ{水|すい} specifically refers to plain carbonated water without added sweeteners, distinguishing it from flavored sodas.\n\nCOMMON COLLOCATIONS:\n- ソーダ{水|すい}で{割|わ}る — to dilute/mix with soda water\n- ハイボール — highball (whisky + soda water, extremely popular in Japan)\n- {焼酎|しょうちゅう}のソーダ{割|わ}り — shochu mixed with soda water\n- レモンソーダ{水|すい} — lemon soda water\n\nSIMILAR WORDS:\n- {炭酸水|たんさんすい} — carbonated water (the more common everyday term)\n- {炭酸|たんさん}{飲料|いんりょう} — carbonated beverage (broader category including cola, etc.)\n- サイダー — cider (in Japan, means lemon-lime soda, not apple cider)\n- ラムネ — ramune (traditional Japanese marble-sealed soda)",
+  "notes": "Carbonated water, either plain or used as a mixer. Composed of ⟦ソーダ→ソーダ：11032_sooda⟧ (soda, from English) + {水|すい} (water). In Japan, ソーダ{水|すい} specifically refers to plain carbonated water without added sweeteners, distinguishing it from flavored sodas.\n\nCOMMON COLLOCATIONS:\n- ソーダ{水|すい}⟦で→で：00502_de⟧⟦{割|わ}る→割る：02334_waru⟧ — to dilute/mix with soda water\n- ⟦ハイボール→ハイボール：27604_haibooru⟧ — highball (whisky + soda water, extremely popular in Japan)\n- ⟦{焼酎|しょうちゅう}→焼酎：19874_shouchuu⟧⟦の→の：09472_no⟧⟦ソーダ→ソーダ：11032_sooda⟧{割|わ}り — shochu mixed with soda water\n- ⟦レモン→レモン：10456_remon⟧ソーダ{水|すい} — lemon soda water\n\nSIMILAR WORDS:\n- ⟦{炭酸水|たんさんすい}→炭酸水：15327_tansansui⟧ — carbonated water (the more common everyday term)\n- ⟦{炭酸|たんさん}{飲料|いんりょう}→炭酸飲料：19494_tansaninryou⟧ — carbonated beverage (broader category including cola, etc.)\n- サイダー — cider (in Japan, means lemon-lime soda, not apple cider)\n- ラムネ — ramune (traditional Japanese marble-sealed soda)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15327_tansansui",
+      "reading": "たんさんすい",
+      "headword": "{炭酸水|たんさんすい}",
+      "label": "carbonated water"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19494_tansaninryou",
+      "reading": "たんさんいんりょう",
+      "headword": "{炭酸飲料|たんさんいんりょう}",
+      "label": "carbonated beverage"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "food"
       ],
       "usage": []
     },
     "created": "2026-04-21T09:27:48Z",
-    "modified": "2026-08-03T09:22:27Z"
+    "modified": "2026-09-02T04:02:20Z"
   }
 }

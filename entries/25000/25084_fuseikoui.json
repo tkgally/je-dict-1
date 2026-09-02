@@ -15,38 +15,66 @@
   "examples": [
     {
       "id": "25084_fuseikoui_ex1",
-      "japanese": "{不正行為|ふせいこうい}は{許|ゆる}されない。",
+      "japanese": "{不正行為|ふせいこうい}⟦は→は：00079_ha⟧⟦{許|ゆる}されない→許す：02325_yurusu⟧。",
       "english": "Misconduct will not be tolerated.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "25084_fuseikoui_ex2",
-      "japanese": "{試験|しけん}での{不正行為|ふせいこうい}が{発覚|はっかく}した。",
+      "japanese": "⟦{試験|しけん}→試験：01422_shiken⟧⟦で→で：00502_de⟧⟦の→の：09472_no⟧{不正行為|ふせいこうい}⟦が→が：00051_ga⟧⟦{発覚|はっかく}した→発覚する：15423_hakkakusuru⟧。",
       "english": "Cheating on the exam was discovered.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "25084_fuseikoui_ex3",
-      "japanese": "{会計|かいけい}の{不正行為|ふせいこうい}が{内部|ないぶ}{告発|こくはつ}によって{明|あき}らかになった。",
+      "japanese": "⟦{会計|かいけい}→会計：02536_kaikei⟧⟦の→の：09472_no⟧{不正行為|ふせいこうい}⟦が→が：00051_ga⟧⟦{内部|ないぶ}{告発|こくはつ}→内部告発：24691_naibukokuhatsu⟧⟦によって→によって：06801_niyotte⟧⟦{明|あき}らか→明らか：02351_akiraka⟧になった。",
       "english": "Accounting fraud was brought to light through an internal whistleblower.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A formal compound noun combining {不正|ふせい} (injustice, dishonesty) and {行為|こうい} (act, conduct). Used across many domains including law, business, academics, and sports to describe any wrongful action.\n\nCOMMON COLLOCATIONS:\n- {不正行為|ふせいこうい}を{働|はたら}く: to commit misconduct\n- {不正行為|ふせいこうい}を{防止|ぼうし}する: to prevent misconduct\n- {不正行為|ふせいこうい}が{発覚|はっかく}する: misconduct is discovered\n- {不正行為|ふせいこうい}に{関与|かんよ}する: to be involved in misconduct\n\nSIMILAR WORDS:\n- {違法行為|いほうこうい}: illegal act — specifically actions that violate the law\n- {不祥事|ふしょうじ}: scandal, disgrace — broader term covering embarrassing incidents\n- {犯罪|はんざい}: crime — more serious than misconduct; always illegal\n- {不正|ふせい}: fraud, dishonesty — the component word used alone as a more general term",
+  "notes": "A formal compound noun combining ⟦{不正|ふせい}→不正：01660_fusei⟧ (injustice, dishonesty) and ⟦{行為|こうい}→行為：10021_koui⟧ (act, conduct). Used across many domains including law, business, academics, and sports to describe any wrongful action.\n\nCOMMON COLLOCATIONS:\n- {不正行為|ふせいこうい}⟦を→を：00422_wo⟧⟦{働|はたら}く→働く：00503_hataraku⟧: to commit misconduct\n- {不正行為|ふせいこうい}⟦を→を：00422_wo⟧⟦{防止|ぼうし}する→防止する：17342_boushisuru⟧: to prevent misconduct\n- {不正行為|ふせいこうい}⟦が→が：00051_ga⟧⟦{発覚|はっかく}する→発覚する：15423_hakkakusuru⟧: misconduct is discovered\n- {不正行為|ふせいこうい}⟦に→に：00314_ni⟧⟦{関与|かんよ}→関与：08646_kanyo⟧⟦する→する：00392_suru⟧: to be involved in misconduct\n\nSIMILAR WORDS:\n- {違法行為|いほうこうい}: illegal act — specifically actions that violate the law\n- ⟦{不祥事|ふしょうじ}→不祥事：14981_fushouji⟧: scandal, disgrace — broader term covering embarrassing incidents\n- ⟦{犯罪|はんざい}→犯罪：03569_hanzai⟧: crime — more serious than misconduct; always illegal\n- ⟦{不正|ふせい}→不正：01660_fusei⟧: fraud, dishonesty — the component word used alone as a more general term",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14981_fushouji",
+      "reading": "ふしょうじ",
+      "headword": "{不祥事|ふしょうじ}",
+      "label": "scandal, disgrace"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03569_hanzai",
+      "reading": "はんざい",
+      "headword": "{犯罪|はんざい}",
+      "label": "crime"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["law", "society"]
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "law",
+        "society"
+      ]
     },
     "created": "2026-04-22T14:37:20Z",
-    "modified": "2026-04-22T14:37:20Z"
+    "modified": "2026-09-02T04:02:21Z"
   }
 }

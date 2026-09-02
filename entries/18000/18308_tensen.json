@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "18308_tensen_ex1",
-      "japanese": "{点線|てんせん}に{沿|そ}って{切|き}ってください。",
+      "japanese": "{点線|てんせん}⟦に→に：00314_ni⟧⟦{沿|そ}って→沿う：13279_sou⟧⟦{切|き}って→切る：02693_kiru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please cut along the dotted line.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "18308_tensen_ex2",
-      "japanese": "{地図|ちず}の{点線|てんせん}は{県|けん}の{境|さかい}を{示|しめ}している。",
+      "japanese": "⟦{地図|ちず}→地図：02914_chizu⟧⟦の→の：09472_no⟧{点線|てんせん}⟦は→は：00079_ha⟧⟦{県|けん}→県：02151_ken⟧⟦の→の：09472_no⟧⟦{境|さかい}→境：02822_sakai⟧⟦を→を：00422_wo⟧⟦{示|しめ}している→示す：01948_shimesu⟧。",
       "english": "The dotted line on the map indicates the prefectural boundary.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "18308_tensen_ex3",
-      "japanese": "{点線|てんせん}の{上|うえ}に{名前|なまえ}と{住所|じゅうしょ}を{記入|きにゅう}してください。",
+      "japanese": "{点線|てんせん}⟦の→の：09472_no⟧⟦{上|うえ}→上：00682_ue⟧⟦に→に：00314_ni⟧⟦{名前|なまえ}→名前：02234_namae⟧⟦と→と：00512_to⟧⟦{住所|じゅうしょ}→住所：01430_juusho⟧⟦を→を：00422_wo⟧⟦{記入|きにゅう}→記入：02624_kinyuu⟧⟦して→する：00392_suru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please write your name and address on the dotted line.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nCommonly seen on forms, coupons, and craft instructions. The phrase {点線|てんせん}に{沿|そ}って{切|き}る (cut along the dotted line) is one of the most frequent collocations.\n\nCOMMON COLLOCATIONS:\n- {点線|てんせん}に{沿|そ}って{切|き}る (to cut along the dotted line)\n- {点線|てんせん}で{囲|かこ}む (to enclose with a dotted line)\n\nSIMILAR WORDS:\n- {実線|じっせん}: solid line — a continuous, unbroken line\n- {波線|なみせん}: wavy line\n- {破線|はせん}: dashed line — technically distinct from dotted line, but often used interchangeably",
+  "notes": "USAGE:\nCommonly seen on forms, coupons, and craft instructions. The phrase {点線|てんせん}⟦に→に：00314_ni⟧⟦{沿|そ}って→沿う：13279_sou⟧⟦{切|き}る→切る：02693_kiru⟧ (cut along the dotted line) is one of the most frequent collocations.\n\nCOMMON COLLOCATIONS:\n- {点線|てんせん}⟦に→に：00314_ni⟧⟦{沿|そ}って→沿う：13279_sou⟧⟦{切|き}る→切る：02693_kiru⟧ (to cut along the dotted line)\n- {点線|てんせん}⟦で→で：00502_de⟧⟦{囲|かこ}む→囲む：02037_kakomu⟧ (to enclose with a dotted line)\n\nSIMILAR WORDS:\n- ⟦{実線|じっせん}→実線：20763_jissen⟧: solid line — a continuous, unbroken line\n- ⟦{波線|なみせん}→波線：18331_namisen⟧: wavy line\n- ⟦{破線|はせん}→破線：20764_hasen⟧: dashed line — technically distinct from dotted line, but often used interchangeably",
   "cross_references": [
     {
       "type": "antonym",
@@ -52,11 +52,25 @@
       "reading": "じっせん",
       "headword": "{実線|じっせん}",
       "label": "solid line"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18331_namisen",
+      "reading": "なみせん",
+      "headword": "{波線|なみせん}",
+      "label": "wavy line"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20764_hasen",
+      "reading": "はせん",
+      "headword": "{破線|はせん}",
+      "label": "dashed line"
     }
   ],
   "metadata": {
     "created": "2026-03-21T09:08:28Z",
-    "modified": "2026-05-08T08:12:00Z",
+    "modified": "2026-09-02T04:01:51Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

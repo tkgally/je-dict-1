@@ -15,44 +15,66 @@
   "examples": [
     {
       "id": "18842_kojinjouhou_ex1",
-      "japanese": "{個人情報|こじんじょうほう}を{守|まも}る。",
+      "japanese": "{個人情報|こじんじょうほう}⟦を→を：00422_wo⟧⟦{守|まも}る→守る：01986_mamoru⟧。",
       "english": "I protect personal information.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "18842_kojinjouhou_ex2",
-      "japanese": "{個人情報|こじんじょうほう}の{取|と}り{扱|あつか}いには{十分|じゅうぶん}{注意|ちゅうい}してください。",
+      "japanese": "{個人情報|こじんじょうほう}⟦の→の：09472_no⟧⟦{取|と}り{扱|あつか}い→取り扱い：09806_toriatsukai⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{十分|じゅうぶん}→十分：01614_juubun⟧⟦{注意|ちゅうい}→注意：01464_chuui⟧⟦して→する：00392_suru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please handle personal information with great care.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "18842_kojinjouhou_ex3",
-      "japanese": "{個人情報|こじんじょうほう}が{流出|りゅうしゅつ}する{事件|じけん}が{増|ふ}えている。",
+      "japanese": "{個人情報|こじんじょうほう}⟦が→が：00051_ga⟧⟦{流出|りゅうしゅつ}→流出：13327_ryuushutsu⟧⟦する→する：00392_suru⟧⟦{事件|じけん}→事件：01568_jiken⟧⟦が→が：00051_ga⟧⟦{増|ふ}えている→増える：01183_fueru⟧。",
       "english": "Incidents of personal information leaks are increasing.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "{個人情報|こじんじょうほう} covers any data that can identify a specific individual: name, address, phone number, email, etc. A key term in modern Japanese society.\n\nCOMMON COLLOCATIONS:\n- {個人情報|こじんじょうほう}の{保護|ほご}: protection of personal information\n- {個人情報|こじんじょうほう}の{流出|りゅうしゅつ}: data leak\n- {個人情報|こじんじょうほう}の{漏洩|ろうえい}: data breach\n- {個人情報|こじんじょうほう}を{取|と}り{扱|あつか}う: to handle personal information\n- {個人情報|こじんじょうほう}の{管理|かんり}: management of personal data\n\nLEGAL CONTEXT:\nJapan's {個人情報保護法|こじんじょうほうほごほう} (Personal Information Protection Act) governs how businesses and organizations must handle personal data. Violations can result in penalties.\n\nRELATED:\n- {個人情報保護法|こじんじょうほうほごほう}: Personal Information Protection Act\n- {情報漏洩|じょうほうろうえい}: information leak",
+  "notes": "{個人情報|こじんじょうほう} covers any data that can identify a specific individual: name, address, phone number, email, etc. A key term in modern Japanese society.\n\nCOMMON COLLOCATIONS:\n- {個人情報|こじんじょうほう}⟦の→の：09472_no⟧⟦{保護|ほご}→保護：03625_hogo⟧: protection of personal information\n- {個人情報|こじんじょうほう}⟦の→の：09472_no⟧⟦{流出|りゅうしゅつ}→流出：13327_ryuushutsu⟧: data leak\n- {個人情報|こじんじょうほう}⟦の→の：09472_no⟧⟦{漏洩|ろうえい}→漏洩：09150_rouei⟧: data breach\n- {個人情報|こじんじょうほう}⟦を→を：00422_wo⟧⟦{取|と}り{扱|あつか}う→取り扱う：06162_toriatsukau⟧: to handle personal information\n- {個人情報|こじんじょうほう}⟦の→の：09472_no⟧⟦{管理|かんり}→管理：00178_kanri⟧: management of personal data\n\nLEGAL CONTEXT:\nJapan's {個人情報保護法|こじんじょうほうほごほう} (Personal Information Protection Act) governs how businesses and organizations must handle personal data. Violations can result in penalties.\n\nRELATED WORDS:\n- {個人情報保護法|こじんじょうほうほごほう}: Personal Information Protection Act\n- ⟦{情報漏洩|じょうほうろうえい}→情報漏洩：19198_jouhourouei⟧: information leak",
   "synonyms": [],
   "antonyms": [],
   "related": [],
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "19198_jouhourouei",
+      "reading": "じょうほうろうえい",
+      "headword": "{情報漏洩|じょうほうろうえい}",
+      "label": "information leak"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["legal", "technical"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "legal",
+        "technical"
+      ]
     },
     "created": "2026-03-23T05:29:41Z",
-    "modified": "2026-03-31T09:28:45Z"
+    "modified": "2026-09-02T04:01:53Z"
   }
 }

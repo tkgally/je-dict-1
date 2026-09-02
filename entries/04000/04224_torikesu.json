@@ -119,7 +119,7 @@
     },
     {
       "id": "04224_torikesu_ex2",
-      "japanese": "⟦{予約|よやく}→予約：01522_yoyaku⟧⟦を→を：00422_wo⟧{取|と}り{消|け}したい⟦の→の：09472_no⟧ですが。",
+      "japanese": "⟦{予約|よやく}→予約：01522_yoyaku⟧⟦を→を：00422_wo⟧{取|と}り{消|け}したい⟦の→の：09472_no⟧です⟦が→が：00051_ga⟧。",
       "english": "I would like to cancel my reservation.",
       "has_audio": false,
       "sense_numbers": [
@@ -168,7 +168,7 @@
       "notes": null
     }
   ],
-  "notes": "{取|と}り{消|け}す is a transitive verb (⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧) formed from ⟦{取|と}る→取る：00565_toru⟧ (to take) + ⟦{消|け}す→消す：00528_kesu⟧ (to erase). It means to officially nullify something that was previously decided or stated.\n\nASPECT (ている):\n{取|と}り{消|け}している indicates the process of cancellation is ongoing. The passive {取|と}り{消|け}された is common for licenses/permits being revoked.\n\nPARTICLE PATTERNS:\n- [reservation/order]⟦を→を：00422_wo⟧{取|と}り{消|け}す — to cancel [reservation/order]\n- [statement]⟦を→を：00422_wo⟧{取|と}り{消|け}す — to retract [statement]\n\nCOMMON PATTERNS:\n- ⟦{予約|よやく}→予約：01522_yoyaku⟧⟦を→を：00422_wo⟧{取|と}り{消|け}す (cancel a reservation)\n- ⟦{注文|ちゅうもん}→注文：03485_chuumon⟧⟦を→を：00422_wo⟧{取|と}り{消|け}す (cancel an order)\n- ⟦{免許|めんきょ}→免許：03808_menkyo⟧⟦を→を：00422_wo⟧{取|と}り{消|け}す (revoke a license)\n- ⟦{発言|はつげん}→発言：05099_hatsugen⟧⟦を→を：00422_wo⟧{取|と}り{消|け}す (retract a statement)\n\nSIMILAR WORDS:\n- ⟦キャンセルする→キャンセル：06776_kyanseru⟧: to cancel (casual, for reservations)\n- ⟦{撤回|てっかい}する→撤回：12910_tekkai⟧: to withdraw, retract (formal)\n- ⟦{中止|ちゅうし}する→中止する：21909_chuushisuru⟧: to suspend, discontinue",
+  "notes": "{取|と}り{消|け}す is a transitive verb (⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧) formed from ⟦{取|と}る→取る：00565_toru⟧ (to take) + ⟦{消|け}す→消す：00528_kesu⟧ (to erase). It means to officially nullify something that was previously decided or stated.\n\nASPECT (ている):\n{取|と}り{消|け}して⟦いる→いる：00495_iru⟧ indicates the process of cancellation is ongoing. The passive {取|と}り{消|け}された is common for licenses/permits being revoked.\n\nCOMMON PATTERNS:\n- [reservation/order]⟦を→を：00422_wo⟧{取|と}り{消|け}す — to cancel [reservation/order]\n- [statement]⟦を→を：00422_wo⟧{取|と}り{消|け}す — to retract [statement]\n- ⟦{予約|よやく}→予約：01522_yoyaku⟧⟦を→を：00422_wo⟧{取|と}り{消|け}す (cancel a reservation)\n- ⟦{注文|ちゅうもん}→注文：03485_chuumon⟧⟦を→を：00422_wo⟧{取|と}り{消|け}す (cancel an order)\n- ⟦{免許|めんきょ}→免許：03808_menkyo⟧⟦を→を：00422_wo⟧{取|と}り{消|け}す (revoke a license)\n- ⟦{発言|はつげん}→発言：05099_hatsugen⟧⟦を→を：00422_wo⟧{取|と}り{消|け}す (retract a statement)\n\nSIMILAR WORDS:\n- ⟦キャンセルする→キャンセル：06776_kyanseru⟧: to cancel (casual, for reservations)\n- ⟦{撤回|てっかい}する→撤回：12910_tekkai⟧: to withdraw, retract (formal)\n- ⟦{中止|ちゅうし}する→中止する：21909_chuushisuru⟧: to suspend, discontinue",
   "cross_references": [
     {
       "type": "synonym",
@@ -183,11 +183,39 @@
       "reading": "てっかい",
       "headword": "{撤回|てっかい}",
       "label": "withdrawal (formal)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21909_chuushisuru",
+      "reading": "ちゅうしする",
+      "headword": "{中止|ちゅうし}する",
+      "label": "to suspend, discontinue"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04171_sakujo",
+      "reading": "さくじょ",
+      "headword": "{削除|さくじょ}",
+      "label": "deletion, removal, elimination"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26843_kaijosuru",
+      "reading": "かいじょする",
+      "headword": "{解除|かいじょ}する",
+      "label": "to cancel"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27282_shoujosuru",
+      "reading": "しょうじょする",
+      "headword": "{消除|しょうじょ}する",
+      "label": "to eliminate"
     }
   ],
   "metadata": {
     "created": "2026-01-14T08:40:32Z",
-    "modified": "2026-05-30T14:12:48Z",
+    "modified": "2026-09-02T04:01:04Z",
     "ai_model": "claude-opus-4-5",
     "schema_version": "2.0",
     "vocabulary_tier": "general",

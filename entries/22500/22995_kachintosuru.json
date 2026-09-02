@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22995_kachintosuru_ex1",
-      "japanese": "その{一言|ひとこと}にカチンときた。",
+      "japanese": "⟦その→その：00993_sono⟧⟦{一言|ひとこと}→一言：03708_hitokoto⟧⟦に→に：00314_ni⟧カチンときた。",
       "english": "That one remark really got to me.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22995_kachintosuru_ex2",
-      "japanese": "{上司|じょうし}の{態度|たいど}にカチンとしたが、{我慢|がまん}した。",
+      "japanese": "⟦{上司|じょうし}→上司：03286_joushi⟧⟦の→の：09472_no⟧⟦{態度|たいど}→態度：03396_taido⟧⟦に→に：00314_ni⟧カチンとした⟦が→が：00051_ga⟧、⟦{我慢|がまん}した→我慢する：25343_gamansuru⟧。",
       "english": "I got annoyed at my boss's attitude, but held it in.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22995_kachintosuru_ex3",
-      "japanese": "「まだそんなこともできないの」と{言|い}われて、カチンときて{言|い}い{返|かえ}してしまった。",
+      "japanese": "「⟦まだ→まだ：00603_mada⟧⟦そんな→そんな：01645_sonna⟧こと⟦も→も：00484_mo⟧⟦できない→できる：00557_dekiru⟧⟦の→の：09472_no⟧」⟦と→と：00512_to⟧⟦{言|い}われて→言う：00515_iu⟧、カチンときて⟦{言|い}い{返|かえ}して→言い返す：16418_iikaesu⟧しまった。",
       "english": "When they said 'You still can't do something like that?', I got angry and snapped back.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "An onomatopoeic expression evoking the sharp 'click' sound of something hard being struck. Describes a sudden spike of irritation, not a slow build-up. The feeling is typically triggered by a specific remark or behavior.\n\nCOMMON COLLOCATIONS:\n- カチンとくる: to get ticked off (very common variant using くる instead of する)\n- カチンときた: got irritated (past tense of カチンとくる)\n- {一言|ひとこと}にカチンとする: to be set off by a single remark\n\nSIMILAR WORDS:\n- むかつく: to feel pissed off — stronger, more vulgar; describes sustained irritation or nausea\n- いらっとする: to feel a flash of irritation — very similar but slightly milder\n- かちんとくる: same meaning, alternative verb pattern (くる instead of する); more common in casual speech\n\nREGISTER:\nCasual and conversational. Not used in formal writing. The variant カチンとくる is more natural in everyday speech than カチンとする.",
+  "notes": "An onomatopoeic expression evoking the sharp 'click' sound of something hard being struck. Describes a sudden spike of irritation, not a slow build-up. The feeling is typically triggered by a specific remark or behavior.\n\nCOMMON COLLOCATIONS:\n- カチン⟦と→と：00512_to⟧くる: to get ticked off (very common variant using くる instead of ⟦する→する：00392_suru⟧)\n- カチンときた: got irritated (past tense of カチン⟦と→と：00512_to⟧くる)\n- ⟦{一言|ひとこと}→一言：03708_hitokoto⟧⟦に→に：00314_ni⟧カチンとする: to be set off by a single remark\n\nSIMILAR WORDS:\n- ⟦むかつく→ムカつく：06357_mukatsuku⟧: to feel pissed off — stronger, more vulgar; describes sustained irritation or nausea\n- いらっ⟦と→と：00512_to⟧⟦する→する：00392_suru⟧: to feel a flash of irritation — very similar but slightly milder\n- かちん⟦と→と：00512_to⟧くる: same meaning, alternative verb pattern (くる instead of ⟦する→する：00392_suru⟧); more common in casual speech\n\nREGISTER:\nCasual and conversational. Not used in formal writing. The variant カチン⟦と→と：00512_to⟧くる is more natural in everyday speech than カチンとする.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06357_mukatsuku",
+      "reading": "むかつく",
+      "headword": "ムカつく",
+      "label": "to feel pissed off"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,7 +69,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-08T15:33:58Z",
-    "modified": "2026-04-08T15:33:58Z"
+    "modified": "2026-09-02T04:02:10Z"
   },
   "conjugation": {
     "type": "suru",

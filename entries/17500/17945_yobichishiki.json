@@ -15,42 +15,62 @@
   "examples": [
     {
       "id": "17945_yobichishiki_ex1",
-      "japanese": "{予備知識|よびちしき}がなくても{楽|たの}しめる。",
+      "japanese": "{予備知識|よびちしき}⟦が→が：00051_ga⟧⟦なくて→ない：01118_nai⟧⟦も→も：00484_mo⟧⟦{楽|たの}しめる→楽しむ：01203_tanoshimu⟧。",
       "english": "You can enjoy it even without background knowledge.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17945_yobichishiki_ex2",
-      "japanese": "{予備知識|よびちしき}として{基本的|きほんてき}な{用語|ようご}を{説明|せつめい}します。",
+      "japanese": "{予備知識|よびちしき}⟦として→として：06802_toshite⟧⟦{基本的|きほんてき}→基本的：04787_kihonteki⟧な⟦{用語|ようご}→用語：04086_yougo⟧⟦を→を：00422_wo⟧⟦{説明|せつめい}します→説明する：05639_setsumeisuru⟧。",
       "english": "I'll explain the basic terms as background knowledge.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17945_yobichishiki_ex3",
-      "japanese": "この{映画|えいが}は{歴史|れきし}の{予備知識|よびちしき}があるとより{深|ふか}く{理解|りかい}できる。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{映画|えいが}→映画：02273_eiga⟧⟦は→は：00079_ha⟧⟦{歴史|れきし}→歴史：02267_rekishi⟧⟦の→の：09472_no⟧{予備知識|よびちしき}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧⟦と→と：00512_to⟧⟦より→より：09476_yori⟧⟦{深|ふか}く→深い：01211_fukai⟧⟦{理解|りかい}できる→理解する：06059_rikaisuru⟧。",
       "english": "You can understand this movie more deeply if you have some background knowledge of history.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nA compound of {予備|よび} (preliminary, spare) and {知識|ちしき} (knowledge). Commonly used in educational and media contexts to describe what readers or viewers should know beforehand.\n\nCOMMON COLLOCATIONS:\n- {予備知識|よびちしき}がある (to have background knowledge)\n- {予備知識|よびちしき}がない (to lack background knowledge)\n- {予備知識|よびちしき}なしで (without background knowledge)\n- {予備知識|よびちしき}として (as background knowledge)",
-  "cross_references": [],
+  "notes": "USAGE:\nA compound of ⟦{予備|よび}→予備：03993_yobi⟧ (preliminary, spare) and ⟦{知識|ちしき}→知識：01463_chishiki⟧ (knowledge). Commonly used in educational and media contexts to describe what readers or viewers should know beforehand.\n\nCOMMON COLLOCATIONS:\n- {予備知識|よびちしき}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧ (to have background knowledge)\n- {予備知識|よびちしき}⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧ (to lack background knowledge)\n- {予備知識|よびちしき}なし⟦で→で：00502_de⟧ (without background knowledge)\n- {予備知識|よびちしき}⟦として→として：06802_toshite⟧ (as background knowledge)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21805_kisochishiki",
+      "reading": "きそちしき",
+      "headword": "{基礎|きそ}{知識|ちしき}",
+      "label": "basic knowledge"
+    }
+  ],
   "metadata": {
     "created": "2026-03-19T09:20:02Z",
-    "modified": "2026-03-19T09:20:02Z",
+    "modified": "2026-09-02T04:01:50Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["academic"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "academic"
+      ]
     }
   }
 }

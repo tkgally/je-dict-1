@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "23607_heitenjikan_ex1",
-      "japanese": "{閉店時間|へいてんじかん}は{何時|なんじ}ですか。",
+      "japanese": "{閉店時間|へいてんじかん}⟦は→は：00079_ha⟧⟦{何時|なんじ}→何時：00973_nanji⟧です⟦か→か：09473_ka⟧。",
       "english": "What time do you close?",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "23607_heitenjikan_ex2",
-      "japanese": "{閉店時間|へいてんじかん}が{近|ちか}づいたので{急|いそ}いで{会計|かいけい}を{済|す}ませた。",
+      "japanese": "{閉店時間|へいてんじかん}⟦が→が：00051_ga⟧⟦{近|ちか}づいた→近づく：01958_chikazuku⟧⟦の→の：09472_no⟧で⟦{急|いそ}いで→急ぐ：01191_isogu⟧⟦{会計|かいけい}→会計：02536_kaikei⟧⟦を→を：00422_wo⟧⟦{済|す}ませた→済む：01950_sumu⟧。",
       "english": "Closing time was approaching, so I hurried to pay the bill.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "23607_heitenjikan_ex3",
-      "japanese": "このレストランは{平日|へいじつ}と{週末|しゅうまつ}で{閉店時間|へいてんじかん}が{違|ちが}うので{注意|ちゅうい}してください。",
+      "japanese": "⟦この→この：00962_kono⟧⟦レストラン→レストラン：01048_resutoran⟧⟦は→は：00079_ha⟧⟦{平日|へいじつ}→平日：03033_heijitsu⟧⟦と→と：00512_to⟧⟦{週末|しゅうまつ}→週末：03030_shuumatsu⟧⟦で→で：00502_de⟧{閉店時間|へいてんじかん}⟦が→が：00051_ga⟧⟦{違|ちが}う→違う：01957_chigau⟧⟦の→の：09472_no⟧で⟦{注意|ちゅうい}→注意：01464_chuui⟧⟦して→する：00392_suru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please note that this restaurant's closing time is different on weekdays and weekends.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {閉店|へいてん} (closing of a shop) and {時間|じかん} (time). Used for the closing time of retail establishments — shops, restaurants, cafes, banks, and similar businesses that have daily opening and closing hours.\n\nCOMMON COLLOCATIONS:\n- {閉店時間|へいてんじかん}が{近|ちか}づく: closing time approaches\n- {閉店時間|へいてんじかん}{間際|まぎわ}: right before closing time\n- {閉店時間|へいてんじかん}を{過|す}ぎる: to go past closing time\n- {閉店時間|へいてんじかん}を{延長|えんちょう}する: to extend closing time\n- {閉店時間|へいてんじかん}は{午後|ごご}9{時|じ}: the closing time is 9 PM\n\nSIMILAR WORDS:\n- {開店時間|かいてんじかん}: opening time — the antonym\n- {営業時間|えいぎょうじかん}: business hours — covers the whole range from opening to closing\n- {閉館|へいかん}{時間|じかん}: closing time of a museum, library, or other public facility (not a shop)\n- {終業|しゅうぎょう}{時間|じかん}: end-of-work time — for offices/workplaces, not for shops serving customers",
+  "notes": "Composed of ⟦{閉店|へいてん}→閉店：09698_heiten⟧ (closing of a shop) and ⟦{時間|じかん}→時間：00468_jikan⟧ (time). Used for the closing time of retail establishments — shops, restaurants, cafes, banks, and similar businesses that have daily opening and closing hours.\n\nCOMMON COLLOCATIONS:\n- {閉店時間|へいてんじかん}⟦が→が：00051_ga⟧⟦{近|ちか}づく→近づく：01958_chikazuku⟧: closing time approaches\n- {閉店時間|へいてんじかん}⟦{間際|まぎわ}→間際：14564_magiwa⟧: right before closing time\n- {閉店時間|へいてんじかん}⟦を→を：00422_wo⟧⟦{過|す}ぎる→過ぎる：01219_sugiru⟧: to go past closing time\n- {閉店時間|へいてんじかん}⟦を→を：00422_wo⟧⟦{延長|えんちょう}→延長：06447_enchou⟧⟦する→する：00392_suru⟧: to extend closing time\n- {閉店時間|へいてんじかん}⟦は→は：00079_ha⟧⟦{午後|ごご}→午後：00544_gogo⟧9⟦{時|じ}→時：09869_ji⟧: the closing time is 9 PM\n\nSIMILAR WORDS:\n- {開店時間|かいてんじかん}: opening time — the antonym\n- ⟦{営業時間|えいぎょうじかん}→営業時間：18476_eigyoujikan⟧: business hours — covers the whole range from opening to closing\n- ⟦{閉館|へいかん}→閉館：18858_heikan⟧⟦{時間|じかん}→時間：00468_jikan⟧: closing time of a museum, library, or other public facility (not a shop)\n- ⟦{終業|しゅうぎょう}→終業：18204_shuugyou⟧⟦{時間|じかん}→時間：00468_jikan⟧: end-of-work time — for offices/workplaces, not for shops serving customers",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18476_eigyoujikan",
+      "reading": "えいぎょうじかん",
+      "headword": "{営業時間|えいぎょうじかん}",
+      "label": "business hours"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +69,6 @@
       ]
     },
     "created": "2026-04-12T19:25:11Z",
-    "modified": "2026-08-01T21:36:06Z"
+    "modified": "2026-09-02T04:02:13Z"
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22737_ichiranhyou_ex1",
-      "japanese": "{価格|かかく}{一覧表|いちらんひょう}を{作|つく}った。",
+      "japanese": "⟦{価格|かかく}→価格：00147_kakaku⟧{一覧表|いちらんひょう}⟦を→を：00422_wo⟧⟦{作|つく}った→作る：00481_tsukuru⟧。",
       "english": "I made a price list.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22737_ichiranhyou_ex2",
-      "japanese": "{商品|しょうひん}の{一覧表|いちらんひょう}をメールで{送|おく}ります。",
+      "japanese": "⟦{商品|しょうひん}→商品：01436_shouhin⟧⟦の→の：09472_no⟧{一覧表|いちらんひょう}⟦を→を：00422_wo⟧⟦メール→メール：04435_meeru⟧⟦で→で：00502_de⟧⟦{送|おく}ります→送る：00742_okuru⟧。",
       "english": "I'll send you the product list by email.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22737_ichiranhyou_ex3",
-      "japanese": "{全社員|ぜんしゃいん}の{連絡先|れんらくさき}{一覧表|いちらんひょう}を{最新|さいしん}の{情報|じょうほう}に{更新|こうしん}してください。",
+      "japanese": "{全社員|ぜんしゃいん}⟦の→の：09472_no⟧⟦{連絡先|れんらくさき}→連絡先：03191_renrakusaki⟧{一覧表|いちらんひょう}⟦を→を：00422_wo⟧⟦{最新|さいしん}→最新：04831_saishin⟧⟦の→の：09472_no⟧⟦{情報|じょうほう}→情報：03348_jouhou⟧⟦に→に：00314_ni⟧⟦{更新|こうしん}して→更新する：27994_koushinsuru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please update the contact list for all employees with the latest information.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {一覧|いちらん} ('overview, at a glance') and {表|ひょう} ('table, chart'). Used in business, administrative, and everyday contexts for any kind of organized reference list. The word implies that the information is laid out so it can be quickly scanned and understood.\n\nCOMMON COLLOCATIONS:\n- {価格|かかく}{一覧表|いちらんひょう}: price list\n- {料金|りょうきん}{一覧表|いちらんひょう}: fee schedule\n- {商品|しょうひん}{一覧表|いちらんひょう}: product catalog/list\n- {連絡先|れんらくさき}{一覧表|いちらんひょう}: contact list\n- {一覧表|いちらんひょう}を{作成|さくせい}する: to create a list\n\nSIMILAR WORDS:\n- {一覧|いちらん}: overview, list — the shorter form, often used alone or as a suffix\n- リスト: list — loanword from English, used more casually\n- {表|ひょう}: table, chart — more general term for any tabular format",
+  "notes": "A compound of ⟦{一覧|いちらん}→一覧：17694_ichiran⟧ ('overview, at a glance') and ⟦{表|ひょう}→表：19354_hyou⟧ ('table, chart'). Used in business, administrative, and everyday contexts for any kind of organized reference list. The word implies that the information is laid out so it can be quickly scanned and understood.\n\nCOMMON COLLOCATIONS:\n- ⟦{価格|かかく}→価格：00147_kakaku⟧{一覧表|いちらんひょう}: price list\n- ⟦{料金|りょうきん}→料金：03797_ryoukin⟧{一覧表|いちらんひょう}: fee schedule\n- ⟦{商品|しょうひん}→商品：01436_shouhin⟧{一覧表|いちらんひょう}: product catalog/list\n- ⟦{連絡先|れんらくさき}→連絡先：03191_renrakusaki⟧{一覧表|いちらんひょう}: contact list\n- {一覧表|いちらんひょう}⟦を→を：00422_wo⟧⟦{作成|さくせい}する→作成する：25378_sakuseisuru⟧: to create a list\n\nSIMILAR WORDS:\n- ⟦{一覧|いちらん}→一覧：17694_ichiran⟧: overview, list — the shorter form, often used alone or as a suffix\n- ⟦リスト→リスト：09786_risuto⟧: list — loanword from English, used more casually\n- ⟦{表|ひょう}→表：19354_hyou⟧: table, chart — more general term for any tabular format",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09786_risuto",
+      "reading": "りすと",
+      "headword": "リスト",
+      "label": "list"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29541_hayamihyou",
+      "reading": "はやみひょう",
+      "headword": "{早見表|はやみひょう}",
+      "label": "quick-reference chart"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +76,6 @@
       "politeness": "plain"
     },
     "created": "2026-04-07T14:12:06Z",
-    "modified": "2026-08-01T06:42:57Z"
+    "modified": "2026-09-02T04:02:09Z"
   }
 }

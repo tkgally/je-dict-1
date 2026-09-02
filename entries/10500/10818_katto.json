@@ -3,7 +3,7 @@
   "id": "10818_katto",
   "headword": "カット",
   "reading": "かっと",
-  "part_of_speech": "noun / suru verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "cut, cutting; haircut; deletion",
   "conjugation": {
     "type": "suru",
@@ -110,7 +110,7 @@
   "examples": [
     {
       "id": "10818_katto_ex1",
-      "japanese": "{髪|かみ}をカットした。",
+      "japanese": "⟦{髪|かみ}→髪：02196_kami⟧⟦を→を：00422_wo⟧カット⟦した→する：00392_suru⟧。",
       "english": "I got a haircut.",
       "notes": null,
       "has_audio": false,
@@ -120,7 +120,7 @@
     },
     {
       "id": "10818_katto_ex2",
-      "japanese": "カットだけでいくらですか。",
+      "japanese": "カット⟦だけ→〜だけ：03093_dake⟧⟦で→で：00502_de⟧いくらです⟦か→か：09473_ka⟧。",
       "english": "How much is just a cut?",
       "notes": null,
       "has_audio": false,
@@ -130,7 +130,7 @@
     },
     {
       "id": "10818_katto_ex3",
-      "japanese": "{美容院|びよういん}でカットとカラーをお{願|ねが}いした。",
+      "japanese": "⟦{美容院|びよういん}→美容院：06319_biyouin⟧⟦で→で：00502_de⟧カット⟦と→と：00512_to⟧⟦カラー→カラー：10820_karaa⟧⟦を→を：00422_wo⟧⟦お{願|ねが}いした→お願いする：05654_onegaisuru⟧。",
       "english": "I asked for a cut and color at the hair salon.",
       "notes": null,
       "has_audio": false,
@@ -140,7 +140,7 @@
     },
     {
       "id": "10818_katto_ex4",
-      "japanese": "このシーンはカットされた。",
+      "japanese": "⟦この→この：00962_kono⟧⟦シーン→シーン：08914_shiin⟧⟦は→は：00079_ha⟧カット⟦された→する：00392_suru⟧。",
       "english": "This scene was cut.",
       "notes": null,
       "has_audio": false,
@@ -150,7 +150,7 @@
     },
     {
       "id": "10818_katto_ex5",
-      "japanese": "{経費|けいひ}を{大幅|おおはば}にカットする。",
+      "japanese": "⟦{経費|けいひ}→経費：04696_keihi⟧⟦を→を：00422_wo⟧⟦{大幅|おおはば}→大幅：12170_oohaba⟧⟦に→に：00314_ni⟧カット⟦する→する：00392_suru⟧。",
       "english": "We will drastically cut expenses.",
       "notes": null,
       "has_audio": false,
@@ -160,7 +160,7 @@
     },
     {
       "id": "10818_katto_ex6",
-      "japanese": "{時間|じかん}の{都合|つごう}で{最後|さいご}のパートがカットされてしまった。",
+      "japanese": "⟦{時間|じかん}→時間：00468_jikan⟧⟦の→の：09472_no⟧⟦{都合|つごう}→都合：01672_tsugou⟧⟦で→で：00502_de⟧⟦{最後|さいご}→最後：01413_saigo⟧⟦の→の：09472_no⟧⟦パート→パート：03106_paato⟧⟦が→が：00051_ga⟧カット⟦されて→する：00392_suru⟧しまった。",
       "english": "The last part was cut due to time constraints.",
       "notes": null,
       "has_audio": false,
@@ -169,11 +169,26 @@
       ]
     }
   ],
-  "notes": "カット is a very common loanword from English \"cut,\" used both as a noun and as a suru verb (カットする).\n\nSENSE 1 — HAIRCUT:\nAt hair salons, カット refers specifically to the cutting service. Pricing menus typically list カット separately from other services.\n\nSENSE 2 — DELETION/REDUCTION:\nUsed in film editing, business cost-cutting, and general removal of content.\n\nCOMMON COMPOUNDS:\n- ヘアカット: haircut\n- コストカット: cost cutting\n- {賃金|ちんぎん}カット: wage cut\n- カット{野菜|やさい}: pre-cut vegetables",
-  "cross_references": [],
+  "notes": "カット is a very common loanword from English \"cut,\" used both as a noun and as a suru verb (カット⟦する→する：00392_suru⟧).\n\nSENSE 1 — HAIRCUT:\nAt hair salons, カット refers specifically to the cutting service. Pricing menus typically list カット separately from other services.\n\nSENSE 2 — DELETION/REDUCTION:\nUsed in film editing, business cost-cutting, and general removal of content.\n\nCOMPOUNDS:\n- ヘアカット: haircut\n- コストカット: cost cutting\n- ⟦{賃金|ちんぎん}→賃金：04842_chingin⟧カット: wage cut\n- カット⟦{野菜|やさい}→野菜：02265_yasai⟧: pre-cut vegetables",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11789_sakugen",
+      "reading": "さくげん",
+      "headword": "{削減|さくげん}",
+      "label": "reduction"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24731_bamentenkan",
+      "reading": "ばめんてんかん",
+      "headword": "{場面転換|ばめんてんかん}",
+      "label": "scene change"
+    }
+  ],
   "metadata": {
     "created": "2026-02-10T08:31:48Z",
-    "modified": "2026-03-29T03:07:35Z",
+    "modified": "2026-09-02T04:01:22Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -186,7 +201,8 @@
       "semantic": [
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

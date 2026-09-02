@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "12333_sunahama_ex1",
-      "japanese": "{砂浜|すなはま}を{歩|ある}く。",
+      "japanese": "{砂浜|すなはま}⟦を→を：00422_wo⟧⟦{歩|ある}く→歩く：00538_aruku⟧。",
       "english": "To walk on the sandy beach.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "12333_sunahama_ex2",
-      "japanese": "{子供|こども}たちが{砂浜|すなはま}で{遊|あそ}んでいる。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧たち⟦が→が：00051_ga⟧{砂浜|すなはま}⟦で→で：00502_de⟧⟦{遊|あそ}んでいる→遊ぶ：00550_asobu⟧。",
       "english": "The children are playing on the sandy beach.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "12333_sunahama_ex3",
-      "japanese": "{白|しろ}い{砂浜|すなはま}が{続|つづ}く{美|うつく}しい{海岸|かいがん}だった。",
+      "japanese": "⟦{白|しろ}い→白い：00587_shiroi⟧{砂浜|すなはま}⟦が→が：00051_ga⟧⟦{続|つづ}く→続く：00903_tsuzuku⟧⟦{美|うつく}しい→美しい：01121_utsukushii⟧⟦{海岸|かいがん}→海岸：00852_kaigan⟧だった。",
       "english": "It was a beautiful coastline with stretches of white sandy beach.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "{砂浜|すなはま} refers to a sandy beach — a stretch of coastline covered with sand.\n\nWORD FORMATION:\n{砂|すな} (sand) + {浜|はま} (beach, shore).\n\nCOMMON COLLOCATIONS:\n- {白|しろ}い{砂浜|すなはま}: white sandy beach\n- {砂浜|すなはま}を{歩|ある}く: to walk on the beach\n- {砂浜|すなはま}で{遊|あそ}ぶ: to play on the beach\n- {砂浜|すなはま}が{広|ひろ}がる: a sandy beach stretches out\n- {砂浜|すなはま}に{打|う}ち{上|あ}げられる: to wash up on the beach\n\nSIMILAR WORDS:\n- {砂浜|すなはま}: sandy beach (specifically sand-covered)\n- {海岸|かいがん}: coast, seashore (general term, includes rocky coasts)\n- {浜辺|はまべ}: beach, seashore (slightly literary)\n- {浜|はま}: beach, shore (shorter form, also common in place names like {横浜|よこはま})",
+  "notes": "{砂浜|すなはま} refers to a sandy beach — a stretch of coastline covered with sand.\n\nFORMS:\n⟦{砂|すな}→砂：00890_suna⟧ (sand) + ⟦{浜|はま}→浜：05041_hama⟧ (beach, shore).\n\nCOMMON COLLOCATIONS:\n- ⟦{白|しろ}い→白い：00587_shiroi⟧{砂浜|すなはま}: white sandy beach\n- {砂浜|すなはま}⟦を→を：00422_wo⟧⟦{歩|ある}く→歩く：00538_aruku⟧: to walk on the beach\n- {砂浜|すなはま}⟦で→で：00502_de⟧⟦{遊|あそ}ぶ→遊ぶ：00550_asobu⟧: to play on the beach\n- {砂浜|すなはま}⟦が→が：00051_ga⟧⟦{広|ひろ}がる→広がる：01980_hirogaru⟧: a sandy beach stretches out\n- {砂浜|すなはま}⟦に→に：00314_ni⟧⟦{打|う}ち{上|あ}げられる→打ち上げる：06732_uchiageru⟧: to wash up on the beach\n\nSIMILAR WORDS:\n- {砂浜|すなはま}: sandy beach (specifically sand-covered)\n- ⟦{海岸|かいがん}→海岸：00852_kaigan⟧: coast, seashore (general term, includes rocky coasts)\n- ⟦{浜辺|はまべ}→浜辺：17948_hamabe⟧: beach, seashore (slightly literary)\n- ⟦{浜|はま}→浜：05041_hama⟧: beach, shore (shorter form, also common in place names like ⟦{横浜|よこはま}→横浜：28138_yokohama⟧)",
   "cross_references": [
     {
       "type": "related",
@@ -52,11 +52,53 @@
       "reading": "かいがん",
       "headword": "{海岸|かいがん}",
       "label": "coast, seashore"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17948_hamabe",
+      "reading": "はまべ",
+      "headword": "{浜辺|はまべ}",
+      "label": "beach, seashore"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05498_umibe",
+      "reading": "うみべ",
+      "headword": "{海辺|うみべ}",
+      "label": "seaside"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10163_biichi",
+      "reading": "びーち",
+      "headword": "ビーチ",
+      "label": "beach"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19972_sakyuu",
+      "reading": "さきゅう",
+      "headword": "{砂丘|さきゅう}",
+      "label": "sand dune"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21009_kaisuiyokujou",
+      "reading": "かいすいよくじょう",
+      "headword": "{海水浴場|かいすいよくじょう}",
+      "label": "swimming beach"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28696_ishihama",
+      "reading": "いしはま",
+      "headword": "{石浜|いしはま}",
+      "label": "pebble beach"
     }
   ],
   "metadata": {
     "created": "2026-02-21T02:56:32Z",
-    "modified": "2026-04-26T09:20:33Z",
+    "modified": "2026-09-02T04:01:28Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

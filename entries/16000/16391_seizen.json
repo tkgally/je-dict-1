@@ -15,41 +15,59 @@
   "examples": [
     {
       "id": "16391_seizen_ex1",
-      "japanese": "{生前|せいぜん}の{姿|すがた}を{思|おも}い{出|だ}す。",
+      "japanese": "{生前|せいぜん}⟦の→の：09472_no⟧⟦{姿|すがた}→姿：03363_sugata⟧⟦を→を：00422_wo⟧⟦{思|おも}い{出|だ}す→思い出す：01258_omoidasu⟧。",
       "english": "To recall how they looked when they were alive.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16391_seizen_ex2",
-      "japanese": "{祖母|そぼ}は{生前|せいぜん}、よく{花|はな}を{育|そだ}てていた。",
+      "japanese": "⟦{祖母|そぼ}→祖母：00813_sobo⟧⟦は→は：00079_ha⟧{生前|せいぜん}、⟦よく→よく：00601_yoku⟧⟦{花|はな}→花：00523_hana⟧⟦を→を：00422_wo⟧⟦{育|そだ}てていた→育てる：01235_sodateru⟧。",
       "english": "My grandmother used to grow flowers when she was alive.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16391_seizen_ex3",
-      "japanese": "{生前|せいぜん}の{意思|いし}に{従|したが}い、{遺産|いさん}は{全額|ぜんがく}{寄付|きふ}されることになった。",
+      "japanese": "{生前|せいぜん}⟦の→の：09472_no⟧⟦{意思|いし}→意思：12742_ishi⟧⟦に→に：00314_ni⟧⟦{従|したが}い→従う：02059_shitagau⟧、⟦{遺産|いさん}→遺産：14405_isan⟧⟦は→は：00079_ha⟧⟦{全額|ぜんがく}→全額：16829_zengaku⟧⟦{寄付|きふ}される→寄付する：20661_kifusuru⟧ことになった。",
       "english": "In accordance with their wishes while alive, the entire estate was to be donated.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\n{生前|せいぜん} is only used in reference to someone who has already died. It would be inappropriate to use it about a living person. It often appears in obituaries, eulogies, and when discussing a deceased person's wishes or legacy.\n\nCOMMON COLLOCATIONS:\n- {生前|せいぜん}の{姿|すがた} (how they looked when alive)\n- {生前|せいぜん}の{意思|いし} (wishes expressed while alive)\n- {生前|せいぜん}{贈与|ぞうよ} (gift given before death — a legal/tax term)\n- {生前|せいぜん}{整理|せいり} (organizing one's affairs before death)\n- {生前|せいぜん}{葬|そう} (funeral held while the person is still alive)\n\nNOTE:\n{生前|せいぜん}{整理|せいり} has become a widely discussed concept in aging Japanese society, referring to the practice of decluttering and organizing one's belongings and affairs while still alive.",
-  "cross_references": [],
+  "notes": "USAGE:\n{生前|せいぜん} is only used in reference to someone who has already died. It would be inappropriate to use it about a living person. It often appears in obituaries, eulogies, and when discussing a deceased person's wishes or legacy.\n{生前|せいぜん}⟦{整理|せいり}→整理：03297_seiri⟧ has become a widely discussed concept in aging Japanese society, referring to the practice of decluttering and organizing one's belongings and affairs while still alive.\n\nCOMMON COLLOCATIONS:\n- {生前|せいぜん}⟦の→の：09472_no⟧⟦{姿|すがた}→姿：03363_sugata⟧ (how they looked when alive)\n- {生前|せいぜん}⟦の→の：09472_no⟧⟦{意思|いし}→意思：12742_ishi⟧ (wishes expressed while alive)\n- {生前|せいぜん}⟦{贈与|ぞうよ}→贈与：27143_zouyo⟧ (gift given before death — a legal/tax term)\n- {生前|せいぜん}⟦{整理|せいり}→整理：03297_seiri⟧ (organizing one's affairs before death)\n- {生前|せいぜん}{葬|そう} (funeral held while the person is still alive)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "21150_shigo",
+      "reading": "しご",
+      "headword": "{死後|しご}",
+      "label": "after death"
+    }
+  ],
   "metadata": {
     "created": "2026-03-12T05:16:21Z",
-    "modified": "2026-03-12T05:16:21Z",
+    "modified": "2026-09-02T04:01:44Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["time-general"]
+      "semantic": [
+        "time-general"
+      ]
     }
   }
 }

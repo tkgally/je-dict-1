@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26555_nisakidatte_ex1",
-      "japanese": "{会議|かいぎ}に{先立|さきだ}って{資料|しりょう}を{配|くば}った。",
+      "japanese": "⟦{会議|かいぎ}→会議：00710_kaigi⟧に{先立|さきだ}って⟦{資料|しりょう}→資料：04166_shiryou⟧⟦を→を：00422_wo⟧⟦{配|くば}った→配る：03921_kubaru⟧。",
       "english": "I distributed materials prior to the meeting.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26555_nisakidatte_ex2",
-      "japanese": "{開会|かいかい}に{先立|さきだ}ち、{議長|ぎちょう}が{挨拶|あいさつ}をした。",
+      "japanese": "⟦{開会|かいかい}→開会：04118_kaikai⟧⟦に→に：00314_ni⟧{先立|さきだ}ち、⟦{議長|ぎちょう}→議長：02681_gichou⟧⟦が→が：00051_ga⟧⟦{挨拶|あいさつ}→挨拶：02505_aisatsu⟧⟦を→を：00422_wo⟧⟦した→する：00392_suru⟧。",
       "english": "Before the opening, the chairperson gave a greeting.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26555_nisakidatte_ex3",
-      "japanese": "{新製品|しんせいひん}の{発売|はつばい}に{先立|さきだ}って、{記者会見|きしゃかいけん}が{行|おこな}われた。",
+      "japanese": "⟦{新製品|しんせいひん}→新製品：18629_shinseihin⟧⟦の→の：09472_no⟧⟦{発売|はつばい}→発売：04315_hatsubai⟧に{先立|さきだ}って、⟦{記者会見|きしゃかいけん}→記者会見：19954_kishakaiken⟧⟦が→が：00051_ga⟧⟦{行|おこな}われた→行う：01238_okonau⟧。",
       "english": "A press conference was held prior to the new product launch.",
       "sense_numbers": [
         1
@@ -44,8 +44,23 @@
       "notes": null
     }
   ],
-  "notes": "A formal expression meaning \"prior to\" or \"before,\" typically used in written language, speeches, and business settings. Composed of the particle に, the verb {先立|さきだ}つ (to precede), in its te-form.\n\nFORMS:\n- に{先立|さきだ}って: te-form — most common\n- に{先立|さきだ}ち: conjunctive form — slightly more formal\n- に{先立|さきだ}つ + noun: attributive form (e.g., {出発|しゅっぱつ}に{先立|さきだ}つ{準備|じゅんび})\n\nUSAGE:\nThe expression takes a noun before に, indicating the main event. The clause after に{先立|さきだ}って describes the preparatory action. Often used in news reports, formal announcements, and ceremony contexts.\n\nSIMILAR EXPRESSIONS:\n- {前|まえ}に: before — more casual and general\n- に{先駆|さきが}けて: ahead of others, pioneering — implies being the first to do something\n- に{際|さい}して: on the occasion of — emphasizes the event itself rather than temporal sequence",
-  "cross_references": [],
+  "notes": "A formal expression meaning \"prior to\" or \"before,\" typically used in written language, speeches, and business settings. Composed of the particle ⟦に→に：00314_ni⟧, the verb {先立|さきだ}つ (to precede), in its te-form.\n\nFORMS:\n- に{先立|さきだ}って: te-form — most common\n- ⟦に→に：00314_ni⟧{先立|さきだ}ち: conjunctive form — slightly more formal\n- ⟦に→に：00314_ni⟧{先立|さきだ}つ + noun: attributive form (e.g., ⟦{出発|しゅっぱつ}→出発：02085_shuppatsu⟧⟦に→に：00314_ni⟧{先立|さきだ}つ⟦{準備|じゅんび}→準備：01431_junbi⟧)\n\nUSAGE:\nThe expression takes a noun before ⟦に→に：00314_ni⟧, indicating the main event. The clause after に{先立|さきだ}って describes the preparatory action. Often used in news reports, formal announcements, and ceremony contexts.\n\nSIMILAR WORDS:\n- ⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧: before — more casual and general\n- ⟦に→に：00314_ni⟧{先駆|さきが}けて: ahead of others, pioneering — implies being the first to do something\n- ⟦に{際|さい}して→に際して：06945_nisaishite⟧: on the occasion of — emphasizes the event itself rather than temporal sequence",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00965_maeni",
+      "reading": "まえに",
+      "headword": "{前|まえ}に",
+      "label": "before"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06945_nisaishite",
+      "reading": "にさいして",
+      "headword": "に{際|さい}して",
+      "label": "on the occasion of"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -60,6 +75,6 @@
       ]
     },
     "created": "2026-05-03T11:07:14Z",
-    "modified": "2026-08-06T00:43:53Z"
+    "modified": "2026-09-02T04:02:26Z"
   }
 }

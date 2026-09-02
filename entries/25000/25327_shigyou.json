@@ -3,7 +3,7 @@
   "headword": "{始業|しぎょう}",
   "reading": "しぎょう",
   "romaji": "shigyou",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "start of work; start of classes; beginning of business",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25327_shigyou_ex1",
-      "japanese": "{始業|しぎょう}は{午前|ごぜん}9{時|じ}です。",
+      "japanese": "{始業|しぎょう}⟦は→は：00079_ha⟧⟦{午前|ごぜん}→午前：00548_gozen⟧9⟦{時|じ}→時：09869_ji⟧です。",
       "english": "Work starts at 9 AM.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25327_shigyou_ex2",
-      "japanese": "{始業|しぎょう}ベルが{鳴|な}ったら{席|せき}に{着|つ}いてください。",
+      "japanese": "{始業|しぎょう}⟦ベル→ベル：01379_beru⟧⟦が→が：00051_ga⟧⟦{鳴|な}ったら→鳴る：01143_naru⟧⟦{席|せき}→席：02215_seki⟧⟦に→に：00314_ni⟧⟦{着|つ}いて→着く：00680_tsuku⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please take your seats when the bell for the start of class rings.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25327_shigyou_ex3",
-      "japanese": "{三学期|さんがっき}の{始業式|しぎょうしき}が{体育館|たいいくかん}で{行|おこな}われた。",
+      "japanese": "⟦{三学期|さんがっき}→三学期：30250_sangakki⟧⟦の→の：09472_no⟧⟦{始業式|しぎょうしき}→始業式：08555_shigyoushiki⟧⟦が→が：00051_ga⟧⟦{体育館|たいいくかん}→体育館：03111_taiikukan⟧⟦で→で：00502_de⟧⟦{行|おこな}われた→行う：01238_okonau⟧。",
       "english": "The opening ceremony for the third term was held in the gymnasium.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Indicates the commencement of work, classes, or business operations. Composed of {始|し} (begin) and {業|ぎょう} (work, business). Used in both workplace and school settings.\n\nCOMMON COLLOCATIONS:\n- {始業|しぎょう}{時間|じかん}: starting time\n- {始業式|しぎょうしき}: opening ceremony (for a school term)\n- {始業|しぎょう}ベル: start-of-class bell\n- {始業|しぎょう}{前|まえ}: before the start of work/class\n\nSIMILAR WORDS:\n- {終業|しゅうぎょう}: end of work/class — the opposite\n- {開業|かいぎょう}: opening a business — starting a new business or practice\n- {就業|しゅうぎょう}: working, employment — refers to being engaged in work in general",
+  "notes": "Indicates the commencement of work, classes, or business operations. Composed of {始|し} (begin) and {業|ぎょう} (work, business). Used in both workplace and school settings.\n\nCOMMON COLLOCATIONS:\n- {始業|しぎょう}{時間|じかん}: starting time\n- ⟦{始業式|しぎょうしき}→始業式：08555_shigyoushiki⟧: opening ceremony (for a school term)\n- {始業|しぎょう}⟦ベル→ベル：01379_beru⟧: start-of-class bell\n- {始業|しぎょう}⟦{前|まえ}→前：02255_mae⟧: before the start of work/class\n\nSIMILAR WORDS:\n- ⟦{終業|しゅうぎょう}→終業：18204_shuugyou⟧: end of work/class — the opposite\n- ⟦{開業|かいぎょう}→開業：14570_kaigyou⟧: opening a business — starting a new business or practice\n- {就業|しゅうぎょう}: working, employment — refers to being engaged in work in general",
   "cross_references": [
     {
       "type": "antonym",
@@ -52,6 +52,13 @@
       "reading": "しゅうぎょう",
       "headword": "{終業|しゅうぎょう}",
       "label": "end of work"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14570_kaigyou",
+      "reading": "かいぎょう",
+      "headword": "{開業|かいぎょう}",
+      "label": "opening a business"
     }
   ],
   "schema_version": "2.0",
@@ -62,6 +69,8 @@
         "noun",
         "verb-suru"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "daily-life"
       ],
@@ -71,7 +80,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-24T14:29:53Z",
-    "modified": "2026-05-08T07:08:06Z"
+    "modified": "2026-09-02T04:02:22Z"
   },
   "conjugation": {
     "type": "suru",

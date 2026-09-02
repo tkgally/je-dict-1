@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "11519_shiage_ex1",
-      "japanese": "{仕上|しあ}げは{丁寧|ていねい}にする。",
+      "japanese": "{仕上|しあ}げ⟦は→は：00079_ha⟧⟦{丁寧|ていねい}→丁寧：00896_teinei⟧⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧。",
       "english": "Do the finishing carefully.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "11519_shiage_ex2",
-      "japanese": "ケーキの{仕上|しあ}げにチョコレートをかけた。",
+      "japanese": "⟦ケーキ→ケーキ：01356_keeki⟧⟦の→の：09472_no⟧{仕上|しあ}げ⟦に→に：00314_ni⟧⟦チョコレート→チョコレート：05183_chokoreeto⟧⟦を→を：00422_wo⟧⟦かけた→かける：00854_kakeru⟧。",
       "english": "I drizzled chocolate on the cake as a finishing touch.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "11519_shiage_ex3",
-      "japanese": "この{家具|かぐ}は{仕上|しあ}げが{美|うつく}しく、{職人|しょくにん}の{技|わざ}が{感|かん}じられる。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{家具|かぐ}→家具：12314_kagu⟧⟦は→は：00079_ha⟧{仕上|しあ}げ⟦が→が：00051_ga⟧⟦{美|うつく}しく→美しい：01121_utsukushii⟧、⟦{職人|しょくにん}→職人：09868_shokunin⟧⟦の→の：09472_no⟧⟦{技|わざ}→技：02172_waza⟧⟦が→が：00051_ga⟧⟦{感|かん}じられる→感じる：02044_kanjiru⟧。",
       "english": "The finish on this furniture is beautiful, and you can feel the craftsman's skill.",
       "notes": null,
       "has_audio": false,
@@ -43,11 +43,40 @@
       ]
     }
   ],
-  "notes": "{仕上|しあ}げ is the noun form of {仕上|しあ}げる (to finish, to complete). It means both the act of finishing and the quality of the finished result.\n\nCOMMON COLLOCATIONS:\n- {仕上|しあ}げに{入|はい}る: to enter the finishing stage\n- {仕上|しあ}げが{綺麗|きれい}: nicely finished\n- {最後|さいご}の{仕上|しあ}げ: the final touches\n- {仕上|しあ}げの{段階|だんかい}: the finishing stage\n- {仕上|しあ}げに〜する: to do ~ as a finishing touch\n\nDOMAINS:\nUsed across many fields — cooking ({仕上|しあ}げにパセリをかける), crafts, woodworking, painting, writing, and any work process with a final polishing stage.\n\nRELATED:\n- {仕上|しあ}げる: to finish, to complete (verb)\n- {仕上|しあ}がる: to be finished, to turn out (intransitive)\n- {仕上|しあ}がり: the finished result, how something turned out",
-  "cross_references": [],
+  "notes": "{仕上|しあ}げ is the noun form of {仕上|しあ}げる (to finish, to complete). It means both the act of finishing and the quality of the finished result.\n\nCOMMON COLLOCATIONS:\n- {仕上|しあ}げ⟦に→に：00314_ni⟧⟦{入|はい}る→入る：00494_hairu⟧: to enter the finishing stage\n- {仕上|しあ}げ⟦が→が：00051_ga⟧{綺麗|きれい}: nicely finished\n- ⟦{最後|さいご}→最後：01413_saigo⟧⟦の→の：09472_no⟧{仕上|しあ}げ: the final touches\n- {仕上|しあ}げ⟦の→の：09472_no⟧⟦{段階|だんかい}→段階：04515_dankai⟧: the finishing stage\n- {仕上|しあ}げ⟦に→に：00314_ni⟧〜⟦する→する：00392_suru⟧: to do ~ as a finishing touch\n\nDOMAINS:\nUsed across many fields — cooking ({仕上|しあ}げ⟦に→に：00314_ni⟧⟦パセリ→パセリ：21585_paseri⟧⟦を→を：00422_wo⟧⟦かける→かける：00854_kakeru⟧), crafts, woodworking, painting, writing, and any work process with a final polishing stage.\n\nRELATED WORDS:\n- {仕上|しあ}げる: to finish, to complete (verb)\n- ⟦{仕上|しあ}がる→仕上がる：11429_shiagaru⟧: to be finished, to turn out (intransitive)\n- ⟦{仕上|しあ}がり→仕上がり：07432_shiagari⟧: the finished result, how something turned out",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "11429_shiagaru",
+      "reading": "しあがる",
+      "headword": "{仕上|しあ}がる",
+      "label": "to be finished, to turn out"
+    },
+    {
+      "type": "related",
+      "target_id": "07432_shiagari",
+      "reading": "しあがり",
+      "headword": "{仕上|しあ}がり",
+      "label": "the finished result, how something…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20708_shimekukuri",
+      "reading": "しめくくり",
+      "headword": "{締|し}めくくり",
+      "label": "conclusion"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26088_saishuudankai",
+      "reading": "さいしゅうだんかい",
+      "headword": "{最終段階|さいしゅうだんかい}",
+      "label": "final stage"
+    }
+  ],
   "metadata": {
     "created": "2026-02-17T02:49:57Z",
-    "modified": "2026-07-01T09:49:53Z",
+    "modified": "2026-09-02T04:01:25Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",

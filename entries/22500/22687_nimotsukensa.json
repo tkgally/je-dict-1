@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22687_nimotsukensa_ex1",
-      "japanese": "{空港|くうこう}で{荷物検査|にもつけんさ}を{受|う}けた。",
+      "japanese": "⟦{空港|くうこう}→空港：00648_kuukou⟧⟦で→で：00502_de⟧{荷物検査|にもつけんさ}⟦を→を：00422_wo⟧⟦{受|う}けた→受ける：01215_ukeru⟧。",
       "english": "I went through baggage inspection at the airport.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22687_nimotsukensa_ex2",
-      "japanese": "{入場|にゅうじょう}{前|まえ}に{荷物検査|にもつけんさ}があります。",
+      "japanese": "⟦{入場|にゅうじょう}→入場：03521_nyuujou⟧⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧{荷物検査|にもつけんさ}⟦が→が：00051_ga⟧⟦あります→ある：00006_aru⟧。",
       "english": "There is a baggage inspection before entry.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22687_nimotsukensa_ex3",
-      "japanese": "{荷物検査|にもつけんさ}で{引|ひ}っかかって{時間|じかん}がかかった。",
+      "japanese": "{荷物検査|にもつけんさ}⟦で→で：00502_de⟧⟦{引|ひ}っかかって→引っかかる：12455_hikkakaru⟧⟦{時間|じかん}→時間：00468_jikan⟧⟦が→が：00051_ga⟧⟦かかった→かかる：00711_kakaru⟧。",
       "english": "I got held up at the baggage inspection and it took a while.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {荷物|にもつ} (baggage, luggage) + {検査|けんさ} (inspection, examination). Encountered at airports, concert venues, stadiums, and international borders. In Japan, security checks have become more common at large events.\n\nCOMMON COLLOCATIONS:\n- {荷物検査|にもつけんさ}を{受|う}ける: to undergo baggage inspection\n- {荷物検査|にもつけんさ}を{行|おこな}う: to carry out baggage inspection\n- {荷物検査|にもつけんさ}{場|じょう}: baggage inspection area\n- {手荷物|てにもつ}{検査|けんさ}: carry-on luggage inspection\n\nSIMILAR WORDS:\n- {手荷物|てにもつ}{検査|けんさ}: carry-on baggage check — specifically for items carried by hand\n- {身体検査|しんたいけんさ}: body search, physical examination — inspection of a person rather than their belongings\n- {保安検査|ほあんけんさ}: security screening — broader term used at airports covering both personal and baggage checks",
+  "notes": "A compound of ⟦{荷物|にもつ}→荷物：00737_nimotsu⟧ (baggage, luggage) + ⟦{検査|けんさ}→検査：02707_kensa⟧ (inspection, examination). Encountered at airports, concert venues, stadiums, and international borders. In Japan, security checks have become more common at large events.\n\nCOMMON COLLOCATIONS:\n- {荷物検査|にもつけんさ}⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧: to undergo baggage inspection\n- {荷物検査|にもつけんさ}⟦を→を：00422_wo⟧⟦{行|おこな}う→行う：01238_okonau⟧: to carry out baggage inspection\n- {荷物検査|にもつけんさ}{場|じょう}: baggage inspection area\n- ⟦{手荷物|てにもつ}→手荷物：09928_tenimotsu⟧⟦{検査|けんさ}→検査：02707_kensa⟧: carry-on luggage inspection\n\nSIMILAR WORDS:\n- ⟦{手荷物|てにもつ}→手荷物：09928_tenimotsu⟧⟦{検査|けんさ}→検査：02707_kensa⟧: carry-on baggage check — specifically for items carried by hand\n- {身体検査|しんたいけんさ}: body search, physical examination — inspection of a person rather than their belongings\n- ⟦{保安検査|ほあんけんさ}→保安検査：19855_hoankensa⟧: security screening — broader term used at airports covering both personal and baggage checks",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19855_hoankensa",
+      "reading": "ほあんけんさ",
+      "headword": "{保安検査|ほあんけんさ}",
+      "label": "security screening"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +69,6 @@
       "politeness": "plain"
     },
     "created": "2026-04-07T00:56:17Z",
-    "modified": "2026-08-01T06:41:09Z"
+    "modified": "2026-09-02T04:02:09Z"
   }
 }

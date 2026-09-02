@@ -20,65 +20,98 @@
   "examples": [
     {
       "id": "29244_foomu_ex1",
-      "japanese": "フォームがきれいだ。",
+      "japanese": "フォーム⟦が→が：00051_ga⟧⟦きれい→きれい：00717_kirei⟧だ。",
       "english": "Your form is beautiful.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29244_foomu_ex2",
-      "japanese": "コーチにフォームを{直|なお}された。",
+      "japanese": "⟦コーチ→コーチ：03844_koochi⟧⟦に→に：00314_ni⟧フォーム⟦を→を：00422_wo⟧{直|なお}された。",
       "english": "The coach corrected my form.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29244_foomu_ex3",
-      "japanese": "{正|ただ}しいフォームで{走|はし}ると{疲|つか}れにくい。",
+      "japanese": "⟦{正|ただ}しい→正しい：00893_tadashii⟧フォーム⟦で→で：00502_de⟧⟦{走|はし}る→走る：00519_hashiru⟧⟦と→と：00512_to⟧⟦{疲|つか}れ→疲れる：00901_tsukareru⟧にくい。",
       "english": "If you run with proper form, you tire less easily.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29244_foomu_ex4",
-      "japanese": "フォームに{入力|にゅうりょく}してください。",
+      "japanese": "フォーム⟦に→に：00314_ni⟧⟦{入力|にゅうりょく}して→入力する：28127_nyuuryokusuru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please fill in the form.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29244_foomu_ex5",
-      "japanese": "{問|と}い{合|あ}わせフォームから{連絡|れんらく}した。",
+      "japanese": "⟦{問|と}い{合|あ}わせ→問い合わせ：06131_toiawase⟧フォーム⟦から→から：00504_kara⟧⟦{連絡|れんらく}した→連絡する：20202_renrakusuru⟧。",
       "english": "I got in touch through the contact form.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29244_foomu_ex6",
-      "japanese": "{申|もう}し{込|こ}みフォームに{名前|なまえ}とメールアドレスを{入力|にゅうりょく}して{送信|そうしん}した。",
+      "japanese": "⟦{申|もう}し{込|こ}み→申し込み：03161_moushikomi⟧フォーム⟦に→に：00314_ni⟧⟦{名前|なまえ}→名前：02234_namae⟧⟦と→と：00512_to⟧⟦メールアドレス→メールアドレス：23540_meeruadoresu⟧⟦を→を：00422_wo⟧⟦{入力|にゅうりょく}して→入力する：28127_nyuuryokusuru⟧⟦{送信|そうしん}した→送信する：26780_soushinsuru⟧。",
       "english": "I entered my name and email address in the application form and submitted it.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Loanword from English \"form\". The two senses—physical posture and an input form—rarely cause confusion because context makes the meaning clear.\n\nCOMMON COLLOCATIONS:\n- フォームを{直|なお}す: to fix one's form (sports)\n- きれいなフォーム: clean, well-shaped form\n- {入力|にゅうりょく}フォーム: input form\n- {問|と}い{合|あ}わせフォーム: contact form\n\nSIMILAR WORDS:\n- {姿勢|しせい}: posture — refers to body position generally; フォーム is specifically the technique for an activity\n- {書式|しょしき}: document format/template — the layout of a form, not the act of entering data",
+  "notes": "Loanword from English \"form\". The two senses—physical posture and an input form—rarely cause confusion because context makes the meaning clear.\n\nCOMMON COLLOCATIONS:\n- フォーム⟦を→を：00422_wo⟧{直|なお}す: to fix one's form (sports)\n- ⟦きれい→きれい：00717_kirei⟧なフォーム: clean, well-shaped form\n- {入力|にゅうりょく}フォーム: input form\n- ⟦{問|と}い{合|あ}わせ→問い合わせ：06131_toiawase⟧フォーム: contact form\n\nSIMILAR WORDS:\n- ⟦{姿勢|しせい}→姿勢：00371_shisei⟧: posture — refers to body position generally; フォーム is specifically the technique for an activity\n- ⟦{書式|しょしき}→書式：15840_shoshiki⟧: document format/template — the layout of a form, not the act of entering data",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00371_shisei",
+      "reading": "しせい",
+      "headword": "{姿勢|しせい}",
+      "label": "posture"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15840_shoshiki",
+      "reading": "しょしき",
+      "headword": "{書式|しょしき}",
+      "label": "document format/template"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["sports", "technology"],
+      "politeness": "plain",
+      "semantic": [
+        "sports",
+        "technology"
+      ],
       "domain": []
     },
     "created": "2026-06-14T12:18:51Z",
-    "modified": "2026-06-14T12:18:51Z"
+    "modified": "2026-09-02T04:02:36Z"
   }
 }

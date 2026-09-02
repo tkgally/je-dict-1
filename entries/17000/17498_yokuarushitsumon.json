@@ -15,41 +15,60 @@
   "examples": [
     {
       "id": "17498_yokuarushitsumon_ex1",
-      "japanese": "まずはよくある{質問|しつもん}を{確認|かくにん}してください。",
+      "japanese": "⟦まず→まず：00796_mazu⟧⟦は→は：00079_ha⟧よくある{質問|しつもん}⟦を→を：00422_wo⟧⟦{確認|かくにん}して→確認する：25332_kakuninsuru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please check the FAQ first.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17498_yokuarushitsumon_ex2",
-      "japanese": "よくある{質問|しつもん}のページに{答|こた}えが{載|の}っていた。",
+      "japanese": "よくある{質問|しつもん}⟦の→の：09472_no⟧⟦ページ→ページ：02961_peeji⟧⟦に→に：00314_ni⟧⟦{答|こた}え→答え：00790_kotae⟧⟦が→が：00051_ga⟧⟦{載|の}っていた→載る：27882_noru⟧。",
       "english": "The answer was on the FAQ page.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17498_yokuarushitsumon_ex3",
-      "japanese": "お{問|と}い{合|あ}わせの{前|まえ}に、よくある{質問|しつもん}をご{覧|らん}いただければ{幸|さいわ}いです。",
+      "japanese": "お⟦{問|と}い{合|あ}わせ→問い合わせ：06131_toiawase⟧⟦の→の：09472_no⟧⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧、よくある{質問|しつもん}⟦を→を：00422_wo⟧⟦ご{覧|らん}→ご覧：01408_goran⟧⟦いただければ→いただく：01326_itadaku⟧⟦{幸|さいわ}い→幸い：02774_saiwai⟧です。",
       "english": "We would appreciate it if you could review the FAQ before making an inquiry.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nThe standard Japanese translation of FAQ. Found on nearly every Japanese website and product manual. The English abbreviation FAQ is also widely understood in Japan, though the Japanese phrase is more common on Japanese-language sites.\n\nVARIATIONS:\n- よくあるご{質問|しつもん}: polite form (with honorific prefix ご), common on corporate websites\n- FAQ（エフエーキュー）: the English abbreviation, sometimes used alongside the Japanese phrase",
-  "cross_references": [],
+  "notes": "USAGE:\nThe standard Japanese translation of FAQ. Found on nearly every Japanese website and product manual. The English abbreviation FAQ is also widely understood in Japan, though the Japanese phrase is more common on Japanese-language sites.\n\nFORMS:\n- ⟦よく→よく：00601_yoku⟧⟦ある→ある：00006_aru⟧ご⟦{質問|しつもん}→質問：00888_shitsumon⟧: polite form (with honorific prefix ご), common on corporate websites\n- FAQ（エフエーキュー）: the English abbreviation, sometimes used alongside the Japanese phrase",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "08876_efueekyuu",
+      "reading": "えふえーきゅー",
+      "headword": "FAQ",
+      "label": "FAQ, frequently asked questions"
+    }
+  ],
   "metadata": {
     "created": "2026-03-18T04:31:29Z",
-    "modified": "2026-03-18T04:31:29Z",
+    "modified": "2026-09-02T04:01:48Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["expression", "noun"],
+      "pos": [
+        "expression",
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["communication"]
+      "semantic": [
+        "communication"
+      ]
     }
   }
 }

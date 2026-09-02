@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "10192_kairanban_ex1",
-      "japanese": "{回覧板|かいらんばん}が{回|まわ}ってきた。",
+      "japanese": "{回覧板|かいらんばん}⟦が→が：00051_ga⟧⟦{回|まわ}って→回る：01150_mawaru⟧きた。",
       "english": "The neighborhood circular came around.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "10192_kairanban_ex2",
-      "japanese": "{回覧板|かいらんばん}を{隣|となり}に{回|まわ}す。",
+      "japanese": "{回覧板|かいらんばん}⟦を→を：00422_wo⟧⟦{隣|となり}→隣：01003_tonari⟧⟦に→に：00314_ni⟧⟦{回|まわ}す→回す：01158_mawasu⟧。",
       "english": "Pass the circular to the next-door neighbor.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "10192_kairanban_ex3",
-      "japanese": "{町内会|ちょうないかい}からの{連絡|れんらく}は{回覧板|かいらんばん}で{届|とど}く。",
+      "japanese": "⟦{町内会|ちょうないかい}→町内会：10193_chounaikai⟧⟦から→から：00504_kara⟧⟦の→の：09472_no⟧⟦{連絡|れんらく}→連絡：01524_renraku⟧⟦は→は：00079_ha⟧{回覧板|かいらんばん}⟦で→で：00502_de⟧⟦{届|とど}く→届く：00899_todoku⟧。",
       "english": "Notices from the neighborhood association are delivered via the circulating board.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "WORD FORMATION:\n{回覧|かいらん} (circulation, passing around) + {板|ばん} (board)\n\nCULTURAL NOTES:\nA traditional Japanese neighborhood communication system. The {回覧板|かいらんばん} typically contains:\n- {町内会|ちょうないかい} meeting notices\n- Community event announcements\n- Garbage collection schedule changes\n- Local safety information\n\nEach household signs or stamps to confirm they have read it before passing it on.\n\nRELATED TERMS:\n- {町内会|ちょうないかい}: neighborhood association\n- {自治会|じちかい}: residents' association\n- {回覧|かいらん}する: to circulate",
+  "notes": "FORMS:\n{回覧|かいらん} (circulation, passing around) + {板|ばん} (board)\n\nCULTURAL NOTE:\nA traditional Japanese neighborhood communication system. The {回覧板|かいらんばん} typically contains:\n- ⟦{町内会|ちょうないかい}→町内会：10193_chounaikai⟧ meeting notices\n- Community event announcements\n- Garbage collection schedule changes\n- Local safety information\n\nEach household signs or stamps to confirm they have read it before passing it on.\n\nRELATED WORDS:\n- ⟦{町内会|ちょうないかい}→町内会：10193_chounaikai⟧: neighborhood association\n- ⟦{自治会|じちかい}→自治会：22488_jichikai⟧: residents' association\n- {回覧|かいらん}⟦する→する：00392_suru⟧: to circulate",
   "cross_references": [
     {
       "type": "related",
@@ -51,11 +51,25 @@
       "reading": "ちょうないかい",
       "headword": "{町内会|ちょうないかい}",
       "label": "neighborhood association"
+    },
+    {
+      "type": "related",
+      "target_id": "22488_jichikai",
+      "reading": "じちかい",
+      "headword": "{自治会|じちかい}",
+      "label": "residents' association"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24474_kouhoushi",
+      "reading": "こうほうし",
+      "headword": "{広報|こうほう}{誌|し}",
+      "label": "public relations bulletin"
     }
   ],
   "metadata": {
     "created": "2026-02-05T12:58:08Z",
-    "modified": "2026-08-14T01:00:44Z",
+    "modified": "2026-09-02T04:01:20Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

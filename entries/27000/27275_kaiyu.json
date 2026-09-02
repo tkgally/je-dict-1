@@ -3,7 +3,7 @@
   "headword": "{快癒|かいゆ}",
   "reading": "かいゆ",
   "romaji": "kaiyu",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "recovery; complete healing; recuperation",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "27275_kaiyu_ex1",
-      "japanese": "ご{快癒|かいゆ}をお{祈|いの}りしております。",
+      "japanese": "ご{快癒|かいゆ}⟦を→を：00422_wo⟧お⟦{祈|いの}り→祈る：01198_inoru⟧⟦して→する：00392_suru⟧⟦おります→おる：01324_oru⟧。",
       "english": "I am praying for your recovery.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "27275_kaiyu_ex2",
-      "japanese": "{手術後|しゅじゅつご}、{快癒|かいゆ}に{向|む}かっている。",
+      "japanese": "{手術後|しゅじゅつご}、{快癒|かいゆ}⟦に→に：00314_ni⟧⟦{向|む}かっている→向かう：01186_mukau⟧。",
       "english": "After the surgery, recovery is progressing well.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "27275_kaiyu_ex3",
-      "japanese": "{社長|しゃちょう}の{快癒|かいゆ}を{願|ねが}い、{社員|しゃいん}{一同|いちどう}から{花束|はなたば}を{贈|おく}った。",
+      "japanese": "⟦{社長|しゃちょう}→社長：01428_shachou⟧⟦の→の：09472_no⟧{快癒|かいゆ}⟦を→を：00422_wo⟧⟦{願|ねが}い→願う：02387_negau⟧、⟦{社員|しゃいん}→社員：03065_shain⟧⟦{一同|いちどう}→一同：08918_ichidou⟧⟦から→から：00504_kara⟧⟦{花束|はなたば}→花束：03135_hanataba⟧⟦を→を：00422_wo⟧⟦{贈|おく}った→贈る：09862_okuru⟧。",
       "english": "Wishing for the company president's recovery, the employees sent a bouquet together.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {快|かい} (pleasant; refreshing) + {癒|ゆ} (healing; curing). A formal word primarily used in polite wishes for someone's recovery, especially in written communication like letters, cards, and formal messages.\n\nCOMMON COLLOCATIONS:\n- ご{快癒|かいゆ}をお{祈|いの}りします: I pray for your recovery (formal)\n- {快癒|かいゆ}に{向|む}かう: to be on the road to recovery\n- {一日|いちにち}も{早|はや}いご{快癒|かいゆ}を: wishing you the speediest recovery\n- {快癒|かいゆ}を{願|ねが}う: to wish for recovery\n\nREGISTER:\nThis is a formal, literary word. In everyday conversation, people would say {元気|げんき}になる (to get better), {治|なお}る (to heal), or {回復|かいふく}する (to recover).\n\nSIMILAR WORDS:\n- {回復|かいふく}: recovery — more common, used in both casual and formal contexts\n- {全快|ぜんかい}: full recovery; complete cure — emphasizes being completely healed\n- {平癒|へいゆ}: recovery; healing — even more literary, often seen in shrine prayers for health",
+  "notes": "Compound of {快|かい} (pleasant; refreshing) + {癒|ゆ} (healing; curing). A formal word primarily used in polite wishes for someone's recovery, especially in written communication like letters, cards, and formal messages.\n\nCOMMON COLLOCATIONS:\n- ご{快癒|かいゆ}⟦を→を：00422_wo⟧お⟦{祈|いの}り→祈る：01198_inoru⟧⟦します→する：00392_suru⟧: I pray for your recovery (formal)\n- {快癒|かいゆ}⟦に→に：00314_ni⟧⟦{向|む}かう→向かう：01186_mukau⟧: to be on the road to recovery\n- ⟦{一日|いちにち}→一日：00942_ichinichi⟧⟦も→も：00484_mo⟧⟦{早|はや}い→早い：00514_hayai⟧ご{快癒|かいゆ}⟦を→を：00422_wo⟧: wishing you the speediest recovery\n- {快癒|かいゆ}⟦を→を：00422_wo⟧⟦{願|ねが}う→願う：02387_negau⟧: to wish for recovery\n\nREGISTER:\nThis is a formal, literary word. In everyday conversation, people would say ⟦{元気|げんき}→元気：00696_genki⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧ (to get better), ⟦{治|なお}る→治る：19598_naoru⟧ (to heal), or ⟦{回復|かいふく}する→回復する：21330_kaifukusuru⟧ (to recover).\n\nSIMILAR WORDS:\n- ⟦{回復|かいふく}→回復：03812_kaifuku⟧: recovery — more common, used in both casual and formal contexts\n- ⟦{全快|ぜんかい}→全快：16255_zenkai⟧: full recovery; complete cure — emphasizes being completely healed\n- {平癒|へいゆ}: recovery; healing — even more literary, often seen in shrine prayers for health",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03812_kaifuku",
+      "reading": "かいふく",
+      "headword": "{回復|かいふく}",
+      "label": "recovery"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16255_zenkai",
+      "reading": "ぜんかい",
+      "headword": "{全快|ぜんかい}",
+      "label": "full recovery"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -54,7 +70,7 @@
         "verb-suru"
       ],
       "formality": "formal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "health"
       ],
@@ -62,7 +78,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-08T12:14:00Z",
-    "modified": "2026-05-08T12:14:00Z"
+    "modified": "2026-09-02T04:02:29Z"
   },
   "conjugation": {
     "type": "suru",

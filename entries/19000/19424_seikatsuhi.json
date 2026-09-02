@@ -15,40 +15,67 @@
   "examples": [
     {
       "id": "19424_seikatsuhi_ex1",
-      "japanese": "{生活費|せいかつひ}が{足|た}りない。",
+      "japanese": "{生活費|せいかつひ}⟦が→が：00051_ga⟧⟦{足|た}りない→足りる：01209_tariru⟧。",
       "english": "The living expenses are not enough.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19424_seikatsuhi_ex2",
-      "japanese": "{東京|とうきょう}は{生活費|せいかつひ}が{高|たか}い。",
+      "japanese": "⟦{東京|とうきょう}→東京：09564_toukyou⟧⟦は→は：00079_ha⟧{生活費|せいかつひ}⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧。",
       "english": "The cost of living in Tokyo is high.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19424_seikatsuhi_ex3",
-      "japanese": "アルバイトで{稼|かせ}いだお{金|かね}は、ほとんど{生活費|せいかつひ}に{消|き}えてしまう。",
+      "japanese": "⟦アルバイト→アルバイト：01528_arubaito⟧⟦で→で：00502_de⟧⟦{稼|かせ}いだ→稼ぐ：02040_kasegu⟧⟦お{金|かね}→お金：00611_okane⟧⟦は→は：00079_ha⟧、⟦ほとんど→ほとんど：00847_hotondo⟧{生活費|せいかつひ}⟦に→に：00314_ni⟧⟦{消|き}えて→消える：02520_kieru⟧しまう。",
       "english": "Almost all the money I earn from my part-time job goes toward living expenses.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "{生活費|せいかつひ} is a compound of {生活|せいかつ} (life, living) + {費|ひ} (expense, cost). The {費|ひ} suffix appears in many expense-related words.\n\nRELATED COMPOUNDS:\n- {食費|しょくひ}: food expenses\n- {交通費|こうつうひ}: transportation costs\n- {光熱費|こうねつひ}: utility costs (electricity, gas)\n- {家賃|やちん}: rent\n\nCOMMON COLLOCATIONS:\n- {生活費|せいかつひ}を{稼|かせ}ぐ: to earn a living\n- {生活費|せいかつひ}を{節約|せつやく}する: to cut living costs\n- {生活費|せいかつひ}がかかる: living expenses add up",
+  "notes": "{生活費|せいかつひ} is a compound of ⟦{生活|せいかつ}→生活：01443_seikatsu⟧ (life, living) + ⟦{費|ひ}→費：09877_hi⟧ (expense, cost). The ⟦{費|ひ}→費：09877_hi⟧ suffix appears in many expense-related words.\n\nCOMPOUNDS:\n- ⟦{食費|しょくひ}→食費：16477_shokuhi⟧: food expenses\n- ⟦{交通費|こうつうひ}→交通費：03056_koutsuuhi⟧: transportation costs\n- ⟦{光熱費|こうねつひ}→光熱費：08244_kounetsuhi⟧: utility costs (electricity, gas)\n- ⟦{家賃|やちん}→家賃：03639_yachin⟧: rent\n\nCOMMON COLLOCATIONS:\n- {生活費|せいかつひ}⟦を→を：00422_wo⟧⟦{稼|かせ}ぐ→稼ぐ：02040_kasegu⟧: to earn a living\n- {生活費|せいかつひ}⟦を→を：00422_wo⟧⟦{節約|せつやく}する→節約する：25226_setsuyakusuru⟧: to cut living costs\n- {生活費|せいかつひ}⟦が→が：00051_ga⟧⟦かかる→かかる：00711_kakaru⟧: living expenses add up",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "08244_kounetsuhi",
+      "reading": "こうねつひ",
+      "headword": "{光熱費|こうねつひ}",
+      "label": "utility costs"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25942_shokuryouhi",
+      "reading": "しょくりょうひ",
+      "headword": "{食料費|しょくりょうひ}",
+      "label": "food expenses"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["finance", "daily-life"]
+      "semantic": [
+        "finance",
+        "daily-life"
+      ]
     },
     "created": "2026-03-25T13:28:10Z",
-    "modified": "2026-07-26T21:32:58Z"
+    "modified": "2026-09-02T04:01:55Z"
   }
 }

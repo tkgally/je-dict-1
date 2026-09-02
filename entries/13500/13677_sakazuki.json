@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "13677_sakazuki_ex1",
-      "japanese": "{盃|さかずき}を{交|か}わす。",
+      "japanese": "{盃|さかずき}⟦を→を：00422_wo⟧⟦{交|か}わす→交わす：19373_kawasu⟧。",
       "english": "To exchange sake cups.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "13677_sakazuki_ex2",
-      "japanese": "{新郎|しんろう}{新婦|しんぷ}が{三々九度|さんさんくど}の{盃|さかずき}を{行|おこな}った。",
+      "japanese": "⟦{新郎|しんろう}{新婦|しんぷ}→新郎新婦：28965_shinroushinpu⟧⟦が→が：00051_ga⟧{三々九度|さんさんくど}⟦の→の：09472_no⟧{盃|さかずき}⟦を→を：00422_wo⟧⟦{行|おこな}った→行う：01238_okonau⟧。",
       "english": "The bride and groom performed the san-san-kudo ceremony of sharing sake cups.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "13677_sakazuki_ex3",
-      "japanese": "{祝|いわ}いの{席|せき}で、{上司|じょうし}から{盃|さかずき}を{受|う}けた。",
+      "japanese": "⟦{祝|いわ}い→祝い：01838_iwai⟧⟦の→の：09472_no⟧⟦{席|せき}→席：02215_seki⟧⟦で→で：00502_de⟧、⟦{上司|じょうし}→上司：03286_joushi⟧⟦から→から：00504_kara⟧{盃|さかずき}⟦を→を：00422_wo⟧⟦{受|う}けた→受ける：01215_ukeru⟧。",
       "english": "At the celebration, I received a sake cup from my boss.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,26 @@
       ]
     }
   ],
-  "notes": "USAGE:\nCarries a formal, ceremonial nuance. The phrase {盃|さかずき}を{交|か}わす (to exchange cups) implies forming a bond or pledge — historically used in rituals of loyalty, brotherhood, or marriage. In everyday drinking, {おちょこ} or {猪口|ちょこ} is more common for the small cup.\n\nKANJI:\nThe character {盃|さかずき} combines {不|ふ} and {皿|さら} (dish). An older form {杯|はい} exists and is used in counting cups ({一杯|いっぱい}).\n\nCOMMON COLLOCATIONS:\n- {盃|さかずき}を{交|か}わす: to exchange cups (pledge/bond)\n- {盃|さかずき}を{受|う}ける: to receive a cup (from a superior)\n- {盃|さかずき}を{返|かえ}す: to return a cup\n- {三々九度|さんさんくど}の{盃|さかずき}: wedding sake ceremony",
-  "cross_references": [],
+  "notes": "USAGE:\nCarries a formal, ceremonial nuance. The phrase {盃|さかずき}⟦を→を：00422_wo⟧⟦{交|か}わす→交わす：19373_kawasu⟧ (to exchange cups) implies forming a bond or pledge — historically used in rituals of loyalty, brotherhood, or marriage. In everyday drinking, おちょこ or {猪口|ちょこ} is more common for the small cup.\n\nWRITING:\nThe character {盃|さかずき} combines {不|ふ} and ⟦{皿|さら}→皿：00883_sara⟧ (dish). An older form ⟦{杯|はい}→杯：00933_hai⟧ exists and is used in counting cups (⟦{一杯|いっぱい}→一杯：01793_ippai⟧).\n\nCOMMON COLLOCATIONS:\n- {盃|さかずき}⟦を→を：00422_wo⟧⟦{交|か}わす→交わす：19373_kawasu⟧: to exchange cups (pledge/bond)\n- {盃|さかずき}⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧: to receive a cup (from a superior)\n- {盃|さかずき}⟦を→を：00422_wo⟧⟦{返|かえ}す→返す：09648_kaesu⟧: to return a cup\n- {三々九度|さんさんくど}⟦の→の：09472_no⟧{盃|さかずき}: wedding sake ceremony",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00076_gurasu",
+      "reading": "ぐらす",
+      "headword": "グラス",
+      "label": "glass (drinking), glasses (eyewear)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29944_guinomi",
+      "reading": "ぐいのみ",
+      "headword": "ぐい{呑|の}み",
+      "label": "sake cup"
+    }
+  ],
   "metadata": {
     "created": "2026-02-26T12:52:15Z",
-    "modified": "2026-08-26T13:02:00Z",
+    "modified": "2026-09-02T04:01:34Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

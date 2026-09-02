@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "15690_kagayakashii_ex1",
-      "japanese": "{輝|かがや}かしい{未来|みらい}が{待|ま}っている。",
+      "japanese": "{輝|かがや}かしい⟦{未来|みらい}→未来：03748_mirai⟧⟦が→が：00051_ga⟧⟦{待|ま}っている→待つ：00469_matsu⟧。",
       "english": "A brilliant future awaits.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "15690_kagayakashii_ex2",
-      "japanese": "{彼|かれ}には{輝|かがや}かしい{経歴|けいれき}がある。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{輝|かがや}かしい⟦{経歴|けいれき}→経歴：13795_keireki⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "He has a distinguished career.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "15690_kagayakashii_ex3",
-      "japanese": "このチームは{過去|かこ}に{輝|かがや}かしい{成績|せいせき}を{残|のこ}してきた。",
+      "japanese": "⟦この→この：00962_kono⟧⟦チーム→チーム：03858_chiimu⟧⟦は→は：00079_ha⟧⟦{過去|かこ}→過去：00152_kako⟧⟦に→に：00314_ni⟧{輝|かがや}かしい⟦{成績|せいせき}→成績：03379_seiseki⟧⟦を→を：00422_wo⟧⟦{残|のこ}して→残す：01975_nokosu⟧きた。",
       "english": "This team has left behind a brilliant track record.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA formal and laudatory adjective derived from the verb {輝|かがや}く (to shine). Commonly used in speeches, news, and formal writing to praise achievements, careers, or promising futures.\n\nCOMMON COLLOCATIONS:\n- {輝|かがや}かしい{実績|じっせき} (brilliant achievements)\n- {輝|かがや}かしい{未来|みらい} (a radiant future)\n- {輝|かがや}かしい{経歴|けいれき} (a distinguished career)\n- {輝|かがや}かしい{歴史|れきし} (a glorious history)\n\nSIMILAR WORDS:\n- {華|はな}やか: gorgeous, glamorous (visual or social brilliance)\n- {素晴|すば}らしい: wonderful, splendid (broader, more everyday)",
+  "notes": "USAGE:\nA formal and laudatory adjective derived from the verb ⟦{輝|かがや}く→輝く：02032_kagayaku⟧ (to shine). Commonly used in speeches, news, and formal writing to praise achievements, careers, or promising futures.\n\nCOMMON COLLOCATIONS:\n- {輝|かがや}かしい⟦{実績|じっせき}→実績：04214_jisseki⟧ (brilliant achievements)\n- {輝|かがや}かしい⟦{未来|みらい}→未来：03748_mirai⟧ (a radiant future)\n- {輝|かがや}かしい⟦{経歴|けいれき}→経歴：13795_keireki⟧ (a distinguished career)\n- {輝|かがや}かしい⟦{歴史|れきし}→歴史：02267_rekishi⟧ (a glorious history)\n\nSIMILAR WORDS:\n- ⟦{華|はな}やか→華やか：06070_hanayaka⟧: gorgeous, glamorous (visual or social brilliance)\n- ⟦{素晴|すば}らしい→素晴らしい：01119_subarashii⟧: wonderful, splendid (broader, more everyday)",
   "cross_references": [
     {
       "type": "related",
@@ -59,11 +59,18 @@
       "reading": "すばらしい",
       "headword": "{素晴|すば}らしい",
       "label": "wonderful (everyday)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06070_hanayaka",
+      "reading": "はなやか",
+      "headword": "{華|はな}やか",
+      "label": "gorgeous, glamorous"
     }
   ],
   "metadata": {
     "created": "2026-03-08T07:36:01Z",
-    "modified": "2026-05-01T10:15:30Z",
+    "modified": "2026-09-02T04:01:42Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

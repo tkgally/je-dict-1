@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "09739_getsugaku_ex1",
-      "japanese": "{月額|げつがく}500{円|えん}で{利用|りよう}できる。",
+      "japanese": "{月額|げつがく}500⟦{円|えん}→円：00774_en⟧⟦で→で：00502_de⟧⟦{利用|りよう}できる→利用する：21735_riyousuru⟧。",
       "english": "You can use it for 500 yen per month.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "09739_getsugaku_ex2",
-      "japanese": "{月額|げつがく}{料金|りょうきん}はいくらですか？",
+      "japanese": "{月額|げつがく}⟦{料金|りょうきん}→料金：03797_ryoukin⟧⟦は→は：00079_ha⟧いくらです⟦か→か：09473_ka⟧？",
       "english": "How much is the monthly fee?",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "09739_getsugaku_ex3",
-      "japanese": "サブスクの{月額|げつがく}を{見直|みなお}したら、{結構|けっこう}{節約|せつやく}できた。",
+      "japanese": "⟦サブスク→サブスク：05396_sabusuku⟧⟦の→の：09472_no⟧{月額|げつがく}⟦を→を：00422_wo⟧⟦{見直|みなお}したら→見直す：04579_minaosu⟧、⟦{結構|けっこう}→結構：10387_kekkou⟧⟦{節約|せつやく}→節約：03302_setsuyaku⟧⟦できた→できる：00557_dekiru⟧。",
       "english": "When I reviewed my monthly subscription fees, I was able to save quite a bit.",
       "notes": null,
       "has_audio": false,
@@ -43,10 +43,10 @@
       ]
     }
   ],
-  "notes": "{月額|げつがく} combines {月|げつ} (month) + {額|がく} (amount). Very common in subscription and pricing contexts.\n\nCOMMON COLLOCATIONS:\n- {月額|げつがく}{料金|りょうきん}: monthly fee\n- {月額|げつがく}プラン: monthly plan\n- {月額|げつがく}{制|せい}: monthly billing system\n- {月額|げつがく}○○{円|えん}: ○○ yen per month\n\nUSAGE:\nOften used adverbially to modify an amount: {月額|げつがく}500{円|えん} (500 yen/month). Very common in advertisements, contracts, and service descriptions.\n\nRELATED TERMS:\n- {年額|ねんがく}: annual amount\n- {日額|にちがく}: daily amount\n- {定額|ていがく}: flat rate, fixed amount\n- サブスク: subscription (abbreviation of サブスクリプション)",
+  "notes": "{月額|げつがく} combines {月|げつ} (month) + ⟦{額|がく}→額：02607_gaku⟧ (amount). Very common in subscription and pricing contexts.\n\nCOMMON COLLOCATIONS:\n- {月額|げつがく}⟦{料金|りょうきん}→料金：03797_ryoukin⟧: monthly fee\n- {月額|げつがく}⟦プラン→プラン：00345_puran⟧: monthly plan\n- {月額|げつがく}⟦{制|せい}→〜制：30791_sei⟧: monthly billing system\n- {月額|げつがく}○○⟦{円|えん}→円：00774_en⟧: ○○ yen per month\n\nUSAGE:\nOften used adverbially to modify an amount: {月額|げつがく}500⟦{円|えん}→円：00774_en⟧ (500 yen/month). Very common in advertisements, contracts, and service descriptions.\n\nRELATED WORDS:\n- ⟦{年額|ねんがく}→年額：22568_nengaku⟧: annual amount\n- {日額|にちがく}: daily amount\n- ⟦{定額|ていがく}→定額：09740_teigaku⟧: flat rate, fixed amount\n- ⟦サブスク→サブスク：05396_sabusuku⟧: subscription (abbreviation of ⟦サブスクリプション→サブスクリプション：08617_sabusukuripushon⟧)",
   "metadata": {
     "created": "2026-02-03T07:21:36Z",
-    "modified": "2026-06-24T18:40:49Z",
+    "modified": "2026-09-02T04:01:19Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -81,6 +81,13 @@
       "reading": "つかいほうだい",
       "headword": "{使|つか}い{放題|ほうだい}",
       "label": "unlimited use"
+    },
+    {
+      "type": "related",
+      "target_id": "05396_sabusuku",
+      "reading": "さぶすく",
+      "headword": "サブスク",
+      "label": "subscription"
     }
   ]
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26171_kyouan_ex1",
-      "japanese": "{明日|あした}の{教案|きょうあん}を{作|つく}った。",
+      "japanese": "⟦{明日|あした}→明日：00501_ashita⟧⟦の→の：09472_no⟧{教案|きょうあん}⟦を→を：00422_wo⟧⟦{作|つく}った→作る：00481_tsukuru⟧。",
       "english": "I prepared the lesson plan for tomorrow.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26171_kyouan_ex2",
-      "japanese": "{教案|きょうあん}に{沿|そ}って{授業|じゅぎょう}を{進|すす}めた。",
+      "japanese": "{教案|きょうあん}⟦に→に：00314_ni⟧⟦{沿|そ}って→沿う：13279_sou⟧⟦{授業|じゅぎょう}→授業：00781_jugyou⟧⟦を→を：00422_wo⟧⟦{進|すす}めた→進める：01949_susumeru⟧。",
       "english": "I conducted the class following the lesson plan.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26171_kyouan_ex3",
-      "japanese": "{新任|しんにん}の{先生|せんせい}は{毎日|まいにち}{教案|きょうあん}を{書|か}くのに{何時間|なんじかん}もかかる。",
+      "japanese": "{新任|しんにん}⟦の→の：09472_no⟧⟦{先生|せんせい}→先生：00609_sensei⟧⟦は→は：00079_ha⟧⟦{毎日|まいにち}→毎日：00729_mainichi⟧{教案|きょうあん}⟦を→を：00422_wo⟧⟦{書|か}く→書く：00477_kaku⟧⟦の→の：09472_no⟧⟦に→に：00314_ni⟧⟦{何時間|なんじかん}→何時間：30372_nanjikan⟧⟦も→も：00484_mo⟧⟦かかる→かかる：00711_kakaru⟧。",
       "english": "The new teacher spends hours writing lesson plans every day.",
       "sense_numbers": [
         1
@@ -44,8 +44,30 @@
       "notes": null
     }
   ],
-  "notes": "A {教案|きょうあん} is the formal plan a teacher writes before class, detailing objectives, timing, materials, and activities. In Japan, student teachers and new teachers are typically required to prepare detailed lesson plans for supervisor review.\n\nCOMMON COLLOCATIONS:\n- {教案|きょうあん}を{作成|さくせい}する — to create a lesson plan\n- {教案|きょうあん}を{提出|ていしゅつ}する — to submit a lesson plan\n- {教案|きょうあん}を{見直|みなお}す — to review a lesson plan\n- {略案|りゃくあん} — abbreviated lesson plan\n\nSIMILAR WORDS:\n- {指導案|しどうあん} — instructional plan (more formal; the official term used in Japanese education)\n- {授業計画|じゅぎょうけいかく} — class plan (broader, may cover a full course)\n- カリキュラム — curriculum (the overall program of study)",
-  "cross_references": [],
+  "notes": "A {教案|きょうあん} is the formal plan a teacher writes before class, detailing objectives, timing, materials, and activities. In Japan, student teachers and new teachers are typically required to prepare detailed lesson plans for supervisor review.\n\nCOMMON COLLOCATIONS:\n- {教案|きょうあん}⟦を→を：00422_wo⟧⟦{作成|さくせい}する→作成する：25378_sakuseisuru⟧ — to create a lesson plan\n- {教案|きょうあん}⟦を→を：00422_wo⟧⟦{提出|ていしゅつ}する→提出する：19644_teishutsusuru⟧ — to submit a lesson plan\n- {教案|きょうあん}⟦を→を：00422_wo⟧⟦{見直|みなお}す→見直す：04579_minaosu⟧ — to review a lesson plan\n- {略案|りゃくあん} — abbreviated lesson plan\n\nSIMILAR WORDS:\n- ⟦{指導案|しどうあん}→指導案：16670_shidouan⟧ — instructional plan (more formal; the official term used in Japanese education)\n- ⟦{授業計画|じゅぎょうけいかく}→授業計画：24023_jugyoukeikaku⟧ — class plan (broader, may cover a full course)\n- ⟦カリキュラム→カリキュラム：10947_karikyuramu⟧ — curriculum (the overall program of study)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16670_shidouan",
+      "reading": "しどうあん",
+      "headword": "{指導案|しどうあん}",
+      "label": "instructional plan (more formal"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24023_jugyoukeikaku",
+      "reading": "じゅぎょうけいかく",
+      "headword": "{授業計画|じゅぎょうけいかく}",
+      "label": "class plan"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10947_karikyuramu",
+      "reading": "かりきゅらむ",
+      "headword": "カリキュラム",
+      "label": "curriculum"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,11 +75,12 @@
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "education"
       ]
     },
     "created": "2026-04-29T16:28:54Z",
-    "modified": "2026-04-29T16:28:54Z"
+    "modified": "2026-09-02T04:02:25Z"
   }
 }

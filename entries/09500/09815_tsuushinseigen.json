@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "09815_tsuushinseigen_ex1",
-      "japanese": "{通信|つうしん}{制限|せいげん}がかかった。",
+      "japanese": "{通信|つうしん}{制限|せいげん}⟦が→が：00051_ga⟧⟦かかった→かかる：00711_kakaru⟧。",
       "english": "I hit my data cap.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "09815_tsuushinseigen_ex2",
-      "japanese": "{月末|げつまつ}はいつも{通信|つうしん}{制限|せいげん}になる。",
+      "japanese": "⟦{月末|げつまつ}→月末：00070_getsumatsu⟧⟦は→は：00079_ha⟧⟦いつも→いつも：00599_itsumo⟧{通信|つうしん}{制限|せいげん}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧。",
       "english": "I always get throttled at the end of the month.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "09815_tsuushinseigen_ex3",
-      "japanese": "{動画|どうが}を{見|み}すぎて{通信|つうしん}{制限|せいげん}にひっかかった。",
+      "japanese": "⟦{動画|どうが}→動画：04443_douga⟧⟦を→を：00422_wo⟧⟦{見|み}→見る：00283_miru⟧すぎて{通信|つうしん}{制限|せいげん}⟦に→に：00314_ni⟧ひっかかった。",
       "english": "I watched too many videos and got data throttled.",
       "notes": null,
       "has_audio": false,
@@ -43,10 +43,26 @@
       ]
     }
   ],
-  "notes": "{通信|つうしん}{制限|せいげん} typically reduces speeds to 128kbps or lower once you exceed your data plan limit. Users often try to avoid this by using Wi-Fi or purchasing additional data.\n\nCOMMON COLLOCATIONS:\n- {通信|つうしん}{制限|せいげん}がかかる (to get data throttled)\n- {通信|つうしん}{制限|せいげん}を{解除|かいじょ}する (to remove data throttling)\n- {通信|つうしん}{制限|せいげん}{中|ちゅう} (currently throttled)\n\nRELATED TERMS:\n- ギガ: data (colloquial, from gigabyte)\n- {使|つか}い{放題|ほうだい}: unlimited use\n- {追加|ついか}データ: additional data",
+  "notes": "{通信|つうしん}{制限|せいげん} typically reduces speeds to 128kbps or lower once you exceed your data plan limit. Users often try to avoid this by using Wi-Fi or purchasing additional data.\n\nCOMMON COLLOCATIONS:\n- {通信|つうしん}{制限|せいげん}⟦が→が：00051_ga⟧⟦かかる→かかる：00711_kakaru⟧ (to get data throttled)\n- {通信|つうしん}{制限|せいげん}⟦を→を：00422_wo⟧⟦{解除|かいじょ}する→解除する：26843_kaijosuru⟧ (to remove data throttling)\n- {通信|つうしん}{制限|せいげん}⟦{中|ちゅう}→〜中：09840_chuu⟧ (currently throttled)\n\nRELATED WORDS:\n- ギガ: data (colloquial, from gigabyte)\n- ⟦{使|つか}い{放題|ほうだい}→使い放題：09741_tsukaihoudai⟧: unlimited use\n- ⟦{追加|ついか}→追加：04060_tsuika⟧⟦データ→データ：03944_deeta⟧: additional data",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "09741_tsukaihoudai",
+      "reading": "つかいほうだい",
+      "headword": "{使|つか}い{放題|ほうだい}",
+      "label": "unlimited use"
+    },
+    {
+      "type": "related",
+      "target_id": "09817_tezaringu",
+      "reading": "てざりんぐ",
+      "headword": "テザリング",
+      "label": "tethering"
+    }
+  ],
   "metadata": {
     "created": "2026-02-03T12:23:06Z",
-    "modified": "2026-06-26T03:27:23Z",
+    "modified": "2026-09-02T04:01:19Z",
     "ai_model": "claude-opus-4-5-20251101",
     "vocabulary_tier": "general",
     "tags": {

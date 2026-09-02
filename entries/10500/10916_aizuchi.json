@@ -15,41 +15,60 @@
   "examples": [
     {
       "id": "10916_aizuchi_ex1",
-      "japanese": "{相槌|あいづち}を{打|う}つ。",
+      "japanese": "{相槌|あいづち}⟦を→を：00422_wo⟧⟦{打|う}つ→打つ：01221_utsu⟧。",
       "english": "To give back-channel responses.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10916_aizuchi_ex2",
-      "japanese": "{話|はなし}を{聞|き}きながら{相槌|あいづち}を{打|う}った。",
+      "japanese": "⟦{話|はなし}→話：01496_hanashi⟧⟦を→を：00422_wo⟧⟦{聞|き}き→聞く：00483_kiku⟧⟦ながら→ながら：10530_nagara⟧{相槌|あいづち}⟦を→を：00422_wo⟧⟦{打|う}った→打つ：01221_utsu⟧。",
       "english": "I gave verbal nods while listening to the story.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10916_aizuchi_ex3",
-      "japanese": "{日本語|にほんご}の{会話|かいわ}では、{適度|てきど}に{相槌|あいづち}を{打|う}つことが{大切|たいせつ}だ。",
+      "japanese": "⟦{日本語|にほんご}→日本語：00614_nihongo⟧⟦の→の：09472_no⟧⟦{会話|かいわ}→会話：01271_kaiwa⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧、⟦{適度|てきど}→適度：03441_tekido⟧⟦に→に：00314_ni⟧{相槌|あいづち}⟦を→を：00422_wo⟧⟦{打|う}つ→打つ：01221_utsu⟧こと⟦が→が：00051_ga⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧だ。",
       "english": "In Japanese conversation, it is important to give back-channel responses at appropriate intervals.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "KEY PATTERN:\n{相槌|あいづち}を{打|う}つ is the standard collocation meaning \"to give back-channel responses.\"\n\nETYMOLOGY:\nFrom blacksmithing: {相|あい} (mutual) + {槌|つち} (hammer). Originally referred to the assistant smith striking the metal in rhythm with the master smith, hence the idea of responding in sync with the speaker.\n\nCULTURAL NOTE:\nBack-channeling is far more frequent and important in Japanese conversation than in English. Failure to give {相槌|あいづち} can make the speaker feel ignored. Common responses include うん, ええ, そうですか, なるほど, and へえ.",
-  "cross_references": [],
+  "notes": "KEY PATTERN:\n{相槌|あいづち}⟦を→を：00422_wo⟧⟦{打|う}つ→打つ：01221_utsu⟧ is the standard collocation meaning \"to give back-channel responses.\"\n\nETYMOLOGY:\nFrom blacksmithing: {相|あい} (mutual) + ⟦{槌|つち}→槌：29978_tsuchi⟧ (hammer). Originally referred to the assistant smith striking the metal in rhythm with the master smith, hence the idea of responding in sync with the speaker.\n\nCULTURAL NOTE:\nBack-channeling is far more frequent and important in Japanese conversation than in English. Failure to give {相槌|あいづち} can make the speaker feel ignored. Common responses include うん, ⟦ええ→ええ：02893_ee⟧, そうです⟦か→か：09473_ka⟧, ⟦なるほど→なるほど：01278_naruhodo⟧, and へえ.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "19590_kikiyaku",
+      "reading": "ききやく",
+      "headword": "{聞|き}き{役|やく}",
+      "label": "listener"
+    }
+  ],
   "metadata": {
     "created": "2026-02-11T12:59:52Z",
-    "modified": "2026-02-11T12:59:52Z",
+    "modified": "2026-09-02T04:01:23Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["communication", "culture"]
+      "semantic": [
+        "communication",
+        "culture"
+      ]
     }
   }
 }

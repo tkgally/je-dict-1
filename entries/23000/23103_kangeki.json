@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "23103_kangeki_ex1",
-      "japanese": "{壁|かべ}の{間隙|かんげき}から{光|ひかり}が{漏|も}れている。",
+      "japanese": "⟦{壁|かべ}→壁：01290_kabe⟧⟦の→の：09472_no⟧{間隙|かんげき}⟦から→から：00504_kara⟧⟦{光|ひかり}→光：01707_hikari⟧⟦が→が：00051_ga⟧⟦{漏|も}れている→漏れる：02435_moreru⟧。",
       "english": "Light is leaking through the gap in the wall.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "23103_kangeki_ex2",
-      "japanese": "{敵|てき}の{間隙|かんげき}をつく。",
+      "japanese": "⟦{敵|てき}→敵：03546_teki⟧⟦の→の：09472_no⟧{間隙|かんげき}⟦を→を：00422_wo⟧つく。",
       "english": "To exploit a gap in the enemy's defenses.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "23103_kangeki_ex3",
-      "japanese": "セキュリティの{間隙|かんげき}を{突|つ}かれて、{不正|ふせい}アクセスが{発生|はっせい}した。",
+      "japanese": "⟦セキュリティ→セキュリティ：04867_sekyuriti⟧⟦の→の：09472_no⟧{間隙|かんげき}⟦を→を：00422_wo⟧⟦{突|つ}かれて→突く：12735_tsuku⟧、⟦{不正|ふせい}アクセス→不正アクセス：09964_fuseiakusesu⟧⟦が→が：00051_ga⟧⟦{発生|はっせい}した→発生する：25529_hasseisuru⟧。",
       "english": "An unauthorized access occurred by exploiting a gap in security.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "A formal, literary word for a gap or opening. Composed of {間|かん} (interval; between) and {隙|げき} (gap; crack). Often used in written or formal contexts, and frequently in the figurative sense of exploiting a weakness or opening.\n\nCOMMON COLLOCATIONS:\n- {間隙|かんげき}をつく: to exploit a gap; to take advantage of an opening\n- {間隙|かんげき}を{縫|ぬ}う: to thread through gaps; to navigate openings\n- {間隙|かんげき}が{生|しょう}じる: a gap arises\n- {間隙|かんげき}を{埋|う}める: to fill a gap\n\nSIMILAR WORDS:\n- {隙間|すきま}: gap; crack — the everyday word for a physical gap or space\n- {隙|すき}: opening; unguarded moment — commonly used for an unguarded moment or vulnerability\n- {感激|かんげき}: deep emotion — same reading but completely different meaning (different kanji)",
+  "notes": "A formal, literary word for a gap or opening. Composed of ⟦{間|かん}→〜間：28469_kan⟧ (interval; between) and {隙|げき} (gap; crack). Often used in written or formal contexts, and frequently in the figurative sense of exploiting a weakness or opening.\n\nCOMMON COLLOCATIONS:\n- {間隙|かんげき}⟦を→を：00422_wo⟧つく: to exploit a gap; to take advantage of an opening\n- {間隙|かんげき}⟦を→を：00422_wo⟧⟦{縫|ぬ}う→縫う：00326_nuu⟧: to thread through gaps; to navigate openings\n- {間隙|かんげき}⟦が→が：00051_ga⟧⟦{生|しょう}じる→生じる：02118_shoujiru⟧: a gap arises\n- {間隙|かんげき}⟦を→を：00422_wo⟧⟦{埋|う}める→埋める：01901_umeru⟧: to fill a gap\n\nSIMILAR WORDS:\n- ⟦{隙間|すきま}→隙間：00389_sukima⟧: gap; crack — the everyday word for a physical gap or space\n- ⟦{隙|すき}→隙：10999_suki_gap⟧: opening; unguarded moment — commonly used for an unguarded moment or vulnerability\n- ⟦{感激|かんげき}→感激：00169_kangeki⟧: deep emotion — same reading but completely different meaning (different kanji)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00389_sukima",
+      "reading": "すきま",
+      "headword": "{隙間|すきま}",
+      "label": "gap"
+    },
+    {
+      "type": "homophone",
+      "target_id": "00169_kangeki",
+      "reading": "かんげき",
+      "headword": "{感激|かんげき}",
+      "label": "deep emotion"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +75,6 @@
       ]
     },
     "created": "2026-04-08T18:36:34Z",
-    "modified": "2026-04-10T08:28:27Z"
+    "modified": "2026-09-02T04:02:11Z"
   }
 }

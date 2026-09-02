@@ -15,41 +15,67 @@
   "examples": [
     {
       "id": "14947_takabisha_ex1",
-      "japanese": "あの{店員|てんいん}は{高飛車|たかびしゃ}な{態度|たいど}だ。",
+      "japanese": "⟦あの→あの：00915_ano⟧⟦{店員|てんいん}→店員：00897_tenin⟧⟦は→は：00079_ha⟧{高飛車|たかびしゃ}な⟦{態度|たいど}→態度：03396_taido⟧だ。",
       "english": "That shop clerk has a high-handed attitude.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14947_takabisha_ex2",
-      "japanese": "{高飛車|たかびしゃ}に{命令|めいれい}されると、やる{気|き}がなくなる。",
+      "japanese": "{高飛車|たかびしゃ}⟦に→に：00314_ni⟧⟦{命令|めいれい}される→命令する：26833_meireisuru⟧⟦と→と：00512_to⟧、⟦やる{気|き}→やる気：05089_yaruki⟧⟦が→が：00051_ga⟧なくなる。",
       "english": "When someone bosses me around in a domineering way, I lose motivation.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14947_takabisha_ex3",
-      "japanese": "{彼女|かのじょ}は{初対面|しょたいめん}の{人|ひと}にも{高飛車|たかびしゃ}な{物言|ものい}いをするので、{嫌|きら}われやすい。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧⟦{初対面|しょたいめん}→初対面：07306_shotaimen⟧⟦の→の：09472_no⟧⟦{人|ひと}→人：00476_hito⟧⟦に→に：00314_ni⟧⟦も→も：00484_mo⟧{高飛車|たかびしゃ}な⟦{物言|ものい}い→物言い：13487_monoii⟧⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧⟦の→の：09472_no⟧で、⟦{嫌|きら}われ→嫌う：02048_kirau⟧やすい。",
       "english": "She tends to speak in a domineering way even to people she's meeting for the first time, so she's easily disliked.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "Originally a shogi (Japanese chess) term referring to positioning the rook aggressively high on the board. The word came to describe someone who takes an overbearing, aggressive stance in dealings with others.\n\nCOMMON COLLOCATIONS:\n- {高飛車|たかびしゃ}な{態度|たいど} (a domineering attitude)\n- {高飛車|たかびしゃ}な{物言|ものい}い (high-handed way of speaking)\n- {高飛車|たかびしゃ}に{出|で}る (to act in a domineering manner)\n\nUSAGE NOTE:\nAlways negative. Describes someone who is condescending and pushes others around, regardless of whether their position actually warrants authority.",
-  "cross_references": [],
+  "notes": "Originally a shogi (Japanese chess) term referring to positioning the rook aggressively high on the board. The word came to describe someone who takes an overbearing, aggressive stance in dealings with others.\n\nCOMMON COLLOCATIONS:\n- {高飛車|たかびしゃ}な⟦{態度|たいど}→態度：03396_taido⟧ (a domineering attitude)\n- {高飛車|たかびしゃ}な⟦{物言|ものい}い→物言い：13487_monoii⟧ (high-handed way of speaking)\n- {高飛車|たかびしゃ}⟦に→に：00314_ni⟧⟦{出|で}る→出る：00513_deru⟧ (to act in a domineering manner)\n\nUSAGE:\nAlways negative. Describes someone who is condescending and pushes others around, regardless of whether their position actually warrants authority.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22616_kiguraigatakai",
+      "reading": "きぐらいがたかい",
+      "headword": "{気位|きぐらい}が{高|たか}い",
+      "label": "proud"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27227_omoiagari",
+      "reading": "おもいあがり",
+      "headword": "{思|おも}い{上|あ}がり",
+      "label": "arrogance"
+    }
+  ],
   "metadata": {
     "created": "2026-03-04T07:24:59Z",
-    "modified": "2026-03-04T07:24:59Z",
+    "modified": "2026-09-02T04:01:39Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-na", "noun"],
+      "pos": [
+        "adjective-na",
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["descriptive"]
+      "semantic": [
+        "descriptive"
+      ]
     }
   }
 }

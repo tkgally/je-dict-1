@@ -3,7 +3,7 @@
   "id": "16562_shisatsu",
   "headword": "{視察|しさつ}",
   "reading": "しさつ",
-  "part_of_speech": "noun / verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "inspection; observation tour",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "16562_shisatsu_ex1",
-      "japanese": "{工場|こうじょう}を{視察|しさつ}した。",
+      "japanese": "⟦{工場|こうじょう}→工場：01082_koujou⟧⟦を→を：00422_wo⟧{視察|しさつ}⟦した→する：00392_suru⟧。",
       "english": "We inspected the factory.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "16562_shisatsu_ex2",
-      "japanese": "{大臣|だいじん}が{被災地|ひさいち}を{視察|しさつ}に{訪|おとず}れた。",
+      "japanese": "⟦{大臣|だいじん}→大臣：03417_daijin⟧⟦が→が：00051_ga⟧⟦{被災地|ひさいち}→被災地：27434_hisaichi⟧⟦を→を：00422_wo⟧{視察|しさつ}⟦に→に：00314_ni⟧⟦{訪|おとず}れた→訪れる：07678_otozureru⟧。",
       "english": "The minister visited the disaster-stricken area for an inspection.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "16562_shisatsu_ex3",
-      "japanese": "{海外|かいがい}の{教育|きょういく}{現場|げんば}を{視察|しさつ}して、{多|おお}くの{学|まな}びを{得|え}た。",
+      "japanese": "⟦{海外|かいがい}→海外：00134_kaigai⟧⟦の→の：09472_no⟧⟦{教育|きょういく}→教育：01313_kyouiku⟧⟦{現場|げんば}→現場：02723_genba⟧⟦を→を：00422_wo⟧{視察|しさつ}⟦して→する：00392_suru⟧、{多|おお}く⟦の→の：09472_no⟧{学|まな}び⟦を→を：00422_wo⟧⟦{得|え}た→得る：02014_eru⟧。",
       "english": "I gained many insights from observing educational settings overseas.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA formal word used for official or professional observation visits. The subject is typically someone in a position of authority — a politician, executive, or expert. Not used for casual sightseeing or personal visits.\n\nCOMMON COLLOCATIONS:\n- {視察|しさつ}する (to inspect, to observe)\n- {視察|しさつ}{団|だん} (inspection group, observation delegation)\n- {現地|げんち}{視察|しさつ} (on-site inspection)\n- {視察|しさつ}{報告|ほうこく} (inspection report)\n- {視察|しさつ}に{訪|おとず}れる (to visit for inspection)\n\nSIMILAR WORDS:\n- {見学|けんがく}: study visit — less formal, often educational (e.g., factory tours for students)\n- {調査|ちょうさ}: investigation, survey — broader, includes data collection beyond observation\n- {点検|てんけん}: inspection — checking equipment or items for defects, not observing conditions",
+  "notes": "USAGE:\nA formal word used for official or professional observation visits. The subject is typically someone in a position of authority — a politician, executive, or expert. Not used for casual sightseeing or personal visits.\n\nCOMMON COLLOCATIONS:\n- {視察|しさつ}⟦する→する：00392_suru⟧ (to inspect, to observe)\n- {視察|しさつ}{団|だん} (inspection group, observation delegation)\n- ⟦{現地|げんち}→現地：13502_genchi⟧{視察|しさつ} (on-site inspection)\n- {視察|しさつ}⟦{報告|ほうこく}→報告：03618_houkoku⟧ (inspection report)\n- {視察|しさつ}⟦に→に：00314_ni⟧⟦{訪|おとず}れる→訪れる：07678_otozureru⟧ (to visit for inspection)\n\nSIMILAR WORDS:\n- ⟦{見学|けんがく}→見学：00214_kengaku⟧: study visit — less formal, often educational (e.g., factory tours for students)\n- ⟦{調査|ちょうさ}→調査：03489_chousa⟧: investigation, survey — broader, includes data collection beyond observation\n- ⟦{点検|てんけん}→点検：09765_tenken⟧: inspection — checking equipment or items for defects, not observing conditions",
   "cross_references": [
     {
       "type": "synonym",
@@ -142,11 +142,25 @@
       "reading": "けんがく",
       "headword": "{見学|けんがく}",
       "label": "study visit (less formal)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03489_chousa",
+      "reading": "ちょうさ",
+      "headword": "{調査|ちょうさ}",
+      "label": "investigation, survey"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09765_tenken",
+      "reading": "てんけん",
+      "headword": "{点検|てんけん}",
+      "label": "inspection"
     }
   ],
   "metadata": {
     "created": "2026-03-13T23:56:01Z",
-    "modified": "2026-05-04T07:39:45Z",
+    "modified": "2026-09-02T04:01:45Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -159,7 +173,8 @@
       "semantic": [
         "work"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

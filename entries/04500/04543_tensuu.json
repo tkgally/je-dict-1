@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "04543_tensuu_ex1",
-      "japanese": "⟦{テスト|てすと}→テスト：01065_tesuto⟧⟦の→の：09472_no⟧{点数|てんすう}⟦が→が：00051_ga⟧⟦{良|よ}かった→良い：02350_yoi⟧。",
+      "japanese": "⟦テスト→テスト：01065_tesuto⟧⟦の→の：09472_no⟧{点数|てんすう}⟦が→が：00051_ga⟧⟦{良|よ}かった→良い：02350_yoi⟧。",
       "english": "My test score was good.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{点数|てんすう} refers to numerical scores or points in various contexts.\n\nCOMMON EXPRESSIONS:\n- {点数|てんすう}⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧: to get a score\n- {点数|てんすう}⟦を→を：00422_wo⟧⟦{稼|かせ}ぐ→稼ぐ：02040_kasegu⟧: to earn points\n- ⟦{満点|まんてん}→満点：03156_manten⟧: perfect score\n- ⟦{高|たか}い→高い：00500_takai⟧⟦{得点|とくてん}→得点：04909_tokuten⟧: high score\n- ⟦{合計|ごうけい}→合計：02817_goukei⟧{点数|てんすう}: total score\n\nUSAGE NOTE:\nAlso used figuratively for \"points\" in relationships or social standing.\n\nRELATED WORDS:\n- ⟦{得点|とくてん}→得点：04909_tokuten⟧: score, points earned\n- ⟦スコア→スコア：28557_sukoa⟧: score",
+  "notes": "{点数|てんすう} refers to numerical scores or points in various contexts.\n\nCOMMON EXPRESSIONS:\n- {点数|てんすう}⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧: to get a score\n- {点数|てんすう}⟦を→を：00422_wo⟧⟦{稼|かせ}ぐ→稼ぐ：02040_kasegu⟧: to earn points\n- ⟦{満点|まんてん}→満点：03156_manten⟧: perfect score\n- ⟦{高|たか}い→高い：00500_takai⟧⟦{得点|とくてん}→得点：04909_tokuten⟧: high score\n- ⟦{合計|ごうけい}→合計：02817_goukei⟧{点数|てんすう}: total score\n\nUSAGE:\nAlso used figuratively for \"points\" in relationships or social standing.\n\nRELATED WORDS:\n- ⟦{得点|とくてん}→得点：04909_tokuten⟧: score, points earned\n- ⟦スコア→スコア：28557_sukoa⟧: score",
   "cross_references": [
     {
       "type": "synonym",
@@ -58,11 +58,32 @@
       "reading": "てん",
       "headword": "{点|てん}",
       "label": "point, score (counter)"
+    },
+    {
+      "type": "related",
+      "target_id": "28557_sukoa",
+      "reading": "すこあ",
+      "headword": "スコア",
+      "label": "score"
+    },
+    {
+      "type": "related",
+      "target_id": "04160_saiten",
+      "reading": "さいてん",
+      "headword": "{採点|さいてん}",
+      "label": "grading, marking, scoring"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19290_kosuu",
+      "reading": "こすう",
+      "headword": "{個数|こすう}",
+      "label": "number of items"
     }
   ],
   "metadata": {
     "created": "2026-01-14T00:33:36Z",
-    "modified": "2026-08-16T03:20:35Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

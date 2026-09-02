@@ -15,42 +15,62 @@
   "examples": [
     {
       "id": "14981_fushouji_ex1",
-      "japanese": "{会社|かいしゃ}の{不祥事|ふしょうじ}が{発覚|はっかく}した。",
+      "japanese": "⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦の→の：09472_no⟧{不祥事|ふしょうじ}⟦が→が：00051_ga⟧⟦{発覚|はっかく}した→発覚する：15423_hakkakusuru⟧。",
       "english": "A corporate scandal came to light.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14981_fushouji_ex2",
-      "japanese": "{不祥事|ふしょうじ}を{起|お}こした{社員|しゃいん}は{懲戒|ちょうかい}{処分|しょぶん}を{受|う}けた。",
+      "japanese": "{不祥事|ふしょうじ}⟦を→を：00422_wo⟧⟦{起|お}こした→起こす：01234_okosu⟧⟦{社員|しゃいん}→社員：03065_shain⟧⟦は→は：00079_ha⟧⟦{懲戒|ちょうかい}→懲戒：09469_choukai⟧⟦{処分|しょぶん}→処分：05520_shobun⟧⟦を→を：00422_wo⟧⟦{受|う}けた→受ける：01215_ukeru⟧。",
       "english": "The employee who caused the scandal received disciplinary action.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14981_fushouji_ex3",
-      "japanese": "{相次|あいつ}ぐ{不祥事|ふしょうじ}により、その{政党|せいとう}の{支持率|しじりつ}は{大幅|おおはば}に{低下|ていか}した。",
+      "japanese": "⟦{相次|あいつ}ぐ→相次ぐ：14869_aitsugu⟧{不祥事|ふしょうじ}⟦に→に：00314_ni⟧⟦より→より：09476_yori⟧、⟦その→その：00993_sono⟧⟦{政党|せいとう}→政党：04338_seitou⟧⟦の→の：09472_no⟧⟦{支持率|しじりつ}→支持率：17086_shijiritsu⟧⟦は→は：00079_ha⟧⟦{大幅|おおはば}→大幅：12170_oohaba⟧⟦に→に：00314_ni⟧⟦{低下|ていか}→低下：04065_teika⟧⟦した→する：00392_suru⟧。",
       "english": "Due to a series of scandals, the political party's approval rating dropped significantly.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "A compound of {不祥|ふしょう} (inauspicious, disgraceful) and {事|じ} (matter, incident). A formal word frequently used in news and official statements.\n\nTypically refers to misconduct by organizations or public figures, not personal scandals among private individuals. Common contexts include corporate fraud, political corruption, and institutional cover-ups.\n\nCOMMON COLLOCATIONS:\n- {不祥事|ふしょうじ}が{発覚|はっかく}する (a scandal comes to light)\n- {不祥事|ふしょうじ}を{起|お}こす (to cause a scandal)\n- {不祥事|ふしょうじ}を{隠蔽|いんぺい}する (to cover up a scandal)\n- {相次|あいつ}ぐ{不祥事|ふしょうじ} (a string of scandals)\n- {不祥事|ふしょうじ}の{責任|せきにん}を{取|と}る (to take responsibility for a scandal)",
-  "cross_references": [],
+  "notes": "A compound of {不祥|ふしょう} (inauspicious, disgraceful) and {事|じ} (matter, incident). A formal word frequently used in news and official statements.\n\nTypically refers to misconduct by organizations or public figures, not personal scandals among private individuals. Common contexts include corporate fraud, political corruption, and institutional cover-ups.\n\nCOMMON COLLOCATIONS:\n- {不祥事|ふしょうじ}⟦が→が：00051_ga⟧⟦{発覚|はっかく}する→発覚する：15423_hakkakusuru⟧ (a scandal comes to light)\n- {不祥事|ふしょうじ}⟦を→を：00422_wo⟧⟦{起|お}こす→起こす：01234_okosu⟧ (to cause a scandal)\n- {不祥事|ふしょうじ}⟦を→を：00422_wo⟧⟦{隠蔽|いんぺい}→隠蔽：07627_inpei⟧⟦する→する：00392_suru⟧ (to cover up a scandal)\n- ⟦{相次|あいつ}ぐ→相次ぐ：14869_aitsugu⟧{不祥事|ふしょうじ} (a string of scandals)\n- {不祥事|ふしょうじ}⟦の→の：09472_no⟧⟦{責任|せきにん}→責任：03298_sekinin⟧⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧ (to take responsibility for a scandal)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25084_fuseikoui",
+      "reading": "ふせいこうい",
+      "headword": "{不正行為|ふせいこうい}",
+      "label": "misconduct"
+    }
+  ],
   "metadata": {
     "created": "2026-03-04T08:07:18Z",
-    "modified": "2026-03-04T08:07:18Z",
+    "modified": "2026-09-02T04:01:39Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"],
-      "style": ["written"]
+      "semantic": [
+        "general"
+      ],
+      "style": [
+        "written"
+      ]
     }
   }
 }

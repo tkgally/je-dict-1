@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "16732_kannushi_ex1",
-      "japanese": "{神主|かんぬし}が{祝詞|のりと}をあげた。",
+      "japanese": "{神主|かんぬし}⟦が→が：00051_ga⟧⟦{祝詞|のりと}→祝詞：30669_norito⟧⟦を→を：00422_wo⟧⟦あげた→あげる：00546_ageru⟧。",
       "english": "The Shinto priest recited a prayer.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "16732_kannushi_ex2",
-      "japanese": "{神社|じんじゃ}の{神主|かんぬし}にお{祓|はら}いをしてもらった。",
+      "japanese": "⟦{神社|じんじゃ}→神社：01620_jinja⟧⟦の→の：09472_no⟧{神主|かんぬし}⟦に→に：00314_ni⟧⟦お{祓|はら}い→お祓い：15835_oharai⟧⟦を→を：00422_wo⟧⟦して→する：00392_suru⟧⟦もらった→もらう：00520_morau⟧。",
       "english": "I had the shrine priest perform a purification ritual for me.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "16732_kannushi_ex3",
-      "japanese": "{代々|だいだい}{神主|かんぬし}を{務|つと}める{家系|かけい}だ。",
+      "japanese": "⟦{代々|だいだい}→代々：05899_daidai⟧{神主|かんぬし}⟦を→を：00422_wo⟧⟦{務|つと}める→務める：10446_tsutomeru⟧⟦{家系|かけい}→家系：10130_kakei⟧だ。",
       "english": "It is a family line that has served as Shinto priests for generations.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "A Shinto priest who serves at a {神社|じんじゃ} (shrine), performing rituals, prayers, and ceremonies. This is the most common everyday term for a shrine priest.\n\nETYMOLOGY:\n{神|かん} (god/deity) + {主|ぬし} (master/owner). Literally \"master of the gods\" — the person responsible for serving the shrine's deity.\n\nCOMMON EXPRESSIONS:\n- {神主|かんぬし}に{祝詞|のりと}をあげてもらう: have the priest recite prayers\n- {神主|かんぬし}にお{祓|はら}いをしてもらう: have the priest perform purification\n\nRELATED TERMS:\n- {宮司|ぐうじ}: chief priest of a shrine (formal title used in shrine hierarchy)\n- {神職|しんしょく}: Shinto clergy (collective/formal term)\n- {巫女|みこ}: shrine maiden\n- {住職|じゅうしょく}: Buddhist temple priest (different religion)\n\n{神主|かんぬし} is casual/everyday; {宮司|ぐうじ} is the official title within the shrine ranking system.",
+  "notes": "A Shinto priest who serves at a ⟦{神社|じんじゃ}→神社：01620_jinja⟧ (shrine), performing rituals, prayers, and ceremonies. This is the most common everyday term for a shrine priest.\n\nETYMOLOGY:\n{神|かん} (god/deity) + ⟦{主|ぬし}→主：30578_nushi⟧ (master/owner). Literally \"master of the gods\" — the person responsible for serving the shrine's deity.\n\nCOMMON EXPRESSIONS:\n- {神主|かんぬし}⟦に→に：00314_ni⟧⟦{祝詞|のりと}→祝詞：30669_norito⟧⟦を→を：00422_wo⟧⟦あげて→あげる：00546_ageru⟧⟦もらう→もらう：00520_morau⟧: have the priest recite prayers\n- {神主|かんぬし}⟦に→に：00314_ni⟧⟦お{祓|はら}い→お祓い：15835_oharai⟧⟦を→を：00422_wo⟧⟦して→する：00392_suru⟧⟦もらう→もらう：00520_morau⟧: have the priest perform purification\n\nRELATED WORDS:\n- ⟦{宮司|ぐうじ}→宮司：12654_guuji⟧: chief priest of a shrine (formal title used in shrine hierarchy)\n- ⟦{神職|しんしょく}→神職：20491_shinshoku⟧: Shinto clergy (collective/formal term)\n- ⟦{巫女|みこ}→巫女：12408_miko⟧: shrine maiden\n- ⟦{住職|じゅうしょく}→住職：15520_juushoku⟧: Buddhist temple priest (different religion)\n\n{神主|かんぬし} is casual/everyday; ⟦{宮司|ぐうじ}→宮司：12654_guuji⟧ is the official title within the shrine ranking system.",
   "cross_references": [
     {
       "type": "related",
@@ -66,11 +66,32 @@
       "reading": "じゅうしょく",
       "headword": "{住職|じゅうしょく}",
       "label": "Buddhist priest"
+    },
+    {
+      "type": "related",
+      "target_id": "20491_shinshoku",
+      "reading": "しんしょく",
+      "headword": "{神職|しんしょく}",
+      "label": "Shinto clergy"
+    },
+    {
+      "type": "related",
+      "target_id": "09586_shintou",
+      "reading": "しんとう",
+      "headword": "{神道|しんとう}",
+      "label": "Shinto"
+    },
+    {
+      "type": "related",
+      "target_id": "24980_negi",
+      "reading": "ねぎ",
+      "headword": "{禰宜|ねぎ}",
+      "label": "senior Shinto priest"
     }
   ],
   "metadata": {
     "created": "2026-03-14T04:25:57Z",
-    "modified": "2026-07-21T06:41:24Z",
+    "modified": "2026-09-02T04:01:46Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

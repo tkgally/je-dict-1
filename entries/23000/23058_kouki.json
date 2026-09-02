@@ -15,40 +15,73 @@
   "examples": [
     {
       "id": "23058_kouki_ex1",
-      "japanese": "{花|はな}の{香気|こうき}が{漂|ただよ}う。",
+      "japanese": "⟦{花|はな}→花：00523_hana⟧⟦の→の：09472_no⟧{香気|こうき}⟦が→が：00051_ga⟧⟦{漂|ただよ}う→漂う：04356_tadayou⟧。",
       "english": "The fragrance of flowers drifts through the air.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "23058_kouki_ex2",
-      "japanese": "このワインは{豊|ゆた}かな{香気|こうき}を{放|はな}っている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦ワイン→ワイン：01067_wain⟧⟦は→は：00079_ha⟧⟦{豊|ゆた}か→豊か：03654_yutaka⟧な{香気|こうき}⟦を→を：00422_wo⟧⟦{放|はな}っている→放つ：10062_hanatsu⟧。",
       "english": "This wine gives off a rich aroma.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "23058_kouki_ex3",
-      "japanese": "{茶室|ちゃしつ}に{入|はい}ると、{抹茶|まっちゃ}の{香気|こうき}が{部屋|へや}{全体|ぜんたい}に{満|み}ちていた。",
+      "japanese": "⟦{茶室|ちゃしつ}→茶室：14081_chashitsu⟧⟦に→に：00314_ni⟧⟦{入|はい}る→入る：00494_hairu⟧⟦と→と：00512_to⟧、⟦{抹茶|まっちゃ}→抹茶：10574_maccha⟧⟦の→の：09472_no⟧{香気|こうき}⟦が→が：00051_ga⟧⟦{部屋|へや}→部屋：00507_heya⟧⟦{全体|ぜんたい}→全体：03314_zentai⟧⟦に→に：00314_ni⟧⟦{満|み}ちていた→満ちる：02428_michiru⟧。",
       "english": "Upon entering the tea room, the aroma of matcha filled the entire space.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A literary compound of {香|こう} (fragrance) + {気|き} (air/spirit). More elevated than everyday words for smell; primarily found in written language and formal descriptions.\n\nCOMMON COLLOCATIONS:\n- {香気|こうき}が{漂|ただよ}う: fragrance drifts/wafts\n- {香気|こうき}を{放|はな}つ: to give off fragrance\n- {芳醇|ほうじゅん}な{香気|こうき}: a mellow, rich aroma\n- {香気|こうき}に{満|み}ちる: to be filled with fragrance\n\nSIMILAR WORDS:\n- {香|かお}り: scent, fragrance — the most common everyday word for pleasant smell\n- {芳香|ほうこう}: sweet fragrance — literary, similar level of formality\n- {匂|にお}い: smell, scent — neutral; can be pleasant or unpleasant\n- アロマ: aroma — modern loanword, especially for aromatherapy",
+  "notes": "A literary compound of ⟦{香|こう}→香：17307_kou⟧ (fragrance) + ⟦{気|き}→気：02199_ki⟧ (air/spirit). More elevated than everyday words for smell; primarily found in written language and formal descriptions.\n\nCOMMON COLLOCATIONS:\n- {香気|こうき}⟦が→が：00051_ga⟧⟦{漂|ただよ}う→漂う：04356_tadayou⟧: fragrance drifts/wafts\n- {香気|こうき}⟦を→を：00422_wo⟧⟦{放|はな}つ→放つ：10062_hanatsu⟧: to give off fragrance\n- ⟦{芳醇|ほうじゅん}→芳醇：08200_houjun⟧な{香気|こうき}: a mellow, rich aroma\n- {香気|こうき}⟦に→に：00314_ni⟧⟦{満|み}ちる→満ちる：02428_michiru⟧: to be filled with fragrance\n\nSIMILAR WORDS:\n- ⟦{香|かお}り→香り：00189_kaori⟧: scent, fragrance — the most common everyday word for pleasant smell\n- ⟦{芳香|ほうこう}→芳香：13960_houkou⟧: sweet fragrance — literary, similar level of formality\n- ⟦{匂|にお}い→匂い：00874_nioi⟧: smell, scent — neutral; can be pleasant or unpleasant\n- アロマ: aroma — modern loanword, especially for aromatherapy",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00189_kaori",
+      "reading": "かおり",
+      "headword": "{香|かお}り",
+      "label": "scent, fragrance"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13960_houkou",
+      "reading": "ほうこう",
+      "headword": "{芳香|ほうこう}",
+      "label": "sweet fragrance"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00874_nioi",
+      "reading": "におい",
+      "headword": "{匂|にお}い",
+      "label": "smell, scent"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["cognition"]
+      "semantic": [
+        "cognition"
+      ]
     },
     "created": "2026-04-08T17:29:42Z",
-    "modified": "2026-07-31T00:22:50Z"
+    "modified": "2026-09-02T04:02:10Z"
   }
 }

@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "17593_nannin_ex1",
-      "japanese": "{何人|なんにん}{家族|かぞく}ですか？",
+      "japanese": "{何人|なんにん}⟦{家族|かぞく}→家族：00552_kazoku⟧です⟦か→か：09473_ka⟧？",
       "english": "How many people are in your family?",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "17593_nannin_ex2",
-      "japanese": "{今日|きょう}のパーティーには{何人|なんにん}{来|く}る{予定|よてい}ですか？",
+      "japanese": "⟦{今日|きょう}→今日：00496_kyou⟧⟦の→の：09472_no⟧⟦パーティー→パーティー：02946_paatii⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{何人|なんにん}⟦{来|く}る→来る：00254_kuru⟧⟦{予定|よてい}→予定：00824_yotei⟧です⟦か→か：09473_ka⟧？",
       "english": "How many people are expected to come to today's party?",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "17593_nannin_ex3",
-      "japanese": "このクラスには{何人|なんにん}の{留学生|りゅうがくせい}がいますか？",
+      "japanese": "⟦この→この：00962_kono⟧⟦クラス→クラス：01084_kurasu⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{何人|なんにん}⟦の→の：09472_no⟧⟦{留学生|りゅうがくせい}→留学生：02986_ryuugakusei⟧がいます⟦か→か：09473_ka⟧？",
       "english": "How many international students are in this class?",
       "sense_numbers": [
         1
@@ -43,7 +43,30 @@
       "notes": null
     }
   ],
-  "notes": "{何人|なんにん} is the interrogative form of the {人|にん} counter, used to ask about the number of people.\n\nPRONUNCIATION NOTE:\nRead as なんにん (how many people), not なにじん. {何人|なにじん} is a completely different word meaning \"what nationality\" (e.g., {何人|なにじん}ですか = What nationality are you?).\n\nCOMMON PATTERNS:\n- {何人|なんにん}ですか: How many people? (e.g., at restaurants)\n- {何人|なんにん}で: with how many people\n- {何人|なんにん}いる: how many people are there\n- {何人|なんにん}{分|ぶん}: for how many people (portions)\n- {何人|なんにん}{来|く}る: how many people are coming\n\nRELATED COUNTERS:\n- {一人|ひとり}: one person (irregular reading)\n- {二人|ふたり}: two people (irregular reading)\n- {三人|さんにん}〜: three people and above (regular pattern)",
+  "notes": "{何人|なんにん} is the interrogative form of the ⟦{人|にん}→〜人：00658_nin⟧ counter, used to ask about the number of people.\n\nPRONUNCIATION:\nRead as なんにん (how many people), not なにじん. {何人|なにじん} is a completely different word meaning \"what nationality\" (e.g., {何人|なにじん}です⟦か→か：09473_ka⟧ = What nationality are you?).\n\nCOMMON PATTERNS:\n- {何人|なんにん}です⟦か→か：09473_ka⟧: How many people? (e.g., at restaurants)\n- {何人|なんにん}で: with how many people\n- {何人|なんにん}⟦いる→いる：00495_iru⟧: how many people are there\n- {何人|なんにん}⟦{分|ぶん}→分：26216_bun⟧: for how many people (portions)\n- {何人|なんにん}⟦{来|く}る→来る：00254_kuru⟧: how many people are coming\n\nRELATED COUNTERS:\n- ⟦{一人|ひとり}→一人：00630_hitori⟧: one person (irregular reading)\n- ⟦{二人|ふたり}→二人：00622_futari⟧: two people (irregular reading)\n- ⟦{三人|さんにん}→三人：10978_sannin⟧〜: three people and above (regular pattern)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "27468_ikunin",
+      "reading": "いくにん",
+      "headword": "{幾人|いくにん}",
+      "label": "how many people"
+    },
+    {
+      "type": "related",
+      "target_id": "28475_juunin",
+      "reading": "じゅうにん",
+      "headword": "{十|じゅう}{人|にん}",
+      "label": "ten people"
+    },
+    {
+      "type": "related",
+      "target_id": "30569_hachinin",
+      "reading": "はちにん",
+      "headword": "{八人|はちにん}",
+      "label": "eight people"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -51,12 +74,13 @@
         "expression"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "quantity",
         "person"
       ]
     },
     "created": "2026-01-26T13:58:14Z",
-    "modified": "2026-07-24T07:00:08Z"
+    "modified": "2026-09-02T04:01:49Z"
   }
 }

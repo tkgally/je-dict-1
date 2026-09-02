@@ -3,7 +3,7 @@
   "headword": "{占拠|せんきょ}",
   "reading": "せんきょ",
   "romaji": "senkyo",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "occupation; seizure; taking possession",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "18806_senkyo_ex1",
-      "japanese": "デモ{隊|たい}が{広場|ひろば}を{占拠|せんきょ}した。",
+      "japanese": "⟦デモ→デモ：19416_demo⟧⟦{隊|たい}→隊：03383_tai⟧⟦が→が：00051_ga⟧⟦{広場|ひろば}→広場：00104_hiroba⟧⟦を→を：00422_wo⟧{占拠|せんきょ}⟦した→する：00392_suru⟧。",
       "english": "The demonstrators occupied the plaza.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "18806_senkyo_ex2",
-      "japanese": "{武装|ぶそう}グループが{大使館|たいしかん}を{占拠|せんきょ}している。",
+      "japanese": "⟦{武装|ぶそう}→武装：13235_busou⟧⟦グループ→グループ：03840_guruupu⟧⟦が→が：00051_ga⟧⟦{大使館|たいしかん}→大使館：01457_taishikan⟧⟦を→を：00422_wo⟧{占拠|せんきょ}⟦している→する：00392_suru⟧。",
       "english": "An armed group is occupying the embassy.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "18806_senkyo_ex3",
-      "japanese": "{不法|ふほう}{占拠|せんきょ}されていた{建物|たてもの}がようやく{解放|かいほう}された。",
+      "japanese": "⟦{不法|ふほう}→不法：11361_fuhou⟧{占拠|せんきょ}⟦されていた→する：00392_suru⟧⟦{建物|たてもの}→建物：01458_tatemono⟧⟦が→が：00051_ga⟧ようやく⟦{解放|かいほう}→解放：00135_kaihou⟧⟦された→する：00392_suru⟧。",
       "english": "The building that had been illegally occupied was finally freed.",
       "sense_numbers": [
         1
@@ -134,11 +134,34 @@
       "notes": null
     }
   ],
-  "notes": "Not to be confused with the homophone {選挙|せんきょ} (election). {占拠|せんきょ} uses {占|せん} (occupy/seize).\n\nCOMMON COLLOCATIONS:\n- {不法|ふほう}{占拠|せんきょ}: illegal occupation, squatting\n- {武力|ぶりょく}{占拠|せんきょ}: armed seizure\n- {市場|しじょう}を{占拠|せんきょ}する: to dominate a market\n- {建物|たてもの}を{占拠|せんきょ}する: to occupy a building\n\nUSAGE:\nOften appears in news about protests, military actions, or territorial disputes. Can also be used figuratively for market dominance.\n\nRELATED:\n- {占領|せんりょう}: military occupation (larger scale, e.g. a country)\n- {占有|せんゆう}: possession, occupancy (legal term)\n- {制圧|せいあつ}: suppression, gaining control by force",
+  "notes": "Not to be confused with the homophone ⟦{選挙|せんきょ}→選挙：03303_senkyo⟧ (election). {占拠|せんきょ} uses {占|せん} (occupy/seize).\n\nCOMMON COLLOCATIONS:\n- ⟦{不法|ふほう}→不法：11361_fuhou⟧{占拠|せんきょ}: illegal occupation, squatting\n- ⟦{武力|ぶりょく}→武力：13221_buryoku⟧{占拠|せんきょ}: armed seizure\n- ⟦{市場|しじょう}→市場：09685_shijou⟧⟦を→を：00422_wo⟧{占拠|せんきょ}⟦する→する：00392_suru⟧: to dominate a market\n- ⟦{建物|たてもの}→建物：01458_tatemono⟧⟦を→を：00422_wo⟧{占拠|せんきょ}⟦する→する：00392_suru⟧: to occupy a building\n\nUSAGE:\nOften appears in news about protests, military actions, or territorial disputes. Can also be used figuratively for market dominance.\n\nRELATED WORDS:\n- ⟦{占領|せんりょう}→占領：11863_senryou⟧: military occupation (larger scale, e.g. a country)\n- ⟦{占有|せんゆう}→占有：16996_senyuu⟧: possession, occupancy (legal term)\n- ⟦{制圧|せいあつ}→制圧：23059_seiatsu⟧: suppression, gaining control by force",
   "synonyms": [],
   "antonyms": [],
   "related": [],
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "11863_senryou",
+      "reading": "せんりょう",
+      "headword": "{占領|せんりょう}",
+      "label": "military occupation"
+    },
+    {
+      "type": "related",
+      "target_id": "16996_senyuu",
+      "reading": "せんゆう",
+      "headword": "{占有|せんゆう}",
+      "label": "possession, occupancy"
+    },
+    {
+      "type": "related",
+      "target_id": "23059_seiatsu",
+      "reading": "せいあつ",
+      "headword": "{制圧|せいあつ}",
+      "label": "suppression, gaining control by force"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -155,6 +178,6 @@
       "verb_class": "suru"
     },
     "created": "2026-03-23T04:40:29Z",
-    "modified": "2026-03-26T09:48:21Z"
+    "modified": "2026-09-02T04:01:53Z"
   }
 }

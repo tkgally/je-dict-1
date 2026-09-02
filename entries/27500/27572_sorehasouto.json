@@ -3,7 +3,7 @@
   "headword": "それはそうと",
   "reading": "それはそうと",
   "romaji": "sorehasouto",
-  "part_of_speech": "expression",
+  "part_of_speech": "expression, conjunction",
   "gloss": "by the way; that aside; changing the subject",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "27572_sorehasouto_ex1",
-      "japanese": "それはそうと、{元気|げんき}にしてる?",
+      "japanese": "それはそうと、⟦{元気|げんき}→元気：00696_genki⟧にしてる?",
       "english": "By the way, how have you been?",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "27572_sorehasouto_ex2",
-      "japanese": "それはそうと、{今度|こんど}{食事|しょくじ}でも{行|い}かない?",
+      "japanese": "それはそうと、⟦{今度|こんど}→今度：01327_kondo⟧⟦{食事|しょくじ}→食事：02087_shokuji⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧⟦{行|い}かない→行く：00119_iku⟧?",
       "english": "On a different note, want to go out for a meal sometime?",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "27572_sorehasouto_ex3",
-      "japanese": "それはそうと、さっきの{話|はなし}に{戻|もど}っていい?",
+      "japanese": "それはそうと、⟦さっき→さっき：01264_sakki⟧⟦の→の：09472_no⟧⟦{話|はなし}→話：01496_hanashi⟧⟦に→に：00314_ni⟧⟦{戻|もど}って→戻る：01117_modoru⟧⟦いい→いい：00118_ii⟧?",
       "english": "Changing the subject for a moment — can we go back to what we were saying earlier?",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Literally 'as for that, that's that, but …' — それ (that) + は (topic) + そうと (so/that being so). Signals a polite but clear shift away from the previous topic.\n\nGRAMMAR:\n- Sentence-initial, followed by a comma.\n- Implies acknowledgement that the prior topic has been heard but is being set aside.\n\nCOMMON COLLOCATIONS:\n- それはそうと、{話|はなし}{変|か}わるけど: by the way, changing the topic\n- それはそうと、ところで: combined form for an explicit topic change\n\nSIMILAR WORDS:\n- ところで: by the way (most common, neutral topic change)\n- そういえば: come to think of it (reminded by the prior topic, less of a shift)\n- ちなみに: incidentally (adds related info without changing topic)",
+  "notes": "Literally 'as for that, that's that, but …' — ⟦それ→それ：00994_sore⟧ (that) + ⟦は→は：00079_ha⟧ (topic) + そう⟦と→と：00512_to⟧ (so/that being so). Signals a polite but clear shift away from the previous topic.\n\nCOMMON PATTERNS:\n- Sentence-initial, followed by a comma.\n- Implies acknowledgement that the prior topic has been heard but is being set aside.\n\nCOMMON COLLOCATIONS:\n- それはそうと、⟦{話|はなし}→話：01496_hanashi⟧⟦{変|か}わる→変わる：00714_kawaru⟧⟦けど→けど：09477_kedo⟧: by the way, changing the topic\n- それはそうと、⟦ところ→ところ：01137_tokoro⟧⟦で→で：00502_de⟧: combined form for an explicit topic change\n\nSIMILAR WORDS:\n- ⟦ところ→ところ：01137_tokoro⟧⟦で→で：00502_de⟧: by the way (most common, neutral topic change)\n- ⟦そういえば→そういえば：27571_souieba⟧: come to think of it (reminded by the prior topic, less of a shift)\n- ちなみ⟦に→に：00314_ni⟧: incidentally (adds related info without changing topic)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01002_tokorode",
+      "reading": "ところで",
+      "headword": "ところで",
+      "label": "by the way"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27571_souieba",
+      "reading": "そういえば",
+      "headword": "そういえば",
+      "label": "come to think of it"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05210_chinamini",
+      "reading": "ちなみに",
+      "headword": "ちなみに",
+      "label": "incidentally"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -54,13 +77,13 @@
         "conjunction"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "expression"
       ],
       "domain": []
     },
     "created": "2026-05-14T03:14:11Z",
-    "modified": "2026-08-07T16:10:18Z"
+    "modified": "2026-09-02T04:02:31Z"
   }
 }

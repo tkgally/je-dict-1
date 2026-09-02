@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24638_kousoku_ex1",
-      "japanese": "{心筋|しんきん}{梗塞|こうそく}で{倒|たお}れた。",
+      "japanese": "{心筋|しんきん}{梗塞|こうそく}⟦で→で：00502_de⟧⟦{倒|たお}れた→倒れる：01160_taoreru⟧。",
       "english": "He collapsed from a heart attack.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24638_kousoku_ex2",
-      "japanese": "{脳|のう}{梗塞|こうそく}は{早期|そうき}{発見|はっけん}が{重要|じゅうよう}だ。",
+      "japanese": "{脳|のう}{梗塞|こうそく}⟦は→は：00079_ha⟧⟦{早期|そうき}{発見|はっけん}→早期発見：16127_soukihakken⟧⟦が→が：00051_ga⟧⟦{重要|じゅうよう}→重要：01575_juuyou⟧だ。",
       "english": "Early detection is important for cerebral infarction.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24638_kousoku_ex3",
-      "japanese": "{祖父|そふ}は{心筋|しんきん}{梗塞|こうそく}を{起|お}こして{救急車|きゅうきゅうしゃ}で{運|はこ}ばれたが、{手術|しゅじゅつ}のおかげで{助|たす}かった。",
+      "japanese": "⟦{祖父|そふ}→祖父：01452_sofu⟧⟦は→は：00079_ha⟧{心筋|しんきん}{梗塞|こうそく}⟦を→を：00422_wo⟧⟦{起|お}こして→起こす：01234_okosu⟧⟦{救急車|きゅうきゅうしゃ}→救急車：05077_kyuukyuusha⟧⟦で→で：00502_de⟧⟦{運|はこ}ばれた→運ぶ：01088_hakobu⟧⟦が→が：00051_ga⟧、⟦{手術|しゅじゅつ}→手術：03218_shujutsu⟧⟦の→の：09472_no⟧⟦おかげ→おかげ：01362_okage⟧⟦で→で：00502_de⟧⟦{助|たす}かった→助かる：01956_tasukaru⟧。",
       "english": "My grandfather had a myocardial infarction and was taken by ambulance, but he was saved thanks to surgery.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "The character {梗|こう} means 'to block' and {塞|そく} means 'to obstruct.' Together they describe the blockage of a blood vessel. Almost never used alone in everyday speech — it appears as part of compound medical terms.\n\nCOMMON COLLOCATIONS:\n- {心筋|しんきん}{梗塞|こうそく}: myocardial infarction (heart attack)\n- {脳|のう}{梗塞|こうそく}: cerebral infarction (stroke caused by blockage)\n- {梗塞|こうそく}を{起|お}こす: to suffer an infarction\n- {肺|はい}{梗塞|こうそく}: pulmonary infarction\n- {梗塞|こうそく}{巣|そう}: infarcted area\n\nSIMILAR WORDS:\n- {脳卒中|のうそっちゅう}: stroke — general term covering both blockage ({脳|のう}{梗塞|こうそく}) and hemorrhage ({脳|のう}{出血|しゅっけつ})\n- {血栓|けっせん}: blood clot; thrombus — the clot itself that may cause the blockage, not the resulting tissue damage\n- {発作|ほっさ}: attack; seizure — a general term for sudden onset of symptoms, not specific to vascular blockage\n\nNOTE ON HOMOPHONES:\nSeveral common words share the reading こうそく: {高速|こうそく} (high speed), {拘束|こうそく} (restraint), {校則|こうそく} (school rules). Context and kanji make the meaning clear.",
+  "notes": "The character {梗|こう} means 'to block' and {塞|そく} means 'to obstruct.' Together they describe the blockage of a blood vessel. Almost never used alone in everyday speech — it appears as part of compound medical terms.\n\nCOMMON COLLOCATIONS:\n- {心筋|しんきん}{梗塞|こうそく}: myocardial infarction (heart attack)\n- {脳|のう}{梗塞|こうそく}: cerebral infarction (stroke caused by blockage)\n- {梗塞|こうそく}⟦を→を：00422_wo⟧⟦{起|お}こす→起こす：01234_okosu⟧: to suffer an infarction\n- ⟦{肺|はい}→肺：12334_hai⟧{梗塞|こうそく}: pulmonary infarction\n- {梗塞|こうそく}{巣|そう}: infarcted area\n\nSIMILAR WORDS:\n- ⟦{脳卒中|のうそっちゅう}→脳卒中：04647_nousocchuu⟧: stroke — general term covering both blockage ({脳|のう}{梗塞|こうそく}) and hemorrhage (⟦{脳|のう}→脳：03537_nou⟧⟦{出血|しゅっけつ}→出血：11735_shukketsu⟧)\n- {血栓|けっせん}: blood clot; thrombus — the clot itself that may cause the blockage, not the resulting tissue damage\n- ⟦{発作|ほっさ}→発作：15023_hossa⟧: attack; seizure — a general term for sudden onset of symptoms, not specific to vascular blockage\n\nNOTE ON HOMOPHONES:\nSeveral common words share the reading こうそく: ⟦{高速|こうそく}→高速：02749_kousoku⟧ (high speed), ⟦{拘束|こうそく}→拘束：02803_kousoku⟧ (restraint), ⟦{校則|こうそく}→校則：16056_kousoku⟧ (school rules). Context and kanji make the meaning clear.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04647_nousocchuu",
+      "reading": "のうそっちゅう",
+      "headword": "{脳卒中|のうそっちゅう}",
+      "label": "stroke"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15023_hossa",
+      "reading": "ほっさ",
+      "headword": "{発作|ほっさ}",
+      "label": "attack"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -63,6 +79,6 @@
       ]
     },
     "created": "2026-04-20T10:26:58Z",
-    "modified": "2026-08-03T09:22:27Z"
+    "modified": "2026-09-02T04:02:19Z"
   }
 }

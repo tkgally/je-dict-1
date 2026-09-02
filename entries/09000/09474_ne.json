@@ -19,7 +19,7 @@
   "examples": [
     {
       "id": "09474_ne_ex1",
-      "japanese": "いい{天気|てんき}ですね。",
+      "japanese": "⟦いい→いい：00118_ii⟧⟦{天気|てんき}→天気：00582_tenki⟧ですね。",
       "english": "Nice weather, isn't it?",
       "notes": null,
       "has_audio": false,
@@ -29,7 +29,7 @@
     },
     {
       "id": "09474_ne_ex2",
-      "japanese": "{明日|あした}は{日曜日|にちようび}ですね。",
+      "japanese": "⟦{明日|あした}→明日：00501_ashita⟧⟦は→は：00079_ha⟧⟦{日曜日|にちようび}→日曜日：00656_nichiyoubi⟧ですね。",
       "english": "Tomorrow is Sunday, right?",
       "notes": null,
       "has_audio": false,
@@ -39,7 +39,7 @@
     },
     {
       "id": "09474_ne_ex3",
-      "japanese": "この{料理|りょうり}、おいしいですね。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{料理|りょうり}→料理：01523_ryouri⟧、おいしいですね。",
       "english": "This food is delicious, isn't it?",
       "notes": null,
       "has_audio": false,
@@ -49,7 +49,7 @@
     },
     {
       "id": "09474_ne_ex4",
-      "japanese": "{分|わ}かりましたね。",
+      "japanese": "⟦{分|わ}かりました→分かる：00463_wakaru⟧ね。",
       "english": "You understand, right?",
       "notes": null,
       "has_audio": false,
@@ -59,7 +59,7 @@
     },
     {
       "id": "09474_ne_ex5",
-      "japanese": "じゃ、また{明日|あした}ね。",
+      "japanese": "⟦じゃ→じゃ：03040_ja⟧、⟦また→また：00969_mata⟧⟦{明日|あした}→明日：00501_ashita⟧ね。",
       "english": "Well then, see you tomorrow.",
       "notes": null,
       "has_audio": false,
@@ -68,7 +68,7 @@
       ]
     }
   ],
-  "notes": "ね is used to seek agreement or soften statements.\n\nMAIN USES:\n1. Confirmation: そうですね (That's right, isn't it)\n2. Agreement seeking: {面白|おもしろ}いですね (It's interesting, don't you think?)\n3. Softening: {行|い}きますね (I'll go [soft tone])\n\nCONTRAST: ね vs よ\n- ね: seeks agreement, confirms shared knowledge\n- よ: asserts information the listener may not know\n\nNOTE: ね can be lengthened (ねえ) for emphasis or to show stronger emotion.",
+  "notes": "ね is used to seek agreement or soften statements.\n\nFUNCTIONS:\n1. Confirmation: そうですね (That's right, isn't it)\n2. Agreement seeking: ⟦{面白|おもしろ}い→面白い：00589_omoshiroi⟧ですね (It's interesting, don't you think?)\n3. Softening: ⟦{行|い}きます→行く：00119_iku⟧ね (I'll go [soft tone])\n\nCONTRAST: ね vs ⟦よ→よ：09475_yo⟧\n- ね: seeks agreement, confirms shared knowledge\n- ⟦よ→よ：09475_yo⟧: asserts information the listener may not know\n\nNOTE: ね can be lengthened (⟦ねえ→ねえ：06913_nee⟧) for emphasis or to show stronger emotion.",
   "cross_references": [
     {
       "type": "contrast",
@@ -100,7 +100,7 @@
   ],
   "metadata": {
     "created": "2026-02-02T05:45:27Z",
-    "modified": "2026-08-13T12:43:57Z",
+    "modified": "2026-09-02T04:01:18Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

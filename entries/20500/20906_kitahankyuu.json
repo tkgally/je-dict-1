@@ -15,40 +15,66 @@
   "examples": [
     {
       "id": "20906_kitahankyuu_ex1",
-      "japanese": "{日本|にほん}は{北半球|きたはんきゅう}にある。",
+      "japanese": "⟦{日本|にほん}→日本：03876_nihon⟧⟦は→は：00079_ha⟧{北半球|きたはんきゅう}⟦に→に：00314_ni⟧⟦ある→ある：00006_aru⟧。",
       "english": "Japan is in the Northern Hemisphere.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20906_kitahankyuu_ex2",
-      "japanese": "{北半球|きたはんきゅう}では{六月|ろくがつ}が{夏至|げし}になる。",
+      "japanese": "{北半球|きたはんきゅう}⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{六月|ろくがつ}→六月：00662_rokugatsu⟧⟦が→が：00051_ga⟧⟦{夏至|げし}→夏至：19819_geshi⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧。",
       "english": "In the Northern Hemisphere, the summer solstice falls in June.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20906_kitahankyuu_ex3",
-      "japanese": "{北半球|きたはんきゅう}と{南半球|みなみはんきゅう}では{季節|きせつ}が{逆|ぎゃく}になる。",
+      "japanese": "{北半球|きたはんきゅう}⟦と→と：00512_to⟧⟦{南半球|みなみはんきゅう}→南半球：19054_minamihankyuu⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{季節|きせつ}→季節：01304_kisetsu⟧⟦が→が：00051_ga⟧⟦{逆|ぎゃく}→逆：02649_gyaku⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧。",
       "english": "The seasons are reversed between the Northern and Southern Hemispheres.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {北|きた} (north) + {半球|はんきゅう} (hemisphere). A basic geography term frequently encountered in weather reports, science classes, and travel contexts.\n\nCOMMON COLLOCATIONS:\n- {北半球|きたはんきゅう}の{国|くに}: countries in the Northern Hemisphere\n- {北半球|きたはんきゅう}の{気候|きこう}: Northern Hemisphere climate\n- {北半球|きたはんきゅう}に{位置|いち}する: to be located in the Northern Hemisphere\n\nRELATED TERMS:\n- {南半球|みなみはんきゅう}: Southern Hemisphere\n- {東半球|ひがしはんきゅう}: Eastern Hemisphere\n- {西半球|にしはんきゅう}: Western Hemisphere\n- {赤道|せきどう}: equator",
+  "notes": "Composed of ⟦{北|きた}→北：00644_kita⟧ (north) + {半球|はんきゅう} (hemisphere). A basic geography term frequently encountered in weather reports, science classes, and travel contexts.\n\nCOMMON COLLOCATIONS:\n- {北半球|きたはんきゅう}⟦の→の：09472_no⟧⟦{国|くに}→国：02204_kuni⟧: countries in the Northern Hemisphere\n- {北半球|きたはんきゅう}⟦の→の：09472_no⟧⟦{気候|きこう}→気候：00231_kikou⟧: Northern Hemisphere climate\n- {北半球|きたはんきゅう}⟦に→に：00314_ni⟧⟦{位置|いち}する→位置する：09891_ichisuru⟧: to be located in the Northern Hemisphere\n\nRELATED WORDS:\n- ⟦{南半球|みなみはんきゅう}→南半球：19054_minamihankyuu⟧: Southern Hemisphere\n- {東半球|ひがしはんきゅう}: Eastern Hemisphere\n- {西半球|にしはんきゅう}: Western Hemisphere\n- ⟦{赤道|せきどう}→赤道：04358_sekidou⟧: equator",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "19054_minamihankyuu",
+      "reading": "みなみはんきゅう",
+      "headword": "{南半球|みなみはんきゅう}",
+      "label": "Southern Hemisphere"
+    },
+    {
+      "type": "related",
+      "target_id": "04358_sekidou",
+      "reading": "せきどう",
+      "headword": "{赤道|せきどう}",
+      "label": "equator"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["geography"]
+      "semantic": [
+        "geography"
+      ]
     },
     "created": "2026-03-30T20:13:07Z",
-    "modified": "2026-03-30T20:13:07Z"
+    "modified": "2026-09-02T04:02:01Z"
   }
 }

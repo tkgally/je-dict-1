@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "15508_chaba_ex1",
-      "japanese": "{茶葉|ちゃば}を{急須|きゅうす}に{入|い}れる。",
+      "japanese": "{茶葉|ちゃば}⟦を→を：00422_wo⟧⟦{急須|きゅうす}→急須：04980_kyuusu⟧⟦に→に：00314_ni⟧⟦{入|い}れる→入れる：01098_ireru⟧。",
       "english": "Put the tea leaves in the teapot.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "15508_chaba_ex2",
-      "japanese": "この{茶葉|ちゃば}は{静岡|しずおか}{産|さん}の{上質|じょうしつ}なものだ。",
+      "japanese": "⟦この→この：00962_kono⟧{茶葉|ちゃば}⟦は→は：00079_ha⟧{静岡|しずおか}{産|さん}⟦の→の：09472_no⟧⟦{上質|じょうしつ}→上質：20493_joushitsu⟧なものだ。",
       "english": "These tea leaves are high-quality ones from Shizuoka.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "15508_chaba_ex3",
-      "japanese": "{茶葉|ちゃば}の{量|りょう}やお{湯|ゆ}の{温度|おんど}で{味|あじ}が{大|おお}きく{変|か}わる。",
+      "japanese": "{茶葉|ちゃば}⟦の→の：09472_no⟧⟦{量|りょう}→量：03799_ryou⟧や⟦お{湯|ゆ}→お湯：02518_oyu⟧⟦の→の：09472_no⟧⟦{温度|おんど}→温度：00333_ondo⟧⟦で→で：00502_de⟧⟦{味|あじ}→味：00826_aji⟧⟦が→が：00051_ga⟧⟦{大|おお}きく→大きい：00335_ookii⟧⟦{変|か}わる→変わる：00714_kawaru⟧。",
       "english": "The flavor changes greatly depending on the amount of tea leaves and the water temperature.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "{茶葉|ちゃば} refers to tea leaves — the dried or fresh leaves of the tea plant, used to brew tea. A compound of {茶|ちゃ} (tea) + {葉|ば} (leaf).\n\nCOMMON COLLOCATIONS:\n- {茶葉|ちゃば}を{蒸|む}す: to steam tea leaves\n- {茶葉|ちゃば}の{産地|さんち}: tea-producing region\n- {上質|じょうしつ}な{茶葉|ちゃば}: high-quality tea leaves\n- {茶葉|ちゃば}を{保存|ほぞん}する: to store tea leaves\n- {茶葉|ちゃば}を{急須|きゅうす}に{入|い}れる: to put tea leaves in the teapot\n\nUSAGE:\nUsed when discussing tea varieties, preparation methods, or purchasing. Major tea-producing regions in Japan include {静岡|しずおか}, {京都|きょうと} ({宇治|うじ}), and {鹿児島|かごしま}.\n\nCONTRAST:\n- {茶葉|ちゃば}: the leaves themselves (raw material)\n- お{茶|ちゃ}: the prepared beverage, or tea in general",
+  "notes": "{茶葉|ちゃば} refers to tea leaves — the dried or fresh leaves of the tea plant, used to brew tea. A compound of ⟦{茶|ちゃ}→茶：03433_cha⟧ (tea) + {葉|ば} (leaf).\n\nCOMMON COLLOCATIONS:\n- {茶葉|ちゃば}⟦を→を：00422_wo⟧⟦{蒸|む}す→蒸す：02307_musu⟧: to steam tea leaves\n- {茶葉|ちゃば}⟦の→の：09472_no⟧⟦{産地|さんち}→産地：04031_sanchi⟧: tea-producing region\n- ⟦{上質|じょうしつ}→上質：20493_joushitsu⟧な{茶葉|ちゃば}: high-quality tea leaves\n- {茶葉|ちゃば}⟦を→を：00422_wo⟧⟦{保存|ほぞん}→保存：03626_hozon⟧⟦する→する：00392_suru⟧: to store tea leaves\n- {茶葉|ちゃば}⟦を→を：00422_wo⟧⟦{急須|きゅうす}→急須：04980_kyuusu⟧⟦に→に：00314_ni⟧⟦{入|い}れる→入れる：01098_ireru⟧: to put tea leaves in the teapot\n\nUSAGE:\nUsed when discussing tea varieties, preparation methods, or purchasing. Major tea-producing regions in Japan include {静岡|しずおか}, ⟦{京都|きょうと}→京都：09484_kyouto⟧ ({宇治|うじ}), and {鹿児島|かごしま}.\n\nSIMILAR WORDS:\n- {茶葉|ちゃば}: the leaves themselves (raw material)\n- ⟦お{茶|ちゃ}→お茶：00576_ocha⟧: the prepared beverage, or tea in general",
   "cross_references": [
     {
       "type": "related",
@@ -52,11 +52,25 @@
       "reading": "おちゃ",
       "headword": "お{茶|ちゃ}",
       "label": "tea (beverage)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23448_chagara",
+      "reading": "ちゃがら",
+      "headword": "{茶殻|ちゃがら}",
+      "label": "used tea leaves"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30405_tii",
+      "reading": "てぃー",
+      "headword": "ティー",
+      "label": "tea (in compounds and café menus)"
     }
   ],
   "metadata": {
     "created": "2026-03-07T09:34:07Z",
-    "modified": "2026-06-16T12:23:55Z",
+    "modified": "2026-09-02T04:01:41Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

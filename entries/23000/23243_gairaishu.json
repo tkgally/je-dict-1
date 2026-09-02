@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "23243_gairaishu_ex1",
-      "japanese": "{外来種|がいらいしゅ}の{魚|さかな}。",
+      "japanese": "{外来種|がいらいしゅ}⟦の→の：09472_no⟧⟦{魚|さかな}→魚：00499_sakana⟧。",
       "english": "A non-native species of fish.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "23243_gairaishu_ex2",
-      "japanese": "{外来種|がいらいしゅ}が{川|かわ}の{生態系|せいたいけい}を{壊|こわ}している。",
+      "japanese": "{外来種|がいらいしゅ}⟦が→が：00051_ga⟧⟦{川|かわ}→川：02186_kawa⟧⟦の→の：09472_no⟧⟦{生態系|せいたいけい}→生態系：04626_seitaikei⟧⟦を→を：00422_wo⟧⟦{壊|こわ}している→壊す：01241_kowasu⟧。",
       "english": "Invasive species are damaging the river's ecosystem.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "23243_gairaishu_ex3",
-      "japanese": "{環境省|かんきょうしょう}は、{特定|とくてい}の{外来種|がいらいしゅ}の{飼育|しいく}や{販売|はんばい}を{法律|ほうりつ}で{規制|きせい}している。",
+      "japanese": "{環境省|かんきょうしょう}⟦は→は：00079_ha⟧、⟦{特定|とくてい}→特定：04275_tokutei⟧⟦の→の：09472_no⟧{外来種|がいらいしゅ}⟦の→の：09472_no⟧⟦{飼育|しいく}→飼育：06422_shiiku⟧や⟦{販売|はんばい}→販売：03573_hanbai⟧⟦を→を：00422_wo⟧⟦{法律|ほうりつ}→法律：01722_houritsu⟧⟦で→で：00502_de⟧⟦{規制|きせい}している→規制する：19635_kiseisuru⟧。",
       "english": "The Ministry of the Environment legally regulates the keeping and sale of certain invasive species.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {外来|がいらい} (coming from outside) and {種|しゅ} (species, kind). A biology and environmental-policy term that is also widely used in everyday news and conversation about nature conservation. While literally meaning \"foreign species,\" in practice it often refers specifically to problematic invasive species that harm local ecosystems.\n\nCOMMON COLLOCATIONS:\n- {特定|とくてい}{外来種|がいらいしゅ}: designated invasive species (legally regulated)\n- {外来種|がいらいしゅ}の{駆除|くじょ}: extermination of invasive species\n- {外来種|がいらいしゅ}{問題|もんだい}: the invasive species problem\n- {外来種|がいらいしゅ}が{増|ふ}える: invasive species increase in number\n\nSIMILAR WORDS:\n- {在来種|ざいらいしゅ}: native species — the opposite of {外来種|がいらいしゅ}\n- {固有種|こゆうしゅ}: endemic species — found only in a specific region\n- {帰化|きか}{生物|せいぶつ}: naturalized organism — a non-native species that has fully established itself",
+  "notes": "Composed of ⟦{外来|がいらい}→外来：09895_gairai⟧ (coming from outside) and ⟦{種|しゅ}→種：28584_shu⟧ (species, kind). A biology and environmental-policy term that is also widely used in everyday news and conversation about nature conservation. While literally meaning \"foreign species,\" in practice it often refers specifically to problematic invasive species that harm local ecosystems.\n\nCOMMON COLLOCATIONS:\n- ⟦{特定|とくてい}→特定：04275_tokutei⟧{外来種|がいらいしゅ}: designated invasive species (legally regulated)\n- {外来種|がいらいしゅ}⟦の→の：09472_no⟧⟦{駆除|くじょ}→駆除：16374_kujo⟧: extermination of invasive species\n- {外来種|がいらいしゅ}⟦{問題|もんだい}→問題：00797_mondai⟧: the invasive species problem\n- {外来種|がいらいしゅ}⟦が→が：00051_ga⟧⟦{増|ふ}える→増える：01183_fueru⟧: invasive species increase in number\n\nSIMILAR WORDS:\n- {在来種|ざいらいしゅ}: native species — the opposite of {外来種|がいらいしゅ}\n- {固有種|こゆうしゅ}: endemic species — found only in a specific region\n- ⟦{帰化|きか}→帰化：19840_kika⟧⟦{生物|せいぶつ}→生物：03295_seibutsu⟧: naturalized organism — a non-native species that has fully established itself",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "28286_kishoushu",
+      "reading": "きしょうしゅ",
+      "headword": "{希少種|きしょうしゅ}",
+      "label": "rare species"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +69,6 @@
       "politeness": "plain"
     },
     "created": "2026-04-11T14:19:23Z",
-    "modified": "2026-07-31T18:20:34Z"
+    "modified": "2026-09-02T04:02:11Z"
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21676_ronkou_ex1",
-      "japanese": "{近代文学|きんだいぶんがく}に{関|かん}する{論考|ろんこう}を{発表|はっぴょう}した。",
+      "japanese": "{近代文学|きんだいぶんがく}⟦に→に：00314_ni⟧⟦{関|かん}する→関する：02045_kansuru⟧{論考|ろんこう}⟦を→を：00422_wo⟧⟦{発表|はっぴょう}した→発表する：25231_happyousuru⟧。",
       "english": "I published an essay on modern literature.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21676_ronkou_ex2",
-      "japanese": "この{論考|ろんこう}は{非常|ひじょう}に{読|よ}み{応|ごた}えがある。",
+      "japanese": "⟦この→この：00962_kono⟧{論考|ろんこう}⟦は→は：00079_ha⟧⟦{非常|ひじょう}→非常：01598_hijou⟧⟦に→に：00314_ni⟧⟦{読|よ}み{応|ごた}え→読み応え：07273_yomigotae⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "This treatise is very substantial and rewarding to read.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21676_ronkou_ex3",
-      "japanese": "{教授|きょうじゅ}の{論考|ろんこう}は{幅広|はばひろ}いテーマを{扱|あつか}っており、{学生|がくせい}にとっても{参考|さんこう}になる。",
+      "japanese": "⟦{教授|きょうじゅ}→教授：02589_kyouju⟧⟦の→の：09472_no⟧{論考|ろんこう}⟦は→は：00079_ha⟧⟦{幅広|はばひろ}い→幅広い：11326_habahiroi⟧⟦テーマ→テーマ：17684_teema⟧⟦を→を：00422_wo⟧⟦{扱|あつか}って→扱う：01862_atsukau⟧おり、⟦{学生|がくせい}→学生：00610_gakusei⟧⟦にとって→にとって：06803_nitotte⟧⟦も→も：00484_mo⟧⟦{参考|さんこう}→参考：02828_sankou⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧。",
       "english": "The professor's essays cover a wide range of topics and serve as useful references for students.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {論|ろん} (argument, discussion) + {考|こう} (thought, consideration). A formal, academic term for a written critical analysis or scholarly essay.\n\nCOMMON COLLOCATIONS:\n- {論考|ろんこう}を{発表|はっぴょう}する: to publish an essay/treatise\n- {論考|ろんこう}を{執筆|しっぴつ}する: to write a scholarly article\n- {論考|ろんこう}を{まとめる: to compile a study\n- {論考集|ろんこうしゅう}: collection of essays\n\nREGISTER:\nUsed in academic, intellectual, and literary contexts. Not common in everyday conversation.\n\nSIMILAR WORDS:\n- {論文|ろんぶん}: thesis, academic paper — more formal; specifically refers to research papers\n- {小論|しょうろん}: short essay, brief discussion — shorter and less rigorous\n- エッセイ: essay — more personal and informal in tone",
+  "notes": "Compound of ⟦{論|ろん}→〜論：04017_ron⟧ (argument, discussion) + {考|こう} (thought, consideration). A formal, academic term for a written critical analysis or scholarly essay.\n\nCOMMON COLLOCATIONS:\n- {論考|ろんこう}⟦を→を：00422_wo⟧⟦{発表|はっぴょう}する→発表する：25231_happyousuru⟧: to publish an essay/treatise\n- {論考|ろんこう}⟦を→を：00422_wo⟧⟦{執筆|しっぴつ}する→執筆する：25397_shippitsusuru⟧: to write a scholarly article\n- {論考|ろんこう}⟦を→を：00422_wo⟧{まとめる: to compile a study\n- {論考集|ろんこうしゅう}: collection of essays\n\nREGISTER:\nUsed in academic, intellectual, and literary contexts. Not common in everyday conversation.\n\nSIMILAR WORDS:\n- {論文|ろんぶん}: thesis, academic paper — more formal; specifically refers to research papers\n- {小論|しょうろん}: short essay, brief discussion — shorter and less rigorous\n- エッセイ: essay — more personal and informal in tone",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03787_ronbun",
+      "reading": "ろんぶん",
+      "headword": "{論文|ろんぶん}",
+      "label": "thesis, academic paper"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10724_essei",
+      "reading": "えっせい",
+      "headword": "エッセイ",
+      "label": "essay"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +76,6 @@
       ]
     },
     "created": "2026-04-02T20:29:41Z",
-    "modified": "2026-07-29T12:35:11Z"
+    "modified": "2026-09-02T04:02:04Z"
   }
 }

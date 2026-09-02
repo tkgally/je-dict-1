@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "19874_shouchuu_ex1",
-      "japanese": "{焼酎|しょうちゅう}をロックで。",
+      "japanese": "{焼酎|しょうちゅう}⟦を→を：00422_wo⟧⟦ロック→ロック：08116_rokku⟧⟦で→で：00502_de⟧。",
       "english": "Shochu on the rocks.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "19874_shouchuu_ex2",
-      "japanese": "{芋|いも}{焼酎|しょうちゅう}が{一番|いちばん}{好|す}きだ。",
+      "japanese": "⟦{芋|いも}→芋：10231_imo⟧{焼酎|しょうちゅう}⟦が→が：00051_ga⟧⟦{一番|いちばん}→一番：01140_ichiban⟧⟦{好|す}き→好き：02355_suki⟧だ。",
       "english": "I like sweet potato shochu the best.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "19874_shouchuu_ex3",
-      "japanese": "{焼酎|しょうちゅう}は{水割|みずわ}りにすると{飲|の}みやすくなる。",
+      "japanese": "{焼酎|しょうちゅう}⟦は→は：00079_ha⟧⟦{水割|みずわ}り→水割り：16023_mizuwari⟧⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧⟦と→と：00512_to⟧⟦{飲|の}みやすく→飲みやすい：21767_nomiyasui⟧⟦なる→なる：01970_naru⟧。",
       "english": "Shochu becomes easier to drink when mixed with water.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Japan's most widely consumed distilled spirit, with a long history especially in Kyushu. Unlike sake ({日本酒|にほんしゅ}), which is brewed, shochu is distilled. It can be made from various base ingredients, each producing a distinct flavor profile.\n\nCOMMON TYPES:\n- {芋|いも}{焼酎|しょうちゅう} — sweet potato shochu (rich, earthy flavor; Kagoshima specialty)\n- {麦|むぎ}{焼酎|しょうちゅう} — barley shochu (lighter, smoother)\n- {米|こめ}{焼酎|しょうちゅう} — rice shochu (delicate, sake-like)\n- {蕎麦|そば}{焼酎|しょうちゅう} — buckwheat shochu\n\nCOMMON DRINKING STYLES:\n- {水割|みずわ}り — mixed with cold water\n- お{湯割|ゆわ}り — mixed with hot water\n- ロック — on the rocks\n- {炭酸割|たんさんわ}り — with soda (called チューハイ)\n\nSIMILAR WORDS:\n- {日本酒|にほんしゅ} — sake; brewed rice wine, not distilled\n- {泡盛|あわもり} — awamori; Okinawan distilled spirit, similar to shochu but made with Thai rice and black koji mold",
+  "notes": "Japan's most widely consumed distilled spirit, with a long history especially in Kyushu. Unlike sake (⟦{日本酒|にほんしゅ}→日本酒：12954_nihonshu⟧), which is brewed, shochu is distilled. It can be made from various base ingredients, each producing a distinct flavor profile.\n\nTYPES:\n- ⟦{芋|いも}→芋：10231_imo⟧{焼酎|しょうちゅう} — sweet potato shochu (rich, earthy flavor; Kagoshima specialty)\n- ⟦{麦|むぎ}→麦：05427_mugi⟧{焼酎|しょうちゅう} — barley shochu (lighter, smoother)\n- ⟦{米|こめ}→米：01323_kome⟧{焼酎|しょうちゅう} — rice shochu (delicate, sake-like)\n- ⟦{蕎麦|そば}→蕎麦：14329_soba⟧{焼酎|しょうちゅう} — buckwheat shochu\n\nCOMMON DRINKING STYLES:\n- ⟦{水割|みずわ}り→水割り：16023_mizuwari⟧ — mixed with cold water\n- ⟦お{湯割|ゆわ}り→お湯割り：28103_oyuwari⟧ — mixed with hot water\n- ⟦ロック→ロック：08116_rokku⟧ — on the rocks\n- ⟦{炭酸割|たんさんわ}り→炭酸割り：16637_tansanwari⟧ — with soda (called チューハイ)\n\nSIMILAR WORDS:\n- ⟦{日本酒|にほんしゅ}→日本酒：12954_nihonshu⟧ — sake; brewed rice wine, not distilled\n- {泡盛|あわもり} — awamori; Okinawan distilled spirit, similar to shochu but made with Thai rice and black koji mold",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12954_nihonshu",
+      "reading": "にほんしゅ",
+      "headword": "{日本酒|にほんしゅ}",
+      "label": "sake"
+    },
+    {
+      "type": "related",
+      "target_id": "01015_biiru",
+      "reading": "びーる",
+      "headword": "ビール",
+      "label": "beer"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +75,6 @@
       ]
     },
     "created": "2026-03-27T05:09:12Z",
-    "modified": "2026-07-27T12:42:09Z"
+    "modified": "2026-09-02T04:01:57Z"
   }
 }

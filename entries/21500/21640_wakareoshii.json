@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21640_wakareoshii_ex1",
-      "japanese": "{別|わか}れ{惜|お}しい{気持|きも}ちでいっぱいだった。",
+      "japanese": "{別|わか}れ{惜|お}しい{気持|きも}ち⟦で→で：00502_de⟧いっぱいだった。",
       "english": "I was full of reluctance to say goodbye.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21640_wakareoshii_ex2",
-      "japanese": "{楽|たの}しい{時間|じかん}はあっという{間|ま}で、{別|わか}れ{惜|お}しかった。",
+      "japanese": "⟦{楽|たの}しい→楽しい：00817_tanoshii⟧⟦{時間|じかん}→時間：00468_jikan⟧⟦は→は：00079_ha⟧⟦あっという{間|ま}→あっという間：10426_attoiuma⟧⟦で→で：00502_de⟧、{別|わか}れ{惜|お}しかった。",
       "english": "The fun time flew by, and I was sad to part.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21640_wakareoshii_ex3",
-      "japanese": "{留学先|りゅうがくさき}の{友人|ゆうじん}たちとの{別|わか}れが{惜|お}しくて、{空港|くうこう}で{涙|なみだ}が{出|で}た。",
+      "japanese": "⟦{留学先|りゅうがくさき}→留学先：09976_ryuugakusaki⟧⟦の→の：09472_no⟧⟦{友人|ゆうじん}→友人：03649_yuujin⟧たち⟦と→と：00512_to⟧⟦の→の：09472_no⟧⟦{別|わか}れ→別れ：03788_wakare⟧⟦が→が：00051_ga⟧⟦{惜|お}しくて→惜しい：10243_oshii⟧、⟦{空港|くうこう}→空港：00648_kuukou⟧⟦で→で：00502_de⟧⟦{涙|なみだ}→涙：02235_namida⟧⟦が→が：00051_ga⟧⟦{出|で}た→出る：00513_deru⟧。",
       "english": "I was so reluctant to part from my friends from my time studying abroad that tears came at the airport.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "A compound adjective formed from {別|わか}れ (parting) + {惜|お}しい (regrettable, reluctant to lose). Expresses the bittersweet feeling of not wanting a pleasant time or relationship to end.\n\nFORMS:\n- {別|わか}れ{惜|お}しい: predicate (parting is sad)\n- {別|わか}れ{惜|お}しそうに: in a way that shows reluctance to part\n- {別|わか}れが{惜|お}しい: separated form with the same meaning\n\nCOMMON COLLOCATIONS:\n- {別|わか}れ{惜|お}しい{気持|きも}ち: feelings of reluctance to part\n- {別|わか}れ{惜|お}しそうに{手|て}を{振|ふ}る: to wave reluctantly in farewell\n- {名残|なごり}{惜|お}しい: a near-synonym meaning reluctant to part (more literary)\n\nSIMILAR WORDS:\n- {名残|なごり}{惜|お}しい: reluctant to part — very similar but slightly more literary; can also apply to leaving a place or ending an experience\n- {寂|さび}しい: lonely, sad — broader emotion of loneliness, not specifically tied to parting\n- {切|せつ}ない: painfully tender — a deeper, more wrenching emotional pain",
+  "notes": "A compound adjective formed from ⟦{別|わか}れ→別れ：03788_wakare⟧ (parting) + ⟦{惜|お}しい→惜しい：10243_oshii⟧ (regrettable, reluctant to lose). Expresses the bittersweet feeling of not wanting a pleasant time or relationship to end.\n\nFORMS:\n- {別|わか}れ{惜|お}しい: predicate (parting is sad)\n- {別|わか}れ{惜|お}しそう⟦に→に：00314_ni⟧: in a way that shows reluctance to part\n- ⟦{別|わか}れ→別れ：03788_wakare⟧⟦が→が：00051_ga⟧⟦{惜|お}しい→惜しい：10243_oshii⟧: separated form with the same meaning\n\nCOMMON COLLOCATIONS:\n- {別|わか}れ{惜|お}しい{気持|きも}ち: feelings of reluctance to part\n- {別|わか}れ{惜|お}しそう⟦に→に：00314_ni⟧⟦{手|て}→手：00569_te⟧⟦を→を：00422_wo⟧⟦{振|ふ}る→振る：01983_furu⟧: to wave reluctantly in farewell\n- ⟦{名残|なごり}{惜|お}しい→名残惜しい：10910_nagorioshii⟧: a near-synonym meaning reluctant to part (more literary)\n\nSIMILAR WORDS:\n- ⟦{名残|なごり}{惜|お}しい→名残惜しい：10910_nagorioshii⟧: reluctant to part — very similar but slightly more literary; can also apply to leaving a place or ending an experience\n- ⟦{寂|さび}しい→寂しい：00880_sabishii⟧: lonely, sad — broader emotion of loneliness, not specifically tied to parting\n- ⟦{切|せつ}ない→切ない：06167_setsunai⟧: painfully tender — a deeper, more wrenching emotional pain",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "10910_nagorioshii",
+      "reading": "なごりおしい",
+      "headword": "{名残惜|なごりお}しい",
+      "label": "reluctant to part"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00880_sabishii",
+      "reading": "さびしい",
+      "headword": "{寂|さび}しい",
+      "label": "lonely, sad"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06167_setsunai",
+      "reading": "せつない",
+      "headword": "{切|せつ}ない",
+      "label": "painfully tender"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,7 +82,7 @@
       ]
     },
     "created": "2026-04-02T19:20:01Z",
-    "modified": "2026-04-02T19:20:01Z"
+    "modified": "2026-09-02T04:02:04Z"
   },
   "conjugation": {
     "type": "i-adjective",

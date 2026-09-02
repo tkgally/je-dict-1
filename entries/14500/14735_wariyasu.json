@@ -3,7 +3,7 @@
   "id": "14735_wariyasu",
   "headword": "{割安|わりやす}",
   "reading": "わりやす",
-  "part_of_speech": "adjective-na",
+  "part_of_speech": "na-adjective",
   "gloss": "relatively cheap; good value; bargain",
   "definitions": [
     {
@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "14735_wariyasu_ex1",
-      "japanese": "この{店|みせ}は{割安|わりやす}でおいしい。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{店|みせ}→店：00497_mise⟧⟦は→は：00079_ha⟧{割安|わりやす}でおいしい。",
       "english": "This restaurant is affordable and delicious.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14735_wariyasu_ex2",
-      "japanese": "まとめ{買|が}いすると{割安|わりやす}になる。",
+      "japanese": "⟦まとめ{買|が}い→まとめ買い：08046_matomegai⟧⟦する→する：00392_suru⟧⟦と→と：00512_to⟧{割安|わりやす}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧。",
       "english": "Buying in bulk makes it cheaper per unit.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14735_wariyasu_ex3",
-      "japanese": "{平日|へいじつ}のランチは{夜|よる}に{比|くら}べて{割安|わりやす}な{値段|ねだん}で{楽|たの}しめる。",
+      "japanese": "⟦{平日|へいじつ}→平日：03033_heijitsu⟧⟦の→の：09472_no⟧⟦ランチ→ランチ：11196_ranchi⟧⟦は→は：00079_ha⟧⟦{夜|よる}→夜：00487_yoru⟧⟦に→に：00314_ni⟧⟦{比|くら}べて→比べる：01237_kuraberu⟧{割安|わりやす}な⟦{値段|ねだん}→値段：00871_nedan⟧⟦で→で：00502_de⟧⟦{楽|たの}しめる→楽しむ：01203_tanoshimu⟧。",
       "english": "Weekday lunches can be enjoyed at more affordable prices compared to dinner.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{割安|わりやす} means relatively cheap or good value for the price. It emphasizes that something is cheaper than expected or compared to alternatives, not just cheap in absolute terms.\n\nWORD FORMATION:\n{割|わり} (ratio, proportion) + {安|やす} (cheap) — cheap relative to the value you get.\n\nFORMS:\n- Na-adjective: {割安|わりやす}な{商品|しょうひん} (a good-value product)\n- Noun: {割安|わりやす}{感|かん} (sense of being a good deal)\n- Adverbial: {割安|わりやす}に{買|か}える (can buy at a good price)\n\nCOMMON COLLOCATIONS:\n- {割安|わりやす}な{値段|ねだん} (affordable/bargain price)\n- まとめ{買|が}いすると{割安|わりやす} (buying in bulk is cheaper per unit)\n- {割安|わりやす}{株|かぶ} (undervalued stock — in finance)\n\nCONTRAST:\n- Opposite: {割高|わりだか} (relatively expensive, poor value for money)\n- {安|やす}い is simply 'cheap,' while {割安|わりやす} implies good value relative to quality or alternatives",
+  "notes": "{割安|わりやす} means relatively cheap or good value for the price. It emphasizes that something is cheaper than expected or compared to alternatives, not just cheap in absolute terms.\n\nFORMS:\n⟦{割|わり}→割：03194_wari⟧ (ratio, proportion) + {安|やす} (cheap) — cheap relative to the value you get.\n- Na-adjective: {割安|わりやす}な⟦{商品|しょうひん}→商品：01436_shouhin⟧ (a good-value product)\n- Noun: {割安|わりやす}{感|かん} (sense of being a good deal)\n- Adverbial: {割安|わりやす}⟦に→に：00314_ni⟧⟦{買|か}える→買う：00489_kau⟧ (can buy at a good price)\n\nCOMMON COLLOCATIONS:\n- {割安|わりやす}な⟦{値段|ねだん}→値段：00871_nedan⟧ (affordable/bargain price)\n- ⟦まとめ{買|が}い→まとめ買い：08046_matomegai⟧⟦する→する：00392_suru⟧⟦と→と：00512_to⟧{割安|わりやす} (buying in bulk is cheaper per unit)\n- {割安|わりやす}⟦{株|かぶ}→株：02592_kabu⟧ (undervalued stock — in finance)\n\nSIMILAR WORDS:\n- Opposite: ⟦{割高|わりだか}→割高：14734_waridaka⟧ (relatively expensive, poor value for money)\n- ⟦{安|やす}い→安い：00464_yasui⟧ is simply 'cheap,' while {割安|わりやす} implies good value relative to quality or alternatives",
   "prominent_see_also": [
     {
       "target_id": "14734_waridaka",
@@ -47,17 +53,29 @@
       "note": "relatively expensive"
     }
   ],
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00464_yasui",
+      "reading": "やすい",
+      "headword": "{安|やす}い",
+      "label": "is simply 'cheap,' while implies good…"
+    }
+  ],
   "metadata": {
     "created": "2026-03-03T09:50:23Z",
-    "modified": "2026-04-30T10:24:44Z",
+    "modified": "2026-09-02T04:01:38Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-na"],
+      "pos": [
+        "adjective-na"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

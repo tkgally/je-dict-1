@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24962_fusumagami_ex1",
-      "japanese": "{襖紙|ふすまがみ}が{古|ふる}くなってきた。",
+      "japanese": "{襖紙|ふすまがみ}⟦が→が：00051_ga⟧⟦{古|ふる}く→古い：00488_furui⟧⟦なって→なる：01970_naru⟧きた。",
       "english": "The fusuma paper is getting old.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24962_fusumagami_ex2",
-      "japanese": "{和室|わしつ}の{襖紙|ふすまがみ}を{張|は}り{替|か}えた。",
+      "japanese": "⟦{和室|わしつ}→和室：10437_washitsu⟧⟦の→の：09472_no⟧{襖紙|ふすまがみ}⟦を→を：00422_wo⟧⟦{張|は}り{替|か}えた→張り替える：28418_harikaeru⟧。",
       "english": "I had the fusuma paper in the Japanese-style room replaced.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24962_fusumagami_ex3",
-      "japanese": "{伝統的|でんとうてき}な{襖紙|ふすまがみ}には{花鳥風月|かちょうふうげつ}の{柄|がら}が{多|おお}いが、{最近|さいきん}はモダンなデザインも{人気|にんき}がある。",
+      "japanese": "⟦{伝統的|でんとうてき}→伝統的：04802_dentouteki⟧な{襖紙|ふすまがみ}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{花鳥風月|かちょうふうげつ}→花鳥風月：21565_kachoufuugetsu⟧⟦の→の：09472_no⟧⟦{柄|がら}→柄：02609_gara⟧⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧⟦が→が：00051_ga⟧、⟦{最近|さいきん}→最近：00881_saikin⟧⟦は→は：00079_ha⟧⟦モダン→モダン：27366_modan⟧な⟦デザイン→デザイン：03860_dezain⟧⟦も→も：00484_mo⟧⟦{人気|にんき}→人気：01488_ninki⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "Traditional fusuma paper often features nature-inspired designs, but modern patterns have become popular recently.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {襖|ふすま} (fusuma, Japanese sliding door) and {紙|かみ} (paper), with {紙|かみ} becoming voiced ({がみ}) through rendaku. Replacing {襖紙|ふすまがみ} is a regular part of maintaining a Japanese-style home, typically done every 10-15 years or when moving into a new residence.\n\nCOMMON COLLOCATIONS:\n- {襖紙|ふすまがみ}を{張|は}り{替|か}える: to re-paper the fusuma\n- {襖紙|ふすまがみ}の{柄|がら}: fusuma paper pattern\n- {襖紙|ふすまがみ}の{サンプル|さんぷる}: fusuma paper samples\n\nRELATED TERMS:\n- {襖|ふすま}: fusuma, thick opaque sliding doors dividing rooms\n- {障子紙|しょうじがみ}: shoji paper, the translucent paper used on shoji screens\n- {壁紙|かべがみ}: wallpaper\n- {張|は}り{替|か}え: re-papering, the act of replacing the paper covering",
+  "notes": "Compound of ⟦{襖|ふすま}→襖：03908_fusuma⟧ (fusuma, Japanese sliding door) and ⟦{紙|かみ}→紙：00712_kami⟧ (paper), with ⟦{紙|かみ}→紙：00712_kami⟧ becoming voiced (がみ) through rendaku. Replacing {襖紙|ふすまがみ} is a regular part of maintaining a Japanese-style home, typically done every 10-15 years or when moving into a new residence.\n\nCOMMON COLLOCATIONS:\n- {襖紙|ふすまがみ}⟦を→を：00422_wo⟧⟦{張|は}り{替|か}える→張り替える：28418_harikaeru⟧: to re-paper the fusuma\n- {襖紙|ふすまがみ}⟦の→の：09472_no⟧⟦{柄|がら}→柄：02609_gara⟧: fusuma paper pattern\n- {襖紙|ふすまがみ}⟦の→の：09472_no⟧⟦サンプル→サンプル：10939_sanpuru⟧: fusuma paper samples\n\nRELATED WORDS:\n- ⟦{襖|ふすま}→襖：03908_fusuma⟧: fusuma, thick opaque sliding doors dividing rooms\n- ⟦{障子紙|しょうじがみ}→障子紙：16594_shoujigami⟧: shoji paper, the translucent paper used on shoji screens\n- ⟦{壁紙|かべがみ}→壁紙：16077_kabegami⟧: wallpaper\n- {張|は}り{替|か}え: re-papering, the act of replacing the paper covering",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "16594_shoujigami",
+      "reading": "しょうじがみ",
+      "headword": "{障子紙|しょうじがみ}",
+      "label": "shoji paper, the translucent paper used…"
+    },
+    {
+      "type": "related",
+      "target_id": "16077_kabegami",
+      "reading": "かべがみ",
+      "headword": "{壁紙|かべがみ}",
+      "label": "wallpaper"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +75,6 @@
       ]
     },
     "created": "2026-04-21T14:29:45Z",
-    "modified": "2026-08-03T21:47:49Z"
+    "modified": "2026-09-02T04:02:20Z"
   }
 }

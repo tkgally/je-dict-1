@@ -15,41 +15,60 @@
   "examples": [
     {
       "id": "28031_hitsujubusshi_ex1",
-      "japanese": "{必需物資|ひつじゅぶっし}が{不足|ふそく}している。",
+      "japanese": "{必需物資|ひつじゅぶっし}⟦が→が：00051_ga⟧⟦{不足|ふそく}→不足：03598_fusoku⟧⟦している→する：00392_suru⟧。",
       "english": "Essential supplies are running short.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28031_hitsujubusshi_ex2",
-      "japanese": "{被災地|ひさいち}に{必需物資|ひつじゅぶっし}を{送|おく}る。",
+      "japanese": "⟦{被災地|ひさいち}→被災地：27434_hisaichi⟧⟦に→に：00314_ni⟧{必需物資|ひつじゅぶっし}⟦を→を：00422_wo⟧⟦{送|おく}る→送る：00742_okuru⟧。",
       "english": "Send essential supplies to the disaster area.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28031_hitsujubusshi_ex3",
-      "japanese": "{災害|さいがい}に{備|そな}えて、{家庭|かてい}でも{必需物資|ひつじゅぶっし}を{備蓄|びちく}しておくべきだ。",
+      "japanese": "⟦{災害|さいがい}→災害：09636_saigai⟧⟦に→に：00314_ni⟧⟦{備|そな}えて→備える：02125_sonaeru⟧、⟦{家庭|かてい}→家庭：12315_katei⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧{必需物資|ひつじゅぶっし}⟦を→を：00422_wo⟧⟦{備蓄|びちく}→備蓄：07589_bichiku⟧⟦して→する：00392_suru⟧おくべきだ。",
       "english": "In preparation for disasters, households too should stockpile essential supplies.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Compound of {必需|ひつじゅ} (indispensable) and {物資|ぶっし} (goods, materials).\n\nCOMMON COLLOCATIONS:\n- {生活|せいかつ}{必需物資|ひつじゅぶっし}: daily necessities of life\n- {必需物資|ひつじゅぶっし}の{確保|かくほ}: securing essential supplies\n- {必需物資|ひつじゅぶっし}の{不足|ふそく}: a shortage of essential supplies\n\nSIMILAR WORDS:\n- {必需品|ひつじゅひん}: necessities, essential items — more everyday, refers to individual items rather than bulk supplies",
+  "notes": "Compound of ⟦{必需|ひつじゅ}→必需：24167_hitsuju⟧ (indispensable) and ⟦{物資|ぶっし}→物資：07863_busshi⟧ (goods, materials).\n\nCOMMON COLLOCATIONS:\n- ⟦{生活|せいかつ}→生活：01443_seikatsu⟧{必需物資|ひつじゅぶっし}: daily necessities of life\n- {必需物資|ひつじゅぶっし}⟦の→の：09472_no⟧⟦{確保|かくほ}→確保：13681_kakuho⟧: securing essential supplies\n- {必需物資|ひつじゅぶっし}⟦の→の：09472_no⟧⟦{不足|ふそく}→不足：03598_fusoku⟧: a shortage of essential supplies\n\nSIMILAR WORDS:\n- ⟦{必需品|ひつじゅひん}→必需品：15541_hitsujuhin⟧: necessities, essential items — more everyday, refers to individual items rather than bulk supplies",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15541_hitsujuhin",
+      "reading": "ひつじゅひん",
+      "headword": "{必需品|ひつじゅひん}",
+      "label": "necessities, essential items"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["society"],
+      "politeness": "plain",
+      "semantic": [
+        "society"
+      ],
       "domain": []
     },
     "created": "2026-05-24T04:10:04Z",
-    "modified": "2026-05-24T04:10:04Z"
+    "modified": "2026-09-02T04:02:32Z"
   }
 }

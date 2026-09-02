@@ -2,7 +2,7 @@
   "id": "08360_negiru",
   "headword": "{値切|ねぎ}る",
   "reading": "ねぎる",
-  "part_of_speech": "verb-godan",
+  "part_of_speech": "verb (godan)",
   "gloss": "to haggle; to bargain; to negotiate a lower price",
   "conjugation": {
     "type": "godan",
@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "08360_negiru_ex1",
-      "japanese": "{市場|いちば}で{値切|ねぎ}った。",
+      "japanese": "⟦{市場|いちば}→市場：01803_ichiba⟧⟦で→で：00502_de⟧{値切|ねぎ}った。",
       "english": "I haggled at the market.",
       "sense_numbers": [
         1
@@ -114,7 +114,7 @@
     },
     {
       "id": "08360_negiru_ex2",
-      "japanese": "{彼|かれ}は{値切|ねぎ}るのが{上手|じょうず}だ。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{値切|ねぎ}る⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦{上手|じょうず}→上手：00707_jouzu⟧だ。",
       "english": "He's good at bargaining.",
       "sense_numbers": [
         1
@@ -124,7 +124,7 @@
     },
     {
       "id": "08360_negiru_ex3",
-      "japanese": "{中古車|ちゅうこしゃ}を{買|か}うとき、{値切|ねぎ}って{半額|はんがく}にしてもらった。",
+      "japanese": "⟦{中古車|ちゅうこしゃ}→中古車：25939_chuukosha⟧⟦を→を：00422_wo⟧⟦{買|か}う→買う：00489_kau⟧とき、{値切|ねぎ}って⟦{半額|はんがく}→半額：09546_hangaku⟧にして⟦もらった→もらう：00520_morau⟧。",
       "english": "When I bought the used car, I bargained and got it for half price.",
       "sense_numbers": [
         1
@@ -133,7 +133,7 @@
       "notes": null
     }
   ],
-  "notes": "TRANSITIVITY:\n{値切|ねぎ}る is transitive - the object is the item being bargained for or the price being negotiated.\n\nRELATED WORDS:\n- {値引|ねび}き (price reduction, discount)\n- {割引|わりびき} (discount)\n- {交渉|こうしょう} (negotiation)\n\nCULTURAL NOTE:\nUnlike some countries where haggling is expected, {値切|ねぎ}る is less common in Japan at regular retail stores. However, it's still practiced at flea markets ({蚤|のみ}の{市|いち}), electronics stores like those in Akihabara, and when buying cars or appliances. The phrase {値切|ねぎ}りは{恥|はじ}ずかしい (haggling is embarrassing) reflects some Japanese reluctance to bargain.",
+  "notes": "TRANSITIVITY:\n{値切|ねぎ}る is transitive - the object is the item being bargained for or the price being negotiated.\n\nRELATED WORDS:\n- ⟦{値引|ねび}き→値引き：05424_nebiki⟧ (price reduction, discount)\n- ⟦{割引|わりびき}→割引：01526_waribiki⟧ (discount)\n- ⟦{交渉|こうしょう}→交渉：02727_koushou⟧ (negotiation)\n\nCULTURAL NOTE:\nUnlike some countries where haggling is expected, {値切|ねぎ}る is less common in Japan at regular retail stores. However, it's still practiced at flea markets ({蚤|のみ}の{市|いち}), electronics stores like those in Akihabara, and when buying cars or appliances. The phrase {値切|ねぎ}り⟦は→は：00079_ha⟧{恥|はじ}ずかしい (haggling is embarrassing) reflects some Japanese reluctance to bargain.",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -142,6 +142,7 @@
       ],
       "transitivity": "transitive",
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "shopping",
         "money",
@@ -150,7 +151,7 @@
       "verb_class": "godan-ru"
     },
     "created": "2026-01-26T04:46:09Z",
-    "modified": "2026-08-12T12:50:50Z"
+    "modified": "2026-09-02T04:01:14Z"
   },
   "cross_references": [
     {
@@ -166,6 +167,20 @@
       "reading": "わりびき",
       "headword": "{割引|わりびき}",
       "label": "discount"
+    },
+    {
+      "type": "related",
+      "target_id": "02727_koushou",
+      "reading": "こうしょう",
+      "headword": "{交渉|こうしょう}",
+      "label": "negotiation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19261_kaitataku",
+      "reading": "かいたたく",
+      "headword": "{買|か}い{叩|たた}く",
+      "label": "to beat down the price"
     }
   ]
 }

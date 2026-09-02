@@ -50,7 +50,7 @@
     },
     {
       "id": "00406_tokoroga_ex5",
-      "japanese": "⟦{電車|でんしゃ}→電車：00522_densha⟧⟦が→が：00051_ga⟧⟦{遅|おく}れて→遅れる：00741_okureru⟧⟦{約束|やくそく}→約束：01517_yakusoku⟧⟦の→の：09472_no⟧⟦{時間|じかん}→時間：00468_jikan⟧⟦に→に：00314_ni⟧⟦{間|ま}に{合|あ}わない→間に合う：01142_maniau⟧⟦と→と：00512_to⟧⟦{思|おも}った→思う：00492_omou⟧。ところが、⟦{相手|あいて}→相手：01677_aite⟧⟦も→も：00484_mo⟧⟦{遅|おく}れていた→遅れる：00741_okureru⟧ので⟦{問題|もんだい}→問題：00797_mondai⟧⟦なかった→ない：01118_nai⟧。",
+      "japanese": "⟦{電車|でんしゃ}→電車：00522_densha⟧⟦が→が：00051_ga⟧⟦{遅|おく}れて→遅れる：00741_okureru⟧⟦{約束|やくそく}→約束：01517_yakusoku⟧⟦の→の：09472_no⟧⟦{時間|じかん}→時間：00468_jikan⟧⟦に→に：00314_ni⟧⟦{間|ま}に{合|あ}わない→間に合う：01142_maniau⟧⟦と→と：00512_to⟧⟦{思|おも}った→思う：00492_omou⟧。ところが、⟦{相手|あいて}→相手：01677_aite⟧⟦も→も：00484_mo⟧⟦{遅|おく}れていた→遅れる：00741_okureru⟧⟦の→の：09472_no⟧で⟦{問題|もんだい}→問題：00797_mondai⟧⟦なかった→ない：01118_nai⟧。",
       "english": "I thought the train delay would make me late for our appointment. But then the other person was also late, so it was fine.",
       "has_audio": false,
       "sense_numbers": [
@@ -66,11 +66,39 @@
       "headword": "しかし",
       "label": "however (neutral)",
       "target_id": "00986_shikashi"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00925_demo",
+      "reading": "でも",
+      "headword": "でも",
+      "label": "simple contrast, no surprise implied"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00033_dakedo",
+      "reading": "だけど",
+      "headword": "だけど",
+      "label": "simple contrast, no surprise implied"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02995_keredomo",
+      "reading": "けれども",
+      "headword": "けれども",
+      "label": "general adversative, can end sentences"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00031_daga",
+      "reading": "だが",
+      "headword": "だが",
+      "label": "but"
     }
   ],
   "metadata": {
     "created": "2026-01-13T03:14:22Z",
-    "modified": "2026-05-11T13:23:23Z",
+    "modified": "2026-09-02T04:00:57Z",
     "ai_model": "claude-opus-4-5-20251101",
     "vocabulary_tier": "core",
     "tags": {

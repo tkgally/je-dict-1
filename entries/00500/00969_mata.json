@@ -74,7 +74,7 @@
     },
     {
       "id": "00969_mata_ex6",
-      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{学生|がくせい}→学生：00610_gakusei⟧であり、また⟦{先生|せんせい}→先生：00609_sensei⟧で⟦も→も：00484_mo⟧⟦ある→ある：00006_aru⟧。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{学生|がくせい}→学生：00610_gakusei⟧で⟦あり→ある：00006_aru⟧、また⟦{先生|せんせい}→先生：00609_sensei⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧⟦ある→ある：00006_aru⟧。",
       "english": "He is a student, and also a teacher.",
       "notes": null,
       "has_audio": false,
@@ -173,7 +173,7 @@
       ]
     }
   ],
-  "notes": "また is a versatile word functioning as an adverb ('again') and conjunction ('also,' 'or'). It's one of the most common words in everyday Japanese conversation.\n\nMEANINGS:\n1. 'again' (repetition): また⟦{来|き}て→来る：00254_kuru⟧⟦ね→ね：09474_ne⟧ (come again)\n2. 'also/moreover' (addition): また、⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{歌手|かしゅ}→歌手：00197_kashu⟧で⟦も→も：00484_mo⟧⟦ある→ある：00006_aru⟧ (also, he is a singer)\n3. 'or' (alternatives): ⟦{電話|でんわ}→電話：01471_denwa⟧また⟦は→は：00079_ha⟧⟦メール→メール：04435_meeru⟧ (phone or email) — the 'or' sense requires または, never bare また\n\nCOMMON EXPRESSIONS:\n- また⟦ね→ね：09474_ne⟧ / また⟦{明日|あした}→明日：00501_ashita⟧: See you later / See you tomorrow (casual farewells)\n- また⟦{後|あと}で→後で：00920_atode⟧: See you later\n- また⟦{今度|こんど}→今度：01327_kondo⟧: Some other time\n- また⟦{同|おな}じ→同じ：02857_onaji⟧: the same again\n\nRELATED FORMS:\n- または: or, alternatively (more formal)\n- ⟦あるいは→あるいは：03825_aruiha⟧また: or else, alternatively\n- ⟦{再|ふたた}び→再び：03600_futatabi⟧: again (more formal/literary)\n\nNOTE: When used at the start of a sentence, また adds information like 'furthermore' or 'in addition.'",
+  "notes": "また is a versatile word functioning as an adverb ('again') and conjunction ('also,' 'or'). It's one of the most common words in everyday Japanese conversation.\n\nUSAGE:\n1. 'again' (repetition): また⟦{来|き}て→来る：00254_kuru⟧⟦ね→ね：09474_ne⟧ (come again)\n2. 'also/moreover' (addition): また、⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{歌手|かしゅ}→歌手：00197_kashu⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧⟦ある→ある：00006_aru⟧ (also, he is a singer)\n3. 'or' (alternatives): ⟦{電話|でんわ}→電話：01471_denwa⟧また⟦は→は：00079_ha⟧⟦メール→メール：04435_meeru⟧ (phone or email) — the 'or' sense requires また⟦は→は：00079_ha⟧, never bare また\n\nCOMMON EXPRESSIONS:\n- また⟦ね→ね：09474_ne⟧ / また⟦{明日|あした}→明日：00501_ashita⟧: See you later / See you tomorrow (casual farewells)\n- また⟦{後|あと}で→後で：00920_atode⟧: See you later\n- また⟦{今度|こんど}→今度：01327_kondo⟧: Some other time\n- また⟦{同|おな}じ→同じ：02857_onaji⟧: the same again\n\nFORMS:\n- また⟦は→は：00079_ha⟧: or, alternatively (more formal)\n- ⟦あるいは→あるいは：03825_aruiha⟧また: or else, alternatively\n- ⟦{再|ふたた}び→再び：03600_futatabi⟧: again (more formal/literary)\n\nNOTE: When used at the start of a sentence, また adds information like 'furthermore' or 'in addition.'",
   "cross_references": [
     {
       "type": "synonym",
@@ -188,11 +188,32 @@
       "reading": "あるいは",
       "headword": "あるいは",
       "label": "or, alternatively"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11690_saido",
+      "reading": "さいど",
+      "headword": "{再度|さいど}",
+      "label": "once more, again"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19906_katsu",
+      "reading": "かつ",
+      "headword": "かつ",
+      "label": "and, moreover, at the same time"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19916_dainini",
+      "reading": "だいにに",
+      "headword": "{第二|だいに}に",
+      "label": "secondly, in the second place"
     }
   ],
   "metadata": {
     "created": "2026-01-07T12:44:14Z",
-    "modified": "2026-07-25T09:17:59Z",
+    "modified": "2026-09-02T04:00:58Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "basic",
     "tags": {

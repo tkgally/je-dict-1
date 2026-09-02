@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25371_shinyousuru_ex1",
-      "japanese": "{彼|かれ}のことは{信用|しんよう}できる。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧こと⟦は→は：00079_ha⟧{信用|しんよう}できる。",
       "english": "He can be trusted.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25371_shinyousuru_ex2",
-      "japanese": "もう{彼女|かのじょ}の{言葉|ことば}は{信用|しんよう}しない。",
+      "japanese": "⟦もう→もう：00602_mou⟧⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦の→の：09472_no⟧⟦{言葉|ことば}→言葉：02880_kotoba⟧⟦は→は：00079_ha⟧{信用|しんよう}しない。",
       "english": "I no longer trust what she says.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25371_shinyousuru_ex3",
-      "japanese": "{一度|いちど}{信用|しんよう}を{失|うしな}うと、{取|と}り{戻|もど}すのは{難|むずか}しい。",
+      "japanese": "⟦{一度|いちど}→一度：01312_ichido⟧⟦{信用|しんよう}→信用：03267_shinyou⟧⟦を→を：00422_wo⟧⟦{失|うしな}う→失う：01887_ushinau⟧⟦と→と：00512_to⟧、⟦{取|と}り{戻|もど}す→取り戻す：04223_torimodosu⟧⟦の→の：09472_no⟧⟦は→は：00079_ha⟧⟦{難|むずか}しい→難しい：00517_muzukashii⟧。",
       "english": "Once you lose someone's trust, it's hard to get it back.",
       "sense_numbers": [
         1
@@ -45,7 +45,7 @@
     },
     {
       "id": "25371_shinyousuru_ex4",
-      "japanese": "{信用|しんよう}できる{情報源|じょうほうげん}から{確認|かくにん}してください。",
+      "japanese": "{信用|しんよう}できる⟦{情報源|じょうほうげん}→情報源：15677_jouhougen⟧⟦から→から：00504_kara⟧⟦{確認|かくにん}して→確認する：25332_kakuninsuru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please verify with a trustworthy source.",
       "sense_numbers": [
         1
@@ -54,8 +54,31 @@
       "notes": null
     }
   ],
-  "notes": "Based on evidence and track record — you {信用|しんよう}する someone because they have proven reliable. The noun {信用|しんよう} is also central to financial and business vocabulary (credit, credibility).\n\nCOMMON COLLOCATIONS:\n- {信用|しんよう}を{得|え}る: to earn trust\n- {信用|しんよう}を{失|うしな}う: to lose trust\n- {信用|しんよう}{取引|とりひき}: credit transaction\n- {信用|しんよう}{金庫|きんこ}: credit union\n- {信用|しんよう}できる{人|ひと}: a trustworthy person\n\nSIMILAR WORDS:\n- {信頼|しんらい}する: to trust, to have faith in — deeper trust based on emotional bond and reliability; often used for ongoing relationships\n- {信|しん}じる: to believe — broader; includes believing in facts, religion, or claims\n- {当|あ}てにする: to count on — implies relying on someone to come through",
+  "notes": "Based on evidence and track record — you {信用|しんよう}する someone because they have proven reliable. The noun ⟦{信用|しんよう}→信用：03267_shinyou⟧ is also central to financial and business vocabulary (credit, credibility).\n\nCOMMON COLLOCATIONS:\n- ⟦{信用|しんよう}→信用：03267_shinyou⟧⟦を→を：00422_wo⟧⟦{得|え}る→得る：02014_eru⟧: to earn trust\n- ⟦{信用|しんよう}→信用：03267_shinyou⟧⟦を→を：00422_wo⟧⟦{失|うしな}う→失う：01887_ushinau⟧: to lose trust\n- ⟦{信用|しんよう}→信用：03267_shinyou⟧⟦{取引|とりひき}→取引：04700_torihiki⟧: credit transaction\n- ⟦{信用|しんよう}{金庫|きんこ}→信用金庫：24783_shinyoukinko⟧: credit union\n- {信用|しんよう}できる⟦{人|ひと}→人：00476_hito⟧: a trustworthy person\n\nSIMILAR WORDS:\n- ⟦{信頼|しんらい}する→信頼する：22988_shinraisuru⟧: to trust, to have faith in — deeper trust based on emotional bond and reliability; often used for ongoing relationships\n- ⟦{信|しん}じる→信じる：01111_shinjiru⟧: to believe — broader; includes believing in facts, religion, or claims\n- ⟦{当|あ}てにする→当てにする：25856_atenisuru⟧: to count on — implies relying on someone to come through",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22988_shinraisuru",
+      "reading": "しんらいする",
+      "headword": "{信頼|しんらい}する",
+      "label": "to trust, to have faith in"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01111_shinjiru",
+      "reading": "しんじる",
+      "headword": "{信|しん}じる",
+      "label": "to believe"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25856_atenisuru",
+      "reading": "あてにする",
+      "headword": "{当|あ}てにする",
+      "label": "to count on"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -72,7 +95,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-24T16:15:29Z",
-    "modified": "2026-08-04T12:59:53Z"
+    "modified": "2026-09-02T04:02:22Z"
   },
   "conjugation": {
     "type": "suru",

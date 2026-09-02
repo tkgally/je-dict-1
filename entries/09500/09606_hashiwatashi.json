@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "09606_hashiwatashi_ex1",
-      "japanese": "{両者|りょうしゃ}の{橋渡|はしわた}しをする。",
+      "japanese": "⟦{両者|りょうしゃ}→両者：11357_ryousha⟧⟦の→の：09472_no⟧{橋渡|はしわた}し⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧。",
       "english": "To act as a mediator between the two parties.",
       "has_audio": false,
       "sense_numbers": [
@@ -114,7 +114,7 @@
     },
     {
       "id": "09606_hashiwatashi_ex2",
-      "japanese": "{彼|かれ}は{日本|にほん}と{海外|かいがい}の{橋渡|はしわた}し{役|やく}を{務|つと}めた。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{日本|にほん}→日本：03876_nihon⟧⟦と→と：00512_to⟧⟦{海外|かいがい}→海外：00134_kaigai⟧⟦の→の：09472_no⟧{橋渡|はしわた}し{役|やく}⟦を→を：00422_wo⟧⟦{務|つと}めた→務める：10446_tsutomeru⟧。",
       "english": "He served as a bridge between Japan and overseas.",
       "has_audio": false,
       "sense_numbers": [
@@ -124,7 +124,7 @@
     },
     {
       "id": "09606_hashiwatashi_ex3",
-      "japanese": "{通訳|つうやく}が{言語|げんご}の{橋渡|はしわた}しをしてくれた。",
+      "japanese": "⟦{通訳|つうやく}→通訳：03516_tsuuyaku⟧⟦が→が：00051_ga⟧⟦{言語|げんご}→言語：02717_gengo⟧⟦の→の：09472_no⟧{橋渡|はしわた}し⟦を→を：00422_wo⟧⟦して→する：00392_suru⟧⟦くれた→くれる：00724_kureru⟧。",
       "english": "The interpreter served as a linguistic bridge.",
       "has_audio": false,
       "sense_numbers": [
@@ -133,11 +133,40 @@
       "notes": null
     }
   ],
-  "notes": "Literally \"bridge-passing\" — the metaphor of building a bridge between two sides. Used figuratively for mediating, connecting, or serving as a go-between.\n\nCOMMON PATTERNS:\n- {橋渡|はしわた}しをする: to act as a mediator/bridge\n- {橋渡|はしわた}し{役|やく}: the role of go-between\n- {文化|ぶんか}の{橋渡|はしわた}し: cultural bridging\n- {言語|げんご}の{橋渡|はしわた}し: linguistic bridging\n\nCONTEXT:\nOften used to describe people who facilitate understanding between different groups — countries, cultures, departments, or individuals in conflict.\n\nRELATED TERMS:\n- {仲介|ちゅうかい}: mediation (more formal, often business/legal)\n- {仲立|なかだ}ち: go-between, intermediary\n- {架|か}け{橋|はし}: bridge, link (more poetic/metaphorical)\n- {取|と}り{持|も}つ: to mediate, to act as intermediary",
-  "cross_references": [],
+  "notes": "Literally \"bridge-passing\" — the metaphor of building a bridge between two sides. Used figuratively for mediating, connecting, or serving as a go-between.\n\nCOMMON PATTERNS:\n- {橋渡|はしわた}し⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧: to act as a mediator/bridge\n- {橋渡|はしわた}し{役|やく}: the role of go-between\n- ⟦{文化|ぶんか}→文化：01504_bunka⟧⟦の→の：09472_no⟧{橋渡|はしわた}し: cultural bridging\n- ⟦{言語|げんご}→言語：02717_gengo⟧⟦の→の：09472_no⟧{橋渡|はしわた}し: linguistic bridging\n\nUSAGE:\nOften used to describe people who facilitate understanding between different groups — countries, cultures, departments, or individuals in conflict.\n\nRELATED WORDS:\n- ⟦{仲介|ちゅうかい}→仲介：09718_chuukai⟧: mediation (more formal, often business/legal)\n- {仲立|なかだ}ち: go-between, intermediary\n- ⟦{架|か}け{橋|はし}→架け橋：09607_kakehashi⟧: bridge, link (more poetic/metaphorical)\n- ⟦{取|と}り{持|も}つ→取り持つ：09988_torimotsu⟧: to mediate, to act as intermediary",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "09718_chuukai",
+      "reading": "ちゅうかい",
+      "headword": "{仲介|ちゅうかい}",
+      "label": "mediation"
+    },
+    {
+      "type": "related",
+      "target_id": "09607_kakehashi",
+      "reading": "かけはし",
+      "headword": "{架|か}け{橋|はし}",
+      "label": "bridge, link"
+    },
+    {
+      "type": "related",
+      "target_id": "09988_torimotsu",
+      "reading": "とりもつ",
+      "headword": "{取|と}り{持|も}つ",
+      "label": "to mediate, to act as intermediary"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23688_tsunagiyaku",
+      "reading": "つなぎやく",
+      "headword": "つなぎ{役|やく}",
+      "label": "intermediary"
+    }
+  ],
   "metadata": {
     "created": "2026-02-03T02:33:34Z",
-    "modified": "2026-03-30T06:07:33Z",
+    "modified": "2026-09-02T04:01:18Z",
     "ai_model": "opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

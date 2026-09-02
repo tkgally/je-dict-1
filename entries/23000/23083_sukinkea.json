@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "23083_sukinkea_ex1",
-      "japanese": "スキンケアは{毎日|まいにち}{大切|たいせつ}だ。",
+      "japanese": "スキンケア⟦は→は：00079_ha⟧⟦{毎日|まいにち}→毎日：00729_mainichi⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧だ。",
       "english": "Daily skin care is important.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "23083_sukinkea_ex2",
-      "japanese": "{冬|ふゆ}はスキンケアに{気|き}を{使|つか}う。",
+      "japanese": "⟦{冬|ふゆ}→冬：00623_fuyu⟧⟦は→は：00079_ha⟧スキンケア⟦に→に：00314_ni⟧⟦{気|き}→気：02199_ki⟧⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧。",
       "english": "I pay attention to skin care in winter.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "23083_sukinkea_ex3",
-      "japanese": "{最近|さいきん}、{男性|だんせい}もスキンケアに{力|ちから}を{入|い}れるようになった。",
+      "japanese": "⟦{最近|さいきん}→最近：00881_saikin⟧、⟦{男性|だんせい}→男性：01655_dansei⟧⟦も→も：00484_mo⟧スキンケア⟦に→に：00314_ni⟧⟦{力|ちから}→力：01661_chikara⟧⟦を→を：00422_wo⟧⟦{入|い}れる→入れる：01098_ireru⟧ようになった。",
       "english": "Recently, men have also started putting effort into skin care.",
       "sense_numbers": [
         1
@@ -44,8 +44,45 @@
       "notes": null
     }
   ],
-  "notes": "A common loanword from English 'skin care.' Refers to the daily routine and products used for maintaining healthy skin. Skin care culture is highly developed in Japan, and スキンケア is a widely used everyday term.\n\nCOMMON COLLOCATIONS:\n- スキンケア{用品|ようひん}: skin care products\n- スキンケア{商品|しょうひん}: skin care goods\n- スキンケアをする: to do skin care\n- {朝|あさ}のスキンケア: morning skin care routine\n- {夜|よる}のスキンケア: evening skin care routine\n\nRELATED TERMS:\n- {化粧水|けしょうすい}: facial toner; lotion\n- {乳液|にゅうえき}: moisturizing milk; emulsion\n- {美容|びよう}: beauty; cosmetic care — broader term covering all beauty treatments\n- {肌荒|はだあ}れ: rough skin; skin problems — a common reason for skin care",
+  "notes": "A common loanword from English 'skin care.' Refers to the daily routine and products used for maintaining healthy skin. Skin care culture is highly developed in Japan, and スキンケア is a widely used everyday term.\n\nCOMMON COLLOCATIONS:\n- スキンケア⟦{用品|ようひん}→用品：13526_youhin⟧: skin care products\n- スキンケア⟦{商品|しょうひん}→商品：01436_shouhin⟧: skin care goods\n- スキンケア⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧: to do skin care\n- ⟦{朝|あさ}→朝：02277_asa⟧⟦の→の：09472_no⟧スキンケア: morning skin care routine\n- ⟦{夜|よる}→夜：00487_yoru⟧⟦の→の：09472_no⟧スキンケア: evening skin care routine\n\nRELATED WORDS:\n- ⟦{化粧水|けしょうすい}→化粧水：15802_keshousui⟧: facial toner; lotion\n- ⟦{乳液|にゅうえき}→乳液：16091_nyuueki⟧: moisturizing milk; emulsion\n- ⟦{美容|びよう}→美容：00014_biyou⟧: beauty; cosmetic care — broader term covering all beauty treatments\n- ⟦{肌荒|はだあ}れ→肌荒れ：08421_hadaare⟧: rough skin; skin problems — a common reason for skin care",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "15802_keshousui",
+      "reading": "けしょうすい",
+      "headword": "{化粧水|けしょうすい}",
+      "label": "facial toner"
+    },
+    {
+      "type": "related",
+      "target_id": "16091_nyuueki",
+      "reading": "にゅうえき",
+      "headword": "{乳液|にゅうえき}",
+      "label": "moisturizing milk"
+    },
+    {
+      "type": "related",
+      "target_id": "00014_biyou",
+      "reading": "びよう",
+      "headword": "{美容|びよう}",
+      "label": "beauty"
+    },
+    {
+      "type": "related",
+      "target_id": "08421_hadaare",
+      "reading": "はだあれ",
+      "headword": "{肌荒|はだあ}れ",
+      "label": "rough skin"
+    },
+    {
+      "type": "related",
+      "target_id": "05119_keshouhin",
+      "reading": "けしょうひん",
+      "headword": "{化粧品|けしょうひん}",
+      "label": "cosmetics"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +97,6 @@
       ]
     },
     "created": "2026-04-08T18:29:29Z",
-    "modified": "2026-07-31T00:22:50Z"
+    "modified": "2026-09-02T04:02:10Z"
   }
 }

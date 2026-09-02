@@ -15,41 +15,66 @@
   "examples": [
     {
       "id": "13160_kashi_ex1",
-      "japanese": "この{曲|きょく}の{歌詞|かし}が{好|す}きだ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{曲|きょく}→曲：09881_kyoku⟧⟦の→の：09472_no⟧{歌詞|かし}⟦が→が：00051_ga⟧⟦{好|す}き→好き：02355_suki⟧だ。",
       "english": "I like the lyrics of this song.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13160_kashi_ex2",
-      "japanese": "{歌詞|かし}を{見|み}ないで{歌|うた}えるようになった。",
+      "japanese": "{歌詞|かし}⟦を→を：00422_wo⟧⟦{見|み}ないで→見る：00283_miru⟧⟦{歌|うた}える→歌う：00684_utau⟧ようになった。",
       "english": "I became able to sing without looking at the lyrics.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13160_kashi_ex3",
-      "japanese": "{彼女|かのじょ}は{自分|じぶん}の{経験|けいけん}をもとに{歌詞|かし}を{書|か}いている。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧⟦{自分|じぶん}→自分：02887_jibun⟧⟦の→の：09472_no⟧⟦{経験|けいけん}→経験：01179_keiken⟧⟦を→を：00422_wo⟧もと⟦に→に：00314_ni⟧{歌詞|かし}⟦を→を：00422_wo⟧⟦{書|か}いている→書く：00477_kaku⟧。",
       "english": "She writes lyrics based on her own experiences.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "ETYMOLOGY:\n{歌|か} (song) + {詞|し} (words, text).\n\nUSAGE:\n{歌詞|かし} refers specifically to the words of a song, as distinct from the melody ({旋律|せんりつ}/メロディー) or musical arrangement ({編曲|へんきょく}). The person who writes lyrics is called a {作詞家|さくしか}.\n\nCOMMON COLLOCATIONS:\n- {歌詞|かし}を{書|か}く: to write lyrics\n- {歌詞|かし}を{覚|おぼ}える: to memorize lyrics\n- {歌詞|かし}カード: lyric card\n- {作詞|さくし}: lyric writing, songwriting",
-  "cross_references": [],
+  "notes": "ETYMOLOGY:\n{歌|か} (song) + {詞|し} (words, text).\n\nUSAGE:\n{歌詞|かし} refers specifically to the words of a song, as distinct from the melody (⟦{旋律|せんりつ}→旋律：04753_senritsu⟧/⟦メロディー→メロディー：05877_merodii⟧) or musical arrangement (⟦{編曲|へんきょく}→編曲：05234_henkyoku⟧). The person who writes lyrics is called a ⟦{作詞家|さくしか}→作詞家：21752_sakushika⟧.\n\nCOMMON COLLOCATIONS:\n- {歌詞|かし}⟦を→を：00422_wo⟧⟦{書|か}く→書く：00477_kaku⟧: to write lyrics\n- {歌詞|かし}⟦を→を：00422_wo⟧⟦{覚|おぼ}える→覚える：00739_oboeru⟧: to memorize lyrics\n- {歌詞|かし}⟦カード→カード：03836_kaado⟧: lyric card\n- ⟦{作詞|さくし}→作詞：05233_sakushi⟧: lyric writing, songwriting",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "05233_sakushi",
+      "reading": "さくし",
+      "headword": "{作詞|さくし}",
+      "label": "songwriting"
+    },
+    {
+      "type": "related",
+      "target_id": "05877_merodii",
+      "reading": "めろでぃー",
+      "headword": "メロディー",
+      "label": "melody, tune"
+    }
+  ],
   "metadata": {
     "created": "2026-02-23T12:15:45Z",
-    "modified": "2026-02-23T12:15:45Z",
+    "modified": "2026-09-02T04:01:32Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["music"]
+      "semantic": [
+        "music"
+      ]
     }
   }
 }

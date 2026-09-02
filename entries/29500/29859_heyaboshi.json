@@ -15,41 +15,60 @@
   "examples": [
     {
       "id": "29859_heyaboshi_ex1",
-      "japanese": "{雨|あめ}の{日|ひ}は{部屋干|へやぼ}しをする。",
+      "japanese": "⟦{雨|あめ}→雨：00583_ame⟧⟦の→の：09472_no⟧⟦{日|ひ}→日：02249_hi⟧⟦は→は：00079_ha⟧{部屋干|へやぼ}し⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧。",
       "english": "On rainy days I dry the laundry indoors.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29859_heyaboshi_ex2",
-      "japanese": "{部屋干|へやぼ}しだと{生乾|なまがわ}きの{臭|にお}いがすることがある。",
+      "japanese": "{部屋干|へやぼ}しだ⟦と→と：00512_to⟧⟦{生乾|なまがわ}き→生乾き：16268_namagawaki⟧⟦の→の：09472_no⟧{臭|にお}い⟦が→が：00051_ga⟧⟦する→する：00392_suru⟧こと⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "Drying indoors can sometimes leave a musty, half-dry smell.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29859_heyaboshi_ex3",
-      "japanese": "{花粉|かふん}の{季節|きせつ}は{洗濯物|せんたくもの}を{部屋干|へやぼ}しする{家庭|かてい}が{多|おお}い。",
+      "japanese": "⟦{花粉|かふん}→花粉：04372_kafun⟧⟦の→の：09472_no⟧⟦{季節|きせつ}→季節：01304_kisetsu⟧⟦は→は：00079_ha⟧⟦{洗濯物|せんたくもの}→洗濯物：09533_sentakumono⟧⟦を→を：00422_wo⟧{部屋干|へやぼ}し⟦する→する：00392_suru⟧⟦{家庭|かてい}→家庭：12315_katei⟧⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "During pollen season, many households dry their laundry indoors.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {部屋|へや} (room) + {干|ぼ}し (drying, from {干|ほ}す). The {ほ} becomes {ぼ} through rendaku. Can also be used with する ({部屋干|へやぼ}しする).\n\nCOMMON COLLOCATIONS:\n- {部屋干|へやぼ}しの{臭|にお}い: the smell of indoor-dried laundry\n- {部屋干|へやぼ}し{用|よう}{洗剤|せんざい}: detergent made for indoor drying\n\nSIMILAR WORDS:\n- {外干|そとぼ}し: drying outdoors — the natural opposite\n- {陰干|かげぼ}し: drying in the shade — avoiding direct sunlight",
+  "notes": "Composed of ⟦{部屋|へや}→部屋：00507_heya⟧ (room) + {干|ぼ}し (drying, from ⟦{干|ほ}す→干す：00115_hosu⟧). The ほ becomes ぼ through rendaku. Can also be used with ⟦する→する：00392_suru⟧ ({部屋干|へやぼ}し⟦する→する：00392_suru⟧).\n\nCOMMON COLLOCATIONS:\n- {部屋干|へやぼ}し⟦の→の：09472_no⟧{臭|にお}い: the smell of indoor-dried laundry\n- {部屋干|へやぼ}し⟦{用|よう}→〜用：09842_you⟧⟦{洗剤|せんざい}→洗剤：03304_senzai⟧: detergent made for indoor drying\n\nSIMILAR WORDS:\n- {外干|そとぼ}し: drying outdoors — the natural opposite\n- ⟦{陰干|かげぼ}し→陰干し：26260_kageboshi⟧: drying in the shade — avoiding direct sunlight",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "26260_kageboshi",
+      "reading": "かげぼし",
+      "headword": "{陰干|かげぼ}し",
+      "label": "drying in the shade"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["daily-life"],
+      "politeness": "plain",
+      "semantic": [
+        "daily-life"
+      ],
       "domain": []
     },
     "created": "2026-07-15T12:19:49Z",
-    "modified": "2026-07-15T12:19:49Z"
+    "modified": "2026-09-02T04:02:38Z"
   }
 }

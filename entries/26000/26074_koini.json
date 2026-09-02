@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26074_koini_ex1",
-      "japanese": "{故意|こい}にやったのではない。",
+      "japanese": "{故意|こい}に⟦やった→やる：02980_yaru⟧⟦の→の：09472_no⟧で⟦は→は：00079_ha⟧⟦ない→ない：01118_nai⟧。",
       "english": "I didn't do it on purpose.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26074_koini_ex2",
-      "japanese": "{彼|かれ}は{故意|こい}に{情報|じょうほう}を{隠|かく}していた。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{故意|こい}に⟦{情報|じょうほう}→情報：03348_jouhou⟧⟦を→を：00422_wo⟧⟦{隠|かく}していた→隠す：02034_kakusu⟧。",
       "english": "He was deliberately hiding information.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26074_koini_ex3",
-      "japanese": "{故意|こい}に{規則|きそく}に{違反|いはん}した{場合|ばあい}は、{厳|きび}しい{処分|しょぶん}が{科|か}せられる。",
+      "japanese": "{故意|こい}に⟦{規則|きそく}→規則：01382_kisoku⟧⟦に→に：00314_ni⟧⟦{違反|いはん}→違反：01824_ihan⟧⟦した→する：00392_suru⟧⟦{場合|ばあい}→場合：01704_baai⟧⟦は→は：00079_ha⟧、⟦{厳|きび}しい→厳しい：01125_kibishii⟧⟦{処分|しょぶん}→処分：05520_shobun⟧⟦が→が：00051_ga⟧{科|か}せられる。",
       "english": "If you deliberately violate the rules, severe penalties will be imposed.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "A formal adverb used to express that an action was done on purpose. {故意|こい} is a noun meaning \"intent, deliberateness\" and に makes it adverbial. It is particularly common in legal, news, and formal written contexts.\n\nCOMMON COLLOCATIONS:\n- {故意|こい}に{壊|こわ}す — to break intentionally\n- {故意|こい}に{無視|むし}する — to deliberately ignore\n- {故意|こい}に{隠|かく}す — to intentionally conceal\n- {故意|こい}に{遅|おく}らせる — to delay on purpose\n\nSIMILAR WORDS:\n- わざと — on purpose, deliberately (more colloquial; used in everyday speech)\n- {意図的|いとてき}に — intentionally (similar formality; focuses on the planned nature)\n- {意識的|いしきてき}に — consciously, intentionally (emphasizes awareness)\n\nUSAGE:\n{故意|こい}に is more formal and written than わざと. In legal contexts, {故意|こい} (as a noun) contrasts with {過失|かしつ} (negligence): {故意|こい}による{犯罪|はんざい} (intentional crime) vs. {過失|かしつ}による{犯罪|はんざい} (crime by negligence).",
+  "notes": "A formal adverb used to express that an action was done on purpose. ⟦{故意|こい}→故意：16844_koi⟧ is a noun meaning \"intent, deliberateness\" and ⟦に→に：00314_ni⟧ makes it adverbial. It is particularly common in legal, news, and formal written contexts.\n\nCOMMON COLLOCATIONS:\n- {故意|こい}に⟦{壊|こわ}す→壊す：01241_kowasu⟧ — to break intentionally\n- {故意|こい}に⟦{無視|むし}する→無視する：17288_mushisuru⟧ — to deliberately ignore\n- {故意|こい}に⟦{隠|かく}す→隠す：02034_kakusu⟧ — to intentionally conceal\n- {故意|こい}に⟦{遅|おく}らせる→遅らせる：02480_okuraseru⟧ — to delay on purpose\n\nSIMILAR WORDS:\n- ⟦わざと→わざと：03791_wazato⟧ — on purpose, deliberately (more colloquial; used in everyday speech)\n- ⟦{意図的|いとてき}→意図的：16841_itoteki⟧⟦に→に：00314_ni⟧ — intentionally (similar formality; focuses on the planned nature)\n- {意識的|いしきてき}⟦に→に：00314_ni⟧ — consciously, intentionally (emphasizes awareness)\n\nUSAGE:\n{故意|こい}に is more formal and written than ⟦わざと→わざと：03791_wazato⟧. In legal contexts, ⟦{故意|こい}→故意：16844_koi⟧ (as a noun) contrasts with ⟦{過失|かしつ}→過失：00194_kashitsu⟧ (negligence): {故意|こい}に⟦よる→よる：09857_yoru⟧⟦{犯罪|はんざい}→犯罪：03569_hanzai⟧ (intentional crime) vs. ⟦{過失|かしつ}→過失：00194_kashitsu⟧⟦による→による：28349_niyoru⟧⟦{犯罪|はんざい}→犯罪：03569_hanzai⟧ (crime by negligence).",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03791_wazato",
+      "reading": "わざと",
+      "headword": "わざと",
+      "label": "on purpose, deliberately (more…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16841_itoteki",
+      "reading": "いとてき",
+      "headword": "{意図的|いとてき}",
+      "label": "intentionally (similar formality"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,6 +78,6 @@
       ]
     },
     "created": "2026-04-29T12:35:00Z",
-    "modified": "2026-06-15T07:59:19Z"
+    "modified": "2026-09-02T04:02:25Z"
   }
 }

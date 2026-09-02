@@ -15,12 +15,12 @@ When a polishing session starts, read this skill, then read the specific prompt 
 
 1. Reads `polishing/tasks/comprehensive/progress.txt` for the next entry ID.
 2. Processes **20–30 entries** (target ~70% context use), applying a tiered checklist (tier 1 required-for-every-entry, tier 2 should-do judgment items, tier 3 nice-to-have polish).
-3. For each entry, ensures **full inline link coverage** on every Japanese word in both examples AND notes (tier 1 requirement). Words without entries get `noentry` markers and are added to candidates.
+3. For each entry, does the judgment work (correctness, the contrast or warning a learner needs, trimming, tags); inline links and notes-named cross-references are added by `build/auto_link.py` and `build/harvest_crossrefs.py` at wrap-up, never by hand
 4. For each entry, checks **back-link symmetry on direct neighbors** — adds a back-link on the linked entry where appropriate, but does **not** recurse.
 5. Logs words found in examples/notes that lack entries to `candidate_words.json` with "seen in entry XXXXX" notes (these become highest-priority candidates).
 6. Logs systemic patterns and longer-horizon ideas to `polishing/observations.md`.
 7. Writes a session log to `polishing/sessions/comprehensive_{YYYY-MM-DD}_{NNN}.md`.
-8. Runs `make build`, commits, and creates a PR following the end-of-session workflow in `CLAUDE.md`.
+8. Runs `make index`, commits, and creates a PR following the end-of-session workflow in `CLAUDE.md` (the site is built by GitHub Actions after the merge).
 
 The comprehensive task subsumes the targeted polish prompts listed below. Use it unless you have a specific reason to run a focused sweep.
 
@@ -103,6 +103,6 @@ The targeted polish prompts support parallel execution when given an explicit ID
 
 1. **One timestamp per entry** — run `get_timestamp.py` before saving each entry.
 2. **Don't recurse on neighbors** in comprehensive polish — direct neighbors only, no further hops.
-3. **Don't run `make build` mid-session** for parallel-mode runs; the coordinator handles it.
+3. **Don't run `make index` mid-session** for parallel-mode runs; the coordinator handles it.
 4. **Always write a session log** before stopping — even short sessions.
 5. **End-of-session workflow** (build, commit including `docs/`, push, PR, CI watch, squash-merge, branch cleanup) is documented in `CLAUDE.md`. Follow it exactly.

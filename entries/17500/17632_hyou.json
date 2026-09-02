@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "17632_hyou_ex1",
-      "japanese": "{雹|ひょう}が{降|ふ}ってきた。",
+      "japanese": "{雹|ひょう}⟦が→が：00051_ga⟧⟦{降|ふ}って→降る：00839_furu⟧きた。",
       "english": "Hail started falling.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "17632_hyou_ex2",
-      "japanese": "{雹|ひょう}で{車|くるま}のボンネットがへこんだ。",
+      "japanese": "{雹|ひょう}⟦で→で：00502_de⟧⟦{車|くるま}→車：00516_kuruma⟧⟦の→の：09472_no⟧⟦ボンネット→ボンネット：28602_bonnetto⟧⟦が→が：00051_ga⟧へこんだ。",
       "english": "The car hood got dented by the hail.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "17632_hyou_ex3",
-      "japanese": "{夏|なつ}の{夕立|ゆうだち}で{大粒|おおつぶ}の{雹|ひょう}が{降|ふ}り、{農作物|のうさくぶつ}に{被害|ひがい}が{出|で}た。",
+      "japanese": "⟦{夏|なつ}→夏：02236_natsu⟧⟦の→の：09472_no⟧⟦{夕立|ゆうだち}→夕立：05862_yuudachi⟧⟦で→で：00502_de⟧⟦{大粒|おおつぶ}→大粒：15833_ootsubu⟧⟦の→の：09472_no⟧{雹|ひょう}⟦が→が：00051_ga⟧⟦{降|ふ}り→降る：00839_furu⟧、⟦{農作物|のうさくぶつ}→農作物：15271_nousakubutsu⟧⟦に→に：00314_ni⟧⟦{被害|ひがい}→被害：02572_higai⟧⟦が→が：00051_ga⟧⟦{出|で}た→出る：00513_deru⟧。",
       "english": "Large hailstones fell during a summer evening shower, causing damage to crops.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,26 @@
       ]
     }
   ],
-  "notes": "SIMILAR WORDS:\n- {霰|あられ}: sleet/graupel (smaller ice pellets, under 5mm)\n- {雹|ひょう}: hail (larger ice pellets, 5mm or more)\n\nThe meteorological distinction is based on size: ice pellets under 5mm are classified as {霰|あられ}, while those 5mm and above are {雹|ひょう}.\n\nCOMMON COLLOCATIONS:\n- {雹|ひょう}が{降|ふ}る: hail falls\n- {雹|ひょう}の{被害|ひがい}: hail damage\n- {大粒|おおつぶ}の{雹|ひょう}: large hailstones",
-  "cross_references": [],
+  "notes": "SIMILAR WORDS:\n- ⟦{霰|あられ}→霰：05392_arare⟧: sleet/graupel (smaller ice pellets, under 5mm)\n- {雹|ひょう}: hail (larger ice pellets, 5mm or more)\n\nThe meteorological distinction is based on size: ice pellets under 5mm are classified as ⟦{霰|あられ}→霰：05392_arare⟧, while those 5mm and above are {雹|ひょう}.\n\nCOMMON COLLOCATIONS:\n- {雹|ひょう}⟦が→が：00051_ga⟧⟦{降|ふ}る→降る：00839_furu⟧: hail falls\n- {雹|ひょう}⟦の→の：09472_no⟧⟦{被害|ひがい}→被害：02572_higai⟧: hail damage\n- ⟦{大粒|おおつぶ}→大粒：15833_ootsubu⟧⟦の→の：09472_no⟧{雹|ひょう}: large hailstones",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05392_arare",
+      "reading": "あられ",
+      "headword": "{霰|あられ}",
+      "label": "sleet/graupel"
+    },
+    {
+      "type": "related",
+      "target_id": "06505_mizore",
+      "reading": "みぞれ",
+      "headword": "{霙|みぞれ}",
+      "label": "sleet"
+    }
+  ],
   "metadata": {
     "created": "2026-02-09T04:11:25Z",
-    "modified": "2026-03-18T10:11:24Z",
+    "modified": "2026-09-02T04:01:49Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

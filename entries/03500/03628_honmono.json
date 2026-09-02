@@ -69,7 +69,7 @@
     },
     {
       "id": "03628_honmono_ex6",
-      "japanese": "⟦{厳|きび}しい→厳しい：01125_kibishii⟧⟦{練習|れんしゅう}→練習：05323_renshuu⟧⟦を→を：00422_wo⟧⟦{乗|の}り{越|こ}えてこそ→乗り越える：04620_norikoeru⟧、{本物|ほんもの}⟦の→の：09472_no⟧⟦{選手|せんしゅ}→選手：03823_senshu⟧⟦に→に：00314_ni⟧なれる。",
+      "japanese": "⟦{厳|きび}しい→厳しい：01125_kibishii⟧⟦{練習|れんしゅう}→練習：05323_renshuu⟧⟦を→を：00422_wo⟧⟦{乗|の}り{越|こ}えてこそ→乗り越える：04620_norikoeru⟧、{本物|ほんもの}⟦の→の：09472_no⟧⟦{選手|せんしゅ}→選手：03823_senshu⟧⟦に→に：00314_ni⟧⟦なれる→なる：01970_naru⟧。",
       "english": "Only by overcoming tough training can you become a true athlete.",
       "notes": null,
       "has_audio": false,
@@ -78,7 +78,7 @@
       ]
     }
   ],
-  "notes": "{本物|ほんもの} means the genuine article — something authentic as opposed to a fake. It can also describe a person with real skill or talent (\"the real deal\").\n\nCOMMON PATTERNS:\n- {本物|ほんもの}⟦の→の：09472_no⟧〜: genuine ~, real ~\n- {本物|ほんもの}かどうか: whether it's real or not\n- {本物|ほんもの}⟦そっくり→そっくり：00378_sokkuri⟧: just like the real thing\n- {本物|ほんもの}⟦の→の：09472_no⟧⟦{実力|じつりょく}→実力：03277_jitsuryoku⟧: real ability\n\nANTONYM: ⟦{偽物|にせもの}→偽物：11521_nisemono⟧ (fake, counterfeit)",
+  "notes": "{本物|ほんもの} means the genuine article — something authentic as opposed to a fake. It can also describe a person with real skill or talent (\"the real deal\").\n\nCOMMON PATTERNS:\n- {本物|ほんもの}⟦の→の：09472_no⟧〜: genuine ~, real ~\n- {本物|ほんもの}⟦かどうか→かどうか：28299_kadouka⟧: whether it's real or not\n- {本物|ほんもの}⟦そっくり→そっくり：00378_sokkuri⟧: just like the real thing\n- {本物|ほんもの}⟦の→の：09472_no⟧⟦{実力|じつりょく}→実力：03277_jitsuryoku⟧: real ability\n\nANTONYM: ⟦{偽物|にせもの}→偽物：11521_nisemono⟧ (fake, counterfeit)",
   "cross_references": [
     {
       "type": "antonym",
@@ -86,11 +86,32 @@
       "headword": "{偽物|にせもの}",
       "label": "fake",
       "target_id": "11521_nisemono"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21689_junsei",
+      "reading": "じゅんせい",
+      "headword": "{純正|じゅんせい}",
+      "label": "genuine"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22101_honbamono",
+      "reading": "ほんばもの",
+      "headword": "{本場物|ほんばもの}",
+      "label": "the genuine article"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28344_jitsu",
+      "reading": "じつ",
+      "headword": "{実|じつ}",
+      "label": "real"
     }
   ],
   "metadata": {
     "created": "2026-01-12T15:38:00Z",
-    "modified": "2026-05-26T19:11:30Z",
+    "modified": "2026-09-02T04:01:03Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

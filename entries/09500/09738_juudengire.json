@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "09738_juudengire_ex1",
-      "japanese": "スマホが{充電|じゅうでん}{切|き}れになった。",
+      "japanese": "⟦スマホ→スマホ：04721_sumaho⟧⟦が→が：00051_ga⟧{充電|じゅうでん}{切|き}れになった。",
       "english": "My smartphone ran out of battery.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "09738_juudengire_ex2",
-      "japanese": "{充電|じゅうでん}{切|き}れで{連絡|れんらく}できなかった。",
+      "japanese": "{充電|じゅうでん}{切|き}れ⟦で→で：00502_de⟧⟦{連絡|れんらく}→連絡：01524_renraku⟧⟦できなかった→できる：00557_dekiru⟧。",
       "english": "I couldn't contact you because my phone was dead.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "09738_juudengire_ex3",
-      "japanese": "{外出先|がいしゅつさき}での{充電|じゅうでん}{切|き}れが{心配|しんぱい}だから、モバイルバッテリーを{持|も}ち{歩|ある}いている。",
+      "japanese": "⟦{外出先|がいしゅつさき}→外出先：28536_gaishutsusaki⟧⟦で→で：00502_de⟧⟦の→の：09472_no⟧{充電|じゅうでん}{切|き}れ⟦が→が：00051_ga⟧⟦{心配|しんぱい}→心配：00811_shinpai⟧だ⟦から→から：00504_kara⟧、⟦モバイルバッテリー→モバイルバッテリー：07553_mobairubatterii⟧⟦を→を：00422_wo⟧⟦{持|も}ち{歩|ある}いている→持ち歩く：05739_mochiaruku⟧。",
       "english": "I carry a portable charger because I worry about running out of battery when I'm out.",
       "notes": null,
       "has_audio": false,
@@ -43,10 +43,10 @@
       ]
     }
   ],
-  "notes": "{充電|じゅうでん}{切|き}れ describes a common modern-day problem.\n\nCOMMON EXPRESSIONS:\n- {充電|じゅうでん}が{切|き}れる (battery dies)\n- {充電|じゅうでん}が{切|き}れそう (battery is about to die)\n- バッテリー{切|ぎ}れ (battery dead, alternate expression)\n\nPREVENTION:\n- モバイルバッテリー: portable charger\n- {充電|じゅうでん}スポット: charging station\n- {省電力|しょうでんりょく}モード: power-saving mode\n\nRELATED TERMS:\n- {充電|じゅうでん}: charging\n- {残量|ざんりょう}: remaining charge",
+  "notes": "{充電|じゅうでん}{切|き}れ describes a common modern-day problem.\n\nCOMMON EXPRESSIONS:\n- ⟦{充電|じゅうでん}→充電：04427_juuden⟧⟦が→が：00051_ga⟧⟦{切|き}れる→切れる：01936_kireru⟧ (battery dies)\n- ⟦{充電|じゅうでん}→充電：04427_juuden⟧⟦が→が：00051_ga⟧⟦{切|き}れ→切れる：01936_kireru⟧そう (battery is about to die)\n- ⟦バッテリー→バッテリー：04425_batterii⟧{切|ぎ}れ (battery dead, alternate expression)\n\nPREVENTION:\n- ⟦モバイルバッテリー→モバイルバッテリー：07553_mobairubatterii⟧: portable charger\n- ⟦{充電|じゅうでん}→充電：04427_juuden⟧⟦スポット→スポット：11578_supotto⟧: charging station\n- ⟦{省電力|しょうでんりょく}→省電力：24848_shoudenryoku⟧⟦モード→モード：11596_moodo⟧: power-saving mode\n\nRELATED WORDS:\n- ⟦{充電|じゅうでん}→充電：04427_juuden⟧: charging\n- ⟦{残量|ざんりょう}→残量：18269_zanryou⟧: remaining charge",
   "metadata": {
     "created": "2026-02-03T07:20:33Z",
-    "modified": "2026-06-24T18:40:49Z",
+    "modified": "2026-09-02T04:01:19Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -74,6 +74,20 @@
       "reading": "きしゅへんこう",
       "headword": "{機種|きしゅ}{変更|へんこう}",
       "label": "phone upgrade"
+    },
+    {
+      "type": "related",
+      "target_id": "18269_zanryou",
+      "reading": "ざんりょう",
+      "headword": "{残量|ざんりょう}",
+      "label": "remaining charge"
+    },
+    {
+      "type": "related",
+      "target_id": "07688_denchigire",
+      "reading": "でんちぎれ",
+      "headword": "{電池切|でんちぎ}れ",
+      "label": "dead battery"
     }
   ]
 }

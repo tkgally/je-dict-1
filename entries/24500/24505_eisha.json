@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24505_eisha_ex1",
-      "japanese": "{遠泳|えんえい}の{泳者|えいしゃ}たちが{海|うみ}に{入|はい}った。",
+      "japanese": "⟦{遠泳|えんえい}→遠泳：15159_enei⟧⟦の→の：09472_no⟧{泳者|えいしゃ}たち⟦が→が：00051_ga⟧⟦{海|うみ}→海：00556_umi⟧⟦に→に：00314_ni⟧⟦{入|はい}った→入る：00494_hairu⟧。",
       "english": "The long-distance swimmers entered the sea.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24505_eisha_ex2",
-      "japanese": "{泳者|えいしゃ}の{安全|あんぜん}を{守|まも}るためにライフガードが{配置|はいち}された。",
+      "japanese": "{泳者|えいしゃ}⟦の→の：09472_no⟧⟦{安全|あんぜん}→安全：01131_anzen⟧⟦を→を：00422_wo⟧⟦{守|まも}る→守る：01986_mamoru⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧ライフ⟦ガード→ガード：22870_gaado⟧⟦が→が：00051_ga⟧⟦{配置|はいち}→配置：14409_haichi⟧⟦された→する：00392_suru⟧。",
       "english": "Lifeguards were stationed to protect the swimmers' safety.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24505_eisha_ex3",
-      "japanese": "トライアスロンの{泳者|えいしゃ}たちは、{過酷|かこく}なコースを{泳|およ}ぎ{切|き}って{次|つぎ}のステージに{進|すす}んだ。",
+      "japanese": "トライアスロン⟦の→の：09472_no⟧{泳者|えいしゃ}たち⟦は→は：00079_ha⟧、⟦{過酷|かこく}→過酷：10901_kakoku⟧な⟦コース→コース：10864_koosu⟧⟦を→を：00422_wo⟧⟦{泳|およ}ぎ→泳ぐ：00545_oyogu⟧⟦{切|き}って→切る：02693_kiru⟧⟦{次|つぎ}→次：00819_tsugi⟧⟦の→の：09472_no⟧⟦ステージ→ステージ：11047_suteeji⟧⟦に→に：00314_ni⟧⟦{進|すす}んだ→進む：01225_susumu⟧。",
       "english": "The triathletes swam through the grueling course and advanced to the next stage.",
       "sense_numbers": [
         1
@@ -44,20 +44,30 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {泳|えい} (swimming) and {者|しゃ} (person). This is a somewhat formal or literary word. In everyday conversation, {泳|およ}ぐ{人|ひと} (person who swims) or the loanword スイマー (swimmer) is more common. {泳者|えいしゃ} tends to appear in news reports, sports coverage, and written descriptions.\n\nCOMMON COLLOCATIONS:\n- {遠泳|えんえい}の{泳者|えいしゃ}: long-distance swimmer\n- {泳者|えいしゃ}の{安全|あんぜん}: swimmer safety\n- {競泳|きょうえい}{泳者|えいしゃ}: competitive swimmer\n\nSIMILAR WORDS:\n- スイマー: swimmer (loanword; more casual and commonly used in sports)\n- {水泳選手|すいえいせんしゅ}: competitive swimmer; swimming athlete\n- {泳|およ}ぎ{手|て}: swimmer (native Japanese compound; informal)",
+  "notes": "A compound of {泳|えい} (swimming) and ⟦{者|しゃ}→〜者：04662_sha⟧ (person). This is a somewhat formal or literary word. In everyday conversation, ⟦{泳|およ}ぐ→泳ぐ：00545_oyogu⟧⟦{人|ひと}→人：00476_hito⟧ (person who swims) or the loanword スイマー (swimmer) is more common. {泳者|えいしゃ} tends to appear in news reports, sports coverage, and written descriptions.\n\nCOMMON COLLOCATIONS:\n- ⟦{遠泳|えんえい}→遠泳：15159_enei⟧⟦の→の：09472_no⟧{泳者|えいしゃ}: long-distance swimmer\n- {泳者|えいしゃ}⟦の→の：09472_no⟧⟦{安全|あんぜん}→安全：01131_anzen⟧: swimmer safety\n- ⟦{競泳|きょうえい}→競泳：15481_kyouei⟧{泳者|えいしゃ}: competitive swimmer\n\nSIMILAR WORDS:\n- スイマー: swimmer (loanword; more casual and commonly used in sports)\n- ⟦{水泳選手|すいえいせんしゅ}→水泳選手：29200_suieisenshu⟧: competitive swimmer; swimming athlete\n- {泳|およ}ぎ{手|て}: swimmer (native Japanese compound; informal)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "29200_suieisenshu",
+      "reading": "すいえいせんしゅ",
+      "headword": "{水泳選手|すいえいせんしゅ}",
+      "label": "competitive swimmer"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "sports",
         "person"
       ]
     },
     "created": "2026-04-19T12:37:46Z",
-    "modified": "2026-08-03T09:22:27Z"
+    "modified": "2026-09-02T04:02:18Z"
   }
 }

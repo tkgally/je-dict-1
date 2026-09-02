@@ -3,7 +3,7 @@
   "headword": "{複雑化|ふくざつか}",
   "reading": "ふくざつか",
   "romaji": "fukuzatsuka",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "complication; becoming complex",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21265_fukuzatsuka_ex1",
-      "japanese": "{問題|もんだい}が{複雑化|ふくざつか}している。",
+      "japanese": "⟦{問題|もんだい}→問題：00797_mondai⟧⟦が→が：00051_ga⟧{複雑化|ふくざつか}⟦している→する：00392_suru⟧。",
       "english": "The problem is becoming more complex.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21265_fukuzatsuka_ex2",
-      "japanese": "{国際|こくさい}{関係|かんけい}の{複雑化|ふくざつか}が{進|すす}んでいる。",
+      "japanese": "⟦{国際|こくさい}→国際：01406_kokusai⟧⟦{関係|かんけい}→関係：01298_kankei⟧⟦の→の：09472_no⟧{複雑化|ふくざつか}⟦が→が：00051_ga⟧⟦{進|すす}んでいる→進む：01225_susumu⟧。",
       "english": "International relations are becoming increasingly complicated.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21265_fukuzatsuka_ex3",
-      "japanese": "サイバー{犯罪|はんざい}の{手口|てぐち}が{複雑化|ふくざつか}し、{対策|たいさく}が{追|お}いつかない。",
+      "japanese": "⟦サイバー→サイバー：28281_saibaa⟧⟦{犯罪|はんざい}→犯罪：03569_hanzai⟧⟦の→の：09472_no⟧⟦{手口|てぐち}→手口：12756_teguchi⟧⟦が→が：00051_ga⟧{複雑化|ふくざつか}し、⟦{対策|たいさく}→対策：02511_taisaku⟧⟦が→が：00051_ga⟧{追|お}いつかない。",
       "english": "The methods of cybercrime are becoming more complex, and countermeasures can't keep up.",
       "sense_numbers": [
         1
@@ -44,8 +44,52 @@
       "notes": null
     }
   ],
-  "notes": "Formed from {複雑|ふくざつ} (complex, complicated) + {化|か} (-ization, becoming). Part of a productive pattern where {化|か} turns an adjective stem into a noun/verb-suru meaning \"the process of becoming ~.\" Commonly used in news, academic writing, and business discussions.\n\nCOMMON COLLOCATIONS:\n- {複雑化|ふくざつか}する: to become more complex\n- {複雑化|ふくざつか}が{進|すす}む: complexity increases\n- {複雑化|ふくざつか}を{防|ふせ}ぐ: to prevent complication\n\nSIMILAR WORDS (same ～{化|か} pattern):\n- {高度化|こうどか}: advancement, becoming more sophisticated — implies improvement in quality or level\n- {多様化|たようか}: diversification — becoming more varied\n- {深刻化|しんこくか}: worsening, becoming more serious — specifically for problems getting worse",
+  "notes": "Formed from ⟦{複雑|ふくざつ}→複雑：01115_fukuzatsu⟧ (complex, complicated) + ⟦{化|か}→〜化：28335_ka⟧ (-ization, becoming). Part of a productive pattern where ⟦{化|か}→〜化：28335_ka⟧ turns an adjective stem into a noun/verb-suru meaning \"the process of becoming ~.\" Commonly used in news, academic writing, and business discussions.\n\nCOMMON COLLOCATIONS:\n- {複雑化|ふくざつか}⟦する→する：00392_suru⟧: to become more complex\n- {複雑化|ふくざつか}⟦が→が：00051_ga⟧⟦{進|すす}む→進む：01225_susumu⟧: complexity increases\n- {複雑化|ふくざつか}⟦を→を：00422_wo⟧⟦{防|ふせ}ぐ→防ぐ：02409_fusegu⟧: to prevent complication\n\nSIMILAR WORDS (same ～⟦{化|か}→〜化：28335_ka⟧ pattern):\n- ⟦{高度化|こうどか}→高度化：21279_koudoka⟧: advancement, becoming more sophisticated — implies improvement in quality or level\n- ⟦{多様化|たようか}→多様化：07564_tayouka⟧: diversification — becoming more varied\n- ⟦{深刻化|しんこくか}→深刻化：11107_shinkokuka⟧: worsening, becoming more serious — specifically for problems getting worse",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21279_koudoka",
+      "reading": "こうどか",
+      "headword": "{高度化|こうどか}",
+      "label": "advancement, becoming more sophisticated"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07564_tayouka",
+      "reading": "たようか",
+      "headword": "{多様化|たようか}",
+      "label": "diversification"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11107_shinkokuka",
+      "reading": "しんこくか",
+      "headword": "{深刻化|しんこくか}",
+      "label": "worsening, becoming more serious"
+    },
+    {
+      "type": "related",
+      "target_id": "20759_koumyouka",
+      "reading": "こうみょうか",
+      "headword": "{巧妙化|こうみょうか}",
+      "label": "becoming more sophisticated"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25552_tayoukasuru",
+      "reading": "たようかする",
+      "headword": "{多様化|たようか}する",
+      "label": "to diversify"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26714_seikouka",
+      "reading": "せいこうか",
+      "headword": "{精巧化|せいこうか}",
+      "label": "increasing sophistication"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,7 +105,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-01T16:12:48Z",
-    "modified": "2026-04-01T16:12:48Z"
+    "modified": "2026-09-02T04:02:02Z"
   },
   "conjugation": {
     "type": "suru",

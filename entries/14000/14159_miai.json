@@ -3,7 +3,7 @@
   "id": "14159_miai",
   "headword": "{見合|みあ}い",
   "reading": "みあい",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "arranged meeting for marriage, matchmaking",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "14159_miai_ex1",
-      "japanese": "{見合|みあ}いをすることになった。",
+      "japanese": "{見合|みあ}い⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧ことになった。",
       "english": "It was decided that I would have an arranged meeting.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "14159_miai_ex2",
-      "japanese": "{母|はは}に{勧|すす}められて{見合|みあ}いの{相手|あいて}に{会|あ}った。",
+      "japanese": "⟦{母|はは}→母：00549_haha⟧⟦に→に：00314_ni⟧⟦{勧|すす}められて→勧める：02120_susumeru⟧{見合|みあ}い⟦の→の：09472_no⟧⟦{相手|あいて}→相手：01677_aite⟧⟦に→に：00314_ni⟧⟦{会|あ}った→会う：00482_au⟧。",
       "english": "At my mother's recommendation, I met with the person from the arranged introduction.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "14159_miai_ex3",
-      "japanese": "{見合|みあ}い{結婚|けっこん}と{恋愛|れんあい}{結婚|けっこん}のどちらが{多|おお}いか、{時代|じだい}によって{変|か}わる。",
+      "japanese": "{見合|みあ}い⟦{結婚|けっこん}→結婚：02514_kekkon⟧⟦と→と：00512_to⟧⟦{恋愛|れんあい}→恋愛：12634_renai⟧⟦{結婚|けっこん}→結婚：02514_kekkon⟧⟦の→の：09472_no⟧⟦どちら→どちら：00927_dochira⟧⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧⟦か→か：09473_ka⟧、⟦{時代|じだい}→時代：01424_jidai⟧⟦によって→によって：06801_niyotte⟧⟦{変|か}わる→変わる：00714_kawaru⟧。",
       "english": "Whether arranged marriages or love marriages are more common changes with the times.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,19 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{見合|みあ}い traditionally involves a {仲人|なこうど} (go-between) who arranges the meeting and facilitates introductions. Modern {見合|みあ}い has evolved considerably and may be quite casual. The word contrasts with {恋愛|れんあい} (romantic love) — marriages are often classified as either {見合|みあ}い{結婚|けっこん} (arranged marriage) or {恋愛|れんあい}{結婚|けっこん} (love marriage).\n\nCOMMON COLLOCATIONS:\n- {見合|みあ}い{結婚|けっこん}: arranged marriage\n- {見合|みあ}い{相手|あいて}: matchmaking partner\n- {見合|みあ}いをする: to have an arranged meeting\n- {見合|みあ}い{写真|しゃしん}: photo used for matchmaking",
-  "cross_references": [],
+  "notes": "USAGE:\n{見合|みあ}い traditionally involves a ⟦{仲人|なこうど}→仲人：16691_nakoudo⟧ (go-between) who arranges the meeting and facilitates introductions. Modern {見合|みあ}い has evolved considerably and may be quite casual. The word contrasts with ⟦{恋愛|れんあい}→恋愛：12634_renai⟧ (romantic love) — marriages are often classified as either {見合|みあ}い⟦{結婚|けっこん}→結婚：02514_kekkon⟧ (arranged marriage) or ⟦{恋愛|れんあい}→恋愛：12634_renai⟧⟦{結婚|けっこん}→結婚：02514_kekkon⟧ (love marriage).\n\nCOMMON COLLOCATIONS:\n- {見合|みあ}い⟦{結婚|けっこん}→結婚：02514_kekkon⟧: arranged marriage\n- {見合|みあ}い⟦{相手|あいて}→相手：01677_aite⟧: matchmaking partner\n- {見合|みあ}い⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧: to have an arranged meeting\n- {見合|みあ}い⟦{写真|しゃしん}→写真：00753_shashin⟧: photo used for matchmaking",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "27036_baishaku",
+      "reading": "ばいしゃく",
+      "headword": "{媒酌|ばいしゃく}",
+      "label": "matchmaking"
+    }
+  ],
   "metadata": {
     "created": "2026-02-28T01:49:31Z",
-    "modified": "2026-03-29T03:08:18Z",
+    "modified": "2026-09-02T04:01:36Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

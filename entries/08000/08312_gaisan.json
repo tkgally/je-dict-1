@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "08312_gaisan_ex1",
-      "japanese": "{概算|がいさん}で{百万円|ひゃくまんえん}くらいかかる。",
+      "japanese": "{概算|がいさん}⟦で→で：00502_de⟧{百万円|ひゃくまんえん}くらい⟦かかる→かかる：00711_kakaru⟧。",
       "english": "It will cost roughly one million yen.",
       "sense_numbers": [
         1
@@ -114,7 +114,7 @@
     },
     {
       "id": "08312_gaisan_ex2",
-      "japanese": "{概算|がいさん}{見積|みつも}りを{出|だ}してもらえますか。",
+      "japanese": "{概算|がいさん}{見積|みつも}り⟦を→を：00422_wo⟧⟦{出|だ}して→出す：01087_dasu⟧⟦もらえます→もらう：00520_morau⟧⟦か→か：09473_ka⟧。",
       "english": "Could you give me a rough estimate?",
       "sense_numbers": [
         1
@@ -124,7 +124,7 @@
     },
     {
       "id": "08312_gaisan_ex3",
-      "japanese": "{費用|ひよう}の{概算|がいさん}を{計算|けいさん}してから{正式|せいしき}な{見積|みつも}りを{出|だ}す。",
+      "japanese": "⟦{費用|ひよう}→費用：03588_hiyou⟧⟦の→の：09472_no⟧{概算|がいさん}⟦を→を：00422_wo⟧⟦{計算|けいさん}して→計算する：25526_keisansuru⟧⟦から→から：00504_kara⟧⟦{正式|せいしき}→正式：03376_seishiki⟧な⟦{見積|みつも}り→見積り：04699_mitsumori⟧⟦を→を：00422_wo⟧⟦{出|だ}す→出す：01087_dasu⟧。",
       "english": "We'll provide a formal estimate after calculating a rough approximation of the costs.",
       "sense_numbers": [
         1
@@ -133,7 +133,7 @@
       "notes": null
     }
   ],
-  "notes": "FORMATION:\n{概|がい} (approximate, general) + {算|さん} (calculation) → rough calculation\n\nCAN FUNCTION AS:\n- Noun: {概算|がいさん}を{出|だ}す (to provide an estimate)\n- Suru-verb: {概算|がいさん}する (to make a rough estimate)\n\nCOMMON COLLOCATIONS:\n- {概算|がいさん}{見積|みつも}り (rough estimate/quote)\n- {概算|がいさん}{費用|ひよう} (estimated cost)\n- {概算|がいさん}{要求|ようきゅう} (budget request - government term)\n\nRELATED TERMS:\n- {試算|しさん} (trial calculation)\n- {見積|みつも}り (estimate, quotation)\n- {精算|せいさん} (exact calculation, settlement)\n- {概略|がいりゃく} (outline, summary)\n\nUSAGE:\nCommonly used in business contexts when discussing budgets, project costs, or preliminary planning stages.",
+  "notes": "FORMS:\n{概|がい} (approximate, general) + {算|さん} (calculation) → rough calculation\n\nCAN FUNCTION AS:\n- Noun: {概算|がいさん}⟦を→を：00422_wo⟧⟦{出|だ}す→出す：01087_dasu⟧ (to provide an estimate)\n- Suru-verb: {概算|がいさん}⟦する→する：00392_suru⟧ (to make a rough estimate)\n\nCOMMON COLLOCATIONS:\n- {概算|がいさん}{見積|みつも}り (rough estimate/quote)\n- {概算|がいさん}⟦{費用|ひよう}→費用：03588_hiyou⟧ (estimated cost)\n- {概算|がいさん}⟦{要求|ようきゅう}→要求：03658_youkyuu⟧ (budget request - government term)\n\nRELATED WORDS:\n- ⟦{試算|しさん}→試算：08326_shisan⟧ (trial calculation)\n- ⟦{見積|みつも}り→見積り：04699_mitsumori⟧ (estimate, quotation)\n- ⟦{精算|せいさん}→精算：10899_seisan⟧ (exact calculation, settlement)\n- ⟦{概略|がいりゃく}→概略：07768_gairyaku⟧ (outline, summary)\n\nUSAGE:\nCommonly used in business contexts when discussing budgets, project costs, or preliminary planning stages.",
   "cross_references": [
     {
       "type": "contrast",
@@ -155,6 +155,20 @@
       "reading": "せいさん",
       "headword": "{精算|せいさん}",
       "label": "exact calculation"
+    },
+    {
+      "type": "related",
+      "target_id": "04699_mitsumori",
+      "reading": "みつもり",
+      "headword": "{見積|みつも}り",
+      "label": "estimate, quotation"
+    },
+    {
+      "type": "related",
+      "target_id": "07768_gairyaku",
+      "reading": "がいりゃく",
+      "headword": "{概略|がいりゃく}",
+      "label": "outline, summary"
     }
   ],
   "metadata": {
@@ -165,6 +179,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "business",
         "finance",
@@ -173,6 +188,6 @@
       "verb_class": "suru"
     },
     "created": "2026-01-25T23:12:50Z",
-    "modified": "2026-04-20T06:28:06Z"
+    "modified": "2026-09-02T04:01:14Z"
   }
 }

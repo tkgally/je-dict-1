@@ -3,7 +3,7 @@
   "headword": "{栗色|くりいろ}",
   "reading": "くりいろ",
   "romaji": "kuriiro",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "chestnut color; auburn; maroon",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21884_kuriiro_ex1",
-      "japanese": "{栗色|くりいろ}の{髪|かみ}。",
+      "japanese": "{栗色|くりいろ}⟦の→の：09472_no⟧⟦{髪|かみ}→髪：02196_kami⟧。",
       "english": "Auburn hair.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21884_kuriiro_ex2",
-      "japanese": "{彼女|かのじょ}は{髪|かみ}を{栗色|くりいろ}に{染|そ}めた。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧⟦{髪|かみ}→髪：02196_kami⟧⟦を→を：00422_wo⟧{栗色|くりいろ}⟦に→に：00314_ni⟧⟦{染|そ}めた→染める：04253_someru⟧。",
       "english": "She dyed her hair chestnut brown.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21884_kuriiro_ex3",
-      "japanese": "{秋|あき}になると、{山|やま}の{木々|きぎ}が{栗色|くりいろ}に{色|いろ}づく。",
+      "japanese": "⟦{秋|あき}→秋：02276_aki⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦と→と：00512_to⟧、⟦{山|やま}→山：02168_yama⟧⟦の→の：09472_no⟧⟦{木々|きぎ}→木々：04811_kigi⟧⟦が→が：00051_ga⟧{栗色|くりいろ}⟦に→に：00314_ni⟧⟦{色|いろ}づく→色づく：10074_irozuku⟧。",
       "english": "In autumn, the mountain trees turn a chestnut brown.",
       "sense_numbers": [
         1
@@ -44,8 +44,45 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {栗|くり} (chestnut) + {色|いろ} (color). A traditional Japanese color name describing a warm, dark brown with reddish tones, like the shell of a Japanese chestnut.\n\nCOMMON COLLOCATIONS:\n- {栗色|くりいろ}の{髪|かみ}: chestnut/auburn hair\n- {栗色|くりいろ}に{染|そ}める: to dye chestnut brown\n- {栗色|くりいろ}の{瞳|ひとみ}: chestnut-colored eyes\n\nSIMILAR WORDS:\n- {茶色|ちゃいろ}: brown — the general term for brown\n- {焦|こ}げ{茶|ちゃ}: dark brown — darker, without the reddish warmth\n- こげ{茶色|ちゃいろ}: dark brown color\n\nCULTURAL NOTE:\nOne of Japan's traditional color names ({和色|わしょく}). {栗色|くりいろ} is one of the most popular hair color choices in Japan, as it is a natural-looking shade that is common in hair dye products.",
+  "notes": "Composed of ⟦{栗|くり}→栗：04387_kuri⟧ (chestnut) + ⟦{色|いろ}→色：00849_iro⟧ (color). A traditional Japanese color name describing a warm, dark brown with reddish tones, like the shell of a Japanese chestnut.\n\nCOMMON COLLOCATIONS:\n- {栗色|くりいろ}⟦の→の：09472_no⟧⟦{髪|かみ}→髪：02196_kami⟧: chestnut/auburn hair\n- {栗色|くりいろ}⟦に→に：00314_ni⟧⟦{染|そ}める→染める：04253_someru⟧: to dye chestnut brown\n- {栗色|くりいろ}⟦の→の：09472_no⟧⟦{瞳|ひとみ}→瞳：02252_hitomi⟧: chestnut-colored eyes\n\nSIMILAR WORDS:\n- ⟦{茶色|ちゃいろ}→茶色：02915_chairo⟧: brown — the general term for brown\n- ⟦{焦|こ}げ{茶|ちゃ}→焦げ茶：18201_kogecha⟧: dark brown — darker, without the reddish warmth\n- ⟦こげ{茶色|ちゃいろ}→こげ茶色：22900_kogechairo⟧: dark brown color\n\nCULTURAL NOTE:\nOne of Japan's traditional color names ({和色|わしょく}). {栗色|くりいろ} is one of the most popular hair color choices in Japan, as it is a natural-looking shade that is common in hair dye products.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02915_chairo",
+      "reading": "ちゃいろ",
+      "headword": "{茶色|ちゃいろ}",
+      "label": "brown"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18201_kogecha",
+      "reading": "こげちゃ",
+      "headword": "{焦|こ}げ{茶|ちゃ}",
+      "label": "dark brown"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22900_kogechairo",
+      "reading": "こげちゃいろ",
+      "headword": "こげ{茶色|ちゃいろ}",
+      "label": "dark brown color"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23329_akachairo",
+      "reading": "あかちゃいろ",
+      "headword": "{赤茶色|あかちゃいろ}",
+      "label": "reddish brown"
+    },
+    {
+      "type": "related",
+      "target_id": "26351_kurocha",
+      "reading": "くろちゃ",
+      "headword": "{黒茶|くろちゃ}",
+      "label": "dark brown"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,6 +98,6 @@
       ]
     },
     "created": "2026-04-03T20:25:48Z",
-    "modified": "2026-07-29T12:35:11Z"
+    "modified": "2026-09-02T04:02:05Z"
   }
 }

@@ -15,41 +15,67 @@
   "examples": [
     {
       "id": "27786_hishi_ex1",
-      "japanese": "{皮脂|ひし}が{多|おお}い{肌|はだ}。",
+      "japanese": "{皮脂|ひし}⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧⟦{肌|はだ}→肌：02243_hada⟧。",
       "english": "Skin with a lot of sebum.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27786_hishi_ex2",
-      "japanese": "{鼻|はな}のまわりは{皮脂|ひし}が{出|で}やすい。",
+      "japanese": "⟦{鼻|はな}→鼻：02164_hana⟧⟦の→の：09472_no⟧まわり⟦は→は：00079_ha⟧{皮脂|ひし}⟦が→が：00051_ga⟧⟦{出|で}→出る：00513_deru⟧やすい。",
       "english": "Sebum is easily produced around the nose.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27786_hishi_ex3",
-      "japanese": "{皮脂|ひし}が{毛穴|けあな}に{詰|つ}まると、ニキビの{原因|げんいん}になる。",
+      "japanese": "{皮脂|ひし}⟦が→が：00051_ga⟧⟦{毛穴|けあな}→毛穴：16138_keana⟧⟦に→に：00314_ni⟧⟦{詰|つ}まる→詰まる：02079_tsumaru⟧⟦と→と：00512_to⟧、⟦ニキビ→ニキビ：22122_nikibi⟧⟦の→の：09472_no⟧⟦{原因|げんいん}→原因：01400_genin⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧。",
       "english": "When sebum clogs the pores, it can cause acne.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "The oil naturally secreted by the skin. A common term in skincare and cosmetics contexts.\n\nCOMMON COLLOCATIONS:\n- {皮脂|ひし}が{出|で}る: for sebum to be secreted\n- {皮脂|ひし}を{抑|おさ}える: to control sebum\n- {皮脂|ひし}{腺|せん}: sebaceous gland\n\nSIMILAR WORDS:\n- {脂|あぶら}: oil; fat — the general word; {皮脂|ひし} is specifically skin oil\n- {汗|あせ}: sweat — also secreted by the skin, but watery and from different glands",
+  "notes": "The oil naturally secreted by the skin. A common term in skincare and cosmetics contexts.\n\nCOMMON COLLOCATIONS:\n- {皮脂|ひし}⟦が→が：00051_ga⟧⟦{出|で}る→出る：00513_deru⟧: for sebum to be secreted\n- {皮脂|ひし}⟦を→を：00422_wo⟧⟦{抑|おさ}える→抑える：12806_osaeru⟧: to control sebum\n- {皮脂|ひし}{腺|せん}: sebaceous gland\n\nSIMILAR WORDS:\n- ⟦{脂|あぶら}→脂：01916_abura⟧: oil; fat — the general word; {皮脂|ひし} is specifically skin oil\n- ⟦{汗|あせ}→汗：02173_ase⟧: sweat — also secreted by the skin, but watery and from different glands",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02173_ase",
+      "reading": "あせ",
+      "headword": "{汗|あせ}",
+      "label": "sweat"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30714_shirou",
+      "reading": "しろう",
+      "headword": "{脂漏|しろう}",
+      "label": "seborrhea"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["body-internal"],
+      "politeness": "plain",
+      "semantic": [
+        "body-internal"
+      ],
       "domain": []
     },
     "created": "2026-05-18T04:14:41Z",
-    "modified": "2026-05-18T04:14:41Z"
+    "modified": "2026-09-02T04:02:31Z"
   }
 }

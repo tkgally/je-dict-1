@@ -15,40 +15,73 @@
   "examples": [
     {
       "id": "20354_watashidomo_ex1",
-      "japanese": "{私|わたし}{共|ども}にお{任|まか}せください。",
+      "japanese": "{私|わたし}{共|ども}⟦に→に：00314_ni⟧お⟦{任|まか}せ→任せる：02417_makaseru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please leave it to us.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20354_watashidomo_ex2",
-      "japanese": "{私|わたし}{共|ども}の{会社|かいしゃ}では、{品質|ひんしつ}を{大切|たいせつ}にしております。",
+      "japanese": "{私|わたし}{共|ども}⟦の→の：09472_no⟧⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧、⟦{品質|ひんしつ}→品質：09507_hinshitsu⟧⟦を→を：00422_wo⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧にして⟦おります→おる：01324_oru⟧。",
       "english": "At our company, we value quality.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20354_watashidomo_ex3",
-      "japanese": "{私|わたし}{共|ども}の{不手際|ふてぎわ}でご{迷惑|めいわく}をおかけし、{誠|まこと}に{申|もう}し{訳|わけ}ございません。",
+      "japanese": "{私|わたし}{共|ども}⟦の→の：09472_no⟧⟦{不手際|ふてぎわ}→不手際：07598_futegiwa⟧で⟦ご{迷惑|めいわく}→ご迷惑：28069_gomeiwaku⟧⟦を→を：00422_wo⟧おかけし、⟦{誠|まこと}→誠：27623_makoto⟧⟦に→に：00314_ni⟧⟦{申|もう}し{訳|わけ}ございません→申し訳ございません：18087_moushiwakegozaimasen⟧。",
       "english": "We sincerely apologize for the inconvenience caused by our error.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A humble ({謙譲語|けんじょうご}) first-person plural pronoun. The ども suffix is a humble pluralizer that lowers the speaker's status relative to the listener. Very common in business Japanese.\n\nFORMATION:\n{私|わたし} (I) + {共|ども} (humble plural suffix). The suffix ども can also attach to other words, but {私|わたし}{共|ども} is by far the most common combination.\n\nUSAGE:\nUsed when representing one's company, organization, or family to outsiders. Appropriate in formal correspondence, customer service, and business meetings. Not used in casual conversation.\n\nSIMILAR WORDS:\n- {私|わたし}たち: neutral \"we\" — standard and appropriate in most situations\n- {我々|われわれ}: \"we\" — formal and assertive, used in speeches and official statements\n- {弊社|へいしゃ}: \"our company\" (humble) — specifically for one's own company, while {私|わたし}{共|ども} can refer to any in-group\n\nCOMMON COLLOCATIONS:\n- {私|わたし}{共|ども}の{店|みせ}: our shop (humble)\n- {私|わたし}{共|ども}の{製品|せいひん}: our products (humble)\n- {私|わたし}{共|ども}としましては: from our standpoint (humble)",
+  "notes": "A humble (⟦{謙譲語|けんじょうご}→謙譲語：15869_kenjougo⟧) first-person plural pronoun. The ど⟦も→も：00484_mo⟧ suffix is a humble pluralizer that lowers the speaker's status relative to the listener. Very common in business Japanese.\n\nFORMS:\n⟦{私|わたし}→私：02988_watashi⟧ (I) + {共|ども} (humble plural suffix). The suffix ど⟦も→も：00484_mo⟧ can also attach to other words, but {私|わたし}{共|ども} is by far the most common combination.\n\nUSAGE:\nUsed when representing one's company, organization, or family to outsiders. Appropriate in formal correspondence, customer service, and business meetings. Not used in casual conversation.\n\nSIMILAR WORDS:\n- ⟦{私|わたし}たち→私たち：28351_watashitachi⟧: neutral \"we\" — standard and appropriate in most situations\n- ⟦{我々|われわれ}→我々：03795_wareware⟧: \"we\" — formal and assertive, used in speeches and official statements\n- ⟦{弊社|へいしゃ}→弊社：17404_heisha⟧: \"our company\" (humble) — specifically for one's own company, while {私|わたし}{共|ども} can refer to any in-group\n\nCOMMON COLLOCATIONS:\n- {私|わたし}{共|ども}⟦の→の：09472_no⟧⟦{店|みせ}→店：00497_mise⟧: our shop (humble)\n- {私|わたし}{共|ども}⟦の→の：09472_no⟧⟦{製品|せいひん}→製品：01445_seihin⟧: our products (humble)\n- {私|わたし}{共|ども}としましては: from our standpoint (humble)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "28351_watashitachi",
+      "reading": "わたしたち",
+      "headword": "{私|わたし}たち",
+      "label": "neutral \"we\""
+    },
+    {
+      "type": "contrast",
+      "target_id": "03795_wareware",
+      "reading": "われわれ",
+      "headword": "{我々|われわれ}",
+      "label": "\"we\""
+    },
+    {
+      "type": "contrast",
+      "target_id": "17404_heisha",
+      "reading": "へいしゃ",
+      "headword": "{弊社|へいしゃ}",
+      "label": "\"our company\""
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["pronoun"],
+      "pos": [
+        "pronoun"
+      ],
       "formality": "formal",
       "politeness": "humble",
-      "semantic": ["communication"]
+      "semantic": [
+        "communication"
+      ]
     },
     "created": "2026-03-29T11:04:41Z",
-    "modified": "2026-04-10T07:12:46Z"
+    "modified": "2026-09-02T04:01:59Z"
   }
 }

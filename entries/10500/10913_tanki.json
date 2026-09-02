@@ -3,7 +3,7 @@
   "id": "10913_tanki",
   "headword": "{短気|たんき}",
   "reading": "たんき",
-  "part_of_speech": "noun / adjective (na)",
+  "part_of_speech": "noun, na-adjective",
   "gloss": "short temper, impatience",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "10913_tanki_ex1",
-      "japanese": "{短気|たんき}は{損気|そんき}。",
+      "japanese": "{短気|たんき}⟦は→は：00079_ha⟧{損気|そんき}。",
       "english": "A short temper leads to loss. (Proverb: Haste makes waste.)",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "10913_tanki_ex2",
-      "japanese": "{父|ちち}は{短気|たんき}で、すぐに{怒|おこ}る。",
+      "japanese": "⟦{父|ちち}→父：00566_chichi⟧⟦は→は：00079_ha⟧{短気|たんき}で、⟦すぐ→すぐ：00814_sugu⟧⟦に→に：00314_ni⟧⟦{怒|おこ}る→怒る：00876_okoru⟧。",
       "english": "My father is short-tempered and gets angry right away.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "10913_tanki_ex3",
-      "japanese": "{短気|たんき}を{起|お}こさないで、もう{少|すこ}し{待|ま}ってください。",
+      "japanese": "{短気|たんき}⟦を→を：00422_wo⟧⟦{起|お}こさないで→起こす：01234_okosu⟧、⟦もう→もう：00602_mou⟧⟦{少|すこ}し→少し：00596_sukoshi⟧⟦{待|ま}って→待つ：00469_matsu⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Don't lose your temper — please wait a little longer.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,26 @@
       ]
     }
   ],
-  "notes": "FORMS:\n- Predicative: {短気|たんき}だ\n- Modifier: {短気|たんき}な + noun\n- As noun: {短気|たんき}を{起|お}こす (to lose one's temper)\n\nPROVERB:\n{短気|たんき}は{損気|そんき} is a well-known saying meaning that impatience leads to disadvantage. {損気|そんき} is a made-up word created to rhyme with {短気|たんき}.\n\nSIMILAR WORDS:\n{気|き}が{短|みじか}い has the same meaning but is a phrase rather than a single word. {怒|おこ}りっぽい means \"easily angered\" and focuses more on the emotional reaction.",
-  "cross_references": [],
+  "notes": "FORMS:\n- Predicative: {短気|たんき}だ\n- Modifier: {短気|たんき}な + noun\n- As noun: {短気|たんき}⟦を→を：00422_wo⟧⟦{起|お}こす→起こす：01234_okosu⟧ (to lose one's temper)\n\nPROVERB:\n{短気|たんき}⟦は→は：00079_ha⟧{損気|そんき} is a well-known saying meaning that impatience leads to disadvantage. {損気|そんき} is a made-up word created to rhyme with {短気|たんき}.\n\nSIMILAR WORDS:\n⟦{気|き}が{短|みじか}い→気が短い：06882_kigamijikai⟧ has the same meaning but is a phrase rather than a single word. ⟦{怒|おこ}りっぽい→怒りっぽい：30581_okorippoi⟧ means \"easily angered\" and focuses more on the emotional reaction.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25917_kigenya",
+      "reading": "きげんや",
+      "headword": "{機嫌|きげん}{屋|や}",
+      "label": "moody person"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30581_okorippoi",
+      "reading": "おこりっぽい",
+      "headword": "{怒|おこ}りっぽい",
+      "label": "quick-tempered"
+    }
+  ],
   "metadata": {
     "created": "2026-02-11T12:59:52Z",
-    "modified": "2026-06-28T18:50:11Z",
+    "modified": "2026-09-02T04:01:23Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

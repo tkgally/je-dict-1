@@ -3,7 +3,7 @@
   "id": "11108_choukika",
   "headword": "{長期化|ちょうきか}",
   "reading": "ちょうきか",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "prolongation, becoming prolonged",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "11108_choukika_ex1",
-      "japanese": "{工事|こうじ}が{長期化|ちょうきか}している。",
+      "japanese": "⟦{工事|こうじ}→工事：00244_kouji⟧⟦が→が：00051_ga⟧{長期化|ちょうきか}⟦している→する：00392_suru⟧。",
       "english": "The construction work has become prolonged.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "11108_choukika_ex2",
-      "japanese": "{紛争|ふんそう}の{長期化|ちょうきか}が{懸念|けねん}されている。",
+      "japanese": "⟦{紛争|ふんそう}→紛争：05758_funsou⟧⟦の→の：09472_no⟧{長期化|ちょうきか}⟦が→が：00051_ga⟧⟦{懸念|けねん}→懸念：05622_kenen⟧⟦されている→する：00392_suru⟧。",
       "english": "There are concerns about the conflict becoming prolonged.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "11108_choukika_ex3",
-      "japanese": "{裁判|さいばん}の{長期化|ちょうきか}により、{被害者|ひがいしゃ}の{負担|ふたん}が{大|おお}きくなっている。",
+      "japanese": "⟦{裁判|さいばん}→裁判：02773_saiban⟧⟦の→の：09472_no⟧{長期化|ちょうきか}⟦に→に：00314_ni⟧⟦より→より：09476_yori⟧、⟦{被害者|ひがいしゃ}→被害者：14106_higaisha⟧⟦の→の：09472_no⟧⟦{負担|ふたん}→負担：09752_futan⟧⟦が→が：00051_ga⟧⟦{大|おお}きく→大きい：00335_ookii⟧⟦なっている→なる：01970_naru⟧。",
       "english": "The prolongation of the trial is placing a greater burden on the victims.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "WORD FORMATION:\n{長期|ちょうき} (long-term) + {化|か} (transformation suffix) = becoming long-term/prolonged.\n\nCOMMON COLLOCATIONS:\n- {長期化|ちょうきか}する (to become prolonged)\n- {長期化|ちょうきか}の{恐|おそ}れ (risk of prolongation)\n- {長期化|ちょうきか}を{避|さ}ける (to avoid prolongation)\n\nUSAGE NOTE:\n{長期化|ちょうきか} almost always carries a negative nuance — something is dragging on longer than desired. It is common in news reports about conflicts, lawsuits, economic downturns, and other ongoing situations.\n\nSIMILAR 〜{化|か} WORDS:\n- {深刻化|しんこくか} (worsening)\n- {慢性化|まんせいか} (becoming chronic)\n- {常態化|じょうたいか} (becoming the norm)",
+  "notes": "FORMS:\n⟦{長期|ちょうき}→長期：03487_chouki⟧ (long-term) + ⟦{化|か}→〜化：28335_ka⟧ (transformation suffix) = becoming long-term/prolonged.\n\nCOMMON COLLOCATIONS:\n- {長期化|ちょうきか}⟦する→する：00392_suru⟧ (to become prolonged)\n- {長期化|ちょうきか}⟦の→の：09472_no⟧{恐|おそ}れ (risk of prolongation)\n- {長期化|ちょうきか}⟦を→を：00422_wo⟧⟦{避|さ}ける→避ける：02109_sakeru⟧ (to avoid prolongation)\n\nUSAGE:\n{長期化|ちょうきか} almost always carries a negative nuance — something is dragging on longer than desired. It is common in news reports about conflicts, lawsuits, economic downturns, and other ongoing situations.\n\nSIMILAR 〜{化|か} WORDS:\n- ⟦{深刻化|しんこくか}→深刻化：11107_shinkokuka⟧ (worsening)\n- {慢性化|まんせいか} (becoming chronic)\n- ⟦{常態化|じょうたいか}→常態化：08024_joutaika⟧ (becoming the norm)",
   "cross_references": [
     {
       "type": "related",
@@ -142,11 +142,25 @@
       "reading": "ちょうき",
       "headword": "{長期|ちょうき}",
       "label": "long-term"
+    },
+    {
+      "type": "related",
+      "target_id": "11107_shinkokuka",
+      "reading": "しんこくか",
+      "headword": "{深刻化|しんこくか}",
+      "label": "worsening"
+    },
+    {
+      "type": "related",
+      "target_id": "08024_joutaika",
+      "reading": "じょうたいか",
+      "headword": "{常態化|じょうたいか}",
+      "label": "becoming the norm"
     }
   ],
   "metadata": {
     "created": "2026-02-13T12:44:18Z",
-    "modified": "2026-04-25T04:12:08Z",
+    "modified": "2026-09-02T04:01:24Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -162,7 +176,8 @@
       "semantic": [
         "general"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

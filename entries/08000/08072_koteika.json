@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "08072_koteika_ex1",
-      "japanese": "{役割|やくわり}が{固定化|こていか}している。",
+      "japanese": "⟦{役割|やくわり}→役割：03638_yakuwari⟧⟦が→が：00051_ga⟧{固定化|こていか}⟦している→する：00392_suru⟧。",
       "english": "The roles have become fixed.",
       "sense_numbers": [
         1
@@ -114,7 +114,7 @@
     },
     {
       "id": "08072_koteika_ex2",
-      "japanese": "{考|かんが}え{方|かた}の{固定化|こていか}を{避|さ}けるべきだ。",
+      "japanese": "⟦{考|かんが}え{方|かた}→考え方：10169_kangaekata⟧⟦の→の：09472_no⟧{固定化|こていか}⟦を→を：00422_wo⟧⟦{避|さ}ける→避ける：02109_sakeru⟧べきだ。",
       "english": "We should avoid the crystallization of our way of thinking.",
       "sense_numbers": [
         1
@@ -124,7 +124,7 @@
     },
     {
       "id": "08072_koteika_ex3",
-      "japanese": "{貧困|ひんこん}の{固定化|こていか}が{社会問題|しゃかいもんだい}になっている。",
+      "japanese": "⟦{貧困|ひんこん}→貧困：04836_hinkon⟧⟦の→の：09472_no⟧{固定化|こていか}⟦が→が：00051_ga⟧⟦{社会問題|しゃかいもんだい}→社会問題：25686_shakaimondai⟧になっている。",
       "english": "The entrenchment of poverty has become a social issue.",
       "sense_numbers": [
         1
@@ -133,7 +133,16 @@
       "notes": null
     }
   ],
-  "notes": "{固定化|こていか} refers to the process of something becoming fixed, established, or entrenched.\n\nWORD STRUCTURE:\n{固定|こてい} (fixed/stable) + {化|か} (transformation suffix)\n\nVERB FORMS:\n- {固定化|こていか}する: to become fixed\n- {固定化|こていか}させる: to make fixed (causative)\n- {固定化|こていか}している: is entrenched\n\nCOMMON COLLOCATIONS:\n- {役割|やくわり}の{固定化|こていか}: entrenchment of roles\n- {格差|かくさ}の{固定化|こていか}: entrenchment of inequality\n- {貧困|ひんこん}の{固定化|こていか}: entrenchment of poverty\n- {考|かんが}え{方|かた}の{固定化|こていか}: rigidification of thinking\n\nNUANCE:\nOften carries negative connotations - suggests inflexibility or stagnation.\n\nRELATED:\n- {固定|こてい}: fixed, stable\n- {硬直化|こうちょくか}: rigidification",
+  "notes": "{固定化|こていか} refers to the process of something becoming fixed, established, or entrenched.\n\nETYMOLOGY:\n⟦{固定|こてい}→固定：10996_kotei⟧ (fixed/stable) + ⟦{化|か}→〜化：28335_ka⟧ (transformation suffix)\n\nFORMS:\n- {固定化|こていか}⟦する→する：00392_suru⟧: to become fixed\n- {固定化|こていか}⟦させる→する：00392_suru⟧: to make fixed (causative)\n- {固定化|こていか}⟦している→する：00392_suru⟧: is entrenched\n\nCOMMON COLLOCATIONS:\n- ⟦{役割|やくわり}→役割：03638_yakuwari⟧⟦の→の：09472_no⟧{固定化|こていか}: entrenchment of roles\n- ⟦{格差|かくさ}→格差：04839_kakusa⟧⟦の→の：09472_no⟧{固定化|こていか}: entrenchment of inequality\n- ⟦{貧困|ひんこん}→貧困：04836_hinkon⟧⟦の→の：09472_no⟧{固定化|こていか}: entrenchment of poverty\n- ⟦{考|かんが}え{方|かた}→考え方：10169_kangaekata⟧⟦の→の：09472_no⟧{固定化|こていか}: rigidification of thinking\n\nUSAGE:\nOften carries negative connotations - suggests inflexibility or stagnation.\n\nRELATED WORDS:\n- ⟦{固定|こてい}→固定：10996_kotei⟧: fixed, stable\n- ⟦{硬直化|こうちょくか}→硬直化：08026_kouchokuka⟧: rigidification",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "08026_kouchokuka",
+      "reading": "こうちょくか",
+      "headword": "{硬直化|こうちょくか}",
+      "label": "rigidification"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -142,6 +151,7 @@
         "verb-suru"
       ],
       "formality": "formal",
+      "politeness": "plain",
       "semantic": [
         "change",
         "society",
@@ -150,6 +160,6 @@
       "verb_class": "suru"
     },
     "created": "2026-01-25T01:23:13Z",
-    "modified": "2026-02-19T12:32:33Z"
+    "modified": "2026-09-02T04:01:13Z"
   }
 }

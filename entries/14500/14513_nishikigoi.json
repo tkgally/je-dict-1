@@ -15,41 +15,59 @@
   "examples": [
     {
       "id": "14513_nishikigoi_ex1",
-      "japanese": "{池|いけ}に{錦鯉|にしきごい}が{泳|およ}いでいる。",
+      "japanese": "⟦{池|いけ}→池：00848_ike⟧⟦に→に：00314_ni⟧{錦鯉|にしきごい}⟦が→が：00051_ga⟧⟦{泳|およ}いでいる→泳ぐ：00545_oyogu⟧。",
       "english": "Koi are swimming in the pond.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14513_nishikigoi_ex2",
-      "japanese": "{祖父|そふ}の{趣味|しゅみ}は{錦鯉|にしきごい}の{飼育|しいく}だ。",
+      "japanese": "⟦{祖父|そふ}→祖父：01452_sofu⟧⟦の→の：09472_no⟧⟦{趣味|しゅみ}→趣味：00889_shumi⟧⟦は→は：00079_ha⟧{錦鯉|にしきごい}⟦の→の：09472_no⟧⟦{飼育|しいく}→飼育：06422_shiiku⟧だ。",
       "english": "My grandfather's hobby is raising koi.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14513_nishikigoi_ex3",
-      "japanese": "{品評会|ひんぴょうかい}で{優勝|ゆうしょう}した{錦鯉|にしきごい}は{数千万円|すうせんまんえん}の{値|ね}がつくこともある。",
+      "japanese": "{品評会|ひんぴょうかい}⟦で→で：00502_de⟧⟦{優勝|ゆうしょう}した→優勝する：25496_yuushousuru⟧{錦鯉|にしきごい}⟦は→は：00079_ha⟧{数千万円|すうせんまんえん}⟦の→の：09472_no⟧⟦{値|ね}→値：03527_ne⟧⟦が→が：00051_ga⟧つくこと⟦も→も：00484_mo⟧⟦ある→ある：00006_aru⟧。",
       "english": "A koi that wins at a show can be worth tens of millions of yen.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "Compound of {錦|にしき} (brocade, referring to the colorful patterns) + {鯉|こい} (carp). The voiced form ごい is due to rendaku.\n\nKoi breeding originated in {新潟県|にいがたけん} during the Edo period. Major varieties include {紅白|こうはく} (red and white), {大正三色|たいしょうさんしょく} (red, white, and black), and {昭和三色|しょうわさんしょく}.\n\nCOMMON COLLOCATIONS:\n- {錦鯉|にしきごい}を{飼|か}う (to keep koi)\n- {錦鯉|にしきごい}の{品評会|ひんぴょうかい} (koi show/competition)\n- {錦鯉|にしきごい}の{養殖|ようしょく} (koi farming)",
-  "cross_references": [],
+  "notes": "Compound of {錦|にしき} (brocade, referring to the colorful patterns) + ⟦{鯉|こい}→鯉：02209_koi⟧ (carp). The voiced form ごい is due to rendaku.\n\nKoi breeding originated in {新潟県|にいがたけん} during the Edo period. Major varieties include ⟦{紅白|こうはく}→紅白：13805_kouhaku⟧ (red and white), {大正三色|たいしょうさんしょく} (red, white, and black), and {昭和三色|しょうわさんしょく}.\n\nCOMMON COLLOCATIONS:\n- {錦鯉|にしきごい}⟦を→を：00422_wo⟧⟦{飼|か}う→飼う：08151_kau⟧ (to keep koi)\n- {錦鯉|にしきごい}⟦の→の：09472_no⟧{品評会|ひんぴょうかい} (koi show/competition)\n- {錦鯉|にしきごい}⟦の→の：09472_no⟧⟦{養殖|ようしょく}→養殖：08648_youshoku⟧ (koi farming)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25092_kanshougyo",
+      "reading": "かんしょうぎょ",
+      "headword": "{観賞魚|かんしょうぎょ}",
+      "label": "ornamental fish"
+    }
+  ],
   "metadata": {
     "created": "2026-03-02T05:57:11Z",
-    "modified": "2026-03-02T05:57:11Z",
+    "modified": "2026-09-02T04:01:37Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["animal-fish"]
+      "semantic": [
+        "animal-fish"
+      ]
     }
   }
 }

@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "19734_oyagaisha_ex1",
-      "japanese": "{親会社|おやがいしゃ}の{方針|ほうしん}に{従|したが}う。",
+      "japanese": "{親会社|おやがいしゃ}⟦の→の：09472_no⟧⟦{方針|ほうしん}→方針：04871_houshin⟧⟦に→に：00314_ni⟧⟦{従|したが}う→従う：02059_shitagau⟧。",
       "english": "To follow the parent company's policy.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19734_oyagaisha_ex2",
-      "japanese": "{親会社|おやがいしゃ}から{資金|しきん}を{調達|ちょうたつ}した。",
+      "japanese": "{親会社|おやがいしゃ}⟦から→から：00504_kara⟧⟦{資金|しきん}→資金：09937_shikin⟧⟦を→を：00422_wo⟧⟦{調達|ちょうたつ}→調達：09938_choutatsu⟧⟦した→する：00392_suru⟧。",
       "english": "We procured funds from the parent company.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19734_oyagaisha_ex3",
-      "japanese": "{親会社|おやがいしゃ}の{業績|ぎょうせき}が{悪化|あっか}すると、{子会社|こがいしゃ}にも{影響|えいきょう}が{出|で}る。",
+      "japanese": "{親会社|おやがいしゃ}⟦の→の：09472_no⟧⟦{業績|ぎょうせき}→業績：04873_gyouseki⟧⟦が→が：00051_ga⟧⟦{悪化|あっか}する→悪化する：18844_akkasuru⟧⟦と→と：00512_to⟧、⟦{子会社|こがいしゃ}→子会社：12258_kogaisha⟧⟦に→に：00314_ni⟧⟦も→も：00484_mo⟧⟦{影響|えいきょう}→影響：01877_eikyou⟧⟦が→が：00051_ga⟧⟦{出|で}る→出る：00513_deru⟧。",
       "english": "When the parent company's performance worsens, the subsidiaries are affected too.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Compound of {親|おや} (parent) and {会社|かいしゃ} (company). A standard business term referring to a company that controls one or more other companies through ownership of shares.\n\nCOMMON COLLOCATIONS:\n- {親会社|おやがいしゃ}の{方針|ほうしん} — parent company's policy\n- {親会社|おやがいしゃ}の{指示|しじ} — instructions from the parent company\n- {親会社|おやがいしゃ}と{子会社|こがいしゃ} — parent and subsidiary companies\n\nRELATED TERMS:\n- {子会社|こがいしゃ} — subsidiary company\n- {関連会社|かんれんがいしゃ} — affiliated company; associated company\n- {持株会社|もちかぶがいしゃ} — holding company\n- {グループ会社|ぐるーぷがいしゃ} — group company",
+  "notes": "Compound of ⟦{親|おや}→親：01357_oya⟧ (parent) and ⟦{会社|かいしゃ}→会社：00607_kaisha⟧ (company). A standard business term referring to a company that controls one or more other companies through ownership of shares.\n\nCOMMON COLLOCATIONS:\n- {親会社|おやがいしゃ}⟦の→の：09472_no⟧⟦{方針|ほうしん}→方針：04871_houshin⟧ — parent company's policy\n- {親会社|おやがいしゃ}⟦の→の：09472_no⟧⟦{指示|しじ}→指示：09674_shiji⟧ — instructions from the parent company\n- {親会社|おやがいしゃ}⟦と→と：00512_to⟧⟦{子会社|こがいしゃ}→子会社：12258_kogaisha⟧ — parent and subsidiary companies\n\nRELATED WORDS:\n- ⟦{子会社|こがいしゃ}→子会社：12258_kogaisha⟧ — subsidiary company\n- ⟦{関連会社|かんれんがいしゃ}→関連会社：19758_kanrengaisha⟧ — affiliated company; associated company\n- {持株会社|もちかぶがいしゃ} — holding company\n- {グループ会社|ぐるーぷがいしゃ} — group company",
   "prominent_see_also": [
     {
       "target_id": "12258_kogaisha",
@@ -48,15 +54,28 @@
     }
   ],
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "19758_kanrengaisha",
+      "reading": "かんれんがいしゃ",
+      "headword": "{関連会社|かんれんがいしゃ}",
+      "label": "affiliated company"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["business"]
+      "semantic": [
+        "business"
+      ]
     },
     "created": "2026-03-26T15:18:20Z",
-    "modified": "2026-04-26T08:07:12Z"
+    "modified": "2026-09-02T04:01:57Z"
   }
 }

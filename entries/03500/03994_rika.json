@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "USAGE: Refers to natural sciences as a school subject, especially in elementary and middle school.\n\nCOMMON COMPOUNDS:\n・⟦{理科|りか}{室|しつ}→理科室：22704_rikashitsu⟧ (science room/laboratory)\n・{理科|りか}⟦{系|けい}→系：noentry⟧ (science track/field)\n・{理科|りか}⟦{離|ばな}れ→離れ：10003_banare⟧ (decline in interest in science)\n\nSCHOOL SUBJECTS:\n・⟦{国語|こくご}→国語：02739_kokugo⟧ (Japanese language)\n・⟦{算数|さんすう}→算数：04170_sansuu⟧/⟦{数学|すうがく}→数学：01442_suugaku⟧ (arithmetic/mathematics)\n・⟦{社会|しゃかい}→社会：01427_shakai⟧ (social studies)\n・⟦{英語|えいご}→英語：02274_eigo⟧ (English)\n\nNOTE: In higher education, specific sciences like ⟦{物理|ぶつり}→物理：03609_butsuri⟧ (physics), ⟦{化学|かがく}→化学：05336_kagaku_chem⟧ (chemistry), ⟦{生物|せいぶつ}→生物：03295_seibutsu⟧ (biology) are taught separately.",
+  "notes": "USAGE: Refers to natural sciences as a school subject, especially in elementary and middle school.\n\nCOMPOUNDS:\n- ⟦{理科|りか}{室|しつ}→理科室：22704_rikashitsu⟧ (science room/laboratory)\n- {理科|りか}⟦{系|けい}→系：noentry⟧ (science track/field)\n- {理科|りか}⟦{離|ばな}れ→離れ：10003_banare⟧ (decline in interest in science)\n\nSCHOOL SUBJECTS:\n- ⟦{国語|こくご}→国語：02739_kokugo⟧ (Japanese language)\n- ⟦{算数|さんすう}→算数：04170_sansuu⟧/⟦{数学|すうがく}→数学：01442_suugaku⟧ (arithmetic/mathematics)\n- ⟦{社会|しゃかい}→社会：01427_shakai⟧ (social studies)\n- ⟦{英語|えいご}→英語：02274_eigo⟧ (English)\n\nNOTE: In higher education, specific sciences like ⟦{物理|ぶつり}→物理：03609_butsuri⟧ (physics), ⟦{化学|かがく}→化学：05336_kagaku_chem⟧ (chemistry), ⟦{生物|せいぶつ}→生物：03295_seibutsu⟧ (biology) are taught separately.",
   "cross_references": [
     {
       "type": "related",
@@ -51,11 +51,18 @@
       "headword": "{科学|かがく}",
       "label": "science (general)",
       "target_id": "01277_kagaku"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24834_shizenkagaku",
+      "reading": "しぜんかがく",
+      "headword": "{自然|しぜん}{科学|かがく}",
+      "label": "natural science"
     }
   ],
   "metadata": {
     "created": "2026-01-13T07:50:37Z",
-    "modified": "2026-05-28T17:10:48Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

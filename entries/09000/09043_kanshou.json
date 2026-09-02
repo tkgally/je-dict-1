@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "09043_kanshou_ex1",
-      "japanese": "{感傷|かんしょう}に{浸|ひた}る。",
+      "japanese": "{感傷|かんしょう}⟦に→に：00314_ni⟧⟦{浸|ひた}る→浸る：13339_hitaru⟧。",
       "english": "To indulge in sentimentality.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "09043_kanshou_ex2",
-      "japanese": "{感傷|かんしょう}に{流|なが}されずに{冷静|れいせい}に{判断|はんだん}する。",
+      "japanese": "{感傷|かんしょう}⟦に→に：00314_ni⟧⟦{流|なが}され→流す：01968_nagasu⟧ず⟦に→に：00314_ni⟧⟦{冷静|れいせい}→冷静：03781_reisei⟧⟦に→に：00314_ni⟧⟦{判断|はんだん}する→判断する：06062_handansuru⟧。",
       "english": "Judge calmly without being swept away by sentimentality.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "09043_kanshou_ex3",
-      "japanese": "{卒業|そつぎょう}シーズンは{誰|だれ}もが{感傷|かんしょう}{的|てき}になる。",
+      "japanese": "⟦{卒業|そつぎょう}→卒業：01643_sotsugyou⟧⟦シーズン→シーズン：10944_shiizun⟧⟦は→は：00079_ha⟧⟦{誰|だれ}も→誰も：18610_daremo⟧⟦が→が：00051_ga⟧{感傷|かんしょう}{的|てき}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧。",
       "english": "Everyone gets sentimental during graduation season.",
       "notes": null,
       "has_audio": false,
@@ -43,11 +43,33 @@
       ]
     }
   ],
-  "notes": "{感傷|かんしょう} refers to tender, nostalgic emotions.\n\nNUANCE:\n- Can be neutral (natural emotional sensitivity)\n- Can be slightly negative (excessive, self-indulgent emotion)\n\nCOMMON EXPRESSIONS:\n- {感傷|かんしょう}に{浸|ひた}る: to indulge in sentimentality\n- {感傷|かんしょう}に{流|なが}される: to be swept away by sentiment\n- {感傷|かんしょう}{的|てき}: sentimental (na-adjective)\n- {感傷|かんしょう}{主義|しゅぎ}: sentimentalism\n\nRELATED WORDS:\n- {郷愁|きょうしゅう}: nostalgia, homesickness\n- {哀愁|あいしゅう}: sorrow, melancholy",
-  "cross_references": [],
+  "notes": "{感傷|かんしょう} refers to tender, nostalgic emotions.\n\nUSAGE:\n- Can be neutral (natural emotional sensitivity)\n- Can be slightly negative (excessive, self-indulgent emotion)\n\nCOMMON EXPRESSIONS:\n- {感傷|かんしょう}⟦に→に：00314_ni⟧⟦{浸|ひた}る→浸る：13339_hitaru⟧: to indulge in sentimentality\n- {感傷|かんしょう}⟦に→に：00314_ni⟧⟦{流|なが}される→流す：01968_nagasu⟧: to be swept away by sentiment\n- {感傷|かんしょう}{的|てき}: sentimental (na-adjective)\n- {感傷|かんしょう}⟦{主義|しゅぎ}→主義：03215_shugi⟧: sentimentalism\n\nRELATED WORDS:\n- ⟦{郷愁|きょうしゅう}→郷愁：06000_kyoushuu⟧: nostalgia, homesickness\n- ⟦{哀愁|あいしゅう}→哀愁：04838_aishuu⟧: sorrow, melancholy",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "06000_kyoushuu",
+      "reading": "きょうしゅう",
+      "headword": "{郷愁|きょうしゅう}",
+      "label": "nostalgia, homesickness"
+    },
+    {
+      "type": "related",
+      "target_id": "04838_aishuu",
+      "reading": "あいしゅう",
+      "headword": "{哀愁|あいしゅう}",
+      "label": "sorrow, melancholy"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21048_kangai",
+      "reading": "かんがい",
+      "headword": "{感慨|かんがい}",
+      "label": "deep emotion"
+    }
+  ],
   "metadata": {
     "created": "2026-01-30T23:07:52Z",
-    "modified": "2026-08-12T21:25:53Z",
+    "modified": "2026-09-02T04:01:17Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

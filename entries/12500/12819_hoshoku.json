@@ -3,7 +3,7 @@
   "id": "12819_hoshoku",
   "headword": "{捕食|ほしょく}",
   "reading": "ほしょく",
-  "part_of_speech": "noun / suru verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "predation; preying on",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "12819_hoshoku_ex1",
-      "japanese": "ライオンがシマウマを{捕食|ほしょく}する。",
+      "japanese": "⟦ライオン→ライオン：05197_raion⟧⟦が→が：00051_ga⟧シマウマ⟦を→を：00422_wo⟧{捕食|ほしょく}⟦する→する：00392_suru⟧。",
       "english": "Lions prey on zebras.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "12819_hoshoku_ex2",
-      "japanese": "カエルは{虫|むし}を{捕食|ほしょく}して{生|い}きている。",
+      "japanese": "⟦カエル→カエル：28199_kaeru⟧⟦は→は：00079_ha⟧⟦{虫|むし}→虫：02262_mushi⟧⟦を→を：00422_wo⟧{捕食|ほしょく}⟦して→する：00392_suru⟧⟦{生|い}きている→生きる：01184_ikiru⟧。",
       "english": "Frogs survive by preying on insects.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "12819_hoshoku_ex3",
-      "japanese": "{天敵|てんてき}による{捕食|ほしょく}から{逃|のが}れるために、{保護色|ほごしょく}を{持|も}つ{動物|どうぶつ}がいる。",
+      "japanese": "⟦{天敵|てんてき}→天敵：15846_tenteki⟧⟦による→による：28349_niyoru⟧{捕食|ほしょく}⟦から→から：00504_kara⟧⟦{逃|のが}れる→逃れる：10425_nogareru⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧、⟦{保護色|ほごしょく}→保護色：29906_hogoshoku⟧⟦を→を：00422_wo⟧⟦{持|も}つ→持つ：00478_motsu⟧⟦{動物|どうぶつ}→動物：01480_doubutsu⟧⟦が→が：00051_ga⟧⟦いる→いる：00495_iru⟧。",
       "english": "Some animals have protective coloring to escape predation by natural enemies.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,19 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{捕食|ほしょく} is a scientific/ecological term primarily used in biology and nature documentaries. It is not used for human eating. The word appears frequently in discussions of food chains and animal behavior.\n\nCOMMON COLLOCATIONS:\n- {捕食|ほしょく}{者|しゃ}: predator\n- {捕食|ほしょく}{行動|こうどう}: predatory behavior\n- {捕食|ほしょく}{関係|かんけい}: predator-prey relationship\n- {天敵|てんてき}に{捕食|ほしょく}される: to be preyed upon by a natural enemy",
-  "cross_references": [],
+  "notes": "USAGE:\n{捕食|ほしょく} is a scientific/ecological term primarily used in biology and nature documentaries. It is not used for human eating. The word appears frequently in discussions of food chains and animal behavior.\n\nCOMMON COLLOCATIONS:\n- {捕食|ほしょく}{者|しゃ}: predator\n- {捕食|ほしょく}⟦{行動|こうどう}→行動：02728_koudou⟧: predatory behavior\n- {捕食|ほしょく}⟦{関係|かんけい}→関係：01298_kankei⟧: predator-prey relationship\n- ⟦{天敵|てんてき}→天敵：15846_tenteki⟧⟦に→に：00314_ni⟧{捕食|ほしょく}⟦される→する：00392_suru⟧: to be preyed upon by a natural enemy",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "08638_emono",
+      "reading": "えもの",
+      "headword": "{獲物|えもの}",
+      "label": "prey"
+    }
+  ],
   "metadata": {
     "created": "2026-02-22T11:09:34Z",
-    "modified": "2026-03-29T03:07:35Z",
+    "modified": "2026-09-02T04:01:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -154,7 +162,8 @@
       "domain": [
         "academic"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

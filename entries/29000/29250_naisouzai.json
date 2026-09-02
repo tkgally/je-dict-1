@@ -15,41 +15,69 @@
   "examples": [
     {
       "id": "29250_naisouzai_ex1",
-      "japanese": "{内装材|ないそうざい}を{選|えら}ぶ。",
+      "japanese": "{内装材|ないそうざい}⟦を→を：00422_wo⟧⟦{選|えら}ぶ→選ぶ：00835_erabu⟧。",
       "english": "We choose the interior materials.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29250_naisouzai_ex2",
-      "japanese": "{自然|しぜん}{素材|そざい}の{内装材|ないそうざい}が{人気|にんき}だ。",
+      "japanese": "⟦{自然|しぜん}→自然：01423_shizen⟧⟦{素材|そざい}→素材：09492_sozai⟧⟦の→の：09472_no⟧{内装材|ないそうざい}⟦が→が：00051_ga⟧⟦{人気|にんき}→人気：01488_ninki⟧だ。",
       "english": "Natural interior materials are popular.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29250_naisouzai_ex3",
-      "japanese": "{部屋|へや}の{雰囲気|ふんいき}は{内装材|ないそうざい}の{色|いろ}や{質感|しつかん}で{大|おお}きく{変|か}わる。",
+      "japanese": "⟦{部屋|へや}→部屋：00507_heya⟧⟦の→の：09472_no⟧⟦{雰囲気|ふんいき}→雰囲気：03604_funiki⟧⟦は→は：00079_ha⟧{内装材|ないそうざい}⟦の→の：09472_no⟧⟦{色|いろ}→色：00849_iro⟧や⟦{質感|しつかん}→質感：18028_shitsukan⟧⟦で→で：00502_de⟧⟦{大|おお}きく→大きい：00335_ookii⟧⟦{変|か}わる→変わる：00714_kawaru⟧。",
       "english": "A room's atmosphere changes greatly depending on the color and texture of the interior materials.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Formed from {内装|ないそう} (interior fittings, interior decoration) + {材|ざい} (material). Used in construction, renovation, and car-customization contexts.\n\nCOMMON COLLOCATIONS:\n- {内装材|ないそうざい}を{張|は}り{替|か}える: to replace the interior materials\n- {木|き}の{内装材|ないそうざい}: wooden interior materials\n\nSIMILAR WORDS:\n- {外装材|がいそうざい}: exterior material — the counterpart used for the outside of a building\n- {建材|けんざい}: building material — a broader term covering all materials used in construction",
+  "notes": "Formed from ⟦{内装|ないそう}→内装：06425_naisou⟧ (interior fittings, interior decoration) + ⟦{材|ざい}→〜材：28347_zai⟧ (material). Used in construction, renovation, and car-customization contexts.\n\nCOMMON COLLOCATIONS:\n- {内装材|ないそうざい}⟦を→を：00422_wo⟧⟦{張|は}り{替|か}える→張り替える：28418_harikaeru⟧: to replace the interior materials\n- ⟦{木|き}→木：00524_ki⟧⟦の→の：09472_no⟧{内装材|ないそうざい}: wooden interior materials\n\nSIMILAR WORDS:\n- ⟦{外装材|がいそうざい}→外装材：26745_gaisouzai⟧: exterior material — the counterpart used for the outside of a building\n- ⟦{建材|けんざい}→建材：12646_kenzai⟧: building material — a broader term covering all materials used in construction",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "26745_gaisouzai",
+      "reading": "がいそうざい",
+      "headword": "{外装材|がいそうざい}",
+      "label": "exterior material"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12646_kenzai",
+      "reading": "けんざい",
+      "headword": "{建材|けんざい}",
+      "label": "building material"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["building"],
-      "domain": ["technical"]
+      "politeness": "plain",
+      "semantic": [
+        "building"
+      ],
+      "domain": [
+        "technical"
+      ]
     },
     "created": "2026-06-14T12:18:51Z",
-    "modified": "2026-06-14T12:18:51Z"
+    "modified": "2026-09-02T04:02:36Z"
   }
 }

@@ -3,7 +3,7 @@
   "headword": "月々",
   "reading": "つきづき",
   "romaji": "tsukizuki",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, adverb",
   "gloss": "every month; monthly",
   "definitions": [
     {
@@ -15,41 +15,61 @@
   "examples": [
     {
       "id": "30032_tsukizuki_ex1",
-      "japanese": "{月々|つきづき}の{支払|しはら}い。",
+      "japanese": "{月々|つきづき}⟦の→の：09472_no⟧{支払|しはら}い。",
       "english": "Monthly payments.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "30032_tsukizuki_ex2",
-      "japanese": "{月々|つきづき}{一定|いってい}の{額|がく}を{貯金|ちょきん}する。",
+      "japanese": "{月々|つきづき}⟦{一定|いってい}→一定：01735_ittei⟧⟦の→の：09472_no⟧⟦{額|がく}→額：02607_gaku⟧⟦を→を：00422_wo⟧⟦{貯金|ちょきん}→貯金：03497_chokin⟧⟦する→する：00392_suru⟧。",
       "english": "Save a fixed amount every month.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "30032_tsukizuki_ex3",
-      "japanese": "ローンは{月々|つきづき}{三|さん}{万|まん}{円|えん}ずつ{返|かえ}している。",
+      "japanese": "⟦ローン→ローン：06579_roon⟧⟦は→は：00079_ha⟧{月々|つきづき}⟦{三|さん}{万|まん}→三万：30467_sanman⟧⟦{円|えん}→円：00774_en⟧⟦ずつ→〜ずつ：03092_zutsu⟧⟦{返|かえ}している→返す：09648_kaesu⟧。",
       "english": "I'm paying back the loan at 30,000 yen a month.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Written with the iteration mark 々; the second {月|つき} is voiced to づき through {連濁|れんだく} (sequential voicing).\n\nCOMMON COLLOCATIONS:\n- {月々|つきづき}の{支払|しはら}い: monthly payment\n- {月々|つきづき}の{返済|へんさい}: monthly repayment\n- {月々|つきづき}{分割|ぶんかつ}: monthly installments\n\nSIMILAR WORDS:\n- {毎月|まいつき}: every month — more neutral and common\n- {月々|つきづき} emphasizes the steady, month-after-month recurrence, especially of payments and savings.",
+  "notes": "Written with the iteration mark 々; the second ⟦{月|つき}→月：02230_tsuki⟧ is voiced to づき through {連濁|れんだく} (sequential voicing).\n\nCOMMON COLLOCATIONS:\n- {月々|つきづき}⟦の→の：09472_no⟧{支払|しはら}い: monthly payment\n- {月々|つきづき}⟦の→の：09472_no⟧⟦{返済|へんさい}→返済：04776_hensai⟧: monthly repayment\n- {月々|つきづき}⟦{分割|ぶんかつ}→分割：11745_bunkatsu⟧: monthly installments\n\nSIMILAR WORDS:\n- ⟦{毎月|まいつき}→毎月：00732_maitsuki⟧: every month — more neutral and common\n- {月々|つきづき} emphasizes the steady, month-after-month recurrence, especially of payments and savings.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00732_maitsuki",
+      "reading": "まいつき",
+      "headword": "{毎月|まいつき}",
+      "label": "every month"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adverb"],
+      "pos": [
+        "noun",
+        "adverb"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["time-general"],
+      "politeness": "plain",
+      "semantic": [
+        "time-general"
+      ],
       "domain": []
     },
     "created": "2026-07-22T12:20:02Z",
-    "modified": "2026-07-22T12:20:02Z"
+    "modified": "2026-09-02T04:02:38Z"
   }
 }

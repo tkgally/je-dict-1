@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29578_baraka_ex1",
-      "japanese": "リンゴはバラ{科|か}の{植物|しょくぶつ}だ。",
+      "japanese": "リンゴ⟦は→は：00079_ha⟧バラ{科|か}⟦の→の：09472_no⟧⟦{植物|しょくぶつ}→植物：03248_shokubutsu⟧だ。",
       "english": "The apple is a plant of the rose family.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29578_baraka_ex2",
-      "japanese": "イチゴやサクラもバラ{科|か}に{属|ぞく}している。",
+      "japanese": "イチゴやサクラ⟦も→も：00484_mo⟧バラ{科|か}⟦に→に：00314_ni⟧⟦{属|ぞく}している→属する：12402_zokusuru⟧。",
       "english": "Strawberries and cherry trees also belong to the rose family.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29578_baraka_ex3",
-      "japanese": "バラ{科|か}には{果物|くだもの}として{食|た}べられる{植物|しょくぶつ}が{多|おお}く{含|ふく}まれている。",
+      "japanese": "バラ{科|か}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{果物|くだもの}→果物：00509_kudamono⟧⟦として→として：06802_toshite⟧⟦{食|た}べられる→食べる：00396_taberu⟧⟦{植物|しょくぶつ}→植物：03248_shokubutsu⟧⟦が→が：00051_ga⟧⟦{多|おお}く→多い：01127_ooi⟧⟦{含|ふく}まれている→含む：01982_fukumu⟧。",
       "english": "The rose family includes many plants that are eaten as fruit.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "The biological family Rosaceae. The suffix {科|か} marks a taxonomic family; the family name precedes it, here written in katakana as バラ.\n\nNOTABLE MEMBERS:\n- リンゴ: apple\n- サクラ: cherry (tree)\n- イチゴ: strawberry\n- {梅|うめ}: plum/apricot\n\nUSAGE:\n- バラ{科|か}の{植物|しょくぶつ}: a plant of the rose family\n- バラ{科|か}に{属|ぞく}する: to belong to the rose family",
+  "notes": "The biological family Rosaceae. The suffix {科|か} marks a taxonomic family; the family name precedes it, here written in katakana as バラ.\n\nNOTABLE MEMBERS:\n- リンゴ: apple\n- サクラ: cherry (tree)\n- イチゴ: strawberry\n- ⟦{梅|うめ}→梅：01869_ume⟧: plum/apricot\n\nUSAGE:\n- バラ{科|か}⟦の→の：09472_no⟧⟦{植物|しょくぶつ}→植物：03248_shokubutsu⟧: a plant of the rose family\n- バラ{科|か}⟦に→に：00314_ni⟧⟦{属|ぞく}する→属する：12402_zokusuru⟧: to belong to the rose family",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,13 +53,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "plant-general"
       ],
       "domain": []
     },
     "created": "2026-06-29T18:19:55Z",
-    "modified": "2026-06-29T18:19:55Z"
+    "modified": "2026-09-02T04:02:37Z"
   }
 }

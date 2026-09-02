@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "16911_sanjo_ex1",
-      "japanese": "{賛助|さんじょ}{会員|かいいん}を{募集|ぼしゅう}しています。",
+      "japanese": "{賛助|さんじょ}⟦{会員|かいいん}→会員：02535_kaiin⟧⟦を→を：00422_wo⟧⟦{募集|ぼしゅう}→募集：03035_boshuu⟧⟦しています→する：00392_suru⟧。",
       "english": "We are recruiting supporting members.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "16911_sanjo_ex2",
-      "japanese": "{企業|きぎょう}から{賛助|さんじょ}{金|きん}を{受|う}けた。",
+      "japanese": "⟦{企業|きぎょう}→企業：00225_kigyou⟧⟦から→から：00504_kara⟧{賛助|さんじょ}{金|きん}⟦を→を：00422_wo⟧⟦{受|う}けた→受ける：01215_ukeru⟧。",
       "english": "We received sponsorship funding from a company.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "16911_sanjo_ex3",
-      "japanese": "このイベントは{多|おお}くの{団体|だんたい}の{賛助|さんじょ}によって{実現|じつげん}した。",
+      "japanese": "⟦この→この：00962_kono⟧⟦イベント→イベント：09594_ibento⟧⟦は→は：00079_ha⟧{多|おお}く⟦の→の：09472_no⟧⟦{団体|だんたい}→団体：03426_dantai⟧⟦の→の：09472_no⟧{賛助|さんじょ}⟦によって→によって：06801_niyotte⟧⟦{実現|じつげん}→実現：03276_jitsugen⟧⟦した→する：00392_suru⟧。",
       "english": "This event was made possible through the support of many organizations.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,26 @@
       ]
     }
   ],
-  "notes": "USAGE:\nMost commonly seen in {賛助|さんじょ}{会員|かいいん} (supporting member/associate member), a common membership category in Japanese organizations where members provide financial support without full voting rights.\n\nCOMMON COLLOCATIONS:\n- {賛助|さんじょ}{会員|かいいん} (supporting member)\n- {賛助|さんじょ}{金|きん} (sponsorship money)\n- {賛助|さんじょ}{出演|しゅつえん} (guest appearance in support)\n\nSIMILAR WORDS:\n- {後援|こうえん}: patronage, backing — broader support, often for events\n- {協賛|きょうさん}: co-sponsorship — joint support, often commercial",
-  "cross_references": [],
+  "notes": "USAGE:\nMost commonly seen in {賛助|さんじょ}⟦{会員|かいいん}→会員：02535_kaiin⟧ (supporting member/associate member), a common membership category in Japanese organizations where members provide financial support without full voting rights.\n\nCOMMON COLLOCATIONS:\n- {賛助|さんじょ}⟦{会員|かいいん}→会員：02535_kaiin⟧ (supporting member)\n- {賛助|さんじょ}{金|きん} (sponsorship money)\n- {賛助|さんじょ}⟦{出演|しゅつえん}→出演：11732_shutsuen⟧ (guest appearance in support)\n\nSIMILAR WORDS:\n- ⟦{後援|こうえん}→後援：12616_kouen⟧: patronage, backing — broader support, often for events\n- ⟦{協賛|きょうさん}→協賛：19226_kyousan⟧: co-sponsorship — joint support, often commercial",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12616_kouen",
+      "reading": "こうえん",
+      "headword": "{後援|こうえん}",
+      "label": "patronage, backing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19226_kyousan",
+      "reading": "きょうさん",
+      "headword": "{協賛|きょうさん}",
+      "label": "co-sponsorship"
+    }
+  ],
   "metadata": {
     "created": "2026-03-15T00:18:56Z",
-    "modified": "2026-03-29T03:08:43Z",
+    "modified": "2026-09-02T04:01:46Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

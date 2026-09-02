@@ -110,7 +110,7 @@
   "examples": [
     {
       "id": "10951_shooto_ex1",
-      "japanese": "{髪|かみ}をショートにした。",
+      "japanese": "⟦{髪|かみ}→髪：02196_kami⟧⟦を→を：00422_wo⟧ショートにした。",
       "english": "I got a short haircut.",
       "notes": null,
       "has_audio": false,
@@ -120,7 +120,7 @@
     },
     {
       "id": "10951_shooto_ex2",
-      "japanese": "ショートヘアが{似合|にあ}うね。",
+      "japanese": "ショートヘア⟦が→が：00051_ga⟧⟦{似合|にあ}う→似合う：02134_niau⟧⟦ね→ね：09474_ne⟧。",
       "english": "Short hair suits you.",
       "notes": null,
       "has_audio": false,
@@ -130,7 +130,7 @@
     },
     {
       "id": "10951_shooto_ex3",
-      "japanese": "ショートケーキを{一|ひと}つください。",
+      "japanese": "ショートケーキ⟦を→を：00422_wo⟧⟦{一|ひと}つ→一つ：02948_hitotsu⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "One strawberry shortcake, please.",
       "notes": null,
       "has_audio": false,
@@ -140,7 +140,7 @@
     },
     {
       "id": "10951_shooto_ex4",
-      "japanese": "{配線|はいせん}がショートした。",
+      "japanese": "⟦{配線|はいせん}→配線：07862_haisen⟧⟦が→が：00051_ga⟧ショート⟦した→する：00392_suru⟧。",
       "english": "The wiring short-circuited.",
       "notes": null,
       "has_audio": false,
@@ -150,7 +150,7 @@
     },
     {
       "id": "10951_shooto_ex5",
-      "japanese": "ショートして{火花|ひばな}が{出|で}た。",
+      "japanese": "ショート⟦して→する：00392_suru⟧⟦{火花|ひばな}→火花：13378_hibana⟧⟦が→が：00051_ga⟧⟦{出|で}た→出る：00513_deru⟧。",
       "english": "It short-circuited and sparks flew.",
       "notes": null,
       "has_audio": false,
@@ -160,7 +160,7 @@
     },
     {
       "id": "10951_shooto_ex6",
-      "japanese": "{古|ふる}い{家電|かでん}はショートの{危険|きけん}があるので{注意|ちゅうい}が{必要|ひつよう}だ。",
+      "japanese": "⟦{古|ふる}い→古い：00488_furui⟧⟦{家電|かでん}→家電：04966_kaden⟧⟦は→は：00079_ha⟧ショート⟦の→の：09472_no⟧⟦{危険|きけん}→危険：01141_kiken⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧⟦の→の：09472_no⟧で⟦{注意|ちゅうい}→注意：01464_chuui⟧⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧だ。",
       "english": "Old appliances have a risk of short-circuiting, so caution is needed.",
       "notes": null,
       "has_audio": false,
@@ -169,11 +169,19 @@
       ]
     }
   ],
-  "notes": "COMMON COLLOCATIONS:\nSense 1:\n- ショートヘア: short hair\n- ショートカット: short haircut (note: not used for computer shortcuts as in English)\n- ショートケーキ: shortcake (Japanese-style strawberry sponge cake)\n- ショートパンツ: shorts\n- ショートフィルム: short film\n\nSense 2:\n- ショートする: to short-circuit\n- ショート{回路|かいろ}: short circuit\n\nCAUTION:\nJapanese ショートケーキ refers to a strawberry sponge cake with whipped cream, which is different from what \"shortcake\" means in American English (a biscuit-based dessert).\n\nショートカット in Japanese typically means a short hairstyle for women, not a keyboard shortcut or a shorter route.",
-  "cross_references": [],
+  "notes": "COMMON COLLOCATIONS:\nSense 1:\n- ショートヘア: short hair\n- ショートカット: short haircut (note: not used for computer shortcuts as in English)\n- ショートケーキ: shortcake (Japanese-style strawberry sponge cake)\n- ショートパンツ: shorts\n- ショート⟦フィルム→フィルム：02951_firumu⟧: short film\n\nSense 2:\n- ショート⟦する→する：00392_suru⟧: to short-circuit\n- ショート⟦{回路|かいろ}→回路：12038_kairo⟧: short circuit\n\nWATCH OUT:\nJapanese ショートケーキ refers to a strawberry sponge cake with whipped cream, which is different from what \"shortcake\" means in American English (a biscuit-based dessert).\n\nショートカット in Japanese typically means a short hairstyle for women, not a keyboard shortcut or a shorter route.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "09482_picchaa",
+      "reading": "ぴっちゃー",
+      "headword": "ピッチャー",
+      "label": "pitcher (baseball)"
+    }
+  ],
   "metadata": {
     "created": "2026-02-11T19:13:09Z",
-    "modified": "2026-08-15T00:34:42Z",
+    "modified": "2026-09-02T04:01:23Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

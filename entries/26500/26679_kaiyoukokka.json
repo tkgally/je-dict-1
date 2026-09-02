@@ -15,42 +15,62 @@
   "examples": [
     {
       "id": "26679_kaiyoukokka_ex1",
-      "japanese": "{日本|にほん}は{海洋国家|かいようこっか}として{発展|はってん}してきた。",
+      "japanese": "⟦{日本|にほん}→日本：03876_nihon⟧⟦は→は：00079_ha⟧{海洋国家|かいようこっか}⟦として→として：06802_toshite⟧⟦{発展|はってん}して→発展する：25331_hattensuru⟧きた。",
       "english": "Japan has developed as a maritime nation.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26679_kaiyoukokka_ex2",
-      "japanese": "イギリスは{歴史的|れきしてき}に{海洋国家|かいようこっか}として{知|し}られている。",
+      "japanese": "⟦イギリス→イギリス：28283_igirisu⟧⟦は→は：00079_ha⟧⟦{歴史的|れきしてき}→歴史的：05671_rekishiteki⟧⟦に→に：00314_ni⟧{海洋国家|かいようこっか}⟦として→として：06802_toshite⟧⟦{知|し}られている→知る：00458_shiru⟧。",
       "english": "Britain is historically known as a maritime nation.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26679_kaiyoukokka_ex3",
-      "japanese": "{海洋国家|かいようこっか}にとって、{漁業資源|ぎょぎょうしげん}の{管理|かんり}や{領海|りょうかい}の{防衛|ぼうえい}は{極|きわ}めて{重要|じゅうよう}な{課題|かだい}である。",
+      "japanese": "{海洋国家|かいようこっか}⟦にとって→にとって：06803_nitotte⟧、{漁業資源|ぎょぎょうしげん}⟦の→の：09472_no⟧⟦{管理|かんり}→管理：00178_kanri⟧や⟦{領海|りょうかい}→領海：15850_ryoukai⟧⟦の→の：09472_no⟧⟦{防衛|ぼうえい}→防衛：09783_bouei⟧⟦は→は：00079_ha⟧{極|きわ}めて⟦{重要|じゅうよう}→重要：01575_juuyou⟧な⟦{課題|かだい}→課題：00132_kadai⟧⟦である→である：09855_dearu⟧。",
       "english": "For a maritime nation, the management of fishery resources and the defense of territorial waters are extremely important issues.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {海洋|かいよう} (ocean; maritime) and {国家|こっか} (nation; state). This term appears frequently in Japanese political and academic discourse, as Japan's self-identity as a {海洋国家|かいようこっか} has been a recurring theme in policy debates.\n\nCOMMON COLLOCATIONS:\n- {海洋国家|かいようこっか}としての{責任|せきにん}: responsibility as a maritime nation\n- {海洋国家|かいようこっか}{戦略|せんりゃく}: maritime nation strategy\n- {海洋国家|かいようこっか}{日本|にほん}: Japan as a maritime nation\n\nSIMILAR WORDS:\n- {島国|しまぐに}: island nation — focuses on geographic isolation rather than maritime orientation\n- {大陸国家|たいりくこっか}: continental nation — the opposite concept: a country whose power is land-based\n- {海運国|かいうんこく}: shipping nation — narrower, focused specifically on merchant shipping",
-  "cross_references": [],
+  "notes": "Composed of ⟦{海洋|かいよう}→海洋：00143_kaiyou⟧ (ocean; maritime) and ⟦{国家|こっか}→国家：02760_kokka⟧ (nation; state). This term appears frequently in Japanese political and academic discourse, as Japan's self-identity as a {海洋国家|かいようこっか} has been a recurring theme in policy debates.\n\nCOMMON COLLOCATIONS:\n- {海洋国家|かいようこっか}⟦として→として：06802_toshite⟧⟦の→の：09472_no⟧⟦{責任|せきにん}→責任：03298_sekinin⟧: responsibility as a maritime nation\n- {海洋国家|かいようこっか}⟦{戦略|せんりゃく}→戦略：04869_senryaku⟧: maritime nation strategy\n- {海洋国家|かいようこっか}⟦{日本|にほん}→日本：03876_nihon⟧: Japan as a maritime nation\n\nSIMILAR WORDS:\n- ⟦{島国|しまぐに}→島国：12339_shimaguni⟧: island nation — focuses on geographic isolation rather than maritime orientation\n- {大陸国家|たいりくこっか}: continental nation — the opposite concept: a country whose power is land-based\n- {海運国|かいうんこく}: shipping nation — narrower, focused specifically on merchant shipping",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12339_shimaguni",
+      "reading": "しまぐに",
+      "headword": "{島国|しまぐに}",
+      "label": "island nation"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["academic"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "academic"
+      ]
     },
     "created": "2026-05-04T12:48:33Z",
-    "modified": "2026-05-04T12:48:33Z"
+    "modified": "2026-09-02T04:02:27Z"
   }
 }

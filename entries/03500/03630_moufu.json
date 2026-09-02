@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "03630_moufu_ex1",
-      "japanese": "⟦{寒|さむ}い→寒い：00664_samui⟧⟦から→から：00504_kara⟧{毛布|もうふ}⟦を→を：00422_wo⟧もう⟦{一枚|いちまい}→一枚：08889_ichimai⟧⟦{掛|か}けた→かける：00854_kakeru⟧。",
+      "japanese": "⟦{寒|さむ}い→寒い：00664_samui⟧⟦から→から：00504_kara⟧{毛布|もうふ}⟦を→を：00422_wo⟧⟦もう→もう：00602_mou⟧⟦{一枚|いちまい}→一枚：08889_ichimai⟧⟦{掛|か}けた→かける：00854_kakeru⟧。",
       "english": "I put on another blanket because it was cold.",
       "notes": null,
       "has_audio": false,
@@ -64,9 +64,32 @@
     }
   ],
   "notes": "{毛布|もうふ} refers specifically to a blanket — a single layer of soft fabric used for warmth. It is distinct from the Japanese bedding system that uses ⟦{布団|ふとん}→布団：01720_futon⟧.\n\nSIMILAR WORDS:\n- {毛布|もうふ}: blanket (single layer of fabric)\n- ⟦{掛|か}け{布団|ぶとん}→掛け布団：07014_kakebuton⟧: duvet/comforter (thicker, filled bedding)\n- ⟦{布団|ふとん}→布団：01720_futon⟧: futon (general term for Japanese bedding)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07014_kakebuton",
+      "reading": "かけぶとん",
+      "headword": "{掛|か}け{布団|ぶとん}",
+      "label": "duvet/comforter"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01720_futon",
+      "reading": "ふとん",
+      "headword": "{布団|ふとん}",
+      "label": "futon"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24217_taoruketto",
+      "reading": "たおるけっと",
+      "headword": "タオルケット",
+      "label": "towel blanket"
+    }
+  ],
   "metadata": {
     "created": "2026-01-12T16:40:48Z",
-    "modified": "2026-05-26T19:11:30Z",
+    "modified": "2026-09-02T04:01:03Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

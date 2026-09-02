@@ -34,7 +34,7 @@
     },
     {
       "id": "04159_saisoku_ex3",
-      "japanese": "⟦{何度|なんど}→何度：17592_nando⟧⟦も→も：00484_mo⟧{催促|さいそく}して⟦も→も：00484_mo⟧⟦{返事|へんじ}→返事：00844_henji⟧⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧。",
+      "japanese": "⟦{何度|なんど}→何度：17592_nando⟧⟦も→も：00484_mo⟧{催促|さいそく}⟦して→する：00392_suru⟧⟦も→も：00484_mo⟧⟦{返事|へんじ}→返事：00844_henji⟧⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧。",
       "english": "Even after repeated reminders, there is no reply.",
       "notes": null,
       "has_audio": false,
@@ -63,10 +63,10 @@
       ]
     }
   ],
-  "notes": "{催促|さいそく} means urging or pressing someone to do something they should have already done—often regarding payments, responses, or deadlines.\n\nGRAMMAR:\n- Functions as noun or する verb: {催促|さいそく}する (to urge, to press)\n- Often used in passive: {催促|さいそく}される (to be pressed/reminded)\n\nCOMMON PATTERNS:\n- {催促|さいそく}⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧ (to receive a reminder)\n- {催促|さいそく}⟦{状|じょう}→状：09878_jou⟧ (reminder letter, dunning letter)\n- ⟦{支払|しはら}い→支払い：03193_shiharai⟧⟦の→の：09472_no⟧{催促|さいそく} (payment reminder)\n- ⟦{何度|なんど}→何度：17592_nando⟧⟦も→も：00484_mo⟧{催促|さいそく}する (to remind repeatedly)\n\nNUANCE:\nImplies some frustration or urgency—the person being urged is behind schedule or has not responded. More direct than ⟦{お願|ねが}いする→お願いする：10299_onegai⟧.\n\nRELATED WORDS:\n- ⟦{督促|とくそく}→督促：09002_tokusoku⟧: stronger/more formal demand (often legal)\n- ⟦{請求|せいきゅう}→請求：03374_seikyuu⟧: billing, invoice request",
+  "notes": "{催促|さいそく} means urging or pressing someone to do something they should have already done—often regarding payments, responses, or deadlines.\n\nCOMMON PATTERNS:\n- Functions as noun or ⟦する→する：00392_suru⟧ verb: {催促|さいそく}⟦する→する：00392_suru⟧ (to urge, to press)\n- Often used in passive: {催促|さいそく}⟦される→する：00392_suru⟧ (to be pressed/reminded)\n- {催促|さいそく}⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧ (to receive a reminder)\n- {催促|さいそく}⟦{状|じょう}→状：09878_jou⟧ (reminder letter, dunning letter)\n- ⟦{支払|しはら}い→支払い：03193_shiharai⟧⟦の→の：09472_no⟧{催促|さいそく} (payment reminder)\n- ⟦{何度|なんど}→何度：17592_nando⟧⟦も→も：00484_mo⟧{催促|さいそく}⟦する→する：00392_suru⟧ (to remind repeatedly)\n\nUSAGE:\nImplies some frustration or urgency—the person being urged is behind schedule or has not responded. More direct than ⟦{お願|ねが}いする→お願いする：10299_onegai⟧.\n\nRELATED WORDS:\n- ⟦{督促|とくそく}→督促：09002_tokusoku⟧: stronger/more formal demand (often legal)\n- ⟦{請求|せいきゅう}→請求：03374_seikyuu⟧: billing, invoice request",
   "metadata": {
     "created": "2026-01-13T14:00:08Z",
-    "modified": "2026-05-29T19:12:24Z",
+    "modified": "2026-09-02T04:01:04Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
@@ -94,6 +94,20 @@
       "reading": "さいそく",
       "headword": "{最速|さいそく}",
       "label": "fastest"
+    },
+    {
+      "type": "related",
+      "target_id": "09002_tokusoku",
+      "reading": "とくそく",
+      "headword": "{督促|とくそく}",
+      "label": "stronger/more formal demand"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29867_tokusokujou",
+      "reading": "とくそくじょう",
+      "headword": "督促状",
+      "label": "reminder letter"
     }
   ]
 }

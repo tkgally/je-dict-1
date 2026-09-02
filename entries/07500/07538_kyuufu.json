@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "07538_kyuufu_ex1",
-      "japanese": "{休符|きゅうふ}の{長|なが}さを{正確|せいかく}に{数|かぞ}える。",
+      "japanese": "{休符|きゅうふ}⟦の→の：09472_no⟧⟦{長|なが}さ→長さ：05326_nagasa⟧⟦を→を：00422_wo⟧⟦{正確|せいかく}→正確：03372_seikaku⟧⟦に→に：00314_ni⟧⟦{数|かぞ}える→数える：01926_kazoeru⟧。",
       "english": "Count the length of the rest accurately.",
       "has_audio": false,
       "sense_numbers": [
@@ -23,7 +23,7 @@
     },
     {
       "id": "07538_kyuufu_ex2",
-      "japanese": "{四分|しぶん}{休符|きゅうふ}は{四分|しぶん}{音符|おんぷ}と{同|おな}じ{長|なが}さだ。",
+      "japanese": "{四分|しぶん}{休符|きゅうふ}⟦は→は：00079_ha⟧{四分|しぶん}⟦{音符|おんぷ}→音符：06988_onpu⟧⟦と→と：00512_to⟧⟦{同|おな}じ→同じ：02857_onaji⟧⟦{長|なが}さ→長さ：05326_nagasa⟧だ。",
       "english": "A quarter rest is the same length as a quarter note.",
       "has_audio": false,
       "sense_numbers": [
@@ -32,7 +32,7 @@
     },
     {
       "id": "07538_kyuufu_ex3",
-      "japanese": "{休符|きゅうふ}も{音楽|おんがく}の{一部|いちぶ}だ。",
+      "japanese": "{休符|きゅうふ}⟦も→も：00484_mo⟧⟦{音楽|おんがく}→音楽：00661_ongaku⟧⟦の→の：09472_no⟧⟦{一部|いちぶ}→一部：06783_ichibu⟧だ。",
       "english": "Rests are also part of the music.",
       "has_audio": false,
       "sense_numbers": [
@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "notes": "WORD STRUCTURE:\n{休|きゅう} (rest, pause) + {符|ふ} (symbol, mark)\n\nTYPES OF RESTS:\n・{全|ぜん}{休符|きゅうふ} - whole rest\n・{二分|にぶん}{休符|きゅうふ} - half rest\n・{四分|しぶん}{休符|きゅうふ} - quarter rest\n・{八分|はちぶん}{休符|きゅうふ} - eighth rest\n・{十六分|じゅうろくぶん}{休符|きゅうふ} - sixteenth rest\n\nRELATED TERMS:\n・{音符|おんぷ} - note (musical)\n・{楽譜|がくふ} - musical score/sheet music\n・{拍子|ひょうし} - time signature, beat\n・{小節|しょうせつ} - measure, bar\n\nCOLLOCATIONS:\n・{休符|きゅうふ}を{守|まも}る - to observe the rest (not play during it)\n・{休符|きゅうふ}を{数|かぞ}える - to count the rest",
+  "notes": "ETYMOLOGY:\n{休|きゅう} (rest, pause) + {符|ふ} (symbol, mark)\n\nTYPES OF RESTS:\n- {全|ぜん}{休符|きゅうふ} - whole rest\n- ⟦{二分|にぶん}→二分：30504_nibun⟧{休符|きゅうふ} - half rest\n- {四分|しぶん}{休符|きゅうふ} - quarter rest\n- {八分|はちぶん}{休符|きゅうふ} - eighth rest\n- {十六分|じゅうろくぶん}{休符|きゅうふ} - sixteenth rest\n\nRELATED WORDS:\n- ⟦{音符|おんぷ}→音符：06988_onpu⟧ - note (musical)\n- ⟦{楽譜|がくふ}→楽譜：06987_gakufu⟧ - musical score/sheet music\n- ⟦{拍子|ひょうし}→拍子：10495_hyoushi⟧ - time signature, beat\n- {小節|しょうせつ} - measure, bar\n\nCOMMON COLLOCATIONS:\n- {休符|きゅうふ}⟦を→を：00422_wo⟧⟦{守|まも}る→守る：01986_mamoru⟧ - to observe the rest (not play during it)\n- {休符|きゅうふ}⟦を→を：00422_wo⟧⟦{数|かぞ}える→数える：01926_kazoeru⟧ - to count the rest",
   "cross_references": [
     {
       "type": "related",
@@ -48,11 +48,32 @@
       "headword": "{独奏|どくそう}",
       "label": "solo performance",
       "target_id": "07539_dokusou"
+    },
+    {
+      "type": "related",
+      "target_id": "06988_onpu",
+      "reading": "おんぷ",
+      "headword": "{音符|おんぷ}",
+      "label": "note"
+    },
+    {
+      "type": "related",
+      "target_id": "06987_gakufu",
+      "reading": "がくふ",
+      "headword": "{楽譜|がくふ}",
+      "label": "musical score/sheet music"
+    },
+    {
+      "type": "related",
+      "target_id": "10495_hyoushi",
+      "reading": "ひょうし",
+      "headword": "{拍子|ひょうし}",
+      "label": "time signature, beat"
     }
   ],
   "metadata": {
     "created": "2026-01-20T08:47:47Z",
-    "modified": "2026-01-24T14:24:36Z",
+    "modified": "2026-09-02T04:01:11Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +81,7 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "music"
       ]

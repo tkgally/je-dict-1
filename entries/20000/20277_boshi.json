@@ -15,40 +15,60 @@
   "examples": [
     {
       "id": "20277_boshi_ex1",
-      "japanese": "{母子|ぼし}ともに{健康|けんこう}です。",
+      "japanese": "{母子|ぼし}とも⟦に→に：00314_ni⟧⟦{健康|けんこう}→健康：02706_kenkou⟧です。",
       "english": "Both mother and child are healthy.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20277_boshi_ex2",
-      "japanese": "{母子|ぼし}{手帳|てちょう}をもらった。",
+      "japanese": "{母子|ぼし}{手帳|てちょう}⟦を→を：00422_wo⟧⟦もらった→もらう：00520_morau⟧。",
       "english": "I received a maternal and child health handbook.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20277_boshi_ex3",
-      "japanese": "{母子|ぼし}{家庭|かてい}を{支援|しえん}するための{制度|せいど}が{充実|じゅうじつ}してきた。",
+      "japanese": "{母子|ぼし}{家庭|かてい}⟦を→を：00422_wo⟧⟦{支援|しえん}する→支援する：25534_shiensuru⟧⟦ため→ため：01145_tame⟧⟦の→の：09472_no⟧⟦{制度|せいど}→制度：03291_seido⟧⟦が→が：00051_ga⟧⟦{充実|じゅうじつ}→充実：04845_juujitsu⟧してきた。",
       "english": "Systems to support single-mother households have become more comprehensive.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Compound of {母|ぼ} (mother) + {子|し} (child). A formal compound used primarily in institutional and official contexts.\n\nUSAGE:\nVery common in healthcare, social welfare, and legal contexts. The {母子|ぼし}{手帳|てちょう} (maternal and child health handbook) is given to every pregnant woman in Japan and is used to record the health of both mother and child throughout pregnancy and early childhood. {母子|ぼし}{家庭|かてい} is the formal term for a single-mother household.\n\nCOMMON COLLOCATIONS:\n- {母子|ぼし}{手帳|てちょう} — maternal and child health handbook\n- {母子|ぼし}{家庭|かてい} — single-mother household\n- {母子|ぼし}{健康|けんこう} — maternal and child health\n- {母子|ぼし}{分離|ぶんり} — separation of mother and child\n- {母子|ぼし}ともに — both mother and child\n\nSIMILAR WORDS:\n- {父子|ふし} — father and child\n- {親子|おやこ} — parent and child (either parent, warmer/more casual)\n- {母娘|おやこ}/{母娘|ははむすめ} — mother and daughter",
+  "notes": "Compound of {母|ぼ} (mother) + {子|し} (child). A formal compound used primarily in institutional and official contexts.\n\nUSAGE:\nVery common in healthcare, social welfare, and legal contexts. The {母子|ぼし}{手帳|てちょう} (maternal and child health handbook) is given to every pregnant woman in Japan and is used to record the health of both mother and child throughout pregnancy and early childhood. {母子|ぼし}{家庭|かてい} is the formal term for a single-mother household.\n\nCOMMON COLLOCATIONS:\n- {母子|ぼし}{手帳|てちょう} — maternal and child health handbook\n- {母子|ぼし}{家庭|かてい} — single-mother household\n- {母子|ぼし}⟦{健康|けんこう}→健康：02706_kenkou⟧ — maternal and child health\n- {母子|ぼし}⟦{分離|ぶんり}→分離：11773_bunri⟧ — separation of mother and child\n- {母子|ぼし}とも⟦に→に：00314_ni⟧ — both mother and child\n\nSIMILAR WORDS:\n- {父子|ふし} — father and child\n- ⟦{親子|おやこ}→親子：10430_oyako⟧ — parent and child (either parent, warmer/more casual)\n- {母娘|おやこ}/{母娘|ははむすめ} — mother and daughter",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "10430_oyako",
+      "reading": "おやこ",
+      "headword": "{親子|おやこ}",
+      "label": "parent and child"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["family", "health"]
+      "semantic": [
+        "family",
+        "health"
+      ]
     },
     "created": "2026-03-28T19:19:33Z",
-    "modified": "2026-03-28T19:19:33Z"
+    "modified": "2026-09-02T04:01:59Z"
   }
 }

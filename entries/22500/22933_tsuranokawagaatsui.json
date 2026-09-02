@@ -15,40 +15,81 @@
   "examples": [
     {
       "id": "22933_tsuranokawagaatsui_ex1",
-      "japanese": "あの{人|ひと}は{面|つら}の{皮|かわ}が{厚|あつ}い。",
+      "japanese": "⟦あの{人|ひと}→あの人：25922_anohito⟧⟦は→は：00079_ha⟧{面|つら}の{皮|かわ}が{厚|あつ}い。",
       "english": "That person is shameless.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "22933_tsuranokawagaatsui_ex2",
-      "japanese": "{嘘|うそ}がばれても{平気|へいき}でいられるなんて、{面|つら}の{皮|かわ}が{厚|あつ}い。",
+      "japanese": "⟦{嘘|うそ}→嘘：01796_uso⟧⟦が→が：00051_ga⟧⟦ばれて→ばれる：06721_bareru⟧⟦も→も：00484_mo⟧⟦{平気|へいき}→平気：00095_heiki⟧で⟦いられる→いる：00495_iru⟧⟦なんて→なんて：06918_nante⟧、{面|つら}の{皮|かわ}が{厚|あつ}い。",
       "english": "Being able to stay calm even when caught in a lie — how shameless.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "22933_tsuranokawagaatsui_ex3",
-      "japanese": "{自分|じぶん}のミスを{人|ひと}のせいにしておいて、まだ{面|つら}の{皮|かわ}が{厚|あつ}く{居座|いすわ}っている。",
+      "japanese": "⟦{自分|じぶん}→自分：02887_jibun⟧⟦の→の：09472_no⟧⟦ミス→ミス：00285_misu⟧⟦を→を：00422_wo⟧⟦{人|ひと}→人：00476_hito⟧⟦の→の：09472_no⟧せいにしておいて、⟦まだ→まだ：00603_mada⟧{面|つら}の{皮|かわ}が{厚|あつ}く⟦{居座|いすわ}っている→居座る：15930_isuwaru⟧。",
       "english": "Even after blaming their own mistakes on others, they're brazenly staying put.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Literally \"the skin of one's face is thick\" — a vivid idiom meaning someone is so brazen that criticism bounces right off them. Always used negatively, to criticize someone who acts without shame. The word {面|つら} is a rougher, more colloquial way to say {顔|かお} (face).\n\nUSAGE:\nAlmost always used to criticize or express exasperation at someone's shamelessness. Can be used as a predicate ({面|つら}の{皮|かわ}が{厚|あつ}い) or as a modifier ({面|つら}の{皮|かわ}が{厚|あつ}く...).\n\nSIMILAR WORDS:\n- {厚|あつ}かましい: impudent, brazen — a direct adjective meaning shameless; less idiomatic\n- {図々|ずうずう}しい: brazen, nervy — similar meaning; slightly more colloquial\n- {恥知|はじし}らず: shameless person — a noun directly calling someone shameless\n- {鉄面皮|てつめんぴ}: brazen-faced — more literary; literally \"iron face skin\"",
+  "notes": "Literally \"the skin of one's face is thick\" — a vivid idiom meaning someone is so brazen that criticism bounces right off them. Always used negatively, to criticize someone who acts without shame. The word ⟦{面|つら}→面：02231_tsura⟧ is a rougher, more colloquial way to say ⟦{顔|かお}→顔：00558_kao⟧ (face).\n\nUSAGE:\nAlmost always used to criticize or express exasperation at someone's shamelessness. Can be used as a predicate ({面|つら}の{皮|かわ}が{厚|あつ}い) or as a modifier ({面|つら}の{皮|かわ}が{厚|あつ}く...).\n\nSIMILAR WORDS:\n- ⟦{厚|あつ}かましい→厚かましい：09161_atsukamashii⟧: impudent, brazen — a direct adjective meaning shameless; less idiomatic\n- ⟦{図々|ずうずう}しい→図々しい：06535_zuuzuushii⟧: brazen, nervy — similar meaning; slightly more colloquial\n- ⟦{恥知|はじし}らず→恥知らず：21065_hajishirazu⟧: shameless person — a noun directly calling someone shameless\n- ⟦{鉄面皮|てつめんぴ}→鉄面皮：15954_tetsumenpi⟧: brazen-faced — more literary; literally \"iron face skin\"",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09161_atsukamashii",
+      "reading": "あつかましい",
+      "headword": "{厚|あつ}かましい",
+      "label": "impudent, brazen"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06535_zuuzuushii",
+      "reading": "ずうずうしい",
+      "headword": "{図々|ずうずう}しい",
+      "label": "brazen, nervy"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21065_hajishirazu",
+      "reading": "はじしらず",
+      "headword": "{恥知|はじし}らず",
+      "label": "shameless person"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15954_tetsumenpi",
+      "reading": "てつめんぴ",
+      "headword": "{鉄面皮|てつめんぴ}",
+      "label": "brazen-faced"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["expression"],
-      "semantic": ["personality", "idiom"],
+      "pos": [
+        "expression"
+      ],
+      "semantic": [
+        "personality",
+        "idiom"
+      ],
       "formality": "informal",
       "politeness": "plain"
     },
     "created": "2026-04-07T21:09:31Z",
-    "modified": "2026-04-07T21:09:31Z"
+    "modified": "2026-09-02T04:02:10Z"
   }
 }

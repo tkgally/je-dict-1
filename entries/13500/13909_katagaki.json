@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "13909_katagaki_ex1",
-      "japanese": "{名刺|めいし}に{肩書|かたが}きを{入|い}れる。",
+      "japanese": "⟦{名刺|めいし}→名刺：01090_meishi⟧⟦に→に：00314_ni⟧{肩書|かたが}き⟦を→を：00422_wo⟧⟦{入|い}れる→入れる：01098_ireru⟧。",
       "english": "Put a title on a business card.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "13909_katagaki_ex2",
-      "japanese": "{彼|かれ}は{立派|りっぱ}な{肩書|かたが}きを{持|も}っている。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{立派|りっぱ}→立派：01093_rippa⟧な{肩書|かたが}き⟦を→を：00422_wo⟧⟦{持|も}っている→持つ：00478_motsu⟧。",
       "english": "He has an impressive title.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "13909_katagaki_ex3",
-      "japanese": "{肩書|かたが}きに{頼|たよ}らず{実力|じつりょく}で{勝負|しょうぶ}したい。",
+      "japanese": "{肩書|かたが}き⟦に→に：00314_ni⟧⟦{頼|たよ}ら→頼る：02069_tayoru⟧ず⟦{実力|じつりょく}→実力：03277_jitsuryoku⟧⟦で→で：00502_de⟧⟦{勝負|しょうぶ}→勝負：01437_shoubu⟧⟦したい→する：00392_suru⟧。",
       "english": "I want to compete on ability, not rely on titles.",
       "notes": null,
       "has_audio": false,
@@ -44,10 +44,19 @@
       ]
     }
   ],
-  "notes": "USAGE NOTE:\nOften used in discussions about Japanese business culture, where titles carry significant weight. The expression {肩書|かたが}きだけの refers to someone who has a title in name only, without real authority or ability.\n\nCOMMON COLLOCATIONS:\n- {肩書|かたが}きを{持|も}つ (have a title)\n- {肩書|かたが}きに{頼|たよ}る (rely on one's title)\n- {肩書|かたが}きだけの (title-only, nominal)\n- {肩書|かたが}きがない (have no title/credentials)\n\nSIMILAR WORDS:\n- {役職|やくしょく}: position, post (specifically within an organization hierarchy)\n- {称号|しょうごう}: honorary title or degree (more formal/academic)",
+  "notes": "USAGE:\nOften used in discussions about Japanese business culture, where titles carry significant weight. The expression {肩書|かたが}き⟦だけ→〜だけ：03093_dake⟧⟦の→の：09472_no⟧ refers to someone who has a title in name only, without real authority or ability.\n\nCOMMON COLLOCATIONS:\n- {肩書|かたが}き⟦を→を：00422_wo⟧⟦{持|も}つ→持つ：00478_motsu⟧ (have a title)\n- {肩書|かたが}き⟦に→に：00314_ni⟧⟦{頼|たよ}る→頼る：02069_tayoru⟧ (rely on one's title)\n- {肩書|かたが}き⟦だけ→〜だけ：03093_dake⟧⟦の→の：09472_no⟧ (title-only, nominal)\n- {肩書|かたが}き⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧ (have no title/credentials)\n\nSIMILAR WORDS:\n- ⟦{役職|やくしょく}→役職：05514_yakushoku⟧: position, post (specifically within an organization hierarchy)\n- {称号|しょうごう}: honorary title or degree (more formal/academic)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05514_yakushoku",
+      "reading": "やくしょく",
+      "headword": "{役職|やくしょく}",
+      "label": "position, post"
+    }
+  ],
   "metadata": {
     "created": "2026-02-27T06:54:06Z",
-    "modified": "2026-02-27T06:54:06Z",
+    "modified": "2026-09-02T04:01:35Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

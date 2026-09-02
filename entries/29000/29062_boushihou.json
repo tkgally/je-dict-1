@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29062_boushihou_ex1",
-      "japanese": "{感染症|かんせんしょう}{防止法|ぼうしほう}が{改正|かいせい}された。",
+      "japanese": "⟦{感染症|かんせんしょう}→感染症：15681_kansenshou⟧{防止法|ぼうしほう}⟦が→が：00051_ga⟧⟦{改正|かいせい}→改正：00446_kaisei⟧⟦された→する：00392_suru⟧。",
       "english": "The Infectious Disease Prevention Act was revised.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29062_boushihou_ex2",
-      "japanese": "{ハラスメント|はらすめんと}{防止法|ぼうしほう}に{基|もと}づき、{会社|かいしゃ}は{対策|たいさく}を{義務付|ぎむづ}けられた。",
+      "japanese": "⟦ハラスメント→ハラスメント：11288_harasumento⟧{防止法|ぼうしほう}⟦に→に：00314_ni⟧⟦{基|もと}づき→基づく：02315_motozuku⟧、⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦は→は：00079_ha⟧⟦{対策|たいさく}→対策：02511_taisaku⟧⟦を→を：00422_wo⟧{義務付|ぎむづ}けられた。",
       "english": "Based on anti-harassment legislation, companies were required to take preventive measures.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29062_boushihou_ex3",
-      "japanese": "{迷惑行為|めいわくこうい}{防止|ぼうし}{条例|じょうれい}と{犯罪|はんざい}{防止法|ぼうしほう}は{別々|べつべつ}の{法令|ほうれい}だ。",
+      "japanese": "⟦{迷惑行為|めいわくこうい}→迷惑行為：19742_meiwakukoui⟧⟦{防止|ぼうし}→防止：14571_boushi⟧⟦{条例|じょうれい}→条例：08255_jourei⟧⟦と→と：00512_to⟧⟦{犯罪|はんざい}→犯罪：03569_hanzai⟧{防止法|ぼうしほう}⟦は→は：00079_ha⟧⟦{別々|べつべつ}→別々：03972_betsubetsu⟧⟦の→の：09472_no⟧⟦{法令|ほうれい}→法令：13299_hourei⟧だ。",
       "english": "Nuisance-prevention ordinances and crime-prevention laws are separate pieces of legislation.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {防止|ぼうし} (prevention) + {法|ほう} (law). Almost always used as the second element in a longer compound naming a specific law. The component {防止|ぼうし} itself is widely used in the dictionary without this suffix.\n\nCOMMON COMPOUND TYPES:\n- {感染症|かんせんしょう}{防止法|ぼうしほう}: Infectious Disease Prevention Act\n- {犯罪|はんざい}{防止法|ぼうしほう}: crime prevention law\n- {虐待|ぎゃくたい}{防止法|ぼうしほう}: anti-abuse law\n- DV{防止法|ぼうしほう}: Domestic Violence Prevention Act\n\nSIMILAR WORDS:\n- {防止|ぼうし}: prevention — the base compound used before attaching 法 or other suffixes\n- {条例|じょうれい}: ordinance — a local government regulation rather than a national law",
+  "notes": "Compound of ⟦{防止|ぼうし}→防止：14571_boushi⟧ (prevention) + ⟦{法|ほう}→法：13620_hou⟧ (law). Almost always used as the second element in a longer compound naming a specific law. The component ⟦{防止|ぼうし}→防止：14571_boushi⟧ itself is widely used in the dictionary without this suffix.\n\nCOMMON COMPOUND TYPES:\n- ⟦{感染症|かんせんしょう}→感染症：15681_kansenshou⟧{防止法|ぼうしほう}: Infectious Disease Prevention Act\n- ⟦{犯罪|はんざい}→犯罪：03569_hanzai⟧{防止法|ぼうしほう}: crime prevention law\n- ⟦{虐待|ぎゃくたい}→虐待：14046_gyakutai⟧{防止法|ぼうしほう}: anti-abuse law\n- DV{防止法|ぼうしほう}: Domestic Violence Prevention Act\n\nSIMILAR WORDS:\n- ⟦{防止|ぼうし}→防止：14571_boushi⟧: prevention — the base compound used before attaching 法 or other suffixes\n- ⟦{条例|じょうれい}→条例：08255_jourei⟧: ordinance — a local government regulation rather than a national law",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08255_jourei",
+      "reading": "じょうれい",
+      "headword": "{条例|じょうれい}",
+      "label": "ordinance"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +62,7 @@
         "noun"
       ],
       "formality": "formal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "law",
         "society"
@@ -63,6 +72,6 @@
       ]
     },
     "created": "2026-06-09T17:42:06Z",
-    "modified": "2026-06-09T17:42:06Z"
+    "modified": "2026-09-02T04:02:35Z"
   }
 }

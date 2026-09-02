@@ -15,41 +15,59 @@
   "examples": [
     {
       "id": "11125_furooringu_ex1",
-      "japanese": "この{部屋|へや}はフローリングだ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{部屋|へや}→部屋：00507_heya⟧⟦は→は：00079_ha⟧フローリングだ。",
       "english": "This room has hardwood flooring.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11125_furooringu_ex2",
-      "japanese": "{畳|たたみ}をフローリングに{張|は}り{替|か}えた。",
+      "japanese": "⟦{畳|たたみ}→畳：02224_tatami⟧⟦を→を：00422_wo⟧フローリング⟦に→に：00314_ni⟧⟦{張|は}り{替|か}えた→張り替える：28418_harikaeru⟧。",
       "english": "I replaced the tatami with hardwood flooring.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11125_furooringu_ex3",
-      "japanese": "フローリングの{床|ゆか}はこまめに{掃除|そうじ}しないとホコリが{目立|めだ}つ。",
+      "japanese": "フローリング⟦の→の：09472_no⟧⟦{床|ゆか}→床：03652_yuka⟧⟦は→は：00079_ha⟧⟦こまめ→こまめ：10325_komame⟧⟦に→に：00314_ni⟧⟦{掃除|そうじ}→掃除：02889_souji⟧⟦しない→する：00392_suru⟧⟦と→と：00512_to⟧ホコリ⟦が→が：00051_ga⟧⟦{目立|めだ}つ→目立つ：02431_medatsu⟧。",
       "english": "If you don't clean hardwood floors frequently, the dust becomes noticeable.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nIn Japanese real estate listings, フローリング is one of the most common floor types alongside {畳|たたみ} (tatami) and カーペット (carpet). Many modern Japanese apartments feature フローリング in living areas and bedrooms.\n\nCOMMON COLLOCATIONS:\n- フローリングの{床|ゆか} (hardwood floor)\n- フローリングに{張|は}り{替|か}える (replace with hardwood flooring)\n- フローリング{用|よう}ワックス (floor wax for hardwood)\n- フローリングモップ (floor mop for hardwood)\n\nETYMOLOGY:\nFrom English \"flooring.\" In Japanese, this term specifically refers to wood or wood-style flooring, not flooring in general.",
-  "cross_references": [],
+  "notes": "USAGE:\nIn Japanese real estate listings, フローリング is one of the most common floor types alongside ⟦{畳|たたみ}→畳：02224_tatami⟧ (tatami) and ⟦カーペット→カーペット：24239_kaapetto⟧ (carpet). Many modern Japanese apartments feature フローリング in living areas and bedrooms.\n\nCOMMON COLLOCATIONS:\n- フローリング⟦の→の：09472_no⟧⟦{床|ゆか}→床：03652_yuka⟧ (hardwood floor)\n- フローリング⟦に→に：00314_ni⟧⟦{張|は}り{替|か}える→張り替える：28418_harikaeru⟧ (replace with hardwood flooring)\n- フローリング⟦{用|よう}→〜用：09842_you⟧⟦ワックス→ワックス：28758_wakkusu⟧ (floor wax for hardwood)\n- フローリング⟦モップ→モップ：27878_moppu⟧ (floor mop for hardwood)\n\nETYMOLOGY:\nFrom English \"flooring.\" In Japanese, this term specifically refers to wood or wood-style flooring, not flooring in general.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25463_yukazai",
+      "reading": "ゆかざい",
+      "headword": "{床材|ゆかざい}",
+      "label": "flooring material"
+    }
+  ],
   "metadata": {
     "created": "2026-02-14T03:15:22Z",
-    "modified": "2026-02-14T03:15:22Z",
+    "modified": "2026-09-02T04:01:24Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["building"]
+      "semantic": [
+        "building"
+      ]
     }
   }
 }

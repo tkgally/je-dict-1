@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24176_bougofuku_ex1",
-      "japanese": "{防護服|ぼうごふく}を{着|き}て{作業|さぎょう}する。",
+      "japanese": "{防護服|ぼうごふく}⟦を→を：00422_wo⟧⟦{着|き}て→着る：00541_kiru⟧⟦{作業|さぎょう}→作業：02775_sagyou⟧⟦する→する：00392_suru⟧。",
       "english": "To work while wearing a protective suit.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24176_bougofuku_ex2",
-      "japanese": "{化学|かがく}{物質|ぶっしつ}を{扱|あつか}うときは{防護服|ぼうごふく}が{必要|ひつよう}だ。",
+      "japanese": "⟦{化学|かがく}{物質|ぶっしつ}→化学物質：19856_kagakubusshitsu⟧⟦を→を：00422_wo⟧⟦{扱|あつか}う→扱う：01862_atsukau⟧とき⟦は→は：00079_ha⟧{防護服|ぼうごふく}⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧だ。",
       "english": "A protective suit is necessary when handling chemical substances.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24176_bougofuku_ex3",
-      "japanese": "{作業員|さぎょういん}たちは{防護服|ぼうごふく}に{身|み}を{包|つつ}み、{放射性|ほうしゃせい}{物質|ぶっしつ}の{除去|じょきょ}{作業|さぎょう}に{当|あ}たった。",
+      "japanese": "⟦{作業員|さぎょういん}→作業員：24136_sagyouin⟧たち⟦は→は：00079_ha⟧{防護服|ぼうごふく}⟦に→に：00314_ni⟧⟦{身|み}→身：01764_mi⟧⟦を→を：00422_wo⟧⟦{包|つつ}み→包む：01226_tsutsumu⟧、⟦{放射性|ほうしゃせい}→放射性：28219_houshasei⟧⟦{物質|ぶっしつ}→物質：03608_busshitsu⟧⟦の→の：09472_no⟧⟦{除去|じょきょ}→除去：14567_jokyo⟧⟦{作業|さぎょう}→作業：02775_sagyou⟧⟦に→に：00314_ni⟧⟦{当|あ}たった→当たる：01860_ataru⟧。",
       "english": "The workers, dressed in protective suits, carried out the removal of radioactive materials.",
       "sense_numbers": [
         1
@@ -44,20 +44,45 @@
       "notes": null
     }
   ],
-  "notes": "Specialized clothing designed to protect the wearer from hazardous materials, radiation, chemicals, or biological agents. Became widely recognized in Japan through news coverage of nuclear decontamination work and pandemic response.\n\nCOMMON COLLOCATIONS:\n- {防護服|ぼうごふく}を{着用|ちゃくよう}する: to wear a protective suit\n- {防護服|ぼうごふく}に{身|み}を{包|つつ}む: to be clad in a protective suit\n- {全身|ぜんしん}{防護服|ぼうごふく}: full-body protective suit\n- {放射線|ほうしゃせん}{防護服|ぼうごふく}: radiation protection suit\n\nSIMILAR WORDS:\n- {防護|ぼうご}マスク: protective mask — covers the face only\n- {作業服|さぎょうふく}: work clothes — general workwear, not necessarily hazard-resistant\n- {防弾|ぼうだん}チョッキ: bulletproof vest — protects against projectiles, not chemical or biological hazards",
+  "notes": "Specialized clothing designed to protect the wearer from hazardous materials, radiation, chemicals, or biological agents. Became widely recognized in Japan through news coverage of nuclear decontamination work and pandemic response.\n\nCOMMON COLLOCATIONS:\n- {防護服|ぼうごふく}⟦を→を：00422_wo⟧⟦{着用|ちゃくよう}する→着用する：26849_chakuyousuru⟧: to wear a protective suit\n- {防護服|ぼうごふく}⟦に→に：00314_ni⟧⟦{身|み}→身：01764_mi⟧⟦を→を：00422_wo⟧⟦{包|つつ}む→包む：01226_tsutsumu⟧: to be clad in a protective suit\n- ⟦{全身|ぜんしん}→全身：03313_zenshin⟧{防護服|ぼうごふく}: full-body protective suit\n- ⟦{放射線|ほうしゃせん}→放射線：14998_houshasen⟧{防護服|ぼうごふく}: radiation protection suit\n\nSIMILAR WORDS:\n- ⟦{防護|ぼうご}→防護：23019_bougo⟧⟦マスク→マスク：05075_masuku⟧: protective mask — covers the face only\n- ⟦{作業服|さぎょうふく}→作業服：16786_sagyoufuku⟧: work clothes — general workwear, not necessarily hazard-resistant\n- ⟦{防弾|ぼうだん}→防弾：30754_boudan⟧チョッキ: bulletproof vest — protects against projectiles, not chemical or biological hazards",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16786_sagyoufuku",
+      "reading": "さぎょうふく",
+      "headword": "{作業服|さぎょうふく}",
+      "label": "work clothes"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24135_sagyougi",
+      "reading": "さぎょうぎ",
+      "headword": "{作業着|さぎょうぎ}",
+      "label": "work clothes"
+    },
+    {
+      "type": "related",
+      "target_id": "29428_hogogu",
+      "reading": "ほごぐ",
+      "headword": "{保護具|ほごぐ}",
+      "label": "protective gear"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "clothing"
       ],
       "usage": []
     },
     "created": "2026-04-17T21:41:22Z",
-    "modified": "2026-08-02T18:32:34Z"
+    "modified": "2026-09-02T04:02:17Z"
   }
 }

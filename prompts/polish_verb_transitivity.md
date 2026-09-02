@@ -1,5 +1,11 @@
 # Polish Verb Transitivity
 
+> **Note (2026-09-02):** this prompt predates the current process. Where it says `make build` or
+> to commit `docs/`, run `make index` instead — the site is built by GitHub Actions after the merge
+> and `docs/` is no longer tracked. Where it says to place inline links or `noentry` markers by hand,
+> run `python3 build/auto_link.py --ids <ids> --apply` instead and add missing words as candidates.
+> The scheduled Routine is `prompts/routine2.md`; see `enhancement/assessment-2026-09-02.md`.
+
 Add transitivity information to verb entries. This is a **semantic task** that requires
 your knowledge of Japanese — determining whether a verb is transitive or intransitive
 (and identifying its pair) requires understanding how the verb is actually used.

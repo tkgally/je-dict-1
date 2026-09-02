@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "ホテル refers to Western-style hotels with beds, from English 'hotel.'\n\nCONTRAST WITH ⟦{旅館|りょかん}→旅館：01049_ryokan⟧:\n- ホテル: Western-style (beds, Western food)\n- ⟦{旅館|りょかん}→旅館：01049_ryokan⟧: Japanese-style (futons, tatami, Japanese food)\n\nTYPES OF HOTELS:\n- ⟦ビジネスホテル→ビジネスホテル：25688_bijinesuhoteru⟧: budget business hotel\n- ⟦シティホテル→シティホテル：noentry⟧: city hotel (mid-range)\n- ⟦リゾートホテル→リゾートホテル：noentry⟧: resort hotel\n- ⟦カプセルホテル→カプセルホテル：27577_kapuseruhoteru⟧: capsule hotel\n\nCOMMON PATTERNS:\n- ホテル⟦に→に：00314_ni⟧⟦{泊|と}まる→泊まる：10445_tomaru⟧: to stay at a hotel\n- ホテル⟦を→を：00422_wo⟧⟦{予約|よやく}→予約：01522_yoyaku⟧⟦する→する：00392_suru⟧: to book a hotel\n- ホテル⟦に→に：00314_ni⟧⟦チェックイン→チェックイン：08281_chekkuin⟧⟦する→する：00392_suru⟧: to check in\n- ホテル⟦を→を：00422_wo⟧⟦チェックアウト→チェックアウト：08282_chekkuauto⟧⟦する→する：00392_suru⟧: to check out\n\nRELATED TERMS:\n- ⟦{宿泊|しゅくはく}→宿泊：03216_shukuhaku⟧: accommodation\n- ⟦{部屋|へや}→部屋：00507_heya⟧: room\n- ⟦フロント→フロント：01378_furonto⟧: front desk",
+  "notes": "ホテル refers to Western-style hotels with beds, from English 'hotel.'\n\nCONTRAST WITH ⟦{旅館|りょかん}→旅館：01049_ryokan⟧:\n- ホテル: Western-style (beds, Western food)\n- ⟦{旅館|りょかん}→旅館：01049_ryokan⟧: Japanese-style (futons, tatami, Japanese food)\n\nTYPES OF HOTELS:\n- ⟦ビジネスホテル→ビジネスホテル：25688_bijinesuhoteru⟧: budget business hotel\n- ⟦シティホテル→シティホテル：noentry⟧: city hotel (mid-range)\n- ⟦リゾートホテル→リゾートホテル：noentry⟧: resort hotel\n- ⟦カプセルホテル→カプセルホテル：27577_kapuseruhoteru⟧: capsule hotel\n\nCOMMON PATTERNS:\n- ホテル⟦に→に：00314_ni⟧⟦{泊|と}まる→泊まる：10445_tomaru⟧: to stay at a hotel\n- ホテル⟦を→を：00422_wo⟧⟦{予約|よやく}→予約：01522_yoyaku⟧⟦する→する：00392_suru⟧: to book a hotel\n- ホテル⟦に→に：00314_ni⟧⟦チェックイン→チェックイン：08281_chekkuin⟧⟦する→する：00392_suru⟧: to check in\n- ホテル⟦を→を：00422_wo⟧⟦チェックアウト→チェックアウト：08282_chekkuauto⟧⟦する→する：00392_suru⟧: to check out\n\nRELATED WORDS:\n- ⟦{宿泊|しゅくはく}→宿泊：03216_shukuhaku⟧: accommodation\n- ⟦{部屋|へや}→部屋：00507_heya⟧: room\n- ⟦フロント→フロント：01378_furonto⟧: front desk",
   "cross_references": [
     {
       "type": "homophone",
@@ -78,11 +78,39 @@
       "reading": "りょう",
       "headword": "{寮|りょう}",
       "label": "dormitory (long-term residence)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01049_ryokan",
+      "reading": "りょかん",
+      "headword": "{旅館|りょかん}",
+      "label": "Japanese-style"
+    },
+    {
+      "type": "related",
+      "target_id": "03216_shukuhaku",
+      "reading": "しゅくはく",
+      "headword": "{宿泊|しゅくはく}",
+      "label": "accommodation"
+    },
+    {
+      "type": "related",
+      "target_id": "00507_heya",
+      "reading": "へや",
+      "headword": "{部屋|へや}",
+      "label": "room"
+    },
+    {
+      "type": "related",
+      "target_id": "01378_furonto",
+      "reading": "ふろんと",
+      "headword": "フロント",
+      "label": "front desk"
     }
   ],
   "metadata": {
     "created": "2026-01-07T12:05:14Z",
-    "modified": "2026-08-08T09:25:02Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

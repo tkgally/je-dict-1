@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "23235_denshishoutorihiki_ex1",
-      "japanese": "{電子商取引|でんししょうとりひき}の{市場|しじょう}。",
+      "japanese": "{電子商取引|でんししょうとりひき}⟦の→の：09472_no⟧⟦{市場|しじょう}→市場：09685_shijou⟧。",
       "english": "The e-commerce market.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "23235_denshishoutorihiki_ex2",
-      "japanese": "{電子商取引|でんししょうとりひき}の{規模|きぼ}は{年々|ねんねん}{拡大|かくだい}している。",
+      "japanese": "{電子商取引|でんししょうとりひき}⟦の→の：09472_no⟧⟦{規模|きぼ}→規模：05095_kibo⟧⟦は→は：00079_ha⟧⟦{年々|ねんねん}→年々：10417_nennen⟧⟦{拡大|かくだい}→拡大：02553_kakudai⟧⟦している→する：00392_suru⟧。",
       "english": "The scale of e-commerce is expanding year by year.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "23235_denshishoutorihiki_ex3",
-      "japanese": "{政府|せいふ}は{電子商取引|でんししょうとりひき}に{関|かん}する{法律|ほうりつ}の{整備|せいび}を{進|すす}めている。",
+      "japanese": "⟦{政府|せいふ}→政府：03294_seifu⟧⟦は→は：00079_ha⟧{電子商取引|でんししょうとりひき}⟦に→に：00314_ni⟧⟦{関|かん}する→関する：02045_kansuru⟧⟦{法律|ほうりつ}→法律：01722_houritsu⟧⟦の→の：09472_no⟧⟦{整備|せいび}→整備：04037_seibi⟧⟦を→を：00422_wo⟧⟦{進|すす}めている→進める：01949_susumeru⟧。",
       "english": "The government is advancing the development of laws related to e-commerce.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {電子|でんし} (electronic) and {商取引|しょうとりひき} (commercial transaction). A formal term used in legal, economic, and business contexts. In everyday Japanese, the English loanword Eコマース or the phrase ネット{通販|つうはん} (online shopping) is much more common. The formal term is often seen in government reports, academic papers, and news articles that focus on the industry as a whole.\n\nCOMMON COLLOCATIONS:\n- {電子商取引|でんししょうとりひき}{市場|しじょう}: the e-commerce market\n- {電子商取引|でんししょうとりひき}の{拡大|かくだい}: expansion of e-commerce\n- {電子商取引|でんししょうとりひき}{事業者|じぎょうしゃ}: e-commerce business operator\n- {国境|こっきょう}を{越|こ}えた{電子商取引|でんししょうとりひき}: cross-border e-commerce\n\nSIMILAR WORDS:\n- Eコマース: e-commerce — everyday loanword, widely used\n- ネット{通販|つうはん}: online mail-order shopping — consumer-facing, common in casual speech\n- オンライン{販売|はんばい}: online sales — from the seller's perspective\n- {通信販売|つうしんはんばい}: mail-order sales — broader term including non-internet methods",
+  "notes": "Composed of ⟦{電子|でんし}→電子：03449_denshi⟧ (electronic) and {商取引|しょうとりひき} (commercial transaction). A formal term used in legal, economic, and business contexts. In everyday Japanese, the English loanword Eコマース or the phrase ⟦ネット{通販|つうはん}→ネット通販：22847_nettotsuuhan⟧ (online shopping) is much more common. The formal term is often seen in government reports, academic papers, and news articles that focus on the industry as a whole.\n\nCOMMON COLLOCATIONS:\n- {電子商取引|でんししょうとりひき}⟦{市場|しじょう}→市場：09685_shijou⟧: the e-commerce market\n- {電子商取引|でんししょうとりひき}⟦の→の：09472_no⟧⟦{拡大|かくだい}→拡大：02553_kakudai⟧: expansion of e-commerce\n- {電子商取引|でんししょうとりひき}⟦{事業者|じぎょうしゃ}→事業者：11483_jigyousha⟧: e-commerce business operator\n- ⟦{国境|こっきょう}→国境：02762_kokkyou⟧⟦を→を：00422_wo⟧⟦{越|こ}えた→越える：02099_koeru⟧{電子商取引|でんししょうとりひき}: cross-border e-commerce\n\nSIMILAR WORDS:\n- Eコマース: e-commerce — everyday loanword, widely used\n- ⟦ネット{通販|つうはん}→ネット通販：22847_nettotsuuhan⟧: online mail-order shopping — consumer-facing, common in casual speech\n- ⟦オンライン→オンライン：05278_onrain⟧⟦{販売|はんばい}→販売：03573_hanbai⟧: online sales — from the seller's perspective\n- ⟦{通信販売|つうしんはんばい}→通信販売：22846_tsuushinhanbai⟧: mail-order sales — broader term including non-internet methods",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22847_nettotsuuhan",
+      "reading": "ねっとつうはん",
+      "headword": "ネット{通販|つうはん}",
+      "label": "online mail-order shopping"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22846_tsuushinhanbai",
+      "reading": "つうしんはんばい",
+      "headword": "{通信販売|つうしんはんばい}",
+      "label": "mail-order sales"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26167_onraintorihiki",
+      "reading": "おんらいんとりひき",
+      "headword": "オンライン{取引|とりひき}",
+      "label": "online transaction"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,6 +84,6 @@
       "politeness": "plain"
     },
     "created": "2026-04-11T12:54:47Z",
-    "modified": "2026-07-31T18:20:34Z"
+    "modified": "2026-09-02T04:02:11Z"
   }
 }

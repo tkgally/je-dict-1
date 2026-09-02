@@ -19,7 +19,7 @@
   "examples": [
     {
       "id": "08809_nanibun_ex1",
-      "japanese": "{何分|なにぶん}{初|はじ}めてのことなので。",
+      "japanese": "{何分|なにぶん}⟦{初|はじ}めて→初めて：02932_hajimete⟧⟦の→の：09472_no⟧ことな⟦の→の：09472_no⟧で。",
       "english": "After all, this is my first time.",
       "sense_numbers": [
         1
@@ -29,7 +29,7 @@
     },
     {
       "id": "08809_nanibun_ex2",
-      "japanese": "{何分|なにぶん}{急|いそ}いでいますので。",
+      "japanese": "{何分|なにぶん}⟦{急|いそ}いでいます→急ぐ：01191_isogu⟧⟦の→の：09472_no⟧で。",
       "english": "The thing is, I'm in a hurry.",
       "sense_numbers": [
         1
@@ -39,7 +39,7 @@
     },
     {
       "id": "08809_nanibun_ex3",
-      "japanese": "{何分|なにぶん}{時間|じかん}がないもので、{手短|てみじか}にお{願|ねが}いします。",
+      "japanese": "{何分|なにぶん}⟦{時間|じかん}→時間：00468_jikan⟧⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧もので、{手短|てみじか}⟦に→に：00314_ni⟧お{願|ねが}いします。",
       "english": "Given that time is limited, please keep it brief.",
       "sense_numbers": [
         1
@@ -49,7 +49,7 @@
     },
     {
       "id": "08809_nanibun_ex4",
-      "japanese": "{何分|なにぶん}よろしくお{願|ねが}いします。",
+      "japanese": "{何分|なにぶん}⟦よろしくお{願|ねが}いします→よろしくお願いします：23566_yoroshikuonegaishimasu⟧。",
       "english": "Please be understanding / I humbly ask for your consideration.",
       "sense_numbers": [
         2
@@ -59,7 +59,7 @@
     },
     {
       "id": "08809_nanibun_ex5",
-      "japanese": "{何分|なにぶん}ご{了承|りょうしょう}ください。",
+      "japanese": "{何分|なにぶん}ご⟦{了承|りょうしょう}→了承：11415_ryoushou⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please kindly understand.",
       "sense_numbers": [
         2
@@ -69,7 +69,7 @@
     },
     {
       "id": "08809_nanibun_ex6",
-      "japanese": "{何分|なにぶん}ご{協力|きょうりょく}をお{願|ねが}いいたします。",
+      "japanese": "{何分|なにぶん}ご⟦{協力|きょうりょく}→協力：00261_kyouryoku⟧⟦を→を：00422_wo⟧⟦お{願|ねが}いいたします→お願いいたします：27603_onegaiitashimasu⟧。",
       "english": "I kindly ask for your cooperation.",
       "sense_numbers": [
         2
@@ -78,7 +78,23 @@
       "notes": null
     }
   ],
-  "notes": "FORMAL REGISTER:\n{何分|なにぶん} is used in formal or polite contexts to:\n1. Explain circumstances ({何分|なにぶん}〜なので/ものですから)\n2. Ask for understanding or accommodation\n\nCOMMON PATTERNS:\n- {何分|なにぶん}〜なので - given that ~\n- {何分|なにぶん}〜ものですから - because ~\n- {何分|なにぶん}よろしく - please understand\n\nSIMILAR EXPRESSIONS:\n- なにしろ - after all, anyway (less formal)\n- なんせ - after all (casual)\n- とにかく - anyway, in any case\n\nNOTE:\nDo not confuse with {何分|なんぷん} (how many minutes) which has a different reading and meaning.",
+  "notes": "FORMAL REGISTER:\n{何分|なにぶん} is used in formal or polite contexts to:\n1. Explain circumstances ({何分|なにぶん}〜な⟦の→の：09472_no⟧で/ものです⟦から→から：00504_kara⟧)\n2. Ask for understanding or accommodation\n\nCOMMON PATTERNS:\n- {何分|なにぶん}〜な⟦の→の：09472_no⟧で - given that ~\n- {何分|なにぶん}〜ものです⟦から→から：00504_kara⟧ - because ~\n- {何分|なにぶん}⟦よろしく→よろしく：01070_yoroshiku⟧ - please understand\n\nSIMILAR WORDS:\n- なにしろ - after all, anyway (less formal)\n- なんせ - after all (casual)\n- ⟦とにかく→とにかく：03464_tonikaku⟧ - anyway, in any case\n\nUSAGE:\nDo not confuse with {何分|なんぷん} (how many minutes) which has a different reading and meaning.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05717_nanishiro",
+      "reading": "なにしろ",
+      "headword": "{何|なに}しろ",
+      "label": "after all, anyway"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03464_tonikaku",
+      "reading": "とにかく",
+      "headword": "とにかく",
+      "label": "anyway, in any case"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -96,6 +112,6 @@
       ]
     },
     "created": "2026-01-28T11:27:48Z",
-    "modified": "2026-08-12T12:52:42Z"
+    "modified": "2026-09-02T04:01:16Z"
   }
 }

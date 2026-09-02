@@ -15,40 +15,74 @@
   "examples": [
     {
       "id": "20581_chishiryou_ex1",
-      "japanese": "{致死量|ちしりょう}を{超|こ}える{薬物|やくぶつ}を{摂取|せっしゅ}した。",
+      "japanese": "{致死量|ちしりょう}⟦を→を：00422_wo⟧⟦{超|こ}える→超える：01942_koeru⟧⟦{薬物|やくぶつ}→薬物：14053_yakubutsu⟧⟦を→を：00422_wo⟧⟦{摂取|せっしゅ}→摂取：09322_sesshu⟧⟦した→する：00392_suru⟧。",
       "english": "A lethal dose of the drug was ingested.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20581_chishiryou_ex2",
-      "japanese": "カフェインにも{致死量|ちしりょう}があることを{知|し}っていますか。",
+      "japanese": "⟦カフェイン→カフェイン：27911_kafein⟧⟦に→に：00314_ni⟧⟦も→も：00484_mo⟧{致死量|ちしりょう}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧こと⟦を→を：00422_wo⟧⟦{知|し}っています→知る：00458_shiru⟧⟦か→か：09473_ka⟧。",
       "english": "Did you know that caffeine also has a lethal dose?",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20581_chishiryou_ex3",
-      "japanese": "{検査|けんさ}の{結果|けっか}、{体内|たいない}から{致死量|ちしりょう}に{近|ちか}い{量|りょう}の{毒物|どくぶつ}が{検出|けんしゅつ}された。",
+      "japanese": "⟦{検査|けんさ}→検査：02707_kensa⟧⟦の→の：09472_no⟧⟦{結果|けっか}→結果：02486_kekka⟧、⟦{体内|たいない}→体内：11556_tainai⟧⟦から→から：00504_kara⟧{致死量|ちしりょう}⟦に→に：00314_ni⟧⟦{近|ちか}い→近い：00530_chikai⟧⟦{量|りょう}→量：03799_ryou⟧⟦の→の：09472_no⟧⟦{毒物|どくぶつ}→毒物：27029_dokubutsu⟧⟦が→が：00051_ga⟧⟦{検出|けんしゅつ}→検出：13132_kenshutsu⟧⟦された→する：00392_suru⟧。",
       "english": "The examination revealed a near-lethal amount of poison in the body.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A medical and scientific term composed of {致死|ちし} (causing death) and {量|りょう} (amount/dose). Used in pharmacology, toxicology, and forensic contexts.\n\nCOMMON COLLOCATIONS:\n- {致死量|ちしりょう}を{超|こ}える: to exceed the lethal dose\n- {致死量|ちしりょう}に{達|たっ}する: to reach the lethal dose\n- {半数|はんすう}{致死量|ちしりょう}: median lethal dose (LD50)\n\nRELATED TERMS:\n- {致死|ちし}: lethal, fatal\n- {致命的|ちめいてき}: fatal, critical — broader term for anything fatally serious\n- {過剰摂取|かじょうせっしゅ}: overdose — excessive intake, not necessarily lethal\n- {中毒|ちゅうどく}: poisoning — the condition caused by toxic substances",
+  "notes": "A medical and scientific term composed of ⟦{致死|ちし}→致死：10002_chishi⟧ (causing death) and ⟦{量|りょう}→量：03799_ryou⟧ (amount/dose). Used in pharmacology, toxicology, and forensic contexts.\n\nCOMMON COLLOCATIONS:\n- {致死量|ちしりょう}⟦を→を：00422_wo⟧⟦{超|こ}える→超える：01942_koeru⟧: to exceed the lethal dose\n- {致死量|ちしりょう}⟦に→に：00314_ni⟧⟦{達|たっ}する→達する：02129_tassuru⟧: to reach the lethal dose\n- ⟦{半数|はんすう}→半数：30503_hansuu⟧{致死量|ちしりょう}: median lethal dose (LD50)\n\nRELATED WORDS:\n- ⟦{致死|ちし}→致死：10002_chishi⟧: lethal, fatal\n- ⟦{致命的|ちめいてき}→致命的：14890_chimeiteki⟧: fatal, critical — broader term for anything fatally serious\n- ⟦{過剰摂取|かじょうせっしゅ}→過剰摂取：21271_kajousesshu⟧: overdose — excessive intake, not necessarily lethal\n- ⟦{中毒|ちゅうどく}→中毒：16558_chuudoku⟧: poisoning — the condition caused by toxic substances",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "14890_chimeiteki",
+      "reading": "ちめいてき",
+      "headword": "{致命的|ちめいてき}",
+      "label": "fatal, critical"
+    },
+    {
+      "type": "related",
+      "target_id": "21271_kajousesshu",
+      "reading": "かじょうせっしゅ",
+      "headword": "{過剰摂取|かじょうせっしゅ}",
+      "label": "overdose"
+    },
+    {
+      "type": "related",
+      "target_id": "16558_chuudoku",
+      "reading": "ちゅうどく",
+      "headword": "{中毒|ちゅうどく}",
+      "label": "poisoning"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["health", "science"]
+      "semantic": [
+        "health",
+        "science"
+      ]
     },
     "created": "2026-03-29T18:15:50Z",
-    "modified": "2026-03-29T18:15:50Z"
+    "modified": "2026-09-02T04:02:00Z"
   }
 }

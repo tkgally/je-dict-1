@@ -3,7 +3,7 @@
   "id": "16976_kaigui",
   "headword": "{買|か}い{食|ぐ}い",
   "reading": "かいぐい",
-  "part_of_speech": "noun / verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "buying and eating food on the go",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "16976_kaigui_ex1",
-      "japanese": "{学校|がっこう}の{帰|かえ}りに{買|か}い{食|ぐ}いをした。",
+      "japanese": "⟦{学校|がっこう}→学校：00055_gakkou⟧⟦の→の：09472_no⟧⟦{帰|かえ}り→帰り：01275_kaeri⟧⟦に→に：00314_ni⟧{買|か}い{食|ぐ}い⟦を→を：00422_wo⟧⟦した→する：00392_suru⟧。",
       "english": "I bought snacks on the way home from school.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "16976_kaigui_ex2",
-      "japanese": "{買|か}い{食|ぐ}いは{禁止|きんし}されていた。",
+      "japanese": "{買|か}い{食|ぐ}い⟦は→は：00079_ha⟧⟦{禁止|きんし}→禁止：02643_kinshi⟧⟦されていた→する：00392_suru⟧。",
       "english": "Buying snacks on the way was forbidden.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "16976_kaigui_ex3",
-      "japanese": "{商店街|しょうてんがい}で{買|か}い{食|ぐ}いしながら{散歩|さんぽ}するのが{楽|たの}しい。",
+      "japanese": "⟦{商店街|しょうてんがい}→商店街：09391_shoutengai⟧⟦で→で：00502_de⟧{買|か}い{食|ぐ}いし⟦ながら→ながら：10530_nagara⟧⟦{散歩|さんぽ}する→散歩する：26840_sanposuru⟧⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦{楽|たの}しい→楽しい：00817_tanoshii⟧。",
       "english": "It's fun to stroll through the shopping street, buying and eating snacks as you go.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nTraditionally associated with school children buying snacks from shops on their way home. Many schools in Japan have rules prohibiting {買|か}い{食|ぐ}い. In modern usage, it also describes adults enjoying street food at festivals, markets, or shopping streets.\n\nCOMMON COLLOCATIONS:\n- {買|か}い{食|ぐ}い{禁止|きんし} (prohibition on buying snacks)\n- {食|た}べ{歩|ある}き / {買|か}い{食|ぐ}い (eating while walking / buying snacks)\n\nSIMILAR WORDS:\n- {食|た}べ{歩|ある}き: eating while walking — focuses on the walking aspect, more positive connotation\n- つまみ{食|ぐ}い: snacking, nibbling — picking at food before it's served",
+  "notes": "USAGE:\nTraditionally associated with school children buying snacks from shops on their way home. Many schools in Japan have rules prohibiting {買|か}い{食|ぐ}い. In modern usage, it also describes adults enjoying street food at festivals, markets, or shopping streets.\n\nCOMMON COLLOCATIONS:\n- {買|か}い{食|ぐ}い⟦{禁止|きんし}→禁止：02643_kinshi⟧ (prohibition on buying snacks)\n- ⟦{食|た}べ{歩|ある}き→食べ歩き：15117_tabearuki⟧ / {買|か}い{食|ぐ}い (eating while walking / buying snacks)\n\nSIMILAR WORDS:\n- ⟦{食|た}べ{歩|ある}き→食べ歩き：15117_tabearuki⟧: eating while walking — focuses on the walking aspect, more positive connotation\n- ⟦つまみ{食|ぐ}い→つまみ食い：27222_tsumamigui⟧: snacking, nibbling — picking at food before it's served",
   "cross_references": [
     {
       "type": "synonym",
@@ -142,11 +142,18 @@
       "reading": "たべあるき",
       "headword": "{食|た}べ{歩|ある}き",
       "label": "eating while walking"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27222_tsumamigui",
+      "reading": "つまみぐい",
+      "headword": "つまみ{食|ぐ}い",
+      "label": "snacking, nibbling"
     }
   ],
   "metadata": {
     "created": "2026-03-15T04:38:20Z",
-    "modified": "2026-07-22T03:30:08Z",
+    "modified": "2026-09-02T04:01:46Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

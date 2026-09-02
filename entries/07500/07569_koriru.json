@@ -2,7 +2,7 @@
   "id": "07569_koriru",
   "headword": "{懲|こ}りる",
   "reading": "こりる",
-  "part_of_speech": "ichidan verb",
+  "part_of_speech": "verb (ichidan)",
   "gloss": "to learn one's lesson; to be taught a lesson",
   "conjugation": {
     "type": "ichidan",
@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "07569_koriru_ex1",
-      "japanese": "{失敗|しっぱい}に{懲|こ}りて{慎重|しんちょう}になった。",
+      "japanese": "⟦{失敗|しっぱい}→失敗：01636_shippai⟧⟦に→に：00314_ni⟧{懲|こ}りて⟦{慎重|しんちょう}→慎重：03264_shinchou⟧になった。",
       "english": "I became cautious after learning my lesson from failure.",
       "has_audio": false,
       "sense_numbers": [
@@ -113,7 +113,7 @@
     },
     {
       "id": "07569_koriru_ex2",
-      "japanese": "{彼|かれ}は{何度|なんど}{失敗|しっぱい}しても{懲|こ}りない。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{何度|なんど}→何度：17592_nando⟧⟦{失敗|しっぱい}→失敗：01636_shippai⟧⟦して→する：00392_suru⟧⟦も→も：00484_mo⟧{懲|こ}りない。",
       "english": "He never learns his lesson no matter how many times he fails.",
       "has_audio": false,
       "sense_numbers": [
@@ -122,7 +122,7 @@
     },
     {
       "id": "07569_koriru_ex3",
-      "japanese": "{二日酔|ふつかよ}いに{懲|こ}りて、{飲|の}み{過|す}ぎないようにしている。",
+      "japanese": "⟦{二日酔|ふつかよ}い→二日酔い：08331_futsukayoi⟧⟦に→に：00314_ni⟧{懲|こ}りて、⟦{飲|の}み{過|す}ぎない→飲み過ぎる：22592_nomisugiru⟧ようにして⟦いる→いる：00495_iru⟧。",
       "english": "After learning my lesson from hangovers, I try not to drink too much.",
       "has_audio": false,
       "sense_numbers": [
@@ -130,10 +130,19 @@
       ]
     }
   ],
-  "notes": "VERB TYPE:\n{自動詞|じどうし} (intransitive verb)\n\nIchidan verb ({一段動詞|いちだんどうし}/{上一段|かみいちだん})\n・{懲|こ}りない (negative)\n・{懲|こ}りて (te-form)\n・{懲|こ}りた (past)\n\nCOMMON PATTERNS:\n・〜に{懲|こ}りる - to learn one's lesson from ~\n・{懲|こ}りずに - without learning one's lesson\n・{懲|こ}り{懲|ご}りする - to have absolutely had enough (emphatic)\n\nIDIOMATIC EXPRESSIONS:\n・{懲|こ}りない{人|ひと} - someone who never learns\n・{懲|こ}り{懲|ご}りだ - I've had more than enough\n\nUSAGE NOTES:\nOften used in the negative form {懲|こ}りない to describe someone who keeps making the same mistakes. The phrase {懲|こ}り{懲|ご}り is an emphatic form expressing complete exasperation.",
+  "notes": "VERB TYPE:\n⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive verb)\n\nIchidan verb ({一段動詞|いちだんどうし}/{上一段|かみいちだん})\n- {懲|こ}りない (negative)\n- {懲|こ}りて (te-form)\n- {懲|こ}りた (past)\n\nCOMMON PATTERNS:\n- 〜⟦に→に：00314_ni⟧{懲|こ}りる - to learn one's lesson from ~\n- {懲|こ}りず⟦に→に：00314_ni⟧ - without learning one's lesson\n- {懲|こ}り{懲|ご}り⟦する→する：00392_suru⟧ - to have absolutely had enough (emphatic)\n\nCOMMON EXPRESSIONS:\n- {懲|こ}りない⟦{人|ひと}→人：00476_hito⟧ - someone who never learns\n- {懲|こ}り{懲|ご}りだ - I've had more than enough\n\nUSAGE:\nOften used in the negative form {懲|こ}りない to describe someone who keeps making the same mistakes. The phrase {懲|こ}り{懲|ご}り is an emphatic form expressing complete exasperation.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20664_iyaninaru",
+      "reading": "いやになる",
+      "headword": "{嫌|いや}になる",
+      "label": "to become fed up"
+    }
+  ],
   "metadata": {
     "created": "2026-01-20T10:31:31Z",
-    "modified": "2026-08-11T09:37:41Z",
+    "modified": "2026-09-02T04:01:11Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -142,6 +151,7 @@
       ],
       "transitivity": "intransitive",
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "emotion",
         "cognition"

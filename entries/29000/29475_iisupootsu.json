@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29475_iisupootsu_ex1",
-      "japanese": "eスポーツの{大会|たいかい}を{見|み}に{行|い}った。",
+      "japanese": "eスポーツ⟦の→の：09472_no⟧⟦{大会|たいかい}→大会：03386_taikai⟧⟦を→を：00422_wo⟧⟦{見|み}→見る：00283_miru⟧⟦に→に：00314_ni⟧⟦{行|い}った→行く：00119_iku⟧。",
       "english": "I went to watch an esports tournament.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29475_iisupootsu_ex2",
-      "japanese": "{息子|むすこ}はeスポーツの{選手|せんしゅ}になりたいそうだ。",
+      "japanese": "⟦{息子|むすこ}→息子：00799_musuko⟧⟦は→は：00079_ha⟧eスポーツ⟦の→の：09472_no⟧⟦{選手|せんしゅ}→選手：03823_senshu⟧⟦に→に：00314_ni⟧⟦なりたい→なる：01970_naru⟧そうだ。",
       "english": "My son says he wants to become an esports player.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29475_iisupootsu_ex3",
-      "japanese": "{近年|きんねん}、eスポーツの{市場|しじょう}は{世界的|せかいてき}に{拡大|かくだい}している。",
+      "japanese": "⟦{近年|きんねん}→近年：14349_kinnen⟧、eスポーツ⟦の→の：09472_no⟧⟦{市場|しじょう}→市場：09685_shijou⟧⟦は→は：00079_ha⟧⟦{世界的|せかいてき}→世界的：20935_sekaiteki⟧⟦に→に：00314_ni⟧⟦{拡大|かくだい}→拡大：02553_kakudai⟧⟦している→する：00392_suru⟧。",
       "english": "In recent years, the esports market has been expanding worldwide.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "From English \"e-sports.\" The \"e\" is written in a half-width Latin letter and read いー. Refers to competitive gaming as a spectator and professional activity.\n\nCOMMON COLLOCATIONS:\n- eスポーツの{大会|たいかい}: esports tournament\n- eスポーツ{選手|せんしゅ}: esports player\n- プロeスポーツ: professional esports\n\nSIMILAR WORDS:\n- ゲーマー: gamer — a person who plays games, not the competitive scene itself\n- {対戦|たいせん}ゲーム: competitive (head-to-head) game — the genre often played in esports",
+  "notes": "From English \"e-sports.\" The \"e\" is written in a half-width Latin letter and read いー. Refers to competitive gaming as a spectator and professional activity.\n\nCOMMON COLLOCATIONS:\n- eスポーツ⟦の→の：09472_no⟧⟦{大会|たいかい}→大会：03386_taikai⟧: esports tournament\n- eスポーツ⟦{選手|せんしゅ}→選手：03823_senshu⟧: esports player\n- ⟦プロ→プロ：03871_puro⟧eスポーツ: professional esports\n\nSIMILAR WORDS:\n- ⟦ゲーマー→ゲーマー：06259_geemaa⟧: gamer — a person who plays games, not the competitive scene itself\n- ⟦{対戦|たいせん}→対戦：15338_taisen⟧⟦ゲーム→ゲーム：03842_geemu⟧: competitive (head-to-head) game — the genre often played in esports",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06259_geemaa",
+      "reading": "げーまー",
+      "headword": "ゲーマー",
+      "label": "gamer"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +69,6 @@
       "domain": []
     },
     "created": "2026-06-24T21:18:11Z",
-    "modified": "2026-06-24T21:18:11Z"
+    "modified": "2026-09-02T04:02:37Z"
   }
 }

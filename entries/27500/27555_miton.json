@@ -15,41 +15,68 @@
   "examples": [
     {
       "id": "27555_miton_ex1",
-      "japanese": "{冬|ふゆ}はミトンが{暖|あたた}かい。",
+      "japanese": "⟦{冬|ふゆ}→冬：00623_fuyu⟧⟦は→は：00079_ha⟧ミトン⟦が→が：00051_ga⟧⟦{暖|あたた}かい→暖かい：00618_atatakai⟧。",
       "english": "Mittens are warm in winter.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27555_miton_ex2",
-      "japanese": "オーブンから{出|だ}すときはミトンを{使|つか}ってください。",
+      "japanese": "⟦オーブン→オーブン：04674_oobun⟧⟦から→から：00504_kara⟧⟦{出|だ}す→出す：01087_dasu⟧とき⟦は→は：00079_ha⟧ミトン⟦を→を：00422_wo⟧⟦{使|つか}って→使う：00473_tsukau⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please use an oven mitt when taking it out of the oven.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27555_miton_ex3",
-      "japanese": "{子|こ}どもにはミトンの{方|ほう}が{手袋|てぶくろ}より{脱|ぬ}げにくくて{便利|べんり}だ。",
+      "japanese": "{子|こ}ども⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧ミトン⟦の→の：09472_no⟧⟦{方|ほう}→方：01139_hou⟧⟦が→が：00051_ga⟧⟦{手袋|てぶくろ}→手袋：01063_tebukuro⟧⟦より→より：09476_yori⟧⟦{脱|ぬ}げ→脱ぐ：00518_nugu⟧にくくて⟦{便利|べんり}→便利：00830_benri⟧だ。",
       "english": "For children, mittens are more practical than gloves because they're harder to take off.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Loanword from English \"mitten.\" Refers to either cold-weather mittens or heat-resistant kitchen mitts. Always written in katakana.\n\nCOMMON COLLOCATIONS:\n- ミトンをつける: to put on mittens\n- ミトンを{外|はず}す: to take off mittens\n- オーブンミトン: oven mitt\n- {鍋|なべ}つかみミトン: pot-holder mitt\n\nSIMILAR WORDS:\n- {手袋|てぶくろ}: glove (with separate fingers); the general term\n- {鍋|なべ}つかみ: pot holder — generic, may not be glove-shaped\n- グローブ: glove (sports, work)",
+  "notes": "Loanword from English \"mitten.\" Refers to either cold-weather mittens or heat-resistant kitchen mitts. Always written in katakana.\n\nCOMMON COLLOCATIONS:\n- ミトン⟦を→を：00422_wo⟧⟦つける→つける：00562_tsukeru⟧: to put on mittens\n- ミトン⟦を→を：00422_wo⟧⟦{外|はず}す→外す：02394_hazusu⟧: to take off mittens\n- ⟦オーブン→オーブン：04674_oobun⟧ミトン: oven mitt\n- ⟦{鍋|なべ}つかみ→鍋つかみ：22656_nabetsukami⟧ミトン: pot-holder mitt\n\nSIMILAR WORDS:\n- ⟦{手袋|てぶくろ}→手袋：01063_tebukuro⟧: glove (with separate fingers); the general term\n- ⟦{鍋|なべ}つかみ→鍋つかみ：22656_nabetsukami⟧: pot holder — generic, may not be glove-shaped\n- グローブ: glove (sports, work)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01063_tebukuro",
+      "reading": "てぶくろ",
+      "headword": "{手袋|てぶくろ}",
+      "label": "glove"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22656_nabetsukami",
+      "reading": "なべつかみ",
+      "headword": "{鍋|なべ}つかみ",
+      "label": "pot holder"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["clothing", "kitchen"],
+      "politeness": "plain",
+      "semantic": [
+        "clothing",
+        "kitchen"
+      ],
       "domain": []
     },
     "created": "2026-05-14T01:41:20Z",
-    "modified": "2026-05-14T01:41:20Z"
+    "modified": "2026-09-02T04:02:31Z"
   }
 }

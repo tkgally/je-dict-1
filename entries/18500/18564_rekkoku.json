@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "18564_rekkoku_ex1",
-      "japanese": "{列国|れっこく}が{協力|きょうりょく}する{必要|ひつよう}がある。",
+      "japanese": "{列国|れっこく}⟦が→が：00051_ga⟧⟦{協力|きょうりょく}する→協力する：25370_kyouryokusuru⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "The nations need to cooperate.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "18564_rekkoku_ex2",
-      "japanese": "{列国|れっこく}の{代表|だいひょう}が{会議|かいぎ}に{集|あつ}まった。",
+      "japanese": "{列国|れっこく}⟦の→の：09472_no⟧⟦{代表|だいひょう}→代表：03419_daihyou⟧⟦が→が：00051_ga⟧⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦に→に：00314_ni⟧⟦{集|あつ}まった→集まる：01162_atsumaru⟧。",
       "english": "Representatives of the nations gathered at the conference.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "18564_rekkoku_ex3",
-      "japanese": "{幕末|ばくまつ}には{列国|れっこく}が{日本|にほん}に{開国|かいこく}を{迫|せま}った。",
+      "japanese": "⟦{幕末|ばくまつ}→幕末：12531_bakumatsu⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{列国|れっこく}⟦が→が：00051_ga⟧⟦{日本|にほん}→日本：03876_nihon⟧⟦に→に：00314_ni⟧⟦{開国|かいこく}→開国：14660_kaikoku⟧⟦を→を：00422_wo⟧⟦{迫|せま}った→迫る：03928_semaru⟧。",
       "english": "At the end of the Edo period, the foreign powers pressured Japan to open its borders.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,26 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA formal and somewhat literary term. Often used in historical contexts to refer to Western powers ({列強|れっきょう} is a near synonym emphasizing military might). Common in discussions of international diplomacy and historical events.\n\nCOMMON COLLOCATIONS:\n- {列国|れっこく}の{代表|だいひょう} (representatives of the nations)\n- {列国|れっこく}{間|かん}の{関係|かんけい} (relations among nations)\n\nSIMILAR WORDS:\n- {列強|れっきょう}: the great powers — emphasizes military and political power, often used historically\n- {諸国|しょこく}: various countries — a broader, less formal term",
-  "cross_references": [],
+  "notes": "USAGE:\nA formal and somewhat literary term. Often used in historical contexts to refer to Western powers (⟦{列強|れっきょう}→列強：11776_rekkyou⟧ is a near synonym emphasizing military might). Common in discussions of international diplomacy and historical events.\n\nCOMMON COLLOCATIONS:\n- {列国|れっこく}⟦の→の：09472_no⟧⟦{代表|だいひょう}→代表：03419_daihyou⟧ (representatives of the nations)\n- {列国|れっこく}⟦{間|かん}→〜間：28469_kan⟧⟦の→の：09472_no⟧⟦{関係|かんけい}→関係：01298_kankei⟧ (relations among nations)\n\nSIMILAR WORDS:\n- ⟦{列強|れっきょう}→列強：11776_rekkyou⟧: the great powers — emphasizes military and political power, often used historically\n- ⟦{諸国|しょこく}→諸国：15992_shokoku⟧: various countries — a broader, less formal term",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11776_rekkyou",
+      "reading": "れっきょう",
+      "headword": "{列強|れっきょう}",
+      "label": "the great powers"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15992_shokoku",
+      "reading": "しょこく",
+      "headword": "{諸国|しょこく}",
+      "label": "various countries"
+    }
+  ],
   "metadata": {
     "created": "2026-03-22T08:57:12Z",
-    "modified": "2026-07-25T21:35:01Z",
+    "modified": "2026-09-02T04:01:52Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

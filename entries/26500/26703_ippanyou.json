@@ -3,7 +3,7 @@
   "headword": "{一般用|いっぱんよう}",
   "reading": "いっぱんよう",
   "romaji": "ippanyou",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "for general use; general-purpose",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26703_ippanyou_ex1",
-      "japanese": "この{薬|くすり}は{一般用|いっぱんよう}{医薬品|いやくひん}です。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{薬|くすり}→薬：00793_kusuri⟧⟦は→は：00079_ha⟧{一般用|いっぱんよう}{医薬品|いやくひん}です。",
       "english": "This medicine is an over-the-counter drug (for general use).",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26703_ippanyou_ex2",
-      "japanese": "{一般用|いっぱんよう}と{業務用|ぎょうむよう}では{値段|ねだん}が{違|ちが}います。",
+      "japanese": "{一般用|いっぱんよう}⟦と→と：00512_to⟧⟦{業務用|ぎょうむよう}→業務用：13148_gyoumuyou⟧で⟦は→は：00079_ha⟧⟦{値段|ねだん}→値段：00871_nedan⟧⟦が→が：00051_ga⟧⟦{違|ちが}います→違う：01957_chigau⟧。",
       "english": "The price differs between consumer (general-use) and commercial versions.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26703_ippanyou_ex3",
-      "japanese": "{一般用|いっぱんよう}のパソコンでは、この{専門的|せんもんてき}なソフトは{動|うご}かないかもしれない。",
+      "japanese": "{一般用|いっぱんよう}⟦の→の：09472_no⟧⟦パソコン→パソコン：01538_pasokon⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧、⟦この→この：00962_kono⟧⟦{専門的|せんもんてき}→専門的：15633_senmonteki⟧な⟦ソフト→ソフト：01532_sofuto⟧⟦は→は：00079_ha⟧⟦{動|うご}かない→動く：00904_ugoku⟧⟦かもしれない→かもしれない：00164_kamoshirenai⟧。",
       "english": "This specialized software might not run on a general-purpose PC.",
       "sense_numbers": [
         1
@@ -44,8 +44,30 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {一般|いっぱん} (general) and {用|よう} (use/for). The suffix {用|よう} is highly productive and attaches to many nouns to mean \"for the use of\" or \"intended for.\"\n\nCOMMON COLLOCATIONS:\n- {一般用|いっぱんよう}{医薬品|いやくひん}: over-the-counter medicine\n- {一般用|いっぱんよう}{電源|でんげん}: standard power supply\n- {一般用|いっぱんよう}モデル: consumer model\n\nSIMILAR TERMS WITH 〜{用|よう}:\n- {業務用|ぎょうむよう}: for commercial/business use\n- {個人用|こじんよう}: for personal use\n- {家庭用|かていよう}: for household use\n- {専門用|せんもんよう}: for professional/specialist use",
-  "cross_references": [],
+  "notes": "Composed of ⟦{一般|いっぱん}→一般：01737_ippan⟧ (general) and ⟦{用|よう}→〜用：09842_you⟧ (use/for). The suffix ⟦{用|よう}→〜用：09842_you⟧ is highly productive and attaches to many nouns to mean \"for the use of\" or \"intended for.\"\n\nCOMMON COLLOCATIONS:\n- {一般用|いっぱんよう}{医薬品|いやくひん}: over-the-counter medicine\n- {一般用|いっぱんよう}⟦{電源|でんげん}→電源：04429_dengen⟧: standard power supply\n- {一般用|いっぱんよう}⟦モデル→モデル：05112_moderu⟧: consumer model\n\nSIMILAR TERMS WITH 〜{用|よう}:\n- ⟦{業務用|ぎょうむよう}→業務用：13148_gyoumuyou⟧: for commercial/business use\n- ⟦{個人用|こじんよう}→個人用：26704_kojinyou⟧: for personal use\n- ⟦{家庭用|かていよう}→家庭用：16544_kateiyou⟧: for household use\n- {専門用|せんもんよう}: for professional/specialist use",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "13148_gyoumuyou",
+      "reading": "ぎょうむよう",
+      "headword": "{業務用|ぎょうむよう}",
+      "label": "for commercial/business use"
+    },
+    {
+      "type": "related",
+      "target_id": "26704_kojinyou",
+      "reading": "こじんよう",
+      "headword": "{個人用|こじんよう}",
+      "label": "for personal use"
+    },
+    {
+      "type": "related",
+      "target_id": "16544_kateiyou",
+      "reading": "かていよう",
+      "headword": "{家庭用|かていよう}",
+      "label": "for household use"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -54,11 +76,13 @@
         "noun",
         "adjective-no"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "general"
       ]
     },
     "created": "2026-05-04T14:11:04Z",
-    "modified": "2026-08-06T12:44:19Z"
+    "modified": "2026-09-02T04:02:27Z"
   }
 }

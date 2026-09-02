@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "23765_seisakusha_ex1",
-      "japanese": "{番組|ばんぐみ}の{制作者|せいさくしゃ}です。",
+      "japanese": "⟦{番組|ばんぐみ}→番組：01705_bangumi⟧⟦の→の：09472_no⟧{制作者|せいさくしゃ}です。",
       "english": "I am the creator of the program.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "23765_seisakusha_ex2",
-      "japanese": "この{映画|えいが}の{制作者|せいさくしゃ}は{若|わか}い{監督|かんとく}だ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{映画|えいが}→映画：02273_eiga⟧⟦の→の：09472_no⟧{制作者|せいさくしゃ}⟦は→は：00079_ha⟧{若|わか}い⟦{監督|かんとく}→監督：00185_kantoku⟧だ。",
       "english": "The creator of this film is a young director.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "23765_seisakusha_ex3",
-      "japanese": "ウェブサイトの{制作者|せいさくしゃ}に{連絡|れんらく}を{取|と}って、{画像|がぞう}の{使用|しよう}{許可|きょか}をもらった。",
+      "japanese": "⟦ウェブサイト→ウェブサイト：05152_webusaito⟧⟦の→の：09472_no⟧{制作者|せいさくしゃ}⟦に→に：00314_ni⟧⟦{連絡|れんらく}→連絡：01524_renraku⟧⟦を→を：00422_wo⟧⟦{取|と}って→取る：00565_toru⟧、⟦{画像|がぞう}→画像：13549_gazou⟧⟦の→の：09472_no⟧⟦{使用|しよう}→使用：01637_shiyou⟧⟦{許可|きょか}→許可：00259_kyoka⟧⟦を→を：00422_wo⟧⟦もらった→もらう：00520_morau⟧。",
       "english": "I contacted the creator of the website and got permission to use the images.",
       "sense_numbers": [
         1
@@ -45,7 +45,7 @@
     },
     {
       "id": "23765_seisakusha_ex4",
-      "japanese": "このドキュメンタリーの{制作者|せいさくしゃ}は、{数年|すうねん}かけて{現地|げんち}を{取材|しゅざい}したそうだ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦ドキュメンタリー→ドキュメンタリー：05250_dokyumentarii⟧⟦の→の：09472_no⟧{制作者|せいさくしゃ}⟦は→は：00079_ha⟧、⟦{数年|すうねん}→数年：28206_suunen⟧⟦かけて→かける：00854_kakeru⟧⟦{現地|げんち}→現地：13502_genchi⟧⟦を→を：00422_wo⟧⟦{取材|しゅざい}→取材：05227_shuzai⟧⟦した→する：00392_suru⟧そうだ。",
       "english": "I heard that the creator of this documentary spent several years doing on-site interviews.",
       "sense_numbers": [
         1
@@ -54,8 +54,24 @@
       "notes": null
     }
   ],
-  "notes": "Formed from {制作|せいさく} ('production; creation of a work') plus the agent suffix {〜者|しゃ} ('person'). Used across creative industries — film, TV, web, games, art — to refer to the person who makes the work.\n\nUSAGE:\nAppears in credits, interviews, articles, and formal writing. In casual conversation, role-specific terms like {監督|かんとく} ('director'), {プロデューサー} ('producer'), or {クリエイター} ('creator') are usually preferred. {制作者|せいさくしゃ} is a generic, formal cover term.\n\nCOMMON COLLOCATIONS:\n- {番組|ばんぐみ}の{制作者|せいさくしゃ}: creator of a (TV) program\n- {映画|えいが}の{制作者|せいさくしゃ}: creator/maker of a film\n- {制作者|せいさくしゃ}{名|めい}: creator's name (in credits)\n- {制作者|せいさくしゃ}{側|がわ}: the creators' side (as in 'from the creators' perspective')\n- {制作者|せいさくしゃ}{不明|ふめい}: creator unknown\n\nSIMILAR WORDS:\n- {作者|さくしゃ}: author — primarily for literary works and the like\n- {製作者|せいさくしゃ}: same reading, different kanji — used for manufactured goods and, traditionally, for film producers in a business/financial sense. {制作} favors the creative/artistic act; {製作} favors manufacturing and financing.\n- {作|つく}り{手|て}: maker; creator — more hands-on, artisanal feel\n- {クリエイター}: creator — modern loanword, popular for digital/online content\n- {プロデューサー}: producer — business-side role, often managerial\n\nKANJI NOTE:\nThe distinction {制作} vs {製作} is frequently confused even by native speakers. For artistic works (films, music, TV shows, artworks) {制作} is standard; {製作} is preferred when the emphasis is on mass production, financial backing, or tangible goods.",
+  "notes": "Formed from ⟦{制作|せいさく}→制作：04320_seisaku⟧ ('production; creation of a work') plus the agent suffix {〜者|しゃ} ('person'). Used across creative industries — film, TV, web, games, art — to refer to the person who makes the work.\n\nUSAGE:\nAppears in credits, interviews, articles, and formal writing. In casual conversation, role-specific terms like ⟦{監督|かんとく}→監督：00185_kantoku⟧ ('director'), ⟦プロデューサー→プロデューサー：12841_purodyuusaa⟧ ('producer'), or ⟦クリエイター→クリエイター：10871_kurieitaa⟧ ('creator') are usually preferred. {制作者|せいさくしゃ} is a generic, formal cover term.\n\nCOMMON COLLOCATIONS:\n- ⟦{番組|ばんぐみ}→番組：01705_bangumi⟧⟦の→の：09472_no⟧{制作者|せいさくしゃ}: creator of a (TV) program\n- ⟦{映画|えいが}→映画：02273_eiga⟧⟦の→の：09472_no⟧{制作者|せいさくしゃ}: creator/maker of a film\n- {制作者|せいさくしゃ}{名|めい}: creator's name (in credits)\n- {制作者|せいさくしゃ}⟦{側|がわ}→〜側：03090_gawa⟧: the creators' side (as in 'from the creators' perspective')\n- {制作者|せいさくしゃ}⟦{不明|ふめい}→不明：11352_fumei⟧: creator unknown\n\nSIMILAR WORDS:\n- ⟦{作者|さくしゃ}→作者：04169_sakusha⟧: author — primarily for literary works and the like\n- {製作者|せいさくしゃ}: same reading, different kanji — used for manufactured goods and, traditionally, for film producers in a business/financial sense. {制作} favors the creative/artistic act; {製作} favors manufacturing and financing.\n- {作|つく}り{手|て}: maker; creator — more hands-on, artisanal feel\n- ⟦クリエイター→クリエイター：10871_kurieitaa⟧: creator — modern loanword, popular for digital/online content\n- ⟦プロデューサー→プロデューサー：12841_purodyuusaa⟧: producer — business-side role, often managerial\n\nWRITING:\nThe distinction {制作} vs {製作} is frequently confused even by native speakers. For artistic works (films, music, TV shows, artworks) {制作} is standard; {製作} is preferred when the emphasis is on mass production, financial backing, or tangible goods.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "10871_kurieitaa",
+      "reading": "くりえいたー",
+      "headword": "クリエイター",
+      "label": "creator"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12841_purodyuusaa",
+      "reading": "ぷろでゅーさー",
+      "headword": "プロデューサー",
+      "label": "producer"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -71,6 +87,6 @@
       ]
     },
     "created": "2026-04-14T19:08:42Z",
-    "modified": "2026-08-02T06:24:09Z"
+    "modified": "2026-09-02T04:02:14Z"
   }
 }

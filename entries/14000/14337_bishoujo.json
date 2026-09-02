@@ -15,41 +15,59 @@
   "examples": [
     {
       "id": "14337_bishoujo_ex1",
-      "japanese": "{美少女|びしょうじょ}キャラが{人気|にんき}だ。",
+      "japanese": "{美少女|びしょうじょ}⟦キャラ→キャラ：08916_kyara⟧⟦が→が：00051_ga⟧⟦{人気|にんき}→人気：01488_ninki⟧だ。",
       "english": "Beautiful-girl characters are popular.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14337_bishoujo_ex2",
-      "japanese": "{美少女|びしょうじょ}ゲームは{日本|にほん}で{独自|どくじ}に{発展|はってん}したジャンルだ。",
+      "japanese": "{美少女|びしょうじょ}⟦ゲーム→ゲーム：03842_geemu⟧⟦は→は：00079_ha⟧⟦{日本|にほん}→日本：03876_nihon⟧⟦で→で：00502_de⟧⟦{独自|どくじ}→独自：05614_dokuji⟧⟦に→に：00314_ni⟧⟦{発展|はってん}した→発展する：25331_hattensuru⟧⟦ジャンル→ジャンル：11017_janru⟧だ。",
       "english": "Bishoujo games are a genre that developed uniquely in Japan.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14337_bishoujo_ex3",
-      "japanese": "{変身|へんしん}する{美少女|びしょうじょ}{戦士|せんし}のアニメは{世界中|せかいじゅう}で{愛|あい}されている。",
+      "japanese": "⟦{変身|へんしん}する→変身する：25383_henshinsuru⟧{美少女|びしょうじょ}⟦{戦士|せんし}→戦士：12747_senshi⟧⟦の→の：09472_no⟧⟦アニメ→アニメ：01527_anime⟧⟦は→は：00079_ha⟧⟦{世界中|せかいじゅう}→世界中：10171_sekaijuu⟧⟦で→で：00502_de⟧⟦{愛|あい}されている→愛する：01811_aisuru⟧。",
       "english": "Anime featuring transforming beautiful-girl warriors are loved worldwide.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "Compound of {美|び} (beautiful) + {少女|しょうじょ} (young girl). The male counterpart is {美少年|びしょうねん}.\n\nCOMMON COLLOCATIONS:\n- {美少女|びしょうじょ}キャラ (beautiful-girl character)\n- {美少女|びしょうじょ}ゲーム (bishoujo game — visual novel genre)\n- {美少女|びしょうじょ}{戦士|せんし} (beautiful-girl warrior — as in magical girl anime)\n\nCULTURAL NOTE:\nIn everyday Japanese, {美少女|びしょうじょ} can describe any pretty young girl. However, it is strongly associated with anime, manga, and game subculture, where it refers to a specific character type. The term has been borrowed into English as \"bishoujo\" in fan communities.",
-  "cross_references": [],
+  "notes": "Compound of ⟦{美|び}→美：28891_bi⟧ (beautiful) + ⟦{少女|しょうじょ}→少女：03233_shoujo⟧ (young girl). The male counterpart is {美少年|びしょうねん}.\n\nCOMMON COLLOCATIONS:\n- {美少女|びしょうじょ}⟦キャラ→キャラ：08916_kyara⟧ (beautiful-girl character)\n- {美少女|びしょうじょ}⟦ゲーム→ゲーム：03842_geemu⟧ (bishoujo game — visual novel genre)\n- {美少女|びしょうじょ}⟦{戦士|せんし}→戦士：12747_senshi⟧ (beautiful-girl warrior — as in magical girl anime)\n\nCULTURAL NOTE:\nIn everyday Japanese, {美少女|びしょうじょ} can describe any pretty young girl. However, it is strongly associated with anime, manga, and game subculture, where it refers to a specific character type. The term has been borrowed into English as \"bishoujo\" in fan communities.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "28612_bijo",
+      "reading": "びじょ",
+      "headword": "{美女|びじょ}",
+      "label": "beautiful woman"
+    }
+  ],
   "metadata": {
     "created": "2026-02-28T12:11:33Z",
-    "modified": "2026-02-28T12:11:33Z",
+    "modified": "2026-09-02T04:01:36Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["person"]
+      "semantic": [
+        "person"
+      ]
     }
   }
 }

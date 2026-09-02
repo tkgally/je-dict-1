@@ -264,7 +264,7 @@
     },
     {
       "id": "01104_tanomu_ex16",
-      "japanese": "⟦いつまでも→いつまでも：01814_itsumademo⟧⟦{人|ひと}→人：00476_hito⟧⟦に→に：00314_ni⟧{頼|たの}んで⟦いないで→いる：00495_iru⟧、⟦{自分|じぶん}→自分：02887_jibun⟧⟦で→で：00502_de⟧やって⟦み→見る：00283_miru⟧⟦なさい→なさい：09856_nasai⟧。",
+      "japanese": "⟦いつまでも→いつまでも：01814_itsumademo⟧⟦{人|ひと}→人：00476_hito⟧⟦に→に：00314_ni⟧{頼|たの}んで⟦いないで→いる：00495_iru⟧、⟦{自分|じぶん}→自分：02887_jibun⟧⟦で→で：00502_de⟧⟦やって→やる：02980_yaru⟧⟦み→見る：00283_miru⟧⟦なさい→なさい：09856_nasai⟧。",
       "english": "Stop relying on others and try doing it yourself.",
       "notes": null,
       "has_audio": false,
@@ -273,11 +273,68 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive). No pair verb. Pattern: X⟦を→を：00422_wo⟧{頼|たの}む (request X) / X⟦に→に：00314_ni⟧{頼|たの}む (ask X [person]).\n\nASPECT: ている indicates ongoing/repeated state. {頼|たの}んでいる = 'have requested' or 'am relying on.'\n\nCOMMON PATTERNS:\n・⟦{人|ひと}→人：00476_hito⟧⟦に→に：00314_ni⟧{頼|たの}む (ask someone)\n・⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦を→を：00422_wo⟧{頼|たの}む (request work/task)\n・⟦ビール→ビール：01015_biiru⟧⟦を→を：00422_wo⟧{頼|たの}む (order beer)\n・{頼|たの}む⟦よ→よ：09475_yo⟧ (please! - casual request)\n\nRelated:\n- ⟦お{願|ねが}い→お願い：10299_onegai⟧⟦します→する：00392_suru⟧ (polite request)\n- ⟦{頼|たの}み→頼み：noentry⟧ (noun - favor/request).",
-  "cross_references": [],
+  "notes": "TRANSITIVITY: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive). No pair verb. Pattern: X⟦を→を：00422_wo⟧{頼|たの}む (request X) / X⟦に→に：00314_ni⟧{頼|たの}む (ask X [person]).\n\nASPECT: て⟦いる→いる：00495_iru⟧ indicates ongoing/repeated state. {頼|たの}んで⟦いる→いる：00495_iru⟧ = 'have requested' or 'am relying on.'\n\nCOMMON PATTERNS:\n- ⟦{人|ひと}→人：00476_hito⟧⟦に→に：00314_ni⟧{頼|たの}む (ask someone)\n- ⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦を→を：00422_wo⟧{頼|たの}む (request work/task)\n- ⟦ビール→ビール：01015_biiru⟧⟦を→を：00422_wo⟧{頼|たの}む (order beer)\n- {頼|たの}む⟦よ→よ：09475_yo⟧ (please! - casual request)\n\nRelated:\n- ⟦お{願|ねが}い→お願い：10299_onegai⟧⟦します→する：00392_suru⟧ (polite request)\n- ⟦{頼|たの}み→頼み：noentry⟧ (noun - favor/request).",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "07619_nedaru",
+      "reading": "ねだる",
+      "headword": "ねだる",
+      "label": "to beg for"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17931_segamu",
+      "reading": "せがむ",
+      "headword": "せがむ",
+      "label": "to pester"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17938_onedari",
+      "reading": "おねだり",
+      "headword": "おねだり",
+      "label": "begging"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21376_irai",
+      "reading": "いらい",
+      "headword": "{依頼|いらい}する",
+      "label": "to request"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21390_chuumon",
+      "reading": "ちゅうもん",
+      "headword": "{注文|ちゅうもん}する",
+      "label": "to order"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25407_kongansuru",
+      "reading": "こんがんする",
+      "headword": "{懇願|こんがん}する",
+      "label": "to implore"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27020_sebiru",
+      "reading": "せびる",
+      "headword": "せびる",
+      "label": "to pester for"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28921_kou",
+      "reading": "こう",
+      "headword": "{乞|こ}う",
+      "label": "to beg"
+    }
+  ],
   "metadata": {
     "created": "2026-01-07T12:44:55Z",
-    "modified": "2026-05-13T23:19:17Z",
+    "modified": "2026-09-02T04:00:59Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "core",
     "tags": {

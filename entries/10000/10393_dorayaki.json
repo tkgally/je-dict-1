@@ -15,40 +15,65 @@
   "examples": [
     {
       "id": "10393_dorayaki_ex1",
-      "japanese": "おやつにどら{焼|や}きを{食|た}べた。",
+      "japanese": "⟦おやつ→おやつ：17921_oyatsu⟧⟦に→に：00314_ni⟧どら{焼|や}き⟦を→を：00422_wo⟧⟦{食|た}べた→食べる：00396_taberu⟧。",
       "english": "I had dorayaki for a snack.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10393_dorayaki_ex2",
-      "japanese": "この{店|みせ}のどら{焼|や}きは{皮|かわ}がふわふわだ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{店|みせ}→店：00497_mise⟧⟦の→の：09472_no⟧どら{焼|や}き⟦は→は：00079_ha⟧⟦{皮|かわ}→皮：02187_kawa⟧⟦が→が：00051_ga⟧⟦ふわふわ→ふわふわ：05156_fuwafuwa⟧だ。",
       "english": "The dorayaki at this shop has fluffy pancakes.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10393_dorayaki_ex3",
-      "japanese": "{最近|さいきん}は{抹茶|まっちゃ}クリームや{栗|くり}あんなど、{色々|いろいろ}な{味|あじ}のどら{焼|や}きがある。",
+      "japanese": "⟦{最近|さいきん}→最近：00881_saikin⟧⟦は→は：00079_ha⟧⟦{抹茶|まっちゃ}→抹茶：10574_maccha⟧⟦クリーム→クリーム：00253_kuriimu⟧や⟦{栗|くり}→栗：04387_kuri⟧あん⟦など→〜など：03095_nado⟧、⟦{色々|いろいろ}→色々：02352_iroiro⟧な⟦{味|あじ}→味：00826_aji⟧⟦の→の：09472_no⟧どら{焼|や}き⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "These days, there are dorayaki in various flavors like matcha cream and chestnut paste.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "A traditional Japanese confection ({和菓子|わがし}). The standard filling is {小豆|あずき}{餡|あん} (sweet red bean paste), but modern variations include cream, matcha, and fruit fillings.\n\nCOMMON COLLOCATIONS:\n- どら{焼|や}きの{皮|かわ} (dorayaki pancake/wrapper)\n- どら{焼|や}きの{餡|あん} (dorayaki filling)\n- {生|なま}どら{焼|や}き (fresh dorayaki, often with whipped cream)\n\nETYMOLOGY: The name is said to come from {銅鑼|どら} (gong), because the shape of the pancakes resembles a small gong.\n\nCULTURAL NOTE: Dorayaki gained international recognition as the favorite food of the manga character ドラえもん.",
-  "cross_references": [],
+  "notes": "A traditional Japanese confection (⟦{和菓子|わがし}→和菓子：04962_wagashi⟧). The standard filling is {小豆|あずき}{餡|あん} (sweet red bean paste), but modern variations include cream, matcha, and fruit fillings.\n\nCOMMON COLLOCATIONS:\n- どら{焼|や}き⟦の→の：09472_no⟧⟦{皮|かわ}→皮：02187_kawa⟧ (dorayaki pancake/wrapper)\n- どら{焼|や}き⟦の→の：09472_no⟧⟦{餡|あん}→餡：10220_an⟧ (dorayaki filling)\n- ⟦{生|なま}→生：03509_nama⟧どら{焼|や}き (fresh dorayaki, often with whipped cream)\n\nETYMOLOGY: The name is said to come from {銅鑼|どら} (gong), because the shape of the pancakes resembles a small gong.\n\nCULTURAL NOTE: Dorayaki gained international recognition as the favorite food of the manga character ドラえもん.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "27166_oobanyaki",
+      "reading": "おおばんやき",
+      "headword": "{大判焼|おおばんや}き",
+      "label": "large round filled cake"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28809_pankeeki",
+      "reading": "ぱんけーき",
+      "headword": "パンケーキ",
+      "label": "pancake"
+    }
+  ],
   "metadata": {
     "created": "2026-02-07T10:28:08Z",
-    "modified": "2026-02-07T10:28:08Z",
+    "modified": "2026-09-02T04:01:21Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food"]
+      "semantic": [
+        "food"
+      ]
     }
   }
 }

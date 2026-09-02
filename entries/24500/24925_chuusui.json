@@ -3,7 +3,7 @@
   "headword": "{注水|ちゅうすい}",
   "reading": "ちゅうすい",
   "romaji": "chuusui",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "water injection; pouring water",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24925_chuusui_ex1",
-      "japanese": "タンクに{注水|ちゅうすい}する。",
+      "japanese": "⟦タンク→タンク：23095_tanku⟧⟦に→に：00314_ni⟧{注水|ちゅうすい}⟦する→する：00392_suru⟧。",
       "english": "Fill the tank with water.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24925_chuusui_ex2",
-      "japanese": "{田|た}んぼへの{注水|ちゅうすい}が{始|はじ}まった。",
+      "japanese": "⟦{田|た}んぼ→田んぼ：00402_tanbo⟧⟦へ→へ：02473_he⟧⟦の→の：09472_no⟧{注水|ちゅうすい}⟦が→が：00051_ga⟧⟦{始|はじ}まった→始まる：00841_hajimaru⟧。",
       "english": "Water filling of the rice paddies has begun.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24925_chuusui_ex3",
-      "japanese": "{原子炉|げんしろ}を{冷却|れいきゃく}するために{緊急|きんきゅう}{注水|ちゅうすい}が{行|おこな}われた。",
+      "japanese": "⟦{原子炉|げんしろ}→原子炉：20824_genshiro⟧⟦を→を：00422_wo⟧⟦{冷却|れいきゃく}→冷却：09796_reikyaku⟧⟦する→する：00392_suru⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧⟦{緊急|きんきゅう}→緊急：11327_kinkyuu⟧{注水|ちゅうすい}⟦が→が：00051_ga⟧⟦{行|おこな}われた→行う：01238_okonau⟧。",
       "english": "Emergency water injection was carried out to cool the reactor.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {注|ちゅう} (pour, inject) and {水|すい} (water). This word became widely known in Japan during the 2011 Fukushima nuclear disaster, when {注水|ちゅうすい} operations to cool the damaged reactors were a constant topic in news coverage.\n\nBeyond nuclear emergencies, {注水|ちゅうすい} is used in agriculture (flooding rice paddies), industry (filling tanks and systems), and cooking.\n\nCOMMON COLLOCATIONS:\n- {注水|ちゅうすい}する: to inject/pour water\n- {注水|ちゅうすい}{作業|さぎょう}: water injection work\n- {緊急|きんきゅう}{注水|ちゅうすい}: emergency water injection\n- {注水|ちゅうすい}{量|りょう}: amount of water injected\n- {注水|ちゅうすい}を{開始|かいし}する: to begin water injection\n\nSIMILAR WORDS:\n- {加水|かすい}: adding water — focuses on mixing water into a substance (e.g., dough, a solution)\n- {給水|きゅうすい}: water supply — providing water to people, buildings, or systems\n- {排水|はいすい}: drainage — the opposite process: removing water",
+  "notes": "A compound of ⟦{注|ちゅう}→注：03434_chuu⟧ (pour, inject) and {水|すい} (water). This word became widely known in Japan during the 2011 Fukushima nuclear disaster, when {注水|ちゅうすい} operations to cool the damaged reactors were a constant topic in news coverage.\n\nBeyond nuclear emergencies, {注水|ちゅうすい} is used in agriculture (flooding rice paddies), industry (filling tanks and systems), and cooking.\n\nCOMMON COLLOCATIONS:\n- {注水|ちゅうすい}⟦する→する：00392_suru⟧: to inject/pour water\n- {注水|ちゅうすい}⟦{作業|さぎょう}→作業：02775_sagyou⟧: water injection work\n- ⟦{緊急|きんきゅう}→緊急：11327_kinkyuu⟧{注水|ちゅうすい}: emergency water injection\n- {注水|ちゅうすい}⟦{量|りょう}→量：03799_ryou⟧: amount of water injected\n- {注水|ちゅうすい}⟦を→を：00422_wo⟧⟦{開始|かいし}する→開始する：26826_kaishisuru⟧: to begin water injection\n\nSIMILAR WORDS:\n- ⟦{加水|かすい}→加水：24921_kasui⟧: adding water — focuses on mixing water into a substance (e.g., dough, a solution)\n- ⟦{給水|きゅうすい}→給水：15031_kyuusui⟧: water supply — providing water to people, buildings, or systems\n- ⟦{排水|はいすい}→排水：11104_haisui⟧: drainage — the opposite process: removing water",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24921_kasui",
+      "reading": "かすい",
+      "headword": "{加水|かすい}",
+      "label": "adding water"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15031_kyuusui",
+      "reading": "きゅうすい",
+      "headword": "{給水|きゅうすい}",
+      "label": "water supply"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11104_haisui",
+      "reading": "はいすい",
+      "headword": "{排水|はいすい}",
+      "label": "drainage"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +76,15 @@
         "noun",
         "verb-suru"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "action"
       ],
       "verb_class": "suru"
     },
     "created": "2026-04-21T13:13:10Z",
-    "modified": "2026-08-03T09:30:08Z"
+    "modified": "2026-09-02T04:02:20Z"
   },
   "conjugation": {
     "type": "suru",

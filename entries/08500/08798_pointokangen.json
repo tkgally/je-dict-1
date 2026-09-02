@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08798_pointokangen_ex1",
-      "japanese": "ポイント{還元|かんげん}が5%ある。",
+      "japanese": "ポイント{還元|かんげん}⟦が→が：00051_ga⟧5%⟦ある→ある：00006_aru⟧。",
       "english": "There's a 5% point rebate.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "08798_pointokangen_ex2",
-      "japanese": "ポイント{還元|かんげん}で{実質|じっしつ}{無料|むりょう}になった。",
+      "japanese": "ポイント{還元|かんげん}⟦で→で：00502_de⟧⟦{実質|じっしつ}→実質：12282_jisshitsu⟧⟦{無料|むりょう}→無料：01662_muryou⟧になった。",
       "english": "It became essentially free with the point rebate.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "08798_pointokangen_ex3",
-      "japanese": "{政府|せいふ}がポイント{還元|かんげん}{事業|じぎょう}を{実施|じっし}した。",
+      "japanese": "⟦{政府|せいふ}→政府：03294_seifu⟧⟦が→が：00051_ga⟧ポイント{還元|かんげん}⟦{事業|じぎょう}→事業：11421_jigyou⟧⟦を→を：00422_wo⟧⟦{実施|じっし}した→実施する：19634_jisshisuru⟧。",
       "english": "The government implemented a point rebate program.",
       "sense_numbers": [
         1
@@ -57,9 +57,16 @@
       "reading": "わりびき",
       "headword": "{割引|わりびき}",
       "label": "discount"
+    },
+    {
+      "type": "related",
+      "target_id": "09835_pointokaado",
+      "reading": "ぽいんとかーど",
+      "headword": "ポイントカード",
+      "label": "loyalty card"
     }
   ],
-  "notes": "JAPANESE CONSUMER CULTURE:\nポイント{還元|かんげん} is extremely common in Japan. Major point systems include:\n- {楽天|らくてん}ポイント (Rakuten Points)\n- Tポイント (T-Point)\n- dポイント (d Point)\n- Pontaポイント (Ponta)\n- PayPayボーナス (PayPay Bonus)\n\nGOVERNMENT PROGRAM:\nIn 2019-2020, the Japanese government ran a ポイント{還元|かんげん}{事業|じぎょう} (point rebate program) to encourage cashless payments, offering 2-5% rebates.\n\nCOMMON COLLOCATIONS:\n- ポイント{還元|かんげん}{率|りつ} - point rebate rate\n- ポイント{還元|かんげん}{対象|たいしょう} - eligible for point rebate\n- ポイントを{貯|た}める - to accumulate points\n- ポイントを{使|つか}う - to use points",
+  "notes": "JAPANESE CONSUMER CULTURE:\nポイント{還元|かんげん} is extremely common in Japan. Major point systems include:\n- {楽天|らくてん}⟦ポイント→ポイント：11283_pointo⟧ (Rakuten Points)\n- T⟦ポイント→ポイント：11283_pointo⟧ (T-Point)\n- d⟦ポイント→ポイント：11283_pointo⟧ (d Point)\n- Pontaポイント (Ponta)\n- PayPay⟦ボーナス→ボーナス：05878_boonasu⟧ (PayPay Bonus)\n\nGOVERNMENT PROGRAM:\nIn 2019-2020, the Japanese government ran a ポイント{還元|かんげん}⟦{事業|じぎょう}→事業：11421_jigyou⟧ (point rebate program) to encourage cashless payments, offering 2-5% rebates.\n\nCOMMON COLLOCATIONS:\n- ポイント{還元|かんげん}{率|りつ} - point rebate rate\n- ポイント{還元|かんげん}⟦{対象|たいしょう}→対象：03393_taishou⟧ - eligible for point rebate\n- ⟦ポイント→ポイント：11283_pointo⟧⟦を→を：00422_wo⟧⟦{貯|た}める→貯める：27801_tameru⟧ - to accumulate points\n- ⟦ポイント→ポイント：11283_pointo⟧⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧ - to use points",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -78,6 +85,6 @@
       ]
     },
     "created": "2026-01-28T11:27:48Z",
-    "modified": "2026-04-22T05:10:54Z"
+    "modified": "2026-09-02T04:01:16Z"
   }
 }

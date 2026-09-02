@@ -3,7 +3,7 @@
   "headword": "ほったらかす",
   "reading": "ほったらかす",
   "romaji": "hottarakasu",
-  "part_of_speech": "verb-godan",
+  "part_of_speech": "verb (godan)",
   "gloss": "to leave alone; to neglect; to abandon",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21542_hottarakasu_ex1",
-      "japanese": "{子供|こども}をほったらかす。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧⟦を→を：00422_wo⟧ほったらかす。",
       "english": "To leave the children unattended.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21542_hottarakasu_ex2",
-      "japanese": "{宿題|しゅくだい}をほったらかして{遊|あそ}びに{行|い}った。",
+      "japanese": "⟦{宿題|しゅくだい}→宿題：00812_shukudai⟧⟦を→を：00422_wo⟧ほったらかして⟦{遊|あそ}び→遊ぶ：00550_asobu⟧⟦に→に：00314_ni⟧⟦{行|い}った→行く：00119_iku⟧。",
       "english": "I went out to play, leaving my homework undone.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21542_hottarakasu_ex3",
-      "japanese": "{庭|にわ}をほったらかしにしていたら、{雑草|ざっそう}だらけになった。",
+      "japanese": "⟦{庭|にわ}→庭：02239_niwa⟧⟦を→を：00422_wo⟧ほったらかしにして⟦いたら→いる：00495_iru⟧、⟦{雑草|ざっそう}→雑草：04996_zassou⟧⟦だらけ→〜だらけ：18372_darake⟧になった。",
       "english": "I left the garden unattended and it became overgrown with weeds.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "A colloquial verb meaning to leave something or someone neglected. Carries a stronger nuance of carelessness or irresponsibility than {放|ほう}っておく.\n\nCOMMON COLLOCATIONS:\n- {子供|こども}をほったらかす: to neglect the children\n- {仕事|しごと}をほったらかす: to leave work undone\n- ほったらかしにする: to leave in a state of neglect\n\nUSAGE:\nThe te-form ほったらかして is very common. The nominalized form ほったらかし is used as a noun meaning \"a state of neglect,\" often in the pattern ほったらかしにする.\n\nSIMILAR WORDS:\n- {放|ほう}っておく: to leave alone — more neutral, can mean deliberately choosing not to interfere\n- ほったらかす: to neglect — more negative, implies carelessness\n- {放置|ほうち}する: to leave unattended — more formal, used in official or written contexts\n\nREGISTER:\nInformal and colloquial. Not used in formal writing or polite speech.",
+  "notes": "A colloquial verb meaning to leave something or someone neglected. Carries a stronger nuance of carelessness or irresponsibility than ⟦{放|ほう}っておく→放っておく：18382_houtteoku⟧.\n\nCOMMON COLLOCATIONS:\n- ⟦{子供|こども}→子供：00554_kodomo⟧⟦を→を：00422_wo⟧ほったらかす: to neglect the children\n- ⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦を→を：00422_wo⟧ほったらかす: to leave work undone\n- ほったらかし⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧: to leave in a state of neglect\n\nUSAGE:\nThe te-form ほったらかして is very common. The nominalized form ほったらかし is used as a noun meaning \"a state of neglect,\" often in the pattern ほったらかし⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧.\n\nSIMILAR WORDS:\n- ⟦{放|ほう}っておく→放っておく：18382_houtteoku⟧: to leave alone — more neutral, can mean deliberately choosing not to interfere\n- ほったらかす: to neglect — more negative, implies carelessness\n- ⟦{放置|ほうち}する→放置する：25382_houchisuru⟧: to leave unattended — more formal, used in official or written contexts\n\nREGISTER:\nInformal and colloquial. Not used in formal writing or polite speech.",
   "cross_references": [
     {
       "type": "synonym",
@@ -52,6 +52,13 @@
       "reading": "ほうっておく",
       "headword": "{放|ほう}っておく",
       "label": "leave alone (standard)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25382_houchisuru",
+      "reading": "ほうちする",
+      "headword": "{放置|ほうち}する",
+      "label": "to leave unattended"
     }
   ],
   "schema_version": "2.0",
@@ -66,10 +73,11 @@
       "semantic": [
         "action"
       ],
-      "verb_class": "godan-su"
+      "verb_class": "godan-su",
+      "transitivity": "transitive"
     },
     "created": "2026-04-02T16:11:32Z",
-    "modified": "2026-05-08T10:08:08Z"
+    "modified": "2026-09-02T04:02:04Z"
   },
   "conjugation": {
     "type": "godan",

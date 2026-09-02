@@ -15,40 +15,67 @@
   "examples": [
     {
       "id": "21205_ryoushi_ex1",
-      "japanese": "{漁師|りょうし}が{網|あみ}を{引|ひ}く。",
+      "japanese": "{漁師|りょうし}⟦が→が：00051_ga⟧⟦{網|あみ}→網：22587_ami⟧⟦を→を：00422_wo⟧⟦{引|ひ}く→引く：01978_hiku⟧。",
       "english": "The fisherman pulls in the net.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21205_ryoushi_ex2",
-      "japanese": "{父|ちち}は{代々|だいだい}{漁師|りょうし}の{家|いえ}に{生|う}まれた。",
+      "japanese": "⟦{父|ちち}→父：00566_chichi⟧⟦は→は：00079_ha⟧⟦{代々|だいだい}→代々：05899_daidai⟧{漁師|りょうし}⟦の→の：09472_no⟧⟦{家|いえ}→家：00612_ie⟧⟦に→に：00314_ni⟧⟦{生|う}まれた→生まれる：00905_umareru⟧。",
       "english": "My father was born into a family of fishermen going back generations.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21205_ryoushi_ex3",
-      "japanese": "{漁師|りょうし}たちは{早朝|そうちょう}に{港|みなと}を{出|で}て、{夕方|ゆうがた}に{新鮮|しんせん}な{魚|さかな}を{持|も}ち{帰|かえ}る。",
+      "japanese": "{漁師|りょうし}たち⟦は→は：00079_ha⟧⟦{早朝|そうちょう}→早朝：03109_souchou⟧⟦に→に：00314_ni⟧⟦{港|みなと}→港：01512_minato⟧⟦を→を：00422_wo⟧⟦{出|で}て→出る：00513_deru⟧、⟦{夕方|ゆうがた}→夕方：01010_yuugata⟧⟦に→に：00314_ni⟧⟦{新鮮|しんせん}→新鮮：03261_shinsen⟧な⟦{魚|さかな}→魚：00499_sakana⟧⟦を→を：00422_wo⟧⟦{持|も}ち{帰|かえ}る→持ち帰る：04227_mochikaeru⟧。",
       "english": "The fishermen leave the port early in the morning and bring back fresh fish in the evening.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "The standard word for a professional fisherman. Composed of {漁|りょう} (fishing) + {師|し} (master/professional), indicating a skilled occupation.\n\nCOMMON COLLOCATIONS:\n- {漁師|りょうし}の{町|まち}: fishing town\n- {漁師|りょうし}{料理|りょうり}: fisherman's cuisine (simple, fresh seafood dishes)\n- {漁師|りょうし}{小屋|ごや}: fisherman's hut\n- {漁師|りょうし}になる: to become a fisherman\n\nSIMILAR WORDS:\n- {猟師|りょうし}: hunter — same reading but different kanji ({猟|りょう} means hunting); distinguished by context\n- {漁民|ぎょみん}: fishing people — a more collective or formal term\n- {釣|つ}り{人|びと}: angler — specifically someone who fishes with a rod, often recreationally\n\nNOTE:\nBe careful not to confuse {漁師|りょうし} (fisherman) with the homophone {猟師|りょうし} (hunter). The kanji makes the distinction clear in writing.",
+  "notes": "The standard word for a professional fisherman. Composed of {漁|りょう} (fishing) + {師|し} (master/professional), indicating a skilled occupation.\n\nCOMMON COLLOCATIONS:\n- {漁師|りょうし}⟦の→の：09472_no⟧⟦{町|まち}→町：00613_machi⟧: fishing town\n- {漁師|りょうし}⟦{料理|りょうり}→料理：01523_ryouri⟧: fisherman's cuisine (simple, fresh seafood dishes)\n- {漁師|りょうし}{小屋|ごや}: fisherman's hut\n- {漁師|りょうし}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧: to become a fisherman\n\nSIMILAR WORDS:\n- ⟦{猟師|りょうし}→猟師：19613_ryoushi⟧: hunter — same reading but different kanji ({猟|りょう} means hunting); distinguished by context\n- {漁民|ぎょみん}: fishing people — a more collective or formal term\n- ⟦{釣|つ}り{人|びと}→釣り人：27614_tsuribito⟧: angler — specifically someone who fishes with a rod, often recreationally\n\nUSAGE:\nBe careful not to confuse {漁師|りょうし} (fisherman) with the homophone ⟦{猟師|りょうし}→猟師：19613_ryoushi⟧ (hunter). The kanji makes the distinction clear in writing.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "homophone",
+      "target_id": "19613_ryoushi",
+      "reading": "りょうし",
+      "headword": "{猟師|りょうし}",
+      "label": "hunter"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27614_tsuribito",
+      "reading": "つりびと",
+      "headword": "{釣|つ}り{人|びと}",
+      "label": "angler"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["person", "occupation"]
+      "semantic": [
+        "person",
+        "occupation"
+      ]
     },
     "created": "2026-04-01T14:16:10Z",
-    "modified": "2026-04-01T14:16:10Z"
+    "modified": "2026-09-02T04:02:02Z"
   }
 }

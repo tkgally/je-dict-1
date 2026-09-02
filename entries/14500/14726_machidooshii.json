@@ -3,7 +3,7 @@
   "id": "14726_machidooshii",
   "headword": "{待|ま}ち{遠|どお}しい",
   "reading": "まちどおしい",
-  "part_of_speech": "adjective-i",
+  "part_of_speech": "i-adjective",
   "gloss": "looking forward to; eagerly awaited",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "14726_machidooshii_ex1",
-      "japanese": "{夏休|なつやす}みが{待|ま}ち{遠|どお}しい。",
+      "japanese": "⟦{夏休|なつやす}み→夏休み：02925_natsuyasumi⟧⟦が→が：00051_ga⟧{待|ま}ち{遠|どお}しい。",
       "english": "I can't wait for summer vacation.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "14726_machidooshii_ex2",
-      "japanese": "{新作|しんさく}ゲームの{発売|はつばい}{日|び}が{待|ま}ち{遠|どお}しい。",
+      "japanese": "⟦{新作|しんさく}→新作：09523_shinsaku⟧⟦ゲーム→ゲーム：03842_geemu⟧⟦の→の：09472_no⟧⟦{発売|はつばい}{日|び}→発売日：10160_hatsubaibi⟧⟦が→が：00051_ga⟧{待|ま}ち{遠|どお}しい。",
       "english": "I'm eagerly awaiting the release date of the new game.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "14726_machidooshii_ex3",
-      "japanese": "{桜|さくら}の{季節|きせつ}が{待|ま}ち{遠|どお}しくて、{毎日|まいにち}{天気|てんき}{予報|よほう}をチェックしている。",
+      "japanese": "⟦{桜|さくら}→桜：02212_sakura⟧⟦の→の：09472_no⟧⟦{季節|きせつ}→季節：01304_kisetsu⟧⟦が→が：00051_ga⟧{待|ま}ち{遠|どお}しくて、⟦{毎日|まいにち}→毎日：00729_mainichi⟧⟦{天気|てんき}{予報|よほう}→天気予報：01678_tenkiyohou⟧⟦を→を：00422_wo⟧⟦チェックしている→チェックする：04916_chekkusuru⟧。",
       "english": "I'm so eager for cherry blossom season that I check the weather forecast every day.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,19 @@
       ]
     }
   ],
-  "notes": "Always used for positive anticipation — never for dreading something. The subject is the thing being awaited, marked by が.\n\nPATTERN: Xが{待|ま}ち{遠|どお}しい (can't wait for X)\n\nCOMMON COLLOCATIONS:\n- {春|はる}が{待|ま}ち{遠|どお}しい (looking forward to spring)\n- {卒業|そつぎょう}が{待|ま}ち{遠|どお}しい (can't wait for graduation)\n- {待|ま}ち{遠|どお}しくてたまらない (so eager one can barely stand it)\n\nUSAGE NOTE: This is a compound adjective from {待|ま}つ (to wait) + {遠|とお}い (far). Despite containing {遠|とお}い, the combined meaning is not about physical distance but emotional anticipation.",
-  "cross_references": [],
+  "notes": "Always used for positive anticipation — never for dreading something. The subject is the thing being awaited, marked by が.\n\nPATTERN: X⟦が→が：00051_ga⟧{待|ま}ち{遠|どお}しい (can't wait for X)\n\nCOMMON COLLOCATIONS:\n- ⟦{春|はる}→春：00627_haru⟧⟦が→が：00051_ga⟧{待|ま}ち{遠|どお}しい (looking forward to spring)\n- ⟦{卒業|そつぎょう}→卒業：01643_sotsugyou⟧⟦が→が：00051_ga⟧{待|ま}ち{遠|どお}しい (can't wait for graduation)\n- {待|ま}ち{遠|どお}しくて⟦たまらない→たまらない：03409_tamaranai⟧ (so eager one can barely stand it)\n\nUSAGE NOTE: This is a compound adjective from ⟦{待|ま}つ→待つ：00469_matsu⟧ (to wait) + ⟦{遠|とお}い→遠い：00529_tooi⟧ (far). Despite containing ⟦{遠|とお}い→遠い：00529_tooi⟧, the combined meaning is not about physical distance but emotional anticipation.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "26825_tanoshiminisuru",
+      "reading": "たのしみにする",
+      "headword": "{楽|たの}しみにする",
+      "label": "to look forward to"
+    }
+  ],
   "metadata": {
     "created": "2026-03-03T09:47:04Z",
-    "modified": "2026-03-03T09:47:04Z",
+    "modified": "2026-09-02T04:01:38Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

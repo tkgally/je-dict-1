@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "15120_youeki_ex1",
-      "japanese": "{食塩|しょくえん}{水|すい}は{溶液|ようえき}の{一種|いっしゅ}だ。",
+      "japanese": "⟦{食塩|しょくえん}→食塩：14675_shokuen⟧{水|すい}⟦は→は：00079_ha⟧{溶液|ようえき}⟦の→の：09472_no⟧⟦{一種|いっしゅ}→一種：01628_isshu⟧だ。",
       "english": "Saltwater is a type of solution.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "15120_youeki_ex2",
-      "japanese": "この{溶液|ようえき}を{十分|じゅうぶん}にかき{混|ま}ぜてください。",
+      "japanese": "⟦この→この：00962_kono⟧{溶液|ようえき}⟦を→を：00422_wo⟧⟦{十分|じゅうぶん}→十分：01614_juubun⟧⟦に→に：00314_ni⟧⟦かき{混|ま}ぜて→かき混ぜる：15739_kakimazeru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please stir this solution thoroughly.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "15120_youeki_ex3",
-      "japanese": "{実験|じっけん}では{濃度|のうど}の{異|こと}なる{溶液|ようえき}を{三|みっ}つ{用意|ようい}した。",
+      "japanese": "⟦{実験|じっけん}→実験：03273_jikken⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{濃度|のうど}→濃度：00325_noudo⟧⟦の→の：09472_no⟧⟦{異|こと}なる→異なる：02101_kotonaru⟧{溶液|ようえき}⟦を→を：00422_wo⟧⟦{三|みっ}つ→三つ：02970_mittsu⟧⟦{用意|ようい}した→用意する：22428_youisuru⟧。",
       "english": "For the experiment, we prepared three solutions of different concentrations.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,19 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{溶液|ようえき} is used in science classes, laboratories, and technical writing. It is the standard term for a chemical solution, distinct from {液体|えきたい} (liquid in general).\n\nCOMMON COLLOCATIONS:\n- {水溶液|すいようえき} (aqueous solution)\n- {溶液|ようえき}の{濃度|のうど} (concentration of a solution)\n- {溶液|ようえき}を{混|ま}ぜる (to mix a solution)\n- アルカリ{溶液|ようえき} (alkaline solution)\n- {酸性|さんせい}{溶液|ようえき} (acidic solution)",
-  "cross_references": [],
+  "notes": "USAGE:\n{溶液|ようえき} is used in science classes, laboratories, and technical writing. It is the standard term for a chemical solution, distinct from ⟦{液体|えきたい}→液体：04134_ekitai⟧ (liquid in general).\n\nCOMMON COLLOCATIONS:\n- {水溶液|すいようえき} (aqueous solution)\n- {溶液|ようえき}⟦の→の：09472_no⟧⟦{濃度|のうど}→濃度：00325_noudo⟧ (concentration of a solution)\n- {溶液|ようえき}⟦を→を：00422_wo⟧⟦{混|ま}ぜる→混ぜる：02423_mazeru⟧ (to mix a solution)\n- ⟦アルカリ→アルカリ：28621_arukari⟧{溶液|ようえき} (alkaline solution)\n- ⟦{酸性|さんせい}→酸性：00454_sansei⟧{溶液|ようえき} (acidic solution)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "22014_youbai",
+      "reading": "ようばい",
+      "headword": "{溶媒|ようばい}",
+      "label": "solvent"
+    }
+  ],
   "metadata": {
     "created": "2026-03-05T07:53:14Z",
-    "modified": "2026-07-15T03:29:10Z",
+    "modified": "2026-09-02T04:01:40Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "16894_fukurahagi_ex1",
-      "japanese": "ふくらはぎがつった。",
+      "japanese": "ふくらはぎ⟦が→が：00051_ga⟧つった。",
       "english": "I got a cramp in my calf.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "16894_fukurahagi_ex2",
-      "japanese": "{走|はし}った{後|あと}はふくらはぎをストレッチする。",
+      "japanese": "⟦{走|はし}った→走る：00519_hashiru⟧⟦{後|あと}→後：09580_ato⟧⟦は→は：00079_ha⟧ふくらはぎ⟦を→を：00422_wo⟧⟦ストレッチ→ストレッチ：05239_sutorecchi⟧⟦する→する：00392_suru⟧。",
       "english": "I stretch my calves after running.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "16894_fukurahagi_ex3",
-      "japanese": "{長時間|ちょうじかん}{座|すわ}っていると、ふくらはぎがむくむことがある。",
+      "japanese": "⟦{長時間|ちょうじかん}→長時間：10165_choujikan⟧⟦{座|すわ}っている→座る：00757_suwaru⟧⟦と→と：00512_to⟧、ふくらはぎ⟦が→が：00051_ga⟧⟦むくむ→むくむ：07354_mukumu⟧こと⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "Sitting for long periods can cause swelling in the calves.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,40 @@
       ]
     }
   ],
-  "notes": "ふくらはぎ refers to the fleshy back part of the lower leg. Always written in hiragana.\n\nETYMOLOGY:\nFrom {膨|ふく}らむ (to swell) + はぎ ({脛|はぎ}, shin/lower leg). Named for the rounded, swelling shape of the calf muscle.\n\nCOMMON COLLOCATIONS:\n- ふくらはぎがつる: to get a calf cramp\n- ふくらはぎの{筋肉|きんにく}: calf muscles\n- ふくらはぎをもむ: to massage the calves\n- ふくらはぎをストレッチする: to stretch the calves\n- ふくらはぎがむくむ: calves become swollen\n\nHEALTH NOTE:\nThe calf is sometimes called the 「{第二|だいに}の{心臓|しんぞう}」 (second heart) in Japanese health discourse, because the calf muscles help pump blood from the legs back to the heart. Calf massage and exercises are commonly recommended for circulation.",
-  "cross_references": [],
+  "notes": "ふくらはぎ refers to the fleshy back part of the lower leg. Always written in hiragana.\n\nETYMOLOGY:\nFrom ⟦{膨|ふく}らむ→膨らむ：05342_fukuramu⟧ (to swell) + はぎ ({脛|はぎ}, shin/lower leg). Named for the rounded, swelling shape of the calf muscle.\n\nCOMMON COLLOCATIONS:\n- ふくらはぎ⟦が→が：00051_ga⟧つる: to get a calf cramp\n- ふくらはぎ⟦の→の：09472_no⟧⟦{筋肉|きんにく}→筋肉：02646_kinniku⟧: calf muscles\n- ふくらはぎ⟦を→を：00422_wo⟧もむ: to massage the calves\n- ふくらはぎ⟦を→を：00422_wo⟧⟦ストレッチ→ストレッチ：05239_sutorecchi⟧⟦する→する：00392_suru⟧: to stretch the calves\n- ふくらはぎ⟦が→が：00051_ga⟧⟦むくむ→むくむ：07354_mukumu⟧: calves become swollen\n\nHEALTH NOTE:\nThe calf is sometimes called the 「{第二|だいに}⟦の→の：09472_no⟧⟦{心臓|しんぞう}→心臓：03262_shinzou⟧」 (second heart) in Japanese health discourse, because the calf muscles help pump blood from the legs back to the heart. Calf massage and exercises are commonly recommended for circulation.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "16733_futomomo",
+      "reading": "ふともも",
+      "headword": "{太|ふと}もも",
+      "label": "thigh"
+    },
+    {
+      "type": "related",
+      "target_id": "19778_sune",
+      "reading": "すね",
+      "headword": "すね",
+      "label": "shin"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26683_komura",
+      "reading": "こむら",
+      "headword": "{腓|こむら}",
+      "label": "calf (of the leg)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28593_hizashita",
+      "reading": "ひざした",
+      "headword": "{膝下|ひざした}",
+      "label": "below the knee"
+    }
+  ],
   "metadata": {
     "created": "2026-03-15T00:18:56Z",
-    "modified": "2026-03-29T07:57:19Z",
+    "modified": "2026-09-02T04:01:46Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

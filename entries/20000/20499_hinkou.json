@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "20499_hinkou_ex1",
-      "japanese": "{品行|ひんこう}{方正|ほうせい}な{人物|じんぶつ}だ。",
+      "japanese": "{品行|ひんこう}{方正|ほうせい}な⟦{人物|じんぶつ}→人物：03356_jinbutsu⟧だ。",
       "english": "He is a person of upright conduct.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "20499_hinkou_ex2",
-      "japanese": "{学生|がくせい}の{品行|ひんこう}に{問題|もんだい}がある。",
+      "japanese": "⟦{学生|がくせい}→学生：00610_gakusei⟧⟦の→の：09472_no⟧{品行|ひんこう}⟦に→に：00314_ni⟧⟦{問題|もんだい}→問題：00797_mondai⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There are problems with the student's conduct.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "20499_hinkou_ex3",
-      "japanese": "{彼|かれ}は{品行|ひんこう}が{悪|わる}いと{評判|ひょうばん}で、{誰|だれ}からも{信用|しんよう}されていない。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{品行|ひんこう}⟦が→が：00051_ga⟧⟦{悪|わる}い→悪い：00908_warui⟧⟦と→と：00512_to⟧⟦{評判|ひょうばん}→評判：03586_hyouban⟧⟦で→で：00502_de⟧、⟦{誰|だれ}→誰：00534_dare⟧⟦から→から：00504_kara⟧⟦も→も：00484_mo⟧⟦{信用|しんよう}→信用：03267_shinyou⟧⟦されていない→する：00392_suru⟧。",
       "english": "He has a reputation for bad conduct and is not trusted by anyone.",
       "sense_numbers": [
         1
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "Refers to a person's moral character and behavior as seen by others. Composed of {品|ひん} (refinement/character) + {行|こう} (conduct/action). Often used in formal evaluations of character.\n\nCOMMON COLLOCATIONS:\n- {品行|ひんこう}{方正|ほうせい}: upright conduct; impeccable behavior\n- {品行|ひんこう}が{良|よ}い: to have good conduct\n- {品行|ひんこう}が{悪|わる}い: to have bad conduct\n- {品行|ひんこう}を{正|ただ}す: to reform one's behavior\n\nSIMILAR WORDS:\n- {行儀|ぎょうぎ}: manners — focuses on etiquette and social politeness, especially of children\n- {行動|こうどう}: behavior, action — neutral and general, describes what someone does rather than their moral character\n- {素行|そこう}: personal conduct — similar meaning but often used in negative contexts (investigations, records)\n- {態度|たいど}: attitude — how someone presents themselves in a situation\n\nUSAGE:\nThe set phrase {品行|ひんこう}{方正|ほうせい} (upright conduct) is one of the most common uses and appears frequently in formal contexts such as character references, school evaluations, and official documents.",
+  "notes": "Refers to a person's moral character and behavior as seen by others. Composed of ⟦{品|ひん}→品：03712_hin⟧ (refinement/character) + {行|こう} (conduct/action). Often used in formal evaluations of character.\n\nCOMMON COLLOCATIONS:\n- {品行|ひんこう}{方正|ほうせい}: upright conduct; impeccable behavior\n- {品行|ひんこう}⟦が→が：00051_ga⟧⟦{良|よ}い→良い：02350_yoi⟧: to have good conduct\n- {品行|ひんこう}⟦が→が：00051_ga⟧⟦{悪|わる}い→悪い：00908_warui⟧: to have bad conduct\n- {品行|ひんこう}⟦を→を：00422_wo⟧⟦{正|ただ}す→正す：10132_tadasu⟧: to reform one's behavior\n\nSIMILAR WORDS:\n- ⟦{行儀|ぎょうぎ}→行儀：02662_gyougi⟧: manners — focuses on etiquette and social politeness, especially of children\n- ⟦{行動|こうどう}→行動：02728_koudou⟧: behavior, action — neutral and general, describes what someone does rather than their moral character\n- ⟦{素行|そこう}→素行：13850_sokou⟧: personal conduct — similar meaning but often used in negative contexts (investigations, records)\n- ⟦{態度|たいど}→態度：03396_taido⟧: attitude — how someone presents themselves in a situation\n\nUSAGE:\nThe set phrase {品行|ひんこう}{方正|ほうせい} (upright conduct) is one of the most common uses and appears frequently in formal contexts such as character references, school evaluations, and official documents.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02662_gyougi",
+      "reading": "ぎょうぎ",
+      "headword": "{行儀|ぎょうぎ}",
+      "label": "manners"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02728_koudou",
+      "reading": "こうどう",
+      "headword": "{行動|こうどう}",
+      "label": "behavior, action"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13850_sokou",
+      "reading": "そこう",
+      "headword": "{素行|そこう}",
+      "label": "personal conduct"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03396_taido",
+      "reading": "たいど",
+      "headword": "{態度|たいど}",
+      "label": "attitude"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +89,6 @@
       ]
     },
     "created": "2026-03-29T16:18:31Z",
-    "modified": "2026-07-28T09:34:52Z"
+    "modified": "2026-09-02T04:01:59Z"
   }
 }

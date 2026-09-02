@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "14482_bouryaku_ex1",
-      "japanese": "{敵|てき}の{謀略|ぼうりゃく}にはまった。",
+      "japanese": "⟦{敵|てき}→敵：03546_teki⟧⟦の→の：09472_no⟧{謀略|ぼうりゃく}⟦に→に：00314_ni⟧はまった。",
       "english": "We fell into the enemy's trap.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "14482_bouryaku_ex2",
-      "japanese": "あの{事件|じけん}は{謀略|ぼうりゃく}だったと{言|い}われている。",
+      "japanese": "⟦あの→あの：00915_ano⟧⟦{事件|じけん}→事件：01568_jiken⟧⟦は→は：00079_ha⟧{謀略|ぼうりゃく}だった⟦と→と：00512_to⟧⟦{言|い}われている→言う：00515_iu⟧。",
       "english": "It is said that the incident was a conspiracy.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "14482_bouryaku_ex3",
-      "japanese": "{権力|けんりょく}{争|あらそ}いの{裏|うら}で、さまざまな{謀略|ぼうりゃく}が{巡|めぐ}らされていた。",
+      "japanese": "⟦{権力|けんりょく}→権力：10020_kenryoku⟧⟦{争|あらそ}い→争い：09992_arasoi⟧⟦の→の：09472_no⟧⟦{裏|うら}→裏：02178_ura⟧で、さまざまな{謀略|ぼうりゃく}⟦が→が：00051_ga⟧⟦{巡|めぐ}らされていた→巡らす：12414_megurasu⟧。",
       "english": "Behind the power struggle, various plots were being hatched.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "A formal word for a secret scheme or conspiracy, typically involving deception. Strongly negative in tone, implying malicious intent.\n\nCOMMON COLLOCATIONS:\n- {謀略|ぼうりゃく}を{巡|めぐ}らす (to devise a plot)\n- {謀略|ぼうりゃく}にはまる (to fall into a conspiracy)\n- {謀略|ぼうりゃく}を{企|たくら}む (to scheme a conspiracy)\n\nSIMILAR WORDS:\n- {陰謀|いんぼう}: conspiracy (broader, includes political intrigue)\n- {策略|さくりゃく}: stratagem (can be neutral or positive)\n- {謀略|ぼうりゃく}: plot (strongly negative, often military or political)",
+  "notes": "A formal word for a secret scheme or conspiracy, typically involving deception. Strongly negative in tone, implying malicious intent.\n\nCOMMON COLLOCATIONS:\n- {謀略|ぼうりゃく}⟦を→を：00422_wo⟧⟦{巡|めぐ}らす→巡らす：12414_megurasu⟧ (to devise a plot)\n- {謀略|ぼうりゃく}⟦に→に：00314_ni⟧はまる (to fall into a conspiracy)\n- {謀略|ぼうりゃく}⟦を→を：00422_wo⟧{企|たくら}む (to scheme a conspiracy)\n\nSIMILAR WORDS:\n- ⟦{陰謀|いんぼう}→陰謀：10887_inbou⟧: conspiracy (broader, includes political intrigue)\n- ⟦{策略|さくりゃく}→策略：13785_sakuryaku⟧: stratagem (can be neutral or positive)\n- {謀略|ぼうりゃく}: plot (strongly negative, often military or political)",
   "cross_references": [
     {
       "type": "synonym",
@@ -52,11 +52,32 @@
       "reading": "いんぼう",
       "headword": "{陰謀|いんぼう}",
       "label": "conspiracy, intrigue"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13785_sakuryaku",
+      "reading": "さくりゃく",
+      "headword": "{策略|さくりゃく}",
+      "label": "stratagem"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22019_jussaku",
+      "reading": "じゅっさく",
+      "headword": "{術策|じゅっさく}",
+      "label": "stratagem"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22967_sakubou",
+      "reading": "さくぼう",
+      "headword": "{策謀|さくぼう}",
+      "label": "plot"
     }
   ],
   "metadata": {
     "created": "2026-03-01T12:05:11Z",
-    "modified": "2026-07-14T01:34:42Z",
+    "modified": "2026-09-02T04:01:37Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

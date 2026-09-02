@@ -20,7 +20,7 @@
   "examples": [
     {
       "id": "28408_youninaru_ex1",
-      "japanese": "{毎日|まいにち}{運動|うんどう}するようになった。",
+      "japanese": "⟦{毎日|まいにち}→毎日：00729_mainichi⟧⟦{運動|うんどう}→運動：00821_undou⟧⟦する→する：00392_suru⟧ようになった。",
       "english": "I've come to exercise every day.",
       "sense_numbers": [
         1
@@ -30,7 +30,7 @@
     },
     {
       "id": "28408_youninaru_ex2",
-      "japanese": "{彼|かれ}は{最近|さいきん}{早起|はやお}きするようになった。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{最近|さいきん}→最近：00881_saikin⟧⟦{早起|はやお}き→早起き：02477_hayaoki⟧⟦する→する：00392_suru⟧ようになった。",
       "english": "He has recently started getting up early.",
       "sense_numbers": [
         1
@@ -40,7 +40,7 @@
     },
     {
       "id": "28408_youninaru_ex3",
-      "japanese": "{結婚|けっこん}してから、{料理|りょうり}をよく{作|つく}るようになった。",
+      "japanese": "⟦{結婚|けっこん}→結婚：02514_kekkon⟧⟦して→する：00392_suru⟧⟦から→から：00504_kara⟧、⟦{料理|りょうり}→料理：01523_ryouri⟧⟦を→を：00422_wo⟧⟦よく→よく：00601_yoku⟧⟦{作|つく}る→作る：00481_tsukuru⟧ようになった。",
       "english": "Since getting married, I've come to cook often.",
       "sense_numbers": [
         1
@@ -50,7 +50,7 @@
     },
     {
       "id": "28408_youninaru_ex4",
-      "japanese": "{漢字|かんじ}が{読|よ}めるようになった。",
+      "japanese": "⟦{漢字|かんじ}→漢字：09480_kanji⟧⟦が→が：00051_ga⟧⟦{読|よ}める→読む：00426_yomu⟧ようになった。",
       "english": "I've become able to read kanji.",
       "sense_numbers": [
         2
@@ -60,7 +60,7 @@
     },
     {
       "id": "28408_youninaru_ex5",
-      "japanese": "{自転車|じてんしゃ}に{乗|の}れるようになった。",
+      "japanese": "⟦{自転車|じてんしゃ}→自転車：00633_jitensha⟧⟦に→に：00314_ni⟧⟦{乗|の}れる→乗る：00511_noru⟧ようになった。",
       "english": "I've become able to ride a bicycle.",
       "sense_numbers": [
         2
@@ -70,7 +70,7 @@
     },
     {
       "id": "28408_youninaru_ex6",
-      "japanese": "{毎日|まいにち}{練習|れんしゅう}したおかげで、ピアノが{弾|ひ}けるようになった。",
+      "japanese": "⟦{毎日|まいにち}→毎日：00729_mainichi⟧⟦{練習|れんしゅう}した→練習する：22991_renshuusuru⟧⟦おかげ→おかげ：01362_okage⟧で、⟦ピアノ→ピアノ：01376_piano⟧⟦が→が：00051_ga⟧⟦{弾|ひ}ける→弾く：02444_hiku⟧ようになった。",
       "english": "Thanks to practicing every day, I've become able to play the piano.",
       "sense_numbers": [
         2
@@ -79,7 +79,7 @@
       "notes": null
     }
   ],
-  "notes": "Combination of ように (in such a way that) + なる (to become). A core grammar pattern for expressing change.\n\nATTACHMENT:\n- Plain present verb → habitual change: {運動|うんどう}するようになる\n- Potential form verb → gained ability: {読|よ}めるようになる\n- Plain negative verb → loss of habit/ability: {読|よ}まないようになる (more often expressed as 〜なくなる)\n\nSIMILAR PATTERNS:\n- 〜ことになる: it's been decided that... — for decisions and outcomes, not gradual change\n- 〜ようにする: to make a point of (doing) — speaker's effort, not natural change\n- 〜なくなる: to stop being able to; to stop (doing) — opposite of ようになる",
+  "notes": "Combination of よう⟦に→に：00314_ni⟧ (in such a way that) + なる (to become). A core grammar pattern for expressing change.\n\nATTACHMENT:\n- Plain present verb → habitual change: ⟦{運動|うんどう}→運動：00821_undou⟧⟦する→する：00392_suru⟧ようになる\n- Potential form verb → gained ability: ⟦{読|よ}める→読む：00426_yomu⟧ようになる\n- Plain negative verb → loss of habit/ability: ⟦{読|よ}まない→読む：00426_yomu⟧ようになる (more often expressed as 〜なくなる)\n\nSIMILAR PATTERNS:\n- 〜こと⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧: it's been decided that... — for decisions and outcomes, not gradual change\n- 〜⟦ようにする→ようにする：10987_younisuru⟧: to make a point of (doing) — speaker's effort, not natural change\n- 〜なくなる: to stop being able to; to stop (doing) — opposite of ようになる",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -88,7 +88,7 @@
         "expression"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "grammatical",
         "change"
@@ -96,6 +96,6 @@
       "domain": []
     },
     "created": "2026-05-30T04:08:44Z",
-    "modified": "2026-08-08T18:34:17Z"
+    "modified": "2026-09-02T04:02:33Z"
   }
 }

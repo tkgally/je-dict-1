@@ -15,41 +15,60 @@
   "examples": [
     {
       "id": "13286_ukiyoe_ex1",
-      "japanese": "{浮世絵|うきよえ}の{展覧会|てんらんかい}に{行|い}った。",
+      "japanese": "{浮世絵|うきよえ}⟦の→の：09472_no⟧⟦{展覧会|てんらんかい}→展覧会：01470_tenrankai⟧⟦に→に：00314_ni⟧⟦{行|い}った→行く：00119_iku⟧。",
       "english": "I went to an ukiyo-e exhibition.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13286_ukiyoe_ex2",
-      "japanese": "{葛飾北斎|かつしかほくさい}は{世界的|せかいてき}に{有名|ゆうめい}な{浮世絵|うきよえ}{師|し}だ。",
+      "japanese": "{葛飾北斎|かつしかほくさい}⟦は→は：00079_ha⟧⟦{世界的|せかいてき}→世界的：20935_sekaiteki⟧⟦に→に：00314_ni⟧⟦{有名|ゆうめい}→有名：01106_yuumei⟧な{浮世絵|うきよえ}{師|し}だ。",
       "english": "Katsushika Hokusai is a world-famous ukiyo-e artist.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13286_ukiyoe_ex3",
-      "japanese": "この{浮世絵|うきよえ}は{江戸時代|えどじだい}の{庶民|しょみん}の{暮|く}らしを{描|えが}いている。",
+      "japanese": "⟦この→この：00962_kono⟧{浮世絵|うきよえ}⟦は→は：00079_ha⟧⟦{江戸時代|えどじだい}→江戸時代：20431_edojidai⟧⟦の→の：09472_no⟧⟦{庶民|しょみん}→庶民：12427_shomin⟧⟦の→の：09472_no⟧⟦{暮|く}らし→暮らし：02670_kurashi⟧⟦を→を：00422_wo⟧⟦{描|えが}いている→描く：02013_egaku⟧。",
       "english": "This ukiyo-e depicts the daily life of common people in the Edo period.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "CULTURE:\nUkiyo-e ({浮世絵|うきよえ}) literally means \"pictures of the floating world,\" referring to the transient pleasures of urban life. The art form reached its peak during the Edo period (1603-1868). Major artists include {葛飾北斎|かつしかほくさい} (known for \"The Great Wave\"), {歌川広重|うたがわひろしげ} (landscapes), and {喜多川歌麿|きたがわうたまろ} (portraits of women). Ukiyo-e had a significant influence on Western Impressionist painters.\n\nCOMMON COLLOCATIONS:\n- {浮世絵|うきよえ}{師|し}: ukiyo-e artist\n- {浮世絵|うきよえ}{版画|はんが}: ukiyo-e woodblock print\n- {浮世絵|うきよえ}の{展覧会|てんらんかい}: ukiyo-e exhibition\n- {浮世絵|うきよえ}を{鑑賞|かんしょう}する: to appreciate ukiyo-e",
-  "cross_references": [],
+  "notes": "CULTURAL NOTE:\nUkiyo-e ({浮世絵|うきよえ}) literally means \"pictures of the floating world,\" referring to the transient pleasures of urban life. The art form reached its peak during the Edo period (1603-1868). Major artists include {葛飾北斎|かつしかほくさい} (known for \"The Great Wave\"), {歌川広重|うたがわひろしげ} (landscapes), and {喜多川歌麿|きたがわうたまろ} (portraits of women). Ukiyo-e had a significant influence on Western Impressionist painters.\n\nCOMMON COLLOCATIONS:\n- {浮世絵|うきよえ}{師|し}: ukiyo-e artist\n- {浮世絵|うきよえ}⟦{版画|はんが}→版画：10582_hanga⟧: ukiyo-e woodblock print\n- {浮世絵|うきよえ}⟦の→の：09472_no⟧⟦{展覧会|てんらんかい}→展覧会：01470_tenrankai⟧: ukiyo-e exhibition\n- {浮世絵|うきよえ}⟦を→を：00422_wo⟧⟦{鑑賞|かんしょう}→鑑賞：14516_kanshou⟧⟦する→する：00392_suru⟧: to appreciate ukiyo-e",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15375_nishikie",
+      "reading": "にしきえ",
+      "headword": "{錦絵|にしきえ}",
+      "label": "color woodblock print"
+    }
+  ],
   "metadata": {
     "created": "2026-02-24T08:53:46Z",
-    "modified": "2026-02-24T08:53:46Z",
+    "modified": "2026-09-02T04:01:32Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["culture", "art"]
+      "semantic": [
+        "culture",
+        "art"
+      ]
     }
   }
 }

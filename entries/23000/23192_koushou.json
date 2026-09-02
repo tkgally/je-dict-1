@@ -15,40 +15,67 @@
   "examples": [
     {
       "id": "23192_koushou_ex1",
-      "japanese": "{腕|うで}のいい{工匠|こうしょう}が{集|あつ}められた。",
+      "japanese": "⟦{腕|うで}→腕：01006_ude⟧⟦の→の：09472_no⟧⟦いい→いい：00118_ii⟧{工匠|こうしょう}⟦が→が：00051_ga⟧⟦{集|あつ}められた→集める：01170_atsumeru⟧。",
       "english": "Skilled artisans were gathered together.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "23192_koushou_ex2",
-      "japanese": "この{寺|てら}は{名|な}のある{工匠|こうしょう}によって{建|た}てられた。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{寺|てら}→寺：01676_tera⟧⟦は→は：00079_ha⟧⟦{名|な}→名：03496_na⟧⟦の→の：09472_no⟧⟦ある→ある：00006_aru⟧{工匠|こうしょう}⟦によって→によって：06801_niyotte⟧⟦{建|た}てられた→建てる：01189_tateru⟧。",
       "english": "This temple was built by a renowned master craftsman.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "23192_koushou_ex3",
-      "japanese": "{中世|ちゅうせい}ヨーロッパの{工匠|こうしょう}たちは{大聖堂|だいせいどう}の{建設|けんせつ}に{一生|いっしょう}を{捧|ささ}げた。",
+      "japanese": "⟦{中世|ちゅうせい}→中世：05524_chuusei⟧⟦ヨーロッパ→ヨーロッパ：00427_yooroppa⟧⟦の→の：09472_no⟧{工匠|こうしょう}たち⟦は→は：00079_ha⟧⟦{大聖堂|だいせいどう}→大聖堂：20731_daiseidou⟧⟦の→の：09472_no⟧⟦{建設|けんせつ}→建設：02708_kensetsu⟧⟦に→に：00314_ni⟧⟦{一生|いっしょう}→一生：01728_isshou⟧⟦を→を：00422_wo⟧⟦{捧|ささ}げた→捧げる：02055_sasageru⟧。",
       "english": "Medieval European artisans devoted their lives to the construction of cathedrals.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {工|こう} (craft, construction) and {匠|しょう} (artisan, master). A more literary and formal word than the everyday {職人|しょくにん}. Often used in historical or elevated contexts to describe builders, sculptors, and other skilled manual workers.\n\nCOMMON COLLOCATIONS:\n- {腕|うで}のいい{工匠|こうしょう}: skilled artisan\n- {名工匠|めいこうしょう}: famous master craftsman\n- {工匠|こうしょう}の{技|わざ}: artisan's skill\n\nSIMILAR WORDS:\n- {職人|しょくにん}: craftsman, artisan — the everyday term; broader and more common\n- {匠|たくみ}: master, artisan — used alone as a more poetic or branding-oriented term\n- {名匠|めいしょう}: master craftsman — emphasizes fame and exceptional skill\n- {大工|だいく}: carpenter — specifically a woodworking tradesperson",
+  "notes": "Composed of {工|こう} (craft, construction) and {匠|しょう} (artisan, master). A more literary and formal word than the everyday ⟦{職人|しょくにん}→職人：09868_shokunin⟧. Often used in historical or elevated contexts to describe builders, sculptors, and other skilled manual workers.\n\nCOMMON COLLOCATIONS:\n- ⟦{腕|うで}→腕：01006_ude⟧⟦の→の：09472_no⟧⟦いい→いい：00118_ii⟧{工匠|こうしょう}: skilled artisan\n- {名工匠|めいこうしょう}: famous master craftsman\n- {工匠|こうしょう}⟦の→の：09472_no⟧⟦{技|わざ}→技：02172_waza⟧: artisan's skill\n\nSIMILAR WORDS:\n- ⟦{職人|しょくにん}→職人：09868_shokunin⟧: craftsman, artisan — the everyday term; broader and more common\n- {匠|たくみ}: master, artisan — used alone as a more poetic or branding-oriented term\n- {名匠|めいしょう}: master craftsman — emphasizes fame and exceptional skill\n- ⟦{大工|だいく}→大工：04051_daiku⟧: carpenter — specifically a woodworking tradesperson",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09868_shokunin",
+      "reading": "しょくにん",
+      "headword": "{職人|しょくにん}",
+      "label": "craftsman, artisan"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04051_daiku",
+      "reading": "だいく",
+      "headword": "{大工|だいく}",
+      "label": "carpenter"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["person", "culture"],
+      "pos": [
+        "noun"
+      ],
+      "semantic": [
+        "person",
+        "culture"
+      ],
       "formality": "formal",
       "politeness": "plain"
     },
     "created": "2026-04-08T21:27:34Z",
-    "modified": "2026-04-08T21:27:34Z"
+    "modified": "2026-09-02T04:02:11Z"
   }
 }

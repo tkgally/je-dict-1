@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "14805_sekkeizu_ex1",
-      "japanese": "{設計図|せっけいず}を{引|ひ}く。",
+      "japanese": "{設計図|せっけいず}⟦を→を：00422_wo⟧⟦{引|ひ}く→引く：01978_hiku⟧。",
       "english": "To draw up blueprints.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14805_sekkeizu_ex2",
-      "japanese": "{建築家|けんちくか}が{新|あたら}しい{家|いえ}の{設計図|せっけいず}を{見|み}せてくれた。",
+      "japanese": "⟦{建築家|けんちくか}→建築家：06082_kenchikuka⟧⟦が→が：00051_ga⟧⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦{家|いえ}→家：00612_ie⟧⟦の→の：09472_no⟧{設計図|せっけいず}⟦を→を：00422_wo⟧⟦{見|み}せて→見せる：01988_miseru⟧⟦くれた→くれる：00724_kureru⟧。",
       "english": "The architect showed us the blueprints for the new house.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14805_sekkeizu_ex3",
-      "japanese": "DNAは{生命|せいめい}の{設計図|せっけいず}と{呼|よ}ばれている。",
+      "japanese": "DNA⟦は→は：00079_ha⟧⟦{生命|せいめい}→生命：03296_seimei⟧⟦の→の：09472_no⟧{設計図|せっけいず}⟦と→と：00512_to⟧⟦{呼|よ}ばれている→呼ぶ：00766_yobu⟧。",
       "english": "DNA is called the blueprint of life.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "Composed of {設計|せっけい} (design, engineering) and {図|ず} (drawing, diagram).\n\nCOMMON COLLOCATIONS:\n- {設計図|せっけいず}を{引|ひ}く (to draw blueprints)\n- {設計図|せっけいず}を{描|えが}く (to draft a design plan)\n- {設計図|せっけいず}{通|どお}りに{作|つく}る (to build according to the blueprints)\n- {人生|じんせい}の{設計図|せっけいず} (blueprint for one's life)\n\nUSAGE NOTE:\nThe figurative use comparing something to a blueprint is common, especially in science ({生命|せいめい}の{設計図|せっけいず} for DNA) and self-help contexts ({人生|じんせい}の{設計図|せっけいず} for a life plan).",
+  "notes": "Composed of ⟦{設計|せっけい}→設計：03300_sekkei⟧ (design, engineering) and ⟦{図|ず}→図：03368_zu⟧ (drawing, diagram).\n\nCOMMON COLLOCATIONS:\n- {設計図|せっけいず}⟦を→を：00422_wo⟧⟦{引|ひ}く→引く：01978_hiku⟧ (to draw blueprints)\n- {設計図|せっけいず}⟦を→を：00422_wo⟧⟦{描|えが}く→描く：02013_egaku⟧ (to draft a design plan)\n- {設計図|せっけいず}{通|どお}り⟦に→に：00314_ni⟧⟦{作|つく}る→作る：00481_tsukuru⟧ (to build according to the blueprints)\n- ⟦{人生|じんせい}→人生：03355_jinsei⟧⟦の→の：09472_no⟧{設計図|せっけいず} (blueprint for one's life)\n\nUSAGE:\nThe figurative use comparing something to a blueprint is common, especially in science (⟦{生命|せいめい}→生命：03296_seimei⟧⟦の→の：09472_no⟧{設計図|せっけいず} for DNA) and self-help contexts (⟦{人生|じんせい}→人生：03355_jinsei⟧⟦の→の：09472_no⟧{設計図|せっけいず} for a life plan).",
   "cross_references": [
     {
       "type": "related",
@@ -60,19 +66,39 @@
       "reading": "だんめんず",
       "headword": "{断面図|だんめんず}",
       "label": "cross-section diagram"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24008_bunkaizu",
+      "reading": "ぶんかいず",
+      "headword": "{分解図|ぶんかいず}",
+      "label": "exploded view"
+    },
+    {
+      "type": "related",
+      "target_id": "26751_kouzouzu",
+      "reading": "こうぞうず",
+      "headword": "{構造図|こうぞうず}",
+      "label": "structural diagram"
     }
   ],
   "metadata": {
     "created": "2026-03-03T12:54:31Z",
-    "modified": "2026-05-01T04:26:51Z",
+    "modified": "2026-09-02T04:01:38Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["technical"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "technical"
+      ]
     }
   }
 }

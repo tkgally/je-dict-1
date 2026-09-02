@@ -15,41 +15,59 @@
   "examples": [
     {
       "id": "13766_ryuu_ex1",
-      "japanese": "{竜|りゅう}の{絵|え}を{描|えが}く。",
+      "japanese": "{竜|りゅう}⟦の→の：09472_no⟧⟦{絵|え}→絵：02613_e⟧⟦を→を：00422_wo⟧⟦{描|えが}く→描く：02013_egaku⟧。",
       "english": "To draw a picture of a dragon.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13766_ryuu_ex2",
-      "japanese": "この{神社|じんじゃ}には{竜|りゅう}の{彫刻|ちょうこく}がある。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{神社|じんじゃ}→神社：01620_jinja⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{竜|りゅう}⟦の→の：09472_no⟧⟦{彫刻|ちょうこく}→彫刻：04448_choukoku⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "This shrine has a dragon carving.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13766_ryuu_ex3",
-      "japanese": "{伝説|でんせつ}によると、{竜|りゅう}は{雲|くも}を{呼|よ}び{雨|あめ}を{降|ふ}らせる{力|ちから}を{持|も}つ。",
+      "japanese": "⟦{伝説|でんせつ}→伝説：11446_densetsu⟧⟦によると→〜によると：03104_niyoruto⟧、{竜|りゅう}⟦は→は：00079_ha⟧⟦{雲|くも}→雲：02202_kumo⟧⟦を→を：00422_wo⟧⟦{呼|よ}び→呼ぶ：00766_yobu⟧⟦{雨|あめ}→雨：00583_ame⟧⟦を→を：00422_wo⟧⟦{降|ふ}らせる→降る：00839_furu⟧⟦{力|ちから}→力：01661_chikara⟧⟦を→を：00422_wo⟧⟦{持|も}つ→持つ：00478_motsu⟧。",
       "english": "According to legend, dragons have the power to summon clouds and bring rain.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "KANJI NOTE:\n{竜|りゅう} is the simplified form (shinjitai). The traditional form is {龍|りゅう}, which is still widely used in names, temples, and decorative contexts. Both are read りゅう.\n\nCOMMON COLLOCATIONS:\n- {竜巻|たつまき}: tornado (literally \"dragon roll\")\n- {恐竜|きょうりゅう}: dinosaur\n- {竜|りゅう}の{落|お}とし{子|ご}: seahorse (literally \"dragon's child\")\n- {登竜門|とうりゅうもん}: gateway to success (from the Chinese legend of carp leaping the Dragon Gate)\n\nCULTURE:\nDragons in Japanese culture are guardians of water and are commonly depicted on temple ceilings, festival floats, and New Year decorations. The {十二支|じゅうにし} (Chinese zodiac) includes {辰|たつ} (dragon) as the fifth sign.",
-  "cross_references": [],
+  "notes": "WRITING:\n{竜|りゅう} is the simplified form (shinjitai). The traditional form is {龍|りゅう}, which is still widely used in names, temples, and decorative contexts. Both are read りゅう.\n\nCOMMON COLLOCATIONS:\n- ⟦{竜巻|たつまき}→竜巻：06359_tatsumaki⟧: tornado (literally \"dragon roll\")\n- ⟦{恐竜|きょうりゅう}→恐竜：10428_kyouryuu⟧: dinosaur\n- {竜|りゅう}の{落|お}とし{子|ご}: seahorse (literally \"dragon's child\")\n- ⟦{登竜門|とうりゅうもん}→登竜門：28090_touryuumon⟧: gateway to success (from the Chinese legend of carp leaping the Dragon Gate)\n\nCULTURAL NOTE:\nDragons in Japanese culture are guardians of water and are commonly depicted on temple ceilings, festival floats, and New Year decorations. The ⟦{十二支|じゅうにし}→十二支：27602_juunishi⟧ (Chinese zodiac) includes {辰|たつ} (dragon) as the fifth sign.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12836_doragon",
+      "reading": "どらごん",
+      "headword": "ドラゴン",
+      "label": "dragon"
+    }
+  ],
   "metadata": {
     "created": "2026-02-27T03:11:14Z",
-    "modified": "2026-02-27T03:11:14Z",
+    "modified": "2026-09-02T04:01:34Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["animal-general"]
+      "semantic": [
+        "animal-general"
+      ]
     }
   }
 }

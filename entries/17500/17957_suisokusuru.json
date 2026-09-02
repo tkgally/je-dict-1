@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "17957_suisokusuru_ex1",
-      "japanese": "{原因|げんいん}を{推測|すいそく}する。",
+      "japanese": "⟦{原因|げんいん}→原因：01400_genin⟧⟦を→を：00422_wo⟧{推測|すいそく}する。",
       "english": "Conjecture the cause.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "17957_suisokusuru_ex2",
-      "japanese": "{彼|かれ}の{行動|こうどう}から{気持|きも}ちを{推測|すいそく}した。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧⟦{行動|こうどう}→行動：02728_koudou⟧⟦から→から：00504_kara⟧{気持|きも}ち⟦を→を：00422_wo⟧{推測|すいそく}した。",
       "english": "I inferred his feelings from his behavior.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "17957_suisokusuru_ex3",
-      "japanese": "{限|かぎ}られたデータから{結果|けっか}を{推測|すいそく}するのは{難|むずか}しいが、やってみよう。",
+      "japanese": "⟦{限|かぎ}られた→限る：02033_kagiru⟧⟦データ→データ：03944_deeta⟧⟦から→から：00504_kara⟧⟦{結果|けっか}→結果：02486_kekka⟧⟦を→を：00422_wo⟧{推測|すいそく}する⟦の→の：09472_no⟧⟦は→は：00079_ha⟧⟦{難|むずか}しい→難しい：00517_muzukashii⟧⟦が→が：00051_ga⟧、⟦やって→やる：02980_yaru⟧みよう。",
       "english": "It's difficult to surmise the results from limited data, but let's try.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA relatively formal word used in analytical, investigative, or academic contexts. Often used when drawing conclusions from indirect evidence.\n\nCOMMON COLLOCATIONS:\n- {原因|げんいん}を{推測|すいそく}する (surmise the cause)\n- {推測|すいそく}にすぎない (merely a guess)\n- {推測|すいそく}の{域|いき}を{出|で}ない (not go beyond conjecture)\n- {推測|すいそく}が{当|あ}たる (one's guess is correct)\n\nSIMILAR WORDS:\n- {推定|すいてい}する: to presume — more authoritative; used when establishing something as likely true, often in legal or scientific contexts\n- {憶測|おくそく}する: to speculate — implies guessing without solid evidence, often with negative connotation\n- {予測|よそく}する: to predict — focuses on forecasting future events",
+  "notes": "USAGE:\nA relatively formal word used in analytical, investigative, or academic contexts. Often used when drawing conclusions from indirect evidence.\n\nCOMMON COLLOCATIONS:\n- ⟦{原因|げんいん}→原因：01400_genin⟧⟦を→を：00422_wo⟧{推測|すいそく}する (surmise the cause)\n- ⟦{推測|すいそく}→推測：12821_suisoku⟧⟦に→に：00314_ni⟧すぎない (merely a guess)\n- ⟦{推測|すいそく}→推測：12821_suisoku⟧⟦の→の：09472_no⟧{域|いき}⟦を→を：00422_wo⟧⟦{出|で}ない→出る：00513_deru⟧ (not go beyond conjecture)\n- ⟦{推測|すいそく}→推測：12821_suisoku⟧⟦が→が：00051_ga⟧⟦{当|あ}たる→当たる：01860_ataru⟧ (one's guess is correct)\n\nSIMILAR WORDS:\n- ⟦{推定|すいてい}→推定：04293_suitei⟧⟦する→する：00392_suru⟧: to presume — more authoritative; used when establishing something as likely true, often in legal or scientific contexts\n- ⟦{憶測|おくそく}→憶測：16398_okusoku⟧⟦する→する：00392_suru⟧: to speculate — implies guessing without solid evidence, often with negative connotation\n- ⟦{予測|よそく}する→予測する：19654_yosokusuru⟧: to predict — focuses on forecasting future events",
   "cross_references": [
     {
       "type": "synonym",
@@ -142,11 +142,53 @@
       "reading": "すいてい",
       "headword": "{推定|すいてい}",
       "label": "presumption (authoritative)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16398_okusoku",
+      "reading": "おくそく",
+      "headword": "{憶測|おくそく}",
+      "label": "to speculate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19654_yosokusuru",
+      "reading": "よそくする",
+      "headword": "{予測|よそく}する",
+      "label": "to predict"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21920_suiryousuru",
+      "reading": "すいりょうする",
+      "headword": "{推量|すいりょう}する",
+      "label": "to conjecture"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22516_oshihakaru",
+      "reading": "おしはかる",
+      "headword": "{推|お}し{量|はか}る",
+      "label": "to guess"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25242_suisatsusuru",
+      "reading": "すいさつする",
+      "headword": "{推察|すいさつ}する",
+      "label": "to surmise"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26848_suirisuru",
+      "reading": "すいりする",
+      "headword": "{推理|すいり}する",
+      "label": "to reason"
     }
   ],
   "metadata": {
     "created": "2026-03-19T10:00:32Z",
-    "modified": "2026-05-07T10:07:56Z",
+    "modified": "2026-09-02T04:01:50Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

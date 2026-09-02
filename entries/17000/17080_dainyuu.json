@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "17080_dainyuu_ex1",
-      "japanese": "{変数|へんすう}に{値|あたい}を{代入|だいにゅう}する。",
+      "japanese": "⟦{変数|へんすう}→変数：04798_hensuu⟧⟦に→に：00314_ni⟧⟦{値|あたい}→値：21704_atai⟧⟦を→を：00422_wo⟧{代入|だいにゅう}⟦する→する：00392_suru⟧。",
       "english": "To assign a value to a variable.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "17080_dainyuu_ex2",
-      "japanese": "xに3を{代入|だいにゅう}すると、{答|こた}えは10になる。",
+      "japanese": "x⟦に→に：00314_ni⟧3⟦を→を：00422_wo⟧{代入|だいにゅう}⟦する→する：00392_suru⟧⟦と→と：00512_to⟧、⟦{答|こた}え→答え：00790_kotae⟧⟦は→は：00079_ha⟧10⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧。",
       "english": "If you substitute 3 for x, the answer is 10.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "17080_dainyuu_ex3",
-      "japanese": "この{代入|だいにゅう}{演算子|えんざんし}は、{右辺|うへん}の{値|あたい}を{左辺|さへん}の{変数|へんすう}に{格納|かくのう}する。",
+      "japanese": "⟦この→この：00962_kono⟧{代入|だいにゅう}⟦{演算子|えんざんし}→演算子：23586_enzanshi⟧⟦は→は：00079_ha⟧、{右辺|うへん}⟦の→の：09472_no⟧⟦{値|あたい}→値：21704_atai⟧⟦を→を：00422_wo⟧{左辺|さへん}⟦の→の：09472_no⟧⟦{変数|へんすう}→変数：04798_hensuu⟧⟦に→に：00314_ni⟧{格納|かくのう}⟦する→する：00392_suru⟧。",
       "english": "This assignment operator stores the value on the right side into the variable on the left side.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,11 @@
       ]
     }
   ],
-  "notes": "USAGE:\nUsed in both mathematics and programming. In math, it means plugging a value into an equation. In programming, it means assigning a value to a variable using operators like = or :=.\n\nCOMMON COLLOCATIONS:\n- {代入|だいにゅう}する (to substitute; to assign)\n- {代入|だいにゅう}{演算子|えんざんし} (assignment operator)\n- {値|あたい}を{代入|だいにゅう}する (to assign a value)\n- {代入|だいにゅう}{式|しき} (assignment expression)",
+  "notes": "USAGE:\nUsed in both mathematics and programming. In math, it means plugging a value into an equation. In programming, it means assigning a value to a variable using operators like = or :=.\n\nCOMMON COLLOCATIONS:\n- {代入|だいにゅう}⟦する→する：00392_suru⟧ (to substitute; to assign)\n- {代入|だいにゅう}⟦{演算子|えんざんし}→演算子：23586_enzanshi⟧ (assignment operator)\n- ⟦{値|あたい}→値：21704_atai⟧⟦を→を：00422_wo⟧{代入|だいにゅう}⟦する→する：00392_suru⟧ (to assign a value)\n- {代入|だいにゅう}{式|しき} (assignment expression)",
   "cross_references": [],
   "metadata": {
     "created": "2026-03-15T09:52:56Z",
-    "modified": "2026-03-29T03:08:43Z",
+    "modified": "2026-09-02T04:01:47Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -154,7 +154,8 @@
       "domain": [
         "technical"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

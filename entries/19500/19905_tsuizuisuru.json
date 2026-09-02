@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "19905_tsuizuisuru_ex1",
-      "japanese": "{他社|たしゃ}に{追随|ついずい}する。",
+      "japanese": "⟦{他社|たしゃ}→他社：17803_tasha⟧⟦に→に：00314_ni⟧{追随|ついずい}する。",
       "english": "To follow other companies' lead.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "19905_tsuizuisuru_ex2",
-      "japanese": "{業界|ぎょうかい}トップに{追随|ついずい}するのは{簡単|かんたん}ではない。",
+      "japanese": "⟦{業界|ぎょうかい}→業界：13129_gyoukai⟧⟦トップ→トップ：03862_toppu⟧⟦に→に：00314_ni⟧{追随|ついずい}する⟦の→の：09472_no⟧⟦は→は：00079_ha⟧⟦{簡単|かんたん}→簡単：00713_kantan⟧で⟦は→は：00079_ha⟧⟦ない→ない：01118_nai⟧。",
       "english": "It's not easy to keep pace with the industry leader.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "19905_tsuizuisuru_ex3",
-      "japanese": "{彼|かれ}の{技術|ぎじゅつ}は{他|ほか}の{追随|ついずい}を{許|ゆる}さないレベルだ。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧⟦{技術|ぎじゅつ}→技術：01389_gijutsu⟧⟦は→は：00079_ha⟧⟦{他|ほか}→他：04129_hoka⟧⟦の→の：09472_no⟧{追随|ついずい}⟦を→を：00422_wo⟧⟦{許|ゆる}さない→許す：02325_yurusu⟧⟦レベル→レベル：00352_reberu⟧だ。",
       "english": "His skill is at a level that no one else can match.",
       "notes": null,
       "has_audio": false,
@@ -133,11 +133,33 @@
       ]
     }
   ],
-  "notes": "A formal word often found in news, business writing, and commentary. It implies following a leader or trendsetter, sometimes with a negative connotation of merely copying rather than innovating.\n\nCOMMON COLLOCATIONS:\n- {追随|ついずい}を{許|ゆる}さない: to be unmatched, beyond comparison\n- {追随|ついずい}する{企業|きぎょう}: companies that follow suit\n- {米国|べいこく}に{追随|ついずい}する: to follow America's lead\n- {盲目的|もうもくてき}に{追随|ついずい}する: to follow blindly\n\nUSAGE:\nThe expression {追随|ついずい}を{許|ゆる}さない is an important set phrase meaning 'unrivaled' or 'in a class of one's own.'\n\nSIMILAR WORDS:\n- {追従|ついじゅう}する: to follow obsequiously — more negative; implies servile compliance\n- {模倣|もほう}する: to imitate — focuses on copying the form rather than following the path\n- {後|あと}を{追|お}う: to follow after — more literal and less formal",
-  "cross_references": [],
+  "notes": "A formal word often found in news, business writing, and commentary. It implies following a leader or trendsetter, sometimes with a negative connotation of merely copying rather than innovating.\n\nCOMMON COLLOCATIONS:\n- {追随|ついずい}⟦を→を：00422_wo⟧⟦{許|ゆる}さない→許す：02325_yurusu⟧: to be unmatched, beyond comparison\n- {追随|ついずい}する⟦{企業|きぎょう}→企業：00225_kigyou⟧: companies that follow suit\n- ⟦{米国|べいこく}→米国：19596_beikoku⟧⟦に→に：00314_ni⟧{追随|ついずい}する: to follow America's lead\n- {盲目的|もうもくてき}⟦に→に：00314_ni⟧{追随|ついずい}する: to follow blindly\n\nUSAGE:\nThe expression {追随|ついずい}⟦を→を：00422_wo⟧⟦{許|ゆる}さない→許す：02325_yurusu⟧ is an important set phrase meaning 'unrivaled' or 'in a class of one's own.'\n\nSIMILAR WORDS:\n- ⟦{追従|ついじゅう}→追従：18782_tsuijuu⟧⟦する→する：00392_suru⟧: to follow obsequiously — more negative; implies servile compliance\n- ⟦{模倣|もほう}する→模倣する：25364_mohousuru⟧: to imitate — focuses on copying the form rather than following the path\n- ⟦{後|あと}を{追|お}う→後を追う：21389_atowoou⟧: to follow after — more literal and less formal",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18782_tsuijuu",
+      "reading": "ついじゅう",
+      "headword": "{追従|ついじゅう}",
+      "label": "to follow obsequiously"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25364_mohousuru",
+      "reading": "もほうする",
+      "headword": "{模倣|もほう}する",
+      "label": "to imitate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21389_atowoou",
+      "reading": "あとをおう",
+      "headword": "{後|あと}を{追|お}う",
+      "label": "to follow after"
+    }
+  ],
   "metadata": {
     "created": "2026-03-27T05:33:48Z",
-    "modified": "2026-03-29T03:08:58Z",
+    "modified": "2026-09-02T04:01:57Z",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
     "tags": {

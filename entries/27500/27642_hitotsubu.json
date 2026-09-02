@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "27642_hitotsubu_ex1",
-      "japanese": "{薬|くすり}を{一粒|ひとつぶ}{飲|の}んだ。",
+      "japanese": "⟦{薬|くすり}→薬：00793_kusuri⟧⟦を→を：00422_wo⟧{一粒|ひとつぶ}⟦{飲|の}んだ→飲む：00322_nomu⟧。",
       "english": "I took one pill.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "27642_hitotsubu_ex2",
-      "japanese": "{涙|なみだ}が{一粒|ひとつぶ}{頬|ほお}を{伝|つた}った。",
+      "japanese": "⟦{涙|なみだ}→涙：02235_namida⟧⟦が→が：00051_ga⟧{一粒|ひとつぶ}⟦{頬|ほお}→頬：03717_hoo⟧⟦を→を：00422_wo⟧⟦{伝|つた}った→伝う：28247_tsutau⟧。",
       "english": "A single tear ran down her cheek.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "27642_hitotsubu_ex3",
-      "japanese": "{大切|たいせつ}に{育|そだ}てた{米|こめ}は、{一粒|ひとつぶ}も{無駄|むだ}にしたくない。",
+      "japanese": "⟦{大切|たいせつ}→大切：01456_taisetsu⟧⟦に→に：00314_ni⟧⟦{育|そだ}てた→育てる：01235_sodateru⟧⟦{米|こめ}→米：01323_kome⟧⟦は→は：00079_ha⟧、{一粒|ひとつぶ}⟦も→も：00484_mo⟧⟦{無駄|むだ}→無駄：02512_muda⟧にしたく⟦ない→ない：01118_nai⟧。",
       "english": "I don't want to waste even a single grain of the carefully cultivated rice.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "{一|ひと} (one) + {粒|つぶ} (grain, drop, particle). The counter {粒|つぶ} applies to small, roundish items.\n\nCOUNTING WITH {粒|つぶ}:\n- {一粒|ひとつぶ}: one grain\n- {二粒|ふたつぶ}: two grains\n- {三粒|みつぶ}: three grains\n- {何粒|なんつぶ}: how many grains\n\nTYPICAL USES:\n- {米|こめ}{一粒|ひとつぶ}: a grain of rice\n- {薬|くすり}{一粒|ひとつぶ}: one pill, one tablet\n- {雨粒|あまつぶ}{一粒|ひとつぶ}: a single raindrop\n- {真珠|しんじゅ}{一粒|ひとつぶ}: a single pearl\n- ぶどう{一粒|ひとつぶ}: a single grape (one berry from a bunch)\n\nFIGURATIVE: {一粒|ひとつぶ}も {無駄|むだ}にしない ('not waste a single grain') is a common expression about cherishing every bit.\n\nSIMILAR COUNTERS:\n- {一房|ひとふさ}: a cluster — used for the whole bunch that contains many {粒|つぶ}\n- {一滴|いってき}: a drop — specifically for liquid",
+  "notes": "{一|ひと} (one) + ⟦{粒|つぶ}→粒：03892_tsubu⟧ (grain, drop, particle). The counter ⟦{粒|つぶ}→粒：03892_tsubu⟧ applies to small, roundish items.\n\nCOUNTING WITH {粒|つぶ}:\n- {一粒|ひとつぶ}: one grain\n- {二粒|ふたつぶ}: two grains\n- {三粒|みつぶ}: three grains\n- {何粒|なんつぶ}: how many grains\n\nTYPICAL USES:\n- {米|こめ}{一粒|ひとつぶ}: a grain of rice\n- ⟦{薬|くすり}→薬：00793_kusuri⟧{一粒|ひとつぶ}: one pill, one tablet\n- ⟦{雨粒|あまつぶ}→雨粒：20328_amatsubu⟧{一粒|ひとつぶ}: a single raindrop\n- ⟦{真珠|しんじゅ}→真珠：19873_shinju⟧{一粒|ひとつぶ}: a single pearl\n- ぶどう{一粒|ひとつぶ}: a single grape (one berry from a bunch)\n\nFIGURATIVE: {一粒|ひとつぶ}⟦も→も：00484_mo⟧ ⟦{無駄|むだ}→無駄：02512_muda⟧にしない ('not waste a single grain') is a common expression about cherishing every bit.\n\nSIMILAR WORDS:\n- ⟦{一房|ひとふさ}→一房：27641_hitofusa⟧: a cluster — used for the whole bunch that contains many ⟦{粒|つぶ}→粒：03892_tsubu⟧\n- ⟦{一滴|いってき}→一滴：08893_itteki⟧: a drop — specifically for liquid",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "27641_hitofusa",
+      "reading": "ひとふさ",
+      "headword": "{一房|ひとふさ}",
+      "label": "a cluster"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08893_itteki",
+      "reading": "いってき",
+      "headword": "{一滴|いってき}",
+      "label": "a drop"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +69,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "quantity"
       ],
       "domain": []
     },
     "created": "2026-05-15T04:12:19Z",
-    "modified": "2026-08-07T16:10:18Z"
+    "modified": "2026-09-02T04:02:31Z"
   }
 }

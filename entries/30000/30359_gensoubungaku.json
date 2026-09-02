@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30359_gensoubungaku_ex1",
-      "japanese": "{幻想文学|げんそうぶんがく}が{好|す}きだ。",
+      "japanese": "{幻想文学|げんそうぶんがく}⟦が→が：00051_ga⟧⟦{好|す}き→好き：02355_suki⟧だ。",
       "english": "I like fantasy literature.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30359_gensoubungaku_ex2",
-      "japanese": "{大学|だいがく}で{幻想文学|げんそうぶんがく}を{研究|けんきゅう}している。",
+      "japanese": "⟦{大学|だいがく}→大学：00608_daigaku⟧⟦で→で：00502_de⟧{幻想文学|げんそうぶんがく}⟦を→を：00422_wo⟧⟦{研究|けんきゅう}→研究：01396_kenkyuu⟧⟦している→する：00392_suru⟧。",
       "english": "I am researching fantasy literature at university.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30359_gensoubungaku_ex3",
-      "japanese": "この{作家|さっか}は{幻想文学|げんそうぶんがく}の{代表的|だいひょうてき}な{存在|そんざい}とされている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{作家|さっか}→作家：01414_sakka⟧⟦は→は：00079_ha⟧{幻想文学|げんそうぶんがく}⟦の→の：09472_no⟧⟦{代表的|だいひょうてき}→代表的：05670_daihyouteki⟧な⟦{存在|そんざい}→存在：03326_sonzai⟧⟦と→と：00512_to⟧⟦されている→する：00392_suru⟧。",
       "english": "This writer is regarded as a leading figure in fantasy literature.",
       "sense_numbers": [
         1
@@ -45,7 +45,7 @@
     },
     {
       "id": "30359_gensoubungaku_ex4",
-      "japanese": "{幻想文学|げんそうぶんがく}と{呼|よ}ばれる{作品|さくひん}には、{現実|げんじつ}と{夢|ゆめ}の{境界|きょうかい}が{曖昧|あいまい}なものが{多|おお}い。",
+      "japanese": "{幻想文学|げんそうぶんがく}⟦と→と：00512_to⟧⟦{呼|よ}ばれる→呼ぶ：00766_yobu⟧⟦{作品|さくひん}→作品：02776_sakuhin⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧、⟦{現実|げんじつ}→現実：02720_genjitsu⟧⟦と→と：00512_to⟧⟦{夢|ゆめ}→夢：01519_yume⟧⟦の→の：09472_no⟧⟦{境界|きょうかい}→境界：12096_kyoukai⟧⟦が→が：00051_ga⟧⟦{曖昧|あいまい}→曖昧：08051_aimai⟧なもの⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "Many works called fantasy literature blur the boundary between reality and dreams.",
       "sense_numbers": [
         1
@@ -54,7 +54,7 @@
       "notes": null
     }
   ],
-  "notes": "Formed from {幻想|げんそう} (fantasy, illusion) + {文学|ぶんがく} (literature). Used mainly in criticism and academic writing; casual conversation about the genre usually says ファンタジー instead.\n\nCOMMON COLLOCATIONS:\n- {幻想文学|げんそうぶんがく}の{作家|さっか}: a writer of fantasy literature\n- {幻想文学|げんそうぶんがく}{全集|ぜんしゅう}: a collected edition of fantasy literature\n- {日本|にほん}の{幻想文学|げんそうぶんがく}: Japanese fantasy literature\n\nSIMILAR WORDS:\n- ファンタジー: fantasy — the everyday word, especially for films, games, and popular novels\n- {怪奇小説|かいきしょうせつ}: weird or gothic fiction — emphasizes horror and the uncanny\n- SF: science fiction — extrapolates from science rather than the supernatural",
+  "notes": "Formed from ⟦{幻想|げんそう}→幻想：06753_gensou⟧ (fantasy, illusion) + ⟦{文学|ぶんがく}→文学：01505_bungaku⟧ (literature). Used mainly in criticism and academic writing; casual conversation about the genre usually says ⟦ファンタジー→ファンタジー：11701_fantajii⟧ instead.\n\nCOMMON COLLOCATIONS:\n- {幻想文学|げんそうぶんがく}⟦の→の：09472_no⟧⟦{作家|さっか}→作家：01414_sakka⟧: a writer of fantasy literature\n- {幻想文学|げんそうぶんがく}⟦{全集|ぜんしゅう}→全集：11783_zenshuu⟧: a collected edition of fantasy literature\n- ⟦{日本|にほん}→日本：03876_nihon⟧⟦の→の：09472_no⟧{幻想文学|げんそうぶんがく}: Japanese fantasy literature\n\nSIMILAR WORDS:\n- ⟦ファンタジー→ファンタジー：11701_fantajii⟧: fantasy — the everyday word, especially for films, games, and popular novels\n- {怪奇小説|かいきしょうせつ}: weird or gothic fiction — emphasizes horror and the uncanny\n- SF: science fiction — extrapolates from science rather than the supernatural",
   "cross_references": [
     {
       "type": "related",
@@ -65,6 +65,13 @@
       "type": "related",
       "reading": "ぶんがく",
       "headword": "{文学|ぶんがく}"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11701_fantajii",
+      "reading": "ふぁんたじー",
+      "headword": "ファンタジー",
+      "label": "fantasy"
     }
   ],
   "schema_version": "2.0",
@@ -75,7 +82,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "language",
         "art"
@@ -85,6 +92,6 @@
       ]
     },
     "created": "2026-08-03T18:19:22Z",
-    "modified": "2026-08-03T18:19:22Z"
+    "modified": "2026-09-02T04:02:39Z"
   }
 }

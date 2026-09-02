@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "07981_ichiganrefu_ex1",
-      "japanese": "{一眼|いちがん}レフを{買|か}った。",
+      "japanese": "{一眼|いちがん}レフ⟦を→を：00422_wo⟧⟦{買|か}った→買う：00489_kau⟧。",
       "english": "I bought an SLR camera.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "07981_ichiganrefu_ex2",
-      "japanese": "{一眼|いちがん}レフは{初心者|しょしんしゃ}には{難|むずか}しい。",
+      "japanese": "{一眼|いちがん}レフ⟦は→は：00079_ha⟧⟦{初心者|しょしんしゃ}→初心者：10149_shoshinsha⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{難|むずか}しい→難しい：00517_muzukashii⟧。",
       "english": "SLR cameras are difficult for beginners.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "07981_ichiganrefu_ex3",
-      "japanese": "プロの{写真家|しゃしんか}は{一眼|いちがん}レフを{使|つか}うことが{多|おお}い。",
+      "japanese": "⟦プロ→プロ：03871_puro⟧⟦の→の：09472_no⟧⟦{写真家|しゃしんか}→写真家：05501_shashinka⟧⟦は→は：00079_ha⟧{一眼|いちがん}レフ⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧こと⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "Professional photographers often use SLR cameras.",
       "sense_numbers": [
         1
@@ -43,7 +43,30 @@
       "notes": null
     }
   ],
-  "notes": "{一眼|いちがん}レフ is the Japanese term for SLR (single-lens reflex) camera, a popular type among photography enthusiasts.\n\nETYMOLOGY:\n- {一眼|いちがん} (single lens/eye)\n- レフ (reflex, from German \"Reflex\")\n- Full term: {一眼|いちがん}レフレックスカメラ\n\nTYPES:\n- {一眼|いちがん}レフ / SLR (traditional with mirror)\n- ミラーレス{一眼|いちがん} (mirrorless) - newer technology\n- デジタル{一眼|いちがん}レフ / DSLR (digital SLR)\n\nFEATURES:\n- {交換|こうかん}{式|しき}レンズ (interchangeable lenses)\n- {光学|こうがく}ファインダー (optical viewfinder)\n- Larger sensors than compact cameras\n\nCOMMON BRANDS IN JAPAN:\n- キヤノン (Canon)\n- ニコン (Nikon)\n- ソニー (Sony)\n\nCOLLOCATIONS:\n- {一眼|いちがん}レフで{撮|と}る (to shoot with an SLR)\n- {一眼|いちがん}レフ{用|よう}のレンズ (lens for SLR)\n\nRELATED TERMS:\n- コンパクトカメラ (compact camera)\n- ミラーレス (mirrorless camera)\n- {露出|ろしゅつ} (exposure)",
+  "notes": "{一眼|いちがん}レフ is the Japanese term for SLR (single-lens reflex) camera, a popular type among photography enthusiasts.\n\nETYMOLOGY:\n- ⟦{一眼|いちがん}→一眼：08955_ichigan⟧ (single lens/eye)\n- レフ (reflex, from German \"Reflex\")\n- Full term: {一眼|いちがん}レフレックスカメラ\n\nTYPES:\n- {一眼|いちがん}レフ / SLR (traditional with mirror)\n- ⟦ミラーレス→ミラーレス：24424_miraaresu⟧⟦{一眼|いちがん}→一眼：08955_ichigan⟧ (mirrorless) - newer technology\n- ⟦デジタル→デジタル：05870_dejitaru⟧{一眼|いちがん}レフ / DSLR (digital SLR)\n\nFEATURES:\n- ⟦{交換|こうかん}→交換：02746_koukan⟧{式|しき}⟦レンズ→レンズ：07808_renzu⟧ (interchangeable lenses)\n- {光学|こうがく}ファインダー (optical viewfinder)\n- Larger sensors than compact cameras\n\nCOMMON BRANDS IN JAPAN:\n- キヤノン (Canon)\n- ニコン (Nikon)\n- ソニー (Sony)\n\nCOMMON COLLOCATIONS:\n- {一眼|いちがん}レフ⟦で→で：00502_de⟧⟦{撮|と}る→撮る：00760_toru⟧ (to shoot with an SLR)\n- {一眼|いちがん}レフ⟦{用|よう}→〜用：09842_you⟧⟦の→の：09472_no⟧⟦レンズ→レンズ：07808_renzu⟧ (lens for SLR)\n\nRELATED WORDS:\n- ⟦コンパクト→コンパクト：10862_konpakuto⟧⟦カメラ→カメラ：04417_kamera⟧ (compact camera)\n- ⟦ミラーレス→ミラーレス：24424_miraaresu⟧ (mirrorless camera)\n- ⟦{露出|ろしゅつ}→露出：08077_roshutsu⟧ (exposure)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "24424_miraaresu",
+      "reading": "みらーれす",
+      "headword": "ミラーレス",
+      "label": "mirrorless camera"
+    },
+    {
+      "type": "related",
+      "target_id": "08077_roshutsu",
+      "reading": "ろしゅつ",
+      "headword": "{露出|ろしゅつ}",
+      "label": "exposure"
+    },
+    {
+      "type": "related",
+      "target_id": "26680_ichigankamera",
+      "reading": "いちがんかめら",
+      "headword": "{一眼|いちがん}カメラ",
+      "label": "single-lens camera"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -58,6 +81,6 @@
       ]
     },
     "created": "2026-01-23T10:51:54Z",
-    "modified": "2026-08-11T09:37:41Z"
+    "modified": "2026-09-02T04:01:13Z"
   }
 }

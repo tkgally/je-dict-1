@@ -15,39 +15,60 @@
   "examples": [
     {
       "id": "26113_senmonshoku_ex1",
-      "japanese": "{彼女|かのじょ}は{専門職|せんもんしょく}として{働|はたら}いている。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧{専門職|せんもんしょく}⟦として→として：06802_toshite⟧⟦{働|はたら}いている→働く：00503_hataraku⟧。",
       "english": "She works as a professional.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26113_senmonshoku_ex2",
-      "japanese": "{専門職|せんもんしょく}に{就|つ}くには{資格|しかく}が{必要|ひつよう}な{場合|ばあい}が{多|おお}い。",
+      "japanese": "{専門職|せんもんしょく}⟦に→に：00314_ni⟧⟦{就|つ}く→就く：10123_tsuku⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{資格|しかく}→資格：02834_shikaku⟧⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧な⟦{場合|ばあい}→場合：01704_baai⟧⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "Qualifications are often required to enter a professional occupation.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26113_senmonshoku_ex3",
-      "japanese": "{医師|いし}や{弁護士|べんごし}などの{専門職|せんもんしょく}は{社会的|しゃかいてき}な{信頼|しんらい}が{高|たか}い。",
+      "japanese": "⟦{医師|いし}→医師：11851_ishi⟧や⟦{弁護士|べんごし}→弁護士：03150_bengoshi⟧⟦など→〜など：03095_nado⟧⟦の→の：09472_no⟧{専門職|せんもんしょく}⟦は→は：00079_ha⟧⟦{社会的|しゃかいてき}→社会的：04791_shakaiteki⟧な⟦{信頼|しんらい}→信頼：03268_shinrai⟧⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧。",
       "english": "Professional occupations such as doctors and lawyers enjoy high social trust.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {専門|せんもん} (specialty; specialization) and {職|しょく} (occupation; job). Refers to careers that demand advanced education, specialized training, or professional certification. In Japanese labor classification, {専門職|せんもんしょく} is a distinct category from {総合職|そうごうしょく} (general career track) and {一般職|いっぱんしょく} (clerical track).\n\nCOMMON COLLOCATIONS:\n- {専門職|せんもんしょく}に{就|つ}く: to enter a professional occupation\n- {専門職|せんもんしょく}{大学院|だいがくいん}: professional graduate school\n- {高度|こうど}{専門職|せんもんしょく}: highly specialized profession\n- {専門職|せんもんしょく}{学位|がくい}: professional degree\n\nSIMILAR WORDS:\n- {専門家|せんもんか}: specialist; expert — refers to the person, not the job category\n- {技術職|ぎじゅつしょく}: technical position — specifically about engineering or technical work\n- {総合職|そうごうしょく}: general career track — the management track in Japanese companies, contrasted with {専門職|せんもんしょく}",
-  "cross_references": [],
+  "notes": "A compound of ⟦{専門|せんもん}→専門：01251_senmon⟧ (specialty; specialization) and ⟦{職|しょく}→職：00376_shoku⟧ (occupation; job). Refers to careers that demand advanced education, specialized training, or professional certification. In Japanese labor classification, {専門職|せんもんしょく} is a distinct category from {総合職|そうごうしょく} (general career track) and {一般職|いっぱんしょく} (clerical track).\n\nCOMMON COLLOCATIONS:\n- {専門職|せんもんしょく}⟦に→に：00314_ni⟧⟦{就|つ}く→就く：10123_tsuku⟧: to enter a professional occupation\n- {専門職|せんもんしょく}⟦{大学院|だいがくいん}→大学院：04783_daigakuin⟧: professional graduate school\n- ⟦{高度|こうど}→高度：00243_koudo⟧{専門職|せんもんしょく}: highly specialized profession\n- {専門職|せんもんしょく}⟦{学位|がくい}→学位：10196_gakui⟧: professional degree\n\nSIMILAR WORDS:\n- ⟦{専門家|せんもんか}→専門家：03088_senmonka⟧: specialist; expert — refers to the person, not the job category\n- {技術職|ぎじゅつしょく}: technical position — specifically about engineering or technical work\n- {総合職|そうごうしょく}: general career track — the management track in Japanese companies, contrasted with {専門職|せんもんしょく}",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03088_senmonka",
+      "reading": "せんもんか",
+      "headword": "{専門家|せんもんか}",
+      "label": "specialist"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["occupation", "business"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "occupation",
+        "business"
+      ]
     },
     "created": "2026-04-29T13:39:43Z",
-    "modified": "2026-04-29T13:39:43Z"
+    "modified": "2026-09-02T04:02:25Z"
   }
 }

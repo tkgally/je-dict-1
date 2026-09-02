@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22122_nikibi_ex1",
-      "japanese": "ニキビができた。",
+      "japanese": "ニキビ⟦が→が：00051_ga⟧⟦できた→できる：00557_dekiru⟧。",
       "english": "I got a pimple.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22122_nikibi_ex2",
-      "japanese": "{思春期|ししゅんき}にはニキビが{増|ふ}えやすい。",
+      "japanese": "⟦{思春期|ししゅんき}→思春期：12667_shishunki⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧ニキビ⟦が→が：00051_ga⟧⟦{増|ふ}え→増える：01183_fueru⟧やすい。",
       "english": "Pimples tend to increase during puberty.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22122_nikibi_ex3",
-      "japanese": "ニキビを{潰|つぶ}すと{跡|あと}が{残|のこ}るので、{触|さわ}らないほうがいいと{皮膚科|ひふか}の{先生|せんせい}に{言|い}われた。",
+      "japanese": "ニキビ⟦を→を：00422_wo⟧⟦{潰|つぶ}す→潰す：00410_tsubusu⟧⟦と→と：00512_to⟧⟦{跡|あと}→跡：02174_ato⟧⟦が→が：00051_ga⟧⟦{残|のこ}る→残る：01187_nokoru⟧⟦の→の：09472_no⟧で、⟦{触|さわ}らない→触る：00808_sawaru⟧⟦ほうがいい→ほうがいい：10078_hougaii⟧⟦と→と：00512_to⟧⟦{皮膚科|ひふか}→皮膚科：11073_hifuka⟧⟦の→の：09472_no⟧⟦{先生|せんせい}→先生：00609_sensei⟧⟦に→に：00314_ni⟧⟦{言|い}われた→言う：00515_iu⟧。",
       "english": "The dermatologist told me not to touch pimples because popping them can leave scars.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Usually written in katakana (ニキビ) rather than the rare kanji {面皰|にきび}. This is the standard everyday word for pimples. The medical term is {尋常性|じんじょうせい}ざ{瘡|そう} but this is almost never used outside clinical settings.\n\nCOMMON COLLOCATIONS:\n- ニキビができる: to get a pimple\n- ニキビを{潰|つぶ}す: to pop a pimple\n- ニキビ{跡|あと}: acne scar\n- ニキビ{肌|はだ}: acne-prone skin\n- {大人|おとな}ニキビ: adult acne\n\nSIMILAR WORDS:\n- {吹|ふ}き{出物|でもの}: skin blemish, breakout — broader term for skin eruptions, often used for adult acne\n- おでき: boil — larger, deeper skin inflammation\n- {肌荒|はだあ}れ: rough skin — a broader skin condition, not limited to pimples",
+  "notes": "Usually written in katakana (ニキビ) rather than the rare kanji {面皰|にきび}. This is the standard everyday word for pimples. The medical term is {尋常性|じんじょうせい}ざ{瘡|そう} but this is almost never used outside clinical settings.\n\nCOMMON COLLOCATIONS:\n- ニキビ⟦が→が：00051_ga⟧⟦できる→できる：00557_dekiru⟧: to get a pimple\n- ニキビ⟦を→を：00422_wo⟧⟦{潰|つぶ}す→潰す：00410_tsubusu⟧: to pop a pimple\n- ニキビ{跡|あと}: acne scar\n- ニキビ{肌|はだ}: acne-prone skin\n- {大人|おとな}ニキビ: adult acne\n\nSIMILAR WORDS:\n- ⟦{吹|ふ}き{出物|でもの}→吹き出物：08546_fukidemono⟧: skin blemish, breakout — broader term for skin eruptions, often used for adult acne\n- おでき: boil — larger, deeper skin inflammation\n- ⟦{肌荒|はだあ}れ→肌荒れ：08421_hadaare⟧: rough skin — a broader skin condition, not limited to pimples",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08546_fukidemono",
+      "reading": "ふきでもの",
+      "headword": "{吹|ふ}き{出物|でもの}",
+      "label": "skin blemish, breakout"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08421_hadaare",
+      "reading": "はだあれ",
+      "headword": "{肌荒|はだあ}れ",
+      "label": "rough skin"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +76,6 @@
       ]
     },
     "created": "2026-04-05T03:33:22Z",
-    "modified": "2026-04-10T08:28:27Z"
+    "modified": "2026-09-02T04:02:06Z"
   }
 }

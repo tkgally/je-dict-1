@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "11694_shisetsu_ex1",
-      "japanese": "{使節|しせつ}を{派遣|はけん}する。",
+      "japanese": "{使節|しせつ}⟦を→を：00422_wo⟧⟦{派遣|はけん}→派遣：13273_haken⟧⟦する→する：00392_suru⟧。",
       "english": "Dispatch an envoy.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11694_shisetsu_ex2",
-      "japanese": "{外交|がいこう}{使節|しせつ}が{来日|らいにち}した。",
+      "japanese": "⟦{外交|がいこう}→外交：02627_gaikou⟧{使節|しせつ}⟦が→が：00051_ga⟧⟦{来日|らいにち}→来日：13060_rainichi⟧⟦した→する：00392_suru⟧。",
       "english": "A diplomatic envoy visited Japan.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11694_shisetsu_ex3",
-      "japanese": "{遣唐使|けんとうし}は{日本|にほん}から{中国|ちゅうごく}へ{送|おく}られた{使節|しせつ}だった。",
+      "japanese": "⟦{遣唐使|けんとうし}→遣唐使：16307_kentoushi⟧⟦は→は：00079_ha⟧⟦{日本|にほん}→日本：03876_nihon⟧⟦から→から：00504_kara⟧⟦{中国|ちゅうごく}→中国：28300_chuugoku⟧⟦へ→へ：02473_he⟧⟦{送|おく}られた→送る：00742_okuru⟧{使節|しせつ}だった。",
       "english": "The kentoshi were envoys sent from Japan to China.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "A formal, somewhat literary term often encountered in history and diplomatic contexts. Different from the homophone {施設|しせつ} (facility).\n\nCOMMON COLLOCATIONS:\n・{外交|がいこう}{使節|しせつ} (diplomatic envoy)\n・{使節|しせつ}{団|だん} (delegation, diplomatic mission group)\n・{特使|とくし} / {特別|とくべつ}{使節|しせつ} (special envoy)\n・{使節|しせつ}を{派遣|はけん}する (send an envoy)\n・{使節|しせつ}を{迎|むか}える (receive an envoy)\n\nHISTORICAL USAGE:\nOften seen in Japanese history: {遣唐使|けんとうし} (envoys to Tang China), {遣隋使|けんずいし} (envoys to Sui China), {天正遣欧使節|てんしょうけんおうしせつ} (Tensho embassy to Europe).",
+  "notes": "A formal, somewhat literary term often encountered in history and diplomatic contexts. Different from the homophone ⟦{施設|しせつ}→施設：02503_shisetsu⟧ (facility).\n\nCOMMON COLLOCATIONS:\n- ⟦{外交|がいこう}→外交：02627_gaikou⟧{使節|しせつ} (diplomatic envoy)\n- {使節|しせつ}⟦{団|だん}→〜団：04663_dan⟧ (delegation, diplomatic mission group)\n- ⟦{特使|とくし}→特使：23491_tokushi⟧ / ⟦{特別|とくべつ}→特別：01120_tokubetsu⟧{使節|しせつ} (special envoy)\n- {使節|しせつ}⟦を→を：00422_wo⟧⟦{派遣|はけん}→派遣：13273_haken⟧⟦する→する：00392_suru⟧ (send an envoy)\n- {使節|しせつ}⟦を→を：00422_wo⟧⟦{迎|むか}える→迎える：01193_mukaeru⟧ (receive an envoy)\n\nHISTORICAL USAGE:\nOften seen in Japanese history: ⟦{遣唐使|けんとうし}→遣唐使：16307_kentoushi⟧ (envoys to Tang China), {遣隋使|けんずいし} (envoys to Sui China), {天正遣欧使節|てんしょうけんおうしせつ} (Tensho embassy to Europe).",
   "cross_references": [
     {
       "type": "homophone",
@@ -46,18 +52,31 @@
       "reading": "しせつ",
       "headword": "{施設|しせつ}",
       "notes": "施設 (しせつ) means facility — same reading, different meaning"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23491_tokushi",
+      "reading": "とくし",
+      "headword": "{特使|とくし}",
+      "label": "special envoy"
     }
   ],
   "metadata": {
     "created": "2026-02-17T20:28:36Z",
-    "modified": "2026-02-17T20:28:36Z",
+    "modified": "2026-09-02T04:01:26Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["person"],
-      "style": ["written"]
+      "semantic": [
+        "person"
+      ],
+      "style": [
+        "written"
+      ]
     }
   }
 }

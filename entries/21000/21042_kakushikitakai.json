@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21042_kakushikitakai_ex1",
-      "japanese": "{格式高|かくしきたか}い{旅館|りょかん}に{泊|と}まった。",
+      "japanese": "{格式高|かくしきたか}い⟦{旅館|りょかん}→旅館：01049_ryokan⟧⟦に→に：00314_ni⟧⟦{泊|と}まった→泊まる：10445_tomaru⟧。",
       "english": "I stayed at a prestigious inn.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21042_kakushikitakai_ex2",
-      "japanese": "この{神社|じんじゃ}は{格式高|かくしきたか}いことで{知|し}られている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{神社|じんじゃ}→神社：01620_jinja⟧⟦は→は：00079_ha⟧{格式高|かくしきたか}いこと⟦で→で：00502_de⟧⟦{知|し}られている→知る：00458_shiru⟧。",
       "english": "This shrine is known for its high prestige.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21042_kakushikitakai_ex3",
-      "japanese": "{格式高|かくしきたか}いレストランなので、ドレスコードがある。",
+      "japanese": "{格式高|かくしきたか}い⟦レストラン→レストラン：01048_resutoran⟧な⟦の→の：09472_no⟧で、⟦ドレスコード→ドレスコード：27312_doresukoodo⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "Since it's a high-class restaurant, there is a dress code.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {格式|かくしき} (status, standing, formality) + {高|たか}い (high). Describes places and institutions that maintain traditional dignity and high social standing.\n\nCOMMON COLLOCATIONS:\n- {格式高|かくしきたか}い{旅館|りょかん}: a prestigious inn\n- {格式高|かくしきたか}い{神社|じんじゃ}: a prestigious shrine\n- {格式高|かくしきたか}い{寺院|じいん}: a prestigious temple\n- {格式高|かくしきたか}いホテル: a high-class hotel\n- {格式高|かくしきたか}い{料亭|りょうてい}: a prestigious traditional restaurant\n\nSIMILAR WORDS:\n- {高級|こうきゅう}な: high-end, luxury — emphasizes quality and price rather than tradition and history\n- {由緒|ゆいしょ}{正|ただ}しい: having a distinguished history — focuses on historical pedigree\n- {名門|めいもん}の: prestigious, distinguished — typically used for families, schools, and organizations with long reputations\n\nCULTURAL NOTE:\nIn Japan, {格式|かくしき} is an important concept for shrines, temples, ryokan, and traditional establishments. It implies not just luxury but adherence to traditions, proper etiquette, and a long-established reputation.",
+  "notes": "Composed of ⟦{格式|かくしき}→格式：16025_kakushiki⟧ (status, standing, formality) + ⟦{高|たか}い→高い：00500_takai⟧ (high). Describes places and institutions that maintain traditional dignity and high social standing.\n\nCOMMON COLLOCATIONS:\n- {格式高|かくしきたか}い⟦{旅館|りょかん}→旅館：01049_ryokan⟧: a prestigious inn\n- {格式高|かくしきたか}い⟦{神社|じんじゃ}→神社：01620_jinja⟧: a prestigious shrine\n- {格式高|かくしきたか}い⟦{寺院|じいん}→寺院：00122_jiin⟧: a prestigious temple\n- {格式高|かくしきたか}い⟦ホテル→ホテル：01027_hoteru⟧: a high-class hotel\n- {格式高|かくしきたか}い⟦{料亭|りょうてい}→料亭：21710_ryoutei⟧: a prestigious traditional restaurant\n\nSIMILAR WORDS:\n- ⟦{高級|こうきゅう}→高級：08644_koukyuu⟧な: high-end, luxury — emphasizes quality and price rather than tradition and history\n- ⟦{由緒|ゆいしょ}→由緒：13567_yuisho⟧⟦{正|ただ}しい→正しい：00893_tadashii⟧: having a distinguished history — focuses on historical pedigree\n- ⟦{名門|めいもん}→名門：11955_meimon⟧⟦の→の：09472_no⟧: prestigious, distinguished — typically used for families, schools, and organizations with long reputations\n\nCULTURAL NOTE:\nIn Japan, ⟦{格式|かくしき}→格式：16025_kakushiki⟧ is an important concept for shrines, temples, ryokan, and traditional establishments. It implies not just luxury but adherence to traditions, proper etiquette, and a long-established reputation.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08644_koukyuu",
+      "reading": "こうきゅう",
+      "headword": "{高級|こうきゅう}",
+      "label": "high-end, luxury"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,7 +69,7 @@
       ]
     },
     "created": "2026-03-31T15:34:46Z",
-    "modified": "2026-03-31T15:34:46Z"
+    "modified": "2026-09-02T04:02:02Z"
   },
   "conjugation": {
     "type": "i-adjective",

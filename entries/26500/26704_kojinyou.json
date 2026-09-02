@@ -3,7 +3,7 @@
   "headword": "{個人用|こじんよう}",
   "reading": "こじんよう",
   "romaji": "kojinyou",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "for personal use; for individual use",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26704_kojinyou_ex1",
-      "japanese": "これは{個人用|こじんよう}のロッカーです。",
+      "japanese": "⟦これ→これ：00963_kore⟧⟦は→は：00079_ha⟧{個人用|こじんよう}⟦の→の：09472_no⟧⟦ロッカー→ロッカー：09734_rokkaa⟧です。",
       "english": "This is a personal-use locker.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26704_kojinyou_ex2",
-      "japanese": "{個人用|こじんよう}のメールアドレスは{仕事|しごと}に{使|つか}わないでください。",
+      "japanese": "{個人用|こじんよう}⟦の→の：09472_no⟧⟦メールアドレス→メールアドレス：23540_meeruadoresu⟧⟦は→は：00079_ha⟧⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦に→に：00314_ni⟧⟦{使|つか}わないで→使う：00473_tsukau⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please don't use your personal email address for work.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26704_kojinyou_ex3",
-      "japanese": "この{写真|しゃしん}は{個人用|こじんよう}にダウンロードできますが、{商用|しょうよう}{利用|りよう}は{禁止|きんし}されています。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{写真|しゃしん}→写真：00753_shashin⟧⟦は→は：00079_ha⟧{個人用|こじんよう}⟦に→に：00314_ni⟧⟦ダウンロード→ダウンロード：04725_daunroodo⟧⟦できます→できる：00557_dekiru⟧⟦が→が：00051_ga⟧、⟦{商用|しょうよう}→商用：11060_shouyou⟧⟦{利用|りよう}→利用：01752_riyou⟧⟦は→は：00079_ha⟧⟦{禁止|きんし}→禁止：02643_kinshi⟧⟦されています→する：00392_suru⟧。",
       "english": "You can download this photo for personal use, but commercial use is prohibited.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {個人|こじん} (individual/personal) and {用|よう} (use/for). A very common label found on products, licenses, and services to indicate single-person use as opposed to shared or commercial use.\n\nCOMMON COLLOCATIONS:\n- {個人用|こじんよう}パソコン: personal computer\n- {個人用|こじんよう}アカウント: personal account\n- {個人用|こじんよう}{防護|ぼうご}{具|ぐ}: personal protective equipment\n\nSIMILAR TERMS WITH 〜{用|よう}:\n- {一般用|いっぱんよう}: for general use\n- {業務用|ぎょうむよう}: for commercial/business use\n- {家庭用|かていよう}: for household use\n- {共用|きょうよう}: for shared use",
+  "notes": "Composed of ⟦{個人|こじん}→個人：02758_kojin⟧ (individual/personal) and ⟦{用|よう}→〜用：09842_you⟧ (use/for). A very common label found on products, licenses, and services to indicate single-person use as opposed to shared or commercial use.\n\nCOMMON COLLOCATIONS:\n- {個人用|こじんよう}⟦パソコン→パソコン：01538_pasokon⟧: personal computer\n- {個人用|こじんよう}⟦アカウント→アカウント：05103_akaunto⟧: personal account\n- {個人用|こじんよう}{防護|ぼうご}{具|ぐ}: personal protective equipment\n\nSIMILAR TERMS WITH 〜{用|よう}:\n- ⟦{一般用|いっぱんよう}→一般用：26703_ippanyou⟧: for general use\n- ⟦{業務用|ぎょうむよう}→業務用：13148_gyoumuyou⟧: for commercial/business use\n- ⟦{家庭用|かていよう}→家庭用：16544_kateiyou⟧: for household use\n- ⟦{共用|きょうよう}→共用：21529_kyouyou⟧: for shared use",
   "cross_references": [
     {
       "entry_id": "26703_ippanyou",
@@ -53,6 +53,34 @@
       "type": "related",
       "relationship": "related",
       "target_id": "26703_ippanyou"
+    },
+    {
+      "type": "related",
+      "target_id": "13148_gyoumuyou",
+      "reading": "ぎょうむよう",
+      "headword": "{業務用|ぎょうむよう}",
+      "label": "for commercial/business use"
+    },
+    {
+      "type": "related",
+      "target_id": "16544_kateiyou",
+      "reading": "かていよう",
+      "headword": "{家庭用|かていよう}",
+      "label": "for household use"
+    },
+    {
+      "type": "related",
+      "target_id": "21529_kyouyou",
+      "reading": "きょうよう",
+      "headword": "{共用|きょうよう}",
+      "label": "for shared use"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22267_jibunsenyou",
+      "reading": "じぶんせんよう",
+      "headword": "{自分専用|じぶんせんよう}",
+      "label": "for one's own exclusive use"
     }
   ],
   "schema_version": "2.0",
@@ -63,11 +91,13 @@
         "noun",
         "adjective-no"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "general"
       ]
     },
     "created": "2026-05-04T14:11:23Z",
-    "modified": "2026-08-06T12:44:19Z"
+    "modified": "2026-09-02T04:02:27Z"
   }
 }

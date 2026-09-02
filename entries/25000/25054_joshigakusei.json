@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "25054_joshigakusei_ex1",
-      "japanese": "{女子学生|じょしがくせい}の{割合|わりあい}が{増|ふ}えた。",
+      "japanese": "{女子学生|じょしがくせい}⟦の→の：09472_no⟧⟦{割合|わりあい}→割合：01760_wariai⟧⟦が→が：00051_ga⟧⟦{増|ふ}えた→増える：01183_fueru⟧。",
       "english": "The proportion of female students increased.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "25054_joshigakusei_ex2",
-      "japanese": "この{大学|だいがく}の{工学部|こうがくぶ}は{女子学生|じょしがくせい}が{少|すく}ない。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{大学|だいがく}→大学：00608_daigaku⟧⟦の→の：09472_no⟧⟦{工学部|こうがくぶ}→工学部：24493_kougakubu⟧⟦は→は：00079_ha⟧{女子学生|じょしがくせい}⟦が→が：00051_ga⟧⟦{少|すく}ない→少ない：01136_sukunai⟧。",
       "english": "The engineering department of this university has few female students.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "25054_joshigakusei_ex3",
-      "japanese": "{昔|むかし}は{女子学生|じょしがくせい}が{大学|だいがく}に{通|かよ}うことは{珍|めずら}しかったが、{今|いま}では{半数|はんすう}を{占|し}めている。",
+      "japanese": "⟦{昔|むかし}→昔：01515_mukashi⟧⟦は→は：00079_ha⟧{女子学生|じょしがくせい}⟦が→が：00051_ga⟧⟦{大学|だいがく}→大学：00608_daigaku⟧⟦に→に：00314_ni⟧⟦{通|かよ}う→通う：01217_kayou⟧こと⟦は→は：00079_ha⟧⟦{珍|めずら}しかった→珍しい：01200_mezurashii⟧⟦が→が：00051_ga⟧、⟦{今|いま}→今：00945_ima⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{半数|はんすう}→半数：30503_hansuu⟧⟦を→を：00422_wo⟧⟦{占|し}めている→占める：11799_shimeru⟧。",
       "english": "In the past, it was rare for female students to attend university, but now they make up half.",
       "sense_numbers": [
         1
@@ -43,19 +43,36 @@
       "notes": null
     }
   ],
-  "notes": "A straightforward compound of {女子|じょし} (female, woman) + {学生|がくせい} (student). Used in both formal and neutral contexts.\n\nCOMMON COLLOCATIONS:\n- {女子学生|じょしがくせい}の{割合|わりあい}: proportion of female students\n- {女子学生|じょしがくせい}{向|む}け: aimed at female students\n- {女子学生|じょしがくせい}{寮|りょう}: women's dormitory\n\nSIMILAR WORDS:\n- {男子学生|だんしがくせい}: male student — the counterpart\n- {女子大生|じょしだいせい}: female university student — specifically refers to college/university level\n- {女生徒|じょせいと}: female pupil — used for middle school and high school students\n- {女学生|じょがくせい}: schoolgirl — a slightly older term with similar meaning",
+  "notes": "A straightforward compound of ⟦{女子|じょし}→女子：03350_joshi⟧ (female, woman) + ⟦{学生|がくせい}→学生：00610_gakusei⟧ (student). Used in both formal and neutral contexts.\n\nCOMMON COLLOCATIONS:\n- {女子学生|じょしがくせい}⟦の→の：09472_no⟧⟦{割合|わりあい}→割合：01760_wariai⟧: proportion of female students\n- {女子学生|じょしがくせい}{向|む}け: aimed at female students\n- {女子学生|じょしがくせい}{寮|りょう}: women's dormitory\n\nSIMILAR WORDS:\n- ⟦{男子学生|だんしがくせい}→男子学生：26705_danshigakusei⟧: male student — the counterpart\n- ⟦{女子大生|じょしだいせい}→女子大生：23937_joshidaisei⟧: female university student — specifically refers to college/university level\n- {女生徒|じょせいと}: female pupil — used for middle school and high school students\n- {女学生|じょがくせい}: schoolgirl — a slightly older term with similar meaning",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "26705_danshigakusei",
+      "reading": "だんしがくせい",
+      "headword": "{男子学生|だんしがくせい}",
+      "label": "male student"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23937_joshidaisei",
+      "reading": "じょしだいせい",
+      "headword": "{女子大生|じょしだいせい}",
+      "label": "female university student"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "education"
       ]
     },
     "created": "2026-04-22T12:42:53Z",
-    "modified": "2026-04-22T12:42:53Z"
+    "modified": "2026-09-02T04:02:20Z"
   }
 }

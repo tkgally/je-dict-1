@@ -3,7 +3,7 @@
   "headword": "ツーリング",
   "reading": "つーりんぐ",
   "romaji": "tsuuringu",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "motorcycle (or bicycle) touring",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28790_tsuuringu_ex1",
-      "japanese": "{週末|しゅうまつ}にバイクでツーリングに{行|い}く。",
+      "japanese": "⟦{週末|しゅうまつ}→週末：03030_shuumatsu⟧⟦に→に：00314_ni⟧⟦バイク→バイク：05081_baiku⟧⟦で→で：00502_de⟧ツーリング⟦に→に：00314_ni⟧⟦{行|い}く→行く：00119_iku⟧。",
       "english": "I'm going touring on my motorcycle this weekend.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28790_tsuuringu_ex2",
-      "japanese": "{仲間|なかま}とツーリングを{楽|たの}しんだ。",
+      "japanese": "⟦{仲間|なかま}→仲間：03498_nakama⟧⟦と→と：00512_to⟧ツーリング⟦を→を：00422_wo⟧⟦{楽|たの}しんだ→楽しむ：01203_tanoshimu⟧。",
       "english": "I enjoyed a touring ride with my friends.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28790_tsuuringu_ex3",
-      "japanese": "{秋|あき}の{紅葉|こうよう}を{見|み}ながら{山道|やまみち}をツーリングするのが{毎年|まいとし}の{楽|たの}しみだ。",
+      "japanese": "⟦{秋|あき}→秋：02276_aki⟧⟦の→の：09472_no⟧⟦{紅葉|こうよう}→紅葉：04151_kouyou⟧⟦を→を：00422_wo⟧⟦{見|み}→見る：00283_miru⟧⟦ながら→ながら：10530_nagara⟧⟦{山道|やまみち}→山道：12406_yamamichi⟧⟦を→を：00422_wo⟧ツーリング⟦する→する：00392_suru⟧⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦{毎年|まいとし}→毎年：00731_maitoshi⟧⟦の→の：09472_no⟧⟦{楽|たの}しみ→楽しみ：01651_tanoshimi⟧だ。",
       "english": "Touring along mountain roads while looking at the autumn leaves is something I look forward to every year.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "From English \"touring\". In Japanese, the word is almost always associated with motorcycles, and secondarily with bicycles. It is not used in the English sense of a concert tour or sports tour.\n\nCOMMON COLLOCATIONS:\n- ツーリングに{行|い}く: to go touring\n- ツーリング{仲間|なかま}: touring buddies\n- ソロツーリング: solo touring\n- バイクでツーリングする: to tour by motorcycle\n\nSIMILAR WORDS:\n- ドライブ: a drive — by car, usually shorter and less about long-distance travel\n- サイクリング: cycling — bicycle riding more generally, not specifically long-distance",
+  "notes": "From English \"touring\". In Japanese, the word is almost always associated with motorcycles, and secondarily with bicycles. It is not used in the English sense of a concert tour or sports tour.\n\nCOMMON COLLOCATIONS:\n- ツーリング⟦に→に：00314_ni⟧⟦{行|い}く→行く：00119_iku⟧: to go touring\n- ツーリング⟦{仲間|なかま}→仲間：03498_nakama⟧: touring buddies\n- ソロツーリング: solo touring\n- ⟦バイク→バイク：05081_baiku⟧⟦で→で：00502_de⟧ツーリング⟦する→する：00392_suru⟧: to tour by motorcycle\n\nSIMILAR WORDS:\n- ⟦ドライブ→ドライブ：03866_doraibu⟧: a drive — by car, usually shorter and less about long-distance travel\n- ⟦サイクリング→サイクリング：08017_saikuringu⟧: cycling — bicycle riding more generally, not specifically long-distance",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03866_doraibu",
+      "reading": "どらいぶ",
+      "headword": "ドライブ",
+      "label": "a drive"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08017_saikuringu",
+      "reading": "さいくりんぐ",
+      "headword": "サイクリング",
+      "label": "cycling"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -54,7 +70,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "transportation",
         "leisure"
@@ -63,7 +79,7 @@
       "verb_class": "suru"
     },
     "created": "2026-06-05T03:07:50Z",
-    "modified": "2026-06-05T03:07:50Z"
+    "modified": "2026-09-02T04:02:35Z"
   },
   "conjugation": {
     "type": "suru",

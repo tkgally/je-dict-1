@@ -2,7 +2,7 @@
   "id": "04752_dasai",
   "headword": "ダサい",
   "reading": "ださい",
-  "part_of_speech": "adjective (i-adjective)",
+  "part_of_speech": "i-adjective",
   "gloss": "uncool, lame",
   "definitions": [
     {
@@ -23,7 +23,7 @@
     },
     {
       "id": "04752_dasai_ex2",
-      "japanese": "⟦その→その：00993_sono⟧⟦{服|ふく}→服：00695_fuku⟧、⟦ちょっと→ちょっと：00595_chotto⟧ダサくない？",
+      "japanese": "⟦その→その：00993_sono⟧⟦{服|ふく}→服：00695_fuku⟧、⟦ちょっと→ちょっと：00595_chotto⟧ダサく⟦ない→ない：01118_nai⟧？",
       "english": "Isn't that outfit a bit uncool?",
       "has_audio": false,
       "sense_numbers": [
@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "notes": "ダサい is a slang i-adjective meaning unfashionable, uncool, or lame.\n\nETYMOLOGY:\nOrigins disputed. Possibly from ⟦{田舎|いなか}→田舎：01320_inaka⟧ (countryside) + さい, implying 'country bumpkin style.'\n\nFORMS:\n- Adverbial: ダサく\n- Te-form: ダサくて\n- Past: ダサかった\n\nUSAGE:\nCan describe fashion, behavior, ideas, or people. Usually written in katakana. Common in casual speech, especially among younger speakers.\n\nSIMILAR WORDS:\n- ⟦かっこ{悪|わる}い→かっこわるい：10759_kakkowarui⟧: uncool (more neutral)\n- {格好|かっこう}{悪|わる}い: unfashionable (formal)\n- イケてない: not cool (slang)\n\nOpposite: ⟦かっこいい→かっこいい：09378_kakkoii⟧ (cool, stylish).",
+  "notes": "ダサい is a slang i-adjective meaning unfashionable, uncool, or lame.\n\nETYMOLOGY:\nOrigins disputed. Possibly from ⟦{田舎|いなか}→田舎：01320_inaka⟧ (countryside) + さい, implying 'country bumpkin style.'\n\nFORMS:\n- Adverbial: ダサく\n- Te-form: ダサくて\n- Past: ダサかった\n\nUSAGE:\nCan describe fashion, behavior, ideas, or people. Usually written in katakana. Common in casual speech, especially among younger speakers.\n\nSIMILAR WORDS:\n- ⟦かっこ{悪|わる}い→かっこわるい：10759_kakkowarui⟧: uncool (more neutral)\n- ⟦{格好|かっこう}→格好：01800_kakkou⟧⟦{悪|わる}い→悪い：00908_warui⟧: unfashionable (formal)\n- イケてない: not cool (slang)\n\nOpposite: ⟦かっこいい→かっこいい：09378_kakkoii⟧ (cool, stylish).",
   "cross_references": [
     {
       "type": "antonym",
@@ -48,11 +48,60 @@
       "headword": "かっこいい",
       "label": "cool",
       "target_id": "09378_kakkoii"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10759_kakkowarui",
+      "reading": "かっこわるい",
+      "headword": "かっこわるい",
+      "label": "uncool"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04754_kimoi",
+      "reading": "きもい",
+      "headword": "キモい",
+      "label": "gross, creepy"
+    },
+    {
+      "type": "antonym",
+      "target_id": "07802_iketeru",
+      "reading": "いけてる",
+      "headword": "イケてる",
+      "label": "cool, stylish"
+    },
+    {
+      "type": "related",
+      "target_id": "09183_yabottai",
+      "reading": "やぼったい",
+      "headword": "{野暮|やぼ}ったい",
+      "label": "unfashionable, tacky, unsophisticated"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18223_bukakkou",
+      "reading": "ぶかっこう",
+      "headword": "{不格好|ぶかっこう}",
+      "label": "awkward-looking"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21043_inakakusai",
+      "reading": "いなかくさい",
+      "headword": "{田舎臭|いなかくさ}い",
+      "label": "countrified"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27017_ryuukouokure",
+      "reading": "りゅうこうおくれ",
+      "headword": "{流行遅|りゅうこうおく}れ",
+      "label": "out of fashion"
     }
   ],
   "metadata": {
     "created": "2026-01-15T23:51:34Z",
-    "modified": "2026-06-02T14:10:55Z",
+    "modified": "2026-09-02T04:01:05Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

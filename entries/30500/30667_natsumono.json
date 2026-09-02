@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30667_natsumono_ex1",
-      "japanese": "そろそろ{夏物|なつもの}を{出|だ}そう。",
+      "japanese": "⟦そろそろ→そろそろ：01259_sorosoro⟧{夏物|なつもの}⟦を→を：00422_wo⟧⟦{出|だ}そう→出す：01087_dasu⟧。",
       "english": "It's about time to get the summer clothes out.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30667_natsumono_ex2",
-      "japanese": "デパートで{夏物|なつもの}のセールが{始|はじ}まった。",
+      "japanese": "⟦デパート→デパート：01022_depaato⟧⟦で→で：00502_de⟧{夏物|なつもの}⟦の→の：09472_no⟧⟦セール→セール：07780_seeru⟧⟦が→が：00051_ga⟧⟦{始|はじ}まった→始まる：00841_hajimaru⟧。",
       "english": "The summer clothing sale has started at the department store.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30667_natsumono_ex3",
-      "japanese": "{衣替|ころもが}えをして、{冬物|ふゆもの}をしまい、{夏物|なつもの}を{取|と}り{出|だ}した。",
+      "japanese": "⟦{衣替|ころもが}え→衣替え：07709_koromogae⟧⟦を→を：00422_wo⟧⟦して→する：00392_suru⟧、⟦{冬物|ふゆもの}→冬物：27498_fuyumono⟧⟦を→を：00422_wo⟧しまい、{夏物|なつもの}⟦を→を：00422_wo⟧⟦{取|と}り{出|だ}した→取り出す：04220_toridasu⟧。",
       "english": "I changed over my wardrobe, putting away the winter things and taking out the summer ones.",
       "sense_numbers": [
         1
@@ -44,13 +44,20 @@
       "notes": null
     }
   ],
-  "notes": "COMMON COLLOCATIONS:\n- {夏物|なつもの}を{出|だ}す/しまう: to get out / put away summer clothes\n- {夏物|なつもの}セール: summer clothing sale\n- {夏物|なつもの}{衣料|いりょう}: summer apparel\n\nSEASONAL SERIES:\nThe same {物|もの} pattern names each season's goods:\n- {春物|はるもの}: spring wear\n- {秋物|あきもの}: autumn wear\n- {冬物|ふゆもの}: winter wear\n\nRELATED:\n- {衣替|ころもが}え: the seasonal changeover of clothing, done around June 1 and October 1",
+  "notes": "COMMON COLLOCATIONS:\n- {夏物|なつもの}⟦を→を：00422_wo⟧⟦{出|だ}す→出す：01087_dasu⟧/しまう: to get out / put away summer clothes\n- {夏物|なつもの}⟦セール→セール：07780_seeru⟧: summer clothing sale\n- {夏物|なつもの}⟦{衣料|いりょう}→衣料：02612_iryou⟧: summer apparel\n\nSEASONAL SERIES:\nThe same ⟦{物|もの}→物：02259_mono⟧ pattern names each season's goods:\n- {春物|はるもの}: spring wear\n- {秋物|あきもの}: autumn wear\n- ⟦{冬物|ふゆもの}→冬物：27498_fuyumono⟧: winter wear\n\nRELATED WORDS:\n- ⟦{衣替|ころもが}え→衣替え：07709_koromogae⟧: the seasonal changeover of clothing, done around June 1 and October 1",
   "cross_references": [
     {
       "type": "antonym",
       "target_id": "27498_fuyumono",
       "reading": "ふゆもの",
       "headword": "{冬物|ふゆもの}"
+    },
+    {
+      "type": "related",
+      "target_id": "07709_koromogae",
+      "reading": "ころもがえ",
+      "headword": "{衣替|ころもが}え",
+      "label": "the seasonal changeover of clothing…"
     }
   ],
   "schema_version": "2.0",
@@ -61,7 +68,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "clothing",
         "time-season"
@@ -69,6 +76,6 @@
       "domain": []
     },
     "created": "2026-08-15T12:20:22Z",
-    "modified": "2026-08-15T12:20:22Z"
+    "modified": "2026-09-02T04:02:41Z"
   }
 }

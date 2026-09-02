@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "17393_dogeza_ex1",
-      "japanese": "{彼|かれ}は{土下座|どげざ}して{謝|あやま}った。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{土下座|どげざ}⟦して→する：00392_suru⟧⟦{謝|あやま}った→謝る：01177_ayamaru⟧。",
       "english": "He prostrated himself on the ground and apologized.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "17393_dogeza_ex2",
-      "japanese": "{土下座|どげざ}されても{許|ゆる}せない。",
+      "japanese": "{土下座|どげざ}⟦されて→する：00392_suru⟧⟦も→も：00484_mo⟧⟦{許|ゆる}せない→許す：02325_yurusu⟧。",
       "english": "I can't forgive them even if they prostrate themselves.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "17393_dogeza_ex3",
-      "japanese": "{社長|しゃちょう}が{記者会見|きしゃかいけん}で{土下座|どげざ}する{姿|すがた}がニュースになった。",
+      "japanese": "⟦{社長|しゃちょう}→社長：01428_shachou⟧⟦が→が：00051_ga⟧⟦{記者会見|きしゃかいけん}→記者会見：19954_kishakaiken⟧⟦で→で：00502_de⟧{土下座|どげざ}⟦する→する：00392_suru⟧⟦{姿|すがた}→姿：03363_sugata⟧⟦が→が：00051_ga⟧⟦ニュース→ニュース：04437_nyuusu⟧になった。",
       "english": "The sight of the company president prostrating himself at the press conference became news.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nPerformed by dropping to the knees and pressing the forehead to the ground with hands flat on the floor. It represents the most extreme form of apology or plea in Japanese culture. In modern usage, it sometimes appears in exaggerated or humorous contexts as well.\n\nThe verb form is {土下座|どげざ}する.\n\nCULTURE:\nHistorically, {土下座|どげざ} was performed before feudal lords and officials as a sign of absolute submission. In modern Japan, it is reserved for the most serious apologies or desperate pleas. Forcing someone to perform {土下座|どげざ} can constitute a criminal offense ({強要罪|きょうようざい}).\n\nCOMMON COLLOCATIONS:\n- {土下座|どげざ}して{謝|あやま}る (to prostrate and apologize)\n- {土下座|どげざ}して{頼|たの}む (to prostrate and beg)\n- {土下座|どげざ}を{強要|きょうよう}する (to force someone to prostrate)",
+  "notes": "USAGE:\nPerformed by dropping to the knees and pressing the forehead to the ground with hands flat on the floor. It represents the most extreme form of apology or plea in Japanese culture. In modern usage, it sometimes appears in exaggerated or humorous contexts as well.\n\nThe verb form is {土下座|どげざ}⟦する→する：00392_suru⟧.\n\nCULTURAL NOTE:\nHistorically, {土下座|どげざ} was performed before feudal lords and officials as a sign of absolute submission. In modern Japan, it is reserved for the most serious apologies or desperate pleas. Forcing someone to perform {土下座|どげざ} can constitute a criminal offense ({強要罪|きょうようざい}).\n\nCOMMON COLLOCATIONS:\n- {土下座|どげざ}⟦して→する：00392_suru⟧⟦{謝|あやま}る→謝る：01177_ayamaru⟧ (to prostrate and apologize)\n- {土下座|どげざ}⟦して→する：00392_suru⟧⟦{頼|たの}む→頼む：01104_tanomu⟧ (to prostrate and beg)\n- {土下座|どげざ}⟦を→を：00422_wo⟧⟦{強要|きょうよう}→強要：12538_kyouyou⟧⟦する→する：00392_suru⟧ (to force someone to prostrate)",
   "cross_references": [
     {
       "type": "related",
@@ -52,11 +52,25 @@
       "reading": "しゃざい",
       "headword": "{謝罪|しゃざい}",
       "label": "apology"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21417_tewotsuku",
+      "reading": "てをつく",
+      "headword": "{手|て}をつく",
+      "label": "to place one's hands (on the floor)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27395_haitsukubaru",
+      "reading": "はいつくばる",
+      "headword": "{這|は}いつくばる",
+      "label": "to prostrate oneself"
     }
   ],
   "metadata": {
     "created": "2026-03-17T10:34:13Z",
-    "modified": "2026-07-23T19:02:37Z",
+    "modified": "2026-09-02T04:01:48Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

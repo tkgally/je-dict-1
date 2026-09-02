@@ -3,7 +3,7 @@
   "headword": "かけ{離|はな}れる",
   "reading": "かけはなれる",
   "romaji": "kakehanareru",
-  "part_of_speech": "verb-ichidan",
+  "part_of_speech": "verb (ichidan)",
   "gloss": "to be far apart; to differ greatly; to be worlds apart",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30091_kakehanareru_ex1",
-      "japanese": "{理想|りそう}と{現実|げんじつ}がかけ{離|はな}れている。",
+      "japanese": "⟦{理想|りそう}→理想：03676_risou⟧⟦と→と：00512_to⟧⟦{現実|げんじつ}→現実：02720_genjitsu⟧⟦が→が：00051_ga⟧かけ{離|はな}れて⟦いる→いる：00495_iru⟧。",
       "english": "The ideal and reality are far apart.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30091_kakehanareru_ex2",
-      "japanese": "{二人|ふたり}の{意見|いけん}はかけ{離|はな}れていた。",
+      "japanese": "⟦{二人|ふたり}→二人：00622_futari⟧⟦の→の：09472_no⟧⟦{意見|いけん}→意見：01303_iken⟧⟦は→は：00079_ha⟧かけ{離|はな}れて⟦いた→いる：00495_iru⟧。",
       "english": "The two people's opinions were worlds apart.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30091_kakehanareru_ex3",
-      "japanese": "{彼|かれ}の{説明|せつめい}は{事実|じじつ}とかけ{離|はな}れていて、{誰|だれ}も{信|しん}じなかった。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧⟦{説明|せつめい}→説明：01449_setsumei⟧⟦は→は：00079_ha⟧⟦{事実|じじつ}→事実：03271_jijitsu⟧⟦と→と：00512_to⟧かけ{離|はな}れて⟦いて→いる：00495_iru⟧、⟦{誰|だれ}も→誰も：18610_daremo⟧⟦{信|しん}じなかった→信じる：01111_shinjiru⟧。",
       "english": "His explanation was so far removed from the facts that no one believed it.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "An intransitive verb describing a wide gap between two things in degree, quality, or nature — usually figurative rather than physical distance.\n\nUSAGE:\n- The thing compared against takes と: {現実|げんじつ}とかけ{離|はな}れる.\n- Most often used in the ている form, or as かけ{離|はな}れた before a noun: {現実|げんじつ}とかけ{離|はな}れた{計画|けいかく} (a plan far removed from reality).\n\nSIMILAR WORDS:\n- {異|こと}なる: to differ — neutral, does not stress the size of the gap\n- {食|く}い{違|ちが}う: to be at odds — about conflicting details rather than a wide gap",
+  "notes": "An intransitive verb describing a wide gap between two things in degree, quality, or nature — usually figurative rather than physical distance.\n\nUSAGE:\n- The thing compared against takes ⟦と→と：00512_to⟧: ⟦{現実|げんじつ}→現実：02720_genjitsu⟧⟦と→と：00512_to⟧かけ{離|はな}れる.\n- Most often used in the て⟦いる→いる：00495_iru⟧ form, or as かけ{離|はな}れた before a noun: ⟦{現実|げんじつ}→現実：02720_genjitsu⟧⟦と→と：00512_to⟧かけ{離|はな}れた⟦{計画|けいかく}→計画：01172_keikaku⟧ (a plan far removed from reality).\n\nSIMILAR WORDS:\n- ⟦{異|こと}なる→異なる：02101_kotonaru⟧: to differ — neutral, does not stress the size of the gap\n- ⟦{食|く}い{違|ちが}う→食い違う：16321_kuichigau⟧: to be at odds — about conflicting details rather than a wide gap",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02101_kotonaru",
+      "reading": "ことなる",
+      "headword": "{異|こと}なる",
+      "label": "to differ"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16321_kuichigau",
+      "reading": "くいちがう",
+      "headword": "{食|く}い{違|ちが}う",
+      "label": "to be at odds"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,15 +69,16 @@
         "verb-ichidan"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "action"
       ],
       "domain": [],
-      "verb_class": "ichidan"
+      "verb_class": "ichidan",
+      "transitivity": "intransitive"
     },
     "created": "2026-07-25T03:20:29Z",
-    "modified": "2026-07-25T03:20:29Z"
+    "modified": "2026-09-02T04:02:38Z"
   },
   "conjugation": {
     "type": "ichidan",

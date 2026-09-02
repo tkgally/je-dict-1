@@ -16,7 +16,7 @@
   "examples": [
     {
       "id": "24568_gashitsu_ex1",
-      "japanese": "{画室|がしつ}で{絵|え}を{描|か}いている。",
+      "japanese": "{画室|がしつ}⟦で→で：00502_de⟧⟦{絵|え}→絵：02613_e⟧⟦を→を：00422_wo⟧⟦{描|か}いている→描く：28436_kaku⟧。",
       "english": "I am painting in the studio.",
       "sense_numbers": [
         1
@@ -26,7 +26,7 @@
     },
     {
       "id": "24568_gashitsu_ex2",
-      "japanese": "{画家|がか}の{画室|がしつ}を{見学|けんがく}した。",
+      "japanese": "⟦{画家|がか}→画家：02583_gaka⟧⟦の→の：09472_no⟧{画室|がしつ}⟦を→を：00422_wo⟧⟦{見学|けんがく}→見学：00214_kengaku⟧⟦した→する：00392_suru⟧。",
       "english": "I visited the painter's studio.",
       "sense_numbers": [
         1
@@ -36,7 +36,7 @@
     },
     {
       "id": "24568_gashitsu_ex3",
-      "japanese": "{北向|きたむ}きの{窓|まど}から{自然光|しぜんこう}が{入|はい}る{画室|がしつ}は、{画家|がか}にとって{理想的|りそうてき}な{環境|かんきょう}だ。",
+      "japanese": "{北向|きたむ}き⟦の→の：09472_no⟧⟦{窓|まど}→窓：02254_mado⟧⟦から→から：00504_kara⟧{自然光|しぜんこう}⟦が→が：00051_ga⟧⟦{入|はい}る→入る：00494_hairu⟧{画室|がしつ}⟦は→は：00079_ha⟧、⟦{画家|がか}→画家：02583_gaka⟧⟦にとって→にとって：06803_nitotte⟧⟦{理想的|りそうてき}→理想的：04797_risouteki⟧な⟦{環境|かんきょう}→環境：00174_kankyou⟧だ。",
       "english": "A studio with north-facing windows that let in natural light is the ideal environment for a painter.",
       "sense_numbers": [
         1
@@ -45,11 +45,40 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {画|が} (painting/picture) and {室|しつ} (room). A somewhat literary or formal word for an artist's studio. The loanword アトリエ (atelier) is more commonly used in modern everyday conversation, while {画室|がしつ} appears more in written descriptions, biographies, and art-related texts.\n\nCOMMON COLLOCATIONS:\n- {画室|がしつ}にこもる: to shut oneself in the studio\n- {画室|がしつ}を{構|かま}える: to set up a studio\n- {画家|がか}の{画室|がしつ}: painter's studio\n- {自宅|じたく}の{画室|がしつ}: home studio\n\nSIMILAR WORDS:\n- アトリエ: atelier — the most common modern word for an artist's studio\n- {工房|こうぼう}: workshop — a workspace for crafts, pottery, or manufacturing\n- {書斎|しょさい}: study — a room for reading and writing, not painting",
-  "cross_references": [],
+  "notes": "Composed of {画|が} (painting/picture) and ⟦{室|しつ}→室：09946_shitsu⟧ (room). A somewhat literary or formal word for an artist's studio. The loanword ⟦アトリエ→アトリエ：10698_atorie⟧ (atelier) is more commonly used in modern everyday conversation, while {画室|がしつ} appears more in written descriptions, biographies, and art-related texts.\n\nCOMMON COLLOCATIONS:\n- {画室|がしつ}⟦に→に：00314_ni⟧こもる: to shut oneself in the studio\n- {画室|がしつ}⟦を→を：00422_wo⟧⟦{構|かま}える→構える：09567_kamaeru⟧: to set up a studio\n- ⟦{画家|がか}→画家：02583_gaka⟧⟦の→の：09472_no⟧{画室|がしつ}: painter's studio\n- ⟦{自宅|じたく}→自宅：00129_jitaku⟧⟦の→の：09472_no⟧{画室|がしつ}: home studio\n\nSIMILAR WORDS:\n- ⟦アトリエ→アトリエ：10698_atorie⟧: atelier — the most common modern word for an artist's studio\n- ⟦{工房|こうぼう}→工房：12418_koubou⟧: workshop — a workspace for crafts, pottery, or manufacturing\n- ⟦{書斎|しょさい}→書斎：03760_shosai⟧: study — a room for reading and writing, not painting",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "10698_atorie",
+      "reading": "あとりえ",
+      "headword": "アトリエ",
+      "label": "atelier"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12418_koubou",
+      "reading": "こうぼう",
+      "headword": "{工房|こうぼう}",
+      "label": "workshop"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03760_shosai",
+      "reading": "しょさい",
+      "headword": "{書斎|しょさい}",
+      "label": "study"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19807_bijutsushitsu",
+      "reading": "びじゅつしつ",
+      "headword": "{美術室|びじゅつしつ}",
+      "label": "art room"
+    }
+  ],
   "metadata": {
     "created": "2026-04-19T15:15:50Z",
-    "modified": "2026-08-03T09:22:27Z",
+    "modified": "2026-09-02T04:02:18Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

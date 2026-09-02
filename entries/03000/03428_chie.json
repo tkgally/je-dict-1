@@ -69,7 +69,7 @@
     },
     {
       "id": "03428_chie_ex6",
-      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧なりに{知恵|ちえ}⟦を→を：00422_wo⟧⟦{使|つか}って→使う：00473_tsukau⟧⟦{工夫|くふう}→工夫：00250_kufuu⟧⟦していた→する：00392_suru⟧。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧⟦なり→なり：09883_nari⟧⟦に→に：00314_ni⟧{知恵|ちえ}⟦を→を：00422_wo⟧⟦{使|つか}って→使う：00473_tsukau⟧⟦{工夫|くふう}→工夫：00250_kufuu⟧⟦していた→する：00392_suru⟧。",
       "english": "The child was using their own cleverness to figure things out.",
       "notes": null,
       "has_audio": false,
@@ -78,7 +78,7 @@
       ]
     }
   ],
-  "notes": "COMMON EXPRESSIONS:\n- {知恵|ちえ}⟦を→を：00422_wo⟧⟦{絞|しぼ}る→絞る：03926_shiboru⟧ (to rack one's brains)\n- {知恵|ちえ}⟦を→を：00422_wo⟧⟦{借|か}りる→借りる：00532_kariru⟧ (to seek advice/wisdom)\n- {知恵|ちえ}⟦を→を：00422_wo⟧⟦{出|だ}す→出す：01087_dasu⟧ (to come up with ideas)\n- {知恵|ちえ}⟦が→が：00051_ga⟧⟦つく→付く：01960_tsuku⟧ (to become wise/clever)\n- {知恵|ちえ}⟦{袋|ぶくろ}→袋：00837_fukuro⟧ (brain trust)\n\nCOMMON COMPOUNDS:\n- {知恵|ちえ}⟦の→の：09472_no⟧⟦{輪|わ}→輪：02142_wa⟧ (puzzle ring)\n- ⟦{生活|せいかつ}→生活：01443_seikatsu⟧⟦の→の：09472_no⟧{知恵|ちえ} (practical wisdom)\n\nSIMILAR WORDS:\n- {知恵|ちえ}: Wisdom (practical, experiential)\n- ⟦{知識|ちしき}→知識：01463_chishiki⟧: Knowledge (factual information)\n- ⟦{知能|ちのう}→知能：03471_chinou⟧: Intelligence (cognitive ability)",
+  "notes": "COMMON EXPRESSIONS:\n- {知恵|ちえ}⟦を→を：00422_wo⟧⟦{絞|しぼ}る→絞る：03926_shiboru⟧ (to rack one's brains)\n- {知恵|ちえ}⟦を→を：00422_wo⟧⟦{借|か}りる→借りる：00532_kariru⟧ (to seek advice/wisdom)\n- {知恵|ちえ}⟦を→を：00422_wo⟧⟦{出|だ}す→出す：01087_dasu⟧ (to come up with ideas)\n- {知恵|ちえ}⟦が→が：00051_ga⟧⟦つく→付く：01960_tsuku⟧ (to become wise/clever)\n- {知恵|ちえ}⟦{袋|ぶくろ}→袋：00837_fukuro⟧ (brain trust)\n\nCOMPOUNDS:\n- {知恵|ちえ}⟦の→の：09472_no⟧⟦{輪|わ}→輪：02142_wa⟧ (puzzle ring)\n- ⟦{生活|せいかつ}→生活：01443_seikatsu⟧⟦の→の：09472_no⟧{知恵|ちえ} (practical wisdom)\n\nSIMILAR WORDS:\n- {知恵|ちえ}: Wisdom (practical, experiential)\n- ⟦{知識|ちしき}→知識：01463_chishiki⟧: Knowledge (factual information)\n- ⟦{知能|ちのう}→知能：03471_chinou⟧: Intelligence (cognitive ability)",
   "cross_references": [
     {
       "type": "related",
@@ -93,11 +93,39 @@
       "reading": "ちせい",
       "headword": "{知性|ちせい}",
       "label": "intellect (cultivated)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03471_chinou",
+      "reading": "ちのう",
+      "headword": "{知能|ちのう}",
+      "label": "Intelligence"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00250_kufuu",
+      "reading": "くふう",
+      "headword": "{工夫|くふう}",
+      "label": "device"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22322_chiryoku",
+      "reading": "ちりょく",
+      "headword": "{知力|ちりょく}",
+      "label": "intellect"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27095_saikaku",
+      "reading": "さいかく",
+      "headword": "{才覚|さいかく}",
+      "label": "resourcefulness"
     }
   ],
   "metadata": {
     "created": "2026-01-12T14:48:00Z",
-    "modified": "2026-05-25T16:37:15Z",
+    "modified": "2026-09-02T04:01:03Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

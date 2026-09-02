@@ -15,40 +15,80 @@
   "examples": [
     {
       "id": "15230_bishokuka_ex1",
-      "japanese": "{彼|かれ}は{美食家|びしょくか}だ。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{美食家|びしょくか}だ。",
       "english": "He is a gourmet.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15230_bishokuka_ex2",
-      "japanese": "{美食家|びしょくか}の{友人|ゆうじん}にレストランを{紹介|しょうかい}してもらった。",
+      "japanese": "{美食家|びしょくか}⟦の→の：09472_no⟧⟦{友人|ゆうじん}→友人：03649_yuujin⟧⟦に→に：00314_ni⟧⟦レストラン→レストラン：01048_resutoran⟧⟦を→を：00422_wo⟧⟦{紹介|しょうかい}して→紹介する：05641_shoukaisuru⟧⟦もらった→もらう：00520_morau⟧。",
       "english": "I had my gourmet friend recommend a restaurant.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15230_bishokuka_ex3",
-      "japanese": "{美食家|びしょくか}として{知|し}られる{彼女|かのじょ}のブログには{全国|ぜんこく}の{名店|めいてん}が{紹介|しょうかい}されている。",
+      "japanese": "{美食家|びしょくか}⟦として→として：06802_toshite⟧⟦{知|し}られる→知る：00458_shiru⟧⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦の→の：09472_no⟧⟦ブログ→ブログ：05104_burogu⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{全国|ぜんこく}→全国：03311_zenkoku⟧⟦の→の：09472_no⟧⟦{名店|めいてん}→名店：21511_meiten⟧⟦が→が：00051_ga⟧⟦{紹介|しょうかい}→紹介：01432_shoukai⟧⟦されている→する：00392_suru⟧。",
       "english": "The blog of the well-known food connoisseur features famous restaurants from across the country.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "FORMATION: {美|び} (beautiful) + {食|しょく} (food) + {家|か} (person/expert). The suffix {家|か} denotes a person who specializes in or is known for something.\n\nCOMMON COLLOCATIONS:\n- {美食家|びしょくか}として{知|し}られる: to be known as a gourmet\n- {美食家|びしょくか}の{舌|した}: a gourmet's palate\n- {美食家|びしょくか}も{唸|うな}る: to impress even gourmets\n\nSIMILAR WORDS:\n- グルメ: gourmet (loanword, more casual and commonly used in everyday speech)\n- {食通|しょくつう}: food connoisseur (similar formality to {美食家|びしょくか})\n- {食|く}いしん{坊|ぼう}: glutton, big eater (focuses on quantity rather than quality)",
-  "cross_references": [],
+  "notes": "FORMATION: ⟦{美|び}→美：28891_bi⟧ (beautiful) + {食|しょく} (food) + ⟦{家|か}→〜家：28339_ka⟧ (person/expert). The suffix ⟦{家|か}→〜家：28339_ka⟧ denotes a person who specializes in or is known for something.\n\nCOMMON COLLOCATIONS:\n- {美食家|びしょくか}⟦として→として：06802_toshite⟧⟦{知|し}られる→知る：00458_shiru⟧: to be known as a gourmet\n- {美食家|びしょくか}⟦の→の：09472_no⟧⟦{舌|した}→舌：02154_shita⟧: a gourmet's palate\n- {美食家|びしょくか}⟦も→も：00484_mo⟧{唸|うな}る: to impress even gourmets\n\nSIMILAR WORDS:\n- ⟦グルメ→グルメ：10845_gurume⟧: gourmet (loanword, more casual and commonly used in everyday speech)\n- ⟦{食通|しょくつう}→食通：15101_shokutsuu⟧: food connoisseur (similar formality to {美食家|びしょくか})\n- ⟦{食|く}いしん{坊|ぼう}→食いしん坊：16180_kuishinbou⟧: glutton, big eater (focuses on quantity rather than quality)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "10845_gurume",
+      "reading": "ぐるめ",
+      "headword": "グルメ",
+      "label": "gourmet"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15101_shokutsuu",
+      "reading": "しょくつう",
+      "headword": "{食通|しょくつう}",
+      "label": "food connoisseur"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16180_kuishinbou",
+      "reading": "くいしんぼう",
+      "headword": "{食|く}いしん{坊|ぼう}",
+      "label": "glutton, big eater"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24352_shokudouraku",
+      "reading": "しょくどうらく",
+      "headword": "{食道楽|しょくどうらく}",
+      "label": "gourmet"
+    }
+  ],
   "metadata": {
     "created": "2026-03-05T10:18:46Z",
-    "modified": "2026-03-05T10:18:46Z",
+    "modified": "2026-09-02T04:01:40Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["person", "food"]
+      "semantic": [
+        "person",
+        "food"
+      ]
     }
   }
 }

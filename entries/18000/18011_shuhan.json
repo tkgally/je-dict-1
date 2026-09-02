@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "18011_shuhan_ex1",
-      "japanese": "{主犯|しゅはん}が{逮捕|たいほ}された。",
+      "japanese": "{主犯|しゅはん}⟦が→が：00051_ga⟧⟦{逮捕|たいほ}→逮捕：03397_taiho⟧⟦された→する：00392_suru⟧。",
       "english": "The principal offender was arrested.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "18011_shuhan_ex2",
-      "japanese": "{警察|けいさつ}は{主犯|しゅはん}{格|かく}の{男|おとこ}を{指名|しめい}{手配|てはい}した。",
+      "japanese": "⟦{警察|けいさつ}→警察：01393_keisatsu⟧⟦は→は：00079_ha⟧{主犯|しゅはん}{格|かく}⟦の→の：09472_no⟧⟦{男|おとこ}→男：00561_otoko⟧⟦を→を：00422_wo⟧⟦{指名|しめい}{手配|てはい}→指名手配：18897_shimeitehai⟧⟦した→する：00392_suru⟧。",
       "english": "The police issued a wanted notice for the man believed to be the ringleader.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "18011_shuhan_ex3",
-      "japanese": "{詐欺|さぎ}{事件|じけん}の{主犯|しゅはん}は{海外|かいがい}に{逃亡|とうぼう}したが、{共犯者|きょうはんしゃ}{三|さん}{名|めい}はすでに{逮捕|たいほ}されている。",
+      "japanese": "⟦{詐欺|さぎ}→詐欺：09789_sagi⟧⟦{事件|じけん}→事件：01568_jiken⟧⟦の→の：09472_no⟧{主犯|しゅはん}⟦は→は：00079_ha⟧⟦{海外|かいがい}→海外：00134_kaigai⟧⟦に→に：00314_ni⟧⟦{逃亡|とうぼう}した→逃亡する：26871_toubousuru⟧⟦が→が：00051_ga⟧、{共犯者|きょうはんしゃ}⟦{三|さん}→三：00749_san⟧{名|めい}⟦は→は：00079_ha⟧すでに⟦{逮捕|たいほ}→逮捕：03397_taiho⟧⟦されている→する：00392_suru⟧。",
       "english": "The mastermind of the fraud case fled abroad, but three accomplices have already been arrested.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA legal and news term. {主犯|しゅはん}{格|かく} is a common variant meaning \"believed to be the principal offender\" or \"ringleader-level figure,\" used when the exact role hasn't been legally established.\n\nCOMMON COLLOCATIONS:\n- {主犯|しゅはん}{格|かく} (ringleader; principal offender level)\n- {主犯|しゅはん}を{逮捕|たいほ}する (to arrest the principal offender)\n- {主犯|しゅはん}と{共犯|きょうはん} (the principal and the accomplice)\n\nSIMILAR WORDS:\n- {共犯|きょうはん}: accomplice — a secondary participant in the crime\n- {犯人|はんにん}: criminal, perpetrator — the general word for someone who committed a crime\n- {首謀者|しゅぼうしゃ}: mastermind — emphasizes the planning role",
+  "notes": "USAGE:\nA legal and news term. {主犯|しゅはん}{格|かく} is a common variant meaning \"believed to be the principal offender\" or \"ringleader-level figure,\" used when the exact role hasn't been legally established.\n\nCOMMON COLLOCATIONS:\n- {主犯|しゅはん}{格|かく} (ringleader; principal offender level)\n- {主犯|しゅはん}⟦を→を：00422_wo⟧⟦{逮捕|たいほ}する→逮捕する：26830_taihosuru⟧ (to arrest the principal offender)\n- {主犯|しゅはん}⟦と→と：00512_to⟧⟦{共犯|きょうはん}→共犯：11687_kyouhan⟧ (the principal and the accomplice)\n\nSIMILAR WORDS:\n- ⟦{共犯|きょうはん}→共犯：11687_kyouhan⟧: accomplice — a secondary participant in the crime\n- ⟦{犯人|はんにん}→犯人：03572_hannin⟧: criminal, perpetrator — the general word for someone who committed a crime\n- ⟦{首謀者|しゅぼうしゃ}→首謀者：19171_shubousha⟧: mastermind — emphasizes the planning role",
   "cross_references": [
     {
       "type": "contrast",
@@ -66,11 +66,32 @@
       "reading": "しゅぼうしゃ",
       "headword": "{首謀者|しゅぼうしゃ}",
       "label": "mastermind (planning focus)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22551_shubou",
+      "reading": "しゅぼう",
+      "headword": "{首謀|しゅぼう}",
+      "label": "masterminding"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23640_seihan",
+      "reading": "せいはん",
+      "headword": "{正犯|せいはん}",
+      "label": "principal (offender)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27691_kyoubousha",
+      "reading": "きょうぼうしゃ",
+      "headword": "{共謀|きょうぼう}{者|しゃ}",
+      "label": "co-conspirator"
     }
   ],
   "metadata": {
     "created": "2026-03-19T11:55:39Z",
-    "modified": "2026-05-08T04:12:06Z",
+    "modified": "2026-09-02T04:01:50Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

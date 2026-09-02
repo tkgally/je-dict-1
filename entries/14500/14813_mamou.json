@@ -3,7 +3,7 @@
   "id": "14813_mamou",
   "headword": "{摩耗|まもう}",
   "reading": "まもう",
-  "part_of_speech": "noun / verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "wear and tear; abrasion; attrition",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "14813_mamou_ex1",
-      "japanese": "タイヤが{摩耗|まもう}している。",
+      "japanese": "⟦タイヤ→タイヤ：06330_taiya⟧⟦が→が：00051_ga⟧{摩耗|まもう}⟦している→する：00392_suru⟧。",
       "english": "The tires are worn down.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "14813_mamou_ex2",
-      "japanese": "ブレーキパッドの{摩耗|まもう}が{激|はげ}しい。",
+      "japanese": "⟦ブレーキ→ブレーキ：00022_bureeki⟧パッド⟦の→の：09472_no⟧{摩耗|まもう}⟦が→が：00051_ga⟧⟦{激|はげ}しい→激しい：02348_hageshii⟧。",
       "english": "The brake pads are severely worn.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "14813_mamou_ex3",
-      "japanese": "{長年|ながねん}の{使用|しよう}で{部品|ぶひん}が{摩耗|まもう}して{交換|こうかん}が{必要|ひつよう}になった。",
+      "japanese": "⟦{長年|ながねん}→長年：09684_naganen⟧⟦の→の：09472_no⟧⟦{使用|しよう}→使用：01637_shiyou⟧⟦で→で：00502_de⟧⟦{部品|ぶひん}→部品：00020_buhin⟧⟦が→が：00051_ga⟧{摩耗|まもう}⟦して→する：00392_suru⟧⟦{交換|こうかん}→交換：02746_koukan⟧⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧になった。",
       "english": "Years of use wore down the parts and they needed to be replaced.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,11 @@
       ]
     }
   ],
-  "notes": "A compound of {摩|ま} (to rub, to grind) and {耗|もう} (to wear out, to diminish). Primarily a technical term used for physical wear on materials and machinery.\n\nCOMMON COLLOCATIONS:\n- {摩耗|まもう}が{激|はげ}しい (severely worn)\n- {摩耗|まもう}に{強|つよ}い (resistant to wear)\n- {摩耗|まもう}{防止|ぼうし} (wear prevention)\n- タイヤの{摩耗|まもう} (tire wear)\n- {経年|けいねん}{摩耗|まもう} (wear from aging)\n\nAlso written as {磨耗|まもう} with the alternate kanji {磨|ま}. Both writings are common.",
+  "notes": "A compound of {摩|ま} (to rub, to grind) and {耗|もう} (to wear out, to diminish). Primarily a technical term used for physical wear on materials and machinery.\n\nCOMMON COLLOCATIONS:\n- {摩耗|まもう}⟦が→が：00051_ga⟧⟦{激|はげ}しい→激しい：02348_hageshii⟧ (severely worn)\n- {摩耗|まもう}⟦に→に：00314_ni⟧⟦{強|つよ}い→強い：00820_tsuyoi⟧ (resistant to wear)\n- {摩耗|まもう}⟦{防止|ぼうし}→防止：14571_boushi⟧ (wear prevention)\n- ⟦タイヤ→タイヤ：06330_taiya⟧⟦の→の：09472_no⟧{摩耗|まもう} (tire wear)\n- {経年|けいねん}{摩耗|まもう} (wear from aging)\n\nAlso written as {磨耗|まもう} with the alternate kanji {磨|ま}. Both writings are common.",
   "cross_references": [],
   "metadata": {
     "created": "2026-03-04T04:01:53Z",
-    "modified": "2026-03-29T03:08:18Z",
+    "modified": "2026-09-02T04:01:38Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -154,7 +154,8 @@
       "domain": [
         "technical"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22221_fuudii_ex1",
-      "japanese": "{黒|くろ}いフーディーを{着|き}ている。",
+      "japanese": "⟦{黒|くろ}い→黒い：00588_kuroi⟧フーディー⟦を→を：00422_wo⟧⟦{着|き}ている→着る：00541_kiru⟧。",
       "english": "I'm wearing a black hoodie.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22221_fuudii_ex2",
-      "japanese": "{寒|さむ}いからフーディーを{羽織|はお}った。",
+      "japanese": "⟦{寒|さむ}い→寒い：00664_samui⟧⟦から→から：00504_kara⟧フーディー⟦を→を：00422_wo⟧⟦{羽織|はお}った→羽織る：13901_haoru⟧。",
       "english": "It was cold, so I threw on a hoodie.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22221_fuudii_ex3",
-      "japanese": "このブランドのフーディーは{肌触|はだざわ}りがよくて{人気|にんき}がある。",
+      "japanese": "⟦この→この：00962_kono⟧⟦ブランド→ブランド：05221_burando⟧⟦の→の：09472_no⟧フーディー⟦は→は：00079_ha⟧⟦{肌触|はだざわ}り→肌触り：06637_hadazawari⟧⟦が→が：00051_ga⟧⟦よくて→いい：00118_ii⟧⟦{人気|にんき}→人気：01488_ninki⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "This brand's hoodies are popular because they feel nice against the skin.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "A loanword from English 'hoodie.' In Japanese fashion language, フーディー specifically refers to a hooded sweatshirt (pullover or zip-up). The older term パーカー is also very common and more widely used.\n\nCOMMON COLLOCATIONS:\n- フーディーを{着|き}る — to wear a hoodie\n- ジップフーディー — zip-up hoodie\n- オーバーサイズフーディー — oversized hoodie\n- プルオーバーフーディー — pullover hoodie\n\nSIMILAR WORDS:\n- パーカー — parka/hoodie (the most common Japanese term for a hooded sweatshirt; from English 'parka' but used differently)\n- トレーナー — sweatshirt (without a hood; from English 'trainer')\n- スウェット — sweatshirt/sweatpants (general term for sweat fabric clothing)\n\nUSAGE NOTE:\nフーディー has become more common in recent years through fashion media and online shopping, but パーカー remains the dominant everyday term for a hooded sweatshirt in Japan. パーカー in Japanese refers specifically to hooded tops, unlike the English 'parka' which denotes a heavy winter coat.",
+  "notes": "A loanword from English 'hoodie.' In Japanese fashion language, フーディー specifically refers to a hooded sweatshirt (pullover or zip-up). The older term ⟦パーカー→パーカー：04524_paakaa⟧ is also very common and more widely used.\n\nCOMMON COLLOCATIONS:\n- フーディー⟦を→を：00422_wo⟧⟦{着|き}る→着る：00541_kiru⟧ — to wear a hoodie\n- ジップフーディー — zip-up hoodie\n- オーバーサイズフーディー — oversized hoodie\n- プルオーバーフーディー — pullover hoodie\n\nSIMILAR WORDS:\n- ⟦パーカー→パーカー：04524_paakaa⟧ — parka/hoodie (the most common Japanese term for a hooded sweatshirt; from English 'parka' but used differently)\n- ⟦トレーナー→トレーナー：21469_toreenaa⟧ — sweatshirt (without a hood; from English 'trainer')\n- ⟦スウェット→スウェット：28532_suwetto⟧ — sweatshirt/sweatpants (general term for sweat fabric clothing)\n\nUSAGE:\nフーディー has become more common in recent years through fashion media and online shopping, but ⟦パーカー→パーカー：04524_paakaa⟧ remains the dominant everyday term for a hooded sweatshirt in Japan. ⟦パーカー→パーカー：04524_paakaa⟧ in Japanese refers specifically to hooded tops, unlike the English 'parka' which denotes a heavy winter coat.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04524_paakaa",
+      "reading": "ぱーかー",
+      "headword": "パーカー",
+      "label": "parka/hoodie (the most common Japanese…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21469_toreenaa",
+      "reading": "とれーなー",
+      "headword": "トレーナー",
+      "label": "sweatshirt (without a hood"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28532_suwetto",
+      "reading": "すうぇっと",
+      "headword": "スウェット",
+      "label": "sweatshirt/sweatpants"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,12 +76,12 @@
         "noun"
       ],
       "formality": "informal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "clothing"
       ]
     },
     "created": "2026-04-05T14:22:28Z",
-    "modified": "2026-04-05T14:22:28Z"
+    "modified": "2026-09-02T04:02:07Z"
   }
 }

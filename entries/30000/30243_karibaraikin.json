@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30243_karibaraikin_ex1",
-      "japanese": "{仮払金|かりばらいきん}を{申請|しんせい}した。",
+      "japanese": "{仮払金|かりばらいきん}⟦を→を：00422_wo⟧⟦{申請|しんせい}した→申請する：25228_shinseisuru⟧。",
       "english": "I applied for a cash advance.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30243_karibaraikin_ex2",
-      "japanese": "{出張|しゅっちょう}の{前|まえ}に{仮払金|かりばらいきん}を{受|う}け{取|と}った。",
+      "japanese": "⟦{出張|しゅっちょう}→出張：01094_shucchou⟧⟦の→の：09472_no⟧⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧{仮払金|かりばらいきん}⟦を→を：00422_wo⟧⟦{受|う}け{取|と}った→受け取る：01883_uketoru⟧。",
       "english": "I received an advance payment before the business trip.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30243_karibaraikin_ex3",
-      "japanese": "{領収書|りょうしゅうしょ}を{提出|ていしゅつ}して、{仮払金|かりばらいきん}を{精算|せいさん}してください。",
+      "japanese": "⟦{領収書|りょうしゅうしょ}→領収書：04697_ryoushuusho⟧⟦を→を：00422_wo⟧⟦{提出|ていしゅつ}して→提出する：19644_teishutsusuru⟧、{仮払金|かりばらいきん}⟦を→を：00422_wo⟧⟦{精算|せいさん}→精算：10899_seisan⟧⟦して→する：00392_suru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please submit your receipts and settle the advance payment.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "{仮|かり} (temporary, provisional) + {払|はら}い (payment) + {金|きん} (money). The {仮|かり} element marks the payment as provisional: the amount is corrected later when the real expense is known.\n\nCOMMON COLLOCATIONS:\n- {仮払金|かりばらいきん}を{申請|しんせい}する: to apply for an advance\n- {仮払金|かりばらいきん}を{精算|せいさん}する: to settle an advance\n- {仮払金|かりばらいきん}の{残高|ざんだか}: outstanding advance balance\n\nSIMILAR WORDS:\n- {前払金|まえばらいきん}: prepayment — paid in advance for a fixed, agreed amount, not provisional\n- {立替金|たてかえきん}: money paid on someone's behalf — the payer expects reimbursement afterward",
+  "notes": "⟦{仮|かり}→仮：11551_kari⟧ (temporary, provisional) + ⟦{払|はら}い→払い：18738_harai⟧ (payment) + {金|きん} (money). The ⟦{仮|かり}→仮：11551_kari⟧ element marks the payment as provisional: the amount is corrected later when the real expense is known.\n\nCOMMON COLLOCATIONS:\n- {仮払金|かりばらいきん}⟦を→を：00422_wo⟧⟦{申請|しんせい}する→申請する：25228_shinseisuru⟧: to apply for an advance\n- {仮払金|かりばらいきん}⟦を→を：00422_wo⟧⟦{精算|せいさん}→精算：10899_seisan⟧⟦する→する：00392_suru⟧: to settle an advance\n- {仮払金|かりばらいきん}⟦の→の：09472_no⟧⟦{残高|ざんだか}→残高：05422_zandaka⟧: outstanding advance balance\n\nSIMILAR WORDS:\n- ⟦{前払金|まえばらいきん}→前払金：30222_maebaraikin⟧: prepayment — paid in advance for a fixed, agreed amount, not provisional\n- ⟦{立替金|たてかえきん}→立替金：23618_tatekaekin⟧: money paid on someone's behalf — the payer expects reimbursement afterward",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "30222_maebaraikin",
+      "reading": "まえばらいきん",
+      "headword": "{前払金|まえばらいきん}",
+      "label": "prepayment"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23618_tatekaekin",
+      "reading": "たてかえきん",
+      "headword": "{立替金|たてかえきん}",
+      "label": "money paid on someone's behalf"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +69,7 @@
         "noun"
       ],
       "formality": "formal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "money",
         "finance"
@@ -63,6 +79,6 @@
       ]
     },
     "created": "2026-07-30T12:18:26Z",
-    "modified": "2026-07-30T12:18:26Z"
+    "modified": "2026-09-02T04:02:39Z"
   }
 }

@@ -3,7 +3,7 @@
   "headword": "{配備|はいび}",
   "reading": "はいび",
   "romaji": "haibi",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "deployment; positioning; stationing",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25292_haibi_ex1",
-      "japanese": "ミサイルが{配備|はいび}された。",
+      "japanese": "⟦ミサイル→ミサイル：26959_misairu⟧⟦が→が：00051_ga⟧{配備|はいび}⟦された→する：00392_suru⟧。",
       "english": "Missiles were deployed.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25292_haibi_ex2",
-      "japanese": "{国境|こっきょう}{付近|ふきん}に{軍隊|ぐんたい}を{配備|はいび}した。",
+      "japanese": "⟦{国境|こっきょう}→国境：02762_kokkyou⟧⟦{付近|ふきん}→付近：00044_fukin⟧⟦に→に：00314_ni⟧⟦{軍隊|ぐんたい}→軍隊：02678_guntai⟧⟦を→を：00422_wo⟧{配備|はいび}⟦した→する：00392_suru⟧。",
       "english": "Troops were stationed near the border.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25292_haibi_ex3",
-      "japanese": "{新型|しんがた}の{戦闘機|せんとうき}がこの{基地|きち}に{配備|はいび}されることが{決|き}まった。",
+      "japanese": "⟦{新型|しんがた}→新型：19411_shingata⟧⟦の→の：09472_no⟧⟦{戦闘機|せんとうき}→戦闘機：23287_sentouki⟧⟦が→が：00051_ga⟧⟦この→この：00962_kono⟧⟦{基地|きち}→基地：03982_kichi⟧⟦に→に：00314_ni⟧{配備|はいび}⟦される→する：00392_suru⟧こと⟦が→が：00051_ga⟧⟦{決|き}まった→決まる：01233_kimaru⟧。",
       "english": "It has been decided that new fighter jets will be deployed to this base.",
       "sense_numbers": [
         1
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {配|はい} (distribute, arrange) + {備|び} (equip, prepare). Primarily a military term for placing forces or weapons in strategic locations. Also used more broadly for deploying equipment or resources.\n\nCOMMON COLLOCATIONS:\n- {軍|ぐん}を{配備|はいび}する: to deploy forces\n- ミサイルを{配備|はいび}する: to deploy missiles\n- {配備|はいび}{計画|けいかく}: deployment plan\n- {前方|ぜんぽう}{配備|はいび}: forward deployment\n- {核|かく}{配備|はいび}: nuclear deployment\n\nSIMILAR WORDS:\n- {配置|はいち}: arrangement, positioning — more general; can refer to arranging people or things in any context\n- {展開|てんかい}: deployment, development — also used for military operations but has broader meanings\n- {駐留|ちゅうりゅう}: stationing (of troops) — implies a longer-term presence in a location",
+  "notes": "Composed of {配|はい} (distribute, arrange) + {備|び} (equip, prepare). Primarily a military term for placing forces or weapons in strategic locations. Also used more broadly for deploying equipment or resources.\n\nCOMMON COLLOCATIONS:\n- ⟦{軍|ぐん}→軍：02677_gun⟧⟦を→を：00422_wo⟧{配備|はいび}⟦する→する：00392_suru⟧: to deploy forces\n- ⟦ミサイル→ミサイル：26959_misairu⟧⟦を→を：00422_wo⟧{配備|はいび}⟦する→する：00392_suru⟧: to deploy missiles\n- {配備|はいび}⟦{計画|けいかく}→計画：01172_keikaku⟧: deployment plan\n- ⟦{前方|ぜんぽう}→前方：19125_zenpou⟧{配備|はいび}: forward deployment\n- ⟦{核|かく}→核：13127_kaku⟧{配備|はいび}: nuclear deployment\n\nSIMILAR WORDS:\n- ⟦{配置|はいち}→配置：14409_haichi⟧: arrangement, positioning — more general; can refer to arranging people or things in any context\n- ⟦{展開|てんかい}→展開：04542_tenkai⟧: deployment, development — also used for military operations but has broader meanings\n- ⟦{駐留|ちゅうりゅう}→駐留：23159_chuuryuu⟧: stationing (of troops) — implies a longer-term presence in a location",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14409_haichi",
+      "reading": "はいち",
+      "headword": "{配置|はいち}",
+      "label": "arrangement, positioning"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04542_tenkai",
+      "reading": "てんかい",
+      "headword": "{展開|てんかい}",
+      "label": "deployment, development"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23159_chuuryuu",
+      "reading": "ちゅうりゅう",
+      "headword": "{駐留|ちゅうりゅう}",
+      "label": "stationing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22864_chuuton",
+      "reading": "ちゅうとん",
+      "headword": "{駐屯|ちゅうとん}",
+      "label": "stationing"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,6 +83,8 @@
         "noun",
         "verb-suru"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "military",
         "politics"
@@ -60,7 +92,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-24T13:21:08Z",
-    "modified": "2026-04-24T13:21:08Z"
+    "modified": "2026-09-02T04:02:21Z"
   },
   "conjugation": {
     "type": "suru",

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28185_souseiji_ex1",
-      "japanese": "{一卵性|いちらんせい}{双生児|そうせいじ}を{研究|けんきゅう}する。",
+      "japanese": "⟦{一卵性|いちらんせい}→一卵性：08959_ichiransei⟧{双生児|そうせいじ}⟦を→を：00422_wo⟧⟦{研究|けんきゅう}→研究：01396_kenkyuu⟧⟦する→する：00392_suru⟧。",
       "english": "To study identical twins.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28185_souseiji_ex2",
-      "japanese": "{双生児|そうせいじ}は{遺伝|いでん}の{研究|けんきゅう}でよく{扱|あつか}われる。",
+      "japanese": "{双生児|そうせいじ}⟦は→は：00079_ha⟧⟦{遺伝|いでん}→遺伝：10137_iden⟧⟦の→の：09472_no⟧⟦{研究|けんきゅう}→研究：01396_kenkyuu⟧⟦で→で：00502_de⟧⟦よく→よく：00601_yoku⟧⟦{扱|あつか}われる→扱う：01862_atsukau⟧。",
       "english": "Twins are often studied in genetic research.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28185_souseiji_ex3",
-      "japanese": "{一卵性|いちらんせい}{双生児|そうせいじ}と{二卵性|にらんせい}{双生児|そうせいじ}では、{遺伝子|いでんし}の{共通|きょうつう}{度|ど}が{異|こと}なる。",
+      "japanese": "⟦{一卵性|いちらんせい}→一卵性：08959_ichiransei⟧{双生児|そうせいじ}⟦と→と：00512_to⟧{二卵性|にらんせい}{双生児|そうせいじ}⟦で→で：00502_de⟧⟦は→は：00079_ha⟧、⟦{遺伝子|いでんし}→遺伝子：05031_idenshi⟧⟦の→の：09472_no⟧⟦{共通|きょうつう}→共通：02590_kyoutsuu⟧⟦{度|ど}→〜度：09845_do⟧⟦が→が：00051_ga⟧⟦{異|こと}なる→異なる：02101_kotonaru⟧。",
       "english": "Identical twins and fraternal twins differ in how much of their genes they share.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "A formal, scholarly term of Chinese-character origin: {双|そう} (pair) + {生|せい} (birth) + {児|じ} (child). Used in medical, academic, and legal contexts; ordinary conversation uses {双子|ふたご}.\n\nCOMMON COLLOCATIONS:\n- {一卵性|いちらんせい}{双生児|そうせいじ}: identical (monozygotic) twins\n- {二卵性|にらんせい}{双生児|そうせいじ}: fraternal (dizygotic) twins\n- {双生児|そうせいじ}{研究|けんきゅう}: twin study\n\nSIMILAR WORDS:\n- {双子|ふたご}: twins — the everyday word; {双生児|そうせいじ} is its formal counterpart\n- {三|み}つ{子|ご}: triplets — three children born together",
+  "notes": "A formal, scholarly term of Chinese-character origin: {双|そう} (pair) + {生|せい} (birth) + {児|じ} (child). Used in medical, academic, and legal contexts; ordinary conversation uses ⟦{双子|ふたご}→双子：03599_futago⟧.\n\nCOMMON COLLOCATIONS:\n- ⟦{一卵性|いちらんせい}→一卵性：08959_ichiransei⟧{双生児|そうせいじ}: identical (monozygotic) twins\n- {二卵性|にらんせい}{双生児|そうせいじ}: fraternal (dizygotic) twins\n- {双生児|そうせいじ}⟦{研究|けんきゅう}→研究：01396_kenkyuu⟧: twin study\n\nSIMILAR WORDS:\n- ⟦{双子|ふたご}→双子：03599_futago⟧: twins — the everyday word; {双生児|そうせいじ} is its formal counterpart\n- ⟦{三|み}つ{子|ご}→三つ子：28184_mitsugo⟧: triplets — three children born together",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03599_futago",
+      "reading": "ふたご",
+      "headword": "{双子|ふたご}",
+      "label": "twins"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28184_mitsugo",
+      "reading": "みつご",
+      "headword": "{三|み}つ{子|ご}",
+      "label": "triplets"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +69,7 @@
         "noun"
       ],
       "formality": "formal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "family"
       ],
@@ -62,6 +78,6 @@
       ]
     },
     "created": "2026-05-27T02:07:43Z",
-    "modified": "2026-05-27T02:07:43Z"
+    "modified": "2026-09-02T04:02:32Z"
   }
 }

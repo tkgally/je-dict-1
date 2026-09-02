@@ -3,7 +3,7 @@
   "headword": "ノックする",
   "reading": "のっくする",
   "romaji": "nokkusuru",
-  "part_of_speech": "noun, verb (する)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "to knock (on a door)",
   "conjugation": {
     "type": "suru",
@@ -110,7 +110,7 @@
   "examples": [
     {
       "id": "21998_nokkusuru_ex1",
-      "japanese": "ドアをノックする。",
+      "japanese": "⟦ドア→ドア：00773_doa⟧⟦を→を：00422_wo⟧ノックする。",
       "english": "To knock on a door.",
       "sense_numbers": [
         1
@@ -120,7 +120,7 @@
     },
     {
       "id": "21998_nokkusuru_ex2",
-      "japanese": "{部屋|へや}に{入|はい}る{前|まえ}にノックしてください。",
+      "japanese": "⟦{部屋|へや}→部屋：00507_heya⟧⟦に→に：00314_ni⟧⟦{入|はい}る→入る：00494_hairu⟧⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧ノックして⟦ください→ください：02899_kudasai⟧。",
       "english": "Please knock before entering the room.",
       "sense_numbers": [
         1
@@ -130,7 +130,7 @@
     },
     {
       "id": "21998_nokkusuru_ex3",
-      "japanese": "3{回|かい}ノックしたが、{返事|へんじ}がなかった。",
+      "japanese": "3⟦{回|かい}→回：00957_kai⟧ノックした⟦が→が：00051_ga⟧、⟦{返事|へんじ}→返事：00844_henji⟧⟦が→が：00051_ga⟧⟦なかった→ない：01118_nai⟧。",
       "english": "I knocked three times, but there was no answer.",
       "sense_numbers": [
         1
@@ -140,7 +140,7 @@
     },
     {
       "id": "21998_nokkusuru_ex4",
-      "japanese": "{監督|かんとく}がノックする。",
+      "japanese": "⟦{監督|かんとく}→監督：00185_kantoku⟧⟦が→が：00051_ga⟧ノックする。",
       "english": "The coach hits practice balls.",
       "sense_numbers": [
         2
@@ -150,7 +150,7 @@
     },
     {
       "id": "21998_nokkusuru_ex5",
-      "japanese": "{毎日|まいにち}ノックを{受|う}けて{守備|しゅび}を{鍛|きた}えた。",
+      "japanese": "⟦{毎日|まいにち}→毎日：00729_mainichi⟧⟦ノック→ノック：03868_nokku⟧⟦を→を：00422_wo⟧⟦{受|う}けて→受ける：01215_ukeru⟧⟦{守備|しゅび}→守備：15509_shubi⟧⟦を→を：00422_wo⟧⟦{鍛|きた}えた→鍛える：12326_kitaeru⟧。",
       "english": "I trained my fielding by taking grounders every day.",
       "sense_numbers": [
         2
@@ -160,7 +160,7 @@
     },
     {
       "id": "21998_nokkusuru_ex6",
-      "japanese": "{千本|せんぼん}ノックで{選手|せんしゅ}たちは{汗|あせ}だくになった。",
+      "japanese": "{千本|せんぼん}⟦ノック→ノック：03868_nokku⟧⟦で→で：00502_de⟧⟦{選手|せんしゅ}→選手：03823_senshu⟧たち⟦は→は：00079_ha⟧{汗|あせ}だくになった。",
       "english": "The players were drenched in sweat from the thousand-ball fielding drill.",
       "sense_numbers": [
         2
@@ -169,7 +169,7 @@
       "notes": null
     }
   ],
-  "notes": "A loanword from English 'knock.' The door-knocking sense is universally understood. The baseball sense is deeply embedded in Japanese baseball culture.\n\nCOMMON COLLOCATIONS:\n- ドアをノックする: to knock on a door\n- ノックの{音|おと}: the sound of a knock\n- {千本|せんぼん}ノック: thousand-ball drill (grueling fielding practice)\n- ノックを{受|う}ける: to field practice balls\n- ノックバット: fungo bat (for hitting practice balls)\n\nCULTURAL NOTE:\nIn Japan, the standard business etiquette is to knock three times on a door before entering. Two knocks is considered too casual (associated with checking a restroom stall), while four or more is seen as excessive.",
+  "notes": "A loanword from English 'knock.' The door-knocking sense is universally understood. The baseball sense is deeply embedded in Japanese baseball culture.\n\nCOMMON COLLOCATIONS:\n- ⟦ドア→ドア：00773_doa⟧⟦を→を：00422_wo⟧ノックする: to knock on a door\n- ⟦ノック→ノック：03868_nokku⟧⟦の→の：09472_no⟧⟦{音|おと}→音：00743_oto⟧: the sound of a knock\n- {千本|せんぼん}⟦ノック→ノック：03868_nokku⟧: thousand-ball drill (grueling fielding practice)\n- ⟦ノック→ノック：03868_nokku⟧⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧: to field practice balls\n- ⟦ノック→ノック：03868_nokku⟧⟦バット→バット：11590_batto⟧: fungo bat (for hitting practice balls)\n\nCULTURAL NOTE:\nIn Japan, the standard business etiquette is to knock three times on a door before entering. Two knocks is considered too casual (associated with checking a restroom stall), while four or more is seen as excessive.",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -184,9 +184,10 @@
         "daily-life",
         "sports"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-04-04T19:32:19Z",
-    "modified": "2026-04-04T19:32:19Z"
+    "modified": "2026-09-02T04:02:06Z"
   }
 }

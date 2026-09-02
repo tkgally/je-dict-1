@@ -14,41 +14,66 @@
   "examples": [
     {
       "id": "09976_ryuugakusaki_ex1",
-      "japanese": "{留学先|りゅうがくさき}を{決|き}める。",
+      "japanese": "{留学先|りゅうがくさき}⟦を→を：00422_wo⟧⟦{決|き}める→決める：00858_kimeru⟧。",
       "english": "To decide on a study abroad destination.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09976_ryuugakusaki_ex2",
-      "japanese": "{留学先|りゅうがくさき}はアメリカの{大学|だいがく}です。",
+      "japanese": "{留学先|りゅうがくさき}⟦は→は：00079_ha⟧⟦アメリカ→アメリカ：01769_amerika⟧⟦の→の：09472_no⟧⟦{大学|だいがく}→大学：00608_daigaku⟧です。",
       "english": "My study abroad destination is a university in America.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09976_ryuugakusaki_ex3",
-      "japanese": "{留学先|りゅうがくさき}で{多|おお}くの{友達|ともだち}ができて、{貴重|きちょう}な{経験|けいけん}になった。",
+      "japanese": "{留学先|りゅうがくさき}⟦で→で：00502_de⟧{多|おお}く⟦の→の：09472_no⟧⟦{友達|ともだち}→友達：01478_tomodachi⟧⟦が→が：00051_ga⟧⟦できて→できる：00557_dekiru⟧、⟦{貴重|きちょう}→貴重：00223_kichou⟧な⟦{経験|けいけん}→経験：01179_keiken⟧になった。",
       "english": "I made many friends at my study abroad destination, and it was a valuable experience.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{留学先|りゅうがくさき} is a compound of {留学|りゅうがく} (study abroad) and {先|さき} (destination).\n\nRELATED TERMS:\n- {留学生|りゅうがくせい}: international student\n- {海外|かいがい}{留学|りゅうがく}: overseas study\n- {交換|こうかん}{留学|りゅうがく}: exchange program\n\nCOMMON EXPRESSIONS:\n- {留学先|りゅうがくさき}を{選|えら}ぶ: to choose a study abroad destination\n- {留学先|りゅうがくさき}での{生活|せいかつ}: life at one's study abroad destination\n- {留学先|りゅうがくさき}から{帰|かえ}る: to return from studying abroad",
-  "cross_references": [],
+  "notes": "{留学先|りゅうがくさき} is a compound of ⟦{留学|りゅうがく}→留学：03677_ryuugaku⟧ (study abroad) and ⟦{先|さき}→先：02883_saki⟧ (destination).\n\nRELATED WORDS:\n- ⟦{留学生|りゅうがくせい}→留学生：02986_ryuugakusei⟧: international student\n- ⟦{海外|かいがい}→海外：00134_kaigai⟧⟦{留学|りゅうがく}→留学：03677_ryuugaku⟧: overseas study\n- ⟦{交換|こうかん}{留学|りゅうがく}→交換留学：17940_koukanryuugaku⟧: exchange program\n\nCOMMON EXPRESSIONS:\n- {留学先|りゅうがくさき}⟦を→を：00422_wo⟧⟦{選|えら}ぶ→選ぶ：00835_erabu⟧: to choose a study abroad destination\n- {留学先|りゅうがくさき}⟦で→で：00502_de⟧⟦の→の：09472_no⟧⟦{生活|せいかつ}→生活：01443_seikatsu⟧: life at one's study abroad destination\n- {留学先|りゅうがくさき}⟦から→から：00504_kara⟧⟦{帰|かえ}る→帰る：00508_kaeru⟧: to return from studying abroad",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "02986_ryuugakusei",
+      "reading": "りゅうがくせい",
+      "headword": "{留学生|りゅうがくせい}",
+      "label": "international student"
+    },
+    {
+      "type": "related",
+      "target_id": "17940_koukanryuugaku",
+      "reading": "こうかんりゅうがく",
+      "headword": "{交換留学|こうかんりゅうがく}",
+      "label": "exchange program"
+    }
+  ],
   "metadata": {
     "created": "2026-02-04T12:05:21Z",
-    "modified": "2026-02-04T12:05:21Z",
+    "modified": "2026-09-02T04:01:19Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["education"]
+      "semantic": [
+        "education"
+      ]
     }
   }
 }

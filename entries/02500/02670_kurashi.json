@@ -23,7 +23,9 @@
       "english": "To make a living.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "02670_kurashi_ex2",
@@ -31,7 +33,9 @@
       "english": "Life is hard (financially).",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "02670_kurashi_ex3",
@@ -39,7 +43,9 @@
       "english": "I make a living with this job.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "02670_kurashi_ex4",
@@ -47,7 +53,9 @@
       "english": "Having children costs money to live.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "02670_kurashi_ex5",
@@ -55,7 +63,9 @@
       "english": "My salary went up and my living conditions improved.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "02670_kurashi_ex6",
@@ -63,7 +73,9 @@
       "english": "To enjoy country living.",
       "notes": "[Note: Becomes ぐらし as suffix]",
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "02670_kurashi_ex7",
@@ -71,7 +83,9 @@
       "english": "To start living alone.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "02670_kurashi_ex8",
@@ -79,7 +93,9 @@
       "english": "I want to live a quiet life.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "02670_kurashi_ex9",
@@ -87,7 +103,9 @@
       "english": "I've gotten used to city life.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "02670_kurashi_ex10",
@@ -95,7 +113,9 @@
       "english": "After getting married, I learned the joy of living as a couple.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "{暮|く}らし describes how one lives day-to-day.\n\nCOMMON PATTERNS:\n- {暮|く}らし⟦が→が：00051_ga⟧⟦{楽|らく}→楽：02169_raku⟧⟦だ→だ：09496_da⟧/⟦きつい→きつい：02342_kitsui⟧ (life is easy/hard)\n- {暮|く}らし⟦を→を：00422_wo⟧⟦{立|た}てる→立てる：01196_tateru⟧ (to make a living)\n- {暮|く}らし⟦{向|む}き→向き：12041_muki⟧ (living conditions)\n\nAS SUFFIX (becomes ぐらし):\n- ⟦{一人|ひとり}→一人：00630_hitori⟧{暮|ぐ}らし (living alone)\n- ⟦{二人|ふたり}→二人：00622_futari⟧{暮|ぐ}らし (living as a couple)\n- ⟦{田舎|いなか}→田舎：01320_inaka⟧{暮|ぐ}らし (country living)\n- ⟦{都会|とかい}→都会：02475_tokai⟧{暮|ぐ}らし (city living)\n\nRELATED WORDS:\n- ⟦{暮|く}らす→暮らす：01937_kurasu⟧ (to live)\n- ⟦{生活|せいかつ}→生活：01443_seikatsu⟧ (life, livelihood - more formal)",
@@ -106,11 +126,32 @@
       "headword": "{生活|せいかつ}",
       "label": "life (formal)",
       "target_id": "01443_seikatsu"
+    },
+    {
+      "type": "related",
+      "target_id": "01937_kurasu",
+      "reading": "くらす",
+      "headword": "{暮|く}らす",
+      "label": "to live"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01839_seikatsusuru",
+      "reading": "せいかつする",
+      "headword": "{生活|せいかつ}する",
+      "label": "life, living"
+    },
+    {
+      "type": "related",
+      "target_id": "07817_raifusutairu",
+      "reading": "らいふすたいる",
+      "headword": "ライフスタイル",
+      "label": "lifestyle"
     }
   ],
   "metadata": {
     "created": "2026-01-11T07:03:40Z",
-    "modified": "2026-05-21T19:10:17Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

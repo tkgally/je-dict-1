@@ -2,7 +2,7 @@
   "id": "10167_kouki",
   "headword": "{高貴|こうき}",
   "reading": "こうき",
-  "part_of_speech": "adjective-na",
+  "part_of_speech": "na-adjective",
   "gloss": "noble, aristocratic",
   "definitions": [
     {
@@ -14,30 +14,36 @@
   "examples": [
     {
       "id": "10167_kouki_ex1",
-      "japanese": "{高貴|こうき}な{生|う}まれの{人|ひと}だ。",
+      "japanese": "{高貴|こうき}な⟦{生|う}まれ→生まれ：01867_umare⟧⟦の→の：09472_no⟧⟦{人|ひと}→人：00476_hito⟧だ。",
       "english": "He is a person of noble birth.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10167_kouki_ex2",
-      "japanese": "{彼女|かのじょ}は{高貴|こうき}な{雰囲気|ふんいき}を{持|も}っている。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧{高貴|こうき}な⟦{雰囲気|ふんいき}→雰囲気：03604_funiki⟧⟦を→を：00422_wo⟧⟦{持|も}っている→持つ：00478_motsu⟧。",
       "english": "She has a noble air about her.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10167_kouki_ex3",
-      "japanese": "{高貴|こうき}な{身分|みぶん}の{方|かた}にお{会|あ}いした。",
+      "japanese": "{高貴|こうき}な⟦{身分|みぶん}→身分：00278_mibun⟧⟦の→の：09472_no⟧⟦{方|かた}→方：10665_kata⟧⟦に→に：00314_ni⟧お⟦{会|あ}い→会う：00482_au⟧⟦した→する：00392_suru⟧。",
       "english": "I met a person of noble status.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{高貴|こうき} is a na-adjective describing noble birth, aristocratic status, or refined elegance. It carries a formal, literary tone.\n\nFORMS:\n- Na-adjective: {高貴|こうき}な + noun\n- Adverbial: {高貴|こうき}に\n\nCOMMON EXPRESSIONS:\n- {高貴|こうき}な{身分|みぶん}: noble status/rank\n- {高貴|こうき}な{生|う}まれ: noble birth\n- {高貴|こうき}な{雰囲気|ふんいき}: noble atmosphere/aura\n- {高貴|こうき}な{方|かた}: a person of high standing\n\nSIMILAR WORDS:\n- {気高|けだか}い: noble, sublime (inner character or spirit)\n- {上品|じょうひん}: elegant, refined (manner and taste)\n- {高尚|こうしょう}: lofty, elevated (interests or thoughts)\n\nREGISTER:\nFormal and literary. Used in historical contexts, formal descriptions, and figurative praise of someone's dignity.",
+  "notes": "{高貴|こうき} is a na-adjective describing noble birth, aristocratic status, or refined elegance. It carries a formal, literary tone.\n\nFORMS:\n- Na-adjective: {高貴|こうき}な + noun\n- Adverbial: {高貴|こうき}⟦に→に：00314_ni⟧\n\nCOMMON EXPRESSIONS:\n- {高貴|こうき}な⟦{身分|みぶん}→身分：00278_mibun⟧: noble status/rank\n- {高貴|こうき}な⟦{生|う}まれ→生まれ：01867_umare⟧: noble birth\n- {高貴|こうき}な⟦{雰囲気|ふんいき}→雰囲気：03604_funiki⟧: noble atmosphere/aura\n- {高貴|こうき}な⟦{方|かた}→方：10665_kata⟧: a person of high standing\n\nSIMILAR WORDS:\n- {気高|けだか}い: noble, sublime (inner character or spirit)\n- ⟦{上品|じょうひん}→上品：03081_jouhin⟧: elegant, refined (manner and taste)\n- ⟦{高尚|こうしょう}→高尚：14761_koushou⟧: lofty, elevated (interests or thoughts)\n\nREGISTER:\nFormal and literary. Used in historical contexts, formal descriptions, and figurative praise of someone's dignity.",
   "cross_references": [
     {
       "type": "synonym",
@@ -52,17 +58,35 @@
       "reading": "じょうひん",
       "headword": "{上品|じょうひん}",
       "label": "elegant, refined"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14761_koushou",
+      "reading": "こうしょう",
+      "headword": "{高尚|こうしょう}",
+      "label": "lofty, elevated"
+    },
+    {
+      "type": "related",
+      "target_id": "18039_suukou",
+      "reading": "すうこう",
+      "headword": "{崇高|すうこう}",
+      "label": "sublime"
     }
   ],
   "metadata": {
     "created": "2026-02-05T11:49:02Z",
-    "modified": "2026-03-28T00:56:49Z",
+    "modified": "2026-09-02T04:01:20Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-na"],
+      "pos": [
+        "adjective-na"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["descriptive"]
+      "semantic": [
+        "descriptive"
+      ]
     }
   }
 }

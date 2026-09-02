@@ -15,41 +15,66 @@
   "examples": [
     {
       "id": "11584_suponsaa_ex1",
-      "japanese": "スポンサーを{探|さが}す。",
+      "japanese": "スポンサー⟦を→を：00422_wo⟧⟦{探|さが}す→探す：00493_sagasu⟧。",
       "english": "To look for a sponsor.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11584_suponsaa_ex2",
-      "japanese": "この{番組|ばんぐみ}のスポンサーは{大手|おおて}{企業|きぎょう}だ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{番組|ばんぐみ}→番組：01705_bangumi⟧⟦の→の：09472_no⟧スポンサー⟦は→は：00079_ha⟧⟦{大手|おおて}→大手：12171_oote⟧⟦{企業|きぎょう}→企業：00225_kigyou⟧だ。",
       "english": "The sponsor of this program is a major corporation.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11584_suponsaa_ex3",
-      "japanese": "スポンサーが{降|お}りたため、イベントの{開催|かいさい}が{危|あや}ぶまれている。",
+      "japanese": "スポンサー⟦が→が：00051_ga⟧⟦{降|お}りた→降りる：00568_oriru⟧⟦ため→ため：01145_tame⟧、⟦イベント→イベント：09594_ibento⟧⟦の→の：09472_no⟧⟦{開催|かいさい}→開催：10457_kaisai⟧⟦が→が：00051_ga⟧{危|あや}ぶまれて⟦いる→いる：00495_iru⟧。",
       "english": "Since the sponsor pulled out, the event may not take place.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "COMMON COLLOCATIONS:\n- スポンサーを{探|さが}す: to look for a sponsor\n- スポンサーが{付|つ}く: to gain a sponsor\n- スポンサーが{降|お}りる: for a sponsor to pull out/withdraw\n- スポンサー{契約|けいやく}: sponsorship contract\n- メインスポンサー: main/primary sponsor\n- スポンサー{料|りょう}: sponsorship fee\n\nIn Japanese media, TV programs often announce their sponsors at the beginning with the phrase 「この{番組|ばんぐみ}は、ご{覧|らん}のスポンサーの{提供|ていきょう}でお{送|おく}りします」 (This program is brought to you by the following sponsors).",
-  "cross_references": [],
+  "notes": "COMMON COLLOCATIONS:\n- スポンサー⟦を→を：00422_wo⟧⟦{探|さが}す→探す：00493_sagasu⟧: to look for a sponsor\n- スポンサー⟦が→が：00051_ga⟧⟦{付|つ}く→付く：01960_tsuku⟧: to gain a sponsor\n- スポンサー⟦が→が：00051_ga⟧⟦{降|お}りる→降りる：00568_oriru⟧: for a sponsor to pull out/withdraw\n- スポンサー⟦{契約|けいやく}→契約：02698_keiyaku⟧: sponsorship contract\n- ⟦メイン→メイン：11164_mein⟧スポンサー: main/primary sponsor\n- スポンサー⟦{料|りょう}→料：28172_ryou⟧: sponsorship fee\n\nIn Japanese media, TV programs often announce their sponsors at the beginning with the phrase 「⟦この→この：00962_kono⟧⟦{番組|ばんぐみ}→番組：01705_bangumi⟧⟦は→は：00079_ha⟧、⟦ご{覧|らん}→ご覧：01408_goran⟧⟦の→の：09472_no⟧スポンサー⟦の→の：09472_no⟧⟦{提供|ていきょう}→提供：12909_teikyou⟧⟦で→で：00502_de⟧お⟦{送|おく}り→送る：00742_okuru⟧⟦します→する：00392_suru⟧」 (This program is brought to you by the following sponsors).",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21846_kouensha",
+      "reading": "こうえんしゃ",
+      "headword": "{後援者|こうえんしゃ}",
+      "label": "supporter"
+    },
+    {
+      "type": "related",
+      "target_id": "25701_koukokunushi",
+      "reading": "こうこくぬし",
+      "headword": "{広告主|こうこくぬし}",
+      "label": "advertiser"
+    }
+  ],
   "metadata": {
     "created": "2026-02-17T13:43:10Z",
-    "modified": "2026-02-17T13:43:10Z",
+    "modified": "2026-09-02T04:01:25Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["work"]
+      "semantic": [
+        "work"
+      ]
     }
   }
 }

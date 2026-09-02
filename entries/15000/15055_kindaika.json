@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "15055_kindaika_ex1",
-      "japanese": "{日本|にほん}の{近代化|きんだいか}は{明治|めいじ}{時代|じだい}に{始|はじ}まった。",
+      "japanese": "⟦{日本|にほん}→日本：03876_nihon⟧⟦の→の：09472_no⟧{近代化|きんだいか}⟦は→は：00079_ha⟧⟦{明治|めいじ}{時代|じだい}→明治時代：28080_meijijidai⟧⟦に→に：00314_ni⟧⟦{始|はじ}まった→始まる：00841_hajimaru⟧。",
       "english": "Japan's modernization began in the Meiji era.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "15055_kindaika_ex2",
-      "japanese": "{農業|のうぎょう}の{近代化|きんだいか}が{進|すす}んだ。",
+      "japanese": "⟦{農業|のうぎょう}→農業：01491_nougyou⟧⟦の→の：09472_no⟧{近代化|きんだいか}⟦が→が：00051_ga⟧⟦{進|すす}んだ→進む：01225_susumu⟧。",
       "english": "Agricultural modernization advanced.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "15055_kindaika_ex3",
-      "japanese": "{急速|きゅうそく}な{近代化|きんだいか}は{伝統|でんとう}{文化|ぶんか}との{摩擦|まさつ}を{生|う}むこともある。",
+      "japanese": "⟦{急速|きゅうそく}→急速：02634_kyuusoku⟧な{近代化|きんだいか}⟦は→は：00079_ha⟧⟦{伝統|でんとう}→伝統：09585_dentou⟧⟦{文化|ぶんか}→文化：01504_bunka⟧⟦と→と：00512_to⟧⟦の→の：09472_no⟧⟦{摩擦|まさつ}→摩擦：00271_masatsu⟧⟦を→を：00422_wo⟧⟦{生|う}む→生む：29531_umu⟧こと⟦も→も：00484_mo⟧⟦ある→ある：00006_aru⟧。",
       "english": "Rapid modernization can sometimes create friction with traditional culture.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,19 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{近代化|きんだいか} is frequently used in history, politics, and social science. In Japanese history, it most often refers to the sweeping changes of the {明治維新|めいじいしん} (Meiji Restoration) period.\n\nCOMMON COLLOCATIONS:\n- {近代化|きんだいか}を{進|すす}める (to promote modernization)\n- {近代化|きんだいか}が{進|すす}む (modernization advances)\n- {急速|きゅうそく}な{近代化|きんだいか} (rapid modernization)\n- {産業|さんぎょう}の{近代化|きんだいか} (industrial modernization)\n\nWORD FORMATION:\nFormed from {近代|きんだい} (modern era) + {化|か} (transformation suffix). The suffix ～{化|か} is productive: {国際化|こくさいか} (internationalization), {都市化|としか} (urbanization).",
-  "cross_references": [],
+  "notes": "USAGE:\n{近代化|きんだいか} is frequently used in history, politics, and social science. In Japanese history, it most often refers to the sweeping changes of the ⟦{明治維新|めいじいしん}→明治維新：16286_meijiishin⟧ (Meiji Restoration) period.\n\nCOMMON COLLOCATIONS:\n- {近代化|きんだいか}⟦を→を：00422_wo⟧⟦{進|すす}める→進める：01949_susumeru⟧ (to promote modernization)\n- {近代化|きんだいか}⟦が→が：00051_ga⟧⟦{進|すす}む→進む：01225_susumu⟧ (modernization advances)\n- ⟦{急速|きゅうそく}→急速：02634_kyuusoku⟧な{近代化|きんだいか} (rapid modernization)\n- ⟦{産業|さんぎょう}→産業：01419_sangyou⟧⟦の→の：09472_no⟧{近代化|きんだいか} (industrial modernization)\n\nFORMS:\nFormed from ⟦{近代|きんだい}→近代：02663_kindai⟧ (modern era) + ⟦{化|か}→〜化：28335_ka⟧ (transformation suffix). The suffix ～⟦{化|か}→〜化：28335_ka⟧ is productive: ⟦{国際化|こくさいか}→国際化：29799_kokusaika⟧ (internationalization), ⟦{都市化|としか}→都市化：05787_toshika⟧ (urbanization).",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24717_sangyouka",
+      "reading": "さんぎょうか",
+      "headword": "{産業化|さんぎょうか}",
+      "label": "industrialization"
+    }
+  ],
   "metadata": {
     "created": "2026-03-05T06:20:54Z",
-    "modified": "2026-03-29T03:08:43Z",
+    "modified": "2026-09-02T04:01:39Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

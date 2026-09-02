@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "10343_shocchuu_ex1",
-      "japanese": "あの{二人|ふたり}はしょっちゅう{喧嘩|けんか}している。",
+      "japanese": "⟦あの→あの：00915_ano⟧⟦{二人|ふたり}→二人：00622_futari⟧⟦は→は：00079_ha⟧しょっちゅう⟦{喧嘩|けんか}→喧嘩：02996_kenka⟧⟦している→する：00392_suru⟧。",
       "english": "Those two are constantly fighting.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "10343_shocchuu_ex2",
-      "japanese": "{最近|さいきん}、しょっちゅう{頭|あたま}が{痛|いた}くなる。",
+      "japanese": "⟦{最近|さいきん}→最近：00881_saikin⟧、しょっちゅう⟦{頭|あたま}→頭：00574_atama⟧⟦が→が：00051_ga⟧⟦{痛|いた}く→痛い：01108_itai⟧⟦なる→なる：01970_naru⟧。",
       "english": "Lately, I've been getting headaches all the time.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "10343_shocchuu_ex3",
-      "japanese": "{学生|がくせい}の{頃|ころ}は、しょっちゅうあの{店|みせ}でラーメンを{食|た}べていた。",
+      "japanese": "⟦{学生|がくせい}→学生：00610_gakusei⟧⟦の→の：09472_no⟧{頃|ころ}⟦は→は：00079_ha⟧、しょっちゅう⟦あの→あの：00915_ano⟧⟦{店|みせ}→店：00497_mise⟧⟦で→で：00502_de⟧⟦ラーメン→ラーメン：05181_raamen⟧⟦を→を：00422_wo⟧⟦{食|た}べていた→食べる：00396_taberu⟧。",
       "english": "When I was a student, I was always eating ramen at that shop.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "A casual adverb meaning \"all the time\" or \"constantly.\" Derived from {始終|しじゅう} (from beginning to end).\n\nFREQUENCY SCALE (high → low):\n- いつも: always (neutral)\n- しょっちゅう: constantly, all the time (casual, emphatic)\n- よく: often (neutral)\n- {時々|ときどき}: sometimes\n- たまに: occasionally\n\nNUANCE:\nMore casual and emphatic than よく or いつも. Often carries a feeling of \"too often\" or slight exasperation. Common in spoken Japanese but avoided in formal writing.\n\nEXAMPLE PATTERNS:\n- しょっちゅう{遅刻|ちこく}する: to be late all the time\n- しょっちゅう{喧嘩|けんか}する: to fight constantly\n- しょっちゅう{行|い}く: to go there all the time\n\nREGISTER:\nInformal/colloquial. In formal contexts, use {頻繁|ひんぱん}に (frequently) or {常|つね}に (constantly) instead.",
+  "notes": "A casual adverb meaning \"all the time\" or \"constantly.\" Derived from ⟦{始終|しじゅう}→始終：04192_shijuu⟧ (from beginning to end).\n\nFREQUENCY SCALE (high → low):\n- ⟦いつも→いつも：00599_itsumo⟧: always (neutral)\n- しょっちゅう: constantly, all the time (casual, emphatic)\n- ⟦よく→よく：00601_yoku⟧: often (neutral)\n- ⟦{時々|ときどき}→時々：00600_tokidoki⟧: sometimes\n- ⟦たまに→たまに：01276_tamani⟧: occasionally\n\nUSAGE:\nMore casual and emphatic than ⟦よく→よく：00601_yoku⟧ or ⟦いつも→いつも：00599_itsumo⟧. Often carries a feeling of \"too often\" or slight exasperation. Common in spoken Japanese but avoided in formal writing.\n\nEXAMPLE PATTERNS:\n- しょっちゅう⟦{遅刻|ちこく}する→遅刻する：22282_chikokusuru⟧: to be late all the time\n- しょっちゅう⟦{喧嘩|けんか}→喧嘩：02996_kenka⟧⟦する→する：00392_suru⟧: to fight constantly\n- しょっちゅう⟦{行|い}く→行く：00119_iku⟧: to go there all the time\n\nREGISTER:\nInformal/colloquial. In formal contexts, use ⟦{頻繁|ひんぱん}→頻繁：08631_hinpan⟧⟦に→に：00314_ni⟧ (frequently) or ⟦{常|つね}→常：28958_tsune⟧⟦に→に：00314_ni⟧ (constantly) instead.",
   "cross_references": [
     {
       "type": "synonym",
@@ -59,17 +59,32 @@
       "reading": "しじゅう",
       "headword": "{始終|しじゅう}",
       "label": "constantly (slightly formal)"
+    },
+    {
+      "type": "related",
+      "target_id": "00311_nenjuu",
+      "reading": "ねんじゅう",
+      "headword": "{年中|ねんじゅう}",
+      "label": "all year"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15192_hinpanni",
+      "reading": "ひんぱんに",
+      "headword": "{頻繁|ひんぱん}に",
+      "label": "frequently"
     }
   ],
   "metadata": {
     "created": "2026-02-07T06:48:21Z",
-    "modified": "2026-08-14T01:00:44Z",
+    "modified": "2026-09-02T04:01:20Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "adverb"
       ],
       "formality": "informal",
+      "politeness": "plain",
       "style": [
         "spoken"
       ],

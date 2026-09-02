@@ -15,39 +15,65 @@
   "examples": [
     {
       "id": "26396_kasutamaasapooto_ex1",
-      "japanese": "カスタマーサポートに{電話|でんわ}した。",
+      "japanese": "カスタマーサポート⟦に→に：00314_ni⟧⟦{電話|でんわ}した→電話する：05652_denwasuru⟧。",
       "english": "I called customer support.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26396_kasutamaasapooto_ex2",
-      "japanese": "カスタマーサポートの{対応|たいおう}がとても{丁寧|ていねい}だった。",
+      "japanese": "カスタマーサポート⟦の→の：09472_no⟧⟦{対応|たいおう}→対応：02510_taiou⟧⟦が→が：00051_ga⟧⟦とても→とても：00593_totemo⟧⟦{丁寧|ていねい}→丁寧：00896_teinei⟧だった。",
       "english": "The customer support response was very polite.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26396_kasutamaasapooto_ex3",
-      "japanese": "{商品|しょうひん}に{不具合|ふぐあい}があったので、カスタマーサポートに{問|と}い{合|あ}わせて{交換|こうかん}してもらった。",
+      "japanese": "⟦{商品|しょうひん}→商品：01436_shouhin⟧⟦に→に：00314_ni⟧⟦{不具合|ふぐあい}→不具合：06413_fuguai⟧⟦が→が：00051_ga⟧⟦あった→ある：00006_aru⟧⟦の→の：09472_no⟧で、カスタマーサポート⟦に→に：00314_ni⟧⟦{問|と}い{合|あ}わせて→問い合わせる：17737_toiawaseru⟧⟦{交換|こうかん}→交換：02746_koukan⟧⟦して→する：00392_suru⟧⟦もらった→もらう：00520_morau⟧。",
       "english": "There was a defect in the product, so I contacted customer support and had it exchanged.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A loanword from English 'customer support.' Often abbreviated to カスタマー or CS in business contexts. Japanese customer service is internationally renowned for its thoroughness and politeness, and カスタマーサポート departments typically offer multiple contact channels including phone, email, chat, and increasingly LINE.\n\nCOMMON COLLOCATIONS:\n- カスタマーサポートに{連絡|れんらく}する: to contact customer support\n- カスタマーサポート{窓口|まどぐち}: customer support desk/contact point\n- カスタマーサポート{担当|たんとう}: customer support representative\n- {24時間|にじゅうよじかん}カスタマーサポート: 24-hour customer support\n\nSIMILAR WORDS:\n- {顧客|こきゃく}サービス: customer service — more formal, Japanese-loanword hybrid\n- お{客様|きゃくさま}サポート: customer support — uses the honorific Japanese term for customer\n- ヘルプデスク: help desk — often more technical in focus\n- {問|と}い{合|あ}わせ{窓口|まどぐち}: inquiry desk — generic contact point for questions",
-  "cross_references": [],
+  "notes": "A loanword from English 'customer support.' Often abbreviated to カスタマー or CS in business contexts. Japanese customer service is internationally renowned for its thoroughness and politeness, and カスタマーサポート departments typically offer multiple contact channels including phone, email, chat, and increasingly LINE.\n\nCOMMON COLLOCATIONS:\n- カスタマーサポート⟦に→に：00314_ni⟧⟦{連絡|れんらく}する→連絡する：20202_renrakusuru⟧: to contact customer support\n- カスタマーサポート⟦{窓口|まどぐち}→窓口：03154_madoguchi⟧: customer support desk/contact point\n- カスタマーサポート⟦{担当|たんとう}→担当：02567_tantou⟧: customer support representative\n- {24時間|にじゅうよじかん}カスタマーサポート: 24-hour customer support\n\nSIMILAR WORDS:\n- ⟦{顧客|こきゃく}サービス→顧客サービス：23725_kokyakusaabisu⟧: customer service — more formal, Japanese-loanword hybrid\n- ⟦お{客様|きゃくさま}→お客様：08780_okyakusama⟧⟦サポート→サポート：07776_sapooto⟧: customer support — uses the honorific Japanese term for customer\n- ヘルプデスク: help desk — often more technical in focus\n- ⟦{問|と}い{合|あ}わせ→問い合わせ：06131_toiawase⟧⟦{窓口|まどぐち}→窓口：03154_madoguchi⟧: inquiry desk — generic contact point for questions",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23725_kokyakusaabisu",
+      "reading": "こきゃくさーびす",
+      "headword": "{顧客|こきゃく}サービス",
+      "label": "customer service"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25299_kokyakutaiou",
+      "reading": "こきゃくたいおう",
+      "headword": "{顧客対応|こきゃくたいおう}",
+      "label": "customer service"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["business", "communication"]
+      "pos": [
+        "noun"
+      ],
+      "semantic": [
+        "business",
+        "communication"
+      ]
     },
     "created": "2026-05-01T13:36:44Z",
-    "modified": "2026-05-01T13:36:44Z"
+    "modified": "2026-09-02T04:02:26Z"
   }
 }

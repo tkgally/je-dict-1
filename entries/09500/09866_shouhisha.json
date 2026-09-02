@@ -14,30 +14,36 @@
   "examples": [
     {
       "id": "09866_shouhisha_ex1",
-      "japanese": "{賢|かしこ}い{消費者|しょうひしゃ}になろう。",
+      "japanese": "⟦{賢|かしこ}い→賢い：00192_kashikoi⟧{消費者|しょうひしゃ}⟦に→に：00314_ni⟧⟦なろう→なる：01970_naru⟧。",
       "english": "Let's become smart consumers.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09866_shouhisha_ex2",
-      "japanese": "{消費者|しょうひしゃ}の{権利|けんり}を{守|まも}る。",
+      "japanese": "{消費者|しょうひしゃ}⟦の→の：09472_no⟧⟦{権利|けんり}→権利：02711_kenri⟧⟦を→を：00422_wo⟧⟦{守|まも}る→守る：01986_mamoru⟧。",
       "english": "To protect consumer rights.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09866_shouhisha_ex3",
-      "japanese": "{消費者|しょうひしゃ}のニーズに{応|こた}える。",
+      "japanese": "{消費者|しょうひしゃ}⟦の→の：09472_no⟧⟦ニーズ→ニーズ：11244_niizu⟧⟦に→に：00314_ni⟧⟦{応|こた}える→応える：09893_kotaeru⟧。",
       "english": "To meet consumer needs.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{消費者|しょうひしゃ} refers to consumers in an economic context.\n\nCOMMON COLLOCATIONS:\n- {消費者|しょうひしゃ}{保護|ほご}: consumer protection\n- {消費者|しょうひしゃ}{金融|きんゆう}: consumer finance\n- {消費者|しょうひしゃ}{庁|ちょう}: Consumer Affairs Agency\n- {消費者|しょうひしゃ}センター: consumer center\n- {消費者|しょうひしゃ}の{権利|けんり}: consumer rights\n- {消費者|しょうひしゃ}ニーズ: consumer needs\n\nRELATED TERMS:\n- {消費|しょうひ}: consumption\n- {消費|しょうひ}する: to consume\n- {生産者|せいさんしゃ}: producer\n- {顧客|こきゃく}: customer, client",
+  "notes": "{消費者|しょうひしゃ} refers to consumers in an economic context.\n\nCOMMON COLLOCATIONS:\n- {消費者|しょうひしゃ}⟦{保護|ほご}→保護：03625_hogo⟧: consumer protection\n- {消費者|しょうひしゃ}⟦{金融|きんゆう}→金融：02664_kinyuu⟧: consumer finance\n- {消費者|しょうひしゃ}{庁|ちょう}: Consumer Affairs Agency\n- {消費者|しょうひしゃ}⟦センター→センター：03854_sentaa⟧: consumer center\n- {消費者|しょうひしゃ}⟦の→の：09472_no⟧⟦{権利|けんり}→権利：02711_kenri⟧: consumer rights\n- {消費者|しょうひしゃ}⟦ニーズ→ニーズ：11244_niizu⟧: consumer needs\n\nRELATED WORDS:\n- ⟦{消費|しょうひ}→消費：03240_shouhi⟧: consumption\n- ⟦{消費|しょうひ}する→消費する：25230_shouhisuru⟧: to consume\n- ⟦{生産者|せいさんしゃ}→生産者：25443_seisansha⟧: producer\n- ⟦{顧客|こきゃく}→顧客：08632_kokyaku⟧: customer, client",
   "cross_references": [
     {
       "type": "related",
@@ -45,18 +51,64 @@
       "reading": "しょうひ",
       "headword": "{消費|しょうひ}",
       "label": "consumption"
+    },
+    {
+      "type": "related",
+      "target_id": "25230_shouhisuru",
+      "reading": "しょうひする",
+      "headword": "{消費|しょうひ}する",
+      "label": "to consume"
+    },
+    {
+      "type": "related",
+      "target_id": "25443_seisansha",
+      "reading": "せいさんしゃ",
+      "headword": "{生産者|せいさんしゃ}",
+      "label": "producer"
+    },
+    {
+      "type": "related",
+      "target_id": "08632_kokyaku",
+      "reading": "こきゃく",
+      "headword": "{顧客|こきゃく}",
+      "label": "customer, client"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03189_riyousha",
+      "reading": "りようしゃ",
+      "headword": "{利用者|りようしゃ}",
+      "label": "user, customer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24770_kaite",
+      "reading": "かいて",
+      "headword": "{買|か}い{手|て}",
+      "label": "buyer, purchaser"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25442_kounyuusha",
+      "reading": "こうにゅうしゃ",
+      "headword": "{購入者|こうにゅうしゃ}",
+      "label": "purchaser"
     }
   ],
   "metadata": {
     "created": "2026-02-04T01:44:31Z",
-    "modified": "2026-02-04T01:44:31Z",
+    "modified": "2026-09-02T04:01:19Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["person"]
+      "semantic": [
+        "person"
+      ]
     }
   }
 }

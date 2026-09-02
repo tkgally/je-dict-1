@@ -15,41 +15,61 @@
   "examples": [
     {
       "id": "27797_nimaijita_ex1",
-      "japanese": "{彼|かれ}は{二枚舌|にまいじた}だ。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{二枚舌|にまいじた}だ。",
       "english": "He's two-faced.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27797_nimaijita_ex2",
-      "japanese": "{二枚舌|にまいじた}を{使|つか}う{人|ひと}は{信用|しんよう}できない。",
+      "japanese": "{二枚舌|にまいじた}⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧⟦{人|ひと}→人：00476_hito⟧⟦は→は：00079_ha⟧⟦{信用|しんよう}できない→信用する：25371_shinyousuru⟧。",
       "english": "You can't trust someone who talks out of both sides of their mouth.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27797_nimaijita_ex3",
-      "japanese": "{相手|あいて}によって{言|い}うことを{変|か}える{二枚舌|にまいじた}な{態度|たいど}に{腹|はら}が{立|た}った。",
+      "japanese": "⟦{相手|あいて}→相手：01677_aite⟧⟦によって→によって：06801_niyotte⟧⟦{言|い}う→言う：00515_iu⟧こと⟦を→を：00422_wo⟧⟦{変|か}える→変える：01089_kaeru⟧{二枚舌|にまいじた}な⟦{態度|たいど}→態度：03396_taido⟧⟦に→に：00314_ni⟧⟦{腹|はら}→腹：02165_hara⟧⟦が→が：00051_ga⟧⟦{立|た}った→立つ：00758_tatsu⟧。",
       "english": "I was angry at his two-faced way of changing what he said depending on the listener.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Literally 'two tongues.' Almost always used with {使|つか}う in the set phrase {二枚舌|にまいじた}を{使|つか}う (to engage in double-talk).\n\nCOMMON COLLOCATIONS:\n- {二枚舌|にまいじた}を{使|つか}う: to say two different things; to be deceitful\n\nSIMILAR WORDS:\n- {裏表|うらおもて}がある: to be two-faced — having a hidden side different from the public one\n- うそつき: a liar — the plain word for someone who tells untruths",
+  "notes": "Literally 'two tongues.' Almost always used with ⟦{使|つか}う→使う：00473_tsukau⟧ in the set phrase {二枚舌|にまいじた}⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧ (to engage in double-talk).\n\nCOMMON COLLOCATIONS:\n- {二枚舌|にまいじた}⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧: to say two different things; to be deceitful\n\nSIMILAR WORDS:\n- ⟦{裏表|うらおもて}→裏表：07738_uraomote⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧: to be two-faced — having a hidden side different from the public one\n- うそつき: a liar — the plain word for someone who tells untruths",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08273_usotsuki",
+      "reading": "うそつき",
+      "headword": "{嘘|うそ}つき",
+      "label": "a liar"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["communication", "personality"],
+      "politeness": "plain",
+      "semantic": [
+        "communication",
+        "personality"
+      ],
       "domain": []
     },
     "created": "2026-05-19T03:07:48Z",
-    "modified": "2026-05-19T03:07:48Z"
+    "modified": "2026-09-02T04:02:31Z"
   }
 }

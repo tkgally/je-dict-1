@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "09921_secchuu_ex1",
-      "japanese": "{和洋|わよう}{折衷|せっちゅう}のデザインだ。",
+      "japanese": "{和洋|わよう}{折衷|せっちゅう}⟦の→の：09472_no⟧⟦デザイン→デザイン：03860_dezain⟧だ。",
       "english": "It's a design that blends Japanese and Western styles.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "09921_secchuu_ex2",
-      "japanese": "{両者|りょうしゃ}の{意見|いけん}を{折衷|せっちゅう}した{案|あん}を{作|つく}る。",
+      "japanese": "⟦{両者|りょうしゃ}→両者：11357_ryousha⟧⟦の→の：09472_no⟧⟦{意見|いけん}→意見：01303_iken⟧⟦を→を：00422_wo⟧{折衷|せっちゅう}⟦した→する：00392_suru⟧⟦{案|あん}→案：01776_an⟧⟦を→を：00422_wo⟧⟦{作|つく}る→作る：00481_tsukuru⟧。",
       "english": "Create a plan that compromises between both parties' opinions.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "09921_secchuu_ex3",
-      "japanese": "{伝統|でんとう}と{現代|げんだい}を{折衷|せっちゅう}した{建築|けんちく}が{増|ふ}えている。",
+      "japanese": "⟦{伝統|でんとう}→伝統：09585_dentou⟧⟦と→と：00512_to⟧⟦{現代|げんだい}→現代：02722_gendai⟧⟦を→を：00422_wo⟧{折衷|せっちゅう}⟦した→する：00392_suru⟧⟦{建築|けんちく}→建築：02709_kenchiku⟧⟦が→が：00051_ga⟧⟦{増|ふ}えている→増える：01183_fueru⟧。",
       "english": "Architecture that blends traditional and modern styles is increasing.",
       "notes": null,
       "has_audio": false,
@@ -133,10 +133,33 @@
       ]
     }
   ],
-  "notes": "{折衷|せっちゅう} means blending elements from different sources or finding a middle ground. It often has a positive connotation of harmonious combination, unlike {妥協|だきょう} which can imply settling for less.\n\nETYMOLOGY:\n{折|せつ} (to bend, to break) + {衷|ちゅう} (inner feelings, the middle). Originally from classical Chinese, meaning to find the middle ground.\n\nCOMMON COLLOCATIONS:\n- {和洋|わよう}{折衷|せっちゅう}: Japanese-Western fusion (very common expression)\n- {折衷|せっちゅう}{案|あん}: compromise plan\n- {折衷|せっちゅう}{主義|しゅぎ}: eclecticism\n- {折衷|せっちゅう}する: to blend, to compromise\n\nCONTRAST:\n- {妥協|だきょう}: compromise (often implies concession or settling)\n- {融合|ゆうごう}: fusion (complete merging into one)\n- {調和|ちょうわ}: harmony (balanced coexistence)\n\nUSAGE:\n{和洋|わよう}{折衷|せっちゅう} is by far the most common context — describing food, architecture, fashion, or interior design that blends Japanese and Western elements.",
+  "notes": "{折衷|せっちゅう} means blending elements from different sources or finding a middle ground. It often has a positive connotation of harmonious combination, unlike ⟦{妥協|だきょう}→妥協：07423_dakyou⟧ which can imply settling for less.\n\nETYMOLOGY:\n{折|せつ} (to bend, to break) + {衷|ちゅう} (inner feelings, the middle). Originally from classical Chinese, meaning to find the middle ground.\n\nCOMMON COLLOCATIONS:\n- {和洋|わよう}{折衷|せっちゅう}: Japanese-Western fusion (very common expression)\n- {折衷|せっちゅう}⟦{案|あん}→案：01776_an⟧: compromise plan\n- {折衷|せっちゅう}⟦{主義|しゅぎ}→主義：03215_shugi⟧: eclecticism\n- {折衷|せっちゅう}⟦する→する：00392_suru⟧: to blend, to compromise\n\nSIMILAR WORDS:\n- ⟦{妥協|だきょう}→妥協：07423_dakyou⟧: compromise (often implies concession or settling)\n- ⟦{融合|ゆうごう}→融合：14036_yuugou⟧: fusion (complete merging into one)\n- ⟦{調和|ちょうわ}→調和：05216_chouwa⟧: harmony (balanced coexistence)\n\nUSAGE:\n{和洋|わよう}{折衷|せっちゅう} is by far the most common context — describing food, architecture, fashion, or interior design that blends Japanese and Western elements.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07423_dakyou",
+      "reading": "だきょう",
+      "headword": "{妥協|だきょう}",
+      "label": "compromise"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14036_yuugou",
+      "reading": "ゆうごう",
+      "headword": "{融合|ゆうごう}",
+      "label": "fusion"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05216_chouwa",
+      "reading": "ちょうわ",
+      "headword": "{調和|ちょうわ}",
+      "label": "harmony"
+    }
+  ],
   "metadata": {
     "created": "2026-02-04T06:17:12Z",
-    "modified": "2026-04-05T00:56:46Z",
+    "modified": "2026-09-02T04:01:19Z",
     "ai_model": "claude-opus-4-5-20251101",
     "vocabulary_tier": "general",
     "tags": {
@@ -150,7 +173,8 @@
         "style",
         "method"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

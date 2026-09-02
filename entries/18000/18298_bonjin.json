@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "18298_bonjin_ex1",
-      "japanese": "{私|わたし}はただの{凡人|ぼんじん}です。",
+      "japanese": "⟦{私|わたし}→私：02988_watashi⟧⟦は→は：00079_ha⟧⟦ただ→ただ：01613_tada⟧⟦の→の：09472_no⟧{凡人|ぼんじん}です。",
       "english": "I'm just an ordinary person.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "18298_bonjin_ex2",
-      "japanese": "{凡人|ぼんじん}には{理解|りかい}できない{世界|せかい}がある。",
+      "japanese": "{凡人|ぼんじん}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{理解|りかい}できない→理解する：06059_rikaisuru⟧⟦{世界|せかい}→世界：01447_sekai⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There are worlds that ordinary people cannot understand.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "18298_bonjin_ex3",
-      "japanese": "{天才|てんさい}と{凡人|ぼんじん}の{差|さ}は{努力|どりょく}の{量|りょう}だと{言|い}う{人|ひと}もいる。",
+      "japanese": "⟦{天才|てんさい}→天才：09934_tensai⟧⟦と→と：00512_to⟧{凡人|ぼんじん}⟦の→の：09472_no⟧⟦{差|さ}→差：02771_sa⟧⟦は→は：00079_ha⟧⟦{努力|どりょく}→努力：03490_doryoku⟧⟦の→の：09472_no⟧⟦{量|りょう}→量：03799_ryou⟧だ⟦と→と：00512_to⟧⟦{言|い}う→言う：00515_iu⟧⟦{人|ひと}→人：00476_hito⟧⟦も→も：00484_mo⟧⟦いる→いる：00495_iru⟧。",
       "english": "Some say the difference between a genius and an ordinary person is the amount of effort.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nOften used in a self-deprecating way ({凡人|ぼんじん}ですから) or to highlight the gap between talented people and everyone else. Not inherently negative — it can simply mean someone without special distinction.\n\nCOMMON COLLOCATIONS:\n- ただの{凡人|ぼんじん} (just an ordinary person)\n- {凡人|ぼんじん}には{無理|むり} (impossible for ordinary people)\n\nSIMILAR WORDS:\n- {秀才|しゅうさい}: prodigy — the opposite end of the spectrum\n- {天才|てんさい}: genius — even further from {凡人|ぼんじん}\n- {一般人|いっぱんじん}: ordinary person — more neutral, focuses on being a member of the general public rather than on ability",
+  "notes": "USAGE:\nOften used in a self-deprecating way ({凡人|ぼんじん}です⟦から→から：00504_kara⟧) or to highlight the gap between talented people and everyone else. Not inherently negative — it can simply mean someone without special distinction.\n\nCOMMON COLLOCATIONS:\n- ⟦ただ→ただ：01613_tada⟧⟦の→の：09472_no⟧{凡人|ぼんじん} (just an ordinary person)\n- {凡人|ぼんじん}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{無理|むり}→無理：01558_muri⟧ (impossible for ordinary people)\n\nSIMILAR WORDS:\n- ⟦{秀才|しゅうさい}→秀才：18297_shuusai⟧: prodigy — the opposite end of the spectrum\n- ⟦{天才|てんさい}→天才：09934_tensai⟧: genius — even further from {凡人|ぼんじん}\n- ⟦{一般人|いっぱんじん}→一般人：22733_ippanjin⟧: ordinary person — more neutral, focuses on being a member of the general public rather than on ability",
   "cross_references": [
     {
       "type": "antonym",
@@ -59,11 +59,18 @@
       "reading": "てんさい",
       "headword": "{天才|てんさい}",
       "label": "genius"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22733_ippanjin",
+      "reading": "いっぱんじん",
+      "headword": "{一般人|いっぱんじん}",
+      "label": "ordinary person"
     }
   ],
   "metadata": {
     "created": "2026-03-21T09:05:26Z",
-    "modified": "2026-05-08T08:12:00Z",
+    "modified": "2026-09-02T04:01:51Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

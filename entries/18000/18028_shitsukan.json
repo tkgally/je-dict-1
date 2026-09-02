@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "18028_shitsukan_ex1",
-      "japanese": "この{革|かわ}は{質感|しつかん}がいい。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{革|かわ}→革：19310_kawa⟧⟦は→は：00079_ha⟧{質感|しつかん}⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧。",
       "english": "This leather has a nice texture.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "18028_shitsukan_ex2",
-      "japanese": "{高級|こうきゅう}な{質感|しつかん}の{生地|きじ}を{使|つか}っている。",
+      "japanese": "⟦{高級|こうきゅう}→高級：08644_koukyuu⟧な{質感|しつかん}⟦の→の：09472_no⟧⟦{生地|きじ}→生地：02631_kiji⟧⟦を→を：00422_wo⟧⟦{使|つか}っている→使う：00473_tsukau⟧。",
       "english": "It uses fabric with a luxurious feel.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "18028_shitsukan_ex3",
-      "japanese": "この{塗料|とりょう}を{使|つか}えば、{木|き}の{質感|しつかん}を{活|い}かした{仕上|しあ}がりになる。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{塗料|とりょう}→塗料：24548_toryou⟧⟦を→を：00422_wo⟧⟦{使|つか}えば→使う：00473_tsukau⟧、⟦{木|き}→木：00524_ki⟧⟦の→の：09472_no⟧{質感|しつかん}⟦を→を：00422_wo⟧⟦{活|い}かした→活かす：10422_ikasu⟧⟦{仕上|しあ}がり→仕上がり：07432_shiagari⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧。",
       "english": "Using this paint will give a finish that brings out the texture of the wood.",
       "sense_numbers": [
         1
@@ -43,7 +43,7 @@
       "notes": null
     }
   ],
-  "notes": "{質感|しつかん} describes the tactile or visual quality of a material — how it feels to the touch or looks in terms of texture and substance.\n\nETYMOLOGY:\nCombines {質|しつ} (quality, substance) + {感|かん} (feeling, sensation).\n\nCOMMON COLLOCATIONS:\n- {質感|しつかん}がいい: has a nice texture/feel\n- {質感|しつかん}が{高|たか}い: feels high-quality\n- {質感|しつかん}を{活|い}かす: to bring out the texture\n- {質感|しつかん}のある: having good texture\n\nDOMAINS:\nFrequently used in fashion, interior design, product reviews, and visual arts. In CG graphics and photography, it refers to how realistic a surface appears.\n\nSIMILAR WORDS:\n- {手触|てざわ}り: how something feels to the touch (purely tactile)\n- {肌触|はだざわ}り: feel against the skin (fabric, sheets)",
+  "notes": "{質感|しつかん} describes the tactile or visual quality of a material — how it feels to the touch or looks in terms of texture and substance.\n\nETYMOLOGY:\nCombines ⟦{質|しつ}→質：01425_shitsu⟧ (quality, substance) + ⟦{感|かん}→〜感：28578_kan⟧ (feeling, sensation).\n\nCOMMON COLLOCATIONS:\n- {質感|しつかん}⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧: has a nice texture/feel\n- {質感|しつかん}⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧: feels high-quality\n- {質感|しつかん}⟦を→を：00422_wo⟧⟦{活|い}かす→活かす：10422_ikasu⟧: to bring out the texture\n- {質感|しつかん}⟦の→の：09472_no⟧⟦ある→ある：00006_aru⟧: having good texture\n\nDOMAINS:\nFrequently used in fashion, interior design, product reviews, and visual arts. In CG graphics and photography, it refers to how realistic a surface appears.\n\nSIMILAR WORDS:\n- ⟦{手触|てざわ}り→手触り：12758_tezawari⟧: how something feels to the touch (purely tactile)\n- ⟦{肌触|はだざわ}り→肌触り：06637_hadazawari⟧: feel against the skin (fabric, sheets)",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -58,7 +58,7 @@
       ]
     },
     "created": "2026-03-19T12:16:28Z",
-    "modified": "2026-05-08T04:12:06Z"
+    "modified": "2026-09-02T04:01:50Z"
   },
   "cross_references": [
     {
@@ -74,6 +74,13 @@
       "reading": "はだざわり",
       "headword": "{肌触|はだざわ}り",
       "label": "feel against skin"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26228_sozaikan",
+      "reading": "そざいかん",
+      "headword": "{素材感|そざいかん}",
+      "label": "texture"
     }
   ]
 }

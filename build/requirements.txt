@@ -3,3 +3,9 @@
 
 # JSON Schema validation for dictionary entries
 jsonschema>=4.0.0,<5.0.0
+
+# Japanese morphological analysis for the deterministic inline linker
+# (build/auto_link.py). Pure wheels; the linker degrades to a tokenizer-free
+# mode (kanji words, katakana, and function words only) if these are absent.
+sudachipy>=0.6.8
+sudachidict_core>=20240000

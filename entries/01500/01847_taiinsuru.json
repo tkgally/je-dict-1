@@ -2,7 +2,7 @@
   "id": "01847_taiinsuru",
   "headword": "{退院|たいいん}する",
   "reading": "たいいんする",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "leaving hospital",
   "conjugation": {
     "type": "suru",
@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "01847_taiinsuru_ex1",
-      "japanese": "⟦{来週|らいしゅう}→来週：00746_raishuu⟧{退院|たいいん}⟦できます→できる：00557_dekiru⟧。",
+      "japanese": "⟦{来週|らいしゅう}→来週：00746_raishuu⟧⟦{退院|たいいん}→退院：02090_taiin⟧⟦できます→できる：00557_dekiru⟧。",
       "english": "I can be discharged next week.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "01847_taiinsuru_ex3",
-      "japanese": "{退院|たいいん}⟦おめでとうございます→おめでとう：01043_omedetou⟧。",
+      "japanese": "⟦{退院|たいいん}→退院：02090_taiin⟧⟦おめでとうございます→おめでとう：01043_omedetou⟧。",
       "english": "Congratulations on leaving the hospital.",
       "notes": null,
       "has_audio": false,
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "{退院|たいいん}する means to be discharged from a hospital after receiving treatment. The noun form {退院|たいいん} refers to the discharge itself.\n\nTRANSITIVITY:\n- Type: {自動詞|じどうし} (intransitive)\n- No standard transitive pair\n- Pattern: {退院|たいいん}する\n\nWORD FORMATION:\n{退|たい} (withdraw) + {院|いん} (institution) — literally \"leaving the institution.\"\n\nCOMMON EXPRESSIONS:\n- {退院|たいいん}する: to be discharged\n- {退院|たいいん}⟦{後|ご}→後：09580_ato⟧: after discharge\n- {退院|たいいん}⟦{日|び}→〜日：noentry⟧: discharge date\n- ⟦{無事|ぶじ}→無事：01602_buji⟧に{退院|たいいん}する: to be safely discharged\n- {退院|たいいん}おめでとう: congratulations on leaving the hospital\n\nRELATED TERMS:\n- ⟦{入院|にゅういん}→入院：02091_nyuuin⟧: hospitalization (opposite)\n- ⟦{通院|つういん}→通院：05975_tsuuin⟧: visiting hospital as outpatient\n- ⟦{病院|びょういん}→病院：00577_byouin⟧: hospital\n\nUSAGE:\nOften used with できる to express being allowed to leave: {退院|たいいん}できる (can be discharged). The decision to discharge is made by the doctor.",
+  "notes": "{退院|たいいん}する means to be discharged from a hospital after receiving treatment. The noun form ⟦{退院|たいいん}→退院：02090_taiin⟧ refers to the discharge itself.\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n- No standard transitive pair\n- Pattern: {退院|たいいん}する\n\nFORMS:\n{退|たい} (withdraw) + {院|いん} (institution) — literally \"leaving the institution.\"\n\nCOMMON EXPRESSIONS:\n- {退院|たいいん}する: to be discharged\n- {退院|たいいん}⟦{後|ご}→後：09580_ato⟧: after discharge\n- ⟦{退院|たいいん}→退院：02090_taiin⟧⟦{日|び}→〜日：noentry⟧: discharge date\n- ⟦{無事|ぶじ}→無事：01602_buji⟧⟦に→に：00314_ni⟧{退院|たいいん}する: to be safely discharged\n- ⟦{退院|たいいん}→退院：02090_taiin⟧⟦おめでとう→おめでとう：01043_omedetou⟧: congratulations on leaving the hospital\n\nRELATED WORDS:\n- ⟦{入院|にゅういん}→入院：02091_nyuuin⟧: hospitalization (opposite)\n- ⟦{通院|つういん}→通院：05975_tsuuin⟧: visiting hospital as outpatient\n- ⟦{病院|びょういん}→病院：00577_byouin⟧: hospital\n\nUSAGE:\nOften used with ⟦できる→できる：00557_dekiru⟧ to express being allowed to leave: {退院|たいいん}できる (can be discharged). The decision to discharge is made by the doctor.",
   "cross_references": [
     {
       "type": "antonym",
@@ -141,11 +141,32 @@
       "reading": "にゅういんする",
       "headword": "{入院|にゅういん}する",
       "label": "hospitalization"
+    },
+    {
+      "type": "antonym",
+      "target_id": "02091_nyuuin",
+      "reading": "にゅういん",
+      "headword": "{入院|にゅういん}",
+      "label": "hospitalization"
+    },
+    {
+      "type": "related",
+      "target_id": "05975_tsuuin",
+      "reading": "つういん",
+      "headword": "{通院|つういん}",
+      "label": "visiting hospital as outpatient"
+    },
+    {
+      "type": "related",
+      "target_id": "00577_byouin",
+      "reading": "びょういん",
+      "headword": "{病院|びょういん}",
+      "label": "hospital"
     }
   ],
   "metadata": {
     "created": "2026-01-09T12:11:47Z",
-    "modified": "2026-08-04T03:22:59Z",
+    "modified": "2026-09-02T04:01:00Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

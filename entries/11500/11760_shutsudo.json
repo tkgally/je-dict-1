@@ -2,7 +2,7 @@
   "id": "11760_shutsudo",
   "headword": "{出土|しゅつど}",
   "reading": "しゅつど",
-  "part_of_speech": "noun; noun (する)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "excavation, unearthing",
   "conjugation": {
     "type": "suru",
@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "11760_shutsudo_ex1",
-      "japanese": "{土器|どき}が{出土|しゅつど}した。",
+      "japanese": "⟦{土器|どき}→土器：09658_doki⟧⟦が→が：00051_ga⟧{出土|しゅつど}⟦した→する：00392_suru⟧。",
       "english": "Earthenware was excavated.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "11760_shutsudo_ex2",
-      "japanese": "この{遺跡|いせき}から{多|おお}くの{出土|しゅつど}{品|ひん}が{見|み}つかった。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{遺跡|いせき}→遺跡：09527_iseki⟧⟦から→から：00504_kara⟧{多|おお}く⟦の→の：09472_no⟧{出土|しゅつど}⟦{品|ひん}→品：03712_hin⟧⟦が→が：00051_ga⟧⟦{見|み}つかった→見つかる：01173_mitsukaru⟧。",
       "english": "Many excavated artifacts were found at this archaeological site.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "11760_shutsudo_ex3",
-      "japanese": "{工事|こうじ}{現場|げんば}から{古代|こだい}の{銅鏡|どうきょう}が{出土|しゅつど}し、{調査|ちょうさ}が{行|おこな}われている。",
+      "japanese": "⟦{工事|こうじ}{現場|げんば}→工事現場：26202_koujigenba⟧⟦から→から：00504_kara⟧⟦{古代|こだい}→古代：05324_kodai⟧⟦の→の：09472_no⟧{銅鏡|どうきょう}⟦が→が：00051_ga⟧{出土|しゅつど}し、⟦{調査|ちょうさ}→調査：03489_chousa⟧⟦が→が：00051_ga⟧⟦{行|おこな}われている→行う：01238_okonau⟧。",
       "english": "An ancient bronze mirror was unearthed at the construction site, and an investigation is underway.",
       "notes": null,
       "has_audio": false,
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "{出土|しゅつど} refers to the unearthing of artifacts, remains, or other items through archaeological excavation. A compound of {出|しゅつ} (come out) + {土|ど} (earth).\n\nCOMMON COLLOCATIONS:\n- {出土|しゅつど}{品|ひん}: excavated artifact\n- {出土|しゅつど}{遺物|いぶつ}: excavated relic\n- {遺跡|いせき}から{出土|しゅつど}する: to be excavated from ruins\n- {大量|たいりょう}に{出土|しゅつど}する: to be unearthed in large quantities\n\nUSAGE:\nThe subject is typically the item being unearthed, not the person doing the digging. For example: {土器|どき}が{出土|しゅつど}した (earthenware was excavated). Common in archaeological reports, news about historical discoveries, and academic writing.\n\nRELATED TERMS:\n- {発掘|はっくつ}: excavation (the act of digging)\n- {遺跡|いせき}: archaeological site, ruins",
+  "notes": "{出土|しゅつど} refers to the unearthing of artifacts, remains, or other items through archaeological excavation. A compound of {出|しゅつ} (come out) + {土|ど} (earth).\n\nCOMMON COLLOCATIONS:\n- {出土|しゅつど}⟦{品|ひん}→品：03712_hin⟧: excavated artifact\n- {出土|しゅつど}⟦{遺物|いぶつ}→遺物：14545_ibutsu⟧: excavated relic\n- ⟦{遺跡|いせき}→遺跡：09527_iseki⟧⟦から→から：00504_kara⟧{出土|しゅつど}⟦する→する：00392_suru⟧: to be excavated from ruins\n- ⟦{大量|たいりょう}→大量：03112_tairyou⟧⟦に→に：00314_ni⟧{出土|しゅつど}⟦する→する：00392_suru⟧: to be unearthed in large quantities\n\nUSAGE:\nThe subject is typically the item being unearthed, not the person doing the digging. For example: ⟦{土器|どき}→土器：09658_doki⟧⟦が→が：00051_ga⟧{出土|しゅつど}⟦した→する：00392_suru⟧ (earthenware was excavated). Common in archaeological reports, news about historical discoveries, and academic writing.\n\nRELATED WORDS:\n- ⟦{発掘|はっくつ}→発掘：07995_hakkutsu⟧: excavation (the act of digging)\n- ⟦{遺跡|いせき}→遺跡：09527_iseki⟧: archaeological site, ruins",
   "cross_references": [
     {
       "type": "related",
@@ -141,11 +141,18 @@
       "reading": "はっくつ",
       "headword": "{発掘|はっくつ}",
       "label": "excavation (the act of digging)"
+    },
+    {
+      "type": "related",
+      "target_id": "09527_iseki",
+      "reading": "いせき",
+      "headword": "{遺跡|いせき}",
+      "label": "archaeological site, ruins"
     }
   ],
   "metadata": {
     "created": "2026-02-17T23:15:01Z",
-    "modified": "2026-04-25T08:21:10Z",
+    "modified": "2026-09-02T04:01:26Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
@@ -159,7 +166,8 @@
       "semantic": [
         "history"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

@@ -14,41 +14,51 @@
   "examples": [
     {
       "id": "09852_chi_ex1",
-      "japanese": "{観光|かんこう}{地|ち}を{案内|あんない}する。",
+      "japanese": "⟦{観光|かんこう}{地|ち}→観光地：14163_kankouchi⟧⟦を→を：00422_wo⟧⟦{案内|あんない}する→案内する：20203_annaisuru⟧。",
       "english": "I guide (people around) tourist spots.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09852_chi_ex2",
-      "japanese": "{目的|もくてき}{地|ち}まで{行|い}った。",
+      "japanese": "⟦{目的|もくてき}{地|ち}→目的地：09996_mokutekichi⟧⟦まで→まで：00490_made⟧⟦{行|い}った→行く：00119_iku⟧。",
       "english": "I went to the destination.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09852_chi_ex3",
-      "japanese": "{被災|ひさい}{地|ち}に{支援|しえん}{物資|ぶっし}を{届|とど}ける。",
+      "japanese": "⟦{被災|ひさい}{地|ち}→被災地：27434_hisaichi⟧⟦に→に：00314_ni⟧⟦{支援|しえん}→支援：07778_shien⟧⟦{物資|ぶっし}→物資：07863_busshi⟧⟦を→を：00422_wo⟧⟦{届|とど}ける→届ける：01248_todokeru⟧。",
       "english": "We deliver relief supplies to the disaster area.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "〜{地|ち} is a suffix that marks a place defined by its function, condition, or association. It attaches to nouns to create compound words meaning \"the place/area of ~.\"\n\nCOMMON COMPOUNDS:\n- {観光|かんこう}{地|ち}: tourist spot\n- {目的|もくてき}{地|ち}: destination\n- {被災|ひさい}{地|ち}: disaster area\n- {産|さん}{地|ち}: production area, place of origin\n- {現|げん}{地|ち}: local area, on-site\n- {住宅|じゅうたく}{地|ち}: residential area\n- {空|あ}き{地|ち}: vacant lot\n\nSIMILAR SUFFIXES:\n- 〜{所|しょ}/{所|じょ}: facility or designated place ({研究所|けんきゅうしょ}, {駐車場|ちゅうしゃじょう})\n- 〜{場|ば}/{場|じょう}: place for an activity ({会場|かいじょう}, {工場|こうじょう})\n\nUSAGE:\n{地|ち} emphasizes the nature or character of the land/area itself, while 〜{所|しょ} and 〜{場|ば} emphasize a functional facility. Note that {土地|とち} (land, plot) is a standalone word, not this suffix pattern.",
+  "notes": "〜⟦{地|ち}→地：30374_chi⟧ is a suffix that marks a place defined by its function, condition, or association. It attaches to nouns to create compound words meaning \"the place/area of ~.\"\n\nCOMPOUNDS:\n- ⟦{観光|かんこう}{地|ち}→観光地：14163_kankouchi⟧: tourist spot\n- ⟦{目的|もくてき}{地|ち}→目的地：09996_mokutekichi⟧: destination\n- ⟦{被災|ひさい}{地|ち}→被災地：27434_hisaichi⟧: disaster area\n- ⟦{産|さん}{地|ち}→産地：04031_sanchi⟧: production area, place of origin\n- ⟦{現|げん}{地|ち}→現地：13502_genchi⟧: local area, on-site\n- ⟦{住宅|じゅうたく}{地|ち}→住宅地：10158_juutakuchi⟧: residential area\n- ⟦{空|あ}き{地|ち}→空き地：15270_akichi⟧: vacant lot\n\nSIMILAR SUFFIXES:\n- 〜⟦{所|しょ}→〜所：09844_sho⟧/{所|じょ}: facility or designated place (⟦{研究所|けんきゅうしょ}→研究所：03054_kenkyuusho⟧, ⟦{駐車場|ちゅうしゃじょう}→駐車場：01667_chuushajou⟧)\n- 〜⟦{場|ば}→場：03699_ba⟧/{場|じょう}: place for an activity (⟦{会場|かいじょう}→会場：01269_kaijou⟧, ⟦{工場|こうじょう}→工場：01082_koujou⟧)\n\nUSAGE:\n⟦{地|ち}→地：30374_chi⟧ emphasizes the nature or character of the land/area itself, while 〜⟦{所|しょ}→〜所：09844_sho⟧ and 〜⟦{場|ば}→場：03699_ba⟧ emphasize a functional facility. Note that ⟦{土地|とち}→土地：02226_tochi⟧ (land, plot) is a standalone word, not this suffix pattern.",
   "cross_references": [],
   "metadata": {
     "created": "2026-02-04T01:44:31Z",
-    "modified": "2026-03-29T09:23:00Z",
+    "modified": "2026-09-02T04:01:19Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["suffix"],
+      "pos": [
+        "suffix"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["geography"]
+      "semantic": [
+        "geography"
+      ]
     }
   }
 }

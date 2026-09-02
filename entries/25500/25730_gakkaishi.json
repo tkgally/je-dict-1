@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25730_gakkaishi_ex1",
-      "japanese": "{学会誌|がっかいし}に{論文|ろんぶん}を{投稿|とうこう}した。",
+      "japanese": "{学会誌|がっかいし}⟦に→に：00314_ni⟧⟦{論文|ろんぶん}→論文：03787_ronbun⟧⟦を→を：00422_wo⟧⟦{投稿|とうこう}した→投稿する：18994_toukousuru⟧。",
       "english": "I submitted a paper to an academic journal.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25730_gakkaishi_ex2",
-      "japanese": "この{研究|けんきゅう}は{学会誌|がっかいし}に{掲載|けいさい}された。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{研究|けんきゅう}→研究：01396_kenkyuu⟧⟦は→は：00079_ha⟧{学会誌|がっかいし}⟦に→に：00314_ni⟧⟦{掲載|けいさい}→掲載：08993_keisai⟧⟦された→する：00392_suru⟧。",
       "english": "This research was published in an academic journal.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25730_gakkaishi_ex3",
-      "japanese": "{最新|さいしん}の{学会誌|がっかいし}を{読|よ}んで、{自分|じぶん}の{分野|ぶんや}の{動向|どうこう}を{把握|はあく}するようにしている。",
+      "japanese": "⟦{最新|さいしん}→最新：04831_saishin⟧⟦の→の：09472_no⟧{学会誌|がっかいし}⟦を→を：00422_wo⟧⟦{読|よ}んで→読む：00426_yomu⟧、⟦{自分|じぶん}→自分：02887_jibun⟧⟦の→の：09472_no⟧⟦{分野|ぶんや}→分野：03612_bunya⟧⟦の→の：09472_no⟧⟦{動向|どうこう}→動向：05580_doukou⟧⟦を→を：00422_wo⟧⟦{把握|はあく}する→把握する：19628_haakusuru⟧ようにして⟦いる→いる：00495_iru⟧。",
       "english": "I make a point of reading the latest academic journals to keep up with trends in my field.",
       "sense_numbers": [
         1
@@ -44,20 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {学会|がっかい} (academic society) + {誌|し} (journal, magazine). Refers specifically to journals published by professional academic organizations, as opposed to commercial or popular science magazines.\n\nCOMMON COLLOCATIONS:\n- {学会誌|がっかいし}に{投稿|とうこう}する: to submit to an academic journal\n- {学会誌|がっかいし}に{掲載|けいさい}される: to be published in an academic journal\n- {学会誌|がっかいし}を{発行|はっこう}する: to publish an academic journal\n- {学会誌|がっかいし}の{査読|さどく}: peer review for an academic journal\n\nSIMILAR WORDS:\n- {論文誌|ろんぶんし}: research journal — focuses on papers rather than the society that publishes it\n- {紀要|きよう}: bulletin — institutional publication, often from a university department\n- {学術雑誌|がくじゅつざっし}: academic magazine — broader term that includes commercial academic publications",
+  "notes": "Composed of ⟦{学会|がっかい}→学会：04139_gakkai⟧ (academic society) + {誌|し} (journal, magazine). Refers specifically to journals published by professional academic organizations, as opposed to commercial or popular science magazines.\n\nCOMMON COLLOCATIONS:\n- {学会誌|がっかいし}⟦に→に：00314_ni⟧⟦{投稿|とうこう}する→投稿する：18994_toukousuru⟧: to submit to an academic journal\n- {学会誌|がっかいし}⟦に→に：00314_ni⟧⟦{掲載|けいさい}される→掲載する：19217_keisaisuru⟧: to be published in an academic journal\n- {学会誌|がっかいし}⟦を→を：00422_wo⟧⟦{発行|はっこう}する→発行する：19236_hakkousuru⟧: to publish an academic journal\n- {学会誌|がっかいし}⟦の→の：09472_no⟧⟦{査読|さどく}→査読：08412_sadoku⟧: peer review for an academic journal\n\nSIMILAR WORDS:\n- {論文誌|ろんぶんし}: research journal — focuses on papers rather than the society that publishes it\n- ⟦{紀要|きよう}→紀要：23252_kiyou⟧: bulletin — institutional publication, often from a university department\n- {学術雑誌|がくじゅつざっし}: academic magazine — broader term that includes commercial academic publications",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23252_kiyou",
+      "reading": "きよう",
+      "headword": "{紀要|きよう}",
+      "label": "bulletin"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "education",
         "media"
       ]
     },
     "created": "2026-04-27T11:14:28Z",
-    "modified": "2026-08-04T21:28:28Z"
+    "modified": "2026-09-02T04:02:23Z"
   }
 }

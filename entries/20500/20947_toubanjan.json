@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "20947_toubanjan_ex1",
-      "japanese": "{豆板醤|とうばんじゃん}を{加|くわ}える。",
+      "japanese": "{豆板醤|とうばんじゃん}⟦を→を：00422_wo⟧⟦{加|くわ}える→加える：01941_kuwaeru⟧。",
       "english": "Add the chili bean paste.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "20947_toubanjan_ex2",
-      "japanese": "{麻婆豆腐|まーぼーどうふ}には{豆板醤|とうばんじゃん}が{欠|か}かせない。",
+      "japanese": "⟦{麻婆豆腐|まーぼーどうふ}→麻婆豆腐：20258_maaboodoufu⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{豆板醤|とうばんじゃん}⟦が→が：00051_ga⟧⟦{欠|か}かせない→欠かす：10138_kakasu⟧。",
       "english": "Chili bean paste is essential for mapo tofu.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "20947_toubanjan_ex3",
-      "japanese": "{辛|から}さを{調整|ちょうせい}したいときは、{豆板醤|とうばんじゃん}の{量|りょう}を{増|ふ}やしたり{減|へ}らしたりする。",
+      "japanese": "{辛|から}さ⟦を→を：00422_wo⟧⟦{調整|ちょうせい}→調整：14839_chousei⟧⟦したい→する：00392_suru⟧とき⟦は→は：00079_ha⟧、{豆板醤|とうばんじゃん}⟦の→の：09472_no⟧⟦{量|りょう}→量：03799_ryou⟧⟦を→を：00422_wo⟧⟦{増|ふ}やし→増やす：02410_fuyasu⟧たり⟦{減|へ}らし→減らす：02414_herasu⟧たり⟦する→する：00392_suru⟧。",
       "english": "When you want to adjust the spiciness, increase or decrease the amount of chili bean paste.",
       "sense_numbers": [
         1
@@ -43,8 +43,17 @@
       "notes": null
     }
   ],
-  "notes": "A Chinese-origin condiment (from Sichuan province) that has become a staple in Japanese kitchens, especially for Chinese-style cooking. The reading とうばんじゃん follows the Chinese pronunciation. Available at any Japanese supermarket.\n\nCOMMON COLLOCATIONS:\n- {豆板醤|とうばんじゃん}を{入|い}れる: to add chili bean paste\n- {豆板醤|とうばんじゃん}{小|こ}さじ1: one teaspoon of chili bean paste\n- {豆板醤|とうばんじゃん}で{味付|あじつ}けする: to season with chili bean paste\n\nRELATED TERMS:\n- {甜麺醤|てんめんじゃん}: sweet bean paste — another Chinese seasoning, sweeter and not spicy\n- {豆鼓醤|とうちじゃん}: black bean paste — fermented black soybean paste\n- コチュジャン: gochujang — Korean chili paste, sweeter and less salty\n- {味噌|みそ}: miso — Japanese fermented soybean paste",
+  "notes": "A Chinese-origin condiment (from Sichuan province) that has become a staple in Japanese kitchens, especially for Chinese-style cooking. The reading とうばん⟦じゃん→じゃん：05432_jan⟧ follows the Chinese pronunciation. Available at any Japanese supermarket.\n\nCOMMON COLLOCATIONS:\n- {豆板醤|とうばんじゃん}⟦を→を：00422_wo⟧⟦{入|い}れる→入れる：01098_ireru⟧: to add chili bean paste\n- {豆板醤|とうばんじゃん}⟦{小|こ}さじ→小さじ：12435_kosaji⟧1: one teaspoon of chili bean paste\n- {豆板醤|とうばんじゃん}⟦で→で：00502_de⟧⟦{味付|あじつ}け→味付け：05830_ajitsuke⟧⟦する→する：00392_suru⟧: to season with chili bean paste\n\nRELATED WORDS:\n- {甜麺醤|てんめんじゃん}: sweet bean paste — another Chinese seasoning, sweeter and not spicy\n- {豆鼓醤|とうちじゃん}: black bean paste — fermented black soybean paste\n- コチュジャン: gochujang — Korean chili paste, sweeter and less salty\n- ⟦{味噌|みそ}→味噌：01037_miso⟧: miso — Japanese fermented soybean paste",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "01037_miso",
+      "reading": "みそ",
+      "headword": "{味噌|みそ}",
+      "label": "miso"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -58,6 +67,6 @@
       ]
     },
     "created": "2026-03-30T22:18:44Z",
-    "modified": "2026-03-30T22:18:44Z"
+    "modified": "2026-09-02T04:02:01Z"
   }
 }

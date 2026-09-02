@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26955_bekarazu_ex1",
-      "japanese": "{芝生|しばふ}に{入|はい}るべからず。",
+      "japanese": "⟦{芝生|しばふ}→芝生：03196_shibafu⟧⟦に→に：00314_ni⟧⟦{入|はい}る→入る：00494_hairu⟧べからず。",
       "english": "Keep off the grass.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26955_bekarazu_ex2",
-      "japanese": "{初心|しょしん}{忘|わす}るべからず。",
+      "japanese": "⟦{初心|しょしん}→初心：08656_shoshin⟧⟦{忘|わす}る→忘れる：00474_wasureru⟧べからず。",
       "english": "Never forget the beginner's spirit.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26955_bekarazu_ex3",
-      "japanese": "{人|ひと}を{見|み}かけで{判断|はんだん}するべからず。",
+      "japanese": "⟦{人|ひと}→人：00476_hito⟧⟦を→を：00422_wo⟧{見|み}かけ⟦で→で：00502_de⟧⟦{判断|はんだん}する→判断する：06062_handansuru⟧べからず。",
       "english": "One must not judge people by their appearance.",
       "sense_numbers": [
         1
@@ -44,8 +44,16 @@
       "notes": null
     }
   ],
-  "notes": "A classical Japanese construction combining べき (should) with the classical negative ず. Though archaic in normal conversation, it remains alive in modern Japanese through signs, rules, and proverbs.\n\nGRAMMAR:\nAttaches to the dictionary form ({終止形|しゅうしけい}) of verbs:\n- {入|はい}るべからず (must not enter)\n- {忘|わす}るべからず (must not forget — uses the classical {終止形|しゅうしけい} of {忘|わす}れる)\n- するべからず (must not do)\n\nCOMMON SET PHRASES:\n- {初心|しょしん}{忘|わす}るべからず: never forget the beginner's spirit (famous saying attributed to Zeami)\n- {侮|あなど}るべからず: not to be underestimated\n- {関係者以外|かんけいしゃいがい}{立|た}ち{入|い}るべからず: no entry except for authorized personnel\n\nUSAGE:\nIn modern Japanese, べからず appears mainly in:\n- Prohibition signs and notices\n- Proverbs and maxims\n- Formal rules and regulations\n- Literary or deliberately archaic writing\n\nSIMILAR WORDS:\n- てはいけない: must not — the standard modern equivalent\n- てはならない: must not — more formal modern equivalent\n- {禁止|きんし}: prohibited — a noun used on signs",
-  "cross_references": [],
+  "notes": "A classical Japanese construction combining べき (should) with the classical negative ず. Though archaic in normal conversation, it remains alive in modern Japanese through signs, rules, and proverbs.\n\nCOMMON PATTERNS:\nAttaches to the dictionary form (⟦{終止形|しゅうしけい}→終止形：23611_shuushikei⟧) of verbs:\n- ⟦{入|はい}る→入る：00494_hairu⟧べからず (must not enter)\n- ⟦{忘|わす}る→忘れる：00474_wasureru⟧べからず (must not forget — uses the classical ⟦{終止形|しゅうしけい}→終止形：23611_shuushikei⟧ of ⟦{忘|わす}れる→忘れる：00474_wasureru⟧)\n- ⟦する→する：00392_suru⟧べからず (must not do)\n\nCOMMON SET PHRASES:\n- ⟦{初心|しょしん}→初心：08656_shoshin⟧⟦{忘|わす}る→忘れる：00474_wasureru⟧べからず: never forget the beginner's spirit (famous saying attributed to Zeami)\n- ⟦{侮|あなど}る→侮る：10884_anadoru⟧べからず: not to be underestimated\n- {関係者以外|かんけいしゃいがい}⟦{立|た}ち{入|い}る→立ち入る：26367_tachiiru⟧べからず: no entry except for authorized personnel\n\nUSAGE:\nIn modern Japanese, べからず appears mainly in:\n- Prohibition signs and notices\n- Proverbs and maxims\n- Formal rules and regulations\n- Literary or deliberately archaic writing\n\nSIMILAR WORDS:\n- てはいけない: must not — the standard modern equivalent\n- ては⟦ならない→なる：01970_naru⟧: must not — more formal modern equivalent\n- ⟦{禁止|きんし}→禁止：02643_kinshi⟧: prohibited — a noun used on signs",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02643_kinshi",
+      "reading": "きんし",
+      "headword": "{禁止|きんし}",
+      "label": "prohibited"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -61,6 +69,6 @@
       "domain": []
     },
     "created": "2026-05-06T11:11:17Z",
-    "modified": "2026-08-06T12:44:19Z"
+    "modified": "2026-09-02T04:02:28Z"
   }
 }

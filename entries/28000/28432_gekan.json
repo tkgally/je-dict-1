@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28432_gekan_ex1",
-      "japanese": "{下巻|げかん}はまだ{読|よ}んでいない。",
+      "japanese": "{下巻|げかん}⟦は→は：00079_ha⟧⟦まだ→まだ：00603_mada⟧⟦{読|よ}んでいない→読む：00426_yomu⟧。",
       "english": "I haven't read the second volume yet.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28432_gekan_ex2",
-      "japanese": "{下巻|げかん}の{発売|はつばい}を{楽|たの}しみにしている。",
+      "japanese": "{下巻|げかん}⟦の→の：09472_no⟧⟦{発売|はつばい}→発売：04315_hatsubai⟧⟦を→を：00422_wo⟧⟦{楽|たの}しみ→楽しみ：01651_tanoshimi⟧にして⟦いる→いる：00495_iru⟧。",
       "english": "I'm looking forward to the release of the second volume.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28432_gekan_ex3",
-      "japanese": "{下巻|げかん}まで{読|よ}み{終|お}わったとき、{物語|ものがたり}の{全体|ぜんたい}がようやく{理解|りかい}できた。",
+      "japanese": "{下巻|げかん}⟦まで→まで：00490_made⟧⟦{読|よ}み→読む：00426_yomu⟧⟦{終|お}わった→終わる：00567_owaru⟧とき、⟦{物語|ものがたり}→物語：03634_monogatari⟧⟦の→の：09472_no⟧⟦{全体|ぜんたい}→全体：03314_zentai⟧⟦が→が：00051_ga⟧ようやく⟦{理解|りかい}→理解：03674_rikai⟧⟦できた→できる：00557_dekiru⟧。",
       "english": "When I finished reading through the second volume, I finally understood the story as a whole.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "Used for the second (or final) volume of a two- or three-part book set. The pair is {上巻|じょうかん} (first volume); in three-part sets, {中巻|ちゅうかん} sits between them.\n\nCOMMON COLLOCATIONS:\n- {下巻|げかん}を{読|よ}む: read the second volume\n- {下巻|げかん}を{買|か}う: buy the second volume\n- {上巻|じょうかん}・{下巻|げかん}{セット}: first-and-second volume set\n\nSIMILAR WORDS:\n- {上巻|じょうかん}: first volume — the pair of {下巻|げかん}\n- {中巻|ちゅうかん}: middle volume — used only in three-part sets\n- {最終巻|さいしゅうかん}: final volume — used for multi-volume series of any length",
+  "notes": "Used for the second (or final) volume of a two- or three-part book set. The pair is ⟦{上巻|じょうかん}→上巻：28431_joukan⟧ (first volume); in three-part sets, {中巻|ちゅうかん} sits between them.\n\nCOMMON COLLOCATIONS:\n- {下巻|げかん}⟦を→を：00422_wo⟧⟦{読|よ}む→読む：00426_yomu⟧: read the second volume\n- {下巻|げかん}⟦を→を：00422_wo⟧⟦{買|か}う→買う：00489_kau⟧: buy the second volume\n- ⟦{上巻|じょうかん}→上巻：28431_joukan⟧・{下巻|げかん}⟦セット→セット：03853_setto⟧: first-and-second volume set\n\nSIMILAR WORDS:\n- ⟦{上巻|じょうかん}→上巻：28431_joukan⟧: first volume — the pair of {下巻|げかん}\n- {中巻|ちゅうかん}: middle volume — used only in three-part sets\n- {最終巻|さいしゅうかん}: final volume — used for multi-volume series of any length",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "28431_joukan",
+      "reading": "じょうかん",
+      "headword": "{上巻|じょうかん}",
+      "label": "first volume"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +62,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "media"
       ],
       "domain": []
     },
     "created": "2026-05-31T02:08:49Z",
-    "modified": "2026-08-08T18:34:17Z"
+    "modified": "2026-09-02T04:02:33Z"
   }
 }

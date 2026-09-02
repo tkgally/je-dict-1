@@ -14,42 +14,74 @@
   "examples": [
     {
       "id": "11502_teirei_ex1",
-      "japanese": "{定例|ていれい}{会議|かいぎ}は{月曜日|げつようび}です。",
+      "japanese": "{定例|ていれい}⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦は→は：00079_ha⟧⟦{月曜日|げつようび}→月曜日：00624_getsuyoubi⟧です。",
       "english": "The regular meeting is on Monday.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11502_teirei_ex2",
-      "japanese": "{毎月|まいつき}の{定例|ていれい}{報告|ほうこく}をまとめた。",
+      "japanese": "⟦{毎月|まいつき}→毎月：00732_maitsuki⟧⟦の→の：09472_no⟧{定例|ていれい}⟦{報告|ほうこく}→報告：03618_houkoku⟧⟦を→を：00422_wo⟧⟦まとめた→まとめる：02424_matomeru⟧。",
       "english": "I compiled the monthly routine report.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11502_teirei_ex3",
-      "japanese": "{定例|ていれい}の{記者会見|きしゃかいけん}で{新|あたら}しい{方針|ほうしん}が{発表|はっぴょう}された。",
+      "japanese": "{定例|ていれい}⟦の→の：09472_no⟧⟦{記者会見|きしゃかいけん}→記者会見：19954_kishakaiken⟧⟦で→で：00502_de⟧⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦{方針|ほうしん}→方針：04871_houshin⟧⟦が→が：00051_ga⟧⟦{発表|はっぴょう}→発表：03562_happyou⟧⟦された→する：00392_suru⟧。",
       "english": "A new policy was announced at the regular press conference.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{定例|ていれい} means regular or routine — something that takes place at fixed intervals as established practice. Almost always used as a modifier before another noun.\n\nCOMPOSITION:\n{定|てい} (fixed, established) + {例|れい} (custom, precedent).\n\nCOMMON COMPOUNDS:\n- {定例|ていれい}{会議|かいぎ}: regular meeting\n- {定例|ていれい}{報告|ほうこく}: routine report\n- {定例|ていれい}{記者会見|きしゃかいけん}: regular press conference\n- {定例|ていれい}{総会|そうかい}: regular general meeting\n\nSIMILAR WORDS:\n- {定期|ていき}: periodic, regular (broader usage — {定期|ていき}{検診|けんしん}, regular checkup)\n- {恒例|こうれい}: customary, traditional (established by long practice — {恒例|こうれい}の{行事|ぎょうじ}, annual event)\n\nREGISTER:\nFormal. Commonly used in business, government, and organizational contexts.",
-  "cross_references": [],
+  "notes": "{定例|ていれい} means regular or routine — something that takes place at fixed intervals as established practice. Almost always used as a modifier before another noun.\n\nETYMOLOGY:\n{定|てい} (fixed, established) + ⟦{例|れい}→例：09932_rei⟧ (custom, precedent).\n\nCOMPOUNDS:\n- {定例|ていれい}⟦{会議|かいぎ}→会議：00710_kaigi⟧: regular meeting\n- {定例|ていれい}⟦{報告|ほうこく}→報告：03618_houkoku⟧: routine report\n- {定例|ていれい}⟦{記者会見|きしゃかいけん}→記者会見：19954_kishakaiken⟧: regular press conference\n- {定例|ていれい}⟦{総会|そうかい}→総会：13855_soukai⟧: regular general meeting\n\nSIMILAR WORDS:\n- ⟦{定期|ていき}→定期：03538_teiki⟧: periodic, regular (broader usage — ⟦{定期|ていき}{検診|けんしん}→定期検診：15678_teikikenshin⟧, regular checkup)\n- ⟦{恒例|こうれい}→恒例：12597_kourei⟧: customary, traditional (established by long practice — ⟦{恒例|こうれい}→恒例：12597_kourei⟧⟦の→の：09472_no⟧⟦{行事|ぎょうじ}→行事：00078_gyouji⟧, annual event)\n\nREGISTER:\nFormal. Commonly used in business, government, and organizational contexts.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03538_teiki",
+      "reading": "ていき",
+      "headword": "{定期|ていき}",
+      "label": "periodic, regular (broader usage"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12597_kourei",
+      "reading": "こうれい",
+      "headword": "{恒例|こうれい}",
+      "label": "customary, traditional (established…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22021_shuurei",
+      "reading": "しゅうれい",
+      "headword": "{週例|しゅうれい}",
+      "label": "weekly (regular event)"
+    }
+  ],
   "metadata": {
     "created": "2026-02-17T01:54:44Z",
-    "modified": "2026-03-25T09:40:20Z",
+    "modified": "2026-09-02T04:01:25Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["work"]
+      "semantic": [
+        "work"
+      ]
     }
   }
 }

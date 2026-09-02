@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28804_patoroorukaa_ex1",
-      "japanese": "パトロールカーが{走|はし}っていた。",
+      "japanese": "パトロールカー⟦が→が：00051_ga⟧⟦{走|はし}っていた→走る：00519_hashiru⟧。",
       "english": "A patrol car was driving by.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28804_patoroorukaa_ex2",
-      "japanese": "{交差点|こうさてん}にパトロールカーが{停|と}まっている。",
+      "japanese": "⟦{交差点|こうさてん}→交差点：01404_kousaten⟧⟦に→に：00314_ni⟧パトロールカー⟦が→が：00051_ga⟧{停|と}まって⟦いる→いる：00495_iru⟧。",
       "english": "A patrol car is parked at the intersection.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28804_patoroorukaa_ex3",
-      "japanese": "{事件現場|じけんげんば}には{複数|ふくすう}のパトロールカーが{急行|きゅうこう}した。",
+      "japanese": "{事件現場|じけんげんば}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{複数|ふくすう}→複数：14236_fukusuu⟧⟦の→の：09472_no⟧パトロールカー⟦が→が：00051_ga⟧⟦{急行|きゅうこう}→急行：01386_kyuukou⟧⟦した→する：00392_suru⟧。",
       "english": "Multiple patrol cars rushed to the crime scene.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "From English 'patrol car'. In everyday conversation, the abbreviation パトカー is far more common; パトロールカー is the full form, used in formal or written contexts.\n\nCOMMON COLLOCATIONS:\n- パトロールカーが{巡回|じゅんかい}する: a patrol car patrols\n- パトロールカーで{急行|きゅうこう}する: to rush in a patrol car\n- パトロールカーに{乗|の}る: to ride in a patrol car\n\nRELATED TERMS:\n- パトカー: the standard everyday abbreviation\n- {覆面|ふくめん}パトカー: unmarked patrol car\n- {警察車両|けいさつしゃりょう}: police vehicle (general term)",
+  "notes": "From English 'patrol car'. In everyday conversation, the abbreviation ⟦パトカー→パトカー：05079_patokaa⟧ is far more common; パトロールカー is the full form, used in formal or written contexts.\n\nCOMMON COLLOCATIONS:\n- パトロールカー⟦が→が：00051_ga⟧⟦{巡回|じゅんかい}→巡回：12407_junkai⟧⟦する→する：00392_suru⟧: a patrol car patrols\n- パトロールカー⟦で→で：00502_de⟧⟦{急行|きゅうこう}→急行：01386_kyuukou⟧⟦する→する：00392_suru⟧: to rush in a patrol car\n- パトロールカー⟦に→に：00314_ni⟧⟦{乗|の}る→乗る：00511_noru⟧: to ride in a patrol car\n\nRELATED WORDS:\n- ⟦パトカー→パトカー：05079_patokaa⟧: the standard everyday abbreviation\n- ⟦{覆面|ふくめん}→覆面：17949_fukumen⟧⟦パトカー→パトカー：05079_patokaa⟧: unmarked patrol car\n- {警察車両|けいさつしゃりょう}: police vehicle (general term)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "05079_patokaa",
+      "reading": "ぱとかー",
+      "headword": "パトカー",
+      "label": "the standard everyday abbreviation"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +62,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "transportation",
         "society"
@@ -61,6 +70,6 @@
       "domain": []
     },
     "created": "2026-06-05T04:08:23Z",
-    "modified": "2026-08-08T18:34:17Z"
+    "modified": "2026-09-02T04:02:35Z"
   }
 }

@@ -3,7 +3,7 @@
   "headword": "{運|はこ}び{込|こ}む",
   "reading": "はこびこむ",
   "romaji": "hakobikomu",
-  "part_of_speech": "verb-godan",
+  "part_of_speech": "verb (godan)",
   "gloss": "to carry in; to bring in; to haul into",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30545_hakobikomu_ex1",
-      "japanese": "{荷物|にもつ}を{運|はこ}び{込|こ}んだ。",
+      "japanese": "⟦{荷物|にもつ}→荷物：00737_nimotsu⟧⟦を→を：00422_wo⟧{運|はこ}び{込|こ}んだ。",
       "english": "We carried the luggage in.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30545_hakobikomu_ex2",
-      "japanese": "けが{人|にん}が{病院|びょういん}に{運|はこ}び{込|こ}まれた。",
+      "japanese": "⟦けが→けが：00787_kega⟧⟦{人|にん}→〜人：00658_nin⟧⟦が→が：00051_ga⟧⟦{病院|びょういん}→病院：00577_byouin⟧⟦に→に：00314_ni⟧{運|はこ}び{込|こ}まれた。",
       "english": "The injured person was rushed into the hospital.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30545_hakobikomu_ex3",
-      "japanese": "{業者|ぎょうしゃ}が{朝早|あさはや}くから{機材|きざい}を{会場|かいじょう}に{運|はこ}び{込|こ}んでいた。",
+      "japanese": "⟦{業者|ぎょうしゃ}→業者：13130_gyousha⟧⟦が→が：00051_ga⟧{朝早|あさはや}く⟦から→から：00504_kara⟧⟦{機材|きざい}→機材：13187_kizai⟧⟦を→を：00422_wo⟧⟦{会場|かいじょう}→会場：01269_kaijou⟧⟦に→に：00314_ni⟧{運|はこ}び{込|こ}んで⟦いた→いる：00495_iru⟧。",
       "english": "The contractors had been hauling equipment into the venue since early morning.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {運|はこ}ぶ (to carry) + {込|こ}む (into). Transitive: the thing carried takes を and the destination takes に.\n\nASPECT (ている):\n{運|はこ}び{込|こ}んでいる can mean either an action in progress (is carrying things in) or a resulting state (has brought them in and they are there); context decides.\n\nCOMMON COLLOCATIONS:\n- {病院|びょういん}に{運|はこ}び{込|こ}まれる: to be rushed to hospital\n- {荷物|にもつ}を{部屋|へや}に{運|はこ}び{込|こ}む: to carry luggage into a room\n- {機材|きざい}を{運|はこ}び{込|こ}む: to haul in equipment\n\nSIMILAR WORDS:\n- {持|も}ち{込|こ}む: to bring in — smaller items carried by hand, often where permission is at issue\n- {搬入|はんにゅう}する: to deliver in — formal, used of freight and exhibition setup",
+  "notes": "Compound of ⟦{運|はこ}ぶ→運ぶ：01088_hakobu⟧ (to carry) + ⟦{込|こ}む→込む：00719_komu⟧ (into). Transitive: the thing carried takes ⟦を→を：00422_wo⟧ and the destination takes ⟦に→に：00314_ni⟧.\n\nASPECT (ている):\n{運|はこ}び{込|こ}んで⟦いる→いる：00495_iru⟧ can mean either an action in progress (is carrying things in) or a resulting state (has brought them in and they are there); context decides.\n\nCOMMON COLLOCATIONS:\n- ⟦{病院|びょういん}→病院：00577_byouin⟧⟦に→に：00314_ni⟧{運|はこ}び{込|こ}まれる: to be rushed to hospital\n- ⟦{荷物|にもつ}→荷物：00737_nimotsu⟧⟦を→を：00422_wo⟧⟦{部屋|へや}→部屋：00507_heya⟧⟦に→に：00314_ni⟧{運|はこ}び{込|こ}む: to carry luggage into a room\n- ⟦{機材|きざい}→機材：13187_kizai⟧⟦を→を：00422_wo⟧{運|はこ}び{込|こ}む: to haul in equipment\n\nSIMILAR WORDS:\n- ⟦{持|も}ち{込|こ}む→持ち込む：04226_mochikomu⟧: to bring in — smaller items carried by hand, often where permission is at issue\n- ⟦{搬入|はんにゅう}→搬入：16523_hannyuu⟧⟦する→する：00392_suru⟧: to deliver in — formal, used of freight and exhibition setup",
   "cross_references": [
     {
       "type": "related",
@@ -57,6 +57,20 @@
       "target_id": "01088_hakobu",
       "reading": "はこぶ",
       "headword": "{運|はこ}ぶ"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16523_hannyuu",
+      "reading": "はんにゅう",
+      "headword": "{搬入|はんにゅう}",
+      "label": "to deliver in"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30531_hakobidasu",
+      "reading": "はこびだす",
+      "headword": "{運|はこ}び{出|だ}す",
+      "label": "to carry out"
     }
   ],
   "schema_version": "2.0",
@@ -76,7 +90,7 @@
       "verb_class": "godan-mu"
     },
     "created": "2026-08-10T09:22:29Z",
-    "modified": "2026-08-10T09:22:29Z"
+    "modified": "2026-09-02T04:02:40Z"
   },
   "conjugation": {
     "type": "godan",

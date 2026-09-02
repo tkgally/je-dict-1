@@ -44,7 +44,7 @@
     },
     {
       "id": "02221_tama_ex3",
-      "japanese": "{百円玉|ひゃくえんだま}⟦を→を：00422_wo⟧⟦{拾|ひろ}った→拾う：00845_hirou⟧。",
+      "japanese": "⟦{百円玉|ひゃくえんだま}→百円玉：28167_hyakuendama⟧⟦を→を：00422_wo⟧⟦{拾|ひろ}った→拾う：00845_hirou⟧。",
       "english": "I picked up a hundred-yen coin.",
       "notes": null,
       "has_audio": false,
@@ -113,11 +113,26 @@
       ]
     }
   ],
-  "notes": "{玉|たま} refers to round objects, gems, or balls. The kanji can also be read as ぎょく in some compounds.\n\nCOMMON COMPOUNDS:\n- ⟦{目玉|めだま}→目玉：13649_medama⟧: eyeball\n- ⟦{玉子|たまご}→卵：02222_tamago⟧: egg (also written ⟦{卵|たまご}→卵：02222_tamago⟧)\n- ⟦{玉ねぎ|たまねぎ}→玉葱：05196_tamanegi⟧: onion\n- ⟦{水玉|みずたま}→水玉：16173_mizutama⟧: polka dots, water droplet\n- ⟦{玉入|たまい}れ→玉入れ：28110_tamaire⟧: ball-toss game\n- ⟦{百円玉|ひゃくえんだま}→百円玉：28167_hyakuendama⟧: 100-yen coin\n\nEXPRESSIONS:\n- {玉|たま}⟦に→に：00314_ni⟧⟦{瑕|きず}→傷：02201_kizu⟧: a fly in the ointment (lit. a flaw in a gem)\n- {玉|たま}⟦の→の：09472_no⟧⟦ような→ような：noentry⟧⟦{肌|はだ}→肌：02243_hada⟧: flawless skin (lit. skin like a gem)\n\nREADINGS:\n- たま: native Japanese reading (round object, ball)\n- ぎょく: Sino-Japanese reading in ⟦{玉座|ぎょくざ}→玉座：noentry⟧ (throne), ⟦{宝玉|ほうぎょく}→宝玉：noentry⟧ (jewel)\n\nNOTE:\nCan refer to bullets (⟦{鉄砲玉|てっぽうだま}→鉄砲玉：noentry⟧) in informal speech.",
-  "cross_references": [],
+  "notes": "{玉|たま} refers to round objects, gems, or balls. The kanji can also be read as ぎょく in some compounds.\n\nCOMPOUNDS:\n- ⟦{目玉|めだま}→目玉：13649_medama⟧: eyeball\n- ⟦{玉子|たまご}→卵：02222_tamago⟧: egg (also written ⟦{卵|たまご}→卵：02222_tamago⟧)\n- ⟦{玉|たま}ねぎ→玉葱：05196_tamanegi⟧: onion\n- ⟦{水玉|みずたま}→水玉：16173_mizutama⟧: polka dots, water droplet\n- ⟦{玉入|たまい}れ→玉入れ：28110_tamaire⟧: ball-toss game\n- ⟦{百円玉|ひゃくえんだま}→百円玉：28167_hyakuendama⟧: 100-yen coin\n\nCOMMON EXPRESSIONS:\n- {玉|たま}⟦に→に：00314_ni⟧⟦{瑕|きず}→傷：02201_kizu⟧: a fly in the ointment (lit. a flaw in a gem)\n- {玉|たま}⟦の→の：09472_no⟧⟦ような→ような：noentry⟧⟦{肌|はだ}→肌：02243_hada⟧: flawless skin (lit. skin like a gem)\n\nPRONUNCIATION:\n- たま: native Japanese reading (round object, ball)\n- ぎょく: Sino-Japanese reading in ⟦{玉座|ぎょくざ}→玉座：noentry⟧ (throne), ⟦{宝玉|ほうぎょく}→宝玉：noentry⟧ (jewel)\n\nUSAGE:\nCan refer to bullets (⟦{鉄砲玉|てっぽうだま}→鉄砲玉：noentry⟧) in informal speech.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19873_shinju",
+      "reading": "しんじゅ",
+      "headword": "{真珠|しんじゅ}",
+      "label": "pearl"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28895_kyuu",
+      "reading": "きゅう",
+      "headword": "{球|きゅう}",
+      "label": "sphere"
+    }
+  ],
   "metadata": {
     "created": "2026-01-09T12:22:03Z",
-    "modified": "2026-08-11T00:23:12Z",
+    "modified": "2026-09-02T04:01:01Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

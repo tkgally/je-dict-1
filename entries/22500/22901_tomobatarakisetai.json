@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22901_tomobatarakisetai_ex1",
-      "japanese": "{共働|ともばたら}き{世帯|せたい}が{増|ふ}えている。",
+      "japanese": "{共働|ともばたら}き{世帯|せたい}⟦が→が：00051_ga⟧⟦{増|ふ}えている→増える：01183_fueru⟧。",
       "english": "Dual-income households are increasing.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22901_tomobatarakisetai_ex2",
-      "japanese": "{共働|ともばたら}き{世帯|せたい}にとって、{保育園|ほいくえん}の{確保|かくほ}は{大|おお}きな{課題|かだい}だ。",
+      "japanese": "{共働|ともばたら}き{世帯|せたい}⟦にとって→にとって：06803_nitotte⟧、⟦{保育園|ほいくえん}→保育園：04704_hoikuen⟧⟦の→の：09472_no⟧⟦{確保|かくほ}→確保：13681_kakuho⟧⟦は→は：00079_ha⟧⟦{大|おお}きな→大きな：02849_ookina⟧⟦{課題|かだい}→課題：00132_kadai⟧だ。",
       "english": "Securing a daycare spot is a major challenge for dual-income households.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22901_tomobatarakisetai_ex3",
-      "japanese": "{日本|にほん}では{共働|ともばたら}き{世帯|せたい}が{専業|せんぎょう}{主婦|しゅふ}{世帯|せたい}を{上回|うわまわ}るようになった。",
+      "japanese": "⟦{日本|にほん}→日本：03876_nihon⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧{共働|ともばたら}き{世帯|せたい}⟦が→が：00051_ga⟧⟦{専業|せんぎょう}{主婦|しゅふ}→専業主婦：16565_sengyoushufu⟧⟦{世帯|せたい}→世帯：06870_setai⟧⟦を→を：00422_wo⟧⟦{上回|うわまわ}る→上回る：07648_uwamawaru⟧ようになった。",
       "english": "In Japan, dual-income households have come to outnumber households with a stay-at-home spouse.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "A compound frequently used in news, government statistics, and social commentary about Japanese demographics and economic trends. The rise of dual-income households is one of the most significant social changes in modern Japan.\n\nCOMMON COLLOCATIONS:\n- {共働|ともばたら}き{世帯|せたい}の{割合|わりあい}: proportion of dual-income households\n- {共働|ともばたら}き{世帯|せたい}{向|む}けサービス: services aimed at dual-income households\n- {共働|ともばたら}き{世帯|せたい}の{家事|かじ}{分担|ぶんたん}: division of housework in dual-income households\n\nRELATED TERMS:\n- {共働|ともばたら}き: dual income, both spouses working\n- {専業|せんぎょう}{主婦|しゅふ}: full-time homemaker\n- {片働|かたばたら}き: single-income (household)\n\nCULTURAL NOTE:\nSince the 1990s, dual-income households have steadily increased in Japan, overtaking single-earner households. This shift has driven demand for childcare services, meal kits, and household convenience products.",
+  "notes": "A compound frequently used in news, government statistics, and social commentary about Japanese demographics and economic trends. The rise of dual-income households is one of the most significant social changes in modern Japan.\n\nCOMMON COLLOCATIONS:\n- {共働|ともばたら}き{世帯|せたい}⟦の→の：09472_no⟧⟦{割合|わりあい}→割合：01760_wariai⟧: proportion of dual-income households\n- {共働|ともばたら}き{世帯|せたい}{向|む}け⟦サービス→サービス：01531_saabisu⟧: services aimed at dual-income households\n- {共働|ともばたら}き{世帯|せたい}⟦の→の：09472_no⟧⟦{家事|かじ}→家事：12313_kaji⟧⟦{分担|ぶんたん}→分担：11771_buntan⟧: division of housework in dual-income households\n\nRELATED WORDS:\n- ⟦{共働|ともばたら}き→共働き：08564_tomobataraki⟧: dual income, both spouses working\n- ⟦{専業|せんぎょう}{主婦|しゅふ}→専業主婦：16565_sengyoushufu⟧: full-time homemaker\n- {片働|かたばたら}き: single-income (household)\n\nCULTURAL NOTE:\nSince the 1990s, dual-income households have steadily increased in Japan, overtaking single-earner households. This shift has driven demand for childcare services, meal kits, and household convenience products.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "16565_sengyoushufu",
+      "reading": "せんぎょうしゅふ",
+      "headword": "{専業主婦|せんぎょうしゅふ}",
+      "label": "full-time homemaker"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26548_hyoujunsetai",
+      "reading": "ひょうじゅんせたい",
+      "headword": "{標準世帯|ひょうじゅんせたい}",
+      "label": "standard household"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +76,6 @@
       ]
     },
     "created": "2026-04-07T20:17:00Z",
-    "modified": "2026-04-10T08:28:27Z"
+    "modified": "2026-09-02T04:02:10Z"
   }
 }

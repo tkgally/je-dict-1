@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08975_bamishiri_ex1",
-      "japanese": "うちの{子|こ}は{場|ば}{見知|みし}りが{激|はげ}しい。",
+      "japanese": "うち⟦の→の：09472_no⟧⟦{子|こ}→子：09851_ko⟧⟦は→は：00079_ha⟧{場|ば}{見知|みし}り⟦が→が：00051_ga⟧⟦{激|はげ}しい→激しい：02348_hageshii⟧。",
       "english": "Our child is very shy in unfamiliar places.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "08975_bamishiri_ex2",
-      "japanese": "{場|ば}{見知|みし}りで{新|あたら}しい{環境|かんきょう}になかなか{慣|な}れない。",
+      "japanese": "{場|ば}{見知|みし}り⟦で→で：00502_de⟧⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦{環境|かんきょう}→環境：00174_kankyou⟧⟦に→に：00314_ni⟧⟦なかなか→なかなか：01547_nakanaka⟧⟦{慣|な}れない→慣れる：00870_nareru⟧。",
       "english": "I'm place-shy and have trouble adjusting to new environments.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "08975_bamishiri_ex3",
-      "japanese": "{猫|ねこ}が{場|ば}{見知|みし}りで{外|そと}に{出|で}たがらない。",
+      "japanese": "⟦{猫|ねこ}→猫：02237_neko⟧⟦が→が：00051_ga⟧{場|ば}{見知|みし}り⟦で→で：00502_de⟧⟦{外|そと}→外：00671_soto⟧⟦に→に：00314_ni⟧⟦{出|で}たがらない→出る：00513_deru⟧。",
       "english": "The cat is place-shy and doesn't want to go outside.",
       "notes": null,
       "has_audio": false,
@@ -43,11 +43,19 @@
       ]
     }
   ],
-  "notes": "{場|ば}{見知|みし}り describes shyness related to places, not people.\n\nCOMPARISON:\n- {人見知|ひとみし}り: shy with people (strangers)\n- {場|ば}{見知|みし}り: shy in unfamiliar places\n\nCOMMON PATTERNS:\n- {場|ば}{見知|みし}りをする: to be place-shy\n- {場|ば}{見知|みし}りが{激|はげ}しい: to be very place-shy\n- {場|ば}{見知|みし}りしない: to not be place-shy\n\nUSAGE:\nFrequently used when describing:\n- Children at new schools or daycare\n- Pets in new environments\n- Adults who are uncomfortable traveling or in new social settings",
-  "cross_references": [],
+  "notes": "{場|ば}{見知|みし}り describes shyness related to places, not people.\n\nSIMILAR WORDS:\n- ⟦{人見知|ひとみし}り→人見知り：06622_hitomishiri⟧: shy with people (strangers)\n- {場|ば}{見知|みし}り: shy in unfamiliar places\n\nCOMMON PATTERNS:\n- {場|ば}{見知|みし}り⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧: to be place-shy\n- {場|ば}{見知|みし}り⟦が→が：00051_ga⟧⟦{激|はげ}しい→激しい：02348_hageshii⟧: to be very place-shy\n- {場|ば}{見知|みし}り⟦しない→する：00392_suru⟧: to not be place-shy\n\nUSAGE:\nFrequently used when describing:\n- Children at new schools or daycare\n- Pets in new environments\n- Adults who are uncomfortable traveling or in new social settings",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06622_hitomishiri",
+      "reading": "ひとみしり",
+      "headword": "{人見知|ひとみし}り",
+      "label": "shy with people"
+    }
+  ],
   "metadata": {
     "created": "2026-01-29T11:07:27Z",
-    "modified": "2026-01-29T11:07:27Z",
+    "modified": "2026-09-02T04:01:16Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

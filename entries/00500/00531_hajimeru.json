@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "00531_hajimeru_ex1",
-      "japanese": "⟦{授業|じゅぎょう}→授業：00781_jugyou⟧⟦を→を：00422_wo⟧{始|はじ}めましょう。",
+      "japanese": "⟦{授業|じゅぎょう}→授業：00781_jugyou⟧⟦を→を：00422_wo⟧⟦{始|はじ}めましょう→〜始める：18370_hajimeru⟧。",
       "english": "Let's start the class.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "00531_hajimeru_ex2",
-      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦を→を：00422_wo⟧{始|はじ}めました。",
+      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦を→を：00422_wo⟧⟦{始|はじ}めました→〜始める：18370_hajimeru⟧。",
       "english": "I started a new job.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
     },
     {
       "id": "00531_hajimeru_ex4",
-      "japanese": "⟦{来週|らいしゅう}→来週：00746_raishuu⟧⟦から→から：00504_kara⟧⟦{日本語|にほんご}→日本語：00614_nihongo⟧⟦の→の：09472_no⟧⟦{勉強|べんきょう}→勉強：00770_benkyou⟧⟦を→を：00422_wo⟧{始|はじ}めます。",
+      "japanese": "⟦{来週|らいしゅう}→来週：00746_raishuu⟧⟦から→から：00504_kara⟧⟦{日本語|にほんご}→日本語：00614_nihongo⟧⟦の→の：09472_no⟧⟦{勉強|べんきょう}→勉強：00770_benkyou⟧⟦を→を：00422_wo⟧⟦{始|はじ}めます→〜始める：18370_hajimeru⟧。",
       "english": "I'll start studying Japanese from next week.",
       "notes": null,
       "has_audio": false,
@@ -153,7 +153,7 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive). Pair: ⟦{始|はじ}まる→始まる：00841_hajimaru⟧ (intransitive). Pattern: X⟦を→を：00422_wo⟧{始|はじ}める (start X).\n\nASPECT: ている indicates ongoing state. {始|はじ}めている = 'has started (and is ongoing).'\n\nCOMMON PATTERNS:\n- ⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦を→を：00422_wo⟧{始|はじ}める (start work)\n- ⟦{授業|じゅぎょう}→授業：00781_jugyou⟧⟦を→を：00422_wo⟧{始|はじ}める (start class)\n- V-stem + {始|はじ}める (start V-ing)\n- ⟦{食|た}べ→食べる：00396_taberu⟧{始|はじ}める (start eating)\n\nPAIR: ⟦{始|はじ}まる→始まる：00841_hajimaru⟧ (intransitive) - ⟦{授業|じゅぎょう}→授業：00781_jugyou⟧⟦が→が：00051_ga⟧⟦{始|はじ}まった→始まる：00841_hajimaru⟧ (class started). Opposite: ⟦{終|お}わる→終わる：00567_owaru⟧/⟦{終|お}える→終える：02019_oeru⟧.",
+  "notes": "TRANSITIVITY: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive). Pair: ⟦{始|はじ}まる→始まる：00841_hajimaru⟧ (intransitive). Pattern: X⟦を→を：00422_wo⟧{始|はじ}める (start X).\n\nASPECT: て⟦いる→いる：00495_iru⟧ indicates ongoing state. ⟦{始|はじ}めている→〜始める：18370_hajimeru⟧ = 'has started (and is ongoing).'\n\nCOMMON PATTERNS:\n- ⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦を→を：00422_wo⟧{始|はじ}める (start work)\n- ⟦{授業|じゅぎょう}→授業：00781_jugyou⟧⟦を→を：00422_wo⟧{始|はじ}める (start class)\n- V-stem + {始|はじ}める (start V-ing)\n- ⟦{食|た}べ→食べる：00396_taberu⟧{始|はじ}める (start eating)\n\nPAIR: ⟦{始|はじ}まる→始まる：00841_hajimaru⟧ (intransitive) - ⟦{授業|じゅぎょう}→授業：00781_jugyou⟧⟦が→が：00051_ga⟧⟦{始|はじ}まった→始まる：00841_hajimaru⟧ (class started). Opposite: ⟦{終|お}わる→終わる：00567_owaru⟧/⟦{終|お}える→終える：02019_oeru⟧.",
   "prominent_see_also": [
     {
       "target_id": "00841_hajimaru",
@@ -176,11 +176,32 @@
       "reading": "おわる",
       "headword": "{終|お}わる",
       "label": "to end"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20182_torikakaru",
+      "reading": "とりかかる",
+      "headword": "{取|と}り{掛|か}かる",
+      "label": "to begin"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25898_yaridasu",
+      "reading": "やりだす",
+      "headword": "やり{出|だ}す",
+      "label": "to start doing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26826_kaishisuru",
+      "reading": "かいしする",
+      "headword": "{開始|かいし}する",
+      "label": "to start"
     }
   ],
   "metadata": {
     "created": "2026-01-07T14:46:04Z",
-    "modified": "2026-08-16T00:19:15Z",
+    "modified": "2026-09-02T04:00:57Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "basic",
     "tags": {

@@ -3,7 +3,7 @@
   "id": "12830_jajji",
   "headword": "ジャッジ",
   "reading": "じゃっじ",
-  "part_of_speech": "noun / suru verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "judgment, judging",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "12830_jajji_ex1",
-      "japanese": "ジャッジが{難|むずか}しい。",
+      "japanese": "ジャッジ⟦が→が：00051_ga⟧⟦{難|むずか}しい→難しい：00517_muzukashii⟧。",
       "english": "The judging is difficult.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "12830_jajji_ex2",
-      "japanese": "{審判|しんぱん}のジャッジに{不満|ふまん}がある。",
+      "japanese": "⟦{審判|しんぱん}→審判：03331_shinpan⟧⟦の→の：09472_no⟧ジャッジ⟦に→に：00314_ni⟧⟦{不満|ふまん}→不満：02497_fuman⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "I'm dissatisfied with the referee's call.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "12830_jajji_ex3",
-      "japanese": "{最終的|さいしゅうてき}にどう{行動|こうどう}するかは{自分|じぶん}でジャッジしなければならない。",
+      "japanese": "⟦{最終的|さいしゅうてき}→最終的：13013_saishuuteki⟧⟦に→に：00314_ni⟧⟦どう→どう：00543_dou⟧⟦{行動|こうどう}→行動：02728_koudou⟧⟦する→する：00392_suru⟧⟦か→か：09473_ka⟧⟦は→は：00079_ha⟧⟦{自分|じぶん}→自分：02887_jibun⟧⟦で→で：00502_de⟧ジャッジし⟦なければならない→なければならない：27600_nakerebanaranai⟧。",
       "english": "You have to judge for yourself how to act in the end.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,33 @@
       ]
     }
   ],
-  "notes": "USAGE:\nUsed both as a noun and as a suru verb (ジャッジする). Common in sports contexts for officiating decisions, but also used more broadly for personal or professional judgment calls.\n\nCOMMON COLLOCATIONS:\n- ジャッジする: to judge, to make a call\n- ジャッジミス: misjudgment (in sports)\n- {誤|あやま}ったジャッジ: wrong call\n\nSIMILAR WORDS:\n- {判断|はんだん}: judgment, decision (more general, used in everyday contexts)\n- {審判|しんぱん}: referee, umpire; judgment",
-  "cross_references": [],
+  "notes": "USAGE:\nUsed both as a noun and as a suru verb (ジャッジ⟦する→する：00392_suru⟧). Common in sports contexts for officiating decisions, but also used more broadly for personal or professional judgment calls.\n\nCOMMON COLLOCATIONS:\n- ジャッジ⟦する→する：00392_suru⟧: to judge, to make a call\n- ジャッジミス: misjudgment (in sports)\n- ⟦{誤|あやま}った→誤る：27433_ayamaru⟧ジャッジ: wrong call\n\nSIMILAR WORDS:\n- ⟦{判断|はんだん}→判断：03571_handan⟧: judgment, decision (more general, used in everyday contexts)\n- ⟦{審判|しんぱん}→審判：03331_shinpan⟧: referee, umpire; judgment",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03571_handan",
+      "reading": "はんだん",
+      "headword": "{判断|はんだん}",
+      "label": "judgment, decision"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03331_shinpan",
+      "reading": "しんぱん",
+      "headword": "{審判|しんぱん}",
+      "label": "referee, umpire"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08628_shinpanin",
+      "reading": "しんぱんいん",
+      "headword": "{審判員|しんぱんいん}",
+      "label": "referee"
+    }
+  ],
   "metadata": {
     "created": "2026-02-22T11:50:40Z",
-    "modified": "2026-03-29T03:07:35Z",
+    "modified": "2026-09-02T04:01:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

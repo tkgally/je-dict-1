@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08118_tororokonbu_ex1",
-      "japanese": "{味噌汁|みそしる}にとろろ{昆布|こんぶ}を{入|い}れる。",
+      "japanese": "⟦{味噌汁|みそしる}→味噌汁：04954_misoshiru⟧⟦に→に：00314_ni⟧とろろ{昆布|こんぶ}⟦を→を：00422_wo⟧⟦{入|い}れる→入れる：01098_ireru⟧。",
       "english": "Add shredded kelp to miso soup.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "08118_tororokonbu_ex2",
-      "japanese": "おにぎりにとろろ{昆布|こんぶ}を{巻|ま}いて{食|た}べる。",
+      "japanese": "⟦おにぎり→おにぎり：04956_onigiri⟧⟦に→に：00314_ni⟧とろろ{昆布|こんぶ}⟦を→を：00422_wo⟧⟦{巻|ま}いて→巻く：02418_maku⟧⟦{食|た}べる→食べる：00396_taberu⟧。",
       "english": "Wrap rice balls in shredded kelp and eat them.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "08118_tororokonbu_ex3",
-      "japanese": "とろろ{昆布|こんぶ}は{旨味|うまみ}が{強|つよ}く、{料理|りょうり}の{風味|ふうみ}を{引|ひ}き{立|た}てる。",
+      "japanese": "とろろ{昆布|こんぶ}⟦は→は：00079_ha⟧⟦{旨味|うまみ}→旨味：06998_umami⟧⟦が→が：00051_ga⟧⟦{強|つよ}く→強い：00820_tsuyoi⟧、⟦{料理|りょうり}→料理：01523_ryouri⟧⟦の→の：09472_no⟧⟦{風味|ふうみ}→風味：14622_fuumi⟧⟦を→を：00422_wo⟧⟦{引|ひ}き{立|た}てる→引き立てる：12585_hikitateru⟧。",
       "english": "Shredded kelp has a strong umami flavor that enhances the taste of dishes.",
       "sense_numbers": [
         1
@@ -43,7 +43,23 @@
       "notes": null
     }
   ],
-  "notes": "PRODUCTION:\nとろろ{昆布|こんぶ} is made by shaving dried kombu kelp into thin, fluffy strands. The kelp is often treated with vinegar before shaving, which makes it easier to shave and adds flavor.\n\nUSAGE:\nCommonly used as a garnish for soup or udon, wrapped around rice balls, or eaten as a snack. The thin strands dissolve easily in hot liquid, adding umami.\n\nREGIONAL SPECIALTY:\nParticularly associated with Toyama Prefecture and the Hokuriku region.\n\nRELATED TERMS:\n- {昆布|こんぶ} (kombu kelp)\n- おぼろ{昆布|こんぶ} (similar product, sometimes used interchangeably)\n- {出汁|だし} (dashi stock)",
+  "notes": "PRODUCTION:\nとろろ{昆布|こんぶ} is made by shaving dried kombu kelp into thin, fluffy strands. The kelp is often treated with vinegar before shaving, which makes it easier to shave and adds flavor.\n\nUSAGE:\nCommonly used as a garnish for soup or udon, wrapped around rice balls, or eaten as a snack. The thin strands dissolve easily in hot liquid, adding umami.\n\nREGIONAL SPECIALTY:\nParticularly associated with Toyama Prefecture and the Hokuriku region.\n\nRELATED WORDS:\n- ⟦{昆布|こんぶ}→昆布：04934_konbu⟧ (kombu kelp)\n- おぼろ⟦{昆布|こんぶ}→昆布：04934_konbu⟧ (similar product, sometimes used interchangeably)\n- ⟦{出汁|だし}→出汁：04917_dashi⟧ (dashi stock)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "04934_konbu",
+      "reading": "こんぶ",
+      "headword": "{昆布|こんぶ}",
+      "label": "kombu kelp"
+    },
+    {
+      "type": "related",
+      "target_id": "04917_dashi",
+      "reading": "だし",
+      "headword": "{出汁|だし}",
+      "label": "dashi stock"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -51,6 +67,7 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "food",
         "ingredient",
@@ -59,6 +76,6 @@
       ]
     },
     "created": "2026-01-25T05:17:44Z",
-    "modified": "2026-08-11T21:34:29Z"
+    "modified": "2026-09-02T04:01:14Z"
   }
 }

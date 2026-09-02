@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30587_atamanikuru_ex1",
-      "japanese": "その{言|い}い{方|かた}には{頭|あたま}に{来|き}た。",
+      "japanese": "⟦その→その：00993_sono⟧⟦{言|い}い{方|かた}→言い方：14165_iikata⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{頭|あたま}に{来|き}た。",
       "english": "The way he said that made me angry.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30587_atamanikuru_ex2",
-      "japanese": "{約束|やくそく}を{破|やぶ}られて{本当|ほんとう}に{頭|あたま}に{来|き}た。",
+      "japanese": "⟦{約束|やくそく}→約束：01517_yakusoku⟧⟦を→を：00422_wo⟧⟦{破|やぶ}られて→破る：02321_yaburu⟧⟦{本当|ほんとう}→本当：00779_hontou⟧⟦に→に：00314_ni⟧{頭|あたま}に{来|き}た。",
       "english": "I was really furious that they broke their promise.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30587_atamanikuru_ex3",
-      "japanese": "{頭|あたま}に{来|き}たときは、{一度|いちど}{深呼吸|しんこきゅう}するようにしている。",
+      "japanese": "{頭|あたま}に{来|き}たとき⟦は→は：00079_ha⟧、⟦{一度|いちど}→一度：01312_ichido⟧⟦{深呼吸|しんこきゅう}→深呼吸：13294_shinkokyuu⟧⟦する→する：00392_suru⟧ようにして⟦いる→いる：00495_iru⟧。",
       "english": "When I get angry, I make a point of taking one deep breath.",
       "sense_numbers": [
         1
@@ -45,7 +45,7 @@
     },
     {
       "id": "30587_atamanikuru_ex4",
-      "japanese": "{何度|なんど}{注意|ちゅうい}しても{同|おな}じミスをくり{返|かえ}すので、さすがに{頭|あたま}に{来|き}てしまった。",
+      "japanese": "⟦{何度|なんど}→何度：17592_nando⟧⟦{注意|ちゅうい}→注意：01464_chuui⟧⟦して→する：00392_suru⟧⟦も→も：00484_mo⟧⟦{同|おな}じ→同じ：02857_onaji⟧⟦ミス→ミス：00285_misu⟧⟦を→を：00422_wo⟧くり{返|かえ}す⟦の→の：09472_no⟧で、さすが⟦に→に：00314_ni⟧{頭|あたま}に{来|き}てしまった。",
       "english": "He kept making the same mistake no matter how often I warned him, so I finally lost my temper.",
       "sense_numbers": [
         1
@@ -54,7 +54,7 @@
       "notes": null
     }
   ],
-  "notes": "STRUCTURE: {頭|あたま} (head) + に + {来|く}る (to come). The past {頭|あたま}に{来|き}た is by far the most common form.\n\nCOMMON PATTERNS:\n- {頭|あたま}に{来|き}た: I got angry\n- 〜に{頭|あたま}に{来|く}る: to get angry at ~\n- {頭|あたま}に{来|き}て{何|なに}も{言|い}えなかった: to be too angry to speak\n\nSIMILAR WORDS:\n- {腹|はら}が{立|た}つ: to get angry — the standard, less charged expression, usable in writing\n- ムカつく: to be pissed off — slangier and younger-sounding\n- {怒|おこ}る: to get angry, to scold — the plain verb; also covers telling someone off\n\nUSAGE:\nToo casual for business or formal writing; use {腹|はら}が{立|た}つ there. Said of another person it can sound accusatory, so it usually describes the speaker's own reaction.",
+  "notes": "STRUCTURE: ⟦{頭|あたま}→頭：00574_atama⟧ (head) + ⟦に→に：00314_ni⟧ + ⟦{来|く}る→来る：00254_kuru⟧ (to come). The past {頭|あたま}に{来|き}た is by far the most common form.\n\nCOMMON PATTERNS:\n- {頭|あたま}に{来|き}た: I got angry\n- 〜⟦に→に：00314_ni⟧{頭|あたま}に{来|く}る: to get angry at ~\n- {頭|あたま}に{来|き}て⟦{何|なに}も→何も：03874_nanimo⟧⟦{言|い}えなかった→言う：00515_iu⟧: to be too angry to speak\n\nSIMILAR WORDS:\n- ⟦{腹|はら}が{立|た}つ→腹が立つ：06886_haragatatsu⟧: to get angry — the standard, less charged expression, usable in writing\n- ムカつく: to be pissed off — slangier and younger-sounding\n- ⟦{怒|おこ}る→怒る：00876_okoru⟧: to get angry, to scold — the plain verb; also covers telling someone off\n\nUSAGE:\nToo casual for business or formal writing; use ⟦{腹|はら}が{立|た}つ→腹が立つ：06886_haragatatsu⟧ there. Said of another person it can sound accusatory, so it usually describes the speaker's own reaction.",
   "cross_references": [
     {
       "type": "related",
@@ -62,6 +62,20 @@
       "reading": "はらがたつ",
       "headword": "{腹|はら}が{立|た}つ",
       "label": "to get angry (standard expression)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06357_mukatsuku",
+      "reading": "むかつく",
+      "headword": "ムカつく",
+      "label": "to be pissed off"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00876_okoru",
+      "reading": "おこる",
+      "headword": "{怒|おこ}る",
+      "label": "to get angry, to scold"
     }
   ],
   "schema_version": "2.0",
@@ -82,6 +96,6 @@
       ]
     },
     "created": "2026-08-12T03:18:15Z",
-    "modified": "2026-08-12T03:18:15Z"
+    "modified": "2026-09-02T04:02:40Z"
   }
 }

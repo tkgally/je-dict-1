@@ -3,7 +3,7 @@
   "headword": "{活発化|かっぱつか}",
   "reading": "かっぱつか",
   "romaji": "kappatsuka",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "becoming more active; intensification; invigoration",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22450_kappatsuka_ex1",
-      "japanese": "{経済|けいざい}の{活発化|かっぱつか}が{期待|きたい}される。",
+      "japanese": "⟦{経済|けいざい}→経済：01394_keizai⟧⟦の→の：09472_no⟧{活発化|かっぱつか}⟦が→が：00051_ga⟧⟦{期待|きたい}される→期待する：06065_kitaisuru⟧。",
       "english": "Invigoration of the economy is expected.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22450_kappatsuka_ex2",
-      "japanese": "{火山|かざん}{活動|かつどう}が{活発化|かっぱつか}している。",
+      "japanese": "⟦{火山|かざん}→火山：04020_kazan⟧⟦{活動|かつどう}→活動：00201_katsudou⟧⟦が→が：00051_ga⟧{活発化|かっぱつか}⟦している→する：00392_suru⟧。",
       "english": "Volcanic activity is intensifying.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22450_kappatsuka_ex3",
-      "japanese": "SNSの{普及|ふきゅう}により、{消費者|しょうひしゃ}と{企業|きぎょう}の{交流|こうりゅう}が{活発化|かっぱつか}した。",
+      "japanese": "SNS⟦の→の：09472_no⟧⟦{普及|ふきゅう}→普及：07592_fukyuu⟧⟦に→に：00314_ni⟧⟦より→より：09476_yori⟧、⟦{消費者|しょうひしゃ}→消費者：09866_shouhisha⟧⟦と→と：00512_to⟧⟦{企業|きぎょう}→企業：00225_kigyou⟧⟦の→の：09472_no⟧⟦{交流|こうりゅう}→交流：02732_kouryuu⟧⟦が→が：00051_ga⟧{活発化|かっぱつか}⟦した→する：00392_suru⟧。",
       "english": "The spread of social media has made interaction between consumers and businesses more active.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {活発|かっぱつ} (active, lively) + {化|か} (transformation suffix). Describes the process of becoming more active or vigorous. Can be used as a noun or with する as a suru-verb meaning \"to become more active\" or \"to invigorate.\"\n\nCOMMON COLLOCATIONS:\n- {経済|けいざい}の{活発化|かっぱつか}: economic invigoration\n- {議論|ぎろん}の{活発化|かっぱつか}: livening up of discussion\n- {活発化|かっぱつか}する: to become more active\n- {活発化|かっぱつか}を{促|うなが}す: to promote invigoration\n\nSIMILAR WORDS:\n- {活性化|かっせいか}: revitalization — often used for local economies, organizations, or biological processes\n- {激化|げきか}: intensification — implies becoming more fierce or severe, with negative connotations\n- {盛|さか}り{上|あ}がり: excitement, buildup — more colloquial, used for events and moods",
+  "notes": "Composed of ⟦{活発|かっぱつ}→活発：13272_kappatsu⟧ (active, lively) + ⟦{化|か}→〜化：28335_ka⟧ (transformation suffix). Describes the process of becoming more active or vigorous. Can be used as a noun or with ⟦する→する：00392_suru⟧ as a suru-verb meaning \"to become more active\" or \"to invigorate.\"\n\nCOMMON COLLOCATIONS:\n- ⟦{経済|けいざい}→経済：01394_keizai⟧⟦の→の：09472_no⟧{活発化|かっぱつか}: economic invigoration\n- ⟦{議論|ぎろん}→議論：02650_giron⟧⟦の→の：09472_no⟧{活発化|かっぱつか}: livening up of discussion\n- {活発化|かっぱつか}⟦する→する：00392_suru⟧: to become more active\n- {活発化|かっぱつか}⟦を→を：00422_wo⟧⟦{促|うなが}す→促す：10875_unagasu⟧: to promote invigoration\n\nSIMILAR WORDS:\n- ⟦{活性化|かっせいか}→活性化：07563_kasseika⟧: revitalization — often used for local economies, organizations, or biological processes\n- ⟦{激化|げきか}→激化：13372_gekika⟧: intensification — implies becoming more fierce or severe, with negative connotations\n- {盛|さか}り{上|あ}がり: excitement, buildup — more colloquial, used for events and moods",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07563_kasseika",
+      "reading": "かっせいか",
+      "headword": "{活性化|かっせいか}",
+      "label": "revitalization"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13372_gekika",
+      "reading": "げきか",
+      "headword": "{激化|げきか}",
+      "label": "intensification"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -58,10 +74,11 @@
       "semantic": [
         "abstract"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     },
     "created": "2026-04-06T12:09:38Z",
-    "modified": "2026-04-06T12:09:38Z"
+    "modified": "2026-09-02T04:02:08Z"
   },
   "conjugation": {
     "type": "suru",

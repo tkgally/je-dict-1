@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29442_tounyoubyoukanja_ex1",
-      "japanese": "{糖尿病患者|とうにょうびょうかんじゃ}が{増|ふ}えている。",
+      "japanese": "{糖尿病患者|とうにょうびょうかんじゃ}⟦が→が：00051_ga⟧⟦{増|ふ}えている→増える：01183_fueru⟧。",
       "english": "The number of diabetic patients is increasing.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29442_tounyoubyoukanja_ex2",
-      "japanese": "{糖尿病患者|とうにょうびょうかんじゃ}は{食事|しょくじ}に{気|き}をつける{必要|ひつよう}がある。",
+      "japanese": "{糖尿病患者|とうにょうびょうかんじゃ}⟦は→は：00079_ha⟧⟦{食事|しょくじ}→食事：02087_shokuji⟧⟦に→に：00314_ni⟧⟦{気|き}をつける→気をつける：09771_kiwotsukeru⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "Diabetic patients need to be careful about their diet.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29442_tounyoubyoukanja_ex3",
-      "japanese": "{医師|いし}は{糖尿病患者|とうにょうびょうかんじゃ}に{毎日|まいにち}{運動|うんどう}するよう{勧|すす}めた。",
+      "japanese": "⟦{医師|いし}→医師：11851_ishi⟧⟦は→は：00079_ha⟧{糖尿病患者|とうにょうびょうかんじゃ}⟦に→に：00314_ni⟧⟦{毎日|まいにち}→毎日：00729_mainichi⟧⟦{運動|うんどう}→運動：00821_undou⟧⟦する→する：00392_suru⟧よう⟦{勧|すす}めた→勧める：02120_susumeru⟧。",
       "english": "The doctor advised the diabetic patient to exercise every day.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "Written {糖尿病|とうにょうびょう} (diabetes) + {患者|かんじゃ} (patient). The suffix {患者|かんじゃ} combines with many illness names (e.g. がん{患者|かんじゃ}, cancer patient).\n\nSIMILAR WORDS:\n- {糖尿病|とうにょうびょう}: diabetes — the condition itself\n- {患者|かんじゃ}: patient — the general base word",
+  "notes": "Written ⟦{糖尿病|とうにょうびょう}→糖尿病：04414_tounyoubyou⟧ (diabetes) + ⟦{患者|かんじゃ}→患者：00170_kanja⟧ (patient). The suffix ⟦{患者|かんじゃ}→患者：00170_kanja⟧ combines with many illness names (e.g. がん⟦{患者|かんじゃ}→患者：00170_kanja⟧, cancer patient).\n\nSIMILAR WORDS:\n- ⟦{糖尿病|とうにょうびょう}→糖尿病：04414_tounyoubyou⟧: diabetes — the condition itself\n- ⟦{患者|かんじゃ}→患者：00170_kanja⟧: patient — the general base word",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "00170_kanja",
+      "reading": "かんじゃ",
+      "headword": "{患者|かんじゃ}",
+      "label": "patient"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +62,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "health"
       ],
@@ -62,6 +71,6 @@
       ]
     },
     "created": "2026-06-23T09:30:32Z",
-    "modified": "2026-06-23T09:30:32Z"
+    "modified": "2026-09-02T04:02:36Z"
   }
 }

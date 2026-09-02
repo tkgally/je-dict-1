@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "09063_shuutou_ex1",
-      "japanese": "{周到|しゅうとう}な{準備|じゅんび}が{必要|ひつよう}だ。",
+      "japanese": "{周到|しゅうとう}な⟦{準備|じゅんび}→準備：01431_junbi⟧⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧だ。",
       "english": "Thorough preparation is necessary.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "09063_shuutou_ex2",
-      "japanese": "{彼|かれ}は{周到|しゅうとう}に{計画|けいかく}を{練|ね}った。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{周到|しゅうとう}⟦に→に：00314_ni⟧⟦{計画|けいかく}→計画：01172_keikaku⟧⟦を→を：00422_wo⟧⟦{練|ね}った→練る：09751_neru⟧。",
       "english": "He carefully worked out the plan.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "09063_shuutou_ex3",
-      "japanese": "{用意|ようい}{周到|しゅうとう}なプレゼンテーションで{聴衆|ちょうしゅう}を{魅了|みりょう}した。",
+      "japanese": "⟦{用意|ようい}→用意：01746_youi⟧{周到|しゅうとう}な⟦プレゼンテーション→プレゼンテーション：29053_purezenteeshon⟧⟦で→で：00502_de⟧⟦{聴衆|ちょうしゅう}→聴衆：13907_choushuu⟧⟦を→を：00422_wo⟧⟦{魅了|みりょう}した→魅了する：19016_miryousuru⟧。",
       "english": "The meticulously prepared presentation captivated the audience.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{周到|しゅうとう} describes careful, thorough attention to detail.\n\nWORD FORMATION:\n- {周|しゅう} (around, complete) + {到|とう} (arrive, reach)\n- Literally: reaching all around; covering everything\n\nCOMMON COLLOCATIONS:\n- {周到|しゅうとう}な{準備|じゅんび}: thorough preparation\n- {周到|しゅうとう}な{計画|けいかく}: meticulous plan\n- {用意|ようい}{周到|しゅうとう}: thoroughly prepared\n- {周到|しゅうとう}に{練|ね}る: to carefully work out\n\nFOUR-CHARACTER COMPOUND:\n{用意|ようい}{周到|しゅうとう} - thoroughly prepared (very common expression)\n\nOPPOSITE:\n- {杜撰|ずさん}: sloppy, careless",
+  "notes": "{周到|しゅうとう} describes careful, thorough attention to detail.\n\nFORMS:\n- {周|しゅう} (around, complete) + {到|とう} (arrive, reach)\n- Literally: reaching all around; covering everything\n\nCOMMON COLLOCATIONS:\n- {周到|しゅうとう}な⟦{準備|じゅんび}→準備：01431_junbi⟧: thorough preparation\n- {周到|しゅうとう}な⟦{計画|けいかく}→計画：01172_keikaku⟧: meticulous plan\n- ⟦{用意|ようい}→用意：01746_youi⟧{周到|しゅうとう}: thoroughly prepared\n- {周到|しゅうとう}⟦に→に：00314_ni⟧⟦{練|ね}る→練る：09751_neru⟧: to carefully work out\n\nFOUR-CHARACTER COMPOUND:\n⟦{用意|ようい}→用意：01746_youi⟧{周到|しゅうとう} - thoroughly prepared (very common expression)\n\nSIMILAR WORDS:\n- ⟦{杜撰|ずさん}→杜撰：09064_zusan⟧: sloppy, careless",
   "cross_references": [
     {
       "type": "antonym",
@@ -51,11 +51,18 @@
       "reading": "ずさん",
       "headword": "{杜撰|ずさん}",
       "label": "sloppy, careless"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21452_tetteisuru",
+      "reading": "てっていする",
+      "headword": "{徹底|てってい}する",
+      "label": "to be thorough"
     }
   ],
   "metadata": {
     "created": "2026-01-31T02:20:58Z",
-    "modified": "2026-08-12T21:25:53Z",
+    "modified": "2026-09-02T04:01:17Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

@@ -181,13 +181,13 @@ python3 build/verify_furigana.py <entry_ids...>  # Verify furigana coverage
 python3 build/add_conjugations.py            # Add conjugation to any verbs missing it
 python3 build/add_adjective_conjugations.py  # Add conjugation to any i-adjectives missing it
 python3 build/update_indexes.py              # Update indexes
-python3 build/build_flat.py                  # Rebuild website (REQUIRED for GitHub Pages)
+make index                                   # Refresh indexes and kanji JSON (the site builds in CI after merge)
 git add entries/ docs/ *.json PROJECT_STATUS.md
 git commit -m "Revise entries to v2 standards"
 git push
 ```
 
-The `build_flat.py` step is critical - without it, changes won't appear on the live site.
+The `make index` step refreshes `entries_index.json`, `build/word_id_lookup.json`, and `kanji/`; the live site is rebuilt by GitHub Actions when the PR merges, so `docs/` is never committed.
 
 Check for:
 - Schema compliance

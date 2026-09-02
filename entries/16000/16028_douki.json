@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "16028_douki_ex1",
-      "japanese": "{犯行|はんこう}の{動機|どうき}は{何|なん}ですか。",
+      "japanese": "⟦{犯行|はんこう}→犯行：13472_hankou⟧⟦の→の：09472_no⟧{動機|どうき}⟦は→は：00079_ha⟧⟦{何|なん}→何〜：03100_nan⟧です⟦か→か：09473_ka⟧。",
       "english": "What was the motive for the crime?",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "16028_douki_ex2",
-      "japanese": "{日本語|にほんご}を{学|まな}ぶ{動機|どうき}は{人|ひと}それぞれだ。",
+      "japanese": "⟦{日本語|にほんご}→日本語：00614_nihongo⟧⟦を→を：00422_wo⟧⟦{学|まな}ぶ→学ぶ：01987_manabu⟧{動機|どうき}⟦は→は：00079_ha⟧⟦{人|ひと}それぞれ→人それぞれ：24844_hitosorezore⟧だ。",
       "english": "Everyone has their own motivation for learning Japanese.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "16028_douki_ex3",
-      "japanese": "{志望|しぼう}{動機|どうき}をしっかり{書|か}かないと、{面接|めんせつ}で{落|お}とされるかもしれない。",
+      "japanese": "⟦{志望|しぼう}→志望：03200_shibou⟧{動機|どうき}⟦を→を：00422_wo⟧⟦しっかり→しっかり：01272_shikkari⟧⟦{書|か}かない→書く：00477_kaku⟧⟦と→と：00512_to⟧、⟦{面接|めんせつ}→面接：01100_mensetsu⟧⟦で→で：00502_de⟧⟦{落|お}とされる→落とす：01246_otosu⟧⟦かもしれない→かもしれない：00164_kamoshirenai⟧。",
       "english": "If you don't write your motivation for applying properly, you might be rejected at the interview.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,26 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{動機|どうき} is used broadly for the reason behind any action, from job applications to criminal investigations.\n\nCOMMON COLLOCATIONS:\n- {犯行|はんこう}の{動機|どうき} (motive for the crime)\n- {志望|しぼう}{動機|どうき} (motivation for applying)\n- {動機|どうき}づけ (motivation, providing incentive)\n- {動機|どうき}が{不純|ふじゅん} (impure motives)\n\nCAUTION:\nDo not confuse with the homophones {動悸|どうき} (palpitations, rapid heartbeat) or {同期|どうき} (same year/class; synchronization). All three are pronounced どうき but have completely different meanings and kanji.",
-  "cross_references": [],
+  "notes": "USAGE:\n{動機|どうき} is used broadly for the reason behind any action, from job applications to criminal investigations.\n\nCOMMON COLLOCATIONS:\n- ⟦{犯行|はんこう}→犯行：13472_hankou⟧⟦の→の：09472_no⟧{動機|どうき} (motive for the crime)\n- ⟦{志望|しぼう}→志望：03200_shibou⟧{動機|どうき} (motivation for applying)\n- {動機|どうき}づけ (motivation, providing incentive)\n- {動機|どうき}⟦が→が：00051_ga⟧⟦{不純|ふじゅん}→不純：18102_fujun⟧ (impure motives)\n\nWATCH OUT:\nDo not confuse with the homophones ⟦{動悸|どうき}→動悸：06299_douki⟧ (palpitations, rapid heartbeat) or ⟦{同期|どうき}→同期：12029_douki⟧ (same year/class; synchronization). All three are pronounced どうき but have completely different meanings and kanji.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01102_riyuu",
+      "reading": "りゆう",
+      "headword": "{理由|りゆう}",
+      "label": "reason, cause"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07282_hagemi",
+      "reading": "はげみ",
+      "headword": "{励|はげ}み",
+      "label": "encouragement"
+    }
+  ],
   "metadata": {
     "created": "2026-03-09T08:36:55Z",
-    "modified": "2026-05-02T10:22:31Z",
+    "modified": "2026-09-02T04:01:43Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

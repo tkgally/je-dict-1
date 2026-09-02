@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{機械学習|きかいがくしゅう} is the Japanese term for machine learning, a branch of AI.\n\nCOMPONENTS:\n⟦{機械|きかい}→機械：02366_kikai⟧ (machine) + ⟦{学習|がくしゅう}→学習：02623_gakushuu⟧ (learning)\n\nCOMMON TERMS:\n- {機械学習|きかいがくしゅう}⟦モデル→モデル：05112_moderu⟧: machine learning model\n- ⟦{教師|きょうし}→教師：03029_kyoushi⟧⟦あり→ある：00006_aru⟧⟦{学習|がくしゅう}→学習：02623_gakushuu⟧: supervised learning\n- ⟦{教師|きょうし}→教師：03029_kyoushi⟧⟦なし→無し：03779_nashi⟧⟦{学習|がくしゅう}→学習：02623_gakushuu⟧: unsupervised learning\n- ⟦{深層学習|しんそうがくしゅう}→深層学習：06600_shinsougakushuu⟧: deep learning\n\nRELATED:\n- ⟦{人工知能|じんこうちのう}→人工知能：04878_jinkouchinou⟧ (AI): artificial intelligence\n- ⟦ニューラルネットワーク→ニューラルネットワーク：30073_nyuurarunettowaaku⟧: neural network\n- ⟦データサイエンス→データサイエンス：noentry⟧: data science",
+  "notes": "{機械学習|きかいがくしゅう} is the Japanese term for machine learning, a branch of AI.\n\nETYMOLOGY:\n⟦{機械|きかい}→機械：02366_kikai⟧ (machine) + ⟦{学習|がくしゅう}→学習：02623_gakushuu⟧ (learning)\n\nCOMMON TERMS:\n- {機械学習|きかいがくしゅう}⟦モデル→モデル：05112_moderu⟧: machine learning model\n- ⟦{教師|きょうし}→教師：03029_kyoushi⟧⟦あり→ある：00006_aru⟧⟦{学習|がくしゅう}→学習：02623_gakushuu⟧: supervised learning\n- ⟦{教師|きょうし}→教師：03029_kyoushi⟧⟦なし→無し：03779_nashi⟧⟦{学習|がくしゅう}→学習：02623_gakushuu⟧: unsupervised learning\n- ⟦{深層学習|しんそうがくしゅう}→深層学習：06600_shinsougakushuu⟧: deep learning\n\nRELATED WORDS:\n- ⟦{人工知能|じんこうちのう}→人工知能：04878_jinkouchinou⟧ (AI): artificial intelligence\n- ⟦ニューラルネットワーク→ニューラルネットワーク：30073_nyuurarunettowaaku⟧: neural network\n- ⟦データサイエンス→データサイエンス：noentry⟧: data science",
   "cross_references": [
     {
       "type": "related",
@@ -51,11 +51,25 @@
       "headword": "{人工知能|じんこうちのう}",
       "label": "artificial intelligence",
       "target_id": "04878_jinkouchinou"
+    },
+    {
+      "type": "related",
+      "target_id": "30073_nyuurarunettowaaku",
+      "reading": "にゅーらるねっとわーく",
+      "headword": "ニューラルネットワーク",
+      "label": "neural network"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30071_shizengengoshori",
+      "reading": "しぜんげんごしょり",
+      "headword": "{自然|しぜん}{言語|げんご}{処理|しょり}",
+      "label": "natural language processing"
     }
   ],
   "metadata": {
     "created": "2026-01-16T00:33:34Z",
-    "modified": "2026-08-08T09:25:02Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

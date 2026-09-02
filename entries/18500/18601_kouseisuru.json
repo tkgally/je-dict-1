@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "18601_kouseisuru_ex1",
-      "japanese": "{彼|かれ}は{刑務所|けいむしょ}を{出|で}て{更生|こうせい}した。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{刑務所|けいむしょ}→刑務所：19074_keimusho⟧⟦を→を：00422_wo⟧⟦{出|で}て→出る：00513_deru⟧{更生|こうせい}した。",
       "english": "He was released from prison and rehabilitated himself.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "18601_kouseisuru_ex2",
-      "japanese": "{犯罪者|はんざいしゃ}の{更生|こうせい}を{支援|しえん}するプログラムがある。",
+      "japanese": "⟦{犯罪者|はんざいしゃ}→犯罪者：19219_hanzaisha⟧⟦の→の：09472_no⟧⟦{更生|こうせい}→更生：18057_kousei⟧⟦を→を：00422_wo⟧⟦{支援|しえん}する→支援する：25534_shiensuru⟧⟦プログラム→プログラム：01540_puroguramu⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There are programs that support the rehabilitation of criminals.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "18601_kouseisuru_ex3",
-      "japanese": "{若|わか}いうちなら{更生|こうせい}できるチャンスがあると、{保護|ほご}{司|し}は{信|しん}じている。",
+      "japanese": "{若|わか}いうちなら{更生|こうせい}できる⟦チャンス→チャンス：03857_chansu⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧⟦と→と：00512_to⟧、⟦{保護|ほご}→保護：03625_hogo⟧{司|し}⟦は→は：00079_ha⟧⟦{信|しん}じている→信じる：01111_shinjiru⟧。",
       "english": "The probation officer believes there's a chance for rehabilitation while they're still young.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,19 @@
       ]
     }
   ],
-  "notes": "USAGE:\nMost commonly used in legal, social welfare, and corrections contexts. The noun form {更生|こうせい} appears frequently in compound terms.\n\nCOMMON COLLOCATIONS:\n- {社会|しゃかい}{更生|こうせい} (social rehabilitation)\n- {更生|こうせい}{施設|しせつ} (rehabilitation facility)\n- {更生|こうせい}{保護|ほご} (rehabilitation and protection — a legal term)\n\nCAUTION:\nThe reading こうせい has many homophones: {構成|こうせい} (composition), {校正|こうせい} (proofreading), {公正|こうせい} (fairness), {厚生|こうせい} (welfare). Context and kanji are essential for distinguishing them.",
-  "cross_references": [],
+  "notes": "USAGE:\nMost commonly used in legal, social welfare, and corrections contexts. The noun form ⟦{更生|こうせい}→更生：18057_kousei⟧ appears frequently in compound terms.\n\nCOMMON COLLOCATIONS:\n- ⟦{社会|しゃかい}→社会：01427_shakai⟧⟦{更生|こうせい}→更生：18057_kousei⟧ (social rehabilitation)\n- ⟦{更生|こうせい}→更生：18057_kousei⟧⟦{施設|しせつ}→施設：02503_shisetsu⟧ (rehabilitation facility)\n- ⟦{更生|こうせい}→更生：18057_kousei⟧⟦{保護|ほご}→保護：03625_hogo⟧ (rehabilitation and protection — a legal term)\n\nWATCH OUT:\nThe reading こうせい has many homophones: ⟦{構成|こうせい}→構成：02729_kousei⟧ (composition), ⟦{校正|こうせい}→校正：21081_kousei⟧ (proofreading), ⟦{公正|こうせい}→公正：01751_kousei⟧ (fairness), {厚生|こうせい} (welfare). Context and kanji are essential for distinguishing them.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25543_kaishinsuru",
+      "reading": "かいしんする",
+      "headword": "{改心|かいしん}する",
+      "label": "to reform oneself"
+    }
+  ],
   "metadata": {
     "created": "2026-03-22T09:53:15Z",
-    "modified": "2026-07-25T21:35:01Z",
+    "modified": "2026-09-02T04:01:52Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

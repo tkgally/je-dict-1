@@ -15,41 +15,94 @@
   "examples": [
     {
       "id": "11174_piiku_ex1",
-      "japanese": "{桜|さくら}のピークは{過|す}ぎた。",
+      "japanese": "⟦{桜|さくら}→桜：02212_sakura⟧⟦の→の：09472_no⟧ピーク⟦は→は：00079_ha⟧⟦{過|す}ぎた→過ぎる：01219_sugiru⟧。",
       "english": "The cherry blossoms have passed their peak.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11174_piiku_ex2",
-      "japanese": "{通勤|つうきん}ラッシュのピークは{朝|あさ}8{時|じ}{前後|ぜんご}だ。",
+      "japanese": "⟦{通勤|つうきん}ラッシュ→通勤ラッシュ：08486_tsuukinrasshu⟧⟦の→の：09472_no⟧ピーク⟦は→は：00079_ha⟧⟦{朝|あさ}→朝：02277_asa⟧8⟦{時|じ}→時：09869_ji⟧⟦{前後|ぜんご}→前後：04042_zengo⟧だ。",
       "english": "The peak of the commuter rush is around 8 a.m.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11174_piiku_ex3",
-      "japanese": "{花粉|かふん}の{飛散量|ひさんりょう}がピークを{迎|むか}えるのは3{月|がつ}だ。",
+      "japanese": "⟦{花粉|かふん}→花粉：04372_kafun⟧⟦の→の：09472_no⟧⟦{飛散量|ひさんりょう}→飛散量：28487_hisanryou⟧⟦が→が：00051_ga⟧ピーク⟦を→を：00422_wo⟧⟦{迎|むか}える→迎える：01193_mukaeru⟧⟦の→の：09472_no⟧⟦は→は：00079_ha⟧3⟦{月|がつ}→月：30418_gatsu⟧だ。",
       "english": "Pollen dispersal reaches its peak in March.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "ピーク is from English \"peak.\" Used for the highest point, maximum level, or prime of something — traffic, popularity, ability, seasons, etc.\n\nCOMMON PATTERNS:\n- ピークを{迎|むか}える: to reach one's peak\n- ピークに{達|たっ}する: to reach the peak\n- ピークを{過|す}ぎる: to be past the peak/prime\n\nCOMMON COMPOUNDS:\n- ピーク{時|じ}: peak time/hours\n- ピーク{時間帯|じかんたい}: peak time period\n- オフピーク: off-peak\n\nUSAGE:\nVery versatile — applies to physical peaks ({花粉|かふん}のピーク, pollen peak), career peaks ({選手|せんしゅ}としてのピーク, peak as an athlete), and volume peaks ({通勤|つうきん}ラッシュのピーク, peak of rush hour).\n\nSIMILAR WORDS:\n- {頂点|ちょうてん}: summit, pinnacle (more literary)\n- {最盛期|さいせいき}: heyday, golden age\n- {絶頂|ぜっちょう}: peak, climax (more dramatic)",
-  "cross_references": [],
+  "notes": "ピーク is from English \"peak.\" Used for the highest point, maximum level, or prime of something — traffic, popularity, ability, seasons, etc.\n\nCOMMON PATTERNS:\n- ピーク⟦を→を：00422_wo⟧⟦{迎|むか}える→迎える：01193_mukaeru⟧: to reach one's peak\n- ピーク⟦に→に：00314_ni⟧⟦{達|たっ}する→達する：02129_tassuru⟧: to reach the peak\n- ピーク⟦を→を：00422_wo⟧⟦{過|す}ぎる→過ぎる：01219_sugiru⟧: to be past the peak/prime\n\nCOMPOUNDS:\n- ピーク⟦{時|じ}→時：09869_ji⟧: peak time/hours\n- ピーク⟦{時間帯|じかんたい}→時間帯：12971_jikantai⟧: peak time period\n- オフピーク: off-peak\n\nUSAGE:\nVery versatile — applies to physical peaks (⟦{花粉|かふん}→花粉：04372_kafun⟧⟦の→の：09472_no⟧ピーク, pollen peak), career peaks (⟦{選手|せんしゅ}→選手：03823_senshu⟧⟦として→として：06802_toshite⟧⟦の→の：09472_no⟧ピーク, peak as an athlete), and volume peaks (⟦{通勤|つうきん}ラッシュ→通勤ラッシュ：08486_tsuukinrasshu⟧⟦の→の：09472_no⟧ピーク, peak of rush hour).\n\nSIMILAR WORDS:\n- ⟦{頂点|ちょうてん}→頂点：05448_chouten⟧: summit, pinnacle (more literary)\n- ⟦{最盛期|さいせいき}→最盛期：13058_saiseiki⟧: heyday, golden age\n- ⟦{絶頂|ぜっちょう}→絶頂：13844_zecchou⟧: peak, climax (more dramatic)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05448_chouten",
+      "reading": "ちょうてん",
+      "headword": "{頂点|ちょうてん}",
+      "label": "summit, pinnacle"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13058_saiseiki",
+      "reading": "さいせいき",
+      "headword": "{最盛期|さいせいき}",
+      "label": "heyday, golden age"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13844_zecchou",
+      "reading": "ぜっちょう",
+      "headword": "{絶頂|ぜっちょう}",
+      "label": "peak, climax"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08366_hanbouki",
+      "reading": "はんぼうき",
+      "headword": "{繁忙期|はんぼうき}",
+      "label": "busy season"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11644_zenseiki",
+      "reading": "ぜんせいき",
+      "headword": "{全盛期|ぜんせいき}",
+      "label": "golden age, heyday, peak"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19278_saikouchou",
+      "reading": "さいこうちょう",
+      "headword": "{最高潮|さいこうちょう}",
+      "label": "climax"
+    }
+  ],
   "metadata": {
     "created": "2026-02-14T05:15:09Z",
-    "modified": "2026-03-27T14:29:18Z",
+    "modified": "2026-09-02T04:01:24Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

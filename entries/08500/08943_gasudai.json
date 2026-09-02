@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08943_gasudai_ex1",
-      "japanese": "ガス{代|だい}を{払|はら}う。",
+      "japanese": "ガス{代|だい}⟦を→を：00422_wo⟧⟦{払|はら}う→払う：00535_harau⟧。",
       "english": "I pay the gas bill.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "08943_gasudai_ex2",
-      "japanese": "{今月|こんげつ}はガス{代|だい}が{高|たか}かった。",
+      "japanese": "⟦{今月|こんげつ}→今月：00720_kongetsu⟧⟦は→は：00079_ha⟧ガス{代|だい}⟦が→が：00051_ga⟧⟦{高|たか}かった→高い：00500_takai⟧。",
       "english": "The gas bill was high this month.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "08943_gasudai_ex3",
-      "japanese": "IHコンロに{変|か}えたらガス{代|だい}がかからなくなった。",
+      "japanese": "IH⟦コンロ→コンロ：04677_konro⟧⟦に→に：00314_ni⟧⟦{変|か}えたら→変える：01089_kaeru⟧ガス{代|だい}⟦が→が：00051_ga⟧⟦かからなく→かかる：00711_kakaru⟧⟦なった→なる：01970_naru⟧。",
       "english": "After switching to an IH stove, I no longer have gas charges.",
       "notes": null,
       "has_audio": false,
@@ -43,11 +43,33 @@
       ]
     }
   ],
-  "notes": "ガス{代|だい} is one of the common utility costs in Japan.\n\nRELATED UTILITY BILLS:\n- {電気代|でんきだい}: electricity bill\n- {水道代|すいどうだい}: water bill\n- ガス{代|だい}: gas bill\n- {光熱費|こうねつひ}: utility costs (collective term)\n\nGAS TYPES IN JAPAN:\n- {都市|とし}ガス: city gas (piped natural gas)\n- プロパンガス/LPガス: propane gas (tank delivery)\n\nNOTE:\nCity gas is generally cheaper than propane gas, so ガス{代|だい} can vary significantly depending on the type of gas service available.",
-  "cross_references": [],
+  "notes": "ガス{代|だい} is one of the common utility costs in Japan.\n\nRELATED UTILITY BILLS:\n- ⟦{電気代|でんきだい}→電気代：09543_denkidai⟧: electricity bill\n- ⟦{水道代|すいどうだい}→水道代：09544_suidoudai⟧: water bill\n- ガス{代|だい}: gas bill\n- ⟦{光熱費|こうねつひ}→光熱費：08244_kounetsuhi⟧: utility costs (collective term)\n\nGAS TYPES IN JAPAN:\n- ⟦{都市|とし}ガス→都市ガス：22713_toshigasu⟧: city gas (piped natural gas)\n- プロパンガス/LP⟦ガス→ガス：01344_gasu⟧: propane gas (tank delivery)\n\nUSAGE:\nCity gas is generally cheaper than propane gas, so ガス{代|だい} can vary significantly depending on the type of gas service available.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "09543_denkidai",
+      "reading": "でんきだい",
+      "headword": "{電気代|でんきだい}",
+      "label": "electricity bill"
+    },
+    {
+      "type": "related",
+      "target_id": "09544_suidoudai",
+      "reading": "すいどうだい",
+      "headword": "{水道代|すいどうだい}",
+      "label": "water bill"
+    },
+    {
+      "type": "related",
+      "target_id": "08244_kounetsuhi",
+      "reading": "こうねつひ",
+      "headword": "{光熱費|こうねつひ}",
+      "label": "utility costs"
+    }
+  ],
   "metadata": {
     "created": "2026-01-29T06:12:54Z",
-    "modified": "2026-01-29T06:12:54Z",
+    "modified": "2026-09-02T04:01:16Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

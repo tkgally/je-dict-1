@@ -3,7 +3,7 @@
   "headword": "{知覚|ちかく}",
   "reading": "ちかく",
   "romaji": "chikaku",
-  "part_of_speech": "noun / verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "perception; sensation",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "18520_chikaku_ex1",
-      "japanese": "{痛|いた}みを{知覚|ちかく}する。",
+      "japanese": "⟦{痛|いた}み→痛み：01795_itami⟧⟦を→を：00422_wo⟧{知覚|ちかく}⟦する→する：00392_suru⟧。",
       "english": "To perceive pain.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "18520_chikaku_ex2",
-      "japanese": "{知覚|ちかく}{過敏|かびん}で{冷|つめ}たいものが{歯|は}にしみる。",
+      "japanese": "{知覚|ちかく}⟦{過敏|かびん}→過敏：15183_kabin⟧で⟦{冷|つめ}たい→冷たい：00681_tsumetai⟧もの⟦が→が：00051_ga⟧⟦{歯|は}→歯：00778_ha⟧⟦に→に：00314_ni⟧しみる。",
       "english": "Due to tooth sensitivity, cold things sting my teeth.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "18520_chikaku_ex3",
-      "japanese": "{人間|にんげん}の{知覚|ちかく}には{限界|げんかい}があり、{見|み}えないものも{多|おお}い。",
+      "japanese": "⟦{人間|にんげん}→人間：03523_ningen⟧⟦の→の：09472_no⟧{知覚|ちかく}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{限界|げんかい}→限界：02715_genkai⟧⟦が→が：00051_ga⟧⟦あり→ある：00006_aru⟧、⟦{見|み}えない→見える：01165_mieru⟧もの⟦も→も：00484_mo⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "Human perception has its limits, and there are many things we cannot see.",
       "sense_numbers": [
         1
@@ -134,7 +134,7 @@
       "notes": null
     }
   ],
-  "notes": "{知覚|ちかく} means perception or sensation — the cognitive process of receiving and interpreting sensory input.\n\nUSAGE:\n- Functions as a する verb and as a noun.\n- Most common in technical and academic contexts: psychology, philosophy, neuroscience, dentistry, and medical writing.\n- Note the homophones {地殻|ちかく} (the earth's crust) and {近|ちか}く (nearby) — completely different words.\n\nCOMMON PATTERNS:\n- {知覚|ちかく}する: to perceive, to sense\n- {知覚|ちかく}{神経|しんけい}: sensory nerve\n- {知覚|ちかく}{過敏|かびん}: hypersensitivity (a common dental term for tooth sensitivity)\n- {知覚|ちかく}{障害|しょうがい}: perceptual disorder\n- {視覚|しかく}{知覚|ちかく}: visual perception\n- {知覚|ちかく}{能力|のうりょく}: perceptual capacity\n\nSIMILAR WORDS:\n- {感覚|かんかく}: sensation, sense (broader and more everyday; refers to the raw sensory experience).\n- {認知|にんち}: cognition, recognition (the higher-level mental processing that follows perception).\n- {感|かん}じる: to feel, to sense (the everyday verb).",
+  "notes": "{知覚|ちかく} means perception or sensation — the cognitive process of receiving and interpreting sensory input.\n\nUSAGE:\n- Functions as a ⟦する→する：00392_suru⟧ verb and as a noun.\n- Most common in technical and academic contexts: psychology, philosophy, neuroscience, dentistry, and medical writing.\n- Note the homophones ⟦{地殻|ちかく}→地殻：12142_chikaku⟧ (the earth's crust) and {近|ちか}く (nearby) — completely different words.\n\nCOMMON PATTERNS:\n- {知覚|ちかく}⟦する→する：00392_suru⟧: to perceive, to sense\n- {知覚|ちかく}⟦{神経|しんけい}→神経：03257_shinkei⟧: sensory nerve\n- {知覚|ちかく}⟦{過敏|かびん}→過敏：15183_kabin⟧: hypersensitivity (a common dental term for tooth sensitivity)\n- {知覚|ちかく}⟦{障害|しょうがい}→障害：03228_shougai⟧: perceptual disorder\n- ⟦{視覚|しかく}→視覚：02837_shikaku⟧{知覚|ちかく}: visual perception\n- {知覚|ちかく}⟦{能力|のうりょく}→能力：03541_nouryoku⟧: perceptual capacity\n\nSIMILAR WORDS:\n- ⟦{感覚|かんかく}→感覚：02593_kankaku⟧: sensation, sense (broader and more everyday; refers to the raw sensory experience).\n- ⟦{認知|にんち}→認知：14182_ninchi⟧: cognition, recognition (the higher-level mental processing that follows perception).\n- ⟦{感|かん}じる→感じる：02044_kanjiru⟧: to feel, to sense (the everyday verb).",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -151,10 +151,11 @@
       "domain": [
         "medical"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-03-22T04:40:35Z",
-    "modified": "2026-05-08T10:08:08Z"
+    "modified": "2026-09-02T04:01:52Z"
   },
   "cross_references": [
     {
@@ -163,6 +164,20 @@
       "reading": "かんかく",
       "headword": "{感覚|かんかく}",
       "label": "sensation (broader)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14182_ninchi",
+      "reading": "にんち",
+      "headword": "{認知|にんち}",
+      "label": "cognition, recognition (the…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02044_kanjiru",
+      "reading": "かんじる",
+      "headword": "{感|かん}じる",
+      "label": "to feel, to sense (the everyday verb)."
     }
   ]
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22424_dorehodo_ex1",
-      "japanese": "どれほど{待|ま}てばいいのか。",
+      "japanese": "どれほど⟦{待|ま}てば→待つ：00469_matsu⟧⟦いい→いい：00118_ii⟧⟦の→の：09472_no⟧⟦か→か：09473_ka⟧。",
       "english": "How long do I have to wait?",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22424_dorehodo_ex2",
-      "japanese": "どれほど{大変|たいへん}だったか{想像|そうぞう}できる。",
+      "japanese": "どれほど⟦{大変|たいへん}→大変：00594_taihen⟧だった⟦か→か：09473_ka⟧⟦{想像|そうぞう}できる→想像する：06060_souzousuru⟧。",
       "english": "I can imagine how hard it was.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22424_dorehodo_ex3",
-      "japanese": "{彼女|かのじょ}がどれほど{努力|どりょく}してきたか、{周|まわ}りの{人|ひと}はよく{知|し}っている。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦が→が：00051_ga⟧どれほど⟦{努力|どりょく}して→努力する：20201_doryokusuru⟧きた⟦か→か：09473_ka⟧、⟦{周|まわ}り→周り：01732_mawari⟧⟦の→の：09472_no⟧⟦{人|ひと}→人：00476_hito⟧⟦は→は：00079_ha⟧⟦よく→よく：00601_yoku⟧⟦{知|し}っている→知る：00458_shiru⟧。",
       "english": "The people around her know well how much effort she has put in.",
       "sense_numbers": [
         1
@@ -44,8 +44,59 @@
       "notes": null
     }
   ],
-  "notes": "Composed of どれ (which/what) and ほど (degree/extent). Used both in genuine questions ('How much...?') and in rhetorical/emphatic statements to convey that something is to an impressive or significant degree. Slightly more literary than どのくらい.\n\nUSAGE PATTERNS:\n- どれほど〜か: how much ~ (embedded question)\n- どれほど〜ても: no matter how much ~\n- どれほど〜ことか: how ~ it is! (exclamatory)\n\nCOMMON COLLOCATIONS:\n- どれほど{嬉|うれ}しかったことか: how happy I was!\n- どれほどの{価値|かち}があるか: how much value it has\n- どれほど{時間|じかん}がかかるか: how long it takes\n\nSIMILAR WORDS:\n- どのくらい: how much / how long — the most common everyday equivalent\n- いかほど: how much — more formal and literary\n- どれだけ: how much — similar meaning, slightly more casual than どれほど",
+  "notes": "Composed of ⟦どれ→どれ：00547_dore⟧ (which/what) and ほど (degree/extent). Used both in genuine questions ('How much...?') and in rhetorical/emphatic statements to convey that something is to an impressive or significant degree. Slightly more literary than ⟦どの→どの：00551_dono⟧くらい.\n\nCOMMON PATTERNS:\n- どれほど〜⟦か→か：09473_ka⟧: how much ~ (embedded question)\n- どれほど〜て⟦も→も：00484_mo⟧: no matter how much ~\n- どれほど〜こと⟦か→か：09473_ka⟧: how ~ it is! (exclamatory)\n\nCOMMON COLLOCATIONS:\n- どれほど⟦{嬉|うれ}しかった→嬉しい：00822_ureshii⟧こと⟦か→か：09473_ka⟧: how happy I was!\n- どれほど⟦の→の：09472_no⟧⟦{価値|かち}→価値：00131_kachi⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧⟦か→か：09473_ka⟧: how much value it has\n- どれほど⟦{時間|じかん}がかかる→時間がかかる：26082_jikangakakaru⟧⟦か→か：09473_ka⟧: how long it takes\n\nSIMILAR WORDS:\n- ⟦どの→どの：00551_dono⟧くらい: how much / how long — the most common everyday equivalent\n- いかほど: how much — more formal and literary\n- ⟦どれ→どれ：00547_dore⟧⟦だけ→〜だけ：03093_dake⟧: how much — similar meaning, slightly more casual than どれほど",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09584_donokurai",
+      "reading": "どのくらい",
+      "headword": "どのくらい",
+      "label": "how much / how long"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21827_ikahodo",
+      "reading": "いかほど",
+      "headword": "いかほど",
+      "label": "how much"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24191_doredake",
+      "reading": "どれだけ",
+      "headword": "どれだけ",
+      "label": "how much"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03494_donnani",
+      "reading": "どんなに",
+      "headword": "どんなに",
+      "label": "how (much), no matter how"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10222_ikani",
+      "reading": "いかに",
+      "headword": "{如何|いか}に",
+      "label": "how, no matter how"
+    },
+    {
+      "type": "related",
+      "target_id": "18054_korehodo",
+      "reading": "これほど",
+      "headword": "これほど",
+      "label": "this much, to this extent"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25217_nanihodo",
+      "reading": "なにほど",
+      "headword": "{何程|なにほど}",
+      "label": "how much"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +110,6 @@
       ]
     },
     "created": "2026-04-05T21:08:10Z",
-    "modified": "2026-04-05T21:08:10Z"
+    "modified": "2026-09-02T04:02:08Z"
   }
 }

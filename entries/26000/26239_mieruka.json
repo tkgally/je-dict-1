@@ -3,7 +3,7 @@
   "headword": "{見|み}える{化|か}",
   "reading": "みえるか",
   "romaji": "mieruka",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "visualization; making visible",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26239_mieruka_ex1",
-      "japanese": "データの{見|み}える{化|か}が{必要|ひつよう}だ。",
+      "japanese": "⟦データ→データ：03944_deeta⟧⟦の→の：09472_no⟧{見|み}える{化|か}⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧だ。",
       "english": "We need to visualize the data.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26239_mieruka_ex2",
-      "japanese": "{業務|ぎょうむ}プロセスを{見|み}える{化|か}する。",
+      "japanese": "⟦{業務|ぎょうむ}→業務：09630_gyoumu⟧⟦プロセス→プロセス：11291_purosesu⟧⟦を→を：00422_wo⟧{見|み}える{化|か}⟦する→する：00392_suru⟧。",
       "english": "We will visualize the work processes.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26239_mieruka_ex3",
-      "japanese": "{在庫|ざいこ}{管理|かんり}の{見|み}える{化|か}によって、{無駄|むだ}なコストを{削減|さくげん}できた。",
+      "japanese": "⟦{在庫|ざいこ}→在庫：04701_zaiko⟧⟦{管理|かんり}→管理：00178_kanri⟧⟦の→の：09472_no⟧{見|み}える{化|か}⟦によって→によって：06801_niyotte⟧、⟦{無駄|むだ}→無駄：02512_muda⟧な⟦コスト→コスト：06666_kosuto⟧⟦を→を：00422_wo⟧⟦{削減|さくげん}→削減：11789_sakugen⟧⟦できた→できる：00557_dekiru⟧。",
       "english": "By visualizing inventory management, we were able to reduce unnecessary costs.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Coined from the potential form of {見|み}る (to see) — {見|み}える (to be visible) — plus {化|か} (the suffix meaning \"-ization\"). The term originated in Toyota's manufacturing philosophy and spread widely into general business Japanese.\n\nCOMMON COLLOCATIONS:\n- データの{見|み}える{化|か}: data visualization\n- {業務|ぎょうむ}の{見|み}える{化|か}: work process visualization\n- {問題|もんだい}の{見|み}える{化|か}: making problems visible\n- {進捗|しんちょく}の{見|み}える{化|か}: progress visualization\n- コストの{見|み}える{化|か}: cost transparency\n\nUSAGE:\nOriginally a manufacturing concept associated with Toyota Production System, now used broadly in business, IT, and government contexts. It emphasizes making the invisible visible — not just displaying data, but structuring it so that problems and inefficiencies become immediately apparent.\n\nSIMILAR WORDS:\n- {可視化|かしか}: visualization — more formal and technical; used in scientific and academic contexts\n- {見|み}える{化|か}: visualization — more colloquial and business-oriented; emphasizes practical transparency",
+  "notes": "Coined from the potential form of ⟦{見|み}る→見る：00283_miru⟧ (to see) — ⟦{見|み}える→見える：01165_mieru⟧ (to be visible) — plus ⟦{化|か}→〜化：28335_ka⟧ (the suffix meaning \"-ization\"). The term originated in Toyota's manufacturing philosophy and spread widely into general business Japanese.\n\nCOMMON COLLOCATIONS:\n- ⟦データ→データ：03944_deeta⟧⟦の→の：09472_no⟧{見|み}える{化|か}: data visualization\n- ⟦{業務|ぎょうむ}→業務：09630_gyoumu⟧⟦の→の：09472_no⟧{見|み}える{化|か}: work process visualization\n- ⟦{問題|もんだい}→問題：00797_mondai⟧⟦の→の：09472_no⟧{見|み}える{化|か}: making problems visible\n- ⟦{進捗|しんちょく}→進捗：07377_shinchoku⟧⟦の→の：09472_no⟧{見|み}える{化|か}: progress visualization\n- ⟦コスト→コスト：06666_kosuto⟧⟦の→の：09472_no⟧{見|み}える{化|か}: cost transparency\n\nUSAGE:\nOriginally a manufacturing concept associated with Toyota Production System, now used broadly in business, IT, and government contexts. It emphasizes making the invisible visible — not just displaying data, but structuring it so that problems and inefficiencies become immediately apparent.\n\nSIMILAR WORDS:\n- ⟦{可視化|かしか}→可視化：07644_kashika⟧: visualization — more formal and technical; used in scientific and academic contexts\n- {見|み}える{化|か}: visualization — more colloquial and business-oriented; emphasizes practical transparency",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07644_kashika",
+      "reading": "かしか",
+      "headword": "{可視化|かしか}",
+      "label": "visualization"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20758_shikakuka",
+      "reading": "しかくか",
+      "headword": "{視覚化|しかくか}",
+      "label": "visualization"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -64,7 +80,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-30T13:33:08Z",
-    "modified": "2026-04-30T13:33:08Z"
+    "modified": "2026-09-02T04:02:25Z"
   },
   "conjugation": {
     "type": "suru",

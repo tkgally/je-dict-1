@@ -15,40 +15,80 @@
   "examples": [
     {
       "id": "23062_saiyaku_ex1",
-      "japanese": "{災厄|さいやく}に{見舞|みま}われる。",
+      "japanese": "{災厄|さいやく}⟦に→に：00314_ni⟧⟦{見舞|みま}われる→見舞う：14133_mimau⟧。",
       "english": "To be struck by calamity.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "23062_saiyaku_ex2",
-      "japanese": "{人々|ひとびと}は{災厄|さいやく}から{身|み}を{守|まも}るために{祈|いの}った。",
+      "japanese": "⟦{人々|ひとびと}→人々：03141_hitobito⟧⟦は→は：00079_ha⟧{災厄|さいやく}⟦から→から：00504_kara⟧⟦{身|み}→身：01764_mi⟧⟦を→を：00422_wo⟧⟦{守|まも}る→守る：01986_mamoru⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧⟦{祈|いの}った→祈る：01198_inoru⟧。",
       "english": "People prayed to protect themselves from disaster.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "23062_saiyaku_ex3",
-      "japanese": "{戦争|せんそう}は{人類|じんるい}にとって{最大|さいだい}の{災厄|さいやく}であると{言|い}われている。",
+      "japanese": "⟦{戦争|せんそう}→戦争：01450_sensou⟧⟦は→は：00079_ha⟧⟦{人類|じんるい}→人類：01578_jinrui⟧⟦にとって→にとって：06803_nitotte⟧⟦{最大|さいだい}→最大：04827_saidai⟧⟦の→の：09472_no⟧{災厄|さいやく}⟦である→である：09855_dearu⟧⟦と→と：00512_to⟧⟦{言|い}われている→言う：00515_iu⟧。",
       "english": "War is said to be the greatest calamity for humankind.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {災|さい} (disaster) + {厄|やく} (misfortune/evil). A literary word that conveys a grave, almost fateful quality. Often used in written and formal contexts.\n\nCOMMON COLLOCATIONS:\n- {災厄|さいやく}に{見舞|みま}われる: to be struck by calamity\n- {災厄|さいやく}を{逃|のが}れる: to escape disaster\n- {災厄|さいやく}を{払|はら}う: to ward off calamity\n- {災厄|さいやく}から{守|まも}る: to protect from disaster\n\nSIMILAR WORDS:\n- {災害|さいがい}: disaster — the standard term for natural disasters (earthquake, flood, etc.)\n- {厄災|やくさい}: calamity — nearly synonymous; reversed character order\n- {惨事|さんじ}: terrible event, tragedy — emphasizes the horrifying nature\n- {天災|てんさい}: natural disaster — specifically disasters of natural origin",
+  "notes": "A compound of {災|さい} (disaster) + ⟦{厄|やく}→厄：11989_yaku⟧ (misfortune/evil). A literary word that conveys a grave, almost fateful quality. Often used in written and formal contexts.\n\nCOMMON COLLOCATIONS:\n- {災厄|さいやく}⟦に→に：00314_ni⟧⟦{見舞|みま}われる→見舞う：14133_mimau⟧: to be struck by calamity\n- {災厄|さいやく}⟦を→を：00422_wo⟧⟦{逃|のが}れる→逃れる：10425_nogareru⟧: to escape disaster\n- {災厄|さいやく}⟦を→を：00422_wo⟧⟦{払|はら}う→払う：00535_harau⟧: to ward off calamity\n- {災厄|さいやく}⟦から→から：00504_kara⟧⟦{守|まも}る→守る：01986_mamoru⟧: to protect from disaster\n\nSIMILAR WORDS:\n- ⟦{災害|さいがい}→災害：09636_saigai⟧: disaster — the standard term for natural disasters (earthquake, flood, etc.)\n- ⟦{厄災|やくさい}→厄災：24387_yakusai⟧: calamity — nearly synonymous; reversed character order\n- ⟦{惨事|さんじ}→惨事：28385_sanji⟧: terrible event, tragedy — emphasizes the horrifying nature\n- ⟦{天災|てんさい}→天災：29302_tensai⟧: natural disaster — specifically disasters of natural origin",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09636_saigai",
+      "reading": "さいがい",
+      "headword": "{災害|さいがい}",
+      "label": "disaster"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24387_yakusai",
+      "reading": "やくさい",
+      "headword": "{厄災|やくさい}",
+      "label": "calamity"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28385_sanji",
+      "reading": "さんじ",
+      "headword": "{惨事|さんじ}",
+      "label": "terrible event, tragedy"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29302_tensai",
+      "reading": "てんさい",
+      "headword": "{天災|てんさい}",
+      "label": "natural disaster"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["abstract"]
+      "semantic": [
+        "abstract"
+      ]
     },
     "created": "2026-04-08T17:31:46Z",
-    "modified": "2026-04-08T17:31:46Z"
+    "modified": "2026-09-02T04:02:10Z"
   }
 }

@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08066_awadateki_ex1",
-      "japanese": "{泡立|あわだ}て{器|き}で{卵|たまご}を{混|ま}ぜる。",
+      "japanese": "{泡立|あわだ}て{器|き}⟦で→で：00502_de⟧⟦{卵|たまご}→卵：02222_tamago⟧⟦を→を：00422_wo⟧⟦{混|ま}ぜる→混ぜる：02423_mazeru⟧。",
       "english": "To mix eggs with a whisk.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "08066_awadateki_ex2",
-      "japanese": "メレンゲを{作|つく}るのに{泡立|あわだ}て{器|き}が{必要|ひつよう}だ。",
+      "japanese": "⟦メレンゲ→メレンゲ：29702_merenge⟧⟦を→を：00422_wo⟧⟦{作|つく}る→作る：00481_tsukuru⟧⟦の→の：09472_no⟧⟦に→に：00314_ni⟧{泡立|あわだ}て{器|き}⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧だ。",
       "english": "You need a whisk to make meringue.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "08066_awadateki_ex3",
-      "japanese": "{電動|でんどう}{泡立|あわだ}て{器|き}を{使|つか}うと{早|はや}く{泡立|あわだ}てられる。",
+      "japanese": "⟦{電動|でんどう}→電動：06412_dendou⟧{泡立|あわだ}て{器|き}⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧⟦と→と：00512_to⟧⟦{早|はや}く→早い：00514_hayai⟧⟦{泡立|あわだ}てられる→泡立てる：06419_awadateru⟧。",
       "english": "Using an electric whisk allows you to whip things quickly.",
       "sense_numbers": [
         1
@@ -43,7 +43,37 @@
       "notes": null
     }
   ],
-  "notes": "{泡立|あわだ}て{器|き} is a kitchen utensil for whipping eggs, cream, or batter to incorporate air.\n\nTYPES:\n- {手動|しゅどう}{泡立|あわだ}て{器|き}: manual whisk\n- {電動|でんどう}{泡立|あわだ}て{器|き}: electric mixer/hand mixer\n\nALTERNATE NAMES:\n- ホイッパー: whipper (loanword)\n- ハンドミキサー: hand mixer (for electric type)\n\nCOMMON PATTERNS:\n- {泡立|あわだ}て{器|き}で{混|ま}ぜる: to mix with a whisk\n- {泡立|あわだ}て{器|き}で{泡立|あわだ}てる: to whip with a whisk\n\nETYMOLOGY:\n{泡立|あわだ}てる (to whip/foam) + {器|き} (tool/utensil).",
+  "notes": "{泡立|あわだ}て{器|き} is a kitchen utensil for whipping eggs, cream, or batter to incorporate air.\n\nTYPES:\n- ⟦{手動|しゅどう}→手動：12890_shudou⟧{泡立|あわだ}て{器|き}: manual whisk\n- ⟦{電動|でんどう}→電動：06412_dendou⟧{泡立|あわだ}て{器|き}: electric mixer/hand mixer\n\nALTERNATE NAMES:\n- ホイッパー: whipper (loanword)\n- ⟦ハンドミキサー→ハンドミキサー：29703_handomikisaa⟧: hand mixer (for electric type)\n\nCOMMON PATTERNS:\n- {泡立|あわだ}て{器|き}⟦で→で：00502_de⟧⟦{混|ま}ぜる→混ぜる：02423_mazeru⟧: to mix with a whisk\n- {泡立|あわだ}て{器|き}⟦で→で：00502_de⟧⟦{泡立|あわだ}てる→泡立てる：06419_awadateru⟧: to whip with a whisk\n\nETYMOLOGY:\n⟦{泡立|あわだ}てる→泡立てる：06419_awadateru⟧ (to whip/foam) + {器|き} (tool/utensil).",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23734_kakuhanki",
+      "reading": "かくはんき",
+      "headword": "{攪拌器|かくはんき}",
+      "label": "mixer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23829_chasen",
+      "reading": "ちゃせん",
+      "headword": "{茶筅|ちゃせん}",
+      "label": "tea whisk (for matcha)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28515_awadachi",
+      "reading": "あわだち",
+      "headword": "{泡立|あわだ}ち",
+      "label": "lathering"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29703_handomikisaa",
+      "reading": "はんどみきさー",
+      "headword": "ハンドミキサー",
+      "label": "hand mixer"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -51,12 +81,13 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "cooking",
         "tool"
       ]
     },
     "created": "2026-01-25T01:21:54Z",
-    "modified": "2026-08-11T21:34:29Z"
+    "modified": "2026-09-02T04:01:13Z"
   }
 }

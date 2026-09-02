@@ -14,38 +14,81 @@
   "examples": [
     {
       "id": "08070_soukitaishoku_ex1",
-      "japanese": "{早期退職|そうきたいしょく}を{選|えら}んだ。",
+      "japanese": "{早期退職|そうきたいしょく}⟦を→を：00422_wo⟧⟦{選|えら}んだ→選ぶ：00835_erabu⟧。",
       "english": "I chose early retirement.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "08070_soukitaishoku_ex2",
-      "japanese": "{会社|かいしゃ}が{早期退職|そうきたいしょく}{制度|せいど}を{導入|どうにゅう}した。",
+      "japanese": "⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦が→が：00051_ga⟧{早期退職|そうきたいしょく}{制度|せいど}⟦を→を：00422_wo⟧⟦{導入|どうにゅう}した→導入する：16055_dounyuusuru⟧。",
       "english": "The company introduced an early retirement program.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "08070_soukitaishoku_ex3",
-      "japanese": "{早期退職|そうきたいしょく}すれば{割増|わりまし}{退職金|たいしょくきん}がもらえる。",
+      "japanese": "{早期退職|そうきたいしょく}⟦すれば→する：00392_suru⟧⟦{割増|わりまし}→割増：17087_warimashi⟧⟦{退職金|たいしょくきん}→退職金：07959_taishokukin⟧⟦が→が：00051_ga⟧⟦もらえる→もらう：00520_morau⟧。",
       "english": "If you take early retirement, you can receive an enhanced severance package.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "{早期退職|そうきたいしょく} refers to retiring from work before the standard retirement age, often with incentive packages.\n\nWORD FORMATION:\n{早期|そうき} (early stage) + {退職|たいしょく} (retirement)\n\nCOMMON EXPRESSIONS:\n- {早期退職|そうきたいしょく}を{選|えら}ぶ: to choose early retirement\n- {早期退職|そうきたいしょく}{制度|せいど}: early retirement program\n- {早期退職|そうきたいしょく}{優遇|ゆうぐう}: early retirement incentives\n\nRELATED TERMS:\n- {希望退職|きぼうたいしょく}: voluntary retirement\n- {定年退職|ていねんたいしょく}: mandatory retirement\n- {退職金|たいしょくきん}: severance pay\n- {割増|わりまし}{退職金|たいしょくきん}: enhanced severance\n\nCONTEXT:\nOften offered during corporate restructuring. Japan's standard retirement age is typically 60-65.",
+  "notes": "{早期退職|そうきたいしょく} refers to retiring from work before the standard retirement age, often with incentive packages.\n\nFORMS:\n⟦{早期|そうき}→早期：09568_souki⟧ (early stage) + ⟦{退職|たいしょく}→退職：04559_taishoku⟧ (retirement)\n\nCOMMON EXPRESSIONS:\n- {早期退職|そうきたいしょく}⟦を→を：00422_wo⟧⟦{選|えら}ぶ→選ぶ：00835_erabu⟧: to choose early retirement\n- {早期退職|そうきたいしょく}{制度|せいど}: early retirement program\n- {早期退職|そうきたいしょく}⟦{優遇|ゆうぐう}→優遇：17162_yuuguu⟧: early retirement incentives\n\nRELATED WORDS:\n- {希望退職|きぼうたいしょく}: voluntary retirement\n- ⟦{定年退職|ていねんたいしょく}→定年退職：16450_teinentaishoku⟧: mandatory retirement\n- ⟦{退職金|たいしょくきん}→退職金：07959_taishokukin⟧: severance pay\n- ⟦{割増|わりまし}→割増：17087_warimashi⟧⟦{退職金|たいしょくきん}→退職金：07959_taishokukin⟧: enhanced severance\n\nUSAGE:\nOften offered during corporate restructuring. Japan's standard retirement age is typically 60-65.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "16450_teinentaishoku",
+      "reading": "ていねんたいしょく",
+      "headword": "{定年退職|ていねんたいしょく}",
+      "label": "mandatory retirement"
+    },
+    {
+      "type": "related",
+      "target_id": "07959_taishokukin",
+      "reading": "たいしょくきん",
+      "headword": "{退職金|たいしょくきん}",
+      "label": "severance pay"
+    },
+    {
+      "type": "related",
+      "target_id": "04689_risutora",
+      "reading": "りすとら",
+      "headword": "リストラ",
+      "label": "restructuring"
+    },
+    {
+      "type": "related",
+      "target_id": "07500_teinen",
+      "reading": "ていねん",
+      "headword": "{定年|ていねん}",
+      "label": "retirement age"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
-      "semantic": ["business", "employment", "career"]
+      "politeness": "plain",
+      "semantic": [
+        "business",
+        "employment",
+        "career"
+      ]
     },
     "created": "2026-01-25T01:23:13Z",
-    "modified": "2026-01-28T02:20:41Z"
+    "modified": "2026-09-02T04:01:13Z"
   }
 }

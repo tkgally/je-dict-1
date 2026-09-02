@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08443_haien_ex1",
-      "japanese": "{肺炎|はいえん}で{入院|にゅういん}した。",
+      "japanese": "{肺炎|はいえん}⟦で→で：00502_de⟧⟦{入院|にゅういん}した→入院する：01849_nyuuinsuru⟧。",
       "english": "I was hospitalized with pneumonia.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "08443_haien_ex2",
-      "japanese": "{風邪|かぜ}をこじらせて{肺炎|はいえん}になった。",
+      "japanese": "⟦{風邪|かぜ}→風邪：02188_kaze⟧⟦を→を：00422_wo⟧⟦こじらせて→こじらせる：22115_kojiraseru⟧{肺炎|はいえん}になった。",
       "english": "A cold developed into pneumonia.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "08443_haien_ex3",
-      "japanese": "{高齢者|こうれいしゃ}は{肺炎|はいえん}に{気|き}をつけなければならない。",
+      "japanese": "⟦{高齢者|こうれいしゃ}→高齢者：15649_koureisha⟧⟦は→は：00079_ha⟧{肺炎|はいえん}⟦に→に：00314_ni⟧⟦{気|き}→気：02199_ki⟧⟦を→を：00422_wo⟧つけ⟦なければならない→なければならない：27600_nakerebanaranai⟧。",
       "english": "Elderly people need to be careful of pneumonia.",
       "sense_numbers": [
         1
@@ -43,7 +43,16 @@
       "notes": null
     }
   ],
-  "notes": "{肺炎|はいえん} is the general term for pneumonia — an infection that inflames the air sacs in the lungs.\n\nWORD FORMATION:\n{肺|はい} (lung) + {炎|えん} (inflammation). The ～{炎|えん} suffix is used for many inflammatory conditions: {胃炎|いえん} (gastritis), {関節炎|かんせつえん} (arthritis), {気管支炎|きかんしえん} (bronchitis).\n\nTYPES:\n- {細菌性|さいきんせい}{肺炎|はいえん}: bacterial pneumonia\n- ウイルス{性|せい}{肺炎|はいえん}: viral pneumonia\n- {誤嚥性|ごえんせい}{肺炎|はいえん}: aspiration pneumonia\n- {間質性|かんしつせい}{肺炎|はいえん}: interstitial pneumonia\n\nCOMMON COLLOCATIONS:\n- {肺炎|はいえん}にかかる: to catch pneumonia\n- {肺炎|はいえん}で{入院|にゅういん}する: to be hospitalized with pneumonia\n- {肺炎|はいえん}ワクチン: pneumonia vaccine\n- {肺炎球菌|はいえんきゅうきん}: pneumococcus\n\nNOTE:\n{肺炎|はいえん} is one of the leading causes of death among elderly people in Japan. {誤嚥性|ごえんせい}{肺炎|はいえん} (aspiration pneumonia) is especially common in the elderly.",
+  "notes": "{肺炎|はいえん} is the general term for pneumonia — an infection that inflames the air sacs in the lungs.\n\nFORMS:\n⟦{肺|はい}→肺：12334_hai⟧ (lung) + {炎|えん} (inflammation). The ～{炎|えん} suffix is used for many inflammatory conditions: ⟦{胃炎|いえん}→胃炎：25491_ien⟧ (gastritis), ⟦{関節炎|かんせつえん}→関節炎：08445_kansetsuen⟧ (arthritis), ⟦{気管支炎|きかんしえん}→気管支炎：27056_kikanshien⟧ (bronchitis).\n\nTYPES:\n- {細菌性|さいきんせい}{肺炎|はいえん}: bacterial pneumonia\n- ⟦ウイルス→ウイルス：05223_uirusu⟧⟦{性|せい}→性：09880_sei⟧{肺炎|はいえん}: viral pneumonia\n- {誤嚥性|ごえんせい}{肺炎|はいえん}: aspiration pneumonia\n- {間質性|かんしつせい}{肺炎|はいえん}: interstitial pneumonia\n\nCOMMON COLLOCATIONS:\n- {肺炎|はいえん}⟦に→に：00314_ni⟧⟦かかる→かかる：00711_kakaru⟧: to catch pneumonia\n- {肺炎|はいえん}⟦で→で：00502_de⟧⟦{入院|にゅういん}する→入院する：01849_nyuuinsuru⟧: to be hospitalized with pneumonia\n- {肺炎|はいえん}⟦ワクチン→ワクチン：05074_wakuchin⟧: pneumonia vaccine\n- {肺炎球菌|はいえんきゅうきん}: pneumococcus\n\nUSAGE:\n{肺炎|はいえん} is one of the leading causes of death among elderly people in Japan. {誤嚥性|ごえんせい}{肺炎|はいえん} (aspiration pneumonia) is especially common in the elderly.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "27056_kikanshien",
+      "reading": "きかんしえん",
+      "headword": "{気管支炎|きかんしえん}",
+      "label": "bronchitis"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -51,11 +60,12 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "health"
       ]
     },
     "created": "2026-01-27T00:58:00Z",
-    "modified": "2026-08-12T12:51:44Z"
+    "modified": "2026-09-02T04:01:15Z"
   }
 }

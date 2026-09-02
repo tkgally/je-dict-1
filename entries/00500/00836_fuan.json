@@ -2,7 +2,7 @@
   "id": "00836_fuan",
   "headword": "{不安|ふあん}",
   "reading": "ふあん",
-  "part_of_speech": "adjective (na-adjective)",
+  "part_of_speech": "na-adjective",
   "gloss": "anxious, uneasy",
   "definitions": [
     {
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{不安|ふあん} combines {不|ふ} (not) + {安|あん} (peace), literally 'not-peace.' Functions as both noun and na-adjective.\n\nGRAMMAR:\n- Na-adjective: {不安|ふあん}な⟦{気持|きも}ち→気持ち：01385_kimochi⟧ (anxious feeling)\n- Noun: {不安|ふあん}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧ (there is anxiety)\n\nCOMMON PATTERNS:\n- {不安|ふあん}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧: to become anxious\n- {不安|ふあん}⟦を→を：00422_wo⟧⟦{感|かん}じる→感じる：02044_kanjiru⟧: to feel anxiety\n- {不安|ふあん}⟦に→に：00314_ni⟧⟦{思|おも}う→思う：00492_omou⟧: to feel worried about\n- {不安|ふあん}⟦を→を：00422_wo⟧⟦{抱|いだ}く→抱く：02010_idaku⟧: to harbor anxiety\n- {不安|ふあん}⟦を→を：00422_wo⟧⟦{解消|かいしょう}する→解消する：21324_kaishousuru⟧: to relieve anxiety\n\nOPPOSITE:\n- ⟦{安心|あんしん}→安心：01288_anshin⟧: peace of mind, relief\n\nSIMILAR WORDS:\n- ⟦{心配|しんぱい}→心配：00811_shinpai⟧: worry (more about specific concerns)\n- ⟦{懸念|けねん}→懸念：05622_kenen⟧: concern (formal)\n- ⟦{憂慮|ゆうりょ}→憂慮：21246_yuuryo⟧: worry, apprehension (formal)",
+  "notes": "{不安|ふあん} combines {不|ふ} (not) + {安|あん} (peace), literally 'not-peace.' Functions as both noun and na-adjective.\n\nCOMMON PATTERNS:\n- Na-adjective: {不安|ふあん}な⟦{気持|きも}ち→気持ち：01385_kimochi⟧ (anxious feeling)\n- Noun: {不安|ふあん}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧ (there is anxiety)\n- {不安|ふあん}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧: to become anxious\n- {不安|ふあん}⟦を→を：00422_wo⟧⟦{感|かん}じる→感じる：02044_kanjiru⟧: to feel anxiety\n- {不安|ふあん}⟦に→に：00314_ni⟧⟦{思|おも}う→思う：00492_omou⟧: to feel worried about\n- {不安|ふあん}⟦を→を：00422_wo⟧⟦{抱|いだ}く→抱く：02010_idaku⟧: to harbor anxiety\n- {不安|ふあん}⟦を→を：00422_wo⟧⟦{解消|かいしょう}する→解消する：21324_kaishousuru⟧: to relieve anxiety\n\nSIMILAR WORDS:\n- ⟦{安心|あんしん}→安心：01288_anshin⟧: peace of mind, relief\n- ⟦{心配|しんぱい}→心配：00811_shinpai⟧: worry (more about specific concerns)\n- ⟦{懸念|けねん}→懸念：05622_kenen⟧: concern (formal)\n- ⟦{憂慮|ゆうりょ}→憂慮：21246_yuuryo⟧: worry, apprehension (formal)",
   "cross_references": [
     {
       "type": "synonym",
@@ -57,11 +57,67 @@
       "reading": "あんしん",
       "headword": "{安心|あんしん}",
       "target_id": "01288_anshin"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05622_kenen",
+      "reading": "けねん",
+      "headword": "{懸念|けねん}",
+      "label": "concern"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21246_yuuryo",
+      "reading": "ゆうりょ",
+      "headword": "{憂慮|ゆうりょ}",
+      "label": "worry, apprehension"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02585_kyoufu",
+      "reading": "きょうふ",
+      "headword": "{恐怖|きょうふ}",
+      "label": "fear, terror, dread"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11862_kigu",
+      "reading": "きぐ",
+      "headword": "{危惧|きぐ}",
+      "label": "apprehension, concern, fear"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19489_ochitsukanai",
+      "reading": "おちつかない",
+      "headword": "{落|お}ち{着|つ}かない",
+      "label": "restless"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19516_kokorobosoi",
+      "reading": "こころぼそい",
+      "headword": "{心細|こころぼそ}い",
+      "label": "anxious"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19536_kokoromotonai",
+      "reading": "こころもとない",
+      "headword": "{心|こころ}もとない",
+      "label": "unreliable"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20557_kinchousuru",
+      "reading": "きんちょうする",
+      "headword": "{緊張|きんちょう}する",
+      "label": "to get nervous"
     }
   ],
   "metadata": {
     "created": "2026-01-07T12:16:58Z",
-    "modified": "2026-05-12T22:18:10Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

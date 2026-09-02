@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "09558_okaidoku_ex1",
-      "japanese": "これはお{買|か}い{得|どく}だ。",
+      "japanese": "⟦これ→これ：00963_kore⟧⟦は→は：00079_ha⟧お{買|か}い{得|どく}だ。",
       "english": "This is a good deal.",
       "has_audio": false,
       "sense_numbers": [
@@ -23,7 +23,7 @@
     },
     {
       "id": "09558_okaidoku_ex2",
-      "japanese": "お{買|か}い{得|どく}{品|ひん}を{探|さが}す。",
+      "japanese": "お{買|か}い{得|どく}⟦{品|ひん}→品：03712_hin⟧⟦を→を：00422_wo⟧⟦{探|さが}す→探す：00493_sagasu⟧。",
       "english": "To look for bargains.",
       "has_audio": false,
       "sense_numbers": [
@@ -32,7 +32,7 @@
     },
     {
       "id": "09558_okaidoku_ex3",
-      "japanese": "{三|みっ}つ{買|か}うと{一|ひと}つ{無料|むりょう}でお{買|か}い{得|どく}です。",
+      "japanese": "⟦{三|みっ}つ→三つ：02970_mittsu⟧⟦{買|か}う→買う：00489_kau⟧⟦と→と：00512_to⟧⟦{一|ひと}つ→一つ：02948_hitotsu⟧⟦{無料|むりょう}→無料：01662_muryou⟧⟦で→で：00502_de⟧お{買|か}い{得|どく}です。",
       "english": "Buy three get one free is a good deal.",
       "has_audio": false,
       "sense_numbers": [
@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "notes": "お{買|か}い{得|どく} describes something that offers good value for the money. The お prefix adds politeness and appeal. Can function as both a noun and a na-adjective.\n\nFORMS:\n- お{買|か}い{得|どく}な{商品|しょうひん}: a bargain product (na-adjective)\n- お{買|か}い{得|どく}だ / お{買|か}い{得|どく}です: is a good deal\n\nCOMMON COLLOCATIONS:\n- お{買|か}い{得|どく}{品|ひん}: bargain item\n- お{買|か}い{得|どく}{価格|かかく}: bargain price\n- お{買|か}い{得|どく}セット: value set/combo\n- お{買|か}い{得|どく}{情報|じょうほう}: deals/bargain info\n\nREGISTER:\nFrequently used in advertising, store signs, and online shopping. The polite お makes it sound inviting to customers.\n\nSIMILAR WORDS:\n- {割引|わりびき}: discount (specific price reduction)\n- セール: sale (event)\n- {特売|とくばい}: special sale (often in supermarkets)\n- {格安|かくやす}: extremely cheap",
+  "notes": "お{買|か}い{得|どく} describes something that offers good value for the money. The お prefix adds politeness and appeal. Can function as both a noun and a na-adjective.\n\nFORMS:\n- お{買|か}い{得|どく}な⟦{商品|しょうひん}→商品：01436_shouhin⟧: a bargain product (na-adjective)\n- お{買|か}い{得|どく}だ / お{買|か}い{得|どく}です: is a good deal\n\nCOMMON COLLOCATIONS:\n- お{買|か}い{得|どく}⟦{品|ひん}→品：03712_hin⟧: bargain item\n- お{買|か}い{得|どく}⟦{価格|かかく}→価格：00147_kakaku⟧: bargain price\n- お{買|か}い{得|どく}⟦セット→セット：03853_setto⟧: value set/combo\n- お{買|か}い{得|どく}⟦{情報|じょうほう}→情報：03348_jouhou⟧: deals/bargain info\n\nREGISTER:\nFrequently used in advertising, store signs, and online shopping. The polite お makes it sound inviting to customers.\n\nSIMILAR WORDS:\n- ⟦{割引|わりびき}→割引：01526_waribiki⟧: discount (specific price reduction)\n- ⟦セール→セール：07780_seeru⟧: sale (event)\n- ⟦{特売|とくばい}→特売：04277_tokubai⟧: special sale (often in supermarkets)\n- ⟦{格安|かくやす}→格安：15125_kakuyasu⟧: extremely cheap",
   "cross_references": [
     {
       "type": "related",
@@ -55,11 +55,39 @@
       "reading": "はんがく",
       "headword": "{半額|はんがく}",
       "label": "half price"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07780_seeru",
+      "reading": "せーる",
+      "headword": "セール",
+      "label": "sale"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04277_tokubai",
+      "reading": "とくばい",
+      "headword": "{特売|とくばい}",
+      "label": "special sale"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15125_kakuyasu",
+      "reading": "かくやす",
+      "headword": "{格安|かくやす}",
+      "label": "extremely cheap"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22116_yasumono",
+      "reading": "やすもの",
+      "headword": "{安物|やすもの}",
+      "label": "cheap item"
     }
   ],
   "metadata": {
     "created": "2026-02-02T10:42:48Z",
-    "modified": "2026-04-23T05:18:28Z",
+    "modified": "2026-09-02T04:01:18Z",
     "ai_model": "claude-opus-4-5-20251101",
     "vocabulary_tier": "general",
     "tags": {

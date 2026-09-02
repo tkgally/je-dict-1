@@ -15,41 +15,75 @@
   "examples": [
     {
       "id": "27486_teeburunapukin_ex1",
-      "japanese": "テーブルナプキンを{膝|ひざ}に{置|お}いた。",
+      "japanese": "テーブルナプキン⟦を→を：00422_wo⟧⟦{膝|ひざ}→膝：00940_hiza⟧⟦に→に：00314_ni⟧⟦{置|お}いた→置く：01092_oku⟧。",
       "english": "I placed the napkin on my lap.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27486_teeburunapukin_ex2",
-      "japanese": "{布製|ぬのせい}のテーブルナプキンを{使|つか}う{店|みせ}が{多|おお}い。",
+      "japanese": "{布製|ぬのせい}⟦の→の：09472_no⟧テーブルナプキン⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧⟦{店|みせ}→店：00497_mise⟧⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "Many restaurants use cloth table napkins.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27486_teeburunapukin_ex3",
-      "japanese": "{食事|しょくじ}の{前|まえ}に、テーブルナプキンを{広|ひろ}げて{膝|ひざ}にかけるのが{正式|せいしき}なマナーだ。",
+      "japanese": "⟦{食事|しょくじ}→食事：02087_shokuji⟧⟦の→の：09472_no⟧⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧、テーブルナプキン⟦を→を：00422_wo⟧⟦{広|ひろ}げて→広げる：01981_hirogeru⟧⟦{膝|ひざ}→膝：00940_hiza⟧⟦に→に：00314_ni⟧⟦かける→かける：00854_kakeru⟧⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦{正式|せいしき}→正式：03376_seishiki⟧な⟦マナー→マナー：11139_manaa⟧だ。",
       "english": "Formal etiquette says to unfold the napkin and place it on your lap before eating.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "From English \"table napkin.\" Used in restaurants and formal dining contexts, often distinguishing the dining-table napkin from other Japanese senses of ナプキン (which alone often suggests sanitary pads).\n\nCOMMON COLLOCATIONS:\n- テーブルナプキンを{膝|ひざ}に{置|お}く: to place the napkin on one's lap\n- テーブルナプキンで{口|くち}を{拭|ふ}く: to wipe one's mouth with the napkin\n- {布製|ぬのせい}のテーブルナプキン: cloth napkin\n\nSIMILAR WORDS:\n- ナプキン: napkin — alone, this term often refers to sanitary pads in casual speech, so the fuller form テーブルナプキン is preferred for dining contexts\n- {紙|かみ}ナプキン: paper napkin — disposable dining napkin\n- おしぼり: hot/cold hand towel — given to guests before a meal in Japan, not the same as a napkin",
+  "notes": "From English \"table napkin.\" Used in restaurants and formal dining contexts, often distinguishing the dining-table napkin from other Japanese senses of ⟦ナプキン→ナプキン：10257_napukin⟧ (which alone often suggests sanitary pads).\n\nCOMMON COLLOCATIONS:\n- テーブルナプキン⟦を→を：00422_wo⟧⟦{膝|ひざ}→膝：00940_hiza⟧⟦に→に：00314_ni⟧⟦{置|お}く→置く：01092_oku⟧: to place the napkin on one's lap\n- テーブルナプキン⟦で→で：00502_de⟧⟦{口|くち}→口：00560_kuchi⟧⟦を→を：00422_wo⟧⟦{拭|ふ}く→拭く：04261_fuku⟧: to wipe one's mouth with the napkin\n- {布製|ぬのせい}⟦の→の：09472_no⟧テーブルナプキン: cloth napkin\n\nSIMILAR WORDS:\n- ⟦ナプキン→ナプキン：10257_napukin⟧: napkin — alone, this term often refers to sanitary pads in casual speech, so the fuller form テーブルナプキン is preferred for dining contexts\n- ⟦{紙|かみ}ナプキン→紙ナプキン：24724_kaminapukin⟧: paper napkin — disposable dining napkin\n- ⟦おしぼり→おしぼり：09726_oshibori⟧: hot/cold hand towel — given to guests before a meal in Japan, not the same as a napkin",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "10257_napukin",
+      "reading": "なぷきん",
+      "headword": "ナプキン",
+      "label": "napkin"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24724_kaminapukin",
+      "reading": "かみなぷきん",
+      "headword": "{紙|かみ}ナプキン",
+      "label": "paper napkin"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09726_oshibori",
+      "reading": "おしぼり",
+      "headword": "おしぼり",
+      "label": "hot/cold hand towel"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["daily-life", "food"],
+      "politeness": "plain",
+      "semantic": [
+        "daily-life",
+        "food"
+      ],
       "domain": []
     },
     "created": "2026-05-12T23:54:20Z",
-    "modified": "2026-05-12T23:54:20Z"
+    "modified": "2026-09-02T04:02:30Z"
   }
 }

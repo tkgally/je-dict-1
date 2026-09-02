@@ -3,7 +3,7 @@
   "id": "16570_kuchidome",
   "headword": "{口止|くちど}め",
   "reading": "くちどめ",
-  "part_of_speech": "noun / verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "silencing; swearing to secrecy",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "16570_kuchidome_ex1",
-      "japanese": "{彼|かれ}に{口止|くちど}めされた。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦に→に：00314_ni⟧{口止|くちど}め⟦された→する：00392_suru⟧。",
       "english": "He told me to keep quiet about it.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "16570_kuchidome_ex2",
-      "japanese": "{子|こ}どもたちに{口止|くちど}めしたが、{結局|けっきょく}{秘密|ひみつ}はばれた。",
+      "japanese": "{子|こ}どもたち⟦に→に：00314_ni⟧{口止|くちど}め⟦した→する：00392_suru⟧⟦が→が：00051_ga⟧、⟦{結局|けっきょく}→結局：03815_kekkyoku⟧⟦{秘密|ひみつ}→秘密：02504_himitsu⟧⟦は→は：00079_ha⟧⟦ばれた→ばれる：06721_bareru⟧。",
       "english": "I told the children to keep the secret, but it got out anyway.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "16570_kuchidome_ex3",
-      "japanese": "{口止|くちど}め{料|りょう}を{払|はら}って{事件|じけん}をもみ{消|け}そうとした。",
+      "japanese": "{口止|くちど}め⟦{料|りょう}→料：28172_ryou⟧⟦を→を：00422_wo⟧⟦{払|はら}って→払う：00535_harau⟧⟦{事件|じけん}→事件：01568_jiken⟧⟦を→を：00422_wo⟧もみ{消|け}そうとした。",
       "english": "They tried to cover up the incident by paying hush money.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nCan be used in both casual and serious contexts. In casual use, it means simply asking someone not to talk about something. In serious contexts, it implies coercion or bribery to suppress information.\n\nCOMMON COLLOCATIONS:\n- {口止|くちど}めする (to swear someone to secrecy)\n- {口止|くちど}めされる (to be told to keep quiet)\n- {口止|くちど}め{料|りょう} (hush money)\n\nSIMILAR WORDS:\n- {内緒|ないしょ}: secret, secrecy — the state of being secret, rather than the act of silencing\n- {箝口令|かんこうれい}: gag order — a formal, official order to remain silent",
+  "notes": "USAGE:\nCan be used in both casual and serious contexts. In casual use, it means simply asking someone not to talk about something. In serious contexts, it implies coercion or bribery to suppress information.\n\nCOMMON COLLOCATIONS:\n- {口止|くちど}め⟦する→する：00392_suru⟧ (to swear someone to secrecy)\n- {口止|くちど}め⟦される→する：00392_suru⟧ (to be told to keep quiet)\n- {口止|くちど}め⟦{料|りょう}→料：28172_ryou⟧ (hush money)\n\nSIMILAR WORDS:\n- ⟦{内緒|ないしょ}→内緒：03126_naisho⟧: secret, secrecy — the state of being secret, rather than the act of silencing\n- {箝口令|かんこうれい}: gag order — a formal, official order to remain silent",
   "cross_references": [
     {
       "type": "synonym",
@@ -153,7 +153,7 @@
   ],
   "metadata": {
     "created": "2026-03-13T23:58:36Z",
-    "modified": "2026-05-04T08:25:28Z",
+    "modified": "2026-09-02T04:01:45Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -166,7 +166,8 @@
       "semantic": [
         "communication"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

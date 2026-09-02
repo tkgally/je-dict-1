@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28674_kuseji_ex1",
-      "japanese": "{父|ちち}の{字|じ}は{癖字|くせじ}で{読|よ}みにくい。",
+      "japanese": "⟦{父|ちち}→父：00566_chichi⟧⟦の→の：09472_no⟧⟦{字|じ}→字：01606_ji⟧⟦は→は：00079_ha⟧{癖字|くせじ}⟦で→で：00502_de⟧⟦{読|よ}み→読む：00426_yomu⟧にくい。",
       "english": "My father's handwriting is quirky and hard to read.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28674_kuseji_ex2",
-      "japanese": "{癖字|くせじ}なので{書類|しょるい}は{活字|かつじ}で{書|か}くようにしている。",
+      "japanese": "{癖字|くせじ}な⟦の→の：09472_no⟧で⟦{書類|しょるい}→書類：01103_shorui⟧⟦は→は：00079_ha⟧⟦{活字|かつじ}→活字：00202_katsuji⟧⟦で→で：00502_de⟧⟦{書|か}く→書く：00477_kaku⟧ようにして⟦いる→いる：00495_iru⟧。",
       "english": "My handwriting is quirky, so I make sure to print on documents.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28674_kuseji_ex3",
-      "japanese": "{昔|むかし}の{手紙|てがみ}を{読|よ}み{返|かえ}したら、{祖母|そぼ}の{癖字|くせじ}が{懐|なつ}かしく{感|かん}じられた。",
+      "japanese": "⟦{昔|むかし}→昔：01515_mukashi⟧⟦の→の：09472_no⟧⟦{手紙|てがみ}→手紙：00675_tegami⟧⟦を→を：00422_wo⟧⟦{読|よ}み{返|かえ}したら→読み返す：07954_yomikaesu⟧、⟦{祖母|そぼ}→祖母：00813_sobo⟧⟦の→の：09472_no⟧{癖字|くせじ}⟦が→が：00051_ga⟧⟦{懐|なつ}かしく→懐かしい：02484_natsukashii⟧⟦{感|かん}じられた→感じる：02044_kanjiru⟧。",
       "english": "Rereading old letters, I felt nostalgic for my grandmother's distinctive handwriting.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {癖|くせ} (habit; quirk) + {字|じ} (character; handwriting). The {癖|くせ} element gives it a mildly negative tone — usually about legibility, sometimes affectionate when describing a familiar person.\n\nCOMMON COLLOCATIONS:\n- {癖字|くせじ}で{書|か}く: to write in quirky handwriting\n- ひどい{癖字|くせじ}: terrible/illegible handwriting\n- {癖字|くせじ}を{直|なお}す: to correct one's handwriting quirks\n\nSIMILAR WORDS:\n- {悪筆|あくひつ}: bad handwriting — straightforwardly negative, focuses on poor quality\n- {達筆|たっぴつ}: skilled, flowing calligraphy — positive, often hard to read for the opposite reason\n- {下手|へた}な{字|じ}: clumsy handwriting — emphasizes lack of skill, not personality",
+  "notes": "Compound of ⟦{癖|くせ}→癖：03814_kuse⟧ (habit; quirk) + ⟦{字|じ}→字：01606_ji⟧ (character; handwriting). The ⟦{癖|くせ}→癖：03814_kuse⟧ element gives it a mildly negative tone — usually about legibility, sometimes affectionate when describing a familiar person.\n\nCOMMON COLLOCATIONS:\n- {癖字|くせじ}⟦で→で：00502_de⟧⟦{書|か}く→書く：00477_kaku⟧: to write in quirky handwriting\n- ⟦ひどい→ひどい：01097_hidoi⟧{癖字|くせじ}: terrible/illegible handwriting\n- {癖字|くせじ}⟦を→を：00422_wo⟧{直|なお}す: to correct one's handwriting quirks\n\nSIMILAR WORDS:\n- ⟦{悪筆|あくひつ}→悪筆：27028_akuhitsu⟧: bad handwriting — straightforwardly negative, focuses on poor quality\n- ⟦{達筆|たっぴつ}→達筆：26860_tappitsu⟧: skilled, flowing calligraphy — positive, often hard to read for the opposite reason\n- ⟦{下手|へた}→下手：00703_heta⟧な⟦{字|じ}→字：01606_ji⟧: clumsy handwriting — emphasizes lack of skill, not personality",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "27028_akuhitsu",
+      "reading": "あくひつ",
+      "headword": "{悪筆|あくひつ}",
+      "label": "bad handwriting"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26860_tappitsu",
+      "reading": "たっぴつ",
+      "headword": "{達筆|たっぴつ}",
+      "label": "skilled, flowing calligraphy"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27136_bimoji",
+      "reading": "びもじ",
+      "headword": "{美文字|びもじ}",
+      "label": "beautiful handwriting"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +76,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "communication"
       ],
       "domain": []
     },
     "created": "2026-06-03T04:21:39Z",
-    "modified": "2026-08-08T18:34:17Z"
+    "modified": "2026-09-02T04:02:34Z"
   }
 }

@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "09244_kesshousen_ex1",
-      "japanese": "{決勝戦|けっしょうせん}に{進|すす}んだ。",
+      "japanese": "{決勝戦|けっしょうせん}⟦に→に：00314_ni⟧⟦{進|すす}んだ→進む：01225_susumu⟧。",
       "english": "We advanced to the finals.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "09244_kesshousen_ex2",
-      "japanese": "{決勝戦|けっしょうせん}は{来週|らいしゅう}だ。",
+      "japanese": "{決勝戦|けっしょうせん}⟦は→は：00079_ha⟧⟦{来週|らいしゅう}→来週：00746_raishuu⟧だ。",
       "english": "The championship game is next week.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "09244_kesshousen_ex3",
-      "japanese": "ワールドカップの{決勝戦|けっしょうせん}をテレビで{観|み}た。",
+      "japanese": "⟦ワールドカップ→ワールドカップ：27456_waarudokappu⟧⟦の→の：09472_no⟧{決勝戦|けっしょうせん}⟦を→を：00422_wo⟧⟦テレビ→テレビ：01536_terebi⟧⟦で→で：00502_de⟧⟦{観|み}た→観る：22793_miru⟧。",
       "english": "I watched the World Cup final on TV.",
       "notes": null,
       "has_audio": false,
@@ -43,11 +43,40 @@
       ]
     }
   ],
-  "notes": "{決勝戦|けっしょうせん} is used for the final match in any competitive tournament.\n\nWORD FORMATION:\n- {決勝|けっしょう} (deciding victory) + {戦|せん} (match, game)\n\nTOURNAMENT STAGES:\n- {予選|よせん}: preliminary round, qualifiers\n- {一回戦|いっかいせん}: first round\n- {準々決勝|じゅんじゅんけっしょう}: quarterfinals\n- {準決勝|じゅんけっしょう}: semifinals\n- {決勝戦|けっしょうせん}: finals\n\nRELATED WORDS:\n- {優勝|ゆうしょう}: championship, winning\n- {決勝|けっしょう}: finals (without {戦|せん})\n\nCOMMON COLLOCATIONS:\n- {決勝戦|けっしょうせん}に{進|すす}む: to advance to the finals\n- {決勝戦|けっしょうせん}を{戦|たたか}う: to compete in the finals",
-  "cross_references": [],
+  "notes": "{決勝戦|けっしょうせん} is used for the final match in any competitive tournament.\n\nFORMS:\n- ⟦{決勝|けっしょう}→決勝：04742_kesshou⟧ (deciding victory) + ⟦{戦|せん}→〜戦：28346_sen⟧ (match, game)\n\nTOURNAMENT STAGES:\n- ⟦{予選|よせん}→予選：04745_yosen⟧: preliminary round, qualifiers\n- ⟦{一回戦|いっかいせん}→一回戦：08960_ikkaisen⟧: first round\n- ⟦{準々決勝|じゅんじゅんけっしょう}→準々決勝：25649_junjunkesshou⟧: quarterfinals\n- ⟦{準決勝|じゅんけっしょう}→準決勝：04911_junkesshou⟧: semifinals\n- {決勝戦|けっしょうせん}: finals\n\nRELATED WORDS:\n- ⟦{優勝|ゆうしょう}→優勝：03647_yuushou⟧: championship, winning\n- ⟦{決勝|けっしょう}→決勝：04742_kesshou⟧: finals (without ⟦{戦|せん}→〜戦：28346_sen⟧)\n\nCOMMON COLLOCATIONS:\n- {決勝戦|けっしょうせん}⟦に→に：00314_ni⟧⟦{進|すす}む→進む：01225_susumu⟧: to advance to the finals\n- {決勝戦|けっしょうせん}⟦を→を：00422_wo⟧⟦{戦|たたか}う→戦う：02071_tatakau⟧: to compete in the finals",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "03647_yuushou",
+      "reading": "ゆうしょう",
+      "headword": "{優勝|ゆうしょう}",
+      "label": "championship, winning"
+    },
+    {
+      "type": "related",
+      "target_id": "08239_honsen",
+      "reading": "ほんせん",
+      "headword": "{本選|ほんせん}",
+      "label": "finals"
+    },
+    {
+      "type": "related",
+      "target_id": "08960_ikkaisen",
+      "reading": "いっかいせん",
+      "headword": "{一回戦|いっかいせん}",
+      "label": "first round (tournament)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25639_haishafukkatsusen",
+      "reading": "はいしゃふっかつせん",
+      "headword": "{敗者復活戦|はいしゃふっかつせん}",
+      "label": "repechage"
+    }
+  ],
   "metadata": {
     "created": "2026-02-01T04:57:35Z",
-    "modified": "2026-08-12T21:25:53Z",
+    "modified": "2026-09-02T04:01:17Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

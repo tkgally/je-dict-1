@@ -63,11 +63,40 @@
       ]
     }
   ],
-  "notes": "{葉|は} means leaf or leaves, a basic nature vocabulary word.\n\nREADINGS:\n- は: standalone or in some compounds\n- ば: in certain compounds (⟦{落|お}ち{葉|ば}→落ち葉：14108_ochiba⟧, ⟦{青葉|あおば}→青葉：20092_aoba⟧)\n- よう: on'yomi reading (⟦{葉緑素|ようりょくそ}→葉緑素：22631_youryokuso⟧)\n\nSEASONAL TERMS:\n- ⟦{新緑|しんりょく}→新緑：12724_shinryoku⟧: fresh green leaves (spring)\n- ⟦{青葉|あおば}→青葉：20092_aoba⟧: green/verdant leaves (early summer)\n- ⟦{紅葉|こうよう}→紅葉：04151_kouyou⟧/⟦{紅葉|もみじ}→紅葉：05387_momiji⟧: autumn leaves/foliage\n- ⟦{落|お}ち{葉|ば}→落ち葉：14108_ochiba⟧: fallen leaves\n- ⟦{枯|か}れ{葉|は}→枯れ葉：20386_kareha⟧: dead/withered leaves\n\nCOMMON COMPOUNDS:\n- ⟦{葉書|はがき}→はがき：00699_hagaki⟧: postcard (originally written on leaves)\n- ⟦{言葉|ことば}→言葉：02880_kotoba⟧: word, language\n- ⟦{木|こ}の{葉|は}→木の葉：10668_konoha⟧: tree leaves\n- ⟦{葉|は}っぱ→葉っぱ：05388_happa⟧: leaf (casual/childish)\n\nEXPRESSIONS:\n- {葉|は}⟦が→が：00051_ga⟧⟦{茂|しげ}る→茂る：03924_shigeru⟧: leaves are lush\n- {葉|は}⟦が→が：00051_ga⟧⟦{散|ち}る→散る：02075_chiru⟧: leaves fall/scatter\n\nRELATED:\n- ⟦{枝|えだ}→枝：02181_eda⟧: branch\n- ⟦{根|ね}→根：03525_ne⟧: root\n- ⟦{幹|みき}→幹：04364_miki⟧: trunk",
-  "cross_references": [],
+  "notes": "{葉|は} means leaf or leaves, a basic nature vocabulary word.\n\nPRONUNCIATION:\n- ⟦は→は：00079_ha⟧: standalone or in some compounds\n- ば: in certain compounds (⟦{落|お}ち{葉|ば}→落ち葉：14108_ochiba⟧, ⟦{青葉|あおば}→青葉：20092_aoba⟧)\n- よう: on'yomi reading (⟦{葉緑素|ようりょくそ}→葉緑素：22631_youryokuso⟧)\n\nSEASONAL TERMS:\n- ⟦{新緑|しんりょく}→新緑：12724_shinryoku⟧: fresh green leaves (spring)\n- ⟦{青葉|あおば}→青葉：20092_aoba⟧: green/verdant leaves (early summer)\n- ⟦{紅葉|こうよう}→紅葉：04151_kouyou⟧/⟦{紅葉|もみじ}→紅葉：05387_momiji⟧: autumn leaves/foliage\n- ⟦{落|お}ち{葉|ば}→落ち葉：14108_ochiba⟧: fallen leaves\n- ⟦{枯|か}れ{葉|は}→枯れ葉：20386_kareha⟧: dead/withered leaves\n\nCOMPOUNDS:\n- ⟦{葉書|はがき}→はがき：00699_hagaki⟧: postcard (originally written on leaves)\n- ⟦{言葉|ことば}→言葉：02880_kotoba⟧: word, language\n- ⟦{木|こ}の{葉|は}→木の葉：10668_konoha⟧: tree leaves\n- ⟦{葉|は}っぱ→葉っぱ：05388_happa⟧: leaf (casual/childish)\n\nCOMMON EXPRESSIONS:\n- {葉|は}⟦が→が：00051_ga⟧⟦{茂|しげ}る→茂る：03924_shigeru⟧: leaves are lush\n- {葉|は}⟦が→が：00051_ga⟧⟦{散|ち}る→散る：02075_chiru⟧: leaves fall/scatter\n\nRELATED WORDS:\n- ⟦{枝|えだ}→枝：02181_eda⟧: branch\n- ⟦{根|ね}→根：03525_ne⟧: root\n- ⟦{幹|みき}→幹：04364_miki⟧: trunk",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "02181_eda",
+      "reading": "えだ",
+      "headword": "{枝|えだ}",
+      "label": "branch"
+    },
+    {
+      "type": "related",
+      "target_id": "03525_ne",
+      "reading": "ね",
+      "headword": "{根|ね}",
+      "label": "root"
+    },
+    {
+      "type": "related",
+      "target_id": "04364_miki",
+      "reading": "みき",
+      "headword": "{幹|みき}",
+      "label": "trunk"
+    },
+    {
+      "type": "related",
+      "target_id": "14119_kuki",
+      "reading": "くき",
+      "headword": "{茎|くき}",
+      "label": "stem, stalk"
+    }
+  ],
   "metadata": {
     "created": "2026-01-09T12:14:35Z",
-    "modified": "2026-05-18T21:22:42Z",
+    "modified": "2026-09-02T04:01:01Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

@@ -2,7 +2,7 @@
   "id": "07693_yofukashi",
   "headword": "{夜更|よふ}かし",
   "reading": "よふかし",
-  "part_of_speech": "noun, suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "staying up late; sitting up late at night",
   "conjugation": {
     "type": "suru",
@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "07693_yofukashi_ex1",
-      "japanese": "{昨日|きのう}{夜更|よふ}かししてしまった。",
+      "japanese": "⟦{昨日|きのう}→昨日：00859_kinou⟧{夜更|よふ}かし⟦して→する：00392_suru⟧しまった。",
       "english": "I ended up staying up late last night.",
       "has_audio": false,
       "sense_numbers": [
@@ -113,7 +113,7 @@
     },
     {
       "id": "07693_yofukashi_ex2",
-      "japanese": "{夜更|よふ}かしは{体|からだ}に{良|よ}くない。",
+      "japanese": "{夜更|よふ}かし⟦は→は：00079_ha⟧⟦{体|からだ}→体：00784_karada⟧⟦に→に：00314_ni⟧⟦{良|よ}くない→良い：02350_yoi⟧。",
       "english": "Staying up late is not good for your body.",
       "has_audio": false,
       "sense_numbers": [
@@ -122,7 +122,7 @@
     },
     {
       "id": "07693_yofukashi_ex3",
-      "japanese": "{映画|えいが}を{見|み}ていたら{夜更|よふ}かしになってしまった。",
+      "japanese": "⟦{映画|えいが}→映画：02273_eiga⟧⟦を→を：00422_wo⟧⟦{見|み}ていたら→見る：00283_miru⟧{夜更|よふ}かしになってしまった。",
       "english": "I was watching a movie and ended up staying up late.",
       "has_audio": false,
       "sense_numbers": [
@@ -130,10 +130,10 @@
       ]
     }
   ],
-  "notes": "ETYMOLOGY:\n{夜|よ} (night) + {更|ふ}かし (staying late) - from {更|ふ}かす (to stay up late)\n\nRELATED SLEEP VOCABULARY:\n・{寝不足|ねぶそく} - lack of sleep\n・{二度寝|にどね} - going back to sleep\n・{徹夜|てつや} - pulling an all-nighter\n・{早寝早起|はやねはやお}き - early to bed, early to rise\n\nCOLLOCATIONS:\n・{夜更|よふ}かしをする - to stay up late\n・{夜更|よふ}かしが{続|つづ}く - staying up late continues\n・ついつい{夜更|よふ}かししてしまう - to unintentionally stay up late",
+  "notes": "ETYMOLOGY:\n{夜|よ} (night) + {更|ふ}かし (staying late) - from {更|ふ}かす (to stay up late)\n\nRELATED SLEEP VOCABULARY:\n- ⟦{寝不足|ねぶそく}→寝不足：07692_nebusoku⟧ - lack of sleep\n- ⟦{二度寝|にどね}→二度寝：07694_nidone⟧ - going back to sleep\n- ⟦{徹夜|てつや}→徹夜：03552_tetsuya⟧ - pulling an all-nighter\n- ⟦{早寝早起|はやねはやお}き→早寝早起き：17150_hayanehayaoki⟧ - early to bed, early to rise\n\nCOMMON COLLOCATIONS:\n- {夜更|よふ}かし⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧ - to stay up late\n- {夜更|よふ}かし⟦が→が：00051_ga⟧⟦{続|つづ}く→続く：00903_tsuzuku⟧ - staying up late continues\n- ⟦ついつい→ついつい：10371_tsuitsui⟧{夜更|よふ}かし⟦して→する：00392_suru⟧しまう - to unintentionally stay up late",
   "metadata": {
     "created": "2026-01-20T23:30:51Z",
-    "modified": "2026-08-14T03:24:37Z",
+    "modified": "2026-09-02T04:01:12Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -142,6 +142,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "daily-life"
       ],
@@ -156,6 +157,55 @@
       "reading": "てつや",
       "headword": "{徹夜|てつや}",
       "label": "staying up all night without sleeping"
+    },
+    {
+      "type": "related",
+      "target_id": "07692_nebusoku",
+      "reading": "ねぶそく",
+      "headword": "{寝不足|ねぶそく}",
+      "label": "lack of sleep"
+    },
+    {
+      "type": "related",
+      "target_id": "07694_nidone",
+      "reading": "にどね",
+      "headword": "{二度寝|にどね}",
+      "label": "going back to sleep"
+    },
+    {
+      "type": "related",
+      "target_id": "17150_hayanehayaoki",
+      "reading": "はやねはやおき",
+      "headword": "{早寝早起|はやねはやお}き",
+      "label": "early to bed, early to rise"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12994_hayane",
+      "reading": "はやね",
+      "headword": "{早寝|はやね}",
+      "label": "going to bed early, early bedtime"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14910_tetsuyaake",
+      "reading": "てつやあけ",
+      "headword": "{徹夜明|てつやあ}け",
+      "label": "the morning after an all-nighter"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20463_yorugata",
+      "reading": "よるがた",
+      "headword": "{夜型|よるがた}",
+      "label": "night owl"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27127_osone",
+      "reading": "おそね",
+      "headword": "{遅寝|おそね}",
+      "label": "going to bed late"
     }
   ]
 }

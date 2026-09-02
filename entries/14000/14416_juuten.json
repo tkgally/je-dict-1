@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "14416_juuten_ex1",
-      "japanese": "{教育|きょういく}に{重点|じゅうてん}を{置|お}く。",
+      "japanese": "⟦{教育|きょういく}→教育：01313_kyouiku⟧⟦に→に：00314_ni⟧{重点|じゅうてん}⟦を→を：00422_wo⟧⟦{置|お}く→置く：01092_oku⟧。",
       "english": "To place emphasis on education.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14416_juuten_ex2",
-      "japanese": "{今年度|こんねんど}の{重点|じゅうてん}{目標|もくひょう}を{発表|はっぴょう}した。",
+      "japanese": "⟦{今年度|こんねんど}→今年度：28220_konnendo⟧⟦の→の：09472_no⟧{重点|じゅうてん}⟦{目標|もくひょう}→目標：03631_mokuhyou⟧⟦を→を：00422_wo⟧⟦{発表|はっぴょう}した→発表する：25231_happyousuru⟧。",
       "english": "They announced this fiscal year's priority goals.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14416_juuten_ex3",
-      "japanese": "{防災|ぼうさい}{対策|たいさく}に{重点|じゅうてん}を{置|お}いた{予算|よさん}{編成|へんせい}が{求|もと}められている。",
+      "japanese": "⟦{防災|ぼうさい}→防災：07907_bousai⟧⟦{対策|たいさく}→対策：02511_taisaku⟧⟦に→に：00314_ni⟧{重点|じゅうてん}⟦を→を：00422_wo⟧⟦{置|お}いた→置く：01092_oku⟧⟦{予算|よさん}→予算：03663_yosan⟧⟦{編成|へんせい}→編成：20615_hensei⟧⟦が→が：00051_ga⟧⟦{求|もと}められている→求める：02316_motomeru⟧。",
       "english": "A budget plan that prioritizes disaster prevention measures is being called for.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{重点|じゅうてん} is most commonly used with the pattern ...に{重点|じゅうてん}を{置|お}く (to place emphasis on).\n\nCOMMON COLLOCATIONS:\n- {重点|じゅうてん}を{置|お}く (to place emphasis on)\n- {重点|じゅうてん}{的|てき}に (with emphasis, intensively)\n- {重点|じゅうてん}{項目|こうもく} (priority items)\n- {重点|じゅうてん}{目標|もくひょう} (priority goals)\n- {重点|じゅうてん}{分野|ぶんや} (priority field/area)\n\nCommonly used in business, government, and education contexts to indicate where attention and resources should be concentrated. The adverbial form {重点|じゅうてん}{的|てき}に (intensively, with priority) is also very frequent.",
+  "notes": "{重点|じゅうてん} is most commonly used with the pattern ...⟦に→に：00314_ni⟧{重点|じゅうてん}⟦を→を：00422_wo⟧⟦{置|お}く→置く：01092_oku⟧ (to place emphasis on).\n\nCOMMON COLLOCATIONS:\n- {重点|じゅうてん}⟦を→を：00422_wo⟧⟦{置|お}く→置く：01092_oku⟧ (to place emphasis on)\n- {重点|じゅうてん}{的|てき}⟦に→に：00314_ni⟧ (with emphasis, intensively)\n- {重点|じゅうてん}⟦{項目|こうもく}→項目：04150_koumoku⟧ (priority items)\n- {重点|じゅうてん}⟦{目標|もくひょう}→目標：03631_mokuhyou⟧ (priority goals)\n- {重点|じゅうてん}⟦{分野|ぶんや}→分野：03612_bunya⟧ (priority field/area)\n\nCommonly used in business, government, and education contexts to indicate where attention and resources should be concentrated. The adverbial form {重点|じゅうてん}{的|てき}⟦に→に：00314_ni⟧ (intensively, with priority) is also very frequent.",
   "cross_references": [
     {
       "type": "related",
@@ -53,19 +59,30 @@
       "reading": "ようてん",
       "headword": "{要点|ようてん}",
       "label": "main point"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20572_juushin",
+      "reading": "じゅうしん",
+      "headword": "{重心|じゅうしん}",
+      "label": "center of gravity"
     }
   ],
   "metadata": {
     "created": "2026-03-01T09:12:05Z",
-    "modified": "2026-04-30T07:28:10Z",
+    "modified": "2026-09-02T04:01:37Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "transitivity": null,
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["abstract"]
+      "semantic": [
+        "abstract"
+      ]
     }
   }
 }

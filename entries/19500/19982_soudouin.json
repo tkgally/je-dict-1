@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "19982_soudouin_ex1",
-      "japanese": "{社員|しゃいん}を{総動員|そうどういん}する。",
+      "japanese": "⟦{社員|しゃいん}→社員：03065_shain⟧⟦を→を：00422_wo⟧{総動員|そうどういん}⟦する→する：00392_suru⟧。",
       "english": "To mobilize all employees.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "19982_soudouin_ex2",
-      "japanese": "{家族|かぞく}{総動員|そうどういん}で{大掃除|おおそうじ}をした。",
+      "japanese": "⟦{家族|かぞく}→家族：00552_kazoku⟧{総動員|そうどういん}⟦で→で：00502_de⟧⟦{大掃除|おおそうじ}→大掃除：08347_oosouji⟧⟦を→を：00422_wo⟧⟦した→する：00392_suru⟧。",
       "english": "The whole family pitched in for the big cleaning.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "19982_soudouin_ex3",
-      "japanese": "イベントの{準備|じゅんび}のため、スタッフを{総動員|そうどういん}して{作業|さぎょう}にあたった。",
+      "japanese": "⟦イベント→イベント：09594_ibento⟧⟦の→の：09472_no⟧⟦{準備|じゅんび}→準備：01431_junbi⟧⟦の→の：09472_no⟧⟦ため→ため：01145_tame⟧、⟦スタッフ→スタッフ：11046_sutaffu⟧⟦を→を：00422_wo⟧{総動員|そうどういん}⟦して→する：00392_suru⟧⟦{作業|さぎょう}→作業：02775_sagyou⟧⟦に→に：00314_ni⟧あたった。",
       "english": "All staff were mobilized to prepare for the event.",
       "sense_numbers": [
         1
@@ -134,8 +134,24 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {総|そう} (total, all) and {動員|どういん} (mobilization). Originally a military term referring to calling up all forces, now commonly used figuratively in everyday contexts to mean rallying all available people or resources.\n\nCOMMON COLLOCATIONS:\n- {総動員|そうどういん}する — to fully mobilize\n- {総動員|そうどういん}をかける — to call for full mobilization\n- {家族|かぞく}{総動員|そうどういん} — the whole family mobilized\n- {全力|ぜんりょく}{総動員|そうどういん} — full-power mobilization\n\nRELATED TERMS:\n- {動員|どういん} — mobilization (the base word)\n- {結集|けっしゅう} — rallying, mustering (of forces or efforts)\n- {総力|そうりょく} — total power, all-out effort",
+  "notes": "A compound of ⟦{総|そう}→総〜：03958_sou⟧ (total, all) and ⟦{動員|どういん}→動員：11927_douin⟧ (mobilization). Originally a military term referring to calling up all forces, now commonly used figuratively in everyday contexts to mean rallying all available people or resources.\n\nCOMMON COLLOCATIONS:\n- {総動員|そうどういん}⟦する→する：00392_suru⟧ — to fully mobilize\n- {総動員|そうどういん}⟦を→を：00422_wo⟧⟦かける→かける：00854_kakeru⟧ — to call for full mobilization\n- ⟦{家族|かぞく}→家族：00552_kazoku⟧{総動員|そうどういん} — the whole family mobilized\n- ⟦{全力|ぜんりょく}→全力：11637_zenryoku⟧{総動員|そうどういん} — full-power mobilization\n\nRELATED WORDS:\n- ⟦{動員|どういん}→動員：11927_douin⟧ — mobilization (the base word)\n- ⟦{結集|けっしゅう}→結集：13885_kesshuu⟧ — rallying, mustering (of forces or efforts)\n- ⟦{総力|そうりょく}→総力：20104_souryoku⟧ — total power, all-out effort",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "13885_kesshuu",
+      "reading": "けっしゅう",
+      "headword": "{結集|けっしゅう}",
+      "label": "rallying, mustering"
+    },
+    {
+      "type": "related",
+      "target_id": "20104_souryoku",
+      "reading": "そうりょく",
+      "headword": "{総力|そうりょく}",
+      "label": "total power, all-out effort"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -148,9 +164,10 @@
       "semantic": [
         "society"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-03-28T04:34:49Z",
-    "modified": "2026-03-28T04:34:49Z"
+    "modified": "2026-09-02T04:01:58Z"
   }
 }

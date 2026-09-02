@@ -15,40 +15,80 @@
   "examples": [
     {
       "id": "22314_teigaku_ex1",
-      "japanese": "{一週間|いっしゅうかん}の{停学|ていがく}になった。",
+      "japanese": "⟦{一週間|いっしゅうかん}→一週間：10979_isshuukan⟧⟦の→の：09472_no⟧{停学|ていがく}になった。",
       "english": "I got a one-week suspension.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "22314_teigaku_ex2",
-      "japanese": "けんかをして{停学|ていがく}{処分|しょぶん}を{受|う}けた。",
+      "japanese": "けんか⟦を→を：00422_wo⟧⟦して→する：00392_suru⟧{停学|ていがく}⟦{処分|しょぶん}→処分：05520_shobun⟧⟦を→を：00422_wo⟧⟦{受|う}けた→受ける：01215_ukeru⟧。",
       "english": "I got into a fight and received a suspension.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "22314_teigaku_ex3",
-      "japanese": "{校則|こうそく}{違反|いはん}を{繰|く}り{返|かえ}した{生徒|せいと}が{停学|ていがく}{処分|しょぶん}を{言|い}い{渡|わた}された。",
+      "japanese": "⟦{校則|こうそく}→校則：16056_kousoku⟧⟦{違反|いはん}→違反：01824_ihan⟧⟦を→を：00422_wo⟧⟦{繰|く}り{返|かえ}した→繰り返す：02051_kurikaesu⟧⟦{生徒|せいと}→生徒：01051_seito⟧⟦が→が：00051_ga⟧{停学|ていがく}⟦{処分|しょぶん}→処分：05520_shobun⟧⟦を→を：00422_wo⟧⟦{言|い}い{渡|わた}された→言い渡す：07002_iiwatasu⟧。",
       "english": "The student who repeatedly violated school rules was given a suspension.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {停|てい} (stop/suspend) + {学|がく} (study/school). Used specifically for school disciplinary suspensions where the student is temporarily prohibited from attending. In Japan, suspension is considered a serious punishment and is less commonly applied than in some Western school systems.\n\nCOMMON COLLOCATIONS:\n- {停学|ていがく}{処分|しょぶん}: suspension as disciplinary action\n- {停学|ていがく}になる: to be suspended\n- {停学|ていがく}を{受|う}ける: to receive a suspension\n- {無期|むき}{停学|ていがく}: indefinite suspension\n\nSIMILAR WORDS:\n- {退学|たいがく}: expulsion — permanent removal from school, much more severe\n- {休学|きゅうがく}: leave of absence — voluntary, not disciplinary\n- {謹慎|きんしん}: house arrest/confinement — broader disciplinary restriction",
+  "notes": "Composed of {停|てい} (stop/suspend) + ⟦{学|がく}→〜学：09846_gaku⟧ (study/school). Used specifically for school disciplinary suspensions where the student is temporarily prohibited from attending. In Japan, suspension is considered a serious punishment and is less commonly applied than in some Western school systems.\n\nCOMMON COLLOCATIONS:\n- {停学|ていがく}⟦{処分|しょぶん}→処分：05520_shobun⟧: suspension as disciplinary action\n- {停学|ていがく}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧: to be suspended\n- {停学|ていがく}⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧: to receive a suspension\n- {無期|むき}{停学|ていがく}: indefinite suspension\n\nSIMILAR WORDS:\n- ⟦{退学|たいがく}→退学：03387_taigaku⟧: expulsion — permanent removal from school, much more severe\n- ⟦{休学|きゅうがく}→休学：05140_kyuugaku⟧: leave of absence — voluntary, not disciplinary\n- ⟦{謹慎|きんしん}→謹慎：18808_kinshin⟧: house arrest/confinement — broader disciplinary restriction",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03387_taigaku",
+      "reading": "たいがく",
+      "headword": "{退学|たいがく}",
+      "label": "expulsion"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05140_kyuugaku",
+      "reading": "きゅうがく",
+      "headword": "{休学|きゅうがく}",
+      "label": "leave of absence"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18808_kinshin",
+      "reading": "きんしん",
+      "headword": "{謹慎|きんしん}",
+      "label": "house arrest/confinement"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28840_shussekiteishi",
+      "reading": "しゅっせきていし",
+      "headword": "{出席停止|しゅっせきていし}",
+      "label": "suspension from attending school"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["education"]
+      "semantic": [
+        "education"
+      ]
     },
     "created": "2026-04-05T18:25:33Z",
-    "modified": "2026-04-05T18:25:33Z"
+    "modified": "2026-09-02T04:02:07Z"
   }
 }

@@ -15,41 +15,69 @@
   "examples": [
     {
       "id": "28642_benmakushou_ex1",
-      "japanese": "{父|ちち}は{弁膜症|べんまくしょう}と{診断|しんだん}された。",
+      "japanese": "⟦{父|ちち}→父：00566_chichi⟧⟦は→は：00079_ha⟧{弁膜症|べんまくしょう}⟦と→と：00512_to⟧⟦{診断|しんだん}→診断：04209_shindan⟧⟦された→する：00392_suru⟧。",
       "english": "My father was diagnosed with valvular heart disease.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28642_benmakushou_ex2",
-      "japanese": "{弁膜症|べんまくしょう}は{加齢|かれい}とともに{増|ふ}える。",
+      "japanese": "{弁膜症|べんまくしょう}⟦は→は：00079_ha⟧⟦{加齢|かれい}→加齢：11821_karei⟧⟦とともに→とともに：30485_totomoni⟧⟦{増|ふ}える→増える：01183_fueru⟧。",
       "english": "Valvular heart disease increases with age.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28642_benmakushou_ex3",
-      "japanese": "{重度|じゅうど}の{弁膜症|べんまくしょう}には{手術|しゅじゅつ}が{必要|ひつよう}になることもある。",
+      "japanese": "⟦{重度|じゅうど}→重度：28683_juudo⟧⟦の→の：09472_no⟧{弁膜症|べんまくしょう}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{手術|しゅじゅつ}→手術：03218_shujutsu⟧⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧こと⟦も→も：00484_mo⟧⟦ある→ある：00006_aru⟧。",
       "english": "Severe valvular heart disease can require surgery.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Compound of {弁膜|べんまく} (membrane valve) + {症|しょう} (disease, ailment). The {症|しょう} suffix is widely used to form names of medical conditions.\n\nCOMMON COLLOCATIONS:\n- {心臓|しんぞう}{弁膜症|べんまくしょう}: heart valve disease (full medical term)\n- {弁膜症|べんまくしょう}{手術|しゅじゅつ}: valve surgery\n- {僧帽弁|そうぼうべん}{閉鎖不全症|へいさふぜんしょう}: mitral regurgitation (a specific form)\n\nSIMILAR WORDS:\n- {不整脈|ふせいみゃく}: arrhythmia — irregular heartbeat, a different kind of heart condition\n- {心筋梗塞|しんきんこうそく}: heart attack — sudden blockage, distinct from chronic valve disease",
+  "notes": "Compound of {弁膜|べんまく} (membrane valve) + {症|しょう} (disease, ailment). The {症|しょう} suffix is widely used to form names of medical conditions.\n\nCOMMON COLLOCATIONS:\n- ⟦{心臓|しんぞう}→心臓：03262_shinzou⟧{弁膜症|べんまくしょう}: heart valve disease (full medical term)\n- {弁膜症|べんまくしょう}⟦{手術|しゅじゅつ}→手術：03218_shujutsu⟧: valve surgery\n- {僧帽弁|そうぼうべん}{閉鎖不全症|へいさふぜんしょう}: mitral regurgitation (a specific form)\n\nSIMILAR WORDS:\n- ⟦{不整脈|ふせいみゃく}→不整脈：07104_fuseimyaku⟧: arrhythmia — irregular heartbeat, a different kind of heart condition\n- ⟦{心筋梗塞|しんきんこうそく}→心筋梗塞：20487_shinkinkousoku⟧: heart attack — sudden blockage, distinct from chronic valve disease",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07104_fuseimyaku",
+      "reading": "ふせいみゃく",
+      "headword": "{不整脈|ふせいみゃく}",
+      "label": "arrhythmia"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20487_shinkinkousoku",
+      "reading": "しんきんこうそく",
+      "headword": "{心筋梗塞|しんきんこうそく}",
+      "label": "heart attack"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["health"],
-      "domain": ["medical"]
+      "politeness": "plain",
+      "semantic": [
+        "health"
+      ],
+      "domain": [
+        "medical"
+      ]
     },
     "created": "2026-06-03T03:12:13Z",
-    "modified": "2026-06-03T03:12:13Z"
+    "modified": "2026-09-02T04:02:34Z"
   }
 }

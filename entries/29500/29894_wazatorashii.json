@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29894_wazatorashii_ex1",
-      "japanese": "わざとらしい{笑|わら}い{方|かた}だ。",
+      "japanese": "わざとらしい⟦{笑|わら}い→笑い：02641_warai⟧⟦{方|かた}→方：10665_kata⟧だ。",
       "english": "It's a put-on way of laughing.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29894_wazatorashii_ex2",
-      "japanese": "{彼女|かのじょ}のほめ{方|かた}はわざとらしくて{気|き}になる。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦の→の：09472_no⟧ほめ⟦{方|かた}→方：10665_kata⟧⟦は→は：00079_ha⟧わざとらしくて⟦{気|き}になる→気になる：03027_kininaru⟧。",
       "english": "The way she compliments people feels affected, and it bothers me.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29894_wazatorashii_ex3",
-      "japanese": "わざとらしい{咳払|せきばら}いをして、{彼|かれ}は{話題|わだい}を{変|か}えようとした。",
+      "japanese": "わざとらしい⟦{咳払|せきばら}い→咳払い：06512_sekibarai⟧⟦を→を：00422_wo⟧⟦して→する：00392_suru⟧、⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{話題|わだい}→話題：03793_wadai⟧⟦を→を：00422_wo⟧⟦{変|か}えよう→変える：01089_kaeru⟧とした。",
       "english": "With an obviously fake throat-clearing, he tried to change the subject.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Built on わざと (on purpose) plus the suffix ～らしい (seeming, looking like). It carries a critical tone: the action looks staged, exaggerated, or insincere rather than spontaneous.\n\nCOMMON COLLOCATIONS:\n- わざとらしい{笑|わら}い: a forced, fake laugh\n- わざとらしく{泣|な}く: to cry in an obviously put-on way\n- わざとらしい{態度|たいど}: an affected, insincere manner\n\nSIMILAR WORDS:\n- {不自然|ふしぜん}な: unnatural — describes something that simply seems off, without the sense of deliberate pretense\n- {大袈裟|おおげさ}な: exaggerated, overblown — overstated, but not necessarily faked on purpose",
+  "notes": "Built on ⟦わざと→わざと：03791_wazato⟧ (on purpose) plus the suffix ～らしい (seeming, looking like). It carries a critical tone: the action looks staged, exaggerated, or insincere rather than spontaneous.\n\nCOMMON COLLOCATIONS:\n- わざとらしい⟦{笑|わら}い→笑い：02641_warai⟧: a forced, fake laugh\n- わざとらしく⟦{泣|な}く→泣く：00655_naku⟧: to cry in an obviously put-on way\n- わざとらしい⟦{態度|たいど}→態度：03396_taido⟧: an affected, insincere manner\n\nSIMILAR WORDS:\n- ⟦{不自然|ふしぜん}→不自然：11350_fushizen⟧な: unnatural — describes something that simply seems off, without the sense of deliberate pretense\n- {大袈裟|おおげさ}な: exaggerated, overblown — overstated, but not necessarily faked on purpose",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21410_fushizenna",
+      "reading": "ふしぜんな",
+      "headword": "{不自然|ふしぜん}な",
+      "label": "unnatural"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28993_usoppoi",
+      "reading": "うそっぽい",
+      "headword": "{嘘|うそ}っぽい",
+      "label": "fishy"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,14 +69,14 @@
         "adjective-i"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "evaluation"
       ],
       "domain": []
     },
     "created": "2026-07-16T21:18:06Z",
-    "modified": "2026-07-16T21:18:06Z"
+    "modified": "2026-09-02T04:02:38Z"
   },
   "conjugation": {
     "type": "i-adjective",

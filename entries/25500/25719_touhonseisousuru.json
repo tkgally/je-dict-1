@@ -3,7 +3,7 @@
   "headword": "{東奔西走|とうほんせいそう}する",
   "reading": "とうほんせいそうする",
   "romaji": "touhonseisousuru",
-  "part_of_speech": "verb",
+  "part_of_speech": "suru verb",
   "gloss": "to rush about; to run around busily",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25719_touhonseisousuru_ex1",
-      "japanese": "{資金集|しきんあつ}めに{東奔西走|とうほんせいそう}する。",
+      "japanese": "{資金集|しきんあつ}め⟦に→に：00314_ni⟧{東奔西走|とうほんせいそう}する。",
       "english": "To rush about raising funds.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25719_touhonseisousuru_ex2",
-      "japanese": "{選挙|せんきょ}{運動|うんどう}のために{東奔西走|とうほんせいそう}した。",
+      "japanese": "⟦{選挙|せんきょ}{運動|うんどう}→選挙運動：26087_senkyoundou⟧⟦の→の：09472_no⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧{東奔西走|とうほんせいそう}した。",
       "english": "I ran around busily for the election campaign.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25719_touhonseisousuru_ex3",
-      "japanese": "{営業|えいぎょう}{部長|ぶちょう}は{新規|しんき}{顧客|こきゃく}を{獲得|かくとく}するために{毎日|まいにち}{東奔西走|とうほんせいそう}している。",
+      "japanese": "⟦{営業|えいぎょう}→営業：01878_eigyou⟧⟦{部長|ぶちょう}→部長：01017_buchou⟧⟦は→は：00079_ha⟧⟦{新規|しんき}→新規：06289_shinki⟧⟦{顧客|こきゃく}→顧客：08632_kokyaku⟧⟦を→を：00422_wo⟧⟦{獲得|かくとく}→獲得：05624_kakutoku⟧⟦する→する：00392_suru⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧⟦{毎日|まいにち}→毎日：00729_mainichi⟧{東奔西走|とうほんせいそう}して⟦いる→いる：00495_iru⟧。",
       "english": "The sales manager is constantly rushing around every day to acquire new clients.",
       "sense_numbers": [
         1
@@ -44,8 +44,30 @@
       "notes": null
     }
   ],
-  "notes": "A four-character idiom ({四字熟語|よじじゅくご}): {東|ひがし} (east) + {奔|ほん} (run) + {西|にし} (west) + {走|そう} (run). Literally \"running east and dashing west,\" conveying the image of someone hurrying in all directions. Used in formal and literary contexts to describe someone making great efforts, often with a positive connotation of dedication.\n\nCOMMON COLLOCATIONS:\n- {東奔西走|とうほんせいそう}の{日々|ひび} — days of rushing about\n- {資金集|しきんあつ}めに{東奔西走|とうほんせいそう}する — rush about raising funds\n- {解決|かいけつ}に{東奔西走|とうほんせいそう}する — run around trying to resolve something\n\nSIMILAR WORDS:\n- {奔走|ほんそう}する — to run about; to make efforts — simpler two-character version, very similar meaning\n- {駆|か}け{回|まわ}る — to run around — more colloquial, physical action\n- {飛|と}び{回|まわ}る — to fly around — emphasizes rapid movement from place to place",
-  "cross_references": [],
+  "notes": "A four-character idiom (⟦{四字熟語|よじじゅくご}→四字熟語：15663_yojijukugo⟧): ⟦{東|ひがし}→東：02250_higashi⟧ (east) + {奔|ほん} (run) + ⟦{西|にし}→西：00659_nishi⟧ (west) + {走|そう} (run). Literally \"running east and dashing west,\" conveying the image of someone hurrying in all directions. Used in formal and literary contexts to describe someone making great efforts, often with a positive connotation of dedication.\n\nCOMMON COLLOCATIONS:\n- ⟦{東奔西走|とうほんせいそう}→東奔西走：18722_touhonseisou⟧⟦の→の：09472_no⟧⟦{日々|ひび}→日々：04804_hibi⟧ — days of rushing about\n- {資金集|しきんあつ}め⟦に→に：00314_ni⟧{東奔西走|とうほんせいそう}する — rush about raising funds\n- ⟦{解決|かいけつ}→解決：00136_kaiketsu⟧⟦に→に：00314_ni⟧{東奔西走|とうほんせいそう}する — run around trying to resolve something\n\nSIMILAR WORDS:\n- ⟦{奔走|ほんそう}する→奔走する：25550_honsousuru⟧ — to run about; to make efforts — simpler two-character version, very similar meaning\n- ⟦{駆|か}け{回|まわ}る→駆け回る：06113_kakemawaru⟧ — to run around — more colloquial, physical action\n- ⟦{飛|と}び{回|まわ}る→飛び回る：04610_tobimawaru⟧ — to fly around — emphasizes rapid movement from place to place",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25550_honsousuru",
+      "reading": "ほんそうする",
+      "headword": "{奔走|ほんそう}する",
+      "label": "to run about"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06113_kakemawaru",
+      "reading": "かけまわる",
+      "headword": "{駆|か}け{回|まわ}る",
+      "label": "to run around"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04610_tobimawaru",
+      "reading": "とびまわる",
+      "headword": "{飛|と}び{回|まわ}る",
+      "label": "to fly around"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,6 +75,7 @@
       "pos": [
         "verb-suru"
       ],
+      "politeness": "plain",
       "semantic": [
         "action"
       ],
@@ -62,7 +85,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-26T16:34:41Z",
-    "modified": "2026-04-26T16:34:41Z"
+    "modified": "2026-09-02T04:02:23Z"
   },
   "conjugation": {
     "type": "suru",

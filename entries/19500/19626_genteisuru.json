@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "19626_genteisuru_ex1",
-      "japanese": "{参加者|さんかしゃ}を{限定|げんてい}する。",
+      "japanese": "⟦{参加者|さんかしゃ}→参加者：03059_sankasha⟧⟦を→を：00422_wo⟧{限定|げんてい}する。",
       "english": "To limit the participants.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "19626_genteisuru_ex2",
-      "japanese": "{販売|はんばい}{期間|きかん}を{一週間|いっしゅうかん}に{限定|げんてい}する。",
+      "japanese": "⟦{販売|はんばい}→販売：03573_hanbai⟧⟦{期間|きかん}→期間：00229_kikan⟧⟦を→を：00422_wo⟧⟦{一週間|いっしゅうかん}→一週間：10979_isshuukan⟧⟦に→に：00314_ni⟧{限定|げんてい}する。",
       "english": "To limit the sales period to one week.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "19626_genteisuru_ex3",
-      "japanese": "この{商品|しょうひん}は{会員|かいいん}{限定|げんてい}で{販売|はんばい}されている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{商品|しょうひん}→商品：01436_shouhin⟧⟦は→は：00079_ha⟧⟦{会員|かいいん}→会員：02535_kaiin⟧⟦{限定|げんてい}→限定：10997_gentei⟧⟦で→で：00502_de⟧⟦{販売|はんばい}→販売：03573_hanbai⟧⟦されている→する：00392_suru⟧。",
       "english": "This product is sold exclusively to members.",
       "sense_numbers": [
         1
@@ -134,11 +134,19 @@
       "notes": null
     }
   ],
-  "notes": "Describes setting a boundary on scope, number, or availability. The noun form {限定|げんてい} is extremely common in marketing and everyday life.\n\nCOMMON COLLOCATIONS:\n- {数量|すうりょう}{限定|げんてい}: limited quantity\n- {期間|きかん}{限定|げんてい}: limited-time\n- {会員|かいいん}{限定|げんてい}: members only\n- {地域|ちいき}{限定|げんてい}: area-limited, regional exclusive\n- {限定|げんてい}{版|ばん}: limited edition\n\nSIMILAR WORDS:\n- {制限|せいげん}する: to restrict — emphasizes imposing an upper bound or cap\n- {限定|げんてい}する: to limit — emphasizes narrowing the scope or target group",
-  "cross_references": [],
+  "notes": "Describes setting a boundary on scope, number, or availability. The noun form ⟦{限定|げんてい}→限定：10997_gentei⟧ is extremely common in marketing and everyday life.\n\nCOMMON COLLOCATIONS:\n- ⟦{数量|すうりょう}{限定|げんてい}→数量限定：09822_suuryougentei⟧: limited quantity\n- ⟦{期間|きかん}{限定|げんてい}→期間限定：09744_kikangentei⟧: limited-time\n- ⟦{会員|かいいん}→会員：02535_kaiin⟧⟦{限定|げんてい}→限定：10997_gentei⟧: members only\n- ⟦{地域|ちいき}→地域：01461_chiiki⟧⟦{限定|げんてい}→限定：10997_gentei⟧: area-limited, regional exclusive\n- ⟦{限定|げんてい}{版|ばん}→限定版：17391_genteiban⟧: limited edition\n\nSIMILAR WORDS:\n- ⟦{制限|せいげん}する→制限する：19636_seigensuru⟧: to restrict — emphasizes imposing an upper bound or cap\n- {限定|げんてい}する: to limit — emphasizes narrowing the scope or target group",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19636_seigensuru",
+      "reading": "せいげんする",
+      "headword": "{制限|せいげん}する",
+      "label": "to restrict"
+    }
+  ],
   "metadata": {
     "created": "2026-03-26T09:33:25Z",
-    "modified": "2026-03-29T03:08:58Z",
+    "modified": "2026-09-02T04:01:56Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
@@ -149,7 +157,8 @@
       "semantic": [
         "quantity"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

@@ -3,7 +3,7 @@
   "id": "17849_seibisuru",
   "headword": "{整備|せいび}する",
   "reading": "せいびする",
-  "part_of_speech": "verb (suru)",
+  "part_of_speech": "suru verb",
   "gloss": "to maintain; to put in order; to develop",
   "conjugation": {
     "type": "suru",
@@ -110,7 +110,7 @@
   "examples": [
     {
       "id": "17849_seibisuru_ex1",
-      "japanese": "{車|くるま}を{整備|せいび}する。",
+      "japanese": "⟦{車|くるま}→車：00516_kuruma⟧⟦を→を：00422_wo⟧{整備|せいび}する。",
       "english": "To service a car.",
       "notes": null,
       "has_audio": false,
@@ -120,7 +120,7 @@
     },
     {
       "id": "17849_seibisuru_ex2",
-      "japanese": "{飛行機|ひこうき}は{定期的|ていきてき}に{整備|せいび}されている。",
+      "japanese": "⟦{飛行機|ひこうき}→飛行機：00629_hikouki⟧⟦は→は：00079_ha⟧⟦{定期的|ていきてき}→定期的：06173_teikiteki⟧⟦に→に：00314_ni⟧{整備|せいび}されて⟦いる→いる：00495_iru⟧。",
       "english": "Airplanes are regularly maintained.",
       "notes": null,
       "has_audio": false,
@@ -130,7 +130,7 @@
     },
     {
       "id": "17849_seibisuru_ex3",
-      "japanese": "{整備|せいび}{不良|ふりょう}が{事故|じこ}の{原因|げんいん}だった。",
+      "japanese": "⟦{整備|せいび}→整備：04037_seibi⟧⟦{不良|ふりょう}→不良：11320_furyou⟧⟦が→が：00051_ga⟧⟦{事故|じこ}→事故：00851_jiko⟧⟦の→の：09472_no⟧⟦{原因|げんいん}→原因：01400_genin⟧だった。",
       "english": "Poor maintenance was the cause of the accident.",
       "notes": null,
       "has_audio": false,
@@ -140,7 +140,7 @@
     },
     {
       "id": "17849_seibisuru_ex4",
-      "japanese": "{道路|どうろ}を{整備|せいび}する。",
+      "japanese": "⟦{道路|どうろ}→道路：01481_douro⟧⟦を→を：00422_wo⟧{整備|せいび}する。",
       "english": "To develop the roads.",
       "notes": null,
       "has_audio": false,
@@ -150,7 +150,7 @@
     },
     {
       "id": "17849_seibisuru_ex5",
-      "japanese": "{法律|ほうりつ}の{整備|せいび}が{必要|ひつよう}だ。",
+      "japanese": "⟦{法律|ほうりつ}→法律：01722_houritsu⟧⟦の→の：09472_no⟧⟦{整備|せいび}→整備：04037_seibi⟧⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧だ。",
       "english": "Legal frameworks need to be put in order.",
       "notes": null,
       "has_audio": false,
@@ -160,7 +160,7 @@
     },
     {
       "id": "17849_seibisuru_ex6",
-      "japanese": "{地域|ちいき}のインフラを{整備|せいび}して、{住|す}みやすい{町|まち}にしたい。",
+      "japanese": "⟦{地域|ちいき}→地域：01461_chiiki⟧⟦の→の：09472_no⟧⟦インフラ→インフラ：09898_infura⟧⟦を→を：00422_wo⟧{整備|せいび}して、⟦{住|す}み→住む：00673_sumu⟧やすい⟦{町|まち}→町：00613_machi⟧にしたい。",
       "english": "I want to develop the area's infrastructure and make it a livable town.",
       "notes": null,
       "has_audio": false,
@@ -169,11 +169,19 @@
       ]
     }
   ],
-  "notes": "USAGE:\nSense 1 is used for mechanical/vehicle maintenance. Sense 2 is broader, covering infrastructure development, legal frameworks, and organizational systems. Both senses share the core meaning of putting things in proper order.\n\nCOMMON COLLOCATIONS:\n- {車|くるま}の{整備|せいび} (car maintenance)\n- {整備士|せいびし} (mechanic)\n- {整備|せいび}{工場|こうじょう} (maintenance shop)\n- {環境|かんきょう}{整備|せいび} (environmental improvement)\n- {制度|せいど}を{整備|せいび}する (to establish a system)",
-  "cross_references": [],
+  "notes": "USAGE:\nSense 1 is used for mechanical/vehicle maintenance. Sense 2 is broader, covering infrastructure development, legal frameworks, and organizational systems. Both senses share the core meaning of putting things in proper order.\n\nCOMMON COLLOCATIONS:\n- ⟦{車|くるま}→車：00516_kuruma⟧⟦の→の：09472_no⟧⟦{整備|せいび}→整備：04037_seibi⟧ (car maintenance)\n- ⟦{整備士|せいびし}→整備士：28380_seibishi⟧ (mechanic)\n- ⟦{整備|せいび}→整備：04037_seibi⟧⟦{工場|こうじょう}→工場：01082_koujou⟧ (maintenance shop)\n- ⟦{環境|かんきょう}→環境：00174_kankyou⟧⟦{整備|せいび}→整備：04037_seibi⟧ (environmental improvement)\n- ⟦{制度|せいど}→制度：03291_seido⟧⟦を→を：00422_wo⟧{整備|せいび}する (to establish a system)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22151_kanbisuru",
+      "reading": "かんびする",
+      "headword": "{完備|かんび}する",
+      "label": "to be fully equipped"
+    }
+  ],
   "metadata": {
     "created": "2026-03-19T06:58:32Z",
-    "modified": "2026-07-24T21:50:29Z",
+    "modified": "2026-09-02T04:01:50Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

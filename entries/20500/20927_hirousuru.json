@@ -3,7 +3,7 @@
   "headword": "{披露|ひろう}する",
   "reading": "ひろうする",
   "romaji": "hirousuru",
-  "part_of_speech": "verb",
+  "part_of_speech": "suru verb",
   "gloss": "to announce; to present; to unveil",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "20927_hirousuru_ex1",
-      "japanese": "{新曲|しんきょく}を{披露|ひろう}する。",
+      "japanese": "⟦{新曲|しんきょく}→新曲：12983_shinkyoku⟧⟦を→を：00422_wo⟧{披露|ひろう}する。",
       "english": "To perform a new song.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "20927_hirousuru_ex2",
-      "japanese": "{練習|れんしゅう}の{成果|せいか}をみんなに{披露|ひろう}した。",
+      "japanese": "⟦{練習|れんしゅう}→練習：05323_renshuu⟧⟦の→の：09472_no⟧⟦{成果|せいか}→成果：06745_seika⟧⟦を→を：00422_wo⟧⟦みんな→みんな：02972_minna⟧⟦に→に：00314_ni⟧{披露|ひろう}した。",
       "english": "I showed everyone the results of my practice.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "20927_hirousuru_ex3",
-      "japanese": "{結婚式|けっこんしき}の{披露宴|ひろうえん}で{二人|ふたり}は{幸|しあわ}せそうにダンスを{披露|ひろう}した。",
+      "japanese": "⟦{結婚式|けっこんしき}→結婚式：05493_kekkonshiki⟧⟦の→の：09472_no⟧⟦{披露宴|ひろうえん}→披露宴：05636_hirouen⟧⟦で→で：00502_de⟧⟦{二人|ふたり}→二人：00622_futari⟧⟦は→は：00079_ha⟧{幸|しあわ}せそう⟦に→に：00314_ni⟧⟦ダンス→ダンス：03856_dansu⟧⟦を→を：00422_wo⟧{披露|ひろう}した。",
       "english": "At the wedding reception, the couple happily performed a dance.",
       "sense_numbers": [
         1
@@ -44,9 +44,32 @@
       "notes": null
     }
   ],
-  "notes": "A する verb meaning to formally present, reveal, or show off something to an audience. Commonly used for performances, skills, and ceremonial presentations. The noun form {披露|ひろう} often appears in the compound {披露宴|ひろうえん} (reception, especially a wedding reception).\n\nCOMMON COLLOCATIONS:\n- {腕前|うでまえ}を{披露|ひろう}する: to show off one's skill\n- {新曲|しんきょく}を{披露|ひろう}する: to debut a new song\n- {成果|せいか}を{披露|ひろう}する: to present one's results/achievements\n- {演技|えんぎ}を{披露|ひろう}する: to perform (a show or act)\n- {披露宴|ひろうえん}: wedding reception\n\nSIMILAR WORDS:\n- {発表|はっぴょう}する: to announce, to present — more neutral and informational\n- {見|み}せる: to show — simpler and more casual\n- {公開|こうかい}する: to make public, to release — for information or media",
+  "notes": "A ⟦する→する：00392_suru⟧ verb meaning to formally present, reveal, or show off something to an audience. Commonly used for performances, skills, and ceremonial presentations. The noun form ⟦{披露|ひろう}→披露：09683_hirou⟧ often appears in the compound ⟦{披露宴|ひろうえん}→披露宴：05636_hirouen⟧ (reception, especially a wedding reception).\n\nCOMMON COLLOCATIONS:\n- ⟦{腕前|うでまえ}→腕前：07299_udemae⟧⟦を→を：00422_wo⟧{披露|ひろう}する: to show off one's skill\n- ⟦{新曲|しんきょく}→新曲：12983_shinkyoku⟧⟦を→を：00422_wo⟧{披露|ひろう}する: to debut a new song\n- ⟦{成果|せいか}→成果：06745_seika⟧⟦を→を：00422_wo⟧{披露|ひろう}する: to present one's results/achievements\n- ⟦{演技|えんぎ}→演技：01890_engi⟧⟦を→を：00422_wo⟧{披露|ひろう}する: to perform (a show or act)\n- ⟦{披露宴|ひろうえん}→披露宴：05636_hirouen⟧: wedding reception\n\nSIMILAR WORDS:\n- ⟦{発表|はっぴょう}する→発表する：25231_happyousuru⟧: to announce, to present — more neutral and informational\n- ⟦{見|み}せる→見せる：01988_miseru⟧: to show — simpler and more casual\n- ⟦{公開|こうかい}→公開：11665_koukai⟧⟦する→する：00392_suru⟧: to make public, to release — for information or media",
   "conjugation_type": "suru",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25231_happyousuru",
+      "reading": "はっぴょうする",
+      "headword": "{発表|はっぴょう}する",
+      "label": "to announce, to present"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01988_miseru",
+      "reading": "みせる",
+      "headword": "{見|み}せる",
+      "label": "to show"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11665_koukai",
+      "reading": "こうかい",
+      "headword": "{公開|こうかい}",
+      "label": "to make public, to release"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,10 +82,11 @@
         "communication",
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-03-30T21:33:30Z",
-    "modified": "2026-03-30T21:33:30Z"
+    "modified": "2026-09-02T04:02:01Z"
   },
   "conjugation": {
     "type": "suru",

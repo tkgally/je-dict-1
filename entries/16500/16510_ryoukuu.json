@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "16510_ryoukuu_ex1",
-      "japanese": "{領空|りょうくう}{侵犯|しんぱん}が{確認|かくにん}された。",
+      "japanese": "{領空|りょうくう}⟦{侵犯|しんぱん}→侵犯：29663_shinpan⟧⟦が→が：00051_ga⟧⟦{確認|かくにん}→確認：00158_kakunin⟧⟦された→する：00392_suru⟧。",
       "english": "A territorial airspace violation was confirmed.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16510_ryoukuu_ex2",
-      "japanese": "{戦闘機|せんとうき}がスクランブル{発進|はっしん}して{領空|りょうくう}を{警備|けいび}した。",
+      "japanese": "⟦{戦闘機|せんとうき}→戦闘機：23287_sentouki⟧⟦が→が：00051_ga⟧スクランブル⟦{発進|はっしん}して→発進する：21033_hasshinsuru⟧{領空|りょうくう}⟦を→を：00422_wo⟧⟦{警備|けいび}→警備：00208_keibi⟧⟦した→する：00392_suru⟧。",
       "english": "Fighter jets scrambled to guard the airspace.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16510_ryoukuu_ex3",
-      "japanese": "{外国|がいこく}の{軍用機|ぐんようき}が{許可|きょか}なく{領空|りょうくう}に{侵入|しんにゅう}したため、{政府|せいふ}は{厳重|げんじゅう}に{抗議|こうぎ}した。",
+      "japanese": "⟦{外国|がいこく}→外国：02868_gaikoku⟧⟦の→の：09472_no⟧{軍用機|ぐんようき}⟦が→が：00051_ga⟧⟦{許可|きょか}→許可：00259_kyoka⟧⟦なく→ない：01118_nai⟧{領空|りょうくう}⟦に→に：00314_ni⟧⟦{侵入|しんにゅう}した→侵入する：17343_shinnyuusuru⟧⟦ため→ため：01145_tame⟧、⟦{政府|せいふ}→政府：03294_seifu⟧⟦は→は：00079_ha⟧⟦{厳重|げんじゅう}→厳重：11887_genjuu⟧⟦に→に：00314_ni⟧⟦{抗議|こうぎ}した→抗議する：26923_kougisuru⟧。",
       "english": "Because a foreign military aircraft entered the airspace without permission, the government lodged a strong protest.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nA formal term used in news, diplomacy, and military contexts. Japan's Air Self-Defense Force regularly conducts scramble missions in response to {領空|りょうくう}{侵犯|しんぱん} (airspace violations).\n\nCOMMON COLLOCATIONS:\n- {領空|りょうくう}{侵犯|しんぱん} (airspace violation)\n- {領空|りょうくう}に{侵入|しんにゅう}する (to intrude into airspace)\n- {領空|りょうくう}を{守|まも}る (to defend airspace)\n\nSIMILAR WORDS:\n- {領海|りょうかい}: territorial waters — the equivalent concept for sea areas\n- {領土|りょうど}: territory — sovereign land area",
+  "notes": "USAGE:\nA formal term used in news, diplomacy, and military contexts. Japan's Air Self-Defense Force regularly conducts scramble missions in response to {領空|りょうくう}⟦{侵犯|しんぱん}→侵犯：29663_shinpan⟧ (airspace violations).\n\nCOMMON COLLOCATIONS:\n- {領空|りょうくう}⟦{侵犯|しんぱん}→侵犯：29663_shinpan⟧ (airspace violation)\n- {領空|りょうくう}⟦に→に：00314_ni⟧⟦{侵入|しんにゅう}する→侵入する：17343_shinnyuusuru⟧ (to intrude into airspace)\n- {領空|りょうくう}⟦を→を：00422_wo⟧⟦{守|まも}る→守る：01986_mamoru⟧ (to defend airspace)\n\nSIMILAR WORDS:\n- ⟦{領海|りょうかい}→領海：15850_ryoukai⟧: territorial waters — the equivalent concept for sea areas\n- ⟦{領土|りょうど}→領土：15711_ryoudo⟧: territory — sovereign land area",
   "cross_references": [
     {
       "type": "related",
@@ -53,19 +59,41 @@
       "reading": "りょうかい",
       "headword": "{領海|りょうかい}",
       "label": "territorial waters"
+    },
+    {
+      "type": "related",
+      "target_id": "03080_joukuu",
+      "reading": "じょうくう",
+      "headword": "{上空|じょうくう}",
+      "label": "sky above, airspace"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27983_kuuiki",
+      "reading": "くういき",
+      "headword": "{空域|くういき}",
+      "label": "airspace"
     }
   ],
   "metadata": {
     "created": "2026-03-13T03:51:53Z",
-    "modified": "2026-05-02T04:22:54Z",
+    "modified": "2026-09-02T04:01:45Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "style": ["written"],
-      "semantic": ["military", "politics", "law"]
+      "style": [
+        "written"
+      ],
+      "semantic": [
+        "military",
+        "politics",
+        "law"
+      ]
     }
   }
 }

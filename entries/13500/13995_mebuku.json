@@ -3,7 +3,7 @@
   "id": "13995_mebuku",
   "headword": "{芽吹|めぶ}く",
   "reading": "めぶく",
-  "part_of_speech": "godan verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to bud, to sprout",
   "conjugation": {
     "type": "godan",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "13995_mebuku_ex1",
-      "japanese": "{木々|きぎ}が{芽吹|めぶ}き{始|はじ}めた。",
+      "japanese": "⟦{木々|きぎ}→木々：04811_kigi⟧⟦が→が：00051_ga⟧{芽吹|めぶ}き⟦{始|はじ}めた→始める：00531_hajimeru⟧。",
       "english": "The trees have started to bud.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "13995_mebuku_ex2",
-      "japanese": "{春|はる}になると、{枯|か}れたように{見|み}えた{枝|えだ}から{新|あたら}しい{芽|め}が{芽吹|めぶ}く。",
+      "japanese": "⟦{春|はる}→春：00627_haru⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦と→と：00512_to⟧、⟦{枯|か}れた→枯れる：04589_kareru⟧よう⟦に→に：00314_ni⟧⟦{見|み}えた→見える：01165_mieru⟧⟦{枝|えだ}→枝：02181_eda⟧⟦から→から：00504_kara⟧⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦{芽|め}→芽：02141_me⟧⟦が→が：00051_ga⟧{芽吹|めぶ}く。",
       "english": "When spring comes, new buds sprout from branches that had looked dead.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "13995_mebuku_ex3",
-      "japanese": "あの{出会|であ}いがきっかけで、{二人|ふたり}の{間|あいだ}に{恋心|こいごころ}が{芽吹|めぶ}いた。",
+      "japanese": "⟦あの→あの：00915_ano⟧⟦{出会|であ}い→出会い：03445_deai⟧⟦が→が：00051_ga⟧⟦きっかけ→きっかけ：10309_kikkake⟧で、⟦{二人|ふたり}→二人：00622_futari⟧⟦の→の：09472_no⟧⟦{間|あいだ}→間：00914_aida⟧⟦に→に：00314_ni⟧{恋心|こいごころ}⟦が→が：00051_ga⟧{芽吹|めぶ}いた。",
       "english": "That encounter was what made feelings of love sprout between the two of them.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,19 @@
       ]
     }
   ],
-  "notes": "USAGE:\nStrongly associated with spring and new beginnings. The literal sense describes plants budding, while the figurative sense conveys the emergence of emotions, ideas, or new developments. A poetic and evocative word.\n\nGRAMMAR:\n- Conjugates as a godan verb (く-row): {芽吹|めぶ}く → {芽吹|めぶ}いて → {芽吹|めぶ}いた\n- Intransitive: no direct object\n\nCOMMON COLLOCATIONS:\n- {木々|きぎ}が{芽吹|めぶ}く: trees bud/sprout\n- {新芽|しんめ}が{芽吹|めぶ}く: new shoots sprout\n- {恋|こい}が{芽吹|めぶ}く: love begins to bud\n- {才能|さいのう}が{芽吹|めぶ}く: talent begins to emerge\n- {芽吹|めぶ}きの{季節|きせつ}: the season of budding (spring)",
-  "cross_references": [],
+  "notes": "USAGE:\nStrongly associated with spring and new beginnings. The literal sense describes plants budding, while the figurative sense conveys the emergence of emotions, ideas, or new developments. A poetic and evocative word.\n\nCOMMON PATTERNS:\n- Conjugates as a godan verb (く-row): {芽吹|めぶ}く → {芽吹|めぶ}いて → {芽吹|めぶ}いた\n- Intransitive: no direct object\n\nCOMMON COLLOCATIONS:\n- ⟦{木々|きぎ}→木々：04811_kigi⟧⟦が→が：00051_ga⟧{芽吹|めぶ}く: trees bud/sprout\n- ⟦{新芽|しんめ}→新芽：13028_shinme⟧⟦が→が：00051_ga⟧{芽吹|めぶ}く: new shoots sprout\n- ⟦{恋|こい}→恋：02208_koi⟧⟦が→が：00051_ga⟧{芽吹|めぶ}く: love begins to bud\n- ⟦{才能|さいのう}→才能：02772_sainou⟧⟦が→が：00051_ga⟧{芽吹|めぶ}く: talent begins to emerge\n- {芽吹|めぶ}き⟦の→の：09472_no⟧⟦{季節|きせつ}→季節：01304_kisetsu⟧: the season of budding (spring)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "13028_shinme",
+      "reading": "しんめ",
+      "headword": "{新芽|しんめ}",
+      "label": "new bud, new sprout"
+    }
+  ],
   "metadata": {
     "created": "2026-02-27T08:37:07Z",
-    "modified": "2026-03-29T03:07:35Z",
+    "modified": "2026-09-02T04:01:35Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

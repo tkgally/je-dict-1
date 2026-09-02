@@ -14,30 +14,36 @@
   "examples": [
     {
       "id": "09153_misekake_ex1",
-      "japanese": "{見|み}せかけだけの{友情|ゆうじょう}",
+      "japanese": "{見|み}せかけ⟦だけ→〜だけ：03093_dake⟧⟦の→の：09472_no⟧⟦{友情|ゆうじょう}→友情：03648_yuujou⟧",
       "english": "friendship that is just for show",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "09153_misekake_ex2",
-      "japanese": "{彼|かれ}の{親切|しんせつ}は{見|み}せかけにすぎない。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧⟦{親切|しんせつ}→親切：01144_shinsetsu⟧⟦は→は：00079_ha⟧{見|み}せかけ⟦に→に：00314_ni⟧すぎない。",
       "english": "His kindness is nothing but a facade.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "09153_misekake_ex3",
-      "japanese": "{見|み}せかけの{平和|へいわ}の{裏|うら}で、{緊張|きんちょう}が{高|たか}まっていた。",
+      "japanese": "{見|み}せかけ⟦の→の：09472_no⟧⟦{平和|へいわ}→平和：01507_heiwa⟧⟦の→の：09472_no⟧⟦{裏|うら}→裏：02178_ura⟧で、⟦{緊張|きんちょう}→緊張：02494_kinchou⟧⟦が→が：00051_ga⟧⟦{高|たか}まっていた→高まる：02066_takamaru⟧。",
       "english": "Behind the facade of peace, tensions were rising.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "USAGE: Often used with の to modify nouns ({見|み}せかけの～) or with だけ/にすぎない to emphasize that something is merely a facade.\n\nNUANCE: {見|み}せかけ has negative connotations, implying deception or superficiality. It suggests that the reality is different from what appears on the surface.\n\nETYMOLOGY: From the verb {見|み}せかける (to make something appear as, to pretend).\n\nCOMMON COLLOCATIONS:\n- {見|み}せかけの～ (fake/superficial ~)\n- {見|み}せかけだけ (just for show)\n- {見|み}せかけにすぎない (nothing but a facade)\n- {見|み}せかけの{親切|しんせつ}/{優|やさ}しさ (feigned kindness)\n\nRELATED WORDS:\n- {見|み}せかける (to make appear, to pretend)\n- {体裁|ていさい} (appearance, format)\n- {偽装|ぎそう} (disguise, falsification)\n- {うわべ} (surface appearance)",
+  "notes": "USAGE: Often used with ⟦の→の：09472_no⟧ to modify nouns ({見|み}せかけ⟦の→の：09472_no⟧～) or with ⟦だけ→〜だけ：03093_dake⟧/⟦に→に：00314_ni⟧すぎない to emphasize that something is merely a facade.\n\nNUANCE: {見|み}せかけ has negative connotations, implying deception or superficiality. It suggests that the reality is different from what appears on the surface.\n\nETYMOLOGY: From the verb {見|み}せかける (to make something appear as, to pretend).\n\nCOMMON COLLOCATIONS:\n- {見|み}せかけ⟦の→の：09472_no⟧～ (fake/superficial ~)\n- {見|み}せかけ⟦だけ→〜だけ：03093_dake⟧ (just for show)\n- {見|み}せかけ⟦に→に：00314_ni⟧すぎない (nothing but a facade)\n- {見|み}せかけ⟦の→の：09472_no⟧⟦{親切|しんせつ}→親切：01144_shinsetsu⟧/{優|やさ}しさ (feigned kindness)\n\nRELATED WORDS:\n- {見|み}せかける (to make appear, to pretend)\n- ⟦{体裁|ていさい}→体裁：09154_teisai⟧ (appearance, format)\n- ⟦{偽装|ぎそう}→偽装：09151_gisou⟧ (disguise, falsification)\n- ⟦うわべ→うわべ：27457_uwabe⟧ (surface appearance)",
   "cross_references": [
     {
       "type": "synonym",
@@ -52,18 +58,29 @@
       "reading": "ぎそう",
       "headword": "{偽装|ぎそう}",
       "label": "disguise, falsification"
+    },
+    {
+      "type": "related",
+      "target_id": "27457_uwabe",
+      "reading": "うわべ",
+      "headword": "うわべ",
+      "label": "surface appearance"
     }
   ],
   "metadata": {
     "created": "2026-01-31T11:28:13Z",
-    "modified": "2026-04-22T08:20:33Z",
+    "modified": "2026-09-02T04:01:17Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["abstract"]
+      "semantic": [
+        "abstract"
+      ]
     }
   }
 }

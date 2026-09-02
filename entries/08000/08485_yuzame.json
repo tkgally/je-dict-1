@@ -2,7 +2,7 @@
   "id": "08485_yuzame",
   "headword": "{湯冷|ゆざ}め",
   "reading": "ゆざめ",
-  "part_of_speech": "noun / suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "catching cold after a bath",
   "conjugation": {
     "type": "suru",
@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "08485_yuzame_ex1",
-      "japanese": "{湯冷|ゆざ}めしないように。",
+      "japanese": "{湯冷|ゆざ}め⟦しない→する：00392_suru⟧よう⟦に→に：00314_ni⟧。",
       "english": "Be careful not to catch cold after your bath.",
       "sense_numbers": [
         1
@@ -114,7 +114,7 @@
     },
     {
       "id": "08485_yuzame_ex2",
-      "japanese": "{髪|かみ}を{乾|かわ}かさないと{湯冷|ゆざ}めするよ。",
+      "japanese": "⟦{髪|かみ}→髪：02196_kami⟧⟦を→を：00422_wo⟧⟦{乾|かわ}かさない→乾かす：01931_kawakasu⟧⟦と→と：00512_to⟧{湯冷|ゆざ}め⟦する→する：00392_suru⟧⟦よ→よ：09475_yo⟧。",
       "english": "If you don't dry your hair, you'll catch cold.",
       "sense_numbers": [
         1
@@ -124,7 +124,7 @@
     },
     {
       "id": "08485_yuzame_ex3",
-      "japanese": "{風呂上|ふろあ}がりに{薄着|うすぎ}でいたら{湯冷|ゆざ}めしてしまった。",
+      "japanese": "⟦{風呂上|ふろあ}がり→風呂上がり：22451_furoagari⟧⟦に→に：00314_ni⟧⟦{薄着|うすぎ}→薄着：14028_usugi⟧で⟦いたら→いる：00495_iru⟧{湯冷|ゆざ}め⟦して→する：00392_suru⟧しまった。",
       "english": "I caught a cold because I was lightly dressed after my bath.",
       "sense_numbers": [
         1
@@ -133,7 +133,23 @@
       "notes": null
     }
   ],
-  "notes": "COMPOUND:\n{湯|ゆ} (hot water, bath) + {冷|さ}め (getting cold)\n\nCULTURAL CONTEXT:\nIn Japan, bathing culture emphasizes warming up fully in the bath. {湯冷|ゆざ}め is a common concern, especially:\n- In winter months\n- For children and elderly\n- After {温泉|おんせん} or {銭湯|せんとう}\n\nPREVENTION:\n- {髪|かみ}を{乾|かわ}かす - dry your hair\n- {体|からだ}をよく{拭|ふ}く - dry body thoroughly\n- {暖|あたた}かい{服|ふく}を{着|き}る - wear warm clothes\n\nRELATED:\n- {風邪|かぜ}を{引|ひ}く - to catch a cold\n- {寒気|さむけ} - feeling chilly\n- {湯上|ゆあ}がり - after bathing",
+  "notes": "COMPOUNDS:\n⟦{湯|ゆ}→湯：01740_yu⟧ (hot water, bath) + ⟦{冷|さ}め→冷める：02114_sameru⟧ (getting cold)\n\nCULTURAL NOTE:\nIn Japan, bathing culture emphasizes warming up fully in the bath. {湯冷|ゆざ}め is a common concern, especially:\n- In winter months\n- For children and elderly\n- After ⟦{温泉|おんせん}→温泉：04117_onsen⟧ or ⟦{銭湯|せんとう}→銭湯：16032_sentou⟧\n\nPREVENTION:\n- ⟦{髪|かみ}を{乾|かわ}かす→髪を乾かす：23573_kamiwokawakasu⟧ - dry your hair\n- ⟦{体|からだ}→体：00784_karada⟧⟦を→を：00422_wo⟧⟦よく→よく：00601_yoku⟧⟦{拭|ふ}く→拭く：04261_fuku⟧ - dry body thoroughly\n- ⟦{暖|あたた}かい→暖かい：00618_atatakai⟧⟦{服|ふく}→服：00695_fuku⟧⟦を→を：00422_wo⟧⟦{着|き}る→着る：00541_kiru⟧ - wear warm clothes\n\nRELATED WORDS:\n- ⟦{風邪|かぜ}→風邪：02188_kaze⟧⟦を→を：00422_wo⟧⟦{引|ひ}く→引く：01978_hiku⟧ - to catch a cold\n- ⟦{寒気|さむけ}→寒気：16081_samuke⟧ - feeling chilly\n- ⟦{湯上|ゆあ}がり→湯上がり：22239_yuagari⟧ - after bathing",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "16081_samuke",
+      "reading": "さむけ",
+      "headword": "{寒気|さむけ}",
+      "label": "feeling chilly"
+    },
+    {
+      "type": "related",
+      "target_id": "22239_yuagari",
+      "reading": "ゆあがり",
+      "headword": "{湯上|ゆあ}がり",
+      "label": "after bathing"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -142,6 +158,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "health",
         "daily-life",
@@ -150,6 +167,6 @@
       "verb_class": "suru"
     },
     "created": "2026-01-27T08:12:28Z",
-    "modified": "2026-06-22T12:50:00Z"
+    "modified": "2026-09-02T04:01:15Z"
   }
 }

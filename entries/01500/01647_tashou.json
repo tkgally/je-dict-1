@@ -19,7 +19,7 @@
   "examples": [
     {
       "id": "01647_tashou_ex1",
-      "japanese": "{多少|たしょう}⟦{難|むずか}しいです→難しい：00517_muzukashii⟧が、⟦できます→できる：00557_dekiru⟧。",
+      "japanese": "{多少|たしょう}⟦{難|むずか}しいです→難しい：00517_muzukashii⟧⟦が→が：00051_ga⟧、⟦できます→できる：00557_dekiru⟧。",
       "english": "It's somewhat difficult, but I can do it.",
       "notes": null,
       "has_audio": false,
@@ -59,7 +59,7 @@
     },
     {
       "id": "01647_tashou_ex5",
-      "japanese": "⟦{日本語|にほんご}→日本語：00614_nihongo⟧⟦は→は：00079_ha⟧{多少|たしょう}⟦{話|はな}せます→話す：00467_hanasu⟧が、⟦まだまだ→まだまだ：10505_madamada⟧⟦{勉強|べんきょう}→勉強する：00527_benkyousuru⟧⟦{中|ちゅう}→〜中：09840_chuu⟧です。",
+      "japanese": "⟦{日本語|にほんご}→日本語：00614_nihongo⟧⟦は→は：00079_ha⟧{多少|たしょう}⟦{話|はな}せます→話す：00467_hanasu⟧⟦が→が：00051_ga⟧、⟦まだまだ→まだまだ：10505_madamada⟧⟦{勉強|べんきょう}→勉強する：00527_benkyousuru⟧⟦{中|ちゅう}→〜中：09840_chuu⟧です。",
       "english": "I can speak some Japanese, but I'm still studying.",
       "notes": null,
       "has_audio": false,
@@ -109,7 +109,7 @@
     },
     {
       "id": "01647_tashou_ex10",
-      "japanese": "⟦{人数|にんずう}→人数：03132_ninzuu⟧⟦の→の：09472_no⟧{多少|たしょう}⟦に→に：00314_ni⟧よって⟦{部屋|へや}→部屋：00507_heya⟧⟦を→を：00422_wo⟧⟦{決|き}める→決める：00858_kimeru⟧。",
+      "japanese": "⟦{人数|にんずう}→人数：03132_ninzuu⟧⟦の→の：09472_no⟧{多少|たしょう}⟦に→に：00314_ni⟧⟦よって→よる：09857_yoru⟧⟦{部屋|へや}→部屋：00507_heya⟧⟦を→を：00422_wo⟧⟦{決|き}める→決める：00858_kimeru⟧。",
       "english": "We'll decide on the room based on the number of people.",
       "notes": null,
       "has_audio": false,
@@ -118,11 +118,47 @@
       ]
     }
   ],
-  "notes": "{多少|たしょう} indicates a small degree or amount.\n\nUSAGE:\n- Adverb: {多少|たしょう} + adjective/verb (somewhat ~)\n- Noun: {多少|たしょう}の + noun (some ~)\n- Noun: 〜の{多少|たしょう} (the amount of ~)\n\nCOMMON PATTERNS:\n- {多少|たしょう}の⟦{経験|けいけん}→経験：01179_keiken⟧ (some experience)\n- {多少|たしょう}⟦{無理|むり}→無理：01558_muri⟧をする (push oneself a bit)\n- {多少|たしょう}にかかわらず (regardless of amount)\n\nSIMILAR WORDS:\n- ⟦{少|すこ}し→少し：00596_sukoshi⟧: a little (casual)\n- {多少|たしょう}: somewhat (slightly formal)\n- ⟦ちょっと→ちょっと：00595_chotto⟧: a bit (casual)",
-  "cross_references": [],
+  "notes": "{多少|たしょう} indicates a small degree or amount.\n\nUSAGE:\n- Adverb: {多少|たしょう} + adjective/verb (somewhat ~)\n- Noun: {多少|たしょう}⟦の→の：09472_no⟧ + noun (some ~)\n- Noun: 〜⟦の→の：09472_no⟧{多少|たしょう} (the amount of ~)\n\nCOMMON PATTERNS:\n- {多少|たしょう}⟦の→の：09472_no⟧⟦{経験|けいけん}→経験：01179_keiken⟧ (some experience)\n- {多少|たしょう}⟦{無理|むり}→無理：01558_muri⟧⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧ (push oneself a bit)\n- {多少|たしょう}⟦に→に：00314_ni⟧かかわらず (regardless of amount)\n\nSIMILAR WORDS:\n- ⟦{少|すこ}し→少し：00596_sukoshi⟧: a little (casual)\n- {多少|たしょう}: somewhat (slightly formal)\n- ⟦ちょっと→ちょっと：00595_chotto⟧: a bit (casual)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00596_sukoshi",
+      "reading": "すこし",
+      "headword": "{少|すこ}し",
+      "label": "a little"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00595_chotto",
+      "reading": "ちょっと",
+      "headword": "ちょっと",
+      "label": "a bit"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04098_ikubun",
+      "reading": "いくぶん",
+      "headword": "{幾分|いくぶん}",
+      "label": "somewhat, to some extent"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21790_ikuraka",
+      "reading": "いくらか",
+      "headword": "いくらか",
+      "label": "somewhat"
+    },
+    {
+      "type": "related",
+      "target_id": "22125_tashounaritomo",
+      "reading": "たしょうなりとも",
+      "headword": "{多少|たしょう}なりとも",
+      "label": "to some extent"
+    }
+  ],
   "metadata": {
     "created": "2026-01-09T11:41:04Z",
-    "modified": "2026-06-10T17:34:32Z",
+    "modified": "2026-09-02T04:01:00Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

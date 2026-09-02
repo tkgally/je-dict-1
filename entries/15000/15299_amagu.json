@@ -15,41 +15,60 @@
   "examples": [
     {
       "id": "15299_amagu_ex1",
-      "japanese": "{雨具|あまぐ}を{持|も}ってきてください。",
+      "japanese": "{雨具|あまぐ}⟦を→を：00422_wo⟧⟦{持|も}って→持つ：00478_motsu⟧きて⟦ください→ください：02899_kudasai⟧。",
       "english": "Please bring rain gear.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15299_amagu_ex2",
-      "japanese": "{天気予報|てんきよほう}では{雨|あめ}なので、{雨具|あまぐ}が{必要|ひつよう}だ。",
+      "japanese": "⟦{天気予報|てんきよほう}→天気予報：01678_tenkiyohou⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{雨|あめ}→雨：00583_ame⟧な⟦の→の：09472_no⟧で、{雨具|あまぐ}⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧だ。",
       "english": "The weather forecast says rain, so rain gear is necessary.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15299_amagu_ex3",
-      "japanese": "{登山|とざん}に{行|い}くときは、{急|きゅう}な{天候|てんこう}の{変化|へんか}に{備|そな}えて{雨具|あまぐ}を{必|かなら}ず{用意|ようい}しましょう。",
+      "japanese": "⟦{登山|とざん}→登山：03457_tozan⟧⟦に→に：00314_ni⟧⟦{行|い}く→行く：00119_iku⟧とき⟦は→は：00079_ha⟧、⟦{急|きゅう}→急：13042_kyuu⟧な⟦{天候|てんこう}→天候：03558_tenkou⟧⟦の→の：09472_no⟧⟦{変化|へんか}→変化：03615_henka⟧⟦に→に：00314_ni⟧⟦{備|そな}えて→備える：02125_sonaeru⟧{雨具|あまぐ}⟦を→を：00422_wo⟧⟦{必|かなら}ず→必ず：01249_kanarazu⟧⟦{用意|ようい}しましょう→用意する：22428_youisuru⟧。",
       "english": "When going mountain climbing, always prepare rain gear in case of sudden weather changes.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{雨具|あまぐ} is a collective term for all rain protection items. It does not refer to one specific item but rather the category as a whole.\n\nINCLUDES:\n- {傘|かさ}: umbrella\n- {合羽|かっぱ} / レインコート: raincoat\n- {長靴|ながぐつ}: rain boots\n\nCOMMON COLLOCATIONS:\n- {雨具|あまぐ}を{持参|じさん}する: to bring rain gear\n- {雨具|あまぐ}を{用意|ようい}する: to prepare rain gear\n- {雨具|あまぐ}{必携|ひっけい}: rain gear required\n\nREGISTER:\nCommonly seen in outdoor activity guides, hiking instructions, and weather-related notices. Slightly formal compared to casual speech, where people would just say {傘|かさ} (umbrella) or カッパ (raincoat).",
-  "cross_references": [],
+  "notes": "{雨具|あまぐ} is a collective term for all rain protection items. It does not refer to one specific item but rather the category as a whole.\n\nINCLUDES:\n- ⟦{傘|かさ}→傘：00639_kasa⟧: umbrella\n- ⟦{合羽|かっぱ}→合羽：23048_kappa⟧ / ⟦レインコート→レインコート：27700_reinkooto⟧: raincoat\n- ⟦{長靴|ながぐつ}→長靴：17966_nagagutsu⟧: rain boots\n\nCOMMON COLLOCATIONS:\n- {雨具|あまぐ}⟦を→を：00422_wo⟧⟦{持参|じさん}する→持参する：21143_jisansuru⟧: to bring rain gear\n- {雨具|あまぐ}⟦を→を：00422_wo⟧⟦{用意|ようい}する→用意する：22428_youisuru⟧: to prepare rain gear\n- {雨具|あまぐ}{必携|ひっけい}: rain gear required\n\nREGISTER:\nCommonly seen in outdoor activity guides, hiking instructions, and weather-related notices. Slightly formal compared to casual speech, where people would just say ⟦{傘|かさ}→傘：00639_kasa⟧ (umbrella) or カッパ (raincoat).",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23048_kappa",
+      "reading": "かっぱ",
+      "headword": "{合羽|かっぱ}",
+      "label": "raincoat"
+    }
+  ],
   "metadata": {
     "created": "2026-03-06T08:54:38Z",
-    "modified": "2026-04-06T04:02:27Z",
+    "modified": "2026-09-02T04:01:40Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["weather", "clothing"]
+      "semantic": [
+        "weather",
+        "clothing"
+      ]
     }
   }
 }

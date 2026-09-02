@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "20537_geijutsukanshou_ex1",
-      "japanese": "{芸術鑑賞|げいじゅつかんしょう}が{趣味|しゅみ}です。",
+      "japanese": "{芸術鑑賞|げいじゅつかんしょう}⟦が→が：00051_ga⟧⟦{趣味|しゅみ}→趣味：00889_shumi⟧です。",
       "english": "Art appreciation is my hobby.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "20537_geijutsukanshou_ex2",
-      "japanese": "{学校|がっこう}で{芸術鑑賞|げいじゅつかんしょう}の{授業|じゅぎょう}がある。",
+      "japanese": "⟦{学校|がっこう}→学校：00055_gakkou⟧⟦で→で：00502_de⟧{芸術鑑賞|げいじゅつかんしょう}⟦の→の：09472_no⟧⟦{授業|じゅぎょう}→授業：00781_jugyou⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There is an art appreciation class at school.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "20537_geijutsukanshou_ex3",
-      "japanese": "{休日|きゅうじつ}は{美術館|びじゅつかん}で{芸術鑑賞|げいじゅつかんしょう}をして{過|す}ごすのが{好|す}きだ。",
+      "japanese": "⟦{休日|きゅうじつ}→休日：03028_kyuujitsu⟧⟦は→は：00079_ha⟧⟦{美術館|びじゅつかん}→美術館：01717_bijutsukan⟧⟦で→で：00502_de⟧{芸術鑑賞|げいじゅつかんしょう}⟦を→を：00422_wo⟧⟦して→する：00392_suru⟧⟦{過|す}ごす→過ごす：02062_sugosu⟧⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦{好|す}き→好き：02355_suki⟧だ。",
       "english": "I like spending my days off appreciating art at museums.",
       "sense_numbers": [
         1
@@ -43,8 +43,17 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {芸術|げいじゅつ} (art, the arts) and {鑑賞|かんしょう} (appreciation, viewing). Used for all forms of art — visual arts, music, theater, film, etc.\n\nCOMMON COLLOCATIONS:\n- {芸術鑑賞|げいじゅつかんしょう}の{時間|じかん}: art appreciation time\n- {芸術鑑賞|げいじゅつかんしょう}{教室|きょうしつ}: art appreciation class\n- {芸術鑑賞|げいじゅつかんしょう}{会|かい}: art appreciation event\n\nRELATED TERMS:\n- {音楽鑑賞|おんがくかんしょう}: music appreciation\n- {映画鑑賞|えいがかんしょう}: film appreciation / watching movies\n- {観賞|かんしょう}: appreciation (for natural beauty, flowers, fish) — note the different kanji from {鑑賞|かんしょう}\n\nKANJI NOTE:\n{鑑賞|かんしょう} (with {鑑|かん}) is used for art and cultural works, while {観賞|かんしょう} (with {観|かん}) is used for natural beauty like flowers and fish. This is a common source of confusion.",
+  "notes": "Composed of ⟦{芸術|げいじゅつ}→芸術：02712_geijutsu⟧ (art, the arts) and ⟦{鑑賞|かんしょう}→鑑賞：14516_kanshou⟧ (appreciation, viewing). Used for all forms of art — visual arts, music, theater, film, etc.\n\nCOMMON COLLOCATIONS:\n- {芸術鑑賞|げいじゅつかんしょう}⟦の→の：09472_no⟧⟦{時間|じかん}→時間：00468_jikan⟧: art appreciation time\n- {芸術鑑賞|げいじゅつかんしょう}⟦{教室|きょうしつ}→教室：00794_kyoushitsu⟧: art appreciation class\n- {芸術鑑賞|げいじゅつかんしょう}⟦{会|かい}→会：27493_kai⟧: art appreciation event\n\nRELATED WORDS:\n- {音楽鑑賞|おんがくかんしょう}: music appreciation\n- {映画鑑賞|えいがかんしょう}: film appreciation / watching movies\n- ⟦{観賞|かんしょう}→観賞：14195_kanshou⟧: appreciation (for natural beauty, flowers, fish) — note the different kanji from ⟦{鑑賞|かんしょう}→鑑賞：14516_kanshou⟧\n\nWRITING:\n⟦{鑑賞|かんしょう}→鑑賞：14516_kanshou⟧ (with {鑑|かん}) is used for art and cultural works, while ⟦{観賞|かんしょう}→観賞：14195_kanshou⟧ (with {観|かん}) is used for natural beauty like flowers and fish. This is a common source of confusion.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "14195_kanshou",
+      "reading": "かんしょう",
+      "headword": "{観賞|かんしょう}",
+      "label": "appreciation"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,7 +70,7 @@
       "verb_class": "suru"
     },
     "created": "2026-03-29T17:07:40Z",
-    "modified": "2026-03-29T17:07:40Z"
+    "modified": "2026-09-02T04:02:00Z"
   },
   "conjugation": {
     "type": "suru",

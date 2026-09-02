@@ -3,7 +3,7 @@
   "headword": "{草食系|そうしょくけい}",
   "reading": "そうしょくけい",
   "romaji": "soushokukei",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "\"herbivore\" type; passive, gentle, unassertive type (especially regarding romantic relationships)",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "27138_soushokukei_ex1",
-      "japanese": "{彼|かれ}は{草食系|そうしょくけい}だから{自分|じぶん}からは{誘|さそ}わない。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{草食系|そうしょくけい}だ⟦から→から：00504_kara⟧⟦{自分|じぶん}→自分：02887_jibun⟧⟦から→から：00504_kara⟧⟦は→は：00079_ha⟧⟦{誘|さそ}わない→誘う：01947_sasou⟧。",
       "english": "He's the passive type, so he won't make the first move.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "27138_soushokukei_ex2",
-      "japanese": "{草食系|そうしょくけい}{男子|だんし}が{増|ふ}えていると{言|い}われている。",
+      "japanese": "{草食系|そうしょくけい}⟦{男子|だんし}→男子：03425_danshi⟧⟦が→が：00051_ga⟧⟦{増|ふ}えている→増える：01183_fueru⟧⟦と→と：00512_to⟧⟦{言|い}われている→言う：00515_iu⟧。",
       "english": "It's said that passive-type men are increasing.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "27138_soushokukei_ex3",
-      "japanese": "{草食系|そうしょくけい}と{肉食系|にくしょくけい}、あなたはどっち？",
+      "japanese": "{草食系|そうしょくけい}⟦と→と：00512_to⟧⟦{肉食系|にくしょくけい}→肉食系：24331_nikushokukei⟧、⟦あなた→あなた：02565_anata⟧⟦は→は：00079_ha⟧⟦どっち→どっち：02922_docchi⟧？",
       "english": "Are you the passive type or the aggressive type?",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "A cultural buzzword that became widely used around 2008–2009. Literally means \"herbivore type,\" contrasting with {肉食系|にくしょくけい} (\"carnivore type\" — aggressive, assertive in romance). Originally described men who were gentle, non-aggressive, and uninterested in actively pursuing romantic relationships, but usage has broadened to describe passive personality types generally.\n\nCOMMON COLLOCATIONS:\n- {草食系|そうしょくけい}{男子|だんし}: herbivore-type man (passive man)\n- {草食系|そうしょくけい}{女子|じょし}: herbivore-type woman\n- {草食系|そうしょくけい}と{肉食系|にくしょくけい}: passive type vs. aggressive type\n\nCONTRASTING WORDS:\n- {肉食系|にくしょくけい}: carnivore type — aggressive, assertive in romantic pursuit\n- {絶食系|ぜっしょくけい}: fasting type — even more disinterested in romance than herbivore type\n\nCULTURAL NOTE:\nThe term sparked extensive media discussion about changing gender dynamics in Japanese society. While initially carrying a mildly negative nuance, many people now self-identify positively as {草食系|そうしょくけい}.",
+  "notes": "A cultural buzzword that became widely used around 2008–2009. Literally means \"herbivore type,\" contrasting with ⟦{肉食系|にくしょくけい}→肉食系：24331_nikushokukei⟧ (\"carnivore type\" — aggressive, assertive in romance). Originally described men who were gentle, non-aggressive, and uninterested in actively pursuing romantic relationships, but usage has broadened to describe passive personality types generally.\n\nCOMMON COLLOCATIONS:\n- {草食系|そうしょくけい}⟦{男子|だんし}→男子：03425_danshi⟧: herbivore-type man (passive man)\n- {草食系|そうしょくけい}⟦{女子|じょし}→女子：03350_joshi⟧: herbivore-type woman\n- {草食系|そうしょくけい}⟦と→と：00512_to⟧⟦{肉食系|にくしょくけい}→肉食系：24331_nikushokukei⟧: passive type vs. aggressive type\n\nSIMILAR WORDS:\n- ⟦{肉食系|にくしょくけい}→肉食系：24331_nikushokukei⟧: carnivore type — aggressive, assertive in romantic pursuit\n- {絶食系|ぜっしょくけい}: fasting type — even more disinterested in romance than herbivore type\n\nCULTURAL NOTE:\nThe term sparked extensive media discussion about changing gender dynamics in Japanese society. While initially carrying a mildly negative nuance, many people now self-identify positively as {草食系|そうしょくけい}.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24331_nikushokukei",
+      "reading": "にくしょくけい",
+      "headword": "{肉食系|にくしょくけい}",
+      "label": "carnivore type"
+    },
+    {
+      "type": "related",
+      "target_id": "19749_soushokudoubutsu",
+      "reading": "そうしょくどうぶつ",
+      "headword": "{草食動物|そうしょくどうぶつ}",
+      "label": "herbivore"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,6 +77,6 @@
       ]
     },
     "created": "2026-05-07T12:20:14Z",
-    "modified": "2026-08-07T06:31:23Z"
+    "modified": "2026-09-02T04:02:29Z"
   }
 }

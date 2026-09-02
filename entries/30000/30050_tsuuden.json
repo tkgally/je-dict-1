@@ -3,7 +3,7 @@
   "headword": "{通電|つうでん}",
   "reading": "つうでん",
   "romaji": "tsuuden",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "energizing; passing an electric current",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30050_tsuuden_ex1",
-      "japanese": "{装置|そうち}に{通電|つうでん}する。",
+      "japanese": "⟦{装置|そうち}→装置：03318_souchi⟧⟦に→に：00314_ni⟧{通電|つうでん}⟦する→する：00392_suru⟧。",
       "english": "Energize the device.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30050_tsuuden_ex2",
-      "japanese": "{通電|つうでん}すると、ランプが{点灯|てんとう}する。",
+      "japanese": "{通電|つうでん}⟦する→する：00392_suru⟧⟦と→と：00512_to⟧、⟦ランプ→ランプ：11260_ranpu⟧⟦が→が：00051_ga⟧⟦{点灯|てんとう}する→点灯する：20211_tentousuru⟧。",
       "english": "When you apply current, the lamp lights up.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30050_tsuuden_ex3",
-      "japanese": "{配線|はいせん}を{確認|かくにん}してから{通電|つうでん}してください。",
+      "japanese": "⟦{配線|はいせん}→配線：07862_haisen⟧⟦を→を：00422_wo⟧⟦{確認|かくにん}して→確認する：25332_kakuninsuru⟧⟦から→から：00504_kara⟧{通電|つうでん}⟦して→する：00392_suru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please check the wiring before turning on the power.",
       "sense_numbers": [
         1
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "Refers to letting electricity flow into a circuit or appliance, typically to power it up or test it. Takes する to become a verb.\n\nCOMMON COLLOCATIONS:\n- {通電|つうでん}{確認|かくにん}: checking that current flows\n- {通電|つうでん}{状態|じょうたい}: a powered, live state\n- {通電|つうでん}{試験|しけん}: an energization test\n\nSIMILAR WORDS:\n- {導電|どうでん}: electrical conduction — the property of conducting, not the act of switching on\n- {停電|ていでん}: power outage — a loss of electricity supply",
+  "notes": "Refers to letting electricity flow into a circuit or appliance, typically to power it up or test it. Takes ⟦する→する：00392_suru⟧ to become a verb.\n\nCOMMON COLLOCATIONS:\n- {通電|つうでん}⟦{確認|かくにん}→確認：00158_kakunin⟧: checking that current flows\n- {通電|つうでん}⟦{状態|じょうたい}→状態：03345_joutai⟧: a powered, live state\n- {通電|つうでん}⟦{試験|しけん}→試験：01422_shiken⟧: an energization test\n\nSIMILAR WORDS:\n- ⟦{導電|どうでん}→導電：30048_douden⟧: electrical conduction — the property of conducting, not the act of switching on\n- ⟦{停電|ていでん}→停電：03544_teiden⟧: power outage — a loss of electricity supply",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "30048_douden",
+      "reading": "どうでん",
+      "headword": "導電",
+      "label": "electrical conduction"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03544_teiden",
+      "reading": "ていでん",
+      "headword": "{停電|ていでん}",
+      "label": "power outage"
+    },
+    {
+      "type": "antonym",
+      "target_id": "26030_danden",
+      "reading": "だんでん",
+      "headword": "{断電|だんでん}",
+      "label": "power outage"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26620_dendou",
+      "reading": "でんどう",
+      "headword": "{電導|でんどう}",
+      "label": "electrical conduction"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -54,7 +84,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "science"
       ],
@@ -64,7 +94,7 @@
       "verb_class": "suru"
     },
     "created": "2026-07-23T00:19:28Z",
-    "modified": "2026-07-23T00:19:28Z"
+    "modified": "2026-09-02T04:02:38Z"
   },
   "conjugation": {
     "type": "suru",

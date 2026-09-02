@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "19646_tsuikasuru_ex1",
-      "japanese": "{注文|ちゅうもん}を{追加|ついか}する。",
+      "japanese": "⟦{注文|ちゅうもん}→注文：03485_chuumon⟧⟦を→を：00422_wo⟧{追加|ついか}する。",
       "english": "To add an order.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "19646_tsuikasuru_ex2",
-      "japanese": "{新|あたら}しい{機能|きのう}が{追加|ついか}された。",
+      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦{機能|きのう}→機能：13165_kinou⟧⟦が→が：00051_ga⟧{追加|ついか}された。",
       "english": "A new feature was added.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "19646_tsuikasuru_ex3",
-      "japanese": "{予算|よさん}を{追加|ついか}しないと、プロジェクトが{完成|かんせい}しない。",
+      "japanese": "⟦{予算|よさん}→予算：03663_yosan⟧⟦を→を：00422_wo⟧{追加|ついか}しない⟦と→と：00512_to⟧、⟦プロジェクト→プロジェクト：06764_purojekuto⟧⟦が→が：00051_ga⟧⟦{完成|かんせい}しない→完成する：25528_kanseisuru⟧。",
       "english": "The project won't be completed unless we add more budget.",
       "sense_numbers": [
         1
@@ -134,11 +134,40 @@
       "notes": null
     }
   ],
-  "notes": "An extremely common word in daily life, business, and technology. The noun form {追加|ついか} is used constantly as a modifier.\n\nCOMMON COLLOCATIONS:\n- {追加|ついか}{料金|りょうきん}: additional charge\n- {追加|ついか}{注文|ちゅうもん}: additional order\n- {追加|ついか}{購入|こうにゅう}: additional purchase\n- {追加|ついか}{予算|よさん}: supplementary budget\n- {追加|ついか}{情報|じょうほう}: additional information\n\nSIMILAR WORDS:\n- {足|た}す: to add — everyday word, often for math or adding ingredients\n- {追加|ついか}する: to add — implies supplementing something that already exists\n- {付|つ}け{加|くわ}える: to add on — adds a remark, explanation, or detail on top of what was already said",
-  "cross_references": [],
+  "notes": "An extremely common word in daily life, business, and technology. The noun form ⟦{追加|ついか}→追加：04060_tsuika⟧ is used constantly as a modifier.\n\nCOMMON COLLOCATIONS:\n- ⟦{追加|ついか}{料金|りょうきん}→追加料金：22313_tsuikaryoukin⟧: additional charge\n- ⟦{追加|ついか}{注文|ちゅうもん}→追加注文：09727_tsuikachuumon⟧: additional order\n- ⟦{追加|ついか}→追加：04060_tsuika⟧⟦{購入|こうにゅう}→購入：03057_kounyuu⟧: additional purchase\n- ⟦{追加|ついか}{予算|よさん}→追加予算：23371_tsuikayosan⟧: supplementary budget\n- ⟦{追加|ついか}→追加：04060_tsuika⟧⟦{情報|じょうほう}→情報：03348_jouhou⟧: additional information\n\nSIMILAR WORDS:\n- ⟦{足|た}す→足す：01168_tasu⟧: to add — everyday word, often for math or adding ingredients\n- {追加|ついか}する: to add — implies supplementing something that already exists\n- ⟦{付|つ}け{加|くわ}える→付け加える：11520_tsukekuwaeru⟧: to add on — adds a remark, explanation, or detail on top of what was already said",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01168_tasu",
+      "reading": "たす",
+      "headword": "{足|た}す",
+      "label": "to add"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11520_tsukekuwaeru",
+      "reading": "つけくわえる",
+      "headword": "{付|つ}け{加|くわ}える",
+      "label": "to add on"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06863_tsuketasu",
+      "reading": "つけたす",
+      "headword": "{付|つ}け{足|た}す",
+      "label": "to add on"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25240_hojuusuru",
+      "reading": "ほじゅうする",
+      "headword": "{補充|ほじゅう}する",
+      "label": "to replenish"
+    }
+  ],
   "metadata": {
     "created": "2026-03-26T09:39:35Z",
-    "modified": "2026-03-29T03:08:58Z",
+    "modified": "2026-09-02T04:01:56Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

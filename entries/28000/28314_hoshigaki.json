@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28314_hoshigaki_ex1",
-      "japanese": "{干|ほ}し{柿|がき}を{食|た}べた。",
+      "japanese": "{干|ほ}し{柿|がき}⟦を→を：00422_wo⟧⟦{食|た}べた→食べる：00396_taberu⟧。",
       "english": "I ate a dried persimmon.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28314_hoshigaki_ex2",
-      "japanese": "{祖母|そぼ}は{毎年|まいとし}{干|ほ}し{柿|がき}を{作|つく}る。",
+      "japanese": "⟦{祖母|そぼ}→祖母：00813_sobo⟧⟦は→は：00079_ha⟧⟦{毎年|まいとし}→毎年：00731_maitoshi⟧{干|ほ}し{柿|がき}⟦を→を：00422_wo⟧⟦{作|つく}る→作る：00481_tsukuru⟧。",
       "english": "My grandmother makes dried persimmons every year.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28314_hoshigaki_ex3",
-      "japanese": "{軒先|のきさき}に{柿|かき}が{吊|つる}されて、{干|ほ}し{柿|がき}になるのを{待|ま}っている。",
+      "japanese": "⟦{軒先|のきさき}→軒先：08402_nokisaki⟧⟦に→に：00314_ni⟧⟦{柿|かき}→柿：04384_kaki⟧⟦が→が：00051_ga⟧{吊|つる}されて、{干|ほ}し{柿|がき}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦の→の：09472_no⟧⟦を→を：00422_wo⟧⟦{待|ま}っている→待つ：00469_matsu⟧。",
       "english": "Persimmons hang under the eaves, waiting to become dried persimmons.",
       "sense_numbers": [
         1
@@ -44,8 +44,52 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {干|ほ}す (to dry) + {柿|かき} (persimmon), with the kaki reading shifting to gaki through rendaku.\n\nCOMMON COLLOCATIONS:\n- {干|ほ}し{柿|がき}を{作|つく}る: to make dried persimmons\n- {干|ほ}し{柿|がき}を{吊|つる}す: to hang persimmons to dry\n- {甘|あま}い{干|ほ}し{柿|がき}: sweet dried persimmon\n\nCULTURAL CONTEXT:\nA classic autumn-to-winter food. Peeled astringent persimmons are hung from strings under eaves; over weeks they lose moisture, the tannins break down, and natural sugars crystallize on the surface as a white bloom. Often given as gifts and used in osechi New Year cuisine.",
+  "notes": "Compound of ⟦{干|ほ}す→干す：00115_hosu⟧ (to dry) + ⟦{柿|かき}→柿：04384_kaki⟧ (persimmon), with the kaki reading shifting to gaki through rendaku.\n\nCOMMON COLLOCATIONS:\n- {干|ほ}し{柿|がき}⟦を→を：00422_wo⟧⟦{作|つく}る→作る：00481_tsukuru⟧: to make dried persimmons\n- {干|ほ}し{柿|がき}⟦を→を：00422_wo⟧{吊|つる}す: to hang persimmons to dry\n- ⟦{甘|あま}い→甘い：00617_amai⟧{干|ほ}し{柿|がき}: sweet dried persimmon\n\nCULTURAL NOTE:\nA classic autumn-to-winter food. Peeled astringent persimmons are hung from strings under eaves; over weeks they lose moisture, the tannins break down, and natural sugars crystallize on the surface as a white bloom. Often given as gifts and used in osechi New Year cuisine.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20308_hoshibudou",
+      "reading": "ほしぶどう",
+      "headword": "{干|ほ}しぶどう",
+      "label": "raisins"
+    },
+    {
+      "type": "related",
+      "target_id": "20795_doraifuruutsu",
+      "reading": "どらいふるーつ",
+      "headword": "ドライフルーツ",
+      "label": "dried fruit"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23987_kansoukajitsu",
+      "reading": "かんそうかじつ",
+      "headword": "{乾燥果実|かんそうかじつ}",
+      "label": "dried fruit"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26765_hoshikudamono",
+      "reading": "ほしくだもの",
+      "headword": "{干|ほ}し{果物|くだもの}",
+      "label": "dried fruit"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27688_shibugaki",
+      "reading": "しぶがき",
+      "headword": "{渋|しぶ}{柿|がき}",
+      "label": "astringent persimmon"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30095_amagaki",
+      "reading": "あまがき",
+      "headword": "{甘柿|あまがき}",
+      "label": "sweet persimmon"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +97,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "food",
         "culture"
@@ -61,6 +105,6 @@
       "domain": []
     },
     "created": "2026-05-29T02:10:04Z",
-    "modified": "2026-05-29T02:10:04Z"
+    "modified": "2026-09-02T04:02:33Z"
   }
 }

@@ -3,7 +3,7 @@
   "id": "15231_nankai",
   "headword": "{難解|なんかい}",
   "reading": "なんかい",
-  "part_of_speech": "adjective (na)",
+  "part_of_speech": "na-adjective",
   "gloss": "difficult to understand; abstruse",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "15231_nankai_ex1",
-      "japanese": "この{本|ほん}は{難解|なんかい}だ。",
+      "japanese": "⟦この→この：00962_kono⟧{本|ほん}⟦は→は：00079_ha⟧{難解|なんかい}だ。",
       "english": "This book is difficult to understand.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "15231_nankai_ex2",
-      "japanese": "{難解|なんかい}な{文章|ぶんしょう}を{何度|なんど}も{読|よ}み{返|かえ}した。",
+      "japanese": "{難解|なんかい}な⟦{文章|ぶんしょう}→文章：02957_bunshou⟧⟦を→を：00422_wo⟧⟦{何度|なんど}→何度：17592_nando⟧⟦も→も：00484_mo⟧⟦{読|よ}み{返|かえ}した→読み返す：07954_yomikaesu⟧。",
       "english": "I reread the abstruse passage many times.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "15231_nankai_ex3",
-      "japanese": "{哲学|てつがく}の{論文|ろんぶん}は{難解|なんかい}な{用語|ようご}が{多|おお}くて、{専門家|せんもんか}でも{理解|りかい}に{苦|くる}しむことがある。",
+      "japanese": "⟦{哲学|てつがく}→哲学：03548_tetsugaku⟧⟦の→の：09472_no⟧⟦{論文|ろんぶん}→論文：03787_ronbun⟧⟦は→は：00079_ha⟧{難解|なんかい}な⟦{用語|ようご}→用語：04086_yougo⟧⟦が→が：00051_ga⟧⟦{多|おお}くて→多い：01127_ooi⟧、⟦{専門家|せんもんか}→専門家：03088_senmonka⟧で⟦も→も：00484_mo⟧⟦{理解|りかい}→理解：03674_rikai⟧⟦に→に：00314_ni⟧⟦{苦|くる}しむ→苦しむ：01938_kurushimu⟧こと⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "Philosophy papers contain so much abstruse terminology that even experts sometimes struggle to understand them.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,26 @@
       ]
     }
   ],
-  "notes": "FORMATION: {難|なん} (difficult) + {解|かい} (understand, solve). Literally 'difficult to solve.'\n\nUSAGE: {難解|なんかい} is a somewhat formal word, commonly used in written Japanese and academic contexts. It modifies nouns with な.\n\nCOMMON COLLOCATIONS:\n- {難解|なんかい}な{文章|ぶんしょう}: abstruse writing\n- {難解|なんかい}な{問題|もんだい}: a difficult problem\n- {難解|なんかい}な{用語|ようご}: obscure terminology\n- {難解|なんかい}な{作品|さくひん}: a difficult work (of art/literature)\n\nSIMILAR WORDS:\n- {難解|なんかい}: emphasizes intellectual difficulty of comprehension\n- {難|むずか}しい: general-purpose 'difficult' (broader usage)\n- {複雑|ふくざつ}: complex, complicated (focuses on structural complexity)",
-  "cross_references": [],
+  "notes": "FORMATION: ⟦{難|なん}→難：00452_nan⟧ (difficult) + {解|かい} (understand, solve). Literally 'difficult to solve.'\n\nUSAGE: {難解|なんかい} is a somewhat formal word, commonly used in written Japanese and academic contexts. It modifies nouns with な.\n\nCOMMON COLLOCATIONS:\n- {難解|なんかい}な⟦{文章|ぶんしょう}→文章：02957_bunshou⟧: abstruse writing\n- {難解|なんかい}な⟦{問題|もんだい}→問題：00797_mondai⟧: a difficult problem\n- {難解|なんかい}な⟦{用語|ようご}→用語：04086_yougo⟧: obscure terminology\n- {難解|なんかい}な⟦{作品|さくひん}→作品：02776_sakuhin⟧: a difficult work (of art/literature)\n\nSIMILAR WORDS:\n- {難解|なんかい}: emphasizes intellectual difficulty of comprehension\n- ⟦{難|むずか}しい→難しい：00517_muzukashii⟧: general-purpose 'difficult' (broader usage)\n- ⟦{複雑|ふくざつ}→複雑：01115_fukuzatsu⟧: complex, complicated (focuses on structural complexity)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00517_muzukashii",
+      "reading": "むずかしい",
+      "headword": "{難|むずか}しい",
+      "label": "general-purpose 'difficult'"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01115_fukuzatsu",
+      "reading": "ふくざつ",
+      "headword": "{複雑|ふくざつ}",
+      "label": "complex, complicated"
+    }
+  ],
   "metadata": {
     "created": "2026-03-05T10:19:06Z",
-    "modified": "2026-07-15T18:53:39Z",
+    "modified": "2026-09-02T04:01:40Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

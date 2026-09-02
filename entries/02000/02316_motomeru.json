@@ -2,7 +2,7 @@
   "id": "02316_motomeru",
   "headword": "{求|もと}める",
   "reading": "もとめる",
-  "part_of_speech": "ichidan verb",
+  "part_of_speech": "verb (ichidan)",
   "gloss": "to seek, to request",
   "definitions": [
     {
@@ -54,7 +54,7 @@
     },
     {
       "id": "02316_motomeru_ex4",
-      "japanese": "⟦{答|こた}え→答え：00790_kotae⟧⟦を→を：00422_wo⟧{求|もと}めている。",
+      "japanese": "⟦{答|こた}え→答え：00790_kotae⟧⟦を→を：00422_wo⟧{求|もと}めて⟦いる→いる：00495_iru⟧。",
       "english": "I am searching for an answer.",
       "notes": null,
       "has_audio": false,
@@ -94,7 +94,7 @@
     },
     {
       "id": "02316_motomeru_ex8",
-      "japanese": "⟦{理解|りかい}→理解：03674_rikai⟧⟦を→を：00422_wo⟧{求|もと}めている。",
+      "japanese": "⟦{理解|りかい}→理解：03674_rikai⟧⟦を→を：00422_wo⟧{求|もと}めて⟦いる→いる：00495_iru⟧。",
       "english": "I am seeking understanding.",
       "notes": null,
       "has_audio": false,
@@ -173,7 +173,7 @@
       ]
     }
   ],
-  "notes": "{求|もと}める is an ichidan verb with three main meanings: seek, request, and buy (formal).\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- Takes ⟦を→を：00422_wo⟧ particle for the object sought\n\nCOMMON PATTERNS:\n- ⟦{幸|しあわ}せ→幸せ：01420_shiawase⟧⟦を→を：00422_wo⟧{求|もと}める: to seek happiness\n- ⟦{助|たす}け→助け：07777_tasuke⟧⟦を→を：00422_wo⟧{求|もと}める: to seek help\n- ⟦{許可|きょか}→許可：00259_kyoka⟧⟦を→を：00422_wo⟧{求|もと}める: to request permission\n- ⟦{説明|せつめい}→説明：01449_setsumei⟧⟦を→を：00422_wo⟧{求|もと}める: to demand an explanation\n\nFORMAL 'BUY' USAGE:\nThe meaning \"to buy/purchase\" is formal and often appears in commercial contexts:\n- お{求|もと}めやすい⟦{価格|かかく}→価格：00147_kakaku⟧: affordable price\n- どちらで{求|もと}めましたか: Where did you purchase it?\n\nSIMILAR WORDS:\n- ⟦{探|さが}す→探す：00493_sagasu⟧: to search for (physical searching)\n- ⟦{頼|たの}む→頼む：01104_tanomu⟧: to request (less formal)\n- ⟦{買|か}う→買う：00489_kau⟧: to buy (everyday usage)",
+  "notes": "{求|もと}める is an ichidan verb with three main meanings: seek, request, and buy (formal).\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- Takes ⟦を→を：00422_wo⟧ particle for the object sought\n\nCOMMON PATTERNS:\n- ⟦{幸|しあわ}せ→幸せ：01420_shiawase⟧⟦を→を：00422_wo⟧{求|もと}める: to seek happiness\n- ⟦{助|たす}け→助け：07777_tasuke⟧⟦を→を：00422_wo⟧{求|もと}める: to seek help\n- ⟦{許可|きょか}→許可：00259_kyoka⟧⟦を→を：00422_wo⟧{求|もと}める: to request permission\n- ⟦{説明|せつめい}→説明：01449_setsumei⟧⟦を→を：00422_wo⟧{求|もと}める: to demand an explanation\n\nFORMAL 'BUY' USAGE:\nThe meaning \"to buy/purchase\" is formal and often appears in commercial contexts:\n- お{求|もと}めやすい⟦{価格|かかく}→価格：00147_kakaku⟧: affordable price\n- ⟦どちら→どちら：00927_dochira⟧⟦で→で：00502_de⟧{求|もと}めました⟦か→か：09473_ka⟧: Where did you purchase it?\n\nSIMILAR WORDS:\n- ⟦{探|さが}す→探す：00493_sagasu⟧: to search for (physical searching)\n- ⟦{頼|たの}む→頼む：01104_tanomu⟧: to request (less formal)\n- ⟦{買|か}う→買う：00489_kau⟧: to buy (everyday usage)",
   "cross_references": [
     {
       "type": "synonym",
@@ -195,11 +195,18 @@
       "reading": "かう",
       "headword": "{買|か}う",
       "label": "to buy (everyday)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25533_youkyuusuru",
+      "reading": "ようきゅうする",
+      "headword": "{要求|ようきゅう}する",
+      "label": "to demand"
     }
   ],
   "metadata": {
     "created": "2026-01-09T08:21:57Z",
-    "modified": "2026-05-20T13:32:30Z",
+    "modified": "2026-09-02T04:01:01Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "core",
     "tags": {

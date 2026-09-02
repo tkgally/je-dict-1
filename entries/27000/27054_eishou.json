@@ -3,7 +3,7 @@
   "headword": "{詠唱|えいしょう}",
   "reading": "えいしょう",
   "romaji": "eishou",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "chanting; recitation",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "27054_eishou_ex1",
-      "japanese": "{僧侶|そうりょ}が{経|きょう}を{詠唱|えいしょう}している。",
+      "japanese": "⟦{僧侶|そうりょ}→僧侶：11529_souryo⟧⟦が→が：00051_ga⟧⟦{経|きょう}→経：24866_kyou⟧⟦を→を：00422_wo⟧{詠唱|えいしょう}⟦している→する：00392_suru⟧。",
       "english": "The monk is chanting a sutra.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "27054_eishou_ex2",
-      "japanese": "{詩|し}の{詠唱|えいしょう}コンテストに{参加|さんか}した。",
+      "japanese": "⟦{詩|し}→詩：02139_shi⟧⟦の→の：09472_no⟧{詠唱|えいしょう}⟦コンテスト→コンテスト：03843_kontesuto⟧⟦に→に：00314_ni⟧⟦{参加|さんか}した→参加する：25408_sankasuru⟧。",
       "english": "I participated in a poetry recitation contest.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "27054_eishou_ex3",
-      "japanese": "そのゲームでは{魔法|まほう}を{使|つか}うために{長|なが}い{詠唱|えいしょう}が{必要|ひつよう}で、{途中|とちゅう}で{妨害|ぼうがい}されると{失敗|しっぱい}する。",
+      "japanese": "⟦その→その：00993_sono⟧⟦ゲーム→ゲーム：03842_geemu⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{魔法|まほう}→魔法：14640_mahou⟧⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧⟦{長|なが}い→長い：00491_nagai⟧{詠唱|えいしょう}⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧で、⟦{途中|とちゅう}→途中：01684_tochuu⟧⟦で→で：00502_de⟧⟦{妨害|ぼうがい}→妨害：07632_bougai⟧⟦される→する：00392_suru⟧⟦と→と：00512_to⟧⟦{失敗|しっぱい}→失敗：01636_shippai⟧⟦する→する：00392_suru⟧。",
       "english": "In that game, using magic requires a long chant, and if interrupted midway, it fails.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {詠|えい} (to recite/compose poetry) and {唱|しょう} (to chant/recite). Originally referred to the recitation of poems or religious texts, but has gained widespread modern use in anime, light novels, and RPG games where characters chant incantations to cast spells.\n\nCOMMON COLLOCATIONS:\n- {詠唱|えいしょう}する — to chant; to recite\n- {詠唱|えいしょう}{破棄|はき} — chant cancellation (skipping the incantation, common in fantasy media)\n- {無詠唱|むえいしょう} — chantless (casting without incantation)\n- {詠唱|えいしょう}{時間|じかん} — chanting time\n\nSIMILAR WORDS:\n- {朗読|ろうどく} — reading aloud; recitation (neutral, used for reading prose or poetry aloud)\n- {読経|どきょう} — sutra chanting (specifically Buddhist scripture recitation)\n- {唱|とな}える — to chant/recite (verb form; more general)",
+  "notes": "A compound of {詠|えい} (to recite/compose poetry) and {唱|しょう} (to chant/recite). Originally referred to the recitation of poems or religious texts, but has gained widespread modern use in anime, light novels, and RPG games where characters chant incantations to cast spells.\n\nCOMMON COLLOCATIONS:\n- {詠唱|えいしょう}⟦する→する：00392_suru⟧ — to chant; to recite\n- {詠唱|えいしょう}⟦{破棄|はき}→破棄：08642_haki⟧ — chant cancellation (skipping the incantation, common in fantasy media)\n- {無詠唱|むえいしょう} — chantless (casting without incantation)\n- {詠唱|えいしょう}⟦{時間|じかん}→時間：00468_jikan⟧ — chanting time\n\nSIMILAR WORDS:\n- ⟦{朗読|ろうどく}→朗読：14875_roudoku⟧ — reading aloud; recitation (neutral, used for reading prose or poetry aloud)\n- ⟦{読経|どきょう}→読経：22912_dokyou⟧ — sutra chanting (specifically Buddhist scripture recitation)\n- ⟦{唱|とな}える→唱える：10467_tonaeru⟧ — to chant/recite (verb form; more general)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14875_roudoku",
+      "reading": "ろうどく",
+      "headword": "{朗読|ろうどく}",
+      "label": "reading aloud"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22912_dokyou",
+      "reading": "どきょう",
+      "headword": "{読経|どきょう}",
+      "label": "sutra chanting"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10467_tonaeru",
+      "reading": "となえる",
+      "headword": "{唱|とな}える",
+      "label": "to chant/recite (verb form"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,7 +84,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-06T15:12:55Z",
-    "modified": "2026-05-06T15:12:55Z"
+    "modified": "2026-09-02T04:02:28Z"
   },
   "conjugation": {
     "type": "suru",

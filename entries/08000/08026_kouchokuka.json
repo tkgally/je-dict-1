@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "08026_kouchokuka_ex1",
-      "japanese": "{組織|そしき}の{硬直化|こうちょくか}を{防|ふせ}ぐ。",
+      "japanese": "⟦{組織|そしき}→組織：03320_soshiki⟧⟦の→の：09472_no⟧{硬直化|こうちょくか}⟦を→を：00422_wo⟧⟦{防|ふせ}ぐ→防ぐ：02409_fusegu⟧。",
       "english": "To prevent organizational rigidity.",
       "sense_numbers": [
         1
@@ -114,7 +114,7 @@
     },
     {
       "id": "08026_kouchokuka_ex2",
-      "japanese": "{思考|しこう}が{硬直化|こうちょくか}している。",
+      "japanese": "⟦{思考|しこう}→思考：10071_shikou⟧⟦が→が：00051_ga⟧{硬直化|こうちょくか}⟦している→する：00392_suru⟧。",
       "english": "Thinking has become rigid.",
       "sense_numbers": [
         1
@@ -124,7 +124,7 @@
     },
     {
       "id": "08026_kouchokuka_ex3",
-      "japanese": "{制度|せいど}の{硬直化|こうちょくか}が{問題視|もんだいし}されている。",
+      "japanese": "⟦{制度|せいど}→制度：03291_seido⟧⟦の→の：09472_no⟧{硬直化|こうちょくか}⟦が→が：00051_ga⟧{問題視|もんだいし}⟦されている→する：00392_suru⟧。",
       "english": "The rigidity of the system is being criticized.",
       "sense_numbers": [
         1
@@ -133,7 +133,23 @@
       "notes": null
     }
   ],
-  "notes": "{硬直化|こうちょくか} describes loss of flexibility and adaptability.\n\nKANJI BREAKDOWN:\n- {硬|こう} (hard, stiff)\n- {直|ちょく} (straight, direct)\n- {化|か} (-ization)\n\nCOMMON CONTEXTS:\n- {組織|そしき}の{硬直化|こうちょくか} (organizational rigidity)\n- {思考|しこう}の{硬直化|こうちょくか} (rigid thinking)\n- {制度|せいど}の{硬直化|こうちょくか} (institutional rigidity)\n- {人事|じんじ}の{硬直化|こうちょくか} (rigid personnel practices)\n\nUSAGE:\n- {硬直化|こうちょくか}する (to become rigid - suru verb)\n- {硬直化|こうちょくか}した (rigid, ossified)\n\nNOTE:\nTypically used with negative connotation to describe organizations or systems that have lost the ability to adapt to change.\n\nRELATED TERMS:\n- {柔軟性|じゅうなんせい} (flexibility - opposite quality)\n- {官僚的|かんりょうてき} (bureaucratic)",
+  "notes": "{硬直化|こうちょくか} describes loss of flexibility and adaptability.\n\nWRITING:\n- {硬|こう} (hard, stiff)\n- {直|ちょく} (straight, direct)\n- ⟦{化|か}→〜化：28335_ka⟧ (-ization)\n\nUSAGE:\n- ⟦{組織|そしき}→組織：03320_soshiki⟧⟦の→の：09472_no⟧{硬直化|こうちょくか} (organizational rigidity)\n- ⟦{思考|しこう}→思考：10071_shikou⟧⟦の→の：09472_no⟧{硬直化|こうちょくか} (rigid thinking)\n- ⟦{制度|せいど}→制度：03291_seido⟧⟦の→の：09472_no⟧{硬直化|こうちょくか} (institutional rigidity)\n- ⟦{人事|じんじ}→人事：00126_jinji⟧⟦の→の：09472_no⟧{硬直化|こうちょくか} (rigid personnel practices)\n- {硬直化|こうちょくか}⟦する→する：00392_suru⟧ (to become rigid - suru verb)\n- {硬直化|こうちょくか}⟦した→する：00392_suru⟧ (rigid, ossified)\nTypically used with negative connotation to describe organizations or systems that have lost the ability to adapt to change.\n\nRELATED WORDS:\n- ⟦{柔軟性|じゅうなんせい}→柔軟性：05796_juunansei⟧ (flexibility - opposite quality)\n- {官僚的|かんりょうてき} (bureaucratic)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "05796_juunansei",
+      "reading": "じゅうなんせい",
+      "headword": "{柔軟性|じゅうなんせい}",
+      "label": "flexibility"
+    },
+    {
+      "type": "related",
+      "target_id": "08072_koteika",
+      "reading": "こていか",
+      "headword": "{固定化|こていか}",
+      "label": "fixation"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -142,6 +158,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "domain": [
         "business",
         "academic"
@@ -153,6 +170,6 @@
       "verb_class": "suru"
     },
     "created": "2026-01-25T00:32:35Z",
-    "modified": "2026-08-11T09:37:41Z"
+    "modified": "2026-09-02T04:01:13Z"
   }
 }

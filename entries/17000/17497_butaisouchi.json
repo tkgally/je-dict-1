@@ -15,41 +15,73 @@
   "examples": [
     {
       "id": "17497_butaisouchi_ex1",
-      "japanese": "{舞台装置|ぶたいそうち}が{見事|みごと}だった。",
+      "japanese": "{舞台装置|ぶたいそうち}⟦が→が：00051_ga⟧⟦{見事|みごと}→見事：03744_migoto⟧だった。",
       "english": "The stage set was splendid.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17497_butaisouchi_ex2",
-      "japanese": "{舞台装置|ぶたいそうち}の{転換|てんかん}がスムーズに{行|おこな}われた。",
+      "japanese": "{舞台装置|ぶたいそうち}⟦の→の：09472_no⟧⟦{転換|てんかん}→転換：19439_tenkan⟧⟦が→が：00051_ga⟧⟦スムーズ→スムーズ：11024_sumuuzu⟧⟦に→に：00314_ni⟧⟦{行|おこな}われた→行う：01238_okonau⟧。",
       "english": "The stage set changes were carried out smoothly.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17497_butaisouchi_ex3",
-      "japanese": "{大掛|おおが}かりな{舞台装置|ぶたいそうち}を{使|つか}った{演出|えんしゅつ}で、{観客|かんきゃく}を{圧倒|あっとう}した。",
+      "japanese": "{大掛|おおが}かりな{舞台装置|ぶたいそうち}⟦を→を：00422_wo⟧⟦{使|つか}った→使う：00473_tsukau⟧⟦{演出|えんしゅつ}→演出：04460_enshutsu⟧⟦で→で：00502_de⟧、⟦{観客|かんきゃく}→観客：02556_kankyaku⟧⟦を→を：00422_wo⟧⟦{圧倒|あっとう}した→圧倒する：17122_attousuru⟧。",
       "english": "The production overwhelmed the audience with its elaborate stage equipment.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nComposed of {舞台|ぶたい} (stage) + {装置|そうち} (device, apparatus). Used both literally for theater production and figuratively in expressions like {戦争|せんそう}の{舞台装置|ぶたいそうち} (the apparatus/setup for war).\n\nCOMMON COLLOCATIONS:\n- {舞台装置|ぶたいそうち}を{組|く}む (to set up the stage)\n- {大掛|おおが}かりな{舞台装置|ぶたいそうち} (elaborate stage equipment)\n- {舞台装置|ぶたいそうち}の{転換|てんかん} (scene change)\n\nRELATED TERMS:\n- {小道具|こどうぐ}: props\n- {大道具|おおどうぐ}: set pieces, large props\n- {演出|えんしゅつ}: direction, production",
-  "cross_references": [],
+  "notes": "USAGE:\nComposed of ⟦{舞台|ぶたい}→舞台：03606_butai⟧ (stage) + ⟦{装置|そうち}→装置：03318_souchi⟧ (device, apparatus). Used both literally for theater production and figuratively in expressions like ⟦{戦争|せんそう}→戦争：01450_sensou⟧⟦の→の：09472_no⟧{舞台装置|ぶたいそうち} (the apparatus/setup for war).\n\nCOMMON COLLOCATIONS:\n- {舞台装置|ぶたいそうち}⟦を→を：00422_wo⟧⟦{組|く}む→組む：02050_kumu⟧ (to set up the stage)\n- {大掛|おおが}かりな{舞台装置|ぶたいそうち} (elaborate stage equipment)\n- {舞台装置|ぶたいそうち}⟦の→の：09472_no⟧⟦{転換|てんかん}→転換：19439_tenkan⟧ (scene change)\n\nRELATED WORDS:\n- ⟦{小道具|こどうぐ}→小道具：12521_kodougu⟧: props\n- ⟦{大道具|おおどうぐ}→大道具：16301_oodougu⟧: set pieces, large props\n- ⟦{演出|えんしゅつ}→演出：04460_enshutsu⟧: direction, production",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "12521_kodougu",
+      "reading": "こどうぐ",
+      "headword": "{小道具|こどうぐ}",
+      "label": "props"
+    },
+    {
+      "type": "related",
+      "target_id": "16301_oodougu",
+      "reading": "おおどうぐ",
+      "headword": "{大道具|おおどうぐ}",
+      "label": "set pieces, large props"
+    },
+    {
+      "type": "related",
+      "target_id": "04460_enshutsu",
+      "reading": "えんしゅつ",
+      "headword": "{演出|えんしゅつ}",
+      "label": "direction, production"
+    }
+  ],
   "metadata": {
     "created": "2026-03-18T04:31:07Z",
-    "modified": "2026-03-18T04:31:07Z",
+    "modified": "2026-09-02T04:01:48Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["leisure"]
+      "semantic": [
+        "leisure"
+      ]
     }
   }
 }

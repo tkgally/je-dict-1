@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "14549_toshibu_ex1",
-      "japanese": "{都市部|としぶ}は{家賃|やちん}が{高|たか}い。",
+      "japanese": "{都市部|としぶ}⟦は→は：00079_ha⟧⟦{家賃|やちん}→家賃：03639_yachin⟧⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧。",
       "english": "Rent is high in urban areas.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14549_toshibu_ex2",
-      "japanese": "{人口|じんこう}が{都市部|としぶ}に{集中|しゅうちゅう}している。",
+      "japanese": "⟦{人口|じんこう}→人口：01618_jinkou⟧⟦が→が：00051_ga⟧{都市部|としぶ}⟦に→に：00314_ni⟧⟦{集中|しゅうちゅう}している→集中する：21908_shuuchuusuru⟧。",
       "english": "The population is concentrated in urban areas.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14549_toshibu_ex3",
-      "japanese": "{都市部|としぶ}と{地方|ちほう}では{生活|せいかつ}のスタイルが{大|おお}きく{異|こと}なる。",
+      "japanese": "{都市部|としぶ}⟦と→と：00512_to⟧⟦{地方|ちほう}→地方：02369_chihou⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{生活|せいかつ}→生活：01443_seikatsu⟧⟦の→の：09472_no⟧⟦スタイル→スタイル：03851_sutairu⟧⟦が→が：00051_ga⟧⟦{大|おお}きく→大きい：00335_ookii⟧⟦{異|こと}なる→異なる：02101_kotonaru⟧。",
       "english": "Lifestyles differ greatly between urban areas and rural regions.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "A compound of {都市|とし} (city) + {部|ぶ} (part/area). Refers to the urbanized part of a region, as opposed to rural or suburban areas.\n\nCOMMON COLLOCATIONS:\n- {都市部|としぶ}に{住|す}む: to live in an urban area\n- {都市部|としぶ}の{人口|じんこう}: urban population\n- {大|おお}{都市部|としぶ}: major metropolitan area\n- {都市部|としぶ}と{地方|ちほう}: urban and rural areas\n- {都市部|としぶ}に{集中|しゅうちゅう}する: to be concentrated in urban areas\n\nCONTRAST:\n- {地方|ちほう}: rural regions, the provinces\n- {郊外|こうがい}: suburbs\n- {農村部|のうそんぶ}: agricultural/rural areas\n\nUSAGE:\nCommon in news, statistics, and policy discussions. In Japan, the {都市部|としぶ} vs. {地方|ちほう} divide is a major social and political topic, involving issues like population decline in rural areas ({過疎化|かそか}) and overcrowding in cities ({過密|かみつ}).",
+  "notes": "A compound of ⟦{都市|とし}→都市：01477_toshi⟧ (city) + ⟦{部|ぶ}→〜部：00440_bu⟧ (part/area). Refers to the urbanized part of a region, as opposed to rural or suburban areas.\n\nCOMMON COLLOCATIONS:\n- {都市部|としぶ}⟦に→に：00314_ni⟧⟦{住|す}む→住む：00673_sumu⟧: to live in an urban area\n- {都市部|としぶ}⟦の→の：09472_no⟧⟦{人口|じんこう}→人口：01618_jinkou⟧: urban population\n- {大|おお}{都市部|としぶ}: major metropolitan area\n- {都市部|としぶ}⟦と→と：00512_to⟧⟦{地方|ちほう}→地方：02369_chihou⟧: urban and rural areas\n- {都市部|としぶ}⟦に→に：00314_ni⟧⟦{集中|しゅうちゅう}する→集中する：21908_shuuchuusuru⟧: to be concentrated in urban areas\n\nSIMILAR WORDS:\n- ⟦{地方|ちほう}→地方：02369_chihou⟧: rural regions, the provinces\n- ⟦{郊外|こうがい}→郊外：01403_kougai⟧: suburbs\n- {農村部|のうそんぶ}: agricultural/rural areas\n\nUSAGE:\nCommon in news, statistics, and policy discussions. In Japan, the {都市部|としぶ} vs. ⟦{地方|ちほう}→地方：02369_chihou⟧ divide is a major social and political topic, involving issues like population decline in rural areas (⟦{過疎化|かそか}→過疎化：05242_kasoka⟧) and overcrowding in cities (⟦{過密|かみつ}→過密：14420_kamitsu⟧).",
   "cross_references": [
     {
       "type": "contrast",
@@ -46,18 +52,29 @@
       "reading": "こうがい",
       "headword": "{郊外|こうがい}",
       "label": "suburbs"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02369_chihou",
+      "reading": "ちほう",
+      "headword": "{地方|ちほう}",
+      "label": "rural regions, the provinces"
     }
   ],
   "metadata": {
     "created": "2026-03-02T06:28:59Z",
-    "modified": "2026-04-30T08:13:46Z",
+    "modified": "2026-09-02T04:01:37Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["geography"]
+      "semantic": [
+        "geography"
+      ]
     }
   }
 }

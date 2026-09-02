@@ -15,41 +15,74 @@
   "examples": [
     {
       "id": "17854_okyou_ex1",
-      "japanese": "お{坊|ぼう}さんがお{経|きょう}を{読|よ}んでいる。",
+      "japanese": "お{坊|ぼう}さん⟦が→が：00051_ga⟧お{経|きょう}⟦を→を：00422_wo⟧⟦{読|よ}んでいる→読む：00426_yomu⟧。",
       "english": "The monk is chanting a sutra.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17854_okyou_ex2",
-      "japanese": "{法事|ほうじ}でお{経|きょう}を{上|あ}げてもらった。",
+      "japanese": "⟦{法事|ほうじ}→法事：05634_houji⟧⟦で→で：00502_de⟧お{経|きょう}⟦を→を：00422_wo⟧⟦{上|あ}げて→上げる：02443_ageru⟧⟦もらった→もらう：00520_morau⟧。",
       "english": "We had a sutra chanted at the memorial service.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17854_okyou_ex3",
-      "japanese": "{祖母|そぼ}は{毎朝|まいあさ}{仏壇|ぶつだん}の{前|まえ}でお{経|きょう}を{唱|とな}えている。",
+      "japanese": "⟦{祖母|そぼ}→祖母：00813_sobo⟧⟦は→は：00079_ha⟧⟦{毎朝|まいあさ}→毎朝：00966_maiasa⟧⟦{仏壇|ぶつだん}→仏壇：07116_butsudan⟧⟦の→の：09472_no⟧⟦{前|まえ}→前：02255_mae⟧⟦で→で：00502_de⟧お{経|きょう}⟦を→を：00422_wo⟧⟦{唱|とな}えている→唱える：10467_tonaeru⟧。",
       "english": "My grandmother chants sutras in front of the Buddhist altar every morning.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nThe お prefix is standard and almost always used in everyday speech. The plain form {経|きょう} alone is more formal or literary. The most common verbs used with お{経|きょう} are {読|よ}む (to read/chant), {上|あ}げる (to offer up), and {唱|とな}える (to recite).\n\nCOMMON COLLOCATIONS:\n- お{経|きょう}を{読|よ}む (to chant a sutra)\n- お{経|きょう}を{上|あ}げる (to offer sutra chanting)\n- お{経|きょう}を{唱|とな}える (to recite a sutra)\n\nCULTURAL NOTE:\nSutra chanting is central to Japanese Buddhist funerals and memorial services. Even families who are not actively religious typically have sutras chanted by a monk at funerals ({葬儀|そうぎ}) and annual memorial services ({法事|ほうじ}).",
-  "cross_references": [],
+  "notes": "USAGE:\nThe お prefix is standard and almost always used in everyday speech. The plain form ⟦{経|きょう}→経：24866_kyou⟧ alone is more formal or literary. The most common verbs used with お{経|きょう} are ⟦{読|よ}む→読む：00426_yomu⟧ (to read/chant), ⟦{上|あ}げる→上げる：02443_ageru⟧ (to offer up), and ⟦{唱|とな}える→唱える：10467_tonaeru⟧ (to recite).\n\nCOMMON COLLOCATIONS:\n- お{経|きょう}⟦を→を：00422_wo⟧⟦{読|よ}む→読む：00426_yomu⟧ (to chant a sutra)\n- お{経|きょう}⟦を→を：00422_wo⟧⟦{上|あ}げる→上げる：02443_ageru⟧ (to offer sutra chanting)\n- お{経|きょう}⟦を→を：00422_wo⟧⟦{唱|とな}える→唱える：10467_tonaeru⟧ (to recite a sutra)\n\nCULTURAL NOTE:\nSutra chanting is central to Japanese Buddhist funerals and memorial services. Even families who are not actively religious typically have sutras chanted by a monk at funerals (⟦{葬儀|そうぎ}→葬儀：15337_sougi⟧) and annual memorial services (⟦{法事|ほうじ}→法事：05634_houji⟧).",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "18449_nenju",
+      "reading": "ねんじゅ",
+      "headword": "{念珠|ねんじゅ}",
+      "label": "prayer beads"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24001_kyoumon",
+      "reading": "きょうもん",
+      "headword": "{経文|きょうもん}",
+      "label": "sutra text"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24153_kyouten",
+      "reading": "きょうてん",
+      "headword": "{経典|きょうてん}",
+      "label": "scripture"
+    }
+  ],
   "metadata": {
     "created": "2026-03-19T06:58:32Z",
-    "modified": "2026-03-19T06:58:32Z",
+    "modified": "2026-09-02T04:01:50Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["religion", "culture"]
+      "semantic": [
+        "religion",
+        "culture"
+      ]
     }
   }
 }

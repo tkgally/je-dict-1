@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26622_kaiwan_ex1",
-      "japanese": "{海湾|かいわん}に{船|ふね}が{停泊|ていはく}している。",
+      "japanese": "{海湾|かいわん}⟦に→に：00314_ni⟧⟦{船|ふね}→船：00775_fune⟧⟦が→が：00051_ga⟧⟦{停泊|ていはく}→停泊：20272_teihaku⟧⟦している→する：00392_suru⟧。",
       "english": "Ships are anchored in the bay.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26622_kaiwan_ex2",
-      "japanese": "この{海湾|かいわん}は{天然|てんねん}の{良港|りょうこう}として{知|し}られている。",
+      "japanese": "⟦この→この：00962_kono⟧{海湾|かいわん}⟦は→は：00079_ha⟧⟦{天然|てんねん}→天然：03560_tennen⟧⟦の→の：09472_no⟧⟦{良港|りょうこう}→良港：28679_ryoukou⟧⟦として→として：06802_toshite⟧⟦{知|し}られている→知る：00458_shiru⟧。",
       "english": "This bay is known as a natural good harbor.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26622_kaiwan_ex3",
-      "japanese": "{海湾|かいわん}{沿|ぞ}いの{地域|ちいき}では、{漁業|ぎょぎょう}と{観光|かんこう}が{主|おも}な{産業|さんぎょう}になっている。",
+      "japanese": "{海湾|かいわん}{沿|ぞ}い⟦の→の：09472_no⟧⟦{地域|ちいき}→地域：01461_chiiki⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧、⟦{漁業|ぎょぎょう}→漁業：20496_gyogyou⟧⟦と→と：00512_to⟧⟦{観光|かんこう}→観光：00173_kankou⟧⟦が→が：00051_ga⟧⟦{主|おも}な→主な：21018_omona⟧⟦{産業|さんぎょう}→産業：01419_sangyou⟧になっている。",
       "english": "In the areas along the bay, fishing and tourism are the main industries.",
       "sense_numbers": [
         1
@@ -44,20 +44,29 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {海|かい} (sea) and {湾|わん} (bay), used as a slightly more formal or literary term for a bay or gulf. In everyday speech, {湾|わん} alone is more common.\n\nCOMMON COLLOCATIONS:\n- {海湾|かいわん}{地域|ちいき}: bay area; gulf region\n- {海湾|かいわん}{沿|ぞ}い: along the bay\n- {海湾|かいわん}{諸国|しょこく}: gulf states (as in the Persian Gulf countries)\n\nSIMILAR WORDS:\n- {湾|わん}: bay; gulf (the standard, more common term)\n- {入|い}り{江|え}: inlet; cove (smaller than a bay)\n- {内海|ないかい}: inland sea (a sea largely enclosed by land)\n\nUSAGE:\nThe term {海湾|かいわん} appears in formal or geographical contexts. In news coverage of the Middle East, {海湾|かいわん}{戦争|せんそう} (Gulf War) and {海湾|かいわん}{諸国|しょこく} (Gulf states) are commonly encountered usages.",
+  "notes": "A compound of {海|かい} (sea) and ⟦{湾|わん}→湾：03796_wan⟧ (bay), used as a slightly more formal or literary term for a bay or gulf. In everyday speech, ⟦{湾|わん}→湾：03796_wan⟧ alone is more common.\n\nCOMMON COLLOCATIONS:\n- {海湾|かいわん}⟦{地域|ちいき}→地域：01461_chiiki⟧: bay area; gulf region\n- {海湾|かいわん}{沿|ぞ}い: along the bay\n- {海湾|かいわん}⟦{諸国|しょこく}→諸国：15992_shokoku⟧: gulf states (as in the Persian Gulf countries)\n\nSIMILAR WORDS:\n- ⟦{湾|わん}→湾：03796_wan⟧: bay; gulf (the standard, more common term)\n- ⟦{入|い}り{江|え}→入り江：05040_irie⟧: inlet; cove (smaller than a bay)\n- {内海|ないかい}: inland sea (a sea largely enclosed by land)\n\nUSAGE:\nThe term {海湾|かいわん} appears in formal or geographical contexts. In news coverage of the Middle East, {海湾|かいわん}⟦{戦争|せんそう}→戦争：01450_sensou⟧ (Gulf War) and {海湾|かいわん}⟦{諸国|しょこく}→諸国：15992_shokoku⟧ (Gulf states) are commonly encountered usages.",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "geography"
       ]
     },
     "schema_version": "2.0",
     "created": "2026-05-03T00:00:00Z",
-    "modified": "2026-05-03T00:00:00Z"
+    "modified": "2026-09-02T04:02:27Z"
   },
-  "cross_references": []
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05040_irie",
+      "reading": "いりえ",
+      "headword": "{入|い}り{江|え}",
+      "label": "inlet"
+    }
+  ]
 }

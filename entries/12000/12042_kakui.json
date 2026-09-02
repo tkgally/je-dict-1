@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "12042_kakui_ex1",
-      "japanese": "{関係者|かんけいしゃ}{各位|かくい}",
+      "japanese": "⟦{関係者|かんけいしゃ}→関係者：16441_kankeisha⟧{各位|かくい}",
       "english": "To all concerned parties.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "12042_kakui_ex2",
-      "japanese": "{社員|しゃいん}{各位|かくい}にお{知|し}らせいたします。",
+      "japanese": "⟦{社員|しゃいん}→社員：03065_shain⟧{各位|かくい}⟦に→に：00314_ni⟧⟦お{知|し}らせ→お知らせ：18843_oshirase⟧⟦いたします→いたす：01314_itasu⟧。",
       "english": "We would like to inform all employees.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "12042_kakui_ex3",
-      "japanese": "{会員|かいいん}{各位|かくい}におかれましては、ますますご{健勝|けんしょう}のこととお{慶|よろこ}び{申|もう}し{上|あ}げます。",
+      "japanese": "⟦{会員|かいいん}→会員：02535_kaiin⟧{各位|かくい}⟦に→に：00314_ni⟧おかれましては、⟦ますます→ますます：01604_masumasu⟧ご{健勝|けんしょう}⟦の→の：09472_no⟧こととお{慶|よろこ}び⟦{申|もう}し{上|あ}げます→申し上げる：01734_moushiageru⟧。",
       "english": "We are pleased to hope that all members are in good health.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,19 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{各位|かくい} is itself an honorific, so adding さま or {殿|どの} after it is considered redundant, though {各位|かくい}さま is sometimes seen in practice. Typically placed after a group noun: {社員|しゃいん}{各位|かくい}, {会員|かいいん}{各位|かくい}, {関係者|かんけいしゃ}{各位|かくい}. Used primarily in written communication — business emails, notices, and circulars.\n\nCOMMON COLLOCATIONS:\n- {社員|しゃいん}{各位|かくい}: to all employees\n- {会員|かいいん}{各位|かくい}: to all members\n- {関係者|かんけいしゃ}{各位|かくい}: to all concerned parties\n- {保護者|ほごしゃ}{各位|かくい}: to all parents/guardians",
-  "cross_references": [],
+  "notes": "USAGE:\n{各位|かくい} is itself an honorific, so adding さま or {殿|どの} after it is considered redundant, though {各位|かくい}さま is sometimes seen in practice. Typically placed after a group noun: ⟦{社員|しゃいん}→社員：03065_shain⟧{各位|かくい}, ⟦{会員|かいいん}→会員：02535_kaiin⟧{各位|かくい}, ⟦{関係者|かんけいしゃ}→関係者：16441_kankeisha⟧{各位|かくい}. Used primarily in written communication — business emails, notices, and circulars.\n\nCOMMON COLLOCATIONS:\n- ⟦{社員|しゃいん}→社員：03065_shain⟧{各位|かくい}: to all employees\n- ⟦{会員|かいいん}→会員：02535_kaiin⟧{各位|かくい}: to all members\n- ⟦{関係者|かんけいしゃ}→関係者：16441_kankeisha⟧{各位|かくい}: to all concerned parties\n- ⟦{保護者|ほごしゃ}→保護者：11564_hogosha⟧{各位|かくい}: to all parents/guardians",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "23265_kankeishakakui",
+      "reading": "かんけいしゃかくい",
+      "headword": "{関係者各位|かんけいしゃかくい}",
+      "label": "to whom it may concern"
+    }
+  ],
   "metadata": {
     "created": "2026-02-19T13:36:12Z",
-    "modified": "2026-07-04T09:40:18Z",
+    "modified": "2026-09-02T04:01:27Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

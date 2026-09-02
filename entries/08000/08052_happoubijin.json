@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08052_happoubijin_ex1",
-      "japanese": "{彼女|かのじょ}は{八方美人|はっぽうびじん}だ。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧{八方美人|はっぽうびじん}だ。",
       "english": "She's a people-pleaser.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "08052_happoubijin_ex2",
-      "japanese": "{八方美人|はっぽうびじん}は{信用|しんよう}されない。",
+      "japanese": "{八方美人|はっぽうびじん}⟦は→は：00079_ha⟧⟦{信用|しんよう}されない→信用する：25371_shinyousuru⟧。",
       "english": "People-pleasers are not trusted.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "08052_happoubijin_ex3",
-      "japanese": "{八方美人|はっぽうびじん}な{態度|たいど}をやめるべきだ。",
+      "japanese": "{八方美人|はっぽうびじん}な⟦{態度|たいど}→態度：03396_taido⟧⟦を→を：00422_wo⟧⟦やめる→やめる：00909_yameru⟧べきだ。",
       "english": "You should stop trying to please everyone.",
       "sense_numbers": [
         1
@@ -43,7 +43,23 @@
       "notes": null
     }
   ],
-  "notes": "LITERAL MEANING:\n{八方|はっぽう} (eight directions / all directions) + {美人|びじん} (beautiful person)\n- \"A beauty from every angle\" → someone who looks good to everyone.\n\nNUANCE:\nAlmost always used with negative connotation. It implies someone who lacks genuine conviction and changes their position depending on who they're talking to.\n\nUSAGE:\n- {八方美人|はっぽうびじん}な{人|ひと} (a people-pleaser)\n- {八方美人|はっぽうびじん}な{態度|たいど} (people-pleasing attitude)\n- {八方美人|はっぽうびじん}になる (to become a people-pleaser)\n\nSIMILAR EXPRESSIONS:\n- {調子者|ちょうしもの} (smooth talker, someone who goes along with others)\n- {日和見|ひよりみ} (fence-sitter, opportunist)",
+  "notes": "ETYMOLOGY:\n⟦{八方|はっぽう}→八方：06613_happou⟧ (eight directions / all directions) + ⟦{美人|びじん}→美人：01600_bijin⟧ (beautiful person)\n- \"A beauty from every angle\" → someone who looks good to everyone.\n\nUSAGE:\nAlmost always used with negative connotation. It implies someone who lacks genuine conviction and changes their position depending on who they're talking to.\n- {八方美人|はっぽうびじん}な⟦{人|ひと}→人：00476_hito⟧ (a people-pleaser)\n- {八方美人|はっぽうびじん}な⟦{態度|たいど}→態度：03396_taido⟧ (people-pleasing attitude)\n- {八方美人|はっぽうびじん}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧ (to become a people-pleaser)\n\nSIMILAR WORDS:\n- {調子者|ちょうしもの} (smooth talker, someone who goes along with others)\n- ⟦{日和見|ひよりみ}→日和見：22684_hiyorimi⟧ (fence-sitter, opportunist)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22684_hiyorimi",
+      "reading": "ひよりみ",
+      "headword": "{日和見|ひよりみ}",
+      "label": "fence-sitter, opportunist"
+    },
+    {
+      "type": "related",
+      "target_id": "08496_yowatarijouzu",
+      "reading": "よわたりじょうず",
+      "headword": "{世渡|よわた}り{上手|じょうず}",
+      "label": "socially adept"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -51,12 +67,13 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "personality",
         "evaluation"
       ]
     },
     "created": "2026-01-25T00:56:40Z",
-    "modified": "2026-08-11T09:37:41Z"
+    "modified": "2026-09-02T04:01:13Z"
   }
 }

@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "07436_taishite_ex1",
-      "japanese": "この{映画|えいが}はたいして{面白|おもしろ}くなかった。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{映画|えいが}→映画：02273_eiga⟧⟦は→は：00079_ha⟧たいして⟦{面白|おもしろ}くなかった→面白い：00589_omoshiroi⟧。",
       "english": "This movie wasn't very interesting.",
       "has_audio": false,
       "sense_numbers": [
@@ -23,7 +23,7 @@
     },
     {
       "id": "07436_taishite_ex2",
-      "japanese": "たいして{差|さ}はない。",
+      "japanese": "たいして⟦{差|さ}→差：02771_sa⟧⟦は→は：00079_ha⟧⟦ない→ない：01118_nai⟧。",
       "english": "There's not much difference.",
       "has_audio": false,
       "sense_numbers": [
@@ -32,7 +32,7 @@
     },
     {
       "id": "07436_taishite_ex3",
-      "japanese": "たいして{期待|きたい}していなかったが、{意外|いがい}と{良|よ}かった。",
+      "japanese": "たいして⟦{期待|きたい}していなかった→期待する：06065_kitaisuru⟧⟦が→が：00051_ga⟧、⟦{意外|いがい}→意外：12741_igai⟧⟦と→と：00512_to⟧⟦{良|よ}かった→良い：02350_yoi⟧。",
       "english": "I wasn't expecting much, but it was surprisingly good.",
       "has_audio": false,
       "sense_numbers": [
@@ -40,10 +40,33 @@
       ]
     }
   ],
-  "notes": "GRAMMAR:\nたいして is almost always used with negative predicates:\n・たいして〜ない - not very ~, not much ~\n・たいして〜なかった - wasn't very ~\n\nKANJI FORM:\n{大|たい}して is the kanji form, but hiragana is more common in everyday writing.\n\nCOMMON PATTERNS:\n・たいして{変|か}わらない - not much different\n・たいして{気|き}にしない - not care much\n・たいして{重要|じゅうよう}ではない - not particularly important\n・たいして{興味|きょうみ}がない - not very interested\n\nSIMILAR EXPRESSIONS:\n・あまり〜ない - not very ~\n・それほど〜ない - not that much ~\n・{特|とく}に〜ない - not especially ~\n・{別|べつ}に〜ない - not particularly ~\n\nNUANCE:\nたいして often implies that something fell short of expectations or that the difference/change is negligible.\n\nREGISTER:\nNeutral. Common in everyday conversation.",
+  "notes": "COMMON PATTERNS:\nたいして is almost always used with negative predicates:\n- たいして〜⟦ない→ない：01118_nai⟧ - not very ~, not much ~\n- たいして〜⟦なかった→ない：01118_nai⟧ - wasn't very ~\n- たいして⟦{変|か}わらない→変わる：00714_kawaru⟧ - not much different\n- たいして⟦{気|き}にしない→気にする：03026_kinisuru⟧ - not care much\n- たいして⟦{重要|じゅうよう}→重要：01575_juuyou⟧で⟦は→は：00079_ha⟧⟦ない→ない：01118_nai⟧ - not particularly important\n- たいして⟦{興味|きょうみ}→興味：01316_kyoumi⟧⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧ - not very interested\n\nKANJI FORM:\n{大|たい}して is the kanji form, but hiragana is more common in everyday writing.\n\nSIMILAR WORDS:\n- ⟦あまり→あまり：00604_amari⟧〜⟦ない→ない：01118_nai⟧ - not very ~\n- ⟦それ→それ：00994_sore⟧ほど〜⟦ない→ない：01118_nai⟧ - not that much ~\n- ⟦{特|とく}に→特に：01260_tokuni⟧〜⟦ない→ない：01118_nai⟧ - not especially ~\n- ⟦{別|べつ}→別：01216_betsu⟧⟦に→に：00314_ni⟧〜⟦ない→ない：01118_nai⟧ - not particularly ~\n\nUSAGE:\nたいして often implies that something fell short of expectations or that the difference/change is negligible.\n\nREGISTER:\nNeutral. Common in everyday conversation.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01563_sorehodo",
+      "reading": "それほど",
+      "headword": "それほど",
+      "label": "to that extent, that much"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01646_sonnani",
+      "reading": "そんなに",
+      "headword": "そんなに",
+      "label": "so much, to that extent"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16929_sahodo",
+      "reading": "さほど",
+      "headword": "さほど",
+      "label": "not so much"
+    }
+  ],
   "metadata": {
     "created": "2026-01-19T08:18:22Z",
-    "modified": "2026-01-19T12:17:45.105452Z",
+    "modified": "2026-09-02T04:01:11Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

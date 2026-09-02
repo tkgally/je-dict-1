@@ -3,7 +3,7 @@
   "headword": "{通算|つうさん}する",
   "reading": "つうさんする",
   "romaji": "tsuusansuru",
-  "part_of_speech": "noun, verb (する)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "to total up; cumulative total",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22350_tsuusansuru_ex1",
-      "japanese": "{通算|つうさん}{百|ひゃく}{勝|しょう}を{達成|たっせい}した。",
+      "japanese": "⟦{通算|つうさん}→通算：18159_tsuusan⟧⟦{百|ひゃく}→百：00780_hyaku⟧{勝|しょう}⟦を→を：00422_wo⟧⟦{達成|たっせい}した→達成する：22183_tasseisuru⟧。",
       "english": "He achieved 100 career wins.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22350_tsuusansuru_ex2",
-      "japanese": "{売|う}り{上|あ}げを{通算|つうさん}すると{一億円|いちおくえん}を{超|こ}える。",
+      "japanese": "{売|う}り{上|あ}げ⟦を→を：00422_wo⟧{通算|つうさん}する⟦と→と：00512_to⟧{一億円|いちおくえん}⟦を→を：00422_wo⟧⟦{超|こ}える→超える：01942_koeru⟧。",
       "english": "When you total up the sales, they exceed 100 million yen.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22350_tsuusansuru_ex3",
-      "japanese": "{彼|かれ}はプロ{入|い}り{以来|いらい}、{通算|つうさん}{三千本|さんぜんぼん}の{安打|あんだ}を{記録|きろく}している。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦プロ→プロ：03871_puro⟧{入|い}り⟦{以来|いらい}→以来：01831_irai⟧、⟦{通算|つうさん}→通算：18159_tsuusan⟧{三千本|さんぜんぼん}⟦の→の：09472_no⟧⟦{安打|あんだ}→安打：19717_anda⟧⟦を→を：00422_wo⟧⟦{記録|きろく}している→記録する：25341_kirokusuru⟧。",
       "english": "Since turning pro, he has recorded a career total of 3,000 hits.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Very common in sports reporting to express career statistics (career wins, total home runs, etc.). Also used in business and statistics for cumulative figures.\n\nCOMMON COLLOCATIONS:\n- {通算|つうさん}{成績|せいせき}: career record; cumulative results\n- {通算|つうさん}ホームラン: career home runs\n- {通算|つうさん}{得点|とくてん}: total points scored\n- {通算|つうさん}{勝利|しょうり}{数|すう}: total number of wins\n\nUSAGE:\n{通算|つうさん} is frequently used as a noun modifier without する, placed directly before the number: {通算|つうさん}{五十|ごじゅう}{勝|しょう} (50 career wins).\n\nSIMILAR WORDS:\n- {合計|ごうけい}: total; sum — general term for adding things up\n- {累計|るいけい}: cumulative total — more formal/statistical",
+  "notes": "Very common in sports reporting to express career statistics (career wins, total home runs, etc.). Also used in business and statistics for cumulative figures.\n\nCOMMON COLLOCATIONS:\n- ⟦{通算|つうさん}{成績|せいせき}→通算成績：28043_tsuusanseiseki⟧: career record; cumulative results\n- ⟦{通算|つうさん}→通算：18159_tsuusan⟧⟦ホームラン→ホームラン：20814_hoomuran⟧: career home runs\n- ⟦{通算|つうさん}→通算：18159_tsuusan⟧⟦{得点|とくてん}→得点：04909_tokuten⟧: total points scored\n- ⟦{通算|つうさん}→通算：18159_tsuusan⟧⟦{勝利|しょうり}→勝利：11795_shouri⟧⟦{数|すう}→数：03360_suu⟧: total number of wins\n\nUSAGE:\n⟦{通算|つうさん}→通算：18159_tsuusan⟧ is frequently used as a noun modifier without ⟦する→する：00392_suru⟧, placed directly before the number: ⟦{通算|つうさん}→通算：18159_tsuusan⟧⟦{五十|ごじゅう}→五十：00930_gojuu⟧{勝|しょう} (50 career wins).\n\nSIMILAR WORDS:\n- ⟦{合計|ごうけい}→合計：02817_goukei⟧: total; sum — general term for adding things up\n- ⟦{累計|るいけい}→累計：08327_ruikei⟧: cumulative total — more formal/statistical",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02817_goukei",
+      "reading": "ごうけい",
+      "headword": "{合計|ごうけい}",
+      "label": "total"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08327_ruikei",
+      "reading": "るいけい",
+      "headword": "{累計|るいけい}",
+      "label": "cumulative total"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -58,10 +74,11 @@
       "semantic": [
         "general"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-04-05T19:21:39Z",
-    "modified": "2026-04-05T19:21:39Z"
+    "modified": "2026-09-02T04:02:07Z"
   },
   "conjugation": {
     "type": "suru",

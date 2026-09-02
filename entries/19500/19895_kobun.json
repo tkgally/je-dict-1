@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "19895_kobun_ex1",
-      "japanese": "{親分|おやぶん}と{子分|こぶん}の{関係|かんけい}。",
+      "japanese": "⟦{親分|おやぶん}→親分：16957_oyabun⟧⟦と→と：00512_to⟧{子分|こぶん}⟦の→の：09472_no⟧⟦{関係|かんけい}→関係：01298_kankei⟧。",
       "english": "A boss-follower relationship.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "19895_kobun_ex2",
-      "japanese": "{彼|かれ}はいつもボスの{子分|こぶん}のように{振|ふ}る{舞|ま}う。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦いつも→いつも：00599_itsumo⟧⟦ボス→ボス：11269_bosu⟧⟦の→の：09472_no⟧{子分|こぶん}⟦のように→のように：30291_noyouni⟧⟦{振|ふ}る{舞|ま}う→振る舞う：04233_furumau⟧。",
       "english": "He always acts like the boss's henchman.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "19895_kobun_ex3",
-      "japanese": "ガキ{大将|たいしょう}は{子分|こぶん}を{引|ひ}き{連|つ}れて{公園|こうえん}にやってきた。",
+      "japanese": "⟦ガキ→ガキ：09305_gaki⟧⟦{大将|たいしょう}→大将：19140_taishou⟧⟦は→は：00079_ha⟧{子分|こぶん}⟦を→を：00422_wo⟧⟦{引|ひ}き{連|つ}れて→引き連れる：15445_hikitsureru⟧⟦{公園|こうえん}→公園：00581_kouen⟧⟦に→に：00314_ni⟧⟦やって→やる：02980_yaru⟧きた。",
       "english": "The neighborhood bully came to the park with his gang of followers.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "Comes from the traditional Japanese {親分|おやぶん}・{子分|こぶん} (boss-follower) hierarchy, which originated in feudal loyalty structures and is strongly associated with yakuza organizations. In modern usage, it is also used colloquially or humorously for any boss-underling dynamic, including among children.\n\nCOMMON COLLOCATIONS:\n- {親分|おやぶん}と{子分|こぶん}: boss and follower (paired set)\n- {子分|こぶん}になる: to become someone's follower\n- {子分|こぶん}を{従|したが}える: to have followers in tow\n- {子分|こぶん}{肌|はだ}: having the temperament of a follower\n\nSIMILAR WORDS:\n- {部下|ぶか}: subordinate — workplace term; professional and neutral\n- {手下|てした}: underling — somewhat derogatory; implies being used\n- {弟子|でし}: disciple, apprentice — implies a teaching relationship",
+  "notes": "Comes from the traditional Japanese ⟦{親分|おやぶん}→親分：16957_oyabun⟧・{子分|こぶん} (boss-follower) hierarchy, which originated in feudal loyalty structures and is strongly associated with yakuza organizations. In modern usage, it is also used colloquially or humorously for any boss-underling dynamic, including among children.\n\nCOMMON COLLOCATIONS:\n- ⟦{親分|おやぶん}→親分：16957_oyabun⟧⟦と→と：00512_to⟧{子分|こぶん}: boss and follower (paired set)\n- {子分|こぶん}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧: to become someone's follower\n- {子分|こぶん}⟦を→を：00422_wo⟧⟦{従|したが}える→従える：12561_shitagaeru⟧: to have followers in tow\n- {子分|こぶん}⟦{肌|はだ}→肌：02243_hada⟧: having the temperament of a follower\n\nSIMILAR WORDS:\n- ⟦{部下|ぶか}→部下：06453_buka⟧: subordinate — workplace term; professional and neutral\n- ⟦{手下|てした}→手下：12940_teshita⟧: underling — somewhat derogatory; implies being used\n- ⟦{弟子|でし}→弟子：03986_deshi⟧: disciple, apprentice — implies a teaching relationship",
   "prominent_see_also": [
     {
       "target_id": "16957_oyabun",
@@ -52,10 +52,39 @@
       "note": "boss, leader"
     }
   ],
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06453_buka",
+      "reading": "ぶか",
+      "headword": "{部下|ぶか}",
+      "label": "subordinate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12940_teshita",
+      "reading": "てした",
+      "headword": "{手下|てした}",
+      "label": "underling"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03986_deshi",
+      "reading": "でし",
+      "headword": "{弟子|でし}",
+      "label": "disciple, apprentice"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24782_otoutobun",
+      "reading": "おとうとぶん",
+      "headword": "{弟分|おとうとぶん}",
+      "label": "younger-brother figure, junior (in a close relationship)"
+    }
+  ],
   "metadata": {
     "created": "2026-03-27T05:30:15Z",
-    "modified": "2026-07-27T12:42:09Z",
+    "modified": "2026-09-02T04:01:57Z",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
     "tags": {

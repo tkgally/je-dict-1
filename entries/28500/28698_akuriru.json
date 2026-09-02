@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28698_akuriru_ex1",
-      "japanese": "このセーターはアクリル{製|せい}だ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦セーター→セーター：01371_seetaa⟧⟦は→は：00079_ha⟧アクリル⟦{製|せい}→〜製：02001_sei⟧だ。",
       "english": "This sweater is made of acrylic.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28698_akuriru_ex2",
-      "japanese": "アクリル{板|いた}で{仕切|しき}りを{作|つく}った。",
+      "japanese": "アクリル⟦{板|いた}→板：01792_ita⟧⟦で→で：00502_de⟧⟦{仕切|しき}り→仕切り：11431_shikiri⟧⟦を→を：00422_wo⟧⟦{作|つく}った→作る：00481_tsukuru⟧。",
       "english": "I made a partition out of acrylic sheets.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28698_akuriru_ex3",
-      "japanese": "アクリル{絵|え}の{具|ぐ}は{乾|かわ}くのが{速|はや}いので{初心者|しょしんしゃ}にも{使|つか}いやすい。",
+      "japanese": "アクリル⟦{絵|え}の{具|ぐ}→絵の具：16182_enogu⟧⟦は→は：00079_ha⟧⟦{乾|かわ}く→乾く：00786_kawaku⟧⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦{速|はや}い→速い：00514_hayai⟧⟦の→の：09472_no⟧で⟦{初心者|しょしんしゃ}→初心者：10149_shoshinsha⟧⟦に→に：00314_ni⟧⟦も→も：00484_mo⟧⟦{使|つか}いやすい→使いやすい：30380_tsukaiyasui⟧。",
       "english": "Acrylic paints dry quickly, so they are easy to use even for beginners.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Loanword covering both the transparent rigid plastic (often called plexiglass in English) and synthetic fiber used in clothing.\n\nCOMMON COLLOCATIONS:\n- アクリル{板|いた}: acrylic sheet, plexiglass panel\n- アクリル{絵|え}の{具|ぐ}: acrylic paints\n- アクリル{樹脂|じゅし}: acrylic resin\n- アクリル{毛|げ}{糸|いと}: acrylic yarn\n- アクリル{繊維|せんい}: acrylic fiber\n\nSIMILAR WORDS:\n- プラスチック: plastic — generic term; アクリル is one specific type\n- ポリエステル: polyester — different synthetic fiber, common in clothing alongside アクリル",
+  "notes": "Loanword covering both the transparent rigid plastic (often called plexiglass in English) and synthetic fiber used in clothing.\n\nCOMMON COLLOCATIONS:\n- アクリル⟦{板|いた}→板：01792_ita⟧: acrylic sheet, plexiglass panel\n- アクリル⟦{絵|え}の{具|ぐ}→絵の具：16182_enogu⟧: acrylic paints\n- アクリル⟦{樹脂|じゅし}→樹脂：17424_jushi⟧: acrylic resin\n- アクリル{毛|げ}{糸|いと}: acrylic yarn\n- アクリル⟦{繊維|せんい}→繊維：13857_seni⟧: acrylic fiber\n\nSIMILAR WORDS:\n- ⟦プラスチック→プラスチック：00347_purasuchikku⟧: plastic — generic term; アクリル is one specific type\n- ⟦ポリエステル→ポリエステル：26376_poriesuteru⟧: polyester — different synthetic fiber, common in clothing alongside アクリル",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00347_purasuchikku",
+      "reading": "ぷらすちっく",
+      "headword": "プラスチック",
+      "label": "plastic"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26376_poriesuteru",
+      "reading": "ぽりえすてる",
+      "headword": "ポリエステル",
+      "label": "polyester"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +69,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "general"
       ],
       "domain": []
     },
     "created": "2026-06-04T03:08:10Z",
-    "modified": "2026-08-08T18:34:17Z"
+    "modified": "2026-09-02T04:02:34Z"
   }
 }

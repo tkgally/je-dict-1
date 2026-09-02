@@ -3,7 +3,7 @@
   "headword": "{討議|とうぎ}",
   "reading": "とうぎ",
   "romaji": "tougi",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "discussion; debate; deliberation",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25322_tougi_ex1",
-      "japanese": "{委員会|いいんかい}で{法案|ほうあん}が{討議|とうぎ}された。",
+      "japanese": "⟦{委員会|いいんかい}→委員会：12234_iinkai⟧⟦で→で：00502_de⟧⟦{法案|ほうあん}→法案：09758_houan⟧⟦が→が：00051_ga⟧{討議|とうぎ}⟦された→する：00392_suru⟧。",
       "english": "The bill was discussed in committee.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25322_tougi_ex2",
-      "japanese": "{今日|きょう}の{討議|とうぎ}のテーマは{環境問題|かんきょうもんだい}です。",
+      "japanese": "⟦{今日|きょう}→今日：00496_kyou⟧⟦の→の：09472_no⟧{討議|とうぎ}⟦の→の：09472_no⟧⟦テーマ→テーマ：17684_teema⟧⟦は→は：00079_ha⟧⟦{環境問題|かんきょうもんだい}→環境問題：10136_kankyoumondai⟧です。",
       "english": "The topic for today's discussion is environmental issues.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25322_tougi_ex3",
-      "japanese": "{参加者|さんかしゃ}{全員|ぜんいん}が{活発|かっぱつ}に{意見|いけん}を{出|だ}し{合|あ}い、{実|みの}りある{討議|とうぎ}となった。",
+      "japanese": "⟦{参加者|さんかしゃ}→参加者：03059_sankasha⟧⟦{全員|ぜんいん}→全員：03310_zenin⟧⟦が→が：00051_ga⟧⟦{活発|かっぱつ}→活発：13272_kappatsu⟧⟦に→に：00314_ni⟧⟦{意見|いけん}→意見：01303_iken⟧⟦を→を：00422_wo⟧{出|だ}し{合|あ}い、⟦{実|みの}り→実り：12270_minori⟧⟦ある→ある：00006_aru⟧{討議|とうぎ}⟦と→と：00512_to⟧⟦なった→なる：01970_naru⟧。",
       "english": "All participants actively shared their opinions, making for a fruitful discussion.",
       "sense_numbers": [
         1
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "A formal word for structured discussion or debate, typically in institutional settings such as parliament, committees, or conferences. Composed of {討|とう} (attack, debate) and {議|ぎ} (deliberation). Implies a thorough examination of issues from multiple perspectives.\n\nCOMMON COLLOCATIONS:\n- {討議|とうぎ}する: to discuss, to deliberate\n- {討議|とうぎ}を{行|おこな}う: to hold a discussion\n- {討議|とうぎ}{事項|じこう}: items for discussion, agenda\n- {自由|じゆう}{討議|とうぎ}: open discussion, free debate\n\nSIMILAR WORDS:\n- {議論|ぎろん}: argument, discussion — the most common word for debate, less formal\n- {討論|とうろん}: debate — more adversarial, opposing sides argue their positions\n- {審議|しんぎ}: deliberation — specifically examining and judging, used in parliament\n- {協議|きょうぎ}: consultation, negotiation — aims to reach agreement",
+  "notes": "A formal word for structured discussion or debate, typically in institutional settings such as parliament, committees, or conferences. Composed of {討|とう} (attack, debate) and {議|ぎ} (deliberation). Implies a thorough examination of issues from multiple perspectives.\n\nCOMMON COLLOCATIONS:\n- {討議|とうぎ}⟦する→する：00392_suru⟧: to discuss, to deliberate\n- {討議|とうぎ}⟦を→を：00422_wo⟧⟦{行|おこな}う→行う：01238_okonau⟧: to hold a discussion\n- {討議|とうぎ}⟦{事項|じこう}→事項：11469_jikou⟧: items for discussion, agenda\n- ⟦{自由|じゆう}→自由：01148_jiyuu⟧{討議|とうぎ}: open discussion, free debate\n\nSIMILAR WORDS:\n- ⟦{議論|ぎろん}→議論：02650_giron⟧: argument, discussion — the most common word for debate, less formal\n- ⟦{討論|とうろん}→討論：05100_touron⟧: debate — more adversarial, opposing sides argue their positions\n- ⟦{審議|しんぎ}→審議：19112_shingi⟧: deliberation — specifically examining and judging, used in parliament\n- ⟦{協議|きょうぎ}→協議：02635_kyougi⟧: consultation, negotiation — aims to reach agreement",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02650_giron",
+      "reading": "ぎろん",
+      "headword": "{議論|ぎろん}",
+      "label": "argument, discussion"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05100_touron",
+      "reading": "とうろん",
+      "headword": "{討論|とうろん}",
+      "label": "debate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19112_shingi",
+      "reading": "しんぎ",
+      "headword": "{審議|しんぎ}",
+      "label": "deliberation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02635_kyougi",
+      "reading": "きょうぎ",
+      "headword": "{協議|きょうぎ}",
+      "label": "consultation, negotiation"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,6 +83,7 @@
         "noun",
         "verb-suru"
       ],
+      "politeness": "plain",
       "semantic": [
         "communication"
       ],
@@ -62,7 +93,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-24T14:27:56Z",
-    "modified": "2026-04-24T14:27:56Z"
+    "modified": "2026-09-02T04:02:21Z"
   },
   "conjugation": {
     "type": "suru",

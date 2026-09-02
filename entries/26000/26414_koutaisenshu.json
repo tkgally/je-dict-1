@@ -15,39 +15,73 @@
   "examples": [
     {
       "id": "26414_koutaisenshu_ex1",
-      "japanese": "{交代|こうたい}{選手|せんしゅ}がベンチで{待機|たいき}している。",
+      "japanese": "{交代|こうたい}{選手|せんしゅ}⟦が→が：00051_ga⟧⟦ベンチ→ベンチ：00013_benchi⟧⟦で→で：00502_de⟧⟦{待機|たいき}→待機：09677_taiki⟧⟦している→する：00392_suru⟧。",
       "english": "The substitute players are waiting on the bench.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26414_koutaisenshu_ex2",
-      "japanese": "{後半|こうはん}から{交代|こうたい}{選手|せんしゅ}が{投入|とうにゅう}された。",
+      "japanese": "⟦{後半|こうはん}→後半：12555_kouhan⟧⟦から→から：00504_kara⟧{交代|こうたい}{選手|せんしゅ}⟦が→が：00051_ga⟧⟦{投入|とうにゅう}→投入：12895_tounyuu⟧⟦された→する：00392_suru⟧。",
       "english": "Substitute players were brought in from the second half.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26414_koutaisenshu_ex3",
-      "japanese": "{監督|かんとく}は{残|のこ}り{10分|じゅっぷん}で{交代|こうたい}{選手|せんしゅ}を{3人|さんにん}{送|おく}り{出|だ}し、{攻撃|こうげき}を{強化|きょうか}した。",
+      "japanese": "⟦{監督|かんとく}→監督：00185_kantoku⟧⟦は→は：00079_ha⟧⟦{残|のこ}り→残り：01622_nokori⟧{10分|じゅっぷん}⟦で→で：00502_de⟧{交代|こうたい}{選手|せんしゅ}⟦を→を：00422_wo⟧{3人|さんにん}⟦{送|おく}り{出|だ}し→送り出す：06085_okuridasu⟧、⟦{攻撃|こうげき}→攻撃：02748_kougeki⟧⟦を→を：00422_wo⟧⟦{強化|きょうか}した→強化する：25344_kyoukasuru⟧。",
       "english": "The manager sent in three substitutes with ten minutes remaining to strengthen the attack.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {交代|こうたい} (substitution, replacement) and {選手|せんしゅ} (player, athlete). Most commonly used in soccer, where teams are allowed a limited number of substitutions per match.\n\nCOMMON COLLOCATIONS:\n- {交代|こうたい}{選手|せんしゅ}を{出|だ}す: to send in a substitute\n- {交代|こうたい}{選手|せんしゅ}を{投入|とうにゅう}する: to bring on a substitute\n- {交代|こうたい}{選手|せんしゅ}として{出場|しゅつじょう}する: to appear as a substitute\n- {交代|こうたい}{選手|せんしゅ}が{活躍|かつやく}する: the substitute plays well\n\nSIMILAR WORDS:\n- {控|ひか}え{選手|せんしゅ}: reserve player — a player on the roster but not starting; broader than {交代選手|こうたいせんしゅ}\n- {補欠|ほけつ}: reserve, alternate — often implies not being good enough to start\n- {代打|だいだ}: pinch hitter — specific to baseball",
-  "cross_references": [],
+  "notes": "A compound of ⟦{交代|こうたい}→交代：14943_koutai⟧ (substitution, replacement) and ⟦{選手|せんしゅ}→選手：03823_senshu⟧ (player, athlete). Most commonly used in soccer, where teams are allowed a limited number of substitutions per match.\n\nCOMMON COLLOCATIONS:\n- {交代|こうたい}{選手|せんしゅ}⟦を→を：00422_wo⟧⟦{出|だ}す→出す：01087_dasu⟧: to send in a substitute\n- {交代|こうたい}{選手|せんしゅ}⟦を→を：00422_wo⟧⟦{投入|とうにゅう}する→投入する：20660_tounyuusuru⟧: to bring on a substitute\n- {交代|こうたい}{選手|せんしゅ}⟦として→として：06802_toshite⟧⟦{出場|しゅつじょう}する→出場する：20348_shutsujousuru⟧: to appear as a substitute\n- {交代|こうたい}{選手|せんしゅ}⟦が→が：00051_ga⟧⟦{活躍|かつやく}する→活躍する：25354_katsuyakusuru⟧: the substitute plays well\n\nSIMILAR WORDS:\n- ⟦{控|ひか}え{選手|せんしゅ}→控え選手：20951_hikaesenshu⟧: reserve player — a player on the roster but not starting; broader than {交代選手|こうたいせんしゅ}\n- ⟦{補欠|ほけつ}→補欠：16029_hoketsu⟧: reserve, alternate — often implies not being good enough to start\n- ⟦{代打|だいだ}→代打：19621_daida⟧: pinch hitter — specific to baseball",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20951_hikaesenshu",
+      "reading": "ひかえせんしゅ",
+      "headword": "{控|ひか}え{選手|せんしゅ}",
+      "label": "reserve player"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16029_hoketsu",
+      "reading": "ほけつ",
+      "headword": "{補欠|ほけつ}",
+      "label": "reserve, alternate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19621_daida",
+      "reading": "だいだ",
+      "headword": "{代打|だいだ}",
+      "label": "pinch hitter"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["sports"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "sports"
+      ]
     },
     "created": "2026-05-01T15:34:35Z",
-    "modified": "2026-05-01T15:34:35Z"
+    "modified": "2026-09-02T04:02:26Z"
   }
 }

@@ -2,7 +2,7 @@
   "id": "02517_enkisuru",
   "headword": "{延期|えんき}する",
   "reading": "えんきする",
-  "part_of_speech": "verb (suru)",
+  "part_of_speech": "suru verb",
   "gloss": "postpone, put off",
   "conjugation": {
     "type": "suru",
@@ -134,7 +134,7 @@
     },
     {
       "id": "02517_enkisuru_ex4",
-      "japanese": "⟦{台風|たいふう}→台風：01455_taifuu⟧⟦が→が：00051_ga⟧⟦{近|ちか}づいている→近づく：01958_chikazuku⟧ので、⟦{旅行|りょこう}→旅行：00748_ryokou⟧⟦を→を：00422_wo⟧⟦{一週間|いっしゅうかん}→一週間：10979_isshuukan⟧{延期|えんき}する⟦ことにした→ことにする：10986_kotonisuru⟧。",
+      "japanese": "⟦{台風|たいふう}→台風：01455_taifuu⟧⟦が→が：00051_ga⟧⟦{近|ちか}づいている→近づく：01958_chikazuku⟧⟦の→の：09472_no⟧で、⟦{旅行|りょこう}→旅行：00748_ryokou⟧⟦を→を：00422_wo⟧⟦{一週間|いっしゅうかん}→一週間：10979_isshuukan⟧{延期|えんき}する⟦ことにした→ことにする：10986_kotonisuru⟧。",
       "english": "Since a typhoon is approaching, we decided to postpone the trip by one week.",
       "notes": null,
       "has_audio": false,
@@ -161,11 +161,53 @@
       "headword": "{遅|おく}らせる",
       "label": "delay, make late",
       "target_id": "02480_okuraseru"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17088_okurasu",
+      "reading": "おくらす",
+      "headword": "{遅|おく}らす",
+      "label": "to delay"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21909_chuushisuru",
+      "reading": "ちゅうしする",
+      "headword": "{中止|ちゅうし}する",
+      "label": "to cancel"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24384_sakinobashinisuru",
+      "reading": "さきのばしにする",
+      "headword": "{先延|さきの}ばしにする",
+      "label": "to postpone"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24389_sakiokurinisuru",
+      "reading": "さきおくりにする",
+      "headword": "{先送|さきおく}りにする",
+      "label": "to defer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27000_sakiokurisuru",
+      "reading": "さきおくりする",
+      "headword": "{先送|さきおく}りする",
+      "label": "to postpone"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28291_nobasu",
+      "reading": "のばす",
+      "headword": "{延|の}ばす",
+      "label": "to postpone"
     }
   ],
   "metadata": {
     "created": "2026-01-11T09:31:40Z",
-    "modified": "2026-06-11T18:03:17Z",
+    "modified": "2026-09-02T04:01:01Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08871_bougyoritsu_ex1",
-      "japanese": "{防御率|ぼうぎょりつ}が2.50だ。",
+      "japanese": "{防御率|ぼうぎょりつ}⟦が→が：00051_ga⟧2.50だ。",
       "english": "The ERA is 2.50.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "08871_bougyoritsu_ex2",
-      "japanese": "あの{投手|とうしゅ}はリーグ{最高|さいこう}の{防御率|ぼうぎょりつ}を{記録|きろく}した。",
+      "japanese": "⟦あの→あの：00915_ano⟧⟦{投手|とうしゅ}→投手：06563_toushu⟧⟦は→は：00079_ha⟧⟦リーグ→リーグ：11600_riigu⟧⟦{最高|さいこう}→最高：02637_saikou⟧⟦の→の：09472_no⟧{防御率|ぼうぎょりつ}⟦を→を：00422_wo⟧⟦{記録|きろく}した→記録する：25341_kirokusuru⟧。",
       "english": "That pitcher recorded the best ERA in the league.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "08871_bougyoritsu_ex3",
-      "japanese": "{防御率|ぼうぎょりつ}が{低|ひく}いほど{投手|とうしゅ}の{成績|せいせき}が{良|よ}い。",
+      "japanese": "{防御率|ぼうぎょりつ}⟦が→が：00051_ga⟧⟦{低|ひく}い→低い：02947_hikui⟧ほど⟦{投手|とうしゅ}→投手：06563_toushu⟧⟦の→の：09472_no⟧⟦{成績|せいせき}→成績：03379_seiseki⟧⟦が→が：00051_ga⟧⟦{良|よ}い→良い：02350_yoi⟧。",
       "english": "The lower the ERA, the better the pitcher's performance.",
       "notes": null,
       "has_audio": false,
@@ -43,11 +43,26 @@
       ]
     }
   ],
-  "notes": "{防御率|ぼうぎょりつ} is a key statistic in Japanese baseball ({野球|やきゅう}). It measures pitcher effectiveness.\n\nCALCULATION:\n- {防御率|ぼうぎょりつ} = ({自責点|じせきてん} × 9) ÷ {投球|とうきゅう}{回数|かいすう}\n- {自責点|じせきてん}: earned runs\n- {投球|とうきゅう}{回数|かいすう}: innings pitched\n\nGENERAL BENCHMARKS:\n- 2.00{以下|いか}: excellent\n- 3.00{前後|ぜんご}: good\n- 4.00{以上|いじょう}: below average\n\nRELATED BASEBALL TERMS:\n- {投手|とうしゅ}: pitcher\n- {先発|せんぱつ}{投手|とうしゅ}: starting pitcher\n- {勝利|しょうり}{数|すう}: wins\n- {奪三振数|だつさんしんすう}: strikeouts\n\nBaseball is extremely popular in Japan, with NPB ({日本|にほん}プロ{野球|やきゅう}) being the top professional league.",
-  "cross_references": [],
+  "notes": "{防御率|ぼうぎょりつ} is a key statistic in Japanese baseball (⟦{野球|やきゅう}→野球：04727_yakyuu⟧). It measures pitcher effectiveness.\n\nCALCULATION:\n- {防御率|ぼうぎょりつ} = ({自責点|じせきてん} × 9) ÷ ⟦{投球|とうきゅう}→投球：15510_toukyuu⟧⟦{回数|かいすう}→回数：00139_kaisuu⟧\n- {自責点|じせきてん}: earned runs\n- ⟦{投球|とうきゅう}→投球：15510_toukyuu⟧⟦{回数|かいすう}→回数：00139_kaisuu⟧: innings pitched\n\nGENERAL BENCHMARKS:\n- 2.00⟦{以下|いか}→以下：01294_ika⟧: excellent\n- 3.00⟦{前後|ぜんご}→前後：04042_zengo⟧: good\n- 4.00⟦{以上|いじょう}→以上：01308_ijou⟧: below average\n\nRELATED BASEBALL TERMS:\n- ⟦{投手|とうしゅ}→投手：06563_toushu⟧: pitcher\n- ⟦{先発|せんぱつ}{投手|とうしゅ}→先発投手：26597_senpatsutoushu⟧: starting pitcher\n- ⟦{勝利|しょうり}→勝利：11795_shouri⟧⟦{数|すう}→数：03360_suu⟧: wins\n- {奪三振数|だつさんしんすう}: strikeouts\n\nBaseball is extremely popular in Japan, with NPB (⟦{日本|にほん}→日本：03876_nihon⟧⟦プロ{野球|やきゅう}→プロ野球：08837_puroyakyuu⟧) being the top professional league.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "06563_toushu",
+      "reading": "とうしゅ",
+      "headword": "{投手|とうしゅ}",
+      "label": "pitcher"
+    },
+    {
+      "type": "related",
+      "target_id": "26597_senpatsutoushu",
+      "reading": "せんぱつとうしゅ",
+      "headword": "{先発|せんぱつ}{投手|とうしゅ}",
+      "label": "starting pitcher"
+    }
+  ],
   "metadata": {
     "created": "2026-01-28T23:59:43Z",
-    "modified": "2026-04-10T07:12:46Z",
+    "modified": "2026-09-02T04:01:16Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

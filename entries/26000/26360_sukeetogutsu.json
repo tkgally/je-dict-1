@@ -15,39 +15,60 @@
   "examples": [
     {
       "id": "26360_sukeetogutsu_ex1",
-      "japanese": "スケート{靴|ぐつ}を{借|か}りてリンクに{入|はい}った。",
+      "japanese": "スケート{靴|ぐつ}⟦を→を：00422_wo⟧⟦{借|か}りて→借りる：00532_kariru⟧⟦リンク→リンク：07341_rinku⟧⟦に→に：00314_ni⟧⟦{入|はい}った→入る：00494_hairu⟧。",
       "english": "I rented ice skates and entered the rink.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26360_sukeetogutsu_ex2",
-      "japanese": "スケート{靴|ぐつ}の{紐|ひも}をしっかり{結|むす}んでから{滑|すべ}ろう。",
+      "japanese": "スケート{靴|ぐつ}⟦の→の：09472_no⟧⟦{紐|ひも}→紐：02251_himo⟧⟦を→を：00422_wo⟧⟦しっかり→しっかり：01272_shikkari⟧⟦{結|むす}んで→結ぶ：02308_musubu⟧⟦から→から：00504_kara⟧⟦{滑|すべ}ろう→滑る：01230_suberu⟧。",
       "english": "Let's tie the skate laces tightly before we start skating.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26360_sukeetogutsu_ex3",
-      "japanese": "{新|あたら}しいスケート{靴|ぐつ}は{足|あし}に{馴染|なじ}むまで{少|すこ}し{時間|じかん}がかかる。",
+      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧スケート{靴|ぐつ}⟦は→は：00079_ha⟧⟦{足|あし}→足：00575_ashi⟧⟦に→に：00314_ni⟧⟦{馴染|なじ}む→馴染む：14631_najimu⟧⟦まで→まで：00490_made⟧⟦{少|すこ}し→少し：00596_sukoshi⟧⟦{時間|じかん}がかかる→時間がかかる：26082_jikangakakaru⟧。",
       "english": "New ice skates take some time to break in.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of スケート (skate) and {靴|くつ} (shoes/boots), with {靴|くつ} voiced to {靴|ぐつ} in the compound (rendaku). Refers specifically to ice skates in most contexts.\n\nCOMMON COLLOCATIONS:\n- スケート{靴|ぐつ}を{履|は}く: to put on ice skates\n- スケート{靴|ぐつ}を{借|か}りる: to rent ice skates\n- スケート{靴|ぐつ}の{刃|は}: skate blade\n- スケート{靴|ぐつ}を{研|と}ぐ: to sharpen skate blades\n\nTYPES:\n- フィギュアスケート{靴|ぐつ}: figure skates\n- スピードスケート{靴|ぐつ}: speed skates\n- ホッケー{靴|ぐつ}: hockey skates\n\nSIMILAR WORDS:\n- ローラースケート: roller skates — wheeled skates for flat surfaces\n- スケート{靴|ぐつ}: this word specifically implies ice, but context may vary",
-  "cross_references": [],
+  "notes": "Composed of ⟦スケート→スケート：00388_sukeeto⟧ (skate) and ⟦{靴|くつ}→靴：00725_kutsu⟧ (shoes/boots), with ⟦{靴|くつ}→靴：00725_kutsu⟧ voiced to {靴|ぐつ} in the compound (rendaku). Refers specifically to ice skates in most contexts.\n\nCOMMON COLLOCATIONS:\n- スケート{靴|ぐつ}⟦を→を：00422_wo⟧⟦{履|は}く→履く：00700_haku⟧: to put on ice skates\n- スケート{靴|ぐつ}⟦を→を：00422_wo⟧⟦{借|か}りる→借りる：00532_kariru⟧: to rent ice skates\n- スケート{靴|ぐつ}⟦の→の：09472_no⟧⟦{刃|は}→刃：09865_ha⟧: skate blade\n- スケート{靴|ぐつ}⟦を→を：00422_wo⟧⟦{研|と}ぐ→研ぐ：04377_togu⟧: to sharpen skate blades\n\nTYPES:\n- フィギュアスケート{靴|ぐつ}: figure skates\n- スピードスケート{靴|ぐつ}: speed skates\n- ホッケー{靴|ぐつ}: hockey skates\n\nSIMILAR WORDS:\n- ⟦ローラースケート→ローラースケート：26359_rooraasukeeto⟧: roller skates — wheeled skates for flat surfaces\n- スケート{靴|ぐつ}: this word specifically implies ice, but context may vary",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "26359_rooraasukeeto",
+      "reading": "ろーらーすけーと",
+      "headword": "ローラースケート",
+      "label": "roller skates"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["sports", "leisure"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "sports",
+        "leisure"
+      ]
     },
     "created": "2026-05-01T11:38:04Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T04:02:26Z"
   }
 }

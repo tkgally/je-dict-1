@@ -15,41 +15,81 @@
   "examples": [
     {
       "id": "18294_shuken_ex1",
-      "japanese": "{国|くに}の{主権|しゅけん}を{守|まも}る。",
+      "japanese": "⟦{国|くに}→国：02204_kuni⟧⟦の→の：09472_no⟧{主権|しゅけん}⟦を→を：00422_wo⟧⟦{守|まも}る→守る：01986_mamoru⟧。",
       "english": "To protect the nation's sovereignty.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18294_shuken_ex2",
-      "japanese": "{日本国憲法|にほんこくけんぽう}では{主権|しゅけん}は{国民|こくみん}にある。",
+      "japanese": "{日本国憲法|にほんこくけんぽう}⟦で→で：00502_de⟧⟦は→は：00079_ha⟧{主権|しゅけん}⟦は→は：00079_ha⟧⟦{国民|こくみん}→国民：02757_kokumin⟧⟦に→に：00314_ni⟧⟦ある→ある：00006_aru⟧。",
       "english": "Under the Japanese constitution, sovereignty lies with the people.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18294_shuken_ex3",
-      "japanese": "{領土|りょうど}{問題|もんだい}は{国家|こっか}の{主権|しゅけん}に{関|かか}わる{重大|じゅうだい}な{問題|もんだい}であり、{簡単|かんたん}には{解決|かいけつ}できない。",
+      "japanese": "⟦{領土|りょうど}→領土：15711_ryoudo⟧⟦{問題|もんだい}→問題：00797_mondai⟧⟦は→は：00079_ha⟧⟦{国家|こっか}→国家：02760_kokka⟧⟦の→の：09472_no⟧{主権|しゅけん}⟦に→に：00314_ni⟧⟦{関|かか}わる→関わる：03020_kakawaru⟧⟦{重大|じゅうだい}→重大：01641_juudai⟧な⟦{問題|もんだい}→問題：00797_mondai⟧で⟦あり→ある：00006_aru⟧、⟦{簡単|かんたん}→簡単：00713_kantan⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{解決|かいけつ}できない→解決する：17191_kaiketsusuru⟧。",
       "english": "Territorial issues are serious matters involving national sovereignty and cannot be easily resolved.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nA compound of {主|しゅ} (main, master) + {権|けん} (right, authority). Central to Japanese civics education. The concept of {国民|こくみん}{主権|しゅけん} (popular sovereignty) is one of the three pillars of the Japanese constitution.\n\nCOMMON COLLOCATIONS:\n- {国民|こくみん}{主権|しゅけん} (popular sovereignty)\n- {主権|しゅけん}を{行使|こうし}する (to exercise sovereignty)\n- {主権|しゅけん}{国家|こっか} (sovereign state)\n- {主権|しゅけん}を{侵害|しんがい}する (to violate sovereignty)\n\nSIMILAR WORDS:\n- {権力|けんりょく}: power, authority — broader, not limited to nations\n- {自治|じち}: self-governance, autonomy — governance at a local level",
-  "cross_references": [],
+  "notes": "USAGE:\nA compound of {主|しゅ} (main, master) + {権|けん} (right, authority). Central to Japanese civics education. The concept of ⟦{国民|こくみん}→国民：02757_kokumin⟧{主権|しゅけん} (popular sovereignty) is one of the three pillars of the Japanese constitution.\n\nCOMMON COLLOCATIONS:\n- ⟦{国民|こくみん}→国民：02757_kokumin⟧{主権|しゅけん} (popular sovereignty)\n- {主権|しゅけん}⟦を→を：00422_wo⟧⟦{行使|こうし}→行使：14087_koushi⟧⟦する→する：00392_suru⟧ (to exercise sovereignty)\n- {主権|しゅけん}⟦{国家|こっか}→国家：02760_kokka⟧ (sovereign state)\n- {主権|しゅけん}⟦を→を：00422_wo⟧⟦{侵害|しんがい}→侵害：11563_shingai⟧⟦する→する：00392_suru⟧ (to violate sovereignty)\n\nSIMILAR WORDS:\n- ⟦{権力|けんりょく}→権力：10020_kenryoku⟧: power, authority — broader, not limited to nations\n- ⟦{自治|じち}→自治：03985_jichi⟧: self-governance, autonomy — governance at a local level",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "10020_kenryoku",
+      "reading": "けんりょく",
+      "headword": "{権力|けんりょく}",
+      "label": "power, authority"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03985_jichi",
+      "reading": "じち",
+      "headword": "{自治|じち}",
+      "label": "self-governance, autonomy"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23172_shihaiken",
+      "reading": "しはいけん",
+      "headword": "{支配権|しはいけん}",
+      "label": "control"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24599_ouken",
+      "reading": "おうけん",
+      "headword": "{王権|おうけん}",
+      "label": "royal authority"
+    }
+  ],
   "metadata": {
     "created": "2026-03-21T01:18:54Z",
-    "modified": "2026-03-21T01:18:54Z",
+    "modified": "2026-09-02T04:01:51Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["politics", "law"]
+      "semantic": [
+        "politics",
+        "law"
+      ]
     }
   }
 }

@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "19648_icchisuru_ex1",
-      "japanese": "{意見|いけん}が{一致|いっち}した。",
+      "japanese": "⟦{意見|いけん}→意見：01303_iken⟧⟦が→が：00051_ga⟧{一致|いっち}した。",
       "english": "Our opinions agreed.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "19648_icchisuru_ex2",
-      "japanese": "{指紋|しもん}がデータベースと{一致|いっち}した。",
+      "japanese": "⟦{指紋|しもん}→指紋：12728_shimon⟧⟦が→が：00051_ga⟧⟦データベース→データベース：04720_deetabeesu⟧⟦と→と：00512_to⟧{一致|いっち}した。",
       "english": "The fingerprint matched the database.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "19648_icchisuru_ex3",
-      "japanese": "{全員|ぜんいん}の{意見|いけん}が{一致|いっち}することはめったにない。",
+      "japanese": "⟦{全員|ぜんいん}→全員：03310_zenin⟧⟦の→の：09472_no⟧⟦{意見|いけん}→意見：01303_iken⟧⟦が→が：00051_ga⟧{一致|いっち}すること⟦は→は：00079_ha⟧めったにない。",
       "english": "It is rare for everyone's opinions to agree completely.",
       "sense_numbers": [
         1
@@ -134,11 +134,33 @@
       "notes": null
     }
   ],
-  "notes": "An important word in both everyday and formal contexts. Used for consensus in meetings, matching data in investigations, and agreement of facts.\n\nCOMMON COLLOCATIONS:\n- {意見|いけん}の{一致|いっち}: agreement of opinions\n- {全会|ぜんかい}{一致|いっち}: unanimous agreement\n- {満場|まんじょう}{一致|いっち}: unanimous (of an audience/assembly)\n- {一致|いっち}{団結|だんけつ}: united, acting in solidarity\n- ～と{一致|いっち}する: to match with ~\n\nSIMILAR WORDS:\n- {合|あ}う: to match, to fit — everyday word for things matching or fitting together\n- {一致|いっち}する: to agree, to coincide — more formal, used for exact correspondence\n- {合致|がっち}する: to conform to, to be in line with — very formal, used in legal and policy contexts",
-  "cross_references": [],
+  "notes": "An important word in both everyday and formal contexts. Used for consensus in meetings, matching data in investigations, and agreement of facts.\n\nCOMMON COLLOCATIONS:\n- ⟦{意見|いけん}→意見：01303_iken⟧⟦の→の：09472_no⟧⟦{一致|いっち}→一致：01733_icchi⟧: agreement of opinions\n- ⟦{全会|ぜんかい}{一致|いっち}→全会一致：09760_zenkaiicchi⟧: unanimous agreement\n- ⟦{満場|まんじょう}{一致|いっち}→満場一致：28977_manjouicchi⟧: unanimous (of an audience/assembly)\n- ⟦{一致|いっち}{団結|だんけつ}→一致団結：20785_icchidanketsu⟧: united, acting in solidarity\n- ～⟦と→と：00512_to⟧{一致|いっち}する: to match with ~\n\nSIMILAR WORDS:\n- ⟦{合|あ}う→合う：10466_au⟧: to match, to fit — everyday word for things matching or fitting together\n- {一致|いっち}する: to agree, to coincide — more formal, used for exact correspondence\n- ⟦{合致|がっち}する→合致する：20213_gacchisuru⟧: to conform to, to be in line with — very formal, used in legal and policy contexts",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "10466_au",
+      "reading": "あう",
+      "headword": "{合|あ}う",
+      "label": "to match, to fit"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20213_gacchisuru",
+      "reading": "がっちする",
+      "headword": "{合致|がっち}する",
+      "label": "to conform to, to be in line with"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26919_chouwasuru",
+      "reading": "ちょうわする",
+      "headword": "{調和|ちょうわ}する",
+      "label": "to harmonize"
+    }
+  ],
   "metadata": {
     "created": "2026-03-26T09:40:14Z",
-    "modified": "2026-07-26T21:31:07Z",
+    "modified": "2026-09-02T04:01:56Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
@@ -149,7 +171,8 @@
       "semantic": [
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

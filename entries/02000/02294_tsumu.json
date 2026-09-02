@@ -2,7 +2,7 @@
   "id": "02294_tsumu",
   "headword": "{積|つ}む",
   "reading": "つむ",
-  "part_of_speech": "godan verb, transitive",
+  "part_of_speech": "verb (godan, transitive)",
   "gloss": "to pile up, to load, to accumulate",
   "conjugation": {
     "type": "godan",
@@ -134,7 +134,7 @@
     },
     {
       "id": "02294_tsumu_ex3",
-      "japanese": "⟦{机|つくえ}→机：00762_tsukue⟧⟦の→の：09472_no⟧⟦{上|うえ}→上：00682_ue⟧⟦に→に：00314_ni⟧⟦{書類|しょるい}→書類：01103_shorui⟧⟦が→が：00051_ga⟧⟦{山|やま}→山：02168_yama⟧のように{積|つ}まれている。",
+      "japanese": "⟦{机|つくえ}→机：00762_tsukue⟧⟦の→の：09472_no⟧⟦{上|うえ}→上：00682_ue⟧⟦に→に：00314_ni⟧⟦{書類|しょるい}→書類：01103_shorui⟧⟦が→が：00051_ga⟧⟦{山|やま}→山：02168_yama⟧⟦のように→のように：30291_noyouni⟧{積|つ}まれて⟦いる→いる：00495_iru⟧。",
       "english": "Documents are piled up like a mountain on the desk.",
       "notes": null,
       "has_audio": false,
@@ -154,7 +154,7 @@
     },
     {
       "id": "02294_tsumu_ex5",
-      "japanese": "⟦トラック→トラック：03863_torakku⟧⟦に→に：00314_ni⟧⟦{荷物|にもつ}→荷物：00737_nimotsu⟧⟦を→を：00422_wo⟧{積|つ}み{込|こ}む。",
+      "japanese": "⟦トラック→トラック：03863_torakku⟧⟦に→に：00314_ni⟧⟦{荷物|にもつ}→荷物：00737_nimotsu⟧⟦を→を：00422_wo⟧⟦{積|つ}み{込|こ}む→積み込む：16751_tsumikomu⟧。",
       "english": "To load cargo onto a truck.",
       "notes": null,
       "has_audio": false,
@@ -194,7 +194,7 @@
     },
     {
       "id": "02294_tsumu_ex9",
-      "japanese": "⟦{何年|なんねん}→何年：12737_nannen⟧⟦も→も：00484_mo⟧⟦{努力|どりょく}→努力：03490_doryoku⟧⟦を→を：00422_wo⟧{積|つ}み{重|かさ}ねて、⟦ようやく→漸く：00429_youyaku⟧⟦{結果|けっか}→結果：02486_kekka⟧⟦が→が：00051_ga⟧⟦{出|で}た→出る：00513_deru⟧。",
+      "japanese": "⟦{何年|なんねん}→何年：12737_nannen⟧⟦も→も：00484_mo⟧⟦{努力|どりょく}→努力：03490_doryoku⟧⟦を→を：00422_wo⟧⟦{積|つ}み{重|かさ}ねて→積み重ねる：06235_tsumikasaneru⟧、⟦ようやく→漸く：00429_youyaku⟧⟦{結果|けっか}→結果：02486_kekka⟧⟦が→が：00051_ga⟧⟦{出|で}た→出る：00513_deru⟧。",
       "english": "After accumulating years of effort, results finally appeared.",
       "notes": null,
       "has_audio": false,
@@ -204,10 +204,39 @@
     }
   ],
   "notes": "{積|つ}む means to pile up, stack, load, or accumulate—physically stacking things or figuratively building up experience.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- Pair: ⟦{積|つ}もる→積もる：01964_tsumoru⟧ (intransitive, to pile up by itself)\n\nCOMMON PATTERNS:\n- ⟦{荷物|にもつ}→荷物：00737_nimotsu⟧⟦を→を：00422_wo⟧{積|つ}む: to load luggage\n- ⟦{経験|けいけん}→経験：01179_keiken⟧⟦を→を：00422_wo⟧{積|つ}む: to gain/accumulate experience\n- ⟦{練習|れんしゅう}→練習：05323_renshuu⟧⟦を→を：00422_wo⟧{積|つ}む: to build up practice\n- ⟦{努力|どりょく}→努力：03490_doryoku⟧⟦を→を：00422_wo⟧⟦{積|つ}み{重|かさ}ねる→積み重ねる：06235_tsumikasaneru⟧: to make sustained effort\n\nCOMPOUNDS:\n- ⟦{積|つ}み{重|かさ}ねる→積み重ねる：06235_tsumikasaneru⟧: to pile up, accumulate\n- ⟦{積|つ}み{込|こ}む→積み込む：16751_tsumikomu⟧: to load (onto vehicle)\n- ⟦{山積|やまづ}み→山積み：16407_yamazumi⟧: piled high like a mountain",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "07920_tsumiageru",
+      "reading": "つみあげる",
+      "headword": "{積|つ}み{上|あ}げる",
+      "label": "to pile up"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12789_tousai",
+      "reading": "とうさい",
+      "headword": "{搭載|とうさい}",
+      "label": "loading, mounting, equipping"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15883_sekisai",
+      "reading": "せきさい",
+      "headword": "{積載|せきさい}",
+      "label": "loading"
+    },
+    {
+      "type": "homophone",
+      "target_id": "27840_tsumu",
+      "reading": "つむ",
+      "headword": "{詰|つ}む",
+      "label": "to be checkmated"
+    }
+  ],
   "metadata": {
     "created": "2026-01-09T08:17:01Z",
-    "modified": "2026-05-18T23:16:04Z",
+    "modified": "2026-09-02T04:01:01Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

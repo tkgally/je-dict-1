@@ -54,7 +54,7 @@
     },
     {
       "id": "03591_fuukei_ex5",
-      "japanese": "⟦{旅行先|りょこうさき}→旅行先：28195_ryokousaki⟧⟦で→で：00502_de⟧⟦{出会|であ}った→出会う：02298_deau⟧{風景|ふうけい}⟦が→が：00051_ga⟧あまりにも⟦{美|うつく}しくて→美しい：01121_utsukushii⟧、⟦しばらく→しばらく：01267_shibaraku⟧⟦{立|た}ち{止|と}まって→立ち止まる：04636_tachidomaru⟧⟦{眺|なが}めて→眺める：02132_nagameru⟧⟦いた→いる：00495_iru⟧。",
+      "japanese": "⟦{旅行先|りょこうさき}→旅行先：28195_ryokousaki⟧⟦で→で：00502_de⟧⟦{出会|であ}った→出会う：02298_deau⟧{風景|ふうけい}⟦が→が：00051_ga⟧あまり⟦に→に：00314_ni⟧⟦も→も：00484_mo⟧⟦{美|うつく}しくて→美しい：01121_utsukushii⟧、⟦しばらく→しばらく：01267_shibaraku⟧⟦{立|た}ち{止|と}まって→立ち止まる：04636_tachidomaru⟧⟦{眺|なが}めて→眺める：02132_nagameru⟧⟦いた→いる：00495_iru⟧。",
       "english": "The scenery I encountered at my travel destination was so beautiful that I stood still for a while and gazed at it.",
       "notes": null,
       "has_audio": false,
@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "USAGE: {風景|ふうけい} typically refers to natural scenery or landscapes, often with an aesthetic connotation.\n\nCOMMON PATTERNS:\n・{風景|ふうけい}⟦を→を：00422_wo⟧⟦{眺|なが}める→眺める：02132_nagameru⟧ (to gaze at the scenery)\n・⟦{風景|ふうけい}{画|が}→風景画：28196_fuukeiga⟧ (landscape painting)\n・{風景|ふうけい}⟦{写真|しゃしん}→写真：00753_shashin⟧ (landscape photography)\n・⟦{美|うつく}しい→美しい：01121_utsukushii⟧{風景|ふうけい} (beautiful scenery)\n\nSIMILAR WORDS:\n・⟦{景色|けしき}→景色：01395_keshiki⟧ - scenery (more general, can include urban views)\n・⟦{眺|なが}め→眺め：03502_nagame⟧ - view (what one sees from a particular spot)\n・⟦{光景|こうけい}→光景：02799_koukei⟧ - scene (often dramatic or memorable)",
+  "notes": "USAGE: {風景|ふうけい} typically refers to natural scenery or landscapes, often with an aesthetic connotation.\n\nCOMMON PATTERNS:\n- {風景|ふうけい}⟦を→を：00422_wo⟧⟦{眺|なが}める→眺める：02132_nagameru⟧ (to gaze at the scenery)\n- ⟦{風景|ふうけい}{画|が}→風景画：28196_fuukeiga⟧ (landscape painting)\n- {風景|ふうけい}⟦{写真|しゃしん}→写真：00753_shashin⟧ (landscape photography)\n- ⟦{美|うつく}しい→美しい：01121_utsukushii⟧{風景|ふうけい} (beautiful scenery)\n\nSIMILAR WORDS:\n- ⟦{景色|けしき}→景色：01395_keshiki⟧ - scenery (more general, can include urban views)\n- ⟦{眺|なが}め→眺め：03502_nagame⟧ - view (what one sees from a particular spot)\n- ⟦{光景|こうけい}→光景：02799_koukei⟧ - scene (often dramatic or memorable)",
   "cross_references": [
     {
       "type": "related",
@@ -71,11 +71,60 @@
       "headword": "{景色|けしき}",
       "label": "scenery",
       "target_id": "01395_keshiki"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03502_nagame",
+      "reading": "ながめ",
+      "headword": "{眺|なが}め",
+      "label": "view"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02799_koukei",
+      "reading": "こうけい",
+      "headword": "{光景|こうけい}",
+      "label": "scene"
+    },
+    {
+      "type": "related",
+      "target_id": "10434_yakei",
+      "reading": "やけい",
+      "headword": "{夜景|やけい}",
+      "label": "night view, night scenery"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20013_choubou",
+      "reading": "ちょうぼう",
+      "headword": "{眺望|ちょうぼう}",
+      "label": "view"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22211_bikan",
+      "reading": "びかん",
+      "headword": "{美観|びかん}",
+      "label": "beautiful appearance"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23148_sansui",
+      "reading": "さんすい",
+      "headword": "{山水|さんすい}",
+      "label": "landscape"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26191_bakei",
+      "reading": "ばけい",
+      "headword": "{場景|ばけい}",
+      "label": "scene"
     }
   ],
   "metadata": {
     "created": "2026-01-12T15:31:00Z",
-    "modified": "2026-08-13T15:50:29Z",
+    "modified": "2026-09-02T04:01:03Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

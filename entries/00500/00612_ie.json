@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "{家|いえ} refers to a house (building) and home (place where one lives).\n\nREADINGS:\n- {家|いえ}: house, home (standard reading)\n- ⟦うち→うち：noentry⟧: home, my house (more colloquial, can also mean \"my family/company\")\n\nCOMMON EXPRESSIONS:\n- {家|いえ}⟦に→に：00314_ni⟧⟦{帰|かえ}る→帰る：00508_kaeru⟧: to go home\n- {家|いえ}⟦を→を：00422_wo⟧⟦{建|た}てる→建てる：01189_tateru⟧: to build a house\n- {家|いえ}⟦を→を：00422_wo⟧⟦{買|か}う→買う：00489_kau⟧: to buy a house\n- {家|いえ}⟦で→で：00502_de⟧⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧: to work from home\n\nCOMPOUNDS:\n- ⟦{家賃|やちん}→家賃：03639_yachin⟧: rent\n- ⟦{家族|かぞく}→家族：00552_kazoku⟧: family\n- ⟦{家事|かじ}→家事：12313_kaji⟧: housework\n- ⟦{家庭|かてい}→家庭：12315_katei⟧: household, home\n\nSIMILAR WORDS:\n- ⟦{住宅|じゅうたく}→住宅：03280_juutaku⟧: residence, housing (formal)\n- ⟦{自宅|じたく}→自宅：00129_jitaku⟧: one's own home (formal)\n- ⟦マンション→マンション：01035_manshon⟧: apartment building",
+  "notes": "{家|いえ} refers to a house (building) and home (place where one lives).\n\nPRONUNCIATION:\n- {家|いえ}: house, home (standard reading)\n- ⟦うち→うち：noentry⟧: home, my house (more colloquial, can also mean \"my family/company\")\n\nCOMMON EXPRESSIONS:\n- {家|いえ}⟦に→に：00314_ni⟧⟦{帰|かえ}る→帰る：00508_kaeru⟧: to go home\n- {家|いえ}⟦を→を：00422_wo⟧⟦{建|た}てる→建てる：01189_tateru⟧: to build a house\n- {家|いえ}⟦を→を：00422_wo⟧⟦{買|か}う→買う：00489_kau⟧: to buy a house\n- {家|いえ}⟦で→で：00502_de⟧⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧: to work from home\n\nCOMPOUNDS:\n- ⟦{家賃|やちん}→家賃：03639_yachin⟧: rent\n- ⟦{家族|かぞく}→家族：00552_kazoku⟧: family\n- ⟦{家事|かじ}→家事：12313_kaji⟧: housework\n- ⟦{家庭|かてい}→家庭：12315_katei⟧: household, home\n\nSIMILAR WORDS:\n- ⟦{住宅|じゅうたく}→住宅：03280_juutaku⟧: residence, housing (formal)\n- ⟦{自宅|じたく}→自宅：00129_jitaku⟧: one's own home (formal)\n- ⟦マンション→マンション：01035_manshon⟧: apartment building",
   "cross_references": [
     {
       "type": "related",
@@ -71,11 +71,67 @@
       "headword": "{家族|かぞく}",
       "target_id": "00552_kazoku",
       "label": "family"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03280_juutaku",
+      "reading": "じゅうたく",
+      "headword": "{住宅|じゅうたく}",
+      "label": "residence, housing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00129_jitaku",
+      "reading": "じたく",
+      "headword": "{自宅|じたく}",
+      "label": "one's own home"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01035_manshon",
+      "reading": "まんしょん",
+      "headword": "マンション",
+      "label": "apartment building"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01569_otaku",
+      "reading": "おたく",
+      "headword": "お{宅|たく}",
+      "label": "(someone else's) home"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12395_yashiki",
+      "reading": "やしき",
+      "headword": "{屋敷|やしき}",
+      "label": "mansion, estate, residence"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23029_tei",
+      "reading": "てい",
+      "headword": "{邸|てい}",
+      "label": "mansion"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25478_sumika",
+      "reading": "すみか",
+      "headword": "{住処|すみか}",
+      "label": "dwelling"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27540_uchi",
+      "reading": "うち",
+      "headword": "うち",
+      "label": "my home"
     }
   ],
   "metadata": {
     "created": "2026-01-07T15:10:54Z",
-    "modified": "2026-05-12T13:16:23Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

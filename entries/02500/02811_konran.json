@@ -2,7 +2,7 @@
   "id": "02811_konran",
   "headword": "{混乱|こんらん}",
   "reading": "こんらん",
-  "part_of_speech": "noun / suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "confusion, chaos, disorder",
   "conjugation": {
     "type": "suru",
@@ -134,7 +134,7 @@
     },
     {
       "id": "02811_konran_ex4",
-      "japanese": "⟦{突然|とつぜん}→突然：00409_totsuzen⟧⟦の→の：09472_no⟧システム⟦{障害|しょうがい}→障害：03228_shougai⟧⟦により→によって：06801_niyotte⟧、⟦{現場|げんば}→現場：02723_genba⟧⟦は→は：00079_ha⟧⟦{大|おお}きな→大きな：02849_ookina⟧{混乱|こんらん}⟦に→に：00314_ni⟧⟦{陥|おちい}った→陥る：14537_ochiiru⟧。",
+      "japanese": "⟦{突然|とつぜん}→突然：00409_totsuzen⟧⟦の→の：09472_no⟧⟦システム→システム：08428_shisutemu⟧⟦{障害|しょうがい}→障害：03228_shougai⟧⟦により→によって：06801_niyotte⟧、⟦{現場|げんば}→現場：02723_genba⟧⟦は→は：00079_ha⟧⟦{大|おお}きな→大きな：02849_ookina⟧{混乱|こんらん}⟦に→に：00314_ni⟧⟦{陥|おちい}った→陥る：14537_ochiiru⟧。",
       "english": "Due to the sudden system failure, the site fell into great confusion.",
       "notes": null,
       "has_audio": false,
@@ -151,11 +151,67 @@
       "reading": "こんざつ",
       "headword": "{混雑|こんざつ}",
       "label": "congestion, crowding"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14656_soudou",
+      "reading": "そうどう",
+      "headword": "{騒動|そうどう}",
+      "label": "commotion, disturbance"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11171_panikku",
+      "reading": "ぱにっく",
+      "headword": "パニック",
+      "label": "panic"
+    },
+    {
+      "type": "related",
+      "target_id": "09170_konwaku",
+      "reading": "こんわく",
+      "headword": "{困惑|こんわく}",
+      "label": "bewilderment, perplexity, confusion"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13371_gekidou",
+      "reading": "げきどう",
+      "headword": "{激動|げきどう}",
+      "label": "upheaval, turbulence"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16723_touwaku",
+      "reading": "とうわく",
+      "headword": "{当惑|とうわく}",
+      "label": "bewilderment, confusion, perplexity"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19580_sakusou",
+      "reading": "さくそう",
+      "headword": "{錯綜|さくそう}",
+      "label": "complication"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21429_muchitsujo",
+      "reading": "むちつじょ",
+      "headword": "{無秩序|むちつじょ}",
+      "label": "disorder"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25777_sakuran",
+      "reading": "さくらん",
+      "headword": "{錯乱|さくらん}",
+      "label": "confusion"
     }
   ],
   "metadata": {
     "created": "2026-01-11T08:52:30Z",
-    "modified": "2026-05-22T15:14:01Z",
+    "modified": "2026-09-02T04:01:02Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

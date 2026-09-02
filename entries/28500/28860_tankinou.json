@@ -15,41 +15,61 @@
   "examples": [
     {
       "id": "28860_tankinou_ex1",
-      "japanese": "{単機能|たんきのう}の{電子|でんし}レンジを{買|か}った。",
+      "japanese": "{単機能|たんきのう}⟦の→の：09472_no⟧⟦{電子|でんし}レンジ→電子レンジ：04973_denshirenji⟧⟦を→を：00422_wo⟧⟦{買|か}った→買う：00489_kau⟧。",
       "english": "I bought a single-function microwave.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28860_tankinou_ex2",
-      "japanese": "{単機能|たんきのう}{家電|かでん}は{操作|そうさ}が{簡単|かんたん}だ。",
+      "japanese": "{単機能|たんきのう}⟦{家電|かでん}→家電：04966_kaden⟧⟦は→は：00079_ha⟧⟦{操作|そうさ}→操作：03316_sousa⟧⟦が→が：00051_ga⟧⟦{簡単|かんたん}→簡単：00713_kantan⟧だ。",
       "english": "Single-function appliances are easy to operate.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28860_tankinou_ex3",
-      "japanese": "{多機能|たきのう}{機種|きしゅ}は{高|たか}いので、{予算|よさん}を{抑|おさ}えたい{人|ひと}には{単機能|たんきのう}{タイプ|たいぷ}がおすすめだ。",
+      "japanese": "⟦{多機能|たきのう}→多機能：18683_takinou⟧⟦{機種|きしゅ}→機種：13211_kishu⟧⟦は→は：00079_ha⟧⟦{高|たか}い→高い：00500_takai⟧⟦の→の：09472_no⟧で、⟦{予算|よさん}→予算：03663_yosan⟧⟦を→を：00422_wo⟧⟦{抑|おさ}えたい→抑える：12806_osaeru⟧⟦{人|ひと}→人：00476_hito⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{単機能|たんきのう}⟦タイプ→タイプ：01534_taipu⟧⟦が→が：00051_ga⟧⟦おすすめ→おすすめ：09746_osusume⟧だ。",
       "english": "Multifunctional models are expensive, so for those looking to keep costs down, a single-function type is recommended.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Compound of {単|たん} (single) + {機能|きのう} (function). The direct antonym is {多機能|たきのう} (multifunctional), and the two are routinely contrasted in product descriptions.\n\nCOMMON COLLOCATIONS:\n- {単機能|たんきのう}{電子|でんし}レンジ: single-function microwave (heating only)\n- {単機能|たんきのう}{タイプ|たいぷ}: single-function type\n- {単機能|たんきのう}{家電|かでん}: single-function home appliance\n- {単機能|たんきのう}モデル: basic / single-function model\n\nSIMILAR WORDS:\n- {多機能|たきのう}: multifunctional (antonym)\n- シンプル: simple — overlaps in nuance but is broader\n- ベーシック: basic — a marketing-flavored loanword used the same way",
+  "notes": "Compound of {単|たん} (single) + ⟦{機能|きのう}→機能：13165_kinou⟧ (function). The direct antonym is ⟦{多機能|たきのう}→多機能：18683_takinou⟧ (multifunctional), and the two are routinely contrasted in product descriptions.\n\nCOMMON COLLOCATIONS:\n- {単機能|たんきのう}⟦{電子|でんし}レンジ→電子レンジ：04973_denshirenji⟧: single-function microwave (heating only)\n- {単機能|たんきのう}⟦タイプ→タイプ：01534_taipu⟧: single-function type\n- {単機能|たんきのう}⟦{家電|かでん}→家電：04966_kaden⟧: single-function home appliance\n- {単機能|たんきのう}⟦モデル→モデル：05112_moderu⟧: basic / single-function model\n\nSIMILAR WORDS:\n- ⟦{多機能|たきのう}→多機能：18683_takinou⟧: multifunctional (antonym)\n- ⟦シンプル→シンプル：10943_shinpuru⟧: simple — overlaps in nuance but is broader\n- ベーシック: basic — a marketing-flavored loanword used the same way",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "18683_takinou",
+      "reading": "たきのう",
+      "headword": "{多機能|たきのう}",
+      "label": "multifunctional"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["technology", "daily-life"],
+      "politeness": "plain",
+      "semantic": [
+        "technology",
+        "daily-life"
+      ],
       "domain": []
     },
     "created": "2026-06-06T03:14:15Z",
-    "modified": "2026-06-06T03:14:15Z"
+    "modified": "2026-09-02T04:02:35Z"
   }
 }

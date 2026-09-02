@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30313_nosutarujii_ex1",
-      "japanese": "ノスタルジーを{感|かん}じる。",
+      "japanese": "ノスタルジー⟦を→を：00422_wo⟧⟦{感|かん}じる→感じる：02044_kanjiru⟧。",
       "english": "I feel a sense of nostalgia.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30313_nosutarujii_ex2",
-      "japanese": "この{曲|きょく}は{聞|き}くたびにノスタルジーを{誘|さそ}う。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{曲|きょく}→曲：09881_kyoku⟧⟦は→は：00079_ha⟧⟦{聞|き}く→聞く：00483_kiku⟧たび⟦に→に：00314_ni⟧ノスタルジー⟦を→を：00422_wo⟧⟦{誘|さそ}う→誘う：01947_sasou⟧。",
       "english": "This song brings on a wave of nostalgia every time I hear it.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30313_nosutarujii_ex3",
-      "japanese": "{昭和|しょうわ}の{街並|まちな}みを{再現|さいげん}した{施設|しせつ}は、{中高年|ちゅうこうねん}のノスタルジーに{訴|うった}えている。",
+      "japanese": "⟦{昭和|しょうわ}→昭和：28079_shouwa⟧⟦の→の：09472_no⟧{街並|まちな}み⟦を→を：00422_wo⟧⟦{再現|さいげん}→再現：09777_saigen⟧⟦した→する：00392_suru⟧⟦{施設|しせつ}→施設：02503_shisetsu⟧⟦は→は：00079_ha⟧、⟦{中高年|ちゅうこうねん}→中高年：19988_chuukounen⟧⟦の→の：09472_no⟧ノスタルジー⟦に→に：00314_ni⟧⟦{訴|うった}えている→訴える：01891_uttaeru⟧。",
       "english": "The facility recreating a Showa-era streetscape appeals to the nostalgia of middle-aged and older visitors.",
       "sense_numbers": [
         1
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "From French \"nostalgie\". The adjectival form ノスタルジック(な) is at least as common as the noun.\n\nCOMMON COLLOCATIONS:\n- ノスタルジーを{感|かん}じる: to feel nostalgia\n- ノスタルジーを{誘|さそ}う: to evoke nostalgia\n- ノスタルジーに{浸|ひた}る: to steep oneself in nostalgia\n- ノスタルジック(な): nostalgic\n\nSIMILAR WORDS:\n- {懐|なつ}かしい: nostalgic, fondly remembered — the ordinary word, said of the thing that evokes the feeling\n- {郷愁|きょうしゅう}: homesickness, nostalgia — the native equivalent, weightier and more literary\n- {望郷|ぼうきょう}: longing for home — specifically for one's native place",
+  "notes": "From French \"nostalgie\". The adjectival form ノスタルジック(な) is at least as common as the noun.\n\nCOMMON COLLOCATIONS:\n- ノスタルジー⟦を→を：00422_wo⟧⟦{感|かん}じる→感じる：02044_kanjiru⟧: to feel nostalgia\n- ノスタルジー⟦を→を：00422_wo⟧⟦{誘|さそ}う→誘う：01947_sasou⟧: to evoke nostalgia\n- ノスタルジー⟦に→に：00314_ni⟧⟦{浸|ひた}る→浸る：13339_hitaru⟧: to steep oneself in nostalgia\n- ノスタルジック(な): nostalgic\n\nSIMILAR WORDS:\n- ⟦{懐|なつ}かしい→懐かしい：02484_natsukashii⟧: nostalgic, fondly remembered — the ordinary word, said of the thing that evokes the feeling\n- ⟦{郷愁|きょうしゅう}→郷愁：06000_kyoushuu⟧: homesickness, nostalgia — the native equivalent, weightier and more literary\n- ⟦{望郷|ぼうきょう}→望郷：19931_boukyou⟧: longing for home — specifically for one's native place",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02484_natsukashii",
+      "reading": "なつかしい",
+      "headword": "{懐|なつ}かしい",
+      "label": "nostalgic, fondly remembered"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06000_kyoushuu",
+      "reading": "きょうしゅう",
+      "headword": "{郷愁|きょうしゅう}",
+      "label": "homesickness, nostalgia"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19931_boukyou",
+      "reading": "ぼうきょう",
+      "headword": "{望郷|ぼうきょう}",
+      "label": "longing for home"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06729_natsukashisa",
+      "reading": "なつかしさ",
+      "headword": "{懐|なつ}かしさ",
+      "label": "nostalgia"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +83,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "emotion"
       ],
       "domain": []
     },
     "created": "2026-08-01T15:17:17Z",
-    "modified": "2026-08-01T15:17:17Z"
+    "modified": "2026-09-02T04:02:39Z"
   }
 }

@@ -15,41 +15,67 @@
   "examples": [
     {
       "id": "30059_saidobakku_ex1",
-      "japanese": "{右|みぎ}のサイドバックを{任|まか}される。",
+      "japanese": "⟦{右|みぎ}→右：02257_migi⟧⟦の→の：09472_no⟧サイドバック⟦を→を：00422_wo⟧{任|まか}される。",
       "english": "Be entrusted with the right fullback position.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "30059_saidobakku_ex2",
-      "japanese": "サイドバックが{攻撃|こうげき}に{参加|さんか}する。",
+      "japanese": "サイドバック⟦が→が：00051_ga⟧⟦{攻撃|こうげき}→攻撃：02748_kougeki⟧⟦に→に：00314_ni⟧⟦{参加|さんか}する→参加する：25408_sankasuru⟧。",
       "english": "The fullback joins the attack.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "30059_saidobakku_ex3",
-      "japanese": "{現代|げんだい}のサッカーでは、サイドバックにも{高|たか}い{運動量|うんどうりょう}が{求|もと}められる。",
+      "japanese": "⟦{現代|げんだい}→現代：02722_gendai⟧⟦の→の：09472_no⟧⟦サッカー→サッカー：04726_sakkaa⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧、サイドバック⟦に→に：00314_ni⟧⟦も→も：00484_mo⟧⟦{高|たか}い→高い：00500_takai⟧⟦{運動量|うんどうりょう}→運動量：24918_undouryou⟧⟦が→が：00051_ga⟧⟦{求|もと}められる→求める：02316_motomeru⟧。",
       "english": "In modern soccer, fullbacks too are required to cover a lot of ground.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "From English 'side back'. The defenders on the left and right ends of the back line, who both defend the flank and support attacks.\n\nCOMMON COLLOCATIONS:\n- {右|みぎ}サイドバック: right back\n- {左|ひだり}サイドバック: left back\n- サイドバックが{上|あ}がる: the fullback pushes forward\n\nSIMILAR WORDS:\n- センターバック: center back — the central defender\n- サイドハーフ: side midfielder — plays ahead of the fullback on the wing",
+  "notes": "From English 'side back'. The defenders on the left and right ends of the back line, who both defend the flank and support attacks.\n\nCOMMON COLLOCATIONS:\n- {右|みぎ}サイドバック: right back\n- ⟦{左|ひだり}→左：00628_hidari⟧サイドバック: left back\n- サイドバック⟦が→が：00051_ga⟧⟦{上|あ}がる→上がる：00615_agaru⟧: the fullback pushes forward\n\nSIMILAR WORDS:\n- ⟦センターバック→センターバック：30058_sentaabakku⟧: center back — the central defender\n- ⟦サイドハーフ→サイドハーフ：30061_saidohaafu⟧: side midfielder — plays ahead of the fullback on the wing",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "30058_sentaabakku",
+      "reading": "せんたーばっく",
+      "headword": "センターバック",
+      "label": "center back"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30061_saidohaafu",
+      "reading": "さいどはーふ",
+      "headword": "サイドハーフ",
+      "label": "side midfielder"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["sports"],
+      "politeness": "plain",
+      "semantic": [
+        "sports"
+      ],
       "domain": []
     },
     "created": "2026-07-23T00:19:28Z",
-    "modified": "2026-07-23T00:19:28Z"
+    "modified": "2026-09-02T04:02:38Z"
   }
 }

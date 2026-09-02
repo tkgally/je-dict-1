@@ -3,7 +3,7 @@
   "headword": "{改新|かいしん}",
   "reading": "かいしん",
   "romaji": "kaishin",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "reform; renewal; innovation",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21591_kaishin_ex1",
-      "japanese": "{制度|せいど}の{改新|かいしん}が{必要|ひつよう}だ。",
+      "japanese": "⟦{制度|せいど}→制度：03291_seido⟧⟦の→の：09472_no⟧{改新|かいしん}⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧だ。",
       "english": "Reform of the system is necessary.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21591_kaishin_ex2",
-      "japanese": "{大化|たいか}の{改新|かいしん}は{日本|にほん}の{歴史|れきし}の{転換点|てんかんてん}だった。",
+      "japanese": "{大化|たいか}⟦の→の：09472_no⟧{改新|かいしん}⟦は→は：00079_ha⟧⟦{日本|にほん}→日本：03876_nihon⟧⟦の→の：09472_no⟧⟦{歴史|れきし}→歴史：02267_rekishi⟧⟦の→の：09472_no⟧⟦{転換点|てんかんてん}→転換点：09951_tenkanten⟧だった。",
       "english": "The Taika Reform was a turning point in Japanese history.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21591_kaishin_ex3",
-      "japanese": "{組織|そしき}を{改新|かいしん}して、{時代|じだい}に{合|あ}った{形|かたち}にする{必要|ひつよう}がある。",
+      "japanese": "⟦{組織|そしき}→組織：03320_soshiki⟧⟦を→を：00422_wo⟧{改新|かいしん}⟦して→する：00392_suru⟧、⟦{時代|じだい}→時代：01424_jidai⟧⟦に→に：00314_ni⟧⟦{合|あ}った→合う：10466_au⟧⟦{形|かたち}→形：02193_katachi⟧⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "We need to reform the organization and bring it into a form suited to the times.",
       "sense_numbers": [
         1
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {改|かい} (change, reform) and {新|しん} (new). Most strongly associated with {大化|たいか}の{改新|かいしん} (Taika Reform, 645 CE), which centralized political power under the emperor and is a key topic in Japanese history education.\n\nCOMMON COLLOCATIONS:\n- {大化|たいか}の{改新|かいしん}: the Taika Reform (645 CE)\n- {制度|せいど}の{改新|かいしん}: institutional reform\n- {改新|かいしん}を{行|おこな}う: to carry out reform\n\nSIMILAR WORDS:\n- {改革|かいかく}: reform — the most common modern word for reform, used broadly\n- {刷新|さっしん}: renovation, overhaul — implies sweeping, dramatic renewal\n- {革新|かくしん}: innovation, reform — emphasizes radical or progressive change\n- {維新|いしん}: restoration, revolution — used historically ({明治|めいじ}{維新|いしん}, Meiji Restoration)",
+  "notes": "Compound of {改|かい} (change, reform) and {新|しん} (new). Most strongly associated with {大化|たいか}⟦の→の：09472_no⟧{改新|かいしん} (Taika Reform, 645 CE), which centralized political power under the emperor and is a key topic in Japanese history education.\n\nCOMMON COLLOCATIONS:\n- {大化|たいか}⟦の→の：09472_no⟧{改新|かいしん}: the Taika Reform (645 CE)\n- ⟦{制度|せいど}→制度：03291_seido⟧⟦の→の：09472_no⟧{改新|かいしん}: institutional reform\n- {改新|かいしん}⟦を→を：00422_wo⟧⟦{行|おこな}う→行う：01238_okonau⟧: to carry out reform\n\nSIMILAR WORDS:\n- ⟦{改革|かいかく}→改革：04815_kaikaku⟧: reform — the most common modern word for reform, used broadly\n- ⟦{刷新|さっしん}→刷新：07520_sasshin⟧: renovation, overhaul — implies sweeping, dramatic renewal\n- ⟦{革新|かくしん}→革新：05617_kakushin⟧: innovation, reform — emphasizes radical or progressive change\n- ⟦{維新|いしん}→維新：13869_ishin⟧: restoration, revolution — used historically (⟦{明治|めいじ}{維新|いしん}→明治維新：16286_meijiishin⟧, Meiji Restoration)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04815_kaikaku",
+      "reading": "かいかく",
+      "headword": "{改革|かいかく}",
+      "label": "reform"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07520_sasshin",
+      "reading": "さっしん",
+      "headword": "{刷新|さっしん}",
+      "label": "renovation, overhaul"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05617_kakushin",
+      "reading": "かくしん",
+      "headword": "{革新|かくしん}",
+      "label": "innovation, reform"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13869_ishin",
+      "reading": "いしん",
+      "headword": "{維新|いしん}",
+      "label": "restoration, revolution"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,7 +92,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-02T17:27:22Z",
-    "modified": "2026-04-02T17:27:22Z"
+    "modified": "2026-09-02T04:02:04Z"
   },
   "conjugation": {
     "type": "suru",

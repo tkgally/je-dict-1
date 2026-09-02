@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "23601_bikotsu_ex1",
-      "japanese": "{尾骨|びこつ}を{打|う}った。",
+      "japanese": "{尾骨|びこつ}⟦を→を：00422_wo⟧⟦{打|う}った→打つ：01221_utsu⟧。",
       "english": "I bruised my tailbone.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "23601_bikotsu_ex2",
-      "japanese": "{転|ころ}んで{尾骨|びこつ}を{骨折|こっせつ}した。",
+      "japanese": "⟦{転|ころ}んで→転ぶ：00863_korobu⟧{尾骨|びこつ}⟦を→を：00422_wo⟧⟦{骨折|こっせつ}→骨折：02763_kossetsu⟧⟦した→する：00392_suru⟧。",
       "english": "I fell and fractured my tailbone.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "23601_bikotsu_ex3",
-      "japanese": "{尾骨|びこつ}の{痛|いた}みが{長引|ながび}いたので{整形外科|せいけいげか}で{診|み}てもらった。",
+      "japanese": "{尾骨|びこつ}⟦の→の：09472_no⟧⟦{痛|いた}み→痛み：01795_itami⟧⟦が→が：00051_ga⟧⟦{長引|ながび}いた→長引く：14473_nagabiku⟧⟦の→の：09472_no⟧で⟦{整形外科|せいけいげか}→整形外科：22066_seikeigeka⟧⟦で→で：00502_de⟧⟦{診|み}て→診る：09798_miru⟧⟦もらった→もらう：00520_morau⟧。",
       "english": "The pain in my tailbone wouldn't go away, so I had it examined at an orthopedic clinic.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {尾|び} (tail) and {骨|こつ} (bone). A medical/anatomical term. In everyday conversation, Japanese speakers are at least as likely to use the more colloquial {尻尾|しっぽ}の{骨|ほね} or simply {お{尻|しり}の{骨|ほね}} when describing a fall.\n\nCOMMON COLLOCATIONS:\n- {尾骨|びこつ}を{打|う}つ: to bruise/hit one's tailbone\n- {尾骨|びこつ}を{骨折|こっせつ}する: to fracture one's tailbone\n- {尾骨|びこつ}が{痛|いた}い: one's tailbone hurts\n- {尾骨|びこつ}の{痛|いた}み: pain in the tailbone\n\nRELATED TERMS:\n- {背骨|せぼね}: spine, backbone\n- {骨盤|こつばん}: pelvis\n- {仙骨|せんこつ}: sacrum — the bone just above the tailbone\n- {尾|お}: tail (of an animal)",
+  "notes": "Composed of ⟦{尾|び}→尾：18068_bi⟧ (tail) and {骨|こつ} (bone). A medical/anatomical term. In everyday conversation, Japanese speakers are at least as likely to use the more colloquial {尻尾|しっぽ}⟦の→の：09472_no⟧⟦{骨|ほね}→骨：02166_hone⟧ or simply ⟦お{尻|しり}→お尻：05856_oshiri⟧⟦の→の：09472_no⟧⟦{骨|ほね}→骨：02166_hone⟧ when describing a fall.\n\nCOMMON COLLOCATIONS:\n- {尾骨|びこつ}⟦を→を：00422_wo⟧⟦{打|う}つ→打つ：01221_utsu⟧: to bruise/hit one's tailbone\n- {尾骨|びこつ}⟦を→を：00422_wo⟧⟦{骨折|こっせつ}→骨折：02763_kossetsu⟧⟦する→する：00392_suru⟧: to fracture one's tailbone\n- {尾骨|びこつ}⟦が→が：00051_ga⟧⟦{痛|いた}い→痛い：01108_itai⟧: one's tailbone hurts\n- {尾骨|びこつ}⟦の→の：09472_no⟧⟦{痛|いた}み→痛み：01795_itami⟧: pain in the tailbone\n\nRELATED WORDS:\n- ⟦{背骨|せぼね}→背骨：17397_sebone⟧: spine, backbone\n- ⟦{骨盤|こつばん}→骨盤：05963_kotsuban⟧: pelvis\n- {仙骨|せんこつ}: sacrum — the bone just above the tailbone\n- ⟦{尾|お}→尾：01898_o⟧: tail (of an animal)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "17397_sebone",
+      "reading": "せぼね",
+      "headword": "{背骨|せぼね}",
+      "label": "spine, backbone"
+    },
+    {
+      "type": "related",
+      "target_id": "05963_kotsuban",
+      "reading": "こつばん",
+      "headword": "{骨盤|こつばん}",
+      "label": "pelvis"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +76,6 @@
       ]
     },
     "created": "2026-04-12T19:25:11Z",
-    "modified": "2026-08-01T21:36:06Z"
+    "modified": "2026-09-02T04:02:13Z"
   }
 }

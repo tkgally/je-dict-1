@@ -63,11 +63,47 @@
       ]
     }
   ],
-  "notes": "{海鮮|かいせん} means seafood, especially fresh fish and shellfish.\n\nWORD FORMATION:\n⟦{海|かい}→海：00556_umi⟧ (sea) + {鮮|せん} (fresh)\n\nCOMMON DISHES:\n- {海鮮|かいせん}⟦{丼|どん}→丼：03904_donburi⟧: seafood rice bowl\n- {海鮮|かいせん}⟦{鍋|なべ}→鍋：01038_nabe⟧: seafood hot pot\n- {海鮮|かいせん}⟦サラダ→サラダ：01364_sarada⟧: seafood salad\n- {海鮮|かいせん}⟦パスタ→パスタ：06768_pasuta⟧: seafood pasta\n- {海鮮|かいせん}⟦{焼|や}きそば→焼きそば：13405_yakisoba⟧: seafood yakisoba\n\nPLACES:\n- {海鮮|かいせん}⟦{市場|いちば}→市場：01803_ichiba⟧: seafood market\n- {海鮮|かいせん}⟦{居酒屋|いざかや}→居酒屋：09635_izakaya⟧: seafood izakaya\n\nRELATED TERMS:\n- ⟦{魚介類|ぎょかいるい}→魚介類：23435_gyokairui⟧: seafood (formal/categorical)\n- ⟦{刺身|さしみ}→刺身：04023_sashimi⟧: sashimi (raw fish)\n- ⟦{寿司|すし}→寿司：04946_sushi⟧: sushi\n- ⟦{新鮮|しんせん}→新鮮：03261_shinsen⟧: fresh\n\nNOTE: {海鮮|かいせん} emphasizes freshness and is often used in restaurant names and menus.",
-  "cross_references": [],
+  "notes": "{海鮮|かいせん} means seafood, especially fresh fish and shellfish.\n\nFORMS:\n⟦{海|かい}→海：00556_umi⟧ (sea) + {鮮|せん} (fresh)\n\nCOMMON DISHES:\n- {海鮮|かいせん}⟦{丼|どん}→丼：03904_donburi⟧: seafood rice bowl\n- {海鮮|かいせん}⟦{鍋|なべ}→鍋：01038_nabe⟧: seafood hot pot\n- {海鮮|かいせん}⟦サラダ→サラダ：01364_sarada⟧: seafood salad\n- {海鮮|かいせん}⟦パスタ→パスタ：06768_pasuta⟧: seafood pasta\n- {海鮮|かいせん}⟦{焼|や}きそば→焼きそば：13405_yakisoba⟧: seafood yakisoba\n\nPLACES:\n- {海鮮|かいせん}⟦{市場|いちば}→市場：01803_ichiba⟧: seafood market\n- {海鮮|かいせん}⟦{居酒屋|いざかや}→居酒屋：09635_izakaya⟧: seafood izakaya\n\nRELATED WORDS:\n- ⟦{魚介類|ぎょかいるい}→魚介類：23435_gyokairui⟧: seafood (formal/categorical)\n- ⟦{刺身|さしみ}→刺身：04023_sashimi⟧: sashimi (raw fish)\n- ⟦{寿司|すし}→寿司：04946_sushi⟧: sushi\n- ⟦{新鮮|しんせん}→新鮮：03261_shinsen⟧: fresh\n\nNOTE: {海鮮|かいせん} emphasizes freshness and is often used in restaurant names and menus.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "23435_gyokairui",
+      "reading": "ぎょかいるい",
+      "headword": "{魚介類|ぎょかいるい}",
+      "label": "seafood"
+    },
+    {
+      "type": "related",
+      "target_id": "04023_sashimi",
+      "reading": "さしみ",
+      "headword": "{刺身|さしみ}",
+      "label": "sashimi"
+    },
+    {
+      "type": "related",
+      "target_id": "04946_sushi",
+      "reading": "すし",
+      "headword": "{寿司|すし}",
+      "label": "sushi"
+    },
+    {
+      "type": "related",
+      "target_id": "03261_shinsen",
+      "reading": "しんせん",
+      "headword": "{新鮮|しんせん}",
+      "label": "fresh"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30404_shiifuudo",
+      "reading": "しーふーど",
+      "headword": "シーフード",
+      "label": "seafood"
+    }
+  ],
   "metadata": {
     "created": "2026-01-16T14:02:51Z",
-    "modified": "2026-06-08T19:16:02Z",
+    "modified": "2026-09-02T03:02:30Z",
     "schema_version": "2.0",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",

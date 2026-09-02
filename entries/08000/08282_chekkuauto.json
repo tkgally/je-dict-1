@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08282_chekkuauto_ex1",
-      "japanese": "チェックアウトは{何時|なんじ}までですか。",
+      "japanese": "チェックアウト⟦は→は：00079_ha⟧⟦{何時|なんじ}→何時：00973_nanji⟧⟦まで→まで：00490_made⟧です⟦か→か：09473_ka⟧。",
       "english": "What time is check-out by?",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "08282_chekkuauto_ex2",
-      "japanese": "チェックアウトを{延長|えんちょう}できますか。",
+      "japanese": "チェックアウト⟦を→を：00422_wo⟧⟦{延長|えんちょう}→延長：06447_enchou⟧⟦できます→できる：00557_dekiru⟧⟦か→か：09473_ka⟧。",
       "english": "Can I extend my check-out time?",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "08282_chekkuauto_ex3",
-      "japanese": "フロントでチェックアウトの{手続|てつづ}きをした。",
+      "japanese": "⟦フロント→フロント：01378_furonto⟧⟦で→で：00502_de⟧チェックアウト⟦の→の：09472_no⟧⟦{手続|てつづ}き→手続き：05453_tetsuzuki⟧⟦を→を：00422_wo⟧⟦した→する：00392_suru⟧。",
       "english": "I completed the check-out procedures at the front desk.",
       "sense_numbers": [
         1
@@ -43,7 +43,7 @@
       "notes": null
     }
   ],
-  "notes": "FROM ENGLISH:\nLoanword from English \"check-out.\"\n\nVERB USAGE:\n- チェックアウトする (to check out)\n- チェックアウトを{済|す}ませる (to complete check-out)\n\nHOTEL USAGE:\n- チェックアウト{時間|じかん} (check-out time, typically 10:00-11:00 in Japan)\n- レイトチェックアウト (late check-out)\n- {精算|せいさん} (settling the bill)\n\nANTONYM:\n- チェックイン (check-in)\n\nRELATED:\n- チェックイン (check-in)\n- フロント (front desk)\n- {精算|せいさん} (payment/settlement)\n- {宿泊|しゅくはく} (overnight stay)",
+  "notes": "FROM ENGLISH:\nLoanword from English \"check-out.\"\n\nVERB USAGE:\n- チェックアウト⟦する→する：00392_suru⟧ (to check out)\n- チェックアウト⟦を→を：00422_wo⟧⟦{済|す}ませる→済む：01950_sumu⟧ (to complete check-out)\n\nHOTEL USAGE:\n- チェックアウト⟦{時間|じかん}→時間：00468_jikan⟧ (check-out time, typically 10:00-11:00 in Japan)\n- レイトチェックアウト (late check-out)\n- ⟦{精算|せいさん}→精算：10899_seisan⟧ (settling the bill)\n\nSIMILAR WORDS:\n- ⟦チェックイン→チェックイン：08281_chekkuin⟧ (check-in)\n\nRELATED WORDS:\n- ⟦チェックイン→チェックイン：08281_chekkuin⟧ (check-in)\n- ⟦フロント→フロント：01378_furonto⟧ (front desk)\n- ⟦{精算|せいさん}→精算：10899_seisan⟧ (payment/settlement)\n- ⟦{宿泊|しゅくはく}→宿泊：03216_shukuhaku⟧ (overnight stay)",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -51,6 +51,7 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "loanword": true,
       "semantic": [
         "travel",
@@ -58,7 +59,7 @@
       ]
     },
     "created": "2026-01-25T11:40:57Z",
-    "modified": "2026-02-03T14:48:46Z"
+    "modified": "2026-09-02T04:01:14Z"
   },
   "cross_references": [
     {
@@ -67,6 +68,27 @@
       "headword": "チェックイン",
       "label": "check-in",
       "target_id": "08281_chekkuin"
+    },
+    {
+      "type": "related",
+      "target_id": "01378_furonto",
+      "reading": "ふろんと",
+      "headword": "フロント",
+      "label": "front desk"
+    },
+    {
+      "type": "related",
+      "target_id": "10899_seisan",
+      "reading": "せいさん",
+      "headword": "{精算|せいさん}",
+      "label": "payment/settlement"
+    },
+    {
+      "type": "related",
+      "target_id": "03216_shukuhaku",
+      "reading": "しゅくはく",
+      "headword": "{宿泊|しゅくはく}",
+      "label": "overnight stay"
     }
   ]
 }

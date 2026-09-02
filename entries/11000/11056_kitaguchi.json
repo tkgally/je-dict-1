@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "11056_kitaguchi_ex1",
-      "japanese": "{北口|きたぐち}で{待|ま}っています。",
+      "japanese": "{北口|きたぐち}⟦で→で：00502_de⟧⟦{待|ま}っています→待つ：00469_matsu⟧。",
       "english": "I'll be waiting at the north exit.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11056_kitaguchi_ex2",
-      "japanese": "{駅|えき}の{北口|きたぐち}を{出|で}て{右|みぎ}に{曲|ま}がってください。",
+      "japanese": "⟦{駅|えき}→駅：02180_eki⟧⟦の→の：09472_no⟧{北口|きたぐち}⟦を→を：00422_wo⟧⟦{出|で}て→出る：00513_deru⟧⟦{右|みぎ}→右：02257_migi⟧⟦に→に：00314_ni⟧⟦{曲|ま}がって→曲がる：00649_magaru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Go out the north exit of the station and turn right.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11056_kitaguchi_ex3",
-      "japanese": "{北口|きたぐち}の{前|まえ}にバス{停|てい}があります。",
+      "japanese": "{北口|きたぐち}⟦の→の：09472_no⟧⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧⟦バス{停|てい}→バス停：05295_basutei⟧⟦が→が：00051_ga⟧⟦あります→ある：00006_aru⟧。",
       "english": "There is a bus stop in front of the north exit.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{北口|きたぐち} means the north exit or entrance, most commonly of a train station. Japanese stations typically label exits by compass direction to help people navigate.\n\nWORD FORMATION:\n{北|きた} (north) + {口|ぐち} (exit/entrance, with rendaku from くち)\n\nSTATION EXIT SET:\n- {北口|きたぐち}: north exit\n- {南口|みなみぐち}: south exit\n- {東口|ひがしぐち}: east exit\n- {西口|にしぐち}: west exit\n\nOTHER ～{口|ぐち} COMPOUNDS:\n- {改札口|かいさつぐち}: ticket gate\n- {出口|でぐち}: exit\n- {入口|いりぐち}: entrance\n- {中央口|ちゅうおうぐち}: central exit\n\nUSAGE:\nVery common when giving directions to meet someone, especially at stations: 「{北口|きたぐち}で{待|ま}ってて」 (Wait at the north exit). The area around each exit often has a distinct character — different shops, bus routes, and landmarks.",
+  "notes": "{北口|きたぐち} means the north exit or entrance, most commonly of a train station. Japanese stations typically label exits by compass direction to help people navigate.\n\nFORMS:\n⟦{北|きた}→北：00644_kita⟧ (north) + {口|ぐち} (exit/entrance, with rendaku from くち)\n\nSTATION EXIT SET:\n- {北口|きたぐち}: north exit\n- ⟦{南口|みなみぐち}→南口：24066_minamiguchi⟧: south exit\n- ⟦{東口|ひがしぐち}→東口：24067_higashiguchi⟧: east exit\n- ⟦{西口|にしぐち}→西口：21655_nishiguchi⟧: west exit\n\nOTHER ～{口|ぐち} COMPOUNDS:\n- ⟦{改札口|かいさつぐち}→改札口：09552_kaisatsuguchi⟧: ticket gate\n- ⟦{出口|でぐち}→出口：02508_deguchi⟧: exit\n- {入口|いりぐち}: entrance\n- {中央口|ちゅうおうぐち}: central exit\n\nUSAGE:\nVery common when giving directions to meet someone, especially at stations: 「{北口|きたぐち}⟦で→で：00502_de⟧⟦{待|ま}っ→待つ：00469_matsu⟧てて」 (Wait at the north exit). The area around each exit often has a distinct character — different shops, bus routes, and landmarks.",
   "cross_references": [
     {
       "type": "related",
@@ -64,14 +70,18 @@
   ],
   "metadata": {
     "created": "2026-02-13T01:20:32Z",
-    "modified": "2026-04-25T04:12:08Z",
+    "modified": "2026-09-02T04:01:23Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["transportation"]
+      "semantic": [
+        "transportation"
+      ]
     }
   }
 }

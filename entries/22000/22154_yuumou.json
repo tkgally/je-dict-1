@@ -3,7 +3,7 @@
   "headword": "{勇猛|ゆうもう}",
   "reading": "ゆうもう",
   "romaji": "yuumou",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, na-adjective",
   "gloss": "brave and fierce; valiant; dauntless",
   "definitions": [
     {
@@ -15,40 +15,74 @@
   "examples": [
     {
       "id": "22154_yuumou_ex1",
-      "japanese": "{勇猛|ゆうもう}な{武将|ぶしょう}。",
+      "japanese": "{勇猛|ゆうもう}な⟦{武将|ぶしょう}→武将：13222_bushou⟧。",
       "english": "A valiant military commander.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "22154_yuumou_ex2",
-      "japanese": "{勇猛|ゆうもう}{果敢|かかん}に{戦|たたか}った。",
+      "japanese": "{勇猛|ゆうもう}⟦{果敢|かかん}→果敢：07934_kakan⟧⟦に→に：00314_ni⟧⟦{戦|たたか}った→戦う：02071_tatakau⟧。",
       "english": "They fought bravely and boldly.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "22154_yuumou_ex3",
-      "japanese": "{歴史|れきし}に{名|な}を{残|のこ}す{勇猛|ゆうもう}な{武士|ぶし}たちの{物語|ものがたり}は、{今|いま}でも{語|かた}り{継|つ}がれている。",
+      "japanese": "⟦{歴史|れきし}→歴史：02267_rekishi⟧⟦に→に：00314_ni⟧⟦{名|な}→名：03496_na⟧⟦を→を：00422_wo⟧⟦{残|のこ}す→残す：01975_nokosu⟧{勇猛|ゆうもう}な⟦{武士|ぶし}→武士：03989_bushi⟧たち⟦の→の：09472_no⟧⟦{物語|ものがたり}→物語：03634_monogatari⟧⟦は→は：00079_ha⟧、⟦{今|いま}→今：00945_ima⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧⟦{語|かた}り{継|つ}がれている→語り継ぐ：22312_kataritsugu⟧。",
       "english": "The stories of valiant samurai who left their names in history are still passed down today.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A literary word combining {勇|ゆう} (courage) and {猛|もう} (fierce). Primarily used to describe warriors, soldiers, and heroic figures.\n\nCOMMON COLLOCATIONS:\n- {勇猛|ゆうもう}{果敢|かかん}: brave and bold; dauntless\n- {勇猛|ゆうもう}な{武将|ぶしょう}: a valiant military commander\n- {勇猛|ゆうもう}な{戦士|せんし}: a fierce warrior\n- {勇猛|ゆうもう}{精進|しょうじん}: courageous effort (Buddhist term)\n\nSIMILAR WORDS:\n- {勇敢|ゆうかん}: brave; courageous — more general and common; does not imply fierceness\n- {豪胆|ごうたん}: bold; daring — emphasizes fearlessness and nerve rather than fighting spirit\n- {武勇|ぶゆう}: martial valor — focuses on military bravery specifically\n\nREGISTER:\nFormal and literary. Most common in historical narratives, literature, and descriptions of martial characters. Rarely used in everyday conversation.",
+  "notes": "A literary word combining {勇|ゆう} (courage) and {猛|もう} (fierce). Primarily used to describe warriors, soldiers, and heroic figures.\n\nCOMMON COLLOCATIONS:\n- {勇猛|ゆうもう}⟦{果敢|かかん}→果敢：07934_kakan⟧: brave and bold; dauntless\n- {勇猛|ゆうもう}な⟦{武将|ぶしょう}→武将：13222_bushou⟧: a valiant military commander\n- {勇猛|ゆうもう}な⟦{戦士|せんし}→戦士：12747_senshi⟧: a fierce warrior\n- {勇猛|ゆうもう}⟦{精進|しょうじん}→精進：13788_shoujin⟧: courageous effort (Buddhist term)\n\nSIMILAR WORDS:\n- ⟦{勇敢|ゆうかん}→勇敢：07637_yuukan⟧: brave; courageous — more general and common; does not imply fierceness\n- ⟦{豪胆|ごうたん}→豪胆：22155_goutan⟧: bold; daring — emphasizes fearlessness and nerve rather than fighting spirit\n- ⟦{武勇|ぶゆう}→武勇：22162_buyuu⟧: martial valor — focuses on military bravery specifically\n\nREGISTER:\nFormal and literary. Most common in historical narratives, literature, and descriptions of martial characters. Rarely used in everyday conversation.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07637_yuukan",
+      "reading": "ゆうかん",
+      "headword": "{勇敢|ゆうかん}",
+      "label": "brave"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22155_goutan",
+      "reading": "ごうたん",
+      "headword": "{豪胆|ごうたん}",
+      "label": "bold"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22162_buyuu",
+      "reading": "ぶゆう",
+      "headword": "{武勇|ぶゆう}",
+      "label": "martial valor"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-na"],
+      "pos": [
+        "noun",
+        "adjective-na"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["personality"]
+      "semantic": [
+        "personality"
+      ]
     },
     "created": "2026-04-05T04:03:22Z",
-    "modified": "2026-06-15T07:58:48Z"
+    "modified": "2026-09-02T04:02:06Z"
   }
 }

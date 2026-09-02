@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "13887_hennyuu_ex1",
-      "japanese": "{大学|だいがく}に{編入|へんにゅう}する。",
+      "japanese": "⟦{大学|だいがく}→大学：00608_daigaku⟧⟦に→に：00314_ni⟧{編入|へんにゅう}⟦する→する：00392_suru⟧。",
       "english": "To transfer into a university.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "13887_hennyuu_ex2",
-      "japanese": "{短大|たんだい}から{四年制|よねんせい}{大学|だいがく}の{三年次|さんねんじ}に{編入|へんにゅう}した。",
+      "japanese": "⟦{短大|たんだい}→短大：28812_tandai⟧⟦から→から：00504_kara⟧{四年制|よねんせい}⟦{大学|だいがく}→大学：00608_daigaku⟧⟦の→の：09472_no⟧{三年次|さんねんじ}⟦に→に：00314_ni⟧{編入|へんにゅう}⟦した→する：00392_suru⟧。",
       "english": "I transferred from a junior college into the third year of a four-year university.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "13887_hennyuu_ex3",
-      "japanese": "その{地域|ちいき}は{市町村|しちょうそん}{合併|がっぺい}により{隣|となり}の{市|し}に{編入|へんにゅう}された。",
+      "japanese": "⟦その→その：00993_sono⟧⟦{地域|ちいき}→地域：01461_chiiki⟧⟦は→は：00079_ha⟧⟦{市町村|しちょうそん}→市町村：16065_shichouson⟧⟦{合併|がっぺい}→合併：04778_gappei⟧⟦に→に：00314_ni⟧⟦より→より：09476_yori⟧⟦{隣|となり}→隣：01003_tonari⟧⟦の→の：09472_no⟧⟦{市|し}→市：01599_shi⟧⟦に→に：00314_ni⟧{編入|へんにゅう}⟦された→する：00392_suru⟧。",
       "english": "That area was incorporated into the neighboring city through a municipal merger.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,33 @@
       ]
     }
   ],
-  "notes": "USAGE:\nMost commonly encountered in educational contexts as {編入|へんにゅう}{学|がく} (transfer admission) or {編入|へんにゅう}{試験|しけん} (transfer entrance exam). Also used in administrative and military contexts for incorporating units or territories.\n\nCOMMON COLLOCATIONS:\n- {編入|へんにゅう}{試験|しけん}: transfer entrance examination\n- {編入|へんにゅう}{学|がく}: transfer enrollment\n- ～に{編入|へんにゅう}する: to be incorporated into\n- {三年次|さんねんじ}{編入|へんにゅう}: third-year transfer",
-  "cross_references": [],
+  "notes": "USAGE:\nMost commonly encountered in educational contexts as {編入|へんにゅう}{学|がく} (transfer admission) or {編入|へんにゅう}⟦{試験|しけん}→試験：01422_shiken⟧ (transfer entrance exam). Also used in administrative and military contexts for incorporating units or territories.\n\nCOMMON COLLOCATIONS:\n- {編入|へんにゅう}⟦{試験|しけん}→試験：01422_shiken⟧: transfer entrance examination\n- {編入|へんにゅう}{学|がく}: transfer enrollment\n- ～⟦に→に：00314_ni⟧{編入|へんにゅう}⟦する→する：00392_suru⟧: to be incorporated into\n- {三年次|さんねんじ}{編入|へんにゅう}: third-year transfer",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "03444_tenkou",
+      "reading": "てんこう",
+      "headword": "{転校|てんこう}",
+      "label": "school transfer"
+    },
+    {
+      "type": "related",
+      "target_id": "21607_fukugaku",
+      "reading": "ふくがく",
+      "headword": "{復学|ふくがく}",
+      "label": "returning to school"
+    },
+    {
+      "type": "related",
+      "target_id": "25400_tenkousuru",
+      "reading": "てんこうする",
+      "headword": "{転校|てんこう}する",
+      "label": "to transfer schools"
+    }
+  ],
   "metadata": {
     "created": "2026-02-27T06:26:22Z",
-    "modified": "2026-03-29T03:07:35Z",
+    "modified": "2026-09-02T04:01:35Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

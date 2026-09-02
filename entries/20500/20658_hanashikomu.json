@@ -3,7 +3,7 @@
   "headword": "{話|はな}し{込|こ}む",
   "reading": "はなしこむ",
   "romaji": "hanashikomu",
-  "part_of_speech": "godan verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to get deeply involved in conversation; to talk at length",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "20658_hanashikomu_ex1",
-      "japanese": "{友達|ともだち}と{話|はな}し{込|こ}んだ。",
+      "japanese": "⟦{友達|ともだち}→友達：01478_tomodachi⟧⟦と→と：00512_to⟧{話|はな}し{込|こ}んだ。",
       "english": "I got into a long conversation with my friend.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "20658_hanashikomu_ex2",
-      "japanese": "カフェで{二人|ふたり}は{話|はな}し{込|こ}んでいた。",
+      "japanese": "⟦カフェ→カフェ：06767_kafe⟧⟦で→で：00502_de⟧⟦{二人|ふたり}→二人：00622_futari⟧⟦は→は：00079_ha⟧{話|はな}し{込|こ}んで⟦いた→いる：00495_iru⟧。",
       "english": "The two of them were deep in conversation at the café.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "20658_hanashikomu_ex3",
-      "japanese": "{電話|でんわ}で{話|はな}し{込|こ}んでしまって、{約束|やくそく}の{時間|じかん}に{遅|おく}れた。",
+      "japanese": "⟦{電話|でんわ}→電話：01471_denwa⟧⟦で→で：00502_de⟧{話|はな}し{込|こ}んでしまって、⟦{約束|やくそく}→約束：01517_yakusoku⟧⟦の→の：09472_no⟧⟦{時間|じかん}→時間：00468_jikan⟧⟦に→に：00314_ni⟧⟦{遅|おく}れた→遅れる：00741_okureru⟧。",
       "english": "I got so caught up talking on the phone that I was late for my appointment.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "A compound verb formed from {話|はな}す (to talk) + {込|こ}む (into, deeply). The ～{込|こ}む suffix adds the nuance of becoming deeply absorbed or immersed in the action. Often implies that the conversation went on longer than intended.\n\nCOMMON COLLOCATIONS:\n- {友達|ともだち}と{話|はな}し{込|こ}む: to get into a long chat with a friend\n- {電話|でんわ}で{話|はな}し{込|こ}む: to get absorbed in a phone conversation\n- つい{話|はな}し{込|こ}む: to end up talking at length (unintentionally)\n- {夜遅|よるおそ}くまで{話|はな}し{込|こ}む: to talk late into the night\n\nSIMILAR WORDS:\n- {語|かた}り{合|あ}う: to talk together — emphasizes mutual sharing, often of serious or heartfelt topics\n- {長話|ながばなし}する: to have a long talk — focuses on duration rather than absorption\n- {雑談|ざつだん}する: to chat — casual conversation without the nuance of being absorbed",
+  "notes": "A compound verb formed from ⟦{話|はな}す→話す：00467_hanasu⟧ (to talk) + ⟦{込|こ}む→込む：00719_komu⟧ (into, deeply). The ～⟦{込|こ}む→込む：00719_komu⟧ suffix adds the nuance of becoming deeply absorbed or immersed in the action. Often implies that the conversation went on longer than intended.\n\nCOMMON COLLOCATIONS:\n- ⟦{友達|ともだち}→友達：01478_tomodachi⟧⟦と→と：00512_to⟧{話|はな}し{込|こ}む: to get into a long chat with a friend\n- ⟦{電話|でんわ}→電話：01471_denwa⟧⟦で→で：00502_de⟧{話|はな}し{込|こ}む: to get absorbed in a phone conversation\n- つい{話|はな}し{込|こ}む: to end up talking at length (unintentionally)\n- {夜遅|よるおそ}く⟦まで→まで：00490_made⟧{話|はな}し{込|こ}む: to talk late into the night\n\nSIMILAR WORDS:\n- ⟦{語|かた}り{合|あ}う→語り合う：03045_katariau⟧: to talk together — emphasizes mutual sharing, often of serious or heartfelt topics\n- ⟦{長話|ながばなし}→長話：16356_nagabanashi⟧⟦する→する：00392_suru⟧: to have a long talk — focuses on duration rather than absorption\n- ⟦{雑談|ざつだん}→雑談：06639_zatsudan⟧⟦する→する：00392_suru⟧: to chat — casual conversation without the nuance of being absorbed",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03045_katariau",
+      "reading": "かたりあう",
+      "headword": "{語|かた}り{合|あ}う",
+      "label": "to talk together"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16356_nagabanashi",
+      "reading": "ながばなし",
+      "headword": "{長話|ながばなし}",
+      "label": "to have a long talk"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06639_zatsudan",
+      "reading": "ざつだん",
+      "headword": "{雑談|ざつだん}",
+      "label": "to chat"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -57,10 +80,11 @@
       "semantic": [
         "communication"
       ],
-      "verb_class": "godan-mu"
+      "verb_class": "godan-mu",
+      "transitivity": "intransitive"
     },
     "created": "2026-03-30T06:28:26Z",
-    "modified": "2026-04-10T07:12:46Z"
+    "modified": "2026-09-02T04:02:00Z"
   },
   "conjugation": {
     "type": "godan",

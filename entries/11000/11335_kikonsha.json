@@ -14,30 +14,36 @@
   "examples": [
     {
       "id": "11335_kikonsha_ex1",
-      "japanese": "{彼|かれ}は{既婚者|きこんしゃ}です。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{既婚者|きこんしゃ}です。",
       "english": "He is a married person.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11335_kikonsha_ex2",
-      "japanese": "このアンケートは{既婚者|きこんしゃ}が{対象|たいしょう}です。",
+      "japanese": "⟦この→この：00962_kono⟧⟦アンケート→アンケート：03829_ankeeto⟧⟦は→は：00079_ha⟧{既婚者|きこんしゃ}⟦が→が：00051_ga⟧⟦{対象|たいしょう}→対象：03393_taishou⟧です。",
       "english": "This survey targets married people.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11335_kikonsha_ex3",
-      "japanese": "{既婚者|きこんしゃ}と{独身者|どくしんしゃ}では、{生活|せいかつ}スタイルが{大|おお}きく{違|ちが}うことが{多|おお}い。",
+      "japanese": "{既婚者|きこんしゃ}⟦と→と：00512_to⟧⟦{独身者|どくしんしゃ}→独身者：14969_dokushinsha⟧で⟦は→は：00079_ha⟧、⟦{生活|せいかつ}→生活：01443_seikatsu⟧⟦スタイル→スタイル：03851_sutairu⟧⟦が→が：00051_ga⟧⟦{大|おお}きく→大きい：00335_ookii⟧⟦{違|ちが}う→違う：01957_chigau⟧こと⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "Married people and single people often have very different lifestyles.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{既婚者|きこんしゃ} is a somewhat formal term for a married person, used in official documents, surveys, and formal discussions rather than everyday conversation.\n\nWORD FORMATION:\n{既|き} (already) + {婚|こん} (marriage) + {者|しゃ} (person)\n\nCOMMON PATTERNS:\n- {既婚者|きこんしゃ}{向|む}け: for married people\n- {既婚者|きこんしゃ}が{対象|たいしょう}: targeting married people\n\nOPPOSITE:\n- {未婚者|みこんしゃ}: unmarried person (formal)\n- {独身者|どくしんしゃ}: single person\n\nREGISTER:\nIn everyday speech, {結婚|けっこん}している{人|ひと} (a person who is married) is more natural. {既婚者|きこんしゃ} appears in surveys, statistics, legal contexts, and news articles.",
+  "notes": "{既婚者|きこんしゃ} is a somewhat formal term for a married person, used in official documents, surveys, and formal discussions rather than everyday conversation.\n\nFORMS:\n⟦{既|き}→既〜：28657_ki⟧ (already) + {婚|こん} (marriage) + ⟦{者|しゃ}→〜者：04662_sha⟧ (person)\n\nCOMMON PATTERNS:\n- {既婚者|きこんしゃ}{向|む}け: for married people\n- {既婚者|きこんしゃ}⟦が→が：00051_ga⟧⟦{対象|たいしょう}→対象：03393_taishou⟧: targeting married people\n\nSIMILAR WORDS:\n- {未婚者|みこんしゃ}: unmarried person (formal)\n- ⟦{独身者|どくしんしゃ}→独身者：14969_dokushinsha⟧: single person\n\nREGISTER:\nIn everyday speech, ⟦{結婚|けっこん}→結婚：02514_kekkon⟧⟦している→する：00392_suru⟧⟦{人|ひと}→人：00476_hito⟧ (a person who is married) is more natural. {既婚者|きこんしゃ} appears in surveys, statistics, legal contexts, and news articles.",
   "prominent_see_also": [
     {
       "target_id": "16160_kikon",
@@ -58,13 +64,17 @@
   "schema_version": "2.0",
   "metadata": {
     "created": "2026-02-16T00:41:26Z",
-    "modified": "2026-04-25T05:07:08Z",
+    "modified": "2026-09-02T04:01:24Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["person"]
+      "semantic": [
+        "person"
+      ]
     }
   }
 }

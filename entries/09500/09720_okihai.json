@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "09720_okihai_ex1",
-      "japanese": "{置|お}き{配|はい}でお{願|ねが}いします。",
+      "japanese": "{置|お}き{配|はい}⟦で→で：00502_de⟧お{願|ねが}いします。",
       "english": "Please leave it at the door.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "09720_okihai_ex2",
-      "japanese": "{置|お}き{配|はい}を{指定|してい}したら{玄関前|げんかんまえ}に{届|とど}いていた。",
+      "japanese": "{置|お}き{配|はい}⟦を→を：00422_wo⟧⟦{指定|してい}→指定：00373_shitei⟧⟦したら→する：00392_suru⟧{玄関前|げんかんまえ}⟦に→に：00314_ni⟧⟦{届|とど}いていた→届く：00899_todoku⟧。",
       "english": "When I selected leave-at-door delivery, it was left at the front entrance.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "09720_okihai_ex3",
-      "japanese": "{雨|あめ}の{日|ひ}は{置|お}き{配|はい}だと{濡|ぬ}れてしまうことがある。",
+      "japanese": "⟦{雨|あめ}→雨：00583_ame⟧⟦の→の：09472_no⟧⟦{日|ひ}→日：02249_hi⟧⟦は→は：00079_ha⟧{置|お}き{配|はい}だ⟦と→と：00512_to⟧⟦{濡|ぬ}れて→濡れる：00800_nureru⟧しまうこと⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "On rainy days, packages left at the door can get wet.",
       "notes": null,
       "has_audio": false,
@@ -43,10 +43,10 @@
       ]
     }
   ],
-  "notes": "{置|お}き{配|はい} became popular during the COVID-19 pandemic as a contactless delivery option.\n\nCOMMON COLLOCATIONS:\n- {置|お}き{配|はい}を{指定|してい}する (to select leave-at-door delivery)\n- {置|お}き{配|はい}で{届|とど}く (to be delivered via leave-at-door)\n- {置|お}き{配|はい}{場所|ばしょ} (leave-at-door delivery location)\n\nRELATED TERMS:\n- {宅配|たくはい}ボックス: delivery locker\n- {再配達|さいはいたつ}: redelivery\n- {対面|たいめん}{受|う}け{取|と}り: in-person receipt",
+  "notes": "{置|お}き{配|はい} became popular during the COVID-19 pandemic as a contactless delivery option.\n\nCOMMON COLLOCATIONS:\n- {置|お}き{配|はい}⟦を→を：00422_wo⟧⟦{指定|してい}→指定：00373_shitei⟧⟦する→する：00392_suru⟧ (to select leave-at-door delivery)\n- {置|お}き{配|はい}⟦で→で：00502_de⟧⟦{届|とど}く→届く：00899_todoku⟧ (to be delivered via leave-at-door)\n- {置|お}き{配|はい}⟦{場所|ばしょ}→場所：00829_basho⟧ (leave-at-door delivery location)\n\nRELATED WORDS:\n- ⟦{宅配|たくはい}ボックス→宅配ボックス：09719_takuhaibokkusu⟧: delivery locker\n- ⟦{再配達|さいはいたつ}→再配達：09690_saihaitatsu⟧: redelivery\n- ⟦{対面|たいめん}→対面：10377_taimen⟧{受|う}け{取|と}り: in-person receipt",
   "metadata": {
     "created": "2026-02-03T07:17:27Z",
-    "modified": "2026-06-24T18:40:49Z",
+    "modified": "2026-09-02T04:01:19Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -75,6 +75,20 @@
       "reading": "たくはいぼっくす",
       "headword": "{宅配|たくはい}ボックス",
       "label": "delivery locker"
+    },
+    {
+      "type": "related",
+      "target_id": "09690_saihaitatsu",
+      "reading": "さいはいたつ",
+      "headword": "{再配達|さいはいたつ}",
+      "label": "redelivery"
+    },
+    {
+      "type": "related",
+      "target_id": "19854_jikanshitei",
+      "reading": "じかんしてい",
+      "headword": "{時間指定|じかんしてい}",
+      "label": "time designation"
     }
   ]
 }

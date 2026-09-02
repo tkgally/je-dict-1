@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "16649_aisowarai_ex1",
-      "japanese": "{彼女|かのじょ}は{愛想笑|あいそわら}いをした。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧{愛想笑|あいそわら}い⟦を→を：00422_wo⟧⟦した→する：00392_suru⟧。",
       "english": "She gave a forced smile.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "16649_aisowarai_ex2",
-      "japanese": "つまらない{冗談|じょうだん}に{愛想笑|あいそわら}いで{返|かえ}した。",
+      "japanese": "⟦つまらない→つまらない：00590_tsumaranai⟧⟦{冗談|じょうだん}→冗談：03347_joudan⟧⟦に→に：00314_ni⟧{愛想笑|あいそわら}い⟦で→で：00502_de⟧⟦{返|かえ}した→返す：09648_kaesu⟧。",
       "english": "I responded to the unfunny joke with a polite smile.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "16649_aisowarai_ex3",
-      "japanese": "{上司|じょうし}の{話|はなし}がつまらなくても、{愛想笑|あいそわら}いをするしかなかった。",
+      "japanese": "⟦{上司|じょうし}→上司：03286_joushi⟧⟦の→の：09472_no⟧⟦{話|はなし}→話：01496_hanashi⟧⟦が→が：00051_ga⟧⟦つまらなくて→つまらない：00590_tsumaranai⟧⟦も→も：00484_mo⟧、{愛想笑|あいそわら}い⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧しかなかった。",
       "english": "Even though the boss's story was boring, I had no choice but to put on a fake smile.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nDescribes a smile put on for social purposes rather than from genuine feeling. Often used when describing workplace or social situations where one must appear pleasant. The verb pattern is {愛想笑|あいそわら}いをする.\n\nCOMMON COLLOCATIONS:\n- {愛想笑|あいそわら}いをする (to put on a forced smile)\n- {愛想笑|あいそわら}いを{浮|う}かべる (to show a polite smile)\n\nSIMILAR WORDS:\n- {作|つく}り{笑|わら}い: a made-up smile — similar meaning, slightly more neutral\n- {苦笑|くしょう}: a wry smile — a smile of embarrassment or awkwardness",
+  "notes": "USAGE:\nDescribes a smile put on for social purposes rather than from genuine feeling. Often used when describing workplace or social situations where one must appear pleasant. The verb pattern is {愛想笑|あいそわら}い⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧.\n\nCOMMON COLLOCATIONS:\n- {愛想笑|あいそわら}い⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧ (to put on a forced smile)\n- {愛想笑|あいそわら}い⟦を→を：00422_wo⟧⟦{浮|う}かべる→浮かべる：13314_ukaberu⟧ (to show a polite smile)\n\nSIMILAR WORDS:\n- ⟦{作|つく}り{笑|わら}い→作り笑い：08473_tsukuriwarai⟧: a made-up smile — similar meaning, slightly more neutral\n- ⟦{苦笑|くしょう}→苦笑：08688_kushou⟧: a wry smile — a smile of embarrassment or awkwardness",
   "cross_references": [
     {
       "type": "contrast",
@@ -52,11 +52,39 @@
       "reading": "くしょう",
       "headword": "{苦笑|くしょう}",
       "label": "wry smile"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08473_tsukuriwarai",
+      "reading": "つくりわらい",
+      "headword": "{作|つく}り{笑|わら}い",
+      "label": "a made-up smile"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20846_usowarai",
+      "reading": "うそわらい",
+      "headword": "{嘘笑|うそわら}い",
+      "label": "fake smile"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22327_eigyousumairu",
+      "reading": "えいぎょうすまいる",
+      "headword": "{営業|えいぎょう}スマイル",
+      "label": "customer-service smile"
+    },
+    {
+      "type": "related",
+      "target_id": "22686_aisogawarui",
+      "reading": "あいそがわるい",
+      "headword": "{愛想|あいそ}が{悪|わる}い",
+      "label": "unsociable"
     }
   ],
   "metadata": {
     "created": "2026-03-14T02:12:10Z",
-    "modified": "2026-07-20T13:24:52Z",
+    "modified": "2026-09-02T04:01:45Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

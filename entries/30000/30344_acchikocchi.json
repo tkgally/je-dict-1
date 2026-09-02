@@ -3,7 +3,7 @@
   "headword": "あっちこっち",
   "reading": "あっちこっち",
   "romaji": "acchikocchi",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, adverb",
   "gloss": "here and there; all over the place",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30344_acchikocchi_ex1",
-      "japanese": "あっちこっち{探|さが}した。",
+      "japanese": "あっちこっち⟦{探|さが}した→探す：00493_sagasu⟧。",
       "english": "I looked all over the place.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30344_acchikocchi_ex2",
-      "japanese": "{部屋|へや}のあっちこっちに{本|ほん}が{置|お}いてある。",
+      "japanese": "⟦{部屋|へや}→部屋：00507_heya⟧⟦の→の：09472_no⟧あっちこっち⟦に→に：00314_ni⟧{本|ほん}⟦が→が：00051_ga⟧⟦{置|お}いてある→置く：01092_oku⟧。",
       "english": "There are books lying around all over the room.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30344_acchikocchi_ex3",
-      "japanese": "{道|みち}に{迷|まよ}って、あっちこっち{歩|ある}き{回|まわ}っているうちに{日|ひ}が{暮|く}れた。",
+      "japanese": "⟦{道|みち}→道：00505_michi⟧⟦に→に：00314_ni⟧⟦{迷|まよ}って→迷う：02426_mayou⟧、あっちこっち⟦{歩|ある}き{回|まわ}っている→歩き回る：04605_arukimawaru⟧うち⟦に→に：00314_ni⟧⟦{日|ひ}→日：02249_hi⟧⟦が→が：00051_ga⟧{暮|く}れた。",
       "english": "I got lost, and while I was wandering around here and there the sun went down.",
       "sense_numbers": [
         1
@@ -44,12 +44,19 @@
       "notes": null
     }
   ],
-  "notes": "A casual doubling of あっち (over there) and こっち (over here). Note the order: Japanese says \"there and here,\" the reverse of the English idiom.\n\nCOMMON PATTERNS:\n- あっちこっち{探|さが}す: to search everywhere\n- あっちこっち{行|い}く: to go all over\n- あっちこっちに: scattered in various places\n- あっちこっちから: from all directions\n\nREGISTER:\nあっちこっち is conversational. The neutral equivalent is あちこち, and {方々|ほうぼう} is the formal written form; use one of those in writing or polite speech.",
+  "notes": "A casual doubling of ⟦あっち→あっち：02891_acchi⟧ (over there) and ⟦こっち→こっち：02903_kocchi⟧ (over here). Note the order: Japanese says \"there and here,\" the reverse of the English idiom.\n\nCOMMON PATTERNS:\n- あっちこっち⟦{探|さが}す→探す：00493_sagasu⟧: to search everywhere\n- あっちこっち⟦{行|い}く→行く：00119_iku⟧: to go all over\n- あっちこっち⟦に→に：00314_ni⟧: scattered in various places\n- あっちこっち⟦から→から：00504_kara⟧: from all directions\n\nREGISTER:\nあっちこっち is conversational. The neutral equivalent is ⟦あちこち→あちこち：01687_achikochi⟧, and ⟦{方々|ほうぼう}→方々：00116_houbou⟧ is the formal written form; use one of those in writing or polite speech.",
   "cross_references": [
     {
       "type": "synonym",
       "reading": "あちこち",
       "headword": "あちこち"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25969_achirakochira",
+      "reading": "あちらこちら",
+      "headword": "あちらこちら",
+      "label": "here and there"
     }
   ],
   "schema_version": "2.0",
@@ -71,6 +78,6 @@
       ]
     },
     "created": "2026-08-03T00:18:03Z",
-    "modified": "2026-08-03T00:18:03Z"
+    "modified": "2026-09-02T04:02:39Z"
   }
 }

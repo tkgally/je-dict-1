@@ -63,11 +63,68 @@
       ]
     }
   ],
-  "notes": "{同僚|どうりょう} refers to coworkers at a similar level in the same organization.\n\nETYMOLOGY:\n⟦{同|どう}→同〜：03962_dou⟧ (same) + ⟦{僚|りょう}→僚：noentry⟧ (companion)\n\nSCOPE:\n{同僚|どうりょう} specifically means peers or equals at work. It does not include:\n- ⟦{上司|じょうし}→上司：03286_joushi⟧: superiors, bosses\n- ⟦{部下|ぶか}→部下：06453_buka⟧: subordinates\n\nCOMMON EXPRESSIONS:\n- {同僚|どうりょう}⟦と→と：00512_to⟧⟦{働|はたら}く→働く：00503_hataraku⟧: to work with colleagues\n- ⟦{元|もと}→元：03878_moto⟧{同僚|どうりょう}: former colleague\n- {同僚|どうりょう}⟦{関係|かんけい}→関係：01298_kankei⟧: colleague relationship\n\nSIMILAR WORDS:\n- {同僚|どうりょう}: colleague (same organization, peer level)\n- ⟦{仲間|なかま}→仲間：03498_nakama⟧: companion, member of a group\n- ⟦{同期|どうき}→同期：12029_douki⟧: someone who joined at the same time",
-  "cross_references": [],
+  "notes": "{同僚|どうりょう} refers to coworkers at a similar level in the same organization.\n\nETYMOLOGY:\n⟦{同|どう}→同〜：03962_dou⟧ (same) + ⟦{僚|りょう}→僚：noentry⟧ (companion)\n\nUSAGE:\n{同僚|どうりょう} specifically means peers or equals at work. It does not include:\n- ⟦{上司|じょうし}→上司：03286_joushi⟧: superiors, bosses\n- ⟦{部下|ぶか}→部下：06453_buka⟧: subordinates\n\nCOMMON EXPRESSIONS:\n- {同僚|どうりょう}⟦と→と：00512_to⟧⟦{働|はたら}く→働く：00503_hataraku⟧: to work with colleagues\n- ⟦{元|もと}→元：03878_moto⟧{同僚|どうりょう}: former colleague\n- {同僚|どうりょう}⟦{関係|かんけい}→関係：01298_kankei⟧: colleague relationship\n\nSIMILAR WORDS:\n- {同僚|どうりょう}: colleague (same organization, peer level)\n- ⟦{仲間|なかま}→仲間：03498_nakama⟧: companion, member of a group\n- ⟦{同期|どうき}→同期：12029_douki⟧: someone who joined at the same time",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03498_nakama",
+      "reading": "なかま",
+      "headword": "{仲間|なかま}",
+      "label": "companion, member of a group"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12029_douki",
+      "reading": "どうき",
+      "headword": "{同期|どうき}",
+      "label": "someone who joined at the same time"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03474_doushi",
+      "reading": "どうし",
+      "headword": "{同士|どうし}",
+      "label": "fellow, comrade"
+    },
+    {
+      "type": "related",
+      "target_id": "08492_shanairenai",
+      "reading": "しゃないれんあい",
+      "headword": "{社内恋愛|しゃないれんあい}",
+      "label": "office romance"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19689_shigotonakama",
+      "reading": "しごとなかま",
+      "headword": "{仕事仲間|しごとなかま}",
+      "label": "work colleague"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21886_dougyou",
+      "reading": "どうぎょう",
+      "headword": "{同業|どうぎょう}",
+      "label": "same trade"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24126_dougyousha",
+      "reading": "どうぎょうしゃ",
+      "headword": "{同業者|どうぎょうしゃ}",
+      "label": "person in the same trade"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30758_aibou",
+      "reading": "あいぼう",
+      "headword": "{相棒|あいぼう}",
+      "label": "partner"
+    }
+  ],
   "metadata": {
     "created": "2026-01-07T12:21:51Z",
-    "modified": "2026-05-13T20:34:08Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

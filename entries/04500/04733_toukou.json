@@ -2,7 +2,7 @@
   "id": "04733_toukou",
   "headword": "{投稿|とうこう}",
   "reading": "とうこう",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "post, submission",
   "conjugation": {
     "type": "suru",
@@ -208,7 +208,7 @@
       "notes": null
     }
   ],
-  "notes": "{投稿|とうこう} means posting or submitting content. Originally used for publication submissions, now extremely common for social media.\n\nCOMMON EXPRESSIONS:\n- {投稿|とうこう}⟦する→する：00392_suru⟧: to post, to submit\n- {投稿|とうこう}⟦を→を：00422_wo⟧⟦{削除|さくじょ}→削除：04171_sakujo⟧⟦する→する：00392_suru⟧: to delete a post\n- {投稿|とうこう}⟦を→を：00422_wo⟧⟦{編集|へんしゅう}→編集：04439_henshuu⟧⟦する→する：00392_suru⟧: to edit a post\n- ⟦SNS→SNS：05601_esuenuesu⟧⟦に→に：00314_ni⟧{投稿|とうこう}⟦する→する：00392_suru⟧: to post on social media\n\nRELATED WORDS:\n- ⟦{投稿者|とうこうしゃ}→投稿者：23839_toukousha⟧: poster, contributor\n- {投稿|とうこう}⟦{欄|らん}→欄：03901_ran⟧: comments section\n- {投稿|とうこう}⟦{日時|にちじ}→日時：00316_nichiji⟧: posting date/time\n\nCONTEXTS:\n- Social media: ⟦{写真|しゃしん}→写真：00753_shashin⟧⟦を→を：00422_wo⟧{投稿|とうこう}⟦する→する：00392_suru⟧ (post a photo)\n- Publications: ⟦{雑誌|ざっし}→雑誌：00686_zasshi⟧⟦に→に：00314_ni⟧{投稿|とうこう}⟦する→する：00392_suru⟧ (submit to a magazine)\n- Online forums: ⟦{掲示板|けいじばん}→掲示板：03052_keijiban⟧⟦に→に：00314_ni⟧{投稿|とうこう}⟦する→する：00392_suru⟧ (post on a message board)",
+  "notes": "{投稿|とうこう} means posting or submitting content. Originally used for publication submissions, now extremely common for social media.\n\nCOMMON EXPRESSIONS:\n- {投稿|とうこう}⟦する→する：00392_suru⟧: to post, to submit\n- {投稿|とうこう}⟦を→を：00422_wo⟧⟦{削除|さくじょ}→削除：04171_sakujo⟧⟦する→する：00392_suru⟧: to delete a post\n- {投稿|とうこう}⟦を→を：00422_wo⟧⟦{編集|へんしゅう}→編集：04439_henshuu⟧⟦する→する：00392_suru⟧: to edit a post\n- ⟦SNS→SNS：05601_esuenuesu⟧⟦に→に：00314_ni⟧{投稿|とうこう}⟦する→する：00392_suru⟧: to post on social media\n\nRELATED WORDS:\n- ⟦{投稿者|とうこうしゃ}→投稿者：23839_toukousha⟧: poster, contributor\n- {投稿|とうこう}⟦{欄|らん}→欄：03901_ran⟧: comments section\n- {投稿|とうこう}⟦{日時|にちじ}→日時：00316_nichiji⟧: posting date/time\n\nUSAGE:\n- Social media: ⟦{写真|しゃしん}→写真：00753_shashin⟧⟦を→を：00422_wo⟧{投稿|とうこう}⟦する→する：00392_suru⟧ (post a photo)\n- Publications: ⟦{雑誌|ざっし}→雑誌：00686_zasshi⟧⟦に→に：00314_ni⟧{投稿|とうこう}⟦する→する：00392_suru⟧ (submit to a magazine)\n- Online forums: ⟦{掲示板|けいじばん}→掲示板：03052_keijiban⟧⟦に→に：00314_ni⟧{投稿|とうこう}⟦する→する：00392_suru⟧ (post on a message board)",
   "cross_references": [
     {
       "type": "related",
@@ -223,11 +223,25 @@
       "reading": "ばずる",
       "headword": "バズる",
       "label": "to go viral"
+    },
+    {
+      "type": "related",
+      "target_id": "04556_tousho",
+      "reading": "とうしょ",
+      "headword": "{投書|とうしょ}",
+      "label": "letter to the editor, written contribution"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17076_kikou",
+      "reading": "きこう",
+      "headword": "{寄稿|きこう}",
+      "label": "contribution (of an article)"
     }
   ],
   "metadata": {
     "created": "2026-01-15T23:49:57Z",
-    "modified": "2026-06-02T13:10:00Z",
+    "modified": "2026-09-02T04:00:52Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
@@ -240,7 +254,8 @@
       "semantic": [
         "communication"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   },
   "prominent_see_also": [

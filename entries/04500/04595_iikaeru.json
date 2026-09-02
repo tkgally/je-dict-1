@@ -2,7 +2,7 @@
   "id": "04595_iikaeru",
   "headword": "{言|い}い{換|か}える",
   "reading": "いいかえる",
-  "part_of_speech": "ichidan verb",
+  "part_of_speech": "verb (ichidan)",
   "gloss": "to rephrase, to put differently",
   "conjugation": {
     "type": "ichidan",
@@ -139,7 +139,7 @@
     },
     {
       "id": "04595_iikaeru_ex4",
-      "japanese": "「⟦{困難|こんなん}→困難：01410_konnan⟧」⟦を→を：00422_wo⟧「⟦{難|むずか}しい→難しい：00517_muzukashii⟧」⟦に→に：00314_ni⟧{言|い}い{換|か}えると、⟦わかりやすい→わかりやすい：09582_wakariyasui⟧。",
+      "japanese": "「⟦{困難|こんなん}→困難：01410_konnan⟧」⟦を→を：00422_wo⟧「⟦{難|むずか}しい→難しい：00517_muzukashii⟧」⟦に→に：00314_ni⟧{言|い}い{換|か}える⟦と→と：00512_to⟧、⟦わかりやすい→わかりやすい：09582_wakariyasui⟧。",
       "english": "If you rephrase 'konnan' as 'muzukashii,' it becomes easier to understand.",
       "notes": null,
       "has_audio": false,
@@ -169,7 +169,7 @@
     },
     {
       "id": "04595_iikaeru_ex7",
-      "japanese": "{言|い}い{換|か}えると、⟦{時間|じかん}→時間：00468_jikan⟧⟦が→が：00051_ga⟧⟦{足|た}りない→足りる：01209_tariru⟧⟦という→という：09577_toiu⟧⟦こと→こと：01164_koto⟧だ。",
+      "japanese": "{言|い}い{換|か}える⟦と→と：00512_to⟧、⟦{時間|じかん}→時間：00468_jikan⟧⟦が→が：00051_ga⟧⟦{足|た}りない→足りる：01209_tariru⟧⟦という→という：09577_toiu⟧⟦こと→こと：01164_koto⟧だ。",
       "english": "In other words, there isn't enough time.",
       "notes": null,
       "has_audio": false,
@@ -208,11 +208,26 @@
       ]
     }
   ],
-  "notes": "{言|い}い{換|か}える is a transitive verb (⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧) meaning to rephrase or express differently.\n\nCOMPOUND STRUCTURE:\n- ⟦{言|い}う→言う：00515_iu⟧ (to say) + ⟦{換|か}える→換える：13346_kaeru⟧ (to exchange, to replace) → to replace one's words with different ones\n\nASPECT (ている):\n{言|い}い{換|か}えている is rarely used; the verb is typically used in non-progressive forms.\n\nCOMMON PATTERNS:\n- {言|い}い{換|か}えれば (in other words)\n- {言|い}い{換|か}えると (to put it another way)\n- ～に{言|い}い{換|か}える (rephrase as~)\n- ⟦{別|べつ}→別：01216_betsu⟧の⟦{言葉|ことば}→言葉：02880_kotoba⟧⟦で→で：00502_de⟧{言|い}い{換|か}える (rephrase in different words)\n\nSET EXPRESSIONS:\n- {言|い}い{換|か}えれば / {言|い}い{換|か}えると: \"in other words\" - very common transitional phrase",
-  "cross_references": [],
+  "notes": "{言|い}い{換|か}える is a transitive verb (⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧) meaning to rephrase or express differently.\n\nETYMOLOGY:\n- ⟦{言|い}う→言う：00515_iu⟧ (to say) + ⟦{換|か}える→換える：13346_kaeru⟧ (to exchange, to replace) → to replace one's words with different ones\n\nASPECT (ている):\n{言|い}い{換|か}えて⟦いる→いる：00495_iru⟧ is rarely used; the verb is typically used in non-progressive forms.\n\nCOMMON PATTERNS:\n- {言|い}い{換|か}えれば (in other words)\n- {言|い}い{換|か}える⟦と→と：00512_to⟧ (to put it another way)\n- ～⟦に→に：00314_ni⟧{言|い}い{換|か}える (rephrase as~)\n- ⟦{別|べつ}→別：01216_betsu⟧⟦の→の：09472_no⟧⟦{言葉|ことば}→言葉：02880_kotoba⟧⟦で→で：00502_de⟧{言|い}い{換|か}える (rephrase in different words)\n\nCOMMON EXPRESSIONS:\n- {言|い}い{換|か}えれば / {言|い}い{換|か}える⟦と→と：00512_to⟧: \"in other words\" - very common transitional phrase",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08226_okikaeru",
+      "reading": "おきかえる",
+      "headword": "{置|お}き{換|か}える",
+      "label": "to replace"
+    },
+    {
+      "type": "related",
+      "target_id": "08256_iinaosu",
+      "reading": "いいなおす",
+      "headword": "{言|い}い{直|なお}す",
+      "label": "to rephrase"
+    }
+  ],
   "metadata": {
     "created": "2026-01-14T03:52:00Z",
-    "modified": "2026-06-10T17:34:32Z",
+    "modified": "2026-09-02T04:01:05Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

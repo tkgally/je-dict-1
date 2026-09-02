@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "12602_nayamasu_ex1",
-      "japanese": "{頭痛|ずつう}に{悩|なや}まされている。",
+      "japanese": "⟦{頭痛|ずつう}→頭痛：03369_zutsuu⟧⟦に→に：00314_ni⟧{悩|なや}まされて⟦いる→いる：00495_iru⟧。",
       "english": "I'm troubled by headaches.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "12602_nayamasu_ex2",
-      "japanese": "この{問題|もんだい}は{長年|ながねん}{研究者|けんきゅうしゃ}を{悩|なや}ませてきた。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{問題|もんだい}→問題：00797_mondai⟧⟦は→は：00079_ha⟧⟦{長年|ながねん}→長年：09684_naganen⟧⟦{研究者|けんきゅうしゃ}→研究者：02573_kenkyuusha⟧⟦を→を：00422_wo⟧⟦{悩|なや}ませて→悩む：02380_nayamu⟧きた。",
       "english": "This problem has troubled researchers for many years.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "12602_nayamasu_ex3",
-      "japanese": "{子供|こども}の{反抗期|はんこうき}に{悩|なや}まされる{親|おや}は{多|おお}い。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧⟦の→の：09472_no⟧⟦{反抗期|はんこうき}→反抗期：15877_hankouki⟧⟦に→に：00314_ni⟧{悩|なや}まされる⟦{親|おや}→親：01357_oya⟧⟦は→は：00079_ha⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "Many parents are troubled by their children's rebellious phase.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nThe transitive counterpart of {悩|なや}む (to worry, to be troubled). While {悩|なや}む describes the person experiencing worry, {悩|なや}ます describes what causes the worry. Very often used in the passive form {悩|なや}まされる (to be troubled by).\n\nGRAMMAR:\nGodan verb ending in す. Transitive — takes を for the person being troubled: Xを{悩|なや}ます. The passive {悩|なや}まされる with に marks the cause: Xに{悩|なや}まされる.\n\nCOMMON COLLOCATIONS:\n- Xに{悩|なや}まされる: to be troubled by X (passive, very common)\n- {相手|あいて}を{悩|なや}ます: to give the opponent trouble\n- {長年|ながねん}{悩|なや}まされる: to be troubled for many years",
+  "notes": "USAGE:\nThe transitive counterpart of ⟦{悩|なや}む→悩む：02380_nayamu⟧ (to worry, to be troubled). While ⟦{悩|なや}む→悩む：02380_nayamu⟧ describes the person experiencing worry, {悩|なや}ます describes what causes the worry. Very often used in the passive form {悩|なや}まされる (to be troubled by).\n\nCOMMON PATTERNS:\nGodan verb ending in す. Transitive — takes ⟦を→を：00422_wo⟧ for the person being troubled: X⟦を→を：00422_wo⟧{悩|なや}ます. The passive {悩|なや}まされる with ⟦に→に：00314_ni⟧ marks the cause: X⟦に→に：00314_ni⟧{悩|なや}まされる.\n\nCOMMON COLLOCATIONS:\n- X⟦に→に：00314_ni⟧{悩|なや}まされる: to be troubled by X (passive, very common)\n- ⟦{相手|あいて}→相手：01677_aite⟧⟦を→を：00422_wo⟧{悩|なや}ます: to give the opponent trouble\n- ⟦{長年|ながねん}→長年：09684_naganen⟧{悩|なや}まされる: to be troubled for many years",
   "prominent_see_also": [
     {
       "target_id": "02380_nayamu",
@@ -143,10 +143,18 @@
       "note": "intransitive"
     }
   ],
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "28648_sainamu",
+      "reading": "さいなむ",
+      "headword": "{苛|さいな}む",
+      "label": "to torment"
+    }
+  ],
   "metadata": {
     "created": "2026-02-22T04:08:27Z",
-    "modified": "2026-04-06T02:15:15Z",
+    "modified": "2026-09-02T04:01:29Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

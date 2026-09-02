@@ -89,7 +89,7 @@
     },
     {
       "id": "00996_sorekara_ex8",
-      "japanese": "⟦{牛乳|ぎゅうにゅう}→牛乳：00777_gyuunyuu⟧⟦と→と：00512_to⟧⟦{卵|たまご}→卵：02222_tamago⟧、それから⟦{パン|ぱん}→パン：00553_pan⟧⟦を→を：00422_wo⟧⟦{買|か}った→買う：00489_kau⟧。",
+      "japanese": "⟦{牛乳|ぎゅうにゅう}→牛乳：00777_gyuunyuu⟧⟦と→と：00512_to⟧⟦{卵|たまご}→卵：02222_tamago⟧、それから⟦パン→パン：00553_pan⟧⟦を→を：00422_wo⟧⟦{買|か}った→買う：00489_kau⟧。",
       "english": "I bought milk, eggs, and also bread.",
       "notes": null,
       "has_audio": false,
@@ -118,7 +118,7 @@
       ]
     }
   ],
-  "notes": "それから combines ⟦それ→それ：00994_sore⟧ (that) + ⟦から→から：00504_kara⟧ (from), meaning 'from that' → 'after that.'\n\nTWO MAIN USES:\n1. Temporal sequence: 'and then,' 'after that'\n2. Listing addition: 'and also,' 'in addition'\n\nPOSITION:\nUsed at the beginning of a sentence or clause.\n\nCOMPARISON WITH ⟦そして→そして：00997_soshite⟧:\n- それから: emphasizes sequence, more casual\n- そして: neutral connector, slightly more formal\n\nEXAMPLE PATTERNS:\n- [A]。それから[B]。: [A]. After that, [B].\n- [A]⟦と→と：00512_to⟧[B]、それから[C]: [A], [B], and also [C]\n\nSIMILAR EXPRESSIONS:\n- ⟦その→その：00993_sono⟧⟦{後|あと}→後：09580_ato⟧: after that\n- ⟦{次|つぎ}→次：00819_tsugi⟧⟦に→に：00314_ni⟧: next",
+  "notes": "それから combines ⟦それ→それ：00994_sore⟧ (that) + ⟦から→から：00504_kara⟧ (from), meaning 'from that' → 'after that.'\n\nFUNCTIONS:\n1. Temporal sequence: 'and then,' 'after that'\n2. Listing addition: 'and also,' 'in addition'\n\nPOSITION IN SENTENCE:\nUsed at the beginning of a sentence or clause.\n\nCOMPARISON WITH ⟦そして→そして：00997_soshite⟧:\n- それから: emphasizes sequence, more casual\n- ⟦そして→そして：00997_soshite⟧: neutral connector, slightly more formal\n\nEXAMPLE PATTERNS:\n- [A]。それから[B]。: [A]. After that, [B].\n- [A]⟦と→と：00512_to⟧[B]、それから[C]: [A], [B], and also [C]\n\nSIMILAR WORDS:\n- ⟦その→その：00993_sono⟧⟦{後|あと}→後：09580_ato⟧: after that\n- ⟦{次|つぎ}→次：00819_tsugi⟧⟦に→に：00314_ni⟧: next",
   "cross_references": [
     {
       "type": "synonym",
@@ -133,11 +133,32 @@
       "reading": "それで",
       "headword": "それで",
       "label": "because of that (causal)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30273_tsugini",
+      "reading": "つぎに",
+      "headword": "{次|つぎ}に",
+      "label": "next"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02943_soushite",
+      "reading": "そうして",
+      "headword": "そうして",
+      "label": "and, and then"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27619_arekara",
+      "reading": "あれから",
+      "headword": "あれから",
+      "label": "since then"
     }
   ],
   "metadata": {
     "created": "2026-01-07T12:02:01Z",
-    "modified": "2026-05-13T19:17:12Z",
+    "modified": "2026-09-02T04:00:58Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

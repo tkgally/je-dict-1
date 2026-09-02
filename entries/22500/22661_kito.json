@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22661_kito_ex1",
-      "japanese": "クーデターを{企図|きと}する。",
+      "japanese": "クーデター⟦を→を：00422_wo⟧{企図|きと}⟦する→する：00392_suru⟧。",
       "english": "To plan a coup d'état.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22661_kito_ex2",
-      "japanese": "{犯人|はんにん}は{逃亡|とうぼう}を{企図|きと}していたようだ。",
+      "japanese": "⟦{犯人|はんにん}→犯人：03572_hannin⟧⟦は→は：00079_ha⟧⟦{逃亡|とうぼう}→逃亡：14367_toubou⟧⟦を→を：00422_wo⟧{企図|きと}⟦していた→する：00392_suru⟧ようだ。",
       "english": "It seems the criminal was planning to escape.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22661_kito_ex3",
-      "japanese": "この{政策|せいさく}は{経済|けいざい}{成長|せいちょう}と{環境|かんきょう}{保護|ほご}の{両立|りょうりつ}を{企図|きと}したものだ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{政策|せいさく}→政策：10070_seisaku⟧⟦は→は：00079_ha⟧⟦{経済|けいざい}{成長|せいちょう}→経済成長：20453_keizaiseichou⟧⟦と→と：00512_to⟧⟦{環境|かんきょう}{保護|ほご}→環境保護：15308_kankyouhogo⟧⟦の→の：09472_no⟧⟦{両立|りょうりつ}→両立：11310_ryouritsu⟧⟦を→を：00422_wo⟧{企図|きと}⟦した→する：00392_suru⟧ものだ。",
       "english": "This policy was designed to achieve both economic growth and environmental protection.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {企|き} (plan/scheme) and {図|と} (diagram/plan). A formal, somewhat literary word for planning or scheming. Often appears in news reporting, legal contexts, and academic writing.\n\nCOMMON COLLOCATIONS:\n- {企図|きと}する: to plan, to attempt\n- {犯行|はんこう}を{企図|きと}する: to plan a crime\n- {自殺|じさつ}を{企図|きと}する: to attempt suicide (medical/clinical term)\n- {改革|かいかく}を{企図|きと}する: to design a reform\n\nSIMILAR WORDS:\n- {計画|けいかく}: plan — neutral and everyday; lacks the calculated/scheming nuance\n- {策謀|さくぼう}: plot, intrigue — more strongly negative, implies deception\n- {企|たくら}む: to scheme — a verb with similar meaning but more colloquial and always negative\n- {意図|いと}: intention — focuses on the intent itself rather than the planning action",
+  "notes": "A compound of {企|き} (plan/scheme) and {図|と} (diagram/plan). A formal, somewhat literary word for planning or scheming. Often appears in news reporting, legal contexts, and academic writing.\n\nCOMMON COLLOCATIONS:\n- {企図|きと}⟦する→する：00392_suru⟧: to plan, to attempt\n- ⟦{犯行|はんこう}→犯行：13472_hankou⟧⟦を→を：00422_wo⟧{企図|きと}⟦する→する：00392_suru⟧: to plan a crime\n- ⟦{自殺|じさつ}→自殺：03336_jisatsu⟧⟦を→を：00422_wo⟧{企図|きと}⟦する→する：00392_suru⟧: to attempt suicide (medical/clinical term)\n- ⟦{改革|かいかく}→改革：04815_kaikaku⟧⟦を→を：00422_wo⟧{企図|きと}⟦する→する：00392_suru⟧: to design a reform\n\nSIMILAR WORDS:\n- ⟦{計画|けいかく}→計画：01172_keikaku⟧: plan — neutral and everyday; lacks the calculated/scheming nuance\n- ⟦{策謀|さくぼう}→策謀：22967_sakubou⟧: plot, intrigue — more strongly negative, implies deception\n- {企|たくら}む: to scheme — a verb with similar meaning but more colloquial and always negative\n- ⟦{意図|いと}→意図：12625_ito⟧: intention — focuses on the intent itself rather than the planning action",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01172_keikaku",
+      "reading": "けいかく",
+      "headword": "{計画|けいかく}",
+      "label": "plan"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22967_sakubou",
+      "reading": "さくぼう",
+      "headword": "{策謀|さくぼう}",
+      "label": "plot, intrigue"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12625_ito",
+      "reading": "いと",
+      "headword": "{意図|いと}",
+      "label": "intention"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -57,11 +80,12 @@
         "abstract"
       ],
       "formality": "formal",
-      "politeness": null,
-      "verb_class": "suru"
+      "politeness": "plain",
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-04-06T21:27:19Z",
-    "modified": "2026-04-06T21:27:19Z"
+    "modified": "2026-09-02T04:02:09Z"
   },
   "conjugation": {
     "type": "suru",

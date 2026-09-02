@@ -34,7 +34,7 @@
     },
     {
       "id": "03980_kigu_ex3",
-      "japanese": "⟦{医療|いりょう}→医療：01836_iryou⟧{器具|きぐ}⟦は→は：00079_ha⟧⟦{清潔|せいけつ}→清潔：01583_seiketsu⟧⟦に→に：00314_ni⟧⟦{保|たも}つ→保つ：10134_tamotsu⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧がある。",
+      "japanese": "⟦{医療|いりょう}→医療：01836_iryou⟧{器具|きぐ}⟦は→は：00079_ha⟧⟦{清潔|せいけつ}→清潔：01583_seiketsu⟧⟦に→に：00314_ni⟧⟦{保|たも}つ→保つ：10134_tamotsu⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "Medical instruments need to be kept sterile.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "USAGE: More formal than ⟦{道具|どうぐ}→道具：01479_dougu⟧ (tool) and often implies specialized or technical equipment.\n\nCOMMON COMPOUNDS:\n・⟦{実験|じっけん}→実験：03273_jikken⟧{器具|きぐ} (laboratory apparatus)\n・⟦{医療|いりょう}→医療：01836_iryou⟧{器具|きぐ} (medical instruments)\n・⟦{料理|りょうり}→料理：01523_ryouri⟧{器具|きぐ} (cooking utensils)\n・⟦{体操|たいそう}→体操：04493_taisou⟧{器具|きぐ} (gymnastics equipment)\n\nSIMILAR WORDS:\n・⟦{道具|どうぐ}→道具：01479_dougu⟧ - general tools (broader, less formal)\n・⟦{器械|きかい}→器械：17728_kikai⟧ - apparatus, especially for gymnastics or medical use\n・⟦{機器|きき}→機器：13180_kiki⟧ - devices, equipment (more modern/electronic)",
+  "notes": "USAGE: More formal than ⟦{道具|どうぐ}→道具：01479_dougu⟧ (tool) and often implies specialized or technical equipment.\n\nCOMPOUNDS:\n- ⟦{実験|じっけん}→実験：03273_jikken⟧{器具|きぐ} (laboratory apparatus)\n- ⟦{医療|いりょう}→医療：01836_iryou⟧{器具|きぐ} (medical instruments)\n- ⟦{料理|りょうり}→料理：01523_ryouri⟧{器具|きぐ} (cooking utensils)\n- ⟦{体操|たいそう}→体操：04493_taisou⟧{器具|きぐ} (gymnastics equipment)\n\nSIMILAR WORDS:\n- ⟦{道具|どうぐ}→道具：01479_dougu⟧ - general tools (broader, less formal)\n- ⟦{器械|きかい}→器械：17728_kikai⟧ - apparatus, especially for gymnastics or medical use\n- ⟦{機器|きき}→機器：13180_kiki⟧ - devices, equipment (more modern/electronic)",
   "cross_references": [
     {
       "type": "related",
@@ -51,11 +51,46 @@
       "headword": "{道具|どうぐ}",
       "label": "general tools",
       "target_id": "01479_dougu"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17728_kikai",
+      "reading": "きかい",
+      "headword": "{器械|きかい}",
+      "label": "apparatus, especially for gymnastics…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13180_kiki",
+      "reading": "きき",
+      "headword": "{機器|きき}",
+      "label": "devices, equipment"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01401_kougu",
+      "reading": "こうぐ",
+      "headword": "{工具|こうぐ}",
+      "label": "tool, implement"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09667_yougu",
+      "reading": "ようぐ",
+      "headword": "{用具|ようぐ}",
+      "label": "equipment"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28188_riki",
+      "reading": "りき",
+      "headword": "{利器|りき}",
+      "label": "useful tool"
     }
   ],
   "metadata": {
     "created": "2026-01-13T07:50:37Z",
-    "modified": "2026-05-28T16:14:48Z",
+    "modified": "2026-09-02T04:01:04Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

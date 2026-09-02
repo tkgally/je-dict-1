@@ -119,7 +119,7 @@
     },
     {
       "id": "01587_senkou_ex2",
-      "japanese": "⟦{経済学|けいざいがく}→経済学：19376_keizaigaku⟧⟦を→を：00422_wo⟧{専攻|せんこう}しています。",
+      "japanese": "⟦{経済学|けいざいがく}→経済学：19376_keizaigaku⟧⟦を→を：00422_wo⟧{専攻|せんこう}⟦しています→する：00392_suru⟧。",
       "english": "I am majoring in economics.",
       "notes": null,
       "has_audio": false,
@@ -129,7 +129,7 @@
     },
     {
       "id": "01587_senkou_ex3",
-      "japanese": "⟦{大学|だいがく}→大学：00608_daigaku⟧⟦で→で：00502_de⟧⟦{日本|にほん}→日本：03876_nihon⟧⟦{文学|ぶんがく}→文学：01505_bungaku⟧⟦を→を：00422_wo⟧{専攻|せんこう}しました。",
+      "japanese": "⟦{大学|だいがく}→大学：00608_daigaku⟧⟦で→で：00502_de⟧⟦{日本|にほん}→日本：03876_nihon⟧⟦{文学|ぶんがく}→文学：01505_bungaku⟧⟦を→を：00422_wo⟧{専攻|せんこう}⟦しました→する：00392_suru⟧。",
       "english": "I majored in Japanese literature at university.",
       "notes": null,
       "has_audio": false,
@@ -149,7 +149,7 @@
     },
     {
       "id": "01587_senkou_ex5",
-      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧⟦{心理学|しんりがく}→心理学：12666_shinrigaku⟧⟦を→を：00422_wo⟧{専攻|せんこう}して、⟦{今|いま}→今：00945_ima⟧⟦は→は：00079_ha⟧⟦カウンセラー→カウンセラー：noentry⟧⟦として→として：06802_toshite⟧⟦{働|はたら}いている→働く：00503_hataraku⟧。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧⟦{心理学|しんりがく}→心理学：12666_shinrigaku⟧⟦を→を：00422_wo⟧{専攻|せんこう}⟦して→する：00392_suru⟧、⟦{今|いま}→今：00945_ima⟧⟦は→は：00079_ha⟧⟦カウンセラー→カウンセラー：noentry⟧⟦として→として：06802_toshite⟧⟦{働|はたら}いている→働く：00503_hataraku⟧。",
       "english": "She majored in psychology and now works as a counselor.",
       "notes": null,
       "has_audio": false,
@@ -176,11 +176,18 @@
       "reading": "せんもん",
       "headword": "{専門|せんもん}",
       "label": "specialty (broader)"
+    },
+    {
+      "type": "related",
+      "target_id": "01996_gakubu",
+      "reading": "がくぶ",
+      "headword": "〜{学部|がくぶ}",
+      "label": "faculty, department (university)"
     }
   ],
   "metadata": {
     "created": "2026-01-09T11:41:04Z",
-    "modified": "2026-05-15T23:22:01Z",
+    "modified": "2026-09-02T04:01:00Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

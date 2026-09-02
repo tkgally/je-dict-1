@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "09741_tsukaihoudai_ex1",
-      "japanese": "データ{通信|つうしん}{使|つか}い{放題|ほうだい}のプラン。",
+      "japanese": "⟦データ{通信|つうしん}→データ通信：10747_deetatsuushin⟧{使|つか}い{放題|ほうだい}⟦の→の：09472_no⟧⟦プラン→プラン：00345_puran⟧。",
       "english": "An unlimited data plan.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "09741_tsukaihoudai_ex2",
-      "japanese": "{使|つか}い{放題|ほうだい}だから{安心|あんしん}して{使|つか}える。",
+      "japanese": "{使|つか}い{放題|ほうだい}だ⟦から→から：00504_kara⟧⟦{安心|あんしん}して→安心する：06067_anshinsuru⟧⟦{使|つか}える→使う：00473_tsukau⟧。",
       "english": "It's unlimited, so I can use it without worry.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "09741_tsukaihoudai_ex3",
-      "japanese": "このカフェはWi-Fi{使|つか}い{放題|ほうだい}で{作業|さぎょう}しやすい。",
+      "japanese": "⟦この→この：00962_kono⟧⟦カフェ→カフェ：06767_kafe⟧⟦は→は：00079_ha⟧Wi-Fi{使|つか}い{放題|ほうだい}⟦で→で：00502_de⟧⟦{作業|さぎょう}→作業：02775_sagyou⟧しやすい。",
       "english": "This cafe has unlimited Wi-Fi, which makes it easy to work.",
       "notes": null,
       "has_audio": false,
@@ -43,10 +43,10 @@
       ]
     }
   ],
-  "notes": "{使|つか}い{放題|ほうだい} follows the ～{放題|ほうだい} pattern meaning \"as much as you want.\"\n\nSIMILAR EXPRESSIONS:\n- {食|た}べ{放題|ほうだい}: all-you-can-eat\n- {飲|の}み{放題|ほうだい}: all-you-can-drink\n- {見|み}{放題|ほうだい}: unlimited viewing\n- {聴|き}き{放題|ほうだい}: unlimited listening\n\nCOMMON COLLOCATIONS:\n- データ{使|つか}い{放題|ほうだい} (unlimited data)\n- Wi-Fi{使|つか}い{放題|ほうだい} (unlimited Wi-Fi)\n\nRELATED TERMS:\n- {定額|ていがく}: flat rate\n- {無制限|むせいげん}: unlimited",
+  "notes": "{使|つか}い{放題|ほうだい} follows the ～⟦{放題|ほうだい}→放題：03151_houdai⟧ pattern meaning \"as much as you want.\"\n\nSIMILAR WORDS:\n- ⟦{食|た}べ{放題|ほうだい}→食べ放題：08291_tabehoudai⟧: all-you-can-eat\n- ⟦{飲|の}み{放題|ほうだい}→飲み放題：08308_nomihoudai⟧: all-you-can-drink\n- {見|み}⟦{放題|ほうだい}→放題：03151_houdai⟧: unlimited viewing\n- ⟦{聴|き}き→聴く：30010_kiku⟧⟦{放題|ほうだい}→放題：03151_houdai⟧: unlimited listening\n\nCOMMON COLLOCATIONS:\n- ⟦データ→データ：03944_deeta⟧{使|つか}い{放題|ほうだい} (unlimited data)\n- Wi-Fi{使|つか}い{放題|ほうだい} (unlimited Wi-Fi)\n\nRELATED WORDS:\n- ⟦{定額|ていがく}→定額：09740_teigaku⟧: flat rate\n- ⟦{無制限|むせいげん}→無制限：17829_museigen⟧: unlimited",
   "metadata": {
     "created": "2026-02-03T07:21:36Z",
-    "modified": "2026-06-25T09:42:48Z",
+    "modified": "2026-09-02T04:01:19Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -89,6 +89,13 @@
       "reading": "むせいげん",
       "headword": "{無制限|むせいげん}",
       "label": "unlimited"
+    },
+    {
+      "type": "related",
+      "target_id": "09815_tsuushinseigen",
+      "reading": "つうしんせいげん",
+      "headword": "{通信|つうしん}{制限|せいげん}",
+      "label": "data throttling"
     }
   ]
 }

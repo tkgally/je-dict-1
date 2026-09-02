@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "15518_hansode_ex1",
-      "japanese": "{今日|きょう}は{暑|あつ}いから{半袖|はんそで}にしよう。",
+      "japanese": "⟦{今日|きょう}→今日：00496_kyou⟧⟦は→は：00079_ha⟧⟦{暑|あつ}い→暑い：00619_atsui⟧⟦から→から：00504_kara⟧{半袖|はんそで}⟦に→に：00314_ni⟧⟦しよう→する：00392_suru⟧。",
       "english": "It's hot today, so let's go with short sleeves.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15518_hansode_ex2",
-      "japanese": "{半袖|はんそで}では{寒|さむ}いかもしれない。",
+      "japanese": "{半袖|はんそで}⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{寒|さむ}い→寒い：00664_samui⟧⟦かもしれない→かもしれない：00164_kamoshirenai⟧。",
       "english": "Short sleeves might be too cold.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15518_hansode_ex3",
-      "japanese": "まだ{四月|しがつ}なのに{半袖|はんそで}で{歩|ある}いている{人|ひと}がいて{驚|おどろ}いた。",
+      "japanese": "⟦まだ→まだ：00603_mada⟧⟦{四月|しがつ}→四月：00668_shigatsu⟧な⟦の→の：09472_no⟧⟦に→に：00314_ni⟧{半袖|はんそで}⟦で→で：00502_de⟧⟦{歩|ある}いている→歩く：00538_aruku⟧⟦{人|ひと}→人：00476_hito⟧がいて⟦{驚|おどろ}いた→驚く：01255_odoroku⟧。",
       "english": "I was surprised to see people walking around in short sleeves even though it's only April.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\n{半袖|はんそで} is everyday clothing vocabulary. When discussing what to wear based on the weather or season, {半袖|はんそで} and {長袖|ながそで} are the standard pair.\n\nCOMMON COLLOCATIONS:\n- {半袖|はんそで}のシャツ (short-sleeved shirt)\n- {半袖|はんそで}Tシャツ (short-sleeved T-shirt)\n- {半袖|はんそで}で{出|で}かける (to go out in short sleeves)\n\nRELATED WORDS:\n- {長袖|ながそで}: long sleeves\n- {袖|そで}: sleeve\n- {袖|そで}なし: sleeveless",
+  "notes": "USAGE:\n{半袖|はんそで} is everyday clothing vocabulary. When discussing what to wear based on the weather or season, {半袖|はんそで} and ⟦{長袖|ながそで}→長袖：15517_nagasode⟧ are the standard pair.\n\nCOMMON COLLOCATIONS:\n- {半袖|はんそで}⟦の→の：09472_no⟧⟦シャツ→シャツ：01052_shatsu⟧ (short-sleeved shirt)\n- {半袖|はんそで}Tシャツ (short-sleeved T-shirt)\n- {半袖|はんそで}⟦で→で：00502_de⟧⟦{出|で}かける→出かける：00833_dekakeru⟧ (to go out in short sleeves)\n\nRELATED WORDS:\n- ⟦{長袖|ながそで}→長袖：15517_nagasode⟧: long sleeves\n- ⟦{袖|そで}→袖：02217_sode⟧: sleeve\n- ⟦{袖|そで}なし→袖なし：23859_sodenashi⟧: sleeveless",
   "prominent_see_also": [
     {
       "target_id": "15517_nagasode",
@@ -47,17 +53,36 @@
       "note": "long sleeves"
     }
   ],
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "23859_sodenashi",
+      "reading": "そでなし",
+      "headword": "{袖|そで}なし",
+      "label": "sleeveless"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23421_natsufuku",
+      "reading": "なつふく",
+      "headword": "{夏服|なつふく}",
+      "label": "summer clothes"
+    }
+  ],
   "metadata": {
     "created": "2026-03-07T09:34:07Z",
-    "modified": "2026-05-01T07:30:21Z",
+    "modified": "2026-09-02T04:01:41Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["clothing"]
+      "semantic": [
+        "clothing"
+      ]
     }
   }
 }

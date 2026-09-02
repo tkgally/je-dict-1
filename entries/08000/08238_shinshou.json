@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "08238_shinshou_ex1",
-      "japanese": "1-0で{辛勝|しんしょう}した。",
+      "japanese": "1-0⟦で→で：00502_de⟧{辛勝|しんしょう}⟦した→する：00392_suru⟧。",
       "english": "They won narrowly 1-0.",
       "sense_numbers": [
         1
@@ -114,7 +114,7 @@
     },
     {
       "id": "08238_shinshou_ex2",
-      "japanese": "{辛勝|しんしょう}だったが{勝|か}ちは{勝|か}ちだ。",
+      "japanese": "{辛勝|しんしょう}だった⟦が→が：00051_ga⟧⟦{勝|か}ち→勝ち：02540_kachi⟧⟦は→は：00079_ha⟧⟦{勝|か}ち→勝ち：02540_kachi⟧だ。",
       "english": "It was a narrow win, but a win is a win.",
       "sense_numbers": [
         1
@@ -124,7 +124,7 @@
     },
     {
       "id": "08238_shinshou_ex3",
-      "japanese": "{延長戦|えんちょうせん}の{末|すえ}に{辛勝|しんしょう}した。",
+      "japanese": "⟦{延長戦|えんちょうせん}→延長戦：06540_enchousen⟧⟦の→の：09472_no⟧⟦{末|すえ}→末：03362_sue⟧⟦に→に：00314_ni⟧{辛勝|しんしょう}⟦した→する：00392_suru⟧。",
       "english": "They narrowly won after extra time.",
       "sense_numbers": [
         1
@@ -133,7 +133,7 @@
       "notes": null
     }
   ],
-  "notes": "USAGE:\n- {辛勝|しんしょう}する (to win narrowly)\n- {辛|から}くも{勝|か}つ (to barely win - related expression)\n\nNUANCE:\n{辛|しん} here means \"difficult\" or \"painful\" (same kanji as {辛|から}い/spicy, {辛|つら}い/hard). The victory was not easy and may have come down to the wire.\n\nVICTORY SCALE (by margin/effort):\n- {圧勝|あっしょう} (overwhelming victory)\n- {大勝|たいしょう} (big win)\n- {快勝|かいしょう} (easy win)\n- {辛勝|しんしょう} (narrow win)\n\nDEFEAT COUNTERPART:\n- {惜敗|せきはい} (narrow defeat) - when you lose by a small margin\n\nRELATED:\n- {接戦|せっせん} (close game)\n- {僅差|きんさ} (slight difference)",
+  "notes": "USAGE:\n- {辛勝|しんしょう}⟦する→する：00392_suru⟧ (to win narrowly)\n- ⟦{辛|から}く→辛い：00638_karai⟧⟦も→も：00484_mo⟧⟦{勝|か}つ→勝つ：01199_katsu⟧ (to barely win - related expression)\n{辛|しん} here means \"difficult\" or \"painful\" (same kanji as ⟦{辛|から}い→辛い：00638_karai⟧/spicy, ⟦{辛|つら}い→辛い：01112_tsurai⟧/hard). The victory was not easy and may have come down to the wire.\n\nVICTORY SCALE (by margin/effort):\n- ⟦{圧勝|あっしょう}→圧勝：07903_asshou⟧ (overwhelming victory)\n- {大勝|たいしょう} (big win)\n- ⟦{快勝|かいしょう}→快勝：08237_kaishou⟧ (easy win)\n- {辛勝|しんしょう} (narrow win)\n\nDEFEAT COUNTERPART:\n- ⟦{惜敗|せきはい}→惜敗：07904_sekihai⟧ (narrow defeat) - when you lose by a small margin\n\nRELATED WORDS:\n- ⟦{接戦|せっせん}→接戦：08176_sessen⟧ (close game)\n- ⟦{僅差|きんさ}→僅差：11526_kinsa⟧ (slight difference)",
   "cross_references": [
     {
       "type": "contrast",
@@ -141,6 +141,27 @@
       "headword": "{快勝|かいしょう}",
       "label": "easy victory; comfortable win",
       "target_id": "08237_kaishou"
+    },
+    {
+      "type": "related",
+      "target_id": "08176_sessen",
+      "reading": "せっせん",
+      "headword": "{接戦|せっせん}",
+      "label": "close game"
+    },
+    {
+      "type": "related",
+      "target_id": "11526_kinsa",
+      "reading": "きんさ",
+      "headword": "{僅差|きんさ}",
+      "label": "slight difference"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18824_kanshou",
+      "reading": "かんしょう",
+      "headword": "{完勝|かんしょう}",
+      "label": "complete victory"
     }
   ],
   "metadata": {
@@ -151,6 +172,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "sports",
         "competition"
@@ -158,6 +180,6 @@
       "verb_class": "suru"
     },
     "created": "2026-01-25T08:33:23Z",
-    "modified": "2026-02-19T12:32:33Z"
+    "modified": "2026-09-02T04:01:14Z"
   }
 }

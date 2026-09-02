@@ -15,40 +15,94 @@
   "examples": [
     {
       "id": "19053_chuunanbei_ex1",
-      "japanese": "{中南米|ちゅうなんべい}を{旅行|りょこう}した。",
+      "japanese": "{中南米|ちゅうなんべい}⟦を→を：00422_wo⟧⟦{旅行|りょこう}→旅行：00748_ryokou⟧⟦した→する：00392_suru⟧。",
       "english": "I traveled through Central and South America.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19053_chuunanbei_ex2",
-      "japanese": "{中南米|ちゅうなんべい}ではスペイン{語|ご}が{広|ひろ}く{話|はな}されている。",
+      "japanese": "{中南米|ちゅうなんべい}⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦スペイン{語|ご}→スペイン語：25980_supeingo⟧⟦が→が：00051_ga⟧⟦{広|ひろ}く→広い：00704_hiroi⟧⟦{話|はな}されている→話す：00467_hanasu⟧。",
       "english": "Spanish is widely spoken in Central and South America.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19053_chuunanbei_ex3",
-      "japanese": "{日本|にほん}から{中南米|ちゅうなんべい}への{移民|いみん}は{明治時代|めいじじだい}に{始|はじ}まった。",
+      "japanese": "⟦{日本|にほん}→日本：03876_nihon⟧⟦から→から：00504_kara⟧{中南米|ちゅうなんべい}⟦へ→へ：02473_he⟧⟦の→の：09472_no⟧⟦{移民|いみん}→移民：05314_imin⟧⟦は→は：00079_ha⟧⟦{明治時代|めいじじだい}→明治時代：28080_meijijidai⟧⟦に→に：00314_ni⟧⟦{始|はじ}まった→始まる：00841_hajimaru⟧。",
       "english": "Japanese emigration to Central and South America began in the Meiji period.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "{中南米|ちゅうなんべい} covers both Central and South America. An abbreviation of {中央|ちゅうおう}アメリカ + {南|みなみ}アメリカ. Often used loosely as equivalent to ラテンアメリカ (Latin America).\n\nRELATED GEOGRAPHIC TERMS:\n- {北米|ほくべい}: North America\n- {南米|なんべい}: South America\n- {中米|ちゅうべい}: Central America\n- {中央|ちゅうおう}アメリカ: Central America (full form)\n\nCULTURAL NOTE:\nJapan has significant historical ties to {中南米|ちゅうなんべい} through emigration beginning in the {明治|めいじ}{時代|じだい}. Large Japanese-descendant communities ({日系人|にっけいじん}) exist in Brazil, Peru, and other countries. Many {日系人|にっけいじん} have also migrated back to Japan.",
+  "notes": "{中南米|ちゅうなんべい} covers both Central and South America. An abbreviation of ⟦{中央|ちゅうおう}アメリカ→中央アメリカ：27742_chuuouamerika⟧ + ⟦{南|みなみ}アメリカ→南アメリカ：26753_minamiamerika⟧. Often used loosely as equivalent to ⟦ラテンアメリカ→ラテンアメリカ：27743_ratenamerika⟧ (Latin America).\n\nRELATED GEOGRAPHIC TERMS:\n- ⟦{北米|ほくべい}→北米：17097_hokubei⟧: North America\n- ⟦{南米|なんべい}→南米：04285_nanbei⟧: South America\n- ⟦{中米|ちゅうべい}→中米：25663_chuubei⟧: Central America\n- ⟦{中央|ちゅうおう}アメリカ→中央アメリカ：27742_chuuouamerika⟧: Central America (full form)\n\nCULTURAL NOTE:\nJapan has significant historical ties to {中南米|ちゅうなんべい} through emigration beginning in the ⟦{明治|めいじ}{時代|じだい}→明治時代：28080_meijijidai⟧. Large Japanese-descendant communities (⟦{日系人|にっけいじん}→日系人：15625_nikkeijin⟧) exist in Brazil, Peru, and other countries. Many ⟦{日系人|にっけいじん}→日系人：15625_nikkeijin⟧ have also migrated back to Japan.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "17097_hokubei",
+      "reading": "ほくべい",
+      "headword": "{北米|ほくべい}",
+      "label": "North America"
+    },
+    {
+      "type": "related",
+      "target_id": "25663_chuubei",
+      "reading": "ちゅうべい",
+      "headword": "{中米|ちゅうべい}",
+      "label": "Central America"
+    },
+    {
+      "type": "related",
+      "target_id": "27742_chuuouamerika",
+      "reading": "ちゅうおうあめりか",
+      "headword": "{中央|ちゅうおう}アメリカ",
+      "label": "Central America"
+    },
+    {
+      "type": "related",
+      "target_id": "26368_mekishiko",
+      "reading": "めきしこ",
+      "headword": "メキシコ",
+      "label": "Mexico"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26753_minamiamerika",
+      "reading": "みなみあめりか",
+      "headword": "{南|みなみ}アメリカ",
+      "label": "South America"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27743_ratenamerika",
+      "reading": "らてんあめりか",
+      "headword": "ラテンアメリカ",
+      "label": "Latin America"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["geography"]
+      "semantic": [
+        "geography"
+      ]
     },
     "created": "2026-03-24T04:41:53Z",
-    "modified": "2026-03-31T09:28:45Z"
+    "modified": "2026-09-02T04:01:54Z"
   }
 }

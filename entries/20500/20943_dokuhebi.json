@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "20943_dokuhebi_ex1",
-      "japanese": "{毒蛇|どくへび}に{注意|ちゅうい}。",
+      "japanese": "{毒蛇|どくへび}⟦に→に：00314_ni⟧⟦{注意|ちゅうい}→注意：01464_chuui⟧。",
       "english": "Watch out for venomous snakes.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "20943_dokuhebi_ex2",
-      "japanese": "{山道|やまみち}で{毒蛇|どくへび}に{噛|か}まれた。",
+      "japanese": "⟦{山道|やまみち}→山道：12406_yamamichi⟧⟦で→で：00502_de⟧{毒蛇|どくへび}⟦に→に：00314_ni⟧⟦{噛|か}まれた→噛む：01205_kamu⟧。",
       "english": "I was bitten by a venomous snake on the mountain trail.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "20943_dokuhebi_ex3",
-      "japanese": "マムシは{日本|にほん}で{最|もっと}も{身近|みぢか}な{毒蛇|どくへび}のひとつだ。",
+      "japanese": "マムシ⟦は→は：00079_ha⟧⟦{日本|にほん}→日本：03876_nihon⟧⟦で→で：00502_de⟧⟦{最|もっと}も→最も：01736_mottomo⟧⟦{身近|みぢか}→身近：03157_mijika⟧な{毒蛇|どくへび}⟦の→の：09472_no⟧ひとつだ。",
       "english": "The mamushi is one of the most commonly encountered venomous snakes in Japan.",
       "sense_numbers": [
         1
@@ -43,8 +43,17 @@
       "notes": null
     }
   ],
-  "notes": "Also read as どくじゃ, though どくへび is the more common reading in everyday speech. Strictly speaking, 'venomous' (injecting toxin via bite) is more accurate than 'poisonous' (toxic when ingested), but {毒蛇|どくへび} covers both in Japanese.\n\nCOMMON COLLOCATIONS:\n- {毒蛇|どくへび}に{噛|か}まれる: to be bitten by a venomous snake\n- {毒蛇|どくへび}の{毒|どく}: snake venom\n- {毒蛇|どくへび}に{注意|ちゅうい}: warning about venomous snakes\n\nRELATED TERMS:\n- マムシ: Japanese pit viper — the most common venomous snake in mainland Japan\n- ハブ: habu — a large venomous pit viper found in Okinawa\n- {蛇|へび}: snake — the general term\n- {毒|どく}: poison, venom",
+  "notes": "Also read as どく⟦じゃ→じゃ：03040_ja⟧, though どくへび is the more common reading in everyday speech. Strictly speaking, 'venomous' (injecting toxin via bite) is more accurate than 'poisonous' (toxic when ingested), but {毒蛇|どくへび} covers both in Japanese.\n\nCOMMON COLLOCATIONS:\n- {毒蛇|どくへび}⟦に→に：00314_ni⟧⟦{噛|か}まれる→噛む：01205_kamu⟧: to be bitten by a venomous snake\n- {毒蛇|どくへび}⟦の→の：09472_no⟧⟦{毒|どく}→毒：10052_doku⟧: snake venom\n- {毒蛇|どくへび}⟦に→に：00314_ni⟧⟦{注意|ちゅうい}→注意：01464_chuui⟧: warning about venomous snakes\n\nRELATED WORDS:\n- マムシ: Japanese pit viper — the most common venomous snake in mainland Japan\n- ⟦ハブ→ハブ：11589_habu⟧: habu — a large venomous pit viper found in Okinawa\n- ⟦{蛇|へび}→蛇：02246_hebi⟧: snake — the general term\n- ⟦{毒|どく}→毒：10052_doku⟧: poison, venom",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "11589_habu",
+      "reading": "はぶ",
+      "headword": "ハブ",
+      "label": "habu"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +68,6 @@
       ]
     },
     "created": "2026-03-30T22:17:20Z",
-    "modified": "2026-07-28T09:34:52Z"
+    "modified": "2026-09-02T04:02:01Z"
   }
 }

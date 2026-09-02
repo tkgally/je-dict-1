@@ -2,7 +2,7 @@
   "id": "11947_shutoku",
   "headword": "{取得|しゅとく}",
   "reading": "しゅとく",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "acquisition; obtaining; to acquire",
   "conjugation": {
     "type": "suru",
@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "11947_shutoku_ex1",
-      "japanese": "{資格|しかく}を{取得|しゅとく}する。",
+      "japanese": "⟦{資格|しかく}→資格：02834_shikaku⟧⟦を→を：00422_wo⟧{取得|しゅとく}⟦する→する：00392_suru⟧。",
       "english": "Obtain a qualification.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "11947_shutoku_ex2",
-      "japanese": "{運転免許|うんてんめんきょ}を{取得|しゅとく}した。",
+      "japanese": "⟦{運転免許|うんてんめんきょ}→運転免許：15285_untenmenkyo⟧⟦を→を：00422_wo⟧{取得|しゅとく}⟦した→する：00392_suru⟧。",
       "english": "I obtained a driver's license.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "11947_shutoku_ex3",
-      "japanese": "{有給休暇|ゆうきゅうきゅうか}の{取得|しゅとく}{率|りつ}が{低|ひく}いのが{問題|もんだい}だ。",
+      "japanese": "⟦{有給休暇|ゆうきゅうきゅうか}→有給休暇：06996_yuukyuukyuuka⟧⟦の→の：09472_no⟧{取得|しゅとく}{率|りつ}⟦が→が：00051_ga⟧⟦{低|ひく}い→低い：02947_hikui⟧⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦{問題|もんだい}→問題：00797_mondai⟧だ。",
       "english": "The low rate of taking paid leave is a problem.",
       "notes": null,
       "has_audio": false,
@@ -133,11 +133,11 @@
       ]
     }
   ],
-  "notes": "COMMON COLLOCATIONS:\n・{資格|しかく}{取得|しゅとく} (obtaining a qualification)\n・{免許|めんきょ}を{取得|しゅとく}する (acquire a license)\n・{特許|とっきょ}を{取得|しゅとく}する (obtain a patent)\n・{有給|ゆうきゅう}{取得|しゅとく} (taking paid leave)\n・データを{取得|しゅとく}する (acquire/retrieve data)\n\nSIMILAR WORDS:\n{取|と}る is the everyday word for getting or taking something. {取得|しゅとく} is the formal, written equivalent used for official acquisitions — licenses, qualifications, rights, and properties. In IT contexts, {取得|しゅとく} is also used for retrieving or fetching data.",
+  "notes": "COMMON COLLOCATIONS:\n- {資格|しかく}{取得|しゅとく} (obtaining a qualification)\n- ⟦{免許|めんきょ}→免許：03808_menkyo⟧⟦を→を：00422_wo⟧{取得|しゅとく}⟦する→する：00392_suru⟧ (acquire a license)\n- ⟦{特許|とっきょ}→特許：13467_tokkyo⟧⟦を→を：00422_wo⟧{取得|しゅとく}⟦する→する：00392_suru⟧ (obtain a patent)\n- ⟦{有給|ゆうきゅう}→有給：04552_yuukyuu⟧{取得|しゅとく} (taking paid leave)\n- ⟦データ→データ：03944_deeta⟧⟦を→を：00422_wo⟧{取得|しゅとく}⟦する→する：00392_suru⟧ (acquire/retrieve data)\n\nSIMILAR WORDS:\n⟦{取|と}る→取る：00565_toru⟧ is the everyday word for getting or taking something. {取得|しゅとく} is the formal, written equivalent used for official acquisitions — licenses, qualifications, rights, and properties. In IT contexts, {取得|しゅとく} is also used for retrieving or fetching data.",
   "cross_references": [],
   "metadata": {
     "created": "2026-02-19T10:52:04Z",
-    "modified": "2026-03-29T03:07:35Z",
+    "modified": "2026-09-02T04:01:27Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
@@ -151,7 +151,8 @@
       "semantic": [
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   },
   "prominent_see_also": [

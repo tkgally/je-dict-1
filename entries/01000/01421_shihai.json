@@ -2,7 +2,7 @@
   "id": "01421_shihai",
   "headword": "{支配|しはい}",
   "reading": "しはい",
-  "part_of_speech": "noun (verbal)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "control, rule, domination",
   "conjugation": {
     "type": "suru",
@@ -134,10 +134,32 @@
     }
   ],
   "notes": "{支配|しはい} means control, rule, or domination over something or someone.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- No standard intransitive pair\n- Pattern: [noun]⟦を→を：00422_wo⟧{支配|しはい}⟦する→する：00392_suru⟧\n\nVERBAL USAGE:\n{支配|しはい}⟦する→する：00392_suru⟧ is the verbal form (transitive - to control something).\n\nCOMMON PATTERNS:\n- X⟦を→を：00422_wo⟧{支配|しはい}⟦する→する：00392_suru⟧: to control/rule X\n- X⟦に→に：00314_ni⟧{支配|しはい}⟦される→する：00392_suru⟧: to be controlled by X\n- ⟦{支配|しはい}{下|か}→支配下：16593_shihaika⟧⟦に→に：00314_ni⟧⟦{置|お}く→置く：01092_oku⟧: to place under control\n\nCOMMON COLLOCATIONS:\n- ⟦{地域|ちいき}→地域：01461_chiiki⟧⟦を→を：00422_wo⟧{支配|しはい}⟦する→する：00392_suru⟧: to control a region\n- ⟦{感情|かんじょう}→感情：00171_kanjou⟧⟦に→に：00314_ni⟧{支配|しはい}⟦される→する：00392_suru⟧: to be controlled by emotions\n- ⟦{市場|しじょう}→市場：09685_shijou⟧⟦を→を：00422_wo⟧{支配|しはい}⟦する→する：00392_suru⟧: to dominate the market\n\nRELATED WORDS:\n- ⟦{支配者|しはいしゃ}→支配者：23113_shihaisha⟧: ruler, controller\n- ⟦{支配的|しはいてき}→支配的：08737_shihaiteki⟧: dominant\n- ⟦{支配権|しはいけん}→支配権：23172_shihaiken⟧: control, sovereignty",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "10861_kontorooru",
+      "reading": "こんとろーる",
+      "headword": "コントロール",
+      "label": "control"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11863_senryou",
+      "reading": "せんりょう",
+      "headword": "{占領|せんりょう}",
+      "label": "occupation, military conquest"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22478_shouaku",
+      "reading": "しょうあく",
+      "headword": "{掌握|しょうあく}",
+      "label": "to grasp"
+    }
+  ],
   "metadata": {
     "created": "2026-01-08T12:44:03Z",
-    "modified": "2026-05-15T16:10:41Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

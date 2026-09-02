@@ -3,7 +3,7 @@
   "headword": "{新装開店|しんそうかいてん}",
   "reading": "しんそうかいてん",
   "romaji": "shinsoukaiten",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "grand reopening (after renovation)",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29977_shinsoukaiten_ex1",
-      "japanese": "{明日|あす}{新装開店|しんそうかいてん}する。",
+      "japanese": "{明日|あす}{新装開店|しんそうかいてん}⟦する→する：00392_suru⟧。",
       "english": "It reopens after renovation tomorrow.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29977_shinsoukaiten_ex2",
-      "japanese": "{新装開店|しんそうかいてん}セールを{行|おこな}っている。",
+      "japanese": "{新装開店|しんそうかいてん}⟦セール→セール：07780_seeru⟧⟦を→を：00422_wo⟧⟦{行|おこな}っている→行う：01238_okonau⟧。",
       "english": "They are holding a grand-reopening sale.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29977_shinsoukaiten_ex3",
-      "japanese": "{改装|かいそう}{工事|こうじ}を{終|お}えて、{来月|らいげつ}{新装開店|しんそうかいてん}の{予定|よてい}だ。",
+      "japanese": "⟦{改装|かいそう}→改装：09682_kaisou⟧⟦{工事|こうじ}→工事：00244_kouji⟧⟦を→を：00422_wo⟧⟦{終|お}えて→終える：02019_oeru⟧、⟦{来月|らいげつ}→来月：00744_raigetsu⟧{新装開店|しんそうかいてん}⟦の→の：09472_no⟧⟦{予定|よてい}→予定：00824_yotei⟧だ。",
       "english": "Having finished the remodeling work, the store is scheduled for its grand reopening next month.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "A set phrase on shop signage and flyers; takes する to form a verb.\n\nCOMMON COLLOCATIONS:\n- {新装開店|しんそうかいてん}セール: grand-reopening sale\n- {新装開店|しんそうかいてん}する: to reopen after renovation\n- {祝|しゅく}{新装開店|しんそうかいてん}: \"Celebrating our grand reopening\" (banner wording)\n\nSIMILAR WORDS:\n- {新規|しんき}{開店|かいてん}: a brand-new store opening for the first time, not a reopening\n- リニューアルオープン: a common katakana equivalent for a renovation reopening",
+  "notes": "A set phrase on shop signage and flyers; takes ⟦する→する：00392_suru⟧ to form a verb.\n\nCOMMON COLLOCATIONS:\n- {新装開店|しんそうかいてん}⟦セール→セール：07780_seeru⟧: grand-reopening sale\n- {新装開店|しんそうかいてん}⟦する→する：00392_suru⟧: to reopen after renovation\n- {祝|しゅく}{新装開店|しんそうかいてん}: \"Celebrating our grand reopening\" (banner wording)\n\nSIMILAR WORDS:\n- ⟦{新規|しんき}→新規：06289_shinki⟧⟦{開店|かいてん}→開店：14569_kaiten⟧: a brand-new store opening for the first time, not a reopening\n- リニューアル⟦オープン→オープン：10831_oopun⟧: a common katakana equivalent for a renovation reopening",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "27390_gurandooopun",
+      "reading": "ぐらんどおーぷん",
+      "headword": "グランドオープン",
+      "label": "grand opening"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -54,7 +63,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "shopping",
         "business"
@@ -63,7 +72,7 @@
       "verb_class": "suru"
     },
     "created": "2026-07-20T06:17:59Z",
-    "modified": "2026-07-20T06:17:59Z"
+    "modified": "2026-09-02T04:02:38Z"
   },
   "conjugation": {
     "type": "suru",

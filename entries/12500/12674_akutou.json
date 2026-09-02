@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "12674_akutou_ex1",
-      "japanese": "あいつは{悪党|あくとう}だ。",
+      "japanese": "⟦あいつ→あいつ：08267_aitsu⟧⟦は→は：00079_ha⟧{悪党|あくとう}だ。",
       "english": "That guy is a villain.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12674_akutou_ex2",
-      "japanese": "{悪党|あくとう}どもがこの{町|まち}を{支配|しはい}している。",
+      "japanese": "{悪党|あくとう}ども⟦が→が：00051_ga⟧⟦この→この：00962_kono⟧⟦{町|まち}→町：00613_machi⟧⟦を→を：00422_wo⟧⟦{支配|しはい}している→支配する：25222_shihaisuru⟧。",
       "english": "A gang of villains controls this town.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12674_akutou_ex3",
-      "japanese": "{彼|かれ}は{見|み}た{目|め}は{紳士|しんし}だが、{裏|うら}では{悪党|あくとう}として{知|し}られていた。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{見|み}た{目|め}→見た目：14110_mitame⟧⟦は→は：00079_ha⟧⟦{紳士|しんし}→紳士：18022_shinshi⟧だ⟦が→が：00051_ga⟧、⟦{裏|うら}→裏：02178_ura⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧{悪党|あくとう}⟦として→として：06802_toshite⟧⟦{知|し}られていた→知る：00458_shiru⟧。",
       "english": "He looked like a gentleman, but behind the scenes he was known as a scoundrel.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\n{悪党|あくとう} refers to a genuinely bad or evil person. It is commonly used in fiction, historical dramas, and storytelling. In everyday speech, it carries a strong negative judgment.\n\nCOMMON COLLOCATIONS:\n- {大|おお}{悪党|あくとう}: a great villain, arch-villain\n- {悪党|あくとう}の{一味|いちみ}: a gang of villains\n- {悪党|あくとう}{面|づら}: a villainous face\n\nSIMILAR WORDS:\n- {悪党|あくとう}: villain, scoundrel (genuine evil or criminality)\n- {悪者|わるもの}: bad guy (broader, milder — includes petty wrongdoers)\n- {悪人|あくにん}: evil person (literary, emphasizes moral wickedness)",
+  "notes": "USAGE:\n{悪党|あくとう} refers to a genuinely bad or evil person. It is commonly used in fiction, historical dramas, and storytelling. In everyday speech, it carries a strong negative judgment.\n\nCOMMON COLLOCATIONS:\n- {大|おお}{悪党|あくとう}: a great villain, arch-villain\n- {悪党|あくとう}⟦の→の：09472_no⟧⟦{一味|いちみ}→一味：11238_ichimi⟧: a gang of villains\n- {悪党|あくとう}{面|づら}: a villainous face\n\nSIMILAR WORDS:\n- {悪党|あくとう}: villain, scoundrel (genuine evil or criminality)\n- ⟦{悪者|わるもの}→悪者：29398_warumono⟧: bad guy (broader, milder — includes petty wrongdoers)\n- ⟦{悪人|あくにん}→悪人：29116_akunin⟧: evil person (literary, emphasizes moral wickedness)",
   "cross_references": [
     {
       "type": "synonym",
@@ -52,18 +58,29 @@
       "reading": "あくやく",
       "headword": "{悪役|あくやく}",
       "label": "villain role"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29116_akunin",
+      "reading": "あくにん",
+      "headword": "{悪人|あくにん}",
+      "label": "evil person"
     }
   ],
   "metadata": {
     "created": "2026-02-22T05:46:13Z",
-    "modified": "2026-04-27T07:31:57Z",
+    "modified": "2026-09-02T04:01:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["person"]
+      "semantic": [
+        "person"
+      ]
     }
   }
 }

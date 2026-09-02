@@ -3,7 +3,7 @@
   "headword": "{臨|のぞ}む",
   "reading": "のぞむ",
   "romaji": "nozomu",
-  "part_of_speech": "verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to face; to tackle; to be present at",
   "schema_version": "2.0",
   "definitions": [
@@ -21,7 +21,7 @@
   "examples": [
     {
       "id": "29038_nozomu_ex1",
-      "japanese": "{試合|しあい}に{臨|のぞ}む。",
+      "japanese": "⟦{試合|しあい}→試合：01601_shiai⟧⟦に→に：00314_ni⟧{臨|のぞ}む。",
       "english": "To face a match; to take on a game.",
       "sense_numbers": [
         1
@@ -31,7 +31,7 @@
     },
     {
       "id": "29038_nozomu_ex2",
-      "japanese": "{万全|ばんぜん}の{準備|じゅんび}で{本番|ほんばん}に{臨|のぞ}む。",
+      "japanese": "⟦{万全|ばんぜん}→万全：05932_banzen⟧⟦の→の：09472_no⟧⟦{準備|じゅんび}→準備：01431_junbi⟧⟦で→で：00502_de⟧⟦{本番|ほんばん}→本番：19392_honban⟧⟦に→に：00314_ni⟧{臨|のぞ}む。",
       "english": "To face the real performance fully prepared.",
       "sense_numbers": [
         1
@@ -41,7 +41,7 @@
     },
     {
       "id": "29038_nozomu_ex3",
-      "japanese": "{緊張|きんちょう}しているが、{前向|まえむ}きな{気持|きも}ちで{面接|めんせつ}に{臨|のぞ}みたい。",
+      "japanese": "⟦{緊張|きんちょう}している→緊張する：20557_kinchousuru⟧⟦が→が：00051_ga⟧、⟦{前向|まえむ}き→前向き：10073_maemuki⟧な{気持|きも}ち⟦で→で：00502_de⟧⟦{面接|めんせつ}→面接：01100_mensetsu⟧⟦に→に：00314_ni⟧{臨|のぞ}みたい。",
       "english": "I'm nervous, but I want to approach the interview with a positive attitude.",
       "sense_numbers": [
         1
@@ -51,7 +51,7 @@
     },
     {
       "id": "29038_nozomu_ex4",
-      "japanese": "{海|うみ}に{臨|のぞ}む{部屋|へや}。",
+      "japanese": "⟦{海|うみ}→海：00556_umi⟧⟦に→に：00314_ni⟧{臨|のぞ}む⟦{部屋|へや}→部屋：00507_heya⟧。",
       "english": "A room overlooking the sea.",
       "sense_numbers": [
         2
@@ -61,7 +61,7 @@
     },
     {
       "id": "29038_nozomu_ex5",
-      "japanese": "{広場|ひろば}に{臨|のぞ}む{建物|たてもの}が{市庁舎|しちょうしゃ}だ。",
+      "japanese": "⟦{広場|ひろば}→広場：00104_hiroba⟧⟦に→に：00314_ni⟧{臨|のぞ}む⟦{建物|たてもの}→建物：01458_tatemono⟧⟦が→が：00051_ga⟧{市庁舎|しちょうしゃ}だ。",
       "english": "The building facing the plaza is city hall.",
       "sense_numbers": [
         2
@@ -71,7 +71,7 @@
     },
     {
       "id": "29038_nozomu_ex6",
-      "japanese": "その{ホテル|ほてる}は{山|やま}に{臨|のぞ}む{絶好|ぜっこう}のロケーションにある。",
+      "japanese": "⟦その→その：00993_sono⟧⟦ホテル→ホテル：01027_hoteru⟧⟦は→は：00079_ha⟧⟦{山|やま}→山：02168_yama⟧⟦に→に：00314_ni⟧{臨|のぞ}む⟦{絶好|ぜっこう}→絶好：13873_zekkou⟧⟦の→の：09472_no⟧ロケーション⟦に→に：00314_ni⟧⟦ある→ある：00006_aru⟧。",
       "english": "That hotel is in a prime location overlooking the mountains.",
       "sense_numbers": [
         2
@@ -80,7 +80,30 @@
       "notes": null
     }
   ],
-  "notes": "Formal verb used in written and public speech. Common in sports commentary, ceremony language, and descriptive writing.\n\nSIMILAR WORDS:\n- {望|のぞ}む (01976): to wish; to desire; to hope for — a frequent homophone with a completely different meaning; note 望 vs 臨 in kanji\n- {向|む}かう: to face; to head toward (less formal, more directional movement)\n- {挑|いど}む: to challenge; to take on (implies active defiance)",
+  "notes": "Formal verb used in written and public speech. Common in sports commentary, ceremony language, and descriptive writing.\n\nSIMILAR WORDS:\n- ⟦{望|のぞ}む→望む：01976_nozomu⟧ (01976): to wish; to desire; to hope for — a frequent homophone with a completely different meaning; note 望 vs 臨 in kanji\n- ⟦{向|む}かう→向かう：01186_mukau⟧: to face; to head toward (less formal, more directional movement)\n- ⟦{挑|いど}む→挑む：12708_idomu⟧: to challenge; to take on (implies active defiance)",
+  "cross_references": [
+    {
+      "type": "homophone",
+      "target_id": "01976_nozomu",
+      "reading": "のぞむ",
+      "headword": "{望|のぞ}む",
+      "label": "01976"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01186_mukau",
+      "reading": "むかう",
+      "headword": "{向|む}かう",
+      "label": "to face"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12708_idomu",
+      "reading": "いどむ",
+      "headword": "{挑|いど}む",
+      "label": "to challenge"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -96,7 +119,7 @@
       "verb_class": "godan-mu"
     },
     "created": "2026-06-09T06:05:13Z",
-    "modified": "2026-06-09T06:05:13Z"
+    "modified": "2026-09-02T04:02:35Z"
   },
   "conjugation": {
     "type": "godan",

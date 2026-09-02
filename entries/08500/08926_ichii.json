@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08926_ichii_ex1",
-      "japanese": "{一位|いちい}を{獲得|かくとく}する。",
+      "japanese": "{一位|いちい}⟦を→を：00422_wo⟧⟦{獲得|かくとく}→獲得：05624_kakutoku⟧⟦する→する：00392_suru⟧。",
       "english": "I win first place.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "08926_ichii_ex2",
-      "japanese": "ランキング{一位|いちい}になった。",
+      "japanese": "⟦ランキング→ランキング：11195_rankingu⟧{一位|いちい}になった。",
       "english": "It became number one in the rankings.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "08926_ichii_ex3",
-      "japanese": "{売|う}り{上|あ}げ{一位|いちい}の{商品|しょうひん}はこれです。",
+      "japanese": "{売|う}り{上|あ}げ{一位|いちい}⟦の→の：09472_no⟧⟦{商品|しょうひん}→商品：01436_shouhin⟧⟦は→は：00079_ha⟧⟦これ→これ：00963_kore⟧です。",
       "english": "This is our top-selling product.",
       "notes": null,
       "has_audio": false,
@@ -43,11 +43,54 @@
       ]
     }
   ],
-  "notes": "{一位|いちい} indicates first place or the top rank.\n\nCOMMON COLLOCATIONS:\n- {一位|いちい}を{取|と}る: to take first place\n- {一位|いちい}を{獲得|かくとく}する: to win first place\n- {一位|いちい}になる: to become number one\n- {世界|せかい}{一位|いちい}: world's number one\n- {売|う}り{上|あ}げ{一位|いちい}: number one in sales\n- {人気|にんき}{一位|いちい}: most popular (first in popularity)\n\nRANKINGS:\n- {一位|いちい}、{二位|にい}、{三位|さんい}...\n- {何位|なんい}: what place/rank\n\nDIFFERENT PRONUNCIATIONS:\nNote that {一位|いちい} has different kanji readings in other contexts:\n- {位|くらい} as a counter for rank/position\n- {一|いち}+{位|い} = first place",
-  "cross_references": [],
+  "notes": "{一位|いちい} indicates first place or the top rank.\n\nCOMMON COLLOCATIONS:\n- {一位|いちい}⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧: to take first place\n- {一位|いちい}⟦を→を：00422_wo⟧⟦{獲得|かくとく}→獲得：05624_kakutoku⟧⟦する→する：00392_suru⟧: to win first place\n- {一位|いちい}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧: to become number one\n- {世界|せかい}{一位|いちい}: world's number one\n- {売|う}り{上|あ}げ{一位|いちい}: number one in sales\n- ⟦{人気|にんき}→人気：01488_ninki⟧{一位|いちい}: most popular (first in popularity)\n\nRANKINGS:\n- {一位|いちい}、⟦{二位|にい}→二位：27466_nii⟧、⟦{三位|さんい}→三位：26221_sani⟧...\n- ⟦{何位|なんい}→何位：27465_nani⟧: what place/rank\n\nDIFFERENT PRONUNCIATIONS:\nNote that {一位|いちい} has different kanji readings in other contexts:\n- {位|くらい} as a counter for rank/position\n- ⟦{一|いち}→一：00705_ichi⟧+⟦{位|い}→〜位：00443_i⟧ = first place",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01140_ichiban",
+      "reading": "いちばん",
+      "headword": "{一番|いちばん}",
+      "label": "most, best, number one"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03862_toppu",
+      "reading": "とっぷ",
+      "headword": "トップ",
+      "label": "top"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21404_icchaku",
+      "reading": "いっちゃく",
+      "headword": "{一着|いっちゃく}",
+      "label": "first place (in a race)"
+    },
+    {
+      "type": "related",
+      "target_id": "27465_nani",
+      "reading": "なんい",
+      "headword": "{何位|なんい}",
+      "label": "what place"
+    },
+    {
+      "type": "related",
+      "target_id": "27466_nii",
+      "reading": "にい",
+      "headword": "{二位|にい}",
+      "label": "second place"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28091_ittou",
+      "reading": "いっとう",
+      "headword": "{一等|いっとう}",
+      "label": "first class"
+    }
+  ],
   "metadata": {
     "created": "2026-01-29T03:42:25Z",
-    "modified": "2026-01-29T03:42:25Z",
+    "modified": "2026-09-02T04:01:16Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

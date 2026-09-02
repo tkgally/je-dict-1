@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "20407_kingan_ex1",
-      "japanese": "{私|わたし}は{近眼|きんがん}です。",
+      "japanese": "⟦{私|わたし}→私：02988_watashi⟧⟦は→は：00079_ha⟧{近眼|きんがん}です。",
       "english": "I am nearsighted.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "20407_kingan_ex2",
-      "japanese": "{近眼|きんがん}がひどくて、メガネなしでは{生活|せいかつ}できない。",
+      "japanese": "{近眼|きんがん}⟦が→が：00051_ga⟧⟦ひどくて→ひどい：01097_hidoi⟧、メガネなし⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{生活|せいかつ}できない→生活する：01839_seikatsusuru⟧。",
       "english": "My nearsightedness is so bad that I can't get by without glasses.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "20407_kingan_ex3",
-      "japanese": "{子供|こども}のころからゲームのやりすぎで{近眼|きんがん}になってしまった。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧⟦の→の：09472_no⟧⟦ころ→〜ころ：03091_koro⟧⟦から→から：00504_kara⟧⟦ゲーム→ゲーム：03842_geemu⟧⟦の→の：09472_no⟧⟦やり→やる：02980_yaru⟧すぎで{近眼|きんがん}になってしまった。",
       "english": "I became nearsighted from playing too many video games since childhood.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {近|きん} (near) + {眼|がん} (eye). A common everyday word, especially relevant in Japan where myopia rates are among the highest in the world.\n\nALTERNATIVE READING:\nAlso read as きんめ in older or dialectal usage, though きんがん is standard.\n\nCOMMON COLLOCATIONS:\n- {近眼|きんがん}になる: to become nearsighted\n- {近眼|きんがん}がひどい: to have bad nearsightedness\n- {近眼|きんがん}の{人|ひと}: a nearsighted person\n- {近眼|きんがん}を{矯正|きょうせい}する: to correct nearsightedness\n\nSIMILAR WORDS:\n- {近視|きんし}: myopia — the more technical/medical synonym, used in formal contexts\n- {遠視|えんし}: farsightedness — the opposite condition\n- {乱視|らんし}: astigmatism — another common vision condition",
+  "notes": "Composed of {近|きん} (near) + {眼|がん} (eye). A common everyday word, especially relevant in Japan where myopia rates are among the highest in the world.\n\nALTERNATIVE READING:\nAlso read as きんめ in older or dialectal usage, though きんがん is standard.\n\nCOMMON COLLOCATIONS:\n- {近眼|きんがん}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧: to become nearsighted\n- {近眼|きんがん}⟦が→が：00051_ga⟧⟦ひどい→ひどい：01097_hidoi⟧: to have bad nearsightedness\n- {近眼|きんがん}⟦の→の：09472_no⟧⟦{人|ひと}→人：00476_hito⟧: a nearsighted person\n- {近眼|きんがん}⟦を→を：00422_wo⟧⟦{矯正|きょうせい}→矯正：14784_kyousei⟧⟦する→する：00392_suru⟧: to correct nearsightedness\n\nSIMILAR WORDS:\n- ⟦{近視|きんし}→近視：02683_kinshi⟧: myopia — the more technical/medical synonym, used in formal contexts\n- ⟦{遠視|えんし}→遠視：07105_enshi⟧: farsightedness — the opposite condition\n- ⟦{乱視|らんし}→乱視：06370_ranshi⟧: astigmatism — another common vision condition",
   "cross_references": [
     {
       "type": "antonym",
@@ -52,6 +52,20 @@
       "headword": "{遠視|えんし}",
       "label": "farsightedness",
       "target_id": "07105_enshi"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02683_kinshi",
+      "reading": "きんし",
+      "headword": "{近視|きんし}",
+      "label": "myopia"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06370_ranshi",
+      "reading": "らんし",
+      "headword": "{乱視|らんし}",
+      "label": "astigmatism"
     }
   ],
   "schema_version": "2.0",
@@ -69,6 +83,6 @@
       ]
     },
     "created": "2026-03-29T12:59:39Z",
-    "modified": "2026-07-28T00:51:36Z"
+    "modified": "2026-09-02T04:01:59Z"
   }
 }

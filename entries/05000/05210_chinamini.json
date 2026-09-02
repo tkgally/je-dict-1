@@ -24,7 +24,7 @@
     },
     {
       "id": "05210_chinamini_ex2",
-      "japanese": "ちなみに⟦{料金|りょうきん}→料金：03797_ryoukin⟧⟦は→は：00079_ha⟧⟦いくら→幾ら：00943_ikura⟧ですか。",
+      "japanese": "ちなみに⟦{料金|りょうきん}→料金：03797_ryoukin⟧⟦は→は：00079_ha⟧⟦いくら→幾ら：00943_ikura⟧です⟦か→か：09473_ka⟧。",
       "english": "Incidentally, how much is the fee?",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "ちなみに is a conjunctive adverb used to introduce supplementary or related information — similar to \"incidentally\" or \"by the way\" in English.\n\nKANJI:\nCan be written as {因|ちな}みに, but hiragana is much more common.\n\nUSAGE:\n- Introduces related but tangential information\n- The added information should have some connection to the main topic\n- Typically placed at the beginning of the supplementary sentence\n- Example: ⟦{東京|とうきょう}→東京：09564_toukyou⟧⟦タワー→タワー：11035_tawaa⟧は1958⟦{年|ねん}→年：09876_nen⟧に⟦{完成|かんせい}→完成：01550_kansei⟧しました。ちなみに、⟦スカイツリー→スカイツリー：noentry⟧は2012⟦{年|ねん}→年：09876_nen⟧です。\n\nSIMILAR WORDS:\n- ちなみに: incidentally, by the way (the addition is related to the topic)\n- ⟦ところで→ところで：01002_tokorode⟧: by the way (can shift to a completely different topic)\n- ⟦ついでに→ついでに：09377_tsuideni⟧: while at it, while we're on the subject\n\nREGISTER:\nUsable in both casual and semi-formal speech. Common in presentations, articles, and everyday conversation.",
+  "notes": "ちなみに is a conjunctive adverb used to introduce supplementary or related information — similar to \"incidentally\" or \"by the way\" in English.\n\nWRITING:\nCan be written as {因|ちな}み⟦に→に：00314_ni⟧, but hiragana is much more common.\n\nUSAGE:\n- Introduces related but tangential information\n- The added information should have some connection to the main topic\n- Typically placed at the beginning of the supplementary sentence\n- Example: ⟦{東京|とうきょう}→東京：09564_toukyou⟧⟦タワー→タワー：11035_tawaa⟧⟦は→は：00079_ha⟧1958⟦{年|ねん}→年：09876_nen⟧⟦に→に：00314_ni⟧⟦{完成|かんせい}→完成：01550_kansei⟧⟦しました→する：00392_suru⟧。ちなみに、⟦スカイツリー→スカイツリー：noentry⟧⟦は→は：00079_ha⟧2012⟦{年|ねん}→年：09876_nen⟧です。\n\nSIMILAR WORDS:\n- ちなみに: incidentally, by the way (the addition is related to the topic)\n- ⟦ところで→ところで：01002_tokorode⟧: by the way (can shift to a completely different topic)\n- ⟦ついでに→ついでに：09377_tsuideni⟧: while at it, while we're on the subject\n\nREGISTER:\nUsable in both casual and semi-formal speech. Common in presentations, articles, and everyday conversation.",
   "cross_references": [
     {
       "type": "synonym",
@@ -58,11 +58,25 @@
       "reading": "ついでに",
       "headword": "ついでに",
       "label": "while at it"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27571_souieba",
+      "reading": "そういえば",
+      "headword": "そういえば",
+      "label": "speaking of which"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27572_sorehasouto",
+      "reading": "それはそうと",
+      "headword": "それはそうと",
+      "label": "by the way"
     }
   ],
   "metadata": {
     "created": "2026-01-16T03:29:22Z",
-    "modified": "2026-06-04T19:10:35Z",
+    "modified": "2026-09-02T04:01:06Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

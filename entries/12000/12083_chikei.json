@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "12083_chikei_ex1",
-      "japanese": "この{地域|ちいき}は{複雑|ふくざつ}な{地形|ちけい}をしている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{地域|ちいき}→地域：01461_chiiki⟧⟦は→は：00079_ha⟧⟦{複雑|ふくざつ}→複雑：01115_fukuzatsu⟧な{地形|ちけい}⟦を→を：00422_wo⟧⟦している→する：00392_suru⟧。",
       "english": "This area has complex terrain.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12083_chikei_ex2",
-      "japanese": "{地形|ちけい}{図|ず}を{見|み}ながらルートを{決|き}めた。",
+      "japanese": "{地形|ちけい}{図|ず}⟦を→を：00422_wo⟧⟦{見|み}→見る：00283_miru⟧⟦ながら→ながら：10530_nagara⟧⟦ルート→ルート：11250_ruuto⟧⟦を→を：00422_wo⟧⟦{決|き}めた→決める：00858_kimeru⟧。",
       "english": "We decided on a route while looking at a topographic map.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12083_chikei_ex3",
-      "japanese": "{日本|にほん}は{山|やま}が{多|おお}い{地形|ちけい}のため、{平地|へいち}が{少|すく}なく、{人口|じんこう}が{狭|せま}い{地域|ちいき}に{集中|しゅうちゅう}しやすい。",
+      "japanese": "⟦{日本|にほん}→日本：03876_nihon⟧⟦は→は：00079_ha⟧⟦{山|やま}→山：02168_yama⟧⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧{地形|ちけい}⟦の→の：09472_no⟧⟦ため→ため：01145_tame⟧、⟦{平地|へいち}→平地：19229_heichi⟧⟦が→が：00051_ga⟧⟦{少|すく}なく→少ない：01136_sukunai⟧、⟦{人口|じんこう}→人口：01618_jinkou⟧⟦が→が：00051_ga⟧⟦{狭|せま}い→狭い：00750_semai⟧⟦{地域|ちいき}→地域：01461_chiiki⟧⟦に→に：00314_ni⟧⟦{集中|しゅうちゅう}→集中：03212_shuuchuu⟧しやすい。",
       "english": "Because Japan's terrain is predominantly mountainous, flat land is scarce and the population tends to concentrate in small areas.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nA common word in geography, military strategy, urban planning, and outdoor activities like hiking. Often used when discussing why cities or settlements developed in particular locations, or when explaining natural disaster risks.\n\nCOMMON COLLOCATIONS:\n- {地形|ちけい}{図|ず}: topographic map\n- {地形|ちけい}を{利用|りよう}する: to utilize the terrain\n- {複雑|ふくざつ}な{地形|ちけい}: complex terrain\n- {地形|ちけい}の{変化|へんか}: changes in terrain\n- {平坦|へいたん}な{地形|ちけい}: flat terrain\n\nSIMILAR WORDS:\n{地形|ちけい} refers to the physical shape of the land. {地勢|ちせい} is a more formal synonym used in academic contexts. {地理|ちり} (geography) is broader, covering both physical and human geography.",
+  "notes": "USAGE:\nA common word in geography, military strategy, urban planning, and outdoor activities like hiking. Often used when discussing why cities or settlements developed in particular locations, or when explaining natural disaster risks.\n\nCOMMON COLLOCATIONS:\n- {地形|ちけい}{図|ず}: topographic map\n- {地形|ちけい}⟦を→を：00422_wo⟧⟦{利用|りよう}する→利用する：21735_riyousuru⟧: to utilize the terrain\n- ⟦{複雑|ふくざつ}→複雑：01115_fukuzatsu⟧な{地形|ちけい}: complex terrain\n- {地形|ちけい}⟦の→の：09472_no⟧⟦{変化|へんか}→変化：03615_henka⟧: changes in terrain\n- ⟦{平坦|へいたん}→平坦：12475_heitan⟧な{地形|ちけい}: flat terrain\n\nSIMILAR WORDS:\n{地形|ちけい} refers to the physical shape of the land. {地勢|ちせい} is a more formal synonym used in academic contexts. ⟦{地理|ちり}→地理：01669_chiri⟧ (geography) is broader, covering both physical and human geography.",
   "cross_references": [
     {
       "type": "related",
@@ -46,18 +52,29 @@
       "reading": "ちり",
       "headword": "{地理|ちり}",
       "label": "geography"
+    },
+    {
+      "type": "related",
+      "target_id": "27297_chiriteki",
+      "reading": "ちりてき",
+      "headword": "{地理的|ちりてき}",
+      "label": "geographical"
     }
   ],
   "metadata": {
     "created": "2026-02-20T04:38:12Z",
-    "modified": "2026-04-26T06:29:08Z",
+    "modified": "2026-09-02T04:01:27Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["geography"]
+      "semantic": [
+        "geography"
+      ]
     }
   }
 }

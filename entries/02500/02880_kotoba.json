@@ -173,7 +173,7 @@
       ]
     }
   ],
-  "notes": "{言葉|ことば} is one of the most fundamental words in Japanese, covering meanings that English splits across \"word,\" \"language,\" and \"speech/expression.\"\n\nCOMMON PHRASES:\n- {言葉|ことば}⟦が→が：00051_ga⟧⟦{通|つう}じる→通じる：02289_tsuujiru⟧: to be understood, to communicate successfully\n- {言葉|ことば}⟦に→に：00314_ni⟧⟦{詰|つ}まる→詰まる：02079_tsumaru⟧: to be at a loss for words\n- {言葉|ことば}⟦を→を：00422_wo⟧⟦{選|えら}ぶ→選ぶ：00835_erabu⟧: to choose one's words carefully\n- {言葉|ことば}⟦を→を：00422_wo⟧⟦かける→かける：00854_kakeru⟧: to speak to someone, to address\n- {言葉|ことば}⟦が→が：00051_ga⟧⟦{足|た}りない→足りる：01209_tariru⟧: to fail to express oneself adequately\n- {言葉|ことば}⟦に→に：00314_ni⟧⟦{甘|あま}える→甘える：06624_amaeru⟧: to take someone at their word\n\nSIMILAR WORDS:\n- ⟦{単語|たんご}→単語：03413_tango⟧: vocabulary word (individual unit, academic)\n- ⟦{語|ご}→〜語：09841_go⟧: word (suffix for language names: ⟦{日本語|にほんご}→日本語：00614_nihongo⟧, ⟦{英語|えいご}→英語：02274_eigo⟧)\n- ⟦{用語|ようご}→用語：04086_yougo⟧: terminology, technical term\n\nNOTE:\nWhen meaning \"language,\" {言葉|ことば} is less formal than ⟦{言語|げんご}→言語：02717_gengo⟧ (language as a system/academic concept). ⟦{方言|ほうげん}→方言：07419_hougen⟧ (dialect) is described as ⟦その→その：00993_sono⟧⟦{土地|とち}→土地：02226_tochi⟧⟦の→の：09472_no⟧{言葉|ことば} (the local language).",
+  "notes": "{言葉|ことば} is one of the most fundamental words in Japanese, covering meanings that English splits across \"word,\" \"language,\" and \"speech/expression.\"\n\nCOMMON EXPRESSIONS:\n- {言葉|ことば}⟦が→が：00051_ga⟧⟦{通|つう}じる→通じる：02289_tsuujiru⟧: to be understood, to communicate successfully\n- {言葉|ことば}⟦に→に：00314_ni⟧⟦{詰|つ}まる→詰まる：02079_tsumaru⟧: to be at a loss for words\n- {言葉|ことば}⟦を→を：00422_wo⟧⟦{選|えら}ぶ→選ぶ：00835_erabu⟧: to choose one's words carefully\n- {言葉|ことば}⟦を→を：00422_wo⟧⟦かける→かける：00854_kakeru⟧: to speak to someone, to address\n- {言葉|ことば}⟦が→が：00051_ga⟧⟦{足|た}りない→足りる：01209_tariru⟧: to fail to express oneself adequately\n- {言葉|ことば}⟦に→に：00314_ni⟧⟦{甘|あま}える→甘える：06624_amaeru⟧: to take someone at their word\n\nSIMILAR WORDS:\n- ⟦{単語|たんご}→単語：03413_tango⟧: vocabulary word (individual unit, academic)\n- ⟦{語|ご}→〜語：09841_go⟧: word (suffix for language names: ⟦{日本語|にほんご}→日本語：00614_nihongo⟧, ⟦{英語|えいご}→英語：02274_eigo⟧)\n- ⟦{用語|ようご}→用語：04086_yougo⟧: terminology, technical term\n\nUSAGE:\nWhen meaning \"language,\" {言葉|ことば} is less formal than ⟦{言語|げんご}→言語：02717_gengo⟧ (language as a system/academic concept). ⟦{方言|ほうげん}→方言：07419_hougen⟧ (dialect) is described as ⟦その→その：00993_sono⟧⟦{土地|とち}→土地：02226_tochi⟧⟦の→の：09472_no⟧{言葉|ことば} (the local language).",
   "cross_references": [
     {
       "type": "related",
@@ -181,11 +181,39 @@
       "reading": "げんご",
       "headword": "{言語|げんご}",
       "label": "language (academic)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03413_tango",
+      "reading": "たんご",
+      "headword": "{単語|たんご}",
+      "label": "vocabulary word"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09841_go",
+      "reading": "ご",
+      "headword": "〜{語|ご}",
+      "label": "word (suffix for language names"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04086_yougo",
+      "reading": "ようご",
+      "headword": "{用語|ようご}",
+      "label": "terminology, technical term"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30523_waado",
+      "reading": "わーど",
+      "headword": "ワード",
+      "label": "word"
     }
   ],
   "metadata": {
     "created": "2026-01-11T09:35:00Z",
-    "modified": "2026-04-02T04:29:40Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

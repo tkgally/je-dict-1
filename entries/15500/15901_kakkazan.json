@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "15901_kakkazan_ex1",
-      "japanese": "{日本|にほん}には{活火山|かっかざん}が{多|おお}い。",
+      "japanese": "⟦{日本|にほん}→日本：03876_nihon⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{活火山|かっかざん}⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "Japan has many active volcanoes.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "15901_kakkazan_ex2",
-      "japanese": "{桜島|さくらじま}は{日本|にほん}を{代表|だいひょう}する{活火山|かっかざん}だ。",
+      "japanese": "{桜島|さくらじま}⟦は→は：00079_ha⟧⟦{日本|にほん}→日本：03876_nihon⟧⟦を→を：00422_wo⟧⟦{代表|だいひょう}→代表：03419_daihyou⟧⟦する→する：00392_suru⟧{活火山|かっかざん}だ。",
       "english": "Sakurajima is one of Japan's most representative active volcanoes.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "15901_kakkazan_ex3",
-      "japanese": "{活火山|かっかざん}の{近|ちか}くでは{噴火|ふんか}に{備|そな}えた{避難|ひなん}{計画|けいかく}が{必要|ひつよう}だ。",
+      "japanese": "{活火山|かっかざん}⟦の→の：09472_no⟧{近|ちか}く⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{噴火|ふんか}→噴火：00045_funka⟧⟦に→に：00314_ni⟧⟦{備|そな}えた→備える：02125_sonaeru⟧⟦{避難|ひなん}→避難：07908_hinan⟧⟦{計画|けいかく}→計画：01172_keikaku⟧⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧だ。",
       "english": "Near active volcanoes, evacuation plans in preparation for eruptions are necessary.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE: {活火山|かっかざん} is a compound of {活|かつ} (active, living), {火|か} (fire), and {山|ざん} (mountain). Japan has 111 active volcanoes, making this a commonly encountered term in news and education.\n\nCOMMON COLLOCATIONS:\n- {活火山|かっかざん}の{噴火|ふんか}: eruption of an active volcano\n- {活火山|かっかざん}の{監視|かんし}: monitoring of active volcanoes\n- {活火山|かっかざん}に{指定|してい}される: to be designated as an active volcano\n\nSIMILAR WORDS:\n- {活火山|かっかざん}: active volcano (currently active or potentially eruptive)\n- {休火山|きゅうかざん}: dormant volcano (formerly used, now deprecated in official terminology)\n- {死火山|しかざん}: extinct volcano (formerly used, now deprecated)",
+  "notes": "USAGE: {活火山|かっかざん} is a compound of {活|かつ} (active, living), {火|か} (fire), and {山|ざん} (mountain). Japan has 111 active volcanoes, making this a commonly encountered term in news and education.\n\nCOMMON COLLOCATIONS:\n- {活火山|かっかざん}⟦の→の：09472_no⟧⟦{噴火|ふんか}→噴火：00045_funka⟧: eruption of an active volcano\n- {活火山|かっかざん}⟦の→の：09472_no⟧⟦{監視|かんし}→監視：05521_kanshi⟧: monitoring of active volcanoes\n- {活火山|かっかざん}⟦に→に：00314_ni⟧⟦{指定|してい}→指定：00373_shitei⟧⟦される→する：00392_suru⟧: to be designated as an active volcano\n\nSIMILAR WORDS:\n- {活火山|かっかざん}: active volcano (currently active or potentially eruptive)\n- ⟦{休火山|きゅうかざん}→休火山：28330_kyuukazan⟧: dormant volcano (formerly used, now deprecated in official terminology)\n- ⟦{死火山|しかざん}→死火山：28367_shikazan⟧: extinct volcano (formerly used, now deprecated)",
   "cross_references": [
     {
       "type": "related",
@@ -59,11 +59,25 @@
       "reading": "ふんか",
       "headword": "{噴火|ふんか}",
       "label": "eruption"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28330_kyuukazan",
+      "reading": "きゅうかざん",
+      "headword": "{休火山|きゅうかざん}",
+      "label": "dormant volcano"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28367_shikazan",
+      "reading": "しかざん",
+      "headword": "{死火山|しかざん}",
+      "label": "extinct volcano"
     }
   ],
   "metadata": {
     "created": "2026-03-08T13:57:53Z",
-    "modified": "2026-07-18T04:02:53Z",
+    "modified": "2026-09-02T04:01:43Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

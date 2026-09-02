@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "11181_reiwa_ex1",
-      "japanese": "{令和|れいわ}の{時代|じだい}が{始|はじ}まった。",
+      "japanese": "{令和|れいわ}⟦の→の：09472_no⟧⟦{時代|じだい}→時代：01424_jidai⟧⟦が→が：00051_ga⟧⟦{始|はじ}まった→始まる：00841_hajimaru⟧。",
       "english": "The Reiwa era has begun.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "11181_reiwa_ex2",
-      "japanese": "{令和|れいわ}に{入|はい}ってから{新|あたら}しい{法律|ほうりつ}ができた。",
+      "japanese": "{令和|れいわ}⟦に→に：00314_ni⟧⟦{入|はい}って→入る：00494_hairu⟧⟦から→から：00504_kara⟧⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦{法律|ほうりつ}→法律：01722_houritsu⟧⟦が→が：00051_ga⟧⟦できた→できる：00557_dekiru⟧。",
       "english": "New laws were enacted after the start of the Reiwa era.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "11181_reiwa_ex3",
-      "japanese": "{令和|れいわ}という{元号|げんごう}は{万葉集|まんようしゅう}から{取|と}られたもので、{日本|にほん}の{古典|こてん}に{由来|ゆらい}している。",
+      "japanese": "{令和|れいわ}⟦という→という：09577_toiu⟧⟦{元号|げんごう}→元号：16318_gengou⟧⟦は→は：00079_ha⟧⟦{万葉集|まんようしゅう}→万葉集：08827_manyoushuu⟧⟦から→から：00504_kara⟧⟦{取|と}られた→取る：00565_toru⟧もので、⟦{日本|にほん}→日本：03876_nihon⟧⟦の→の：09472_no⟧⟦{古典|こてん}→古典：00242_koten⟧⟦に→に：00314_ni⟧⟦{由来|ゆらい}→由来：05451_yurai⟧⟦している→する：00392_suru⟧。",
       "english": "The era name Reiwa was taken from the Man'yōshū, deriving from a Japanese classic.",
       "notes": null,
       "has_audio": false,
@@ -43,10 +43,10 @@
       ]
     }
   ],
-  "notes": "{令和|れいわ} is the current Japanese era name ({元号|げんごう}), in use since May 1, 2019.\n\nORIGIN:\nThe name comes from the {万葉集|まんようしゅう} (Man'yōshū), Japan's oldest anthology of poetry. It is the first era name derived from a Japanese text rather than a Chinese classic.\n\nERA SYSTEM:\n- {令和|れいわ}{元年|がんねん} = 2019\n- {令和|れいわ}2{年|ねん} = 2020\n- The era year can be calculated as: Western year − 2018\n\nRELATED:\n- {平成|へいせい}: the preceding era (1989–2019)\n- {元号|げんごう}: era name",
+  "notes": "{令和|れいわ} is the current Japanese era name (⟦{元号|げんごう}→元号：16318_gengou⟧), in use since May 1, 2019.\n\nETYMOLOGY:\nThe name comes from the ⟦{万葉集|まんようしゅう}→万葉集：08827_manyoushuu⟧ (Man'yōshū), Japan's oldest anthology of poetry. It is the first era name derived from a Japanese text rather than a Chinese classic.\n\nERA SYSTEM:\n- {令和|れいわ}⟦{元年|がんねん}→元年：11658_gannen⟧ = 2019\n- {令和|れいわ}2⟦{年|ねん}→年：09876_nen⟧ = 2020\n- The era year can be calculated as: Western year − 2018\n\nRELATED WORDS:\n- ⟦{平成|へいせい}→平成：11180_heisei⟧: the preceding era (1989–2019)\n- ⟦{元号|げんごう}→元号：16318_gengou⟧: era name",
   "metadata": {
     "created": "2026-02-14T12:48:34Z",
-    "modified": "2026-04-25T04:12:08Z",
+    "modified": "2026-09-02T04:01:24Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -68,6 +68,20 @@
       "reading": "へいせい",
       "headword": "{平成|へいせい}",
       "label": "previous era"
+    },
+    {
+      "type": "related",
+      "target_id": "16318_gengou",
+      "reading": "げんごう",
+      "headword": "{元号|げんごう}",
+      "label": "era name"
+    },
+    {
+      "type": "related",
+      "target_id": "28079_shouwa",
+      "reading": "しょうわ",
+      "headword": "{昭和|しょうわ}",
+      "label": "Showa"
     }
   ]
 }

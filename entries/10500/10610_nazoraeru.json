@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "10610_nazoraeru_ex1",
-      "japanese": "{人生|じんせい}を{旅|たび}になぞらえる。",
+      "japanese": "⟦{人生|じんせい}→人生：03355_jinsei⟧⟦を→を：00422_wo⟧⟦{旅|たび}→旅：03407_tabi⟧⟦に→に：00314_ni⟧なぞらえる。",
       "english": "To liken life to a journey.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "10610_nazoraeru_ex2",
-      "japanese": "{彼|かれ}は{自分|じぶん}の{境遇|きょうぐう}を{小説|しょうせつ}の{主人公|しゅじんこう}になぞらえた。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{自分|じぶん}→自分：02887_jibun⟧⟦の→の：09472_no⟧⟦{境遇|きょうぐう}→境遇：12097_kyouguu⟧⟦を→を：00422_wo⟧⟦{小説|しょうせつ}→小説：01434_shousetsu⟧⟦の→の：09472_no⟧⟦{主人公|しゅじんこう}→主人公：11404_shujinkou⟧⟦に→に：00314_ni⟧なぞらえた。",
       "english": "He compared his own situation to the protagonist of a novel.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "10610_nazoraeru_ex3",
-      "japanese": "この{庭園|ていえん}は{富士山|ふじさん}の{景色|けしき}になぞらえて{造|つく}られたと{言|い}われている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{庭園|ていえん}→庭園：12452_teien⟧⟦は→は：00079_ha⟧⟦{富士山|ふじさん}→富士山：09514_fujisan⟧⟦の→の：09472_no⟧⟦{景色|けしき}→景色：01395_keshiki⟧⟦に→に：00314_ni⟧なぞらえて⟦{造|つく}られた→造る：17751_tsukuru⟧⟦と→と：00512_to⟧⟦{言|い}われている→言う：00515_iu⟧。",
       "english": "This garden is said to have been designed to evoke the scenery of Mt. Fuji.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,19 @@
       ]
     }
   ],
-  "notes": "CONJUGATION (ichidan):\n- Negative: なぞらえない\n- Te-form: なぞらえて\n- Past: なぞらえた\n\nUSAGE:\nThe pattern is AをBになぞらえる (to liken A to B). Often used in literary, analytical, or artistic contexts.\n\nWRITING:\nSometimes written as {準|なぞら}える or {擬|なぞら}える, but hiragana is most common.\n\nREGISTER:\nSomewhat formal and literary. More common in written language and speeches than in casual conversation.",
-  "cross_references": [],
+  "notes": "CONJUGATION (ichidan):\n- Negative: なぞらえない\n- Te-form: なぞらえて\n- Past: なぞらえた\n\nUSAGE:\nThe pattern is A⟦を→を：00422_wo⟧B⟦に→に：00314_ni⟧なぞらえる (to liken A to B). Often used in literary, analytical, or artistic contexts.\n\nWRITING:\nSometimes written as {準|なぞら}える or {擬|なぞら}える, but hiragana is most common.\n\nREGISTER:\nSomewhat formal and literary. More common in written language and speeches than in casual conversation.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24725_hiyusuru",
+      "reading": "ひゆする",
+      "headword": "{比喩|ひゆ}する",
+      "label": "to use a metaphor"
+    }
+  ],
   "metadata": {
     "created": "2026-02-08T05:52:31Z",
-    "modified": "2026-06-27T16:04:49Z",
+    "modified": "2026-09-02T04:01:22Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

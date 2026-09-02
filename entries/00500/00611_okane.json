@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "お{金|かね} means money. The ⟦お→お〜：03097_o⟧ is a polite prefix (can also say {金|かね} in casual speech).\n\nCOMMON EXPRESSIONS:\n- お{金|かね}⟦を→を：00422_wo⟧⟦{払|はら}う→払う：00535_harau⟧: to pay money\n- お{金|かね}⟦を→を：00422_wo⟧⟦{借|か}りる→借りる：00532_kariru⟧: to borrow money\n- お{金|かね}⟦を→を：00422_wo⟧⟦{貯|た}める→溜める：02068_tameru⟧: to save money\n- お{金|かね}⟦が→が：00051_ga⟧⟦{足|た}りない→足りる：01209_tariru⟧: not enough money\n- お{金|かね}⟦が→が：00051_ga⟧⟦かかる→かかる：00711_kakaru⟧: to cost money\n\nCOMPOUNDS:\n- ⟦お{金持|かねも}ち→金持ち：02993_kanemochi⟧: rich person\n- ⟦{小遣|こづか}い→小遣い：12363_kozukai⟧: pocket money, allowance\n- ⟦{現金|げんきん}→現金：02716_genkin⟧: cash\n\nRELATED:\n- ⟦{円|えん}→円：00774_en⟧: yen (currency unit)\n- ⟦{財布|さいふ}→財布：00663_saifu⟧: wallet\n- ⟦{銀行|ぎんこう}→銀行：00578_ginkou⟧: bank",
+  "notes": "お{金|かね} means money. The ⟦お→お〜：03097_o⟧ is a polite prefix (can also say ⟦{金|かね}→金：02618_kane⟧ in casual speech).\n\nCOMMON EXPRESSIONS:\n- お{金|かね}⟦を→を：00422_wo⟧⟦{払|はら}う→払う：00535_harau⟧: to pay money\n- お{金|かね}⟦を→を：00422_wo⟧⟦{借|か}りる→借りる：00532_kariru⟧: to borrow money\n- お{金|かね}⟦を→を：00422_wo⟧⟦{貯|た}める→溜める：02068_tameru⟧: to save money\n- お{金|かね}⟦が→が：00051_ga⟧⟦{足|た}りない→足りる：01209_tariru⟧: not enough money\n- お{金|かね}⟦が→が：00051_ga⟧⟦かかる→かかる：00711_kakaru⟧: to cost money\n\nCOMPOUNDS:\n- ⟦お{金持|かねも}ち→金持ち：02993_kanemochi⟧: rich person\n- ⟦{小遣|こづか}い→小遣い：12363_kozukai⟧: pocket money, allowance\n- ⟦{現金|げんきん}→現金：02716_genkin⟧: cash\n\nRELATED WORDS:\n- ⟦{円|えん}→円：00774_en⟧: yen (currency unit)\n- ⟦{財布|さいふ}→財布：00663_saifu⟧: wallet\n- ⟦{銀行|ぎんこう}→銀行：00578_ginkou⟧: bank",
   "prominent_see_also": [
     {
       "target_id": "02618_kane",
@@ -86,11 +86,46 @@
       "headword": "{銀行|ぎんこう}",
       "target_id": "00578_ginkou",
       "label": "bank"
+    },
+    {
+      "type": "related",
+      "target_id": "00774_en",
+      "reading": "えん",
+      "headword": "{円|えん}",
+      "label": "yen"
+    },
+    {
+      "type": "related",
+      "target_id": "00663_saifu",
+      "reading": "さいふ",
+      "headword": "{財布|さいふ}",
+      "label": "wallet"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01635_zaisan",
+      "reading": "ざいさん",
+      "headword": "{財産|ざいさん}",
+      "label": "property, fortune, assets"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02684_kinsen",
+      "reading": "きんせん",
+      "headword": "{金銭|きんせん}",
+      "label": "money, cash"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29549_manee",
+      "reading": "まねー",
+      "headword": "マネー",
+      "label": "money (financial/economic term)"
     }
   ],
   "metadata": {
     "created": "2026-01-07T15:32:14Z",
-    "modified": "2026-05-12T13:16:23Z",
+    "modified": "2026-09-02T04:00:57Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "13091_sonchou_ex1",
-      "japanese": "{新|あたら}しい{村長|そんちょう}が{選|えら}ばれた。",
+      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧{村長|そんちょう}⟦が→が：00051_ga⟧⟦{選|えら}ばれた→選ぶ：00835_erabu⟧。",
       "english": "A new village mayor was elected.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13091_sonchou_ex2",
-      "japanese": "{村長|そんちょう}は{村民|そんみん}の{声|こえ}に{耳|みみ}を{傾|かたむ}けた。",
+      "japanese": "{村長|そんちょう}⟦は→は：00079_ha⟧⟦{村民|そんみん}→村民：22347_sonmin⟧⟦の→の：09472_no⟧⟦{声|こえ}→声：02207_koe⟧⟦に→に：00314_ni⟧⟦{耳|みみ}→耳：01513_mimi⟧⟦を→を：00422_wo⟧⟦{傾|かたむ}けた→傾ける：11516_katamukeru⟧。",
       "english": "The village chief listened to the villagers' voices.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13091_sonchou_ex3",
-      "japanese": "{村長|そんちょう}{選挙|せんきょ}は{来月|らいげつ}{行|おこな}われるが、{立候補者|りっこうほしゃ}は{一人|ひとり}しかいない。",
+      "japanese": "{村長|そんちょう}{選挙|せんきょ}⟦は→は：00079_ha⟧⟦{来月|らいげつ}→来月：00744_raigetsu⟧⟦{行|おこな}われる→行う：01238_okonau⟧⟦が→が：00051_ga⟧、{立候補者|りっこうほしゃ}⟦は→は：00079_ha⟧⟦{一人|ひとり}→一人：00630_hitori⟧しかいない。",
       "english": "The village mayoral election will be held next month, but there is only one candidate.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nIn Japan's local government hierarchy, the heads of different municipal levels have different titles:\n- {市長|しちょう}: city mayor\n- {町長|ちょうちょう}: town mayor\n- {村長|そんちょう}: village mayor\n\n{村|むら} (village) is the smallest administrative unit. The number of villages in Japan has been declining due to municipal mergers.\n\nNOTE: This is a homophone of {尊重|そんちょう} (respect).\n\nCOMMON COLLOCATIONS:\n- {村長|そんちょう}{選挙|せんきょ}: village mayoral election\n- {村長|そんちょう}に{就任|しゅうにん}する: to take office as village chief\n- {村長|そんちょう}{室|しつ}: village chief's office",
+  "notes": "USAGE:\nIn Japan's local government hierarchy, the heads of different municipal levels have different titles:\n- ⟦{市長|しちょう}→市長：12472_shichou⟧: city mayor\n- ⟦{町長|ちょうちょう}→町長：13580_chouchou⟧: town mayor\n- {村長|そんちょう}: village mayor\n\n⟦{村|むら}→村：02261_mura⟧ (village) is the smallest administrative unit. The number of villages in Japan has been declining due to municipal mergers.\n\nNOTE: This is a homophone of ⟦{尊重|そんちょう}→尊重：03327_sonchou⟧ (respect).\n\nCOMMON COLLOCATIONS:\n- {村長|そんちょう}{選挙|せんきょ}: village mayoral election\n- {村長|そんちょう}⟦に→に：00314_ni⟧⟦{就任|しゅうにん}→就任：12368_shuunin⟧⟦する→する：00392_suru⟧: to take office as village chief\n- {村長|そんちょう}⟦{室|しつ}→室：09946_shitsu⟧: village chief's office",
   "cross_references": [
     {
       "type": "homophone",
@@ -46,18 +52,30 @@
       "headword": "{尊重|そんちょう}",
       "target_id": "03327_sonchou",
       "label": "尊重 (respect)"
+    },
+    {
+      "type": "related",
+      "target_id": "03467_chiji",
+      "reading": "ちじ",
+      "headword": "{知事|ちじ}",
+      "label": "prefectural governor"
     }
   ],
   "metadata": {
     "created": "2026-02-23T10:46:40Z",
-    "modified": "2026-02-23T10:46:40Z",
+    "modified": "2026-09-02T04:01:31Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["society", "occupation"]
+      "semantic": [
+        "society",
+        "occupation"
+      ]
     }
   }
 }

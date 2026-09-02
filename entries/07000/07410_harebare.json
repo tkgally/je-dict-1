@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "07410_harebare_ex1",
-      "japanese": "{試験|しけん}が{終|お}わって、{晴|は}れ{晴|ば}れとした{気分|きぶん}だ。",
+      "japanese": "⟦{試験|しけん}→試験：01422_shiken⟧⟦が→が：00051_ga⟧⟦{終|お}わって→終わる：00567_owaru⟧、{晴|は}れ{晴|ば}れとした⟦{気分|きぶん}→気分：01306_kibun⟧だ。",
       "english": "The exam is over, and I feel so relieved.",
       "has_audio": false,
       "sense_numbers": [
@@ -23,7 +23,7 @@
     },
     {
       "id": "07410_harebare_ex2",
-      "japanese": "{晴|は}れ{晴|ば}れとした{笑顔|えがお}を{見|み}せた。",
+      "japanese": "{晴|は}れ{晴|ば}れとした⟦{笑顔|えがお}→笑顔：01884_egao⟧⟦を→を：00422_wo⟧⟦{見|み}せた→見せる：01988_miseru⟧。",
       "english": "She showed a bright, cheerful smile.",
       "has_audio": false,
       "sense_numbers": [
@@ -32,7 +32,7 @@
     },
     {
       "id": "07410_harebare_ex3",
-      "japanese": "{悩|なや}みが{解決|かいけつ}して{気持|きも}ちが{晴|は}れ{晴|ば}れした。",
+      "japanese": "⟦{悩|なや}み→悩み：06650_nayami⟧⟦が→が：00051_ga⟧⟦{解決|かいけつ}して→解決する：17191_kaiketsusuru⟧{気持|きも}ち⟦が→が：00051_ga⟧{晴|は}れ{晴|ば}れ⟦した→する：00392_suru⟧。",
       "english": "My worries were resolved and I felt refreshed.",
       "has_audio": false,
       "sense_numbers": [
@@ -40,10 +40,33 @@
       ]
     }
   ],
-  "notes": "WORD FORMATION:\n{晴|は}れ (clear weather, from {晴|は}れる) reduplicated.\nThe image is of clear, bright skies after clouds have passed.\n\nFORMS:\n・{晴|は}れ{晴|ば}れと (adverbial with と)\n・{晴|は}れ{晴|ば}れとした + noun (adjectival)\n・{晴|は}れ{晴|ば}れしい (i-adjective form, literary)\n\nCOMMON COLLOCATIONS:\n・{晴|は}れ{晴|ば}れとした{気分|きぶん} - refreshed feeling\n・{晴|は}れ{晴|ば}れとした{顔|かお} - bright face\n・{晴|は}れ{晴|ば}れとした{表情|ひょうじょう} - cheerful expression\n・{気持|きも}ちが{晴|は}れ{晴|ば}れする - to feel refreshed\n\nSIMILAR WORDS:\n・すっきり - refreshed, cleared up (more casual)\n・さっぱり - refreshed, clean (after bathing/eating)\n・{爽|さわ}やか - refreshing, fresh\n\nREGISTER:\nNeutral to slightly formal. Common in written and spoken Japanese.",
+  "notes": "FORMS:\n⟦{晴|は}れ→晴れ：02936_hare⟧ (clear weather, from ⟦{晴|は}れる→晴れる：00701_hareru⟧) reduplicated.\nThe image is of clear, bright skies after clouds have passed.\n- {晴|は}れ{晴|ば}れ⟦と→と：00512_to⟧ (adverbial with ⟦と→と：00512_to⟧)\n- {晴|は}れ{晴|ば}れとした + noun (adjectival)\n- {晴|は}れ{晴|ば}れしい (i-adjective form, literary)\n\nCOMMON COLLOCATIONS:\n- {晴|は}れ{晴|ば}れとした⟦{気分|きぶん}→気分：01306_kibun⟧ - refreshed feeling\n- {晴|は}れ{晴|ば}れとした⟦{顔|かお}→顔：00558_kao⟧ - bright face\n- {晴|は}れ{晴|ば}れとした⟦{表情|ひょうじょう}→表情：03585_hyoujou⟧ - cheerful expression\n- {気持|きも}ち⟦が→が：00051_ga⟧{晴|は}れ{晴|ば}れ⟦する→する：00392_suru⟧ - to feel refreshed\n\nSIMILAR WORDS:\n- ⟦すっきり→すっきり：05180_sukkiri⟧ - refreshed, cleared up (more casual)\n- ⟦さっぱり→さっぱり：02777_sappari⟧ - refreshed, clean (after bathing/eating)\n- ⟦{爽|さわ}やか→爽やか：05701_sawayaka⟧ - refreshing, fresh\n\nREGISTER:\nNeutral to slightly formal. Common in written and spoken Japanese.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05180_sukkiri",
+      "reading": "すっきり",
+      "headword": "すっきり",
+      "label": "refreshed, cleared up"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02777_sappari",
+      "reading": "さっぱり",
+      "headword": "さっぱり",
+      "label": "refreshed, clean"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05701_sawayaka",
+      "reading": "さわやか",
+      "headword": "{爽|さわ}やか",
+      "label": "refreshing, fresh"
+    }
+  ],
   "metadata": {
     "created": "2026-01-19T07:26:07Z",
-    "modified": "2026-08-10T18:32:12Z",
+    "modified": "2026-09-02T04:01:11Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

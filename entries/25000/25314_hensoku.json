@@ -3,7 +3,7 @@
   "headword": "{変則|へんそく}",
   "reading": "へんそく",
   "romaji": "hensoku",
-  "part_of_speech": "noun / adjective (な)",
+  "part_of_speech": "noun, na-adjective",
   "gloss": "irregular; anomalous; unconventional",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25314_hensoku_ex1",
-      "japanese": "{変則|へんそく}{的|てき}なルールで{試合|しあい}をした。",
+      "japanese": "{変則|へんそく}{的|てき}な⟦ルール→ルール：00354_ruuru⟧⟦で→で：00502_de⟧⟦{試合|しあい}→試合：01601_shiai⟧⟦を→を：00422_wo⟧⟦した→する：00392_suru⟧。",
       "english": "We played the game under irregular rules.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25314_hensoku_ex2",
-      "japanese": "{今回|こんかい}は{変則|へんそく}ダブルヘッダーが{組|く}まれた。",
+      "japanese": "⟦{今回|こんかい}→今回：01409_konkai⟧⟦は→は：00079_ha⟧{変則|へんそく}⟦ダブル→ダブル：24220_daburu⟧ヘッダー⟦が→が：00051_ga⟧⟦{組|く}まれた→組む：02050_kumu⟧。",
       "english": "This time, an irregular doubleheader was scheduled.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25314_hensoku_ex3",
-      "japanese": "{変則|へんそく}{勤務|きんむ}のため、{毎週|まいしゅう}{休|やす}みの{曜日|ようび}が{変|か}わる。",
+      "japanese": "{変則|へんそく}⟦{勤務|きんむ}→勤務：04545_kinmu⟧⟦の→の：09472_no⟧⟦ため→ため：01145_tame⟧、⟦{毎週|まいしゅう}→毎週：00730_maishuu⟧⟦{休|やす}み→休み：02266_yasumi⟧⟦の→の：09472_no⟧⟦{曜日|ようび}→曜日：03877_youbi⟧⟦が→が：00051_ga⟧⟦{変|か}わる→変わる：00714_kawaru⟧。",
       "english": "Due to irregular work shifts, my day off changes every week.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Describes something that deviates from the standard rule or pattern. Composed of {変|へん} (change, abnormal) and {則|そく} (rule). Used frequently in sports, work scheduling, and grammar to describe non-standard arrangements.\n\nCOMMON COLLOCATIONS:\n- {変則|へんそく}{的|てき}: irregular, unconventional\n- {変則|へんそく}{勤務|きんむ}: irregular work shifts\n- {変則|へんそく}ダブルヘッダー: split doubleheader (baseball)\n- {変則|へんそく}{日程|にってい}: irregular schedule\n\nSIMILAR WORDS:\n- {不規則|ふきそく}: irregular — emphasizes lack of regularity or pattern\n- {異例|いれい}: exceptional, unprecedented — implies rarity\n- {例外|れいがい}: exception — a specific case that deviates from a rule",
+  "notes": "Describes something that deviates from the standard rule or pattern. Composed of ⟦{変|へん}→変：01124_hen⟧ (change, abnormal) and {則|そく} (rule). Used frequently in sports, work scheduling, and grammar to describe non-standard arrangements.\n\nCOMMON COLLOCATIONS:\n- {変則|へんそく}{的|てき}: irregular, unconventional\n- {変則|へんそく}⟦{勤務|きんむ}→勤務：04545_kinmu⟧: irregular work shifts\n- {変則|へんそく}⟦ダブル→ダブル：24220_daburu⟧ヘッダー: split doubleheader (baseball)\n- {変則|へんそく}⟦{日程|にってい}→日程：04289_nittei⟧: irregular schedule\n\nSIMILAR WORDS:\n- ⟦{不規則|ふきそく}→不規則：15651_fukisoku⟧: irregular — emphasizes lack of regularity or pattern\n- ⟦{異例|いれい}→異例：13564_irei⟧: exceptional, unprecedented — implies rarity\n- ⟦{例外|れいがい}→例外：03798_reigai⟧: exception — a specific case that deviates from a rule",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15651_fukisoku",
+      "reading": "ふきそく",
+      "headword": "{不規則|ふきそく}",
+      "label": "irregular"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13564_irei",
+      "reading": "いれい",
+      "headword": "{異例|いれい}",
+      "label": "exceptional, unprecedented"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03798_reigai",
+      "reading": "れいがい",
+      "headword": "{例外|れいがい}",
+      "label": "exception"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,11 +76,13 @@
         "noun",
         "adjective-na"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "abstract"
       ]
     },
     "created": "2026-04-24T14:24:48Z",
-    "modified": "2026-04-24T14:24:48Z"
+    "modified": "2026-09-02T04:02:21Z"
   }
 }

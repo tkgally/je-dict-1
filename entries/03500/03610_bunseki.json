@@ -2,7 +2,7 @@
   "id": "03610_bunseki",
   "headword": "{分析|ぶんせき}",
   "reading": "ぶんせき",
-  "part_of_speech": "noun, suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "analysis",
   "conjugation": {
     "type": "suru",
@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "03610_bunseki_ex1",
-      "japanese": "⟦データ→データ：03944_deeta⟧⟦を→を：00422_wo⟧{分析|ぶんせき}する。",
+      "japanese": "⟦データ→データ：03944_deeta⟧⟦を→を：00422_wo⟧{分析|ぶんせき}⟦する→する：00392_suru⟧。",
       "english": "To analyze the data.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "03610_bunseki_ex2",
-      "japanese": "⟦{原因|げんいん}→原因：01400_genin⟧⟦を→を：00422_wo⟧⟦{詳|くわ}しく→詳しい：02483_kuwashii⟧{分析|ぶんせき}した。",
+      "japanese": "⟦{原因|げんいん}→原因：01400_genin⟧⟦を→を：00422_wo⟧⟦{詳|くわ}しく→詳しい：02483_kuwashii⟧{分析|ぶんせき}⟦した→する：00392_suru⟧。",
       "english": "I analyzed the cause in detail.",
       "notes": null,
       "has_audio": false,
@@ -133,10 +133,10 @@
       ]
     }
   ],
-  "notes": "USAGE: {分析|ぶんせき} is used in academic, scientific, and business contexts for systematic examination.\n\nCOMMON PATTERNS:\n・{分析|ぶんせき}する (to analyze)\n・{分析|ぶんせき}⟦を→を：00422_wo⟧⟦{行|おこな}う→行う：01238_okonau⟧ (to conduct analysis)\n・{分析|ぶんせき}⟦{結果|けっか}→結果：02486_kekka⟧ (analysis results)\n\nCOMMON COMPOUNDS:\n・⟦{市場|しじょう}→市場：09685_shijou⟧{分析|ぶんせき} (market analysis)\n・⟦データ→データ：03944_deeta⟧{分析|ぶんせき} (data analysis)\n・⟦{化学|かがく}→化学：05336_kagaku_chem⟧{分析|ぶんせき} (chemical analysis)\n・⟦{分析|ぶんせき}{力|りょく}→分析力：08706_bunsekiryoku⟧ (analytical ability)\n・⟦{精密|せいみつ}→精密：13775_seimitsu⟧{分析|ぶんせき} (precise analysis)",
+  "notes": "USAGE: {分析|ぶんせき} is used in academic, scientific, and business contexts for systematic examination.\n\nCOMMON PATTERNS:\n- {分析|ぶんせき}⟦する→する：00392_suru⟧ (to analyze)\n- {分析|ぶんせき}⟦を→を：00422_wo⟧⟦{行|おこな}う→行う：01238_okonau⟧ (to conduct analysis)\n- {分析|ぶんせき}⟦{結果|けっか}→結果：02486_kekka⟧ (analysis results)\n\nCOMPOUNDS:\n- ⟦{市場|しじょう}→市場：09685_shijou⟧{分析|ぶんせき} (market analysis)\n- ⟦データ→データ：03944_deeta⟧{分析|ぶんせき} (data analysis)\n- ⟦{化学|かがく}→化学：05336_kagaku_chem⟧{分析|ぶんせき} (chemical analysis)\n- ⟦{分析|ぶんせき}{力|りょく}→分析力：08706_bunsekiryoku⟧ (analytical ability)\n- ⟦{精密|せいみつ}→精密：13775_seimitsu⟧{分析|ぶんせき} (precise analysis)",
   "metadata": {
     "created": "2026-01-12T15:35:00Z",
-    "modified": "2026-05-26T18:31:12Z",
+    "modified": "2026-09-02T04:01:03Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -153,7 +153,8 @@
       "semantic": [
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22683_norenniudeoshi_ex1",
-      "japanese": "{何|なに}を{言|い}っても{暖簾|のれん}に{腕押|うでお}しだ。",
+      "japanese": "⟦{何|なに}→何：00498_nani⟧⟦を→を：00422_wo⟧⟦{言|い}って→言う：00515_iu⟧⟦も→も：00484_mo⟧{暖簾|のれん}に{腕押|うでお}しだ。",
       "english": "No matter what I say, it's like talking to a wall.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22683_norenniudeoshi_ex2",
-      "japanese": "あの{人|ひと}に{注意|ちゅうい}しても{暖簾|のれん}に{腕押|うでお}しだよ。",
+      "japanese": "⟦あの{人|ひと}→あの人：25922_anohito⟧⟦に→に：00314_ni⟧⟦{注意|ちゅうい}→注意：01464_chuui⟧⟦して→する：00392_suru⟧⟦も→も：00484_mo⟧{暖簾|のれん}に{腕押|うでお}しだ⟦よ→よ：09475_yo⟧。",
       "english": "Warning that person is a waste of effort.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22683_norenniudeoshi_ex3",
-      "japanese": "{交渉|こうしょう}を{続|つづ}けたが、{暖簾|のれん}に{腕押|うでお}しで{全|まった}く{進展|しんてん}がなかった。",
+      "japanese": "⟦{交渉|こうしょう}→交渉：02727_koushou⟧⟦を→を：00422_wo⟧⟦{続|つづ}け→続く：00903_tsuzuku⟧た⟦が→が：00051_ga⟧、{暖簾|のれん}に{腕押|うでお}し⟦で→で：00502_de⟧⟦{全|まった}く→全く：02363_mattaku⟧⟦{進展|しんてん}→進展：14374_shinten⟧⟦が→が：00051_ga⟧⟦なかった→ない：01118_nai⟧。",
       "english": "I continued the negotiations, but it was a futile effort and there was no progress at all.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "One of Japan's most well-known proverbs. A {暖簾|のれん} is the split fabric curtain hung at the entrance of shops and restaurants. Pushing against it produces no resistance — your arm just goes through — making the act pointless. Used when someone is unresponsive or unmoved by your attempts to persuade, argue with, or influence them.\n\nCOMMON COLLOCATIONS:\n- {暖簾|のれん}に{腕押|うでお}しだ: it's a wasted effort\n- {暖簾|のれん}に{腕押|うでお}しで{終|お}わる: to end in futility\n\nSIMILAR EXPRESSIONS:\n- {馬|うま}の{耳|みみ}に{念仏|ねんぶつ}: preaching to deaf ears — literally 'a Buddhist prayer to a horse's ear,' emphasizing that the listener does not understand or care\n- {糠|ぬか}に{釘|くぎ}: like nailing into rice bran — another idiom for futile effort, emphasizing that nothing sticks\n- {無駄骨|むだぼね}を{折|お}る: to make a wasted effort — a more direct, non-idiomatic way to express the same idea",
+  "notes": "One of Japan's most well-known proverbs. A ⟦{暖簾|のれん}→暖簾：05803_noren⟧ is the split fabric curtain hung at the entrance of shops and restaurants. Pushing against it produces no resistance — your arm just goes through — making the act pointless. Used when someone is unresponsive or unmoved by your attempts to persuade, argue with, or influence them.\n\nCOMMON COLLOCATIONS:\n- {暖簾|のれん}に{腕押|うでお}しだ: it's a wasted effort\n- {暖簾|のれん}に{腕押|うでお}し⟦で→で：00502_de⟧{終|お}わる: to end in futility\n\nSIMILAR WORDS:\n- ⟦{馬|うま}の{耳|みみ}に{念仏|ねんぶつ}→馬の耳に念仏：06292_umanomimininenbutsu⟧: preaching to deaf ears — literally 'a Buddhist prayer to a horse's ear,' emphasizing that the listener does not understand or care\n- ⟦{糠|ぬか}に{釘|くぎ}→糠に釘：22911_nukanikugi⟧: like nailing into rice bran — another idiom for futile effort, emphasizing that nothing sticks\n- ⟦{無駄骨|むだぼね}→無駄骨：20265_mudabone⟧⟦を→を：00422_wo⟧⟦{折|お}る→折る：01263_oru⟧: to make a wasted effort — a more direct, non-idiomatic way to express the same idea",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06292_umanomimininenbutsu",
+      "reading": "うまのみみにねんぶつ",
+      "headword": "{馬|うま}の{耳|みみ}に{念仏|ねんぶつ}",
+      "label": "preaching to deaf ears"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22911_nukanikugi",
+      "reading": "ぬかにくぎ",
+      "headword": "{糠|ぬか}に{釘|くぎ}",
+      "label": "like nailing into rice bran"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +76,6 @@
       "politeness": "plain"
     },
     "created": "2026-04-07T00:54:52Z",
-    "modified": "2026-08-01T06:41:09Z"
+    "modified": "2026-09-02T04:02:09Z"
   }
 }

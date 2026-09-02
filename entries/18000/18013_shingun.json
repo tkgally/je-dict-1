@@ -3,7 +3,7 @@
   "id": "18013_shingun",
   "headword": "{進軍|しんぐん}",
   "reading": "しんぐん",
-  "part_of_speech": "noun / verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "march; advance (military)",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "18013_shingun_ex1",
-      "japanese": "{軍|ぐん}は{北|きた}へ{進軍|しんぐん}した。",
+      "japanese": "⟦{軍|ぐん}→軍：02677_gun⟧⟦は→は：00079_ha⟧⟦{北|きた}→北：00644_kita⟧⟦へ→へ：02473_he⟧{進軍|しんぐん}⟦した→する：00392_suru⟧。",
       "english": "The army marched north.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "18013_shingun_ex2",
-      "japanese": "{悪天候|あくてんこう}の{中|なか}、{兵士|へいし}たちは{進軍|しんぐん}を{続|つづ}けた。",
+      "japanese": "⟦{悪天候|あくてんこう}→悪天候：16184_akutenkou⟧⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧、⟦{兵士|へいし}→兵士：11680_heishi⟧たち⟦は→は：00079_ha⟧{進軍|しんぐん}⟦を→を：00422_wo⟧⟦{続|つづ}け→続く：00903_tsuzuku⟧た。",
       "english": "The soldiers continued their march through bad weather.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "18013_shingun_ex3",
-      "japanese": "{敵|てき}の{激|はげ}しい{抵抗|ていこう}に{遭|あ}いながらも、{進軍|しんぐん}の{速度|そくど}を{緩|ゆる}めなかった。",
+      "japanese": "⟦{敵|てき}→敵：03546_teki⟧⟦の→の：09472_no⟧⟦{激|はげ}しい→激しい：02348_hageshii⟧⟦{抵抗|ていこう}→抵抗：03540_teikou⟧⟦に→に：00314_ni⟧⟦{遭|あ}い→遭う：09500_au⟧⟦ながら→ながら：10530_nagara⟧⟦も→も：00484_mo⟧、{進軍|しんぐん}⟦の→の：09472_no⟧⟦{速度|そくど}→速度：03319_sokudo⟧⟦を→を：00422_wo⟧⟦{緩|ゆる}めなかった→緩める：15263_yurumeru⟧。",
       "english": "Despite encountering fierce enemy resistance, they did not slow the pace of their advance.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nPrimarily a military term, but sometimes used figuratively for determined progress in business or competitions. The well-known military song {軍艦|ぐんかん}{行進曲|こうしんきょく} is sometimes colloquially called {進軍|しんぐん}ラッパ.\n\nCOMMON COLLOCATIONS:\n- {進軍|しんぐん}する (to advance, to march)\n- {進軍|しんぐん}を{続|つづ}ける (to continue the advance)\n- {進軍|しんぐん}{速度|そくど} (pace of advance)\n- {進軍|しんぐん}ラッパ (bugle call to advance)\n\nSIMILAR WORDS:\n- {行軍|こうぐん}: march — focuses on the act of marching rather than advancing toward an enemy\n- {侵攻|しんこう}: invasion — advancing into enemy territory",
+  "notes": "USAGE:\nPrimarily a military term, but sometimes used figuratively for determined progress in business or competitions. The well-known military song ⟦{軍艦|ぐんかん}→軍艦：14393_gunkan⟧{行進曲|こうしんきょく} is sometimes colloquially called {進軍|しんぐん}⟦ラッパ→ラッパ：09958_rappa⟧.\n\nCOMMON COLLOCATIONS:\n- {進軍|しんぐん}⟦する→する：00392_suru⟧ (to advance, to march)\n- {進軍|しんぐん}⟦を→を：00422_wo⟧⟦{続|つづ}ける→続く：00903_tsuzuku⟧ (to continue the advance)\n- {進軍|しんぐん}⟦{速度|そくど}→速度：03319_sokudo⟧ (pace of advance)\n- {進軍|しんぐん}⟦ラッパ→ラッパ：09958_rappa⟧ (bugle call to advance)\n\nSIMILAR WORDS:\n- {行軍|こうぐん}: march — focuses on the act of marching rather than advancing toward an enemy\n- ⟦{侵攻|しんこう}→侵攻：11614_shinkou⟧: invasion — advancing into enemy territory",
   "cross_references": [
     {
       "type": "contrast",
@@ -148,11 +148,18 @@
       "reading": "こうぐん",
       "headword": "{行軍|こうぐん}",
       "label": "march (no advance)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22196_koushin",
+      "reading": "こうしん",
+      "headword": "{行進|こうしん}",
+      "label": "march"
     }
   ],
   "metadata": {
     "created": "2026-03-19T11:56:22Z",
-    "modified": "2026-05-08T04:12:06Z",
+    "modified": "2026-09-02T04:01:50Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

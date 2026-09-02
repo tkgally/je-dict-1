@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "10879_hikiiru_ex1",
-      "japanese": "チームを{率|ひき}いる。",
+      "japanese": "⟦チーム→チーム：03858_chiimu⟧⟦を→を：00422_wo⟧{率|ひき}いる。",
       "english": "To lead a team.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "10879_hikiiru_ex2",
-      "japanese": "{監督|かんとく}が{選手|せんしゅ}たちを{率|ひき}いて{大会|たいかい}に{出場|しゅつじょう}した。",
+      "japanese": "⟦{監督|かんとく}→監督：00185_kantoku⟧⟦が→が：00051_ga⟧⟦{選手|せんしゅ}→選手：03823_senshu⟧たち⟦を→を：00422_wo⟧{率|ひき}いて⟦{大会|たいかい}→大会：03386_taikai⟧⟦に→に：00314_ni⟧⟦{出場|しゅつじょう}した→出場する：20348_shutsujousuru⟧。",
       "english": "The coach led the players to compete in the tournament.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "10879_hikiiru_ex3",
-      "japanese": "{彼女|かのじょ}は{百人|ひゃくにん}を{超|こ}える{部下|ぶか}を{率|ひき}いて、{大|おお}きなプロジェクトを{成功|せいこう}させた。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧⟦{百人|ひゃくにん}→百人：10985_hyakunin⟧⟦を→を：00422_wo⟧⟦{超|こ}える→超える：01942_koeru⟧⟦{部下|ぶか}→部下：06453_buka⟧⟦を→を：00422_wo⟧{率|ひき}いて、⟦{大|おお}きな→大きな：02849_ookina⟧⟦プロジェクト→プロジェクト：06764_purojekuto⟧⟦を→を：00422_wo⟧⟦{成功|せいこう}→成功：02638_seikou⟧⟦させた→する：00392_suru⟧。",
       "english": "She led over a hundred subordinates and brought the big project to success.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: {他動詞|たどうし} (transitive). Pattern: Xを{率|ひき}いる.\n\nUSAGE:\nA formal verb used to describe leading a group of people in an organized capacity. Common with military, sports, business, and organizational contexts. Not used for casual or everyday \"leading\" like showing someone the way.\n\nCOMMON COLLOCATIONS:\n- チームを{率|ひき}いる: to lead a team\n- {軍|ぐん}を{率|ひき}いる: to command an army\n- {部下|ぶか}を{率|ひき}いる: to lead subordinates\n- {代表団|だいひょうだん}を{率|ひき}いる: to head a delegation\n\nSIMILAR WORDS:\n{導|みちび}く focuses on guiding or showing the way. {率|ひき}いる emphasizes being at the head of a group and directing them as a leader.",
+  "notes": "TRANSITIVITY: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive). Pattern: X⟦を→を：00422_wo⟧{率|ひき}いる.\n\nUSAGE:\nA formal verb used to describe leading a group of people in an organized capacity. Common with military, sports, business, and organizational contexts. Not used for casual or everyday \"leading\" like showing someone the way.\n\nCOMMON COLLOCATIONS:\n- ⟦チーム→チーム：03858_chiimu⟧⟦を→を：00422_wo⟧{率|ひき}いる: to lead a team\n- ⟦{軍|ぐん}→軍：02677_gun⟧⟦を→を：00422_wo⟧{率|ひき}いる: to command an army\n- ⟦{部下|ぶか}→部下：06453_buka⟧⟦を→を：00422_wo⟧{率|ひき}いる: to lead subordinates\n- {代表団|だいひょうだん}⟦を→を：00422_wo⟧{率|ひき}いる: to head a delegation\n\nSIMILAR WORDS:\n⟦{導|みちび}く→導く：12361_michibiku⟧ focuses on guiding or showing the way. {率|ひき}いる emphasizes being at the head of a group and directing them as a leader.",
   "cross_references": [
     {
       "type": "related",
@@ -149,11 +149,18 @@
       "reading": "とうそつ",
       "headword": "{統率|とうそつ}",
       "label": "leadership, command"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21994_shikisuru",
+      "reading": "しきする",
+      "headword": "{指揮|しき}する",
+      "label": "to command"
     }
   ],
   "metadata": {
     "created": "2026-02-11T09:22:41Z",
-    "modified": "2026-03-29T03:07:35Z",
+    "modified": "2026-09-02T04:01:23Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

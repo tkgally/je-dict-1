@@ -2,7 +2,7 @@
   "id": "03517_nikkori",
   "headword": "にっこり",
   "reading": "にっこり",
-  "part_of_speech": "adverb, suru-verb",
+  "part_of_speech": "adverb, suru verb",
   "gloss": "with a smile, smilingly",
   "conjugation": {
     "type": "suru",
@@ -114,7 +114,7 @@
     },
     {
       "id": "03517_nikkori_ex2",
-      "japanese": "⟦{赤|あか}ちゃん→赤ちゃん：01282_akachan⟧⟦が→が：00051_ga⟧にっこりした。",
+      "japanese": "⟦{赤|あか}ちゃん→赤ちゃん：01282_akachan⟧⟦が→が：00051_ga⟧にっこり⟦した→する：00392_suru⟧。",
       "english": "The baby smiled.",
       "notes": null,
       "has_audio": false,
@@ -144,7 +144,7 @@
     },
     {
       "id": "03517_nikkori_ex5",
-      "japanese": "⟦{写真|しゃしん}→写真：00753_shashin⟧⟦を→を：00422_wo⟧⟦{撮|と}る→撮る：00760_toru⟧⟦とき→とき：02918_toki⟧、⟦みんな→みんな：02972_minna⟧にっこりして⟦カメラ→カメラ：04417_kamera⟧⟦を→を：00422_wo⟧⟦{見|み}た→見る：00283_miru⟧。",
+      "japanese": "⟦{写真|しゃしん}→写真：00753_shashin⟧⟦を→を：00422_wo⟧⟦{撮|と}る→撮る：00760_toru⟧⟦とき→とき：02918_toki⟧、⟦みんな→みんな：02972_minna⟧にっこり⟦して→する：00392_suru⟧⟦カメラ→カメラ：04417_kamera⟧⟦を→を：00422_wo⟧⟦{見|み}た→見る：00283_miru⟧。",
       "english": "When taking the photo, everyone smiled and looked at the camera.",
       "notes": null,
       "has_audio": false,
@@ -153,7 +153,7 @@
       ]
     }
   ],
-  "notes": "USAGE: にっこり is an onomatopoeic expression describing a warm, gentle smile. It suggests a pleasant, friendly expression.\n\nCOMMON PATTERNS:\n・にっこり⟦{笑|わら}う→笑う：00685_warau⟧ (to smile warmly)\n・にっこりする (to smile)\n・にっこり⟦と→と：00512_to⟧ (smilingly - adverbial form with と)\n\nRELATED EXPRESSIONS:\n・⟦にこにこ→にこにこ：05177_nikoniko⟧ - smiling continuously, beaming (repetitive form suggests ongoing action)\n・⟦にやにや→にやにや：05766_niyaniya⟧ - grinning, smirking (slightly negative nuance)\n・⟦にたにた→にたにた：05935_nitanita⟧ - grinning (often unpleasant)\n・⟦にんまり→にんまり：noentry⟧ - smiling with satisfaction\n\nNUANCE: にっこり describes a single, momentary smile, while ⟦にこにこ→にこにこ：05177_nikoniko⟧ describes continuously smiling or having a cheerful expression.",
+  "notes": "USAGE: にっこり is an onomatopoeic expression describing a warm, gentle smile. It suggests a pleasant, friendly expression.\n\nCOMMON PATTERNS:\n- にっこり⟦{笑|わら}う→笑う：00685_warau⟧ (to smile warmly)\n- にっこり⟦する→する：00392_suru⟧ (to smile)\n- にっこり⟦と→と：00512_to⟧ (smilingly - adverbial form with ⟦と→と：00512_to⟧)\n\nRELATED WORDS:\n- ⟦にこにこ→にこにこ：05177_nikoniko⟧ - smiling continuously, beaming (repetitive form suggests ongoing action)\n- ⟦にやにや→にやにや：05766_niyaniya⟧ - grinning, smirking (slightly negative nuance)\n- ⟦にたにた→にたにた：05935_nitanita⟧ - grinning (often unpleasant)\n- ⟦にんまり→にんまり：noentry⟧ - smiling with satisfaction\n\nNUANCE: にっこり describes a single, momentary smile, while ⟦にこにこ→にこにこ：05177_nikoniko⟧ describes continuously smiling or having a cheerful expression.",
   "cross_references": [
     {
       "type": "related",
@@ -161,11 +161,46 @@
       "headword": "{笑|わら}う",
       "label": "to laugh, smile",
       "target_id": "00685_warau"
+    },
+    {
+      "type": "related",
+      "target_id": "05177_nikoniko",
+      "reading": "にこにこ",
+      "headword": "にこにこ",
+      "label": "smiling continuously, beaming"
+    },
+    {
+      "type": "related",
+      "target_id": "05766_niyaniya",
+      "reading": "にやにや",
+      "headword": "にやにや",
+      "label": "grinning, smirking"
+    },
+    {
+      "type": "related",
+      "target_id": "05935_nitanita",
+      "reading": "にたにた",
+      "headword": "にたにた",
+      "label": "grinning"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20436_manmennoemi",
+      "reading": "まんめんのえみ",
+      "headword": "{満面|まんめん}の{笑|え}み",
+      "label": "a beaming smile"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29117_ninmari",
+      "reading": "にんまり",
+      "headword": "にんまり",
+      "label": "with a satisfied grin"
     }
   ],
   "metadata": {
     "created": "2026-01-12T10:48:00Z",
-    "modified": "2026-05-25T23:13:48Z",
+    "modified": "2026-09-02T04:01:03Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
@@ -179,7 +214,8 @@
         "action",
         "descriptive"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

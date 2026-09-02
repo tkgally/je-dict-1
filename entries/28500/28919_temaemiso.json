@@ -15,41 +15,60 @@
   "examples": [
     {
       "id": "28919_temaemiso_ex1",
-      "japanese": "{手前味噌|てまえみそ}ですが、{自信作|じしんさく}です。",
+      "japanese": "{手前味噌|てまえみそ}です⟦が→が：00051_ga⟧、{自信作|じしんさく}です。",
       "english": "Tooting my own horn here, but it's a work I'm proud of.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28919_temaemiso_ex2",
-      "japanese": "{手前味噌|てまえみそ}ながら、うちの{息子|むすこ}はよく{気|き}がつく{子|こ}でして。",
+      "japanese": "{手前味噌|てまえみそ}⟦ながら→ながら：10530_nagara⟧、うち⟦の→の：09472_no⟧⟦{息子|むすこ}→息子：00799_musuko⟧⟦は→は：00079_ha⟧⟦よく→よく：00601_yoku⟧⟦{気|き}がつく→気がつく：21794_kigatsuku⟧⟦{子|こ}→子：09851_ko⟧でして。",
       "english": "It's a bit of self-praise, but my son is a very attentive child.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28919_temaemiso_ex3",
-      "japanese": "{手前味噌|てまえみそ}になりますが、{当社|とうしゃ}の{製品|せいひん}は{業界|ぎょうかい}で{最|もっと}も{評価|ひょうか}が{高|たか}いと{自負|じふ}しております。",
+      "japanese": "{手前味噌|てまえみそ}⟦に→に：00314_ni⟧⟦なります→なる：01970_naru⟧⟦が→が：00051_ga⟧、⟦{当社|とうしゃ}→当社：22449_tousha⟧⟦の→の：09472_no⟧⟦{製品|せいひん}→製品：01445_seihin⟧⟦は→は：00079_ha⟧⟦{業界|ぎょうかい}→業界：13129_gyoukai⟧⟦で→で：00502_de⟧⟦{最|もっと}も→最も：01736_mottomo⟧⟦{評価|ひょうか}→評価：03583_hyouka⟧⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧⟦と→と：00512_to⟧⟦{自負|じふ}→自負：21151_jifu⟧⟦して→する：00392_suru⟧⟦おります→おる：01324_oru⟧。",
       "english": "It may sound like self-praise, but we take pride in our products being the most highly regarded in the industry.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "{手前|てまえ} means \"in front of one(self)\" — that is, \"made at one's own house.\" The phrase reflects the older practice of homemade miso, where each household believed its own was the best.\n\nCOMMON COLLOCATIONS:\n- {手前味噌|てまえみそ}ですが: \"It may sound like self-praise, but...\" (the most common usage)\n- {手前味噌|てまえみそ}ながら: same nuance, slightly more formal\n- {手前味噌|てまえみそ}になりますが: similar polite preface in business speech\n\nREGISTER:\nAlmost always used as a humble preface, not as a label for others' boasting. Saying it of someone else would sound rude. Common in speeches, blog posts, and product introductions.",
+  "notes": "⟦{手前|てまえ}→手前：01001_temae⟧ means \"in front of one(self)\" — that is, \"made at one's own house.\" The phrase reflects the older practice of homemade miso, where each household believed its own was the best.\n\nCOMMON COLLOCATIONS:\n- {手前味噌|てまえみそ}です⟦が→が：00051_ga⟧: \"It may sound like self-praise, but...\" (the most common usage)\n- {手前味噌|てまえみそ}⟦ながら→ながら：10530_nagara⟧: same nuance, slightly more formal\n- {手前味噌|てまえみそ}⟦に→に：00314_ni⟧⟦なります→なる：01970_naru⟧⟦が→が：00051_ga⟧: similar polite preface in business speech\n\nREGISTER:\nAlmost always used as a humble preface, not as a label for others' boasting. Saying it of someone else would sound rude. Common in speeches, blog posts, and product introductions.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06220_gadeninsui",
+      "reading": "がでんいんすい",
+      "headword": "{我田引水|がでんいんすい}",
+      "label": "self-serving"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": null,
-      "semantic": ["communication"],
+      "semantic": [
+        "communication"
+      ],
       "domain": []
     },
     "created": "2026-06-07T03:04:58Z",
-    "modified": "2026-06-07T03:04:58Z"
+    "modified": "2026-09-02T04:02:35Z"
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "27398_juukashitsu_ex1",
-      "japanese": "{重過失|じゅうかしつ}が{認|みと}められた。",
+      "japanese": "{重過失|じゅうかしつ}⟦が→が：00051_ga⟧⟦{認|みと}められた→認める：02429_mitomeru⟧。",
       "english": "Gross negligence was found.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "27398_juukashitsu_ex2",
-      "japanese": "{重過失|じゅうかしつ}による{事故|じこ}は{保険|ほけん}が{適用|てきよう}されない{場合|ばあい}がある。",
+      "japanese": "{重過失|じゅうかしつ}⟦による→による：28349_niyoru⟧⟦{事故|じこ}→事故：00851_jiko⟧⟦は→は：00079_ha⟧⟦{保険|ほけん}→保険：01509_hoken⟧⟦が→が：00051_ga⟧⟦{適用|てきよう}されない→適用する：21739_tekiyousuru⟧⟦{場合|ばあい}→場合：01704_baai⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "Accidents caused by gross negligence may not be covered by insurance.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "27398_juukashitsu_ex3",
-      "japanese": "{裁判所|さいばんしょ}は、{安全|あんぜん}{確認|かくにん}を{怠|おこた}った{運転手|うんてんしゅ}に{重過失|じゅうかしつ}があったと{判断|はんだん}した。",
+      "japanese": "⟦{裁判所|さいばんしょ}→裁判所：09665_saibansho⟧⟦は→は：00079_ha⟧、⟦{安全|あんぜん}→安全：01131_anzen⟧⟦{確認|かくにん}→確認：00158_kakunin⟧⟦を→を：00422_wo⟧⟦{怠|おこた}った→怠る：03936_okotaru⟧⟦{運転手|うんてんしゅ}→運転手：01333_untenshu⟧⟦に→に：00314_ni⟧{重過失|じゅうかしつ}⟦が→が：00051_ga⟧⟦あった→ある：00006_aru⟧⟦と→と：00512_to⟧⟦{判断|はんだん}した→判断する：06062_handansuru⟧。",
       "english": "The court determined that the driver, who neglected to check for safety, was guilty of gross negligence.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {重|じゅう} (heavy, grave) + {過失|かしつ} (negligence). A specialized legal term distinguishing extreme carelessness from ordinary negligence; the boundary matters because liability disclaimers and certain insurance coverages do not apply in cases of {重過失|じゅうかしつ}.\n\nCOMMON COLLOCATIONS:\n- {重過失|じゅうかしつ}{致死|ちし}: gross negligence resulting in death (a criminal charge)\n- {重過失|じゅうかしつ}{致傷|ちしょう}: gross negligence resulting in injury\n- {重過失|じゅうかしつ}が{認|みと}められる: to be found guilty of gross negligence\n\nSIMILAR / RELATED WORDS:\n- {過失|かしつ}: (ordinary) negligence — the broader, baseline level of carelessness\n- {軽過失|けいかしつ}: slight negligence — the opposite end of the spectrum\n- {故意|こい}: intent; willfulness — distinguished from negligence; intentional wrongdoing is a separate category",
+  "notes": "Compound of {重|じゅう} (heavy, grave) + ⟦{過失|かしつ}→過失：00194_kashitsu⟧ (negligence). A specialized legal term distinguishing extreme carelessness from ordinary negligence; the boundary matters because liability disclaimers and certain insurance coverages do not apply in cases of {重過失|じゅうかしつ}.\n\nCOMMON COLLOCATIONS:\n- {重過失|じゅうかしつ}{致死|ちし}: gross negligence resulting in death (a criminal charge)\n- {重過失|じゅうかしつ}⟦{致傷|ちしょう}→致傷：28482_chishou⟧: gross negligence resulting in injury\n- {重過失|じゅうかしつ}⟦が→が：00051_ga⟧⟦{認|みと}められる→認める：02429_mitomeru⟧: to be found guilty of gross negligence\n\nSIMILAR / RELATED WORDS:\n- ⟦{過失|かしつ}→過失：00194_kashitsu⟧: (ordinary) negligence — the broader, baseline level of carelessness\n- {軽過失|けいかしつ}: slight negligence — the opposite end of the spectrum\n- ⟦{故意|こい}→故意：16844_koi⟧: intent; willfulness — distinguished from negligence; intentional wrongdoing is a separate category",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16844_koi",
+      "reading": "こい",
+      "headword": "{故意|こい}",
+      "label": "intent"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +62,7 @@
         "noun"
       ],
       "formality": "formal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "law"
       ],
@@ -62,6 +71,6 @@
       ]
     },
     "created": "2026-05-11T07:05:14Z",
-    "modified": "2026-05-11T07:05:14Z"
+    "modified": "2026-09-02T04:02:30Z"
   }
 }

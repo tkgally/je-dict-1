@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "15991_hatsudensho_ex1",
-      "japanese": "{新|あたら}しい{発電所|はつでんしょ}が{建設|けんせつ}された。",
+      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧{発電所|はつでんしょ}⟦が→が：00051_ga⟧⟦{建設|けんせつ}→建設：02708_kensetsu⟧⟦された→する：00392_suru⟧。",
       "english": "A new power plant was built.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15991_hatsudensho_ex2",
-      "japanese": "この{地域|ちいき}の{電力|でんりょく}は{火力|かりょく}{発電所|はつでんしょ}から{供給|きょうきゅう}されている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{地域|ちいき}→地域：01461_chiiki⟧⟦の→の：09472_no⟧⟦{電力|でんりょく}→電力：14609_denryoku⟧⟦は→は：00079_ha⟧⟦{火力|かりょく}→火力：19886_karyoku⟧{発電所|はつでんしょ}⟦から→から：00504_kara⟧⟦{供給|きょうきゅう}→供給：02599_kyoukyuu⟧⟦されている→する：00392_suru⟧。",
       "english": "The electricity for this area is supplied from a thermal power plant.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15991_hatsudensho_ex3",
-      "japanese": "{老朽化|ろうきゅうか}した{原子力|げんしりょく}{発電所|はつでんしょ}の{廃炉|はいろ}が{決|き}まった。",
+      "japanese": "⟦{老朽化|ろうきゅうか}→老朽化：07646_roukyuuka⟧⟦した→する：00392_suru⟧{原子力|げんしりょく}{発電所|はつでんしょ}⟦の→の：09472_no⟧⟦{廃炉|はいろ}→廃炉：29737_hairo⟧⟦が→が：00051_ga⟧⟦{決|き}まった→決まる：01233_kimaru⟧。",
       "english": "It was decided to decommission the aging nuclear power plant.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nA compound of {発電|はつでん} (power generation) + {所|しょ} (place). The type of power plant is indicated by a prefix: {火力|かりょく}〜 (thermal), {原子力|げんしりょく}〜 (nuclear), {水力|すいりょく}〜 (hydroelectric), {風力|ふうりょく}〜 (wind), {太陽光|たいようこう}〜 (solar).\n\nCOMMON COLLOCATIONS:\n- {火力|かりょく}{発電所|はつでんしょ} (thermal power plant)\n- {原子力|げんしりょく}{発電所|はつでんしょ} (nuclear power plant)\n- {水力|すいりょく}{発電所|はつでんしょ} (hydroelectric power plant)\n- {発電所|はつでんしょ}を{建設|けんせつ}する (to build a power plant)\n\nSIMILAR WORDS:\n- {発電|はつでん}: power generation — the act itself, not the facility\n- {変電所|へんでんしょ}: substation — transforms voltage levels for distribution",
+  "notes": "USAGE:\nA compound of ⟦{発電|はつでん}→発電：04312_hatsuden⟧ (power generation) + ⟦{所|しょ}→〜所：09844_sho⟧ (place). The type of power plant is indicated by a prefix: ⟦{火力|かりょく}→火力：19886_karyoku⟧〜 (thermal), ⟦{原子力|げんしりょく}→原子力：06433_genshiryoku⟧〜 (nuclear), ⟦{水力|すいりょく}→水力：06434_suiryoku⟧〜 (hydroelectric), ⟦{風力|ふうりょく}→風力：06432_fuuryoku⟧〜 (wind), ⟦{太陽光|たいようこう}→太陽光：06209_taiyoukou⟧〜 (solar).\n\nCOMMON COLLOCATIONS:\n- ⟦{火力|かりょく}→火力：19886_karyoku⟧{発電所|はつでんしょ} (thermal power plant)\n- {原子力|げんしりょく}{発電所|はつでんしょ} (nuclear power plant)\n- ⟦{水力|すいりょく}→水力：06434_suiryoku⟧{発電所|はつでんしょ} (hydroelectric power plant)\n- {発電所|はつでんしょ}⟦を→を：00422_wo⟧⟦{建設|けんせつ}→建設：02708_kensetsu⟧⟦する→する：00392_suru⟧ (to build a power plant)\n\nSIMILAR WORDS:\n- ⟦{発電|はつでん}→発電：04312_hatsuden⟧: power generation — the act itself, not the facility\n- {変電所|へんでんしょ}: substation — transforms voltage levels for distribution",
   "cross_references": [
     {
       "type": "related",
@@ -46,18 +52,29 @@
       "reading": "はつでん",
       "headword": "{発電|はつでん}",
       "label": "power generation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24026_soudenmou",
+      "reading": "そうでんもう",
+      "headword": "{送電網|そうでんもう}",
+      "label": "power transmission network"
     }
   ],
   "metadata": {
     "created": "2026-03-09T06:17:00Z",
-    "modified": "2026-05-02T09:03:34Z",
+    "modified": "2026-09-02T04:01:43Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["building"]
+      "semantic": [
+        "building"
+      ]
     }
   }
 }

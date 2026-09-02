@@ -3,7 +3,7 @@
   "id": "12509_atooshi",
   "headword": "{後押|あとお}し",
   "reading": "あとおし",
-  "part_of_speech": "noun / suru verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "support, backing, boost",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "12509_atooshi_ex1",
-      "japanese": "{友人|ゆうじん}の{後押|あとお}しで{決心|けっしん}がついた。",
+      "japanese": "⟦{友人|ゆうじん}→友人：03649_yuujin⟧⟦の→の：09472_no⟧{後押|あとお}し⟦で→で：00502_de⟧⟦{決心|けっしん}→決心：02700_kesshin⟧⟦が→が：00051_ga⟧ついた。",
       "english": "Thanks to my friend's encouragement, I made up my mind.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "12509_atooshi_ex2",
-      "japanese": "{政府|せいふ}が{企業|きぎょう}の{海外進出|かいがいしんしゅつ}を{後押|あとお}ししている。",
+      "japanese": "⟦{政府|せいふ}→政府：03294_seifu⟧⟦が→が：00051_ga⟧⟦{企業|きぎょう}→企業：00225_kigyou⟧⟦の→の：09472_no⟧{海外進出|かいがいしんしゅつ}⟦を→を：00422_wo⟧{後押|あとお}し⟦している→する：00392_suru⟧。",
       "english": "The government is supporting companies' overseas expansion.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "12509_atooshi_ex3",
-      "japanese": "{円安|えんやす}が{輸出産業|ゆしゅつさんぎょう}の{成長|せいちょう}を{後押|あとお}しする{形|かたち}となった。",
+      "japanese": "⟦{円安|えんやす}→円安：04854_enyasu⟧⟦が→が：00051_ga⟧{輸出産業|ゆしゅつさんぎょう}⟦の→の：09472_no⟧⟦{成長|せいちょう}→成長：03290_seichou⟧⟦を→を：00422_wo⟧{後押|あとお}し⟦する→する：00392_suru⟧⟦{形|かたち}→形：02193_katachi⟧⟦と→と：00512_to⟧⟦なった→なる：01970_naru⟧。",
       "english": "The weak yen ended up boosting the growth of the export industry.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nUsed as both a noun ({後押|あとお}しを{受|う}ける = to receive support) and a suru verb ({後押|あとお}しする = to support). Very common in news, business, and political contexts. Implies providing the extra momentum someone or something needs.\n\nCOMMON COLLOCATIONS:\n- {後押|あとお}しする: to support, to back, to boost\n- {後押|あとお}しを{受|う}ける: to receive support\n- 〜が{後押|あとお}しとなる: something serves as a tailwind/boost",
+  "notes": "USAGE:\nUsed as both a noun ({後押|あとお}し⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧ = to receive support) and a suru verb ({後押|あとお}し⟦する→する：00392_suru⟧ = to support). Very common in news, business, and political contexts. Implies providing the extra momentum someone or something needs.\n\nCOMMON COLLOCATIONS:\n- {後押|あとお}し⟦する→する：00392_suru⟧: to support, to back, to boost\n- {後押|あとお}し⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧: to receive support\n- 〜⟦が→が：00051_ga⟧{後押|あとお}し⟦と→と：00512_to⟧⟦なる→なる：01970_naru⟧: something serves as a tailwind/boost",
   "cross_references": [
     {
       "type": "synonym",
@@ -149,11 +149,18 @@
       "reading": "しえん",
       "headword": "{支援|しえん}",
       "label": "assistance, aid"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21988_ouensuru",
+      "reading": "おうえんする",
+      "headword": "{応援|おうえん}する",
+      "label": "to support"
     }
   ],
   "metadata": {
     "created": "2026-02-21T11:08:02Z",
-    "modified": "2026-04-27T06:29:35Z",
+    "modified": "2026-09-02T04:01:29Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -166,7 +173,8 @@
       "semantic": [
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

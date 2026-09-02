@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "20741_junni_ex1",
-      "japanese": "{順|じゅん}に{並|なら}んでください。",
+      "japanese": "{順|じゅん}に⟦{並|なら}んで→並ぶ：00605_narabu⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please line up in order.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "20741_junni_ex2",
-      "japanese": "{番号|ばんごう}{順|じゅん}に{名前|なまえ}を{呼|よ}ぶ。",
+      "japanese": "⟦{番号|ばんごう}→番号：02939_bangou⟧{順|じゅん}に⟦{名前|なまえ}→名前：02234_namae⟧⟦を→を：00422_wo⟧⟦{呼|よ}ぶ→呼ぶ：00766_yobu⟧。",
       "english": "To call names in numerical order.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "20741_junni_ex3",
-      "japanese": "{一|ひと}つずつ{順|じゅん}に{説明|せつめい}しますので、{質問|しつもん}は{最後|さいご}にお{願|ねが}いします。",
+      "japanese": "⟦{一|ひと}つずつ→一つずつ：24348_hitotsuzutsu⟧{順|じゅん}に⟦{説明|せつめい}します→説明する：05639_setsumeisuru⟧⟦の→の：09472_no⟧で、⟦{質問|しつもん}→質問：00888_shitsumon⟧⟦は→は：00079_ha⟧⟦{最後|さいご}→最後：01413_saigo⟧⟦に→に：00314_ni⟧お{願|ねが}いします。",
       "english": "I'll explain things one by one in order, so please save questions for the end.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "The noun {順|じゅん} (order/sequence) combined with the particle に to function as an adverb meaning 'in order.' Extremely common in daily life, from queuing to following instructions.\n\nCOMMON COLLOCATIONS:\n- {順|じゅん}に{並|なら}ぶ: to line up in order\n- {順|じゅん}に{呼|よ}ぶ: to call in order\n- {順|じゅん}に{説明|せつめい}する: to explain in order\n- {上|うえ}から{順|じゅん}に: from the top, in order\n- {大|おお}きい{順|じゅん}に: in order from largest\n\nUSAGE:\nOften combined with a criterion: {番号|ばんごう}{順|じゅん}に (in numerical order), {年齢|ねんれい}{順|じゅん}に (in order of age), {到着|とうちゃく}{順|じゅん}に (in order of arrival). The criterion + {順|じゅん}に pattern is very productive.\n\nSIMILAR WORDS:\n- {順番|じゅんばん}に: in turn — emphasizes taking turns among people\n- {順々|じゅんじゅん}に: one after another — emphasizes the sequential, continuing nature\n- {次々|つぎつぎ}に: one after another — faster pace; less about order, more about rapid succession",
+  "notes": "The noun ⟦{順|じゅん}→順：03342_jun⟧ (order/sequence) combined with the particle ⟦に→に：00314_ni⟧ to function as an adverb meaning 'in order.' Extremely common in daily life, from queuing to following instructions.\n\nCOMMON COLLOCATIONS:\n- {順|じゅん}に⟦{並|なら}ぶ→並ぶ：00605_narabu⟧: to line up in order\n- {順|じゅん}に⟦{呼|よ}ぶ→呼ぶ：00766_yobu⟧: to call in order\n- {順|じゅん}に⟦{説明|せつめい}する→説明する：05639_setsumeisuru⟧: to explain in order\n- ⟦{上|うえ}→上：00682_ue⟧⟦から→から：00504_kara⟧{順|じゅん}に: from the top, in order\n- ⟦{大|おお}きい→大きい：00335_ookii⟧{順|じゅん}に: in order from largest\n\nUSAGE:\nOften combined with a criterion: ⟦{番号|ばんごう}→番号：02939_bangou⟧{順|じゅん}に (in numerical order), ⟦{年齢|ねんれい}→年齢：01490_nenrei⟧{順|じゅん}に (in order of age), ⟦{到着|とうちゃく}→到着：02526_touchaku⟧{順|じゅん}に (in order of arrival). The criterion + {順|じゅん}に pattern is very productive.\n\nSIMILAR WORDS:\n- ⟦{順番|じゅんばん}→順番：03283_junban⟧⟦に→に：00314_ni⟧: in turn — emphasizes taking turns among people\n- ⟦{順々|じゅんじゅん}→順々：04007_junjun⟧⟦に→に：00314_ni⟧: one after another — emphasizes the sequential, continuing nature\n- ⟦{次々|つぎつぎ}→次々：03522_tsugitsugi⟧⟦に→に：00314_ni⟧: one after another — faster pace; less about order, more about rapid succession",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03283_junban",
+      "reading": "じゅんばん",
+      "headword": "{順番|じゅんばん}",
+      "label": "in turn"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21974_junjunni",
+      "reading": "じゅんじゅんに",
+      "headword": "{順々|じゅんじゅん}に",
+      "label": "one after another"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03522_tsugitsugi",
+      "reading": "つぎつぎ",
+      "headword": "{次々|つぎつぎ}",
+      "label": "one after another"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +82,6 @@
       ]
     },
     "created": "2026-03-30T14:32:11Z",
-    "modified": "2026-07-29T00:22:41Z"
+    "modified": "2026-09-02T04:02:00Z"
   }
 }

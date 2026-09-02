@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "18709_kinshou_ex1",
-      "japanese": "{僅少|きんしょう}な{差|さ}で{負|ま}けた。",
+      "japanese": "{僅少|きんしょう}な⟦{差|さ}→差：02771_sa⟧⟦で→で：00502_de⟧⟦{負|ま}けた→負ける：01134_makeru⟧。",
       "english": "I lost by a tiny margin.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "18709_kinshou_ex2",
-      "japanese": "{在庫|ざいこ}が{僅少|きんしょう}になっている。",
+      "japanese": "⟦{在庫|ざいこ}→在庫：04701_zaiko⟧⟦が→が：00051_ga⟧{僅少|きんしょう}になっている。",
       "english": "Stock is running very low.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "18709_kinshou_ex3",
-      "japanese": "{僅少|きんしょう}ながら{寄付|きふ}させていただきます。",
+      "japanese": "{僅少|きんしょう}⟦ながら→ながら：10530_nagara⟧⟦{寄付|きふ}→寄付：02584_kifu⟧⟦させて→する：00392_suru⟧⟦いただきます→いただく：01326_itadaku⟧。",
       "english": "I would like to make a small donation.",
       "sense_numbers": [
         1
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "{僅少|きんしょう} is a formal word meaning an extremely small amount. Common in business, news, and written contexts.\n\nGRAMMAR:\nFunctions as both a noun and a な-adjective:\n- {僅少|きんしょう}な{差|さ}: a tiny margin/difference\n- {在庫|ざいこ}が{僅少|きんしょう}: stock is very low\n\nCOMMON PATTERNS:\n- {僅少|きんしょう}ながら: though it is a small amount (humble set phrase when offering something)\n- {僅少|きんしょう}な{差|さ}: a tiny margin\n- {在庫|ざいこ}{僅少|きんしょう}: very limited stock (seen in product listings)\n\nSIMILAR WORDS:\n- {僅|わず}か: slight, a mere (more common, less formal)\n- {少量|しょうりょう}: small quantity\n- {微量|びりょう}: trace amount (even smaller)\n- {少|すく}ない: few, little (everyday adjective)\n\nREGISTER:\nFormal/written. In everyday speech, {少|すこ}し or {僅|わず}か would be used instead.",
+  "notes": "{僅少|きんしょう} is a formal word meaning an extremely small amount. Common in business, news, and written contexts.\n\nCOMMON PATTERNS:\nFunctions as both a noun and a な-adjective:\n- {僅少|きんしょう}な⟦{差|さ}→差：02771_sa⟧: a tiny margin/difference\n- ⟦{在庫|ざいこ}→在庫：04701_zaiko⟧⟦が→が：00051_ga⟧{僅少|きんしょう}: stock is very low\n- {僅少|きんしょう}⟦ながら→ながら：10530_nagara⟧: though it is a small amount (humble set phrase when offering something)\n- {僅少|きんしょう}な⟦{差|さ}→差：02771_sa⟧: a tiny margin\n- ⟦{在庫|ざいこ}→在庫：04701_zaiko⟧{僅少|きんしょう}: very limited stock (seen in product listings)\n\nSIMILAR WORDS:\n- ⟦{僅|わず}か→僅か：03792_wazuka⟧: slight, a mere (more common, less formal)\n- ⟦{少量|しょうりょう}→少量：12436_shouryou⟧: small quantity\n- ⟦{微量|びりょう}→微量：12604_biryou⟧: trace amount (even smaller)\n- ⟦{少|すく}ない→少ない：01136_sukunai⟧: few, little (everyday adjective)\n\nREGISTER:\nFormal/written. In everyday speech, ⟦{少|すこ}し→少し：00596_sukoshi⟧ or ⟦{僅|わず}か→僅か：03792_wazuka⟧ would be used instead.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03792_wazuka",
+      "reading": "わずか",
+      "headword": "{僅|わず}か",
+      "label": "slight, a mere"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12436_shouryou",
+      "reading": "しょうりょう",
+      "headword": "{少量|しょうりょう}",
+      "label": "small quantity"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12604_biryou",
+      "reading": "びりょう",
+      "headword": "{微量|びりょう}",
+      "label": "trace amount"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01136_sukunai",
+      "reading": "すくない",
+      "headword": "{少|すく}ない",
+      "label": "few, little"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,6 +91,6 @@
       ]
     },
     "created": "2026-03-23T00:23:39Z",
-    "modified": "2026-07-26T09:39:42Z"
+    "modified": "2026-09-02T04:01:53Z"
   }
 }

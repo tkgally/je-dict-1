@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "12752_shoyuu_ex1",
-      "japanese": "この{土地|とち}は{市|し}が{所有|しょゆう}している。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{土地|とち}→土地：02226_tochi⟧⟦は→は：00079_ha⟧⟦{市|し}→市：01599_shi⟧⟦が→が：00051_ga⟧{所有|しょゆう}⟦している→する：00392_suru⟧。",
       "english": "This land is owned by the city.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "12752_shoyuu_ex2",
-      "japanese": "{車|くるま}を{三|さん}{台|だい}{所有|しょゆう}している。",
+      "japanese": "⟦{車|くるま}→車：00516_kuruma⟧⟦を→を：00422_wo⟧⟦{三|さん}→三：00749_san⟧{台|だい}{所有|しょゆう}⟦している→する：00392_suru⟧。",
       "english": "He owns three cars.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "12752_shoyuu_ex3",
-      "japanese": "この{建物|たてもの}の{所有者|しょゆうしゃ}は{誰|だれ}ですか。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{建物|たてもの}→建物：01458_tatemono⟧⟦の→の：09472_no⟧⟦{所有者|しょゆうしゃ}→所有者：21212_shoyuusha⟧⟦は→は：00079_ha⟧⟦{誰|だれ}→誰：00534_dare⟧です⟦か→か：09473_ka⟧。",
       "english": "Who is the owner of this building?",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "{所有|しょゆう} is a formal term for ownership or possession, commonly used for property, assets, and legal rights.\n\nPATTERN:\n- 〜を{所有|しょゆう}する: to own ~\n\nCOMMON COLLOCATIONS:\n- {所有者|しょゆうしゃ}: owner\n- {所有権|しょゆうけん}: ownership rights, title\n- {所有物|しょゆうぶつ}: property, possessions\n- {土地|とち}{所有|しょゆう}: land ownership\n- {共同|きょうどう}{所有|しょゆう}: joint ownership\n- {私有|しゆう} / {国有|こくゆう} / {公有|こうゆう}: private / state / public ownership\n\nCONTRAST WITH {所持|しょじ}:\n- {所有|しょゆう}: ownership — broader concept including property rights\n- {所持|しょじ}: possession — physically carrying or having on one's person",
+  "notes": "{所有|しょゆう} is a formal term for ownership or possession, commonly used for property, assets, and legal rights.\n\nCOMMON PATTERNS:\n- 〜⟦を→を：00422_wo⟧{所有|しょゆう}⟦する→する：00392_suru⟧: to own ~\n\nCOMMON COLLOCATIONS:\n- ⟦{所有者|しょゆうしゃ}→所有者：21212_shoyuusha⟧: owner\n- ⟦{所有権|しょゆうけん}→所有権：17082_shoyuuken⟧: ownership rights, title\n- ⟦{所有物|しょゆうぶつ}→所有物：29497_shoyuubutsu⟧: property, possessions\n- ⟦{土地|とち}→土地：02226_tochi⟧{所有|しょゆう}: land ownership\n- ⟦{共同|きょうどう}→共同：02591_kyoudou⟧{所有|しょゆう}: joint ownership\n- ⟦{私有|しゆう}→私有：19205_shiyuu⟧ / ⟦{国有|こくゆう}→国有：28390_kokuyuu⟧ / ⟦{公有|こうゆう}→公有：21178_kouyuu⟧: private / state / public ownership\n\nCONTRAST WITH {所持|しょじ}:\n- {所有|しょゆう}: ownership — broader concept including property rights\n- ⟦{所持|しょじ}→所持：12751_shoji⟧: possession — physically carrying or having on one's person",
   "cross_references": [
     {
       "type": "contrast",
@@ -142,11 +142,32 @@
       "reading": "しょじ",
       "headword": "{所持|しょじ}",
       "label": "possession (physically carrying)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11615_hoyuu",
+      "reading": "ほゆう",
+      "headword": "{保有|ほゆう}",
+      "label": "possession"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12889_shozou",
+      "reading": "しょぞう",
+      "headword": "{所蔵|しょぞう}",
+      "label": "possession, holding (of art, books, etc.)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20867_kizoku",
+      "reading": "きぞく",
+      "headword": "{帰属|きぞく}",
+      "label": "belonging, attribution, affiliation"
     }
   ],
   "metadata": {
     "created": "2026-02-22T10:01:00Z",
-    "modified": "2026-04-27T08:29:13Z",
+    "modified": "2026-09-02T04:01:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -162,7 +183,8 @@
       "semantic": [
         "abstract"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

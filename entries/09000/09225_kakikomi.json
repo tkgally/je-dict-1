@@ -19,7 +19,7 @@
   "examples": [
     {
       "id": "09225_kakikomi_ex1",
-      "japanese": "データの{書|か}き{込|こ}み{中|ちゅう}だ。",
+      "japanese": "⟦データ→データ：03944_deeta⟧⟦の→の：09472_no⟧{書|か}き{込|こ}み⟦{中|ちゅう}→〜中：09840_chuu⟧だ。",
       "english": "Writing data.",
       "notes": null,
       "has_audio": false,
@@ -29,7 +29,7 @@
     },
     {
       "id": "09225_kakikomi_ex2",
-      "japanese": "USBへの{書|か}き{込|こ}みに{失敗|しっぱい}した。",
+      "japanese": "USB⟦へ→へ：02473_he⟧⟦の→の：09472_no⟧{書|か}き{込|こ}み⟦に→に：00314_ni⟧⟦{失敗|しっぱい}→失敗：01636_shippai⟧⟦した→する：00392_suru⟧。",
       "english": "Failed to write to the USB drive.",
       "notes": null,
       "has_audio": false,
@@ -39,7 +39,7 @@
     },
     {
       "id": "09225_kakikomi_ex3",
-      "japanese": "{書|か}き{込|こ}み{禁止|きんし}のファイルです。",
+      "japanese": "{書|か}き{込|こ}み⟦{禁止|きんし}→禁止：02643_kinshi⟧⟦の→の：09472_no⟧⟦ファイル→ファイル：05280_fairu⟧です。",
       "english": "This is a write-protected file.",
       "notes": null,
       "has_audio": false,
@@ -49,7 +49,7 @@
     },
     {
       "id": "09225_kakikomi_ex4",
-      "japanese": "{掲示板|けいじばん}に{書|か}き{込|こ}みをする。",
+      "japanese": "⟦{掲示板|けいじばん}→掲示板：03052_keijiban⟧⟦に→に：00314_ni⟧{書|か}き{込|こ}み⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧。",
       "english": "To post on a message board.",
       "notes": null,
       "has_audio": false,
@@ -59,7 +59,7 @@
     },
     {
       "id": "09225_kakikomi_ex5",
-      "japanese": "{悪質|あくしつ}な{書|か}き{込|こ}みは{削除|さくじょ}される。",
+      "japanese": "⟦{悪質|あくしつ}→悪質：20553_akushitsu⟧な{書|か}き{込|こ}み⟦は→は：00079_ha⟧⟦{削除|さくじょ}→削除：04171_sakujo⟧⟦される→する：00392_suru⟧。",
       "english": "Malicious posts will be deleted.",
       "notes": null,
       "has_audio": false,
@@ -69,7 +69,7 @@
     },
     {
       "id": "09225_kakikomi_ex6",
-      "japanese": "{書|か}き{込|こ}みへの{返信|へんしん}が{来|き}た。",
+      "japanese": "{書|か}き{込|こ}み⟦へ→へ：02473_he⟧⟦の→の：09472_no⟧⟦{返信|へんしん}→返信：14350_henshin⟧⟦が→が：00051_ga⟧⟦{来|き}た→来る：00254_kuru⟧。",
       "english": "I got a reply to my post.",
       "notes": null,
       "has_audio": false,
@@ -78,7 +78,7 @@
       ]
     }
   ],
-  "notes": "{書|か}き{込|こ}み has two main meanings: writing data to storage, and posting online.\n\nSENSE 1 - DATA WRITING:\n- {書|か}き{込|こ}み{中|ちゅう}: writing/saving\n- {書|か}き{込|こ}み{禁止|きんし}: write-protected\n- {書|か}き{込|こ}み{速度|そくど}: write speed\n\nSENSE 2 - ONLINE POSTING:\n- {書|か}き{込|こ}みをする: to post, to comment\n- {匿名|とくめい}{書|か}き{込|こ}み: anonymous post\n- {書|か}き{込|こ}み{欄|らん}: comment section\n\nUSAGE NOTE:\n- In online contexts, {書|か}き{込|こ}み is commonly shortened to かきこ or {カキコ}",
+  "notes": "{書|か}き{込|こ}み has two main meanings: writing data to storage, and posting online.\n\nSENSE 1 - DATA WRITING:\n- {書|か}き{込|こ}み⟦{中|ちゅう}→〜中：09840_chuu⟧: writing/saving\n- {書|か}き{込|こ}み⟦{禁止|きんし}→禁止：02643_kinshi⟧: write-protected\n- {書|か}き{込|こ}み⟦{速度|そくど}→速度：03319_sokudo⟧: write speed\n\nSENSE 2 - ONLINE POSTING:\n- {書|か}き{込|こ}み⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧: to post, to comment\n- ⟦{匿名|とくめい}→匿名：11797_tokumei⟧{書|か}き{込|こ}み: anonymous post\n- {書|か}き{込|こ}み⟦{欄|らん}→欄：03901_ran⟧: comment section\n\nUSAGE:\n- In online contexts, {書|か}き{込|こ}み is commonly shortened to かきこ or カキコ",
   "cross_references": [
     {
       "type": "antonym",
@@ -86,11 +86,18 @@
       "headword": "{読|よ}み{込|こ}み",
       "label": "reading/loading",
       "target_id": "09224_yomikomi"
+    },
+    {
+      "type": "related",
+      "target_id": "04599_kakikomu",
+      "reading": "かきこむ",
+      "headword": "{書|か}き{込|こ}む",
+      "label": "to write in, to fill in, to post (online)"
     }
   ],
   "metadata": {
     "created": "2026-02-01T02:44:36Z",
-    "modified": "2026-08-12T21:25:53Z",
+    "modified": "2026-09-02T04:01:17Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

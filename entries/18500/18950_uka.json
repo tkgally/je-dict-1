@@ -3,7 +3,7 @@
   "headword": "{羽化|うか}",
   "reading": "うか",
   "romaji": "uka",
-  "part_of_speech": "noun / する verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "emergence; eclosion (of an insect)",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "18950_uka_ex1",
-      "japanese": "セミが{羽化|うか}した。",
+      "japanese": "⟦セミ→セミ：09931_semi⟧⟦が→が：00051_ga⟧{羽化|うか}⟦した→する：00392_suru⟧。",
       "english": "The cicada emerged from its shell.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "18950_uka_ex2",
-      "japanese": "{蝶|ちょう}の{羽化|うか}を{観察|かんさつ}した。",
+      "japanese": "⟦{蝶|ちょう}→蝶：04288_chou⟧⟦の→の：09472_no⟧{羽化|うか}⟦を→を：00422_wo⟧⟦{観察|かんさつ}した→観察する：21989_kansatsusuru⟧。",
       "english": "I observed the butterfly's emergence.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "18950_uka_ex3",
-      "japanese": "{子供|こども}たちはカブトムシが{羽化|うか}する{瞬間|しゅんかん}を{見|み}て{大喜|おおよろこ}びした。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧たち⟦は→は：00079_ha⟧⟦カブトムシ→カブトムシ：05199_kabutomushi⟧⟦が→が：00051_ga⟧{羽化|うか}⟦する→する：00392_suru⟧⟦{瞬間|しゅんかん}→瞬間：03226_shunkan⟧⟦を→を：00422_wo⟧⟦{見|み}て→見る：00283_miru⟧⟦{大喜|おおよろこ}び→大喜び：28880_ooyorokobi⟧⟦した→する：00392_suru⟧。",
       "english": "The children were thrilled to see the moment the beetle emerged as an adult.",
       "sense_numbers": [
         1
@@ -134,8 +134,31 @@
       "notes": null
     }
   ],
-  "notes": "{羽化|うか} is the final stage of insect metamorphosis: when an adult insect emerges from its pupa or final nymph stage and unfolds its wings.\n\nUSAGE:\n- Composed of {羽|う} (wing) + {化|か} (transformation); literally, 'becoming winged.'\n- Functions as a する verb and as a noun.\n- Used primarily in biology, entomology, and nature writing.\n\nCOMMON PATTERNS:\n- {蝶|ちょう}が{羽化|うか}する: a butterfly emerges from its pupa\n- {セミの羽化|うか}: the emergence of a cicada (a popular subject in summer nature observation)\n- {羽化|うか}{直後|ちょくご}: just after emergence\n- {羽化|うか}{不全|ふぜん}: incomplete eclosion (when an insect fails to emerge properly)\n\nCULTURAL CONTEXT:\n- Observing insect {羽化|うか} is a classic Japanese elementary school science activity; many children raise butterflies, beetles, or cicadas to watch the process.\n- The Daoist expression {羽化|うか}{登仙|とうせん} ('becoming winged and ascending to the immortals') uses the same characters figuratively, evoking the idea of a person reaching a transcendent state.",
+  "notes": "{羽化|うか} is the final stage of insect metamorphosis: when an adult insect emerges from its pupa or final nymph stage and unfolds its wings.\n\nUSAGE:\n- Composed of {羽|う} (wing) + ⟦{化|か}→〜化：28335_ka⟧ (transformation); literally, 'becoming winged.'\n- Functions as a ⟦する→する：00392_suru⟧ verb and as a noun.\n- Used primarily in biology, entomology, and nature writing.\n\nCOMMON PATTERNS:\n- ⟦{蝶|ちょう}→蝶：04288_chou⟧⟦が→が：00051_ga⟧{羽化|うか}⟦する→する：00392_suru⟧: a butterfly emerges from its pupa\n- {セミの羽化|うか}: the emergence of a cicada (a popular subject in summer nature observation)\n- {羽化|うか}⟦{直後|ちょくご}→直後：04525_chokugo⟧: just after emergence\n- {羽化|うか}⟦{不全|ふぜん}→不全：28173_fuzen⟧: incomplete eclosion (when an insect fails to emerge properly)\n\nCULTURAL NOTE:\n- Observing insect {羽化|うか} is a classic Japanese elementary school science activity; many children raise butterflies, beetles, or cicadas to watch the process.\n- The Daoist expression {羽化|うか}{登仙|とうせん} ('becoming winged and ascending to the immortals') uses the same characters figuratively, evoking the idea of a person reaching a transcendent state.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19845_fuka",
+      "reading": "ふか",
+      "headword": "{孵化|ふか}",
+      "label": "hatching, incubation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20621_dappi",
+      "reading": "だっぴ",
+      "headword": "{脱皮|だっぴ}",
+      "label": "shedding skin"
+    },
+    {
+      "type": "related",
+      "target_id": "21225_sanagi",
+      "reading": "さなぎ",
+      "headword": "{蛹|さなぎ}",
+      "label": "pupa"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -148,9 +171,10 @@
       "semantic": [
         "nature"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     },
     "created": "2026-03-23T10:19:42Z",
-    "modified": "2026-04-10T13:28:57Z"
+    "modified": "2026-09-02T04:01:54Z"
   }
 }

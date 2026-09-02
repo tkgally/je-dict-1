@@ -3,7 +3,7 @@
   "headword": "{伝播|でんぱ}する",
   "reading": "でんぱする",
   "romaji": "denpasuru",
-  "part_of_speech": "verb-suru",
+  "part_of_speech": "suru verb",
   "gloss": "to spread; to propagate; to be transmitted",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22510_denpasuru_ex1",
-      "japanese": "{感染症|かんせんしょう}が{急速|きゅうそく}に{伝播|でんぱ}した。",
+      "japanese": "⟦{感染症|かんせんしょう}→感染症：15681_kansenshou⟧⟦が→が：00051_ga⟧⟦{急速|きゅうそく}→急速：02634_kyuusoku⟧⟦に→に：00314_ni⟧{伝播|でんぱ}した。",
       "english": "The infectious disease spread rapidly.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22510_denpasuru_ex2",
-      "japanese": "インターネットを{通|つう}じて{情報|じょうほう}が{瞬時|しゅんじ}に{伝播|でんぱ}する。",
+      "japanese": "⟦インターネット→インターネット：04723_intaanetto⟧⟦を→を：00422_wo⟧⟦{通|つう}じて→通じる：02289_tsuujiru⟧⟦{情報|じょうほう}→情報：03348_jouhou⟧⟦が→が：00051_ga⟧⟦{瞬時|しゅんじ}→瞬時：13662_shunji⟧⟦に→に：00314_ni⟧{伝播|でんぱ}する。",
       "english": "Information propagates instantly through the internet.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22510_denpasuru_ex3",
-      "japanese": "{仏教|ぶっきょう}はインドから{東|ひがし}アジア{各地|かくち}に{伝播|でんぱ}し、それぞれの{文化|ぶんか}と{融合|ゆうごう}した。",
+      "japanese": "⟦{仏教|ぶっきょう}→仏教：11428_bukkyou⟧⟦は→は：00079_ha⟧⟦インド→インド：28735_indo⟧⟦から→から：00504_kara⟧⟦{東|ひがし}アジア→東アジア：24318_higashiajia⟧⟦{各地|かくち}→各地：00155_kakuchi⟧⟦に→に：00314_ni⟧{伝播|でんぱ}し、⟦それぞれ→それぞれ：01453_sorezore⟧⟦の→の：09472_no⟧⟦{文化|ぶんか}→文化：01504_bunka⟧⟦と→と：00512_to⟧⟦{融合|ゆうごう}→融合：14036_yuugou⟧⟦した→する：00392_suru⟧。",
       "english": "Buddhism propagated from India to various parts of East Asia and merged with each local culture.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "A formal, often academic or scientific term for the spreading or transmission of something. It is commonly used in contexts involving disease, culture, religion, technology, and physical phenomena like sound or light waves. The kanji {播|は} means 'to sow' or 'to scatter,' reflecting the image of something being scattered outward.\n\nCOMMON COLLOCATIONS:\n- {感染|かんせん}の{伝播|でんぱ}: transmission of infection\n- {文化|ぶんか}の{伝播|でんぱ}: cultural propagation\n- {伝播|でんぱ}{速度|そくど}: propagation speed\n- {伝播|でんぱ}{経路|けいろ}: transmission route\n\nSIMILAR WORDS:\n- {広|ひろ}まる: to spread — the everyday word for something spreading among people\n- {拡散|かくさん}する: to diffuse; to spread — often used for information going viral or substances spreading\n- {伝染|でんせん}する: to be contagious — specifically for diseases spreading from person to person",
+  "notes": "A formal, often academic or scientific term for the spreading or transmission of something. It is commonly used in contexts involving disease, culture, religion, technology, and physical phenomena like sound or light waves. The kanji {播|は} means 'to sow' or 'to scatter,' reflecting the image of something being scattered outward.\n\nCOMMON COLLOCATIONS:\n- ⟦{感染|かんせん}→感染：05977_kansen⟧⟦の→の：09472_no⟧⟦{伝播|でんぱ}→伝播：18802_denpa⟧: transmission of infection\n- ⟦{文化|ぶんか}→文化：01504_bunka⟧⟦の→の：09472_no⟧⟦{伝播|でんぱ}→伝播：18802_denpa⟧: cultural propagation\n- ⟦{伝播|でんぱ}→伝播：18802_denpa⟧⟦{速度|そくど}→速度：03319_sokudo⟧: propagation speed\n- ⟦{伝播|でんぱ}→伝播：18802_denpa⟧⟦{経路|けいろ}→経路：13796_keiro⟧: transmission route\n\nSIMILAR WORDS:\n- ⟦{広|ひろ}まる→広まる：02404_hiromaru⟧: to spread — the everyday word for something spreading among people\n- ⟦{拡散|かくさん}する→拡散する：18995_kakusansuru⟧: to diffuse; to spread — often used for information going viral or substances spreading\n- ⟦{伝染|でんせん}→伝染：04549_densen⟧⟦する→する：00392_suru⟧: to be contagious — specifically for diseases spreading from person to person",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02404_hiromaru",
+      "reading": "ひろまる",
+      "headword": "{広|ひろ}まる",
+      "label": "to spread"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18995_kakusansuru",
+      "reading": "かくさんする",
+      "headword": "{拡散|かくさん}する",
+      "label": "to diffuse"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04549_densen",
+      "reading": "でんせん",
+      "headword": "{伝染|でんせん}",
+      "label": "to be contagious"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -63,7 +86,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-06T16:54:10Z",
-    "modified": "2026-08-01T06:41:09Z"
+    "modified": "2026-09-02T04:02:08Z"
   },
   "conjugation": {
     "type": "suru",

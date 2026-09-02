@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "27554_usukuchi_ex1",
-      "japanese": "{薄口|うすくち}{醤油|しょうゆ}で{味付|あじつ}けする。",
+      "japanese": "{薄口|うすくち}{醤油|しょうゆ}⟦で→で：00502_de⟧⟦{味付|あじつ}け→味付け：05830_ajitsuke⟧⟦する→する：00392_suru⟧。",
       "english": "Season with light soy sauce.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "27554_usukuchi_ex2",
-      "japanese": "{関西|かんさい}{料理|りょうり}では{薄口|うすくち}がよく{使|つか}われる。",
+      "japanese": "⟦{関西|かんさい}→関西：00179_kansai⟧⟦{料理|りょうり}→料理：01523_ryouri⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧{薄口|うすくち}⟦が→が：00051_ga⟧⟦よく→よく：00601_yoku⟧⟦{使|つか}われる→使う：00473_tsukau⟧。",
       "english": "Light soy sauce is often used in Kansai cuisine.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "27554_usukuchi_ex3",
-      "japanese": "うどんのつゆを{透明感|とうめいかん}のある{色|いろ}に{仕上|しあ}げるには{薄口|うすくち}が{欠|か}かせない。",
+      "japanese": "⟦うどん→うどん：05182_udon⟧⟦の→の：09472_no⟧つゆ⟦を→を：00422_wo⟧⟦{透明感|とうめいかん}→透明感：18903_toumeikan⟧⟦の→の：09472_no⟧⟦ある→ある：00006_aru⟧⟦{色|いろ}→色：00849_iro⟧⟦に→に：00314_ni⟧⟦{仕上|しあ}げる→仕上げる：04664_shiageru⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{薄口|うすくち}⟦が→が：00051_ga⟧⟦{欠|か}かせない→欠かす：10138_kakasu⟧。",
       "english": "Light soy sauce is essential for giving udon broth its clear, light color.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {薄|うす}い (light, pale) + {口|くち} (mouth, flavor). The name refers to color, not saltiness — {薄口|うすくち} actually has higher salt content than {濃口|こいくち}.\n\nCOMMON COLLOCATIONS:\n- {薄口|うすくち}{醤油|しょうゆ}: light soy sauce\n- {薄口|うすくち}で{煮|に}る: to simmer with light soy sauce\n- {薄口|うすくち}{仕立|した}て: prepared with light soy sauce\n\nCOMMON MISCONCEPTION:\n{薄口|うすくち} (\"light\") refers only to color and aroma — the salt content is roughly 10% higher than {濃口|こいくち}. Use less by volume than you would standard soy sauce.\n\nSIMILAR WORDS:\n- {濃口|こいくち}: dark soy sauce — standard, most common\n- {白醤油|しろじょうゆ}: white soy sauce — even paler than {薄口|うすくち}\n- たまり{醤油|じょうゆ}: tamari — thick and rich",
+  "notes": "Compound of ⟦{薄|うす}い→薄い：00764_usui⟧ (light, pale) + ⟦{口|くち}→口：00560_kuchi⟧ (mouth, flavor). The name refers to color, not saltiness — {薄口|うすくち} actually has higher salt content than ⟦{濃口|こいくち}→濃口：27553_koikuchi⟧.\n\nCOMMON COLLOCATIONS:\n- {薄口|うすくち}{醤油|しょうゆ}: light soy sauce\n- {薄口|うすくち}⟦で→で：00502_de⟧⟦{煮|に}る→煮る：01971_niru⟧: to simmer with light soy sauce\n- {薄口|うすくち}⟦{仕立|した}て→仕立て：11645_shitate⟧: prepared with light soy sauce\n\nCOMMON MISCONCEPTION:\n{薄口|うすくち} (\"light\") refers only to color and aroma — the salt content is roughly 10% higher than ⟦{濃口|こいくち}→濃口：27553_koikuchi⟧. Use less by volume than you would standard soy sauce.\n\nSIMILAR WORDS:\n- ⟦{濃口|こいくち}→濃口：27553_koikuchi⟧: dark soy sauce — standard, most common\n- {白醤油|しろじょうゆ}: white soy sauce — even paler than {薄口|うすくち}\n- ⟦たまり{醤油|じょうゆ}→たまり醤油：27593_tamarijouyu⟧: tamari — thick and rich",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "27553_koikuchi",
+      "reading": "こいくち",
+      "headword": "{濃口|こいくち}",
+      "label": "dark soy sauce"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27593_tamarijouyu",
+      "reading": "たまりじょうゆ",
+      "headword": "たまり{醤油|じょうゆ}",
+      "label": "tamari"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +69,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "food",
         "cooking"
@@ -61,6 +77,6 @@
       "domain": []
     },
     "created": "2026-05-14T01:41:20Z",
-    "modified": "2026-08-07T16:10:18Z"
+    "modified": "2026-09-02T04:02:31Z"
   }
 }

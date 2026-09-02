@@ -3,7 +3,7 @@
   "id": "14516_kanshou",
   "headword": "{鑑賞|かんしょう}",
   "reading": "かんしょう",
-  "part_of_speech": "noun / verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "appreciation; viewing (art, music, etc.)",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "14516_kanshou_ex1",
-      "japanese": "{映画|えいが}{鑑賞|かんしょう}が{趣味|しゅみ}です。",
+      "japanese": "⟦{映画|えいが}→映画：02273_eiga⟧{鑑賞|かんしょう}⟦が→が：00051_ga⟧⟦{趣味|しゅみ}→趣味：00889_shumi⟧です。",
       "english": "Film appreciation is my hobby.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "14516_kanshou_ex2",
-      "japanese": "{美術館|びじゅつかん}で{絵画|かいが}を{鑑賞|かんしょう}する。",
+      "japanese": "⟦{美術館|びじゅつかん}→美術館：01717_bijutsukan⟧⟦で→で：00502_de⟧⟦{絵画|かいが}→絵画：02597_kaiga⟧⟦を→を：00422_wo⟧{鑑賞|かんしょう}⟦する→する：00392_suru⟧。",
       "english": "I appreciate paintings at the art museum.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "14516_kanshou_ex3",
-      "japanese": "{静|しず}かな{環境|かんきょう}で{音楽|おんがく}を{鑑賞|かんしょう}するのが{至福|しふく}の{時間|じかん}だ。",
+      "japanese": "⟦{静|しず}か→静か：00755_shizuka⟧な⟦{環境|かんきょう}→環境：00174_kankyou⟧⟦で→で：00502_de⟧⟦{音楽|おんがく}→音楽：00661_ongaku⟧⟦を→を：00422_wo⟧{鑑賞|かんしょう}⟦する→する：00392_suru⟧⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦{至福|しふく}→至福：17403_shifuku⟧⟦の→の：09472_no⟧⟦{時間|じかん}→時間：00468_jikan⟧だ。",
       "english": "Listening to music in a quiet environment is a blissful time for me.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,33 @@
       ]
     }
   ],
-  "notes": "Compound of {鑑|かん} (to examine, to appreciate) + {賞|しょう} (to admire). Used for intellectual or aesthetic appreciation of cultural works.\n\nCOMMON COLLOCATIONS:\n- {映画|えいが}{鑑賞|かんしょう} (film appreciation)\n- {音楽|おんがく}{鑑賞|かんしょう} (music appreciation)\n- {芸術|げいじゅつ}{鑑賞|かんしょう} (art appreciation)\n- {作品|さくひん}を{鑑賞|かんしょう}する (to appreciate a work)\n\nSIMILAR WORDS:\n{観賞|かんしょう} (same pronunciation) is used for enjoying natural beauty, plants, or decorative items (e.g., {観賞|かんしょう}{魚|ぎょ} — ornamental fish). {鑑賞|かんしょう} is for art, music, literature, and cultural works that require intellectual engagement.",
-  "cross_references": [],
+  "notes": "Compound of {鑑|かん} (to examine, to appreciate) + ⟦{賞|しょう}→賞：03227_shou⟧ (to admire). Used for intellectual or aesthetic appreciation of cultural works.\n\nCOMMON COLLOCATIONS:\n- ⟦{映画|えいが}→映画：02273_eiga⟧{鑑賞|かんしょう} (film appreciation)\n- ⟦{音楽|おんがく}→音楽：00661_ongaku⟧{鑑賞|かんしょう} (music appreciation)\n- ⟦{芸術|げいじゅつ}→芸術：02712_geijutsu⟧{鑑賞|かんしょう} (art appreciation)\n- ⟦{作品|さくひん}→作品：02776_sakuhin⟧⟦を→を：00422_wo⟧{鑑賞|かんしょう}⟦する→する：00392_suru⟧ (to appreciate a work)\n\nSIMILAR WORDS:\n⟦{観賞|かんしょう}→観賞：14195_kanshou⟧ (same pronunciation) is used for enjoying natural beauty, plants, or decorative items (e.g., ⟦{観賞|かんしょう}{魚|ぎょ}→観賞魚：25092_kanshougyo⟧ — ornamental fish). {鑑賞|かんしょう} is for art, music, literature, and cultural works that require intellectual engagement.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "08382_kanran",
+      "reading": "かんらん",
+      "headword": "{観覧|かんらん}",
+      "label": "viewing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22175_shichousuru",
+      "reading": "しちょうする",
+      "headword": "{視聴|しちょう}する",
+      "label": "to watch"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22793_miru",
+      "reading": "みる",
+      "headword": "{観|み}る",
+      "label": "to watch"
+    }
+  ],
   "metadata": {
     "created": "2026-03-02T05:58:17Z",
-    "modified": "2026-03-29T03:08:18Z",
+    "modified": "2026-09-02T04:01:37Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -151,7 +173,8 @@
       "semantic": [
         "leisure"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   },
   "prominent_see_also": [

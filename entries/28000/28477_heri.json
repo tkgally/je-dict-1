@@ -15,41 +15,60 @@
   "examples": [
     {
       "id": "28477_heri_ex1",
-      "japanese": "{帽子|ぼうし}の{縁|へり}が{破|やぶ}れた。",
+      "japanese": "⟦{帽子|ぼうし}→帽子：00692_boushi⟧⟦の→の：09472_no⟧{縁|へり}⟦が→が：00051_ga⟧⟦{破|やぶ}れた→破れる：02322_yabureru⟧。",
       "english": "The brim of the hat tore.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28477_heri_ex2",
-      "japanese": "{畳|たたみ}の{縁|へり}を{踏|ふ}まないように{歩|ある}く。",
+      "japanese": "⟦{畳|たたみ}→畳：02224_tatami⟧⟦の→の：09472_no⟧{縁|へり}⟦を→を：00422_wo⟧⟦{踏|ふ}まない→踏む：01197_fumu⟧よう⟦に→に：00314_ni⟧⟦{歩|ある}く→歩く：00538_aruku⟧。",
       "english": "Walk without stepping on the edge of the tatami mats.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28477_heri_ex3",
-      "japanese": "テーブルの{縁|へり}に{腰|こし}を{掛|か}けて{話|はな}していた。",
+      "japanese": "⟦テーブル→テーブル：04488_teeburu⟧⟦の→の：09472_no⟧{縁|へり}⟦に→に：00314_ni⟧⟦{腰|こし}→腰：02210_koshi⟧⟦を→を：00422_wo⟧{掛|か}けて⟦{話|はな}していた→話す：00467_hanasu⟧。",
       "english": "They were talking while perched on the edge of the table.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Refers to the visible edge or trim of an object — often a strip of fabric, wood, or other material along the perimeter.\n\nCOMMON COLLOCATIONS:\n- {畳|たたみ}の{縁|へり}: the cloth border of a tatami mat\n- {帽子|ぼうし}の{縁|へり}: the brim of a hat\n- お{皿|さら}の{縁|へり}: the rim of a plate\n- プールの{縁|へり}: the edge of a pool\n\nCULTURAL CONTEXT:\nIn traditional Japanese etiquette, you do not step on the {畳|たたみ}の{縁|へり} — both as a matter of respect and because the cloth border wears out faster than the woven surface.\n\nSIMILAR WORDS:\n- {端|はし}: end; edge — the endpoint or tip of something, not necessarily a decorative border\n- {縁|ふち}: edge; rim — same kanji, broader meaning of any rim or boundary line\n- {縁|えん}: same kanji, completely unrelated meaning ('connection, fate')",
+  "notes": "Refers to the visible edge or trim of an object — often a strip of fabric, wood, or other material along the perimeter.\n\nCOMMON COLLOCATIONS:\n- ⟦{畳|たたみ}→畳：02224_tatami⟧⟦の→の：09472_no⟧{縁|へり}: the cloth border of a tatami mat\n- ⟦{帽子|ぼうし}→帽子：00692_boushi⟧⟦の→の：09472_no⟧{縁|へり}: the brim of a hat\n- ⟦お{皿|さら}→お皿：02894_osara⟧⟦の→の：09472_no⟧{縁|へり}: the rim of a plate\n- ⟦プール→プール：02958_puuru⟧⟦の→の：09472_no⟧{縁|へり}: the edge of a pool\n\nCULTURAL NOTE:\nIn traditional Japanese etiquette, you do not step on the ⟦{畳|たたみ}→畳：02224_tatami⟧⟦の→の：09472_no⟧{縁|へり} — both as a matter of respect and because the cloth border wears out faster than the woven surface.\n\nSIMILAR WORDS:\n- ⟦{端|はし}→端：00936_hashi⟧: end; edge — the endpoint or tip of something, not necessarily a decorative border\n- {縁|ふち}: edge; rim — same kanji, broader meaning of any rim or boundary line\n- ⟦{縁|えん}→縁：02182_en⟧: same kanji, completely unrelated meaning ('connection, fate')",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00936_hashi",
+      "reading": "はし",
+      "headword": "{端|はし}",
+      "label": "end"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["daily-life"],
+      "politeness": "plain",
+      "semantic": [
+        "daily-life"
+      ],
       "domain": []
     },
     "created": "2026-05-31T04:10:13Z",
-    "modified": "2026-05-31T04:10:13Z"
+    "modified": "2026-09-02T04:02:33Z"
   }
 }

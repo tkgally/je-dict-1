@@ -15,41 +15,67 @@
   "examples": [
     {
       "id": "28236_shokusei_ex1",
-      "japanese": "この{地域|ちいき}の{植生|しょくせい}は{豊|ゆた}かだ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{地域|ちいき}→地域：01461_chiiki⟧⟦の→の：09472_no⟧{植生|しょくせい}⟦は→は：00079_ha⟧⟦{豊|ゆた}か→豊か：03654_yutaka⟧だ。",
       "english": "The vegetation of this area is rich.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28236_shokusei_ex2",
-      "japanese": "{火事|かじ}の{後|あと}、{植生|しょくせい}が{少|すこ}しずつ{回復|かいふく}した。",
+      "japanese": "⟦{火事|かじ}→火事：01283_kaji⟧⟦の→の：09472_no⟧⟦{後|あと}→後：09580_ato⟧、{植生|しょくせい}⟦が→が：00051_ga⟧⟦{少|すこ}し→少し：00596_sukoshi⟧⟦ずつ→〜ずつ：03092_zutsu⟧⟦{回復|かいふく}した→回復する：21330_kaifukusuru⟧。",
       "english": "After the fire, the vegetation gradually recovered.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28236_shokusei_ex3",
-      "japanese": "{標高|ひょうこう}によって、{山|やま}の{植生|しょくせい}は{大|おお}きく{変化|へんか}する。",
+      "japanese": "⟦{標高|ひょうこう}→標高：13175_hyoukou⟧⟦によって→によって：06801_niyotte⟧、⟦{山|やま}→山：02168_yama⟧⟦の→の：09472_no⟧{植生|しょくせい}⟦は→は：00079_ha⟧⟦{大|おお}きく→大きい：00335_ookii⟧⟦{変化|へんか}する→変化する：20997_henkasuru⟧。",
       "english": "The mountain's vegetation changes greatly with altitude.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A technical term referring to plant cover as a collective phenomenon, not to individual plants.\n\nCOMMON COLLOCATIONS:\n- {植生|しょくせい}{調査|ちょうさ}: vegetation survey\n- {自然|しぜん}{植生|しょくせい}: natural vegetation\n- {植生|しょくせい}が{回復|かいふく}する: vegetation recovers\n\nSIMILAR WORDS:\n- {植物|しょくぶつ}: plant(s) — refers to plants as objects or organisms, not to the overall plant cover of a region",
+  "notes": "A technical term referring to plant cover as a collective phenomenon, not to individual plants.\n\nCOMMON COLLOCATIONS:\n- {植生|しょくせい}⟦{調査|ちょうさ}→調査：03489_chousa⟧: vegetation survey\n- ⟦{自然|しぜん}→自然：01423_shizen⟧{植生|しょくせい}: natural vegetation\n- {植生|しょくせい}⟦が→が：00051_ga⟧⟦{回復|かいふく}する→回復する：21330_kaifukusuru⟧: vegetation recovers\n\nSIMILAR WORDS:\n- ⟦{植物|しょくぶつ}→植物：03248_shokubutsu⟧: plant(s) — refers to plants as objects or organisms, not to the overall plant cover of a region",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03248_shokubutsu",
+      "reading": "しょくぶつ",
+      "headword": "{植物|しょくぶつ}",
+      "label": "plant"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24320_soumoku",
+      "reading": "そうもく",
+      "headword": "{草木|そうもく}",
+      "label": "plants"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["plant-general"],
+      "semantic": [
+        "plant-general"
+      ],
       "domain": []
     },
     "created": "2026-05-27T04:08:18Z",
-    "modified": "2026-05-27T04:08:18Z"
+    "modified": "2026-09-02T04:02:33Z"
   }
 }

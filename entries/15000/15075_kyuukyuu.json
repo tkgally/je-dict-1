@@ -15,42 +15,62 @@
   "examples": [
     {
       "id": "15075_kyuukyuu_ex1",
-      "japanese": "{救急車|きゅうきゅうしゃ}を{呼|よ}んでください。",
+      "japanese": "⟦{救急車|きゅうきゅうしゃ}→救急車：05077_kyuukyuusha⟧⟦を→を：00422_wo⟧⟦{呼|よ}んで→呼ぶ：00766_yobu⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please call an ambulance.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15075_kyuukyuu_ex2",
-      "japanese": "{救急|きゅうきゅう}{箱|ばこ}はどこにありますか。",
+      "japanese": "{救急|きゅうきゅう}{箱|ばこ}⟦は→は：00079_ha⟧⟦どこ→どこ：00539_doko⟧⟦に→に：00314_ni⟧⟦あります→ある：00006_aru⟧⟦か→か：09473_ka⟧。",
       "english": "Where is the first aid kit?",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15075_kyuukyuu_ex3",
-      "japanese": "{夜間|やかん}{救急|きゅうきゅう}の{受|う}け{入|い}れ{先|さき}を{探|さが}すのに{苦労|くろう}した。",
+      "japanese": "⟦{夜間|やかん}→夜間：04133_yakan⟧{救急|きゅうきゅう}⟦の→の：09472_no⟧⟦{受|う}け{入|い}れ→受け入れる：05755_ukeireru⟧⟦{先|さき}→先：02883_saki⟧⟦を→を：00422_wo⟧⟦{探|さが}す→探す：00493_sagasu⟧⟦の→の：09472_no⟧⟦に→に：00314_ni⟧⟦{苦労|くろう}した→苦労する：25357_kurousuru⟧。",
       "english": "I had difficulty finding a facility that would accept nighttime emergency patients.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\n{救急|きゅうきゅう} is most commonly encountered as a prefix in compound words related to emergency medical care. The number to call for an ambulance in Japan is 119.\n\nCOMMON COLLOCATIONS:\n- {救急車|きゅうきゅうしゃ} (ambulance)\n- {救急|きゅうきゅう}{箱|ばこ} (first aid kit)\n- {救急|きゅうきゅう}{病院|びょういん} (emergency hospital)\n- {救急|きゅうきゅう}{搬送|はんそう} (emergency transport)\n- {救急|きゅうきゅう}{隊員|たいいん} (paramedic)\n- {救急|きゅうきゅう}{処置|しょち} (emergency treatment)\n\nSIMILAR WORDS:\n{応急|おうきゅう} means \"emergency\" in the sense of a temporary or stopgap measure: {応急|おうきゅう}{処置|しょち} (first aid, emergency treatment). {救急|きゅうきゅう} is specifically about the medical emergency care system.",
-  "cross_references": [],
+  "notes": "USAGE:\n{救急|きゅうきゅう} is most commonly encountered as a prefix in compound words related to emergency medical care. The number to call for an ambulance in Japan is 119.\n\nCOMMON COLLOCATIONS:\n- ⟦{救急車|きゅうきゅうしゃ}→救急車：05077_kyuukyuusha⟧ (ambulance)\n- {救急|きゅうきゅう}{箱|ばこ} (first aid kit)\n- {救急|きゅうきゅう}⟦{病院|びょういん}→病院：00577_byouin⟧ (emergency hospital)\n- {救急|きゅうきゅう}⟦{搬送|はんそう}→搬送：24543_hansou⟧ (emergency transport)\n- {救急|きゅうきゅう}{隊員|たいいん} (paramedic)\n- {救急|きゅうきゅう}⟦{処置|しょち}→処置：05823_shochi⟧ (emergency treatment)\n\nSIMILAR WORDS:\n⟦{応急|おうきゅう}→応急：08193_oukyuu⟧ means \"emergency\" in the sense of a temporary or stopgap measure: ⟦{応急|おうきゅう}{処置|しょち}→応急処置：06519_oukyuushochi⟧ (first aid, emergency treatment). {救急|きゅうきゅう} is specifically about the medical emergency care system.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "08193_oukyuu",
+      "reading": "おうきゅう",
+      "headword": "{応急|おうきゅう}",
+      "label": "emergency"
+    }
+  ],
   "metadata": {
     "created": "2026-03-05T06:29:07Z",
-    "modified": "2026-03-05T06:29:07Z",
+    "modified": "2026-09-02T04:01:39Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["medical"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "medical"
+      ]
     }
   }
 }

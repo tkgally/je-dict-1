@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "17015_doukoukai_ex1",
-      "japanese": "{写真|しゃしん}{同好会|どうこうかい}に{入|はい}った。",
+      "japanese": "⟦{写真|しゃしん}→写真：00753_shashin⟧{同好会|どうこうかい}⟦に→に：00314_ni⟧⟦{入|はい}った→入る：00494_hairu⟧。",
       "english": "I joined a photography club.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "17015_doukoukai_ex2",
-      "japanese": "{会社|かいしゃ}の{登山|とざん}{同好会|どうこうかい}で{毎月|まいつき}{山|やま}に{登|のぼ}っている。",
+      "japanese": "⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦の→の：09472_no⟧⟦{登山|とざん}→登山：03457_tozan⟧{同好会|どうこうかい}⟦で→で：00502_de⟧⟦{毎月|まいつき}→毎月：00732_maitsuki⟧⟦{山|やま}→山：02168_yama⟧⟦に→に：00314_ni⟧⟦{登|のぼ}っている→登る：00660_noboru⟧。",
       "english": "I climb a mountain every month with the company's hiking club.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "17015_doukoukai_ex3",
-      "japanese": "{退職後|たいしょくご}に{絵画|かいが}{同好会|どうこうかい}を{立|た}ち{上|あ}げて、{同|おな}じ{趣味|しゅみ}の{仲間|なかま}と{交流|こうりゅう}している。",
+      "japanese": "{退職後|たいしょくご}⟦に→に：00314_ni⟧⟦{絵画|かいが}→絵画：02597_kaiga⟧{同好会|どうこうかい}⟦を→を：00422_wo⟧⟦{立|た}ち{上|あ}げて→立ち上げる：07892_tachiageru⟧、⟦{同|おな}じ→同じ：02857_onaji⟧⟦{趣味|しゅみ}→趣味：00889_shumi⟧⟦の→の：09472_no⟧⟦{仲間|なかま}→仲間：03498_nakama⟧⟦と→と：00512_to⟧⟦{交流|こうりゅう}→交流：02732_kouryuu⟧⟦している→する：00392_suru⟧。",
       "english": "After retirement, I started a painting club and socialize with others who share the same hobby.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,33 @@
       ]
     }
   ],
-  "notes": "USAGE:\nCommon in companies, schools, and community centers. Less formal than {部|ぶ} (department/official club) or {協会|きょうかい} (association). Often formed around hobbies like sports, arts, or cultural activities.\n\nCOMMON COLLOCATIONS:\n- {同好会|どうこうかい}を{作|つく}る (to form a club)\n- {同好会|どうこうかい}に{入|はい}る (to join a club)\n- 〇〇{同好会|どうこうかい} (〇〇 club)\n\nSIMILAR WORDS:\n- {部活|ぶかつ}: school club activity — more formal and structured, typically at schools\n- サークル: circle — a casual group, especially at universities",
-  "cross_references": [],
+  "notes": "USAGE:\nCommon in companies, schools, and community centers. Less formal than ⟦{部|ぶ}→〜部：00440_bu⟧ (department/official club) or ⟦{協会|きょうかい}→協会：11831_kyoukai⟧ (association). Often formed around hobbies like sports, arts, or cultural activities.\n\nCOMMON COLLOCATIONS:\n- {同好会|どうこうかい}⟦を→を：00422_wo⟧⟦{作|つく}る→作る：00481_tsukuru⟧ (to form a club)\n- {同好会|どうこうかい}⟦に→に：00314_ni⟧⟦{入|はい}る→入る：00494_hairu⟧ (to join a club)\n- 〇〇{同好会|どうこうかい} (〇〇 club)\n\nSIMILAR WORDS:\n- ⟦{部活|ぶかつ}→部活：05377_bukatsu⟧: school club activity — more formal and structured, typically at schools\n- ⟦サークル→サークル：10933_saakuru⟧: circle — a casual group, especially at universities",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05377_bukatsu",
+      "reading": "ぶかつ",
+      "headword": "{部活|ぶかつ}",
+      "label": "school club activity"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10933_saakuru",
+      "reading": "さーくる",
+      "headword": "サークル",
+      "label": "circle"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28829_bunkabu",
+      "reading": "ぶんかぶ",
+      "headword": "{文化部|ぶんかぶ}",
+      "label": "cultural club"
+    }
+  ],
   "metadata": {
     "created": "2026-03-15T05:53:16Z",
-    "modified": "2026-07-22T03:30:08Z",
+    "modified": "2026-09-02T04:01:46Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

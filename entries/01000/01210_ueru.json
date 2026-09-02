@@ -168,11 +168,19 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive). No common intransitive pair. Pattern: X⟦に→に：00314_ni⟧ Y⟦を→を：00422_wo⟧{植|う}える (plant Y in/at X).\n\nASPECT: ている indicates resulting state. {植|う}えて⟦ある→ある：00006_aru⟧ = 'has been planted' (resultative, focus on the state); {植|う}えて⟦いる→いる：00495_iru⟧ = 'is planting' (progressive) or 'has planted.'\n\nCOMMON PATTERNS:\n・⟦{木|き}→木：00524_ki⟧⟦を→を：00422_wo⟧{植|う}える (plant a tree)\n・⟦{花|はな}→花：00523_hana⟧⟦を→を：00422_wo⟧{植|う}える (plant flowers)\n・⟦{種|たね}→種：02157_tane⟧⟦を→を：00422_wo⟧{植|う}える (plant seeds)\n・⟦{庭|にわ}→庭：02239_niwa⟧⟦に→に：00314_ni⟧{植|う}える (plant in the garden)\n・⟦{田植|たう}え→田植え：22734_taue⟧ (rice planting—noun form)\n\nCOMPOUND VERBS:\n・⟦{植|う}えつける→植え付ける：19913_uetsukeru⟧ (to implant firmly)\n・⟦{植|う}え{替|か}える→植え替える：17856_uekaeru⟧ (to transplant)\n\nHOMOPHONE: Don't confuse with ⟦{飢|う}える→飢える：14625_ueru⟧ (to starve), which is pronounced the same but written differently.",
-  "cross_references": [],
+  "notes": "TRANSITIVITY: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive). No common intransitive pair. Pattern: X⟦に→に：00314_ni⟧ Y⟦を→を：00422_wo⟧{植|う}える (plant Y in/at X).\n\nASPECT: て⟦いる→いる：00495_iru⟧ indicates resulting state. {植|う}えて⟦ある→ある：00006_aru⟧ = 'has been planted' (resultative, focus on the state); {植|う}えて⟦いる→いる：00495_iru⟧ = 'is planting' (progressive) or 'has planted.'\n\nCOMMON PATTERNS:\n- ⟦{木|き}→木：00524_ki⟧⟦を→を：00422_wo⟧{植|う}える (plant a tree)\n- ⟦{花|はな}→花：00523_hana⟧⟦を→を：00422_wo⟧{植|う}える (plant flowers)\n- ⟦{種|たね}→種：02157_tane⟧⟦を→を：00422_wo⟧{植|う}える (plant seeds)\n- ⟦{庭|にわ}→庭：02239_niwa⟧⟦に→に：00314_ni⟧{植|う}える (plant in the garden)\n- ⟦{田植|たう}え→田植え：22734_taue⟧ (rice planting—noun form)\n\nCOMPOUND VERBS:\n- ⟦{植|う}えつける→植え付ける：19913_uetsukeru⟧ (to implant firmly)\n- ⟦{植|う}え{替|か}える→植え替える：17856_uekaeru⟧ (to transplant)\n\nHOMOPHONE: Don't confuse with ⟦{飢|う}える→飢える：14625_ueru⟧ (to starve), which is pronounced the same but written differently.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19913_uetsukeru",
+      "reading": "うえつける",
+      "headword": "{植|う}え{付|つ}ける",
+      "label": "to plant"
+    }
+  ],
   "metadata": {
     "created": "2026-01-08T10:53:41Z",
-    "modified": "2026-05-14T18:11:23Z",
+    "modified": "2026-09-02T04:00:59Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

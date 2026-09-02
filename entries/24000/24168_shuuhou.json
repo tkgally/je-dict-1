@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24168_shuuhou_ex1",
-      "japanese": "{週報|しゅうほう}を{提出|ていしゅつ}する。",
+      "japanese": "{週報|しゅうほう}⟦を→を：00422_wo⟧⟦{提出|ていしゅつ}する→提出する：19644_teishutsusuru⟧。",
       "english": "To submit a weekly report.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24168_shuuhou_ex2",
-      "japanese": "{毎週|まいしゅう}{金曜日|きんようび}に{週報|しゅうほう}を{書|か}いている。",
+      "japanese": "⟦{毎週|まいしゅう}→毎週：00730_maishuu⟧⟦{金曜日|きんようび}→金曜日：00642_kinyoubi⟧⟦に→に：00314_ni⟧{週報|しゅうほう}⟦を→を：00422_wo⟧⟦{書|か}いている→書く：00477_kaku⟧。",
       "english": "I write a weekly report every Friday.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24168_shuuhou_ex3",
-      "japanese": "{上司|じょうし}から{週報|しゅうほう}の{内容|ないよう}についてフィードバックをもらった。",
+      "japanese": "⟦{上司|じょうし}→上司：03286_joushi⟧⟦から→から：00504_kara⟧{週報|しゅうほう}⟦の→の：09472_no⟧⟦{内容|ないよう}→内容：01482_naiyou⟧⟦について→〜について：03103_nitsuite⟧⟦フィードバック→フィードバック：06763_fiidobakku⟧⟦を→を：00422_wo⟧⟦もらった→もらう：00520_morau⟧。",
       "english": "I received feedback from my boss on the content of my weekly report.",
       "sense_numbers": [
         1
@@ -44,20 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "A regular report submitted on a weekly basis, common in Japanese workplaces. Part of a series of periodic report terms built on the same pattern.\n\nCOMMON COLLOCATIONS:\n- {週報|しゅうほう}を{提出|ていしゅつ}する: to submit a weekly report\n- {週報|しゅうほう}を{書|か}く: to write a weekly report\n- {業務|ぎょうむ}{週報|しゅうほう}: work weekly report\n\nRELATED TERMS:\n- {日報|にっぽう}: daily report\n- {月報|げっぽう}: monthly report\n- {年報|ねんぽう}: annual report\n\nUSAGE:\nIn Japanese business culture, {週報|しゅうほう} is a standard tool for reporting progress to supervisors. It typically summarizes the week's accomplishments, challenges, and plans for the following week.",
+  "notes": "A regular report submitted on a weekly basis, common in Japanese workplaces. Part of a series of periodic report terms built on the same pattern.\n\nCOMMON COLLOCATIONS:\n- {週報|しゅうほう}⟦を→を：00422_wo⟧⟦{提出|ていしゅつ}する→提出する：19644_teishutsusuru⟧: to submit a weekly report\n- {週報|しゅうほう}⟦を→を：00422_wo⟧⟦{書|か}く→書く：00477_kaku⟧: to write a weekly report\n- ⟦{業務|ぎょうむ}→業務：09630_gyoumu⟧{週報|しゅうほう}: work weekly report\n\nRELATED WORDS:\n- ⟦{日報|にっぽう}→日報：15933_nippou⟧: daily report\n- ⟦{月報|げっぽう}→月報：23024_geppou⟧: monthly report\n- {年報|ねんぽう}: annual report\n\nUSAGE:\nIn Japanese business culture, {週報|しゅうほう} is a standard tool for reporting progress to supervisors. It typically summarizes the week's accomplishments, challenges, and plans for the following week.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "15933_nippou",
+      "reading": "にっぽう",
+      "headword": "{日報|にっぽう}",
+      "label": "daily report"
+    },
+    {
+      "type": "related",
+      "target_id": "23024_geppou",
+      "reading": "げっぽう",
+      "headword": "{月報|げっぽう}",
+      "label": "monthly report"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "business"
       ],
       "usage": []
     },
     "created": "2026-04-17T21:38:17Z",
-    "modified": "2026-04-17T21:38:17Z"
+    "modified": "2026-09-02T04:02:17Z"
   }
 }

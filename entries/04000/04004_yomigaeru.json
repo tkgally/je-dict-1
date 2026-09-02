@@ -199,7 +199,7 @@
     },
     {
       "id": "04004_yomigaeru_ex10",
-      "japanese": "⟦{伝統|でんとう}→伝統：09585_dentou⟧⟦{工芸|こうげい}→工芸：04182_kougei⟧⟦を→を：00422_wo⟧{蘇|よみがえ}らせようと、⟦{若|わか}い→若い：00823_wakai⟧⟦{職人|しょくにん}→職人：09868_shokunin⟧⟦たち→達：01551_tachi⟧⟦が→が：00051_ga⟧⟦{努力|どりょく}→努力：03490_doryoku⟧⟦している→する：00392_suru⟧。",
+      "japanese": "⟦{伝統|でんとう}→伝統：09585_dentou⟧⟦{工芸|こうげい}→工芸：04182_kougei⟧⟦を→を：00422_wo⟧{蘇|よみがえ}らせよう⟦と→と：00512_to⟧、⟦{若|わか}い→若い：00823_wakai⟧⟦{職人|しょくにん}→職人：09868_shokunin⟧⟦たち→達：01551_tachi⟧⟦が→が：00051_ga⟧⟦{努力|どりょく}→努力：03490_doryoku⟧⟦している→する：00392_suru⟧。",
       "english": "Young craftspeople are working hard to revive traditional crafts.",
       "notes": null,
       "has_audio": false,
@@ -208,7 +208,7 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive). No transitive pair.\n\nWRITING: Also written as {甦|よみがえ}る or in hiragana.\n\nETYMOLOGY: From {黄泉|よみ} (the underworld in Japanese mythology) + ⟦{帰|かえ}る→帰る：00508_kaeru⟧ (to return).\n\nCOMMON PATTERNS:\n・⟦{記憶|きおく}→記憶：00234_kioku⟧が{蘇|よみがえ}る (memories come back)\n・⟦{活気|かっき}→活気：02554_kakki⟧が{蘇|よみがえ}る (vitality is restored)\n・⟦{思|おも}い{出|で}→思い出：00331_omoide⟧が{蘇|よみがえ}る (memories revive)\n\nRELATED:\n・⟦{蘇生|そせい}→蘇生：14029_sosei⟧ (resuscitation)\n・⟦{復活|ふっかつ}→復活：12565_fukkatsu⟧ (revival, resurrection)",
+  "notes": "TRANSITIVITY: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive). No transitive pair.\n\nWRITING: Also written as ⟦{甦|よみがえ}る→甦る：17231_yomigaeru⟧ or in hiragana.\n\nETYMOLOGY: From {黄泉|よみ} (the underworld in Japanese mythology) + ⟦{帰|かえ}る→帰る：00508_kaeru⟧ (to return).\n\nCOMMON PATTERNS:\n- ⟦{記憶|きおく}→記憶：00234_kioku⟧⟦が→が：00051_ga⟧{蘇|よみがえ}る (memories come back)\n- ⟦{活気|かっき}→活気：02554_kakki⟧⟦が→が：00051_ga⟧{蘇|よみがえ}る (vitality is restored)\n- ⟦{思|おも}い{出|で}→思い出：00331_omoide⟧⟦が→が：00051_ga⟧{蘇|よみがえ}る (memories revive)\n\nRELATED WORDS:\n- ⟦{蘇生|そせい}→蘇生：14029_sosei⟧ (resuscitation)\n- ⟦{復活|ふっかつ}→復活：12565_fukkatsu⟧ (revival, resurrection)",
   "cross_references": [
     {
       "type": "related",
@@ -216,11 +216,32 @@
       "headword": "{復活|ふっかつ}",
       "label": "revival",
       "target_id": "12565_fukkatsu"
+    },
+    {
+      "type": "related",
+      "target_id": "14029_sosei",
+      "reading": "そせい",
+      "headword": "{蘇生|そせい}",
+      "label": "resuscitation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05740_ikikaeru",
+      "reading": "いきかえる",
+      "headword": "{生|い}き{返|かえ}る",
+      "label": "to revive, to come back to life"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18889_ikiwofukikaesu",
+      "reading": "いきをふきかえす",
+      "headword": "{息|いき}を{吹|ふ}き{返|かえ}す",
+      "label": "to come back to life"
     }
   ],
   "metadata": {
     "created": "2026-01-13T07:50:37Z",
-    "modified": "2026-05-28T17:10:48Z",
+    "modified": "2026-09-02T04:01:04Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

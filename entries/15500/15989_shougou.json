@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "15989_shougou_ex1",
-      "japanese": "データを{照合|しょうごう}する。",
+      "japanese": "⟦データ→データ：03944_deeta⟧⟦を→を：00422_wo⟧{照合|しょうごう}⟦する→する：00392_suru⟧。",
       "english": "Verify the data.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "15989_shougou_ex2",
-      "japanese": "{指紋|しもん}を{照合|しょうごう}して{本人|ほんにん}{確認|かくにん}を{行|おこな}った。",
+      "japanese": "⟦{指紋|しもん}→指紋：12728_shimon⟧⟦を→を：00422_wo⟧{照合|しょうごう}⟦して→する：00392_suru⟧⟦{本人|ほんにん}{確認|かくにん}→本人確認：15142_honninkakunin⟧⟦を→を：00422_wo⟧⟦{行|おこな}った→行う：01238_okonau⟧。",
       "english": "Identity was confirmed by matching fingerprints.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "15989_shougou_ex3",
-      "japanese": "{請求書|せいきゅうしょ}の{金額|きんがく}と{注文書|ちゅうもんしょ}を{照合|しょうごう}したところ、{一|いっ}{致|ち}しなかった。",
+      "japanese": "⟦{請求書|せいきゅうしょ}→請求書：04698_seikyuusho⟧⟦の→の：09472_no⟧⟦{金額|きんがく}→金額：02665_kingaku⟧⟦と→と：00512_to⟧⟦{注文書|ちゅうもんしょ}→注文書：08126_chuumonsho⟧⟦を→を：00422_wo⟧{照合|しょうごう}⟦した→する：00392_suru⟧⟦ところ→ところ：01137_tokoro⟧、⟦{一|いっ}{致|ち}しなかった→一致する：19648_icchisuru⟧。",
       "english": "When I cross-checked the invoice amount against the purchase order, they didn't match.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nMost commonly used with する as {照合|しょうごう}する. Frequently appears in business, IT, and administrative contexts. The typical pattern is AとBを{照合|しょうごう}する (to cross-check A against B).\n\nCOMMON COLLOCATIONS:\n- {照合|しょうごう}する (to verify, to cross-check)\n- データを{照合|しょうごう}する (to verify data)\n- {照合|しょうごう}{結果|けっか} (verification result)\n- {照合|しょうごう}{番号|ばんごう} (reference number)\n\nSIMILAR WORDS:\n- {確認|かくにん}: confirmation — more general checking or making sure\n- {突合|とつごう}: matching, reconciliation — technical term used in accounting and data processing",
+  "notes": "USAGE:\nMost commonly used with ⟦する→する：00392_suru⟧ as {照合|しょうごう}⟦する→する：00392_suru⟧. Frequently appears in business, IT, and administrative contexts. The typical pattern is A⟦と→と：00512_to⟧B⟦を→を：00422_wo⟧{照合|しょうごう}⟦する→する：00392_suru⟧ (to cross-check A against B).\n\nCOMMON COLLOCATIONS:\n- {照合|しょうごう}⟦する→する：00392_suru⟧ (to verify, to cross-check)\n- ⟦データ→データ：03944_deeta⟧⟦を→を：00422_wo⟧{照合|しょうごう}⟦する→する：00392_suru⟧ (to verify data)\n- {照合|しょうごう}⟦{結果|けっか}→結果：02486_kekka⟧ (verification result)\n- {照合|しょうごう}⟦{番号|ばんごう}→番号：02939_bangou⟧ (reference number)\n\nSIMILAR WORDS:\n- ⟦{確認|かくにん}→確認：00158_kakunin⟧: confirmation — more general checking or making sure\n- {突合|とつごう}: matching, reconciliation — technical term used in accounting and data processing",
   "cross_references": [
     {
       "type": "synonym",
@@ -142,11 +142,25 @@
       "reading": "かくにん",
       "headword": "{確認|かくにん}",
       "label": "confirmation (general)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20531_tsukiawaseru",
+      "reading": "つきあわせる",
+      "headword": "{突|つ}き{合|あ}わせる",
+      "label": "to compare"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25332_kakuninsuru",
+      "reading": "かくにんする",
+      "headword": "{確認|かくにん}する",
+      "label": "to confirm"
     }
   ],
   "metadata": {
     "created": "2026-03-09T06:16:01Z",
-    "modified": "2026-05-02T09:03:34Z",
+    "modified": "2026-09-02T04:01:43Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -159,7 +173,8 @@
       "semantic": [
         "work"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

@@ -16,41 +16,76 @@
   "examples": [
     {
       "id": "29229_shukiobiunten_ex1",
-      "japanese": "{酒気帯|しゅきお}び{運転|うんてん}で{摘発|てきはつ}された。",
+      "japanese": "{酒気帯|しゅきお}び{運転|うんてん}⟦で→で：00502_de⟧⟦{摘発|てきはつ}→摘発：12935_tekihatsu⟧⟦された→する：00392_suru⟧。",
       "english": "He was caught driving under the influence.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29229_shukiobiunten_ex2",
-      "japanese": "{少|すこ}しでもお{酒|さけ}を{飲|の}んだら{酒気帯|しゅきお}び{運転|うんてん}になる{可能性|かのうせい}がある。",
+      "japanese": "⟦{少|すこ}し→少し：00596_sukoshi⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧⟦お{酒|さけ}→お酒：01045_osake⟧⟦を→を：00422_wo⟧⟦{飲|の}んだら→飲む：00322_nomu⟧{酒気帯|しゅきお}び{運転|うんてん}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦{可能性|かのうせい}→可能性：04818_kanousei⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "Even drinking a small amount of alcohol can result in driving under the influence.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29229_shukiobiunten_ex3",
-      "japanese": "{酒気帯|しゅきお}び{運転|うんてん}は{免許停止|めんきょていし}や{罰金|ばっきん}の{対象|たいしょう}になる{違反|いはん}だ。",
+      "japanese": "{酒気帯|しゅきお}び{運転|うんてん}⟦は→は：00079_ha⟧{免許停止|めんきょていし}や⟦{罰金|ばっきん}→罰金：18767_bakkin⟧⟦の→の：09472_no⟧⟦{対象|たいしょう}→対象：03393_taishou⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦{違反|いはん}→違反：01824_ihan⟧だ。",
       "english": "Driving under the influence is a violation subject to license suspension and fines.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A legal traffic offense distinct from {飲酒運転|いんしゅうんてん} (drunk driving). {酒気帯|しゅきお}び{運転|うんてん} refers specifically to driving with a blood alcohol concentration of 0.15mg/L or above (but below the 0.25mg/L threshold for the more serious charge).\n\nCOMMON COLLOCATIONS:\n- {酒気帯|しゅきお}び{運転|うんてん}で{捕|つか}まる: to be arrested for DUI\n- {酒気帯|しゅきお}び{運転|うんてん}の{疑い|うたがい}: suspicion of DUI\n\nSIMILAR WORDS:\n- {飲酒運転|いんしゅうんてん}: drunk driving — the more serious offense involving higher blood alcohol levels",
-  "cross_references": [],
+  "notes": "A legal traffic offense distinct from ⟦{飲酒運転|いんしゅうんてん}→飲酒運転：18486_inshuunten⟧ (drunk driving). {酒気帯|しゅきお}び{運転|うんてん} refers specifically to driving with a blood alcohol concentration of 0.15mg/L or above (but below the 0.25mg/L threshold for the more serious charge).\n\nCOMMON COLLOCATIONS:\n- {酒気帯|しゅきお}び{運転|うんてん}⟦で→で：00502_de⟧⟦{捕|つか}まる→捕まる：01959_tsukamaru⟧: to be arrested for DUI\n- {酒気帯|しゅきお}び{運転|うんてん}⟦の→の：09472_no⟧⟦{疑|うたが}い→疑い：09757_utagai⟧: suspicion of DUI\n\nSIMILAR WORDS:\n- ⟦{飲酒運転|いんしゅうんてん}→飲酒運転：18486_inshuunten⟧: drunk driving — the more serious offense involving higher blood alcohol levels",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18486_inshuunten",
+      "reading": "いんしゅうんてん",
+      "headword": "{飲酒運転|いんしゅうんてん}",
+      "label": "drunk driving"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25104_shuyoiunten",
+      "reading": "しゅよいうんてん",
+      "headword": "{酒酔|しゅよ}い{運転|うんてん}",
+      "label": "drunk driving"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29230_dakouunten",
+      "reading": "だこううんてん",
+      "headword": "{蛇行運転|だこううんてん}",
+      "label": "reckless weaving driving"
+    }
+  ],
   "metadata": {
     "created": "2026-06-13T21:22:42Z",
-    "modified": "2026-06-13T21:22:42Z",
+    "modified": "2026-09-02T04:02:36Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["transportation", "law"],
-      "domain": ["legal"]
+      "semantic": [
+        "transportation",
+        "law"
+      ],
+      "domain": [
+        "legal"
+      ]
     }
   }
 }

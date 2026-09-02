@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "23581_juugekisen_ex1",
-      "japanese": "{警察|けいさつ}と{銃撃戦|じゅうげきせん}になった。",
+      "japanese": "⟦{警察|けいさつ}→警察：01393_keisatsu⟧⟦と→と：00512_to⟧{銃撃戦|じゅうげきせん}になった。",
       "english": "A shootout broke out with the police.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "23581_juugekisen_ex2",
-      "japanese": "{銃撃戦|じゅうげきせん}の{末|すえ}、{犯人|はんにん}は{逮捕|たいほ}された。",
+      "japanese": "{銃撃戦|じゅうげきせん}⟦の→の：09472_no⟧⟦{末|すえ}→末：03362_sue⟧、⟦{犯人|はんにん}→犯人：03572_hannin⟧⟦は→は：00079_ha⟧⟦{逮捕|たいほ}→逮捕：03397_taiho⟧⟦された→する：00392_suru⟧。",
       "english": "After a gun battle, the suspect was arrested.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "23581_juugekisen_ex3",
-      "japanese": "{映画|えいが}の{終盤|しゅうばん}で{派手|はで}な{銃撃戦|じゅうげきせん}のシーンがあった。",
+      "japanese": "⟦{映画|えいが}→映画：02273_eiga⟧⟦の→の：09472_no⟧⟦{終盤|しゅうばん}→終盤：13793_shuuban⟧⟦で→で：00502_de⟧⟦{派手|はで}→派手：03563_hade⟧な{銃撃戦|じゅうげきせん}⟦の→の：09472_no⟧⟦シーン→シーン：08914_shiin⟧⟦が→が：00051_ga⟧⟦あった→ある：00006_aru⟧。",
       "english": "There was a flashy shootout scene toward the end of the movie.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {銃撃|じゅうげき} (shooting with a gun) + {戦|せん} (battle). Used for any exchange of gunfire involving two or more parties, whether in real events such as police operations and wars or in fictional action scenes.\n\nCOMMON COLLOCATIONS:\n- {銃撃戦|じゅうげきせん}になる: to turn into a shootout\n- {銃撃戦|じゅうげきせん}が{起|お}きる: a gunfight breaks out\n- {激|はげ}しい{銃撃戦|じゅうげきせん}: an intense gun battle\n- {銃撃戦|じゅうげきせん}の{末|すえ}: after a gun battle\n\nSIMILAR WORDS:\n- {銃撃|じゅうげき}: shooting (with a gun) — the act of shooting, not necessarily a two-sided exchange\n- {発砲|はっぽう}: firing a gun — a single instance of firing, used in news reports\n- {戦闘|せんとう}: combat; battle — broader term covering any armed fighting",
+  "notes": "Compound of ⟦{銃撃|じゅうげき}→銃撃：27092_juugeki⟧ (shooting with a gun) + ⟦{戦|せん}→〜戦：28346_sen⟧ (battle). Used for any exchange of gunfire involving two or more parties, whether in real events such as police operations and wars or in fictional action scenes.\n\nCOMMON COLLOCATIONS:\n- {銃撃戦|じゅうげきせん}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧: to turn into a shootout\n- {銃撃戦|じゅうげきせん}⟦が→が：00051_ga⟧⟦{起|お}きる→起きる：00521_okiru⟧: a gunfight breaks out\n- ⟦{激|はげ}しい→激しい：02348_hageshii⟧{銃撃戦|じゅうげきせん}: an intense gun battle\n- {銃撃戦|じゅうげきせん}⟦の→の：09472_no⟧⟦{末|すえ}→末：03362_sue⟧: after a gun battle\n\nSIMILAR WORDS:\n- ⟦{銃撃|じゅうげき}→銃撃：27092_juugeki⟧: shooting (with a gun) — the act of shooting, not necessarily a two-sided exchange\n- {発砲|はっぽう}: firing a gun — a single instance of firing, used in news reports\n- ⟦{戦闘|せんとう}→戦闘：12639_sentou⟧: combat; battle — broader term covering any armed fighting",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12639_sentou",
+      "reading": "せんとう",
+      "headword": "{戦闘|せんとう}",
+      "label": "combat"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28328_juusei",
+      "reading": "じゅうせい",
+      "headword": "{銃声|じゅうせい}",
+      "label": "gunshot"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +76,6 @@
       ]
     },
     "created": "2026-04-12T18:09:50Z",
-    "modified": "2026-08-01T21:36:06Z"
+    "modified": "2026-09-02T04:02:13Z"
   }
 }

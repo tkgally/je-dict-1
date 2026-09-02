@@ -15,40 +15,73 @@
   "examples": [
     {
       "id": "24343_shinyakinmu_ex1",
-      "japanese": "{今週|こんしゅう}は{深夜勤務|しんやきんむ}が{多|おお}い。",
+      "japanese": "⟦{今週|こんしゅう}→今週：00721_konshuu⟧⟦は→は：00079_ha⟧{深夜勤務|しんやきんむ}⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "I have a lot of night shifts this week.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "24343_shinyakinmu_ex2",
-      "japanese": "{深夜勤務|しんやきんむ}には{割増|わりまし}{賃金|ちんぎん}が{支払|しはら}われる。",
+      "japanese": "{深夜勤務|しんやきんむ}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{割増|わりまし}→割増：17087_warimashi⟧⟦{賃金|ちんぎん}→賃金：04842_chingin⟧⟦が→が：00051_ga⟧⟦{支払|しはら}われる→支払う：02116_shiharau⟧。",
       "english": "Premium pay is given for late-night work.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "24343_shinyakinmu_ex3",
-      "japanese": "コンビニで{深夜勤務|しんやきんむ}をしていたので、{生活|せいかつ}リズムが{崩|くず}れてしまった。",
+      "japanese": "⟦コンビニ→コンビニ：01081_konbini⟧⟦で→で：00502_de⟧{深夜勤務|しんやきんむ}⟦を→を：00422_wo⟧⟦していた→する：00392_suru⟧⟦の→の：09472_no⟧で、⟦{生活|せいかつ}→生活：01443_seikatsu⟧⟦リズム→リズム：04746_rizumu⟧⟦が→が：00051_ga⟧⟦{崩|くず}れて→崩れる：04248_kuzureru⟧しまった。",
       "english": "I was doing late-night shifts at a convenience store, so my daily rhythm fell apart.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Combines {深夜|しんや} (late at night) and {勤務|きんむ} (work, duty). A formal compound used in workplace and labor contexts.\n\nCOMMON COLLOCATIONS:\n- {深夜勤務|しんやきんむ}{手当|てあて}: late-night work allowance\n- {深夜勤務|しんやきんむ}{明|あ}け: after finishing a night shift\n- {深夜勤務|しんやきんむ}が{続|つづ}く: night shifts continue\n- {深夜勤務|しんやきんむ}{禁止|きんし}: prohibition of late-night work\n\nUSAGE:\nCommon in industries that operate around the clock — convenience stores, hospitals, factories, transportation, and security. Japanese labor law ({労働基準法|ろうどうきじゅんほう}) mandates a 25% wage premium for work performed between 10 PM and 5 AM.\n\nSIMILAR WORDS:\n- {夜勤|やきん}: night shift — shorter and more colloquial, the most common word for working at night\n- {残業|ざんぎょう}: overtime — working beyond regular hours, not necessarily at night\n- {徹夜|てつや}: staying up all night — can be for work, study, or other purposes; emphasizes not sleeping",
+  "notes": "Combines ⟦{深夜|しんや}→深夜：00368_shinya⟧ (late at night) and ⟦{勤務|きんむ}→勤務：04545_kinmu⟧ (work, duty). A formal compound used in workplace and labor contexts.\n\nCOMMON COLLOCATIONS:\n- {深夜勤務|しんやきんむ}{手当|てあて}: late-night work allowance\n- {深夜勤務|しんやきんむ}⟦{明|あ}け→明け：13157_ake⟧: after finishing a night shift\n- {深夜勤務|しんやきんむ}⟦が→が：00051_ga⟧⟦{続|つづ}く→続く：00903_tsuzuku⟧: night shifts continue\n- {深夜勤務|しんやきんむ}⟦{禁止|きんし}→禁止：02643_kinshi⟧: prohibition of late-night work\n\nUSAGE:\nCommon in industries that operate around the clock — convenience stores, hospitals, factories, transportation, and security. Japanese labor law (⟦{労働基準法|ろうどうきじゅんほう}→労働基準法：17911_roudoukijunhou⟧) mandates a 25% wage premium for work performed between 10 PM and 5 AM.\n\nSIMILAR WORDS:\n- ⟦{夜勤|やきん}→夜勤：09549_yakin⟧: night shift — shorter and more colloquial, the most common word for working at night\n- ⟦{残業|ざんぎょう}→残業：01071_zangyou⟧: overtime — working beyond regular hours, not necessarily at night\n- ⟦{徹夜|てつや}→徹夜：03552_tetsuya⟧: staying up all night — can be for work, study, or other purposes; emphasizes not sleeping",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09549_yakin",
+      "reading": "やきん",
+      "headword": "{夜勤|やきん}",
+      "label": "night shift"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01071_zangyou",
+      "reading": "ざんぎょう",
+      "headword": "{残業|ざんぎょう}",
+      "label": "overtime"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03552_tetsuya",
+      "reading": "てつや",
+      "headword": "{徹夜|てつや}",
+      "label": "staying up all night"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["work"]
+      "semantic": [
+        "work"
+      ]
     },
     "created": "2026-04-18T14:35:11Z",
-    "modified": "2026-04-18T14:35:11Z"
+    "modified": "2026-09-02T04:02:17Z"
   }
 }

@@ -3,7 +3,7 @@
   "headword": "{伝送|でんそう}",
   "reading": "でんそう",
   "romaji": "densou",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "transmission; data transfer; signal conveyance",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25909_densou_ex1",
-      "japanese": "データの{伝送|でんそう}が{完了|かんりょう}した。",
+      "japanese": "⟦データ→データ：03944_deeta⟧⟦の→の：09472_no⟧{伝送|でんそう}⟦が→が：00051_ga⟧⟦{完了|かんりょう}した→完了する：20676_kanryousuru⟧。",
       "english": "The data transmission is complete.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25909_densou_ex2",
-      "japanese": "{光|ひかり}ファイバーによる{高速|こうそく}{伝送|でんそう}が{普及|ふきゅう}している。",
+      "japanese": "⟦{光|ひかり}→光：01707_hikari⟧ファイバー⟦による→による：28349_niyoru⟧⟦{高速|こうそく}→高速：02749_kousoku⟧{伝送|でんそう}⟦が→が：00051_ga⟧⟦{普及|ふきゅう}している→普及する：22182_fukyuusuru⟧。",
       "english": "High-speed transmission via fiber optics is becoming widespread.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25909_densou_ex3",
-      "japanese": "{伝送|でんそう}{速度|そくど}が{遅|おそ}いと、{動画|どうが}の{再生|さいせい}が{途切|とぎ}れてしまうことがある。",
+      "japanese": "{伝送|でんそう}{速度|そくど}⟦が→が：00051_ga⟧⟦{遅|おそ}い→遅い：00533_osoi⟧⟦と→と：00512_to⟧、⟦{動画|どうが}→動画：04443_douga⟧⟦の→の：09472_no⟧⟦{再生|さいせい}→再生：04442_saisei⟧⟦が→が：00051_ga⟧⟦{途切|とぎ}れて→途切れる：18055_togireru⟧しまうこと⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "When the transmission speed is slow, video playback can get interrupted.",
       "sense_numbers": [
         1
@@ -44,8 +44,30 @@
       "notes": null
     }
   ],
-  "notes": "A technical term primarily used in telecommunications and information technology. Composed of {伝|でん} (transmit; convey) + {送|そう} (send). Focuses specifically on the movement of data or signals through a medium, as opposed to the broader concept of communication.\n\nCOMMON COLLOCATIONS:\n- {伝送|でんそう}{速度|そくど}: transmission speed\n- {伝送|でんそう}{路|ろ}: transmission path; channel\n- {伝送|でんそう}{方式|ほうしき}: transmission method\n- データ{伝送|でんそう}: data transmission\n- {無線|むせん}{伝送|でんそう}: wireless transmission\n\nSIMILAR WORDS:\n- {送信|そうしん}: sending; transmitting — the act of sending from the sender's side\n- {通信|つうしん}: communication; telecommunications — broader term covering both sending and receiving\n- {転送|てんそう}: forwarding; transfer — relaying data or messages to another destination",
-  "cross_references": [],
+  "notes": "A technical term primarily used in telecommunications and information technology. Composed of {伝|でん} (transmit; convey) + {送|そう} (send). Focuses specifically on the movement of data or signals through a medium, as opposed to the broader concept of communication.\n\nCOMMON COLLOCATIONS:\n- {伝送|でんそう}{速度|そくど}: transmission speed\n- {伝送|でんそう}{路|ろ}: transmission path; channel\n- {伝送|でんそう}⟦{方式|ほうしき}→方式：05454_houshiki⟧: transmission method\n- ⟦データ→データ：03944_deeta⟧{伝送|でんそう}: data transmission\n- ⟦{無線|むせん}→無線：09226_musen⟧{伝送|でんそう}: wireless transmission\n\nSIMILAR WORDS:\n- ⟦{送信|そうしん}→送信：17692_soushin⟧: sending; transmitting — the act of sending from the sender's side\n- ⟦{通信|つうしん}→通信：03514_tsuushin⟧: communication; telecommunications — broader term covering both sending and receiving\n- ⟦{転送|てんそう}→転送：14792_tensou⟧: forwarding; transfer — relaying data or messages to another destination",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17692_soushin",
+      "reading": "そうしん",
+      "headword": "{送信|そうしん}",
+      "label": "sending"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03514_tsuushin",
+      "reading": "つうしん",
+      "headword": "{通信|つうしん}",
+      "label": "communication"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14792_tensou",
+      "reading": "てんそう",
+      "headword": "{転送|てんそう}",
+      "label": "forwarding"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -54,6 +76,8 @@
         "noun",
         "verb-suru"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "technology",
         "communication"
@@ -61,7 +85,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-28T12:20:41Z",
-    "modified": "2026-04-28T12:20:41Z"
+    "modified": "2026-09-02T04:02:24Z"
   },
   "conjugation": {
     "type": "suru",

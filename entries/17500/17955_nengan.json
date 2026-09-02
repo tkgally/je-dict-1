@@ -15,41 +15,73 @@
   "examples": [
     {
       "id": "17955_nengan_ex1",
-      "japanese": "{念願|ねんがん}の{夢|ゆめ}が{叶|かな}った。",
+      "japanese": "{念願|ねんがん}⟦の→の：09472_no⟧⟦{夢|ゆめ}→夢：01519_yume⟧⟦が→が：00051_ga⟧⟦{叶|かな}った→叶う：05303_kanau⟧。",
       "english": "My long-cherished dream came true.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17955_nengan_ex2",
-      "japanese": "{念願|ねんがん}のマイホームをやっと{手|て}に{入|い}れた。",
+      "japanese": "{念願|ねんがん}⟦の→の：09472_no⟧⟦マイホーム→マイホーム：27323_maihoomu⟧⟦を→を：00422_wo⟧⟦やっと→やっと：01561_yatto⟧⟦{手|て}→手：00569_te⟧⟦に→に：00314_ni⟧⟦{入|い}れた→入れる：01098_ireru⟧。",
       "english": "I finally got the home I had always dreamed of.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17955_nengan_ex3",
-      "japanese": "{十年|じゅうねん}{越|ご}しの{念願|ねんがん}だった{海外旅行|かいがいりょこう}に、ついに{行|い}くことができた。",
+      "japanese": "{十年|じゅうねん}{越|ご}し⟦の→の：09472_no⟧{念願|ねんがん}だった⟦{海外旅行|かいがいりょこう}→海外旅行：24321_kaigairyokou⟧⟦に→に：00314_ni⟧、ついに⟦{行|い}く→行く：00119_iku⟧こと⟦が→が：00051_ga⟧⟦できた→できる：00557_dekiru⟧。",
       "english": "I was finally able to take the overseas trip I had been dreaming about for over ten years.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nAlmost always used with the pattern {念願|ねんがん}の + noun, meaning \"the long-desired [noun].\" The most common combination is {念願|ねんがん}の{夢|ゆめ}が{叶|かな}う (a long-held dream comes true). Often appears in happy announcements or celebrations.\n\nCOMMON COLLOCATIONS:\n- {念願|ねんがん}の{夢|ゆめ} (long-cherished dream)\n- {念願|ねんがん}が{叶|かな}う (a long-held wish comes true)\n- {念願|ねんがん}の{優勝|ゆうしょう} (long-desired championship victory)\n- {念願|ねんがん}だった + noun (the [noun] one had always wished for)\n\nSIMILAR WORDS:\n- {悲願|ひがん}: heartfelt wish — stronger and more serious; often used for groups or organizations striving toward a difficult goal\n- {願望|がんぼう}: desire, wish — more general; does not imply a long period of wanting",
-  "cross_references": [],
+  "notes": "USAGE:\nAlmost always used with the pattern {念願|ねんがん}⟦の→の：09472_no⟧ + noun, meaning \"the long-desired [noun].\" The most common combination is {念願|ねんがん}⟦の→の：09472_no⟧⟦{夢|ゆめ}→夢：01519_yume⟧⟦が→が：00051_ga⟧⟦{叶|かな}う→叶う：05303_kanau⟧ (a long-held dream comes true). Often appears in happy announcements or celebrations.\n\nCOMMON COLLOCATIONS:\n- {念願|ねんがん}⟦の→の：09472_no⟧⟦{夢|ゆめ}→夢：01519_yume⟧ (long-cherished dream)\n- {念願|ねんがん}⟦が→が：00051_ga⟧⟦{叶|かな}う→叶う：05303_kanau⟧ (a long-held wish comes true)\n- {念願|ねんがん}⟦の→の：09472_no⟧⟦{優勝|ゆうしょう}→優勝：03647_yuushou⟧ (long-desired championship victory)\n- {念願|ねんがん}だった + noun (the [noun] one had always wished for)\n\nSIMILAR WORDS:\n- ⟦{悲願|ひがん}→悲願：21839_higan⟧: heartfelt wish — stronger and more serious; often used for groups or organizations striving toward a difficult goal\n- ⟦{願望|がんぼう}→願望：05085_ganbou⟧: desire, wish — more general; does not imply a long period of wanting",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21839_higan",
+      "reading": "ひがん",
+      "headword": "{悲願|ひがん}",
+      "label": "heartfelt wish"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05085_ganbou",
+      "reading": "がんぼう",
+      "headword": "{願望|がんぼう}",
+      "label": "desire, wish"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22664_shukugan",
+      "reading": "しゅくがん",
+      "headword": "{宿願|しゅくがん}",
+      "label": "long-cherished wish"
+    }
+  ],
   "metadata": {
     "created": "2026-03-19T09:59:38Z",
-    "modified": "2026-03-19T09:59:38Z",
+    "modified": "2026-09-02T04:01:50Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["emotion"]
+      "semantic": [
+        "emotion"
+      ]
     }
   }
 }

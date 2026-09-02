@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "17694_ichiran_ex1",
-      "japanese": "{料金|りょうきん}{一覧|いちらん}を{確認|かくにん}する。",
+      "japanese": "⟦{料金|りょうきん}→料金：03797_ryoukin⟧{一覧|いちらん}⟦を→を：00422_wo⟧⟦{確認|かくにん}する→確認する：25332_kakuninsuru⟧。",
       "english": "Check the price list.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "17694_ichiran_ex2",
-      "japanese": "{商品|しょうひん}{一覧|いちらん}はウェブサイトでご{覧|らん}いただけます。",
+      "japanese": "⟦{商品|しょうひん}→商品：01436_shouhin⟧{一覧|いちらん}⟦は→は：00079_ha⟧⟦ウェブサイト→ウェブサイト：05152_webusaito⟧⟦で→で：00502_de⟧⟦ご{覧|らん}→ご覧：01408_goran⟧⟦いただけます→いただく：01326_itadaku⟧。",
       "english": "The product list can be viewed on our website.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "17694_ichiran_ex3",
-      "japanese": "{参加者|さんかしゃ}の{一覧|いちらん}{表|ひょう}を{作成|さくせい}して、{全員|ぜんいん}にメールで{送|おく}った。",
+      "japanese": "⟦{参加者|さんかしゃ}→参加者：03059_sankasha⟧⟦の→の：09472_no⟧{一覧|いちらん}{表|ひょう}⟦を→を：00422_wo⟧⟦{作成|さくせい}して→作成する：25378_sakuseisuru⟧、⟦{全員|ぜんいん}→全員：03310_zenin⟧⟦に→に：00314_ni⟧⟦メール→メール：04435_meeru⟧⟦で→で：00502_de⟧⟦{送|おく}った→送る：00742_okuru⟧。",
       "english": "I created a list of participants and emailed it to everyone.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,26 @@
       ]
     }
   ],
-  "notes": "{一覧|いちらん} is used for organized lists and summaries, often in written or formal contexts.\n\nCOMMON COLLOCATIONS:\n- {一覧|いちらん}{表|ひょう} (list, table)\n- {一覧|いちらん}する (to look over, to glance through)\n- {料金|りょうきん}{一覧|いちらん} (price list)\n- {商品|しょうひん}{一覧|いちらん} (product list)\n- メニュー{一覧|いちらん} (menu list)\n- {一覧|いちらん}ページ (listing page)\n\nUSAGE NOTES:\n- Often used as a suffix attached to another noun: {価格|かかく}{一覧|いちらん} (price list)\n- {一覧|いちらん}する functions as a する verb meaning \"to look over\" or \"to survey,\" though it is quite formal",
-  "cross_references": [],
+  "notes": "{一覧|いちらん} is used for organized lists and summaries, often in written or formal contexts.\n\nCOMMON COLLOCATIONS:\n- {一覧|いちらん}{表|ひょう} (list, table)\n- {一覧|いちらん}⟦する→する：00392_suru⟧ (to look over, to glance through)\n- ⟦{料金|りょうきん}→料金：03797_ryoukin⟧{一覧|いちらん} (price list)\n- ⟦{商品|しょうひん}→商品：01436_shouhin⟧{一覧|いちらん} (product list)\n- ⟦メニュー→メニュー：11166_menyuu⟧{一覧|いちらん} (menu list)\n- {一覧|いちらん}⟦ページ→ページ：02961_peeji⟧ (listing page)\n\nUSAGE:\n- Often used as a suffix attached to another noun: ⟦{価格|かかく}→価格：00147_kakaku⟧{一覧|いちらん} (price list)\n- {一覧|いちらん}⟦する→する：00392_suru⟧ functions as a ⟦する→する：00392_suru⟧ verb meaning \"to look over\" or \"to survey,\" though it is quite formal",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "16989_kajougaki",
+      "reading": "かじょうがき",
+      "headword": "{箇条書|かじょうが}き",
+      "label": "bulleted list"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24631_souran",
+      "reading": "そうらん",
+      "headword": "{総覧|そうらん}",
+      "label": "comprehensive survey"
+    }
+  ],
   "metadata": {
     "created": "2026-02-15T00:17:16Z",
-    "modified": "2026-03-29T03:08:18Z",
+    "modified": "2026-09-02T04:01:49Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

@@ -20,65 +20,97 @@
   "examples": [
     {
       "id": "27957_pondo_ex1",
-      "japanese": "{円|えん}をポンドに{替|か}える。",
+      "japanese": "⟦{円|えん}→円：00774_en⟧⟦を→を：00422_wo⟧ポンド⟦に→に：00314_ni⟧⟦{替|か}える→替える：13399_kaeru⟧。",
       "english": "I change yen into pounds.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27957_pondo_ex2",
-      "japanese": "{家賃|やちん}は{月|つき}{八百|はっぴゃく}ポンドだ。",
+      "japanese": "⟦{家賃|やちん}→家賃：03639_yachin⟧⟦は→は：00079_ha⟧⟦{月|つき}→月：02230_tsuki⟧⟦{八百|はっぴゃく}→八百：30452_happyaku⟧ポンドだ。",
       "english": "The rent is 800 pounds a month.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27957_pondo_ex3",
-      "japanese": "ポンドはアメリカドルに{対|たい}して{値下|ねさ}がりした。",
+      "japanese": "ポンド⟦は→は：00079_ha⟧アメリカドル⟦に{対|たい}して→に対して：06800_nitaishite⟧⟦{値下|ねさ}がり→値下がり：22228_nesagari⟧⟦した→する：00392_suru⟧。",
       "english": "The pound fell against the US dollar.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27957_pondo_ex4",
-      "japanese": "{赤|あか}ちゃんは{七|なな}ポンドで{生|う}まれた。",
+      "japanese": "⟦{赤|あか}ちゃん→赤ちゃん：01282_akachan⟧⟦は→は：00079_ha⟧⟦{七|なな}→七：00734_nana⟧ポンド⟦で→で：00502_de⟧⟦{生|う}まれた→生まれる：00905_umareru⟧。",
       "english": "The baby was born weighing seven pounds.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27957_pondo_ex5",
-      "japanese": "{牛肉|ぎゅうにく}を{一|いち}ポンド{買|か}った。",
+      "japanese": "⟦{牛肉|ぎゅうにく}→牛肉：02874_gyuuniku⟧⟦を→を：00422_wo⟧⟦{一|いち}→一：00705_ichi⟧ポンド⟦{買|か}った→買う：00489_kau⟧。",
       "english": "I bought one pound of beef.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27957_pondo_ex6",
-      "japanese": "アメリカのレシピでは{材料|ざいりょう}の{量|りょう}がポンドで{書|か}かれていることが{多|おお}い。",
+      "japanese": "⟦アメリカ→アメリカ：01769_amerika⟧⟦の→の：09472_no⟧⟦レシピ→レシピ：07157_reshipi⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{材料|ざいりょう}→材料：02831_zairyou⟧⟦の→の：09472_no⟧⟦{量|りょう}→量：03799_ryou⟧⟦が→が：00051_ga⟧ポンド⟦で→で：00502_de⟧⟦{書|か}かれている→書く：00477_kaku⟧こと⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "In American recipes the amounts of ingredients are often written in pounds.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Two meanings share the same word, both borrowed from English. Context makes clear which is meant.\n\nUSAGE:\n- As currency, used as a counter: {十|じゅう}ポンド (10 pounds).\n- As weight, Japan normally uses the metric system, so the pound appears mainly with foreign products, body weight overseas, or imported recipes.\n\nSIMILAR WORDS:\n- ドル: dollar\n- ユーロ: euro\n- キロ: kilogram — the everyday unit of weight in Japan",
+  "notes": "Two meanings share the same word, both borrowed from English. Context makes clear which is meant.\n\nUSAGE:\n- As currency, used as a counter: ⟦{十|じゅう}→十：00708_juu⟧ポンド (10 pounds).\n- As weight, Japan normally uses the metric system, so the pound appears mainly with foreign products, body weight overseas, or imported recipes.\n\nSIMILAR WORDS:\n- ⟦ドル→ドル：01554_doru⟧: dollar\n- ⟦ユーロ→ユーロ：27956_yuuro⟧: euro\n- ⟦キロ→キロ：01350_kiro⟧: kilogram — the everyday unit of weight in Japan",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01554_doru",
+      "reading": "どる",
+      "headword": "ドル",
+      "label": "dollar"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27956_yuuro",
+      "reading": "ゆーろ",
+      "headword": "ユーロ",
+      "label": "euro"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
+      "semantic": [
+        "general"
+      ],
       "domain": []
     },
     "created": "2026-05-23T04:06:38Z",
-    "modified": "2026-05-23T04:06:38Z"
+    "modified": "2026-09-02T04:02:32Z"
   }
 }

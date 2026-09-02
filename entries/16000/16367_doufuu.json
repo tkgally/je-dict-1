@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "16367_doufuu_ex1",
-      "japanese": "{書類|しょるい}を{同封|どうふう}しました。",
+      "japanese": "⟦{書類|しょるい}→書類：01103_shorui⟧⟦を→を：00422_wo⟧{同封|どうふう}⟦しました→する：00392_suru⟧。",
       "english": "I have enclosed the documents.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "16367_doufuu_ex2",
-      "japanese": "{返信用|へんしんよう}の{封筒|ふうとう}を{同封|どうふう}いたします。",
+      "japanese": "{返信用|へんしんよう}⟦の→の：09472_no⟧⟦{封筒|ふうとう}→封筒：02952_fuutou⟧⟦を→を：00422_wo⟧{同封|どうふう}⟦いたします→いたす：01314_itasu⟧。",
       "english": "I am enclosing a return envelope.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "16367_doufuu_ex3",
-      "japanese": "{同封|どうふう}の{資料|しりょう}をご{確認|かくにん}ください。",
+      "japanese": "{同封|どうふう}⟦の→の：09472_no⟧⟦{資料|しりょう}→資料：04166_shiryou⟧⟦を→を：00422_wo⟧⟦ご{確認|かくにん}→ご確認：23544_gokakunin⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please review the enclosed materials.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "{同封|どうふう} is composed of {同|どう} (together, same) and {封|ふう} (seal, envelope). It is used as a する verb: {同封|どうふう}する (to enclose).\n\nThis word is primarily used in formal correspondence, both written letters and business communications.\n\nCOMMON COLLOCATIONS:\n- {同封|どうふう}する (to enclose)\n- {同封|どうふう}の{書類|しょるい} (the enclosed documents)\n- 〜を{同封|どうふう}いたします (I am enclosing... — polite business form)\n\nSIMILAR WORDS:\n- {添付|てんぷ}: attachment — used for email attachments ({添付|てんぷ}ファイル)\n- {同梱|どうこん}: including in the same package — used for parcels, product bundles",
+  "notes": "{同封|どうふう} is composed of ⟦{同|どう}→同〜：03962_dou⟧ (together, same) and {封|ふう} (seal, envelope). It is used as a ⟦する→する：00392_suru⟧ verb: {同封|どうふう}⟦する→する：00392_suru⟧ (to enclose).\n\nThis word is primarily used in formal correspondence, both written letters and business communications.\n\nCOMMON COLLOCATIONS:\n- {同封|どうふう}⟦する→する：00392_suru⟧ (to enclose)\n- {同封|どうふう}⟦の→の：09472_no⟧⟦{書類|しょるい}→書類：01103_shorui⟧ (the enclosed documents)\n- 〜⟦を→を：00422_wo⟧{同封|どうふう}⟦いたします→いたす：01314_itasu⟧ (I am enclosing... — polite business form)\n\nSIMILAR WORDS:\n- ⟦{添付|てんぷ}→添付：07376_tenpu⟧: attachment — used for email attachments (⟦{添付|てんぷ}ファイル→添付ファイル：24475_tenpufairu⟧)\n- ⟦{同梱|どうこん}→同梱：21093_doukon⟧: including in the same package — used for parcels, product bundles",
   "cross_references": [
     {
       "type": "synonym",
@@ -142,11 +142,25 @@
       "reading": "ふうにゅう",
       "headword": "{封入|ふうにゅう}",
       "label": "sealing inside a package"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07376_tenpu",
+      "reading": "てんぷ",
+      "headword": "{添付|てんぷ}",
+      "label": "attachment"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21093_doukon",
+      "reading": "どうこん",
+      "headword": "{同梱|どうこん}",
+      "label": "including in the same package"
     }
   ],
   "metadata": {
     "created": "2026-03-12T02:35:30Z",
-    "modified": "2026-05-03T07:09:48Z",
+    "modified": "2026-09-02T04:01:44Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -159,7 +173,8 @@
       "semantic": [
         "communication"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

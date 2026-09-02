@@ -3,7 +3,7 @@
   "id": "13060_rainichi",
   "headword": "{来日|らいにち}",
   "reading": "らいにち",
-  "part_of_speech": "noun / suru verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "coming to Japan, visiting Japan",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "13060_rainichi_ex1",
-      "japanese": "{大統領|だいとうりょう}が{来日|らいにち}した。",
+      "japanese": "⟦{大統領|だいとうりょう}→大統領：03418_daitouryou⟧⟦が→が：00051_ga⟧{来日|らいにち}⟦した→する：00392_suru⟧。",
       "english": "The president came to Japan.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "13060_rainichi_ex2",
-      "japanese": "{来日|らいにち}{観光客|かんこうきゃく}の{数|かず}が{増|ふ}えている。",
+      "japanese": "{来日|らいにち}⟦{観光客|かんこうきゃく}→観光客：03022_kankoukyaku⟧⟦の→の：09472_no⟧⟦{数|かず}→数：00204_kazu⟧⟦が→が：00051_ga⟧⟦{増|ふ}えている→増える：01183_fueru⟧。",
       "english": "The number of tourists visiting Japan is increasing.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "13060_rainichi_ex3",
-      "japanese": "その{有名|ゆうめい}なピアニストは{来日|らいにち}{公演|こうえん}のために{先週|せんしゅう}{東京|とうきょう}に{到着|とうちゃく}した。",
+      "japanese": "⟦その→その：00993_sono⟧⟦{有名|ゆうめい}→有名：01106_yuumei⟧な⟦ピアニスト→ピアニスト：19413_pianisuto⟧⟦は→は：00079_ha⟧{来日|らいにち}⟦{公演|こうえん}→公演：11639_kouen⟧⟦の→の：09472_no⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧⟦{先週|せんしゅう}→先週：00752_senshuu⟧⟦{東京|とうきょう}→東京：09564_toukyou⟧⟦に→に：00314_ni⟧⟦{到着|とうちゃく}→到着：02526_touchaku⟧⟦した→する：00392_suru⟧。",
       "english": "The famous pianist arrived in Tokyo last week for their Japan tour performances.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,11 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{来日|らいにち}する is used specifically for foreigners coming to Japan. For Japanese people going to other countries, different compounds are used:\n- {訪米|ほうべい}: visiting the US\n- {訪中|ほうちゅう}: visiting China\n- {訪韓|ほうかん}: visiting Korea\n\nCOMMON COLLOCATIONS:\n- {来日|らいにち}{公演|こうえん}: Japan tour/performance\n- {来日|らいにち}{観光客|かんこうきゃく}: tourists visiting Japan\n- {初|はつ}{来日|らいにち}: first visit to Japan\n- {来日|らいにち}{中|ちゅう}: during one's stay in Japan\n\nPATTERN:\nThe {来|らい} + country pattern is productive: {来日|らいにち} (come to Japan), {来米|らいべい} (come to the US, less common), etc. This pattern takes the perspective of someone in the destination country.",
+  "notes": "USAGE:\n{来日|らいにち}⟦する→する：00392_suru⟧ is used specifically for foreigners coming to Japan. For Japanese people going to other countries, different compounds are used:\n- ⟦{訪米|ほうべい}→訪米：22848_houbei⟧: visiting the US\n- {訪中|ほうちゅう}: visiting China\n- {訪韓|ほうかん}: visiting Korea\n\nCOMMON COLLOCATIONS:\n- {来日|らいにち}⟦{公演|こうえん}→公演：11639_kouen⟧: Japan tour/performance\n- {来日|らいにち}⟦{観光客|かんこうきゃく}→観光客：03022_kankoukyaku⟧: tourists visiting Japan\n- {初|はつ}{来日|らいにち}: first visit to Japan\n- {来日|らいにち}⟦{中|ちゅう}→〜中：09840_chuu⟧: during one's stay in Japan\n\nCOMMON PATTERNS:\nThe {来|らい} + country pattern is productive: {来日|らいにち} (come to Japan), {来米|らいべい} (come to the US, less common), etc. This pattern takes the perspective of someone in the destination country.",
   "cross_references": [],
   "metadata": {
     "created": "2026-02-23T10:06:52Z",
-    "modified": "2026-03-29T03:07:35Z",
+    "modified": "2026-09-02T04:01:31Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -151,7 +151,8 @@
       "semantic": [
         "movement"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

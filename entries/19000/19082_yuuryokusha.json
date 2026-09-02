@@ -15,40 +15,80 @@
   "examples": [
     {
       "id": "19082_yuuryokusha_ex1",
-      "japanese": "{地元|じもと}の{有力者|ゆうりょくしゃ}に{相談|そうだん}した。",
+      "japanese": "⟦{地元|じもと}→地元：09941_jimoto⟧⟦の→の：09472_no⟧{有力者|ゆうりょくしゃ}⟦に→に：00314_ni⟧⟦{相談|そうだん}した→相談する：01845_soudansuru⟧。",
       "english": "I consulted a local person of influence.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19082_yuuryokusha_ex2",
-      "japanese": "{政界|せいかい}の{有力者|ゆうりょくしゃ}が{集|あつ}まった。",
+      "japanese": "⟦{政界|せいかい}→政界：15196_seikai⟧⟦の→の：09472_no⟧{有力者|ゆうりょくしゃ}⟦が→が：00051_ga⟧⟦{集|あつ}まった→集まる：01162_atsumaru⟧。",
       "english": "Influential figures in politics gathered together.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19082_yuuryokusha_ex3",
-      "japanese": "その{事業|じぎょう}は{地域|ちいき}の{有力者|ゆうりょくしゃ}の{支援|しえん}を{受|う}けて{成功|せいこう}した。",
+      "japanese": "⟦その→その：00993_sono⟧⟦{事業|じぎょう}→事業：11421_jigyou⟧⟦は→は：00079_ha⟧⟦{地域|ちいき}→地域：01461_chiiki⟧⟦の→の：09472_no⟧{有力者|ゆうりょくしゃ}⟦の→の：09472_no⟧⟦{支援|しえん}→支援：07778_shien⟧⟦を→を：00422_wo⟧⟦{受|う}けて→受ける：01215_ukeru⟧⟦{成功|せいこう}した→成功する：21445_seikousuru⟧。",
       "english": "The project succeeded with the support of influential people in the region.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Built from {有力|ゆうりょく} (influential, powerful) + {者|しゃ} (person). Refers to someone who holds significant sway in a community, organization, or political sphere.\n\nCOMMON COLLOCATIONS:\n- {地元|じもと}の{有力者|ゆうりょくしゃ}: local person of influence\n- {政界|せいかい}の{有力者|ゆうりょくしゃ}: political heavyweight\n- {財界|ざいかい}の{有力者|ゆうりょくしゃ}: influential figure in the business world\n\nSIMILAR WORDS:\n- {実力者|じつりょくしゃ}: person of real power (emphasizes actual ability)\n- {権力者|けんりょくしゃ}: person in authority (emphasizes formal power)\n- {名士|めいし}: notable figure, distinguished person (emphasizes reputation)\n\nREGISTER:\nA formal word. More common in news, political discussion, and written Japanese than in casual conversation.",
+  "notes": "Built from ⟦{有力|ゆうりょく}→有力：13007_yuuryoku⟧ (influential, powerful) + ⟦{者|しゃ}→〜者：04662_sha⟧ (person). Refers to someone who holds significant sway in a community, organization, or political sphere.\n\nCOMMON COLLOCATIONS:\n- ⟦{地元|じもと}→地元：09941_jimoto⟧⟦の→の：09472_no⟧{有力者|ゆうりょくしゃ}: local person of influence\n- ⟦{政界|せいかい}→政界：15196_seikai⟧⟦の→の：09472_no⟧{有力者|ゆうりょくしゃ}: political heavyweight\n- ⟦{財界|ざいかい}→財界：22340_zaikai⟧⟦の→の：09472_no⟧{有力者|ゆうりょくしゃ}: influential figure in the business world\n\nSIMILAR WORDS:\n- ⟦{実力者|じつりょくしゃ}→実力者：21845_jitsuryokusha⟧: person of real power (emphasizes actual ability)\n- ⟦{権力者|けんりょくしゃ}→権力者：17021_kenryokusha⟧: person in authority (emphasizes formal power)\n- ⟦{名士|めいし}→名士：21860_meishi⟧: notable figure, distinguished person (emphasizes reputation)\n\nREGISTER:\nA formal word. More common in news, political discussion, and written Japanese than in casual conversation.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21845_jitsuryokusha",
+      "reading": "じつりょくしゃ",
+      "headword": "{実力者|じつりょくしゃ}",
+      "label": "person of real power"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17021_kenryokusha",
+      "reading": "けんりょくしゃ",
+      "headword": "{権力者|けんりょくしゃ}",
+      "label": "person in authority"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21860_meishi",
+      "reading": "めいし",
+      "headword": "{名士|めいし}",
+      "label": "notable figure, distinguished person"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25127_kaoyaku",
+      "reading": "かおやく",
+      "headword": "{顔役|かおやく}",
+      "label": "influential person"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["person"]
+      "semantic": [
+        "person"
+      ]
     },
     "created": "2026-03-24T09:33:24Z",
-    "modified": "2026-03-29T07:15:08Z"
+    "modified": "2026-09-02T04:01:54Z"
   }
 }

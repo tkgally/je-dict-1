@@ -3,7 +3,7 @@
   "id": "13590_kakusaku",
   "headword": "{画策|かくさく}",
   "reading": "かくさく",
-  "part_of_speech": "noun; verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "scheming, plotting",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "13590_kakusaku_ex1",
-      "japanese": "{彼|かれ}は{裏|うら}で{画策|かくさく}していた。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{裏|うら}→裏：02178_ura⟧⟦で→で：00502_de⟧{画策|かくさく}⟦していた→する：00392_suru⟧。",
       "english": "He was scheming behind the scenes.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "13590_kakusaku_ex2",
-      "japanese": "{政権|せいけん}{交代|こうたい}を{画策|かくさく}する{動|うご}きがあった。",
+      "japanese": "⟦{政権|せいけん}→政権：12883_seiken⟧⟦{交代|こうたい}→交代：14943_koutai⟧⟦を→を：00422_wo⟧{画策|かくさく}⟦する→する：00392_suru⟧⟦{動|うご}き→動き：11926_ugoki⟧⟦が→が：00051_ga⟧⟦あった→ある：00006_aru⟧。",
       "english": "There were moves to plot a change of government.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "13590_kakusaku_ex3",
-      "japanese": "{競合|きょうごう}{他社|たしゃ}を{追|お}い{落|お}とそうと{画策|かくさく}したが、{結局|けっきょく}{自分|じぶん}たちの{評判|ひょうばん}を{落|お}とす{結果|けっか}になった。",
+      "japanese": "⟦{競合|きょうごう}{他社|たしゃ}→競合他社：25602_kyougoutasha⟧⟦を→を：00422_wo⟧⟦{追|お}い{落|お}とそう→追い落とす：18717_oiotosu⟧⟦と→と：00512_to⟧{画策|かくさく}⟦した→する：00392_suru⟧⟦が→が：00051_ga⟧、⟦{結局|けっきょく}→結局：03815_kekkyoku⟧⟦{自分|じぶん}→自分：02887_jibun⟧たち⟦の→の：09472_no⟧⟦{評判|ひょうばん}→評判：03586_hyouban⟧⟦を→を：00422_wo⟧⟦{落|お}とす→落とす：01246_otosu⟧⟦{結果|けっか}→結果：02486_kekka⟧になった。",
       "english": "They schemed to bring down a rival company, but it ended up damaging their own reputation.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nAlmost always carries a negative connotation. Used to describe secret, self-serving plans or political maneuvering. Functions as a する verb: {画策|かくさく}する (to scheme, to plot).\n\nSIMILAR WORDS:\n- {計画|けいかく}: plan — neutral, no negative connotation\n- {画策|かくさく}: scheme, plot — implies secrecy and negative intent\n- {陰謀|いんぼう}: conspiracy — stronger, implies larger-scale plotting\n\nCOMMON COLLOCATIONS:\n- {裏|うら}で{画策|かくさく}する: scheme behind the scenes\n- {密|ひそ}かに{画策|かくさく}する: secretly plot\n- クーデターを{画策|かくさく}する: plot a coup",
+  "notes": "USAGE:\nAlmost always carries a negative connotation. Used to describe secret, self-serving plans or political maneuvering. Functions as a ⟦する→する：00392_suru⟧ verb: {画策|かくさく}⟦する→する：00392_suru⟧ (to scheme, to plot).\n\nSIMILAR WORDS:\n- ⟦{計画|けいかく}→計画：01172_keikaku⟧: plan — neutral, no negative connotation\n- {画策|かくさく}: scheme, plot — implies secrecy and negative intent\n- ⟦{陰謀|いんぼう}→陰謀：10887_inbou⟧: conspiracy — stronger, implies larger-scale plotting\n\nCOMMON COLLOCATIONS:\n- ⟦{裏|うら}→裏：02178_ura⟧⟦で→で：00502_de⟧{画策|かくさく}⟦する→する：00392_suru⟧: scheme behind the scenes\n- ⟦{密|ひそ}か→密か：10515_hisoka⟧⟦に→に：00314_ni⟧{画策|かくさく}⟦する→する：00392_suru⟧: secretly plot\n- クーデター⟦を→を：00422_wo⟧{画策|かくさく}⟦する→する：00392_suru⟧: plot a coup",
   "cross_references": [
     {
       "type": "synonym",
@@ -149,11 +149,18 @@
       "reading": "けいかく",
       "headword": "{計画|けいかく}",
       "label": "plan (neutral)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22967_sakubou",
+      "reading": "さくぼう",
+      "headword": "{策謀|さくぼう}",
+      "label": "plot"
     }
   ],
   "metadata": {
     "created": "2026-02-26T09:49:17Z",
-    "modified": "2026-04-29T05:15:51Z",
+    "modified": "2026-09-02T04:01:33Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -166,7 +173,8 @@
       "semantic": [
         "cognition"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

@@ -2,7 +2,7 @@
   "id": "05913_choudaisuru",
   "headword": "{頂戴|ちょうだい}する",
   "reading": "ちょうだいする",
-  "part_of_speech": "verb (suru)",
+  "part_of_speech": "suru verb",
   "gloss": "to receive (humble)",
   "conjugation": {
     "type": "suru",
@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "05913_choudaisuru_ex1",
-      "japanese": "お⟦{名刺|めいし}→名刺：01090_meishi⟧⟦を→を：00422_wo⟧{頂戴|ちょうだい}できますか。",
+      "japanese": "お⟦{名刺|めいし}→名刺：01090_meishi⟧⟦を→を：00422_wo⟧{頂戴|ちょうだい}⟦できます→できる：00557_dekiru⟧⟦か→か：09473_ka⟧。",
       "english": "May I have your business card?",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "05913_choudaisuru_ex2",
-      "japanese": "ありがたく{頂戴|ちょうだい}いたします。",
+      "japanese": "ありがたく{頂戴|ちょうだい}⟦いたします→いたす：01314_itasu⟧。",
       "english": "I gratefully accept.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "05913_choudaisuru_ex3",
-      "japanese": "⟦{少々|しょうしょう}→少々：03232_shoushou⟧お⟦{時間|じかん}→時間：00468_jikan⟧⟦を→を：00422_wo⟧{頂戴|ちょうだい}したいのですが。",
+      "japanese": "⟦{少々|しょうしょう}→少々：03232_shoushou⟧お⟦{時間|じかん}→時間：00468_jikan⟧⟦を→を：00422_wo⟧{頂戴|ちょうだい}したい⟦の→の：09472_no⟧です⟦が→が：00051_ga⟧。",
       "english": "I would like to have a little of your time.",
       "notes": null,
       "has_audio": false,
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "{頂戴|ちょうだい}する is a humble verb (⟦{謙譲語|けんじょうご}→謙譲語：15869_kenjougo⟧) for receiving.\n\nKEIGO LEVEL:\nThis is a very formal humble expression, commonly used in business settings.\n\nCOMMON EXPRESSIONS:\n- {頂戴|ちょうだい}いたします: I will receive (very humble)\n- お⟦{時間|じかん}→時間：00468_jikan⟧⟦を→を：00422_wo⟧{頂戴|ちょうだい}する: to take someone's time\n- ご⟦{意見|いけん}→意見：01303_iken⟧⟦を→を：00422_wo⟧{頂戴|ちょうだい}する: to receive opinions\n\nINFORMAL USAGE:\n{頂戴|ちょうだい} alone (without する) is used casually, especially by children or women, meaning \"give me please.\"",
+  "notes": "{頂戴|ちょうだい}する is a humble verb (⟦{謙譲語|けんじょうご}→謙譲語：15869_kenjougo⟧) for receiving.\n\nKEIGO LEVEL:\nThis is a very formal humble expression, commonly used in business settings.\n\nCOMMON EXPRESSIONS:\n- {頂戴|ちょうだい}⟦いたします→いたす：01314_itasu⟧: I will receive (very humble)\n- お⟦{時間|じかん}→時間：00468_jikan⟧⟦を→を：00422_wo⟧{頂戴|ちょうだい}する: to take someone's time\n- ご⟦{意見|いけん}→意見：01303_iken⟧⟦を→を：00422_wo⟧{頂戴|ちょうだい}する: to receive opinions\n\nINFORMAL USAGE:\n{頂戴|ちょうだい} alone (without ⟦する→する：00392_suru⟧) is used casually, especially by children or women, meaning \"give me please.\"",
   "cross_references": [
     {
       "type": "keigo",
@@ -148,11 +148,18 @@
       "reading": "いただく",
       "headword": "いただく",
       "label": "humble (less formal)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23436_haiju",
+      "reading": "はいじゅ",
+      "headword": "{拝受|はいじゅ}",
+      "label": "humble receipt"
     }
   ],
   "metadata": {
     "created": "2026-01-16T14:51:32Z",
-    "modified": "2026-06-08T20:20:00Z",
+    "modified": "2026-09-02T04:01:07Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -167,7 +174,8 @@
       "semantic": [
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   },
   "prominent_see_also": [

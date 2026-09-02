@@ -15,41 +15,74 @@
   "examples": [
     {
       "id": "29973_noohittonooran_ex1",
-      "japanese": "ノーヒットノーランを{達成|たっせい}した。",
+      "japanese": "ノーヒットノーラン⟦を→を：00422_wo⟧⟦{達成|たっせい}した→達成する：22183_tasseisuru⟧。",
       "english": "He pitched a no-hitter.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29973_noohittonooran_ex2",
-      "japanese": "9{回|かい}までノーヒットノーランが{続|つづ}いた。",
+      "japanese": "9⟦{回|かい}→回：00957_kai⟧⟦まで→まで：00490_made⟧ノーヒットノーラン⟦が→が：00051_ga⟧⟦{続|つづ}いた→続く：00903_tsuzuku⟧。",
       "english": "The no-hitter continued through the ninth inning.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29973_noohittonooran_ex3",
-      "japanese": "あの{投手|とうしゅ}はプロで{一度|いちど}もノーヒットノーランを{逃|のが}したことがない。",
+      "japanese": "⟦あの→あの：00915_ano⟧⟦{投手|とうしゅ}→投手：06563_toushu⟧⟦は→は：00079_ha⟧⟦プロ→プロ：03871_puro⟧⟦で→で：00502_de⟧⟦{一度|いちど}→一度：01312_ichido⟧⟦も→も：00484_mo⟧ノーヒットノーラン⟦を→を：00422_wo⟧⟦{逃|のが}した→逃す：04611_nogasu⟧こと⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧。",
       "english": "That pitcher has never missed out on a no-hitter in his pro career.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A rare pitching achievement, usually announced with {達成|たっせい}する (to accomplish).\n\nCOMMON COLLOCATIONS:\n- ノーヒットノーランを{達成|たっせい}する: to pitch a no-hitter\n- ノーヒットノーラン{達成|たっせい}: no-hitter achievement\n- {完全|かんぜん}{試合|じあい}: perfect game — an even rarer feat (no baserunners at all)\n\nSIMILAR WORDS:\n- {完封|かんぷう}: shutout — allows no runs but may allow hits, so it is a weaker feat than a no-hitter",
+  "notes": "A rare pitching achievement, usually announced with ⟦{達成|たっせい}する→達成する：22183_tasseisuru⟧ (to accomplish).\n\nCOMMON COLLOCATIONS:\n- ノーヒットノーラン⟦を→を：00422_wo⟧⟦{達成|たっせい}する→達成する：22183_tasseisuru⟧: to pitch a no-hitter\n- ノーヒットノーラン⟦{達成|たっせい}→達成：04816_tassei⟧: no-hitter achievement\n- ⟦{完全|かんぜん}{試合|じあい}→完全試合：29968_kanzenjiai⟧: perfect game — an even rarer feat (no baserunners at all)\n\nSIMILAR WORDS:\n- ⟦{完封|かんぷう}→完封：06543_kanpuu⟧: shutout — allows no runs but may allow hits, so it is a weaker feat than a no-hitter",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06543_kanpuu",
+      "reading": "かんぷう",
+      "headword": "{完封|かんぷう}",
+      "label": "shutout"
+    },
+    {
+      "type": "related",
+      "target_id": "08945_noohitto",
+      "reading": "のーひっと",
+      "headword": "ノーヒット",
+      "label": "no-hitter"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29968_kanzenjiai",
+      "reading": "かんぜんじあい",
+      "headword": "{完|かん}{全|ぜん}{試合|じあい}",
+      "label": "perfect game (baseball)"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["sports"],
+      "politeness": "plain",
+      "semantic": [
+        "sports"
+      ],
       "domain": []
     },
     "created": "2026-07-20T06:17:59Z",
-    "modified": "2026-07-20T06:17:59Z"
+    "modified": "2026-09-02T04:02:38Z"
   }
 }

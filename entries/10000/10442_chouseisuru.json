@@ -110,7 +110,7 @@
   "examples": [
     {
       "id": "10442_chouseisuru_ex1",
-      "japanese": "{音量|おんりょう}を{調整|ちょうせい}する。",
+      "japanese": "⟦{音量|おんりょう}→音量：10009_onryou⟧⟦を→を：00422_wo⟧{調整|ちょうせい}する。",
       "english": "To adjust the volume.",
       "notes": null,
       "has_audio": false,
@@ -120,7 +120,7 @@
     },
     {
       "id": "10442_chouseisuru_ex2",
-      "japanese": "{温度|おんど}を{調整|ちょうせい}してください。",
+      "japanese": "⟦{温度|おんど}→温度：00333_ondo⟧⟦を→を：00422_wo⟧{調整|ちょうせい}して⟦ください→ください：02899_kudasai⟧。",
       "english": "Please adjust the temperature.",
       "notes": null,
       "has_audio": false,
@@ -130,7 +130,7 @@
     },
     {
       "id": "10442_chouseisuru_ex3",
-      "japanese": "{予定|よてい}を{調整|ちょうせい}して、{会議|かいぎ}の{日|ひ}を{決|き}めた。",
+      "japanese": "⟦{予定|よてい}→予定：00824_yotei⟧⟦を→を：00422_wo⟧{調整|ちょうせい}して、⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦の→の：09472_no⟧⟦{日|ひ}→日：02249_hi⟧⟦を→を：00422_wo⟧⟦{決|き}めた→決める：00858_kimeru⟧。",
       "english": "We coordinated our schedules and decided on the meeting date.",
       "notes": null,
       "has_audio": false,
@@ -139,11 +139,26 @@
       ]
     }
   ],
-  "notes": "{調整|ちょうせい}する is composed of {調|ちょう} (tune, investigate) + {整|せい} (arrange, put in order).\n\nTRANSITIVITY:\n- Type: Transitive ({他動詞|たどうし})\n- Pattern: 〜を{調整|ちょうせい}する\n\nCOMMON COLLOCATIONS:\n- {予定|よてい}を{調整|ちょうせい}する: to coordinate schedules\n- {温度|おんど}を{調整|ちょうせい}する: to adjust temperature\n- {体調|たいちょう}を{調整|ちょうせい}する: to manage one's physical condition\n- {日程|にってい}{調整|ちょうせい}: schedule coordination",
-  "cross_references": [],
+  "notes": "{調整|ちょうせい}する is composed of {調|ちょう} (tune, investigate) + {整|せい} (arrange, put in order).\n\nTRANSITIVITY:\n- Type: Transitive (⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧)\n- Pattern: 〜⟦を→を：00422_wo⟧{調整|ちょうせい}する\n\nCOMMON COLLOCATIONS:\n- ⟦{予定|よてい}→予定：00824_yotei⟧⟦を→を：00422_wo⟧{調整|ちょうせい}する: to coordinate schedules\n- ⟦{温度|おんど}→温度：00333_ondo⟧⟦を→を：00422_wo⟧{調整|ちょうせい}する: to adjust temperature\n- ⟦{体調|たいちょう}→体調：04644_taichou⟧⟦を→を：00422_wo⟧{調整|ちょうせい}する: to manage one's physical condition\n- ⟦{日程|にってい}{調整|ちょうせい}→日程調整：07805_nitteichousei⟧: schedule coordination",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "08261_totonoenaosu",
+      "reading": "ととのえなおす",
+      "headword": "{整|ととの}え{直|なお}す",
+      "label": "to readjust"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26798_hoseisuru",
+      "reading": "ほせいする",
+      "headword": "{補正|ほせい}する",
+      "label": "to correct"
+    }
+  ],
   "metadata": {
     "created": "2026-02-07T11:20:16Z",
-    "modified": "2026-03-29T03:07:35Z",
+    "modified": "2026-09-02T04:01:21Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

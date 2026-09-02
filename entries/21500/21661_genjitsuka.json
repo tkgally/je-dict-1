@@ -3,7 +3,7 @@
   "headword": "{現実化|げんじつか}",
   "reading": "げんじつか",
   "romaji": "genjitsuka",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "realization; actualization; becoming reality",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21661_genjitsuka_ex1",
-      "japanese": "{夢|ゆめ}の{現実化|げんじつか}に{向|む}けて{努力|どりょく}する。",
+      "japanese": "⟦{夢|ゆめ}→夢：01519_yume⟧⟦の→の：09472_no⟧{現実化|げんじつか}⟦に→に：00314_ni⟧⟦{向|む}けて→向ける：02306_mukeru⟧⟦{努力|どりょく}する→努力する：20201_doryokusuru⟧。",
       "english": "To work toward making one's dream a reality.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21661_genjitsuka_ex2",
-      "japanese": "{計画|けいかく}の{現実化|げんじつか}にはまだ{時間|じかん}がかかる。",
+      "japanese": "⟦{計画|けいかく}→計画：01172_keikaku⟧⟦の→の：09472_no⟧{現実化|げんじつか}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦まだ→まだ：00603_mada⟧⟦{時間|じかん}がかかる→時間がかかる：26082_jikangakakaru⟧。",
       "english": "It will still take time for the plan to become reality.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21661_genjitsuka_ex3",
-      "japanese": "{地球温暖化|ちきゅうおんだんか}の{影響|えいきょう}が{現実化|げんじつか}してきた。",
+      "japanese": "⟦{地球温暖化|ちきゅうおんだんか}→地球温暖化：18873_chikyuuondanka⟧⟦の→の：09472_no⟧⟦{影響|えいきょう}→影響：01877_eikyou⟧⟦が→が：00051_ga⟧{現実化|げんじつか}してきた。",
       "english": "The effects of global warming have been becoming reality.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {現実|げんじつ} (reality) + {化|か} (transformation into). A common noun-forming pattern where {化|か} turns a noun into \"becoming X\" or \"making into X.\"\n\nCOMMON COLLOCATIONS:\n- {現実化|げんじつか}する: to become reality, to materialize\n- {現実化|げんじつか}に{向|む}けて{取|と}り{組|く}む: to work toward realization\n- リスクが{現実化|げんじつか}する: a risk materializes\n- {懸念|けねん}が{現実化|げんじつか}する: a concern becomes reality\n\nSIMILAR WORDS:\n- {実現|じつげん}: realization, achievement — more common in everyday use; focuses on achieving a goal\n- {具体化|ぐたいか}: making concrete — focuses on turning abstract ideas into specific plans\n- {顕在化|けんざいか}: becoming apparent — focuses on hidden things becoming visible",
+  "notes": "Compound of ⟦{現実|げんじつ}→現実：02720_genjitsu⟧ (reality) + ⟦{化|か}→〜化：28335_ka⟧ (transformation into). A common noun-forming pattern where ⟦{化|か}→〜化：28335_ka⟧ turns a noun into \"becoming X\" or \"making into X.\"\n\nCOMMON COLLOCATIONS:\n- {現実化|げんじつか}⟦する→する：00392_suru⟧: to become reality, to materialize\n- {現実化|げんじつか}⟦に→に：00314_ni⟧⟦{向|む}けて→向ける：02306_mukeru⟧⟦{取|と}り{組|く}む→取り組む：04225_torikumu⟧: to work toward realization\n- ⟦リスク→リスク：06752_risuku⟧⟦が→が：00051_ga⟧{現実化|げんじつか}⟦する→する：00392_suru⟧: a risk materializes\n- ⟦{懸念|けねん}→懸念：05622_kenen⟧⟦が→が：00051_ga⟧{現実化|げんじつか}⟦する→する：00392_suru⟧: a concern becomes reality\n\nSIMILAR WORDS:\n- ⟦{実現|じつげん}→実現：03276_jitsugen⟧: realization, achievement — more common in everyday use; focuses on achieving a goal\n- ⟦{具体化|ぐたいか}→具体化：20775_gutaika⟧: making concrete — focuses on turning abstract ideas into specific plans\n- ⟦{顕在化|けんざいか}→顕在化：09041_kenzaika⟧: becoming apparent — focuses on hidden things becoming visible",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03276_jitsugen",
+      "reading": "じつげん",
+      "headword": "{実現|じつげん}",
+      "label": "realization, achievement"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20775_gutaika",
+      "reading": "ぐたいか",
+      "headword": "{具体化|ぐたいか}",
+      "label": "making concrete"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09041_kenzaika",
+      "reading": "けんざいか",
+      "headword": "{顕在化|けんざいか}",
+      "label": "becoming apparent"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,7 +85,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-02T20:24:26Z",
-    "modified": "2026-04-02T20:24:26Z"
+    "modified": "2026-09-02T04:02:04Z"
   },
   "conjugation": {
     "type": "suru",

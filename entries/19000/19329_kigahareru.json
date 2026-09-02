@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "19329_kigahareru_ex1",
-      "japanese": "{散歩|さんぽ}して{気|き}が{晴|は}れた。",
+      "japanese": "⟦{散歩|さんぽ}して→散歩する：26840_sanposuru⟧{気|き}が{晴|は}れた。",
       "english": "I took a walk and felt refreshed.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "19329_kigahareru_ex2",
-      "japanese": "{友達|ともだち}と{話|はな}したら、{少|すこ}し{気|き}が{晴|は}れた。",
+      "japanese": "⟦{友達|ともだち}→友達：01478_tomodachi⟧⟦と→と：00512_to⟧⟦{話|はな}したら→話す：00467_hanasu⟧、⟦{少|すこ}し→少し：00596_sukoshi⟧{気|き}が{晴|は}れた。",
       "english": "After talking with my friend, I felt a bit better.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "19329_kigahareru_ex3",
-      "japanese": "ずっと{悩|なや}んでいたが、{思|おも}い{切|き}って{相談|そうだん}したら{気|き}が{晴|は}れた。",
+      "japanese": "⟦ずっと→ずっと：00912_zutto⟧⟦{悩|なや}んでいた→悩む：02380_nayamu⟧⟦が→が：00051_ga⟧、⟦{思|おも}い{切|き}って→思い切る：04590_omoikiru⟧⟦{相談|そうだん}したら→相談する：01845_soudansuru⟧{気|き}が{晴|は}れた。",
       "english": "I had been worrying for a long time, but when I took the plunge and talked to someone about it, I felt much better.",
       "sense_numbers": [
         1
@@ -134,8 +134,31 @@
       "notes": null
     }
   ],
-  "notes": "A {気|き} idiom. {晴|は}れる literally means 'to clear up' (as in weather), so the image is of clouds lifting from one's mind. Implies that the person was in a gloomy or burdened state beforehand.\n\nCOMMON COLLOCATIONS:\n- {気|き}が{晴|は}れない — to not be able to cheer up\n- {気|き}が{晴|は}れる{思|おも}い — a refreshing feeling\n- やっと{気|き}が{晴|は}れた — I finally feel better\n\nUSAGE:\nThe negative form {気|き}が{晴|は}れない (can't cheer up, can't shake the feeling) is equally common and describes lingering unease or dissatisfaction.\n\nRELATED {気|き} EXPRESSIONS:\n- {気|き}が{重|おも}い — to feel heavy-hearted\n- {気|き}が{楽|らく}になる — to feel at ease\n- {気分|きぶん}{転換|てんかん} — a change of pace (noun)",
+  "notes": "A ⟦{気|き}→気：02199_ki⟧ idiom. ⟦{晴|は}れる→晴れる：00701_hareru⟧ literally means 'to clear up' (as in weather), so the image is of clouds lifting from one's mind. Implies that the person was in a gloomy or burdened state beforehand.\n\nCOMMON COLLOCATIONS:\n- {気|き}が{晴|は}れない — to not be able to cheer up\n- {気|き}が{晴|は}れる⟦{思|おも}い→思い：10248_omoi⟧ — a refreshing feeling\n- ⟦やっと→やっと：01561_yatto⟧{気|き}が{晴|は}れた — I finally feel better\n\nUSAGE:\nThe negative form {気|き}が{晴|は}れない (can't cheer up, can't shake the feeling) is equally common and describes lingering unease or dissatisfaction.\n\nRELATED {気|き} EXPRESSIONS:\n- ⟦{気|き}が{重|おも}い→気が重い：06881_kigaomoi⟧ — to feel heavy-hearted\n- ⟦{気|き}が{楽|らく}→気が楽：19541_kigaraku⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧ — to feel at ease\n- ⟦{気分|きぶん}{転換|てんかん}→気分転換：08691_kibuntenkan⟧ — a change of pace (noun)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "06881_kigaomoi",
+      "reading": "きがおもい",
+      "headword": "{気|き}が{重|おも}い",
+      "label": "to feel heavy-hearted"
+    },
+    {
+      "type": "related",
+      "target_id": "08691_kibuntenkan",
+      "reading": "きぶんてんかん",
+      "headword": "{気分|きぶん}{転換|てんかん}",
+      "label": "a change of pace"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25847_kigasumu",
+      "reading": "きがすむ",
+      "headword": "{気|き}が{済|す}む",
+      "label": "to be satisfied"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -148,9 +171,10 @@
         "emotion",
         "expression"
       ],
-      "verb_class": "ichidan"
+      "verb_class": "ichidan",
+      "transitivity": "intransitive"
     },
     "created": "2026-03-25T08:39:20Z",
-    "modified": "2026-03-25T08:39:20Z"
+    "modified": "2026-09-02T04:01:55Z"
   }
 }

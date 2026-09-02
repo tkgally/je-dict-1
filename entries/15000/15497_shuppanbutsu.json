@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "15497_shuppanbutsu_ex1",
-      "japanese": "{出版物|しゅっぱんぶつ}の{売|う}り{上|あ}げが{減|へ}っている。",
+      "japanese": "{出版物|しゅっぱんぶつ}⟦の→の：09472_no⟧{売|う}り{上|あ}げ⟦が→が：00051_ga⟧⟦{減|へ}っている→減る：01985_heru⟧。",
       "english": "Sales of publications are declining.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "15497_shuppanbutsu_ex2",
-      "japanese": "この{出版物|しゅっぱんぶつ}は{無断|むだん}で{転載|てんさい}してはいけない。",
+      "japanese": "⟦この→この：00962_kono⟧{出版物|しゅっぱんぶつ}⟦は→は：00079_ha⟧⟦{無断|むだん}→無断：13382_mudan⟧⟦で→で：00502_de⟧⟦{転載|てんさい}→転載：14359_tensai⟧⟦して→する：00392_suru⟧⟦は→は：00079_ha⟧いけない。",
       "english": "This publication must not be reproduced without permission.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "15497_shuppanbutsu_ex3",
-      "japanese": "{電子|でんし}{出版物|しゅっぱんぶつ}の{市場|しじょう}は{年々|ねんねん}{拡大|かくだい}している。",
+      "japanese": "⟦{電子|でんし}→電子：03449_denshi⟧{出版物|しゅっぱんぶつ}⟦の→の：09472_no⟧⟦{市場|しじょう}→市場：09685_shijou⟧⟦は→は：00079_ha⟧⟦{年々|ねんねん}→年々：10417_nennen⟧⟦{拡大|かくだい}→拡大：02553_kakudai⟧⟦している→する：00392_suru⟧。",
       "english": "The market for digital publications is expanding year by year.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "FORMATION:\n{出版|しゅっぱん} (publishing) + {物|ぶつ} (thing, object). The suffix {物|ぶつ} turns the action of publishing into a concrete product.\n\nUSAGE:\nA formal word used in legal, business, and academic contexts. Covers all forms of published material — books, magazines, pamphlets, and increasingly digital publications as well.\n\nCOMMON COLLOCATIONS:\n- {電子|でんし}{出版物|しゅっぱんぶつ} (digital/electronic publication)\n- {定期|ていき}{出版物|しゅっぱんぶつ} (periodical)\n- {出版物|しゅっぱんぶつ}の{著作権|ちょさくけん} (copyright of publications)",
+  "notes": "FORMS:\n⟦{出版|しゅっぱん}→出版：03222_shuppan⟧ (publishing) + ⟦{物|ぶつ}→〜物：28336_butsu⟧ (thing, object). The suffix ⟦{物|ぶつ}→〜物：28336_butsu⟧ turns the action of publishing into a concrete product.\n\nUSAGE:\nA formal word used in legal, business, and academic contexts. Covers all forms of published material — books, magazines, pamphlets, and increasingly digital publications as well.\n\nCOMMON COLLOCATIONS:\n- ⟦{電子|でんし}→電子：03449_denshi⟧{出版物|しゅっぱんぶつ} (digital/electronic publication)\n- ⟦{定期|ていき}→定期：03538_teiki⟧{出版物|しゅっぱんぶつ} (periodical)\n- {出版物|しゅっぱんぶつ}⟦の→の：09472_no⟧⟦{著作権|ちょさくけん}→著作権：14022_chosakuken⟧ (copyright of publications)",
   "cross_references": [
     {
       "type": "related",
@@ -52,11 +52,25 @@
       "reading": "しゅっぱん",
       "headword": "{出版|しゅっぱん}",
       "label": "publishing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24580_kankoubutsu",
+      "reading": "かんこうぶつ",
+      "headword": "{刊行物|かんこうぶつ}",
+      "label": "publication"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24581_insatsubutsu",
+      "reading": "いんさつぶつ",
+      "headword": "{印刷物|いんさつぶつ}",
+      "label": "printed matter"
     }
   ],
   "metadata": {
     "created": "2026-03-07T09:03:43Z",
-    "modified": "2026-05-01T06:14:09Z",
+    "modified": "2026-09-02T04:01:41Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

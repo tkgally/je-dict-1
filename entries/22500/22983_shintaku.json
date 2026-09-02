@@ -15,40 +15,60 @@
   "examples": [
     {
       "id": "22983_shintaku_ex1",
-      "japanese": "{神託|しんたく}を{受|う}ける。",
+      "japanese": "{神託|しんたく}⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧。",
       "english": "To receive a divine oracle.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "22983_shintaku_ex2",
-      "japanese": "{古代|こだい}ギリシャでは{神託|しんたく}が{政治|せいじ}にも{影響|えいきょう}を{与|あた}えた。",
+      "japanese": "⟦{古代|こだい}→古代：05324_kodai⟧⟦ギリシャ→ギリシャ：28897_girisha⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧{神託|しんたく}⟦が→が：00051_ga⟧⟦{政治|せいじ}→政治：01629_seiji⟧⟦に→に：00314_ni⟧⟦も→も：00484_mo⟧⟦{影響|えいきょう}→影響：01877_eikyou⟧⟦を→を：00422_wo⟧⟦{与|あた}えた→与える：01821_ataeru⟧。",
       "english": "In ancient Greece, oracles influenced politics as well.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "22983_shintaku_ex3",
-      "japanese": "{王|おう}は{戦|いくさ}を{始|はじ}める{前|まえ}に{神託|しんたく}を{求|もと}め、{神官|しんかん}の{言葉|ことば}に{従|したが}った。",
+      "japanese": "⟦{王|おう}→王：19353_ou⟧⟦は→は：00079_ha⟧⟦{戦|いくさ}→戦：28574_ikusa⟧⟦を→を：00422_wo⟧{始|はじ}める⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧{神託|しんたく}⟦を→を：00422_wo⟧⟦{求|もと}め→求める：02316_motomeru⟧、{神官|しんかん}⟦の→の：09472_no⟧⟦{言葉|ことば}→言葉：02880_kotoba⟧⟦に→に：00314_ni⟧⟦{従|したが}った→従う：02059_shitagau⟧。",
       "english": "The king sought a divine oracle before starting the war and followed the words of the priest.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {神|しん} (god, deity) and {託|たく} (to entrust, to commission). Frequently encountered in discussions of ancient Greek religion (the Oracle at Delphi), the Bible, and Japanese mythology.\n\nCOMMON COLLOCATIONS:\n- {神託|しんたく}を{受|う}ける: to receive an oracle\n- {神託|しんたく}を{求|もと}める: to seek a divine message\n- {神託|しんたく}を{下|くだ}す: to deliver an oracle (from a god's perspective)\n- {神託|しんたく}に{従|したが}う: to follow a divine oracle\n\nSIMILAR WORDS:\n- {託宣|たくせん}: oracle; divine proclamation — close synonym, slightly more formal\n- {お{告|つ}げ}: divine revelation; message from heaven — more colloquial, used in everyday Japanese\n- {啓示|けいじ}: revelation; divine disclosure — specifically the Christian concept\n- {予言|よげん}: prophecy; prediction — broader, not necessarily from a deity\n\nDo not confuse with {信託|しんたく} (trust, as in financial trust), which is a homophone with different kanji.",
+  "notes": "Composed of {神|しん} (god, deity) and {託|たく} (to entrust, to commission). Frequently encountered in discussions of ancient Greek religion (the Oracle at Delphi), the Bible, and Japanese mythology.\n\nCOMMON COLLOCATIONS:\n- {神託|しんたく}⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧: to receive an oracle\n- {神託|しんたく}⟦を→を：00422_wo⟧⟦{求|もと}める→求める：02316_motomeru⟧: to seek a divine message\n- {神託|しんたく}⟦を→を：00422_wo⟧⟦{下|くだ}す→下す：12329_kudasu⟧: to deliver an oracle (from a god's perspective)\n- {神託|しんたく}⟦に→に：00314_ni⟧⟦{従|したが}う→従う：02059_shitagau⟧: to follow a divine oracle\n\nSIMILAR WORDS:\n- {託宣|たくせん}: oracle; divine proclamation — close synonym, slightly more formal\n- お{告|つ}げ: divine revelation; message from heaven — more colloquial, used in everyday Japanese\n- {啓示|けいじ}: revelation; divine disclosure — specifically the Christian concept\n- ⟦{予言|よげん}→予言：20803_yogen⟧: prophecy; prediction — broader, not necessarily from a deity\n\nDo not confuse with {信託|しんたく} (trust, as in financial trust), which is a homophone with different kanji.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20803_yogen",
+      "reading": "よげん",
+      "headword": "{予言|よげん}",
+      "label": "prophecy"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["religion", "history"]
+      "semantic": [
+        "religion",
+        "history"
+      ]
     },
     "created": "2026-04-08T14:20:05Z",
-    "modified": "2026-04-08T14:20:05Z"
+    "modified": "2026-09-02T04:02:10Z"
   }
 }

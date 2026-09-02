@@ -15,42 +15,63 @@
   "examples": [
     {
       "id": "13209_tsuide_ex1",
-      "japanese": "{東京|とうきょう}が{一位|いちい}で、{次|つ}いで{大阪|おおさか}だ。",
+      "japanese": "⟦{東京|とうきょう}→東京：09564_toukyou⟧⟦が→が：00051_ga⟧⟦{一位|いちい}→一位：08926_ichii⟧⟦で→で：00502_de⟧、{次|つ}いで⟦{大阪|おおさか}→大阪：09779_oosaka⟧だ。",
       "english": "Tokyo is number one, followed by Osaka.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13209_tsuide_ex2",
-      "japanese": "まず{自己|じこ}{紹介|しょうかい}をし、{次|つ}いで{議題|ぎだい}に{入|はい}った。",
+      "japanese": "⟦まず→まず：00796_mazu⟧⟦{自己|じこ}{紹介|しょうかい}→自己紹介：12331_jikoshoukai⟧⟦を→を：00422_wo⟧し、{次|つ}いで⟦{議題|ぎだい}→議題：11330_gidai⟧⟦に→に：00314_ni⟧⟦{入|はい}った→入る：00494_hairu⟧。",
       "english": "First we introduced ourselves, and then moved on to the agenda.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13209_tsuide_ex3",
-      "japanese": "{売上|うりあげ}が{最|もっと}も{多|おお}いのはA{社|しゃ}で、{次|つ}いでB{社|しゃ}、C{社|しゃ}の{順|じゅん}となっている。",
+      "japanese": "⟦{売上|うりあげ}→売上：04102_uriage⟧⟦が→が：00051_ga⟧⟦{最|もっと}も→最も：01736_mottomo⟧⟦{多|おお}い→多い：01127_ooi⟧⟦の→の：09472_no⟧⟦は→は：00079_ha⟧A⟦{社|しゃ}→〜社：04660_sha⟧⟦で→で：00502_de⟧、{次|つ}いでB⟦{社|しゃ}→〜社：04660_sha⟧、C⟦{社|しゃ}→〜社：04660_sha⟧⟦の→の：09472_no⟧⟦{順|じゅん}→順：03342_jun⟧⟦と→と：00512_to⟧⟦なっている→なる：01970_naru⟧。",
       "english": "Company A has the highest sales, followed by Company B and then Company C.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nThe te-form of the verb {次|つ}ぐ (to follow, to come next), used as a conjunctive adverb. Very common in rankings, lists, and sequential descriptions. Often appears in news, reports, and presentations.\n\nPATTERNS:\n- Xが{一番|いちばん}で、{次|つ}いでY: X is first, followed by Y\n- まずX、{次|つ}いでY: first X, then Y\n\nSIMILAR WORDS:\n- {次|つぎ}に: next (more conversational, less formal)\n- その{後|あと}: after that (focuses on temporal sequence)\n- {続|つづ}いて: following, continuing (emphasizes continuation)",
-  "cross_references": [],
+  "notes": "USAGE:\nThe te-form of the verb ⟦{次|つ}ぐ→次ぐ：02076_tsugu⟧ (to follow, to come next), used as a conjunctive adverb. Very common in rankings, lists, and sequential descriptions. Often appears in news, reports, and presentations.\n\nCOMMON PATTERNS:\n- X⟦が→が：00051_ga⟧⟦{一番|いちばん}→一番：01140_ichiban⟧⟦で→で：00502_de⟧、{次|つ}いでY: X is first, followed by Y\n- ⟦まず→まず：00796_mazu⟧X、{次|つ}いでY: first X, then Y\n\nSIMILAR WORDS:\n- ⟦{次|つぎ}→次：00819_tsugi⟧⟦に→に：00314_ni⟧: next (more conversational, less formal)\n- ⟦その→その：00993_sono⟧⟦{後|あと}→後：09580_ato⟧: after that (focuses on temporal sequence)\n- ⟦{続|つづ}いて→続く：00903_tsuzuku⟧: following, continuing (emphasizes continuation)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "30273_tsugini",
+      "reading": "つぎに",
+      "headword": "{次|つぎ}に",
+      "label": "next"
+    }
+  ],
   "metadata": {
     "created": "2026-02-24T06:16:55Z",
-    "modified": "2026-02-24T06:16:55Z",
+    "modified": "2026-09-02T04:01:32Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adverb", "conjunction"],
+      "pos": [
+        "adverb",
+        "conjunction"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"],
-      "style": ["written"]
+      "semantic": [
+        "general"
+      ],
+      "style": [
+        "written"
+      ]
     }
   }
 }

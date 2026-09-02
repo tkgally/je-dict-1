@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "15916_enshutsuka_ex1",
-      "japanese": "{有名|ゆうめい}な{演出家|えんしゅつか}が{舞台|ぶたい}を{手|て}がけた。",
+      "japanese": "⟦{有名|ゆうめい}→有名：01106_yuumei⟧な{演出家|えんしゅつか}⟦が→が：00051_ga⟧⟦{舞台|ぶたい}→舞台：03606_butai⟧⟦を→を：00422_wo⟧⟦{手|て}がけた→手がける：12753_tegakeru⟧。",
       "english": "A famous director worked on the stage production.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15916_enshutsuka_ex2",
-      "japanese": "{彼女|かのじょ}は{演出家|えんしゅつか}として{国際的|こくさいてき}に{活躍|かつやく}している。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧{演出家|えんしゅつか}⟦として→として：06802_toshite⟧⟦{国際的|こくさいてき}→国際的：06457_kokusaiteki⟧⟦に→に：00314_ni⟧⟦{活躍|かつやく}している→活躍する：25354_katsuyakusuru⟧。",
       "english": "She is active internationally as a director.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15916_enshutsuka_ex3",
-      "japanese": "この{演出家|えんしゅつか}は{古典|こてん}{作品|さくひん}を{現代的|げんだいてき}に{解釈|かいしゃく}し{直|なお}すことで{知|し}られている。",
+      "japanese": "⟦この→この：00962_kono⟧{演出家|えんしゅつか}⟦は→は：00079_ha⟧⟦{古典|こてん}→古典：00242_koten⟧⟦{作品|さくひん}→作品：02776_sakuhin⟧⟦を→を：00422_wo⟧⟦{現代的|げんだいてき}→現代的：28614_gendaiteki⟧⟦に→に：00314_ni⟧⟦{解釈|かいしゃく}→解釈：02603_kaishaku⟧し{直|なお}すこと⟦で→で：00502_de⟧⟦{知|し}られている→知る：00458_shiru⟧。",
       "english": "This director is known for reinterpreting classic works in a modern way.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE: {演出家|えんしゅつか} specifically refers to the person who directs stage performances. For film directors, {映画監督|えいがかんとく} is used instead.\n\nCOMMON COLLOCATIONS:\n- {舞台|ぶたい}{演出家|えんしゅつか}: stage director\n- {演出家|えんしゅつか}を{務|つと}める: to serve as director\n- {気鋭|きえい}の{演出家|えんしゅつか}: up-and-coming director\n\nSIMILAR WORDS:\n- {演出家|えんしゅつか}: stage/theatrical director\n- {監督|かんとく}: director (film), manager (sports)\n- プロデューサー: producer (TV, film, music)\n\nThe word is a compound of {演出|えんしゅつ} (direction, staging) and {家|か} (professional, expert).",
+  "notes": "USAGE: {演出家|えんしゅつか} specifically refers to the person who directs stage performances. For film directors, ⟦{映画監督|えいがかんとく}→映画監督：07093_eigakantoku⟧ is used instead.\n\nCOMMON COLLOCATIONS:\n- ⟦{舞台|ぶたい}→舞台：03606_butai⟧{演出家|えんしゅつか}: stage director\n- {演出家|えんしゅつか}⟦を→を：00422_wo⟧⟦{務|つと}める→務める：10446_tsutomeru⟧: to serve as director\n- {気鋭|きえい}⟦の→の：09472_no⟧{演出家|えんしゅつか}: up-and-coming director\n\nSIMILAR WORDS:\n- {演出家|えんしゅつか}: stage/theatrical director\n- ⟦{監督|かんとく}→監督：00185_kantoku⟧: director (film), manager (sports)\n- ⟦プロデューサー→プロデューサー：12841_purodyuusaa⟧: producer (TV, film, music)\n\nThe word is a compound of ⟦{演出|えんしゅつ}→演出：04460_enshutsu⟧ (direction, staging) and ⟦{家|か}→〜家：28339_ka⟧ (professional, expert).",
   "cross_references": [
     {
       "type": "related",
@@ -53,18 +59,37 @@
       "reading": "かんとく",
       "headword": "{監督|かんとく}",
       "label": "director (film), manager"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12841_purodyuusaa",
+      "reading": "ぷろでゅーさー",
+      "headword": "プロデューサー",
+      "label": "producer"
+    },
+    {
+      "type": "related",
+      "target_id": "24579_furitsukeka",
+      "reading": "ふりつけか",
+      "headword": "{振付家|ふりつけか}",
+      "label": "choreographer"
     }
   ],
   "metadata": {
     "created": "2026-03-08T14:04:37Z",
-    "modified": "2026-05-02T08:18:57Z",
+    "modified": "2026-09-02T04:01:43Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["art", "occupation"]
+      "semantic": [
+        "art",
+        "occupation"
+      ]
     }
   }
 }

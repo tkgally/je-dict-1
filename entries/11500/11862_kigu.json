@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "11862_kigu_ex1",
-      "japanese": "{環境破壊|かんきょうはかい}が{危惧|きぐ}されている。",
+      "japanese": "⟦{環境破壊|かんきょうはかい}→環境破壊：15957_kankyouhakai⟧⟦が→が：00051_ga⟧{危惧|きぐ}⟦されている→する：00392_suru⟧。",
       "english": "Environmental destruction is a cause for concern.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "11862_kigu_ex2",
-      "japanese": "{専門家|せんもんか}は{人口減少|じんこうげんしょう}に{危惧|きぐ}の{念|ねん}を{示|しめ}した。",
+      "japanese": "⟦{専門家|せんもんか}→専門家：03088_senmonka⟧⟦は→は：00079_ha⟧⟦{人口減少|じんこうげんしょう}→人口減少：24385_jinkougenshou⟧⟦に→に：00314_ni⟧{危惧|きぐ}⟦の→の：09472_no⟧⟦{念|ねん}→念：12766_nen⟧⟦を→を：00422_wo⟧⟦{示|しめ}した→示す：01948_shimesu⟧。",
       "english": "The experts expressed concern about population decline.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "11862_kigu_ex3",
-      "japanese": "この{動物|どうぶつ}は{絶滅|ぜつめつ}{危惧|きぐ}{種|しゅ}に{指定|してい}されている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{動物|どうぶつ}→動物：01480_doubutsu⟧⟦は→は：00079_ha⟧⟦{絶滅|ぜつめつ}→絶滅：03756_zetsumetsu⟧{危惧|きぐ}⟦{種|しゅ}→種：28584_shu⟧⟦に→に：00314_ni⟧⟦{指定|してい}→指定：00373_shitei⟧⟦されている→する：00392_suru⟧。",
       "english": "This animal is designated as an endangered species.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,40 @@
       ]
     }
   ],
-  "notes": "Also functions as a する verb ({危惧|きぐ}する — to fear, to be apprehensive about). Most commonly encountered in the compound {絶滅|ぜつめつ}{危惧|きぐ}{種|しゅ} (endangered species).\n\nCOMMON COLLOCATIONS:\n・{危惧|きぐ}される — to be a cause for concern\n・{危惧|きぐ}の{念|ねん} — feelings of apprehension\n・{絶滅|ぜつめつ}{危惧|きぐ}{種|しゅ} — endangered species\n・{危惧|きぐ}を{抱|いだ}く — to harbor concerns\n\nSIMILAR WORDS:\n・{懸念|けねん} — concern, misgivings (also formal)\n・{心配|しんぱい} — worry (everyday, more casual)\n・{不安|ふあん} — anxiety, unease",
-  "cross_references": [],
+  "notes": "Also functions as a ⟦する→する：00392_suru⟧ verb ({危惧|きぐ}⟦する→する：00392_suru⟧ — to fear, to be apprehensive about). Most commonly encountered in the compound ⟦{絶滅|ぜつめつ}→絶滅：03756_zetsumetsu⟧{危惧|きぐ}⟦{種|しゅ}→種：28584_shu⟧ (endangered species).\n\nCOMMON COLLOCATIONS:\n- {危惧|きぐ}⟦される→する：00392_suru⟧ — to be a cause for concern\n- {危惧|きぐ}⟦の→の：09472_no⟧⟦{念|ねん}→念：12766_nen⟧ — feelings of apprehension\n- ⟦{絶滅|ぜつめつ}→絶滅：03756_zetsumetsu⟧{危惧|きぐ}⟦{種|しゅ}→種：28584_shu⟧ — endangered species\n- {危惧|きぐ}⟦を→を：00422_wo⟧⟦{抱|いだ}く→抱く：02010_idaku⟧ — to harbor concerns\n\nSIMILAR WORDS:\n- ⟦{懸念|けねん}→懸念：05622_kenen⟧ — concern, misgivings (also formal)\n- ⟦{心配|しんぱい}→心配：00811_shinpai⟧ — worry (everyday, more casual)\n- ⟦{不安|ふあん}→不安：00836_fuan⟧ — anxiety, unease",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05622_kenen",
+      "reading": "けねん",
+      "headword": "{懸念|けねん}",
+      "label": "concern, misgivings"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00811_shinpai",
+      "reading": "しんぱい",
+      "headword": "{心配|しんぱい}",
+      "label": "worry"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00836_fuan",
+      "reading": "ふあん",
+      "headword": "{不安|ふあん}",
+      "label": "anxiety, unease"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22508_kenensuru",
+      "reading": "けねんする",
+      "headword": "{懸念|けねん}する",
+      "label": "to be concerned about"
+    }
+  ],
   "metadata": {
     "created": "2026-02-18T13:41:24Z",
-    "modified": "2026-03-29T03:07:35Z",
+    "modified": "2026-09-02T04:01:26Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "USAGE: {稽古|けいこ} is primarily used for:\n・Martial arts: ⟦{剣道|けんどう}→剣道：04452_kendou⟧, ⟦{柔道|じゅうどう}→柔道：01612_juudou⟧, ⟦{空手|からて}→空手：04454_karate⟧, ⟦{相撲|すもう}→相撲：00390_sumou⟧\n・Traditional arts: ⟦{茶道|さどう}→茶道：04451_sadou⟧, ⟦{華道|かどう}→華道：04450_kadou⟧, ⟦{書道|しょどう}→書道：04178_shodou⟧\n・Performing arts: ⟦{舞踊|ぶよう}→舞踊：05410_buyou⟧, ⟦{歌舞伎|かぶき}→歌舞伎：04455_kabuki⟧, ⟦{能|のう}→能：01927_nou⟧\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n- No standard transitive pair\n- Pattern: {稽古|けいこ}する\n\nCOMPOUNDS:\n・{稽古|けいこ}⟦{事|ごと}→事：01164_koto⟧ (lessons in traditional arts)\n・{稽古|けいこ}⟦{場|ば}→場：03699_ba⟧ (practice hall, training ground)\n・{稽古|けいこ}⟦{着|ぎ}→着る：00541_kiru⟧ (practice clothes)\n・⟦{出|で}→出る：00513_deru⟧{稽古|げいこ} (visiting practice - sumo)\n・⟦{寒|かん}→寒い：00664_samui⟧{稽古|げいこ} (winter training)\n\nSIMILAR WORDS:\n・⟦{練習|れんしゅう}→練習：05323_renshuu⟧ (practice - general, modern)\n・⟦トレーニング→トレーニング：00408_toreeningu⟧ (training - physical)\n・⟦リハーサル→リハーサル：07559_rihaasaru⟧ (rehearsal - performance)\n\nNOTE: {稽古|けいこ} has a traditional feel; ⟦{練習|れんしゅう}→練習：05323_renshuu⟧ is used for sports and modern activities.",
+  "notes": "USAGE: {稽古|けいこ} is primarily used for:\n- Martial arts: ⟦{剣道|けんどう}→剣道：04452_kendou⟧, ⟦{柔道|じゅうどう}→柔道：01612_juudou⟧, ⟦{空手|からて}→空手：04454_karate⟧, ⟦{相撲|すもう}→相撲：00390_sumou⟧\n- Traditional arts: ⟦{茶道|さどう}→茶道：04451_sadou⟧, ⟦{華道|かどう}→華道：04450_kadou⟧, ⟦{書道|しょどう}→書道：04178_shodou⟧\n- Performing arts: ⟦{舞踊|ぶよう}→舞踊：05410_buyou⟧, ⟦{歌舞伎|かぶき}→歌舞伎：04455_kabuki⟧, ⟦{能|のう}→能：01927_nou⟧\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n- No standard transitive pair\n- Pattern: {稽古|けいこ}⟦する→する：00392_suru⟧\n\nCOMPOUNDS:\n- {稽古|けいこ}⟦{事|ごと}→事：01164_koto⟧ (lessons in traditional arts)\n- {稽古|けいこ}⟦{場|ば}→場：03699_ba⟧ (practice hall, training ground)\n- {稽古|けいこ}⟦{着|ぎ}→着る：00541_kiru⟧ (practice clothes)\n- ⟦{出|で}→出る：00513_deru⟧{稽古|げいこ} (visiting practice - sumo)\n- ⟦{寒|かん}→寒い：00664_samui⟧{稽古|げいこ} (winter training)\n\nSIMILAR WORDS:\n- ⟦{練習|れんしゅう}→練習：05323_renshuu⟧ (practice - general, modern)\n- ⟦トレーニング→トレーニング：00408_toreeningu⟧ (training - physical)\n- ⟦リハーサル→リハーサル：07559_rihaasaru⟧ (rehearsal - performance)\n\nNOTE: {稽古|けいこ} has a traditional feel; ⟦{練習|れんしゅう}→練習：05323_renshuu⟧ is used for sports and modern activities.",
   "cross_references": [
     {
       "type": "related",
@@ -141,11 +141,46 @@
       "headword": "{練習|れんしゅう}",
       "label": "practice (general)",
       "target_id": "05323_renshuu"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00408_toreeningu",
+      "reading": "とれーにんぐ",
+      "headword": "トレーニング",
+      "label": "training"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07559_rihaasaru",
+      "reading": "りはーさる",
+      "headword": "リハーサル",
+      "label": "rehearsal"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01542_ressun",
+      "reading": "れっすん",
+      "headword": "レッスン",
+      "label": "lesson"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22991_renshuusuru",
+      "reading": "れんしゅうする",
+      "headword": "{練習|れんしゅう}する",
+      "label": "to practice"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24820_mourenshuu",
+      "reading": "もうれんしゅう",
+      "headword": "{猛練習|もうれんしゅう}",
+      "label": "intensive practice"
     }
   ],
   "metadata": {
     "created": "2026-01-13T10:53:53Z",
-    "modified": "2026-05-09T20:11:57Z",
+    "modified": "2026-09-02T04:00:57Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

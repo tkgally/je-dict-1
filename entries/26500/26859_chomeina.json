@@ -3,7 +3,7 @@
   "headword": "{著名|ちょめい}な",
   "reading": "ちょめいな",
   "romaji": "chomeina",
-  "part_of_speech": "adjective-na",
+  "part_of_speech": "na-adjective",
   "gloss": "well-known; famous; noted; prominent",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26859_chomeina_ex1",
-      "japanese": "{著名|ちょめい}な{学者|がくしゃ}を{招|まね}いた。",
+      "japanese": "{著名|ちょめい}な⟦{学者|がくしゃ}→学者：02544_gakusha⟧⟦を→を：00422_wo⟧⟦{招|まね}いた→招く：02425_maneku⟧。",
       "english": "We invited a prominent scholar.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26859_chomeina_ex2",
-      "japanese": "この{地域|ちいき}は{著名|ちょめい}なワインの{産地|さんち}だ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{地域|ちいき}→地域：01461_chiiki⟧⟦は→は：00079_ha⟧{著名|ちょめい}な⟦ワイン→ワイン：01067_wain⟧⟦の→の：09472_no⟧⟦{産地|さんち}→産地：04031_sanchi⟧だ。",
       "english": "This area is a well-known wine-producing region.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26859_chomeina_ex3",
-      "japanese": "{世界的|せかいてき}に{著名|ちょめい}な{建築家|けんちくか}がこのビルを{設計|せっけい}した。",
+      "japanese": "⟦{世界的|せかいてき}→世界的：20935_sekaiteki⟧⟦に→に：00314_ni⟧{著名|ちょめい}な⟦{建築家|けんちくか}→建築家：06082_kenchikuka⟧⟦が→が：00051_ga⟧⟦この→この：00962_kono⟧⟦ビル→ビル：01500_biru⟧⟦を→を：00422_wo⟧⟦{設計|せっけい}した→設計する：26916_sekkeisuru⟧。",
       "english": "A world-renowned architect designed this building.",
       "sense_numbers": [
         1
@@ -45,7 +45,7 @@
     },
     {
       "id": "26859_chomeina_ex4",
-      "japanese": "{彼女|かのじょ}は{医学|いがく}の{分野|ぶんや}で{著名|ちょめい}な{研究者|けんきゅうしゃ}だ。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧⟦{医学|いがく}→医学：01301_igaku⟧⟦の→の：09472_no⟧⟦{分野|ぶんや}→分野：03612_bunya⟧⟦で→で：00502_de⟧{著名|ちょめい}な⟦{研究者|けんきゅうしゃ}→研究者：02573_kenkyuusha⟧だ。",
       "english": "She is a noted researcher in the field of medicine.",
       "sense_numbers": [
         1
@@ -54,8 +54,23 @@
       "notes": null
     }
   ],
-  "notes": "Formal word for famous, typically used for people or places recognized for positive accomplishments. Carries a sense of established reputation and prestige. Most often appears in written language, news, and academic contexts.\n\nCOMMON COLLOCATIONS:\n- {著名|ちょめい}な{人物|じんぶつ}: prominent figure\n- {著名|ちょめい}な{作家|さっか}: famous writer\n- {著名|ちょめい}な{企業|きぎょう}: well-known company\n- {世界的|せかいてき}に{著名|ちょめい}な: world-renowned\n- {著名|ちょめい}な{学者|がくしゃ}: noted scholar\n\nSIMILAR WORDS:\n- {有名|ゆうめい}な: famous — the most common general word; neutral, used in everyday speech\n- {名高|なだか}い: renowned — literary, emphasizes widespread fame and admiration\n- {高名|こうめい}な: distinguished — very formal, slightly archaic nuance",
-  "cross_references": [],
+  "notes": "Formal word for famous, typically used for people or places recognized for positive accomplishments. Carries a sense of established reputation and prestige. Most often appears in written language, news, and academic contexts.\n\nCOMMON COLLOCATIONS:\n- {著名|ちょめい}な⟦{人物|じんぶつ}→人物：03356_jinbutsu⟧: prominent figure\n- {著名|ちょめい}な⟦{作家|さっか}→作家：01414_sakka⟧: famous writer\n- {著名|ちょめい}な⟦{企業|きぎょう}→企業：00225_kigyou⟧: well-known company\n- ⟦{世界的|せかいてき}→世界的：20935_sekaiteki⟧⟦に→に：00314_ni⟧{著名|ちょめい}な: world-renowned\n- {著名|ちょめい}な⟦{学者|がくしゃ}→学者：02544_gakusha⟧: noted scholar\n\nSIMILAR WORDS:\n- ⟦{有名|ゆうめい}→有名：01106_yuumei⟧な: famous — the most common general word; neutral, used in everyday speech\n- ⟦{名高|なだか}い→名高い：11956_nadakai⟧: renowned — literary, emphasizes widespread fame and admiration\n- {高名|こうめい}な: distinguished — very formal, slightly archaic nuance",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01106_yuumei",
+      "reading": "ゆうめい",
+      "headword": "{有名|ゆうめい}",
+      "label": "famous"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11956_nadakai",
+      "reading": "なだかい",
+      "headword": "{名高|なだか}い",
+      "label": "renowned"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -70,6 +85,6 @@
       ]
     },
     "created": "2026-05-05T14:11:06Z",
-    "modified": "2026-08-06T12:44:19Z"
+    "modified": "2026-09-02T04:02:28Z"
   }
 }

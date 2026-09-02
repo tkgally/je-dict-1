@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "12331_jikoshoukai_ex1",
-      "japanese": "{自己紹介|じこしょうかい}をお{願|ねが}いします。",
+      "japanese": "{自己紹介|じこしょうかい}⟦を→を：00422_wo⟧お{願|ねが}いします。",
       "english": "Please introduce yourself.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "12331_jikoshoukai_ex2",
-      "japanese": "{新入社員|しんにゅうしゃいん}が{一人|ひとり}ずつ{自己紹介|じこしょうかい}をした。",
+      "japanese": "⟦{新入社員|しんにゅうしゃいん}→新入社員：15536_shinnyuushain⟧⟦が→が：00051_ga⟧⟦{一人|ひとり}→一人：00630_hitori⟧⟦ずつ→〜ずつ：03092_zutsu⟧{自己紹介|じこしょうかい}⟦を→を：00422_wo⟧⟦した→する：00392_suru⟧。",
       "english": "The new employees introduced themselves one by one.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "12331_jikoshoukai_ex3",
-      "japanese": "{英語|えいご}で{自己紹介|じこしょうかい}するのは{緊張|きんちょう}する。",
+      "japanese": "⟦{英語|えいご}→英語：02274_eigo⟧⟦で→で：00502_de⟧{自己紹介|じこしょうかい}⟦する→する：00392_suru⟧⟦の→の：09472_no⟧⟦は→は：00079_ha⟧⟦{緊張|きんちょう}する→緊張する：20557_kinchousuru⟧。",
       "english": "Introducing myself in English makes me nervous.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "{自己紹介|じこしょうかい} is a compound of {自己|じこ} (self) + {紹介|しょうかい} (introduction).\n\nUSAGE:\nSelf-introductions are an important social ritual in Japan. They commonly occur at the start of school classes, work meetings, social gatherings, and group activities. A typical {自己紹介|じこしょうかい} includes one's name, affiliation (school, company), and a brief personal detail.\n\nCOMMON COLLOCATIONS:\n- {自己紹介|じこしょうかい}をする: to introduce oneself\n- {自己紹介|じこしょうかい}をお{願|ねが}いします: please introduce yourself\n- {簡単|かんたん}な{自己紹介|じこしょうかい}: a brief self-introduction",
+  "notes": "{自己紹介|じこしょうかい} is a compound of ⟦{自己|じこ}→自己：23357_jiko⟧ (self) + ⟦{紹介|しょうかい}→紹介：01432_shoukai⟧ (introduction).\n\nUSAGE:\nSelf-introductions are an important social ritual in Japan. They commonly occur at the start of school classes, work meetings, social gatherings, and group activities. A typical {自己紹介|じこしょうかい} includes one's name, affiliation (school, company), and a brief personal detail.\n\nCOMMON COLLOCATIONS:\n- {自己紹介|じこしょうかい}⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧: to introduce oneself\n- {自己紹介|じこしょうかい}⟦を→を：00422_wo⟧お{願|ねが}いします: please introduce yourself\n- ⟦{簡単|かんたん}→簡単：00713_kantan⟧な{自己紹介|じこしょうかい}: a brief self-introduction",
   "cross_references": [
     {
       "type": "related",
@@ -142,11 +142,53 @@
       "reading": "しょうかい",
       "headword": "{紹介|しょうかい}",
       "label": "introduction"
+    },
+    {
+      "type": "related",
+      "target_id": "07290_jikomanzoku",
+      "reading": "じこまんぞく",
+      "headword": "{自己満足|じこまんぞく}",
+      "label": "self-satisfaction"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11874_nanoru",
+      "reading": "なのる",
+      "headword": "{名乗|なの}る",
+      "label": "to call oneself, to give one's name, to claim to be"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13563_ryakureki",
+      "reading": "りゃくれき",
+      "headword": "{略歴|りゃくれき}",
+      "label": "brief personal history, résumé"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19316_jikopiiaaru",
+      "reading": "じこぴーあーる",
+      "headword": "{自己|じこ}ＰＲ",
+      "label": "self-promotion"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24700_jikohyougen",
+      "reading": "じこひょうげん",
+      "headword": "{自己表現|じこひょうげん}",
+      "label": "self-expression"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26397_kinkyoubun",
+      "reading": "きんきょうぶん",
+      "headword": "{近況文|きんきょうぶん}",
+      "label": "status update"
     }
   ],
   "metadata": {
     "created": "2026-02-21T02:56:32Z",
-    "modified": "2026-04-26T09:20:33Z",
+    "modified": "2026-09-02T04:01:28Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

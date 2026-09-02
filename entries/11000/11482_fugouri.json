@@ -3,7 +3,7 @@
   "id": "11482_fugouri",
   "headword": "{不合理|ふごうり}",
   "reading": "ふごうり",
-  "part_of_speech": "na-adjective / noun",
+  "part_of_speech": "na-adjective, noun",
   "gloss": "unreasonable, irrational",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "11482_fugouri_ex1",
-      "japanese": "この{制度|せいど}は{不合理|ふごうり}だ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{制度|せいど}→制度：03291_seido⟧⟦は→は：00079_ha⟧{不合理|ふごうり}だ。",
       "english": "This system is irrational.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "11482_fugouri_ex2",
-      "japanese": "{不合理|ふごうり}なルールは{変|か}えるべきだ。",
+      "japanese": "{不合理|ふごうり}な⟦ルール→ルール：00354_ruuru⟧⟦は→は：00079_ha⟧⟦{変|か}える→変える：01089_kaeru⟧べきだ。",
       "english": "Unreasonable rules should be changed.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "11482_fugouri_ex3",
-      "japanese": "{長年|ながねん}{続|つづ}いてきた{不合理|ふごうり}な{慣習|かんしゅう}を{見直|みなお}す{時期|じき}に{来|き}ている。",
+      "japanese": "⟦{長年|ながねん}→長年：09684_naganen⟧⟦{続|つづ}いて→続く：00903_tsuzuku⟧きた{不合理|ふごうり}な⟦{慣習|かんしゅう}→慣習：05523_kanshuu⟧⟦を→を：00422_wo⟧⟦{見直|みなお}す→見直す：04579_minaosu⟧⟦{時期|じき}→時期：03269_jiki⟧⟦に→に：00314_ni⟧⟦{来|き}ている→来る：00254_kuru⟧。",
       "english": "The time has come to reexamine unreasonable customs that have continued for many years.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{不合理|ふごうり} is the opposite of {合理的|ごうりてき} (rational, reasonable). It is used in formal and intellectual discussions to critique systems, rules, or arguments.\n\nNote that {不合理|ふごうり} focuses on logical inconsistency, while {不条理|ふじょうり} (absurd, unreasonable) has a more philosophical or existential connotation.\n\nCOMMON COLLOCATIONS:\n- {不合理|ふごうり}な{制度|せいど}: irrational system\n- {不合理|ふごうり}な{差別|さべつ}: unreasonable discrimination\n- {不合理|ふごうり}な{慣習|かんしゅう}: unreasonable custom\n- {不合理|ふごうり}を{正|ただ}す: to correct what is unreasonable",
+  "notes": "USAGE:\n{不合理|ふごうり} is the opposite of ⟦{合理的|ごうりてき}→合理的：06199_gouriteki⟧ (rational, reasonable). It is used in formal and intellectual discussions to critique systems, rules, or arguments.\n\nNote that {不合理|ふごうり} focuses on logical inconsistency, while ⟦{不条理|ふじょうり}→不条理：16409_fujouri⟧ (absurd, unreasonable) has a more philosophical or existential connotation.\n\nCOMMON COLLOCATIONS:\n- {不合理|ふごうり}な⟦{制度|せいど}→制度：03291_seido⟧: irrational system\n- {不合理|ふごうり}な⟦{差別|さべつ}→差別：01633_sabetsu⟧: unreasonable discrimination\n- {不合理|ふごうり}な⟦{慣習|かんしゅう}→慣習：05523_kanshuu⟧: unreasonable custom\n- {不合理|ふごうり}⟦を→を：00422_wo⟧⟦{正|ただ}す→正す：10132_tadasu⟧: to correct what is unreasonable",
   "cross_references": [
     {
       "type": "antonym",
@@ -52,11 +52,25 @@
       "reading": "ごうり",
       "headword": "{合理|ごうり}",
       "label": "rationality"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23564_higouri",
+      "reading": "ひごうり",
+      "headword": "{非合理|ひごうり}",
+      "label": "irrationality"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23816_higouriteki",
+      "reading": "ひごうりてき",
+      "headword": "{非合理的|ひごうりてき}",
+      "label": "irrational"
     }
   ],
   "metadata": {
     "created": "2026-02-16T14:12:10Z",
-    "modified": "2026-04-11T01:25:09Z",
+    "modified": "2026-09-02T04:01:25Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

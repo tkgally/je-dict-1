@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "19640_kyoukansuru_ex1",
-      "japanese": "その{意見|いけん}に{共感|きょうかん}する。",
+      "japanese": "⟦その→その：00993_sono⟧⟦{意見|いけん}→意見：01303_iken⟧⟦に→に：00314_ni⟧{共感|きょうかん}する。",
       "english": "I relate to that opinion.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "19640_kyoukansuru_ex2",
-      "japanese": "{多|おお}くの{人|ひと}が{彼女|かのじょ}の{言葉|ことば}に{共感|きょうかん}した。",
+      "japanese": "{多|おお}く⟦の→の：09472_no⟧⟦{人|ひと}→人：00476_hito⟧⟦が→が：00051_ga⟧⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦の→の：09472_no⟧⟦{言葉|ことば}→言葉：02880_kotoba⟧⟦に→に：00314_ni⟧{共感|きょうかん}した。",
       "english": "Many people resonated with her words.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "19640_kyoukansuru_ex3",
-      "japanese": "この{映画|えいが}は{主人公|しゅじんこう}の{気持|きも}ちに{共感|きょうかん}できるところが{魅力|みりょく}だ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{映画|えいが}→映画：02273_eiga⟧⟦は→は：00079_ha⟧⟦{主人公|しゅじんこう}→主人公：11404_shujinkou⟧⟦の→の：09472_no⟧{気持|きも}ち⟦に→に：00314_ni⟧{共感|きょうかん}できる⟦ところ→ところ：01137_tokoro⟧⟦が→が：00051_ga⟧⟦{魅力|みりょく}→魅力：03749_miryoku⟧だ。",
       "english": "The appeal of this movie is that you can relate to the protagonist's feelings.",
       "sense_numbers": [
         1
@@ -134,11 +134,26 @@
       "notes": null
     }
   ],
-  "notes": "A very popular word in modern Japanese, especially on social media where {共感|きょうかん} is a key form of engagement. Often used with the particle に to mark what one empathizes with.\n\nCOMMON COLLOCATIONS:\n- {共感|きょうかん}を{呼|よ}ぶ: to evoke empathy, to resonate widely\n- {共感|きょうかん}を{得|え}る: to gain sympathy/agreement\n- {共感|きょうかん}{能力|のうりょく}: empathy, ability to empathize\n- {共感|きょうかん}できる: able to relate to\n- {共感|きょうかん}の{声|こえ}: voices of agreement/sympathy\n\nSIMILAR WORDS:\n- {同情|どうじょう}する: to feel sympathy — implies feeling sorry for someone, often from a position of relative comfort\n- {共感|きょうかん}する: to empathize — implies truly understanding and sharing the same feeling\n- {賛成|さんせい}する: to agree — intellectual agreement, not emotional resonance",
-  "cross_references": [],
+  "notes": "A very popular word in modern Japanese, especially on social media where ⟦{共感|きょうかん}→共感：09050_kyoukan⟧ is a key form of engagement. Often used with the particle ⟦に→に：00314_ni⟧ to mark what one empathizes with.\n\nCOMMON COLLOCATIONS:\n- ⟦{共感|きょうかん}→共感：09050_kyoukan⟧⟦を→を：00422_wo⟧⟦{呼|よ}ぶ→呼ぶ：00766_yobu⟧: to evoke empathy, to resonate widely\n- ⟦{共感|きょうかん}→共感：09050_kyoukan⟧⟦を→を：00422_wo⟧⟦{得|え}る→得る：02014_eru⟧: to gain sympathy/agreement\n- ⟦{共感|きょうかん}→共感：09050_kyoukan⟧⟦{能力|のうりょく}→能力：03541_nouryoku⟧: empathy, ability to empathize\n- {共感|きょうかん}できる: able to relate to\n- ⟦{共感|きょうかん}→共感：09050_kyoukan⟧⟦の→の：09472_no⟧⟦{声|こえ}→声：02207_koe⟧: voices of agreement/sympathy\n\nSIMILAR WORDS:\n- ⟦{同情|どうじょう}する→同情する：18037_doujousuru⟧: to feel sympathy — implies feeling sorry for someone, often from a position of relative comfort\n- {共感|きょうかん}する: to empathize — implies truly understanding and sharing the same feeling\n- ⟦{賛成|さんせい}する→賛成する：05647_sanseisuru⟧: to agree — intellectual agreement, not emotional resonance",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18037_doujousuru",
+      "reading": "どうじょうする",
+      "headword": "{同情|どうじょう}する",
+      "label": "to feel sympathy"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05647_sanseisuru",
+      "reading": "さんせいする",
+      "headword": "{賛成|さんせい}する",
+      "label": "to agree"
+    }
+  ],
   "metadata": {
     "created": "2026-03-26T09:37:45Z",
-    "modified": "2026-03-29T03:08:58Z",
+    "modified": "2026-09-02T04:01:56Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

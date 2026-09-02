@@ -211,7 +211,7 @@
     },
     {
       "id": "04234_sashidasu_ex11",
-      "japanese": "⟦{受付|うけつけ}→受付：01325_uketsuke⟧⟦で→で：00502_de⟧⟦{招待状|しょうたいじょう}→招待状：14769_shoutaijou⟧⟦を→を：00422_wo⟧{差|さ}し{出|だ}すと、⟦{席|せき}→席：02215_seki⟧⟦に→に：00314_ni⟧⟦{案内|あんない}された→案内：01291_annai⟧。",
+      "japanese": "⟦{受付|うけつけ}→受付：01325_uketsuke⟧⟦で→で：00502_de⟧⟦{招待状|しょうたいじょう}→招待状：14769_shoutaijou⟧⟦を→を：00422_wo⟧{差|さ}し{出|だ}す⟦と→と：00512_to⟧、⟦{席|せき}→席：02215_seki⟧⟦に→に：00314_ni⟧⟦{案内|あんない}された→案内：01291_annai⟧。",
       "english": "When I presented my invitation at the reception, I was shown to my seat.",
       "notes": null,
       "has_audio": false,
@@ -270,10 +270,10 @@
       ]
     }
   ],
-  "notes": "{差|さ}し{出|だ}す is a transitive verb (⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧) formed from ⟦{差|さ}す→差す：17637_sasu⟧ (to hold up) + ⟦{出|だ}す→出す：01087_dasu⟧ (to put out). It suggests a polite or formal gesture of offering.\n\nASPECT (ている):\n{差|さ}し{出|だ}している indicates the ongoing action of holding something out.\n\nPARTICLE PATTERNS:\n- [thing]⟦を→を：00422_wo⟧{差|さ}し{出|だ}す — to hold out/present [thing]\n- [person]⟦に→に：00314_ni⟧[thing]⟦を→を：00422_wo⟧{差|さ}し{出|だ}す — to present [thing] to [person]\n\nCOMMON PATTERNS:\n- ⟦{手|て}→手：00569_te⟧⟦を→を：00422_wo⟧{差|さ}し{出|だ}す (hold out one's hand)\n- ⟦{名刺|めいし}→名刺：01090_meishi⟧⟦を→を：00422_wo⟧{差|さ}し{出|だ}す (present a business card)\n- ⟦{手紙|てがみ}→手紙：00675_tegami⟧⟦を→を：00422_wo⟧{差|さ}し{出|だ}す (send a letter)\n\nRELATED WORDS:\n- ⟦{差出人|さしだしにん}→差出人：06316_sashidashinin⟧: sender (of mail)\n- ⟦{差|さ}し{入|い}れ→差し入れ：08294_sashiire⟧: gift brought when visiting\n\nSIMILAR WORDS:\n- ⟦{出|だ}す→出す：01087_dasu⟧: to take out (neutral)\n- ⟦{提出|ていしゅつ}する→提出：03542_teishutsu⟧: to submit (formal documents)",
+  "notes": "{差|さ}し{出|だ}す is a transitive verb (⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧) formed from ⟦{差|さ}す→差す：17637_sasu⟧ (to hold up) + ⟦{出|だ}す→出す：01087_dasu⟧ (to put out). It suggests a polite or formal gesture of offering.\n\nASPECT (ている):\n{差|さ}し{出|だ}して⟦いる→いる：00495_iru⟧ indicates the ongoing action of holding something out.\n\nCOMMON PATTERNS:\n- [thing]⟦を→を：00422_wo⟧{差|さ}し{出|だ}す — to hold out/present [thing]\n- [person]⟦に→に：00314_ni⟧[thing]⟦を→を：00422_wo⟧{差|さ}し{出|だ}す — to present [thing] to [person]\n- ⟦{手|て}→手：00569_te⟧⟦を→を：00422_wo⟧{差|さ}し{出|だ}す (hold out one's hand)\n- ⟦{名刺|めいし}→名刺：01090_meishi⟧⟦を→を：00422_wo⟧{差|さ}し{出|だ}す (present a business card)\n- ⟦{手紙|てがみ}→手紙：00675_tegami⟧⟦を→を：00422_wo⟧{差|さ}し{出|だ}す (send a letter)\n\nRELATED WORDS:\n- ⟦{差出人|さしだしにん}→差出人：06316_sashidashinin⟧: sender (of mail)\n- ⟦{差|さ}し{入|い}れ→差し入れ：08294_sashiire⟧: gift brought when visiting\n\nSIMILAR WORDS:\n- ⟦{出|だ}す→出す：01087_dasu⟧: to take out (neutral)\n- ⟦{提出|ていしゅつ}する→提出：03542_teishutsu⟧: to submit (formal documents)",
   "metadata": {
     "created": "2026-01-14T08:40:32Z",
-    "modified": "2026-05-30T14:41:15Z",
+    "modified": "2026-09-02T04:01:04Z",
     "ai_model": "claude-opus-4-5",
     "schema_version": "2.0",
     "vocabulary_tier": "core",
@@ -300,6 +300,34 @@
       "reading": "さしのべる",
       "headword": "{差|さ}し{伸|の}べる",
       "label": "to extend, to offer"
+    },
+    {
+      "type": "related",
+      "target_id": "06316_sashidashinin",
+      "reading": "さしだしにん",
+      "headword": "{差出人|さしだしにん}",
+      "label": "sender"
+    },
+    {
+      "type": "related",
+      "target_id": "08294_sashiire",
+      "reading": "さしいれ",
+      "headword": "{差|さ}し{入|い}れ",
+      "label": "gift brought when visiting"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03542_teishutsu",
+      "reading": "ていしゅつ",
+      "headword": "{提出|ていしゅつ}",
+      "label": "to submit"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23418_toukan",
+      "reading": "とうかん",
+      "headword": "{投函|とうかん}",
+      "label": "mailing (a letter)"
     }
   ]
 }

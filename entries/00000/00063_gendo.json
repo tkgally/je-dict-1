@@ -23,7 +23,7 @@
     },
     {
       "id": "00063_gendo_ex2",
-      "japanese": "⟦{借入|かりいれ}→借入：07557_kariire⟧⟦の→の：09472_no⟧{限度額|げんどがく}⟦を→を：00422_wo⟧⟦{超|こ}えて→超える：01942_koeru⟧⟦しまった→しまう：03064_shimau⟧。",
+      "japanese": "⟦{借入|かりいれ}→借入：07557_kariire⟧⟦の→の：09472_no⟧⟦{限度額|げんどがく}→限度額：20870_gendogaku⟧⟦を→を：00422_wo⟧⟦{超|こ}えて→超える：01942_koeru⟧⟦しまった→しまう：03064_shimau⟧。",
       "english": "I exceeded my borrowing limit.",
       "has_audio": false,
       "sense_numbers": [
@@ -55,11 +55,39 @@
       "reading": "せいげん",
       "headword": "{制限|せいげん}",
       "label": "restriction"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11299_jougen",
+      "reading": "じょうげん",
+      "headword": "{上限|じょうげん}",
+      "label": "upper limit, maximum"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17114_kyoyouryou",
+      "reading": "きょようりょう",
+      "headword": "{許容量|きょようりょう}",
+      "label": "tolerance"
+    },
+    {
+      "type": "related",
+      "target_id": "19733_kyoyouhani",
+      "reading": "きょようはんい",
+      "headword": "{許容範囲|きょようはんい}",
+      "label": "acceptable range"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23877_genkaiten",
+      "reading": "げんかいてん",
+      "headword": "{限界点|げんかいてん}",
+      "label": "limit"
     }
   ],
   "metadata": {
     "created": "2026-01-13T11:15:03Z",
-    "modified": "2026-05-09T01:15:34Z",
+    "modified": "2026-09-02T04:00:56Z",
     "ai_model": "opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

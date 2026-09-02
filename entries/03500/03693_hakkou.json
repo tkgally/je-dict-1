@@ -2,7 +2,7 @@
   "id": "03693_hakkou",
   "headword": "{発行|はっこう}",
   "reading": "はっこう",
-  "part_of_speech": "noun / suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "publication, issue",
   "conjugation": {
     "type": "suru",
@@ -129,7 +129,7 @@
     },
     {
       "id": "03693_hakkou_ex3",
-      "japanese": "{発行|はっこう}{部数|ぶすう}⟦は→は：00079_ha⟧100{万|まん}{部|ぶ}⟦を→を：00422_wo⟧⟦{超|こ}えた→超える：01942_koeru⟧。",
+      "japanese": "{発行|はっこう}{部数|ぶすう}⟦は→は：00079_ha⟧100{万|まん}⟦{部|ぶ}→〜部：00440_bu⟧⟦を→を：00422_wo⟧⟦{超|こ}えた→超える：01942_koeru⟧。",
       "english": "The circulation exceeded one million copies.",
       "notes": "{発行|はっこう}{部数|ぶすう} = circulation, print run",
       "has_audio": false,
@@ -149,7 +149,7 @@
     },
     {
       "id": "03693_hakkou_ex5",
-      "japanese": "⟦{証明書|しょうめいしょ}→証明書：09785_shoumeisho⟧⟦の→の：09472_no⟧{発行|はっこう}には{一|いっ}⟦{週間|しゅうかん}→週間：00988_shuukan⟧⟦かかる→かかる：00711_kakaru⟧。",
+      "japanese": "⟦{証明書|しょうめいしょ}→証明書：09785_shoumeisho⟧⟦の→の：09472_no⟧{発行|はっこう}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{一|いっ}⟦{週間|しゅうかん}→週間：00988_shuukan⟧⟦かかる→かかる：00711_kakaru⟧。",
       "english": "It takes one week to issue the certificate.",
       "notes": null,
       "has_audio": false,
@@ -158,7 +158,7 @@
       ]
     }
   ],
-  "notes": "Used for both publishing printed materials and issuing official documents.\n\nCOMMON COLLOCATIONS:\n・{発行|はっこう}⟦する→する：00392_suru⟧ (to publish, issue)\n・{発行|はっこう}{部数|ぶすう} (circulation, print run)\n・{発行|はっこう}{日|び} (publication date, issue date)\n・{発行|はっこう}{者|しゃ} (publisher, issuer)\n・{発行|はっこう}{元|もと} (issuing authority)\n・⟦クレジットカード→クレジットカード：06968_kurejittokaado⟧の{発行|はっこう} (credit card issuance)\n\nRELATED WORDS:\n・⟦{出版|しゅっぱん}→出版：03222_shuppan⟧ (publishing — specifically for books)",
+  "notes": "Used for both publishing printed materials and issuing official documents.\n\nCOMMON COLLOCATIONS:\n- {発行|はっこう}⟦する→する：00392_suru⟧ (to publish, issue)\n- {発行|はっこう}{部数|ぶすう} (circulation, print run)\n- {発行|はっこう}{日|び} (publication date, issue date)\n- {発行|はっこう}{者|しゃ} (publisher, issuer)\n- {発行|はっこう}{元|もと} (issuing authority)\n- ⟦クレジットカード→クレジットカード：06968_kurejittokaado⟧⟦の→の：09472_no⟧{発行|はっこう} (credit card issuance)\n\nRELATED WORDS:\n- ⟦{出版|しゅっぱん}→出版：03222_shuppan⟧ (publishing — specifically for books)",
   "cross_references": [
     {
       "type": "related",
@@ -166,11 +166,25 @@
       "headword": "{出版|しゅっぱん}",
       "label": "book publishing",
       "target_id": "03222_shuppan"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02788_kankou",
+      "reading": "かんこう",
+      "headword": "{刊行|かんこう}",
+      "label": "publication, publishing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04315_hatsubai",
+      "reading": "はつばい",
+      "headword": "{発売|はつばい}",
+      "label": "sale, release (of product)"
     }
   ],
   "metadata": {
     "created": "2026-01-12T12:24:37Z",
-    "modified": "2026-05-26T22:10:50Z",
+    "modified": "2026-09-02T04:01:03Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

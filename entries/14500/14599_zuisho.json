@@ -15,42 +15,76 @@
   "examples": [
     {
       "id": "14599_zuisho_ex1",
-      "japanese": "{随所|ずいしょ}に{工夫|くふう}が{見|み}られる。",
+      "japanese": "{随所|ずいしょ}⟦に→に：00314_ni⟧⟦{工夫|くふう}→工夫：00250_kufuu⟧⟦が→が：00051_ga⟧⟦{見|み}られる→見る：00283_miru⟧。",
       "english": "Clever touches can be seen throughout.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14599_zuisho_ex2",
-      "japanese": "この{街|まち}には{歴史|れきし}を{感|かん}じさせるものが{随所|ずいしょ}にある。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{街|まち}→街：17306_machi⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{歴史|れきし}→歴史：02267_rekishi⟧⟦を→を：00422_wo⟧⟦{感|かん}じさせる→感じる：02044_kanjiru⟧もの⟦が→が：00051_ga⟧{随所|ずいしょ}⟦に→に：00314_ni⟧⟦ある→ある：00006_aru⟧。",
       "english": "There are things that evoke history everywhere in this town.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14599_zuisho_ex3",
-      "japanese": "{彼|かれ}の{作品|さくひん}には{独自|どくじ}のユーモアが{随所|ずいしょ}にちりばめられている。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧⟦{作品|さくひん}→作品：02776_sakuhin⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{独自|どくじ}→独自：05614_dokuji⟧⟦の→の：09472_no⟧⟦ユーモア→ユーモア：00432_yuumoa⟧⟦が→が：00051_ga⟧{随所|ずいしょ}⟦に→に：00314_ni⟧ちりばめられて⟦いる→いる：00495_iru⟧。",
       "english": "His work is peppered with his unique humor throughout.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nAlmost always used with the particle に as {随所|ずいしょ}に. Has a written or formal feel; in casual conversation, あちこち or いたるところ would be more natural.\n\nCOMMON COLLOCATIONS:\n- {随所|ずいしょ}に{見|み}られる (can be seen throughout)\n- {随所|ずいしょ}にちりばめる (to scatter throughout)\n- {随所|ずいしょ}に{工夫|くふう}がある (there are clever touches throughout)\n\nSIMILAR WORDS:\n- {随所|ずいしょ}: everywhere (literary/formal tone)\n- あちこち: here and there (casual, conversational)\n- いたるところ: everywhere (slightly formal, emphasizes completeness)\n- {各所|かくしょ}: various places (neutral, often administrative)",
-  "cross_references": [],
+  "notes": "USAGE:\nAlmost always used with the particle ⟦に→に：00314_ni⟧ as {随所|ずいしょ}⟦に→に：00314_ni⟧. Has a written or formal feel; in casual conversation, ⟦あちこち→あちこち：01687_achikochi⟧ or いたる⟦ところ→ところ：01137_tokoro⟧ would be more natural.\n\nCOMMON COLLOCATIONS:\n- {随所|ずいしょ}⟦に→に：00314_ni⟧⟦{見|み}られる→見る：00283_miru⟧ (can be seen throughout)\n- {随所|ずいしょ}⟦に→に：00314_ni⟧ちりばめる (to scatter throughout)\n- {随所|ずいしょ}⟦に→に：00314_ni⟧⟦{工夫|くふう}→工夫：00250_kufuu⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧ (there are clever touches throughout)\n\nSIMILAR WORDS:\n- {随所|ずいしょ}: everywhere (literary/formal tone)\n- ⟦あちこち→あちこち：01687_achikochi⟧: here and there (casual, conversational)\n- いたる⟦ところ→ところ：01137_tokoro⟧: everywhere (slightly formal, emphasizes completeness)\n- ⟦{各所|かくしょ}→各所：16088_kakusho⟧: various places (neutral, often administrative)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01687_achikochi",
+      "reading": "あちこち",
+      "headword": "あちこち",
+      "label": "here and there"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15861_itarutokoro",
+      "reading": "いたるところ",
+      "headword": "{至|いた}る{所|ところ}",
+      "label": "everywhere"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16088_kakusho",
+      "reading": "かくしょ",
+      "headword": "{各所|かくしょ}",
+      "label": "various places"
+    }
+  ],
   "metadata": {
     "created": "2026-03-02T08:23:50Z",
-    "modified": "2026-03-02T08:23:50Z",
+    "modified": "2026-09-02T04:01:38Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"],
-      "style": ["written"]
+      "semantic": [
+        "general"
+      ],
+      "style": [
+        "written"
+      ]
     }
   }
 }

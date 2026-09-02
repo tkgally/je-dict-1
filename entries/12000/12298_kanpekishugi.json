@@ -15,41 +15,59 @@
   "examples": [
     {
       "id": "12298_kanpekishugi_ex1",
-      "japanese": "{彼|かれ}は{完璧主義|かんぺきしゅぎ}だ。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{完璧主義|かんぺきしゅぎ}だ。",
       "english": "He is a perfectionist.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12298_kanpekishugi_ex2",
-      "japanese": "{完璧主義|かんぺきしゅぎ}がストレスの{原因|げんいん}になっている。",
+      "japanese": "{完璧主義|かんぺきしゅぎ}⟦が→が：00051_ga⟧⟦ストレス→ストレス：03827_sutoresu⟧⟦の→の：09472_no⟧⟦{原因|げんいん}→原因：01400_genin⟧になっている。",
       "english": "Perfectionism is causing stress.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12298_kanpekishugi_ex3",
-      "japanese": "{完璧主義|かんぺきしゅぎ}をやめたら、{仕事|しごと}が{楽|らく}になった。",
+      "japanese": "{完璧主義|かんぺきしゅぎ}⟦を→を：00422_wo⟧⟦やめたら→やめる：00909_yameru⟧、⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦が→が：00051_ga⟧⟦{楽|らく}→楽：02169_raku⟧になった。",
       "english": "When I stopped being a perfectionist, work became easier.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{完璧主義|かんぺきしゅぎ} is a compound of {完璧|かんぺき} (perfection, flawlessness) and {主義|しゅぎ} (-ism, principle).\n\nCOMMON COLLOCATIONS:\n- {完璧主義者|かんぺきしゅぎしゃ} (perfectionist — the person)\n- {完璧主義|かんぺきしゅぎ}に{陥|おちい}る (to fall into perfectionism)\n- {完璧主義|かんぺきしゅぎ}を{手放|てばな}す (to let go of perfectionism)\n\nUSAGE:\nOften used with a slightly negative nuance, implying that perfectionism can be harmful or counterproductive. {完璧主義|かんぺきしゅぎ}だ or {完璧主義者|かんぺきしゅぎしゃ}だ can describe a person directly.",
-  "cross_references": [],
+  "notes": "{完璧主義|かんぺきしゅぎ} is a compound of ⟦{完璧|かんぺき}→完璧：09505_kanpeki⟧ (perfection, flawlessness) and ⟦{主義|しゅぎ}→主義：03215_shugi⟧ (-ism, principle).\n\nCOMMON COLLOCATIONS:\n- {完璧主義者|かんぺきしゅぎしゃ} (perfectionist — the person)\n- {完璧主義|かんぺきしゅぎ}⟦に→に：00314_ni⟧⟦{陥|おちい}る→陥る：14537_ochiiru⟧ (to fall into perfectionism)\n- {完璧主義|かんぺきしゅぎ}⟦を→を：00422_wo⟧⟦{手放|てばな}す→手放す：05338_tebanasu⟧ (to let go of perfectionism)\n\nUSAGE:\nOften used with a slightly negative nuance, implying that perfectionism can be harmful or counterproductive. {完璧主義|かんぺきしゅぎ}だ or {完璧主義者|かんぺきしゅぎしゃ}だ can describe a person directly.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21072_kanzenshugi",
+      "reading": "かんぜんしゅぎ",
+      "headword": "{完全主義|かんぜんしゅぎ}",
+      "label": "perfectionism"
+    }
+  ],
   "metadata": {
     "created": "2026-02-20T16:36:12Z",
-    "modified": "2026-02-20T16:36:12Z",
+    "modified": "2026-09-02T04:01:28Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["cognition"]
+      "semantic": [
+        "cognition"
+      ]
     }
   }
 }

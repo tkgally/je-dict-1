@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21239_ookime_ex1",
-      "japanese": "{大|おお}きめのサイズをください。",
+      "japanese": "{大|おお}きめ⟦の→の：09472_no⟧⟦サイズ→サイズ：01363_saizu⟧⟦を→を：00422_wo⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please give me a larger size.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21239_ookime_ex2",
-      "japanese": "{野菜|やさい}は{大|おお}きめに{切|き}ってね。",
+      "japanese": "⟦{野菜|やさい}→野菜：02265_yasai⟧⟦は→は：00079_ha⟧{大|おお}きめ⟦に→に：00314_ni⟧⟦{切|き}って→切る：02693_kiru⟧⟦ね→ね：09474_ne⟧。",
       "english": "Cut the vegetables on the larger side, okay?",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21239_ookime_ex3",
-      "japanese": "このシャツは{大|おお}きめに{作|つく}られているので、ワンサイズ{下|した}でもいいかもしれない。",
+      "japanese": "⟦この→この：00962_kono⟧⟦シャツ→シャツ：01052_shatsu⟧⟦は→は：00079_ha⟧{大|おお}きめ⟦に→に：00314_ni⟧⟦{作|つく}られている→作る：00481_tsukuru⟧⟦の→の：09472_no⟧で、ワンサイズ⟦{下|した}→下：00670_shita⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧⟦いい→いい：00118_ii⟧⟦かもしれない→かもしれない：00164_kamoshirenai⟧。",
       "english": "This shirt is made on the large side, so one size down might be fine.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Formed by adding the suffix ～め to the adjective stem {大|おお}き. The ～め suffix indicates a slight tendency or degree — \"somewhat,\" \"on the ... side.\" Very common in everyday speech, especially when shopping or cooking.\n\nPATTERN — ～め (degree suffix):\nAttaches to adjective stems to indicate a slight degree:\n- {小|ちい}さめ: on the small side\n- {多|おお}め: on the generous/large side (for quantities)\n- {少|すく}なめ: on the less side\n- {早|はや}め: on the early side\n- {強|つよ}め: on the strong side\n\nCOMMON COLLOCATIONS:\n- {大|おお}きめのサイズ: a larger size\n- {大|おお}きめに{切|き}る: to cut into larger pieces\n- {大|おお}きめの{服|ふく}: oversized clothing\n- {大|おお}きめに{作|つく}る: to make on the large side",
+  "notes": "Formed by adding the suffix ～め to the adjective stem {大|おお}き. The ～め suffix indicates a slight tendency or degree — \"somewhat,\" \"on the ... side.\" Very common in everyday speech, especially when shopping or cooking.\n\nPATTERN — ～め (degree suffix):\nAttaches to adjective stems to indicate a slight degree:\n- ⟦{小|ちい}さめ→小さめ：21795_chiisame⟧: on the small side\n- ⟦{多|おお}め→多め：28421_oome⟧: on the generous/large side (for quantities)\n- ⟦{少|すく}なめ→少なめ：19120_sukuname⟧: on the less side\n- ⟦{早|はや}め→早め：11176_hayame⟧: on the early side\n- {強|つよ}め: on the strong side\n\nCOMMON COLLOCATIONS:\n- {大|おお}きめ⟦の→の：09472_no⟧⟦サイズ→サイズ：01363_saizu⟧: a larger size\n- {大|おお}きめ⟦に→に：00314_ni⟧⟦{切|き}る→切る：02693_kiru⟧: to cut into larger pieces\n- {大|おお}きめ⟦の→の：09472_no⟧⟦{服|ふく}→服：00695_fuku⟧: oversized clothing\n- {大|おお}きめ⟦に→に：00314_ni⟧⟦{作|つく}る→作る：00481_tsukuru⟧: to make on the large side",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "20901_futome",
+      "reading": "ふとめ",
+      "headword": "{太|ふと}め",
+      "label": "somewhat thick"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21795_chiisame",
+      "reading": "ちいさめ",
+      "headword": "{小|ちい}さめ",
+      "label": "rather small"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28421_oome",
+      "reading": "おおめ",
+      "headword": "{多|おお}め",
+      "label": "a bit more"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +83,6 @@
       ]
     },
     "created": "2026-04-01T15:23:39Z",
-    "modified": "2026-07-29T00:24:28Z"
+    "modified": "2026-09-02T04:02:02Z"
   }
 }

@@ -15,41 +15,67 @@
   "examples": [
     {
       "id": "29961_furiikikku_ex1",
-      "japanese": "フリーキックを{決|き}める。",
+      "japanese": "フリーキック⟦を→を：00422_wo⟧⟦{決|き}める→決める：00858_kimeru⟧。",
       "english": "To score from a free kick.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29961_furiikikku_ex2",
-      "japanese": "ゴール{前|まえ}のフリーキックはチャンスだ。",
+      "japanese": "⟦ゴール→ゴール：03845_gooru⟧⟦{前|まえ}→前：02255_mae⟧⟦の→の：09472_no⟧フリーキック⟦は→は：00079_ha⟧⟦チャンス→チャンス：03857_chansu⟧だ。",
       "english": "A free kick in front of the goal is a real chance.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29961_furiikikku_ex3",
-      "japanese": "{反則|はんそく}をとられ、{相手|あいて}チームにフリーキックを{与|あた}えてしまった。",
+      "japanese": "⟦{反則|はんそく}→反則：06541_hansoku⟧⟦を→を：00422_wo⟧とられ、⟦{相手|あいて}→相手：01677_aite⟧⟦チーム→チーム：03858_chiimu⟧⟦に→に：00314_ni⟧フリーキック⟦を→を：00422_wo⟧⟦{与|あた}えて→与える：01821_ataeru⟧しまった。",
       "english": "A foul was called, and we ended up conceding a free kick to the other team.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A soccer and rugby term for a kick restarted after a foul. In soccer, a direct free kick may be shot straight at goal, while an indirect one must touch another player first.\n\nCOMMON COLLOCATIONS:\n- フリーキックを{蹴|け}る: to take a free kick\n- フリーキックを{決|き}める: to score from a free kick\n- {直接|ちょくせつ}フリーキック: direct free kick\n\nRELATED WORDS:\n- ペナルティキック: penalty kick — taken from the spot for a foul inside the penalty area\n- コーナーキック: corner kick",
+  "notes": "A soccer and rugby term for a kick restarted after a foul. In soccer, a direct free kick may be shot straight at goal, while an indirect one must touch another player first.\n\nCOMMON COLLOCATIONS:\n- フリーキック⟦を→を：00422_wo⟧⟦{蹴|け}る→蹴る：02054_keru⟧: to take a free kick\n- フリーキック⟦を→を：00422_wo⟧⟦{決|き}める→決める：00858_kimeru⟧: to score from a free kick\n- ⟦{直接|ちょくせつ}→直接：03499_chokusetsu⟧フリーキック: direct free kick\n\nRELATED WORDS:\n- ⟦ペナルティキック→ペナルティキック：29976_penarutikikku⟧: penalty kick — taken from the spot for a foul inside the penalty area\n- ⟦コーナーキック→コーナーキック：29975_koonaakikku⟧: corner kick",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "29976_penarutikikku",
+      "reading": "ぺなるてぃきっく",
+      "headword": "ペナルティキック",
+      "label": "penalty kick"
+    },
+    {
+      "type": "related",
+      "target_id": "29975_koonaakikku",
+      "reading": "こーなーきっく",
+      "headword": "コーナーキック",
+      "label": "corner kick"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["sports"],
+      "semantic": [
+        "sports"
+      ],
       "domain": []
     },
     "created": "2026-07-19T18:17:15Z",
-    "modified": "2026-07-19T18:17:15Z"
+    "modified": "2026-09-02T04:02:38Z"
   }
 }

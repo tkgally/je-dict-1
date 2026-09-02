@@ -14,41 +14,67 @@
   "examples": [
     {
       "id": "11005_fikushon_ex1",
-      "japanese": "この{映画|えいが}はフィクションです。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{映画|えいが}→映画：02273_eiga⟧⟦は→は：00079_ha⟧フィクションです。",
       "english": "This movie is fiction.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11005_fikushon_ex2",
-      "japanese": "フィクションと{実話|じつわ}の{区別|くべつ}がつかない。",
+      "japanese": "フィクション⟦と→と：00512_to⟧⟦{実話|じつわ}→実話：15897_jitsuwa⟧⟦の→の：09472_no⟧⟦{区別|くべつ}→区別：01555_kubetsu⟧⟦が→が：00051_ga⟧つかない。",
       "english": "I can't tell the difference between fiction and a true story.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11005_fikushon_ex3",
-      "japanese": "この{小説|しょうせつ}はフィクションですが、{実在|じつざい}の{事件|じけん}をもとにしています。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{小説|しょうせつ}→小説：01434_shousetsu⟧⟦は→は：00079_ha⟧フィクションです⟦が→が：00051_ga⟧、⟦{実在|じつざい}→実在：12299_jitsuzai⟧⟦の→の：09472_no⟧⟦{事件|じけん}→事件：01568_jiken⟧⟦を→を：00422_wo⟧もとにして⟦います→いる：00495_iru⟧。",
       "english": "This novel is fiction, but it is based on a real incident.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "フィクション refers to fictional content across all media — novels, films, TV, manga, etc. From English \"fiction.\"\n\nCOMMON COLLOCATIONS:\n- フィクション{作品|さくひん} (fictional work)\n- サイエンスフィクション / SF (science fiction)\n- フィクションとノンフィクション (fiction and nonfiction)\n\nCONTRAST:\n- フィクション vs. ノンフィクション (fiction vs. nonfiction)\n- フィクション vs. {実話|じつわ} (fiction vs. true story)\n- フィクション vs. {事実|じじつ} (fiction vs. fact)\n\nCOMMON USAGE:\nOften appears in disclaimers at the start of TV dramas and films: 「この{物語|ものがたり}はフィクションです。{実在|じつざい}の{人物|じんぶつ}・{団体|だんたい}とは{関係|かんけい}ありません」 (This story is fiction and has no relation to real people or organizations).",
+  "notes": "フィクション refers to fictional content across all media — novels, films, TV, manga, etc. From English \"fiction.\"\n\nCOMMON COLLOCATIONS:\n- フィクション⟦{作品|さくひん}→作品：02776_sakuhin⟧ (fictional work)\n- サイエンスフィクション / SF (science fiction)\n- フィクション⟦と→と：00512_to⟧ノンフィクション (fiction and nonfiction)\nOften appears in disclaimers at the start of TV dramas and films: 「⟦この→この：00962_kono⟧⟦{物語|ものがたり}→物語：03634_monogatari⟧⟦は→は：00079_ha⟧フィクションです。⟦{実在|じつざい}→実在：12299_jitsuzai⟧⟦の→の：09472_no⟧⟦{人物|じんぶつ}→人物：03356_jinbutsu⟧・⟦{団体|だんたい}→団体：03426_dantai⟧⟦と→と：00512_to⟧⟦は→は：00079_ha⟧⟦{関係|かんけい}→関係：01298_kankei⟧⟦ありません→ある：00006_aru⟧」 (This story is fiction and has no relation to real people or organizations).\n\nSIMILAR WORDS:\n- フィクション vs. ノンフィクション (fiction vs. nonfiction)\n- フィクション vs. ⟦{実話|じつわ}→実話：15897_jitsuwa⟧ (fiction vs. true story)\n- フィクション vs. ⟦{事実|じじつ}→事実：03271_jijitsu⟧ (fiction vs. fact)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00160_kakuu",
+      "reading": "かくう",
+      "headword": "{架空|かくう}",
+      "label": "imaginary"
+    },
+    {
+      "type": "related",
+      "target_id": "09808_kyokou",
+      "reading": "きょこう",
+      "headword": "{虚構|きょこう}",
+      "label": "fiction"
+    }
+  ],
   "metadata": {
     "created": "2026-02-12T07:24:00Z",
-    "modified": "2026-03-30T03:20:26Z",
+    "modified": "2026-09-02T04:01:23Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

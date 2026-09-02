@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "11802_genryou_ex1",
-      "japanese": "ビールの{原料|げんりょう}は{麦|むぎ}とホップだ。",
+      "japanese": "⟦ビール→ビール：01015_biiru⟧⟦の→の：09472_no⟧{原料|げんりょう}⟦は→は：00079_ha⟧⟦{麦|むぎ}→麦：05427_mugi⟧⟦と→と：00512_to⟧ホップだ。",
       "english": "The raw materials of beer are barley and hops.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "11802_genryou_ex2",
-      "japanese": "{原料|げんりょう}の{価格|かかく}が{上|あ}がっている。",
+      "japanese": "{原料|げんりょう}⟦の→の：09472_no⟧⟦{価格|かかく}→価格：00147_kakaku⟧⟦が→が：00051_ga⟧⟦{上|あ}がっている→上がる：00615_agaru⟧。",
       "english": "The prices of raw materials are rising.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "11802_genryou_ex3",
-      "japanese": "この{化粧品|けしょうひん}は{天然|てんねん}の{原料|げんりょう}だけを{使|つか}って{作|つく}られている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{化粧品|けしょうひん}→化粧品：05119_keshouhin⟧⟦は→は：00079_ha⟧⟦{天然|てんねん}→天然：03560_tennen⟧⟦の→の：09472_no⟧{原料|げんりょう}⟦だけ→〜だけ：03093_dake⟧⟦を→を：00422_wo⟧⟦{使|つか}って→使う：00473_tsukau⟧⟦{作|つく}られている→作る：00481_tsukuru⟧。",
       "english": "This cosmetic product is made using only natural ingredients.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "Distinguished from {材料|ざいりょう}, which can refer to materials that keep their form in the finished product (like wood in furniture), while {原料|げんりょう} typically refers to materials that are chemically or physically transformed (like grapes into wine). Also distinguished from {素材|そざい}, which emphasizes the inherent qualities of a material.\n\nCOMMON COLLOCATIONS:\n・{原料|げんりょう}を{輸入|ゆにゅう}する: to import raw materials\n・{天然|てんねん}{原料|げんりょう}: natural ingredients\n・{原料|げんりょう}{価格|かかく}: raw material prices\n・{原料|げんりょう}{不足|ぶそく}: shortage of raw materials",
+  "notes": "Distinguished from ⟦{材料|ざいりょう}→材料：02831_zairyou⟧, which can refer to materials that keep their form in the finished product (like wood in furniture), while {原料|げんりょう} typically refers to materials that are chemically or physically transformed (like grapes into wine). Also distinguished from ⟦{素材|そざい}→素材：09492_sozai⟧, which emphasizes the inherent qualities of a material.\n\nCOMMON COLLOCATIONS:\n- {原料|げんりょう}⟦を→を：00422_wo⟧⟦{輸入|ゆにゅう}→輸入：01742_yunyuu⟧⟦する→する：00392_suru⟧: to import raw materials\n- ⟦{天然|てんねん}→天然：03560_tennen⟧{原料|げんりょう}: natural ingredients\n- {原料|げんりょう}⟦{価格|かかく}→価格：00147_kakaku⟧: raw material prices\n- {原料|げんりょう}{不足|ぶそく}: shortage of raw materials",
   "cross_references": [
     {
       "type": "contrast",
@@ -58,11 +58,18 @@
       "reading": "そざい",
       "headword": "{素材|そざい}",
       "label": "raw material (inherent qualities)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18966_genzairyou",
+      "reading": "げんざいりょう",
+      "headword": "{原材料|げんざいりょう}",
+      "label": "raw materials"
     }
   ],
   "metadata": {
     "created": "2026-02-18T06:08:50Z",
-    "modified": "2026-08-15T21:25:25Z",
+    "modified": "2026-09-02T04:01:26Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",

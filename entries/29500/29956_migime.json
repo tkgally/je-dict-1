@@ -15,41 +15,74 @@
   "examples": [
     {
       "id": "29956_migime_ex1",
-      "japanese": "{右|みぎ}{目|め}に{涙|なみだ}がたまる。",
+      "japanese": "{右|みぎ}{目|め}⟦に→に：00314_ni⟧⟦{涙|なみだ}→涙：02235_namida⟧⟦が→が：00051_ga⟧たまる。",
       "english": "Tears well up in my right eye.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29956_migime_ex2",
-      "japanese": "ボールが{右|みぎ}{目|め}の{近|ちか}くに{当|あ}たった。",
+      "japanese": "⟦ボール→ボール：00017_booru⟧⟦が→が：00051_ga⟧{右|みぎ}{目|め}⟦の→の：09472_no⟧{近|ちか}く⟦に→に：00314_ni⟧⟦{当|あ}たった→当たる：01860_ataru⟧。",
       "english": "The ball hit me near my right eye.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29956_migime_ex3",
-      "japanese": "{願|ねが}いがかなったので、だるまの{右|みぎ}{目|め}を{書|か}き{入|い}れた。",
+      "japanese": "⟦{願|ねが}い→願い：03529_negai⟧⟦が→が：00051_ga⟧かなった⟦の→の：09472_no⟧で、⟦だるま→だるま：06539_daruma⟧⟦の→の：09472_no⟧{右|みぎ}{目|め}⟦を→を：00422_wo⟧⟦{書|か}き{入|い}れた→書き入れる：13052_kakiireru⟧。",
       "english": "Since my wish came true, I filled in the daruma's right eye.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Refers to the right eye from the point of view of the person whose eye it is.\n\nCOMMON COLLOCATIONS:\n- {右|みぎ}{目|め}をつぶる: to close/wink the right eye\n- {右|みぎ}{目|め}の{視力|しりょく}: vision in the right eye\n\nRELATED WORDS:\n- {左|ひだり}{目|め}: left eye\n- {両目|りょうめ}: both eyes\n- {片目|かため}: one eye",
+  "notes": "Refers to the right eye from the point of view of the person whose eye it is.\n\nCOMMON COLLOCATIONS:\n- {右|みぎ}{目|め}⟦を→を：00422_wo⟧⟦つぶる→つぶる：29078_tsuburu⟧: to close/wink the right eye\n- {右|みぎ}{目|め}⟦の→の：09472_no⟧⟦{視力|しりょく}→視力：05033_shiryoku⟧: vision in the right eye\n\nRELATED WORDS:\n- ⟦{左|ひだり}{目|め}→左目：29955_hidarime⟧: left eye\n- ⟦{両目|りょうめ}→両目：21275_ryoume⟧: both eyes\n- ⟦{片目|かため}→片目：20229_katame⟧: one eye",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "29955_hidarime",
+      "reading": "ひだりめ",
+      "headword": "{左|ひだり}{目|め}",
+      "label": "left eye"
+    },
+    {
+      "type": "related",
+      "target_id": "21275_ryoume",
+      "reading": "りょうめ",
+      "headword": "{両目|りょうめ}",
+      "label": "both eyes"
+    },
+    {
+      "type": "related",
+      "target_id": "20229_katame",
+      "reading": "かため",
+      "headword": "{片目|かため}",
+      "label": "one eye"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["body-part"],
+      "semantic": [
+        "body-part"
+      ],
       "domain": []
     },
     "created": "2026-07-19T18:17:15Z",
-    "modified": "2026-07-19T18:17:15Z"
+    "modified": "2026-09-02T04:02:38Z"
   }
 }

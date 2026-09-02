@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "13029_shinsetsu_ex1",
-      "japanese": "{新|あたら}しい{学部|がくぶ}を{新設|しんせつ}する。",
+      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧{学部|がくぶ}⟦を→を：00422_wo⟧{新設|しんせつ}⟦する→する：00392_suru⟧。",
       "english": "To newly establish a department.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "13029_shinsetsu_ex2",
-      "japanese": "{駅前|えきまえ}に{保育園|ほいくえん}が{新設|しんせつ}された。",
+      "japanese": "⟦{駅前|えきまえ}→駅前：09593_ekimae⟧⟦に→に：00314_ni⟧⟦{保育園|ほいくえん}→保育園：04704_hoikuen⟧⟦が→が：00051_ga⟧{新設|しんせつ}⟦された→する：00392_suru⟧。",
       "english": "A nursery school was newly established in front of the station.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "13029_shinsetsu_ex3",
-      "japanese": "{政府|せいふ}は{災害|さいがい}{対策|たいさく}のための{新設|しんせつ}{機関|きかん}を{来年|らいねん}{発足|ほっそく}させる{方針|ほうしん}だ。",
+      "japanese": "⟦{政府|せいふ}→政府：03294_seifu⟧⟦は→は：00079_ha⟧⟦{災害|さいがい}{対策|たいさく}→災害対策：25766_saigaitaisaku⟧⟦の→の：09472_no⟧⟦ため→ため：01145_tame⟧⟦の→の：09472_no⟧{新設|しんせつ}⟦{機関|きかん}→機関：02630_kikan⟧⟦を→を：00422_wo⟧⟦{来年|らいねん}→来年：00745_rainen⟧⟦{発足|ほっそく}→発足：13641_hossoku⟧⟦させる→する：00392_suru⟧⟦{方針|ほうしん}→方針：04871_houshin⟧だ。",
       "english": "The government plans to launch a newly established agency for disaster response next year.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nUsed as a suru verb ({新設|しんせつ}する) or as a noun modifier ({新設|しんせつ}の). The homophone {親切|しんせつ} (kindness) is a completely different word.\n\nCOMMON COLLOCATIONS:\n- {学校|がっこう}を{新設|しんせつ}する: to newly establish a school\n- {新設|しんせつ}{部門|ぶもん}: newly created department\n- {新設|しんせつ}{校|こう}: newly built school\n- {新設|しんせつ}{合併|がっぺい}: new merger\n\nSIMILAR WORDS:\n- {設立|せつりつ}: establishment, founding (more general)\n- {創設|そうせつ}: founding, creation (emphasizes being the first)",
+  "notes": "USAGE:\nUsed as a suru verb ({新設|しんせつ}⟦する→する：00392_suru⟧) or as a noun modifier ({新設|しんせつ}⟦の→の：09472_no⟧). The homophone ⟦{親切|しんせつ}→親切：01144_shinsetsu⟧ (kindness) is a completely different word.\n\nCOMMON COLLOCATIONS:\n- ⟦{学校|がっこう}→学校：00055_gakkou⟧⟦を→を：00422_wo⟧{新設|しんせつ}⟦する→する：00392_suru⟧: to newly establish a school\n- {新設|しんせつ}⟦{部門|ぶもん}→部門：14406_bumon⟧: newly created department\n- {新設|しんせつ}{校|こう}: newly built school\n- {新設|しんせつ}⟦{合併|がっぺい}→合併：04778_gappei⟧: new merger\n\nSIMILAR WORDS:\n- ⟦{設立|せつりつ}→設立：14171_setsuritsu⟧: establishment, founding (more general)\n- ⟦{創設|そうせつ}→創設：11905_sousetsu⟧: founding, creation (emphasizes being the first)",
   "prominent_see_also": [
     {
       "target_id": "01144_shinsetsu",
@@ -150,11 +150,25 @@
       "reading": "せつりつ",
       "headword": "{設立|せつりつ}",
       "label": "establishment, founding"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11905_sousetsu",
+      "reading": "そうせつ",
+      "headword": "{創設|そうせつ}",
+      "label": "founding, creation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18851_zousetsu",
+      "reading": "ぞうせつ",
+      "headword": "{増設|ぞうせつ}",
+      "label": "expansion"
     }
   ],
   "metadata": {
     "created": "2026-02-23T06:35:13Z",
-    "modified": "2026-04-28T04:13:10Z",
+    "modified": "2026-09-02T04:01:31Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

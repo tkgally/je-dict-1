@@ -63,11 +63,26 @@
       ]
     }
   ],
-  "notes": "{瓶|びん} typically refers to glass bottles used for liquids.\n\nCOMMON EXPRESSIONS:\n- ⟦{空|あ}き{瓶|びん}→空き瓶：18915_akibin⟧: empty bottle\n- {瓶|びん}⟦ビール→ビール：01015_biiru⟧: bottled beer\n- ⟦{瓶|びん}{詰|づ}め→瓶詰：24591_binzume⟧: bottled (food preservation)\n- ⟦ワイン→ワイン：01067_wain⟧⟦の→の：09472_no⟧{瓶|びん}: wine bottle\n- ⟦{一升瓶|いっしょうびん}→一升瓶：08958_isshoubin⟧: large sake bottle (1.8L)\n\nCONTRAST:\n- {瓶|びん}: glass bottle\n- ⟦ペットボトル→ペットボトル：05605_pettobotoru⟧: plastic (PET) bottle\n- ⟦{缶|かん}→缶：01076_kan⟧: can\n\nRECYCLING IN JAPAN:\nGlass bottles are separated for recycling. Categories include {瓶|びん}/⟦{缶|かん}→缶：01076_kan⟧/⟦ペットボトル→ペットボトル：05605_pettobotoru⟧. Some bottles (⟦{一升瓶|いっしょうびん}→一升瓶：08958_isshoubin⟧, beer bottles) can be returned for deposit refund.",
-  "cross_references": [],
+  "notes": "{瓶|びん} typically refers to glass bottles used for liquids.\n\nCOMMON EXPRESSIONS:\n- ⟦{空|あ}き{瓶|びん}→空き瓶：18915_akibin⟧: empty bottle\n- {瓶|びん}⟦ビール→ビール：01015_biiru⟧: bottled beer\n- ⟦{瓶|びん}{詰|づ}め→瓶詰：24591_binzume⟧: bottled (food preservation)\n- ⟦ワイン→ワイン：01067_wain⟧⟦の→の：09472_no⟧{瓶|びん}: wine bottle\n- ⟦{一升瓶|いっしょうびん}→一升瓶：08958_isshoubin⟧: large sake bottle (1.8L)\n\nSIMILAR WORDS:\n- {瓶|びん}: glass bottle\n- ⟦ペットボトル→ペットボトル：05605_pettobotoru⟧: plastic (PET) bottle\n- ⟦{缶|かん}→缶：01076_kan⟧: can\n\nRECYCLING IN JAPAN:\nGlass bottles are separated for recycling. Categories include {瓶|びん}/⟦{缶|かん}→缶：01076_kan⟧/⟦ペットボトル→ペットボトル：05605_pettobotoru⟧. Some bottles (⟦{一升瓶|いっしょうびん}→一升瓶：08958_isshoubin⟧, beer bottles) can be returned for deposit refund.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05605_pettobotoru",
+      "reading": "ぺっとぼとる",
+      "headword": "ペットボトル",
+      "label": "plastic (PET) bottle"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01076_kan",
+      "reading": "かん",
+      "headword": "{缶|かん}",
+      "label": "can"
+    }
+  ],
   "metadata": {
     "created": "2026-01-07T12:28:54Z",
-    "modified": "2026-05-13T20:19:26Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

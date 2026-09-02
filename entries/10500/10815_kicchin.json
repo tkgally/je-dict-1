@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "10815_kicchin_ex1",
-      "japanese": "キッチンで{料理|りょうり}する。",
+      "japanese": "キッチン⟦で→で：00502_de⟧⟦{料理|りょうり}→料理：01523_ryouri⟧⟦する→する：00392_suru⟧。",
       "english": "I cook in the kitchen.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "10815_kicchin_ex2",
-      "japanese": "キッチンが{広|ひろ}くて{使|つか}いやすい。",
+      "japanese": "キッチン⟦が→が：00051_ga⟧⟦{広|ひろ}くて→広い：00704_hiroi⟧⟦{使|つか}いやすい→使いやすい：30380_tsukaiyasui⟧。",
       "english": "The kitchen is spacious and easy to use.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "10815_kicchin_ex3",
-      "japanese": "マンションのキッチンには{食洗機|しょくせんき}がついている。",
+      "japanese": "⟦マンション→マンション：01035_manshon⟧⟦の→の：09472_no⟧キッチン⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{食洗機|しょくせんき}→食洗機：19300_shokusenki⟧⟦が→が：00051_ga⟧ついて⟦いる→いる：00495_iru⟧。",
       "english": "The apartment kitchen comes with a dishwasher.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "キッチン is a loanword from English \"kitchen\" and is commonly used in modern Japanese, especially for newer or Western-style kitchens.\n\nCOMPARISON WITH {台所|だいどころ}:\n- キッチン: modern, often used in real estate listings and product catalogs\n- {台所|だいどころ}: the native Japanese word, used more broadly and in everyday speech\n\nCOMMON COMPOUNDS:\n- システムキッチン: built-in kitchen unit (very common in Japanese housing)\n- キッチンカー: food truck\n- キッチン{用品|ようひん}: kitchen supplies\n- キッチンペーパー: paper towels (kitchen paper)\n- オープンキッチン: open kitchen (visible from dining area)",
+  "notes": "キッチン is a loanword from English \"kitchen\" and is commonly used in modern Japanese, especially for newer or Western-style kitchens.\n\nCOMPARISON WITH {台所|だいどころ}:\n- キッチン: modern, often used in real estate listings and product catalogs\n- ⟦{台所|だいどころ}→台所：01021_daidokoro⟧: the native Japanese word, used more broadly and in everyday speech\n\nCOMPOUNDS:\n- ⟦システム→システム：08428_shisutemu⟧キッチン: built-in kitchen unit (very common in Japanese housing)\n- キッチンカー: food truck\n- キッチン⟦{用品|ようひん}→用品：13526_youhin⟧: kitchen supplies\n- キッチンペーパー: paper towels (kitchen paper)\n- オープンキッチン: open kitchen (visible from dining area)",
   "prominent_see_also": [
     {
       "target_id": "01021_daidokoro",
@@ -53,10 +53,32 @@
       "note": "native synonym"
     }
   ],
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "10673_suijiba",
+      "reading": "すいじば",
+      "headword": "{炊事場|すいじば}",
+      "label": "kitchen, cooking area"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19910_itaba",
+      "reading": "いたば",
+      "headword": "{板場|いたば}",
+      "label": "kitchen (in a Japanese restaurant)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23278_chouriba",
+      "reading": "ちょうりば",
+      "headword": "{調理場|ちょうりば}",
+      "label": "kitchen"
+    }
+  ],
   "metadata": {
     "created": "2026-02-10T08:31:48Z",
-    "modified": "2026-04-01T01:21:38Z",
+    "modified": "2026-09-02T04:01:22Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

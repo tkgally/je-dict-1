@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "16770_shukuhai_ex1",
-      "japanese": "{祝杯|しゅくはい}を{挙|あ}げる。",
+      "japanese": "{祝杯|しゅくはい}⟦を→を：00422_wo⟧⟦{挙|あ}げる→挙げる：27889_ageru⟧。",
       "english": "To raise a toast in celebration.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "16770_shukuhai_ex2",
-      "japanese": "{優勝|ゆうしょう}の{祝杯|しゅくはい}を{挙|あ}げた。",
+      "japanese": "⟦{優勝|ゆうしょう}→優勝：03647_yuushou⟧⟦の→の：09472_no⟧{祝杯|しゅくはい}⟦を→を：00422_wo⟧⟦{挙|あ}げた→挙げる：27889_ageru⟧。",
       "english": "We raised a toast to the championship victory.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "16770_shukuhai_ex3",
-      "japanese": "{長年|ながねん}の{努力|どりょく}が{実|みの}り、チーム{全員|ぜんいん}で{祝杯|しゅくはい}を{挙|あ}げて{喜|よろこ}びを{分|わ}かち{合|あ}った。",
+      "japanese": "⟦{長年|ながねん}→長年：09684_naganen⟧⟦の→の：09472_no⟧⟦{努力|どりょく}→努力：03490_doryoku⟧⟦が→が：00051_ga⟧⟦{実|みの}り→実る：00282_minoru⟧、⟦チーム→チーム：03858_chiimu⟧⟦{全員|ぜんいん}→全員：03310_zenin⟧⟦で→で：00502_de⟧{祝杯|しゅくはい}⟦を→を：00422_wo⟧⟦{挙|あ}げて→挙げる：27889_ageru⟧⟦{喜|よろこ}び→喜び：03672_yorokobi⟧⟦を→を：00422_wo⟧⟦{分|わ}かち{合|あ}った→分かち合う：18203_wakachiau⟧。",
       "english": "Years of effort paid off, and the whole team raised a toast and shared in the joy.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nAlmost always appears in the set expression {祝杯|しゅくはい}を{挙|あ}げる (to raise a celebratory toast). A somewhat formal and literary word.\n\nCOMMON COLLOCATIONS:\n- {祝杯|しゅくはい}を{挙|あ}げる (to raise a celebratory toast)\n- {優勝|ゆうしょう}の{祝杯|しゅくはい} (a victory toast)\n\nCONTRAST:\n- {献杯|けんぱい}: a toast offered to the deceased — used at funerals and memorial services\n- {乾杯|かんぱい}: cheers, toast — general, can be used at any occasion",
+  "notes": "USAGE:\nAlmost always appears in the set expression {祝杯|しゅくはい}⟦を→を：00422_wo⟧⟦{挙|あ}げる→挙げる：27889_ageru⟧ (to raise a celebratory toast). A somewhat formal and literary word.\n\nCOMMON COLLOCATIONS:\n- {祝杯|しゅくはい}⟦を→を：00422_wo⟧⟦{挙|あ}げる→挙げる：27889_ageru⟧ (to raise a celebratory toast)\n- ⟦{優勝|ゆうしょう}→優勝：03647_yuushou⟧⟦の→の：09472_no⟧{祝杯|しゅくはい} (a victory toast)\n\nSIMILAR WORDS:\n- ⟦{献杯|けんぱい}→献杯：16799_kenpai⟧: a toast offered to the deceased — used at funerals and memorial services\n- ⟦{乾杯|かんぱい}→乾杯：00176_kanpai⟧: cheers, toast — general, can be used at any occasion",
   "cross_references": [
     {
       "type": "contrast",
@@ -52,11 +52,18 @@
       "headword": "{乾杯|かんぱい}",
       "label": "general toast",
       "target_id": "00176_kanpai"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16799_kenpai",
+      "reading": "けんぱい",
+      "headword": "{献杯|けんぱい}",
+      "label": "a toast offered to the deceased"
     }
   ],
   "metadata": {
     "created": "2026-03-14T06:28:39Z",
-    "modified": "2026-03-29T10:42:23Z",
+    "modified": "2026-09-02T04:01:46Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

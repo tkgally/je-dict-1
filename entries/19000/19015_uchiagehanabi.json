@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "19015_uchiagehanabi_ex1",
-      "japanese": "{打|う}ち{上|あ}げ{花火|はなび}がきれいだった。",
+      "japanese": "{打|う}ち{上|あ}げ{花火|はなび}⟦が→が：00051_ga⟧⟦きれい→きれい：00717_kirei⟧だった。",
       "english": "The aerial fireworks were beautiful.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "19015_uchiagehanabi_ex2",
-      "japanese": "{夏|なつ}は{打|う}ち{上|あ}げ{花火|はなび}を{見|み}に{行|い}く。",
+      "japanese": "⟦{夏|なつ}→夏：02236_natsu⟧⟦は→は：00079_ha⟧{打|う}ち{上|あ}げ{花火|はなび}⟦を→を：00422_wo⟧⟦{見|み}→見る：00283_miru⟧⟦に→に：00314_ni⟧⟦{行|い}く→行く：00119_iku⟧。",
       "english": "In summer, I go to see fireworks displays.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "19015_uchiagehanabi_ex3",
-      "japanese": "{今年|ことし}の{花火|はなび}{大会|たいかい}では{一万発|いちまんぱつ}の{打|う}ち{上|あ}げ{花火|はなび}が{予定|よてい}されている。",
+      "japanese": "⟦{今年|ことし}→今年：00722_kotoshi⟧⟦の→の：09472_no⟧⟦{花火|はなび}{大会|たいかい}→花火大会：10105_hanabitaikai⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧{一万発|いちまんぱつ}⟦の→の：09472_no⟧{打|う}ち{上|あ}げ{花火|はなび}⟦が→が：00051_ga⟧⟦{予定|よてい}→予定：00824_yotei⟧⟦されている→する：00392_suru⟧。",
       "english": "Ten thousand aerial fireworks are planned for this year's fireworks festival.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,19 @@
       ]
     }
   ],
-  "notes": "CULTURE:\nJapan's summer {花火|はなび}{大会|たいかい} (fireworks festivals) are major events attended by millions. Viewers wear {浴衣|ゆかた} and bring picnic blankets. Contrasts with {手持|てもち}ち{花火|はなび} (handheld sparklers), which are enjoyed in smaller, private settings.\n\nCOMMON COLLOCATIONS:\n- {打|う}ち{上|あ}げ{花火|はなび}を{見|み}る: to watch fireworks\n- {打|う}ち{上|あ}げ{花火|はなび}が{上|あ}がる: fireworks go up\n- {花火|はなび}{大会|たいかい}: fireworks festival",
-  "cross_references": [],
+  "notes": "CULTURAL NOTE:\nJapan's summer ⟦{花火|はなび}{大会|たいかい}→花火大会：10105_hanabitaikai⟧ (fireworks festivals) are major events attended by millions. Viewers wear ⟦{浴衣|ゆかた}→浴衣：04081_yukata⟧ and bring picnic blankets. Contrasts with {手持|てもち}ち⟦{花火|はなび}→花火：00087_hanabi⟧ (handheld sparklers), which are enjoyed in smaller, private settings.\n\nCOMMON COLLOCATIONS:\n- {打|う}ち{上|あ}げ{花火|はなび}⟦を→を：00422_wo⟧⟦{見|み}る→見る：00283_miru⟧: to watch fireworks\n- {打|う}ち{上|あ}げ{花火|はなび}⟦が→が：00051_ga⟧⟦{上|あ}がる→上がる：00615_agaru⟧: fireworks go up\n- ⟦{花火|はなび}{大会|たいかい}→花火大会：10105_hanabitaikai⟧: fireworks festival",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "06732_uchiageru",
+      "reading": "うちあげる",
+      "headword": "{打|う}ち{上|あ}げる",
+      "label": "to launch"
+    }
+  ],
   "metadata": {
     "created": "2026-03-24T00:59:21Z",
-    "modified": "2026-07-26T09:39:42Z",
+    "modified": "2026-09-02T04:01:54Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22502_yokobue_ex1",
-      "japanese": "{横笛|よこぶえ}を{吹|ふ}く。",
+      "japanese": "{横笛|よこぶえ}⟦を→を：00422_wo⟧⟦{吹|ふ}く→吹く：02445_fuku⟧。",
       "english": "To play the transverse flute.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22502_yokobue_ex2",
-      "japanese": "{祭|まつ}りで{横笛|よこぶえ}の{音|おと}が{聞|き}こえた。",
+      "japanese": "⟦{祭|まつ}り→祭り：03735_matsuri⟧⟦で→で：00502_de⟧{横笛|よこぶえ}⟦の→の：09472_no⟧⟦{音|おと}→音：00743_oto⟧⟦が→が：00051_ga⟧⟦{聞|き}こえた→聞こえる：01229_kikoeru⟧。",
       "english": "I heard the sound of a transverse flute at the festival.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22502_yokobue_ex3",
-      "japanese": "{横笛|よこぶえ}は{日本|にほん}の{伝統的|でんとうてき}な{楽器|がっき}の{一|ひと}つだ。",
+      "japanese": "{横笛|よこぶえ}⟦は→は：00079_ha⟧⟦{日本|にほん}→日本：03876_nihon⟧⟦の→の：09472_no⟧⟦{伝統的|でんとうてき}→伝統的：04802_dentouteki⟧な⟦{楽器|がっき}→楽器：13159_gakki⟧⟦の→の：09472_no⟧⟦{一|ひと}つ→一つ：02948_hitotsu⟧だ。",
       "english": "The transverse flute is one of Japan's traditional instruments.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "A general term for flutes held horizontally and blown from the side, as opposed to {縦笛|たてぶえ} (vertical flute/recorder). Includes both Japanese traditional flutes and Western flutes. In Japanese music, the most well-known types are the {篠笛|しのぶえ} (bamboo flute used in folk music and festivals) and the {龍笛|りゅうてき} (used in {雅楽|ががく}, traditional court music).\n\nCOMMON COLLOCATIONS:\n- {横笛|よこぶえ}を{吹|ふ}く: to play the transverse flute\n- {横笛|よこぶえ}の{音色|ねいろ}: the tone of a transverse flute\n- {竹|たけ}の{横笛|よこぶえ}: bamboo transverse flute\n\nSIMILAR WORDS:\n- {縦笛|たてぶえ}: recorder, vertical flute — held vertically and blown from the top\n- {篠笛|しのぶえ}: shinobue — a specific type of Japanese bamboo transverse flute\n- フルート: flute — the Western concert flute",
+  "notes": "A general term for flutes held horizontally and blown from the side, as opposed to ⟦{縦笛|たてぶえ}→縦笛：22668_tatebue⟧ (vertical flute/recorder). Includes both Japanese traditional flutes and Western flutes. In Japanese music, the most well-known types are the ⟦{篠笛|しのぶえ}→篠笛：28761_shinobue⟧ (bamboo flute used in folk music and festivals) and the {龍笛|りゅうてき} (used in ⟦{雅楽|ががく}→雅楽：27354_gagaku⟧, traditional court music).\n\nCOMMON COLLOCATIONS:\n- {横笛|よこぶえ}⟦を→を：00422_wo⟧⟦{吹|ふ}く→吹く：02445_fuku⟧: to play the transverse flute\n- {横笛|よこぶえ}⟦の→の：09472_no⟧⟦{音色|ねいろ}→音色：07422_neiro⟧: the tone of a transverse flute\n- ⟦{竹|たけ}→竹：02220_take⟧⟦の→の：09472_no⟧{横笛|よこぶえ}: bamboo transverse flute\n\nSIMILAR WORDS:\n- ⟦{縦笛|たてぶえ}→縦笛：22668_tatebue⟧: recorder, vertical flute — held vertically and blown from the top\n- ⟦{篠笛|しのぶえ}→篠笛：28761_shinobue⟧: shinobue — a specific type of Japanese bamboo transverse flute\n- ⟦フルート→フルート：04462_furuuto⟧: flute — the Western concert flute",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22668_tatebue",
+      "reading": "たてぶえ",
+      "headword": "{縦笛|たてぶえ}",
+      "label": "recorder, vertical flute"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28761_shinobue",
+      "reading": "しのぶえ",
+      "headword": "{篠笛|しのぶえ}",
+      "label": "shinobue"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04462_furuuto",
+      "reading": "ふるーと",
+      "headword": "フルート",
+      "label": "flute"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +83,6 @@
       "politeness": "plain"
     },
     "created": "2026-04-06T14:31:24Z",
-    "modified": "2026-04-06T14:31:24Z"
+    "modified": "2026-09-02T04:02:08Z"
   }
 }

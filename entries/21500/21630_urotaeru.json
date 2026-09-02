@@ -3,7 +3,7 @@
   "headword": "うろたえる",
   "reading": "うろたえる",
   "romaji": "urotaeru",
-  "part_of_speech": "ichidan verb",
+  "part_of_speech": "verb (ichidan)",
   "gloss": "to be flustered; to panic; to lose one's composure",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21630_urotaeru_ex1",
-      "japanese": "うろたえてはいけない。",
+      "japanese": "うろたえて⟦は→は：00079_ha⟧いけない。",
       "english": "You must not panic.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21630_urotaeru_ex2",
-      "japanese": "{突然|とつぜん}の{質問|しつもん}にうろたえてしまった。",
+      "japanese": "⟦{突然|とつぜん}→突然：00409_totsuzen⟧⟦の→の：09472_no⟧⟦{質問|しつもん}→質問：00888_shitsumon⟧⟦に→に：00314_ni⟧うろたえてしまった。",
       "english": "I was flustered by the sudden question.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21630_urotaeru_ex3",
-      "japanese": "{地震|じしん}が{起|お}きて、みんなうろたえて{外|そと}に{飛|と}び{出|だ}した。",
+      "japanese": "⟦{地震|じしん}→地震：01608_jishin⟧⟦が→が：00051_ga⟧⟦{起|お}きて→起きる：00521_okiru⟧、⟦みんな→みんな：02972_minna⟧うろたえて⟦{外|そと}→外：00671_soto⟧⟦に→に：00314_ni⟧⟦{飛|と}び{出|だ}した→飛び出す：02374_tobidasu⟧。",
       "english": "When the earthquake struck, everyone panicked and rushed outside.",
       "sense_numbers": [
         1
@@ -44,8 +44,52 @@
       "notes": null
     }
   ],
-  "notes": "Describes losing composure in the face of something unexpected. Stronger than simply being surprised — it implies an inability to think clearly or act rationally. Often written in hiragana rather than kanji.\n\nUSAGE:\nMost commonly appears in the past tense (うろたえた) or te-form (うろたえて), describing a reaction to a sudden event. Also used in the negative imperative (うろたえるな) to tell someone to stay calm.\n\nCOMMON COLLOCATIONS:\n- うろたえた{様子|ようす}: a flustered appearance\n- うろたえた{声|こえ}: a panicked voice\n- うろたえず{対応|たいおう}する: to respond without panicking\n\nSIMILAR WORDS:\n- {慌|あわ}てる: to be in a hurry, to panic — more common in everyday speech and broader in meaning (includes simply rushing)\n- たじろぐ: to flinch, to falter — focuses on hesitation or drawing back rather than confusion\n- {動揺|どうよう}する: to be shaken, disturbed — can be used for emotional disturbance that is more internal and less visible",
+  "notes": "Describes losing composure in the face of something unexpected. Stronger than simply being surprised — it implies an inability to think clearly or act rationally. Often written in hiragana rather than kanji.\n\nUSAGE:\nMost commonly appears in the past tense (うろたえた) or te-form (うろたえて), describing a reaction to a sudden event. Also used in the negative imperative (うろたえるな) to tell someone to stay calm.\n\nCOMMON COLLOCATIONS:\n- うろたえた⟦{様子|ようす}→様子：01521_yousu⟧: a flustered appearance\n- うろたえた⟦{声|こえ}→声：02207_koe⟧: a panicked voice\n- うろたえず⟦{対応|たいおう}→対応：02510_taiou⟧⟦する→する：00392_suru⟧: to respond without panicking\n\nSIMILAR WORDS:\n- ⟦{慌|あわ}てる→慌てる：01874_awateru⟧: to be in a hurry, to panic — more common in everyday speech and broader in meaning (includes simply rushing)\n- ⟦たじろぐ→たじろぐ：07356_tajirogu⟧: to flinch, to falter — focuses on hesitation or drawing back rather than confusion\n- ⟦{動揺|どうよう}する→動揺する：25352_douyousuru⟧: to be shaken, disturbed — can be used for emotional disturbance that is more internal and less visible",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01874_awateru",
+      "reading": "あわてる",
+      "headword": "{慌|あわ}てる",
+      "label": "to be in a hurry, to panic"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07356_tajirogu",
+      "reading": "たじろぐ",
+      "headword": "たじろぐ",
+      "label": "to flinch, to falter"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25352_douyousuru",
+      "reading": "どうようする",
+      "headword": "{動揺|どうよう}する",
+      "label": "to be shaken, disturbed"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03482_douyou",
+      "reading": "どうよう",
+      "headword": "{動揺|どうよう}",
+      "label": "agitation, disturbance"
+    },
+    {
+      "type": "related",
+      "target_id": "08683_roubai",
+      "reading": "ろうばい",
+      "headword": "{狼狽|ろうばい}",
+      "label": "confusion"
+    },
+    {
+      "type": "related",
+      "target_id": "15410_awatefutameku",
+      "reading": "あわてふためく",
+      "headword": "{慌|あわ}てふためく",
+      "label": "to panic"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -57,10 +101,11 @@
       "semantic": [
         "emotion"
       ],
-      "verb_class": "ichidan"
+      "verb_class": "ichidan",
+      "transitivity": "intransitive"
     },
     "created": "2026-04-02T19:15:47Z",
-    "modified": "2026-04-02T19:15:47Z"
+    "modified": "2026-09-02T04:02:04Z"
   },
   "conjugation": {
     "type": "ichidan",

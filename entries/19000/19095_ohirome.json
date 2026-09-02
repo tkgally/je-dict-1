@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "19095_ohirome_ex1",
-      "japanese": "{新商品|しんしょうひん}のお{披露目|ひろめ}が{行|おこな}われた。",
+      "japanese": "⟦{新商品|しんしょうひん}→新商品：11504_shinshouhin⟧⟦の→の：09472_no⟧お{披露目|ひろめ}⟦が→が：00051_ga⟧⟦{行|おこな}われた→行う：01238_okonau⟧。",
       "english": "The unveiling of the new product took place.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "19095_ohirome_ex2",
-      "japanese": "{赤|あか}ちゃんのお{披露目|ひろめ}に{親戚|しんせき}が{集|あつ}まった。",
+      "japanese": "⟦{赤|あか}ちゃん→赤ちゃん：01282_akachan⟧⟦の→の：09472_no⟧お{披露目|ひろめ}⟦に→に：00314_ni⟧⟦{親戚|しんせき}→親戚：03260_shinseki⟧⟦が→が：00051_ga⟧⟦{集|あつ}まった→集まる：01162_atsumaru⟧。",
       "english": "Relatives gathered for the baby's introduction.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "19095_ohirome_ex3",
-      "japanese": "{歌舞伎|かぶき}{役者|やくしゃ}のお{披露目|ひろめ}{公演|こうえん}は{連日|れんじつ}{満席|まんせき}だった。",
+      "japanese": "⟦{歌舞伎|かぶき}→歌舞伎：04455_kabuki⟧⟦{役者|やくしゃ}→役者：05113_yakusha⟧⟦の→の：09472_no⟧お{披露目|ひろめ}⟦{公演|こうえん}→公演：11639_kouen⟧⟦は→は：00079_ha⟧⟦{連日|れんじつ}→連日：14328_renjitsu⟧⟦{満席|まんせき}→満席：07585_manseki⟧だった。",
       "english": "The kabuki actor's debut performance was sold out every day.",
       "sense_numbers": [
         1
@@ -134,8 +134,17 @@
       "notes": null
     }
   ],
-  "notes": "The お is a standard honorific prefix and is almost always included. Used as a する verb: お{披露目|ひろめ}する. Common collocations include お{披露目|ひろめ}{会|かい} (unveiling event, debut party), お{披露目|ひろめ}{公演|こうえん} (debut performance), and お{披露目|ひろめ}{興行|こうぎょう} (debut show, especially in kabuki and sumo). Traditionally used in the performing arts world, but now widely used for product launches, baby introductions, and any first public showing.",
+  "notes": "The お is a standard honorific prefix and is almost always included. Used as a ⟦する→する：00392_suru⟧ verb: お{披露目|ひろめ}⟦する→する：00392_suru⟧. Common collocations include お{披露目|ひろめ}⟦{会|かい}→会：27493_kai⟧ (unveiling event, debut party), お{披露目|ひろめ}⟦{公演|こうえん}→公演：11639_kouen⟧ (debut performance), and お{披露目|ひろめ}⟦{興行|こうぎょう}→興行：13985_kougyou⟧ (debut show, especially in kabuki and sumo). Traditionally used in the performing arts world, but now widely used for product launches, baby introductions, and any first public showing.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "26528_kanseihirou",
+      "reading": "かんせいひろう",
+      "headword": "{完成|かんせい}{披露|ひろう}",
+      "label": "premiere"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -152,6 +161,6 @@
       "verb_class": "suru"
     },
     "created": "2026-03-24T09:37:22Z",
-    "modified": "2026-03-24T09:37:22Z"
+    "modified": "2026-09-02T04:01:54Z"
   }
 }

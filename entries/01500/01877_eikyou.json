@@ -2,7 +2,7 @@
   "id": "01877_eikyou",
   "headword": "{影響|えいきょう}",
   "reading": "えいきょう",
-  "part_of_speech": "noun/suru verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "influence, effect, impact",
   "conjugation": {
     "type": "suru",
@@ -159,7 +159,7 @@
     },
     {
       "id": "01877_eikyou_ex6",
-      "japanese": "⟦この→この：00962_kono⟧⟦{決定|けってい}→決定：02701_kettei⟧⟦は→は：00079_ha⟧⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦{全体|ぜんたい}→全体：03314_zentai⟧⟦に→に：00314_ni⟧{影響|えいきょう}する。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{決定|けってい}→決定：02701_kettei⟧⟦は→は：00079_ha⟧⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦{全体|ぜんたい}→全体：03314_zentai⟧⟦に→に：00314_ni⟧{影響|えいきょう}⟦する→する：00392_suru⟧。",
       "english": "This decision will impact the entire company.",
       "notes": null,
       "has_audio": false,
@@ -168,11 +168,47 @@
       ]
     }
   ],
-  "notes": "{影響|えいきょう} means influence or effect.\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n- No standard transitive pair\n- Pattern: {影響|えいきょう}する\n\nCOMMON PATTERNS:\n- {影響|えいきょう}⟦を→を：00422_wo⟧⟦{与|あた}える→与える：01821_ataeru⟧ (give influence, affect)\n- {影響|えいきょう}⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧ (be influenced)\n- {影響|えいきょう}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧ (have an influence)\n- 〜の{影響|えいきょう}で (due to the influence of)\n- ⟦{影響|えいきょう}{力|りょく}→影響力：20040_eikyouryoku⟧ (influential power)\n\nCOMMON COLLOCATIONS:\n- ⟦{悪|わる}い→悪い：00908_warui⟧{影響|えいきょう} (bad influence)\n- ⟦いい→いい：00118_ii⟧{影響|えいきょう} (good influence)\n- ⟦{大|おお}きな→大きな：02849_ookina⟧{影響|えいきょう} (great influence)",
-  "cross_references": [],
+  "notes": "{影響|えいきょう} means influence or effect.\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n- No standard transitive pair\n- Pattern: {影響|えいきょう}⟦する→する：00392_suru⟧\n\nCOMMON PATTERNS:\n- {影響|えいきょう}⟦を→を：00422_wo⟧⟦{与|あた}える→与える：01821_ataeru⟧ (give influence, affect)\n- {影響|えいきょう}⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧ (be influenced)\n- {影響|えいきょう}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧ (have an influence)\n- 〜⟦の→の：09472_no⟧{影響|えいきょう}⟦で→で：00502_de⟧ (due to the influence of)\n- ⟦{影響|えいきょう}{力|りょく}→影響力：20040_eikyouryoku⟧ (influential power)\n\nCOMMON COLLOCATIONS:\n- ⟦{悪|わる}い→悪い：00908_warui⟧{影響|えいきょう} (bad influence)\n- ⟦いい→いい：00118_ii⟧{影響|えいきょう} (good influence)\n- ⟦{大|おお}きな→大きな：02849_ookina⟧{影響|えいきょう} (great influence)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16098_kanka",
+      "reading": "かんか",
+      "headword": "{感化|かんか}",
+      "label": "influence"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19471_yoha",
+      "reading": "よは",
+      "headword": "{余波|よは}",
+      "label": "aftereffects"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20138_sougosayou",
+      "reading": "そうごさよう",
+      "headword": "{相互作用|そうごさよう}",
+      "label": "interaction"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25540_sayousuru",
+      "reading": "さようする",
+      "headword": "{作用|さよう}する",
+      "label": "to act on"
+    },
+    {
+      "type": "related",
+      "target_id": "26072_eikyouwoataeru",
+      "reading": "えいきょうをあたえる",
+      "headword": "{影響|えいきょう}を{与|あた}える",
+      "label": "to have an influence"
+    }
+  ],
   "metadata": {
     "created": "2026-01-09T12:30:00Z",
-    "modified": "2026-06-11T10:45:00Z",
+    "modified": "2026-09-02T04:01:00Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

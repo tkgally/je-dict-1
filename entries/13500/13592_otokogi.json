@@ -15,41 +15,59 @@
   "examples": [
     {
       "id": "13592_otokogi_ex1",
-      "japanese": "{彼|かれ}は{男気|おとこぎ}のある{人|ひと}だ。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{男気|おとこぎ}⟦の→の：09472_no⟧⟦ある→ある：00006_aru⟧⟦{人|ひと}→人：00476_hito⟧だ。",
       "english": "He's a man of chivalry.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13592_otokogi_ex2",
-      "japanese": "{男気|おとこぎ}を{見|み}せて、{後輩|こうはい}の{分|ぶん}まで{払|はら}った。",
+      "japanese": "{男気|おとこぎ}⟦を→を：00422_wo⟧⟦{見|み}せて→見せる：01988_miseru⟧、⟦{後輩|こうはい}→後輩：02501_kouhai⟧⟦の→の：09472_no⟧⟦{分|ぶん}→分：26216_bun⟧⟦まで→まで：00490_made⟧⟦{払|はら}った→払う：00535_harau⟧。",
       "english": "He showed gallantry and paid for his juniors too.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13592_otokogi_ex3",
-      "japanese": "{困|こま}っている{人|ひと}を{見|み}て{見|み}ぬふりができないのが{彼|かれ}の{男気|おとこぎ}で、いつも{損|そん}な{役回|やくまわ}りを{引|ひ}き{受|う}けてしまう。",
+      "japanese": "⟦{困|こま}っている→困る：00861_komaru⟧⟦{人|ひと}→人：00476_hito⟧⟦を→を：00422_wo⟧⟦{見|み}て→見る：00283_miru⟧⟦{見|み}ぬ→見る：00283_miru⟧ふり⟦が→が：00051_ga⟧⟦できない→できる：00557_dekiru⟧⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧{男気|おとこぎ}で、⟦いつも→いつも：00599_itsumo⟧⟦{損|そん}→損：03325_son⟧な{役回|やくまわ}り⟦を→を：00422_wo⟧⟦{引|ひ}き{受|う}けて→引き受ける：03140_hikiukeru⟧しまう。",
       "english": "His chivalrous nature makes it impossible for him to look the other way when someone is in trouble, and he always ends up taking on thankless roles.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nExpresses a traditional ideal of masculine virtue centered on courage, generosity, and standing up for others. Often used approvingly when someone acts with boldness or selfless generosity. Common in casual conversation, manga, and sports contexts.\n\nDespite the {男|おとこ} (man) in the word, it can be used to praise anyone who demonstrates these qualities, though it retains a strongly masculine nuance.\n\nCOMMON COLLOCATIONS:\n- {男気|おとこぎ}がある: to have chivalry/gallantry\n- {男気|おとこぎ}を{見|み}せる: to show one's mettle\n- {男気|おとこぎ}{溢|あふ}れる: brimming with gallantry\n- {男気|おとこぎ}じゃんけん: a janken game where the loser pays (humorous)",
-  "cross_references": [],
+  "notes": "USAGE:\nExpresses a traditional ideal of masculine virtue centered on courage, generosity, and standing up for others. Often used approvingly when someone acts with boldness or selfless generosity. Common in casual conversation, manga, and sports contexts.\n\nDespite the ⟦{男|おとこ}→男：00561_otoko⟧ (man) in the word, it can be used to praise anyone who demonstrates these qualities, though it retains a strongly masculine nuance.\n\nCOMMON COLLOCATIONS:\n- {男気|おとこぎ}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧: to have chivalry/gallantry\n- {男気|おとこぎ}⟦を→を：00422_wo⟧⟦{見|み}せる→見せる：01988_miseru⟧: to show one's mettle\n- {男気|おとこぎ}⟦{溢|あふ}れる→溢れる：04250_afureru⟧: brimming with gallantry\n- {男気|おとこぎ}⟦じゃんけん→じゃんけん：06520_janken⟧: a janken game where the loser pays (humorous)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24689_gikyou",
+      "reading": "ぎきょう",
+      "headword": "{義侠|ぎきょう}",
+      "label": "chivalry"
+    }
+  ],
   "metadata": {
     "created": "2026-02-26T09:50:00Z",
-    "modified": "2026-02-26T09:50:00Z",
+    "modified": "2026-09-02T04:01:33Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "informal",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

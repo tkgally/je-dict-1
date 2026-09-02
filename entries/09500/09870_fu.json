@@ -14,30 +14,36 @@
   "examples": [
     {
       "id": "09870_fu_ex1",
-      "japanese": "{大阪|おおさか}{府|ふ}に{住|す}んでいる。",
+      "japanese": "⟦{大阪|おおさか}→大阪：09779_oosaka⟧{府|ふ}⟦に→に：00314_ni⟧⟦{住|す}んでいる→住む：00673_sumu⟧。",
       "english": "I live in Osaka Prefecture.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09870_fu_ex2",
-      "japanese": "{京都|きょうと}{府|ふ}は{歴史|れきし}ある{場所|ばしょ}だ。",
+      "japanese": "⟦{京都|きょうと}→京都：09484_kyouto⟧{府|ふ}⟦は→は：00079_ha⟧⟦{歴史|れきし}→歴史：02267_rekishi⟧⟦ある→ある：00006_aru⟧⟦{場所|ばしょ}→場所：00829_basho⟧だ。",
       "english": "Kyoto Prefecture is a place with history.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09870_fu_ex3",
-      "japanese": "{府|ふ}と{県|けん}の{違|ちが}いは{歴史的|れきしてき}なものだ。",
+      "japanese": "{府|ふ}⟦と→と：00512_to⟧⟦{県|けん}→県：02151_ken⟧⟦の→の：09472_no⟧⟦{違|ちが}い→違い：03432_chigai⟧⟦は→は：00079_ha⟧⟦{歴史的|れきしてき}→歴史的：05671_rekishiteki⟧なものだ。",
       "english": "The difference between fu and ken is historical.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{府|ふ} is an administrative designation for urban prefectures in Japan.\n\nUSAGE:\nOnly two prefectures use {府|ふ}:\n- {大阪|おおさか}{府|ふ} (Osaka)\n- {京都|きょうと}{府|ふ} (Kyoto)\n\nJAPANESE PREFECTURAL DIVISIONS:\n- {都|と}: Tokyo only ({東京都|とうきょうと})\n- {道|どう}: Hokkaido only ({北海道|ほっかいどう})\n- {府|ふ}: Osaka, Kyoto\n- {県|けん}: All other 43 prefectures\n\nHISTORICAL NOTE:\nThe {府|ふ} designation dates from the Meiji period when these cities served as major urban centers. There were originally more {府|ふ} designations, but most were changed to {県|けん}.\n\nRELATED:\n- {県|けん}: prefecture (most common)\n- {知事|ちじ}: prefectural governor\n- {府民|ふみん}: residents of Osaka/Kyoto Prefecture",
+  "notes": "{府|ふ} is an administrative designation for urban prefectures in Japan.\n\nUSAGE:\nOnly two prefectures use {府|ふ}:\n- ⟦{大阪|おおさか}→大阪：09779_oosaka⟧{府|ふ} (Osaka)\n- ⟦{京都|きょうと}→京都：09484_kyouto⟧{府|ふ} (Kyoto)\n\nJAPANESE PREFECTURAL DIVISIONS:\n- {都|と}: Tokyo only ({東京都|とうきょうと})\n- {道|どう}: Hokkaido only (⟦{北海道|ほっかいどう}→北海道：11010_hokkaidou⟧)\n- {府|ふ}: Osaka, Kyoto\n- ⟦{県|けん}→県：02151_ken⟧: All other 43 prefectures\n\nETYMOLOGY:\nThe {府|ふ} designation dates from the Meiji period when these cities served as major urban centers. There were originally more {府|ふ} designations, but most were changed to ⟦{県|けん}→県：02151_ken⟧.\n\nRELATED WORDS:\n- ⟦{県|けん}→県：02151_ken⟧: prefecture (most common)\n- ⟦{知事|ちじ}→知事：03467_chiji⟧: prefectural governor\n- {府民|ふみん}: residents of Osaka/Kyoto Prefecture",
   "cross_references": [
     {
       "type": "related",
@@ -45,17 +51,28 @@
       "reading": "けん",
       "headword": "{県|けん}",
       "label": "prefecture"
+    },
+    {
+      "type": "related",
+      "target_id": "03467_chiji",
+      "reading": "ちじ",
+      "headword": "{知事|ちじ}",
+      "label": "prefectural governor"
     }
   ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["suffix"],
+      "pos": [
+        "suffix"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["geography"]
+      "semantic": [
+        "geography"
+      ]
     },
     "created": "2026-02-04T03:55:03Z",
-    "modified": "2026-02-04T03:55:03Z"
+    "modified": "2026-09-02T04:01:19Z"
   }
 }

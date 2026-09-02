@@ -15,40 +15,73 @@
   "examples": [
     {
       "id": "19511_haegiwa_ex1",
-      "japanese": "{生|は}え{際|ぎわ}が{後退|こうたい}してきた。",
+      "japanese": "{生|は}え{際|ぎわ}⟦が→が：00051_ga⟧⟦{後退|こうたい}して→後退する：17340_koutaisuru⟧きた。",
       "english": "My hairline has been receding.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19511_haegiwa_ex2",
-      "japanese": "{前髪|まえがみ}の{生|は}え{際|ぎわ}を{整|ととの}える。",
+      "japanese": "⟦{前髪|まえがみ}→前髪：19004_maegami⟧⟦の→の：09472_no⟧{生|は}え{際|ぎわ}⟦を→を：00422_wo⟧⟦{整|ととの}える→整える：04259_totonoeru⟧。",
       "english": "To tidy up the hairline around the bangs.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19511_haegiwa_ex3",
-      "japanese": "{父|ちち}は{生|は}え{際|ぎわ}の{後退|こうたい}を{気|き}にして、{育毛剤|いくもうざい}を{使|つか}い{始|はじ}めた。",
+      "japanese": "⟦{父|ちち}→父：00566_chichi⟧⟦は→は：00079_ha⟧{生|は}え{際|ぎわ}⟦の→の：09472_no⟧⟦{後退|こうたい}→後退：12556_koutai⟧⟦を→を：00422_wo⟧⟦{気|き}にして→気にする：03026_kinisuru⟧、{育毛剤|いくもうざい}⟦を→を：00422_wo⟧⟦{使|つか}い→使う：00473_tsukau⟧⟦{始|はじ}めた→始める：00531_hajimeru⟧。",
       "english": "My father started using hair growth treatment because he was worried about his receding hairline.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {生|は}え (growing, sprouting — the stem of {生|は}える) and {際|ぎわ} (edge, boundary). Refers to the line where hair starts growing, most commonly the forehead hairline.\n\nUSAGE:\nOften discussed in the context of hair loss or receding hairlines, a topic of considerable concern in Japanese culture. Also used in hairstyling and beauty contexts when discussing bangs, sideburns, or nape hair.\n\nCOMMON COLLOCATIONS:\n- {生|は}え{際|ぎわ}が{後退|こうたい}する — the hairline recedes\n- {生|は}え{際|ぎわ}が{気|き}になる — to be concerned about one's hairline\n- {生|は}え{際|ぎわ}を{隠|かく}す — to hide one's hairline\n- {襟足|えりあし}の{生|は}え{際|ぎわ} — the hairline at the nape\n\nRELATED TERMS:\n- {薄毛|うすげ} — thinning hair; a broader term for hair loss\n- {額|ひたい} — forehead; the area where a receding hairline becomes visible\n- {育毛|いくもう} — hair growth promotion; treatments for thinning hair",
+  "notes": "A compound of ⟦{生|は}え→生える：02392_haeru⟧ (growing, sprouting — the stem of ⟦{生|は}える→生える：02392_haeru⟧) and {際|ぎわ} (edge, boundary). Refers to the line where hair starts growing, most commonly the forehead hairline.\n\nUSAGE:\nOften discussed in the context of hair loss or receding hairlines, a topic of considerable concern in Japanese culture. Also used in hairstyling and beauty contexts when discussing bangs, sideburns, or nape hair.\n\nCOMMON COLLOCATIONS:\n- {生|は}え{際|ぎわ}⟦が→が：00051_ga⟧⟦{後退|こうたい}する→後退する：17340_koutaisuru⟧ — the hairline recedes\n- {生|は}え{際|ぎわ}⟦が→が：00051_ga⟧⟦{気|き}になる→気になる：03027_kininaru⟧ — to be concerned about one's hairline\n- {生|は}え{際|ぎわ}⟦を→を：00422_wo⟧⟦{隠|かく}す→隠す：02034_kakusu⟧ — to hide one's hairline\n- ⟦{襟足|えりあし}→襟足：18005_eriashi⟧⟦の→の：09472_no⟧{生|は}え{際|ぎわ} — the hairline at the nape\n\nRELATED WORDS:\n- ⟦{薄毛|うすげ}→薄毛：20459_usuge⟧ — thinning hair; a broader term for hair loss\n- ⟦{額|ひたい}→額：03579_hitai⟧ — forehead; the area where a receding hairline becomes visible\n- {育毛|いくもう} — hair growth promotion; treatments for thinning hair",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "20459_usuge",
+      "reading": "うすげ",
+      "headword": "{薄毛|うすげ}",
+      "label": "thinning hair"
+    },
+    {
+      "type": "related",
+      "target_id": "03579_hitai",
+      "reading": "ひたい",
+      "headword": "{額|ひたい}",
+      "label": "forehead"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18005_eriashi",
+      "reading": "えりあし",
+      "headword": "{襟足|えりあし}",
+      "label": "nape hairline"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["body-part"]
+      "semantic": [
+        "body-part"
+      ]
     },
     "created": "2026-03-26T02:44:43Z",
-    "modified": "2026-07-26T21:31:07Z"
+    "modified": "2026-09-02T04:01:56Z"
   }
 }

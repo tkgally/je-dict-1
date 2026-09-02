@@ -14,34 +14,69 @@
   "examples": [
     {
       "id": "25207_ryoumimi_ex1",
-      "japanese": "{両耳|りょうみみ}にイヤホンをつけた。",
+      "japanese": "{両耳|りょうみみ}⟦に→に：00314_ni⟧⟦イヤホン→イヤホン：04421_iyahon⟧⟦を→を：00422_wo⟧⟦つけた→つける：00562_tsukeru⟧。",
       "english": "I put earphones in both ears.",
       "has_audio": false,
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "notes": null
     },
     {
       "id": "25207_ryoumimi_ex2",
-      "japanese": "{両耳|りょうみみ}を{手|て}で{塞|ふさ}いだ。",
+      "japanese": "{両耳|りょうみみ}⟦を→を：00422_wo⟧⟦{手|て}→手：00569_te⟧⟦で→で：00502_de⟧⟦{塞|ふさ}いだ→塞ぐ：00046_fusagu⟧。",
       "english": "I covered both ears with my hands.",
       "has_audio": false,
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "notes": null
     },
     {
       "id": "25207_ryoumimi_ex3",
-      "japanese": "{彼|かれ}は{両耳|りょうみみ}の{聴力|ちょうりょく}が{低下|ていか}していると{診断|しんだん}された。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{両耳|りょうみみ}⟦の→の：09472_no⟧⟦{聴力|ちょうりょく}→聴力：05034_chouryoku⟧⟦が→が：00051_ga⟧⟦{低下|ていか}→低下：04065_teika⟧⟦している→する：00392_suru⟧⟦と→と：00512_to⟧⟦{診断|しんだん}→診断：04209_shindan⟧⟦された→する：00392_suru⟧。",
       "english": "He was diagnosed with hearing loss in both ears.",
       "has_audio": false,
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "notes": null
     }
   ],
-  "notes": "Composed of {両|りょう} (both) + {耳|みみ} (ear). A straightforward compound used in everyday, medical, and product description contexts.\n\nUSAGE:\n- Common in medical descriptions of hearing conditions\n- Used when specifying earphone/hearing aid type\n- Contrasts with {片耳|かたみみ} (one ear)\n\nCOMMON COLLOCATIONS:\n- {両耳|りょうみみ}イヤホン: earphones for both ears\n- {両耳|りょうみみ}の{聴力|ちょうりょく}: hearing in both ears\n- {両耳|りょうみみ}を{澄|す}ます: to listen carefully with both ears\n- {両耳|りょうみみ}{用|よう}{補聴器|ほちょうき}: hearing aids for both ears\n\nRELATED TERMS:\n- {片耳|かたみみ}: one ear\n- {両目|りょうめ}: both eyes\n- {両手|りょうて}: both hands\n- {両足|りょうあし}: both legs/feet",
-  "cross_references": [],
+  "notes": "Composed of ⟦{両|りょう}→両：11182_ryou⟧ (both) + ⟦{耳|みみ}→耳：01513_mimi⟧ (ear). A straightforward compound used in everyday, medical, and product description contexts.\n\nUSAGE:\n- Common in medical descriptions of hearing conditions\n- Used when specifying earphone/hearing aid type\n- Contrasts with ⟦{片耳|かたみみ}→片耳：26319_katamimi⟧ (one ear)\n\nCOMMON COLLOCATIONS:\n- {両耳|りょうみみ}⟦イヤホン→イヤホン：04421_iyahon⟧: earphones for both ears\n- {両耳|りょうみみ}⟦の→の：09472_no⟧⟦{聴力|ちょうりょく}→聴力：05034_chouryoku⟧: hearing in both ears\n- {両耳|りょうみみ}⟦を→を：00422_wo⟧⟦{澄|す}ます→澄ます：16578_sumasu⟧: to listen carefully with both ears\n- {両耳|りょうみみ}⟦{用|よう}→〜用：09842_you⟧{補聴器|ほちょうき}: hearing aids for both ears\n\nRELATED WORDS:\n- ⟦{片耳|かたみみ}→片耳：26319_katamimi⟧: one ear\n- ⟦{両目|りょうめ}→両目：21275_ryoume⟧: both eyes\n- ⟦{両手|りょうて}→両手：09518_ryoute⟧: both hands\n- ⟦{両足|りょうあし}→両足：28926_ryouashi⟧: both legs/feet",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "26319_katamimi",
+      "reading": "かたみみ",
+      "headword": "{片耳|かたみみ}",
+      "label": "one ear"
+    },
+    {
+      "type": "related",
+      "target_id": "21275_ryoume",
+      "reading": "りょうめ",
+      "headword": "{両目|りょうめ}",
+      "label": "both eyes"
+    },
+    {
+      "type": "related",
+      "target_id": "09518_ryoute",
+      "reading": "りょうて",
+      "headword": "{両手|りょうて}",
+      "label": "both hands"
+    },
+    {
+      "type": "related",
+      "target_id": "28926_ryouashi",
+      "reading": "りょうあし",
+      "headword": "{両足|りょうあし}",
+      "label": "both legs/feet"
+    }
+  ],
   "metadata": {
     "created": "2026-04-23T14:43:52Z",
-    "modified": "2026-04-23T14:43:52Z",
+    "modified": "2026-09-02T04:02:21Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",

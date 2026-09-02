@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25124_teishotokusha_ex1",
-      "japanese": "{低所得者|ていしょとくしゃ}への{支援|しえん}が{必要|ひつよう}だ。",
+      "japanese": "{低所得者|ていしょとくしゃ}⟦へ→へ：02473_he⟧⟦の→の：09472_no⟧⟦{支援|しえん}→支援：07778_shien⟧⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧だ。",
       "english": "Support for low-income earners is necessary.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25124_teishotokusha_ex2",
-      "japanese": "{低所得者|ていしょとくしゃ}{向|む}けの{住宅|じゅうたく}が{不足|ふそく}している。",
+      "japanese": "{低所得者|ていしょとくしゃ}{向|む}け⟦の→の：09472_no⟧⟦{住宅|じゅうたく}→住宅：03280_juutaku⟧⟦が→が：00051_ga⟧⟦{不足|ふそく}→不足：03598_fusoku⟧⟦している→する：00392_suru⟧。",
       "english": "There is a shortage of housing for low-income people.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25124_teishotokusha_ex3",
-      "japanese": "{政府|せいふ}は{低所得者|ていしょとくしゃ}{世帯|せたい}に{対|たい}して{給付金|きゅうふきん}を{支給|しきゅう}する{方針|ほうしん}を{発表|はっぴょう}した。",
+      "japanese": "⟦{政府|せいふ}→政府：03294_seifu⟧⟦は→は：00079_ha⟧{低所得者|ていしょとくしゃ}⟦{世帯|せたい}→世帯：06870_setai⟧⟦に{対|たい}して→に対して：06800_nitaishite⟧⟦{給付金|きゅうふきん}→給付金：20806_kyuufukin⟧⟦を→を：00422_wo⟧⟦{支給|しきゅう}→支給：02835_shikyuu⟧⟦する→する：00392_suru⟧⟦{方針|ほうしん}→方針：04871_houshin⟧⟦を→を：00422_wo⟧⟦{発表|はっぴょう}した→発表する：25231_happyousuru⟧。",
       "english": "The government announced a policy to provide benefits to low-income households.",
       "sense_numbers": [
         1
@@ -44,20 +44,30 @@
       "notes": null
     }
   ],
-  "notes": "Combines {低|てい} (low), {所得|しょとく} (income), and {者|しゃ} (person). A formal term commonly encountered in news, government documents, and policy discussions. Japan's social welfare system defines income thresholds for various support programs, making this a frequently used term in public discourse.\n\nCOMMON COLLOCATIONS:\n- {低所得者|ていしょとくしゃ}{世帯|せたい}: low-income household\n- {低所得者|ていしょとくしゃ}{層|そう}: low-income bracket; the low-income demographic\n- {低所得者|ていしょとくしゃ}{対策|たいさく}: measures for low-income people\n- {低所得者|ていしょとくしゃ}{向|む}け: aimed at low-income earners\n\nSIMILAR WORDS:\n- {高所得者|こうしょとくしゃ}: high-income earner — the antonym\n- {貧困者|ひんこんしゃ}: person in poverty — implies more severe economic hardship\n- {生活保護受給者|せいかつほごじゅきゅうしゃ}: welfare recipient — someone specifically receiving government welfare benefits",
+  "notes": "Combines ⟦{低|てい}→低〜：03961_tei⟧ (low), ⟦{所得|しょとく}→所得：09850_shotoku⟧ (income), and ⟦{者|しゃ}→〜者：04662_sha⟧ (person). A formal term commonly encountered in news, government documents, and policy discussions. Japan's social welfare system defines income thresholds for various support programs, making this a frequently used term in public discourse.\n\nCOMMON COLLOCATIONS:\n- {低所得者|ていしょとくしゃ}⟦{世帯|せたい}→世帯：06870_setai⟧: low-income household\n- {低所得者|ていしょとくしゃ}⟦{層|そう}→層：12441_sou⟧: low-income bracket; the low-income demographic\n- {低所得者|ていしょとくしゃ}⟦{対策|たいさく}→対策：02511_taisaku⟧: measures for low-income people\n- {低所得者|ていしょとくしゃ}{向|む}け: aimed at low-income earners\n\nSIMILAR WORDS:\n- {高所得者|こうしょとくしゃ}: high-income earner — the antonym\n- ⟦{貧困者|ひんこんしゃ}→貧困者：26723_hinkonsha⟧: person in poverty — implies more severe economic hardship\n- {生活保護受給者|せいかつほごじゅきゅうしゃ}: welfare recipient — someone specifically receiving government welfare benefits",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "26723_hinkonsha",
+      "reading": "ひんこんしゃ",
+      "headword": "{貧困者|ひんこんしゃ}",
+      "label": "person in poverty"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "person",
         "economics"
       ]
     },
     "created": "2026-04-23T11:24:32Z",
-    "modified": "2026-08-04T12:59:53Z"
+    "modified": "2026-09-02T04:02:21Z"
   }
 }

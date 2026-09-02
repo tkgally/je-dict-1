@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24300_mimikazari_ex1",
-      "japanese": "{真珠|しんじゅ}の{耳飾|みみかざ}りをつけた。",
+      "japanese": "⟦{真珠|しんじゅ}→真珠：19873_shinju⟧⟦の→の：09472_no⟧{耳飾|みみかざ}り⟦を→を：00422_wo⟧⟦つけた→つける：00562_tsukeru⟧。",
       "english": "I put on pearl earrings.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24300_mimikazari_ex2",
-      "japanese": "{母|はは}から{耳飾|みみかざ}りを{誕生日|たんじょうび}にもらった。",
+      "japanese": "⟦{母|はは}→母：00549_haha⟧⟦から→から：00504_kara⟧{耳飾|みみかざ}り⟦を→を：00422_wo⟧⟦{誕生日|たんじょうび}→誕生日：02910_tanjoubi⟧⟦に→に：00314_ni⟧⟦もらった→もらう：00520_morau⟧。",
       "english": "I received earrings from my mother for my birthday.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24300_mimikazari_ex3",
-      "japanese": "あの{美術館|びじゅつかん}には{古代|こだい}の{金|きん}の{耳飾|みみかざ}りが{展示|てんじ}されている。",
+      "japanese": "⟦あの→あの：00915_ano⟧⟦{美術館|びじゅつかん}→美術館：01717_bijutsukan⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{古代|こだい}→古代：05324_kodai⟧⟦の→の：09472_no⟧{金|きん}⟦の→の：09472_no⟧{耳飾|みみかざ}り⟦が→が：00051_ga⟧⟦{展示|てんじ}→展示：12401_tenji⟧⟦されている→する：00392_suru⟧。",
       "english": "That museum has ancient gold earrings on display.",
       "sense_numbers": [
         1
@@ -44,19 +44,36 @@
       "notes": null
     }
   ],
-  "notes": "A native Japanese word ({耳|みみ} ear + {飾|かざ}り ornament) that covers all types of ear jewelry. In modern everyday speech, the loanwords ピアス (pierced earring) and イヤリング (clip-on earring) are far more common. {耳飾|みみかざ}り appears more often in literary, historical, or formal descriptive contexts.\n\nCOMMON COLLOCATIONS:\n- {耳飾|みみかざ}りをつける — put on earrings\n- {耳飾|みみかざ}りを{外|はず}す — take off earrings\n- {金|きん}の{耳飾|みみかざ}り — gold earrings\n- {真珠|しんじゅ}の{耳飾|みみかざ}り — pearl earrings\n\nSIMILAR WORDS:\n- ピアス — pierced earring; the standard everyday word for earrings worn through pierced ears\n- イヤリング — clip-on earring; in Japanese, this specifically means the clip-on type, unlike English where \"earring\" is general\n- イヤーカフ — ear cuff; a newer fashion term for earrings that clip onto the ear cartilage",
+  "notes": "A native Japanese word (⟦{耳|みみ}→耳：01513_mimi⟧ ear + ⟦{飾|かざ}り→飾り：02539_kazari⟧ ornament) that covers all types of ear jewelry. In modern everyday speech, the loanwords ⟦ピアス→ピアス：04685_piasu⟧ (pierced earring) and ⟦イヤリング→イヤリング：04684_iyaringu⟧ (clip-on earring) are far more common. {耳飾|みみかざ}り appears more often in literary, historical, or formal descriptive contexts.\n\nCOMMON COLLOCATIONS:\n- {耳飾|みみかざ}り⟦を→を：00422_wo⟧⟦つける→つける：00562_tsukeru⟧ — put on earrings\n- {耳飾|みみかざ}り⟦を→を：00422_wo⟧⟦{外|はず}す→外す：02394_hazusu⟧ — take off earrings\n- {金|きん}⟦の→の：09472_no⟧{耳飾|みみかざ}り — gold earrings\n- ⟦{真珠|しんじゅ}→真珠：19873_shinju⟧⟦の→の：09472_no⟧{耳飾|みみかざ}り — pearl earrings\n\nSIMILAR WORDS:\n- ⟦ピアス→ピアス：04685_piasu⟧ — pierced earring; the standard everyday word for earrings worn through pierced ears\n- ⟦イヤリング→イヤリング：04684_iyaringu⟧ — clip-on earring; in Japanese, this specifically means the clip-on type, unlike English where \"earring\" is general\n- イヤーカフ — ear cuff; a newer fashion term for earrings that clip onto the ear cartilage",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04685_piasu",
+      "reading": "ぴあす",
+      "headword": "ピアス",
+      "label": "pierced earring"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04684_iyaringu",
+      "reading": "いやりんぐ",
+      "headword": "イヤリング",
+      "label": "clip-on earring"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "clothing"
       ]
     },
     "created": "2026-04-18T13:15:00Z",
-    "modified": "2026-08-02T18:32:34Z"
+    "modified": "2026-09-02T04:02:17Z"
   }
 }

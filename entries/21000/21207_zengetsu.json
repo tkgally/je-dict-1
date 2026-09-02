@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21207_zengetsu_ex1",
-      "japanese": "{前月|ぜんげつ}と{比|くら}べる。",
+      "japanese": "{前月|ぜんげつ}⟦と→と：00512_to⟧⟦{比|くら}べる→比べる：01237_kuraberu⟧。",
       "english": "To compare with the previous month.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21207_zengetsu_ex2",
-      "japanese": "{売上|うりあげ}は{前月|ぜんげつ}より{増|ふ}えた。",
+      "japanese": "⟦{売上|うりあげ}→売上：04102_uriage⟧⟦は→は：00079_ha⟧{前月|ぜんげつ}⟦より→より：09476_yori⟧⟦{増|ふ}えた→増える：01183_fueru⟧。",
       "english": "Sales increased compared to the previous month.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21207_zengetsu_ex3",
-      "japanese": "{前月|ぜんげつ}の{請求|せいきゅう}がまだ{届|とど}いていないので、{確認|かくにん}してもらえますか。",
+      "japanese": "{前月|ぜんげつ}⟦の→の：09472_no⟧⟦{請求|せいきゅう}→請求：03374_seikyuu⟧⟦が→が：00051_ga⟧⟦まだ→まだ：00603_mada⟧⟦{届|とど}いていない→届く：00899_todoku⟧⟦の→の：09472_no⟧で、⟦{確認|かくにん}して→確認する：25332_kakuninsuru⟧⟦もらえます→もらう：00520_morau⟧⟦か→か：09473_ka⟧。",
       "english": "The invoice from the previous month hasn't arrived yet — could you check on it?",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {前|ぜん} (previous, before) + {月|げつ} (month). A formal time reference word common in business, statistics, and official documents.\n\nCOMMON COLLOCATIONS:\n- {前月|ぜんげつ}{比|ひ}: month-over-month comparison\n- {前月|ぜんげつ}の{実績|じっせき}: the previous month's results\n- {前月|ぜんげつ}{末|まつ}: the end of the previous month\n- {前月|ぜんげつ}より: compared to the previous month\n\nSIMILAR WORDS:\n- {先月|せんげつ}: last month — used relative to the present moment, common in everyday speech\n- {翌月|よくげつ}: the following month — the opposite direction in time\n\nUSAGE:\n{前月|ぜんげつ} is relative to a referenced point in time (often in reports or narratives), while {先月|せんげつ} means 'last month' relative to now. In a business report about March, {前月|ぜんげつ} refers to February, regardless of when the report is read.",
+  "notes": "Composed of ⟦{前|ぜん}→前〜：03957_zen⟧ (previous, before) + {月|げつ} (month). A formal time reference word common in business, statistics, and official documents.\n\nCOMMON COLLOCATIONS:\n- {前月|ぜんげつ}⟦{比|ひ}→比：30310_hi⟧: month-over-month comparison\n- {前月|ぜんげつ}⟦の→の：09472_no⟧⟦{実績|じっせき}→実績：04214_jisseki⟧: the previous month's results\n- {前月|ぜんげつ}{末|まつ}: the end of the previous month\n- {前月|ぜんげつ}⟦より→より：09476_yori⟧: compared to the previous month\n\nSIMILAR WORDS:\n- ⟦{先月|せんげつ}→先月：00751_sengetsu⟧: last month — used relative to the present moment, common in everyday speech\n- ⟦{翌月|よくげつ}→翌月：21206_yokugetsu⟧: the following month — the opposite direction in time\n\nUSAGE:\n{前月|ぜんげつ} is relative to a referenced point in time (often in reports or narratives), while ⟦{先月|せんげつ}→先月：00751_sengetsu⟧ means 'last month' relative to now. In a business report about March, {前月|ぜんげつ} refers to February, regardless of when the report is read.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00751_sengetsu",
+      "reading": "せんげつ",
+      "headword": "{先月|せんげつ}",
+      "label": "last month"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21206_yokugetsu",
+      "reading": "よくげつ",
+      "headword": "{翌月|よくげつ}",
+      "label": "the following month"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +75,6 @@
       ]
     },
     "created": "2026-04-01T14:16:10Z",
-    "modified": "2026-07-29T00:22:41Z"
+    "modified": "2026-09-02T04:02:02Z"
   }
 }

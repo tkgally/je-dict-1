@@ -3,7 +3,7 @@
   "headword": "{生育|せいいく}",
   "reading": "せいいく",
   "romaji": "seiiku",
-  "part_of_speech": "noun (verbal)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "growth; development (of plants or organisms)",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22487_seiiku_ex1",
-      "japanese": "{植物|しょくぶつ}が{順調|じゅんちょう}に{生育|せいいく}している。",
+      "japanese": "⟦{植物|しょくぶつ}→植物：03248_shokubutsu⟧⟦が→が：00051_ga⟧⟦{順調|じゅんちょう}→順調：03282_junchou⟧⟦に→に：00314_ni⟧{生育|せいいく}⟦している→する：00392_suru⟧。",
       "english": "The plants are growing well.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22487_seiiku_ex2",
-      "japanese": "{日当|ひあ}たりが{悪|わる}いと{生育|せいいく}に{影響|えいきょう}する。",
+      "japanese": "⟦{日当|ひあ}たり→日当たり：07498_hiatari⟧⟦が→が：00051_ga⟧⟦{悪|わる}い→悪い：00908_warui⟧⟦と→と：00512_to⟧{生育|せいいく}⟦に→に：00314_ni⟧⟦{影響|えいきょう}→影響：01877_eikyou⟧⟦する→する：00392_suru⟧。",
       "english": "Poor sunlight affects growth.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22487_seiiku_ex3",
-      "japanese": "この{品種|ひんしゅ}は{寒冷|かんれい}な{気候|きこう}でも{生育|せいいく}できる。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{品種|ひんしゅ}→品種：11840_hinshu⟧⟦は→は：00079_ha⟧⟦{寒冷|かんれい}→寒冷：19667_kanrei⟧な⟦{気候|きこう}→気候：00231_kikou⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧{生育|せいいく}⟦できる→できる：00557_dekiru⟧。",
       "english": "This variety can grow even in cold climates.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Primarily used for the growth and development of plants, crops, and other organisms. While it can occasionally apply to human growth, {成長|せいちょう} and {発育|はついく} are far more common for people.\n\nCOMMON COLLOCATIONS:\n- {生育|せいいく}{環境|かんきょう}: growing environment\n- {生育|せいいく}{条件|じょうけん}: growth conditions\n- {生育|せいいく}{状況|じょうきょう}: growth status\n- {生育|せいいく}{期間|きかん}: growing period\n\nSIMILAR WORDS:\n- {成長|せいちょう}: growth — the most general term; used for people, businesses, economies, and plants\n- {発育|はついく}: physical development — mainly used for human physical growth, especially of children\n- {生長|せいちょう}: growth (of plants) — close synonym sometimes used interchangeably with {生育|せいいく}",
+  "notes": "Primarily used for the growth and development of plants, crops, and other organisms. While it can occasionally apply to human growth, ⟦{成長|せいちょう}→成長：03290_seichou⟧ and ⟦{発育|はついく}→発育：25326_hatsuiku⟧ are far more common for people.\n\nCOMMON COLLOCATIONS:\n- {生育|せいいく}⟦{環境|かんきょう}→環境：00174_kankyou⟧: growing environment\n- {生育|せいいく}⟦{条件|じょうけん}→条件：03285_jouken⟧: growth conditions\n- {生育|せいいく}⟦{状況|じょうきょう}→状況：01576_joukyou⟧: growth status\n- {生育|せいいく}⟦{期間|きかん}→期間：00229_kikan⟧: growing period\n\nSIMILAR WORDS:\n- ⟦{成長|せいちょう}→成長：03290_seichou⟧: growth — the most general term; used for people, businesses, economies, and plants\n- ⟦{発育|はついく}→発育：25326_hatsuiku⟧: physical development — mainly used for human physical growth, especially of children\n- ⟦{生長|せいちょう}→生長：00455_seichou⟧: growth (of plants) — close synonym sometimes used interchangeably with {生育|せいいく}",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03290_seichou",
+      "reading": "せいちょう",
+      "headword": "{成長|せいちょう}",
+      "label": "growth"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25326_hatsuiku",
+      "reading": "はついく",
+      "headword": "{発育|はついく}",
+      "label": "physical development"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00455_seichou",
+      "reading": "せいちょう",
+      "headword": "{生長|せいちょう}",
+      "label": "growth"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,7 +85,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-06T14:24:53Z",
-    "modified": "2026-07-30T03:35:34Z"
+    "modified": "2026-09-02T04:02:08Z"
   },
   "conjugation": {
     "type": "suru",

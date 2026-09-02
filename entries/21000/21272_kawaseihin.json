@@ -15,40 +15,67 @@
   "examples": [
     {
       "id": "21272_kawaseihin_ex1",
-      "japanese": "{革製品|かわせいひん}は{手入|てい}れが{大切|たいせつ}だ。",
+      "japanese": "{革製品|かわせいひん}⟦は→は：00079_ha⟧⟦{手入|てい}れ→手入れ：07178_teire⟧⟦が→が：00051_ga⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧だ。",
       "english": "Taking care of leather goods is important.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21272_kawaseihin_ex2",
-      "japanese": "イタリア{製|せい}の{革製品|かわせいひん}をお{土産|みやげ}に{買|か}った。",
+      "japanese": "⟦イタリア→イタリア：19423_itaria⟧⟦{製|せい}→〜製：02001_sei⟧⟦の→の：09472_no⟧{革製品|かわせいひん}⟦を→を：00422_wo⟧⟦お{土産|みやげ}→お土産：01353_omiyage⟧⟦に→に：00314_ni⟧⟦{買|か}った→買う：00489_kau⟧。",
       "english": "I bought Italian leather goods as souvenirs.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21272_kawaseihin_ex3",
-      "japanese": "{質|しつ}の{良|よ}い{革製品|かわせいひん}は{使|つか}い{込|こ}むほど{味|あじ}が{出|で}る。",
+      "japanese": "⟦{質|しつ}→質：01425_shitsu⟧⟦の→の：09472_no⟧⟦{良|よ}い→良い：02350_yoi⟧{革製品|かわせいひん}⟦は→は：00079_ha⟧⟦{使|つか}い{込|こ}む→使い込む：07876_tsukaikomu⟧ほど⟦{味|あじ}→味：00826_aji⟧⟦が→が：00051_ga⟧⟦{出|で}る→出る：00513_deru⟧。",
       "english": "Quality leather goods develop more character the more you use them.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {革|かわ} (leather) and {製品|せいひん} (product, manufactured goods). The kanji {革|かわ} specifically means processed animal hide (leather), as opposed to {皮|かわ} which refers to raw skin or hide.\n\nCOMMON COLLOCATIONS:\n- {革製品|かわせいひん}の{手入|てい}れ: leather care\n- {革製品|かわせいひん}の{修理|しゅうり}: leather repair\n- {本革|ほんがわ}{製品|せいひん}: genuine leather products\n\nRELATED TERMS:\n- {革|かわ}: leather — the material itself\n- {皮革|ひかく}: leather and hides — a more formal/technical term covering both raw and processed materials\n- {合成皮革|ごうせいひかく}: synthetic leather, faux leather — imitation leather made from synthetic materials\n- {製品|せいひん}: product — also used in other compounds like {乳製品|にゅうせいひん} (dairy products)",
+  "notes": "A compound of ⟦{革|かわ}→革：19310_kawa⟧ (leather) and ⟦{製品|せいひん}→製品：01445_seihin⟧ (product, manufactured goods). The kanji ⟦{革|かわ}→革：19310_kawa⟧ specifically means processed animal hide (leather), as opposed to ⟦{皮|かわ}→皮：02187_kawa⟧ which refers to raw skin or hide.\n\nCOMMON COLLOCATIONS:\n- {革製品|かわせいひん}⟦の→の：09472_no⟧⟦{手入|てい}れ→手入れ：07178_teire⟧: leather care\n- {革製品|かわせいひん}⟦の→の：09472_no⟧⟦{修理|しゅうり}→修理：03214_shuuri⟧: leather repair\n- ⟦{本革|ほんがわ}→本革：16787_hongawa⟧⟦{製品|せいひん}→製品：01445_seihin⟧: genuine leather products\n\nRELATED WORDS:\n- ⟦{革|かわ}→革：19310_kawa⟧: leather — the material itself\n- ⟦{皮革|ひかく}→皮革：28433_hikaku⟧: leather and hides — a more formal/technical term covering both raw and processed materials\n- ⟦{合成皮革|ごうせいひかく}→合成皮革：23705_gouseihikaku⟧: synthetic leather, faux leather — imitation leather made from synthetic materials\n- ⟦{製品|せいひん}→製品：01445_seihin⟧: product — also used in other compounds like ⟦{乳製品|にゅうせいひん}→乳製品：05882_nyuuseihin⟧ (dairy products)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "28433_hikaku",
+      "reading": "ひかく",
+      "headword": "{皮革|ひかく}",
+      "label": "leather and hides"
+    },
+    {
+      "type": "related",
+      "target_id": "23705_gouseihikaku",
+      "reading": "ごうせいひかく",
+      "headword": "{合成|ごうせい}{皮革|ひかく}",
+      "label": "synthetic leather, faux leather"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["clothing", "general"]
+      "semantic": [
+        "clothing",
+        "general"
+      ]
     },
     "created": "2026-04-01T16:15:20Z",
-    "modified": "2026-04-01T16:15:20Z"
+    "modified": "2026-09-02T04:02:02Z"
   }
 }

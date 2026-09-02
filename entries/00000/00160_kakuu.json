@@ -78,7 +78,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n\nSense 1 (fictional):\n・{架空|かくう}⟦の→の：09472_no⟧⟦{物語|ものがたり}→物語：03634_monogatari⟧ (fictional story)\n・{架空|かくう}⟦の→の：09472_no⟧⟦{人物|じんぶつ}→人物：03356_jinbutsu⟧ (fictional character)\n・{架空|かくう}⟦{請求|せいきゅう}→請求：03374_seikyuu⟧ (fictitious billing - a scam)\n・{架空|かくう}⟦{口座|こうざ}→口座：05419_kouza⟧ (fictitious account)\n\nSense 2 (overhead/aerial):\n・{架空|かくう}⟦{電線|でんせん}→電線：11507_densen⟧ (overhead electric cables)\n・{架空|かくう}⟦{送電線|そうでんせん}→送電線：09776_soudensen⟧ (overhead transmission lines)\n・{架空|かくう}⟦ケーブル→ケーブル：04432_keeburu⟧ (aerial cable)\n\nSIMILAR WORDS (fictional sense):\n・⟦{空想|くうそう}→空想：00256_kuusou⟧ (fantasy, imagination)\n・⟦{虚構|きょこう}→虚構：09808_kyokou⟧ (fiction - literary term)\n・⟦フィクション→フィクション：11005_fikushon⟧ (fiction)\n・⟦{創作|そうさく}→創作：04386_sousaku⟧ (creative work, fiction)",
+  "notes": "USAGE:\n\nSense 1 (fictional):\n- {架空|かくう}⟦の→の：09472_no⟧⟦{物語|ものがたり}→物語：03634_monogatari⟧ (fictional story)\n- {架空|かくう}⟦の→の：09472_no⟧⟦{人物|じんぶつ}→人物：03356_jinbutsu⟧ (fictional character)\n- {架空|かくう}⟦{請求|せいきゅう}→請求：03374_seikyuu⟧ (fictitious billing - a scam)\n- {架空|かくう}⟦{口座|こうざ}→口座：05419_kouza⟧ (fictitious account)\n\nSense 2 (overhead/aerial):\n- {架空|かくう}⟦{電線|でんせん}→電線：11507_densen⟧ (overhead electric cables)\n- {架空|かくう}⟦{送電線|そうでんせん}→送電線：09776_soudensen⟧ (overhead transmission lines)\n- {架空|かくう}⟦ケーブル→ケーブル：04432_keeburu⟧ (aerial cable)\n\nSIMILAR WORDS (fictional sense):\n- ⟦{空想|くうそう}→空想：00256_kuusou⟧ (fantasy, imagination)\n- ⟦{虚構|きょこう}→虚構：09808_kyokou⟧ (fiction - literary term)\n- ⟦フィクション→フィクション：11005_fikushon⟧ (fiction)\n- ⟦{創作|そうさく}→創作：04386_sousaku⟧ (creative work, fiction)",
   "cross_references": [
     {
       "type": "related",
@@ -86,11 +86,32 @@
       "headword": "{空想|くうそう}",
       "label": "fantasy",
       "target_id": "00256_kuusou"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09808_kyokou",
+      "reading": "きょこう",
+      "headword": "{虚構|きょこう}",
+      "label": "fiction"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11005_fikushon",
+      "reading": "ふぃくしょん",
+      "headword": "フィクション",
+      "label": "fiction"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04386_sousaku",
+      "reading": "そうさく",
+      "headword": "{創作|そうさく}",
+      "label": "creative work, fiction"
     }
   ],
   "metadata": {
     "created": "2026-01-13T10:53:53Z",
-    "modified": "2026-05-09T18:08:03Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

@@ -15,40 +15,74 @@
   "examples": [
     {
       "id": "23489_kouin_ex1",
-      "japanese": "{行員|こういん}に{口座|こうざ}の{開設|かいせつ}を{頼|たの}んだ。",
+      "japanese": "{行員|こういん}⟦に→に：00314_ni⟧⟦{口座|こうざ}→口座：05419_kouza⟧⟦の→の：09472_no⟧⟦{開設|かいせつ}→開設：14595_kaisetsu⟧⟦を→を：00422_wo⟧⟦{頼|たの}んだ→頼む：01104_tanomu⟧。",
       "english": "I asked a bank employee to open an account.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "23489_kouin_ex2",
-      "japanese": "{彼女|かのじょ}は{大手|おおて}{銀行|ぎんこう}の{行員|こういん}として{働|はたら}いている。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧⟦{大手|おおて}→大手：12171_oote⟧⟦{銀行|ぎんこう}→銀行：00578_ginkou⟧⟦の→の：09472_no⟧{行員|こういん}⟦として→として：06802_toshite⟧⟦{働|はたら}いている→働く：00503_hataraku⟧。",
       "english": "She works as an employee at a major bank.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "23489_kouin_ex3",
-      "japanese": "{窓口|まどぐち}の{行員|こういん}が{丁寧|ていねい}に{手続|てつづ}きの{説明|せつめい}をしてくれた。",
+      "japanese": "⟦{窓口|まどぐち}→窓口：03154_madoguchi⟧⟦の→の：09472_no⟧{行員|こういん}⟦が→が：00051_ga⟧⟦{丁寧|ていねい}→丁寧：00896_teinei⟧⟦に→に：00314_ni⟧⟦{手続|てつづ}き→手続き：05453_tetsuzuki⟧⟦の→の：09472_no⟧⟦{説明|せつめい}→説明：01449_setsumei⟧⟦を→を：00422_wo⟧⟦して→する：00392_suru⟧⟦くれた→くれる：00724_kureru⟧。",
       "english": "The bank clerk at the counter politely explained the procedure to me.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {行|こう} (abbreviation of {銀行|ぎんこう}, bank) and {員|いん} (member, staff). This word follows the common Japanese pattern of abbreviating an organization name and adding {員|いん} to refer to its employees, similar to {社員|しゃいん} (company employee) and {駅員|えきいん} (station staff).\n\nCOMMON COLLOCATIONS:\n- {銀行|ぎんこう}{行員|こういん}: bank employee (with full form for clarity)\n- {窓口|まどぐち}の{行員|こういん}: teller, counter clerk\n- {行員|こういん}として{勤|つと}める: to work as a bank employee\n\nSIMILAR WORDS:\n- {銀行員|ぎんこういん}: bank employee — the full, unabbreviated form; slightly more common in everyday speech\n- {社員|しゃいん}: company employee — the parallel term for general companies\n- {局員|きょくいん}: post office employee — the equivalent for postal workers\n- {工員|こういん}: factory worker — a homophone with completely different meaning; uses {工|こう} (craft, factory) instead of {行|こう} (bank)",
+  "notes": "A compound of {行|こう} (abbreviation of ⟦{銀行|ぎんこう}→銀行：00578_ginkou⟧, bank) and {員|いん} (member, staff). This word follows the common Japanese pattern of abbreviating an organization name and adding {員|いん} to refer to its employees, similar to ⟦{社員|しゃいん}→社員：03065_shain⟧ (company employee) and ⟦{駅員|えきいん}→駅員：05503_ekiin⟧ (station staff).\n\nCOMMON COLLOCATIONS:\n- ⟦{銀行|ぎんこう}→銀行：00578_ginkou⟧{行員|こういん}: bank employee (with full form for clarity)\n- ⟦{窓口|まどぐち}→窓口：03154_madoguchi⟧⟦の→の：09472_no⟧{行員|こういん}: teller, counter clerk\n- {行員|こういん}⟦として→として：06802_toshite⟧⟦{勤|つと}める→勤める：00902_tsutomeru⟧: to work as a bank employee\n\nSIMILAR WORDS:\n- ⟦{銀行員|ぎんこういん}→銀行員：05058_ginkouin⟧: bank employee — the full, unabbreviated form; slightly more common in everyday speech\n- ⟦{社員|しゃいん}→社員：03065_shain⟧: company employee — the parallel term for general companies\n- ⟦{局員|きょくいん}→局員：24361_kyokuin⟧: post office employee — the equivalent for postal workers\n- ⟦{工員|こういん}→工員：04181_kouin⟧: factory worker — a homophone with completely different meaning; uses {工|こう} (craft, factory) instead of {行|こう} (bank)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03065_shain",
+      "reading": "しゃいん",
+      "headword": "{社員|しゃいん}",
+      "label": "company employee"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24361_kyokuin",
+      "reading": "きょくいん",
+      "headword": "{局員|きょくいん}",
+      "label": "post office employee"
+    },
+    {
+      "type": "homophone",
+      "target_id": "04181_kouin",
+      "reading": "こういん",
+      "headword": "{工員|こういん}",
+      "label": "factory worker"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["business", "society"]
+      "semantic": [
+        "business",
+        "society"
+      ]
     },
     "created": "2026-04-12T10:28:44Z",
-    "modified": "2026-04-12T10:28:44Z"
+    "modified": "2026-09-02T04:02:13Z"
   }
 }

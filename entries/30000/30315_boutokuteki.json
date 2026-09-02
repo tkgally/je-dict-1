@@ -3,7 +3,7 @@
   "headword": "冒涜的",
   "reading": "ぼうとくてき",
   "romaji": "boutokuteki",
-  "part_of_speech": "adjective-na",
+  "part_of_speech": "na-adjective",
   "gloss": "blasphemous; sacrilegious",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30315_boutokuteki_ex1",
-      "japanese": "{冒涜的|ぼうとくてき}な{発言|はつげん}だ。",
+      "japanese": "{冒涜的|ぼうとくてき}な⟦{発言|はつげん}→発言：05099_hatsugen⟧だ。",
       "english": "It is a blasphemous remark.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30315_boutokuteki_ex2",
-      "japanese": "その{絵|え}は{冒涜的|ぼうとくてき}だと{批判|ひはん}された。",
+      "japanese": "⟦その→その：00993_sono⟧⟦{絵|え}→絵：02613_e⟧⟦は→は：00079_ha⟧{冒涜的|ぼうとくてき}だ⟦と→と：00512_to⟧⟦{批判|ひはん}→批判：03580_hihan⟧⟦された→する：00392_suru⟧。",
       "english": "The painting was criticized as sacrilegious.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30315_boutokuteki_ex3",
-      "japanese": "{遺族|いぞく}の{気持|きも}ちを{考|かんが}えれば、{冒涜的|ぼうとくてき}な{表現|ひょうげん}は{避|さ}けるべきだ。",
+      "japanese": "⟦{遺族|いぞく}→遺族：14886_izoku⟧⟦の→の：09472_no⟧{気持|きも}ち⟦を→を：00422_wo⟧⟦{考|かんが}えれば→考える：00856_kangaeru⟧、{冒涜的|ぼうとくてき}な⟦{表現|ひょうげん}→表現：03584_hyougen⟧⟦は→は：00079_ha⟧⟦{避|さ}ける→避ける：02109_sakeru⟧べきだ。",
       "english": "Out of consideration for the bereaved family, profane expressions should be avoided.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "From the noun {冒涜|ぼうとく} (blasphemy, desecration) + the adjectival suffix {的|てき}. Written {冒瀆|ぼうとく} in older texts; {涜|とく} is the simplified form in general use today.\n\nCOMMON COLLOCATIONS:\n- {冒涜的|ぼうとくてき}な{行為|こうい}: a sacrilegious act\n- {冒涜的|ぼうとくてき}な{表現|ひょうげん}: a profane expression\n- {神|かみ}への{冒涜|ぼうとく}: blasphemy against God\n\nSIMILAR WORDS:\n- {不敬|ふけい}な: disrespectful (toward the emperor or a superior) — a narrower, formal register\n- {不謹慎|ふきんしん}な: inappropriate, in poor taste — about tactlessness, not desecration",
+  "notes": "From the noun ⟦{冒涜|ぼうとく}→冒涜：19484_boutoku⟧ (blasphemy, desecration) + the adjectival suffix ⟦{的|てき}→〜的：09839_teki⟧. Written {冒瀆|ぼうとく} in older texts; {涜|とく} is the simplified form in general use today.\n\nCOMMON COLLOCATIONS:\n- {冒涜的|ぼうとくてき}な⟦{行為|こうい}→行為：10021_koui⟧: a sacrilegious act\n- {冒涜的|ぼうとくてき}な⟦{表現|ひょうげん}→表現：03584_hyougen⟧: a profane expression\n- ⟦{神|かみ}→神：02147_kami⟧⟦へ→へ：02473_he⟧⟦の→の：09472_no⟧⟦{冒涜|ぼうとく}→冒涜：19484_boutoku⟧: blasphemy against God\n\nSIMILAR WORDS:\n- ⟦{不敬|ふけい}→不敬：19476_fukei⟧な: disrespectful (toward the emperor or a superior) — a narrower, formal register\n- ⟦{不謹慎|ふきんしん}→不謹慎：18251_fukinshin⟧な: inappropriate, in poor taste — about tactlessness, not desecration",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19476_fukei",
+      "reading": "ふけい",
+      "headword": "{不敬|ふけい}",
+      "label": "disrespectful"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18251_fukinshin",
+      "reading": "ふきんしん",
+      "headword": "{不謹慎|ふきんしん}",
+      "label": "inappropriate, in poor taste"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +69,7 @@
         "adjective-na"
       ],
       "formality": "formal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "religion",
         "evaluation"
@@ -61,6 +77,6 @@
       "domain": []
     },
     "created": "2026-08-01T15:24:22Z",
-    "modified": "2026-08-01T15:24:22Z"
+    "modified": "2026-09-02T04:02:39Z"
   }
 }

@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "{昼休|ひるやす}み is composed of ⟦{昼|ひる}→昼：00540_hiru⟧ (noon) + ⟦{休|やす}み→休み：02266_yasumi⟧ (rest/break).\n\nCOMMON PATTERNS:\n- {昼休|ひるやす}み⟦に→に：00314_ni⟧〜⟦する→する：00392_suru⟧: to do ~ during lunch break\n- {昼休|ひるやす}み⟦{時間|じかん}→時間：00468_jikan⟧: lunch break time\n- {昼休|ひるやす}み⟦{中|ちゅう}→〜中：09840_chuu⟧: during lunch break\n\nTYPICAL LUNCH BREAKS:\n- Japanese schools: about 45-50 minutes\n- Japanese companies: usually 12:00-13:00 (1 hour)\n\nRELATED TERMS:\n- ⟦{休憩|きゅうけい}→休憩：00262_kyuukei⟧: break, rest\n- ⟦{昼食|ちゅうしょく}→昼食：01616_chuushoku⟧: lunch (formal)\n- ⟦{昼|ひる}ご{飯|はん}→昼ご飯：02950_hirugohan⟧: lunch",
+  "notes": "{昼休|ひるやす}み is composed of ⟦{昼|ひる}→昼：00540_hiru⟧ (noon) + ⟦{休|やす}み→休み：02266_yasumi⟧ (rest/break).\n\nCOMMON PATTERNS:\n- {昼休|ひるやす}み⟦に→に：00314_ni⟧〜⟦する→する：00392_suru⟧: to do ~ during lunch break\n- {昼休|ひるやす}み⟦{時間|じかん}→時間：00468_jikan⟧: lunch break time\n- {昼休|ひるやす}み⟦{中|ちゅう}→〜中：09840_chuu⟧: during lunch break\n\nTYPICAL LUNCH BREAKS:\n- Japanese schools: about 45-50 minutes\n- Japanese companies: usually 12:00-13:00 (1 hour)\n\nRELATED WORDS:\n- ⟦{休憩|きゅうけい}→休憩：00262_kyuukei⟧: break, rest\n- ⟦{昼食|ちゅうしょく}→昼食：01616_chuushoku⟧: lunch (formal)\n- ⟦{昼|ひる}ご{飯|はん}→昼ご飯：02950_hirugohan⟧: lunch",
   "cross_references": [
     {
       "type": "related",
@@ -71,11 +71,32 @@
       "reading": "ちゅうしょく",
       "headword": "{昼食|ちゅうしょく}",
       "label": "lunch (formal)"
+    },
+    {
+      "type": "related",
+      "target_id": "00262_kyuukei",
+      "reading": "きゅうけい",
+      "headword": "{休憩|きゅうけい}",
+      "label": "break, rest"
+    },
+    {
+      "type": "related",
+      "target_id": "02950_hirugohan",
+      "reading": "ひるごはん",
+      "headword": "{昼|ひる}ご{飯|はん}",
+      "label": "lunch"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16113_kyuukeijikan",
+      "reading": "きゅうけいじかん",
+      "headword": "{休憩時間|きゅうけいじかん}",
+      "label": "break time"
     }
   ],
   "metadata": {
     "created": "2026-01-09T12:51:43Z",
-    "modified": "2026-05-16T19:11:35Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

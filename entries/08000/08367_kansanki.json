@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08367_kansanki_ex1",
-      "japanese": "{閑散期|かんさんき}に{旅行|りょこう}すると{安|やす}い。",
+      "japanese": "{閑散期|かんさんき}⟦に→に：00314_ni⟧⟦{旅行|りょこう}→旅行：00748_ryokou⟧⟦する→する：00392_suru⟧⟦と→と：00512_to⟧⟦{安|やす}い→安い：00464_yasui⟧。",
       "english": "Traveling during the off-season is cheaper.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "08367_kansanki_ex2",
-      "japanese": "{閑散期|かんさんき}は{暇|ひま}すぎて{困|こま}る。",
+      "japanese": "{閑散期|かんさんき}⟦は→は：00079_ha⟧⟦{暇|ひま}→暇：00592_hima⟧すぎて⟦{困|こま}る→困る：00861_komaru⟧。",
       "english": "The slow season is so quiet it's troublesome.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "08367_kansanki_ex3",
-      "japanese": "{閑散期|かんさんき}を{利用|りよう}して{設備|せつび}のメンテナンスを{行|おこな}う。",
+      "japanese": "{閑散期|かんさんき}⟦を→を：00422_wo⟧⟦{利用|りよう}して→利用する：21735_riyousuru⟧⟦{設備|せつび}→設備：03301_setsubi⟧⟦の→の：09472_no⟧メンテナンス⟦を→を：00422_wo⟧⟦{行|おこな}う→行う：01238_okonau⟧。",
       "english": "We use the slow season to do equipment maintenance.",
       "sense_numbers": [
         1
@@ -43,7 +43,7 @@
       "notes": null
     }
   ],
-  "notes": "FORMATION:\n{閑散|かんさん} (deserted, quiet) + {期|き} (period) → quiet period\n\nANTONYM:\n{繁忙期|はんぼうき} (busy season, peak period)\n\nRELATED WORDS:\n- {閑散|かんさん} (deserted, quiet)\n- オフシーズン (off-season)\n- {暇|ひま} (free time, not busy)\n\nBUSINESS STRATEGY:\nMany businesses use {閑散期|かんさんき} for staff training, renovations, or offering discounts to attract customers. Travel and hospitality industries often have significant price differences between {繁忙期|はんぼうき} and {閑散期|かんさんき}.",
+  "notes": "FORMS:\n⟦{閑散|かんさん}→閑散：14563_kansan⟧ (deserted, quiet) + {期|き} (period) → quiet period\n\nSIMILAR WORDS:\n⟦{繁忙期|はんぼうき}→繁忙期：08366_hanbouki⟧ (busy season, peak period)\n\nRELATED WORDS:\n- ⟦{閑散|かんさん}→閑散：14563_kansan⟧ (deserted, quiet)\n- ⟦オフ→オフ：10733_ofu⟧⟦シーズン→シーズン：10944_shiizun⟧ (off-season)\n- ⟦{暇|ひま}→暇：00592_hima⟧ (free time, not busy)\n\nBUSINESS STRATEGY:\nMany businesses use {閑散期|かんさんき} for staff training, renovations, or offering discounts to attract customers. Travel and hospitality industries often have significant price differences between ⟦{繁忙期|はんぼうき}→繁忙期：08366_hanbouki⟧ and {閑散期|かんさんき}.",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -51,6 +51,7 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "business",
         "time-general",
@@ -58,7 +59,7 @@
       ]
     },
     "created": "2026-01-26T04:46:09Z",
-    "modified": "2026-08-11T21:34:29Z"
+    "modified": "2026-09-02T04:01:14Z"
   },
   "cross_references": [
     {
@@ -67,6 +68,34 @@
       "headword": "{繁忙期|はんぼうき}",
       "label": "busy season",
       "target_id": "08366_hanbouki"
+    },
+    {
+      "type": "related",
+      "target_id": "00592_hima",
+      "reading": "ひま",
+      "headword": "{暇|ひま}",
+      "label": "free time, not busy"
+    },
+    {
+      "type": "antonym",
+      "target_id": "23474_tabouki",
+      "reading": "たぼうき",
+      "headword": "{多忙期|たぼうき}",
+      "label": "busy period"
+    },
+    {
+      "type": "antonym",
+      "target_id": "25050_hanjouki",
+      "reading": "はんじょうき",
+      "headword": "{繁盛期|はんじょうき}",
+      "label": "peak season"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25613_noukanki",
+      "reading": "のうかんき",
+      "headword": "{農閑期|のうかんき}",
+      "label": "agricultural off-season"
     }
   ]
 }

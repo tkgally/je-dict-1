@@ -2,7 +2,7 @@
   "id": "02411_furueru",
   "headword": "{震|ふる}える",
   "reading": "ふるえる",
-  "part_of_speech": "ichidan verb",
+  "part_of_speech": "verb (ichidan)",
   "gloss": "to shiver, to tremble",
   "definitions": [
     {
@@ -43,11 +43,47 @@
       ]
     }
   ],
-  "notes": "{震|ふる}える is an ichidan verb describing involuntary shaking or trembling.\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n- No direct transitive pair\n\nASPECT (ている):\n{震|ふる}えている indicates ongoing trembling: ⟦{寒|さむ}く→寒い：00664_samui⟧て{震|ふる}えている (trembling from cold).\n\nCAUSES (with で particle):\n- ⟦{寒|さむ}さ→寒さ：12336_samusa⟧⟦で→で：00502_de⟧{震|ふる}える: to shiver from cold\n- ⟦{恐怖|きょうふ}→恐怖：02585_kyoufu⟧⟦で→で：00502_de⟧{震|ふる}える: to tremble with fear\n- ⟦{興奮|こうふん}→興奮：02751_koufun⟧⟦で→で：00502_de⟧{震|ふる}える: to shake with excitement\n- ⟦{怒|いか}り→怒り：01780_ikari⟧⟦で→で：00502_de⟧{震|ふる}える: to shake with anger\n\nCOMMON COLLOCATIONS:\n- ⟦{声|こえ}→声：02207_koe⟧⟦が→が：00051_ga⟧{震|ふる}える: one's voice trembles\n- ⟦{手|て}→手：00569_te⟧⟦が→が：00051_ga⟧{震|ふる}える: one's hands shake\n- がたがた{震|ふる}える: to shiver violently\n\nRELATED:\n- {震|ふる}わせる: to make shake (causative)\n- ⟦{地震|じしん}→地震：01608_jishin⟧: earthquake",
-  "cross_references": [],
+  "notes": "{震|ふる}える is an ichidan verb describing involuntary shaking or trembling.\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n- No direct transitive pair\n\nASPECT (ている):\n{震|ふる}えて⟦いる→いる：00495_iru⟧ indicates ongoing trembling: ⟦{寒|さむ}く→寒い：00664_samui⟧て{震|ふる}えて⟦いる→いる：00495_iru⟧ (trembling from cold).\n\nCAUSES (with で particle):\n- ⟦{寒|さむ}さ→寒さ：12336_samusa⟧⟦で→で：00502_de⟧{震|ふる}える: to shiver from cold\n- ⟦{恐怖|きょうふ}→恐怖：02585_kyoufu⟧⟦で→で：00502_de⟧{震|ふる}える: to tremble with fear\n- ⟦{興奮|こうふん}→興奮：02751_koufun⟧⟦で→で：00502_de⟧{震|ふる}える: to shake with excitement\n- ⟦{怒|いか}り→怒り：01780_ikari⟧⟦で→で：00502_de⟧{震|ふる}える: to shake with anger\n\nCOMMON COLLOCATIONS:\n- ⟦{声|こえ}→声：02207_koe⟧⟦が→が：00051_ga⟧{震|ふる}える: one's voice trembles\n- ⟦{手|て}→手：00569_te⟧⟦が→が：00051_ga⟧{震|ふる}える: one's hands shake\n- ⟦がたがた→がたがた：05274_gatagata⟧{震|ふる}える: to shiver violently\n\nRELATED WORDS:\n- {震|ふる}わせる: to make shake (causative)\n- ⟦{地震|じしん}→地震：01608_jishin⟧: earthquake",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "01608_jishin",
+      "reading": "じしん",
+      "headword": "{地震|じしん}",
+      "label": "earthquake"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07361_ononoku",
+      "reading": "おののく",
+      "headword": "おののく",
+      "label": "to tremble"
+    },
+    {
+      "type": "related",
+      "target_id": "08179_shindou",
+      "reading": "しんどう",
+      "headword": "{振動|しんどう}",
+      "label": "vibration"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14288_miburui",
+      "reading": "みぶるい",
+      "headword": "{身震|みぶる}い",
+      "label": "shudder"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25507_senritsusuru",
+      "reading": "せんりつする",
+      "headword": "{戦慄|せんりつ}する",
+      "label": "to shudder"
+    }
+  ],
   "metadata": {
     "created": "2026-01-09T08:57:17Z",
-    "modified": "2026-05-20T17:37:46Z",
+    "modified": "2026-09-02T04:01:01Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

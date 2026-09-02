@@ -19,7 +19,7 @@
   "examples": [
     {
       "id": "09089_shippo_ex1",
-      "japanese": "{犬|いぬ}がしっぽを{振|ふ}る。",
+      "japanese": "⟦{犬|いぬ}→犬：00632_inu⟧⟦が→が：00051_ga⟧しっぽ⟦を→を：00422_wo⟧⟦{振|ふ}る→振る：01983_furu⟧。",
       "english": "The dog wags its tail.",
       "sense_numbers": [
         1
@@ -29,7 +29,7 @@
     },
     {
       "id": "09089_shippo_ex2",
-      "japanese": "{猫|ねこ}のしっぽは{長|なが}い。",
+      "japanese": "⟦{猫|ねこ}→猫：02237_neko⟧⟦の→の：09472_no⟧しっぽ⟦は→は：00079_ha⟧⟦{長|なが}い→長い：00491_nagai⟧。",
       "english": "The cat's tail is long.",
       "sense_numbers": [
         1
@@ -39,7 +39,7 @@
     },
     {
       "id": "09089_shippo_ex3",
-      "japanese": "しっぽを{踏|ふ}まないように{気|き}をつけて。",
+      "japanese": "しっぽ⟦を→を：00422_wo⟧⟦{踏|ふ}まない→踏む：01197_fumu⟧よう⟦に→に：00314_ni⟧{気|き}をつけて。",
       "english": "Be careful not to step on its tail.",
       "sense_numbers": [
         1
@@ -49,7 +49,7 @@
     },
     {
       "id": "09089_shippo_ex4",
-      "japanese": "しっぽを{出|だ}す。",
+      "japanese": "しっぽ⟦を→を：00422_wo⟧⟦{出|だ}す→出す：01087_dasu⟧。",
       "english": "To show one's true colors (lit. 'to let one's tail show').",
       "sense_numbers": [
         2
@@ -59,7 +59,7 @@
     },
     {
       "id": "09089_shippo_ex5",
-      "japanese": "しっぽを{掴|つか}む。",
+      "japanese": "しっぽ⟦を→を：00422_wo⟧⟦{掴|つか}む→掴む：02290_tsukamu⟧。",
       "english": "To catch someone red-handed (lit. 'to grab the tail').",
       "sense_numbers": [
         2
@@ -69,7 +69,7 @@
     },
     {
       "id": "09089_shippo_ex6",
-      "japanese": "{犯人|はんにん}のしっぽを{掴|つか}んだ。",
+      "japanese": "⟦{犯人|はんにん}→犯人：03572_hannin⟧⟦の→の：09472_no⟧しっぽ⟦を→を：00422_wo⟧⟦{掴|つか}んだ→掴む：02290_tsukamu⟧。",
       "english": "We caught the culprit red-handed.",
       "sense_numbers": [
         2
@@ -78,11 +78,19 @@
       "notes": null
     }
   ],
-  "notes": "しっぽ is the most common everyday word for an animal's tail, especially in casual speech and when talking about pets.\n\nKANJI:\nCan be written as {尻尾|しっぽ}, though hiragana is standard.\n\nWORD FORMATION:\nFrom {尻|しり} (buttocks) + {尾|お} (tail), with sound change.\n\nCOMMON EXPRESSIONS:\n- しっぽを{振|ふ}る: to wag one's tail\n- しっぽを{巻|ま}いて{逃|に}げる: to run away with one's tail between one's legs (idiom: to flee in defeat)\n- しっぽを{出|だ}す: to reveal one's true nature (lit. to let one's tail show)\n- しっぽを{掴|つか}む: to catch someone's trail; to find evidence of wrongdoing\n\nSIMILAR WORDS:\n- {尾|お}: tail (literary/formal, also used in compounds like {尾行|びこう})\n- {尻尾|しっぽ}: same word in kanji form\n- しっぽ is the default choice in conversation; {尾|お} appears in written or scientific contexts",
-  "cross_references": [],
+  "notes": "しっぽ is the most common everyday word for an animal's tail, especially in casual speech and when talking about pets.\n\nWRITING:\nCan be written as {尻尾|しっぽ}, though hiragana is standard.\n\nFORMS:\nFrom ⟦{尻|しり}→尻：03684_shiri⟧ (buttocks) + ⟦{尾|お}→尾：01898_o⟧ (tail), with sound change.\n\nCOMMON EXPRESSIONS:\n- しっぽ⟦を→を：00422_wo⟧⟦{振|ふ}る→振る：01983_furu⟧: to wag one's tail\n- しっぽ⟦を→を：00422_wo⟧⟦{巻|ま}いて→巻く：02418_maku⟧⟦{逃|に}げる→逃げる：01151_nigeru⟧: to run away with one's tail between one's legs (idiom: to flee in defeat)\n- しっぽ⟦を→を：00422_wo⟧⟦{出|だ}す→出す：01087_dasu⟧: to reveal one's true nature (lit. to let one's tail show)\n- しっぽ⟦を→を：00422_wo⟧⟦{掴|つか}む→掴む：02290_tsukamu⟧: to catch someone's trail; to find evidence of wrongdoing\n\nSIMILAR WORDS:\n- ⟦{尾|お}→尾：01898_o⟧: tail (literary/formal, also used in compounds like ⟦{尾行|びこう}→尾行：18952_bikou⟧)\n- {尻尾|しっぽ}: same word in kanji form\n- しっぽ is the default choice in conversation; ⟦{尾|お}→尾：01898_o⟧ appears in written or scientific contexts",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01898_o",
+      "reading": "お",
+      "headword": "{尾|お}",
+      "label": "tail"
+    }
+  ],
   "metadata": {
     "created": "2026-01-31T04:25:12Z",
-    "modified": "2026-06-23T01:38:10Z",
+    "modified": "2026-09-02T04:01:17Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

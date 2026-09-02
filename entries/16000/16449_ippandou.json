@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "16449_ippandou_ex1",
-      "japanese": "{一般道|いっぱんどう}を{走|はし}る。",
+      "japanese": "{一般道|いっぱんどう}⟦を→を：00422_wo⟧⟦{走|はし}る→走る：00519_hashiru⟧。",
       "english": "To drive on a local road.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "16449_ippandou_ex2",
-      "japanese": "{高速|こうそく}を{使|つか}わず{一般道|いっぱんどう}で{行|い}った。",
+      "japanese": "⟦{高速|こうそく}→高速：02749_kousoku⟧⟦を→を：00422_wo⟧⟦{使|つか}わ→使う：00473_tsukau⟧ず{一般道|いっぱんどう}⟦で→で：00502_de⟧⟦{行|い}った→行く：00119_iku⟧。",
       "english": "I went by local roads without using the expressway.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "16449_ippandou_ex3",
-      "japanese": "{渋滞|じゅうたい}を{避|さ}けるため、{高速道路|こうそくどうろ}を{降|お}りて{一般道|いっぱんどう}に{切|き}り{替|か}えた。",
+      "japanese": "⟦{渋滞|じゅうたい}→渋滞：03279_juutai⟧⟦を→を：00422_wo⟧⟦{避|さ}ける→避ける：02109_sakeru⟧⟦ため→ため：01145_tame⟧、⟦{高速道路|こうそくどうろ}→高速道路：09242_kousokudouro⟧⟦を→を：00422_wo⟧⟦{降|お}りて→降りる：00568_oriru⟧{一般道|いっぱんどう}⟦に→に：00314_ni⟧⟦{切|き}り{替|か}えた→切り替える：04239_kirikaeru⟧。",
       "english": "To avoid the traffic jam, I exited the expressway and switched to local roads.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "{一般道|いっぱんどう} is the common short form of {一般道路|いっぱんどうろ}. It refers to ordinary, toll-free roads with intersections and traffic lights.\n\nWORD FORMATION:\n{一般|いっぱん} (general, ordinary) + {道|どう} (road).\n\nCONTRAST:\nThe key distinction is with {高速道路|こうそくどうろ} (expressway / toll road). In Japan, expressways charge tolls and have no traffic lights, while {一般道|いっぱんどう} is free and has normal intersections.\n\nCOMMON COLLOCATIONS:\n- {一般道|いっぱんどう}を{走|はし}る: to drive on local roads\n- {一般道|いっぱんどう}に{降|お}りる: to exit onto local roads\n- {一般道|いっぱんどう}の{制限速度|せいげんそくど}: speed limit on local roads\n\nUSAGE:\nVery common in navigation systems (カーナビ), traffic reports, and driving conversations. The typical speed limit on {一般道|いっぱんどう} in Japan is 60 km/h in urban areas and 60 km/h outside cities unless otherwise posted.",
+  "notes": "{一般道|いっぱんどう} is the common short form of {一般道路|いっぱんどうろ}. It refers to ordinary, toll-free roads with intersections and traffic lights.\n\nFORMS:\n⟦{一般|いっぱん}→一般：01737_ippan⟧ (general, ordinary) + {道|どう} (road).\n\nSIMILAR WORDS:\nThe key distinction is with ⟦{高速道路|こうそくどうろ}→高速道路：09242_kousokudouro⟧ (expressway / toll road). In Japan, expressways charge tolls and have no traffic lights, while {一般道|いっぱんどう} is free and has normal intersections.\n\nCOMMON COLLOCATIONS:\n- {一般道|いっぱんどう}⟦を→を：00422_wo⟧⟦{走|はし}る→走る：00519_hashiru⟧: to drive on local roads\n- {一般道|いっぱんどう}⟦に→に：00314_ni⟧⟦{降|お}りる→降りる：00568_oriru⟧: to exit onto local roads\n- {一般道|いっぱんどう}⟦の→の：09472_no⟧⟦{制限速度|せいげんそくど}→制限速度：26875_seigensokudo⟧: speed limit on local roads\n\nUSAGE:\nVery common in navigation systems (カーナビ), traffic reports, and driving conversations. The typical speed limit on {一般道|いっぱんどう} in Japan is 60 km/h in urban areas and 60 km/h outside cities unless otherwise posted.",
   "cross_references": [
     {
       "type": "antonym",
@@ -52,11 +52,18 @@
       "reading": "こうそくどうろ",
       "headword": "{高速道路|こうそくどうろ}",
       "label": "expressway; toll road"
+    },
+    {
+      "type": "related",
+      "target_id": "26201_jidoushadou",
+      "reading": "じどうしゃどう",
+      "headword": "{自動車道|じどうしゃどう}",
+      "label": "motorway"
     }
   ],
   "metadata": {
     "created": "2026-03-12T23:51:35Z",
-    "modified": "2026-07-20T00:31:17Z",
+    "modified": "2026-09-02T04:01:45Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

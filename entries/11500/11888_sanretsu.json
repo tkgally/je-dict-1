@@ -2,7 +2,7 @@
   "id": "11888_sanretsu",
   "headword": "{参列|さんれつ}",
   "reading": "さんれつ",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "attendance at a ceremony",
   "conjugation": {
     "type": "suru",
@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "11888_sanretsu_ex1",
-      "japanese": "{葬儀|そうぎ}に{参列|さんれつ}する。",
+      "japanese": "⟦{葬儀|そうぎ}→葬儀：15337_sougi⟧⟦に→に：00314_ni⟧{参列|さんれつ}⟦する→する：00392_suru⟧。",
       "english": "Attend a funeral.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "11888_sanretsu_ex2",
-      "japanese": "{結婚式|けっこんしき}に{参列|さんれつ}するために{礼服|れいふく}を{用意|ようい}した。",
+      "japanese": "⟦{結婚式|けっこんしき}→結婚式：05493_kekkonshiki⟧⟦に→に：00314_ni⟧{参列|さんれつ}⟦する→する：00392_suru⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧⟦{礼服|れいふく}→礼服：18440_reifuku⟧⟦を→を：00422_wo⟧⟦{用意|ようい}した→用意する：22428_youisuru⟧。",
       "english": "I prepared formal attire to attend the wedding ceremony.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "11888_sanretsu_ex3",
-      "japanese": "{式典|しきてん}には{多|おお}くの{関係者|かんけいしゃ}が{参列|さんれつ}し、{厳|おごそ}かな{雰囲気|ふんいき}の{中|なか}で{行|おこな}われた。",
+      "japanese": "⟦{式典|しきてん}→式典：09526_shikiten⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{多|おお}く⟦の→の：09472_no⟧⟦{関係者|かんけいしゃ}→関係者：16441_kankeisha⟧⟦が→が：00051_ga⟧{参列|さんれつ}し、⟦{厳|おごそ}か→厳か：11864_ogosoka⟧な⟦{雰囲気|ふんいき}→雰囲気：03604_funiki⟧⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧⟦で→で：00502_de⟧⟦{行|おこな}われた→行う：01238_okonau⟧。",
       "english": "Many officials attended the ceremony, which was held in a solemn atmosphere.",
       "notes": null,
       "has_audio": false,
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "{参列|さんれつ} specifically means attending a formal ceremony — not just showing up, but respectfully participating.\n\nCOMMON COLLOCATIONS:\n- {葬儀|そうぎ}に{参列|さんれつ}する: attend a funeral\n- {結婚式|けっこんしき}に{参列|さんれつ}する: attend a wedding\n- {式典|しきてん}に{参列|さんれつ}する: attend a ceremony\n- {参列者|さんれつしゃ}: attendee\n- ご{参列|さんれつ}: attendance (honorific)\n\nSIMILAR WORDS:\n- {出席|しゅっせき}: attendance (meetings, classes — broader use)\n- {参加|さんか}: participation (events, activities — most general)\n- {列席|れっせき}: attendance at a ceremony (formal, similar to {参列|さんれつ})\n\nREGISTER:\nFormal. Used for solemn occasions — weddings, funerals, memorial services, and official ceremonies. Not used for casual events like parties.",
+  "notes": "{参列|さんれつ} specifically means attending a formal ceremony — not just showing up, but respectfully participating.\n\nCOMMON COLLOCATIONS:\n- ⟦{葬儀|そうぎ}→葬儀：15337_sougi⟧⟦に→に：00314_ni⟧{参列|さんれつ}⟦する→する：00392_suru⟧: attend a funeral\n- ⟦{結婚式|けっこんしき}→結婚式：05493_kekkonshiki⟧⟦に→に：00314_ni⟧{参列|さんれつ}⟦する→する：00392_suru⟧: attend a wedding\n- ⟦{式典|しきてん}→式典：09526_shikiten⟧⟦に→に：00314_ni⟧{参列|さんれつ}⟦する→する：00392_suru⟧: attend a ceremony\n- ⟦{参列者|さんれつしゃ}→参列者：28435_sanretsusha⟧: attendee\n- ご{参列|さんれつ}: attendance (honorific)\n\nSIMILAR WORDS:\n- ⟦{出席|しゅっせき}→出席：02084_shusseki⟧: attendance (meetings, classes — broader use)\n- ⟦{参加|さんか}→参加：02498_sanka⟧: participation (events, activities — most general)\n- ⟦{列席|れっせき}→列席：16239_resseki⟧: attendance at a ceremony (formal, similar to {参列|さんれつ})\n\nREGISTER:\nFormal. Used for solemn occasions — weddings, funerals, memorial services, and official ceremonies. Not used for casual events like parties.",
   "cross_references": [
     {
       "type": "contrast",
@@ -141,11 +141,32 @@
       "headword": "{参加|さんか}",
       "label": "participation (general)",
       "target_id": "02498_sanka"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02084_shusseki",
+      "reading": "しゅっせき",
+      "headword": "{出席|しゅっせき}",
+      "label": "attendance (meetings, classes"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16239_resseki",
+      "reading": "れっせき",
+      "headword": "{列席|れっせき}",
+      "label": "attendance at a ceremony"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21638_tachiau",
+      "reading": "たちあう",
+      "headword": "{立|た}ち{会|あ}う",
+      "label": "to be present at"
     }
   ],
   "metadata": {
     "created": "2026-02-18T14:01:49Z",
-    "modified": "2026-08-15T21:26:29Z",
+    "modified": "2026-09-02T04:01:26Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
@@ -159,7 +180,8 @@
       "semantic": [
         "society"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

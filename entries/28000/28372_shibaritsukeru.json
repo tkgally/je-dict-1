@@ -3,7 +3,7 @@
   "headword": "{縛|しば}り{付|つ}ける",
   "reading": "しばりつける",
   "romaji": "shibaritsukeru",
-  "part_of_speech": "verb-ichidan",
+  "part_of_speech": "verb (ichidan)",
   "gloss": "to tie down; to bind tightly to",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28372_shibaritsukeru_ex1",
-      "japanese": "{犬|いぬ}を{木|き}に{縛|しば}り{付|つ}けた。",
+      "japanese": "⟦{犬|いぬ}→犬：00632_inu⟧⟦を→を：00422_wo⟧⟦{木|き}→木：00524_ki⟧⟦に→に：00314_ni⟧{縛|しば}り{付|つ}けた。",
       "english": "I tied the dog to a tree.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28372_shibaritsukeru_ex2",
-      "japanese": "{家事|かじ}に{縛|しば}り{付|つ}けられたくない。",
+      "japanese": "⟦{家事|かじ}→家事：12313_kaji⟧⟦に→に：00314_ni⟧{縛|しば}り{付|つ}けられたく⟦ない→ない：01118_nai⟧。",
       "english": "I don't want to be tied down by housework.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28372_shibaritsukeru_ex3",
-      "japanese": "{荷物|にもつ}が{動|うご}かないよう、ロープで{荷台|にだい}にしっかり{縛|しば}り{付|つ}けた。",
+      "japanese": "⟦{荷物|にもつ}→荷物：00737_nimotsu⟧⟦が→が：00051_ga⟧⟦{動|うご}かない→動く：00904_ugoku⟧よう、⟦ロープ→ロープ：27860_roopu⟧⟦で→で：00502_de⟧⟦{荷台|にだい}→荷台：14125_nidai⟧⟦に→に：00314_ni⟧⟦しっかり→しっかり：01272_shikkari⟧{縛|しば}り{付|つ}けた。",
       "english": "I tied the load firmly to the bed of the truck with rope so it wouldn't shift.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {縛|しば}る (to tie) + {付|つ}ける (to attach). The {付|つ}ける component emphasizes attachment to a specific point, distinguishing it from {縛|しば}る alone.\n\nTRANSITIVITY:\nTransitive. Takes the thing being tied as を and the anchor point as に: AをBに{縛|しば}り{付|つ}ける.\n\nCOMMON COLLOCATIONS:\n- {木|き}に{縛|しば}り{付|つ}ける: tie to a tree\n- {椅子|いす}に{縛|しば}り{付|つ}ける: tie to a chair\n- ロープで{縛|しば}り{付|つ}ける: tie down with a rope\n- {仕事|しごと}に{縛|しば}り{付|つ}けられる: be tied down by work (figurative)\n\nSIMILAR WORDS:\n- {縛|しば}る: tie; bind — does not require an anchor point\n- {固定|こてい}する: fix in place — more neutral, no implication of restraint",
+  "notes": "Compound of ⟦{縛|しば}る→縛る：03925_shibaru⟧ (to tie) + ⟦{付|つ}ける→付ける：00761_tsukeru⟧ (to attach). The ⟦{付|つ}ける→付ける：00761_tsukeru⟧ component emphasizes attachment to a specific point, distinguishing it from ⟦{縛|しば}る→縛る：03925_shibaru⟧ alone.\n\nTRANSITIVITY:\nTransitive. Takes the thing being tied as ⟦を→を：00422_wo⟧ and the anchor point as ⟦に→に：00314_ni⟧: A⟦を→を：00422_wo⟧B⟦に→に：00314_ni⟧{縛|しば}り{付|つ}ける.\n\nCOMMON COLLOCATIONS:\n- ⟦{木|き}→木：00524_ki⟧⟦に→に：00314_ni⟧{縛|しば}り{付|つ}ける: tie to a tree\n- ⟦{椅子|いす}→椅子：00706_isu⟧⟦に→に：00314_ni⟧{縛|しば}り{付|つ}ける: tie to a chair\n- ⟦ロープ→ロープ：27860_roopu⟧⟦で→で：00502_de⟧{縛|しば}り{付|つ}ける: tie down with a rope\n- ⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦に→に：00314_ni⟧{縛|しば}り{付|つ}けられる: be tied down by work (figurative)\n\nSIMILAR WORDS:\n- ⟦{縛|しば}る→縛る：03925_shibaru⟧: tie; bind — does not require an anchor point\n- ⟦{固定|こてい}する→固定する：19647_koteisuru⟧: fix in place — more neutral, no implication of restraint",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03925_shibaru",
+      "reading": "しばる",
+      "headword": "{縛|しば}る",
+      "label": "tie"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19647_koteisuru",
+      "reading": "こていする",
+      "headword": "{固定|こてい}する",
+      "label": "fix in place"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +69,7 @@
         "verb-ichidan"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "action"
       ],
@@ -62,7 +78,7 @@
       "verb_class": "ichidan"
     },
     "created": "2026-05-29T04:09:30Z",
-    "modified": "2026-08-08T18:34:17Z"
+    "modified": "2026-09-02T04:02:33Z"
   },
   "conjugation": {
     "type": "ichidan",

@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "09027_ayu_ex1",
-      "japanese": "{阿諛|あゆ}{追従|ついしょう}は{嫌|きら}いだ。",
+      "japanese": "{阿諛|あゆ}⟦{追従|ついしょう}→追従：07883_tsuishou⟧⟦は→は：00079_ha⟧⟦{嫌|きら}い→嫌い：02871_kirai⟧だ。",
       "english": "I dislike flattery and sycophancy.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "09027_ayu_ex2",
-      "japanese": "{彼|かれ}は{上司|じょうし}に{阿諛|あゆ}ばかりしている。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{上司|じょうし}→上司：03286_joushi⟧⟦に→に：00314_ni⟧{阿諛|あゆ}⟦ばかり→〜ばかり：02006_bakari⟧⟦している→する：00392_suru⟧。",
       "english": "He does nothing but flatter his superiors.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "09027_ayu_ex3",
-      "japanese": "{阿諛|あゆ}を{弄|ろう}する{者|もの}は{信用|しんよう}できない。",
+      "japanese": "{阿諛|あゆ}⟦を→を：00422_wo⟧{弄|ろう}する⟦{者|もの}→者：12734_mono⟧⟦は→は：00079_ha⟧⟦{信用|しんよう}できない→信用する：25371_shinyousuru⟧。",
       "english": "Those who resort to flattery cannot be trusted.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{阿諛|あゆ} is a literary term for insincere flattery.\n\nUSAGE:\n- Formal, literary word\n- Always carries negative connotations\n- Often appears in the four-character compound {阿諛|あゆ}{追従|ついしょう} (flattery and sycophancy)\n\nCOMMON COLLOCATIONS:\n- {阿諛|あゆ}{追従|ついしょう}: flattery and sycophancy\n- {阿諛|あゆ}を{弄|ろう}する: to resort to flattery\n- {阿諛|あゆ}{諂|へつら}い: flattery and obsequiousness\n\nRELATED WORDS:\n- {媚|こ}びる: to fawn, curry favor (verb, more common)\n- {追従|ついしょう}: sycophancy, following obsequiously",
+  "notes": "{阿諛|あゆ} is a literary term for insincere flattery.\n\nUSAGE:\n- Formal, literary word\n- Always carries negative connotations\n- Often appears in the four-character compound {阿諛|あゆ}⟦{追従|ついしょう}→追従：07883_tsuishou⟧ (flattery and sycophancy)\n\nCOMMON COLLOCATIONS:\n- {阿諛|あゆ}⟦{追従|ついしょう}→追従：07883_tsuishou⟧: flattery and sycophancy\n- {阿諛|あゆ}⟦を→を：00422_wo⟧{弄|ろう}する: to resort to flattery\n- {阿諛|あゆ}{諂|へつら}い: flattery and obsequiousness\n\nRELATED WORDS:\n- ⟦{媚|こ}びる→媚びる：09028_kobiru⟧: to fawn, curry favor (verb, more common)\n- ⟦{追従|ついしょう}→追従：07883_tsuishou⟧: sycophancy, following obsequiously",
   "cross_references": [
     {
       "type": "related",
@@ -51,11 +51,18 @@
       "reading": "こびる",
       "headword": "{媚|こ}びる",
       "label": "to flatter (verb)"
+    },
+    {
+      "type": "related",
+      "target_id": "07883_tsuishou",
+      "reading": "ついしょう",
+      "headword": "{追従|ついしょう}",
+      "label": "sycophancy, following obsequiously"
     }
   ],
   "metadata": {
     "created": "2026-01-30T23:01:41Z",
-    "modified": "2026-08-12T21:25:53Z",
+    "modified": "2026-09-02T04:01:17Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

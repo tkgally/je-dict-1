@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "10351_shikameru_ex1",
-      "japanese": "{顔|かお}をしかめた。",
+      "japanese": "⟦{顔|かお}→顔：00558_kao⟧⟦を→を：00422_wo⟧しかめた。",
       "english": "He grimaced.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "10351_shikameru_ex2",
-      "japanese": "{苦|にが}い{薬|くすり}を{飲|の}んで、{顔|かお}をしかめた。",
+      "japanese": "⟦{苦|にが}い→苦い：01201_nigai⟧⟦{薬|くすり}→薬：00793_kusuri⟧⟦を→を：00422_wo⟧⟦{飲|の}んで→飲む：00322_nomu⟧、⟦{顔|かお}→顔：00558_kao⟧⟦を→を：00422_wo⟧しかめた。",
       "english": "She grimaced after taking the bitter medicine.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "10351_shikameru_ex3",
-      "japanese": "{上司|じょうし}はその{報告|ほうこく}を{聞|き}いて{眉|まゆ}をしかめ、しばらく{黙|だま}り{込|こ}んだ。",
+      "japanese": "⟦{上司|じょうし}→上司：03286_joushi⟧⟦は→は：00079_ha⟧⟦その→その：00993_sono⟧⟦{報告|ほうこく}→報告：03618_houkoku⟧⟦を→を：00422_wo⟧⟦{聞|き}いて→聞く：00483_kiku⟧⟦{眉|まゆ}→眉：04267_mayu⟧⟦を→を：00422_wo⟧しかめ、⟦しばらく→しばらく：01267_shibaraku⟧⟦{黙|だま}り{込|こ}んだ→黙り込む：18270_damarikomu⟧。",
       "english": "The boss knit his brows upon hearing the report and fell silent for a while.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY:\n- Type: {他動詞|たどうし} (transitive)\n\nCOMMON PATTERNS:\nAlmost always used with {顔|かお} or {眉|まゆ} as the direct object:\n- {顔|かお}をしかめる: to grimace, to make a face\n- {眉|まゆ}をしかめる: to furrow one's brows, to frown\n\nWHAT IT EXPRESSES:\n- {痛|いた}み: pain\n- {不快感|ふかいかん}: displeasure, disgust\n- {困惑|こんわく}: bewilderment\n- {集中|しゅうちゅう}: deep concentration\n\nASPECT (ている):\n{顔|かお}をしかめている describes the ongoing state of having a grimace on one's face.\n\nSIMILAR EXPRESSIONS:\n- {眉間|みけん}にしわを{寄|よ}せる: to furrow one's brow (similar, slightly more literary)\n- {渋|しぶ}い{顔|かお}をする: to make a sour face\n- にらむ: to glare (more aggressive)",
+  "notes": "TRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n\nCOMMON PATTERNS:\nAlmost always used with ⟦{顔|かお}→顔：00558_kao⟧ or ⟦{眉|まゆ}→眉：04267_mayu⟧ as the direct object:\n- ⟦{顔|かお}→顔：00558_kao⟧⟦を→を：00422_wo⟧しかめる: to grimace, to make a face\n- ⟦{眉|まゆ}→眉：04267_mayu⟧⟦を→を：00422_wo⟧しかめる: to furrow one's brows, to frown\n\nWHAT IT EXPRESSES:\n- ⟦{痛|いた}み→痛み：01795_itami⟧: pain\n- ⟦{不快感|ふかいかん}→不快感：15750_fukaikan⟧: displeasure, disgust\n- ⟦{困惑|こんわく}→困惑：09170_konwaku⟧: bewilderment\n- ⟦{集中|しゅうちゅう}→集中：03212_shuuchuu⟧: deep concentration\n\nASPECT (ている):\n⟦{顔|かお}→顔：00558_kao⟧⟦を→を：00422_wo⟧しかめて⟦いる→いる：00495_iru⟧ describes the ongoing state of having a grimace on one's face.\n\nSIMILAR WORDS:\n- ⟦{眉間|みけん}→眉間：08540_miken⟧⟦に→に：00314_ni⟧しわ⟦を→を：00422_wo⟧⟦{寄|よ}せる→寄せる：02329_yoseru⟧: to furrow one's brow (similar, slightly more literary)\n- ⟦{渋|しぶ}い→渋い：06820_shibui⟧⟦{顔|かお}→顔：00558_kao⟧⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧: to make a sour face\n- にらむ: to glare (more aggressive)",
   "cross_references": [
     {
       "type": "related",
@@ -142,11 +142,18 @@
       "reading": "まゆをひそめる",
       "headword": "{眉|まゆ}をひそめる",
       "label": "to frown in disapproval (more literary)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02136_niramu",
+      "reading": "にらむ",
+      "headword": "{睨|にら}む",
+      "label": "to glare"
     }
   ],
   "metadata": {
     "created": "2026-02-07T06:48:21Z",
-    "modified": "2026-08-14T01:00:44Z",
+    "modified": "2026-09-02T04:01:20Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
@@ -155,6 +162,7 @@
       "transitivity": "transitive",
       "verb_class": "ichidan",
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "body-action",
         "emotion"

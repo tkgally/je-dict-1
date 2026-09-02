@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "15919_suisangyou_ex1",
-      "japanese": "{日本|にほん}の{水産業|すいさんぎょう}は{世界的|せかいてき}に{有名|ゆうめい}だ。",
+      "japanese": "⟦{日本|にほん}→日本：03876_nihon⟧⟦の→の：09472_no⟧{水産業|すいさんぎょう}⟦は→は：00079_ha⟧⟦{世界的|せかいてき}→世界的：20935_sekaiteki⟧⟦に→に：00314_ni⟧⟦{有名|ゆうめい}→有名：01106_yuumei⟧だ。",
       "english": "Japan's fishing industry is world-famous.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "15919_suisangyou_ex2",
-      "japanese": "{水産業|すいさんぎょう}に{従事|じゅうじ}する{人|ひと}が{減|へ}っている。",
+      "japanese": "{水産業|すいさんぎょう}⟦に→に：00314_ni⟧⟦{従事|じゅうじ}→従事：12562_juuji⟧⟦する→する：00392_suru⟧⟦{人|ひと}→人：00476_hito⟧⟦が→が：00051_ga⟧⟦{減|へ}っている→減る：01985_heru⟧。",
       "english": "The number of people working in the fisheries industry is declining.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "15919_suisangyou_ex3",
-      "japanese": "{地球|ちきゅう}{温暖化|おんだんか}による{海水温|かいすいおん}の{上昇|じょうしょう}が{水産業|すいさんぎょう}に{深刻|しんこく}な{影響|えいきょう}を{与|あた}えている。",
+      "japanese": "⟦{地球|ちきゅう}{温暖化|おんだんか}→地球温暖化：18873_chikyuuondanka⟧⟦による→による：28349_niyoru⟧{海水温|かいすいおん}⟦の→の：09472_no⟧⟦{上昇|じょうしょう}→上昇：11296_joushou⟧⟦が→が：00051_ga⟧{水産業|すいさんぎょう}⟦に→に：00314_ni⟧⟦{深刻|しんこく}→深刻：01567_shinkoku⟧な⟦{影響|えいきょう}→影響：01877_eikyou⟧⟦を→を：00422_wo⟧⟦{与|あた}えている→与える：01821_ataeru⟧。",
       "english": "Rising sea temperatures due to global warming are having a serious impact on the fisheries industry.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,26 @@
       ]
     }
   ],
-  "notes": "USAGE: {水産業|すいさんぎょう} covers all aspects of the fishing and aquaculture industry, including catching, farming, processing, and selling marine products. Japan, as an island nation, has historically had one of the world's largest fishing industries.\n\nCOMMON COLLOCATIONS:\n- {水産業|すいさんぎょう}に{従事|じゅうじ}する: to work in the fisheries industry\n- {水産業|すいさんぎょう}の{振興|しんこう}: promotion of the fishing industry\n- {水産業|すいさんぎょう}{関係者|かんけいしゃ}: fisheries industry workers/stakeholders\n\nThe word is a compound of {水産|すいさん} (marine products, fisheries) and {業|ぎょう} (industry, business).",
-  "cross_references": [],
+  "notes": "USAGE: {水産業|すいさんぎょう} covers all aspects of the fishing and aquaculture industry, including catching, farming, processing, and selling marine products. Japan, as an island nation, has historically had one of the world's largest fishing industries.\n\nCOMMON COLLOCATIONS:\n- {水産業|すいさんぎょう}⟦に→に：00314_ni⟧⟦{従事|じゅうじ}→従事：12562_juuji⟧⟦する→する：00392_suru⟧: to work in the fisheries industry\n- {水産業|すいさんぎょう}⟦の→の：09472_no⟧⟦{振興|しんこう}→振興：00471_shinkou⟧: promotion of the fishing industry\n- {水産業|すいさんぎょう}⟦{関係者|かんけいしゃ}→関係者：16441_kankeisha⟧: fisheries industry workers/stakeholders\n\nThe word is a compound of ⟦{水産|すいさん}→水産：04290_suisan⟧ (marine products, fisheries) and {業|ぎょう} (industry, business).",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20496_gyogyou",
+      "reading": "ぎょぎょう",
+      "headword": "{漁業|ぎょぎょう}",
+      "label": "fishing industry"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26409_suisankakou",
+      "reading": "すいさんかこう",
+      "headword": "{水産|すいさん}{加工|かこう}",
+      "label": "seafood processing"
+    }
+  ],
   "metadata": {
     "created": "2026-03-08T14:05:51Z",
-    "modified": "2026-07-18T04:02:53Z",
+    "modified": "2026-09-02T04:01:43Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

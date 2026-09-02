@@ -14,30 +14,36 @@
   "examples": [
     {
       "id": "10234_ingen_ex1",
-      "japanese": "インゲンを{茹|ゆ}でる。",
+      "japanese": "インゲン⟦を→を：00422_wo⟧⟦{茹|ゆ}でる→茹でる：02324_yuderu⟧。",
       "english": "Boil the green beans.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10234_ingen_ex2",
-      "japanese": "インゲンの{胡麻和|ごまあ}えを{作|つく}った。",
+      "japanese": "インゲン⟦の→の：09472_no⟧{胡麻和|ごまあ}え⟦を→を：00422_wo⟧⟦{作|つく}った→作る：00481_tsukuru⟧。",
       "english": "I made green beans with sesame dressing.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10234_ingen_ex3",
-      "japanese": "インゲンは{筋|すじ}を{取|と}ってから{調理|ちょうり}する。",
+      "japanese": "インゲン⟦は→は：00079_ha⟧⟦{筋|すじ}→筋：03366_suji⟧⟦を→を：00422_wo⟧⟦{取|と}って→取る：00565_toru⟧⟦から→から：00504_kara⟧⟦{調理|ちょうり}する→調理する：26793_chourisuru⟧。",
       "english": "Remove the strings from green beans before cooking.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "インゲン is short for インゲン{豆|まめ} (string beans/green beans). Named after the monk {隠元|いんげん} who is said to have brought them from China in the 17th century.\n\nKANJI:\nUsually written in katakana. The kanji form {隠元|いんげん} exists but is rarely used for the vegetable.\n\nCOMMON DISHES:\n- インゲンの{胡麻和|ごまあ}え: green beans with sesame dressing\n- {肉巻|にくま}きインゲン: meat-wrapped green beans\n- インゲンの{天|てん}ぷら: green bean tempura\n- インゲンの{煮物|にもの}: simmered green beans\n\nPREPARATION:\nBefore cooking, the {筋|すじ} (strings) are typically removed by snapping the ends. Common cooking methods include {茹|ゆ}でる (boiling) and {炒|いた}める (stir-frying).\n\nRELATED:\n- {枝豆|えだまめ}: edamame (soybeans)\n- {豆|まめ}: beans (general)",
+  "notes": "インゲン is short for インゲン{豆|まめ} (string beans/green beans). Named after the monk {隠元|いんげん} who is said to have brought them from China in the 17th century.\n\nWRITING:\nUsually written in katakana. The kanji form {隠元|いんげん} exists but is rarely used for the vegetable.\n\nCOMMON DISHES:\n- インゲン⟦の→の：09472_no⟧{胡麻和|ごまあ}え: green beans with sesame dressing\n- {肉巻|にくま}きインゲン: meat-wrapped green beans\n- インゲン⟦の→の：09472_no⟧⟦{天|てん}ぷら→天ぷら：04948_tenpura⟧: green bean tempura\n- インゲン⟦の→の：09472_no⟧⟦{煮物|にもの}→煮物：04971_nimono⟧: simmered green beans\n\nPREPARATION:\nBefore cooking, the ⟦{筋|すじ}→筋：03366_suji⟧ (strings) are typically removed by snapping the ends. Common cooking methods include ⟦{茹|ゆ}でる→茹でる：02324_yuderu⟧ (boiling) and ⟦{炒|いた}める→炒める：01879_itameru⟧ (stir-frying).\n\nRELATED WORDS:\n- ⟦{枝豆|えだまめ}→枝豆：21197_edamame⟧: edamame (soybeans)\n- ⟦{豆|まめ}→豆：03738_mame⟧: beans (general)",
   "cross_references": [
     {
       "type": "related",
@@ -45,17 +51,28 @@
       "reading": "えだまめ",
       "headword": "{枝豆|えだまめ}",
       "label": "edamame (another bean)"
+    },
+    {
+      "type": "related",
+      "target_id": "03738_mame",
+      "reading": "まめ",
+      "headword": "{豆|まめ}",
+      "label": "beans"
     }
   ],
   "metadata": {
     "created": "2026-02-05T14:29:50Z",
-    "modified": "2026-04-24T05:32:11Z",
+    "modified": "2026-09-02T04:01:20Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food"]
+      "semantic": [
+        "food"
+      ]
     }
   }
 }

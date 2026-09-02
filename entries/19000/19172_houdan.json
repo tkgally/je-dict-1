@@ -15,40 +15,66 @@
   "examples": [
     {
       "id": "19172_houdan_ex1",
-      "japanese": "{砲弾|ほうだん}が{飛|と}んできた。",
+      "japanese": "{砲弾|ほうだん}⟦が→が：00051_ga⟧⟦{飛|と}んで→飛ぶ：00759_tobu⟧きた。",
       "english": "A shell came flying in.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19172_houdan_ex2",
-      "japanese": "{不発弾|ふはつだん}の{砲弾|ほうだん}が{工事現場|こうじげんば}で{見|み}つかった。",
+      "japanese": "{不発弾|ふはつだん}⟦の→の：09472_no⟧{砲弾|ほうだん}⟦が→が：00051_ga⟧⟦{工事現場|こうじげんば}→工事現場：26202_koujigenba⟧⟦で→で：00502_de⟧⟦{見|み}つかった→見つかる：01173_mitsukaru⟧。",
       "english": "An unexploded shell was found at the construction site.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19172_houdan_ex3",
-      "japanese": "{戦時中|せんじちゅう}、この{町|まち}には{何百発|なんびゃっぱつ}もの{砲弾|ほうだん}が{撃|う}ち{込|こ}まれた。",
+      "japanese": "⟦{戦時中|せんじちゅう}→戦時中：28629_senjichuu⟧、⟦この→この：00962_kono⟧⟦{町|まち}→町：00613_machi⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{何百発|なんびゃっぱつ}⟦も→も：00484_mo⟧⟦の→の：09472_no⟧{砲弾|ほうだん}⟦が→が：00051_ga⟧{撃|う}ち{込|こ}まれた。",
       "english": "During the war, hundreds of shells were fired into this town.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {砲|ほう} (cannon, artillery) + {弾|だん} (bullet, projectile). Common collocations: {砲弾|ほうだん}が{着弾|ちゃくだん}する (a shell lands/hits), {砲弾|ほうだん}を{撃|う}ち{込|こ}む (to fire shells into), {砲弾|ほうだん}の{雨|あめ} (a rain of shells). In Japan, {不発弾|ふはつだん} (unexploded ordnance) from World War II are still occasionally found during construction, especially in Okinawa. The counter for shells is {発|はつ}: {一発|いっぱつ}の{砲弾|ほうだん} (one shell).",
+  "notes": "Composed of {砲|ほう} (cannon, artillery) + {弾|だん} (bullet, projectile). Common collocations: {砲弾|ほうだん}⟦が→が：00051_ga⟧⟦{着弾|ちゃくだん}→着弾：24807_chakudan⟧⟦する→する：00392_suru⟧ (a shell lands/hits), {砲弾|ほうだん}⟦を→を：00422_wo⟧{撃|う}ち{込|こ}む (to fire shells into), {砲弾|ほうだん}⟦の→の：09472_no⟧⟦{雨|あめ}→雨：00583_ame⟧ (a rain of shells). In Japan, {不発弾|ふはつだん} (unexploded ordnance) from World War II are still occasionally found during construction, especially in Okinawa. The counter for shells is ⟦{発|はつ}→〜発：04026_hatsu⟧: ⟦{一発|いっぱつ}→一発：08895_ippatsu⟧⟦の→の：09472_no⟧{砲弾|ほうだん} (one shell).",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "20108_danyaku",
+      "reading": "だんやく",
+      "headword": "{弾薬|だんやく}",
+      "label": "ammunition"
+    },
+    {
+      "type": "related",
+      "target_id": "26959_misairu",
+      "reading": "みさいる",
+      "headword": "ミサイル",
+      "label": "missile"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["tool"]
+      "semantic": [
+        "tool"
+      ]
     },
     "created": "2026-03-24T11:31:16Z",
-    "modified": "2026-03-24T11:31:16Z"
+    "modified": "2026-09-02T04:01:55Z"
   }
 }

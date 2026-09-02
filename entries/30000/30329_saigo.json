@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30329_saigo_ex1",
-      "japanese": "{立派|りっぱ}な{最期|さいご}だった。",
+      "japanese": "⟦{立派|りっぱ}→立派：01093_rippa⟧な{最期|さいご}だった。",
       "english": "It was an admirable death.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30329_saigo_ex2",
-      "japanese": "{父|ちち}の{最期|さいご}を{看取|みと}ることができた。",
+      "japanese": "⟦{父|ちち}→父：00566_chichi⟧⟦の→の：09472_no⟧{最期|さいご}⟦を→を：00422_wo⟧⟦{看取|みと}る→看取る：20215_mitoru⟧こと⟦が→が：00051_ga⟧⟦できた→できる：00557_dekiru⟧。",
       "english": "I was able to be at my father's side at the end.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30329_saigo_ex3",
-      "japanese": "{彼|かれ}は{最期|さいご}の{瞬間|しゅんかん}まで、{家族|かぞく}のことを{気|き}にかけていた。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{最期|さいご}⟦の→の：09472_no⟧⟦{瞬間|しゅんかん}→瞬間：03226_shunkan⟧⟦まで→まで：00490_made⟧、⟦{家族|かぞく}→家族：00552_kazoku⟧⟦の→の：09472_no⟧こと⟦を→を：00422_wo⟧⟦{気|き}→気：02199_ki⟧⟦にかけて→〜にかけて：30530_nikakete⟧⟦いた→いる：00495_iru⟧。",
       "english": "Right up to his final moment, he was concerned about his family.",
       "sense_numbers": [
         1
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "Homophone of {最後|さいご} (the last one, the end) but not interchangeable: {最期|さいご} is only about the end of a life. Writing ✗{最後|さいご}を{看取|みと}る for a deathbed is a common kanji mistake.\n\nCOMMON COLLOCATIONS:\n- {最期|さいご}を{看取|みと}る: to be with someone when they die\n- {最期|さいご}を{遂|と}げる: to meet one's end (in a particular way)\n- {最期|さいご}の{言葉|ことば}: last words\n- {悲惨|ひさん}な{最期|さいご}: a tragic end\n\nSIMILAR WORDS:\n- {最後|さいご}: the last, the end — general-purpose; use for anything other than dying\n- {臨終|りんじゅう}: one's dying hour — more formal and clinical, used in medical and religious contexts",
+  "notes": "Homophone of ⟦{最後|さいご}→最後：01413_saigo⟧ (the last one, the end) but not interchangeable: {最期|さいご} is only about the end of a life. Writing ✗⟦{最後|さいご}→最後：01413_saigo⟧⟦を→を：00422_wo⟧⟦{看取|みと}る→看取る：20215_mitoru⟧ for a deathbed is a common kanji mistake.\n\nCOMMON COLLOCATIONS:\n- {最期|さいご}⟦を→を：00422_wo⟧⟦{看取|みと}る→看取る：20215_mitoru⟧: to be with someone when they die\n- {最期|さいご}⟦を→を：00422_wo⟧⟦{遂|と}げる→遂げる：14323_togeru⟧: to meet one's end (in a particular way)\n- {最期|さいご}⟦の→の：09472_no⟧⟦{言葉|ことば}→言葉：02880_kotoba⟧: last words\n- ⟦{悲惨|ひさん}→悲惨：12633_hisan⟧な{最期|さいご}: a tragic end\n\nSIMILAR WORDS:\n- ⟦{最後|さいご}→最後：01413_saigo⟧: the last, the end — general-purpose; use for anything other than dying\n- ⟦{臨終|りんじゅう}→臨終：24198_rinjuu⟧: one's dying hour — more formal and clinical, used in medical and religious contexts",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "homophone",
+      "target_id": "01413_saigo",
+      "reading": "さいご",
+      "headword": "{最後|さいご}",
+      "label": "the last, the end"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24198_rinjuu",
+      "reading": "りんじゅう",
+      "headword": "{臨終|りんじゅう}",
+      "label": "one's dying hour"
+    },
+    {
+      "type": "related",
+      "target_id": "09991_matsuro",
+      "reading": "まつろ",
+      "headword": "{末路|まつろ}",
+      "label": "end, fate, downfall"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13839_shuuen",
+      "reading": "しゅうえん",
+      "headword": "{終焉|しゅうえん}",
+      "label": "end, demise, termination"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +83,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "time-general",
         "health"
@@ -61,6 +91,6 @@
       "domain": []
     },
     "created": "2026-08-02T09:20:18Z",
-    "modified": "2026-08-02T09:20:18Z"
+    "modified": "2026-09-02T04:02:39Z"
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28329_baratsuki_ex1",
-      "japanese": "{結果|けっか}にばらつきがある。",
+      "japanese": "⟦{結果|けっか}→結果：02486_kekka⟧⟦に→に：00314_ni⟧ばらつき⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There is variation in the results.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28329_baratsuki_ex2",
-      "japanese": "{品質|ひんしつ}のばらつきを{減|へ}らす{必要|ひつよう}がある。",
+      "japanese": "⟦{品質|ひんしつ}→品質：09507_hinshitsu⟧⟦の→の：09472_no⟧ばらつき⟦を→を：00422_wo⟧⟦{減|へ}らす→減らす：02414_herasu⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "We need to reduce the variation in quality.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28329_baratsuki_ex3",
-      "japanese": "{学生|がくせい}たちの{成績|せいせき}にはばらつきが{大|おお}きく、{平均点|へいきんてん}だけでは{実態|じったい}が{分|わ}からない。",
+      "japanese": "⟦{学生|がくせい}→学生：00610_gakusei⟧たち⟦の→の：09472_no⟧⟦{成績|せいせき}→成績：03379_seiseki⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧ばらつき⟦が→が：00051_ga⟧⟦{大|おお}きく→大きい：00335_ookii⟧、⟦{平均点|へいきんてん}→平均点：21466_heikinten⟧⟦だけ→〜だけ：03093_dake⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{実態|じったい}→実態：10567_jittai⟧⟦が→が：00051_ga⟧⟦{分|わ}からない→分かる：00463_wakaru⟧。",
       "english": "There is large variation in the students' grades, so the average alone doesn't show the real picture.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Noun form of the verb ばらつく (to be scattered, vary). Usually written in hiragana even in technical contexts.\n\nCOMMON COLLOCATIONS:\n- ばらつきがある: there is variation\n- ばらつきが{大|おお}きい: variation is large\n- ばらつきを{抑|おさ}える: to suppress variation\n- {品質|ひんしつ}のばらつき: variation in quality\n- データのばらつき: scatter in the data\n\nSIMILAR WORDS:\n- {差|さ}: difference — between two specific things, not spread across many\n- むら: unevenness — broader and more colloquial; often for color, mood, work\n- {分散|ぶんさん}: variance (statistical) — the formal mathematical measure",
+  "notes": "Noun form of the verb ばらつく (to be scattered, vary). Usually written in hiragana even in technical contexts.\n\nCOMMON COLLOCATIONS:\n- ばらつき⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧: there is variation\n- ばらつき⟦が→が：00051_ga⟧⟦{大|おお}きい→大きい：00335_ookii⟧: variation is large\n- ばらつき⟦を→を：00422_wo⟧⟦{抑|おさ}える→抑える：12806_osaeru⟧: to suppress variation\n- ⟦{品質|ひんしつ}→品質：09507_hinshitsu⟧⟦の→の：09472_no⟧ばらつき: variation in quality\n- ⟦データ→データ：03944_deeta⟧⟦の→の：09472_no⟧ばらつき: scatter in the data\n\nSIMILAR WORDS:\n- ⟦{差|さ}→差：02771_sa⟧: difference — between two specific things, not spread across many\n- むら: unevenness — broader and more colloquial; often for color, mood, work\n- ⟦{分散|ぶんさん}→分散：18624_bunsan⟧: variance (statistical) — the formal mathematical measure",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02771_sa",
+      "reading": "さ",
+      "headword": "{差|さ}",
+      "label": "difference"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02261_mura",
+      "reading": "むら",
+      "headword": "{村|むら}",
+      "label": "unevenness"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18624_bunsan",
+      "reading": "ぶんさん",
+      "headword": "{分散|ぶんさん}",
+      "label": "variance"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +76,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "quantity",
         "abstract"
@@ -61,6 +84,6 @@
       "domain": []
     },
     "created": "2026-05-29T02:15:17Z",
-    "modified": "2026-08-08T03:27:39Z"
+    "modified": "2026-09-02T04:02:33Z"
   }
 }

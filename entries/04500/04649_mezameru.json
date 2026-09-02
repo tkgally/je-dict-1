@@ -2,7 +2,7 @@
   "id": "04649_mezameru",
   "headword": "{目覚|めざ}める",
   "reading": "めざめる",
-  "part_of_speech": "ichidan verb",
+  "part_of_speech": "verb (ichidan)",
   "gloss": "to wake up, to awaken",
   "conjugation": {
     "type": "ichidan",
@@ -208,18 +208,53 @@
       ]
     }
   ],
-  "notes": "{目覚|めざ}める is an intransitive verb (⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧) meaning to wake up or awaken.\n\nCOMPOUND STRUCTURE:\n- ⟦{目|め}→目：00525_me⟧ (eye) + ⟦{覚|さ}める→覚める：02058_sameru⟧ (to become aware) → eyes become aware/open\n\nASPECT (ている):\n{目覚|めざ}めている indicates a state of being awake.\n\nCOMMON PATTERNS:\n- ⟦{朝|あさ}→朝：02277_asa⟧{目覚|めざ}める (wake up in the morning)\n- ～⟦に→に：00314_ni⟧{目覚|めざ}める (awaken to~, become aware of~)\n- ⟦{才能|さいのう}→才能：02772_sainou⟧⟦に→に：00314_ni⟧{目覚|めざ}める (awaken to one's talent)\n- ⟦{愛|あい}→愛：02370_ai⟧⟦に→に：00314_ni⟧{目覚|めざ}める (awaken to love)\n\nRELATED WORDS:\n- ⟦{目覚|めざ}まし→目覚まし：08550_mezamashi⟧: alarm clock (⟦{目覚|めざ}まし{時計|どけい}→目覚まし時計：03159_mezamashidokei⟧)\n- ⟦{目覚|めざ}め→目覚め：13676_mezame⟧: awakening (noun)\n\nSIMILAR WORDS:\n- ⟦{起|お}きる→起きる：00521_okiru⟧: to get up (focuses on getting out of bed)\n- {目覚|めざ}める focuses on the transition from sleep to wakefulness",
+  "notes": "{目覚|めざ}める is an intransitive verb (⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧) meaning to wake up or awaken.\n\nETYMOLOGY:\n- ⟦{目|め}→目：00525_me⟧ (eye) + ⟦{覚|さ}める→覚める：02058_sameru⟧ (to become aware) → eyes become aware/open\n\nASPECT (ている):\n{目覚|めざ}めて⟦いる→いる：00495_iru⟧ indicates a state of being awake.\n\nCOMMON PATTERNS:\n- ⟦{朝|あさ}→朝：02277_asa⟧{目覚|めざ}める (wake up in the morning)\n- ～⟦に→に：00314_ni⟧{目覚|めざ}める (awaken to~, become aware of~)\n- ⟦{才能|さいのう}→才能：02772_sainou⟧⟦に→に：00314_ni⟧{目覚|めざ}める (awaken to one's talent)\n- ⟦{愛|あい}→愛：02370_ai⟧⟦に→に：00314_ni⟧{目覚|めざ}める (awaken to love)\n\nRELATED WORDS:\n- ⟦{目覚|めざ}まし→目覚まし：08550_mezamashi⟧: alarm clock (⟦{目覚|めざ}まし{時計|どけい}→目覚まし時計：03159_mezamashidokei⟧)\n- ⟦{目覚|めざ}め→目覚め：13676_mezame⟧: awakening (noun)\n\nSIMILAR WORDS:\n- ⟦{起|お}きる→起きる：00521_okiru⟧: to get up (focuses on getting out of bed)\n- {目覚|めざ}める focuses on the transition from sleep to wakefulness",
   "cross_references": [
     {
       "type": "antonym",
       "reading": "ねつく",
       "label": "to fall asleep",
       "target_id": "04646_netsuku"
+    },
+    {
+      "type": "related",
+      "target_id": "08550_mezamashi",
+      "reading": "めざまし",
+      "headword": "{目覚|めざ}まし",
+      "label": "alarm clock"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00521_okiru",
+      "reading": "おきる",
+      "headword": "{起|お}きる",
+      "label": "to get up"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18537_kakuseisuru",
+      "reading": "かくせいする",
+      "headword": "{覚醒|かくせい}する",
+      "label": "to awaken"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23498_megasameru",
+      "reading": "めがさめる",
+      "headword": "{目|め}が{覚|さ}める",
+      "label": "to wake up"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26079_mewosamasu",
+      "reading": "めをさます",
+      "headword": "{目|め}を{覚|さ}ます",
+      "label": "to wake up"
     }
   ],
   "metadata": {
     "created": "2026-01-14T03:52:00Z",
-    "modified": "2026-06-10T17:34:32Z",
+    "modified": "2026-09-02T04:01:05Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

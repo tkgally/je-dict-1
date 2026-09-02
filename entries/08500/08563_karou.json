@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08563_karou_ex1",
-      "japanese": "{過労|かろう}で{倒|たお}れた。",
+      "japanese": "{過労|かろう}⟦で→で：00502_de⟧⟦{倒|たお}れた→倒れる：01160_taoreru⟧。",
       "english": "I collapsed from overwork.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "08563_karou_ex2",
-      "japanese": "{過労|かろう}{死|し}が{社会問題|しゃかいもんだい}になっている。",
+      "japanese": "{過労|かろう}{死|し}⟦が→が：00051_ga⟧⟦{社会問題|しゃかいもんだい}→社会問題：25686_shakaimondai⟧になっている。",
       "english": "Death from overwork has become a social issue.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "08563_karou_ex3",
-      "japanese": "{過労|かろう}にならないように{休息|きゅうそく}を{取|と}ることが{大切|たいせつ}だ。",
+      "japanese": "{過労|かろう}⟦に→に：00314_ni⟧⟦ならない→なる：01970_naru⟧よう⟦に→に：00314_ni⟧⟦{休息|きゅうそく}→休息：02587_kyuusoku⟧⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧こと⟦が→が：00051_ga⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧だ。",
       "english": "It's important to take breaks so you don't become overworked.",
       "sense_numbers": [
         1
@@ -43,7 +43,7 @@
       "notes": null
     }
   ],
-  "notes": "SOCIAL ISSUE:\n{過労|かろう} is a significant social issue in Japan, associated with the intense work culture.\n\nIMPORTANT COMPOUND:\n{過労|かろう}{死|し} (karōshi) - death from overwork. This Japanese term has been adopted internationally to describe work-related deaths caused by:\n- Heart attacks from stress\n- Strokes from exhaustion\n- Suicide due to work pressure\n\nCOMMON COLLOCATIONS:\n- {過労|かろう}で{倒|たお}れる - to collapse from overwork\n- {過労|かろう}{気味|ぎみ} - somewhat overworked\n- {過労|かろう}{死|し} - death from overwork\n- {過労|かろう}{自殺|じさつ} - suicide from overwork\n\nPREVENTION:\n- {働|はたら}き{方改革|かたかいかく} - work style reform (government initiative)\n- {有給休暇|ゆうきゅうきゅうか}の{取得|しゅとく} - taking paid leave\n\nRELATED:\n- {残業|ざんぎょう} - overtime\n- {長時間労働|ちょうじかんろうどう} - long working hours\n- {燃|も}え{尽|つ}き{症候群|しょうこうぐん} - burnout syndrome",
+  "notes": "SOCIAL ISSUE:\n{過労|かろう} is a significant social issue in Japan, associated with the intense work culture.\n\nIMPORTANT COMPOUND:\n{過労|かろう}{死|し} (karōshi) - death from overwork. This Japanese term has been adopted internationally to describe work-related deaths caused by:\n- Heart attacks from stress\n- Strokes from exhaustion\n- Suicide due to work pressure\n\nCOMMON COLLOCATIONS:\n- {過労|かろう}⟦で→で：00502_de⟧⟦{倒|たお}れる→倒れる：01160_taoreru⟧ - to collapse from overwork\n- {過労|かろう}⟦{気味|ぎみ}→気味：27635_gimi⟧ - somewhat overworked\n- {過労|かろう}{死|し} - death from overwork\n- {過労|かろう}⟦{自殺|じさつ}→自殺：03336_jisatsu⟧ - suicide from overwork\n\nPREVENTION:\n- ⟦{働|はたら}き{方改革|かたかいかく}→働き方改革：23313_hatarakikatakaikaku⟧ - work style reform (government initiative)\n- ⟦{有給休暇|ゆうきゅうきゅうか}→有給休暇：06996_yuukyuukyuuka⟧⟦の→の：09472_no⟧⟦{取得|しゅとく}→取得：11947_shutoku⟧ - taking paid leave\n\nRELATED WORDS:\n- ⟦{残業|ざんぎょう}→残業：01071_zangyou⟧ - overtime\n- {長時間労働|ちょうじかんろうどう} - long working hours\n- ⟦{燃|も}え{尽|つ}き{症候群|しょうこうぐん}→燃え尽き症候群：08597_moetsukishoukougun⟧ - burnout syndrome",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -51,13 +51,14 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "health",
         "work"
       ]
     },
     "created": "2026-01-27T11:29:42Z",
-    "modified": "2026-04-20T08:21:42Z"
+    "modified": "2026-09-02T04:01:15Z"
   },
   "cross_references": [
     {
@@ -73,6 +74,34 @@
       "reading": "もえつきしょうこうぐん",
       "headword": "{燃|も}え{尽|つ}き{症候群|しょうこうぐん}",
       "label": "burnout syndrome"
+    },
+    {
+      "type": "related",
+      "target_id": "01071_zangyou",
+      "reading": "ざんぎょう",
+      "headword": "{残業|ざんぎょう}",
+      "label": "overtime"
+    },
+    {
+      "type": "related",
+      "target_id": "08477_saabisuzangyou",
+      "reading": "さーびすざんぎょう",
+      "headword": "サービス{残業|ざんぎょう}",
+      "label": "unpaid overtime"
+    },
+    {
+      "type": "related",
+      "target_id": "28202_hatarakisugi",
+      "reading": "はたらきすぎ",
+      "headword": "{働|はたら}き{過|す}ぎ",
+      "label": "overwork"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30655_jiritsushinkeishicchoushou",
+      "reading": "じりつしんけいしっちょうしょう",
+      "headword": "{自律神経失調症|じりつしんけいしっちょうしょう}",
+      "label": "autonomic nervous system disorder"
     }
   ]
 }

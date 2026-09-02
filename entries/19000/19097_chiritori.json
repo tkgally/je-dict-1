@@ -15,40 +15,59 @@
   "examples": [
     {
       "id": "19097_chiritori_ex1",
-      "japanese": "{箒|ほうき}と{塵取|ちりと}りで{掃除|そうじ}する。",
+      "japanese": "⟦{箒|ほうき}→箒：03910_houki⟧⟦と→と：00512_to⟧{塵取|ちりと}り⟦で→で：00502_de⟧⟦{掃除|そうじ}→掃除：02889_souji⟧⟦する→する：00392_suru⟧。",
       "english": "To clean with a broom and dustpan.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19097_chiritori_ex2",
-      "japanese": "{塵取|ちりと}りでゴミを{集|あつ}めた。",
+      "japanese": "{塵取|ちりと}り⟦で→で：00502_de⟧⟦ゴミ→ゴミ：00840_gomi⟧⟦を→を：00422_wo⟧⟦{集|あつ}めた→集める：01170_atsumeru⟧。",
       "english": "I gathered the trash with a dustpan.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19097_chiritori_ex3",
-      "japanese": "{玄関|げんかん}の{掃除|そうじ}をするので、{箒|ほうき}と{塵取|ちりと}りを{持|も}ってきてください。",
+      "japanese": "⟦{玄関|げんかん}→玄関：05003_genkan⟧⟦の→の：09472_no⟧⟦{掃除|そうじ}→掃除：02889_souji⟧⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧⟦の→の：09472_no⟧で、⟦{箒|ほうき}→箒：03910_houki⟧⟦と→と：00512_to⟧{塵取|ちりと}り⟦を→を：00422_wo⟧⟦{持|も}って→持つ：00478_motsu⟧きて⟦ください→ください：02899_kudasai⟧。",
       "english": "I'm going to clean the entrance, so please bring the broom and dustpan.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A flat scoop used with a broom to collect swept-up dust and debris. Almost always mentioned together with {箒|ほうき} (broom).\n\nFORMATION:\n{塵|ちり} (dust, dirt) + {取|と}り (collecting). Often written in hiragana as ちりとり in everyday contexts.\n\nCOMMON PATTERNS:\n- {箒|ほうき}と{塵取|ちりと}り: broom and dustpan (natural set phrase)\n- {塵取|ちりと}りでゴミを{集|あつ}める: to collect trash with a dustpan\n- {塵取|ちりと}りに{掃|は}き{入|い}れる: to sweep into the dustpan\n\nCULTURAL NOTE:\nStill commonly used in Japanese schools, where students clean their own classrooms ({掃除|そうじ}{当番|とうばん}) with brooms and dustpans rather than vacuum cleaners.",
+  "notes": "A flat scoop used with a broom to collect swept-up dust and debris. Almost always mentioned together with ⟦{箒|ほうき}→箒：03910_houki⟧ (broom).\n\nFORMS:\n⟦{塵|ちり}→塵：12107_chiri⟧ (dust, dirt) + ⟦{取|と}り→取る：00565_toru⟧ (collecting). Often written in hiragana as ちりとり in everyday contexts.\n\nCOMMON PATTERNS:\n- ⟦{箒|ほうき}→箒：03910_houki⟧⟦と→と：00512_to⟧{塵取|ちりと}り: broom and dustpan (natural set phrase)\n- {塵取|ちりと}り⟦で→で：00502_de⟧⟦ゴミ→ゴミ：00840_gomi⟧⟦を→を：00422_wo⟧⟦{集|あつ}める→集める：01170_atsumeru⟧: to collect trash with a dustpan\n- {塵取|ちりと}り⟦に→に：00314_ni⟧⟦{掃|は}き→掃く：04260_haku⟧⟦{入|い}れる→入れる：01098_ireru⟧: to sweep into the dustpan\n\nCULTURAL NOTE:\nStill commonly used in Japanese schools, where students clean their own classrooms (⟦{掃除|そうじ}{当番|とうばん}→掃除当番：14990_soujitouban⟧) with brooms and dustpans rather than vacuum cleaners.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "04408_zoukin",
+      "reading": "ぞうきん",
+      "headword": "{雑巾|ぞうきん}",
+      "label": "cleaning rag, dust cloth"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["tool"]
+      "semantic": [
+        "tool"
+      ]
     },
     "created": "2026-03-24T09:38:00Z",
-    "modified": "2026-03-25T05:40:40Z"
+    "modified": "2026-09-02T04:01:54Z"
   }
 }

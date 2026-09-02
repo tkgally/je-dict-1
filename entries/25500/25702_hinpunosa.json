@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25702_hinpunosa_ex1",
-      "japanese": "{貧富|ひんぷ}の{差|さ}が{広|ひろ}がっている。",
+      "japanese": "{貧富|ひんぷ}の{差|さ}⟦が→が：00051_ga⟧⟦{広|ひろ}がっている→広がる：01980_hirogaru⟧。",
       "english": "The wealth gap is widening.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25702_hinpunosa_ex2",
-      "japanese": "{教育|きょういく}が{貧富|ひんぷ}の{差|さ}を{縮|ちぢ}める{鍵|かぎ}になる。",
+      "japanese": "⟦{教育|きょういく}→教育：01313_kyouiku⟧⟦が→が：00051_ga⟧{貧富|ひんぷ}の{差|さ}⟦を→を：00422_wo⟧⟦{縮|ちぢ}める→縮める：04245_chijimeru⟧⟦{鍵|かぎ}→鍵：02189_kagi⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧。",
       "english": "Education is the key to narrowing the wealth gap.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25702_hinpunosa_ex3",
-      "japanese": "{貧富|ひんぷ}の{差|さ}が{激|はげ}しい{国|くに}では、{社会的|しゃかいてき}な{不安定|ふあんてい}さが{増|ま}す{傾向|けいこう}がある。",
+      "japanese": "{貧富|ひんぷ}の{差|さ}⟦が→が：00051_ga⟧⟦{激|はげ}しい→激しい：02348_hageshii⟧⟦{国|くに}→国：02204_kuni⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧、⟦{社会的|しゃかいてき}→社会的：04791_shakaiteki⟧な⟦{不安定|ふあんてい}→不安定：11318_fuantei⟧さ⟦が→が：00051_ga⟧⟦{増|ま}す→増す：02422_masu⟧⟦{傾向|けいこう}→傾向：02695_keikou⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "In countries with severe wealth gaps, social instability tends to increase.",
       "sense_numbers": [
         1
@@ -44,8 +44,16 @@
       "notes": null
     }
   ],
-  "notes": "{貧富|ひんぷ} (poverty and wealth) + の (possessive) + {差|さ} (difference, gap). A set phrase used in news, politics, and social commentary to discuss economic inequality.\n\nCOMMON COLLOCATIONS:\n- {貧富|ひんぷ}の{差|さ}が{広|ひろ}がる — the wealth gap widens\n- {貧富|ひんぷ}の{差|さ}を{縮|ちぢ}める — narrow the wealth gap\n- {貧富|ひんぷ}の{差|さ}が{激|はげ}しい — the wealth gap is severe\n- {貧富|ひんぷ}の{差|さ}をなくす — eliminate the wealth gap\n\nSIMILAR WORDS:\n- {格差|かくさ} — disparity; gap — broader term covering any kind of gap (income, education, regional)\n- {経済格差|けいざいかくさ} — economic disparity — more formal and precise\n- {所得格差|しょとくかくさ} — income gap — focuses specifically on income rather than overall wealth",
-  "cross_references": [],
+  "notes": "{貧富|ひんぷ} (poverty and wealth) + ⟦の→の：09472_no⟧ (possessive) + ⟦{差|さ}→差：02771_sa⟧ (difference, gap). A set phrase used in news, politics, and social commentary to discuss economic inequality.\n\nCOMMON COLLOCATIONS:\n- {貧富|ひんぷ}の{差|さ}⟦が→が：00051_ga⟧⟦{広|ひろ}がる→広がる：01980_hirogaru⟧ — the wealth gap widens\n- {貧富|ひんぷ}の{差|さ}⟦を→を：00422_wo⟧⟦{縮|ちぢ}める→縮める：04245_chijimeru⟧ — narrow the wealth gap\n- {貧富|ひんぷ}の{差|さ}⟦が→が：00051_ga⟧⟦{激|はげ}しい→激しい：02348_hageshii⟧ — the wealth gap is severe\n- {貧富|ひんぷ}の{差|さ}⟦を→を：00422_wo⟧なくす — eliminate the wealth gap\n\nSIMILAR WORDS:\n- ⟦{格差|かくさ}→格差：04839_kakusa⟧ — disparity; gap — broader term covering any kind of gap (income, education, regional)\n- {経済格差|けいざいかくさ} — economic disparity — more formal and precise\n- {所得格差|しょとくかくさ} — income gap — focuses specifically on income rather than overall wealth",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04839_kakusa",
+      "reading": "かくさ",
+      "headword": "{格差|かくさ}",
+      "label": "disparity"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,12 +61,13 @@
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "society",
         "economics"
       ]
     },
     "created": "2026-04-26T16:28:40Z",
-    "modified": "2026-06-15T07:59:19Z"
+    "modified": "2026-09-02T04:02:23Z"
   }
 }

@@ -14,38 +14,72 @@
   "examples": [
     {
       "id": "08679_gosan_ex1",
-      "japanese": "それは{大|おお}きな{誤算|ごさん}だった。",
+      "japanese": "⟦それ→それ：00994_sore⟧⟦は→は：00079_ha⟧⟦{大|おお}きな→大きな：02849_ookina⟧{誤算|ごさん}だった。",
       "english": "That was a big miscalculation.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "08679_gosan_ex2",
-      "japanese": "{時間|じかん}の{誤算|ごさん}で{遅刻|ちこく}してしまった。",
+      "japanese": "⟦{時間|じかん}→時間：00468_jikan⟧⟦の→の：09472_no⟧{誤算|ごさん}⟦で→で：00502_de⟧⟦{遅刻|ちこく}して→遅刻する：22282_chikokusuru⟧しまった。",
       "english": "I was late due to a miscalculation of time.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "08679_gosan_ex3",
-      "japanese": "{相手|あいて}の{実力|じつりょく}を{見誤|みあやま}ったのが{誤算|ごさん}だった。",
+      "japanese": "⟦{相手|あいて}→相手：01677_aite⟧⟦の→の：09472_no⟧⟦{実力|じつりょく}→実力：03277_jitsuryoku⟧⟦を→を：00422_wo⟧⟦{見誤|みあやま}った→見誤る：19585_miayamaru⟧⟦の→の：09472_no⟧⟦が→が：00051_ga⟧{誤算|ごさん}だった。",
       "english": "Misjudging the opponent's ability was my miscalculation.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "NUANCE:\n{誤算|ごさん} goes beyond numerical errors to include strategic misjudgments and mistaken predictions about outcomes.\n\nCOMMON COLLOCATIONS:\n- {誤算|ごさん}があった - there was a miscalculation\n- {大|おお}きな{誤算|ごさん} - major miscalculation\n- {誤算|ごさん}に{終|お}わる - to end in a miscalculation\n\nRELATED TERMS:\n- {計算|けいさん}{違|ちが}い - calculation error\n- {見込|みこ}み{違|ちが}い - mistaken expectation\n- {判断|はんだん}ミス - judgment error",
+  "notes": "USAGE:\n{誤算|ごさん} goes beyond numerical errors to include strategic misjudgments and mistaken predictions about outcomes.\n\nCOMMON COLLOCATIONS:\n- {誤算|ごさん}⟦が→が：00051_ga⟧⟦あった→ある：00006_aru⟧ - there was a miscalculation\n- ⟦{大|おお}きな→大きな：02849_ookina⟧{誤算|ごさん} - major miscalculation\n- {誤算|ごさん}⟦に→に：00314_ni⟧{終|お}わる - to end in a miscalculation\n\nRELATED WORDS:\n- ⟦{計算|けいさん}{違|ちが}い→計算違い：19241_keisanchigai⟧ - calculation error\n- ⟦{見込|みこ}み{違|ちが}い→見込み違い：22135_mikomichigai⟧ - mistaken expectation\n- ⟦{判断|はんだん}ミス→判断ミス：24517_handanmisu⟧ - judgment error",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "19241_keisanchigai",
+      "reading": "けいさんちがい",
+      "headword": "{計算違|けいさんちが}い",
+      "label": "calculation error"
+    },
+    {
+      "type": "related",
+      "target_id": "22135_mikomichigai",
+      "reading": "みこみちがい",
+      "headword": "{見込|みこ}み{違|ちが}い",
+      "label": "mistaken expectation"
+    },
+    {
+      "type": "related",
+      "target_id": "24517_handanmisu",
+      "reading": "はんだんみす",
+      "headword": "{判断|はんだん}ミス",
+      "label": "judgment error"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "semantic": ["cognition"]
+      "politeness": "plain",
+      "semantic": [
+        "cognition"
+      ]
     },
     "created": "2026-01-27T23:50:36Z",
-    "modified": "2026-01-27T23:50:36Z"
+    "modified": "2026-09-02T04:01:16Z"
   }
 }

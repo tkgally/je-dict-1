@@ -2,7 +2,7 @@
   "id": "04179_gekizou",
   "headword": "{激増|げきぞう}",
   "reading": "げきぞう",
-  "part_of_speech": "noun, suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "sharp increase, surge",
   "conjugation": {
     "type": "suru",
@@ -133,10 +133,10 @@
       ]
     }
   ],
-  "notes": "RELATED WORDS:\n・⟦{急増|きゅうぞう}→急増：12671_kyuuzou⟧ - rapid increase (similar but slightly less dramatic)\n・⟦{増加|ぞうか}→増加：03329_zouka⟧ - increase (neutral, general term)\n・⟦{増大|ぞうだい}→増大：04486_zoudai⟧ - enlargement, growth\n\n{激増|げきぞう} emphasizes both speed and magnitude of increase.\n\nOPPOSITE:\n・⟦{激減|げきげん}→激減：15241_gekigen⟧ - sharp decrease, dramatic drop\n\nCOMMON PATTERNS:\n・〜⟦が→が：00051_ga⟧{激増|げきぞう}⟦する→する：00392_suru⟧ (something surges)\n・{激増|げきぞう}⟦している→する：00392_suru⟧ (is surging)",
+  "notes": "RELATED WORDS:\n- ⟦{急増|きゅうぞう}→急増：12671_kyuuzou⟧ - rapid increase (similar but slightly less dramatic)\n- ⟦{増加|ぞうか}→増加：03329_zouka⟧ - increase (neutral, general term)\n- ⟦{増大|ぞうだい}→増大：04486_zoudai⟧ - enlargement, growth\n\n{激増|げきぞう} emphasizes both speed and magnitude of increase.\n\nSIMILAR WORDS:\n- ⟦{激減|げきげん}→激減：15241_gekigen⟧ - sharp decrease, dramatic drop\n\nCOMMON PATTERNS:\n- 〜⟦が→が：00051_ga⟧{激増|げきぞう}⟦する→する：00392_suru⟧ (something surges)\n- {激増|げきぞう}⟦している→する：00392_suru⟧ (is surging)",
   "metadata": {
     "created": "2026-01-13T13:58:45Z",
-    "modified": "2026-08-14T18:20:10Z",
+    "modified": "2026-09-02T04:00:52Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -149,7 +149,8 @@
       "semantic": [
         "abstract"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   },
   "cross_references": [
@@ -159,6 +160,34 @@
       "headword": "{激減|げきげん}",
       "label": "sharp decrease",
       "target_id": "15241_gekigen"
+    },
+    {
+      "type": "related",
+      "target_id": "12671_kyuuzou",
+      "reading": "きゅうぞう",
+      "headword": "{急増|きゅうぞう}",
+      "label": "rapid increase"
+    },
+    {
+      "type": "related",
+      "target_id": "03329_zouka",
+      "reading": "ぞうか",
+      "headword": "{増加|ぞうか}",
+      "label": "increase"
+    },
+    {
+      "type": "related",
+      "target_id": "04486_zoudai",
+      "reading": "ぞうだい",
+      "headword": "{増大|ぞうだい}",
+      "label": "enlargement, growth"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26999_kyuuzousuru",
+      "reading": "きゅうぞうする",
+      "headword": "{急増|きゅうぞう}する",
+      "label": "to increase rapidly"
     }
   ]
 }

@@ -20,7 +20,7 @@
   "examples": [
     {
       "id": "17646_dameda_ex1",
-      "japanese": "だめだ、{動|うご}かない。",
+      "japanese": "だめだ、⟦{動|うご}かない→動く：00904_ugoku⟧。",
       "english": "No good — it won't move.",
       "notes": null,
       "has_audio": false,
@@ -30,7 +30,7 @@
     },
     {
       "id": "17646_dameda_ex2",
-      "japanese": "いろいろ{試|ため}したけど、だめだった。",
+      "japanese": "いろいろ⟦{試|ため}した→試す：02130_tamesu⟧⟦けど→けど：09477_kedo⟧、だめだった。",
       "english": "I tried various things, but none of them worked.",
       "notes": null,
       "has_audio": false,
@@ -40,7 +40,7 @@
     },
     {
       "id": "17646_dameda_ex3",
-      "japanese": "この{方法|ほうほう}じゃだめだ。{別|べつ}のやり{方|かた}を{考|かんが}えよう。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{方法|ほうほう}→方法：03621_houhou⟧⟦じゃ→じゃ：03040_ja⟧だめだ。⟦{別|べつ}→別：01216_betsu⟧⟦の→の：09472_no⟧⟦やり{方|かた}→やり方：10532_yarikata⟧⟦を→を：00422_wo⟧⟦{考|かんが}えよう→考える：00856_kangaeru⟧。",
       "english": "This method isn't going to work. Let's think of another way.",
       "notes": null,
       "has_audio": false,
@@ -50,7 +50,7 @@
     },
     {
       "id": "17646_dameda_ex4",
-      "japanese": "もうだめだ、{眠|ねむ}い。",
+      "japanese": "⟦もう→もう：00602_mou⟧だめだ、⟦{眠|ねむ}い→眠い：00872_nemui⟧。",
       "english": "I can't take it anymore — I'm so sleepy.",
       "notes": null,
       "has_audio": false,
@@ -60,7 +60,7 @@
     },
     {
       "id": "17646_dameda_ex5",
-      "japanese": "{笑|わら}いが{止|と}まらない。だめだ、もう{我慢|がまん}できない。",
+      "japanese": "⟦{笑|わら}い→笑い：02641_warai⟧⟦が→が：00051_ga⟧⟦{止|と}まらない→止まる：00555_tomaru⟧。だめだ、⟦もう→もう：00602_mou⟧⟦{我慢|がまん}できない→我慢する：25343_gamansuru⟧。",
       "english": "I can't stop laughing. I'm done — I can't hold it in.",
       "notes": null,
       "has_audio": false,
@@ -70,7 +70,7 @@
     },
     {
       "id": "17646_dameda_ex6",
-      "japanese": "もうだめだと{思|おも}ったけど、なんとか{最後|さいご}まで{走|はし}れた。",
+      "japanese": "⟦もう→もう：00602_mou⟧だめだ⟦と→と：00512_to⟧⟦{思|おも}った→思う：00492_omou⟧⟦けど→けど：09477_kedo⟧、なん⟦と→と：00512_to⟧⟦か→か：09473_ka⟧⟦{最後|さいご}→最後：01413_saigo⟧⟦まで→まで：00490_made⟧⟦{走|はし}れた→走る：00519_hashiru⟧。",
       "english": "I thought I was done for, but somehow I managed to run to the end.",
       "notes": null,
       "has_audio": false,
@@ -79,7 +79,7 @@
       ]
     }
   ],
-  "notes": "だめだ is the casual predicate form of だめ (no good, useless). While だめ as a standalone na-adjective has a separate entry, だめだ functions as a complete exclamatory expression in spoken Japanese, often delivered as an emotional reaction.\n\nCOMMON PATTERNS:\n- だめだ、〜: \"No good —\" followed by the problem\n- もうだめだ: \"I'm done for / it's hopeless\" — signals reaching a limit\n- だめだった: past form, reporting a failed attempt\n- だめだ、だめだ: repeated for emphasis, expressing growing frustration\n\nTONE:\n- Flat delivery: matter-of-fact assessment of failure\n- Emphatic delivery: dramatic despair or exasperation\n- Muttered to self: resignation\n\nRELATED EXPRESSIONS:\n- むりだ: emphasizes impossibility (\"it can't be done\")\n- だめだ: emphasizes failure or unsuitability (\"it's no good\")\n- あかん: Kansai dialect equivalent of だめだ",
+  "notes": "だめだ is the casual predicate form of ⟦だめ→だめ：00693_dame⟧ (no good, useless). While ⟦だめ→だめ：00693_dame⟧ as a standalone na-adjective has a separate entry, だめだ functions as a complete exclamatory expression in spoken Japanese, often delivered as an emotional reaction.\n\nCOMMON PATTERNS:\n- だめだ、〜: \"No good —\" followed by the problem\n- ⟦もう→もう：00602_mou⟧だめだ: \"I'm done for / it's hopeless\" — signals reaching a limit\n- だめだった: past form, reporting a failed attempt\n- だめだ、だめだ: repeated for emphasis, expressing growing frustration\n\nREGISTER:\n- Flat delivery: matter-of-fact assessment of failure\n- Emphatic delivery: dramatic despair or exasperation\n- Muttered to self: resignation\n\nRELATED WORDS:\n- むりだ: emphasizes impossibility (\"it can't be done\")\n- だめだ: emphasizes failure or unsuitability (\"it's no good\")\n- あかん: Kansai dialect equivalent of だめだ",
   "cross_references": [
     {
       "type": "related",
@@ -87,11 +87,18 @@
       "headword": "むりだ",
       "target_id": "17647_murida",
       "label": "impossible"
+    },
+    {
+      "type": "related",
+      "target_id": "07531_akan",
+      "reading": "あかん",
+      "headword": "あかん",
+      "label": "Kansai dialect equivalent"
     }
   ],
   "metadata": {
     "created": "2026-02-12T07:49:16Z",
-    "modified": "2026-03-18T10:11:24Z",
+    "modified": "2026-09-02T04:01:49Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

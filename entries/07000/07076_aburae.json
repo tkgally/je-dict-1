@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "07076_aburae_ex1",
-      "japanese": "{美術館|びじゅつかん}で{油絵|あぶらえ}を{鑑賞|かんしょう}した。",
+      "japanese": "⟦{美術館|びじゅつかん}→美術館：01717_bijutsukan⟧⟦で→で：00502_de⟧{油絵|あぶらえ}⟦を→を：00422_wo⟧⟦{鑑賞|かんしょう}→鑑賞：14516_kanshou⟧⟦した→する：00392_suru⟧。",
       "english": "I viewed oil paintings at the art museum.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "07076_aburae_ex2",
-      "japanese": "{趣味|しゅみ}で{油絵|あぶらえ}を{描|か}いている。",
+      "japanese": "⟦{趣味|しゅみ}→趣味：00889_shumi⟧⟦で→で：00502_de⟧{油絵|あぶらえ}⟦を→を：00422_wo⟧⟦{描|か}いている→描く：28436_kaku⟧。",
       "english": "I paint oil paintings as a hobby.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "07076_aburae_ex3",
-      "japanese": "この{油絵|あぶらえ}は{有名|ゆうめい}な{画家|がか}の{作品|さくひん}だ。",
+      "japanese": "⟦この→この：00962_kono⟧{油絵|あぶらえ}⟦は→は：00079_ha⟧⟦{有名|ゆうめい}→有名：01106_yuumei⟧な⟦{画家|がか}→画家：02583_gaka⟧⟦の→の：09472_no⟧⟦{作品|さくひん}→作品：02776_sakuhin⟧だ。",
       "english": "This oil painting is a work by a famous painter.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "COMMON COLLOCATIONS:\n・{油絵|あぶらえ}を{描|か}く (to paint an oil painting)\n・{油絵|あぶらえ}の{具|ぐ} (oil paints)\n・{油絵|あぶらえ}{教室|きょうしつ} (oil painting class)\n・{油絵|あぶらえ}{展|てん} (oil painting exhibition)\n\nRELATED ART TERMS:\n・{水彩画|すいさいが} (watercolor painting)\n・{日本画|にほんが} (Japanese-style painting)\n・{版画|はんが} (printmaking)\n・{油彩|ゆさい} (oil painting - technical term)\n\nMATERIALS:\n・キャンバス (canvas)\n・イーゼル (easel)\n・{筆|ふで} (brush)",
+  "notes": "COMMON COLLOCATIONS:\n- {油絵|あぶらえ}⟦を→を：00422_wo⟧⟦{描|か}く→描く：28436_kaku⟧ (to paint an oil painting)\n- {油絵|あぶらえ}⟦の→の：09472_no⟧⟦{具|ぐ}→具：07857_gu⟧ (oil paints)\n- {油絵|あぶらえ}⟦{教室|きょうしつ}→教室：00794_kyoushitsu⟧ (oil painting class)\n- {油絵|あぶらえ}⟦{展|てん}→〜展：28468_ten⟧ (oil painting exhibition)\n\nRELATED ART TERMS:\n- ⟦{水彩画|すいさいが}→水彩画：07077_suisaiga⟧ (watercolor painting)\n- ⟦{日本画|にほんが}→日本画：18225_nihonga⟧ (Japanese-style painting)\n- ⟦{版画|はんが}→版画：10582_hanga⟧ (printmaking)\n- ⟦{油彩|ゆさい}→油彩：27155_yusai⟧ (oil painting - technical term)\n\nMATERIALS:\n- キャンバス (canvas)\n- イーゼル (easel)\n- ⟦{筆|ふで}→筆：03601_fude⟧ (brush)",
   "cross_references": [
     {
       "type": "contrast",
@@ -51,11 +51,53 @@
       "headword": "{水彩画|すいさいが}",
       "label": "watercolor",
       "target_id": "07077_suisaiga"
+    },
+    {
+      "type": "related",
+      "target_id": "18225_nihonga",
+      "reading": "にほんが",
+      "headword": "{日本画|にほんが}",
+      "label": "Japanese-style painting"
+    },
+    {
+      "type": "related",
+      "target_id": "10582_hanga",
+      "reading": "はんが",
+      "headword": "{版画|はんが}",
+      "label": "printmaking"
+    },
+    {
+      "type": "related",
+      "target_id": "27155_yusai",
+      "reading": "ゆさい",
+      "headword": "{油彩|ゆさい}",
+      "label": "oil painting"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24163_suisai",
+      "reading": "すいさい",
+      "headword": "{水彩|すいさい}",
+      "label": "watercolor (painting technique or medium)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24181_yusaiga",
+      "reading": "ゆさいが",
+      "headword": "{油彩画|ゆさいが}",
+      "label": "oil painting (the artwork)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29284_yuseienogu",
+      "reading": "ゆせいえのぐ",
+      "headword": "{油性絵具|ゆせいえのぐ}",
+      "label": "oil paint"
     }
   ],
   "metadata": {
     "created": "2026-01-18T23:34:26Z",
-    "modified": "2026-06-17T01:28:38Z",
+    "modified": "2026-09-02T04:01:10Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

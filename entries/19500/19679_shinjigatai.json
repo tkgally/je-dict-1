@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "19679_shinjigatai_ex1",
-      "japanese": "{信|しん}じ{難|がた}い{話|はなし}だ。",
+      "japanese": "{信|しん}じ{難|がた}い⟦{話|はなし}→話：01496_hanashi⟧だ。",
       "english": "That's a hard-to-believe story.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "19679_shinjigatai_ex2",
-      "japanese": "{信|しん}じ{難|がた}いことに、{彼|かれ}は{無傷|むきず}だった。",
+      "japanese": "{信|しん}じ{難|がた}いこと⟦に→に：00314_ni⟧、⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{無傷|むきず}→無傷：13458_mukizu⟧だった。",
       "english": "Incredibly, he was unharmed.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "19679_shinjigatai_ex3",
-      "japanese": "これほど{短期間|たんきかん}で{成功|せいこう}するとは、{信|しん}じ{難|がた}い{結果|けっか}だ。",
+      "japanese": "⟦これ→これ：00963_kore⟧ほど⟦{短期間|たんきかん}→短期間：17178_tankikan⟧⟦で→で：00502_de⟧⟦{成功|せいこう}する→成功する：21445_seikousuru⟧⟦と→と：00512_to⟧⟦は→は：00079_ha⟧、{信|しん}じ{難|がた}い⟦{結果|けっか}→結果：02486_kekka⟧だ。",
       "english": "Succeeding in such a short time is an unbelievable result.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "Formed from {信|しん}じる (to believe) + {難|がた}い (difficult to ~). The suffix ～{難|がた}い attaches to verb stems to express difficulty or impossibility.\n\nUSAGE:\nThe ～{難|がた}い pattern is productive in Japanese: {理解|りかい}し{難|がた}い (hard to understand), {許|ゆる}し{難|がた}い (hard to forgive). {信|しん}じ{難|がた}い is one of the most commonly used combinations. It has a slightly more formal and literary tone than {信|しん}じられない.\n\nCOMMON COLLOCATIONS:\n- {信|しん}じ{難|がた}い{話|はなし} — an unbelievable story\n- {信|しん}じ{難|がた}い{結果|けっか} — an incredible result\n- {信|しん}じ{難|がた}いことに — incredibly; unbelievably\n\nSIMILAR WORDS:\n- {信|しん}じられない — unbelievable; more colloquial and emotional\n- {考|かんが}え{難|がた}い — hard to imagine; difficult to conceive\n- {耐|た}え{難|がた}い — unbearable; difficult to endure",
+  "notes": "Formed from ⟦{信|しん}じる→信じる：01111_shinjiru⟧ (to believe) + ⟦{難|がた}い→難い：17198_gatai⟧ (difficult to ~). The suffix ～⟦{難|がた}い→難い：17198_gatai⟧ attaches to verb stems to express difficulty or impossibility.\n\nUSAGE:\nThe ～⟦{難|がた}い→難い：17198_gatai⟧ pattern is productive in Japanese: ⟦{理解|りかい}→理解：03674_rikai⟧し⟦{難|がた}い→難い：17198_gatai⟧ (hard to understand), ⟦{許|ゆる}し{難|がた}い→許し難い：29288_yurushigatai⟧ (hard to forgive). {信|しん}じ{難|がた}い is one of the most commonly used combinations. It has a slightly more formal and literary tone than ⟦{信|しん}じられない→信じる：01111_shinjiru⟧.\n\nCOMMON COLLOCATIONS:\n- {信|しん}じ{難|がた}い⟦{話|はなし}→話：01496_hanashi⟧ — an unbelievable story\n- {信|しん}じ{難|がた}い⟦{結果|けっか}→結果：02486_kekka⟧ — an incredible result\n- {信|しん}じ{難|がた}いこと⟦に→に：00314_ni⟧ — incredibly; unbelievably\n\nSIMILAR WORDS:\n- ⟦{信|しん}じられない→信じる：01111_shinjiru⟧ — unbelievable; more colloquial and emotional\n- ⟦{考|かんが}え→考える：00856_kangaeru⟧⟦{難|がた}い→難い：17198_gatai⟧ — hard to imagine; difficult to conceive\n- ⟦{耐|た}え{難|がた}い→耐え難い：19680_taegatai⟧ — unbearable; difficult to endure",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19680_taegatai",
+      "reading": "たえがたい",
+      "headword": "{耐|た}え{難|がた}い",
+      "label": "unbearable"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,7 +68,7 @@
       ]
     },
     "created": "2026-03-26T11:48:55Z",
-    "modified": "2026-03-26T11:48:55Z"
+    "modified": "2026-09-02T04:01:56Z"
   },
   "conjugation": {
     "type": "i-adjective",

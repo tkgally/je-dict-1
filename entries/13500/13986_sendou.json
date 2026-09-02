@@ -15,41 +15,59 @@
   "examples": [
     {
       "id": "13986_sendou_ex1",
-      "japanese": "{船頭|せんどう}が{櫓|ろ}を{漕|こ}いでいる。",
+      "japanese": "{船頭|せんどう}⟦が→が：00051_ga⟧{櫓|ろ}⟦を→を：00422_wo⟧⟦{漕|こ}いでいる→漕ぐ：04264_kogu⟧。",
       "english": "The boatman is rowing the oar.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13986_sendou_ex2",
-      "japanese": "{渡|わた}し{船|ぶね}の{船頭|せんどう}に{案内|あんない}してもらった。",
+      "japanese": "{渡|わた}し{船|ぶね}⟦の→の：09472_no⟧{船頭|せんどう}⟦に→に：00314_ni⟧⟦{案内|あんない}して→案内する：20203_annaisuru⟧⟦もらった→もらう：00520_morau⟧。",
       "english": "We were guided by the ferryman of the boat.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13986_sendou_ex3",
-      "japanese": "{船頭|せんどう}{多|おお}くして{船|ふね}{山|やま}に{登|のぼ}るということわざの{通|とお}り、リーダーが{多|おお}すぎると{物事|ものごと}はうまくいかない。",
+      "japanese": "{船頭|せんどう}⟦{多|おお}く→多い：01127_ooi⟧⟦して→する：00392_suru⟧{船|ふね}{山|やま}⟦に→に：00314_ni⟧⟦{登|のぼ}る→登る：00660_noboru⟧⟦という→という：09577_toiu⟧ことわざ⟦の→の：09472_no⟧⟦{通|とお}り→通り：01475_toori⟧、⟦リーダー→リーダー：24312_riidaa⟧⟦が→が：00051_ga⟧{多|おお}すぎる⟦と→と：00512_to⟧⟦{物事|ものごと}→物事：00291_monogoto⟧⟦は→は：00079_ha⟧⟦うまく→うまい：01279_umai⟧いかない。",
       "english": "As the proverb 'too many boatmen and the ship climbs the mountain' says, too many leaders make things go wrong.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nAppears frequently in historical contexts and traditional imagery. Also well known from the proverb {船頭|せんどう}{多|おお}くして{船|ふね}{山|やま}に{登|のぼ}る ('too many boatmen and the ship climbs the mountain'), equivalent to the English 'too many cooks spoil the broth'.\n\nCOMMON COLLOCATIONS:\n- {船頭|せんどう}が{漕|こ}ぐ: the boatman rows\n- {渡|わた}し{船|ぶね}の{船頭|せんどう}: ferryman\n\nPROVERB:\n- {船頭|せんどう}{多|おお}くして{船|ふね}{山|やま}に{登|のぼ}る: too many leaders spoil the outcome (lit. 'too many boatmen and the ship climbs the mountain')",
-  "cross_references": [],
+  "notes": "USAGE:\nAppears frequently in historical contexts and traditional imagery. Also well known from the proverb {船頭|せんどう}⟦{多|おお}く→多い：01127_ooi⟧⟦して→する：00392_suru⟧{船|ふね}{山|やま}⟦に→に：00314_ni⟧⟦{登|のぼ}る→登る：00660_noboru⟧ ('too many boatmen and the ship climbs the mountain'), equivalent to the English 'too many cooks spoil the broth'.\n\nCOMMON COLLOCATIONS:\n- {船頭|せんどう}⟦が→が：00051_ga⟧⟦{漕|こ}ぐ→漕ぐ：04264_kogu⟧: the boatman rows\n- {渡|わた}し{船|ぶね}⟦の→の：09472_no⟧{船頭|せんどう}: ferryman\n\nPROVERB:\n- {船頭|せんどう}⟦{多|おお}く→多い：01127_ooi⟧⟦して→する：00392_suru⟧{船|ふね}{山|やま}⟦に→に：00314_ni⟧⟦{登|のぼ}る→登る：00660_noboru⟧: too many leaders spoil the outcome (lit. 'too many boatmen and the ship climbs the mountain')",
+  "cross_references": [
+    {
+      "type": "homophone",
+      "target_id": "22653_sendou",
+      "reading": "せんどう",
+      "headword": "{先導|せんどう}",
+      "label": "guidance"
+    }
+  ],
   "metadata": {
     "created": "2026-02-27T08:33:46Z",
-    "modified": "2026-02-27T08:33:46Z",
+    "modified": "2026-09-02T04:01:35Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["occupation"]
+      "semantic": [
+        "occupation"
+      ]
     }
   }
 }

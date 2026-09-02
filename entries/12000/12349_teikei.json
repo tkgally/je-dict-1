@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "12349_teikei_ex1",
-      "japanese": "{定型|ていけい}{文|ぶん}を{登録|とうろく}する。",
+      "japanese": "{定型|ていけい}⟦{文|ぶん}→文：03716_bun⟧⟦を→を：00422_wo⟧⟦{登録|とうろく}する→登録する：25227_tourokusuru⟧。",
       "english": "To register a template phrase.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12349_teikei_ex2",
-      "japanese": "メールの{定型|ていけい}{文|ぶん}を{使|つか}って{返信|へんしん}した。",
+      "japanese": "⟦メール→メール：04435_meeru⟧⟦の→の：09472_no⟧{定型|ていけい}⟦{文|ぶん}→文：03716_bun⟧⟦を→を：00422_wo⟧⟦{使|つか}って→使う：00473_tsukau⟧⟦{返信|へんしん}→返信：14350_henshin⟧⟦した→する：00392_suru⟧。",
       "english": "I replied using a standard email template.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12349_teikei_ex3",
-      "japanese": "{俳句|はいく}は{五|ご}{七|しち}{五|ご}の{定型|ていけい}{詩|し}である。",
+      "japanese": "⟦{俳句|はいく}→俳句：00083_haiku⟧⟦は→は：00079_ha⟧⟦{五|ご}{七|しち}{五|ご}→五七五：22868_goshichigo⟧⟦の→の：09472_no⟧{定型|ていけい}{詩|し}⟦である→である：09855_dearu⟧。",
       "english": "Haiku is a fixed-form poem with a 5-7-5 structure.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\n{定型|ていけい} is used as a modifier (often with の or as a compound) to describe things that follow a standard pattern. It is common in business and IT contexts for templates and boilerplate text.\n\nCOLLOCATIONS:\n- {定型|ていけい}{文|ぶん} — template phrase, boilerplate text\n- {定型|ていけい}{詩|し} — fixed-form poetry\n- {定型|ていけい}{業務|ぎょうむ} — routine tasks, standardized work\n- {定型|ていけい}{外|がい} — non-standard, irregular\n\nSIMILAR WORDS:\nDo not confuse with the homophone {提携|ていけい} (cooperation, partnership), which has a completely different meaning.",
+  "notes": "USAGE:\n{定型|ていけい} is used as a modifier (often with ⟦の→の：09472_no⟧ or as a compound) to describe things that follow a standard pattern. It is common in business and IT contexts for templates and boilerplate text.\n\nCOMMON COLLOCATIONS:\n- {定型|ていけい}⟦{文|ぶん}→文：03716_bun⟧ — template phrase, boilerplate text\n- {定型|ていけい}{詩|し} — fixed-form poetry\n- {定型|ていけい}{業務|ぎょうむ} — routine tasks, standardized work\n- {定型|ていけい}{外|がい} — non-standard, irregular\n\nSIMILAR WORDS:\nDo not confuse with the homophone ⟦{提携|ていけい}→提携：05773_teikei⟧ (cooperation, partnership), which has a completely different meaning.",
   "prominent_see_also": [
     {
       "target_id": "05773_teikei",
@@ -47,17 +53,29 @@
       "note": "cooperation, partnership"
     }
   ],
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "26419_goshicchou",
+      "reading": "ごしっちょう",
+      "headword": "{五七調|ごしっちょう}",
+      "label": "five-seven meter"
+    }
+  ],
   "metadata": {
     "created": "2026-02-21T05:21:25Z",
-    "modified": "2026-04-26T09:20:33Z",
+    "modified": "2026-09-02T04:01:28Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

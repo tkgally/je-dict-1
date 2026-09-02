@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "23189_kouin_ex1",
-      "japanese": "{書類|しょるい}に{公印|こういん}を{押|お}す。",
+      "japanese": "⟦{書類|しょるい}→書類：01103_shorui⟧⟦に→に：00314_ni⟧{公印|こういん}⟦を→を：00422_wo⟧⟦{押|お}す→押す：02854_osu⟧。",
       "english": "To stamp an official seal on a document.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "23189_kouin_ex2",
-      "japanese": "この{証明書|しょうめいしょ}には{公印|こういん}が{必要|ひつよう}です。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{証明書|しょうめいしょ}→証明書：09785_shoumeisho⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{公印|こういん}⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧です。",
       "english": "An official seal is required on this certificate.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "23189_kouin_ex3",
-      "japanese": "{市役所|しやくしょ}の{公印|こういん}がない{書類|しょるい}は{無効|むこう}になる。",
+      "japanese": "⟦{市役所|しやくしょ}→市役所：03067_shiyakusho⟧⟦の→の：09472_no⟧{公印|こういん}⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧⟦{書類|しょるい}→書類：01103_shorui⟧⟦は→は：00079_ha⟧⟦{無効|むこう}→無効：13385_mukou⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧。",
       "english": "Documents without the city office's official seal are invalid.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {公|こう} (public, official) and {印|いん} (seal, stamp). In Japan, seals ({印鑑|いんかん}) play an important role in authenticating documents. A {公印|こういん} is the institutional equivalent, used by government offices, schools, and organizations to certify official documents.\n\nCOMMON COLLOCATIONS:\n- {公印|こういん}を{押|お}す: to stamp with an official seal\n- {公印|こういん}が{必要|ひつよう}: an official seal is required\n- {公印|こういん}{省略|しょうりゃく}: omission of the official seal (common on digitized documents)\n\nSIMILAR WORDS:\n- {印鑑|いんかん}: personal seal — a registered seal used by individuals\n- {社印|しゃいん}: company seal — the official seal of a corporation\n- {実印|じついん}: registered seal — a personal seal officially registered with the local government\n- {認印|みとめいん}: informal seal — used for everyday acknowledgments",
+  "notes": "Composed of {公|こう} (public, official) and {印|いん} (seal, stamp). In Japan, seals (⟦{印鑑|いんかん}→印鑑：05290_inkan⟧) play an important role in authenticating documents. A {公印|こういん} is the institutional equivalent, used by government offices, schools, and organizations to certify official documents.\n\nCOMMON COLLOCATIONS:\n- {公印|こういん}⟦を→を：00422_wo⟧⟦{押|お}す→押す：02854_osu⟧: to stamp with an official seal\n- {公印|こういん}⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧: an official seal is required\n- {公印|こういん}⟦{省略|しょうりゃく}→省略：03244_shouryaku⟧: omission of the official seal (common on digitized documents)\n\nSIMILAR WORDS:\n- ⟦{印鑑|いんかん}→印鑑：05290_inkan⟧: personal seal — a registered seal used by individuals\n- {社印|しゃいん}: company seal — the official seal of a corporation\n- ⟦{実印|じついん}→実印：07490_jitsuin⟧: registered seal — a personal seal officially registered with the local government\n- ⟦{認印|みとめいん}→認印：07489_mitomein⟧: informal seal — used for everyday acknowledgments",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05290_inkan",
+      "reading": "いんかん",
+      "headword": "{印鑑|いんかん}",
+      "label": "personal seal"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07490_jitsuin",
+      "reading": "じついん",
+      "headword": "{実印|じついん}",
+      "label": "registered seal"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07489_mitomein",
+      "reading": "みとめいん",
+      "headword": "{認印|みとめいん}",
+      "label": "informal seal"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +83,6 @@
       "politeness": "plain"
     },
     "created": "2026-04-08T21:26:28Z",
-    "modified": "2026-07-31T18:20:34Z"
+    "modified": "2026-09-02T04:02:11Z"
   }
 }

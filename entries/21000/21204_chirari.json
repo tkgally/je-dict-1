@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21204_chirari_ex1",
-      "japanese": "ちらりと{見|み}る。",
+      "japanese": "ちらり⟦と→と：00512_to⟧⟦{見|み}る→見る：00283_miru⟧。",
       "english": "To glance briefly.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21204_chirari_ex2",
-      "japanese": "{雲|くも}の{間|あいだ}から{月|つき}がちらりと{見|み}えた。",
+      "japanese": "⟦{雲|くも}→雲：02202_kumo⟧⟦の→の：09472_no⟧⟦{間|あいだ}→間：00914_aida⟧⟦から→から：00504_kara⟧⟦{月|つき}→月：02230_tsuki⟧⟦が→が：00051_ga⟧ちらり⟦と→と：00512_to⟧⟦{見|み}えた→見える：01165_mieru⟧。",
       "english": "The moon peeked briefly through a gap in the clouds.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21204_chirari_ex3",
-      "japanese": "{彼|かれ}は{時計|とけい}をちらりと{見|み}てから、{席|せき}を{立|た}った。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{時計|とけい}→時計：00677_tokei⟧⟦を→を：00422_wo⟧ちらり⟦と→と：00512_to⟧⟦{見|み}て→見る：00283_miru⟧⟦から→から：00504_kara⟧、⟦{席|せき}→席：02215_seki⟧⟦を→を：00422_wo⟧⟦{立|た}った→立つ：00758_tatsu⟧。",
       "english": "He glanced at his watch and then got up from his seat.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "A mimetic adverb (onomatopoeia/{擬態語|ぎたいご}) describing a quick, fleeting glimpse or appearance. Almost always followed by the particle と when modifying a verb.\n\nCOMMON COLLOCATIONS:\n- ちらりと{見|み}る: to glance at\n- ちらりと{見|み}える: to be briefly visible\n- ちらりと{覗|のぞ}く: to take a quick peek\n- ちらりと{目|め}をやる: to cast a quick glance\n\nSIMILAR WORDS:\n- ちらっと: same meaning but slightly more casual and conversational\n- ちらちら: repeated or continuous flickering/fluttering (e.g., snow falling, lights flickering)\n- じろじろ: staring intently — the opposite nuance, implying a rude or prolonged gaze\n\nNUANCE:\nImplies the action is quick, discreet, and often intentionally brief. Can suggest that the viewer does not want to be noticed looking, or that the object of sight appeared only momentarily.",
+  "notes": "A mimetic adverb (onomatopoeia/⟦{擬態語|ぎたいご}→擬態語：22468_gitaigo⟧) describing a quick, fleeting glimpse or appearance. Almost always followed by the particle ⟦と→と：00512_to⟧ when modifying a verb.\n\nCOMMON COLLOCATIONS:\n- ちらり⟦と→と：00512_to⟧⟦{見|み}る→見る：00283_miru⟧: to glance at\n- ちらり⟦と→と：00512_to⟧⟦{見|み}える→見える：01165_mieru⟧: to be briefly visible\n- ちらり⟦と→と：00512_to⟧⟦{覗|のぞ}く→覗く：02388_nozoku⟧: to take a quick peek\n- ちらり⟦と→と：00512_to⟧⟦{目|め}→目：00525_me⟧⟦を→を：00422_wo⟧⟦やる→やる：02980_yaru⟧: to cast a quick glance\n\nSIMILAR WORDS:\n- ちらっ⟦と→と：00512_to⟧: same meaning but slightly more casual and conversational\n- ⟦ちらちら→ちらちら：07407_chirachira⟧: repeated or continuous flickering/fluttering (e.g., snow falling, lights flickering)\n- ⟦じろじろ→じろじろ：06907_jirojiro⟧: staring intently — the opposite nuance, implying a rude or prolonged gaze\n\nUSAGE:\nImplies the action is quick, discreet, and often intentionally brief. Can suggest that the viewer does not want to be noticed looking, or that the object of sight appeared only momentarily.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07407_chirachira",
+      "reading": "ちらちら",
+      "headword": "ちらちら",
+      "label": "repeated or continuous…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06907_jirojiro",
+      "reading": "じろじろ",
+      "headword": "じろじろ",
+      "label": "staring intently"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +75,6 @@
       ]
     },
     "created": "2026-04-01T14:16:10Z",
-    "modified": "2026-07-29T00:22:41Z"
+    "modified": "2026-09-02T04:02:02Z"
   }
 }

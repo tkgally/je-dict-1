@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "08686_bakushou_ex1",
-      "japanese": "{会場|かいじょう}が{爆笑|ばくしょう}に{包|つつ}まれた。",
+      "japanese": "⟦{会場|かいじょう}→会場：01269_kaijou⟧⟦が→が：00051_ga⟧{爆笑|ばくしょう}⟦に→に：00314_ni⟧⟦{包|つつ}まれた→包む：01226_tsutsumu⟧。",
       "english": "The venue was filled with roars of laughter.",
       "sense_numbers": [
         1
@@ -114,7 +114,7 @@
     },
     {
       "id": "08686_bakushou_ex2",
-      "japanese": "その{冗談|じょうだん}に{思|おも}わず{爆笑|ばくしょう}した。",
+      "japanese": "⟦その→その：00993_sono⟧⟦{冗談|じょうだん}→冗談：03347_joudan⟧⟦に→に：00314_ni⟧⟦{思|おも}わ→思う：00492_omou⟧ず{爆笑|ばくしょう}⟦した→する：00392_suru⟧。",
       "english": "I burst out laughing at that joke.",
       "sense_numbers": [
         1
@@ -124,7 +124,7 @@
     },
     {
       "id": "08686_bakushou_ex3",
-      "japanese": "{彼|かれ}の{物真似|ものまね}は{毎回|まいかい}{爆笑|ばくしょう}を{誘|さそ}う。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧{物真似|ものまね}⟦は→は：00079_ha⟧⟦{毎回|まいかい}→毎回：13202_maikai⟧{爆笑|ばくしょう}⟦を→を：00422_wo⟧⟦{誘|さそ}う→誘う：01947_sasou⟧。",
       "english": "His impersonation always invites roars of laughter.",
       "sense_numbers": [
         1
@@ -133,7 +133,7 @@
       "notes": null
     }
   ],
-  "notes": "VERB FORM:\n{爆笑|ばくしょう}する - to burst out laughing\n\nORIGINAL MEANING:\nTraditionally, {爆笑|ばくしょう} referred specifically to a group of people laughing loudly together. However, modern usage often applies it to individuals as well.\n\nCOMMON COLLOCATIONS:\n- {爆笑|ばくしょう}を{誘|さそ}う - to invite roars of laughter\n- {爆笑|ばくしょう}ネタ - hilarious material/joke\n- {爆笑|ばくしょう}{問題|もんだい} - comedy duo name (Bakusho Mondai)\n\nINTERNET SLANG:\nwwwww (representing {笑|わら}) and {草|くさ} are internet equivalents for expressing laughter.",
+  "notes": "FORMS:\n{爆笑|ばくしょう}⟦する→する：00392_suru⟧ - to burst out laughing\n\nORIGINAL MEANING:\nTraditionally, {爆笑|ばくしょう} referred specifically to a group of people laughing loudly together. However, modern usage often applies it to individuals as well.\n\nCOMMON COLLOCATIONS:\n- {爆笑|ばくしょう}⟦を→を：00422_wo⟧⟦{誘|さそ}う→誘う：01947_sasou⟧ - to invite roars of laughter\n- {爆笑|ばくしょう}⟦ネタ→ネタ：06309_neta⟧ - hilarious material/joke\n- {爆笑|ばくしょう}{問題|もんだい} - comedy duo name (Bakusho Mondai)\n\nINTERNET SLANG:\nwwwww (representing {笑|わら}) and ⟦{草|くさ}→草：02206_kusa⟧ are internet equivalents for expressing laughter.",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -142,6 +142,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "emotion",
         "entertainment"
@@ -149,7 +150,7 @@
       "verb_class": "suru"
     },
     "created": "2026-01-27T23:50:36Z",
-    "modified": "2026-06-23T01:38:10Z"
+    "modified": "2026-09-02T04:01:16Z"
   },
   "cross_references": [
     {
@@ -165,6 +166,27 @@
       "reading": "くしょう",
       "headword": "{苦笑|くしょう}",
       "label": "wry smile"
+    },
+    {
+      "type": "related",
+      "target_id": "06390_houfukuzettou",
+      "reading": "ほうふくぜっとう",
+      "headword": "{抱腹絶倒|ほうふくぜっとう}",
+      "label": "hilarious, side-splitting"
+    },
+    {
+      "type": "related",
+      "target_id": "08456_takawarai",
+      "reading": "たかわらい",
+      "headword": "{高笑|たかわら}い",
+      "label": "loud laugh"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24178_koushou",
+      "reading": "こうしょう",
+      "headword": "{哄笑|こうしょう}",
+      "label": "roar of laughter"
     }
   ]
 }

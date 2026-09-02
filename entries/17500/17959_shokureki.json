@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "17959_shokureki_ex1",
-      "japanese": "{履歴書|りれきしょ}に{職歴|しょくれき}を{書|か}いた。",
+      "japanese": "⟦{履歴書|りれきしょ}→履歴書：04691_rirekisho⟧⟦に→に：00314_ni⟧{職歴|しょくれき}⟦を→を：00422_wo⟧⟦{書|か}いた→書く：00477_kaku⟧。",
       "english": "I wrote my work history on my resume.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17959_shokureki_ex2",
-      "japanese": "{職歴|しょくれき}がないと{就職|しゅうしょく}が{難|むずか}しい。",
+      "japanese": "{職歴|しょくれき}⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧⟦と→と：00512_to⟧⟦{就職|しゅうしょく}→就職：03209_shuushoku⟧⟦が→が：00051_ga⟧⟦{難|むずか}しい→難しい：00517_muzukashii⟧。",
       "english": "It's hard to find a job without work experience.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17959_shokureki_ex3",
-      "japanese": "{面接|めんせつ}では、これまでの{職歴|しょくれき}について{詳|くわ}しく{聞|き}かれることが{多|おお}い。",
+      "japanese": "⟦{面接|めんせつ}→面接：01100_mensetsu⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧、⟦これ→これ：00963_kore⟧⟦まで→まで：00490_made⟧⟦の→の：09472_no⟧{職歴|しょくれき}⟦について→〜について：03103_nitsuite⟧⟦{詳|くわ}しく→詳しい：02483_kuwashii⟧⟦{聞|き}かれる→聞く：00483_kiku⟧こと⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "In interviews, you are often asked in detail about your work history.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nPrimarily used in job-hunting and HR contexts. On Japanese resumes ({履歴書|りれきしょ}), there is a dedicated section for {職歴|しょくれき} where applicants list their previous employers in chronological order.\n\nCOMMON COLLOCATIONS:\n- {職歴|しょくれき}を{書|か}く (write one's work history)\n- {職歴|しょくれき}{欄|らん} (work history section on a form)\n- {職歴|しょくれき}なし (no work experience)\n- {豊富|ほうふ}な{職歴|しょくれき} (extensive work history)\n\nSIMILAR WORDS:\n- {学歴|がくれき}: educational background — the academic counterpart, often paired with {職歴|しょくれき} on resumes\n- {経歴|けいれき}: career background — broader term covering both education and work, or general life history\n- {実務経験|じつむけいけん}: practical experience — focuses on hands-on skills gained through work",
+  "notes": "USAGE:\nPrimarily used in job-hunting and HR contexts. On Japanese resumes (⟦{履歴書|りれきしょ}→履歴書：04691_rirekisho⟧), there is a dedicated section for {職歴|しょくれき} where applicants list their previous employers in chronological order.\n\nCOMMON COLLOCATIONS:\n- {職歴|しょくれき}⟦を→を：00422_wo⟧⟦{書|か}く→書く：00477_kaku⟧ (write one's work history)\n- {職歴|しょくれき}⟦{欄|らん}→欄：03901_ran⟧ (work history section on a form)\n- {職歴|しょくれき}なし (no work experience)\n- ⟦{豊富|ほうふ}→豊富：03620_houfu⟧な{職歴|しょくれき} (extensive work history)\n\nSIMILAR WORDS:\n- ⟦{学歴|がくれき}→学歴：02628_gakureki⟧: educational background — the academic counterpart, often paired with {職歴|しょくれき} on resumes\n- ⟦{経歴|けいれき}→経歴：13795_keireki⟧: career background — broader term covering both education and work, or general life history\n- {実務経験|じつむけいけん}: practical experience — focuses on hands-on skills gained through work",
   "cross_references": [
     {
       "type": "related",
@@ -46,18 +52,36 @@
       "reading": "がくれき",
       "headword": "{学歴|がくれき}",
       "label": "educational background"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13795_keireki",
+      "reading": "けいれき",
+      "headword": "{経歴|けいれき}",
+      "label": "career background"
+    },
+    {
+      "type": "related",
+      "target_id": "19429_byoureki",
+      "reading": "びょうれき",
+      "headword": "{病歴|びょうれき}",
+      "label": "medical history"
     }
   ],
   "metadata": {
     "created": "2026-03-19T10:01:12Z",
-    "modified": "2026-05-07T10:07:56Z",
+    "modified": "2026-09-02T04:01:50Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["work"]
+      "semantic": [
+        "work"
+      ]
     }
   }
 }

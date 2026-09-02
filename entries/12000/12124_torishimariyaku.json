@@ -15,42 +15,77 @@
   "examples": [
     {
       "id": "12124_torishimariyaku_ex1",
-      "japanese": "{彼|かれ}は{取締役|とりしまりやく}に{就任|しゅうにん}した。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{取締役|とりしまりやく}⟦に→に：00314_ni⟧⟦{就任|しゅうにん}→就任：12368_shuunin⟧⟦した→する：00392_suru⟧。",
       "english": "He was appointed as a company director.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12124_torishimariyaku_ex2",
-      "japanese": "{取締役会|とりしまりやくかい}で{新|あたら}しい{方針|ほうしん}が{決定|けってい}された。",
+      "japanese": "⟦{取締役会|とりしまりやくかい}→取締役会：28600_torishimariyakukai⟧⟦で→で：00502_de⟧⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦{方針|ほうしん}→方針：04871_houshin⟧⟦が→が：00051_ga⟧⟦{決定|けってい}→決定：02701_kettei⟧⟦された→する：00392_suru⟧。",
       "english": "A new policy was decided at the board of directors meeting.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12124_torishimariyaku_ex3",
-      "japanese": "{同社|どうしゃ}は{社外|しゃがい}{取締役|とりしまりやく}を{二名|にめい}{新|あら}たに{迎|むか}え、ガバナンスの{強化|きょうか}を{図|はか}る。",
+      "japanese": "{同社|どうしゃ}⟦は→は：00079_ha⟧{社外|しゃがい}{取締役|とりしまりやく}⟦を→を：00422_wo⟧{二名|にめい}⟦{新|あら}た→新た：01697_arata⟧⟦に→に：00314_ni⟧⟦{迎|むか}え→迎える：01193_mukaeru⟧、⟦ガバナンス→ガバナンス：07820_gabanansu⟧⟦の→の：09472_no⟧⟦{強化|きょうか}→強化：00260_kyouka⟧⟦を→を：00422_wo⟧⟦{図|はか}る→図る：12006_hakaru⟧。",
       "english": "The company will newly appoint two outside directors to strengthen governance.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\n{取締役|とりしまりやく} is a formal legal title used in Japanese corporate law ({会社法|かいしゃほう}). The word is commonly abbreviated in compound titles.\n\nCOMMON COLLOCATIONS:\n- {取締役会|とりしまりやくかい}: board of directors (meeting)\n- {代表取締役|だいひょうとりしまりやく}: representative director (CEO equivalent)\n- {社外|しゃがい}{取締役|とりしまりやく}: outside director\n- {常務|じょうむ}{取締役|とりしまりやく}: managing director\n- {専務|せんむ}{取締役|とりしまりやく}: senior managing director\n- {取締役|とりしまりやく}に{就任|しゅうにん}する: to be appointed as director",
-  "cross_references": [],
+  "notes": "USAGE:\n{取締役|とりしまりやく} is a formal legal title used in Japanese corporate law ({会社法|かいしゃほう}). The word is commonly abbreviated in compound titles.\n\nCOMMON COLLOCATIONS:\n- ⟦{取締役会|とりしまりやくかい}→取締役会：28600_torishimariyakukai⟧: board of directors (meeting)\n- {代表取締役|だいひょうとりしまりやく}: representative director (CEO equivalent)\n- {社外|しゃがい}{取締役|とりしまりやく}: outside director\n- ⟦{常務|じょうむ}→常務：27575_joumu⟧{取締役|とりしまりやく}: managing director\n- ⟦{専務|せんむ}→専務：19291_senmu⟧{取締役|とりしまりやく}: senior managing director\n- {取締役|とりしまりやく}⟦に→に：00314_ni⟧⟦{就任|しゅうにん}→就任：12368_shuunin⟧⟦する→する：00392_suru⟧: to be appointed as director",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "07445_torishimari",
+      "reading": "とりしまり",
+      "headword": "{取|と}り{締|し}まり",
+      "label": "control"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13558_riji",
+      "reading": "りじ",
+      "headword": "{理事|りじ}",
+      "label": "director, board member"
+    },
+    {
+      "type": "related",
+      "target_id": "19291_senmu",
+      "reading": "せんむ",
+      "headword": "{専務|せんむ}",
+      "label": "executive director"
+    }
+  ],
   "metadata": {
     "created": "2026-02-20T08:53:19Z",
-    "modified": "2026-02-20T08:53:19Z",
+    "modified": "2026-09-02T04:01:27Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["occupation"],
-      "domain": ["business", "legal"]
+      "semantic": [
+        "occupation"
+      ],
+      "domain": [
+        "business",
+        "legal"
+      ]
     }
   }
 }

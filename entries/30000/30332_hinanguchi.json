@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30332_hinanguchi_ex1",
-      "japanese": "{避難口|ひなんぐち}を{確認|かくにん}してください。",
+      "japanese": "{避難口|ひなんぐち}⟦を→を：00422_wo⟧⟦{確認|かくにん}して→確認する：25332_kakuninsuru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please check where the emergency exits are.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30332_hinanguchi_ex2",
-      "japanese": "{避難口|ひなんぐち}の{前|まえ}に{物|もの}を{置|お}かないでください。",
+      "japanese": "{避難口|ひなんぐち}⟦の→の：09472_no⟧⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧⟦{物|もの}→物：02259_mono⟧⟦を→を：00422_wo⟧⟦{置|お}かないで→置く：01092_oku⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please do not place objects in front of the emergency exit.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30332_hinanguchi_ex3",
-      "japanese": "{煙|けむり}が{充満|じゅうまん}する{前|まえ}に、{一番|いちばん}{近|ちか}い{避難口|ひなんぐち}から{外|そと}へ{出|で}た。",
+      "japanese": "⟦{煙|けむり}→煙：02705_kemuri⟧⟦が→が：00051_ga⟧⟦{充満|じゅうまん}→充満：17055_juuman⟧⟦する→する：00392_suru⟧⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧、⟦{一番|いちばん}→一番：01140_ichiban⟧⟦{近|ちか}い→近い：00530_chikai⟧{避難口|ひなんぐち}⟦から→から：00504_kara⟧⟦{外|そと}→外：00671_soto⟧⟦へ→へ：02473_he⟧⟦{出|で}た→出る：00513_deru⟧。",
       "english": "Before the smoke filled the room, we got outside through the nearest emergency exit.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "Formed from {避難|ひなん} (evacuation, taking refuge) plus 〜{口|ぐち} (opening, gateway), which voices to ぐち in compounds.\n\nCOMMON COLLOCATIONS:\n- {避難口|ひなんぐち}{誘導灯|ゆうどうとう}: emergency exit guidance light\n- {避難口|ひなんぐち}を{塞|ふさ}ぐ: to block an emergency exit\n- {最寄|もよ}りの{避難口|ひなんぐち}: the nearest emergency exit\n\nSIMILAR WORDS:\n- {非常口|ひじょうぐち}: emergency exit — far more common in everyday speech and on green exit signs; {避難口|ひなんぐち} is the more technical, fire-code term",
+  "notes": "Formed from ⟦{避難|ひなん}→避難：07908_hinan⟧ (evacuation, taking refuge) plus 〜{口|ぐち} (opening, gateway), which voices to ぐち in compounds.\n\nCOMMON COLLOCATIONS:\n- {避難口|ひなんぐち}⟦{誘導灯|ゆうどうとう}→誘導灯：23857_yuudoutou⟧: emergency exit guidance light\n- {避難口|ひなんぐち}⟦を→を：00422_wo⟧⟦{塞|ふさ}ぐ→塞ぐ：00046_fusagu⟧: to block an emergency exit\n- ⟦{最寄|もよ}り→最寄り：28821_moyori⟧⟦の→の：09472_no⟧{避難口|ひなんぐち}: the nearest emergency exit\n\nSIMILAR WORDS:\n- ⟦{非常口|ひじょうぐち}→非常口：07045_hijouguchi⟧: emergency exit — far more common in everyday speech and on green exit signs; {避難口|ひなんぐち} is the more technical, fire-code term",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07045_hijouguchi",
+      "reading": "ひじょうぐち",
+      "headword": "{非常口|ひじょうぐち}",
+      "label": "emergency exit"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +62,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "building",
         "society"
@@ -61,6 +70,6 @@
       "domain": []
     },
     "created": "2026-08-02T09:20:18Z",
-    "modified": "2026-08-02T09:28:44Z"
+    "modified": "2026-09-02T04:02:39Z"
   }
 }

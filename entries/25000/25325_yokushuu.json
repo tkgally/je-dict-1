@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25325_yokushuu_ex1",
-      "japanese": "{翌週|よくしゅう}にもう{一度|いちど}{会|あ}うことにした。",
+      "japanese": "{翌週|よくしゅう}⟦に→に：00314_ni⟧⟦もう{一度|いちど}→もう一度：02976_mouichido⟧⟦{会|あ}う→会う：00482_au⟧ことにした。",
       "english": "We decided to meet once more the following week.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25325_yokushuu_ex2",
-      "japanese": "{会議|かいぎ}は{翌週|よくしゅう}の{月曜日|げつようび}に{延期|えんき}された。",
+      "japanese": "⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦は→は：00079_ha⟧{翌週|よくしゅう}⟦の→の：09472_no⟧⟦{月曜日|げつようび}→月曜日：00624_getsuyoubi⟧⟦に→に：00314_ni⟧⟦{延期|えんき}→延期：01888_enki⟧⟦された→する：00392_suru⟧。",
       "english": "The meeting was postponed to Monday of the following week.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25325_yokushuu_ex3",
-      "japanese": "{試験|しけん}が{終|お}わり、{翌週|よくしゅう}から{春休|はるやす}みが{始|はじ}まった。",
+      "japanese": "⟦{試験|しけん}→試験：01422_shiken⟧⟦が→が：00051_ga⟧{終|お}わり、{翌週|よくしゅう}⟦から→から：00504_kara⟧⟦{春休|はるやす}み→春休み：19115_haruyasumi⟧⟦が→が：00051_ga⟧⟦{始|はじ}まった→始まる：00841_hajimaru⟧。",
       "english": "The exams ended, and spring break started from the following week.",
       "sense_numbers": [
         1
@@ -44,19 +44,50 @@
       "notes": null
     }
   ],
-  "notes": "A time expression referring to the week after a given reference point. Unlike {来週|らいしゅう} (next week), which is relative to the present moment, {翌週|よくしゅう} is used in narrative or written contexts to refer to the week after a past event. Part of the {翌|よく} series of time words.\n\nCOMMON COLLOCATIONS:\n- {翌週|よくしゅう}の{月曜日|げつようび}: the Monday of the following week\n- {翌週|よくしゅう}に{入|はい}る: enter the following week\n\nRELATED TERMS:\n- {翌日|よくじつ}: the following day\n- {翌月|よくげつ}: the following month\n- {翌年|よくねん}: the following year\n- {来週|らいしゅう}: next week — relative to the present, used in conversation",
+  "notes": "A time expression referring to the week after a given reference point. Unlike ⟦{来週|らいしゅう}→来週：00746_raishuu⟧ (next week), which is relative to the present moment, {翌週|よくしゅう} is used in narrative or written contexts to refer to the week after a past event. Part of the ⟦{翌|よく}→翌〜：03970_yoku⟧ series of time words.\n\nCOMMON COLLOCATIONS:\n- {翌週|よくしゅう}⟦の→の：09472_no⟧⟦{月曜日|げつようび}→月曜日：00624_getsuyoubi⟧: the Monday of the following week\n- {翌週|よくしゅう}⟦に→に：00314_ni⟧⟦{入|はい}る→入る：00494_hairu⟧: enter the following week\n\nRELATED WORDS:\n- ⟦{翌日|よくじつ}→翌日：17960_yokujitsu⟧: the following day\n- ⟦{翌月|よくげつ}→翌月：21206_yokugetsu⟧: the following month\n- ⟦{翌年|よくねん}→翌年：23355_yokunen⟧: the following year\n- ⟦{来週|らいしゅう}→来週：00746_raishuu⟧: next week — relative to the present, used in conversation",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "17960_yokujitsu",
+      "reading": "よくじつ",
+      "headword": "{翌日|よくじつ}",
+      "label": "the following day"
+    },
+    {
+      "type": "related",
+      "target_id": "21206_yokugetsu",
+      "reading": "よくげつ",
+      "headword": "{翌月|よくげつ}",
+      "label": "the following month"
+    },
+    {
+      "type": "related",
+      "target_id": "23355_yokunen",
+      "reading": "よくねん",
+      "headword": "{翌年|よくねん}",
+      "label": "the following year"
+    },
+    {
+      "type": "related",
+      "target_id": "00746_raishuu",
+      "reading": "らいしゅう",
+      "headword": "{来週|らいしゅう}",
+      "label": "next week"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "time-general"
       ]
     },
     "created": "2026-04-24T14:29:10Z",
-    "modified": "2026-08-04T12:59:53Z"
+    "modified": "2026-09-02T04:02:22Z"
   }
 }

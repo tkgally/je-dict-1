@@ -2,7 +2,7 @@
   "id": "10029_kunkai",
   "headword": "{訓戒|くんかい}",
   "reading": "くんかい",
-  "part_of_speech": "noun, suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "admonition, warning, reprimand",
   "conjugation": {
     "type": "suru",
@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "10029_kunkai_ex1",
-      "japanese": "{上司|じょうし}から{訓戒|くんかい}を{受|う}けた。",
+      "japanese": "⟦{上司|じょうし}→上司：03286_joushi⟧⟦から→から：00504_kara⟧{訓戒|くんかい}⟦を→を：00422_wo⟧⟦{受|う}けた→受ける：01215_ukeru⟧。",
       "english": "I received a reprimand from my boss.",
       "sense_numbers": [
         1
@@ -114,7 +114,7 @@
     },
     {
       "id": "10029_kunkai_ex2",
-      "japanese": "{先生|せんせい}は{生徒|せいと}を{訓戒|くんかい}した。",
+      "japanese": "⟦{先生|せんせい}→先生：00609_sensei⟧⟦は→は：00079_ha⟧⟦{生徒|せいと}→生徒：01051_seito⟧⟦を→を：00422_wo⟧{訓戒|くんかい}⟦した→する：00392_suru⟧。",
       "english": "The teacher admonished the student.",
       "sense_numbers": [
         1
@@ -124,7 +124,7 @@
     },
     {
       "id": "10029_kunkai_ex3",
-      "japanese": "{父|ちち}の{訓戒|くんかい}を{心|こころ}に{刻|きざ}んでいる。",
+      "japanese": "⟦{父|ちち}→父：00566_chichi⟧⟦の→の：09472_no⟧{訓戒|くんかい}⟦を→を：00422_wo⟧⟦{心|こころ}→心：01321_kokoro⟧⟦に→に：00314_ni⟧⟦{刻|きざ}んでいる→刻む：03918_kizamu⟧。",
       "english": "I have engraved my father's admonitions in my heart.",
       "sense_numbers": [
         1
@@ -134,7 +134,7 @@
     },
     {
       "id": "10029_kunkai_ex4",
-      "japanese": "{訓戒|くんかい}{処分|しょぶん}が{下|くだ}された。",
+      "japanese": "{訓戒|くんかい}⟦{処分|しょぶん}→処分：05520_shobun⟧⟦が→が：00051_ga⟧⟦{下|くだ}された→下す：12329_kudasu⟧。",
       "english": "A disciplinary warning was issued.",
       "sense_numbers": [
         1
@@ -143,11 +143,33 @@
       "notes": null
     }
   ],
-  "notes": "{訓戒|くんかい} is a formal word for admonition or reprimand.\n\nUSAGE:\n- {訓戒|くんかい}する: to admonish, to reprimand (suru-verb)\n- {訓戒|くんかい}を{受|う}ける: to receive an admonition\n- {訓戒|くんかい}{処分|しょぶん}: disciplinary warning (official punishment category)\n\nREGISTER:\nFormal; used in official, workplace, or educational contexts.\n\nRELATED:\n- {忠告|ちゅうこく}: advice, warning (less formal)\n- {戒|いまし}め: admonition, lesson\n- {叱責|しっせき}: rebuke, scolding",
-  "cross_references": [],
+  "notes": "{訓戒|くんかい} is a formal word for admonition or reprimand.\n\nUSAGE:\n- {訓戒|くんかい}⟦する→する：00392_suru⟧: to admonish, to reprimand (suru-verb)\n- {訓戒|くんかい}⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧: to receive an admonition\n- {訓戒|くんかい}⟦{処分|しょぶん}→処分：05520_shobun⟧: disciplinary warning (official punishment category)\n\nREGISTER:\nFormal; used in official, workplace, or educational contexts.\n\nRELATED WORDS:\n- ⟦{忠告|ちゅうこく}→忠告：05462_chuukoku⟧: advice, warning (less formal)\n- ⟦{戒|いまし}め→戒め：20179_imashime⟧: admonition, lesson\n- ⟦{叱責|しっせき}→叱責：09471_shisseki⟧: rebuke, scolding",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "05462_chuukoku",
+      "reading": "ちゅうこく",
+      "headword": "{忠告|ちゅうこく}",
+      "label": "advice, warning"
+    },
+    {
+      "type": "related",
+      "target_id": "20179_imashime",
+      "reading": "いましめ",
+      "headword": "{戒|いまし}め",
+      "label": "admonition, lesson"
+    },
+    {
+      "type": "related",
+      "target_id": "09471_shisseki",
+      "reading": "しっせき",
+      "headword": "{叱責|しっせき}",
+      "label": "rebuke, scolding"
+    }
+  ],
   "metadata": {
     "created": "2026-02-04T14:18:11Z",
-    "modified": "2026-03-29T03:07:35Z",
+    "modified": "2026-09-02T04:01:19Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -161,7 +183,8 @@
         "communication",
         "work"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "17036_kouyuukai_ex1",
-      "japanese": "{校友会|こうゆうかい}の{総会|そうかい}に{出席|しゅっせき}した。",
+      "japanese": "{校友会|こうゆうかい}⟦の→の：09472_no⟧⟦{総会|そうかい}→総会：13855_soukai⟧⟦に→に：00314_ni⟧⟦{出席|しゅっせき}した→出席する：01830_shussekisuru⟧。",
       "english": "I attended the alumni association general meeting.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "17036_kouyuukai_ex2",
-      "japanese": "{校友会|こうゆうかい}から{寄付|きふ}のお{願|ねが}いが{届|とど}いた。",
+      "japanese": "{校友会|こうゆうかい}⟦から→から：00504_kara⟧⟦{寄付|きふ}→寄付：02584_kifu⟧⟦の→の：09472_no⟧⟦お{願|ねが}い→お願い：10299_onegai⟧⟦が→が：00051_ga⟧⟦{届|とど}いた→届く：00899_todoku⟧。",
       "english": "A donation request arrived from the alumni association.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "17036_kouyuukai_ex3",
-      "japanese": "{校友会|こうゆうかい}のネットワークを{通|つう}じて{就職先|しゅうしょくさき}を{紹介|しょうかい}してもらった。",
+      "japanese": "{校友会|こうゆうかい}⟦の→の：09472_no⟧⟦ネットワーク→ネットワーク：04759_nettowaaku⟧⟦を→を：00422_wo⟧⟦{通|つう}じて→通じる：02289_tsuujiru⟧{就職先|しゅうしょくさき}⟦を→を：00422_wo⟧⟦{紹介|しょうかい}して→紹介する：05641_shoukaisuru⟧⟦もらった→もらう：00520_morau⟧。",
       "english": "I was introduced to a job through the alumni association network.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,19 @@
       ]
     }
   ],
-  "notes": "USAGE:\nAlumni associations play an important role in Japanese society, especially for prestigious universities. They facilitate networking, career support, and fundraising. Some famous ones include Waseda's {稲門会|とうもんかい} and Keio's {三田会|みたかい}.\n\nSIMILAR WORDS:\n- {同窓会|どうそうかい}: class reunion — can also mean alumni association, but more commonly refers to a reunion gathering of classmates\n- OB{会|かい}: alumni gathering — more informal, especially for club or team alumni",
-  "cross_references": [],
+  "notes": "USAGE:\nAlumni associations play an important role in Japanese society, especially for prestigious universities. They facilitate networking, career support, and fundraising. Some famous ones include Waseda's {稲門会|とうもんかい} and Keio's {三田会|みたかい}.\n\nSIMILAR WORDS:\n- ⟦{同窓会|どうそうかい}→同窓会：15875_dousoukai⟧: class reunion — can also mean alumni association, but more commonly refers to a reunion gathering of classmates\n- OB{会|かい}: alumni gathering — more informal, especially for club or team alumni",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15875_dousoukai",
+      "reading": "どうそうかい",
+      "headword": "{同窓会|どうそうかい}",
+      "label": "class reunion"
+    }
+  ],
   "metadata": {
     "created": "2026-03-15T07:20:58Z",
-    "modified": "2026-07-22T03:30:08Z",
+    "modified": "2026-09-02T04:01:47Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

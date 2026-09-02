@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "19596_beikoku_ex1",
-      "japanese": "{米国|べいこく}に{留学|りゅうがく}した。",
+      "japanese": "{米国|べいこく}⟦に→に：00314_ni⟧⟦{留学|りゅうがく}→留学：03677_ryuugaku⟧⟦した→する：00392_suru⟧。",
       "english": "I studied abroad in the United States.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "19596_beikoku_ex2",
-      "japanese": "{米国|べいこく}{大統領|だいとうりょう}が{来日|らいにち}した。",
+      "japanese": "{米国|べいこく}{大統領|だいとうりょう}⟦が→が：00051_ga⟧⟦{来日|らいにち}→来日：13060_rainichi⟧⟦した→する：00392_suru⟧。",
       "english": "The U.S. president visited Japan.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "19596_beikoku_ex3",
-      "japanese": "{日本|にほん}と{米国|べいこく}は{経済|けいざい}{面|めん}で{密接|みっせつ}な{関係|かんけい}にある。",
+      "japanese": "⟦{日本|にほん}→日本：03876_nihon⟧⟦と→と：00512_to⟧{米国|べいこく}⟦は→は：00079_ha⟧⟦{経済|けいざい}→経済：01394_keizai⟧⟦{面|めん}→面：09933_men⟧⟦で→で：00502_de⟧⟦{密接|みっせつ}→密接：12289_missetsu⟧な⟦{関係|かんけい}→関係：01298_kankei⟧⟦に→に：00314_ni⟧⟦ある→ある：00006_aru⟧。",
       "english": "Japan and the United States have a close economic relationship.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "A formal abbreviation of {亜米利加合衆国|あめりかがっしゅうこく} (United States of America). The kanji {米|べい} was chosen as a phonetic representation of the first syllable of \"America\" (メ). Standard in news, politics, and formal writing.\n\nUSAGE:\nUsed primarily in news media, official documents, and formal writing. In everyday conversation, アメリカ is far more common. The {米|べい} prefix appears in many compounds.\n\nCOMMON COLLOCATIONS:\n- {米国|べいこく}{大統領|だいとうりょう} — U.S. president\n- {米国|べいこく}{政府|せいふ} — U.S. government\n- {日米|にちべい}{関係|かんけい} — Japan-U.S. relations\n- {在米|ざいべい} — residing in America\n- {訪米|ほうべい} — a visit to America\n\nSIMILAR WORDS:\n- アメリカ — America; the everyday word used in casual and neutral contexts\n- {合衆国|がっしゅうこく} — the United States; an abbreviation of the full formal name, less common than {米国|べいこく}",
+  "notes": "A formal abbreviation of {亜米利加合衆国|あめりかがっしゅうこく} (United States of America). The kanji ⟦{米|べい}→米：28297_bei⟧ was chosen as a phonetic representation of the first syllable of \"America\" (メ). Standard in news, politics, and formal writing.\n\nUSAGE:\nUsed primarily in news media, official documents, and formal writing. In everyday conversation, ⟦アメリカ→アメリカ：01769_amerika⟧ is far more common. The ⟦{米|べい}→米：28297_bei⟧ prefix appears in many compounds.\n\nCOMMON COLLOCATIONS:\n- {米国|べいこく}{大統領|だいとうりょう} — U.S. president\n- {米国|べいこく}⟦{政府|せいふ}→政府：03294_seifu⟧ — U.S. government\n- ⟦{日米|にちべい}→日米：13092_nichibei⟧⟦{関係|かんけい}→関係：01298_kankei⟧ — Japan-U.S. relations\n- {在米|ざいべい} — residing in America\n- ⟦{訪米|ほうべい}→訪米：22848_houbei⟧ — a visit to America\n\nSIMILAR WORDS:\n- ⟦アメリカ→アメリカ：01769_amerika⟧ — America; the everyday word used in casual and neutral contexts\n- {合衆国|がっしゅうこく} — the United States; an abbreviation of the full formal name, less common than {米国|べいこく}",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01769_amerika",
+      "reading": "あめりか",
+      "headword": "アメリカ",
+      "label": "America"
+    },
+    {
+      "type": "related",
+      "target_id": "25663_chuubei",
+      "reading": "ちゅうべい",
+      "headword": "{中米|ちゅうべい}",
+      "label": "Central America"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +75,6 @@
       ]
     },
     "created": "2026-03-26T07:28:20Z",
-    "modified": "2026-07-26T21:31:07Z"
+    "modified": "2026-09-02T04:01:56Z"
   }
 }

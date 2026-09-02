@@ -3,7 +3,7 @@
   "headword": "{鼎談|ていだん}",
   "reading": "ていだん",
   "romaji": "teidan",
-  "part_of_speech": "noun, verb (する)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "three-person discussion; trilateral talk",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22024_teidan_ex1",
-      "japanese": "{三人|さんにん}の{専門家|せんもんか}による{鼎談|ていだん}が{行|おこな}われた。",
+      "japanese": "⟦{三人|さんにん}→三人：10978_sannin⟧⟦の→の：09472_no⟧⟦{専門家|せんもんか}→専門家：03088_senmonka⟧⟦による→による：28349_niyoru⟧{鼎談|ていだん}⟦が→が：00051_ga⟧⟦{行|おこな}われた→行う：01238_okonau⟧。",
       "english": "A three-way discussion among three experts was held.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22024_teidan_ex2",
-      "japanese": "{雑誌|ざっし}に{鼎談|ていだん}{記事|きじ}が{掲載|けいさい}された。",
+      "japanese": "⟦{雑誌|ざっし}→雑誌：00686_zasshi⟧⟦に→に：00314_ni⟧{鼎談|ていだん}⟦{記事|きじ}→記事：00227_kiji⟧⟦が→が：00051_ga⟧⟦{掲載|けいさい}→掲載：08993_keisai⟧⟦された→する：00392_suru⟧。",
       "english": "A three-person discussion article was published in the magazine.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22024_teidan_ex3",
-      "japanese": "{作家|さっか}と{編集者|へんしゅうしゃ}と{批評家|ひひょうか}が{鼎談|ていだん}する{企画|きかく}が{人気|にんき}を{集|あつ}めている。",
+      "japanese": "⟦{作家|さっか}→作家：01414_sakka⟧⟦と→と：00512_to⟧⟦{編集者|へんしゅうしゃ}→編集者：09587_henshuusha⟧⟦と→と：00512_to⟧⟦{批評家|ひひょうか}→批評家：19430_hihyouka⟧⟦が→が：00051_ga⟧{鼎談|ていだん}⟦する→する：00392_suru⟧⟦{企画|きかく}→企画：04879_kikaku⟧⟦が→が：00051_ga⟧⟦{人気|にんき}→人気：01488_ninki⟧⟦を→を：00422_wo⟧⟦{集|あつ}めている→集める：01170_atsumeru⟧。",
       "english": "A project where an author, editor, and critic have a three-way discussion is gaining popularity.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "The character {鼎|てい} refers to a three-legged bronze vessel from ancient China, hence the association with the number three. This word specifically implies exactly three participants, unlike {座談|ざだん} which can have any number.\n\nCOMMON COLLOCATIONS:\n- {鼎談|ていだん}{記事|きじ}: three-person discussion article\n- {鼎談|ていだん}{企画|きかく}: three-way discussion project\n- {鼎談|ていだん}する: to have a three-person discussion\n- {鼎談|ていだん}を{行|おこな}う: to hold a three-person discussion\n\nSIMILAR WORDS:\n- {対談|たいだん}: dialogue; conversation between two people — specifically two participants\n- {座談|ざだん}: round-table discussion — any number of participants\n- {座談会|ざだんかい}: round-table discussion meeting — a more common general term for group discussions\n- {討論|とうろん}: debate; discussion — formal discussion with opposing viewpoints",
+  "notes": "The character {鼎|てい} refers to a three-legged bronze vessel from ancient China, hence the association with the number three. This word specifically implies exactly three participants, unlike {座談|ざだん} which can have any number.\n\nCOMMON COLLOCATIONS:\n- {鼎談|ていだん}⟦{記事|きじ}→記事：00227_kiji⟧: three-person discussion article\n- {鼎談|ていだん}⟦{企画|きかく}→企画：04879_kikaku⟧: three-way discussion project\n- {鼎談|ていだん}⟦する→する：00392_suru⟧: to have a three-person discussion\n- {鼎談|ていだん}⟦を→を：00422_wo⟧⟦{行|おこな}う→行う：01238_okonau⟧: to hold a three-person discussion\n\nSIMILAR WORDS:\n- ⟦{対談|たいだん}→対談：19950_taidan⟧: dialogue; conversation between two people — specifically two participants\n- {座談|ざだん}: round-table discussion — any number of participants\n- ⟦{座談会|ざだんかい}→座談会：12549_zadankai⟧: round-table discussion meeting — a more common general term for group discussions\n- ⟦{討論|とうろん}→討論：05100_touron⟧: debate; discussion — formal discussion with opposing viewpoints",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19950_taidan",
+      "reading": "たいだん",
+      "headword": "{対談|たいだん}",
+      "label": "dialogue"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12549_zadankai",
+      "reading": "ざだんかい",
+      "headword": "{座談会|ざだんかい}",
+      "label": "round-table discussion meeting"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05100_touron",
+      "reading": "とうろん",
+      "headword": "{討論|とうろん}",
+      "label": "debate"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -58,10 +81,11 @@
       "semantic": [
         "communication"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     },
     "created": "2026-04-04T20:27:41Z",
-    "modified": "2026-04-04T20:27:41Z"
+    "modified": "2026-09-02T04:02:06Z"
   },
   "conjugation": {
     "type": "suru",

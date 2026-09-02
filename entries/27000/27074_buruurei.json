@@ -15,40 +15,67 @@
   "examples": [
     {
       "id": "27074_buruurei_ex1",
-      "japanese": "この{映画|えいが}はブルーレイで{持|も}っている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{映画|えいが}→映画：02273_eiga⟧⟦は→は：00079_ha⟧ブルーレイ⟦で→で：00502_de⟧⟦{持|も}っている→持つ：00478_motsu⟧。",
       "english": "I have this movie on Blu-ray.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27074_buruurei_ex2",
-      "japanese": "DVDよりブルーレイのほうが{画質|がしつ}がいい。",
+      "japanese": "DVD⟦より→より：09476_yori⟧ブルーレイ⟦の→の：09472_no⟧ほう⟦が→が：00051_ga⟧⟦{画質|がしつ}→画質：16156_gashitsu⟧⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧。",
       "english": "Blu-ray has better picture quality than DVD.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27074_buruurei_ex3",
-      "japanese": "ブルーレイレコーダーで{番組|ばんぐみ}を{録画|ろくが}して、{週末|しゅうまつ}にまとめて{見|み}ている。",
+      "japanese": "ブルーレイ⟦レコーダー→レコーダー：23720_rekoodaa⟧⟦で→で：00502_de⟧⟦{番組|ばんぐみ}→番組：01705_bangumi⟧⟦を→を：00422_wo⟧⟦{録画|ろくが}→録画：04441_rokuga⟧⟦して→する：00392_suru⟧、⟦{週末|しゅうまつ}→週末：03030_shuumatsu⟧⟦に→に：00314_ni⟧⟦まとめて→まとめる：02424_matomeru⟧⟦{見|み}ている→見る：00283_miru⟧。",
       "english": "I record programs on my Blu-ray recorder and watch them all together on weekends.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "From English \"Blu-ray.\" Widely used in Japan where physical media (discs) remain more popular than in many other countries. While streaming services have grown, many Japanese consumers still buy and rent ブルーレイ for movies and TV series. Often abbreviated to BD in product specifications.\n\nCOMMON COLLOCATIONS:\n- ブルーレイディスク: Blu-ray disc\n- ブルーレイレコーダー: Blu-ray recorder\n- ブルーレイプレーヤー: Blu-ray player\n- ブルーレイ{化|か}: Blu-ray release (of older content)\n- ブルーレイBOX: Blu-ray box set\n\nSIMILAR WORDS:\n- DVD: DVD — the predecessor format with lower resolution\n- ディスク: disc — the general term for optical media\n- {配信|はいしん}: streaming; distribution — the digital alternative to physical media",
+  "notes": "From English \"Blu-ray.\" Widely used in Japan where physical media (discs) remain more popular than in many other countries. While streaming services have grown, many Japanese consumers still buy and rent ブルーレイ for movies and TV series. Often abbreviated to BD in product specifications.\n\nCOMMON COLLOCATIONS:\n- ブルーレイディスク: Blu-ray disc\n- ブルーレイ⟦レコーダー→レコーダー：23720_rekoodaa⟧: Blu-ray recorder\n- ブルーレイプレーヤー: Blu-ray player\n- ブルーレイ⟦{化|か}→〜化：28335_ka⟧: Blu-ray release (of older content)\n- ブルーレイBOX: Blu-ray box set\n\nSIMILAR WORDS:\n- DVD: DVD — the predecessor format with lower resolution\n- ⟦ディスク→ディスク：24410_disuku⟧: disc — the general term for optical media\n- ⟦{配信|はいしん}→配信：04898_haishin⟧: streaming; distribution — the digital alternative to physical media",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24410_disuku",
+      "reading": "でぃすく",
+      "headword": "ディスク",
+      "label": "disc"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04898_haishin",
+      "reading": "はいしん",
+      "headword": "{配信|はいしん}",
+      "label": "streaming"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["technology", "entertainment"]
+      "semantic": [
+        "technology",
+        "entertainment"
+      ]
     },
     "created": "2026-05-06T16:09:27Z",
-    "modified": "2026-05-06T16:09:27Z"
+    "modified": "2026-09-02T04:02:29Z"
   }
 }

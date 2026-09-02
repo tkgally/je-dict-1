@@ -14,38 +14,74 @@
   "examples": [
     {
       "id": "08116_rokku_ex1",
-      "japanese": "ロックが{大好|だいす}きだ。",
+      "japanese": "ロック⟦が→が：00051_ga⟧⟦{大好|だいす}き→大好き：02911_daisuki⟧だ。",
       "english": "I love rock music.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "08116_rokku_ex2",
-      "japanese": "{高校|こうこう}{時代|じだい}にロックバンドを{組|く}んでいた。",
+      "japanese": "⟦{高校|こうこう}→高校：01083_koukou⟧⟦{時代|じだい}→時代：01424_jidai⟧⟦に→に：00314_ni⟧ロック⟦バンド→バンド：05508_bando⟧⟦を→を：00422_wo⟧⟦{組|く}んでいた→組む：02050_kumu⟧。",
       "english": "I was in a rock band in high school.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "08116_rokku_ex3",
-      "japanese": "この{曲|きょく}はロックとポップスを{融合|ゆうごう}させたサウンドだ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{曲|きょく}→曲：09881_kyoku⟧⟦は→は：00079_ha⟧ロック⟦と→と：00512_to⟧ポップス⟦を→を：00422_wo⟧⟦{融合|ゆうごう}→融合：14036_yuugou⟧⟦させた→する：00392_suru⟧⟦サウンド→サウンド：10961_saundo⟧だ。",
       "english": "This song has a sound that fuses rock and pop.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "SUBGENRES:\nMany rock subgenres are used in Japanese:\n- ハードロック (hard rock)\n- パンクロック (punk rock)\n- オルタナティブロック (alternative rock)\n- プログレッシブロック (progressive rock)\n\nJAPANESE ROCK:\nJ-ロック or Jロック refers to Japanese rock music, which has a distinct style and large following.\n\nNOTE:\nロック as \"lock\" (to lock something) is a different word with the same reading. Context makes the meaning clear.",
+  "notes": "SUBGENRES:\nMany rock subgenres are used in Japanese:\n- ハードロック (hard rock)\n- パンクロック (punk rock)\n- オルタナティブロック (alternative rock)\n- プログレッシブロック (progressive rock)\n\nJAPANESE ROCK:\nJ-ロック or Jロック refers to Japanese rock music, which has a distinct style and large following.\n\nUSAGE:\nロック as \"lock\" (to lock something) is a different word with the same reading. Context makes the meaning clear.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03838_kurashikku",
+      "reading": "くらしっく",
+      "headword": "クラシック",
+      "label": "classical music"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28103_oyuwari",
+      "reading": "おゆわり",
+      "headword": "お{湯|ゆ}{割|わ}り",
+      "label": "(shochu, etc.) mixed with hot water"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28908_yuwari",
+      "reading": "ゆわり",
+      "headword": "{湯割|ゆわ}り",
+      "label": "(spirits) cut with hot water"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "semantic": ["music", "genre", "entertainment"]
+      "politeness": "plain",
+      "semantic": [
+        "music",
+        "genre",
+        "entertainment"
+      ]
     },
     "created": "2026-01-25T05:17:08Z",
-    "modified": "2026-01-25T05:17:08Z"
+    "modified": "2026-09-02T04:01:14Z"
   }
 }

@@ -20,7 +20,7 @@
   "examples": [
     {
       "id": "30311_nantomo_ex1",
-      "japanese": "なんとも{言|い}えない{味|あじ}だ。",
+      "japanese": "なんとも⟦{言|い}えない→言う：00515_iu⟧⟦{味|あじ}→味：00826_aji⟧だ。",
       "english": "It has an indescribable flavor.",
       "sense_numbers": [
         1
@@ -30,7 +30,7 @@
     },
     {
       "id": "30311_nantomo_ex2",
-      "japanese": "なんとも{不思議|ふしぎ}な{話|はなし}ですね。",
+      "japanese": "なんとも⟦{不思議|ふしぎ}→不思議：02358_fushigi⟧な⟦{話|はなし}→話：01496_hanashi⟧です⟦ね→ね：09474_ne⟧。",
       "english": "What a strange story that is.",
       "sense_numbers": [
         1
@@ -40,7 +40,7 @@
     },
     {
       "id": "30311_nantomo_ex3",
-      "japanese": "{久|ひさ}しぶりに{故郷|こきょう}の{景色|けしき}を{見|み}て、なんとも{懐|なつ}かしい{気持|きも}ちになった。",
+      "japanese": "⟦{久|ひさ}しぶり→久しぶり：01711_hisashiburi⟧⟦に→に：00314_ni⟧⟦{故郷|こきょう}→故郷：02733_kokyou⟧⟦の→の：09472_no⟧⟦{景色|けしき}→景色：01395_keshiki⟧⟦を→を：00422_wo⟧⟦{見|み}て→見る：00283_miru⟧、なんとも⟦{懐|なつ}かしい→懐かしい：02484_natsukashii⟧{気持|きも}ちになった。",
       "english": "Seeing my hometown scenery after so long filled me with an indescribable nostalgia.",
       "sense_numbers": [
         1
@@ -50,7 +50,7 @@
     },
     {
       "id": "30311_nantomo_ex4",
-      "japanese": "なんともありません。",
+      "japanese": "なんとも⟦ありません→ある：00006_aru⟧。",
       "english": "I'm perfectly fine.",
       "sense_numbers": [
         2
@@ -60,7 +60,7 @@
     },
     {
       "id": "30311_nantomo_ex5",
-      "japanese": "この{程度|ていど}の{寒|さむ}さならなんとも{思|おも}わない。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{程度|ていど}→程度：01468_teido⟧⟦の→の：09472_no⟧⟦{寒|さむ}さ→寒さ：12336_samusa⟧ならなんとも⟦{思|おも}わない→思う：00492_omou⟧。",
       "english": "Cold like this doesn't bother me in the least.",
       "sense_numbers": [
         2
@@ -70,7 +70,7 @@
     },
     {
       "id": "30311_nantomo_ex6",
-      "japanese": "{結果|けっか}が{出|で}るまでは、なんとも{申|もう}し{上|あ}げられません。",
+      "japanese": "⟦{結果|けっか}→結果：02486_kekka⟧⟦が→が：00051_ga⟧⟦{出|で}る→出る：00513_deru⟧⟦まで→まで：00490_made⟧⟦は→は：00079_ha⟧、なんとも⟦{申|もう}し{上|あ}げられません→申し上げる：01734_moushiageru⟧。",
       "english": "Until the results are in, I cannot say anything at all.",
       "sense_numbers": [
         2
@@ -79,7 +79,7 @@
       "notes": null
     }
   ],
-  "notes": "From {何|なん} + と + も. Which sense applies is decided entirely by whether the predicate is affirmative or negative, so read to the end of the clause before interpreting it.\n\nCOMMON PATTERNS:\n- なんとも{言|い}えない: indescribable; impossible to say either way\n- なんとも{思|おも}わない: to think nothing of it, to be unbothered\n- なんともない: to be fine, to be nothing serious\n- なんとも{申|もう}し{上|あ}げられない: I am not in a position to comment (formal)\n\nUSAGE:\nSense 1 before an adjective is a warm, slightly literary intensifier: なんとも{美|うつく}しい (ever so beautiful). Sense 2's なんともない is the standard reply to \"are you hurt?\" or \"is anything wrong?\".",
+  "notes": "From ⟦{何|なん}→何〜：03100_nan⟧ + ⟦と→と：00512_to⟧ + ⟦も→も：00484_mo⟧. Which sense applies is decided entirely by whether the predicate is affirmative or negative, so read to the end of the clause before interpreting it.\n\nCOMMON PATTERNS:\n- なんとも⟦{言|い}えない→言う：00515_iu⟧: indescribable; impossible to say either way\n- なんとも⟦{思|おも}わない→思う：00492_omou⟧: to think nothing of it, to be unbothered\n- なんとも⟦ない→ない：01118_nai⟧: to be fine, to be nothing serious\n- なんとも⟦{申|もう}し{上|あ}げられない→申し上げる：01734_moushiageru⟧: I am not in a position to comment (formal)\n\nUSAGE:\nSense 1 before an adjective is a warm, slightly literary intensifier: なんとも⟦{美|うつく}しい→美しい：01121_utsukushii⟧ (ever so beautiful). Sense 2's なんとも⟦ない→ない：01118_nai⟧ is the standard reply to \"are you hurt?\" or \"is anything wrong?\".",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -88,13 +88,13 @@
         "adverb"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "grammatical"
       ],
       "domain": []
     },
     "created": "2026-08-01T15:17:17Z",
-    "modified": "2026-08-01T15:17:17Z"
+    "modified": "2026-09-02T04:02:39Z"
   }
 }

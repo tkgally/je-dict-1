@@ -15,40 +15,60 @@
   "examples": [
     {
       "id": "20921_furyousaiken_ex1",
-      "japanese": "{不良債権|ふりょうさいけん}を{処理|しょり}する。",
+      "japanese": "{不良債権|ふりょうさいけん}⟦を→を：00422_wo⟧⟦{処理|しょり}する→処理する：25531_shorisuru⟧。",
       "english": "To deal with bad debts.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20921_furyousaiken_ex2",
-      "japanese": "{銀行|ぎんこう}の{不良債権|ふりょうさいけん}が{膨|ふく}らんでいる。",
+      "japanese": "⟦{銀行|ぎんこう}→銀行：00578_ginkou⟧⟦の→の：09472_no⟧{不良債権|ふりょうさいけん}⟦が→が：00051_ga⟧⟦{膨|ふく}らんでいる→膨らむ：05342_fukuramu⟧。",
       "english": "The bank's bad debts are growing.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20921_furyousaiken_ex3",
-      "japanese": "バブル{崩壊後|ほうかいご}、{多|おお}くの{銀行|ぎんこう}が{不良債権|ふりょうさいけん}{問題|もんだい}に{苦|くる}しんだ。",
+      "japanese": "⟦バブル→バブル：11120_baburu⟧{崩壊後|ほうかいご}、{多|おお}く⟦の→の：09472_no⟧⟦{銀行|ぎんこう}→銀行：00578_ginkou⟧⟦が→が：00051_ga⟧{不良債権|ふりょうさいけん}⟦{問題|もんだい}→問題：00797_mondai⟧⟦に→に：00314_ni⟧⟦{苦|くる}しんだ→苦しむ：01938_kurushimu⟧。",
       "english": "After the bubble burst, many banks suffered from bad debt problems.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {不良|ふりょう} (defective, bad) + {債権|さいけん} (claim, receivable, credit). A central concept in Japanese economic history, particularly during the post-bubble period of the 1990s when massive non-performing loans nearly collapsed the banking system.\n\nCOMMON COLLOCATIONS:\n- {不良債権|ふりょうさいけん}を{処理|しょり}する: to dispose of bad debts\n- {不良債権|ふりょうさいけん}{問題|もんだい}: bad debt problem\n- {不良債権|ふりょうさいけん}{比率|ひりつ}: non-performing loan ratio\n- {不良債権|ふりょうさいけん}の{処分|しょぶん}: write-off of bad debts\n\nHISTORICAL NOTE:\nThe {不良債権|ふりょうさいけん}{問題|もんだい} was a defining issue of Japan's \"{失|うしな}われた{十年|じゅうねん}\" (Lost Decade) in the 1990s. Banks had lent heavily during the bubble economy, and when land and stock prices collapsed, these loans became unrecoverable.\n\nRELATED TERMS:\n- {債権|さいけん}: claim, receivable — the right to collect a debt\n- {債務|さいむ}: debt, liability — the obligation to repay\n- {貸|か}し{倒|だお}れ: bad debt, uncollectible loan — a more colloquial term",
+  "notes": "Composed of ⟦{不良|ふりょう}→不良：11320_furyou⟧ (defective, bad) + ⟦{債権|さいけん}→債権：08870_saiken⟧ (claim, receivable, credit). A central concept in Japanese economic history, particularly during the post-bubble period of the 1990s when massive non-performing loans nearly collapsed the banking system.\n\nCOMMON COLLOCATIONS:\n- {不良債権|ふりょうさいけん}⟦を→を：00422_wo⟧⟦{処理|しょり}する→処理する：25531_shorisuru⟧: to dispose of bad debts\n- {不良債権|ふりょうさいけん}⟦{問題|もんだい}→問題：00797_mondai⟧: bad debt problem\n- {不良債権|ふりょうさいけん}⟦{比率|ひりつ}→比率：06727_hiritsu⟧: non-performing loan ratio\n- {不良債権|ふりょうさいけん}⟦の→の：09472_no⟧⟦{処分|しょぶん}→処分：05520_shobun⟧: write-off of bad debts\n\nETYMOLOGY:\nThe {不良債権|ふりょうさいけん}⟦{問題|もんだい}→問題：00797_mondai⟧ was a defining issue of Japan's \"⟦{失|うしな}われた→失う：01887_ushinau⟧{十年|じゅうねん}\" (Lost Decade) in the 1990s. Banks had lent heavily during the bubble economy, and when land and stock prices collapsed, these loans became unrecoverable.\n\nRELATED WORDS:\n- ⟦{債権|さいけん}→債権：08870_saiken⟧: claim, receivable — the right to collect a debt\n- ⟦{債務|さいむ}→債務：06578_saimu⟧: debt, liability — the obligation to repay\n- {貸|か}し{倒|だお}れ: bad debt, uncollectible loan — a more colloquial term",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "06578_saimu",
+      "reading": "さいむ",
+      "headword": "{債務|さいむ}",
+      "label": "debt, liability"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["finance", "economics"]
+      "semantic": [
+        "finance",
+        "economics"
+      ]
     },
     "created": "2026-03-30T20:17:53Z",
-    "modified": "2026-03-30T20:17:53Z"
+    "modified": "2026-09-02T04:02:01Z"
   }
 }

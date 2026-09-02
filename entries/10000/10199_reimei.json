@@ -19,7 +19,7 @@
   "examples": [
     {
       "id": "10199_reimei_ex1",
-      "japanese": "{黎明|れいめい}の{光|ひかり}が{差|さ}し{込|こ}む。",
+      "japanese": "{黎明|れいめい}⟦の→の：09472_no⟧⟦{光|ひかり}→光：01707_hikari⟧⟦が→が：00051_ga⟧⟦{差|さ}し{込|こ}む→差し込む：04235_sashikomu⟧。",
       "english": "The light of dawn streams in.",
       "notes": null,
       "has_audio": false,
@@ -29,7 +29,7 @@
     },
     {
       "id": "10199_reimei_ex2",
-      "japanese": "{黎明|れいめい}に{目|め}を{覚|さ}ました。",
+      "japanese": "{黎明|れいめい}⟦に→に：00314_ni⟧⟦{目|め}→目：00525_me⟧⟦を→を：00422_wo⟧⟦{覚|さ}ました→覚ます：02057_samasu⟧。",
       "english": "I woke up at dawn.",
       "notes": null,
       "has_audio": false,
@@ -39,7 +39,7 @@
     },
     {
       "id": "10199_reimei_ex3",
-      "japanese": "{黎明|れいめい}の{空|そら}が{美|うつく}しかった。",
+      "japanese": "{黎明|れいめい}⟦の→の：09472_no⟧⟦{空|そら}→空：02216_sora⟧⟦が→が：00051_ga⟧⟦{美|うつく}しかった→美しい：01121_utsukushii⟧。",
       "english": "The dawn sky was beautiful.",
       "notes": null,
       "has_audio": false,
@@ -49,7 +49,7 @@
     },
     {
       "id": "10199_reimei_ex4",
-      "japanese": "コンピューター{黎明期|れいめいき}の{話|はなし}だ。",
+      "japanese": "⟦コンピューター→コンピューター：01530_konpyuutaa⟧⟦{黎明期|れいめいき}→黎明期：14711_reimeiki⟧⟦の→の：09472_no⟧⟦{話|はなし}→話：01496_hanashi⟧だ。",
       "english": "This is a story from the dawn of computers.",
       "notes": null,
       "has_audio": false,
@@ -59,7 +59,7 @@
     },
     {
       "id": "10199_reimei_ex5",
-      "japanese": "{近代|きんだい}{文学|ぶんがく}の{黎明|れいめい}を{研究|けんきゅう}している。",
+      "japanese": "⟦{近代|きんだい}→近代：02663_kindai⟧⟦{文学|ぶんがく}→文学：01505_bungaku⟧⟦の→の：09472_no⟧{黎明|れいめい}⟦を→を：00422_wo⟧⟦{研究|けんきゅう}→研究：01396_kenkyuu⟧⟦している→する：00392_suru⟧。",
       "english": "I am researching the dawn of modern literature.",
       "notes": null,
       "has_audio": false,
@@ -69,7 +69,7 @@
     },
     {
       "id": "10199_reimei_ex6",
-      "japanese": "{産業革命|さんぎょうかくめい}は{新|あたら}しい{時代|じだい}の{黎明|れいめい}だった。",
+      "japanese": "⟦{産業革命|さんぎょうかくめい}→産業革命：18638_sangyoukakumei⟧⟦は→は：00079_ha⟧⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦{時代|じだい}→時代：01424_jidai⟧⟦の→の：09472_no⟧{黎明|れいめい}だった。",
       "english": "The Industrial Revolution was the dawn of a new era.",
       "notes": null,
       "has_audio": false,
@@ -78,7 +78,7 @@
       ]
     }
   ],
-  "notes": "WORD FORMATION:\n{黎|れい} (dark) + {明|めい} (bright) - the transition from dark to light\n\nREGISTER:\n{黎明|れいめい} is a literary/formal term. For everyday use, {夜明|よあ}け or {明|あ}け{方|がた} are more common for sense 1.\n\nCOMMON COMPOUND:\n{黎明期|れいめいき} (dawn period, early stage) - very common when describing the beginning of fields, technologies, or eras.\n\nRELATED TERMS:\n- {曙|あけぼの}: dawn (literary)\n- {暁|あかつき}: dawn, daybreak\n- {夜明|よあ}け: dawn (common)\n- {薄暮|はくぼ}: dusk (opposite time)",
+  "notes": "FORMS:\n{黎|れい} (dark) + {明|めい} (bright) - the transition from dark to light\n\nREGISTER:\n{黎明|れいめい} is a literary/formal term. For everyday use, ⟦{夜明|よあ}け→夜明け：03655_yoake⟧ or ⟦{明|あ}け{方|がた}→明け方：17595_akegata⟧ are more common for sense 1.\n\nCOMMON COMPOUND:\n⟦{黎明期|れいめいき}→黎明期：14711_reimeiki⟧ (dawn period, early stage) - very common when describing the beginning of fields, technologies, or eras.\n\nRELATED WORDS:\n- ⟦{曙|あけぼの}→曙：10035_akebono⟧: dawn (literary)\n- ⟦{暁|あかつき}→暁：10036_akatsuki⟧: dawn, daybreak\n- ⟦{夜明|よあ}け→夜明け：03655_yoake⟧: dawn (common)\n- ⟦{薄暮|はくぼ}→薄暮：10198_hakubo⟧: dusk (opposite time)",
   "cross_references": [
     {
       "type": "antonym",
@@ -86,11 +86,39 @@
       "reading": "はくぼ",
       "headword": "{薄暮|はくぼ}",
       "label": "dusk, twilight"
+    },
+    {
+      "type": "related",
+      "target_id": "10035_akebono",
+      "reading": "あけぼの",
+      "headword": "{曙|あけぼの}",
+      "label": "dawn"
+    },
+    {
+      "type": "related",
+      "target_id": "10036_akatsuki",
+      "reading": "あかつき",
+      "headword": "{暁|あかつき}",
+      "label": "dawn, daybreak"
+    },
+    {
+      "type": "related",
+      "target_id": "03655_yoake",
+      "reading": "よあけ",
+      "headword": "{夜明|よあ}け",
+      "label": "dawn"
+    },
+    {
+      "type": "related",
+      "target_id": "09127_futsugyou",
+      "reading": "ふつぎょう",
+      "headword": "{払暁|ふつぎょう}",
+      "label": "dawn, daybreak"
     }
   ],
   "metadata": {
     "created": "2026-02-05T12:58:08Z",
-    "modified": "2026-08-14T01:00:44Z",
+    "modified": "2026-09-02T04:01:20Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

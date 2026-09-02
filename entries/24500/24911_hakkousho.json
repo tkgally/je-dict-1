@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24911_hakkousho_ex1",
-      "japanese": "{発行所|はっこうしょ}を{確認|かくにん}する。",
+      "japanese": "{発行所|はっこうしょ}⟦を→を：00422_wo⟧⟦{確認|かくにん}する→確認する：25332_kakuninsuru⟧。",
       "english": "To check the publisher.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24911_hakkousho_ex2",
-      "japanese": "{本|ほん}の{奥付|おくづけ}に{発行所|はっこうしょ}が{記載|きさい}されている。",
+      "japanese": "{本|ほん}⟦の→の：09472_no⟧{奥付|おくづけ}⟦に→に：00314_ni⟧{発行所|はっこうしょ}⟦が→が：00051_ga⟧⟦{記載|きさい}→記載：14169_kisai⟧⟦されている→する：00392_suru⟧。",
       "english": "The publisher is listed on the colophon page of the book.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24911_hakkousho_ex3",
-      "japanese": "この{雑誌|ざっし}の{発行所|はっこうしょ}は{大阪|おおさか}にある{小|ちい}さな{出版社|しゅっぱんしゃ}だ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{雑誌|ざっし}→雑誌：00686_zasshi⟧⟦の→の：09472_no⟧{発行所|はっこうしょ}⟦は→は：00079_ha⟧⟦{大阪|おおさか}→大阪：09779_oosaka⟧⟦に→に：00314_ni⟧⟦ある→ある：00006_aru⟧⟦{小|ちい}さな→小さな：02913_chiisana⟧⟦{出版社|しゅっぱんしゃ}→出版社：11765_shuppansha⟧だ。",
       "english": "The publisher of this magazine is a small publishing company based in Osaka.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {発行|はっこう} (publication; issuance) + {所|しょ} (place; office). This term appears on the {奥付|おくづけ} (colophon) page found at the back of Japanese books, alongside the {発行者|はっこうしゃ} (publisher name), {発行日|はっこうび} (publication date), and printing information.\n\nCOMMON COLLOCATIONS:\n- {発行所|はっこうしょ}の{住所|じゅうしょ}: publisher's address\n- {発行所|はっこうしょ}{名|めい}: publisher name\n\nSIMILAR WORDS:\n- {出版社|しゅっぱんしゃ}: publishing company — the more commonly used everyday term for a publisher; {発行所|はっこうしょ} is the formal term used in copyright information\n- {発行者|はっこうしゃ}: publisher (person) — refers to the individual or entity responsible for publication\n- {印刷所|いんさつしょ}: printing office — the place that physically prints the publication, distinct from the publisher",
+  "notes": "Composed of ⟦{発行|はっこう}→発行：03693_hakkou⟧ (publication; issuance) + ⟦{所|しょ}→〜所：09844_sho⟧ (place; office). This term appears on the {奥付|おくづけ} (colophon) page found at the back of Japanese books, alongside the {発行者|はっこうしゃ} (publisher name), {発行日|はっこうび} (publication date), and printing information.\n\nCOMMON COLLOCATIONS:\n- {発行所|はっこうしょ}⟦の→の：09472_no⟧⟦{住所|じゅうしょ}→住所：01430_juusho⟧: publisher's address\n- {発行所|はっこうしょ}{名|めい}: publisher name\n\nSIMILAR WORDS:\n- ⟦{出版社|しゅっぱんしゃ}→出版社：11765_shuppansha⟧: publishing company — the more commonly used everyday term for a publisher; {発行所|はっこうしょ} is the formal term used in copyright information\n- {発行者|はっこうしゃ}: publisher (person) — refers to the individual or entity responsible for publication\n- {印刷所|いんさつしょ}: printing office — the place that physically prints the publication, distinct from the publisher",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11765_shuppansha",
+      "reading": "しゅっぱんしゃ",
+      "headword": "{出版社|しゅっぱんしゃ}",
+      "label": "publishing company"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +69,6 @@
       ]
     },
     "created": "2026-04-21T12:15:49Z",
-    "modified": "2026-08-03T09:25:07Z"
+    "modified": "2026-09-02T04:02:20Z"
   }
 }

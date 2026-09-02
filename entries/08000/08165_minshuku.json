@@ -14,46 +14,56 @@
   "examples": [
     {
       "id": "08165_minsyuku_ex1",
-      "japanese": "{民宿|みんしゅく}に{泊|と}まる。",
+      "japanese": "{民宿|みんしゅく}⟦に→に：00314_ni⟧⟦{泊|と}まる→泊まる：10445_tomaru⟧。",
       "english": "To stay at a guesthouse.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "08165_minsyuku_ex2",
-      "japanese": "{海辺|うみべ}の{民宿|みんしゅく}を{予約|よやく}した。",
+      "japanese": "⟦{海辺|うみべ}→海辺：05498_umibe⟧⟦の→の：09472_no⟧{民宿|みんしゅく}⟦を→を：00422_wo⟧⟦{予約|よやく}した→予約する：22989_yoyakusuru⟧。",
       "english": "I booked a seaside guesthouse.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "08165_minsyuku_ex3",
-      "japanese": "{民宿|みんしゅく}の{朝|あさ}ご{飯|はん}は{地元|じもと}の{食材|しょくざい}を{使|つか}っている。",
+      "japanese": "{民宿|みんしゅく}⟦の→の：09472_no⟧⟦{朝|あさ}ご{飯|はん}→朝ご飯：02843_asagohan⟧⟦は→は：00079_ha⟧⟦{地元|じもと}→地元：09941_jimoto⟧⟦の→の：09472_no⟧⟦{食材|しょくざい}→食材：04940_shokuzai⟧⟦を→を：00422_wo⟧⟦{使|つか}っている→使う：00473_tsukau⟧。",
       "english": "The breakfast at the guesthouse uses local ingredients.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "08165_minsyuku_ex4",
-      "japanese": "ホテルより{民宿|みんしゅく}の{方|ほう}が{安|やす}い。",
+      "japanese": "⟦ホテル→ホテル：01027_hoteru⟧⟦より→より：09476_yori⟧{民宿|みんしゅく}⟦の→の：09472_no⟧⟦{方|ほう}→方：01139_hou⟧⟦が→が：00051_ga⟧⟦{安|やす}い→安い：00464_yasui⟧。",
       "english": "Guesthouses are cheaper than hotels.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "08165_minsyuku_ex5",
-      "japanese": "{民宿|みんしゅく}の{女将|おかみ}さんがとても{親切|しんせつ}だった。",
+      "japanese": "{民宿|みんしゅく}⟦の→の：09472_no⟧⟦{女将|おかみ}→女将：12210_okami⟧さん⟦が→が：00051_ga⟧⟦とても→とても：00593_totemo⟧⟦{親切|しんせつ}→親切：01144_shinsetsu⟧だった。",
       "english": "The hostess at the guesthouse was very kind.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "CHARACTERISTICS:\n- Family-run accommodation\n- Often includes meals ({朝食|ちょうしょく}・{夕食|ゆうしょく})\n- More affordable than hotels\n- Common in rural, mountain, or seaside areas\n- Warm, homey atmosphere\n\nRELATED ACCOMMODATION TYPES:\n- {旅館|りょかん} (traditional Japanese inn - more formal)\n- ペンション (pension - Western-style B&B)\n- ゲストハウス (guesthouse - modern dormitory-style)\n- ホテル (hotel)\n- {宿|やど} (inn, lodging - general term)\n\nMEAL OPTIONS:\n- {素泊|すどま}まり (accommodation only, no meals)\n- {一泊二食|いっぱくにしょく} (one night, two meals)\n- {一泊朝食付|いっぱくちょうしょくつ}き (one night with breakfast)",
+  "notes": "CHARACTERISTICS:\n- Family-run accommodation\n- Often includes meals (⟦{朝食|ちょうしょく}→朝食：03122_choushoku⟧・⟦{夕食|ゆうしょく}→夕食：03006_yuushoku⟧)\n- More affordable than hotels\n- Common in rural, mountain, or seaside areas\n- Warm, homey atmosphere\n\nRELATED ACCOMMODATION TYPES:\n- ⟦{旅館|りょかん}→旅館：01049_ryokan⟧ (traditional Japanese inn - more formal)\n- ⟦ペンション→ペンション：15998_penshon⟧ (pension - Western-style B&B)\n- ⟦ゲストハウス→ゲストハウス：29675_gesutohausu⟧ (guesthouse - modern dormitory-style)\n- ⟦ホテル→ホテル：01027_hoteru⟧ (hotel)\n- ⟦{宿|やど}→宿：03641_yado⟧ (inn, lodging - general term)\n\nMEAL OPTIONS:\n- {素泊|すどま}まり (accommodation only, no meals)\n- {一泊二食|いっぱくにしょく} (one night, two meals)\n- {一泊朝食付|いっぱくちょうしょくつ}き (one night with breakfast)",
   "cross_references": [
     {
       "type": "contrast",
@@ -61,16 +71,50 @@
       "reading": "りょかん",
       "headword": "{旅館|りょかん}",
       "label": "traditional inn (formal)"
+    },
+    {
+      "type": "related",
+      "target_id": "15998_penshon",
+      "reading": "ぺんしょん",
+      "headword": "ペンション",
+      "label": "pension"
+    },
+    {
+      "type": "related",
+      "target_id": "29675_gesutohausu",
+      "reading": "げすとはうす",
+      "headword": "ゲストハウス",
+      "label": "guesthouse"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25209_onsenryokan",
+      "reading": "おんせんりょかん",
+      "headword": "{温泉旅館|おんせんりょかん}",
+      "label": "hot spring inn"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27577_kapuseruhoteru",
+      "reading": "かぷせるほてる",
+      "headword": "カプセルホテル",
+      "label": "capsule hotel"
     }
   ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "semantic": ["travel", "accommodation"]
+      "politeness": "plain",
+      "semantic": [
+        "travel",
+        "accommodation"
+      ]
     },
     "created": "2026-01-25T07:33:27Z",
-    "modified": "2026-04-20T05:05:12Z"
+    "modified": "2026-09-02T04:01:14Z"
   }
 }

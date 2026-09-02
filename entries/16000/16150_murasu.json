@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "16150_murasu_ex1",
-      "japanese": "ご{飯|はん}を{十分|じゅっぷん}{蒸|む}らす。",
+      "japanese": "⟦ご{飯|はん}→ご飯：00776_gohan⟧⟦を→を：00422_wo⟧⟦{十分|じゅっぷん}→十分：09572_juppun⟧{蒸|む}らす。",
       "english": "Let the rice steam for ten minutes.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "16150_murasu_ex2",
-      "japanese": "{炊|た}き{上|あ}がったら{蓋|ふた}を{開|あ}けずに{蒸|む}らしてください。",
+      "japanese": "⟦{炊|た}き{上|あ}がったら→炊き上がる：21619_takiagaru⟧⟦{蓋|ふた}→蓋：03896_futa⟧⟦を→を：00422_wo⟧⟦{開|あ}け→開ける：00563_akeru⟧ず⟦に→に：00314_ni⟧{蒸|む}らして⟦ください→ください：02899_kudasai⟧。",
       "english": "Once the rice is done cooking, let it steam without opening the lid.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "16150_murasu_ex3",
-      "japanese": "パンを{焼|や}いた{後|あと}、{少|すこ}し{蒸|む}らすとふっくら{仕上|しあ}がる。",
+      "japanese": "⟦パン→パン：00553_pan⟧⟦を→を：00422_wo⟧⟦{焼|や}いた→焼く：01123_yaku⟧⟦{後|あと}→後：09580_ato⟧、⟦{少|すこ}し→少し：00596_sukoshi⟧{蒸|む}らす⟦と→と：00512_to⟧⟦ふっくら→ふっくら：28254_fukkura⟧⟦{仕上|しあ}がる→仕上がる：11429_shiagaru⟧。",
       "english": "If you let the bread rest after baking, it turns out fluffy.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "GRAMMAR:\nGodan verb (す ending, conjugates as s-row: {蒸|む}らさない, {蒸|む}らします). Transitive — takes a direct object marked with を.\n\nUSAGE:\n{蒸|む}らす is a key cooking term in Japanese cuisine. The {蒸|む}らし (steaming/resting) step after cooking rice is considered essential for achieving the ideal texture. Most Japanese rice cooker instructions include this step.\n\nCOMMON COLLOCATIONS:\n- ご{飯|はん}を{蒸|む}らす (to let rice rest/steam)\n- {蓋|ふた}をして{蒸|む}らす (to cover and let steam)\n- {蒸|む}らし{時間|じかん} (steaming/resting time)\n- {五分|ごふん}{蒸|む}らす (let rest for five minutes)",
+  "notes": "COMMON PATTERNS:\nGodan verb (す ending, conjugates as s-row: {蒸|む}らさない, {蒸|む}らします). Transitive — takes a direct object marked with ⟦を→を：00422_wo⟧.\n\nUSAGE:\n{蒸|む}らす is a key cooking term in Japanese cuisine. The {蒸|む}らし (steaming/resting) step after cooking rice is considered essential for achieving the ideal texture. Most Japanese rice cooker instructions include this step.\n\nCOMMON COLLOCATIONS:\n- ⟦ご{飯|はん}→ご飯：00776_gohan⟧⟦を→を：00422_wo⟧{蒸|む}らす (to let rice rest/steam)\n- ⟦{蓋|ふた}→蓋：03896_futa⟧⟦を→を：00422_wo⟧⟦して→する：00392_suru⟧{蒸|む}らす (to cover and let steam)\n- {蒸|む}らし⟦{時間|じかん}→時間：00468_jikan⟧ (steaming/resting time)\n- ⟦{五分|ごふん}→五分：09573_gofun⟧{蒸|む}らす (let rest for five minutes)",
   "cross_references": [
     {
       "type": "related",
@@ -142,11 +142,18 @@
       "reading": "むす",
       "headword": "{蒸|む}す",
       "label": "to steam (general)"
+    },
+    {
+      "type": "related",
+      "target_id": "21619_takiagaru",
+      "reading": "たきあがる",
+      "headword": "{炊|た}き{上|あ}がる",
+      "label": "to be done cooking"
     }
   ],
   "metadata": {
     "created": "2026-03-10T06:07:55Z",
-    "modified": "2026-05-03T06:32:09Z",
+    "modified": "2026-09-02T04:01:43Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22531_hanbou_ex1",
-      "japanese": "{繁忙期|はんぼうき}に{入|はい}った。",
+      "japanese": "⟦{繁忙期|はんぼうき}→繁忙期：08366_hanbouki⟧⟦に→に：00314_ni⟧⟦{入|はい}った→入る：00494_hairu⟧。",
       "english": "We've entered the busy season.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22531_hanbou_ex2",
-      "japanese": "{年末|ねんまつ}は{繁忙|はんぼう}を{極|きわ}める。",
+      "japanese": "⟦{年末|ねんまつ}→年末：17688_nenmatsu⟧⟦は→は：00079_ha⟧{繁忙|はんぼう}⟦を→を：00422_wo⟧⟦{極|きわ}める→極める：13139_kiwameru⟧。",
       "english": "The end of the year is extremely hectic.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22531_hanbou_ex3",
-      "japanese": "{繁忙期|はんぼうき}には{残業|ざんぎょう}が{増|ふ}えるので{体調|たいちょう}{管理|かんり}に{気|き}をつけている。",
+      "japanese": "⟦{繁忙期|はんぼうき}→繁忙期：08366_hanbouki⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{残業|ざんぎょう}→残業：01071_zangyou⟧⟦が→が：00051_ga⟧⟦{増|ふ}える→増える：01183_fueru⟧⟦の→の：09472_no⟧で⟦{体調|たいちょう}{管理|かんり}→体調管理：15302_taichoukanri⟧⟦に→に：00314_ni⟧⟦{気|き}をつけている→気をつける：09771_kiwotsukeru⟧。",
       "english": "During the busy season, overtime increases, so I take care to manage my health.",
       "sense_numbers": [
         1
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "A formal word for extreme busyness, most commonly encountered in the compound {繁忙期|はんぼうき} (busy season/period). Composed of {繁|はん} (flourishing, thriving) + {忙|ぼう} (busy). The word carries a business or organizational tone and is rarely used in casual conversation.\n\nCOMMON COLLOCATIONS:\n- {繁忙期|はんぼうき}: busy season, peak period\n- {繁忙|はんぼう}を{極|きわ}める: to be extremely busy\n- {繁忙|はんぼう}{状態|じょうたい}: state of being very busy\n\nSIMILAR WORDS:\n- {多忙|たぼう}: very busy — similar in formality; focuses on having too much to do\n- {忙|いそが}しい: busy — the everyday adjective for being busy\n- {閑散|かんさん}: quiet, slack — the opposite; a period of low activity\n- {繁盛|はんじょう}: thriving, prosperous — describes a business doing well, not just being busy",
+  "notes": "A formal word for extreme busyness, most commonly encountered in the compound ⟦{繁忙期|はんぼうき}→繁忙期：08366_hanbouki⟧ (busy season/period). Composed of {繁|はん} (flourishing, thriving) + {忙|ぼう} (busy). The word carries a business or organizational tone and is rarely used in casual conversation.\n\nCOMMON COLLOCATIONS:\n- ⟦{繁忙期|はんぼうき}→繁忙期：08366_hanbouki⟧: busy season, peak period\n- {繁忙|はんぼう}⟦を→を：00422_wo⟧⟦{極|きわ}める→極める：13139_kiwameru⟧: to be extremely busy\n- {繁忙|はんぼう}⟦{状態|じょうたい}→状態：03345_joutai⟧: state of being very busy\n\nSIMILAR WORDS:\n- ⟦{多忙|たぼう}→多忙：12166_tabou⟧: very busy — similar in formality; focuses on having too much to do\n- ⟦{忙|いそが}しい→忙しい：00591_isogashii⟧: busy — the everyday adjective for being busy\n- ⟦{閑散|かんさん}→閑散：14563_kansan⟧: quiet, slack — the opposite; a period of low activity\n- ⟦{繁盛|はんじょう}→繁盛：09614_hanjou⟧: thriving, prosperous — describes a business doing well, not just being busy",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12166_tabou",
+      "reading": "たぼう",
+      "headword": "{多忙|たぼう}",
+      "label": "very busy"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00591_isogashii",
+      "reading": "いそがしい",
+      "headword": "{忙|いそが}しい",
+      "label": "busy"
+    },
+    {
+      "type": "antonym",
+      "target_id": "14563_kansan",
+      "reading": "かんさん",
+      "headword": "{閑散|かんさん}",
+      "label": "quiet, slack"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09614_hanjou",
+      "reading": "はんじょう",
+      "headword": "{繁盛|はんじょう}",
+      "label": "thriving, prosperous"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +89,6 @@
       ]
     },
     "created": "2026-04-06T17:26:52Z",
-    "modified": "2026-04-10T08:28:27Z"
+    "modified": "2026-09-02T04:02:08Z"
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24379_gyuushi_ex1",
-      "japanese": "{鉄板|てっぱん}に{牛脂|ぎゅうし}を{塗|ぬ}る。",
+      "japanese": "⟦{鉄板|てっぱん}→鉄板：14470_teppan⟧⟦に→に：00314_ni⟧{牛脂|ぎゅうし}⟦を→を：00422_wo⟧⟦{塗|ぬ}る→塗る：01174_nuru⟧。",
       "english": "Rub beef tallow on the griddle.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24379_gyuushi_ex2",
-      "japanese": "{焼肉|やきにく}{屋|や}で{牛脂|ぎゅうし}をもらって{網|あみ}に{塗|ぬ}った。",
+      "japanese": "⟦{焼肉|やきにく}→焼肉：04984_yakiniku⟧⟦{屋|や}→〜屋：03096_ya⟧⟦で→で：00502_de⟧{牛脂|ぎゅうし}⟦を→を：00422_wo⟧⟦もらって→もらう：00520_morau⟧⟦{網|あみ}→網：22587_ami⟧⟦に→に：00314_ni⟧⟦{塗|ぬ}った→塗る：01174_nuru⟧。",
       "english": "I got some beef tallow at the yakiniku restaurant and rubbed it on the grill.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24379_gyuushi_ex3",
-      "japanese": "{牛脂|ぎゅうし}で{炒|いた}めると{風味|ふうみ}が{増|ま}す。",
+      "japanese": "{牛脂|ぎゅうし}⟦で→で：00502_de⟧⟦{炒|いた}める→炒める：01879_itameru⟧⟦と→と：00512_to⟧⟦{風味|ふうみ}→風味：14622_fuumi⟧⟦が→が：00051_ga⟧⟦{増|ま}す→増す：02422_masu⟧。",
       "english": "Stir-frying with beef tallow enhances the flavor.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {牛|ぎゅう} ('cow; cattle; beef') and {脂|し} ('fat; tallow'). The solid white fat rendered from beef, with a high melting point that makes it useful for greasing cooking surfaces.\n\nUSAGE:\n- At {焼肉|やきにく} (yakiniku) and {鉄板焼|てっぱんやき} (teppanyaki) restaurants, small cubes of {牛脂|ぎゅうし} are often provided free of charge to grease the grill before cooking.\n- In home cooking, {牛脂|ぎゅうし} can be obtained free from the meat counter at supermarkets — simply ask the butcher.\n- Also used historically in soap and candle making, and industrially as a lubricant.\n\nCOMMON COLLOCATIONS:\n- {牛脂|ぎゅうし}を{塗|ぬ}る: to rub beef tallow (on a cooking surface)\n- {牛脂|ぎゅうし}で{炒|いた}める: to stir-fry with beef tallow\n- {牛脂|ぎゅうし}を{溶|と}かす: to melt beef tallow\n\nSIMILAR WORDS:\n- {豚脂|とんし}: lard; pork fat — the equivalent rendered fat from pigs\n- ラード: lard — the loanword for rendered pork fat, commonly used in Japanese cooking\n- バター: butter — dairy fat, also used for cooking but with a different flavor profile\n- {脂身|あぶらみ}: fatty part (of meat) — the fat still attached to a cut of meat, as opposed to rendered tallow",
+  "notes": "Compound of {牛|ぎゅう} ('cow; cattle; beef') and {脂|し} ('fat; tallow'). The solid white fat rendered from beef, with a high melting point that makes it useful for greasing cooking surfaces.\n\nUSAGE:\n- At ⟦{焼肉|やきにく}→焼肉：04984_yakiniku⟧ (yakiniku) and {鉄板焼|てっぱんやき} (teppanyaki) restaurants, small cubes of {牛脂|ぎゅうし} are often provided free of charge to grease the grill before cooking.\n- In home cooking, {牛脂|ぎゅうし} can be obtained free from the meat counter at supermarkets — simply ask the butcher.\n- Also used historically in soap and candle making, and industrially as a lubricant.\n\nCOMMON COLLOCATIONS:\n- {牛脂|ぎゅうし}⟦を→を：00422_wo⟧⟦{塗|ぬ}る→塗る：01174_nuru⟧: to rub beef tallow (on a cooking surface)\n- {牛脂|ぎゅうし}⟦で→で：00502_de⟧⟦{炒|いた}める→炒める：01879_itameru⟧: to stir-fry with beef tallow\n- {牛脂|ぎゅうし}⟦を→を：00422_wo⟧⟦{溶|と}かす→溶かす：08264_tokasu⟧: to melt beef tallow\n\nSIMILAR WORDS:\n- {豚脂|とんし}: lard; pork fat — the equivalent rendered fat from pigs\n- ⟦ラード→ラード：13638_raado⟧: lard — the loanword for rendered pork fat, commonly used in Japanese cooking\n- ⟦バター→バター：04671_bataa⟧: butter — dairy fat, also used for cooking but with a different flavor profile\n- ⟦{脂身|あぶらみ}→脂身：20673_aburami⟧: fatty part (of meat) — the fat still attached to a cut of meat, as opposed to rendered tallow",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13638_raado",
+      "reading": "らーど",
+      "headword": "ラード",
+      "label": "lard"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04671_bataa",
+      "reading": "ばたー",
+      "headword": "バター",
+      "label": "butter"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20673_aburami",
+      "reading": "あぶらみ",
+      "headword": "{脂身|あぶらみ}",
+      "label": "fatty part"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -64,6 +87,6 @@
       ]
     },
     "created": "2026-04-18T15:28:24Z",
-    "modified": "2026-04-18T15:28:24Z"
+    "modified": "2026-09-02T04:02:18Z"
   }
 }

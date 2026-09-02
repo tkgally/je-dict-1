@@ -15,41 +15,74 @@
   "examples": [
     {
       "id": "20604_gankin_ex1",
-      "japanese": "{元金|がんきん}を{返済|へんさい}する。",
+      "japanese": "{元金|がんきん}⟦を→を：00422_wo⟧⟦{返済|へんさい}→返済：04776_hensai⟧⟦する→する：00392_suru⟧。",
       "english": "To repay the principal.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "20604_gankin_ex2",
-      "japanese": "{利息|りそく}だけでなく{元金|がんきん}も{減|へ}らしていかなければならない。",
+      "japanese": "⟦{利息|りそく}→利息：05469_risoku⟧⟦だけでなく→〜だけでなく：18373_dakedenaku⟧{元金|がんきん}⟦も→も：00484_mo⟧⟦{減|へ}らして→減らす：02414_herasu⟧いか⟦なければならない→なければならない：27600_nakerebanaranai⟧。",
       "english": "You need to reduce not just the interest but also the principal.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "20604_gankin_ex3",
-      "japanese": "{投資|とうし}した{元金|がんきん}を{回収|かいしゅう}するまでに{三年|さんねん}かかった。",
+      "japanese": "⟦{投資|とうし}→投資：04711_toushi⟧⟦した→する：00392_suru⟧{元金|がんきん}⟦を→を：00422_wo⟧⟦{回収|かいしゅう}する→回収する：21142_kaishuusuru⟧⟦まで→まで：00490_made⟧⟦に→に：00314_ni⟧⟦{三年|さんねん}→三年：10984_sannen⟧⟦かかった→かかる：00711_kakaru⟧。",
       "english": "It took three years to recoup the original investment.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "Composed of {元|がん} (original, base) + {金|きん} (money). A fundamental financial term. Can also be read もときん, though がんきん is more standard.\n\nCOMMON COLLOCATIONS:\n- {元金|がんきん}{返済|へんさい} (principal repayment)\n- {元金|がんきん}{均等|きんとう}{返済|へんさい} (equal principal repayment)\n- {元金|がんきん}を{回収|かいしゅう}する (recoup the principal)\n- {元金|がんきん}{保証|ほしょう} (principal guarantee)\n\nSIMILAR WORDS:\n- {元手|もとで} — capital, seed money (more colloquial, often for starting a business)\n- {資本|しほん} — capital (broader economic term)\n- {利息|りそく} — interest (the return on the principal, the counterpart concept)\n- {元本|がんぽん} — principal (close synonym, slightly more formal/legal)",
-  "cross_references": [],
+  "notes": "Composed of {元|がん} (original, base) + {金|きん} (money). A fundamental financial term. Can also be read もときん, though がんきん is more standard.\n\nCOMMON COLLOCATIONS:\n- {元金|がんきん}⟦{返済|へんさい}→返済：04776_hensai⟧ (principal repayment)\n- {元金|がんきん}{均等|きんとう}⟦{返済|へんさい}→返済：04776_hensai⟧ (equal principal repayment)\n- {元金|がんきん}⟦を→を：00422_wo⟧⟦{回収|かいしゅう}する→回収する：21142_kaishuusuru⟧ (recoup the principal)\n- {元金|がんきん}⟦{保証|ほしょう}→保証：03718_hoshou⟧ (principal guarantee)\n\nSIMILAR WORDS:\n- {元手|もとで} — capital, seed money (more colloquial, often for starting a business)\n- ⟦{資本|しほん}→資本：03197_shihon⟧ — capital (broader economic term)\n- ⟦{利息|りそく}→利息：05469_risoku⟧ — interest (the return on the principal, the counterpart concept)\n- ⟦{元本|がんぽん}→元本：07072_ganpon⟧ — principal (close synonym, slightly more formal/legal)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03197_shihon",
+      "reading": "しほん",
+      "headword": "{資本|しほん}",
+      "label": "capital"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05469_risoku",
+      "reading": "りそく",
+      "headword": "{利息|りそく}",
+      "label": "interest"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07072_ganpon",
+      "reading": "がんぽん",
+      "headword": "{元本|がんぽん}",
+      "label": "principal"
+    }
+  ],
   "metadata": {
     "created": "2026-03-29T19:23:38Z",
-    "modified": "2026-03-29T19:23:38Z",
+    "modified": "2026-09-02T04:02:00Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["money", "business"]
+      "semantic": [
+        "money",
+        "business"
+      ]
     }
   }
 }

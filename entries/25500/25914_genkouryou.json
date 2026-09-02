@@ -15,39 +15,66 @@
   "examples": [
     {
       "id": "25914_genkouryou_ex1",
-      "japanese": "{原稿料|げんこうりょう}は{一枚|いちまい}いくらですか。",
+      "japanese": "{原稿料|げんこうりょう}⟦は→は：00079_ha⟧⟦{一枚|いちまい}→一枚：08889_ichimai⟧いくらです⟦か→か：09473_ka⟧。",
       "english": "How much is the fee per page?",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "25914_genkouryou_ex2",
-      "japanese": "{雑誌|ざっし}に{記事|きじ}を{書|か}いて{原稿料|げんこうりょう}をもらった。",
+      "japanese": "⟦{雑誌|ざっし}→雑誌：00686_zasshi⟧⟦に→に：00314_ni⟧⟦{記事|きじ}→記事：00227_kiji⟧⟦を→を：00422_wo⟧⟦{書|か}いて→書く：00477_kaku⟧{原稿料|げんこうりょう}⟦を→を：00422_wo⟧⟦もらった→もらう：00520_morau⟧。",
       "english": "I wrote an article for a magazine and received a writing fee.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "25914_genkouryou_ex3",
-      "japanese": "{駆|か}け{出|だ}しの{作家|さっか}にとって、{原稿料|げんこうりょう}だけで{生活|せいかつ}するのは{難|むずか}しい。",
+      "japanese": "⟦{駆|か}け{出|だ}し→駆け出し：09078_kakedashi⟧⟦の→の：09472_no⟧⟦{作家|さっか}→作家：01414_sakka⟧⟦にとって→にとって：06803_nitotte⟧、{原稿料|げんこうりょう}⟦だけ→〜だけ：03093_dake⟧⟦で→で：00502_de⟧⟦{生活|せいかつ}する→生活する：01839_seikatsusuru⟧⟦の→の：09472_no⟧⟦は→は：00079_ha⟧⟦{難|むずか}しい→難しい：00517_muzukashii⟧。",
       "english": "For a beginning writer, it's hard to make a living on manuscript fees alone.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {原稿|げんこう} (manuscript) + {料|りょう} (fee; charge). The standard term for payment to writers and contributors. Traditionally calculated per {原稿|げんこう}{用紙|ようし} page (a 400-character manuscript sheet), though modern usage extends to any form of written content.\n\nCOMMON COLLOCATIONS:\n- {原稿料|げんこうりょう}を{受|う}け{取|と}る: to receive a manuscript fee\n- {原稿料|げんこうりょう}を{支払|しはら}う: to pay a manuscript fee\n- {原稿料|げんこうりょう}が{安|やす}い: the writing fee is low\n- {原稿料|げんこうりょう}で{生活|せいかつ}する: to live on writing fees\n\nSIMILAR WORDS:\n- {印税|いんぜい}: royalties — ongoing payments based on sales, not a one-time fee\n- {報酬|ほうしゅう}: compensation; remuneration — a broader term for professional payment\n- {稿料|こうりょう}: manuscript fee — a shorter, more literary synonym",
-  "cross_references": [],
+  "notes": "Composed of ⟦{原稿|げんこう}→原稿：00064_genkou⟧ (manuscript) + ⟦{料|りょう}→料：28172_ryou⟧ (fee; charge). The standard term for payment to writers and contributors. Traditionally calculated per ⟦{原稿|げんこう}{用紙|ようし}→原稿用紙：15790_genkouyoushi⟧ page (a 400-character manuscript sheet), though modern usage extends to any form of written content.\n\nCOMMON COLLOCATIONS:\n- {原稿料|げんこうりょう}⟦を→を：00422_wo⟧⟦{受|う}け{取|と}る→受け取る：01883_uketoru⟧: to receive a manuscript fee\n- {原稿料|げんこうりょう}⟦を→を：00422_wo⟧⟦{支払|しはら}う→支払う：02116_shiharau⟧: to pay a manuscript fee\n- {原稿料|げんこうりょう}⟦が→が：00051_ga⟧⟦{安|やす}い→安い：00464_yasui⟧: the writing fee is low\n- {原稿料|げんこうりょう}⟦で→で：00502_de⟧⟦{生活|せいかつ}する→生活する：01839_seikatsusuru⟧: to live on writing fees\n\nSIMILAR WORDS:\n- ⟦{印税|いんぜい}→印税：06368_inzei⟧: royalties — ongoing payments based on sales, not a one-time fee\n- ⟦{報酬|ほうしゅう}→報酬：12094_houshuu⟧: compensation; remuneration — a broader term for professional payment\n- {稿料|こうりょう}: manuscript fee — a shorter, more literary synonym",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06368_inzei",
+      "reading": "いんぜい",
+      "headword": "{印税|いんぜい}",
+      "label": "royalties"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12094_houshuu",
+      "reading": "ほうしゅう",
+      "headword": "{報酬|ほうしゅう}",
+      "label": "compensation"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["media", "money"]
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "media",
+        "money"
+      ]
     },
     "created": "2026-04-28T12:22:48Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T04:02:24Z"
   }
 }

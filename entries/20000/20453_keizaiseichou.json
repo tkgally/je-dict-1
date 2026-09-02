@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "20453_keizaiseichou_ex1",
-      "japanese": "{経済成長|けいざいせいちょう}が{鈍化|どんか}している。",
+      "japanese": "{経済成長|けいざいせいちょう}⟦が→が：00051_ga⟧⟦{鈍化|どんか}→鈍化：08000_donka⟧⟦している→する：00392_suru⟧。",
       "english": "Economic growth is slowing down.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "20453_keizaiseichou_ex2",
-      "japanese": "{高度|こうど}{経済成長|けいざいせいちょう}{期|き}に{日本|にほん}は{大|おお}きく{変|か}わった。",
+      "japanese": "⟦{高度|こうど}→高度：00243_koudo⟧{経済成長|けいざいせいちょう}{期|き}⟦に→に：00314_ni⟧⟦{日本|にほん}→日本：03876_nihon⟧⟦は→は：00079_ha⟧⟦{大|おお}きく→大きい：00335_ookii⟧⟦{変|か}わった→変わる：00714_kawaru⟧。",
       "english": "Japan changed dramatically during the period of rapid economic growth.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "20453_keizaiseichou_ex3",
-      "japanese": "{持続|じぞく}{可能|かのう}な{経済成長|けいざいせいちょう}を{実現|じつげん}するためには、{環境|かんきょう}にも{配慮|はいりょ}する{必要|ひつよう}がある。",
+      "japanese": "⟦{持続|じぞく}{可能|かのう}→持続可能：04637_jizokukanou⟧な{経済成長|けいざいせいちょう}⟦を→を：00422_wo⟧⟦{実現|じつげん}→実現：03276_jitsugen⟧⟦する→する：00392_suru⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧、⟦{環境|かんきょう}→環境：00174_kankyou⟧⟦に→に：00314_ni⟧⟦も→も：00484_mo⟧⟦{配慮|はいりょ}する→配慮する：26831_hairyosuru⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "To achieve sustainable economic growth, it is necessary to also consider the environment.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {経済|けいざい} (economy) and {成長|せいちょう} (growth). One of the most frequently used terms in Japanese news and economic discussion.\n\nHISTORICAL CONTEXT:\nJapan's {高度経済成長|こうどけいざいせいちょう} (high economic growth period, roughly 1955-1973) transformed the country from postwar devastation into the world's second-largest economy. This era is a defining reference point in modern Japanese history.\n\nCOMMON COLLOCATIONS:\n- {経済成長|けいざいせいちょう}{率|りつ} — economic growth rate\n- {高度|こうど}{経済成長|けいざいせいちょう} — rapid economic growth\n- {経済成長|けいざいせいちょう}を{遂|と}げる — to achieve economic growth\n- {持続|じぞく}{可能|かのう}な{経済成長|けいざいせいちょう} — sustainable economic growth\n\nSIMILAR WORDS:\n- {景気|けいき} — economic conditions (broader, includes ups and downs)\n- {発展|はってん} — development (broader, not limited to economics)\n- GDP — gross domestic product (the standard measure)",
+  "notes": "A compound of ⟦{経済|けいざい}→経済：01394_keizai⟧ (economy) and ⟦{成長|せいちょう}→成長：03290_seichou⟧ (growth). One of the most frequently used terms in Japanese news and economic discussion.\n\nETYMOLOGY:\nJapan's {高度経済成長|こうどけいざいせいちょう} (high economic growth period, roughly 1955-1973) transformed the country from postwar devastation into the world's second-largest economy. This era is a defining reference point in modern Japanese history.\n\nCOMMON COLLOCATIONS:\n- {経済成長|けいざいせいちょう}{率|りつ} — economic growth rate\n- ⟦{高度|こうど}→高度：00243_koudo⟧{経済成長|けいざいせいちょう} — rapid economic growth\n- {経済成長|けいざいせいちょう}⟦を→を：00422_wo⟧⟦{遂|と}げる→遂げる：14323_togeru⟧ — to achieve economic growth\n- ⟦{持続|じぞく}{可能|かのう}→持続可能：04637_jizokukanou⟧な{経済成長|けいざいせいちょう} — sustainable economic growth\n\nSIMILAR WORDS:\n- ⟦{景気|けいき}→景気：02694_keiki⟧ — economic conditions (broader, includes ups and downs)\n- ⟦{発展|はってん}→発展：03561_hatten⟧ — development (broader, not limited to economics)\n- GDP — gross domestic product (the standard measure)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02694_keiki",
+      "reading": "けいき",
+      "headword": "{景気|けいき}",
+      "label": "economic conditions"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03561_hatten",
+      "reading": "はってん",
+      "headword": "{発展|はってん}",
+      "label": "development"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +75,6 @@
       ]
     },
     "created": "2026-03-29T14:13:50Z",
-    "modified": "2026-07-28T09:34:52Z"
+    "modified": "2026-09-02T04:01:59Z"
   }
 }

@@ -2,7 +2,7 @@
   "id": "11301_shitajunbi",
   "headword": "{下準備|したじゅんび}",
   "reading": "したじゅんび",
-  "part_of_speech": "noun / verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "preparation, prep work",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "11301_shitajunbi_ex1",
-      "japanese": "{野菜|やさい}の{下準備|したじゅんび}をする。",
+      "japanese": "⟦{野菜|やさい}→野菜：02265_yasai⟧⟦の→の：09472_no⟧{下準備|したじゅんび}⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧。",
       "english": "Do the prep work for the vegetables.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "11301_shitajunbi_ex2",
-      "japanese": "{料理|りょうり}の{下準備|したじゅんび}を{前|まえ}の{日|ひ}に{済|す}ませた。",
+      "japanese": "⟦{料理|りょうり}→料理：01523_ryouri⟧⟦の→の：09472_no⟧{下準備|したじゅんび}⟦を→を：00422_wo⟧⟦{前|まえ}→前：02255_mae⟧⟦の→の：09472_no⟧⟦{日|ひ}→日：02249_hi⟧⟦に→に：00314_ni⟧⟦{済|す}ませた→済む：01950_sumu⟧。",
       "english": "I finished the cooking prep the day before.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "11301_shitajunbi_ex3",
-      "japanese": "イベントの{成功|せいこう}には{十分|じゅうぶん}な{下準備|したじゅんび}が{欠|か}かせない。",
+      "japanese": "⟦イベント→イベント：09594_ibento⟧⟦の→の：09472_no⟧⟦{成功|せいこう}→成功：02638_seikou⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{十分|じゅうぶん}→十分：01614_juubun⟧な{下準備|したじゅんび}⟦が→が：00051_ga⟧⟦{欠|か}かせない→欠かす：10138_kakasu⟧。",
       "english": "Thorough preparation is indispensable for the success of an event.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,26 @@
       ]
     }
   ],
-  "notes": "{下準備|したじゅんび} literally means \"under-preparation\" — the groundwork done before the main task.\n\nCOMMON COLLOCATIONS:\n- {下準備|したじゅんび}をする (do prep work)\n- {下準備|したじゅんび}を{済|す}ませる (finish the preparation)\n- {下準備|したじゅんび}が{大切|たいせつ} (preparation is important)\n- {下準備|したじゅんび}に{時間|じかん}がかかる (preparation takes time)\n\nMost commonly used in cooking contexts, where it refers to tasks like washing, peeling, cutting, and marinating ingredients before the actual cooking begins.",
-  "cross_references": [],
+  "notes": "{下準備|したじゅんび} literally means \"under-preparation\" — the groundwork done before the main task.\n\nCOMMON COLLOCATIONS:\n- {下準備|したじゅんび}⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧ (do prep work)\n- {下準備|したじゅんび}⟦を→を：00422_wo⟧⟦{済|す}ませる→済む：01950_sumu⟧ (finish the preparation)\n- {下準備|したじゅんび}⟦が→が：00051_ga⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧ (preparation is important)\n- {下準備|したじゅんび}⟦に→に：00314_ni⟧⟦{時間|じかん}がかかる→時間がかかる：26082_jikangakakaru⟧ (preparation takes time)\n\nMost commonly used in cooking contexts, where it refers to tasks like washing, peeling, cutting, and marinating ingredients before the actual cooking begins.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21586_zendate",
+      "reading": "ぜんだて",
+      "headword": "{膳立|ぜんだ}て",
+      "label": "preparation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25582_jizenjunbi",
+      "reading": "じぜんじゅんび",
+      "headword": "{事前準備|じぜんじゅんび}",
+      "label": "advance preparation"
+    }
+  ],
   "metadata": {
     "created": "2026-02-15T22:38:25Z",
-    "modified": "2026-03-29T03:07:35Z",
+    "modified": "2026-09-02T04:01:24Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

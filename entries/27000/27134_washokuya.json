@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "27134_washokuya_ex1",
-      "japanese": "{近|ちか}くに{和食屋|わしょくや}はありますか。",
+      "japanese": "{近|ちか}く⟦に→に：00314_ni⟧{和食屋|わしょくや}⟦は→は：00079_ha⟧⟦あります→ある：00006_aru⟧⟦か→か：09473_ka⟧。",
       "english": "Is there a Japanese restaurant nearby?",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "27134_washokuya_ex2",
-      "japanese": "あの{和食屋|わしょくや}は{予約|よやく}が{必要|ひつよう}だ。",
+      "japanese": "⟦あの→あの：00915_ano⟧{和食屋|わしょくや}⟦は→は：00079_ha⟧⟦{予約|よやく}→予約：01522_yoyaku⟧⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧だ。",
       "english": "That Japanese restaurant requires a reservation.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "27134_washokuya_ex3",
-      "japanese": "{駅前|えきまえ}に{新|あたら}しい{和食屋|わしょくや}が{開店|かいてん}した。",
+      "japanese": "⟦{駅前|えきまえ}→駅前：09593_ekimae⟧⟦に→に：00314_ni⟧⟦{新|あたら}しい→新しい：00506_atarashii⟧{和食屋|わしょくや}⟦が→が：00051_ga⟧⟦{開店|かいてん}→開店：14569_kaiten⟧⟦した→する：00392_suru⟧。",
       "english": "A new Japanese restaurant opened in front of the station.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {和食|わしょく} (Japanese food/cuisine) and {屋|や} (shop/restaurant). The {屋|や} suffix is productive and forms names for various types of shops and restaurants. {和食屋|わしょくや} is used when the speaker wants to specify Japanese cuisine as opposed to other types.\n\nCOMMON COLLOCATIONS:\n- {和食屋|わしょくや}で{食|た}べる: to eat at a Japanese restaurant\n- {和食屋|わしょくや}を{探|さが}す: to look for a Japanese restaurant\n- {高級|こうきゅう}{和食屋|わしょくや}: upscale Japanese restaurant\n\nSIMILAR WORDS:\n- {和食|わしょく}レストラン: Japanese restaurant — more formal, uses the loanword\n- {日本料理店|にほんりょうりてん}: Japanese cuisine restaurant — more formal and specific\n- {割烹|かっぽう}: traditional Japanese restaurant — implies a more refined, chef-driven dining experience\n- {料亭|りょうてい}: high-class Japanese restaurant — exclusive establishments with private rooms",
+  "notes": "A compound of ⟦{和食|わしょく}→和食：10436_washoku⟧ (Japanese food/cuisine) and ⟦{屋|や}→〜屋：03096_ya⟧ (shop/restaurant). The ⟦{屋|や}→〜屋：03096_ya⟧ suffix is productive and forms names for various types of shops and restaurants. {和食屋|わしょくや} is used when the speaker wants to specify Japanese cuisine as opposed to other types.\n\nCOMMON COLLOCATIONS:\n- {和食屋|わしょくや}⟦で→で：00502_de⟧⟦{食|た}べる→食べる：00396_taberu⟧: to eat at a Japanese restaurant\n- {和食屋|わしょくや}⟦を→を：00422_wo⟧⟦{探|さが}す→探す：00493_sagasu⟧: to look for a Japanese restaurant\n- ⟦{高級|こうきゅう}→高級：08644_koukyuu⟧{和食屋|わしょくや}: upscale Japanese restaurant\n\nSIMILAR WORDS:\n- ⟦{和食|わしょく}→和食：10436_washoku⟧⟦レストラン→レストラン：01048_resutoran⟧: Japanese restaurant — more formal, uses the loanword\n- {日本料理店|にほんりょうりてん}: Japanese cuisine restaurant — more formal and specific\n- ⟦{割烹|かっぽう}→割烹：11922_kappou⟧: traditional Japanese restaurant — implies a more refined, chef-driven dining experience\n- ⟦{料亭|りょうてい}→料亭：21710_ryoutei⟧: high-class Japanese restaurant — exclusive establishments with private rooms",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11922_kappou",
+      "reading": "かっぽう",
+      "headword": "{割烹|かっぽう}",
+      "label": "traditional Japanese restaurant"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21710_ryoutei",
+      "reading": "りょうてい",
+      "headword": "{料亭|りょうてい}",
+      "label": "high-class Japanese restaurant"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +76,6 @@
       ]
     },
     "created": "2026-05-07T12:18:52Z",
-    "modified": "2026-08-07T06:31:23Z"
+    "modified": "2026-09-02T04:02:29Z"
   }
 }

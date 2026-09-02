@@ -3,7 +3,7 @@
   "headword": "{張|は}り{替|か}える",
   "reading": "はりかえる",
   "romaji": "harikaeru",
-  "part_of_speech": "verb",
+  "part_of_speech": "verb (ichidan)",
   "gloss": "to re-cover; to replace (paper, fabric); to re-paper",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28418_harikaeru_ex1",
-      "japanese": "{障子|しょうじ}を{張|は}り{替|か}える。",
+      "japanese": "⟦{障子|しょうじ}→障子：04201_shouji⟧⟦を→を：00422_wo⟧{張|は}り{替|か}える。",
       "english": "Re-paper a shoji screen.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28418_harikaeru_ex2",
-      "japanese": "{壁紙|かべがみ}を{白|しろ}に{張|は}り{替|か}えた。",
+      "japanese": "⟦{壁紙|かべがみ}→壁紙：16077_kabegami⟧⟦を→を：00422_wo⟧⟦{白|しろ}→白：13854_shiro⟧⟦に→に：00314_ni⟧{張|は}り{替|か}えた。",
       "english": "We re-papered the walls in white.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28418_harikaeru_ex3",
-      "japanese": "{古|ふる}くなったソファのカバーを{張|は}り{替|か}えてもらったら、{新品|しんぴん}のように{見|み}えた。",
+      "japanese": "⟦{古|ふる}く→古い：00488_furui⟧⟦なった→なる：01970_naru⟧⟦ソファ→ソファ：04485_sofa⟧⟦の→の：09472_no⟧⟦カバー→カバー：07812_kabaa⟧⟦を→を：00422_wo⟧{張|は}り{替|か}えて⟦もらったら→もらう：00520_morau⟧、⟦{新品|しんぴん}→新品：08303_shinpin⟧⟦のように→のように：30291_noyouni⟧⟦{見|み}えた→見える：01165_mieru⟧。",
       "english": "When I had the cover of the old sofa replaced, it looked like new.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {張|は}る (to stretch, to put up) + {替|か}える (to exchange, to replace).\n\nTRANSITIVITY:\nTransitive. The surface being replaced is marked with を; the new material with に.\n\nCOMMON COLLOCATIONS:\n- {障子|しょうじ}を{張|は}り{替|か}える: re-paper a shoji screen\n- {壁紙|かべがみ}を{張|は}り{替|か}える: re-paper the walls\n- {畳|たたみ}の{表|おもて}を{張|は}り{替|か}える: replace the cover of tatami mats\n- ソファのカバーを{張|は}り{替|か}える: re-cover a sofa\n\nSIMILAR WORDS:\n- {貼|は}り{替|か}える: replace something pasted (a sticker, poster) — uses the kanji {貼|は} for sticking\n- {取|と}り{替|か}える: to swap; replace (general) — does not imply a stretched surface\n\nNOTE: {張|は}り{替|か}える and {貼|は}り{替|か}える are often confused; for shoji, wallpaper, and tatami, {張|は}り{替|か}える is conventional.",
+  "notes": "Compound of ⟦{張|は}る→張る：12583_haru⟧ (to stretch, to put up) + ⟦{替|か}える→替える：13399_kaeru⟧ (to exchange, to replace).\n\nTRANSITIVITY:\nTransitive. The surface being replaced is marked with ⟦を→を：00422_wo⟧; the new material with ⟦に→に：00314_ni⟧.\n\nCOMMON COLLOCATIONS:\n- ⟦{障子|しょうじ}→障子：04201_shouji⟧⟦を→を：00422_wo⟧{張|は}り{替|か}える: re-paper a shoji screen\n- ⟦{壁紙|かべがみ}→壁紙：16077_kabegami⟧⟦を→を：00422_wo⟧{張|は}り{替|か}える: re-paper the walls\n- ⟦{畳|たたみ}→畳：02224_tatami⟧⟦の→の：09472_no⟧⟦{表|おもて}→表：01355_omote⟧⟦を→を：00422_wo⟧{張|は}り{替|か}える: replace the cover of tatami mats\n- ⟦ソファ→ソファ：04485_sofa⟧⟦の→の：09472_no⟧⟦カバー→カバー：07812_kabaa⟧⟦を→を：00422_wo⟧{張|は}り{替|か}える: re-cover a sofa\n\nSIMILAR WORDS:\n- {貼|は}り{替|か}える: replace something pasted (a sticker, poster) — uses the kanji {貼|は} for sticking\n- ⟦{取|と}り{替|か}える→取り替える：01252_torikaeru⟧: to swap; replace (general) — does not imply a stretched surface\n\nNOTE: {張|は}り{替|か}える and {貼|は}り{替|か}える are often confused; for shoji, wallpaper, and tatami, {張|は}り{替|か}える is conventional.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01252_torikaeru",
+      "reading": "とりかえる",
+      "headword": "{取|と}り{替|か}える",
+      "label": "to swap"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,7 +71,7 @@
       "verb_class": "ichidan"
     },
     "created": "2026-05-30T04:08:44Z",
-    "modified": "2026-08-08T18:34:17Z"
+    "modified": "2026-09-02T04:02:33Z"
   },
   "conjugation": {
     "type": "ichidan",

@@ -15,38 +15,74 @@
   "examples": [
     {
       "id": "25022_tankentai_ex1",
-      "japanese": "{探検隊|たんけんたい}が{出発|しゅっぱつ}した。",
+      "japanese": "{探検隊|たんけんたい}⟦が→が：00051_ga⟧⟦{出発|しゅっぱつ}した→出発する：01832_shuppatsusuru⟧。",
       "english": "The expedition set out.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "25022_tankentai_ex2",
-      "japanese": "{南極|なんきょく}{探検隊|たんけんたい}は{厳|きび}しい{寒|さむ}さに{耐|た}えた。",
+      "japanese": "⟦{南極|なんきょく}→南極：11936_nankyoku⟧{探検隊|たんけんたい}⟦は→は：00079_ha⟧⟦{厳|きび}しい→厳しい：01125_kibishii⟧⟦{寒|さむ}さ→寒さ：12336_samusa⟧⟦に→に：00314_ni⟧⟦{耐|た}えた→耐える：12087_taeru⟧。",
       "english": "The Antarctic expedition endured severe cold.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "25022_tankentai_ex3",
-      "japanese": "{子|こ}どもたちは{森|もり}の{中|なか}で{探検隊|たんけんたい}ごっこをして{遊|あそ}んでいた。",
+      "japanese": "{子|こ}どもたち⟦は→は：00079_ha⟧⟦{森|もり}→森：02260_mori⟧⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧⟦で→で：00502_de⟧{探検隊|たんけんたい}⟦ごっこ→ごっこ：09095_gokko⟧⟦を→を：00422_wo⟧⟦して→する：00392_suru⟧⟦{遊|あそ}んでいた→遊ぶ：00550_asobu⟧。",
       "english": "The children were playing expedition in the forest.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {探検|たんけん} (exploration) + {隊|たい} (team; squad). Used both for serious historical and scientific expeditions and playfully for children's adventure games.\n\nCOMMON COLLOCATIONS:\n- {探検隊|たんけんたい}を{組|く}む: form an expedition\n- {探検隊|たんけんたい}を{派遣|はけん}する: dispatch an expedition\n- {探検隊|たんけんたい}に{参加|さんか}する: join an expedition\n- {探検隊|たんけんたい}ごっこ: playing expedition (children's game)\n\nSIMILAR WORDS:\n- {調査隊|ちょうさたい}: survey team — focuses on research and data collection rather than discovery\n- {遠征隊|えんせいたい}: expeditionary force — can imply a military component\n- {冒険家|ぼうけんか}: adventurer — an individual rather than a group",
+  "notes": "Composed of ⟦{探検|たんけん}→探検：17461_tanken⟧ (exploration) + ⟦{隊|たい}→隊：03383_tai⟧ (team; squad). Used both for serious historical and scientific expeditions and playfully for children's adventure games.\n\nCOMMON COLLOCATIONS:\n- {探検隊|たんけんたい}⟦を→を：00422_wo⟧⟦{組|く}む→組む：02050_kumu⟧: form an expedition\n- {探検隊|たんけんたい}⟦を→を：00422_wo⟧⟦{派遣|はけん}→派遣：13273_haken⟧⟦する→する：00392_suru⟧: dispatch an expedition\n- {探検隊|たんけんたい}⟦に→に：00314_ni⟧⟦{参加|さんか}する→参加する：25408_sankasuru⟧: join an expedition\n- {探検隊|たんけんたい}⟦ごっこ→ごっこ：09095_gokko⟧: playing expedition (children's game)\n\nSIMILAR WORDS:\n- {調査隊|ちょうさたい}: survey team — focuses on research and data collection rather than discovery\n- ⟦{遠征隊|えんせいたい}→遠征隊：25462_enseitai⟧: expeditionary force — can imply a military component\n- ⟦{冒険家|ぼうけんか}→冒険家：20564_boukenka⟧: adventurer — an individual rather than a group",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25462_enseitai",
+      "reading": "えんせいたい",
+      "headword": "{遠征隊|えんせいたい}",
+      "label": "expeditionary force"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20564_boukenka",
+      "reading": "ぼうけんか",
+      "headword": "{冒険家|ぼうけんか}",
+      "label": "adventurer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27953_tankenka",
+      "reading": "たんけんか",
+      "headword": "{探検家|たんけんか}",
+      "label": "explorer"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["travel", "nature"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "travel",
+        "nature"
+      ]
     },
     "created": "2026-04-22T11:23:57Z",
-    "modified": "2026-04-22T11:23:57Z"
+    "modified": "2026-09-02T04:02:20Z"
   }
 }

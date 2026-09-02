@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "18857_jimetsu_ex1",
-      "japanese": "{相手|あいて}の{自滅|じめつ}を{待|ま}つ。",
+      "japanese": "⟦{相手|あいて}→相手：01677_aite⟧⟦の→の：09472_no⟧{自滅|じめつ}⟦を→を：00422_wo⟧⟦{待|ま}つ→待つ：00469_matsu⟧。",
       "english": "I'll wait for my opponent to self-destruct.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "18857_jimetsu_ex2",
-      "japanese": "ミスが{続|つづ}いて{自滅|じめつ}してしまった。",
+      "japanese": "⟦ミス→ミス：00285_misu⟧⟦が→が：00051_ga⟧⟦{続|つづ}いて→続く：00903_tsuzuku⟧{自滅|じめつ}⟦して→する：00392_suru⟧しまった。",
       "english": "A string of mistakes led to my own downfall.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "18857_jimetsu_ex3",
-      "japanese": "{自滅|じめつ}{的|てき}な{行動|こうどう}を{取|と}らないように、{冷静|れいせい}に{判断|はんだん}することが{大切|たいせつ}だ。",
+      "japanese": "{自滅|じめつ}⟦{的|てき}→〜的：09839_teki⟧な⟦{行動|こうどう}→行動：02728_koudou⟧⟦を→を：00422_wo⟧⟦{取|と}らない→取る：00565_toru⟧よう⟦に→に：00314_ni⟧、⟦{冷静|れいせい}→冷静：03781_reisei⟧⟦に→に：00314_ni⟧⟦{判断|はんだん}する→判断する：06062_handansuru⟧こと⟦が→が：00051_ga⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧だ。",
       "english": "It's important to make calm decisions so as not to take self-destructive actions.",
       "sense_numbers": [
         1
@@ -134,11 +134,27 @@
       "notes": null
     }
   ],
-  "notes": "{自滅|じめつ} means to bring about one's own ruin — losing not because of an opponent but because of one's own mistakes.\n\nUSAGE:\n- Functions as a する verb and as a noun.\n- Frequently used in sports, games, business, and political commentary to describe a defeat caused by self-inflicted errors rather than the opposition's strength.\n- Carries a tone of frustration or exasperation, since the loss was avoidable.\n\nCOMMON PATTERNS:\n- {自滅|じめつ}する: to self-destruct, to ruin oneself\n- {自滅|じめつ}{的|てき}: self-destructive\n- {相手|あいて}の{自滅|じめつ}に{助|たす}けられる: to be helped by the opponent's mistakes\n- {自滅|じめつ}{行為|こうい}: a self-destructive act\n- ミスで{自滅|じめつ}する: to undo oneself through mistakes\n\nSIMILAR WORDS:\n- {自爆|じばく}: self-detonation; figuratively, blowing up one's own position by saying or doing something foolish (more dramatic, often used about politicians' gaffes).\n- {自殺|じさつ}: literal suicide — completely separate in meaning.\n- {墓穴|ぼけつ}を{掘|ほ}る: 'to dig one's own grave' (a related idiom).",
+  "notes": "{自滅|じめつ} means to bring about one's own ruin — losing not because of an opponent but because of one's own mistakes.\n\nUSAGE:\n- Functions as a ⟦する→する：00392_suru⟧ verb and as a noun.\n- Frequently used in sports, games, business, and political commentary to describe a defeat caused by self-inflicted errors rather than the opposition's strength.\n- Carries a tone of frustration or exasperation, since the loss was avoidable.\n\nCOMMON PATTERNS:\n- {自滅|じめつ}⟦する→する：00392_suru⟧: to self-destruct, to ruin oneself\n- {自滅|じめつ}⟦{的|てき}→〜的：09839_teki⟧: self-destructive\n- ⟦{相手|あいて}→相手：01677_aite⟧⟦の→の：09472_no⟧{自滅|じめつ}⟦に→に：00314_ni⟧⟦{助|たす}けられる→助ける：00895_tasukeru⟧: to be helped by the opponent's mistakes\n- {自滅|じめつ}⟦{行為|こうい}→行為：10021_koui⟧: a self-destructive act\n- ⟦ミス→ミス：00285_misu⟧⟦で→で：00502_de⟧{自滅|じめつ}⟦する→する：00392_suru⟧: to undo oneself through mistakes\n\nSIMILAR WORDS:\n- {自爆|じばく}: self-detonation; figuratively, blowing up one's own position by saying or doing something foolish (more dramatic, often used about politicians' gaffes).\n- ⟦{自殺|じさつ}→自殺：03336_jisatsu⟧: literal suicide — completely separate in meaning.\n- ⟦{墓穴|ぼけつ}→墓穴：15417_boketsu⟧⟦を→を：00422_wo⟧⟦{掘|ほ}る→掘る：00442_horu⟧: 'to dig one's own grave' (a related idiom).",
   "synonyms": [],
   "antonyms": [],
   "related": [],
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03336_jisatsu",
+      "reading": "じさつ",
+      "headword": "{自殺|じさつ}",
+      "label": "literal suicide"
+    },
+    {
+      "type": "related",
+      "target_id": "15417_boketsu",
+      "reading": "ぼけつ",
+      "headword": "{墓穴|ぼけつ}",
+      "label": "grave"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -155,6 +171,6 @@
       "verb_class": "suru"
     },
     "created": "2026-03-23T05:34:08Z",
-    "modified": "2026-04-10T13:28:57Z"
+    "modified": "2026-09-02T04:01:53Z"
   }
 }

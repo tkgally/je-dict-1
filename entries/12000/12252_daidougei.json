@@ -15,41 +15,66 @@
   "examples": [
     {
       "id": "12252_daidougei_ex1",
-      "japanese": "{公園|こうえん}で{大道芸|だいどうげい}を{見|み}た。",
+      "japanese": "⟦{公園|こうえん}→公園：00581_kouen⟧⟦で→で：00502_de⟧{大道芸|だいどうげい}⟦を→を：00422_wo⟧⟦{見|み}た→見る：00283_miru⟧。",
       "english": "I saw a street performance in the park.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12252_daidougei_ex2",
-      "japanese": "{週末|しゅうまつ}の{駅前|えきまえ}で{大道芸|だいどうげい}をやっている{人|ひと}がいた。",
+      "japanese": "⟦{週末|しゅうまつ}→週末：03030_shuumatsu⟧⟦の→の：09472_no⟧⟦{駅前|えきまえ}→駅前：09593_ekimae⟧⟦で→で：00502_de⟧{大道芸|だいどうげい}⟦を→を：00422_wo⟧⟦やっている→やる：02980_yaru⟧⟦{人|ひと}→人：00476_hito⟧がいた。",
       "english": "There was someone doing a street performance in front of the station on the weekend.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12252_daidougei_ex3",
-      "japanese": "この{街|まち}では{毎年|まいとし}{大道芸|だいどうげい}フェスティバルが{開|ひら}かれ、{世界中|せかいじゅう}からパフォーマーが{集|あつ}まる。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{街|まち}→街：17306_machi⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{毎年|まいとし}→毎年：00731_maitoshi⟧{大道芸|だいどうげい}⟦フェスティバル→フェスティバル：11703_fesutibaru⟧⟦が→が：00051_ga⟧⟦{開|ひら}かれ→開く：01979_hiraku⟧、⟦{世界中|せかいじゅう}→世界中：10171_sekaijuu⟧⟦から→から：00504_kara⟧⟦パフォーマー→パフォーマー：24231_pafoomaa⟧⟦が→が：00051_ga⟧⟦{集|あつ}まる→集まる：01162_atsumaru⟧。",
       "english": "Every year this city holds a street performance festival, attracting performers from around the world.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nA compound of {大道|だいどう} (main road, street) and {芸|げい} (performance art). The performer is called {大道芸人|だいどうげいにん}. Japan has a notable street performance culture, with events like the Shizuoka Daidougei World Cup being well known.\n\nCOMMON COLLOCATIONS:\n- {大道芸人|だいどうげいにん}: street performer\n- {大道芸|だいどうげい}フェスティバル: street performance festival\n- {大道芸|だいどうげい}を{披露|ひろう}する: to showcase street performance\n- {大道芸|だいどうげい}を{見|み}る: to watch street performance",
-  "cross_references": [],
+  "notes": "USAGE:\nA compound of {大道|だいどう} (main road, street) and ⟦{芸|げい}→芸：19343_gei⟧ (performance art). The performer is called ⟦{大道芸人|だいどうげいにん}→大道芸人：29758_daidougeinin⟧. Japan has a notable street performance culture, with events like the Shizuoka Daidougei World Cup being well known.\n\nCOMMON COLLOCATIONS:\n- ⟦{大道芸人|だいどうげいにん}→大道芸人：29758_daidougeinin⟧: street performer\n- {大道芸|だいどうげい}⟦フェスティバル→フェスティバル：11703_fesutibaru⟧: street performance festival\n- {大道芸|だいどうげい}⟦を→を：00422_wo⟧⟦{披露|ひろう}する→披露する：20927_hirousuru⟧: to showcase street performance\n- {大道芸|だいどうげい}⟦を→を：00422_wo⟧⟦{見|み}る→見る：00283_miru⟧: to watch street performance",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15699_kyokugei",
+      "reading": "きょくげい",
+      "headword": "{曲芸|きょくげい}",
+      "label": "acrobatics"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22866_karuwaza",
+      "reading": "かるわざ",
+      "headword": "{軽業|かるわざ}",
+      "label": "acrobatics"
+    }
+  ],
   "metadata": {
     "created": "2026-02-20T13:39:46Z",
-    "modified": "2026-02-20T13:39:46Z",
+    "modified": "2026-09-02T04:01:28Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["leisure"]
+      "semantic": [
+        "leisure"
+      ]
     }
   }
 }

@@ -15,41 +15,59 @@
   "examples": [
     {
       "id": "15411_reikon_ex1",
-      "japanese": "{霊魂|れいこん}の{存在|そんざい}を{信|しん}じますか。",
+      "japanese": "{霊魂|れいこん}⟦の→の：09472_no⟧⟦{存在|そんざい}→存在：03326_sonzai⟧⟦を→を：00422_wo⟧⟦{信|しん}じます→信じる：01111_shinjiru⟧⟦か→か：09473_ka⟧。",
       "english": "Do you believe in the existence of the soul?",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15411_reikon_ex2",
-      "japanese": "{古代|こだい}の{人々|ひとびと}は{霊魂|れいこん}が{体|からだ}を{離|はな}れると{考|かんが}えた。",
+      "japanese": "⟦{古代|こだい}→古代：05324_kodai⟧⟦の→の：09472_no⟧⟦{人々|ひとびと}→人々：03141_hitobito⟧⟦は→は：00079_ha⟧{霊魂|れいこん}⟦が→が：00051_ga⟧⟦{体|からだ}→体：00784_karada⟧⟦を→を：00422_wo⟧⟦{離|はな}れる→離れる：02397_hanareru⟧⟦と→と：00512_to⟧⟦{考|かんが}えた→考える：00856_kangaeru⟧。",
       "english": "Ancient people believed that the soul departed from the body.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15411_reikon_ex3",
-      "japanese": "{日本|にほん}では、{霊魂|れいこん}は{死後|しご}もこの{世|よ}に{留|とど}まることがあると{言|い}われている。",
+      "japanese": "⟦{日本|にほん}→日本：03876_nihon⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧、{霊魂|れいこん}⟦は→は：00079_ha⟧⟦{死後|しご}→死後：21150_shigo⟧⟦も→も：00484_mo⟧⟦この{世|よ}→この世：10334_konoyo⟧⟦に→に：00314_ni⟧⟦{留|とど}まる→留まる：10415_todomaru⟧こと⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧⟦と→と：00512_to⟧⟦{言|い}われている→言う：00515_iu⟧。",
       "english": "In Japan, it is said that the soul sometimes remains in this world after death.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\n{霊魂|れいこん} is a formal, literary word for the soul or spirit. In everyday conversation, {魂|たましい} or {霊|れい} is more common. {霊魂|れいこん} appears frequently in discussions of religion, philosophy, and traditional beliefs.\n\nCOMMON COLLOCATIONS:\n- {霊魂|れいこん}の{不滅|ふめつ} (immortality of the soul)\n- {霊魂|れいこん}が{宿|やど}る (for a soul to dwell)\n- {霊魂|れいこん}を{鎮|しず}める (to pacify a spirit)\n\nRELATED WORDS:\n- {魂|たましい}: soul, spirit (more common)\n- {霊|れい}: spirit, ghost\n- {亡霊|ぼうれい}: ghost of the dead",
-  "cross_references": [],
+  "notes": "USAGE:\n{霊魂|れいこん} is a formal, literary word for the soul or spirit. In everyday conversation, ⟦{魂|たましい}→魂：14639_tamashii⟧ or ⟦{霊|れい}→霊：14667_rei⟧ is more common. {霊魂|れいこん} appears frequently in discussions of religion, philosophy, and traditional beliefs.\n\nCOMMON COLLOCATIONS:\n- {霊魂|れいこん}⟦の→の：09472_no⟧⟦{不滅|ふめつ}→不滅：15254_fumetsu⟧ (immortality of the soul)\n- {霊魂|れいこん}⟦が→が：00051_ga⟧⟦{宿|やど}る→宿る：12351_yadoru⟧ (for a soul to dwell)\n- {霊魂|れいこん}⟦を→を：00422_wo⟧⟦{鎮|しず}める→鎮める：29400_shizumeru⟧ (to pacify a spirit)\n\nRELATED WORDS:\n- ⟦{魂|たましい}→魂：14639_tamashii⟧: soul, spirit (more common)\n- ⟦{霊|れい}→霊：14667_rei⟧: spirit, ghost\n- ⟦{亡霊|ぼうれい}→亡霊：11473_bourei⟧: ghost of the dead",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "11473_bourei",
+      "reading": "ぼうれい",
+      "headword": "{亡霊|ぼうれい}",
+      "label": "ghost of the dead"
+    }
+  ],
   "metadata": {
     "created": "2026-03-06T13:41:50Z",
-    "modified": "2026-03-06T13:41:50Z",
+    "modified": "2026-09-02T04:01:41Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["religion"],
+      "semantic": [
+        "religion"
+      ],
       "domain": []
     }
   }

@@ -2,7 +2,7 @@
   "id": "03869_haikingu",
   "headword": "ハイキング",
   "reading": "はいきんぐ",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "hiking",
   "conjugation": {
     "type": "suru",
@@ -133,10 +133,68 @@
       ]
     }
   ],
-  "notes": "USAGE: ハイキング refers to relatively easy, leisurely walks in nature. For more serious mountain climbing, use ⟦{登山|とざん}→登山：03457_tozan⟧.\n\nCOMMON PATTERNS:\n・ハイキング⟦に→に：00314_ni⟧⟦{行|い}く→行く：00119_iku⟧ (to go hiking)\n・ハイキング⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧ (to go hiking)\n・ハイキング⟦コース→コース：10864_koosu⟧ (hiking trail/course)\n・⟦{日帰|ひがえ}り→日帰り：17612_higaeri⟧ハイキング (day hike)\n\nRELATED WORDS:\n・⟦{登山|とざん}→登山：03457_tozan⟧ (mountain climbing - more strenuous)\n・⟦{散歩|さんぽ}→散歩：02885_sanpo⟧ (walk, stroll - easier)\n・⟦トレッキング→トレッキング：28065_torekkingu⟧ (trekking)\n・⟦ウォーキング→ウォーキング：05240_wookingu⟧ (walking)",
+  "notes": "USAGE: ハイキング refers to relatively easy, leisurely walks in nature. For more serious mountain climbing, use ⟦{登山|とざん}→登山：03457_tozan⟧.\n\nCOMMON PATTERNS:\n- ハイキング⟦に→に：00314_ni⟧⟦{行|い}く→行く：00119_iku⟧ (to go hiking)\n- ハイキング⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧ (to go hiking)\n- ハイキング⟦コース→コース：10864_koosu⟧ (hiking trail/course)\n- ⟦{日帰|ひがえ}り→日帰り：17612_higaeri⟧ハイキング (day hike)\n\nRELATED WORDS:\n- ⟦{登山|とざん}→登山：03457_tozan⟧ (mountain climbing - more strenuous)\n- ⟦{散歩|さんぽ}→散歩：02885_sanpo⟧ (walk, stroll - easier)\n- ⟦トレッキング→トレッキング：28065_torekkingu⟧ (trekking)\n- ⟦ウォーキング→ウォーキング：05240_wookingu⟧ (walking)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "03457_tozan",
+      "reading": "とざん",
+      "headword": "{登山|とざん}",
+      "label": "mountain climbing"
+    },
+    {
+      "type": "related",
+      "target_id": "02885_sanpo",
+      "reading": "さんぽ",
+      "headword": "{散歩|さんぽ}",
+      "label": "walk, stroll"
+    },
+    {
+      "type": "related",
+      "target_id": "28065_torekkingu",
+      "reading": "とれっきんぐ",
+      "headword": "トレッキング",
+      "label": "trekking"
+    },
+    {
+      "type": "related",
+      "target_id": "05240_wookingu",
+      "reading": "うぉーきんぐ",
+      "headword": "ウォーキング",
+      "label": "walking"
+    },
+    {
+      "type": "related",
+      "target_id": "03170_yamanobori",
+      "reading": "やまのぼり",
+      "headword": "{山登|やまのぼ}り",
+      "label": "mountain climbing, hiking"
+    },
+    {
+      "type": "related",
+      "target_id": "04107_ensoku",
+      "reading": "えんそく",
+      "headword": "{遠足|えんそく}",
+      "label": "excursion, school trip, hike"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21614_yamaaruki",
+      "reading": "やまあるき",
+      "headword": "{山歩|やまある}き",
+      "label": "mountain walking"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23744_haikaa",
+      "reading": "はいかー",
+      "headword": "ハイカー",
+      "label": "hiker"
+    }
+  ],
   "metadata": {
     "created": "2026-01-12T13:55:10Z",
-    "modified": "2026-05-27T21:10:05Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

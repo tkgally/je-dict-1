@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21788_mottomo_ex1",
-      "japanese": "{賛成|さんせい}だ。もっとも、{条件|じょうけん}はある。",
+      "japanese": "⟦{賛成|さんせい}→賛成：02829_sansei⟧だ。もっとも、⟦{条件|じょうけん}→条件：03285_jouken⟧⟦は→は：00079_ha⟧⟦ある→ある：00006_aru⟧。",
       "english": "I agree. However, there are conditions.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21788_mottomo_ex2",
-      "japanese": "{彼|かれ}は{優秀|ゆうしゅう}な{学生|がくせい}だ。もっとも、{遅刻|ちこく}が{多|おお}いのが{難点|なんてん}だが。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{優秀|ゆうしゅう}→優秀：03646_yuushuu⟧な⟦{学生|がくせい}→学生：00610_gakusei⟧だ。もっとも、⟦{遅刻|ちこく}→遅刻：03465_chikoku⟧⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦{難点|なんてん}→難点：15828_nanten⟧だ⟦が→が：00051_ga⟧。",
       "english": "He's an excellent student. Though, his frequent tardiness is a problem.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21788_mottomo_ex3",
-      "japanese": "この{店|みせ}の{料理|りょうり}は{美味|おい}しい。もっとも、{値段|ねだん}は{少|すこ}し{高|たか}めだから、{毎日|まいにち}{通|かよ}うわけにはいかない。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{店|みせ}→店：00497_mise⟧⟦の→の：09472_no⟧⟦{料理|りょうり}→料理：01523_ryouri⟧⟦は→は：00079_ha⟧⟦{美味|おい}しい→美味しい：00740_oishii⟧。もっとも、⟦{値段|ねだん}→値段：00871_nedan⟧⟦は→は：00079_ha⟧⟦{少|すこ}し→少し：00596_sukoshi⟧⟦{高|たか}め→高め：14861_takame⟧だ⟦から→から：00504_kara⟧、⟦{毎日|まいにち}→毎日：00729_mainichi⟧⟦{通|かよ}う→通う：01217_kayou⟧わけ⟦に→に：00314_ni⟧はいかない。",
       "english": "The food at this restaurant is delicious. Having said that, the prices are a bit high, so I can't go every day.",
       "sense_numbers": [
         1
@@ -44,7 +44,37 @@
       "notes": null
     }
   ],
-  "notes": "A conjunction used to add a qualification, reservation, or minor counterpoint to something just stated. The speaker first makes a positive or general statement, then uses もっとも to introduce a caveat. Different from {最|もっと}も (the adverb meaning \"most\"), which is a separate word.\n\nUSAGE:\n- Typically begins a new sentence after the main point has been stated\n- The qualification introduced by もっとも is usually minor — it does not negate the main point\n- Often followed by が or けど at the end of the qualifying clause\n- Can be written as {尤|もっと}も in kanji, but kana is much more common\n\nCOMMON COLLOCATIONS:\n- もっとも、～だが: however, ~ though\n- もっとも、～けれども: though, ~\n- もっとも、それは～: however, that is ~\n\nSIMILAR WORDS:\n- ただし: however, provided that — introduces a condition or restriction; more formal and definitive\n- しかし: however — general contrast; stronger opposition than もっとも\n- とはいえ: that said — similar nuance of adding a qualification; slightly more formal\n- ただ: just, only — casual way to add a minor reservation",
+  "notes": "A conjunction used to add a qualification, reservation, or minor counterpoint to something just stated. The speaker first makes a positive or general statement, then uses もっとも to introduce a caveat. Different from ⟦{最|もっと}も→最も：01736_mottomo⟧ (the adverb meaning \"most\"), which is a separate word.\n\nUSAGE:\n- Typically begins a new sentence after the main point has been stated\n- The qualification introduced by もっとも is usually minor — it does not negate the main point\n- Often followed by ⟦が→が：00051_ga⟧ or けど at the end of the qualifying clause\n- Can be written as {尤|もっと}も in kanji, but kana is much more common\n\nCOMMON COLLOCATIONS:\n- もっとも、～だ⟦が→が：00051_ga⟧: however, ~ though\n- もっとも、～⟦けれど→けれど：01990_keredo⟧⟦も→も：00484_mo⟧: though, ~\n- もっとも、⟦それ→それ：00994_sore⟧⟦は→は：00079_ha⟧～: however, that is ~\n\nSIMILAR WORDS:\n- ただし: however, provided that — introduces a condition or restriction; more formal and definitive\n- ⟦しかし→しかし：00986_shikashi⟧: however — general contrast; stronger opposition than もっとも\n- ⟦とはいえ→とはいえ：06282_tohaie⟧: that said — similar nuance of adding a qualification; slightly more formal\n- ⟦ただ→ただ：01613_tada⟧: just, only — casual way to add a minor reservation",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00399_tadashi",
+      "reading": "ただし",
+      "headword": "{但|ただ}し",
+      "label": "however, provided that"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00986_shikashi",
+      "reading": "しかし",
+      "headword": "しかし",
+      "label": "however"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06282_tohaie",
+      "reading": "とはいえ",
+      "headword": "とはいえ",
+      "label": "that said"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01613_tada",
+      "reading": "ただ",
+      "headword": "ただ",
+      "label": "just, only"
+    }
+  ],
   "metadata": {
     "entry_id": "21788_mottomo",
     "schema_version": "2.0",
@@ -55,12 +85,13 @@
       "pos": [
         "conjunction"
       ],
+      "politeness": "plain",
       "semantic": [
         "grammatical"
       ],
       "register": [],
       "usage": []
     },
-    "modified": "2026-07-29T12:35:11Z"
+    "modified": "2026-09-02T04:02:05Z"
   }
 }

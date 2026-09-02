@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "12017_kokusan_ex1",
-      "japanese": "{国産|こくさん}の{牛肉|ぎゅうにく}。",
+      "japanese": "{国産|こくさん}⟦の→の：09472_no⟧⟦{牛肉|ぎゅうにく}→牛肉：02874_gyuuniku⟧。",
       "english": "Domestically produced beef.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "12017_kokusan_ex2",
-      "japanese": "{国産|こくさん}の{車|くるま}は{品質|ひんしつ}が{高|たか}い。",
+      "japanese": "{国産|こくさん}⟦の→の：09472_no⟧⟦{車|くるま}→車：00516_kuruma⟧⟦は→は：00079_ha⟧⟦{品質|ひんしつ}→品質：09507_hinshitsu⟧⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧。",
       "english": "Domestically made cars are high quality.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "12017_kokusan_ex3",
-      "japanese": "このスーパーでは{国産|こくさん}の{野菜|やさい}にこだわって{仕入|しい}れている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦スーパー→スーパー：01061_suupaa⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧{国産|こくさん}⟦の→の：09472_no⟧⟦{野菜|やさい}→野菜：02265_yasai⟧⟦に→に：00314_ni⟧⟦こだわって→こだわる：10319_kodawaru⟧⟦{仕入|しい}れている→仕入れる：11430_shiireru⟧。",
       "english": "This supermarket is particular about stocking domestically grown vegetables.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nOften used as a noun modifier: {国産|こくさん}の～ or {国産|こくさん}～ (domestic ~). In Japan, labeling something as {国産|こくさん} is a major selling point, especially for food, as consumers associate it with safety and quality. The opposite is {外国産|がいこくさん} or {輸入|ゆにゅう} (imported).\n\nCOMMON COLLOCATIONS:\n- {国産|こくさん}{品|ひん}: domestic product\n- {国産|こくさん}{車|しゃ}: domestic car\n- {国産|こくさん}{米|まい}: domestically grown rice\n- {純|じゅん}{国産|こくさん}: 100% domestic",
+  "notes": "USAGE:\nOften used as a noun modifier: {国産|こくさん}⟦の→の：09472_no⟧～ or {国産|こくさん}～ (domestic ~). In Japan, labeling something as {国産|こくさん} is a major selling point, especially for food, as consumers associate it with safety and quality. The opposite is ⟦{外国産|がいこくさん}→外国産：03048_gaikokusan⟧ or ⟦{輸入|ゆにゅう}→輸入：01742_yunyuu⟧ (imported).\n\nCOMMON COLLOCATIONS:\n- {国産|こくさん}{品|ひん}: domestic product\n- {国産|こくさん}{車|しゃ}: domestic car\n- {国産|こくさん}{米|まい}: domestically grown rice\n- ⟦{純|じゅん}→純〜：28361_jun⟧{国産|こくさん}: 100% domestic",
   "cross_references": [
     {
       "type": "antonym",
@@ -52,11 +52,18 @@
       "reading": "がいこくさん",
       "headword": "{外国産|がいこくさん}",
       "label": "foreign-made"
+    },
+    {
+      "type": "antonym",
+      "target_id": "23952_gaikokusei",
+      "reading": "がいこくせい",
+      "headword": "{外国製|がいこくせい}",
+      "label": "foreign-made"
     }
   ],
   "metadata": {
     "created": "2026-02-19T11:49:44Z",
-    "modified": "2026-08-16T12:29:03Z",
+    "modified": "2026-09-02T04:01:27Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

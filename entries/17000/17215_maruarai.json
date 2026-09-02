@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "17215_maruarai_ex1",
-      "japanese": "この{布団|ふとん}は{丸洗|まるあら}いできる。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{布団|ふとん}→布団：01720_futon⟧⟦は→は：00079_ha⟧{丸洗|まるあら}い⟦できる→できる：00557_dekiru⟧。",
       "english": "This futon can be washed whole.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "17215_maruarai_ex2",
-      "japanese": "コートを{丸洗|まるあら}いに{出|だ}した。",
+      "japanese": "⟦コート→コート：01358_kooto⟧⟦を→を：00422_wo⟧{丸洗|まるあら}い⟦に→に：00314_ni⟧⟦{出|だ}した→出す：01087_dasu⟧。",
       "english": "I sent my coat out for a full wash.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "17215_maruarai_ex3",
-      "japanese": "{子|こ}どもの{靴|くつ}が{泥|どろ}だらけになったので、{丸洗|まるあら}いした。",
+      "japanese": "{子|こ}ども⟦の→の：09472_no⟧⟦{靴|くつ}→靴：00725_kutsu⟧⟦が→が：00051_ga⟧⟦{泥|どろ}だらけ→泥だらけ：15076_dorodarake⟧になった⟦の→の：09472_no⟧で、{丸洗|まるあら}い⟦した→する：00392_suru⟧。",
       "english": "The kids' shoes got covered in mud, so I gave them a full wash.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nUsed both as a noun ({丸洗|まるあら}い) and as a verb with する ({丸洗|まるあら}いする). Often appears on product labels to indicate that an item can be machine-washed whole.\n\nWORD FORMATION:\n{丸|まる} (whole, entire) + {洗|あら}い (washing). The {丸|まる} prefix means 'completely' or 'as a whole.'\n\nCOMMON COLLOCATIONS:\n- {丸洗|まるあら}いOK / {丸洗|まるあら}い{可|か} (machine-washable / can be fully washed)\n- {布団|ふとん}の{丸洗|まるあら}い (full washing of a futon)\n- {丸洗|まるあら}いに{出|だ}す (to send out for full washing)\n\nSIMILAR WORDS:\n- {水洗|みずあら}い: washing with water — focuses on the method (water) rather than completeness",
+  "notes": "USAGE:\nUsed both as a noun ({丸洗|まるあら}い) and as a verb with ⟦する→する：00392_suru⟧ ({丸洗|まるあら}い⟦する→する：00392_suru⟧). Often appears on product labels to indicate that an item can be machine-washed whole.\n\nFORMS:\n⟦{丸|まる}→丸：02167_maru⟧ (whole, entire) + {洗|あら}い (washing). The ⟦{丸|まる}→丸：02167_maru⟧ prefix means 'completely' or 'as a whole.'\n\nCOMMON COLLOCATIONS:\n- {丸洗|まるあら}いOK / {丸洗|まるあら}い{可|か} (machine-washable / can be fully washed)\n- ⟦{布団|ふとん}→布団：01720_futon⟧⟦の→の：09472_no⟧{丸洗|まるあら}い (full washing of a futon)\n- {丸洗|まるあら}い⟦に→に：00314_ni⟧⟦{出|だ}す→出す：01087_dasu⟧ (to send out for full washing)\n\nSIMILAR WORDS:\n- ⟦{水洗|みずあら}い→水洗い：17427_mizuarai⟧: washing with water — focuses on the method (water) rather than completeness",
   "cross_references": [
     {
       "type": "related",
@@ -142,11 +142,18 @@
       "reading": "あらう",
       "headword": "{洗|あら}う",
       "label": "to wash"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17427_mizuarai",
+      "reading": "みずあらい",
+      "headword": "{水洗|みずあら}い",
+      "label": "washing with water"
     }
   ],
   "metadata": {
     "created": "2026-03-17T00:13:33Z",
-    "modified": "2026-07-23T06:28:55Z",
+    "modified": "2026-09-02T04:01:47Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

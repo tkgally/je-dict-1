@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26767_onnayaku_ex1",
-      "japanese": "{彼|かれ}は{女役|おんなやく}を{演|えん}じた。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{女役|おんなやく}⟦を→を：00422_wo⟧⟦{演|えん}じた→演じる：13330_enjiru⟧。",
       "english": "He played a female role.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26767_onnayaku_ex2",
-      "japanese": "この{劇|げき}では{女役|おんなやく}が{物語|ものがたり}の{鍵|かぎ}を{握|にぎ}っている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{劇|げき}→劇：02713_geki⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧{女役|おんなやく}⟦が→が：00051_ga⟧⟦{物語|ものがたり}→物語：03634_monogatari⟧⟦の→の：09472_no⟧⟦{鍵|かぎ}→鍵：02189_kagi⟧⟦を→を：00422_wo⟧⟦{握|にぎ}っている→握る：02383_nigiru⟧。",
       "english": "In this play, the female role holds the key to the story.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26767_onnayaku_ex3",
-      "japanese": "{歌舞伎|かぶき}では{男性|だんせい}の{役者|やくしゃ}が{女役|おんなやく}を{務|つと}めることが{伝統|でんとう}となっている。",
+      "japanese": "⟦{歌舞伎|かぶき}→歌舞伎：04455_kabuki⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{男性|だんせい}→男性：01655_dansei⟧⟦の→の：09472_no⟧⟦{役者|やくしゃ}→役者：05113_yakusha⟧⟦が→が：00051_ga⟧{女役|おんなやく}⟦を→を：00422_wo⟧⟦{務|つと}める→務める：10446_tsutomeru⟧こと⟦が→が：00051_ga⟧⟦{伝統|でんとう}→伝統：09585_dentou⟧⟦と→と：00512_to⟧⟦なっている→なる：01970_naru⟧。",
       "english": "In kabuki, it is a tradition for male actors to perform female roles.",
       "sense_numbers": [
         1
@@ -44,8 +44,23 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {女|おんな} (woman) and {役|やく} (role, part). In traditional Japanese theater, the concept of men performing {女役|おんなやく} has deep cultural significance. In {歌舞伎|かぶき}, male actors specializing in female roles are called {女形|おやま}/{女方|おんながた}, and this specialization is passed down through family lines.\n\nCOMMON COLLOCATIONS:\n- {女役|おんなやく}を{演|えん}じる: to play a female role\n- {女役|おんなやく}を{務|つと}める: to serve as the female lead\n- {女役|おんなやく}の{衣装|いしょう}: costume for a female role\n\nSIMILAR WORDS:\n- {女形|おんながた}/{女方|おんながた}: onnagata — a male kabuki actor specializing in female roles\n- {男役|おとこやく}: male role — the counterpart; also significant in Takarazuka Revue\n- {主役|しゅやく}: lead role — the principal character regardless of gender",
-  "cross_references": [],
+  "notes": "Composed of ⟦{女|おんな}→女：00559_onna⟧ (woman) and ⟦{役|やく}→役：12557_yaku⟧ (role, part). In traditional Japanese theater, the concept of men performing {女役|おんなやく} has deep cultural significance. In ⟦{歌舞伎|かぶき}→歌舞伎：04455_kabuki⟧, male actors specializing in female roles are called {女形|おやま}/{女方|おんながた}, and this specialization is passed down through family lines.\n\nCOMMON COLLOCATIONS:\n- {女役|おんなやく}⟦を→を：00422_wo⟧⟦{演|えん}じる→演じる：13330_enjiru⟧: to play a female role\n- {女役|おんなやく}⟦を→を：00422_wo⟧⟦{務|つと}める→務める：10446_tsutomeru⟧: to serve as the female lead\n- {女役|おんなやく}⟦の→の：09472_no⟧⟦{衣装|いしょう}→衣装：14102_ishou⟧: costume for a female role\n\nSIMILAR WORDS:\n- ⟦{女形|おんながた}→女形：12658_onnagata⟧/{女方|おんながた}: onnagata — a male kabuki actor specializing in female roles\n- {男役|おとこやく}: male role — the counterpart; also significant in Takarazuka Revue\n- ⟦{主役|しゅやく}→主役：04199_shuyaku⟧: lead role — the principal character regardless of gender",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12658_onnagata",
+      "reading": "おんながた",
+      "headword": "{女形|おんながた}",
+      "label": "onnagata"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04199_shuyaku",
+      "reading": "しゅやく",
+      "headword": "{主役|しゅやく}",
+      "label": "lead role"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -61,6 +76,6 @@
       "domain": []
     },
     "created": "2026-05-04T16:22:26Z",
-    "modified": "2026-08-06T12:44:19Z"
+    "modified": "2026-09-02T04:02:27Z"
   }
 }

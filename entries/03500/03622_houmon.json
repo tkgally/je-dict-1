@@ -2,7 +2,7 @@
   "id": "03622_houmon",
   "headword": "{訪問|ほうもん}",
   "reading": "ほうもん",
-  "part_of_speech": "noun, suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "visit, call",
   "conjugation": {
     "type": "suru",
@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "03622_houmon_ex1",
-      "japanese": "⟦{お客様|おきゃくさま}→お客様：08780_okyakusama⟧⟦の→の：09472_no⟧⟦{お宅|おたく}→お宅：01569_otaku⟧⟦を→を：00422_wo⟧{訪問|ほうもん}する。",
+      "japanese": "⟦お{客様|きゃくさま}→お客様：08780_okyakusama⟧⟦の→の：09472_no⟧⟦お{宅|たく}→お宅：01569_otaku⟧⟦を→を：00422_wo⟧{訪問|ほうもん}⟦する→する：00392_suru⟧。",
       "english": "To visit a customer's home.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "03622_houmon_ex2",
-      "japanese": "⟦{大統領|だいとうりょう}→大統領：03418_daitouryou⟧⟦が→が：00051_ga⟧⟦{日本|にほん}→日本：03876_nihon⟧⟦を→を：00422_wo⟧{訪問|ほうもん}した。",
+      "japanese": "⟦{大統領|だいとうりょう}→大統領：03418_daitouryou⟧⟦が→が：00051_ga⟧⟦{日本|にほん}→日本：03876_nihon⟧⟦を→を：00422_wo⟧{訪問|ほうもん}⟦した→する：00392_suru⟧。",
       "english": "The president visited Japan.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
     },
     {
       "id": "03622_houmon_ex4",
-      "japanese": "⟦{入院|にゅういん}→入院：02091_nyuuin⟧している⟦{友人|ゆうじん}→友人：03649_yuujin⟧⟦を→を：00422_wo⟧{訪問|ほうもん}して、⟦{花|はな}→花：00523_hana⟧⟦を→を：00422_wo⟧⟦{持|も}っていった→持つ：00478_motsu⟧。",
+      "japanese": "⟦{入院|にゅういん}→入院：02091_nyuuin⟧⟦している→する：00392_suru⟧⟦{友人|ゆうじん}→友人：03649_yuujin⟧⟦を→を：00422_wo⟧{訪問|ほうもん}⟦して→する：00392_suru⟧、⟦{花|はな}→花：00523_hana⟧⟦を→を：00422_wo⟧⟦{持|も}っていった→持つ：00478_motsu⟧。",
       "english": "I visited my friend in the hospital and brought flowers.",
       "notes": null,
       "has_audio": false,
@@ -153,10 +153,10 @@
       ]
     }
   ],
-  "notes": "USAGE: {訪問|ほうもん} is more formal than ⟦{訪|たず}ねる→訪ねる：01182_tazuneru⟧ and often used in official or business contexts.\n\nCOMMON PATTERNS:\n・{訪問|ほうもん}する (to visit)\n・{訪問|ほうもん}⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧ (to receive a visit)\n・〜⟦を→を：00422_wo⟧{訪問|ほうもん}する (to visit ~)\n\nCOMMON COMPOUNDS:\n・{訪問|ほうもん}⟦{販売|はんばい}→販売：03573_hanbai⟧ (door-to-door sales)\n・{訪問|ほうもん}⟦{者|しゃ}→〜者：04662_sha⟧ (visitor)\n・⟦{家庭|かてい}→家庭：12315_katei⟧{訪問|ほうもん} (home visit)",
+  "notes": "USAGE: {訪問|ほうもん} is more formal than ⟦{訪|たず}ねる→訪ねる：01182_tazuneru⟧ and often used in official or business contexts.\n\nCOMMON PATTERNS:\n- {訪問|ほうもん}⟦する→する：00392_suru⟧ (to visit)\n- {訪問|ほうもん}⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧ (to receive a visit)\n- 〜⟦を→を：00422_wo⟧{訪問|ほうもん}⟦する→する：00392_suru⟧ (to visit ~)\n\nCOMPOUNDS:\n- {訪問|ほうもん}⟦{販売|はんばい}→販売：03573_hanbai⟧ (door-to-door sales)\n- {訪問|ほうもん}⟦{者|しゃ}→〜者：04662_sha⟧ (visitor)\n- ⟦{家庭|かてい}→家庭：12315_katei⟧{訪問|ほうもん} (home visit)",
   "metadata": {
     "created": "2026-01-12T15:37:00Z",
-    "modified": "2026-08-13T15:50:29Z",
+    "modified": "2026-09-02T04:01:03Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
@@ -189,6 +189,20 @@
       "reading": "らいほう",
       "headword": "{来訪|らいほう}",
       "label": "visit (from host's perspective)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01182_tazuneru",
+      "reading": "たずねる",
+      "headword": "{訪|たず}ねる",
+      "label": "to visit"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21837_tanbou",
+      "reading": "たんぼう",
+      "headword": "{探訪|たんぼう}",
+      "label": "visit"
     }
   ]
 }

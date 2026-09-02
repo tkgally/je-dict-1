@@ -3,7 +3,7 @@
   "headword": "{平常|へいじょう}",
   "reading": "へいじょう",
   "romaji": "heijou",
-  "part_of_speech": "noun / adjective (な/の)",
+  "part_of_speech": "noun, na-adjective, no-adjective",
   "gloss": "normal; ordinary; usual",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25319_heijou_ex1",
-      "japanese": "{平常|へいじょう}{通|どお}りに{営業|えいぎょう}しています。",
+      "japanese": "{平常|へいじょう}{通|どお}り⟦に→に：00314_ni⟧⟦{営業|えいぎょう}→営業：01878_eigyou⟧⟦しています→する：00392_suru⟧。",
       "english": "We are open as usual.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25319_heijou_ex2",
-      "japanese": "{平常|へいじょう}{心|しん}を{保|たも}つことが{大切|たいせつ}だ。",
+      "japanese": "{平常|へいじょう}{心|しん}⟦を→を：00422_wo⟧⟦{保|たも}つ→保つ：10134_tamotsu⟧こと⟦が→が：00051_ga⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧だ。",
       "english": "It is important to keep a calm mind.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25319_heijou_ex3",
-      "japanese": "{災害|さいがい}{後|ご}、{平常|へいじょう}の{生活|せいかつ}に{戻|もど}るまで{長|なが}い{時間|じかん}がかかった。",
+      "japanese": "⟦{災害|さいがい}→災害：09636_saigai⟧⟦{後|ご}→後：30157_go⟧、{平常|へいじょう}⟦の→の：09472_no⟧⟦{生活|せいかつ}→生活：01443_seikatsu⟧⟦に→に：00314_ni⟧⟦{戻|もど}る→戻る：01117_modoru⟧⟦まで→まで：00490_made⟧⟦{長|なが}い→長い：00491_nagai⟧⟦{時間|じかん}→時間：00468_jikan⟧⟦が→が：00051_ga⟧⟦かかった→かかる：00711_kakaru⟧。",
       "english": "After the disaster, it took a long time to return to normal life.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Refers to the state of things being normal, especially as contrasted with exceptional or emergency situations. Composed of {平|へい} (flat, calm) and {常|じょう} (always, ordinary). The compound {平常心|へいじょうしん} (equanimity, calm composure) is particularly common in martial arts and sports.\n\nCOMMON COLLOCATIONS:\n- {平常|へいじょう}{心|しん}: composure, equanimity\n- {平常|へいじょう}{通|どお}り: as usual, as normal\n- {平常|へいじょう}{時|じ}: normal times (as opposed to emergencies)\n- {平常|へいじょう}{運転|うんてん}: normal operation\n\nSIMILAR WORDS:\n- {普通|ふつう}: normal, ordinary — the most common everyday word\n- {通常|つうじょう}: usual, ordinary — slightly more formal, common in writing\n- {日常|にちじょう}: daily life, everyday — emphasizes routine",
+  "notes": "Refers to the state of things being normal, especially as contrasted with exceptional or emergency situations. Composed of {平|へい} (flat, calm) and {常|じょう} (always, ordinary). The compound ⟦{平常心|へいじょうしん}→平常心：21200_heijoushin⟧ (equanimity, calm composure) is particularly common in martial arts and sports.\n\nCOMMON COLLOCATIONS:\n- {平常|へいじょう}{心|しん}: composure, equanimity\n- {平常|へいじょう}{通|どお}り: as usual, as normal\n- {平常|へいじょう}⟦{時|じ}→時：09869_ji⟧: normal times (as opposed to emergencies)\n- {平常|へいじょう}⟦{運転|うんてん}→運転：01335_unten⟧: normal operation\n\nSIMILAR WORDS:\n- ⟦{普通|ふつう}→普通：01502_futsuu⟧: normal, ordinary — the most common everyday word\n- ⟦{通常|つうじょう}→通常：27316_tsuujou⟧: usual, ordinary — slightly more formal, common in writing\n- ⟦{日常|にちじょう}→日常：01595_nichijou⟧: daily life, everyday — emphasizes routine",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01502_futsuu",
+      "reading": "ふつう",
+      "headword": "{普通|ふつう}",
+      "label": "normal, ordinary"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27316_tsuujou",
+      "reading": "つうじょう",
+      "headword": "{通常|つうじょう}",
+      "label": "usual, ordinary"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01595_nichijou",
+      "reading": "にちじょう",
+      "headword": "{日常|にちじょう}",
+      "label": "daily life, everyday"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -54,11 +77,12 @@
         "adjective-na",
         "adjective-no"
       ],
+      "politeness": "plain",
       "semantic": [
         "abstract"
       ]
     },
     "created": "2026-04-24T14:26:42Z",
-    "modified": "2026-04-24T14:26:42Z"
+    "modified": "2026-09-02T04:02:21Z"
   }
 }

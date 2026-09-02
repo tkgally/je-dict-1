@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "10429_ehon_ex1",
-      "japanese": "{子供|こども}に{絵本|えほん}を{読|よ}む。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧⟦に→に：00314_ni⟧{絵本|えほん}⟦を→を：00422_wo⟧⟦{読|よ}む→読む：00426_yomu⟧。",
       "english": "To read a picture book to a child.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "10429_ehon_ex2",
-      "japanese": "この{絵本|えほん}は{世界中|せかいじゅう}で{人気|にんき}がある。",
+      "japanese": "⟦この→この：00962_kono⟧{絵本|えほん}⟦は→は：00079_ha⟧⟦{世界中|せかいじゅう}→世界中：10171_sekaijuu⟧⟦で→で：00502_de⟧⟦{人気|にんき}→人気：01488_ninki⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "This picture book is popular around the world.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "10429_ehon_ex3",
-      "japanese": "{寝|ね}る{前|まえ}に、{母|はは}がいつも{絵本|えほん}を{読|よ}んでくれた。",
+      "japanese": "⟦{寝|ね}る→寝る：00470_neru⟧⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧、⟦{母|はは}→母：00549_haha⟧⟦が→が：00051_ga⟧⟦いつも→いつも：00599_itsumo⟧{絵本|えほん}⟦を→を：00422_wo⟧⟦{読|よ}んで→読む：00426_yomu⟧⟦くれた→くれる：00724_kureru⟧。",
       "english": "Before bed, my mother always read me a picture book.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,40 @@
       ]
     }
   ],
-  "notes": "{絵本|えほん} is a book where illustrations are the primary content, typically aimed at young children. Composed of {絵|え} (picture) + {本|ほん} (book).\n\nCOMMON COLLOCATIONS:\n- {絵本|えほん}を{読|よ}む: to read a picture book\n- {絵本|えほん}を{読|よ}み{聞|き}かせる: to read aloud (to a child)\n- {絵本作家|えほんさっか}: picture book author/illustrator\n- {絵本|えほん}の{読|よ}み{聞|き}かせ: storytime, read-aloud session\n\nRELATED TERMS:\n- {漫画|まんが}: manga, comic book\n- {童話|どうわ}: fairy tale, children's story (text-focused)\n- {図鑑|ずかん}: illustrated reference/encyclopedia (for learning)\n\nCULTURAL NOTE:\nIn Japan, {読|よ}み{聞|き}かせ (reading aloud to children) is a valued educational practice. Libraries and bookstores regularly hold {絵本|えほん}の{読|よ}み{聞|き}かせ events. {絵本|えほん} is also used by adult Japanese language learners as reading practice.",
-  "cross_references": [],
+  "notes": "{絵本|えほん} is a book where illustrations are the primary content, typically aimed at young children. Composed of ⟦{絵|え}→絵：02613_e⟧ (picture) + {本|ほん} (book).\n\nCOMMON COLLOCATIONS:\n- {絵本|えほん}⟦を→を：00422_wo⟧⟦{読|よ}む→読む：00426_yomu⟧: to read a picture book\n- {絵本|えほん}⟦を→を：00422_wo⟧{読|よ}み{聞|き}かせる: to read aloud (to a child)\n- {絵本作家|えほんさっか}: picture book author/illustrator\n- {絵本|えほん}⟦の→の：09472_no⟧⟦{読|よ}み{聞|き}かせ→読み聞かせ：10631_yomikikase⟧: storytime, read-aloud session\n\nRELATED WORDS:\n- ⟦{漫画|まんが}→漫画：01511_manga⟧: manga, comic book\n- ⟦{童話|どうわ}→童話：04075_douwa⟧: fairy tale, children's story (text-focused)\n- ⟦{図鑑|ずかん}→図鑑：00437_zukan⟧: illustrated reference/encyclopedia (for learning)\n\nCULTURAL NOTE:\nIn Japan, ⟦{読|よ}み{聞|き}かせ→読み聞かせ：10631_yomikikase⟧ (reading aloud to children) is a valued educational practice. Libraries and bookstores regularly hold {絵本|えほん}⟦の→の：09472_no⟧⟦{読|よ}み{聞|き}かせ→読み聞かせ：10631_yomikikase⟧ events. {絵本|えほん} is also used by adult Japanese language learners as reading practice.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "01511_manga",
+      "reading": "まんが",
+      "headword": "{漫画|まんが}",
+      "label": "manga, comic book"
+    },
+    {
+      "type": "related",
+      "target_id": "04075_douwa",
+      "reading": "どうわ",
+      "headword": "{童話|どうわ}",
+      "label": "fairy tale, children's story"
+    },
+    {
+      "type": "related",
+      "target_id": "00437_zukan",
+      "reading": "ずかん",
+      "headword": "{図鑑|ずかん}",
+      "label": "illustrated reference/encyclopedia"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22685_jidoubungaku",
+      "reading": "じどうぶんがく",
+      "headword": "{児童文学|じどうぶんがく}",
+      "label": "children's literature"
+    }
+  ],
   "metadata": {
     "created": "2026-02-07T11:20:16Z",
-    "modified": "2026-08-14T09:49:03Z",
+    "modified": "2026-09-02T04:01:21Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

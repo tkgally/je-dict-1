@@ -15,41 +15,67 @@
   "examples": [
     {
       "id": "30098_hiroen_ex1",
-      "japanese": "{広縁|ひろえん}でお{茶|ちゃ}を{飲|の}む。",
+      "japanese": "{広縁|ひろえん}⟦で→で：00502_de⟧⟦お{茶|ちゃ}→お茶：00576_ocha⟧⟦を→を：00422_wo⟧⟦{飲|の}む→飲む：00322_nomu⟧。",
       "english": "To drink tea on the wide veranda.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "30098_hiroen_ex2",
-      "japanese": "この{部屋|へや}には{広縁|ひろえん}が{付|つ}いている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{部屋|へや}→部屋：00507_heya⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{広縁|ひろえん}⟦が→が：00051_ga⟧⟦{付|つ}いている→付く：01960_tsuku⟧。",
       "english": "This room has a wide veranda.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "30098_hiroen_ex3",
-      "japanese": "{旅館|りょかん}の{広縁|ひろえん}から{庭園|ていえん}を{眺|なが}めるのは{格別|かくべつ}だ。",
+      "japanese": "⟦{旅館|りょかん}→旅館：01049_ryokan⟧⟦の→の：09472_no⟧{広縁|ひろえん}⟦から→から：00504_kara⟧⟦{庭園|ていえん}→庭園：12452_teien⟧⟦を→を：00422_wo⟧⟦{眺|なが}める→眺める：02132_nagameru⟧⟦の→の：09472_no⟧⟦は→は：00079_ha⟧⟦{格別|かくべつ}→格別：00154_kakubetsu⟧だ。",
       "english": "Gazing at the garden from the ryokan's wide veranda is something special.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A wide {縁側|えんがわ} — the wooden veranda strip along a Japanese-style room — broad enough to hold a small table and chairs. Frequently found in ryokan guest rooms as a relaxing spot beside the window.\n\nCOMMON COLLOCATIONS:\n- {広縁|ひろえん}{付|つ}きの{部屋|へや}: a room with a wide veranda\n- {広縁|ひろえん}でくつろぐ: to relax on the wide veranda\n\nSIMILAR WORDS:\n- {縁側|えんがわ}: engawa — the standard, narrower wooden veranda\n- ベランダ: balcony — a modern outdoor platform, not the wooden interior-edge veranda",
+  "notes": "A wide ⟦{縁側|えんがわ}→縁側：04495_engawa⟧ — the wooden veranda strip along a Japanese-style room — broad enough to hold a small table and chairs. Frequently found in ryokan guest rooms as a relaxing spot beside the window.\n\nCOMMON COLLOCATIONS:\n- {広縁|ひろえん}⟦{付|つ}き→付き：26333_tsuki⟧⟦の→の：09472_no⟧⟦{部屋|へや}→部屋：00507_heya⟧: a room with a wide veranda\n- {広縁|ひろえん}⟦で→で：00502_de⟧⟦くつろぐ→くつろぐ：02576_kutsurogu⟧: to relax on the wide veranda\n\nSIMILAR WORDS:\n- ⟦{縁側|えんがわ}→縁側：04495_engawa⟧: engawa — the standard, narrower wooden veranda\n- ⟦ベランダ→ベランダ：05072_beranda⟧: balcony — a modern outdoor platform, not the wooden interior-edge veranda",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04495_engawa",
+      "reading": "えんがわ",
+      "headword": "{縁側|えんがわ}",
+      "label": "engawa"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05072_beranda",
+      "reading": "べらんだ",
+      "headword": "ベランダ",
+      "label": "balcony"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["building"],
+      "politeness": "plain",
+      "semantic": [
+        "building"
+      ],
       "domain": []
     },
     "created": "2026-07-25T03:20:29Z",
-    "modified": "2026-07-25T03:20:29Z"
+    "modified": "2026-09-02T04:02:38Z"
   }
 }

@@ -15,40 +15,60 @@
   "examples": [
     {
       "id": "18955_sekihan_ex1",
-      "japanese": "お{祝|いわ}いに{赤飯|せきはん}を{炊|た}いた。",
+      "japanese": "⟦お{祝|いわ}い→お祝い：01339_oiwai⟧⟦に→に：00314_ni⟧{赤飯|せきはん}⟦を→を：00422_wo⟧⟦{炊|た}いた→炊く：02127_taku⟧。",
       "english": "We made sekihan to celebrate.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "18955_sekihan_ex2",
-      "japanese": "{七五三|しちごさん}のお{祝|いわ}いに{赤飯|せきはん}を{配|くば}った。",
+      "japanese": "⟦{七五三|しちごさん}→七五三：06185_shichigosan⟧⟦の→の：09472_no⟧⟦お{祝|いわ}い→お祝い：01339_oiwai⟧⟦に→に：00314_ni⟧{赤飯|せきはん}⟦を→を：00422_wo⟧⟦{配|くば}った→配る：03921_kubaru⟧。",
       "english": "We handed out sekihan for the Shichi-Go-San celebration.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "18955_sekihan_ex3",
-      "japanese": "{祖母|そぼ}は{孫|まご}の{入学|にゅうがく}を{祝|いわ}って、{朝|あさ}から{赤飯|せきはん}を{蒸|む}してくれた。",
+      "japanese": "⟦{祖母|そぼ}→祖母：00813_sobo⟧⟦は→は：00079_ha⟧⟦{孫|まご}→孫：03731_mago⟧⟦の→の：09472_no⟧⟦{入学|にゅうがく}→入学：02092_nyuugaku⟧⟦を→を：00422_wo⟧⟦{祝|いわ}って→祝う：01881_iwau⟧、⟦{朝|あさ}→朝：02277_asa⟧⟦から→から：00504_kara⟧{赤飯|せきはん}⟦を→を：00422_wo⟧⟦{蒸|む}して→蒸す：02307_musu⟧⟦くれた→くれる：00724_kureru⟧。",
       "english": "My grandmother steamed sekihan from early morning to celebrate her grandchild's school admission.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Literally 'red rice,' composed of {赤|せき} (red) + {飯|はん} (cooked rice). The red color, from the azuki beans, symbolizes good luck and is associated with celebrations in Japanese culture. Traditionally prepared for occasions such as birthdays, weddings, {七五三|しちごさん} (children's milestone festival), school entrance ceremonies, and other happy events. Also called お{赤飯|せきはん} with the polite prefix お. Available as instant packs in supermarkets and convenience stores.",
+  "notes": "Literally 'red rice,' composed of {赤|せき} (red) + {飯|はん} (cooked rice). The red color, from the azuki beans, symbolizes good luck and is associated with celebrations in Japanese culture. Traditionally prepared for occasions such as birthdays, weddings, ⟦{七五三|しちごさん}→七五三：06185_shichigosan⟧ (children's milestone festival), school entrance ceremonies, and other happy events. Also called お{赤飯|せきはん} with the polite prefix お. Available as instant packs in supermarkets and convenience stores.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22455_okowa",
+      "reading": "おこわ",
+      "headword": "おこわ",
+      "label": "steamed glutinous rice"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food", "culture"]
+      "semantic": [
+        "food",
+        "culture"
+      ]
     },
     "created": "2026-03-23T10:21:06Z",
-    "modified": "2026-03-23T10:21:06Z"
+    "modified": "2026-09-02T04:01:54Z"
   }
 }

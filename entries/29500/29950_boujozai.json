@@ -15,41 +15,67 @@
   "examples": [
     {
       "id": "29950_boujozai_ex1",
-      "japanese": "{畑|はたけ}に{防除剤|ぼうじょざい}をまく。",
+      "japanese": "⟦{畑|はたけ}→畑：00842_hatake⟧⟦に→に：00314_ni⟧{防除剤|ぼうじょざい}⟦を→を：00422_wo⟧まく。",
       "english": "to spread pest-control agent on the field.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29950_boujozai_ex2",
-      "japanese": "この{防除剤|ぼうじょざい}は{害虫|がいちゅう}によく{効|き}く。",
+      "japanese": "⟦この→この：00962_kono⟧{防除剤|ぼうじょざい}⟦は→は：00079_ha⟧⟦{害虫|がいちゅう}→害虫：06430_gaichuu⟧⟦に→に：00314_ni⟧⟦よく→よく：00601_yoku⟧⟦{効|き}く→効く：01932_kiku⟧。",
       "english": "This pesticide works well against harmful insects.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29950_boujozai_ex3",
-      "japanese": "{農薬|のうやく}の{使|つか}いすぎを{避|さ}けるため、{防除剤|ぼうじょざい}の{量|りょう}を{減|へ}らした。",
+      "japanese": "⟦{農薬|のうやく}→農薬：04295_nouyaku⟧⟦の→の：09472_no⟧⟦{使|つか}い→使う：00473_tsukau⟧すぎ⟦を→を：00422_wo⟧⟦{避|さ}ける→避ける：02109_sakeru⟧⟦ため→ため：01145_tame⟧、{防除剤|ぼうじょざい}⟦の→の：09472_no⟧⟦{量|りょう}→量：03799_ryou⟧⟦を→を：00422_wo⟧⟦{減|へ}らした→減らす：02414_herasu⟧。",
       "english": "To avoid overusing agrochemicals, I reduced the amount of pest-control agent.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {防除|ぼうじょ} ('prevention and extermination') + {剤|ざい} ('agent, preparation'). Refers to substances used to control agricultural pests, insects, and plant diseases.\n\nCOMMON COLLOCATIONS:\n- {防除剤|ぼうじょざい}を{散布|さんぷ}する: to spray a pest-control agent\n\nSIMILAR WORDS:\n- {殺虫剤|さっちゅうざい}: insecticide — targets insects specifically\n- {農薬|のうやく}: agricultural chemical — the broader category",
+  "notes": "Composed of ⟦{防除|ぼうじょ}→防除：24687_boujo⟧ ('prevention and extermination') + ⟦{剤|ざい}→〜剤：30790_zai⟧ ('agent, preparation'). Refers to substances used to control agricultural pests, insects, and plant diseases.\n\nCOMMON COLLOCATIONS:\n- {防除剤|ぼうじょざい}⟦を→を：00422_wo⟧⟦{散布|さんぷ}する→散布する：21621_sanpusuru⟧: to spray a pest-control agent\n\nSIMILAR WORDS:\n- ⟦{殺虫剤|さっちゅうざい}→殺虫剤：07036_sacchuuzai⟧: insecticide — targets insects specifically\n- ⟦{農薬|のうやく}→農薬：04295_nouyaku⟧: agricultural chemical — the broader category",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07036_sacchuuzai",
+      "reading": "さっちゅうざい",
+      "headword": "{殺虫剤|さっちゅうざい}",
+      "label": "insecticide"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04295_nouyaku",
+      "reading": "のうやく",
+      "headword": "{農薬|のうやく}",
+      "label": "agricultural chemical"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["tool"],
+      "politeness": "plain",
+      "semantic": [
+        "tool"
+      ],
       "domain": []
     },
     "created": "2026-07-19T00:19:03Z",
-    "modified": "2026-07-19T00:19:03Z"
+    "modified": "2026-09-02T04:02:38Z"
   }
 }

@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "19339_kushi_ex1",
-      "japanese": "{肉|にく}を{串|くし}に{刺|さ}す。",
+      "japanese": "⟦{肉|にく}→肉：02240_niku⟧⟦を→を：00422_wo⟧{串|くし}⟦に→に：00314_ni⟧⟦{刺|さ}す→刺す：02111_sasu⟧。",
       "english": "Thread meat onto a skewer.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19339_kushi_ex2",
-      "japanese": "{屋台|やたい}で{串焼|くしや}きを{三本|さんぼん}{買|か}った。",
+      "japanese": "⟦{屋台|やたい}→屋台：10549_yatai⟧⟦で→で：00502_de⟧{串焼|くしや}き⟦を→を：00422_wo⟧{三本|さんぼん}⟦{買|か}った→買う：00489_kau⟧。",
       "english": "I bought three skewers of grilled food at a street stall.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19339_kushi_ex3",
-      "japanese": "{串|くし}カツは{大阪|おおさか}の{名物|めいぶつ}で、{二度漬|にどづ}けは{禁止|きんし}だ。",
+      "japanese": "⟦{串|くし}カツ→串カツ：11354_kushikatsu⟧⟦は→は：00079_ha⟧⟦{大阪|おおさか}→大阪：09779_oosaka⟧⟦の→の：09472_no⟧⟦{名物|めいぶつ}→名物：05591_meibutsu⟧⟦で→で：00502_de⟧、{二度漬|にどづ}け⟦は→は：00079_ha⟧⟦{禁止|きんし}→禁止：02643_kinshi⟧だ。",
       "english": "Kushikatsu is an Osaka specialty, and double-dipping the sauce is forbidden.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A thin stick used for piercing food, central to many Japanese dishes. Skewered foods are a major category in Japanese cuisine, from yakitori to kushikatsu.\n\nCOMMON COLLOCATIONS:\n- {串|くし}に{刺|さ}す — to thread onto a skewer\n- {串焼|くしや}き — skewer-grilled food\n- {串|くし}カツ — deep-fried skewered cutlets\n- {焼|や}き{鳥|とり}の{串|くし} — yakitori skewer\n- {串|くし}{団子|だんご} — skewered dango\n\nCOUNTING:\nSkewered items are counted with {本|ほん} (the counter for long thin objects): {一本|いっぽん}、{二本|にほん}、{三本|さんぼん}.\n\nSIMILAR WORDS:\n- {櫛|くし} — comb (same pronunciation, different kanji and meaning)\n- {竹串|たけぐし} — bamboo skewer\n- {金串|かなぐし} — metal skewer",
+  "notes": "A thin stick used for piercing food, central to many Japanese dishes. Skewered foods are a major category in Japanese cuisine, from yakitori to kushikatsu.\n\nCOMMON COLLOCATIONS:\n- {串|くし}⟦に→に：00314_ni⟧⟦{刺|さ}す→刺す：02111_sasu⟧ — to thread onto a skewer\n- {串焼|くしや}き — skewer-grilled food\n- ⟦{串|くし}カツ→串カツ：11354_kushikatsu⟧ — deep-fried skewered cutlets\n- ⟦{焼|や}き{鳥|とり}→焼き鳥：04952_yakitori⟧⟦の→の：09472_no⟧{串|くし} — yakitori skewer\n- {串|くし}⟦{団子|だんご}→団子：04959_dango⟧ — skewered dango\n\nCOUNTING PATTERNS:\nSkewered items are counted with {本|ほん} (the counter for long thin objects): ⟦{一本|いっぽん}→一本：08888_ippon⟧、{二本|にほん}、{三本|さんぼん}.\n\nSIMILAR WORDS:\n- ⟦{櫛|くし}→櫛：03882_kushi⟧ — comb (same pronunciation, different kanji and meaning)\n- {竹串|たけぐし} — bamboo skewer\n- {金串|かなぐし} — metal skewer",
   "prominent_see_also": [
     {
       "target_id": "03882_kushi",
@@ -54,18 +60,30 @@
       "reading": "くし",
       "headword": "{櫛|くし}",
       "label": "comb"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23916_tsumayouji",
+      "reading": "つまようじ",
+      "headword": "{爪楊枝|つまようじ}",
+      "label": "toothpick"
     }
   ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food", "tool"]
+      "semantic": [
+        "food",
+        "tool"
+      ]
     },
     "created": "2026-03-25T10:07:52Z",
-    "modified": "2026-03-25T10:07:52Z"
+    "modified": "2026-09-02T04:01:55Z"
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30415_miitosoosu_ex1",
-      "japanese": "ミートソースを{作|つく}る。",
+      "japanese": "ミートソース⟦を→を：00422_wo⟧⟦{作|つく}る→作る：00481_tsukuru⟧。",
       "english": "I make meat sauce.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30415_miitosoosu_ex2",
-      "japanese": "{今日|きょう}の{昼|ひる}ごはんはミートソースだ。",
+      "japanese": "⟦{今日|きょう}→今日：00496_kyou⟧⟦の→の：09472_no⟧⟦{昼|ひる}→昼：00540_hiru⟧ごはん⟦は→は：00079_ha⟧ミートソースだ。",
       "english": "Today's lunch is spaghetti with meat sauce.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30415_miitosoosu_ex3",
-      "japanese": "{子|こ}どもはミートソースのスパゲッティが{大好|だいす}きだ。",
+      "japanese": "{子|こ}ども⟦は→は：00079_ha⟧ミートソース⟦の→の：09472_no⟧⟦スパゲッティ→スパゲッティ：30382_supagetti⟧⟦が→が：00051_ga⟧⟦{大好|だいす}き→大好き：02911_daisuki⟧だ。",
       "english": "Children love spaghetti with meat sauce.",
       "sense_numbers": [
         1
@@ -45,7 +45,7 @@
     },
     {
       "id": "30415_miitosoosu_ex4",
-      "japanese": "{時間|じかん}がない{時|とき}は、{市販|しはん}のミートソースを{温|あたた}めるだけでいい。",
+      "japanese": "⟦{時間|じかん}→時間：00468_jikan⟧⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧{時|とき}⟦は→は：00079_ha⟧、⟦{市販|しはん}→市販：12424_shihan⟧⟦の→の：09472_no⟧ミートソース⟦を→を：00422_wo⟧⟦{温|あたた}める→温める：02096_atatameru⟧⟦だけ→〜だけ：03093_dake⟧⟦で→で：00502_de⟧⟦いい→いい：00118_ii⟧。",
       "english": "When you have no time, you can just heat up store-bought meat sauce.",
       "sense_numbers": [
         1
@@ -54,8 +54,24 @@
       "notes": null
     }
   ],
-  "notes": "From English \"meat sauce.\" In everyday Japanese it usually means the whole dish (spaghetti served with the sauce), not just the sauce itself.\n\nCOMMON COLLOCATIONS:\n- ミートソースのスパゲッティ: spaghetti with meat sauce\n- ミートソースを{煮込|にこ}む: to simmer meat sauce\n- {手作|てづく}りのミートソース: homemade meat sauce\n- ミートソース{缶|かん}: canned meat sauce\n\nSIMILAR WORDS:\n- ボロネーゼ: Bolognese — the Italian name, used for restaurant-style versions\n- ナポリタン: Japanese-style ketchup spaghetti — sweeter, made with ketchup rather than a simmered tomato sauce",
+  "notes": "From English \"meat sauce.\" In everyday Japanese it usually means the whole dish (spaghetti served with the sauce), not just the sauce itself.\n\nCOMMON COLLOCATIONS:\n- ミートソース⟦の→の：09472_no⟧⟦スパゲッティ→スパゲッティ：30382_supagetti⟧: spaghetti with meat sauce\n- ミートソース⟦を→を：00422_wo⟧⟦{煮込|にこ}む→煮込む：05822_nikomu⟧: to simmer meat sauce\n- ⟦{手作|てづく}り→手作り：08300_tezukuri⟧⟦の→の：09472_no⟧ミートソース: homemade meat sauce\n- ミートソース⟦{缶|かん}→缶：01076_kan⟧: canned meat sauce\n\nSIMILAR WORDS:\n- ボロネーゼ: Bolognese — the Italian name, used for restaurant-style versions\n- ⟦ナポリタン→ナポリタン：30400_naporitan⟧: Japanese-style ketchup spaghetti — sweeter, made with ketchup rather than a simmered tomato sauce",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "30400_naporitan",
+      "reading": "なぽりたん",
+      "headword": "ナポリタン",
+      "label": "Japanese-style ketchup spaghetti"
+    },
+    {
+      "type": "related",
+      "target_id": "23362_gyuuhikiniku",
+      "reading": "ぎゅうひきにく",
+      "headword": "{牛|ぎゅう}ひき{肉|にく}",
+      "label": "ground beef"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -63,13 +79,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "food"
       ],
       "domain": []
     },
     "created": "2026-08-05T15:24:36Z",
-    "modified": "2026-08-05T15:24:36Z"
+    "modified": "2026-09-02T04:02:40Z"
   }
 }

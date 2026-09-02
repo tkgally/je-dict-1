@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25316_shiryo_ex1",
-      "japanese": "{思慮|しりょ}{深|ぶか}い{人|ひと}だと{思|おも}う。",
+      "japanese": "{思慮|しりょ}{深|ぶか}い⟦{人|ひと}→人：00476_hito⟧だ⟦と→と：00512_to⟧⟦{思|おも}う→思う：00492_omou⟧。",
       "english": "I think he is a thoughtful person.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25316_shiryo_ex2",
-      "japanese": "{思慮|しりょ}が{足|た}りない{行動|こうどう}だった。",
+      "japanese": "{思慮|しりょ}⟦が→が：00051_ga⟧⟦{足|た}りない→足りる：01209_tariru⟧⟦{行動|こうどう}→行動：02728_koudou⟧だった。",
       "english": "It was an action lacking in prudence.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25316_shiryo_ex3",
-      "japanese": "{重要|じゅうよう}な{決断|けつだん}は{十分|じゅうぶん}な{思慮|しりょ}を{重|かさ}ねてから{下|くだ}すべきだ。",
+      "japanese": "⟦{重要|じゅうよう}→重要：01575_juuyou⟧な⟦{決断|けつだん}→決断：13250_ketsudan⟧⟦は→は：00079_ha⟧⟦{十分|じゅうぶん}→十分：01614_juubun⟧な{思慮|しりょ}⟦を→を：00422_wo⟧⟦{重|かさ}ねて→重ねる：02039_kasaneru⟧⟦から→から：00504_kara⟧⟦{下|くだ}す→下す：12329_kudasu⟧べきだ。",
       "english": "Important decisions should be made only after thorough deliberation.",
       "sense_numbers": [
         1
@@ -44,14 +44,52 @@
       "notes": null
     }
   ],
-  "notes": "Refers to deep, careful thought before making judgments or taking action. A formal word that appears frequently in compound expressions. Composed of {思|し} (think) and {慮|りょ} (consider, ponder).\n\nCOMMON COLLOCATIONS:\n- {思慮|しりょ}{深|ぶか}い: thoughtful, prudent\n- {思慮|しりょ}{分別|ふんべつ}: prudence and good judgment\n- {思慮|しりょ}が{浅|あさ}い: lacking in thoughtfulness\n- {思慮|しりょ}に{欠|か}ける: lacking prudence\n\nSIMILAR WORDS:\n- {配慮|はいりょ}: consideration, thoughtfulness — directed toward others' feelings or needs\n- {熟慮|じゅくりょ}: careful deliberation — implies even deeper and more prolonged thought\n- {考慮|こうりょ}: consideration — more neutral, taking something into account",
+  "notes": "Refers to deep, careful thought before making judgments or taking action. A formal word that appears frequently in compound expressions. Composed of {思|し} (think) and {慮|りょ} (consider, ponder).\n\nCOMMON COLLOCATIONS:\n- {思慮|しりょ}{深|ぶか}い: thoughtful, prudent\n- {思慮|しりょ}⟦{分別|ふんべつ}→分別：20452_funbetsu⟧: prudence and good judgment\n- {思慮|しりょ}⟦が→が：00051_ga⟧⟦{浅|あさ}い→浅い：01274_asai⟧: lacking in thoughtfulness\n- {思慮|しりょ}⟦に→に：00314_ni⟧⟦{欠|か}ける→欠ける：13167_kakeru⟧: lacking prudence\n\nSIMILAR WORDS:\n- ⟦{配慮|はいりょ}→配慮：07700_hairyo⟧: consideration, thoughtfulness — directed toward others' feelings or needs\n- ⟦{熟慮|じゅくりょ}→熟慮：18946_jukuryo⟧: careful deliberation — implies even deeper and more prolonged thought\n- ⟦{考慮|こうりょ}→考慮：02752_kouryo⟧: consideration — more neutral, taking something into account",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07700_hairyo",
+      "reading": "はいりょ",
+      "headword": "{配慮|はいりょ}",
+      "label": "consideration, thoughtfulness"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18946_jukuryo",
+      "reading": "じゅくりょ",
+      "headword": "{熟慮|じゅくりょ}",
+      "label": "careful deliberation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02752_kouryo",
+      "reading": "こうりょ",
+      "headword": "{考慮|こうりょ}",
+      "label": "consideration"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20452_funbetsu",
+      "reading": "ふんべつ",
+      "headword": "{分別|ふんべつ}",
+      "label": "discretion"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24992_shinkou",
+      "reading": "しんこう",
+      "headword": "{深考|しんこう}",
+      "label": "deep thought"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "abstract"
       ],
@@ -60,6 +98,6 @@
       ]
     },
     "created": "2026-04-24T14:25:33Z",
-    "modified": "2026-04-24T14:25:33Z"
+    "modified": "2026-09-02T04:02:21Z"
   }
 }

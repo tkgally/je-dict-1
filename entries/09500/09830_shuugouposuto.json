@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "09830_shuugouposuto_ex1",
-      "japanese": "{集合|しゅうごう}ポストを{確認|かくにん}した。",
+      "japanese": "{集合|しゅうごう}ポスト⟦を→を：00422_wo⟧⟦{確認|かくにん}した→確認する：25332_kakuninsuru⟧。",
       "english": "I checked the communal mailbox.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "09830_shuugouposuto_ex2",
-      "japanese": "{集合|しゅうごう}ポストに{郵便|ゆうびん}が{届|とど}いていた。",
+      "japanese": "{集合|しゅうごう}ポスト⟦に→に：00314_ni⟧⟦{郵便|ゆうびん}→郵便：03803_yuubin⟧⟦が→が：00051_ga⟧⟦{届|とど}いていた→届く：00899_todoku⟧。",
       "english": "There was mail in the communal mailbox.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "09830_shuugouposuto_ex3",
-      "japanese": "{集合|しゅうごう}ポストの{鍵|かぎ}を{忘|わす}れてしまった。",
+      "japanese": "{集合|しゅうごう}ポスト⟦の→の：09472_no⟧⟦{鍵|かぎ}→鍵：02189_kagi⟧⟦を→を：00422_wo⟧⟦{忘|わす}れて→忘れる：00474_wasureru⟧しまった。",
       "english": "I forgot my mailbox key.",
       "notes": null,
       "has_audio": false,
@@ -43,10 +43,26 @@
       ]
     }
   ],
-  "notes": "{集合|しゅうごう}ポスト is standard in Japanese apartment buildings. Each unit has its own locked mailbox within the communal area, which is usually located near the building entrance.\n\nCOMMON COLLOCATIONS:\n- {集合|しゅうごう}ポストの{鍵|かぎ} (mailbox key)\n- {集合|しゅうごう}ポストを{開|あ}ける (to open the mailbox)\n- {集合|しゅうごう}ポストエリア (mailbox area)\n\nRELATED TERMS:\n- {郵便|ゆうびん}ポスト: mailbox (for sending)\n- {郵便|ゆうびん}{受|う}け: mail slot\n- {宅配|たくはい}ボックス: delivery locker",
+  "notes": "{集合|しゅうごう}ポスト is standard in Japanese apartment buildings. Each unit has its own locked mailbox within the communal area, which is usually located near the building entrance.\n\nCOMMON COLLOCATIONS:\n- {集合|しゅうごう}ポスト⟦の→の：09472_no⟧⟦{鍵|かぎ}→鍵：02189_kagi⟧ (mailbox key)\n- {集合|しゅうごう}ポスト⟦を→を：00422_wo⟧⟦{開|あ}ける→開ける：00563_akeru⟧ (to open the mailbox)\n- {集合|しゅうごう}ポスト⟦エリア→エリア：10726_eria⟧ (mailbox area)\n\nRELATED WORDS:\n- ⟦{郵便|ゆうびん}→郵便：03803_yuubin⟧⟦ポスト→ポスト：02965_posuto⟧: mailbox (for sending)\n- ⟦{郵便|ゆうびん}{受|う}け→郵便受け：04889_yuubinuke⟧: mail slot\n- ⟦{宅配|たくはい}ボックス→宅配ボックス：09719_takuhaibokkusu⟧: delivery locker",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "04889_yuubinuke",
+      "reading": "ゆうびんうけ",
+      "headword": "{郵便受|ゆうびんう}け",
+      "label": "mail slot"
+    },
+    {
+      "type": "related",
+      "target_id": "09719_takuhaibokkusu",
+      "reading": "たくはいぼっくす",
+      "headword": "{宅配|たくはい}ボックス",
+      "label": "delivery locker"
+    }
+  ],
   "metadata": {
     "created": "2026-02-03T12:23:06Z",
-    "modified": "2026-07-10T00:20:58Z",
+    "modified": "2026-09-02T04:01:19Z",
     "ai_model": "claude-opus-4-5-20251101",
     "vocabulary_tier": "general",
     "tags": {

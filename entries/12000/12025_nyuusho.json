@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "12025_nyuusho_ex1",
-      "japanese": "{保育園|ほいくえん}に{入所|にゅうしょ}する。",
+      "japanese": "⟦{保育園|ほいくえん}→保育園：04704_hoikuen⟧⟦に→に：00314_ni⟧{入所|にゅうしょ}⟦する→する：00392_suru⟧。",
       "english": "To enter a nursery school.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "12025_nyuusho_ex2",
-      "japanese": "{祖母|そぼ}が{介護|かいご}{施設|しせつ}に{入所|にゅうしょ}した。",
+      "japanese": "⟦{祖母|そぼ}→祖母：00813_sobo⟧⟦が→が：00051_ga⟧⟦{介護|かいご}{施設|しせつ}→介護施設：28076_kaigoshisetsu⟧⟦に→に：00314_ni⟧{入所|にゅうしょ}⟦した→する：00392_suru⟧。",
       "english": "My grandmother was admitted to a care facility.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "12025_nyuusho_ex3",
-      "japanese": "{入所|にゅうしょ}{手続|てつづ}きに{必要|ひつよう}な{書類|しょるい}を{準備|じゅんび}してください。",
+      "japanese": "{入所|にゅうしょ}⟦{手続|てつづ}き→手続き：05453_tetsuzuki⟧⟦に→に：00314_ni⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧な⟦{書類|しょるい}→書類：01103_shorui⟧⟦を→を：00422_wo⟧⟦{準備|じゅんび}して→準備する：22427_junbisuru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please prepare the documents needed for the admission procedure.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nUsed for official placement in institutions — care homes, nurseries, detention centers, and research facilities. Not used for hospitals ({入院|にゅういん}) or schools ({入学|にゅうがく}), which have their own specific terms.\n\nCOMMON COLLOCATIONS:\n- {施設|しせつ}に{入所|にゅうしょ}する: to enter a facility\n- {入所|にゅうしょ}{手続|てつづ}き: admission procedure\n- {入所|にゅうしょ}{者|しゃ}: resident, inmate\n- {入所|にゅうしょ}{待|ま}ち: waiting for admission\n\nANTONYM:\n{退所|たいしょ} means leaving or being discharged from a facility.",
+  "notes": "USAGE:\nUsed for official placement in institutions — care homes, nurseries, detention centers, and research facilities. Not used for hospitals (⟦{入院|にゅういん}→入院：02091_nyuuin⟧) or schools (⟦{入学|にゅうがく}→入学：02092_nyuugaku⟧), which have their own specific terms.\n\nCOMMON COLLOCATIONS:\n- ⟦{施設|しせつ}→施設：02503_shisetsu⟧⟦に→に：00314_ni⟧{入所|にゅうしょ}⟦する→する：00392_suru⟧: to enter a facility\n- {入所|にゅうしょ}⟦{手続|てつづ}き→手続き：05453_tetsuzuki⟧: admission procedure\n- {入所|にゅうしょ}{者|しゃ}: resident, inmate\n- {入所|にゅうしょ}{待|ま}ち: waiting for admission\n\nSIMILAR WORDS:\n⟦{退所|たいしょ}→退所：17982_taisho⟧ means leaving or being discharged from a facility.",
   "cross_references": [
     {
       "type": "antonym",
@@ -142,11 +142,18 @@
       "reading": "たいしょ",
       "headword": "{退所|たいしょ}",
       "label": "leaving a facility"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26638_tensho",
+      "reading": "てんしょ",
+      "headword": "{転所|てんしょ}",
+      "label": "transfer to a different facility"
     }
   ],
   "metadata": {
     "created": "2026-02-19T13:29:59Z",
-    "modified": "2026-07-04T09:40:18Z",
+    "modified": "2026-09-02T04:01:27Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

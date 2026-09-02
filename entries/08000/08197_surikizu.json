@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08197_surikizu_ex1",
-      "japanese": "{膝|ひざ}に{擦|す}り{傷|きず}ができた。",
+      "japanese": "⟦{膝|ひざ}→膝：00940_hiza⟧⟦に→に：00314_ni⟧{擦|す}り{傷|きず}⟦が→が：00051_ga⟧⟦できた→できる：00557_dekiru⟧。",
       "english": "I got a scrape on my knee.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "08197_surikizu_ex2",
-      "japanese": "{転|ころ}んで{擦|す}り{傷|きず}を{作|つく}った。",
+      "japanese": "⟦{転|ころ}んで→転ぶ：00863_korobu⟧{擦|す}り{傷|きず}⟦を→を：00422_wo⟧⟦{作|つく}った→作る：00481_tsukuru⟧。",
       "english": "I fell and got a scrape.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "08197_surikizu_ex3",
-      "japanese": "{子供|こども}の{擦|す}り{傷|きず}に{消毒液|しょうどくえき}を{塗|ぬ}った。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧⟦の→の：09472_no⟧{擦|す}り{傷|きず}⟦に→に：00314_ni⟧{消毒液|しょうどくえき}⟦を→を：00422_wo⟧⟦{塗|ぬ}った→塗る：01174_nuru⟧。",
       "english": "I applied disinfectant to the child's scrape.",
       "sense_numbers": [
         1
@@ -43,7 +43,7 @@
       "notes": null
     }
   ],
-  "notes": "USAGE:\n- {擦|す}り{傷|きず}ができる (to get a scrape)\n- {擦|す}り{傷|きず}を{作|つく}る (to get/make a scrape)\n- {擦|す}り{傷|きず}を{治療|ちりょう}する (to treat a scrape)\n\nCONTEXT:\nA very common minor injury, especially for children who play outdoors. Typically from falling on asphalt or concrete.\n\nALTERNATE READING:\nAlso written as すりきず without kanji in informal contexts.\n\nRELATED:\n- {切|き}り{傷|きず} (cut wound)\n- {打撲|だぼく} (bruise)\n- {傷|きず} (wound, injury - general)",
+  "notes": "USAGE:\n- {擦|す}り{傷|きず}⟦が→が：00051_ga⟧⟦できる→できる：00557_dekiru⟧ (to get a scrape)\n- {擦|す}り{傷|きず}⟦を→を：00422_wo⟧⟦{作|つく}る→作る：00481_tsukuru⟧ (to get/make a scrape)\n- {擦|す}り{傷|きず}⟦を→を：00422_wo⟧⟦{治療|ちりょう}→治療：03503_chiryou⟧⟦する→する：00392_suru⟧ (to treat a scrape)\nA very common minor injury, especially for children who play outdoors. Typically from falling on asphalt or concrete.\n\nALTERNATE READING:\nAlso written as すりきず without kanji in informal contexts.\n\nRELATED WORDS:\n- ⟦{切|き}り{傷|きず}→切り傷：07340_kirikizu⟧ (cut wound)\n- ⟦{打撲|だぼく}→打撲：05017_daboku⟧ (bruise)\n- ⟦{傷|きず}→傷：02201_kizu⟧ (wound, injury - general)",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -51,13 +51,14 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "health",
         "injury"
       ]
     },
     "created": "2026-01-25T08:03:41Z",
-    "modified": "2026-08-11T21:34:29Z"
+    "modified": "2026-09-02T04:01:14Z"
   },
   "cross_references": [
     {
@@ -66,6 +67,27 @@
       "reading": "さしきず",
       "headword": "{刺|さ}し{傷|きず}",
       "label": "stab wound"
+    },
+    {
+      "type": "related",
+      "target_id": "07340_kirikizu",
+      "reading": "きりきず",
+      "headword": "{切|き}り{傷|きず}",
+      "label": "cut wound"
+    },
+    {
+      "type": "related",
+      "target_id": "05017_daboku",
+      "reading": "だぼく",
+      "headword": "{打撲|だぼく}",
+      "label": "bruise"
+    },
+    {
+      "type": "related",
+      "target_id": "09517_kizuguchi",
+      "reading": "きずぐち",
+      "headword": "{傷口|きずぐち}",
+      "label": "wound, cut, opening of a wound"
     }
   ]
 }

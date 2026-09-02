@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28893_takoku_ex1",
-      "japanese": "{他国|たこく}の{文化|ぶんか}を{学|まな}ぶ。",
+      "japanese": "{他国|たこく}⟦の→の：09472_no⟧⟦{文化|ぶんか}→文化：01504_bunka⟧⟦を→を：00422_wo⟧⟦{学|まな}ぶ→学ぶ：01987_manabu⟧。",
       "english": "To study other countries' cultures.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28893_takoku_ex2",
-      "japanese": "{他国|たこく}との{比較|ひかく}が{必要|ひつよう}だ。",
+      "japanese": "{他国|たこく}⟦と→と：00512_to⟧⟦の→の：09472_no⟧⟦{比較|ひかく}→比較：03576_hikaku⟧⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧だ。",
       "english": "Comparison with other countries is necessary.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28893_takoku_ex3",
-      "japanese": "{他国|たこく}の{制度|せいど}を{参考|さんこう}にして、{新|あたら}しい{法律|ほうりつ}を{作|つく}った。",
+      "japanese": "{他国|たこく}⟦の→の：09472_no⟧⟦{制度|せいど}→制度：03291_seido⟧⟦を→を：00422_wo⟧⟦{参考|さんこう}→参考：02828_sankou⟧にして、⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦{法律|ほうりつ}→法律：01722_houritsu⟧⟦を→を：00422_wo⟧⟦{作|つく}った→作る：00481_tsukuru⟧。",
       "english": "Using other countries' systems as a reference, they created a new law.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {他|た} (other) + {国|こく} (country). More common in written and analytical contexts than in casual conversation.\n\nCOMMON COLLOCATIONS:\n- {他国|たこく}の{文化|ぶんか}: other countries' cultures\n- {他国|たこく}と{比|くら}べる: to compare with other countries\n- {他国|たこく}{民|みん}: foreign nationals (literary)\n- {他国|たこく}の{例|れい}を{参考|さんこう}にする: to use other countries' examples as reference\n\nSIMILAR WORDS:\n- {外国|がいこく}: foreign country — the everyday word, neutral and common\n- {異国|いこく}: foreign land — literary, suggests exoticism\n- {自国|じこく}: one's own country — direct antonym",
+  "notes": "Composed of ⟦{他|た}→他：03381_ta⟧ (other) + {国|こく} (country). More common in written and analytical contexts than in casual conversation.\n\nCOMMON COLLOCATIONS:\n- {他国|たこく}⟦の→の：09472_no⟧⟦{文化|ぶんか}→文化：01504_bunka⟧: other countries' cultures\n- {他国|たこく}⟦と→と：00512_to⟧⟦{比|くら}べる→比べる：01237_kuraberu⟧: to compare with other countries\n- {他国|たこく}{民|みん}: foreign nationals (literary)\n- {他国|たこく}⟦の→の：09472_no⟧⟦{例|れい}→例：09932_rei⟧⟦を→を：00422_wo⟧⟦{参考|さんこう}→参考：02828_sankou⟧⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧: to use other countries' examples as reference\n\nSIMILAR WORDS:\n- ⟦{外国|がいこく}→外国：02868_gaikoku⟧: foreign country — the everyday word, neutral and common\n- ⟦{異国|いこく}→異国：13721_ikoku⟧: foreign land — literary, suggests exoticism\n- ⟦{自国|じこく}→自国：14013_jikoku⟧: one's own country — direct antonym",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02868_gaikoku",
+      "reading": "がいこく",
+      "headword": "{外国|がいこく}",
+      "label": "foreign country"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13721_ikoku",
+      "reading": "いこく",
+      "headword": "{異国|いこく}",
+      "label": "foreign land"
+    },
+    {
+      "type": "antonym",
+      "target_id": "14013_jikoku",
+      "reading": "じこく",
+      "headword": "{自国|じこく}",
+      "label": "one's own country"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +76,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "politics"
       ],
       "domain": []
     },
     "created": "2026-06-07T02:04:13Z",
-    "modified": "2026-08-08T18:34:17Z"
+    "modified": "2026-09-02T04:02:35Z"
   }
 }

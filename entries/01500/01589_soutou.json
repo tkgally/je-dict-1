@@ -129,7 +129,7 @@
     },
     {
       "id": "01589_soutou_ex3",
-      "japanese": "⟦この→この：00962_kono⟧⟦{金額|きんがく}→金額：02665_kingaku⟧は⟦{千|せん}→千：00809_sen⟧⟦ドル→ドル：01554_doru⟧⟦に→に：00314_ni⟧{相当|そうとう}⟦します→する：00392_suru⟧。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{金額|きんがく}→金額：02665_kingaku⟧⟦は→は：00079_ha⟧⟦{千|せん}→千：00809_sen⟧⟦ドル→ドル：01554_doru⟧⟦に→に：00314_ni⟧{相当|そうとう}⟦します→する：00392_suru⟧。",
       "english": "This amount is equivalent to 1,000 dollars.",
       "notes": "～に{相当|そうとう}する",
       "has_audio": false,
@@ -159,7 +159,7 @@
     },
     {
       "id": "01589_soutou_ex6",
-      "japanese": "⟦この→この：00962_kono⟧⟦{資格|しかく}→資格：02834_shikaku⟧は⟦{大学|だいがく}→大学：00608_daigaku⟧⟦{卒業|そつぎょう}→卒業：01643_sotsugyou⟧⟦に→に：00314_ni⟧{相当|そうとう}する⟦と→と：00512_to⟧⟦{認|みと}められている→認める：02429_mitomeru⟧。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{資格|しかく}→資格：02834_shikaku⟧⟦は→は：00079_ha⟧⟦{大学|だいがく}→大学：00608_daigaku⟧⟦{卒業|そつぎょう}→卒業：01643_sotsugyou⟧⟦に→に：00314_ni⟧{相当|そうとう}⟦する→する：00392_suru⟧⟦と→と：00512_to⟧⟦{認|みと}められている→認める：02429_mitomeru⟧。",
       "english": "This qualification is recognized as equivalent to a university degree.",
       "notes": null,
       "has_audio": false,
@@ -168,7 +168,7 @@
       ]
     }
   ],
-  "notes": "{相当|そうとう} can function as an adverb, na-adjective, or suru verb.\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n- No standard transitive pair\n- Pattern: {相当|そうとう}する\n\nUSAGE PATTERNS:\n- Adverb: {相当|そうとう} + adjective/verb (considerably)\n- Na-adjective: {相当|そうとう}な + noun (considerable)\n- Suru verb: ～⟦に→に：00314_ni⟧{相当|そうとう}する (be equivalent to)\n\nCOMMON PATTERNS:\n- {相当|そうとう}⟦{難|むずか}しい→難しい：00517_muzukashii⟧ (quite difficult)\n- {相当|そうとう}な⟦{量|りょう}→量：03799_ryou⟧ (considerable amount)\n- X⟦に→に：00314_ni⟧{相当|そうとう}する (be equivalent to X)\n\nSIMILAR WORDS:\n- ⟦かなり→かなり：01149_kanari⟧: fairly, considerably (casual)\n- {相当|そうとう}: considerably (slightly more formal)\n- ⟦{非常|ひじょう}に→非常に：01223_hijouni⟧: extremely (stronger)",
+  "notes": "{相当|そうとう} can function as an adverb, na-adjective, or suru verb.\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n- No standard transitive pair\n- Pattern: {相当|そうとう}⟦する→する：00392_suru⟧\n\nCOMMON PATTERNS:\n- Adverb: {相当|そうとう} + adjective/verb (considerably)\n- Na-adjective: {相当|そうとう}な + noun (considerable)\n- Suru verb: ～⟦に→に：00314_ni⟧{相当|そうとう}⟦する→する：00392_suru⟧ (be equivalent to)\n- {相当|そうとう}⟦{難|むずか}しい→難しい：00517_muzukashii⟧ (quite difficult)\n- {相当|そうとう}な⟦{量|りょう}→量：03799_ryou⟧ (considerable amount)\n- X⟦に→に：00314_ni⟧{相当|そうとう}⟦する→する：00392_suru⟧ (be equivalent to X)\n\nSIMILAR WORDS:\n- ⟦かなり→かなり：01149_kanari⟧: fairly, considerably (casual)\n- {相当|そうとう}: considerably (slightly more formal)\n- ⟦{非常|ひじょう}に→非常に：01223_hijouni⟧: extremely (stronger)",
   "cross_references": [
     {
       "type": "synonym",
@@ -183,11 +183,18 @@
       "reading": "ひじょうに",
       "headword": "{非常|ひじょう}に",
       "label": "extremely (stronger)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24229_touka",
+      "reading": "とうか",
+      "headword": "{等価|とうか}",
+      "label": "equivalence"
     }
   ],
   "metadata": {
     "created": "2026-01-09T11:41:04Z",
-    "modified": "2026-05-15T23:24:08Z",
+    "modified": "2026-09-02T04:01:00Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

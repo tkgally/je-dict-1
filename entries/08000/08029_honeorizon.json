@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08029_honeorizon_ex1",
-      "japanese": "{結局|けっきょく}{骨折|ほねお}り{損|ぞん}だった。",
+      "japanese": "⟦{結局|けっきょく}→結局：03815_kekkyoku⟧{骨折|ほねお}り{損|ぞん}だった。",
       "english": "In the end, it was all wasted effort.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "08029_honeorizon_ex2",
-      "japanese": "{骨折|ほねお}り{損|ぞん}に{終|お}わった。",
+      "japanese": "{骨折|ほねお}り{損|ぞん}⟦に→に：00314_ni⟧⟦{終|お}わった→終わる：00567_owaru⟧。",
       "english": "It ended up being a waste of effort.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "08029_honeorizon_ex3",
-      "japanese": "{準備|じゅんび}したのに{骨折|ほねお}り{損|ぞん}になった。",
+      "japanese": "⟦{準備|じゅんび}した→準備する：22427_junbisuru⟧⟦の→の：09472_no⟧⟦に→に：00314_ni⟧{骨折|ほねお}り{損|ぞん}になった。",
       "english": "Despite my preparations, it was all for nothing.",
       "sense_numbers": [
         1
@@ -43,7 +43,7 @@
       "notes": null
     }
   ],
-  "notes": "{骨折|ほねお}り{損|ぞん} describes effort that produces no reward.\n\nWORD FORMATION:\n- {骨折|ほねお}り (great effort, pains - literally \"bone-breaking\")\n- {損|ぞん} (loss, damage)\n\nFULL PROVERB:\n「{骨折|ほねお}り{損|ぞん}のくたびれ{儲|もう}け」\n(All that effort for nothing but exhaustion)\n- A proverb meaning hard work that only results in tiredness, with no gain.\n\nUSAGE:\n- {骨折|ほねお}り{損|ぞん}になる (to end up being wasted effort)\n- {骨折|ほねお}り{損|ぞん}に{終|お}わる (to end in vain)\n- {骨折|ほねお}り{損|ぞん}だった (it was a waste of effort)\n\nSIMILAR EXPRESSIONS:\n- {無駄|むだ}{骨|ぼね} (wasted effort)\n- {徒労|とろう} (futile effort)\n- {水|みず}の{泡|あわ} (come to nothing)",
+  "notes": "{骨折|ほねお}り{損|ぞん} describes effort that produces no reward.\n\nFORMS:\n- ⟦{骨折|ほねお}り→骨折り：09076_honeori⟧ (great effort, pains - literally \"bone-breaking\")\n- {損|ぞん} (loss, damage)\n\nFULL PROVERB:\n「{骨折|ほねお}り{損|ぞん}⟦の→の：09472_no⟧くたびれ{儲|もう}け」\n(All that effort for nothing but exhaustion)\n- A proverb meaning hard work that only results in tiredness, with no gain.\n\nUSAGE:\n- {骨折|ほねお}り{損|ぞん}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧ (to end up being wasted effort)\n- {骨折|ほねお}り{損|ぞん}⟦に→に：00314_ni⟧{終|お}わる (to end in vain)\n- {骨折|ほねお}り{損|ぞん}だった (it was a waste of effort)\n\nSIMILAR WORDS:\n- ⟦{無駄|むだ}{骨|ぼね}→無駄骨：20265_mudabone⟧ (wasted effort)\n- ⟦{徒労|とろう}→徒労：15513_torou⟧ (futile effort)\n- ⟦{水|みず}の{泡|あわ}→水の泡：27216_mizunoawa⟧ (come to nothing)",
   "cross_references": [
     {
       "type": "synonym",
@@ -51,6 +51,27 @@
       "headword": "{徒労|とろう}",
       "label": "futile labor; wasted effort",
       "target_id": "15513_torou"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20265_mudabone",
+      "reading": "むだぼね",
+      "headword": "{無駄骨|むだぼね}",
+      "label": "wasted effort"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27216_mizunoawa",
+      "reading": "みずのあわ",
+      "headword": "{水|みず}の{泡|あわ}",
+      "label": "come to nothing"
+    },
+    {
+      "type": "related",
+      "target_id": "17590_nidodema",
+      "reading": "にどでま",
+      "headword": "{二度手間|にどでま}",
+      "label": "wasted effort"
     }
   ],
   "metadata": {
@@ -60,12 +81,13 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "action",
         "evaluation"
       ]
     },
     "created": "2026-01-25T00:32:35Z",
-    "modified": "2026-06-21T00:53:31Z"
+    "modified": "2026-09-02T04:01:13Z"
   }
 }

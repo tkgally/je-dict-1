@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08533_kusatori_ex1",
-      "japanese": "{草取|くさと}りをする。",
+      "japanese": "{草取|くさと}り⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧。",
       "english": "To do the weeding.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "08533_kusatori_ex2",
-      "japanese": "{庭|にわ}の{草取|くさと}りは{腰|こし}が{痛|いた}くなる。",
+      "japanese": "⟦{庭|にわ}→庭：02239_niwa⟧⟦の→の：09472_no⟧{草取|くさと}り⟦は→は：00079_ha⟧⟦{腰|こし}→腰：02210_koshi⟧⟦が→が：00051_ga⟧⟦{痛|いた}く→痛い：01108_itai⟧⟦なる→なる：01970_naru⟧。",
       "english": "Weeding the garden makes my back hurt.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "08533_kusatori_ex3",
-      "japanese": "{夏|なつ}は{草取|くさと}りが{大変|たいへん}だ。",
+      "japanese": "⟦{夏|なつ}→夏：02236_natsu⟧⟦は→は：00079_ha⟧{草取|くさと}り⟦が→が：00051_ga⟧⟦{大変|たいへん}→大変：00594_taihen⟧だ。",
       "english": "Weeding is hard work in summer.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
     },
     {
       "id": "08533_kusatori_ex4",
-      "japanese": "{畑|はたけ}の{草取|くさと}りを{手伝|てつだ}った。",
+      "japanese": "⟦{畑|はたけ}→畑：00842_hatake⟧⟦の→の：09472_no⟧{草取|くさと}り⟦を→を：00422_wo⟧⟦{手伝|てつだ}った→手伝う：00898_tetsudau⟧。",
       "english": "I helped with weeding the field.",
       "sense_numbers": [
         1
@@ -53,7 +53,7 @@
       "notes": null
     }
   ],
-  "notes": "{草取|くさと}り refers to the chore of pulling weeds from a garden, yard, or field. A very common activity in Japanese households, especially during the warm months when weeds grow rapidly.\n\nFORMATION:\n{草|くさ} (grass/weeds) + {取|と}り (taking/removing, from {取|と}る).\n\nCOMMON PATTERNS:\n- {草取|くさと}りをする: to do weeding\n- {庭|にわ}の{草取|くさと}り: weeding the garden\n- {畑|はたけ}の{草取|くさと}り: weeding the field\n- {草取|くさと}り{鎌|がま}: weeding sickle\n\nSIMILAR WORDS:\n- {草取|くさと}り: weeding (standard)\n- {草|くさ}むしり: weeding (more colloquial — from むしる, to pluck)\n- {除草|じょそう}: weeding/herbicide application (formal/technical)\n\nRELATED GARDENING CHORES:\n- {芝刈|しばか}り: lawn mowing\n- {水|みず}やり: watering\n- {落|お}ち{葉|ば}かき: raking fallen leaves\n- {剪定|せんてい}: pruning",
+  "notes": "{草取|くさと}り refers to the chore of pulling weeds from a garden, yard, or field. A very common activity in Japanese households, especially during the warm months when weeds grow rapidly.\n\nFORMS:\n⟦{草|くさ}→草：02206_kusa⟧ (grass/weeds) + ⟦{取|と}り→取る：00565_toru⟧ (taking/removing, from ⟦{取|と}る→取る：00565_toru⟧).\n\nCOMMON PATTERNS:\n- {草取|くさと}り⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧: to do weeding\n- ⟦{庭|にわ}→庭：02239_niwa⟧⟦の→の：09472_no⟧{草取|くさと}り: weeding the garden\n- ⟦{畑|はたけ}→畑：00842_hatake⟧⟦の→の：09472_no⟧{草取|くさと}り: weeding the field\n- {草取|くさと}り{鎌|がま}: weeding sickle\n\nSIMILAR WORDS:\n- {草取|くさと}り: weeding (standard)\n- ⟦{草|くさ}むしり→草むしり：08195_kusamushiri⟧: weeding (more colloquial — from むしる, to pluck)\n- ⟦{除草|じょそう}→除草：18648_josou⟧: weeding/herbicide application (formal/technical)\n\nRELATED GARDENING CHORES:\n- ⟦{芝刈|しばか}り→芝刈り：08532_shibakari⟧: lawn mowing\n- ⟦{水|みず}やり→水やり：06328_mizuyari⟧: watering\n- ⟦{落|お}ち{葉|ば}→落ち葉：14108_ochiba⟧かき: raking fallen leaves\n- ⟦{剪定|せんてい}→剪定：06327_sentei⟧: pruning",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,12 +61,13 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "daily-life"
       ]
     },
     "created": "2026-01-27T10:33:10Z",
-    "modified": "2026-06-22T12:50:00Z"
+    "modified": "2026-09-02T04:01:15Z"
   },
   "cross_references": [
     {
@@ -82,6 +83,34 @@
       "reading": "くさむしり",
       "headword": "{草|くさ}むしり",
       "label": "weeding (colloquial)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18648_josou",
+      "reading": "じょそう",
+      "headword": "{除草|じょそう}",
+      "label": "weeding/herbicide application"
+    },
+    {
+      "type": "related",
+      "target_id": "06328_mizuyari",
+      "reading": "みずやり",
+      "headword": "{水|みず}やり",
+      "label": "watering"
+    },
+    {
+      "type": "related",
+      "target_id": "06327_sentei",
+      "reading": "せんてい",
+      "headword": "{剪定|せんてい}",
+      "label": "pruning"
+    },
+    {
+      "type": "related",
+      "target_id": "08708_mizumaki",
+      "reading": "みずまき",
+      "headword": "{水|みず}{撒|ま}き",
+      "label": "watering"
     }
   ]
 }

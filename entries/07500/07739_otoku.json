@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "07739_otoku_ex1",
-      "japanese": "このセットはお{得|とく}だ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦セット→セット：03853_setto⟧⟦は→は：00079_ha⟧お{得|とく}だ。",
       "english": "This set is a good deal.",
       "has_audio": false,
       "sense_numbers": [
@@ -23,7 +23,7 @@
     },
     {
       "id": "07739_otoku_ex2",
-      "japanese": "まとめて{買|か}うとお{得|とく}になる。",
+      "japanese": "⟦まとめて→まとめる：02424_matomeru⟧⟦{買|か}う→買う：00489_kau⟧⟦と→と：00512_to⟧お{得|とく}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧。",
       "english": "It becomes more economical if you buy in bulk.",
       "has_audio": false,
       "sense_numbers": [
@@ -32,7 +32,7 @@
     },
     {
       "id": "07739_otoku_ex3",
-      "japanese": "お{得|とく}な{情報|じょうほう}を{教|おし}えてもらった。",
+      "japanese": "お{得|とく}な⟦{情報|じょうほう}→情報：03348_jouhou⟧⟦を→を：00422_wo⟧⟦{教|おし}えて→教える：00526_oshieru⟧⟦もらった→もらう：00520_morau⟧。",
       "english": "I was told about a good deal.",
       "has_audio": false,
       "sense_numbers": [
@@ -40,10 +40,33 @@
       ]
     }
   ],
-  "notes": "ETYMOLOGY:\nお (polite prefix) + {得|とく} (profit, benefit) - polite form of {得|とく}.\n\nUSAGE:\nVery common in:\n・Advertising and promotions\n・Shopping contexts\n・Discussing value/prices\n\nCOMMON COMPOUNDS:\n・お{得|とく}{情報|じょうほう} - bargain information\n・お{得|とく}{感|かん} - feeling of getting a good deal\n・お{得|とく}{価格|かかく} - bargain price\n・お{得|とく}セット - value set\n\nCOLLOCATIONS:\n・お{得|とく}に{買|か}う - to buy at a good price\n・お{得|とく}な{商品|しょうひん} - bargain product",
+  "notes": "ETYMOLOGY:\nお (polite prefix) + ⟦{得|とく}→得：12563_toku⟧ (profit, benefit) - polite form of ⟦{得|とく}→得：12563_toku⟧.\n\nUSAGE:\nVery common in:\n- Advertising and promotions\n- Shopping contexts\n- Discussing value/prices\n\nCOMPOUNDS:\n- お{得|とく}⟦{情報|じょうほう}→情報：03348_jouhou⟧ - bargain information\n- お{得|とく}⟦{感|かん}→〜感：28578_kan⟧ - feeling of getting a good deal\n- お{得|とく}⟦{価格|かかく}→価格：00147_kakaku⟧ - bargain price\n- お{得|とく}⟦セット→セット：03853_setto⟧ - value set\n\nCOMMON COLLOCATIONS:\n- お{得|とく}⟦に→に：00314_ni⟧⟦{買|か}う→買う：00489_kau⟧ - to buy at a good price\n- お{得|とく}な⟦{商品|しょうひん}→商品：01436_shouhin⟧ - bargain product",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12763_tokuyou",
+      "reading": "とくよう",
+      "headword": "{徳用|とくよう}",
+      "label": "economy size, economical, bargain"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19122_yasuagari",
+      "reading": "やすあがり",
+      "headword": "{安上|やすあ}がり",
+      "label": "inexpensive"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20423_mimiyori",
+      "reading": "みみより",
+      "headword": "{耳寄|みみよ}り",
+      "label": "welcome (news)"
+    }
+  ],
   "metadata": {
     "created": "2026-01-21T00:27:59Z",
-    "modified": "2026-06-19T21:43:28Z",
+    "modified": "2026-09-02T04:01:12Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

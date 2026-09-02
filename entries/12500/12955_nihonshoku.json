@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "12955_nihonshoku_ex1",
-      "japanese": "{日本食|にほんしょく}が{好|す}きですか。",
+      "japanese": "{日本食|にほんしょく}⟦が→が：00051_ga⟧⟦{好|す}き→好き：02355_suki⟧です⟦か→か：09473_ka⟧。",
       "english": "Do you like Japanese food?",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "12955_nihonshoku_ex2",
-      "japanese": "{海外|かいがい}でも{日本食|にほんしょく}レストランが{増|ふ}えている。",
+      "japanese": "⟦{海外|かいがい}→海外：00134_kaigai⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧{日本食|にほんしょく}⟦レストラン→レストラン：01048_resutoran⟧⟦が→が：00051_ga⟧⟦{増|ふ}えている→増える：01183_fueru⟧。",
       "english": "Japanese restaurants are increasing overseas as well.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "12955_nihonshoku_ex3",
-      "japanese": "{日本食|にほんしょく}は{栄養|えいよう}バランスが{良|よ}く、{健康的|けんこうてき}だと{言|い}われている。",
+      "japanese": "{日本食|にほんしょく}⟦は→は：00079_ha⟧⟦{栄養|えいよう}→栄養：01882_eiyou⟧⟦バランス→バランス：03870_baransu⟧⟦が→が：00051_ga⟧⟦{良|よ}く→良い：02350_yoi⟧、{健康的|けんこうてき}だ⟦と→と：00512_to⟧⟦{言|い}われている→言う：00515_iu⟧。",
       "english": "Japanese food is said to be healthy with good nutritional balance.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA general term for Japanese cuisine. Interchangeable with {和食|わしょく} in most contexts, though {和食|わしょく} tends to emphasize traditional dishes while {日本食|にほんしょく} can include modern Japanese cooking. Often contrasted with {洋食|ようしょく} (Western food) or {中華|ちゅうか} (Chinese food).\n\nCOMMON COLLOCATIONS:\n- {日本食|にほんしょく}レストラン: Japanese restaurant\n- {日本食|にほんしょく}ブーム: Japanese food boom\n- {日本食|にほんしょく}の{文化|ぶんか}: Japanese food culture\n\nSIMILAR WORDS:\n- {和食|わしょく}: Japanese cuisine (emphasizes traditional style)\n- {洋食|ようしょく}: Western-style food\n- {料理|りょうり}: cooking, cuisine (general)",
+  "notes": "USAGE:\nA general term for Japanese cuisine. Interchangeable with ⟦{和食|わしょく}→和食：10436_washoku⟧ in most contexts, though ⟦{和食|わしょく}→和食：10436_washoku⟧ tends to emphasize traditional dishes while {日本食|にほんしょく} can include modern Japanese cooking. Often contrasted with ⟦{洋食|ようしょく}→洋食：13274_youshoku⟧ (Western food) or ⟦{中華|ちゅうか}→中華：11322_chuuka⟧ (Chinese food).\n\nCOMMON COLLOCATIONS:\n- {日本食|にほんしょく}⟦レストラン→レストラン：01048_resutoran⟧: Japanese restaurant\n- {日本食|にほんしょく}⟦ブーム→ブーム：05511_buumu⟧: Japanese food boom\n- {日本食|にほんしょく}⟦の→の：09472_no⟧⟦{文化|ぶんか}→文化：01504_bunka⟧: Japanese food culture\n\nSIMILAR WORDS:\n- ⟦{和食|わしょく}→和食：10436_washoku⟧: Japanese cuisine (emphasizes traditional style)\n- ⟦{洋食|ようしょく}→洋食：13274_youshoku⟧: Western-style food\n- ⟦{料理|りょうり}→料理：01523_ryouri⟧: cooking, cuisine (general)",
   "cross_references": [
     {
       "type": "synonym",
@@ -52,11 +52,25 @@
       "reading": "わしょく",
       "headword": "{和食|わしょく}",
       "label": "Japanese cuisine"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13274_youshoku",
+      "reading": "ようしょく",
+      "headword": "{洋食|ようしょく}",
+      "label": "Western-style food"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01523_ryouri",
+      "reading": "りょうり",
+      "headword": "{料理|りょうり}",
+      "label": "cooking, cuisine"
     }
   ],
   "metadata": {
     "created": "2026-02-22T23:38:26Z",
-    "modified": "2026-04-27T10:17:30Z",
+    "modified": "2026-09-02T04:01:31Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

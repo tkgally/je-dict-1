@@ -3,7 +3,7 @@
   "headword": "{天日干|てんぴぼ}し",
   "reading": "てんぴぼし",
   "romaji": "tenpiboshi",
-  "part_of_speech": "noun; noun (する)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "sun-drying; drying in the sun",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21115_tenpiboshi_ex1",
-      "japanese": "{大根|だいこん}を{天日干|てんぴぼ}しにする。",
+      "japanese": "⟦{大根|だいこん}→大根：05186_daikon⟧⟦を→を：00422_wo⟧{天日干|てんぴぼ}し⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧。",
       "english": "To sun-dry daikon radish.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21115_tenpiboshi_ex2",
-      "japanese": "{天日干|てんぴぼ}しの{干物|ひもの}はうまみが{強|つよ}い。",
+      "japanese": "{天日干|てんぴぼ}し⟦の→の：09472_no⟧⟦{干物|ひもの}→干物：12423_himono⟧⟦は→は：00079_ha⟧うまみ⟦が→が：00051_ga⟧⟦{強|つよ}い→強い：00820_tsuyoi⟧。",
       "english": "Sun-dried fish has a strong umami flavor.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21115_tenpiboshi_ex3",
-      "japanese": "{布団|ふとん}を{天日干|てんぴぼ}しにすると、ふかふかになって{気持|きも}ちがいい。",
+      "japanese": "⟦{布団|ふとん}→布団：01720_futon⟧⟦を→を：00422_wo⟧{天日干|てんぴぼ}し⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧⟦と→と：00512_to⟧、⟦ふかふか→ふかふか：10475_fukafuka⟧になって{気持|きも}ち⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧。",
       "english": "When you dry a futon in the sun, it becomes fluffy and feels wonderful.",
       "sense_numbers": [
         1
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "A traditional technique of drying things in direct sunlight. In Japanese food culture, sun-drying concentrates flavors and is seen as superior to machine drying. The word {天日|てんぴ} means sunlight used for drying.\n\nCOMMON COLLOCATIONS:\n- {天日干|てんぴぼ}しにする: to sun-dry\n- {天日干|てんぴぼ}しの{塩|しお}: sun-dried salt (natural sea salt)\n- {天日干|てんぴぼ}しの{干物|ひもの}: sun-dried fish\n- {天日干|てんぴぼ}しの{米|こめ}: sun-dried rice\n\nFOOD CULTURE:\n{天日干|てんぴぼ}し products are considered premium. {天日干|てんぴぼ}しの{塩|しお} (sun-dried salt) and {天日干|てんぴぼ}しの{干物|ひもの} (sun-dried fish) are marketed as natural and superior to industrially processed alternatives.\n\nRELATED TERMS:\n- {干物|ひもの}: dried fish — often made by sun-drying\n- {天日|てんぴ}: sunlight (for drying purposes)\n- {陰干|かげぼ}し: drying in the shade — used for delicate items like silk",
+  "notes": "A traditional technique of drying things in direct sunlight. In Japanese food culture, sun-drying concentrates flavors and is seen as superior to machine drying. The word {天日|てんぴ} means sunlight used for drying.\n\nCOMMON COLLOCATIONS:\n- {天日干|てんぴぼ}し⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧: to sun-dry\n- {天日干|てんぴぼ}し⟦の→の：09472_no⟧⟦{塩|しお}→塩：00887_shio⟧: sun-dried salt (natural sea salt)\n- {天日干|てんぴぼ}し⟦の→の：09472_no⟧⟦{干物|ひもの}→干物：12423_himono⟧: sun-dried fish\n- {天日干|てんぴぼ}し⟦の→の：09472_no⟧⟦{米|こめ}→米：01323_kome⟧: sun-dried rice\n\nFOOD CULTURE:\n{天日干|てんぴぼ}し products are considered premium. {天日干|てんぴぼ}し⟦の→の：09472_no⟧⟦{塩|しお}→塩：00887_shio⟧ (sun-dried salt) and {天日干|てんぴぼ}し⟦の→の：09472_no⟧⟦{干物|ひもの}→干物：12423_himono⟧ (sun-dried fish) are marketed as natural and superior to industrially processed alternatives.\n\nRELATED WORDS:\n- ⟦{干物|ひもの}→干物：12423_himono⟧: dried fish — often made by sun-drying\n- {天日|てんぴ}: sunlight (for drying purposes)\n- ⟦{陰干|かげぼ}し→陰干し：26260_kageboshi⟧: drying in the shade — used for delicate items like silk",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "12423_himono",
+      "reading": "ひもの",
+      "headword": "{干物|ひもの}",
+      "label": "dried fish"
+    },
+    {
+      "type": "related",
+      "target_id": "26260_kageboshi",
+      "reading": "かげぼし",
+      "headword": "{陰干|かげぼ}し",
+      "label": "drying in the shade"
+    },
+    {
+      "type": "related",
+      "target_id": "08062_futonhoshi",
+      "reading": "ふとんほし",
+      "headword": "{布団干|ふとんほ}し",
+      "label": "airing out bedding"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19247_shitsunaiboshi",
+      "reading": "しつないぼし",
+      "headword": "{室内干|しつないぼ}し",
+      "label": "drying laundry indoors"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,7 +92,7 @@
       "verb_class": "suru"
     },
     "created": "2026-03-31T20:16:59Z",
-    "modified": "2026-03-31T20:16:59Z"
+    "modified": "2026-09-02T04:02:02Z"
   },
   "conjugation": {
     "type": "suru",

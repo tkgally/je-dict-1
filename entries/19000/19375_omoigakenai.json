@@ -3,7 +3,7 @@
   "headword": "{思|おも}いがけない",
   "reading": "おもいがけない",
   "romaji": "omoigakenai",
-  "part_of_speech": "adjective (i)",
+  "part_of_speech": "i-adjective",
   "gloss": "unexpected; surprising; unforeseen",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "19375_omoigakenai_ex1",
-      "japanese": "{思|おも}いがけない{出来事|できごと}があった。",
+      "japanese": "{思|おも}いがけない⟦{出来事|できごと}→出来事：03446_dekigoto⟧⟦が→が：00051_ga⟧⟦あった→ある：00006_aru⟧。",
       "english": "Something unexpected happened.",
       "sense_numbers": [
         1
@@ -23,7 +23,7 @@
     },
     {
       "id": "19375_omoigakenai_ex2",
-      "japanese": "{思|おも}いがけない{場所|ばしょ}で{友人|ゆうじん}に{会|あ}った。",
+      "japanese": "{思|おも}いがけない⟦{場所|ばしょ}→場所：00829_basho⟧⟦で→で：00502_de⟧⟦{友人|ゆうじん}→友人：03649_yuujin⟧⟦に→に：00314_ni⟧⟦{会|あ}った→会う：00482_au⟧。",
       "english": "I ran into a friend in an unexpected place.",
       "sense_numbers": [
         1
@@ -31,15 +31,45 @@
     },
     {
       "id": "19375_omoigakenai_ex3",
-      "japanese": "{思|おも}いがけないプレゼントをもらって、とても{嬉|うれ}しかった。",
+      "japanese": "{思|おも}いがけない⟦プレゼント→プレゼント：01791_purezento⟧⟦を→を：00422_wo⟧⟦もらって→もらう：00520_morau⟧、⟦とても→とても：00593_totemo⟧⟦{嬉|うれ}しかった→嬉しい：00822_ureshii⟧。",
       "english": "I received an unexpected present and was very happy.",
       "sense_numbers": [
         1
       ]
     }
   ],
-  "notes": "Describes something that was not anticipated or imagined beforehand. It conveys genuine surprise at an outcome or encounter that lay outside one's expectations.\n\nFORMS:\n- {思|おも}いがけない (adjective) — unexpected\n- {思|おも}いがけなく (adverb) — unexpectedly\n- {思|おも}いがけず (adverb, slightly literary) — unexpectedly\n\nUSAGE:\nPrimarily used as a modifier before nouns. The adverbial form {思|おも}いがけず is common in written language and has a slightly formal tone.\n\nRELATED WORDS:\n- {意外|いがい} — unexpected; surprising (na-adjective, more neutral)\n- {突然|とつぜん} — sudden (focuses on timing rather than expectation)",
+  "notes": "Describes something that was not anticipated or imagined beforehand. It conveys genuine surprise at an outcome or encounter that lay outside one's expectations.\n\nFORMS:\n- {思|おも}いがけない (adjective) — unexpected\n- {思|おも}いがけなく (adverb) — unexpectedly\n- {思|おも}いがけず (adverb, slightly literary) — unexpectedly\n\nUSAGE:\nPrimarily used as a modifier before nouns. The adverbial form {思|おも}いがけず is common in written language and has a slightly formal tone.\n\nRELATED WORDS:\n- ⟦{意外|いがい}→意外：12741_igai⟧ — unexpected; surprising (na-adjective, more neutral)\n- ⟦{突然|とつぜん}→突然：00409_totsuzen⟧ — sudden (focuses on timing rather than expectation)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "12741_igai",
+      "reading": "いがい",
+      "headword": "{意外|いがい}",
+      "label": "unexpected"
+    },
+    {
+      "type": "related",
+      "target_id": "00409_totsuzen",
+      "reading": "とつぜん",
+      "headword": "{突然|とつぜん}",
+      "label": "sudden"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03188_yosougai",
+      "reading": "よそうがい",
+      "headword": "{予想外|よそうがい}",
+      "label": "unexpected, unforeseen"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03701_battari",
+      "reading": "ばったり",
+      "headword": "ばったり",
+      "label": "unexpectedly, with a thud"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +83,7 @@
       ]
     },
     "created": "2026-03-25T12:57:22Z",
-    "modified": "2026-04-19T04:14:33Z"
+    "modified": "2026-09-02T04:01:55Z"
   },
   "conjugation": {
     "type": "i-adjective",

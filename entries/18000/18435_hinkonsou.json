@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "18435_hinkonsou_ex1",
-      "japanese": "{貧困層|ひんこんそう}が{増|ふ}えている。",
+      "japanese": "{貧困層|ひんこんそう}⟦が→が：00051_ga⟧⟦{増|ふ}えている→増える：01183_fueru⟧。",
       "english": "The impoverished population is growing.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "18435_hinkonsou_ex2",
-      "japanese": "{貧困層|ひんこんそう}への{支援|しえん}を{強化|きょうか}する。",
+      "japanese": "{貧困層|ひんこんそう}⟦へ→へ：02473_he⟧⟦の→の：09472_no⟧⟦{支援|しえん}→支援：07778_shien⟧⟦を→を：00422_wo⟧⟦{強化|きょうか}する→強化する：25344_kyoukasuru⟧。",
       "english": "To strengthen support for the poor.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "18435_hinkonsou_ex3",
-      "japanese": "{富裕層|ふゆうそう}と{貧困層|ひんこんそう}の{格差|かくさ}がますます{広|ひろ}がっている。",
+      "japanese": "⟦{富裕層|ふゆうそう}→富裕層：12390_fuyuusou⟧⟦と→と：00512_to⟧{貧困層|ひんこんそう}⟦の→の：09472_no⟧⟦{格差|かくさ}→格差：04839_kakusa⟧⟦が→が：00051_ga⟧⟦ますます→ますます：01604_masumasu⟧⟦{広|ひろ}がっている→広がる：01980_hirogaru⟧。",
       "english": "The gap between the wealthy and the poor is widening further.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "{貧困層|ひんこんそう} refers to the segment of a population living in poverty. Composed of {貧困|ひんこん} (poverty) + {層|そう} (class/stratum).\n\nREGISTER:\nA neutral, descriptive term used in news reporting, social policy, and academic discussions. Not pejorative, but formal in tone.\n\nRELATED SOCIAL STRATA ({層|そう}):\n- {富裕層|ふゆうそう}: wealthy class\n- {中間層|ちゅうかんそう}: middle class\n- {低所得層|ていしょとくそう}: low-income bracket\n- {高齢者層|こうれいしゃそう}: elderly demographic\n\nCOMMON COLLOCATIONS:\n- {貧困層|ひんこんそう}が{拡大|かくだい}する: the impoverished class expands\n- {貧困層|ひんこんそう}への{支援|しえん}: support for the poor\n- {貧困層|ひんこんそう}と{富裕層|ふゆうそう}の{格差|かくさ}: gap between rich and poor\n\nNOTE:\nThe suffix {層|そう} is productive and attaches to many demographic descriptors to indicate a social group or stratum.",
+  "notes": "{貧困層|ひんこんそう} refers to the segment of a population living in poverty. Composed of ⟦{貧困|ひんこん}→貧困：04836_hinkon⟧ (poverty) + ⟦{層|そう}→層：12441_sou⟧ (class/stratum).\n\nREGISTER:\nA neutral, descriptive term used in news reporting, social policy, and academic discussions. Not pejorative, but formal in tone.\n\nRELATED SOCIAL STRATA ({層|そう}):\n- ⟦{富裕層|ふゆうそう}→富裕層：12390_fuyuusou⟧: wealthy class\n- ⟦{中間層|ちゅうかんそう}→中間層：19867_chuukansou⟧: middle class\n- {低所得層|ていしょとくそう}: low-income bracket\n- {高齢者層|こうれいしゃそう}: elderly demographic\n\nCOMMON COLLOCATIONS:\n- {貧困層|ひんこんそう}⟦が→が：00051_ga⟧⟦{拡大|かくだい}→拡大：02553_kakudai⟧⟦する→する：00392_suru⟧: the impoverished class expands\n- {貧困層|ひんこんそう}⟦へ→へ：02473_he⟧⟦の→の：09472_no⟧⟦{支援|しえん}→支援：07778_shien⟧: support for the poor\n- {貧困層|ひんこんそう}⟦と→と：00512_to⟧⟦{富裕層|ふゆうそう}→富裕層：12390_fuyuusou⟧⟦の→の：09472_no⟧⟦{格差|かくさ}→格差：04839_kakusa⟧: gap between rich and poor\n\nUSAGE:\nThe suffix ⟦{層|そう}→層：12441_sou⟧ is productive and attaches to many demographic descriptors to indicate a social group or stratum.",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -59,7 +59,7 @@
       ]
     },
     "created": "2026-03-22T00:48:42Z",
-    "modified": "2026-05-08T10:08:08Z"
+    "modified": "2026-09-02T04:01:52Z"
   },
   "cross_references": [
     {
@@ -68,6 +68,20 @@
       "reading": "ふゆうそう",
       "headword": "{富裕層|ふゆうそう}",
       "label": "wealthy class"
+    },
+    {
+      "type": "related",
+      "target_id": "19867_chuukansou",
+      "reading": "ちゅうかんそう",
+      "headword": "{中間層|ちゅうかんそう}",
+      "label": "middle class"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26723_hinkonsha",
+      "reading": "ひんこんしゃ",
+      "headword": "{貧困者|ひんこんしゃ}",
+      "label": "person in poverty"
     }
   ]
 }

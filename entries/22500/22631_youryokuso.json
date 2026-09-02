@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22631_youryokuso_ex1",
-      "japanese": "{葉緑素|ようりょくそ}は{植物|しょくぶつ}を{緑|みどり}にする。",
+      "japanese": "{葉緑素|ようりょくそ}⟦は→は：00079_ha⟧⟦{植物|しょくぶつ}→植物：03248_shokubutsu⟧⟦を→を：00422_wo⟧⟦{緑|みどり}→緑：00970_midori⟧⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧。",
       "english": "Chlorophyll makes plants green.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22631_youryokuso_ex2",
-      "japanese": "{光合成|こうごうせい}には{葉緑素|ようりょくそ}が{必要|ひつよう}だ。",
+      "japanese": "⟦{光合成|こうごうせい}→光合成：08403_kougousei⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{葉緑素|ようりょくそ}⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧だ。",
       "english": "Chlorophyll is needed for photosynthesis.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22631_youryokuso_ex3",
-      "japanese": "{秋|あき}になると{葉緑素|ようりょくそ}が{分解|ぶんかい}されて{葉|は}が{赤|あか}くなる。",
+      "japanese": "⟦{秋|あき}→秋：02276_aki⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦と→と：00512_to⟧{葉緑素|ようりょくそ}⟦が→が：00051_ga⟧⟦{分解|ぶんかい}→分解：08389_bunkai⟧⟦されて→する：00392_suru⟧⟦{葉|は}→葉：02241_ha⟧⟦が→が：00051_ga⟧⟦{赤|あか}く→赤い：00585_akai⟧⟦なる→なる：01970_naru⟧。",
       "english": "In autumn, chlorophyll breaks down and the leaves turn red.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {葉|よう} (leaf), {緑|りょく} (green), and {素|そ} (element, substance). The Japanese term literally means \"leaf-green substance.\" This is the standard Japanese word for chlorophyll, the pigment responsible for photosynthesis in plants.\n\nCOMMON COLLOCATIONS:\n- {葉緑素|ようりょくそ}が{多|おお}い: to be rich in chlorophyll\n- {葉緑素|ようりょくそ}の{量|りょう}: amount of chlorophyll\n- {葉緑素|ようりょくそ}が{分解|ぶんかい}される: chlorophyll is broken down\n\nRELATED TERMS:\n- {葉緑体|ようりょくたい}: chloroplast — the cell organelle that contains chlorophyll\n- {光合成|こうごうせい}: photosynthesis — the process that chlorophyll enables\n- クロロフィル: chlorophyll (loanword) — sometimes used in scientific or commercial contexts",
+  "notes": "Composed of {葉|よう} (leaf), {緑|りょく} (green), and {素|そ} (element, substance). The Japanese term literally means \"leaf-green substance.\" This is the standard Japanese word for chlorophyll, the pigment responsible for photosynthesis in plants.\n\nCOMMON COLLOCATIONS:\n- {葉緑素|ようりょくそ}⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧: to be rich in chlorophyll\n- {葉緑素|ようりょくそ}⟦の→の：09472_no⟧⟦{量|りょう}→量：03799_ryou⟧: amount of chlorophyll\n- {葉緑素|ようりょくそ}⟦が→が：00051_ga⟧⟦{分解|ぶんかい}される→分解する：21320_bunkaisuru⟧: chlorophyll is broken down\n\nRELATED WORDS:\n- ⟦{葉緑体|ようりょくたい}→葉緑体：23706_youryokutai⟧: chloroplast — the cell organelle that contains chlorophyll\n- ⟦{光合成|こうごうせい}→光合成：08403_kougousei⟧: photosynthesis — the process that chlorophyll enables\n- ⟦クロロフィル→クロロフィル：28034_kurorofiru⟧: chlorophyll (loanword) — sometimes used in scientific or commercial contexts",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "23706_youryokutai",
+      "reading": "ようりょくたい",
+      "headword": "{葉緑体|ようりょくたい}",
+      "label": "chloroplast"
+    },
+    {
+      "type": "related",
+      "target_id": "08403_kougousei",
+      "reading": "こうごうせい",
+      "headword": "{光合成|こうごうせい}",
+      "label": "photosynthesis"
+    },
+    {
+      "type": "related",
+      "target_id": "28034_kurorofiru",
+      "reading": "くろろふぃる",
+      "headword": "クロロフィル",
+      "label": "chlorophyll"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +82,6 @@
       "politeness": "plain"
     },
     "created": "2026-04-06T20:27:17Z",
-    "modified": "2026-07-30T15:20:15Z"
+    "modified": "2026-09-02T04:02:09Z"
   }
 }

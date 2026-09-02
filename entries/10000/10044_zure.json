@@ -19,65 +19,104 @@
   "examples": [
     {
       "id": "10044_zure_ex1",
-      "japanese": "{時計|とけい}にずれがある。",
+      "japanese": "⟦{時計|とけい}→時計：00677_tokei⟧⟦に→に：00314_ni⟧ずれ⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "The clock is off.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "10044_zure_ex2",
-      "japanese": "{印刷|いんさつ}のずれを{直|なお}す。",
+      "japanese": "⟦{印刷|いんさつ}→印刷：01844_insatsu⟧⟦の→の：09472_no⟧ずれ⟦を→を：00422_wo⟧{直|なお}す。",
       "english": "To fix the printing misalignment.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "10044_zure_ex3",
-      "japanese": "{地震|じしん}で{地層|ちそう}にずれが{生|しょう}じた。",
+      "japanese": "⟦{地震|じしん}→地震：01608_jishin⟧⟦で→で：00502_de⟧⟦{地層|ちそう}→地層：06366_chisou⟧⟦に→に：00314_ni⟧ずれ⟦が→が：00051_ga⟧⟦{生|しょう}じた→生じる：02118_shoujiru⟧。",
       "english": "The earthquake caused a shift in the geological strata.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "10044_zure_ex4",
-      "japanese": "{認識|にんしき}のずれがある。",
+      "japanese": "⟦{認識|にんしき}→認識：05090_ninshiki⟧⟦の→の：09472_no⟧ずれ⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There's a gap in perception.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "10044_zure_ex5",
-      "japanese": "{世代|せだい}{間|かん}のずれを{感|かん}じる。",
+      "japanese": "⟦{世代|せだい}{間|かん}→世代間：28752_sedaikan⟧⟦の→の：09472_no⟧ずれ⟦を→を：00422_wo⟧⟦{感|かん}じる→感じる：02044_kanjiru⟧。",
       "english": "I feel a generation gap.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "10044_zure_ex6",
-      "japanese": "{現実|げんじつ}と{理想|りそう}のずれに{苦|くる}しむ。",
+      "japanese": "⟦{現実|げんじつ}→現実：02720_genjitsu⟧⟦と→と：00512_to⟧⟦{理想|りそう}→理想：03676_risou⟧⟦の→の：09472_no⟧ずれ⟦に→に：00314_ni⟧⟦{苦|くる}しむ→苦しむ：01938_kurushimu⟧。",
       "english": "To struggle with the gap between reality and ideals.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "ずれ refers to shifts or discrepancies, both physical and abstract.\n\nVERB FORM:\nずれる (ichidan verb): to shift, to deviate, to be off\n\nCOMMON PATTERNS:\n- {時間|じかん}のずれ: time difference\n- {認識|にんしき}のずれ: perception gap\n- {価値観|かちかん}のずれ: difference in values\n- {感覚|かんかく}のずれ: disconnect in understanding\n\nRELATED:\n- {差|さ}: difference, gap\n- {食|く}い{違|ちが}い: discrepancy\n- {誤差|ごさ}: error, deviation",
-  "cross_references": [],
+  "notes": "ずれ refers to shifts or discrepancies, both physical and abstract.\n\nFORMS:\nずれる (ichidan verb): to shift, to deviate, to be off\n\nCOMMON PATTERNS:\n- ⟦{時間|じかん}→時間：00468_jikan⟧⟦の→の：09472_no⟧ずれ: time difference\n- ⟦{認識|にんしき}→認識：05090_ninshiki⟧⟦の→の：09472_no⟧ずれ: perception gap\n- ⟦{価値観|かちかん}→価値観：10431_kachikan⟧⟦の→の：09472_no⟧ずれ: difference in values\n- ⟦{感覚|かんかく}→感覚：02593_kankaku⟧⟦の→の：09472_no⟧ずれ: disconnect in understanding\n\nRELATED WORDS:\n- ⟦{差|さ}→差：02771_sa⟧: difference, gap\n- ⟦{食|く}い{違|ちが}い→食い違い：09342_kuichigai⟧: discrepancy\n- ⟦{誤差|ごさ}→誤差：17417_gosa⟧: error, deviation",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "02771_sa",
+      "reading": "さ",
+      "headword": "{差|さ}",
+      "label": "difference, gap"
+    },
+    {
+      "type": "related",
+      "target_id": "09342_kuichigai",
+      "reading": "くいちがい",
+      "headword": "{食|く}い{違|ちが}い",
+      "label": "discrepancy"
+    },
+    {
+      "type": "related",
+      "target_id": "17417_gosa",
+      "reading": "ごさ",
+      "headword": "{誤差|ごさ}",
+      "label": "error, deviation"
+    }
+  ],
   "metadata": {
     "created": "2026-02-04T14:18:11Z",
-    "modified": "2026-04-10T07:12:46Z",
+    "modified": "2026-09-02T04:01:20Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["abstract", "physical"]
+      "semantic": [
+        "abstract",
+        "physical"
+      ]
     }
   }
 }

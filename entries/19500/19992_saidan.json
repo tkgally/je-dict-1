@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "19992_saidan_ex1",
-      "japanese": "{布|ぬの}を{裁断|さいだん}する。",
+      "japanese": "⟦{布|ぬの}→布：01489_nuno⟧⟦を→を：00422_wo⟧{裁断|さいだん}⟦する→する：00392_suru⟧。",
       "english": "To cut fabric.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "19992_saidan_ex2",
-      "japanese": "{型紙|かたがみ}に{沿|そ}って{丁寧|ていねい}に{裁断|さいだん}してください。",
+      "japanese": "⟦{型紙|かたがみ}→型紙：07349_katagami⟧⟦に→に：00314_ni⟧⟦{沿|そ}って→沿う：13279_sou⟧⟦{丁寧|ていねい}→丁寧：00896_teinei⟧⟦に→に：00314_ni⟧{裁断|さいだん}⟦して→する：00392_suru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please cut carefully along the pattern.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "19992_saidan_ex3",
-      "japanese": "{洋服|ようふく}の{裁断|さいだん}には{正確|せいかく}な{採寸|さいすん}が{欠|か}かせない。",
+      "japanese": "⟦{洋服|ようふく}→洋服：05014_youfuku⟧⟦の→の：09472_no⟧{裁断|さいだん}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{正確|せいかく}→正確：03372_seikaku⟧な⟦{採寸|さいすん}→採寸：19260_saisun⟧⟦が→が：00051_ga⟧⟦{欠|か}かせない→欠かす：10138_kakasu⟧。",
       "english": "Accurate measurements are essential for cutting clothing.",
       "sense_numbers": [
         1
@@ -134,8 +134,31 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {裁|さい} (cut, sew) and {断|だん} (cut off). Primarily used for cutting fabric to make garments, but also applies to cutting paper, especially in bookbinding where {裁断機|さいだんき} is a paper cutter/guillotine.\n\nCOMMON COLLOCATIONS:\n- {裁断|さいだん}する — to cut (fabric/paper)\n- {裁断機|さいだんき} — paper cutter; cutting machine\n- {裁断|さいだん}{済|ず}み — pre-cut\n- {布|ぬの}を{裁断|さいだん}する — to cut fabric\n\nSIMILAR WORDS:\n- {細断|さいだん} — shredding (cutting into small pieces, as in a shredder)\n- {切断|せつだん} — cutting, severing (more general, including hard materials)\n- {裁縫|さいほう} — sewing, needlework (broader term that includes cutting and sewing)",
+  "notes": "A compound of {裁|さい} (cut, sew) and {断|だん} (cut off). Primarily used for cutting fabric to make garments, but also applies to cutting paper, especially in bookbinding where ⟦{裁断機|さいだんき}→裁断機：27760_saidanki⟧ is a paper cutter/guillotine.\n\nCOMMON COLLOCATIONS:\n- {裁断|さいだん}⟦する→する：00392_suru⟧ — to cut (fabric/paper)\n- ⟦{裁断機|さいだんき}→裁断機：27760_saidanki⟧ — paper cutter; cutting machine\n- {裁断|さいだん}⟦{済|ず}み→〜済み：04013_zumi⟧ — pre-cut\n- ⟦{布|ぬの}→布：01489_nuno⟧⟦を→を：00422_wo⟧{裁断|さいだん}⟦する→する：00392_suru⟧ — to cut fabric\n\nSIMILAR WORDS:\n- ⟦{細断|さいだん}→細断：19721_saidan⟧ — shredding (cutting into small pieces, as in a shredder)\n- ⟦{切断|せつだん}→切断：20497_setsudan⟧ — cutting, severing (more general, including hard materials)\n- ⟦{裁縫|さいほう}→裁縫：04163_saihou⟧ — sewing, needlework (broader term that includes cutting and sewing)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "homophone",
+      "target_id": "19721_saidan",
+      "reading": "さいだん",
+      "headword": "{細断|さいだん}",
+      "label": "shredding"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20497_setsudan",
+      "reading": "せつだん",
+      "headword": "{切断|せつだん}",
+      "label": "cutting, severing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04163_saihou",
+      "reading": "さいほう",
+      "headword": "{裁縫|さいほう}",
+      "label": "sewing, needlework"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -149,9 +172,10 @@
         "clothing",
         "craft"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-03-28T04:34:49Z",
-    "modified": "2026-03-28T04:34:49Z"
+    "modified": "2026-09-02T04:01:58Z"
   }
 }

@@ -15,31 +15,53 @@
   "examples": [
     {
       "id": "21044_sandee_ex1",
-      "japanese": "チョコレートサンデーを{注文|ちゅうもん}した。",
+      "japanese": "⟦チョコレート→チョコレート：05183_chokoreeto⟧サンデー⟦を→を：00422_wo⟧⟦{注文|ちゅうもん}した→注文する：21390_chuumon⟧。",
       "english": "I ordered a chocolate sundae.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21044_sandee_ex2",
-      "japanese": "このお{店|みせ}のサンデーはボリュームがすごい。",
+      "japanese": "⟦この→この：00962_kono⟧⟦お{店|みせ}→お店：21164_omise⟧⟦の→の：09472_no⟧サンデー⟦は→は：00079_ha⟧⟦ボリューム→ボリューム：27002_boryuumu⟧⟦が→が：00051_ga⟧⟦すごい→すごい：01128_sugoi⟧。",
       "english": "The sundaes at this shop are enormous.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21044_sandee_ex3",
-      "japanese": "{子供|こども}たちが{大|おお}きなサンデーを{嬉|うれ}しそうに{食|た}べていた。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧たち⟦が→が：00051_ga⟧⟦{大|おお}きな→大きな：02849_ookina⟧サンデー⟦を→を：00422_wo⟧{嬉|うれ}しそう⟦に→に：00314_ni⟧⟦{食|た}べていた→食べる：00396_taberu⟧。",
       "english": "The children were happily eating a big sundae.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A loanword from English \"sundae.\" In Japanese, this word is homophonous with サンデー meaning \"Sunday,\" but the context usually makes the meaning clear.\n\nCOMMON TYPES:\n- チョコレートサンデー: chocolate sundae\n- ストロベリーサンデー: strawberry sundae\n- フルーツサンデー: fruit sundae\n- パフェ: parfait — a similar but distinct dessert in Japan, typically served in a tall glass\n\nSIMILAR WORDS:\n- パフェ: parfait — in Japan, a parfait is typically taller, served in a glass, with layers of ice cream, fruit, and cream; a sundae is usually served in a bowl or dish\n- ソフトクリーム: soft-serve ice cream — not a sundae but another common ice cream dessert\n\nNOTE ON HOMOPHONE:\nサンデー also means \"Sunday\" (from English). Additionally, it appears in the name of the manga magazine {週刊少年|しゅうかんしょうねん}サンデー (Weekly Shonen Sunday).",
+  "notes": "A loanword from English \"sundae.\" In Japanese, this word is homophonous with サンデー meaning \"Sunday,\" but the context usually makes the meaning clear.\n\nTYPES:\n- ⟦チョコレート→チョコレート：05183_chokoreeto⟧サンデー: chocolate sundae\n- ストロベリーサンデー: strawberry sundae\n- ⟦フルーツ→フルーツ：11247_furuutsu⟧サンデー: fruit sundae\n- ⟦パフェ→パフェ：11122_pafe⟧: parfait — a similar but distinct dessert in Japan, typically served in a tall glass\n\nSIMILAR WORDS:\n- ⟦パフェ→パフェ：11122_pafe⟧: parfait — in Japan, a parfait is typically taller, served in a glass, with layers of ice cream, fruit, and cream; a sundae is usually served in a bowl or dish\n- ⟦ソフトクリーム→ソフトクリーム：17672_sofutokuriimu⟧: soft-serve ice cream — not a sundae but another common ice cream dessert\n\nNOTE ON HOMOPHONE:\nサンデー also means \"Sunday\" (from English). Additionally, it appears in the name of the manga magazine {週刊少年|しゅうかんしょうねん}サンデー (Weekly Shonen Sunday).",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11122_pafe",
+      "reading": "ぱふぇ",
+      "headword": "パフェ",
+      "label": "parfait"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17672_sofutokuriimu",
+      "reading": "そふとくりーむ",
+      "headword": "ソフトクリーム",
+      "label": "soft-serve ice cream"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,6 +75,6 @@
       ]
     },
     "created": "2026-03-31T15:35:29Z",
-    "modified": "2026-03-31T15:35:29Z"
+    "modified": "2026-09-02T04:02:02Z"
   }
 }

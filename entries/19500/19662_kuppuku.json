@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "19662_kuppuku_ex1",
-      "japanese": "{圧力|あつりょく}に{屈服|くっぷく}した。",
+      "japanese": "⟦{圧力|あつりょく}→圧力：12014_atsuryoku⟧⟦に→に：00314_ni⟧{屈服|くっぷく}⟦した→する：00392_suru⟧。",
       "english": "They gave in to the pressure.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "19662_kuppuku_ex2",
-      "japanese": "{彼|かれ}は{脅|おど}しに{屈服|くっぷく}しなかった。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{脅|おど}し⟦に→に：00314_ni⟧{屈服|くっぷく}⟦しなかった→する：00392_suru⟧。",
       "english": "He did not yield to the threats.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "19662_kuppuku_ex3",
-      "japanese": "{暴力|ぼうりょく}に{屈服|くっぷく}することなく、{最後|さいご}まで{自分|じぶん}の{信念|しんねん}を{貫|つらぬ}いた。",
+      "japanese": "⟦{暴力|ぼうりょく}→暴力：02528_bouryoku⟧⟦に→に：00314_ni⟧{屈服|くっぷく}⟦する→する：00392_suru⟧こと⟦なく→ない：01118_nai⟧、⟦{最後|さいご}→最後：01413_saigo⟧⟦まで→まで：00490_made⟧⟦{自分|じぶん}→自分：02887_jibun⟧⟦の→の：09472_no⟧⟦{信念|しんねん}→信念：03074_shinnen⟧⟦を→を：00422_wo⟧⟦{貫|つらぬ}いた→貫く：18728_tsuranuku⟧。",
       "english": "Without yielding to violence, he stuck to his beliefs until the end.",
       "sense_numbers": [
         1
@@ -134,8 +134,38 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {屈|くつ} (to bend, to yield) and {服|ふく} (to submit, to obey). Conveys a sense of being forced to submit against one's will.\n\nUSAGE:\nTypically used with the particle に to indicate what one submits to: {圧力|あつりょく}に{屈服|くっぷく}する (submit to pressure). Often used in negative constructions to express defiance or resistance.\n\nCOMMON COLLOCATIONS:\n- {屈服|くっぷく}する — to submit, to yield\n- {屈服|くっぷく}させる — to force into submission\n- {圧力|あつりょく}に{屈服|くっぷく}する — to yield to pressure\n- {権力|けんりょく}に{屈服|くっぷく}する — to submit to authority\n\nSIMILAR WORDS:\n- {降伏|こうふく} — surrender; specifically military capitulation\n- {服従|ふくじゅう} — obedience; ongoing compliance with authority\n- {譲歩|じょうほ} — concession; a more neutral, voluntary compromise",
+  "notes": "A compound of {屈|くつ} (to bend, to yield) and ⟦{服|ふく}→服：00695_fuku⟧ (to submit, to obey). Conveys a sense of being forced to submit against one's will.\n\nUSAGE:\nTypically used with the particle ⟦に→に：00314_ni⟧ to indicate what one submits to: ⟦{圧力|あつりょく}→圧力：12014_atsuryoku⟧⟦に→に：00314_ni⟧{屈服|くっぷく}⟦する→する：00392_suru⟧ (submit to pressure). Often used in negative constructions to express defiance or resistance.\n\nCOMMON COLLOCATIONS:\n- {屈服|くっぷく}⟦する→する：00392_suru⟧ — to submit, to yield\n- {屈服|くっぷく}⟦させる→する：00392_suru⟧ — to force into submission\n- ⟦{圧力|あつりょく}→圧力：12014_atsuryoku⟧⟦に→に：00314_ni⟧{屈服|くっぷく}⟦する→する：00392_suru⟧ — to yield to pressure\n- ⟦{権力|けんりょく}→権力：10020_kenryoku⟧⟦に→に：00314_ni⟧{屈服|くっぷく}⟦する→する：00392_suru⟧ — to submit to authority\n\nSIMILAR WORDS:\n- ⟦{降伏|こうふく}→降伏：03770_koufuku⟧ — surrender; specifically military capitulation\n- ⟦{服従|ふくじゅう}→服従：15351_fukujuu⟧ — obedience; ongoing compliance with authority\n- ⟦{譲歩|じょうほ}→譲歩：09143_jouho⟧ — concession; a more neutral, voluntary compromise",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03770_koufuku",
+      "reading": "こうふく",
+      "headword": "{降伏|こうふく}",
+      "label": "surrender"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15351_fukujuu",
+      "reading": "ふくじゅう",
+      "headword": "{服従|ふくじゅう}",
+      "label": "obedience"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09143_jouho",
+      "reading": "じょうほ",
+      "headword": "{譲歩|じょうほ}",
+      "label": "concession"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20577_koufukusuru",
+      "reading": "こうふくする",
+      "headword": "{降伏|こうふく}する",
+      "label": "to surrender"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -151,6 +181,6 @@
       "verb_class": "suru"
     },
     "created": "2026-03-26T11:43:17Z",
-    "modified": "2026-03-26T11:43:17Z"
+    "modified": "2026-09-02T04:01:56Z"
   }
 }

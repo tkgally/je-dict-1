@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30126_koutei_ex1",
-      "japanese": "{知事|ちじ}は{公邸|こうてい}に{住|す}んでいる。",
+      "japanese": "⟦{知事|ちじ}→知事：03467_chiji⟧⟦は→は：00079_ha⟧{公邸|こうてい}⟦に→に：00314_ni⟧⟦{住|す}んでいる→住む：00673_sumu⟧。",
       "english": "The governor lives in the official residence.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30126_koutei_ex2",
-      "japanese": "{首相|しゅしょう}{公邸|こうてい}で{記者|きしゃ}{会見|かいけん}が{開|ひら}かれた。",
+      "japanese": "⟦{首相|しゅしょう}→首相：03217_shushou⟧{公邸|こうてい}⟦で→で：00502_de⟧⟦{記者|きしゃ}{会見|かいけん}→記者会見：19954_kishakaiken⟧⟦が→が：00051_ga⟧⟦{開|ひら}かれた→開く：01979_hiraku⟧。",
       "english": "A press conference was held at the prime minister's official residence.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30126_koutei_ex3",
-      "japanese": "{大使|たいし}{公邸|こうてい}の{夕食|ゆうしょく}{会|かい}に{招|まね}かれ、{各国|かっこく}から{来|き}た{来賓|らいひん}と{話|はな}す{機会|きかい}があった。",
+      "japanese": "⟦{大使|たいし}→大使：03391_taishi⟧{公邸|こうてい}⟦の→の：09472_no⟧⟦{夕食|ゆうしょく}→夕食：03006_yuushoku⟧⟦{会|かい}→会：27493_kai⟧⟦に→に：00314_ni⟧⟦{招|まね}かれ→招く：02425_maneku⟧、⟦{各国|かっこく}→各国：12055_kakkoku⟧⟦から→から：00504_kara⟧⟦{来|き}た→来る：00254_kuru⟧⟦{来賓|らいひん}→来賓：28580_raihin⟧⟦と→と：00512_to⟧⟦{話|はな}す→話す：00467_hanasu⟧⟦{機会|きかい}→機会：01302_kikai⟧⟦が→が：00051_ga⟧⟦あった→ある：00006_aru⟧。",
       "english": "I was invited to a dinner at the ambassador's official residence and had a chance to talk with guests from various countries.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Formed from {公|こう} (public) + {邸|てい} (mansion, residence). Usually appears attached to the title of the post: {首相|しゅしょう}{公邸|こうてい}, {知事|ちじ}{公邸|こうてい}, {大使|たいし}{公邸|こうてい}.\n\nCOMMON COLLOCATIONS:\n- {公邸|こうてい}に{入|はい}る: to move into the official residence\n- {公邸|こうてい}を{出|で}る: to leave the official residence\n- {公邸|こうてい}で{会談|かいだん}する: to hold talks at the official residence\n\nSIMILAR WORDS:\n- {私邸|してい}: private residence — the official's own home, contrasted directly with {公邸|こうてい}\n- {官邸|かんてい}: official residence and office — for the prime minister, {官邸|かんてい} is the working headquarters, {公邸|こうてい} the living quarters\n- {官舎|かんしゃ}: government housing — ordinary housing for civil servants, not a mark of high rank",
+  "notes": "Formed from {公|こう} (public) + ⟦{邸|てい}→邸：23029_tei⟧ (mansion, residence). Usually appears attached to the title of the post: ⟦{首相|しゅしょう}→首相：03217_shushou⟧{公邸|こうてい}, ⟦{知事|ちじ}→知事：03467_chiji⟧{公邸|こうてい}, ⟦{大使|たいし}→大使：03391_taishi⟧{公邸|こうてい}.\n\nCOMMON COLLOCATIONS:\n- {公邸|こうてい}⟦に→に：00314_ni⟧⟦{入|はい}る→入る：00494_hairu⟧: to move into the official residence\n- {公邸|こうてい}⟦を→を：00422_wo⟧⟦{出|で}る→出る：00513_deru⟧: to leave the official residence\n- {公邸|こうてい}⟦で→で：00502_de⟧⟦{会談|かいだん}→会談：11542_kaidan⟧⟦する→する：00392_suru⟧: to hold talks at the official residence\n\nSIMILAR WORDS:\n- ⟦{私邸|してい}→私邸：30145_shitei⟧: private residence — the official's own home, contrasted directly with {公邸|こうてい}\n- ⟦{官邸|かんてい}→官邸：12305_kantei⟧: official residence and office — for the prime minister, ⟦{官邸|かんてい}→官邸：12305_kantei⟧ is the working headquarters, {公邸|こうてい} the living quarters\n- {官舎|かんしゃ}: government housing — ordinary housing for civil servants, not a mark of high rank",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "30145_shitei",
+      "reading": "してい",
+      "headword": "{私邸|してい}",
+      "label": "private residence"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12305_kantei",
+      "reading": "かんてい",
+      "headword": "{官邸|かんてい}",
+      "label": "official residence and office"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30109_shushoukantei",
+      "reading": "しゅしょうかんてい",
+      "headword": "{首相官邸|しゅしょうかんてい}",
+      "label": "prime minister's office"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +76,7 @@
         "noun"
       ],
       "formality": "formal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "building",
         "politics"
@@ -61,6 +84,6 @@
       "domain": []
     },
     "created": "2026-07-26T12:19:17Z",
-    "modified": "2026-07-26T12:19:17Z"
+    "modified": "2026-09-02T04:02:38Z"
   }
 }

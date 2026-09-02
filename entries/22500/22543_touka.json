@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22543_touka_ex1",
-      "japanese": "{灯火|とうか}{管制|かんせい}が{敷|し}かれた。",
+      "japanese": "{灯火|とうか}{管制|かんせい}⟦が→が：00051_ga⟧⟦{敷|し}かれた→敷く：00366_shiku⟧。",
       "english": "A blackout was imposed.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22543_touka_ex2",
-      "japanese": "{遠|とお}くに{漁船|ぎょせん}の{灯火|とうか}が{見|み}えた。",
+      "japanese": "{遠|とお}く⟦に→に：00314_ni⟧⟦{漁船|ぎょせん}→漁船：22594_gyosen⟧⟦の→の：09472_no⟧{灯火|とうか}⟦が→が：00051_ga⟧⟦{見|み}えた→見える：01165_mieru⟧。",
       "english": "I could see the lights of a fishing boat in the distance.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22543_touka_ex3",
-      "japanese": "{秋|あき}の{夜長|よなが}に{灯火|とうか}のもとで{読書|どくしょ}を{楽|たの}しむのが{好|す}きだ。",
+      "japanese": "⟦{秋|あき}→秋：02276_aki⟧⟦の→の：09472_no⟧{夜長|よなが}⟦に→に：00314_ni⟧{灯火|とうか}⟦の→の：09472_no⟧もと⟦で→で：00502_de⟧⟦{読書|どくしょ}→読書：03484_dokusho⟧⟦を→を：00422_wo⟧⟦{楽|たの}しむ→楽しむ：01203_tanoshimu⟧⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦{好|す}き→好き：02355_suki⟧だ。",
       "english": "I enjoy reading by lamplight during the long autumn nights.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {灯|とう} (lamp) + {火|か} (fire). A literary word with a warm, evocative quality. The expression {灯火|とうか}{親|した}しむべし (literally 'lamp and fire should be enjoyed') from a Chinese poem describes autumn as the ideal season for reading by lamplight.\n\nCOMMON COLLOCATIONS:\n- {灯火|とうか}{管制|かんせい}: blackout (wartime light restriction)\n- {灯火|とうか}{親|した}しむべし{秋|あき}: autumn, the season for reading by lamplight\n- {灯火|とうか}のもとで: by lamplight\n\nSIMILAR WORDS:\n- {灯|あか}り: light, lamp — the everyday word for light or illumination\n- {明|あ}かり: light — the general word for any source of light\n- ともしび: lamplight — the native Japanese reading, more poetic; also written {灯火|ともしび}\n- {照明|しょうめい}: lighting, illumination — a modern, practical term",
+  "notes": "Composed of {灯|とう} (lamp) + {火|か} (fire). A literary word with a warm, evocative quality. The expression {灯火|とうか}⟦{親|した}しむ→親しむ：14139_shitashimu⟧べし (literally 'lamp and fire should be enjoyed') from a Chinese poem describes autumn as the ideal season for reading by lamplight.\n\nCOMMON COLLOCATIONS:\n- {灯火|とうか}{管制|かんせい}: blackout (wartime light restriction)\n- {灯火|とうか}⟦{親|した}しむ→親しむ：14139_shitashimu⟧べし⟦{秋|あき}→秋：02276_aki⟧: autumn, the season for reading by lamplight\n- {灯火|とうか}⟦の→の：09472_no⟧もと⟦で→で：00502_de⟧: by lamplight\n\nSIMILAR WORDS:\n- ⟦{灯|あか}り→灯り：13380_akari⟧: light, lamp — the everyday word for light or illumination\n- ⟦{明|あ}かり→明かり：01681_akari⟧: light — the general word for any source of light\n- ともしび: lamplight — the native Japanese reading, more poetic; also written {灯火|ともしび}\n- ⟦{照明|しょうめい}→照明：03243_shoumei⟧: lighting, illumination — a modern, practical term",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13380_akari",
+      "reading": "あかり",
+      "headword": "{灯|あか}り",
+      "label": "light, lamp"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01681_akari",
+      "reading": "あかり",
+      "headword": "{明|あ}かり",
+      "label": "light"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03243_shoumei",
+      "reading": "しょうめい",
+      "headword": "{照明|しょうめい}",
+      "label": "lighting, illumination"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +82,6 @@
       ]
     },
     "created": "2026-04-06T17:31:53Z",
-    "modified": "2026-04-10T08:28:27Z"
+    "modified": "2026-09-02T04:02:08Z"
   }
 }

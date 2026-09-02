@@ -15,41 +15,81 @@
   "examples": [
     {
       "id": "29494_shakuya_ex1",
-      "japanese": "{借家|しゃくや}に{住|す}む。",
+      "japanese": "{借家|しゃくや}⟦に→に：00314_ni⟧⟦{住|す}む→住む：00673_sumu⟧。",
       "english": "to live in a rented house.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29494_shakuya_ex2",
-      "japanese": "{古|ふる}い{借家|しゃくや}を{借|か}りることにした。",
+      "japanese": "⟦{古|ふる}い→古い：00488_furui⟧{借家|しゃくや}⟦を→を：00422_wo⟧⟦{借|か}りる→借りる：00532_kariru⟧ことにした。",
       "english": "We decided to rent an old rental house.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29494_shakuya_ex3",
-      "japanese": "{結婚|けっこん}してからずっと{借家|しゃくや}{暮|ぐ}らしだが、いつかは{自分|じぶん}の{家|いえ}を{持|も}ちたい。",
+      "japanese": "⟦{結婚|けっこん}→結婚：02514_kekkon⟧⟦して→する：00392_suru⟧⟦から→から：00504_kara⟧⟦ずっと→ずっと：00912_zutto⟧{借家|しゃくや}{暮|ぐ}らしだ⟦が→が：00051_ga⟧、いつか⟦は→は：00079_ha⟧⟦{自分|じぶん}→自分：02887_jibun⟧⟦の→の：09472_no⟧⟦{家|いえ}→家：00612_ie⟧⟦を→を：00422_wo⟧⟦{持|も}ちたい→持つ：00478_motsu⟧。",
       "english": "We've lived in rented houses ever since we married, but someday we want a home of our own.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Combines {借|しゃく} (borrow, rent) + {家|や} (house). A house one rents to live in, as opposed to a {持|も}ち{家|いえ} (one's own home). Also read しゃっか in formal contexts.\n\nCOMMON COLLOCATIONS:\n- {借家|しゃくや}{暮|ぐ}らし: living in rented housing\n- {借家|しゃくや}を{借|か}りる: to rent a house\n- {借家|しゃくや}{人|にん}: tenant of a rented house\n\nSIMILAR WORDS:\n- {貸家|かしや}: house for rent — the same building seen from the landlord's side\n- {賃貸|ちんたい}: rental (property) — broader term covering apartments and houses for lease",
+  "notes": "Combines {借|しゃく} (borrow, rent) + {家|や} (house). A house one rents to live in, as opposed to a ⟦{持|も}ち{家|いえ}→持ち家：27371_mochiie⟧ (one's own home). Also read しゃっ⟦か→か：09473_ka⟧ in formal contexts.\n\nCOMMON COLLOCATIONS:\n- {借家|しゃくや}{暮|ぐ}らし: living in rented housing\n- {借家|しゃくや}⟦を→を：00422_wo⟧⟦{借|か}りる→借りる：00532_kariru⟧: to rent a house\n- {借家|しゃくや}{人|にん}: tenant of a rented house\n\nSIMILAR WORDS:\n- ⟦{貸家|かしや}→貸家：00195_kashiya⟧: house for rent — the same building seen from the landlord's side\n- ⟦{賃貸|ちんたい}→賃貸：06081_chintai⟧: rental (property) — broader term covering apartments and houses for lease",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00195_kashiya",
+      "reading": "かしや",
+      "headword": "{貸家|かしや}",
+      "label": "house for rent"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06081_chintai",
+      "reading": "ちんたい",
+      "headword": "{賃貸|ちんたい}",
+      "label": "rental"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17019_shakuchi",
+      "reading": "しゃくち",
+      "headword": "{借地|しゃくち}",
+      "label": "leased land"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20779_chintaijuutaku",
+      "reading": "ちんたいじゅうたく",
+      "headword": "{賃貸住宅|ちんたいじゅうたく}",
+      "label": "rental housing"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["building"],
+      "politeness": "plain",
+      "semantic": [
+        "building"
+      ],
       "domain": []
     },
     "created": "2026-06-26T09:20:43Z",
-    "modified": "2026-06-26T09:20:43Z"
+    "modified": "2026-09-02T04:02:37Z"
   }
 }

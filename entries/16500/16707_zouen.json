@@ -3,7 +3,7 @@
   "id": "16707_zouen",
   "headword": "{造園|ぞうえん}",
   "reading": "ぞうえん",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "landscape gardening, landscaping",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "16707_zouen_ex1",
-      "japanese": "{造園|ぞうえん}{業者|ぎょうしゃ}に{依頼|いらい}する。",
+      "japanese": "{造園|ぞうえん}{業者|ぎょうしゃ}⟦に→に：00314_ni⟧⟦{依頼|いらい}する→依頼する：21376_irai⟧。",
       "english": "To hire a landscaping company.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "16707_zouen_ex2",
-      "japanese": "{造園|ぞうえん}の{技術|ぎじゅつ}を{学|まな}ぶ。",
+      "japanese": "{造園|ぞうえん}⟦の→の：09472_no⟧⟦{技術|ぎじゅつ}→技術：01389_gijutsu⟧⟦を→を：00422_wo⟧⟦{学|まな}ぶ→学ぶ：01987_manabu⟧。",
       "english": "To learn landscaping techniques.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "16707_zouen_ex3",
-      "japanese": "{日本庭園|にほんていえん}の{造園|ぞうえん}には{長年|ながねん}の{経験|けいけん}が{必要|ひつよう}だ。",
+      "japanese": "⟦{日本庭園|にほんていえん}→日本庭園：19199_nihonteien⟧⟦の→の：09472_no⟧{造園|ぞうえん}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{長年|ながねん}→長年：09684_naganen⟧⟦の→の：09472_no⟧⟦{経験|けいけん}→経験：01179_keiken⟧⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧だ。",
       "english": "Creating a Japanese garden requires many years of experience.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,26 @@
       ]
     }
   ],
-  "notes": "{造園|ぞうえん} combines {造|ぞう} (create, build) + {園|えん} (garden, park). It covers both the art and the professional practice of designing and creating gardens and outdoor spaces.\n\nCOMMON COMPOUNDS:\n- {造園|ぞうえん}{業|ぎょう}: landscaping industry\n- {造園|ぞうえん}{業者|ぎょうしゃ}: landscaping company\n- {造園|ぞうえん}{技術|ぎじゅつ}: landscaping techniques\n- {造園|ぞうえん}{設計|せっけい}: landscape design\n- {造園|ぞうえん}{家|か}: landscape architect/gardener\n\nAS A SURU VERB:\n{造園|ぞうえん}する means to landscape, to create a garden. Less common than the noun usage.\n\nCULTURE:\nJapanese {造園|ぞうえん} has a rich tradition encompassing styles like {枯山水|かれさんすい} (dry landscape gardens) and {回遊式庭園|かいゆうしきていえん} (strolling gardens). Professional landscapers may specialize in {日本庭園|にほんていえん} (Japanese gardens) or {洋風庭園|ようふうていえん} (Western-style gardens).",
-  "cross_references": [],
+  "notes": "{造園|ぞうえん} combines {造|ぞう} (create, build) + {園|えん} (garden, park). It covers both the art and the professional practice of designing and creating gardens and outdoor spaces.\n\nCOMPOUNDS:\n- {造園|ぞうえん}{業|ぎょう}: landscaping industry\n- {造園|ぞうえん}{業者|ぎょうしゃ}: landscaping company\n- {造園|ぞうえん}⟦{技術|ぎじゅつ}→技術：01389_gijutsu⟧: landscaping techniques\n- {造園|ぞうえん}⟦{設計|せっけい}→設計：03300_sekkei⟧: landscape design\n- {造園|ぞうえん}{家|か}: landscape architect/gardener\n\nAS A SURU VERB:\n{造園|ぞうえん}⟦する→する：00392_suru⟧ means to landscape, to create a garden. Less common than the noun usage.\n\nCULTURAL NOTE:\nJapanese {造園|ぞうえん} has a rich tradition encompassing styles like {枯山水|かれさんすい} (dry landscape gardens) and {回遊式庭園|かいゆうしきていえん} (strolling gardens). Professional landscapers may specialize in ⟦{日本庭園|にほんていえん}→日本庭園：19199_nihonteien⟧ (Japanese gardens) or {洋風庭園|ようふうていえん} (Western-style gardens).",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "04105_engei",
+      "reading": "えんげい",
+      "headword": "{園芸|えんげい}",
+      "label": "gardening, horticulture"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24881_shokusai",
+      "reading": "しょくさい",
+      "headword": "{植栽|しょくさい}",
+      "label": "planting"
+    }
+  ],
   "metadata": {
     "created": "2026-03-14T04:25:57Z",
-    "modified": "2026-03-29T03:08:18Z",
+    "modified": "2026-09-02T04:01:45Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28002_akahata_ex1",
-      "japanese": "{赤旗|あかはた}が{振|ふ}られた。",
+      "japanese": "{赤旗|あかはた}⟦が→が：00051_ga⟧⟦{振|ふ}られた→振る：01983_furu⟧。",
       "english": "A red flag was waved.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28002_akahata_ex2",
-      "japanese": "{踏切|ふみき}りで{係員|かかりいん}が{赤旗|あかはた}を{出|だ}した。",
+      "japanese": "{踏切|ふみき}りで⟦{係員|かかりいん}→係員：27111_kakariin⟧⟦が→が：00051_ga⟧{赤旗|あかはた}⟦を→を：00422_wo⟧⟦{出|だ}した→出す：01087_dasu⟧。",
       "english": "An attendant raised a red flag at the railroad crossing.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28002_akahata_ex3",
-      "japanese": "{高波|たかなみ}のため、{海水浴場|かいすいよくじょう}には{赤旗|あかはた}が{立|た}てられた。",
+      "japanese": "⟦{高波|たかなみ}→高波：19938_takanami⟧⟦の→の：09472_no⟧⟦ため→ため：01145_tame⟧、⟦{海水浴場|かいすいよくじょう}→海水浴場：21009_kaisuiyokujou⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{赤旗|あかはた}⟦が→が：00051_ga⟧⟦{立|た}てられた→立てる：01196_tateru⟧。",
       "english": "Because of the high waves, a red flag was raised at the beach.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "A red flag signals danger or a command to stop. Contrast with the white or green flag that signals safety.\n\nCOMMON COLLOCATIONS:\n- {赤旗|あかはた}を{振|ふ}る: to wave a red flag\n- {赤旗|あかはた}が{立|た}つ: a red flag is raised\n\nNOTE:\nWhen read せっき, the same characters name the Japanese Communist Party's newspaper. The everyday reading for a physical warning flag is あかはた.",
+  "notes": "A red flag signals danger or a command to stop. Contrast with the white or green flag that signals safety.\n\nCOMMON COLLOCATIONS:\n- {赤旗|あかはた}⟦を→を：00422_wo⟧⟦{振|ふ}る→振る：01983_furu⟧: to wave a red flag\n- {赤旗|あかはた}⟦が→が：00051_ga⟧⟦{立|た}つ→立つ：00758_tatsu⟧: a red flag is raised\n\nUSAGE:\nWhen read せっき, the same characters name the Japanese Communist Party's newspaper. The everyday reading for a physical warning flag is あか⟦は→は：00079_ha⟧た.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "19398_shirahata",
+      "reading": "しらはた",
+      "headword": "{白旗|しらはた}",
+      "label": "white flag"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +62,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "communication"
       ],
       "domain": []
     },
     "created": "2026-05-24T03:09:30Z",
-    "modified": "2026-08-08T03:27:39Z"
+    "modified": "2026-09-02T04:02:32Z"
   }
 }

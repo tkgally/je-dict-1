@@ -15,49 +15,83 @@
   "examples": [
     {
       "id": "26883_ippakufutsuka_ex1",
-      "japanese": "{一泊二日|いっぱくふつか}で{温泉|おんせん}に{行|い}った。",
+      "japanese": "{一泊二日|いっぱくふつか}⟦で→で：00502_de⟧⟦{温泉|おんせん}→温泉：04117_onsen⟧⟦に→に：00314_ni⟧⟦{行|い}った→行く：00119_iku⟧。",
       "english": "I went to a hot spring for an overnight trip.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26883_ippakufutsuka_ex2",
-      "japanese": "{一泊二日|いっぱくふつか}の{社員旅行|しゃいんりょこう}が{計画|けいかく}されている。",
+      "japanese": "{一泊二日|いっぱくふつか}⟦の→の：09472_no⟧{社員旅行|しゃいんりょこう}⟦が→が：00051_ga⟧⟦{計画|けいかく}→計画：01172_keikaku⟧⟦されている→する：00392_suru⟧。",
       "english": "An overnight company trip is being planned.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26883_ippakufutsuka_ex3",
-      "japanese": "{京都|きょうと}{一泊二日|いっぱくふつか}のプランを{探|さが}している。",
+      "japanese": "⟦{京都|きょうと}→京都：09484_kyouto⟧{一泊二日|いっぱくふつか}⟦の→の：09472_no⟧⟦プラン→プラン：00345_puran⟧⟦を→を：00422_wo⟧⟦{探|さが}している→探す：00493_sagasu⟧。",
       "english": "I'm looking for a one-night Kyoto trip plan.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26883_ippakufutsuka_ex4",
-      "japanese": "{一泊二日|いっぱくふつか}では{時間|じかん}が{足|た}りないので、{二泊三日|にはくみっか}にしよう。",
+      "japanese": "{一泊二日|いっぱくふつか}⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{時間|じかん}→時間：00468_jikan⟧⟦が→が：00051_ga⟧⟦{足|た}りない→足りる：01209_tariru⟧⟦の→の：09472_no⟧で、⟦{二泊三日|にはくみっか}→二泊三日：16274_nihakumikka⟧⟦に→に：00314_ni⟧⟦しよう→する：00392_suru⟧。",
       "english": "One night isn't enough time, so let's make it two nights.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "An extremely common expression in Japanese travel culture. Japan's domestic travel industry structures packages and plans around this counting system: ○泊○日 (○ nights ○ days). The pattern extends naturally: 二泊三日 (2 nights 3 days), 三泊四日, etc.\n\nCOMMON COLLOCATIONS:\n- {一泊二日|いっぱくふつか}の{旅行|りょこう}: overnight trip\n- {一泊二日|いっぱくふつか}プラン: overnight plan/package\n- {一泊二日|いっぱくふつか}で: for one night (duration)\n- {一泊二日|いっぱくふつか}{二食付|にしょくつ}き: one night with two meals included\n\nRELATED EXPRESSIONS:\n- {二泊三日|にはくみっか}: two nights three days\n- {日帰|ひがえ}り: day trip (no overnight stay)\n- {連泊|れんぱく}: consecutive nights' stay",
-  "cross_references": [],
+  "notes": "An extremely common expression in Japanese travel culture. Japan's domestic travel industry structures packages and plans around this counting system: ○泊○日 (○ nights ○ days). The pattern extends naturally: 二泊三日 (2 nights 3 days), 三泊四日, etc.\n\nCOMMON COLLOCATIONS:\n- {一泊二日|いっぱくふつか}⟦の→の：09472_no⟧⟦{旅行|りょこう}→旅行：00748_ryokou⟧: overnight trip\n- {一泊二日|いっぱくふつか}⟦プラン→プラン：00345_puran⟧: overnight plan/package\n- {一泊二日|いっぱくふつか}⟦で→で：00502_de⟧: for one night (duration)\n- {一泊二日|いっぱくふつか}{二食付|にしょくつ}き: one night with two meals included\n\nRELATED WORDS:\n- ⟦{二泊三日|にはくみっか}→二泊三日：16274_nihakumikka⟧: two nights three days\n- ⟦{日帰|ひがえ}り→日帰り：17612_higaeri⟧: day trip (no overnight stay)\n- ⟦{連泊|れんぱく}→連泊：07049_renpaku⟧: consecutive nights' stay",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "16274_nihakumikka",
+      "reading": "にはくみっか",
+      "headword": "{二泊三日|にはくみっか}",
+      "label": "two nights three days"
+    },
+    {
+      "type": "related",
+      "target_id": "17612_higaeri",
+      "reading": "ひがえり",
+      "headword": "{日帰|ひがえ}り",
+      "label": "day trip"
+    },
+    {
+      "type": "related",
+      "target_id": "07049_renpaku",
+      "reading": "れんぱく",
+      "headword": "{連泊|れんぱく}",
+      "label": "consecutive nights' stay"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["travel"]
+      "semantic": [
+        "travel"
+      ]
     },
     "created": "2026-05-05T14:22:11Z",
-    "modified": "2026-05-05T14:22:11Z"
+    "modified": "2026-09-02T04:02:28Z"
   }
 }

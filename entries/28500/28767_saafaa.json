@@ -15,41 +15,60 @@
   "examples": [
     {
       "id": "28767_saafaa_ex1",
-      "japanese": "{彼|かれ}はサーファーだ。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧サーファーだ。",
       "english": "He's a surfer.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28767_saafaa_ex2",
-      "japanese": "{海岸|かいがん}には{大勢|おおぜい}のサーファーが{集|あつ}まっていた。",
+      "japanese": "⟦{海岸|かいがん}→海岸：00852_kaigan⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{大勢|おおぜい}→大勢：02850_oozei⟧⟦の→の：09472_no⟧サーファー⟦が→が：00051_ga⟧⟦{集|あつ}まっていた→集まる：01162_atsumaru⟧。",
       "english": "Many surfers were gathered on the beach.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28767_saafaa_ex3",
-      "japanese": "プロのサーファーになるには、{長年|ながねん}の{練習|れんしゅう}と{大会|たいかい}の{実績|じっせき}が{必要|ひつよう}だ。",
+      "japanese": "⟦プロ→プロ：03871_puro⟧⟦の→の：09472_no⟧サーファー⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧、⟦{長年|ながねん}→長年：09684_naganen⟧⟦の→の：09472_no⟧⟦{練習|れんしゅう}→練習：05323_renshuu⟧⟦と→と：00512_to⟧⟦{大会|たいかい}→大会：03386_taikai⟧⟦の→の：09472_no⟧⟦{実績|じっせき}→実績：04214_jisseki⟧⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧だ。",
       "english": "Becoming a pro surfer requires years of practice and a record of tournament results.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "From English \"surfer.\" Standard term for someone who surfs. The lifestyle/look sense (\"surfer dude\") sometimes appears as サーファー{系|けい}.\n\nCOMMON COLLOCATIONS:\n- プロのサーファー: pro surfer\n- {女性|じょせい}サーファー: female surfer\n- サーファーが{集|あつ}まる{海岸|かいがん}: a beach popular with surfers\n- サーファー{ファッション|ふぁっしょん}: surfer-style fashion",
+  "notes": "From English \"surfer.\" Standard term for someone who surfs. The lifestyle/look sense (\"surfer dude\") sometimes appears as サーファー⟦{系|けい}→〜系：28466_kei⟧.\n\nCOMMON COLLOCATIONS:\n- ⟦プロ→プロ：03871_puro⟧⟦の→の：09472_no⟧サーファー: pro surfer\n- ⟦{女性|じょせい}→女性：01617_josei⟧サーファー: female surfer\n- サーファー⟦が→が：00051_ga⟧⟦{集|あつ}まる→集まる：01162_atsumaru⟧⟦{海岸|かいがん}→海岸：00852_kaigan⟧: a beach popular with surfers\n- サーファー⟦ファッション→ファッション：11167_fasshon⟧: surfer-style fashion",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "05237_saafin",
+      "reading": "さーふぃん",
+      "headword": "サーフィン",
+      "label": "surfing"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["sports"],
+      "politeness": "plain",
+      "semantic": [
+        "sports"
+      ],
       "domain": []
     },
     "created": "2026-06-05T02:07:15Z",
-    "modified": "2026-06-05T02:07:15Z"
+    "modified": "2026-09-02T04:02:34Z"
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "15270_akichi_ex1",
-      "japanese": "{子|こ}どもたちが{空|あ}き{地|ち}で{遊|あそ}んでいる。",
+      "japanese": "{子|こ}どもたち⟦が→が：00051_ga⟧{空|あ}き{地|ち}⟦で→で：00502_de⟧⟦{遊|あそ}んでいる→遊ぶ：00550_asobu⟧。",
       "english": "Children are playing in the vacant lot.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "15270_akichi_ex2",
-      "japanese": "{駅前|えきまえ}の{空|あ}き{地|ち}にマンションが{建|た}つらしい。",
+      "japanese": "⟦{駅前|えきまえ}→駅前：09593_ekimae⟧⟦の→の：09472_no⟧{空|あ}き{地|ち}⟦に→に：00314_ni⟧⟦マンション→マンション：01035_manshon⟧⟦が→が：00051_ga⟧⟦{建|た}つ→建つ：12544_tatsu⟧らしい。",
       "english": "Apparently an apartment building is going to be built on the vacant lot in front of the station.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "15270_akichi_ex3",
-      "japanese": "{長年|ながねん}{放置|ほうち}されていた{空|あ}き{地|ち}が{雑草|ざっそう}だらけになり、{近所|きんじょ}から{苦情|くじょう}が{出|で}ている。",
+      "japanese": "⟦{長年|ながねん}→長年：09684_naganen⟧⟦{放置|ほうち}→放置：12826_houchi⟧⟦されていた→する：00392_suru⟧{空|あ}き{地|ち}⟦が→が：00051_ga⟧⟦{雑草|ざっそう}→雑草：04996_zassou⟧⟦だらけ→〜だらけ：18372_darake⟧⟦に→に：00314_ni⟧⟦なり→なる：01970_naru⟧、⟦{近所|きんじょ}→近所：01318_kinjo⟧⟦から→から：00504_kara⟧⟦{苦情|くじょう}→苦情：00252_kujou⟧⟦が→が：00051_ga⟧⟦{出|で}ている→出る：00513_deru⟧。",
       "english": "The vacant lot that had been left unattended for years became overgrown with weeds, and complaints have come from the neighborhood.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,40 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{空|あ}き{地|ち} is a compound of {空|あ}き (empty, vacant) and {地|ち} (land). In Japanese neighborhoods, vacant lots are often associated with childhood play and are a common setting in manga and anime.\n\nCOMMON COLLOCATIONS:\n- {空|あ}き{地|ち}で{遊|あそ}ぶ (to play in a vacant lot)\n- {空|あ}き{地|ち}を{利用|りよう}する (to make use of a vacant lot)\n- {空|あ}き{地|ち}に{駐車|ちゅうしゃ}する (to park on a vacant lot)\n\nSIMILAR WORDS:\n- {空|あ}き{地|ち}: vacant lot (general, everyday)\n- {更地|さらち}: cleared land, empty lot (ready for construction)\n- {荒|あ}れ{地|ち}: wasteland, barren land (uncultivated, wild)",
-  "cross_references": [],
+  "notes": "USAGE:\n{空|あ}き{地|ち} is a compound of ⟦{空|あ}き→空く：11062_aku⟧ (empty, vacant) and {地|ち} (land). In Japanese neighborhoods, vacant lots are often associated with childhood play and are a common setting in manga and anime.\n\nCOMMON COLLOCATIONS:\n- {空|あ}き{地|ち}⟦で→で：00502_de⟧⟦{遊|あそ}ぶ→遊ぶ：00550_asobu⟧ (to play in a vacant lot)\n- {空|あ}き{地|ち}⟦を→を：00422_wo⟧⟦{利用|りよう}する→利用する：21735_riyousuru⟧ (to make use of a vacant lot)\n- {空|あ}き{地|ち}⟦に→に：00314_ni⟧⟦{駐車|ちゅうしゃ}する→駐車する：22431_chuushasuru⟧ (to park on a vacant lot)\n\nSIMILAR WORDS:\n- {空|あ}き{地|ち}: vacant lot (general, everyday)\n- ⟦{更地|さらち}→更地：17562_sarachi⟧: cleared land, empty lot (ready for construction)\n- ⟦{荒|あ}れ{地|ち}→荒れ地：20128_arechi⟧: wasteland, barren land (uncultivated, wild)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17562_sarachi",
+      "reading": "さらち",
+      "headword": "{更地|さらち}",
+      "label": "cleared land, empty lot"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20128_arechi",
+      "reading": "あれち",
+      "headword": "{荒|あ}れ{地|ち}",
+      "label": "wasteland, barren land"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00104_hiroba",
+      "reading": "ひろば",
+      "headword": "{広場|ひろば}",
+      "label": "plaza, square, open space"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30132_harappa",
+      "reading": "はらっぱ",
+      "headword": "{原|はら}っぱ",
+      "label": "open field"
+    }
+  ],
   "metadata": {
     "created": "2026-03-06T08:11:52Z",
-    "modified": "2026-07-16T07:06:35Z",
+    "modified": "2026-09-02T04:01:40Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

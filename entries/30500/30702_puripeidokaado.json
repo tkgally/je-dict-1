@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30702_puripeidokaado_ex1",
-      "japanese": "プリペイドカードを{買|か}った。",
+      "japanese": "プリペイドカード⟦を→を：00422_wo⟧⟦{買|か}った→買う：00489_kau⟧。",
       "english": "I bought a prepaid card.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30702_puripeidokaado_ex2",
-      "japanese": "このプリペイドカードは{残高|ざんだか}が{少|すく}ない。",
+      "japanese": "⟦この→この：00962_kono⟧プリペイドカード⟦は→は：00079_ha⟧⟦{残高|ざんだか}→残高：05422_zandaka⟧⟦が→が：00051_ga⟧⟦{少|すく}ない→少ない：01136_sukunai⟧。",
       "english": "There isn't much left on this prepaid card.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30702_puripeidokaado_ex3",
-      "japanese": "{子供|こども}に{使|つか}いすぎさせたくないので、クレジットカードではなくプリペイドカードを{持|も}たせている。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧⟦に→に：00314_ni⟧⟦{使|つか}い→使う：00473_tsukau⟧すぎさせたく⟦ない→ない：01118_nai⟧⟦の→の：09472_no⟧で、⟦クレジットカード→クレジットカード：06968_kurejittokaado⟧⟦ではなく→ではなく：09578_dehanaku⟧プリペイドカード⟦を→を：00422_wo⟧⟦{持|も}たせている→持つ：00478_motsu⟧。",
       "english": "I don't want my child overspending, so I give them a prepaid card rather than a credit card.",
       "sense_numbers": [
         1
@@ -44,12 +44,19 @@
       "notes": null
     }
   ],
-  "notes": "From English \"prepaid card.\" Often shortened to プリカ in casual speech.\n\nCOMMON COLLOCATIONS:\n- プリペイドカードを{買|か}う: to buy a prepaid card\n- プリペイドカードにチャージする: to top up a prepaid card\n- {残高|ざんだか}を{確認|かくにん}する: to check the remaining balance\n- {図書|としょ}カード: book gift card — a familiar example, often given as a prize or present\n\nSIMILAR WORDS:\n- クレジットカード: credit card — pay later, with a billing account behind it\n- {電子|でんし}マネー: electronic money — the payment method itself, which prepaid cards are one way of carrying\n- ギフトカード: gift card — a prepaid card bought to give to someone else",
+  "notes": "From English \"prepaid card.\" Often shortened to プリカ in casual speech.\n\nCOMMON COLLOCATIONS:\n- プリペイドカード⟦を→を：00422_wo⟧⟦{買|か}う→買う：00489_kau⟧: to buy a prepaid card\n- プリペイドカード⟦に→に：00314_ni⟧⟦チャージ→チャージ：09729_chaaji⟧⟦する→する：00392_suru⟧: to top up a prepaid card\n- ⟦{残高|ざんだか}→残高：05422_zandaka⟧⟦を→を：00422_wo⟧⟦{確認|かくにん}する→確認する：25332_kakuninsuru⟧: to check the remaining balance\n- ⟦{図書|としょ}→図書：03459_tosho⟧⟦カード→カード：03836_kaado⟧: book gift card — a familiar example, often given as a prize or present\n\nSIMILAR WORDS:\n- ⟦クレジットカード→クレジットカード：06968_kurejittokaado⟧: credit card — pay later, with a billing account behind it\n- ⟦{電子|でんし}マネー→電子マネー：06694_denshimanee⟧: electronic money — the payment method itself, which prepaid cards are one way of carrying\n- ⟦ギフト→ギフト：10824_gifuto⟧⟦カード→カード：03836_kaado⟧: gift card — a prepaid card bought to give to someone else",
   "cross_references": [
     {
       "type": "contrast",
       "reading": "くれじっとかーど",
       "headword": "クレジットカード"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06694_denshimanee",
+      "reading": "でんしまねー",
+      "headword": "{電子|でんし}マネー",
+      "label": "electronic money"
     }
   ],
   "schema_version": "2.0",
@@ -60,7 +67,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "money",
         "shopping"
@@ -68,6 +75,6 @@
       "domain": []
     },
     "created": "2026-08-20T02:40:41Z",
-    "modified": "2026-08-20T02:40:41Z"
+    "modified": "2026-09-02T04:02:41Z"
   }
 }

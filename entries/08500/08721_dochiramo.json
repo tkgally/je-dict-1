@@ -29,7 +29,7 @@
     },
     {
       "id": "08721_dochiramo_ex2",
-      "japanese": "どちらも{正|ただ}しいと{思|おも}う。",
+      "japanese": "どちらも⟦{正|ただ}しい→正しい：00893_tadashii⟧⟦と→と：00512_to⟧⟦{思|おも}う→思う：00492_omou⟧。",
       "english": "I think both are correct.",
       "sense_numbers": [
         1
@@ -39,7 +39,7 @@
     },
     {
       "id": "08721_dochiramo_ex3",
-      "japanese": "どちらも{選|えら}べないなら、{両方|りょうほう}{買|か}えばいい。",
+      "japanese": "どちらも⟦{選|えら}べない→選ぶ：00835_erabu⟧なら、⟦{両方|りょうほう}→両方：01750_ryouhou⟧⟦{買|か}えば→買う：00489_kau⟧⟦いい→いい：00118_ii⟧。",
       "english": "If you can't choose between them, just buy both.",
       "sense_numbers": [
         1
@@ -49,7 +49,7 @@
     },
     {
       "id": "08721_dochiramo_ex4",
-      "japanese": "どちらも{好|す}きではない。",
+      "japanese": "どちらも⟦{好|す}き→好き：02355_suki⟧で⟦は→は：00079_ha⟧⟦ない→ない：01118_nai⟧。",
       "english": "I don't like either of them.",
       "sense_numbers": [
         2
@@ -59,7 +59,7 @@
     },
     {
       "id": "08721_dochiramo_ex5",
-      "japanese": "どちらも{来|こ}なかった。",
+      "japanese": "どちらも⟦{来|こ}なかった→来る：00254_kuru⟧。",
       "english": "Neither of them came.",
       "sense_numbers": [
         2
@@ -69,7 +69,7 @@
     },
     {
       "id": "08721_dochiramo_ex6",
-      "japanese": "どちらも{完璧|かんぺき}ではないが、どちらも{悪|わる}くない。",
+      "japanese": "どちらも⟦{完璧|かんぺき}→完璧：09505_kanpeki⟧で⟦は→は：00079_ha⟧⟦ない→ない：01118_nai⟧⟦が→が：00051_ga⟧、どちらも⟦{悪|わる}くない→悪い：00908_warui⟧。",
       "english": "Neither is perfect, but neither is bad either.",
       "sense_numbers": [
         1,
@@ -79,7 +79,37 @@
       "notes": null
     }
   ],
-  "notes": "STRUCTURE:\nどちら (which one of two) + も (inclusive particle)\n\nUSAGE PATTERNS:\n- どちらも + affirmative → both\n- どちらも + negative → neither\n\nCONTRAST WITH {両方|りょうほう}:\n- どちらも - emphasizes \"both\" when choosing between two specific options\n- {両方|りょうほう} - simply means \"both\" (more neutral)\n\nRELATED EXPRESSIONS:\n- どちらか - one or the other\n- どちらでも - either is fine\n- どれも - all of them (for three or more)\n\nFORMALITY:\nどちらも is slightly more formal than どっちも (casual version).",
+  "notes": "COMMON PATTERNS:\n⟦どちら→どちら：00927_dochira⟧ (which one of two) + ⟦も→も：00484_mo⟧ (inclusive particle)\n- どちらも + affirmative → both\n- どちらも + negative → neither\n\nCONTRAST WITH {両方|りょうほう}:\n- どちらも - emphasizes \"both\" when choosing between two specific options\n- ⟦{両方|りょうほう}→両方：01750_ryouhou⟧ - simply means \"both\" (more neutral)\n\nRELATED WORDS:\n- ⟦どちらか→どちらか：28669_dochiraka⟧ - one or the other\n- ⟦どちら→どちら：00927_dochira⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧ - either is fine\n- ⟦どれも→どれも：22934_doremo⟧ - all of them (for three or more)\n\nREGISTER:\nどちらも is slightly more formal than ⟦どっちも→どっちも：25897_docchimo⟧ (casual version).",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01750_ryouhou",
+      "reading": "りょうほう",
+      "headword": "{両方|りょうほう}",
+      "label": "simply means \"both\""
+    },
+    {
+      "type": "related",
+      "target_id": "28669_dochiraka",
+      "reading": "どちらか",
+      "headword": "どちらか",
+      "label": "one or the other"
+    },
+    {
+      "type": "related",
+      "target_id": "22934_doremo",
+      "reading": "どれも",
+      "headword": "どれも",
+      "label": "all of them"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25897_docchimo",
+      "reading": "どっちも",
+      "headword": "どっちも",
+      "label": "both"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -87,12 +117,13 @@
         "pronoun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "quantity",
         "grammatical"
       ]
     },
     "created": "2026-01-28T02:56:16Z",
-    "modified": "2026-08-12T12:52:42Z"
+    "modified": "2026-09-02T04:01:16Z"
   }
 }

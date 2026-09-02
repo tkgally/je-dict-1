@@ -184,7 +184,7 @@
     },
     {
       "id": "00283_miru_ex8",
-      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧⟦が→が：00051_ga⟧⟦アニメ→アニメ：01527_anime⟧⟦を→を：00422_wo⟧{見|み}ている。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧⟦が→が：00051_ga⟧⟦アニメ→アニメ：01527_anime⟧⟦を→を：00422_wo⟧{見|み}て⟦いる→いる：00495_iru⟧。",
       "english": "The children are watching anime.",
       "notes": null,
       "has_audio": false,
@@ -263,7 +263,7 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive). No pair verb. Pattern: X⟦を→を：00422_wo⟧{見|み}る (see/watch X).\n\nASPECT: ている indicates ongoing action. {見|み}ている = 'is watching/looking at.'\n\nCOMMON PATTERNS:\n・⟦テレビ→テレビ：01536_terebi⟧⟦を→を：00422_wo⟧{見|み}る (watch TV)\n・⟦{映画|えいが}→映画：02273_eiga⟧⟦を→を：00422_wo⟧{見|み}る (watch a movie)\n・〜て{見|み}る (try doing〜)\n・{見|み}て⟦ください→ください：02899_kudasai⟧ (please look)\n\nAuxiliary usage: 〜て{見|み}る means 'try doing.' Ichidan verb: {見|み}ない, {見|み}ます, {見|み}て, {見|み}た.",
+  "notes": "TRANSITIVITY: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive). No pair verb. Pattern: X⟦を→を：00422_wo⟧{見|み}る (see/watch X).\n\nASPECT: て⟦いる→いる：00495_iru⟧ indicates ongoing action. {見|み}て⟦いる→いる：00495_iru⟧ = 'is watching/looking at.'\n\nCOMMON PATTERNS:\n- ⟦テレビ→テレビ：01536_terebi⟧⟦を→を：00422_wo⟧{見|み}る (watch TV)\n- ⟦{映画|えいが}→映画：02273_eiga⟧⟦を→を：00422_wo⟧{見|み}る (watch a movie)\n- 〜て{見|み}る (try doing〜)\n- {見|み}て⟦ください→ください：02899_kudasai⟧ (please look)\n\nAuxiliary usage: 〜て{見|み}る means 'try doing.' Ichidan verb: {見|み}ない, {見|み}ます, {見|み}て, {見|み}た.",
   "cross_references": [
     {
       "type": "related",
@@ -292,11 +292,67 @@
       "reading": "はいけんする",
       "headword": "{拝見|はいけん}する",
       "label": "humble"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01644_mikakeru",
+      "reading": "みかける",
+      "headword": "{見|み}かける",
+      "label": "to catch sight of, to happen to see"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02136_niramu",
+      "reading": "にらむ",
+      "headword": "{睨|にら}む",
+      "label": "to glare at, to stare at"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02558_kansatsu",
+      "reading": "かんさつ",
+      "headword": "{観察|かんさつ}",
+      "label": "observation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04571_mitsumeru",
+      "reading": "みつめる",
+      "headword": "{見|み}つめる",
+      "label": "to gaze at, to stare at"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06912_hora",
+      "reading": "ほら",
+      "headword": "ほら",
+      "label": "look, see, you know, there"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20232_mokugekisuru",
+      "reading": "もくげきする",
+      "headword": "{目撃|もくげき}する",
+      "label": "to witness"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21472_menisuru",
+      "reading": "めにする",
+      "headword": "{目|め}にする",
+      "label": "to see"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21989_kansatsusuru",
+      "reading": "かんさつする",
+      "headword": "{観察|かんさつ}する",
+      "label": "to observe"
     }
   ],
   "metadata": {
     "created": "2026-01-05T10:29:42Z",
-    "modified": "2026-05-10T14:08:28Z",
+    "modified": "2026-09-02T04:00:57Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

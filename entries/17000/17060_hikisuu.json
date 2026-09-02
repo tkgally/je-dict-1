@@ -15,42 +15,54 @@
   "examples": [
     {
       "id": "17060_hikisuu_ex1",
-      "japanese": "この{関数|かんすう}は{引数|ひきすう}を{二|ふた}つ{取|と}る。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{関数|かんすう}→関数：04796_kansuu⟧⟦は→は：00079_ha⟧{引数|ひきすう}⟦を→を：00422_wo⟧⟦{二|ふた}つ→二つ：02953_futatsu⟧⟦{取|と}る→取る：00565_toru⟧。",
       "english": "This function takes two arguments.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17060_hikisuu_ex2",
-      "japanese": "{引数|ひきすう}に{文字列|もじれつ}を{渡|わた}してください。",
+      "japanese": "{引数|ひきすう}⟦に→に：00314_ni⟧{文字列|もじれつ}⟦を→を：00422_wo⟧⟦{渡|わた}して→渡す：02442_watasu⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please pass a string as the argument.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17060_hikisuu_ex3",
-      "japanese": "{引数|ひきすう}の{数|かず}が{間違|まちが}っていたので、エラーが{出|で}た。",
+      "japanese": "{引数|ひきすう}⟦の→の：09472_no⟧⟦{数|かず}→数：00204_kazu⟧⟦が→が：00051_ga⟧⟦{間違|まちが}っていた→間違う：03036_machigau⟧⟦の→の：09472_no⟧で、⟦エラー→エラー：08429_eraa⟧⟦が→が：00051_ga⟧⟦{出|で}た→出る：00513_deru⟧。",
       "english": "An error occurred because the number of arguments was wrong.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nPrimarily a technical term used in programming and mathematics. Pronounced ひきすう, not いんすう (which means \"factor\" in math). Very common in Japanese programming documentation.\n\nCOMMON COLLOCATIONS:\n- {引数|ひきすう}を{渡|わた}す (to pass an argument)\n- {引数|ひきすう}を{取|と}る (to take an argument)\n- {省略可能|しょうりゃくかのう}な{引数|ひきすう} (optional argument)\n- コマンドライン{引数|ひきすう} (command-line argument)\n\nSIMILAR WORDS:\n- パラメータ: parameter — often used interchangeably, but technically the variable name in a function definition\n- {戻|もど}り{値|ち}: return value — the output of a function, as opposed to the input",
+  "notes": "USAGE:\nPrimarily a technical term used in programming and mathematics. Pronounced ひきすう, not ⟦いん→いる：00495_iru⟧すう (which means \"factor\" in math). Very common in Japanese programming documentation.\n\nCOMMON COLLOCATIONS:\n- {引数|ひきすう}⟦を→を：00422_wo⟧⟦{渡|わた}す→渡す：02442_watasu⟧ (to pass an argument)\n- {引数|ひきすう}⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧ (to take an argument)\n- {省略可能|しょうりゃくかのう}な{引数|ひきすう} (optional argument)\n- コマンドライン{引数|ひきすう} (command-line argument)\n\nSIMILAR WORDS:\n- パラメータ: parameter — often used interchangeably, but technically the variable name in a function definition\n- {戻|もど}り{値|ち}: return value — the output of a function, as opposed to the input",
   "cross_references": [],
   "metadata": {
     "created": "2026-03-15T09:46:42Z",
-    "modified": "2026-03-15T09:46:42Z",
+    "modified": "2026-09-02T04:01:47Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["technical"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "technical"
+      ]
     }
   }
 }

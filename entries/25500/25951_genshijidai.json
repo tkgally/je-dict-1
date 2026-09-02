@@ -15,39 +15,73 @@
   "examples": [
     {
       "id": "25951_genshijidai_ex1",
-      "japanese": "{原始時代|げんしじだい}の{人々|ひとびと}は{狩猟|しゅりょう}で{生活|せいかつ}していた。",
+      "japanese": "{原始時代|げんしじだい}⟦の→の：09472_no⟧⟦{人々|ひとびと}→人々：03141_hitobito⟧⟦は→は：00079_ha⟧⟦{狩猟|しゅりょう}→狩猟：13507_shuryou⟧⟦で→で：00502_de⟧⟦{生活|せいかつ}していた→生活する：01839_seikatsusuru⟧。",
       "english": "People in prehistoric times lived by hunting.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "25951_genshijidai_ex2",
-      "japanese": "{原始時代|げんしじだい}の{道具|どうぐ}が{博物館|はくぶつかん}に{展示|てんじ}されている。",
+      "japanese": "{原始時代|げんしじだい}⟦の→の：09472_no⟧⟦{道具|どうぐ}→道具：01479_dougu⟧⟦が→が：00051_ga⟧⟦{博物館|はくぶつかん}→博物館：01494_hakubutsukan⟧⟦に→に：00314_ni⟧⟦{展示|てんじ}→展示：12401_tenji⟧⟦されている→する：00392_suru⟧。",
       "english": "Tools from the primitive era are displayed in the museum.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "25951_genshijidai_ex3",
-      "japanese": "{原始時代|げんしじだい}から{人間|にんげん}は{火|ひ}を{使|つか}って{生活|せいかつ}を{豊|ゆた}かにしてきた。",
+      "japanese": "{原始時代|げんしじだい}⟦から→から：00504_kara⟧⟦{人間|にんげん}→人間：03523_ningen⟧⟦は→は：00079_ha⟧⟦{火|ひ}→火：02248_hi⟧⟦を→を：00422_wo⟧⟦{使|つか}って→使う：00473_tsukau⟧⟦{生活|せいかつ}→生活：01443_seikatsu⟧⟦を→を：00422_wo⟧⟦{豊|ゆた}か→豊か：03654_yutaka⟧にしてきた。",
       "english": "Since prehistoric times, humans have enriched their lives by using fire.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {原始|げんし} (primitive; primeval) and {時代|じだい} (era; age). Used in history, anthropology, and general discussion to refer to the earliest stage of human existence. Sometimes used loosely or figuratively to describe something extremely outdated.\n\nCOMMON COLLOCATIONS:\n- {原始時代|げんしじだい}の{人間|にんげん}: primitive humans\n- {原始時代|げんしじだい}の{生活|せいかつ}: life in prehistoric times\n- {原始時代|げんしじだい}から: since prehistoric times\n- {原始時代|げんしじだい}の{遺跡|いせき}: prehistoric ruins\n\nSIMILAR WORDS:\n- {先史時代|せんしじだい}: prehistoric era — a more academic term specifically meaning the period before written records\n- {古代|こだい}: ancient times — a later period when civilizations had already formed, with writing and organized society\n- {石器時代|せっきじだい}: Stone Age — refers specifically to the period defined by the use of stone tools",
-  "cross_references": [],
+  "notes": "A compound of ⟦{原始|げんし}→原始：00067_genshi⟧ (primitive; primeval) and ⟦{時代|じだい}→時代：01424_jidai⟧ (era; age). Used in history, anthropology, and general discussion to refer to the earliest stage of human existence. Sometimes used loosely or figuratively to describe something extremely outdated.\n\nCOMMON COLLOCATIONS:\n- {原始時代|げんしじだい}⟦の→の：09472_no⟧⟦{人間|にんげん}→人間：03523_ningen⟧: primitive humans\n- {原始時代|げんしじだい}⟦の→の：09472_no⟧⟦{生活|せいかつ}→生活：01443_seikatsu⟧: life in prehistoric times\n- {原始時代|げんしじだい}⟦から→から：00504_kara⟧: since prehistoric times\n- {原始時代|げんしじだい}⟦の→の：09472_no⟧⟦{遺跡|いせき}→遺跡：09527_iseki⟧: prehistoric ruins\n\nSIMILAR WORDS:\n- ⟦{先史時代|せんしじだい}→先史時代：26438_senshijidai⟧: prehistoric era — a more academic term specifically meaning the period before written records\n- ⟦{古代|こだい}→古代：05324_kodai⟧: ancient times — a later period when civilizations had already formed, with writing and organized society\n- {石器時代|せっきじだい}: Stone Age — refers specifically to the period defined by the use of stone tools",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "26438_senshijidai",
+      "reading": "せんしじだい",
+      "headword": "{先史|せんし}{時代|じだい}",
+      "label": "prehistoric era"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05324_kodai",
+      "reading": "こだい",
+      "headword": "{古代|こだい}",
+      "label": "ancient times"
+    },
+    {
+      "type": "related",
+      "target_id": "23398_senshi",
+      "reading": "せんし",
+      "headword": "{先史|せんし}",
+      "label": "prehistory"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["history", "time-period"]
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "history",
+        "time-period"
+      ]
     },
     "created": "2026-04-28T13:34:48Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T04:02:24Z"
   }
 }

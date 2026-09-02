@@ -15,41 +15,66 @@
   "examples": [
     {
       "id": "16672_koorigashi_ex1",
-      "japanese": "{夏|なつ}は{氷菓子|こおりがし}がおいしい。",
+      "japanese": "⟦{夏|なつ}→夏：02236_natsu⟧⟦は→は：00079_ha⟧{氷菓子|こおりがし}⟦が→が：00051_ga⟧おいしい。",
       "english": "Frozen treats are delicious in summer.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16672_koorigashi_ex2",
-      "japanese": "{子供|こども}たちが{氷菓子|こおりがし}を{食|た}べながら{遊|あそ}んでいる。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧たち⟦が→が：00051_ga⟧{氷菓子|こおりがし}⟦を→を：00422_wo⟧⟦{食|た}べ→食べる：00396_taberu⟧⟦ながら→ながら：10530_nagara⟧⟦{遊|あそ}んでいる→遊ぶ：00550_asobu⟧。",
       "english": "The children are playing while eating frozen treats.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16672_koorigashi_ex3",
-      "japanese": "コンビニの{氷菓子|こおりがし}コーナーには{色々|いろいろ}な{種類|しゅるい}の{商品|しょうひん}が{並|なら}んでいる。",
+      "japanese": "⟦コンビニ→コンビニ：01081_konbini⟧⟦の→の：09472_no⟧{氷菓子|こおりがし}⟦コーナー→コーナー：10865_koonaa⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{色々|いろいろ}→色々：02352_iroiro⟧な⟦{種類|しゅるい}→種類：01560_shurui⟧⟦の→の：09472_no⟧⟦{商品|しょうひん}→商品：01436_shouhin⟧⟦が→が：00051_ga⟧⟦{並|なら}んでいる→並ぶ：00605_narabu⟧。",
       "english": "Various types of products are lined up in the convenience store's frozen treats section.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nA broad category term encompassing popsicles, shaved ice, ice cream, and similar frozen sweets. In product labeling, {氷菓|ひょうか} (without {子|し}) is used as a regulatory classification for frozen desserts with lower milk fat content than ice cream.\n\nCOMMON COLLOCATIONS:\n- {氷菓子|こおりがし}を{食|た}べる (to eat a frozen treat)\n- {氷菓子|こおりがし}{売|う}り{場|ば} (frozen treats section)\n\nSIMILAR WORDS:\n- アイスクリーム: ice cream — specifically ice cream\n- かき{氷|ごおり}: shaved ice — a specific type of frozen treat\n- {氷菓|ひょうか}: frozen confection — the abbreviated/regulatory term",
-  "cross_references": [],
+  "notes": "USAGE:\nA broad category term encompassing popsicles, shaved ice, ice cream, and similar frozen sweets. In product labeling, {氷菓|ひょうか} (without {子|し}) is used as a regulatory classification for frozen desserts with lower milk fat content than ice cream.\n\nCOMMON COLLOCATIONS:\n- {氷菓子|こおりがし}⟦を→を：00422_wo⟧⟦{食|た}べる→食べる：00396_taberu⟧ (to eat a frozen treat)\n- {氷菓子|こおりがし}⟦{売|う}り{場|ば}→売り場：01331_uriba⟧ (frozen treats section)\n\nSIMILAR WORDS:\n- ⟦アイスクリーム→アイスクリーム：03830_aisukuriimu⟧: ice cream — specifically ice cream\n- ⟦かき{氷|ごおり}→かき氷：10300_kakigoori⟧: shaved ice — a specific type of frozen treat\n- {氷菓|ひょうか}: frozen confection — the abbreviated/regulatory term",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03830_aisukuriimu",
+      "reading": "あいすくりーむ",
+      "headword": "アイスクリーム",
+      "label": "ice cream"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10300_kakigoori",
+      "reading": "かきごおり",
+      "headword": "かき{氷|ごおり}",
+      "label": "shaved ice"
+    }
+  ],
   "metadata": {
     "created": "2026-03-14T02:12:10Z",
-    "modified": "2026-04-10T07:12:46Z",
+    "modified": "2026-09-02T04:01:45Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food"]
+      "semantic": [
+        "food"
+      ]
     }
   }
 }

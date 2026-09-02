@@ -15,41 +15,66 @@
   "examples": [
     {
       "id": "12878_kyouzai_ex1",
-      "japanese": "{新|あたら}しい{教材|きょうざい}を{作成|さくせい}した。",
+      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧{教材|きょうざい}⟦を→を：00422_wo⟧⟦{作成|さくせい}した→作成する：25378_sakuseisuru⟧。",
       "english": "I created new teaching materials.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12878_kyouzai_ex2",
-      "japanese": "オンラインの{教材|きょうざい}で{日本語|にほんご}を{勉強|べんきょう}している。",
+      "japanese": "⟦オンライン→オンライン：05278_onrain⟧⟦の→の：09472_no⟧{教材|きょうざい}⟦で→で：00502_de⟧⟦{日本語|にほんご}→日本語：00614_nihongo⟧⟦を→を：00422_wo⟧⟦{勉強|べんきょう}している→勉強する：00527_benkyousuru⟧。",
       "english": "I'm studying Japanese using online educational materials.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12878_kyouzai_ex3",
-      "japanese": "この{映画|えいが}は{歴史|れきし}の{教材|きょうざい}としても{活用|かつよう}できる。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{映画|えいが}→映画：02273_eiga⟧⟦は→は：00079_ha⟧⟦{歴史|れきし}→歴史：02267_rekishi⟧⟦の→の：09472_no⟧{教材|きょうざい}⟦として→として：06802_toshite⟧⟦も→も：00484_mo⟧⟦{活用|かつよう}できる→活用する：21424_katsuyousuru⟧。",
       "english": "This film can also be used as a teaching resource for history.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nCovers a broad range of materials from traditional textbooks to digital learning content. In modern usage, デジタル{教材|きょうざい} (digital teaching materials) and オンライン{教材|きょうざい} (online materials) are increasingly common.\n\nCOMMON COLLOCATIONS:\n- {教材|きょうざい}を{作|つく}る: to create teaching materials\n- {教材|きょうざい}を{活用|かつよう}する: to make use of teaching materials\n- {教材|きょうざい}{開発|かいはつ}: teaching material development\n- デジタル{教材|きょうざい}: digital teaching materials\n\nSIMILAR WORDS:\n- {教科書|きょうかしょ}: textbook (a specific type of teaching material)\n- {参考書|さんこうしょ}: reference book, study guide",
-  "cross_references": [],
+  "notes": "USAGE:\nCovers a broad range of materials from traditional textbooks to digital learning content. In modern usage, ⟦デジタル→デジタル：05870_dejitaru⟧{教材|きょうざい} (digital teaching materials) and ⟦オンライン→オンライン：05278_onrain⟧{教材|きょうざい} (online materials) are increasingly common.\n\nCOMMON COLLOCATIONS:\n- {教材|きょうざい}⟦を→を：00422_wo⟧⟦{作|つく}る→作る：00481_tsukuru⟧: to create teaching materials\n- {教材|きょうざい}⟦を→を：00422_wo⟧⟦{活用|かつよう}する→活用する：21424_katsuyousuru⟧: to make use of teaching materials\n- {教材|きょうざい}⟦{開発|かいはつ}→開発：06746_kaihatsu⟧: teaching material development\n- ⟦デジタル→デジタル：05870_dejitaru⟧{教材|きょうざい}: digital teaching materials\n\nSIMILAR WORDS:\n- ⟦{教科書|きょうかしょ}→教科書：01085_kyoukasho⟧: textbook (a specific type of teaching material)\n- ⟦{参考書|さんこうしょ}→参考書：05142_sankousho⟧: reference book, study guide",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01085_kyoukasho",
+      "reading": "きょうかしょ",
+      "headword": "{教科書|きょうかしょ}",
+      "label": "textbook"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05142_sankousho",
+      "reading": "さんこうしょ",
+      "headword": "{参考書|さんこうしょ}",
+      "label": "reference book, study guide"
+    }
+  ],
   "metadata": {
     "created": "2026-02-22T12:45:04Z",
-    "modified": "2026-02-22T12:45:04Z",
+    "modified": "2026-09-02T04:01:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["education"]
+      "semantic": [
+        "education"
+      ]
     }
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "18498_yobousaku_ex1",
-      "japanese": "{予防策|よぼうさく}を{講|こう}じる。",
+      "japanese": "{予防策|よぼうさく}⟦を→を：00422_wo⟧⟦{講|こう}じる→講じる：27841_koujiru⟧。",
       "english": "To take preventive measures.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "18498_yobousaku_ex2",
-      "japanese": "{感染症|かんせんしょう}の{予防策|よぼうさく}として{手洗|てあら}いが{重要|じゅうよう}だ。",
+      "japanese": "⟦{感染症|かんせんしょう}→感染症：15681_kansenshou⟧⟦の→の：09472_no⟧{予防策|よぼうさく}⟦として→として：06802_toshite⟧⟦{手洗|てあら}い→手洗い：12761_tearai⟧⟦が→が：00051_ga⟧⟦{重要|じゅうよう}→重要：01575_juuyou⟧だ。",
       "english": "Hand washing is important as a preventive measure against infectious diseases.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "18498_yobousaku_ex3",
-      "japanese": "{災害|さいがい}が{起|お}きる{前|まえ}に、しっかりと{予防策|よぼうさく}を{立|た}てておくべきだ。",
+      "japanese": "⟦{災害|さいがい}→災害：09636_saigai⟧⟦が→が：00051_ga⟧⟦{起|お}きる→起きる：00521_okiru⟧⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧、⟦しっかり→しっかり：01272_shikkari⟧⟦と→と：00512_to⟧{予防策|よぼうさく}⟦を→を：00422_wo⟧⟦{立|た}てて→立てる：01196_tateru⟧おくべきだ。",
       "english": "You should establish thorough preventive measures before a disaster strikes.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Common collocations: {予防策|よぼうさく}を{講|こう}じる (to take/implement preventive measures), {予防策|よぼうさく}を{立|た}てる (to establish preventive measures). The suffix ～{策|さく} (measure, plan) appears in many compound nouns: {対策|たいさく} (countermeasure), {解決策|かいけつさく} (solution), {改善策|かいぜんさく} (improvement measure). Related: {予防|よぼう} (prevention), {対策|たいさく} (countermeasure — reactive rather than preventive).",
+  "notes": "Common collocations: {予防策|よぼうさく}⟦を→を：00422_wo⟧⟦{講|こう}じる→講じる：27841_koujiru⟧ (to take/implement preventive measures), {予防策|よぼうさく}⟦を→を：00422_wo⟧⟦{立|た}てる→立てる：01196_tateru⟧ (to establish preventive measures). The suffix ～⟦{策|さく}→策：09997_saku⟧ (measure, plan) appears in many compound nouns: ⟦{対策|たいさく}→対策：02511_taisaku⟧ (countermeasure), ⟦{解決策|かいけつさく}→解決策：19395_kaiketsusaku⟧ (solution), {改善策|かいぜんさく} (improvement measure). Related: ⟦{予防|よぼう}→予防：03669_yobou⟧ (prevention), ⟦{対策|たいさく}→対策：02511_taisaku⟧ (countermeasure — reactive rather than preventive).",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21966_boushisaku",
+      "reading": "ぼうしさく",
+      "headword": "{防止策|ぼうしさく}",
+      "label": "preventive measure"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25445_yobouhou",
+      "reading": "よぼうほう",
+      "headword": "{予防法|よぼうほう}",
+      "label": "prevention method"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +75,6 @@
       ]
     },
     "created": "2026-03-22T03:14:27Z",
-    "modified": "2026-07-25T21:35:01Z"
+    "modified": "2026-09-02T04:01:52Z"
   }
 }

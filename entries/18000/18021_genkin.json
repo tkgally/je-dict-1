@@ -2,7 +2,7 @@
   "id": "18021_genkin",
   "headword": "{厳禁|げんきん}",
   "reading": "げんきん",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "strictly prohibited; forbidden",
   "conjugation": {
     "type": "suru",
@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "18021_genkin_ex1",
-      "japanese": "{撮影|さつえい}{厳禁|げんきん}。",
+      "japanese": "⟦{撮影|さつえい}→撮影：04175_satsuei⟧{厳禁|げんきん}。",
       "english": "Photography strictly prohibited.",
       "sense_numbers": [
         1
@@ -114,7 +114,7 @@
     },
     {
       "id": "18021_genkin_ex2",
-      "japanese": "この{地域|ちいき}では{火気|かき}の{使用|しよう}が{厳禁|げんきん}されている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{地域|ちいき}→地域：01461_chiiki⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧{火気|かき}⟦の→の：09472_no⟧⟦{使用|しよう}→使用：01637_shiyou⟧⟦が→が：00051_ga⟧{厳禁|げんきん}⟦されている→する：00392_suru⟧。",
       "english": "The use of open flames is strictly prohibited in this area.",
       "sense_numbers": [
         1
@@ -124,7 +124,7 @@
     },
     {
       "id": "18021_genkin_ex3",
-      "japanese": "{関係者|かんけいしゃ}{以外|いがい}の{立|た}ち{入|い}りは{厳禁|げんきん}となっております。",
+      "japanese": "⟦{関係者|かんけいしゃ}→関係者：16441_kankeisha⟧⟦{以外|いがい}→以外：01297_igai⟧⟦の→の：09472_no⟧⟦{立|た}ち{入|い}り→立ち入り：10671_tachiiri⟧⟦は→は：00079_ha⟧{厳禁|げんきん}⟦と→と：00512_to⟧⟦なって→なる：01970_naru⟧⟦おります→おる：01324_oru⟧。",
       "english": "Entry is strictly prohibited for anyone other than authorized personnel.",
       "sense_numbers": [
         1
@@ -133,8 +133,17 @@
       "notes": null
     }
   ],
-  "notes": "{厳禁|げんきん} is stronger than {禁止|きんし} (prohibited). It implies zero tolerance and potentially severe consequences.\n\nCOMMON SIGN PATTERNS:\n- {撮影|さつえい}{厳禁|げんきん}: photography strictly prohibited\n- {飲酒|いんしゅ}{厳禁|げんきん}: alcohol strictly forbidden\n- {喫煙|きつえん}{厳禁|げんきん}: smoking strictly forbidden\n- {火気|かき}{厳禁|げんきん}: open flames strictly prohibited\n- {立|た}ち{入|い}り{厳禁|げんきん}: entry strictly prohibited\n\nCONTRAST:\n- {禁止|きんし}: prohibited (standard level)\n- {厳禁|げんきん}: strictly prohibited (stronger, zero tolerance)\n\nHOMOPHONE NOTE:\nNot to be confused with {現金|げんきん} (cash), which has the same reading but different kanji.",
+  "notes": "{厳禁|げんきん} is stronger than ⟦{禁止|きんし}→禁止：02643_kinshi⟧ (prohibited). It implies zero tolerance and potentially severe consequences.\n\nCOMMON SIGN PATTERNS:\n- ⟦{撮影|さつえい}→撮影：04175_satsuei⟧{厳禁|げんきん}: photography strictly prohibited\n- ⟦{飲酒|いんしゅ}→飲酒：08635_inshu⟧{厳禁|げんきん}: alcohol strictly forbidden\n- ⟦{喫煙|きつえん}→喫煙：17580_kitsuen⟧{厳禁|げんきん}: smoking strictly forbidden\n- {火気|かき}{厳禁|げんきん}: open flames strictly prohibited\n- ⟦{立|た}ち{入|い}り→立ち入る：26367_tachiiru⟧{厳禁|げんきん}: entry strictly prohibited\n\nSIMILAR WORDS:\n- ⟦{禁止|きんし}→禁止：02643_kinshi⟧: prohibited (standard level)\n- {厳禁|げんきん}: strictly prohibited (stronger, zero tolerance)\n\nWATCH OUT:\nNot to be confused with ⟦{現金|げんきん}→現金：02716_genkin⟧ (cash), which has the same reading but different kanji.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02643_kinshi",
+      "reading": "きんし",
+      "headword": "{禁止|きんし}",
+      "label": "prohibited"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -150,6 +159,6 @@
       "verb_class": "suru"
     },
     "created": "2026-03-19T12:14:21Z",
-    "modified": "2026-03-28T10:56:41Z"
+    "modified": "2026-09-02T04:01:50Z"
   }
 }

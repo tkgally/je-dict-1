@@ -15,41 +15,81 @@
   "examples": [
     {
       "id": "30054_ikon_ex1",
-      "japanese": "{遺恨|いこん}を{残|のこ}す。",
+      "japanese": "{遺恨|いこん}⟦を→を：00422_wo⟧⟦{残|のこ}す→残す：01975_nokosu⟧。",
       "english": "Leave a lingering grudge.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "30054_ikon_ex2",
-      "japanese": "{試合|しあい}の{後|あと}も、{両|りょう}チームには{遺恨|いこん}が{残|のこ}った。",
+      "japanese": "⟦{試合|しあい}→試合：01601_shiai⟧⟦の→の：09472_no⟧⟦{後|あと}→後：09580_ato⟧⟦も→も：00484_mo⟧、⟦{両|りょう}→両：11182_ryou⟧⟦チーム→チーム：03858_chiimu⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{遺恨|いこん}⟦が→が：00051_ga⟧⟦{残|のこ}った→残る：01187_nokoru⟧。",
       "english": "Even after the match, a grudge remained between the two teams.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "30054_ikon_ex3",
-      "japanese": "{過去|かこ}の{遺恨|いこん}を{水|みず}に{流|なが}して、{仲直|なかなお}りすることにした。",
+      "japanese": "⟦{過去|かこ}→過去：00152_kako⟧⟦の→の：09472_no⟧{遺恨|いこん}⟦を→を：00422_wo⟧⟦{水|みず}→水：02258_mizu⟧⟦に→に：00314_ni⟧⟦{流|なが}して→流す：01968_nagasu⟧、⟦{仲直|なかなお}りする→仲直りする：06307_nakanaorisuru⟧ことにした。",
       "english": "They decided to let bygones be bygones and make up, washing away their old grudge.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A strong, long-lasting grudge, often carried between rivals or after a serious falling-out. More literary and weightier than everyday {恨|うら}み.\n\nCOMMON COLLOCATIONS:\n- {遺恨|いこん}を{残|のこ}す: to leave lingering resentment\n- {遺恨|いこん}を{持|も}つ: to hold a grudge\n- {遺恨|いこん}を{晴|は}らす: to settle an old score\n\nSIMILAR WORDS:\n- {恨|うら}み: resentment — more general and everyday\n- {怨念|おんねん}: deep vengeful spirit — stronger, almost supernatural\n- {確執|かくしつ}: feud, discord — ongoing friction between parties",
+  "notes": "A strong, long-lasting grudge, often carried between rivals or after a serious falling-out. More literary and weightier than everyday ⟦{恨|うら}み→恨み：00414_urami⟧.\n\nCOMMON COLLOCATIONS:\n- {遺恨|いこん}⟦を→を：00422_wo⟧⟦{残|のこ}す→残す：01975_nokosu⟧: to leave lingering resentment\n- {遺恨|いこん}⟦を→を：00422_wo⟧⟦{持|も}つ→持つ：00478_motsu⟧: to hold a grudge\n- {遺恨|いこん}⟦を→を：00422_wo⟧⟦{晴|は}らす→晴らす：10538_harasu⟧: to settle an old score\n\nSIMILAR WORDS:\n- ⟦{恨|うら}み→恨み：00414_urami⟧: resentment — more general and everyday\n- ⟦{怨念|おんねん}→怨念：06591_onnen⟧: deep vengeful spirit — stronger, almost supernatural\n- ⟦{確執|かくしつ}→確執：17294_kakushitsu⟧: feud, discord — ongoing friction between parties",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00414_urami",
+      "reading": "うらみ",
+      "headword": "{恨|うら}み",
+      "label": "resentment"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06591_onnen",
+      "reading": "おんねん",
+      "headword": "{怨念|おんねん}",
+      "label": "deep vengeful spirit"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17294_kakushitsu",
+      "reading": "かくしつ",
+      "headword": "{確執|かくしつ}",
+      "label": "feud, discord"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20384_wadakamari",
+      "reading": "わだかまり",
+      "headword": "わだかまり",
+      "label": "lingering resentment"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["emotion"],
+      "politeness": "plain",
+      "semantic": [
+        "emotion"
+      ],
       "domain": []
     },
     "created": "2026-07-23T00:19:28Z",
-    "modified": "2026-07-23T00:19:28Z"
+    "modified": "2026-09-02T04:02:38Z"
   }
 }

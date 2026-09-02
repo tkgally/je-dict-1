@@ -15,41 +15,73 @@
   "examples": [
     {
       "id": "10568_meiyo_ex1",
-      "japanese": "{家族|かぞく}の{名誉|めいよ}を{守|まも}る。",
+      "japanese": "⟦{家族|かぞく}→家族：00552_kazoku⟧⟦の→の：09472_no⟧{名誉|めいよ}⟦を→を：00422_wo⟧⟦{守|まも}る→守る：01986_mamoru⟧。",
       "english": "To protect the family's honor.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10568_meiyo_ex2",
-      "japanese": "{名誉|めいよ}ある{賞|しょう}を{受|う}けることができた。",
+      "japanese": "{名誉|めいよ}⟦ある→ある：00006_aru⟧⟦{賞|しょう}→賞：03227_shou⟧⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧こと⟦が→が：00051_ga⟧⟦できた→できる：00557_dekiru⟧。",
       "english": "I was able to receive a prestigious award.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10568_meiyo_ex3",
-      "japanese": "{嘘|うそ}の{報道|ほうどう}で{名誉|めいよ}を{傷|きず}つけられたとして、{訴訟|そしょう}を{起|お}こした。",
+      "japanese": "⟦{嘘|うそ}→嘘：01796_uso⟧⟦の→の：09472_no⟧⟦{報道|ほうどう}→報道：04438_houdou⟧⟦で→で：00502_de⟧{名誉|めいよ}⟦を→を：00422_wo⟧⟦{傷|きず}つけられた→傷つける：01935_kizutsukeru⟧⟦として→として：06802_toshite⟧、⟦{訴訟|そしょう}→訴訟：07642_soshou⟧⟦を→を：00422_wo⟧⟦{起|お}こした→起こす：01234_okosu⟧。",
       "english": "He filed a lawsuit claiming his reputation was damaged by false reporting.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "KANJI:\n{名|めい} (name) + {誉|よ} (praise/honor). Literally \"name-praise.\"\n\nUSAGE:\n{名誉|めいよ} is used both as a noun (honor/reputation) and as a modifier meaning \"honorary\": {名誉|めいよ}{教授|きょうじゅ} (professor emeritus), {名誉|めいよ}{市民|しみん} (honorary citizen).\n\nIn legal contexts, {名誉|めいよ}{毀損|きそん} (defamation) is a specific legal term.\n\nCOMMON COLLOCATIONS:\n- {名誉|めいよ}を{守|まも}る: to protect one's honor\n- {名誉|めいよ}を{傷|きず}つける: to damage someone's reputation\n- {名誉|めいよ}{毀損|きそん}: defamation\n- {名誉|めいよ}{教授|きょうじゅ}: professor emeritus\n- {名誉|めいよ}{回復|かいふく}: restoration of honor",
-  "cross_references": [],
+  "notes": "WRITING:\n{名|めい} (name) + {誉|よ} (praise/honor). Literally \"name-praise.\"\n\nUSAGE:\n{名誉|めいよ} is used both as a noun (honor/reputation) and as a modifier meaning \"honorary\": {名誉|めいよ}{教授|きょうじゅ} (professor emeritus), {名誉|めいよ}⟦{市民|しみん}→市民：01426_shimin⟧ (honorary citizen).\n\nIn legal contexts, {名誉|めいよ}⟦{毀損|きそん}→毀損：13241_kison⟧ (defamation) is a specific legal term.\n\nCOMMON COLLOCATIONS:\n- {名誉|めいよ}⟦を→を：00422_wo⟧⟦{守|まも}る→守る：01986_mamoru⟧: to protect one's honor\n- {名誉|めいよ}⟦を→を：00422_wo⟧⟦{傷|きず}つける→傷つける：01935_kizutsukeru⟧: to damage someone's reputation\n- {名誉|めいよ}⟦{毀損|きそん}→毀損：13241_kison⟧: defamation\n- {名誉|めいよ}{教授|きょうじゅ}: professor emeritus\n- {名誉|めいよ}⟦{回復|かいふく}→回復：03812_kaifuku⟧: restoration of honor",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14903_eiyo",
+      "reading": "えいよ",
+      "headword": "{栄誉|えいよ}",
+      "label": "honor"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18817_taimen",
+      "reading": "たいめん",
+      "headword": "{体面|たいめん}",
+      "label": "honor"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20495_eikou",
+      "reading": "えいこう",
+      "headword": "{栄光|えいこう}",
+      "label": "glory"
+    }
+  ],
   "metadata": {
     "created": "2026-02-08T04:52:43Z",
-    "modified": "2026-02-08T04:52:43Z",
+    "modified": "2026-09-02T04:01:21Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

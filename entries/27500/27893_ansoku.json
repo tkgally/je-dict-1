@@ -15,41 +15,60 @@
   "examples": [
     {
       "id": "27893_ansoku_ex1",
-      "japanese": "{安息|あんそく}の{時|とき}を{過|す}ごす。",
+      "japanese": "{安息|あんそく}⟦の→の：09472_no⟧{時|とき}⟦を→を：00422_wo⟧⟦{過|す}ごす→過ごす：02062_sugosu⟧。",
       "english": "To spend a time of repose.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27893_ansoku_ex2",
-      "japanese": "{故郷|こきょう}の{家|いえ}は{私|わたし}にとって{安息|あんそく}の{場所|ばしょ}だ。",
+      "japanese": "⟦{故郷|こきょう}→故郷：02733_kokyou⟧⟦の→の：09472_no⟧⟦{家|いえ}→家：00612_ie⟧⟦は→は：00079_ha⟧⟦{私|わたし}→私：02988_watashi⟧⟦にとって→にとって：06803_nitotte⟧{安息|あんそく}⟦の→の：09472_no⟧⟦{場所|ばしょ}→場所：00829_basho⟧だ。",
       "english": "My family home is a place of peace for me.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27893_ansoku_ex3",
-      "japanese": "{長|なが}い{闘病|とうびょう}の{末|すえ}、ようやく{安息|あんそく}を{得|え}た。",
+      "japanese": "⟦{長|なが}い→長い：00491_nagai⟧⟦{闘病|とうびょう}→闘病：19949_toubyou⟧⟦の→の：09472_no⟧⟦{末|すえ}→末：03362_sue⟧、ようやく{安息|あんそく}⟦を→を：00422_wo⟧⟦{得|え}た→得る：02014_eru⟧。",
       "english": "After a long battle with illness, he finally found peace.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Literary in tone; in everyday speech {休息|きゅうそく} (rest) is more common.\n\nCOMMON COLLOCATIONS:\n- {安息|あんそく}の{場所|ばしょ}: a place of peace; a haven\n- {安息|あんそく}を{得|え}る: to find peace\n- {永遠|えいえん}の{安息|あんそく}: eternal rest\n\nNOTE: {安息日|あんそくび／あんそくにち} means the Sabbath, the religious day of rest.",
+  "notes": "Literary in tone; in everyday speech ⟦{休息|きゅうそく}→休息：02587_kyuusoku⟧ (rest) is more common.\n\nCOMMON COLLOCATIONS:\n- {安息|あんそく}⟦の→の：09472_no⟧⟦{場所|ばしょ}→場所：00829_basho⟧: a place of peace; a haven\n- {安息|あんそく}⟦を→を：00422_wo⟧⟦{得|え}る→得る：02014_eru⟧: to find peace\n- ⟦{永遠|えいえん}→永遠：01873_eien⟧⟦の→の：09472_no⟧{安息|あんそく}: eternal rest\n\nNOTE: {安息日|あんそくび／あんそくにち} means the Sabbath, the religious day of rest.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02587_kyuusoku",
+      "reading": "きゅうそく",
+      "headword": "{休息|きゅうそく}",
+      "label": "rest, relaxation, repose"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["emotion"],
+      "semantic": [
+        "emotion"
+      ],
       "domain": []
     },
     "created": "2026-05-22T03:04:31Z",
-    "modified": "2026-05-22T03:04:31Z"
+    "modified": "2026-09-02T04:02:32Z"
   }
 }

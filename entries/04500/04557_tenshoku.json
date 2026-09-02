@@ -2,7 +2,7 @@
   "id": "04557_tenshoku",
   "headword": "{転職|てんしょく}",
   "reading": "てんしょく",
-  "part_of_speech": "noun/suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "changing jobs",
   "conjugation": {
     "type": "suru",
@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "04557_tenshoku_ex1",
-      "japanese": "⟦IT→IT：07809_aitii⟧⟦{企業|きぎょう}→企業：00225_kigyou⟧⟦に→に：00314_ni⟧{転職|てんしょく}した。",
+      "japanese": "⟦IT→IT：07809_aitii⟧⟦{企業|きぎょう}→企業：00225_kigyou⟧⟦に→に：00314_ni⟧{転職|てんしょく}⟦した→する：00392_suru⟧。",
       "english": "I changed jobs to an IT company.",
       "notes": null,
       "has_audio": false,
@@ -144,7 +144,7 @@
     },
     {
       "id": "04557_tenshoku_ex5",
-      "japanese": "{転職|てんしょく}して⟦{給料|きゅうりょう}→給料：01086_kyuuryou⟧⟦は→は：00079_ha⟧⟦{上|あ}がった→上がる：00615_agaru⟧⟦が→が：00051_ga⟧、⟦{前|まえ}→前：02255_mae⟧⟦の→の：09472_no⟧⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦の→の：09472_no⟧⟦{方|ほう}→方：01139_hou⟧⟦が→が：00051_ga⟧⟦{働|はたら}きやすかった→働く：00503_hataraku⟧。",
+      "japanese": "{転職|てんしょく}⟦して→する：00392_suru⟧⟦{給料|きゅうりょう}→給料：01086_kyuuryou⟧⟦は→は：00079_ha⟧⟦{上|あ}がった→上がる：00615_agaru⟧⟦が→が：00051_ga⟧、⟦{前|まえ}→前：02255_mae⟧⟦の→の：09472_no⟧⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦の→の：09472_no⟧⟦{方|ほう}→方：01139_hou⟧⟦が→が：00051_ga⟧⟦{働|はたら}きやすかった→働く：00503_hataraku⟧。",
       "english": "My salary went up after changing jobs, but my previous company was easier to work at.",
       "notes": null,
       "has_audio": false,
@@ -175,11 +175,39 @@
       "reading": "たいしょく",
       "headword": "{退職|たいしょく}",
       "label": "leaving a job, resignation"
+    },
+    {
+      "type": "related",
+      "target_id": "04690_kyuujin",
+      "reading": "きゅうじん",
+      "headword": "{求人|きゅうじん}",
+      "label": "job offer"
+    },
+    {
+      "type": "related",
+      "target_id": "24511_shuushinkoyousei",
+      "reading": "しゅうしんこようせい",
+      "headword": "{終身雇用制|しゅうしんこようせい}",
+      "label": "lifetime employment system"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25035_shinrohenkou",
+      "reading": "しんろへんこう",
+      "headword": "{進路変更|しんろへんこう}",
+      "label": "change of course"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25409_nyuushasuru",
+      "reading": "にゅうしゃする",
+      "headword": "{入社|にゅうしゃ}する",
+      "label": "to join a company"
     }
   ],
   "metadata": {
     "created": "2026-01-14T19:02:47Z",
-    "modified": "2026-08-11T15:25:11Z",
+    "modified": "2026-09-02T04:01:05Z",
     "ai_model": "claude-opus-4-5-20251101",
     "vocabulary_tier": "core",
     "tags": {

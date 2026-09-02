@@ -15,41 +15,69 @@
   "examples": [
     {
       "id": "26253_sesshuritsu_ex1",
-      "japanese": "{接種率|せっしゅりつ}が{上|あ}がってきた。",
+      "japanese": "{接種率|せっしゅりつ}⟦が→が：00051_ga⟧⟦{上|あ}がって→上がる：00615_agaru⟧きた。",
       "english": "The vaccination rate has been rising.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26253_sesshuritsu_ex2",
-      "japanese": "この{地域|ちいき}のインフルエンザ{接種率|せっしゅりつ}は{高|たか}い。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{地域|ちいき}→地域：01461_chiiki⟧⟦の→の：09472_no⟧⟦インフルエンザ→インフルエンザ：05384_infuruenza⟧{接種率|せっしゅりつ}⟦は→は：00079_ha⟧⟦{高|たか}い→高い：00500_takai⟧。",
       "english": "The influenza vaccination rate in this area is high.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26253_sesshuritsu_ex3",
-      "japanese": "{政府|せいふ}は{接種率|せっしゅりつ}を{七十|ななじゅう}パーセントまで{引|ひ}き{上|あ}げることを{目標|もくひょう}にしている。",
+      "japanese": "⟦{政府|せいふ}→政府：03294_seifu⟧⟦は→は：00079_ha⟧{接種率|せっしゅりつ}⟦を→を：00422_wo⟧{七十|ななじゅう}⟦パーセント→パーセント：01537_paasento⟧⟦まで→まで：00490_made⟧⟦{引|ひ}き{上|あ}げる→引き上げる：05689_hikiageru⟧こと⟦を→を：00422_wo⟧⟦{目標|もくひょう}→目標：03631_mokuhyou⟧にして⟦いる→いる：00495_iru⟧。",
       "english": "The government aims to raise the vaccination rate to seventy percent.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {接種|せっしゅ} (vaccination; inoculation) and {率|りつ} (rate; ratio). Became extremely common in everyday Japanese during the COVID-19 pandemic.\n\nCOMMON COLLOCATIONS:\n- ワクチン{接種率|せっしゅりつ}: vaccine uptake rate\n- {接種率|せっしゅりつ}の{向上|こうじょう}: improvement of vaccination rate\n- {接種率|せっしゅりつ}が{低|ひく}い: vaccination rate is low\n- {接種率|せっしゅりつ}{目標|もくひょう}: vaccination rate target\n- {年代別|ねんだいべつ}{接種率|せっしゅりつ}: vaccination rate by age group\n\nSIMILAR WORDS:\n- {接種|せっしゅ}: vaccination; inoculation — the act of vaccinating, not the rate\n- {予防接種|よぼうせっしゅ}: preventive vaccination — the full term for vaccination as a medical procedure\n- {感染率|かんせんりつ}: infection rate — measures spread of disease, the opposite concern",
+  "notes": "Composed of ⟦{接種|せっしゅ}→接種：22649_sesshu⟧ (vaccination; inoculation) and ⟦{率|りつ}→率：03802_ritsu⟧ (rate; ratio). Became extremely common in everyday Japanese during the COVID-19 pandemic.\n\nCOMMON COLLOCATIONS:\n- ⟦ワクチン→ワクチン：05074_wakuchin⟧{接種率|せっしゅりつ}: vaccine uptake rate\n- {接種率|せっしゅりつ}⟦の→の：09472_no⟧⟦{向上|こうじょう}→向上：02731_koujou⟧: improvement of vaccination rate\n- {接種率|せっしゅりつ}⟦が→が：00051_ga⟧⟦{低|ひく}い→低い：02947_hikui⟧: vaccination rate is low\n- {接種率|せっしゅりつ}⟦{目標|もくひょう}→目標：03631_mokuhyou⟧: vaccination rate target\n- {年代別|ねんだいべつ}{接種率|せっしゅりつ}: vaccination rate by age group\n\nSIMILAR WORDS:\n- ⟦{接種|せっしゅ}→接種：22649_sesshu⟧: vaccination; inoculation — the act of vaccinating, not the rate\n- ⟦{予防接種|よぼうせっしゅ}→予防接種：11068_yobousesshu⟧: preventive vaccination — the full term for vaccination as a medical procedure\n- ⟦{感染率|かんせんりつ}→感染率：30144_kansenritsu⟧: infection rate — measures spread of disease, the opposite concern",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11068_yobousesshu",
+      "reading": "よぼうせっしゅ",
+      "headword": "{予防接種|よぼうせっしゅ}",
+      "label": "preventive vaccination"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30144_kansenritsu",
+      "reading": "かんせんりつ",
+      "headword": "{感染率|かんせんりつ}",
+      "label": "infection rate"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["medical"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "medical"
+      ]
     },
     "created": "2026-04-30T13:40:12Z",
-    "modified": "2026-04-30T13:40:12Z"
+    "modified": "2026-09-02T04:02:25Z"
   }
 }

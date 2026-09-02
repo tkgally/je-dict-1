@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "09393_kanrakugai_ex1",
-      "japanese": "{歓楽街|かんらくがい}で{飲|の}む。",
+      "japanese": "{歓楽街|かんらくがい}⟦で→で：00502_de⟧⟦{飲|の}む→飲む：00322_nomu⟧。",
       "english": "To drink in the entertainment district.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "09393_kanrakugai_ex2",
-      "japanese": "{歓楽街|かんらくがい}は{深夜|しんや}まで{賑|にぎ}わっている。",
+      "japanese": "{歓楽街|かんらくがい}⟦は→は：00079_ha⟧⟦{深夜|しんや}→深夜：00368_shinya⟧⟦まで→まで：00490_made⟧⟦{賑|にぎ}わっている→賑わう：14235_nigiwau⟧。",
       "english": "The entertainment district stays lively until late at night.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "09393_kanrakugai_ex3",
-      "japanese": "{歌舞伎町|かぶきちょう}は{日本|にほん}で{有名|ゆうめい}な{歓楽街|かんらくがい}だ。",
+      "japanese": "⟦{歌舞伎町|かぶきちょう}→歌舞伎町：30640_kabukichou⟧⟦は→は：00079_ha⟧⟦{日本|にほん}→日本：03876_nihon⟧⟦で→で：00502_de⟧⟦{有名|ゆうめい}→有名：01106_yuumei⟧な{歓楽街|かんらくがい}だ。",
       "english": "Kabukicho is a famous entertainment district in Japan.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
     },
     {
       "id": "09393_kanrakugai_ex4",
-      "japanese": "この{辺|あた}りは{歓楽街|かんらくがい}なので、{子供|こども}を{連|つ}れて{来|こ}ない{方|ほう}がいい。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{辺|あた}り→辺り：01770_atari⟧⟦は→は：00079_ha⟧{歓楽街|かんらくがい}な⟦の→の：09472_no⟧で、⟦{子供|こども}→子供：00554_kodomo⟧⟦を→を：00422_wo⟧⟦{連|つ}れて→連れる：01240_tsureru⟧⟦{来|こ}ない→来る：00254_kuru⟧⟦{方|ほう}→方：01139_hou⟧⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧。",
       "english": "This area is an entertainment district, so you shouldn't bring children here.",
       "notes": null,
       "has_audio": false,
@@ -53,10 +53,10 @@
       ]
     }
   ],
-  "notes": "{歓楽街|かんらくがい} specifically refers to nightlife and entertainment districts with bars, clubs, and adult entertainment venues. Famous examples include Kabukicho in Tokyo, Susukino in Sapporo, and Nakasu in Fukuoka.\n\nThe term often implies adult-oriented entertainment areas.\n\nRelated terms:\n- {繁華街|はんかがい}: downtown, busy commercial district (broader term)\n- {夜|よる}の{街|まち}: nightlife area\n- {飲|の}み{屋|や}{街|がい}: bar district",
+  "notes": "{歓楽街|かんらくがい} specifically refers to nightlife and entertainment districts with bars, clubs, and adult entertainment venues. Famous examples include Kabukicho in Tokyo, Susukino in Sapporo, and Nakasu in Fukuoka.\n\nThe term often implies adult-oriented entertainment areas.\n\nRelated terms:\n- ⟦{繁華街|はんかがい}→繁華街：09392_hankagai⟧: downtown, busy commercial district (broader term)\n- ⟦{夜|よる}→夜：00487_yoru⟧⟦の→の：09472_no⟧⟦{街|まち}→街：17306_machi⟧: nightlife area\n- ⟦{飲|の}み{屋|や}{街|がい}→飲み屋街：23046_nomiyagai⟧: bar district",
   "metadata": {
     "created": "2026-02-01T09:13:10Z",
-    "modified": "2026-06-23T15:56:03Z",
+    "modified": "2026-09-02T04:01:18Z",
     "ai_model": "opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -77,6 +77,13 @@
       "reading": "はんかがい",
       "headword": "{繁華街|はんかがい}",
       "label": "downtown, busy district"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23046_nomiyagai",
+      "reading": "のみやがい",
+      "headword": "{飲|の}み{屋街|やがい}",
+      "label": "bar district"
     }
   ]
 }

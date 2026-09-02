@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "07161_shikatanaku_ex1",
-      "japanese": "{電車|でんしゃ}がなかったので、{仕方|しかた}なくタクシーに{乗|の}った。",
+      "japanese": "⟦{電車|でんしゃ}→電車：00522_densha⟧⟦が→が：00051_ga⟧⟦なかった→ない：01118_nai⟧⟦の→の：09472_no⟧で、{仕方|しかた}なく⟦タクシー→タクシー：00816_takushii⟧⟦に→に：00314_ni⟧⟦{乗|の}った→乗る：00511_noru⟧。",
       "english": "Since there were no trains, I reluctantly took a taxi.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "07161_shikatanaku_ex2",
-      "japanese": "{仕方|しかた}なく{残業|ざんぎょう}することになった。",
+      "japanese": "{仕方|しかた}なく⟦{残業|ざんぎょう}→残業：01071_zangyou⟧⟦する→する：00392_suru⟧ことになった。",
       "english": "I had no choice but to work overtime.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "07161_shikatanaku_ex3",
-      "japanese": "{誰|だれ}も{手伝|てつだ}ってくれないから、{仕方|しかた}なく{一人|ひとり}でやった。",
+      "japanese": "⟦{誰|だれ}も→誰も：18610_daremo⟧⟦{手伝|てつだ}って→手伝う：00898_tetsudau⟧⟦くれない→くれる：00724_kureru⟧⟦から→から：00504_kara⟧、{仕方|しかた}なく⟦{一人|ひとり}→一人：00630_hitori⟧⟦で→で：00502_de⟧⟦やった→やる：02980_yaru⟧。",
       "english": "Since no one would help me, I had no choice but to do it alone.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "FORMATION:\n{仕方|しかた} (way/method) + ない (not exist) + く (adverb form)\n\nFrom {仕方|しかた}がない meaning 'there's no way/it can't be helped.'\n\nRELATED EXPRESSIONS:\n・{仕方|しかた}がない / しょうがない - it can't be helped\n・{仕方|しかた}なしに - reluctantly (slightly more literary)\n\nSIMILAR WORDS:\n・{嫌々|いやいや} - reluctantly, unwillingly (emphasizes dislike)\n・やむを{得|え}ず - unavoidably (formal)\n・{渋々|しぶしぶ} - reluctantly (shows visible reluctance)\n\nNUANCE:\n{仕方|しかた}なく implies acceptance of the situation; {嫌々|いやいや} emphasizes reluctance and displeasure.",
+  "notes": "FORMS:\n⟦{仕方|しかた}→仕方：01603_shikata⟧ (way/method) + ⟦ない→ない：01118_nai⟧ (not exist) + く (adverb form)\n\nFrom ⟦{仕方|しかた}→仕方：01603_shikata⟧⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧ meaning 'there's no way/it can't be helped.'\n\nRELATED WORDS:\n- ⟦{仕方|しかた}→仕方：01603_shikata⟧⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧ / ⟦しょうがない→しょうがない：07381_shouganai⟧ - it can't be helped\n- {仕方|しかた}なし⟦に→に：00314_ni⟧ - reluctantly (slightly more literary)\n\nSIMILAR WORDS:\n- ⟦{嫌々|いやいや}→嫌々：07795_iyaiya⟧ - reluctantly, unwillingly (emphasizes dislike)\n- ⟦やむを{得|え}ず→やむを得ず：08528_yamuwoezu⟧ - unavoidably (formal)\n- {渋々|しぶしぶ} - reluctantly (shows visible reluctance)\n\nUSAGE:\n{仕方|しかた}なく implies acceptance of the situation; ⟦{嫌々|いやいや}→嫌々：07795_iyaiya⟧ emphasizes reluctance and displeasure.",
   "cross_references": [
     {
       "type": "related",
@@ -72,11 +72,32 @@
       "reading": "しぶしぶ",
       "headword": "しぶしぶ",
       "label": "reluctantly (visible reluctance)"
+    },
+    {
+      "type": "related",
+      "target_id": "07381_shouganai",
+      "reading": "しょうがない",
+      "headword": "しょうがない",
+      "label": "it can't be helped"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19763_yamunaku",
+      "reading": "やむなく",
+      "headword": "やむなく",
+      "label": "unavoidably"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20829_iyaiyanagara",
+      "reading": "いやいやながら",
+      "headword": "{嫌々|いやいや}ながら",
+      "label": "reluctantly"
     }
   ],
   "metadata": {
     "created": "2026-01-19T03:00:19Z",
-    "modified": "2026-06-08T02:21:06Z",
+    "modified": "2026-09-02T04:01:10Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

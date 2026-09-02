@@ -119,7 +119,7 @@
     },
     {
       "id": "01694_norimono_ex11",
-      "japanese": "⟦{小|ちい}さい→小さい：00025_chiisai⟧⟦{子|こ}→子：09851_ko⟧でも⟦{乗|の}れる→乗る：00511_noru⟧{乗|の}り{物|もの}⟦は→は：00079_ha⟧⟦あります→ある：00006_aru⟧⟦か→か：09473_ka⟧。",
+      "japanese": "⟦{小|ちい}さい→小さい：00025_chiisai⟧⟦{子|こ}→子：09851_ko⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧⟦{乗|の}れる→乗る：00511_noru⟧{乗|の}り{物|もの}⟦は→は：00079_ha⟧⟦あります→ある：00006_aru⟧⟦か→か：09473_ka⟧。",
       "english": "Are there any rides that small children can go on?",
       "notes": null,
       "has_audio": false,
@@ -128,11 +128,47 @@
       ]
     }
   ],
-  "notes": "{乗|の}り{物|もの} is a general term for anything you ride — vehicles, amusement park rides, etc. Composed of ⟦{乗|の}る→乗る：00511_noru⟧ (to ride) + ⟦{物|もの}→物：02259_mono⟧ (thing).\n\nMEANINGS:\n1. Any vehicle or means of transportation: cars, trains, buses, bicycles, airplanes, boats\n2. Amusement park rides: roller coasters, Ferris wheels, etc.\n\nCOMMON EXPRESSIONS:\n- ⟦{乗|の}り{物|もの}{酔|よ}い→乗り物酔い：25234_norimonoyoi⟧: motion sickness\n- ⟦{公共|こうきょう}→公共：11652_koukyou⟧⟦の→の：09472_no⟧{乗|の}り{物|もの}: public transportation\n- {乗|の}り{物|もの}⟦に→に：00314_ni⟧⟦{乗|の}る→乗る：00511_noru⟧: to ride a vehicle/ride\n\nSIMILAR WORDS:\n- ⟦{車両|しゃりょう}→車両：05297_sharyou⟧: vehicle (technical/official term, especially for trains and rail cars)\n- ⟦{交通|こうつう}→交通：01584_koutsuu⟧⟦{機関|きかん}→機関：02630_kikan⟧: transportation system (more formal, refers to the system rather than individual vehicles)",
-  "cross_references": [],
+  "notes": "{乗|の}り{物|もの} is a general term for anything you ride — vehicles, amusement park rides, etc. Composed of ⟦{乗|の}る→乗る：00511_noru⟧ (to ride) + ⟦{物|もの}→物：02259_mono⟧ (thing).\n\nUSAGE:\n1. Any vehicle or means of transportation: cars, trains, buses, bicycles, airplanes, boats\n2. Amusement park rides: roller coasters, Ferris wheels, etc.\n\nCOMMON EXPRESSIONS:\n- ⟦{乗|の}り{物|もの}{酔|よ}い→乗り物酔い：25234_norimonoyoi⟧: motion sickness\n- ⟦{公共|こうきょう}→公共：11652_koukyou⟧⟦の→の：09472_no⟧{乗|の}り{物|もの}: public transportation\n- {乗|の}り{物|もの}⟦に→に：00314_ni⟧⟦{乗|の}る→乗る：00511_noru⟧: to ride a vehicle/ride\n\nSIMILAR WORDS:\n- ⟦{車両|しゃりょう}→車両：05297_sharyou⟧: vehicle (technical/official term, especially for trains and rail cars)\n- ⟦{交通|こうつう}→交通：01584_koutsuu⟧⟦{機関|きかん}→機関：02630_kikan⟧: transportation system (more formal, refers to the system rather than individual vehicles)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05297_sharyou",
+      "reading": "しゃりょう",
+      "headword": "{車両|しゃりょう}",
+      "label": "vehicle"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21264_koutsuukikan",
+      "reading": "こうつうきかん",
+      "headword": "{交通機関|こうつうきかん}",
+      "label": "transportation system"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23519_atorakushon",
+      "reading": "あとらくしょん",
+      "headword": "アトラクション",
+      "label": "attraction"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26399_zekkyoumashin",
+      "reading": "ぜっきょうましん",
+      "headword": "{絶叫|ぜっきょう}マシン",
+      "label": "thrill ride"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29780_idoushudan",
+      "reading": "いどうしゅだん",
+      "headword": "移動手段",
+      "label": "means of transportation"
+    }
+  ],
   "metadata": {
     "created": "2026-01-09T12:03:39Z",
-    "modified": "2026-05-16T19:11:35Z",
+    "modified": "2026-09-02T04:01:00Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

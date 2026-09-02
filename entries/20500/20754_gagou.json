@@ -15,40 +15,74 @@
   "examples": [
     {
       "id": "20754_gagou_ex1",
-      "japanese": "{雅号|がごう}を{持|も}つ{画家|がか}。",
+      "japanese": "{雅号|がごう}⟦を→を：00422_wo⟧⟦{持|も}つ→持つ：00478_motsu⟧⟦{画家|がか}→画家：02583_gaka⟧。",
       "english": "A painter who has an art name.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20754_gagou_ex2",
-      "japanese": "{松尾芭蕉|まつおばしょう}の「{芭蕉|ばしょう}」は{雅号|がごう}である。",
+      "japanese": "⟦{松尾芭蕉|まつおばしょう}→松尾芭蕉：30772_matsuobashou⟧⟦の→の：09472_no⟧「{芭蕉|ばしょう}」⟦は→は：00079_ha⟧{雅号|がごう}⟦である→である：09855_dearu⟧。",
       "english": "\"Basho\" in Matsuo Basho is a pen name.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20754_gagou_ex3",
-      "japanese": "{茶道|さどう}や{華道|かどう}の{師範|しはん}になると、{雅号|がごう}を{授|さず}かることがある。",
+      "japanese": "⟦{茶道|さどう}→茶道：04451_sadou⟧や⟦{華道|かどう}→華道：04450_kadou⟧⟦の→の：09472_no⟧⟦{師範|しはん}→師範：20595_shihan⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦と→と：00512_to⟧、{雅号|がごう}⟦を→を：00422_wo⟧⟦{授|さず}かる→授かる：12797_sazukaru⟧こと⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "When you become a tea ceremony or flower arrangement master, you may be given an art name.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {雅|が} (elegance, refinement) and {号|ごう} (name, title). The {雅|が} character reflects the aesthetic and cultured nature of the name.\n\nCULTURAL CONTEXT:\nIn traditional Japanese arts — poetry, painting, calligraphy, tea ceremony, and flower arrangement — practitioners adopt a {雅号|がごう} as part of their artistic identity. The name is often bestowed by a teacher or chosen to reflect artistic aspirations. Famous examples include {芭蕉|ばしょう} (Matsuo Basho) and {北斎|ほくさい} (Katsushika Hokusai).\n\nCOMMON COLLOCATIONS:\n- {雅号|がごう}を{名乗|なの}る — to use an art name\n- {雅号|がごう}を{授|さず}かる — to receive an art name (from a master)\n- {雅号|がごう}を{持|も}つ — to have an art name\n\nSIMILAR WORDS:\n- ペンネーム — pen name; used for modern writers, a loanword from English\n- {筆名|ひつめい} — pen name; specifically for writers, more formal than ペンネーム\n- {号|ごう} — name, title; the broader term that includes {雅号|がごう}",
+  "notes": "A compound of {雅|が} (elegance, refinement) and {号|ごう} (name, title). The {雅|が} character reflects the aesthetic and cultured nature of the name.\n\nCULTURAL NOTE:\nIn traditional Japanese arts — poetry, painting, calligraphy, tea ceremony, and flower arrangement — practitioners adopt a {雅号|がごう} as part of their artistic identity. The name is often bestowed by a teacher or chosen to reflect artistic aspirations. Famous examples include {芭蕉|ばしょう} (Matsuo Basho) and {北斎|ほくさい} (Katsushika Hokusai).\n\nCOMMON COLLOCATIONS:\n- {雅号|がごう}⟦を→を：00422_wo⟧⟦{名乗|なの}る→名乗る：11874_nanoru⟧ — to use an art name\n- {雅号|がごう}⟦を→を：00422_wo⟧⟦{授|さず}かる→授かる：12797_sazukaru⟧ — to receive an art name (from a master)\n- {雅号|がごう}⟦を→を：00422_wo⟧⟦{持|も}つ→持つ：00478_motsu⟧ — to have an art name\n\nSIMILAR WORDS:\n- ⟦ペンネーム→ペンネーム：25452_penneemu⟧ — pen name; used for modern writers, a loanword from English\n- ⟦{筆名|ひつめい}→筆名：25451_hitsumei⟧ — pen name; specifically for writers, more formal than ⟦ペンネーム→ペンネーム：25452_penneemu⟧\n- {号|ごう} — name, title; the broader term that includes {雅号|がごう}",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25452_penneemu",
+      "reading": "ぺんねーむ",
+      "headword": "ペンネーム",
+      "label": "pen name"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25451_hitsumei",
+      "reading": "ひつめい",
+      "headword": "{筆名|ひつめい}",
+      "label": "pen name"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25284_geimei",
+      "reading": "げいめい",
+      "headword": "{芸名|げいめい}",
+      "label": "stage name"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["culture", "art"]
+      "semantic": [
+        "culture",
+        "art"
+      ]
     },
     "created": "2026-03-30T15:12:33Z",
-    "modified": "2026-03-30T15:12:33Z"
+    "modified": "2026-09-02T04:02:00Z"
   }
 }

@@ -3,7 +3,7 @@
   "id": "15259_ranyou",
   "headword": "{乱用|らんよう}",
   "reading": "らんよう",
-  "part_of_speech": "noun, suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "abuse; misuse",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "15259_ranyou_ex1",
-      "japanese": "{薬|くすり}の{乱用|らんよう}は{危険|きけん}だ。",
+      "japanese": "⟦{薬|くすり}→薬：00793_kusuri⟧⟦の→の：09472_no⟧{乱用|らんよう}⟦は→は：00079_ha⟧⟦{危険|きけん}→危険：01141_kiken⟧だ。",
       "english": "Drug abuse is dangerous.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "15259_ranyou_ex2",
-      "japanese": "{権力|けんりょく}を{乱用|らんよう}してはいけない。",
+      "japanese": "⟦{権力|けんりょく}→権力：10020_kenryoku⟧⟦を→を：00422_wo⟧{乱用|らんよう}⟦して→する：00392_suru⟧⟦は→は：00079_ha⟧いけない。",
       "english": "You must not abuse your power.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "15259_ranyou_ex3",
-      "japanese": "{個人情報|こじんじょうほう}の{乱用|らんよう}を{防|ふせ}ぐために、{厳|きび}しい{規制|きせい}が{設|もう}けられた。",
+      "japanese": "⟦{個人情報|こじんじょうほう}→個人情報：18842_kojinjouhou⟧⟦の→の：09472_no⟧{乱用|らんよう}⟦を→を：00422_wo⟧⟦{防|ふせ}ぐ→防ぐ：02409_fusegu⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧、⟦{厳|きび}しい→厳しい：01125_kibishii⟧⟦{規制|きせい}→規制：02598_kisei⟧⟦が→が：00051_ga⟧⟦{設|もう}けられた→設ける：14220_moukeru⟧。",
       "english": "Strict regulations were established to prevent the misuse of personal information.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,33 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{乱用|らんよう} is used with する to form a verb meaning \"to abuse\" or \"to misuse.\" The object typically takes the particle を.\n\nCOMMON COLLOCATIONS:\n- {権力|けんりょく}の{乱用|らんよう} (abuse of power)\n- {薬物|やくぶつ}{乱用|らんよう} (drug abuse)\n- {職権|しょっけん}{乱用|らんよう} (abuse of authority)\n- {乱用|らんよう}を{防|ふせ}ぐ (to prevent misuse)\n\nSIMILAR WORDS:\n- {乱用|らんよう}: misuse, abuse (deliberate or reckless improper use)\n- {悪用|あくよう}: exploitation, malicious use (intentionally using for bad purposes)\n- {濫用|らんよう}: variant kanji spelling, more common in legal texts",
-  "cross_references": [],
+  "notes": "USAGE:\n{乱用|らんよう} is used with ⟦する→する：00392_suru⟧ to form a verb meaning \"to abuse\" or \"to misuse.\" The object typically takes the particle ⟦を→を：00422_wo⟧.\n\nCOMMON COLLOCATIONS:\n- ⟦{権力|けんりょく}→権力：10020_kenryoku⟧⟦の→の：09472_no⟧{乱用|らんよう} (abuse of power)\n- ⟦{薬物|やくぶつ}→薬物：14053_yakubutsu⟧{乱用|らんよう} (drug abuse)\n- ⟦{職権|しょっけん}→職権：24074_shokken⟧{乱用|らんよう} (abuse of authority)\n- {乱用|らんよう}⟦を→を：00422_wo⟧⟦{防|ふせ}ぐ→防ぐ：02409_fusegu⟧ (to prevent misuse)\n\nSIMILAR WORDS:\n- {乱用|らんよう}: misuse, abuse (deliberate or reckless improper use)\n- ⟦{悪用|あくよう}→悪用：12684_akuyou⟧: exploitation, malicious use (intentionally using for bad purposes)\n- {濫用|らんよう}: variant kanji spelling, more common in legal texts",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12684_akuyou",
+      "reading": "あくよう",
+      "headword": "{悪用|あくよう}",
+      "label": "exploitation, malicious use"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25164_kajoushiyou",
+      "reading": "かじょうしよう",
+      "headword": "{過剰使用|かじょうしよう}",
+      "label": "overuse"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26169_tekiseishiyou",
+      "reading": "てきせいしよう",
+      "headword": "{適正使用|てきせいしよう}",
+      "label": "proper use"
+    }
+  ],
   "metadata": {
     "created": "2026-03-06T08:07:35Z",
-    "modified": "2026-03-29T03:08:18Z",
+    "modified": "2026-09-02T04:01:40Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
@@ -151,7 +173,8 @@
         "law",
         "society"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

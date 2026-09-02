@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "16069_jiishiki_ex1",
-      "japanese": "{自意識|じいしき}が{強|つよ}い{人|ひと}だ。",
+      "japanese": "{自意識|じいしき}⟦が→が：00051_ga⟧⟦{強|つよ}い→強い：00820_tsuyoi⟧⟦{人|ひと}→人：00476_hito⟧だ。",
       "english": "He is a very self-conscious person.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "16069_jiishiki_ex2",
-      "japanese": "{思春期|ししゅんき}は{自意識|じいしき}が{高|たか}まる{時期|じき}だ。",
+      "japanese": "⟦{思春期|ししゅんき}→思春期：12667_shishunki⟧⟦は→は：00079_ha⟧{自意識|じいしき}⟦が→が：00051_ga⟧⟦{高|たか}まる→高まる：02066_takamaru⟧⟦{時期|じき}→時期：03269_jiki⟧だ。",
       "english": "Adolescence is a time when self-consciousness increases.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "16069_jiishiki_ex3",
-      "japanese": "{自意識|じいしき}{過剰|かじょう}にならず、もっと{自然体|しぜんたい}でいたほうがいい。",
+      "japanese": "{自意識|じいしき}⟦{過剰|かじょう}→過剰：04123_kajou⟧⟦に→に：00314_ni⟧⟦なら→なる：01970_naru⟧ず、⟦もっと→もっと：00798_motto⟧{自然体|しぜんたい}で⟦いた→いる：00495_iru⟧⟦ほうがいい→ほうがいい：10078_hougaii⟧。",
       "english": "Rather than being excessively self-conscious, it's better to be more natural.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{自意識|じいしき} combines {自|じ} (self) and {意識|いしき} (consciousness, awareness). In everyday usage, it often carries a slightly negative connotation of being overly concerned with how others see you.\n\nCOMMON COLLOCATIONS:\n- {自意識|じいしき}{過剰|かじょう} (excessively self-conscious)\n- {自意識|じいしき}が{強|つよ}い (strongly self-conscious)\n- {自意識|じいしき}が{高|たか}い (highly self-aware)\n- {自意識|じいしき}に{苛|さいな}まれる (to be tormented by self-consciousness)\n\nSIMILAR WORDS:\n{意識|いしき} is the broader term for consciousness or awareness in general. {自己意識|じこいしき} is a more academic synonym. {自意識|じいしき} is the most common everyday term and often implies uncomfortable self-awareness.",
+  "notes": "USAGE:\n{自意識|じいしき} combines {自|じ} (self) and ⟦{意識|いしき}→意識：01714_ishiki⟧ (consciousness, awareness). In everyday usage, it often carries a slightly negative connotation of being overly concerned with how others see you.\n\nCOMMON COLLOCATIONS:\n- {自意識|じいしき}⟦{過剰|かじょう}→過剰：04123_kajou⟧ (excessively self-conscious)\n- {自意識|じいしき}⟦が→が：00051_ga⟧⟦{強|つよ}い→強い：00820_tsuyoi⟧ (strongly self-conscious)\n- {自意識|じいしき}⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧ (highly self-aware)\n- {自意識|じいしき}⟦に→に：00314_ni⟧⟦{苛|さいな}まれる→苛む：28648_sainamu⟧ (to be tormented by self-consciousness)\n\nSIMILAR WORDS:\n⟦{意識|いしき}→意識：01714_ishiki⟧ is the broader term for consciousness or awareness in general. {自己意識|じこいしき} is a more academic synonym. {自意識|じいしき} is the most common everyday term and often implies uncomfortable self-awareness.",
   "cross_references": [
     {
       "type": "related",
@@ -52,11 +52,25 @@
       "reading": "いしき",
       "headword": "{意識|いしき}",
       "label": "consciousness (general)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23555_jikoninshiki",
+      "reading": "じこにんしき",
+      "headword": "{自己|じこ}{認識|にんしき}",
+      "label": "self-awareness"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29185_jigaishiki",
+      "reading": "じがいしき",
+      "headword": "{自我意識|じがいしき}",
+      "label": "self-awareness"
     }
   ],
   "metadata": {
     "created": "2026-03-09T10:27:15Z",
-    "modified": "2026-07-18T12:31:39Z",
+    "modified": "2026-09-02T04:01:43Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

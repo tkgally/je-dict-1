@@ -15,41 +15,69 @@
   "examples": [
     {
       "id": "29089_zabun_ex1",
-      "japanese": "ざぶんと{水|みず}に{飛|と}び{込|こ}んだ。",
+      "japanese": "ざぶん⟦と→と：00512_to⟧⟦{水|みず}→水：02258_mizu⟧⟦に→に：00314_ni⟧⟦{飛|と}び{込|こ}んだ→飛び込む：04614_tobikomu⟧。",
       "english": "I plunged into the water with a splash.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29089_zabun_ex2",
-      "japanese": "{大|おお}きな{岩|いわ}がざぶんと{川|かわ}に{落|お}ちた。",
+      "japanese": "⟦{大|おお}きな→大きな：02849_ookina⟧⟦{岩|いわ}→岩：00850_iwa⟧⟦が→が：00051_ga⟧ざぶん⟦と→と：00512_to⟧⟦{川|かわ}→川：02186_kawa⟧⟦に→に：00314_ni⟧⟦{落|お}ちた→落ちる：01242_ochiru⟧。",
       "english": "A large rock fell into the river with a big splash.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29089_zabun_ex3",
-      "japanese": "プールの{端|はじ}に{立|た}った{彼女|かのじょ}は{深|ふか}く{息|いき}を{吸|す}ってから、ざぶんと{飛|と}び{込|こ}んだ。",
+      "japanese": "⟦プール→プール：02958_puuru⟧⟦の→の：09472_no⟧{端|はじ}⟦に→に：00314_ni⟧⟦{立|た}った→立つ：00758_tatsu⟧⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧⟦{深|ふか}く→深い：01211_fukai⟧⟦{息|いき}→息：02176_iki⟧⟦を→を：00422_wo⟧⟦{吸|す}って→吸う：04394_suu⟧⟦から→から：00504_kara⟧、ざぶん⟦と→と：00512_to⟧⟦{飛|と}び{込|こ}んだ→飛び込む：04614_tobikomu⟧。",
       "english": "She stood at the edge of the pool, took a deep breath, and then plunged in with a splash.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "An onomatopoeia for a single heavy splash. Unlike the repeated ちゃぷちゃぷ or ざぶざぶ, ざぶん captures one decisive impact with water.\n\nGRAMMAR:\nUsed with と before a verb:\n- ざぶんと{飛|と}び{込|こ}む: to plunge in with a splash\n- ざぶんと{落|お}ちる: to fall in with a splash\n\nRELATED WATER ONOMATOPOEIA:\n- ちゃぷちゃぷ: gentle, rhythmic splashing\n- ざぶざぶ: repeated heavy splashing (wading)\n- どぼん: a heavy plop into water (slightly heavier, more hollow sound)",
+  "notes": "An onomatopoeia for a single heavy splash. Unlike the repeated ⟦ちゃぷちゃぷ→ちゃぷちゃぷ：29088_chapuchapu⟧ or ⟦ざぶざぶ→ざぶざぶ：05993_zabuzabu⟧, ざぶん captures one decisive impact with water.\n\nCOMMON PATTERNS:\nUsed with ⟦と→と：00512_to⟧ before a verb:\n- ざぶん⟦と→と：00512_to⟧⟦{飛|と}び{込|こ}む→飛び込む：04614_tobikomu⟧: to plunge in with a splash\n- ざぶん⟦と→と：00512_to⟧⟦{落|お}ちる→落ちる：01242_ochiru⟧: to fall in with a splash\n\nRELATED WATER ONOMATOPOEIA:\n- ⟦ちゃぷちゃぷ→ちゃぷちゃぷ：29088_chapuchapu⟧: gentle, rhythmic splashing\n- ⟦ざぶざぶ→ざぶざぶ：05993_zabuzabu⟧: repeated heavy splashing (wading)\n- どぼん: a heavy plop into water (slightly heavier, more hollow sound)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "29088_chapuchapu",
+      "reading": "ちゃぷちゃぷ",
+      "headword": "ちゃぷちゃぷ",
+      "label": "gentle, rhythmic splashing"
+    },
+    {
+      "type": "related",
+      "target_id": "05993_zabuzabu",
+      "reading": "ざぶざぶ",
+      "headword": "ざぶざぶ",
+      "label": "repeated heavy splashing"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adverb", "onomatopoeia"],
+      "pos": [
+        "adverb",
+        "onomatopoeia"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["onomatopoeia", "nature"],
+      "politeness": "plain",
+      "semantic": [
+        "onomatopoeia",
+        "nature"
+      ],
       "domain": []
     },
     "created": "2026-06-10T12:32:01Z",
-    "modified": "2026-06-10T12:32:01Z"
+    "modified": "2026-09-02T04:02:35Z"
   }
 }

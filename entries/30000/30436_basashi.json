@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30436_basashi_ex1",
-      "japanese": "{馬刺|ばさ}しを{注文|ちゅうもん}した。",
+      "japanese": "{馬刺|ばさ}し⟦を→を：00422_wo⟧⟦{注文|ちゅうもん}した→注文する：21390_chuumon⟧。",
       "english": "I ordered basashi.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30436_basashi_ex2",
-      "japanese": "{馬刺|ばさ}しは{生姜|しょうが}{醤油|じょうゆ}で{食|た}べるとおいしい。",
+      "japanese": "{馬刺|ばさ}し⟦は→は：00079_ha⟧⟦{生姜|しょうが}→生姜：05191_shouga⟧{醤油|じょうゆ}⟦で→で：00502_de⟧⟦{食|た}べる→食べる：00396_taberu⟧⟦と→と：00512_to⟧おいしい。",
       "english": "Basashi tastes good eaten with ginger and soy sauce.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30436_basashi_ex3",
-      "japanese": "{熊本|くまもと}に{行|い}ったら、{名物|めいぶつ}の{馬刺|ばさ}しをぜひ{食|た}べてみてください。",
+      "japanese": "{熊本|くまもと}⟦に→に：00314_ni⟧⟦{行|い}ったら→行く：00119_iku⟧、⟦{名物|めいぶつ}→名物：05591_meibutsu⟧⟦の→の：09472_no⟧{馬刺|ばさ}し⟦を→を：00422_wo⟧ぜひ⟦{食|た}べて→食べる：00396_taberu⟧みて⟦ください→ください：02899_kudasai⟧。",
       "english": "If you go to Kumamoto, be sure to try basashi, the local specialty.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "{馬|ば} (horse) + {刺|さ}し, a shortening of {刺身|さしみ}. The same pattern gives {鳥刺|とりさ}し (raw chicken) and {鹿刺|しかさ}し (raw venison).\n\nCOMMON COLLOCATIONS:\n- {馬刺|ばさ}しを{食|た}べる: to eat basashi\n- {馬刺|ばさ}しの{盛|も}り{合|あ}わせ: an assorted plate of basashi\n- {熊本|くまもと}{名物|めいぶつ}の{馬刺|ばさ}し: basashi, the specialty of Kumamoto\n\nCULTURAL CONTEXT:\nHorse meat is called {桜肉|さくらにく} ('cherry blossom meat') for its pink color, and {馬刺|ばさ}し is the most common way it is served. It is considered a delicacy rather than everyday food, and is usually eaten in restaurants rather than cooked at home.",
+  "notes": "{馬|ば} (horse) + ⟦{刺|さ}し→刺す：02111_sasu⟧, a shortening of ⟦{刺身|さしみ}→刺身：04023_sashimi⟧. The same pattern gives {鳥刺|とりさ}し (raw chicken) and {鹿刺|しかさ}し (raw venison).\n\nCOMMON COLLOCATIONS:\n- {馬刺|ばさ}し⟦を→を：00422_wo⟧⟦{食|た}べる→食べる：00396_taberu⟧: to eat basashi\n- {馬刺|ばさ}し⟦の→の：09472_no⟧⟦{盛|も}り{合|あ}わせ→盛り合わせ：21762_moriawase⟧: an assorted plate of basashi\n- {熊本|くまもと}⟦{名物|めいぶつ}→名物：05591_meibutsu⟧⟦の→の：09472_no⟧{馬刺|ばさ}し: basashi, the specialty of Kumamoto\n\nCULTURAL NOTE:\nHorse meat is called ⟦{桜肉|さくらにく}→桜肉：30454_sakuraniku⟧ ('cherry blossom meat') for its pink color, and {馬刺|ばさ}し is the most common way it is served. It is considered a delicacy rather than everyday food, and is usually eaten in restaurants rather than cooked at home.",
   "cross_references": [
     {
       "type": "related",
@@ -57,6 +57,13 @@
       "target_id": "01865_uma",
       "reading": "うま",
       "headword": "{馬|うま}"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30430_baniku",
+      "reading": "ばにく",
+      "headword": "{馬肉|ばにく}",
+      "label": "horse meat"
     }
   ],
   "schema_version": "2.0",
@@ -67,13 +74,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "food"
       ],
       "domain": []
     },
     "created": "2026-08-06T09:19:34Z",
-    "modified": "2026-08-06T09:19:34Z"
+    "modified": "2026-09-02T04:02:40Z"
   }
 }

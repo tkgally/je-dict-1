@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "15591_meian_ex1",
-      "japanese": "それは{名案|めいあん}だ！",
+      "japanese": "⟦それ→それ：00994_sore⟧⟦は→は：00079_ha⟧{名案|めいあん}だ！",
       "english": "That's a brilliant idea!",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "15591_meian_ex2",
-      "japanese": "{何|なに}か{名案|めいあん}はありませんか。",
+      "japanese": "⟦{何|なに}か→何か：03873_nanika⟧{名案|めいあん}⟦は→は：00079_ha⟧⟦ありません→ある：00006_aru⟧⟦か→か：09473_ka⟧。",
       "english": "Do you have any good ideas?",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "15591_meian_ex3",
-      "japanese": "みんなで{話|はな}し{合|あ}ったら、{名案|めいあん}が{浮|う}かんだ。",
+      "japanese": "⟦みんな→みんな：02972_minna⟧⟦で→で：00502_de⟧⟦{話|はな}し{合|あ}ったら→話し合う：02396_hanashiau⟧、{名案|めいあん}⟦が→が：00051_ga⟧⟦{浮|う}かんだ→浮かぶ：03916_ukabu⟧。",
       "english": "When we all talked it over, a brilliant idea came to us.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{名案|めいあん} is an approving term for a clever or effective idea. It is often used as an exclamation when someone suggests a good plan.\n\nCOMMON COLLOCATIONS:\n- {名案|めいあん}が{浮|う}かぶ (a brilliant idea comes to mind)\n- {名案|めいあん}が{出|で}る (a good idea emerges)\n- {名案|めいあん}を{思|おも}いつく (to think of an excellent idea)\n\nSIMILAR WORDS:\n{妙案|みょうあん} also means a clever idea, but implies an even more ingenious or unexpected quality. {良案|りょうあん} is a more neutral \"good plan\" without the emphatic praise of {名案|めいあん}.",
+  "notes": "USAGE:\n{名案|めいあん} is an approving term for a clever or effective idea. It is often used as an exclamation when someone suggests a good plan.\n\nCOMMON COLLOCATIONS:\n- {名案|めいあん}⟦が→が：00051_ga⟧⟦{浮|う}かぶ→浮かぶ：03916_ukabu⟧ (a brilliant idea comes to mind)\n- {名案|めいあん}⟦が→が：00051_ga⟧⟦{出|で}る→出る：00513_deru⟧ (a good idea emerges)\n- {名案|めいあん}⟦を→を：00422_wo⟧{思|おも}いつく (to think of an excellent idea)\n\nSIMILAR WORDS:\n⟦{妙案|みょうあん}→妙案：23888_myouan⟧ also means a clever idea, but implies an even more ingenious or unexpected quality. {良案|りょうあん} is a more neutral \"good plan\" without the emphatic praise of {名案|めいあん}.",
   "cross_references": [
     {
       "type": "synonym",
@@ -52,11 +52,18 @@
       "reading": "みょうあん",
       "headword": "{妙案|みょうあん}",
       "label": "ingenious idea"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19571_ryousaku",
+      "reading": "りょうさく",
+      "headword": "{良策|りょうさく}",
+      "label": "good plan"
     }
   ],
   "metadata": {
     "created": "2026-03-07T13:01:52Z",
-    "modified": "2026-05-01T08:11:13Z",
+    "modified": "2026-09-02T04:01:41Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

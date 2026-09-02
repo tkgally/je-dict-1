@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22080_chakusouwoeru_ex1",
-      "japanese": "{散歩|さんぽ}{中|ちゅう}に{着想|ちゃくそう}を{得|え}た。",
+      "japanese": "⟦{散歩|さんぽ}→散歩：02885_sanpo⟧⟦{中|ちゅう}→〜中：09840_chuu⟧⟦に→に：00314_ni⟧{着想|ちゃくそう}を{得|え}た。",
       "english": "I got an idea during a walk.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22080_chakusouwoeru_ex2",
-      "japanese": "この{小説|しょうせつ}は{実話|じつわ}から{着想|ちゃくそう}を{得|え}たものだ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{小説|しょうせつ}→小説：01434_shousetsu⟧⟦は→は：00079_ha⟧⟦{実話|じつわ}→実話：15897_jitsuwa⟧⟦から→から：00504_kara⟧{着想|ちゃくそう}を{得|え}たものだ。",
       "english": "This novel was inspired by a true story.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22080_chakusouwoeru_ex3",
-      "japanese": "{彼|かれ}は{日本|にほん}の{伝統|でんとう}{工芸|こうげい}から{着想|ちゃくそう}を{得|え}て、{新|あたら}しいデザインを{生|う}み{出|だ}した。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{日本|にほん}→日本：03876_nihon⟧⟦の→の：09472_no⟧⟦{伝統|でんとう}{工芸|こうげい}→伝統工芸：17478_dentoukougei⟧⟦から→から：00504_kara⟧{着想|ちゃくそう}を{得|え}て、⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦デザイン→デザイン：03860_dezain⟧⟦を→を：00422_wo⟧⟦{生|う}み{出|だ}した→生み出す：10423_umidasu⟧。",
       "english": "He drew inspiration from traditional Japanese crafts and created a new design.",
       "sense_numbers": [
         1
@@ -44,14 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "A literary expression meaning to find or receive creative inspiration. {着想|ちゃくそう} means a concept or idea that comes to mind, and {得|え}る means to obtain. Often used in contexts of artistic creation, scientific discovery, or creative work. More formal and literary than simply ひらめく or アイデアを{思|おも}いつく.\n\nCOMMON PATTERNS:\n- ~から{着想|ちゃくそう}を{得|え}る: to draw inspiration from ~\n- ~に{着想|ちゃくそう}を{得|え}た: inspired by ~ (modifying a noun)\n- {着想|ちゃくそう}を{得|え}て: having gotten the idea, ...\n\nSIMILAR WORDS:\n- ヒントを{得|え}る — to get a hint/clue (less formal)\n- インスピレーションを{受|う}ける — to receive inspiration (loanword, common in creative fields)\n- {思|おも}いつく — to come up with (an idea) (more casual, everyday)\n- ひらめく — to have a flash of inspiration (emphasizes sudden insight)",
+  "notes": "A literary expression meaning to find or receive creative inspiration. ⟦{着想|ちゃくそう}→着想：13704_chakusou⟧ means a concept or idea that comes to mind, and ⟦{得|え}る→得る：02014_eru⟧ means to obtain. Often used in contexts of artistic creation, scientific discovery, or creative work. More formal and literary than simply ⟦ひらめく→ひらめく：07362_hirameku⟧ or ⟦アイデア→アイデア：10161_aidea⟧⟦を→を：00422_wo⟧{思|おも}いつく.\n\nCOMMON PATTERNS:\n- ~⟦から→から：00504_kara⟧{着想|ちゃくそう}を{得|え}る: to draw inspiration from ~\n- ~⟦に→に：00314_ni⟧{着想|ちゃくそう}を{得|え}た: inspired by ~ (modifying a noun)\n- {着想|ちゃくそう}を{得|え}て: having gotten the idea, ...\n\nSIMILAR WORDS:\n- ⟦ヒント→ヒント：11144_hinto⟧⟦を→を：00422_wo⟧⟦{得|え}る→得る：02014_eru⟧ — to get a hint/clue (less formal)\n- インスピレーション⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧ — to receive inspiration (loanword, common in creative fields)\n- {思|おも}いつく — to come up with (an idea) (more casual, everyday)\n- ⟦ひらめく→ひらめく：07362_hirameku⟧ — to have a flash of inspiration (emphasizes sudden insight)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07362_hirameku",
+      "reading": "ひらめく",
+      "headword": "ひらめく",
+      "label": "to have a flash of inspiration"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "expression"
       ],
+      "politeness": "plain",
       "semantic": [
         "art",
         "cognition"
@@ -62,6 +72,6 @@
       ]
     },
     "created": "2026-04-04T22:22:17Z",
-    "modified": "2026-07-30T03:35:34Z"
+    "modified": "2026-09-02T04:02:06Z"
   }
 }

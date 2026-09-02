@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "06173_teikiteki_ex1",
-      "japanese": "{定期的|ていきてき}に⟦{健康診断|けんこうしんだん}→健康診断：05979_kenkoushindan⟧⟦を→を：00422_wo⟧⟦{受|う}けて→受ける：01215_ukeru⟧⟦いる→いる：00495_iru⟧。",
+      "japanese": "{定期的|ていきてき}⟦に→に：00314_ni⟧⟦{健康診断|けんこうしんだん}→健康診断：05979_kenkoushindan⟧⟦を→を：00422_wo⟧⟦{受|う}けて→受ける：01215_ukeru⟧⟦いる→いる：00495_iru⟧。",
       "english": "I get regular health checkups.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "06173_teikiteki_ex3",
-      "japanese": "⟦この→この：00962_kono⟧⟦ソフトウェア→ソフトウェア：04719_sofutowea⟧⟦は→は：00079_ha⟧{定期的|ていきてき}に⟦アップデート→アップデート：05108_appudeeto⟧⟦される→する：00392_suru⟧。",
+      "japanese": "⟦この→この：00962_kono⟧⟦ソフトウェア→ソフトウェア：04719_sofutowea⟧⟦は→は：00079_ha⟧{定期的|ていきてき}⟦に→に：00314_ni⟧⟦アップデート→アップデート：05108_appudeeto⟧⟦される→する：00392_suru⟧。",
       "english": "This software is updated periodically.",
       "notes": null,
       "has_audio": false,
@@ -43,18 +43,46 @@
       ]
     }
   ],
-  "notes": "FORMS:\n・Adverbial: {定期的|ていきてき}に (regularly, periodically)\n・Noun: ⟦{定期|ていき}→定期：03538_teiki⟧ (fixed term, regular)\n\nCOMMON PATTERNS:\n・{定期的|ていきてき}な⟦{検査|けんさ}→検査：02707_kensa⟧／⟦{点検|てんけん}→点検：09765_tenken⟧ (regular inspection/checkup)\n・{定期的|ていきてき}に⟦{行|おこな}う→行う：01238_okonau⟧ (to do regularly)\n・{定期的|ていきてき}に⟦{更新|こうしん}→更新：04765_koushin⟧⟦する→する：00392_suru⟧ (to update regularly)\n\nRELATED TERMS:\n・⟦{定期|ていき}{券|けん}→定期券：01064_teikiken⟧ (commuter pass)\n・⟦{定期|ていき}→定期：03538_teiki⟧⟦{預金|よきん}→預金：05420_yokin⟧ (term deposit)\n・⟦{定期|ていき}→定期：03538_teiki⟧⟦{便|びん}→便：28160_bin⟧ (scheduled service)",
+  "notes": "FORMS:\n- Adverbial: {定期的|ていきてき}⟦に→に：00314_ni⟧ (regularly, periodically)\n- Noun: ⟦{定期|ていき}→定期：03538_teiki⟧ (fixed term, regular)\n\nCOMMON PATTERNS:\n- {定期的|ていきてき}な⟦{検査|けんさ}→検査：02707_kensa⟧／⟦{点検|てんけん}→点検：09765_tenken⟧ (regular inspection/checkup)\n- {定期的|ていきてき}⟦に→に：00314_ni⟧⟦{行|おこな}う→行う：01238_okonau⟧ (to do regularly)\n- {定期的|ていきてき}⟦に→に：00314_ni⟧⟦{更新|こうしん}→更新：04765_koushin⟧⟦する→する：00392_suru⟧ (to update regularly)\n\nRELATED WORDS:\n- ⟦{定期|ていき}{券|けん}→定期券：01064_teikiken⟧ (commuter pass)\n- ⟦{定期|ていき}→定期：03538_teiki⟧⟦{預金|よきん}→預金：05420_yokin⟧ (term deposit)\n- ⟦{定期|ていき}→定期：03538_teiki⟧⟦{便|びん}→便：28160_bin⟧ (scheduled service)",
   "cross_references": [
     {
       "type": "related",
       "reading": "ていき",
       "headword": "{定期|ていき}",
       "target_id": "03538_teiki"
+    },
+    {
+      "type": "related",
+      "target_id": "01064_teikiken",
+      "reading": "ていきけん",
+      "headword": "{定期券|ていきけん}",
+      "label": "commuter pass"
+    },
+    {
+      "type": "related",
+      "target_id": "22251_teikiyokin",
+      "reading": "ていきよきん",
+      "headword": "{定期預金|ていきよきん}",
+      "label": "term deposit"
+    },
+    {
+      "type": "related",
+      "target_id": "23212_teikibin",
+      "reading": "ていきびん",
+      "headword": "{定期便|ていきびん}",
+      "label": "scheduled service"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23402_kisokuteki",
+      "reading": "きそくてき",
+      "headword": "{規則的|きそくてき}",
+      "label": "regular"
     }
   ],
   "metadata": {
     "created": "2026-01-17T04:29:29Z",
-    "modified": "2026-06-18T12:21:14Z",
+    "modified": "2026-09-02T04:01:08Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

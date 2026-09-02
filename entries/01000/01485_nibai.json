@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "{二倍|にばい} means double or twice the amount.\n\nPATTERN FOR MULTIPLES:\n⟦{数字|すうじ}→数字：03361_suuji⟧ + ⟦{倍|ばい}→倍：01492_bai⟧ creates multipliers:\n- {二倍|にばい}: double, twice\n- ⟦{三倍|さんばい}→三倍：28459_sanbai⟧: triple, three times\n- ⟦{四倍|よんばい}→四倍：noentry⟧: quadruple\n- ⟦{十倍|じゅうばい}→十倍：noentry⟧: tenfold\n- ⟦{百倍|ひゃくばい}→百倍：noentry⟧: hundredfold\n\nCOMMON PATTERNS:\n- A⟦の→の：09472_no⟧{二倍|にばい}: twice as much as A\n- {二倍|にばい}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧: to double (intransitive)\n- {二倍|にばい}⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧: to double (transitive)\n- {二倍|にばい}⟦の→の：09472_no⟧⟦{値段|ねだん}→値段：00871_nedan⟧: double the price\n\nSIMILAR EXPRESSIONS:\n- {二倍|にばい}: double (exact multiple)\n- ⟦{二重|にじゅう}→二重：16893_nijuu⟧: double, twofold (layers/structure)\n- ⟦{倍増|ばいぞう}→倍増：11537_baizou⟧: doubling (formal term for increases)",
+  "notes": "{二倍|にばい} means double or twice the amount.\n\nPATTERN FOR MULTIPLES:\n⟦{数字|すうじ}→数字：03361_suuji⟧ + ⟦{倍|ばい}→倍：01492_bai⟧ creates multipliers:\n- {二倍|にばい}: double, twice\n- ⟦{三倍|さんばい}→三倍：28459_sanbai⟧: triple, three times\n- ⟦{四倍|よんばい}→四倍：noentry⟧: quadruple\n- ⟦{十倍|じゅうばい}→十倍：noentry⟧: tenfold\n- ⟦{百倍|ひゃくばい}→百倍：noentry⟧: hundredfold\n\nCOMMON PATTERNS:\n- A⟦の→の：09472_no⟧{二倍|にばい}: twice as much as A\n- {二倍|にばい}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧: to double (intransitive)\n- {二倍|にばい}⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧: to double (transitive)\n- {二倍|にばい}⟦の→の：09472_no⟧⟦{値段|ねだん}→値段：00871_nedan⟧: double the price\n\nSIMILAR WORDS:\n- {二倍|にばい}: double (exact multiple)\n- ⟦{二重|にじゅう}→二重：16893_nijuu⟧: double, twofold (layers/structure)\n- ⟦{倍増|ばいぞう}→倍増：11537_baizou⟧: doubling (formal term for increases)",
   "cross_references": [
     {
       "type": "related",
@@ -71,11 +71,25 @@
       "reading": "ばい",
       "headword": "{倍|ばい}",
       "label": "-fold (general)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16893_nijuu",
+      "reading": "にじゅう",
+      "headword": "{二重|にじゅう}",
+      "label": "double, twofold"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11537_baizou",
+      "reading": "ばいぞう",
+      "headword": "{倍増|ばいぞう}",
+      "label": "doubling"
     }
   ],
   "metadata": {
     "created": "2026-01-08T12:16:11Z",
-    "modified": "2026-08-11T00:22:01Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

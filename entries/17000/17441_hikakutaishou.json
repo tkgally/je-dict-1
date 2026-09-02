@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "17441_hikakutaishou_ex1",
-      "japanese": "{比較|ひかく}{対象|たいしょう}がないと{判断|はんだん}しにくい。",
+      "japanese": "{比較|ひかく}{対象|たいしょう}⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧⟦と→と：00512_to⟧⟦{判断|はんだん}→判断：03571_handan⟧しにくい。",
       "english": "It's hard to judge without a basis for comparison.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "17441_hikakutaishou_ex2",
-      "japanese": "この{二|ふた}つの{製品|せいひん}を{比較|ひかく}{対象|たいしょう}として{選|えら}んだ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{二|ふた}つ→二つ：02953_futatsu⟧⟦の→の：09472_no⟧⟦{製品|せいひん}→製品：01445_seihin⟧⟦を→を：00422_wo⟧{比較|ひかく}{対象|たいしょう}⟦として→として：06802_toshite⟧⟦{選|えら}んだ→選ぶ：00835_erabu⟧。",
       "english": "I chose these two products as the objects of comparison.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "17441_hikakutaishou_ex3",
-      "japanese": "{去年|きょねん}のデータを{比較|ひかく}{対象|たいしょう}にして、{今年|ことし}の{成績|せいせき}を{評価|ひょうか}した。",
+      "japanese": "⟦{去年|きょねん}→去年：00727_kyonen⟧⟦の→の：09472_no⟧⟦データ→データ：03944_deeta⟧⟦を→を：00422_wo⟧{比較|ひかく}{対象|たいしょう}にして、⟦{今年|ことし}→今年：00722_kotoshi⟧⟦の→の：09472_no⟧⟦{成績|せいせき}→成績：03379_seiseki⟧⟦を→を：00422_wo⟧⟦{評価|ひょうか}→評価：03583_hyouka⟧⟦した→する：00392_suru⟧。",
       "english": "We evaluated this year's results using last year's data as a basis for comparison.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,19 @@
       ]
     }
   ],
-  "notes": "USAGE:\nCommon in academic, business, and analytical discussions. Often used when explaining what is being compared or when noting that a comparison cannot be made due to the lack of an appropriate reference.\n\nCOMMON COLLOCATIONS:\n- {比較|ひかく}{対象|たいしょう}にする (to use as a basis for comparison)\n- {比較|ひかく}{対象|たいしょう}がない (to have no basis for comparison)\n- {比較|ひかく}{対象|たいしょう}として{選|えら}ぶ (to choose as an object of comparison)\n\nSIMILAR WORDS:\n- {比較|ひかく}: comparison — the act of comparing\n- {対照|たいしょう}: contrast — comparing differences specifically",
-  "cross_references": [],
+  "notes": "USAGE:\nCommon in academic, business, and analytical discussions. Often used when explaining what is being compared or when noting that a comparison cannot be made due to the lack of an appropriate reference.\n\nCOMMON COLLOCATIONS:\n- {比較|ひかく}{対象|たいしょう}⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧ (to use as a basis for comparison)\n- {比較|ひかく}{対象|たいしょう}⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧ (to have no basis for comparison)\n- {比較|ひかく}{対象|たいしょう}⟦として→として：06802_toshite⟧⟦{選|えら}ぶ→選ぶ：00835_erabu⟧ (to choose as an object of comparison)\n\nSIMILAR WORDS:\n- ⟦{比較|ひかく}→比較：03576_hikaku⟧: comparison — the act of comparing\n- ⟦{対照|たいしょう}→対照：03394_taishou⟧: contrast — comparing differences specifically",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03394_taishou",
+      "reading": "たいしょう",
+      "headword": "{対照|たいしょう}",
+      "label": "contrast"
+    }
+  ],
   "metadata": {
     "created": "2026-03-17T23:25:20Z",
-    "modified": "2026-07-23T19:02:37Z",
+    "modified": "2026-09-02T04:01:48Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

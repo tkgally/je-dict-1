@@ -71,11 +71,46 @@
       "headword": "{今夜|こんや}",
       "label": "tonight",
       "target_id": "01411_konya"
+    },
+    {
+      "type": "related",
+      "target_id": "00859_kinou",
+      "reading": "きのう",
+      "headword": "{昨日|きのう}",
+      "label": "yesterday"
+    },
+    {
+      "type": "related",
+      "target_id": "00501_ashita",
+      "reading": "あした",
+      "headword": "{明日|あした}",
+      "label": "tomorrow"
+    },
+    {
+      "type": "related",
+      "target_id": "00877_ototoi",
+      "reading": "おととい",
+      "headword": "おととい",
+      "label": "day before yesterday"
+    },
+    {
+      "type": "related",
+      "target_id": "00828_asatte",
+      "reading": "あさって",
+      "headword": "あさって",
+      "label": "day after tomorrow"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10970_sakuban",
+      "reading": "さくばん",
+      "headword": "{昨晩|さくばん}",
+      "label": "last night, last evening"
     }
   ],
   "metadata": {
     "created": "2026-01-11T12:03:30Z",
-    "modified": "2026-05-20T21:14:26Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

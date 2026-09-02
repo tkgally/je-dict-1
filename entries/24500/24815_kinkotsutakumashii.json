@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24815_kinkotsutakumashii_ex1",
-      "japanese": "{筋骨|きんこつ}たくましい{男|おとこ}だ。",
+      "japanese": "{筋骨|きんこつ}たくましい⟦{男|おとこ}→男：00561_otoko⟧だ。",
       "english": "He's a powerfully built man.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24815_kinkotsutakumashii_ex2",
-      "japanese": "{筋骨|きんこつ}たくましい{体|からだ}つきの{力士|りきし}が{土俵|どひょう}に{上|あ}がった。",
+      "japanese": "{筋骨|きんこつ}たくましい⟦{体|からだ}つき→体つき：17058_karadatsuki⟧⟦の→の：09472_no⟧⟦{力士|りきし}→力士：10115_rikishi⟧⟦が→が：00051_ga⟧⟦{土俵|どひょう}→土俵：12010_dohyou⟧⟦に→に：00314_ni⟧⟦{上|あ}がった→上がる：00615_agaru⟧。",
       "english": "A powerfully built sumo wrestler stepped onto the ring.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24815_kinkotsutakumashii_ex3",
-      "japanese": "{毎日|まいにち}の{肉体|にくたい}{労働|ろうどう}で、{彼|かれ}は{筋骨|きんこつ}たくましい{体|からだ}になった。",
+      "japanese": "⟦{毎日|まいにち}→毎日：00729_mainichi⟧⟦の→の：09472_no⟧⟦{肉体|にくたい}{労働|ろうどう}→肉体労働：22825_nikutairoudou⟧⟦で→で：00502_de⟧、⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{筋骨|きんこつ}たくましい⟦{体|からだ}→体：00784_karada⟧になった。",
       "english": "From daily physical labor, he developed a muscular physique.",
       "sense_numbers": [
         1
@@ -44,14 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "A set phrase combining {筋骨|きんこつ} (muscles and bones; physical frame) with たくましい (sturdy/robust). Describes someone with a visibly strong, well-muscled body — the kind of physique associated with physical laborers, athletes, or warriors.\n\nCOMMON COLLOCATIONS:\n- {筋骨|きんこつ}たくましい{体|からだ} — a powerfully built body\n- {筋骨|きんこつ}たくましい{男性|だんせい} — a muscular man\n- {筋骨|きんこつ}たくましい{腕|うで} — brawny arms\n\nUSAGE:\nTypically describes men, though not exclusively. The expression has a somewhat literary or descriptive quality — it appears more in written descriptions (novels, journalism, character descriptions) than in casual conversation, where マッチョ (macho) or {筋肉質|きんにくしつ} (muscular) might be preferred.\n\nSIMILAR WORDS:\n- がっしりした — solidly built; sturdy (more casual)\n- マッチョ — macho; muscular (loanword, casual)\n- {筋肉質|きんにくしつ} — muscular (objective description of body type)\n- たくましい — sturdy; robust (the adjective alone, broader meaning)",
+  "notes": "A set phrase combining {筋骨|きんこつ} (muscles and bones; physical frame) with ⟦たくましい→たくましい：06255_takumashii⟧ (sturdy/robust). Describes someone with a visibly strong, well-muscled body — the kind of physique associated with physical laborers, athletes, or warriors.\n\nCOMMON COLLOCATIONS:\n- {筋骨|きんこつ}たくましい⟦{体|からだ}→体：00784_karada⟧ — a powerfully built body\n- {筋骨|きんこつ}たくましい⟦{男性|だんせい}→男性：01655_dansei⟧ — a muscular man\n- {筋骨|きんこつ}たくましい⟦{腕|うで}→腕：01006_ude⟧ — brawny arms\n\nUSAGE:\nTypically describes men, though not exclusively. The expression has a somewhat literary or descriptive quality — it appears more in written descriptions (novels, journalism, character descriptions) than in casual conversation, where マッチョ (macho) or ⟦{筋肉質|きんにくしつ}→筋肉質：16302_kinnikushitsu⟧ (muscular) might be preferred.\n\nSIMILAR WORDS:\n- ⟦がっしり→がっしり：19940_gasshiri⟧⟦した→する：00392_suru⟧ — solidly built; sturdy (more casual)\n- マッチョ — macho; muscular (loanword, casual)\n- ⟦{筋肉質|きんにくしつ}→筋肉質：16302_kinnikushitsu⟧ — muscular (objective description of body type)\n- ⟦たくましい→たくましい：06255_takumashii⟧ — sturdy; robust (the adjective alone, broader meaning)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16302_kinnikushitsu",
+      "reading": "きんにくしつ",
+      "headword": "{筋肉質|きんにくしつ}",
+      "label": "muscular"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "expression"
       ],
+      "politeness": "plain",
       "semantic": [
         "body-part",
         "descriptive"
@@ -59,6 +69,6 @@
       "usage": []
     },
     "created": "2026-04-20T16:29:50Z",
-    "modified": "2026-08-03T09:22:27Z"
+    "modified": "2026-09-02T04:02:19Z"
   }
 }

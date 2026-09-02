@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26465_bouhei_ex1",
-      "japanese": "{工事|こうじ}{現場|げんば}に{防塀|ぼうへい}を{設置|せっち}した。",
+      "japanese": "⟦{工事|こうじ}{現場|げんば}→工事現場：26202_koujigenba⟧⟦に→に：00314_ni⟧{防塀|ぼうへい}⟦を→を：00422_wo⟧⟦{設置|せっち}した→設置する：26989_secchisuru⟧。",
       "english": "A protective wall was installed at the construction site.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26465_bouhei_ex2",
-      "japanese": "{防塀|ぼうへい}のおかげで{騒音|そうおん}がだいぶ{軽減|けいげん}された。",
+      "japanese": "{防塀|ぼうへい}⟦の→の：09472_no⟧⟦おかげ→おかげ：01362_okage⟧⟦で→で：00502_de⟧⟦{騒音|そうおん}→騒音：03315_souon⟧⟦が→が：00051_ga⟧だいぶ⟦{軽減|けいげん}→軽減：16954_keigen⟧⟦された→する：00392_suru⟧。",
       "english": "Thanks to the barrier wall, the noise was considerably reduced.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26465_bouhei_ex3",
-      "japanese": "{台風|たいふう}に{備|そな}えて{家|いえ}の{周|まわ}りに{防塀|ぼうへい}を{作|つく}った{農家|のうか}が{多|おお}い。",
+      "japanese": "⟦{台風|たいふう}→台風：01455_taifuu⟧⟦に→に：00314_ni⟧⟦{備|そな}えて→備える：02125_sonaeru⟧⟦{家|いえ}→家：00612_ie⟧⟦の→の：09472_no⟧⟦{周|まわ}り→周り：01732_mawari⟧⟦に→に：00314_ni⟧{防塀|ぼうへい}⟦を→を：00422_wo⟧⟦{作|つく}った→作る：00481_tsukuru⟧⟦{農家|のうか}→農家：03539_nouka⟧⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "Many farmers built protective walls around their houses in preparation for typhoons.",
       "sense_numbers": [
         1
@@ -44,8 +44,16 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {防|ぼう} (to prevent, to protect against) and {塀|へい} (wall, fence). Part of the productive {防|ぼう}+ noun pattern for protective barriers ({防壁|ぼうへき}, {防風|ぼうふう}{林|りん}, etc.). Refers to a physical structure built for protection rather than a natural barrier.\n\nCOMMON COLLOCATIONS:\n- {防塀|ぼうへい}を{設置|せっち}する: to install a protective wall\n- {防塀|ぼうへい}を{建|た}てる: to erect a barrier wall\n- {防音|ぼうおん}{防塀|ぼうへい}: soundproof barrier\n- {防塀|ぼうへい}で{囲|かこ}む: to surround with a protective wall\n\nSIMILAR WORDS:\n- {塀|へい}: wall, fence — a general enclosing wall around a property\n- {防壁|ぼうへき}: defensive wall, rampart — often used figuratively or for larger fortification-style walls\n- {防風|ぼうふう}{林|りん}: windbreak forest — trees planted as a natural wind barrier",
-  "cross_references": [],
+  "notes": "Composed of ⟦{防|ぼう}→防〜：03967_bou⟧ (to prevent, to protect against) and ⟦{塀|へい}→塀：03613_hei⟧ (wall, fence). Part of the productive ⟦{防|ぼう}→防〜：03967_bou⟧+ noun pattern for protective barriers (⟦{防壁|ぼうへき}→防壁：24431_bouheki⟧, {防風|ぼうふう}{林|りん}, etc.). Refers to a physical structure built for protection rather than a natural barrier.\n\nCOMMON COLLOCATIONS:\n- {防塀|ぼうへい}⟦を→を：00422_wo⟧⟦{設置|せっち}する→設置する：26989_secchisuru⟧: to install a protective wall\n- {防塀|ぼうへい}⟦を→を：00422_wo⟧⟦{建|た}てる→建てる：01189_tateru⟧: to erect a barrier wall\n- ⟦{防音|ぼうおん}→防音：14565_bouon⟧{防塀|ぼうへい}: soundproof barrier\n- {防塀|ぼうへい}⟦で→で：00502_de⟧⟦{囲|かこ}む→囲む：02037_kakomu⟧: to surround with a protective wall\n\nSIMILAR WORDS:\n- ⟦{塀|へい}→塀：03613_hei⟧: wall, fence — a general enclosing wall around a property\n- ⟦{防壁|ぼうへき}→防壁：24431_bouheki⟧: defensive wall, rampart — often used figuratively or for larger fortification-style walls\n- {防風|ぼうふう}{林|りん}: windbreak forest — trees planted as a natural wind barrier",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24431_bouheki",
+      "reading": "ぼうへき",
+      "headword": "{防壁|ぼうへき}",
+      "label": "defensive wall, rampart"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,11 +61,13 @@
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "building"
       ]
     },
     "created": "2026-05-02T11:31:59Z",
-    "modified": "2026-08-06T00:43:53Z"
+    "modified": "2026-09-02T04:02:26Z"
   }
 }

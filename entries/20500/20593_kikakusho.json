@@ -15,41 +15,81 @@
   "examples": [
     {
       "id": "20593_kikakusho_ex1",
-      "japanese": "{企画書|きかくしょ}を{作成|さくせい}する。",
+      "japanese": "{企画書|きかくしょ}⟦を→を：00422_wo⟧⟦{作成|さくせい}する→作成する：25378_sakuseisuru⟧。",
       "english": "To create a proposal.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "20593_kikakusho_ex2",
-      "japanese": "{来週|らいしゅう}までに{企画書|きかくしょ}を{提出|ていしゅつ}してください。",
+      "japanese": "⟦{来週|らいしゅう}→来週：00746_raishuu⟧⟦まで→まで：00490_made⟧⟦に→に：00314_ni⟧{企画書|きかくしょ}⟦を→を：00422_wo⟧⟦{提出|ていしゅつ}して→提出する：19644_teishutsusuru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please submit the proposal by next week.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "20593_kikakusho_ex3",
-      "japanese": "{新商品|しんしょうひん}の{企画書|きかくしょ}が{上司|じょうし}に{承認|しょうにん}され、いよいよ{開発|かいはつ}が{始|はじ}まる。",
+      "japanese": "⟦{新商品|しんしょうひん}→新商品：11504_shinshouhin⟧⟦の→の：09472_no⟧{企画書|きかくしょ}⟦が→が：00051_ga⟧⟦{上司|じょうし}→上司：03286_joushi⟧⟦に→に：00314_ni⟧⟦{承認|しょうにん}→承認：03237_shounin⟧⟦され→する：00392_suru⟧、⟦いよいよ→いよいよ：06353_iyoiyo⟧⟦{開発|かいはつ}→開発：06746_kaihatsu⟧⟦が→が：00051_ga⟧⟦{始|はじ}まる→始まる：00841_hajimaru⟧。",
       "english": "The proposal for the new product was approved by the boss, and development is finally starting.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "Composed of {企画|きかく} (planning, project) + {書|しょ} (document). A fundamental business document in Japanese corporate culture, used to formally present ideas for approval.\n\nCOMMON COLLOCATIONS:\n- {企画書|きかくしょ}を{作成|さくせい}する (create a proposal)\n- {企画書|きかくしょ}を{提出|ていしゅつ}する (submit a proposal)\n- {企画書|きかくしょ}を{書|か}く (write a proposal)\n- {企画書|きかくしょ}が{通|とお}る (a proposal is approved)\n- {企画書|きかくしょ}が{却下|きゃっか}される (a proposal is rejected)\n\nSIMILAR WORDS:\n- {提案書|ていあんしょ} — proposal document (more focused on suggesting ideas)\n- {計画書|けいかくしょ} — plan document (more detailed implementation plan)\n- {稟議書|りんぎしょ} — approval request document (for circulating for consensus)",
-  "cross_references": [],
+  "notes": "Composed of ⟦{企画|きかく}→企画：04879_kikaku⟧ (planning, project) + ⟦{書|しょ}→〜書：28467_sho⟧ (document). A fundamental business document in Japanese corporate culture, used to formally present ideas for approval.\n\nCOMMON COLLOCATIONS:\n- {企画書|きかくしょ}⟦を→を：00422_wo⟧⟦{作成|さくせい}する→作成する：25378_sakuseisuru⟧ (create a proposal)\n- {企画書|きかくしょ}⟦を→を：00422_wo⟧⟦{提出|ていしゅつ}する→提出する：19644_teishutsusuru⟧ (submit a proposal)\n- {企画書|きかくしょ}⟦を→を：00422_wo⟧⟦{書|か}く→書く：00477_kaku⟧ (write a proposal)\n- {企画書|きかくしょ}⟦が→が：00051_ga⟧⟦{通|とお}る→通る：01243_tooru⟧ (a proposal is approved)\n- {企画書|きかくしょ}⟦が→が：00051_ga⟧⟦{却下|きゃっか}→却下：05908_kyakka⟧⟦される→する：00392_suru⟧ (a proposal is rejected)\n\nSIMILAR WORDS:\n- ⟦{提案書|ていあんしょ}→提案書：15212_teiansho⟧ — proposal document (more focused on suggesting ideas)\n- ⟦{計画書|けいかくしょ}→計画書：25865_keikakusho⟧ — plan document (more detailed implementation plan)\n- ⟦{稟議書|りんぎしょ}→稟議書：26152_ringisho⟧ — approval request document (for circulating for consensus)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15212_teiansho",
+      "reading": "ていあんしょ",
+      "headword": "{提案書|ていあんしょ}",
+      "label": "proposal document"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25865_keikakusho",
+      "reading": "けいかくしょ",
+      "headword": "{計画書|けいかくしょ}",
+      "label": "plan document"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26152_ringisho",
+      "reading": "りんぎしょ",
+      "headword": "{稟議書|りんぎしょ}",
+      "label": "approval request document"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22924_jigyoukeikaku",
+      "reading": "じぎょうけいかく",
+      "headword": "{事業計画|じぎょうけいかく}",
+      "label": "business plan"
+    }
+  ],
   "metadata": {
     "created": "2026-03-29T19:19:48Z",
-    "modified": "2026-03-29T19:19:48Z",
+    "modified": "2026-09-02T04:02:00Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["business", "document"]
+      "semantic": [
+        "business",
+        "document"
+      ]
     }
   }
 }

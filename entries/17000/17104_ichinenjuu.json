@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "17104_ichinenjuu_ex1",
-      "japanese": "{一年中|いちねんじゅう}{暖|あたた}かい。",
+      "japanese": "{一年中|いちねんじゅう}⟦{暖|あたた}かい→暖かい：00618_atatakai⟧。",
       "english": "It's warm all year round.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "17104_ichinenjuu_ex2",
-      "japanese": "この{店|みせ}は{一年中|いちねんじゅう}アイスクリームを{売|う}っている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{店|みせ}→店：00497_mise⟧⟦は→は：00079_ha⟧{一年中|いちねんじゅう}⟦アイスクリーム→アイスクリーム：03830_aisukuriimu⟧⟦を→を：00422_wo⟧⟦{売|う}っている→売る：00906_uru⟧。",
       "english": "This shop sells ice cream all year round.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "17104_ichinenjuu_ex3",
-      "japanese": "{沖縄|おきなわ}は{一年中|いちねんじゅう}{温暖|おんだん}な{気候|きこう}で、{冬|ふゆ}でも{雪|ゆき}が{降|ふ}らない。",
+      "japanese": "⟦{沖縄|おきなわ}→沖縄：11009_okinawa⟧⟦は→は：00079_ha⟧{一年中|いちねんじゅう}⟦{温暖|おんだん}→温暖：02596_ondan⟧な⟦{気候|きこう}→気候：00231_kikou⟧⟦で→で：00502_de⟧、⟦{冬|ふゆ}→冬：00623_fuyu⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧⟦{雪|ゆき}→雪：00584_yuki⟧⟦が→が：00051_ga⟧⟦{降|ふ}らない→降る：00839_furu⟧。",
       "english": "Okinawa has a warm climate all year round, and it doesn't snow even in winter.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nFunctions as an adverb modifying the entire sentence. Emphasizes that something is true or available without seasonal variation. Can also be read as いちねんちゅう, but いちねんじゅう is more common.\n\nCOMMON COLLOCATIONS:\n- {一年中|いちねんじゅう}{暖|あたた}かい (warm all year round)\n- {一年中|いちねんじゅう}{忙|いそが}しい (busy all year round)\n- {一年中|いちねんじゅう}{営業|えいぎょう} (open year-round)\n\nSIMILAR WORDS:\n- {年中|ねんじゅう}: all year round; always — can also mean \"constantly\" with a slightly exasperated tone\n- {通年|つうねん}: year-round — more formal, used in business contexts",
+  "notes": "USAGE:\nFunctions as an adverb modifying the entire sentence. Emphasizes that something is true or available without seasonal variation. Can also be read as いちねんちゅう, but いちねんじゅう is more common.\n\nCOMMON COLLOCATIONS:\n- {一年中|いちねんじゅう}⟦{暖|あたた}かい→暖かい：00618_atatakai⟧ (warm all year round)\n- {一年中|いちねんじゅう}⟦{忙|いそが}しい→忙しい：00591_isogashii⟧ (busy all year round)\n- {一年中|いちねんじゅう}⟦{営業|えいぎょう}→営業：01878_eigyou⟧ (open year-round)\n\nSIMILAR WORDS:\n- ⟦{年中|ねんじゅう}→年中：00311_nenjuu⟧: all year round; always — can also mean \"constantly\" with a slightly exasperated tone\n- ⟦{通年|つうねん}→通年：14490_tsuunen⟧: year-round — more formal, used in business contexts",
   "cross_references": [
     {
       "type": "synonym",
@@ -52,11 +52,39 @@
       "reading": "ねんじゅう",
       "headword": "{年中|ねんじゅう}",
       "label": "all year; always"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14490_tsuunen",
+      "reading": "つうねん",
+      "headword": "{通年|つうねん}",
+      "label": "year-round"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09519_ichinichijuu",
+      "reading": "いちにちじゅう",
+      "headword": "{一日中|いちにちじゅう}",
+      "label": "all day long, throughout the day"
+    },
+    {
+      "type": "related",
+      "target_id": "20338_hitobanjuu",
+      "reading": "ひとばんじゅう",
+      "headword": "{一晩中|ひとばんじゅう}",
+      "label": "all night long"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28882_ichinenkan",
+      "reading": "いちねんかん",
+      "headword": "{一年間|いちねんかん}",
+      "label": "one year"
     }
   ],
   "metadata": {
     "created": "2026-03-16T00:41:47Z",
-    "modified": "2026-07-22T18:50:18Z",
+    "modified": "2026-09-02T04:01:47Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26605_gotoshi_ex1",
-      "japanese": "{光陰|こういん}{矢|や}のごとし。",
+      "japanese": "⟦{光陰|こういん}→光陰：17773_kouin⟧⟦{矢|や}→矢：10461_ya⟧⟦の→の：09472_no⟧ごとし。",
       "english": "Time flies like an arrow.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26605_gotoshi_ex2",
-      "japanese": "{彼|かれ}の{走|はし}りは{風|かぜ}のごとく{速|はや}い。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧{走|はし}り⟦は→は：00079_ha⟧⟦{風|かぜ}→風：00641_kaze⟧⟦の→の：09472_no⟧ごとく⟦{速|はや}い→速い：00514_hayai⟧。",
       "english": "His running is as fast as the wind.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26605_gotoshi_ex3",
-      "japanese": "{水|みず}の{流|なが}れのごとく、{時間|じかん}は{二度|にど}と{戻|もど}らない。",
+      "japanese": "⟦{水|みず}→水：02258_mizu⟧⟦の→の：09472_no⟧⟦{流|なが}れ→流れ：03504_nagare⟧⟦の→の：09472_no⟧ごとく、⟦{時間|じかん}→時間：00468_jikan⟧⟦は→は：00079_ha⟧⟦{二度|にど}と→二度と：06482_nidoto⟧⟦{戻|もど}らない→戻る：01117_modoru⟧。",
       "english": "Like the flow of water, time never returns.",
       "sense_numbers": [
         1
@@ -44,8 +44,23 @@
       "notes": null
     }
   ],
-  "notes": "A classical Japanese expression derived from the literary language. Still commonly encountered in proverbs, set phrases, and formal or poetic writing. The adverbial form ごとく (\"like,\" modifying a verb) is more frequent in modern usage than the terminal form ごとし.\n\nCOMMON PATTERNS:\n- noun + のごとし/ごとく: {風|かぜ}のごとく (like the wind)\n- verb dictionary form + がごとし/がごとく: {燃|も}えるがごとく (as if burning)\n\nFAMOUS PROVERBS:\n- {光陰|こういん}{矢|や}のごとし: time flies like an arrow\n- {去|さ}る{者|もの}は{日々|ひび}に{疎|うと}し: out of sight, out of mind\n\nSIMILAR EXPRESSIONS:\n- ようだ: the standard modern equivalent; neutral in register\n- みたいだ: colloquial equivalent\n- ごとし is much more literary and formal than both; used primarily in writing, proverbs, and rhetoric\n\nREGISTER:\nLiterary and formal. Rarely used in casual conversation except in fixed expressions. Common in literature, speeches, and classical quotations.",
-  "cross_references": [],
+  "notes": "A classical Japanese expression derived from the literary language. Still commonly encountered in proverbs, set phrases, and formal or poetic writing. The adverbial form ごとく (\"like,\" modifying a verb) is more frequent in modern usage than the terminal form ごとし.\n\nCOMMON PATTERNS:\n- noun + ⟦の→の：09472_no⟧ごとし/ごとく: ⟦{風|かぜ}→風：00641_kaze⟧⟦の→の：09472_no⟧ごとく (like the wind)\n- verb dictionary form + がごとし/⟦が→が：00051_ga⟧ごとく: ⟦{燃|も}える→燃える：02312_moeru⟧⟦が→が：00051_ga⟧ごとく (as if burning)\n\nFAMOUS PROVERBS:\n- ⟦{光陰|こういん}→光陰：17773_kouin⟧⟦{矢|や}→矢：10461_ya⟧⟦の→の：09472_no⟧ごとし: time flies like an arrow\n- ⟦{去|さ}る→去る：02115_saru⟧⟦{者|もの}→者：12734_mono⟧⟦は→は：00079_ha⟧⟦{日々|ひび}→日々：04804_hibi⟧⟦に→に：00314_ni⟧⟦{疎|うと}し→疎い：07842_utoi⟧: out of sight, out of mind\n\nSIMILAR WORDS:\n- ようだ: the standard modern equivalent; neutral in register\n- ⟦みたい→みたい：10755_mitai⟧だ: colloquial equivalent\n- ごとし is much more literary and formal than both; used primarily in writing, proverbs, and rhetoric\n\nREGISTER:\nLiterary and formal. Rarely used in casual conversation except in fixed expressions. Common in literature, speeches, and classical quotations.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "26593_youda",
+      "reading": "ようだ",
+      "headword": "ようだ",
+      "label": "the standard modern equivalent"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29147_mitaida",
+      "reading": "みたいだ",
+      "headword": "みたいだ",
+      "label": "colloquial equivalent"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -61,6 +76,6 @@
       "domain": []
     },
     "created": "2026-05-03T14:26:31Z",
-    "modified": "2026-05-03T14:26:31Z"
+    "modified": "2026-09-02T04:02:27Z"
   }
 }

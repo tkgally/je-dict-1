@@ -15,40 +15,59 @@
   "examples": [
     {
       "id": "20082_shoshi_ex1",
-      "japanese": "{初志|しょし}{貫徹|かんてつ}が{大切|たいせつ}だ。",
+      "japanese": "{初志|しょし}{貫徹|かんてつ}⟦が→が：00051_ga⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧だ。",
       "english": "It's important to follow through on your original intentions.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20082_shoshi_ex2",
-      "japanese": "{困難|こんなん}があっても{初志|しょし}を{忘|わす}れてはいけない。",
+      "japanese": "⟦{困難|こんなん}→困難：01410_konnan⟧⟦が→が：00051_ga⟧⟦あって→ある：00006_aru⟧⟦も→も：00484_mo⟧{初志|しょし}⟦を→を：00422_wo⟧⟦{忘|わす}れて→忘れる：00474_wasureru⟧⟦は→は：00079_ha⟧いけない。",
       "english": "Even when facing difficulties, you must not forget your original resolve.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20082_shoshi_ex3",
-      "japanese": "{彼|かれ}は{初志|しょし}を{貫|つらぬ}いて、{十年|じゅうねん}かけて{夢|ゆめ}を{実現|じつげん}した。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{初志|しょし}⟦を→を：00422_wo⟧⟦{貫|つらぬ}いて→貫く：18728_tsuranuku⟧、{十年|じゅうねん}⟦かけて→かける：00854_kakeru⟧⟦{夢|ゆめ}→夢：01519_yume⟧⟦を→を：00422_wo⟧⟦{実現|じつげん}→実現：03276_jitsugen⟧⟦した→する：00392_suru⟧。",
       "english": "He stayed true to his original resolve and achieved his dream over ten years.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Most commonly encountered in the four-character idiom {初志|しょし}{貫徹|かんてつ} (carrying through one's original intention). Outside this set phrase, {初志|しょし} is used on its own to refer to one's initial aspirations or determination.\n\nCOMMON COLLOCATIONS:\n- {初志|しょし}{貫徹|かんてつ}: carrying through one's original intention (set phrase)\n- {初志|しょし}を{貫|つらぬ}く: to stick to one's original intention\n- {初志|しょし}を{忘|わす}れない: to not forget one's original resolve\n- {初志|しょし}を{曲|ま}げる: to abandon one's original intention\n\nETYMOLOGY:\n{初|しょ} (first, initial) + {志|し} (will, intention, aspiration).\n\nSIMILAR WORDS:\n- {初心|しょしん}: beginner's mind, original spirit — broader; also used for 'beginner' ({初心者|しょしんしゃ}) and the phrase {初心|しょしん}に{帰|かえ}る (to go back to basics)\n- {志|こころざし}: aspiration, ambition — more general; not limited to one's initial intention",
+  "notes": "Most commonly encountered in the four-character idiom {初志|しょし}{貫徹|かんてつ} (carrying through one's original intention). Outside this set phrase, {初志|しょし} is used on its own to refer to one's initial aspirations or determination.\n\nCOMMON COLLOCATIONS:\n- {初志|しょし}{貫徹|かんてつ}: carrying through one's original intention (set phrase)\n- {初志|しょし}⟦を→を：00422_wo⟧⟦{貫|つらぬ}く→貫く：18728_tsuranuku⟧: to stick to one's original intention\n- {初志|しょし}⟦を→を：00422_wo⟧⟦{忘|わす}れない→忘れる：00474_wasureru⟧: to not forget one's original resolve\n- {初志|しょし}⟦を→を：00422_wo⟧⟦{曲|ま}げる→曲げる：02529_mageru⟧: to abandon one's original intention\n\nETYMOLOGY:\n⟦{初|しょ}→初〜：03955_sho⟧ (first, initial) + {志|し} (will, intention, aspiration).\n\nSIMILAR WORDS:\n- ⟦{初心|しょしん}→初心：08656_shoshin⟧: beginner's mind, original spirit — broader; also used for 'beginner' (⟦{初心者|しょしんしゃ}→初心者：10149_shoshinsha⟧) and the phrase ⟦{初心|しょしん}→初心：08656_shoshin⟧⟦に→に：00314_ni⟧⟦{帰|かえ}る→帰る：00508_kaeru⟧ (to go back to basics)\n- ⟦{志|こころざし}→志：06655_kokorozashi⟧: aspiration, ambition — more general; not limited to one's initial intention",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08656_shoshin",
+      "reading": "しょしん",
+      "headword": "{初心|しょしん}",
+      "label": "beginner's mind, original spirit"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["abstract"]
+      "semantic": [
+        "abstract"
+      ]
     },
     "created": "2026-03-28T07:39:14Z",
-    "modified": "2026-03-28T07:39:14Z"
+    "modified": "2026-09-02T04:01:58Z"
   }
 }

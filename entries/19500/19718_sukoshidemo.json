@@ -20,7 +20,7 @@
   "examples": [
     {
       "id": "19718_sukoshidemo_ex1",
-      "japanese": "{少|すこ}しでも{気|き}になったら{聞|き}いてね。",
+      "japanese": "{少|すこ}しでも⟦{気|き}になったら→気になる：03027_kininaru⟧⟦{聞|き}いて→聞く：00483_kiku⟧⟦ね→ね：09474_ne⟧。",
       "english": "If you're even a little curious, just ask.",
       "sense_numbers": [
         1
@@ -30,7 +30,7 @@
     },
     {
       "id": "19718_sukoshidemo_ex2",
-      "japanese": "{少|すこ}しでも{異変|いへん}を{感|かん}じたら、すぐに{病院|びょういん}に{行|い}ってください。",
+      "japanese": "{少|すこ}しでも⟦{異変|いへん}→異変：15754_ihen⟧⟦を→を：00422_wo⟧⟦{感|かん}じたら→感じる：02044_kanjiru⟧、⟦すぐ→すぐ：00814_sugu⟧⟦に→に：00314_ni⟧⟦{病院|びょういん}→病院：00577_byouin⟧⟦に→に：00314_ni⟧⟦{行|い}って→行く：00119_iku⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "If you feel even the slightest abnormality, please go to the hospital immediately.",
       "sense_numbers": [
         1
@@ -40,7 +40,7 @@
     },
     {
       "id": "19718_sukoshidemo_ex3",
-      "japanese": "{少|すこ}しでも{遅|おく}れたら{間|ま}に{合|あ}わない。",
+      "japanese": "{少|すこ}しでも⟦{遅|おく}れたら→遅れる：00741_okureru⟧⟦{間|ま}に{合|あ}わない→間に合う：01142_maniau⟧。",
       "english": "If we're even a little late, we won't make it in time.",
       "sense_numbers": [
         1
@@ -50,7 +50,7 @@
     },
     {
       "id": "19718_sukoshidemo_ex4",
-      "japanese": "{少|すこ}しでも{安|やす}く{買|か}いたい。",
+      "japanese": "{少|すこ}しでも⟦{安|やす}く→安い：00464_yasui⟧⟦{買|か}いたい→買う：00489_kau⟧。",
       "english": "I want to buy it as cheaply as possible.",
       "sense_numbers": [
         2
@@ -60,7 +60,7 @@
     },
     {
       "id": "19718_sukoshidemo_ex5",
-      "japanese": "{少|すこ}しでも{役|やく}に{立|た}てれば{嬉|うれ}しいです。",
+      "japanese": "{少|すこ}しでも⟦{役|やく}→役：12557_yaku⟧⟦に→に：00314_ni⟧⟦{立|た}てれば→立てる：01196_tateru⟧⟦{嬉|うれ}しい→嬉しい：00822_ureshii⟧です。",
       "english": "I'd be happy if I could be of even a little help.",
       "sense_numbers": [
         2
@@ -70,7 +70,7 @@
     },
     {
       "id": "19718_sukoshidemo_ex6",
-      "japanese": "{少|すこ}しでも{早|はや}く{届|とど}くように、{速達|そくたつ}で{送|おく}った。",
+      "japanese": "{少|すこ}しでも⟦{早|はや}く→早い：00514_hayai⟧⟦{届|とど}く→届く：00899_todoku⟧よう⟦に→に：00314_ni⟧、⟦{速達|そくたつ}→速達：04393_sokutatsu⟧⟦で→で：00502_de⟧⟦{送|おく}った→送る：00742_okuru⟧。",
       "english": "I sent it by express mail so it would arrive as quickly as possible.",
       "sense_numbers": [
         2
@@ -79,8 +79,31 @@
       "notes": null
     }
   ],
-  "notes": "A very common adverbial phrase combining {少|すこ}し (a little) + でも (even). The でも particle adds emphasis, turning 'a little' into 'even a little.' Sense 1 is used in conditional contexts ('if even a little...'), while sense 2 expresses a desire to maximize something ('as X as possible').\n\nUSAGE:\nSense 1 typically pairs with conditional forms (〜たら、〜なら、〜ば). Sense 2 appears with desiderative forms (〜たい) or expressions of effort.\n\nSIMILAR EXPRESSIONS:\n- ちょっとでも — even a bit; more casual version of the same idea\n- {多少|たしょう}なりとも — to any extent, however slight; more formal\n- できるだけ — as much as possible; focuses on effort rather than degree",
+  "notes": "A very common adverbial phrase combining ⟦{少|すこ}し→少し：00596_sukoshi⟧ (a little) + ⟦でも→でも：00925_demo⟧ (even). The ⟦でも→でも：00925_demo⟧ particle adds emphasis, turning 'a little' into 'even a little.' Sense 1 is used in conditional contexts ('if even a little...'), while sense 2 expresses a desire to maximize something ('as X as possible').\n\nUSAGE:\nSense 1 typically pairs with conditional forms (〜たら、〜なら、〜ば). Sense 2 appears with desiderative forms (〜たい) or expressions of effort.\n\nSIMILAR WORDS:\n- ⟦ちょっと→ちょっと：00595_chotto⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧ — even a bit; more casual version of the same idea\n- ⟦{多少|たしょう}→多少：01647_tashou⟧なりとも — to any extent, however slight; more formal\n- ⟦できるだけ→できるだけ：01289_dekirudake⟧ — as much as possible; focuses on effort rather than degree",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22125_tashounaritomo",
+      "reading": "たしょうなりとも",
+      "headword": "{多少|たしょう}なりとも",
+      "label": "to any extent, however slight"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01289_dekirudake",
+      "reading": "できるだけ",
+      "headword": "できるだけ",
+      "label": "as much as possible"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20087_tashoutomo",
+      "reading": "たしょうとも",
+      "headword": "{多少|たしょう}とも",
+      "label": "to some extent"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -94,6 +117,6 @@
       ]
     },
     "created": "2026-03-26T14:31:51Z",
-    "modified": "2026-07-27T12:42:09Z"
+    "modified": "2026-09-02T04:01:57Z"
   }
 }

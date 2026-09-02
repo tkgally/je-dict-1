@@ -3,7 +3,7 @@
   "id": "13745_kigan",
   "headword": "{祈願|きがん}",
   "reading": "きがん",
-  "part_of_speech": "noun / suru verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "prayer, supplication",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "13745_kigan_ex1",
-      "japanese": "{合格|ごうかく}{祈願|きがん}のお{守|まも}りを{買|か}った。",
+      "japanese": "⟦{合格|ごうかく}→合格：02816_goukaku⟧{祈願|きがん}⟦の→の：09472_no⟧⟦お{守|まも}り→お守り：05955_omamori⟧⟦を→を：00422_wo⟧⟦{買|か}った→買う：00489_kau⟧。",
       "english": "I bought a charm for praying for success in the exam.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "13745_kigan_ex2",
-      "japanese": "{神社|じんじゃ}で{交通|こうつう}{安全|あんぜん}を{祈願|きがん}した。",
+      "japanese": "⟦{神社|じんじゃ}→神社：01620_jinja⟧⟦で→で：00502_de⟧⟦{交通|こうつう}{安全|あんぜん}→交通安全：22217_koutsuuanzen⟧⟦を→を：00422_wo⟧{祈願|きがん}⟦した→する：00392_suru⟧。",
       "english": "I prayed for traffic safety at the shrine.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "13745_kigan_ex3",
-      "japanese": "{新年|しんねん}に{家族|かぞく}そろって{神社|じんじゃ}へ{行|い}き、{一年|いちねん}の{無病息災|むびょうそくさい}を{祈願|きがん}した。",
+      "japanese": "⟦{新年|しんねん}→新年：09787_shinnen⟧⟦に→に：00314_ni⟧⟦{家族|かぞく}→家族：00552_kazoku⟧そろって⟦{神社|じんじゃ}→神社：01620_jinja⟧⟦へ→へ：02473_he⟧⟦{行|い}き→行く：00119_iku⟧、⟦{一年|いちねん}→一年：10994_ichinen⟧⟦の→の：09472_no⟧{無病息災|むびょうそくさい}⟦を→を：00422_wo⟧{祈願|きがん}⟦した→する：00392_suru⟧。",
       "english": "The whole family went to the shrine at New Year's to pray for a year free from illness.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nMore formal and specific than {祈|いの}り (prayer in general). {祈願|きがん} typically involves visiting a shrine or temple and praying for a concrete wish or goal. Common occasions include exam success, safe childbirth, business prosperity, and traffic safety.\n\nCOMMON COLLOCATIONS:\n- {合格|ごうかく}{祈願|きがん}: prayer for passing an exam\n- {安産|あんざん}{祈願|きがん}: prayer for safe childbirth\n- {商売|しょうばい}{繁盛|はんじょう}{祈願|きがん}: prayer for business prosperity\n- {交通|こうつう}{安全|あんぜん}{祈願|きがん}: prayer for traffic safety\n- {必勝|ひっしょう}{祈願|きがん}: prayer for certain victory",
+  "notes": "USAGE:\nMore formal and specific than ⟦{祈|いの}り→祈り：13732_inori⟧ (prayer in general). {祈願|きがん} typically involves visiting a shrine or temple and praying for a concrete wish or goal. Common occasions include exam success, safe childbirth, business prosperity, and traffic safety.\n\nCOMMON COLLOCATIONS:\n- ⟦{合格|ごうかく}→合格：02816_goukaku⟧{祈願|きがん}: prayer for passing an exam\n- ⟦{安産|あんざん}→安産：18693_anzan⟧{祈願|きがん}: prayer for safe childbirth\n- ⟦{商売|しょうばい}{繁盛|はんじょう}→商売繁盛：29953_shoubaihanjou⟧{祈願|きがん}: prayer for business prosperity\n- ⟦{交通|こうつう}{安全|あんぜん}→交通安全：22217_koutsuuanzen⟧{祈願|きがん}: prayer for traffic safety\n- {必勝|ひっしょう}{祈願|きがん}: prayer for certain victory",
   "cross_references": [
     {
       "type": "related",
@@ -142,11 +142,25 @@
       "reading": "いのり",
       "headword": "{祈|いの}り",
       "label": "prayer (everyday)"
+    },
+    {
+      "type": "related",
+      "target_id": "02387_negau",
+      "reading": "ねがう",
+      "headword": "{願|ねが}う",
+      "label": "to wish, to request"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22031_kitou",
+      "reading": "きとう",
+      "headword": "{祈祷|きとう}",
+      "label": "prayer"
     }
   ],
   "metadata": {
     "created": "2026-02-26T14:22:42Z",
-    "modified": "2026-04-29T07:15:05Z",
+    "modified": "2026-09-02T04:01:34Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -160,7 +174,8 @@
         "religion",
         "culture"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22844_sorera_ex1",
-      "japanese": "それらは{全部|ぜんぶ}{私|わたし}のです。",
+      "japanese": "それら⟦は→は：00079_ha⟧⟦{全部|ぜんぶ}→全部：02888_zenbu⟧⟦{私|わたし}→私：02988_watashi⟧⟦の→の：09472_no⟧です。",
       "english": "Those are all mine.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22844_sorera_ex2",
-      "japanese": "それらの{問題|もんだい}について{話|はな}し{合|あ}いましょう。",
+      "japanese": "それら⟦の→の：09472_no⟧⟦{問題|もんだい}→問題：00797_mondai⟧⟦について→〜について：03103_nitsuite⟧⟦{話|はな}し{合|あ}いましょう→話し合う：02396_hanashiau⟧。",
       "english": "Let's discuss those issues.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22844_sorera_ex3",
-      "japanese": "{調査|ちょうさ}{結果|けっか}をまとめたが、それらのデータはまだ{公開|こうかい}されていない。",
+      "japanese": "⟦{調査|ちょうさ}→調査：03489_chousa⟧⟦{結果|けっか}→結果：02486_kekka⟧⟦を→を：00422_wo⟧⟦まとめた→まとめる：02424_matomeru⟧⟦が→が：00051_ga⟧、それら⟦の→の：09472_no⟧⟦データ→データ：03944_deeta⟧⟦は→は：00079_ha⟧⟦まだ→まだ：00603_mada⟧⟦{公開|こうかい}→公開：11665_koukai⟧⟦されていない→する：00392_suru⟧。",
       "english": "I compiled the survey results, but those data have not yet been made public.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "The plural form of それ (that). Part of the ko-so-a-do demonstrative system: これら (these, near speaker), それら (those, near listener or previously mentioned), あれら (those, distant from both).\n\nUSAGE:\nMore common in written and formal Japanese than in everyday conversation. In casual speech, Japanese speakers tend to use それ without the plural marker, since Japanese nouns do not require number marking. それら is preferred when the writer wants to explicitly indicate plurality, especially in academic, legal, or official writing.\n\nCOMMON PATTERNS:\n- それらの + noun: those (as a modifier)\n- それらを + verb: those (as an object)\n- それらは: those (as a topic/subject)\n\nRELATED TERMS:\n- これら: these — the plural of これ (near the speaker)\n- あれら: those over there — the plural of あれ (distant)\n- それぞれ: each one, respectively — related but means \"each\" rather than \"those\"",
+  "notes": "The plural form of ⟦それ→それ：00994_sore⟧ (that). Part of the ko-so-a-do demonstrative system: ⟦これら→これら：02814_korera⟧ (these, near speaker), それら (those, near listener or previously mentioned), ⟦あれら→あれら：23758_arera⟧ (those, distant from both).\n\nUSAGE:\nMore common in written and formal Japanese than in everyday conversation. In casual speech, Japanese speakers tend to use ⟦それ→それ：00994_sore⟧ without the plural marker, since Japanese nouns do not require number marking. それら is preferred when the writer wants to explicitly indicate plurality, especially in academic, legal, or official writing.\n\nCOMMON PATTERNS:\n- それら⟦の→の：09472_no⟧ + noun: those (as a modifier)\n- それら⟦を→を：00422_wo⟧ + verb: those (as an object)\n- それら⟦は→は：00079_ha⟧: those (as a topic/subject)\n\nRELATED WORDS:\n- ⟦これら→これら：02814_korera⟧: these — the plural of ⟦これ→これ：00963_kore⟧ (near the speaker)\n- ⟦あれら→あれら：23758_arera⟧: those over there — the plural of ⟦あれ→あれ：00916_are⟧ (distant)\n- ⟦それぞれ→それぞれ：01453_sorezore⟧: each one, respectively — related but means \"each\" rather than \"those\"",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -52,12 +52,13 @@
       "pos": [
         "pronoun"
       ],
+      "politeness": "plain",
       "semantic": [
         "grammatical"
       ]
     },
     "created": "2026-04-07T18:22:39Z",
-    "modified": "2026-08-20T12:24:43Z"
+    "modified": "2026-09-02T04:02:09Z"
   },
   "cross_references": [
     {
@@ -73,6 +74,13 @@
       "reading": "あれら",
       "headword": "あれら",
       "label": "those (far from both)"
+    },
+    {
+      "type": "related",
+      "target_id": "01453_sorezore",
+      "reading": "それぞれ",
+      "headword": "それぞれ",
+      "label": "each one, respectively"
     }
   ]
 }

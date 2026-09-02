@@ -3,7 +3,7 @@
   "headword": "{騎乗|きじょう}",
   "reading": "きじょう",
   "romaji": "kijou",
-  "part_of_speech": "noun; verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "horse riding; mounting a horse",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25138_kijou_ex1",
-      "japanese": "{騎手|きしゅ}が{馬|うま}に{騎乗|きじょう}する。",
+      "japanese": "⟦{騎手|きしゅ}→騎手：21820_kishu⟧⟦が→が：00051_ga⟧⟦{馬|うま}→馬：01865_uma⟧⟦に→に：00314_ni⟧{騎乗|きじょう}⟦する→する：00392_suru⟧。",
       "english": "The jockey mounts the horse.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25138_kijou_ex2",
-      "japanese": "{武士|ぶし}は{騎乗|きじょう}したまま{弓|ゆみ}を{射|い}た。",
+      "japanese": "⟦{武士|ぶし}→武士：03989_bushi⟧⟦は→は：00079_ha⟧{騎乗|きじょう}⟦した→する：00392_suru⟧まま⟦{弓|ゆみ}→弓：08430_yumi⟧⟦を→を：00422_wo⟧{射|い}た。",
       "english": "The samurai shot an arrow while mounted on horseback.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25138_kijou_ex3",
-      "japanese": "{初心者|しょしんしゃ}でも{安全|あんぜん}に{騎乗|きじょう}できるよう、インストラクターが{丁寧|ていねい}に{指導|しどう}してくれる。",
+      "japanese": "⟦{初心者|しょしんしゃ}→初心者：10149_shoshinsha⟧で⟦も→も：00484_mo⟧⟦{安全|あんぜん}→安全：01131_anzen⟧⟦に→に：00314_ni⟧{騎乗|きじょう}⟦できる→できる：00557_dekiru⟧よう、インストラクター⟦が→が：00051_ga⟧⟦{丁寧|ていねい}→丁寧：00896_teinei⟧⟦に→に：00314_ni⟧⟦{指導|しどう}→指導：03190_shidou⟧⟦して→する：00392_suru⟧⟦くれる→くれる：00724_kureru⟧。",
       "english": "The instructor carefully guides even beginners so they can ride safely.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {騎|き} (to ride, mounted) and {乗|じょう} (to ride, to mount). Used in formal and technical contexts related to horseback riding, equestrian sports, and horse racing. In everyday conversation, {馬|うま}に{乗|の}る is more common.\n\nThe word appears frequently in horse racing ({競馬|けいば}), where jockeys ({騎手|きしゅ}) are described as {騎乗|きじょう}する, and in historical contexts about mounted warriors.\n\nCOMMON COLLOCATIONS:\n- {騎乗|きじょう}する: to mount, to ride\n- {騎乗|きじょう}{姿勢|しせい}: riding posture\n- {騎乗|きじょう}{体験|たいけん}: horseback riding experience\n- {騎乗|きじょう}{停止|ていし}: riding suspension (horse racing penalty)\n\nSIMILAR WORDS:\n- {乗馬|じょうば}: horseback riding — the general term for recreational or sport riding\n- {騎馬|きば}: mounted on horseback — emphasizes the military or ceremonial aspect\n- {馬術|ばじゅつ}: equestrian art; horsemanship — the formal discipline of riding",
+  "notes": "A compound of {騎|き} (to ride, mounted) and {乗|じょう} (to ride, to mount). Used in formal and technical contexts related to horseback riding, equestrian sports, and horse racing. In everyday conversation, ⟦{馬|うま}→馬：01865_uma⟧⟦に→に：00314_ni⟧⟦{乗|の}る→乗る：00511_noru⟧ is more common.\n\nThe word appears frequently in horse racing (⟦{競馬|けいば}→競馬：00207_keiba⟧), where jockeys (⟦{騎手|きしゅ}→騎手：21820_kishu⟧) are described as {騎乗|きじょう}⟦する→する：00392_suru⟧, and in historical contexts about mounted warriors.\n\nCOMMON COLLOCATIONS:\n- {騎乗|きじょう}⟦する→する：00392_suru⟧: to mount, to ride\n- {騎乗|きじょう}⟦{姿勢|しせい}→姿勢：00371_shisei⟧: riding posture\n- {騎乗|きじょう}⟦{体験|たいけん}→体験：11443_taiken⟧: horseback riding experience\n- {騎乗|きじょう}⟦{停止|ていし}→停止：04067_teishi⟧: riding suspension (horse racing penalty)\n\nSIMILAR WORDS:\n- ⟦{乗馬|じょうば}→乗馬：17123_jouba⟧: horseback riding — the general term for recreational or sport riding\n- ⟦{騎馬|きば}→騎馬：24597_kiba⟧: mounted on horseback — emphasizes the military or ceremonial aspect\n- {馬術|ばじゅつ}: equestrian art; horsemanship — the formal discipline of riding",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17123_jouba",
+      "reading": "じょうば",
+      "headword": "{乗馬|じょうば}",
+      "label": "horseback riding"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24597_kiba",
+      "reading": "きば",
+      "headword": "{騎馬|きば}",
+      "label": "mounted on horseback"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,6 +69,7 @@
         "noun",
         "verb-suru"
       ],
+      "politeness": "plain",
       "semantic": [
         "sports",
         "transportation"
@@ -60,7 +77,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-23T12:21:33Z",
-    "modified": "2026-08-04T12:59:53Z"
+    "modified": "2026-09-02T04:02:21Z"
   },
   "conjugation": {
     "type": "suru",

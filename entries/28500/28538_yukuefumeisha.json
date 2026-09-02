@@ -15,41 +15,60 @@
   "examples": [
     {
       "id": "28538_yukuefumeisha_ex1",
-      "japanese": "{行方不明者|ゆくえふめいしゃ}が{出|で}た。",
+      "japanese": "{行方不明者|ゆくえふめいしゃ}⟦が→が：00051_ga⟧⟦{出|で}た→出る：00513_deru⟧。",
       "english": "There were people who went missing.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28538_yukuefumeisha_ex2",
-      "japanese": "{行方不明者|ゆくえふめいしゃ}の{捜索|そうさく}が{続|つづ}いている。",
+      "japanese": "{行方不明者|ゆくえふめいしゃ}⟦の→の：09472_no⟧⟦{捜索|そうさく}→捜索：19220_sousaku⟧⟦が→が：00051_ga⟧⟦{続|つづ}いている→続く：00903_tsuzuku⟧。",
       "english": "The search for the missing person continues.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28538_yukuefumeisha_ex3",
-      "japanese": "{地震|じしん}による{死者|ししゃ}は{二十名|にじゅうめい}、{行方不明者|ゆくえふめいしゃ}は{十名|じゅうめい}に{達|たっ}した。",
+      "japanese": "⟦{地震|じしん}→地震：01608_jishin⟧⟦による→による：28349_niyoru⟧⟦{死者|ししゃ}→死者：13225_shisha⟧⟦は→は：00079_ha⟧{二十名|にじゅうめい}、{行方不明者|ゆくえふめいしゃ}⟦は→は：00079_ha⟧{十名|じゅうめい}⟦に→に：00314_ni⟧⟦{達|たっ}した→達する：02129_tassuru⟧。",
       "english": "The earthquake's death toll reached 20, with 10 people still missing.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Compound of {行方|ゆくえ} (whereabouts) + {不明|ふめい} (unknown) + {者|しゃ} (person). Standard news-and-officialese term, especially in reporting on natural disasters, accidents, and police investigations.\n\nCOMMON COLLOCATIONS:\n- {行方不明者|ゆくえふめいしゃ}の{捜索|そうさく}: search for missing people\n- {行方不明者|ゆくえふめいしゃ}{届|とどけ}: missing person report (filed with police)\n- {行方不明者|ゆくえふめいしゃ}が{出|で}る: for someone to go missing\n- {行方不明者|ゆくえふめいしゃ}の{家族|かぞく}: family of a missing person\n\nSIMILAR WORDS:\n- {行方不明|ゆくえふめい}: missing; whereabouts unknown — the adjectival/state-of-being form (e.g. {行方不明|ゆくえふめい}になる, to go missing)\n- {失踪者|しっそうしゃ}: missing person; runaway — emphasizes that the person disappeared deliberately, often used in legal contexts",
+  "notes": "Compound of ⟦{行方|ゆくえ}→行方：04082_yukue⟧ (whereabouts) + ⟦{不明|ふめい}→不明：11352_fumei⟧ (unknown) + ⟦{者|しゃ}→〜者：04662_sha⟧ (person). Standard news-and-officialese term, especially in reporting on natural disasters, accidents, and police investigations.\n\nCOMMON COLLOCATIONS:\n- {行方不明者|ゆくえふめいしゃ}⟦の→の：09472_no⟧⟦{捜索|そうさく}→捜索：19220_sousaku⟧: search for missing people\n- {行方不明者|ゆくえふめいしゃ}{届|とどけ}: missing person report (filed with police)\n- {行方不明者|ゆくえふめいしゃ}⟦が→が：00051_ga⟧⟦{出|で}る→出る：00513_deru⟧: for someone to go missing\n- {行方不明者|ゆくえふめいしゃ}⟦の→の：09472_no⟧⟦{家族|かぞく}→家族：00552_kazoku⟧: family of a missing person\n\nSIMILAR WORDS:\n- ⟦{行方不明|ゆくえふめい}→行方不明：14039_yukuefumei⟧: missing; whereabouts unknown — the adjectival/state-of-being form (e.g. ⟦{行方不明|ゆくえふめい}→行方不明：14039_yukuefumei⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧, to go missing)\n- {失踪者|しっそうしゃ}: missing person; runaway — emphasizes that the person disappeared deliberately, often used in legal contexts",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "26725_haikaisha",
+      "reading": "はいかいしゃ",
+      "headword": "{徘徊者|はいかいしゃ}",
+      "label": "wanderer"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
-      "politeness": null,
-      "semantic": ["society"],
+      "politeness": "plain",
+      "semantic": [
+        "society"
+      ],
       "domain": []
     },
     "created": "2026-06-01T04:07:37Z",
-    "modified": "2026-06-01T04:07:37Z"
+    "modified": "2026-09-02T04:02:34Z"
   }
 }

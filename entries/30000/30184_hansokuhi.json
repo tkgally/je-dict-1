@@ -16,7 +16,7 @@
   "examples": [
     {
       "id": "30184_hansokuhi_ex1",
-      "japanese": "{販促費|はんそくひ}を{削|けず}ることになった。",
+      "japanese": "{販促費|はんそくひ}⟦を→を：00422_wo⟧⟦{削|けず}る→削る：03922_kezuru⟧ことになった。",
       "english": "It was decided to cut the sales promotion budget.",
       "sense_numbers": [
         1
@@ -26,7 +26,7 @@
     },
     {
       "id": "30184_hansokuhi_ex2",
-      "japanese": "{今年度|こんねんど}の{販促費|はんそくひ}は{昨年度|さくねんど}より{多|おお}い。",
+      "japanese": "⟦{今年度|こんねんど}→今年度：28220_konnendo⟧⟦の→の：09472_no⟧{販促費|はんそくひ}⟦は→は：00079_ha⟧{昨年度|さくねんど}⟦より→より：09476_yori⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "This fiscal year's promotional budget is larger than last year's.",
       "sense_numbers": [
         1
@@ -36,7 +36,7 @@
     },
     {
       "id": "30184_hansokuhi_ex3",
-      "japanese": "{新商品|しんしょうひん}の{販促費|はんそくひ}として、{三千万円|さんぜんまんえん}が{計上|けいじょう}された。",
+      "japanese": "⟦{新商品|しんしょうひん}→新商品：11504_shinshouhin⟧⟦の→の：09472_no⟧{販促費|はんそくひ}⟦として→として：06802_toshite⟧、{三千万円|さんぜんまんえん}⟦が→が：00051_ga⟧⟦{計上|けいじょう}→計上：08006_keijou⟧⟦された→する：00392_suru⟧。",
       "english": "Thirty million yen was budgeted as promotional expenses for the new product.",
       "sense_numbers": [
         1
@@ -46,7 +46,7 @@
     },
     {
       "id": "30184_hansokuhi_ex4",
-      "japanese": "{売上|うりあげ}が{伸|の}びなかったのは、{販促費|はんそくひ}の{使|つか}い{方|かた}に{問題|もんだい}があったからだ。",
+      "japanese": "⟦{売上|うりあげ}→売上：04102_uriage⟧⟦が→が：00051_ga⟧⟦{伸|の}びなかった→伸びる：01974_nobiru⟧⟦の→の：09472_no⟧⟦は→は：00079_ha⟧、{販促費|はんそくひ}⟦の→の：09472_no⟧⟦{使|つか}い{方|かた}→使い方：07797_tsukaikata⟧⟦に→に：00314_ni⟧⟦{問題|もんだい}→問題：00797_mondai⟧⟦が→が：00051_ga⟧⟦あった→ある：00006_aru⟧⟦から→から：00504_kara⟧だ。",
       "english": "Sales did not grow because there was a problem with how the promotional budget was spent.",
       "sense_numbers": [
         1
@@ -55,7 +55,30 @@
       "notes": null
     }
   ],
-  "notes": "An abbreviation of {販売促進費|はんばいそくしんひ}. The short form is what appears in budget spreadsheets and internal discussion; the full form is used in formal accounting documents.\n\nCOMMON COLLOCATIONS:\n- {販促費|はんそくひ}を{削減|さくげん}する: to cut promotional spending\n- {販促費|はんそくひ}をかける: to spend money on promotion\n- {販促費|はんそくひ}を{計上|けいじょう}する: to budget for promotional expenses\n\nSIMILAR WORDS:\n- {広告費|こうこくひ}: advertising expenses — money spent on ads themselves, a narrower category\n- {経費|けいひ}: business expenses — the general term covering all company spending",
+  "notes": "An abbreviation of ⟦{販売促進費|はんばいそくしんひ}→販売促進費：30209_hanbaisokushinhi⟧. The short form is what appears in budget spreadsheets and internal discussion; the full form is used in formal accounting documents.\n\nCOMMON COLLOCATIONS:\n- {販促費|はんそくひ}⟦を→を：00422_wo⟧⟦{削減|さくげん}する→削減する：25399_sakugensuru⟧: to cut promotional spending\n- {販促費|はんそくひ}⟦を→を：00422_wo⟧⟦かける→かける：00854_kakeru⟧: to spend money on promotion\n- {販促費|はんそくひ}⟦を→を：00422_wo⟧⟦{計上|けいじょう}→計上：08006_keijou⟧⟦する→する：00392_suru⟧: to budget for promotional expenses\n\nSIMILAR WORDS:\n- ⟦{広告費|こうこくひ}→広告費：30159_koukokuhi⟧: advertising expenses — money spent on ads themselves, a narrower category\n- ⟦{経費|けいひ}→経費：04696_keihi⟧: business expenses — the general term covering all company spending",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "30159_koukokuhi",
+      "reading": "こうこくひ",
+      "headword": "{広告費|こうこくひ}",
+      "label": "advertising expenses"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04696_keihi",
+      "reading": "けいひ",
+      "headword": "{経費|けいひ}",
+      "label": "business expenses"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30168_sendenhi",
+      "reading": "せんでんひ",
+      "headword": "宣伝費",
+      "label": "advertising expenses"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -63,7 +86,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "business",
         "money"
@@ -73,6 +96,6 @@
       ]
     },
     "created": "2026-07-28T12:21:16Z",
-    "modified": "2026-07-28T12:21:16Z"
+    "modified": "2026-09-02T04:02:39Z"
   }
 }

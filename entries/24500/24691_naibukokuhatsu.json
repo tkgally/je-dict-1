@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24691_naibukokuhatsu_ex1",
-      "japanese": "{内部告発|ないぶこくはつ}で{不正|ふせい}が{発覚|はっかく}した。",
+      "japanese": "{内部告発|ないぶこくはつ}⟦で→で：00502_de⟧⟦{不正|ふせい}→不正：01660_fusei⟧⟦が→が：00051_ga⟧⟦{発覚|はっかく}した→発覚する：15423_hakkakusuru⟧。",
       "english": "The fraud was uncovered through whistleblowing.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24691_naibukokuhatsu_ex2",
-      "japanese": "{社員|しゃいん}が{会社|かいしゃ}の{違法行為|いほうこうい}を{内部告発|ないぶこくはつ}した。",
+      "japanese": "⟦{社員|しゃいん}→社員：03065_shain⟧⟦が→が：00051_ga⟧⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦の→の：09472_no⟧{違法行為|いほうこうい}⟦を→を：00422_wo⟧{内部告発|ないぶこくはつ}⟦した→する：00392_suru⟧。",
       "english": "An employee blew the whistle on the company's illegal activities.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24691_naibukokuhatsu_ex3",
-      "japanese": "{内部告発者|ないぶこくはつしゃ}を{保護|ほご}する{法律|ほうりつ}が{整備|せいび}されつつある。",
+      "japanese": "{内部告発者|ないぶこくはつしゃ}⟦を→を：00422_wo⟧⟦{保護|ほご}する→保護する：25374_hogosuru⟧⟦{法律|ほうりつ}→法律：01722_houritsu⟧⟦が→が：00051_ga⟧⟦{整備|せいび}→整備：04037_seibi⟧⟦され→する：00392_suru⟧つつ⟦ある→ある：00006_aru⟧。",
       "english": "Laws to protect whistleblowers are gradually being put in place.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Refers specifically to disclosure by someone inside an organization, distinguishing it from external investigation or journalism. The word carries a serious tone and is used in legal, corporate, and media contexts.\n\nCOMMON COLLOCATIONS:\n- {内部告発|ないぶこくはつ}する: to blow the whistle\n- {内部告発|ないぶこくはつ}を{行|おこな}う: to carry out whistleblowing\n- {内部告発者|ないぶこくはつしゃ}: whistleblower\n- {内部告発|ないぶこくはつ}{制度|せいど}: whistleblower system\n- {匿名|とくめい}の{内部告発|ないぶこくはつ}: anonymous whistleblowing\n\nCULTURAL NOTE:\nJapan enacted the Whistleblower Protection Act ({公益通報者保護法|こうえきつうほうしゃほごほう}) in 2004 to shield whistleblowers from retaliation. Despite the law, cultural emphasis on group loyalty and harmony means whistleblowers often face social pressure.\n\nSIMILAR WORDS:\n- {告発|こくはつ}: accusation, indictment — broader term for any formal accusation, not limited to insiders\n- {通報|つうほう}: reporting, notification — more neutral, used for reporting incidents to police or authorities\n- {密告|みっこく}: secret tip-off, informing — carries a more negative connotation, suggesting betrayal",
+  "notes": "Refers specifically to disclosure by someone inside an organization, distinguishing it from external investigation or journalism. The word carries a serious tone and is used in legal, corporate, and media contexts.\n\nCOMMON COLLOCATIONS:\n- {内部告発|ないぶこくはつ}⟦する→する：00392_suru⟧: to blow the whistle\n- {内部告発|ないぶこくはつ}⟦を→を：00422_wo⟧⟦{行|おこな}う→行う：01238_okonau⟧: to carry out whistleblowing\n- {内部告発者|ないぶこくはつしゃ}: whistleblower\n- {内部告発|ないぶこくはつ}⟦{制度|せいど}→制度：03291_seido⟧: whistleblower system\n- ⟦{匿名|とくめい}→匿名：11797_tokumei⟧⟦の→の：09472_no⟧{内部告発|ないぶこくはつ}: anonymous whistleblowing\n\nCULTURAL NOTE:\nJapan enacted the Whistleblower Protection Act ({公益通報者保護法|こうえきつうほうしゃほごほう}) in 2004 to shield whistleblowers from retaliation. Despite the law, cultural emphasis on group loyalty and harmony means whistleblowers often face social pressure.\n\nSIMILAR WORDS:\n- ⟦{告発|こくはつ}→告発：07999_kokuhatsu⟧: accusation, indictment — broader term for any formal accusation, not limited to insiders\n- ⟦{通報|つうほう}→通報：14318_tsuuhou⟧: reporting, notification — more neutral, used for reporting incidents to police or authorities\n- ⟦{密告|みっこく}→密告：18033_mikkoku⟧: secret tip-off, informing — carries a more negative connotation, suggesting betrayal",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14318_tsuuhou",
+      "reading": "つうほう",
+      "headword": "{通報|つうほう}",
+      "label": "reporting, notification"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18033_mikkoku",
+      "reading": "みっこく",
+      "headword": "{密告|みっこく}",
+      "label": "secret tip-off, informing"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -67,7 +83,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-20T12:08:22Z",
-    "modified": "2026-06-15T07:58:51Z"
+    "modified": "2026-09-02T04:02:19Z"
   },
   "conjugation": {
     "type": "suru",

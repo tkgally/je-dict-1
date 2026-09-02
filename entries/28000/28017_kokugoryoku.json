@@ -15,41 +15,75 @@
   "examples": [
     {
       "id": "28017_kokugoryoku_ex1",
-      "japanese": "{国語力|こくごりょく}を{付|つ}けたい。",
+      "japanese": "{国語力|こくごりょく}⟦を→を：00422_wo⟧⟦{付|つ}けたい→付ける：00761_tsukeru⟧。",
       "english": "I want to build up my Japanese language skills.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28017_kokugoryoku_ex2",
-      "japanese": "{読書|どくしょ}は{子供|こども}の{国語力|こくごりょく}を{高|たか}める。",
+      "japanese": "⟦{読書|どくしょ}→読書：03484_dokusho⟧⟦は→は：00079_ha⟧⟦{子供|こども}→子供：00554_kodomo⟧⟦の→の：09472_no⟧{国語力|こくごりょく}⟦を→を：00422_wo⟧⟦{高|たか}める→高める：02065_takameru⟧。",
       "english": "Reading improves children's language ability.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28017_kokugoryoku_ex3",
-      "japanese": "どの{教科|きょうか}でも、{問題|もんだい}を{正|ただ}しく{読|よ}み{取|と}る{国語力|こくごりょく}が{土台|どだい}になる。",
+      "japanese": "⟦どの→どの：00551_dono⟧⟦{教科|きょうか}→教科：09998_kyouka⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧、⟦{問題|もんだい}→問題：00797_mondai⟧⟦を→を：00422_wo⟧⟦{正|ただ}しく→正しい：00893_tadashii⟧⟦{読|よ}み{取|と}る→読み取る：04602_yomitoru⟧{国語力|こくごりょく}⟦が→が：00051_ga⟧⟦{土台|どだい}→土台：07146_dodai⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧。",
       "english": "In every subject, the language ability to read problems correctly is the foundation.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {国語|こくご} (national language; Japanese as a school subject) + {力|りょく} (ability). Refers to overall competence in one's native Japanese, not foreign-language skill.\n\nCOMMON COLLOCATIONS:\n- {国語力|こくごりょく}を{付|つ}ける: to build language ability\n- {国語力|こくごりょく}を{高|たか}める: to improve language ability\n- {国語力|こくごりょく}が{低下|ていか}する: language ability declines\n\nSIMILAR WORDS:\n- {語学力|ごがくりょく}: foreign-language ability — usually skill in a non-native language\n- {読解力|どっかいりょく}: reading comprehension — one component of {国語力|こくごりょく}",
+  "notes": "Composed of ⟦{国語|こくご}→国語：02739_kokugo⟧ (national language; Japanese as a school subject) + {力|りょく} (ability). Refers to overall competence in one's native Japanese, not foreign-language skill.\n\nCOMMON COLLOCATIONS:\n- {国語力|こくごりょく}⟦を→を：00422_wo⟧⟦{付|つ}ける→付ける：00761_tsukeru⟧: to build language ability\n- {国語力|こくごりょく}⟦を→を：00422_wo⟧⟦{高|たか}める→高める：02065_takameru⟧: to improve language ability\n- {国語力|こくごりょく}⟦が→が：00051_ga⟧⟦{低下|ていか}→低下：04065_teika⟧⟦する→する：00392_suru⟧: language ability declines\n\nSIMILAR WORDS:\n- ⟦{語学力|ごがくりょく}→語学力：29443_gogakuryoku⟧: foreign-language ability — usually skill in a non-native language\n- ⟦{読解力|どっかいりょく}→読解力：09290_dokkairyoku⟧: reading comprehension — one component of {国語力|こくごりょく}",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "29443_gogakuryoku",
+      "reading": "ごがくりょく",
+      "headword": "語学力",
+      "label": "foreign-language ability"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09290_dokkairyoku",
+      "reading": "どっかいりょく",
+      "headword": "{読解力|どっかいりょく}",
+      "label": "reading comprehension"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23938_gengonouryoku",
+      "reading": "げんごのうりょく",
+      "headword": "{言語能力|げんごのうりょく}",
+      "label": "language ability"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["education", "language"],
+      "politeness": "plain",
+      "semantic": [
+        "education",
+        "language"
+      ],
       "domain": []
     },
     "created": "2026-05-24T03:09:30Z",
-    "modified": "2026-05-24T03:09:30Z"
+    "modified": "2026-09-02T04:02:32Z"
   }
 }

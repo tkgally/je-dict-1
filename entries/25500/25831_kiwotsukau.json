@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25831_kiwotsukau_ex1",
-      "japanese": "{彼女|かのじょ}はいつも{周|まわ}りに{気|き}を{遣|つか}う。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧⟦いつも→いつも：00599_itsumo⟧⟦{周|まわ}り→周り：01732_mawari⟧⟦に→に：00314_ni⟧{気|き}を{遣|つか}う。",
       "english": "She is always considerate of those around her.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25831_kiwotsukau_ex2",
-      "japanese": "{上司|じょうし}に{気|き}を{遣|つか}って{疲|つか}れてしまった。",
+      "japanese": "⟦{上司|じょうし}→上司：03286_joushi⟧⟦に→に：00314_ni⟧{気|き}を{遣|つか}って⟦{疲|つか}れて→疲れる：00901_tsukareru⟧しまった。",
       "english": "I wore myself out being attentive to my boss.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25831_kiwotsukau_ex3",
-      "japanese": "そんなに{気|き}を{遣|つか}わなくていいですよ。{楽|らく}にしてください。",
+      "japanese": "⟦そんな→そんな：01645_sonna⟧⟦に→に：00314_ni⟧{気|き}を{遣|つか}わなくて⟦いい→いい：00118_ii⟧です⟦よ→よ：09475_yo⟧。⟦{楽|らく}→楽：02169_raku⟧にして⟦ください→ください：02899_kudasai⟧。",
       "english": "You don't have to be so considerate. Please relax.",
       "sense_numbers": [
         1
@@ -45,7 +45,7 @@
     },
     {
       "id": "25831_kiwotsukau_ex4",
-      "japanese": "{初|はじ}めて{彼|かれ}の{両親|りょうしん}に{会|あ}ったとき、{気|き}を{遣|つか}いすぎて{何|なに}も{食|た}べられなかった。",
+      "japanese": "⟦{初|はじ}めて→初めて：02932_hajimete⟧⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧⟦{両親|りょうしん}→両親：00806_ryoushin⟧⟦に→に：00314_ni⟧⟦{会|あ}った→会う：00482_au⟧とき、{気|き}を{遣|つか}いすぎて⟦{何|なに}も→何も：03874_nanimo⟧⟦{食|た}べられなかった→食べる：00396_taberu⟧。",
       "english": "When I met his parents for the first time, I was so worried about making a good impression that I couldn't eat anything.",
       "sense_numbers": [
         1
@@ -54,8 +54,37 @@
       "notes": null
     }
   ],
-  "notes": "A very common expression describing social attentiveness. Unlike simple politeness, {気|き}を{遣|つか}う implies actively thinking about what others need or feel and modifying one's behavior. It can be seen as a positive trait, but overuse ({気|き}を{遣|つか}いすぎる) is often described as exhausting.\n\nCOMMON PATTERNS:\n- {気|き}を{遣|つか}いすぎる: to be overly considerate\n- {気|き}を{遣|つか}わせる: to make someone feel they need to be attentive\n- {気|き}を{遣|つか}わなくていい: you don't need to be so considerate\n- {気遣|きづか}い: consideration; thoughtfulness (noun form)\n\nSIMILAR WORDS:\n- {気|き}を{配|くば}る: to be watchful; to pay attention — focuses on being alert to surroundings rather than adjusting behavior for someone's comfort\n- {思|おも}いやる: to be sympathetic; to empathize — emphasizes emotional understanding rather than behavioral adjustment\n- {気|き}にかける: to be concerned about — focuses on worry or thinking about someone, not necessarily acting on it",
-  "cross_references": [],
+  "notes": "A very common expression describing social attentiveness. Unlike simple politeness, {気|き}を{遣|つか}う implies actively thinking about what others need or feel and modifying one's behavior. It can be seen as a positive trait, but overuse ({気|き}を{遣|つか}いすぎる) is often described as exhausting.\n\nCOMMON PATTERNS:\n- {気|き}を{遣|つか}いすぎる: to be overly considerate\n- {気|き}を{遣|つか}わせる: to make someone feel they need to be attentive\n- {気|き}を{遣|つか}わなくて⟦いい→いい：00118_ii⟧: you don't need to be so considerate\n- ⟦{気遣|きづか}い→気遣い：07295_kizukai⟧: consideration; thoughtfulness (noun form)\n\nSIMILAR WORDS:\n- ⟦{気|き}を{配|くば}る→気を配る：26559_kiwokubaru⟧: to be watchful; to pay attention — focuses on being alert to surroundings rather than adjusting behavior for someone's comfort\n- ⟦{思|おも}いやる→思いやる：25839_omoiyaru⟧: to be sympathetic; to empathize — emphasizes emotional understanding rather than behavioral adjustment\n- ⟦{気|き}にかける→気にかける：18063_kinikakeru⟧: to be concerned about — focuses on worry or thinking about someone, not necessarily acting on it",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "26559_kiwokubaru",
+      "reading": "きをくばる",
+      "headword": "{気|き}を{配|くば}る",
+      "label": "to be watchful"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25839_omoiyaru",
+      "reading": "おもいやる",
+      "headword": "{思|おも}いやる",
+      "label": "to be sympathetic"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18063_kinikakeru",
+      "reading": "きにかける",
+      "headword": "{気|き}にかける",
+      "label": "to be concerned about"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26831_hairyosuru",
+      "reading": "はいりょする",
+      "headword": "{配慮|はいりょ}する",
+      "label": "to give consideration"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -71,6 +100,6 @@
       ]
     },
     "created": "2026-04-27T15:06:12Z",
-    "modified": "2026-08-04T21:28:28Z"
+    "modified": "2026-09-02T04:02:24Z"
   }
 }

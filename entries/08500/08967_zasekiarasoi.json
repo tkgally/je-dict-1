@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08967_zasekiarasoi_ex1",
-      "japanese": "{電車|でんしゃ}の{座席|ざせき}{争|あらそ}いは{疲|つか}れる。",
+      "japanese": "⟦{電車|でんしゃ}→電車：00522_densha⟧⟦の→の：09472_no⟧{座席|ざせき}{争|あらそ}い⟦は→は：00079_ha⟧⟦{疲|つか}れる→疲れる：00901_tsukareru⟧。",
       "english": "Competing for train seats is exhausting.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "08967_zasekiarasoi_ex2",
-      "japanese": "{座席|ざせき}{争|あらそ}いを{避|さ}けるために{早|はや}く{来|き}た。",
+      "japanese": "{座席|ざせき}{争|あらそ}い⟦を→を：00422_wo⟧⟦{避|さ}ける→避ける：02109_sakeru⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧⟦{早|はや}く→早い：00514_hayai⟧⟦{来|き}た→来る：00254_kuru⟧。",
       "english": "I came early to avoid the scramble for seats.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "08967_zasekiarasoi_ex3",
-      "japanese": "{始発駅|しはつえき}なら{座席|ざせき}{争|あらそ}いをしなくて{済|す}む。",
+      "japanese": "⟦{始発駅|しはつえき}→始発駅：26069_shihatsueki⟧なら{座席|ざせき}{争|あらそ}い⟦を→を：00422_wo⟧⟦しなくて→する：00392_suru⟧⟦{済|す}む→済む：01950_sumu⟧。",
       "english": "If you board at the first station, you don't have to compete for seats.",
       "notes": null,
       "has_audio": false,
@@ -43,11 +43,26 @@
       ]
     }
   ],
-  "notes": "{座席|ざせき}{争|あらそ}い describes a common phenomenon on crowded Japanese trains.\n\nRELATED EXPRESSIONS:\n- {席取|せきと}り: saving seats; grabbing a seat\n- {席|せき}を{譲|ゆず}る: to give up one's seat\n- {優先席|ゆうせんせき}: priority seating\n\nCULTURAL NOTE:\nIn Japan, there is social pressure against obviously rushing for seats or being aggressive in {座席|ざせき}{争|あらそ}い. Many commuters develop strategies like positioning near doors or knowing which cars have more seats.",
-  "cross_references": [],
+  "notes": "{座席|ざせき}{争|あらそ}い describes a common phenomenon on crowded Japanese trains.\n\nRELATED WORDS:\n- {席取|せきと}り: saving seats; grabbing a seat\n- ⟦{席|せき}を{譲|ゆず}る→席を譲る：16262_sekiwoyuzuru⟧: to give up one's seat\n- ⟦{優先席|ゆうせんせき}→優先席：06202_yuusenseki⟧: priority seating\n\nCULTURAL NOTE:\nIn Japan, there is social pressure against obviously rushing for seats or being aggressive in {座席|ざせき}{争|あらそ}い. Many commuters develop strategies like positioning near doors or knowing which cars have more seats.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "16262_sekiwoyuzuru",
+      "reading": "せきをゆずる",
+      "headword": "{席|せき}を{譲|ゆず}る",
+      "label": "to give up one's seat"
+    },
+    {
+      "type": "related",
+      "target_id": "06202_yuusenseki",
+      "reading": "ゆうせんせき",
+      "headword": "{優先席|ゆうせんせき}",
+      "label": "priority seating"
+    }
+  ],
   "metadata": {
     "created": "2026-01-29T11:04:25Z",
-    "modified": "2026-01-29T11:04:25Z",
+    "modified": "2026-09-02T04:01:16Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

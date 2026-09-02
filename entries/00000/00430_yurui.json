@@ -29,7 +29,7 @@
   "examples": [
     {
       "id": "00430_yurui_ex1",
-      "japanese": "⟦ベルト→ベルト：01508_beruto⟧⟦が→が：00051_ga⟧{緩|ゆる}いので、⟦もう→もう：00602_mou⟧⟦{一|ひと}つ→一つ：02948_hitotsu⟧⟦{穴|あな}→穴：01691_ana⟧⟦を→を：00422_wo⟧⟦{締|し}めた→締める：10057_shimeru⟧。",
+      "japanese": "⟦ベルト→ベルト：01508_beruto⟧⟦が→が：00051_ga⟧{緩|ゆる}い⟦の→の：09472_no⟧で、⟦もう→もう：00602_mou⟧⟦{一|ひと}つ→一つ：02948_hitotsu⟧⟦{穴|あな}→穴：01691_ana⟧⟦を→を：00422_wo⟧⟦{締|し}めた→締める：10057_shimeru⟧。",
       "english": "The belt was loose, so I tightened it one more hole.",
       "has_audio": false,
       "sense_numbers": [
@@ -145,7 +145,7 @@
       ]
     }
   ],
-  "notes": "{緩|ゆる}い is an i-adjective with several related meanings centered on the concept of not being tight or strict.\n\nFORMS:\n- Adverbial: {緩|ゆる}く\n- Noun form: {緩|ゆる}さ (looseness, laxness)\n\nCOMMON PATTERNS:\n- ⟦ベルト→ベルト：01508_beruto⟧が{緩|ゆる}い (belt is loose)\n- ⟦{規則|きそく}→規則：01382_kisoku⟧が{緩|ゆる}い (rules are lenient)\n- {緩|ゆる}い⟦{坂|さか}→坂：01415_saka⟧ (gentle slope)\n- {緩|ゆる}い⟦{流|なが}れ→流れ：03504_nagare⟧ (slow current)\n\nANTONYMS:\n- ⟦{厳|きび}しい→厳しい：01125_kibishii⟧: Strict, severe (for rules)\n- ⟦{急|きゅう}→急：13042_kyuu⟧: Steep, sudden (for slopes)\n- ⟦きつい→きつい：02342_kitsui⟧: Tight (for fit)\n\nCOLLOQUIAL USAGE:\nIn casual speech, {緩|ゆる}い can describe a relaxed, easygoing atmosphere (ゆるい⟦{雰囲気|ふんいき}→雰囲気：03604_funiki⟧) or content that is not too serious (ゆるい⟦コンテンツ→コンテンツ：06234_kontentsu⟧).",
+  "notes": "{緩|ゆる}い is an i-adjective with several related meanings centered on the concept of not being tight or strict.\n\nFORMS:\n- Adverbial: {緩|ゆる}く\n- Noun form: {緩|ゆる}さ (looseness, laxness)\n\nCOMMON PATTERNS:\n- ⟦ベルト→ベルト：01508_beruto⟧⟦が→が：00051_ga⟧{緩|ゆる}い (belt is loose)\n- ⟦{規則|きそく}→規則：01382_kisoku⟧⟦が→が：00051_ga⟧{緩|ゆる}い (rules are lenient)\n- {緩|ゆる}い⟦{坂|さか}→坂：01415_saka⟧ (gentle slope)\n- {緩|ゆる}い⟦{流|なが}れ→流れ：03504_nagare⟧ (slow current)\n\nSIMILAR WORDS:\n- ⟦{厳|きび}しい→厳しい：01125_kibishii⟧: Strict, severe (for rules)\n- ⟦{急|きゅう}→急：13042_kyuu⟧: Steep, sudden (for slopes)\n- ⟦きつい→きつい：02342_kitsui⟧: Tight (for fit)\n\nCOLLOQUIAL USAGE:\nIn casual speech, {緩|ゆる}い can describe a relaxed, easygoing atmosphere (ゆるい⟦{雰囲気|ふんいき}→雰囲気：03604_funiki⟧) or content that is not too serious (ゆるい⟦コンテンツ→コンテンツ：06234_kontentsu⟧).",
   "cross_references": [
     {
       "type": "antonym",
@@ -160,11 +160,39 @@
       "headword": "{緩|ゆる}める",
       "label": "to loosen",
       "target_id": "15263_yurumeru"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13042_kyuu",
+      "reading": "きゅう",
+      "headword": "{急|きゅう}",
+      "label": "Steep, sudden"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02342_kitsui",
+      "reading": "きつい",
+      "headword": "きつい",
+      "label": "Tight"
+    },
+    {
+      "type": "related",
+      "target_id": "10056_yurumu",
+      "reading": "ゆるむ",
+      "headword": "{緩|ゆる}む",
+      "label": "to loosen, to slacken"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20573_bukabuka",
+      "reading": "ぶかぶか",
+      "headword": "ぶかぶか",
+      "label": "baggy"
     }
   ],
   "metadata": {
     "created": "2026-01-13T06:25:33Z",
-    "modified": "2026-08-08T09:25:02Z",
+    "modified": "2026-09-02T04:00:57Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

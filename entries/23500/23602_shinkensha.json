@@ -15,40 +15,67 @@
   "examples": [
     {
       "id": "23602_shinkensha_ex1",
-      "japanese": "{母親|ははおや}が{親権者|しんけんしゃ}となった。",
+      "japanese": "⟦{母親|ははおや}→母親：03564_hahaoya⟧⟦が→が：00051_ga⟧{親権者|しんけんしゃ}⟦と→と：00512_to⟧⟦なった→なる：01970_naru⟧。",
       "english": "The mother became the parent with legal custody.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "23602_shinkensha_ex2",
-      "japanese": "{離婚|りこん}の{際|さい}、どちらが{親権者|しんけんしゃ}になるかで{争|あらそ}った。",
+      "japanese": "⟦{離婚|りこん}→離婚：02530_rikon⟧⟦の→の：09472_no⟧⟦{際|さい}→際：02819_sai⟧、⟦どちら→どちら：00927_dochira⟧⟦が→が：00051_ga⟧{親権者|しんけんしゃ}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦か→か：09473_ka⟧⟦で→で：00502_de⟧⟦{争|あらそ}った→争う：01866_arasou⟧。",
       "english": "When they divorced, they fought over which parent would have legal custody.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "23602_shinkensha_ex3",
-      "japanese": "{未成年者|みせいねんしゃ}の{契約|けいやく}には{親権者|しんけんしゃ}の{同意|どうい}が{必要|ひつよう}です。",
+      "japanese": "{未成年者|みせいねんしゃ}⟦の→の：09472_no⟧⟦{契約|けいやく}→契約：02698_keiyaku⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{親権者|しんけんしゃ}⟦の→の：09472_no⟧⟦{同意|どうい}→同意：05092_doui⟧⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧です。",
       "english": "A contract with a minor requires the consent of the parent with legal authority.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {親権|しんけん} (parental authority) and the suffix {〜者|しゃ} (person). A legal term used in family law and official documents. In Japan, divorcing parents typically cannot share joint custody of a minor child the way they can in many Western countries — one parent is designated as the sole {親権者|しんけんしゃ}, which is often a contentious issue.\n\nCOMMON COLLOCATIONS:\n- {親権者|しんけんしゃ}になる: to become the parent with legal custody\n- {親権者|しんけんしゃ}を{決|き}める: to decide who will have legal custody\n- {親権者|しんけんしゃ}の{同意|どうい}: the consent of the parent with legal authority\n- {親権者|しんけんしゃ}の{変更|へんこう}: change of legal custody\n\nRELATED TERMS:\n- {親権|しんけん}: parental authority (the right itself)\n- {保護者|ほごしゃ}: guardian — broader term that can include legal guardians who are not parents; also used in school contexts\n- {後見人|こうけんにん}: legal guardian — for minors without parents, or for adults who cannot manage their own affairs\n- {未成年者|みせいねんしゃ}: minor — the person over whom parental authority is exercised",
+  "notes": "Composed of ⟦{親権|しんけん}→親権：14161_shinken⟧ (parental authority) and the suffix {〜者|しゃ} (person). A legal term used in family law and official documents. In Japan, divorcing parents typically cannot share joint custody of a minor child the way they can in many Western countries — one parent is designated as the sole {親権者|しんけんしゃ}, which is often a contentious issue.\n\nCOMMON COLLOCATIONS:\n- {親権者|しんけんしゃ}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧: to become the parent with legal custody\n- {親権者|しんけんしゃ}⟦を→を：00422_wo⟧⟦{決|き}める→決める：00858_kimeru⟧: to decide who will have legal custody\n- {親権者|しんけんしゃ}⟦の→の：09472_no⟧⟦{同意|どうい}→同意：05092_doui⟧: the consent of the parent with legal authority\n- {親権者|しんけんしゃ}⟦の→の：09472_no⟧⟦{変更|へんこう}→変更：03616_henkou⟧: change of legal custody\n\nRELATED WORDS:\n- ⟦{親権|しんけん}→親権：14161_shinken⟧: parental authority (the right itself)\n- ⟦{保護者|ほごしゃ}→保護者：11564_hogosha⟧: guardian — broader term that can include legal guardians who are not parents; also used in school contexts\n- ⟦{後見人|こうけんにん}→後見人：10676_koukennin⟧: legal guardian — for minors without parents, or for adults who cannot manage their own affairs\n- {未成年者|みせいねんしゃ}: minor — the person over whom parental authority is exercised",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "11564_hogosha",
+      "reading": "ほごしゃ",
+      "headword": "{保護者|ほごしゃ}",
+      "label": "guardian"
+    },
+    {
+      "type": "related",
+      "target_id": "10676_koukennin",
+      "reading": "こうけんにん",
+      "headword": "{後見人|こうけんにん}",
+      "label": "legal guardian"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["law", "family"]
+      "semantic": [
+        "law",
+        "family"
+      ]
     },
     "created": "2026-04-12T19:25:11Z",
-    "modified": "2026-04-12T19:25:11Z"
+    "modified": "2026-09-02T04:02:13Z"
   }
 }

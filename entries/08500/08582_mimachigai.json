@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08582_mimachigai_ex1",
-      "japanese": "{見|み}{間違|まちが}いかと{思|おも}った。",
+      "japanese": "{見|み}{間違|まちが}い⟦か→か：09473_ka⟧⟦と→と：00512_to⟧⟦{思|おも}った→思う：00492_omou⟧。",
       "english": "I thought I was seeing things.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "08582_mimachigai_ex2",
-      "japanese": "それは{見|み}{間違|まちが}いじゃないですか。",
+      "japanese": "⟦それ→それ：00994_sore⟧⟦は→は：00079_ha⟧{見|み}{間違|まちが}い⟦じゃない→じゃない：28483_janai⟧です⟦か→か：09473_ka⟧。",
       "english": "Isn't that just your eyes playing tricks?",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "08582_mimachigai_ex3",
-      "japanese": "{暗|くら}くて{人|ひと}を{見|み}{間違|まちが}いして{違|ちが}う{人|ひと}に{声|こえ}をかけた。",
+      "japanese": "⟦{暗|くら}くて→暗い：00647_kurai⟧⟦{人|ひと}→人：00476_hito⟧⟦を→を：00422_wo⟧{見|み}{間違|まちが}い⟦して→する：00392_suru⟧⟦{違|ちが}う→違う：01957_chigau⟧⟦{人|ひと}→人：00476_hito⟧⟦に→に：00314_ni⟧⟦{声|こえ}→声：02207_koe⟧⟦を→を：00422_wo⟧⟦かけた→かける：00854_kakeru⟧。",
       "english": "It was dark, and I mistook someone for another person and called out to the wrong person.",
       "sense_numbers": [
         1
@@ -43,7 +43,51 @@
       "notes": null
     }
   ],
-  "notes": "COMPOUND STRUCTURE:\n{見|み}{間違|まちが}い combines {見|み}る (to see) + {間違|まちが}い (mistake). Note that unlike other ～{間違|まちが}い compounds, this one doesn't have the connecting い.\n\nCOMMON CONTEXTS:\n- {人違|ひとちが}い - mistaking someone for another person\n- {暗|くら}い{場所|ばしょ} - dark places\n- {遠|とお}く - from a distance\n- {似|に}ている{物|もの} - similar-looking things\n\nRELATED EXPRESSIONS:\n- {見|み}{間違|まちが}える (verb) - to mistake (visually)\n- {目|め}の{錯覚|さっかく} - optical illusion\n- {人違|ひとちが}い - mistaking someone's identity\n\nRELATED ～{間違|まちが}い WORDS:\n- {聞|き}き{間違|まちが}い - mishearing\n- {言|い}い{間違|まちが}い - slip of the tongue\n- {読|よ}み{間違|まちが}い - misreading",
+  "notes": "ETYMOLOGY:\n{見|み}{間違|まちが}い combines ⟦{見|み}る→見る：00283_miru⟧ (to see) + ⟦{間違|まちが}い→間違い：03733_machigai⟧ (mistake). Note that unlike other ～⟦{間違|まちが}い→間違い：03733_machigai⟧ compounds, this one doesn't have the connecting い.\n\nUSAGE:\n- ⟦{人違|ひとちが}い→人違い：19449_hitochigai⟧ - mistaking someone for another person\n- ⟦{暗|くら}い→暗い：00647_kurai⟧⟦{場所|ばしょ}→場所：00829_basho⟧ - dark places\n- ⟦{遠|とお}く→遠い：00529_tooi⟧ - from a distance\n- ⟦{似|に}ている→似る：01159_niru⟧⟦{物|もの}→物：02259_mono⟧ - similar-looking things\n\nRELATED WORDS:\n- ⟦{見|み}{間違|まちが}える→見間違える：21106_mimachigaeru⟧ (verb) - to mistake (visually)\n- ⟦{目|め}→目：00525_me⟧⟦の→の：09472_no⟧⟦{錯覚|さっかく}→錯覚：06748_sakkaku⟧ - optical illusion\n- ⟦{人違|ひとちが}い→人違い：19449_hitochigai⟧ - mistaking someone's identity\n\nRELATED ～{間違|まちが}い WORDS:\n- ⟦{聞|き}き{間違|まちが}い→聞き間違い：08578_kikimachigai⟧ - mishearing\n- ⟦{言|い}い{間違|まちが}い→言い間違い：08579_iimachigai⟧ - slip of the tongue\n- ⟦{読|よ}み{間違|まちが}い→読み間違い：08581_yomimachigai⟧ - misreading",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "21106_mimachigaeru",
+      "reading": "みまちがえる",
+      "headword": "{見間違|みまちが}える",
+      "label": "verb"
+    },
+    {
+      "type": "related",
+      "target_id": "19449_hitochigai",
+      "reading": "ひとちがい",
+      "headword": "{人違|ひとちが}い",
+      "label": "mistaking someone's identity"
+    },
+    {
+      "type": "related",
+      "target_id": "08578_kikimachigai",
+      "reading": "ききまちがい",
+      "headword": "{聞|き}き{間違|まちが}い",
+      "label": "mishearing"
+    },
+    {
+      "type": "related",
+      "target_id": "08579_iimachigai",
+      "reading": "いいまちがい",
+      "headword": "{言|い}い{間違|まちが}い",
+      "label": "slip of the tongue"
+    },
+    {
+      "type": "related",
+      "target_id": "08581_yomimachigai",
+      "reading": "よみまちがい",
+      "headword": "{読|よ}み{間違|まちが}い",
+      "label": "misreading"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24464_gonin",
+      "reading": "ごにん",
+      "headword": "{誤認|ごにん}",
+      "label": "misidentification"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -51,11 +95,12 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "cognition"
       ]
     },
     "created": "2026-01-27T11:47:10Z",
-    "modified": "2026-06-22T12:50:00Z"
+    "modified": "2026-09-02T04:01:15Z"
   }
 }

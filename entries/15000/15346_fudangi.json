@@ -15,40 +15,59 @@
   "examples": [
     {
       "id": "15346_fudangi_ex1",
-      "japanese": "{普段着|ふだんぎ}で{来|き}てください。",
+      "japanese": "{普段着|ふだんぎ}⟦で→で：00502_de⟧⟦{来|き}て→来る：00254_kuru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please come in casual clothes.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15346_fudangi_ex2",
-      "japanese": "{休日|きゅうじつ}は{普段着|ふだんぎ}でのんびり{過|す}ごす。",
+      "japanese": "⟦{休日|きゅうじつ}→休日：03028_kyuujitsu⟧⟦は→は：00079_ha⟧{普段着|ふだんぎ}⟦で→で：00502_de⟧⟦のんびり→のんびり：01596_nonbiri⟧⟦{過|す}ごす→過ごす：02062_sugosu⟧。",
       "english": "On holidays, I relax in casual clothes.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15346_fudangi_ex3",
-      "japanese": "パーティーだけど{普段着|ふだんぎ}でいいと{言|い}われた。",
+      "japanese": "⟦パーティー→パーティー：02946_paatii⟧だ⟦けど→けど：09477_kedo⟧{普段着|ふだんぎ}⟦で→で：00502_de⟧⟦いい→いい：00118_ii⟧⟦と→と：00512_to⟧⟦{言|い}われた→言う：00515_iu⟧。",
       "english": "I was told that casual clothes are fine for the party.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nUsed to distinguish informal daily wear from formal attire ({正装|せいそう}) or work clothes ({仕事着|しごとぎ}). A practical, everyday word.\n\nCOMMON COLLOCATIONS:\n- {普段着|ふだんぎ}で{出|で}かける (to go out in casual clothes)\n- {普段着|ふだんぎ}のまま (still in casual clothes, as one is)\n- {普段着|ふだんぎ}に{着替|きが}える (to change into casual clothes)\n\nWORD FORMATION:\n{普段|ふだん} (usual, everyday) + {着|ぎ} (wearing, clothes). The き becomes ぎ due to rendaku.",
-  "cross_references": [],
+  "notes": "USAGE:\nUsed to distinguish informal daily wear from formal attire (⟦{正装|せいそう}→正装：16053_seisou⟧) or work clothes ({仕事着|しごとぎ}). A practical, everyday word.\n\nCOMMON COLLOCATIONS:\n- {普段着|ふだんぎ}⟦で→で：00502_de⟧⟦{出|で}かける→出かける：00833_dekakeru⟧ (to go out in casual clothes)\n- {普段着|ふだんぎ}⟦の→の：09472_no⟧まま (still in casual clothes, as one is)\n- {普段着|ふだんぎ}⟦に→に：00314_ni⟧⟦{着替|きが}える→着替える：04603_kigaeru⟧ (to change into casual clothes)\n\nFORMS:\n⟦{普段|ふだん}→普段：00041_fudan⟧ (usual, everyday) + {着|ぎ} (wearing, clothes). The き becomes ぎ due to rendaku.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19686_heyagi",
+      "reading": "へやぎ",
+      "headword": "{部屋着|へやぎ}",
+      "label": "loungewear"
+    }
+  ],
   "metadata": {
     "created": "2026-03-06T09:54:37Z",
-    "modified": "2026-03-06T09:54:37Z",
+    "modified": "2026-09-02T04:01:40Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "semantic": ["clothing"]
+      "politeness": "plain",
+      "semantic": [
+        "clothing"
+      ]
     }
   }
 }

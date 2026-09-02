@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21206_yokugetsu_ex1",
-      "japanese": "{翌月|よくげつ}に{届|とど}いた。",
+      "japanese": "{翌月|よくげつ}⟦に→に：00314_ni⟧⟦{届|とど}いた→届く：00899_todoku⟧。",
       "english": "It arrived the following month.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21206_yokugetsu_ex2",
-      "japanese": "{料金|りょうきん}は{翌月|よくげつ}{払|はら}いになります。",
+      "japanese": "⟦{料金|りょうきん}→料金：03797_ryoukin⟧⟦は→は：00079_ha⟧{翌月|よくげつ}⟦{払|はら}い→払い：18738_harai⟧⟦に→に：00314_ni⟧⟦なります→なる：01970_naru⟧。",
       "english": "The fee will be charged the following month.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21206_yokugetsu_ex3",
-      "japanese": "{入社|にゅうしゃ}したのは{四月|しがつ}で、{翌月|よくげつ}にはもう{出張|しゅっちょう}に{行|い}かされた。",
+      "japanese": "⟦{入社|にゅうしゃ}した→入社する：25409_nyuushasuru⟧⟦の→の：09472_no⟧⟦は→は：00079_ha⟧⟦{四月|しがつ}→四月：00668_shigatsu⟧⟦で→で：00502_de⟧、{翌月|よくげつ}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦もう→もう：00602_mou⟧⟦{出張|しゅっちょう}→出張：01094_shucchou⟧⟦に→に：00314_ni⟧{行|い}かされた。",
       "english": "I joined the company in April, and the very next month I was sent on a business trip.",
       "sense_numbers": [
         1
@@ -44,8 +44,59 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {翌|よく} (next, following) + {月|げつ} (month). A formal time reference word used mainly in writing, news, and business contexts.\n\nCOMMON COLLOCATIONS:\n- {翌月|よくげつ}{払|はら}い: payment the following month\n- {翌月|よくげつ}{末|まつ}: the end of the following month\n- {翌月|よくげつ}の{初|はじ}め: the beginning of the following month\n\nRELATED TIME WORDS WITH {翌|よく}:\n- {翌日|よくじつ}: the next day\n- {翌年|よくねん}: the following year\n- {翌週|よくしゅう}: the following week\n- {翌朝|よくあさ}: the next morning\n\nSIMILAR WORDS:\n- {来月|らいげつ}: next month — used relative to the present moment (\"next month from now\"), whereas {翌月|よくげつ} is relative to a referenced past event\n- {前月|ぜんげつ}: the previous month — the opposite direction in time",
+  "notes": "Composed of ⟦{翌|よく}→翌〜：03970_yoku⟧ (next, following) + {月|げつ} (month). A formal time reference word used mainly in writing, news, and business contexts.\n\nCOMMON COLLOCATIONS:\n- {翌月|よくげつ}⟦{払|はら}い→払い：18738_harai⟧: payment the following month\n- {翌月|よくげつ}{末|まつ}: the end of the following month\n- {翌月|よくげつ}⟦の→の：09472_no⟧⟦{初|はじ}め→初め：02931_hajime⟧: the beginning of the following month\n\nRELATED TIME WORDS WITH {翌|よく}:\n- ⟦{翌日|よくじつ}→翌日：17960_yokujitsu⟧: the next day\n- ⟦{翌年|よくねん}→翌年：23355_yokunen⟧: the following year\n- ⟦{翌週|よくしゅう}→翌週：25325_yokushuu⟧: the following week\n- ⟦{翌朝|よくあさ}→翌朝：03182_yokuasa⟧: the next morning\n\nSIMILAR WORDS:\n- ⟦{来月|らいげつ}→来月：00744_raigetsu⟧: next month — used relative to the present moment (\"next month from now\"), whereas {翌月|よくげつ} is relative to a referenced past event\n- ⟦{前月|ぜんげつ}→前月：21207_zengetsu⟧: the previous month — the opposite direction in time",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "17960_yokujitsu",
+      "reading": "よくじつ",
+      "headword": "{翌日|よくじつ}",
+      "label": "the next day"
+    },
+    {
+      "type": "related",
+      "target_id": "23355_yokunen",
+      "reading": "よくねん",
+      "headword": "{翌年|よくねん}",
+      "label": "the following year"
+    },
+    {
+      "type": "related",
+      "target_id": "25325_yokushuu",
+      "reading": "よくしゅう",
+      "headword": "{翌週|よくしゅう}",
+      "label": "the following week"
+    },
+    {
+      "type": "related",
+      "target_id": "03182_yokuasa",
+      "reading": "よくあさ",
+      "headword": "{翌朝|よくあさ}",
+      "label": "the next morning"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00744_raigetsu",
+      "reading": "らいげつ",
+      "headword": "{来月|らいげつ}",
+      "label": "next month"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21207_zengetsu",
+      "reading": "ぜんげつ",
+      "headword": "{前月|ぜんげつ}",
+      "label": "the previous month"
+    },
+    {
+      "type": "related",
+      "target_id": "03184_yokutoshi",
+      "reading": "よくとし",
+      "headword": "{翌年|よくとし}",
+      "label": "following year, next year"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +110,6 @@
       ]
     },
     "created": "2026-04-01T14:16:10Z",
-    "modified": "2026-07-29T00:22:41Z"
+    "modified": "2026-09-02T04:02:02Z"
   }
 }

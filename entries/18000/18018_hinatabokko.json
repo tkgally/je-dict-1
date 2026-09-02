@@ -2,7 +2,7 @@
   "id": "18018_hinatabokko",
   "headword": "{日向|ひなた}ぼっこ",
   "reading": "ひなたぼっこ",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "basking in the sun; sunbathing",
   "conjugation": {
     "type": "suru",
@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "18018_hinatabokko_ex1",
-      "japanese": "{猫|ねこ}が{日向|ひなた}ぼっこしている。",
+      "japanese": "⟦{猫|ねこ}→猫：02237_neko⟧⟦が→が：00051_ga⟧{日向|ひなた}ぼっこ⟦している→する：00392_suru⟧。",
       "english": "The cat is basking in the sun.",
       "sense_numbers": [
         1
@@ -114,7 +114,7 @@
     },
     {
       "id": "18018_hinatabokko_ex2",
-      "japanese": "{縁側|えんがわ}で{日向|ひなた}ぼっこをするのが{好|す}きだ。",
+      "japanese": "⟦{縁側|えんがわ}→縁側：04495_engawa⟧⟦で→で：00502_de⟧{日向|ひなた}ぼっこ⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦{好|す}き→好き：02355_suki⟧だ。",
       "english": "I like basking in the sun on the veranda.",
       "sense_numbers": [
         1
@@ -124,7 +124,7 @@
     },
     {
       "id": "18018_hinatabokko_ex3",
-      "japanese": "{天気|てんき}がいいので、{公園|こうえん}のベンチで{日向|ひなた}ぼっこでもしよう。",
+      "japanese": "⟦{天気|てんき}→天気：00582_tenki⟧⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧⟦の→の：09472_no⟧で、⟦{公園|こうえん}→公園：00581_kouen⟧⟦の→の：09472_no⟧⟦ベンチ→ベンチ：00013_benchi⟧⟦で→で：00502_de⟧{日向|ひなた}ぼっこで⟦も→も：00484_mo⟧⟦しよう→する：00392_suru⟧。",
       "english": "The weather's nice, so let's go bask in the sun on a park bench.",
       "sense_numbers": [
         1
@@ -133,7 +133,7 @@
       "notes": null
     }
   ],
-  "notes": "{日向|ひなた}ぼっこ describes the simple pleasure of sitting or lying in a sunny spot to enjoy the warmth. Unlike English \"sunbathing,\" it does not imply tanning at a beach — it suggests gentle, cozy warmth.\n\nETYMOLOGY:\n{日向|ひなた} means \"sunny spot\" and ぼっこ is a suffix suggesting casual, leisurely enjoyment.\n\nUSAGE:\nCan be used as a する verb: {日向|ひなた}ぼっこする (to bask in the sun).\n\nCOMMON ASSOCIATIONS:\n- {猫|ねこ}の{日向|ひなた}ぼっこ: a cat sunning itself (classic image)\n- {縁側|えんがわ}で{日向|ひなた}ぼっこ: basking on a traditional Japanese veranda\n- Often associated with cats, elderly people, or lazy, peaceful afternoons\n\nREGISTER:\nInformal and warm. Evokes a cozy, nostalgic feeling.",
+  "notes": "{日向|ひなた}ぼっこ describes the simple pleasure of sitting or lying in a sunny spot to enjoy the warmth. Unlike English \"sunbathing,\" it does not imply tanning at a beach — it suggests gentle, cozy warmth.\n\nETYMOLOGY:\n⟦{日向|ひなた}→日向：05044_hinata⟧ means \"sunny spot\" and ぼっこ is a suffix suggesting casual, leisurely enjoyment.\n\nUSAGE:\nCan be used as a ⟦する→する：00392_suru⟧ verb: {日向|ひなた}ぼっこ⟦する→する：00392_suru⟧ (to bask in the sun).\n\nCOMMON ASSOCIATIONS:\n- ⟦{猫|ねこ}→猫：02237_neko⟧⟦の→の：09472_no⟧{日向|ひなた}ぼっこ: a cat sunning itself (classic image)\n- ⟦{縁側|えんがわ}→縁側：04495_engawa⟧⟦で→で：00502_de⟧{日向|ひなた}ぼっこ: basking on a traditional Japanese veranda\n- Often associated with cats, elderly people, or lazy, peaceful afternoons\n\nREGISTER:\nInformal and warm. Evokes a cozy, nostalgic feeling.",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -147,9 +147,10 @@
       "semantic": [
         "leisure"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     },
     "created": "2026-03-19T12:13:34Z",
-    "modified": "2026-03-28T01:54:11Z"
+    "modified": "2026-09-02T04:01:50Z"
   }
 }

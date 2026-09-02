@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "12217_daitasuu_ex1",
-      "japanese": "{大多数|だいたすう}の{人|ひと}が{賛成|さんせい}した。",
+      "japanese": "{大多数|だいたすう}⟦の→の：09472_no⟧⟦{人|ひと}→人：00476_hito⟧⟦が→が：00051_ga⟧⟦{賛成|さんせい}した→賛成する：05647_sanseisuru⟧。",
       "english": "The vast majority of people agreed.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "12217_daitasuu_ex2",
-      "japanese": "{学生|がくせい}の{大多数|だいたすう}はスマホを{持|も}っている。",
+      "japanese": "⟦{学生|がくせい}→学生：00610_gakusei⟧⟦の→の：09472_no⟧{大多数|だいたすう}⟦は→は：00079_ha⟧⟦スマホ→スマホ：04721_sumaho⟧⟦を→を：00422_wo⟧⟦{持|も}っている→持つ：00478_motsu⟧。",
       "english": "The great majority of students have smartphones.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "12217_daitasuu_ex3",
-      "japanese": "{国民|こくみん}の{大多数|だいたすう}がこの{政策|せいさく}に{反対|はんたい}しているにもかかわらず、{法案|ほうあん}は{可決|かけつ}された。",
+      "japanese": "⟦{国民|こくみん}→国民：02757_kokumin⟧⟦の→の：09472_no⟧{大多数|だいたすう}⟦が→が：00051_ga⟧⟦この→この：00962_kono⟧⟦{政策|せいさく}→政策：10070_seisaku⟧⟦に→に：00314_ni⟧⟦{反対|はんたい}している→反対する：05648_hantaisuru⟧にもかかわらず、⟦{法案|ほうあん}→法案：09758_houan⟧⟦は→は：00079_ha⟧⟦{可決|かけつ}→可決：00148_kaketsu⟧⟦された→する：00392_suru⟧。",
       "english": "Despite the great majority of the public opposing this policy, the bill was passed.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "Composed of {大|だい} (great) + {多数|たすう} (large number, majority).\n\nCOMMON COLLOCATIONS:\n- {大多数|だいたすう}の{人|ひと}: the vast majority of people\n- {大多数|だいたすう}を{占|し}める: to make up the vast majority\n- {圧倒的|あっとうてき}{大多数|だいたすう}: overwhelming majority\n\nSIMILAR WORDS:\n{多数|たすう} means \"many\" or \"majority\" without the emphatic force of {大多数|だいたすう}. {過半数|かはんすう} specifically means \"more than half\" and is used in voting contexts. {大多数|だいたすう} implies a much larger proportion than just over half.",
+  "notes": "Composed of {大|だい} (great) + ⟦{多数|たすう}→多数：05612_tasuu⟧ (large number, majority).\n\nCOMMON COLLOCATIONS:\n- {大多数|だいたすう}⟦の→の：09472_no⟧⟦{人|ひと}→人：00476_hito⟧: the vast majority of people\n- {大多数|だいたすう}⟦を→を：00422_wo⟧⟦{占|し}める→占める：11799_shimeru⟧: to make up the vast majority\n- ⟦{圧倒的|あっとうてき}→圧倒的：05853_attouteki⟧{大多数|だいたすう}: overwhelming majority\n\nSIMILAR WORDS:\n⟦{多数|たすう}→多数：05612_tasuu⟧ means \"many\" or \"majority\" without the emphatic force of {大多数|だいたすう}. ⟦{過半数|かはんすう}→過半数：05610_kahansuu⟧ specifically means \"more than half\" and is used in voting contexts. {大多数|だいたすう} implies a much larger proportion than just over half.",
   "cross_references": [
     {
       "type": "related",
@@ -52,11 +52,18 @@
       "headword": "{多数|たすう}",
       "label": "base word",
       "target_id": "05612_tasuu"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00400_taihan",
+      "reading": "たいはん",
+      "headword": "{大半|たいはん}",
+      "label": "majority"
     }
   ],
   "metadata": {
     "created": "2026-02-20T13:07:38Z",
-    "modified": "2026-03-29T10:42:23Z",
+    "modified": "2026-09-02T04:01:28Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

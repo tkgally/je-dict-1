@@ -15,40 +15,65 @@
   "examples": [
     {
       "id": "15373_yuukaku_ex1",
-      "japanese": "{吉原|よしわら}は{江戸|えど}で{最|もっと}も{有名|ゆうめい}な{遊郭|ゆうかく}だった。",
+      "japanese": "{吉原|よしわら}⟦は→は：00079_ha⟧⟦{江戸|えど}→江戸：19369_edo⟧⟦で→で：00502_de⟧⟦{最|もっと}も→最も：01736_mottomo⟧⟦{有名|ゆうめい}→有名：01106_yuumei⟧な{遊郭|ゆうかく}だった。",
       "english": "Yoshiwara was the most famous pleasure quarter in Edo.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15373_yuukaku_ex2",
-      "japanese": "{遊郭|ゆうかく}は{独自|どくじ}の{文化|ぶんか}を{生|う}み{出|だ}した。",
+      "japanese": "{遊郭|ゆうかく}⟦は→は：00079_ha⟧⟦{独自|どくじ}→独自：05614_dokuji⟧⟦の→の：09472_no⟧⟦{文化|ぶんか}→文化：01504_bunka⟧⟦を→を：00422_wo⟧⟦{生|う}み{出|だ}した→生み出す：10423_umidasu⟧。",
       "english": "The pleasure quarters gave rise to their own distinct culture.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15373_yuukaku_ex3",
-      "japanese": "{小説|しょうせつ}や{映画|えいが}の{舞台|ぶたい}として{遊郭|ゆうかく}が{描|えが}かれることは{今|いま}も{多|おお}い。",
+      "japanese": "⟦{小説|しょうせつ}→小説：01434_shousetsu⟧や⟦{映画|えいが}→映画：02273_eiga⟧⟦の→の：09472_no⟧⟦{舞台|ぶたい}→舞台：03606_butai⟧⟦として→として：06802_toshite⟧{遊郭|ゆうかく}⟦が→が：00051_ga⟧⟦{描|えが}かれる→描く：02013_egaku⟧こと⟦は→は：00079_ha⟧⟦{今|いま}→今：00945_ima⟧⟦も→も：00484_mo⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "Pleasure quarters are still frequently depicted as settings in novels and films.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE: {遊郭|ゆうかく} is a historical term. These districts were established by the Tokugawa shogunate to control prostitution by confining it to specific areas. The most famous were {吉原|よしわら} (Edo/Tokyo), {島原|しまばら} (Kyoto), and {新町|しんまち} (Osaka).\n\nThe {遊郭|ゆうかく} developed a rich cultural ecosystem including fashion, music, art, and literature. Many ukiyo-e prints depict life in these districts.\n\nAlso written as {遊廓|ゆうかく} (variant kanji).\n\nCOMMON COLLOCATIONS:\n- {遊郭|ゆうかく}{跡|あと}: site of a former pleasure quarter\n- {遊郭|ゆうかく}{建築|けんちく}: pleasure quarter architecture",
-  "cross_references": [],
+  "notes": "USAGE: {遊郭|ゆうかく} is a historical term. These districts were established by the Tokugawa shogunate to control prostitution by confining it to specific areas. The most famous were {吉原|よしわら} (Edo/Tokyo), {島原|しまばら} (Kyoto), and {新町|しんまち} (Osaka).\n\nThe {遊郭|ゆうかく} developed a rich cultural ecosystem including fashion, music, art, and literature. Many ukiyo-e prints depict life in these districts.\n\nAlso written as {遊廓|ゆうかく} (variant kanji).\n\nCOMMON COLLOCATIONS:\n- {遊郭|ゆうかく}⟦{跡|あと}→跡：02174_ato⟧: site of a former pleasure quarter\n- {遊郭|ゆうかく}⟦{建築|けんちく}→建築：02709_kenchiku⟧: pleasure quarter architecture",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25059_kuruwa",
+      "reading": "くるわ",
+      "headword": "{廓|くるわ}",
+      "label": "pleasure quarter"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29608_yuujoya",
+      "reading": "ゆうじょや",
+      "headword": "{遊女屋|ゆうじょや}",
+      "label": "brothel"
+    }
+  ],
   "metadata": {
     "created": "2026-03-06T11:52:36Z",
-    "modified": "2026-03-06T11:52:36Z",
+    "modified": "2026-09-02T04:01:41Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["building"]
+      "semantic": [
+        "building"
+      ]
     }
   }
 }

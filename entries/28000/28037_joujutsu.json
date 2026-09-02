@@ -15,41 +15,67 @@
   "examples": [
     {
       "id": "28037_joujutsu_ex1",
-      "japanese": "{杖術|じょうじゅつ}を{習|なら}っている。",
+      "japanese": "{杖術|じょうじゅつ}⟦を→を：00422_wo⟧⟦{習|なら}っている→習う：00479_narau⟧。",
       "english": "I'm learning jojutsu.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28037_joujutsu_ex2",
-      "japanese": "{杖術|じょうじゅつ}は{剣|けん}に{対抗|たいこう}するための{武術|ぶじゅつ}だ。",
+      "japanese": "{杖術|じょうじゅつ}⟦は→は：00079_ha⟧⟦{剣|けん}→剣：11819_ken⟧⟦に→に：00314_ni⟧⟦{対抗|たいこう}する→対抗する：17344_taikousuru⟧⟦ため→ため：01145_tame⟧⟦の→の：09472_no⟧⟦{武術|ぶじゅつ}→武術：13244_bujutsu⟧だ。",
       "english": "Jojutsu is a martial art for countering the sword.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28037_joujutsu_ex3",
-      "japanese": "{杖術|じょうじゅつ}では、{短|みじか}い{棒|ぼう}を{使|つか}って{相手|あいて}の{動|うご}きを{封|ふう}じる。",
+      "japanese": "{杖術|じょうじゅつ}⟦で→で：00502_de⟧⟦は→は：00079_ha⟧、⟦{短|みじか}い→短い：00510_mijikai⟧⟦{棒|ぼう}→棒：03726_bou⟧⟦を→を：00422_wo⟧⟦{使|つか}って→使う：00473_tsukau⟧⟦{相手|あいて}→相手：01677_aite⟧⟦の→の：09472_no⟧⟦{動|うご}き→動き：11926_ugoki⟧⟦を→を：00422_wo⟧⟦{封|ふう}じる→封じる：12360_fuujiru⟧。",
       "english": "In jojutsu, a short staff is used to neutralize the opponent's movements.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Compound of {杖|じょう} (staff, cane) and {術|じゅつ} (art, technique).\n\nCOMMON COLLOCATIONS:\n- {杖術|じょうじゅつ}の{稽古|けいこ}: jojutsu practice\n- {杖術|じょうじゅつ}の{型|かた}: jojutsu forms / kata\n\nSIMILAR WORDS:\n- {剣術|けんじゅつ}: swordsmanship — uses a sword rather than a staff\n- {棒術|ぼうじゅつ}: staff fighting with a longer {棒|ぼう} (bo)",
+  "notes": "Compound of {杖|じょう} (staff, cane) and ⟦{術|じゅつ}→術：14265_jutsu⟧ (art, technique).\n\nCOMMON COLLOCATIONS:\n- {杖術|じょうじゅつ}⟦の→の：09472_no⟧⟦{稽古|けいこ}→稽古：00210_keiko⟧: jojutsu practice\n- {杖術|じょうじゅつ}⟦の→の：09472_no⟧⟦{型|かた}→型：02146_kata⟧: jojutsu forms / kata\n\nSIMILAR WORDS:\n- ⟦{剣術|けんじゅつ}→剣術：20194_kenjutsu⟧: swordsmanship — uses a sword rather than a staff\n- ⟦{棒術|ぼうじゅつ}→棒術：23810_boujutsu⟧: staff fighting with a longer ⟦{棒|ぼう}→棒：03726_bou⟧ (bo)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20194_kenjutsu",
+      "reading": "けんじゅつ",
+      "headword": "{剣術|けんじゅつ}",
+      "label": "swordsmanship"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23810_boujutsu",
+      "reading": "ぼうじゅつ",
+      "headword": "{棒術|ぼうじゅつ}",
+      "label": "staff fighting with a longer"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["sports"],
+      "politeness": "plain",
+      "semantic": [
+        "sports"
+      ],
       "domain": []
     },
     "created": "2026-05-24T04:10:04Z",
-    "modified": "2026-05-24T04:10:04Z"
+    "modified": "2026-09-02T04:02:32Z"
   }
 }

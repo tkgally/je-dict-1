@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25105_shishitsu_ex1",
-      "japanese": "この{本|ほん}は{紙質|ししつ}がいい。",
+      "japanese": "⟦この→この：00962_kono⟧{本|ほん}⟦は→は：00079_ha⟧{紙質|ししつ}⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧。",
       "english": "This book has good paper quality.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25105_shishitsu_ex2",
-      "japanese": "{紙質|ししつ}によって{印刷|いんさつ}の{仕上|しあ}がりが{変|か}わる。",
+      "japanese": "{紙質|ししつ}⟦によって→によって：06801_niyotte⟧⟦{印刷|いんさつ}→印刷：01844_insatsu⟧⟦の→の：09472_no⟧⟦{仕上|しあ}がり→仕上がり：07432_shiagari⟧⟦が→が：00051_ga⟧⟦{変|か}わる→変わる：00714_kawaru⟧。",
       "english": "The print finish changes depending on the paper quality.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25105_shishitsu_ex3",
-      "japanese": "{写真集|しゃしんしゅう}は{紙質|ししつ}にこだわって、{厚手|あつで}の{光沢紙|こうたくし}を{選|えら}んだ。",
+      "japanese": "⟦{写真集|しゃしんしゅう}→写真集：19947_shashinshuu⟧⟦は→は：00079_ha⟧{紙質|ししつ}⟦に→に：00314_ni⟧⟦こだわって→こだわる：10319_kodawaru⟧、⟦{厚手|あつで}→厚手：28592_atsude⟧⟦の→の：09472_no⟧{光沢紙|こうたくし}⟦を→を：00422_wo⟧⟦{選|えら}んだ→選ぶ：00835_erabu⟧。",
       "english": "For the photo book, we chose thick glossy paper, paying close attention to paper quality.",
       "sense_numbers": [
         1
@@ -44,19 +44,44 @@
       "notes": null
     }
   ],
-  "notes": "Combines {紙|し} (paper) and {質|しつ} (quality, nature). Used when discussing printing, publishing, stationery, art supplies, and packaging. Paper quality encompasses factors like thickness, texture, brightness, and how well it holds ink.\n\nCOMMON COLLOCATIONS:\n- {紙質|ししつ}がいい: good paper quality\n- {紙質|ししつ}にこだわる: to be particular about paper quality\n- {紙質|ししつ}が{悪|わる}い: poor paper quality\n- {紙質|ししつ}を{確認|かくにん}する: to check the paper quality\n\nSIMILAR WORDS:\n- {用紙|ようし}: paper (for a specific purpose) — paper designated for a particular use\n- {画質|がしつ}: image quality — quality of an image or display\n- {音質|おんしつ}: sound quality — quality of audio\n- {材質|ざいしつ}: material quality — the nature or quality of a material in general",
+  "notes": "Combines {紙|し} (paper) and ⟦{質|しつ}→質：01425_shitsu⟧ (quality, nature). Used when discussing printing, publishing, stationery, art supplies, and packaging. Paper quality encompasses factors like thickness, texture, brightness, and how well it holds ink.\n\nCOMMON COLLOCATIONS:\n- {紙質|ししつ}⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧: good paper quality\n- {紙質|ししつ}⟦に→に：00314_ni⟧⟦こだわる→こだわる：10319_kodawaru⟧: to be particular about paper quality\n- {紙質|ししつ}⟦が→が：00051_ga⟧⟦{悪|わる}い→悪い：00908_warui⟧: poor paper quality\n- {紙質|ししつ}⟦を→を：00422_wo⟧⟦{確認|かくにん}する→確認する：25332_kakuninsuru⟧: to check the paper quality\n\nSIMILAR WORDS:\n- ⟦{用紙|ようし}→用紙：09588_youshi⟧: paper (for a specific purpose) — paper designated for a particular use\n- ⟦{画質|がしつ}→画質：16156_gashitsu⟧: image quality — quality of an image or display\n- ⟦{音質|おんしつ}→音質：21879_onshitsu⟧: sound quality — quality of audio\n- {材質|ざいしつ}: material quality — the nature or quality of a material in general",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09588_youshi",
+      "reading": "ようし",
+      "headword": "{用紙|ようし}",
+      "label": "paper"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16156_gashitsu",
+      "reading": "がしつ",
+      "headword": "{画質|がしつ}",
+      "label": "image quality"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21879_onshitsu",
+      "reading": "おんしつ",
+      "headword": "{音質|おんしつ}",
+      "label": "sound quality"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "media"
       ]
     },
     "created": "2026-04-22T14:46:02Z",
-    "modified": "2026-08-04T12:59:53Z"
+    "modified": "2026-09-02T04:02:21Z"
   }
 }

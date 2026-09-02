@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "12447_kaerimichi_ex1",
-      "japanese": "{帰|かえ}り{道|みち}にコンビニに{寄|よ}った。",
+      "japanese": "{帰|かえ}り{道|みち}⟦に→に：00314_ni⟧⟦コンビニ→コンビニ：01081_konbini⟧⟦に→に：00314_ni⟧⟦{寄|よ}った→寄る：02440_yoru⟧。",
       "english": "I stopped at a convenience store on the way home.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12447_kaerimichi_ex2",
-      "japanese": "{帰|かえ}り{道|みち}で{雨|あめ}に{降|ふ}られた。",
+      "japanese": "{帰|かえ}り{道|みち}⟦で→で：00502_de⟧⟦{雨|あめ}→雨：00583_ame⟧⟦に→に：00314_ni⟧⟦{降|ふ}られた→降る：00839_furu⟧。",
       "english": "I got caught in the rain on the way home.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12447_kaerimichi_ex3",
-      "japanese": "{学校|がっこう}からの{帰|かえ}り{道|みち}に、{友達|ともだち}と{夕焼|ゆうや}けを{見|み}ながら{歩|ある}いたのがいい{思|おも}い{出|で}だ。",
+      "japanese": "⟦{学校|がっこう}→学校：00055_gakkou⟧⟦から→から：00504_kara⟧⟦の→の：09472_no⟧{帰|かえ}り{道|みち}⟦に→に：00314_ni⟧、⟦{友達|ともだち}→友達：01478_tomodachi⟧⟦と→と：00512_to⟧⟦{夕焼|ゆうや}け→夕焼け：05045_yuuyake⟧⟦を→を：00422_wo⟧⟦{見|み}→見る：00283_miru⟧⟦ながら→ながら：10530_nagara⟧⟦{歩|ある}いた→歩く：00538_aruku⟧⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧⟦{思|おも}い{出|で}→思い出：00331_omoide⟧だ。",
       "english": "Walking home from school while watching the sunset with friends is a fond memory.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nThe opposite is {行|い}きの{道|みち} or {行|ゆ}く{道|みち} (the way there). Often used with the particle に to mean \"on the way home\": {帰|かえ}り{道|みち}に. Can also be used figuratively to mean there is no turning back: {帰|かえ}り{道|みち}はない.\n\nCOMMON COLLOCATIONS:\n- {帰|かえ}り{道|みち}に: on the way home\n- {帰|かえ}り{道|みち}で: on the way back\n- {帰|かえ}り{道|みち}を{急|いそ}ぐ: to hurry on the way home\n- {帰|かえ}り{道|みち}に{迷|まよ}う: to get lost on the way back",
+  "notes": "USAGE:\nThe opposite is ⟦{行|い}き→行き：02614_iki⟧⟦の→の：09472_no⟧⟦{道|みち}→道：00505_michi⟧ or {行|ゆ}く⟦{道|みち}→道：00505_michi⟧ (the way there). Often used with the particle ⟦に→に：00314_ni⟧ to mean \"on the way home\": {帰|かえ}り{道|みち}⟦に→に：00314_ni⟧. Can also be used figuratively to mean there is no turning back: {帰|かえ}り{道|みち}⟦は→は：00079_ha⟧⟦ない→ない：01118_nai⟧.\n\nCOMMON COLLOCATIONS:\n- {帰|かえ}り{道|みち}⟦に→に：00314_ni⟧: on the way home\n- {帰|かえ}り{道|みち}⟦で→で：00502_de⟧: on the way back\n- {帰|かえ}り{道|みち}⟦を→を：00422_wo⟧⟦{急|いそ}ぐ→急ぐ：01191_isogu⟧: to hurry on the way home\n- {帰|かえ}り{道|みち}⟦に→に：00314_ni⟧⟦{迷|まよ}う→迷う：02426_mayou⟧: to get lost on the way back",
   "cross_references": [
     {
       "type": "antonym",
@@ -46,18 +52,37 @@
       "reading": "いきみち",
       "headword": "{行|い}き{道|みち}",
       "label": "way there"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17541_yomichi",
+      "reading": "よみち",
+      "headword": "{夜道|よみち}",
+      "label": "road at night"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19615_ieji",
+      "reading": "いえじ",
+      "headword": "{家路|いえじ}",
+      "label": "the road home"
     }
   ],
   "metadata": {
     "created": "2026-02-21T06:48:49Z",
-    "modified": "2026-04-27T04:29:29Z",
+    "modified": "2026-09-02T04:01:29Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["movement", "daily-life"]
+      "semantic": [
+        "movement",
+        "daily-life"
+      ]
     }
   }
 }

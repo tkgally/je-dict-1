@@ -3,7 +3,7 @@
   "headword": "{早急|さっきゅう}",
   "reading": "さっきゅう",
   "romaji": "sakkyuu",
-  "part_of_speech": "na-adjective / noun",
+  "part_of_speech": "na-adjective, noun",
   "gloss": "urgent; immediate; prompt",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "18512_sakkyuu_ex1",
-      "japanese": "{早急|さっきゅう}に{対応|たいおう}してください。",
+      "japanese": "{早急|さっきゅう}⟦に→に：00314_ni⟧⟦{対応|たいおう}→対応：02510_taiou⟧⟦して→する：00392_suru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please respond immediately.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "18512_sakkyuu_ex2",
-      "japanese": "{早急|さっきゅう}な{対策|たいさく}が{求|もと}められている。",
+      "japanese": "{早急|さっきゅう}な⟦{対策|たいさく}→対策：02511_taisaku⟧⟦が→が：00051_ga⟧⟦{求|もと}められている→求める：02316_motomeru⟧。",
       "english": "Urgent countermeasures are being called for.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "18512_sakkyuu_ex3",
-      "japanese": "この{問題|もんだい}は{早急|さっきゅう}に{解決|かいけつ}しなければならない。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{問題|もんだい}→問題：00797_mondai⟧⟦は→は：00079_ha⟧{早急|さっきゅう}⟦に→に：00314_ni⟧⟦{解決|かいけつ}→解決：00136_kaiketsu⟧し⟦なければならない→なければならない：27600_nakerebanaranai⟧。",
       "english": "This problem must be resolved as soon as possible.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Can also be read そうきゅう, which has become increasingly common in spoken Japanese. The reading さっきゅう is traditionally considered more correct and is preferred in formal writing and broadcasting. Used adverbially with に: {早急|さっきゅう}に (urgently, promptly). Common collocations: {早急|さっきゅう}に{対応|たいおう}する (to respond promptly), {早急|さっきゅう}な{対策|たいさく} (urgent measures), {早急|さっきゅう}に{検討|けんとう}する (to consider urgently).",
+  "notes": "Can also be read そうきゅう, which has become increasingly common in spoken Japanese. The reading さっきゅう is traditionally considered more correct and is preferred in formal writing and broadcasting. Used adverbially with ⟦に→に：00314_ni⟧: {早急|さっきゅう}⟦に→に：00314_ni⟧ (urgently, promptly). Common collocations: {早急|さっきゅう}⟦に→に：00314_ni⟧⟦{対応|たいおう}→対応：02510_taiou⟧⟦する→する：00392_suru⟧ (to respond promptly), {早急|さっきゅう}な⟦{対策|たいさく}→対策：02511_taisaku⟧ (urgent measures), {早急|さっきゅう}⟦に→に：00314_ni⟧⟦{検討|けんとう}する→検討する：17455_kentousuru⟧ (to consider urgently).",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00398_tadachini",
+      "reading": "ただちに",
+      "headword": "{直|ただ}ちに",
+      "label": "immediately, at once, right away"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09568_souki",
+      "reading": "そうき",
+      "headword": "{早期|そうき}",
+      "label": "early stage"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25670_imasugu",
+      "reading": "いますぐ",
+      "headword": "{今|いま}すぐ",
+      "label": "right now"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +83,6 @@
       ]
     },
     "created": "2026-03-22T04:38:29Z",
-    "modified": "2026-05-08T10:08:08Z"
+    "modified": "2026-09-02T04:01:52Z"
   }
 }

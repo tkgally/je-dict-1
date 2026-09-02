@@ -3,7 +3,7 @@
   "id": "12924_kaishuu",
   "headword": "{改修|かいしゅう}",
   "reading": "かいしゅう",
-  "part_of_speech": "noun / suru verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "repair, renovation, refurbishment",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "12924_kaishuu_ex1",
-      "japanese": "{橋|はし}の{改修|かいしゅう}{工事|こうじ}が{始|はじ}まった。",
+      "japanese": "⟦{橋|はし}→橋：02163_hashi⟧⟦の→の：09472_no⟧{改修|かいしゅう}⟦{工事|こうじ}→工事：00244_kouji⟧⟦が→が：00051_ga⟧⟦{始|はじ}まった→始まる：00841_hajimaru⟧。",
       "english": "Repair work on the bridge has begun.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "12924_kaishuu_ex2",
-      "japanese": "{古|ふる}い{校舎|こうしゃ}を{改修|かいしゅう}して{使|つか}っている。",
+      "japanese": "⟦{古|ふる}い→古い：00488_furui⟧⟦{校舎|こうしゃ}→校舎：02801_kousha⟧⟦を→を：00422_wo⟧{改修|かいしゅう}⟦して→する：00392_suru⟧⟦{使|つか}っている→使う：00473_tsukau⟧。",
       "english": "They are using the old school building after renovating it.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "12924_kaishuu_ex3",
-      "japanese": "{耐震|たいしん}{改修|かいしゅう}を{行|おこな}うために、{一時的|いちじてき}に{建物|たてもの}を{閉鎖|へいさ}する。",
+      "japanese": "{耐震|たいしん}{改修|かいしゅう}⟦を→を：00422_wo⟧⟦{行|おこな}う→行う：01238_okonau⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧、⟦{一時的|いちじてき}→一時的：05846_ichijiteki⟧⟦に→に：00314_ni⟧⟦{建物|たてもの}→建物：01458_tatemono⟧⟦を→を：00422_wo⟧⟦{閉鎖|へいさ}→閉鎖：14524_heisa⟧⟦する→する：00392_suru⟧。",
       "english": "The building will be temporarily closed for seismic reinforcement renovation.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nUsed as both a noun and a suru verb. Primarily refers to repairing or renovating physical structures such as buildings, roads, bridges, and facilities. Often appears in news about public works and infrastructure maintenance.\n\nCOMMON COLLOCATIONS:\n- {改修|かいしゅう}する: to repair, to renovate\n- {改修|かいしゅう}{工事|こうじ}: renovation work, repair work\n- {耐震|たいしん}{改修|かいしゅう}: seismic retrofitting\n- {大規模|だいきぼ}{改修|かいしゅう}: large-scale renovation\n\nHOMOPHONE NOTE:\nNot to be confused with {回収|かいしゅう} (collection, retrieval), which is a different word with the same reading.",
+  "notes": "USAGE:\nUsed as both a noun and a suru verb. Primarily refers to repairing or renovating physical structures such as buildings, roads, bridges, and facilities. Often appears in news about public works and infrastructure maintenance.\n\nCOMMON COLLOCATIONS:\n- {改修|かいしゅう}⟦する→する：00392_suru⟧: to repair, to renovate\n- {改修|かいしゅう}⟦{工事|こうじ}→工事：00244_kouji⟧: renovation work, repair work\n- {耐震|たいしん}{改修|かいしゅう}: seismic retrofitting\n- ⟦{大規模|だいきぼ}→大規模：12185_daikibo⟧{改修|かいしゅう}: large-scale renovation\n\nWATCH OUT:\nNot to be confused with ⟦{回収|かいしゅう}→回収：03019_kaishuu⟧ (collection, retrieval), which is a different word with the same reading.",
   "cross_references": [
     {
       "type": "homophone",
@@ -153,7 +153,7 @@
   ],
   "metadata": {
     "created": "2026-02-22T22:58:18Z",
-    "modified": "2026-04-27T10:17:30Z",
+    "modified": "2026-09-02T04:01:31Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -166,7 +166,8 @@
       "semantic": [
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   },
   "prominent_see_also": [

@@ -20,7 +20,7 @@
   "examples": [
     {
       "id": "17673_soosu_ex1",
-      "japanese": "ソースをかける。",
+      "japanese": "ソース⟦を→を：00422_wo⟧⟦かける→かける：00854_kakeru⟧。",
       "english": "To pour sauce on.",
       "notes": null,
       "has_audio": false,
@@ -30,7 +30,7 @@
     },
     {
       "id": "17673_soosu_ex2",
-      "japanese": "お{好|この}み{焼|や}きにはソースとマヨネーズをたっぷりかける。",
+      "japanese": "⟦お{好|この}み{焼|や}き→お好み焼き：10252_okonomiyaki⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧ソース⟦と→と：00512_to⟧⟦マヨネーズ→マヨネーズ：11129_mayoneezu⟧⟦を→を：00422_wo⟧⟦たっぷり→たっぷり：03404_tappuri⟧⟦かける→かける：00854_kakeru⟧。",
       "english": "I put plenty of sauce and mayonnaise on okonomiyaki.",
       "notes": null,
       "has_audio": false,
@@ -40,7 +40,7 @@
     },
     {
       "id": "17673_soosu_ex3",
-      "japanese": "トンカツにはソースをかける{派|は}ですか、{塩|しお}ですか。",
+      "japanese": "トンカツ⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧ソース⟦を→を：00422_wo⟧⟦かける→かける：00854_kakeru⟧⟦{派|は}→派：28356_ha⟧です⟦か→か：09473_ka⟧、⟦{塩|しお}→塩：00887_shio⟧です⟦か→か：09473_ka⟧。",
       "english": "Do you prefer sauce or salt on your tonkatsu?",
       "notes": null,
       "has_audio": false,
@@ -50,7 +50,7 @@
     },
     {
       "id": "17673_soosu_ex4",
-      "japanese": "ソースを{確認|かくにん}する。",
+      "japanese": "ソース⟦を→を：00422_wo⟧⟦{確認|かくにん}する→確認する：25332_kakuninsuru⟧。",
       "english": "To check the source.",
       "notes": null,
       "has_audio": false,
@@ -60,7 +60,7 @@
     },
     {
       "id": "17673_soosu_ex5",
-      "japanese": "そのニュースのソースはどこですか。",
+      "japanese": "⟦その→その：00993_sono⟧⟦ニュース→ニュース：04437_nyuusu⟧⟦の→の：09472_no⟧ソース⟦は→は：00079_ha⟧⟦どこ→どこ：00539_doko⟧です⟦か→か：09473_ka⟧。",
       "english": "What's the source of that news?",
       "notes": null,
       "has_audio": false,
@@ -70,7 +70,7 @@
     },
     {
       "id": "17673_soosu_ex6",
-      "japanese": "ソースコードを{公開|こうかい}しているので{誰|だれ}でも{中身|なかみ}を{確認|かくにん}できる。",
+      "japanese": "ソースコード⟦を→を：00422_wo⟧⟦{公開|こうかい}→公開：11665_koukai⟧⟦している→する：00392_suru⟧⟦の→の：09472_no⟧で⟦{誰|だれ}→誰：00534_dare⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧⟦{中身|なかみ}→中身：01483_nakami⟧⟦を→を：00422_wo⟧⟦{確認|かくにん}できる→確認する：25332_kakuninsuru⟧。",
       "english": "The source code is publicly available so anyone can review the contents.",
       "notes": null,
       "has_audio": false,
@@ -79,11 +79,19 @@
       ]
     }
   ],
-  "notes": "MULTIPLE MEANINGS:\nThe two meanings of ソース come from different English words: \"sauce\" (condiment) and \"source\" (origin). Context usually makes the intended meaning clear.\n\nSAUCE MEANING:\nWhen Japanese people say ソース without further specification, they typically mean {中濃|ちゅうのう}ソース or ウスターソース — brown, slightly sweet Worcester-type sauces. This is distinct from タレ (Japanese-style dipping sauce) and {醤油|しょうゆ} (soy sauce).\n\nSOURCE MEANING:\nWidely used in journalism (ニュースソース), IT (ソースコード), and casual conversation to mean the origin of information.\n\nCOMMON COLLOCATIONS:\n- ウスターソース: Worcester sauce\n- {中濃|ちゅうのう}ソース: medium-thick sauce\n- ソースコード: source code\n- {情報|じょうほう}ソース: information source",
-  "cross_references": [],
+  "notes": "MULTIPLE MEANINGS:\nThe two meanings of ソース come from different English words: \"sauce\" (condiment) and \"source\" (origin). Context usually makes the intended meaning clear.\n\nSAUCE MEANING:\nWhen Japanese people say ソース without further specification, they typically mean {中濃|ちゅうのう}ソース or ウスターソース — brown, slightly sweet Worcester-type sauces. This is distinct from ⟦タレ→タレ：10500_tare⟧ (Japanese-style dipping sauce) and ⟦{醤油|しょうゆ}→醤油：01056_shouyu⟧ (soy sauce).\n\nSOURCE MEANING:\nWidely used in journalism (ニュースソース), IT (ソースコード), and casual conversation to mean the origin of information.\n\nCOMMON COLLOCATIONS:\n- ウスターソース: Worcester sauce\n- {中濃|ちゅうのう}ソース: medium-thick sauce\n- ソースコード: source code\n- ⟦{情報|じょうほう}→情報：03348_jouhou⟧ソース: information source",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "23096_dippu",
+      "reading": "でぃっぷ",
+      "headword": "ディップ",
+      "label": "dip"
+    }
+  ],
   "metadata": {
     "created": "2026-02-12T11:47:02Z",
-    "modified": "2026-03-18T10:11:24Z",
+    "modified": "2026-09-02T04:01:49Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

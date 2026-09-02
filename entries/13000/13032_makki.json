@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "13032_makki_ex1",
-      "japanese": "{江戸|えど}{時代|じだい}の{末期|まっき}に{開国|かいこく}した。",
+      "japanese": "⟦{江戸|えど}{時代|じだい}→江戸時代：20431_edojidai⟧⟦の→の：09472_no⟧{末期|まっき}⟦に→に：00314_ni⟧⟦{開国|かいこく}→開国：14660_kaikoku⟧⟦した→する：00392_suru⟧。",
       "english": "Japan opened its borders in the final period of the Edo era.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "13032_makki_ex2",
-      "japanese": "{末期|まっき}がんと{診断|しんだん}された。",
+      "japanese": "{末期|まっき}がん⟦と→と：00512_to⟧⟦{診断|しんだん}→診断：04209_shindan⟧⟦された→する：00392_suru⟧。",
       "english": "He was diagnosed with terminal cancer.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "13032_makki_ex3",
-      "japanese": "ローマ{帝国|ていこく}の{末期|まっき}は{政治|せいじ}が{混乱|こんらん}していた。",
+      "japanese": "ローマ⟦{帝国|ていこく}→帝国：12420_teikoku⟧⟦の→の：09472_no⟧{末期|まっき}⟦は→は：00079_ha⟧⟦{政治|せいじ}→政治：01629_seiji⟧⟦が→が：00051_ga⟧⟦{混乱|こんらん}→混乱：02811_konran⟧⟦していた→する：00392_suru⟧。",
       "english": "Politics were in turmoil in the final period of the Roman Empire.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nUsed as a noun modifier: {末期|まっき}の or as a prefix: {末期|まっき}がん (terminal cancer). Very common in both historical contexts (the final period of an era) and medical contexts (terminal stage of a disease). Also read as まつご in the compound {末期|まつご}の{水|みず} (water given to a dying person).\n\nCOMMON COLLOCATIONS:\n- {末期|まっき}がん: terminal cancer\n- {末期|まっき}{症状|しょうじょう}: terminal symptoms\n- ～{時代|じだい}の{末期|まっき}: final period of the ~ era\n- {末期|まっき}{的|てき}: end-stage, decadent",
+  "notes": "USAGE:\nUsed as a noun modifier: {末期|まっき}⟦の→の：09472_no⟧ or as a prefix: {末期|まっき}がん (terminal cancer). Very common in both historical contexts (the final period of an era) and medical contexts (terminal stage of a disease). Also read as まつご in the compound {末期|まつご}⟦の→の：09472_no⟧⟦{水|みず}→水：02258_mizu⟧ (water given to a dying person).\n\nCOMMON COLLOCATIONS:\n- {末期|まっき}がん: terminal cancer\n- {末期|まっき}⟦{症状|しょうじょう}→症状：03234_shoujou⟧: terminal symptoms\n- ～⟦{時代|じだい}→時代：01424_jidai⟧⟦の→の：09472_no⟧{末期|まっき}: final period of the ~ era\n- {末期|まっき}{的|てき}: end-stage, decadent",
   "cross_references": [
     {
       "type": "antonym",
@@ -52,11 +52,18 @@
       "reading": "しょき",
       "headword": "{初期|しょき}",
       "label": "early period, initial stage"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29777_shuumatsu",
+      "reading": "しゅうまつ",
+      "headword": "終末",
+      "label": "end"
     }
   ],
   "metadata": {
     "created": "2026-02-23T06:36:19Z",
-    "modified": "2026-08-24T00:38:19Z",
+    "modified": "2026-09-02T04:01:31Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

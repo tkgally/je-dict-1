@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25455_washokuten_ex1",
-      "japanese": "{和食店|わしょくてん}で{食事|しょくじ}する。",
+      "japanese": "{和食店|わしょくてん}⟦で→で：00502_de⟧⟦{食事|しょくじ}する→食事する：01837_shokujisuru⟧。",
       "english": "To dine at a Japanese restaurant.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25455_washokuten_ex2",
-      "japanese": "{駅前|えきまえ}に{新|あたら}しい{和食店|わしょくてん}がオープンした。",
+      "japanese": "⟦{駅前|えきまえ}→駅前：09593_ekimae⟧⟦に→に：00314_ni⟧⟦{新|あたら}しい→新しい：00506_atarashii⟧{和食店|わしょくてん}⟦が→が：00051_ga⟧⟦オープン→オープン：10831_oopun⟧⟦した→する：00392_suru⟧。",
       "english": "A new Japanese restaurant opened in front of the station.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25455_washokuten_ex3",
-      "japanese": "{海外|かいがい}でも{和食店|わしょくてん}の{数|かず}が{増|ふ}えており、{日本食|にほんしょく}の{人気|にんき}の{高|たか}さがうかがえる。",
+      "japanese": "⟦{海外|かいがい}→海外：00134_kaigai⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧{和食店|わしょくてん}⟦の→の：09472_no⟧⟦{数|かず}→数：00204_kazu⟧⟦が→が：00051_ga⟧⟦{増|ふ}えて→増える：01183_fueru⟧おり、⟦{日本食|にほんしょく}→日本食：12955_nihonshoku⟧⟦の→の：09472_no⟧⟦{人気|にんき}→人気：01488_ninki⟧⟦の→の：09472_no⟧⟦{高|たか}さ→高さ：05327_takasa⟧⟦が→が：00051_ga⟧⟦うかがえる→うかがう：01273_ukagau⟧。",
       "english": "The number of Japanese restaurants is increasing overseas as well, showing the high popularity of Japanese food.",
       "sense_numbers": [
         1
@@ -44,20 +44,37 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {和食|わしょく} (Japanese cuisine) and {店|てん} (shop, restaurant). {和食|わしょく} was recognized as a UNESCO Intangible Cultural Heritage in 2013, and the term {和食店|わしょくてん} has become increasingly common both in Japan and abroad.\n\nCOMMON COLLOCATIONS:\n- {和食店|わしょくてん}で{食|た}べる: to eat at a Japanese restaurant\n- {高級|こうきゅう}{和食店|わしょくてん}: upscale Japanese restaurant\n- {和食店|わしょくてん}を{開|ひら}く: to open a Japanese restaurant\n- {人気|にんき}の{和食店|わしょくてん}: popular Japanese restaurant\n\nSIMILAR WORDS:\n- {日本|にほん}{料理|りょうり}{店|てん}: Japanese cuisine restaurant — more formal, essentially synonymous\n- {料亭|りょうてい}: traditional Japanese restaurant — upscale establishment with private rooms and full-course meals\n- {居酒屋|いざかや}: izakaya; Japanese pub — a more casual drinking establishment that also serves food\n- {洋食店|ようしょくてん}: Western-style restaurant — serving Western-influenced Japanese cuisine",
+  "notes": "A compound of ⟦{和食|わしょく}→和食：10436_washoku⟧ (Japanese cuisine) and ⟦{店|てん}→店：10011_ten⟧ (shop, restaurant). ⟦{和食|わしょく}→和食：10436_washoku⟧ was recognized as a UNESCO Intangible Cultural Heritage in 2013, and the term {和食店|わしょくてん} has become increasingly common both in Japan and abroad.\n\nCOMMON COLLOCATIONS:\n- {和食店|わしょくてん}⟦で→で：00502_de⟧⟦{食|た}べる→食べる：00396_taberu⟧: to eat at a Japanese restaurant\n- ⟦{高級|こうきゅう}→高級：08644_koukyuu⟧{和食店|わしょくてん}: upscale Japanese restaurant\n- {和食店|わしょくてん}⟦を→を：00422_wo⟧⟦{開|ひら}く→開く：01979_hiraku⟧: to open a Japanese restaurant\n- ⟦{人気|にんき}→人気：01488_ninki⟧⟦の→の：09472_no⟧{和食店|わしょくてん}: popular Japanese restaurant\n\nSIMILAR WORDS:\n- ⟦{日本|にほん}→日本：03876_nihon⟧⟦{料理|りょうり}{店|てん}→料理店：25626_ryouriten⟧: Japanese cuisine restaurant — more formal, essentially synonymous\n- ⟦{料亭|りょうてい}→料亭：21710_ryoutei⟧: traditional Japanese restaurant — upscale establishment with private rooms and full-course meals\n- ⟦{居酒屋|いざかや}→居酒屋：09635_izakaya⟧: izakaya; Japanese pub — a more casual drinking establishment that also serves food\n- {洋食店|ようしょくてん}: Western-style restaurant — serving Western-influenced Japanese cuisine",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21710_ryoutei",
+      "reading": "りょうてい",
+      "headword": "{料亭|りょうてい}",
+      "label": "traditional Japanese restaurant"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09635_izakaya",
+      "reading": "いざかや",
+      "headword": "{居酒屋|いざかや}",
+      "label": "izakaya"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "food",
         "shopping"
       ]
     },
     "created": "2026-04-25T13:35:35Z",
-    "modified": "2026-08-04T12:59:53Z"
+    "modified": "2026-09-02T04:02:22Z"
   }
 }

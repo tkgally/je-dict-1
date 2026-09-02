@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "17618_senmenjo_ex1",
-      "japanese": "{洗面所|せんめんじょ}で{顔|かお}を{洗|あら}った。",
+      "japanese": "{洗面所|せんめんじょ}⟦で→で：00502_de⟧⟦{顔|かお}→顔：00558_kao⟧⟦を→を：00422_wo⟧⟦{洗|あら}った→洗う：00827_arau⟧。",
       "english": "I washed my face in the washroom.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "17618_senmenjo_ex2",
-      "japanese": "{洗面所|せんめんじょ}に{歯|は}ブラシを{置|お}いている。",
+      "japanese": "{洗面所|せんめんじょ}⟦に→に：00314_ni⟧⟦{歯|は}ブラシ→歯ブラシ：04509_haburashi⟧⟦を→を：00422_wo⟧⟦{置|お}いている→置く：01092_oku⟧。",
       "english": "I keep my toothbrush in the washroom.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "17618_senmenjo_ex3",
-      "japanese": "この{物件|ぶっけん}は{洗面所|せんめんじょ}と{脱衣所|だついじょ}が{一緒|いっしょ}になっている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{物件|ぶっけん}→物件：06743_bukken⟧⟦は→は：00079_ha⟧{洗面所|せんめんじょ}⟦と→と：00512_to⟧⟦{脱衣所|だついじょ}→脱衣所：17619_datsuijo⟧⟦が→が：00051_ga⟧⟦{一緒|いっしょ}→一緒：02848_issho⟧になっている。",
       "english": "In this property, the washroom and changing room are combined.",
       "sense_numbers": [
         1
@@ -43,7 +43,7 @@
       "notes": null
     }
   ],
-  "notes": "FORMATION:\n{洗面|せんめん} (washing face) + {所|じょ} (place) → place for washing face\n\nJAPANESE HOUSE LAYOUT:\nIn Japanese homes, the {洗面所|せんめんじょ} is typically:\n- Separate from the toilet room ({トイレ})\n- Adjacent to the bathroom ({浴室|よくしつ}) and changing room ({脱衣所|だついじょ})\n- Contains sink, mirror, and often storage for toiletries and laundry\n\nCOMMON ITEMS IN {洗面所|せんめんじょ}:\n- {洗面台|せんめんだい} (bathroom vanity)\n- {洗濯機|せんたくき} (washing machine)\n- タオル (towels)\n- {歯|は}ブラシ (toothbrush)\n\nRELATED ROOMS:\n- {脱衣所|だついじょ} (changing room)\n- {浴室|よくしつ} (bathroom)\n- トイレ/お{手洗|てあら}い (toilet)",
+  "notes": "FORMS:\n⟦{洗面|せんめん}→洗面：04376_senmen⟧ (washing face) + {所|じょ} (place) → place for washing face\n\nJAPANESE HOUSE LAYOUT:\nIn Japanese homes, the {洗面所|せんめんじょ} is typically:\n- Separate from the toilet room (⟦トイレ→トイレ：00818_toire⟧)\n- Adjacent to the bathroom (⟦{浴室|よくしつ}→浴室：05301_yokushitsu⟧) and changing room (⟦{脱衣所|だついじょ}→脱衣所：17619_datsuijo⟧)\n- Contains sink, mirror, and often storage for toiletries and laundry\n\nCOMMON ITEMS IN {洗面所|せんめんじょ}:\n- ⟦{洗面台|せんめんだい}→洗面台：04988_senmendai⟧ (bathroom vanity)\n- ⟦{洗濯機|せんたくき}→洗濯機：04969_sentakuki⟧ (washing machine)\n- ⟦タオル→タオル：01533_taoru⟧ (towels)\n- ⟦{歯|は}ブラシ→歯ブラシ：04509_haburashi⟧ (toothbrush)\n\nRELATED ROOMS:\n- ⟦{脱衣所|だついじょ}→脱衣所：17619_datsuijo⟧ (changing room)\n- ⟦{浴室|よくしつ}→浴室：05301_yokushitsu⟧ (bathroom)\n- ⟦トイレ→トイレ：00818_toire⟧/⟦お{手洗|てあら}い→お手洗い：02861_otearai⟧ (toilet)",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -51,12 +51,13 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "building"
       ]
     },
     "created": "2026-01-26T13:58:14Z",
-    "modified": "2026-08-14T21:21:34Z"
+    "modified": "2026-09-02T04:01:49Z"
   },
   "cross_references": [
     {
@@ -72,6 +73,34 @@
       "headword": "{洗面台|せんめんだい}",
       "label": "washstand",
       "target_id": "04988_senmendai"
+    },
+    {
+      "type": "related",
+      "target_id": "05301_yokushitsu",
+      "reading": "よくしつ",
+      "headword": "{浴室|よくしつ}",
+      "label": "bathroom"
+    },
+    {
+      "type": "related",
+      "target_id": "00818_toire",
+      "reading": "といれ",
+      "headword": "トイレ",
+      "label": "toilet"
+    },
+    {
+      "type": "related",
+      "target_id": "02861_otearai",
+      "reading": "おてあらい",
+      "headword": "お{手洗|てあら}い",
+      "label": "toilet"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12761_tearai",
+      "reading": "てあらい",
+      "headword": "{手洗|てあら}い",
+      "label": "handwashing"
     }
   ]
 }

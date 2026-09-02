@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "12448_bakufu_ex1",
-      "japanese": "{江戸|えど}{幕府|ばくふ}は{約|やく}260{年|ねん}{続|つづ}いた。",
+      "japanese": "⟦{江戸|えど}→江戸：19369_edo⟧{幕府|ばくふ}⟦は→は：00079_ha⟧⟦{約|やく}→約：09563_yaku⟧260⟦{年|ねん}→年：09876_nen⟧⟦{続|つづ}いた→続く：00903_tsuzuku⟧。",
       "english": "The Edo shogunate lasted about 260 years.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12448_bakufu_ex2",
-      "japanese": "{幕府|ばくふ}が{倒|たお}れて{明治|めいじ}{時代|じだい}が{始|はじ}まった。",
+      "japanese": "{幕府|ばくふ}⟦が→が：00051_ga⟧⟦{倒|たお}れて→倒れる：01160_taoreru⟧⟦{明治|めいじ}{時代|じだい}→明治時代：28080_meijijidai⟧⟦が→が：00051_ga⟧⟦{始|はじ}まった→始まる：00841_hajimaru⟧。",
       "english": "The shogunate fell and the Meiji era began.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12448_bakufu_ex3",
-      "japanese": "{鎌倉|かまくら}{幕府|ばくふ}は{源頼朝|みなもとのよりとも}によって{開|ひら}かれ、{武士|ぶし}による{政治|せいじ}の{始|はじ}まりとなった。",
+      "japanese": "⟦{鎌倉|かまくら}→鎌倉：30711_kamakura⟧{幕府|ばくふ}⟦は→は：00079_ha⟧{源頼朝|みなもとのよりとも}⟦によって→によって：06801_niyotte⟧⟦{開|ひら}かれ→開く：01979_hiraku⟧、⟦{武士|ぶし}→武士：03989_bushi⟧⟦による→による：28349_niyoru⟧⟦{政治|せいじ}→政治：01629_seiji⟧⟦の→の：09472_no⟧⟦{始|はじ}まり→始まり：02474_hajimari⟧⟦と→と：00512_to⟧⟦なった→なる：01970_naru⟧。",
       "english": "The Kamakura shogunate was established by Minamoto no Yoritomo and marked the beginning of warrior-class government.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nAn essential term for understanding Japanese history. The word literally means \"tent government\" ({幕|まく} = curtain/tent, {府|ふ} = government office), referring to the field headquarters of a military commander. The three major shogunates are:\n- {鎌倉|かまくら}{幕府|ばくふ} (Kamakura shogunate, 1185–1333)\n- {室町|むろまち}{幕府|ばくふ} (Muromachi shogunate, 1336–1573)\n- {江戸|えど}{幕府|ばくふ} / {徳川|とくがわ}{幕府|ばくふ} (Edo/Tokugawa shogunate, 1603–1868)\n\nCOMMON COLLOCATIONS:\n- {幕府|ばくふ}を{開|ひら}く: to establish a shogunate\n- {幕府|ばくふ}を{倒|たお}す: to overthrow the shogunate\n- {幕府|ばくふ}{軍|ぐん}: shogunate forces\n- {幕府|ばくふ}の{崩壊|ほうかい}: collapse of the shogunate",
+  "notes": "USAGE:\nAn essential term for understanding Japanese history. The word literally means \"tent government\" (⟦{幕|まく}→幕：12518_maku⟧ = curtain/tent, ⟦{府|ふ}→府：09870_fu⟧ = government office), referring to the field headquarters of a military commander. The three major shogunates are:\n- ⟦{鎌倉|かまくら}→鎌倉：30711_kamakura⟧{幕府|ばくふ} (Kamakura shogunate, 1185–1333)\n- {室町|むろまち}{幕府|ばくふ} (Muromachi shogunate, 1336–1573)\n- ⟦{江戸|えど}→江戸：19369_edo⟧{幕府|ばくふ} / {徳川|とくがわ}{幕府|ばくふ} (Edo/Tokugawa shogunate, 1603–1868)\n\nCOMMON COLLOCATIONS:\n- {幕府|ばくふ}⟦を→を：00422_wo⟧⟦{開|ひら}く→開く：01979_hiraku⟧: to establish a shogunate\n- {幕府|ばくふ}⟦を→を：00422_wo⟧⟦{倒|たお}す→倒す：01954_taosu⟧: to overthrow the shogunate\n- {幕府|ばくふ}{軍|ぐん}: shogunate forces\n- {幕府|ばくふ}⟦の→の：09472_no⟧⟦{崩壊|ほうかい}→崩壊：09067_houkai⟧: collapse of the shogunate",
   "cross_references": [
     {
       "type": "related",
@@ -57,14 +63,19 @@
   ],
   "metadata": {
     "created": "2026-02-21T06:48:49Z",
-    "modified": "2026-05-03T07:09:48Z",
+    "modified": "2026-09-02T04:01:29Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["history", "politics"]
+      "semantic": [
+        "history",
+        "politics"
+      ]
     }
   }
 }

@@ -15,41 +15,74 @@
   "examples": [
     {
       "id": "28850_omoiire_ex1",
-      "japanese": "この{曲|きょく}には{思|おも}い{入|い}れがある。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{曲|きょく}→曲：09881_kyoku⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{思|おも}い{入|い}れ⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "I have a strong attachment to this song.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28850_omoiire_ex2",
-      "japanese": "{母|はは}の{形見|かたみ}の{時計|とけい}に{深|ふか}い{思|おも}い{入|い}れがある。",
+      "japanese": "⟦{母|はは}→母：00549_haha⟧⟦の→の：09472_no⟧⟦{形見|かたみ}→形見：12505_katami⟧⟦の→の：09472_no⟧⟦{時計|とけい}→時計：00677_tokei⟧⟦に→に：00314_ni⟧⟦{深|ふか}い→深い：01211_fukai⟧{思|おも}い{入|い}れ⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "I have a deep attachment to my mother's keepsake watch.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28850_omoiire_ex3",
-      "japanese": "{彼|かれ}は{故郷|こきょう}に{特別|とくべつ}な{思|おも}い{入|い}れを{持|も}っているので、{毎年|まいとし}{帰|かえ}っている。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{故郷|こきょう}→故郷：02733_kokyou⟧⟦に→に：00314_ni⟧⟦{特別|とくべつ}→特別：01120_tokubetsu⟧な{思|おも}い{入|い}れ⟦を→を：00422_wo⟧⟦{持|も}っている→持つ：00478_motsu⟧⟦の→の：09472_no⟧で、⟦{毎年|まいとし}→毎年：00731_maitoshi⟧⟦{帰|かえ}っている→帰る：00508_kaeru⟧。",
       "english": "He has a special attachment to his hometown, so he goes back every year.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Compound noun from {思|おも}い (thought, feeling) + {入|い}れ (putting in). Suggests that one has \"put feelings into\" something through time, memory, or effort.\n\nCOMMON COLLOCATIONS:\n- {思|おも}い{入|い}れがある: to feel attached to\n- {思|おも}い{入|い}れが{深|ふか}い: to be deeply attached\n- {特別|とくべつ}な{思|おも}い{入|い}れ: a special attachment\n- {強|つよ}い{思|おも}い{入|い}れ: strong feelings about\n\nSIMILAR WORDS:\n- {愛着|あいちゃく}: attachment — similar but more about possessions one is fond of\n- {思|おも}い{出|で}: memory — a remembered event, not the feeling toward it\n- こだわり: particular fixation — about preferences or standards, not emotional history",
+  "notes": "Compound noun from ⟦{思|おも}い→思い：10248_omoi⟧ (thought, feeling) + ⟦{入|い}れ→入れる：01098_ireru⟧ (putting in). Suggests that one has \"put feelings into\" something through time, memory, or effort.\n\nCOMMON COLLOCATIONS:\n- {思|おも}い{入|い}れ⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧: to feel attached to\n- {思|おも}い{入|い}れ⟦が→が：00051_ga⟧⟦{深|ふか}い→深い：01211_fukai⟧: to be deeply attached\n- ⟦{特別|とくべつ}→特別：01120_tokubetsu⟧な{思|おも}い{入|い}れ: a special attachment\n- ⟦{強|つよ}い→強い：00820_tsuyoi⟧{思|おも}い{入|い}れ: strong feelings about\n\nSIMILAR WORDS:\n- ⟦{愛着|あいちゃく}→愛着：04858_aichaku⟧: attachment — similar but more about possessions one is fond of\n- ⟦{思|おも}い{出|で}→思い出：00331_omoide⟧: memory — a remembered event, not the feeling toward it\n- ⟦こだわり→こだわり：08346_kodawari⟧: particular fixation — about preferences or standards, not emotional history",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04858_aichaku",
+      "reading": "あいちゃく",
+      "headword": "{愛着|あいちゃく}",
+      "label": "attachment"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00331_omoide",
+      "reading": "おもいで",
+      "headword": "{思|おも}い{出|で}",
+      "label": "memory"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08346_kodawari",
+      "reading": "こだわり",
+      "headword": "こだわり",
+      "label": "particular fixation"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["emotion"],
+      "politeness": "plain",
+      "semantic": [
+        "emotion"
+      ],
       "domain": []
     },
     "created": "2026-06-06T03:10:02Z",
-    "modified": "2026-06-06T03:10:02Z"
+    "modified": "2026-09-02T04:02:35Z"
   }
 }

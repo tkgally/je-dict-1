@@ -114,7 +114,7 @@
     },
     {
       "id": "00856_kangaeru_ex2",
-      "japanese": "⟦{何|なに}→何：00498_nani⟧⟦を→を：00422_wo⟧{考|かんが}えています⟦か→か：09473_ka⟧。",
+      "japanese": "⟦{何|なに}→何：00498_nani⟧⟦を→を：00422_wo⟧{考|かんが}えて⟦います→いる：00495_iru⟧⟦か→か：09473_ka⟧。",
       "english": "What are you thinking about?",
       "notes": null,
       "has_audio": false,
@@ -144,7 +144,7 @@
     },
     {
       "id": "00856_kangaeru_ex5",
-      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{何|なに}→何：00498_nani⟧⟦も→も：00484_mo⟧⟦{言|い}わないで→言う：00515_iu⟧、⟦{一人|ひとり}→一人：00630_hitori⟧⟦で→で：00502_de⟧⟦{静|しず}かに→静か：00755_shizuka⟧{考|かんが}えています。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{何|なに}→何：00498_nani⟧⟦も→も：00484_mo⟧⟦{言|い}わないで→言う：00515_iu⟧、⟦{一人|ひとり}→一人：00630_hitori⟧⟦で→で：00502_de⟧⟦{静|しず}かに→静か：00755_shizuka⟧{考|かんが}えて⟦います→いる：00495_iru⟧。",
       "english": "He's not saying anything, just quietly thinking by himself.",
       "notes": null,
       "has_audio": false,
@@ -153,7 +153,7 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive). No pair verb. Pattern: X⟦を→を：00422_wo⟧{考|かんが}える (think about/consider X).\n\nASPECT: ている indicates ongoing thought. {考|かんが}えている = 'is thinking about' or 'is considering.'\n\nCOMMON PATTERNS:\n・⟦よく→よく：00601_yoku⟧{考|かんが}える (think carefully)\n・{考|かんが}えさせて⟦ください→ください：02899_kudasai⟧ (let me think)\n・⟦{何|なに}→何：00498_nani⟧⟦を→を：00422_wo⟧{考|かんが}えている (what are you thinking about)\n・⟦{考|かんが}え→考え：00855_kangae⟧ (noun: idea, thought)\n・⟦{考|かんが}え{方|かた}→考え方：10169_kangaekata⟧ (way of thinking)\n\nSIMILAR WORDS:\n・⟦{思|おも}う→思う：00492_omou⟧ expresses an opinion, impression, or feeling that is already formed; {考|かんが}える is the deliberate mental work of reasoning something out. 'I think it will rain' is ⟦{思|おも}う→思う：00492_omou⟧, while 'let me think about it' is {考|かんが}える.\n・Because {考|かんが}える takes effort, it pairs naturally with ⟦よく→よく：00601_yoku⟧ (carefully) and time expressions; ⟦{思|おも}う→思う：00492_omou⟧ does not.",
+  "notes": "TRANSITIVITY: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive). No pair verb. Pattern: X⟦を→を：00422_wo⟧{考|かんが}える (think about/consider X).\n\nASPECT: て⟦いる→いる：00495_iru⟧ indicates ongoing thought. {考|かんが}えて⟦いる→いる：00495_iru⟧ = 'is thinking about' or 'is considering.'\n\nCOMMON PATTERNS:\n- ⟦よく→よく：00601_yoku⟧{考|かんが}える (think carefully)\n- {考|かんが}えさせて⟦ください→ください：02899_kudasai⟧ (let me think)\n- ⟦{何|なに}→何：00498_nani⟧⟦を→を：00422_wo⟧{考|かんが}えて⟦いる→いる：00495_iru⟧ (what are you thinking about)\n- ⟦{考|かんが}え→考え：00855_kangae⟧ (noun: idea, thought)\n- ⟦{考|かんが}え{方|かた}→考え方：10169_kangaekata⟧ (way of thinking)\n\nSIMILAR WORDS:\n- ⟦{思|おも}う→思う：00492_omou⟧ expresses an opinion, impression, or feeling that is already formed; {考|かんが}える is the deliberate mental work of reasoning something out. 'I think it will rain' is ⟦{思|おも}う→思う：00492_omou⟧, while 'let me think about it' is {考|かんが}える.\n- Because {考|かんが}える takes effort, it pairs naturally with ⟦よく→よく：00601_yoku⟧ (carefully) and time expressions; ⟦{思|おも}う→思う：00492_omou⟧ does not.",
   "cross_references": [
     {
       "type": "contrast",
@@ -168,11 +168,32 @@
       "reading": "かんがえ",
       "headword": "{考|かんが}え",
       "label": "noun form"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21866_kangaekomu",
+      "reading": "かんがえこむ",
+      "headword": "{考|かんが}え{込|こ}む",
+      "label": "to think deeply"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22180_kufuusuru",
+      "reading": "くふうする",
+      "headword": "{工夫|くふう}する",
+      "label": "to devise"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23249_omoimegurasu",
+      "reading": "おもいめぐらす",
+      "headword": "{思|おも}い{巡|めぐ}らす",
+      "label": "to ponder"
     }
   ],
   "metadata": {
     "created": "2026-01-07T12:11:52Z",
-    "modified": "2026-08-04T00:18:21Z",
+    "modified": "2026-09-02T04:00:58Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

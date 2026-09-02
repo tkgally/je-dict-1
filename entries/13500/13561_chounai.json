@@ -15,41 +15,73 @@
   "examples": [
     {
       "id": "13561_chounai_ex1",
-      "japanese": "{町内|ちょうない}で{祭|まつ}りがある。",
+      "japanese": "{町内|ちょうない}⟦で→で：00502_de⟧⟦{祭|まつ}り→祭り：03735_matsuri⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There's a festival in the neighborhood.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13561_chounai_ex2",
-      "japanese": "{町内会|ちょうないかい}の{会合|かいごう}に{出席|しゅっせき}した。",
+      "japanese": "⟦{町内会|ちょうないかい}→町内会：10193_chounaikai⟧⟦の→の：09472_no⟧⟦{会合|かいごう}→会合：02605_kaigou⟧⟦に→に：00314_ni⟧⟦{出席|しゅっせき}した→出席する：01830_shussekisuru⟧。",
       "english": "I attended the neighborhood association meeting.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13561_chounai_ex3",
-      "japanese": "{毎年|まいとし}{夏|なつ}になると、{町内|ちょうない}の{子|こ}どもたちが{集|あつ}まってラジオ{体操|たいそう}をしている。",
+      "japanese": "⟦{毎年|まいとし}→毎年：00731_maitoshi⟧⟦{夏|なつ}→夏：02236_natsu⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦と→と：00512_to⟧、{町内|ちょうない}⟦の→の：09472_no⟧{子|こ}どもたち⟦が→が：00051_ga⟧⟦{集|あつ}まって→集まる：01162_atsumaru⟧⟦ラジオ→ラジオ：01541_rajio⟧⟦{体操|たいそう}→体操：04493_taisou⟧⟦を→を：00422_wo⟧⟦している→する：00392_suru⟧。",
       "english": "Every summer, the children in the neighborhood gather to do radio calisthenics.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nOften used in compound forms, especially {町内会|ちょうないかい} (neighborhood association), which is a key part of local community life in Japan. {町内|ちょうない} activities include festivals, cleanup events, and disaster preparedness.\n\nCOMMON COLLOCATIONS:\n- {町内会|ちょうないかい} (neighborhood association)\n- {町内|ちょうない}{放送|ほうそう} (neighborhood broadcast/PA announcement)\n- {町内|ちょうない}を{回|まわ}る (go around the neighborhood)\n- {町内|ちょうない}{清掃|せいそう} (neighborhood cleanup)\n\nSIMILAR WORDS:\n- {近所|きんじょ}: neighborhood (informal, the area around one's home)\n- {地域|ちいき}: area, region (broader, can be any geographical area)\n- {地元|じもと}: local area, hometown (emphasizes personal connection)",
-  "cross_references": [],
+  "notes": "USAGE:\nOften used in compound forms, especially ⟦{町内会|ちょうないかい}→町内会：10193_chounaikai⟧ (neighborhood association), which is a key part of local community life in Japan. {町内|ちょうない} activities include festivals, cleanup events, and disaster preparedness.\n\nCOMMON COLLOCATIONS:\n- ⟦{町内会|ちょうないかい}→町内会：10193_chounaikai⟧ (neighborhood association)\n- {町内|ちょうない}⟦{放送|ほうそう}→放送：02093_housou⟧ (neighborhood broadcast/PA announcement)\n- {町内|ちょうない}⟦を→を：00422_wo⟧⟦{回|まわ}る→回る：01150_mawaru⟧ (go around the neighborhood)\n- {町内|ちょうない}⟦{清掃|せいそう}→清掃：04332_seisou⟧ (neighborhood cleanup)\n\nSIMILAR WORDS:\n- ⟦{近所|きんじょ}→近所：01318_kinjo⟧: neighborhood (informal, the area around one's home)\n- ⟦{地域|ちいき}→地域：01461_chiiki⟧: area, region (broader, can be any geographical area)\n- ⟦{地元|じもと}→地元：09941_jimoto⟧: local area, hometown (emphasizes personal connection)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01318_kinjo",
+      "reading": "きんじょ",
+      "headword": "{近所|きんじょ}",
+      "label": "neighborhood"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01461_chiiki",
+      "reading": "ちいき",
+      "headword": "{地域|ちいき}",
+      "label": "area, region"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09941_jimoto",
+      "reading": "じもと",
+      "headword": "{地元|じもと}",
+      "label": "local area, hometown"
+    }
+  ],
   "metadata": {
     "created": "2026-02-25T14:28:44Z",
-    "modified": "2026-02-25T14:28:44Z",
+    "modified": "2026-09-02T04:01:33Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["geography"]
+      "semantic": [
+        "geography"
+      ]
     }
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "10972_kaisuiyoku_ex1",
-      "japanese": "{夏|なつ}は{海水浴|かいすいよく}に{行|い}きたい。",
+      "japanese": "⟦{夏|なつ}→夏：02236_natsu⟧⟦は→は：00079_ha⟧{海水浴|かいすいよく}⟦に→に：00314_ni⟧⟦{行|い}きたい→行く：00119_iku⟧。",
       "english": "I want to go swimming in the sea in summer.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "10972_kaisuiyoku_ex2",
-      "japanese": "{家族|かぞく}で{海水浴|かいすいよく}を{楽|たの}しんだ。",
+      "japanese": "⟦{家族|かぞく}→家族：00552_kazoku⟧⟦で→で：00502_de⟧{海水浴|かいすいよく}⟦を→を：00422_wo⟧⟦{楽|たの}しんだ→楽しむ：01203_tanoshimu⟧。",
       "english": "We enjoyed swimming in the sea as a family.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "10972_kaisuiyoku_ex3",
-      "japanese": "この{近|ちか}くに{海水浴|かいすいよく}ができるビーチはありますか。",
+      "japanese": "⟦この→この：00962_kono⟧{近|ちか}く⟦に→に：00314_ni⟧{海水浴|かいすいよく}⟦が→が：00051_ga⟧⟦できる→できる：00557_dekiru⟧⟦ビーチ→ビーチ：10163_biichi⟧⟦は→は：00079_ha⟧⟦あります→ある：00006_aru⟧⟦か→か：09473_ka⟧。",
       "english": "Is there a beach near here where you can swim?",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,33 @@
       ]
     }
   ],
-  "notes": "{海水浴|かいすいよく} refers to the recreational activity of swimming or playing in the ocean, especially during summer.\n\nFORMATION:\n{海水|かいすい} (seawater) + {浴|よく} (bathing). The suffix ～{浴|よく} appears in other bathing-related words:\n- {日光浴|にっこうよく}: sunbathing\n- {入浴|にゅうよく}: bathing\n- {森林浴|しんりんよく}: forest bathing\n\nCOMMON PATTERNS:\n- {海水浴|かいすいよく}に{行|い}く: to go sea bathing\n- {海水浴|かいすいよく}を{楽|たの}しむ: to enjoy sea bathing\n- {海水浴場|かいすいよくじょう}: a public swimming beach\n- {海水浴|かいすいよく}{客|きゃく}: beachgoers\n\nCULTURE:\nSea bathing season in Japan typically runs from mid-July to late August. {海水浴場|かいすいよくじょう} are officially designated beaches with lifeguards and facilities, and many close outside the designated season.",
-  "cross_references": [],
+  "notes": "{海水浴|かいすいよく} refers to the recreational activity of swimming or playing in the ocean, especially during summer.\n\nFORMS:\n⟦{海水|かいすい}→海水：13334_kaisui⟧ (seawater) + {浴|よく} (bathing). The suffix ～{浴|よく} appears in other bathing-related words:\n- ⟦{日光浴|にっこうよく}→日光浴：21203_nikkouyoku⟧: sunbathing\n- ⟦{入浴|にゅうよく}→入浴：11642_nyuuyoku⟧: bathing\n- {森林浴|しんりんよく}: forest bathing\n\nCOMMON PATTERNS:\n- {海水浴|かいすいよく}⟦に→に：00314_ni⟧⟦{行|い}く→行く：00119_iku⟧: to go sea bathing\n- {海水浴|かいすいよく}⟦を→を：00422_wo⟧⟦{楽|たの}しむ→楽しむ：01203_tanoshimu⟧: to enjoy sea bathing\n- ⟦{海水浴場|かいすいよくじょう}→海水浴場：21009_kaisuiyokujou⟧: a public swimming beach\n- {海水浴|かいすいよく}⟦{客|きゃく}→客：00865_kyaku⟧: beachgoers\n\nCULTURAL NOTE:\nSea bathing season in Japan typically runs from mid-July to late August. ⟦{海水浴場|かいすいよくじょう}→海水浴場：21009_kaisuiyokujou⟧ are officially designated beaches with lifeguards and facilities, and many close outside the designated season.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "21203_nikkouyoku",
+      "reading": "にっこうよく",
+      "headword": "{日光浴|にっこうよく}",
+      "label": "sunbathing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28844_isoasobi",
+      "reading": "いそあそび",
+      "headword": "{磯遊|いそあそ}び",
+      "label": "playing at a rocky shore"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30257_mizuasobi",
+      "reading": "みずあそび",
+      "headword": "{水遊|みずあそ}び",
+      "label": "playing in water"
+    }
+  ],
   "metadata": {
     "created": "2026-02-11T23:06:15Z",
-    "modified": "2026-08-15T00:33:36Z",
+    "modified": "2026-09-02T04:01:23Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22852_kooridoufu_ex1",
-      "japanese": "{凍|こお}り{豆腐|どうふ}を{水|みず}で{戻|もど}す。",
+      "japanese": "{凍|こお}り{豆腐|どうふ}⟦を→を：00422_wo⟧⟦{水|みず}→水：02258_mizu⟧⟦で→で：00502_de⟧⟦{戻|もど}す→戻す：02317_modosu⟧。",
       "english": "To reconstitute freeze-dried tofu in water.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22852_kooridoufu_ex2",
-      "japanese": "{凍|こお}り{豆腐|どうふ}は{保存|ほぞん}がきくので{便利|べんり}だ。",
+      "japanese": "{凍|こお}り{豆腐|どうふ}⟦は→は：00079_ha⟧⟦{保存|ほぞん}→保存：03626_hozon⟧⟦が→が：00051_ga⟧きく⟦の→の：09472_no⟧で⟦{便利|べんり}→便利：00830_benri⟧だ。",
       "english": "Freeze-dried tofu is convenient because it keeps well.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22852_kooridoufu_ex3",
-      "japanese": "{凍|こお}り{豆腐|どうふ}を{煮物|にもの}に{入|い}れると、{出汁|だし}をよく{吸|す}って{美味|おい}しくなる。",
+      "japanese": "{凍|こお}り{豆腐|どうふ}⟦を→を：00422_wo⟧⟦{煮物|にもの}→煮物：04971_nimono⟧⟦に→に：00314_ni⟧⟦{入|い}れる→入れる：01098_ireru⟧⟦と→と：00512_to⟧、⟦{出汁|だし}→出汁：04917_dashi⟧⟦を→を：00422_wo⟧⟦よく→よく：00601_yoku⟧⟦{吸|す}って→吸う：04394_suu⟧⟦{美味|おい}しく→美味しい：00740_oishii⟧⟦なる→なる：01970_naru⟧。",
       "english": "When you add freeze-dried tofu to simmered dishes, it absorbs the broth well and becomes delicious.",
       "sense_numbers": [
         1
@@ -44,19 +44,30 @@
       "notes": null
     }
   ],
-  "notes": "A traditional Japanese preserved food made by freezing tofu outdoors in winter, then thawing and drying it. The freezing process creates a sponge-like texture that absorbs cooking liquids well.\n\nALTERNATE NAMES:\n- {高野豆腐|こうやどうふ}: the most common name, after Mount {高野|こうや} where Buddhist monks are said to have invented it\n- {凍|し}み{豆腐|どうふ}: another regional name, especially used in the Tohoku region\n\nCOMMON COLLOCATIONS:\n- {凍|こお}り{豆腐|どうふ}を{戻|もど}す: to reconstitute freeze-dried tofu\n- {凍|こお}り{豆腐|どうふ}の{煮物|にもの}: simmered freeze-dried tofu\n- {凍|こお}り{豆腐|どうふ}の{含|ふく}め{煮|に}: freeze-dried tofu simmered in sweet broth\n\nNUTRITION:\nFreeze-dried tofu is high in protein and calcium, making it a nutritious ingredient. It is a staple of Buddhist vegetarian cuisine ({精進料理|しょうじんりょうり}) and is also popular in everyday home cooking.",
+  "notes": "A traditional Japanese preserved food made by freezing tofu outdoors in winter, then thawing and drying it. The freezing process creates a sponge-like texture that absorbs cooking liquids well.\n\nALTERNATE NAMES:\n- ⟦{高野豆腐|こうやどうふ}→高野豆腐：07948_kouyadoufu⟧: the most common name, after Mount {高野|こうや} where Buddhist monks are said to have invented it\n- {凍|し}み{豆腐|どうふ}: another regional name, especially used in the Tohoku region\n\nCOMMON COLLOCATIONS:\n- {凍|こお}り{豆腐|どうふ}⟦を→を：00422_wo⟧⟦{戻|もど}す→戻す：02317_modosu⟧: to reconstitute freeze-dried tofu\n- {凍|こお}り{豆腐|どうふ}⟦の→の：09472_no⟧⟦{煮物|にもの}→煮物：04971_nimono⟧: simmered freeze-dried tofu\n- {凍|こお}り{豆腐|どうふ}⟦の→の：09472_no⟧{含|ふく}め{煮|に}: freeze-dried tofu simmered in sweet broth\n\nNUTRITION:\nFreeze-dried tofu is high in protein and calcium, making it a nutritious ingredient. It is a staple of Buddhist vegetarian cuisine (⟦{精進料理|しょうじんりょうり}→精進料理：16101_shoujinryouri⟧) and is also popular in everyday home cooking.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07948_kouyadoufu",
+      "reading": "こうやどうふ",
+      "headword": "{高野豆腐|こうやどうふ}",
+      "label": "freeze-dried tofu"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "food"
       ]
     },
     "created": "2026-04-07T18:25:33Z",
-    "modified": "2026-07-27T06:23:09Z"
+    "modified": "2026-09-02T04:02:09Z"
   }
 }

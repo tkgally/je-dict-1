@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "17203_ichigakki_ex1",
-      "japanese": "{一学期|いちがっき}が{始|はじ}まった。",
+      "japanese": "{一学期|いちがっき}⟦が→が：00051_ga⟧⟦{始|はじ}まった→始まる：00841_hajimaru⟧。",
       "english": "The first semester has started.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "17203_ichigakki_ex2",
-      "japanese": "{一学期|いちがっき}の{成績|せいせき}はよかった。",
+      "japanese": "{一学期|いちがっき}⟦の→の：09472_no⟧⟦{成績|せいせき}→成績：03379_seiseki⟧⟦は→は：00079_ha⟧⟦よかった→いい：00118_ii⟧。",
       "english": "My grades for the first semester were good.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "17203_ichigakki_ex3",
-      "japanese": "{一学期|いちがっき}の{終業式|しゅうぎょうしき}が{終|お}わると、{夏休|なつやす}みが{始|はじ}まる。",
+      "japanese": "{一学期|いちがっき}⟦の→の：09472_no⟧⟦{終業式|しゅうぎょうしき}→終業式：08554_shuugyoushiki⟧⟦が→が：00051_ga⟧{終|お}わる⟦と→と：00512_to⟧、⟦{夏休|なつやす}み→夏休み：02925_natsuyasumi⟧⟦が→が：00051_ga⟧⟦{始|はじ}まる→始まる：00841_hajimaru⟧。",
       "english": "When the first-semester closing ceremony ends, summer vacation begins.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "JAPANESE SCHOOL TERMS:\nMost Japanese schools use a three-term system:\n- {一学期|いちがっき}: April to July\n- {二学期|にがっき}: September to December\n- {三学期|さんがっき}: January to March\n\nSome universities use a two-semester system ({前期|ぜんき}/{後期|こうき}) instead.\n\nCOMMON COLLOCATIONS:\n- {一学期|いちがっき}の{成績|せいせき} (first-term grades)\n- {一学期|いちがっき}の{終|お}わり (end of the first term)\n- {一学期|いちがっき}の{中間|ちゅうかん}テスト (first-term midterm exam)",
+  "notes": "JAPANESE SCHOOL TERMS:\nMost Japanese schools use a three-term system:\n- {一学期|いちがっき}: April to July\n- ⟦{二学期|にがっき}→二学期：23891_nigakki⟧: September to December\n- ⟦{三学期|さんがっき}→三学期：30250_sangakki⟧: January to March\n\nSome universities use a two-semester system (⟦{前期|ぜんき}→前期：20651_zenki⟧/⟦{後期|こうき}→後期：12603_kouki⟧) instead.\n\nCOMMON COLLOCATIONS:\n- {一学期|いちがっき}⟦の→の：09472_no⟧⟦{成績|せいせき}→成績：03379_seiseki⟧ (first-term grades)\n- {一学期|いちがっき}⟦の→の：09472_no⟧⟦{終|お}わり→終わり：01361_owari⟧ (end of the first term)\n- {一学期|いちがっき}⟦の→の：09472_no⟧⟦{中間|ちゅうかん}→中間：05458_chuukan⟧⟦テスト→テスト：01065_tesuto⟧ (first-term midterm exam)",
   "cross_references": [
     {
       "type": "related",
@@ -52,11 +52,18 @@
       "reading": "がっき",
       "headword": "{学期|がっき}",
       "label": "semester (general)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23891_nigakki",
+      "reading": "にがっき",
+      "headword": "{二学期|にがっき}",
+      "label": "second (school) term, second semester"
     }
   ],
   "metadata": {
     "created": "2026-03-17T00:13:33Z",
-    "modified": "2026-07-23T06:26:27Z",
+    "modified": "2026-09-02T04:01:47Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

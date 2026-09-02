@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "09725_waribashi_ex1",
-      "japanese": "{割|わ}り{箸|ばし}をつけてください。",
+      "japanese": "{割|わ}り{箸|ばし}⟦を→を：00422_wo⟧⟦つけて→つける：00562_tsukeru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please include disposable chopsticks.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "09725_waribashi_ex2",
-      "japanese": "{割|わ}り{箸|ばし}を{割|わ}るのが{下手|へた}だ。",
+      "japanese": "{割|わ}り{箸|ばし}⟦を→を：00422_wo⟧⟦{割|わ}る→割る：02334_waru⟧⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦{下手|へた}→下手：00703_heta⟧だ。",
       "english": "I'm bad at splitting disposable chopsticks.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "09725_waribashi_ex3",
-      "japanese": "{環境|かんきょう}のために{割|わ}り{箸|ばし}を{使|つか}わないようにしている。",
+      "japanese": "⟦{環境|かんきょう}→環境：00174_kankyou⟧⟦の→の：09472_no⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧{割|わ}り{箸|ばし}⟦を→を：00422_wo⟧⟦{使|つか}わない→使う：00473_tsukau⟧ようにして⟦いる→いる：00495_iru⟧。",
       "english": "I try not to use disposable chopsticks for environmental reasons.",
       "notes": null,
       "has_audio": false,
@@ -43,10 +43,10 @@
       ]
     }
   ],
-  "notes": "{割|わ}り{箸|ばし} literally means \"chopsticks you split apart\" ({割|わ}る = to split). They are the standard single-use chopsticks provided at convenience stores, takeout restaurants, and food stalls in Japan.\n\nETYMOLOGY:\nFrom {割|わ}る (to split) + {箸|はし} (chopsticks). The two sticks come connected and must be pulled apart before use.\n\nCOMMON COLLOCATIONS:\n- {割|わ}り{箸|ばし}を{割|わ}る (to split disposable chopsticks)\n- {割|わ}り{箸|ばし}を{使|つか}う (to use disposable chopsticks)\n- {割|わ}り{箸|ばし}{入|い}れ (chopstick holder/dispenser)\n\nCULTURAL NOTE:\nEnvironmental concerns have led to a マイ{箸|はし} (\"my chopsticks\") movement, where people carry their own reusable chopsticks. Some convenience stores now ask if you need {割|わ}り{箸|ばし} rather than including them automatically.\n\nRELATED TERMS:\n- お{箸|はし}: chopsticks (polite)\n- マイ{箸|はし}: personal reusable chopsticks\n- {箸置|はしお}き: chopstick rest",
+  "notes": "{割|わ}り{箸|ばし} literally means \"chopsticks you split apart\" (⟦{割|わ}る→割る：02334_waru⟧ = to split). They are the standard single-use chopsticks provided at convenience stores, takeout restaurants, and food stalls in Japan.\n\nETYMOLOGY:\nFrom ⟦{割|わ}る→割る：02334_waru⟧ (to split) + ⟦{箸|はし}→箸：01026_hashi⟧ (chopsticks). The two sticks come connected and must be pulled apart before use.\n\nCOMMON COLLOCATIONS:\n- {割|わ}り{箸|ばし}⟦を→を：00422_wo⟧⟦{割|わ}る→割る：02334_waru⟧ (to split disposable chopsticks)\n- {割|わ}り{箸|ばし}⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧ (to use disposable chopsticks)\n- {割|わ}り{箸|ばし}{入|い}れ (chopstick holder/dispenser)\n\nCULTURAL NOTE:\nEnvironmental concerns have led to a マイ⟦{箸|はし}→箸：01026_hashi⟧ (\"my chopsticks\") movement, where people carry their own reusable chopsticks. Some convenience stores now ask if you need {割|わ}り{箸|ばし} rather than including them automatically.\n\nRELATED WORDS:\n- ⟦お{箸|はし}→お箸：10275_ohashi⟧: chopsticks (polite)\n- マイ⟦{箸|はし}→箸：01026_hashi⟧: personal reusable chopsticks\n- ⟦{箸置|はしお}き→箸置き：04481_hashioki⟧: chopstick rest",
   "metadata": {
     "created": "2026-02-03T07:18:38Z",
-    "modified": "2026-06-24T18:40:49Z",
+    "modified": "2026-09-02T04:01:19Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -68,6 +68,20 @@
       "reading": "はし",
       "headword": "{箸|はし}",
       "label": "chopsticks"
+    },
+    {
+      "type": "related",
+      "target_id": "10275_ohashi",
+      "reading": "おはし",
+      "headword": "お{箸|はし}",
+      "label": "chopsticks"
+    },
+    {
+      "type": "related",
+      "target_id": "04481_hashioki",
+      "reading": "はしおき",
+      "headword": "{箸置|はしお}き",
+      "label": "chopstick rest"
     }
   ]
 }

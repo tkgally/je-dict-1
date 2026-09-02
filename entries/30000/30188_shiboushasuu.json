@@ -16,7 +16,7 @@
   "examples": [
     {
       "id": "30188_shiboushasuu_ex1",
-      "japanese": "{死亡者数|しぼうしゃすう}が{発表|はっぴょう}された。",
+      "japanese": "{死亡者数|しぼうしゃすう}⟦が→が：00051_ga⟧⟦{発表|はっぴょう}→発表：03562_happyou⟧⟦された→する：00392_suru⟧。",
       "english": "The number of deaths was announced.",
       "sense_numbers": [
         1
@@ -26,7 +26,7 @@
     },
     {
       "id": "30188_shiboushasuu_ex2",
-      "japanese": "{交通事故|こうつうじこ}の{死亡者数|しぼうしゃすう}は{年々|ねんねん}{減|へ}っている。",
+      "japanese": "⟦{交通事故|こうつうじこ}→交通事故：21255_koutsuujiko⟧⟦の→の：09472_no⟧{死亡者数|しぼうしゃすう}⟦は→は：00079_ha⟧⟦{年々|ねんねん}→年々：10417_nennen⟧⟦{減|へ}っている→減る：01985_heru⟧。",
       "english": "The number of traffic accident deaths is falling year by year.",
       "sense_numbers": [
         1
@@ -36,7 +36,7 @@
     },
     {
       "id": "30188_shiboushasuu_ex3",
-      "japanese": "{感染症|かんせんしょう}の{死亡者数|しぼうしゃすう}は、{年齢|ねんれい}によって{大|おお}きく{異|こと}なる。",
+      "japanese": "⟦{感染症|かんせんしょう}→感染症：15681_kansenshou⟧⟦の→の：09472_no⟧{死亡者数|しぼうしゃすう}⟦は→は：00079_ha⟧、⟦{年齢|ねんれい}→年齢：01490_nenrei⟧⟦によって→によって：06801_niyotte⟧⟦{大|おお}きく→大きい：00335_ookii⟧⟦{異|こと}なる→異なる：02101_kotonaru⟧。",
       "english": "The number of deaths from infectious disease differs greatly by age.",
       "sense_numbers": [
         1
@@ -46,7 +46,7 @@
     },
     {
       "id": "30188_shiboushasuu_ex4",
-      "japanese": "{厚生労働省|こうせいろうどうしょう}は、{毎年|まいとし}{死因|しいん}{別|べつ}の{死亡者数|しぼうしゃすう}を{公表|こうひょう}している。",
+      "japanese": "{厚生労働省|こうせいろうどうしょう}⟦は→は：00079_ha⟧、⟦{毎年|まいとし}→毎年：00731_maitoshi⟧⟦{死因|しいん}→死因：13224_shiin⟧⟦{別|べつ}→別：01216_betsu⟧⟦の→の：09472_no⟧{死亡者数|しぼうしゃすう}⟦を→を：00422_wo⟧⟦{公表|こうひょう}している→公表する：21375_kouhyou⟧。",
       "english": "The Ministry of Health, Labour and Welfare publishes the number of deaths by cause every year.",
       "sense_numbers": [
         1
@@ -55,7 +55,23 @@
       "notes": null
     }
   ],
-  "notes": "Built from {死亡|しぼう} (death) plus {者|しゃ} (person) plus {数|すう} (number). The suffix {数|すう} turns any counted group into its statistic: {感染者数|かんせんしゃすう} (number of infections), {来場者数|らいじょうしゃすう} (attendance).\n\nCOMMON COLLOCATIONS:\n- {死亡者数|しぼうしゃすう}が{増|ふ}える／{減|へ}る: for the death toll to rise / fall\n- {死亡者数|しぼうしゃすう}を{発表|はっぴょう}する: to announce the number of deaths\n- {累計|るいけい}{死亡者数|しぼうしゃすう}: cumulative death toll\n\nSIMILAR WORDS:\n- {死者数|ししゃすう}: death toll — shorter and more common in news headlines; the same meaning\n- {犠牲者|ぎせいしゃ}: victim — emphasizes that the deaths were caused by a disaster or accident",
+  "notes": "Built from ⟦{死亡|しぼう}→死亡：03198_shibou⟧ (death) plus ⟦{者|しゃ}→〜者：04662_sha⟧ (person) plus ⟦{数|すう}→数：03360_suu⟧ (number). The suffix ⟦{数|すう}→数：03360_suu⟧ turns any counted group into its statistic: ⟦{感染者数|かんせんしゃすう}→感染者数：30152_kansenshasuu⟧ (number of infections), {来場者数|らいじょうしゃすう} (attendance).\n\nCOMMON COLLOCATIONS:\n- {死亡者数|しぼうしゃすう}⟦が→が：00051_ga⟧⟦{増|ふ}える→増える：01183_fueru⟧／⟦{減|へ}る→減る：01985_heru⟧: for the death toll to rise / fall\n- {死亡者数|しぼうしゃすう}⟦を→を：00422_wo⟧⟦{発表|はっぴょう}する→発表する：25231_happyousuru⟧: to announce the number of deaths\n- ⟦{累計|るいけい}→累計：08327_ruikei⟧{死亡者数|しぼうしゃすう}: cumulative death toll\n\nSIMILAR WORDS:\n- ⟦{死者数|ししゃすう}→死者数：30171_shishasuu⟧: death toll — shorter and more common in news headlines; the same meaning\n- ⟦{犠牲者|ぎせいしゃ}→犠牲者：18769_giseisha⟧: victim — emphasizes that the deaths were caused by a disaster or accident",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "30171_shishasuu",
+      "reading": "ししゃすう",
+      "headword": "死者数",
+      "label": "death toll"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18769_giseisha",
+      "reading": "ぎせいしゃ",
+      "headword": "{犠牲者|ぎせいしゃ}",
+      "label": "victim"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -63,7 +79,7 @@
         "noun"
       ],
       "formality": "formal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "quantity",
         "health"
@@ -71,6 +87,6 @@
       "domain": []
     },
     "created": "2026-07-28T12:21:16Z",
-    "modified": "2026-07-28T12:21:16Z"
+    "modified": "2026-09-02T04:02:39Z"
   }
 }

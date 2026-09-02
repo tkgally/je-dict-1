@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "15701_sensuikan_ex1",
-      "japanese": "{潜水艦|せんすいかん}が{浮上|ふじょう}した。",
+      "japanese": "{潜水艦|せんすいかん}⟦が→が：00051_ga⟧⟦{浮上|ふじょう}した→浮上する：19549_fujousuru⟧。",
       "english": "The submarine surfaced.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15701_sensuikan_ex2",
-      "japanese": "{原子力|げんしりょく}{潜水艦|せんすいかん}は{長期間|ちょうきかん}{潜航|せんこう}できる。",
+      "japanese": "{原子力|げんしりょく}{潜水艦|せんすいかん}⟦は→は：00079_ha⟧⟦{長期間|ちょうきかん}→長期間：25696_choukikan⟧{潜航|せんこう}⟦できる→できる：00557_dekiru⟧。",
       "english": "Nuclear submarines can remain submerged for extended periods.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15701_sensuikan_ex3",
-      "japanese": "{深海|しんかい}{調査用|ちょうさよう}の{潜水艦|せんすいかん}で{海底|かいてい}の{様子|ようす}を{観察|かんさつ}した。",
+      "japanese": "⟦{深海|しんかい}→深海：16050_shinkai⟧{調査用|ちょうさよう}⟦の→の：09472_no⟧{潜水艦|せんすいかん}⟦で→で：00502_de⟧⟦{海底|かいてい}→海底：13287_kaitei⟧⟦の→の：09472_no⟧⟦{様子|ようす}→様子：01521_yousu⟧⟦を→を：00422_wo⟧⟦{観察|かんさつ}した→観察する：21989_kansatsusuru⟧。",
       "english": "They observed the ocean floor using a deep-sea research submarine.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nThe standard word for submarine in Japanese. Can refer to both military and civilian research vessels. Japan's Maritime Self-Defense Force operates a fleet of conventional (non-nuclear) submarines.\n\nCOMMON COLLOCATIONS:\n- {原子力|げんしりょく}{潜水艦|せんすいかん} (nuclear submarine)\n- {潜水艦|せんすいかん}が{潜航|せんこう}する (a submarine dives/submerges)\n- {潜水艦|せんすいかん}が{浮上|ふじょう}する (a submarine surfaces)\n\nSIMILAR WORDS:\n- {潜水|せんすい}{艇|てい}: submersible (smaller, for research)\n- {軍艦|ぐんかん}: warship (general term)",
+  "notes": "USAGE:\nThe standard word for submarine in Japanese. Can refer to both military and civilian research vessels. Japan's Maritime Self-Defense Force operates a fleet of conventional (non-nuclear) submarines.\n\nCOMMON COLLOCATIONS:\n- {原子力|げんしりょく}{潜水艦|せんすいかん} (nuclear submarine)\n- {潜水艦|せんすいかん}⟦が→が：00051_ga⟧{潜航|せんこう}⟦する→する：00392_suru⟧ (a submarine dives/submerges)\n- {潜水艦|せんすいかん}⟦が→が：00051_ga⟧⟦{浮上|ふじょう}する→浮上する：19549_fujousuru⟧ (a submarine surfaces)\n\nSIMILAR WORDS:\n- ⟦{潜水|せんすい}→潜水：14817_sensui⟧{艇|てい}: submersible (smaller, for research)\n- ⟦{軍艦|ぐんかん}→軍艦：14393_gunkan⟧: warship (general term)",
   "cross_references": [
     {
       "type": "related",
@@ -46,18 +52,36 @@
       "reading": "ぐんかん",
       "headword": "{軍艦|ぐんかん}",
       "label": "warship"
+    },
+    {
+      "type": "related",
+      "target_id": "18332_goeikan",
+      "reading": "ごえいかん",
+      "headword": "{護衛艦|ごえいかん}",
+      "label": "escort ship"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23389_kuchikukan",
+      "reading": "くちくかん",
+      "headword": "{駆逐艦|くちくかん}",
+      "label": "destroyer (warship)"
     }
   ],
   "metadata": {
     "created": "2026-03-08T07:40:19Z",
-    "modified": "2026-05-01T10:15:30Z",
+    "modified": "2026-09-02T04:01:42Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["military"]
+      "semantic": [
+        "military"
+      ]
     }
   }
 }

@@ -15,41 +15,60 @@
   "examples": [
     {
       "id": "20588_mini_ex1",
-      "japanese": "{民意|みんい}を{反映|はんえい}させる。",
+      "japanese": "{民意|みんい}⟦を→を：00422_wo⟧⟦{反映|はんえい}させる→反映する：17186_haneisuru⟧。",
       "english": "To reflect the will of the people.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "20588_mini_ex2",
-      "japanese": "{選挙|せんきょ}は{民意|みんい}を{示|しめ}す{大切|たいせつ}な{機会|きかい}だ。",
+      "japanese": "⟦{選挙|せんきょ}→選挙：03303_senkyo⟧⟦は→は：00079_ha⟧{民意|みんい}⟦を→を：00422_wo⟧⟦{示|しめ}す→示す：01948_shimesu⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧な⟦{機会|きかい}→機会：01302_kikai⟧だ。",
       "english": "Elections are an important opportunity to show the will of the people.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "20588_mini_ex3",
-      "japanese": "{政府|せいふ}は{民意|みんい}を{無視|むし}してはならないと、{野党|やとう}が{強|つよ}く{批判|ひはん}した。",
+      "japanese": "⟦{政府|せいふ}→政府：03294_seifu⟧⟦は→は：00079_ha⟧{民意|みんい}⟦を→を：00422_wo⟧⟦{無視|むし}して→無視する：17288_mushisuru⟧⟦は→は：00079_ha⟧⟦ならない→なる：01970_naru⟧⟦と→と：00512_to⟧、⟦{野党|やとう}→野党：02438_yatou⟧⟦が→が：00051_ga⟧⟦{強|つよ}く→強い：00820_tsuyoi⟧⟦{批判|ひはん}した→批判する：21993_hihansuru⟧。",
       "english": "The opposition strongly criticized the government, saying it must not ignore the will of the people.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "A formal term used primarily in political and journalistic contexts. Composed of {民|みん} (people) + {意|い} (will, intention).\n\nCOMMON COLLOCATIONS:\n- {民意|みんい}を{反映|はんえい}する (reflect public opinion)\n- {民意|みんい}を{問|と}う (ask the public; put to public judgment)\n- {民意|みんい}を{無視|むし}する (ignore the will of the people)\n- {民意|みんい}に{沿|そ}う (align with public opinion)\n- {民意|みんい}を{汲|く}み{取|と}る (gauge public sentiment)\n\nSIMILAR WORDS:\n- {世論|よろん} — public opinion (broader, includes surveys and polls)\n- {国民|こくみん}の{声|こえ} — the voice of the people (more informal expression)\n- {民|たみ}の{心|こころ} — the heart of the people (literary/classical)",
-  "cross_references": [],
+  "notes": "A formal term used primarily in political and journalistic contexts. Composed of {民|みん} (people) + ⟦{意|い}→意：30489_i⟧ (will, intention).\n\nCOMMON COLLOCATIONS:\n- {民意|みんい}⟦を→を：00422_wo⟧⟦{反映|はんえい}する→反映する：17186_haneisuru⟧ (reflect public opinion)\n- {民意|みんい}⟦を→を：00422_wo⟧⟦{問|と}う→問う：02299_tou⟧ (ask the public; put to public judgment)\n- {民意|みんい}⟦を→を：00422_wo⟧⟦{無視|むし}する→無視する：17288_mushisuru⟧ (ignore the will of the people)\n- {民意|みんい}⟦に→に：00314_ni⟧⟦{沿|そ}う→沿う：13279_sou⟧ (align with public opinion)\n- {民意|みんい}⟦を→を：00422_wo⟧⟦{汲|く}み{取|と}る→汲み取る：25269_kumitoru⟧ (gauge public sentiment)\n\nSIMILAR WORDS:\n- ⟦{世論|よろん}→世論：16145_yoron⟧ — public opinion (broader, includes surveys and polls)\n- ⟦{国民|こくみん}→国民：02757_kokumin⟧⟦の→の：09472_no⟧⟦{声|こえ}→声：02207_koe⟧ — the voice of the people (more informal expression)\n- ⟦{民|たみ}→民：13246_tami⟧⟦の→の：09472_no⟧⟦{心|こころ}→心：01321_kokoro⟧ — the heart of the people (literary/classical)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16145_yoron",
+      "reading": "よろん",
+      "headword": "{世論|よろん}",
+      "label": "public opinion"
+    }
+  ],
   "metadata": {
     "created": "2026-03-29T19:18:06Z",
-    "modified": "2026-03-29T19:18:06Z",
+    "modified": "2026-09-02T04:02:00Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["politics", "society"]
+      "semantic": [
+        "politics",
+        "society"
+      ]
     }
   }
 }

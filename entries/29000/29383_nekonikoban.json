@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29383_nekonikoban_ex1",
-      "japanese": "これは{猫|ねこ}に{小判|こばん}だ。",
+      "japanese": "⟦これ→これ：00963_kore⟧⟦は→は：00079_ha⟧{猫|ねこ}に{小判|こばん}だ。",
       "english": "This is like casting pearls before swine.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29383_nekonikoban_ex2",
-      "japanese": "{彼|かれ}に{高級|こうきゅう}ワインをあげても{猫|ねこ}に{小判|こばん}だ。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦に→に：00314_ni⟧⟦{高級|こうきゅう}→高級：08644_koukyuu⟧⟦ワイン→ワイン：01067_wain⟧⟦を→を：00422_wo⟧⟦あげて→あげる：00546_ageru⟧⟦も→も：00484_mo⟧{猫|ねこ}に{小判|こばん}だ。",
       "english": "Giving him fine wine is wasted on him.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29383_nekonikoban_ex3",
-      "japanese": "{興味|きょうみ}のない{人|ひと}に{名画|めいが}を{見|み}せても、{猫|ねこ}に{小判|こばん}でしかない。",
+      "japanese": "⟦{興味|きょうみ}→興味：01316_kyoumi⟧⟦の→の：09472_no⟧⟦ない→ない：01118_nai⟧⟦{人|ひと}→人：00476_hito⟧⟦に→に：00314_ni⟧⟦{名画|めいが}→名画：17385_meiga⟧⟦を→を：00422_wo⟧⟦{見|み}せて→見せる：01988_miseru⟧⟦も→も：00484_mo⟧、{猫|ねこ}に{小判|こばん}⟦で→で：00502_de⟧⟦しかない→〜しかない：30533_shikanai⟧。",
       "english": "Showing a masterpiece to someone with no interest in it is just casting pearls before swine.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "A very common proverb. The {小判|こばん} was a valuable oval gold coin; to a cat it means nothing, just as something precious is wasted on someone who cannot grasp its value.\n\nUSAGE:\nUsed to comment that something good is being given to, or used by, someone who cannot appreciate it.\n\nSIMILAR PROVERBS:\n- {豚|ぶた}に{真珠|しんじゅ}: pearls before swine\n- {馬|うま}の{耳|みみ}に{念仏|ねんぶつ}: chanting sutras into a horse's ear — advice falling on deaf ears",
+  "notes": "A very common proverb. The ⟦{小判|こばん}→小判：27868_koban⟧ was a valuable oval gold coin; to a cat it means nothing, just as something precious is wasted on someone who cannot grasp its value.\n\nUSAGE:\nUsed to comment that something good is being given to, or used by, someone who cannot appreciate it.\n\nSIMILAR PROVERBS:\n- ⟦{豚|ぶた}に{真珠|しんじゅ}→豚に真珠：06214_butanishinju⟧: pearls before swine\n- ⟦{馬|うま}の{耳|みみ}に{念仏|ねんぶつ}→馬の耳に念仏：06292_umanomimininenbutsu⟧: chanting sutras into a horse's ear — advice falling on deaf ears",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06292_umanomimininenbutsu",
+      "reading": "うまのみみにねんぶつ",
+      "headword": "{馬|うま}の{耳|みみ}に{念仏|ねんぶつ}",
+      "label": "preaching to deaf ears"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15490_takaranomochigusare",
+      "reading": "たからのもちぐされ",
+      "headword": "{宝|たから}の{持|も}ち{腐|ぐさ}れ",
+      "label": "wasted talent or possession"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +76,6 @@
       "domain": []
     },
     "created": "2026-06-21T06:18:54Z",
-    "modified": "2026-06-21T06:18:54Z"
+    "modified": "2026-09-02T04:02:36Z"
   }
 }

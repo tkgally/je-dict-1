@@ -3,7 +3,7 @@
   "headword": "{通読|つうどく}",
   "reading": "つうどく",
   "romaji": "tsuudoku",
-  "part_of_speech": "noun, verb (する)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "reading through; reading from cover to cover",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "19800_tsuudoku_ex1",
-      "japanese": "この{本|ほん}を{通読|つうどく}した。",
+      "japanese": "⟦この→この：00962_kono⟧{本|ほん}⟦を→を：00422_wo⟧{通読|つうどく}⟦した→する：00392_suru⟧。",
       "english": "I read this book from cover to cover.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "19800_tsuudoku_ex2",
-      "japanese": "{契約書|けいやくしょ}を{通読|つうどく}してからサインした。",
+      "japanese": "⟦{契約書|けいやくしょ}→契約書：06416_keiyakusho⟧⟦を→を：00422_wo⟧{通読|つうどく}⟦して→する：00392_suru⟧⟦から→から：00504_kara⟧⟦サインした→サインする：09864_sainsuru⟧。",
       "english": "I read through the contract before signing it.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "19800_tsuudoku_ex3",
-      "japanese": "{辞書|じしょ}を{最初|さいしょ}から{最後|さいご}まで{通読|つうどく}する{人|ひと}はめったにいない。",
+      "japanese": "⟦{辞書|じしょ}→辞書：04707_jisho⟧⟦を→を：00422_wo⟧⟦{最初|さいしょ}→最初：00882_saisho⟧⟦から→から：00504_kara⟧⟦{最後|さいご}→最後：01413_saigo⟧⟦まで→まで：00490_made⟧{通読|つうどく}⟦する→する：00392_suru⟧⟦{人|ひと}→人：00476_hito⟧⟦は→は：00079_ha⟧めったにいない。",
       "english": "Very few people read a dictionary from beginning to end.",
       "sense_numbers": [
         1
@@ -134,7 +134,7 @@
       "notes": null
     }
   ],
-  "notes": "Emphasizes completeness — reading every part of a text without skipping. Often used when describing a thorough or disciplined approach to reading.\n\nCOMMON COLLOCATIONS:\n- {一気|いっき}に{通読|つうどく}する — to read through in one sitting\n- {全巻|ぜんかん}{通読|つうどく} — reading through all volumes\n- {通読|つうどく}に{値|あたい}する — worth reading through\n\nSIMILAR WORDS:\n- {精読|せいどく} — close reading, careful reading (focuses on depth of comprehension)\n- {速読|そくどく} — speed reading (focuses on reading quickly)\n- {多読|たどく} — extensive reading (reading large quantities)\n- {拾|ひろ}い{読|よ}み — selective reading, reading bits and pieces (the opposite approach)",
+  "notes": "Emphasizes completeness — reading every part of a text without skipping. Often used when describing a thorough or disciplined approach to reading.\n\nCOMMON COLLOCATIONS:\n- ⟦{一気|いっき}→一気：08891_ikki⟧⟦に→に：00314_ni⟧{通読|つうどく}⟦する→する：00392_suru⟧ — to read through in one sitting\n- ⟦{全巻|ぜんかん}→全巻：17073_zenkan⟧{通読|つうどく} — reading through all volumes\n- {通読|つうどく}⟦に→に：00314_ni⟧⟦{値|あたい}する→値する：25545_ataisuru⟧ — worth reading through\n\nSIMILAR WORDS:\n- ⟦{精読|せいどく}→精読：15982_seidoku⟧ — close reading, careful reading (focuses on depth of comprehension)\n- ⟦{速読|そくどく}→速読：22402_sokudoku⟧ — speed reading (focuses on reading quickly)\n- ⟦{多読|たどく}→多読：15981_tadoku⟧ — extensive reading (reading large quantities)\n- ⟦{拾|ひろ}い{読|よ}み→拾い読み：17927_hiroiyomi⟧ — selective reading, reading bits and pieces (the opposite approach)",
   "cross_references": [
     {
       "type": "contrast",
@@ -142,6 +142,48 @@
       "reading": "じゅくどく",
       "headword": "{熟読|じゅくどく}",
       "label": "careful reading"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15982_seidoku",
+      "reading": "せいどく",
+      "headword": "{精読|せいどく}",
+      "label": "close reading, careful reading"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22402_sokudoku",
+      "reading": "そくどく",
+      "headword": "{速読|そくどく}",
+      "label": "speed reading"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15981_tadoku",
+      "reading": "たどく",
+      "headword": "{多読|たどく}",
+      "label": "extensive reading"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17927_hiroiyomi",
+      "reading": "ひろいよみ",
+      "headword": "{拾|ひろ}い{読|よ}み",
+      "label": "selective reading, reading bits…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19606_dokuha",
+      "reading": "どくは",
+      "headword": "{読破|どくは}",
+      "label": "reading through"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22581_kandoku",
+      "reading": "かんどく",
+      "headword": "{完読|かんどく}",
+      "label": "reading through completely"
     }
   ],
   "schema_version": "2.0",
@@ -158,9 +200,10 @@
         "language",
         "education"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-03-27T00:18:19Z",
-    "modified": "2026-07-27T12:42:09Z"
+    "modified": "2026-09-02T04:01:57Z"
   }
 }

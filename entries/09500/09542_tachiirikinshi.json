@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "09542_tachiirikinshi_ex1",
-      "japanese": "ここは{立入禁止|たちいりきんし}だ。",
+      "japanese": "⟦ここ→ここ：00961_koko⟧⟦は→は：00079_ha⟧{立入禁止|たちいりきんし}だ。",
       "english": "Entry here is prohibited.",
       "has_audio": false,
       "sense_numbers": [
@@ -23,7 +23,7 @@
     },
     {
       "id": "09542_tachiirikinshi_ex2",
-      "japanese": "{立入禁止|たちいりきんし}の{看板|かんばん}がある。",
+      "japanese": "{立入禁止|たちいりきんし}⟦の→の：09472_no⟧⟦{看板|かんばん}→看板：00166_kanban⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There is a 'No Entry' sign.",
       "has_audio": false,
       "sense_numbers": [
@@ -32,7 +32,7 @@
     },
     {
       "id": "09542_tachiirikinshi_ex3",
-      "japanese": "{工事|こうじ}{中|ちゅう}のため、この{区域|くいき}は{立入禁止|たちいりきんし}になっています。",
+      "japanese": "⟦{工事|こうじ}{中|ちゅう}→工事中：09625_koujichuu⟧⟦の→の：09472_no⟧⟦ため→ため：01145_tame⟧、⟦この→この：00962_kono⟧⟦{区域|くいき}→区域：00251_kuiki⟧⟦は→は：00079_ha⟧{立入禁止|たちいりきんし}になっています。",
       "english": "This area is off-limits due to construction.",
       "has_audio": false,
       "sense_numbers": [
@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "notes": "{立入禁止|たちいりきんし} is a compound expression commonly seen on signs, meaning \"no entry\" or \"keep out.\" Composed of {立|た}ち{入|い}る (to enter) + {禁止|きんし} (prohibition).\n\nCOMMON CONTEXTS:\n- {工事|こうじ}{現場|げんば}: construction sites\n- {危険|きけん}{区域|くいき}: dangerous areas\n- {私有地|しゆうち}: private property\n\nVARIATIONS:\n- {関係者|かんけいしゃ}{以外|いがい}{立入禁止|たちいりきんし}: No entry except for authorized personnel\n- {許可|きょか}なく{立|た}ち{入|い}ることを{禁|きん}ずる: Entry without permission is prohibited (formal)\n\nSIMILAR SIGN EXPRESSIONS:\n- {進入禁止|しんにゅうきんし}: no entry (for vehicles, traffic sign)\n- {通行止|つうこうど}め: road closed\n- {撮影禁止|さつえいきんし}: no photography",
+  "notes": "{立入禁止|たちいりきんし} is a compound expression commonly seen on signs, meaning \"no entry\" or \"keep out.\" Composed of ⟦{立|た}ち{入|い}る→立ち入る：26367_tachiiru⟧ (to enter) + ⟦{禁止|きんし}→禁止：02643_kinshi⟧ (prohibition).\n\nUSAGE:\n- ⟦{工事|こうじ}{現場|げんば}→工事現場：26202_koujigenba⟧: construction sites\n- ⟦{危険|きけん}→危険：01141_kiken⟧⟦{区域|くいき}→区域：00251_kuiki⟧: dangerous areas\n- ⟦{私有地|しゆうち}→私有地：22702_shiyuuchi⟧: private property\n\nFORMS:\n- ⟦{関係者|かんけいしゃ}→関係者：16441_kankeisha⟧⟦{以外|いがい}→以外：01297_igai⟧{立入禁止|たちいりきんし}: No entry except for authorized personnel\n- ⟦{許可|きょか}→許可：00259_kyoka⟧⟦なく→ない：01118_nai⟧⟦{立|た}ち{入|い}る→立ち入る：26367_tachiiru⟧こと⟦を→を：00422_wo⟧⟦{禁|きん}ずる→禁ずる：19600_kinzuru⟧: Entry without permission is prohibited (formal)\n\nSIMILAR SIGN EXPRESSIONS:\n- ⟦{進入禁止|しんにゅうきんし}→進入禁止：16530_shinnyuukinshi⟧: no entry (for vehicles, traffic sign)\n- ⟦{通行止|つうこうど}め→通行止め：19920_tsuukoudome⟧: road closed\n- ⟦{撮影禁止|さつえいきんし}→撮影禁止：26565_satsueikinshi⟧: no photography",
   "cross_references": [
     {
       "type": "related",
@@ -55,11 +55,39 @@
       "reading": "しんにゅうきんし",
       "headword": "{進入禁止|しんにゅうきんし}",
       "label": "no entry (vehicles)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19920_tsuukoudome",
+      "reading": "つうこうどめ",
+      "headword": "{通行止|つうこうど}め",
+      "label": "road closed"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26565_satsueikinshi",
+      "reading": "さつえいきんし",
+      "headword": "{撮影禁止|さつえいきんし}",
+      "label": "no photography"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24673_tsuukoukinshi",
+      "reading": "つうこうきんし",
+      "headword": "{通行禁止|つうこうきんし}",
+      "label": "no passage"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24794_nyuujoukinshi",
+      "reading": "にゅうじょうきんし",
+      "headword": "{入場|にゅうじょう}{禁止|きんし}",
+      "label": "no admittance"
     }
   ],
   "metadata": {
     "created": "2026-02-02T10:40:04Z",
-    "modified": "2026-05-04T06:23:57Z",
+    "modified": "2026-09-02T04:01:18Z",
     "ai_model": "claude-opus-4-5-20251101",
     "vocabulary_tier": "general",
     "tags": {

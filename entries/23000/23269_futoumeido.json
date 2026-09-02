@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "23269_futoumeido_ex1",
-      "japanese": "{不透明度|ふとうめいど}を{上|あ}げる。",
+      "japanese": "{不透明度|ふとうめいど}⟦を→を：00422_wo⟧⟦{上|あ}げる→上げる：02443_ageru⟧。",
       "english": "To raise the opacity.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "23269_futoumeido_ex2",
-      "japanese": "レイヤーの{不透明度|ふとうめいど}を{五十|ごじゅう}パーセントに{設定|せってい}した。",
+      "japanese": "レイヤー⟦の→の：09472_no⟧{不透明度|ふとうめいど}⟦を→を：00422_wo⟧⟦{五十|ごじゅう}→五十：00930_gojuu⟧⟦パーセント→パーセント：01537_paasento⟧⟦に→に：00314_ni⟧⟦{設定|せってい}→設定：04767_settei⟧⟦した→する：00392_suru⟧。",
       "english": "I set the layer's opacity to fifty percent.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "23269_futoumeido_ex3",
-      "japanese": "{背景|はいけい}のテクスチャーの{不透明度|ふとうめいど}を{下|さ}げて、{文字|もじ}を{読|よ}みやすくした。",
+      "japanese": "⟦{背景|はいけい}→背景：28348_haikei⟧⟦の→の：09472_no⟧テクスチャー⟦の→の：09472_no⟧{不透明度|ふとうめいど}⟦を→を：00422_wo⟧⟦{下|さ}げて→下げる：00807_sageru⟧、⟦{文字|もじ}→文字：03632_moji⟧⟦を→を：00422_wo⟧⟦{読|よ}み→読む：00426_yomu⟧やすく⟦した→する：00392_suru⟧。",
       "english": "I lowered the opacity of the background texture so that the text was easier to read.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {不透明|ふとうめい} (opaque, not transparent) and the suffix {度|ど} (-ness, degree). A scientific/technical term that names a measurable quantity — the degree of opacity — rather than simply saying something is opaque.\n\nUSAGE:\n- Encountered most often in two contexts: (1) materials science / optics, where it quantifies how much light a substance blocks; (2) graphics and design software, where it is the standard translation of the English UI term \"Opacity\" (often rendered as an adjustable slider or percentage).\n- Takes adjustival modifiers: {高|たか}い{不透明度|ふとうめいど} (high opacity), {低|ひく}い{不透明度|ふとうめいど} (low opacity).\n- In software, users often say {不透明度|ふとうめいど}を{下|さ}げる (lower the opacity) rather than \"make more transparent.\"\n- The opposite concept is {透明度|とうめいど} (transparency, degree of clarity), which is more common in everyday speech (e.g., describing water clarity).\n\nCOMMON COLLOCATIONS:\n- {不透明度|ふとうめいど}を{上|あ}げる: to raise the opacity\n- {不透明度|ふとうめいど}を{下|さ}げる: to lower the opacity\n- {不透明度|ふとうめいど}を{設定|せってい}する: to set the opacity\n- {不透明度|ふとうめいど}が{高|たか}い: the opacity is high\n- レイヤーの{不透明度|ふとうめいど}: layer opacity\n\nSIMILAR WORDS:\n- {透明度|とうめいど}: transparency — the inverse measure; common in everyday usage (e.g., of water)\n- {不透明|ふとうめい}: opaque — the adjective form, also used figuratively for \"unclear\" (as in political situations)\n- {透過率|とうかりつ}: transmittance — a more technical optics term, the percentage of light that passes through\n- {濃度|のうど}: density, concentration — sometimes used loosely in graphics software in place of opacity",
+  "notes": "Composed of ⟦{不透明|ふとうめい}→不透明：11365_futoumei⟧ (opaque, not transparent) and the suffix ⟦{度|ど}→〜度：09845_do⟧ (-ness, degree). A scientific/technical term that names a measurable quantity — the degree of opacity — rather than simply saying something is opaque.\n\nUSAGE:\n- Encountered most often in two contexts: (1) materials science / optics, where it quantifies how much light a substance blocks; (2) graphics and design software, where it is the standard translation of the English UI term \"Opacity\" (often rendered as an adjustable slider or percentage).\n- Takes adjustival modifiers: ⟦{高|たか}い→高い：00500_takai⟧{不透明度|ふとうめいど} (high opacity), ⟦{低|ひく}い→低い：02947_hikui⟧{不透明度|ふとうめいど} (low opacity).\n- In software, users often say {不透明度|ふとうめいど}⟦を→を：00422_wo⟧⟦{下|さ}げる→下げる：00807_sageru⟧ (lower the opacity) rather than \"make more transparent.\"\n- The opposite concept is ⟦{透明度|とうめいど}→透明度：25289_toumeido⟧ (transparency, degree of clarity), which is more common in everyday speech (e.g., describing water clarity).\n\nCOMMON COLLOCATIONS:\n- {不透明度|ふとうめいど}⟦を→を：00422_wo⟧⟦{上|あ}げる→上げる：02443_ageru⟧: to raise the opacity\n- {不透明度|ふとうめいど}⟦を→を：00422_wo⟧⟦{下|さ}げる→下げる：00807_sageru⟧: to lower the opacity\n- {不透明度|ふとうめいど}⟦を→を：00422_wo⟧⟦{設定|せってい}→設定：04767_settei⟧⟦する→する：00392_suru⟧: to set the opacity\n- {不透明度|ふとうめいど}⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧: the opacity is high\n- レイヤー⟦の→の：09472_no⟧{不透明度|ふとうめいど}: layer opacity\n\nSIMILAR WORDS:\n- ⟦{透明度|とうめいど}→透明度：25289_toumeido⟧: transparency — the inverse measure; common in everyday usage (e.g., of water)\n- ⟦{不透明|ふとうめい}→不透明：11365_futoumei⟧: opaque — the adjective form, also used figuratively for \"unclear\" (as in political situations)\n- {透過率|とうかりつ}: transmittance — a more technical optics term, the percentage of light that passes through\n- ⟦{濃度|のうど}→濃度：00325_noudo⟧: density, concentration — sometimes used loosely in graphics software in place of opacity",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00325_noudo",
+      "reading": "のうど",
+      "headword": "{濃度|のうど}",
+      "label": "density, concentration"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,6 +71,6 @@
       "politeness": "plain"
     },
     "created": "2026-04-11T15:10:06Z",
-    "modified": "2026-07-31T18:20:34Z"
+    "modified": "2026-09-02T04:02:11Z"
   }
 }

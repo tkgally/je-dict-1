@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08747_shihoushoshi_ex1",
-      "japanese": "{司法|しほう}{書士|しょし}に{登記|とうき}を{依頼|いらい}した。",
+      "japanese": "{司法|しほう}{書士|しょし}⟦に→に：00314_ni⟧⟦{登記|とうき}→登記：19798_touki⟧⟦を→を：00422_wo⟧⟦{依頼|いらい}した→依頼する：21376_irai⟧。",
       "english": "I asked a judicial scrivener to handle the registration.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "08747_shihoushoshi_ex2",
-      "japanese": "{司法|しほう}{書士|しょし}は{不動産|ふどうさん}{登記|とうき}の{専門家|せんもんか}だ。",
+      "japanese": "{司法|しほう}{書士|しょし}⟦は→は：00079_ha⟧⟦{不動産|ふどうさん}→不動産：06726_fudousan⟧⟦{登記|とうき}→登記：19798_touki⟧⟦の→の：09472_no⟧⟦{専門家|せんもんか}→専門家：03088_senmonka⟧だ。",
       "english": "Judicial scriveners are experts in real estate registration.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "08747_shihoushoshi_ex3",
-      "japanese": "{会社|かいしゃ}{設立|せつりつ}の{手続|てつづ}きは{司法|しほう}{書士|しょし}に{任|まか}せた。",
+      "japanese": "⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦{設立|せつりつ}→設立：14171_setsuritsu⟧⟦の→の：09472_no⟧⟦{手続|てつづ}き→手続き：05453_tetsuzuki⟧⟦は→は：00079_ha⟧{司法|しほう}{書士|しょし}⟦に→に：00314_ni⟧⟦{任|まか}せた→任せる：02417_makaseru⟧。",
       "english": "I left the company incorporation procedures to a judicial scrivener.",
       "sense_numbers": [
         1
@@ -43,7 +43,7 @@
       "notes": null
     }
   ],
-  "notes": "SCOPE OF WORK:\n- {不動産|ふどうさん}{登記|とうき} - real estate registration\n- {商業|しょうぎょう}{登記|とうき} - commercial registration\n- {会社|かいしゃ}{設立|せつりつ} - company incorporation\n- {相続|そうぞく}{手続|てつづ}き - inheritance procedures\n- {債務|さいむ}{整理|せいり} - debt restructuring (limited)\n\nCONTRAST WITH OTHER LEGAL PROFESSIONALS:\n- {弁護士|べんごし} - lawyer (litigation, legal advice)\n- {司法|しほう}{書士|しょし} - judicial scrivener (registration, documents)\n- {行政|ぎょうせい}{書士|しょし} - administrative scrivener (government permits)\n- {税理士|ぜいりし} - tax accountant\n\nJAPAN-SPECIFIC:\nThis profession is unique to Japan. In other countries, these tasks are typically handled by lawyers or notaries.",
+  "notes": "SCOPE OF WORK:\n- ⟦{不動産|ふどうさん}→不動産：06726_fudousan⟧⟦{登記|とうき}→登記：19798_touki⟧ - real estate registration\n- ⟦{商業|しょうぎょう}→商業：09940_shougyou⟧⟦{登記|とうき}→登記：19798_touki⟧ - commercial registration\n- ⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦{設立|せつりつ}→設立：14171_setsuritsu⟧ - company incorporation\n- ⟦{相続|そうぞく}→相続：03690_souzoku⟧⟦{手続|てつづ}き→手続き：05453_tetsuzuki⟧ - inheritance procedures\n- ⟦{債務|さいむ}→債務：06578_saimu⟧⟦{整理|せいり}→整理：03297_seiri⟧ - debt restructuring (limited)\n\nCONTRAST WITH OTHER LEGAL PROFESSIONALS:\n- ⟦{弁護士|べんごし}→弁護士：03150_bengoshi⟧ - lawyer (litigation, legal advice)\n- {司法|しほう}{書士|しょし} - judicial scrivener (registration, documents)\n- ⟦{行政|ぎょうせい}{書士|しょし}→行政書士：08748_gyouseishoshi⟧ - administrative scrivener (government permits)\n- ⟦{税理士|ぜいりし}→税理士：06571_zeirishi⟧ - tax accountant\n\nJAPAN-SPECIFIC:\nThis profession is unique to Japan. In other countries, these tasks are typically handled by lawyers or notaries.",
   "cross_references": [
     {
       "type": "contrast",
@@ -58,6 +58,13 @@
       "reading": "べんごし",
       "headword": "{弁護士|べんごし}",
       "label": "lawyer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06571_zeirishi",
+      "reading": "ぜいりし",
+      "headword": "{税理士|ぜいりし}",
+      "label": "tax accountant"
     }
   ],
   "metadata": {
@@ -67,12 +74,13 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "law",
         "occupation"
       ]
     },
     "created": "2026-01-28T03:36:53Z",
-    "modified": "2026-06-23T01:38:10Z"
+    "modified": "2026-09-02T04:01:16Z"
   }
 }

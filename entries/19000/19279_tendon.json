@@ -15,40 +15,87 @@
   "examples": [
     {
       "id": "19279_tendon_ex1",
-      "japanese": "{天丼|てんどん}を{注文|ちゅうもん}した。",
+      "japanese": "{天丼|てんどん}⟦を→を：00422_wo⟧⟦{注文|ちゅうもん}した→注文する：21390_chuumon⟧。",
       "english": "I ordered a tempura rice bowl.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19279_tendon_ex2",
-      "japanese": "この{店|みせ}の{天丼|てんどん}は{海老|えび}が{大|おお}きい。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{店|みせ}→店：00497_mise⟧⟦の→の：09472_no⟧{天丼|てんどん}⟦は→は：00079_ha⟧⟦{海老|えび}→海老：02272_ebi⟧⟦が→が：00051_ga⟧⟦{大|おお}きい→大きい：00335_ookii⟧。",
       "english": "The shrimp in this restaurant's tempura bowl are big.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19279_tendon_ex3",
-      "japanese": "{昼|ひる}ごはんに{天丼|てんどん}と{味噌汁|みそしる}のセットを{食|た}べた。",
+      "japanese": "{昼|ひる}ごはん⟦に→に：00314_ni⟧{天丼|てんどん}⟦と→と：00512_to⟧⟦{味噌汁|みそしる}→味噌汁：04954_misoshiru⟧⟦の→の：09472_no⟧⟦セット→セット：03853_setto⟧⟦を→を：00422_wo⟧⟦{食|た}べた→食べる：00396_taberu⟧。",
       "english": "For lunch, I had a tempura bowl and miso soup set.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Short for {天|てん}ぷら{丼|どんぶり}. One of the most popular {丼|どんぶり}もの (rice bowl dishes) in Japan.\n\nCOMMON COLLOCATIONS:\n- {天丼|てんどん}を{食|た}べる — to eat a tempura bowl\n- {天丼|てんどん}セット — tempura bowl set (with soup and pickles)\n- {上|じょう}{天丼|てんどん} — premium tempura bowl (with higher-quality ingredients)\n\nRELATED TERMS:\n- {天|てん}ぷら — tempura (the fried dish itself)\n- {親子丼|おやこどん} — chicken-and-egg rice bowl\n- {牛丼|ぎゅうどん} — beef rice bowl\n- {海鮮丼|かいせんどん} — seafood rice bowl",
+  "notes": "Short for ⟦{天|てん}ぷら→天ぷら：04948_tenpura⟧⟦{丼|どんぶり}→丼：03904_donburi⟧. One of the most popular {丼|どんぶり}もの (rice bowl dishes) in Japan.\n\nCOMMON COLLOCATIONS:\n- {天丼|てんどん}⟦を→を：00422_wo⟧⟦{食|た}べる→食べる：00396_taberu⟧ — to eat a tempura bowl\n- {天丼|てんどん}⟦セット→セット：03853_setto⟧ — tempura bowl set (with soup and pickles)\n- {上|じょう}{天丼|てんどん} — premium tempura bowl (with higher-quality ingredients)\n\nRELATED WORDS:\n- ⟦{天|てん}ぷら→天ぷら：04948_tenpura⟧ — tempura (the fried dish itself)\n- ⟦{親子丼|おやこどん}→親子丼：17621_oyakodon⟧ — chicken-and-egg rice bowl\n- ⟦{牛丼|ぎゅうどん}→牛丼：08600_gyuudon⟧ — beef rice bowl\n- {海鮮丼|かいせんどん} — seafood rice bowl",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "04948_tenpura",
+      "reading": "てんぷら",
+      "headword": "{天|てん}ぷら",
+      "label": "tempura"
+    },
+    {
+      "type": "related",
+      "target_id": "17621_oyakodon",
+      "reading": "おやこどん",
+      "headword": "{親子丼|おやこどん}",
+      "label": "chicken-and-egg rice bowl"
+    },
+    {
+      "type": "related",
+      "target_id": "08600_gyuudon",
+      "reading": "ぎゅうどん",
+      "headword": "{牛丼|ぎゅうどん}",
+      "label": "beef rice bowl"
+    },
+    {
+      "type": "related",
+      "target_id": "08539_katsudon",
+      "reading": "かつどん",
+      "headword": "カツ{丼|どん}",
+      "label": "katsudon (pork cutlet rice bowl)"
+    },
+    {
+      "type": "related",
+      "target_id": "22328_butadon",
+      "reading": "ぶたどん",
+      "headword": "{豚丼|ぶたどん}",
+      "label": "pork bowl"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food"]
+      "semantic": [
+        "food"
+      ]
     },
     "created": "2026-03-25T04:42:57Z",
-    "modified": "2026-03-25T04:42:57Z"
+    "modified": "2026-09-02T04:01:55Z"
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26754_inbousha_ex1",
-      "japanese": "{陰謀者|いんぼうしゃ}が{捕|つか}まった。",
+      "japanese": "{陰謀者|いんぼうしゃ}⟦が→が：00051_ga⟧⟦{捕|つか}まった→捕まる：01959_tsukamaru⟧。",
       "english": "The conspirator was caught.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26754_inbousha_ex2",
-      "japanese": "{歴史|れきし}には{多|おお}くの{陰謀者|いんぼうしゃ}が{登場|とうじょう}する。",
+      "japanese": "⟦{歴史|れきし}→歴史：02267_rekishi⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{多|おお}く⟦の→の：09472_no⟧{陰謀者|いんぼうしゃ}⟦が→が：00051_ga⟧⟦{登場|とうじょう}→登場：13625_toujou⟧⟦する→する：00392_suru⟧。",
       "english": "Many conspirators appear throughout history.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26754_inbousha_ex3",
-      "japanese": "{陰謀者|いんぼうしゃ}たちは{密|ひそ}かに{計画|けいかく}を{進|すす}めていたが、{結局|けっきょく}{失敗|しっぱい}に{終|お}わった。",
+      "japanese": "{陰謀者|いんぼうしゃ}たち⟦は→は：00079_ha⟧⟦{密|ひそ}か→密か：10515_hisoka⟧⟦に→に：00314_ni⟧⟦{計画|けいかく}→計画：01172_keikaku⟧⟦を→を：00422_wo⟧⟦{進|すす}めていた→進める：01949_susumeru⟧⟦が→が：00051_ga⟧、⟦{結局|けっきょく}→結局：03815_kekkyoku⟧⟦{失敗|しっぱい}→失敗：01636_shippai⟧⟦に→に：00314_ni⟧⟦{終|お}わった→終わる：00567_owaru⟧。",
       "english": "The conspirators were secretly advancing their plan, but it ended in failure.",
       "sense_numbers": [
         1
@@ -44,8 +44,23 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {陰謀|いんぼう} (conspiracy, plot) and {者|しゃ} (person). A formal term used in historical, political, and legal contexts to describe someone involved in a conspiracy.\n\nCOMMON COLLOCATIONS:\n- {陰謀者|いんぼうしゃ}を{逮捕|たいほ}する: to arrest a conspirator\n- {陰謀者|いんぼうしゃ}の{一味|いちみ}: a band of conspirators\n- {陰謀者|いんぼうしゃ}として{裁|さば}かれる: to be tried as a conspirator\n\nSIMILAR WORDS:\n- {共謀者|きょうぼうしゃ}: co-conspirator — emphasizes joint participation in a plot\n- {首謀者|しゅぼうしゃ}: ringleader — the person who leads or initiates a plot\n- {策略家|さくりゃくか}: schemer, strategist — broader term; not necessarily criminal",
-  "cross_references": [],
+  "notes": "Composed of ⟦{陰謀|いんぼう}→陰謀：10887_inbou⟧ (conspiracy, plot) and ⟦{者|しゃ}→〜者：04662_sha⟧ (person). A formal term used in historical, political, and legal contexts to describe someone involved in a conspiracy.\n\nCOMMON COLLOCATIONS:\n- {陰謀者|いんぼうしゃ}⟦を→を：00422_wo⟧⟦{逮捕|たいほ}する→逮捕する：26830_taihosuru⟧: to arrest a conspirator\n- {陰謀者|いんぼうしゃ}⟦の→の：09472_no⟧⟦{一味|いちみ}→一味：11238_ichimi⟧: a band of conspirators\n- {陰謀者|いんぼうしゃ}⟦として→として：06802_toshite⟧⟦{裁|さば}かれる→裁く：02112_sabaku⟧: to be tried as a conspirator\n\nSIMILAR WORDS:\n- ⟦{共謀者|きょうぼうしゃ}→共謀者：27691_kyoubousha⟧: co-conspirator — emphasizes joint participation in a plot\n- ⟦{首謀者|しゅぼうしゃ}→首謀者：19171_shubousha⟧: ringleader — the person who leads or initiates a plot\n- {策略家|さくりゃくか}: schemer, strategist — broader term; not necessarily criminal",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "27691_kyoubousha",
+      "reading": "きょうぼうしゃ",
+      "headword": "{共謀|きょうぼう}{者|しゃ}",
+      "label": "co-conspirator"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19171_shubousha",
+      "reading": "しゅぼうしゃ",
+      "headword": "{首謀者|しゅぼうしゃ}",
+      "label": "ringleader"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -61,6 +76,6 @@
       "domain": []
     },
     "created": "2026-05-04T16:17:17Z",
-    "modified": "2026-08-06T12:46:55Z"
+    "modified": "2026-09-02T04:02:27Z"
   }
 }

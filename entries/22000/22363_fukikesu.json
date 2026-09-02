@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22363_fukikesu_ex1",
-      "japanese": "{涙|なみだ}を{拭|ふ}き{消|け}した。",
+      "japanese": "⟦{涙|なみだ}→涙：02235_namida⟧⟦を→を：00422_wo⟧{拭|ふ}き{消|け}した。",
       "english": "She wiped away her tears.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22363_fukikesu_ex2",
-      "japanese": "{不安|ふあん}を{拭|ふ}き{消|け}すことができない。",
+      "japanese": "⟦{不安|ふあん}→不安：00836_fuan⟧⟦を→を：00422_wo⟧{拭|ふ}き{消|け}すこと⟦が→が：00051_ga⟧⟦できない→できる：00557_dekiru⟧。",
       "english": "I can't dispel my anxiety.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22363_fukikesu_ex3",
-      "japanese": "{過去|かこ}の{失敗|しっぱい}の{記憶|きおく}を{拭|ふ}き{消|け}すように、{新|あたら}しい{挑戦|ちょうせん}に{全力|ぜんりょく}で{取|と}り{組|く}んだ。",
+      "japanese": "⟦{過去|かこ}→過去：00152_kako⟧⟦の→の：09472_no⟧⟦{失敗|しっぱい}→失敗：01636_shippai⟧⟦の→の：09472_no⟧⟦{記憶|きおく}→記憶：00234_kioku⟧⟦を→を：00422_wo⟧{拭|ふ}き{消|け}すよう⟦に→に：00314_ni⟧、⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦{挑戦|ちょうせん}→挑戦：03495_chousen⟧⟦に→に：00314_ni⟧⟦{全力|ぜんりょく}→全力：11637_zenryoku⟧⟦で→で：00502_de⟧⟦{取|と}り{組|く}んだ→取り組む：04225_torikumu⟧。",
       "english": "As if to wipe away the memory of past failures, I threw myself fully into the new challenge.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "A compound verb combining {拭|ふ}く (to wipe) and {消|け}す (to erase/extinguish). The figurative use — dispelling doubts, anxiety, or bad impressions — is very common.\n\nCOMMON COLLOCATIONS:\n- {不安|ふあん}を{拭|ふ}き{消|け}す: to dispel anxiety\n- {疑念|ぎねん}を{拭|ふ}き{消|け}す: to erase doubts\n- {涙|なみだ}を{拭|ふ}き{消|け}す: to wipe away tears\n- {汚名|おめい}を{拭|ふ}き{消|け}す: to clear one's name\n\nSIMILAR WORDS:\n- {拭|ぬぐ}い{去|さ}る: to wipe away — similar meaning, slightly more literary\n- {払拭|ふっしょく}する: to dispel; to wipe clean — formal Sino-Japanese equivalent\n- {消|け}し{去|さ}る: to erase; to obliterate — emphasizes complete removal\n\nGRAMMAR:\nGodan verb (す row). Transitive. Conjugates: {拭|ふ}き{消|け}さない, {拭|ふ}き{消|け}して, {拭|ふ}き{消|け}します.",
+  "notes": "A compound verb combining ⟦{拭|ふ}く→拭く：04261_fuku⟧ (to wipe) and ⟦{消|け}す→消す：00528_kesu⟧ (to erase/extinguish). The figurative use — dispelling doubts, anxiety, or bad impressions — is very common.\n\nCOMMON COLLOCATIONS:\n- ⟦{不安|ふあん}→不安：00836_fuan⟧⟦を→を：00422_wo⟧{拭|ふ}き{消|け}す: to dispel anxiety\n- ⟦{疑念|ぎねん}→疑念：17971_ginen⟧⟦を→を：00422_wo⟧{拭|ふ}き{消|け}す: to erase doubts\n- ⟦{涙|なみだ}→涙：02235_namida⟧⟦を→を：00422_wo⟧{拭|ふ}き{消|け}す: to wipe away tears\n- ⟦{汚名|おめい}→汚名：13265_omei⟧⟦を→を：00422_wo⟧{拭|ふ}き{消|け}す: to clear one's name\n\nSIMILAR WORDS:\n- {拭|ぬぐ}い{去|さ}る: to wipe away — similar meaning, slightly more literary\n- ⟦{払拭|ふっしょく}→払拭：09461_fusshoku⟧⟦する→する：00392_suru⟧: to dispel; to wipe clean — formal Sino-Japanese equivalent\n- {消|け}し{去|さ}る: to erase; to obliterate — emphasizes complete removal\n\nCOMMON PATTERNS:\nGodan verb (す row). Transitive. Conjugates: {拭|ふ}き{消|け}さない, {拭|ふ}き{消|け}して, {拭|ふ}き{消|け}します.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09461_fusshoku",
+      "reading": "ふっしょく",
+      "headword": "{払拭|ふっしょく}",
+      "label": "to dispel"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -57,10 +66,11 @@
       "semantic": [
         "general"
       ],
-      "verb_class": "godan-su"
+      "verb_class": "godan-su",
+      "transitivity": "transitive"
     },
     "created": "2026-04-05T19:26:36Z",
-    "modified": "2026-04-05T19:26:36Z"
+    "modified": "2026-09-02T04:02:07Z"
   },
   "conjugation": {
     "type": "godan",

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "17145_zensei_ex1",
-      "japanese": "{全盛期|ぜんせいき}は{過|す}ぎた。",
+      "japanese": "⟦{全盛期|ぜんせいき}→全盛期：11644_zenseiki⟧⟦は→は：00079_ha⟧⟦{過|す}ぎた→過ぎる：01219_sugiru⟧。",
       "english": "The heyday has passed.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "17145_zensei_ex2",
-      "japanese": "あの{歌手|かしゅ}は{今|いま}が{全盛期|ぜんせいき}だ。",
+      "japanese": "⟦あの→あの：00915_ano⟧⟦{歌手|かしゅ}→歌手：00197_kashu⟧⟦は→は：00079_ha⟧⟦{今|いま}→今：00945_ima⟧⟦が→が：00051_ga⟧⟦{全盛期|ぜんせいき}→全盛期：11644_zenseiki⟧だ。",
       "english": "That singer is at the peak of their career right now.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "17145_zensei_ex3",
-      "japanese": "スマートフォン{全盛|ぜんせい}の{時代|じだい}に、あえてガラケーを{使|つか}う{人|ひと}もいる。",
+      "japanese": "⟦スマートフォン→スマートフォン：04434_sumaatofon⟧{全盛|ぜんせい}⟦の→の：09472_no⟧⟦{時代|じだい}→時代：01424_jidai⟧⟦に→に：00314_ni⟧、あえて⟦ガラケー→ガラケー：08944_garakee⟧⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧⟦{人|ひと}→人：00476_hito⟧⟦も→も：00484_mo⟧⟦いる→いる：00495_iru⟧。",
       "english": "Even in the age of smartphone dominance, some people deliberately use flip phones.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA compound of {全|ぜん} (complete, all) + {盛|せい} (prosperity, flourishing). Most commonly appears in the compound {全盛期|ぜんせいき} (heyday, golden age). Also used attributively as ～{全盛|ぜんせい}の{時代|じだい} (the era of ～'s dominance).\n\nCOMMON COLLOCATIONS:\n- {全盛期|ぜんせいき} (heyday, golden age)\n- {全盛|ぜんせい}を{極|きわ}める (to reach the height of prosperity)\n- ～{全盛|ぜんせい}の{時代|じだい} (the era when ～ was dominant)\n\nSIMILAR WORDS:\n- {最盛期|さいせいき}: peak period — very similar, emphasizes the absolute peak\n- {絶頂|ぜっちょう}: peak, climax — the highest point, often used for emotions or power",
+  "notes": "USAGE:\nA compound of ⟦{全|ぜん}→全〜：28337_zen⟧ (complete, all) + {盛|せい} (prosperity, flourishing). Most commonly appears in the compound ⟦{全盛期|ぜんせいき}→全盛期：11644_zenseiki⟧ (heyday, golden age). Also used attributively as ～{全盛|ぜんせい}⟦の→の：09472_no⟧⟦{時代|じだい}→時代：01424_jidai⟧ (the era of ～'s dominance).\n\nCOMMON COLLOCATIONS:\n- ⟦{全盛期|ぜんせいき}→全盛期：11644_zenseiki⟧ (heyday, golden age)\n- {全盛|ぜんせい}⟦を→を：00422_wo⟧⟦{極|きわ}める→極める：13139_kiwameru⟧ (to reach the height of prosperity)\n- ～{全盛|ぜんせい}⟦の→の：09472_no⟧⟦{時代|じだい}→時代：01424_jidai⟧ (the era when ～ was dominant)\n\nSIMILAR WORDS:\n- ⟦{最盛期|さいせいき}→最盛期：13058_saiseiki⟧: peak period — very similar, emphasizes the absolute peak\n- ⟦{絶頂|ぜっちょう}→絶頂：13844_zecchou⟧: peak, climax — the highest point, often used for emotions or power",
   "cross_references": [
     {
       "type": "synonym",
@@ -52,11 +52,25 @@
       "reading": "ぜっちょう",
       "headword": "{絶頂|ぜっちょう}",
       "label": "peak, climax"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13058_saiseiki",
+      "reading": "さいせいき",
+      "headword": "{最盛期|さいせいき}",
+      "label": "peak period"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00357_sakari",
+      "reading": "さかり",
+      "headword": "{盛|さか}り",
+      "label": "peak"
     }
   ],
   "metadata": {
     "created": "2026-03-16T03:10:55Z",
-    "modified": "2026-07-22T18:50:18Z",
+    "modified": "2026-09-02T04:01:47Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

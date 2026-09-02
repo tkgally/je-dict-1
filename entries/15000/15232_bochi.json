@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "15232_bochi_ex1",
-      "japanese": "{墓地|ぼち}を{訪|おとず}れた。",
+      "japanese": "{墓地|ぼち}⟦を→を：00422_wo⟧⟦{訪|おとず}れた→訪れる：07678_otozureru⟧。",
       "english": "I visited the cemetery.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "15232_bochi_ex2",
-      "japanese": "{祖父|そふ}の{墓|はか}は{町|まち}の{墓地|ぼち}にある。",
+      "japanese": "⟦{祖父|そふ}→祖父：01452_sofu⟧⟦の→の：09472_no⟧⟦{墓|はか}→墓：03549_haka⟧⟦は→は：00079_ha⟧⟦{町|まち}→町：00613_machi⟧⟦の→の：09472_no⟧{墓地|ぼち}⟦に→に：00314_ni⟧⟦ある→ある：00006_aru⟧。",
       "english": "My grandfather's grave is in the town cemetery.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "15232_bochi_ex3",
-      "japanese": "お{盆|ぼん}には{家族|かぞく}で{墓地|ぼち}に{行|い}って{墓参|はかまい}りをするのが{毎年|まいとし}の{習慣|しゅうかん}だ。",
+      "japanese": "⟦お{盆|ぼん}→お盆：05587_obon⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{家族|かぞく}→家族：00552_kazoku⟧⟦で→で：00502_de⟧{墓地|ぼち}⟦に→に：00314_ni⟧⟦{行|い}って→行く：00119_iku⟧⟦{墓参|はかまい}り→墓参り：10663_hakamairi⟧⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦{毎年|まいとし}→毎年：00731_maitoshi⟧⟦の→の：09472_no⟧⟦{習慣|しゅうかん}→習慣：01429_shuukan⟧だ。",
       "english": "Every year during Obon, our family makes it a custom to visit the cemetery and pay respects at the grave.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "COMMON COLLOCATIONS:\n- {墓地|ぼち}を{訪|おとず}れる: to visit a cemetery\n- {市営|しえい}{墓地|ぼち}: municipal cemetery\n- {共同|きょうどう}{墓地|ぼち}: communal cemetery\n- {墓地|ぼち}の{管理|かんり}: cemetery maintenance\n\nCULTURE: In Japan, most cemeteries are associated with Buddhist temples ({寺院|じいん}{墓地|ぼち}). Municipal and private cemeteries also exist. Visiting family graves ({墓参|はかまい}り) is an important custom, especially during Obon and the spring/autumn equinoxes ({彼岸|ひがん}).\n\nSIMILAR WORDS:\n- {墓地|ぼち}: general term for cemetery or burial ground\n- {霊園|れいえん}: memorial park, garden cemetery (more modern, park-like)\n- {墓場|はかば}: graveyard (slightly more informal or literary)",
+  "notes": "COMMON COLLOCATIONS:\n- {墓地|ぼち}⟦を→を：00422_wo⟧⟦{訪|おとず}れる→訪れる：07678_otozureru⟧: to visit a cemetery\n- {市営|しえい}{墓地|ぼち}: municipal cemetery\n- ⟦{共同|きょうどう}→共同：02591_kyoudou⟧{墓地|ぼち}: communal cemetery\n- {墓地|ぼち}⟦の→の：09472_no⟧⟦{管理|かんり}→管理：00178_kanri⟧: cemetery maintenance\n\nCULTURE: In Japan, most cemeteries are associated with Buddhist temples (⟦{寺院|じいん}→寺院：00122_jiin⟧{墓地|ぼち}). Municipal and private cemeteries also exist. Visiting family graves (⟦{墓参|はかまい}り→墓参り：10663_hakamairi⟧) is an important custom, especially during Obon and the spring/autumn equinoxes (⟦{彼岸|ひがん}→彼岸：12612_higan⟧).\n\nSIMILAR WORDS:\n- {墓地|ぼち}: general term for cemetery or burial ground\n- ⟦{霊園|れいえん}→霊園：19164_reien⟧: memorial park, garden cemetery (more modern, park-like)\n- ⟦{墓場|はかば}→墓場：05876_hakaba⟧: graveyard (slightly more informal or literary)",
   "cross_references": [
     {
       "type": "related",
@@ -52,11 +52,46 @@
       "reading": "はか",
       "headword": "{墓|はか}",
       "label": "grave, tomb"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19164_reien",
+      "reading": "れいえん",
+      "headword": "{霊園|れいえん}",
+      "label": "memorial park, garden cemetery"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05876_hakaba",
+      "reading": "はかば",
+      "headword": "{墓場|はかば}",
+      "label": "graveyard"
+    },
+    {
+      "type": "related",
+      "target_id": "15417_boketsu",
+      "reading": "ぼけつ",
+      "headword": "{墓穴|ぼけつ}",
+      "label": "grave"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21734_ohaka",
+      "reading": "おはか",
+      "headword": "お{墓|はか}",
+      "label": "grave"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27326_boseki",
+      "reading": "ぼせき",
+      "headword": "{墓石|ぼせき}",
+      "label": "gravestone"
     }
   ],
   "metadata": {
     "created": "2026-03-05T10:19:27Z",
-    "modified": "2026-07-15T18:53:39Z",
+    "modified": "2026-09-02T04:01:40Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22557_shokkan_ex1",
-      "japanese": "{触感|しょっかん}がいい。",
+      "japanese": "{触感|しょっかん}⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧。",
       "english": "It feels nice to the touch.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22557_shokkan_ex2",
-      "japanese": "この{布|ぬの}は{触感|しょっかん}が{柔|やわ}らかい。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{布|ぬの}→布：01489_nuno⟧⟦は→は：00079_ha⟧{触感|しょっかん}⟦が→が：00051_ga⟧⟦{柔|やわ}らかい→柔らかい：01096_yawarakai⟧。",
       "english": "This fabric has a soft texture.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22557_shokkan_ex3",
-      "japanese": "{製品|せいひん}の{触感|しょっかん}にこだわって{素材|そざい}を{選|えら}んだ。",
+      "japanese": "⟦{製品|せいひん}→製品：01445_seihin⟧⟦の→の：09472_no⟧{触感|しょっかん}⟦に→に：00314_ni⟧⟦こだわって→こだわる：10319_kodawaru⟧⟦{素材|そざい}→素材：09492_sozai⟧⟦を→を：00422_wo⟧⟦{選|えら}んだ→選ぶ：00835_erabu⟧。",
       "english": "We chose materials with care for the product's tactile feel.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Refers to the physical sensation experienced when touching something — how a surface or material feels against the skin. Often used in product descriptions, textile discussions, and sensory evaluations.\n\nCOMMON COLLOCATIONS:\n- {触感|しょっかん}がいい: feels nice to the touch\n- {触感|しょっかん}が{柔|やわ}らかい: soft texture\n- {触感|しょっかん}が{滑|なめ}らか: smooth to the touch\n- {触感|しょっかん}にこだわる: to be particular about how something feels\n\nSIMILAR WORDS:\n- {食感|しょっかん}: texture (of food when eaten) — a homophone but refers specifically to mouthfeel\n- {手触|てざわ}り: feel, touch — more colloquial and everyday; emphasizes how something feels in the hand\n- {肌触|はだざわ}り: feel against the skin — used especially for clothing and bedding",
+  "notes": "Refers to the physical sensation experienced when touching something — how a surface or material feels against the skin. Often used in product descriptions, textile discussions, and sensory evaluations.\n\nCOMMON COLLOCATIONS:\n- {触感|しょっかん}⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧: feels nice to the touch\n- {触感|しょっかん}⟦が→が：00051_ga⟧⟦{柔|やわ}らかい→柔らかい：01096_yawarakai⟧: soft texture\n- {触感|しょっかん}⟦が→が：00051_ga⟧⟦{滑|なめ}らか→滑らか：06068_nameraka⟧: smooth to the touch\n- {触感|しょっかん}⟦に→に：00314_ni⟧⟦こだわる→こだわる：10319_kodawaru⟧: to be particular about how something feels\n\nSIMILAR WORDS:\n- ⟦{食感|しょっかん}→食感：06636_shokkan⟧: texture (of food when eaten) — a homophone but refers specifically to mouthfeel\n- ⟦{手触|てざわ}り→手触り：12758_tezawari⟧: feel, touch — more colloquial and everyday; emphasizes how something feels in the hand\n- ⟦{肌触|はだざわ}り→肌触り：06637_hadazawari⟧: feel against the skin — used especially for clothing and bedding",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "homophone",
+      "target_id": "06636_shokkan",
+      "reading": "しょっかん",
+      "headword": "{食感|しょっかん}",
+      "label": "texture"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12758_tezawari",
+      "reading": "てざわり",
+      "headword": "{手触|てざわ}り",
+      "label": "feel, touch"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06637_hadazawari",
+      "reading": "はだざわり",
+      "headword": "{肌触|はだざわ}り",
+      "label": "feel against the skin"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +82,6 @@
       "politeness": "plain"
     },
     "created": "2026-04-06T18:08:37Z",
-    "modified": "2026-07-30T15:37:53Z"
+    "modified": "2026-09-02T04:02:08Z"
   }
 }

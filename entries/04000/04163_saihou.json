@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "04163_saihou_ex1",
-      "japanese": "{母|はは}⟦は→は：00079_ha⟧{裁縫|さいほう}⟦が→が：00051_ga⟧⟦{得意|とくい}→得意：03455_tokui⟧⟦だ→だ：09496_da⟧。",
+      "japanese": "⟦{母|はは}→母：00549_haha⟧⟦は→は：00079_ha⟧{裁縫|さいほう}⟦が→が：00051_ga⟧⟦{得意|とくい}→得意：03455_tokui⟧⟦だ→だ：09496_da⟧。",
       "english": "My mother is good at sewing.",
       "notes": null,
       "has_audio": false,
@@ -43,10 +43,68 @@
       ]
     }
   ],
-  "notes": "{裁縫|さいほう} refers to the craft of sewing—making, repairing, or altering clothes and fabric items.\n\nCOMMON COLLOCATIONS:\n- {裁縫|さいほう}⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧: to sew\n- {裁縫|さいほう}⟦{道具|どうぐ}→道具：01479_dougu⟧: sewing tools\n- {裁縫|さいほう}⟦{箱|ばこ}→箱：02162_hako⟧: sewing box\n- {裁縫|さいほう}⟦が→が：00051_ga⟧⟦{得意|とくい}→得意：03455_tokui⟧: to be good at sewing\n- {裁縫|さいほう}⟦{教室|きょうしつ}→教室：00794_kyoushitsu⟧: sewing class\n\nRELATED TERMS:\n- ⟦{針|はり}→針：03566_hari⟧: needle\n- ⟦{糸|いと}→糸：01315_ito⟧: thread\n- ⟦{縫|ぬ}う→縫う：00326_nuu⟧: to sew (verb)\n- ⟦ミシン→ミシン：06365_mishin⟧: sewing machine\n\nCULTURAL NOTE:\nTraditionally taught in ⟦{家庭科|かていか}→家庭科：noentry⟧ (home economics) classes in Japanese schools. Basic sewing skills are considered part of general education.",
+  "notes": "{裁縫|さいほう} refers to the craft of sewing—making, repairing, or altering clothes and fabric items.\n\nCOMMON COLLOCATIONS:\n- {裁縫|さいほう}⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧: to sew\n- {裁縫|さいほう}⟦{道具|どうぐ}→道具：01479_dougu⟧: sewing tools\n- {裁縫|さいほう}⟦{箱|ばこ}→箱：02162_hako⟧: sewing box\n- {裁縫|さいほう}⟦が→が：00051_ga⟧⟦{得意|とくい}→得意：03455_tokui⟧: to be good at sewing\n- {裁縫|さいほう}⟦{教室|きょうしつ}→教室：00794_kyoushitsu⟧: sewing class\n\nRELATED WORDS:\n- ⟦{針|はり}→針：03566_hari⟧: needle\n- ⟦{糸|いと}→糸：01315_ito⟧: thread\n- ⟦{縫|ぬ}う→縫う：00326_nuu⟧: to sew (verb)\n- ⟦ミシン→ミシン：06365_mishin⟧: sewing machine\n\nCULTURAL NOTE:\nTraditionally taught in ⟦{家庭科|かていか}→家庭科：noentry⟧ (home economics) classes in Japanese schools. Basic sewing skills are considered part of general education.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "03566_hari",
+      "reading": "はり",
+      "headword": "{針|はり}",
+      "label": "needle"
+    },
+    {
+      "type": "related",
+      "target_id": "01315_ito",
+      "reading": "いと",
+      "headword": "{糸|いと}",
+      "label": "thread"
+    },
+    {
+      "type": "related",
+      "target_id": "00326_nuu",
+      "reading": "ぬう",
+      "headword": "{縫|ぬ}う",
+      "label": "to sew"
+    },
+    {
+      "type": "related",
+      "target_id": "06365_mishin",
+      "reading": "みしん",
+      "headword": "ミシン",
+      "label": "sewing machine"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19992_saidan",
+      "reading": "さいだん",
+      "headword": "{裁断|さいだん}",
+      "label": "cutting (fabric, paper)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20002_nuimono",
+      "reading": "ぬいもの",
+      "headword": "{縫|ぬ}い{物|もの}",
+      "label": "sewing"
+    },
+    {
+      "type": "related",
+      "target_id": "20802_yousai",
+      "reading": "ようさい",
+      "headword": "{洋裁|ようさい}",
+      "label": "dressmaking"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20825_wasai",
+      "reading": "わさい",
+      "headword": "{和裁|わさい}",
+      "label": "Japanese-style sewing"
+    }
+  ],
   "metadata": {
     "created": "2026-01-13T14:00:22Z",
-    "modified": "2026-05-29T19:35:10Z",
+    "modified": "2026-09-02T04:01:04Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

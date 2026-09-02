@@ -25,7 +25,7 @@
     },
     {
       "id": "20626_yubikiri_ex2",
-      "japanese": "{子供|こども}たちが{指切|ゆびき}りをして{約束|やくそく}した。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧たち⟦が→が：00051_ga⟧{指切|ゆびき}り⟦を→を：00422_wo⟧⟦して→する：00392_suru⟧⟦{約束|やくそく}した→約束する：05643_yakusokusuru⟧。",
       "english": "The children made a pinky promise.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "20626_yubikiri_ex3",
-      "japanese": "「{絶対|ぜったい}{秘密|ひみつ}だよ」と{言|い}って、{二人|ふたり}は{指切|ゆびき}りをした。",
+      "japanese": "「⟦{絶対|ぜったい}→絶対：00435_zettai⟧⟦{秘密|ひみつ}→秘密：02504_himitsu⟧だ⟦よ→よ：09475_yo⟧」⟦と→と：00512_to⟧⟦{言|い}って→言う：00515_iu⟧、⟦{二人|ふたり}→二人：00622_futari⟧⟦は→は：00079_ha⟧{指切|ゆびき}り⟦を→を：00422_wo⟧⟦した→する：00392_suru⟧。",
       "english": "\"It's absolutely a secret,\" they said, and sealed it with a pinky swear.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,26 @@
       ]
     }
   ],
-  "notes": "Literally means \"finger cutting\" — from {指|ゆび} (finger) + {切|き}り (cutting). The name comes from the old custom of severing a finger as a pledge of sincerity, which evolved into the harmless children's gesture of hooking pinkies.\n\nCOMMON COLLOCATIONS:\n- {指切|ゆびき}りげんまん (the pinky-swear chant)\n- {指切|ゆびき}りをする (to make a pinky promise)\n- {指切|ゆびき}りで{約束|やくそく}する (to promise with a pinky swear)\n\nCULTURAL NOTE:\nThe full children's chant is: {指切|ゆびき}りげんまん、{嘘|うそ}ついたら{針|はり}{千本|せんぼん}{飲|の}ます — \"Pinky swear, ten thousand fist-punches, if you lie you'll swallow a thousand needles.\" Despite the violent imagery, this is a lighthearted children's ritual. げんまん comes from {拳万|げんまん} (ten thousand fists).\n\nSIMILAR WORDS:\n- {約束|やくそく} — promise; the general word for any promise or appointment\n- {誓|ちか}い — oath, vow; more serious and formal",
-  "cross_references": [],
+  "notes": "Literally means \"finger cutting\" — from ⟦{指|ゆび}→指：01518_yubi⟧ (finger) + {切|き}り (cutting). The name comes from the old custom of severing a finger as a pledge of sincerity, which evolved into the harmless children's gesture of hooking pinkies.\n\nCOMMON COLLOCATIONS:\n- {指切|ゆびき}りげんまん (the pinky-swear chant)\n- {指切|ゆびき}り⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧ (to make a pinky promise)\n- {指切|ゆびき}り⟦で→で：00502_de⟧⟦{約束|やくそく}する→約束する：05643_yakusokusuru⟧ (to promise with a pinky swear)\n\nCULTURAL NOTE:\nThe full children's chant is: {指切|ゆびき}りげんまん、⟦{嘘|うそ}→嘘：01796_uso⟧ついたら{針|はり}{千本|せんぼん}{飲|の}ます — \"Pinky swear, ten thousand fist-punches, if you lie you'll swallow a thousand needles.\" Despite the violent imagery, this is a lighthearted children's ritual. げんまん comes from {拳万|げんまん} (ten thousand fists).\n\nSIMILAR WORDS:\n- ⟦{約束|やくそく}→約束：01517_yakusoku⟧ — promise; the general word for any promise or appointment\n- ⟦{誓|ちか}い→誓う：00030_chikau⟧ — oath, vow; more serious and formal",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01517_yakusoku",
+      "reading": "やくそく",
+      "headword": "{約束|やくそく}",
+      "label": "promise"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14178_chikai",
+      "reading": "ちかい",
+      "headword": "{誓|ちか}い",
+      "label": "oath, vow"
+    }
+  ],
   "metadata": {
     "created": "2026-03-29T20:08:27Z",
-    "modified": "2026-03-29T20:08:27Z",
+    "modified": "2026-09-02T04:02:00Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

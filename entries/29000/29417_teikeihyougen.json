@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29417_teikeihyougen_ex1",
-      "japanese": "{定型表現|ていけいひょうげん}を{使|つか}う。",
+      "japanese": "{定型表現|ていけいひょうげん}⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧。",
       "english": "to use a fixed expression",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29417_teikeihyougen_ex2",
-      "japanese": "ビジネスメールには{定型表現|ていけいひょうげん}が{多|おお}い。",
+      "japanese": "⟦ビジネス→ビジネス：11162_bijinesu⟧⟦メール→メール：04435_meeru⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{定型表現|ていけいひょうげん}⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "Business emails contain many set phrases.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29417_teikeihyougen_ex3",
-      "japanese": "{定型表現|ていけいひょうげん}を{覚|おぼ}えておくと{手紙|てがみ}がすらすら{書|か}ける。",
+      "japanese": "{定型表現|ていけいひょうげん}⟦を→を：00422_wo⟧⟦{覚|おぼ}えて→覚える：00739_oboeru⟧おく⟦と→と：00512_to⟧⟦{手紙|てがみ}→手紙：00675_tegami⟧⟦が→が：00051_ga⟧⟦すらすら→すらすら：05363_surasura⟧⟦{書|か}ける→書く：00477_kaku⟧。",
       "english": "If you memorize set phrases, you can write letters smoothly.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "A conventional, reusable phrase whose form is largely fixed. Common in discussions of letter-writing, business communication, and language learning.\n\nCOMMON COLLOCATIONS:\n- {定型表現|ていけいひょうげん}を{使|つか}う: to use a set phrase\n- あいさつの{定型表現|ていけいひょうげん}: a standard greeting phrase\n- {定型表現|ていけいひょうげん}を{覚|おぼ}える: to learn set phrases\n\nSIMILAR WORDS:\n- {慣用句|かんようく}: idiom — a phrase whose meaning is not literal\n- {決|き}まり{文句|もんく}: stock phrase; cliché — often with a slightly worn-out nuance",
+  "notes": "A conventional, reusable phrase whose form is largely fixed. Common in discussions of letter-writing, business communication, and language learning.\n\nCOMMON COLLOCATIONS:\n- {定型表現|ていけいひょうげん}⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧: to use a set phrase\n- あいさつ⟦の→の：09472_no⟧{定型表現|ていけいひょうげん}: a standard greeting phrase\n- {定型表現|ていけいひょうげん}⟦を→を：00422_wo⟧⟦{覚|おぼ}える→覚える：00739_oboeru⟧: to learn set phrases\n\nSIMILAR WORDS:\n- ⟦{慣用句|かんようく}→慣用句：15890_kanyouku⟧: idiom — a phrase whose meaning is not literal\n- ⟦{決|き}まり{文句|もんく}→決まり文句：21431_kimarimonku⟧: stock phrase; cliché — often with a slightly worn-out nuance",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15890_kanyouku",
+      "reading": "かんようく",
+      "headword": "{慣用句|かんようく}",
+      "label": "idiom"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21431_kimarimonku",
+      "reading": "きまりもんく",
+      "headword": "{決|き}まり{文句|もんく}",
+      "label": "stock phrase"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +69,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "language"
       ],
       "domain": []
     },
     "created": "2026-06-22T15:18:50Z",
-    "modified": "2026-06-22T15:18:50Z"
+    "modified": "2026-09-02T04:02:36Z"
   }
 }

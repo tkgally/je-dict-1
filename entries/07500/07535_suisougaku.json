@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "07535_suisougaku_ex1",
-      "japanese": "{中学校|ちゅうがっこう}で{吹奏楽部|すいそうがくぶ}に{入|はい}った。",
+      "japanese": "⟦{中学校|ちゅうがっこう}→中学校：01465_chuugakkou⟧⟦で→で：00502_de⟧⟦{吹奏楽部|すいそうがくぶ}→吹奏楽部：27464_suisougakubu⟧⟦に→に：00314_ni⟧⟦{入|はい}った→入る：00494_hairu⟧。",
       "english": "I joined the wind band club in middle school.",
       "has_audio": false,
       "sense_numbers": [
@@ -23,7 +23,7 @@
     },
     {
       "id": "07535_suisougaku_ex2",
-      "japanese": "{吹奏楽|すいそうがく}コンクールで{金賞|きんしょう}を{取|と}った。",
+      "japanese": "{吹奏楽|すいそうがく}⟦コンクール→コンクール：28795_konkuuru⟧⟦で→で：00502_de⟧⟦{金賞|きんしょう}→金賞：21052_kinshou⟧⟦を→を：00422_wo⟧⟦{取|と}った→取る：00565_toru⟧。",
       "english": "We won a gold prize at the wind band competition.",
       "has_audio": false,
       "sense_numbers": [
@@ -32,7 +32,7 @@
     },
     {
       "id": "07535_suisougaku_ex3",
-      "japanese": "{吹奏楽|すいそうがく}の{定期演奏会|ていきえんそうかい}を{開|ひら}く。",
+      "japanese": "{吹奏楽|すいそうがく}⟦の→の：09472_no⟧{定期演奏会|ていきえんそうかい}⟦を→を：00422_wo⟧⟦{開|ひら}く→開く：01979_hiraku⟧。",
       "english": "Hold a regular wind band concert.",
       "has_audio": false,
       "sense_numbers": [
@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "notes": "WORD STRUCTURE:\n{吹奏|すいそう} (playing wind instruments) + {楽|がく} (music)\n\nCULTURAL CONTEXT:\n{吹奏楽|すいそうがく} is extremely popular in Japanese schools. Most middle schools and high schools have a {吹奏楽部|すいそうがくぶ} (wind band club), and competitions like the {全日本|ぜんにほん}{吹奏楽|すいそうがく}コンクール are major annual events.\n\nRELATED TERMS:\n・{管楽器|かんがっき} - wind instruments\n・{金管楽器|きんかんがっき} - brass instruments\n・{木管楽器|もっかんがっき} - woodwind instruments\n・{打楽器|だがっき} - percussion instruments\n・{部活|ぶかつ} - club activities\n\nCOMMON COLLOCATIONS:\n・{吹奏楽部|すいそうがくぶ} - wind band club\n・{吹奏楽|すいそうがく}コンクール - wind band competition\n・{吹奏楽|すいそうがく}の{指揮|しき} - conducting a wind band\n・{吹奏楽|すいそうがく}{曲|きょく} - wind band piece/music\n\nSIMILAR TERMS:\n・ブラスバンド - brass band (primarily brass instruments)\n・オーケストラ - orchestra (includes strings)",
+  "notes": "ETYMOLOGY:\n⟦{吹奏|すいそう}→吹奏：22729_suisou⟧ (playing wind instruments) + {楽|がく} (music)\n\nCULTURAL NOTE:\n{吹奏楽|すいそうがく} is extremely popular in Japanese schools. Most middle schools and high schools have a ⟦{吹奏楽部|すいそうがくぶ}→吹奏楽部：27464_suisougakubu⟧ (wind band club), and competitions like the {全日本|ぜんにほん}{吹奏楽|すいそうがく}⟦コンクール→コンクール：28795_konkuuru⟧ are major annual events.\n\nRELATED WORDS:\n- ⟦{管楽器|かんがっき}→管楽器：07533_kangakki⟧ - wind instruments\n- ⟦{金管楽器|きんかんがっき}→金管楽器：23683_kinkangakki⟧ - brass instruments\n- ⟦{木管楽器|もっかんがっき}→木管楽器：25946_mokkangakki⟧ - woodwind instruments\n- ⟦{打楽器|だがっき}→打楽器：07532_dagakki⟧ - percussion instruments\n- ⟦{部活|ぶかつ}→部活：05377_bukatsu⟧ - club activities\n\nCOMMON COLLOCATIONS:\n- ⟦{吹奏楽部|すいそうがくぶ}→吹奏楽部：27464_suisougakubu⟧ - wind band club\n- {吹奏楽|すいそうがく}⟦コンクール→コンクール：28795_konkuuru⟧ - wind band competition\n- {吹奏楽|すいそうがく}⟦の→の：09472_no⟧⟦{指揮|しき}→指揮：11102_shiki⟧ - conducting a wind band\n- {吹奏楽|すいそうがく}{曲|きょく} - wind band piece/music\n\nSIMILAR WORDS:\n- ⟦ブラスバンド→ブラスバンド：23427_burasubando⟧ - brass band (primarily brass instruments)\n- ⟦オーケストラ→オーケストラ：04466_ookesutora⟧ - orchestra (includes strings)",
   "cross_references": [
     {
       "type": "related",
@@ -55,11 +55,53 @@
       "headword": "{打楽器|だがっき}",
       "label": "percussion instruments",
       "target_id": "07532_dagakki"
+    },
+    {
+      "type": "related",
+      "target_id": "23683_kinkangakki",
+      "reading": "きんかんがっき",
+      "headword": "{金管楽器|きんかんがっき}",
+      "label": "brass instruments"
+    },
+    {
+      "type": "related",
+      "target_id": "25946_mokkangakki",
+      "reading": "もっかんがっき",
+      "headword": "{木管楽器|もっかんがっき}",
+      "label": "woodwind instruments"
+    },
+    {
+      "type": "related",
+      "target_id": "05377_bukatsu",
+      "reading": "ぶかつ",
+      "headword": "{部活|ぶかつ}",
+      "label": "club activities"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23427_burasubando",
+      "reading": "ぶらすばんど",
+      "headword": "ブラスバンド",
+      "label": "brass band"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04466_ookesutora",
+      "reading": "おーけすとら",
+      "headword": "オーケストラ",
+      "label": "orchestra"
+    },
+    {
+      "type": "related",
+      "target_id": "08138_kurarinetto",
+      "reading": "くらりねっと",
+      "headword": "クラリネット",
+      "label": "clarinet"
     }
   ],
   "metadata": {
     "created": "2026-01-20T08:47:47Z",
-    "modified": "2026-01-24T14:24:36Z",
+    "modified": "2026-09-02T04:01:11Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -67,6 +109,7 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "music"
       ]

@@ -15,40 +15,66 @@
   "examples": [
     {
       "id": "24242_kokunairyokou_ex1",
-      "japanese": "{国内旅行|こくないりょこう}に{行|い}きたい。",
+      "japanese": "{国内旅行|こくないりょこう}⟦に→に：00314_ni⟧⟦{行|い}きたい→行く：00119_iku⟧。",
       "english": "I want to go on a domestic trip.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "24242_kokunairyokou_ex2",
-      "japanese": "{夏休|なつやす}みは{国内旅行|こくないりょこう}にする{予定|よてい}だ。",
+      "japanese": "⟦{夏休|なつやす}み→夏休み：02925_natsuyasumi⟧⟦は→は：00079_ha⟧{国内旅行|こくないりょこう}⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧⟦{予定|よてい}→予定：00824_yotei⟧だ。",
       "english": "I'm planning a domestic trip for summer vacation.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "24242_kokunairyokou_ex3",
-      "japanese": "{円安|えんやす}の{影響|えいきょう}で{海外旅行|かいがいりょこう}より{国内旅行|こくないりょこう}を{選|えら}ぶ{人|ひと}が{増|ふ}えている。",
+      "japanese": "⟦{円安|えんやす}→円安：04854_enyasu⟧⟦の→の：09472_no⟧⟦{影響|えいきょう}→影響：01877_eikyou⟧⟦で→で：00502_de⟧⟦{海外旅行|かいがいりょこう}→海外旅行：24321_kaigairyokou⟧⟦より→より：09476_yori⟧{国内旅行|こくないりょこう}⟦を→を：00422_wo⟧⟦{選|えら}ぶ→選ぶ：00835_erabu⟧⟦{人|ひと}→人：00476_hito⟧⟦が→が：00051_ga⟧⟦{増|ふ}えている→増える：01183_fueru⟧。",
       "english": "Due to the weak yen, more people are choosing domestic travel over overseas trips.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Compound of {国内|こくない} ('domestic; within the country') and {旅行|りょこう} ('travel; trip'). A straightforward compound that is very common in travel industry contexts, news, and everyday conversation.\n\nCOMMON COLLOCATIONS:\n- {国内旅行|こくないりょこう}に{行|い}く: to go on a domestic trip\n- {国内旅行|こくないりょこう}を{計画|けいかく}する: to plan a domestic trip\n- {国内旅行|こくないりょこう}{保険|ほけん}: domestic travel insurance\n- {国内旅行|こくないりょこう}{業者|ぎょうしゃ}: domestic travel agency\n\nSIMILAR WORDS:\n- {海外旅行|かいがいりょこう}: overseas travel — the antonym; travel to foreign countries\n- {国内|こくない}{出張|しゅっちょう}: domestic business trip — travel within the country for work rather than leisure\n- {日帰|ひがえ}り{旅行|りょこう}: day trip — a short trip completed in one day without an overnight stay",
+  "notes": "Compound of ⟦{国内|こくない}→国内：02998_kokunai⟧ ('domestic; within the country') and ⟦{旅行|りょこう}→旅行：00748_ryokou⟧ ('travel; trip'). A straightforward compound that is very common in travel industry contexts, news, and everyday conversation.\n\nCOMMON COLLOCATIONS:\n- {国内旅行|こくないりょこう}⟦に→に：00314_ni⟧⟦{行|い}く→行く：00119_iku⟧: to go on a domestic trip\n- {国内旅行|こくないりょこう}⟦を→を：00422_wo⟧⟦{計画|けいかく}する→計画する：20998_keikakusuru⟧: to plan a domestic trip\n- {国内旅行|こくないりょこう}⟦{保険|ほけん}→保険：01509_hoken⟧: domestic travel insurance\n- {国内旅行|こくないりょこう}{業者|ぎょうしゃ}: domestic travel agency\n\nSIMILAR WORDS:\n- ⟦{海外旅行|かいがいりょこう}→海外旅行：24321_kaigairyokou⟧: overseas travel — the antonym; travel to foreign countries\n- ⟦{国内|こくない}→国内：02998_kokunai⟧⟦{出張|しゅっちょう}→出張：01094_shucchou⟧: domestic business trip — travel within the country for work rather than leisure\n- ⟦{日帰|ひがえ}り{旅行|りょこう}→日帰り旅行：24098_higaeriryokou⟧: day trip — a short trip completed in one day without an overnight stay",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "24321_kaigairyokou",
+      "reading": "かいがいりょこう",
+      "headword": "{海外旅行|かいがいりょこう}",
+      "label": "overseas travel"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24098_higaeriryokou",
+      "reading": "ひがえりりょこう",
+      "headword": "{日帰|ひがえ}り{旅行|りょこう}",
+      "label": "day trip"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["leisure"]
+      "semantic": [
+        "leisure"
+      ]
     },
     "created": "2026-04-18T11:20:58Z",
-    "modified": "2026-04-18T11:20:58Z"
+    "modified": "2026-09-02T04:02:17Z"
   }
 }

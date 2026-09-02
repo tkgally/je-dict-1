@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "13228_bogo_ex1",
-      "japanese": "{私|わたし}の{母語|ぼご}は{日本語|にほんご}です。",
+      "japanese": "⟦{私|わたし}→私：02988_watashi⟧⟦の→の：09472_no⟧{母語|ぼご}⟦は→は：00079_ha⟧⟦{日本語|にほんご}→日本語：00614_nihongo⟧です。",
       "english": "My mother tongue is Japanese.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13228_bogo_ex2",
-      "japanese": "{母語|ぼご}の{影響|えいきょう}で{発音|はつおん}に{癖|くせ}がある。",
+      "japanese": "{母語|ぼご}⟦の→の：09472_no⟧⟦{影響|えいきょう}→影響：01877_eikyou⟧⟦で→で：00502_de⟧⟦{発音|はつおん}→発音：01698_hatsuon⟧⟦に→に：00314_ni⟧⟦{癖|くせ}→癖：03814_kuse⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "Due to the influence of my mother tongue, I have a quirk in my pronunciation.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13228_bogo_ex3",
-      "japanese": "{母語|ぼご}が{異|こと}なる{人々|ひとびと}が{共通|きょうつう}{言語|げんご}として{英語|えいご}を{使|つか}っている。",
+      "japanese": "{母語|ぼご}⟦が→が：00051_ga⟧⟦{異|こと}なる→異なる：02101_kotonaru⟧⟦{人々|ひとびと}→人々：03141_hitobito⟧⟦が→が：00051_ga⟧⟦{共通|きょうつう}→共通：02590_kyoutsuu⟧⟦{言語|げんご}→言語：02717_gengo⟧⟦として→として：06802_toshite⟧⟦{英語|えいご}→英語：02274_eigo⟧⟦を→を：00422_wo⟧⟦{使|つか}っている→使う：00473_tsukau⟧。",
       "english": "People with different mother tongues use English as a common language.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nA somewhat academic term. In everyday conversation, {母国語|ぼこくご} (national language of one's home country) is often used interchangeably, though strictly speaking {母語|ぼご} refers to the language acquired from birth regardless of nationality, while {母国語|ぼこくご} refers to the language of one's homeland.\n\nCOMMON COLLOCATIONS:\n- {母語|ぼご}{話者|わしゃ}: native speaker\n- {母語|ぼご}の{影響|えいきょう}: influence of one's mother tongue\n- {母語|ぼご}で{話|はな}す: to speak in one's mother tongue\n- {母語|ぼご}{教育|きょういく}: mother tongue education",
+  "notes": "USAGE:\nA somewhat academic term. In everyday conversation, ⟦{母国語|ぼこくご}→母国語：13207_bokokugo⟧ (national language of one's home country) is often used interchangeably, though strictly speaking {母語|ぼご} refers to the language acquired from birth regardless of nationality, while ⟦{母国語|ぼこくご}→母国語：13207_bokokugo⟧ refers to the language of one's homeland.\n\nCOMMON COLLOCATIONS:\n- {母語|ぼご}{話者|わしゃ}: native speaker\n- {母語|ぼご}⟦の→の：09472_no⟧⟦{影響|えいきょう}→影響：01877_eikyou⟧: influence of one's mother tongue\n- {母語|ぼご}⟦で→で：00502_de⟧⟦{話|はな}す→話す：00467_hanasu⟧: to speak in one's mother tongue\n- {母語|ぼご}⟦{教育|きょういく}→教育：01313_kyouiku⟧: mother tongue education",
   "prominent_see_also": [
     {
       "target_id": "13207_bokokugo",
@@ -47,18 +53,46 @@
       "note": "native language (of homeland)"
     }
   ],
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11678_kouyougo",
+      "reading": "こうようご",
+      "headword": "{公用語|こうようご}",
+      "label": "official language"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21041_daiichigengo",
+      "reading": "だいいちげんご",
+      "headword": "{第一言語|だいいちげんご}",
+      "label": "first language"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22976_dainigengo",
+      "reading": "だいにげんご",
+      "headword": "{第二言語|だいにげんご}",
+      "label": "second language"
+    }
+  ],
   "metadata": {
     "created": "2026-02-24T06:42:26Z",
-    "modified": "2026-04-28T06:26:02Z",
+    "modified": "2026-09-02T04:01:32Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "domain": ["academic"],
-      "semantic": ["language"]
+      "domain": [
+        "academic"
+      ],
+      "semantic": [
+        "language"
+      ]
     }
   }
 }

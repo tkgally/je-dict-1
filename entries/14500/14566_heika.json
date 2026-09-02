@@ -15,41 +15,59 @@
   "examples": [
     {
       "id": "14566_heika_ex1",
-      "japanese": "{天皇|てんのう}{陛下|へいか}のお{言葉|ことば}がありました。",
+      "japanese": "{天皇|てんのう}{陛下|へいか}⟦の→の：09472_no⟧お⟦{言葉|ことば}→言葉：02880_kotoba⟧⟦が→が：00051_ga⟧⟦ありました→ある：00006_aru⟧。",
       "english": "There were words from His Majesty the Emperor.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14566_heika_ex2",
-      "japanese": "{両|りょう}{陛下|へいか}は{被災地|ひさいち}を{訪問|ほうもん}された。",
+      "japanese": "⟦{両|りょう}→両：11182_ryou⟧{陛下|へいか}⟦は→は：00079_ha⟧⟦{被災地|ひさいち}→被災地：27434_hisaichi⟧⟦を→を：00422_wo⟧⟦{訪問|ほうもん}→訪問：03622_houmon⟧⟦された→する：00392_suru⟧。",
       "english": "Their Majesties visited the disaster-affected area.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14566_heika_ex3",
-      "japanese": "{国賓|こくひん}として{招|まね}かれた{国王|こくおう}{陛下|へいか}が{空港|くうこう}に{到着|とうちゃく}された。",
+      "japanese": "⟦{国賓|こくひん}→国賓：12137_kokuhin⟧⟦として→として：06802_toshite⟧⟦{招|まね}かれた→招く：02425_maneku⟧⟦{国王|こくおう}→国王：04152_kokuou⟧{陛下|へいか}⟦が→が：00051_ga⟧⟦{空港|くうこう}→空港：00648_kuukou⟧⟦に→に：00314_ni⟧⟦{到着|とうちゃく}→到着：02526_touchaku⟧⟦された→する：00392_suru⟧。",
       "english": "His Majesty the King, invited as a state guest, arrived at the airport.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "The highest honorific title for a monarch. In Japan, applies only to the {天皇|てんのう} (Emperor) and {皇后|こうごう} (Empress).\n\nCOMMON USES:\n- {天皇|てんのう}{陛下|へいか} (His Majesty the Emperor)\n- {皇后|こうごう}{陛下|へいか} (Her Majesty the Empress)\n- {両|りょう}{陛下|へいか} (Their Majesties — the Emperor and Empress together)\n- {国王|こくおう}{陛下|へいか} (His Majesty the King)\n- {女王|じょおう}{陛下|へいか} (Her Majesty the Queen)\n\nThe word {陛|へい} originally referred to the steps leading up to the throne. Addressing the emperor through the steps (rather than directly) was considered properly respectful.\n\nDo not confuse with {殿下|でんか} (His/Her Royal Highness), used for princes, princesses, and other members of the imperial family below the emperor.",
-  "cross_references": [],
+  "notes": "The highest honorific title for a monarch. In Japan, applies only to the ⟦{天皇|てんのう}→天皇：04546_tennou⟧ (Emperor) and ⟦{皇后|こうごう}→皇后：16354_kougou⟧ (Empress).\n\nCOMMON COLLOCATIONS:\n- {天皇|てんのう}{陛下|へいか} (His Majesty the Emperor)\n- ⟦{皇后|こうごう}→皇后：16354_kougou⟧{陛下|へいか} (Her Majesty the Empress)\n- ⟦{両|りょう}→両：11182_ryou⟧{陛下|へいか} (Their Majesties — the Emperor and Empress together)\n- ⟦{国王|こくおう}→国王：04152_kokuou⟧{陛下|へいか} (His Majesty the King)\n- ⟦{女王|じょおう}→女王：03349_joou⟧{陛下|へいか} (Her Majesty the Queen)\n\nThe word {陛|へい} originally referred to the steps leading up to the throne. Addressing the emperor through the steps (rather than directly) was considered properly respectful.\n\nDo not confuse with {殿下|でんか} (His/Her Royal Highness), used for princes, princesses, and other members of the imperial family below the emperor.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "27145_kakka",
+      "reading": "かっか",
+      "headword": "{閣下|かっか}",
+      "label": "Your Excellency"
+    }
+  ],
   "metadata": {
     "created": "2026-03-02T07:15:03Z",
-    "modified": "2026-03-02T07:15:03Z",
+    "modified": "2026-09-02T04:01:37Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "honorific",
-      "semantic": ["person"]
+      "semantic": [
+        "person"
+      ]
     }
   }
 }

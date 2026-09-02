@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "13806_nouzei_ex1",
-      "japanese": "{納税|のうぜい}は{国民|こくみん}の{義務|ぎむ}だ。",
+      "japanese": "{納税|のうぜい}⟦は→は：00079_ha⟧⟦{国民|こくみん}→国民：02757_kokumin⟧⟦の→の：09472_no⟧⟦{義務|ぎむ}→義務：02647_gimu⟧だ。",
       "english": "Paying taxes is a citizen's duty.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "13806_nouzei_ex2",
-      "japanese": "{確定|かくてい}{申告|しんこく}の{期限|きげん}までに{納税|のうぜい}しなければならない。",
+      "japanese": "⟦{確定|かくてい}{申告|しんこく}→確定申告：04902_kakuteishinkoku⟧⟦の→の：09472_no⟧⟦{期限|きげん}→期限：12861_kigen⟧⟦まで→まで：00490_made⟧⟦に→に：00314_ni⟧{納税|のうぜい}し⟦なければならない→なければならない：27600_nakerebanaranai⟧。",
       "english": "You must pay your taxes by the tax return deadline.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "13806_nouzei_ex3",
-      "japanese": "ふるさと{納税|のうぜい}を{利用|りよう}すると、{地方|ちほう}の{特産品|とくさんひん}がもらえる。",
+      "japanese": "ふるさと{納税|のうぜい}⟦を→を：00422_wo⟧⟦{利用|りよう}する→利用する：21735_riyousuru⟧⟦と→と：00512_to⟧、⟦{地方|ちほう}→地方：02369_chihou⟧⟦の→の：09472_no⟧⟦{特産品|とくさんひん}→特産品：13483_tokusanhin⟧⟦が→が：00051_ga⟧⟦もらえる→もらう：00520_morau⟧。",
       "english": "If you use the furusato tax donation system, you can receive local specialty products.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nAlso functions as a suru verb: {納税|のうぜい}する (to pay taxes). A formal, official term commonly seen in government forms, news reports, and legal documents.\n\nCOMMON COLLOCATIONS:\n- {納税|のうぜい}{者|しゃ}: taxpayer\n- {納税|のうぜい}{額|がく}: amount of tax paid\n- {納税|のうぜい}{義務|ぎむ}: tax obligation\n- {納税|のうぜい}{証明書|しょうめいしょ}: tax payment certificate\n- ふるさと{納税|のうぜい}: furusato tax (hometown tax donation)\n\nCULTURE:\nふるさと{納税|のうぜい} is a popular system in Japan that allows taxpayers to donate to a local government of their choice in exchange for tax deductions and regional gift products. Despite the name, it functions more as a donation than a tax.",
+  "notes": "USAGE:\nAlso functions as a suru verb: {納税|のうぜい}⟦する→する：00392_suru⟧ (to pay taxes). A formal, official term commonly seen in government forms, news reports, and legal documents.\n\nCOMMON COLLOCATIONS:\n- {納税|のうぜい}{者|しゃ}: taxpayer\n- {納税|のうぜい}⟦{額|がく}→額：02607_gaku⟧: amount of tax paid\n- {納税|のうぜい}⟦{義務|ぎむ}→義務：02647_gimu⟧: tax obligation\n- {納税|のうぜい}⟦{証明書|しょうめいしょ}→証明書：09785_shoumeisho⟧: tax payment certificate\n- ふるさと{納税|のうぜい}: furusato tax (hometown tax donation)\n\nCULTURAL NOTE:\nふるさと{納税|のうぜい} is a popular system in Japan that allows taxpayers to donate to a local government of their choice in exchange for tax deductions and regional gift products. Despite the name, it functions more as a donation than a tax.",
   "cross_references": [
     {
       "type": "related",
@@ -142,11 +142,25 @@
       "reading": "ぜいむしょ",
       "headword": "{税務署|ぜいむしょ}",
       "label": "tax office"
+    },
+    {
+      "type": "related",
+      "target_id": "00203_kazei",
+      "reading": "かぜい",
+      "headword": "{課税|かぜい}",
+      "label": "taxation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22391_chouzei",
+      "reading": "ちょうぜい",
+      "headword": "{徴税|ちょうぜい}",
+      "label": "tax collection"
     }
   ],
   "metadata": {
     "created": "2026-02-27T04:16:28Z",
-    "modified": "2026-04-29T08:23:01Z",
+    "modified": "2026-09-02T04:01:34Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

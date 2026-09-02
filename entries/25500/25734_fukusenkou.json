@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25734_fukusenkou_ex1",
-      "japanese": "{副専攻|ふくせんこう}は{心理学|しんりがく}です。",
+      "japanese": "{副専攻|ふくせんこう}⟦は→は：00079_ha⟧⟦{心理学|しんりがく}→心理学：12666_shinrigaku⟧です。",
       "english": "My minor is psychology.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25734_fukusenkou_ex2",
-      "japanese": "{経済学|けいざいがく}を{副専攻|ふくせんこう}に{選|えら}んだ。",
+      "japanese": "⟦{経済学|けいざいがく}→経済学：19376_keizaigaku⟧⟦を→を：00422_wo⟧{副専攻|ふくせんこう}⟦に→に：00314_ni⟧⟦{選|えら}んだ→選ぶ：00835_erabu⟧。",
       "english": "I chose economics as my minor.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25734_fukusenkou_ex3",
-      "japanese": "うちの{大学|だいがく}では{主専攻|しゅせんこう}と{副専攻|ふくせんこう}の{両方|りょうほう}の{単位|たんい}を{取|と}らないと{卒業|そつぎょう}できない。",
+      "japanese": "うち⟦の→の：09472_no⟧⟦{大学|だいがく}→大学：00608_daigaku⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧{主専攻|しゅせんこう}⟦と→と：00512_to⟧{副専攻|ふくせんこう}⟦の→の：09472_no⟧⟦{両方|りょうほう}→両方：01750_ryouhou⟧⟦の→の：09472_no⟧⟦{単位|たんい}→単位：03412_tani⟧⟦を→を：00422_wo⟧⟦{取|と}らない→取る：00565_toru⟧⟦と→と：00512_to⟧⟦{卒業|そつぎょう}→卒業：01643_sotsugyou⟧⟦できない→できる：00557_dekiru⟧。",
       "english": "At my university, you can't graduate without completing credits in both your major and your minor.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {副|ふく} (sub-, secondary) + {専攻|せんこう} (major, specialization). Not all Japanese universities use this system; some use the term {副専攻|ふくせんこう} while others call it サブメジャー or {副|ふく}プログラム.\n\nCOMMON COLLOCATIONS:\n- {副専攻|ふくせんこう}を{選|えら}ぶ: to choose a minor\n- {副専攻|ふくせんこう}の{科目|かもく}: minor courses\n- {副専攻|ふくせんこう}を{取|と}る: to take a minor\n- {副専攻|ふくせんこう}{制度|せいど}: minor system/program\n\nSIMILAR WORDS:\n- {専攻|せんこう}: major, specialization — the primary field of study\n- {主専攻|しゅせんこう}: main major — used explicitly when contrasting with the minor\n- {副|ふく}プログラム: sub-program — alternative term used at some universities",
+  "notes": "Composed of ⟦{副|ふく}→副〜：03965_fuku⟧ (sub-, secondary) + ⟦{専攻|せんこう}→専攻：01587_senkou⟧ (major, specialization). Not all Japanese universities use this system; some use the term {副専攻|ふくせんこう} while others call it サブメジャー or ⟦{副|ふく}→副〜：03965_fuku⟧⟦プログラム→プログラム：01540_puroguramu⟧.\n\nCOMMON COLLOCATIONS:\n- {副専攻|ふくせんこう}⟦を→を：00422_wo⟧⟦{選|えら}ぶ→選ぶ：00835_erabu⟧: to choose a minor\n- {副専攻|ふくせんこう}⟦の→の：09472_no⟧⟦{科目|かもく}→科目：00163_kamoku⟧: minor courses\n- {副専攻|ふくせんこう}⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧: to take a minor\n- {副専攻|ふくせんこう}⟦{制度|せいど}→制度：03291_seido⟧: minor system/program\n\nSIMILAR WORDS:\n- ⟦{専攻|せんこう}→専攻：01587_senkou⟧: major, specialization — the primary field of study\n- {主専攻|しゅせんこう}: main major — used explicitly when contrasting with the minor\n- ⟦{副|ふく}→副〜：03965_fuku⟧⟦プログラム→プログラム：01540_puroguramu⟧: sub-program — alternative term used at some universities",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -52,11 +52,13 @@
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "education"
       ]
     },
     "created": "2026-04-27T11:15:57Z",
-    "modified": "2026-06-15T07:59:19Z"
+    "modified": "2026-09-02T04:02:23Z"
   }
 }

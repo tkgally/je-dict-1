@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "15810_kusamochi_ex1",
-      "japanese": "{草餅|くさもち}を{食|た}べた。",
+      "japanese": "{草餅|くさもち}⟦を→を：00422_wo⟧⟦{食|た}べた→食べる：00396_taberu⟧。",
       "english": "I ate mugwort rice cake.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "15810_kusamochi_ex2",
-      "japanese": "{春|はる}になると{草餅|くさもち}が{店|みせ}に{並|なら}ぶ。",
+      "japanese": "⟦{春|はる}→春：00627_haru⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦と→と：00512_to⟧{草餅|くさもち}⟦が→が：00051_ga⟧⟦{店|みせ}→店：00497_mise⟧⟦に→に：00314_ni⟧⟦{並|なら}ぶ→並ぶ：00605_narabu⟧。",
       "english": "When spring comes, mugwort rice cakes appear in the shops.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "15810_kusamochi_ex3",
-      "japanese": "{祖母|そぼ}が{庭|にわ}で{摘|つ}んだよもぎで{草餅|くさもち}を{作|つく}ってくれた。",
+      "japanese": "⟦{祖母|そぼ}→祖母：00813_sobo⟧⟦が→が：00051_ga⟧⟦{庭|にわ}→庭：02239_niwa⟧⟦で→で：00502_de⟧⟦{摘|つ}んだ→摘む：02472_tsumu⟧⟦よもぎ→ヨモギ：11136_yomogi⟧⟦で→で：00502_de⟧{草餅|くさもち}⟦を→を：00422_wo⟧⟦{作|つく}って→作る：00481_tsukuru⟧⟦くれた→くれる：00724_kureru⟧。",
       "english": "My grandmother made mugwort rice cakes using mugwort she picked from the garden.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,47 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{草餅|くさもち} is a seasonal treat associated with {春|はる} (spring), when fresh よもぎ (mugwort) is available. It is traditionally eaten around ひな{祭|まつ}り (Girls' Day, March 3). The {草|くさ} in the name refers specifically to mugwort, not grass in general.\n\nCOMMON COLLOCATIONS:\n- {草餅|くさもち}を{作|つく}る (make mugwort rice cakes)\n- {草餅|くさもち}を{焼|や}く (grill mugwort rice cakes)\n- あんこ{入|い}りの{草餅|くさもち} (mugwort rice cake with bean paste filling)\n\nRELATED TERMS:\n- よもぎ is mugwort, the herb used to flavor the mochi.\n- {大福|だいふく} is a similar mochi confection filled with bean paste but without mugwort.\n- {柏餅|かしわもち} is another seasonal mochi eaten during Boys' Day in May.",
-  "cross_references": [],
+  "notes": "USAGE:\n{草餅|くさもち} is a seasonal treat associated with ⟦{春|はる}→春：00627_haru⟧ (spring), when fresh ⟦よもぎ→ヨモギ：11136_yomogi⟧ (mugwort) is available. It is traditionally eaten around ⟦ひな{祭|まつ}り→ひな祭り：10517_hinamatsuri⟧ (Girls' Day, March 3). The ⟦{草|くさ}→草：02206_kusa⟧ in the name refers specifically to mugwort, not grass in general.\n\nCOMMON COLLOCATIONS:\n- {草餅|くさもち}⟦を→を：00422_wo⟧⟦{作|つく}る→作る：00481_tsukuru⟧ (make mugwort rice cakes)\n- {草餅|くさもち}⟦を→を：00422_wo⟧⟦{焼|や}く→焼く：01123_yaku⟧ (grill mugwort rice cakes)\n- あんこ{入|い}り⟦の→の：09472_no⟧{草餅|くさもち} (mugwort rice cake with bean paste filling)\n\nRELATED WORDS:\n- ⟦よもぎ→ヨモギ：11136_yomogi⟧ is mugwort, the herb used to flavor the mochi.\n- ⟦{大福|だいふく}→大福：12173_daifuku⟧ is a similar mochi confection filled with bean paste but without mugwort.\n- ⟦{柏餅|かしわもち}→柏餅：19485_kashiwamochi⟧ is another seasonal mochi eaten during Boys' Day in May.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "11136_yomogi",
+      "reading": "よもぎ",
+      "headword": "ヨモギ",
+      "label": "is mugwort, the herb used to flavor…"
+    },
+    {
+      "type": "related",
+      "target_id": "12173_daifuku",
+      "reading": "だいふく",
+      "headword": "{大福|だいふく}",
+      "label": "is a similar mochi confection filled…"
+    },
+    {
+      "type": "related",
+      "target_id": "19485_kashiwamochi",
+      "reading": "かしわもち",
+      "headword": "{柏餅|かしわもち}",
+      "label": "is another seasonal mochi eaten during…"
+    },
+    {
+      "type": "related",
+      "target_id": "23451_omochi",
+      "reading": "おもち",
+      "headword": "お{餅|もち}",
+      "label": "rice cake"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28857_sasadango",
+      "reading": "ささだんご",
+      "headword": "{笹団子|ささだんご}",
+      "label": "sasa dango"
+    }
+  ],
   "metadata": {
     "created": "2026-03-08T10:08:58Z",
-    "modified": "2026-06-09T15:41:10Z",
+    "modified": "2026-09-02T04:01:42Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

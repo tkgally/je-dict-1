@@ -15,41 +15,73 @@
   "examples": [
     {
       "id": "14951_shikitari_ex1",
-      "japanese": "この{地域|ちいき}のしきたりに{従|したが}う。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{地域|ちいき}→地域：01461_chiiki⟧⟦の→の：09472_no⟧しきたり⟦に→に：00314_ni⟧⟦{従|したが}う→従う：02059_shitagau⟧。",
       "english": "I follow the customs of this area.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14951_shikitari_ex2",
-      "japanese": "{古|ふる}いしきたりにこだわる{必要|ひつよう}はない。",
+      "japanese": "⟦{古|ふる}い→古い：00488_furui⟧しきたり⟦に→に：00314_ni⟧⟦こだわる→こだわる：10319_kodawaru⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧⟦は→は：00079_ha⟧⟦ない→ない：01118_nai⟧。",
       "english": "There's no need to cling to old customs.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14951_shikitari_ex3",
-      "japanese": "{嫁|よめ}ぎ{先|さき}のしきたりが{厳|きび}しくて、{慣|な}れるまで{大変|たいへん}だった。",
+      "japanese": "{嫁|よめ}ぎ{先|さき}⟦の→の：09472_no⟧しきたり⟦が→が：00051_ga⟧⟦{厳|きび}しくて→厳しい：01125_kibishii⟧、⟦{慣|な}れる→慣れる：00870_nareru⟧⟦まで→まで：00490_made⟧⟦{大変|たいへん}→大変：00594_taihen⟧だった。",
       "english": "The customs of my husband's family were strict, and it was hard to get used to them.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "Refers to practices passed down through generations within a specific group, family, or locality. Differs from {伝統|でんとう} (tradition), which is broader and more formal.\n\nCOMMON COLLOCATIONS:\n- しきたりに{従|したが}う (to follow a custom)\n- しきたりを{守|まも}る (to observe/maintain a custom)\n- しきたりを{破|やぶ}る (to break with custom)\n- {古|ふる}いしきたり (old customs)\n\nUSAGE NOTE:\nしきたり often carries a nuance of something that \"has always been done this way\" — it may feel obligatory even though it is not a formal law. It is sometimes used with a slightly negative nuance, suggesting outdated or rigid practices.",
-  "cross_references": [],
+  "notes": "Refers to practices passed down through generations within a specific group, family, or locality. Differs from ⟦{伝統|でんとう}→伝統：09585_dentou⟧ (tradition), which is broader and more formal.\n\nCOMMON COLLOCATIONS:\n- しきたり⟦に→に：00314_ni⟧⟦{従|したが}う→従う：02059_shitagau⟧ (to follow a custom)\n- しきたり⟦を→を：00422_wo⟧⟦{守|まも}る→守る：01986_mamoru⟧ (to observe/maintain a custom)\n- しきたり⟦を→を：00422_wo⟧⟦{破|やぶ}る→破る：02321_yaburu⟧ (to break with custom)\n- ⟦{古|ふる}い→古い：00488_furui⟧しきたり (old customs)\n\nUSAGE:\nしきたり often carries a nuance of something that \"has always been done this way\" — it may feel obligatory even though it is not a formal law. It is sometimes used with a slightly negative nuance, suggesting outdated or rigid practices.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02825_sahou",
+      "reading": "さほう",
+      "headword": "{作法|さほう}",
+      "label": "manners, etiquette"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05523_kanshuu",
+      "reading": "かんしゅう",
+      "headword": "{慣習|かんしゅう}",
+      "label": "custom"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12706_okite",
+      "reading": "おきて",
+      "headword": "{掟|おきて}",
+      "label": "rule, code, law"
+    }
+  ],
   "metadata": {
     "created": "2026-03-04T07:26:42Z",
-    "modified": "2026-03-04T07:26:42Z",
+    "modified": "2026-09-02T04:01:39Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

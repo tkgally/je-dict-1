@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "{温|あたた}める means to warm or heat something, particularly food, drinks, or body parts.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- Pair: ⟦{温|あたた}まる→温まる：02095_atatamaru⟧ (intransitive) - to become warm\n\nKANJI DISTINCTION:\n- {温|あたた}める: to warm objects, food, body ({温|おん} = temperature)\n- {暖|あたた}める: to warm rooms, air, atmosphere ({暖|だん} = warmth)\n\nCOMMON PATTERNS:\n- ⟦スープ→スープ：00395_suupu⟧⟦を→を：00422_wo⟧{温|あたた}める: to heat up soup\n- ⟦{体|からだ}→体：00784_karada⟧⟦を→を：00422_wo⟧{温|あたた}める: to warm one's body\n- ⟦{手|て}→手：00569_te⟧⟦を→を：00422_wo⟧{温|あたた}める: to warm one's hands\n- ⟦お{弁当|べんとう}→弁当：01014_bentou⟧⟦を→を：00422_wo⟧{温|あたた}める: to heat up a lunch box\n\nCONVENIENCE STORE PHRASE:\n{温|あたた}めますか？ 'Shall I heat this up?' - commonly asked when buying food at a ⟦コンビニ→コンビニ：01081_konbini⟧.",
+  "notes": "{温|あたた}める means to warm or heat something, particularly food, drinks, or body parts.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- Pair: ⟦{温|あたた}まる→温まる：02095_atatamaru⟧ (intransitive) - to become warm\n\nKANJI DISTINCTION:\n- {温|あたた}める: to warm objects, food, body ({温|おん} = temperature)\n- ⟦{暖|あたた}める→暖める：01858_atatameru⟧: to warm rooms, air, atmosphere ({暖|だん} = warmth)\n\nCOMMON PATTERNS:\n- ⟦スープ→スープ：00395_suupu⟧⟦を→を：00422_wo⟧{温|あたた}める: to heat up soup\n- ⟦{体|からだ}→体：00784_karada⟧⟦を→を：00422_wo⟧{温|あたた}める: to warm one's body\n- ⟦{手|て}→手：00569_te⟧⟦を→を：00422_wo⟧{温|あたた}める: to warm one's hands\n- ⟦お{弁当|べんとう}→弁当：01014_bentou⟧⟦を→を：00422_wo⟧{温|あたた}める: to heat up a lunch box\n\nCONVENIENCE STORE PHRASE:\n{温|あたた}めます⟦か→か：09473_ka⟧？ 'Shall I heat this up?' - commonly asked when buying food at a ⟦コンビニ→コンビニ：01081_konbini⟧.",
   "cross_references": [
     {
       "type": "pair",
@@ -148,11 +148,32 @@
       "headword": "{加熱|かねつ}",
       "label": "heating (technical)",
       "target_id": "00168_kanetsu"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19637_kanetsusuru",
+      "reading": "かねつする",
+      "headword": "{加熱|かねつ}する",
+      "label": "to heat"
+    },
+    {
+      "type": "related",
+      "target_id": "20343_chinsuru",
+      "reading": "ちんする",
+      "headword": "チンする",
+      "label": "to microwave"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23430_yonetsu",
+      "reading": "よねつ",
+      "headword": "{予熱|よねつ}",
+      "label": "preheating"
     }
   ],
   "metadata": {
     "created": "2026-01-09T12:22:41Z",
-    "modified": "2026-05-18T14:17:42Z",
+    "modified": "2026-09-02T04:01:01Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

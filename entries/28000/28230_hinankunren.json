@@ -15,41 +15,60 @@
   "examples": [
     {
       "id": "28230_hinankunren_ex1",
-      "japanese": "{学校|がっこう}で{避難訓練|ひなんくんれん}があった。",
+      "japanese": "⟦{学校|がっこう}→学校：00055_gakkou⟧⟦で→で：00502_de⟧{避難訓練|ひなんくんれん}⟦が→が：00051_ga⟧⟦あった→ある：00006_aru⟧。",
       "english": "There was an evacuation drill at school.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28230_hinankunren_ex2",
-      "japanese": "{地震|じしん}を{想定|そうてい}した{避難訓練|ひなんくんれん}に{参加|さんか}した。",
+      "japanese": "⟦{地震|じしん}→地震：01608_jishin⟧⟦を→を：00422_wo⟧⟦{想定|そうてい}した→想定する：19018_souteisuru⟧{避難訓練|ひなんくんれん}⟦に→に：00314_ni⟧⟦{参加|さんか}した→参加する：25408_sankasuru⟧。",
       "english": "I took part in an evacuation drill that assumed an earthquake.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28230_hinankunren_ex3",
-      "japanese": "{毎年|まいとし}、{会社|かいしゃ}では{火災|かさい}を{想定|そうてい}した{避難訓練|ひなんくんれん}を{行|おこな}っている。",
+      "japanese": "⟦{毎年|まいとし}→毎年：00731_maitoshi⟧、⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{火災|かさい}→火災：02561_kasai⟧⟦を→を：00422_wo⟧⟦{想定|そうてい}した→想定する：19018_souteisuru⟧{避難訓練|ひなんくんれん}⟦を→を：00422_wo⟧⟦{行|おこな}っている→行う：01238_okonau⟧。",
       "english": "Every year, our company conducts an evacuation drill that assumes a fire.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Compound of {避難|ひなん} (evacuation, taking refuge) + {訓練|くんれん} (training, drill).\n\nCOMMON COLLOCATIONS:\n- {避難訓練|ひなんくんれん}を{行|おこな}う: to conduct an evacuation drill\n- {避難訓練|ひなんくんれん}に{参加|さんか}する: to take part in a drill\n- {火災|かさい}{避難訓練|ひなんくんれん}: fire evacuation drill\n\nCULTURAL CONTEXT: Given Japan's frequent earthquakes and strong fire-safety culture, regular {避難訓練|ひなんくんれん} are a routine part of school and workplace life.",
+  "notes": "Compound of ⟦{避難|ひなん}→避難：07908_hinan⟧ (evacuation, taking refuge) + ⟦{訓練|くんれん}→訓練：02673_kunren⟧ (training, drill).\n\nCOMMON COLLOCATIONS:\n- {避難訓練|ひなんくんれん}⟦を→を：00422_wo⟧⟦{行|おこな}う→行う：01238_okonau⟧: to conduct an evacuation drill\n- {避難訓練|ひなんくんれん}⟦に→に：00314_ni⟧⟦{参加|さんか}する→参加する：25408_sankasuru⟧: to take part in a drill\n- ⟦{火災|かさい}→火災：02561_kasai⟧{避難訓練|ひなんくんれん}: fire evacuation drill\n\nCULTURAL CONTEXT: Given Japan's frequent earthquakes and strong fire-safety culture, regular {避難訓練|ひなんくんれん} are a routine part of school and workplace life.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "07138_hinankeiro",
+      "reading": "ひなんけいろ",
+      "headword": "{避難経路|ひなんけいろ}",
+      "label": "evacuation route"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
+      "semantic": [
+        "general"
+      ],
       "domain": []
     },
     "created": "2026-05-27T04:08:18Z",
-    "modified": "2026-05-27T04:08:18Z"
+    "modified": "2026-09-02T04:02:33Z"
   }
 }

@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "17190_ijuusuru_ex1",
-      "japanese": "{海外|かいがい}に{移住|いじゅう}する{人|ひと}が{増|ふ}えている。",
+      "japanese": "⟦{海外|かいがい}→海外：00134_kaigai⟧⟦に→に：00314_ni⟧{移住|いじゅう}する⟦{人|ひと}→人：00476_hito⟧⟦が→が：00051_ga⟧⟦{増|ふ}えている→増える：01183_fueru⟧。",
       "english": "The number of people emigrating overseas is increasing.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "17190_ijuusuru_ex2",
-      "japanese": "{定年後|ていねんご}に{田舎|いなか}に{移住|いじゅう}する{計画|けいかく}を{立|た}てている。",
+      "japanese": "{定年後|ていねんご}⟦に→に：00314_ni⟧⟦{田舎|いなか}→田舎：01320_inaka⟧⟦に→に：00314_ni⟧{移住|いじゅう}する⟦{計画|けいかく}→計画：01172_keikaku⟧⟦を→を：00422_wo⟧⟦{立|た}てている→立てる：01196_tateru⟧。",
       "english": "I'm making plans to relocate to the countryside after retirement.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "17190_ijuusuru_ex3",
-      "japanese": "{祖父母|そふぼ}は{戦後|せんご}にブラジルへ{移住|いじゅう}した。",
+      "japanese": "⟦{祖父母|そふぼ}→祖父母：03110_sofubo⟧⟦は→は：00079_ha⟧⟦{戦後|せんご}→戦後：12853_sengo⟧⟦に→に：00314_ni⟧ブラジル⟦へ→へ：02473_he⟧{移住|いじゅう}した。",
       "english": "My grandparents emigrated to Brazil after the war.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nUsed for both international migration (emigration/immigration) and domestic relocation (e.g., moving from the city to the countryside). In recent years, {地方|ちほう}{移住|いじゅう} (relocation to rural areas) has become a popular topic in Japan as more people seek alternatives to city life.\n\nCOMMON COLLOCATIONS:\n- {海外|かいがい}{移住|いじゅう} (emigration overseas)\n- {地方|ちほう}{移住|いじゅう} (relocation to rural areas)\n- {移住先|いじゅうさき} (destination of relocation)\n- {移住者|いじゅうしゃ} (immigrant, settler)\n\nSIMILAR WORDS:\n- {引|ひ}っ{越|こ}す: to move (residence) — everyday word, no implication of permanence\n- {転居|てんきょ}する: to change residence — formal, more about the move itself",
+  "notes": "USAGE:\nUsed for both international migration (emigration/immigration) and domestic relocation (e.g., moving from the city to the countryside). In recent years, ⟦{地方|ちほう}→地方：02369_chihou⟧⟦{移住|いじゅう}→移住：13752_ijuu⟧ (relocation to rural areas) has become a popular topic in Japan as more people seek alternatives to city life.\n\nCOMMON COLLOCATIONS:\n- ⟦{海外|かいがい}→海外：00134_kaigai⟧⟦{移住|いじゅう}→移住：13752_ijuu⟧ (emigration overseas)\n- ⟦{地方|ちほう}→地方：02369_chihou⟧⟦{移住|いじゅう}→移住：13752_ijuu⟧ (relocation to rural areas)\n- {移住先|いじゅうさき} (destination of relocation)\n- {移住者|いじゅうしゃ} (immigrant, settler)\n\nSIMILAR WORDS:\n- ⟦{引|ひ}っ{越|こ}す→引っ越す：01171_hikkosu⟧: to move (residence) — everyday word, no implication of permanence\n- ⟦{転居|てんきょ}する→転居する：21604_tenkyosuru⟧: to change residence — formal, more about the move itself",
   "cross_references": [
     {
       "type": "synonym",
@@ -149,11 +149,18 @@
       "reading": "てんきょ",
       "headword": "{転居|てんきょ}",
       "label": "formal, the move itself"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21604_tenkyosuru",
+      "reading": "てんきょする",
+      "headword": "{転居|てんきょ}する",
+      "label": "to change residence"
     }
   ],
   "metadata": {
     "created": "2026-03-16T05:50:09Z",
-    "modified": "2026-07-22T18:50:18Z",
+    "modified": "2026-09-02T04:01:47Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

@@ -49,7 +49,7 @@
     },
     {
       "id": "03064_shimau_ex4",
-      "japanese": "⟦おもちゃ→おもちゃ：01334_omocha⟧⟦を→を：00422_wo⟧⟦{箱|はこ}→箱：02162_hako⟧⟦に→に：00314_ni⟧{仕舞|しま}いなさい。",
+      "japanese": "⟦おもちゃ→おもちゃ：01334_omocha⟧⟦を→を：00422_wo⟧⟦{箱|はこ}→箱：02162_hako⟧⟦に→に：00314_ni⟧{仕舞|しま}い⟦なさい→なさる：01307_nasaru⟧。",
       "english": "Put the toys away in the box.",
       "notes": null,
       "has_audio": false,
@@ -128,7 +128,7 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive). Pattern: X⟦を→を：00422_wo⟧{仕舞|しま}う.\n\nNOTE: This entry is for the main verb {仕舞|しま}う meaning \"to put away.\" For the auxiliary verb ～てしまう, see the separate entry.\n\nCOMMON PATTERNS:\n- ～⟦を→を：00422_wo⟧{仕舞|しま}う (to put ~ away)\n- ⟦{引|ひ}き{出|だ}し→引き出し：01498_hikidashi⟧⟦に→に：00314_ni⟧{仕舞|しま}う (to put in a drawer)\n- ⟦{店|みせ}→店：00497_mise⟧⟦を→を：00422_wo⟧{仕舞|しま}う (to close shop)\n\nWRITING NOTE:\nOften written in hiragana (しまう) rather than kanji ({仕舞|しま}う).\n\nSIMILAR WORDS:\n- {仕舞|しま}う: to put away (focus on tidying)\n- ⟦{片付|かたづ}ける→片付ける：01192_katazukeru⟧: to tidy up (broader meaning)\n- ⟦{収納|しゅうのう}→収納：07497_shuunou⟧⟦する→する：00392_suru⟧: to store (formal)",
+  "notes": "TRANSITIVITY: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive). Pattern: X⟦を→を：00422_wo⟧{仕舞|しま}う.\n\nNOTE: This entry is for the main verb {仕舞|しま}う meaning \"to put away.\" For the auxiliary verb ～てしまう, see the separate entry.\n\nCOMMON PATTERNS:\n- ～⟦を→を：00422_wo⟧{仕舞|しま}う (to put ~ away)\n- ⟦{引|ひ}き{出|だ}し→引き出し：01498_hikidashi⟧⟦に→に：00314_ni⟧{仕舞|しま}う (to put in a drawer)\n- ⟦{店|みせ}→店：00497_mise⟧⟦を→を：00422_wo⟧{仕舞|しま}う (to close shop)\n\nWRITING:\nOften written in hiragana (しまう) rather than kanji ({仕舞|しま}う).\n\nSIMILAR WORDS:\n- {仕舞|しま}う: to put away (focus on tidying)\n- ⟦{片付|かたづ}ける→片付ける：01192_katazukeru⟧: to tidy up (broader meaning)\n- ⟦{収納|しゅうのう}→収納：07497_shuunou⟧⟦する→する：00392_suru⟧: to store (formal)",
   "prominent_see_also": [
     {
       "target_id": "03102_teshimau",
@@ -151,11 +151,25 @@
       "reading": "おく",
       "headword": "{置|お}く",
       "label": "to leave something out, vs. putting it away"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07497_shuunou",
+      "reading": "しゅうのう",
+      "headword": "{収納|しゅうのう}",
+      "label": "to store"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25536_hokansuru",
+      "reading": "ほかんする",
+      "headword": "{保管|ほかん}する",
+      "label": "to store"
     }
   ],
   "metadata": {
     "created": "2026-01-11T11:14:00Z",
-    "modified": "2026-09-01T00:19:22Z",
+    "modified": "2026-09-02T04:01:02Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

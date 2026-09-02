@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "17891_kinenkitte_ex1",
-      "japanese": "{記念切手|きねんきって}を{買|か}いに{郵便局|ゆうびんきょく}へ{行|い}った。",
+      "japanese": "{記念切手|きねんきって}⟦を→を：00422_wo⟧⟦{買|か}い→買う：00489_kau⟧⟦に→に：00314_ni⟧⟦{郵便局|ゆうびんきょく}→郵便局：00579_yuubinkyoku⟧⟦へ→へ：02473_he⟧⟦{行|い}った→行く：00119_iku⟧。",
       "english": "I went to the post office to buy commemorative stamps.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17891_kinenkitte_ex2",
-      "japanese": "オリンピックの{記念切手|きねんきって}が{発売|はつばい}された。",
+      "japanese": "⟦オリンピック→オリンピック：09899_orinpikku⟧⟦の→の：09472_no⟧{記念切手|きねんきって}⟦が→が：00051_ga⟧⟦{発売|はつばい}→発売：04315_hatsubai⟧⟦された→する：00392_suru⟧。",
       "english": "Olympic commemorative stamps have been released.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17891_kinenkitte_ex3",
-      "japanese": "{祖父|そふ}は{何十年|なんじゅうねん}もかけて{集|あつ}めた{記念切手|きねんきって}のコレクションを{大切|たいせつ}にしている。",
+      "japanese": "⟦{祖父|そふ}→祖父：01452_sofu⟧⟦は→は：00079_ha⟧⟦{何十年|なんじゅうねん}→何十年：30624_nanjuunen⟧⟦も→も：00484_mo⟧⟦かけて→かける：00854_kakeru⟧⟦{集|あつ}めた→集める：01170_atsumeru⟧{記念切手|きねんきって}⟦の→の：09472_no⟧⟦コレクション→コレクション：07327_korekushon⟧⟦を→を：00422_wo⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧にして⟦いる→いる：00495_iru⟧。",
       "english": "My grandfather treasures his collection of commemorative stamps that he spent decades assembling.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nJapan Post regularly issues {記念切手|きねんきって} for cultural events, famous people, and national milestones. They are popular collectibles.\n\nCOMMON COLLOCATIONS:\n- {記念切手|きねんきって}を{集|あつ}める (to collect commemorative stamps)\n- {記念切手|きねんきって}を{発行|はっこう}する (to issue commemorative stamps)\n- {限定|げんてい}{記念切手|きねんきって} (limited-edition commemorative stamp)\n\nRELATED WORDS:\n- {普通切手|ふつうきって}: regular stamp\n- {切手|きって}: stamp (general)",
+  "notes": "USAGE:\nJapan Post regularly issues {記念切手|きねんきって} for cultural events, famous people, and national milestones. They are popular collectibles.\n\nCOMMON COLLOCATIONS:\n- {記念切手|きねんきって}⟦を→を：00422_wo⟧⟦{集|あつ}める→集める：01170_atsumeru⟧ (to collect commemorative stamps)\n- {記念切手|きねんきって}⟦を→を：00422_wo⟧⟦{発行|はっこう}する→発行する：19236_hakkousuru⟧ (to issue commemorative stamps)\n- ⟦{限定|げんてい}→限定：10997_gentei⟧{記念切手|きねんきって} (limited-edition commemorative stamp)\n\nRELATED WORDS:\n- {普通切手|ふつうきって}: regular stamp\n- ⟦{切手|きって}→切手：00718_kitte⟧: stamp (general)",
   "cross_references": [
     {
       "type": "related",
@@ -46,18 +52,29 @@
       "reading": "きって",
       "headword": "{切手|きって}",
       "label": "stamp (general)"
+    },
+    {
+      "type": "related",
+      "target_id": "08984_kitteshuushuu",
+      "reading": "きってしゅうしゅう",
+      "headword": "{切手|きって}{収集|しゅうしゅう}",
+      "label": "stamp collecting"
     }
   ],
   "metadata": {
     "created": "2026-03-19T08:28:52Z",
-    "modified": "2026-05-07T09:10:12Z",
+    "modified": "2026-09-02T04:01:50Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

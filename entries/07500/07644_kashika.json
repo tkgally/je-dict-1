@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "07644_kashika_ex1",
-      "japanese": "データを{可視化|かしか}する。",
+      "japanese": "⟦データ→データ：03944_deeta⟧⟦を→を：00422_wo⟧{可視化|かしか}⟦する→する：00392_suru⟧。",
       "english": "To visualize data.",
       "has_audio": false,
       "sense_numbers": [
@@ -113,7 +113,7 @@
     },
     {
       "id": "07644_kashika_ex2",
-      "japanese": "{取調|とりしら}べの{可視化|かしか}が{進|すす}んでいる。",
+      "japanese": "{取調|とりしら}べ⟦の→の：09472_no⟧{可視化|かしか}⟦が→が：00051_ga⟧⟦{進|すす}んでいる→進む：01225_susumu⟧。",
       "english": "Recording of interrogations is progressing.",
       "has_audio": false,
       "sense_numbers": [
@@ -122,7 +122,7 @@
     },
     {
       "id": "07644_kashika_ex3",
-      "japanese": "{問題点|もんだいてん}を{可視化|かしか}することで{解決|かいけつ}の{糸口|いとぐち}が{見|み}えてきた。",
+      "japanese": "⟦{問題点|もんだいてん}→問題点：20619_mondaiten⟧⟦を→を：00422_wo⟧{可視化|かしか}⟦する→する：00392_suru⟧こと⟦で→で：00502_de⟧⟦{解決|かいけつ}→解決：00136_kaiketsu⟧⟦の→の：09472_no⟧⟦{糸口|いとぐち}→糸口：10110_itoguchi⟧⟦が→が：00051_ga⟧⟦{見|み}えて→見える：01165_mieru⟧きた。",
       "english": "By visualizing the problems, we could see a way to solve them.",
       "has_audio": false,
       "sense_numbers": [
@@ -130,10 +130,54 @@
       ]
     }
   ],
-  "notes": "COMMON COLLOCATIONS:\n・データの{可視化|かしか} - data visualization\n・{取調|とりしら}べの{可視化|かしか} - recording of interrogations\n・{情報|じょうほう}の{可視化|かしか} - information visualization\n・{可視化|かしか}ツール - visualization tool\n\nUSAGE CONTEXTS:\n- Business/IT: Data visualization\n- Legal: Recording interrogations to make the process transparent\n- General: Making abstract concepts visible\n\nRELATED -{化|か} WORDS:\n・{最適化|さいてきか} - optimization\n・{効率化|こうりつか} - streamlining\n・{自動化|じどうか} - automation",
+  "notes": "COMMON COLLOCATIONS:\n- ⟦データ→データ：03944_deeta⟧⟦の→の：09472_no⟧{可視化|かしか} - data visualization\n- {取調|とりしら}べ⟦の→の：09472_no⟧{可視化|かしか} - recording of interrogations\n- ⟦{情報|じょうほう}→情報：03348_jouhou⟧⟦の→の：09472_no⟧{可視化|かしか} - information visualization\n- {可視化|かしか}⟦ツール→ツール：11044_tsuuru⟧ - visualization tool\n\nUSAGE:\n- Business/IT: Data visualization\n- Legal: Recording interrogations to make the process transparent\n- General: Making abstract concepts visible\n\nRELATED -{化|か} WORDS:\n- ⟦{最適化|さいてきか}→最適化：07567_saitekika⟧ - optimization\n- ⟦{効率化|こうりつか}→効率化：07565_kouritsuka⟧ - streamlining\n- ⟦{自動化|じどうか}→自動化：07566_jidouka⟧ - automation",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "07567_saitekika",
+      "reading": "さいてきか",
+      "headword": "{最適化|さいてきか}",
+      "label": "optimization"
+    },
+    {
+      "type": "related",
+      "target_id": "07565_kouritsuka",
+      "reading": "こうりつか",
+      "headword": "{効率化|こうりつか}",
+      "label": "streamlining"
+    },
+    {
+      "type": "related",
+      "target_id": "07566_jidouka",
+      "reading": "じどうか",
+      "headword": "{自動化|じどうか}",
+      "label": "automation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20758_shikakuka",
+      "reading": "しかくか",
+      "headword": "{視覚化|しかくか}",
+      "label": "visualization"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22259_toumeika",
+      "reading": "とうめいか",
+      "headword": "{透明化|とうめいか}",
+      "label": "making transparent"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26239_mieruka",
+      "reading": "みえるか",
+      "headword": "{見|み}える{化|か}",
+      "label": "visualization"
+    }
+  ],
   "metadata": {
     "created": "2026-01-20T13:21:59Z",
-    "modified": "2026-06-19T21:43:28Z",
+    "modified": "2026-09-02T04:01:12Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -142,6 +186,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "change",
         "technology"
@@ -150,7 +195,8 @@
         "technical",
         "business"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

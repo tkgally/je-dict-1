@@ -15,42 +15,69 @@
   "examples": [
     {
       "id": "14339_mihonichi_ex1",
-      "japanese": "{来週|らいしゅう}の{見本市|みほんいち}に{出展|しゅってん}する。",
+      "japanese": "⟦{来週|らいしゅう}→来週：00746_raishuu⟧⟦の→の：09472_no⟧{見本市|みほんいち}⟦に→に：00314_ni⟧⟦{出展|しゅってん}→出展：11986_shutten⟧⟦する→する：00392_suru⟧。",
       "english": "We will exhibit at next week's trade fair.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14339_mihonichi_ex2",
-      "japanese": "{国際|こくさい}{見本市|みほんいち}には{多|おお}くの{企業|きぎょう}が{参加|さんか}する。",
+      "japanese": "⟦{国際|こくさい}→国際：01406_kokusai⟧{見本市|みほんいち}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{多|おお}く⟦の→の：09472_no⟧⟦{企業|きぎょう}→企業：00225_kigyou⟧⟦が→が：00051_ga⟧⟦{参加|さんか}する→参加する：25408_sankasuru⟧。",
       "english": "Many companies participate in the international trade show.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14339_mihonichi_ex3",
-      "japanese": "{東京|とうきょう}で{開|ひら}かれた{見本市|みほんいち}で{新商品|しんしょうひん}のデモンストレーションを{行|おこな}い、{多|おお}くの{注文|ちゅうもん}を{受|う}けた。",
+      "japanese": "⟦{東京|とうきょう}→東京：09564_toukyou⟧⟦で→で：00502_de⟧⟦{開|ひら}かれた→開く：01979_hiraku⟧{見本市|みほんいち}⟦で→で：00502_de⟧⟦{新商品|しんしょうひん}→新商品：11504_shinshouhin⟧⟦の→の：09472_no⟧デモンストレーション⟦を→を：00422_wo⟧⟦{行|おこな}い→行う：01238_okonau⟧、{多|おお}く⟦の→の：09472_no⟧⟦{注文|ちゅうもん}→注文：03485_chuumon⟧⟦を→を：00422_wo⟧⟦{受|う}けた→受ける：01215_ukeru⟧。",
       "english": "We demonstrated our new products at a trade fair held in Tokyo and received many orders.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "Compound of {見本|みほん} (sample) + {市|いち} (market). Literally a \"sample market\" where goods are displayed for potential buyers.\n\nCOMMON COLLOCATIONS:\n- {国際|こくさい}{見本市|みほんいち} (international trade fair)\n- {見本市|みほんいち}に{出展|しゅってん}する (to exhibit at a trade fair)\n- {見本市|みほんいち}{会場|かいじょう} (trade fair venue)\n\nUSAGE NOTE:\nThe English loanword {展示会|てんじかい} is also used, though {見本市|みほんいち} emphasizes the commercial, business-to-business nature of the event.",
-  "cross_references": [],
+  "notes": "Compound of ⟦{見本|みほん}→見本：00279_mihon⟧ (sample) + ⟦{市|いち}→市：10013_ichi⟧ (market). Literally a \"sample market\" where goods are displayed for potential buyers.\n\nCOMMON COLLOCATIONS:\n- ⟦{国際|こくさい}→国際：01406_kokusai⟧{見本市|みほんいち} (international trade fair)\n- {見本市|みほんいち}⟦に→に：00314_ni⟧⟦{出展|しゅってん}→出展：11986_shutten⟧⟦する→する：00392_suru⟧ (to exhibit at a trade fair)\n- {見本市|みほんいち}⟦{会場|かいじょう}→会場：01269_kaijou⟧ (trade fair venue)\n\nUSAGE:\nThe English loanword ⟦{展示会|てんじかい}→展示会：21869_tenjikai⟧ is also used, though {見本市|みほんいち} emphasizes the commercial, business-to-business nature of the event.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21869_tenjikai",
+      "reading": "てんじかい",
+      "headword": "{展示会|てんじかい}",
+      "label": "exhibition"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29493_hakurankai",
+      "reading": "はくらんかい",
+      "headword": "{博覧会|はくらんかい}",
+      "label": "exposition"
+    }
+  ],
   "metadata": {
     "created": "2026-02-28T12:12:32Z",
-    "modified": "2026-02-28T12:12:32Z",
+    "modified": "2026-09-02T04:01:37Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["work"],
-      "domain": ["business"]
+      "semantic": [
+        "work"
+      ],
+      "domain": [
+        "business"
+      ]
     }
   }
 }

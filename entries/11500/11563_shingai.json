@@ -2,7 +2,7 @@
   "id": "11563_shingai",
   "headword": "{侵害|しんがい}",
   "reading": "しんがい",
-  "part_of_speech": "noun / verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "infringement, violation",
   "conjugation": {
     "type": "suru",
@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "11563_shingai_ex1",
-      "japanese": "{人権|じんけん}{侵害|しんがい}を{許|ゆる}してはならない。",
+      "japanese": "⟦{人権|じんけん}→人権：05416_jinken⟧{侵害|しんがい}⟦を→を：00422_wo⟧⟦{許|ゆる}して→許す：02325_yurusu⟧⟦は→は：00079_ha⟧⟦ならない→なる：01970_naru⟧。",
       "english": "We must not tolerate human rights violations.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "11563_shingai_ex2",
-      "japanese": "{著作権|ちょさくけん}を{侵害|しんがい}するおそれがある。",
+      "japanese": "⟦{著作権|ちょさくけん}→著作権：14022_chosakuken⟧⟦を→を：00422_wo⟧{侵害|しんがい}⟦する→する：00392_suru⟧おそれ⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There is a risk of copyright infringement.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "11563_shingai_ex3",
-      "japanese": "{個人|こじん}のプライバシーを{侵害|しんがい}しないよう{注意|ちゅうい}が{必要|ひつよう}だ。",
+      "japanese": "⟦{個人|こじん}→個人：02758_kojin⟧⟦の→の：09472_no⟧⟦プライバシー→プライバシー：06806_puraibashii⟧⟦を→を：00422_wo⟧{侵害|しんがい}⟦しない→する：00392_suru⟧よう⟦{注意|ちゅうい}→注意：01464_chuui⟧⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧だ。",
       "english": "Care must be taken not to infringe on individual privacy.",
       "notes": null,
       "has_audio": false,
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "A formal, legal-register word. The object being violated is marked with を, and the pattern is 〜を{侵害|しんがい}する. Commonly paired with words for rights ({権利|けんり}), territory ({領土|りょうど}), and privacy.\n\nCOMMON COLLOCATIONS:\n・{人権|じんけん}{侵害|しんがい} (human rights violation)\n・{著作権|ちょさくけん}{侵害|しんがい} (copyright infringement)\n・{権利|けんり}{侵害|しんがい} (infringement of rights)\n・{領土|りょうど}{侵害|しんがい} (territorial encroachment)\n・{侵害|しんがい}{行為|こうい} (act of infringement)",
+  "notes": "A formal, legal-register word. The object being violated is marked with ⟦を→を：00422_wo⟧, and the pattern is 〜⟦を→を：00422_wo⟧{侵害|しんがい}⟦する→する：00392_suru⟧. Commonly paired with words for rights (⟦{権利|けんり}→権利：02711_kenri⟧), territory (⟦{領土|りょうど}→領土：15711_ryoudo⟧), and privacy.\n\nCOMMON COLLOCATIONS:\n- ⟦{人権|じんけん}→人権：05416_jinken⟧{侵害|しんがい} (human rights violation)\n- ⟦{著作権|ちょさくけん}→著作権：14022_chosakuken⟧{侵害|しんがい} (copyright infringement)\n- ⟦{権利|けんり}→権利：02711_kenri⟧{侵害|しんがい} (infringement of rights)\n- ⟦{領土|りょうど}→領土：15711_ryoudo⟧{侵害|しんがい} (territorial encroachment)\n- {侵害|しんがい}⟦{行為|こうい}→行為：10021_koui⟧ (act of infringement)",
   "prominent_see_also": [
     {
       "target_id": "17759_shingai",
@@ -149,11 +149,32 @@
       "reading": "しんりゃく",
       "headword": "{侵略|しんりゃく}",
       "label": "invasion, aggression"
+    },
+    {
+      "type": "related",
+      "target_id": "19534_okasu",
+      "reading": "おかす",
+      "headword": "{侵|おか}す",
+      "label": "to invade"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24915_juurin",
+      "reading": "じゅうりん",
+      "headword": "{蹂躙|じゅうりん}",
+      "label": "trampling"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29663_shinpan",
+      "reading": "しんぱん",
+      "headword": "{侵犯|しんぱん}",
+      "label": "violation"
     }
   ],
   "metadata": {
     "created": "2026-02-17T13:20:28Z",
-    "modified": "2026-07-13T21:19:15Z",
+    "modified": "2026-09-02T04:01:25Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
@@ -170,7 +191,8 @@
       "semantic": [
         "general"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

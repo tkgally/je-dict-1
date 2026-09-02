@@ -39,7 +39,7 @@
     },
     {
       "id": "06069_moroi_ex3",
-      "japanese": "⟦{古|ふる}い→古い：00488_furui⟧⟦{建物|たてもの}→建物：01458_tatemono⟧⟦は→は：00079_ha⟧⟦{地震|じしん}→地震：01608_jishin⟧⟦で→で：00502_de⟧{脆|もろ}くも⟦{崩|くず}れた→崩れる：04248_kuzureru⟧。",
+      "japanese": "⟦{古|ふる}い→古い：00488_furui⟧⟦{建物|たてもの}→建物：01458_tatemono⟧⟦は→は：00079_ha⟧⟦{地震|じしん}→地震：01608_jishin⟧⟦で→で：00502_de⟧{脆|もろ}く⟦も→も：00484_mo⟧⟦{崩|くず}れた→崩れる：04248_kuzureru⟧。",
       "english": "The old building crumbled easily in the earthquake.",
       "notes": null,
       "has_audio": false,
@@ -78,18 +78,39 @@
       ]
     }
   ],
-  "notes": "{脆|もろ}い describes something that is inherently weak and easily broken — physically brittle or emotionally vulnerable.\n\nFORMS:\n- Adverb: {脆|もろ}く (fragilely)\n- Noun: {脆|もろ}さ (fragility, brittleness)\n\nSENSE 1 - PHYSICAL:\nRefers to materials, structures, or defenses that break easily.\n- {脆|もろ}くも⟦{崩|くず}れる→崩れる：04248_kuzureru⟧ (collapse easily — {脆|もろ}くも is a common adverbial expression)\n- {脆|もろ}い⟦{地盤|じばん}→地盤：04035_jiban⟧ (fragile ground)\n\nSENSE 2 - EMOTIONAL:\nDescribes someone who is easily moved or emotionally vulnerable.\n- ⟦{涙|なみだ}→涙：02235_namida⟧に{脆|もろ}い (easily moved to tears — a very common expression)\n- ⟦{精神的|せいしんてき}→精神的：05851_seishinteki⟧に{脆|もろ}い (mentally fragile)\n\nCONTRAST:\n- ⟦{壊|こわ}れやすい→壊れやすい：20209_kowareyasui⟧: more neutral 'easy to break' without implying inherent weakness\n- ⟦{弱|よわ}い→弱い：00825_yowai⟧: general 'weak,' broader in scope\n- {脆|もろ}い: specifically suggests brittleness or vulnerability as an inherent quality",
+  "notes": "{脆|もろ}い describes something that is inherently weak and easily broken — physically brittle or emotionally vulnerable.\n\nFORMS:\n- Adverb: {脆|もろ}く (fragilely)\n- Noun: {脆|もろ}さ (fragility, brittleness)\n\nSENSE 1 - PHYSICAL:\nRefers to materials, structures, or defenses that break easily.\n- {脆|もろ}く⟦も→も：00484_mo⟧⟦{崩|くず}れる→崩れる：04248_kuzureru⟧ (collapse easily — {脆|もろ}く⟦も→も：00484_mo⟧ is a common adverbial expression)\n- {脆|もろ}い⟦{地盤|じばん}→地盤：04035_jiban⟧ (fragile ground)\n\nSENSE 2 - EMOTIONAL:\nDescribes someone who is easily moved or emotionally vulnerable.\n- ⟦{涙|なみだ}→涙：02235_namida⟧⟦に→に：00314_ni⟧{脆|もろ}い (easily moved to tears — a very common expression)\n- ⟦{精神的|せいしんてき}→精神的：05851_seishinteki⟧⟦に→に：00314_ni⟧{脆|もろ}い (mentally fragile)\n\nSIMILAR WORDS:\n- ⟦{壊|こわ}れやすい→壊れやすい：20209_kowareyasui⟧: more neutral 'easy to break' without implying inherent weakness\n- ⟦{弱|よわ}い→弱い：00825_yowai⟧: general 'weak,' broader in scope\n- {脆|もろ}い: specifically suggests brittleness or vulnerability as an inherent quality",
   "cross_references": [
     {
       "type": "related",
       "reading": "よわい",
       "headword": "{弱|よわ}い",
       "target_id": "00825_yowai"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20209_kowareyasui",
+      "reading": "こわれやすい",
+      "headword": "{壊|こわ}れやすい",
+      "label": "more neutral 'easy to break' without…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07898_hakanai",
+      "reading": "はかない",
+      "headword": "{儚|はかな}い",
+      "label": "fleeting"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21190_hakanage",
+      "reading": "はかなげ",
+      "headword": "{儚|はかな}げ",
+      "label": "seemingly fragile"
     }
   ],
   "metadata": {
     "created": "2026-01-17T02:07:38Z",
-    "modified": "2026-06-12T01:39:16Z",
+    "modified": "2026-09-02T04:01:07Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

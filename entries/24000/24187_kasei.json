@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24187_kasei_ex1",
-      "japanese": "{苛政|かせい}に{民|たみ}は{苦|くる}しんだ。",
+      "japanese": "{苛政|かせい}⟦に→に：00314_ni⟧⟦{民|たみ}→民：13246_tami⟧⟦は→は：00079_ha⟧⟦{苦|くる}しんだ→苦しむ：01938_kurushimu⟧。",
       "english": "The people suffered under harsh government.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24187_kasei_ex2",
-      "japanese": "「{苛政|かせい}は{虎|とら}よりも{猛|たけ}し」という{言葉|ことば}がある。",
+      "japanese": "「{苛政|かせい}⟦は→は：00079_ha⟧⟦{虎|とら}→虎：02228_tora⟧⟦より→より：09476_yori⟧⟦も→も：00484_mo⟧{猛|たけ}し」⟦という→という：09577_toiu⟧⟦{言葉|ことば}→言葉：02880_kotoba⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There is a saying that \"oppressive government is fiercer than a tiger.\"",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24187_kasei_ex3",
-      "japanese": "{歴史上|れきしじょう}、{苛政|かせい}はしばしば{民衆|みんしゅう}の{反乱|はんらん}を{引|ひ}き{起|お}こしてきた。",
+      "japanese": "⟦{歴史上|れきしじょう}→歴史上：24044_rekishijou⟧、{苛政|かせい}⟦は→は：00079_ha⟧⟦しばしば→しばしば：02365_shibashiba⟧⟦{民衆|みんしゅう}→民衆：13259_minshuu⟧⟦の→の：09472_no⟧⟦{反乱|はんらん}→反乱：11860_hanran⟧⟦を→を：00422_wo⟧⟦{引|ひ}き{起|お}こして→引き起こす：06165_hikiokosu⟧きた。",
       "english": "Throughout history, oppressive rule has often triggered popular uprisings.",
       "sense_numbers": [
         1
@@ -44,14 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "A literary and historical term for cruel, burdensome governance. Most famously known from the Chinese classical saying {苛政|かせい}は{虎|とら}よりも{猛|たけ}し (\"Oppressive government is fiercer than a tiger\"), attributed to Confucius.\n\nCOMMON COLLOCATIONS:\n- {苛政|かせい}に{苦|くる}しむ: to suffer under oppressive rule\n- {苛政|かせい}を{敷|し}く: to impose harsh rule\n- {苛政|かせい}は{虎|とら}よりも{猛|たけ}し: oppressive government is fiercer than a tiger\n\nSIMILAR WORDS:\n- {暴政|ぼうせい}: tyranny — emphasizes the violent and cruel nature of the rule\n- {圧政|あっせい}: oppression — emphasizes the weight and pressure of authoritarian governance\n- {悪政|あくせい}: misgovernment — broader term for bad governance, not necessarily cruel",
+  "notes": "A literary and historical term for cruel, burdensome governance. Most famously known from the Chinese classical saying {苛政|かせい}⟦は→は：00079_ha⟧⟦{虎|とら}→虎：02228_tora⟧⟦より→より：09476_yori⟧⟦も→も：00484_mo⟧{猛|たけ}し (\"Oppressive government is fiercer than a tiger\"), attributed to Confucius.\n\nCOMMON COLLOCATIONS:\n- {苛政|かせい}⟦に→に：00314_ni⟧⟦{苦|くる}しむ→苦しむ：01938_kurushimu⟧: to suffer under oppressive rule\n- {苛政|かせい}⟦を→を：00422_wo⟧⟦{敷|し}く→敷く：00366_shiku⟧: to impose harsh rule\n- {苛政|かせい}⟦は→は：00079_ha⟧⟦{虎|とら}→虎：02228_tora⟧⟦より→より：09476_yori⟧⟦も→も：00484_mo⟧{猛|たけ}し: oppressive government is fiercer than a tiger\n\nSIMILAR WORDS:\n- ⟦{暴政|ぼうせい}→暴政：24165_bousei⟧: tyranny — emphasizes the violent and cruel nature of the rule\n- ⟦{圧政|あっせい}→圧政：12133_assei⟧: oppression — emphasizes the weight and pressure of authoritarian governance\n- {悪政|あくせい}: misgovernment — broader term for bad governance, not necessarily cruel",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24165_bousei",
+      "reading": "ぼうせい",
+      "headword": "{暴政|ぼうせい}",
+      "label": "tyranny"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12133_assei",
+      "reading": "あっせい",
+      "headword": "{圧政|あっせい}",
+      "label": "oppression"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "politics",
         "history"
@@ -62,6 +79,6 @@
       ]
     },
     "created": "2026-04-17T21:46:04Z",
-    "modified": "2026-04-17T21:46:04Z"
+    "modified": "2026-09-02T04:02:17Z"
   }
 }

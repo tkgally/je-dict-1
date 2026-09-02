@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "12100_henkaku_ex1",
-      "japanese": "{社会|しゃかい}{変革|へんかく}を{目指|めざ}す。",
+      "japanese": "⟦{社会|しゃかい}→社会：01427_shakai⟧{変革|へんかく}⟦を→を：00422_wo⟧⟦{目指|めざ}す→目指す：10528_mezasu⟧。",
       "english": "Aim for social reform.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "12100_henkaku_ex2",
-      "japanese": "{技術|ぎじゅつ}の{進歩|しんぽ}が{産業|さんぎょう}に{大|おお}きな{変革|へんかく}をもたらした。",
+      "japanese": "⟦{技術|ぎじゅつ}→技術：01389_gijutsu⟧⟦の→の：09472_no⟧⟦{進歩|しんぽ}→進歩：03265_shinpo⟧⟦が→が：00051_ga⟧⟦{産業|さんぎょう}→産業：01419_sangyou⟧⟦に→に：00314_ni⟧⟦{大|おお}きな→大きな：02849_ookina⟧{変革|へんかく}⟦を→を：00422_wo⟧⟦もたらした→もたらす：10546_motarasu⟧。",
       "english": "Technological progress brought about great transformation in industry.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "12100_henkaku_ex3",
-      "japanese": "{教育|きょういく}{制度|せいど}の{変革|へんかく}なくして、この{問題|もんだい}は{解決|かいけつ}しないだろう。",
+      "japanese": "⟦{教育|きょういく}→教育：01313_kyouiku⟧⟦{制度|せいど}→制度：03291_seido⟧⟦の→の：09472_no⟧{変革|へんかく}なくして、⟦この→この：00962_kono⟧⟦{問題|もんだい}→問題：00797_mondai⟧⟦は→は：00079_ha⟧⟦{解決|かいけつ}しない→解決する：17191_kaiketsusuru⟧だろう。",
       "english": "Without reform of the education system, this problem will likely not be solved.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA formal word used in political, social, and business contexts. Often appears in discussions of systemic or institutional change. Carries a more dramatic, fundamental connotation than {改革|かいかく} (reform), though the two overlap significantly.\n\nCOMMON COLLOCATIONS:\n- {社会|しゃかい}{変革|へんかく}: social reform/revolution\n- {意識|いしき}{変革|へんかく}: change in mindset\n- {変革|へんかく}を{起|お}こす: bring about change\n- {変革|へんかく}の{時代|じだい}: era of transformation\n- {構造|こうぞう}{変革|へんかく}: structural transformation\n\nSIMILAR WORDS:\n{変革|へんかく} implies a fundamental, sweeping transformation. {改革|かいかく} (reform) is the most common word for institutional reform and may be more incremental. {革命|かくめい} (revolution) implies even more drastic, often violent change.",
+  "notes": "USAGE:\nA formal word used in political, social, and business contexts. Often appears in discussions of systemic or institutional change. Carries a more dramatic, fundamental connotation than ⟦{改革|かいかく}→改革：04815_kaikaku⟧ (reform), though the two overlap significantly.\n\nCOMMON COLLOCATIONS:\n- ⟦{社会|しゃかい}→社会：01427_shakai⟧{変革|へんかく}: social reform/revolution\n- ⟦{意識|いしき}→意識：01714_ishiki⟧{変革|へんかく}: change in mindset\n- {変革|へんかく}⟦を→を：00422_wo⟧⟦{起|お}こす→起こす：01234_okosu⟧: bring about change\n- {変革|へんかく}⟦の→の：09472_no⟧⟦{時代|じだい}→時代：01424_jidai⟧: era of transformation\n- ⟦{構造|こうぞう}→構造：02730_kouzou⟧{変革|へんかく}: structural transformation\n\nSIMILAR WORDS:\n{変革|へんかく} implies a fundamental, sweeping transformation. ⟦{改革|かいかく}→改革：04815_kaikaku⟧ (reform) is the most common word for institutional reform and may be more incremental. ⟦{革命|かくめい}→革命：05968_kakumei⟧ (revolution) implies even more drastic, often violent change.",
   "cross_references": [
     {
       "type": "synonym",
@@ -149,11 +149,18 @@
       "reading": "かくめい",
       "headword": "{革命|かくめい}",
       "label": "revolution (drastic)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20621_dappi",
+      "reading": "だっぴ",
+      "headword": "{脱皮|だっぴ}",
+      "label": "shedding skin"
     }
   ],
   "metadata": {
     "created": "2026-02-20T04:57:46Z",
-    "modified": "2026-08-16T12:29:03Z",
+    "modified": "2026-09-02T04:01:27Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

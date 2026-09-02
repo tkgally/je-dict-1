@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "07401_shukumei_ex1",
-      "japanese": "これは{宿命|しゅくめい}だと{諦|あきら}めた。",
+      "japanese": "⟦これ→これ：00963_kore⟧⟦は→は：00079_ha⟧{宿命|しゅくめい}だ⟦と→と：00512_to⟧⟦{諦|あきら}めた→諦める：01813_akirameru⟧。",
       "english": "I accepted that this was fate.",
       "has_audio": false,
       "sense_numbers": [
@@ -23,7 +23,7 @@
     },
     {
       "id": "07401_shukumei_ex2",
-      "japanese": "{二人|ふたり}の{出会|であ}いは{宿命|しゅくめい}だったのかもしれない。",
+      "japanese": "⟦{二人|ふたり}→二人：00622_futari⟧⟦の→の：09472_no⟧⟦{出会|であ}い→出会い：03445_deai⟧⟦は→は：00079_ha⟧{宿命|しゅくめい}だった⟦の→の：09472_no⟧⟦かもしれない→かもしれない：00164_kamoshirenai⟧。",
       "english": "Perhaps the two of them meeting was destiny.",
       "has_audio": false,
       "sense_numbers": [
@@ -32,7 +32,7 @@
     },
     {
       "id": "07401_shukumei_ex3",
-      "japanese": "{宿命|しゅくめい}のライバルと{呼|よ}ばれている。",
+      "japanese": "{宿命|しゅくめい}⟦の→の：09472_no⟧⟦ライバル→ライバル：11197_raibaru⟧⟦と→と：00512_to⟧⟦{呼|よ}ばれている→呼ぶ：00766_yobu⟧。",
       "english": "They are called fated rivals.",
       "has_audio": false,
       "sense_numbers": [
@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "notes": "KANJI BREAKDOWN:\n{宿|しゅく} (lodging, staying → predetermined) + {命|めい} (life, fate)\nLiterally: \"predetermined life/fate\"\n\nUSAGE:\n{宿命|しゅくめい} emphasizes that something was determined before birth or from the beginning - it's inescapable destiny. Often used in dramatic or literary contexts.\n\nCOMMON PATTERNS:\n・{宿命|しゅくめい}のライバル - fated rivals\n・{宿命|しゅくめい}の{対決|たいけつ} - destined showdown\n・{宿命|しゅくめい}を{受|う}け{入|い}れる - to accept one's fate\n\nSIMILAR WORDS:\n・{運命|うんめい} - fate, destiny (more general, can be changed)\n・{天命|てんめい} - divine will, heaven's decree\n・{定|さだ}め - fate, destiny (literary)\n・{因縁|いんねん} - karma, fate (Buddhist connotation)\n\nNUANCE:\n{宿命|しゅくめい} is stronger than {運命|うんめい} - it suggests the outcome was absolutely fixed from the start.\n\nREGISTER:\nNeutral to literary. Often used in dramatic narratives.",
+  "notes": "WRITING:\n{宿|しゅく} (lodging, staying → predetermined) + {命|めい} (life, fate)\nLiterally: \"predetermined life/fate\"\n\nUSAGE:\n{宿命|しゅくめい} emphasizes that something was determined before birth or from the beginning - it's inescapable destiny. Often used in dramatic or literary contexts.\n{宿命|しゅくめい} is stronger than ⟦{運命|うんめい}→運命：06879_unmei⟧ - it suggests the outcome was absolutely fixed from the start.\n\nCOMMON PATTERNS:\n- {宿命|しゅくめい}⟦の→の：09472_no⟧⟦ライバル→ライバル：11197_raibaru⟧ - fated rivals\n- {宿命|しゅくめい}⟦の→の：09472_no⟧⟦{対決|たいけつ}→対決：12392_taiketsu⟧ - destined showdown\n- {宿命|しゅくめい}⟦を→を：00422_wo⟧⟦{受|う}け{入|い}れる→受け入れる：05755_ukeireru⟧ - to accept one's fate\n\nSIMILAR WORDS:\n- ⟦{運命|うんめい}→運命：06879_unmei⟧ - fate, destiny (more general, can be changed)\n- ⟦{天命|てんめい}→天命：07887_tenmei⟧ - divine will, heaven's decree\n- ⟦{定|さだ}め→定め：07461_sadame⟧ - fate, destiny (literary)\n- ⟦{因縁|いんねん}→因縁：07460_innen⟧ - karma, fate (Buddhist connotation)\n\nREGISTER:\nNeutral to literary. Often used in dramatic narratives.",
   "cross_references": [
     {
       "type": "related",
@@ -48,11 +48,60 @@
       "headword": "{巡|めぐ}り{合|あ}わせ",
       "label": "fate",
       "target_id": "07400_meguriawase"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06879_unmei",
+      "reading": "うんめい",
+      "headword": "{運命|うんめい}",
+      "label": "fate, destiny"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07887_tenmei",
+      "reading": "てんめい",
+      "headword": "{天命|てんめい}",
+      "label": "divine will, heaven's decree"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07461_sadame",
+      "reading": "さだめ",
+      "headword": "{定|さだ}め",
+      "label": "fate, destiny"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07460_innen",
+      "reading": "いんねん",
+      "headword": "{因縁|いんねん}",
+      "label": "karma, fate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23372_hiun",
+      "reading": "ひうん",
+      "headword": "{悲運|ひうん}",
+      "label": "ill fate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24179_shukuen",
+      "reading": "しゅくえん",
+      "headword": "{宿縁|しゅくえん}",
+      "label": "predestined bond"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25720_tenun",
+      "reading": "てんうん",
+      "headword": "{天運|てんうん}",
+      "label": "fate"
     }
   ],
   "metadata": {
     "created": "2026-01-19T07:24:06Z",
-    "modified": "2026-08-10T18:32:12Z",
+    "modified": "2026-09-02T04:01:11Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

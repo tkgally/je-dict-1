@@ -14,49 +14,66 @@
   "examples": [
     {
       "id": "11496_sensenshuu_ex1",
-      "japanese": "{先々週|せんせんしゅう}の{日曜日|にちようび}に{会|あ}った。",
+      "japanese": "{先々週|せんせんしゅう}⟦の→の：09472_no⟧⟦{日曜日|にちようび}→日曜日：00656_nichiyoubi⟧⟦に→に：00314_ni⟧⟦{会|あ}った→会う：00482_au⟧。",
       "english": "I met them the Sunday before last.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11496_sensenshuu_ex2",
-      "japanese": "{先々週|せんせんしゅう}から{風邪|かぜ}を{引|ひ}いている。",
+      "japanese": "{先々週|せんせんしゅう}⟦から→から：00504_kara⟧⟦{風邪|かぜ}→風邪：02188_kaze⟧⟦を→を：00422_wo⟧⟦{引|ひ}いている→引く：01978_hiku⟧。",
       "english": "I've had a cold since the week before last.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11496_sensenshuu_ex3",
-      "japanese": "{先々週|せんせんしゅう}{届|とど}いた{荷物|にもつ}の{中身|なかみ}をまだ{確認|かくにん}していない。",
+      "japanese": "{先々週|せんせんしゅう}⟦{届|とど}いた→届く：00899_todoku⟧⟦{荷物|にもつ}→荷物：00737_nimotsu⟧⟦の→の：09472_no⟧⟦{中身|なかみ}→中身：01483_nakami⟧⟦を→を：00422_wo⟧⟦まだ→まだ：00603_mada⟧⟦{確認|かくにん}していない→確認する：25332_kakuninsuru⟧。",
       "english": "I still haven't checked the contents of the package that arrived the week before last.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{先々週|せんせんしゅう} is formed by doubling the {先|せん} prefix to push further into the past: {先|せん} (previous) + {先|せん} (previous) + {週|しゅう} (week).\n\nRELATIVE TIME SERIES (WEEKS):\n- {再来週|さらいしゅう}: the week after next\n- {来週|らいしゅう}: next week\n- {今週|こんしゅう}: this week\n- {先週|せんしゅう}: last week\n- {先々週|せんせんしゅう}: the week before last\n\nPARALLEL PATTERNS:\nThe {先々|せんせん}〜 pattern works for other time units too:\n- {先々月|せんせんげつ}: the month before last\n- {一昨年|おととし}/{先々年|せんせんねん}: the year before last\n- {一昨日|おととい}: the day before yesterday\n\nUSAGE:\nUsed in everyday conversation. No special formality — equally natural in casual and polite speech.",
+  "notes": "{先々週|せんせんしゅう} is formed by doubling the {先|せん} prefix to push further into the past: {先|せん} (previous) + {先|せん} (previous) + ⟦{週|しゅう}→週：03204_shuu⟧ (week).\n\nRELATIVE TIME SERIES (WEEKS):\n- ⟦{再来週|さらいしゅう}→再来週：01416_saraishuu⟧: the week after next\n- ⟦{来週|らいしゅう}→来週：00746_raishuu⟧: next week\n- ⟦{今週|こんしゅう}→今週：00721_konshuu⟧: this week\n- ⟦{先週|せんしゅう}→先週：00752_senshuu⟧: last week\n- {先々週|せんせんしゅう}: the week before last\n\nPARALLEL PATTERNS:\nThe {先々|せんせん}〜 pattern works for other time units too:\n- ⟦{先々月|せんせんげつ}→先々月：21528_sensengetsu⟧: the month before last\n- {一昨年|おととし}/{先々年|せんせんねん}: the year before last\n- {一昨日|おととい}: the day before yesterday\n\nUSAGE:\nUsed in everyday conversation. No special formality — equally natural in casual and polite speech.",
   "cross_references": [
     {
       "type": "see_also",
       "reading": "せんしゅう",
       "headword": "{先週|せんしゅう}",
       "target_id": "00752_senshuu"
+    },
+    {
+      "type": "related",
+      "target_id": "21528_sensengetsu",
+      "reading": "せんせんげつ",
+      "headword": "{先々月|せんせんげつ}",
+      "label": "the month before last"
     }
   ],
   "metadata": {
     "created": "2026-02-17T01:54:44Z",
-    "modified": "2026-08-15T09:21:38Z",
+    "modified": "2026-09-02T04:01:25Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["time-general"]
+      "semantic": [
+        "time-general"
+      ]
     }
   }
 }

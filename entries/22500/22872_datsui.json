@@ -3,7 +3,7 @@
   "headword": "{脱衣|だつい}",
   "reading": "だつい",
   "romaji": "datsui",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "undressing; removing clothes",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22872_datsui_ex1",
-      "japanese": "{脱衣所|だついじょ}はどこですか。",
+      "japanese": "⟦{脱衣所|だついじょ}→脱衣所：17619_datsuijo⟧⟦は→は：00079_ha⟧⟦どこ→どこ：00539_doko⟧です⟦か→か：09473_ka⟧。",
       "english": "Where is the changing room?",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22872_datsui_ex2",
-      "japanese": "{温泉|おんせん}の{脱衣|だつい}かごに{荷物|にもつ}を{入|い}れた。",
+      "japanese": "⟦{温泉|おんせん}→温泉：04117_onsen⟧⟦の→の：09472_no⟧{脱衣|だつい}かご⟦に→に：00314_ni⟧⟦{荷物|にもつ}→荷物：00737_nimotsu⟧⟦を→を：00422_wo⟧⟦{入|い}れた→入れる：01098_ireru⟧。",
       "english": "I put my belongings in a basket in the hot spring changing area.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22872_datsui_ex3",
-      "japanese": "{診察|しんさつ}の{前|まえ}に{上半身|じょうはんしん}の{脱衣|だつい}を{求|もと}められた。",
+      "japanese": "⟦{診察|しんさつ}→診察：03259_shinsatsu⟧⟦の→の：09472_no⟧⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧⟦{上半身|じょうはんしん}→上半身：11509_jouhanshin⟧⟦の→の：09472_no⟧{脱衣|だつい}⟦を→を：00422_wo⟧⟦{求|もと}められた→求める：02316_motomeru⟧。",
       "english": "I was asked to undress from the waist up before the examination.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {脱|だつ} (to remove, to take off) + {衣|い} (clothing). Most commonly encountered in compound words like {脱衣所|だついじょ} (changing room) and {脱衣|だつい}かご (undressing basket), especially at public baths, hot springs, and swimming pools.\n\nCOMMON COLLOCATIONS:\n- {脱衣所|だついじょ}: changing room; undressing room\n- {脱衣|だつい}かご: basket for clothes (at a bathhouse)\n- {脱衣|だつい}する: to undress\n- {脱衣場|だついば}: changing area\n\nSIMILAR WORDS:\n- {着替|きが}え: changing clothes — implies putting on different clothes, not just removing them\n- {更衣|こうい}: changing clothes — a more formal synonym, as in {更衣室|こういしつ} (changing room)",
+  "notes": "Composed of {脱|だつ} (to remove, to take off) + {衣|い} (clothing). Most commonly encountered in compound words like ⟦{脱衣所|だついじょ}→脱衣所：17619_datsuijo⟧ (changing room) and {脱衣|だつい}かご (undressing basket), especially at public baths, hot springs, and swimming pools.\n\nCOMMON COLLOCATIONS:\n- ⟦{脱衣所|だついじょ}→脱衣所：17619_datsuijo⟧: changing room; undressing room\n- {脱衣|だつい}かご: basket for clothes (at a bathhouse)\n- {脱衣|だつい}⟦する→する：00392_suru⟧: to undress\n- {脱衣場|だついば}: changing area\n\nSIMILAR WORDS:\n- ⟦{着替|きが}え→着替える：04603_kigaeru⟧: changing clothes — implies putting on different clothes, not just removing them\n- ⟦{更衣|こうい}→更衣：23085_koui⟧: changing clothes — a more formal synonym, as in ⟦{更衣室|こういしつ}→更衣室：07042_kouishitsu⟧ (changing room)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16045_kigae",
+      "reading": "きがえ",
+      "headword": "{着替|きが}え",
+      "label": "changing clothes"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23085_koui",
+      "reading": "こうい",
+      "headword": "{更衣|こうい}",
+      "label": "changing clothes"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,7 +78,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-07T19:16:05Z",
-    "modified": "2026-04-07T19:16:05Z"
+    "modified": "2026-09-02T04:02:10Z"
   },
   "conjugation": {
     "type": "suru",

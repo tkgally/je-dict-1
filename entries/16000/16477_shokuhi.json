@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "16477_shokuhi_ex1",
-      "japanese": "{食費|しょくひ}を{節約|せつやく}する。",
+      "japanese": "{食費|しょくひ}⟦を→を：00422_wo⟧⟦{節約|せつやく}する→節約する：25226_setsuyakusuru⟧。",
       "english": "To cut food expenses.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16477_shokuhi_ex2",
-      "japanese": "{今月|こんげつ}は{食費|しょくひ}が{高|たか}くなった。",
+      "japanese": "⟦{今月|こんげつ}→今月：00720_kongetsu⟧⟦は→は：00079_ha⟧{食費|しょくひ}⟦が→が：00051_ga⟧⟦{高|たか}く→高い：00500_takai⟧⟦なった→なる：01970_naru⟧。",
       "english": "Food expenses were higher this month.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16477_shokuhi_ex3",
-      "japanese": "{一人暮|ひとりぐ}らしを{始|はじ}めてから、{食費|しょくひ}を{月|つき}{三万円|さんまんえん}に{抑|おさ}えるようにしている。",
+      "japanese": "⟦{一人暮|ひとりぐ}らし→一人暮らし：03142_hitorigurashi⟧⟦を→を：00422_wo⟧⟦{始|はじ}めて→始める：00531_hajimeru⟧⟦から→から：00504_kara⟧、{食費|しょくひ}⟦を→を：00422_wo⟧⟦{月|つき}→月：02230_tsuki⟧{三万円|さんまんえん}⟦に→に：00314_ni⟧⟦{抑|おさ}える→抑える：12806_osaeru⟧ようにして⟦いる→いる：00495_iru⟧。",
       "english": "Since I started living alone, I've been trying to keep my food budget under 30,000 yen a month.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nOne of the most common household expense categories. Often discussed alongside other expense types like {家賃|やちん} (rent), {光熱費|こうねつひ} (utility bills), and {交通費|こうつうひ} (transportation costs).\n\nCOMMON COLLOCATIONS:\n- {食費|しょくひ}を{節約|せつやく}する (to save on food expenses)\n- {食費|しょくひ}を{抑|おさ}える (to keep food costs down)\n- {月|つき}の{食費|しょくひ} (monthly food expenses)\n\nSIMILAR WORDS:\n- {生活費|せいかつひ}: living expenses — the broader category that includes food, housing, and other costs\n- {外食費|がいしょくひ}: dining-out expenses — money spent specifically on eating out",
+  "notes": "USAGE:\nOne of the most common household expense categories. Often discussed alongside other expense types like ⟦{家賃|やちん}→家賃：03639_yachin⟧ (rent), ⟦{光熱費|こうねつひ}→光熱費：08244_kounetsuhi⟧ (utility bills), and ⟦{交通費|こうつうひ}→交通費：03056_koutsuuhi⟧ (transportation costs).\n\nCOMMON COLLOCATIONS:\n- {食費|しょくひ}⟦を→を：00422_wo⟧⟦{節約|せつやく}する→節約する：25226_setsuyakusuru⟧ (to save on food expenses)\n- {食費|しょくひ}⟦を→を：00422_wo⟧⟦{抑|おさ}える→抑える：12806_osaeru⟧ (to keep food costs down)\n- ⟦{月|つき}→月：02230_tsuki⟧⟦の→の：09472_no⟧{食費|しょくひ} (monthly food expenses)\n\nSIMILAR WORDS:\n- ⟦{生活費|せいかつひ}→生活費：19424_seikatsuhi⟧: living expenses — the broader category that includes food, housing, and other costs\n- {外食費|がいしょくひ}: dining-out expenses — money spent specifically on eating out",
   "cross_references": [
     {
       "type": "related",
@@ -46,18 +52,38 @@
       "reading": "せいかつひ",
       "headword": "{生活費|せいかつひ}",
       "label": "living expenses (broader)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25942_shokuryouhi",
+      "reading": "しょくりょうひ",
+      "headword": "{食料費|しょくりょうひ}",
+      "label": "food expenses"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29657_inshokudai",
+      "reading": "いんしょくだい",
+      "headword": "{飲食代|いんしょくだい}",
+      "label": "food and drink bill"
     }
   ],
   "metadata": {
     "created": "2026-03-13T02:06:41Z",
-    "modified": "2026-05-04T04:08:05Z",
+    "modified": "2026-09-02T04:01:45Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["finance", "food", "daily-life"]
+      "semantic": [
+        "finance",
+        "food",
+        "daily-life"
+      ]
     }
   }
 }

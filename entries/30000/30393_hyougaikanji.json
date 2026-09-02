@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30393_hyougaikanji_ex1",
-      "japanese": "これは{表外漢字|ひょうがいかんじ}だ。",
+      "japanese": "⟦これ→これ：00963_kore⟧⟦は→は：00079_ha⟧{表外漢字|ひょうがいかんじ}だ。",
       "english": "This is a kanji outside the standard list.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30393_hyougaikanji_ex2",
-      "japanese": "{新聞|しんぶん}では{表外漢字|ひょうがいかんじ}をひらがなで{書|か}くことが{多|おお}い。",
+      "japanese": "⟦{新聞|しんぶん}→新聞：01440_shinbun⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧{表外漢字|ひょうがいかんじ}⟦を→を：00422_wo⟧ひらがな⟦で→で：00502_de⟧⟦{書|か}く→書く：00477_kaku⟧こと⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "Newspapers often write kanji outside the standard list in hiragana instead.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30393_hyougaikanji_ex3",
-      "japanese": "{人名|じんめい}には{表外漢字|ひょうがいかんじ}も{使|つか}えるので、{読|よ}み{方|かた}が{分|わ}からない{名前|なまえ}も{多|おお}い。",
+      "japanese": "⟦{人名|じんめい}→人名：22206_jinmei⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{表外漢字|ひょうがいかんじ}⟦も→も：00484_mo⟧⟦{使|つか}える→使う：00473_tsukau⟧⟦の→の：09472_no⟧で、⟦{読|よ}み{方|かた}→読み方：14269_yomikata⟧⟦が→が：00051_ga⟧⟦{分|わ}からない→分かる：00463_wakaru⟧⟦{名前|なまえ}→名前：02234_namae⟧⟦も→も：00484_mo⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "Since kanji outside the standard list can be used in personal names, there are many names whose readings are hard to guess.",
       "sense_numbers": [
         1
@@ -44,12 +44,26 @@
       "notes": null
     }
   ],
-  "notes": "The {表|ひょう} refers to the {常用漢字表|じょうようかんじひょう}, the official table of characters for general use, so {表外|ひょうがい} means \"off the table.\"\n\nCOMMON COLLOCATIONS:\n- {表外漢字|ひょうがいかんじ}を{使|つか}う: to use a non-standard kanji\n- {表外漢字|ひょうがいかんじ}にルビをふる: to add furigana to a non-standard kanji\n- {表外|ひょうがい}{読|よ}み: a reading not listed for a standard kanji\n\nSIMILAR WORDS:\n- {常用漢字|じょうようかんじ}: the standard list itself\n- {人名用漢字|じんめいようかんじ}: kanji additionally permitted in personal names\n- {旧字体|きゅうじたい}: pre-1949 character forms — a question of form rather than of list membership",
+  "notes": "The ⟦{表|ひょう}→表：19354_hyou⟧ refers to the {常用漢字表|じょうようかんじひょう}, the official table of characters for general use, so {表外|ひょうがい} means \"off the table.\"\n\nCOMMON COLLOCATIONS:\n- {表外漢字|ひょうがいかんじ}⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧: to use a non-standard kanji\n- {表外漢字|ひょうがいかんじ}⟦に→に：00314_ni⟧⟦ルビ→ルビ：21516_rubi⟧⟦を→を：00422_wo⟧ふる: to add furigana to a non-standard kanji\n- {表外|ひょうがい}⟦{読|よ}み→読み：00425_yomi⟧: a reading not listed for a standard kanji\n\nSIMILAR WORDS:\n- ⟦{常用漢字|じょうようかんじ}→常用漢字：20778_jouyoukanji⟧: the standard list itself\n- ⟦{人名用漢字|じんめいようかんじ}→人名用漢字：30112_jinmeiyoukanji⟧: kanji additionally permitted in personal names\n- ⟦{旧字体|きゅうじたい}→旧字体：27161_kyuujitai⟧: pre-1949 character forms — a question of form rather than of list membership",
   "cross_references": [
     {
       "type": "related",
       "reading": "じょうようかんじ",
       "headword": "{常用漢字|じょうようかんじ}"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30112_jinmeiyoukanji",
+      "reading": "じんめいようかんじ",
+      "headword": "{人名用漢字|じんめいようかんじ}",
+      "label": "kanji additionally permitted…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27161_kyuujitai",
+      "reading": "きゅうじたい",
+      "headword": "{旧字体|きゅうじたい}",
+      "label": "pre-1949 character forms"
     }
   ],
   "schema_version": "2.0",
@@ -67,6 +81,6 @@
       "domain": []
     },
     "created": "2026-08-04T06:26:08Z",
-    "modified": "2026-08-04T06:26:08Z"
+    "modified": "2026-09-02T04:02:40Z"
   }
 }

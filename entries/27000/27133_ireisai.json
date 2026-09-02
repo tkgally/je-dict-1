@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "27133_ireisai_ex1",
-      "japanese": "{毎年|まいとし}{慰霊祭|いれいさい}が{行|おこな}われる。",
+      "japanese": "⟦{毎年|まいとし}→毎年：00731_maitoshi⟧{慰霊祭|いれいさい}⟦が→が：00051_ga⟧⟦{行|おこな}われる→行う：01238_okonau⟧。",
       "english": "A memorial service is held every year.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "27133_ireisai_ex2",
-      "japanese": "{戦没者|せんぼつしゃ}のための{慰霊祭|いれいさい}に{参列|さんれつ}した。",
+      "japanese": "⟦{戦没者|せんぼつしゃ}→戦没者：23238_senbotsusha⟧⟦の→の：09472_no⟧⟦ため→ため：01145_tame⟧⟦の→の：09472_no⟧{慰霊祭|いれいさい}⟦に→に：00314_ni⟧⟦{参列|さんれつ}→参列：11888_sanretsu⟧⟦した→する：00392_suru⟧。",
       "english": "I attended a memorial service for those who died in the war.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "27133_ireisai_ex3",
-      "japanese": "{震災|しんさい}から{十年|じゅうねん}が{経|た}ち、{地元|じもと}で{慰霊祭|いれいさい}が{開|ひら}かれた。",
+      "japanese": "⟦{震災|しんさい}→震災：14610_shinsai⟧⟦から→から：00504_kara⟧{十年|じゅうねん}⟦が→が：00051_ga⟧⟦{経|た}ち→経つ：09892_tatsu⟧、⟦{地元|じもと}→地元：09941_jimoto⟧⟦で→で：00502_de⟧{慰霊祭|いれいさい}⟦が→が：00051_ga⟧⟦{開|ひら}かれた→開く：01979_hiraku⟧。",
       "english": "Ten years after the earthquake disaster, a memorial service was held locally.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {慰霊|いれい} (consoling the spirits of the dead) and {祭|さい} (ceremony/festival). These ceremonies are held for victims of wars, natural disasters, accidents, and other tragedies. They are distinct from personal funeral rites and typically serve a communal or public commemorative function.\n\nCOMMON COLLOCATIONS:\n- {慰霊祭|いれいさい}を{行|おこな}う: to hold a memorial service\n- {慰霊祭|いれいさい}に{参列|さんれつ}する: to attend a memorial service\n- {戦没者|せんぼつしゃ}{慰霊祭|いれいさい}: memorial for war dead\n- {合同|ごうどう}{慰霊祭|いれいさい}: joint memorial service\n\nRELATED WORDS:\n- {慰霊碑|いれいひ}: memorial monument/cenotaph\n- {追悼式|ついとうしき}: memorial ceremony — more secular in nuance\n- {法要|ほうよう}: Buddhist memorial service — specifically Buddhist ritual",
+  "notes": "A compound of ⟦{慰霊|いれい}→慰霊：22918_irei⟧ (consoling the spirits of the dead) and {祭|さい} (ceremony/festival). These ceremonies are held for victims of wars, natural disasters, accidents, and other tragedies. They are distinct from personal funeral rites and typically serve a communal or public commemorative function.\n\nCOMMON COLLOCATIONS:\n- {慰霊祭|いれいさい}⟦を→を：00422_wo⟧⟦{行|おこな}う→行う：01238_okonau⟧: to hold a memorial service\n- {慰霊祭|いれいさい}⟦に→に：00314_ni⟧⟦{参列|さんれつ}→参列：11888_sanretsu⟧⟦する→する：00392_suru⟧: to attend a memorial service\n- ⟦{戦没者|せんぼつしゃ}→戦没者：23238_senbotsusha⟧{慰霊祭|いれいさい}: memorial for war dead\n- ⟦{合同|ごうどう}→合同：04185_goudou⟧{慰霊祭|いれいさい}: joint memorial service\n\nRELATED WORDS:\n- ⟦{慰霊碑|いれいひ}→慰霊碑：25515_ireihi⟧: memorial monument/cenotaph\n- ⟦{追悼式|ついとうしき}→追悼式：24788_tsuitoushiki⟧: memorial ceremony — more secular in nuance\n- ⟦{法要|ほうよう}→法要：05924_houyou⟧: Buddhist memorial service — specifically Buddhist ritual",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "25515_ireihi",
+      "reading": "いれいひ",
+      "headword": "{慰霊碑|いれいひ}",
+      "label": "memorial monument/cenotaph"
+    },
+    {
+      "type": "related",
+      "target_id": "24788_tsuitoushiki",
+      "reading": "ついとうしき",
+      "headword": "{追悼式|ついとうしき}",
+      "label": "memorial ceremony"
+    },
+    {
+      "type": "related",
+      "target_id": "05924_houyou",
+      "reading": "ほうよう",
+      "headword": "{法要|ほうよう}",
+      "label": "Buddhist memorial service"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +83,6 @@
       ]
     },
     "created": "2026-05-07T12:18:28Z",
-    "modified": "2026-05-07T12:18:28Z"
+    "modified": "2026-09-02T04:02:29Z"
   }
 }

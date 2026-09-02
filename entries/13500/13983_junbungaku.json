@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "13983_junbungaku_ex1",
-      "japanese": "{彼女|かのじょ}は{純文学|じゅんぶんがく}の{作家|さっか}だ。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧{純文学|じゅんぶんがく}⟦の→の：09472_no⟧⟦{作家|さっか}→作家：01414_sakka⟧だ。",
       "english": "She is a literary fiction author.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "13983_junbungaku_ex2",
-      "japanese": "{芥川賞|あくたがわしょう}は{純文学|じゅんぶんがく}の{新人|しんじん}に{贈|おく}られる{賞|しょう}だ。",
+      "japanese": "⟦{芥川賞|あくたがわしょう}→芥川賞：15559_akutagawashou⟧⟦は→は：00079_ha⟧{純文学|じゅんぶんがく}⟦の→の：09472_no⟧⟦{新人|しんじん}→新人：02500_shinjin⟧⟦に→に：00314_ni⟧⟦{贈|おく}られる→贈る：09862_okuru⟧⟦{賞|しょう}→賞：03227_shou⟧だ。",
       "english": "The Akutagawa Prize is awarded to newcomers in literary fiction.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "13983_junbungaku_ex3",
-      "japanese": "{最近|さいきん}は{純文学|じゅんぶんがく}と{大衆|たいしゅう}{文学|ぶんがく}の{境界|きょうかい}が{曖昧|あいまい}になってきている。",
+      "japanese": "⟦{最近|さいきん}→最近：00881_saikin⟧⟦は→は：00079_ha⟧{純文学|じゅんぶんがく}⟦と→と：00512_to⟧⟦{大衆|たいしゅう}{文学|ぶんがく}→大衆文学：16512_taishuubungaku⟧⟦の→の：09472_no⟧⟦{境界|きょうかい}→境界：12096_kyoukai⟧⟦が→が：00051_ga⟧⟦{曖昧|あいまい}→曖昧：08051_aimai⟧になってきて⟦いる→いる：00495_iru⟧。",
       "english": "Recently, the boundary between literary fiction and popular fiction has been becoming blurred.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nThe distinction between {純文学|じゅんぶんがく} and {大衆|たいしゅう}{文学|ぶんがく} (popular fiction) is deeply embedded in Japanese literary culture. The two most prestigious literary prizes in Japan reflect this divide: the {芥川賞|あくたがわしょう} (Akutagawa Prize) for {純文学|じゅんぶんがく} and the {直木賞|なおきしょう} (Naoki Prize) for popular fiction.\n\nCOMMON COLLOCATIONS:\n- {純文学|じゅんぶんがく}の{作家|さっか}: literary fiction writer\n- {純文学|じゅんぶんがく}{雑誌|ざっし}: literary magazine\n- {純文学|じゅんぶんがく}{作品|さくひん}: work of literary fiction",
+  "notes": "USAGE:\nThe distinction between {純文学|じゅんぶんがく} and ⟦{大衆|たいしゅう}{文学|ぶんがく}→大衆文学：16512_taishuubungaku⟧ (popular fiction) is deeply embedded in Japanese literary culture. The two most prestigious literary prizes in Japan reflect this divide: the ⟦{芥川賞|あくたがわしょう}→芥川賞：15559_akutagawashou⟧ (Akutagawa Prize) for {純文学|じゅんぶんがく} and the ⟦{直木賞|なおきしょう}→直木賞：15560_naokishou⟧ (Naoki Prize) for popular fiction.\n\nCOMMON COLLOCATIONS:\n- {純文学|じゅんぶんがく}⟦の→の：09472_no⟧⟦{作家|さっか}→作家：01414_sakka⟧: literary fiction writer\n- {純文学|じゅんぶんがく}⟦{雑誌|ざっし}→雑誌：00686_zasshi⟧: literary magazine\n- {純文学|じゅんぶんがく}⟦{作品|さくひん}→作品：02776_sakuhin⟧: work of literary fiction",
   "cross_references": [
     {
       "type": "antonym",
@@ -52,11 +52,25 @@
       "reading": "たいしゅうぶんがく",
       "headword": "{大衆文学|たいしゅうぶんがく}",
       "label": "popular fiction"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26110_gorakushousetsu",
+      "reading": "ごらくしょうせつ",
+      "headword": "{娯楽|ごらく}{小説|しょうせつ}",
+      "label": "entertainment novel"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26651_tsuuzokubungaku",
+      "reading": "つうぞくぶんがく",
+      "headword": "{通俗文学|つうぞくぶんがく}",
+      "label": "popular literature"
     }
   ],
   "metadata": {
     "created": "2026-02-27T08:32:38Z",
-    "modified": "2026-08-28T00:33:10Z",
+    "modified": "2026-09-02T04:01:35Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

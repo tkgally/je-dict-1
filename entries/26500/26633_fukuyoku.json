@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26633_fukuyoku_ex1",
-      "japanese": "{副翼|ふくよく}を{操作|そうさ}して{機体|きたい}を{傾|かたむ}ける。",
+      "japanese": "{副翼|ふくよく}⟦を→を：00422_wo⟧⟦{操作|そうさ}して→操作する：18999_sousasuru⟧⟦{機体|きたい}→機体：17883_kitai⟧⟦を→を：00422_wo⟧⟦{傾|かたむ}ける→傾ける：11516_katamukeru⟧。",
       "english": "Operate the ailerons to tilt the aircraft.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26633_fukuyoku_ex2",
-      "japanese": "{左|ひだり}の{副翼|ふくよく}を{上|あ}げると{機体|きたい}は{左|ひだり}に{傾|かたむ}く。",
+      "japanese": "⟦{左|ひだり}→左：00628_hidari⟧⟦の→の：09472_no⟧{副翼|ふくよく}⟦を→を：00422_wo⟧⟦{上|あ}げる→上げる：02443_ageru⟧⟦と→と：00512_to⟧⟦{機体|きたい}→機体：17883_kitai⟧⟦は→は：00079_ha⟧⟦{左|ひだり}→左：00628_hidari⟧⟦に→に：00314_ni⟧⟦{傾|かたむ}く→傾く：00200_katamuku⟧。",
       "english": "When the left aileron is raised, the aircraft tilts to the left.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26633_fukuyoku_ex3",
-      "japanese": "{事故|じこ}{調査|ちょうさ}の{結果|けっか}、{副翼|ふくよく}の{故障|こしょう}が{墜落|ついらく}の{原因|げんいん}であったことが{判明|はんめい}した。",
+      "japanese": "⟦{事故|じこ}→事故：00851_jiko⟧⟦{調査|ちょうさ}→調査：03489_chousa⟧⟦の→の：09472_no⟧⟦{結果|けっか}→結果：02486_kekka⟧、{副翼|ふくよく}⟦の→の：09472_no⟧⟦{故障|こしょう}→故障：01405_koshou⟧⟦が→が：00051_ga⟧⟦{墜落|ついらく}→墜落：18763_tsuiraku⟧⟦の→の：09472_no⟧⟦{原因|げんいん}→原因：01400_genin⟧であったこと⟦が→が：00051_ga⟧⟦{判明|はんめい}→判明：11785_hanmei⟧⟦した→する：00392_suru⟧。",
       "english": "The accident investigation revealed that a malfunction of the ailerons was the cause of the crash.",
       "sense_numbers": [
         1
@@ -44,13 +44,15 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {副|ふく} (secondary/auxiliary) and {翼|よく} (wing). The Japanese term literally means \"auxiliary wing,\" reflecting that ailerons are movable surfaces attached to the main wing.\n\nCOMMON COLLOCATIONS:\n- {副翼|ふくよく}を{操作|そうさ}する: operate the ailerons\n- {副翼|ふくよく}の{故障|こしょう}: aileron malfunction\n- {左右|さゆう}の{副翼|ふくよく}: left and right ailerons\n\nSIMILAR WORDS:\n- {主翼|しゅよく}: main wing (the primary wings of an aircraft)\n- {尾翼|びよく}: tail wing; empennage (the tail section of an aircraft)\n- {方向舵|ほうこうだ}: rudder (controls yaw, the left-right rotation)\n- {昇降舵|しょうこうだ}: elevator (controls pitch, the nose up/down rotation)\n\nTECHNICAL NOTE:\nAilerons work in pairs: when one goes up, the other goes down. The wing with the lowered aileron generates more lift and rises, while the wing with the raised aileron generates less lift and drops, causing the aircraft to roll.",
+  "notes": "A compound of ⟦{副|ふく}→副〜：03965_fuku⟧ (secondary/auxiliary) and {翼|よく} (wing). The Japanese term literally means \"auxiliary wing,\" reflecting that ailerons are movable surfaces attached to the main wing.\n\nCOMMON COLLOCATIONS:\n- {副翼|ふくよく}⟦を→を：00422_wo⟧⟦{操作|そうさ}する→操作する：18999_sousasuru⟧: operate the ailerons\n- {副翼|ふくよく}⟦の→の：09472_no⟧⟦{故障|こしょう}→故障：01405_koshou⟧: aileron malfunction\n- ⟦{左右|さゆう}→左右：02826_sayuu⟧⟦の→の：09472_no⟧{副翼|ふくよく}: left and right ailerons\n\nSIMILAR WORDS:\n- ⟦{主翼|しゅよく}→主翼：23191_shuyoku⟧: main wing (the primary wings of an aircraft)\n- ⟦{尾翼|びよく}→尾翼：29422_biyoku⟧: tail wing; empennage (the tail section of an aircraft)\n- {方向舵|ほうこうだ}: rudder (controls yaw, the left-right rotation)\n- {昇降舵|しょうこうだ}: elevator (controls pitch, the nose up/down rotation)\n\nTECHNICAL NOTE:\nAilerons work in pairs: when one goes up, the other goes down. The wing with the lowered aileron generates more lift and rises, while the wing with the raised aileron generates less lift and drops, causing the aircraft to roll.",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "transportation",
         "technology"
@@ -58,7 +60,22 @@
     },
     "schema_version": "2.0",
     "created": "2026-05-03T00:00:00Z",
-    "modified": "2026-08-06T00:43:53Z"
+    "modified": "2026-09-02T04:02:27Z"
   },
-  "cross_references": []
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23191_shuyoku",
+      "reading": "しゅよく",
+      "headword": "{主翼|しゅよく}",
+      "label": "main wing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29422_biyoku",
+      "reading": "びよく",
+      "headword": "{尾翼|びよく}",
+      "label": "tail wing"
+    }
+  ]
 }

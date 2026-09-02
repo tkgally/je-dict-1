@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "07163_puresshaa_ex1",
-      "japanese": "{試験|しけん}{前|まえ}でプレッシャーを{感|かん}じている。",
+      "japanese": "⟦{試験|しけん}→試験：01422_shiken⟧⟦{前|まえ}→前：02255_mae⟧⟦で→で：00502_de⟧プレッシャー⟦を→を：00422_wo⟧⟦{感|かん}じている→感じる：02044_kanjiru⟧。",
       "english": "I'm feeling pressure before the exam.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "07163_puresshaa_ex2",
-      "japanese": "プレッシャーに{強|つよ}い{人|ひと}が{羨|うらや}ましい。",
+      "japanese": "プレッシャー⟦に→に：00314_ni⟧⟦{強|つよ}い→強い：00820_tsuyoi⟧⟦{人|ひと}→人：00476_hito⟧⟦が→が：00051_ga⟧⟦{羨|うらや}ましい→羨ましい：02336_urayamashii⟧。",
       "english": "I envy people who are good under pressure.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "07163_puresshaa_ex3",
-      "japanese": "{上司|じょうし}からのプレッシャーで{体調|たいちょう}を{崩|くず}した。",
+      "japanese": "⟦{上司|じょうし}→上司：03286_joushi⟧⟦から→から：00504_kara⟧⟦の→の：09472_no⟧プレッシャー⟦で→で：00502_de⟧⟦{体調|たいちょう}→体調：04644_taichou⟧⟦を→を：00422_wo⟧⟦{崩|くず}した→崩す：03919_kuzusu⟧。",
       "english": "I got sick from the pressure from my boss.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "ORIGIN:\nFrom English 'pressure'.\n\nCOLLOCATIONS:\n・プレッシャーを{感|かん}じる - to feel pressure\n・プレッシャーをかける - to put pressure on\n・プレッシャーに{負|ま}ける - to succumb to pressure\n・プレッシャーに{強|つよ}い - good under pressure\n・プレッシャーに{弱|よわ}い - weak under pressure\n・プレッシャーから{解放|かいほう}される - to be freed from pressure\n\nSIMILAR WORDS:\n・ストレス - stress (often more general)\n・{重圧|じゅうあつ} - heavy pressure (more formal)\n・{圧力|あつりょく} - pressure (physical or social, formal)",
+  "notes": "ETYMOLOGY:\nFrom English 'pressure'.\n\nCOMMON COLLOCATIONS:\n- プレッシャー⟦を→を：00422_wo⟧⟦{感|かん}じる→感じる：02044_kanjiru⟧ - to feel pressure\n- プレッシャー⟦を→を：00422_wo⟧⟦かける→かける：00854_kakeru⟧ - to put pressure on\n- プレッシャー⟦に→に：00314_ni⟧⟦{負|ま}ける→負ける：01134_makeru⟧ - to succumb to pressure\n- プレッシャー⟦に→に：00314_ni⟧⟦{強|つよ}い→強い：00820_tsuyoi⟧ - good under pressure\n- プレッシャー⟦に→に：00314_ni⟧⟦{弱|よわ}い→弱い：00825_yowai⟧ - weak under pressure\n- プレッシャー⟦から→から：00504_kara⟧⟦{解放|かいほう}される→解放する：22170_kaihousuru⟧ - to be freed from pressure\n\nSIMILAR WORDS:\n- ⟦ストレス→ストレス：03827_sutoresu⟧ - stress (often more general)\n- {重圧|じゅうあつ} - heavy pressure (more formal)\n- ⟦{圧力|あつりょく}→圧力：12014_atsuryoku⟧ - pressure (physical or social, formal)",
   "cross_references": [
     {
       "type": "related",
@@ -58,11 +58,18 @@
       "reading": "あつりょく",
       "headword": "{圧力|あつりょく}",
       "label": "pressure (formal)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20207_kinchoukan",
+      "reading": "きんちょうかん",
+      "headword": "{緊張感|きんちょうかん}",
+      "label": "sense of tension"
     }
   ],
   "metadata": {
     "created": "2026-01-19T03:00:19Z",
-    "modified": "2026-04-19T04:14:33Z",
+    "modified": "2026-09-02T04:01:10Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

@@ -3,7 +3,7 @@
   "id": "17457_demuku",
   "headword": "{出向|でむ}く",
   "reading": "でむく",
-  "part_of_speech": "verb-godan",
+  "part_of_speech": "verb (godan)",
   "gloss": "to go (to a place); to head for; to visit in person",
   "conjugation": {
     "type": "godan",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "17457_demuku_ex1",
-      "japanese": "{現場|げんば}に{出向|でむ}いた。",
+      "japanese": "⟦{現場|げんば}→現場：02723_genba⟧⟦に→に：00314_ni⟧{出向|でむ}いた。",
       "english": "I went to the site in person.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "17457_demuku_ex2",
-      "japanese": "わざわざ{本社|ほんしゃ}まで{出向|でむ}いて{説明|せつめい}した。",
+      "japanese": "⟦わざわざ→わざわざ：06073_wazawaza⟧⟦{本社|ほんしゃ}→本社：09565_honsha⟧⟦まで→まで：00490_made⟧{出向|でむ}いて⟦{説明|せつめい}した→説明する：05639_setsumeisuru⟧。",
       "english": "I went all the way to the head office to explain.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "17457_demuku_ex3",
-      "japanese": "{問題|もんだい}が{解決|かいけつ}しないので、{自分|じぶん}から{相手|あいて}の{会社|かいしゃ}に{出向|でむ}いて{直接|ちょくせつ}{話|はな}し{合|あ}うことにした。",
+      "japanese": "⟦{問題|もんだい}→問題：00797_mondai⟧⟦が→が：00051_ga⟧⟦{解決|かいけつ}しない→解決する：17191_kaiketsusuru⟧⟦の→の：09472_no⟧で、⟦{自分|じぶん}→自分：02887_jibun⟧⟦から→から：00504_kara⟧⟦{相手|あいて}→相手：01677_aite⟧⟦の→の：09472_no⟧⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦に→に：00314_ni⟧{出向|でむ}いて⟦{直接|ちょくせつ}→直接：03499_chokusetsu⟧⟦{話|はな}し{合|あ}う→話し合う：02396_hanashiau⟧ことにした。",
       "english": "Since the problem wasn't getting resolved, I decided to go to the other company myself and discuss it directly.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,33 @@
       ]
     }
   ],
-  "notes": "USAGE:\nImplies purpose and effort — you don't just happen to go somewhere, you actively make the trip. Often used in business and formal contexts.\n\nCOMMON COLLOCATIONS:\n- {現場|げんば}に{出向|でむ}く (to go to the site)\n- わざわざ{出向|でむ}く (to take the trouble to go)\n- {自|みずか}ら{出向|でむ}く (to go oneself / in person)\n\nSIMILAR WORDS:\n- {行|い}く: to go — neutral, general purpose\n- {赴|おもむ}く: to proceed to — literary, formal; similar meaning but used in written language\n- {足|あし}を{運|はこ}ぶ: to make a trip to — polite expression implying effort",
-  "cross_references": [],
+  "notes": "USAGE:\nImplies purpose and effort — you don't just happen to go somewhere, you actively make the trip. Often used in business and formal contexts.\n\nCOMMON COLLOCATIONS:\n- ⟦{現場|げんば}→現場：02723_genba⟧⟦に→に：00314_ni⟧{出向|でむ}く (to go to the site)\n- ⟦わざわざ→わざわざ：06073_wazawaza⟧{出向|でむ}く (to take the trouble to go)\n- ⟦{自|みずか}ら→自ら：00287_mizukara⟧{出向|でむ}く (to go oneself / in person)\n\nSIMILAR WORDS:\n- ⟦{行|い}く→行く：00119_iku⟧: to go — neutral, general purpose\n- ⟦{赴|おもむ}く→赴く：14261_omomuku⟧: to proceed to — literary, formal; similar meaning but used in written language\n- ⟦{足|あし}を{運|はこ}ぶ→足を運ぶ：06898_ashiwohakobu⟧: to make a trip to — polite expression implying effort",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00119_iku",
+      "reading": "いく",
+      "headword": "{行|い}く",
+      "label": "to go"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14261_omomuku",
+      "reading": "おもむく",
+      "headword": "{赴|おもむ}く",
+      "label": "to proceed to"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06898_ashiwohakobu",
+      "reading": "あしをはこぶ",
+      "headword": "{足|あし}を{運|はこ}ぶ",
+      "label": "to make a trip to"
+    }
+  ],
   "metadata": {
     "created": "2026-03-18T02:04:05Z",
-    "modified": "2026-07-20T18:18:50Z",
+    "modified": "2026-09-02T04:01:48Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

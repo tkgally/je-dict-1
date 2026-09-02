@@ -3,7 +3,7 @@
   "headword": "{困|こま}らせる",
   "reading": "こまらせる",
   "romaji": "komaraseru",
-  "part_of_speech": "verb",
+  "part_of_speech": "verb (ichidan)",
   "gloss": "to cause trouble for; to embarrass; to put in a difficult position",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25512_komaraseru_ex1",
-      "japanese": "{人|ひと}を{困|こま}らせてはいけない。",
+      "japanese": "⟦{人|ひと}→人：00476_hito⟧⟦を→を：00422_wo⟧{困|こま}らせて⟦は→は：00079_ha⟧いけない。",
       "english": "You shouldn't cause trouble for others.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25512_komaraseru_ex2",
-      "japanese": "{子|こ}どもが{先生|せんせい}を{困|こま}らせた。",
+      "japanese": "{子|こ}ども⟦が→が：00051_ga⟧⟦{先生|せんせい}→先生：00609_sensei⟧⟦を→を：00422_wo⟧{困|こま}らせた。",
       "english": "The child gave the teacher a hard time.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25512_komaraseru_ex3",
-      "japanese": "そんな{難|むずか}しい{質問|しつもん}をされたら{困|こま}らせることになるよ。",
+      "japanese": "⟦そんな→そんな：01645_sonna⟧⟦{難|むずか}しい→難しい：00517_muzukashii⟧⟦{質問|しつもん}→質問：00888_shitsumon⟧⟦を→を：00422_wo⟧⟦されたら→する：00392_suru⟧{困|こま}らせること⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦よ→よ：09475_yo⟧。",
       "english": "Asking such a difficult question will put them in an awkward position.",
       "sense_numbers": [
         1
@@ -45,7 +45,7 @@
     },
     {
       "id": "25512_komaraseru_ex4",
-      "japanese": "{親|おや}を{困|こま}らせるようなことはしないでほしい。",
+      "japanese": "⟦{親|おや}→親：01357_oya⟧⟦を→を：00422_wo⟧{困|こま}らせるようなことはしないでほしい。",
       "english": "I don't want you to do things that trouble your parents.",
       "sense_numbers": [
         1
@@ -54,8 +54,16 @@
       "notes": null
     }
   ],
-  "notes": "Causative form of {困|こま}る (to be troubled; to be at a loss). While {困|こま}る describes the state of being troubled, {困|こま}らせる assigns agency — someone is actively causing the trouble. Very common in parenting, teaching, and relationship contexts.\n\nCOMMON COLLOCATIONS:\n- {人|ひと}を{困|こま}らせる: to trouble someone\n- {親|おや}を{困|こま}らせる: to trouble one's parents\n- {先生|せんせい}を{困|こま}らせる: to give the teacher a hard time\n- {困|こま}らせるつもりはない: I don't intend to cause trouble\n\nSIMILAR WORDS:\n- {迷惑|めいわく}をかける: to cause inconvenience — focuses on the burden placed on others; more formal\n- {悩|なや}ませる: to worry; to distress — implies deeper emotional distress rather than practical trouble\n- {手|て}を{焼|や}かせる: to give someone a hard time — implies ongoing difficulty, often with a child or subordinate",
-  "cross_references": [],
+  "notes": "Causative form of ⟦{困|こま}る→困る：00861_komaru⟧ (to be troubled; to be at a loss). While ⟦{困|こま}る→困る：00861_komaru⟧ describes the state of being troubled, {困|こま}らせる assigns agency — someone is actively causing the trouble. Very common in parenting, teaching, and relationship contexts.\n\nCOMMON COLLOCATIONS:\n- ⟦{人|ひと}→人：00476_hito⟧⟦を→を：00422_wo⟧{困|こま}らせる: to trouble someone\n- ⟦{親|おや}→親：01357_oya⟧⟦を→を：00422_wo⟧{困|こま}らせる: to trouble one's parents\n- ⟦{先生|せんせい}→先生：00609_sensei⟧⟦を→を：00422_wo⟧{困|こま}らせる: to give the teacher a hard time\n- {困|こま}らせる⟦つもり→つもり：01152_tsumori⟧⟦は→は：00079_ha⟧⟦ない→ない：01118_nai⟧: I don't intend to cause trouble\n\nSIMILAR WORDS:\n- ⟦{迷惑|めいわく}→迷惑：02432_meiwaku⟧⟦を→を：00422_wo⟧⟦かける→かける：00854_kakeru⟧: to cause inconvenience — focuses on the burden placed on others; more formal\n- ⟦{悩|なや}ませる→悩む：02380_nayamu⟧: to worry; to distress — implies deeper emotional distress rather than practical trouble\n- ⟦{手|て}→手：00569_te⟧⟦を→を：00422_wo⟧⟦{焼|や}かせる→焼く：01123_yaku⟧: to give someone a hard time — implies ongoing difficulty, often with a child or subordinate",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19801_nayamaseru",
+      "reading": "なやませる",
+      "headword": "{悩|なや}ませる",
+      "label": "to worry"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -63,14 +71,16 @@
       "pos": [
         "verb-ichidan"
       ],
+      "politeness": "plain",
       "semantic": [
         "emotion",
         "society"
       ],
-      "verb_class": "ichidan"
+      "verb_class": "ichidan",
+      "transitivity": "transitive"
     },
     "created": "2026-04-25T15:17:18Z",
-    "modified": "2026-08-04T12:59:53Z"
+    "modified": "2026-09-02T04:02:22Z"
   },
   "conjugation": {
     "type": "ichidan",

@@ -3,7 +3,7 @@
   "headword": "{降|ふ}り{続|つづ}く",
   "reading": "ふりつづく",
   "romaji": "furitsuzuku",
-  "part_of_speech": "verb-godan",
+  "part_of_speech": "verb (godan)",
   "gloss": "to keep falling (rain, snow); to continue to fall",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21878_furitsuzuku_ex1",
-      "japanese": "{雨|あめ}が{三日間|みっかかん}{降|ふ}り{続|つづ}いた。",
+      "japanese": "⟦{雨|あめ}→雨：00583_ame⟧⟦が→が：00051_ga⟧{三日間|みっかかん}{降|ふ}り{続|つづ}いた。",
       "english": "It rained continuously for three days.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21878_furitsuzuku_ex2",
-      "japanese": "{雪|ゆき}が{朝|あさ}から{降|ふ}り{続|つづ}いている。",
+      "japanese": "⟦{雪|ゆき}→雪：00584_yuki⟧⟦が→が：00051_ga⟧⟦{朝|あさ}→朝：02277_asa⟧⟦から→から：00504_kara⟧{降|ふ}り{続|つづ}いて⟦いる→いる：00495_iru⟧。",
       "english": "It has been snowing since morning.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21878_furitsuzuku_ex3",
-      "japanese": "{梅雨|つゆ}の{時期|じき}は{雨|あめ}が{何日|なんにち}も{降|ふ}り{続|つづ}くので、{洗濯物|せんたくもの}が{乾|かわ}かない。",
+      "japanese": "⟦{梅雨|つゆ}→梅雨：02232_tsuyu⟧⟦の→の：09472_no⟧⟦{時期|じき}→時期：03269_jiki⟧⟦は→は：00079_ha⟧⟦{雨|あめ}→雨：00583_ame⟧⟦が→が：00051_ga⟧⟦{何日|なんにち}→何日：23870_nannichi⟧⟦も→も：00484_mo⟧{降|ふ}り{続|つづ}く⟦の→の：09472_no⟧で、⟦{洗濯物|せんたくもの}→洗濯物：09533_sentakumono⟧⟦が→が：00051_ga⟧⟦{乾|かわ}かない→乾く：00786_kawaku⟧。",
       "english": "During the rainy season, it rains for days on end, so the laundry won't dry.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "A compound verb formed from {降|ふ}る (to fall — precipitation) + {続|つづ}く (to continue). Used exclusively for precipitation — rain, snow, hail, etc. — falling without interruption.\n\nCOMMON COLLOCATIONS:\n- {雨|あめ}が{降|ふ}り{続|つづ}く: rain continues to fall\n- {雪|ゆき}が{降|ふ}り{続|つづ}く: snow continues to fall\n- {何日|なんにち}も{降|ふ}り{続|つづ}く: to keep falling for days\n\nGRAMMAR:\nConjugates as a godan verb (く row): {降|ふ}り{続|つづ}かない、{降|ふ}り{続|つづ}いて、etc. The transitive counterpart {降|ふ}り{続|つづ}ける (to keep letting fall) is not normally used, as precipitation is not a volitional action.\n\nSIMILAR WORDS:\n- {降|ふ}り{止|や}まない: to not stop falling — emphasizes the lack of cessation\n- {降|ふ}り{注|そそ}ぐ: to pour down — emphasizes intensity rather than duration",
+  "notes": "A compound verb formed from ⟦{降|ふ}る→降る：00839_furu⟧ (to fall — precipitation) + ⟦{続|つづ}く→続く：00903_tsuzuku⟧ (to continue). Used exclusively for precipitation — rain, snow, hail, etc. — falling without interruption.\n\nCOMMON COLLOCATIONS:\n- ⟦{雨|あめ}→雨：00583_ame⟧⟦が→が：00051_ga⟧{降|ふ}り{続|つづ}く: rain continues to fall\n- ⟦{雪|ゆき}→雪：00584_yuki⟧⟦が→が：00051_ga⟧{降|ふ}り{続|つづ}く: snow continues to fall\n- ⟦{何日|なんにち}→何日：23870_nannichi⟧⟦も→も：00484_mo⟧{降|ふ}り{続|つづ}く: to keep falling for days\n\nCOMMON PATTERNS:\nConjugates as a godan verb (く row): {降|ふ}り{続|つづ}かない、{降|ふ}り{続|つづ}いて、etc. The transitive counterpart ⟦{降|ふ}り→降る：00839_furu⟧⟦{続|つづ}ける→続く：00903_tsuzuku⟧ (to keep letting fall) is not normally used, as precipitation is not a volitional action.\n\nSIMILAR WORDS:\n- ⟦{降|ふ}り{止|や}まない→降り止む：27987_furiyamu⟧: to not stop falling — emphasizes the lack of cessation\n- ⟦{降|ふ}り{注|そそ}ぐ→降り注ぐ：07976_furisosogu⟧: to pour down — emphasizes intensity rather than duration",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07976_furisosogu",
+      "reading": "ふりそそぐ",
+      "headword": "{降|ふ}り{注|そそ}ぐ",
+      "label": "to pour down"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -58,10 +67,11 @@
         "weather",
         "nature"
       ],
-      "verb_class": "godan-ku"
+      "verb_class": "godan-ku",
+      "transitivity": "intransitive"
     },
     "created": "2026-04-03T20:23:33Z",
-    "modified": "2026-04-03T20:23:33Z"
+    "modified": "2026-09-02T04:02:05Z"
   },
   "conjugation": {
     "type": "godan",

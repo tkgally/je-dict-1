@@ -15,41 +15,60 @@
   "examples": [
     {
       "id": "17863_horafuki_ex1",
-      "japanese": "あいつはほら{吹|ふ}きだ。",
+      "japanese": "⟦あいつ→あいつ：08267_aitsu⟧⟦は→は：00079_ha⟧ほら{吹|ふ}きだ。",
       "english": "That guy is a braggart.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17863_horafuki_ex2",
-      "japanese": "{彼|かれ}の{話|はなし}は{面白|おもしろ}いけど、ほら{吹|ふ}きだから{信|しん}じない{方|ほう}がいい。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧⟦{話|はなし}→話：01496_hanashi⟧⟦は→は：00079_ha⟧⟦{面白|おもしろ}い→面白い：00589_omoshiroi⟧⟦けど→けど：09477_kedo⟧、ほら{吹|ふ}きだ⟦から→から：00504_kara⟧⟦{信|しん}じない→信じる：01111_shinjiru⟧⟦{方|ほう}→方：01139_hou⟧⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧。",
       "english": "His stories are interesting, but he's a teller of tall tales so you'd better not believe them.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17863_horafuki_ex3",
-      "japanese": "{子|こ}どもの{頃|ころ}、「ほら{吹|ふ}き{男爵|だんしゃく}」という{物語|ものがたり}が{大好|だいす}きだった。",
+      "japanese": "{子|こ}ども⟦の→の：09472_no⟧{頃|ころ}、「ほら{吹|ふ}き⟦{男爵|だんしゃく}→男爵：13585_danshaku⟧」⟦という→という：09577_toiu⟧⟦{物語|ものがたり}→物語：03634_monogatari⟧⟦が→が：00051_ga⟧⟦{大好|だいす}き→大好き：02911_daisuki⟧だった。",
       "english": "When I was a child, I loved the story of Baron Munchausen.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nDerived from ほらを{吹|ふ}く (to blow a conch shell horn → to boast/brag). The word ほら originally referred to the conch shell ({法螺|ほら}) blown by mountain monks. The image of making a big loud noise evolved into meaning exaggeration and boasting.\n\nCOMMON COLLOCATIONS:\n- ほらを{吹|ふ}く (to boast, to tell tall tales)\n- ほら{吹|ふ}き{男爵|だんしゃく} (Baron Munchausen)\n- {大|おお}ほら{吹|ふ}き (a great braggart)",
-  "cross_references": [],
+  "notes": "USAGE:\nDerived from ⟦ほら→ほら：06912_hora⟧⟦を→を：00422_wo⟧⟦{吹|ふ}く→吹く：02445_fuku⟧ (to blow a conch shell horn → to boast/brag). The word ⟦ほら→ほら：06912_hora⟧ originally referred to the conch shell ({法螺|ほら}) blown by mountain monks. The image of making a big loud noise evolved into meaning exaggeration and boasting.\n\nCOMMON COLLOCATIONS:\n- ⟦ほら→ほら：06912_hora⟧⟦を→を：00422_wo⟧⟦{吹|ふ}く→吹く：02445_fuku⟧ (to boast, to tell tall tales)\n- ほら{吹|ふ}き⟦{男爵|だんしゃく}→男爵：13585_danshaku⟧ (Baron Munchausen)\n- {大|おお}ほら{吹|ふ}き (a great braggart)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21519_oobora",
+      "reading": "おおぼら",
+      "headword": "{大|おお}ぼら",
+      "label": "tall tale"
+    }
+  ],
   "metadata": {
     "created": "2026-03-19T06:58:32Z",
-    "modified": "2026-03-19T06:58:32Z",
+    "modified": "2026-09-02T04:01:50Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "informal",
       "politeness": "plain",
-      "semantic": ["personality", "communication"]
+      "semantic": [
+        "personality",
+        "communication"
+      ]
     }
   }
 }

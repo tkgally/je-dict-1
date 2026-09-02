@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "12872_haiboku_ex1",
-      "japanese": "{選挙|せんきょ}で{敗北|はいぼく}した。",
+      "japanese": "⟦{選挙|せんきょ}→選挙：03303_senkyo⟧⟦で→で：00502_de⟧{敗北|はいぼく}⟦した→する：00392_suru⟧。",
       "english": "He was defeated in the election.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "12872_haiboku_ex2",
-      "japanese": "{敗北|はいぼく}を{認|みと}めるのは{簡単|かんたん}ではない。",
+      "japanese": "{敗北|はいぼく}⟦を→を：00422_wo⟧⟦{認|みと}める→認める：02429_mitomeru⟧⟦の→の：09472_no⟧⟦は→は：00079_ha⟧⟦{簡単|かんたん}→簡単：00713_kantan⟧で⟦は→は：00079_ha⟧⟦ない→ない：01118_nai⟧。",
       "english": "Accepting defeat is not easy.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "12872_haiboku_ex3",
-      "japanese": "チームは{三連|さんれん}{敗北|はいぼく}を{喫|きっ}し、{監督|かんとく}の{辞任|じにん}が{取|と}り{沙汰|ざた}されている。",
+      "japanese": "⟦チーム→チーム：03858_chiimu⟧⟦は→は：00079_ha⟧{三連|さんれん}{敗北|はいぼく}⟦を→を：00422_wo⟧⟦{喫|きっ}し→喫する：29124_kissuru⟧、⟦{監督|かんとく}→監督：00185_kantoku⟧⟦の→の：09472_no⟧⟦{辞任|じにん}→辞任：10144_jinin⟧⟦が→が：00051_ga⟧⟦{取|と}り→取る：00565_toru⟧{沙汰|ざた}⟦されている→する：00392_suru⟧。",
       "english": "The team suffered three consecutive defeats, and the coach's resignation is being discussed.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA formal, weighty word for defeat. More serious in tone than {負|ま}け (loss, casual). Used in sports, politics, military, and business contexts. The verb form {敗北|はいぼく}する means \"to be defeated.\"\n\nCOMMON COLLOCATIONS:\n- {敗北|はいぼく}を{喫|きっ}する: to suffer a defeat\n- {敗北|はいぼく}を{認|みと}める: to concede defeat\n- {敗北|はいぼく}{感|かん}: sense of defeat\n- {大|だい}{敗北|はいぼく}: crushing defeat\n\nSIMILAR WORDS:\n- {負|ま}け: loss, defeat (casual, everyday)\n- {敗戦|はいせん}: defeat in war/a game (more specific to war or sports matches)\n- {惨敗|ざんぱい}: crushing defeat, devastating loss",
+  "notes": "USAGE:\nA formal, weighty word for defeat. More serious in tone than ⟦{負|ま}け→負け：02569_make⟧ (loss, casual). Used in sports, politics, military, and business contexts. The verb form {敗北|はいぼく}⟦する→する：00392_suru⟧ means \"to be defeated.\"\n\nCOMMON COLLOCATIONS:\n- {敗北|はいぼく}⟦を→を：00422_wo⟧⟦{喫|きっ}する→喫する：29124_kissuru⟧: to suffer a defeat\n- {敗北|はいぼく}⟦を→を：00422_wo⟧⟦{認|みと}める→認める：02429_mitomeru⟧: to concede defeat\n- {敗北|はいぼく}{感|かん}: sense of defeat\n- {大|だい}{敗北|はいぼく}: crushing defeat\n\nSIMILAR WORDS:\n- ⟦{負|ま}け→負け：02569_make⟧: loss, defeat (casual, everyday)\n- ⟦{敗戦|はいせん}→敗戦：12917_haisen⟧: defeat in war/a game (more specific to war or sports matches)\n- ⟦{惨敗|ざんぱい}→惨敗：08236_zanpai⟧: crushing defeat, devastating loss",
   "cross_references": [
     {
       "type": "antonym",
@@ -149,11 +149,53 @@
       "headword": "{敗退|はいたい}",
       "label": "elimination, defeat and exit",
       "type": "related"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02569_make",
+      "reading": "まけ",
+      "headword": "{負|ま}け",
+      "label": "loss, defeat"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12917_haisen",
+      "reading": "はいせん",
+      "headword": "{敗戦|はいせん}",
+      "label": "defeat in war/a game"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08236_zanpai",
+      "reading": "ざんぱい",
+      "headword": "{惨敗|ざんぱい}",
+      "label": "crushing defeat, devastating loss"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03770_koufuku",
+      "reading": "こうふく",
+      "headword": "{降伏|こうふく}",
+      "label": "surrender, capitulation"
+    },
+    {
+      "type": "related",
+      "target_id": "08201_taihai",
+      "reading": "たいはい",
+      "headword": "{大敗|たいはい}",
+      "label": "crushing defeat"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19294_kuroboshi",
+      "reading": "くろぼし",
+      "headword": "{黒星|くろぼし}",
+      "label": "loss"
     }
   ],
   "metadata": {
     "created": "2026-02-22T12:42:53Z",
-    "modified": "2026-08-08T15:28:02Z",
+    "modified": "2026-09-02T04:01:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

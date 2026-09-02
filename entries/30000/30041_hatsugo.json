@@ -3,7 +3,7 @@
   "headword": "発語",
   "reading": "はつご",
   "romaji": "hatsugo",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "utterance; articulation; speaking",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30041_hatsugo_ex1",
-      "japanese": "{発語|はつご}が{難|むずか}しい。",
+      "japanese": "{発語|はつご}⟦が→が：00051_ga⟧⟦{難|むずか}しい→難しい：00517_muzukashii⟧。",
       "english": "Speaking is difficult.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30041_hatsugo_ex2",
-      "japanese": "{子|こ}どもが{初|はじ}めて{発語|はつご}した。",
+      "japanese": "{子|こ}ども⟦が→が：00051_ga⟧⟦{初|はじ}めて→初めて：02932_hajimete⟧{発語|はつご}⟦した→する：00392_suru⟧。",
       "english": "The child spoke its first words.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30041_hatsugo_ex3",
-      "japanese": "{事故|じこ}のあと、うまく{発語|はつご}できなくなった。",
+      "japanese": "⟦{事故|じこ}→事故：00851_jiko⟧⟦の→の：09472_no⟧あと、⟦うまく→うまい：01279_umai⟧{発語|はつご}⟦できなく→できる：00557_dekiru⟧⟦なった→なる：01970_naru⟧。",
       "english": "After the accident, he became unable to articulate well.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Formed from {発|はつ} (to emit) + {語|ご} (word). A somewhat technical term, common in {言語|げんご}{発達|はったつ} (language development) and speech therapy.\n\nCOMMON COLLOCATIONS:\n- {発語|はつご}{障害|しょうがい}: speech impairment\n- {初|はじ}めての{発語|はつご}: first words\n\nSIMILAR WORDS:\n- {発話|はつわ}: utterance — the more standard linguistics term\n- {発音|はつおん}: pronunciation — focuses on the sounds, not the act of speaking",
+  "notes": "Formed from ⟦{発|はつ}→〜発：04026_hatsu⟧ (to emit) + ⟦{語|ご}→〜語：09841_go⟧ (word). A somewhat technical term, common in ⟦{言語|げんご}→言語：02717_gengo⟧⟦{発達|はったつ}→発達：03559_hattatsu⟧ (language development) and speech therapy.\n\nCOMMON COLLOCATIONS:\n- {発語|はつご}⟦{障害|しょうがい}→障害：03228_shougai⟧: speech impairment\n- ⟦{初|はじ}めて→初めて：02932_hajimete⟧⟦の→の：09472_no⟧{発語|はつご}: first words\n\nSIMILAR WORDS:\n- ⟦{発話|はつわ}→発話：27124_hatsuwa⟧: utterance — the more standard linguistics term\n- ⟦{発音|はつおん}→発音：01698_hatsuon⟧: pronunciation — focuses on the sounds, not the act of speaking",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "27124_hatsuwa",
+      "reading": "はつわ",
+      "headword": "{発話|はつわ}",
+      "label": "utterance"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01698_hatsuon",
+      "reading": "はつおん",
+      "headword": "{発音|はつおん}",
+      "label": "pronunciation"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -54,7 +70,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "communication"
       ],
@@ -62,7 +78,7 @@
       "verb_class": "suru"
     },
     "created": "2026-07-22T12:20:02Z",
-    "modified": "2026-07-22T12:20:02Z"
+    "modified": "2026-09-02T04:02:38Z"
   },
   "conjugation": {
     "type": "suru",

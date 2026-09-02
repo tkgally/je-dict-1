@@ -15,41 +15,68 @@
   "examples": [
     {
       "id": "28413_hougaku_ex1",
-      "japanese": "{大学|だいがく}で{法学|ほうがく}を{学|まな}ぶ。",
+      "japanese": "⟦{大学|だいがく}→大学：00608_daigaku⟧⟦で→で：00502_de⟧{法学|ほうがく}⟦を→を：00422_wo⟧⟦{学|まな}ぶ→学ぶ：01987_manabu⟧。",
       "english": "Study law at university.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28413_hougaku_ex2",
-      "japanese": "{法学|ほうがく}の{授業|じゅぎょう}は{難|むずか}しい。",
+      "japanese": "{法学|ほうがく}⟦の→の：09472_no⟧⟦{授業|じゅぎょう}→授業：00781_jugyou⟧⟦は→は：00079_ha⟧⟦{難|むずか}しい→難しい：00517_muzukashii⟧。",
       "english": "The law class is difficult.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28413_hougaku_ex3",
-      "japanese": "{法学|ほうがく}を{専門|せんもん}にしている{学生|がくせい}は、{将来|しょうらい}{弁護士|べんごし}を{目指|めざ}している。",
+      "japanese": "{法学|ほうがく}⟦を→を：00422_wo⟧⟦{専門|せんもん}→専門：01251_senmon⟧にして⟦いる→いる：00495_iru⟧⟦{学生|がくせい}→学生：00610_gakusei⟧⟦は→は：00079_ha⟧、⟦{将来|しょうらい}→将来：01438_shourai⟧⟦{弁護士|べんごし}→弁護士：03150_bengoshi⟧⟦を→を：00422_wo⟧⟦{目指|めざ}している→目指す：10528_mezasu⟧。",
       "english": "Students who specialize in law aim to become lawyers in the future.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Compound of {法|ほう} (law) + {学|がく} (study, -ology). Refers to the academic field, not the body of laws themselves.\n\nCOMMON COLLOCATIONS:\n- {法学|ほうがく}{部|ぶ}: faculty of law\n- {法学|ほうがく}{者|しゃ}: legal scholar\n- {法学|ほうがく}{概論|がいろん}: introduction to law\n- {法学|ほうがく}を{学|まな}ぶ: study law\n- {法学|ほうがく}を{専攻|せんこう}する: major in law\n\nSIMILAR WORDS:\n- {法律|ほうりつ}: law — refers to the actual body of laws, not the study of them\n- {法律学|ほうりつがく}: jurisprudence — close synonym of {法学|ほうがく}; somewhat more formal\n- {法|ほう}: law — broadest term; covers both statutes and principles",
+  "notes": "Compound of ⟦{法|ほう}→法：13620_hou⟧ (law) + ⟦{学|がく}→〜学：09846_gaku⟧ (study, -ology). Refers to the academic field, not the body of laws themselves.\n\nCOMMON COLLOCATIONS:\n- {法学|ほうがく}{部|ぶ}: faculty of law\n- {法学|ほうがく}{者|しゃ}: legal scholar\n- {法学|ほうがく}⟦{概論|がいろん}→概論：04126_gairon⟧: introduction to law\n- {法学|ほうがく}⟦を→を：00422_wo⟧⟦{学|まな}ぶ→学ぶ：01987_manabu⟧: study law\n- {法学|ほうがく}⟦を→を：00422_wo⟧⟦{専攻|せんこう}→専攻：01587_senkou⟧⟦する→する：00392_suru⟧: major in law\n\nSIMILAR WORDS:\n- ⟦{法律|ほうりつ}→法律：01722_houritsu⟧: law — refers to the actual body of laws, not the study of them\n- {法律学|ほうりつがく}: jurisprudence — close synonym of {法学|ほうがく}; somewhat more formal\n- ⟦{法|ほう}→法：13620_hou⟧: law — broadest term; covers both statutes and principles",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01722_houritsu",
+      "reading": "ほうりつ",
+      "headword": "{法律|ほうりつ}",
+      "label": "law"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25460_hanzaigaku",
+      "reading": "はんざいがく",
+      "headword": "{犯罪学|はんざいがく}",
+      "label": "criminology"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["education", "law"],
+      "politeness": "plain",
+      "semantic": [
+        "education",
+        "law"
+      ],
       "domain": []
     },
     "created": "2026-05-30T04:08:44Z",
-    "modified": "2026-05-30T04:08:44Z"
+    "modified": "2026-09-02T04:02:33Z"
   }
 }

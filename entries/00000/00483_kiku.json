@@ -174,7 +174,7 @@
     },
     {
       "id": "00483_kiku_ex7",
-      "japanese": "⟦ラジオ→ラジオ：01541_rajio⟧⟦を→を：00422_wo⟧{聞|き}いている。",
+      "japanese": "⟦ラジオ→ラジオ：01541_rajio⟧⟦を→を：00422_wo⟧{聞|き}いて⟦いる→いる：00495_iru⟧。",
       "english": "I'm listening to the radio.",
       "notes": null,
       "has_audio": false,
@@ -204,7 +204,7 @@
     },
     {
       "id": "00483_kiku_ex10",
-      "japanese": "⟦{毎朝|まいあさ}→毎朝：00966_maiasa⟧⟦ニュース→ニュース：04437_nyuusu⟧⟦を→を：00422_wo⟧{聞|き}きながら⟦ご{飯|はん}→ご飯：00776_gohan⟧⟦を→を：00422_wo⟧⟦{食|た}べている→食べる：00396_taberu⟧。",
+      "japanese": "⟦{毎朝|まいあさ}→毎朝：00966_maiasa⟧⟦ニュース→ニュース：04437_nyuusu⟧⟦を→を：00422_wo⟧{聞|き}き⟦ながら→ながら：10530_nagara⟧⟦ご{飯|はん}→ご飯：00776_gohan⟧⟦を→を：00422_wo⟧⟦{食|た}べている→食べる：00396_taberu⟧。",
       "english": "Every morning I eat breakfast while listening to the news.",
       "notes": null,
       "has_audio": false,
@@ -263,7 +263,7 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive). No pair verb. Pattern: X⟦を→を：00422_wo⟧{聞|き}く (hear/listen to/ask X) or X⟦に→に：00314_ni⟧{聞|き}く (ask X [person]).\n\nASPECT: ている indicates ongoing action. {聞|き}いている = 'is listening' or 'is asking.'\n\nCOMMON PATTERNS:\n・⟦{音楽|おんがく}→音楽：00661_ongaku⟧⟦を→を：00422_wo⟧{聞|き}く (listen to music)\n・⟦{話|はなし}→話：01496_hanashi⟧⟦を→を：00422_wo⟧{聞|き}く (listen to a story)\n・⟦{道|みち}→道：00505_michi⟧⟦を→を：00422_wo⟧{聞|き}く (ask for directions)\n・{聞|き}いた⟦こと→こと：01164_koto⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧ (have heard before)\n\nCovers hearing, listening, AND asking. ⟦{聴|き}く→聴く：30010_kiku⟧ emphasizes careful listening.",
+  "notes": "TRANSITIVITY: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive). No pair verb. Pattern: X⟦を→を：00422_wo⟧{聞|き}く (hear/listen to/ask X) or X⟦に→に：00314_ni⟧{聞|き}く (ask X [person]).\n\nASPECT: て⟦いる→いる：00495_iru⟧ indicates ongoing action. {聞|き}いて⟦いる→いる：00495_iru⟧ = 'is listening' or 'is asking.'\n\nCOMMON PATTERNS:\n- ⟦{音楽|おんがく}→音楽：00661_ongaku⟧⟦を→を：00422_wo⟧{聞|き}く (listen to music)\n- ⟦{話|はなし}→話：01496_hanashi⟧⟦を→を：00422_wo⟧{聞|き}く (listen to a story)\n- ⟦{道|みち}→道：00505_michi⟧⟦を→を：00422_wo⟧{聞|き}く (ask for directions)\n- {聞|き}いた⟦こと→こと：01164_koto⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧ (have heard before)\n\nCovers hearing, listening, AND asking. ⟦{聴|き}く→聴く：30010_kiku⟧ emphasizes careful listening.",
   "cross_references": [
     {
       "type": "related",
@@ -271,11 +271,32 @@
       "reading": "うけたまわる",
       "headword": "{承|うけたまわ}る",
       "label": "humble form of hearing/receiving"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01175_tazuneru",
+      "reading": "たずねる",
+      "headword": "{尋|たず}ねる",
+      "label": "to ask, to inquire"
+    },
+    {
+      "type": "related",
+      "target_id": "06903_mimiwokatamukeru",
+      "reading": "みみをかたむける",
+      "headword": "{耳|みみ}を{傾|かたむ}ける",
+      "label": "to listen carefully, to lend an ear"
+    },
+    {
+      "type": "homophone",
+      "target_id": "30010_kiku",
+      "reading": "きく",
+      "headword": "{聴|き}く",
+      "label": "to listen (attentively)"
     }
   ],
   "metadata": {
     "created": "2026-01-05T12:51:59Z",
-    "modified": "2026-08-09T12:25:33Z",
+    "modified": "2026-09-02T04:00:57Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

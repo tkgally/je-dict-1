@@ -3,7 +3,7 @@
   "headword": "{丁重|ていちょう}に{断|ことわ}る",
   "reading": "ていちょうにことわる",
   "romaji": "teichounikotowaru",
-  "part_of_speech": "expression / verb (godan)",
+  "part_of_speech": "expression, verb (godan)",
   "gloss": "to politely decline; to turn down gracefully",
   "conjugation": {
     "type": "godan",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "19535_teichounikotowaru_ex1",
-      "japanese": "お{誘|さそ}いを{丁重|ていちょう}に{断|ことわ}った。",
+      "japanese": "お⟦{誘|さそ}い→誘い：14200_sasoi⟧⟦を→を：00422_wo⟧{丁重|ていちょう}に{断|ことわ}った。",
       "english": "I politely declined the invitation.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "19535_teichounikotowaru_ex2",
-      "japanese": "{申|もう}し{訳|わけ}なさそうに、{丁重|ていちょう}に{断|ことわ}られた。",
+      "japanese": "⟦{申|もう}し{訳|わけ}→申し訳：03810_moushiwake⟧なさそう⟦に→に：00314_ni⟧、{丁重|ていちょう}に{断|ことわ}られた。",
       "english": "I was turned down gracefully, with an apologetic manner.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "19535_teichounikotowaru_ex3",
-      "japanese": "{取引先|とりひきさき}からの{提案|ていあん}を、{理由|りゆう}を{述|の}べて{丁重|ていちょう}に{断|ことわ}ることが{大切|たいせつ}だ。",
+      "japanese": "⟦{取引先|とりひきさき}→取引先：11083_torihikisaki⟧⟦から→から：00504_kara⟧⟦の→の：09472_no⟧⟦{提案|ていあん}→提案：03536_teian⟧⟦を→を：00422_wo⟧、⟦{理由|りゆう}→理由：01102_riyuu⟧⟦を→を：00422_wo⟧⟦{述|の}べて→述べる：02389_noberu⟧{丁重|ていちょう}に{断|ことわ}ること⟦が→が：00051_ga⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧だ。",
       "english": "It is important to politely decline a proposal from a business partner by stating your reasons.",
       "sense_numbers": [
         1
@@ -134,8 +134,17 @@
       "notes": null
     }
   ],
-  "notes": "A set phrase combining {丁重|ていちょう} (polite, courteous) with {断|ことわ}る (to refuse). This is the standard way to describe refusing something while maintaining politeness and respect. Essential in Japanese business and social contexts where outright refusal is considered rude.\n\nCOMMON COLLOCATIONS:\n- お{申|もう}し{出|で}を{丁重|ていちょう}に{断|ことわ}る — to politely decline an offer\n- {丁重|ていちょう}にお{断|ことわ}りする — to politely refuse (humble form)\n- {依頼|いらい}を{丁重|ていちょう}に{断|ことわ}る — to politely decline a request\n\nSIMILAR EXPRESSIONS:\n- やんわり{断|ことわ}る — to refuse softly/gently; less formal than {丁重|ていちょう}に\n- きっぱり{断|ことわ}る — to refuse firmly/decisively; the opposite approach\n- {遠慮|えんりょ}する — to decline; more indirect and softer\n\nREGISTER:\nAppropriate for formal and business situations. In casual contexts, やんわり{断|ことわ}る is more natural.",
+  "notes": "A set phrase combining ⟦{丁重|ていちょう}→丁重：15777_teichou⟧ (polite, courteous) with ⟦{断|ことわ}る→断る：02102_kotowaru⟧ (to refuse). This is the standard way to describe refusing something while maintaining politeness and respect. Essential in Japanese business and social contexts where outright refusal is considered rude.\n\nCOMMON COLLOCATIONS:\n- お⟦{申|もう}し{出|で}→申し出：13560_moushide⟧⟦を→を：00422_wo⟧{丁重|ていちょう}に{断|ことわ}る — to politely decline an offer\n- ⟦{丁重|ていちょう}→丁重：15777_teichou⟧⟦に→に：00314_ni⟧お⟦{断|ことわ}り→断る：02102_kotowaru⟧⟦する→する：00392_suru⟧ — to politely refuse (humble form)\n- ⟦{依頼|いらい}→依頼：02594_irai⟧⟦を→を：00422_wo⟧{丁重|ていちょう}に{断|ことわ}る — to politely decline a request\n\nSIMILAR WORDS:\n- やんわり⟦{断|ことわ}る→断る：02102_kotowaru⟧ — to refuse softly/gently; less formal than ⟦{丁重|ていちょう}→丁重：15777_teichou⟧⟦に→に：00314_ni⟧\n- ⟦きっぱり→きっぱり：06354_kippari⟧⟦{断|ことわ}る→断る：02102_kotowaru⟧ — to refuse firmly/decisively; the opposite approach\n- ⟦{遠慮|えんりょ}する→遠慮する：19518_enryosuru⟧ — to decline; more indirect and softer\n\nREGISTER:\nAppropriate for formal and business situations. In casual contexts, やんわり⟦{断|ことわ}る→断る：02102_kotowaru⟧ is more natural.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19518_enryosuru",
+      "reading": "えんりょする",
+      "headword": "{遠慮|えんりょ}する",
+      "label": "to decline"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -155,6 +164,6 @@
       ]
     },
     "created": "2026-03-26T04:20:08Z",
-    "modified": "2026-03-26T04:20:08Z"
+    "modified": "2026-09-02T04:01:56Z"
   }
 }

@@ -16,7 +16,7 @@
   "examples": [
     {
       "id": "24572_kaisouchuu_ex1",
-      "japanese": "この{店|みせ}は{改装中|かいそうちゅう}です。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{店|みせ}→店：00497_mise⟧⟦は→は：00079_ha⟧{改装中|かいそうちゅう}です。",
       "english": "This store is under renovation.",
       "sense_numbers": [
         1
@@ -26,7 +26,7 @@
     },
     {
       "id": "24572_kaisouchuu_ex2",
-      "japanese": "{改装中|かいそうちゅう}のため、しばらく{休業|きゅうぎょう}します。",
+      "japanese": "{改装中|かいそうちゅう}⟦の→の：09472_no⟧⟦ため→ため：01145_tame⟧、⟦しばらく→しばらく：01267_shibaraku⟧⟦{休業|きゅうぎょう}→休業：11541_kyuugyou⟧⟦します→する：00392_suru⟧。",
       "english": "We will be temporarily closed for renovation.",
       "sense_numbers": [
         1
@@ -36,7 +36,7 @@
     },
     {
       "id": "24572_kaisouchuu_ex3",
-      "japanese": "お{気|き}に{入|い}りのレストランが{改装中|かいそうちゅう}で、リニューアルオープンを{楽|たの}しみにしている。",
+      "japanese": "⟦お{気|き}に{入|い}り→お気に入り：10297_okiniiri⟧⟦の→の：09472_no⟧⟦レストラン→レストラン：01048_resutoran⟧⟦が→が：00051_ga⟧{改装中|かいそうちゅう}で、リニューアル⟦オープン→オープン：10831_oopun⟧⟦を→を：00422_wo⟧⟦{楽|たの}しみ→楽しみ：01651_tanoshimi⟧にして⟦いる→いる：00495_iru⟧。",
       "english": "My favorite restaurant is under renovation, and I'm looking forward to its reopening.",
       "sense_numbers": [
         1
@@ -45,11 +45,40 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {改装|かいそう} (renovation/remodeling) and {中|ちゅう} (during/in the middle of). A very common sign and announcement seen on storefronts and buildings in Japan. The suffix {中|ちゅう} is productive and attaches to many nouns to indicate an ongoing activity ({工事中|こうじちゅう}, {準備中|じゅんびちゅう}, etc.).\n\nCOMMON COLLOCATIONS:\n- {改装中|かいそうちゅう}のため{休業|きゅうぎょう}: closed for renovation\n- {改装中|かいそうちゅう}の{店舗|てんぽ}: store under renovation\n- {只今|ただいま}{改装中|かいそうちゅう}: currently under renovation\n\nSIMILAR WORDS:\n- {工事中|こうじちゅう}: under construction — for building or infrastructure work, not just interior remodeling\n- {準備中|じゅんびちゅう}: in preparation — used when a shop is getting ready to open for the day\n- {休業中|きゅうぎょうちゅう}: temporarily closed — closed for any reason, not necessarily renovation",
-  "cross_references": [],
+  "notes": "Composed of ⟦{改装|かいそう}→改装：09682_kaisou⟧ (renovation/remodeling) and ⟦{中|ちゅう}→〜中：09840_chuu⟧ (during/in the middle of). A very common sign and announcement seen on storefronts and buildings in Japan. The suffix ⟦{中|ちゅう}→〜中：09840_chuu⟧ is productive and attaches to many nouns to indicate an ongoing activity (⟦{工事中|こうじちゅう}→工事中：09625_koujichuu⟧, ⟦{準備中|じゅんびちゅう}→準備中：09540_junbichuu⟧, etc.).\n\nCOMMON COLLOCATIONS:\n- {改装中|かいそうちゅう}⟦の→の：09472_no⟧⟦ため→ため：01145_tame⟧⟦{休業|きゅうぎょう}→休業：11541_kyuugyou⟧: closed for renovation\n- {改装中|かいそうちゅう}⟦の→の：09472_no⟧⟦{店舗|てんぽ}→店舗：12481_tenpo⟧: store under renovation\n- {只今|ただいま}{改装中|かいそうちゅう}: currently under renovation\n\nSIMILAR WORDS:\n- ⟦{工事中|こうじちゅう}→工事中：09625_koujichuu⟧: under construction — for building or infrastructure work, not just interior remodeling\n- ⟦{準備中|じゅんびちゅう}→準備中：09540_junbichuu⟧: in preparation — used when a shop is getting ready to open for the day\n- {休業中|きゅうぎょうちゅう}: temporarily closed — closed for any reason, not necessarily renovation",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09625_koujichuu",
+      "reading": "こうじちゅう",
+      "headword": "{工事中|こうじちゅう}",
+      "label": "under construction"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09540_junbichuu",
+      "reading": "じゅんびちゅう",
+      "headword": "{準備中|じゅんびちゅう}",
+      "label": "in preparation"
+    },
+    {
+      "type": "related",
+      "target_id": "22326_kensetsuchuu",
+      "reading": "けんせつちゅう",
+      "headword": "{建設中|けんせつちゅう}",
+      "label": "under construction"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26158_kenchikuchuu",
+      "reading": "けんちくちゅう",
+      "headword": "{建築中|けんちくちゅう}",
+      "label": "under construction (of buildings)"
+    }
+  ],
   "metadata": {
     "created": "2026-04-19T15:17:50Z",
-    "modified": "2026-08-03T09:22:27Z",
+    "modified": "2026-09-02T04:02:18Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

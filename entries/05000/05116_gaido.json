@@ -78,7 +78,7 @@
       ]
     }
   ],
-  "notes": "ガイド is a loanword from English 'guide,' used both for people and materials that provide guidance.\n\nSENSE 1 - PERSON:\nA person who leads tours or provides information.\n- ⟦{観光|かんこう}→観光：00173_kankou⟧ガイド: tour guide\n- ⟦ボランティア→ボランティア：04834_borantia⟧ガイド: volunteer guide\n- ガイド⟦を→を：00422_wo⟧⟦{務|つと}める→務める：10446_tsutomeru⟧: to serve as a guide\n\nSENSE 2 - MATERIAL:\nA book or resource providing information.\n- ⟦ガイドブック→ガイドブック：noentry⟧: guidebook\n- ⟦{旅行|りょこう}→旅行：00748_ryokou⟧ガイド: travel guide\n- ⟦{音声|おんせい}→音声：04445_onsei⟧ガイド: audio guide\n- ⟦ユーザー→ユーザー：05393_yuuzaa⟧ガイド: user guide\n\nRELATED TERMS:\n- ⟦{案内|あんない}→案内：01291_annai⟧: guidance (native Japanese)\n- ⟦{案内|あんない}{人|にん}→案内人：25113_annainin⟧/⟦{係|かかり}→係：02552_kakari⟧: guide (person)\n- ⟦{添乗員|てんじょういん}→添乗員：noentry⟧: tour conductor (travels with the group)",
+  "notes": "ガイド is a loanword from English 'guide,' used both for people and materials that provide guidance.\n\nSENSE 1 - PERSON:\nA person who leads tours or provides information.\n- ⟦{観光|かんこう}→観光：00173_kankou⟧ガイド: tour guide\n- ⟦ボランティア→ボランティア：04834_borantia⟧ガイド: volunteer guide\n- ガイド⟦を→を：00422_wo⟧⟦{務|つと}める→務める：10446_tsutomeru⟧: to serve as a guide\n\nSENSE 2 - MATERIAL:\nA book or resource providing information.\n- ⟦ガイドブック→ガイドブック：noentry⟧: guidebook\n- ⟦{旅行|りょこう}→旅行：00748_ryokou⟧ガイド: travel guide\n- ⟦{音声|おんせい}→音声：04445_onsei⟧ガイド: audio guide\n- ⟦ユーザー→ユーザー：05393_yuuzaa⟧ガイド: user guide\n\nRELATED WORDS:\n- ⟦{案内|あんない}→案内：01291_annai⟧: guidance (native Japanese)\n- ⟦{案内|あんない}{人|にん}→案内人：25113_annainin⟧/⟦{係|かかり}→係：02552_kakari⟧: guide (person)\n- ⟦{添乗員|てんじょういん}→添乗員：noentry⟧: tour conductor (travels with the group)",
   "cross_references": [
     {
       "type": "synonym",
@@ -86,11 +86,46 @@
       "reading": "あんない",
       "headword": "{案内|あんない}",
       "label": "guidance (native)"
+    },
+    {
+      "type": "related",
+      "target_id": "25113_annainin",
+      "reading": "あんないにん",
+      "headword": "{案内人|あんないにん}",
+      "label": "guide"
+    },
+    {
+      "type": "related",
+      "target_id": "02552_kakari",
+      "reading": "かかり",
+      "headword": "{係|かかり}",
+      "label": "guide"
+    },
+    {
+      "type": "related",
+      "target_id": "11697_chuutoriaru",
+      "reading": "ちゅーとりある",
+      "headword": "チュートリアル",
+      "label": "tutorial"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12759_tebiki",
+      "reading": "てびき",
+      "headword": "{手引|てび}き",
+      "label": "guidance, guide, handbook"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23067_annaigakari",
+      "reading": "あんないがかり",
+      "headword": "{案内係|あんないがかり}",
+      "label": "guide"
     }
   ],
   "metadata": {
     "created": "2026-01-16T02:32:54Z",
-    "modified": "2026-06-04T15:11:07Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

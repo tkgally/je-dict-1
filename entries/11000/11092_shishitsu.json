@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "11092_shishitsu_ex1",
-      "japanese": "{脂質|ししつ}の{取|と}りすぎに{注意|ちゅうい}しましょう。",
+      "japanese": "{脂質|ししつ}⟦の→の：09472_no⟧⟦{取|と}り→取る：00565_toru⟧すぎ⟦に→に：00314_ni⟧⟦{注意|ちゅうい}→注意：01464_chuui⟧⟦しましょう→する：00392_suru⟧。",
       "english": "Let's be careful not to consume too much fat.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "11092_shishitsu_ex2",
-      "japanese": "この{商品|しょうひん}は{脂質|ししつ}が{低|ひく}いのでヘルシーだ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{商品|しょうひん}→商品：01436_shouhin⟧⟦は→は：00079_ha⟧{脂質|ししつ}⟦が→が：00051_ga⟧⟦{低|ひく}い→低い：02947_hikui⟧⟦の→の：09472_no⟧でヘルシーだ。",
       "english": "This product is healthy because it's low in fat.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "11092_shishitsu_ex3",
-      "japanese": "{栄養|えいよう}{成分|せいぶん}{表|ひょう}で{脂質|ししつ}の{含有量|がんゆうりょう}を{確認|かくにん}してから{買|か}うようにしている。",
+      "japanese": "⟦{栄養|えいよう}→栄養：01882_eiyou⟧⟦{成分|せいぶん}→成分：04344_seibun⟧⟦{表|ひょう}→表：19354_hyou⟧⟦で→で：00502_de⟧{脂質|ししつ}⟦の→の：09472_no⟧⟦{含有量|がんゆうりょう}→含有量：22566_ganyuuryou⟧⟦を→を：00422_wo⟧⟦{確認|かくにん}して→確認する：25332_kakuninsuru⟧⟦から→から：00504_kara⟧⟦{買|か}う→買う：00489_kau⟧ようにして⟦いる→いる：00495_iru⟧。",
       "english": "I make sure to check the fat content on the nutrition label before buying.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{脂質|ししつ} is the standard nutritional/scientific term for fats and lipids, commonly seen on Japanese food labels. In everyday speech, people more often say {脂肪|しぼう} (fat) or {油|あぶら} (oil/grease).\n\nCOMMON COLLOCATIONS:\n- {脂質|ししつ}{異常症|いじょうしょう} (dyslipidemia — high cholesterol/triglycerides)\n- {脂質|ししつ}ゼロ (zero fat)\n- {脂質|ししつ}{制限|せいげん} (fat restriction)\n\nRELATED NUTRITION TERMS:\n- {糖質|とうしつ} (carbohydrates)\n- たんぱく{質|しつ} (protein)\n- {脂肪|しぼう} (body fat, dietary fat — more everyday term)",
+  "notes": "USAGE:\n{脂質|ししつ} is the standard nutritional/scientific term for fats and lipids, commonly seen on Japanese food labels. In everyday speech, people more often say ⟦{脂肪|しぼう}→脂肪：03199_shibou⟧ (fat) or ⟦{油|あぶら}→油：01693_abura⟧ (oil/grease).\n\nCOMMON COLLOCATIONS:\n- {脂質|ししつ}{異常症|いじょうしょう} (dyslipidemia — high cholesterol/triglycerides)\n- {脂質|ししつ}⟦ゼロ→ゼロ：01011_zero⟧ (zero fat)\n- {脂質|ししつ}⟦{制限|せいげん}→制限：03375_seigen⟧ (fat restriction)\n\nRELATED NUTRITION TERMS:\n- ⟦{糖質|とうしつ}→糖質：11091_toushitsu⟧ (carbohydrates)\n- たんぱく⟦{質|しつ}→質：01425_shitsu⟧ (protein)\n- ⟦{脂肪|しぼう}→脂肪：03199_shibou⟧ (body fat, dietary fat — more everyday term)",
   "cross_references": [
     {
       "type": "related",
@@ -52,11 +52,25 @@
       "reading": "とうしつ",
       "headword": "{糖質|とうしつ}",
       "label": "carbohydrates"
+    },
+    {
+      "type": "related",
+      "target_id": "03199_shibou",
+      "reading": "しぼう",
+      "headword": "{脂肪|しぼう}",
+      "label": "body fat, dietary fat"
+    },
+    {
+      "type": "related",
+      "target_id": "23227_chuuseishibou",
+      "reading": "ちゅうせいしぼう",
+      "headword": "{中性脂肪|ちゅうせいしぼう}",
+      "label": "triglycerides"
     }
   ],
   "metadata": {
     "created": "2026-02-13T12:38:59Z",
-    "modified": "2026-04-25T04:12:08Z",
+    "modified": "2026-09-02T04:01:23Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

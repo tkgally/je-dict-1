@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "14773_sakekasu_ex1",
-      "japanese": "{酒粕|さけかす}で{甘酒|あまざけ}を{作|つく}った。",
+      "japanese": "{酒粕|さけかす}⟦で→で：00502_de⟧⟦{甘酒|あまざけ}→甘酒：13519_amazake⟧⟦を→を：00422_wo⟧⟦{作|つく}った→作る：00481_tsukuru⟧。",
       "english": "I made amazake from sake lees.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14773_sakekasu_ex2",
-      "japanese": "{酒粕|さけかす}を{使|つか}った{粕汁|かすじる}は{体|からだ}が{温|あたた}まる。",
+      "japanese": "{酒粕|さけかす}⟦を→を：00422_wo⟧⟦{使|つか}った→使う：00473_tsukau⟧⟦{粕汁|かすじる}→粕汁：24970_kasujiru⟧⟦は→は：00079_ha⟧⟦{体|からだ}→体：00784_karada⟧⟦が→が：00051_ga⟧⟦{温|あたた}まる→温まる：02095_atatamaru⟧。",
       "english": "Sake lees soup warms the body.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14773_sakekasu_ex3",
-      "japanese": "{冬|ふゆ}になると{酒蔵|さかぐら}から{新鮮|しんせん}な{酒粕|さけかす}が{出回|でまわ}り、スーパーの{棚|たな}にも{並|なら}ぶようになる。",
+      "japanese": "⟦{冬|ふゆ}→冬：00623_fuyu⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦と→と：00512_to⟧⟦{酒蔵|さかぐら}→酒蔵：08633_sakagura⟧⟦から→から：00504_kara⟧⟦{新鮮|しんせん}→新鮮：03261_shinsen⟧な{酒粕|さけかす}⟦が→が：00051_ga⟧⟦{出回|でまわ}り→出回る：11736_demawaru⟧、⟦スーパー→スーパー：01061_suupaa⟧⟦の→の：09472_no⟧⟦{棚|たな}→棚：01650_tana⟧⟦に→に：00314_ni⟧⟦も→も：00484_mo⟧⟦{並|なら}ぶ→並ぶ：00605_narabu⟧⟦ようになる→ようになる：28408_youninaru⟧。",
       "english": "When winter comes, fresh sake lees from breweries become available and line the supermarket shelves.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE: {酒粕|さけかす} is a common cooking ingredient in Japanese cuisine. It is most widely available in winter, when sake production peaks.\n\nCOMMON COLLOCATIONS:\n- {粕汁|かすじる} (sake lees soup — a warming winter dish)\n- {粕漬|かすづ}け (pickling in sake lees)\n- {甘酒|あまざけ} (sweet sake drink made from sake lees or rice koji)\n- {酒粕|さけかす}パック (sake lees face mask — a beauty product)\n\nAlternate written forms include {酒糟|さけかす}. The word {粕|かす} alone means \"dregs\" or \"sediment\" and appears in other compounds like {糠粕|ぬかかす} and the figurative expression {糟糠|そうこう}の{妻|つま} (a wife who shared one's hardships).",
+  "notes": "USAGE: {酒粕|さけかす} is a common cooking ingredient in Japanese cuisine. It is most widely available in winter, when sake production peaks.\n\nCOMMON COLLOCATIONS:\n- ⟦{粕汁|かすじる}→粕汁：24970_kasujiru⟧ (sake lees soup — a warming winter dish)\n- ⟦{粕漬|かすづ}け→粕漬け：08230_kasuzuke⟧ (pickling in sake lees)\n- ⟦{甘酒|あまざけ}→甘酒：13519_amazake⟧ (sweet sake drink made from sake lees or rice koji)\n- {酒粕|さけかす}⟦パック→パック：11002_pakku⟧ (sake lees face mask — a beauty product)\n\nAlternate written forms include {酒糟|さけかす}. The word ⟦{粕|かす}→粕：26361_kasu⟧ alone means \"dregs\" or \"sediment\" and appears in other compounds like {糠粕|ぬかかす} and the figurative expression {糟糠|そうこう}⟦の→の：09472_no⟧⟦{妻|つま}→妻：01005_tsuma⟧ (a wife who shared one's hardships).",
   "cross_references": [
     {
       "type": "related",
@@ -46,18 +52,43 @@
       "reading": "あまざけ",
       "headword": "{甘酒|あまざけ}",
       "label": "amazake (made from sake lees)"
+    },
+    {
+      "type": "related",
+      "target_id": "08230_kasuzuke",
+      "reading": "かすづけ",
+      "headword": "{粕漬|かすづ}け",
+      "label": "sake lees pickle"
+    },
+    {
+      "type": "related",
+      "target_id": "24953_wasabizuke",
+      "reading": "わさびづけ",
+      "headword": "{山葵漬|わさびづ}け",
+      "label": "wasabi pickles"
+    },
+    {
+      "type": "related",
+      "target_id": "24970_kasujiru",
+      "reading": "かすじる",
+      "headword": "{粕汁|かすじる}",
+      "label": "sake lees soup"
     }
   ],
   "metadata": {
     "created": "2026-03-03T11:28:35Z",
-    "modified": "2026-04-30T10:37:17Z",
+    "modified": "2026-09-02T04:01:38Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food"]
+      "semantic": [
+        "food"
+      ]
     }
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "16855_fuini_ex1",
-      "japanese": "{不意|ふい}に{名前|なまえ}を{呼|よ}ばれた。",
+      "japanese": "{不意|ふい}に⟦{名前|なまえ}→名前：02234_namae⟧⟦を→を：00422_wo⟧⟦{呼|よ}ばれた→呼ぶ：00766_yobu⟧。",
       "english": "My name was called out of the blue.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "16855_fuini_ex2",
-      "japanese": "{不意|ふい}に{昔|むかし}のことを{思|おも}い{出|だ}した。",
+      "japanese": "{不意|ふい}に⟦{昔|むかし}→昔：01515_mukashi⟧⟦の→の：09472_no⟧こと⟦を→を：00422_wo⟧⟦{思|おも}い{出|だ}した→思い出す：01258_omoidasu⟧。",
       "english": "I suddenly remembered something from the past.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "16855_fuini_ex3",
-      "japanese": "{散歩|さんぽ}{中|ちゅう}に{不意|ふい}に{雨|あめ}が{降|ふ}り{出|だ}して、{傘|かさ}もなく{濡|ぬ}れてしまった。",
+      "japanese": "⟦{散歩|さんぽ}→散歩：02885_sanpo⟧⟦{中|ちゅう}→〜中：09840_chuu⟧⟦に→に：00314_ni⟧{不意|ふい}に⟦{雨|あめ}→雨：00583_ame⟧⟦が→が：00051_ga⟧⟦{降|ふ}り{出|だ}して→降り出す：03004_furidasu⟧、⟦{傘|かさ}→傘：00639_kasa⟧⟦も→も：00484_mo⟧⟦なく→ない：01118_nai⟧⟦{濡|ぬ}れて→濡れる：00800_nureru⟧しまった。",
       "english": "During my walk it suddenly started raining, and without an umbrella I got soaked.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nThe base form {不意|ふい} is also used in the expression {不意|ふい}を{突|つ}く (to catch off guard, to take by surprise). {不意|ふい}に as an adverb describes unexpected events that happen to the speaker.\n\nCOMMON COLLOCATIONS:\n- {不意|ふい}に{現|あらわ}れる (to appear suddenly)\n- {不意|ふい}を{突|つ}く (to catch off guard)\n- {不意|ふい}の{来客|らいきゃく} (an unexpected visitor)\n\nSIMILAR WORDS:\n- {突然|とつぜん} is more emphatic and dramatic\n- {急|きゅう}に emphasizes speed\n- {不意|ふい}に emphasizes the element of surprise",
+  "notes": "USAGE:\nThe base form ⟦{不意|ふい}→不意：11351_fui⟧ is also used in the expression ⟦{不意|ふい}→不意：11351_fui⟧⟦を→を：00422_wo⟧⟦{突|つ}く→突く：12735_tsuku⟧ (to catch off guard, to take by surprise). {不意|ふい}に as an adverb describes unexpected events that happen to the speaker.\n\nCOMMON COLLOCATIONS:\n- {不意|ふい}に⟦{現|あらわ}れる→現れる：01870_arawareru⟧ (to appear suddenly)\n- ⟦{不意|ふい}→不意：11351_fui⟧⟦を→を：00422_wo⟧⟦{突|つ}く→突く：12735_tsuku⟧ (to catch off guard)\n- ⟦{不意|ふい}→不意：11351_fui⟧⟦の→の：09472_no⟧⟦{来客|らいきゃく}→来客：13061_raikyaku⟧ (an unexpected visitor)\n\nSIMILAR WORDS:\n- ⟦{突然|とつぜん}→突然：00409_totsuzen⟧ is more emphatic and dramatic\n- ⟦{急|きゅう}→急：13042_kyuu⟧⟦に→に：00314_ni⟧ emphasizes speed\n- {不意|ふい}に emphasizes the element of surprise",
   "cross_references": [
     {
       "type": "synonym",
@@ -52,11 +52,46 @@
       "reading": "とつぜん",
       "headword": "{突然|とつぜん}",
       "label": "suddenly (emphatic)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00263_kyuuni",
+      "reading": "きゅうに",
+      "headword": "{急|きゅう}に",
+      "label": "emphasizes speed"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21616_totsuzenni",
+      "reading": "とつぜんに",
+      "headword": "{突然|とつぜん}に",
+      "label": "suddenly"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24456_yokisezu",
+      "reading": "よきせず",
+      "headword": "{予期|よき}せず",
+      "label": "unexpectedly"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26006_nukiuchi",
+      "reading": "ぬきうち",
+      "headword": "{抜|ぬ}き{打|う}ち",
+      "label": "surprise (inspection/test)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26915_toutotsuni",
+      "reading": "とうとつに",
+      "headword": "{唐突|とうとつ}に",
+      "label": "abruptly"
     }
   ],
   "metadata": {
     "created": "2026-03-14T13:09:27Z",
-    "modified": "2026-07-21T06:41:24Z",
+    "modified": "2026-09-02T04:01:46Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

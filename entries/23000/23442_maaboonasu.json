@@ -15,40 +15,59 @@
   "examples": [
     {
       "id": "23442_maaboonasu_ex1",
-      "japanese": "{今日|きょう}の{夕飯|ゆうはん}は{麻婆茄子|まーぼーなす}にしよう。",
+      "japanese": "⟦{今日|きょう}→今日：00496_kyou⟧⟦の→の：09472_no⟧⟦{夕飯|ゆうはん}→夕飯：02981_yuuhan⟧⟦は→は：00079_ha⟧{麻婆茄子|まーぼーなす}⟦に→に：00314_ni⟧⟦しよう→する：00392_suru⟧。",
       "english": "Let's have mapo eggplant for dinner tonight.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "23442_maaboonasu_ex2",
-      "japanese": "{麻婆茄子|まーぼーなす}の{素|もと}を{使|つか}えば{簡単|かんたん}に{作|つく}れる。",
+      "japanese": "{麻婆茄子|まーぼーなす}⟦の→の：09472_no⟧⟦{素|もと}→素：28734_moto⟧⟦を→を：00422_wo⟧⟦{使|つか}えば→使う：00473_tsukau⟧⟦{簡単|かんたん}→簡単：00713_kantan⟧⟦に→に：00314_ni⟧⟦{作|つく}れる→作る：00481_tsukuru⟧。",
       "english": "If you use a mapo eggplant sauce mix, it's easy to make.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "23442_maaboonasu_ex3",
-      "japanese": "この{店|みせ}の{麻婆茄子|まーぼーなす}は{山椒|さんしょう}が{効|き}いていて、{本格的|ほんかくてき}な{味|あじ}だ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{店|みせ}→店：00497_mise⟧⟦の→の：09472_no⟧{麻婆茄子|まーぼーなす}⟦は→は：00079_ha⟧⟦{山椒|さんしょう}→山椒：12412_sanshou⟧⟦が→が：00051_ga⟧⟦{効|き}いていて→効く：01932_kiku⟧、⟦{本格的|ほんかくてき}→本格的：05681_honkakuteki⟧な⟦{味|あじ}→味：00826_aji⟧だ。",
       "english": "This restaurant's mapo eggplant has a nice kick of Sichuan pepper and tastes authentic.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A Japanese adaptation of Chinese cuisine. {麻婆|まーぼー} comes from the name of the Sichuan dish, and {茄子|なす} means eggplant. In Japan, this dish typically uses Japanese eggplant ({茄子|なす}), which is thinner and more tender than Chinese varieties.\n\nCOMMON COLLOCATIONS:\n- {麻婆茄子|まーぼーなす}の{素|もと}: mapo eggplant sauce mix (a popular convenience product)\n- {麻婆茄子|まーぼーなす}{丼|どん}: mapo eggplant rice bowl\n- {麻婆茄子|まーぼーなす}を{作|つく}る: to make mapo eggplant\n\nRELATED DISHES:\n- {麻婆豆腐|まーぼーどうふ}: mapo tofu — the original dish; one of the most popular Chinese dishes in Japan\n- {麻婆春雨|まーぼーはるさめ}: mapo glass noodles — another Japanese adaptation using bean thread noodles\n- {回鍋肉|ほいこーろー}: twice-cooked pork — another popular Chinese-Japanese home cooking staple\n\nCULTURAL CONTEXT:\n{麻婆茄子|まーぼーなす} is a staple of Japanese home cooking, especially in summer when eggplant is in season. Packaged sauce mixes ({素|もと}) from brands like Cook Do make it one of the easiest Chinese-style dishes to prepare at home.",
+  "notes": "A Japanese adaptation of Chinese cuisine. {麻婆|まーぼー} comes from the name of the Sichuan dish, and {茄子|なす} means eggplant. In Japan, this dish typically uses Japanese eggplant ({茄子|なす}), which is thinner and more tender than Chinese varieties.\n\nCOMMON COLLOCATIONS:\n- {麻婆茄子|まーぼーなす}⟦の→の：09472_no⟧⟦{素|もと}→素：28734_moto⟧: mapo eggplant sauce mix (a popular convenience product)\n- {麻婆茄子|まーぼーなす}{丼|どん}: mapo eggplant rice bowl\n- {麻婆茄子|まーぼーなす}⟦を→を：00422_wo⟧⟦{作|つく}る→作る：00481_tsukuru⟧: to make mapo eggplant\n\nRELATED DISHES:\n- ⟦{麻婆豆腐|まーぼーどうふ}→麻婆豆腐：20258_maaboodoufu⟧: mapo tofu — the original dish; one of the most popular Chinese dishes in Japan\n- {麻婆春雨|まーぼーはるさめ}: mapo glass noodles — another Japanese adaptation using bean thread noodles\n- {回鍋肉|ほいこーろー}: twice-cooked pork — another popular Chinese-Japanese home cooking staple\n\nCULTURAL NOTE:\n{麻婆茄子|まーぼーなす} is a staple of Japanese home cooking, especially in summer when eggplant is in season. Packaged sauce mixes (⟦{素|もと}→素：28734_moto⟧) from brands like Cook Do make it one of the easiest Chinese-style dishes to prepare at home.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "20258_maaboodoufu",
+      "reading": "まーぼーどうふ",
+      "headword": "{麻婆豆腐|まーぼーどうふ}",
+      "label": "mapo tofu"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food"]
+      "semantic": [
+        "food"
+      ]
     },
     "created": "2026-04-12T06:55:45Z",
-    "modified": "2026-04-12T06:55:45Z"
+    "modified": "2026-09-02T04:02:13Z"
   }
 }

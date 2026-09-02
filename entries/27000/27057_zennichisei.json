@@ -15,40 +15,80 @@
   "examples": [
     {
       "id": "27057_zennichisei_ex1",
-      "japanese": "{全日制|ぜんにちせい}の{高校|こうこう}に{通|かよ}っている。",
+      "japanese": "{全日制|ぜんにちせい}⟦の→の：09472_no⟧⟦{高校|こうこう}→高校：01083_koukou⟧⟦に→に：00314_ni⟧⟦{通|かよ}っている→通う：01217_kayou⟧。",
       "english": "I attend a full-time high school.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27057_zennichisei_ex2",
-      "japanese": "この{学校|がっこう}には{全日制|ぜんにちせい}と{定時制|ていじせい}の{両方|りょうほう}がある。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{学校|がっこう}→学校：00055_gakkou⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{全日制|ぜんにちせい}⟦と→と：00512_to⟧⟦{定時制|ていじせい}→定時制：19786_teijisei⟧⟦の→の：09472_no⟧⟦{両方|りょうほう}→両方：01750_ryouhou⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "This school has both full-time and part-time programs.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27057_zennichisei_ex3",
-      "japanese": "{全日制|ぜんにちせい}の{課程|かてい}では{月曜|げつよう}から{金曜|きんよう}まで{毎日|まいにち}{授業|じゅぎょう}がある。",
+      "japanese": "{全日制|ぜんにちせい}⟦の→の：09472_no⟧⟦{課程|かてい}→課程：02653_katei⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{月曜|げつよう}→月曜：30298_getsuyou⟧⟦から→から：00504_kara⟧{金曜|きんよう}⟦まで→まで：00490_made⟧⟦{毎日|まいにち}→毎日：00729_mainichi⟧⟦{授業|じゅぎょう}→授業：00781_jugyou⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "In the full-time program, there are classes every day from Monday to Friday.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {全日|ぜんにち} (all day/full day) and {制|せい} (system). Most commonly used in the context of Japanese high schools, which are categorized into three types: {全日制|ぜんにちせい} (full-time), {定時制|ていじせい} (part-time/evening), and {通信制|つうしんせい} (correspondence). The vast majority of Japanese high school students attend {全日制|ぜんにちせい} programs.\n\nCOMMON COLLOCATIONS:\n- {全日制|ぜんにちせい}の{高校|こうこう} — full-time high school\n- {全日制|ぜんにちせい}の{課程|かてい} — full-time program/course\n- {全日制|ぜんにちせい}{普通科|ふつうか} — full-time general course\n\nSIMILAR WORDS:\n- {定時制|ていじせい} — part-time school system (evening school; classes typically held from late afternoon)\n- {通信制|つうしんせい} — correspondence school system (distance learning)\n- {夜間|やかん} — nighttime/evening (used attributively: {夜間|やかん}{学校|がっこう}, night school)",
+  "notes": "A compound of {全日|ぜんにち} (all day/full day) and ⟦{制|せい}→〜制：30791_sei⟧ (system). Most commonly used in the context of Japanese high schools, which are categorized into three types: {全日制|ぜんにちせい} (full-time), ⟦{定時制|ていじせい}→定時制：19786_teijisei⟧ (part-time/evening), and ⟦{通信制|つうしんせい}→通信制：17890_tsuushinsei⟧ (correspondence). The vast majority of Japanese high school students attend {全日制|ぜんにちせい} programs.\n\nCOMMON COLLOCATIONS:\n- {全日制|ぜんにちせい}⟦の→の：09472_no⟧⟦{高校|こうこう}→高校：01083_koukou⟧ — full-time high school\n- {全日制|ぜんにちせい}⟦の→の：09472_no⟧⟦{課程|かてい}→課程：02653_katei⟧ — full-time program/course\n- {全日制|ぜんにちせい}{普通科|ふつうか} — full-time general course\n\nSIMILAR WORDS:\n- ⟦{定時制|ていじせい}→定時制：19786_teijisei⟧ — part-time school system (evening school; classes typically held from late afternoon)\n- ⟦{通信制|つうしんせい}→通信制：17890_tsuushinsei⟧ — correspondence school system (distance learning)\n- ⟦{夜間|やかん}→夜間：04133_yakan⟧ — nighttime/evening (used attributively: ⟦{夜間|やかん}{学校|がっこう}→夜間学校：27061_yakangakkou⟧, night school)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19786_teijisei",
+      "reading": "ていじせい",
+      "headword": "{定時制|ていじせい}",
+      "label": "part-time school system (evening school"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17890_tsuushinsei",
+      "reading": "つうしんせい",
+      "headword": "{通信制|つうしんせい}",
+      "label": "correspondence school system"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04133_yakan",
+      "reading": "やかん",
+      "headword": "{夜間|やかん}",
+      "label": "nighttime/evening (used attributively"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27061_yakangakkou",
+      "reading": "やかんがっこう",
+      "headword": "{夜間学校|やかんがっこう}",
+      "label": "night school"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["education"]
+      "semantic": [
+        "education"
+      ]
     },
     "created": "2026-05-06T15:13:59Z",
-    "modified": "2026-05-06T15:13:59Z"
+    "modified": "2026-09-02T04:02:28Z"
   }
 }

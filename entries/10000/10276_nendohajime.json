@@ -14,30 +14,36 @@
   "examples": [
     {
       "id": "10276_nendohajime_ex1",
-      "japanese": "{年度始|ねんどはじ}めは{忙|いそが}しい。",
+      "japanese": "{年度始|ねんどはじ}め⟦は→は：00079_ha⟧⟦{忙|いそが}しい→忙しい：00591_isogashii⟧。",
       "english": "The beginning of the fiscal year is busy.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10276_nendohajime_ex2",
-      "japanese": "{年度始|ねんどはじ}めに{新|あたら}しい{制度|せいど}が{始|はじ}まる。",
+      "japanese": "{年度始|ねんどはじ}め⟦に→に：00314_ni⟧⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦{制度|せいど}→制度：03291_seido⟧⟦が→が：00051_ga⟧⟦{始|はじ}まる→始まる：00841_hajimaru⟧。",
       "english": "A new system starts at the beginning of the fiscal year.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10276_nendohajime_ex3",
-      "japanese": "{年度始|ねんどはじ}めは{人事異動|じんじいどう}や{入社式|にゅうしゃしき}があり、{会社|かいしゃ}は{慌|あわ}ただしい。",
+      "japanese": "{年度始|ねんどはじ}め⟦は→は：00079_ha⟧⟦{人事異動|じんじいどう}→人事異動：18627_jinjiidou⟧や⟦{入社式|にゅうしゃしき}→入社式：18833_nyuushashiki⟧⟦が→が：00051_ga⟧⟦あり→ある：00006_aru⟧、⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦は→は：00079_ha⟧⟦{慌|あわ}ただしい→慌ただしい：17686_awatadashii⟧。",
       "english": "The start of the fiscal year is hectic with personnel transfers and new employee ceremonies.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "In Japan, the fiscal and academic year begins on April 1st. This is a major transition point: students enter new school years, new employees start work, and government budgets reset.\n\nRELATED TERMS:\n- {年度末|ねんどまつ} — end of the fiscal year (March)\n- {年度|ねんど} — fiscal year\n- {新年度|しんねんど} — new fiscal year\n- {会計年度|かいけいねんど} — accounting fiscal year\n\n{年度始|ねんどはじ}め events include {入学式|にゅうがくしき} (entrance ceremonies), {入社式|にゅうしゃしき} (new employee ceremonies), and {人事異動|じんじいどう} (personnel transfers).",
+  "notes": "In Japan, the fiscal and academic year begins on April 1st. This is a major transition point: students enter new school years, new employees start work, and government budgets reset.\n\nRELATED WORDS:\n- ⟦{年度末|ねんどまつ}→年度末：10202_nendomatsu⟧ — end of the fiscal year (March)\n- ⟦{年度|ねんど}→年度：00309_nendo⟧ — fiscal year\n- ⟦{新年度|しんねんど}→新年度：15459_shinnendo⟧ — new fiscal year\n- {会計年度|かいけいねんど} — accounting fiscal year\n\n{年度始|ねんどはじ}め events include ⟦{入学式|にゅうがくしき}→入学式：05495_nyuugakushiki⟧ (entrance ceremonies), ⟦{入社式|にゅうしゃしき}→入社式：18833_nyuushashiki⟧ (new employee ceremonies), and ⟦{人事異動|じんじいどう}→人事異動：18627_jinjiidou⟧ (personnel transfers).",
   "prominent_see_also": [
     {
       "target_id": "10202_nendomatsu",
@@ -53,17 +59,28 @@
       "reading": "ねんど",
       "headword": "{年度|ねんど}",
       "label": "fiscal year"
+    },
+    {
+      "type": "related",
+      "target_id": "15459_shinnendo",
+      "reading": "しんねんど",
+      "headword": "{新年度|しんねんど}",
+      "label": "new fiscal year"
     }
   ],
   "metadata": {
     "created": "2026-02-05T18:06:27Z",
-    "modified": "2026-04-24T06:24:12Z",
+    "modified": "2026-09-02T04:01:20Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["work"]
+      "semantic": [
+        "work"
+      ]
     }
   }
 }

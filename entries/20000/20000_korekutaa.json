@@ -15,41 +15,81 @@
   "examples": [
     {
       "id": "20000_korekutaa_ex1",
-      "japanese": "{彼|かれ}は{切手|きって}のコレクターだ。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{切手|きって}→切手：00718_kitte⟧⟦の→の：09472_no⟧コレクターだ。",
       "english": "He is a stamp collector.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20000_korekutaa_ex2",
-      "japanese": "コレクターの{間|あいだ}で{高値|たかね}で{取引|とりひき}されている。",
+      "japanese": "コレクター⟦の→の：09472_no⟧⟦{間|あいだ}→間：00914_aida⟧⟦で→で：00502_de⟧⟦{高値|たかね}→高値：14703_takane⟧⟦で→で：00502_de⟧⟦{取引|とりひき}→取引：04700_torihiki⟧⟦されている→する：00392_suru⟧。",
       "english": "It is traded at high prices among collectors.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20000_korekutaa_ex3",
-      "japanese": "{熱心|ねっしん}なコレクターは、{世界中|せかいじゅう}を{回|まわ}って{珍|めずら}しい{品|しな}を{探|さが}す。",
+      "japanese": "⟦{熱心|ねっしん}→熱心：01207_nesshin⟧なコレクター⟦は→は：00079_ha⟧、⟦{世界中|せかいじゅう}→世界中：10171_sekaijuu⟧⟦を→を：00422_wo⟧⟦{回|まわ}って→回る：01150_mawaru⟧⟦{珍|めずら}しい→珍しい：01200_mezurashii⟧⟦{品|しな}→品：03192_shina⟧⟦を→を：00422_wo⟧⟦{探|さが}す→探す：00493_sagasu⟧。",
       "english": "Passionate collectors travel the world searching for rare items.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "From English \"collector.\" Refers specifically to a person who collects items as a hobby or passion, not to debt collectors or tax collectors (which use different Japanese terms).\n\nUSAGE:\nOften preceded by the type of item collected: {切手|きって}コレクター (stamp collector), {美術品|びじゅつひん}コレクター (art collector). The native Japanese equivalent {収集家|しゅうしゅうか} is more formal.\n\nCOMMON COLLOCATIONS:\n- {熱心|ねっしん}なコレクター — passionate collector\n- コレクターズアイテム — collector's item\n- コレクター{向|む}け — aimed at collectors\n- {美術品|びじゅつひん}コレクター — art collector\n\nSIMILAR WORDS:\n- {収集家|しゅうしゅうか} — collector (more formal, native Japanese)\n- マニア — enthusiast, buff (broader interest, not just collecting)\n- {愛好家|あいこうか} — enthusiast, lover of (focuses on appreciation)",
+  "notes": "From English \"collector.\" Refers specifically to a person who collects items as a hobby or passion, not to debt collectors or tax collectors (which use different Japanese terms).\n\nUSAGE:\nOften preceded by the type of item collected: ⟦{切手|きって}→切手：00718_kitte⟧コレクター (stamp collector), ⟦{美術品|びじゅつひん}→美術品：28549_bijutsuhin⟧コレクター (art collector). The native Japanese equivalent ⟦{収集家|しゅうしゅうか}→収集家：16941_shuushuuka⟧ is more formal.\n\nCOMMON COLLOCATIONS:\n- ⟦{熱心|ねっしん}→熱心：01207_nesshin⟧なコレクター — passionate collector\n- コレクターズ⟦アイテム→アイテム：07813_aitemu⟧ — collector's item\n- コレクター{向|む}け — aimed at collectors\n- ⟦{美術品|びじゅつひん}→美術品：28549_bijutsuhin⟧コレクター — art collector\n\nSIMILAR WORDS:\n- ⟦{収集家|しゅうしゅうか}→収集家：16941_shuushuuka⟧ — collector (more formal, native Japanese)\n- ⟦マニア→マニア：11150_mania⟧ — enthusiast, buff (broader interest, not just collecting)\n- ⟦{愛好家|あいこうか}→愛好家：15008_aikouka⟧ — enthusiast, lover of (focuses on appreciation)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16941_shuushuuka",
+      "reading": "しゅうしゅうか",
+      "headword": "{収集家|しゅうしゅうか}",
+      "label": "collector"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11150_mania",
+      "reading": "まにあ",
+      "headword": "マニア",
+      "label": "enthusiast, buff"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15008_aikouka",
+      "reading": "あいこうか",
+      "headword": "{愛好家|あいこうか}",
+      "label": "enthusiast, lover of"
+    },
+    {
+      "type": "related",
+      "target_id": "07327_korekushon",
+      "reading": "これくしょん",
+      "headword": "コレクション",
+      "label": "collection"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["hobby"],
+      "semantic": [
+        "hobby"
+      ],
       "loanword": true
     },
     "created": "2026-03-28T04:34:49Z",
-    "modified": "2026-03-28T04:34:49Z"
+    "modified": "2026-09-02T04:01:58Z"
   }
 }

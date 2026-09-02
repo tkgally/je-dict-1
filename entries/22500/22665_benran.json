@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22665_benran_ex1",
-      "japanese": "{化学|かがく}{便覧|べんらん}を{調|しら}べる。",
+      "japanese": "⟦{化学|かがく}→化学：05336_kagaku_chem⟧{便覧|べんらん}⟦を→を：00422_wo⟧⟦{調|しら}べる→調べる：01213_shiraberu⟧。",
       "english": "To look something up in a chemistry handbook.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22665_benran_ex2",
-      "japanese": "{学生|がくせい}{便覧|べんらん}に{履修|りしゅう}{方法|ほうほう}が{載|の}っている。",
+      "japanese": "⟦{学生|がくせい}→学生：00610_gakusei⟧{便覧|べんらん}⟦に→に：00314_ni⟧⟦{履修|りしゅう}→履修：04861_rishuu⟧⟦{方法|ほうほう}→方法：03621_houhou⟧⟦が→が：00051_ga⟧⟦{載|の}っている→載る：27882_noru⟧。",
       "english": "The course registration process is listed in the student handbook.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22665_benran_ex3",
-      "japanese": "この{便覧|べんらん}には{日本|にほん}の{統計|とうけい}データが{分|わ}かりやすくまとめられている。",
+      "japanese": "⟦この→この：00962_kono⟧{便覧|べんらん}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{日本|にほん}→日本：03876_nihon⟧⟦の→の：09472_no⟧⟦{統計|とうけい}→統計：04271_toukei⟧⟦データ→データ：03944_deeta⟧⟦が→が：00051_ga⟧⟦{分|わ}かり→分かる：00463_wakaru⟧やすく⟦まとめられている→まとめる：02424_matomeru⟧。",
       "english": "This reference guide compiles Japan's statistical data in an easy-to-understand format.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {便|べん} (convenient) and {覧|らん} (viewing/reading). Implies a practical, quick-reference publication rather than an in-depth textbook.\n\nCOMMON COLLOCATIONS:\n- {化学|かがく}{便覧|べんらん}: chemistry handbook\n- {学生|がくせい}{便覧|べんらん}: student handbook\n- {統計|とうけい}{便覧|べんらん}: statistical compendium\n- {便覧|べんらん}を{参照|さんしょう}する: to consult a handbook\n\nSIMILAR WORDS:\n- ハンドブック: handbook (loanword) — more commonly used in modern everyday contexts\n- マニュアル: manual — implies step-by-step instructions rather than quick reference\n- {辞典|じてん}: dictionary/encyclopedia — organized alphabetically or by topic with fuller entries\n- {要覧|ようらん}: summary guide — similar format but emphasizes giving an overview",
+  "notes": "A compound of ⟦{便|べん}→便：26147_ben⟧ (convenient) and {覧|らん} (viewing/reading). Implies a practical, quick-reference publication rather than an in-depth textbook.\n\nCOMMON COLLOCATIONS:\n- ⟦{化学|かがく}→化学：05336_kagaku_chem⟧{便覧|べんらん}: chemistry handbook\n- ⟦{学生|がくせい}→学生：00610_gakusei⟧{便覧|べんらん}: student handbook\n- ⟦{統計|とうけい}→統計：04271_toukei⟧{便覧|べんらん}: statistical compendium\n- {便覧|べんらん}⟦を→を：00422_wo⟧⟦{参照|さんしょう}→参照：11866_sanshou⟧⟦する→する：00392_suru⟧: to consult a handbook\n\nSIMILAR WORDS:\n- ハンドブック: handbook (loanword) — more commonly used in modern everyday contexts\n- ⟦マニュアル→マニュアル：26993_manyuaru⟧: manual — implies step-by-step instructions rather than quick reference\n- ⟦{辞典|じてん}→辞典：01640_jiten⟧: dictionary/encyclopedia — organized alphabetically or by topic with fuller entries\n- {要覧|ようらん}: summary guide — similar format but emphasizes giving an overview",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "26993_manyuaru",
+      "reading": "まにゅある",
+      "headword": "マニュアル",
+      "label": "manual"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01640_jiten",
+      "reading": "じてん",
+      "headword": "{辞典|じてん}",
+      "label": "dictionary/encyclopedia"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -56,9 +72,9 @@
         "education"
       ],
       "formality": "formal",
-      "politeness": null
+      "politeness": "plain"
     },
     "created": "2026-04-06T21:28:29Z",
-    "modified": "2026-04-06T21:28:29Z"
+    "modified": "2026-09-02T04:02:09Z"
   }
 }

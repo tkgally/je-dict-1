@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "20800_tokubetsukeihou_ex1",
-      "japanese": "{大雨|おおあめ}{特別警報|とくべつけいほう}が{発表|はっぴょう}された。",
+      "japanese": "{大雨|おおあめ}{特別警報|とくべつけいほう}⟦が→が：00051_ga⟧⟦{発表|はっぴょう}→発表：03562_happyou⟧⟦された→する：00392_suru⟧。",
       "english": "A special heavy rain warning was issued.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20800_tokubetsukeihou_ex2",
-      "japanese": "{特別警報|とくべつけいほう}が{出|で}たら、ただちに{安全|あんぜん}を{確保|かくほ}してください。",
+      "japanese": "{特別警報|とくべつけいほう}⟦が→が：00051_ga⟧⟦{出|で}たら→出る：00513_deru⟧、ただちに⟦{安全|あんぜん}→安全：01131_anzen⟧⟦を→を：00422_wo⟧⟦{確保|かくほ}→確保：13681_kakuho⟧⟦して→する：00392_suru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "If a special warning is issued, immediately ensure your safety.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20800_tokubetsukeihou_ex3",
-      "japanese": "{気象庁|きしょうちょう}が{台風|たいふう}に{伴|ともな}う{暴風|ぼうふう}{特別警報|とくべつけいほう}を{発令|はつれい}した。",
+      "japanese": "⟦{気象庁|きしょうちょう}→気象庁：30107_kishouchou⟧⟦が→が：00051_ga⟧⟦{台風|たいふう}→台風：01455_taifuu⟧⟦に→に：00314_ni⟧⟦{伴|ともな}う→伴う：10389_tomonau⟧{暴風|ぼうふう}{特別警報|とくべつけいほう}⟦を→を：00422_wo⟧⟦{発令|はつれい}→発令：09516_hatsurei⟧⟦した→する：00392_suru⟧。",
       "english": "The Japan Meteorological Agency issued a special storm warning associated with the typhoon.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {特別|とくべつ} (special) + {警報|けいほう} (warning). The highest tier in the Japan Meteorological Agency's three-level warning system, introduced in 2013.\n\nWARNING LEVELS (from lowest to highest):\n- {注意報|ちゅういほう}: advisory — be aware\n- {警報|けいほう}: warning — take precautions\n- {特別警報|とくべつけいほう}: special warning — extreme danger, take immediate action\n\nCOMMON COLLOCATIONS:\n- {特別警報|とくべつけいほう}が{発表|はっぴょう}される: a special warning is issued\n- {特別警報|とくべつけいほう}を{発令|はつれい}する: to issue a special warning\n- {大雨|おおあめ}{特別警報|とくべつけいほう}: special heavy rain warning\n- {暴風|ぼうふう}{特別警報|とくべつけいほう}: special storm warning\n- {大雪|おおゆき}{特別警報|とくべつけいほう}: special heavy snow warning\n\nRELATED TERMS:\n- {避難指示|ひなんしじ}: evacuation order\n- {気象庁|きしょうちょう}: Japan Meteorological Agency (JMA)\n- {防災|ぼうさい}: disaster prevention",
+  "notes": "Composed of ⟦{特別|とくべつ}→特別：01120_tokubetsu⟧ (special) + ⟦{警報|けいほう}→警報：09515_keihou⟧ (warning). The highest tier in the Japan Meteorological Agency's three-level warning system, introduced in 2013.\n\nWARNING LEVELS (from lowest to highest):\n- ⟦{注意報|ちゅういほう}→注意報：16464_chuuihou⟧: advisory — be aware\n- ⟦{警報|けいほう}→警報：09515_keihou⟧: warning — take precautions\n- {特別警報|とくべつけいほう}: special warning — extreme danger, take immediate action\n\nCOMMON COLLOCATIONS:\n- {特別警報|とくべつけいほう}⟦が→が：00051_ga⟧⟦{発表|はっぴょう}される→発表する：25231_happyousuru⟧: a special warning is issued\n- {特別警報|とくべつけいほう}⟦を→を：00422_wo⟧⟦{発令|はつれい}→発令：09516_hatsurei⟧⟦する→する：00392_suru⟧: to issue a special warning\n- {大雨|おおあめ}{特別警報|とくべつけいほう}: special heavy rain warning\n- {暴風|ぼうふう}{特別警報|とくべつけいほう}: special storm warning\n- {大雪|おおゆき}{特別警報|とくべつけいほう}: special heavy snow warning\n\nRELATED WORDS:\n- ⟦{避難指示|ひなんしじ}→避難指示：20801_hinanshiji⟧: evacuation order\n- ⟦{気象庁|きしょうちょう}→気象庁：30107_kishouchou⟧: Japan Meteorological Agency (JMA)\n- ⟦{防災|ぼうさい}→防災：07907_bousai⟧: disaster prevention",
   "cross_references": [
     {
       "type": "contrast",
@@ -53,18 +59,43 @@
       "reading": "ちゅういほう",
       "headword": "{注意報|ちゅういほう}",
       "label": "advisory (lowest level)"
+    },
+    {
+      "type": "related",
+      "target_id": "20801_hinanshiji",
+      "reading": "ひなんしじ",
+      "headword": "{避難指示|ひなんしじ}",
+      "label": "evacuation order"
+    },
+    {
+      "type": "related",
+      "target_id": "30107_kishouchou",
+      "reading": "きしょうちょう",
+      "headword": "{気象庁|きしょうちょう}",
+      "label": "Japan Meteorological Agency"
+    },
+    {
+      "type": "related",
+      "target_id": "07907_bousai",
+      "reading": "ぼうさい",
+      "headword": "{防災|ぼうさい}",
+      "label": "disaster prevention"
     }
   ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["weather"]
+      "semantic": [
+        "weather"
+      ]
     },
     "created": "2026-03-30T16:16:33Z",
-    "modified": "2026-05-04T04:08:05Z"
+    "modified": "2026-09-02T04:02:01Z"
   }
 }

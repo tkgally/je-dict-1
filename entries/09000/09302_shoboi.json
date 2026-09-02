@@ -19,7 +19,7 @@
   "examples": [
     {
       "id": "09302_shoboi_ex1",
-      "japanese": "しょぼい{店|みせ}だな。",
+      "japanese": "しょぼい⟦{店|みせ}→店：00497_mise⟧だな。",
       "english": "What a shabby store.",
       "has_audio": false,
       "sense_numbers": [
@@ -28,7 +28,7 @@
     },
     {
       "id": "09302_shoboi_ex2",
-      "japanese": "{部屋|へや}がしょぼい。",
+      "japanese": "⟦{部屋|へや}→部屋：00507_heya⟧⟦が→が：00051_ga⟧しょぼい。",
       "english": "The room is rundown.",
       "has_audio": false,
       "sense_numbers": [
@@ -37,7 +37,7 @@
     },
     {
       "id": "09302_shoboi_ex3",
-      "japanese": "しょぼいプレゼントをもらった。",
+      "japanese": "しょぼい⟦プレゼント→プレゼント：01791_purezento⟧⟦を→を：00422_wo⟧⟦もらった→もらう：00520_morau⟧。",
       "english": "I got a cheap-looking present.",
       "has_audio": false,
       "sense_numbers": [
@@ -46,7 +46,7 @@
     },
     {
       "id": "09302_shoboi_ex4",
-      "japanese": "しょぼい{結果|けっか}だった。",
+      "japanese": "しょぼい⟦{結果|けっか}→結果：02486_kekka⟧だった。",
       "english": "The results were pathetic.",
       "has_audio": false,
       "sense_numbers": [
@@ -55,7 +55,7 @@
     },
     {
       "id": "09302_shoboi_ex5",
-      "japanese": "しょぼい{言|い}い{訳|わけ}だ。",
+      "japanese": "しょぼい⟦{言|い}い{訳|わけ}→言い訳：04653_iiwake⟧だ。",
       "english": "That's a lame excuse.",
       "has_audio": false,
       "sense_numbers": [
@@ -64,7 +64,7 @@
     },
     {
       "id": "09302_shoboi_ex6",
-      "japanese": "{期待|きたい}していたけどしょぼかった。",
+      "japanese": "⟦{期待|きたい}していた→期待する：06065_kitaisuru⟧⟦けど→けど：09477_kedo⟧しょぼかった。",
       "english": "I had high expectations but it was disappointing.",
       "has_audio": false,
       "sense_numbers": [
@@ -72,10 +72,19 @@
       ]
     }
   ],
-  "notes": "しょぼい may come from しょぼしょぼ, an onomatopoeia describing something weak, dim, or bleary (like tired eyes).\n\nREGISTER:\nThis is casual/colloquial language. Use {貧弱|ひんじゃく}な, {みすぼらしい}, or {情|なさ}けない in more formal contexts.\n\nAs an i-adjective: しょぼくない (negative), しょぼかった (past), しょぼく (adverb form).\n\nCOMMON PATTERNS:\n- しょぼい{顔|かお}: a dejected/pitiful face\n- しょぼく{見|み}える: to look shabby/pathetic",
+  "notes": "しょぼい may come from ⟦しょぼしょぼ→しょぼしょぼ：09454_shoboshobo⟧, an onomatopoeia describing something weak, dim, or bleary (like tired eyes).\n\nREGISTER:\nThis is casual/colloquial language. Use ⟦{貧弱|ひんじゃく}→貧弱：16195_hinjaku⟧な, ⟦みすぼらしい→みすぼらしい：07672_misuborashii⟧, or ⟦{情|なさ}けない→情けない：03129_nasakenai⟧ in more formal contexts.\n\nAs an i-adjective: しょぼく⟦ない→ない：01118_nai⟧ (negative), しょぼかった (past), しょぼく (adverb form).\n\nCOMMON PATTERNS:\n- しょぼい⟦{顔|かお}→顔：00558_kao⟧: a dejected/pitiful face\n- しょぼく⟦{見|み}える→見える：01165_mieru⟧: to look shabby/pathetic",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09415_heboi",
+      "reading": "へぼい",
+      "headword": "へぼい",
+      "label": "lousy, crappy, incompetent"
+    }
+  ],
   "metadata": {
     "created": "2026-02-01T07:08:04Z",
-    "modified": "2026-08-12T21:25:53Z",
+    "modified": "2026-09-02T04:01:17Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

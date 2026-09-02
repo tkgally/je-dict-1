@@ -2,7 +2,7 @@
   "id": "04322_seisaku",
   "headword": "{製作|せいさく}",
   "reading": "せいさく",
-  "part_of_speech": "noun, suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "manufacture, production (industrial)",
   "conjugation": {
     "type": "suru",
@@ -133,10 +133,40 @@
       ]
     }
   ],
-  "notes": "{製作|せいさく} refers to manufacturing or producing physical goods. It emphasizes the industrial or craftsman process of making things.\n\nHOMOPHONE:\n- ⟦{制作|せいさく}→制作：04320_seisaku⟧: production of creative/artistic works (films, art, music)\n\nDISTINCTION:\n- {製作|せいさく}: physical products (machines, furniture, goods)\n- ⟦{制作|せいさく}→制作：04320_seisaku⟧: creative works (films, TV programs, artwork)\n\nNote: In film credits, {製作|せいさく} often refers to the executive producer/financing side, while ⟦{制作|せいさく}→制作：04320_seisaku⟧ refers to the creative production side.\n\nCOMMON COMPOUNDS:\n- {製作|せいさく}⟦{所|じょ}→所：01137_tokoro⟧/{製作|せいさく}⟦{工場|こうじょう}→工場：01082_koujou⟧: manufacturing plant\n- {製作|せいさく}⟦{者|しゃ}→〜者：04662_sha⟧: manufacturer, producer\n- {製作|せいさく}⟦{費|ひ}→費：09877_hi⟧: manufacturing costs",
+  "notes": "{製作|せいさく} refers to manufacturing or producing physical goods. It emphasizes the industrial or craftsman process of making things.\n\nWATCH OUT:\n- ⟦{制作|せいさく}→制作：04320_seisaku⟧: production of creative/artistic works (films, art, music)\n\nSIMILAR WORDS:\n- {製作|せいさく}: physical products (machines, furniture, goods)\n- ⟦{制作|せいさく}→制作：04320_seisaku⟧: creative works (films, TV programs, artwork)\n\nNote: In film credits, {製作|せいさく} often refers to the executive producer/financing side, while ⟦{制作|せいさく}→制作：04320_seisaku⟧ refers to the creative production side.\n\nCOMPOUNDS:\n- {製作|せいさく}⟦{所|じょ}→所：01137_tokoro⟧/{製作|せいさく}⟦{工場|こうじょう}→工場：01082_koujou⟧: manufacturing plant\n- {製作|せいさく}⟦{者|しゃ}→〜者：04662_sha⟧: manufacturer, producer\n- {製作|せいさく}⟦{費|ひ}→費：09877_hi⟧: manufacturing costs",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01444_seisan",
+      "reading": "せいさん",
+      "headword": "{生産|せいさん}",
+      "label": "production, manufacturing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04186_sakusei",
+      "reading": "さくせい",
+      "headword": "{作成|さくせい}",
+      "label": "creation, preparation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25378_sakuseisuru",
+      "reading": "さくせいする",
+      "headword": "{作成|さくせい}する",
+      "label": "to create"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25535_seisakusuru",
+      "reading": "せいさくする",
+      "headword": "{制作|せいさく}する",
+      "label": "to produce"
+    }
+  ],
   "metadata": {
     "created": "2026-01-13T22:31:30Z",
-    "modified": "2026-05-30T20:06:56Z",
+    "modified": "2026-09-02T04:00:52Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -149,7 +179,8 @@
       "semantic": [
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   },
   "prominent_see_also": [

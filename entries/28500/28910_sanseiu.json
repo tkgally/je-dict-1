@@ -15,41 +15,67 @@
   "examples": [
     {
       "id": "28910_sanseiu_ex1",
-      "japanese": "{酸性雨|さんせいう}が{森|もり}を{傷|いた}める。",
+      "japanese": "{酸性雨|さんせいう}⟦が→が：00051_ga⟧⟦{森|もり}→森：02260_mori⟧⟦を→を：00422_wo⟧⟦{傷|いた}める→傷める：02098_itameru⟧。",
       "english": "Acid rain damages forests.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28910_sanseiu_ex2",
-      "japanese": "{酸性雨|さんせいう}の{影響|えいきょう}で{湖|みずうみ}の{魚|さかな}が{減|へ}った。",
+      "japanese": "{酸性雨|さんせいう}⟦の→の：09472_no⟧⟦{影響|えいきょう}→影響：01877_eikyou⟧⟦で→で：00502_de⟧⟦{湖|みずうみ}→湖：00867_mizuumi⟧⟦の→の：09472_no⟧⟦{魚|さかな}→魚：00499_sakana⟧⟦が→が：00051_ga⟧⟦{減|へ}った→減る：01985_heru⟧。",
       "english": "The fish in the lake decreased due to the effects of acid rain.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28910_sanseiu_ex3",
-      "japanese": "{大気汚染|たいきおせん}が{進|すす}むと、{酸性雨|さんせいう}が{建物|たてもの}や{農作物|のうさくぶつ}にも{被害|ひがい}を{与|あた}える。",
+      "japanese": "⟦{大気汚染|たいきおせん}→大気汚染：09254_taikiosen⟧⟦が→が：00051_ga⟧⟦{進|すす}む→進む：01225_susumu⟧⟦と→と：00512_to⟧、{酸性雨|さんせいう}⟦が→が：00051_ga⟧⟦{建物|たてもの}→建物：01458_tatemono⟧や⟦{農作物|のうさくぶつ}→農作物：15271_nousakubutsu⟧⟦に→に：00314_ni⟧⟦も→も：00484_mo⟧⟦{被害|ひがい}→被害：02572_higai⟧⟦を→を：00422_wo⟧⟦{与|あた}える→与える：01821_ataeru⟧。",
       "english": "As air pollution advances, acid rain causes damage to buildings and crops as well.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Compound of {酸性|さんせい} (acidic) + {雨|あめ}/{雨|う} (rain). The reading {う} for {雨} appears in compound terms (cf. {梅雨|ばいう}, {豪雨|ごうう}).\n\nCOMMON COLLOCATIONS:\n- {酸性雨|さんせいう}が{降|ふ}る: acid rain falls\n- {酸性雨|さんせいう}の{被害|ひがい}: damage from acid rain\n- {酸性雨|さんせいう}{対策|たいさく}: countermeasures against acid rain\n- {酸性雨|さんせいう}の{原因|げんいん}: the cause of acid rain\n\nRELATED TERMS:\n- {大気汚染|たいきおせん}: air pollution\n- {環境問題|かんきょうもんだい}: environmental problems",
+  "notes": "Compound of ⟦{酸性|さんせい}→酸性：00454_sansei⟧ (acidic) + ⟦{雨|あめ}→雨：00583_ame⟧/{雨|う} (rain). The reading う for {雨} appears in compound terms (cf. {梅雨|ばいう}, ⟦{豪雨|ごうう}→豪雨：05860_gouu⟧).\n\nCOMMON COLLOCATIONS:\n- {酸性雨|さんせいう}⟦が→が：00051_ga⟧⟦{降|ふ}る→降る：00839_furu⟧: acid rain falls\n- {酸性雨|さんせいう}⟦の→の：09472_no⟧⟦{被害|ひがい}→被害：02572_higai⟧: damage from acid rain\n- {酸性雨|さんせいう}⟦{対策|たいさく}→対策：02511_taisaku⟧: countermeasures against acid rain\n- {酸性雨|さんせいう}⟦の→の：09472_no⟧⟦{原因|げんいん}→原因：01400_genin⟧: the cause of acid rain\n\nRELATED WORDS:\n- ⟦{大気汚染|たいきおせん}→大気汚染：09254_taikiosen⟧: air pollution\n- ⟦{環境問題|かんきょうもんだい}→環境問題：10136_kankyoumondai⟧: environmental problems",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "09254_taikiosen",
+      "reading": "たいきおせん",
+      "headword": "{大気汚染|たいきおせん}",
+      "label": "air pollution"
+    },
+    {
+      "type": "related",
+      "target_id": "10136_kankyoumondai",
+      "reading": "かんきょうもんだい",
+      "headword": "{環境問題|かんきょうもんだい}",
+      "label": "environmental problems"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["nature"],
+      "politeness": "plain",
+      "semantic": [
+        "nature"
+      ],
       "domain": []
     },
     "created": "2026-06-07T03:04:58Z",
-    "modified": "2026-06-07T03:04:58Z"
+    "modified": "2026-09-02T04:02:35Z"
   }
 }

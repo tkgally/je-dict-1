@@ -3,7 +3,7 @@
   "headword": "{支援|しえん}する",
   "reading": "しえんする",
   "romaji": "shiensuru",
-  "part_of_speech": "verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "to support; to aid; to assist",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25534_shiensuru_ex1",
-      "japanese": "{被災者|ひさいしゃ}を{支援|しえん}する。",
+      "japanese": "⟦{被災者|ひさいしゃ}→被災者：25337_hisaisha⟧⟦を→を：00422_wo⟧{支援|しえん}する。",
       "english": "We support the disaster victims.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25534_shiensuru_ex2",
-      "japanese": "{政府|せいふ}は{中小企業|ちゅうしょうきぎょう}を{支援|しえん}する{方針|ほうしん}を{発表|はっぴょう}した。",
+      "japanese": "⟦{政府|せいふ}→政府：03294_seifu⟧⟦は→は：00079_ha⟧⟦{中小企業|ちゅうしょうきぎょう}→中小企業：24117_chuushoukigyou⟧⟦を→を：00422_wo⟧{支援|しえん}する⟦{方針|ほうしん}→方針：04871_houshin⟧⟦を→を：00422_wo⟧⟦{発表|はっぴょう}した→発表する：25231_happyousuru⟧。",
       "english": "The government announced a policy to support small and medium-sized businesses.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25534_shiensuru_ex3",
-      "japanese": "ボランティアが{現地|げんち}に{入|はい}り、{復旧|ふっきゅう}{活動|かつどう}を{支援|しえん}している。",
+      "japanese": "⟦ボランティア→ボランティア：04834_borantia⟧⟦が→が：00051_ga⟧⟦{現地|げんち}→現地：13502_genchi⟧⟦に→に：00314_ni⟧⟦{入|はい}り→入る：00494_hairu⟧、⟦{復旧|ふっきゅう}→復旧：07521_fukkyuu⟧⟦{活動|かつどう}→活動：00201_katsudou⟧⟦を→を：00422_wo⟧{支援|しえん}して⟦いる→いる：00495_iru⟧。",
       "english": "Volunteers have entered the area and are assisting with recovery efforts.",
       "sense_numbers": [
         1
@@ -44,8 +44,37 @@
       "notes": null
     }
   ],
-  "notes": "{支援|しえん}する implies organized, sustained help rather than a one-time favor. It is widely used in news, government policy, NGO work, and business contexts. The help may be financial, logistical, emotional, or technical.\n\nCOMMON COLLOCATIONS:\n- {資金|しきん}{支援|しえん}: financial support\n- {技術|ぎじゅつ}{支援|しえん}: technical support\n- {復興|ふっこう}{支援|しえん}: reconstruction aid\n- {子育|こそだ}て{支援|しえん}: childcare support\n- {就職|しゅうしょく}{支援|しえん}: job-hunting assistance\n- {支援|しえん}{団体|だんたい}: support organization\n\nSIMILAR WORDS:\n- {援助|えんじょ}する: to aid — often implies material or financial aid, especially in international contexts\n- {応援|おうえん}する: to cheer on; to root for — more personal and emotional, includes cheering at events\n- {助|たす}ける: to help; to rescue — more immediate and personal, often used for direct physical help",
-  "cross_references": [],
+  "notes": "{支援|しえん}する implies organized, sustained help rather than a one-time favor. It is widely used in news, government policy, NGO work, and business contexts. The help may be financial, logistical, emotional, or technical.\n\nCOMMON COLLOCATIONS:\n- ⟦{資金|しきん}→資金：09937_shikin⟧⟦{支援|しえん}→支援：07778_shien⟧: financial support\n- ⟦{技術|ぎじゅつ}→技術：01389_gijutsu⟧⟦{支援|しえん}→支援：07778_shien⟧: technical support\n- ⟦{復興|ふっこう}→復興：07590_fukkou⟧⟦{支援|しえん}→支援：07778_shien⟧: reconstruction aid\n- ⟦{子育|こそだ}て→子育て：12226_kosodate⟧⟦{支援|しえん}→支援：07778_shien⟧: childcare support\n- ⟦{就職|しゅうしょく}→就職：03209_shuushoku⟧⟦{支援|しえん}→支援：07778_shien⟧: job-hunting assistance\n- ⟦{支援|しえん}→支援：07778_shien⟧⟦{団体|だんたい}→団体：03426_dantai⟧: support organization\n\nSIMILAR WORDS:\n- ⟦{援助|えんじょ}する→援助する：26855_enjosuru⟧: to aid — often implies material or financial aid, especially in international contexts\n- ⟦{応援|おうえん}する→応援する：21988_ouensuru⟧: to cheer on; to root for — more personal and emotional, includes cheering at events\n- ⟦{助|たす}ける→助ける：00895_tasukeru⟧: to help; to rescue — more immediate and personal, often used for direct physical help",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "26855_enjosuru",
+      "reading": "えんじょする",
+      "headword": "{援助|えんじょ}する",
+      "label": "to aid"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21988_ouensuru",
+      "reading": "おうえんする",
+      "headword": "{応援|おうえん}する",
+      "label": "to cheer on"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00895_tasukeru",
+      "reading": "たすける",
+      "headword": "{助|たす}ける",
+      "label": "to help"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21876_joseisuru",
+      "reading": "じょせいする",
+      "headword": "{助成|じょせい}する",
+      "label": "to subsidize"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -54,6 +83,8 @@
         "noun",
         "verb-suru"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "action",
         "society"
@@ -62,7 +93,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-25T16:14:53Z",
-    "modified": "2026-04-25T16:14:53Z"
+    "modified": "2026-09-02T04:02:22Z"
   },
   "conjugation": {
     "type": "suru",

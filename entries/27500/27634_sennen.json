@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "27634_sennen_ex1",
-      "japanese": "{先年|せんねん}{亡|な}くなった{祖父|そふ}を{思|おも}い{出|だ}す。",
+      "japanese": "{先年|せんねん}⟦{亡|な}くなった→亡くなる：02639_nakunaru⟧⟦{祖父|そふ}→祖父：01452_sofu⟧⟦を→を：00422_wo⟧⟦{思|おも}い{出|だ}す→思い出す：01258_omoidasu⟧。",
       "english": "I think of my grandfather, who passed away some years ago.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "27634_sennen_ex2",
-      "japanese": "{先年|せんねん}の{震災|しんさい}の{被害|ひがい}はまだ{残|のこ}っている。",
+      "japanese": "{先年|せんねん}⟦の→の：09472_no⟧⟦{震災|しんさい}→震災：14610_shinsai⟧⟦の→の：09472_no⟧⟦{被害|ひがい}→被害：02572_higai⟧⟦は→は：00079_ha⟧⟦まだ→まだ：00603_mada⟧⟦{残|のこ}っている→残る：01187_nokoru⟧。",
       "english": "The damage from the earthquake disaster a few years back still remains.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "27634_sennen_ex3",
-      "japanese": "{先年|せんねん}{出版|しゅっぱん}された{彼|かれ}の{著書|ちょしょ}が{再評価|さいひょうか}されている。",
+      "japanese": "{先年|せんねん}⟦{出版|しゅっぱん}→出版：03222_shuppan⟧⟦された→する：00392_suru⟧⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧⟦{著書|ちょしょ}→著書：14083_chosho⟧⟦が→が：00051_ga⟧⟦{再評価|さいひょうか}→再評価：28226_saihyouka⟧⟦されている→する：00392_suru⟧。",
       "english": "His book, published a few years ago, is being reevaluated.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "{先|せん} (previous, earlier) + {年|ねん} (year). Used more in writing and formal speech than in casual conversation.\n\nSIMILAR WORDS:\n- {去年|きょねん}: last year — specifically the year before this one\n- {一昨年|おととし}: the year before last — exactly two years ago\n- {数年前|すうねんまえ}: a few years ago — neutral, common in conversation\n- {往年|おうねん}: bygone years, days of yore — more literary, evokes nostalgia\n\nREGISTER: Sounds slightly stiff or written; in casual speech {数年前|すうねんまえ} or 'この{前|まえ}' is more natural.",
+  "notes": "{先|せん} (previous, earlier) + ⟦{年|ねん}→年：09876_nen⟧ (year). Used more in writing and formal speech than in casual conversation.\n\nSIMILAR WORDS:\n- ⟦{去年|きょねん}→去年：00727_kyonen⟧: last year — specifically the year before this one\n- {一昨年|おととし}: the year before last — exactly two years ago\n- {数年前|すうねんまえ}: a few years ago — neutral, common in conversation\n- {往年|おうねん}: bygone years, days of yore — more literary, evokes nostalgia\n\nREGISTER: Sounds slightly stiff or written; in casual speech {数年前|すうねんまえ} or '⟦この{前|まえ}→この前：25259_konomae⟧' is more natural.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00727_kyonen",
+      "reading": "きょねん",
+      "headword": "{去年|きょねん}",
+      "label": "last year"
+    },
+    {
+      "type": "related",
+      "target_id": "00751_sengetsu",
+      "reading": "せんげつ",
+      "headword": "{先月|せんげつ}",
+      "label": "last month"
+    },
+    {
+      "type": "related",
+      "target_id": "00752_senshuu",
+      "reading": "せんしゅう",
+      "headword": "{先週|せんしゅう}",
+      "label": "last week"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +76,13 @@
         "noun"
       ],
       "formality": "formal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "time-general"
       ],
       "domain": []
     },
     "created": "2026-05-15T04:12:19Z",
-    "modified": "2026-08-07T15:50:37Z"
+    "modified": "2026-09-02T04:02:31Z"
   }
 }

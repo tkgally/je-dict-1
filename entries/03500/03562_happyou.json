@@ -2,7 +2,7 @@
   "id": "03562_happyou",
   "headword": "{発表|はっぴょう}",
   "reading": "はっぴょう",
-  "part_of_speech": "noun, suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "announcement, presentation",
   "conjugation": {
     "type": "suru",
@@ -168,7 +168,7 @@
       ]
     }
   ],
-  "notes": "USAGE: {発表|はっぴょう} covers both official announcements (news, results) and academic/artistic presentations.\n\nCOMMON PATTERNS:\n・{発表|はっぴょう}⟦する→する：00392_suru⟧ (to announce, to present)\n・{発表|はっぴょう}によると (according to the announcement)\n・⟦{発表|はっぴょう}{会|かい}→発表会：27716_happyoukai⟧ (presentation, recital)\n・{発表|はっぴょう}を⟦{行|おこな}う→行う：01238_okonau⟧ (to make an announcement)\n\nCOMMON COMPOUNDS:\n・⟦{発表|はっぴょう}{会|かい}→発表会：27716_happyoukai⟧ (presentation meeting, recital)\n・⟦{記者|きしゃ}→記者：14170_kisha⟧{発表|はっぴょう} (press release)\n・⟦{研究|けんきゅう}→研究：01396_kenkyuu⟧{発表|はっぴょう} (research presentation)\n・⟦{学会|がっかい}→学会：04139_gakkai⟧{発表|はっぴょう} (conference presentation)\n・⟦{公式|こうしき}→公式：04167_koushiki⟧{発表|はっぴょう} (official announcement)\n\nSIMILAR WORDS:\n・⟦{公表|こうひょう}→公表：11640_kouhyou⟧ - public disclosure (formal)\n・⟦{発売|はつばい}→発売：04315_hatsubai⟧ - release for sale\n・⟦{報告|ほうこく}→報告：03618_houkoku⟧ - report",
+  "notes": "USAGE: {発表|はっぴょう} covers both official announcements (news, results) and academic/artistic presentations.\n\nCOMMON PATTERNS:\n- {発表|はっぴょう}⟦する→する：00392_suru⟧ (to announce, to present)\n- {発表|はっぴょう}⟦によると→〜によると：03104_niyoruto⟧ (according to the announcement)\n- ⟦{発表|はっぴょう}{会|かい}→発表会：27716_happyoukai⟧ (presentation, recital)\n- {発表|はっぴょう}⟦を→を：00422_wo⟧⟦{行|おこな}う→行う：01238_okonau⟧ (to make an announcement)\n\nCOMPOUNDS:\n- ⟦{発表|はっぴょう}{会|かい}→発表会：27716_happyoukai⟧ (presentation meeting, recital)\n- ⟦{記者|きしゃ}→記者：14170_kisha⟧{発表|はっぴょう} (press release)\n- ⟦{研究|けんきゅう}→研究：01396_kenkyuu⟧{発表|はっぴょう} (research presentation)\n- ⟦{学会|がっかい}→学会：04139_gakkai⟧{発表|はっぴょう} (conference presentation)\n- ⟦{公式|こうしき}→公式：04167_koushiki⟧{発表|はっぴょう} (official announcement)\n\nSIMILAR WORDS:\n- ⟦{公表|こうひょう}→公表：11640_kouhyou⟧ - public disclosure (formal)\n- ⟦{発売|はつばい}→発売：04315_hatsubai⟧ - release for sale\n- ⟦{報告|ほうこく}→報告：03618_houkoku⟧ - report",
   "cross_references": [
     {
       "type": "related",
@@ -176,11 +176,53 @@
       "headword": "{公表|こうひょう}",
       "label": "public disclosure",
       "target_id": "11640_kouhyou"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04315_hatsubai",
+      "reading": "はつばい",
+      "headword": "{発売|はつばい}",
+      "label": "release for sale"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03618_houkoku",
+      "reading": "ほうこく",
+      "headword": "{報告|ほうこく}",
+      "label": "report"
+    },
+    {
+      "type": "related",
+      "target_id": "03852_supiichi",
+      "reading": "すぴーち",
+      "headword": "スピーチ",
+      "label": "speech"
+    },
+    {
+      "type": "related",
+      "target_id": "09516_hatsurei",
+      "reading": "はつれい",
+      "headword": "{発令|はつれい}",
+      "label": "issuance (of an order/warning)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11665_koukai",
+      "reading": "こうかい",
+      "headword": "{公開|こうかい}",
+      "label": "release to the public, opening"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29053_purezenteeshon",
+      "reading": "ぷれぜんてーしょん",
+      "headword": "プレゼンテーション",
+      "label": "presentation"
     }
   ],
   "metadata": {
     "created": "2026-01-12T11:34:00Z",
-    "modified": "2026-06-12T18:28:11Z",
+    "modified": "2026-09-02T04:01:03Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -197,7 +239,8 @@
         "communication",
         "education"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

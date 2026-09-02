@@ -15,40 +15,74 @@
   "examples": [
     {
       "id": "22752_jian_ex1",
-      "japanese": "この{事案|じあん}について{調査|ちょうさ}する。",
+      "japanese": "⟦この→この：00962_kono⟧{事案|じあん}⟦について→〜について：03103_nitsuite⟧⟦{調査|ちょうさ}→調査：03489_chousa⟧⟦する→する：00392_suru⟧。",
       "english": "We will investigate this case.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "22752_jian_ex2",
-      "japanese": "{個人情報|こじんじょうほう}{漏洩|ろうえい}の{事案|じあん}が{発生|はっせい}した。",
+      "japanese": "⟦{個人情報|こじんじょうほう}→個人情報：18842_kojinjouhou⟧⟦{漏洩|ろうえい}→漏洩：09150_rouei⟧⟦の→の：09472_no⟧{事案|じあん}⟦が→が：00051_ga⟧⟦{発生|はっせい}した→発生する：25529_hasseisuru⟧。",
       "english": "A personal data breach incident occurred.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "22752_jian_ex3",
-      "japanese": "{過去|かこ}の{類似|るいじ}{事案|じあん}を{参考|さんこう}にして{対応|たいおう}を{決|き}める。",
+      "japanese": "⟦{過去|かこ}→過去：00152_kako⟧⟦の→の：09472_no⟧⟦{類似|るいじ}→類似：14672_ruiji⟧{事案|じあん}⟦を→を：00422_wo⟧⟦{参考|さんこう}→参考：02828_sankou⟧にして⟦{対応|たいおう}→対応：02510_taiou⟧⟦を→を：00422_wo⟧⟦{決|き}める→決める：00858_kimeru⟧。",
       "english": "We will decide on our response by referring to similar past cases.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A formal word for 'case' or 'matter,' commonly used in legal, government, business, and news contexts. It often implies a problem, incident, or issue that needs to be addressed. In recent years, it has also spread into informal internet slang — for example, {事案|じあん} is sometimes used humorously online to describe minor everyday incidents as if they were serious official cases.\n\nCOMMON COLLOCATIONS:\n- {事案|じあん}が{発生|はっせい}する: an incident occurs\n- {重大|じゅうだい}{事案|じあん}: serious matter/case\n- {不祥事|ふしょうじ}{事案|じあん}: misconduct case\n- {類似|るいじ}{事案|じあん}: similar case\n- {個別|こべつ}{事案|じあん}: individual case\n\nSIMILAR WORDS:\n- {事件|じけん}: incident, case — broader and more commonly used; often implies criminal activity\n- {案件|あんけん}: matter, case — very similar; more often used for projects or tasks under consideration\n- {問題|もんだい}: problem, issue — more general, less formal",
+  "notes": "A formal word for 'case' or 'matter,' commonly used in legal, government, business, and news contexts. It often implies a problem, incident, or issue that needs to be addressed. In recent years, it has also spread into informal internet slang — for example, {事案|じあん} is sometimes used humorously online to describe minor everyday incidents as if they were serious official cases.\n\nCOMMON COLLOCATIONS:\n- {事案|じあん}⟦が→が：00051_ga⟧⟦{発生|はっせい}する→発生する：25529_hasseisuru⟧: an incident occurs\n- ⟦{重大|じゅうだい}→重大：01641_juudai⟧{事案|じあん}: serious matter/case\n- {不祥事|ふしょうじ}{事案|じあん}: misconduct case\n- ⟦{類似|るいじ}→類似：14672_ruiji⟧{事案|じあん}: similar case\n- ⟦{個別|こべつ}→個別：11566_kobetsu⟧{事案|じあん}: individual case\n\nSIMILAR WORDS:\n- ⟦{事件|じけん}→事件：01568_jiken⟧: incident, case — broader and more commonly used; often implies criminal activity\n- ⟦{案件|あんけん}→案件：13109_anken⟧: matter, case — very similar; more often used for projects or tasks under consideration\n- ⟦{問題|もんだい}→問題：00797_mondai⟧: problem, issue — more general, less formal",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01568_jiken",
+      "reading": "じけん",
+      "headword": "{事件|じけん}",
+      "label": "incident, case"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13109_anken",
+      "reading": "あんけん",
+      "headword": "{案件|あんけん}",
+      "label": "matter, case"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00797_mondai",
+      "reading": "もんだい",
+      "headword": "{問題|もんだい}",
+      "label": "problem, issue"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["law", "business"],
+      "pos": [
+        "noun"
+      ],
+      "semantic": [
+        "law",
+        "business"
+      ],
       "formality": "formal",
       "politeness": "plain"
     },
     "created": "2026-04-07T14:17:33Z",
-    "modified": "2026-04-07T14:17:33Z"
+    "modified": "2026-09-02T04:02:09Z"
   }
 }

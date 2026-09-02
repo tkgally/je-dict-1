@@ -15,39 +15,66 @@
   "examples": [
     {
       "id": "26690_kurashikkueiga_ex1",
-      "japanese": "クラシック{映画|えいが}が{好|す}きだ。",
+      "japanese": "クラシック{映画|えいが}⟦が→が：00051_ga⟧⟦{好|す}き→好き：02355_suki⟧だ。",
       "english": "I like classic films.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26690_kurashikkueiga_ex2",
-      "japanese": "{週末|しゅうまつ}にクラシック{映画|えいが}の{特集|とくしゅう}をテレビでやっている。",
+      "japanese": "⟦{週末|しゅうまつ}→週末：03030_shuumatsu⟧⟦に→に：00314_ni⟧クラシック{映画|えいが}⟦の→の：09472_no⟧⟦{特集|とくしゅう}→特集：13468_tokushuu⟧⟦を→を：00422_wo⟧⟦テレビ→テレビ：01536_terebi⟧⟦で→で：00502_de⟧⟦やっている→やる：02980_yaru⟧。",
       "english": "They're running a classic film special on TV this weekend.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26690_kurashikkueiga_ex3",
-      "japanese": "{黒澤明|くろさわあきら}のクラシック{映画|えいが}は、{今|いま}でも{世界中|せかいじゅう}の{映画|えいが}ファンに{愛|あい}されている。",
+      "japanese": "{黒澤明|くろさわあきら}⟦の→の：09472_no⟧クラシック{映画|えいが}⟦は→は：00079_ha⟧、⟦{今|いま}→今：00945_ima⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧⟦{世界中|せかいじゅう}→世界中：10171_sekaijuu⟧⟦の→の：09472_no⟧⟦{映画|えいが}→映画：02273_eiga⟧⟦ファン→ファン：10065_fan⟧⟦に→に：00314_ni⟧⟦{愛|あい}されている→愛する：01811_aisuru⟧。",
       "english": "Akira Kurosawa's classic films are still loved by movie fans around the world.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of クラシック (classic) and {映画|えいが} (film/movie). Refers to older films that have stood the test of time and are considered masterpieces or culturally important works. The term covers both Japanese cinema ({邦画|ほうが}) and foreign films ({洋画|ようが}).\n\nCOMMON COLLOCATIONS:\n- クラシック{映画|えいが}の{名作|めいさく}: classic film masterpiece\n- クラシック{映画|えいが}を{鑑賞|かんしょう}する: to watch/appreciate a classic film\n- クラシック{映画|えいが}{特集|とくしゅう}: classic film special/feature\n- クラシック{映画|えいが}ファン: classic film fan\n\nSIMILAR WORDS:\n- {名画|めいが}: masterpiece film — focuses on quality rather than era\n- {旧作|きゅうさく}: older work — neutral term for any older film without the \"classic\" quality connotation\n- {往年|おうねん}の{映画|えいが}: film from years past — literary/nostalgic nuance",
-  "cross_references": [],
+  "notes": "Composed of ⟦クラシック→クラシック：03838_kurashikku⟧ (classic) and ⟦{映画|えいが}→映画：02273_eiga⟧ (film/movie). Refers to older films that have stood the test of time and are considered masterpieces or culturally important works. The term covers both Japanese cinema (⟦{邦画|ほうが}→邦画：14740_houga⟧) and foreign films (⟦{洋画|ようが}→洋画：14741_youga⟧).\n\nCOMMON COLLOCATIONS:\n- クラシック{映画|えいが}⟦の→の：09472_no⟧⟦{名作|めいさく}→名作：11869_meisaku⟧: classic film masterpiece\n- クラシック{映画|えいが}⟦を→を：00422_wo⟧⟦{鑑賞|かんしょう}→鑑賞：14516_kanshou⟧⟦する→する：00392_suru⟧: to watch/appreciate a classic film\n- クラシック{映画|えいが}⟦{特集|とくしゅう}→特集：13468_tokushuu⟧: classic film special/feature\n- クラシック{映画|えいが}⟦ファン→ファン：10065_fan⟧: classic film fan\n\nSIMILAR WORDS:\n- ⟦{名画|めいが}→名画：17385_meiga⟧: masterpiece film — focuses on quality rather than era\n- ⟦{旧作|きゅうさく}→旧作：24147_kyuusaku⟧: older work — neutral term for any older film without the \"classic\" quality connotation\n- {往年|おうねん}⟦の→の：09472_no⟧⟦{映画|えいが}→映画：02273_eiga⟧: film from years past — literary/nostalgic nuance",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17385_meiga",
+      "reading": "めいが",
+      "headword": "{名画|めいが}",
+      "label": "masterpiece film"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24147_kyuusaku",
+      "reading": "きゅうさく",
+      "headword": "{旧作|きゅうさく}",
+      "label": "older work"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["entertainment", "culture"]
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "entertainment",
+        "culture"
+      ]
     },
     "created": "2026-05-04T13:51:41Z",
-    "modified": "2026-05-04T13:51:41Z"
+    "modified": "2026-09-02T04:02:27Z"
   }
 }

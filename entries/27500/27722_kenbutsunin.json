@@ -15,41 +15,81 @@
   "examples": [
     {
       "id": "27722_kenbutsunin_ex1",
-      "japanese": "{見物人|けんぶつにん}が{集|あつ}まる。",
+      "japanese": "{見物人|けんぶつにん}⟦が→が：00051_ga⟧⟦{集|あつ}まる→集まる：01162_atsumaru⟧。",
       "english": "Onlookers gather.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27722_kenbutsunin_ex2",
-      "japanese": "{火事|かじ}{現場|げんば}に{見物人|けんぶつにん}が{大勢|おおぜい}いた。",
+      "japanese": "⟦{火事|かじ}→火事：01283_kaji⟧⟦{現場|げんば}→現場：02723_genba⟧⟦に→に：00314_ni⟧{見物人|けんぶつにん}⟦が→が：00051_ga⟧⟦{大勢|おおぜい}→大勢：02850_oozei⟧⟦いた→いる：00495_iru⟧。",
       "english": "There were many onlookers at the fire scene.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27722_kenbutsunin_ex3",
-      "japanese": "{祭|まつ}りの{行列|ぎょうれつ}を{見物人|けんぶつにん}が{道|みち}の{両側|りょうがわ}から{眺|なが}めていた。",
+      "japanese": "⟦{祭|まつ}り→祭り：03735_matsuri⟧⟦の→の：09472_no⟧⟦{行列|ぎょうれつ}→行列：09699_gyouretsu⟧⟦を→を：00422_wo⟧{見物人|けんぶつにん}⟦が→が：00051_ga⟧⟦{道|みち}→道：00505_michi⟧⟦の→の：09472_no⟧⟦{両側|りょうがわ}→両側：28877_ryougawa⟧⟦から→から：00504_kara⟧⟦{眺|なが}めていた→眺める：02132_nagameru⟧。",
       "english": "Spectators watched the festival procession from both sides of the street.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {見物|けんぶつ} (watching, sightseeing) + {人|にん} (person). Refers to someone watching an event or spectacle, often as a casual or curious bystander rather than an invited guest.\n\nCOMMON COLLOCATIONS:\n- {見物人|けんぶつにん}が{集|あつ}まる: onlookers gather\n- {大勢|おおぜい}の{見物人|けんぶつにん}: a large crowd of spectators\n- {見物人|けんぶつにん}でにぎわう: to be lively with spectators\n\nSIMILAR WORDS:\n- {観客|かんきゃく}: audience — people who attend a performance or game, often with tickets\n- {野次馬|やじうま}: rubberneckers — onlookers who gather purely out of idle curiosity, with a negative nuance",
+  "notes": "Composed of ⟦{見物|けんぶつ}→見物：01398_kenbutsu⟧ (watching, sightseeing) + ⟦{人|にん}→〜人：00658_nin⟧ (person). Refers to someone watching an event or spectacle, often as a casual or curious bystander rather than an invited guest.\n\nCOMMON COLLOCATIONS:\n- {見物人|けんぶつにん}⟦が→が：00051_ga⟧⟦{集|あつ}まる→集まる：01162_atsumaru⟧: onlookers gather\n- ⟦{大勢|おおぜい}→大勢：02850_oozei⟧⟦の→の：09472_no⟧{見物人|けんぶつにん}: a large crowd of spectators\n- {見物人|けんぶつにん}⟦で→で：00502_de⟧にぎわう: to be lively with spectators\n\nSIMILAR WORDS:\n- ⟦{観客|かんきゃく}→観客：02556_kankyaku⟧: audience — people who attend a performance or game, often with tickets\n- ⟦{野次馬|やじうま}→野次馬：16403_yajiuma⟧: rubberneckers — onlookers who gather purely out of idle curiosity, with a negative nuance",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02556_kankyaku",
+      "reading": "かんきゃく",
+      "headword": "{観客|かんきゃく}",
+      "label": "audience"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16403_yajiuma",
+      "reading": "やじうま",
+      "headword": "{野次馬|やじうま}",
+      "label": "rubberneckers"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20381_boukansha",
+      "reading": "ぼうかんしゃ",
+      "headword": "{傍観者|ぼうかんしゃ}",
+      "label": "bystander"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22893_kanshuu",
+      "reading": "かんしゅう",
+      "headword": "{観衆|かんしゅう}",
+      "label": "spectators"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["person"],
+      "politeness": "plain",
+      "semantic": [
+        "person"
+      ],
       "domain": []
     },
     "created": "2026-05-17T04:06:49Z",
-    "modified": "2026-05-17T04:06:49Z"
+    "modified": "2026-09-02T04:02:31Z"
   }
 }

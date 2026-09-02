@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "07091_denkigishi_ex1",
-      "japanese": "{電気技師|でんきぎし}に{配線|はいせん}を{点検|てんけん}してもらった。",
+      "japanese": "{電気技師|でんきぎし}⟦に→に：00314_ni⟧⟦{配線|はいせん}→配線：07862_haisen⟧⟦を→を：00422_wo⟧⟦{点検|てんけん}→点検：09765_tenken⟧⟦して→する：00392_suru⟧⟦もらった→もらう：00520_morau⟧。",
       "english": "I had an electrician inspect the wiring.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "07091_denkigishi_ex2",
-      "japanese": "{彼|かれ}は{電気技師|でんきぎし}の{資格|しかく}を{持|も}っている。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{電気技師|でんきぎし}⟦の→の：09472_no⟧⟦{資格|しかく}→資格：02834_shikaku⟧⟦を→を：00422_wo⟧⟦{持|も}っている→持つ：00478_motsu⟧。",
       "english": "He has an electrician's license.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "07091_denkigishi_ex3",
-      "japanese": "{停電|ていでん}の{原因|げんいん}を{電気技師|でんきぎし}が{調|しら}べている。",
+      "japanese": "⟦{停電|ていでん}→停電：03544_teiden⟧⟦の→の：09472_no⟧⟦{原因|げんいん}→原因：01400_genin⟧⟦を→を：00422_wo⟧{電気技師|でんきぎし}⟦が→が：00051_ga⟧⟦{調|しら}べている→調べる：01213_shiraberu⟧。",
       "english": "An electrician is investigating the cause of the power outage.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "RELATED TERMS:\n・{電気工事士|でんきこうじし} (licensed electrician - official term for the Japanese qualification)\n・{電気屋|でんきや}さん (electrician - colloquial)\n\nQUALIFICATION NOTE: In Japan, {電気工事士|でんきこうじし} is the official qualification for electrical work. There are two levels: {第一種|だいいっしゅ} (Class 1) and {第二種|だいにしゅ} (Class 2).\n\nCOMMON COLLOCATIONS:\n・{電気技師|でんきぎし}を{呼|よ}ぶ (to call an electrician)\n・{電気技師|でんきぎし}に{修理|しゅうり}を{頼|たの}む (to ask an electrician for repairs)",
+  "notes": "RELATED WORDS:\n- ⟦{電気工事士|でんきこうじし}→電気工事士：30200_denkikoujishi⟧ (licensed electrician - official term for the Japanese qualification)\n- {電気屋|でんきや}さん (electrician - colloquial)\n\nQUALIFICATION NOTE: In Japan, ⟦{電気工事士|でんきこうじし}→電気工事士：30200_denkikoujishi⟧ is the official qualification for electrical work. There are two levels: {第一種|だいいっしゅ} (Class 1) and {第二種|だいにしゅ} (Class 2).\n\nCOMMON COLLOCATIONS:\n- {電気技師|でんきぎし}⟦を→を：00422_wo⟧⟦{呼|よ}ぶ→呼ぶ：00766_yobu⟧ (to call an electrician)\n- {電気技師|でんきぎし}⟦に→に：00314_ni⟧⟦{修理|しゅうり}→修理：03214_shuuri⟧⟦を→を：00422_wo⟧⟦{頼|たの}む→頼む：01104_tanomu⟧ (to ask an electrician for repairs)",
   "cross_references": [
     {
       "type": "related",
@@ -51,11 +51,25 @@
       "headword": "{配管工|はいかんこう}",
       "label": "plumber",
       "target_id": "07090_haikankou"
+    },
+    {
+      "type": "related",
+      "target_id": "30200_denkikoujishi",
+      "reading": "でんきこうじし",
+      "headword": "電気工事士",
+      "label": "licensed electrician"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24154_denkou",
+      "reading": "でんこう",
+      "headword": "{電工|でんこう}",
+      "label": "electrician"
     }
   ],
   "metadata": {
     "created": "2026-01-18T23:14:56Z",
-    "modified": "2026-08-10T06:41:18Z",
+    "modified": "2026-09-02T04:01:10Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

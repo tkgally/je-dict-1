@@ -15,41 +15,80 @@
   "examples": [
     {
       "id": "18881_toraekata_ex1",
-      "japanese": "{捉|とら}え{方|かた}は{人|ひと}それぞれだ。",
+      "japanese": "{捉|とら}え{方|かた}⟦は→は：00079_ha⟧⟦{人|ひと}それぞれ→人それぞれ：24844_hitosorezore⟧だ。",
       "english": "Everyone has their own way of looking at things.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18881_toraekata_ex2",
-      "japanese": "{物事|ものごと}の{捉|とら}え{方|かた}を{変|か}えてみよう。",
+      "japanese": "⟦{物事|ものごと}→物事：00291_monogoto⟧⟦の→の：09472_no⟧{捉|とら}え{方|かた}⟦を→を：00422_wo⟧⟦{変|か}えて→変える：01089_kaeru⟧みよう。",
       "english": "Let's try changing the way we look at things.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18881_toraekata_ex3",
-      "japanese": "{同|おな}じ{出来事|できごと}でも、{捉|とら}え{方|かた}によってポジティブにもネガティブにもなる。",
+      "japanese": "⟦{同|おな}じ→同じ：02857_onaji⟧⟦{出来事|できごと}→出来事：03446_dekigoto⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧、{捉|とら}え{方|かた}⟦によって→によって：06801_niyotte⟧⟦ポジティブ→ポジティブ：29676_pojitibu⟧⟦に→に：00314_ni⟧⟦も→も：00484_mo⟧⟦ネガティブ→ネガティブ：29634_negatibu⟧⟦に→に：00314_ni⟧⟦も→も：00484_mo⟧⟦なる→なる：01970_naru⟧。",
       "english": "Even the same event can seem positive or negative depending on how you interpret it.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nA common abstract noun in discussions about perspectives, attitudes, and mindset. Often used in self-help, psychology, and everyday conversation about reframing problems.\n\nCOMMON COLLOCATIONS:\n- {捉|とら}え{方|かた}を{変|か}える (to change one's perspective)\n- {捉|とら}え{方|かた}によって (depending on how you look at it)\n- {捉|とら}え{方|かた}が{違|ちが}う (to have a different interpretation)\n- {物事|ものごと}の{捉|とら}え{方|かた} (way of looking at things)\n\nSIMILAR WORDS:\n- {考|かんが}え{方|かた}: way of thinking — broader, about thought processes in general\n- {見方|みかた}: viewpoint, perspective — more about visual or evaluative perspective\n- {解釈|かいしゃく}: interpretation — more formal, used for texts or rules",
-  "cross_references": [],
+  "notes": "USAGE:\nA common abstract noun in discussions about perspectives, attitudes, and mindset. Often used in self-help, psychology, and everyday conversation about reframing problems.\n\nCOMMON COLLOCATIONS:\n- {捉|とら}え{方|かた}⟦を→を：00422_wo⟧⟦{変|か}える→変える：01089_kaeru⟧ (to change one's perspective)\n- {捉|とら}え{方|かた}⟦によって→によって：06801_niyotte⟧ (depending on how you look at it)\n- {捉|とら}え{方|かた}⟦が→が：00051_ga⟧⟦{違|ちが}う→違う：01957_chigau⟧ (to have a different interpretation)\n- ⟦{物事|ものごと}→物事：00291_monogoto⟧⟦の→の：09472_no⟧{捉|とら}え{方|かた} (way of looking at things)\n\nSIMILAR WORDS:\n- ⟦{考|かんが}え{方|かた}→考え方：10169_kangaekata⟧: way of thinking — broader, about thought processes in general\n- ⟦{見方|みかた}→見方：10072_mikata⟧: viewpoint, perspective — more about visual or evaluative perspective\n- ⟦{解釈|かいしゃく}→解釈：02603_kaishaku⟧: interpretation — more formal, used for texts or rules",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "10169_kangaekata",
+      "reading": "かんがえかた",
+      "headword": "{考|かんが}え{方|かた}",
+      "label": "way of thinking"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10072_mikata",
+      "reading": "みかた",
+      "headword": "{見方|みかた}",
+      "label": "viewpoint, perspective"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02603_kaishaku",
+      "reading": "かいしゃく",
+      "headword": "{解釈|かいしゃく}",
+      "label": "interpretation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23694_uketomekata",
+      "reading": "うけとめかた",
+      "headword": "{受|う}け{止|と}め{方|かた}",
+      "label": "way of taking something (mentally)"
+    }
+  ],
   "metadata": {
     "created": "2026-03-23T06:21:28Z",
-    "modified": "2026-03-23T06:21:28Z",
+    "modified": "2026-09-02T04:01:53Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["cognition"]
+      "semantic": [
+        "cognition"
+      ]
     }
   }
 }

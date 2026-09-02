@@ -20,65 +20,89 @@
   "examples": [
     {
       "id": "17363_kuchiwokiku_ex1",
-      "japanese": "{彼|かれ}はまだ{口|くち}を{利|き}かない。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦まだ→まだ：00603_mada⟧{口|くち}を{利|き}かない。",
       "english": "He still isn't speaking.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17363_kuchiwokiku_ex2",
-      "japanese": "{喧嘩|けんか}して{一週間|いっしゅうかん}{口|くち}を{利|き}かなかった。",
+      "japanese": "⟦{喧嘩|けんか}→喧嘩：02996_kenka⟧⟦して→する：00392_suru⟧⟦{一週間|いっしゅうかん}→一週間：10979_isshuukan⟧{口|くち}を{利|き}かなかった。",
       "english": "We had a fight and didn't speak for a week.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17363_kuchiwokiku_ex3",
-      "japanese": "{赤|あか}ちゃんがやっと{口|くち}を{利|き}くようになった。",
+      "japanese": "⟦{赤|あか}ちゃん→赤ちゃん：01282_akachan⟧⟦が→が：00051_ga⟧⟦やっと→やっと：01561_yatto⟧{口|くち}を{利|き}くようになった。",
       "english": "The baby has finally started to talk.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17363_kuchiwokiku_ex4",
-      "japanese": "{先輩|せんぱい}に{口|くち}を{利|き}いてもらった。",
+      "japanese": "⟦{先輩|せんぱい}→先輩：01451_senpai⟧⟦に→に：00314_ni⟧{口|くち}を{利|き}いて⟦もらった→もらう：00520_morau⟧。",
       "english": "My senior put in a good word for me.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "17363_kuchiwokiku_ex5",
-      "japanese": "{部長|ぶちょう}に{口|くち}を{利|き}いて{異動|いどう}を{取|と}り{消|け}してもらった。",
+      "japanese": "⟦{部長|ぶちょう}→部長：01017_buchou⟧⟦に→に：00314_ni⟧{口|くち}を{利|き}いて⟦{異動|いどう}→異動：01818_idou⟧⟦を→を：00422_wo⟧⟦{取|と}り{消|け}して→取り消す：04224_torikesu⟧⟦もらった→もらう：00520_morau⟧。",
       "english": "I had the department head put in a word and got my transfer cancelled.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "17363_kuchiwokiku_ex6",
-      "japanese": "{知|し}り{合|あ}いに{口|くち}を{利|き}いてもらって、やっと{予約|よやく}が{取|と}れた。",
+      "japanese": "⟦{知|し}り{合|あ}い→知り合い：03253_shiriai⟧⟦に→に：00314_ni⟧{口|くち}を{利|き}いて⟦もらって→もらう：00520_morau⟧、⟦やっと→やっと：01561_yatto⟧⟦{予約|よやく}→予約：01522_yoyaku⟧⟦が→が：00051_ga⟧⟦{取|と}れた→取れる：02376_toreru⟧。",
       "english": "An acquaintance pulled some strings for me, and I was finally able to get a reservation.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
-  "notes": "USAGE:\nSense 1 is very commonly used in the negative ({口|くち}を{利|き}かない — to not speak) to describe someone giving the silent treatment or a child not yet speaking. Sense 2 implies using personal connections or influence to help someone — a culturally significant concept in Japan.\n\nNOTE: Do not confuse the kanji {利|き}く in this expression with {聞|き}く (to hear/ask). The {利|き}く here means \"to be effective\" or \"to function.\"\n\nSIMILAR WORDS:\n- {話|はな}す: to speak, to talk — general verb for speaking\n- {取|と}り{次|つ}ぐ: to relay, to act as intermediary — more formal mediation",
-  "cross_references": [],
+  "notes": "USAGE:\nSense 1 is very commonly used in the negative ({口|くち}を{利|き}かない — to not speak) to describe someone giving the silent treatment or a child not yet speaking. Sense 2 implies using personal connections or influence to help someone — a culturally significant concept in Japan.\n\nNOTE: Do not confuse the kanji ⟦{利|き}く→利く：11845_kiku⟧ in this expression with ⟦{聞|き}く→聞く：00483_kiku⟧ (to hear/ask). The ⟦{利|き}く→利く：11845_kiku⟧ here means \"to be effective\" or \"to function.\"\n\nSIMILAR WORDS:\n- ⟦{話|はな}す→話す：00467_hanasu⟧: to speak, to talk — general verb for speaking\n- {取|と}り{次|つ}ぐ: to relay, to act as intermediary — more formal mediation",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00467_hanasu",
+      "reading": "はなす",
+      "headword": "{話|はな}す",
+      "label": "to speak, to talk"
+    }
+  ],
   "metadata": {
     "created": "2026-03-17T08:20:08Z",
-    "modified": "2026-03-17T08:20:08Z",
+    "modified": "2026-09-02T04:01:48Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["expression"],
+      "pos": [
+        "expression"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["communication"]
+      "semantic": [
+        "communication"
+      ]
     }
   }
 }

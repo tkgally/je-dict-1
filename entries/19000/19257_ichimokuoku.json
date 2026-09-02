@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "19257_ichimokuoku_ex1",
-      "japanese": "{彼|かれ}には{一目|いちもく}{置|お}いている。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{一目|いちもく}{置|お}いて⟦いる→いる：00495_iru⟧。",
       "english": "I acknowledge his superiority.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "19257_ichimokuoku_ex2",
-      "japanese": "{先輩|せんぱい}たちも{彼女|かのじょ}の{実力|じつりょく}には{一目|いちもく}{置|お}いている。",
+      "japanese": "⟦{先輩|せんぱい}→先輩：01451_senpai⟧たち⟦も→も：00484_mo⟧⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦の→の：09472_no⟧⟦{実力|じつりょく}→実力：03277_jitsuryoku⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{一目|いちもく}{置|お}いて⟦いる→いる：00495_iru⟧。",
       "english": "Even the seniors acknowledge her ability.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "19257_ichimokuoku_ex3",
-      "japanese": "{料理|りょうり}の{腕|うで}に{関|かん}しては、{妻|つま}に{一目|いちもく}{置|お}かざるを{得|え}ない。",
+      "japanese": "⟦{料理|りょうり}→料理：01523_ryouri⟧⟦の→の：09472_no⟧⟦{腕|うで}→腕：01006_ude⟧⟦に→に：00314_ni⟧⟦{関|かん}し→関する：02045_kansuru⟧ては、⟦{妻|つま}→妻：01005_tsuma⟧⟦に→に：00314_ni⟧{一目|いちもく}{置|お}かざる⟦を→を：00422_wo⟧⟦{得|え}ない→得る：02014_eru⟧。",
       "english": "When it comes to cooking skill, I have no choice but to defer to my wife.",
       "sense_numbers": [
         1
@@ -134,7 +134,7 @@
       "notes": null
     }
   ],
-  "notes": "An idiomatic expression from the game of Go ({囲碁|いご}). In Go, a weaker player is given a handicap of one or more stones placed on the board before the game begins. \"Placing one stone\" ({一目|いちもく}{置|お}く) thus means acknowledging that the other person is stronger or more skilled.\n\nCOMMON PATTERNS:\n- ～に{一目|いちもく}{置|お}く: to defer to ~\n- ～には{一目|いちもく}{置|お}いている: to acknowledge ~'s superiority (resultative state)\n- {一目|いちもく}{置|お}かれる: to be respected/looked up to (passive)\n\nUSAGE:\nAlways used about someone else — never about oneself. Implies genuine respect based on recognized skill or ability, not mere social deference. Often used when even peers or superiors recognize someone's talent.",
+  "notes": "An idiomatic expression from the game of Go (⟦{囲碁|いご}→囲碁：18035_igo⟧). In Go, a weaker player is given a handicap of one or more stones placed on the board before the game begins. \"Placing one stone\" ({一目|いちもく}{置|お}く) thus means acknowledging that the other person is stronger or more skilled.\n\nCOMMON PATTERNS:\n- ～⟦に→に：00314_ni⟧{一目|いちもく}{置|お}く: to defer to ~\n- ～⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{一目|いちもく}{置|お}いて⟦いる→いる：00495_iru⟧: to acknowledge ~'s superiority (resultative state)\n- {一目|いちもく}{置|お}かれる: to be respected/looked up to (passive)\n\nUSAGE:\nAlways used about someone else — never about oneself. Implies genuine respect based on recognized skill or ability, not mere social deference. Often used when even peers or superiors recognize someone's talent.",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -148,9 +148,10 @@
       "semantic": [
         "society"
       ],
-      "verb_class": "godan-ku"
+      "verb_class": "godan-ku",
+      "transitivity": "transitive"
     },
     "created": "2026-03-25T03:40:33Z",
-    "modified": "2026-07-26T21:31:07Z"
+    "modified": "2026-09-02T04:01:55Z"
   }
 }

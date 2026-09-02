@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "20968_yoinomyoujou_ex1",
-      "japanese": "{宵|よい}の{明星|みょうじょう}が{輝|かがや}いている。",
+      "japanese": "{宵|よい}の{明星|みょうじょう}⟦が→が：00051_ga⟧⟦{輝|かがや}いている→輝く：02032_kagayaku⟧。",
       "english": "The evening star is shining.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "20968_yoinomyoujou_ex2",
-      "japanese": "{西|にし}の{空|そら}に{宵|よい}の{明星|みょうじょう}が{見|み}えた。",
+      "japanese": "⟦{西|にし}→西：00659_nishi⟧⟦の→の：09472_no⟧⟦{空|そら}→空：02216_sora⟧⟦に→に：00314_ni⟧{宵|よい}の{明星|みょうじょう}⟦が→が：00051_ga⟧⟦{見|み}えた→見える：01165_mieru⟧。",
       "english": "I could see the evening star in the western sky.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "20968_yoinomyoujou_ex3",
-      "japanese": "{宵|よい}の{明星|みょうじょう}と{明|あ}けの{明星|みょうじょう}は{同|おな}じ{金星|きんせい}だと{知|し}って{驚|おどろ}いた。",
+      "japanese": "{宵|よい}の{明星|みょうじょう}⟦と→と：00512_to⟧⟦{明|あ}け→明け：13157_ake⟧⟦の→の：09472_no⟧{明星|みょうじょう}⟦は→は：00079_ha⟧⟦{同|おな}じ→同じ：02857_onaji⟧⟦{金星|きんせい}→金星：15896_kinsei⟧だ⟦と→と：00512_to⟧⟦{知|し}って→知る：00458_shiru⟧⟦{驚|おどろ}いた→驚く：01255_odoroku⟧。",
       "english": "I was surprised to learn that the evening star and the morning star are the same planet Venus.",
       "sense_numbers": [
         1
@@ -43,8 +43,31 @@
       "notes": null
     }
   ],
-  "notes": "A classical and literary name for Venus when it appears in the evening sky. The word {宵|よい} means 'early evening' and {明星|みょうじょう} means 'bright star.' Venus is the brightest object in the night sky after the moon, making it easily identifiable.\n\nCOMMON COLLOCATIONS:\n- {宵|よい}の{明星|みょうじょう}が{輝|かがや}く: the evening star shines\n- {宵|よい}の{明星|みょうじょう}が{見|み}える: the evening star is visible\n\nRELATED TERMS:\n- {明|あ}けの{明星|みょうじょう}: morning star — Venus when visible before sunrise\n- {金星|きんせい}: Venus — the astronomical name\n- {一番星|いちばんぼし}: the first star visible in the evening — often Venus\n- {宵|よい}: early evening — the period just after sunset",
+  "notes": "A classical and literary name for Venus when it appears in the evening sky. The word ⟦{宵|よい}→宵：27202_yoi⟧ means 'early evening' and {明星|みょうじょう} means 'bright star.' Venus is the brightest object in the night sky after the moon, making it easily identifiable.\n\nCOMMON COLLOCATIONS:\n- {宵|よい}の{明星|みょうじょう}⟦が→が：00051_ga⟧⟦{輝|かがや}く→輝く：02032_kagayaku⟧: the evening star shines\n- {宵|よい}の{明星|みょうじょう}⟦が→が：00051_ga⟧⟦{見|み}える→見える：01165_mieru⟧: the evening star is visible\n\nRELATED WORDS:\n- ⟦{明|あ}け→明け：13157_ake⟧⟦の→の：09472_no⟧{明星|みょうじょう}: morning star — Venus when visible before sunrise\n- ⟦{金星|きんせい}→金星：15896_kinsei⟧: Venus — the astronomical name\n- ⟦{一番星|いちばんぼし}→一番星：08953_ichibanboshi⟧: the first star visible in the evening — often Venus\n- ⟦{宵|よい}→宵：27202_yoi⟧: early evening — the period just after sunset",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "15896_kinsei",
+      "reading": "きんせい",
+      "headword": "{金星|きんせい}",
+      "label": "Venus"
+    },
+    {
+      "type": "related",
+      "target_id": "08953_ichibanboshi",
+      "reading": "いちばんぼし",
+      "headword": "{一番星|いちばんぼし}",
+      "label": "the first star visible in the evening"
+    },
+    {
+      "type": "related",
+      "target_id": "27202_yoi",
+      "reading": "よい",
+      "headword": "{宵|よい}",
+      "label": "early evening"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +82,6 @@
       ]
     },
     "created": "2026-03-30T22:26:32Z",
-    "modified": "2026-07-29T00:22:41Z"
+    "modified": "2026-09-02T04:02:01Z"
   }
 }

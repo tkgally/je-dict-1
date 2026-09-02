@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30422_ureshisa_ex1",
-      "japanese": "{合格|ごうかく}した{嬉|うれ}しさで{泣|な}いた。",
+      "japanese": "⟦{合格|ごうかく}した→合格する：27949_goukakusuru⟧{嬉|うれ}しさ⟦で→で：00502_de⟧⟦{泣|な}いた→泣く：00655_naku⟧。",
       "english": "I cried from the joy of passing.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30422_ureshisa_ex2",
-      "japanese": "{久|ひさ}しぶりに{会|あ}えた{嬉|うれ}しさは{忘|わす}れられない。",
+      "japanese": "⟦{久|ひさ}しぶり→久しぶり：01711_hisashiburi⟧⟦に→に：00314_ni⟧⟦{会|あ}えた→会う：00482_au⟧{嬉|うれ}しさ⟦は→は：00079_ha⟧⟦{忘|わす}れられない→忘れる：00474_wasureru⟧。",
       "english": "I can't forget how glad I was to meet them after so long.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30422_ureshisa_ex3",
-      "japanese": "{初|はじ}めて{自分|じぶん}の{作品|さくひん}をほめられた{嬉|うれ}しさは、{言葉|ことば}では{表|あらわ}せない。",
+      "japanese": "⟦{初|はじ}めて→初めて：02932_hajimete⟧⟦{自分|じぶん}→自分：02887_jibun⟧⟦の→の：09472_no⟧⟦{作品|さくひん}→作品：02776_sakuhin⟧⟦を→を：00422_wo⟧ほめられた{嬉|うれ}しさ⟦は→は：00079_ha⟧、⟦{言葉|ことば}→言葉：02880_kotoba⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{表|あらわ}せない→表す：01868_arawasu⟧。",
       "english": "The gladness of having my own work praised for the first time cannot be put into words.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Formed by replacing the final い of {嬉|うれ}しい with さ, the regular way to make a noun of degree from an i-adjective.\n\nCOMMON COLLOCATIONS:\n- {嬉|うれ}しさのあまり: out of sheer joy\n- {嬉|うれ}しさがこみ{上|あ}げる: gladness wells up\n- {嬉|うれ}しさを{隠|かく}せない: to be unable to hide one's delight\n- {嬉|うれ}しさ{半分|はんぶん}: half glad (and half something else)\n\nSIMILAR WORDS:\n- {喜|よろこ}び: joy — larger and more lasting, and usable of an occasion as well as a feeling\n- {楽|たの}しさ: fun, enjoyment — pleasure taken in an activity while it lasts",
+  "notes": "Formed by replacing the final い of ⟦{嬉|うれ}しい→嬉しい：00822_ureshii⟧ with さ, the regular way to make a noun of degree from an i-adjective.\n\nCOMMON COLLOCATIONS:\n- {嬉|うれ}しさ⟦の→の：09472_no⟧⟦あまり→あまり：00604_amari⟧: out of sheer joy\n- {嬉|うれ}しさ⟦が→が：00051_ga⟧こみ{上|あ}げる: gladness wells up\n- {嬉|うれ}しさ⟦を→を：00422_wo⟧⟦{隠|かく}せない→隠す：02034_kakusu⟧: to be unable to hide one's delight\n- {嬉|うれ}しさ⟦{半分|はんぶん}→半分：02938_hanbun⟧: half glad (and half something else)\n\nSIMILAR WORDS:\n- ⟦{喜|よろこ}び→喜び：03672_yorokobi⟧: joy — larger and more lasting, and usable of an occasion as well as a feeling\n- {楽|たの}しさ: fun, enjoyment — pleasure taken in an activity while it lasts",
   "cross_references": [
     {
       "type": "related",
@@ -59,6 +59,20 @@
       "reading": "よろこび",
       "headword": "{喜|よろこ}び",
       "label": "joy, delight"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30438_tanoshisa",
+      "reading": "たのしさ",
+      "headword": "{楽|たの}しさ",
+      "label": "fun, enjoyment"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06789_kuyashisa",
+      "reading": "くやしさ",
+      "headword": "{悔|くや}しさ",
+      "label": "frustration"
     }
   ],
   "schema_version": "2.0",
@@ -69,13 +83,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "emotion"
       ],
       "domain": []
     },
     "created": "2026-08-05T15:24:36Z",
-    "modified": "2026-08-05T15:24:36Z"
+    "modified": "2026-09-02T04:02:40Z"
   }
 }

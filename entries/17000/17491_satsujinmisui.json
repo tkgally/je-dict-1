@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "17491_satsujinmisui_ex1",
-      "japanese": "{殺人未遂|さつじんみすい}の{容疑|ようぎ}で{逮捕|たいほ}された。",
+      "japanese": "{殺人未遂|さつじんみすい}⟦の→の：09472_no⟧⟦{容疑|ようぎ}→容疑：12317_yougi⟧⟦で→で：00502_de⟧⟦{逮捕|たいほ}→逮捕：03397_taiho⟧⟦された→する：00392_suru⟧。",
       "english": "He was arrested on suspicion of attempted murder.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "17491_satsujinmisui_ex2",
-      "japanese": "{殺人未遂|さつじんみすい}{罪|ざい}で{起訴|きそ}された{男|おとこ}は{容疑|ようぎ}を{否認|ひにん}している。",
+      "japanese": "{殺人未遂|さつじんみすい}{罪|ざい}⟦で→で：00502_de⟧⟦{起訴|きそ}→起訴：10577_kiso⟧⟦された→する：00392_suru⟧⟦{男|おとこ}→男：00561_otoko⟧⟦は→は：00079_ha⟧⟦{容疑|ようぎ}→容疑：12317_yougi⟧⟦を→を：00422_wo⟧⟦{否認|ひにん}している→否認する：22511_hininsuru⟧。",
       "english": "The man indicted for attempted murder is denying the charges.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "17491_satsujinmisui_ex3",
-      "japanese": "{被害者|ひがいしゃ}が{命|いのち}を{取|と}り{留|と}めたため、{容疑|ようぎ}は{殺人|さつじん}から{殺人未遂|さつじんみすい}に{切|き}り{替|か}わった。",
+      "japanese": "⟦{被害者|ひがいしゃ}→被害者：14106_higaisha⟧⟦が→が：00051_ga⟧⟦{命|いのち}→命：02371_inochi⟧⟦を→を：00422_wo⟧⟦{取|と}り{留|と}めた→取り留める：15466_toritomeru⟧⟦ため→ため：01145_tame⟧、⟦{容疑|ようぎ}→容疑：12317_yougi⟧⟦は→は：00079_ha⟧⟦{殺人|さつじん}→殺人：13236_satsujin⟧⟦から→から：00504_kara⟧{殺人未遂|さつじんみすい}⟦に→に：00314_ni⟧⟦{切|き}り{替|か}わった→切り替わる：28245_kirikawaru⟧。",
       "english": "Because the victim survived, the charge was changed from murder to attempted murder.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA legal term commonly appearing in crime news. Composed of {殺人|さつじん} (murder) + {未遂|みすい} (attempt, failure to complete). The ～{未遂|みすい} suffix can attach to other crimes: {強盗未遂|ごうとうみすい} (attempted robbery), {放火未遂|ほうかみすい} (attempted arson).\n\nCOMMON COLLOCATIONS:\n- {殺人未遂|さつじんみすい}の{容疑|ようぎ} (suspicion of attempted murder)\n- {殺人未遂|さつじんみすい}{罪|ざい} (the crime of attempted murder)\n- {殺人未遂|さつじんみすい}で{逮捕|たいほ} (arrest for attempted murder)\n\nRELATED TERMS:\n- {殺人|さつじん}: murder, homicide\n- {未遂|みすい}: attempted (but not completed)\n- {既遂|きすい}: completed/consummated (crime)",
+  "notes": "USAGE:\nA legal term commonly appearing in crime news. Composed of ⟦{殺人|さつじん}→殺人：13236_satsujin⟧ (murder) + ⟦{未遂|みすい}→未遂：13085_misui⟧ (attempt, failure to complete). The ～⟦{未遂|みすい}→未遂：13085_misui⟧ suffix can attach to other crimes: {強盗未遂|ごうとうみすい} (attempted robbery), {放火未遂|ほうかみすい} (attempted arson).\n\nCOMMON COLLOCATIONS:\n- {殺人未遂|さつじんみすい}⟦の→の：09472_no⟧⟦{容疑|ようぎ}→容疑：12317_yougi⟧ (suspicion of attempted murder)\n- {殺人未遂|さつじんみすい}{罪|ざい} (the crime of attempted murder)\n- {殺人未遂|さつじんみすい}⟦で→で：00502_de⟧⟦{逮捕|たいほ}→逮捕：03397_taiho⟧ (arrest for attempted murder)\n\nRELATED WORDS:\n- ⟦{殺人|さつじん}→殺人：13236_satsujin⟧: murder, homicide\n- ⟦{未遂|みすい}→未遂：13085_misui⟧: attempted (but not completed)\n- ⟦{既遂|きすい}→既遂：23639_kisui⟧: completed/consummated (crime)",
   "cross_references": [
     {
       "type": "related",
@@ -59,11 +59,25 @@
       "reading": "みすい",
       "headword": "{未遂|みすい}",
       "label": "attempt (failed)"
+    },
+    {
+      "type": "related",
+      "target_id": "23639_kisui",
+      "reading": "きすい",
+      "headword": "{既遂|きすい}",
+      "label": "completed/consummated"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30413_satsujinjiken",
+      "reading": "さつじんじけん",
+      "headword": "{殺人|さつじん}{事件|じけん}",
+      "label": "murder case"
     }
   ],
   "metadata": {
     "created": "2026-03-18T04:28:59Z",
-    "modified": "2026-05-06T08:07:18Z",
+    "modified": "2026-09-02T04:01:48Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

@@ -14,39 +14,58 @@
   "examples": [
     {
       "id": "10983_sanji_ex1",
-      "japanese": "{三時|さんじ}に{会|あ}おう。",
+      "japanese": "{三時|さんじ}⟦に→に：00314_ni⟧⟦{会|あ}おう→会う：00482_au⟧。",
       "english": "Let's meet at three o'clock.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10983_sanji_ex2",
-      "japanese": "{会議|かいぎ}は{三時|さんじ}からです。",
+      "japanese": "⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦は→は：00079_ha⟧{三時|さんじ}⟦から→から：00504_kara⟧です。",
       "english": "The meeting starts at three o'clock.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10983_sanji_ex3",
-      "japanese": "{午後|ごご}{三時|さんじ}にお{茶|ちゃ}を{飲|の}むのが{習慣|しゅうかん}です。",
+      "japanese": "⟦{午後|ごご}→午後：00544_gogo⟧{三時|さんじ}⟦に→に：00314_ni⟧⟦お{茶|ちゃ}→お茶：00576_ocha⟧⟦を→を：00422_wo⟧⟦{飲|の}む→飲む：00322_nomu⟧⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦{習慣|しゅうかん}→習慣：01429_shuukan⟧です。",
       "english": "It's my habit to have tea at three in the afternoon.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "Three o'clock. Without {午前|ごぜん}/{午後|ごご}, context determines whether it means 3 AM or 3 PM.\n\nCOMMON PATTERNS:\n- {午前|ごぜん}{三時|さんじ}: 3 AM\n- {午後|ごご}{三時|さんじ}: 3 PM\n- {三時半|さんじはん}: 3:30\n- {三時|さんじ}{過|す}ぎ: past three o'clock\n\nCULTURAL NOTE:\n{三時|さんじ}のおやつ (three o'clock snack) is a well-known concept in Japan. The afternoon snack break is traditionally associated with 3 PM, stemming from an old custom of having a light meal between lunch and dinner.",
+  "notes": "Three o'clock. Without ⟦{午前|ごぜん}→午前：00548_gozen⟧/⟦{午後|ごご}→午後：00544_gogo⟧, context determines whether it means 3 AM or 3 PM.\n\nCOMMON PATTERNS:\n- ⟦{午前|ごぜん}→午前：00548_gozen⟧{三時|さんじ}: 3 AM\n- ⟦{午後|ごご}→午後：00544_gogo⟧{三時|さんじ}: 3 PM\n- {三時半|さんじはん}: 3:30\n- {三時|さんじ}{過|す}ぎ: past three o'clock\n\nCULTURAL NOTE:\n{三時|さんじ}⟦の→の：09472_no⟧⟦おやつ→おやつ：17921_oyatsu⟧ (three o'clock snack) is a well-known concept in Japan. The afternoon snack break is traditionally associated with 3 PM, stemming from an old custom of having a light meal between lunch and dinner.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02473_he",
+      "reading": "へ",
+      "headword": "へ",
+      "label": "direction marker (toward)"
+    }
+  ],
   "metadata": {
     "created": "2026-02-11T23:55:30Z",
-    "modified": "2026-03-25T05:40:40Z",
+    "modified": "2026-09-02T04:01:23Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["time-general"]
+      "semantic": [
+        "time-general"
+      ]
     }
   }
 }

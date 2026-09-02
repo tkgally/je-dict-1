@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25129_menpu_ex1",
-      "japanese": "{綿布|めんぷ}で{作|つく}ったシャツは{肌触|はだざわ}りがいい。",
+      "japanese": "{綿布|めんぷ}⟦で→で：00502_de⟧⟦{作|つく}った→作る：00481_tsukuru⟧⟦シャツ→シャツ：01052_shatsu⟧⟦は→は：00079_ha⟧⟦{肌触|はだざわ}り→肌触り：06637_hadazawari⟧⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧。",
       "english": "Shirts made of cotton cloth feel good against the skin.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25129_menpu_ex2",
-      "japanese": "この{綿布|めんぷ}は{通気性|つうきせい}に{優|すぐ}れている。",
+      "japanese": "⟦この→この：00962_kono⟧{綿布|めんぷ}⟦は→は：00079_ha⟧{通気性|つうきせい}⟦に→に：00314_ni⟧⟦{優|すぐ}れている→優れる：02119_sugureru⟧。",
       "english": "This cotton fabric has excellent breathability.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25129_menpu_ex3",
-      "japanese": "{明治時代|めいじじだい}に{国産|こくさん}の{綿布|めんぷ}{生産|せいさん}が{急速|きゅうそく}に{拡大|かくだい}し、{輸出品|ゆしゅつひん}としても{重要|じゅうよう}になった。",
+      "japanese": "⟦{明治時代|めいじじだい}→明治時代：28080_meijijidai⟧⟦に→に：00314_ni⟧⟦{国産|こくさん}→国産：12017_kokusan⟧⟦の→の：09472_no⟧{綿布|めんぷ}⟦{生産|せいさん}→生産：01444_seisan⟧⟦が→が：00051_ga⟧⟦{急速|きゅうそく}→急速：02634_kyuusoku⟧⟦に→に：00314_ni⟧⟦{拡大|かくだい}→拡大：02553_kakudai⟧し、{輸出品|ゆしゅつひん}⟦として→として：06802_toshite⟧⟦も→も：00484_mo⟧⟦{重要|じゅうよう}→重要：01575_juuyou⟧になった。",
       "english": "During the Meiji era, domestic cotton fabric production expanded rapidly and became important as an export product.",
       "sense_numbers": [
         1
@@ -44,19 +44,36 @@
       "notes": null
     }
   ],
-  "notes": "Combines {綿|めん} (cotton) and {布|ぷ} (cloth). A somewhat formal or technical term for cotton fabric. In everyday conversation, {木綿|もめん} or simply コットン is more common, but {綿布|めんぷ} appears in product descriptions, historical texts, and textile industry contexts.\n\nCOMMON COLLOCATIONS:\n- {綿布|めんぷ}{製品|せいひん}: cotton fabric products\n- {綿布|めんぷ}の{生産|せいさん}: cotton fabric production\n- {綿布|めんぷ}を{織|お}る: to weave cotton cloth\n- {綿布|めんぷ}の{輸入|ゆにゅう}: cotton fabric imports\n\nSIMILAR WORDS:\n- {木綿|もめん}: cotton (fabric) — the everyday term, especially for traditional Japanese cotton\n- コットン: cotton — the English loanword, commonly used in modern fashion and products\n- {絹布|けんぷ}: silk cloth — the silk equivalent\n- {麻布|まふ}: hemp cloth; linen — fabric made from hemp fibers",
+  "notes": "Combines ⟦{綿|めん}→綿：03807_men⟧ (cotton) and {布|ぷ} (cloth). A somewhat formal or technical term for cotton fabric. In everyday conversation, ⟦{木綿|もめん}→木綿：01738_momen⟧ or simply コットン is more common, but {綿布|めんぷ} appears in product descriptions, historical texts, and textile industry contexts.\n\nCOMMON COLLOCATIONS:\n- {綿布|めんぷ}⟦{製品|せいひん}→製品：01445_seihin⟧: cotton fabric products\n- {綿布|めんぷ}⟦の→の：09472_no⟧⟦{生産|せいさん}→生産：01444_seisan⟧: cotton fabric production\n- {綿布|めんぷ}⟦を→を：00422_wo⟧⟦{織|お}る→織る：04373_oru⟧: to weave cotton cloth\n- {綿布|めんぷ}⟦の→の：09472_no⟧⟦{輸入|ゆにゅう}→輸入：01742_yunyuu⟧: cotton fabric imports\n\nSIMILAR WORDS:\n- ⟦{木綿|もめん}→木綿：01738_momen⟧: cotton (fabric) — the everyday term, especially for traditional Japanese cotton\n- コットン: cotton — the English loanword, commonly used in modern fashion and products\n- ⟦{絹布|けんぷ}→絹布：29606_kenpu⟧: silk cloth — the silk equivalent\n- {麻布|まふ}: hemp cloth; linen — fabric made from hemp fibers",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01738_momen",
+      "reading": "もめん",
+      "headword": "{木綿|もめん}",
+      "label": "cotton"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29606_kenpu",
+      "reading": "けんぷ",
+      "headword": "{絹布|けんぷ}",
+      "label": "silk cloth"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "clothing"
       ]
     },
     "created": "2026-04-23T11:26:42Z",
-    "modified": "2026-08-04T12:59:53Z"
+    "modified": "2026-09-02T04:02:21Z"
   }
 }

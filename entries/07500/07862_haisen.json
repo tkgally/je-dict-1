@@ -2,7 +2,7 @@
   "id": "07862_haisen",
   "headword": "{配線|はいせん}",
   "reading": "はいせん",
-  "part_of_speech": "noun/suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "wiring; cabling",
   "conjugation": {
     "type": "suru",
@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "07862_haisen_ex1",
-      "japanese": "{配線|はいせん}が{古|ふる}い。",
+      "japanese": "{配線|はいせん}⟦が→が：00051_ga⟧⟦{古|ふる}い→古い：00488_furui⟧。",
       "english": "The wiring is old.",
       "sense_numbers": [
         1
@@ -114,7 +114,7 @@
     },
     {
       "id": "07862_haisen_ex2",
-      "japanese": "パソコンの{配線|はいせん}を{整理|せいり}した。",
+      "japanese": "⟦パソコン→パソコン：01538_pasokon⟧⟦の→の：09472_no⟧{配線|はいせん}⟦を→を：00422_wo⟧⟦{整理|せいり}した→整理する：21729_seirisuru⟧。",
       "english": "I organized the computer cables.",
       "sense_numbers": [
         1
@@ -124,7 +124,7 @@
     },
     {
       "id": "07862_haisen_ex3",
-      "japanese": "{電気工事士|でんきこうじし}が{家|いえ}の{配線|はいせん}を{点検|てんけん}してくれた。",
+      "japanese": "⟦{電気工事士|でんきこうじし}→電気工事士：30200_denkikoujishi⟧⟦が→が：00051_ga⟧⟦{家|いえ}→家：00612_ie⟧⟦の→の：09472_no⟧{配線|はいせん}⟦を→を：00422_wo⟧⟦{点検|てんけん}→点検：09765_tenken⟧⟦して→する：00392_suru⟧⟦くれた→くれる：00724_kureru⟧。",
       "english": "An electrician inspected the wiring in my house.",
       "sense_numbers": [
         1
@@ -133,7 +133,58 @@
       "notes": null
     }
   ],
-  "notes": "{配線|はいせん} refers to electrical wiring or the act of wiring.\n\nCOMPOSITION:\n- {配|はい}: To distribute, arrange\n- {線|せん}: Wire, line\n\nCOMMON COLLOCATIONS:\n- {配線|はいせん}する (to wire, to install wiring)\n- {配線|はいせん}{工事|こうじ} (wiring work)\n- {配線|はいせん}{図|ず} (wiring diagram)\n- {電気|でんき}{配線|はいせん} (electrical wiring)\n- {屋内|おくない}{配線|はいせん} (indoor wiring)\n- {配線|はいせん}を{引|ひ}く (to run wiring)\n\nRELATED TERMS:\n- ケーブル (cable)\n- コード (cord)\n- {電線|でんせん} (electric wire)\n- {回路|かいろ} (circuit)\n\nREGISTER: Neutral. Technical vocabulary commonly used in construction, IT, and everyday contexts.",
+  "notes": "{配線|はいせん} refers to electrical wiring or the act of wiring.\n\nETYMOLOGY:\n- {配|はい}: To distribute, arrange\n- ⟦{線|せん}→線：09901_sen⟧: Wire, line\n\nCOMMON COLLOCATIONS:\n- {配線|はいせん}⟦する→する：00392_suru⟧ (to wire, to install wiring)\n- {配線|はいせん}⟦{工事|こうじ}→工事：00244_kouji⟧ (wiring work)\n- {配線|はいせん}{図|ず} (wiring diagram)\n- ⟦{電気|でんき}→電気：09780_denki⟧{配線|はいせん} (electrical wiring)\n- ⟦{屋内|おくない}→屋内：18948_okunai⟧{配線|はいせん} (indoor wiring)\n- {配線|はいせん}⟦を→を：00422_wo⟧⟦{引|ひ}く→引く：01978_hiku⟧ (to run wiring)\n\nRELATED WORDS:\n- ⟦ケーブル→ケーブル：04432_keeburu⟧ (cable)\n- ⟦コード→コード：00241_koodo⟧ (cord)\n- ⟦{電線|でんせん}→電線：11507_densen⟧ (electric wire)\n- ⟦{回路|かいろ}→回路：12038_kairo⟧ (circuit)\n\nREGISTER: Neutral. Technical vocabulary commonly used in construction, IT, and everyday contexts.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "04432_keeburu",
+      "reading": "けーぶる",
+      "headword": "ケーブル",
+      "label": "cable"
+    },
+    {
+      "type": "related",
+      "target_id": "00241_koodo",
+      "reading": "こーど",
+      "headword": "コード",
+      "label": "cord"
+    },
+    {
+      "type": "related",
+      "target_id": "11507_densen",
+      "reading": "でんせん",
+      "headword": "{電線|でんせん}",
+      "label": "electric wire"
+    },
+    {
+      "type": "related",
+      "target_id": "12038_kairo",
+      "reading": "かいろ",
+      "headword": "{回路|かいろ}",
+      "label": "circuit"
+    },
+    {
+      "type": "related",
+      "target_id": "07965_rouden",
+      "reading": "ろうでん",
+      "headword": "{漏電|ろうでん}",
+      "label": "electrical leak"
+    },
+    {
+      "type": "related",
+      "target_id": "23851_denkikouji",
+      "reading": "でんきこうじ",
+      "headword": "{電気工事|でんきこうじ}",
+      "label": "electrical work"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24629_dousen",
+      "reading": "どうせん",
+      "headword": "{導線|どうせん}",
+      "label": "conductor wire"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -150,6 +201,6 @@
       "verb_class": "suru"
     },
     "created": "2026-01-21T13:22:38Z",
-    "modified": "2026-08-11T09:37:41Z"
+    "modified": "2026-09-02T04:01:13Z"
   }
 }

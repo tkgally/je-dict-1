@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "23124_hinkyaku_ex1",
-      "japanese": "{賓客|ひんきゃく}を{迎|むか}えた。",
+      "japanese": "{賓客|ひんきゃく}⟦を→を：00422_wo⟧⟦{迎|むか}えた→迎える：01193_mukaeru⟧。",
       "english": "We welcomed the honored guest.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "23124_hinkyaku_ex2",
-      "japanese": "{賓客|ひんきゃく}のために{特別|とくべつ}な{席|せき}が{用意|ようい}された。",
+      "japanese": "{賓客|ひんきゃく}⟦の→の：09472_no⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧⟦{特別|とくべつ}→特別：01120_tokubetsu⟧な⟦{席|せき}→席：02215_seki⟧⟦が→が：00051_ga⟧⟦{用意|ようい}→用意：01746_youi⟧⟦された→する：00392_suru⟧。",
       "english": "A special seat was prepared for the distinguished guest.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "23124_hinkyaku_ex3",
-      "japanese": "{国賓|こくひん}や{賓客|ひんきゃく}を{招|まね}いての{晩餐会|ばんさんかい}が{宮殿|きゅうでん}で{開|ひら}かれた。",
+      "japanese": "⟦{国賓|こくひん}→国賓：12137_kokuhin⟧や{賓客|ひんきゃく}⟦を→を：00422_wo⟧⟦{招|まね}いて→招く：02425_maneku⟧⟦の→の：09472_no⟧⟦{晩餐会|ばんさんかい}→晩餐会：13094_bansankai⟧⟦が→が：00051_ga⟧⟦{宮殿|きゅうでん}→宮殿：12285_kyuuden⟧⟦で→で：00502_de⟧⟦{開|ひら}かれた→開く：01979_hiraku⟧。",
       "english": "A banquet welcoming state guests and distinguished visitors was held at the palace.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {賓|ひん} (guest of honor) and {客|きゃく} (guest, visitor). A formal word used in diplomatic, governmental, and ceremonial contexts. Everyday usage would sound stilted; お{客様|きゃくさま} or {来賓|らいひん} are more common alternatives depending on the context.\n\nCOMMON COLLOCATIONS:\n- {賓客|ひんきゃく}を{迎|むか}える: to welcome honored guests\n- {賓客|ひんきゃく}を{招|まね}く: to invite distinguished guests\n- {賓客|ひんきゃく}{用|よう}: for honored guests\n\nSIMILAR WORDS:\n- {来賓|らいひん}: guest of honor — used for invited guests at ceremonies, graduations, and formal events\n- {国賓|こくひん}: state guest — specifically a foreign head of state visiting officially\n- {貴賓|きひん}: distinguished guest — very formal; seen in {貴賓室|きひんしつ} (VIP room)",
+  "notes": "Composed of {賓|ひん} (guest of honor) and ⟦{客|きゃく}→客：00865_kyaku⟧ (guest, visitor). A formal word used in diplomatic, governmental, and ceremonial contexts. Everyday usage would sound stilted; ⟦お{客様|きゃくさま}→お客様：08780_okyakusama⟧ or ⟦{来賓|らいひん}→来賓：28580_raihin⟧ are more common alternatives depending on the context.\n\nCOMMON COLLOCATIONS:\n- {賓客|ひんきゃく}⟦を→を：00422_wo⟧⟦{迎|むか}える→迎える：01193_mukaeru⟧: to welcome honored guests\n- {賓客|ひんきゃく}⟦を→を：00422_wo⟧⟦{招|まね}く→招く：02425_maneku⟧: to invite distinguished guests\n- {賓客|ひんきゃく}⟦{用|よう}→〜用：09842_you⟧: for honored guests\n\nSIMILAR WORDS:\n- ⟦{来賓|らいひん}→来賓：28580_raihin⟧: guest of honor — used for invited guests at ceremonies, graduations, and formal events\n- ⟦{国賓|こくひん}→国賓：12137_kokuhin⟧: state guest — specifically a foreign head of state visiting officially\n- {貴賓|きひん}: distinguished guest — very formal; seen in {貴賓室|きひんしつ} (VIP room)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "28580_raihin",
+      "reading": "らいひん",
+      "headword": "{来賓|らいひん}",
+      "label": "guest of honor"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12137_kokuhin",
+      "reading": "こくひん",
+      "headword": "{国賓|こくひん}",
+      "label": "state guest"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +75,6 @@
       "politeness": "plain"
     },
     "created": "2026-04-08T19:24:18Z",
-    "modified": "2026-07-27T06:23:09Z"
+    "modified": "2026-09-02T04:02:11Z"
   }
 }

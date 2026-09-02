@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08999_danatsu_ex1",
-      "japanese": "{政府|せいふ}による{弾圧|だんあつ}が{続|つづ}いている。",
+      "japanese": "⟦{政府|せいふ}→政府：03294_seifu⟧⟦による→による：28349_niyoru⟧{弾圧|だんあつ}⟦が→が：00051_ga⟧⟦{続|つづ}いている→続く：00903_tsuzuku⟧。",
       "english": "Oppression by the government continues.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "08999_danatsu_ex2",
-      "japanese": "デモ{隊|たい}は{弾圧|だんあつ}を{受|う}けた。",
+      "japanese": "⟦デモ→デモ：19416_demo⟧⟦{隊|たい}→隊：03383_tai⟧⟦は→は：00079_ha⟧{弾圧|だんあつ}⟦を→を：00422_wo⟧⟦{受|う}けた→受ける：01215_ukeru⟧。",
       "english": "The demonstrators faced a crackdown.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "08999_danatsu_ex3",
-      "japanese": "{言論|げんろん}の{自由|じゆう}への{弾圧|だんあつ}に{抗議|こうぎ}する{声|こえ}が{上|あ}がった。",
+      "japanese": "⟦{言論|げんろん}の{自由|じゆう}→言論の自由：17047_genronnojiyuu⟧⟦へ→へ：02473_he⟧⟦の→の：09472_no⟧{弾圧|だんあつ}⟦に→に：00314_ni⟧⟦{抗議|こうぎ}する→抗議する：26923_kougisuru⟧⟦{声|こえ}→声：02207_koe⟧⟦が→が：00051_ga⟧⟦{上|あ}がった→上がる：00615_agaru⟧。",
       "english": "Voices of protest rose against the suppression of freedom of speech.",
       "notes": null,
       "has_audio": false,
@@ -43,11 +43,19 @@
       ]
     }
   ],
-  "notes": "{弾圧|だんあつ} is a strong term typically used in political contexts.\n\nCOMMON COLLOCATIONS:\n- {弾圧|だんあつ}を{受|う}ける: to face oppression\n- {弾圧|だんあつ}を{加|くわ}える: to apply pressure/oppression\n- {政治的|せいじてき}{弾圧|だんあつ}: political oppression\n- {宗教|しゅうきょう}{弾圧|だんあつ}: religious persecution\n- {思想|しそう}{弾圧|だんあつ}: ideological suppression\n\nUSAGE:\n{弾圧|だんあつ}する is used as a suru-verb meaning \"to oppress\" or \"to suppress.\"",
-  "cross_references": [],
+  "notes": "{弾圧|だんあつ} is a strong term typically used in political contexts.\n\nCOMMON COLLOCATIONS:\n- {弾圧|だんあつ}⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧: to face oppression\n- {弾圧|だんあつ}⟦を→を：00422_wo⟧⟦{加|くわ}える→加える：01941_kuwaeru⟧: to apply pressure/oppression\n- ⟦{政治的|せいじてき}→政治的：05684_seijiteki⟧{弾圧|だんあつ}: political oppression\n- ⟦{宗教|しゅうきょう}→宗教：03208_shuukyou⟧{弾圧|だんあつ}: religious persecution\n- ⟦{思想|しそう}→思想：03173_shisou⟧{弾圧|だんあつ}: ideological suppression\n\nUSAGE:\n{弾圧|だんあつ}⟦する→する：00392_suru⟧ is used as a suru-verb meaning \"to oppress\" or \"to suppress.\"",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23059_seiatsu",
+      "reading": "せいあつ",
+      "headword": "{制圧|せいあつ}",
+      "label": "suppression"
+    }
+  ],
   "metadata": {
     "created": "2026-01-30T14:49:54Z",
-    "modified": "2026-08-12T21:25:53Z",
+    "modified": "2026-09-02T04:01:17Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

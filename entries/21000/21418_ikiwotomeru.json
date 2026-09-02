@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21418_ikiwotomeru_ex1",
-      "japanese": "{水|みず}に{潜|もぐ}る{前|まえ}に{息|いき}を{止|と}めた。",
+      "japanese": "⟦{水|みず}→水：02258_mizu⟧⟦に→に：00314_ni⟧⟦{潜|もぐ}る→潜る：03931_moguru⟧⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧{息|いき}を{止|と}めた。",
       "english": "I held my breath before diving underwater.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21418_ikiwotomeru_ex2",
-      "japanese": "{観客|かんきゃく}は{息|いき}を{止|と}めて{結果|けっか}を{見守|みまも}った。",
+      "japanese": "⟦{観客|かんきゃく}→観客：02556_kankyaku⟧⟦は→は：00079_ha⟧{息|いき}を{止|と}めて⟦{結果|けっか}→結果：02486_kekka⟧⟦を→を：00422_wo⟧⟦{見守|みまも}った→見守る：04574_mimamoru⟧。",
       "english": "The audience held their breath as they watched for the result.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21418_ikiwotomeru_ex3",
-      "japanese": "レントゲンを{撮|と}るとき、{技師|ぎし}に「{息|いき}を{止|と}めてください」と{言|い}われた。",
+      "japanese": "⟦レントゲン→レントゲン：11219_rentogen⟧⟦を→を：00422_wo⟧⟦{撮|と}る→撮る：00760_toru⟧とき、⟦{技師|ぎし}→技師：02680_gishi⟧⟦に→に：00314_ni⟧「{息|いき}を{止|と}めて⟦ください→ください：02899_kudasai⟧」⟦と→と：00512_to⟧⟦{言|い}われた→言う：00515_iu⟧。",
       "english": "When getting the X-ray, the technician told me, 'Please hold your breath.'",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "Used both for the literal physical action of holding one's breath and figuratively for moments of intense suspense or concentration. The figurative use often describes an audience or observer watching something tense unfold.\n\nCOMMON PATTERNS:\n- {息|いき}を{止|と}めてください: please hold your breath (medical/photography instructions)\n- {息|いき}を{止|と}めて{見守|みまも}る: to watch with bated breath\n\nSIMILAR EXPRESSIONS:\n- {息|いき}を{呑|の}む: to gasp, to be breathtaken — describes an involuntary reaction to something stunning or shocking\n- {息|いき}を{殺|ころ}す: to hold one's breath (to hide) — implies suppressing breathing to avoid being detected\n- {息|いき}を{吸|す}う: to breathe in, to inhale — the simple act of inhalation",
+  "notes": "Used both for the literal physical action of holding one's breath and figuratively for moments of intense suspense or concentration. The figurative use often describes an audience or observer watching something tense unfold.\n\nCOMMON PATTERNS:\n- {息|いき}を{止|と}めて⟦ください→ください：02899_kudasai⟧: please hold your breath (medical/photography instructions)\n- {息|いき}を{止|と}めて⟦{見守|みまも}る→見守る：04574_mimamoru⟧: to watch with bated breath\n\nSIMILAR WORDS:\n- ⟦{息|いき}を{呑|の}む→息を呑む：06902_ikiwonomu⟧: to gasp, to be breathtaken — describes an involuntary reaction to something stunning or shocking\n- ⟦{息|いき}→息：02176_iki⟧⟦を→を：00422_wo⟧⟦{殺|ころ}す→殺す：01944_korosu⟧: to hold one's breath (to hide) — implies suppressing breathing to avoid being detected\n- ⟦{息|いき}→息：02176_iki⟧⟦を→を：00422_wo⟧⟦{吸|す}う→吸う：04394_suu⟧: to breathe in, to inhale — the simple act of inhalation",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06902_ikiwonomu",
+      "reading": "いきをのむ",
+      "headword": "{息|いき}を{呑|の}む",
+      "label": "to gasp, to be breathtaken"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +68,6 @@
       ]
     },
     "created": "2026-04-02T02:54:45Z",
-    "modified": "2026-07-29T12:35:11Z"
+    "modified": "2026-09-02T04:02:03Z"
   }
 }

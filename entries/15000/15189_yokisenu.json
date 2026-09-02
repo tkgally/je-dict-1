@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "15189_yokisenu_ex1",
-      "japanese": "{予期|よき}せぬ{事態|じたい}が{起|お}きた。",
+      "japanese": "{予期|よき}せぬ⟦{事態|じたい}→事態：10151_jitai⟧⟦が→が：00051_ga⟧⟦{起|お}きた→起きる：00521_okiru⟧。",
       "english": "An unforeseen situation occurred.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "15189_yokisenu_ex2",
-      "japanese": "{予期|よき}せぬ{来客|らいきゃく}があって{慌|あわ}てた。",
+      "japanese": "{予期|よき}せぬ⟦{来客|らいきゃく}→来客：13061_raikyaku⟧⟦が→が：00051_ga⟧⟦あって→ある：00006_aru⟧⟦{慌|あわ}てた→慌てる：01874_awateru⟧。",
       "english": "I was flustered by an unexpected visitor.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "15189_yokisenu_ex3",
-      "japanese": "{予期|よき}せぬトラブルに{備|そな}えてバックアップを{取|と}っておくべきだ。",
+      "japanese": "{予期|よき}せぬ⟦トラブル→トラブル：07061_toraburu⟧⟦に→に：00314_ni⟧⟦{備|そな}えて→備える：02125_sonaeru⟧⟦バックアップ→バックアップ：04870_bakkuappu⟧⟦を→を：00422_wo⟧⟦{取|と}って→取る：00565_toru⟧おくべきだ。",
       "english": "You should keep backups in preparation for unforeseen trouble.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,19 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{予期|よき}せぬ is a set phrase functioning as a pre-noun modifier. It uses the classical negative form せぬ (equivalent to しない in modern Japanese), giving it a somewhat formal or literary tone.\n\nGRAMMAR:\nAlways used before a noun: {予期|よき}せぬ + noun. The modern equivalent {予期|よき}しない is also used but sounds less natural as a fixed expression. The form {予期|よき}せぬ is preferred in writing and formal speech.\n\nVARIATIONS:\n- {予期|よき}せぬ (classical negative — standard form)\n- {予期|よき}しない (modern negative — less common as modifier)\n- {予期|よき}しなかった (past form — \"was unexpected\")\n\nCOMMON COLLOCATIONS:\n- {予期|よき}せぬ{事態|じたい} (unforeseen situation)\n- {予期|よき}せぬ{出来事|できごと} (unexpected event)\n- {予期|よき}せぬ{結果|けっか} (unexpected result)\n- {予期|よき}せぬ{展開|てんかい} (unexpected development)",
-  "cross_references": [],
+  "notes": "USAGE:\n{予期|よき}せぬ is a set phrase functioning as a pre-noun modifier. It uses the classical negative form ⟦せぬ→する：00392_suru⟧ (equivalent to ⟦しない→する：00392_suru⟧ in modern Japanese), giving it a somewhat formal or literary tone.\n\nCOMMON PATTERNS:\nAlways used before a noun: {予期|よき}せぬ + noun. The modern equivalent ⟦{予期|よき}→予期：03662_yoki⟧⟦しない→する：00392_suru⟧ is also used but sounds less natural as a fixed expression. The form {予期|よき}せぬ is preferred in writing and formal speech.\n\nFORMS:\n- {予期|よき}せぬ (classical negative — standard form)\n- ⟦{予期|よき}→予期：03662_yoki⟧⟦しない→する：00392_suru⟧ (modern negative — less common as modifier)\n- ⟦{予期|よき}→予期：03662_yoki⟧⟦しなかった→する：00392_suru⟧ (past form — \"was unexpected\")\n\nCOMMON COLLOCATIONS:\n- {予期|よき}せぬ⟦{事態|じたい}→事態：10151_jitai⟧ (unforeseen situation)\n- {予期|よき}せぬ⟦{出来事|できごと}→出来事：03446_dekigoto⟧ (unexpected event)\n- {予期|よき}せぬ⟦{結果|けっか}→結果：02486_kekka⟧ (unexpected result)\n- {予期|よき}せぬ⟦{展開|てんかい}→展開：04542_tenkai⟧ (unexpected development)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03188_yosougai",
+      "reading": "よそうがい",
+      "headword": "{予想外|よそうがい}",
+      "label": "unexpected, unforeseen"
+    }
+  ],
   "metadata": {
     "created": "2026-03-05T09:08:49Z",
-    "modified": "2026-03-05T09:08:49Z",
+    "modified": "2026-09-02T04:01:40Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

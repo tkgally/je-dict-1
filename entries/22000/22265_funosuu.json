@@ -15,40 +15,66 @@
   "examples": [
     {
       "id": "22265_funosuu_ex1",
-      "japanese": "マイナス3は{負|ふ}の{数|すう}だ。",
+      "japanese": "⟦マイナス→マイナス：00268_mainasu⟧3⟦は→は：00079_ha⟧{負|ふ}の{数|すう}だ。",
       "english": "Minus 3 is a negative number.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "22265_funosuu_ex2",
-      "japanese": "{負|ふ}の{数|すう}と{正|せい}の{数|すう}を{足|た}す。",
+      "japanese": "{負|ふ}の{数|すう}⟦と→と：00512_to⟧⟦{正|せい}→正：09511_sei⟧⟦の→の：09472_no⟧⟦{数|すう}→数：03360_suu⟧⟦を→を：00422_wo⟧⟦{足|た}す→足す：01168_tasu⟧。",
       "english": "To add a negative number and a positive number.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "22265_funosuu_ex3",
-      "japanese": "{中学校|ちゅうがっこう}で{負|ふ}の{数|すう}の{計算|けいさん}を{初|はじ}めて{習|なら}った。",
+      "japanese": "⟦{中学校|ちゅうがっこう}→中学校：01465_chuugakkou⟧⟦で→で：00502_de⟧{負|ふ}の{数|すう}⟦の→の：09472_no⟧⟦{計算|けいさん}→計算：02697_keisan⟧⟦を→を：00422_wo⟧⟦{初|はじ}めて→初めて：02932_hajimete⟧⟦{習|なら}った→習う：00479_narau⟧。",
       "english": "I first learned calculations with negative numbers in junior high school.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A basic mathematical term introduced in Japanese junior high school (middle school) math. In the Japanese curriculum, negative numbers are taught in the first year of {中学校|ちゅうがっこう}.\n\nRELATED TERMS:\n- {正|せい}の{数|すう}: positive number\n- {整数|せいすう}: integer\n- {自然数|しぜんすう}: natural number\n- {絶対値|ぜったいち}: absolute value\n\nFORMATION:\n{負|ふ} (negative, minus) + の (possessive particle) + {数|すう} (number)\n\nNOTE:\nIn everyday speech, マイナス (minus) is more commonly used for temperatures and financial losses, while {負|ふ}の{数|すう} is specifically the mathematical term.",
+  "notes": "A basic mathematical term introduced in Japanese junior high school (middle school) math. In the Japanese curriculum, negative numbers are taught in the first year of ⟦{中学校|ちゅうがっこう}→中学校：01465_chuugakkou⟧.\n\nRELATED WORDS:\n- ⟦{正|せい}→正：09511_sei⟧⟦の→の：09472_no⟧⟦{数|すう}→数：03360_suu⟧: positive number\n- ⟦{整数|せいすう}→整数：04328_seisuu⟧: integer\n- ⟦{自然数|しぜんすう}→自然数：23397_shizensuu⟧: natural number\n- {絶対値|ぜったいち}: absolute value\n\nFORMS:\n⟦{負|ふ}→負：09512_fu⟧ (negative, minus) + ⟦の→の：09472_no⟧ (possessive particle) + ⟦{数|すう}→数：03360_suu⟧ (number)\n\nUSAGE:\nIn everyday speech, ⟦マイナス→マイナス：00268_mainasu⟧ (minus) is more commonly used for temperatures and financial losses, while {負|ふ}の{数|すう} is specifically the mathematical term.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "04328_seisuu",
+      "reading": "せいすう",
+      "headword": "{整数|せいすう}",
+      "label": "integer"
+    },
+    {
+      "type": "related",
+      "target_id": "23397_shizensuu",
+      "reading": "しぜんすう",
+      "headword": "{自然数|しぜんすう}",
+      "label": "natural number"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["mathematics"]
+      "semantic": [
+        "mathematics"
+      ]
     },
     "created": "2026-04-05T16:27:41Z",
-    "modified": "2026-06-15T07:56:51Z"
+    "modified": "2026-09-02T04:02:07Z"
   }
 }

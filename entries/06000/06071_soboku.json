@@ -69,7 +69,7 @@
     },
     {
       "id": "06071_soboku_ex6",
-      "japanese": "⟦{都会|とかい}→都会：02475_tokai⟧⟦の→の：09472_no⟧⟦{人|ひと}→人：00476_hito⟧⟦から→から：00504_kara⟧⟦{見|み}ると→見る：00283_miru⟧{素朴|そぼく}に⟦{見|み}える→見える：01165_mieru⟧⟦かもしれない→かもしれない：00164_kamoshirenai⟧。",
+      "japanese": "⟦{都会|とかい}→都会：02475_tokai⟧⟦の→の：09472_no⟧⟦{人|ひと}→人：00476_hito⟧⟦から→から：00504_kara⟧⟦{見|み}ると→見る：00283_miru⟧{素朴|そぼく}⟦に→に：00314_ni⟧⟦{見|み}える→見える：01165_mieru⟧⟦かもしれない→かもしれない：00164_kamoshirenai⟧。",
       "english": "It might look unsophisticated to city people.",
       "notes": null,
       "has_audio": false,
@@ -78,18 +78,74 @@
       ]
     }
   ],
-  "notes": "FORMS:\n・Adverb: {素朴|そぼく}に (simply, naively)\n・Noun: {素朴|そぼく}さ (simplicity, naivety)\n\nCOMMON PATTERNS:\n・{素朴|そぼく}な⟦{疑問|ぎもん}→疑問：02648_gimon⟧ (simple/basic question)\n・{素朴|そぼく}な⟦{暮|く}らし→暮らし：02670_kurashi⟧ (simple life)\n・{素朴|そぼく}な⟦{美|うつく}しさ→美しい：01121_utsukushii⟧ (rustic beauty)\n\nNUANCE: Generally positive, implying authenticity and lack of pretense. Can be used for art ({素朴派|そぼくは} = naive art), lifestyle, personality, or ideas.\n\nCONTRAST: Opposite of ⟦{洗練|せんれん}→洗練：06468_senren⟧された (refined, sophisticated).",
+  "notes": "FORMS:\n- Adverb: {素朴|そぼく}⟦に→に：00314_ni⟧ (simply, naively)\n- Noun: {素朴|そぼく}さ (simplicity, naivety)\n\nCOMMON PATTERNS:\n- {素朴|そぼく}な⟦{疑問|ぎもん}→疑問：02648_gimon⟧ (simple/basic question)\n- {素朴|そぼく}な⟦{暮|く}らし→暮らし：02670_kurashi⟧ (simple life)\n- {素朴|そぼく}な⟦{美|うつく}しさ→美しい：01121_utsukushii⟧ (rustic beauty)\n\nNUANCE: Generally positive, implying authenticity and lack of pretense. Can be used for art ({素朴派|そぼくは} = naive art), lifestyle, personality, or ideas.\n\nCONTRAST: Opposite of ⟦{洗練|せんれん}→洗練：06468_senren⟧⟦された→する：00392_suru⟧ (refined, sophisticated).",
   "cross_references": [
     {
       "type": "antonym",
       "reading": "せんれん",
       "headword": "{洗練|せんれん}",
       "target_id": "06468_senren"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03414_tanjun",
+      "reading": "たんじゅん",
+      "headword": "{単純|たんじゅん}",
+      "label": "simple, simplicity"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08673_junsui",
+      "reading": "じゅんすい",
+      "headword": "{純粋|じゅんすい}",
+      "label": "pure"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10943_shinpuru",
+      "reading": "しんぷる",
+      "headword": "シンプル",
+      "label": "simple"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15408_junboku",
+      "reading": "じゅんぼく",
+      "headword": "{純朴|じゅんぼく}",
+      "label": "simple and honest"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20513_seijun",
+      "reading": "せいじゅん",
+      "headword": "{清純|せいじゅん}",
+      "label": "pure"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21353_bukotsu",
+      "reading": "ぶこつ",
+      "headword": "{無骨|ぶこつ}",
+      "label": "rough"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21899_genshiteki",
+      "reading": "げんしてき",
+      "headword": "{原始的|げんしてき}",
+      "label": "primitive"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26025_tezukurikan",
+      "reading": "てづくりかん",
+      "headword": "{手作|てづく}り{感|かん}",
+      "label": "handmade feel"
     }
   ],
   "metadata": {
     "created": "2026-01-17T02:07:38Z",
-    "modified": "2026-06-12T01:39:16Z",
+    "modified": "2026-09-02T04:01:07Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

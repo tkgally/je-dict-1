@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "10506_matome_ex1",
-      "japanese": "{会議|かいぎ}のまとめ。",
+      "japanese": "⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦の→の：09472_no⟧まとめ。",
       "english": "A summary of the meeting.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "10506_matome_ex2",
-      "japanese": "{今日|きょう}のニュースのまとめを{読|よ}んだ。",
+      "japanese": "⟦{今日|きょう}→今日：00496_kyou⟧⟦の→の：09472_no⟧⟦ニュース→ニュース：04437_nyuusu⟧⟦の→の：09472_no⟧まとめ⟦を→を：00422_wo⟧⟦{読|よ}んだ→読む：00426_yomu⟧。",
       "english": "I read a roundup of today's news.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "10506_matome_ex3",
-      "japanese": "レポートの{最後|さいご}にまとめを{書|か}くのを{忘|わす}れないでください。",
+      "japanese": "⟦レポート→レポート：01543_repooto⟧⟦の→の：09472_no⟧⟦{最後|さいご}→最後：01413_saigo⟧⟦に→に：00314_ni⟧まとめ⟦を→を：00422_wo⟧⟦{書|か}く→書く：00477_kaku⟧⟦の→の：09472_no⟧⟦を→を：00422_wo⟧⟦{忘|わす}れないで→忘れる：00474_wasureru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please don't forget to write a summary at the end of the report.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "FORMATION:\nNoun form of the verb まとめる (to put together, to summarize).\n\nUSAGE:\nVery commonly used online for curated collections or summaries of information (まとめサイト = aggregator site). Also used in academic and business writing for conclusions.\n\nCOMMON COLLOCATIONS:\n- まとめサイト: aggregation/summary website\n- まとめ{記事|きじ}: roundup article\n- まとめ{買|が}い: buying in bulk\n- {情報|じょうほう}のまとめ: information summary",
+  "notes": "FORMS:\nNoun form of the verb まとめる (to put together, to summarize).\n\nUSAGE:\nVery commonly used online for curated collections or summaries of information (まとめ⟦サイト→サイト：05603_saito⟧ = aggregator site). Also used in academic and business writing for conclusions.\n\nCOMMON COLLOCATIONS:\n- まとめ⟦サイト→サイト：05603_saito⟧: aggregation/summary website\n- まとめ⟦{記事|きじ}→記事：00227_kiji⟧: roundup article\n- まとめ{買|が}い: buying in bulk\n- ⟦{情報|じょうほう}→情報：03348_jouhou⟧⟦の→の：09472_no⟧まとめ: information summary",
   "prominent_see_also": [
     {
       "target_id": "02424_matomeru",
@@ -53,10 +53,18 @@
       "note": "verb form"
     }
   ],
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13877_soukatsu",
+      "reading": "そうかつ",
+      "headword": "{総括|そうかつ}",
+      "label": "summary, overall review, wrap-up"
+    }
+  ],
   "metadata": {
     "created": "2026-02-07T23:54:21Z",
-    "modified": "2026-06-27T03:38:18Z",
+    "modified": "2026-09-02T04:01:21Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

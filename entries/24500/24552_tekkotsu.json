@@ -16,7 +16,7 @@
   "examples": [
     {
       "id": "24552_tekkotsu_ex1",
-      "japanese": "{鉄骨|てっこつ}{造|づく}りのビルだ。",
+      "japanese": "{鉄骨|てっこつ}{造|づく}り⟦の→の：09472_no⟧⟦ビル→ビル：01500_biru⟧だ。",
       "english": "It's a steel-frame building.",
       "sense_numbers": [
         1
@@ -26,7 +26,7 @@
     },
     {
       "id": "24552_tekkotsu_ex2",
-      "japanese": "{工事|こうじ}{現場|げんば}で{鉄骨|てっこつ}が{組|く}まれていた。",
+      "japanese": "⟦{工事|こうじ}{現場|げんば}→工事現場：26202_koujigenba⟧⟦で→で：00502_de⟧{鉄骨|てっこつ}⟦が→が：00051_ga⟧⟦{組|く}まれていた→組む：02050_kumu⟧。",
       "english": "Steel beams were being assembled at the construction site.",
       "sense_numbers": [
         1
@@ -36,7 +36,7 @@
     },
     {
       "id": "24552_tekkotsu_ex3",
-      "japanese": "この{建物|たてもの}は{鉄骨|てっこつ}{鉄筋|てっきん}コンクリート{造|づく}りで、{耐震|たいしん}{性|せい}が{高|たか}い。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{建物|たてもの}→建物：01458_tatemono⟧⟦は→は：00079_ha⟧{鉄骨|てっこつ}⟦{鉄筋|てっきん}コンクリート→鉄筋コンクリート：17904_tekkinkonkuriito⟧{造|づく}りで、⟦{耐震|たいしん}→耐震：06222_taishin⟧⟦{性|せい}→性：09880_sei⟧⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧。",
       "english": "This building is made of steel-reinforced concrete and has high earthquake resistance.",
       "sense_numbers": [
         1
@@ -45,11 +45,19 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {鉄|てつ} (iron/steel) and {骨|こつ} (bone/frame). Refers to the steel structural members used in building construction. Very common in real estate listings and construction contexts in Japan, where building structure type is a standard piece of information.\n\nCOMMON COLLOCATIONS:\n- {鉄骨|てっこつ}{造|づく}り: steel-frame construction\n- {鉄骨|てっこつ}{鉄筋|てっきん}コンクリート{造|づく}り: steel-reinforced concrete (SRC)\n- {鉄骨|てっこつ}を{組|く}む: to assemble steel frames\n- {鉄骨|てっこつ}{構造|こうぞう}: steel structure\n\nBUILDING STRUCTURE TYPES:\nJapanese real estate commonly abbreviates these as:\n- S{造|ぞう}: steel ({鉄骨|てっこつ})\n- RC{造|ぞう}: reinforced concrete ({鉄筋|てっきん}コンクリート)\n- SRC{造|ぞう}: steel-reinforced concrete ({鉄骨|てっこつ}{鉄筋|てっきん}コンクリート)\n- W{造|ぞう}: wood ({木造|もくぞう})",
-  "cross_references": [],
+  "notes": "Compound of ⟦{鉄|てつ}→鉄：02225_tetsu⟧ (iron/steel) and {骨|こつ} (bone/frame). Refers to the steel structural members used in building construction. Very common in real estate listings and construction contexts in Japan, where building structure type is a standard piece of information.\n\nCOMMON COLLOCATIONS:\n- {鉄骨|てっこつ}{造|づく}り: steel-frame construction\n- {鉄骨|てっこつ}⟦{鉄筋|てっきん}コンクリート→鉄筋コンクリート：17904_tekkinkonkuriito⟧{造|づく}り: steel-reinforced concrete (SRC)\n- {鉄骨|てっこつ}⟦を→を：00422_wo⟧⟦{組|く}む→組む：02050_kumu⟧: to assemble steel frames\n- {鉄骨|てっこつ}⟦{構造|こうぞう}→構造：02730_kouzou⟧: steel structure\n\nBUILDING STRUCTURE TYPES:\nJapanese real estate commonly abbreviates these as:\n- S{造|ぞう}: steel ({鉄骨|てっこつ})\n- RC{造|ぞう}: reinforced concrete (⟦{鉄筋|てっきん}コンクリート→鉄筋コンクリート：17904_tekkinkonkuriito⟧)\n- SRC{造|ぞう}: steel-reinforced concrete ({鉄骨|てっこつ}⟦{鉄筋|てっきん}コンクリート→鉄筋コンクリート：17904_tekkinkonkuriito⟧)\n- W{造|ぞう}: wood (⟦{木造|もくぞう}→木造：08328_mokuzou⟧)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "17904_tekkinkonkuriito",
+      "reading": "てっきんこんくりーと",
+      "headword": "{鉄筋|てっきん}コンクリート",
+      "label": "reinforced concrete"
+    }
+  ],
   "metadata": {
     "created": "2026-04-19T14:17:26Z",
-    "modified": "2026-08-03T09:22:27Z",
+    "modified": "2026-09-02T04:02:18Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

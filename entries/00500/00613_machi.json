@@ -64,10 +64,32 @@
     }
   ],
   "notes": "{町|まち} refers to a town or urban area, often used for smaller municipalities or neighborhoods.\n\nKANJI DISTINCTION:\n- {町|まち}: town, municipality (administrative unit)\n- ⟦{街|まち}→街：17306_machi⟧: city streets, downtown area (emphasis on the urban atmosphere)\n\nCOMMON EXPRESSIONS:\n- {町|まち}⟦に→に：00314_ni⟧⟦{出|で}る→出る：00513_deru⟧: to go into town\n- {町|まち}⟦で→で：00502_de⟧⟦{買|か}い{物|もの}→買い物：00853_kaimono⟧⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧: to shop in town\n- {町|まち}⟦を→を：00422_wo⟧⟦{歩|ある}く→歩く：00538_aruku⟧: to walk around town\n- ⟦{町|まち}{並|な}み→町並み：10435_machinami⟧: townscape, row of houses\n\nRELATED WORDS:\n- ⟦{村|むら}→村：02261_mura⟧: village (smaller than {町|まち})\n- ⟦{市|し}→市：01599_shi⟧: city (larger than {町|まち})\n- ⟦{都会|とかい}→都会：02475_tokai⟧: urban area, city",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "02261_mura",
+      "reading": "むら",
+      "headword": "{村|むら}",
+      "label": "village"
+    },
+    {
+      "type": "related",
+      "target_id": "01599_shi",
+      "reading": "し",
+      "headword": "{市|し}",
+      "label": "city"
+    },
+    {
+      "type": "related",
+      "target_id": "02475_tokai",
+      "reading": "とかい",
+      "headword": "{都会|とかい}",
+      "label": "urban area, city"
+    }
+  ],
   "metadata": {
     "created": "2026-01-07T15:16:49Z",
-    "modified": "2026-05-12T13:16:23Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

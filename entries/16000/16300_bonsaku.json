@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "16300_bonsaku_ex1",
-      "japanese": "あの{映画|えいが}は{凡作|ぼんさく}だった。",
+      "japanese": "⟦あの→あの：00915_ano⟧⟦{映画|えいが}→映画：02273_eiga⟧⟦は→は：00079_ha⟧{凡作|ぼんさく}だった。",
       "english": "That movie was mediocre.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16300_bonsaku_ex2",
-      "japanese": "{期待|きたい}していたが、{凡作|ぼんさく}に{終|お}わった。",
+      "japanese": "⟦{期待|きたい}していた→期待する：06065_kitaisuru⟧⟦が→が：00051_ga⟧、{凡作|ぼんさく}⟦に→に：00314_ni⟧⟦{終|お}わった→終わる：00567_owaru⟧。",
       "english": "I had high hopes, but it turned out to be an unremarkable work.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16300_bonsaku_ex3",
-      "japanese": "{天才|てんさい}と{呼|よ}ばれた{画家|がか}にも{凡作|ぼんさく}はある。",
+      "japanese": "⟦{天才|てんさい}→天才：09934_tensai⟧⟦と→と：00512_to⟧⟦{呼|よ}ばれた→呼ぶ：00766_yobu⟧⟦{画家|がか}→画家：02583_gaka⟧⟦に→に：00314_ni⟧⟦も→も：00484_mo⟧{凡作|ぼんさく}⟦は→は：00079_ha⟧⟦ある→ある：00006_aru⟧。",
       "english": "Even a painter called a genius has some mediocre works.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\n{凡作|ぼんさく} is used primarily in criticism and reviews of creative works. It implies something merely average — not terrible, but lacking in originality or impact. The {凡|ぼん} character means \"ordinary\" or \"mediocre.\"\n\nCOMMON COLLOCATIONS:\n- {凡作|ぼんさく}に{終|お}わる (to end up as a mediocre work)\n- {凡作|ぼんさく}と{言|い}わざるを{得|え}ない (one must call it mediocre)\n\nSIMILAR WORDS:\n{傑作|けっさく} (masterpiece) and {駄作|ださく} (terrible work) are at opposite ends of the quality spectrum. {凡作|ぼんさく} sits in the middle — better than {駄作|ださく} but far from {傑作|けっさく}. {佳作|かさく} (commendable work) is slightly above {凡作|ぼんさく}, indicating decent quality.",
+  "notes": "USAGE:\n{凡作|ぼんさく} is used primarily in criticism and reviews of creative works. It implies something merely average — not terrible, but lacking in originality or impact. The {凡|ぼん} character means \"ordinary\" or \"mediocre.\"\n\nCOMMON COLLOCATIONS:\n- {凡作|ぼんさく}⟦に→に：00314_ni⟧{終|お}わる (to end up as a mediocre work)\n- {凡作|ぼんさく}⟦と→と：00512_to⟧⟦{言|い}わざる→言う：00515_iu⟧⟦を→を：00422_wo⟧⟦{得|え}ない→得る：02014_eru⟧ (one must call it mediocre)\n\nSIMILAR WORDS:\n⟦{傑作|けっさく}→傑作：00217_kessaku⟧ (masterpiece) and ⟦{駄作|ださく}→駄作：16860_dasaku⟧ (terrible work) are at opposite ends of the quality spectrum. {凡作|ぼんさく} sits in the middle — better than ⟦{駄作|ださく}→駄作：16860_dasaku⟧ but far from ⟦{傑作|けっさく}→傑作：00217_kessaku⟧. ⟦{佳作|かさく}→佳作：22658_kasaku⟧ (commendable work) is slightly above {凡作|ぼんさく}, indicating decent quality.",
   "cross_references": [
     {
       "type": "antonym",
@@ -64,15 +70,21 @@
   ],
   "metadata": {
     "created": "2026-03-11T14:06:17Z",
-    "modified": "2026-05-03T08:15:02Z",
+    "modified": "2026-09-02T04:01:44Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["academic"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "academic"
+      ]
     }
   }
 }

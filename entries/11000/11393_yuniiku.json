@@ -15,40 +15,79 @@
   "examples": [
     {
       "id": "11393_yuniiku_ex1",
-      "japanese": "ユニークな{発想|はっそう}だね。",
+      "japanese": "ユニークな⟦{発想|はっそう}→発想：04309_hassou⟧だ⟦ね→ね：09474_ne⟧。",
       "english": "That's a unique idea.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11393_yuniiku_ex2",
-      "japanese": "{彼|かれ}はユニークな{人|ひと}で、いつもみんなを{笑|わら}わせる。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧ユニークな⟦{人|ひと}→人：00476_hito⟧で、⟦いつも→いつも：00599_itsumo⟧⟦みんな→みんな：02972_minna⟧⟦を→を：00422_wo⟧⟦{笑|わら}わせる→笑う：00685_warau⟧。",
       "english": "He's a quirky person who always makes everyone laugh.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11393_yuniiku_ex3",
-      "japanese": "この{会社|かいしゃ}はユニークな{社風|しゃふう}で{知|し}られており、{社員|しゃいん}の{服装|ふくそう}も{自由|じゆう}だ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦は→は：00079_ha⟧ユニークな⟦{社風|しゃふう}→社風：29429_shafuu⟧⟦で→で：00502_de⟧⟦{知|し}られて→知る：00458_shiru⟧おり、⟦{社員|しゃいん}→社員：03065_shain⟧⟦の→の：09472_no⟧⟦{服装|ふくそう}→服装：03594_fukusou⟧⟦も→も：00484_mo⟧⟦{自由|じゆう}→自由：01148_jiyuu⟧だ。",
       "english": "This company is known for its distinctive corporate culture, and employees are free to dress as they like.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "FALSE FRIEND: In English, \"unique\" primarily means \"one of a kind\" or \"unlike anything else.\" In Japanese, ユニーク has a broader and often lighter nuance. It frequently means \"amusing,\" \"quirky,\" or \"entertainingly different\" — closer to English \"funny\" or \"original\" than strictly \"unique.\"\n\nFor example, ユニークな{人|ひと} typically means an amusing or quirky person, not necessarily someone who is one of a kind.\n\nCOMMON COLLOCATIONS:\n- ユニークな{発想|はっそう} (a unique/original idea)\n- ユニークな{人|ひと} (a quirky/amusing person)\n- ユニークな{商品|しょうひん} (a distinctive product)\n- ユニークな{取|と}り{組|く}み (a distinctive initiative)",
-  "cross_references": [],
+  "notes": "FALSE FRIEND: In English, \"unique\" primarily means \"one of a kind\" or \"unlike anything else.\" In Japanese, ユニーク has a broader and often lighter nuance. It frequently means \"amusing,\" \"quirky,\" or \"entertainingly different\" — closer to English \"funny\" or \"original\" than strictly \"unique.\"\n\nFor example, ユニークな⟦{人|ひと}→人：00476_hito⟧ typically means an amusing or quirky person, not necessarily someone who is one of a kind.\n\nCOMMON COLLOCATIONS:\n- ユニークな⟦{発想|はっそう}→発想：04309_hassou⟧ (a unique/original idea)\n- ユニークな⟦{人|ひと}→人：00476_hito⟧ (a quirky/amusing person)\n- ユニークな⟦{商品|しょうひん}→商品：01436_shouhin⟧ (a distinctive product)\n- ユニークな⟦{取|と}り{組|く}み→取り組み：10403_torikumi⟧ (a distinctive initiative)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01656_dokutoku",
+      "reading": "どくとく",
+      "headword": "{独特|どくとく}",
+      "label": "unique, peculiar, distinctive"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05615_koyuu",
+      "reading": "こゆう",
+      "headword": "{固有|こゆう}",
+      "label": "inherent"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14922_koseiteki",
+      "reading": "こせいてき",
+      "headword": "{個性的|こせいてき}",
+      "label": "unique"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20570_fuugawari",
+      "reading": "ふうがわり",
+      "headword": "{風変|ふうが}わり",
+      "label": "unusual"
+    }
+  ],
   "metadata": {
     "created": "2026-02-16T02:03:47Z",
-    "modified": "2026-02-16T02:03:47Z",
+    "modified": "2026-09-02T04:01:25Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-na"],
+      "pos": [
+        "adjective-na"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["descriptive"]
+      "semantic": [
+        "descriptive"
+      ]
     }
   }
 }

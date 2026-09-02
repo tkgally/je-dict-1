@@ -15,41 +15,70 @@
   "examples": [
     {
       "id": "29778_shoudakusho_ex1",
-      "japanese": "{承諾書|しょうだくしょ}に{署名|しょめい}する。",
+      "japanese": "{承諾書|しょうだくしょ}⟦に→に：00314_ni⟧⟦{署名|しょめい}する→署名する：22432_shomeisuru⟧。",
       "english": "I sign the letter of consent.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29778_shoudakusho_ex2",
-      "japanese": "{契約|けいやく}の{前|まえ}に{承諾書|しょうだくしょ}を{提出|ていしゅつ}してください。",
+      "japanese": "⟦{契約|けいやく}→契約：02698_keiyaku⟧⟦の→の：09472_no⟧⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧{承諾書|しょうだくしょ}⟦を→を：00422_wo⟧⟦{提出|ていしゅつ}して→提出する：19644_teishutsusuru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please submit a letter of consent before the contract.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29778_shoudakusho_ex3",
-      "japanese": "{保護者|ほごしゃ}の{承諾書|しょうだくしょ}がなければ、{参加|さんか}は{認|みと}められない。",
+      "japanese": "⟦{保護者|ほごしゃ}→保護者：11564_hogosha⟧⟦の→の：09472_no⟧{承諾書|しょうだくしょ}⟦が→が：00051_ga⟧⟦なければ→ない：01118_nai⟧、⟦{参加|さんか}→参加：02498_sanka⟧⟦は→は：00079_ha⟧⟦{認|みと}められない→認める：02429_mitomeru⟧。",
       "english": "Without a guardian's letter of consent, participation is not permitted.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Formed from {承諾|しょうだく} (consent, acceptance) + {書|しょ} (document). A formal written instrument, used mainly in business, legal, and administrative settings.\n\nCOMMON COLLOCATIONS:\n- {承諾書|しょうだくしょ}を{提出|ていしゅつ}する: to submit a letter of consent\n- {承諾書|しょうだくしょ}に{署名|しょめい}する: to sign a letter of consent\n- {承諾書|しょうだくしょ}を{取|と}り{付|つ}ける: to obtain a letter of consent\n\nSIMILAR WORDS:\n- {同意書|どういしょ}: consent form — very close; often used for medical or research consent.\n- {契約書|けいやくしょ}: contract — a binding agreement between parties, broader than mere consent.",
+  "notes": "Formed from ⟦{承諾|しょうだく}→承諾：12778_shoudaku⟧ (consent, acceptance) + ⟦{書|しょ}→〜書：28467_sho⟧ (document). A formal written instrument, used mainly in business, legal, and administrative settings.\n\nCOMMON COLLOCATIONS:\n- {承諾書|しょうだくしょ}⟦を→を：00422_wo⟧⟦{提出|ていしゅつ}する→提出する：19644_teishutsusuru⟧: to submit a letter of consent\n- {承諾書|しょうだくしょ}⟦に→に：00314_ni⟧⟦{署名|しょめい}する→署名する：22432_shomeisuru⟧: to sign a letter of consent\n- {承諾書|しょうだくしょ}⟦を→を：00422_wo⟧⟦{取|と}り{付|つ}ける→取り付ける：06797_toritsukeru⟧: to obtain a letter of consent\n\nSIMILAR WORDS:\n- ⟦{同意書|どういしょ}→同意書：06449_douisho⟧: consent form — very close; often used for medical or research consent.\n- ⟦{契約書|けいやくしょ}→契約書：06416_keiyakusho⟧: contract — a binding agreement between parties, broader than mere consent.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06449_douisho",
+      "reading": "どういしょ",
+      "headword": "{同意書|どういしょ}",
+      "label": "consent form"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06416_keiyakusho",
+      "reading": "けいやくしょ",
+      "headword": "{契約書|けいやくしょ}",
+      "label": "contract"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
-      "politeness": null,
-      "semantic": ["business", "law"],
-      "domain": ["business"]
+      "politeness": "plain",
+      "semantic": [
+        "business",
+        "law"
+      ],
+      "domain": [
+        "business"
+      ]
     },
     "created": "2026-07-11T21:17:16Z",
-    "modified": "2026-07-11T21:17:16Z"
+    "modified": "2026-09-02T04:02:37Z"
   }
 }

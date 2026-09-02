@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "27399_kureemu_ex1",
-      "japanese": "{客|きゃく}からクレームが{入|はい}った。",
+      "japanese": "⟦{客|きゃく}→客：00865_kyaku⟧⟦から→から：00504_kara⟧クレーム⟦が→が：00051_ga⟧⟦{入|はい}った→入る：00494_hairu⟧。",
       "english": "We got a complaint from a customer.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "27399_kureemu_ex2",
-      "japanese": "{丁寧|ていねい}にクレームに{対応|たいおう}した。",
+      "japanese": "⟦{丁寧|ていねい}→丁寧：00896_teinei⟧⟦に→に：00314_ni⟧クレーム⟦に→に：00314_ni⟧⟦{対応|たいおう}→対応：02510_taiou⟧⟦した→する：00392_suru⟧。",
       "english": "I handled the complaint politely.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "27399_kureemu_ex3",
-      "japanese": "{商品|しょうひん}の{不具合|ふぐあい}について、メーカーに{直接|ちょくせつ}クレームを{付|つ}けた。",
+      "japanese": "⟦{商品|しょうひん}→商品：01436_shouhin⟧⟦の→の：09472_no⟧⟦{不具合|ふぐあい}→不具合：06413_fuguai⟧⟦について→〜について：03103_nitsuite⟧、⟦メーカー→メーカー：11158_meekaa⟧⟦に→に：00314_ni⟧⟦{直接|ちょくせつ}→直接：03499_chokusetsu⟧クレーム⟦を→を：00422_wo⟧⟦{付|つ}けた→付ける：00761_tsukeru⟧。",
       "english": "I made a complaint directly to the manufacturer about the product defect.",
       "sense_numbers": [
         1
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "From English \"claim,\" but the Japanese meaning has narrowed to \"complaint.\" English \"claim\" in the sense of asserting something or filing an insurance claim is NOT what クレーム means in Japanese — for those use {主張|しゅちょう} or {請求|せいきゅう}.\n\nCOMMON COLLOCATIONS:\n- クレームを{付|つ}ける: to make a complaint\n- クレームを{入|い}れる: to put in a complaint\n- クレームが{入|はい}る: a complaint comes in\n- クレームに{対応|たいおう}する: to handle a complaint\n- クレーマー: a chronic complainer; difficult customer\n\nSIMILAR WORDS:\n- {苦情|くじょう}: complaint — native term, somewhat more formal\n- {文句|もんく}: grumbling; gripe — more casual; often about everyday matters\n- {抗議|こうぎ}: protest; formal objection — stronger and more public",
+  "notes": "From English \"claim,\" but the Japanese meaning has narrowed to \"complaint.\" English \"claim\" in the sense of asserting something or filing an insurance claim is NOT what クレーム means in Japanese — for those use ⟦{主張|しゅちょう}→主張：03220_shuchou⟧ or ⟦{請求|せいきゅう}→請求：03374_seikyuu⟧.\n\nCOMMON COLLOCATIONS:\n- クレーム⟦を→を：00422_wo⟧⟦{付|つ}ける→付ける：00761_tsukeru⟧: to make a complaint\n- クレーム⟦を→を：00422_wo⟧⟦{入|い}れる→入れる：01098_ireru⟧: to put in a complaint\n- クレーム⟦が→が：00051_ga⟧⟦{入|はい}る→入る：00494_hairu⟧: a complaint comes in\n- クレーム⟦に→に：00314_ni⟧⟦{対応|たいおう}→対応：02510_taiou⟧⟦する→する：00392_suru⟧: to handle a complaint\n- クレーマー: a chronic complainer; difficult customer\n\nSIMILAR WORDS:\n- ⟦{苦情|くじょう}→苦情：00252_kujou⟧: complaint — native term, somewhat more formal\n- ⟦{文句|もんく}→文句：03636_monku⟧: grumbling; gripe — more casual; often about everyday matters\n- ⟦{抗議|こうぎ}→抗議：12807_kougi⟧: protest; formal objection — stronger and more public",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00252_kujou",
+      "reading": "くじょう",
+      "headword": "{苦情|くじょう}",
+      "label": "complaint"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03636_monku",
+      "reading": "もんく",
+      "headword": "{文句|もんく}",
+      "label": "grumbling"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12807_kougi",
+      "reading": "こうぎ",
+      "headword": "{抗議|こうぎ}",
+      "label": "protest"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21251_ichamon",
+      "reading": "いちゃもん",
+      "headword": "いちゃもん",
+      "label": "complaint"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +83,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "communication",
         "business"
@@ -63,6 +93,6 @@
       ]
     },
     "created": "2026-05-11T07:05:34Z",
-    "modified": "2026-08-07T16:10:18Z"
+    "modified": "2026-09-02T04:02:30Z"
   }
 }

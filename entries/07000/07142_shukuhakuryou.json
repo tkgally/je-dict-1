@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "07142_shukuhakuryou_ex1",
-      "japanese": "{宿泊料|しゅくはくりょう}には{朝食|ちょうしょく}が{含|ふく}まれています。",
+      "japanese": "{宿泊料|しゅくはくりょう}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{朝食|ちょうしょく}→朝食：03122_choushoku⟧⟦が→が：00051_ga⟧⟦{含|ふく}まれています→含む：01982_fukumu⟧。",
       "english": "Breakfast is included in the accommodation fee.",
       "sense_numbers": [
         1
@@ -22,7 +22,7 @@
     },
     {
       "id": "07142_shukuhakuryou_ex2",
-      "japanese": "{宿泊料|しゅくはくりょう}は1{泊|ぱく}1{万円|まんえん}だ。",
+      "japanese": "{宿泊料|しゅくはくりょう}⟦は→は：00079_ha⟧1{泊|ぱく}1{万円|まんえん}だ。",
       "english": "The accommodation fee is 10,000 yen per night.",
       "sense_numbers": [
         1
@@ -30,14 +30,14 @@
     },
     {
       "id": "07142_shukuhakuryou_ex3",
-      "japanese": "{繁忙期|はんぼうき}は{宿泊料|しゅくはくりょう}が{高|たか}くなる。",
+      "japanese": "⟦{繁忙期|はんぼうき}→繁忙期：08366_hanbouki⟧⟦は→は：00079_ha⟧{宿泊料|しゅくはくりょう}⟦が→が：00051_ga⟧⟦{高|たか}く→高い：00500_takai⟧⟦なる→なる：01970_naru⟧。",
       "english": "Accommodation fees go up during the busy season.",
       "sense_numbers": [
         1
       ]
     }
   ],
-  "notes": "COMPOSITION: {宿泊|しゅくはく} (lodging, staying overnight) + {料|りょう} (fee).\n\nSYNONYMS:\n- {宿泊費|しゅくはくひ}: accommodation cost/expense\n- {室料|しつりょう}: room charge\n- {部屋代|へやだい}: room rate (colloquial)\n\nINCLUSIONS/EXCLUSIONS:\n- {素泊|すど}まり: room only (no meals)\n- {朝食付|ちょうしょくつ}き: with breakfast\n- {二食付|にしょくつ}き: with two meals (dinner and breakfast)\n- {夕食付|ゆうしょくつ}き: with dinner\n\nRELATED TERMS:\n- {宿泊税|しゅくはくぜい}: accommodation tax\n- サービス{料|りょう}: service charge\n- {入湯税|にゅうとうぜい}: bathing tax (hot spring areas)\n\nPRICING MODELS:\n- {一人|ひとり}{当|あ}たり: per person\n- {一部屋|ひとへや}{当|あ}たり: per room\n- 1{泊|ぱく}: per night",
+  "notes": "COMPOSITION: ⟦{宿泊|しゅくはく}→宿泊：03216_shukuhaku⟧ (lodging, staying overnight) + ⟦{料|りょう}→料：28172_ryou⟧ (fee).\n\nSIMILAR WORDS:\n- ⟦{宿泊費|しゅくはくひ}→宿泊費：25963_shukuhakuhi⟧: accommodation cost/expense\n- {室料|しつりょう}: room charge\n- {部屋代|へやだい}: room rate (colloquial)\n\nINCLUSIONS/EXCLUSIONS:\n- ⟦{素泊|すど}まり→素泊まり：07048_sudomari⟧: room only (no meals)\n- ⟦{朝食付|ちょうしょくつ}き→朝食付き：07826_choushokutsuki⟧: with breakfast\n- {二食付|にしょくつ}き: with two meals (dinner and breakfast)\n- ⟦{夕食付|ゆうしょくつ}き→夕食付き：30782_yuushokutsuki⟧: with dinner\n\nRELATED WORDS:\n- {宿泊税|しゅくはくぜい}: accommodation tax\n- ⟦サービス{料|りょう}→サービス料：27929_saabisuryou⟧: service charge\n- {入湯税|にゅうとうぜい}: bathing tax (hot spring areas)\n\nPRICING MODELS:\n- ⟦{一人|ひとり}→一人：00630_hitori⟧⟦{当|あ}たり→当たり：01919_atari⟧: per person\n- {一部屋|ひとへや}⟦{当|あ}たり→当たり：01919_atari⟧: per room\n- 1{泊|ぱく}: per night",
   "cross_references": [
     {
       "type": "related",
@@ -52,11 +52,32 @@
       "reading": "しゅくはく",
       "headword": "{宿泊|しゅくはく}",
       "label": "lodging"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25963_shukuhakuhi",
+      "reading": "しゅくはくひ",
+      "headword": "{宿泊費|しゅくはくひ}",
+      "label": "accommodation cost/expense"
+    },
+    {
+      "type": "related",
+      "target_id": "27929_saabisuryou",
+      "reading": "さーびすりょう",
+      "headword": "サービス{料|りょう}",
+      "label": "service charge"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25794_yadodai",
+      "reading": "やどだい",
+      "headword": "{宿代|やどだい}",
+      "label": "lodging fee"
     }
   ],
   "metadata": {
     "created": "2026-01-18T23:54:32Z",
-    "modified": "2026-04-19T03:07:22Z",
+    "modified": "2026-09-02T04:01:10Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

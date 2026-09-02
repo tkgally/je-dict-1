@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "09835_pointokaado_ex1",
-      "japanese": "ポイントカードはお{持|も}ちですか。",
+      "japanese": "ポイントカード⟦は→は：00079_ha⟧お⟦{持|も}ち→持つ：00478_motsu⟧です⟦か→か：09473_ka⟧。",
       "english": "Do you have a loyalty card?",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "09835_pointokaado_ex2",
-      "japanese": "ポイントカードを{作|つく}りました。",
+      "japanese": "ポイントカード⟦を→を：00422_wo⟧⟦{作|つく}りました→作る：00481_tsukuru⟧。",
       "english": "I made a loyalty card.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "09835_pointokaado_ex3",
-      "japanese": "ポイントカードが{財布|さいふ}に{入|はい}りきらない。",
+      "japanese": "ポイントカード⟦が→が：00051_ga⟧⟦{財布|さいふ}→財布：00663_saifu⟧⟦に→に：00314_ni⟧⟦{入|はい}り→入る：00494_hairu⟧きらない。",
       "english": "My loyalty cards won't fit in my wallet.",
       "notes": null,
       "has_audio": false,
@@ -43,10 +43,19 @@
       ]
     }
   ],
-  "notes": "ポイントカード is ubiquitous in Japan. Many stores ask 「ポイントカードはお{持|も}ちですか」 at checkout. Major point systems include Tポイント, Pontaポイント, and {楽天|らくてん}ポイント. Many have shifted to smartphone apps.\n\nCOMMON COLLOCATIONS:\n- ポイントカードを{貯|た}める (to accumulate points)\n- ポイントカードを{使|つか}う (to use a loyalty card)\n- ポイントカード{会員|かいいん} (loyalty card member)\n\nRELATED TERMS:\n- ポイント{還元|かんげん}: point redemption\n- {会員|かいいん}カード: membership card\n- アプリ{会員|かいいん}: app member",
+  "notes": "ポイントカード is ubiquitous in Japan. Many stores ask 「ポイントカード⟦は→は：00079_ha⟧お⟦{持|も}ち→持つ：00478_motsu⟧です⟦か→か：09473_ka⟧」 at checkout. Major point systems include T⟦ポイント→ポイント：11283_pointo⟧, Pontaポイント, and {楽天|らくてん}⟦ポイント→ポイント：11283_pointo⟧. Many have shifted to smartphone apps.\n\nCOMMON COLLOCATIONS:\n- ポイントカード⟦を→を：00422_wo⟧⟦{貯|た}める→貯める：27801_tameru⟧ (to accumulate points)\n- ポイントカード⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧ (to use a loyalty card)\n- ポイントカード⟦{会員|かいいん}→会員：02535_kaiin⟧ (loyalty card member)\n\nRELATED WORDS:\n- ⟦ポイント{還元|かんげん}→ポイント還元：08798_pointokangen⟧: point redemption\n- ⟦{会員|かいいん}→会員：02535_kaiin⟧⟦カード→カード：03836_kaado⟧: membership card\n- ⟦アプリ→アプリ：04722_apuri⟧⟦{会員|かいいん}→会員：02535_kaiin⟧: app member",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "08798_pointokangen",
+      "reading": "ぽいんとかんげん",
+      "headword": "ポイント{還元|かんげん}",
+      "label": "point redemption"
+    }
+  ],
   "metadata": {
     "created": "2026-02-03T12:23:06Z",
-    "modified": "2026-06-26T03:27:23Z",
+    "modified": "2026-09-02T04:01:19Z",
     "ai_model": "claude-opus-4-5-20251101",
     "vocabulary_tier": "general",
     "tags": {

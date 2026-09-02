@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "12284_sengen_ex1",
-      "japanese": "{独立|どくりつ}を{宣言|せんげん}する。",
+      "japanese": "⟦{独立|どくりつ}→独立：03488_dokuritsu⟧⟦を→を：00422_wo⟧{宣言|せんげん}⟦する→する：00392_suru⟧。",
       "english": "To declare independence.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "12284_sengen_ex2",
-      "japanese": "{政府|せいふ}が{非常事態|ひじょうじたい}{宣言|せんげん}を{発令|はつれい}した。",
+      "japanese": "⟦{政府|せいふ}→政府：03294_seifu⟧⟦が→が：00051_ga⟧⟦{非常事態|ひじょうじたい}→非常事態：17519_hijoujitai⟧{宣言|せんげん}⟦を→を：00422_wo⟧⟦{発令|はつれい}→発令：09516_hatsurei⟧⟦した→する：00392_suru⟧。",
       "english": "The government issued a state of emergency declaration.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "12284_sengen_ex3",
-      "japanese": "{選手|せんしゅ}は{記者会見|きしゃかいけん}で{引退|いんたい}を{宣言|せんげん}し、ファンに{感謝|かんしゃ}の{言葉|ことば}を{述|の}べた。",
+      "japanese": "⟦{選手|せんしゅ}→選手：03823_senshu⟧⟦は→は：00079_ha⟧⟦{記者会見|きしゃかいけん}→記者会見：19954_kishakaiken⟧⟦で→で：00502_de⟧⟦{引退|いんたい}→引退：01848_intai⟧⟦を→を：00422_wo⟧{宣言|せんげん}し、⟦ファン→ファン：10065_fan⟧⟦に→に：00314_ni⟧⟦{感謝|かんしゃ}→感謝：00181_kansha⟧⟦の→の：09472_no⟧⟦{言葉|ことば}→言葉：02880_kotoba⟧⟦を→を：00422_wo⟧⟦{述|の}べた→述べる：02389_noberu⟧。",
       "english": "The athlete declared retirement at a press conference and expressed words of gratitude to the fans.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nUsed for both major official declarations and personal announcements. In everyday life, it can be used somewhat dramatically for personal resolutions: ダイエット{宣言|せんげん} (declaring one is going on a diet). The word carries a sense of formality and decisiveness.\n\nCOMMON COLLOCATIONS:\n- {独立|どくりつ}{宣言|せんげん}: declaration of independence\n- {非常事態|ひじょうじたい}{宣言|せんげん}: state of emergency declaration\n- {引退|いんたい}{宣言|せんげん}: retirement announcement\n- {宣言|せんげん}を{出|だ}す: to issue a declaration\n- {宣言|せんげん}どおり: as declared, true to one's word",
+  "notes": "USAGE:\nUsed for both major official declarations and personal announcements. In everyday life, it can be used somewhat dramatically for personal resolutions: ⟦ダイエット→ダイエット：17678_daietto⟧{宣言|せんげん} (declaring one is going on a diet). The word carries a sense of formality and decisiveness.\n\nCOMMON COLLOCATIONS:\n- ⟦{独立|どくりつ}→独立：03488_dokuritsu⟧{宣言|せんげん}: declaration of independence\n- ⟦{非常事態|ひじょうじたい}→非常事態：17519_hijoujitai⟧{宣言|せんげん}: state of emergency declaration\n- ⟦{引退|いんたい}→引退：01848_intai⟧{宣言|せんげん}: retirement announcement\n- {宣言|せんげん}⟦を→を：00422_wo⟧⟦{出|だ}す→出す：01087_dasu⟧: to issue a declaration\n- {宣言|せんげん}⟦どおり→どおり：09884_doori⟧: as declared, true to one's word",
   "cross_references": [
     {
       "type": "synonym",
@@ -149,11 +149,25 @@
       "reading": "はっぴょう",
       "headword": "{発表|はっぴょう}",
       "label": "announcement"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12916_dangen",
+      "reading": "だんげん",
+      "headword": "{断言|だんげん}",
+      "label": "declaration, assertion, affirmation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19584_kougen",
+      "reading": "こうげん",
+      "headword": "{公言|こうげん}",
+      "label": "public declaration"
     }
   ],
   "metadata": {
     "created": "2026-02-20T15:08:40Z",
-    "modified": "2026-04-26T09:20:33Z",
+    "modified": "2026-09-02T04:01:28Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -166,7 +180,8 @@
       "semantic": [
         "communication"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

@@ -14,30 +14,36 @@
   "examples": [
     {
       "id": "09167_monooji_ex1",
-      "japanese": "{物怖|ものお}じしない{性格|せいかく}",
+      "japanese": "{物怖|ものお}じ⟦しない→する：00392_suru⟧⟦{性格|せいかく}→性格：03371_seikaku⟧",
       "english": "an unflappable personality",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "09167_monooji_ex2",
-      "japanese": "{彼女|かのじょ}は{物怖|ものお}じせず、{堂々|どうどう}と{意見|いけん}を{述|の}べた。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧{物怖|ものお}じせず、⟦{堂々|どうどう}→堂々：05895_doudou⟧⟦と→と：00512_to⟧⟦{意見|いけん}→意見：01303_iken⟧⟦を→を：00422_wo⟧⟦{述|の}べた→述べる：02389_noberu⟧。",
       "english": "Without being intimidated, she stated her opinion confidently.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "09167_monooji_ex3",
-      "japanese": "{子供|こども}のころは{物怖|ものお}じする{性格|せいかく}だったが、{今|いま}は{社交的|しゃこうてき}になった。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧⟦の→の：09472_no⟧⟦ころ→〜ころ：03091_koro⟧⟦は→は：00079_ha⟧{物怖|ものお}じ⟦する→する：00392_suru⟧⟦{性格|せいかく}→性格：03371_seikaku⟧だった⟦が→が：00051_ga⟧、⟦{今|いま}→今：00945_ima⟧⟦は→は：00079_ha⟧⟦{社交的|しゃこうてき}→社交的：08457_shakouteki⟧になった。",
       "english": "I was timid as a child, but I've become sociable now.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "USAGE: Commonly used with する to form the verb {物怖|ものお}じする (to be shy/timid). Very often appears in the negative form {物怖|ものお}じしない (unflinching, unintimidated).\n\nNUANCE: {物怖|ものお}じ describes a general tendency toward shyness or timidity, especially in unfamiliar or challenging situations. The negative form {物怖|ものお}じしない is often used as praise for someone's confidence.\n\nCOMMON COLLOCATIONS:\n- {物怖|ものお}じする (to be shy/timid)\n- {物怖|ものお}じしない (to be confident, unflappable)\n- {物怖|ものお}じせずに (without being intimidated)\n\nRELATED WORDS:\n- {気後|きおく}れ (feeling daunted, intimidation)\n- {臆|おく}する (to be timid, hesitate)\n- {人見知|ひとみし}り (shyness with strangers)\n- {内気|うちき} (shy, introverted)",
+  "notes": "USAGE: Commonly used with ⟦する→する：00392_suru⟧ to form the verb {物怖|ものお}じ⟦する→する：00392_suru⟧ (to be shy/timid). Very often appears in the negative form {物怖|ものお}じ⟦しない→する：00392_suru⟧ (unflinching, unintimidated).\n\nNUANCE: {物怖|ものお}じ describes a general tendency toward shyness or timidity, especially in unfamiliar or challenging situations. The negative form {物怖|ものお}じ⟦しない→する：00392_suru⟧ is often used as praise for someone's confidence.\n\nCOMMON COLLOCATIONS:\n- {物怖|ものお}じ⟦する→する：00392_suru⟧ (to be shy/timid)\n- {物怖|ものお}じ⟦しない→する：00392_suru⟧ (to be confident, unflappable)\n- {物怖|ものお}じせず⟦に→に：00314_ni⟧ (without being intimidated)\n\nRELATED WORDS:\n- ⟦{気後|きおく}れ→気後れ：09166_kiokure⟧ (feeling daunted, intimidation)\n- ⟦{臆|おく}する→臆する：09168_okusuru⟧ (to be timid, hesitate)\n- ⟦{人見知|ひとみし}り→人見知り：06622_hitomishiri⟧ (shyness with strangers)\n- ⟦{内気|うちき}→内気：16836_uchiki⟧ (shy, introverted)",
   "cross_references": [
     {
       "type": "synonym",
@@ -52,18 +58,36 @@
       "reading": "おくする",
       "headword": "{臆|おく}する",
       "label": "to be timid"
+    },
+    {
+      "type": "related",
+      "target_id": "06622_hitomishiri",
+      "reading": "ひとみしり",
+      "headword": "{人見知|ひとみし}り",
+      "label": "shyness with strangers"
+    },
+    {
+      "type": "related",
+      "target_id": "16836_uchiki",
+      "reading": "うちき",
+      "headword": "{内気|うちき}",
+      "label": "shy, introverted"
     }
   ],
   "metadata": {
     "created": "2026-01-31T11:34:38Z",
-    "modified": "2026-04-22T08:20:33Z",
+    "modified": "2026-09-02T04:01:17Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["personality"]
+      "semantic": [
+        "personality"
+      ]
     }
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22125_tashounaritomo_ex1",
-      "japanese": "{多少|たしょう}なりとも{役|やく}に{立|た}てればうれしい。",
+      "japanese": "{多少|たしょう}なりとも⟦{役|やく}→役：12557_yaku⟧⟦に→に：00314_ni⟧⟦{立|た}てれば→立てる：01196_tateru⟧うれしい。",
       "english": "I'd be happy if I could be of some help, even a little.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22125_tashounaritomo_ex2",
-      "japanese": "{多少|たしょう}なりとも{経験|けいけん}がある{人|ひと}を{探|さが}している。",
+      "japanese": "{多少|たしょう}なりとも⟦{経験|けいけん}→経験：01179_keiken⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧⟦{人|ひと}→人：00476_hito⟧⟦を→を：00422_wo⟧⟦{探|さが}している→探す：00493_sagasu⟧。",
       "english": "We're looking for someone with at least some experience.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22125_tashounaritomo_ex3",
-      "japanese": "{多少|たしょう}なりとも{日本語|にほんご}が{話|はな}せれば、{旅行|りょこう}はもっと{楽|たの}しくなるだろう。",
+      "japanese": "{多少|たしょう}なりとも⟦{日本語|にほんご}→日本語：00614_nihongo⟧⟦が→が：00051_ga⟧⟦{話|はな}せれば→話す：00467_hanasu⟧、⟦{旅行|りょこう}→旅行：00748_ryokou⟧⟦は→は：00079_ha⟧⟦もっと→もっと：00798_motto⟧⟦{楽|たの}しく→楽しい：00817_tanoshii⟧⟦なる→なる：01970_naru⟧だろう。",
       "english": "If you can speak even a little Japanese, traveling would probably be much more enjoyable.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {多少|たしょう} (a little, somewhat) + なりとも (even if it be). The expression conveys a humble or modest tone — the speaker acknowledges that the amount may be small but considers it worthwhile.\n\nCOMMON PATTERNS:\n- {多少|たしょう}なりとも{役|やく}に{立|た}つ: to be of at least some help\n- {多少|たしょう}なりとも{興味|きょうみ}がある: to have at least some interest\n- {多少|たしょう}なりとも{影響|えいきょう}がある: to have at least some influence\n\nSIMILAR WORDS:\n- {少|すこ}しでも: even a little — more casual, used in everyday speech\n- {多少|たしょう}: somewhat — simpler form, without the nuance of 'even if only'\n- いくらかでも: even a little bit — similar meaning, less formal\n\nREGISTER:\nSlightly formal. More common in written language and polite speech than in casual conversation.",
+  "notes": "Composed of ⟦{多少|たしょう}→多少：01647_tashou⟧ (a little, somewhat) + なりとも (even if it be). The expression conveys a humble or modest tone — the speaker acknowledges that the amount may be small but considers it worthwhile.\n\nCOMMON PATTERNS:\n- {多少|たしょう}なりとも⟦{役|やく}に{立|た}つ→役に立つ：01130_yakunitatsu⟧: to be of at least some help\n- {多少|たしょう}なりとも⟦{興味|きょうみ}→興味：01316_kyoumi⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧: to have at least some interest\n- {多少|たしょう}なりとも⟦{影響|えいきょう}→影響：01877_eikyou⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧: to have at least some influence\n\nSIMILAR WORDS:\n- ⟦{少|すこ}し→少し：00596_sukoshi⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧: even a little — more casual, used in everyday speech\n- ⟦{多少|たしょう}→多少：01647_tashou⟧: somewhat — simpler form, without the nuance of 'even if only'\n- いくら⟦か→か：09473_ka⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧: even a little bit — similar meaning, less formal\n\nREGISTER:\nSlightly formal. More common in written language and polite speech than in casual conversation.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19718_sukoshidemo",
+      "reading": "すこしでも",
+      "headword": "{少|すこ}しでも",
+      "label": "even a little"
+    },
+    {
+      "type": "related",
+      "target_id": "01647_tashou",
+      "reading": "たしょう",
+      "headword": "{多少|たしょう}",
+      "label": "somewhat"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +76,6 @@
       ]
     },
     "created": "2026-04-05T03:34:22Z",
-    "modified": "2026-04-10T08:28:27Z"
+    "modified": "2026-09-02T04:02:06Z"
   }
 }

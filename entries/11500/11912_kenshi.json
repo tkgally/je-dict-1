@@ -14,42 +14,88 @@
   "examples": [
     {
       "id": "11912_kenshi_ex1",
-      "japanese": "{彼|かれ}は{優|すぐ}れた{剣士|けんし}だ。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{優|すぐ}れた→優れる：02119_sugureru⟧{剣士|けんし}だ。",
       "english": "He is an excellent swordsman.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11912_kenshi_ex2",
-      "japanese": "{若|わか}い{剣士|けんし}たちが{大会|たいかい}で{競|きそ}い{合|あ}った。",
+      "japanese": "{若|わか}い{剣士|けんし}たち⟦が→が：00051_ga⟧⟦{大会|たいかい}→大会：03386_taikai⟧⟦で→で：00502_de⟧⟦{競|きそ}い{合|あ}った→競い合う：04656_kisoiau⟧。",
       "english": "Young fencers competed against each other in the tournament.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11912_kenshi_ex3",
-      "japanese": "{歴史|れきし}に{名|な}を{残|のこ}した{伝説|でんせつ}の{剣士|けんし}について{本|ほん}を{読|よ}んでいる。",
+      "japanese": "⟦{歴史|れきし}→歴史：02267_rekishi⟧⟦に→に：00314_ni⟧⟦{名|な}→名：03496_na⟧⟦を→を：00422_wo⟧⟦{残|のこ}した→残す：01975_nokosu⟧⟦{伝説|でんせつ}→伝説：11446_densetsu⟧⟦の→の：09472_no⟧{剣士|けんし}⟦について→〜について：03103_nitsuite⟧{本|ほん}⟦を→を：00422_wo⟧⟦{読|よ}んでいる→読む：00426_yomu⟧。",
       "english": "I'm reading a book about legendary swordsmen who left their mark on history.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{剣士|けんし} refers to a person skilled in sword fighting. It is used across historical, modern martial arts, and fictional contexts.\n\nWORD FORMATION:\n{剣|けん} (sword) + {士|し} (person, practitioner)\n\nUSAGE:\n- Historical: samurai and sword masters of feudal Japan\n- Modern: {剣道|けんどう} (kendo) practitioners and fencers\n- Fiction: a common character class in anime, manga, and games\n\nCOMMON COLLOCATIONS:\n- {凄腕|すごうで}の{剣士|けんし}: a highly skilled swordsman\n- {伝説|でんせつ}の{剣士|けんし}: a legendary swordsman\n- {女|おんな}{剣士|けんし}: a female swordsman\n- {最強|さいきょう}の{剣士|けんし}: the strongest swordsman\n\nRELATED WORDS:\n- {剣道|けんどう}: kendo (the way of the sword)\n- {剣術|けんじゅつ}: swordsmanship, sword technique\n- {剣|つるぎ} / {刀|かたな}: sword\n- {武士|ぶし}: warrior, samurai\n- {侍|さむらい}: samurai",
-  "cross_references": [],
+  "notes": "{剣士|けんし} refers to a person skilled in sword fighting. It is used across historical, modern martial arts, and fictional contexts.\n\nFORMS:\n⟦{剣|けん}→剣：11819_ken⟧ (sword) + ⟦{士|し}→〜士：28352_shi⟧ (person, practitioner)\n\nUSAGE:\n- Historical: samurai and sword masters of feudal Japan\n- Modern: ⟦{剣道|けんどう}→剣道：04452_kendou⟧ (kendo) practitioners and fencers\n- Fiction: a common character class in anime, manga, and games\n\nCOMMON COLLOCATIONS:\n- ⟦{凄腕|すごうで}→凄腕：07300_sugoude⟧⟦の→の：09472_no⟧{剣士|けんし}: a highly skilled swordsman\n- ⟦{伝説|でんせつ}→伝説：11446_densetsu⟧⟦の→の：09472_no⟧{剣士|けんし}: a legendary swordsman\n- ⟦{女|おんな}→女：00559_onna⟧{剣士|けんし}: a female swordsman\n- ⟦{最強|さいきょう}→最強：13073_saikyou⟧⟦の→の：09472_no⟧{剣士|けんし}: the strongest swordsman\n\nRELATED WORDS:\n- ⟦{剣道|けんどう}→剣道：04452_kendou⟧: kendo (the way of the sword)\n- ⟦{剣術|けんじゅつ}→剣術：20194_kenjutsu⟧: swordsmanship, sword technique\n- {剣|つるぎ} / ⟦{刀|かたな}→刀：02194_katana⟧: sword\n- ⟦{武士|ぶし}→武士：03989_bushi⟧: warrior, samurai\n- ⟦{侍|さむらい}→侍：10499_samurai⟧: samurai",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "04452_kendou",
+      "reading": "けんどう",
+      "headword": "{剣道|けんどう}",
+      "label": "kendo"
+    },
+    {
+      "type": "related",
+      "target_id": "20194_kenjutsu",
+      "reading": "けんじゅつ",
+      "headword": "{剣術|けんじゅつ}",
+      "label": "swordsmanship, sword technique"
+    },
+    {
+      "type": "related",
+      "target_id": "02194_katana",
+      "reading": "かたな",
+      "headword": "{刀|かたな}",
+      "label": "sword"
+    },
+    {
+      "type": "related",
+      "target_id": "03989_bushi",
+      "reading": "ぶし",
+      "headword": "{武士|ぶし}",
+      "label": "warrior, samurai"
+    },
+    {
+      "type": "related",
+      "target_id": "10499_samurai",
+      "reading": "さむらい",
+      "headword": "{侍|さむらい}",
+      "label": "samurai"
+    }
+  ],
   "metadata": {
     "created": "2026-02-18T14:14:26Z",
-    "modified": "2026-04-04T12:31:47Z",
+    "modified": "2026-09-02T04:01:26Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["person"]
+      "semantic": [
+        "person"
+      ]
     }
   }
 }

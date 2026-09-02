@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26770_gyakuzori_ex1",
-      "japanese": "{板|いた}に{逆反|ぎゃくぞ}りが{出|で}た。",
+      "japanese": "⟦{板|いた}→板：01792_ita⟧⟦に→に：00314_ni⟧{逆反|ぎゃくぞ}り⟦が→が：00051_ga⟧⟦{出|で}た→出る：00513_deru⟧。",
       "english": "The board developed a reverse warp.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26770_gyakuzori_ex2",
-      "japanese": "{乾燥|かんそう}が{進|すす}むと{木材|もくざい}に{逆反|ぎゃくぞ}りが{起|お}こりやすい。",
+      "japanese": "⟦{乾燥|かんそう}→乾燥：00184_kansou⟧⟦が→が：00051_ga⟧⟦{進|すす}む→進む：01225_susumu⟧⟦と→と：00512_to⟧⟦{木材|もくざい}→木材：13017_mokuzai⟧⟦に→に：00314_ni⟧{逆反|ぎゃくぞ}り⟦が→が：00051_ga⟧⟦{起|お}こり→起こる：01910_okoru⟧やすい。",
       "english": "As drying progresses, reverse warping is more likely to occur in lumber.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26770_gyakuzori_ex3",
-      "japanese": "{体操|たいそう}{選手|せんしゅ}は{見事|みごと}な{逆反|ぎゃくぞ}りの{姿勢|しせい}を{決|き}めた。",
+      "japanese": "⟦{体操|たいそう}{選手|せんしゅ}→体操選手：25172_taisousenshu⟧⟦は→は：00079_ha⟧⟦{見事|みごと}→見事：03744_migoto⟧な{逆反|ぎゃくぞ}り⟦の→の：09472_no⟧⟦{姿勢|しせい}→姿勢：00371_shisei⟧⟦を→を：00422_wo⟧⟦{決|き}めた→決める：00858_kimeru⟧。",
       "english": "The gymnast struck an impressive backward-arching pose.",
       "sense_numbers": [
         1
@@ -44,8 +44,16 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {逆|ぎゃく} (reverse, opposite) and {反|そ}り (warp, bend, curve). The {反|そ}り undergoes rendaku (voicing) to become ぞり. This term is used across several domains: in woodworking and construction, it describes unwanted warping of materials in the wrong direction; in physical activity, it describes arching the body backward.\n\nCOMMON COLLOCATIONS:\n- {逆反|ぎゃくぞ}りを{防|ふせ}ぐ: to prevent reverse warping\n- {逆反|ぎゃくぞ}りが{生|しょう}じる: reverse warping occurs\n- {逆反|ぎゃくぞ}りの{修正|しゅうせい}: correction of reverse warp\n\nSIMILAR WORDS:\n- {反|そ}り: warp, bend — warping in any direction\n- {反|そ}り{返|かえ}り: arching backward — specifically the physical motion of bending back\n- {歪|ゆが}み: distortion, warping — a broader term for any deformation",
-  "cross_references": [],
+  "notes": "Composed of ⟦{逆|ぎゃく}→逆：02649_gyaku⟧ (reverse, opposite) and {反|そ}り (warp, bend, curve). The {反|そ}り undergoes rendaku (voicing) to become ぞり. This term is used across several domains: in woodworking and construction, it describes unwanted warping of materials in the wrong direction; in physical activity, it describes arching the body backward.\n\nCOMMON COLLOCATIONS:\n- {逆反|ぎゃくぞ}り⟦を→を：00422_wo⟧⟦{防|ふせ}ぐ→防ぐ：02409_fusegu⟧: to prevent reverse warping\n- {逆反|ぎゃくぞ}り⟦が→が：00051_ga⟧⟦{生|しょう}じる→生じる：02118_shoujiru⟧: reverse warping occurs\n- {逆反|ぎゃくぞ}り⟦の→の：09472_no⟧⟦{修正|しゅうせい}→修正：03210_shuusei⟧: correction of reverse warp\n\nSIMILAR WORDS:\n- {反|そ}り: warp, bend — warping in any direction\n- ⟦{反|そ}り{返|かえ}り→反り返る：16769_sorikaeru⟧: arching backward — specifically the physical motion of bending back\n- ⟦{歪|ゆが}み→歪み：09409_yugami⟧: distortion, warping — a broader term for any deformation",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09409_yugami",
+      "reading": "ゆがみ",
+      "headword": "{歪|ゆが}み",
+      "label": "distortion, warping"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -61,6 +69,6 @@
       "domain": []
     },
     "created": "2026-05-04T16:23:41Z",
-    "modified": "2026-05-04T16:23:41Z"
+    "modified": "2026-09-02T04:02:27Z"
   }
 }

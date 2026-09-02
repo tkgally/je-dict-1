@@ -15,40 +15,67 @@
   "examples": [
     {
       "id": "20478_kishukusha_ex1",
-      "japanese": "{学校|がっこう}の{寄宿舎|きしゅくしゃ}に{住|す}んでいる。",
+      "japanese": "⟦{学校|がっこう}→学校：00055_gakkou⟧⟦の→の：09472_no⟧{寄宿舎|きしゅくしゃ}⟦に→に：00314_ni⟧⟦{住|す}んでいる→住む：00673_sumu⟧。",
       "english": "I live in the school dormitory.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20478_kishukusha_ex2",
-      "japanese": "{寄宿舎|きしゅくしゃ}には{門限|もんげん}がある。",
+      "japanese": "{寄宿舎|きしゅくしゃ}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{門限|もんげん}→門限：14889_mongen⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "The dormitory has a curfew.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20478_kishukusha_ex3",
-      "japanese": "{地方|ちほう}から{来|き}た{生徒|せいと}は{寄宿舎|きしゅくしゃ}で{生活|せいかつ}している。",
+      "japanese": "⟦{地方|ちほう}→地方：02369_chihou⟧⟦から→から：00504_kara⟧⟦{来|き}た→来る：00254_kuru⟧⟦{生徒|せいと}→生徒：01051_seito⟧⟦は→は：00079_ha⟧{寄宿舎|きしゅくしゃ}⟦で→で：00502_de⟧⟦{生活|せいかつ}している→生活する：01839_seikatsusuru⟧。",
       "english": "Students who came from the countryside are living in the dormitory.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {寄宿|きしゅく} (boarding, lodging) + {舎|しゃ} (building, quarters). A somewhat formal or traditional term for dormitory accommodations.\n\nCOMMON COLLOCATIONS:\n- {寄宿舎|きしゅくしゃ}に{入|はい}る: to move into a dormitory\n- {寄宿舎|きしゅくしゃ}で{暮|く}らす: to live in a dormitory\n- {寄宿舎|きしゅくしゃ}の{規則|きそく}: dormitory rules\n- {学生|がくせい}{寄宿舎|きしゅくしゃ}: student dormitory\n\nSIMILAR WORDS:\n- {寮|りょう}: dormitory — the more common everyday word for dormitories, especially student or company housing\n- {宿舎|しゅくしゃ}: quarters, lodging — broader term for any kind of accommodation provided by an organization\n- {下宿|げしゅく}: boarding house — a privately run lodging where one rents a room, often with meals provided",
+  "notes": "A compound of {寄宿|きしゅく} (boarding, lodging) + {舎|しゃ} (building, quarters). A somewhat formal or traditional term for dormitory accommodations.\n\nCOMMON COLLOCATIONS:\n- {寄宿舎|きしゅくしゃ}⟦に→に：00314_ni⟧⟦{入|はい}る→入る：00494_hairu⟧: to move into a dormitory\n- {寄宿舎|きしゅくしゃ}⟦で→で：00502_de⟧⟦{暮|く}らす→暮らす：01937_kurasu⟧: to live in a dormitory\n- {寄宿舎|きしゅくしゃ}⟦の→の：09472_no⟧⟦{規則|きそく}→規則：01382_kisoku⟧: dormitory rules\n- ⟦{学生|がくせい}→学生：00610_gakusei⟧{寄宿舎|きしゅくしゃ}: student dormitory\n\nSIMILAR WORDS:\n- ⟦{寮|りょう}→寮：03800_ryou⟧: dormitory — the more common everyday word for dormitories, especially student or company housing\n- {宿舎|しゅくしゃ}: quarters, lodging — broader term for any kind of accommodation provided by an organization\n- ⟦{下宿|げしゅく}→下宿：01399_geshuku⟧: boarding house — a privately run lodging where one rents a room, often with meals provided",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03800_ryou",
+      "reading": "りょう",
+      "headword": "{寮|りょう}",
+      "label": "dormitory"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01399_geshuku",
+      "reading": "げしゅく",
+      "headword": "{下宿|げしゅく}",
+      "label": "boarding house"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["building", "education"]
+      "semantic": [
+        "building",
+        "education"
+      ]
     },
     "created": "2026-03-29T15:21:11Z",
-    "modified": "2026-03-29T15:21:11Z"
+    "modified": "2026-09-02T04:01:59Z"
   }
 }

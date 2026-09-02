@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "12816_shihyou_ex1",
-      "japanese": "GDPは{経済|けいざい}の{指標|しひょう}だ。",
+      "japanese": "GDP⟦は→は：00079_ha⟧⟦{経済|けいざい}→経済：01394_keizai⟧⟦の→の：09472_no⟧{指標|しひょう}だ。",
       "english": "GDP is an indicator of the economy.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "12816_shihyou_ex2",
-      "japanese": "{健康|けんこう}の{指標|しひょう}として{体温|たいおん}を{毎日|まいにち}{測|はか}っている。",
+      "japanese": "⟦{健康|けんこう}→健康：02706_kenkou⟧⟦の→の：09472_no⟧{指標|しひょう}⟦として→として：06802_toshite⟧⟦{体温|たいおん}→体温：03385_taion⟧⟦を→を：00422_wo⟧⟦{毎日|まいにち}→毎日：00729_mainichi⟧⟦{測|はか}っている→測る：01977_hakaru⟧。",
       "english": "I measure my temperature every day as a health indicator.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "12816_shihyou_ex3",
-      "japanese": "{政府|せいふ}は{新|あたら}しい{環境|かんきょう}{指標|しひょう}を{導入|どうにゅう}して、{企業|きぎょう}の{排出量|はいしゅつりょう}を{評価|ひょうか}する{方針|ほうしん}だ。",
+      "japanese": "⟦{政府|せいふ}→政府：03294_seifu⟧⟦は→は：00079_ha⟧⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦{環境|かんきょう}→環境：00174_kankyou⟧{指標|しひょう}⟦を→を：00422_wo⟧⟦{導入|どうにゅう}して→導入する：16055_dounyuusuru⟧、⟦{企業|きぎょう}→企業：00225_kigyou⟧⟦の→の：09472_no⟧{排出量|はいしゅつりょう}⟦を→を：00422_wo⟧⟦{評価|ひょうか}→評価：03583_hyouka⟧⟦する→する：00392_suru⟧⟦{方針|ほうしん}→方針：04871_houshin⟧だ。",
       "english": "The government plans to introduce new environmental indicators to evaluate corporate emissions.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{指標|しひょう} is a formal word used in analytical and policy contexts. It refers to measurable criteria used for evaluation and comparison. The word is common in news, business reports, and academic writing.\n\nCOMMON COLLOCATIONS:\n- {経済|けいざい}{指標|しひょう}: economic indicator\n- {環境|かんきょう}{指標|しひょう}: environmental indicator\n- {指標|しひょう}となる: to serve as an indicator\n- {指標|しひょう}を{設定|せってい}する: to set an indicator\n- {重要|じゅうよう}な{指標|しひょう}: important benchmark",
+  "notes": "USAGE:\n{指標|しひょう} is a formal word used in analytical and policy contexts. It refers to measurable criteria used for evaluation and comparison. The word is common in news, business reports, and academic writing.\n\nCOMMON COLLOCATIONS:\n- ⟦{経済|けいざい}→経済：01394_keizai⟧{指標|しひょう}: economic indicator\n- ⟦{環境|かんきょう}→環境：00174_kankyou⟧{指標|しひょう}: environmental indicator\n- {指標|しひょう}⟦と→と：00512_to⟧⟦なる→なる：01970_naru⟧: to serve as an indicator\n- {指標|しひょう}⟦を→を：00422_wo⟧⟦{設定|せってい}→設定：04767_settei⟧⟦する→する：00392_suru⟧: to set an indicator\n- ⟦{重要|じゅうよう}→重要：01575_juuyou⟧な{指標|しひょう}: important benchmark",
   "cross_references": [
     {
       "type": "synonym",
@@ -59,11 +59,25 @@
       "reading": "めやす",
       "headword": "{目安|めやす}",
       "label": "guideline, rough estimate"
+    },
+    {
+      "type": "related",
+      "target_id": "08146_baromeetaa",
+      "reading": "ばろめーたー",
+      "headword": "バロメーター",
+      "label": "barometer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20414_shisuu",
+      "reading": "しすう",
+      "headword": "{指数|しすう}",
+      "label": "index"
     }
   ],
   "metadata": {
     "created": "2026-02-22T11:08:23Z",
-    "modified": "2026-04-27T09:13:01Z",
+    "modified": "2026-09-02T04:01:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

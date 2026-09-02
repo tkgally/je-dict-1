@@ -15,41 +15,59 @@
   "examples": [
     {
       "id": "12957_kyuusei_ex1",
-      "japanese": "{旧姓|きゅうせい}は{田中|たなか}です。",
+      "japanese": "{旧姓|きゅうせい}⟦は→は：00079_ha⟧⟦{田中|たなか}→田中：09528_tanaka⟧です。",
       "english": "My maiden name is Tanaka.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12957_kyuusei_ex2",
-      "japanese": "{職場|しょくば}では{旧姓|きゅうせい}を{使|つか}い{続|つづ}けている。",
+      "japanese": "⟦{職場|しょくば}→職場：04164_shokuba⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧{旧姓|きゅうせい}⟦を→を：00422_wo⟧⟦{使|つか}い→使う：00473_tsukau⟧⟦{続|つづ}け→続く：00903_tsuzuku⟧て⟦いる→いる：00495_iru⟧。",
       "english": "I continue to use my maiden name at work.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12957_kyuusei_ex3",
-      "japanese": "{旧姓|きゅうせい}の{使用|しよう}を{認|みと}める{企業|きぎょう}が{増|ふ}えてきたが、{法的|ほうてき}には{認|みと}められていない。",
+      "japanese": "{旧姓|きゅうせい}⟦の→の：09472_no⟧⟦{使用|しよう}→使用：01637_shiyou⟧⟦を→を：00422_wo⟧⟦{認|みと}める→認める：02429_mitomeru⟧⟦{企業|きぎょう}→企業：00225_kigyou⟧⟦が→が：00051_ga⟧⟦{増|ふ}えて→増える：01183_fueru⟧きた⟦が→が：00051_ga⟧、⟦{法的|ほうてき}→法的：13300_houteki⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{認|みと}められていない→認める：02429_mitomeru⟧。",
       "english": "More companies are allowing the use of maiden names, but it is not legally recognized.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nUnder Japanese law ({民法|みんぽう}), married couples must adopt the same surname. In practice, the wife usually takes the husband's name, making her pre-marriage name her {旧姓|きゅうせい}. The topic of {選択的|せんたくてき}{夫婦|ふうふ}{別姓|べっせい} (optional separate surnames for married couples) is an ongoing social debate.\n\nCOMMON COLLOCATIONS:\n- {旧姓|きゅうせい}を{使|つか}う: to use one's maiden name\n- {旧姓|きゅうせい}に{戻|もど}す: to revert to one's maiden name\n- {旧姓|きゅうせい}{使用|しよう}: use of maiden name\n\nSIMILAR WORDS:\n- {姓|せい}: surname, family name\n- {名字|みょうじ}: surname (everyday term)\n- {本名|ほんみょう}: real name",
-  "cross_references": [],
+  "notes": "USAGE:\nUnder Japanese law (⟦{民法|みんぽう}→民法：13239_minpou⟧), married couples must adopt the same surname. In practice, the wife usually takes the husband's name, making her pre-marriage name her {旧姓|きゅうせい}. The topic of {選択的|せんたくてき}⟦{夫婦|ふうふ}→夫婦：03592_fuufu⟧{別姓|べっせい} (optional separate surnames for married couples) is an ongoing social debate.\n\nCOMMON COLLOCATIONS:\n- {旧姓|きゅうせい}⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧: to use one's maiden name\n- {旧姓|きゅうせい}⟦に→に：00314_ni⟧⟦{戻|もど}す→戻す：02317_modosu⟧: to revert to one's maiden name\n- {旧姓|きゅうせい}⟦{使用|しよう}→使用：01637_shiyou⟧: use of maiden name\n\nSIMILAR WORDS:\n- ⟦{姓|せい}→姓：15390_sei⟧: surname, family name\n- {名字|みょうじ}: surname (everyday term)\n- ⟦{本名|ほんみょう}→本名：13034_honmyou⟧: real name",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13034_honmyou",
+      "reading": "ほんみょう",
+      "headword": "{本名|ほんみょう}",
+      "label": "real name"
+    }
+  ],
   "metadata": {
     "created": "2026-02-22T23:39:05Z",
-    "modified": "2026-02-22T23:39:05Z",
+    "modified": "2026-09-02T04:01:31Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

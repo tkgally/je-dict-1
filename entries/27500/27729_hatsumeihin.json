@@ -25,7 +25,7 @@
     },
     {
       "id": "27729_hatsumeihin_ex2",
-      "japanese": "{電球|でんきゅう}はエジソンの{有名|ゆうめい}な{発明品|はつめいひん}だ。",
+      "japanese": "⟦{電球|でんきゅう}→電球：03125_denkyuu⟧⟦は→は：00079_ha⟧エジソン⟦の→の：09472_no⟧⟦{有名|ゆうめい}→有名：01106_yuumei⟧な{発明品|はつめいひん}だ。",
       "english": "The light bulb is Edison's famous invention.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "27729_hatsumeihin_ex3",
-      "japanese": "この{展示|てんじ}{会|かい}には{学生|がくせい}が{考|かんが}えたユニークな{発明品|はつめいひん}が{並|なら}んでいる。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{展示|てんじ}{会|かい}→展示会：21869_tenjikai⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{学生|がくせい}→学生：00610_gakusei⟧⟦が→が：00051_ga⟧⟦{考|かんが}えた→考える：00856_kangaeru⟧⟦ユニーク→ユニーク：11393_yuniiku⟧な{発明品|はつめいひん}⟦が→が：00051_ga⟧⟦{並|なら}んでいる→並ぶ：00605_narabu⟧。",
       "english": "Unique inventions thought up by students are on display at this exhibition.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {発明|はつめい} (invention) + the suffix {品|ひん} (article, product). Refers to a concrete invented object, as opposed to the abstract act of inventing.\n\nCOMMON COLLOCATIONS:\n- {新|あたら}しい{発明品|はつめいひん}: a new invention\n- {画期的|かっきてき}な{発明品|はつめいひん}: a groundbreaking invention\n- {発明品|はつめいひん}を{展示|てんじ}する: to exhibit an invention\n\nSIMILAR WORDS:\n- {発明|はつめい}: invention — the act or process of inventing, or the idea itself; {発明品|はつめいひん} is specifically the physical product",
+  "notes": "Composed of ⟦{発明|はつめい}→発明：01495_hatsumei⟧ (invention) + the suffix ⟦{品|ひん}→品：03712_hin⟧ (article, product). Refers to a concrete invented object, as opposed to the abstract act of inventing.\n\nCOMMON COLLOCATIONS:\n- ⟦{新|あたら}しい→新しい：00506_atarashii⟧{発明品|はつめいひん}: a new invention\n- ⟦{画期的|かっきてき}→画期的：06826_kakkiteki⟧な{発明品|はつめいひん}: a groundbreaking invention\n- {発明品|はつめいひん}⟦を→を：00422_wo⟧⟦{展示|てんじ}→展示：12401_tenji⟧⟦する→する：00392_suru⟧: to exhibit an invention\n\nSIMILAR WORDS:\n- ⟦{発明|はつめい}→発明：01495_hatsumei⟧: invention — the act or process of inventing, or the idea itself; {発明品|はつめいひん} is specifically the physical product",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "09521_hatsumeika",
+      "reading": "はつめいか",
+      "headword": "{発明家|はつめいか}",
+      "label": "inventor"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +62,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "creation",
         "science"
@@ -61,6 +70,6 @@
       "domain": []
     },
     "created": "2026-05-17T04:06:49Z",
-    "modified": "2026-08-07T16:10:18Z"
+    "modified": "2026-09-02T04:02:31Z"
   }
 }

@@ -20,7 +20,7 @@
   "examples": [
     {
       "id": "10400_douri_ex1",
-      "japanese": "{道理|どうり}に{合|あ}わない。",
+      "japanese": "{道理|どうり}⟦に→に：00314_ni⟧⟦{合|あ}わない→合う：10466_au⟧。",
       "english": "It doesn't make sense.",
       "notes": null,
       "has_audio": false,
@@ -30,7 +30,7 @@
     },
     {
       "id": "10400_douri_ex2",
-      "japanese": "{子|こ}どもでも{分|わ}かる{道理|どうり}だ。",
+      "japanese": "{子|こ}ども⟦で→で：00502_de⟧⟦も→も：00484_mo⟧⟦{分|わ}かる→分かる：00463_wakaru⟧{道理|どうり}だ。",
       "english": "It's a principle even a child can understand.",
       "notes": null,
       "has_audio": false,
@@ -40,7 +40,7 @@
     },
     {
       "id": "10400_douri_ex3",
-      "japanese": "{道理|どうり}をわきまえた{人|ひと}だ。",
+      "japanese": "{道理|どうり}⟦を→を：00422_wo⟧⟦わきまえた→わきまえる：15928_wakimaeru⟧⟦{人|ひと}→人：00476_hito⟧だ。",
       "english": "They're a person who understands reason.",
       "notes": null,
       "has_audio": false,
@@ -50,7 +50,7 @@
     },
     {
       "id": "10400_douri_ex4",
-      "japanese": "{道理|どうり}で{寒|さむ}いわけだ。",
+      "japanese": "{道理|どうり}⟦で→で：00502_de⟧⟦{寒|さむ}い→寒い：00664_samui⟧わけだ。",
       "english": "No wonder it's cold.",
       "notes": null,
       "has_audio": false,
@@ -60,7 +60,7 @@
     },
     {
       "id": "10400_douri_ex5",
-      "japanese": "{道理|どうり}で{連絡|れんらく}がないと{思|おも}ったら、{入院|にゅういん}していたのか。",
+      "japanese": "{道理|どうり}⟦で→で：00502_de⟧⟦{連絡|れんらく}→連絡：01524_renraku⟧⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧⟦と→と：00512_to⟧⟦{思|おも}ったら→思う：00492_omou⟧、⟦{入院|にゅういん}していた→入院する：01849_nyuuinsuru⟧⟦の→の：09472_no⟧⟦か→か：09473_ka⟧。",
       "english": "No wonder I hadn't heard from them — they were in the hospital.",
       "notes": null,
       "has_audio": false,
@@ -70,7 +70,7 @@
     },
     {
       "id": "10400_douri_ex6",
-      "japanese": "{引|ひ}っ{越|こ}したのか。{道理|どうり}で{最近|さいきん}{見|み}かけないわけだ。",
+      "japanese": "⟦{引|ひ}っ{越|こ}した→引っ越す：01171_hikkosu⟧⟦の→の：09472_no⟧⟦か→か：09473_ka⟧。{道理|どうり}⟦で→で：00502_de⟧⟦{最近|さいきん}→最近：00881_saikin⟧⟦{見|み}かけない→見かける：01644_mikakeru⟧わけだ。",
       "english": "So they moved. No wonder I haven't seen them around lately.",
       "notes": null,
       "has_audio": false,
@@ -79,11 +79,19 @@
       ]
     }
   ],
-  "notes": "{道理|どうり} has two main uses: as a noun meaning \"reason\" or \"logic,\" and as part of the adverbial expression {道理|どうり}で meaning \"no wonder.\"\n\nCOMMON PATTERNS:\n- {道理|どうり}に{合|あ}う: to make sense, to be reasonable\n- {道理|どうり}に{合|あ}わない: to be unreasonable, illogical\n- {道理|どうり}で〜わけだ: no wonder ~\n- {道理|どうり}をわきまえる: to understand reason\n\nUSAGE: The expression {道理|どうり}で〜わけだ is very common in everyday conversation. It conveys a moment of realization — something that was puzzling now makes sense.",
-  "cross_references": [],
+  "notes": "{道理|どうり} has two main uses: as a noun meaning \"reason\" or \"logic,\" and as part of the adverbial expression {道理|どうり}⟦で→で：00502_de⟧ meaning \"no wonder.\"\n\nCOMMON PATTERNS:\n- {道理|どうり}⟦に→に：00314_ni⟧⟦{合|あ}う→合う：10466_au⟧: to make sense, to be reasonable\n- {道理|どうり}⟦に→に：00314_ni⟧⟦{合|あ}わない→合う：10466_au⟧: to be unreasonable, illogical\n- {道理|どうり}で〜わけだ: no wonder ~\n- {道理|どうり}⟦を→を：00422_wo⟧⟦わきまえる→わきまえる：15928_wakimaeru⟧: to understand reason\n\nUSAGE: The expression {道理|どうり}で〜わけだ is very common in everyday conversation. It conveys a moment of realization — something that was puzzling now makes sense.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22611_jouri",
+      "reading": "じょうり",
+      "headword": "{条理|じょうり}",
+      "label": "reason"
+    }
+  ],
   "metadata": {
     "created": "2026-02-07T10:28:08Z",
-    "modified": "2026-02-19T12:32:33Z",
+    "modified": "2026-09-02T04:01:21Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

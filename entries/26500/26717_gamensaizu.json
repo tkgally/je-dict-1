@@ -15,39 +15,67 @@
   "examples": [
     {
       "id": "26717_gamensaizu_ex1",
-      "japanese": "このスマホの{画面|がめん}サイズは6.5インチだ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦スマホ→スマホ：04721_sumaho⟧⟦の→の：09472_no⟧{画面|がめん}サイズ⟦は→は：00079_ha⟧6.5インチだ。",
       "english": "This smartphone has a 6.5-inch screen size.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26717_gamensaizu_ex2",
-      "japanese": "{画面|がめん}サイズが{大|おお}きいほうが{動画|どうが}は{見|み}やすい。",
+      "japanese": "{画面|がめん}サイズ⟦が→が：00051_ga⟧⟦{大|おお}きい→大きい：00335_ookii⟧ほう⟦が→が：00051_ga⟧⟦{動画|どうが}→動画：04443_douga⟧⟦は→は：00079_ha⟧⟦{見|み}→見る：00283_miru⟧やすい。",
       "english": "A larger screen size makes videos easier to watch.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26717_gamensaizu_ex3",
-      "japanese": "テレビを{買|か}うときは、{部屋|へや}の{広|ひろ}さに{合|あ}った{画面|がめん}サイズを{選|えら}ぶことが{大切|たいせつ}だ。",
+      "japanese": "⟦テレビ→テレビ：01536_terebi⟧⟦を→を：00422_wo⟧⟦{買|か}う→買う：00489_kau⟧とき⟦は→は：00079_ha⟧、⟦{部屋|へや}→部屋：00507_heya⟧⟦の→の：09472_no⟧⟦{広|ひろ}さ→広さ：00105_hirosa⟧⟦に→に：00314_ni⟧⟦{合|あ}った→合う：10466_au⟧{画面|がめん}サイズ⟦を→を：00422_wo⟧⟦{選|えら}ぶ→選ぶ：00835_erabu⟧こと⟦が→が：00051_ga⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧だ。",
       "english": "When buying a TV, it's important to choose a screen size that suits the room.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {画面|がめん} (screen/display) and サイズ (size, from English). A common term in electronics retail and product specifications.\n\nCOMMON COLLOCATIONS:\n- {画面|がめん}サイズを{選|えら}ぶ: to choose a screen size\n- {画面|がめん}サイズを{変更|へんこう}する: to change the screen size\n- {最大|さいだい}{画面|がめん}サイズ: maximum screen size\n\nRELATED TERMS:\n- {画面|がめん}: screen/display — the base word\n- {解像度|かいぞうど}: resolution — another key display specification\n- {画素数|がそすう}: pixel count — related display metric\n- {画面比率|がめんひりつ}: aspect ratio",
-  "cross_references": [],
+  "notes": "Composed of ⟦{画面|がめん}→画面：04406_gamen⟧ (screen/display) and ⟦サイズ→サイズ：01363_saizu⟧ (size, from English). A common term in electronics retail and product specifications.\n\nCOMMON COLLOCATIONS:\n- {画面|がめん}サイズ⟦を→を：00422_wo⟧⟦{選|えら}ぶ→選ぶ：00835_erabu⟧: to choose a screen size\n- {画面|がめん}サイズ⟦を→を：00422_wo⟧⟦{変更|へんこう}する→変更する：30779_henkousuru⟧: to change the screen size\n- ⟦{最大|さいだい}→最大：04827_saidai⟧{画面|がめん}サイズ: maximum screen size\n\nRELATED WORDS:\n- ⟦{画面|がめん}→画面：04406_gamen⟧: screen/display — the base word\n- ⟦{解像度|かいぞうど}→解像度：04888_kaizoudo⟧: resolution — another key display specification\n- {画素数|がそすう}: pixel count — related display metric\n- {画面比率|がめんひりつ}: aspect ratio",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "04406_gamen",
+      "reading": "がめん",
+      "headword": "{画面|がめん}",
+      "label": "screen/display"
+    },
+    {
+      "type": "related",
+      "target_id": "04888_kaizoudo",
+      "reading": "かいぞうど",
+      "headword": "{解像度|かいぞうど}",
+      "label": "resolution"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["technology", "daily-life"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "technology",
+        "daily-life"
+      ]
     },
     "created": "2026-05-04T14:15:54Z",
-    "modified": "2026-05-04T14:15:54Z"
+    "modified": "2026-09-02T04:02:27Z"
   }
 }

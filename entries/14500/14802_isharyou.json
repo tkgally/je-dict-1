@@ -15,42 +15,69 @@
   "examples": [
     {
       "id": "14802_isharyou_ex1",
-      "japanese": "{慰謝料|いしゃりょう}を{請求|せいきゅう}した。",
+      "japanese": "{慰謝料|いしゃりょう}⟦を→を：00422_wo⟧⟦{請求|せいきゅう}した→請求する：26988_seikyuusuru⟧。",
       "english": "I filed a claim for damages.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14802_isharyou_ex2",
-      "japanese": "{離婚|りこん}の{際|さい}に{慰謝料|いしゃりょう}を{支払|しはら}った。",
+      "japanese": "⟦{離婚|りこん}→離婚：02530_rikon⟧⟦の→の：09472_no⟧⟦{際|さい}→際：02819_sai⟧⟦に→に：00314_ni⟧{慰謝料|いしゃりょう}⟦を→を：00422_wo⟧⟦{支払|しはら}った→支払う：02116_shiharau⟧。",
       "english": "He paid consolation money at the time of the divorce.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14802_isharyou_ex3",
-      "japanese": "{交通|こうつう}{事故|じこ}の{慰謝料|いしゃりょう}の{金額|きんがく}をめぐって{裁判|さいばん}になった。",
+      "japanese": "⟦{交通|こうつう}{事故|じこ}→交通事故：21255_koutsuujiko⟧⟦の→の：09472_no⟧{慰謝料|いしゃりょう}⟦の→の：09472_no⟧⟦{金額|きんがく}→金額：02665_kingaku⟧をめぐって⟦{裁判|さいばん}→裁判：02773_saiban⟧になった。",
       "english": "It went to court over the amount of compensation for the traffic accident.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "A legal term that has become widely known through media coverage of divorce and accident cases.\n\nCOMMON COLLOCATIONS:\n- {慰謝料|いしゃりょう}を{請求|せいきゅう}する (to claim damages)\n- {慰謝料|いしゃりょう}を{支払|しはら}う (to pay damages)\n- {慰謝料|いしゃりょう}を{受|う}け{取|と}る (to receive damages)\n- {離婚|りこん}{慰謝料|いしゃりょう} (divorce settlement money)\n\nUSAGE NOTE:\nIn Japanese law, {慰謝料|いしゃりょう} specifically compensates for emotional or psychological suffering, distinct from {損害賠償|そんがいばいしょう} (general damages, including material losses). It is most commonly associated with divorce cases involving infidelity.",
-  "cross_references": [],
+  "notes": "A legal term that has become widely known through media coverage of divorce and accident cases.\n\nCOMMON COLLOCATIONS:\n- {慰謝料|いしゃりょう}⟦を→を：00422_wo⟧⟦{請求|せいきゅう}する→請求する：26988_seikyuusuru⟧ (to claim damages)\n- {慰謝料|いしゃりょう}⟦を→を：00422_wo⟧⟦{支払|しはら}う→支払う：02116_shiharau⟧ (to pay damages)\n- {慰謝料|いしゃりょう}⟦を→を：00422_wo⟧⟦{受|う}け{取|と}る→受け取る：01883_uketoru⟧ (to receive damages)\n- ⟦{離婚|りこん}→離婚：02530_rikon⟧{慰謝料|いしゃりょう} (divorce settlement money)\n\nUSAGE:\nIn Japanese law, {慰謝料|いしゃりょう} specifically compensates for emotional or psychological suffering, distinct from {損害賠償|そんがいばいしょう} (general damages, including material losses). It is most commonly associated with divorce cases involving infidelity.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "02133_nagusameru",
+      "reading": "なぐさめる",
+      "headword": "{慰|なぐさ}める",
+      "label": "to comfort, to console"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24434_mimaikin",
+      "reading": "みまいきん",
+      "headword": "{見舞金|みまいきん}",
+      "label": "sympathy money"
+    }
+  ],
   "metadata": {
     "created": "2026-03-03T12:53:26Z",
-    "modified": "2026-03-03T12:53:26Z",
+    "modified": "2026-09-02T04:01:38Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["legal"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "legal"
+      ]
     }
   }
 }

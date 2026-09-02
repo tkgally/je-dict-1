@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "06037_obieru_ex1",
-      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧⟦たち→達：01551_tachi⟧⟦は→は：00079_ha⟧⟦{雷|かみなり}→雷：02197_kaminari⟧⟦に→に：00314_ni⟧{怯|おび}えていた。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧⟦たち→達：01551_tachi⟧⟦は→は：00079_ha⟧⟦{雷|かみなり}→雷：02197_kaminari⟧⟦に→に：00314_ni⟧{怯|おび}えて⟦いた→いる：00495_iru⟧。",
       "english": "The children were frightened of the thunder.",
       "notes": null,
       "has_audio": false,
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive). No pair verb. Pattern: Xに{怯|おび}える (be frightened of/by X).\n\nASPECT: ている indicates ongoing state of fear. {怯|おび}えている = 'is scared' or 'is living in fear.'\n\nCOMMON PATTERNS:\n・⟦{恐怖|きょうふ}→恐怖：02585_kyoufu⟧に{怯|おび}える (cower in fear)\n・⟦{影|かげ}→影：02191_kage⟧に{怯|おび}える (be afraid of shadows; figuratively, be paranoid)\n・{怯|おび}えた⟦{様子|ようす}→様子：01521_yousu⟧ (frightened appearance)\n\nSIMILAR WORDS: ⟦{恐|こわ}がる→怖がる：07574_kowagaru⟧ is more casual and common; {怯|おび}える emphasizes visible signs of fear or cowering.",
+  "notes": "TRANSITIVITY: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive). No pair verb. Pattern: X⟦に→に：00314_ni⟧{怯|おび}える (be frightened of/by X).\n\nASPECT: て⟦いる→いる：00495_iru⟧ indicates ongoing state of fear. {怯|おび}えて⟦いる→いる：00495_iru⟧ = 'is scared' or 'is living in fear.'\n\nCOMMON PATTERNS:\n- ⟦{恐怖|きょうふ}→恐怖：02585_kyoufu⟧⟦に→に：00314_ni⟧{怯|おび}える (cower in fear)\n- ⟦{影|かげ}→影：02191_kage⟧⟦に→に：00314_ni⟧{怯|おび}える (be afraid of shadows; figuratively, be paranoid)\n- {怯|おび}えた⟦{様子|ようす}→様子：01521_yousu⟧ (frightened appearance)\n\nSIMILAR WORDS: ⟦{恐|こわ}がる→怖がる：07574_kowagaru⟧ is more casual and common; {怯|おび}える emphasizes visible signs of fear or cowering.",
   "cross_references": [
     {
       "type": "related",
@@ -146,11 +146,18 @@
       "reading": "おそれる",
       "headword": "{恐|おそ}れる",
       "target_id": "02023_osoreru"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21632_bikubikusuru",
+      "reading": "びくびくする",
+      "headword": "びくびくする",
+      "label": "to be nervous"
     }
   ],
   "metadata": {
     "created": "2026-01-17T02:00:49Z",
-    "modified": "2026-06-11T07:35:55Z",
+    "modified": "2026-09-02T04:01:07Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

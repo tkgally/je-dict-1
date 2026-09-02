@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "23604_hakkensha_ex1",
-      "japanese": "{発見者|はっけんしゃ}は{地元|じもと}の{子供|こども}だった。",
+      "japanese": "{発見者|はっけんしゃ}⟦は→は：00079_ha⟧⟦{地元|じもと}→地元：09941_jimoto⟧⟦の→の：09472_no⟧⟦{子供|こども}→子供：00554_kodomo⟧だった。",
       "english": "The person who found it was a local child.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "23604_hakkensha_ex2",
-      "japanese": "この{星|ほし}の{発見者|はっけんしゃ}はイギリスの{天文学者|てんもんがくしゃ}だ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{星|ほし}→星：01510_hoshi⟧⟦の→の：09472_no⟧{発見者|はっけんしゃ}⟦は→は：00079_ha⟧⟦イギリス→イギリス：28283_igirisu⟧⟦の→の：09472_no⟧{天文学者|てんもんがくしゃ}だ。",
       "english": "The discoverer of this planet is a British astronomer.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "23604_hakkensha_ex3",
-      "japanese": "{事故|じこ}の{発見者|はっけんしゃ}が{警察|けいさつ}に{通報|つうほう}して{現場|げんば}の{状況|じょうきょう}を{説明|せつめい}した。",
+      "japanese": "⟦{事故|じこ}→事故：00851_jiko⟧⟦の→の：09472_no⟧{発見者|はっけんしゃ}⟦が→が：00051_ga⟧⟦{警察|けいさつ}→警察：01393_keisatsu⟧⟦に→に：00314_ni⟧⟦{通報|つうほう}→通報：14318_tsuuhou⟧⟦して→する：00392_suru⟧⟦{現場|げんば}→現場：02723_genba⟧⟦の→の：09472_no⟧⟦{状況|じょうきょう}→状況：01576_joukyou⟧⟦を→を：00422_wo⟧⟦{説明|せつめい}した→説明する：05639_setsumeisuru⟧。",
       "english": "The person who discovered the accident reported it to the police and explained the situation at the scene.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {発見|はっけん} (discovery) and the suffix {〜者|しゃ} (person). The word ranges from weighty scientific usage (the discoverer of a chemical element, a new species) to neutral news-style usage (the person who first found a lost item, a missing person, or a body).\n\nCOMMON COLLOCATIONS:\n- {第一|だいいち}{発見者|はっけんしゃ}: the first discoverer; first person on the scene\n- {発見者|はっけんしゃ}の{名前|なまえ}: the discoverer's name\n- {発見者|はっけんしゃ}に{聞|き}く: to ask the discoverer\n- {事件|じけん}の{発見者|はっけんしゃ}: the person who discovered the incident\n\nRELATED TERMS:\n- {発見|はっけん}: discovery\n- {発見|はっけん}する: to discover\n- {目撃者|もくげきしゃ}: witness — someone who saw an event happen; distinct from merely discovering evidence afterward\n- {通報者|つうほうしゃ}: reporter, person who made a report (to police, etc.) — often the same person as the {発見者|はっけんしゃ}, but the emphasis is different",
+  "notes": "Composed of ⟦{発見|はっけん}→発見：00085_hakken⟧ (discovery) and the suffix {〜者|しゃ} (person). The word ranges from weighty scientific usage (the discoverer of a chemical element, a new species) to neutral news-style usage (the person who first found a lost item, a missing person, or a body).\n\nCOMMON COLLOCATIONS:\n- ⟦{第一|だいいち}→第一：19377_daiichi⟧{発見者|はっけんしゃ}: the first discoverer; first person on the scene\n- {発見者|はっけんしゃ}⟦の→の：09472_no⟧⟦{名前|なまえ}→名前：02234_namae⟧: the discoverer's name\n- {発見者|はっけんしゃ}⟦に→に：00314_ni⟧⟦{聞|き}く→聞く：00483_kiku⟧: to ask the discoverer\n- ⟦{事件|じけん}→事件：01568_jiken⟧⟦の→の：09472_no⟧{発見者|はっけんしゃ}: the person who discovered the incident\n\nRELATED WORDS:\n- ⟦{発見|はっけん}→発見：00085_hakken⟧: discovery\n- ⟦{発見|はっけん}する→発見する：26929_hakkensuru⟧: to discover\n- ⟦{目撃者|もくげきしゃ}→目撃者：09652_mokugekisha⟧: witness — someone who saw an event happen; distinct from merely discovering evidence afterward\n- {通報者|つうほうしゃ}: reporter, person who made a report (to police, etc.) — often the same person as the {発見者|はっけんしゃ}, but the emphasis is different",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "26929_hakkensuru",
+      "reading": "はっけんする",
+      "headword": "{発見|はっけん}する",
+      "label": "to discover"
+    },
+    {
+      "type": "related",
+      "target_id": "09652_mokugekisha",
+      "reading": "もくげきしゃ",
+      "headword": "{目撃者|もくげきしゃ}",
+      "label": "witness"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +76,6 @@
       ]
     },
     "created": "2026-04-12T19:25:11Z",
-    "modified": "2026-08-01T21:36:06Z"
+    "modified": "2026-09-02T04:02:13Z"
   }
 }

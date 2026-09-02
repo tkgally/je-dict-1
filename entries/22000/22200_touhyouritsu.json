@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22200_touhyouritsu_ex1",
-      "japanese": "{投票率|とうひょうりつ}が{低|ひく}い。",
+      "japanese": "{投票率|とうひょうりつ}⟦が→が：00051_ga⟧⟦{低|ひく}い→低い：02947_hikui⟧。",
       "english": "The voter turnout is low.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22200_touhyouritsu_ex2",
-      "japanese": "{今回|こんかい}の{選挙|せんきょ}の{投票率|とうひょうりつ}は{約|やく}50%だった。",
+      "japanese": "⟦{今回|こんかい}→今回：01409_konkai⟧⟦の→の：09472_no⟧⟦{選挙|せんきょ}→選挙：03303_senkyo⟧⟦の→の：09472_no⟧{投票率|とうひょうりつ}⟦は→は：00079_ha⟧⟦{約|やく}→約：09563_yaku⟧50%だった。",
       "english": "The voter turnout for this election was about 50%.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22200_touhyouritsu_ex3",
-      "japanese": "{若者|わかもの}の{投票率|とうひょうりつ}を{上|あ}げるための{取|と}り{組|く}みが{行|おこな}われている。",
+      "japanese": "⟦{若者|わかもの}→若者：03037_wakamono⟧⟦の→の：09472_no⟧{投票率|とうひょうりつ}⟦を→を：00422_wo⟧⟦{上|あ}げる→上げる：02443_ageru⟧⟦ため→ため：01145_tame⟧⟦の→の：09472_no⟧⟦{取|と}り{組|く}み→取り組み：10403_torikumi⟧⟦が→が：00051_ga⟧⟦{行|おこな}われている→行う：01238_okonau⟧。",
       "english": "Initiatives are being undertaken to raise the voter turnout among young people.",
       "sense_numbers": [
         1
@@ -44,8 +44,52 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {投票|とうひょう} (voting) + {率|りつ} (rate/ratio). A common term in news and political discussions, especially around election time.\n\nCOMMON COLLOCATIONS:\n- {投票率|とうひょうりつ}が{高|たか}い — high voter turnout\n- {投票率|とうひょうりつ}が{低|ひく}い — low voter turnout\n- {投票率|とうひょうりつ}を{上|あ}げる — to raise voter turnout\n- {投票率|とうひょうりつ}の{低下|ていか} — decline in voter turnout\n- {過去最低|かこさいてい}の{投票率|とうひょうりつ} — record-low voter turnout\n\nCULTURAL NOTE:\nJapan has seen a general trend of declining voter turnout, particularly among younger voters. National elections typically see turnout around 50-60%, while local elections can be significantly lower. This has been a persistent concern in Japanese political discourse.\n\nRELATED TERMS:\n- {投票|とうひょう} — voting\n- {選挙|せんきょ} — election\n- {有権者|ゆうけんしゃ} — eligible voter\n- {投票所|とうひょうじょ} — polling place",
+  "notes": "Composed of ⟦{投票|とうひょう}→投票：03453_touhyou⟧ (voting) + ⟦{率|りつ}→率：03802_ritsu⟧ (rate/ratio). A common term in news and political discussions, especially around election time.\n\nCOMMON COLLOCATIONS:\n- {投票率|とうひょうりつ}⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧ — high voter turnout\n- {投票率|とうひょうりつ}⟦が→が：00051_ga⟧⟦{低|ひく}い→低い：02947_hikui⟧ — low voter turnout\n- {投票率|とうひょうりつ}⟦を→を：00422_wo⟧⟦{上|あ}げる→上げる：02443_ageru⟧ — to raise voter turnout\n- {投票率|とうひょうりつ}⟦の→の：09472_no⟧⟦{低下|ていか}→低下：04065_teika⟧ — decline in voter turnout\n- {過去最低|かこさいてい}⟦の→の：09472_no⟧{投票率|とうひょうりつ} — record-low voter turnout\n\nCULTURAL NOTE:\nJapan has seen a general trend of declining voter turnout, particularly among younger voters. National elections typically see turnout around 50-60%, while local elections can be significantly lower. This has been a persistent concern in Japanese political discourse.\n\nRELATED WORDS:\n- ⟦{投票|とうひょう}→投票：03453_touhyou⟧ — voting\n- ⟦{選挙|せんきょ}→選挙：03303_senkyo⟧ — election\n- ⟦{有権者|ゆうけんしゃ}→有権者：13021_yuukensha⟧ — eligible voter\n- ⟦{投票所|とうひょうじょ}→投票所：22207_touhyoujo⟧ — polling place",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "03303_senkyo",
+      "reading": "せんきょ",
+      "headword": "{選挙|せんきょ}",
+      "label": "election"
+    },
+    {
+      "type": "related",
+      "target_id": "13021_yuukensha",
+      "reading": "ゆうけんしゃ",
+      "headword": "{有権者|ゆうけんしゃ}",
+      "label": "eligible voter"
+    },
+    {
+      "type": "related",
+      "target_id": "22207_touhyoujo",
+      "reading": "とうひょうじょ",
+      "headword": "{投票所|とうひょうじょ}",
+      "label": "polling place"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17086_shijiritsu",
+      "reading": "しじりつ",
+      "headword": "{支持率|しじりつ}",
+      "label": "approval rating"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25137_hyousuu",
+      "reading": "ひょうすう",
+      "headword": "{票数|ひょうすう}",
+      "label": "number of votes"
+    },
+    {
+      "type": "related",
+      "target_id": "26674_touhyousuu",
+      "reading": "とうひょうすう",
+      "headword": "{投票数|とうひょうすう}",
+      "label": "number of votes"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,12 +97,12 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "politics"
       ]
     },
     "created": "2026-04-05T14:13:58Z",
-    "modified": "2026-04-05T14:13:58Z"
+    "modified": "2026-09-02T04:02:07Z"
   }
 }

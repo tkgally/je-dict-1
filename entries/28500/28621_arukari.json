@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28621_arukari_ex1",
-      "japanese": "せっけんはアルカリ{性|せい}だ。",
+      "japanese": "せっけん⟦は→は：00079_ha⟧アルカリ{性|せい}だ。",
       "english": "Soap is alkaline.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28621_arukari_ex2",
-      "japanese": "{酸|さん}とアルカリを{混|ま}ぜると{中和|ちゅうわ}する。",
+      "japanese": "⟦{酸|さん}→酸：28620_san⟧⟦と→と：00512_to⟧アルカリ⟦を→を：00422_wo⟧⟦{混|ま}ぜる→混ぜる：02423_mazeru⟧⟦と→と：00512_to⟧{中和|ちゅうわ}⟦する→する：00392_suru⟧。",
       "english": "Acid and alkali neutralize each other when mixed.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28621_arukari_ex3",
-      "japanese": "{強|つよ}いアルカリ{性|せい}の{洗剤|せんざい}は{皮膚|ひふ}を{傷|きず}つけることがあるので{注意|ちゅうい}が{必要|ひつよう}だ。",
+      "japanese": "⟦{強|つよ}い→強い：00820_tsuyoi⟧アルカリ{性|せい}⟦の→の：09472_no⟧⟦{洗剤|せんざい}→洗剤：03304_senzai⟧⟦は→は：00079_ha⟧⟦{皮膚|ひふ}→皮膚：03987_hifu⟧⟦を→を：00422_wo⟧⟦{傷|きず}つける→傷つける：01935_kizutsukeru⟧こと⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧⟦の→の：09472_no⟧で⟦{注意|ちゅうい}→注意：01464_chuui⟧⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧だ。",
       "english": "Strongly alkaline detergents can damage the skin, so care is needed.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Loanword from Dutch/Latin via European chemistry vocabulary. Written in katakana.\n\nCOMMON COLLOCATIONS:\n- アルカリ{性|せい}: alkaline; alkalinity\n- アルカリ{電池|でんち}: alkaline battery\n- アルカリ{水|すい} / アルカリイオン{水|すい}: alkaline water\n- {強|つよ}いアルカリ: a strong alkali\n\nSIMILAR / RELATED:\n- {酸|さん}: acid — direct chemical opposite\n- {中性|ちゅうせい}: neutral (pH-wise)\n- {塩基|えんき}: base — more technical chemistry term, includes alkalis and other proton acceptors",
+  "notes": "Loanword from Dutch/Latin via European chemistry vocabulary. Written in katakana.\n\nCOMMON COLLOCATIONS:\n- アルカリ{性|せい}: alkaline; alkalinity\n- アルカリ⟦{電池|でんち}→電池：01472_denchi⟧: alkaline battery\n- アルカリ{水|すい} / アルカリイオン{水|すい}: alkaline water\n- ⟦{強|つよ}い→強い：00820_tsuyoi⟧アルカリ: a strong alkali\n\nSIMILAR / RELATED:\n- ⟦{酸|さん}→酸：28620_san⟧: acid — direct chemical opposite\n- ⟦{中性|ちゅうせい}→中性：18084_chuusei⟧: neutral (pH-wise)\n- {塩基|えんき}: base — more technical chemistry term, includes alkalis and other proton acceptors",
   "cross_references": [
     {
       "type": "antonym",
@@ -52,6 +52,13 @@
       "reading": "さん",
       "headword": "{酸|さん}",
       "label": "acid"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18084_chuusei",
+      "reading": "ちゅうせい",
+      "headword": "{中性|ちゅうせい}",
+      "label": "neutral"
     }
   ],
   "schema_version": "2.0",
@@ -62,7 +69,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "science"
       ],
@@ -71,6 +78,6 @@
       ]
     },
     "created": "2026-06-03T02:08:21Z",
-    "modified": "2026-06-03T02:08:21Z"
+    "modified": "2026-09-02T04:02:34Z"
   }
 }

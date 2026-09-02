@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25089_furansujin_ex1",
-      "japanese": "フランス{人|じん}の{友達|ともだち}ができた。",
+      "japanese": "フランス{人|じん}⟦の→の：09472_no⟧⟦{友達|ともだち}→友達：01478_tomodachi⟧⟦が→が：00051_ga⟧⟦できた→できる：00557_dekiru⟧。",
       "english": "I made a French friend.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25089_furansujin_ex2",
-      "japanese": "フランス{人|じん}は{食事|しょくじ}を{大切|たいせつ}にする{文化|ぶんか}がある。",
+      "japanese": "フランス{人|じん}⟦は→は：00079_ha⟧⟦{食事|しょくじ}→食事：02087_shokuji⟧⟦を→を：00422_wo⟧⟦{大切|たいせつ}にする→大切にする：26940_taisetsunisuru⟧⟦{文化|ぶんか}→文化：01504_bunka⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "French people have a culture of valuing meals.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25089_furansujin_ex3",
-      "japanese": "{隣|となり}に{住|す}んでいるフランス{人|じん}の{家族|かぞく}と{毎朝|まいあさ}{挨拶|あいさつ}を{交|か}わしている。",
+      "japanese": "⟦{隣|となり}→隣：01003_tonari⟧⟦に→に：00314_ni⟧⟦{住|す}んでいる→住む：00673_sumu⟧フランス{人|じん}⟦の→の：09472_no⟧⟦{家族|かぞく}→家族：00552_kazoku⟧⟦と→と：00512_to⟧⟦{毎朝|まいあさ}→毎朝：00966_maiasa⟧⟦{挨拶|あいさつ}→挨拶：02505_aisatsu⟧⟦を→を：00422_wo⟧⟦{交|か}わしている→交わす：19373_kawasu⟧。",
       "english": "I exchange greetings every morning with the French family living next door.",
       "sense_numbers": [
         1
@@ -44,20 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Formed with the common nationality suffix {人|じん} attached to フランス (France). Follows the standard pattern for nationality words in Japanese: {country name} + {人|じん}.\n\nCOMMON COLLOCATIONS:\n- フランス{人|じん}{観光客|かんこうきゃく}: French tourists\n- フランス{人|じん}シェフ: French chef\n- フランス{人|じん}{作家|さっか}: French writer\n- フランス{人|じん}の{考|かんが}え{方|かた}: French way of thinking\n\nRELATED NATIONALITY WORDS:\n- アメリカ{人|じん}: American person\n- イギリス{人|じん}: British person\n- ドイツ{人|じん}: German person\n- {日本人|にほんじん}: Japanese person",
+  "notes": "Formed with the common nationality suffix ⟦{人|じん}→〜人：09849_jin⟧ attached to ⟦フランス→フランス：19418_furansu⟧ (France). Follows the standard pattern for nationality words in Japanese: {country name} + ⟦{人|じん}→〜人：09849_jin⟧.\n\nCOMMON COLLOCATIONS:\n- フランス{人|じん}⟦{観光客|かんこうきゃく}→観光客：03022_kankoukyaku⟧: French tourists\n- フランス{人|じん}⟦シェフ→シェフ：05062_shefu⟧: French chef\n- フランス{人|じん}⟦{作家|さっか}→作家：01414_sakka⟧: French writer\n- フランス{人|じん}⟦の→の：09472_no⟧⟦{考|かんが}え{方|かた}→考え方：10169_kangaekata⟧: French way of thinking\n\nRELATED NATIONALITY WORDS:\n- ⟦アメリカ→アメリカ：01769_amerika⟧⟦{人|じん}→〜人：09849_jin⟧: American person\n- ⟦イギリス→イギリス：28283_igirisu⟧⟦{人|じん}→〜人：09849_jin⟧: British person\n- ドイツ⟦{人|じん}→〜人：09849_jin⟧: German person\n- ⟦{日本人|にほんじん}→日本人：10112_nihonjin⟧: Japanese person",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "10112_nihonjin",
+      "reading": "にほんじん",
+      "headword": "{日本人|にほんじん}",
+      "label": "Japanese person"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "person",
         "geography"
       ]
     },
     "created": "2026-04-22T14:39:04Z",
-    "modified": "2026-08-03T09:22:27Z"
+    "modified": "2026-09-02T04:02:21Z"
   }
 }

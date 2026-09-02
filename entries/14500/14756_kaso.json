@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "14756_kaso_ex1",
-      "japanese": "{過疎|かそ}が{進|すす}む{地域|ちいき}が{増|ふ}えている。",
+      "japanese": "{過疎|かそ}⟦が→が：00051_ga⟧⟦{進|すす}む→進む：01225_susumu⟧⟦{地域|ちいき}→地域：01461_chiiki⟧⟦が→が：00051_ga⟧⟦{増|ふ}えている→増える：01183_fueru⟧。",
       "english": "The number of areas experiencing depopulation is increasing.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14756_kaso_ex2",
-      "japanese": "{過疎|かそ}{地域|ちいき}では{学校|がっこう}の{統廃合|とうはいごう}が{進|すす}んでいる。",
+      "japanese": "{過疎|かそ}⟦{地域|ちいき}→地域：01461_chiiki⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{学校|がっこう}→学校：00055_gakkou⟧⟦の→の：09472_no⟧⟦{統廃合|とうはいごう}→統廃合：07889_touhaigou⟧⟦が→が：00051_ga⟧⟦{進|すす}んでいる→進む：01225_susumu⟧。",
       "english": "In depopulated areas, school consolidation is progressing.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14756_kaso_ex3",
-      "japanese": "{若者|わかもの}の{都市部|としぶ}への{流出|りゅうしゅつ}により、{過疎|かそ}に{苦|くる}しむ{村|むら}は{高齢化|こうれいか}も{深刻|しんこく}になっている。",
+      "japanese": "⟦{若者|わかもの}→若者：03037_wakamono⟧⟦の→の：09472_no⟧⟦{都市部|としぶ}→都市部：14549_toshibu⟧⟦へ→へ：02473_he⟧⟦の→の：09472_no⟧⟦{流出|りゅうしゅつ}→流出：13327_ryuushutsu⟧⟦に→に：00314_ni⟧⟦より→より：09476_yori⟧、{過疎|かそ}⟦に→に：00314_ni⟧⟦{苦|くる}しむ→苦しむ：01938_kurushimu⟧⟦{村|むら}→村：02261_mura⟧⟦は→は：00079_ha⟧⟦{高齢化|こうれいか}→高齢化：04808_koureika⟧⟦も→も：00484_mo⟧⟦{深刻|しんこく}→深刻：01567_shinkoku⟧になっている。",
       "english": "As young people flow out to urban areas, villages suffering from depopulation are also facing serious aging.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE: {過疎|かそ} is primarily used as a noun modifier in the form {過疎|かそ}＋noun, especially {過疎|かそ}{地域|ちいき} (depopulated area). It describes a social phenomenon rather than a temporary state.\n\nCOMMON COLLOCATIONS:\n- {過疎|かそ}{地域|ちいき} (depopulated area)\n- {過疎化|かそか} (depopulation, the process)\n- {過疎|かそ}が{進|すす}む (depopulation advances)\n- {過疎|かそ}に{悩|なや}む (to struggle with depopulation)\n- {過疎|かそ}{対策|たいさく} (measures against depopulation)\n\nThe antonym is {過密|かみつ} (overcrowding, overpopulation). Together, {過疎|かそ}{過密|かみつ} describes the imbalance between rural depopulation and urban overcrowding, a persistent issue in modern Japan.",
+  "notes": "USAGE: {過疎|かそ} is primarily used as a noun modifier in the form {過疎|かそ}＋noun, especially {過疎|かそ}⟦{地域|ちいき}→地域：01461_chiiki⟧ (depopulated area). It describes a social phenomenon rather than a temporary state.\n\nCOMMON COLLOCATIONS:\n- {過疎|かそ}⟦{地域|ちいき}→地域：01461_chiiki⟧ (depopulated area)\n- ⟦{過疎化|かそか}→過疎化：05242_kasoka⟧ (depopulation, the process)\n- {過疎|かそ}⟦が→が：00051_ga⟧⟦{進|すす}む→進む：01225_susumu⟧ (depopulation advances)\n- {過疎|かそ}⟦に→に：00314_ni⟧⟦{悩|なや}む→悩む：02380_nayamu⟧ (to struggle with depopulation)\n- {過疎|かそ}⟦{対策|たいさく}→対策：02511_taisaku⟧ (measures against depopulation)\n\nThe antonym is ⟦{過密|かみつ}→過密：14420_kamitsu⟧ (overcrowding, overpopulation). Together, {過疎|かそ}⟦{過密|かみつ}→過密：14420_kamitsu⟧ describes the imbalance between rural depopulation and urban overcrowding, a persistent issue in modern Japan.",
   "cross_references": [
     {
       "type": "antonym",
@@ -53,19 +59,39 @@
       "reading": "げんかいしゅうらく",
       "headword": "{限界集落|げんかいしゅうらく}",
       "label": "marginal village"
+    },
+    {
+      "type": "related",
+      "target_id": "01618_jinkou",
+      "reading": "じんこう",
+      "headword": "{人口|じんこう}",
+      "label": "population"
+    },
+    {
+      "type": "related",
+      "target_id": "20989_chihousousei",
+      "reading": "ちほうそうせい",
+      "headword": "{地方創生|ちほうそうせい}",
+      "label": "regional revitalization"
     }
   ],
   "metadata": {
     "created": "2026-03-03T11:21:54Z",
-    "modified": "2026-05-04T06:23:57Z",
+    "modified": "2026-09-02T04:01:38Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "style": ["written"]
+      "semantic": [
+        "general"
+      ],
+      "style": [
+        "written"
+      ]
     }
   }
 }

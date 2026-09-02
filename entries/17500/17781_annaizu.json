@@ -15,41 +15,80 @@
   "examples": [
     {
       "id": "17781_annaizu_ex1",
-      "japanese": "{駅前|えきまえ}に{案内図|あんないず}があった。",
+      "japanese": "⟦{駅前|えきまえ}→駅前：09593_ekimae⟧⟦に→に：00314_ni⟧{案内図|あんないず}⟦が→が：00051_ga⟧⟦あった→ある：00006_aru⟧。",
       "english": "There was a guide map in front of the station.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17781_annaizu_ex2",
-      "japanese": "{案内図|あんないず}で{現在地|げんざいち}を{確認|かくにん}した。",
+      "japanese": "{案内図|あんないず}⟦で→で：00502_de⟧⟦{現在地|げんざいち}→現在地：27733_genzaichi⟧⟦を→を：00422_wo⟧⟦{確認|かくにん}した→確認する：25332_kakuninsuru⟧。",
       "english": "I checked my current location on the guide map.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17781_annaizu_ex3",
-      "japanese": "{公園|こうえん}の{入口|いりぐち}にある{案内図|あんないず}を{見|み}て、{散歩|さんぽ}コースを{決|き}めた。",
+      "japanese": "⟦{公園|こうえん}→公園：00581_kouen⟧⟦の→の：09472_no⟧{入口|いりぐち}⟦に→に：00314_ni⟧⟦ある→ある：00006_aru⟧{案内図|あんないず}⟦を→を：00422_wo⟧⟦{見|み}て→見る：00283_miru⟧、⟦{散歩|さんぽ}→散歩：02885_sanpo⟧⟦コース→コース：10864_koosu⟧⟦を→を：00422_wo⟧⟦{決|き}めた→決める：00858_kimeru⟧。",
       "english": "I looked at the guide map at the park entrance and decided on a walking route.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nA compound of {案内|あんない} (guidance, information) + {図|ず} (map, diagram). Refers to the kind of map that is posted at a location to orient visitors, not a portable map you carry. Extremely common in Japan at train stations, parks, shopping malls, and tourist sites.\n\nCOMMON COLLOCATIONS:\n- {案内図|あんないず}を{見|み}る (to look at a guide map)\n- {館内|かんない}{案内図|あんないず} (building directory/floor map)\n- {周辺|しゅうへん}{案内図|あんないず} (area guide map)\n\nSIMILAR WORDS:\n- {地図|ちず}: map — a general portable map, not limited to on-site information boards\n- {見取|みと}り{図|ず}: floor plan, layout — shows the internal layout of a building",
-  "cross_references": [],
+  "notes": "USAGE:\nA compound of ⟦{案内|あんない}→案内：01291_annai⟧ (guidance, information) + ⟦{図|ず}→図：03368_zu⟧ (map, diagram). Refers to the kind of map that is posted at a location to orient visitors, not a portable map you carry. Extremely common in Japan at train stations, parks, shopping malls, and tourist sites.\n\nCOMMON COLLOCATIONS:\n- {案内図|あんないず}⟦を→を：00422_wo⟧⟦{見|み}る→見る：00283_miru⟧ (to look at a guide map)\n- ⟦{館内|かんない}→館内：22088_kannai⟧{案内図|あんないず} (building directory/floor map)\n- ⟦{周辺|しゅうへん}→周辺：09896_shuuhen⟧{案内図|あんないず} (area guide map)\n\nSIMILAR WORDS:\n- ⟦{地図|ちず}→地図：02914_chizu⟧: map — a general portable map, not limited to on-site information boards\n- ⟦{見取|みと}り{図|ず}→見取り図：14836_mitorizu⟧: floor plan, layout — shows the internal layout of a building",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02914_chizu",
+      "reading": "ちず",
+      "headword": "{地図|ちず}",
+      "label": "map"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14836_mitorizu",
+      "reading": "みとりず",
+      "headword": "{見取|みと}り{図|ず}",
+      "label": "floor plan, layout"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22318_annaiban",
+      "reading": "あんないばん",
+      "headword": "{案内|あんない}{板|ばん}",
+      "label": "information board"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26710_furoamappu",
+      "reading": "ふろあまっぷ",
+      "headword": "フロアマップ",
+      "label": "floor map"
+    }
+  ],
   "metadata": {
     "created": "2026-03-19T03:54:50Z",
-    "modified": "2026-03-19T03:54:50Z",
+    "modified": "2026-09-02T04:01:49Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

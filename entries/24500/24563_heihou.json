@@ -16,7 +16,7 @@
   "examples": [
     {
       "id": "24563_heihou_ex1",
-      "japanese": "{孫子|そんし}の{兵法|へいほう}を{読|よ}んだ。",
+      "japanese": "{孫子|そんし}⟦の→の：09472_no⟧{兵法|へいほう}⟦を→を：00422_wo⟧⟦{読|よ}んだ→読む：00426_yomu⟧。",
       "english": "I read Sun Tzu's The Art of War.",
       "sense_numbers": [
         1
@@ -26,7 +26,7 @@
     },
     {
       "id": "24563_heihou_ex2",
-      "japanese": "{兵法|へいほう}に{詳|くわ}しい{武将|ぶしょう}だった。",
+      "japanese": "{兵法|へいほう}⟦に→に：00314_ni⟧⟦{詳|くわ}しい→詳しい：02483_kuwashii⟧⟦{武将|ぶしょう}→武将：13222_bushou⟧だった。",
       "english": "He was a military commander well-versed in strategy.",
       "sense_numbers": [
         1
@@ -36,7 +36,7 @@
     },
     {
       "id": "24563_heihou_ex3",
-      "japanese": "{古代|こだい}の{兵法|へいほう}は{現代|げんだい}のビジネス{戦略|せんりゃく}にも{応用|おうよう}されている。",
+      "japanese": "⟦{古代|こだい}→古代：05324_kodai⟧⟦の→の：09472_no⟧{兵法|へいほう}⟦は→は：00079_ha⟧⟦{現代|げんだい}→現代：02722_gendai⟧⟦の→の：09472_no⟧⟦ビジネス→ビジネス：11162_bijinesu⟧⟦{戦略|せんりゃく}→戦略：04869_senryaku⟧⟦に→に：00314_ni⟧⟦も→も：00484_mo⟧⟦{応用|おうよう}→応用：04135_ouyou⟧⟦されている→する：00392_suru⟧。",
       "english": "Ancient military strategy is also applied to modern business strategy.",
       "sense_numbers": [
         1
@@ -45,11 +45,33 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {兵|へい} (soldier/military) and {法|ほう} (method/law). Refers to the systematic study and practice of warfare and military tactics. The term is deeply associated with classical East Asian military treatises, especially {孫子|そんし}の{兵法|へいほう} (Sun Tzu's Art of War). In modern usage, the principles of {兵法|へいほう} are often discussed in the context of business strategy and leadership.\n\nCOMMON COLLOCATIONS:\n- {孫子|そんし}の{兵法|へいほう}: Sun Tzu's Art of War\n- {兵法|へいほう}を{学|まな}ぶ: to study military strategy\n- {兵法|へいほう}に{通|つう}じる: to be versed in military strategy\n- {兵法|へいほう}{書|しょ}: book on military strategy\n\nSIMILAR WORDS:\n- {戦略|せんりゃく}: strategy — broader modern term for any strategic planning\n- {戦術|せんじゅつ}: tactics — focuses on specific battlefield maneuvers rather than grand strategy\n- {武術|ぶじゅつ}: martial arts — physical combat skills, not strategic theory",
-  "cross_references": [],
+  "notes": "Composed of ⟦{兵|へい}→兵：29510_hei⟧ (soldier/military) and ⟦{法|ほう}→法：13620_hou⟧ (method/law). Refers to the systematic study and practice of warfare and military tactics. The term is deeply associated with classical East Asian military treatises, especially {孫子|そんし}⟦の→の：09472_no⟧{兵法|へいほう} (Sun Tzu's Art of War). In modern usage, the principles of {兵法|へいほう} are often discussed in the context of business strategy and leadership.\n\nCOMMON COLLOCATIONS:\n- {孫子|そんし}⟦の→の：09472_no⟧{兵法|へいほう}: Sun Tzu's Art of War\n- {兵法|へいほう}⟦を→を：00422_wo⟧⟦{学|まな}ぶ→学ぶ：01987_manabu⟧: to study military strategy\n- {兵法|へいほう}⟦に→に：00314_ni⟧⟦{通|つう}じる→通じる：02289_tsuujiru⟧: to be versed in military strategy\n- {兵法|へいほう}⟦{書|しょ}→〜書：28467_sho⟧: book on military strategy\n\nSIMILAR WORDS:\n- ⟦{戦略|せんりゃく}→戦略：04869_senryaku⟧: strategy — broader modern term for any strategic planning\n- ⟦{戦術|せんじゅつ}→戦術：12748_senjutsu⟧: tactics — focuses on specific battlefield maneuvers rather than grand strategy\n- ⟦{武術|ぶじゅつ}→武術：13244_bujutsu⟧: martial arts — physical combat skills, not strategic theory",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04869_senryaku",
+      "reading": "せんりゃく",
+      "headword": "{戦略|せんりゃく}",
+      "label": "strategy"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12748_senjutsu",
+      "reading": "せんじゅつ",
+      "headword": "{戦術|せんじゅつ}",
+      "label": "tactics"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13244_bujutsu",
+      "reading": "ぶじゅつ",
+      "headword": "{武術|ぶじゅつ}",
+      "label": "martial arts"
+    }
+  ],
   "metadata": {
     "created": "2026-04-19T15:13:48Z",
-    "modified": "2026-08-03T09:22:27Z",
+    "modified": "2026-09-02T04:02:18Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

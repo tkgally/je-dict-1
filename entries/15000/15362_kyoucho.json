@@ -15,41 +15,61 @@
   "examples": [
     {
       "id": "15362_kyoucho_ex1",
-      "japanese": "この{本|ほん}は{二人|ふたり}の{共著|きょうちょ}だ。",
+      "japanese": "⟦この→この：00962_kono⟧{本|ほん}⟦は→は：00079_ha⟧⟦{二人|ふたり}→二人：00622_futari⟧⟦の→の：09472_no⟧{共著|きょうちょ}だ。",
       "english": "This book was co-authored by two people.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15362_kyoucho_ex2",
-      "japanese": "{田中|たなか}{先生|せんせい}との{共著|きょうちょ}で{論文|ろんぶん}を{発表|はっぴょう}した。",
+      "japanese": "⟦{田中|たなか}→田中：09528_tanaka⟧⟦{先生|せんせい}→先生：00609_sensei⟧⟦と→と：00512_to⟧⟦の→の：09472_no⟧{共著|きょうちょ}⟦で→で：00502_de⟧⟦{論文|ろんぶん}→論文：03787_ronbun⟧⟦を→を：00422_wo⟧⟦{発表|はっぴょう}した→発表する：25231_happyousuru⟧。",
       "english": "I published a paper co-authored with Professor Tanaka.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15362_kyoucho_ex3",
-      "japanese": "{彼|かれ}の{著作|ちょさく}リストには{単著|たんちょ}が{五冊|ごさつ}、{共著|きょうちょ}が{三冊|さんさつ}ある。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧⟦{著作|ちょさく}→著作：18234_chosaku⟧⟦リスト→リスト：09786_risuto⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{単著|たんちょ}⟦が→が：00051_ga⟧{五冊|ごさつ}、{共著|きょうちょ}⟦が→が：00051_ga⟧{三冊|さんさつ}⟦ある→ある：00006_aru⟧。",
       "english": "His list of publications includes five sole-authored works and three co-authored ones.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE: {共著|きょうちょ} is standard in academic and publishing contexts. In bibliographic references, it often appears after the authors' names, e.g., 「{田中|たなか}・{山田|やまだ}{共著|きょうちょ}」.\n\nCOMMON COLLOCATIONS:\n- {共著|きょうちょ}で{書|か}く: to co-author\n- {共著|きょうちょ}{者|しゃ}: co-author\n- ～との{共著|きょうちょ}: co-authored with ~\n\nSIMILAR WORDS:\n- {共著|きょうちょ}: co-authored work (two or more authors)\n- {単著|たんちょ}: sole-authored work\n- {編著|へんちょ}: edited and authored work\n- {著書|ちょしょ}: authored book (general term)",
-  "cross_references": [],
+  "notes": "USAGE: {共著|きょうちょ} is standard in academic and publishing contexts. In bibliographic references, it often appears after the authors' names, e.g., 「⟦{田中|たなか}→田中：09528_tanaka⟧・⟦{山田|やまだ}→山田：09529_yamada⟧{共著|きょうちょ}」.\n\nCOMMON COLLOCATIONS:\n- {共著|きょうちょ}⟦で→で：00502_de⟧⟦{書|か}く→書く：00477_kaku⟧: to co-author\n- {共著|きょうちょ}⟦{者|しゃ}→〜者：04662_sha⟧: co-author\n- ～⟦と→と：00512_to⟧⟦の→の：09472_no⟧{共著|きょうちょ}: co-authored with ~\n\nSIMILAR WORDS:\n- {共著|きょうちょ}: co-authored work (two or more authors)\n- {単著|たんちょ}: sole-authored work\n- {編著|へんちょ}: edited and authored work\n- ⟦{著書|ちょしょ}→著書：14083_chosho⟧: authored book (general term)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14083_chosho",
+      "reading": "ちょしょ",
+      "headword": "{著書|ちょしょ}",
+      "label": "authored book"
+    }
+  ],
   "metadata": {
     "created": "2026-03-06T11:48:27Z",
-    "modified": "2026-03-06T11:48:27Z",
+    "modified": "2026-09-02T04:01:41Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["education"],
-      "domain": ["academic"]
+      "semantic": [
+        "education"
+      ],
+      "domain": [
+        "academic"
+      ]
     }
   }
 }

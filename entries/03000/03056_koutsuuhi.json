@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{交通費|こうつうひ} combines ⟦{交通|こうつう}→交通：01584_koutsuu⟧ (transportation) + ⟦{費|ひ}→費：09877_hi⟧ (expense/cost).\n\nCOMMON PATTERNS:\n- {交通費|こうつうひ}⟦を→を：00422_wo⟧⟦{払|はら}う→払う：00535_harau⟧ (to pay transportation costs)\n- {交通費|こうつうひ}⟦を→を：00422_wo⟧⟦{支給|しきゅう}→支給：02835_shikyuu⟧⟦する→する：00392_suru⟧ (to provide transportation allowance)\n- {交通費|こうつうひ}⟦{込|こ}み→込み：28615_komi⟧ (transportation included)\n\nRELATED ～{費|ひ} COMPOUNDS:\n- ⟦{食費|しょくひ}→食費：16477_shokuhi⟧ (food expenses)\n- ⟦{光熱費|こうねつひ}→光熱費：08244_kounetsuhi⟧ (utility costs)\n- ⟦{生活費|せいかつひ}→生活費：19424_seikatsuhi⟧ (living expenses)\n- ⟦{医療費|いりょうひ}→医療費：24692_iryouhi⟧ (medical expenses)\n\nUSAGE NOTES:\n- In Japan, many companies provide {交通費|こうつうひ} as part of employee benefits\n- Often specified separately in job listings",
+  "notes": "{交通費|こうつうひ} combines ⟦{交通|こうつう}→交通：01584_koutsuu⟧ (transportation) + ⟦{費|ひ}→費：09877_hi⟧ (expense/cost).\n\nCOMMON PATTERNS:\n- {交通費|こうつうひ}⟦を→を：00422_wo⟧⟦{払|はら}う→払う：00535_harau⟧ (to pay transportation costs)\n- {交通費|こうつうひ}⟦を→を：00422_wo⟧⟦{支給|しきゅう}→支給：02835_shikyuu⟧⟦する→する：00392_suru⟧ (to provide transportation allowance)\n- {交通費|こうつうひ}⟦{込|こ}み→込み：28615_komi⟧ (transportation included)\n\nRELATED ～{費|ひ} COMPOUNDS:\n- ⟦{食費|しょくひ}→食費：16477_shokuhi⟧ (food expenses)\n- ⟦{光熱費|こうねつひ}→光熱費：08244_kounetsuhi⟧ (utility costs)\n- ⟦{生活費|せいかつひ}→生活費：19424_seikatsuhi⟧ (living expenses)\n- ⟦{医療費|いりょうひ}→医療費：24692_iryouhi⟧ (medical expenses)\n\nUSAGE:\n- In Japan, many companies provide {交通費|こうつうひ} as part of employee benefits\n- Often specified separately in job listings",
   "cross_references": [
     {
       "type": "related",
@@ -51,11 +51,53 @@
       "headword": "{交通|こうつう}",
       "label": "transportation",
       "target_id": "01584_koutsuu"
+    },
+    {
+      "type": "related",
+      "target_id": "11512_zairyouhi",
+      "reading": "ざいりょうひ",
+      "headword": "{材料費|ざいりょうひ}",
+      "label": "material cost, cost of materials"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20646_ryohi",
+      "reading": "りょひ",
+      "headword": "{旅費|りょひ}",
+      "label": "travel expenses"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23390_tokouhi",
+      "reading": "とこうひ",
+      "headword": "{渡航費|とこうひ}",
+      "label": "travel expenses (for overseas travel)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23697_kaigihi",
+      "reading": "かいぎひ",
+      "headword": "{会議費|かいぎひ}",
+      "label": "meeting expenses"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25964_shucchouhi",
+      "reading": "しゅっちょうひ",
+      "headword": "{出張費|しゅっちょうひ}",
+      "label": "business trip expenses"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27556_tsuukinhi",
+      "reading": "つうきんひ",
+      "headword": "{通勤費|つうきんひ}",
+      "label": "commuting expenses"
     }
   ],
   "metadata": {
     "created": "2026-01-11T11:13:00Z",
-    "modified": "2026-08-12T06:29:54Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22536_giongo_ex1",
-      "japanese": "「ワンワン」は{犬|いぬ}の{擬音語|ぎおんご}だ。",
+      "japanese": "「ワンワン」⟦は→は：00079_ha⟧⟦{犬|いぬ}→犬：00632_inu⟧⟦の→の：09472_no⟧{擬音語|ぎおんご}だ。",
       "english": "'Wan-wan' is an onomatopoeia for a dog.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22536_giongo_ex2",
-      "japanese": "{日本語|にほんご}には{擬音語|ぎおんご}が{非常|ひじょう}に{多|おお}い。",
+      "japanese": "⟦{日本語|にほんご}→日本語：00614_nihongo⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{擬音語|ぎおんご}⟦が→が：00051_ga⟧⟦{非常|ひじょう}→非常：01598_hijou⟧⟦に→に：00314_ni⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "Japanese has a very large number of onomatopoeia.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22536_giongo_ex3",
-      "japanese": "{漫画|まんが}では{擬音語|ぎおんご}が{効果的|こうかてき}に{使|つか}われて{臨場感|りんじょうかん}を{出|だ}している。",
+      "japanese": "⟦{漫画|まんが}→漫画：01511_manga⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧{擬音語|ぎおんご}⟦が→が：00051_ga⟧⟦{効果的|こうかてき}→効果的：04793_koukateki⟧⟦に→に：00314_ni⟧⟦{使|つか}われて→使う：00473_tsukau⟧⟦{臨場感|りんじょうかん}→臨場感：06251_rinjoukan⟧⟦を→を：00422_wo⟧⟦{出|だ}している→出す：01087_dasu⟧。",
       "english": "In manga, onomatopoeia are used effectively to create a sense of being there.",
       "sense_numbers": [
         1
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {擬|ぎ} (imitate) + {音|おん} (sound) + {語|ご} (word). Japanese is exceptionally rich in sound-symbolic language, and linguists distinguish between two main categories: {擬音語|ぎおんご} (words imitating actual sounds) and {擬態語|ぎたいご} (words expressing states, textures, or feelings). Together they are called {擬声語|ぎせいご} or オノマトペ.\n\nEXAMPLES OF {擬音語|ぎおんご}:\n- ワンワン: a dog barking\n- ザーザー: heavy rain pouring\n- ドンドン: knocking or banging\n- ガタガタ: rattling, clattering\n\nSIMILAR WORDS:\n- {擬態語|ぎたいご}: mimetic word — describes states or feelings, not actual sounds (e.g., キラキラ 'sparkly', ふわふわ 'fluffy')\n- {擬声語|ぎせいご}: sound-symbolic word — a broader term covering both {擬音語|ぎおんご} and {擬態語|ぎたいご}\n- オノマトペ: onomatopoeia — loanword from French, used as a general umbrella term",
+  "notes": "Composed of {擬|ぎ} (imitate) + {音|おん} (sound) + ⟦{語|ご}→〜語：09841_go⟧ (word). Japanese is exceptionally rich in sound-symbolic language, and linguists distinguish between two main categories: {擬音語|ぎおんご} (words imitating actual sounds) and ⟦{擬態語|ぎたいご}→擬態語：22468_gitaigo⟧ (words expressing states, textures, or feelings). Together they are called ⟦{擬声語|ぎせいご}→擬声語：23901_giseigo⟧ or ⟦オノマトペ→オノマトペ：22607_onomatope⟧.\n\nEXAMPLES OF {擬音語|ぎおんご}:\n- ワンワン: a dog barking\n- ザーザー: heavy rain pouring\n- ドンドン: knocking or banging\n- ガタガタ: rattling, clattering\n\nSIMILAR WORDS:\n- ⟦{擬態語|ぎたいご}→擬態語：22468_gitaigo⟧: mimetic word — describes states or feelings, not actual sounds (e.g., キラキラ 'sparkly', ⟦ふわふわ→ふわふわ：05156_fuwafuwa⟧ 'fluffy')\n- ⟦{擬声語|ぎせいご}→擬声語：23901_giseigo⟧: sound-symbolic word — a broader term covering both {擬音語|ぎおんご} and ⟦{擬態語|ぎたいご}→擬態語：22468_gitaigo⟧\n- ⟦オノマトペ→オノマトペ：22607_onomatope⟧: onomatopoeia — loanword from French, used as a general umbrella term",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22468_gitaigo",
+      "reading": "ぎたいご",
+      "headword": "{擬態語|ぎたいご}",
+      "label": "mimetic word"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23901_giseigo",
+      "reading": "ぎせいご",
+      "headword": "{擬声語|ぎせいご}",
+      "label": "sound-symbolic word"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22607_onomatope",
+      "reading": "おのまとぺ",
+      "headword": "オノマトペ",
+      "label": "onomatopoeia"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23348_kantanshi",
+      "reading": "かんたんし",
+      "headword": "{感嘆詞|かんたんし}",
+      "label": "interjection"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +89,6 @@
       ]
     },
     "created": "2026-04-06T17:28:40Z",
-    "modified": "2026-04-10T08:28:27Z"
+    "modified": "2026-09-02T04:02:08Z"
   }
 }

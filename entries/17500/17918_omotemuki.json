@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "17918_omotemuki_ex1",
-      "japanese": "{表向|おもてむ}きは{賛成|さんせい}している。",
+      "japanese": "{表向|おもてむ}き⟦は→は：00079_ha⟧⟦{賛成|さんせい}している→賛成する：05647_sanseisuru⟧。",
       "english": "On the surface, they agree.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17918_omotemuki_ex2",
-      "japanese": "{表向|おもてむ}きの{理由|りゆう}と{本当|ほんとう}の{理由|りゆう}は{違|ちが}う。",
+      "japanese": "{表向|おもてむ}き⟦の→の：09472_no⟧⟦{理由|りゆう}→理由：01102_riyuu⟧⟦と→と：00512_to⟧⟦{本当|ほんとう}→本当：00779_hontou⟧⟦の→の：09472_no⟧⟦{理由|りゆう}→理由：01102_riyuu⟧⟦は→は：00079_ha⟧⟦{違|ちが}う→違う：01957_chigau⟧。",
       "english": "The official reason and the real reason are different.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17918_omotemuki_ex3",
-      "japanese": "{表向|おもてむ}きは{友好|ゆうこう}{関係|かんけい}だが、{裏|うら}では{対立|たいりつ}している。",
+      "japanese": "{表向|おもてむ}き⟦は→は：00079_ha⟧⟦{友好|ゆうこう}→友好：03644_yuukou⟧⟦{関係|かんけい}→関係：01298_kankei⟧だ⟦が→が：00051_ga⟧、⟦{裏|うら}→裏：02178_ura⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{対立|たいりつ}している→対立する：22172_tairitsusuru⟧。",
       "english": "On the surface it's a friendly relationship, but behind the scenes they're at odds.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nUsed as an adverb ({表向|おもてむ}きは...) or as a noun modifier ({表向|おもてむ}きの{理由|りゆう}). Carries the implication that the reality differs from what is shown. Often contrasted with {裏|うら} (behind the scenes) or {本音|ほんね} (true feelings).\n\nCOMMON COLLOCATIONS:\n- {表向|おもてむ}きは〜だが (outwardly it's... but)\n- {表向|おもてむ}きの{理由|りゆう} (the official/stated reason)\n- {表向|おもてむ}きの{態度|たいど} (outward attitude)\n\nSIMILAR WORDS:\n- {建前|たてまえ}: public position, façade — focuses on social expectations vs. true feelings\n- {裏|うら}: behind the scenes — the opposite, what is hidden from public view",
+  "notes": "USAGE:\nUsed as an adverb ({表向|おもてむ}き⟦は→は：00079_ha⟧...) or as a noun modifier ({表向|おもてむ}き⟦の→の：09472_no⟧⟦{理由|りゆう}→理由：01102_riyuu⟧). Carries the implication that the reality differs from what is shown. Often contrasted with ⟦{裏|うら}→裏：02178_ura⟧ (behind the scenes) or ⟦{本音|ほんね}→本音：06620_honne⟧ (true feelings).\n\nCOMMON COLLOCATIONS:\n- {表向|おもてむ}き⟦は→は：00079_ha⟧〜だ⟦が→が：00051_ga⟧ (outwardly it's... but)\n- {表向|おもてむ}き⟦の→の：09472_no⟧⟦{理由|りゆう}→理由：01102_riyuu⟧ (the official/stated reason)\n- {表向|おもてむ}き⟦の→の：09472_no⟧⟦{態度|たいど}→態度：03396_taido⟧ (outward attitude)\n\nSIMILAR WORDS:\n- ⟦{建前|たてまえ}→建前：06621_tatemae⟧: public position, façade — focuses on social expectations vs. true feelings\n- ⟦{裏|うら}→裏：02178_ura⟧: behind the scenes — the opposite, what is hidden from public view",
   "cross_references": [
     {
       "type": "synonym",
@@ -53,18 +59,51 @@
       "reading": "ほんね",
       "headword": "{本音|ほんね}",
       "label": "true feelings"
+    },
+    {
+      "type": "antonym",
+      "target_id": "02178_ura",
+      "reading": "うら",
+      "headword": "{裏|うら}",
+      "label": "behind the scenes"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22060_meimokujou",
+      "reading": "めいもくじょう",
+      "headword": "{名目上|めいもくじょう}",
+      "label": "nominally"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22071_keishikijou",
+      "reading": "けいしきじょう",
+      "headword": "{形式上|けいしきじょう}",
+      "label": "formally"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22550_uramuki",
+      "reading": "うらむき",
+      "headword": "{裏向|うらむ}き",
+      "label": "face down"
     }
   ],
   "metadata": {
     "created": "2026-03-19T09:11:37Z",
-    "modified": "2026-05-07T10:07:56Z",
+    "modified": "2026-09-02T04:01:50Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adverb"],
+      "pos": [
+        "noun",
+        "adverb"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
+      "semantic": [
+        "general"
+      ],
       "domain": []
     }
   }

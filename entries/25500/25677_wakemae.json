@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25677_wakemae_ex1",
-      "japanese": "{分|わ}け{前|まえ}をもらう。",
+      "japanese": "{分|わ}け{前|まえ}⟦を→を：00422_wo⟧⟦もらう→もらう：00520_morau⟧。",
       "english": "To receive one's share.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25677_wakemae_ex2",
-      "japanese": "{利益|りえき}の{分|わ}け{前|まえ}は{平等|びょうどう}にした。",
+      "japanese": "⟦{利益|りえき}→利益：03673_rieki⟧⟦の→の：09472_no⟧{分|わ}け{前|まえ}⟦は→は：00079_ha⟧⟦{平等|びょうどう}→平等：03590_byoudou⟧にした。",
       "english": "We divided the share of profits equally.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25677_wakemae_ex3",
-      "japanese": "{彼|かれ}は{自分|じぶん}の{分|わ}け{前|まえ}が{少|すく}ないと{文句|もんく}を{言|い}ったが、みんなは{同|おな}じ{額|がく}をもらっていた。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{自分|じぶん}→自分：02887_jibun⟧⟦の→の：09472_no⟧{分|わ}け{前|まえ}⟦が→が：00051_ga⟧⟦{少|すく}ない→少ない：01136_sukunai⟧⟦と→と：00512_to⟧⟦{文句|もんく}→文句：03636_monku⟧⟦を→を：00422_wo⟧⟦{言|い}った→言う：00515_iu⟧⟦が→が：00051_ga⟧、⟦みんな→みんな：02972_minna⟧⟦は→は：00079_ha⟧⟦{同|おな}じ→同じ：02857_onaji⟧⟦{額|がく}→額：02607_gaku⟧⟦を→を：00422_wo⟧⟦もらっていた→もらう：00520_morau⟧。",
       "english": "He complained that his share was small, but everyone had received the same amount.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {分|わ}ける (to divide) and {前|まえ} (portion, share — an older meaning of {前|まえ}). Often carries a slightly informal or colloquial nuance, and can appear in contexts involving money, food, or proceeds from a joint venture.\n\nCOMMON COLLOCATIONS:\n- {分|わ}け{前|まえ}をもらう: to receive one's share\n- {分|わ}け{前|まえ}を{要求|ようきゅう}する: to demand one's share\n- {利益|りえき}の{分|わ}け{前|まえ}: share of profits\n- {分|わ}け{前|まえ}が{多|おお}い / {少|すく}ない: a large / small share\n\nSIMILAR WORDS:\n- {取|と}り{分|ぶん}: one's share, one's portion — similar meaning, slightly more neutral\n- {配分|はいぶん}: distribution, allocation — formal, used in organizational or economic contexts\n- {割|わ}り{当|あ}て: allotment, allocation — emphasizes a designated or assigned portion",
+  "notes": "A compound of ⟦{分|わ}ける→分ける：02333_wakeru⟧ (to divide) and ⟦{前|まえ}→前：02255_mae⟧ (portion, share — an older meaning of ⟦{前|まえ}→前：02255_mae⟧). Often carries a slightly informal or colloquial nuance, and can appear in contexts involving money, food, or proceeds from a joint venture.\n\nCOMMON COLLOCATIONS:\n- {分|わ}け{前|まえ}⟦を→を：00422_wo⟧⟦もらう→もらう：00520_morau⟧: to receive one's share\n- {分|わ}け{前|まえ}⟦を→を：00422_wo⟧⟦{要求|ようきゅう}する→要求する：25533_youkyuusuru⟧: to demand one's share\n- ⟦{利益|りえき}→利益：03673_rieki⟧⟦の→の：09472_no⟧{分|わ}け{前|まえ}: share of profits\n- {分|わ}け{前|まえ}⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧ / ⟦{少|すく}ない→少ない：01136_sukunai⟧: a large / small share\n\nSIMILAR WORDS:\n- {取|と}り{分|ぶん}: one's share, one's portion — similar meaning, slightly more neutral\n- ⟦{配分|はいぶん}→配分：14495_haibun⟧: distribution, allocation — formal, used in organizational or economic contexts\n- ⟦{割|わ}り{当|あ}て→割り当て：16335_wariate⟧: allotment, allocation — emphasizes a designated or assigned portion",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14495_haibun",
+      "reading": "はいぶん",
+      "headword": "{配分|はいぶん}",
+      "label": "distribution, allocation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16335_wariate",
+      "reading": "わりあて",
+      "headword": "{割|わ}り{当|あ}て",
+      "label": "allotment, allocation"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,6 +78,6 @@
       ]
     },
     "created": "2026-04-26T15:16:34Z",
-    "modified": "2026-04-26T15:16:34Z"
+    "modified": "2026-09-02T04:02:23Z"
   }
 }

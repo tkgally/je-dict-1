@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "11910_zenshin_ex1",
-      "japanese": "この{会社|かいしゃ}の{前身|ぜんしん}は{小|ちい}さな{工場|こうじょう}だった。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦の→の：09472_no⟧{前身|ぜんしん}⟦は→は：00079_ha⟧⟦{小|ちい}さな→小さな：02913_chiisana⟧⟦{工場|こうじょう}→工場：01082_koujou⟧だった。",
       "english": "The predecessor of this company was a small factory.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "11910_zenshin_ex2",
-      "japanese": "{大学|だいがく}の{前身|ぜんしん}は{明治|めいじ}{時代|じだい}の{私塾|しじゅく}だ。",
+      "japanese": "⟦{大学|だいがく}→大学：00608_daigaku⟧⟦の→の：09472_no⟧{前身|ぜんしん}⟦は→は：00079_ha⟧⟦{明治|めいじ}{時代|じだい}→明治時代：28080_meijijidai⟧⟦の→の：09472_no⟧{私塾|しじゅく}だ。",
       "english": "The university's predecessor was a private school in the Meiji era.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "11910_zenshin_ex3",
-      "japanese": "この{制度|せいど}の{前身|ぜんしん}となった{仕組|しく}みについて{調|しら}べている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{制度|せいど}→制度：03291_seido⟧⟦の→の：09472_no⟧{前身|ぜんしん}⟦と→と：00512_to⟧⟦なった→なる：01970_naru⟧⟦{仕組|しく}み→仕組み：07168_shikumi⟧⟦について→〜について：03103_nitsuite⟧⟦{調|しら}べている→調べる：01213_shiraberu⟧。",
       "english": "I'm researching the system that served as the precursor to this program.",
       "notes": null,
       "has_audio": false,
@@ -43,11 +43,11 @@
       ]
     }
   ],
-  "notes": "{前身|ぜんしん} describes the earlier form or incarnation of something — \"what it used to be.\" Used for organizations, companies, institutions, and products that were later renamed or reorganized.\n\nCOMMON PATTERNS:\n- ～の{前身|ぜんしん}: the predecessor of ~\n- {前身|ぜんしん}は～だ: its predecessor was ~\n- {前身|ぜんしん}となる: to serve as the precursor\n- ～を{前身|ぜんしん}とする: to have ~ as its predecessor\n\nEXAMPLE:\n{東京大学|とうきょうだいがく}の{前身|ぜんしん}は{開成|かいせい}{学校|がっこう}だ (The predecessor of Tokyo University was Kaisei School).\n\nIMPORTANT DISTINCTION:\nNot used for people in roles. For a person who held a position previously, use {前任者|ぜんにんしゃ} (predecessor in a role).\n\nCOMPONENTS:\n{前|ぜん} (before/former) + {身|しん} (body/form)",
+  "notes": "{前身|ぜんしん} describes the earlier form or incarnation of something — \"what it used to be.\" Used for organizations, companies, institutions, and products that were later renamed or reorganized.\n\nCOMMON PATTERNS:\n- ～⟦の→の：09472_no⟧{前身|ぜんしん}: the predecessor of ~\n- {前身|ぜんしん}⟦は→は：00079_ha⟧～だ: its predecessor was ~\n- {前身|ぜんしん}⟦と→と：00512_to⟧⟦なる→なる：01970_naru⟧: to serve as the precursor\n- ～⟦を→を：00422_wo⟧{前身|ぜんしん}⟦と→と：00512_to⟧⟦する→する：00392_suru⟧: to have ~ as its predecessor\n\nEXAMPLE:\n{東京大学|とうきょうだいがく}⟦の→の：09472_no⟧{前身|ぜんしん}⟦は→は：00079_ha⟧{開成|かいせい}⟦{学校|がっこう}→学校：00055_gakkou⟧だ (The predecessor of Tokyo University was Kaisei School).\n\nIMPORTANT DISTINCTION:\nNot used for people in roles. For a person who held a position previously, use ⟦{前任者|ぜんにんしゃ}→前任者：19225_zenninsha⟧ (predecessor in a role).\n\nETYMOLOGY:\n⟦{前|ぜん}→前〜：03957_zen⟧ (before/former) + {身|しん} (body/form)",
   "cross_references": [],
   "metadata": {
     "created": "2026-02-18T14:13:53Z",
-    "modified": "2026-03-26T06:22:34Z",
+    "modified": "2026-09-02T04:01:26Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",

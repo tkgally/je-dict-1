@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08684_kyuuchi_ex1",
-      "japanese": "{窮地|きゅうち}に{陥|おちい}った。",
+      "japanese": "{窮地|きゅうち}⟦に→に：00314_ni⟧⟦{陥|おちい}った→陥る：14537_ochiiru⟧。",
       "english": "I fell into a predicament.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "08684_kyuuchi_ex2",
-      "japanese": "{窮地|きゅうち}を{脱|だっ}する{方法|ほうほう}を{探|さが}している。",
+      "japanese": "{窮地|きゅうち}⟦を→を：00422_wo⟧⟦{脱|だっ}する→脱する：28650_dassuru⟧⟦{方法|ほうほう}→方法：03621_houhou⟧⟦を→を：00422_wo⟧⟦{探|さが}している→探す：00493_sagasu⟧。",
       "english": "I'm looking for a way to escape this predicament.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "08684_kyuuchi_ex3",
-      "japanese": "{彼|かれ}は{何度|なんど}も{窮地|きゅうち}を{乗|の}り{越|こ}えてきた。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{何度|なんど}→何度：17592_nando⟧⟦も→も：00484_mo⟧{窮地|きゅうち}⟦を→を：00422_wo⟧⟦{乗|の}り{越|こ}えて→乗り越える：04620_norikoeru⟧きた。",
       "english": "He has overcome many dire situations.",
       "sense_numbers": [
         1
@@ -43,7 +43,37 @@
       "notes": null
     }
   ],
-  "notes": "A formal word for a desperate situation from which escape seems very difficult.\n\nWORD FORMATION:\n{窮|きゅう} (cornered, exhausted) + {地|ち} (ground, position)\n\nCOMMON COLLOCATIONS:\n- {窮地|きゅうち}に{陥|おちい}る: to fall into a predicament\n- {窮地|きゅうち}に{立|た}たされる: to be placed in a tight spot\n- {窮地|きゅうち}を{脱|だっ}する: to escape a predicament\n- {窮地|きゅうち}に{追|お}い{込|こ}む: to drive someone into a corner\n- {窮地|きゅうち}を{乗|の}り{越|こ}える: to overcome a dire situation\n\nSIMILAR WORDS:\n- ピンチ: pinch, tight spot (casual, loanword)\n- {苦境|くきょう}: difficult circumstances (slightly less severe)\n- {危機|きき}: crisis (focuses on danger)\n- {窮地|きゅうち} is more literary and dramatic than ピンチ.",
+  "notes": "A formal word for a desperate situation from which escape seems very difficult.\n\nFORMS:\n{窮|きゅう} (cornered, exhausted) + {地|ち} (ground, position)\n\nCOMMON COLLOCATIONS:\n- {窮地|きゅうち}⟦に→に：00314_ni⟧⟦{陥|おちい}る→陥る：14537_ochiiru⟧: to fall into a predicament\n- {窮地|きゅうち}⟦に→に：00314_ni⟧{立|た}たされる: to be placed in a tight spot\n- {窮地|きゅうち}⟦を→を：00422_wo⟧⟦{脱|だっ}する→脱する：28650_dassuru⟧: to escape a predicament\n- {窮地|きゅうち}⟦に→に：00314_ni⟧⟦{追|お}い{込|こ}む→追い込む：06371_oikomu⟧: to drive someone into a corner\n- {窮地|きゅうち}⟦を→を：00422_wo⟧⟦{乗|の}り{越|こ}える→乗り越える：04620_norikoeru⟧: to overcome a dire situation\n\nSIMILAR WORDS:\n- ⟦ピンチ→ピンチ：11143_pinchi⟧: pinch, tight spot (casual, loanword)\n- ⟦{苦境|くきょう}→苦境：20107_kukyou⟧: difficult circumstances (slightly less severe)\n- ⟦{危機|きき}→危機：11798_kiki⟧: crisis (focuses on danger)\n- {窮地|きゅうち} is more literary and dramatic than ⟦ピンチ→ピンチ：11143_pinchi⟧.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11143_pinchi",
+      "reading": "ぴんち",
+      "headword": "ピンチ",
+      "label": "pinch, tight spot"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20107_kukyou",
+      "reading": "くきょう",
+      "headword": "{苦境|くきょう}",
+      "label": "difficult circumstances"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11798_kiki",
+      "reading": "きき",
+      "headword": "{危機|きき}",
+      "label": "crisis"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06339_zettaizetsumei",
+      "reading": "ぜったいぜつめい",
+      "headword": "{絶体絶命|ぜったいぜつめい}",
+      "label": "desperate situation"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -51,11 +81,12 @@
         "noun"
       ],
       "formality": "formal",
+      "politeness": "plain",
       "semantic": [
         "abstract"
       ]
     },
     "created": "2026-01-27T23:50:36Z",
-    "modified": "2026-08-12T12:51:44Z"
+    "modified": "2026-09-02T04:01:16Z"
   }
 }

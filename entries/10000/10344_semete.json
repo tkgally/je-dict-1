@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "10344_semete_ex1",
-      "japanese": "せめて{名前|なまえ}だけでも{教|おし}えてください。",
+      "japanese": "せめて⟦{名前|なまえ}→名前：02234_namae⟧⟦だけ→〜だけ：03093_dake⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧⟦{教|おし}えて→教える：00526_oshieru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please at least tell me your name.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "10344_semete_ex2",
-      "japanese": "{全部|ぜんぶ}は{無理|むり}でも、せめて{半分|はんぶん}は{終|お}わらせたい。",
+      "japanese": "⟦{全部|ぜんぶ}→全部：02888_zenbu⟧⟦は→は：00079_ha⟧⟦{無理|むり}→無理：01558_muri⟧で⟦も→も：00484_mo⟧、せめて⟦{半分|はんぶん}→半分：02938_hanbun⟧⟦は→は：00079_ha⟧{終|お}わらせたい。",
       "english": "Even if I can't do it all, I want to at least finish half.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "10344_semete_ex3",
-      "japanese": "{会|あ}えないなら、せめて{電話|でんわ}で{声|こえ}だけでも{聞|き}かせてほしい。",
+      "japanese": "⟦{会|あ}えない→会う：00482_au⟧なら、せめて⟦{電話|でんわ}→電話：01471_denwa⟧⟦で→で：00502_de⟧⟦{声|こえ}→声：02207_koe⟧⟦だけ→〜だけ：03093_dake⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧⟦{聞|き}かせて→聞く：00483_kiku⟧ほしい。",
       "english": "If we can't meet, I'd at least like to hear your voice on the phone.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "せめて expresses the speaker's wish for at least a minimum outcome when the ideal is impossible. It carries a tone of resignation mixed with hope.\n\nCOMMON PATTERNS:\n- せめて〜だけでも: at least just ...\n- せめて〜くらい（は）: at least about ...\n- せめて〜たい: I at least want to ...\n- せめてもの: the least one can do (as a small consolation)\n\nUSAGE:\nAlways implies that the speaker has given up on the full wish and is settling for less. The sentence typically contains a concession or contrast. Often paired with だけでも or くらい to emphasize the modesty of the request.\n\nSIMILAR WORDS:\n- {少|すく}なくとも: at least (stating a factual minimum)\n- せめて: at least (expressing a wish or hope)\n\n{少|すく}なくとも is objective; せめて is emotional and subjective.",
+  "notes": "せめて expresses the speaker's wish for at least a minimum outcome when the ideal is impossible. It carries a tone of resignation mixed with hope.\n\nCOMMON PATTERNS:\n- せめて〜⟦だけ→〜だけ：03093_dake⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧: at least just ...\n- せめて〜くらい（は）: at least about ...\n- せめて〜たい: I at least want to ...\n- せめてもの: the least one can do (as a small consolation)\n\nUSAGE:\nAlways implies that the speaker has given up on the full wish and is settling for less. The sentence typically contains a concession or contrast. Often paired with ⟦だけ→〜だけ：03093_dake⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧ or くらい to emphasize the modesty of the request.\n\nSIMILAR WORDS:\n- ⟦{少|すく}なく→少ない：01136_sukunai⟧とも: at least (stating a factual minimum)\n- せめて: at least (expressing a wish or hope)\n\n⟦{少|すく}なく→少ない：01136_sukunai⟧とも is objective; せめて is emotional and subjective.",
   "cross_references": [
     {
       "type": "contrast",
@@ -52,17 +52,32 @@
       "reading": "すくなくとも",
       "headword": "{少|すく}なくとも",
       "label": "at least (objective)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03288_seizei",
+      "reading": "せいぜい",
+      "headword": "{精々|せいぜい}",
+      "label": "at most, at best"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22821_madashimo",
+      "reading": "まだしも",
+      "headword": "まだしも",
+      "label": "would still be acceptable"
     }
   ],
   "metadata": {
     "created": "2026-02-07T06:48:21Z",
-    "modified": "2026-04-24T06:24:12Z",
+    "modified": "2026-09-02T04:01:20Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "adverb"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "degree-extent"
       ]

@@ -34,7 +34,7 @@
     },
     {
       "id": "01166_nusumu_ex3",
-      "japanese": "⟦{人|ひと}→人：00476_hito⟧⟦の→の：09472_no⟧⟦もの→物：02259_mono⟧⟦を→を：00422_wo⟧{盗|ぬす}んではいけない。",
+      "japanese": "⟦{人|ひと}→人：00476_hito⟧⟦の→の：09472_no⟧⟦もの→物：02259_mono⟧⟦を→を：00422_wo⟧{盗|ぬす}んで⟦は→は：00079_ha⟧いけない。",
       "english": "You must not steal other people's things.",
       "notes": null,
       "has_audio": false,
@@ -43,11 +43,47 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive). Pattern: X⟦を→を：00422_wo⟧{盗|ぬす}む (steal X).\n\nASPECT: ている indicates completed action. {盗|ぬす}んでいる = 'has stolen.'\n\nCOMMON PATTERNS:\n・⟦{物|もの}→物：02259_mono⟧⟦を→を：00422_wo⟧{盗|ぬす}む (steal things)\n・{盗|ぬす}まれる (be stolen—passive, very common)\n・⟦こっそり→こっそり：05890_kossori⟧{盗|ぬす}む (steal stealthily)\n・{盗|ぬす}み⟦{見|み}る→見る：00283_miru⟧ (peep, peek)\n・{盗|ぬす}み⟦{聞|ぎ}き→聞く：00483_kiku⟧ (eavesdropping)\n\nRELATED:\n・⟦{泥棒|どろぼう}→泥棒：01688_dorobou⟧ (thief, burglar)\n・⟦{窃盗|せっとう}→窃盗：15280_settou⟧ (theft—formal/legal term)\n・⟦{盗難|とうなん}→盗難：04562_tounan⟧ (theft, robbery—noun)\n\nPASSIVE USAGE: Victims often use the passive {盗|ぬす}まれる to describe their experience:\n・⟦{自転車|じてんしゃ}→自転車：00633_jitensha⟧⟦を→を：00422_wo⟧{盗|ぬす}まれた (My bicycle was stolen)",
-  "cross_references": [],
+  "notes": "TRANSITIVITY: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive). Pattern: X⟦を→を：00422_wo⟧{盗|ぬす}む (steal X).\n\nASPECT: て⟦いる→いる：00495_iru⟧ indicates completed action. {盗|ぬす}んで⟦いる→いる：00495_iru⟧ = 'has stolen.'\n\nCOMMON PATTERNS:\n- ⟦{物|もの}→物：02259_mono⟧⟦を→を：00422_wo⟧{盗|ぬす}む (steal things)\n- {盗|ぬす}まれる (be stolen—passive, very common)\n- ⟦こっそり→こっそり：05890_kossori⟧{盗|ぬす}む (steal stealthily)\n- {盗|ぬす}み⟦{見|み}る→見る：00283_miru⟧ (peep, peek)\n- {盗|ぬす}み⟦{聞|ぎ}き→聞く：00483_kiku⟧ (eavesdropping)\n\nRELATED WORDS:\n- ⟦{泥棒|どろぼう}→泥棒：01688_dorobou⟧ (thief, burglar)\n- ⟦{窃盗|せっとう}→窃盗：15280_settou⟧ (theft—formal/legal term)\n- ⟦{盗難|とうなん}→盗難：04562_tounan⟧ (theft, robbery—noun)\n\nPASSIVE USAGE: Victims often use the passive {盗|ぬす}まれる to describe their experience:\n- ⟦{自転車|じてんしゃ}→自転車：00633_jitensha⟧⟦を→を：00422_wo⟧{盗|ぬす}まれた (My bicycle was stolen)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "01688_dorobou",
+      "reading": "どろぼう",
+      "headword": "{泥棒|どろぼう}",
+      "label": "thief, burglar"
+    },
+    {
+      "type": "related",
+      "target_id": "15280_settou",
+      "reading": "せっとう",
+      "headword": "{窃盗|せっとう}",
+      "label": "theft—formal/legal term"
+    },
+    {
+      "type": "related",
+      "target_id": "04562_tounan",
+      "reading": "とうなん",
+      "headword": "{盗難|とうなん}",
+      "label": "theft, robbery—noun"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20297_hittakuru",
+      "reading": "ひったくる",
+      "headword": "ひったくる",
+      "label": "to snatch away"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27221_yokodori",
+      "reading": "よこどり",
+      "headword": "{横取|よこど}り",
+      "label": "snatching away"
+    }
+  ],
   "metadata": {
     "created": "2026-01-08T12:09:11Z",
-    "modified": "2026-05-14T15:12:54Z",
+    "modified": "2026-09-02T04:00:59Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

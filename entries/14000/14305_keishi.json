@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "14305_keishi_ex1",
-      "japanese": "{安全|あんぜん}を{軽視|けいし}してはいけない。",
+      "japanese": "⟦{安全|あんぜん}→安全：01131_anzen⟧⟦を→を：00422_wo⟧{軽視|けいし}⟦して→する：00392_suru⟧⟦は→は：00079_ha⟧いけない。",
       "english": "You must not disregard safety.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "14305_keishi_ex2",
-      "japanese": "{健康|けんこう}を{軽視|けいし}した{結果|けっか}、{病気|びょうき}になった。",
+      "japanese": "⟦{健康|けんこう}→健康：02706_kenkou⟧⟦を→を：00422_wo⟧{軽視|けいし}⟦した→する：00392_suru⟧⟦{結果|けっか}→結果：02486_kekka⟧、⟦{病気|びょうき}→病気：00771_byouki⟧になった。",
       "english": "As a result of neglecting my health, I fell ill.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "14305_keishi_ex3",
-      "japanese": "{教育|きょういく}の{重要性|じゅうようせい}を{軽視|けいし}する{社会|しゃかい}に{未来|みらい}はないと{言|い}われている。",
+      "japanese": "⟦{教育|きょういく}→教育：01313_kyouiku⟧⟦の→の：09472_no⟧⟦{重要性|じゅうようせい}→重要性：04823_juuyousei⟧⟦を→を：00422_wo⟧{軽視|けいし}⟦する→する：00392_suru⟧⟦{社会|しゃかい}→社会：01427_shakai⟧⟦に→に：00314_ni⟧⟦{未来|みらい}→未来：03748_mirai⟧⟦は→は：00079_ha⟧⟦ない→ない：01118_nai⟧⟦と→と：00512_to⟧⟦{言|い}われている→言う：00515_iu⟧。",
       "english": "It is said that a society that makes light of the importance of education has no future.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "The antonym of {重視|じゅうし} (emphasis, attaching importance). Often used in formal or written contexts to criticize a lack of proper attention to something important.\n\nCOMMON COLLOCATIONS:\n- {軽視|けいし}する (to disregard, to make light of)\n- {軽視|けいし}できない (cannot be dismissed)\n- {軽視|けいし}される (to be undervalued)\n- {安全|あんぜん}{軽視|けいし} (disregard for safety)\n\nFrequently used in news, essays, and policy discussions when criticizing neglect of important issues.",
+  "notes": "The antonym of ⟦{重視|じゅうし}→重視：03341_juushi⟧ (emphasis, attaching importance). Often used in formal or written contexts to criticize a lack of proper attention to something important.\n\nCOMMON COLLOCATIONS:\n- {軽視|けいし}⟦する→する：00392_suru⟧ (to disregard, to make light of)\n- {軽視|けいし}⟦できない→できる：00557_dekiru⟧ (cannot be dismissed)\n- {軽視|けいし}⟦される→する：00392_suru⟧ (to be undervalued)\n- ⟦{安全|あんぜん}→安全：01131_anzen⟧{軽視|けいし} (disregard for safety)\n\nFrequently used in news, essays, and policy discussions when criticizing neglect of important issues.",
   "cross_references": [
     {
       "type": "antonym",
@@ -146,7 +146,7 @@
   ],
   "metadata": {
     "created": "2026-02-28T10:56:58Z",
-    "modified": "2026-04-11T01:25:09Z",
+    "modified": "2026-09-02T04:01:36Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -162,7 +162,8 @@
       "style": [
         "written"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

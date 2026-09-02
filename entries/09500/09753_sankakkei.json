@@ -23,7 +23,7 @@
     },
     {
       "id": "09753_sankakkei_ex2",
-      "japanese": "{三角形|さんかっけい}⟦の→の：09472_no⟧{面積|めんせき}⟦を→を：00422_wo⟧{求|もと}める。",
+      "japanese": "{三角形|さんかっけい}⟦の→の：09472_no⟧⟦{面積|めんせき}→面積：05330_menseki⟧⟦を→を：00422_wo⟧⟦{求|もと}める→求める：02316_motomeru⟧。",
       "english": "To calculate the area of a triangle.",
       "has_audio": false,
       "sense_numbers": [
@@ -32,7 +32,7 @@
     },
     {
       "id": "09753_sankakkei_ex3",
-      "japanese": "{正|せい}{三角形|さんかっけい}⟦は→は：00079_ha⟧{三|さん}つ⟦の→の：09472_no⟧{辺|へん}⟦が→が：00051_ga⟧{同|おな}じ{長|なが}さ⟦だ→だ：09496_da⟧。",
+      "japanese": "⟦{正|せい}→正：09511_sei⟧{三角形|さんかっけい}⟦は→は：00079_ha⟧⟦{三|さん}→三：00749_san⟧つ⟦の→の：09472_no⟧⟦{辺|へん}→辺：00937_hen⟧⟦が→が：00051_ga⟧⟦{同|おな}じ→同じ：02857_onaji⟧⟦{長|なが}さ→長さ：05326_nagasa⟧⟦だ→だ：09496_da⟧。",
       "english": "An equilateral triangle has three sides of equal length.",
       "has_audio": false,
       "sense_numbers": [
@@ -40,10 +40,10 @@
       ]
     }
   ],
-  "notes": "{三角形|さんかっけい} is the formal mathematical term for a triangle. The kanji mean \"three\" + \"angle\" + \"shape.\" In everyday speech, {三角|さんかく} is more commonly used.\n\nTYPES:\n- {正|せい}{三角形|さんかっけい}: equilateral triangle\n- {二等辺|にとうへん}{三角形|さんかっけい}: isosceles triangle\n- {直角|ちょっかく}{三角形|さんかっけい}: right triangle\n\nRELATED SHAPE TERMS:\n- {三角|さんかく}: triangle (informal/everyday), triangular\n- {四角形|しかっけい}: quadrilateral\n- {円|えん}: circle\n- {五角形|ごかっけい}: pentagon\n\nNOTE:\n{三角|さんかく} is used in everyday contexts ({三角|さんかく}のおにぎり, a triangular rice ball), while {三角形|さんかっけい} is used in math and geometry.",
+  "notes": "{三角形|さんかっけい} is the formal mathematical term for a triangle. The kanji mean \"three\" + \"angle\" + \"shape.\" In everyday speech, ⟦{三角|さんかく}→三角：04177_sankaku⟧ is more commonly used.\n\nTYPES:\n- ⟦{正|せい}→正：09511_sei⟧{三角形|さんかっけい}: equilateral triangle\n- {二等辺|にとうへん}{三角形|さんかっけい}: isosceles triangle\n- ⟦{直角|ちょっかく}→直角：05444_chokkaku⟧{三角形|さんかっけい}: right triangle\n\nRELATED SHAPE TERMS:\n- ⟦{三角|さんかく}→三角：04177_sankaku⟧: triangle (informal/everyday), triangular\n- {四角形|しかっけい}: quadrilateral\n- ⟦{円|えん}→円：00774_en⟧: circle\n- {五角形|ごかっけい}: pentagon\n\nUSAGE:\n⟦{三角|さんかく}→三角：04177_sankaku⟧ is used in everyday contexts (⟦{三角|さんかく}→三角：04177_sankaku⟧⟦の→の：09472_no⟧⟦おにぎり→おにぎり：04956_onigiri⟧, a triangular rice ball), while {三角形|さんかっけい} is used in math and geometry.",
   "metadata": {
     "created": "2026-02-03T09:58:52Z",
-    "modified": "2026-03-28T09:17:55Z",
+    "modified": "2026-09-02T04:01:19Z",
     "ai_model": "opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -64,6 +64,13 @@
       "reading": "さんかく",
       "headword": "{三角|さんかく}",
       "label": "triangle (informal, everyday)"
+    },
+    {
+      "type": "related",
+      "target_id": "00774_en",
+      "reading": "えん",
+      "headword": "{円|えん}",
+      "label": "circle"
     }
   ]
 }

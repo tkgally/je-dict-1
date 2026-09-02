@@ -14,30 +14,36 @@
   "examples": [
     {
       "id": "10115_rikishi_ex1",
-      "japanese": "{力士|りきし}に{会|あ}った。",
+      "japanese": "{力士|りきし}⟦に→に：00314_ni⟧⟦{会|あ}った→会う：00482_au⟧。",
       "english": "I met a sumo wrestler.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10115_rikishi_ex2",
-      "japanese": "{力士|りきし}は{毎日|まいにち}{稽古|けいこ}する。",
+      "japanese": "{力士|りきし}⟦は→は：00079_ha⟧⟦{毎日|まいにち}→毎日：00729_mainichi⟧⟦{稽古|けいこ}→稽古：00210_keiko⟧⟦する→する：00392_suru⟧。",
       "english": "Sumo wrestlers practice every day.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10115_rikishi_ex3",
-      "japanese": "あの{力士|りきし}は{横綱|よこづな}を{目指|めざ}している。",
+      "japanese": "⟦あの→あの：00915_ano⟧{力士|りきし}⟦は→は：00079_ha⟧⟦{横綱|よこづな}→横綱：14957_yokozuna⟧⟦を→を：00422_wo⟧⟦{目指|めざ}している→目指す：10528_mezasu⟧。",
       "english": "That sumo wrestler is aiming to become a yokozuna (grand champion).",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{力士|りきし} specifically refers to professional sumo wrestlers — those registered with the Japan Sumo Association ({日本|にほん}{相撲|すもう}{協会|きょうかい}).\n\nCOMMON COLLOCATIONS:\n- {人気|にんき}{力士|りきし}: popular sumo wrestler\n- {外国人|がいこくじん}{力士|りきし}: foreign sumo wrestler\n- {幕内|まくうち}{力士|りきし}: top-division wrestler\n- {力士|りきし}の{体|からだ}: a wrestler's body\n\nSIMILAR WORDS:\n- {相撲取|すもうと}り: sumo wrestler (casual, everyday)\n- {関取|せきとり}: ranked wrestler (only those in the {十両|じゅうりょう} division or above)\n- お{相撲|すもう}さん: sumo wrestler (polite/friendly, often used by children)\n\nCULTURAL NOTE:\n{力士|りきし} live and train in communal stables called {部屋|へや} ({相撲|すもう}{部屋|べや}). The word literally means \"strong man\" ({力|ちから} + {士|し}).",
+  "notes": "{力士|りきし} specifically refers to professional sumo wrestlers — those registered with the Japan Sumo Association (⟦{日本|にほん}→日本：03876_nihon⟧⟦{相撲|すもう}→相撲：00390_sumou⟧⟦{協会|きょうかい}→協会：11831_kyoukai⟧).\n\nCOMMON COLLOCATIONS:\n- ⟦{人気|にんき}→人気：01488_ninki⟧{力士|りきし}: popular sumo wrestler\n- ⟦{外国人|がいこくじん}→外国人：02869_gaikokujin⟧{力士|りきし}: foreign sumo wrestler\n- {幕内|まくうち}{力士|りきし}: top-division wrestler\n- {力士|りきし}⟦の→の：09472_no⟧⟦{体|からだ}→体：00784_karada⟧: a wrestler's body\n\nSIMILAR WORDS:\n- {相撲取|すもうと}り: sumo wrestler (casual, everyday)\n- ⟦{関取|せきとり}→関取：15199_sekitori⟧: ranked wrestler (only those in the {十両|じゅうりょう} division or above)\n- お⟦{相撲|すもう}→相撲：00390_sumou⟧さん: sumo wrestler (polite/friendly, often used by children)\n\nCULTURAL NOTE:\n{力士|りきし} live and train in communal stables called ⟦{部屋|へや}→部屋：00507_heya⟧ (⟦{相撲|すもう}→相撲：00390_sumou⟧{部屋|べや}). The word literally means \"strong man\" (⟦{力|ちから}→力：01661_chikara⟧ + ⟦{士|し}→〜士：28352_shi⟧).",
   "cross_references": [
     {
       "type": "related",
@@ -59,18 +65,29 @@
       "reading": "よこづな",
       "headword": "{横綱|よこづな}",
       "label": "grand champion"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15199_sekitori",
+      "reading": "せきとり",
+      "headword": "{関取|せきとり}",
+      "label": "ranked wrestler"
     }
   ],
   "metadata": {
     "created": "2026-02-05T08:37:56Z",
-    "modified": "2026-04-24T04:04:43Z",
+    "modified": "2026-09-02T04:01:20Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["occupation"]
+      "semantic": [
+        "occupation"
+      ]
     }
   }
 }

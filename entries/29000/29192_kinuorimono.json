@@ -15,39 +15,75 @@
   "examples": [
     {
       "id": "29192_kinuorimono_ex1",
-      "japanese": "{絹織物|きぬおりもの}は{肌触|はだざわ}りがいい。",
+      "japanese": "{絹織物|きぬおりもの}⟦は→は：00079_ha⟧⟦{肌触|はだざわ}り→肌触り：06637_hadazawari⟧⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧。",
       "english": "Silk fabric feels good against the skin.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29192_kinuorimono_ex2",
-      "japanese": "{西陣|にしじん}の{絹織物|きぬおりもの}は{世界的|せかいてき}に{有名|ゆうめい}だ。",
+      "japanese": "{西陣|にしじん}⟦の→の：09472_no⟧{絹織物|きぬおりもの}⟦は→は：00079_ha⟧⟦{世界的|せかいてき}→世界的：20935_sekaiteki⟧⟦に→に：00314_ni⟧⟦{有名|ゆうめい}→有名：01106_yuumei⟧だ。",
       "english": "Nishijin silk textiles are world-famous.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29192_kinuorimono_ex3",
-      "japanese": "{着物|きもの}に{使|つか}われる{絹織物|きぬおりもの}は、{職人|しょくにん}が{手|て}で{織|お}り{上|あ}げたものが{多|おお}い。",
+      "japanese": "⟦{着物|きもの}→着物：01309_kimono⟧⟦に→に：00314_ni⟧⟦{使|つか}われる→使う：00473_tsukau⟧{絹織物|きぬおりもの}⟦は→は：00079_ha⟧、⟦{職人|しょくにん}→職人：09868_shokunin⟧⟦が→が：00051_ga⟧⟦{手|て}→手：00569_te⟧⟦で→で：00502_de⟧{織|お}り{上|あ}げたもの⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "Much of the silk fabric used in kimono is hand-woven by artisans.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Japan has centuries of tradition in silk production and weaving. Major silk-weaving regions include {西陣|にしじん} (Nishijin) in Kyoto, known for {西陣織|にしじんおり}, and Kiryu in Gunma.\n\nCOMMON COLLOCATIONS:\n- {絹織物|きぬおりもの}を{織|お}る: to weave silk fabric\n- {絹織物|きぬおりもの}{産業|さんぎょう}: silk weaving industry\n- {国産|こくさん}{絹織物|きぬおりもの}: domestically produced silk fabric\n\nSIMILAR WORDS:\n- {絹布|けんぷ}: silk cloth (more technical/formal term)\n- {シルク}: silk (loanword, used broadly)",
+  "notes": "Japan has centuries of tradition in silk production and weaving. Major silk-weaving regions include {西陣|にしじん} (Nishijin) in Kyoto, known for {西陣織|にしじんおり}, and Kiryu in Gunma.\n\nCOMMON COLLOCATIONS:\n- {絹織物|きぬおりもの}⟦を→を：00422_wo⟧⟦{織|お}る→織る：04373_oru⟧: to weave silk fabric\n- {絹織物|きぬおりもの}⟦{産業|さんぎょう}→産業：01419_sangyou⟧: silk weaving industry\n- ⟦{国産|こくさん}→国産：12017_kokusan⟧{絹織物|きぬおりもの}: domestically produced silk fabric\n\nSIMILAR WORDS:\n- ⟦{絹布|けんぷ}→絹布：29606_kenpu⟧: silk cloth (more technical/formal term)\n- ⟦シルク→シルク：28530_shiruku⟧: silk (loanword, used broadly)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "29606_kenpu",
+      "reading": "けんぷ",
+      "headword": "{絹布|けんぷ}",
+      "label": "silk cloth"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28530_shiruku",
+      "reading": "しるく",
+      "headword": "シルク",
+      "label": "silk"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15572_keorimono",
+      "reading": "けおりもの",
+      "headword": "{毛織物|けおりもの}",
+      "label": "woolen fabric"
+    }
+  ],
   "metadata": {
     "created": "2026-06-12T13:41:57Z",
-    "modified": "2026-06-12T13:41:57Z",
+    "modified": "2026-09-02T04:02:36Z",
     "schema_version": "2.0",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["clothing", "culture"],
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "clothing",
+        "culture"
+      ],
       "domain": [],
       "vocabulary_tier": "general"
-    }
+    },
+    "vocabulary_tier": "general"
   }
 }

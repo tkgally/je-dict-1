@@ -15,41 +15,60 @@
   "examples": [
     {
       "id": "29990_sukuracchi_ex1",
-      "japanese": "スクラッチを{買|か}った。",
+      "japanese": "スクラッチ⟦を→を：00422_wo⟧⟦{買|か}った→買う：00489_kau⟧。",
       "english": "I bought a scratch card.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29990_sukuracchi_ex2",
-      "japanese": "コインでスクラッチを{削|けず}る。",
+      "japanese": "⟦コイン→コイン：10852_koin⟧⟦で→で：00502_de⟧スクラッチ⟦を→を：00422_wo⟧⟦{削|けず}る→削る：03922_kezuru⟧。",
       "english": "Scratch off the card with a coin.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29990_sukuracchi_ex3",
-      "japanese": "コンビニで{買|か}ったスクラッチが1000{円|えん}{当|あ}たった。",
+      "japanese": "⟦コンビニ→コンビニ：01081_konbini⟧⟦で→で：00502_de⟧⟦{買|か}った→買う：00489_kau⟧スクラッチ⟦が→が：00051_ga⟧1000⟦{円|えん}→円：00774_en⟧⟦{当|あ}たった→当たる：01860_ataru⟧。",
       "english": "The scratch card I bought at the convenience store won 1,000 yen.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "In everyday use this refers to the scratch-off lottery; the fuller form is スクラッチくじ.\n\nCOMMON COLLOCATIONS:\n- スクラッチを{削|けず}る: to scratch off a card\n- スクラッチを{買|か}う: to buy a scratch card\n- スクラッチくじ: scratch-off lottery ticket\n\nSIMILAR WORDS:\n- {宝|たから}くじ: the standard drawn-number lottery, where results come from a later drawing\n- {当|あ}たりくじ: a winning ticket",
+  "notes": "In everyday use this refers to the scratch-off lottery; the fuller form is スクラッチくじ.\n\nCOMMON COLLOCATIONS:\n- スクラッチ⟦を→を：00422_wo⟧⟦{削|けず}る→削る：03922_kezuru⟧: to scratch off a card\n- スクラッチ⟦を→を：00422_wo⟧⟦{買|か}う→買う：00489_kau⟧: to buy a scratch card\n- スクラッチくじ: scratch-off lottery ticket\n\nSIMILAR WORDS:\n- ⟦{宝|たから}くじ→宝くじ：18549_takarakuji⟧: the standard drawn-number lottery, where results come from a later drawing\n- {当|あ}たりくじ: a winning ticket",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18549_takarakuji",
+      "reading": "たからくじ",
+      "headword": "{宝|たから}くじ",
+      "label": "the standard drawn-number lottery…"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["leisure"],
+      "politeness": "plain",
+      "semantic": [
+        "leisure"
+      ],
       "domain": []
     },
     "created": "2026-07-20T06:17:59Z",
-    "modified": "2026-07-20T06:17:59Z"
+    "modified": "2026-09-02T04:02:38Z"
   }
 }

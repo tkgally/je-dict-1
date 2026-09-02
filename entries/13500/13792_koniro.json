@@ -15,41 +15,80 @@
   "examples": [
     {
       "id": "13792_koniro_ex1",
-      "japanese": "{紺色|こんいろ}のスーツを{着|き}ている。",
+      "japanese": "{紺色|こんいろ}⟦の→の：09472_no⟧⟦スーツ→スーツ：01367_suutsu⟧⟦を→を：00422_wo⟧⟦{着|き}ている→着る：00541_kiru⟧。",
       "english": "I'm wearing a navy blue suit.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13792_koniro_ex2",
-      "japanese": "{学校|がっこう}の{制服|せいふく}は{紺色|こんいろ}だった。",
+      "japanese": "⟦{学校|がっこう}→学校：00055_gakkou⟧⟦の→の：09472_no⟧⟦{制服|せいふく}→制服：03086_seifuku⟧⟦は→は：00079_ha⟧{紺色|こんいろ}だった。",
       "english": "The school uniform was navy blue.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13792_koniro_ex3",
-      "japanese": "{紺色|こんいろ}は{日本|にほん}で{最|もっと}もフォーマルな{色|いろ}のひとつとされている。",
+      "japanese": "{紺色|こんいろ}⟦は→は：00079_ha⟧⟦{日本|にほん}→日本：03876_nihon⟧⟦で→で：00502_de⟧⟦{最|もっと}も→最も：01736_mottomo⟧⟦フォーマル→フォーマル：11294_foomaru⟧な⟦{色|いろ}→色：00849_iro⟧⟦の→の：09472_no⟧ひとつ⟦と→と：00512_to⟧⟦されている→する：00392_suru⟧。",
       "english": "Navy blue is considered one of the most formal colors in Japan.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nCan function as a no-adjective: {紺色|こんいろ}の + noun. Often shortened to {紺|こん} in casual speech or compounds.\n\nCOMMON COLLOCATIONS:\n- {紺色|こんいろ}のスーツ: navy blue suit\n- {紺色|こんいろ}の{制服|せいふく}: navy blue uniform\n- {濃|こ}い{紺色|こんいろ}: deep navy blue\n\nCULTURE:\n{紺色|こんいろ} is one of the traditional Japanese colors ({和色|わしょく}), produced through repeated indigo ({藍|あい}) dyeing. It has long been a popular color in Japan and is sometimes called \"{紺|こん}は{藍|あい}より{出|い}でて{藍|あい}より{青|あお}し,\" a proverb meaning the student surpasses the master.",
-  "cross_references": [],
+  "notes": "USAGE:\nCan function as a no-adjective: {紺色|こんいろ}⟦の→の：09472_no⟧ + noun. Often shortened to ⟦{紺|こん}→紺：03885_kon⟧ in casual speech or compounds.\n\nCOMMON COLLOCATIONS:\n- {紺色|こんいろ}⟦の→の：09472_no⟧⟦スーツ→スーツ：01367_suutsu⟧: navy blue suit\n- {紺色|こんいろ}⟦の→の：09472_no⟧⟦{制服|せいふく}→制服：03086_seifuku⟧: navy blue uniform\n- ⟦{濃|こ}い→濃い：02344_koi⟧{紺色|こんいろ}: deep navy blue\n\nCULTURAL NOTE:\n{紺色|こんいろ} is one of the traditional Japanese colors ({和色|わしょく}), produced through repeated indigo (⟦{藍|あい}→藍：20100_ai⟧) dyeing. It has long been a popular color in Japan and is sometimes called \"⟦{紺|こん}→紺：03885_kon⟧⟦は→は：00079_ha⟧⟦{藍|あい}→藍：20100_ai⟧⟦より→より：09476_yori⟧{出|い}でて⟦{藍|あい}→藍：20100_ai⟧⟦より→より：09476_yori⟧⟦{青|あお}→青：02841_ao⟧し,\" a proverb meaning the student surpasses the master.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20488_gunjouiro",
+      "reading": "ぐんじょういろ",
+      "headword": "{群青色|ぐんじょういろ}",
+      "label": "ultramarine"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22937_aoiro",
+      "reading": "あおいろ",
+      "headword": "{青色|あおいろ}",
+      "label": "blue"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22958_ruriiro",
+      "reading": "るりいろ",
+      "headword": "{瑠璃色|るりいろ}",
+      "label": "lapis lazuli blue"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25473_sorairo",
+      "reading": "そらいろ",
+      "headword": "{空色|そらいろ}",
+      "label": "sky blue"
+    }
+  ],
   "metadata": {
     "created": "2026-02-27T04:10:33Z",
-    "modified": "2026-02-27T04:10:33Z",
+    "modified": "2026-09-02T04:01:34Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["color"]
+      "semantic": [
+        "color"
+      ]
     }
   }
 }

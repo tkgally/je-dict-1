@@ -34,7 +34,7 @@
     },
     {
       "id": "01095_wake_ex2",
-      "japanese": "そういう{訳|わけ}⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦ありません→ある：00006_aru⟧。",
+      "japanese": "⟦そういう→そういう：09579_souiu⟧{訳|わけ}⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦ありません→ある：00006_aru⟧。",
       "english": "That's not what I mean. / It's not like that.",
       "notes": "Common expression",
       "has_audio": false,
@@ -155,7 +155,7 @@
     },
     {
       "id": "01095_wake_ex14",
-      "japanese": "⟦{簡単|かんたん}→簡単：00713_kantan⟧⟦に→に：00314_ni⟧⟦{できる|できる}→できる：00557_dekiru⟧{訳|わけ}⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧。",
+      "japanese": "⟦{簡単|かんたん}→簡単：00713_kantan⟧⟦に→に：00314_ni⟧⟦できる→できる：00557_dekiru⟧{訳|わけ}⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧。",
       "english": "There's no way it can be done easily.",
       "notes": null,
       "has_audio": false,
@@ -184,7 +184,7 @@
       ]
     }
   ],
-  "notes": "{訳|わけ} has multiple uses: as a noun meaning \"reason\" or \"meaning,\" and as a grammatical element in set patterns that explain or evaluate situations.\n\nKEY PATTERNS:\n- ～{訳|わけ}⟦だ→だ：09496_da⟧: that's why, it means that (draws a logical conclusion)\n- ～{訳|わけ}⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦ない→ない：01118_nai⟧: it's not that ~, it doesn't mean that ~ (partial denial)\n- ～{訳|わけ}⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧: there's no way that ~ (strong denial of possibility)\n- ～{訳|わけ}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦いかない→行く：00119_iku⟧: cannot possibly ~ (due to social/moral reasons)\n- ～⟦という→という：09577_toiu⟧{訳|わけ}⟦だ→だ：09496_da⟧: the thing is, what it means is\n\nCOMMON EXPRESSIONS:\n- {訳|わけ}⟦が→が：00051_ga⟧⟦{分|わ}からない→分かる：00463_wakaru⟧: incomprehensible, makes no sense\n- {訳|わけ}⟦も→も：00484_mo⟧⟦なく→ない：01118_nai⟧: for no reason, without cause\n\nSIMILAR WORDS:\n- {訳|わけ}: reason (often grammaticalized, used in patterns)\n- ⟦{理由|りゆう}→理由：01102_riyuu⟧: reason (more formal, standalone noun)\n- ⟦{原因|げんいん}→原因：01400_genin⟧: cause (objective, technical)\n\nOften written in hiragana わけ rather than kanji, especially in grammatical patterns.",
+  "notes": "{訳|わけ} has multiple uses: as a noun meaning \"reason\" or \"meaning,\" and as a grammatical element in set patterns that explain or evaluate situations.\n\nCOMMON PATTERNS:\n- ～{訳|わけ}⟦だ→だ：09496_da⟧: that's why, it means that (draws a logical conclusion)\n- ～{訳|わけ}⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦ない→ない：01118_nai⟧: it's not that ~, it doesn't mean that ~ (partial denial)\n- ～{訳|わけ}⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧: there's no way that ~ (strong denial of possibility)\n- ～{訳|わけ}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦いかない→行く：00119_iku⟧: cannot possibly ~ (due to social/moral reasons)\n- ～⟦という→という：09577_toiu⟧{訳|わけ}⟦だ→だ：09496_da⟧: the thing is, what it means is\n\nCOMMON EXPRESSIONS:\n- {訳|わけ}⟦が→が：00051_ga⟧⟦{分|わ}からない→分かる：00463_wakaru⟧: incomprehensible, makes no sense\n- {訳|わけ}⟦も→も：00484_mo⟧⟦なく→ない：01118_nai⟧: for no reason, without cause\n\nSIMILAR WORDS:\n- {訳|わけ}: reason (often grammaticalized, used in patterns)\n- ⟦{理由|りゆう}→理由：01102_riyuu⟧: reason (more formal, standalone noun)\n- ⟦{原因|げんいん}→原因：01400_genin⟧: cause (objective, technical)\n\nOften written in hiragana わけ rather than kanji, especially in grammatical patterns.",
   "cross_references": [
     {
       "type": "synonym",
@@ -192,11 +192,18 @@
       "reading": "りゆう",
       "headword": "{理由|りゆう}",
       "label": "reason (formal)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01400_genin",
+      "reading": "げんいん",
+      "headword": "{原因|げんいん}",
+      "label": "cause"
     }
   ],
   "metadata": {
     "created": "2026-01-07T12:24:04Z",
-    "modified": "2026-05-13T23:19:17Z",
+    "modified": "2026-09-02T04:00:58Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "core",
     "tags": {

@@ -78,7 +78,7 @@
       ]
     }
   ],
-  "notes": "{文章|ぶんしょう} refers to written text, passages, or writing style.\n\nKANJI BREAKDOWN:\n⟦{文|ぶん}→文：03716_bun⟧ (writing, sentence) + {章|しょう} (chapter, section)\n\nHIERARCHY OF TEXT:\n- ⟦{字|じ}→字：01606_ji⟧: character\n- {語|ご}/⟦{単語|たんご}→単語：03413_tango⟧: word\n- ⟦{文|ぶん}→文：03716_bun⟧: sentence\n- {文章|ぶんしょう}: text/passage\n- ⟦{段落|だんらく}→段落：14932_danraku⟧: paragraph\n\nCOMMON EXPRESSIONS:\n- {文章|ぶんしょう}⟦を→を：00422_wo⟧⟦{書|か}く→書く：00477_kaku⟧: to write text\n- {文章|ぶんしょう}⟦を→を：00422_wo⟧⟦{読|よ}む→読む：00426_yomu⟧: to read a passage\n- {文章|ぶんしょう}{力|りょく}: writing ability\n- {文章|ぶんしょう}⟦{構成|こうせい}→構成：02729_kousei⟧: text structure\n\nRELATED WORDS:\n- ⟦{作文|さくぶん}→作文：02884_sakubun⟧: composition, essay\n- ⟦{論文|ろんぶん}→論文：03787_ronbun⟧: thesis, paper\n- ⟦{文体|ぶんたい}→文体：12931_buntai⟧: writing style",
+  "notes": "{文章|ぶんしょう} refers to written text, passages, or writing style.\n\nWRITING:\n⟦{文|ぶん}→文：03716_bun⟧ (writing, sentence) + ⟦{章|しょう}→章：03768_shou⟧ (chapter, section)\n\nHIERARCHY OF TEXT:\n- ⟦{字|じ}→字：01606_ji⟧: character\n- ⟦{語|ご}→〜語：09841_go⟧/⟦{単語|たんご}→単語：03413_tango⟧: word\n- ⟦{文|ぶん}→文：03716_bun⟧: sentence\n- {文章|ぶんしょう}: text/passage\n- ⟦{段落|だんらく}→段落：14932_danraku⟧: paragraph\n\nCOMMON EXPRESSIONS:\n- {文章|ぶんしょう}⟦を→を：00422_wo⟧⟦{書|か}く→書く：00477_kaku⟧: to write text\n- {文章|ぶんしょう}⟦を→を：00422_wo⟧⟦{読|よ}む→読む：00426_yomu⟧: to read a passage\n- {文章|ぶんしょう}{力|りょく}: writing ability\n- {文章|ぶんしょう}⟦{構成|こうせい}→構成：02729_kousei⟧: text structure\n\nRELATED WORDS:\n- ⟦{作文|さくぶん}→作文：02884_sakubun⟧: composition, essay\n- ⟦{論文|ろんぶん}→論文：03787_ronbun⟧: thesis, paper\n- ⟦{文体|ぶんたい}→文体：12931_buntai⟧: writing style",
   "cross_references": [
     {
       "type": "related",
@@ -93,11 +93,32 @@
       "reading": "ろんぶん",
       "headword": "{論文|ろんぶん}",
       "label": "thesis, paper"
+    },
+    {
+      "type": "related",
+      "target_id": "12931_buntai",
+      "reading": "ぶんたい",
+      "headword": "{文体|ぶんたい}",
+      "label": "writing style"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24051_kakiburi",
+      "reading": "かきぶり",
+      "headword": "{書|か}きぶり",
+      "label": "writing style, manner of writing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30549_choubun",
+      "reading": "ちょうぶん",
+      "headword": "{長文|ちょうぶん}",
+      "label": "a long passage of text"
     }
   ],
   "metadata": {
     "created": "2026-01-11T10:10:00Z",
-    "modified": "2026-05-22T23:35:00Z",
+    "modified": "2026-09-02T04:01:02Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

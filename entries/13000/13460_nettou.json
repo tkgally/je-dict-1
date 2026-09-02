@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "13460_nettou_ex1",
-      "japanese": "{熱湯|ねっとう}を{注|そそ}いでください。",
+      "japanese": "{熱湯|ねっとう}⟦を→を：00422_wo⟧⟦{注|そそ}いで→注ぐ：02124_sosogu⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please pour in boiling water.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "13460_nettou_ex2",
-      "japanese": "カップ{麺|めん}に{熱湯|ねっとう}を{入|い}れて3{分|ぷん}{待|ま}つ。",
+      "japanese": "⟦カップ→カップ：01077_kappu⟧⟦{麺|めん}→麺：14644_men⟧⟦に→に：00314_ni⟧{熱湯|ねっとう}⟦を→を：00422_wo⟧⟦{入|い}れて→入れる：01098_ireru⟧3{分|ぷん}⟦{待|ま}つ→待つ：00469_matsu⟧。",
       "english": "Pour boiling water into the cup noodles and wait three minutes.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "13460_nettou_ex3",
-      "japanese": "{熱湯|ねっとう}でやけどしないように{気|き}をつけてください。",
+      "japanese": "{熱湯|ねっとう}⟦で→で：00502_de⟧やけど⟦しない→する：00392_suru⟧よう⟦に→に：00314_ni⟧{気|き}をつけて⟦ください→ください：02899_kudasai⟧。",
       "english": "Please be careful not to burn yourself with the boiling water.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nCommonly seen on instant food packaging and in cooking instructions. Distinct from お{湯|ゆ} (hot water), which can refer to water of any warm temperature. {熱湯|ねっとう} specifically means water at or very near 100°C.\n\nCOMMON COLLOCATIONS:\n- {熱湯|ねっとう}を{注|そそ}ぐ: to pour boiling water\n- {熱湯|ねっとう}を{沸|わ}かす: to bring water to a boil\n- {熱湯|ねっとう}{消毒|しょうどく}: sterilization with boiling water\n- {熱湯|ねっとう}に{通|とお}す: to blanch in boiling water",
+  "notes": "USAGE:\nCommonly seen on instant food packaging and in cooking instructions. Distinct from ⟦お{湯|ゆ}→お湯：02518_oyu⟧ (hot water), which can refer to water of any warm temperature. {熱湯|ねっとう} specifically means water at or very near 100°C.\n\nCOMMON COLLOCATIONS:\n- {熱湯|ねっとう}⟦を→を：00422_wo⟧⟦{注|そそ}ぐ→注ぐ：02124_sosogu⟧: to pour boiling water\n- {熱湯|ねっとう}⟦を→を：00422_wo⟧⟦{沸|わ}かす→沸かす：01105_wakasu⟧: to bring water to a boil\n- {熱湯|ねっとう}⟦{消毒|しょうどく}→消毒：07591_shoudoku⟧: sterilization with boiling water\n- {熱湯|ねっとう}⟦に→に：00314_ni⟧⟦{通|とお}す→通す：02300_toosu⟧: to blanch in boiling water",
   "cross_references": [
     {
       "type": "contrast",
@@ -52,11 +52,18 @@
       "reading": "おゆ",
       "headword": "お{湯|ゆ}",
       "label": "hot water (any temperature)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27514_onsui",
+      "reading": "おんすい",
+      "headword": "{温水|おんすい}",
+      "label": "warm water"
     }
   ],
   "metadata": {
     "created": "2026-02-24T13:29:04Z",
-    "modified": "2026-07-15T09:17:48Z",
+    "modified": "2026-09-02T04:01:33Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

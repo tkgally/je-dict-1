@@ -39,7 +39,7 @@
     },
     {
       "id": "01671_aikawarazu_ex3",
-      "japanese": "⟦{久|ひさ}しぶり→久しぶり：01711_hisashiburi⟧⟦に→に：00314_ni⟧⟦{会|あ}った→会う：00482_au⟧が、⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧{相変|あいか}わらず⟦{明|あか}るくて→明るい：00616_akarui⟧⟦{優|やさ}しかった→優しい：02640_yasashii⟧。",
+      "japanese": "⟦{久|ひさ}しぶり→久しぶり：01711_hisashiburi⟧⟦に→に：00314_ni⟧⟦{会|あ}った→会う：00482_au⟧⟦が→が：00051_ga⟧、⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧{相変|あいか}わらず⟦{明|あか}るくて→明るい：00616_akarui⟧⟦{優|やさ}しかった→優しい：02640_yasashii⟧。",
       "english": "I saw her after a long time, and she was cheerful and kind as always.",
       "notes": null,
       "has_audio": false,
@@ -78,11 +78,40 @@
       ]
     }
   ],
-  "notes": "{相変|あいか}わらず indicates something continues unchanged.\n\nPOSITION: Usually placed at the beginning of a clause or before adjectives/verbs.\n\nCOMMON PATTERNS:\n- {相変|あいか}わらず + adjective/verb\n- {相変|あいか}わらず⟦の→の：09472_no⟧ + noun\n\nNUANCE:\nCan have neutral, positive, or slightly negative connotations depending on context. Sometimes implies 'same old, same old.'\n\nSIMILAR WORDS:\n- ⟦いつも→いつも：00599_itsumo⟧⟦{通|どお}り→どおり：09884_doori⟧: as usual (neutral)\n- {相変|あいか}わらず: as always (slightly stronger continuity)",
-  "cross_references": [],
+  "notes": "{相変|あいか}わらず indicates something continues unchanged.\n\nPOSITION: Usually placed at the beginning of a clause or before adjectives/verbs.\n\nCOMMON PATTERNS:\n- {相変|あいか}わらず + adjective/verb\n- {相変|あいか}わらず⟦の→の：09472_no⟧ + noun\n\nUSAGE:\nCan have neutral, positive, or slightly negative connotations depending on context. Sometimes implies 'same old, same old.'\n\nSIMILAR WORDS:\n- ⟦いつも→いつも：00599_itsumo⟧⟦{通|どお}り→どおり：09884_doori⟧: as usual (neutral)\n- {相変|あいか}わらず: as always (slightly stronger continuity)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01719_izen",
+      "reading": "いぜん",
+      "headword": "{依然|いぜん}",
+      "label": "still, as before"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16358_izentoshite",
+      "reading": "いぜんとして",
+      "headword": "{依然|いぜん}として",
+      "label": "still"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20772_imademo",
+      "reading": "いまでも",
+      "headword": "{今|いま}でも",
+      "label": "even now"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22078_izendoori",
+      "reading": "いぜんどおり",
+      "headword": "{以前|いぜん}{通|どお}り",
+      "label": "as before"
+    }
+  ],
   "metadata": {
     "created": "2026-01-09T11:57:15Z",
-    "modified": "2026-05-16T15:22:59Z",
+    "modified": "2026-09-02T04:01:00Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

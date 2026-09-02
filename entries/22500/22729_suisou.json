@@ -3,7 +3,7 @@
   "headword": "{吹奏|すいそう}",
   "reading": "すいそう",
   "romaji": "suisou",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "playing wind instruments; wind instrument performance",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22729_suisou_ex1",
-      "japanese": "トランペットを{吹奏|すいそう}する。",
+      "japanese": "⟦トランペット→トランペット：07541_toranpetto⟧⟦を→を：00422_wo⟧{吹奏|すいそう}⟦する→する：00392_suru⟧。",
       "english": "To play the trumpet.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22729_suisou_ex2",
-      "japanese": "{吹奏楽部|すいそうがくぶ}に{入|はい}った。",
+      "japanese": "⟦{吹奏楽部|すいそうがくぶ}→吹奏楽部：27464_suisougakubu⟧⟦に→に：00314_ni⟧⟦{入|はい}った→入る：00494_hairu⟧。",
       "english": "I joined the concert band club.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22729_suisou_ex3",
-      "japanese": "{学校|がっこう}の{文化祭|ぶんかさい}で{吹奏楽|すいそうがく}の{演奏|えんそう}が{行|おこな}われた。",
+      "japanese": "⟦{学校|がっこう}→学校：00055_gakkou⟧⟦の→の：09472_no⟧⟦{文化祭|ぶんかさい}→文化祭：05589_bunkasai⟧⟦で→で：00502_de⟧⟦{吹奏楽|すいそうがく}→吹奏楽：07535_suisougaku⟧⟦の→の：09472_no⟧⟦{演奏|えんそう}→演奏：01896_ensou⟧⟦が→が：00051_ga⟧⟦{行|おこな}われた→行う：01238_okonau⟧。",
       "english": "A concert band performance took place at the school cultural festival.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {吹|すい} (to blow) + {奏|そう} (to play music). Most commonly appears in the compound {吹奏楽|すいそうがく} (wind ensemble music / concert band). School concert bands ({吹奏楽部|すいそうがくぶ}, often abbreviated as {吹部|すいぶ}) are one of the most popular extracurricular activities in Japanese middle and high schools.\n\nCOMMON COLLOCATIONS:\n- {吹奏楽|すいそうがく}: concert band, wind ensemble music\n- {吹奏楽部|すいそうがくぶ}: concert band club\n- {吹奏楽|すいそうがく}コンクール: concert band competition\n- {吹奏|すいそう}する: to play (a wind instrument)\n\nRELATED TERMS:\n- {演奏|えんそう}: musical performance — general term for playing any instrument\n- {管楽器|かんがっき}: wind instrument — the instruments themselves\n- ブラスバンド: brass band — sometimes used interchangeably with {吹奏楽|すいそうがく}, though technically refers only to brass instruments",
+  "notes": "A compound of {吹|すい} (to blow) + {奏|そう} (to play music). Most commonly appears in the compound ⟦{吹奏楽|すいそうがく}→吹奏楽：07535_suisougaku⟧ (wind ensemble music / concert band). School concert bands (⟦{吹奏楽部|すいそうがくぶ}→吹奏楽部：27464_suisougakubu⟧, often abbreviated as {吹部|すいぶ}) are one of the most popular extracurricular activities in Japanese middle and high schools.\n\nCOMMON COLLOCATIONS:\n- ⟦{吹奏楽|すいそうがく}→吹奏楽：07535_suisougaku⟧: concert band, wind ensemble music\n- ⟦{吹奏楽部|すいそうがくぶ}→吹奏楽部：27464_suisougakubu⟧: concert band club\n- ⟦{吹奏楽|すいそうがく}→吹奏楽：07535_suisougaku⟧⟦コンクール→コンクール：28795_konkuuru⟧: concert band competition\n- {吹奏|すいそう}⟦する→する：00392_suru⟧: to play (a wind instrument)\n\nRELATED WORDS:\n- ⟦{演奏|えんそう}→演奏：01896_ensou⟧: musical performance — general term for playing any instrument\n- ⟦{管楽器|かんがっき}→管楽器：07533_kangakki⟧: wind instrument — the instruments themselves\n- ⟦ブラスバンド→ブラスバンド：23427_burasubando⟧: brass band — sometimes used interchangeably with ⟦{吹奏楽|すいそうがく}→吹奏楽：07535_suisougaku⟧, though technically refers only to brass instruments",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "01896_ensou",
+      "reading": "えんそう",
+      "headword": "{演奏|えんそう}",
+      "label": "musical performance"
+    },
+    {
+      "type": "related",
+      "target_id": "07533_kangakki",
+      "reading": "かんがっき",
+      "headword": "{管楽器|かんがっき}",
+      "label": "wind instrument"
+    },
+    {
+      "type": "related",
+      "target_id": "23427_burasubando",
+      "reading": "ぶらすばんど",
+      "headword": "ブラスバンド",
+      "label": "brass band"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,10 +83,11 @@
       "domain": [],
       "formality": "neutral",
       "politeness": "plain",
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-04-07T12:43:19Z",
-    "modified": "2026-08-01T06:41:09Z"
+    "modified": "2026-09-02T04:02:09Z"
   },
   "conjugation": {
     "type": "suru",

@@ -10,13 +10,13 @@
     {
       "sense_number": 1,
       "gloss": "MSRP; manufacturer's suggested retail price",
-      "explanation": "The price that a manufacturer recommends retailers charge for a product. Often printed on product packaging or in catalogs. Actual store prices may differ. Abbreviated as {希望|きぼう}{小売価格|こうりかかく} or sometimes as {メーカー}{希望|きぼう}{小売価格|こうりかかく} (manufacturer's suggested retail price)."
+      "explanation": "The price that a manufacturer recommends retailers charge for a product. Often printed on product packaging or in catalogs. Actual store prices may differ. Abbreviated as {希望|きぼう}{小売価格|こうりかかく} or sometimes as メーカー{希望|きぼう}{小売価格|こうりかかく} (manufacturer's suggested retail price)."
     }
   ],
   "examples": [
     {
       "id": "29233_kiboukourikakaku_ex1",
-      "japanese": "{希望小売価格|きぼうこうりかかく}は5,000{円|えん}です。",
+      "japanese": "{希望小売価格|きぼうこうりかかく}⟦は→は：00079_ha⟧5,000⟦{円|えん}→円：00774_en⟧です。",
       "english": "The suggested retail price is 5,000 yen.",
       "sense_numbers": [
         1
@@ -26,7 +26,7 @@
     },
     {
       "id": "29233_kiboukourikakaku_ex2",
-      "japanese": "{希望小売価格|きぼうこうりかかく}より{安|やす}く{売|う}っている{店|みせ}を{見|み}つけた。",
+      "japanese": "{希望小売価格|きぼうこうりかかく}⟦より→より：09476_yori⟧⟦{安|やす}く→安い：00464_yasui⟧⟦{売|う}っている→売る：00906_uru⟧⟦{店|みせ}→店：00497_mise⟧⟦を→を：00422_wo⟧⟦{見|み}つけた→見つける：01180_mitsukeru⟧。",
       "english": "I found a store selling it for less than the suggested retail price.",
       "sense_numbers": [
         1
@@ -36,7 +36,7 @@
     },
     {
       "id": "29233_kiboukourikakaku_ex3",
-      "japanese": "このカメラの{希望小売価格|きぼうこうりかかく}は{税込|ぜいこ}みで{八万円|はちまんえん}だが、{実際|じっさい}の{販売価格|はんばいかかく}はそれより{低|ひく}いことが{多|おお}い。",
+      "japanese": "⟦この→この：00962_kono⟧⟦カメラ→カメラ：04417_kamera⟧⟦の→の：09472_no⟧{希望小売価格|きぼうこうりかかく}⟦は→は：00079_ha⟧{税込|ぜいこ}み⟦で→で：00502_de⟧{八万円|はちまんえん}だ⟦が→が：00051_ga⟧、⟦{実際|じっさい}→実際：02502_jissai⟧⟦の→の：09472_no⟧⟦{販売価格|はんばいかかく}→販売価格：24607_hanbaikakaku⟧⟦は→は：00079_ha⟧⟦それ→それ：00994_sore⟧⟦より→より：09476_yori⟧⟦{低|ひく}い→低い：02947_hikui⟧こと⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "The MSRP for this camera is 80,000 yen including tax, but the actual selling price is often lower.",
       "sense_numbers": [
         1
@@ -45,11 +45,33 @@
       "notes": null
     }
   ],
-  "notes": "Literally 'desired retail price.' Seen on product packaging, in catalogs, and on manufacturers' websites. Retailers are not required to sell at this price.\n\nCOMMON COLLOCATIONS:\n- {希望小売価格|きぼうこうりかかく}（{税込|ぜいこ}み）: MSRP (tax included)\n- {希望小売価格|きぼうこうりかかく}より{安|やす}い: cheaper than MSRP\n- メーカー{希望小売価格|きぼうこうりかかく}: manufacturer's suggested retail price\n\nSIMILAR WORDS:\n- {定価|ていか}: list price; fixed price — similar concept but may imply a non-negotiable fixed price\n- {販売価格|はんばいかかく}: actual selling price — the price at which the item is actually sold",
-  "cross_references": [],
+  "notes": "Literally 'desired retail price.' Seen on product packaging, in catalogs, and on manufacturers' websites. Retailers are not required to sell at this price.\n\nCOMMON COLLOCATIONS:\n- {希望小売価格|きぼうこうりかかく}（{税込|ぜいこ}み）: MSRP (tax included)\n- {希望小売価格|きぼうこうりかかく}⟦より→より：09476_yori⟧⟦{安|やす}い→安い：00464_yasui⟧: cheaper than MSRP\n- ⟦メーカー→メーカー：11158_meekaa⟧{希望小売価格|きぼうこうりかかく}: manufacturer's suggested retail price\n\nSIMILAR WORDS:\n- ⟦{定価|ていか}→定価：04066_teika⟧: list price; fixed price — similar concept but may imply a non-negotiable fixed price\n- ⟦{販売価格|はんばいかかく}→販売価格：24607_hanbaikakaku⟧: actual selling price — the price at which the item is actually sold",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04066_teika",
+      "reading": "ていか",
+      "headword": "{定価|ていか}",
+      "label": "list price"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24607_hanbaikakaku",
+      "reading": "はんばいかかく",
+      "headword": "{販売価格|はんばいかかく}",
+      "label": "actual selling price"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26675_oroshiurikakaku",
+      "reading": "おろしうりかかく",
+      "headword": "{卸売価格|おろしうりかかく}",
+      "label": "wholesale price"
+    }
+  ],
   "metadata": {
     "created": "2026-06-13T21:30:12Z",
-    "modified": "2026-06-13T21:30:12Z",
+    "modified": "2026-09-02T04:02:36Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

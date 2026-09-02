@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "01445_seihin_ex1",
-      "japanese": "{新製品|しんせいひん}⟦を→を：00422_wo⟧⟦{発売|はつばい}した→発売する：04315_hatsubai⟧。",
+      "japanese": "⟦{新製品|しんせいひん}→新製品：18629_shinseihin⟧⟦を→を：00422_wo⟧⟦{発売|はつばい}した→発売する：04315_hatsubai⟧。",
       "english": "They released a new product.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{製品|せいひん} refers to items that have been manufactured or produced, emphasizing the production process rather than commercial sale.\n\nCONTRAST:\n- {製品|せいひん}: manufactured product (emphasis on production)\n- ⟦{商品|しょうひん}→商品：01436_shouhin⟧: merchandise (emphasis on being for sale)\n- ⟦{品物|しなもの}→品物：00886_shinamono⟧: goods, article (general term)\n\nCOMMON EXPRESSIONS:\n- ⟦{新製品|しんせいひん}→新製品：18629_shinseihin⟧: new product\n- {製品|せいひん}⟦{開発|かいはつ}→開発：06746_kaihatsu⟧: product development\n- {製品|せいひん}⟦{管理|かんり}→管理：00178_kanri⟧: product management\n- ⟦{乳製品|にゅうせいひん}→乳製品：05882_nyuuseihin⟧: dairy products\n- ⟦{工業|こうぎょう}→工業：01402_kougyou⟧{製品|せいひん}: industrial products\n\nUSAGE:\nOften used in business and industrial contexts. When discussing items in stores, ⟦{商品|しょうひん}→商品：01436_shouhin⟧ is more natural.",
+  "notes": "{製品|せいひん} refers to items that have been manufactured or produced, emphasizing the production process rather than commercial sale.\n\nSIMILAR WORDS:\n- {製品|せいひん}: manufactured product (emphasis on production)\n- ⟦{商品|しょうひん}→商品：01436_shouhin⟧: merchandise (emphasis on being for sale)\n- ⟦{品物|しなもの}→品物：00886_shinamono⟧: goods, article (general term)\n\nCOMMON EXPRESSIONS:\n- ⟦{新製品|しんせいひん}→新製品：18629_shinseihin⟧: new product\n- {製品|せいひん}⟦{開発|かいはつ}→開発：06746_kaihatsu⟧: product development\n- {製品|せいひん}⟦{管理|かんり}→管理：00178_kanri⟧: product management\n- ⟦{乳製品|にゅうせいひん}→乳製品：05882_nyuuseihin⟧: dairy products\n- ⟦{工業|こうぎょう}→工業：01402_kougyou⟧{製品|せいひん}: industrial products\n\nUSAGE:\nOften used in business and industrial contexts. When discussing items in stores, ⟦{商品|しょうひん}→商品：01436_shouhin⟧ is more natural.",
   "cross_references": [
     {
       "type": "contrast",
@@ -51,11 +51,25 @@
       "reading": "しょうひん",
       "headword": "{商品|しょうひん}",
       "label": "merchandise (for sale)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00886_shinamono",
+      "reading": "しなもの",
+      "headword": "{品物|しなもの}",
+      "label": "goods, article"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17426_kanseihin",
+      "reading": "かんせいひん",
+      "headword": "{完成品|かんせいひん}",
+      "label": "finished product"
     }
   ],
   "metadata": {
     "created": "2026-01-08T12:46:04Z",
-    "modified": "2026-05-15T17:10:22Z",
+    "modified": "2026-09-02T04:00:59Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

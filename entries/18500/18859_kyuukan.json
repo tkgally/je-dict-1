@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "18859_kyuukan_ex1",
-      "japanese": "{月曜日|げつようび}は{休館|きゅうかん}です。",
+      "japanese": "⟦{月曜日|げつようび}→月曜日：00624_getsuyoubi⟧⟦は→は：00079_ha⟧{休館|きゅうかん}です。",
       "english": "It's closed on Mondays.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "18859_kyuukan_ex2",
-      "japanese": "{休館日|きゅうかんび}を{確認|かくにん}してから{出|で}かけた{方|ほう}がいい。",
+      "japanese": "{休館日|きゅうかんび}⟦を→を：00422_wo⟧⟦{確認|かくにん}して→確認する：25332_kakuninsuru⟧⟦から→から：00504_kara⟧⟦{出|で}かけた→出かける：00833_dekakeru⟧⟦{方|ほう}→方：01139_hou⟧⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧。",
       "english": "You should check the closed days before heading out.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "18859_kyuukan_ex3",
-      "japanese": "{設備|せつび}{点検|てんけん}のため、{来週|らいしゅう}は{三日間|みっかかん}{休館|きゅうかん}となります。",
+      "japanese": "⟦{設備|せつび}→設備：03301_setsubi⟧⟦{点検|てんけん}→点検：09765_tenken⟧⟦の→の：09472_no⟧⟦ため→ため：01145_tame⟧、⟦{来週|らいしゅう}→来週：00746_raishuu⟧⟦は→は：00079_ha⟧{三日間|みっかかん}{休館|きゅうかん}となります。",
       "english": "The facility will be closed for three days next week for equipment inspection.",
       "sense_numbers": [
         1
@@ -134,11 +134,41 @@
       "notes": null
     }
   ],
-  "notes": "{休館|きゅうかん} means the temporary closure of a public facility such as a library, museum, or community hall.\n\nUSAGE:\n- Functions as a する verb and as a noun.\n- Always implies a temporary period of being closed — not permanent shutdown.\n- The compound {休館日|きゅうかんび} (closed day) appears constantly on signs and websites for public facilities.\n\nCOMMON PATTERNS:\n- {休館|きゅうかん}{日|び}: closed day (the most common compound; many museums close on Mondays)\n- {本日|ほんじつ}{休館|きゅうかん}: 'closed today'\n- {臨時|りんじ}{休館|きゅうかん}: special/temporary closure (outside the regular schedule)\n- {改装|かいそう}のため{休館|きゅうかん}{中|ちゅう}: closed for renovations\n- {年末年始|ねんまつねんし}は{休館|きゅうかん}します: closed during the New Year holidays\n\nSIMILAR WORDS:\n- {閉館|へいかん}: 'closing' (can mean the daily closing time, or — in serious cases — permanent closure of a facility).\n- {定休日|ていきゅうび}: regular closing day (the equivalent term for shops and restaurants).\n- {臨時|りんじ}{休業|きゅうぎょう}: temporary closure of a business.",
+  "notes": "{休館|きゅうかん} means the temporary closure of a public facility such as a library, museum, or community hall.\n\nUSAGE:\n- Functions as a ⟦する→する：00392_suru⟧ verb and as a noun.\n- Always implies a temporary period of being closed — not permanent shutdown.\n- The compound {休館日|きゅうかんび} (closed day) appears constantly on signs and websites for public facilities.\n\nCOMMON PATTERNS:\n- {休館|きゅうかん}{日|び}: closed day (the most common compound; many museums close on Mondays)\n- ⟦{本日|ほんじつ}→本日：09643_honjitsu⟧{休館|きゅうかん}: 'closed today'\n- ⟦{臨時|りんじ}→臨時：04092_rinji⟧{休館|きゅうかん}: special/temporary closure (outside the regular schedule)\n- ⟦{改装|かいそう}→改装：09682_kaisou⟧⟦の→の：09472_no⟧⟦ため→ため：01145_tame⟧{休館|きゅうかん}⟦{中|ちゅう}→〜中：09840_chuu⟧: closed for renovations\n- ⟦{年末年始|ねんまつねんし}→年末年始：12457_nenmatsunenshi⟧⟦は→は：00079_ha⟧{休館|きゅうかん}⟦します→する：00392_suru⟧: closed during the New Year holidays\n\nSIMILAR WORDS:\n- ⟦{閉館|へいかん}→閉館：18858_heikan⟧: 'closing' (can mean the daily closing time, or — in serious cases — permanent closure of a facility).\n- ⟦{定休日|ていきゅうび}→定休日：09541_teikyuubi⟧: regular closing day (the equivalent term for shops and restaurants).\n- ⟦{臨時|りんじ}{休業|きゅうぎょう}→臨時休業：17041_rinjikyuugyou⟧: temporary closure of a business.",
   "synonyms": [],
   "antonyms": [],
   "related": [],
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18858_heikan",
+      "reading": "へいかん",
+      "headword": "{閉館|へいかん}",
+      "label": "'closing' (can mean the daily closing…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09541_teikyuubi",
+      "reading": "ていきゅうび",
+      "headword": "{定休日|ていきゅうび}",
+      "label": "regular closing day (the equivalent…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17041_rinjikyuugyou",
+      "reading": "りんじきゅうぎょう",
+      "headword": "{臨時休業|りんじきゅうぎょう}",
+      "label": "temporary closure of a business."
+    },
+    {
+      "type": "related",
+      "target_id": "26339_kyuushitsu",
+      "reading": "きゅうしつ",
+      "headword": "{休室|きゅうしつ}",
+      "label": "room closure"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -155,6 +185,6 @@
       "verb_class": "suru"
     },
     "created": "2026-03-23T05:34:51Z",
-    "modified": "2026-04-10T13:28:57Z"
+    "modified": "2026-09-02T04:01:53Z"
   }
 }

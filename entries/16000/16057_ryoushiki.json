@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "16057_ryoushiki_ex1",
-      "japanese": "{良識|りょうしき}ある{行動|こうどう}を{取|と}る。",
+      "japanese": "{良識|りょうしき}⟦ある→ある：00006_aru⟧⟦{行動|こうどう}→行動：02728_koudou⟧⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧。",
       "english": "To act with good sense.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "16057_ryoushiki_ex2",
-      "japanese": "{社会人|しゃかいじん}としての{良識|りょうしき}が{問|と}われている。",
+      "japanese": "⟦{社会人|しゃかいじん}→社会人：13730_shakaijin⟧⟦として→として：06802_toshite⟧⟦の→の：09472_no⟧{良識|りょうしき}⟦が→が：00051_ga⟧⟦{問|と}われている→問う：02299_tou⟧。",
       "english": "One's good judgment as a member of society is being called into question.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "16057_ryoushiki_ex3",
-      "japanese": "{良識|りょうしき}のある{大人|おとな}なら、そのような{発言|はつげん}はしないだろう。",
+      "japanese": "{良識|りょうしき}⟦の→の：09472_no⟧⟦ある→ある：00006_aru⟧⟦{大人|おとな}→大人：02856_otona⟧なら、⟦そのような→そのような：30277_sonoyouna⟧⟦{発言|はつげん}→発言：05099_hatsugen⟧はしないだろう。",
       "english": "A sensible adult would not make such a remark.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{良識|りょうしき} combines {良|りょう} (good) and {識|しき} (knowledge, discernment). It often appears in formal or written contexts, particularly in discussions of social responsibility and public morality.\n\nCOMMON COLLOCATIONS:\n- {良識|りょうしき}ある{市民|しみん} (sensible citizens)\n- {良識|りょうしき}を{疑|うたが}う (to doubt someone's good sense)\n- {良識|りょうしき}に{基|もと}づく (based on good judgment)\n- {良識|りょうしき}が{問|と}われる (one's good sense is questioned)\n\nSIMILAR WORDS:\n{常識|じょうしき} means common sense or general knowledge shared by society. {良識|りょうしき} goes beyond mere shared knowledge to imply moral soundness and wise judgment.",
+  "notes": "USAGE:\n{良識|りょうしき} combines {良|りょう} (good) and {識|しき} (knowledge, discernment). It often appears in formal or written contexts, particularly in discussions of social responsibility and public morality.\n\nCOMMON COLLOCATIONS:\n- {良識|りょうしき}⟦ある→ある：00006_aru⟧⟦{市民|しみん}→市民：01426_shimin⟧ (sensible citizens)\n- {良識|りょうしき}⟦を→を：00422_wo⟧⟦{疑|うたが}う→疑う：01889_utagau⟧ (to doubt someone's good sense)\n- {良識|りょうしき}⟦に→に：00314_ni⟧⟦{基|もと}づく→基づく：02315_motozuku⟧ (based on good judgment)\n- {良識|りょうしき}⟦が→が：00051_ga⟧⟦{問|と}われる→問う：02299_tou⟧ (one's good sense is questioned)\n\nSIMILAR WORDS:\n⟦{常識|じょうしき}→常識：03287_joushiki⟧ means common sense or general knowledge shared by society. {良識|りょうしき} goes beyond mere shared knowledge to imply moral soundness and wise judgment.",
   "cross_references": [
     {
       "type": "contrast",
@@ -52,11 +52,18 @@
       "reading": "じょうしき",
       "headword": "{常識|じょうしき}",
       "label": "common sense (shared knowledge)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20452_funbetsu",
+      "reading": "ふんべつ",
+      "headword": "{分別|ふんべつ}",
+      "label": "discretion"
     }
   ],
   "metadata": {
     "created": "2026-03-09T10:27:15Z",
-    "modified": "2026-07-18T12:31:39Z",
+    "modified": "2026-09-02T04:01:43Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

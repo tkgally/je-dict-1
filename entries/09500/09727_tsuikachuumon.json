@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "09727_tsuikachuumon_ex1",
-      "japanese": "{追加|ついか}{注文|ちゅうもん}をお{願|ねが}いします。",
+      "japanese": "{追加|ついか}{注文|ちゅうもん}⟦を→を：00422_wo⟧お{願|ねが}いします。",
       "english": "I'd like to place an additional order, please.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "09727_tsuikachuumon_ex2",
-      "japanese": "{追加|ついか}{注文|ちゅうもん}はありますか？",
+      "japanese": "{追加|ついか}{注文|ちゅうもん}⟦は→は：00079_ha⟧⟦あります→ある：00006_aru⟧⟦か→か：09473_ka⟧？",
       "english": "Would you like to order anything else?",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "09727_tsuikachuumon_ex3",
-      "japanese": "{飲|の}み{物|もの}の{追加|ついか}{注文|ちゅうもん}は、タブレットからできます。",
+      "japanese": "⟦{飲|の}み{物|もの}→飲み物：02929_nomimono⟧⟦の→の：09472_no⟧{追加|ついか}{注文|ちゅうもん}⟦は→は：00079_ha⟧、⟦タブレット→タブレット：05281_taburetto⟧⟦から→から：00504_kara⟧⟦できます→できる：00557_dekiru⟧。",
       "english": "You can place additional drink orders from the tablet.",
       "notes": null,
       "has_audio": false,
@@ -43,10 +43,19 @@
       ]
     }
   ],
-  "notes": "{追加|ついか}{注文|ちゅうもん} means an additional order placed after the initial one. Very common at restaurants, especially izakaya and family restaurants.\n\nCOMMON COLLOCATIONS:\n- {追加|ついか}{注文|ちゅうもん}する: to place an additional order\n- {追加|ついか}{注文|ちゅうもん}を{受|う}ける: to take an additional order\n- {追加|ついか}{注文|ちゅうもん}はありますか: Would you like to order anything else?\n\nWORD FORMATION:\n{追加|ついか} (addition) + {注文|ちゅうもん} (order). Both components are productive: {追加|ついか}{料金|りょうきん} (extra charge), {注文|ちゅうもん}{品|ひん} (ordered items).\n\nRELATED TERMS:\n- {最初|さいしょ}の{注文|ちゅうもん}: first/initial order\n- ラストオーダー: last order (before kitchen closes)\n- お{替|か}わり: refill, second helping",
+  "notes": "{追加|ついか}{注文|ちゅうもん} means an additional order placed after the initial one. Very common at restaurants, especially izakaya and family restaurants.\n\nCOMMON COLLOCATIONS:\n- {追加|ついか}{注文|ちゅうもん}⟦する→する：00392_suru⟧: to place an additional order\n- {追加|ついか}{注文|ちゅうもん}⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧: to take an additional order\n- {追加|ついか}{注文|ちゅうもん}⟦は→は：00079_ha⟧⟦あります→ある：00006_aru⟧⟦か→か：09473_ka⟧: Would you like to order anything else?\n\nFORMS:\n⟦{追加|ついか}→追加：04060_tsuika⟧ (addition) + ⟦{注文|ちゅうもん}→注文：03485_chuumon⟧ (order). Both components are productive: ⟦{追加|ついか}{料金|りょうきん}→追加料金：22313_tsuikaryoukin⟧ (extra charge), ⟦{注文|ちゅうもん}{品|ひん}→注文品：08964_chuumonhin⟧ (ordered items).\n\nRELATED WORDS:\n- ⟦{最初|さいしょ}→最初：00882_saisho⟧⟦の→の：09472_no⟧⟦{注文|ちゅうもん}→注文：03485_chuumon⟧: first/initial order\n- ⟦ラストオーダー→ラストオーダー：09697_rasutooodaa⟧: last order (before kitchen closes)\n- お{替|か}わり: refill, second helping",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "09697_rasutooodaa",
+      "reading": "らすとおーだー",
+      "headword": "ラストオーダー",
+      "label": "last order"
+    }
+  ],
   "metadata": {
     "created": "2026-02-03T07:18:38Z",
-    "modified": "2026-06-24T18:40:49Z",
+    "modified": "2026-09-02T04:01:19Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

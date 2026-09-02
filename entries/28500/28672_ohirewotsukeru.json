@@ -15,41 +15,74 @@
   "examples": [
     {
       "id": "28672_ohirewotsukeru_ex1",
-      "japanese": "{彼|かれ}は{話|はなし}に{尾|お}ひれをつける。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{話|はなし}→話：01496_hanashi⟧⟦に→に：00314_ni⟧{尾|お}ひれをつける。",
       "english": "He embellishes his stories.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28672_ohirewotsukeru_ex2",
-      "japanese": "{噂|うわさ}は{尾|お}ひれがついて{広|ひろ}まった。",
+      "japanese": "⟦{噂|うわさ}→噂：01871_uwasa⟧⟦は→は：00079_ha⟧⟦{尾|お}ひれ→尾ひれ：24576_ohire⟧⟦が→が：00051_ga⟧ついて⟦{広|ひろ}まった→広まる：02404_hiromaru⟧。",
       "english": "The rumour spread, growing more embellished as it went.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28672_ohirewotsukeru_ex3",
-      "japanese": "{何度|なんど}も{人|ひと}づてに{聞|き}いているうちに、{話|はなし}にすっかり{尾|お}ひれがついていた。",
+      "japanese": "⟦{何度|なんど}→何度：17592_nando⟧⟦も→も：00484_mo⟧{人|ひと}づて⟦に→に：00314_ni⟧⟦{聞|き}いている→聞く：00483_kiku⟧うち⟦に→に：00314_ni⟧、⟦{話|はなし}→話：01496_hanashi⟧⟦に→に：00314_ni⟧⟦すっかり→すっかり：01270_sukkari⟧⟦{尾|お}ひれ→尾ひれ：24576_ohire⟧⟦が→が：00051_ga⟧ついて⟦いた→いる：00495_iru⟧。",
       "english": "By the time the story had passed through several people, it was thoroughly embellished.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Idiom of unclear origin — likely from depicting a creature growing extra tail and fins over time. Negative connotation: implies the added details are exaggerations, not improvements.\n\nCOMMON FORMS:\n- {話|はなし}に{尾|お}ひれをつける: to add embellishments to a story (active, transitive)\n- {尾|お}ひれがつく: (the story) gets embellishments added (intransitive — used of the rumour itself)\n- {尾|お}ひれをつけて{話|はな}す: to tell with embellishments\n\nSIMILAR EXPRESSIONS:\n- {誇張|こちょう}する: to exaggerate — neutral and direct, no metaphor\n- {大袈裟|おおげさ}に{言|い}う: to say in an exaggerated way — focuses on the manner of telling\n- {脚色|きゃくしょく}する: to dramatize; to spice up — often used of news or anecdotes",
+  "notes": "Idiom of unclear origin — likely from depicting a creature growing extra tail and fins over time. Negative connotation: implies the added details are exaggerations, not improvements.\n\nCOMMON FORMS:\n- ⟦{話|はなし}→話：01496_hanashi⟧⟦に→に：00314_ni⟧{尾|お}ひれをつける: to add embellishments to a story (active, transitive)\n- ⟦{尾|お}ひれがつく→尾ひれがつく：21978_ohiregatsuku⟧: (the story) gets embellishments added (intransitive — used of the rumour itself)\n- {尾|お}ひれをつけて⟦{話|はな}す→話す：00467_hanasu⟧: to tell with embellishments\n\nSIMILAR WORDS:\n- ⟦{誇張|こちょう}する→誇張する：22148_kochousuru⟧: to exaggerate — neutral and direct, no metaphor\n- {大袈裟|おおげさ}⟦に→に：00314_ni⟧⟦{言|い}う→言う：00515_iu⟧: to say in an exaggerated way — focuses on the manner of telling\n- ⟦{脚色|きゃくしょく}→脚色：18162_kyakushoku⟧⟦する→する：00392_suru⟧: to dramatize; to spice up — often used of news or anecdotes",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22148_kochousuru",
+      "reading": "こちょうする",
+      "headword": "{誇張|こちょう}する",
+      "label": "to exaggerate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18162_kyakushoku",
+      "reading": "きゃくしょく",
+      "headword": "{脚色|きゃくしょく}",
+      "label": "to dramatize"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24383_hanashiwomoru",
+      "reading": "はなしをもる",
+      "headword": "{話|はなし}を{盛|も}る",
+      "label": "to exaggerate a story"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["expression"],
+      "pos": [
+        "expression"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["communication"],
+      "politeness": "plain",
+      "semantic": [
+        "communication"
+      ],
       "domain": []
     },
     "created": "2026-06-03T04:20:04Z",
-    "modified": "2026-06-03T04:20:04Z"
+    "modified": "2026-09-02T04:02:34Z"
   }
 }

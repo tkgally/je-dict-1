@@ -3,7 +3,7 @@
   "id": "18132_tamokuteki",
   "headword": "{多目的|たもくてき}",
   "reading": "たもくてき",
-  "part_of_speech": "adjective (na) / pre-noun adjectival",
+  "part_of_speech": "na-adjective, pre-noun adjectival",
   "gloss": "multipurpose; multi-use",
   "definitions": [
     {
@@ -15,41 +15,67 @@
   "examples": [
     {
       "id": "18132_tamokuteki_ex1",
-      "japanese": "{多目的|たもくてき}ホールで{会議|かいぎ}が{行|おこな}われた。",
+      "japanese": "{多目的|たもくてき}⟦ホール→ホール：11169_hooru⟧⟦で→で：00502_de⟧⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦が→が：00051_ga⟧⟦{行|おこな}われた→行う：01238_okonau⟧。",
       "english": "A meeting was held in the multipurpose hall.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18132_tamokuteki_ex2",
-      "japanese": "この{部屋|へや}は{多目的|たもくてき}に{使|つか}える。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{部屋|へや}→部屋：00507_heya⟧⟦は→は：00079_ha⟧{多目的|たもくてき}⟦に→に：00314_ni⟧⟦{使|つか}える→使う：00473_tsukau⟧。",
       "english": "This room can be used for multiple purposes.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18132_tamokuteki_ex3",
-      "japanese": "{駅|えき}には{多目的|たもくてき}トイレが{設置|せっち}されていて、{車椅子|くるまいす}の{方|かた}も{利用|りよう}できる。",
+      "japanese": "⟦{駅|えき}→駅：02180_eki⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{多目的|たもくてき}⟦トイレ→トイレ：00818_toire⟧⟦が→が：00051_ga⟧⟦{設置|せっち}→設置：09750_secchi⟧⟦されていて→する：00392_suru⟧、⟦{車椅子|くるまいす}→車椅子：10533_kurumaisu⟧⟦の→の：09472_no⟧⟦{方|かた}→方：10665_kata⟧⟦も→も：00484_mo⟧⟦{利用|りよう}できる→利用する：21735_riyousuru⟧。",
       "english": "The station has multipurpose restrooms that can also be used by wheelchair users.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nVery commonly seen on signs in public facilities. {多目的|たもくてき}トイレ (multipurpose/accessible restroom) is one of the most frequent uses, referring to restrooms with accessibility features for wheelchair users, parents with small children, and ostomates.\n\nCOMMON COLLOCATIONS:\n- {多目的|たもくてき}ホール (multipurpose hall)\n- {多目的|たもくてき}トイレ (multipurpose/accessible restroom)\n- {多目的|たもくてき}ルーム (multipurpose room)\n- {多目的|たもくてき}に{使|つか}う (to use for multiple purposes)",
-  "cross_references": [],
+  "notes": "USAGE:\nVery commonly seen on signs in public facilities. {多目的|たもくてき}⟦トイレ→トイレ：00818_toire⟧ (multipurpose/accessible restroom) is one of the most frequent uses, referring to restrooms with accessibility features for wheelchair users, parents with small children, and ostomates.\n\nCOMMON COLLOCATIONS:\n- {多目的|たもくてき}⟦ホール→ホール：11169_hooru⟧ (multipurpose hall)\n- {多目的|たもくてき}⟦トイレ→トイレ：00818_toire⟧ (multipurpose/accessible restroom)\n- {多目的|たもくてき}ルーム (multipurpose room)\n- {多目的|たもくてき}⟦に→に：00314_ni⟧⟦{使|つか}う→使う：00473_tsukau⟧ (to use for multiple purposes)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "18683_takinou",
+      "reading": "たきのう",
+      "headword": "{多機能|たきのう}",
+      "label": "multi-function"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23808_tayouto",
+      "reading": "たようと",
+      "headword": "{多用途|たようと}",
+      "label": "multi-purpose"
+    }
+  ],
   "metadata": {
     "created": "2026-03-20T06:42:54Z",
-    "modified": "2026-03-20T06:42:54Z",
+    "modified": "2026-09-02T04:01:51Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-na", "pre-noun-adjectival"],
+      "pos": [
+        "adjective-na",
+        "pre-noun-adjectival"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["descriptive"]
+      "semantic": [
+        "descriptive"
+      ]
     }
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "20412_kamihanki_ex1",
-      "japanese": "{上半期|かみはんき}の{売|う}り{上|あ}げは{好調|こうちょう}だった。",
+      "japanese": "{上半期|かみはんき}⟦の→の：09472_no⟧{売|う}り{上|あ}げ⟦は→は：00079_ha⟧⟦{好調|こうちょう}→好調：12209_kouchou⟧だった。",
       "english": "Sales in the first half of the year were strong.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "20412_kamihanki_ex2",
-      "japanese": "{上半期|かみはんき}の{決算|けっさん}{報告|ほうこく}をまとめている。",
+      "japanese": "{上半期|かみはんき}⟦の→の：09472_no⟧⟦{決算|けっさん}{報告|ほうこく}→決算報告：25816_kessanhoukoku⟧⟦を→を：00422_wo⟧⟦まとめている→まとめる：02424_matomeru⟧。",
       "english": "I am compiling the financial report for the first half.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "20412_kamihanki_ex3",
-      "japanese": "{上半期|かみはんき}は{赤字|あかじ}だったが、{下半期|しもはんき}で{巻|ま}き{返|かえ}す{計画|けいかく}だ。",
+      "japanese": "{上半期|かみはんき}⟦は→は：00079_ha⟧⟦{赤字|あかじ}→赤字：04712_akaji⟧だった⟦が→が：00051_ga⟧、⟦{下半期|しもはんき}→下半期：19925_shimohanki⟧⟦で→で：00502_de⟧⟦{巻|ま}き{返|かえ}す→巻き返す：07006_makikaesu⟧⟦{計画|けいかく}→計画：01172_keikaku⟧だ。",
       "english": "We were in the red in the first half, but we plan to make a comeback in the second half.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {上|かみ} (upper, first) + {半期|はんき} (half-period). Primarily used in business and economic contexts. In Japan, the fiscal year runs from April to March, so {上半期|かみはんき} typically refers to April through September.\n\nCOMMON COLLOCATIONS:\n- {上半期|かみはんき}の{業績|ぎょうせき}: first-half performance\n- {上半期|かみはんき}の{決算|けっさん}: first-half financial results\n- {上半期|かみはんき}の{売|う}り{上|あ}げ: first-half sales\n- {上半期|かみはんき}{中|ちゅう}に: during the first half\n\nSIMILAR WORDS:\n- {下半期|しもはんき}: second half of the year — the direct counterpart\n- {前半|ぜんはん}: first half — more general, used for any time period or event\n- {四半期|しはんき}: quarter (of a year) — a finer division used in business reporting",
+  "notes": "Composed of {上|かみ} (upper, first) + {半期|はんき} (half-period). Primarily used in business and economic contexts. In Japan, the fiscal year runs from April to March, so {上半期|かみはんき} typically refers to April through September.\n\nCOMMON COLLOCATIONS:\n- {上半期|かみはんき}⟦の→の：09472_no⟧⟦{業績|ぎょうせき}→業績：04873_gyouseki⟧: first-half performance\n- {上半期|かみはんき}⟦の→の：09472_no⟧⟦{決算|けっさん}→決算：05973_kessan⟧: first-half financial results\n- {上半期|かみはんき}⟦の→の：09472_no⟧{売|う}り{上|あ}げ: first-half sales\n- {上半期|かみはんき}⟦{中|ちゅう}→〜中：09840_chuu⟧⟦に→に：00314_ni⟧: during the first half\n\nSIMILAR WORDS:\n- ⟦{下半期|しもはんき}→下半期：19925_shimohanki⟧: second half of the year — the direct counterpart\n- ⟦{前半|ぜんはん}→前半：11875_zenhan⟧: first half — more general, used for any time period or event\n- ⟦{四半期|しはんき}→四半期：10103_shihanki⟧: quarter (of a year) — a finer division used in business reporting",
   "cross_references": [
     {
       "type": "antonym",
@@ -52,6 +52,27 @@
       "headword": "{下半期|しもはんき}",
       "label": "second half of the year",
       "target_id": "19925_shimohanki"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11875_zenhan",
+      "reading": "ぜんはん",
+      "headword": "{前半|ぜんはん}",
+      "label": "first half"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10103_shihanki",
+      "reading": "しはんき",
+      "headword": "{四半期|しはんき}",
+      "label": "quarter"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20651_zenki",
+      "reading": "ぜんき",
+      "headword": "{前期|ぜんき}",
+      "label": "first half"
     }
   ],
   "schema_version": "2.0",
@@ -72,7 +93,7 @@
       ]
     },
     "created": "2026-03-29T13:01:11Z",
-    "modified": "2026-07-28T00:51:36Z"
+    "modified": "2026-09-02T04:01:59Z"
   },
   "prominent_see_also": [
     {

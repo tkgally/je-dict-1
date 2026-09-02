@@ -14,30 +14,36 @@
   "examples": [
     {
       "id": "09850_shotoku_ex1",
-      "japanese": "{年間|ねんかん}{所得|しょとく}が{一定額|いっていがく}を{超|こ}えると{課税|かぜい}{対象|たいしょう}になる。",
+      "japanese": "{年間|ねんかん}{所得|しょとく}⟦が→が：00051_ga⟧⟦{一定額|いっていがく}→一定額：27382_itteigaku⟧⟦を→を：00422_wo⟧⟦{超|こ}える→超える：01942_koeru⟧⟦と→と：00512_to⟧⟦{課税|かぜい}→課税：00203_kazei⟧⟦{対象|たいしょう}→対象：03393_taishou⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧。",
       "english": "If your annual income exceeds a certain amount, it becomes subject to taxation.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09850_shotoku_ex2",
-      "japanese": "{課税|かぜい}{所得|しょとく}を{計算|けいさん}する。",
+      "japanese": "{課税|かぜい}{所得|しょとく}⟦を→を：00422_wo⟧⟦{計算|けいさん}する→計算する：25526_keisansuru⟧。",
       "english": "Calculate taxable income.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09850_shotoku_ex3",
-      "japanese": "{所得|しょとく}{税|ぜい}の{申告|しんこく}をする。",
+      "japanese": "{所得|しょとく}{税|ぜい}⟦の→の：09472_no⟧⟦{申告|しんこく}→申告：03687_shinkoku⟧⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧。",
       "english": "I file my income tax return.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{所得|しょとく} refers to income in a formal or financial context.\n\nCOMMON COLLOCATIONS:\n- {所得税|しょとくぜい}: income tax\n- {課税所得|かぜいしょとく}: taxable income\n- {年間所得|ねんかんしょとく}: annual income\n- {所得申告|しょとくしんこく}: income declaration\n- {高所得|こうしょとく}: high income\n- {低所得|ていしょとく}: low income\n\nSIMILAR WORDS:\n- {収入|しゅうにゅう}: income, revenue (more general)\n- {給料|きゅうりょう}: salary, wages (specifically from employment)",
+  "notes": "{所得|しょとく} refers to income in a formal or financial context.\n\nCOMMON COLLOCATIONS:\n- ⟦{所得税|しょとくぜい}→所得税：04913_shotokuzei⟧: income tax\n- {課税所得|かぜいしょとく}: taxable income\n- {年間所得|ねんかんしょとく}: annual income\n- {所得申告|しょとくしんこく}: income declaration\n- {高所得|こうしょとく}: high income\n- {低所得|ていしょとく}: low income\n\nSIMILAR WORDS:\n- ⟦{収入|しゅうにゅう}→収入：03213_shuunyuu⟧: income, revenue (more general)\n- ⟦{給料|きゅうりょう}→給料：01086_kyuuryou⟧: salary, wages (specifically from employment)",
   "cross_references": [
     {
       "type": "synonym",
@@ -56,14 +62,18 @@
   ],
   "metadata": {
     "created": "2026-02-04T01:44:31Z",
-    "modified": "2026-04-23T07:31:27Z",
+    "modified": "2026-09-02T04:01:19Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["work"]
+      "semantic": [
+        "work"
+      ]
     }
   }
 }

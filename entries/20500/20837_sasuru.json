@@ -3,7 +3,7 @@
   "id": "20837_sasuru",
   "headword": "さする",
   "reading": "さする",
-  "part_of_speech": "verb-godan",
+  "part_of_speech": "verb (godan)",
   "gloss": "to rub; to stroke; to massage gently",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "20837_sasuru_ex1",
-      "japanese": "{背中|せなか}をさすった。",
+      "japanese": "⟦{背中|せなか}→背中：00810_senaka⟧⟦を→を：00422_wo⟧さすった。",
       "english": "I rubbed their back.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "20837_sasuru_ex2",
-      "japanese": "{痛|いた}いところをやさしくさする。",
+      "japanese": "⟦{痛|いた}い→痛い：01108_itai⟧⟦ところ→ところ：01137_tokoro⟧⟦を→を：00422_wo⟧やさしくさする。",
       "english": "To gently rub the place that hurts.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "20837_sasuru_ex3",
-      "japanese": "{母|はは}が{子|こ}どものお{腹|なか}をさすって{寝|ね}かしつけた。",
+      "japanese": "⟦{母|はは}→母：00549_haha⟧⟦が→が：00051_ga⟧{子|こ}ども⟦の→の：09472_no⟧⟦お{腹|なか}→お腹：00805_onaka⟧⟦を→を：00422_wo⟧さすって{寝|ね}かしつけた。",
       "english": "The mother rubbed the child's tummy to get them to sleep.",
       "sense_numbers": [
         1
@@ -135,7 +135,7 @@
     },
     {
       "id": "20837_sasuru_ex4",
-      "japanese": "{彼女|かのじょ}は{泣|な}いている{友達|ともだち}の{背中|せなか}をそっとさすってあげた。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧⟦{泣|な}いている→泣く：00655_naku⟧⟦{友達|ともだち}→友達：01478_tomodachi⟧⟦の→の：09472_no⟧⟦{背中|せなか}→背中：00810_senaka⟧⟦を→を：00422_wo⟧⟦そっと→そっと：03321_sotto⟧さすって⟦あげた→あげる：00546_ageru⟧。",
       "english": "She gently rubbed her crying friend's back.",
       "sense_numbers": [
         1
@@ -144,11 +144,40 @@
       "notes": null
     }
   ],
-  "notes": "A gentle, comforting action of rubbing or stroking a body part. Commonly used when soothing someone who is in pain, feeling sick, or crying. The motion is light and repetitive, distinct from a firm massage.\n\nCOMMON COLLOCATIONS:\n- {背中|せなか}をさする: to rub someone's back\n- お{腹|なか}をさする: to rub one's tummy\n- {肩|かた}をさする: to rub one's shoulders\n- {膝|ひざ}をさする: to rub one's knees\n\nSIMILAR WORDS:\n- {撫|な}でる: to stroke, to pet (lighter touch, often for hair or animals)\n- {揉|も}む: to knead, to massage (firmer pressure)\n- こする: to rub (more vigorous, can imply friction or scrubbing)",
-  "cross_references": [],
+  "notes": "A gentle, comforting action of rubbing or stroking a body part. Commonly used when soothing someone who is in pain, feeling sick, or crying. The motion is light and repetitive, distinct from a firm massage.\n\nCOMMON COLLOCATIONS:\n- ⟦{背中|せなか}→背中：00810_senaka⟧⟦を→を：00422_wo⟧さする: to rub someone's back\n- ⟦お{腹|なか}→お腹：00805_onaka⟧⟦を→を：00422_wo⟧さする: to rub one's tummy\n- ⟦{肩|かた}→肩：02192_kata⟧⟦を→を：00422_wo⟧さする: to rub one's shoulders\n- ⟦{膝|ひざ}→膝：00940_hiza⟧⟦を→を：00422_wo⟧さする: to rub one's knees\n\nSIMILAR WORDS:\n- ⟦{撫|な}でる→撫でる：04411_naderu⟧: to stroke, to pet (lighter touch, often for hair or animals)\n- ⟦{揉|も}む→揉む：00289_momu⟧: to knead, to massage (firmer pressure)\n- こする: to rub (more vigorous, can imply friction or scrubbing)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04411_naderu",
+      "reading": "なでる",
+      "headword": "{撫|な}でる",
+      "label": "to stroke, to pet"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00289_momu",
+      "reading": "もむ",
+      "headword": "{揉|も}む",
+      "label": "to knead, to massage"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04262_kosuru",
+      "reading": "こする",
+      "headword": "{擦|こす}る",
+      "label": "to rub"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25199_aibu",
+      "reading": "あいぶ",
+      "headword": "{愛撫|あいぶ}",
+      "label": "caress"
+    }
+  ],
   "metadata": {
     "created": "2026-03-30T18:21:05Z",
-    "modified": "2026-07-28T09:34:52Z",
+    "modified": "2026-09-02T04:02:01Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

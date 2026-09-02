@@ -2,7 +2,7 @@
   "id": "02590_kyoutsuu",
   "headword": "{共通|きょうつう}",
   "reading": "きょうつう",
-  "part_of_speech": "noun / na-adjective / suru-verb",
+  "part_of_speech": "noun, na-adjective, suru verb",
   "gloss": "common, shared, mutual",
   "conjugation": {
     "type": "suru",
@@ -133,11 +133,26 @@
       ]
     }
   ],
-  "notes": "{共通|きょうつう} indicates something shared among multiple entities.\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n- No standard transitive pair\n- Pattern: {共通|きょうつう}⟦する→する：00392_suru⟧\n\nFORMS:\n- {共通|きょうつう}の + noun (common ~, shared ~)\n- {共通|きょうつう}⟦する→する：00392_suru⟧ (to have in common)\n\nCOMMON PATTERNS:\n- {共通|きょうつう}⟦{点|てん}→点：01553_ten⟧ (common point, commonality)\n- {共通|きょうつう}⟦{語|ご}→語：09841_go⟧ (common language, lingua franca)\n- {共通|きょうつう}⟦{認識|にんしき}→認識：05090_ninshiki⟧ (shared understanding)\n\nCOMPOUND WORDS:\n- {共通|きょうつう}⟦テスト→テスト：01065_tesuto⟧ (national university entrance exam)\n- {共通|きょうつう}⟦{言語|げんご}→言語：02717_gengo⟧ (common language)\n\nUSAGE:\n- 〜⟦に→に：00314_ni⟧{共通|きょうつう}⟦する→する：00392_suru⟧ (to be common to ~)\n- {共通|きょうつう}して⟦{言|い}える→言う：00515_iu⟧⟦こと→こと：01164_koto⟧ (something that can be said of all)",
-  "cross_references": [],
+  "notes": "{共通|きょうつう} indicates something shared among multiple entities.\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n- No standard transitive pair\n- Pattern: {共通|きょうつう}⟦する→する：00392_suru⟧\n\nFORMS:\n- {共通|きょうつう}⟦の→の：09472_no⟧ + noun (common ~, shared ~)\n- {共通|きょうつう}⟦する→する：00392_suru⟧ (to have in common)\n\nCOMMON PATTERNS:\n- {共通|きょうつう}⟦{点|てん}→点：01553_ten⟧ (common point, commonality)\n- {共通|きょうつう}⟦{語|ご}→語：09841_go⟧ (common language, lingua franca)\n- {共通|きょうつう}⟦{認識|にんしき}→認識：05090_ninshiki⟧ (shared understanding)\n\nCOMPOUNDS:\n- {共通|きょうつう}⟦テスト→テスト：01065_tesuto⟧ (national university entrance exam)\n- {共通|きょうつう}⟦{言語|げんご}→言語：02717_gengo⟧ (common language)\n\nUSAGE:\n- 〜⟦に→に：00314_ni⟧{共通|きょうつう}⟦する→する：00392_suru⟧ (to be common to ~)\n- {共通|きょうつう}⟦して→する：00392_suru⟧⟦{言|い}える→言う：00515_iu⟧⟦こと→こと：01164_koto⟧ (something that can be said of all)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13026_fuhenteki",
+      "reading": "ふへんてき",
+      "headword": "{普遍的|ふへんてき}",
+      "label": "universal, general"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25547_ruijisuru",
+      "reading": "るいじする",
+      "headword": "{類似|るいじ}する",
+      "label": "to resemble"
+    }
+  ],
   "metadata": {
     "created": "2026-01-11T10:31:02Z",
-    "modified": "2026-05-21T15:17:17Z",
+    "modified": "2026-09-02T04:01:02Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

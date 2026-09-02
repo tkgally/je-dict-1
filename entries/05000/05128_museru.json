@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "むせる is an ichidan verb meaning to choke or gag when something irritates the throat or goes down the wrong way.\n\nCOMMON PATTERNS:\n- 〜⟦で→で：00502_de⟧むせる: to choke on ~\n- ⟦{煙|けむり}→煙：02705_kemuri⟧⟦で→で：00502_de⟧むせる: to choke on smoke\n- ⟦{水|みず}→水：02258_mizu⟧⟦で→で：00502_de⟧むせる: to choke on water\n- ⟦{唾|つば}→唾：09110_tsuba⟧⟦で→で：00502_de⟧むせる: to choke on saliva\n- ⟦{食|た}べ{物|もの}→食べ物：02890_tabemono⟧⟦で→で：00502_de⟧むせる: to choke on food\n\nRELATED EXPRESSIONS:\n- ⟦むせ{返|かえ}る→むせ返る：22142_musekaeru⟧: to choke up, be overwhelmed (also figurative)\n- ⟦{咳|せき}き{込|こ}む→咳き込む：10254_sekikomu⟧: to have a coughing fit\n- ⟦{喉|のど}→喉：00977_nodo⟧⟦に→に：00314_ni⟧⟦{詰|つ}まる→詰まる：02079_tsumaru⟧: to get stuck in one's throat\n\nNOTE:\nむせる describes a reflexive coughing/gagging reaction, not life-threatening choking. For serious choking, ⟦{窒息|ちっそく}→窒息：16495_chissoku⟧⟦する→する：00392_suru⟧ is used.",
+  "notes": "むせる is an ichidan verb meaning to choke or gag when something irritates the throat or goes down the wrong way.\n\nCOMMON PATTERNS:\n- 〜⟦で→で：00502_de⟧むせる: to choke on ~\n- ⟦{煙|けむり}→煙：02705_kemuri⟧⟦で→で：00502_de⟧むせる: to choke on smoke\n- ⟦{水|みず}→水：02258_mizu⟧⟦で→で：00502_de⟧むせる: to choke on water\n- ⟦{唾|つば}→唾：09110_tsuba⟧⟦で→で：00502_de⟧むせる: to choke on saliva\n- ⟦{食|た}べ{物|もの}→食べ物：02890_tabemono⟧⟦で→で：00502_de⟧むせる: to choke on food\n\nRELATED WORDS:\n- ⟦むせ{返|かえ}る→むせ返る：22142_musekaeru⟧: to choke up, be overwhelmed (also figurative)\n- ⟦{咳|せき}き{込|こ}む→咳き込む：10254_sekikomu⟧: to have a coughing fit\n- ⟦{喉|のど}→喉：00977_nodo⟧⟦に→に：00314_ni⟧⟦{詰|つ}まる→詰まる：02079_tsumaru⟧: to get stuck in one's throat\n\nUSAGE:\nむせる describes a reflexive coughing/gagging reaction, not life-threatening choking. For serious choking, ⟦{窒息|ちっそく}→窒息：16495_chissoku⟧⟦する→する：00392_suru⟧ is used.",
   "cross_references": [
     {
       "type": "related",
@@ -155,11 +155,18 @@
       "reading": "ちっそく",
       "headword": "{窒息|ちっそく}",
       "label": "suffocation (serious)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22131_chissokusuru",
+      "reading": "ちっそくする",
+      "headword": "{窒息|ちっそく}する",
+      "label": "to suffocate"
     }
   ],
   "metadata": {
     "created": "2026-01-16T02:32:54Z",
-    "modified": "2026-06-14T17:21:57Z",
+    "modified": "2026-09-02T04:00:52Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -171,7 +178,8 @@
       "semantic": [
         "health"
       ],
-      "verb_class": "ichidan"
+      "verb_class": "ichidan",
+      "transitivity": "intransitive"
     }
   }
 }

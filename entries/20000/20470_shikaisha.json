@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "20470_shikaisha_ex1",
-      "japanese": "{司会者|しかいしゃ}が{登場|とうじょう}した。",
+      "japanese": "{司会者|しかいしゃ}⟦が→が：00051_ga⟧⟦{登場|とうじょう}→登場：13625_toujou⟧⟦した→する：00392_suru⟧。",
       "english": "The emcee appeared on stage.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "20470_shikaisha_ex2",
-      "japanese": "{結婚式|けっこんしき}の{司会者|しかいしゃ}を{頼|たの}まれた。",
+      "japanese": "⟦{結婚式|けっこんしき}→結婚式：05493_kekkonshiki⟧⟦の→の：09472_no⟧{司会者|しかいしゃ}⟦を→を：00422_wo⟧⟦{頼|たの}まれた→頼む：01104_tanomu⟧。",
       "english": "I was asked to be the emcee at a wedding.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "20470_shikaisha_ex3",
-      "japanese": "{司会者|しかいしゃ}が{上手|じょうず}だと、イベント{全体|ぜんたい}の{雰囲気|ふんいき}がよくなる。",
+      "japanese": "{司会者|しかいしゃ}⟦が→が：00051_ga⟧⟦{上手|じょうず}→上手：00707_jouzu⟧だ⟦と→と：00512_to⟧、⟦イベント→イベント：09594_ibento⟧⟦{全体|ぜんたい}→全体：03314_zentai⟧⟦の→の：09472_no⟧⟦{雰囲気|ふんいき}→雰囲気：03604_funiki⟧⟦が→が：00051_ga⟧⟦よく→よく：00601_yoku⟧⟦なる→なる：01970_naru⟧。",
       "english": "When the emcee is skilled, the atmosphere of the whole event improves.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {司会|しかい} (emceeing, presiding) + {者|しゃ} (person). Refers to the person who hosts or moderates events.\n\nCOMMON COLLOCATIONS:\n- {司会者|しかいしゃ}を{務|つと}める: to serve as emcee\n- {司会者|しかいしゃ}を{頼|たの}む: to ask someone to be emcee\n- {司会者|しかいしゃ}の{進行|しんこう}: the emcee's facilitation\n\nUSAGE:\n{司会|しかい} alone can also mean \"emceeing\" or be used as a suru-verb ({司会|しかい}する, to emcee). {司会者|しかいしゃ} specifically emphasizes the person performing the role.\n\nSIMILAR WORDS:\n- {司会|しかい}: emceeing, hosting — the act itself or used as a role label\n- {進行役|しんこうやく}: facilitator — emphasizes the role of keeping things moving forward\n- MC（エムシー）: MC — borrowed from English, used especially in entertainment and variety shows",
+  "notes": "A compound of ⟦{司会|しかい}→司会：00364_shikai⟧ (emceeing, presiding) + ⟦{者|しゃ}→〜者：04662_sha⟧ (person). Refers to the person who hosts or moderates events.\n\nCOMMON COLLOCATIONS:\n- {司会者|しかいしゃ}⟦を→を：00422_wo⟧⟦{務|つと}める→務める：10446_tsutomeru⟧: to serve as emcee\n- {司会者|しかいしゃ}⟦を→を：00422_wo⟧⟦{頼|たの}む→頼む：01104_tanomu⟧: to ask someone to be emcee\n- {司会者|しかいしゃ}⟦の→の：09472_no⟧⟦{進行|しんこう}→進行：03686_shinkou⟧: the emcee's facilitation\n\nUSAGE:\n⟦{司会|しかい}→司会：00364_shikai⟧ alone can also mean \"emceeing\" or be used as a suru-verb (⟦{司会|しかい}→司会：00364_shikai⟧⟦する→する：00392_suru⟧, to emcee). {司会者|しかいしゃ} specifically emphasizes the person performing the role.\n\nSIMILAR WORDS:\n- ⟦{司会|しかい}→司会：00364_shikai⟧: emceeing, hosting — the act itself or used as a role label\n- ⟦{進行役|しんこうやく}→進行役：25039_shinkouyaku⟧: facilitator — emphasizes the role of keeping things moving forward\n- MC（エムシー）: MC — borrowed from English, used especially in entertainment and variety shows",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25039_shinkouyaku",
+      "reading": "しんこうやく",
+      "headword": "{進行役|しんこうやく}",
+      "label": "facilitator"
+    },
+    {
+      "type": "related",
+      "target_id": "01765_anaunsaa",
+      "reading": "あなうんさー",
+      "headword": "アナウンサー",
+      "label": "announcer"
+    },
+    {
+      "type": "related",
+      "target_id": "07748_emushii",
+      "reading": "えむしー",
+      "headword": "MC",
+      "label": "master of ceremonies"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +83,6 @@
       ]
     },
     "created": "2026-03-29T15:18:47Z",
-    "modified": "2026-07-28T09:35:50Z"
+    "modified": "2026-09-02T04:01:59Z"
   }
 }

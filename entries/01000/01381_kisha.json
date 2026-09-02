@@ -63,11 +63,40 @@
       ]
     }
   ],
-  "notes": "{汽車|きしゃ} refers specifically to steam-powered trains, which are now rare in modern Japan.\n\nCONTRAST WITH OTHER TRAINS:\n- {汽車|きしゃ}: steam train (steam-powered)\n- ⟦{電車|でんしゃ}→電車：00522_densha⟧: electric train (most common today)\n- ⟦{列車|れっしゃ}→列車：01670_ressha⟧: train (general/formal term)\n- ⟦{新幹線|しんかんせん}→新幹線：01053_shinkansen⟧: bullet train\n\nCOMPOUNDS:\n- {汽車|きしゃ}⟦{賃|ちん}→賃：noentry⟧: train fare (dated)\n- ⟦{蒸気|じょうき}→蒸気：04278_jouki⟧⟦{機関車|きかんしゃ}→機関車：25424_kikansha⟧: steam locomotive (technical term)\n\nREGIONAL NOTE:\nIn some rural areas, especially among older speakers, {汽車|きしゃ} may still be used colloquially to refer to any train, regardless of power source.\n\nHOMOPHONE:\n⟦{記者|きしゃ}→記者：14170_kisha⟧ (journalist) has the same reading.",
-  "cross_references": [],
+  "notes": "{汽車|きしゃ} refers specifically to steam-powered trains, which are now rare in modern Japan.\n\nCONTRAST WITH OTHER TRAINS:\n- {汽車|きしゃ}: steam train (steam-powered)\n- ⟦{電車|でんしゃ}→電車：00522_densha⟧: electric train (most common today)\n- ⟦{列車|れっしゃ}→列車：01670_ressha⟧: train (general/formal term)\n- ⟦{新幹線|しんかんせん}→新幹線：01053_shinkansen⟧: bullet train\n\nCOMPOUNDS:\n- {汽車|きしゃ}⟦{賃|ちん}→賃：noentry⟧: train fare (dated)\n- ⟦{蒸気|じょうき}→蒸気：04278_jouki⟧⟦{機関車|きかんしゃ}→機関車：25424_kikansha⟧: steam locomotive (technical term)\n\nREGIONAL NOTE:\nIn some rural areas, especially among older speakers, {汽車|きしゃ} may still be used colloquially to refer to any train, regardless of power source.\n\nWATCH OUT:\n⟦{記者|きしゃ}→記者：14170_kisha⟧ (journalist) has the same reading.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00522_densha",
+      "reading": "でんしゃ",
+      "headword": "{電車|でんしゃ}",
+      "label": "electric train"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01670_ressha",
+      "reading": "れっしゃ",
+      "headword": "{列車|れっしゃ}",
+      "label": "train"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01053_shinkansen",
+      "reading": "しんかんせん",
+      "headword": "{新幹線|しんかんせん}",
+      "label": "bullet train"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25424_kikansha",
+      "reading": "きかんしゃ",
+      "headword": "{機関車|きかんしゃ}",
+      "label": "locomotive"
+    }
+  ],
   "metadata": {
     "created": "2026-01-08T12:04:30Z",
-    "modified": "2026-05-15T14:08:18Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

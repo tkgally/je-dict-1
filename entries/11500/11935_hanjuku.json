@@ -19,66 +19,98 @@
   "examples": [
     {
       "id": "11935_hanjuku_ex1",
-      "japanese": "{半熟|はんじゅく}{卵|たまご}が{好|す}きだ。",
+      "japanese": "{半熟|はんじゅく}{卵|たまご}⟦が→が：00051_ga⟧⟦{好|す}き→好き：02355_suki⟧だ。",
       "english": "I like soft-boiled eggs.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11935_hanjuku_ex2",
-      "japanese": "ラーメンには{半熟|はんじゅく}の{味玉|あじたま}をのせる。",
+      "japanese": "⟦ラーメン→ラーメン：05181_raamen⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{半熟|はんじゅく}⟦の→の：09472_no⟧{味玉|あじたま}⟦を→を：00422_wo⟧のせる。",
       "english": "I put a soft-boiled seasoned egg on my ramen.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11935_hanjuku_ex3",
-      "japanese": "{目玉焼|めだまや}きは{半熟|はんじゅく}に{焼|や}いてください。",
+      "japanese": "⟦{目玉焼|めだまや}き→目玉焼き：14946_medamayaki⟧⟦は→は：00079_ha⟧{半熟|はんじゅく}⟦に→に：00314_ni⟧⟦{焼|や}いて→焼く：01123_yaku⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please fry the egg with a runny yolk.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11935_hanjuku_ex4",
-      "japanese": "このトマトはまだ{半熟|はんじゅく}だ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦トマト→トマト：05192_tomato⟧⟦は→は：00079_ha⟧⟦まだ→まだ：00603_mada⟧{半熟|はんじゅく}だ。",
       "english": "This tomato is still half-ripe.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "11935_hanjuku_ex5",
-      "japanese": "{半熟|はんじゅく}のバナナは{酸|す}っぱい。",
+      "japanese": "{半熟|はんじゅく}⟦の→の：09472_no⟧⟦バナナ→バナナ：01013_banana⟧⟦は→は：00079_ha⟧{酸|す}っぱい。",
       "english": "Half-ripe bananas are sour.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "11935_hanjuku_ex6",
-      "japanese": "まだまだ{半熟|はんじゅく}の{技術者|ぎじゅつしゃ}だが、{将来|しょうらい}が{楽|たの}しみだ。",
+      "japanese": "⟦まだまだ→まだまだ：10505_madamada⟧{半熟|はんじゅく}⟦の→の：09472_no⟧⟦{技術者|ぎじゅつしゃ}→技術者：17049_gijutsusha⟧だ⟦が→が：00051_ga⟧、⟦{将来|しょうらい}→将来：01438_shourai⟧⟦が→が：00051_ga⟧⟦{楽|たの}しみ→楽しみ：01651_tanoshimi⟧だ。",
       "english": "He's still an immature engineer, but his future looks promising.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
-  "notes": "COMMON COLLOCATIONS:\n・{半熟|はんじゅく}{卵|たまご} (soft-boiled egg)\n・{半熟|はんじゅく}{目玉焼|めだまや}き (sunny-side up with runny yolk)\n・{半熟|はんじゅく}の{味玉|あじたま} (soft-boiled seasoned egg)\n\nUSAGE NOTES:\nThe most frequent use is for eggs. In everyday Japanese, {半熟|はんじゅく} almost always refers to the degree of cooking for eggs — runny or soft rather than hard-boiled ({固茹|かたゆ}で). The sense 2 meaning (half-ripe fruit, immature person) is less common but appears in literary or descriptive contexts.",
-  "cross_references": [],
+  "notes": "COMMON COLLOCATIONS:\n- {半熟|はんじゅく}{卵|たまご} (soft-boiled egg)\n- {半熟|はんじゅく}⟦{目玉焼|めだまや}き→目玉焼き：14946_medamayaki⟧ (sunny-side up with runny yolk)\n- {半熟|はんじゅく}⟦の→の：09472_no⟧{味玉|あじたま} (soft-boiled seasoned egg)\n\nUSAGE:\nThe most frequent use is for eggs. In everyday Japanese, {半熟|はんじゅく} almost always refers to the degree of cooking for eggs — runny or soft rather than hard-boiled ({固茹|かたゆ}で). The sense 2 meaning (half-ripe fruit, immature person) is less common but appears in literary or descriptive contexts.",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "21365_katayude",
+      "reading": "かたゆで",
+      "headword": "{固|かた}ゆで",
+      "label": "hard-boiled"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24441_hannama",
+      "reading": "はんなま",
+      "headword": "{半生|はんなま}",
+      "label": "half-raw"
+    }
+  ],
   "metadata": {
     "created": "2026-02-19T10:47:58Z",
-    "modified": "2026-02-19T10:47:58Z",
+    "modified": "2026-09-02T04:01:27Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
     "tags": {
-      "pos": ["noun", "adjective-no"],
+      "pos": [
+        "noun",
+        "adjective-no"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food"]
+      "semantic": [
+        "food"
+      ]
     }
   }
 }

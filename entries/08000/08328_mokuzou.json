@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08328_mokuzou_ex1",
-      "japanese": "この{家|いえ}は{木造|もくぞう}{二階建|にかいだ}てです。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{家|いえ}→家：00612_ie⟧⟦は→は：00079_ha⟧{木造|もくぞう}⟦{二階建|にかいだ}て→二階建て：03001_nikaidate⟧です。",
       "english": "This house is a two-story wooden building.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "08328_mokuzou_ex2",
-      "japanese": "{木造|もくぞう}アパートは{家賃|やちん}が{安|やす}いことが{多|おお}い。",
+      "japanese": "{木造|もくぞう}⟦アパート→アパート：01012_apaato⟧⟦は→は：00079_ha⟧⟦{家賃|やちん}→家賃：03639_yachin⟧⟦が→が：00051_ga⟧⟦{安|やす}い→安い：00464_yasui⟧こと⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "Wooden apartments often have lower rent.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "08328_mokuzou_ex3",
-      "japanese": "{日本|にほん}の{伝統的|でんとうてき}な{建築|けんちく}は{木造|もくぞう}が{基本|きほん}だ。",
+      "japanese": "⟦{日本|にほん}→日本：03876_nihon⟧⟦の→の：09472_no⟧⟦{伝統的|でんとうてき}→伝統的：04802_dentouteki⟧な⟦{建築|けんちく}→建築：02709_kenchiku⟧⟦は→は：00079_ha⟧{木造|もくぞう}⟦が→が：00051_ga⟧⟦{基本|きほん}→基本：00226_kihon⟧だ。",
       "english": "Traditional Japanese architecture is fundamentally wooden construction.",
       "sense_numbers": [
         1
@@ -43,7 +43,23 @@
       "notes": null
     }
   ],
-  "notes": "FORMATION:\n{木|もく} (wood, tree) + {造|ぞう} (construction, making) → wooden construction\n\nFUNCTIONS AS:\n- Noun: {木造|もくぞう}の{建物|たてもの} (wooden building)\n- No-adjective: {木造|もくぞう}{住宅|じゅうたく} (wooden house)\n\nCOMMON EXPRESSIONS:\n- {木造|もくぞう}{住宅|じゅうたく} (wooden house)\n- {木造|もくぞう}アパート (wooden apartment building)\n- {木造|もくぞう}〜{階建|かいだ}て (wooden ~-story building)\n\nCONSTRUCTION TYPES (used in real estate):\n- {木造|もくぞう} (wooden)\n- {鉄骨|てっこつ} (steel frame)\n- {鉄筋|てっきん}コンクリート/RC (reinforced concrete)\n- {鉄骨鉄筋|てっこつてっきん}コンクリート/SRC (steel-reinforced concrete)\n\nHOUSING CONTEXT:\n{木造|もくぞう} buildings are common in Japan and are generally less expensive than concrete structures. They are often considered to have better natural ventilation but may have less soundproofing.",
+  "notes": "FORMS:\n{木|もく} (wood, tree) + {造|ぞう} (construction, making) → wooden construction\n\nFUNCTIONS AS:\n- Noun: {木造|もくぞう}⟦の→の：09472_no⟧⟦{建物|たてもの}→建物：01458_tatemono⟧ (wooden building)\n- No-adjective: {木造|もくぞう}⟦{住宅|じゅうたく}→住宅：03280_juutaku⟧ (wooden house)\n\nCOMMON EXPRESSIONS:\n- {木造|もくぞう}⟦{住宅|じゅうたく}→住宅：03280_juutaku⟧ (wooden house)\n- {木造|もくぞう}⟦アパート→アパート：01012_apaato⟧ (wooden apartment building)\n- {木造|もくぞう}〜⟦{階建|かいだ}て→階建て：29226_kaidate⟧ (wooden ~-story building)\n\nCONSTRUCTION TYPES (used in real estate):\n- {木造|もくぞう} (wooden)\n- ⟦{鉄骨|てっこつ}→鉄骨：24552_tekkotsu⟧ (steel frame)\n- ⟦{鉄筋|てっきん}コンクリート→鉄筋コンクリート：17904_tekkinkonkuriito⟧/RC (reinforced concrete)\n- {鉄骨鉄筋|てっこつてっきん}⟦コンクリート→コンクリート：10858_konkuriito⟧/SRC (steel-reinforced concrete)\n\nHOUSING CONTEXT:\n{木造|もくぞう} buildings are common in Japan and are generally less expensive than concrete structures. They are often considered to have better natural ventilation but may have less soundproofing.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25152_rengazukuri",
+      "reading": "れんがづくり",
+      "headword": "レンガ{造|づく}り",
+      "label": "brick construction"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29248_tekkotsuzou",
+      "reading": "てっこつぞう",
+      "headword": "{鉄骨造|てっこつぞう}",
+      "label": "steel-frame construction"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -52,12 +68,13 @@
         "adjective-no"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "building",
         "real_estate"
       ]
     },
     "created": "2026-01-25T23:18:46Z",
-    "modified": "2026-08-11T21:34:29Z"
+    "modified": "2026-09-02T04:01:14Z"
   }
 }

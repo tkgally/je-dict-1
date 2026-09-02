@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "14597_ritou_ex1",
-      "japanese": "{離島|りとう}で{暮|く}らしている。",
+      "japanese": "{離島|りとう}⟦で→で：00502_de⟧⟦{暮|く}らしている→暮らす：01937_kurasu⟧。",
       "english": "I live on a remote island.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14597_ritou_ex2",
-      "japanese": "{離島|りとう}へのアクセスはフェリーのみだ。",
+      "japanese": "{離島|りとう}⟦へ→へ：02473_he⟧⟦の→の：09472_no⟧⟦アクセス→アクセス：10696_akusesu⟧⟦は→は：00079_ha⟧⟦フェリー→フェリー：11168_ferii⟧⟦のみ→のみ：06546_nomi⟧だ。",
       "english": "The only way to access the remote island is by ferry.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14597_ritou_ex3",
-      "japanese": "{日本|にほん}には{数百|すうひゃく}の{離島|りとう}があり、それぞれに{独自|どくじ}の{文化|ぶんか}や{自然|しぜん}が{残|のこ}っている。",
+      "japanese": "⟦{日本|にほん}→日本：03876_nihon⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{数百|すうひゃく}→数百：23368_suuhyaku⟧⟦の→の：09472_no⟧{離島|りとう}⟦が→が：00051_ga⟧⟦あり→ある：00006_aru⟧、⟦それぞれ→それぞれ：01453_sorezore⟧⟦に→に：00314_ni⟧⟦{独自|どくじ}→独自：05614_dokuji⟧⟦の→の：09472_no⟧⟦{文化|ぶんか}→文化：01504_bunka⟧や⟦{自然|しぜん}→自然：01423_shizen⟧⟦が→が：00051_ga⟧⟦{残|のこ}っている→残る：01187_nokoru⟧。",
       "english": "Japan has hundreds of remote islands, each with its own unique culture and nature.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\n{離島|りとう} is used in official, travel, and geographical contexts. Japan has over 400 inhabited remote islands ({有人|ゆうじん}{離島|りとう}), many of which face challenges like depopulation and limited infrastructure. The government has specific policies for {離島|りとう}{振興|しんこう} (remote island development).\n\nCOMMON COLLOCATIONS:\n- {離島|りとう}{振興|しんこう} (remote island development/promotion)\n- {離島|りとう}に{住|す}む (to live on a remote island)\n- {離島|りとう}への{交通|こうつう} (transportation to remote islands)\n- {有人|ゆうじん}{離島|りとう} (inhabited remote island)\n- {無人|むじん}{離島|りとう} (uninhabited remote island)\n\nSIMILAR WORDS:\n- {離島|りとう}: remote/outlying island (official, geographical term)\n- {孤島|ことう}: isolated island (literary; emphasizes complete isolation)\n- {島|しま}: island (general term)",
+  "notes": "USAGE:\n{離島|りとう} is used in official, travel, and geographical contexts. Japan has over 400 inhabited remote islands ({有人|ゆうじん}{離島|りとう}), many of which face challenges like depopulation and limited infrastructure. The government has specific policies for {離島|りとう}⟦{振興|しんこう}→振興：00471_shinkou⟧ (remote island development).\n\nCOMMON COLLOCATIONS:\n- {離島|りとう}⟦{振興|しんこう}→振興：00471_shinkou⟧ (remote island development/promotion)\n- {離島|りとう}⟦に→に：00314_ni⟧⟦{住|す}む→住む：00673_sumu⟧ (to live on a remote island)\n- {離島|りとう}⟦へ→へ：02473_he⟧⟦の→の：09472_no⟧⟦{交通|こうつう}→交通：01584_koutsuu⟧ (transportation to remote islands)\n- {有人|ゆうじん}{離島|りとう} (inhabited remote island)\n- ⟦{無人|むじん}→無人：13388_mujin⟧{離島|りとう} (uninhabited remote island)\n\nSIMILAR WORDS:\n- {離島|りとう}: remote/outlying island (official, geographical term)\n- ⟦{孤島|ことう}→孤島：12240_kotou⟧: isolated island (literary; emphasizes complete isolation)\n- ⟦{島|しま}→島：00885_shima⟧: island (general term)",
   "cross_references": [
     {
       "type": "synonym",
@@ -53,18 +59,43 @@
       "reading": "しま",
       "headword": "{島|しま}",
       "label": "island (general)"
+    },
+    {
+      "type": "related",
+      "target_id": "05500_hondo",
+      "reading": "ほんど",
+      "headword": "{本土|ほんど}",
+      "label": "mainland"
+    },
+    {
+      "type": "related",
+      "target_id": "20960_enkakuchi",
+      "reading": "えんかくち",
+      "headword": "{遠隔地|えんかくち}",
+      "label": "remote area"
+    },
+    {
+      "type": "related",
+      "target_id": "21137_toumin",
+      "reading": "とうみん",
+      "headword": "{島民|とうみん}",
+      "label": "islander"
     }
   ],
   "metadata": {
     "created": "2026-03-02T07:51:14Z",
-    "modified": "2026-04-30T09:17:48Z",
+    "modified": "2026-09-02T04:01:38Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["geography"]
+      "semantic": [
+        "geography"
+      ]
     }
   }
 }

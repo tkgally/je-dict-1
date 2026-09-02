@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "15571_gosenfu_ex1",
-      "japanese": "{五線譜|ごせんふ}に{音符|おんぷ}を{書|か}く。",
+      "japanese": "{五線譜|ごせんふ}⟦に→に：00314_ni⟧⟦{音符|おんぷ}→音符：06988_onpu⟧⟦を→を：00422_wo⟧⟦{書|か}く→書く：00477_kaku⟧。",
       "english": "To write notes on a musical staff.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "15571_gosenfu_ex2",
-      "japanese": "{五線譜|ごせんふ}が{読|よ}めないので{耳|みみ}で{覚|おぼ}えた。",
+      "japanese": "{五線譜|ごせんふ}⟦が→が：00051_ga⟧⟦{読|よ}めない→読む：00426_yomu⟧⟦の→の：09472_no⟧で⟦{耳|みみ}→耳：01513_mimi⟧⟦で→で：00502_de⟧⟦{覚|おぼ}えた→覚える：00739_oboeru⟧。",
       "english": "I couldn't read sheet music, so I learned by ear.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "15571_gosenfu_ex3",
-      "japanese": "{子|こ}どもの{頃|ころ}から{五線譜|ごせんふ}の{読|よ}み{方|かた}を{習|なら}っていたので、{初見|しょけん}で{演奏|えんそう}できる。",
+      "japanese": "{子|こ}ども⟦の→の：09472_no⟧{頃|ころ}⟦から→から：00504_kara⟧{五線譜|ごせんふ}⟦の→の：09472_no⟧⟦{読|よ}み{方|かた}→読み方：14269_yomikata⟧⟦を→を：00422_wo⟧⟦{習|なら}っていた→習う：00479_narau⟧⟦の→の：09472_no⟧で、{初見|しょけん}⟦で→で：00502_de⟧⟦{演奏|えんそう}できる→演奏する：20349_ensousuru⟧。",
       "english": "Since I learned how to read staff notation as a child, I can play at sight.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "Composed of {五線|ごせん} (five lines) and {譜|ふ} (musical notation, score). The {五線|ごせん} refers to the five horizontal lines that form the basis of Western musical notation.\n\nCOMMON COLLOCATIONS:\n- {五線譜|ごせんふ}を{読|よ}む (to read sheet music)\n- {五線譜|ごせんふ}に{書|か}く (to write on a staff)\n- {五線譜|ごせんふ}ノート (blank staff notebook)\n\nSIMILAR WORDS:\n- {五線譜|ごせんふ}: musical staff, staff notation paper\n- {楽譜|がくふ}: sheet music, musical score (more general)\n- {譜面|ふめん}: musical score (informal, used by musicians)",
+  "notes": "Composed of {五線|ごせん} (five lines) and {譜|ふ} (musical notation, score). The {五線|ごせん} refers to the five horizontal lines that form the basis of Western musical notation.\n\nCOMMON COLLOCATIONS:\n- {五線譜|ごせんふ}⟦を→を：00422_wo⟧⟦{読|よ}む→読む：00426_yomu⟧ (to read sheet music)\n- {五線譜|ごせんふ}⟦に→に：00314_ni⟧⟦{書|か}く→書く：00477_kaku⟧ (to write on a staff)\n- {五線譜|ごせんふ}⟦ノート→ノート：00738_nooto⟧ (blank staff notebook)\n\nSIMILAR WORDS:\n- {五線譜|ごせんふ}: musical staff, staff notation paper\n- ⟦{楽譜|がくふ}→楽譜：06987_gakufu⟧: sheet music, musical score (more general)\n- ⟦{譜面|ふめん}→譜面：11103_fumen⟧: musical score (informal, used by musicians)",
   "cross_references": [
     {
       "type": "related",
@@ -52,11 +52,18 @@
       "reading": "がくふ",
       "headword": "{楽譜|がくふ}",
       "label": "sheet music (general)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11103_fumen",
+      "reading": "ふめん",
+      "headword": "{譜面|ふめん}",
+      "label": "musical score"
     }
   ],
   "metadata": {
     "created": "2026-03-07T11:21:01Z",
-    "modified": "2026-07-17T12:56:16Z",
+    "modified": "2026-09-02T04:01:41Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

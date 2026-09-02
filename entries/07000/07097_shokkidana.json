@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "07097_shokkidana_ex1",
-      "japanese": "{食器棚|しょっきだな}から{皿|さら}を{出|だ}してください。",
+      "japanese": "{食器棚|しょっきだな}⟦から→から：00504_kara⟧⟦{皿|さら}→皿：00883_sara⟧⟦を→を：00422_wo⟧⟦{出|だ}して→出す：01087_dasu⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please get the plates from the dish cabinet.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "07097_shokkidana_ex2",
-      "japanese": "{新|あたら}しい{食器棚|しょっきだな}を{買|か}った。",
+      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧{食器棚|しょっきだな}⟦を→を：00422_wo⟧⟦{買|か}った→買う：00489_kau⟧。",
       "english": "I bought a new dish cabinet.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "07097_shokkidana_ex3",
-      "japanese": "{食器棚|しょっきだな}の{中|なか}を{整理|せいり}した。",
+      "japanese": "{食器棚|しょっきだな}⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧⟦を→を：00422_wo⟧⟦{整理|せいり}した→整理する：21729_seirisuru⟧。",
       "english": "I organized the inside of the dish cabinet.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "RELATED FURNITURE:\n・{本棚|ほんだな} (bookshelf)\n・{靴棚|くつだな} (shoe rack)\n・{戸棚|とだな} (cupboard - general)\n・{水屋|みずや} (traditional kitchen cupboard)\n\nCOMMON COLLOCATIONS:\n・{食器棚|しょっきだな}にしまう (to put away in the cupboard)\n・{食器棚|しょっきだな}から{取|と}り{出|だ}す (to take out from the cupboard)\n・ガラス{張|ば}りの{食器棚|しょっきだな} (glass-fronted cabinet)\n\nVARIANTS:\n・カップボード (cupboard - loanword, often used for built-in kitchen storage)\n・キッチンボード (kitchen board - a combined unit with counter space)",
+  "notes": "RELATED FURNITURE:\n- ⟦{本棚|ほんだな}→本棚：04489_hondana⟧ (bookshelf)\n- ⟦{靴棚|くつだな}→靴棚：07336_kutsudana⟧ (shoe rack)\n- ⟦{戸棚|とだな}→戸棚：04073_todana⟧ (cupboard - general)\n- {水屋|みずや} (traditional kitchen cupboard)\n\nCOMMON COLLOCATIONS:\n- {食器棚|しょっきだな}⟦に→に：00314_ni⟧しまう (to put away in the cupboard)\n- {食器棚|しょっきだな}⟦から→から：00504_kara⟧⟦{取|と}り{出|だ}す→取り出す：04220_toridasu⟧ (to take out from the cupboard)\n- ⟦ガラス→ガラス：01777_garasu⟧{張|ば}り⟦の→の：09472_no⟧{食器棚|しょっきだな} (glass-fronted cabinet)\n\nFORMS:\n- ⟦カップ→カップ：01077_kappu⟧ボード (cupboard - loanword, often used for built-in kitchen storage)\n- ⟦キッチン→キッチン：10815_kicchin⟧ボード (kitchen board - a combined unit with counter space)",
   "cross_references": [
     {
       "type": "related",
@@ -58,11 +58,18 @@
       "reading": "とだな",
       "headword": "{戸棚|とだな}",
       "label": "cupboard"
+    },
+    {
+      "type": "related",
+      "target_id": "07336_kutsudana",
+      "reading": "くつだな",
+      "headword": "{靴棚|くつだな}",
+      "label": "shoe rack"
     }
   ],
   "metadata": {
     "created": "2026-01-18T23:14:56Z",
-    "modified": "2026-06-28T12:19:44Z",
+    "modified": "2026-09-02T04:01:10Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "12445_kanshou_ex1",
-      "japanese": "{他人|たにん}のことに{干渉|かんしょう}するな。",
+      "japanese": "⟦{他人|たにん}→他人：01459_tanin⟧⟦の→の：09472_no⟧こと⟦に→に：00314_ni⟧{干渉|かんしょう}⟦する→する：00392_suru⟧な。",
       "english": "Don't meddle in other people's affairs.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "12445_kanshou_ex2",
-      "japanese": "{内政|ないせい}{干渉|かんしょう}は{国際法|こくさいほう}で{禁|きん}じられている。",
+      "japanese": "⟦{内政|ないせい}→内政：24159_naisei⟧{干渉|かんしょう}⟦は→は：00079_ha⟧{国際法|こくさいほう}⟦で→で：00502_de⟧⟦{禁|きん}じられている→禁ずる：19600_kinzuru⟧。",
       "english": "Interference in internal affairs is prohibited by international law.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "12445_kanshou_ex3",
-      "japanese": "{親|おや}の{過度|かど}な{干渉|かんしょう}は、{子|こ}どもの{自立|じりつ}を{妨|さまた}げることがある。",
+      "japanese": "⟦{親|おや}→親：01357_oya⟧⟦の→の：09472_no⟧⟦{過度|かど}→過度：14377_kado⟧な{干渉|かんしょう}⟦は→は：00079_ha⟧、{子|こ}ども⟦の→の：09472_no⟧⟦{自立|じりつ}→自立：13970_jiritsu⟧⟦を→を：00422_wo⟧⟦{妨|さまた}げる→妨げる：12223_samatageru⟧こと⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "Excessive parental interference can hinder a child's independence.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nCarries a negative connotation — implying unwelcome involvement. In international relations, {内政|ないせい}{干渉|かんしょう} (interference in internal affairs) is a key diplomatic concept. In physics, {干渉|かんしょう} also means \"interference\" (as in wave interference), but this is a specialized technical usage.\n\nCOMMON COLLOCATIONS:\n- {干渉|かんしょう}する: to interfere, to meddle\n- {内政|ないせい}{干渉|かんしょう}: interference in internal affairs\n- {過度|かど}な{干渉|かんしょう}: excessive interference\n- {干渉|かんしょう}を{受|う}ける: to be subjected to interference\n- {相互|そうご}{不干渉|ふかんしょう}: mutual noninterference",
+  "notes": "USAGE:\nCarries a negative connotation — implying unwelcome involvement. In international relations, ⟦{内政|ないせい}→内政：24159_naisei⟧{干渉|かんしょう} (interference in internal affairs) is a key diplomatic concept. In physics, {干渉|かんしょう} also means \"interference\" (as in wave interference), but this is a specialized technical usage.\n\nCOMMON COLLOCATIONS:\n- {干渉|かんしょう}⟦する→する：00392_suru⟧: to interfere, to meddle\n- ⟦{内政|ないせい}→内政：24159_naisei⟧{干渉|かんしょう}: interference in internal affairs\n- ⟦{過度|かど}→過度：14377_kado⟧な{干渉|かんしょう}: excessive interference\n- {干渉|かんしょう}⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧: to be subjected to interference\n- ⟦{相互|そうご}→相互：04045_sougo⟧{不干渉|ふかんしょう}: mutual noninterference",
   "cross_references": [
     {
       "type": "contrast",
@@ -149,11 +149,25 @@
       "headword": "{介入|かいにゅう}",
       "label": "intervention",
       "target_id": "07425_kainyuu"
+    },
+    {
+      "type": "related",
+      "target_id": "07984_yokoyari",
+      "reading": "よこやり",
+      "headword": "{横槍|よこやり}",
+      "label": "interference"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21078_kuchidashi",
+      "reading": "くちだし",
+      "headword": "{口出|くちだ}し",
+      "label": "meddling"
     }
   ],
   "metadata": {
     "created": "2026-02-21T06:48:49Z",
-    "modified": "2026-08-16T21:41:29Z",
+    "modified": "2026-09-02T04:01:29Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

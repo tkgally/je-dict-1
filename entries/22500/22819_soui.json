@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22819_soui_ex1",
-      "japanese": "{創意|そうい}{工夫|くふう}が{大切|たいせつ}だ。",
+      "japanese": "{創意|そうい}{工夫|くふう}⟦が→が：00051_ga⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧だ。",
       "english": "Originality and ingenuity are important.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22819_soui_ex2",
-      "japanese": "{創意|そうい}に{満|み}ちた{作品|さくひん}だ。",
+      "japanese": "{創意|そうい}⟦に→に：00314_ni⟧⟦{満|み}ちた→満ちる：02428_michiru⟧⟦{作品|さくひん}→作品：02776_sakuhin⟧だ。",
       "english": "It's a work full of originality.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22819_soui_ex3",
-      "japanese": "{社員|しゃいん}の{創意|そうい}{工夫|くふう}を{活|い}かして{新|あたら}しい{商品|しょうひん}を{開発|かいはつ}した。",
+      "japanese": "⟦{社員|しゃいん}→社員：03065_shain⟧⟦の→の：09472_no⟧{創意|そうい}{工夫|くふう}⟦を→を：00422_wo⟧⟦{活|い}かして→活かす：10422_ikasu⟧⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦{商品|しょうひん}→商品：01436_shouhin⟧⟦を→を：00422_wo⟧⟦{開発|かいはつ}→開発：06746_kaihatsu⟧⟦した→する：00392_suru⟧。",
       "english": "We developed a new product by leveraging employees' creative ideas.",
       "sense_numbers": [
         1
@@ -44,19 +44,44 @@
       "notes": null
     }
   ],
-  "notes": "Refers to the ability or act of coming up with original, creative ideas. A compound of {創|そう} (create) and {意|い} (idea/will). Most frequently used in the four-character compound {創意|そうい}{工夫|くふう} (originality and ingenuity).\n\nCOMMON COLLOCATIONS:\n- {創意|そうい}{工夫|くふう}: originality and ingenuity; creative problem-solving\n- {創意|そうい}に{富|と}む: to be rich in originality\n- {創意|そうい}に{満|み}ちた: full of originality\n- {創意|そうい}を{発揮|はっき}する: to demonstrate creativity\n\nSIMILAR WORDS:\n- {独創|どくそう}: unique creativity — emphasizes being one-of-a-kind\n- {工夫|くふう}: ingenuity; devising — focuses on practical problem-solving\n- {創造力|そうぞうりょく}: creative power; imagination",
+  "notes": "Refers to the ability or act of coming up with original, creative ideas. A compound of {創|そう} (create) and ⟦{意|い}→意：30489_i⟧ (idea/will). Most frequently used in the four-character compound {創意|そうい}{工夫|くふう} (originality and ingenuity).\n\nCOMMON COLLOCATIONS:\n- {創意|そうい}{工夫|くふう}: originality and ingenuity; creative problem-solving\n- {創意|そうい}⟦に→に：00314_ni⟧⟦{富|と}む→富む：12343_tomu⟧: to be rich in originality\n- {創意|そうい}⟦に→に：00314_ni⟧⟦{満|み}ちた→満ちる：02428_michiru⟧: full of originality\n- {創意|そうい}⟦を→を：00422_wo⟧⟦{発揮|はっき}する→発揮する：17267_hakkisuru⟧: to demonstrate creativity\n\nSIMILAR WORDS:\n- ⟦{独創|どくそう}→独創：29347_dokusou⟧: unique creativity — emphasizes being one-of-a-kind\n- ⟦{工夫|くふう}→工夫：00250_kufuu⟧: ingenuity; devising — focuses on practical problem-solving\n- ⟦{創造力|そうぞうりょく}→創造力：27919_souzouryoku⟧: creative power; imagination",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "29347_dokusou",
+      "reading": "どくそう",
+      "headword": "{独創|どくそう}",
+      "label": "unique creativity"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00250_kufuu",
+      "reading": "くふう",
+      "headword": "{工夫|くふう}",
+      "label": "ingenuity"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27919_souzouryoku",
+      "reading": "そうぞうりょく",
+      "headword": "{創造力|そうぞうりょく}",
+      "label": "creative power"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "abstract"
       ]
     },
     "created": "2026-04-07T17:08:32Z",
-    "modified": "2026-04-07T17:08:32Z"
+    "modified": "2026-09-02T04:02:09Z"
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24304_kotobaasobi_ex1",
-      "japanese": "{子供|こども}と{言葉遊|ことばあそ}びをして{楽|たの}しんだ。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧⟦と→と：00512_to⟧{言葉遊|ことばあそ}び⟦を→を：00422_wo⟧⟦して→する：00392_suru⟧⟦{楽|たの}しんだ→楽しむ：01203_tanoshimu⟧。",
       "english": "I had fun playing word games with the children.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24304_kotobaasobi_ex2",
-      "japanese": "しりとりは{日本|にほん}の{代表的|だいひょうてき}な{言葉遊|ことばあそ}びだ。",
+      "japanese": "しりとり⟦は→は：00079_ha⟧⟦{日本|にほん}→日本：03876_nihon⟧⟦の→の：09472_no⟧⟦{代表的|だいひょうてき}→代表的：05670_daihyouteki⟧な{言葉遊|ことばあそ}びだ。",
       "english": "Shiritori is a representative Japanese word game.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24304_kotobaasobi_ex3",
-      "japanese": "{落語|らくご}には{巧|たく}みな{言葉遊|ことばあそ}びがたくさん{含|ふく}まれていて、{聞|き}き{取|と}るのが{難|むずか}しいこともある。",
+      "japanese": "⟦{落語|らくご}→落語：04457_rakugo⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{巧|たく}み→巧み：07153_takumi⟧な{言葉遊|ことばあそ}び⟦が→が：00051_ga⟧⟦たくさん→たくさん：00597_takusan⟧⟦{含|ふく}まれていて→含む：01982_fukumu⟧、⟦{聞|き}き{取|と}る→聞き取る：04583_kikitoru⟧⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦{難|むずか}しい→難しい：00517_muzukashii⟧こと⟦も→も：00484_mo⟧⟦ある→ある：00006_aru⟧。",
       "english": "Rakugo contains a lot of clever wordplay, which can sometimes be difficult to catch.",
       "sense_numbers": [
         1
@@ -44,20 +44,37 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {言葉|ことば} (words) + {遊|あそ}び (play). Covers a wide range of linguistic play, from children's games like しりとり (word chain) and なぞなぞ (riddles) to sophisticated literary puns and {掛|か}け{言葉|ことば} (double-meaning words) in poetry and comedy.\n\nCOMMON COLLOCATIONS:\n- {言葉遊|ことばあそ}びをする — do wordplay, play word games\n- {言葉遊|ことばあそ}びが{好|す}き — like wordplay\n- {巧|たく}みな{言葉遊|ことばあそ}び — clever wordplay\n- {言葉遊|ことばあそ}びの{本|ほん} — word game book\n\nSIMILAR WORDS:\n- {駄洒落|だじゃれ} — pun, bad joke; a specific type of wordplay, often groan-inducing\n- {掛|か}け{言葉|ことば} — double entendre, pivot word; a classical rhetorical technique using words with double meanings\n- {地口|じぐち} — a type of pun based on similar-sounding phrases; more literary and traditional",
+  "notes": "A compound of ⟦{言葉|ことば}→言葉：02880_kotoba⟧ (words) + ⟦{遊|あそ}び→遊び：01285_asobi⟧ (play). Covers a wide range of linguistic play, from children's games like しりとり (word chain) and なぞなぞ (riddles) to sophisticated literary puns and {掛|か}け⟦{言葉|ことば}→言葉：02880_kotoba⟧ (double-meaning words) in poetry and comedy.\n\nCOMMON COLLOCATIONS:\n- {言葉遊|ことばあそ}び⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧ — do wordplay, play word games\n- {言葉遊|ことばあそ}び⟦が→が：00051_ga⟧⟦{好|す}き→好き：02355_suki⟧ — like wordplay\n- ⟦{巧|たく}み→巧み：07153_takumi⟧な{言葉遊|ことばあそ}び — clever wordplay\n- {言葉遊|ことばあそ}び⟦の→の：09472_no⟧{本|ほん} — word game book\n\nSIMILAR WORDS:\n- ⟦{駄洒落|だじゃれ}→駄洒落：10148_dajare⟧ — pun, bad joke; a specific type of wordplay, often groan-inducing\n- {掛|か}け⟦{言葉|ことば}→言葉：02880_kotoba⟧ — double entendre, pivot word; a classical rhetorical technique using words with double meanings\n- {地口|じぐち} — a type of pun based on similar-sounding phrases; more literary and traditional",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "10148_dajare",
+      "reading": "だじゃれ",
+      "headword": "{駄洒落|だじゃれ}",
+      "label": "pun, bad joke"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25960_hayakuchikotoba",
+      "reading": "はやくちことば",
+      "headword": "{早口言葉|はやくちことば}",
+      "label": "tongue twister"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "language",
         "entertainment"
       ]
     },
     "created": "2026-04-18T13:16:38Z",
-    "modified": "2026-04-18T13:16:38Z"
+    "modified": "2026-09-02T04:02:17Z"
   }
 }

@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "07790_bakabakashii_ex1",
-      "japanese": "ばかばかしい{話|はなし}だ。",
+      "japanese": "ばかばかしい⟦{話|はなし}→話：01496_hanashi⟧だ。",
       "english": "That's a ridiculous story.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "07790_bakabakashii_ex2",
-      "japanese": "こんなことで{喧嘩|けんか}するなんてばかばかしい。",
+      "japanese": "⟦こんな→こんな：02881_konna⟧こと⟦で→で：00502_de⟧⟦{喧嘩|けんか}→喧嘩：02996_kenka⟧⟦する→する：00392_suru⟧⟦なんて→なんて：06918_nante⟧ばかばかしい。",
       "english": "Fighting over something like this is ridiculous.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "07790_bakabakashii_ex3",
-      "japanese": "あまりにばかばかしくて{笑|わら}ってしまった。",
+      "japanese": "あまり⟦に→に：00314_ni⟧ばかばかしくて⟦{笑|わら}って→笑う：00685_warau⟧しまった。",
       "english": "It was so absurd that I couldn't help but laugh.",
       "sense_numbers": [
         1
@@ -43,7 +43,7 @@
       "notes": null
     }
   ],
-  "notes": "ばかばかしい is an i-adjective formed by reduplicating ばか (stupid/fool) + しい.\n\nFORMS:\n- Adverbial: ばかばかしく\n- Te-form: ばかばかしくて\n- Negative: ばかばかしくない\n\nUSAGE:\nExpresses that something is too silly or absurd to take seriously. Often used to dismiss something as not worth one's time or attention.\n\nREGISTER: Slightly informal/emphatic. The reduplication adds emphasis and a dismissive tone.\n\nSIMILAR WORDS:\n- ばかばかしい: emphatic, dismissive (too ridiculous to bother with)\n- {馬鹿|ばか}らしい: similar but less emphatic\n- くだらない: worthless, trivial\n- あほらしい: silly (more casual, Kansai influence)",
+  "notes": "ばかばかしい is an i-adjective formed by reduplicating ばか (stupid/fool) + しい.\n\nFORMS:\n- Adverbial: ばかばかしく\n- Te-form: ばかばかしくて\n- Negative: ばかばかしく⟦ない→ない：01118_nai⟧\n\nUSAGE:\nExpresses that something is too silly or absurd to take seriously. Often used to dismiss something as not worth one's time or attention.\n\nREGISTER: Slightly informal/emphatic. The reduplication adds emphasis and a dismissive tone.\n\nSIMILAR WORDS:\n- ばかばかしい: emphatic, dismissive (too ridiculous to bother with)\n- ⟦{馬鹿|ばか}→馬鹿：03574_baka⟧らしい: similar but less emphatic\n- ⟦くだらない→くだらない：09416_kudaranai⟧: worthless, trivial\n- ⟦あほ→アホ：10703_aho⟧らしい: silly (more casual, Kansai influence)",
   "cross_references": [
     {
       "type": "synonym",
@@ -51,6 +51,20 @@
       "reading": "くだらない",
       "headword": "くだらない",
       "label": "worthless, trivial"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09421_ahorashii",
+      "reading": "あほらしい",
+      "headword": "アホらしい",
+      "label": "silly"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07914_kokkei",
+      "reading": "こっけい",
+      "headword": "{滑稽|こっけい}",
+      "label": "funny"
     }
   ],
   "metadata": {
@@ -66,7 +80,7 @@
       ]
     },
     "created": "2026-01-21T03:52:44Z",
-    "modified": "2026-04-18T08:05:14Z"
+    "modified": "2026-09-02T04:01:12Z"
   },
   "conjugation": {
     "type": "i-adjective",

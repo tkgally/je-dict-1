@@ -3,7 +3,7 @@
   "headword": "{無思慮|むしりょ}",
   "reading": "むしりょ",
   "romaji": "mushiryo",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, na-adjective",
   "gloss": "thoughtlessness; lack of consideration; recklessness",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25721_mushiryo_ex1",
-      "japanese": "{無思慮|むしりょ}な{発言|はつげん}をしてしまった。",
+      "japanese": "{無思慮|むしりょ}な⟦{発言|はつげん}→発言：05099_hatsugen⟧⟦を→を：00422_wo⟧⟦して→する：00392_suru⟧しまった。",
       "english": "I made a thoughtless remark.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25721_mushiryo_ex2",
-      "japanese": "{若|わか}い{頃|ころ}の{無思慮|むしりょ}な{行動|こうどう}を{反省|はんせい}している。",
+      "japanese": "{若|わか}い{頃|ころ}⟦の→の：09472_no⟧{無思慮|むしりょ}な⟦{行動|こうどう}→行動：02728_koudou⟧⟦を→を：00422_wo⟧⟦{反省|はんせい}している→反省する：21398_hanseisuru⟧。",
       "english": "I regret the reckless actions of my youth.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25721_mushiryo_ex3",
-      "japanese": "{無思慮|むしりょ}にSNSに{投稿|とうこう}すると{取|と}り{返|かえ}しのつかないことになる。",
+      "japanese": "{無思慮|むしりょ}⟦に→に：00314_ni⟧SNS⟦に→に：00314_ni⟧⟦{投稿|とうこう}する→投稿する：18994_toukousuru⟧⟦と→と：00512_to⟧{取|と}り{返|かえ}し⟦の→の：09472_no⟧つかないこと⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧。",
       "english": "Posting thoughtlessly on social media can lead to irreversible consequences.",
       "sense_numbers": [
         1
@@ -44,8 +44,30 @@
       "notes": null
     }
   ],
-  "notes": "{無|む} (without) + {思慮|しりょ} (consideration, deliberation). Can function as a noun or as a na-adjective ({無思慮|むしりょ}な). Describes a lack of careful thought, often with a critical nuance suggesting the person should have known better.\n\nCOMMON COLLOCATIONS:\n- {無思慮|むしりょ}な{行動|こうどう} — thoughtless behavior\n- {無思慮|むしりょ}な{発言|はつげん} — thoughtless remark\n- {無思慮|むしりょ}に — thoughtlessly (adverbial use)\n\nSIMILAR WORDS:\n- {軽率|けいそつ} — rash; hasty — emphasizes acting too quickly without thinking\n- {不注意|ふちゅうい} — carelessness; inattention — focuses on lack of attention rather than lack of thought\n- {思慮|しりょ}{深|ぶか}い — thoughtful; prudent — the positive opposite",
-  "cross_references": [],
+  "notes": "⟦{無|む}→無：17750_mu⟧ (without) + ⟦{思慮|しりょ}→思慮：25316_shiryo⟧ (consideration, deliberation). Can function as a noun or as a na-adjective ({無思慮|むしりょ}な). Describes a lack of careful thought, often with a critical nuance suggesting the person should have known better.\n\nCOMMON COLLOCATIONS:\n- {無思慮|むしりょ}な⟦{行動|こうどう}→行動：02728_koudou⟧ — thoughtless behavior\n- {無思慮|むしりょ}な⟦{発言|はつげん}→発言：05099_hatsugen⟧ — thoughtless remark\n- {無思慮|むしりょ}⟦に→に：00314_ni⟧ — thoughtlessly (adverbial use)\n\nSIMILAR WORDS:\n- ⟦{軽率|けいそつ}→軽率：06866_keisotsu⟧ — rash; hasty — emphasizes acting too quickly without thinking\n- ⟦{不注意|ふちゅうい}→不注意：15111_fuchuui⟧ — carelessness; inattention — focuses on lack of attention rather than lack of thought\n- ⟦{思慮|しりょ}{深|ぶか}い→思慮深い：15473_shiryobukai⟧ — thoughtful; prudent — the positive opposite",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06866_keisotsu",
+      "reading": "けいそつ",
+      "headword": "{軽率|けいそつ}",
+      "label": "rash"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15111_fuchuui",
+      "reading": "ふちゅうい",
+      "headword": "{不注意|ふちゅうい}",
+      "label": "carelessness"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15473_shiryobukai",
+      "reading": "しりょぶかい",
+      "headword": "{思慮深|しりょぶか}い",
+      "label": "thoughtful"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -54,12 +76,14 @@
         "noun",
         "adjective-na"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "personality",
         "abstract"
       ]
     },
     "created": "2026-04-26T16:35:26Z",
-    "modified": "2026-06-15T07:59:19Z"
+    "modified": "2026-09-02T04:02:23Z"
   }
 }

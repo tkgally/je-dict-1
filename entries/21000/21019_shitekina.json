@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21019_shitekina_ex1",
-      "japanese": "これは{私的|してき}な{意見|いけん}です。",
+      "japanese": "⟦これ→これ：00963_kore⟧⟦は→は：00079_ha⟧{私的|してき}な⟦{意見|いけん}→意見：01303_iken⟧です。",
       "english": "This is my personal opinion.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21019_shitekina_ex2",
-      "japanese": "{私的|してき}な{理由|りゆう}で{会社|かいしゃ}を{休|やす}んだ。",
+      "japanese": "{私的|してき}な⟦{理由|りゆう}→理由：01102_riyuu⟧⟦で→で：00502_de⟧⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦を→を：00422_wo⟧⟦{休|やす}んだ→休む：00606_yasumu⟧。",
       "english": "I took time off work for personal reasons.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21019_shitekina_ex3",
-      "japanese": "{公|おおやけ}の{場|ば}で{私的|してき}な{話題|わだい}を{持|も}ち{出|だ}すのは{避|さ}けたほうがいい。",
+      "japanese": "⟦{公|おおやけ}→公：11991_ooyake⟧⟦の→の：09472_no⟧⟦{場|ば}→場：03699_ba⟧⟦で→で：00502_de⟧{私的|してき}な⟦{話題|わだい}→話題：03793_wadai⟧⟦を→を：00422_wo⟧⟦{持|も}ち{出|だ}す→持ち出す：06160_mochidasu⟧⟦の→の：09472_no⟧⟦は→は：00079_ha⟧⟦{避|さ}けた→避ける：02109_sakeru⟧⟦ほうがいい→ほうがいい：10078_hougaii⟧。",
       "english": "It's better to avoid bringing up private topics in public settings.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "Describes matters belonging to an individual's personal sphere as opposed to the public or official domain. Often contrasted with {公的|こうてき}な (official, public).\n\nCOMMON COLLOCATIONS:\n- {私的|してき}な{意見|いけん}: personal opinion\n- {私的|してき}な{理由|りゆう}: personal reasons\n- {私的|してき}な{旅行|りょこう}: personal trip\n- {私的|してき}な{利用|りよう}: private use\n- {私的|してき}な{空間|くうかん}: private space\n\nSIMILAR WORDS:\n- {個人的|こじんてき}な: personal — more commonly used in everyday conversation; emphasizes the individual's perspective\n- {私用|しよう}の: for private use — narrower in meaning, focuses on using something for personal rather than work purposes\n- {プライベート}な: private — loanword variant, common in casual speech",
+  "notes": "Describes matters belonging to an individual's personal sphere as opposed to the public or official domain. Often contrasted with ⟦{公的|こうてき}→公的：06349_kouteki⟧な (official, public).\n\nCOMMON COLLOCATIONS:\n- {私的|してき}な⟦{意見|いけん}→意見：01303_iken⟧: personal opinion\n- {私的|してき}な⟦{理由|りゆう}→理由：01102_riyuu⟧: personal reasons\n- {私的|してき}な⟦{旅行|りょこう}→旅行：00748_ryokou⟧: personal trip\n- {私的|してき}な⟦{利用|りよう}→利用：01752_riyou⟧: private use\n- {私的|してき}な⟦{空間|くうかん}→空間：13754_kuukan⟧: private space\n\nSIMILAR WORDS:\n- ⟦{個人的|こじんてき}→個人的：04788_kojinteki⟧な: personal — more commonly used in everyday conversation; emphasizes the individual's perspective\n- ⟦{私用|しよう}→私用：00459_shiyou⟧⟦の→の：09472_no⟧: for private use — narrower in meaning, focuses on using something for personal rather than work purposes\n- ⟦プライベート→プライベート：11277_puraibeeto⟧な: private — loanword variant, common in casual speech",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04788_kojinteki",
+      "reading": "こじんてき",
+      "headword": "{個人的|こじんてき}",
+      "label": "personal"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +68,6 @@
       ]
     },
     "created": "2026-03-31T15:26:15Z",
-    "modified": "2026-07-29T00:22:41Z"
+    "modified": "2026-09-02T04:02:01Z"
   }
 }

@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "07374_hinanjo_ex1",
-      "japanese": "{地震|じしん}の{後|あと}、{避難所|ひなんじょ}に{向|む}かった。",
+      "japanese": "⟦{地震|じしん}→地震：01608_jishin⟧⟦の→の：09472_no⟧⟦{後|あと}→後：09580_ato⟧、{避難所|ひなんじょ}⟦に→に：00314_ni⟧⟦{向|む}かった→向かう：01186_mukau⟧。",
       "english": "After the earthquake, we headed to the evacuation shelter.",
       "has_audio": false,
       "sense_numbers": [
@@ -23,7 +23,7 @@
     },
     {
       "id": "07374_hinanjo_ex2",
-      "japanese": "{近|ちか}くの{学校|がっこう}が{避難所|ひなんじょ}に{指定|してい}されている。",
+      "japanese": "{近|ちか}く⟦の→の：09472_no⟧⟦{学校|がっこう}→学校：00055_gakkou⟧⟦が→が：00051_ga⟧{避難所|ひなんじょ}⟦に→に：00314_ni⟧⟦{指定|してい}→指定：00373_shitei⟧⟦されている→する：00392_suru⟧。",
       "english": "The nearby school is designated as an evacuation shelter.",
       "has_audio": false,
       "sense_numbers": [
@@ -32,7 +32,7 @@
     },
     {
       "id": "07374_hinanjo_ex3",
-      "japanese": "{避難所|ひなんじょ}で{数日間|すうじつかん}{生活|せいかつ}した。",
+      "japanese": "{避難所|ひなんじょ}⟦で→で：00502_de⟧{数日間|すうじつかん}⟦{生活|せいかつ}した→生活する：01839_seikatsusuru⟧。",
       "english": "I stayed at the evacuation shelter for several days.",
       "has_audio": false,
       "sense_numbers": [
@@ -40,10 +40,10 @@
       ]
     }
   ],
-  "notes": "WORD FORMATION:\n{避難|ひなん} (evacuation) + {所|じょ} (place)\n\nTYPES:\n・{指定|してい}{避難所|ひなんじょ} - designated evacuation shelter\n・{広域|こういき}{避難所|ひなんじょ} - wide-area evacuation site\n・{一時|いちじ}{避難所|ひなんじょ} - temporary evacuation shelter\n\nCOMMON COLLOCATIONS:\n・{避難所|ひなんじょ}に{避難|ひなん}する (to evacuate to a shelter)\n・{避難所|ひなんじょ}を{開設|かいせつ}する (to open a shelter)\n・{避難所|ひなんじょ}で{過|す}ごす (to spend time at a shelter)\n・{避難所|ひなんじょ}{運営|うんえい} (shelter management)\n\nCULTURAL NOTE:\nIn Japan, schools and community centers are often designated as {避難所|ひなんじょ}. Due to frequent earthquakes and typhoons, knowing your local evacuation shelter is part of disaster preparedness. Signs with 「{避難所|ひなんじょ}」 are common.\n\nRELATED WORDS:\n・{避難|ひなん} - evacuation\n・{避難経路|ひなんけいろ} - evacuation route\n・{防災|ぼうさい} - disaster prevention\n・{備蓄|びちく} - emergency supplies/stockpile",
+  "notes": "FORMS:\n⟦{避難|ひなん}→避難：07908_hinan⟧ (evacuation) + {所|じょ} (place)\n\nTYPES:\n- ⟦{指定|してい}→指定：00373_shitei⟧{避難所|ひなんじょ} - designated evacuation shelter\n- ⟦{広域|こういき}→広域：12533_kouiki⟧{避難所|ひなんじょ} - wide-area evacuation site\n- ⟦{一時|いちじ}→一時：01799_ichiji⟧{避難所|ひなんじょ} - temporary evacuation shelter\n\nCOMMON COLLOCATIONS:\n- {避難所|ひなんじょ}⟦に→に：00314_ni⟧⟦{避難|ひなん}する→避難する：26827_hinansuru⟧ (to evacuate to a shelter)\n- {避難所|ひなんじょ}⟦を→を：00422_wo⟧⟦{開設|かいせつ}する→開設する：30272_kaisetsusuru⟧ (to open a shelter)\n- {避難所|ひなんじょ}⟦で→で：00502_de⟧⟦{過|す}ごす→過ごす：02062_sugosu⟧ (to spend time at a shelter)\n- {避難所|ひなんじょ}⟦{運営|うんえい}→運営：05096_unei⟧ (shelter management)\n\nCULTURAL NOTE:\nIn Japan, schools and community centers are often designated as {避難所|ひなんじょ}. Due to frequent earthquakes and typhoons, knowing your local evacuation shelter is part of disaster preparedness. Signs with 「{避難所|ひなんじょ}」 are common.\n\nRELATED WORDS:\n- ⟦{避難|ひなん}→避難：07908_hinan⟧ - evacuation\n- ⟦{避難経路|ひなんけいろ}→避難経路：07138_hinankeiro⟧ - evacuation route\n- ⟦{防災|ぼうさい}→防災：07907_bousai⟧ - disaster prevention\n- ⟦{備蓄|びちく}→備蓄：07589_bichiku⟧ - emergency supplies/stockpile",
   "metadata": {
     "created": "2026-01-19T06:02:23Z",
-    "modified": "2026-04-19T04:14:33Z",
+    "modified": "2026-09-02T04:01:11Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -64,6 +64,55 @@
       "reading": "ひなん",
       "headword": "{避難|ひなん}",
       "label": "evacuation"
+    },
+    {
+      "type": "related",
+      "target_id": "07138_hinankeiro",
+      "reading": "ひなんけいろ",
+      "headword": "{避難経路|ひなんけいろ}",
+      "label": "evacuation route"
+    },
+    {
+      "type": "related",
+      "target_id": "07907_bousai",
+      "reading": "ぼうさい",
+      "headword": "{防災|ぼうさい}",
+      "label": "disaster prevention"
+    },
+    {
+      "type": "related",
+      "target_id": "07589_bichiku",
+      "reading": "びちく",
+      "headword": "{備蓄|びちく}",
+      "label": "emergency supplies/stockpile"
+    },
+    {
+      "type": "related",
+      "target_id": "16642_hinankankoku",
+      "reading": "ひなんかんこく",
+      "headword": "{避難勧告|ひなんかんこく}",
+      "label": "evacuation advisory"
+    },
+    {
+      "type": "related",
+      "target_id": "20801_hinanshiji",
+      "reading": "ひなんしじ",
+      "headword": "{避難指示|ひなんしじ}",
+      "label": "evacuation order"
+    },
+    {
+      "type": "related",
+      "target_id": "27434_hisaichi",
+      "reading": "ひさいち",
+      "headword": "{被災地|ひさいち}",
+      "label": "disaster-stricken area"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30110_kakekomidera",
+      "reading": "かけこみでら",
+      "headword": "{駆|か}け{込|こ}み{寺|でら}",
+      "label": "place of refuge"
     }
   ]
 }

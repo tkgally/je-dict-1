@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "17478_dentoukougei_ex1",
-      "japanese": "{京都|きょうと}は{伝統工芸|でんとうこうげい}の{宝庫|ほうこ}だ。",
+      "japanese": "⟦{京都|きょうと}→京都：09484_kyouto⟧⟦は→は：00079_ha⟧{伝統工芸|でんとうこうげい}⟦の→の：09472_no⟧⟦{宝庫|ほうこ}→宝庫：17392_houko⟧だ。",
       "english": "Kyoto is a treasure trove of traditional crafts.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "17478_dentoukougei_ex2",
-      "japanese": "{伝統工芸|でんとうこうげい}の{技術|ぎじゅつ}を{次|つぎ}の{世代|せだい}に{伝|つた}えたい。",
+      "japanese": "{伝統工芸|でんとうこうげい}⟦の→の：09472_no⟧⟦{技術|ぎじゅつ}→技術：01389_gijutsu⟧⟦を→を：00422_wo⟧⟦{次|つぎ}→次：00819_tsugi⟧⟦の→の：09472_no⟧⟦{世代|せだい}→世代：05102_sedai⟧⟦に→に：00314_ni⟧⟦{伝|つた}えたい→伝える：01220_tsutaeru⟧。",
       "english": "I want to pass on traditional craft techniques to the next generation.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "17478_dentoukougei_ex3",
-      "japanese": "{後継者|こうけいしゃ}{不足|ぶそく}が{深刻|しんこく}で、{多|おお}くの{伝統工芸|でんとうこうげい}が{消|き}えてしまう{危機|きき}にある。",
+      "japanese": "⟦{後継者|こうけいしゃ}→後継者：12592_koukeisha⟧{不足|ぶそく}⟦が→が：00051_ga⟧⟦{深刻|しんこく}→深刻：01567_shinkoku⟧で、{多|おお}く⟦の→の：09472_no⟧{伝統工芸|でんとうこうげい}⟦が→が：00051_ga⟧⟦{消|き}えて→消える：02520_kieru⟧しまう⟦{危機|きき}→危機：11798_kiki⟧⟦に→に：00314_ni⟧⟦ある→ある：00006_aru⟧。",
       "english": "The shortage of successors is serious, and many traditional crafts are in danger of disappearing.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "CULTURAL NOTES:\nJapan officially designates certain crafts as {伝統的工芸品|でんとうてきこうげいひん} (traditional craft products) under the Traditional Craft Industries Promotion Act. Well-known examples include {輪島塗|わじまぬり} (Wajima lacquerware), {有田焼|ありたやき} (Arita porcelain), {西陣織|にしじんおり} (Nishijin weaving), and {江戸切子|えどきりこ} (Edo cut glass).\n\nMany of these crafts face the challenge of {後継者|こうけいしゃ}{不足|ぶそく} (lack of successors), as younger generations often prefer other careers.\n\nCOMMON COLLOCATIONS:\n- {伝統工芸|でんとうこうげい}{品|ひん} (traditional craft product)\n- {伝統工芸|でんとうこうげい}{士|し} (traditional craft artisan)\n- {伝統工芸|でんとうこうげい}を{守|まも}る (to preserve traditional crafts)\n- {伝統工芸|でんとうこうげい}{体験|たいけん} (traditional craft experience/workshop)",
+  "notes": "CULTURAL NOTE:\nJapan officially designates certain crafts as {伝統的工芸品|でんとうてきこうげいひん} (traditional craft products) under the Traditional Craft Industries Promotion Act. Well-known examples include {輪島塗|わじまぬり} (Wajima lacquerware), ⟦{有田焼|ありたやき}→有田焼：28604_aritayaki⟧ (Arita porcelain), {西陣織|にしじんおり} (Nishijin weaving), and {江戸切子|えどきりこ} (Edo cut glass).\n\nMany of these crafts face the challenge of ⟦{後継者|こうけいしゃ}→後継者：12592_koukeisha⟧{不足|ぶそく} (lack of successors), as younger generations often prefer other careers.\n\nCOMMON COLLOCATIONS:\n- {伝統工芸|でんとうこうげい}{品|ひん} (traditional craft product)\n- {伝統工芸|でんとうこうげい}⟦{士|し}→〜士：28352_shi⟧ (traditional craft artisan)\n- {伝統工芸|でんとうこうげい}⟦を→を：00422_wo⟧⟦{守|まも}る→守る：01986_mamoru⟧ (to preserve traditional crafts)\n- {伝統工芸|でんとうこうげい}⟦{体験|たいけん}→体験：11443_taiken⟧ (traditional craft experience/workshop)",
   "cross_references": [
     {
       "type": "related",
@@ -52,11 +52,25 @@
       "reading": "でんとう",
       "headword": "{伝統|でんとう}",
       "label": "tradition"
+    },
+    {
+      "type": "related",
+      "target_id": "21116_mingeihin",
+      "reading": "みんげいひん",
+      "headword": "{民芸品|みんげいひん}",
+      "label": "folk craft"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24104_dentousangyou",
+      "reading": "でんとうさんぎょう",
+      "headword": "{伝統産業|でんとうさんぎょう}",
+      "label": "traditional industry"
     }
   ],
   "metadata": {
     "created": "2026-03-18T02:11:52Z",
-    "modified": "2026-05-06T08:07:18Z",
+    "modified": "2026-09-02T04:01:48Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

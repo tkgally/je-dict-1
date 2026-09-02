@@ -15,40 +15,59 @@
   "examples": [
     {
       "id": "16227_hanazumari_ex1",
-      "japanese": "{鼻詰|はなづ}まりがひどい。",
+      "japanese": "{鼻詰|はなづ}まり⟦が→が：00051_ga⟧⟦ひどい→ひどい：01097_hidoi⟧。",
       "english": "My nose is really stuffy.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16227_hanazumari_ex2",
-      "japanese": "{花粉症|かふんしょう}で{鼻詰|はなづ}まりが{続|つづ}いている。",
+      "japanese": "⟦{花粉症|かふんしょう}→花粉症：04409_kafunshou⟧⟦で→で：00502_de⟧{鼻詰|はなづ}まり⟦が→が：00051_ga⟧⟦{続|つづ}いている→続く：00903_tsuzuku⟧。",
       "english": "I've had a stuffy nose from hay fever.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16227_hanazumari_ex3",
-      "japanese": "{鼻詰|はなづ}まりがひどくて、{夜|よる}よく{眠|ねむ}れなかった。",
+      "japanese": "{鼻詰|はなづ}まり⟦が→が：00051_ga⟧⟦ひどくて→ひどい：01097_hidoi⟧、⟦{夜|よる}→夜：00487_yoru⟧⟦よく→よく：00601_yoku⟧⟦{眠|ねむ}れなかった→眠れる：15166_nemureru⟧。",
       "english": "My nasal congestion was so bad that I couldn't sleep well at night.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\n{鼻詰|はなづ}まり describes the symptom of a blocked nose. It is commonly used when talking about colds, allergies, and sinus problems.\n\nWORD FORMATION:\n{鼻|はな} (nose) + {詰|つ}まり (blockage, from {詰|つ}まる \"to be blocked\").\n\nCOMMON COLLOCATIONS:\n- {鼻詰|はなづ}まりがひどい: to have bad nasal congestion\n- {鼻詰|はなづ}まりを{解消|かいしょう}する: to relieve nasal congestion\n- {鼻詰|はなづ}まりが{続|つづ}く: nasal congestion persists",
-  "cross_references": [],
+  "notes": "USAGE:\n{鼻詰|はなづ}まり describes the symptom of a blocked nose. It is commonly used when talking about colds, allergies, and sinus problems.\n\nFORMS:\n⟦{鼻|はな}→鼻：02164_hana⟧ (nose) + {詰|つ}まり (blockage, from ⟦{詰|つ}まる→詰まる：02079_tsumaru⟧ \"to be blocked\").\n\nCOMMON COLLOCATIONS:\n- {鼻詰|はなづ}まり⟦が→が：00051_ga⟧⟦ひどい→ひどい：01097_hidoi⟧: to have bad nasal congestion\n- {鼻詰|はなづ}まり⟦を→を：00422_wo⟧⟦{解消|かいしょう}する→解消する：21324_kaishousuru⟧: to relieve nasal congestion\n- {鼻詰|はなづ}まり⟦が→が：00051_ga⟧⟦{続|つづ}く→続く：00903_tsuzuku⟧: nasal congestion persists",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23917_bien",
+      "reading": "びえん",
+      "headword": "{鼻炎|びえん}",
+      "label": "rhinitis"
+    }
+  ],
   "metadata": {
     "created": "2026-03-11T07:58:54Z",
-    "modified": "2026-03-11T07:58:54Z",
+    "modified": "2026-09-02T04:01:44Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["body", "medical"]
+      "semantic": [
+        "body",
+        "medical"
+      ]
     }
   }
 }

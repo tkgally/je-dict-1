@@ -24,7 +24,7 @@
     },
     {
       "id": "04369_kaben_ex2",
-      "japanese": "この⟦{花|はな}→花：00523_hana⟧⟦は→は：00079_ha⟧{花弁|かべん}⟦が→が：00051_ga⟧⟦{五枚|ごまい}→〜枚：00650_mai⟧⟦ある→ある：00006_aru⟧。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{花|はな}→花：00523_hana⟧⟦は→は：00079_ha⟧{花弁|かべん}⟦が→が：00051_ga⟧⟦{五枚|ごまい}→〜枚：00650_mai⟧⟦ある→ある：00006_aru⟧。",
       "english": "This flower has five petals.",
       "notes": null,
       "has_audio": false,
@@ -63,11 +63,19 @@
       ]
     }
   ],
-  "notes": "{花弁|かべん} refers to flower petals.\n\nAlternative reading: {花弁|はなびら} (more colloquial)\n\nCommon expressions:\n- {花弁|かべん}⟦が→が：00051_ga⟧⟦{散|ち}る→散る：02075_chiru⟧ (petals scatter/fall)\n- {花弁|かべん}⟦が→が：00051_ga⟧⟦{開|ひら}く→開く：00689_aku⟧ (petals open)\n- ⟦{一重|ひとえ}→一重：06463_hitoe⟧ (single-petaled)\n- ⟦{八重|やえ}→八重：29805_yae⟧ (double-petaled, many petals)\n\nCounter: ⟦{枚|まい}→〜枚：00650_mai⟧\n\nNote:\n{花弁|かべん} is the formal/scientific term, while {花弁|はなびら} is more commonly used in everyday speech. The poetic image of cherry blossom petals (⟦{桜|さくら}→桜：02212_sakura⟧の{花弁|はなびら}) scattering in the wind is iconic in Japanese culture.",
-  "cross_references": [],
+  "notes": "{花弁|かべん} refers to flower petals.\n\nAlternative reading: {花弁|はなびら} (more colloquial)\n\nCommon expressions:\n- {花弁|かべん}⟦が→が：00051_ga⟧⟦{散|ち}る→散る：02075_chiru⟧ (petals scatter/fall)\n- {花弁|かべん}⟦が→が：00051_ga⟧⟦{開|ひら}く→開く：00689_aku⟧ (petals open)\n- ⟦{一重|ひとえ}→一重：06463_hitoe⟧ (single-petaled)\n- ⟦{八重|やえ}→八重：29805_yae⟧ (double-petaled, many petals)\n\nCounter: ⟦{枚|まい}→〜枚：00650_mai⟧\n\nNote:\n{花弁|かべん} is the formal/scientific term, while {花弁|はなびら} is more commonly used in everyday speech. The poetic image of cherry blossom petals (⟦{桜|さくら}→桜：02212_sakura⟧⟦の→の：09472_no⟧{花弁|はなびら}) scattering in the wind is iconic in Japanese culture.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24444_kashin",
+      "reading": "かしん",
+      "headword": "{花芯|かしん}",
+      "label": "center of a flower"
+    }
+  ],
   "metadata": {
     "created": "2026-01-14T11:02:41Z",
-    "modified": "2026-08-14T18:22:55Z",
+    "modified": "2026-09-02T04:01:04Z",
     "vocabulary_tier": "core",
     "tags": {
       "pos": [

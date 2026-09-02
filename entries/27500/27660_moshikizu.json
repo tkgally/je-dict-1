@@ -15,40 +15,73 @@
   "examples": [
     {
       "id": "27660_moshikizu_ex1",
-      "japanese": "{細胞|さいぼう}の{模式図|もしきず}を{描|か}く。",
+      "japanese": "⟦{細胞|さいぼう}→細胞：05030_saibou⟧⟦の→の：09472_no⟧{模式図|もしきず}⟦を→を：00422_wo⟧⟦{描|か}く→描く：28436_kaku⟧。",
       "english": "To draw a schematic diagram of a cell.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27660_moshikizu_ex2",
-      "japanese": "{模式図|もしきず}で{仕組|しく}みを{説明|せつめい}する。",
+      "japanese": "{模式図|もしきず}⟦で→で：00502_de⟧⟦{仕組|しく}み→仕組み：07168_shikumi⟧⟦を→を：00422_wo⟧⟦{説明|せつめい}する→説明する：05639_setsumeisuru⟧。",
       "english": "To explain the mechanism with a schematic diagram.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27660_moshikizu_ex3",
-      "japanese": "{教科書|きょうかしょ}には{消化器官|しょうかきかん}の{模式図|もしきず}が{載|の}っている。",
+      "japanese": "⟦{教科書|きょうかしょ}→教科書：01085_kyoukasho⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{消化器官|しょうかきかん}→消化器官：27764_shoukakikan⟧⟦の→の：09472_no⟧{模式図|もしきず}⟦が→が：00051_ga⟧⟦{載|の}っている→載る：27882_noru⟧。",
       "english": "The textbook contains a schematic diagram of the digestive organs.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A diagram that strips away realistic detail to show only the essential structure or relationships, common in science textbooks and technical explanations.\n\nCOMMON COLLOCATIONS:\n- {模式図|もしきず}を{描|か}く: to draw a schematic diagram\n- {模式図|もしきず}で{示|しめ}す: to show with a schematic\n\nSIMILAR WORDS:\n- {図解|ずかい}: illustration; diagrammatic explanation — explaining a topic through pictures generally\n- {見取|みと}り{図|ず}: rough sketch; layout drawing — a simplified plan, often of a room or site",
+  "notes": "A diagram that strips away realistic detail to show only the essential structure or relationships, common in science textbooks and technical explanations.\n\nCOMMON COLLOCATIONS:\n- {模式図|もしきず}⟦を→を：00422_wo⟧⟦{描|か}く→描く：28436_kaku⟧: to draw a schematic diagram\n- {模式図|もしきず}⟦で→で：00502_de⟧⟦{示|しめ}す→示す：01948_shimesu⟧: to show with a schematic\n\nSIMILAR WORDS:\n- ⟦{図解|ずかい}→図解：18235_zukai⟧: illustration; diagrammatic explanation — explaining a topic through pictures generally\n- ⟦{見取|みと}り{図|ず}→見取り図：14836_mitorizu⟧: rough sketch; layout drawing — a simplified plan, often of a room or site",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18235_zukai",
+      "reading": "ずかい",
+      "headword": "{図解|ずかい}",
+      "label": "illustration"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14836_mitorizu",
+      "reading": "みとりず",
+      "headword": "{見取|みと}り{図|ず}",
+      "label": "rough sketch"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26101_setsumeizu",
+      "reading": "せつめいず",
+      "headword": "{説明図|せつめいず}",
+      "label": "explanatory diagram"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     },
     "created": "2026-05-16T03:10:15Z",
-    "modified": "2026-05-16T03:10:15Z"
+    "modified": "2026-09-02T04:02:31Z"
   }
 }

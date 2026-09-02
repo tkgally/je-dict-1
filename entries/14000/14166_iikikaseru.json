@@ -3,7 +3,7 @@
   "id": "14166_iikikaseru",
   "headword": "{言|い}い{聞|き}かせる",
   "reading": "いいきかせる",
-  "part_of_speech": "verb-ichidan",
+  "part_of_speech": "verb (ichidan)",
   "gloss": "to admonish, to persuade, to tell firmly",
   "conjugation": {
     "type": "ichidan",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "14166_iikikaseru_ex1",
-      "japanese": "{子|こ}どもに{言|い}い{聞|き}かせる。",
+      "japanese": "{子|こ}ども⟦に→に：00314_ni⟧{言|い}い{聞|き}かせる。",
       "english": "To reason with a child.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "14166_iikikaseru_ex2",
-      "japanese": "{自分|じぶん}に{言|い}い{聞|き}かせるように{繰|く}り{返|かえ}した。",
+      "japanese": "⟦{自分|じぶん}→自分：02887_jibun⟧⟦に→に：00314_ni⟧{言|い}い{聞|き}かせるよう⟦に→に：00314_ni⟧⟦{繰|く}り{返|かえ}した→繰り返す：02051_kurikaesu⟧。",
       "english": "I repeated it as if trying to convince myself.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "14166_iikikaseru_ex3",
-      "japanese": "{先生|せんせい}が{生徒|せいと}にルールを{守|まも}るよう{何度|なんど}も{言|い}い{聞|き}かせた。",
+      "japanese": "⟦{先生|せんせい}→先生：00609_sensei⟧⟦が→が：00051_ga⟧⟦{生徒|せいと}→生徒：01051_seito⟧⟦に→に：00314_ni⟧⟦ルール→ルール：00354_ruuru⟧⟦を→を：00422_wo⟧⟦{守|まも}る→守る：01986_mamoru⟧よう⟦{何度|なんど}→何度：17592_nando⟧⟦も→も：00484_mo⟧{言|い}い{聞|き}かせた。",
       "english": "The teacher repeatedly told the students to follow the rules.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,19 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{言|い}い{聞|き}かせる implies patience and repetition — it is not a one-time command but a process of making someone understand through explanation. The reflexive pattern {自分|じぶん}に{言|い}い{聞|き}かせる (to tell oneself, to convince oneself) is very common and expresses trying to accept something difficult.\n\nCOMMON COLLOCATIONS:\n- {子|こ}どもに{言|い}い{聞|き}かせる: to reason with a child\n- {自分|じぶん}に{言|い}い{聞|き}かせる: to convince oneself\n- よく{言|い}い{聞|き}かせる: to explain carefully and thoroughly\n- {何度|なんど}も{言|い}い{聞|き}かせる: to tell repeatedly",
-  "cross_references": [],
+  "notes": "USAGE:\n{言|い}い{聞|き}かせる implies patience and repetition — it is not a one-time command but a process of making someone understand through explanation. The reflexive pattern ⟦{自分|じぶん}→自分：02887_jibun⟧⟦に→に：00314_ni⟧{言|い}い{聞|き}かせる (to tell oneself, to convince oneself) is very common and expresses trying to accept something difficult.\n\nCOMMON COLLOCATIONS:\n- {子|こ}ども⟦に→に：00314_ni⟧{言|い}い{聞|き}かせる: to reason with a child\n- ⟦{自分|じぶん}→自分：02887_jibun⟧⟦に→に：00314_ni⟧{言|い}い{聞|き}かせる: to convince oneself\n- ⟦よく→よく：00601_yoku⟧{言|い}い{聞|き}かせる: to explain carefully and thoroughly\n- ⟦{何度|なんど}→何度：17592_nando⟧⟦も→も：00484_mo⟧{言|い}い{聞|き}かせる: to tell repeatedly",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22798_nattokusaseru",
+      "reading": "なっとくさせる",
+      "headword": "{納得|なっとく}させる",
+      "label": "to convince"
+    }
+  ],
   "metadata": {
     "created": "2026-02-28T01:52:00Z",
-    "modified": "2026-03-29T03:08:18Z",
+    "modified": "2026-09-02T04:01:36Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

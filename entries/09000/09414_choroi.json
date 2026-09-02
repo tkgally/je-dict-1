@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "09414_choroi_ex1",
-      "japanese": "こんなの、ちょろいよ。",
+      "japanese": "⟦こんな→こんな：02881_konna⟧⟦の→の：09472_no⟧、ちょろい⟦よ→よ：09475_yo⟧。",
       "english": "This is a piece of cake.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "09414_choroi_ex2",
-      "japanese": "{試験|しけん}はちょろかった。",
+      "japanese": "⟦{試験|しけん}→試験：01422_shiken⟧⟦は→は：00079_ha⟧ちょろかった。",
       "english": "The exam was super easy.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "09414_choroi_ex3",
-      "japanese": "あいつはちょろいからすぐ{騙|だま}せる。",
+      "japanese": "⟦あいつ→あいつ：08267_aitsu⟧⟦は→は：00079_ha⟧ちょろい⟦から→から：00504_kara⟧⟦すぐ→すぐ：00814_sugu⟧⟦{騙|だま}せる→騙す：02286_damasu⟧。",
       "english": "He's a pushover, so you can fool him easily.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
     },
     {
       "id": "09414_choroi_ex4",
-      "japanese": "ちょろいと{思|おも}ったら{大間違|おおまちが}いだぞ。",
+      "japanese": "ちょろい⟦と→と：00512_to⟧⟦{思|おも}ったら→思う：00492_omou⟧{大間違|おおまちが}いだぞ。",
       "english": "If you think this is easy, you're dead wrong.",
       "notes": null,
       "has_audio": false,
@@ -53,10 +53,40 @@
       ]
     }
   ],
-  "notes": "ちょろい is a casual/slang i-adjective meaning something is extremely easy or no challenge at all. Much more emphatic and informal than {簡単|かんたん} or {易|やさ}しい.\n\nTWO USES:\n1. About tasks: extremely easy, a piece of cake\n2. About people: easy to fool, gullible, a pushover (rude)\n\nFORMS:\n- Past: ちょろかった (was easy)\n- Negative: ちょろくない (not easy)\n- Adverbial: ちょろく (easily)\n\nCOMMON EXPRESSIONS:\n- ちょろいもんだ: it's a cinch\n- ちょろいと{思|おも}うな: don't think it'll be easy\n- {楽勝|らくしょう}、ちょろい: easy win, piece of cake\n\nSIMILAR WORDS:\n- {簡単|かんたん}: easy (neutral, standard)\n- {易|やさ}しい: easy, simple (standard)\n- {楽勝|らくしょう}: easy win (casual)\n- {朝飯前|あさめしまえ}: a piece of cake (idiomatic)\n\nREGISTER:\nVery casual/slang. Not appropriate for formal situations.",
+  "notes": "ちょろい is a casual/slang i-adjective meaning something is extremely easy or no challenge at all. Much more emphatic and informal than ⟦{簡単|かんたん}→簡単：00713_kantan⟧ or {易|やさ}しい.\n\nFUNCTIONS:\n1. About tasks: extremely easy, a piece of cake\n2. About people: easy to fool, gullible, a pushover (rude)\n\nFORMS:\n- Past: ちょろかった (was easy)\n- Negative: ちょろく⟦ない→ない：01118_nai⟧ (not easy)\n- Adverbial: ちょろく (easily)\n\nCOMMON EXPRESSIONS:\n- ちょろいもんだ: it's a cinch\n- ちょろい⟦と→と：00512_to⟧⟦{思|おも}う→思う：00492_omou⟧な: don't think it'll be easy\n- ⟦{楽勝|らくしょう}→楽勝：21433_rakushou⟧、ちょろい: easy win, piece of cake\n\nSIMILAR WORDS:\n- ⟦{簡単|かんたん}→簡単：00713_kantan⟧: easy (neutral, standard)\n- {易|やさ}しい: easy, simple (standard)\n- ⟦{楽勝|らくしょう}→楽勝：21433_rakushou⟧: easy win (casual)\n- ⟦{朝飯前|あさめしまえ}→朝飯前：10551_asameshimae⟧: a piece of cake (idiomatic)\n\nREGISTER:\nVery casual/slang. Not appropriate for formal situations.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00713_kantan",
+      "reading": "かんたん",
+      "headword": "{簡単|かんたん}",
+      "label": "easy"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00765_yasashii",
+      "reading": "やさしい",
+      "headword": "{易|やさ}しい",
+      "label": "easy, simple"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21433_rakushou",
+      "reading": "らくしょう",
+      "headword": "{楽勝|らくしょう}",
+      "label": "easy win"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10551_asameshimae",
+      "reading": "あさめしまえ",
+      "headword": "{朝飯前|あさめしまえ}",
+      "label": "a piece of cake"
+    }
+  ],
   "metadata": {
     "created": "2026-02-01T11:09:04Z",
-    "modified": "2026-03-28T07:51:23Z",
+    "modified": "2026-09-02T04:01:18Z",
     "ai_model": "opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

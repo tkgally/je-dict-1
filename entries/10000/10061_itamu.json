@@ -109,7 +109,7 @@
   "examples": [
     {
       "id": "10061_itamu_ex1",
-      "japanese": "この{建物|たてもの}は{長|なが}い{年月|ねんげつ}の{間|あいだ}に{少|すこ}しずつ{傷|いた}んできた。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{建物|たてもの}→建物：01458_tatemono⟧⟦は→は：00079_ha⟧⟦{長|なが}い→長い：00491_nagai⟧⟦{年月|ねんげつ}→年月：00310_nengetsu⟧⟦の→の：09472_no⟧⟦{間|あいだ}→間：00914_aida⟧⟦に→に：00314_ni⟧⟦{少|すこ}し→少し：00596_sukoshi⟧⟦ずつ→〜ずつ：03092_zutsu⟧{傷|いた}んできた。",
       "english": "This building has gradually deteriorated over the years.",
       "notes": null,
       "has_audio": false,
@@ -119,7 +119,7 @@
     },
     {
       "id": "10061_itamu_ex2",
-      "japanese": "{髪|かみ}が{傷|いた}んでいる。",
+      "japanese": "⟦{髪|かみ}→髪：02196_kami⟧⟦が→が：00051_ga⟧{傷|いた}んで⟦いる→いる：00495_iru⟧。",
       "english": "My hair is damaged.",
       "notes": null,
       "has_audio": false,
@@ -129,7 +129,7 @@
     },
     {
       "id": "10061_itamu_ex3",
-      "japanese": "{暑|あつ}いと{食|た}べ{物|もの}が{傷|いた}みやすい。",
+      "japanese": "⟦{暑|あつ}い→暑い：00619_atsui⟧⟦と→と：00512_to⟧⟦{食|た}べ{物|もの}→食べ物：02890_tabemono⟧⟦が→が：00051_ga⟧{傷|いた}みやすい。",
       "english": "Food spoils easily in the heat.",
       "notes": null,
       "has_audio": false,
@@ -139,7 +139,7 @@
     },
     {
       "id": "10061_itamu_ex4",
-      "japanese": "{果物|くだもの}が{傷|いた}む{前|まえ}に{食|た}べよう。",
+      "japanese": "⟦{果物|くだもの}→果物：00509_kudamono⟧⟦が→が：00051_ga⟧{傷|いた}む⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧⟦{食|た}べよう→食べる：00396_taberu⟧。",
       "english": "Let's eat the fruit before it goes bad.",
       "notes": null,
       "has_audio": false,
@@ -148,7 +148,7 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: {自動詞|じどうし} (intransitive). Pair: {傷|いた}める (transitive). Pattern: Xが{傷|いた}む.\n\nHOMOPHONES:\n・{痛|いた}む - to hurt, to ache\n・{傷|いた}む - to be damaged, to spoil (this entry)\n\nASPECT: ている indicates a current state of being damaged/spoiled.\n\nCOMMON PATTERNS:\n・{髪|かみ}が{傷|いた}む (hair becomes damaged)\n・{食|た}べ{物|もの}が{傷|いた}む (food spoils)\n・{傷|いた}みやすい (easily damaged/perishable)",
+  "notes": "TRANSITIVITY: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive). Pair: ⟦{傷|いた}める→傷める：02098_itameru⟧ (transitive). Pattern: X⟦が→が：00051_ga⟧{傷|いた}む.\n\nWATCH OUT:\n- ⟦{痛|いた}む→痛む：03008_itamu⟧ - to hurt, to ache\n- {傷|いた}む - to be damaged, to spoil (this entry)\n\nASPECT: て⟦いる→いる：00495_iru⟧ indicates a current state of being damaged/spoiled.\n\nCOMMON PATTERNS:\n- ⟦{髪|かみ}→髪：02196_kami⟧⟦が→が：00051_ga⟧{傷|いた}む (hair becomes damaged)\n- ⟦{食|た}べ{物|もの}→食べ物：02890_tabemono⟧⟦が→が：00051_ga⟧{傷|いた}む (food spoils)\n- {傷|いた}みやすい (easily damaged/perishable)",
   "prominent_see_also": [
     {
       "target_id": "03008_itamu",
@@ -176,11 +176,18 @@
       "reading": "くさる",
       "headword": "{腐|くさ}る",
       "label": "to rot, decay"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08216_surikireru",
+      "reading": "すりきれる",
+      "headword": "{擦|す}り{切|き}れる",
+      "label": "to wear out"
     }
   ],
   "metadata": {
     "created": "2026-02-05T02:14:44Z",
-    "modified": "2026-05-17T23:15:37Z",
+    "modified": "2026-09-02T04:01:20Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

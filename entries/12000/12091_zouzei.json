@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "12091_zouzei_ex1",
-      "japanese": "また{増税|ぞうぜい}するらしい。",
+      "japanese": "⟦また→また：00969_mata⟧{増税|ぞうぜい}⟦する→する：00392_suru⟧らしい。",
       "english": "Apparently they're raising taxes again.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "12091_zouzei_ex2",
-      "japanese": "{消費税|しょうひぜい}の{増税|ぞうぜい}に{反対|はんたい}する{声|こえ}が{多|おお}い。",
+      "japanese": "⟦{消費税|しょうひぜい}→消費税：04803_shouhizei⟧⟦の→の：09472_no⟧{増税|ぞうぜい}⟦に→に：00314_ni⟧⟦{反対|はんたい}する→反対する：05648_hantaisuru⟧⟦{声|こえ}→声：02207_koe⟧⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "Many voices oppose the consumption tax increase.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "12091_zouzei_ex3",
-      "japanese": "{政府|せいふ}は{社会保障|しゃかいほしょう}の{財源|ざいげん}を{確保|かくほ}するために{増税|ぞうぜい}を{検討|けんとう}している。",
+      "japanese": "⟦{政府|せいふ}→政府：03294_seifu⟧⟦は→は：00079_ha⟧⟦{社会保障|しゃかいほしょう}→社会保障：04914_shakaihoshou⟧⟦の→の：09472_no⟧{財源|ざいげん}⟦を→を：00422_wo⟧⟦{確保|かくほ}→確保：13681_kakuho⟧⟦する→する：00392_suru⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧{増税|ぞうぜい}⟦を→を：00422_wo⟧⟦{検討|けんとう}している→検討する：17455_kentousuru⟧。",
       "english": "The government is considering a tax increase to secure funding for social security.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA politically charged word in Japan, where consumption tax ({消費税|しょうひぜい}) increases have been a major topic for decades. The tax has risen from 3% (1989) to 5% (1997) to 8% (2014) to 10% (2019). Discussion of further increases remains ongoing.\n\nCOMMON COLLOCATIONS:\n- {消費税|しょうひぜい}{増税|ぞうぜい}: consumption tax increase\n- {増税|ぞうぜい}{反対|はんたい}: opposition to tax increases\n- {増税|ぞうぜい}{延期|えんき}: postponement of a tax increase\n- {大幅|おおはば}な{増税|ぞうぜい}: large tax increase\n\nSIMILAR WORDS:\nThe opposite is {減税|げんぜい} (tax cut/reduction).",
+  "notes": "USAGE:\nA politically charged word in Japan, where consumption tax (⟦{消費税|しょうひぜい}→消費税：04803_shouhizei⟧) increases have been a major topic for decades. The tax has risen from 3% (1989) to 5% (1997) to 8% (2014) to 10% (2019). Discussion of further increases remains ongoing.\n\nCOMMON COLLOCATIONS:\n- ⟦{消費税|しょうひぜい}→消費税：04803_shouhizei⟧{増税|ぞうぜい}: consumption tax increase\n- {増税|ぞうぜい}⟦{反対|はんたい}→反対：01497_hantai⟧: opposition to tax increases\n- {増税|ぞうぜい}⟦{延期|えんき}→延期：01888_enki⟧: postponement of a tax increase\n- ⟦{大幅|おおはば}→大幅：12170_oohaba⟧な{増税|ぞうぜい}: large tax increase\n\nSIMILAR WORDS:\nThe opposite is ⟦{減税|げんぜい}→減税：13318_genzei⟧ (tax cut/reduction).",
   "cross_references": [
     {
       "type": "antonym",
@@ -142,11 +142,18 @@
       "reading": "げんぜい",
       "headword": "{減税|げんぜい}",
       "label": "tax cut"
+    },
+    {
+      "type": "related",
+      "target_id": "00203_kazei",
+      "reading": "かぜい",
+      "headword": "{課税|かぜい}",
+      "label": "taxation"
     }
   ],
   "metadata": {
     "created": "2026-02-20T04:53:42Z",
-    "modified": "2026-08-16T12:29:03Z",
+    "modified": "2026-09-02T04:01:27Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

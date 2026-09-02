@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25224_bunruisuru_ex1",
-      "japanese": "ゴミを{種類|しゅるい}ごとに{分類|ぶんるい}する。",
+      "japanese": "⟦ゴミ→ゴミ：00840_gomi⟧⟦を→を：00422_wo⟧⟦{種類|しゅるい}→種類：01560_shurui⟧ごと⟦に→に：00314_ni⟧{分類|ぶんるい}する。",
       "english": "I sort the garbage by type.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25224_bunruisuru_ex2",
-      "japanese": "{動物|どうぶつ}は{生態|せいたい}に{基|もと}づいて{分類|ぶんるい}される。",
+      "japanese": "⟦{動物|どうぶつ}→動物：01480_doubutsu⟧⟦は→は：00079_ha⟧⟦{生態|せいたい}→生態：13543_seitai⟧⟦に→に：00314_ni⟧⟦{基|もと}づいて→基づく：02315_motozuku⟧{分類|ぶんるい}される。",
       "english": "Animals are classified based on their ecology.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25224_bunruisuru_ex3",
-      "japanese": "{集|あつ}めたデータを{項目|こうもく}ごとに{分類|ぶんるい}して、{表|ひょう}にまとめた。",
+      "japanese": "⟦{集|あつ}めた→集める：01170_atsumeru⟧⟦データ→データ：03944_deeta⟧⟦を→を：00422_wo⟧⟦{項目|こうもく}→項目：04150_koumoku⟧ごと⟦に→に：00314_ni⟧{分類|ぶんるい}して、⟦{表|ひょう}→表：19354_hyou⟧⟦に→に：00314_ni⟧⟦まとめた→まとめる：02424_matomeru⟧。",
       "english": "I classified the collected data by category and organized it into a table.",
       "sense_numbers": [
         1
@@ -45,7 +45,7 @@
     },
     {
       "id": "25224_bunruisuru_ex4",
-      "japanese": "この{図書館|としょかん}では{本|ほん}をテーマ{別|べつ}に{分類|ぶんるい}している。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{図書館|としょかん}→図書館：00580_toshokan⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧{本|ほん}⟦を→を：00422_wo⟧⟦テーマ→テーマ：17684_teema⟧⟦{別|べつ}→別：01216_betsu⟧⟦に→に：00314_ni⟧{分類|ぶんるい}して⟦いる→いる：00495_iru⟧。",
       "english": "This library classifies books by theme.",
       "sense_numbers": [
         1
@@ -54,14 +54,46 @@
       "notes": null
     }
   ],
-  "notes": "Refers to organizing items into groups or categories based on shared characteristics. Used in academic, scientific, and everyday contexts such as sorting garbage, organizing files, or classifying species.\n\nCOMMON COLLOCATIONS:\n- {分類|ぶんるい}{基準|きじゅん}: classification criteria\n- {分類|ぶんるい}{方法|ほうほう}: classification method\n- {分類|ぶんるい}{番号|ばんごう}: classification number\n- {細|こま}かく{分類|ぶんるい}する: to classify in detail\n- {大|おお}きく{分類|ぶんるい}する: to classify broadly\n\nSIMILAR WORDS:\n- {仕分|しわ}ける: to sort; to separate — more hands-on, physical sorting of items into groups\n- {区分|くぶん}する: to divide; to section — focuses on drawing boundaries between categories\n- {整理|せいり}する: to organize; to tidy up — broader term that includes putting things in order, not necessarily into categories",
+  "notes": "Refers to organizing items into groups or categories based on shared characteristics. Used in academic, scientific, and everyday contexts such as sorting garbage, organizing files, or classifying species.\n\nCOMMON COLLOCATIONS:\n- ⟦{分類|ぶんるい}→分類：04790_bunrui⟧⟦{基準|きじゅん}→基準：00228_kijun⟧: classification criteria\n- ⟦{分類|ぶんるい}→分類：04790_bunrui⟧⟦{方法|ほうほう}→方法：03621_houhou⟧: classification method\n- ⟦{分類|ぶんるい}→分類：04790_bunrui⟧⟦{番号|ばんごう}→番号：02939_bangou⟧: classification number\n- ⟦{細|こま}かく→細かい：01245_komakai⟧{分類|ぶんるい}する: to classify in detail\n- ⟦{大|おお}きく→大きい：00335_ookii⟧{分類|ぶんるい}する: to classify broadly\n\nSIMILAR WORDS:\n- ⟦{仕分|しわ}ける→仕分ける：20080_shiwakeru⟧: to sort; to separate — more hands-on, physical sorting of items into groups\n- ⟦{区分|くぶん}→区分：00248_kubun⟧⟦する→する：00392_suru⟧: to divide; to section — focuses on drawing boundaries between categories\n- ⟦{整理|せいり}する→整理する：21729_seirisuru⟧: to organize; to tidy up — broader term that includes putting things in order, not necessarily into categories",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20080_shiwakeru",
+      "reading": "しわける",
+      "headword": "{仕分|しわ}ける",
+      "label": "to sort"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00248_kubun",
+      "reading": "くぶん",
+      "headword": "{区分|くぶん}",
+      "label": "to divide"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21729_seirisuru",
+      "reading": "せいりする",
+      "headword": "{整理|せいり}する",
+      "label": "to organize"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26970_kubetsusuru",
+      "reading": "くべつする",
+      "headword": "{区別|くべつ}する",
+      "label": "to distinguish"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "verb-suru"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "cognition",
         "education"
@@ -69,7 +101,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-24T11:23:56Z",
-    "modified": "2026-08-04T12:59:53Z"
+    "modified": "2026-09-02T04:02:21Z"
   },
   "conjugation": {
     "type": "suru",

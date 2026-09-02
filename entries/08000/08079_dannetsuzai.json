@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08079_dannetsuzai_ex1",
-      "japanese": "{壁|かべ}に{断熱材|だんねつざい}を{入|い}れる。",
+      "japanese": "⟦{壁|かべ}→壁：01290_kabe⟧⟦に→に：00314_ni⟧{断熱材|だんねつざい}⟦を→を：00422_wo⟧⟦{入|い}れる→入れる：01098_ireru⟧。",
       "english": "To put insulation in the walls.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "08079_dannetsuzai_ex2",
-      "japanese": "{断熱材|だんねつざい}の{種類|しゅるい}によって{効果|こうか}が{異|こと}なる。",
+      "japanese": "{断熱材|だんねつざい}⟦の→の：09472_no⟧⟦{種類|しゅるい}→種類：01560_shurui⟧⟦によって→によって：06801_niyotte⟧⟦{効果|こうか}→効果：02726_kouka⟧⟦が→が：00051_ga⟧⟦{異|こと}なる→異なる：02101_kotonaru⟧。",
       "english": "The effectiveness varies depending on the type of insulation material.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "08079_dannetsuzai_ex3",
-      "japanese": "{古|ふる}い{家|いえ}は{断熱材|だんねつざい}が{不足|ふそく}していることが{多|おお}い。",
+      "japanese": "⟦{古|ふる}い→古い：00488_furui⟧⟦{家|いえ}→家：00612_ie⟧⟦は→は：00079_ha⟧{断熱材|だんねつざい}⟦が→が：00051_ga⟧⟦{不足|ふそく}→不足：03598_fusoku⟧⟦している→する：00392_suru⟧こと⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "Old houses often lack sufficient insulation.",
       "sense_numbers": [
         1
@@ -43,7 +43,30 @@
       "notes": null
     }
   ],
-  "notes": "{断熱材|だんねつざい} refers to materials used to prevent heat transfer in buildings, reducing energy loss.\n\nWORD STRUCTURE:\n{断|だん} (cut/block) + {熱|ねつ} (heat) + {材|ざい} (material)\n\nCOMMON TYPES:\n- グラスウール: glass wool\n- {発泡|はっぽう}スチロール: styrofoam/expanded polystyrene\n- セルロースファイバー: cellulose fiber\n- ウレタンフォーム: urethane foam\n\nCOMMON COLLOCATIONS:\n- {断熱材|だんねつざい}を{入|い}れる: to install insulation\n- {断熱材|だんねつざい}を{敷|し}く: to lay insulation\n\nRELATED TERMS:\n- {断熱|だんねつ}: thermal insulation (concept)\n- {断熱性|だんねつせい}: insulation property\n- {気密性|きみつせい}: airtightness\n- {保温|ほおん}: heat retention",
+  "notes": "{断熱材|だんねつざい} refers to materials used to prevent heat transfer in buildings, reducing energy loss.\n\nETYMOLOGY:\n{断|だん} (cut/block) + ⟦{熱|ねつ}→熱：01690_netsu⟧ (heat) + ⟦{材|ざい}→〜材：28347_zai⟧ (material)\n\nTYPES:\n- ⟦グラスウール→グラスウール：29722_gurasuuuru⟧: glass wool\n- {発泡|はっぽう}スチロール: styrofoam/expanded polystyrene\n- ⟦セルロースファイバー→セルロースファイバー：29724_seruroosufaibaa⟧: cellulose fiber\n- ⟦ウレタンフォーム→ウレタンフォーム：29723_uretanfoomu⟧: urethane foam\n\nCOMMON COLLOCATIONS:\n- {断熱材|だんねつざい}⟦を→を：00422_wo⟧⟦{入|い}れる→入れる：01098_ireru⟧: to install insulation\n- {断熱材|だんねつざい}⟦を→を：00422_wo⟧⟦{敷|し}く→敷く：00366_shiku⟧: to lay insulation\n\nRELATED WORDS:\n- ⟦{断熱|だんねつ}→断熱：06427_dannetsu⟧: thermal insulation (concept)\n- {断熱性|だんねつせい}: insulation property\n- ⟦{気密性|きみつせい}→気密性：08078_kimitsusei⟧: airtightness\n- ⟦{保温|ほおん}→保温：17467_hoon⟧: heat retention",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "08078_kimitsusei",
+      "reading": "きみつせい",
+      "headword": "{気密性|きみつせい}",
+      "label": "airtightness"
+    },
+    {
+      "type": "related",
+      "target_id": "17467_hoon",
+      "reading": "ほおん",
+      "headword": "{保温|ほおん}",
+      "label": "heat retention"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23889_zetsuentai",
+      "reading": "ぜつえんたい",
+      "headword": "{絶縁体|ぜつえんたい}",
+      "label": "insulator (in physics, electrical)"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -51,12 +74,13 @@
         "noun"
       ],
       "formality": "formal",
+      "politeness": "plain",
       "semantic": [
         "building",
         "material"
       ]
     },
     "created": "2026-01-25T01:23:54Z",
-    "modified": "2026-08-11T21:34:29Z"
+    "modified": "2026-09-02T04:01:13Z"
   }
 }

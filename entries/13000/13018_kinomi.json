@@ -15,41 +15,60 @@
   "examples": [
     {
       "id": "13018_kinomi_ex1",
-      "japanese": "リスが{木|き}の{実|み}を{集|あつ}めている。",
+      "japanese": "リス⟦が→が：00051_ga⟧{木|き}の{実|み}⟦を→を：00422_wo⟧⟦{集|あつ}めている→集める：01170_atsumeru⟧。",
       "english": "A squirrel is gathering nuts.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13018_kinomi_ex2",
-      "japanese": "{秋|あき}になると{山|やま}には{木|き}の{実|み}がたくさん{落|お}ちている。",
+      "japanese": "⟦{秋|あき}→秋：02276_aki⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦と→と：00512_to⟧⟦{山|やま}→山：02168_yama⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{木|き}の{実|み}⟦が→が：00051_ga⟧⟦たくさん→たくさん：00597_takusan⟧⟦{落|お}ちている→落ちる：01242_ochiru⟧。",
       "english": "When autumn comes, many nuts are scattered on the ground in the mountains.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13018_kinomi_ex3",
-      "japanese": "{子供|こども}たちは{公園|こうえん}で{木|き}の{実|み}を{拾|ひろ}って{遊|あそ}んでいた。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧たち⟦は→は：00079_ha⟧⟦{公園|こうえん}→公園：00581_kouen⟧⟦で→で：00502_de⟧{木|き}の{実|み}⟦を→を：00422_wo⟧⟦{拾|ひろ}って→拾う：00845_hirou⟧⟦{遊|あそ}んでいた→遊ぶ：00550_asobu⟧。",
       "english": "The children were playing in the park picking up nuts and berries.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nA broad, everyday term for anything that grows on a tree — nuts, berries, acorns, and other small fruits. Written as {木|き}の{実|み} with furigana. In children's songs and literature, often refers to acorns ({どんぐり}) and chestnuts ({栗|くり}).\n\nCOMMON COLLOCATIONS:\n- {木|き}の{実|み}を{拾|ひろ}う: to pick up nuts/acorns\n- {木|き}の{実|み}を{集|あつ}める: to gather nuts\n- {木|き}の{実|み}が{落|お}ちる: nuts fall",
-  "cross_references": [],
+  "notes": "USAGE:\nA broad, everyday term for anything that grows on a tree — nuts, berries, acorns, and other small fruits. Written as {木|き}の{実|み} with furigana. In children's songs and literature, often refers to acorns (どんぐり) and chestnuts (⟦{栗|くり}→栗：04387_kuri⟧).\n\nCOMMON COLLOCATIONS:\n- {木|き}の{実|み}⟦を→を：00422_wo⟧⟦{拾|ひろ}う→拾う：00845_hirou⟧: to pick up nuts/acorns\n- {木|き}の{実|み}⟦を→を：00422_wo⟧⟦{集|あつ}める→集める：01170_atsumeru⟧: to gather nuts\n- {木|き}の{実|み}⟦が→が：00051_ga⟧⟦{落|お}ちる→落ちる：01242_ochiru⟧: nuts fall",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "26619_shujitsu",
+      "reading": "しゅじつ",
+      "headword": "{種実|しゅじつ}",
+      "label": "nuts and seeds"
+    }
+  ],
   "metadata": {
     "created": "2026-02-23T06:31:36Z",
-    "modified": "2026-02-23T06:31:36Z",
+    "modified": "2026-09-02T04:01:31Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["nature", "food"]
+      "semantic": [
+        "nature",
+        "food"
+      ]
     }
   }
 }

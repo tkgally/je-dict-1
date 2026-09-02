@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "18975_hini_ex1",
-      "japanese": "{品位|ひんい}のある{振|ふ}る{舞|ま}いを{心|こころ}がける。",
+      "japanese": "{品位|ひんい}⟦の→の：09472_no⟧⟦ある→ある：00006_aru⟧⟦{振|ふ}る{舞|ま}い→振る舞い：10520_furumai⟧⟦を→を：00422_wo⟧⟦{心|こころ}がける→心がける：10015_kokorogakeru⟧。",
       "english": "I try to conduct myself with dignity.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "18975_hini_ex2",
-      "japanese": "あの{人|ひと}は{品位|ひんい}を{落|お}とすようなことはしない。",
+      "japanese": "⟦あの{人|ひと}→あの人：25922_anohito⟧⟦は→は：00079_ha⟧{品位|ひんい}⟦を→を：00422_wo⟧⟦{落|お}とす→落とす：01246_otosu⟧ようなことはしない。",
       "english": "That person would never do anything beneath their dignity.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "18975_hini_ex3",
-      "japanese": "{政治家|せいじか}として{品位|ひんい}を{保|たも}つことが{求|もと}められる。",
+      "japanese": "⟦{政治家|せいじか}→政治家：03084_seijika⟧⟦として→として：06802_toshite⟧{品位|ひんい}⟦を→を：00422_wo⟧⟦{保|たも}つ→保つ：10134_tamotsu⟧こと⟦が→が：00051_ga⟧⟦{求|もと}められる→求める：02316_motomeru⟧。",
       "english": "Politicians are expected to maintain their dignity.",
       "sense_numbers": [
         1
@@ -43,8 +43,24 @@
       "notes": null
     }
   ],
-  "notes": "{品位|ひんい} refers to dignity, grace, or refinement — the quality of appearing elegant and well-mannered.\n\nSIMILAR WORDS:\n- {品位|ひんい}: outward dignity and elegance (how one appears)\n- {品格|ひんかく}: dignity and character (inner moral standing)\n- {気品|きひん}: refinement, grace (natural elegance)\n{品位|ひんい} focuses on the outward impression, while {品格|ひんかく} emphasizes deeper character.\n\nCOMMON COLLOCATIONS:\n- {品位|ひんい}を{保|たも}つ: to maintain dignity\n- {品位|ひんい}を{落|お}とす: to lower one's dignity\n- {品位|ひんい}のある: dignified, refined\n- {品位|ひんい}に{欠|か}ける: to lack dignity\n\nUSAGE:\nOften used to describe the behavior expected of public figures, professionals, and people in positions of authority. Common in formal contexts and media commentary on conduct.",
+  "notes": "{品位|ひんい} refers to dignity, grace, or refinement — the quality of appearing elegant and well-mannered.\n\nSIMILAR WORDS:\n- {品位|ひんい}: outward dignity and elegance (how one appears)\n- ⟦{品格|ひんかく}→品格：09179_hinkaku⟧: dignity and character (inner moral standing)\n- ⟦{気品|きひん}→気品：13255_kihin⟧: refinement, grace (natural elegance)\n{品位|ひんい} focuses on the outward impression, while ⟦{品格|ひんかく}→品格：09179_hinkaku⟧ emphasizes deeper character.\n\nCOMMON COLLOCATIONS:\n- {品位|ひんい}⟦を→を：00422_wo⟧⟦{保|たも}つ→保つ：10134_tamotsu⟧: to maintain dignity\n- {品位|ひんい}⟦を→を：00422_wo⟧⟦{落|お}とす→落とす：01246_otosu⟧: to lower one's dignity\n- {品位|ひんい}⟦の→の：09472_no⟧⟦ある→ある：00006_aru⟧: dignified, refined\n- {品位|ひんい}⟦に→に：00314_ni⟧⟦{欠|か}ける→欠ける：13167_kakeru⟧: to lack dignity\n\nUSAGE:\nOften used to describe the behavior expected of public figures, professionals, and people in positions of authority. Common in formal contexts and media commentary on conduct.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09179_hinkaku",
+      "reading": "ひんかく",
+      "headword": "{品格|ひんかく}",
+      "label": "dignity and character"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13255_kihin",
+      "reading": "きひん",
+      "headword": "{気品|きひん}",
+      "label": "refinement, grace"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -58,6 +74,6 @@
       ]
     },
     "created": "2026-03-23T12:06:57Z",
-    "modified": "2026-04-05T11:45:12Z"
+    "modified": "2026-09-02T04:01:54Z"
   }
 }

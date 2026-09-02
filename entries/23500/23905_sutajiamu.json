@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "23905_sutajiamu_ex1",
-      "japanese": "スタジアムに{行|い}く。",
+      "japanese": "スタジアム⟦に→に：00314_ni⟧⟦{行|い}く→行く：00119_iku⟧。",
       "english": "I'm going to the stadium.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "23905_sutajiamu_ex2",
-      "japanese": "スタジアムが{満員|まんいん}だ。",
+      "japanese": "スタジアム⟦が→が：00051_ga⟧⟦{満員|まんいん}→満員：07584_manin⟧だ。",
       "english": "The stadium is full.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "23905_sutajiamu_ex3",
-      "japanese": "{新|あたら}しいスタジアムは{五万人|ごまんにん}{収容|しゅうよう}できる。",
+      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧スタジアム⟦は→は：00079_ha⟧{五万人|ごまんにん}⟦{収容|しゅうよう}→収容：11800_shuuyou⟧⟦できる→できる：00557_dekiru⟧。",
       "english": "The new stadium can hold fifty thousand people.",
       "sense_numbers": [
         1
@@ -45,7 +45,7 @@
     },
     {
       "id": "23905_sutajiamu_ex4",
-      "japanese": "{試合|しあい}が{終|お}わると、スタジアムから{大|おお}きな{歓声|かんせい}が{上|あ}がった。",
+      "japanese": "⟦{試合|しあい}→試合：01601_shiai⟧⟦が→が：00051_ga⟧{終|お}わる⟦と→と：00512_to⟧、スタジアム⟦から→から：00504_kara⟧⟦{大|おお}きな→大きな：02849_ookina⟧⟦{歓声|かんせい}→歓声：02686_kansei⟧⟦が→が：00051_ga⟧⟦{上|あ}がった→上がる：00615_agaru⟧。",
       "english": "When the game ended, a huge cheer went up from the stadium.",
       "sense_numbers": [
         1
@@ -54,8 +54,45 @@
       "notes": null
     }
   ],
-  "notes": "A loanword used for modern, large-scale sports venues, especially those built for soccer, rugby, or athletics. Often part of a venue's official name.\n\nUSAGE:\n- Widely used in sports journalism and casual conversation about sports.\n- In baseball contexts, {球場|きゅうじょう} is more traditional, but newer or renamed venues may still use スタジアム (e.g., ZOZOマリンスタジアム).\n\nCOMMON COLLOCATIONS:\n- スタジアムに{行|い}く: to go to the stadium\n- スタジアムが{満員|まんいん}だ: the stadium is full\n- スタジアムを{建設|けんせつ}する: to build a stadium\n- ホームスタジアム: home stadium (of a team)\n- スタジアム{入口|いりぐち}: stadium entrance\n\nSIMILAR WORDS:\n- {競技場|きょうぎじょう}: sports ground, arena — the native Japanese term, broader and more formal; used in official names like {国立|こくりつ}{競技場|きょうぎじょう}.\n- {球場|きゅうじょう}: ballpark — specifically for baseball.\n- アリーナ: arena — usually indoor and smaller, for basketball, concerts, etc.\n- {体育館|たいいくかん}: gymnasium — indoor sports hall, typically at schools.",
+  "notes": "A loanword used for modern, large-scale sports venues, especially those built for soccer, rugby, or athletics. Often part of a venue's official name.\n\nUSAGE:\n- Widely used in sports journalism and casual conversation about sports.\n- In baseball contexts, ⟦{球場|きゅうじょう}→球場：15511_kyuujou⟧ is more traditional, but newer or renamed venues may still use スタジアム (e.g., ZOZOマリンスタジアム).\n\nCOMMON COLLOCATIONS:\n- スタジアム⟦に→に：00314_ni⟧⟦{行|い}く→行く：00119_iku⟧: to go to the stadium\n- スタジアム⟦が→が：00051_ga⟧⟦{満員|まんいん}→満員：07584_manin⟧だ: the stadium is full\n- スタジアム⟦を→を：00422_wo⟧⟦{建設|けんせつ}→建設：02708_kensetsu⟧⟦する→する：00392_suru⟧: to build a stadium\n- ⟦ホーム→ホーム：00113_hoomu⟧スタジアム: home stadium (of a team)\n- スタジアム{入口|いりぐち}: stadium entrance\n\nSIMILAR WORDS:\n- ⟦{競技場|きょうぎじょう}→競技場：15763_kyougijou⟧: sports ground, arena — the native Japanese term, broader and more formal; used in official names like ⟦{国立|こくりつ}→国立：04153_kokuritsu⟧⟦{競技場|きょうぎじょう}→競技場：15763_kyougijou⟧.\n- ⟦{球場|きゅうじょう}→球場：15511_kyuujou⟧: ballpark — specifically for baseball.\n- ⟦アリーナ→アリーナ：10708_ariina⟧: arena — usually indoor and smaller, for basketball, concerts, etc.\n- ⟦{体育館|たいいくかん}→体育館：03111_taiikukan⟧: gymnasium — indoor sports hall, typically at schools.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15763_kyougijou",
+      "reading": "きょうぎじょう",
+      "headword": "{競技場|きょうぎじょう}",
+      "label": "sports ground, arena"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15511_kyuujou",
+      "reading": "きゅうじょう",
+      "headword": "{球場|きゅうじょう}",
+      "label": "ballpark"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10708_ariina",
+      "reading": "ありーな",
+      "headword": "アリーナ",
+      "label": "arena"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03111_taiikukan",
+      "reading": "たいいくかん",
+      "headword": "{体育館|たいいくかん}",
+      "label": "gymnasium"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23770_yakyuujou",
+      "reading": "やきゅうじょう",
+      "headword": "{野球場|やきゅうじょう}",
+      "label": "baseball stadium"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -71,6 +108,6 @@
       ]
     },
     "created": "2026-04-15T12:12:46Z",
-    "modified": "2026-08-02T06:24:09Z"
+    "modified": "2026-09-02T04:02:15Z"
   }
 }

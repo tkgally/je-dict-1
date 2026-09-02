@@ -15,35 +15,63 @@
   "examples": [
     {
       "id": "19381_eigyoubu_ex1",
-      "japanese": "{営業部|えいぎょうぶ}に{配属|はいぞく}された。",
+      "japanese": "{営業部|えいぎょうぶ}⟦に→に：00314_ni⟧⟦{配属|はいぞく}→配属：06159_haizoku⟧⟦された→する：00392_suru⟧。",
       "english": "I was assigned to the sales department.",
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "19381_eigyoubu_ex2",
-      "japanese": "{営業部|えいぎょうぶ}の{会議|かいぎ}は{毎週|まいしゅう}{月曜日|げつようび}にある。",
+      "japanese": "{営業部|えいぎょうぶ}⟦の→の：09472_no⟧⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦は→は：00079_ha⟧⟦{毎週|まいしゅう}→毎週：00730_maishuu⟧⟦{月曜日|げつようび}→月曜日：00624_getsuyoubi⟧⟦に→に：00314_ni⟧⟦ある→ある：00006_aru⟧。",
       "english": "The sales department meeting is every Monday.",
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "19381_eigyoubu_ex3",
-      "japanese": "{彼|かれ}は{営業部|えいぎょうぶ}から{企画部|きかくぶ}に{異動|いどう}になった。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{営業部|えいぎょうぶ}⟦から→から：00504_kara⟧⟦{企画部|きかくぶ}→企画部：27613_kikakubu⟧⟦に→に：00314_ni⟧⟦{異動|いどう}→異動：01818_idou⟧になった。",
       "english": "He was transferred from the sales department to the planning department.",
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "The department within a company responsible for sales activities and business development. In Japanese companies, {営業部|えいぎょうぶ} staff typically handle client relations, sales targets, and revenue generation.\n\nSTRUCTURE:\n{営業|えいぎょう} (sales; business) + {部|ぶ} (department; division)\n\nCOMMON COLLOCATIONS:\n- {営業部|えいぎょうぶ}に{配属|はいぞく}される — to be assigned to the sales department\n- {営業部|えいぎょうぶ}の{部長|ぶちょう} — sales department manager\n- {営業部|えいぎょうぶ}から{異動|いどう}する — to transfer from the sales department\n\nOTHER COMMON DEPARTMENTS:\n- {企画部|きかくぶ} — planning department\n- {総務部|そうむぶ} — general affairs department\n- {人事部|じんじぶ} — human resources department\n- {経理部|けいりぶ} — accounting department",
+  "notes": "The department within a company responsible for sales activities and business development. In Japanese companies, {営業部|えいぎょうぶ} staff typically handle client relations, sales targets, and revenue generation.\n\nCOMMON PATTERNS:\n⟦{営業|えいぎょう}→営業：01878_eigyou⟧ (sales; business) + ⟦{部|ぶ}→〜部：00440_bu⟧ (department; division)\n\nCOMMON COLLOCATIONS:\n- {営業部|えいぎょうぶ}⟦に→に：00314_ni⟧⟦{配属|はいぞく}→配属：06159_haizoku⟧⟦される→する：00392_suru⟧ — to be assigned to the sales department\n- {営業部|えいぎょうぶ}⟦の→の：09472_no⟧⟦{部長|ぶちょう}→部長：01017_buchou⟧ — sales department manager\n- {営業部|えいぎょうぶ}⟦から→から：00504_kara⟧⟦{異動|いどう}→異動：01818_idou⟧⟦する→する：00392_suru⟧ — to transfer from the sales department\n\nOTHER COMMON DEPARTMENTS:\n- ⟦{企画部|きかくぶ}→企画部：27613_kikakubu⟧ — planning department\n- ⟦{総務部|そうむぶ}→総務部：23789_soumubu⟧ — general affairs department\n- ⟦{人事部|じんじぶ}→人事部：20638_jinjibu⟧ — human resources department\n- {経理部|けいりぶ} — accounting department",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "08749_eigyouman",
+      "reading": "えいぎょうまん",
+      "headword": "{営業|えいぎょう}マン",
+      "label": "salesperson"
+    },
+    {
+      "type": "related",
+      "target_id": "27444_kaihatsubu",
+      "reading": "かいはつぶ",
+      "headword": "{開発部|かいはつぶ}",
+      "label": "development department"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["work"],
-      "domain": ["business"]
+      "semantic": [
+        "work"
+      ],
+      "domain": [
+        "business"
+      ]
     },
     "created": "2026-03-25T12:57:22Z",
-    "modified": "2026-03-25T12:57:22Z"
+    "modified": "2026-09-02T04:01:55Z"
   }
 }

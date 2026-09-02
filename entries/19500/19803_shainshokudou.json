@@ -15,40 +15,74 @@
   "examples": [
     {
       "id": "19803_shainshokudou_ex1",
-      "japanese": "{昼|ひる}は{社員食堂|しゃいんしょくどう}で{食|た}べる。",
+      "japanese": "⟦{昼|ひる}→昼：00540_hiru⟧⟦は→は：00079_ha⟧{社員食堂|しゃいんしょくどう}⟦で→で：00502_de⟧⟦{食|た}べる→食べる：00396_taberu⟧。",
       "english": "I eat in the employee cafeteria at lunch.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19803_shainshokudou_ex2",
-      "japanese": "うちの{社員食堂|しゃいんしょくどう}は{安|やす}くて{美味|おい}しい。",
+      "japanese": "うち⟦の→の：09472_no⟧{社員食堂|しゃいんしょくどう}⟦は→は：00079_ha⟧⟦{安|やす}くて→安い：00464_yasui⟧⟦{美味|おい}しい→美味しい：00740_oishii⟧。",
       "english": "Our employee cafeteria is cheap and delicious.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19803_shainshokudou_ex3",
-      "japanese": "{新|あたら}しいオフィスビルには{社員食堂|しゃいんしょくどう}が{完備|かんび}されている。",
+      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧オフィスビル⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{社員食堂|しゃいんしょくどう}⟦が→が：00051_ga⟧⟦{完備|かんび}→完備：16692_kanbi⟧⟦されている→する：00392_suru⟧。",
       "english": "The new office building is fully equipped with an employee cafeteria.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {社員|しゃいん} (company employee) and {食堂|しょくどう} (dining hall/cafeteria). Often abbreviated to {社食|しゃしょく} in casual workplace conversation. Many Japanese companies provide subsidized meals in their cafeterias as an employee benefit.\n\nCOMMON COLLOCATIONS:\n- {社員食堂|しゃいんしょくどう}で{食|た}べる — to eat in the cafeteria\n- {社員食堂|しゃいんしょくどう}のメニュー — the cafeteria menu\n- {社員食堂|しゃいんしょくどう}が{充実|じゅうじつ}している — the cafeteria is well-equipped\n\nRELATED TERMS:\n- {社食|しゃしょく} — company cafeteria (casual abbreviation)\n- {学食|がくしょく} — university/school cafeteria (same abbreviation pattern)\n- {食堂|しょくどう} — dining hall, cafeteria (general term)",
+  "notes": "A compound of ⟦{社員|しゃいん}→社員：03065_shain⟧ (company employee) and ⟦{食堂|しょくどう}→食堂：01054_shokudou⟧ (dining hall/cafeteria). Often abbreviated to ⟦{社食|しゃしょく}→社食：27579_shashoku⟧ in casual workplace conversation. Many Japanese companies provide subsidized meals in their cafeterias as an employee benefit.\n\nCOMMON COLLOCATIONS:\n- {社員食堂|しゃいんしょくどう}⟦で→で：00502_de⟧⟦{食|た}べる→食べる：00396_taberu⟧ — to eat in the cafeteria\n- {社員食堂|しゃいんしょくどう}⟦の→の：09472_no⟧⟦メニュー→メニュー：11166_menyuu⟧ — the cafeteria menu\n- {社員食堂|しゃいんしょくどう}⟦が→が：00051_ga⟧⟦{充実|じゅうじつ}→充実：04845_juujitsu⟧⟦している→する：00392_suru⟧ — the cafeteria is well-equipped\n\nRELATED WORDS:\n- ⟦{社食|しゃしょく}→社食：27579_shashoku⟧ — company cafeteria (casual abbreviation)\n- ⟦{学食|がくしょく}→学食：12241_gakushoku⟧ — university/school cafeteria (same abbreviation pattern)\n- ⟦{食堂|しょくどう}→食堂：01054_shokudou⟧ — dining hall, cafeteria (general term)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "27579_shashoku",
+      "reading": "しゃしょく",
+      "headword": "{社食|しゃしょく}",
+      "label": "company cafeteria"
+    },
+    {
+      "type": "related",
+      "target_id": "12241_gakushoku",
+      "reading": "がくしょく",
+      "headword": "{学食|がくしょく}",
+      "label": "university/school cafeteria"
+    },
+    {
+      "type": "related",
+      "target_id": "19934_shokken",
+      "reading": "しょっけん",
+      "headword": "{食券|しょっけん}",
+      "label": "meal ticket"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["work", "food"]
+      "semantic": [
+        "work",
+        "food"
+      ]
     },
     "created": "2026-03-27T00:19:31Z",
-    "modified": "2026-03-27T00:19:31Z"
+    "modified": "2026-09-02T04:01:57Z"
   }
 }

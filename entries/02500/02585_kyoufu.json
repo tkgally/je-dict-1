@@ -34,7 +34,7 @@
     },
     {
       "id": "02585_kyoufu_ex3",
-      "japanese": "⟦{高所|こうしょ}→高所：19445_kousho⟧{恐怖症|きょうふしょう}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
+      "japanese": "⟦{高所|こうしょ}→高所：19445_kousho⟧⟦{恐怖症|きょうふしょう}→恐怖症：27678_kyoufushou⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "I have a fear of heights (acrophobia).",
       "notes": null,
       "has_audio": false,
@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "{恐怖|きょうふ} refers to intense fear or terror, stronger than general anxiety.\n\nCOMMON PATTERNS:\n- {恐怖|きょうふ}⟦を→を：00422_wo⟧⟦{感|かん}じる→感じる：02044_kanjiru⟧ (to feel fear)\n- {恐怖|きょうふ}⟦に→に：00314_ni⟧⟦{襲|おそ}われる→襲う：01915_osou⟧ (to be struck by fear)\n- {恐怖|きょうふ}⟦の→の：09472_no⟧⟦あまり→余り：17255_amari⟧ (due to fear)\n\nCOMPOUND WORDS:\n- ⟦{恐怖症|きょうふしょう}→恐怖症：27678_kyoufushou⟧ (phobia)\n- {恐怖|きょうふ}⟦{心|しん}→心：01321_kokoro⟧ (fearful heart)\n- {恐怖|きょうふ}⟦{政治|せいじ}→政治：01629_seiji⟧ (reign of terror)\n\nTYPES OF PHOBIAS:\n- ⟦{高所|こうしょ}→高所：19445_kousho⟧⟦{恐怖症|きょうふしょう}→恐怖症：27678_kyoufushou⟧ (acrophobia)\n- ⟦{閉所|へいしょ}→閉所：28011_heisho⟧⟦{恐怖症|きょうふしょう}→恐怖症：27678_kyoufushou⟧ (claustrophobia)\n- ⟦{対人|たいじん}→対人：28357_taijin⟧⟦{恐怖症|きょうふしょう}→恐怖症：27678_kyoufushou⟧ (social phobia)\n\nSIMILAR WORDS:\n- ⟦{怖|こわ}さ→怖い：00864_kowai⟧: fear, scariness (casual)\n- ⟦{不安|ふあん}→不安：00836_fuan⟧: anxiety (less intense)\n- ⟦{恐|おそ}れ→恐れ：05405_osore⟧: fear, apprehension",
+  "notes": "{恐怖|きょうふ} refers to intense fear or terror, stronger than general anxiety.\n\nCOMMON PATTERNS:\n- {恐怖|きょうふ}⟦を→を：00422_wo⟧⟦{感|かん}じる→感じる：02044_kanjiru⟧ (to feel fear)\n- {恐怖|きょうふ}⟦に→に：00314_ni⟧⟦{襲|おそ}われる→襲う：01915_osou⟧ (to be struck by fear)\n- {恐怖|きょうふ}⟦の→の：09472_no⟧⟦あまり→余り：17255_amari⟧ (due to fear)\n\nCOMPOUNDS:\n- ⟦{恐怖症|きょうふしょう}→恐怖症：27678_kyoufushou⟧ (phobia)\n- {恐怖|きょうふ}⟦{心|しん}→心：01321_kokoro⟧ (fearful heart)\n- {恐怖|きょうふ}⟦{政治|せいじ}→政治：01629_seiji⟧ (reign of terror)\n\nTYPES OF PHOBIAS:\n- ⟦{高所|こうしょ}→高所：19445_kousho⟧⟦{恐怖症|きょうふしょう}→恐怖症：27678_kyoufushou⟧ (acrophobia)\n- ⟦{閉所|へいしょ}→閉所：28011_heisho⟧⟦{恐怖症|きょうふしょう}→恐怖症：27678_kyoufushou⟧ (claustrophobia)\n- ⟦{対人|たいじん}→対人：28357_taijin⟧⟦{恐怖症|きょうふしょう}→恐怖症：27678_kyoufushou⟧ (social phobia)\n\nSIMILAR WORDS:\n- ⟦{怖|こわ}さ→怖い：00864_kowai⟧: fear, scariness (casual)\n- ⟦{不安|ふあん}→不安：00836_fuan⟧: anxiety (less intense)\n- ⟦{恐|おそ}れ→恐れ：05405_osore⟧: fear, apprehension",
   "cross_references": [
     {
       "type": "related",
@@ -78,11 +78,53 @@
       "reading": "おそろしい",
       "headword": "{恐|おそ}ろしい",
       "label": "frightening (adjective)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00836_fuan",
+      "reading": "ふあん",
+      "headword": "{不安|ふあん}",
+      "label": "anxiety"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05405_osore",
+      "reading": "おそれ",
+      "headword": "{恐|おそ}れ",
+      "label": "fear, apprehension"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13573_ifu",
+      "reading": "いふ",
+      "headword": "{畏怖|いふ}",
+      "label": "awe, dread, reverence"
+    },
+    {
+      "type": "related",
+      "target_id": "22730_horaa",
+      "reading": "ほらー",
+      "headword": "ホラー",
+      "label": "horror (genre)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25507_senritsusuru",
+      "reading": "せんりつする",
+      "headword": "{戦慄|せんりつ}する",
+      "label": "to shudder"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28403_osoroshisa",
+      "reading": "おそろしさ",
+      "headword": "{恐|おそ}ろしさ",
+      "label": "fearfulness"
     }
   ],
   "metadata": {
     "created": "2026-01-11T10:50:42Z",
-    "modified": "2026-08-12T06:28:28Z",
+    "modified": "2026-09-02T04:01:02Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

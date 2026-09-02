@@ -3,7 +3,7 @@
   "headword": "{暴行|ぼうこう}",
   "reading": "ぼうこう",
   "romaji": "boukou",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "assault; act of violence; battery",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "27862_boukou_ex1",
-      "japanese": "{暴行|ぼうこう}を{受|う}ける。",
+      "japanese": "{暴行|ぼうこう}⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧。",
       "english": "to be assaulted.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "27862_boukou_ex2",
-      "japanese": "{男|おとこ}は{通行人|つうこうにん}に{暴行|ぼうこう}を{加|くわ}えた。",
+      "japanese": "⟦{男|おとこ}→男：00561_otoko⟧⟦は→は：00079_ha⟧⟦{通行人|つうこうにん}→通行人：28570_tsuukounin⟧⟦に→に：00314_ni⟧{暴行|ぼうこう}⟦を→を：00422_wo⟧⟦{加|くわ}えた→加える：01941_kuwaeru⟧。",
       "english": "The man assaulted a passerby.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "27862_boukou_ex3",
-      "japanese": "{容疑者|ようぎしゃ}は{口論|こうろん}の{末|すえ}に{相手|あいて}に{暴行|ぼうこう}し、{警察|けいさつ}に{逮捕|たいほ}された。",
+      "japanese": "⟦{容疑者|ようぎしゃ}→容疑者：15039_yougisha⟧⟦は→は：00079_ha⟧⟦{口論|こうろん}→口論：08371_kouron⟧⟦の→の：09472_no⟧⟦{末|すえ}→末：03362_sue⟧⟦に→に：00314_ni⟧⟦{相手|あいて}→相手：01677_aite⟧⟦に→に：00314_ni⟧{暴行|ぼうこう}し、⟦{警察|けいさつ}→警察：01393_keisatsu⟧⟦に→に：00314_ni⟧⟦{逮捕|たいほ}→逮捕：03397_taiho⟧⟦された→する：00392_suru⟧。",
       "english": "The suspect assaulted the other person after an argument and was arrested by the police.",
       "sense_numbers": [
         1
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "Refers to inflicting physical violence on a person. Common in news and legal contexts, and sometimes used as a euphemism for sexual assault.\n\nCOMMON COLLOCATIONS:\n- {暴行|ぼうこう}を{加|くわ}える: to commit an assault (on someone)\n- {暴行|ぼうこう}を{受|う}ける: to be assaulted\n- {暴行|ぼうこう}{事件|じけん}: an assault case\n\nSIMILAR WORDS:\n- {暴力|ぼうりょく}: violence — the general phenomenon of force, whereas {暴行|ぼうこう} is a specific violent act\n- {傷害|しょうがい}: bodily injury (as a crime) — an assault that actually causes injury",
+  "notes": "Refers to inflicting physical violence on a person. Common in news and legal contexts, and sometimes used as a euphemism for sexual assault.\n\nCOMMON COLLOCATIONS:\n- {暴行|ぼうこう}⟦を→を：00422_wo⟧⟦{加|くわ}える→加える：01941_kuwaeru⟧: to commit an assault (on someone)\n- {暴行|ぼうこう}⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧: to be assaulted\n- {暴行|ぼうこう}⟦{事件|じけん}→事件：01568_jiken⟧: an assault case\n\nSIMILAR WORDS:\n- ⟦{暴力|ぼうりょく}→暴力：02528_bouryoku⟧: violence — the general phenomenon of force, whereas {暴行|ぼうこう} is a specific violent act\n- ⟦{傷害|しょうがい}→傷害：22910_shougai⟧: bodily injury (as a crime) — an assault that actually causes injury",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02528_bouryoku",
+      "reading": "ぼうりょく",
+      "headword": "{暴力|ぼうりょく}",
+      "label": "violence"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22910_shougai",
+      "reading": "しょうがい",
+      "headword": "{傷害|しょうがい}",
+      "label": "bodily injury"
+    },
+    {
+      "type": "related",
+      "target_id": "08002_bankou",
+      "reading": "ばんこう",
+      "headword": "{蛮行|ばんこう}",
+      "label": "barbaric act"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18187_ouda",
+      "reading": "おうだ",
+      "headword": "{殴打|おうだ}",
+      "label": "striking"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -54,7 +84,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "law",
         "society"
@@ -64,7 +94,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-21T04:04:20Z",
-    "modified": "2026-05-21T04:04:20Z"
+    "modified": "2026-09-02T04:02:32Z"
   },
   "conjugation": {
     "type": "suru",

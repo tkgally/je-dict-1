@@ -15,41 +15,73 @@
   "examples": [
     {
       "id": "12869_bunbougu_ex1",
-      "japanese": "{文房具|ぶんぼうぐ}を{買|か}いに{行|い}った。",
+      "japanese": "{文房具|ぶんぼうぐ}⟦を→を：00422_wo⟧⟦{買|か}い→買う：00489_kau⟧⟦に→に：00314_ni⟧⟦{行|い}った→行く：00119_iku⟧。",
       "english": "I went to buy stationery.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12869_bunbougu_ex2",
-      "japanese": "この{文房具|ぶんぼうぐ}{店|てん}は{品揃|しなぞろ}えが{豊富|ほうふ}だ。",
+      "japanese": "⟦この→この：00962_kono⟧{文房具|ぶんぼうぐ}{店|てん}⟦は→は：00079_ha⟧⟦{品揃|しなぞろ}え→品揃え：11844_shinazoroe⟧⟦が→が：00051_ga⟧⟦{豊富|ほうふ}→豊富：03620_houfu⟧だ。",
       "english": "This stationery store has a wide selection.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12869_bunbougu_ex3",
-      "japanese": "{日本|にほん}の{文房具|ぶんぼうぐ}は{品質|ひんしつ}が{高|たか}くて、{海外|かいがい}でも{人気|にんき}がある。",
+      "japanese": "⟦{日本|にほん}→日本：03876_nihon⟧⟦の→の：09472_no⟧{文房具|ぶんぼうぐ}⟦は→は：00079_ha⟧⟦{品質|ひんしつ}→品質：09507_hinshitsu⟧⟦が→が：00051_ga⟧⟦{高|たか}くて→高い：00500_takai⟧、⟦{海外|かいがい}→海外：00134_kaigai⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧⟦{人気|にんき}→人気：01488_ninki⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "Japanese stationery is high quality and popular even overseas.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nA collective term for desk and writing supplies. Japan is famous for its stationery culture, with dedicated {文房具|ぶんぼうぐ}{店|てん} (stationery shops) and a wide range of innovative products. The word covers everything from pens and pencils to tape, staplers, and filing supplies.\n\nCOMMON COLLOCATIONS:\n- {文房具|ぶんぼうぐ}{店|てん}: stationery store\n- {文房具|ぶんぼうぐ}メーカー: stationery manufacturer\n- {文房具|ぶんぼうぐ}コーナー: stationery section/aisle\n\nETYMOLOGY:\n{文房|ぶんぼう} means \"study room\" and {具|ぐ} means \"tools\" — literally \"tools for the study.\"",
-  "cross_references": [],
+  "notes": "USAGE:\nA collective term for desk and writing supplies. Japan is famous for its stationery culture, with dedicated {文房具|ぶんぼうぐ}{店|てん} (stationery shops) and a wide range of innovative products. The word covers everything from pens and pencils to tape, staplers, and filing supplies.\n\nCOMMON COLLOCATIONS:\n- {文房具|ぶんぼうぐ}{店|てん}: stationery store\n- {文房具|ぶんぼうぐ}⟦メーカー→メーカー：11158_meekaa⟧: stationery manufacturer\n- {文房具|ぶんぼうぐ}⟦コーナー→コーナー：10865_koonaa⟧: stationery section/aisle\n\nETYMOLOGY:\n{文房|ぶんぼう} means \"study room\" and ⟦{具|ぐ}→具：07857_gu⟧ means \"tools\" — literally \"tools for the study.\"",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "08263_fudebako",
+      "reading": "ふでばこ",
+      "headword": "{筆箱|ふでばこ}",
+      "label": "pencil case"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20249_gazai",
+      "reading": "がざい",
+      "headword": "{画材|がざい}",
+      "label": "art supplies"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20567_bungu",
+      "reading": "ぶんぐ",
+      "headword": "{文具|ぶんぐ}",
+      "label": "stationery"
+    }
+  ],
   "metadata": {
     "created": "2026-02-22T12:41:51Z",
-    "modified": "2026-02-22T12:41:51Z",
+    "modified": "2026-09-02T04:01:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["tool"]
+      "semantic": [
+        "tool"
+      ]
     }
   }
 }

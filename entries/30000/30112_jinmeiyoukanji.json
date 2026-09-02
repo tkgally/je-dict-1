@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30112_jinmeiyoukanji_ex1",
-      "japanese": "この{字|じ}は{人名用漢字|じんめいようかんじ}に{入|はい}っている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{字|じ}→字：01606_ji⟧⟦は→は：00079_ha⟧{人名用漢字|じんめいようかんじ}⟦に→に：00314_ni⟧⟦{入|はい}っている→入る：00494_hairu⟧。",
       "english": "This character is on the list of kanji approved for names.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30112_jinmeiyoukanji_ex2",
-      "japanese": "{人名用漢字|じんめいようかんじ}は{時々|ときどき}{追加|ついか}される。",
+      "japanese": "{人名用漢字|じんめいようかんじ}⟦は→は：00079_ha⟧⟦{時々|ときどき}→時々：00600_tokidoki⟧⟦{追加|ついか}される→追加する：19646_tsuikasuru⟧。",
       "english": "Kanji approved for personal names are added from time to time.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30112_jinmeiyoukanji_ex3",
-      "japanese": "{常用漢字|じょうようかんじ}か{人名用漢字|じんめいようかんじ}でなければ、{子|こ}どもの{名前|なまえ}に{使|つか}うことはできない。",
+      "japanese": "⟦{常用漢字|じょうようかんじ}→常用漢字：20778_jouyoukanji⟧⟦か→か：09473_ka⟧{人名用漢字|じんめいようかんじ}でなければ、{子|こ}ども⟦の→の：09472_no⟧⟦{名前|なまえ}→名前：02234_namae⟧⟦に→に：00314_ni⟧⟦{使|つか}う→使う：00473_tsukau⟧こと⟦は→は：00079_ha⟧⟦できない→できる：00557_dekiru⟧。",
       "english": "Unless a character is a general-use kanji or an approved name kanji, it cannot be used in a child's name.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Defined by ministerial ordinance and revised occasionally, usually when parents petition for a character. The list exists to keep names readable and registrable, so it includes many older or decorative characters that are not part of everyday writing.\n\nCOMMON COLLOCATIONS:\n- {人名用漢字|じんめいようかんじ}に{追加|ついか}される: to be added to the name-kanji list\n- {人名用漢字|じんめいようかんじ}{表|ひょう}: the table of approved name kanji\n- {人名用漢字|じんめいようかんじ}{以外|いがい}の{字|じ}: characters outside the approved list\n\nSIMILAR WORDS:\n- {常用漢字|じょうようかんじ}: general-use kanji — the 2,136 characters for ordinary writing; names may also use these\n- {表外漢字|ひょうがいかんじ}: kanji outside the lists — cannot be used in a newly registered name",
+  "notes": "Defined by ministerial ordinance and revised occasionally, usually when parents petition for a character. The list exists to keep names readable and registrable, so it includes many older or decorative characters that are not part of everyday writing.\n\nCOMMON COLLOCATIONS:\n- {人名用漢字|じんめいようかんじ}⟦に→に：00314_ni⟧⟦{追加|ついか}される→追加する：19646_tsuikasuru⟧: to be added to the name-kanji list\n- {人名用漢字|じんめいようかんじ}⟦{表|ひょう}→表：19354_hyou⟧: the table of approved name kanji\n- {人名用漢字|じんめいようかんじ}⟦{以外|いがい}→以外：01297_igai⟧⟦の→の：09472_no⟧⟦{字|じ}→字：01606_ji⟧: characters outside the approved list\n\nSIMILAR WORDS:\n- ⟦{常用漢字|じょうようかんじ}→常用漢字：20778_jouyoukanji⟧: general-use kanji — the 2,136 characters for ordinary writing; names may also use these\n- ⟦{表外漢字|ひょうがいかんじ}→表外漢字：30393_hyougaikanji⟧: kanji outside the lists — cannot be used in a newly registered name",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20778_jouyoukanji",
+      "reading": "じょうようかんじ",
+      "headword": "{常用漢字|じょうようかんじ}",
+      "label": "general-use kanji"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30393_hyougaikanji",
+      "reading": "ひょうがいかんじ",
+      "headword": "{表外漢字|ひょうがいかんじ}",
+      "label": "kanji outside the lists"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30113_kyouikukanji",
+      "reading": "きょういくかんじ",
+      "headword": "{教育漢字|きょういくかんじ}",
+      "label": "kanji taught in elementary school"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +76,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "language"
       ],
       "domain": []
     },
     "created": "2026-07-25T18:20:39Z",
-    "modified": "2026-07-25T18:20:39Z"
+    "modified": "2026-09-02T04:02:38Z"
   }
 }

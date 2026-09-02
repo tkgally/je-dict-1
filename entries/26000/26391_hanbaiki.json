@@ -15,39 +15,66 @@
   "examples": [
     {
       "id": "26391_hanbaiki_ex1",
-      "japanese": "{販売機|はんばいき}でジュースを{買|か}った。",
+      "japanese": "{販売機|はんばいき}⟦で→で：00502_de⟧⟦ジュース→ジュース：01033_juusu⟧⟦を→を：00422_wo⟧⟦{買|か}った→買う：00489_kau⟧。",
       "english": "I bought juice from a vending machine.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26391_hanbaiki_ex2",
-      "japanese": "{駅|えき}の{前|まえ}に{自動|じどう}{販売機|はんばいき}がある。",
+      "japanese": "⟦{駅|えき}→駅：02180_eki⟧⟦の→の：09472_no⟧⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧{自動|じどう}{販売機|はんばいき}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There's a vending machine in front of the station.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26391_hanbaiki_ex3",
-      "japanese": "{最近|さいきん}の{販売機|はんばいき}は{電子|でんし}マネーやQRコードで{支払|しはら}いができるものが{増|ふ}えている。",
+      "japanese": "⟦{最近|さいきん}→最近：00881_saikin⟧⟦の→の：09472_no⟧{販売機|はんばいき}⟦は→は：00079_ha⟧⟦{電子|でんし}マネー→電子マネー：06694_denshimanee⟧やQRコード⟦で→で：00502_de⟧{支払|しはら}い⟦が→が：00051_ga⟧⟦できる→できる：00557_dekiru⟧もの⟦が→が：00051_ga⟧⟦{増|ふ}えている→増える：01183_fueru⟧。",
       "english": "More and more recent vending machines accept electronic money and QR code payments.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Short for {自動販売機|じどうはんばいき} (automatic vending machine). Japan is famous for its high density of vending machines — over 4 million nationwide — selling everything from drinks and snacks to hot meals, flowers, and even official documents.\n\nIn everyday speech, {自販機|じはんき} is the most common shortened form. {販売機|はんばいき} by itself is slightly more formal and appears more in written contexts and compound terms.\n\nCOMMON COLLOCATIONS:\n- {自動|じどう}{販売機|はんばいき}: automatic vending machine (full form)\n- {飲料|いんりょう}{販売機|はんばいき}: beverage vending machine\n- {食品|しょくひん}{販売機|はんばいき}: food vending machine\n- {券売機|けんばいき}: ticket vending machine\n\nSIMILAR WORDS:\n- {自動販売機|じどうはんばいき}: automatic vending machine — the full formal term\n- {自販機|じはんき}: vending machine — the most common colloquial abbreviation\n- {券売機|けんばいき}: ticket machine — specifically for purchasing tickets",
-  "cross_references": [],
+  "notes": "Short for ⟦{自動販売機|じどうはんばいき}→自動販売機：03078_jidouhanbaiki⟧ (automatic vending machine). Japan is famous for its high density of vending machines — over 4 million nationwide — selling everything from drinks and snacks to hot meals, flowers, and even official documents.\n\nIn everyday speech, ⟦{自販機|じはんき}→自販機：09703_jihanki⟧ is the most common shortened form. {販売機|はんばいき} by itself is slightly more formal and appears more in written contexts and compound terms.\n\nCOMMON COLLOCATIONS:\n- {自動|じどう}{販売機|はんばいき}: automatic vending machine (full form)\n- ⟦{飲料|いんりょう}→飲料：03011_inryou⟧{販売機|はんばいき}: beverage vending machine\n- ⟦{食品|しょくひん}→食品：03247_shokuhin⟧{販売機|はんばいき}: food vending machine\n- ⟦{券売機|けんばいき}→券売機：09553_kenbaiki⟧: ticket vending machine\n\nSIMILAR WORDS:\n- ⟦{自動販売機|じどうはんばいき}→自動販売機：03078_jidouhanbaiki⟧: automatic vending machine — the full formal term\n- ⟦{自販機|じはんき}→自販機：09703_jihanki⟧: vending machine — the most common colloquial abbreviation\n- ⟦{券売機|けんばいき}→券売機：09553_kenbaiki⟧: ticket machine — specifically for purchasing tickets",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09703_jihanki",
+      "reading": "じはんき",
+      "headword": "{自販機|じはんき}",
+      "label": "vending machine"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09553_kenbaiki",
+      "reading": "けんばいき",
+      "headword": "{券売機|けんばいき}",
+      "label": "ticket machine"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["daily-life", "shopping"]
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "daily-life",
+        "shopping"
+      ]
     },
     "created": "2026-05-01T13:34:46Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T04:02:26Z"
   }
 }

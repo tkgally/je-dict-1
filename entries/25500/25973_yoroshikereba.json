@@ -15,39 +15,58 @@
   "examples": [
     {
       "id": "25973_yoroshikereba_ex1",
-      "japanese": "よろしければ、どうぞ{召|め}し{上|あ}がってください。",
+      "japanese": "よろしければ、⟦どうぞ→どうぞ：02920_douzo⟧⟦{召|め}し{上|あ}がって→召し上がる：01310_meshiagaru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "If you'd like, please help yourself.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "25973_yoroshikereba_ex2",
-      "japanese": "よろしければ、{連絡先|れんらくさき}を{教|おし}えていただけますか。",
+      "japanese": "よろしければ、⟦{連絡先|れんらくさき}→連絡先：03191_renrakusaki⟧⟦を→を：00422_wo⟧⟦{教|おし}えて→教える：00526_oshieru⟧⟦いただけます→いただく：01326_itadaku⟧⟦か→か：09473_ka⟧。",
       "english": "If you don't mind, could you give me your contact information?",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "25973_yoroshikereba_ex3",
-      "japanese": "よろしければ、{来週|らいしゅう}の{会議|かいぎ}にご{参加|さんか}いただけないでしょうか。",
+      "japanese": "よろしければ、⟦{来週|らいしゅう}→来週：00746_raishuu⟧⟦の→の：09472_no⟧⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦に→に：00314_ni⟧ご⟦{参加|さんか}→参加：02498_sanka⟧⟦いただけない→いただく：01326_itadaku⟧でしょう⟦か→か：09473_ka⟧。",
       "english": "If it's not too much trouble, would you be able to attend next week's meeting?",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "The conditional form of よろしい, the polite equivalent of いい (good; alright). This expression softens requests, offers, and suggestions by explicitly giving the listener the option to decline. It is a hallmark of polite Japanese and is used extensively in customer service, business, and formal social interactions.\n\nUSAGE:\n- Placed at the beginning of a sentence as a polite lead-in\n- Often followed by polite request forms like ～ていただけますか or ～てください\n- Can stand alone as a question: よろしければ？ (If that's alright?)\n\nFORMALITY LEVELS:\n- よければ: casual equivalent\n- よろしければ: standard polite\n- よろしかったら: slightly softer variant (also polite)\n\nSIMILAR WORDS:\n- もしよければ: if you'd like — slightly less formal, with もし adding emphasis on the hypothetical\n- {差|さ}し{支|つか}えなければ: if it's not inconvenient — more formal, used when asking for potentially sensitive information\n- よかったら: if you'd like — casual equivalent for informal situations",
-  "cross_references": [],
+  "notes": "The conditional form of ⟦よろしい→よろしい：01176_yoroshii⟧, the polite equivalent of ⟦いい→いい：00118_ii⟧ (good; alright). This expression softens requests, offers, and suggestions by explicitly giving the listener the option to decline. It is a hallmark of polite Japanese and is used extensively in customer service, business, and formal social interactions.\n\nUSAGE:\n- Placed at the beginning of a sentence as a polite lead-in\n- Often followed by polite request forms like ～て⟦いただけます→いただく：01326_itadaku⟧⟦か→か：09473_ka⟧ or ～て⟦ください→ください：02899_kudasai⟧\n- Can stand alone as a question: よろしければ？ (If that's alright?)\n\nFORMALITY LEVELS:\n- ⟦よければ→いい：00118_ii⟧: casual equivalent\n- よろしければ: standard polite\n- ⟦よろしかったら→よろしい：01176_yoroshii⟧: slightly softer variant (also polite)\n\nSIMILAR WORDS:\n- ⟦もし→もし：01284_moshi⟧⟦よければ→いい：00118_ii⟧: if you'd like — slightly less formal, with ⟦もし→もし：01284_moshi⟧ adding emphasis on the hypothetical\n- ⟦{差|さ}し{支|つか}えなければ→差し支える：05915_sashitsukaeru⟧: if it's not inconvenient — more formal, used when asking for potentially sensitive information\n- ⟦よかったら→いい：00118_ii⟧: if you'd like — casual equivalent for informal situations",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16548_sashitsukaenakereba",
+      "reading": "さしつかえなければ",
+      "headword": "{差|さ}し{支|つか}えなければ",
+      "label": "if it's not inconvenient"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["expression"],
-      "semantic": ["communication"]
+      "pos": [
+        "expression"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "communication"
+      ]
     },
     "created": "2026-04-28T14:12:54Z",
-    "modified": "2026-04-28T14:12:54Z"
+    "modified": "2026-09-02T04:02:24Z"
   }
 }

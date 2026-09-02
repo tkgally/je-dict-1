@@ -15,42 +15,83 @@
   "examples": [
     {
       "id": "26904_zoushuwai_ex1",
-      "japanese": "{贈収賄|ぞうしゅうわい}で{逮捕|たいほ}された。",
+      "japanese": "{贈収賄|ぞうしゅうわい}⟦で→で：00502_de⟧⟦{逮捕|たいほ}→逮捕：03397_taiho⟧⟦された→する：00392_suru⟧。",
       "english": "He was arrested for bribery.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26904_zoushuwai_ex2",
-      "japanese": "{贈収賄|ぞうしゅうわい}{事件|じけん}が{大|おお}きなニュースになった。",
+      "japanese": "{贈収賄|ぞうしゅうわい}⟦{事件|じけん}→事件：01568_jiken⟧⟦が→が：00051_ga⟧⟦{大|おお}きな→大きな：02849_ookina⟧⟦ニュース→ニュース：04437_nyuusu⟧になった。",
       "english": "The bribery case became big news.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26904_zoushuwai_ex3",
-      "japanese": "{市長|しちょう}が{贈収賄|ぞうしゅうわい}の{容疑|ようぎ}で{取|と}り{調|しら}べを{受|う}けている。",
+      "japanese": "⟦{市長|しちょう}→市長：12472_shichou⟧⟦が→が：00051_ga⟧{贈収賄|ぞうしゅうわい}⟦の→の：09472_no⟧⟦{容疑|ようぎ}→容疑：12317_yougi⟧⟦で→で：00502_de⟧{取|と}り{調|しら}べ⟦を→を：00422_wo⟧⟦{受|う}けている→受ける：01215_ukeru⟧。",
       "english": "The mayor is being investigated on suspicion of bribery.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {贈|ぞう} (giving) + {収|しゅう} (receiving) + {賄|わい} (bribe). The word covers both {贈賄|ぞうわい} (offering a bribe) and {収賄|しゅうわい} (accepting a bribe) as a single concept.\n\nCOMMON COLLOCATIONS:\n- {贈収賄|ぞうしゅうわい}{事件|じけん}: bribery case/scandal\n- {贈収賄|ぞうしゅうわい}の{容疑|ようぎ}: suspicion of bribery\n- {贈収賄|ぞうしゅうわい}で{起訴|きそ}される: to be indicted for bribery\n- {贈収賄|ぞうしゅうわい}{罪|ざい}: the crime of bribery\n\nRELATED TERMS:\n- {贈賄|ぞうわい}: giving a bribe — the crime committed by the bribe-giver\n- {収賄|しゅうわい}: accepting a bribe — the crime committed by the official\n- {賄賂|わいろ}: bribe — the money or goods exchanged\n- {汚職|おしょく}: corruption — broader term for official misconduct",
-  "cross_references": [],
+  "notes": "A compound of {贈|ぞう} (giving) + {収|しゅう} (receiving) + {賄|わい} (bribe). The word covers both ⟦{贈賄|ぞうわい}→贈賄：21598_zouwai⟧ (offering a bribe) and ⟦{収賄|しゅうわい}→収賄：27665_shuuwai⟧ (accepting a bribe) as a single concept.\n\nCOMMON COLLOCATIONS:\n- {贈収賄|ぞうしゅうわい}⟦{事件|じけん}→事件：01568_jiken⟧: bribery case/scandal\n- {贈収賄|ぞうしゅうわい}⟦の→の：09472_no⟧⟦{容疑|ようぎ}→容疑：12317_yougi⟧: suspicion of bribery\n- {贈収賄|ぞうしゅうわい}⟦で→で：00502_de⟧⟦{起訴|きそ}される→起訴する：09863_kisosuru⟧: to be indicted for bribery\n- {贈収賄|ぞうしゅうわい}{罪|ざい}: the crime of bribery\n\nRELATED WORDS:\n- ⟦{贈賄|ぞうわい}→贈賄：21598_zouwai⟧: giving a bribe — the crime committed by the bribe-giver\n- ⟦{収賄|しゅうわい}→収賄：27665_shuuwai⟧: accepting a bribe — the crime committed by the official\n- ⟦{賄賂|わいろ}→賄賂：21571_wairo⟧: bribe — the money or goods exchanged\n- ⟦{汚職|おしょく}→汚職：17399_oshoku⟧: corruption — broader term for official misconduct",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "21598_zouwai",
+      "reading": "ぞうわい",
+      "headword": "{贈賄|ぞうわい}",
+      "label": "giving a bribe"
+    },
+    {
+      "type": "related",
+      "target_id": "21571_wairo",
+      "reading": "わいろ",
+      "headword": "{賄賂|わいろ}",
+      "label": "bribe"
+    },
+    {
+      "type": "related",
+      "target_id": "17399_oshoku",
+      "reading": "おしょく",
+      "headword": "{汚職|おしょく}",
+      "label": "corruption"
+    },
+    {
+      "type": "related",
+      "target_id": "27052_oshokujiken",
+      "reading": "おしょくじけん",
+      "headword": "{汚職事件|おしょくじけん}",
+      "label": "corruption case"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["law"],
-      "domain": ["legal"]
+      "semantic": [
+        "law"
+      ],
+      "domain": [
+        "legal"
+      ]
     },
     "created": "2026-05-05T15:12:14Z",
-    "modified": "2026-05-05T15:12:14Z"
+    "modified": "2026-09-02T04:02:28Z"
   }
 }

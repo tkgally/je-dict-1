@@ -59,7 +59,7 @@
     },
     {
       "id": "02741_keiji_ex5",
-      "japanese": "⟦ベテラン→ベテラン：11121_beteran⟧⟦の→の：09472_no⟧{刑事|けいじ}⟦が→が：00051_ga⟧⟦{現場|げんば}→現場：02723_genba⟧⟦に→に：00314_ni⟧⟦{到着|とうちゃく}→到着：02526_touchaku⟧して、⟦すぐに→すぐに：02905_suguni⟧⟦{聞|き}き{込|こ}み→聞き込み：13919_kikikomi⟧⟦を→を：00422_wo⟧⟦{始|はじ}めた→始める：00531_hajimeru⟧。",
+      "japanese": "⟦ベテラン→ベテラン：11121_beteran⟧⟦の→の：09472_no⟧{刑事|けいじ}⟦が→が：00051_ga⟧⟦{現場|げんば}→現場：02723_genba⟧⟦に→に：00314_ni⟧⟦{到着|とうちゃく}→到着：02526_touchaku⟧⟦して→する：00392_suru⟧、⟦すぐに→すぐに：02905_suguni⟧⟦{聞|き}き{込|こ}み→聞き込み：13919_kikikomi⟧⟦を→を：00422_wo⟧⟦{始|はじ}めた→始める：00531_hajimeru⟧。",
       "english": "A veteran detective arrived at the scene and immediately began questioning people.",
       "notes": null,
       "has_audio": false,
@@ -78,7 +78,7 @@
       ]
     }
   ],
-  "notes": "{刑事|けいじ} has two main uses.\n\nAS 'DETECTIVE':\n- Refers to plainclothes police officers\n- Often featured in crime dramas ({刑事|けいじ}⟦ドラマ→ドラマ：03867_dorama⟧)\n\nAS 'CRIMINAL' (prefix/adjective):\n- {刑事|けいじ}⟦{事件|じけん}→事件：01568_jiken⟧ (criminal case)\n- {刑事|けいじ}⟦{裁判|さいばん}→裁判：02773_saiban⟧ (criminal trial)\n- {刑事|けいじ}⟦{責任|せきにん}→責任：03298_sekinin⟧ (criminal liability)\n- {刑事|けいじ}⟦{罰|ばつ}→罰：10154_batsu⟧ (criminal punishment)\n\nCONTRAST:\n- {刑事|けいじ} (criminal) ↔ ⟦{民事|みんじ}→民事：27902_minji⟧ (civil)\n- {刑事|けいじ}⟦{裁判|さいばん}→裁判：02773_saiban⟧ (criminal trial) ↔ ⟦{民事|みんじ}→民事：27902_minji⟧⟦{裁判|さいばん}→裁判：02773_saiban⟧ (civil trial)",
+  "notes": "{刑事|けいじ} has two main uses.\n\nAS 'DETECTIVE':\n- Refers to plainclothes police officers\n- Often featured in crime dramas ({刑事|けいじ}⟦ドラマ→ドラマ：03867_dorama⟧)\n\nAS 'CRIMINAL' (prefix/adjective):\n- {刑事|けいじ}⟦{事件|じけん}→事件：01568_jiken⟧ (criminal case)\n- {刑事|けいじ}⟦{裁判|さいばん}→裁判：02773_saiban⟧ (criminal trial)\n- {刑事|けいじ}⟦{責任|せきにん}→責任：03298_sekinin⟧ (criminal liability)\n- {刑事|けいじ}⟦{罰|ばつ}→罰：10154_batsu⟧ (criminal punishment)\n\nSIMILAR WORDS:\n- {刑事|けいじ} (criminal) ↔ ⟦{民事|みんじ}→民事：27902_minji⟧ (civil)\n- {刑事|けいじ}⟦{裁判|さいばん}→裁判：02773_saiban⟧ (criminal trial) ↔ ⟦{民事|みんじ}→民事：27902_minji⟧⟦{裁判|さいばん}→裁判：02773_saiban⟧ (civil trial)",
   "cross_references": [
     {
       "type": "related",
@@ -86,11 +86,53 @@
       "headword": "{探偵|たんてい}",
       "label": "private detective",
       "target_id": "07033_tantei"
+    },
+    {
+      "type": "related",
+      "target_id": "01393_keisatsu",
+      "reading": "けいさつ",
+      "headword": "{警察|けいさつ}",
+      "label": "police"
+    },
+    {
+      "type": "related",
+      "target_id": "02876_keikan",
+      "reading": "けいかん",
+      "headword": "{警官|けいかん}",
+      "label": "police officer"
+    },
+    {
+      "type": "related",
+      "target_id": "05056_keisatsukan",
+      "reading": "けいさつかん",
+      "headword": "{警察官|けいさつかん}",
+      "label": "police officer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25615_keibuho",
+      "reading": "けいぶほ",
+      "headword": "{警部補|けいぶほ}",
+      "label": "assistant inspector"
+    },
+    {
+      "type": "antonym",
+      "target_id": "27902_minji",
+      "reading": "みんじ",
+      "headword": "民事",
+      "label": "civil affairs"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30722_sousakan",
+      "reading": "そうさかん",
+      "headword": "{捜査官|そうさかん}",
+      "label": "investigator"
     }
   ],
   "metadata": {
     "created": "2026-01-11T07:46:45Z",
-    "modified": "2026-08-27T12:49:51Z",
+    "modified": "2026-09-02T04:01:02Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

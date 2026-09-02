@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "13809_kessei_ex1",
-      "japanese": "バンドを{結成|けっせい}した。",
+      "japanese": "⟦バンド→バンド：05508_bando⟧⟦を→を：00422_wo⟧{結成|けっせい}⟦した→する：00392_suru⟧。",
       "english": "We formed a band.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "13809_kessei_ex2",
-      "japanese": "{新|あたら}しい{政党|せいとう}が{結成|けっせい}された。",
+      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦{政党|せいとう}→政党：04338_seitou⟧⟦が→が：00051_ga⟧{結成|けっせい}⟦された→する：00392_suru⟧。",
       "english": "A new political party was formed.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "13809_kessei_ex3",
-      "japanese": "{地域|ちいき}の{安全|あんぜん}を{守|まも}るために{自警団|じけいだん}を{結成|けっせい}することになった。",
+      "japanese": "⟦{地域|ちいき}→地域：01461_chiiki⟧⟦の→の：09472_no⟧⟦{安全|あんぜん}→安全：01131_anzen⟧⟦を→を：00422_wo⟧⟦{守|まも}る→守る：01986_mamoru⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧{自警団|じけいだん}⟦を→を：00422_wo⟧{結成|けっせい}⟦する→する：00392_suru⟧ことになった。",
       "english": "It was decided to form a neighborhood watch group to protect the community's safety.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nPrimarily used as a suru verb: {結成|けっせい}する (to form, to organize). Used for deliberate, purposeful creation of groups — bands, political parties, committees, teams, alliances.\n\nCOMMON COLLOCATIONS:\n- バンドを{結成|けっせい}する: to form a band\n- {政党|せいとう}を{結成|けっせい}する: to form a political party\n- チームを{結成|けっせい}する: to form a team\n- {同盟|どうめい}を{結成|けっせい}する: to form an alliance\n- {委員会|いいんかい}を{結成|けっせい}する: to form a committee\n\nSIMILAR WORDS:\n{設立|せつりつ} (establishment) is used for more formal organizations like companies and institutions. {結成|けっせい} implies people coming together voluntarily for a shared cause.",
+  "notes": "USAGE:\nPrimarily used as a suru verb: {結成|けっせい}⟦する→する：00392_suru⟧ (to form, to organize). Used for deliberate, purposeful creation of groups — bands, political parties, committees, teams, alliances.\n\nCOMMON COLLOCATIONS:\n- ⟦バンド→バンド：05508_bando⟧⟦を→を：00422_wo⟧{結成|けっせい}⟦する→する：00392_suru⟧: to form a band\n- ⟦{政党|せいとう}→政党：04338_seitou⟧⟦を→を：00422_wo⟧{結成|けっせい}⟦する→する：00392_suru⟧: to form a political party\n- ⟦チーム→チーム：03858_chiimu⟧⟦を→を：00422_wo⟧{結成|けっせい}⟦する→する：00392_suru⟧: to form a team\n- ⟦{同盟|どうめい}→同盟：05321_doumei⟧⟦を→を：00422_wo⟧{結成|けっせい}⟦する→する：00392_suru⟧: to form an alliance\n- ⟦{委員会|いいんかい}→委員会：12234_iinkai⟧⟦を→を：00422_wo⟧{結成|けっせい}⟦する→する：00392_suru⟧: to form a committee\n\nSIMILAR WORDS:\n⟦{設立|せつりつ}→設立：14171_setsuritsu⟧ (establishment) is used for more formal organizations like companies and institutions. {結成|けっせい} implies people coming together voluntarily for a shared cause.",
   "cross_references": [
     {
       "type": "contrast",
@@ -142,11 +142,32 @@
       "reading": "せつりつ",
       "headword": "{設立|せつりつ}",
       "label": "establishment (formal institutions)"
+    },
+    {
+      "type": "antonym",
+      "target_id": "04121_kaisan",
+      "reading": "かいさん",
+      "headword": "{解散|かいさん}",
+      "label": "dissolution, breaking up, dismissal"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20615_hensei",
+      "reading": "へんせい",
+      "headword": "{編成|へんせい}",
+      "label": "organization"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22370_henseisuru",
+      "reading": "へんせいする",
+      "headword": "{編成|へんせい}する",
+      "label": "to organize"
     }
   ],
   "metadata": {
     "created": "2026-02-27T04:17:38Z",
-    "modified": "2026-04-29T08:23:01Z",
+    "modified": "2026-09-02T04:01:34Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

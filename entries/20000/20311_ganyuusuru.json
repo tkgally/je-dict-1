@@ -3,7 +3,7 @@
   "headword": "{含有|がんゆう}する",
   "reading": "がんゆうする",
   "romaji": "ganyuusuru",
-  "part_of_speech": "noun, suru verb, transitive",
+  "part_of_speech": "noun, suru verb (transitive)",
   "gloss": "to contain; to include (a substance or component)",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "20311_ganyuusuru_ex1",
-      "japanese": "この{食品|しょくひん}はカフェインを{含有|がんゆう}する。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{食品|しょくひん}→食品：03247_shokuhin⟧⟦は→は：00079_ha⟧⟦カフェイン→カフェイン：27911_kafein⟧⟦を→を：00422_wo⟧{含有|がんゆう}する。",
       "english": "This food product contains caffeine.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "20311_ganyuusuru_ex2",
-      "japanese": "アルコールを{含有|がんゆう}する{飲料|いんりょう}。",
+      "japanese": "⟦アルコール→アルコール：01771_arukooru⟧⟦を→を：00422_wo⟧{含有|がんゆう}する⟦{飲料|いんりょう}→飲料：03011_inryou⟧。",
       "english": "A beverage containing alcohol.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "20311_ganyuusuru_ex3",
-      "japanese": "この{鉱石|こうせき}には{希少|きしょう}な{金属|きんぞく}が{高|たか}い{割合|わりあい}で{含有|がんゆう}されている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{鉱石|こうせき}→鉱石：22249_kouseki⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{希少|きしょう}→希少：12444_kishou⟧な⟦{金属|きんぞく}→金属：02645_kinzoku⟧⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧⟦{割合|わりあい}→割合：01760_wariai⟧⟦で→で：00502_de⟧{含有|がんゆう}されて⟦いる→いる：00495_iru⟧。",
       "english": "This ore contains rare metals in a high proportion.",
       "sense_numbers": [
         1
@@ -134,8 +134,24 @@
       "notes": null
     }
   ],
-  "notes": "A する-verb from {含有|がんゆう}, composed of {含|がん} (to contain, to include) + {有|ゆう} (to have, to possess). More formal and technical than {含|ふく}む.\n\nUSAGE:\nPrimarily used in scientific, pharmaceutical, and regulatory contexts. The noun form {含有|がんゆう} frequently appears in compound words like {含有量|がんゆうりょう} (content, amount contained) and {含有率|がんゆうりつ} (content ratio). In everyday conversation, {含|ふく}む or {入|はい}っている is preferred.\n\nCOMMON COLLOCATIONS:\n- {含有量|がんゆうりょう} — amount contained, content level\n- {含有率|がんゆうりつ} — content ratio, percentage\n- カフェイン{含有|がんゆう} — caffeine-containing\n- アルコール{含有|がんゆう} — alcohol-containing\n\nSIMILAR WORDS:\n- {含|ふく}む — to contain, to include (everyday word; broader usage)\n- {配合|はいごう}する — to blend, to compound (actively mixing ingredients together)\n- {入|はい}っている — to be included, to contain (most colloquial option)",
+  "notes": "A ⟦する→する：00392_suru⟧-verb from ⟦{含有|がんゆう}→含有：20105_ganyuu⟧, composed of {含|がん} (to contain, to include) + {有|ゆう} (to have, to possess). More formal and technical than ⟦{含|ふく}む→含む：01982_fukumu⟧.\n\nUSAGE:\nPrimarily used in scientific, pharmaceutical, and regulatory contexts. The noun form ⟦{含有|がんゆう}→含有：20105_ganyuu⟧ frequently appears in compound words like ⟦{含有量|がんゆうりょう}→含有量：22566_ganyuuryou⟧ (content, amount contained) and {含有率|がんゆうりつ} (content ratio). In everyday conversation, ⟦{含|ふく}む→含む：01982_fukumu⟧ or ⟦{入|はい}っている→入る：00494_hairu⟧ is preferred.\n\nCOMMON COLLOCATIONS:\n- ⟦{含有量|がんゆうりょう}→含有量：22566_ganyuuryou⟧ — amount contained, content level\n- {含有率|がんゆうりつ} — content ratio, percentage\n- ⟦カフェイン→カフェイン：27911_kafein⟧⟦{含有|がんゆう}→含有：20105_ganyuu⟧ — caffeine-containing\n- ⟦アルコール→アルコール：01771_arukooru⟧⟦{含有|がんゆう}→含有：20105_ganyuu⟧ — alcohol-containing\n\nSIMILAR WORDS:\n- ⟦{含|ふく}む→含む：01982_fukumu⟧ — to contain, to include (everyday word; broader usage)\n- ⟦{配合|はいごう}→配合：16196_haigou⟧⟦する→する：00392_suru⟧ — to blend, to compound (actively mixing ingredients together)\n- ⟦{入|はい}っている→入る：00494_hairu⟧ — to be included, to contain (most colloquial option)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01982_fukumu",
+      "reading": "ふくむ",
+      "headword": "{含|ふく}む",
+      "label": "to contain, to include (everyday word"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16196_haigou",
+      "reading": "はいごう",
+      "headword": "{配合|はいごう}",
+      "label": "to blend, to compound"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -152,6 +168,6 @@
       "verb_class": "suru"
     },
     "created": "2026-03-28T20:16:34Z",
-    "modified": "2026-03-28T20:16:34Z"
+    "modified": "2026-09-02T04:01:59Z"
   }
 }

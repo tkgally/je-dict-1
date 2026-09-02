@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "10819_kategorii_ex1",
-      "japanese": "カテゴリーを{選|えら}んでください。",
+      "japanese": "カテゴリー⟦を→を：00422_wo⟧⟦{選|えら}んで→選ぶ：00835_erabu⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please select a category.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10819_kategorii_ex2",
-      "japanese": "{商品|しょうひん}をカテゴリー{別|べつ}に{分|わ}けた。",
+      "japanese": "⟦{商品|しょうひん}→商品：01436_shouhin⟧⟦を→を：00422_wo⟧カテゴリー⟦{別|べつ}→別：01216_betsu⟧⟦に→に：00314_ni⟧⟦{分|わ}けた→分ける：02333_wakeru⟧。",
       "english": "I sorted the products by category.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10819_kategorii_ex3",
-      "japanese": "この{映画|えいが}はどのカテゴリーに{入|はい}るか{分|わ}かりにくい。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{映画|えいが}→映画：02273_eiga⟧⟦は→は：00079_ha⟧⟦どの→どの：00551_dono⟧カテゴリー⟦に→に：00314_ni⟧⟦{入|はい}る→入る：00494_hairu⟧⟦か→か：09473_ka⟧⟦{分|わ}かり→分かる：00463_wakaru⟧にくい。",
       "english": "It's hard to tell which category this movie falls into.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "From English \"category.\" Widely used in web design, e-commerce, data organization, and everyday classification. More common than the native {分類|ぶんるい} in casual and digital contexts.\n\nCOMMON PATTERNS:\n- カテゴリー{別|べつ}: by category\n- カテゴリーに{分|わ}ける: to sort into categories\n- カテゴリーに{入|はい}る: to fall into a category\n- カテゴリーを{選|えら}ぶ: to select a category\n- カテゴリー{分|わ}け: categorization\n\nCONTRAST:\n- {分類|ぶんるい}: classification (more formal/academic)\n- カテゴリー: category (preferred in digital/commercial contexts)\n- ジャンル: genre (for media, music, literature)\n- {種類|しゅるい}: type/kind (general everyday word)",
+  "notes": "From English \"category.\" Widely used in web design, e-commerce, data organization, and everyday classification. More common than the native ⟦{分類|ぶんるい}→分類：04790_bunrui⟧ in casual and digital contexts.\n\nCOMMON PATTERNS:\n- カテゴリー⟦{別|べつ}→別：01216_betsu⟧: by category\n- カテゴリー⟦に→に：00314_ni⟧⟦{分|わ}ける→分ける：02333_wakeru⟧: to sort into categories\n- カテゴリー⟦に→に：00314_ni⟧⟦{入|はい}る→入る：00494_hairu⟧: to fall into a category\n- カテゴリー⟦を→を：00422_wo⟧⟦{選|えら}ぶ→選ぶ：00835_erabu⟧: to select a category\n- カテゴリー{分|わ}け: categorization\n\nSIMILAR WORDS:\n- ⟦{分類|ぶんるい}→分類：04790_bunrui⟧: classification (more formal/academic)\n- カテゴリー: category (preferred in digital/commercial contexts)\n- ⟦ジャンル→ジャンル：11017_janru⟧: genre (for media, music, literature)\n- ⟦{種類|しゅるい}→種類：01560_shurui⟧: type/kind (general everyday word)",
   "cross_references": [
     {
       "type": "synonym",
@@ -53,18 +59,36 @@
       "reading": "じゃんる",
       "headword": "ジャンル",
       "label": "genre (media)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01560_shurui",
+      "reading": "しゅるい",
+      "headword": "{種類|しゅるい}",
+      "label": "type/kind"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25303_hanchuu",
+      "reading": "はんちゅう",
+      "headword": "{範疇|はんちゅう}",
+      "label": "category"
     }
   ],
   "metadata": {
     "created": "2026-02-10T08:31:48Z",
-    "modified": "2026-04-24T09:07:32Z",
+    "modified": "2026-09-02T04:01:22Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

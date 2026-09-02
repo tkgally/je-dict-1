@@ -15,41 +15,70 @@
   "examples": [
     {
       "id": "19156_yakugaku_ex1",
-      "japanese": "{薬学|やくがく}を{学|まな}んでいる。",
+      "japanese": "{薬学|やくがく}⟦を→を：00422_wo⟧⟦{学|まな}んでいる→学ぶ：01987_manabu⟧。",
       "english": "I am studying pharmacy.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19156_yakugaku_ex2",
-      "japanese": "{薬学部|やくがくぶ}は{六年制|ろくねんせい}になった。",
+      "japanese": "⟦{薬学部|やくがくぶ}→薬学部：28157_yakugakubu⟧⟦は→は：00079_ha⟧{六年制|ろくねんせい}になった。",
       "english": "The pharmacy department has become a six-year program.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19156_yakugaku_ex3",
-      "japanese": "{薬学|やくがく}の{知識|ちしき}を{活|い}かして{製薬会社|せいやくがいしゃ}で{働|はたら}いている。",
+      "japanese": "{薬学|やくがく}⟦の→の：09472_no⟧⟦{知識|ちしき}→知識：01463_chishiki⟧⟦を→を：00422_wo⟧⟦{活|い}かして→活かす：10422_ikasu⟧{製薬会社|せいやくがいしゃ}⟦で→で：00502_de⟧⟦{働|はたら}いている→働く：00503_hataraku⟧。",
       "english": "I work at a pharmaceutical company, making use of my pharmacy knowledge.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Common collocations: {薬学部|やくがくぶ} (pharmacy department/faculty), {薬学|やくがく}{研究|けんきゅう} (pharmaceutical research), {薬学|やくがく}の{博士号|はくしごう} (doctorate in pharmacy). In Japan, {薬学部|やくがくぶ} programs were extended from four to six years in 2006. Graduates can take the {薬剤師|やくざいし} (pharmacist) licensing exam. Part of the {〜学|がく} (study of ~) word family, like {医学|いがく} (medicine) and {歯学|しがく} (dentistry).",
+  "notes": "Common collocations: ⟦{薬学部|やくがくぶ}→薬学部：28157_yakugakubu⟧ (pharmacy department/faculty), {薬学|やくがく}⟦{研究|けんきゅう}→研究：01396_kenkyuu⟧ (pharmaceutical research), {薬学|やくがく}⟦の→の：09472_no⟧⟦{博士号|はくしごう}→博士号：16350_hakushigou⟧ (doctorate in pharmacy). In Japan, ⟦{薬学部|やくがくぶ}→薬学部：28157_yakugakubu⟧ programs were extended from four to six years in 2006. Graduates can take the ⟦{薬剤師|やくざいし}→薬剤師：07030_yakuzaishi⟧ (pharmacist) licensing exam. Part of the {〜学|がく} (study of ~) word family, like ⟦{医学|いがく}→医学：01301_igaku⟧ (medicine) and ⟦{歯学|しがく}→歯学：27622_shigaku⟧ (dentistry).",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "01301_igaku",
+      "reading": "いがく",
+      "headword": "{医学|いがく}",
+      "label": "medical science"
+    },
+    {
+      "type": "related",
+      "target_id": "07107_seibutsugaku",
+      "reading": "せいぶつがく",
+      "headword": "{生物学|せいぶつがく}",
+      "label": "biology"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["education"],
-      "domain": ["academic", "medical"]
+      "semantic": [
+        "education"
+      ],
+      "domain": [
+        "academic",
+        "medical"
+      ]
     },
     "created": "2026-03-24T11:23:48Z",
-    "modified": "2026-03-24T11:23:48Z"
+    "modified": "2026-09-02T04:01:54Z"
   }
 }

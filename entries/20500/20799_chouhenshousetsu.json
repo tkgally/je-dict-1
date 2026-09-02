@@ -15,40 +15,73 @@
   "examples": [
     {
       "id": "20799_chouhenshousetsu_ex1",
-      "japanese": "{長編小説|ちょうへんしょうせつ}を{読|よ}み{終|お}えた。",
+      "japanese": "{長編小説|ちょうへんしょうせつ}⟦を→を：00422_wo⟧⟦{読|よ}み→読む：00426_yomu⟧⟦{終|お}えた→終える：02019_oeru⟧。",
       "english": "I finished reading a full-length novel.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20799_chouhenshousetsu_ex2",
-      "japanese": "{彼|かれ}は{初|はじ}めて{長編小説|ちょうへんしょうせつ}に{挑戦|ちょうせん}した。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{初|はじ}めて→初めて：02932_hajimete⟧{長編小説|ちょうへんしょうせつ}⟦に→に：00314_ni⟧⟦{挑戦|ちょうせん}した→挑戦する：21602_chousensuru⟧。",
       "english": "He attempted a full-length novel for the first time.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20799_chouhenshousetsu_ex3",
-      "japanese": "この{作家|さっか}の{長編小説|ちょうへんしょうせつ}は{上下|じょうげ}{二巻|にかん}で{出版|しゅっぱん}された。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{作家|さっか}→作家：01414_sakka⟧⟦の→の：09472_no⟧{長編小説|ちょうへんしょうせつ}⟦は→は：00079_ha⟧⟦{上下|じょうげ}→上下：04282_jouge⟧{二巻|にかん}⟦で→で：00502_de⟧⟦{出版|しゅっぱん}→出版：03222_shuppan⟧⟦された→する：00392_suru⟧。",
       "english": "This author's novel was published in two volumes.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {長編|ちょうへん} (long piece) + {小説|しょうせつ} (novel, fiction). The counterpart to {短編小説|たんぺんしょうせつ} (short story).\n\nCOMMON COLLOCATIONS:\n- {長編小説|ちょうへんしょうせつ}を{書|か}く: to write a full-length novel\n- {長編小説|ちょうへんしょうせつ}に{挑戦|ちょうせん}する: to attempt a full-length novel\n- {大河|たいが}{長編小説|ちょうへんしょうせつ}: epic novel, saga\n\nRELATED TERMS:\n- {短編小説|たんぺんしょうせつ}: short story\n- {中編小説|ちゅうへんしょうせつ}: novella, medium-length fiction\n- {長編|ちょうへん}: long piece (can also refer to long films, manga series, etc.)\n- {大作|たいさく}: masterwork, major work — emphasizes ambition and scale\n\nNOTE:\nOften abbreviated to {長編|ちょうへん} when the context makes it clear fiction is being discussed.",
+  "notes": "Composed of ⟦{長編|ちょうへん}→長編：14475_chouhen⟧ (long piece) + ⟦{小説|しょうせつ}→小説：01434_shousetsu⟧ (novel, fiction). The counterpart to ⟦{短編小説|たんぺんしょうせつ}→短編小説：20776_tanpenshousetsu⟧ (short story).\n\nCOMMON COLLOCATIONS:\n- {長編小説|ちょうへんしょうせつ}⟦を→を：00422_wo⟧⟦{書|か}く→書く：00477_kaku⟧: to write a full-length novel\n- {長編小説|ちょうへんしょうせつ}⟦に→に：00314_ni⟧⟦{挑戦|ちょうせん}する→挑戦する：21602_chousensuru⟧: to attempt a full-length novel\n- ⟦{大河|たいが}→大河：12197_taiga⟧{長編小説|ちょうへんしょうせつ}: epic novel, saga\n\nRELATED WORDS:\n- ⟦{短編小説|たんぺんしょうせつ}→短編小説：20776_tanpenshousetsu⟧: short story\n- {中編小説|ちゅうへんしょうせつ}: novella, medium-length fiction\n- ⟦{長編|ちょうへん}→長編：14475_chouhen⟧: long piece (can also refer to long films, manga series, etc.)\n- ⟦{大作|たいさく}→大作：12196_taisaku⟧: masterwork, major work — emphasizes ambition and scale\n\nUSAGE:\nOften abbreviated to ⟦{長編|ちょうへん}→長編：14475_chouhen⟧ when the context makes it clear fiction is being discussed.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "20776_tanpenshousetsu",
+      "reading": "たんぺんしょうせつ",
+      "headword": "{短編小説|たんぺんしょうせつ}",
+      "label": "short story"
+    },
+    {
+      "type": "related",
+      "target_id": "12196_taisaku",
+      "reading": "たいさく",
+      "headword": "{大作|たいさく}",
+      "label": "masterwork, major work"
+    },
+    {
+      "type": "antonym",
+      "target_id": "28528_tanpenshuu",
+      "reading": "たんぺんしゅう",
+      "headword": "{短編集|たんぺんしゅう}",
+      "label": "short story collection"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["culture"]
+      "semantic": [
+        "culture"
+      ]
     },
     "created": "2026-03-30T16:16:15Z",
-    "modified": "2026-03-30T16:16:15Z"
+    "modified": "2026-09-02T04:02:01Z"
   }
 }

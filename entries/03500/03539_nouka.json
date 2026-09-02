@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "USAGE: {農家|のうか} can refer to (1) a farmer/farming family, or (2) a farmhouse.\n\nCOMMON PATTERNS:\n・{農家|のうか}⟦の→の：09472_no⟧⟦{人|ひと}→人：00476_hito⟧ (farmer)\n・{農家|のうか}⟦で→で：00502_de⟧⟦{育|そだ}つ→育つ：01951_sodatsu⟧ (to grow up on a farm)\n・{農家|のうか}⟦を→を：00422_wo⟧⟦{営|いとな}む→営む：11837_itonamu⟧ (to run a farm)\n・{農家|のうか}⟦{直送|ちょくそう}→直送：13824_chokusou⟧ (direct from the farm)\n\nRELATED WORDS:\n・⟦{農民|のうみん}→農民：03759_noumin⟧ - farmer, peasant (more emphasis on the person)\n・⟦{農業|のうぎょう}→農業：01491_nougyou⟧ - agriculture, farming\n・⟦{農村|のうそん}→農村：04292_nouson⟧ - farming village\n・⟦{農地|のうち}→農地：14354_nouchi⟧ - farmland\n・⟦{専業|せんぎょう}→専業：15394_sengyou⟧{農家|のうか} - full-time farmer\n・⟦{兼業|けんぎょう}→兼業：08562_kengyou⟧{農家|のうか} - part-time farmer",
+  "notes": "USAGE: {農家|のうか} can refer to (1) a farmer/farming family, or (2) a farmhouse.\n\nCOMMON PATTERNS:\n- {農家|のうか}⟦の→の：09472_no⟧⟦{人|ひと}→人：00476_hito⟧ (farmer)\n- {農家|のうか}⟦で→で：00502_de⟧⟦{育|そだ}つ→育つ：01951_sodatsu⟧ (to grow up on a farm)\n- {農家|のうか}⟦を→を：00422_wo⟧⟦{営|いとな}む→営む：11837_itonamu⟧ (to run a farm)\n- {農家|のうか}⟦{直送|ちょくそう}→直送：13824_chokusou⟧ (direct from the farm)\n\nRELATED WORDS:\n- ⟦{農民|のうみん}→農民：03759_noumin⟧ - farmer, peasant (more emphasis on the person)\n- ⟦{農業|のうぎょう}→農業：01491_nougyou⟧ - agriculture, farming\n- ⟦{農村|のうそん}→農村：04292_nouson⟧ - farming village\n- ⟦{農地|のうち}→農地：14354_nouchi⟧ - farmland\n- ⟦{専業|せんぎょう}→専業：15394_sengyou⟧{農家|のうか} - full-time farmer\n- ⟦{兼業|けんぎょう}→兼業：08562_kengyou⟧{農家|のうか} - part-time farmer",
   "cross_references": [
     {
       "type": "related",
@@ -58,11 +58,53 @@
       "headword": "{農業|のうぎょう}",
       "label": "agriculture",
       "target_id": "01491_nougyou"
+    },
+    {
+      "type": "related",
+      "target_id": "04292_nouson",
+      "reading": "のうそん",
+      "headword": "{農村|のうそん}",
+      "label": "farming village"
+    },
+    {
+      "type": "related",
+      "target_id": "14354_nouchi",
+      "reading": "のうち",
+      "headword": "{農地|のうち}",
+      "label": "farmland"
+    },
+    {
+      "type": "related",
+      "target_id": "14511_nousagyou",
+      "reading": "のうさぎょう",
+      "headword": "{農作業|のうさぎょう}",
+      "label": "farm work"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20586_noujou",
+      "reading": "のうじょう",
+      "headword": "{農場|のうじょう}",
+      "label": "farm"
+    },
+    {
+      "type": "related",
+      "target_id": "24042_ringonouka",
+      "reading": "りんごのうか",
+      "headword": "りんご{農家|のうか}",
+      "label": "apple farmer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25443_seisansha",
+      "reading": "せいさんしゃ",
+      "headword": "{生産者|せいさんしゃ}",
+      "label": "producer"
     }
   ],
   "metadata": {
     "created": "2026-01-12T11:10:00Z",
-    "modified": "2026-05-26T13:19:13Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

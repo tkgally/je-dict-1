@@ -15,41 +15,62 @@
   "examples": [
     {
       "id": "18914_mudantensai_ex1",
-      "japanese": "{無断転載|むだんてんさい}{禁止|きんし}。",
+      "japanese": "{無断転載|むだんてんさい}⟦{禁止|きんし}→禁止：02643_kinshi⟧。",
       "english": "Unauthorized reproduction prohibited.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "18914_mudantensai_ex2",
-      "japanese": "この{写真|しゃしん}の{無断転載|むだんてんさい}はご{遠慮|えんりょ}ください。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{写真|しゃしん}→写真：00753_shashin⟧⟦の→の：09472_no⟧{無断転載|むだんてんさい}⟦は→は：00079_ha⟧ご⟦{遠慮|えんりょ}→遠慮：01337_enryo⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please refrain from reposting this photo without permission.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "18914_mudantensai_ex3",
-      "japanese": "SNSでの{無断転載|むだんてんさい}が{問題|もんだい}になり、{著作権|ちょさくけん}{侵害|しんがい}で{訴|うった}えられた。",
+      "japanese": "SNS⟦で→で：00502_de⟧⟦の→の：09472_no⟧{無断転載|むだんてんさい}⟦が→が：00051_ga⟧⟦{問題|もんだい}→問題：00797_mondai⟧⟦に→に：00314_ni⟧⟦なり→なる：01970_naru⟧、⟦{著作権|ちょさくけん}{侵害|しんがい}→著作権侵害：25454_chosakukenshingai⟧⟦で→で：00502_de⟧⟦{訴|うった}えられた→訴える：01891_uttaeru⟧。",
       "english": "Unauthorized reposting on social media became a problem, and a copyright infringement lawsuit was filed.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {無断|むだん} (without permission) + {転載|てんさい} (reprinting, reposting). One of the most common copyright-related phrases seen on Japanese websites, blogs, and social media. Almost always appears as {無断転載|むだんてんさい}{禁止|きんし} (unauthorized reproduction prohibited) or {無断転載|むだんてんさい}はご{遠慮|えんりょ}ください (please refrain from unauthorized reproduction). Related: {無断|むだん}{使用|しよう} (unauthorized use), {無断|むだん}{複製|ふくせい} (unauthorized copying).",
+  "notes": "Composed of ⟦{無断|むだん}→無断：13382_mudan⟧ (without permission) + ⟦{転載|てんさい}→転載：14359_tensai⟧ (reprinting, reposting). One of the most common copyright-related phrases seen on Japanese websites, blogs, and social media. Almost always appears as {無断転載|むだんてんさい}⟦{禁止|きんし}→禁止：02643_kinshi⟧ (unauthorized reproduction prohibited) or {無断転載|むだんてんさい}⟦は→は：00079_ha⟧ご⟦{遠慮|えんりょ}→遠慮：01337_enryo⟧⟦ください→ください：02899_kudasai⟧ (please refrain from unauthorized reproduction). Related: ⟦{無断|むだん}→無断：13382_mudan⟧⟦{使用|しよう}→使用：01637_shiyou⟧ (unauthorized use), ⟦{無断|むだん}→無断：13382_mudan⟧⟦{複製|ふくせい}→複製：17528_fukusei⟧ (unauthorized copying).",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23253_hyousetsu",
+      "reading": "ひょうせつ",
+      "headword": "{剽窃|ひょうせつ}",
+      "label": "plagiarism"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["communication"],
-      "domain": ["legal"]
+      "semantic": [
+        "communication"
+      ],
+      "domain": [
+        "legal"
+      ]
     },
     "created": "2026-03-23T09:26:43Z",
-    "modified": "2026-03-23T09:26:43Z"
+    "modified": "2026-09-02T04:01:54Z"
   }
 }

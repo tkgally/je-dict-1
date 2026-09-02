@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "14613_seishun_ex1",
-      "japanese": "{青春|せいしゅん}を{楽|たの}しむ。",
+      "japanese": "{青春|せいしゅん}⟦を→を：00422_wo⟧⟦{楽|たの}しむ→楽しむ：01203_tanoshimu⟧。",
       "english": "Enjoy one's youth.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "14613_seishun_ex2",
-      "japanese": "{部活|ぶかつ}に{打|う}ち{込|こ}んだ{日々|ひび}が、{私|わたし}の{青春|せいしゅん}だった。",
+      "japanese": "⟦{部活|ぶかつ}→部活：05377_bukatsu⟧⟦に→に：00314_ni⟧⟦{打|う}ち{込|こ}んだ→打ち込む：04229_uchikomu⟧⟦{日々|ひび}→日々：04804_hibi⟧⟦が→が：00051_ga⟧、⟦{私|わたし}→私：02988_watashi⟧⟦の→の：09472_no⟧{青春|せいしゅん}だった。",
       "english": "The days I devoted myself to club activities were my youth.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "14613_seishun_ex3",
-      "japanese": "{高校|こうこう}{時代|じだい}は{二度|にど}と{戻|もど}らない{青春|せいしゅん}の{一|ひと}ページだから、{後悔|こうかい}のないように{過|す}ごしたい。",
+      "japanese": "⟦{高校|こうこう}→高校：01083_koukou⟧⟦{時代|じだい}→時代：01424_jidai⟧⟦は→は：00079_ha⟧⟦{二度|にど}と→二度と：06482_nidoto⟧⟦{戻|もど}らない→戻る：01117_modoru⟧{青春|せいしゅん}⟦の→の：09472_no⟧{一|ひと}⟦ページ→ページ：02961_peeji⟧だ⟦から→から：00504_kara⟧、⟦{後悔|こうかい}→後悔：02738_koukai⟧⟦の→の：09472_no⟧⟦ない→ない：01118_nai⟧よう⟦に→に：00314_ni⟧⟦{過|す}ごしたい→過ごす：02062_sugosu⟧。",
       "english": "High school is a page of one's youth that never comes back, so I want to live it without regrets.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{青春|せいしゅん} literally means \"blue/green spring\" and comes from Chinese philosophy where spring and the color blue/green represent youth. It has a strongly nostalgic and romanticized tone and is a staple of Japanese pop culture, especially in {青春|せいしゅん}ドラマ (youth dramas) and {青春|せいしゅん}{映画|えいが} (coming-of-age films).\n\nCOMMON COLLOCATIONS:\n- {青春|せいしゅん}{時代|じだい} (one's youth; adolescent years)\n- {青春|せいしゅん}を{捧|ささ}げる (to devote one's youth to)\n- {青春|せいしゅん}ドラマ (youth drama)\n- {青春|せいしゅん}{映画|えいが} (coming-of-age film)\n- {青春|せいしゅん}の{思|おも}い{出|で} (memories of one's youth)\n- {青春|せいしゅん}を{謳歌|おうか}する (to fully enjoy one's youth)\n\nSIMILAR WORDS:\n- {青春|せいしゅん}: youth (nostalgic, idealized)\n- {若|わか}さ: youthfulness (physical quality of being young)\n- {思春期|ししゅんき}: puberty, adolescence (biological/developmental stage)",
+  "notes": "USAGE:\n{青春|せいしゅん} literally means \"blue/green spring\" and comes from Chinese philosophy where spring and the color blue/green represent youth. It has a strongly nostalgic and romanticized tone and is a staple of Japanese pop culture, especially in {青春|せいしゅん}⟦ドラマ→ドラマ：03867_dorama⟧ (youth dramas) and {青春|せいしゅん}⟦{映画|えいが}→映画：02273_eiga⟧ (coming-of-age films).\n\nCOMMON COLLOCATIONS:\n- {青春|せいしゅん}⟦{時代|じだい}→時代：01424_jidai⟧ (one's youth; adolescent years)\n- {青春|せいしゅん}⟦を→を：00422_wo⟧⟦{捧|ささ}げる→捧げる：02055_sasageru⟧ (to devote one's youth to)\n- {青春|せいしゅん}⟦ドラマ→ドラマ：03867_dorama⟧ (youth drama)\n- {青春|せいしゅん}⟦{映画|えいが}→映画：02273_eiga⟧ (coming-of-age film)\n- {青春|せいしゅん}⟦の→の：09472_no⟧⟦{思|おも}い{出|で}→思い出：00331_omoide⟧ (memories of one's youth)\n- {青春|せいしゅん}⟦を→を：00422_wo⟧{謳歌|おうか}⟦する→する：00392_suru⟧ (to fully enjoy one's youth)\n\nSIMILAR WORDS:\n- {青春|せいしゅん}: youth (nostalgic, idealized)\n- {若|わか}さ: youthfulness (physical quality of being young)\n- ⟦{思春期|ししゅんき}→思春期：12667_shishunki⟧: puberty, adolescence (biological/developmental stage)",
   "cross_references": [
     {
       "type": "related",
@@ -52,11 +52,25 @@
       "reading": "ししゅんき",
       "headword": "{思春期|ししゅんき}",
       "label": "puberty, adolescence"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20335_wakasa",
+      "reading": "わかさ",
+      "headword": "{若|わか}さ",
+      "label": "youthfulness"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23588_gakuenseikatsu",
+      "reading": "がくえんせいかつ",
+      "headword": "{学園生活|がくえんせいかつ}",
+      "label": "school life"
     }
   ],
   "metadata": {
     "created": "2026-03-02T08:29:38Z",
-    "modified": "2026-04-30T09:17:48Z",
+    "modified": "2026-09-02T04:01:38Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "27683_hakusei_ex1",
-      "japanese": "{博物館|はくぶつかん}で{熊|くま}の{剥製|はくせい}を{見|み}た。",
+      "japanese": "⟦{博物館|はくぶつかん}→博物館：01494_hakubutsukan⟧⟦で→で：00502_de⟧⟦{熊|くま}→熊：04343_kuma⟧⟦の→の：09472_no⟧{剥製|はくせい}⟦を→を：00422_wo⟧⟦{見|み}た→見る：00283_miru⟧。",
       "english": "I saw a stuffed bear at the museum.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "27683_hakusei_ex2",
-      "japanese": "この{鳥|とり}の{剥製|はくせい}はとてもよくできている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{鳥|とり}→鳥：00679_tori⟧⟦の→の：09472_no⟧{剥製|はくせい}⟦は→は：00079_ha⟧⟦とても→とても：00593_totemo⟧⟦よく→よく：00601_yoku⟧⟦できている→できる：00557_dekiru⟧。",
       "english": "This stuffed bird is very well made.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "27683_hakusei_ex3",
-      "japanese": "{剥製|はくせい}にするには{専門|せんもん}の{技術|ぎじゅつ}が{必要|ひつよう}だ。",
+      "japanese": "{剥製|はくせい}⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{専門|せんもん}→専門：01251_senmon⟧⟦の→の：09472_no⟧⟦{技術|ぎじゅつ}→技術：01389_gijutsu⟧⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧だ。",
       "english": "Making a taxidermy specimen requires specialized skill.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Refers both to a stuffed specimen and to the craft of preparing one. The animal's skin is preserved and mounted over an internal form. Commonly seen in natural-history museums.\n\nCOMMON COLLOCATIONS:\n- {剥製|はくせい}にする: to make into a taxidermy specimen\n- {動物|どうぶつ}の{剥製|はくせい}: a stuffed animal specimen\n- {剥製|はくせい}{標本|ひょうほん}: a mounted specimen\n\nSIMILAR WORDS:\n- {標本|ひょうほん}: specimen — a broader term covering pressed plants, insects, and the like\n- ぬいぐるみ: stuffed toy — a sewn cloth toy, unrelated to real animals",
+  "notes": "Refers both to a stuffed specimen and to the craft of preparing one. The animal's skin is preserved and mounted over an internal form. Commonly seen in natural-history museums.\n\nCOMMON COLLOCATIONS:\n- {剥製|はくせい}⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧: to make into a taxidermy specimen\n- ⟦{動物|どうぶつ}→動物：01480_doubutsu⟧⟦の→の：09472_no⟧{剥製|はくせい}: a stuffed animal specimen\n- {剥製|はくせい}⟦{標本|ひょうほん}→標本：13174_hyouhon⟧: a mounted specimen\n\nSIMILAR WORDS:\n- ⟦{標本|ひょうほん}→標本：13174_hyouhon⟧: specimen — a broader term covering pressed plants, insects, and the like\n- ⟦ぬいぐるみ→ぬいぐるみ：05289_nuigurumi⟧: stuffed toy — a sewn cloth toy, unrelated to real animals",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13174_hyouhon",
+      "reading": "ひょうほん",
+      "headword": "{標本|ひょうほん}",
+      "label": "specimen"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05289_nuigurumi",
+      "reading": "ぬいぐるみ",
+      "headword": "ぬいぐるみ",
+      "label": "stuffed toy"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23631_kokkakuhyouhon",
+      "reading": "こっかくひょうほん",
+      "headword": "{骨格標本|こっかくひょうほん}",
+      "label": "skeletal specimen"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +76,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "art"
       ],
       "domain": []
     },
     "created": "2026-05-16T04:08:30Z",
-    "modified": "2026-08-07T16:10:18Z"
+    "modified": "2026-09-02T04:02:31Z"
   }
 }

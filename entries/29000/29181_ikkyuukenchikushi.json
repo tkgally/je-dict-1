@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29181_ikkyuukenchikushi_ex1",
-      "japanese": "彼女は{一級建築士|いっきゅうけんちくし}だ。",
+      "japanese": "彼女⟦は→は：00079_ha⟧{一級建築士|いっきゅうけんちくし}だ。",
       "english": "She is a first-class licensed architect.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29181_ikkyuukenchikushi_ex2",
-      "japanese": "{一級建築士|いっきゅうけんちくし}の{試験|しけん}は{難関|なんかん}で{知|し}られている。",
+      "japanese": "{一級建築士|いっきゅうけんちくし}⟦の→の：09472_no⟧⟦{試験|しけん}→試験：01422_shiken⟧⟦は→は：00079_ha⟧⟦{難関|なんかん}→難関：16164_nankan⟧⟦で→で：00502_de⟧⟦{知|し}られている→知る：00458_shiru⟧。",
       "english": "The first-class architect exam is known to be difficult.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29181_ikkyuukenchikushi_ex3",
-      "japanese": "その{設計事務所|せっけいじむしょ}では、すべての{スタッフ|すたっふ}が{一級建築士|いっきゅうけんちくし}の{資格|しかく}を{持|も}っている。",
+      "japanese": "⟦その→その：00993_sono⟧{設計事務所|せっけいじむしょ}⟦で→で：00502_de⟧⟦は→は：00079_ha⟧、すべて⟦の→の：09472_no⟧⟦スタッフ→スタッフ：11046_sutaffu⟧⟦が→が：00051_ga⟧{一級建築士|いっきゅうけんちくし}⟦の→の：09472_no⟧⟦{資格|しかく}→資格：02834_shikaku⟧⟦を→を：00422_wo⟧⟦{持|も}っている→持つ：00478_motsu⟧。",
       "english": "All the staff at that architectural firm hold first-class architect qualifications.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Japan's architect licensing system has two levels: 一級建築士 (first class, national license) and {二級建築士|にきゅうけんちくし} (second class, prefectural license). Only 一級建築士 can design large-scale buildings.\n\nCOMMON COLLOCATIONS:\n- {一級建築士|いっきゅうけんちくし}{試験|しけん}: first-class architect examination\n- {一級建築士|いっきゅうけんちくし}{事務所|じむしょ}: first-class architect firm\n- {一級建築士|いっきゅうけんちくし}{免許|めんきょ}: first-class architect license\n- {一級建築士|いっきゅうけんちくし}{資格|しかく}: first-class architect qualification",
+  "notes": "Japan's architect licensing system has two levels: 一級建築士 (first class, national license) and ⟦{二級建築士|にきゅうけんちくし}→二級建築士：29182_nikyuukenchikushi⟧ (second class, prefectural license). Only 一級建築士 can design large-scale buildings.\n\nCOMMON COLLOCATIONS:\n- {一級建築士|いっきゅうけんちくし}⟦{試験|しけん}→試験：01422_shiken⟧: first-class architect examination\n- {一級建築士|いっきゅうけんちくし}{事務所|じむしょ}: first-class architect firm\n- {一級建築士|いっきゅうけんちくし}⟦{免許|めんきょ}→免許：03808_menkyo⟧: first-class architect license\n- {一級建築士|いっきゅうけんちくし}⟦{資格|しかく}→資格：02834_shikaku⟧: first-class architect qualification",
   "cross_references": [
     {
       "type": "see_also",
@@ -56,17 +56,20 @@
   ],
   "metadata": {
     "created": "2026-06-12T13:36:10Z",
-    "modified": "2026-06-19T03:23:54Z",
+    "modified": "2026-09-02T04:02:36Z",
     "schema_version": "2.0",
     "tags": {
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "occupation"
       ],
       "domain": [],
       "vocabulary_tier": "general"
-    }
+    },
+    "vocabulary_tier": "general"
   }
 }

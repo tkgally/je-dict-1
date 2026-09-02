@@ -15,41 +15,60 @@
   "examples": [
     {
       "id": "18125_kashouryoku_ex1",
-      "japanese": "あの{歌手|かしゅ}は{歌唱力|かしょうりょく}が{高|たか}い。",
+      "japanese": "⟦あの→あの：00915_ano⟧⟦{歌手|かしゅ}→歌手：00197_kashu⟧⟦は→は：00079_ha⟧{歌唱力|かしょうりょく}⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧。",
       "english": "That singer has great vocal ability.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18125_kashouryoku_ex2",
-      "japanese": "{歌唱力|かしょうりょく}だけでなくパフォーマンスも{大切|たいせつ}だ。",
+      "japanese": "{歌唱力|かしょうりょく}⟦だけでなく→〜だけでなく：18373_dakedenaku⟧⟦パフォーマンス→パフォーマンス：11157_pafoomansu⟧⟦も→も：00484_mo⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧だ。",
       "english": "Not only singing ability but also performance is important.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18125_kashouryoku_ex3",
-      "japanese": "{彼女|かのじょ}は{圧倒的|あっとうてき}な{歌唱力|かしょうりょく}で{観客|かんきゃく}を{魅了|みりょう}した。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧⟦{圧倒的|あっとうてき}→圧倒的：05853_attouteki⟧な{歌唱力|かしょうりょく}⟦で→で：00502_de⟧⟦{観客|かんきゃく}→観客：02556_kankyaku⟧⟦を→を：00422_wo⟧⟦{魅了|みりょう}した→魅了する：19016_miryousuru⟧。",
       "english": "She captivated the audience with her overwhelming vocal ability.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nCommonly used in music reviews, audition shows, and discussions about singers. The suffix ～{力|りょく} indicates ability or power, and is productive: {表現力|ひょうげんりょく} (expressive power), {演技力|えんぎりょく} (acting ability).\n\nCOMMON COLLOCATIONS:\n- {歌唱力|かしょうりょく}が{高|たか}い (to have strong singing ability)\n- {歌唱力|かしょうりょく}を{磨|みが}く (to polish one's singing ability)\n- {抜群|ばつぐん}の{歌唱力|かしょうりょく} (outstanding singing ability)",
-  "cross_references": [],
+  "notes": "USAGE:\nCommonly used in music reviews, audition shows, and discussions about singers. The suffix ～{力|りょく} indicates ability or power, and is productive: ⟦{表現力|ひょうげんりょく}→表現力：21315_hyougenryoku⟧ (expressive power), {演技力|えんぎりょく} (acting ability).\n\nCOMMON COLLOCATIONS:\n- {歌唱力|かしょうりょく}⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧ (to have strong singing ability)\n- {歌唱力|かしょうりょく}⟦を→を：00422_wo⟧⟦{磨|みが}く→磨く：02427_migaku⟧ (to polish one's singing ability)\n- ⟦{抜群|ばつぐん}→抜群：12783_batsugun⟧⟦の→の：09472_no⟧{歌唱力|かしょうりょく} (outstanding singing ability)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20116_utagoe",
+      "reading": "うたごえ",
+      "headword": "{歌声|うたごえ}",
+      "label": "singing voice"
+    }
+  ],
   "metadata": {
     "created": "2026-03-20T06:40:15Z",
-    "modified": "2026-03-20T06:40:15Z",
+    "modified": "2026-09-02T04:01:51Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["leisure", "general"]
+      "semantic": [
+        "leisure",
+        "general"
+      ]
     }
   }
 }

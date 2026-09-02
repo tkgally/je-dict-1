@@ -109,7 +109,7 @@
   "examples": [
     {
       "id": "06029_shinka_ex1",
-      "japanese": "⟦{人類|じんるい}→人類：01578_jinrui⟧⟦は→は：00079_ha⟧⟦{猿|さる}→猿：02213_saru⟧⟦から→から：00504_kara⟧{進化|しんか}した⟦と→と：00512_to⟧⟦される→する：00392_suru⟧。",
+      "japanese": "⟦{人類|じんるい}→人類：01578_jinrui⟧⟦は→は：00079_ha⟧⟦{猿|さる}→猿：02213_saru⟧⟦から→から：00504_kara⟧{進化|しんか}⟦した→する：00392_suru⟧⟦と→と：00512_to⟧⟦される→する：00392_suru⟧。",
       "english": "It's said that humans evolved from apes.",
       "notes": null,
       "has_audio": false,
@@ -168,7 +168,7 @@
       ]
     }
   ],
-  "notes": "{進化|しんか} means evolution or advancement, used both in biology and figuratively for technology and society.\n\nWORD FORMATION:\n{進|しん} (advance) + {化|か} (change/transform)\n\nSCIENTIFIC TERMS:\n- ⟦{進化論|しんかろん}→進化論：10152_shinkaron⟧: theory of evolution\n- {進化|しんか}⟦の→の：09472_no⟧⟦{過程|かてい}→過程：02621_katei⟧: process of evolution\n- ⟦{自然|しぜん}→自然：01423_shizen⟧⟦{選択|せんたく}→選択：03306_sentaku⟧: natural selection\n\nFIGURATIVE USAGE:\nVery commonly used for technological or product advancement:\n- ⟦テクノロジー→テクノロジー：11587_tekunorojii⟧⟦の→の：09472_no⟧{進化|しんか}: evolution of technology\n- ⟦{大|おお}きく→大きい：00335_ookii⟧{進化|しんか}⟦する→する：00392_suru⟧: to make a big leap forward\n\nANTONYM:\n⟦{退化|たいか}→退化：06030_taika⟧ (degeneration, devolution)\n\nSIMILAR WORDS:\n- ⟦{発展|はってん}→発展：03561_hatten⟧: development (broader, often for society/economy)\n- ⟦{発達|はったつ}→発達：03559_hattatsu⟧: development, growth (often for skills, children, or technology)",
+  "notes": "{進化|しんか} means evolution or advancement, used both in biology and figuratively for technology and society.\n\nFORMS:\n{進|しん} (advance) + ⟦{化|か}→〜化：28335_ka⟧ (change/transform)\n\nSCIENTIFIC TERMS:\n- ⟦{進化論|しんかろん}→進化論：10152_shinkaron⟧: theory of evolution\n- {進化|しんか}⟦の→の：09472_no⟧⟦{過程|かてい}→過程：02621_katei⟧: process of evolution\n- ⟦{自然|しぜん}→自然：01423_shizen⟧⟦{選択|せんたく}→選択：03306_sentaku⟧: natural selection\n\nUSAGE:\nVery commonly used for technological or product advancement:\n- ⟦テクノロジー→テクノロジー：11587_tekunorojii⟧⟦の→の：09472_no⟧{進化|しんか}: evolution of technology\n- ⟦{大|おお}きく→大きい：00335_ookii⟧{進化|しんか}⟦する→する：00392_suru⟧: to make a big leap forward\n\nSIMILAR WORDS:\n⟦{退化|たいか}→退化：06030_taika⟧ (degeneration, devolution)\n- ⟦{発展|はってん}→発展：03561_hatten⟧: development (broader, often for society/economy)\n- ⟦{発達|はったつ}→発達：03559_hattatsu⟧: development, growth (often for skills, children, or technology)",
   "cross_references": [
     {
       "type": "antonym",
@@ -183,11 +183,46 @@
       "reading": "しんかろん",
       "headword": "{進化論|しんかろん}",
       "label": "theory of evolution"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03561_hatten",
+      "reading": "はってん",
+      "headword": "{発展|はってん}",
+      "label": "development"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03559_hattatsu",
+      "reading": "はったつ",
+      "headword": "{発達|はったつ}",
+      "label": "development, growth"
+    },
+    {
+      "type": "related",
+      "target_id": "18454_ruijinen",
+      "reading": "るいじんえん",
+      "headword": "{類人猿|るいじんえん}",
+      "label": "anthropoid ape"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20997_henkasuru",
+      "reading": "へんかする",
+      "headword": "{変化|へんか}する",
+      "label": "to change"
+    },
+    {
+      "type": "related",
+      "target_id": "22048_shizensentaku",
+      "reading": "しぜんせんたく",
+      "headword": "{自然選択|しぜんせんたく}",
+      "label": "natural selection"
     }
   ],
   "metadata": {
     "created": "2026-01-16T21:25:32Z",
-    "modified": "2026-06-16T06:42:50Z",
+    "modified": "2026-09-02T04:01:07Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

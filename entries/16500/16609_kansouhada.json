@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "16609_kansouhada_ex1",
-      "japanese": "{私|わたし}は{乾燥肌|かんそうはだ}だ。",
+      "japanese": "⟦{私|わたし}→私：02988_watashi⟧⟦は→は：00079_ha⟧{乾燥肌|かんそうはだ}だ。",
       "english": "I have dry skin.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "16609_kansouhada_ex2",
-      "japanese": "{冬|ふゆ}になると{乾燥肌|かんそうはだ}がひどくなる。",
+      "japanese": "⟦{冬|ふゆ}→冬：00623_fuyu⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦と→と：00512_to⟧{乾燥肌|かんそうはだ}⟦が→が：00051_ga⟧⟦ひどく→ひどい：01097_hidoi⟧⟦なる→なる：01970_naru⟧。",
       "english": "My dry skin gets worse in winter.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "16609_kansouhada_ex3",
-      "japanese": "{乾燥肌|かんそうはだ}{向|む}けの{保湿|ほしつ}クリームを{探|さが}している。",
+      "japanese": "{乾燥肌|かんそうはだ}{向|む}け⟦の→の：09472_no⟧⟦{保湿|ほしつ}→保湿：11617_hoshitsu⟧⟦クリーム→クリーム：00253_kuriimu⟧⟦を→を：00422_wo⟧⟦{探|さが}している→探す：00493_sagasu⟧。",
       "english": "I'm looking for a moisturizing cream for dry skin.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nCommon in skincare and beauty contexts. Japan's skincare industry categorizes skin types, and {乾燥肌|かんそうはだ} is one of the major categories.\n\nCOMMON COLLOCATIONS:\n- {乾燥肌|かんそうはだ}{向|む}け (for dry skin)\n- {乾燥肌|かんそうはだ}{対策|たいさく} (measures against dry skin)\n- {乾燥肌|かんそうはだ}ケア (dry skin care)\n\nRELATED SKIN TYPES:\n- {脂性肌|しせいはだ}: oily skin\n- {敏感肌|びんかんはだ}: sensitive skin\n- {混合肌|こんごうはだ}: combination skin",
+  "notes": "USAGE:\nCommon in skincare and beauty contexts. Japan's skincare industry categorizes skin types, and {乾燥肌|かんそうはだ} is one of the major categories.\n\nCOMMON COLLOCATIONS:\n- {乾燥肌|かんそうはだ}{向|む}け (for dry skin)\n- {乾燥肌|かんそうはだ}⟦{対策|たいさく}→対策：02511_taisaku⟧ (measures against dry skin)\n- {乾燥肌|かんそうはだ}⟦ケア→ケア：10848_kea⟧ (dry skin care)\n\nRELATED SKIN TYPES:\n- ⟦{脂性肌|しせいはだ}→脂性肌：23960_shiseihada⟧: oily skin\n- ⟦{敏感肌|びんかんはだ}→敏感肌：19065_binkanhada⟧: sensitive skin\n- ⟦{混合肌|こんごうはだ}→混合肌：23961_kongouhada⟧: combination skin",
   "cross_references": [
     {
       "type": "related",
@@ -52,11 +52,39 @@
       "reading": "かんそう",
       "headword": "{乾燥|かんそう}",
       "label": "dryness (base word)"
+    },
+    {
+      "type": "related",
+      "target_id": "23960_shiseihada",
+      "reading": "しせいはだ",
+      "headword": "{脂性肌|しせいはだ}",
+      "label": "oily skin"
+    },
+    {
+      "type": "related",
+      "target_id": "19065_binkanhada",
+      "reading": "びんかんはだ",
+      "headword": "{敏感肌|びんかんはだ}",
+      "label": "sensitive skin"
+    },
+    {
+      "type": "related",
+      "target_id": "23961_kongouhada",
+      "reading": "こんごうはだ",
+      "headword": "{混合肌|こんごうはだ}",
+      "label": "combination skin"
+    },
+    {
+      "type": "related",
+      "target_id": "08421_hadaare",
+      "reading": "はだあれ",
+      "headword": "{肌荒|はだあ}れ",
+      "label": "rough skin"
     }
   ],
   "metadata": {
     "created": "2026-03-14T01:36:58Z",
-    "modified": "2026-07-20T00:31:17Z",
+    "modified": "2026-09-02T04:01:45Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

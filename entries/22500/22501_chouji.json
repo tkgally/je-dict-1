@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22501_chouji_ex1",
-      "japanese": "{弔辞|ちょうじ}を{読|よ}む。",
+      "japanese": "{弔辞|ちょうじ}⟦を→を：00422_wo⟧⟦{読|よ}む→読む：00426_yomu⟧。",
       "english": "To read a eulogy.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22501_chouji_ex2",
-      "japanese": "{友人|ゆうじん}{代表|だいひょう}として{弔辞|ちょうじ}を{述|の}べた。",
+      "japanese": "⟦{友人|ゆうじん}→友人：03649_yuujin⟧⟦{代表|だいひょう}→代表：03419_daihyou⟧⟦として→として：06802_toshite⟧{弔辞|ちょうじ}⟦を→を：00422_wo⟧⟦{述|の}べた→述べる：02389_noberu⟧。",
       "english": "I delivered a eulogy as the representative of the friends.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22501_chouji_ex3",
-      "japanese": "{心|こころ}のこもった{弔辞|ちょうじ}に{参列者|さんれつしゃ}の{多|おお}くが{涙|なみだ}を{流|なが}した。",
+      "japanese": "⟦{心|こころ}→心：01321_kokoro⟧⟦の→の：09472_no⟧こもった{弔辞|ちょうじ}⟦に→に：00314_ni⟧⟦{参列者|さんれつしゃ}→参列者：28435_sanretsusha⟧⟦の→の：09472_no⟧{多|おお}く⟦が→が：00051_ga⟧⟦{涙|なみだ}→涙：02235_namida⟧⟦を→を：00422_wo⟧⟦{流|なが}した→流す：01968_nagasu⟧。",
       "english": "Many of the attendees shed tears at the heartfelt eulogy.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "A formal speech delivered at a funeral or memorial service to honor and remember the deceased. In Japanese funerals, the {弔辞|ちょうじ} is typically read from a prepared text written on special paper ({奉書紙|ほうしょがみ}), and the speaker usually addresses the deceased directly.\n\nCOMMON COLLOCATIONS:\n- {弔辞|ちょうじ}を{読|よ}む: to read a eulogy\n- {弔辞|ちょうじ}を{述|の}べる: to deliver a eulogy\n- {弔辞|ちょうじ}を{依頼|いらい}する: to be asked to give a eulogy\n- {心|こころ}のこもった{弔辞|ちょうじ}: a heartfelt eulogy\n\nSIMILAR WORDS:\n- {追悼|ついとう}の{言葉|ことば}: words of condolence/remembrance — a less formal way to describe memorial remarks\n- {弔電|ちょうでん}: condolence telegram — a written message of sympathy sent to a funeral\n- {祝辞|しゅくじ}: congratulatory speech — the opposite occasion; a speech at a celebration",
+  "notes": "A formal speech delivered at a funeral or memorial service to honor and remember the deceased. In Japanese funerals, the {弔辞|ちょうじ} is typically read from a prepared text written on special paper ({奉書紙|ほうしょがみ}), and the speaker usually addresses the deceased directly.\n\nCOMMON COLLOCATIONS:\n- {弔辞|ちょうじ}⟦を→を：00422_wo⟧⟦{読|よ}む→読む：00426_yomu⟧: to read a eulogy\n- {弔辞|ちょうじ}⟦を→を：00422_wo⟧⟦{述|の}べる→述べる：02389_noberu⟧: to deliver a eulogy\n- {弔辞|ちょうじ}⟦を→を：00422_wo⟧⟦{依頼|いらい}する→依頼する：21376_irai⟧: to be asked to give a eulogy\n- ⟦{心|こころ}→心：01321_kokoro⟧⟦の→の：09472_no⟧こもった{弔辞|ちょうじ}: a heartfelt eulogy\n\nSIMILAR WORDS:\n- ⟦{追悼|ついとう}→追悼：14312_tsuitou⟧⟦の→の：09472_no⟧⟦{言葉|ことば}→言葉：02880_kotoba⟧: words of condolence/remembrance — a less formal way to describe memorial remarks\n- ⟦{弔電|ちょうでん}→弔電：22863_chouden⟧: condolence telegram — a written message of sympathy sent to a funeral\n- ⟦{祝辞|しゅくじ}→祝辞：14759_shukuji⟧: congratulatory speech — the opposite occasion; a speech at a celebration",
   "cross_references": [
     {
       "type": "antonym",
@@ -52,6 +52,27 @@
       "reading": "しゅくじ",
       "headword": "{祝辞|しゅくじ}",
       "label": "congratulatory speech"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22863_chouden",
+      "reading": "ちょうでん",
+      "headword": "{弔電|ちょうでん}",
+      "label": "condolence telegram"
+    },
+    {
+      "type": "related",
+      "target_id": "21761_tomurau",
+      "reading": "とむらう",
+      "headword": "{弔|とむら}う",
+      "label": "to mourn"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22545_choui",
+      "reading": "ちょうい",
+      "headword": "{弔意|ちょうい}",
+      "label": "condolence"
     }
   ],
   "schema_version": "2.0",
@@ -68,6 +89,6 @@
       "politeness": "plain"
     },
     "created": "2026-04-06T14:30:51Z",
-    "modified": "2026-04-30T10:37:17Z"
+    "modified": "2026-09-02T04:02:08Z"
   }
 }

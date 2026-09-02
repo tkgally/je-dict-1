@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "20896_kozeniire_ex1",
-      "japanese": "{小銭入|こぜにい}れを{忘|わす}れた。",
+      "japanese": "{小銭入|こぜにい}れ⟦を→を：00422_wo⟧⟦{忘|わす}れた→忘れる：00474_wasureru⟧。",
       "english": "I forgot my coin purse.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "20896_kozeniire_ex2",
-      "japanese": "{革|かわ}の{小銭入|こぜにい}れをプレゼントにもらった。",
+      "japanese": "⟦{革|かわ}→革：19310_kawa⟧⟦の→の：09472_no⟧{小銭入|こぜにい}れ⟦を→を：00422_wo⟧⟦プレゼント→プレゼント：01791_purezento⟧⟦に→に：00314_ni⟧⟦もらった→もらう：00520_morau⟧。",
       "english": "I received a leather coin purse as a gift.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "20896_kozeniire_ex3",
-      "japanese": "{小銭入|こぜにい}れが{重|おも}くなってきたので、コンビニで{使|つか}おう。",
+      "japanese": "{小銭入|こぜにい}れ⟦が→が：00051_ga⟧⟦{重|おも}く→重い：00804_omoi⟧⟦なって→なる：01970_naru⟧きた⟦の→の：09472_no⟧で、⟦コンビニ→コンビニ：01081_konbini⟧⟦で→で：00502_de⟧⟦{使|つか}おう→使う：00473_tsukau⟧。",
       "english": "My coin purse has gotten heavy, so I'll use the coins at the convenience store.",
       "sense_numbers": [
         1
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {小銭|こぜに} (small change, coins) + {入|い}れ (container, holder). In Japan, many people carry a separate coin purse in addition to their {財布|さいふ} (wallet), since coins up to 500 yen are commonly used in everyday transactions.\n\nCOMMON COLLOCATIONS:\n- {革|かわ}の{小銭入|こぜにい}れ: leather coin purse\n- がま{口|ぐち}の{小銭入|こぜにい}れ: snap-clasp coin purse\n- {小銭入|こぜにい}れに{入|い}れる: to put in a coin purse\n\nRELATED TERMS:\n- {財布|さいふ}: wallet — the general-purpose wallet, may also hold coins\n- {札入|さつい}れ: billfold — a wallet specifically for bills\n- {小銭|こぜに}: small change, coins",
+  "notes": "Composed of ⟦{小銭|こぜに}→小銭：02759_kozeni⟧ (small change, coins) + ⟦{入|い}れ→入れる：01098_ireru⟧ (container, holder). In Japan, many people carry a separate coin purse in addition to their ⟦{財布|さいふ}→財布：00663_saifu⟧ (wallet), since coins up to 500 yen are commonly used in everyday transactions.\n\nCOMMON COLLOCATIONS:\n- ⟦{革|かわ}→革：19310_kawa⟧⟦の→の：09472_no⟧{小銭入|こぜにい}れ: leather coin purse\n- ⟦がま{口|ぐち}→がま口：27565_gamaguchi⟧⟦の→の：09472_no⟧{小銭入|こぜにい}れ: snap-clasp coin purse\n- {小銭入|こぜにい}れ⟦に→に：00314_ni⟧⟦{入|い}れる→入れる：01098_ireru⟧: to put in a coin purse\n\nRELATED WORDS:\n- ⟦{財布|さいふ}→財布：00663_saifu⟧: wallet — the general-purpose wallet, may also hold coins\n- ⟦{札入|さつい}れ→札入れ：22582_satsuire⟧: billfold — a wallet specifically for bills\n- ⟦{小銭|こぜに}→小銭：02759_kozeni⟧: small change, coins",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "00663_saifu",
+      "reading": "さいふ",
+      "headword": "{財布|さいふ}",
+      "label": "wallet"
+    },
+    {
+      "type": "related",
+      "target_id": "22582_satsuire",
+      "reading": "さついれ",
+      "headword": "{札入|さつい}れ",
+      "label": "billfold"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25752_saifuire",
+      "reading": "さいふいれ",
+      "headword": "{財布入|さいふい}れ",
+      "label": "wallet case"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27565_gamaguchi",
+      "reading": "がまぐち",
+      "headword": "がま{口|ぐち}",
+      "label": "clasp purse"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +90,6 @@
       ]
     },
     "created": "2026-03-30T20:10:11Z",
-    "modified": "2026-07-29T00:22:41Z"
+    "modified": "2026-09-02T04:02:01Z"
   }
 }

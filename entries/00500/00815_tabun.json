@@ -44,7 +44,7 @@
     },
     {
       "id": "00815_tabun_ex4",
-      "japanese": "「{田中|たなか}さん⟦は→は：00079_ha⟧⟦{来|き}ます→来る：00254_kuru⟧⟦か→か：09473_ka⟧。」「たぶん⟦{来|く}る→来る：00254_kuru⟧⟦と→と：00512_to⟧⟦{思|おも}います→思う：00492_omou⟧⟦が→が：00051_ga⟧、⟦わかりません→分かる：00463_wakaru⟧。」",
+      "japanese": "「⟦{田中|たなか}→田中：09528_tanaka⟧さん⟦は→は：00079_ha⟧⟦{来|き}ます→来る：00254_kuru⟧⟦か→か：09473_ka⟧。」「たぶん⟦{来|く}る→来る：00254_kuru⟧⟦と→と：00512_to⟧⟦{思|おも}います→思う：00492_omou⟧⟦が→が：00051_ga⟧、⟦わかりません→分かる：00463_wakaru⟧。」",
       "english": "\"Will Tanaka-san come?\" \"I think they'll probably come, but I'm not sure.\"",
       "notes": null,
       "has_audio": false,
@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "たぶん expresses probability (roughly 60-70% certainty). Can be written as {多分|たぶん}.\n\nCOMMON PATTERNS:\n- たぶん〜⟦でしょう→でしょう：09887_deshou⟧: probably ~\n- たぶん〜⟦と→と：00512_to⟧⟦{思|おも}う→思う：00492_omou⟧: I think probably ~\n- たぶん〜⟦だろう→だろう：09576_darou⟧: probably ~ (casual)\n\nCERTAINTY SCALE (low to high):\n- ⟦もしかしたら→もしかしたら：08420_moshikashitara⟧: maybe, perhaps (~30%)\n- たぶん: probably (~60-70%)\n- ⟦おそらく→おそらく：02492_osoraku⟧: probably (formal, ~70%)\n- ⟦きっと→きっと：00860_kitto⟧: surely, certainly (~80-90%)\n- ⟦{絶対|ぜったい}に→絶対に：08722_zettaini⟧: absolutely, definitely (~100%)\n\nUSAGE:\nPlaced at the beginning of a sentence or before the verb/predicate. Very common in everyday speech.\n\nKANJI:\n{多分|たぶん} - the kanji literally means 'much/many portion.'",
+  "notes": "たぶん expresses probability (roughly 60-70% certainty). Can be written as {多分|たぶん}.\n\nCOMMON PATTERNS:\n- たぶん〜⟦でしょう→でしょう：09887_deshou⟧: probably ~\n- たぶん〜⟦と→と：00512_to⟧⟦{思|おも}う→思う：00492_omou⟧: I think probably ~\n- たぶん〜⟦だろう→だろう：09576_darou⟧: probably ~ (casual)\n\nCERTAINTY SCALE (low to high):\n- ⟦もしかしたら→もしかしたら：08420_moshikashitara⟧: maybe, perhaps (~30%)\n- たぶん: probably (~60-70%)\n- ⟦おそらく→おそらく：02492_osoraku⟧: probably (formal, ~70%)\n- ⟦きっと→きっと：00860_kitto⟧: surely, certainly (~80-90%)\n- ⟦{絶対|ぜったい}に→絶対に：08722_zettaini⟧: absolutely, definitely (~100%)\n\nUSAGE:\nPlaced at the beginning of a sentence or before the verb/predicate. Very common in everyday speech.\n\nWRITING:\n{多分|たぶん} - the kanji literally means 'much/many portion.'",
   "cross_references": [
     {
       "type": "contrast",
@@ -85,11 +85,18 @@
       "headword": "もしかすると",
       "label": "perhaps (lower probability)",
       "target_id": "00293_moshikasuruto"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07338_hyotto",
+      "reading": "ひょっと",
+      "headword": "ひょっと",
+      "label": "possibly"
     }
   ],
   "metadata": {
     "created": "2026-01-07T12:22:07Z",
-    "modified": "2026-05-12T21:10:43Z",
+    "modified": "2026-09-02T04:00:58Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

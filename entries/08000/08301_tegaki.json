@@ -14,38 +14,73 @@
   "examples": [
     {
       "id": "08301_tegaki_ex1",
-      "japanese": "{手書|てが}きの{手紙|てがみ}をもらった。",
+      "japanese": "{手書|てが}き⟦の→の：09472_no⟧⟦{手紙|てがみ}→手紙：00675_tegami⟧⟦を→を：00422_wo⟧⟦もらった→もらう：00520_morau⟧。",
       "english": "I received a handwritten letter.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "08301_tegaki_ex2",
-      "japanese": "この{書類|しょるい}は{手書|てが}きで{記入|きにゅう}してください。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{書類|しょるい}→書類：01103_shorui⟧⟦は→は：00079_ha⟧{手書|てが}き⟦で→で：00502_de⟧⟦{記入|きにゅう}→記入：02624_kinyuu⟧⟦して→する：00392_suru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please fill out this document by hand.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "08301_tegaki_ex3",
-      "japanese": "{彼女|かのじょ}の{手書|てが}きの{年賀状|ねんがじょう}は{毎年|まいとし}{楽|たの}しみだ。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦の→の：09472_no⟧{手書|てが}き⟦の→の：09472_no⟧⟦{年賀状|ねんがじょう}→年賀状：06227_nengajou⟧⟦は→は：00079_ha⟧⟦{毎年|まいとし}→毎年：00731_maitoshi⟧⟦{楽|たの}しみ→楽しみ：01651_tanoshimi⟧だ。",
       "english": "I look forward to her handwritten New Year's cards every year.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "FORMATION:\n{手|て} (hand) + {書|か}き (writing) → written by hand\n\nUSAGE PATTERNS:\n- {手書|てが}きの + noun: handwritten [noun]\n- {手書|てが}きで{書|か}く (to write by hand)\n- {手書|てが}き{入力|にゅうりょく} (handwriting input/recognition)\n\nCULTURAL NOTE:\nIn Japan, handwritten correspondence is considered more personal and sincere than typed text. {手書|てが}き is valued especially for formal occasions like {年賀状|ねんがじょう} (New Year's cards) and {礼状|れいじょう} (thank-you letters).\n\nRELATED:\n- {筆跡|ひっせき} (handwriting style/penmanship)\n- {達筆|たっぴつ} (beautiful handwriting)\n- {悪筆|あくひつ} (poor handwriting)",
+  "notes": "FORMS:\n⟦{手|て}→手：00569_te⟧ (hand) + ⟦{書|か}き→書く：00477_kaku⟧ (writing) → written by hand\n\nCOMMON PATTERNS:\n- {手書|てが}き⟦の→の：09472_no⟧ + noun: handwritten [noun]\n- {手書|てが}き⟦で→で：00502_de⟧⟦{書|か}く→書く：00477_kaku⟧ (to write by hand)\n- {手書|てが}き⟦{入力|にゅうりょく}→入力：04769_nyuuryoku⟧ (handwriting input/recognition)\n\nCULTURAL NOTE:\nIn Japan, handwritten correspondence is considered more personal and sincere than typed text. {手書|てが}き is valued especially for formal occasions like ⟦{年賀状|ねんがじょう}→年賀状：06227_nengajou⟧ (New Year's cards) and ⟦{礼状|れいじょう}→礼状：15365_reijou⟧ (thank-you letters).\n\nRELATED WORDS:\n- ⟦{筆跡|ひっせき}→筆跡：17416_hisseki⟧ (handwriting style/penmanship)\n- ⟦{達筆|たっぴつ}→達筆：26860_tappitsu⟧ (beautiful handwriting)\n- ⟦{悪筆|あくひつ}→悪筆：27028_akuhitsu⟧ (poor handwriting)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "17416_hisseki",
+      "reading": "ひっせき",
+      "headword": "{筆跡|ひっせき}",
+      "label": "handwriting style/penmanship"
+    },
+    {
+      "type": "related",
+      "target_id": "26860_tappitsu",
+      "reading": "たっぴつ",
+      "headword": "{達筆|たっぴつ}",
+      "label": "beautiful handwriting"
+    },
+    {
+      "type": "related",
+      "target_id": "27028_akuhitsu",
+      "reading": "あくひつ",
+      "headword": "{悪筆|あくひつ}",
+      "label": "poor handwriting"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "semantic": ["writing", "communication"]
+      "politeness": "plain",
+      "semantic": [
+        "writing",
+        "communication"
+      ]
     },
     "created": "2026-01-25T23:08:56Z",
-    "modified": "2026-01-25T23:08:56Z"
+    "modified": "2026-09-02T04:01:14Z"
   }
 }

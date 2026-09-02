@@ -15,41 +15,59 @@
   "examples": [
     {
       "id": "10713_aato_ex1",
-      "japanese": "アートに{興味|きょうみ}がある。",
+      "japanese": "アート⟦に→に：00314_ni⟧⟦{興味|きょうみ}→興味：01316_kyoumi⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "I'm interested in art.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10713_aato_ex2",
-      "japanese": "{街中|まちなか}にアートが{飾|かざ}られている。",
+      "japanese": "{街中|まちなか}⟦に→に：00314_ni⟧アート⟦が→が：00051_ga⟧⟦{飾|かざ}られている→飾る：01185_kazaru⟧。",
       "english": "Art is displayed around the city.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10713_aato_ex3",
-      "japanese": "{廃校|はいこう}になった{小学校|しょうがっこう}を{改装|かいそう}して、アートの{展示|てんじ}スペースにした{町|まち}がある。",
+      "japanese": "⟦{廃校|はいこう}→廃校：12548_haikou⟧になった⟦{小学校|しょうがっこう}→小学校：01055_shougakkou⟧⟦を→を：00422_wo⟧⟦{改装|かいそう}→改装：09682_kaisou⟧⟦して→する：00392_suru⟧、アート⟦の→の：09472_no⟧⟦{展示|てんじ}→展示：12401_tenji⟧⟦スペース→スペース：11049_supeesu⟧にした⟦{町|まち}→町：00613_machi⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There's a town that renovated a closed elementary school into an art exhibition space.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nアート is used as a modern, casual alternative to {芸術|げいじゅつ}. It is preferred in contemporary contexts: modern art, street art, digital art, etc. The word {芸術|げいじゅつ} carries a more traditional, formal nuance. アート is also commonly used as a modifier.\n\nCOMMON COLLOCATIONS:\n- アート{作品|さくひん}: artwork\n- {現代|げんだい}アート: contemporary art\n- ストリートアート: street art\n- アート{展|てん}: art exhibition\n- ネイルアート: nail art",
-  "cross_references": [],
+  "notes": "USAGE:\nアート is used as a modern, casual alternative to ⟦{芸術|げいじゅつ}→芸術：02712_geijutsu⟧. It is preferred in contemporary contexts: modern art, street art, digital art, etc. The word ⟦{芸術|げいじゅつ}→芸術：02712_geijutsu⟧ carries a more traditional, formal nuance. アート is also commonly used as a modifier.\n\nCOMMON COLLOCATIONS:\n- アート⟦{作品|さくひん}→作品：02776_sakuhin⟧: artwork\n- ⟦{現代|げんだい}→現代：02722_gendai⟧アート: contemporary art\n- ストリートアート: street art\n- アート⟦{展|てん}→〜展：28468_ten⟧: art exhibition\n- ネイルアート: nail art",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02712_geijutsu",
+      "reading": "げいじゅつ",
+      "headword": "{芸術|げいじゅつ}",
+      "label": "art, fine arts"
+    }
+  ],
   "metadata": {
     "created": "2026-02-09T07:23:05Z",
-    "modified": "2026-02-09T07:23:05Z",
+    "modified": "2026-09-02T04:01:22Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["leisure"]
+      "semantic": [
+        "leisure"
+      ]
     }
   }
 }

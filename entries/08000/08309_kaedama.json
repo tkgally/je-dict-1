@@ -19,7 +19,7 @@
   "examples": [
     {
       "id": "08309_kaedama_ex1",
-      "japanese": "{替|か}え{玉|だま}をお{願|ねが}いします。",
+      "japanese": "{替|か}え{玉|だま}⟦を→を：00422_wo⟧お{願|ねが}いします。",
       "english": "Extra noodles, please.",
       "sense_numbers": [
         1
@@ -29,7 +29,7 @@
     },
     {
       "id": "08309_kaedama_ex2",
-      "japanese": "この{店|みせ}は{替|か}え{玉|だま}{無料|むりょう}だ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{店|みせ}→店：00497_mise⟧⟦は→は：00079_ha⟧{替|か}え{玉|だま}⟦{無料|むりょう}→無料：01662_muryou⟧だ。",
       "english": "This shop offers free extra noodles.",
       "sense_numbers": [
         1
@@ -39,7 +39,7 @@
     },
     {
       "id": "08309_kaedama_ex3",
-      "japanese": "{博多|はかた}ラーメンは{替|か}え{玉|だま}で{有名|ゆうめい}だ。",
+      "japanese": "{博多|はかた}⟦ラーメン→ラーメン：05181_raamen⟧⟦は→は：00079_ha⟧{替|か}え{玉|だま}⟦で→で：00502_de⟧⟦{有名|ゆうめい}→有名：01106_yuumei⟧だ。",
       "english": "Hakata ramen is famous for its extra noodle system.",
       "sense_numbers": [
         1
@@ -49,7 +49,7 @@
     },
     {
       "id": "08309_kaedama_ex4",
-      "japanese": "{試験|しけん}で{替|か}え{玉|だま}を{使|つか}うのは{犯罪|はんざい}だ。",
+      "japanese": "⟦{試験|しけん}→試験：01422_shiken⟧⟦で→で：00502_de⟧{替|か}え{玉|だま}⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧⟦の→の：09472_no⟧⟦は→は：00079_ha⟧⟦{犯罪|はんざい}→犯罪：03569_hanzai⟧だ。",
       "english": "Using a substitute to take an exam is a crime.",
       "sense_numbers": [
         2
@@ -59,7 +59,7 @@
     },
     {
       "id": "08309_kaedama_ex5",
-      "japanese": "{替|か}え{玉|だま}{受験|じゅけん}で{逮捕|たいほ}された。",
+      "japanese": "{替|か}え{玉|だま}⟦{受験|じゅけん}→受験：04272_juken⟧⟦で→で：00502_de⟧⟦{逮捕|たいほ}→逮捕：03397_taiho⟧⟦された→する：00392_suru⟧。",
       "english": "He was arrested for having someone else take the exam in his place.",
       "sense_numbers": [
         2
@@ -69,7 +69,7 @@
     },
     {
       "id": "08309_kaedama_ex6",
-      "japanese": "{彼|かれ}は{替|か}え{玉|だま}を{立|た}てて{出席|しゅっせき}したふりをした。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{替|か}え{玉|だま}⟦を→を：00422_wo⟧⟦{立|た}てて→立てる：01196_tateru⟧⟦{出席|しゅっせき}した→出席する：01830_shussekisuru⟧ふり⟦を→を：00422_wo⟧⟦した→する：00392_suru⟧。",
       "english": "He used a stand-in to pretend he was in attendance.",
       "sense_numbers": [
         2
@@ -78,7 +78,16 @@
       "notes": null
     }
   ],
-  "notes": "FORMATION:\n{替|か}え (replacement) + {玉|だま} (ball, portion) → replacement portion\n\nSENSE 1 - RAMEN CULTURE:\nOriginating from Hakata/Fukuoka-style tonkotsu ramen, {替|か}え{玉|だま} allows customers to order more noodles to add to remaining broth. The thin, straight noodles used in Hakata ramen are designed for this system.\n\nTypical prices: 100-200 yen per serving, sometimes free.\n\nSENSE 2 - SUBSTITUTION:\nThis sense has negative connotations, as it typically refers to fraudulent substitution:\n- {替|か}え{玉|だま}{受験|じゅけん} (proxy exam-taking)\n- {替|か}え{玉|だま}{出席|しゅっせき} (proxy attendance)\n\nNUANCE:\nIn ramen contexts, the word is entirely positive and common. In other contexts, it implies deception.",
+  "notes": "FORMS:\n{替|か}え (replacement) + {玉|だま} (ball, portion) → replacement portion\n\nSENSE 1 - RAMEN CULTURE:\nOriginating from Hakata/Fukuoka-style tonkotsu ramen, {替|か}え{玉|だま} allows customers to order more noodles to add to remaining broth. The thin, straight noodles used in Hakata ramen are designed for this system.\n\nTypical prices: 100-200 yen per serving, sometimes free.\n\nSENSE 2 - SUBSTITUTION:\nThis sense has negative connotations, as it typically refers to fraudulent substitution:\n- {替|か}え{玉|だま}⟦{受験|じゅけん}→受験：04272_juken⟧ (proxy exam-taking)\n- {替|か}え{玉|だま}⟦{出席|しゅっせき}→出席：02084_shusseki⟧ (proxy attendance)\n\nUSAGE:\nIn ramen contexts, the word is entirely positive and common. In other contexts, it implies deception.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14285_migawari",
+      "reading": "みがわり",
+      "headword": "{身代|みが}わり",
+      "label": "substitute"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -86,6 +95,7 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "food",
         "ramen",
@@ -93,6 +103,6 @@
       ]
     },
     "created": "2026-01-25T23:11:33Z",
-    "modified": "2026-06-16T12:23:55Z"
+    "modified": "2026-09-02T04:01:14Z"
   }
 }

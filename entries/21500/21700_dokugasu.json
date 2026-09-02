@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21700_dokugasu_ex1",
-      "japanese": "{毒|どく}ガスに{注意|ちゅうい}してください。",
+      "japanese": "{毒|どく}ガス⟦に→に：00314_ni⟧⟦{注意|ちゅうい}→注意：01464_chuui⟧⟦して→する：00392_suru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please be careful of toxic gas.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21700_dokugasu_ex2",
-      "japanese": "{火山|かざん}から{毒|どく}ガスが{発生|はっせい}している。",
+      "japanese": "⟦{火山|かざん}→火山：04020_kazan⟧⟦から→から：00504_kara⟧{毒|どく}ガス⟦が→が：00051_ga⟧⟦{発生|はっせい}している→発生する：25529_hasseisuru⟧。",
       "english": "Toxic gas is being emitted from the volcano.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21700_dokugasu_ex3",
-      "japanese": "{第一次|だいいちじ}{世界|せかい}{大戦|たいせん}で{初|はじ}めて{毒|どく}ガスが{兵器|へいき}として{使|つか}われた。",
+      "japanese": "{第一次|だいいちじ}⟦{世界|せかい}→世界：01447_sekai⟧⟦{大戦|たいせん}→大戦：03771_taisen⟧⟦で→で：00502_de⟧⟦{初|はじ}めて→初めて：02932_hajimete⟧{毒|どく}ガス⟦が→が：00051_ga⟧⟦{兵器|へいき}→兵器：11679_heiki⟧⟦として→として：06802_toshite⟧⟦{使|つか}われた→使う：00473_tsukau⟧。",
       "english": "Poison gas was first used as a weapon in World War I.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {毒|どく} (poison) + ガス (gas). Appears in both everyday safety contexts (volcanic emissions, chemical leaks) and historical/military discussions.\n\nCOMMON COLLOCATIONS:\n- {毒|どく}ガス{攻撃|こうげき}: poison gas attack\n- {毒|どく}ガスマスク: gas mask\n- {毒|どく}ガスが{発生|はっせい}する: toxic gas is emitted\n- {毒|どく}ガス{事件|じけん}: poison gas incident\n\nRELATED TERMS:\n- {有毒|ゆうどく}ガス: toxic gas (more formal/technical)\n- {催涙|さいるい}ガス: tear gas\n- {排気|はいき}ガス: exhaust gas",
+  "notes": "A compound of ⟦{毒|どく}→毒：10052_doku⟧ (poison) + ⟦ガス→ガス：01344_gasu⟧ (gas). Appears in both everyday safety contexts (volcanic emissions, chemical leaks) and historical/military discussions.\n\nCOMMON COLLOCATIONS:\n- {毒|どく}ガス⟦{攻撃|こうげき}→攻撃：02748_kougeki⟧: poison gas attack\n- {毒|どく}ガスマスク: gas mask\n- {毒|どく}ガス⟦が→が：00051_ga⟧⟦{発生|はっせい}する→発生する：25529_hasseisuru⟧: toxic gas is emitted\n- {毒|どく}ガス⟦{事件|じけん}→事件：01568_jiken⟧: poison gas incident\n\nRELATED WORDS:\n- ⟦{有毒|ゆうどく}→有毒：23801_yuudoku⟧⟦ガス→ガス：01344_gasu⟧: toxic gas (more formal/technical)\n- {催涙|さいるい}⟦ガス→ガス：01344_gasu⟧: tear gas\n- ⟦{排気|はいき}ガス→排気ガス：09282_haikigasu⟧: exhaust gas",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "09282_haikigasu",
+      "reading": "はいきがす",
+      "headword": "{排気|はいき}ガス",
+      "label": "exhaust gas"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +68,6 @@
       ]
     },
     "created": "2026-04-02T21:26:57Z",
-    "modified": "2026-07-29T12:35:11Z"
+    "modified": "2026-09-02T04:02:04Z"
   }
 }

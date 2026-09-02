@@ -15,41 +15,81 @@
   "examples": [
     {
       "id": "28551_shooru_ex1",
-      "japanese": "ショールを{肩|かた}にかけた。",
+      "japanese": "ショール⟦を→を：00422_wo⟧⟦{肩|かた}→肩：02192_kata⟧⟦に→に：00314_ni⟧⟦かけた→かける：00854_kakeru⟧。",
       "english": "I draped a shawl over my shoulders.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28551_shooru_ex2",
-      "japanese": "{母|はは}にカシミヤのショールをプレゼントした。",
+      "japanese": "⟦{母|はは}→母：00549_haha⟧⟦に→に：00314_ni⟧カシミヤ⟦の→の：09472_no⟧ショール⟦を→を：00422_wo⟧⟦プレゼント→プレゼント：01791_purezento⟧⟦した→する：00392_suru⟧。",
       "english": "I gave my mother a cashmere shawl as a gift.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28551_shooru_ex3",
-      "japanese": "{冷房|れいぼう}が{効|き}きすぎているので、{薄手|うすで}のショールを{持|も}ち{歩|ある}いている。",
+      "japanese": "⟦{冷房|れいぼう}→冷房：01755_reibou⟧⟦が→が：00051_ga⟧⟦{効|き}き→効く：01932_kiku⟧すぎて⟦いる→いる：00495_iru⟧⟦の→の：09472_no⟧で、{薄手|うすで}⟦の→の：09472_no⟧ショール⟦を→を：00422_wo⟧⟦{持|も}ち{歩|ある}いている→持ち歩く：05739_mochiaruku⟧。",
       "english": "Since the air conditioning is too strong, I carry a thin shawl with me.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "From English 'shawl'. Worn primarily by women as outerwear or an accessory.\n\nCOMMON COLLOCATIONS:\n- ショールを{肩|かた}にかける: to drape a shawl over the shoulders\n- ショールを{羽織|はお}る: to put on a shawl\n- カシミヤのショール: cashmere shawl\n- {薄手|うすで}のショール: thin/lightweight shawl\n\nSIMILAR WORDS:\n- ストール: stole — narrower and longer, often worn around the neck\n- マフラー: muffler/scarf — for warmth, worn around the neck",
+  "notes": "From English 'shawl'. Worn primarily by women as outerwear or an accessory.\n\nCOMMON COLLOCATIONS:\n- ショール⟦を→を：00422_wo⟧⟦{肩|かた}→肩：02192_kata⟧⟦に→に：00314_ni⟧⟦かける→かける：00854_kakeru⟧: to drape a shawl over the shoulders\n- ショール⟦を→を：00422_wo⟧⟦{羽織|はお}る→羽織る：13901_haoru⟧: to put on a shawl\n- カシミヤ⟦の→の：09472_no⟧ショール: cashmere shawl\n- {薄手|うすで}⟦の→の：09472_no⟧ショール: thin/lightweight shawl\n\nSIMILAR WORDS:\n- ⟦ストール→ストール：24219_sutooru⟧: stole — narrower and longer, often worn around the neck\n- ⟦マフラー→マフラー：04533_mafuraa⟧: muffler/scarf — for warmth, worn around the neck",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24219_sutooru",
+      "reading": "すとーる",
+      "headword": "ストール",
+      "label": "stole"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04533_mafuraa",
+      "reading": "まふらー",
+      "headword": "マフラー",
+      "label": "muffler/scarf"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23796_katakake",
+      "reading": "かたかけ",
+      "headword": "{肩掛|かたか}け",
+      "label": "shoulder wrap"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28552_nekkuwoomaa",
+      "reading": "ねっくうぉーまー",
+      "headword": "ネックウォーマー",
+      "label": "neck warmer"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["clothing"],
+      "politeness": "plain",
+      "semantic": [
+        "clothing"
+      ],
       "domain": []
     },
     "created": "2026-06-02T02:07:31Z",
-    "modified": "2026-06-02T02:07:31Z"
+    "modified": "2026-09-02T04:02:34Z"
   }
 }

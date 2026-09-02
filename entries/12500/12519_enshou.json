@@ -3,7 +3,7 @@
   "id": "12519_enshou",
   "headword": "{延焼|えんしょう}",
   "reading": "えんしょう",
-  "part_of_speech": "noun / suru verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "spread of fire, fire spreading to adjacent buildings",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "12519_enshou_ex1",
-      "japanese": "{隣|となり}の{家|いえ}に{延焼|えんしょう}した。",
+      "japanese": "⟦{隣|となり}→隣：01003_tonari⟧⟦の→の：09472_no⟧⟦{家|いえ}→家：00612_ie⟧⟦に→に：00314_ni⟧{延焼|えんしょう}⟦した→する：00392_suru⟧。",
       "english": "The fire spread to the neighboring house.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "12519_enshou_ex2",
-      "japanese": "{消防隊|しょうぼうたい}の{迅速|じんそく}な{対応|たいおう}で{延焼|えんしょう}を{防|ふせ}いだ。",
+      "japanese": "⟦{消防隊|しょうぼうたい}→消防隊：29848_shouboutai⟧⟦の→の：09472_no⟧⟦{迅速|じんそく}→迅速：14294_jinsoku⟧な⟦{対応|たいおう}→対応：02510_taiou⟧⟦で→で：00502_de⟧{延焼|えんしょう}⟦を→を：00422_wo⟧⟦{防|ふせ}いだ→防ぐ：02409_fusegu⟧。",
       "english": "The fire brigade's swift response prevented the fire from spreading.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "12519_enshou_ex3",
-      "japanese": "{強風|きょうふう}のため{延焼|えんしょう}が{広|ひろ}がり、{数十|すうじゅう}{棟|とう}が{焼失|しょうしつ}した。",
+      "japanese": "⟦{強風|きょうふう}→強風：15269_kyoufuu⟧⟦の→の：09472_no⟧⟦ため→ため：01145_tame⟧{延焼|えんしょう}⟦が→が：00051_ga⟧⟦{広|ひろ}がり→広がる：01980_hirogaru⟧、⟦{数十|すうじゅう}→数十：21400_suujuu⟧{棟|とう}⟦が→が：00051_ga⟧⟦{焼失|しょうしつ}→焼失：13480_shoushitsu⟧⟦した→する：00392_suru⟧。",
       "english": "Due to strong winds, the fire spread further, and dozens of buildings were destroyed.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,19 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA standard term in fire reporting and disaster prevention. Japan's historically dense wooden architecture has made {延焼|えんしょう} a particularly important concept. Do not confuse with the homophone {炎症|えんしょう} (inflammation, a medical term).\n\nCOMMON COLLOCATIONS:\n- {延焼|えんしょう}を{防|ふせ}ぐ: to prevent fire spread\n- {延焼|えんしょう}する: to spread (of fire)\n- {延焼|えんしょう}{危険|きけん}: risk of fire spreading\n- {延焼|えんしょう}{防止|ぼうし}: fire spread prevention",
-  "cross_references": [],
+  "notes": "USAGE:\nA standard term in fire reporting and disaster prevention. Japan's historically dense wooden architecture has made {延焼|えんしょう} a particularly important concept. Do not confuse with the homophone ⟦{炎症|えんしょう}→炎症：05978_enshou⟧ (inflammation, a medical term).\n\nCOMMON COLLOCATIONS:\n- {延焼|えんしょう}⟦を→を：00422_wo⟧⟦{防|ふせ}ぐ→防ぐ：02409_fusegu⟧: to prevent fire spread\n- {延焼|えんしょう}⟦する→する：00392_suru⟧: to spread (of fire)\n- {延焼|えんしょう}⟦{危険|きけん}→危険：01141_kiken⟧: risk of fire spreading\n- {延焼|えんしょう}⟦{防止|ぼうし}→防止：14571_boushi⟧: fire spread prevention",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18581_ruishou",
+      "reading": "るいしょう",
+      "headword": "{類焼|るいしょう}",
+      "label": "spread of fire from an adjacent building"
+    }
+  ],
   "metadata": {
     "created": "2026-02-21T11:12:38Z",
-    "modified": "2026-03-29T03:07:35Z",
+    "modified": "2026-09-02T04:01:29Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

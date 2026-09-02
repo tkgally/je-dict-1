@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30662_tsuisakki_ex1",
-      "japanese": "ついさっき{帰|かえ}ってきた。",
+      "japanese": "ついさっき⟦{帰|かえ}って→帰る：00508_kaeru⟧きた。",
       "english": "I got back just a moment ago.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30662_tsuisakki_ex2",
-      "japanese": "ついさっきまで{雨|あめ}が{降|ふ}っていた。",
+      "japanese": "ついさっき⟦まで→まで：00490_made⟧⟦{雨|あめ}→雨：00583_ame⟧⟦が→が：00051_ga⟧⟦{降|ふ}っていた→降る：00839_furu⟧。",
       "english": "It was raining until just a moment ago.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30662_tsuisakki_ex3",
-      "japanese": "ついさっき{電話|でんわ}があったばかりなのに、もう{用件|ようけん}を{忘|わす}れてしまった。",
+      "japanese": "ついさっき⟦{電話|でんわ}→電話：01471_denwa⟧⟦が→が：00051_ga⟧⟦あった→ある：00006_aru⟧⟦ばかり→〜ばかり：02006_bakari⟧な⟦の→の：09472_no⟧⟦に→に：00314_ni⟧、⟦もう→もう：00602_mou⟧⟦{用件|ようけん}→用件：15058_youken⟧⟦を→を：00422_wo⟧⟦{忘|わす}れて→忘れる：00474_wasureru⟧しまった。",
       "english": "He called only a moment ago, and I've already forgotten what it was about.",
       "sense_numbers": [
         1
@@ -44,13 +44,20 @@
       "notes": null
     }
   ],
-  "notes": "COMMON PATTERNS:\n- ついさっきまで: until just a moment ago\n- ついさっき〜たばかり: to have only just done something\n- ついさっきのこと: something that happened just now\n\nSIMILAR WORDS:\n- さっき: a while ago — the plain form, vaguer and possibly an hour or more back\n- たった{今|いま}: this very moment — even more immediate, and usable in writing\n- {先|さき}ほど: a short while ago — the polite equivalent, used in business speech\n\nREGISTER:\nConversational. In polite or written contexts, use {先|さき}ほど instead.",
+  "notes": "COMMON PATTERNS:\n- ついさっき⟦まで→まで：00490_made⟧: until just a moment ago\n- ついさっき〜たばかり: to have only just done something\n- ついさっき⟦の→の：09472_no⟧こと: something that happened just now\n\nSIMILAR WORDS:\n- ⟦さっき→さっき：01264_sakki⟧: a while ago — the plain form, vaguer and possibly an hour or more back\n- ⟦たった{今|いま}→たった今：20560_tattaima⟧: this very moment — even more immediate, and usable in writing\n- {先|さき}ほど: a short while ago — the polite equivalent, used in business speech\n\nREGISTER:\nConversational. In polite or written contexts, use {先|さき}ほど instead.",
   "cross_references": [
     {
       "type": "related",
       "reading": "さきほど",
       "headword": "{先|さき}ほど",
       "label": "polite"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20560_tattaima",
+      "reading": "たったいま",
+      "headword": "たった{今|いま}",
+      "label": "this very moment"
     }
   ],
   "schema_version": "2.0",
@@ -61,7 +68,7 @@
         "adverb"
       ],
       "formality": "informal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "time-general"
       ],
@@ -70,6 +77,6 @@
       ]
     },
     "created": "2026-08-15T12:20:22Z",
-    "modified": "2026-08-15T12:20:22Z"
+    "modified": "2026-09-02T04:02:41Z"
   }
 }

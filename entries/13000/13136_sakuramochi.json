@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "13136_sakuramochi_ex1",
-      "japanese": "{春|はる}になると{桜餅|さくらもち}が{食|た}べたくなる。",
+      "japanese": "⟦{春|はる}→春：00627_haru⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦と→と：00512_to⟧{桜餅|さくらもち}⟦が→が：00051_ga⟧⟦{食|た}べたく→食べる：00396_taberu⟧⟦なる→なる：01970_naru⟧。",
       "english": "When spring comes, I start craving sakuramochi.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "13136_sakuramochi_ex2",
-      "japanese": "{桜餅|さくらもち}の{葉|は}っぱは{食|た}べる{人|ひと}と{食|た}べない{人|ひと}がいる。",
+      "japanese": "{桜餅|さくらもち}⟦の→の：09472_no⟧⟦{葉|は}っぱ→葉っぱ：05388_happa⟧⟦は→は：00079_ha⟧⟦{食|た}べる→食べる：00396_taberu⟧⟦{人|ひと}→人：00476_hito⟧⟦と→と：00512_to⟧⟦{食|た}べない→食べる：00396_taberu⟧⟦{人|ひと}→人：00476_hito⟧⟦が→が：00051_ga⟧⟦いる→いる：00495_iru⟧。",
       "english": "Some people eat the leaf on sakuramochi and some don't.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "13136_sakuramochi_ex3",
-      "japanese": "ひな{祭|まつ}りに{合|あ}わせて{和菓子屋|わがしや}で{桜餅|さくらもち}を{買|か}ってきた。",
+      "japanese": "⟦ひな{祭|まつ}り→ひな祭り：10517_hinamatsuri⟧⟦に→に：00314_ni⟧⟦{合|あ}わせて→合わせる：01872_awaseru⟧{和菓子屋|わがしや}⟦で→で：00502_de⟧{桜餅|さくらもち}⟦を→を：00422_wo⟧⟦{買|か}って→買う：00489_kau⟧きた。",
       "english": "I bought sakuramochi from the Japanese confectionery shop for Girls' Day.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,19 @@
       ]
     }
   ],
-  "notes": "CULTURE:\nA signature spring sweet in Japan. There are two main regional styles: the Kanto style ({長命寺|ちょうめいじ}), made with a thin crepe-like wrapper, and the Kansai style ({道明寺|どうみょうじ}), made with coarser, chewy rice. Both are wrapped in a salt-pickled cherry leaf ({桜|さくら}の{葉|は}), which is edible. Whether to eat the leaf is a perennial topic of light debate.\n\nCOMMON COLLOCATIONS:\n- {桜餅|さくらもち}の{葉|は}: the cherry leaf wrapping\n- {桜餅|さくらもち}を{作|つく}る: to make sakuramochi\n- {道明寺|どうみょうじ}: Kansai-style sakuramochi\n- {長命寺|ちょうめいじ}: Kanto-style sakuramochi",
-  "cross_references": [],
+  "notes": "CULTURAL NOTE:\nA signature spring sweet in Japan. There are two main regional styles: the Kanto style ({長命寺|ちょうめいじ}), made with a thin crepe-like wrapper, and the Kansai style ({道明寺|どうみょうじ}), made with coarser, chewy rice. Both are wrapped in a salt-pickled cherry leaf (⟦{桜|さくら}→桜：02212_sakura⟧⟦の→の：09472_no⟧⟦{葉|は}→葉：02241_ha⟧), which is edible. Whether to eat the leaf is a perennial topic of light debate.\n\nCOMMON COLLOCATIONS:\n- {桜餅|さくらもち}⟦の→の：09472_no⟧⟦{葉|は}→葉：02241_ha⟧: the cherry leaf wrapping\n- {桜餅|さくらもち}⟦を→を：00422_wo⟧⟦{作|つく}る→作る：00481_tsukuru⟧: to make sakuramochi\n- {道明寺|どうみょうじ}: Kansai-style sakuramochi\n- {長命寺|ちょうめいじ}: Kanto-style sakuramochi",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "19485_kashiwamochi",
+      "reading": "かしわもち",
+      "headword": "{柏餅|かしわもち}",
+      "label": "oak-leaf rice cake"
+    }
+  ],
   "metadata": {
     "created": "2026-02-23T11:44:40Z",
-    "modified": "2026-08-24T00:38:19Z",
+    "modified": "2026-09-02T04:01:32Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

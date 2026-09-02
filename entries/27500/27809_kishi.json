@@ -15,41 +15,68 @@
   "examples": [
     {
       "id": "27809_kishi_ex1",
-      "japanese": "プロ{棋士|きし}になる。",
+      "japanese": "⟦プロ→プロ：03871_puro⟧{棋士|きし}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧。",
       "english": "To become a professional shogi player.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27809_kishi_ex2",
-      "japanese": "{彼女|かのじょ}は{若|わか}くしてプロ{棋士|きし}になった。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧⟦{若|わか}く→若い：00823_wakai⟧⟦して→する：00392_suru⟧⟦プロ→プロ：03871_puro⟧{棋士|きし}になった。",
       "english": "She became a professional player at a young age.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27809_kishi_ex3",
-      "japanese": "{棋士|きし}は{長時間|ちょうじかん}の{対局|たいきょく}でも{深|ふか}い{集中力|しゅうちゅうりょく}を{保|たも}つ。",
+      "japanese": "{棋士|きし}⟦は→は：00079_ha⟧⟦{長時間|ちょうじかん}→長時間：10165_choujikan⟧⟦の→の：09472_no⟧⟦{対局|たいきょく}→対局：17420_taikyoku⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧⟦{深|ふか}い→深い：01211_fukai⟧⟦{集中力|しゅうちゅうりょく}→集中力：17614_shuuchuuryoku⟧⟦を→を：00422_wo⟧⟦{保|たも}つ→保つ：10134_tamotsu⟧。",
       "english": "A professional player sustains deep concentration even over long matches.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Refers to a professional of shogi or go; which one is meant is determined by context. Go professionals are also called {囲碁|いご}{棋士|きし}.\n\nCOMMON COLLOCATIONS:\n- プロ{棋士|きし}: a professional shogi or go player\n- {棋士|きし}の{対局|たいきょく}: a match between professional players\n\nSIMILAR WORDS:\n- {騎士|きし}: a knight — a homophone written with different kanji\n- {名人|めいじん}: Meijin — a major shogi/go title, and by extension a grandmaster",
+  "notes": "Refers to a professional of shogi or go; which one is meant is determined by context. Go professionals are also called ⟦{囲碁|いご}→囲碁：18035_igo⟧{棋士|きし}.\n\nCOMMON COLLOCATIONS:\n- ⟦プロ→プロ：03871_puro⟧{棋士|きし}: a professional shogi or go player\n- {棋士|きし}⟦の→の：09472_no⟧⟦{対局|たいきょく}→対局：17420_taikyoku⟧: a match between professional players\n\nSIMILAR WORDS:\n- ⟦{騎士|きし}→騎士：14716_kishi⟧: a knight — a homophone written with different kanji\n- ⟦{名人|めいじん}→名人：03753_meijin⟧: Meijin — a major shogi/go title, and by extension a grandmaster",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "homophone",
+      "target_id": "14716_kishi",
+      "reading": "きし",
+      "headword": "{騎士|きし}",
+      "label": "a knight"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03753_meijin",
+      "reading": "めいじん",
+      "headword": "{名人|めいじん}",
+      "label": "Meijin"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["occupation", "leisure"],
+      "politeness": "plain",
+      "semantic": [
+        "occupation",
+        "leisure"
+      ],
       "domain": []
     },
     "created": "2026-05-19T03:07:48Z",
-    "modified": "2026-05-19T03:07:48Z"
+    "modified": "2026-09-02T04:02:31Z"
   }
 }

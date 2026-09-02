@@ -15,40 +15,66 @@
   "examples": [
     {
       "id": "18964_sunaasobi_ex1",
-      "japanese": "{子供|こども}たちが{砂遊|すなあそ}びをしている。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧たち⟦が→が：00051_ga⟧{砂遊|すなあそ}び⟦を→を：00422_wo⟧⟦している→する：00392_suru⟧。",
       "english": "The children are playing in the sand.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "18964_sunaasobi_ex2",
-      "japanese": "{公園|こうえん}の{砂場|すなば}で{砂遊|すなあそ}びをした。",
+      "japanese": "⟦{公園|こうえん}→公園：00581_kouen⟧⟦の→の：09472_no⟧⟦{砂場|すなば}→砂場：06326_sunaba⟧⟦で→で：00502_de⟧{砂遊|すなあそ}び⟦を→を：00422_wo⟧⟦した→する：00392_suru⟧。",
       "english": "We played in the sand at the park's sandbox.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "18964_sunaasobi_ex3",
-      "japanese": "{砂遊|すなあそ}びは{子供|こども}の{創造力|そうぞうりょく}を{育|はぐく}むと{言|い}われている。",
+      "japanese": "{砂遊|すなあそ}び⟦は→は：00079_ha⟧⟦{子供|こども}→子供：00554_kodomo⟧⟦の→の：09472_no⟧⟦{創造力|そうぞうりょく}→創造力：27919_souzouryoku⟧⟦を→を：00422_wo⟧⟦{育|はぐく}む→育む：10390_hagukumu⟧⟦と→と：00512_to⟧⟦{言|い}われている→言う：00515_iu⟧。",
       "english": "Playing in the sand is said to nurture children's creativity.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "{砂遊|すなあそ}び is a common childhood activity of playing with sand, typically in a sandbox or at the beach.\n\nCOMPOSITION:\n{砂|すな} (sand) + {遊|あそ}び (play).\n\nCOMMON PATTERNS:\n- {砂遊|すなあそ}びをする: to play in the sand\n- {砂場|すなば}で{砂遊|すなあそ}びをする: to play in the sandbox\n\nRELATED TERMS:\n- {砂場|すなば}: sandbox (found in most Japanese parks)\n- {砂|すな}のお{城|しろ}: sandcastle\n- {泥遊|どろあそ}び: mud play\n- {水遊|みずあそ}び: water play\n\nSIMILAR 〜{遊|あそ}び COMPOUNDS:\n- {泥遊|どろあそ}び: mud play\n- {水遊|みずあそ}び: water play\n- {外遊|そとあそ}び: outdoor play",
+  "notes": "{砂遊|すなあそ}び is a common childhood activity of playing with sand, typically in a sandbox or at the beach.\n\nETYMOLOGY:\n⟦{砂|すな}→砂：00890_suna⟧ (sand) + ⟦{遊|あそ}び→遊び：01285_asobi⟧ (play).\n\nCOMMON PATTERNS:\n- {砂遊|すなあそ}び⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧: to play in the sand\n- ⟦{砂場|すなば}→砂場：06326_sunaba⟧⟦で→で：00502_de⟧{砂遊|すなあそ}び⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧: to play in the sandbox\n\nRELATED WORDS:\n- ⟦{砂場|すなば}→砂場：06326_sunaba⟧: sandbox (found in most Japanese parks)\n- ⟦{砂|すな}→砂：00890_suna⟧⟦の→の：09472_no⟧お⟦{城|しろ}→城：03255_shiro⟧: sandcastle\n- {泥遊|どろあそ}び: mud play\n- ⟦{水遊|みずあそ}び→水遊び：30257_mizuasobi⟧: water play\n\nSIMILAR 〜{遊|あそ}び COMPOUNDS:\n- {泥遊|どろあそ}び: mud play\n- ⟦{水遊|みずあそ}び→水遊び：30257_mizuasobi⟧: water play\n- {外遊|そとあそ}び: outdoor play",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "06326_sunaba",
+      "reading": "すなば",
+      "headword": "{砂場|すなば}",
+      "label": "sandbox"
+    },
+    {
+      "type": "related",
+      "target_id": "30257_mizuasobi",
+      "reading": "みずあそび",
+      "headword": "{水遊|みずあそ}び",
+      "label": "water play"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["leisure"]
+      "semantic": [
+        "leisure"
+      ]
     },
     "created": "2026-03-23T10:23:49Z",
-    "modified": "2026-03-25T09:40:20Z"
+    "modified": "2026-09-02T04:01:54Z"
   }
 }

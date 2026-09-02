@@ -3,7 +3,7 @@
   "headword": "{内密|ないみつ}",
   "reading": "ないみつ",
   "romaji": "naimitsu",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, na-adjective",
   "gloss": "confidential; private; secret",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22676_naimitsu_ex1",
-      "japanese": "この{件|けん}は{内密|ないみつ}にしてください。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{件|けん}→件：11720_ken⟧⟦は→は：00079_ha⟧{内密|ないみつ}にして⟦ください→ください：02899_kudasai⟧。",
       "english": "Please keep this matter confidential.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22676_naimitsu_ex2",
-      "japanese": "{内密|ないみつ}の{話|はなし}がある。",
+      "japanese": "{内密|ないみつ}⟦の→の：09472_no⟧⟦{話|はなし}→話：01496_hanashi⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "I have something private to discuss.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22676_naimitsu_ex3",
-      "japanese": "{上司|じょうし}から{内密|ないみつ}に{相談|そうだん}を{受|う}けた。",
+      "japanese": "⟦{上司|じょうし}→上司：03286_joushi⟧⟦から→から：00504_kara⟧{内密|ないみつ}⟦に→に：00314_ni⟧⟦{相談|そうだん}→相談：02089_soudan⟧⟦を→を：00422_wo⟧⟦{受|う}けた→受ける：01215_ukeru⟧。",
       "english": "I received a confidential consultation from my boss.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Used to describe information or matters that should not be disclosed to others. Functions as both a noun and a na-adjective. Common in business and formal contexts when discussing sensitive information.\n\nCOMMON COLLOCATIONS:\n- {内密|ないみつ}にする: to keep confidential\n- {内密|ないみつ}の{話|はなし}: a private conversation\n- {内密|ないみつ}に{処理|しょり}する: to handle discreetly\n- {内密|ないみつ}に{進|すす}める: to proceed in secret\n\nSIMILAR WORDS:\n- {秘密|ひみつ}: secret — broader and more common, used for everything from personal secrets to classified information, while {内密|ないみつ} has a more formal, discreet nuance and implies keeping something within a trusted circle\n- {極秘|ごくひ}: top secret — much stronger than {内密|ないみつ}, implying the highest level of confidentiality",
+  "notes": "Used to describe information or matters that should not be disclosed to others. Functions as both a noun and a na-adjective. Common in business and formal contexts when discussing sensitive information.\n\nCOMMON COLLOCATIONS:\n- {内密|ないみつ}⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧: to keep confidential\n- {内密|ないみつ}⟦の→の：09472_no⟧⟦{話|はなし}→話：01496_hanashi⟧: a private conversation\n- {内密|ないみつ}⟦に→に：00314_ni⟧⟦{処理|しょり}する→処理する：25531_shorisuru⟧: to handle discreetly\n- {内密|ないみつ}⟦に→に：00314_ni⟧⟦{進|すす}める→進める：01949_susumeru⟧: to proceed in secret\n\nSIMILAR WORDS:\n- ⟦{秘密|ひみつ}→秘密：02504_himitsu⟧: secret — broader and more common, used for everything from personal secrets to classified information, while {内密|ないみつ} has a more formal, discreet nuance and implies keeping something within a trusted circle\n- ⟦{極秘|ごくひ}→極秘：13162_gokuhi⟧: top secret — much stronger than {内密|ないみつ}, implying the highest level of confidentiality",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02504_himitsu",
+      "reading": "ひみつ",
+      "headword": "{秘密|ひみつ}",
+      "label": "secret"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13162_gokuhi",
+      "reading": "ごくひ",
+      "headword": "{極秘|ごくひ}",
+      "label": "top secret"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,6 +77,6 @@
       "politeness": "plain"
     },
     "created": "2026-04-07T00:52:21Z",
-    "modified": "2026-08-01T06:41:09Z"
+    "modified": "2026-09-02T04:02:09Z"
   }
 }

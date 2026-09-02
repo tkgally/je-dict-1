@@ -2,7 +2,7 @@
   "id": "11558_heiyou",
   "headword": "{併用|へいよう}",
   "reading": "へいよう",
-  "part_of_speech": "noun / verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "combined use, using together",
   "conjugation": {
     "type": "suru",
@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "11558_heiyou_ex1",
-      "japanese": "この{薬|くすり}は{他|ほか}の{薬|くすり}と{併用|へいよう}できる。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{薬|くすり}→薬：00793_kusuri⟧⟦は→は：00079_ha⟧⟦{他|ほか}→他：04129_hoka⟧⟦の→の：09472_no⟧⟦{薬|くすり}→薬：00793_kusuri⟧⟦と→と：00512_to⟧{併用|へいよう}⟦できる→できる：00557_dekiru⟧。",
       "english": "This medicine can be used in combination with other medicines.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "11558_heiyou_ex2",
-      "japanese": "{手術|しゅじゅつ}と{薬物療法|やくぶつりょうほう}を{併用|へいよう}する。",
+      "japanese": "⟦{手術|しゅじゅつ}→手術：03218_shujutsu⟧⟦と→と：00512_to⟧{薬物療法|やくぶつりょうほう}⟦を→を：00422_wo⟧{併用|へいよう}⟦する→する：00392_suru⟧。",
       "english": "Surgery and drug therapy are used in combination.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "11558_heiyou_ex3",
-      "japanese": "{辞書|じしょ}とアプリを{併用|へいよう}して{効率|こうりつ}よく{勉強|べんきょう}している。",
+      "japanese": "⟦{辞書|じしょ}→辞書：04707_jisho⟧⟦と→と：00512_to⟧⟦アプリ→アプリ：04722_apuri⟧⟦を→を：00422_wo⟧{併用|へいよう}⟦して→する：00392_suru⟧⟦{効率|こうりつ}→効率：11794_kouritsu⟧⟦よく→よく：00601_yoku⟧⟦{勉強|べんきょう}している→勉強する：00527_benkyousuru⟧。",
       "english": "I study efficiently by using both a dictionary and an app together.",
       "notes": null,
       "has_audio": false,
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "Composed of {併|へい} (together, parallel) and {用|よう} (use). Frequently encountered in medical and pharmaceutical contexts where it refers to combining treatments or medications. The pattern AとBを{併用|へいよう}する means \"to use A and B together.\"\n\nCOMMON COLLOCATIONS:\n・{薬|くすり}を{併用|へいよう}する (use medicines in combination)\n・{併用|へいよう}{禁忌|きんき} (contraindicated combination)\n・{併用|へいよう}{療法|りょうほう} (combination therapy)\n・〜と{併用|へいよう}する (use in combination with ~)",
+  "notes": "Composed of {併|へい} (together, parallel) and ⟦{用|よう}→〜用：09842_you⟧ (use). Frequently encountered in medical and pharmaceutical contexts where it refers to combining treatments or medications. The pattern A⟦と→と：00512_to⟧B⟦を→を：00422_wo⟧{併用|へいよう}⟦する→する：00392_suru⟧ means \"to use A and B together.\"\n\nCOMMON COLLOCATIONS:\n- ⟦{薬|くすり}→薬：00793_kusuri⟧⟦を→を：00422_wo⟧{併用|へいよう}⟦する→する：00392_suru⟧ (use medicines in combination)\n- {併用|へいよう}{禁忌|きんき} (contraindicated combination)\n- {併用|へいよう}⟦{療法|りょうほう}→療法：13615_ryouhou⟧ (combination therapy)\n- 〜⟦と→と：00512_to⟧{併用|へいよう}⟦する→する：00392_suru⟧ (use in combination with ~)",
   "cross_references": [
     {
       "type": "contrast",
@@ -141,11 +141,18 @@
       "reading": "けんよう",
       "headword": "{兼用|けんよう}",
       "label": "dual-purpose; one item"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20299_kenyousuru",
+      "reading": "けんようする",
+      "headword": "{兼用|けんよう}する",
+      "label": "to use for two purposes"
     }
   ],
   "metadata": {
     "created": "2026-02-17T13:18:29Z",
-    "modified": "2026-05-02T05:13:00Z",
+    "modified": "2026-09-02T04:01:25Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",

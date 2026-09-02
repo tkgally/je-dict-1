@@ -44,10 +44,46 @@
     }
   ],
   "notes": "{鉛筆|えんぴつ} is a writing instrument with a graphite core, part of basic stationery vocabulary.\n\nCOUNTER:\n⟦{本|ほん}→〜本：00688_hon⟧ is used: ⟦{一|いっ}→一：00705_ichi⟧⟦{本|ぽん}→〜本：00688_hon⟧, ⟦{二|に}→二：00736_ni⟧⟦{本|ほん}→〜本：00688_hon⟧, ⟦{三|さん}→三：00749_san⟧⟦{本|ぼん}→〜本：00688_hon⟧, etc.\n\nCOMMON EXPRESSIONS:\n- {鉛筆|えんぴつ}⟦を→を：00422_wo⟧⟦{削|けず}る→削る：03922_kezuru⟧: to sharpen a pencil\n- {鉛筆|えんぴつ}⟦で→で：00502_de⟧⟦{書|か}く→書く：00477_kaku⟧: to write with a pencil\n- {鉛筆|えんぴつ}⟦の→の：09472_no⟧⟦{芯|しん}→芯：03888_shin⟧: pencil lead\n\nRELATED WORDS:\n- ⟦シャープペンシル→シャープペンシル：23768_shaapupenshiru⟧ (⟦シャーペン→シャーペン：25678_shaapen⟧): mechanical pencil\n- ⟦{色|いろ}→色：00849_iro⟧{鉛筆|えんぴつ}: colored pencil\n- ⟦ボールペン→ボールペン：00691_boorupen⟧: ballpoint pen\n- ⟦{消|け}しゴム→消しゴム：00716_keshigomu⟧: eraser",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "23768_shaapupenshiru",
+      "reading": "しゃーぷぺんしる",
+      "headword": "シャープペンシル",
+      "label": "mechanical pencil"
+    },
+    {
+      "type": "related",
+      "target_id": "00691_boorupen",
+      "reading": "ぼーるぺん",
+      "headword": "ボールペン",
+      "label": "ballpoint pen"
+    },
+    {
+      "type": "related",
+      "target_id": "00716_keshigomu",
+      "reading": "けしごむ",
+      "headword": "{消|け}しゴム",
+      "label": "eraser"
+    },
+    {
+      "type": "related",
+      "target_id": "00738_nooto",
+      "reading": "のーと",
+      "headword": "ノート",
+      "label": "notebook"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25678_shaapen",
+      "reading": "しゃーぺん",
+      "headword": "シャーペン",
+      "label": "mechanical pencil"
+    }
+  ],
   "metadata": {
     "created": "2026-01-07T12:42:11Z",
-    "modified": "2026-08-08T09:25:02Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

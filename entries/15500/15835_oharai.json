@@ -15,41 +15,66 @@
   "examples": [
     {
       "id": "15835_oharai_ex1",
-      "japanese": "{神社|じんじゃ}でお{祓|はら}いを{受|う}けた。",
+      "japanese": "⟦{神社|じんじゃ}→神社：01620_jinja⟧⟦で→で：00502_de⟧お{祓|はら}い⟦を→を：00422_wo⟧⟦{受|う}けた→受ける：01215_ukeru⟧。",
       "english": "I received a purification ritual at the shrine.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15835_oharai_ex2",
-      "japanese": "{新車|しんしゃ}を{買|か}ったので、お{祓|はら}いをしてもらった。",
+      "japanese": "⟦{新車|しんしゃ}→新車：11334_shinsha⟧⟦を→を：00422_wo⟧⟦{買|か}った→買う：00489_kau⟧⟦の→の：09472_no⟧で、お{祓|はら}い⟦を→を：00422_wo⟧⟦して→する：00392_suru⟧⟦もらった→もらう：00520_morau⟧。",
       "english": "I bought a new car, so I had a purification ritual performed on it.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15835_oharai_ex3",
-      "japanese": "{厄年|やくどし}なので、{年|ねん}の{初|はじ}めに{厄除|やくよ}けのお{祓|はら}いに{行|い}ってきた。",
+      "japanese": "⟦{厄年|やくどし}→厄年：05809_yakudoshi⟧な⟦の→の：09472_no⟧で、⟦{年|ねん}→年：09876_nen⟧⟦の→の：09472_no⟧⟦{初|はじ}め→初め：02931_hajime⟧⟦に→に：00314_ni⟧⟦{厄除|やくよ}け→厄除け：24744_yakuyoke⟧⟦の→の：09472_no⟧お{祓|はら}い⟦に→に：00314_ni⟧⟦{行|い}って→行く：00119_iku⟧きた。",
       "english": "Since it's my unlucky year, I went for an evil-warding purification at the start of the year.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "CULTURE:\nお{祓|はら}い is one of the most common Shinto rituals in Japan. People seek purification for a wide range of occasions: moving into a new house, buying a new car, starting a business, reaching an unlucky year ({厄年|やくどし}), or after a period of misfortune.\n\nCOMMON COLLOCATIONS:\n- お{祓|はら}いを{受|う}ける (to receive a purification)\n- お{祓|はら}いをしてもらう (to have a purification performed)\n- お{祓|はら}いに{行|い}く (to go for a purification)\n\nFORM:\nThe お prefix is standard and almost always used. The plain form {祓|はら}い exists but is less common in everyday speech.",
-  "cross_references": [],
+  "notes": "CULTURAL NOTE:\nお{祓|はら}い is one of the most common Shinto rituals in Japan. People seek purification for a wide range of occasions: moving into a new house, buying a new car, starting a business, reaching an unlucky year (⟦{厄年|やくどし}→厄年：05809_yakudoshi⟧), or after a period of misfortune.\n\nCOMMON COLLOCATIONS:\n- お{祓|はら}い⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧ (to receive a purification)\n- お{祓|はら}い⟦を→を：00422_wo⟧⟦して→する：00392_suru⟧⟦もらう→もらう：00520_morau⟧ (to have a purification performed)\n- お{祓|はら}い⟦に→に：00314_ni⟧⟦{行|い}く→行く：00119_iku⟧ (to go for a purification)\n\nFORMS:\nThe お prefix is standard and almost always used. The plain form {祓|はら}い exists but is less common in everyday speech.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22342_yakubarai",
+      "reading": "やくばらい",
+      "headword": "{厄払|やくばら}い",
+      "label": "warding off evil"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24744_yakuyoke",
+      "reading": "やくよけ",
+      "headword": "{厄除|やくよ}け",
+      "label": "warding off bad luck"
+    }
+  ],
   "metadata": {
     "created": "2026-03-08T12:24:55Z",
-    "modified": "2026-03-08T12:24:55Z",
+    "modified": "2026-09-02T04:01:42Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["religion"]
+      "semantic": [
+        "religion"
+      ]
     }
   }
 }

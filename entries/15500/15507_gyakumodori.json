@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "15507_gyakumodori_ex1",
-      "japanese": "{景気|けいき}が{逆戻|ぎゃくもど}りした。",
+      "japanese": "⟦{景気|けいき}→景気：02694_keiki⟧⟦が→が：00051_ga⟧{逆戻|ぎゃくもど}り⟦した→する：00392_suru⟧。",
       "english": "The economy went into reverse.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "15507_gyakumodori_ex2",
-      "japanese": "{交渉|こうしょう}が{振|ふ}り{出|だ}しに{逆戻|ぎゃくもど}りしてしまった。",
+      "japanese": "⟦{交渉|こうしょう}→交渉：02727_koushou⟧⟦が→が：00051_ga⟧⟦{振|ふ}り{出|だ}し→振り出し：15931_furidashi⟧⟦に→に：00314_ni⟧{逆戻|ぎゃくもど}り⟦して→する：00392_suru⟧しまった。",
       "english": "The negotiations went right back to square one.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "15507_gyakumodori_ex3",
-      "japanese": "せっかく{体重|たいじゅう}を{落|お}としたのに、{食|た}べ{過|す}ぎて{逆戻|ぎゃくもど}りしてしまった。",
+      "japanese": "せっかく⟦{体重|たいじゅう}→体重：03395_taijuu⟧⟦を→を：00422_wo⟧⟦{落|お}とした→落とす：01246_otosu⟧⟦の→の：09472_no⟧⟦に→に：00314_ni⟧、⟦{食|た}べ{過|す}ぎて→食べ過ぎる：21686_tabesugiru⟧{逆戻|ぎゃくもど}り⟦して→する：00392_suru⟧しまった。",
       "english": "I finally lost the weight, but I overate and it all came back.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{逆戻|ぎゃくもど}り conveys the frustration of losing progress. It implies that effort was made but the situation has returned to where it started — or worse.\n\nCOMMON COLLOCATIONS:\n- {逆戻|ぎゃくもど}りする (to go backward, to relapse)\n- {振|ふ}り{出|だ}しに{逆戻|ぎゃくもど}り (back to square one)\n- {元|もと}に{逆戻|ぎゃくもど}りする (to revert to the original state)\n\nGRAMMAR:\nUsed as a noun or with する to form an intransitive verb.",
+  "notes": "USAGE:\n{逆戻|ぎゃくもど}り conveys the frustration of losing progress. It implies that effort was made but the situation has returned to where it started — or worse.\n\nCOMMON COLLOCATIONS:\n- {逆戻|ぎゃくもど}り⟦する→する：00392_suru⟧ (to go backward, to relapse)\n- ⟦{振|ふ}り{出|だ}し→振り出し：15931_furidashi⟧⟦に→に：00314_ni⟧{逆戻|ぎゃくもど}り (back to square one)\n- ⟦{元|もと}→元：03878_moto⟧⟦に→に：00314_ni⟧{逆戻|ぎゃくもど}り⟦する→する：00392_suru⟧ (to revert to the original state)\n\nCOMMON PATTERNS:\nUsed as a noun or with ⟦する→する：00392_suru⟧ to form an intransitive verb.",
   "cross_references": [
     {
       "type": "antonym",
@@ -153,7 +153,7 @@
   ],
   "metadata": {
     "created": "2026-03-07T09:34:07Z",
-    "modified": "2026-05-01T07:30:21Z",
+    "modified": "2026-09-02T04:01:41Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -166,7 +166,8 @@
       "semantic": [
         "general"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

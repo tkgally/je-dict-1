@@ -14,37 +14,65 @@
   "examples": [
     {
       "id": "09304_ossan_ex1",
-      "japanese": "あのおっさん{誰|だれ}？",
+      "japanese": "⟦あの→あの：00915_ano⟧おっさん⟦{誰|だれ}→誰：00534_dare⟧？",
       "english": "Who's that old guy?",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09304_ossan_ex2",
       "japanese": "おっさんになってきた。",
       "english": "I'm becoming a middle-aged guy.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09304_ossan_ex3",
-      "japanese": "{電車|でんしゃ}でおっさんに{席|せき}を{譲|ゆず}った。",
+      "japanese": "⟦{電車|でんしゃ}→電車：00522_densha⟧⟦で→で：00502_de⟧おっさん⟦に→に：00314_ni⟧⟦{席|せき}→席：02215_seki⟧⟦を→を：00422_wo⟧⟦{譲|ゆず}った→譲る：02323_yuzuru⟧。",
       "english": "I gave up my seat to an older guy on the train.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "おっさん is a contraction of おじさん (uncle/middle-aged man). It's casual and can sound slightly rude or dismissive, though it's also used humorously for self-deprecation.\n\nREGISTER:\nThis is informal/casual language. おじさん is more neutral, and {中年|ちゅうねん}{男性|だんせい} is formal.\n\nNUANCE:\n- Can be rude if used to address or describe someone you don't know well\n- Often used humorously among friends or for self-deprecation\n- The female equivalent is おばちゃん\n\nRELATED WORDS:\n- おじさん: more polite form\n- おばちゃん: middle-aged woman (casual)",
+  "notes": "おっさん is a contraction of ⟦おじさん→おじさん：00803_ojisan⟧ (uncle/middle-aged man). It's casual and can sound slightly rude or dismissive, though it's also used humorously for self-deprecation.\n\nREGISTER:\nThis is informal/casual language. ⟦おじさん→おじさん：00803_ojisan⟧ is more neutral, and ⟦{中年|ちゅうねん}→中年：11307_chuunen⟧⟦{男性|だんせい}→男性：01655_dansei⟧ is formal.\n\nUSAGE:\n- Can be rude if used to address or describe someone you don't know well\n- Often used humorously among friends or for self-deprecation\n- The female equivalent is ⟦おばちゃん→おばちゃん：10296_obachan⟧\n\nRELATED WORDS:\n- ⟦おじさん→おじさん：00803_ojisan⟧: more polite form\n- ⟦おばちゃん→おばちゃん：10296_obachan⟧: middle-aged woman (casual)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "00803_ojisan",
+      "reading": "おじさん",
+      "headword": "おじさん",
+      "label": "more polite form"
+    },
+    {
+      "type": "related",
+      "target_id": "10296_obachan",
+      "reading": "おばちゃん",
+      "headword": "おばちゃん",
+      "label": "middle-aged woman"
+    }
+  ],
   "metadata": {
     "created": "2026-02-01T07:09:37Z",
-    "modified": "2026-02-01T07:09:37Z",
+    "modified": "2026-09-02T04:01:17Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "informal",
-      "domain": ["colloquial"],
+      "domain": [
+        "colloquial"
+      ],
       "politeness": "plain",
-      "semantic": ["person"]
+      "semantic": [
+        "person"
+      ]
     }
   }
 }

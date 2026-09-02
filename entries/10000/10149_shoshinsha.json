@@ -14,30 +14,36 @@
   "examples": [
     {
       "id": "10149_shoshinsha_ex1",
-      "japanese": "{私|わたし}は{日本語|にほんご}の{初心者|しょしんしゃ}です。",
+      "japanese": "⟦{私|わたし}→私：02988_watashi⟧⟦は→は：00079_ha⟧⟦{日本語|にほんご}→日本語：00614_nihongo⟧⟦の→の：09472_no⟧{初心者|しょしんしゃ}です。",
       "english": "I am a beginner in Japanese.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10149_shoshinsha_ex2",
-      "japanese": "{初心者|しょしんしゃ}{向|む}けの{本|ほん}を{買|か}った。",
+      "japanese": "{初心者|しょしんしゃ}{向|む}け⟦の→の：09472_no⟧{本|ほん}⟦を→を：00422_wo⟧⟦{買|か}った→買う：00489_kau⟧。",
       "english": "I bought a book for beginners.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10149_shoshinsha_ex3",
-      "japanese": "このスキー{場|じょう}には{初心者|しょしんしゃ}{用|よう}のコースがある。",
+      "japanese": "⟦この→この：00962_kono⟧⟦スキー→スキー：03849_sukii⟧{場|じょう}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{初心者|しょしんしゃ}⟦{用|よう}→〜用：09842_you⟧⟦の→の：09472_no⟧⟦コース→コース：10864_koosu⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "This ski resort has courses for beginners.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "Compound of {初心|しょしん} (beginner's mind) + {者|しゃ} (person). Used for any skill, hobby, or activity.\n\nCOMMON EXPRESSIONS:\n- {初心者|しょしんしゃ}{向|む}け: for beginners, beginner-friendly\n- {初心者|しょしんしゃ}{用|よう}: for beginners (use)\n- {初心者|しょしんしゃ}コース: beginner course\n- {初心者|しょしんしゃ}マーク: beginner driver mark (green and yellow {若葉|わかば} symbol)\n\nCULTURAL NOTE:\nNew drivers in Japan must display the {初心者|しょしんしゃ}マーク for one year after getting their license.\n\nSIMILAR WORDS:\n- ビギナー: beginner (loanword, casual)\n- {素人|しろうと}: amateur, layperson (can be slightly dismissive)\n- {未経験者|みけいけんしゃ}: person without experience (formal, often in job listings)",
+  "notes": "Compound of ⟦{初心|しょしん}→初心：08656_shoshin⟧ (beginner's mind) + ⟦{者|しゃ}→〜者：04662_sha⟧ (person). Used for any skill, hobby, or activity.\n\nCOMMON EXPRESSIONS:\n- {初心者|しょしんしゃ}{向|む}け: for beginners, beginner-friendly\n- {初心者|しょしんしゃ}⟦{用|よう}→〜用：09842_you⟧: for beginners (use)\n- {初心者|しょしんしゃ}⟦コース→コース：10864_koosu⟧: beginner course\n- {初心者|しょしんしゃ}⟦マーク→マーク：09478_maaku⟧: beginner driver mark (green and yellow ⟦{若葉|わかば}→若葉：19659_wakaba⟧ symbol)\n\nCULTURAL NOTE:\nNew drivers in Japan must display the {初心者|しょしんしゃ}⟦マーク→マーク：09478_maaku⟧ for one year after getting their license.\n\nSIMILAR WORDS:\n- ビギナー: beginner (loanword, casual)\n- ⟦{素人|しろうと}→素人：04270_shirouto⟧: amateur, layperson (can be slightly dismissive)\n- ⟦{未経験者|みけいけんしゃ}→未経験者：26291_mikeikensha⟧: person without experience (formal, often in job listings)",
   "cross_references": [
     {
       "type": "related",
@@ -45,17 +51,77 @@
       "reading": "しょしん",
       "headword": "{初心|しょしん}",
       "label": "beginner's mind"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04270_shirouto",
+      "reading": "しろうと",
+      "headword": "{素人|しろうと}",
+      "label": "amateur, layperson"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26291_mikeikensha",
+      "reading": "みけいけんしゃ",
+      "headword": "{未経験者|みけいけんしゃ}",
+      "label": "person without experience"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20030_nyuumonsha",
+      "reading": "にゅうもんしゃ",
+      "headword": "{入門者|にゅうもんしゃ}",
+      "label": "beginner"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20745_shogakusha",
+      "reading": "しょがくしゃ",
+      "headword": "{初学者|しょがくしゃ}",
+      "label": "beginner"
+    },
+    {
+      "type": "antonym",
+      "target_id": "23783_jukurensha",
+      "reading": "じゅくれんしゃ",
+      "headword": "{熟練者|じゅくれんしゃ}",
+      "label": "skilled worker"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26952_mijukumono",
+      "reading": "みじゅくもの",
+      "headword": "{未熟者|みじゅくもの}",
+      "label": "inexperienced person"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27859_ruukii",
+      "reading": "るーきー",
+      "headword": "ルーキー",
+      "label": "rookie"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29204_shokyuusha",
+      "reading": "しょきゅうしゃ",
+      "headword": "{初級者|しょきゅうしゃ}",
+      "label": "beginner"
     }
   ],
   "metadata": {
     "created": "2026-02-05T11:49:02Z",
-    "modified": "2026-04-04T01:54:53Z",
+    "modified": "2026-09-02T04:01:20Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["person"]
+      "semantic": [
+        "person"
+      ]
     }
   }
 }

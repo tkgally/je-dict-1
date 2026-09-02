@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28400_nitsurete_ex1",
-      "japanese": "{年|とし}をとるにつれて、{記憶力|きおくりょく}が{落|お}ちる。",
+      "japanese": "⟦{年|とし}→年：00486_toshi⟧⟦を→を：00422_wo⟧とるにつれて、⟦{記憶力|きおくりょく}→記憶力：17616_kiokuryoku⟧⟦が→が：00051_ga⟧⟦{落|お}ちる→落ちる：01242_ochiru⟧。",
       "english": "As one gets older, memory declines.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28400_nitsurete_ex2",
-      "japanese": "{時間|じかん}が{経|た}つにつれて、{痛|いた}みが{和|やわ}らいだ。",
+      "japanese": "⟦{時間|じかん}が{経|た}つ→時間が経つ：24138_jikangatatsu⟧につれて、⟦{痛|いた}み→痛み：01795_itami⟧⟦が→が：00051_ga⟧⟦{和|やわ}らいだ→和らぐ：07896_yawaragu⟧。",
       "english": "As time passed, the pain eased.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28400_nitsurete_ex3",
-      "japanese": "{経済|けいざい}が{発展|はってん}するにつれて、{人々|ひとびと}の{生活|せいかつ}も{豊|ゆた}かになった。",
+      "japanese": "⟦{経済|けいざい}→経済：01394_keizai⟧⟦が→が：00051_ga⟧⟦{発展|はってん}する→発展する：25331_hattensuru⟧につれて、⟦{人々|ひとびと}→人々：03141_hitobito⟧⟦の→の：09472_no⟧⟦{生活|せいかつ}→生活：01443_seikatsu⟧⟦も→も：00484_mo⟧⟦{豊|ゆた}か→豊か：03654_yutaka⟧になった。",
       "english": "As the economy developed, people's lives also became more affluent.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "From the verb {連|つ}れる (to bring along) in て form, with the particle に. Treated as a fixed grammatical pattern.\n\nATTACHMENT:\n- Plain present verb: {年|とし}をとるにつれて\n- Noun: {成長|せいちょう}につれて (along with growth)\n\nThe more formal written variant is につれ (drop て).\n\nSIMILAR WORDS:\n- に{従|したが}って: as; in accordance with — more formal; can also mean 'according to (rules)'\n- とともに: along with — emphasizes simultaneity rather than proportional change\n- ほど: the more... the more — used with comparison; emphasizes degree\n\nNOTE: Both clauses must describe a change. Cannot be used with one-time events: ✗ {結婚|けっこん}するにつれて、{引|ひ}っ{越|こ}した。",
+  "notes": "From the verb ⟦{連|つ}れる→連れる：01240_tsureru⟧ (to bring along) in て form, with the particle ⟦に→に：00314_ni⟧. Treated as a fixed grammatical pattern.\n\nATTACHMENT:\n- Plain present verb: ⟦{年|とし}→年：00486_toshi⟧⟦を→を：00422_wo⟧とるにつれて\n- Noun: ⟦{成長|せいちょう}→成長：03290_seichou⟧につれて (along with growth)\n\nThe more formal written variant is ⟦に→に：00314_ni⟧つれ (drop て).\n\nSIMILAR WORDS:\n- ⟦に→に：00314_ni⟧⟦{従|したが}って→従う：02059_shitagau⟧: as; in accordance with — more formal; can also mean 'according to (rules)'\n- ⟦とともに→とともに：30485_totomoni⟧: along with — emphasizes simultaneity rather than proportional change\n- ほど: the more... the more — used with comparison; emphasizes degree\n\nNOTE: Both clauses must describe a change. Cannot be used with one-time events: ✗ ⟦{結婚|けっこん}→結婚：02514_kekkon⟧⟦する→する：00392_suru⟧につれて、⟦{引|ひ}っ{越|こ}した→引っ越す：01171_hikkosu⟧。",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "30485_totomoni",
+      "reading": "とともに",
+      "headword": "とともに",
+      "label": "along with"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +62,13 @@
         "expression"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "grammatical"
       ],
       "domain": []
     },
     "created": "2026-05-30T04:08:44Z",
-    "modified": "2026-08-08T18:34:17Z"
+    "modified": "2026-09-02T04:02:33Z"
   }
 }

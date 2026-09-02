@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "18177_gobuzaki_ex1",
-      "japanese": "{桜|さくら}はまだ{五分咲|ごぶざ}きだ。",
+      "japanese": "⟦{桜|さくら}→桜：02212_sakura⟧⟦は→は：00079_ha⟧⟦まだ→まだ：00603_mada⟧{五分咲|ごぶざ}きだ。",
       "english": "The cherry blossoms are only at half-bloom.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18177_gobuzaki_ex2",
-      "japanese": "{公園|こうえん}の{桜|さくら}が{五分咲|ごぶざ}きになったので{花見|はなみ}に{行|い}こう。",
+      "japanese": "⟦{公園|こうえん}→公園：00581_kouen⟧⟦の→の：09472_no⟧⟦{桜|さくら}→桜：02212_sakura⟧⟦が→が：00051_ga⟧{五分咲|ごぶざ}きになった⟦の→の：09472_no⟧で⟦{花見|はなみ}→花見：01700_hanami⟧⟦に→に：00314_ni⟧⟦{行|い}こう→行く：00119_iku⟧。",
       "english": "The cherry blossoms in the park have reached half-bloom, so let's go see them.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18177_gobuzaki_ex3",
-      "japanese": "{天気|てんき}{予報|よほう}によると、{今週末|こんしゅうまつ}には{五分咲|ごぶざ}きから{満開|まんかい}になる{見込|みこ}みだ。",
+      "japanese": "⟦{天気|てんき}{予報|よほう}→天気予報：01678_tenkiyohou⟧⟦によると→〜によると：03104_niyoruto⟧、⟦{今週末|こんしゅうまつ}→今週末：30306_konshuumatsu⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{五分咲|ごぶざ}き⟦から→から：00504_kara⟧⟦{満開|まんかい}→満開：13319_mankai⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦{見込|みこ}み→見込み：06872_mikomi⟧だ。",
       "english": "According to the weather forecast, it's expected to go from half-bloom to full bloom this weekend.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "BLOOMING SCALE:\nJapanese cherry blossom reports use a scale to describe bloom progress: {一分咲|いちぶざ}き (10%) → {三分咲|さんぶざ}き (30%) → {五分咲|ごぶざ}き (50%) → {七分咲|しちぶざ}き (70%) → {満開|まんかい} (full bloom) → {散|ち}り{始|はじ}め (starting to fall). This scale is widely used in cherry blossom forecasts ({桜|さくら}{前線|ぜんせん}).\n\nCOMMON COLLOCATIONS:\n- {五分咲|ごぶざ}きの{桜|さくら} (cherry blossoms at half-bloom)\n- {五分咲|ごぶざ}きを{迎|むか}える (to reach half-bloom)\n- まだ{五分咲|ごぶざ}き (still only half in bloom)",
+  "notes": "BLOOMING SCALE:\nJapanese cherry blossom reports use a scale to describe bloom progress: {一分咲|いちぶざ}き (10%) → {三分咲|さんぶざ}き (30%) → {五分咲|ごぶざ}き (50%) → {七分咲|しちぶざ}き (70%) → ⟦{満開|まんかい}→満開：13319_mankai⟧ (full bloom) → ⟦{散|ち}り→散る：02075_chiru⟧{始|はじ}め (starting to fall). This scale is widely used in cherry blossom forecasts (⟦{桜|さくら}{前線|ぜんせん}→桜前線：13124_sakurazensen⟧).\n\nCOMMON COLLOCATIONS:\n- {五分咲|ごぶざ}き⟦の→の：09472_no⟧⟦{桜|さくら}→桜：02212_sakura⟧ (cherry blossoms at half-bloom)\n- {五分咲|ごぶざ}き⟦を→を：00422_wo⟧⟦{迎|むか}える→迎える：01193_mukaeru⟧ (to reach half-bloom)\n- ⟦まだ→まだ：00603_mada⟧{五分咲|ごぶざ}き (still only half in bloom)",
   "cross_references": [
     {
       "type": "related",
@@ -50,14 +56,19 @@
   ],
   "metadata": {
     "created": "2026-03-20T09:01:18Z",
-    "modified": "2026-05-08T06:14:38Z",
+    "modified": "2026-09-02T04:01:51Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["plant-flower", "time-season"]
+      "semantic": [
+        "plant-flower",
+        "time-season"
+      ]
     }
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26502_manryou_ex1",
-      "japanese": "{薬|くすり}は{満量|まんりょう}まで{増|ふ}やした。",
+      "japanese": "⟦{薬|くすり}→薬：00793_kusuri⟧⟦は→は：00079_ha⟧{満量|まんりょう}⟦まで→まで：00490_made⟧⟦{増|ふ}やした→増やす：02410_fuyasu⟧。",
       "english": "The medication was increased to the full dose.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26502_manryou_ex2",
-      "japanese": "タンクに{満量|まんりょう}の{燃料|ねんりょう}を{入|い}れてください。",
+      "japanese": "⟦タンク→タンク：23095_tanku⟧⟦に→に：00314_ni⟧{満量|まんりょう}⟦の→の：09472_no⟧⟦{燃料|ねんりょう}→燃料：13461_nenryou⟧⟦を→を：00422_wo⟧⟦{入|い}れて→入れる：01098_ireru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please fill the tank to full capacity with fuel.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26502_manryou_ex3",
-      "japanese": "{一日|いちにち}の{満量|まんりょう}を{超|こ}えて{服用|ふくよう}すると{副作用|ふくさよう}のリスクが{高|たか}まる。",
+      "japanese": "⟦{一日|いちにち}→一日：00942_ichinichi⟧⟦の→の：09472_no⟧{満量|まんりょう}⟦を→を：00422_wo⟧⟦{超|こ}えて→超える：01942_koeru⟧⟦{服用|ふくよう}する→服用する：21605_fukuyousuru⟧⟦と→と：00512_to⟧⟦{副作用|ふくさよう}→副作用：05015_fukusayou⟧⟦の→の：09472_no⟧⟦リスク→リスク：06752_risuku⟧⟦が→が：00051_ga⟧⟦{高|たか}まる→高まる：02066_takamaru⟧。",
       "english": "Taking more than the maximum daily dose increases the risk of side effects.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {満|まん} (full, filled) and {量|りょう} (quantity, amount). Most commonly encountered in pharmaceutical contexts where dosage limits are specified, but also used for fuel tanks, containers, and other measurable quantities.\n\nCOMMON COLLOCATIONS:\n- {満量|まんりょう}{処方|しょほう}: full-dose prescription\n- {一日|いちにち}{満量|まんりょう}: maximum daily dose\n- {満量|まんりょう}まで{増|ふ}やす: to increase to the full dose\n\nSIMILAR WORDS:\n- {最大量|さいだいりょう}: maximum amount — more general and less technical\n- {上限量|じょうげんりょう}: upper limit amount — emphasizes the ceiling rather than the full amount\n- {適量|てきりょう}: appropriate amount — the right amount, not necessarily the maximum\n\nNOTE ON HOMOPHONES:\nNot to be confused with {満了|まんりょう} (expiration, completion of a term), which shares the same reading but different kanji and meaning.",
+  "notes": "Composed of {満|まん} (full, filled) and ⟦{量|りょう}→量：03799_ryou⟧ (quantity, amount). Most commonly encountered in pharmaceutical contexts where dosage limits are specified, but also used for fuel tanks, containers, and other measurable quantities.\n\nCOMMON COLLOCATIONS:\n- {満量|まんりょう}⟦{処方|しょほう}→処方：05976_shohou⟧: full-dose prescription\n- ⟦{一日|いちにち}→一日：00942_ichinichi⟧{満量|まんりょう}: maximum daily dose\n- {満量|まんりょう}⟦まで→まで：00490_made⟧⟦{増|ふ}やす→増やす：02410_fuyasu⟧: to increase to the full dose\n\nSIMILAR WORDS:\n- {最大量|さいだいりょう}: maximum amount — more general and less technical\n- {上限量|じょうげんりょう}: upper limit amount — emphasizes the ceiling rather than the full amount\n- ⟦{適量|てきりょう}→適量：14383_tekiryou⟧: appropriate amount — the right amount, not necessarily the maximum\n\nNOTE ON HOMOPHONES:\nNot to be confused with ⟦{満了|まんりょう}→満了：13357_manryou⟧ (expiration, completion of a term), which shares the same reading but different kanji and meaning.",
   "cross_references": [
     {
       "entry_id": "13357_manryou",
@@ -53,6 +53,13 @@
       "type": "homophone",
       "relationship": "homophone",
       "target_id": "13357_manryou"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14383_tekiryou",
+      "reading": "てきりょう",
+      "headword": "{適量|てきりょう}",
+      "label": "appropriate amount"
     }
   ],
   "schema_version": "2.0",
@@ -72,6 +79,6 @@
       ]
     },
     "created": "2026-05-02T13:32:34Z",
-    "modified": "2026-06-17T16:27:18Z"
+    "modified": "2026-09-02T04:02:26Z"
   }
 }

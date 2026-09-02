@@ -2,7 +2,7 @@
   "id": "04822_herahera",
   "headword": "へらへら",
   "reading": "へらへら",
-  "part_of_speech": "adverb, verb (suru)",
+  "part_of_speech": "adverb, suru verb",
   "gloss": "grinning foolishly",
   "conjugation": {
     "type": "suru",
@@ -114,7 +114,7 @@
     },
     {
       "id": "04822_herahera_ex2",
-      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦いつも→いつも：00599_itsumo⟧へらへらしている。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦いつも→いつも：00599_itsumo⟧へらへら⟦している→する：00392_suru⟧。",
       "english": "He's always acting frivolously.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "04822_herahera_ex3",
-      "japanese": "へらへらした⟦{態度|たいど}→態度：03396_taido⟧⟦が→が：00051_ga⟧⟦{気|き}に{入|い}らない→気に入る：02047_kiniiru⟧。",
+      "japanese": "へらへら⟦した→する：00392_suru⟧⟦{態度|たいど}→態度：03396_taido⟧⟦が→が：00051_ga⟧⟦{気|き}に{入|い}らない→気に入る：02047_kiniiru⟧。",
       "english": "I don't like his frivolous attitude.",
       "notes": null,
       "has_audio": false,
@@ -144,7 +144,7 @@
     },
     {
       "id": "04822_herahera_ex5",
-      "japanese": "⟦{大事|だいじ}→大事：01253_daiji⟧⟦な→な：09497_na⟧⟦{話|はなし}→話：01496_hanashi⟧⟦を→を：00422_wo⟧⟦している→する：00392_suru⟧⟦のに→のに：10529_noni⟧、へらへらしていて⟦{腹|はら}が{立|た}った→腹が立つ：06886_haragatatsu⟧。",
+      "japanese": "⟦{大事|だいじ}→大事：01253_daiji⟧⟦な→な：09497_na⟧⟦{話|はなし}→話：01496_hanashi⟧⟦を→を：00422_wo⟧⟦している→する：00392_suru⟧⟦のに→のに：10529_noni⟧、へらへら⟦していて→する：00392_suru⟧⟦{腹|はら}が{立|た}った→腹が立つ：06886_haragatatsu⟧。",
       "english": "I was angry that he was being frivolous while we were having an important conversation.",
       "notes": null,
       "has_audio": false,
@@ -153,10 +153,33 @@
       ]
     }
   ],
-  "notes": "へらへら is an onomatopoeic expression describing an insincere, foolish, or inappropriate smile/laugh.\n\nCONNOTATION:\nGenerally negative—suggests lack of seriousness or inappropriate frivolity.\n\nCOMMON PATTERNS:\n- へらへら⟦{笑|わら}う→笑う：00685_warau⟧: to grin/laugh foolishly\n- へらへらする: to act frivolously\n- へらへらした⟦{態度|たいど}→態度：03396_taido⟧: frivolous attitude\n\nCONTRAST:\n- ⟦にこにこ→にこにこ：05177_nikoniko⟧: pleasant, genuine smile (positive)\n- ⟦にやにや→にやにや：05766_niyaniya⟧: smirk, grin (often negative)\n- ⟦げらげら→げらげら：05768_geragera⟧: loud laughter",
+  "notes": "へらへら is an onomatopoeic expression describing an insincere, foolish, or inappropriate smile/laugh.\n\nCONNOTATION:\nGenerally negative—suggests lack of seriousness or inappropriate frivolity.\n\nCOMMON PATTERNS:\n- へらへら⟦{笑|わら}う→笑う：00685_warau⟧: to grin/laugh foolishly\n- へらへら⟦する→する：00392_suru⟧: to act frivolously\n- へらへら⟦した→する：00392_suru⟧⟦{態度|たいど}→態度：03396_taido⟧: frivolous attitude\n\nSIMILAR WORDS:\n- ⟦にこにこ→にこにこ：05177_nikoniko⟧: pleasant, genuine smile (positive)\n- ⟦にやにや→にやにや：05766_niyaniya⟧: smirk, grin (often negative)\n- ⟦げらげら→げらげら：05768_geragera⟧: loud laughter",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05177_nikoniko",
+      "reading": "にこにこ",
+      "headword": "にこにこ",
+      "label": "pleasant, genuine smile"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05766_niyaniya",
+      "reading": "にやにや",
+      "headword": "にやにや",
+      "label": "smirk, grin"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05768_geragera",
+      "reading": "げらげら",
+      "headword": "げらげら",
+      "label": "loud laughter"
+    }
+  ],
   "metadata": {
     "created": "2026-01-15T23:56:51Z",
-    "modified": "2026-06-02T19:09:39Z",
+    "modified": "2026-09-02T04:01:05Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
@@ -170,7 +193,8 @@
         "action",
         "descriptive"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

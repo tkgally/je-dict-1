@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22662_endan_ex1",
-      "japanese": "{演壇|えんだん}に{立|た}つ。",
+      "japanese": "{演壇|えんだん}⟦に→に：00314_ni⟧⟦{立|た}つ→立つ：00758_tatsu⟧。",
       "english": "To stand at the podium.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22662_endan_ex2",
-      "japanese": "{議長|ぎちょう}が{演壇|えんだん}から{挨拶|あいさつ}を{述|の}べた。",
+      "japanese": "⟦{議長|ぎちょう}→議長：02681_gichou⟧⟦が→が：00051_ga⟧{演壇|えんだん}⟦から→から：00504_kara⟧⟦{挨拶|あいさつ}→挨拶：02505_aisatsu⟧⟦を→を：00422_wo⟧⟦{述|の}べた→述べる：02389_noberu⟧。",
       "english": "The chairperson gave a greeting from the podium.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22662_endan_ex3",
-      "japanese": "{緊張|きんちょう}しながら{演壇|えんだん}に{上|あ}がったが、{話|はな}し{始|はじ}めると{落|お}ち{着|つ}いてきた。",
+      "japanese": "⟦{緊張|きんちょう}→緊張：02494_kinchou⟧し⟦ながら→ながら：10530_nagara⟧{演壇|えんだん}⟦に→に：00314_ni⟧⟦{上|あ}がった→上がる：00615_agaru⟧⟦が→が：00051_ga⟧、⟦{話|はな}し→話す：00467_hanasu⟧{始|はじ}める⟦と→と：00512_to⟧⟦{落|お}ち{着|つ}いて→落ち着く：04670_ochitsuku⟧きた。",
       "english": "I nervously stepped up to the podium, but once I started speaking I calmed down.",
       "sense_numbers": [
         1
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {演|えん} (perform/speech) and {壇|だん} (platform/stage). Refers to the raised area or stand where a speaker addresses an audience.\n\nCOMMON COLLOCATIONS:\n- {演壇|えんだん}に{立|た}つ: to stand at the podium\n- {演壇|えんだん}に{上|あ}がる: to go up to the podium\n- {演壇|えんだん}から{降|お}りる: to step down from the podium\n- {演壇|えんだん}で{演説|えんぜつ}する: to give a speech at the podium\n\nSIMILAR WORDS:\n- {壇上|だんじょう}: on the stage/platform — refers to the area itself rather than the specific speaking stand\n- {講壇|こうだん}: lecture platform — specifically for academic lectures\n- {縁談|えんだん}: marriage proposal — a homophone with an unrelated meaning",
+  "notes": "A compound of {演|えん} (perform/speech) and ⟦{壇|だん}→壇：23016_dan⟧ (platform/stage). Refers to the raised area or stand where a speaker addresses an audience.\n\nCOMMON COLLOCATIONS:\n- {演壇|えんだん}⟦に→に：00314_ni⟧⟦{立|た}つ→立つ：00758_tatsu⟧: to stand at the podium\n- {演壇|えんだん}⟦に→に：00314_ni⟧⟦{上|あ}がる→上がる：00615_agaru⟧: to go up to the podium\n- {演壇|えんだん}⟦から→から：00504_kara⟧⟦{降|お}りる→降りる：00568_oriru⟧: to step down from the podium\n- {演壇|えんだん}⟦で→で：00502_de⟧⟦{演説|えんぜつ}→演説：01894_enzetsu⟧⟦する→する：00392_suru⟧: to give a speech at the podium\n\nSIMILAR WORDS:\n- ⟦{壇上|だんじょう}→壇上：21719_danjou⟧: on the stage/platform — refers to the area itself rather than the specific speaking stand\n- ⟦{講壇|こうだん}→講壇：24169_koudan⟧: lecture platform — specifically for academic lectures\n- ⟦{縁談|えんだん}→縁談：13847_endan⟧: marriage proposal — a homophone with an unrelated meaning",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21719_danjou",
+      "reading": "だんじょう",
+      "headword": "{壇上|だんじょう}",
+      "label": "on the stage/platform"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24169_koudan",
+      "reading": "こうだん",
+      "headword": "{講壇|こうだん}",
+      "label": "lecture platform"
+    },
+    {
+      "type": "homophone",
+      "target_id": "13847_endan",
+      "reading": "えんだん",
+      "headword": "{縁談|えんだん}",
+      "label": "marriage proposal"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26423_shikidai",
+      "reading": "しきだい",
+      "headword": "{指揮|しき}{台|だい}",
+      "label": "conductor's podium"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -56,9 +86,9 @@
         "furniture"
       ],
       "formality": "formal",
-      "politeness": null
+      "politeness": "plain"
     },
     "created": "2026-04-06T21:27:37Z",
-    "modified": "2026-08-01T06:42:57Z"
+    "modified": "2026-09-02T04:02:09Z"
   }
 }

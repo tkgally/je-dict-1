@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29423_hosoudouro_ex1",
-      "japanese": "{舗装道路|ほそうどうろ}を{走|はし}る。",
+      "japanese": "{舗装道路|ほそうどうろ}⟦を→を：00422_wo⟧⟦{走|はし}る→走る：00519_hashiru⟧。",
       "english": "to drive on a paved road",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29423_hosoudouro_ex2",
-      "japanese": "{村|むら}まで{舗装道路|ほそうどうろ}が{通|とお}っている。",
+      "japanese": "⟦{村|むら}→村：02261_mura⟧⟦まで→まで：00490_made⟧{舗装道路|ほそうどうろ}⟦が→が：00051_ga⟧⟦{通|とお}っている→通る：01243_tooru⟧。",
       "english": "A paved road runs all the way to the village.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29423_hosoudouro_ex3",
-      "japanese": "{舗装道路|ほそうどうろ}が{終|お}わると、でこぼこの{砂利道|じゃりみち}になった。",
+      "japanese": "{舗装道路|ほそうどうろ}⟦が→が：00051_ga⟧{終|お}わる⟦と→と：00512_to⟧、でこぼこ⟦の→の：09472_no⟧⟦{砂利道|じゃりみち}→砂利道：16083_jarimichi⟧になった。",
       "english": "Where the paved road ended, it became a bumpy gravel road.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "A road with a paved surface. Built from {舗装|ほそう} (paving) and {道路|どうろ} (road).\n\nCOMMON COLLOCATIONS:\n- {舗装道路|ほそうどうろ}を{走|はし}る: to travel on a paved road\n- {舗装道路|ほそうどうろ}が{整備|せいび}される: for paved roads to be developed\n\nSIMILAR WORDS:\n- {未舗装|みほそう}{道路|どうろ}: unpaved road\n- {砂利道|じゃりみち}: gravel road",
+  "notes": "A road with a paved surface. Built from ⟦{舗装|ほそう}→舗装：08397_hosou⟧ (paving) and ⟦{道路|どうろ}→道路：01481_douro⟧ (road).\n\nCOMMON COLLOCATIONS:\n- {舗装道路|ほそうどうろ}⟦を→を：00422_wo⟧⟦{走|はし}る→走る：00519_hashiru⟧: to travel on a paved road\n- {舗装道路|ほそうどうろ}⟦が→が：00051_ga⟧⟦{整備|せいび}される→整備する：17849_seibisuru⟧: for paved roads to be developed\n\nSIMILAR WORDS:\n- {未舗装|みほそう}{道路|どうろ}: unpaved road\n- ⟦{砂利道|じゃりみち}→砂利道：16083_jarimichi⟧: gravel road",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16083_jarimichi",
+      "reading": "じゃりみち",
+      "headword": "{砂利|じゃり}{道|みち}",
+      "label": "gravel road"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +62,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "transportation"
       ],
       "domain": []
     },
     "created": "2026-06-22T15:18:50Z",
-    "modified": "2026-06-22T15:18:50Z"
+    "modified": "2026-09-02T04:02:36Z"
   }
 }

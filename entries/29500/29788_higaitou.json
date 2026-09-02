@@ -15,41 +15,69 @@
   "examples": [
     {
       "id": "29788_higaitou_ex1",
-      "japanese": "{該当|がいとう}しない{項目|こうもく}は{非該当|ひがいとう}と{記入|きにゅう}する。",
+      "japanese": "⟦{該当|がいとう}しない→該当する：29179_gaitousuru⟧⟦{項目|こうもく}→項目：04150_koumoku⟧⟦は→は：00079_ha⟧{非該当|ひがいとう}⟦と→と：00512_to⟧⟦{記入|きにゅう}→記入：02624_kinyuu⟧⟦する→する：00392_suru⟧。",
       "english": "For items that do not apply, write \"not applicable.\"",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29788_higaitou_ex2",
-      "japanese": "{今回|こんかい}のケースは{規定|きてい}に{非該当|ひがいとう}だ。",
+      "japanese": "⟦{今回|こんかい}→今回：01409_konkai⟧⟦の→の：09472_no⟧⟦ケース→ケース：03841_keesu⟧⟦は→は：00079_ha⟧⟦{規定|きてい}→規定：14136_kitei⟧⟦に→に：00314_ni⟧{非該当|ひがいとう}だ。",
       "english": "This case does not fall under the regulations.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29788_higaitou_ex3",
-      "japanese": "{審査|しんさ}の{結果|けっか}、{申請|しんせい}は{補助金|ほじょきん}の{対象|たいしょう}に{非該当|ひがいとう}と{判断|はんだん}された。",
+      "japanese": "⟦{審査|しんさ}→審査：08375_shinsa⟧⟦の→の：09472_no⟧⟦{結果|けっか}→結果：02486_kekka⟧、⟦{申請|しんせい}→申請：04207_shinsei⟧⟦は→は：00079_ha⟧⟦{補助金|ほじょきん}→補助金：19222_hojokin⟧⟦の→の：09472_no⟧⟦{対象|たいしょう}→対象：03393_taishou⟧⟦に→に：00314_ni⟧{非該当|ひがいとう}⟦と→と：00512_to⟧⟦{判断|はんだん}→判断：03571_handan⟧⟦された→する：00392_suru⟧。",
       "english": "As a result of the review, the application was judged not eligible for the subsidy.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Formed from the negative prefix {非|ひ} + {該当|がいとう} (falling under; applying). Appears mainly on forms and in administrative or legal writing.\n\nCOMMON COLLOCATIONS:\n- {非該当|ひがいとう}とする: to treat as not applicable\n- {非該当|ひがいとう}と{判断|はんだん}する: to judge as not applicable\n- {対象|たいしょう}に{非該当|ひがいとう}: not covered (by the criteria)\n\nSIMILAR WORDS:\n- {該当|がいとう}: applying; falling under — the affirmative counterpart.\n- {対象外|たいしょうがい}: outside the scope; excluded — close in meaning, more common in everyday use.",
+  "notes": "Formed from the negative prefix ⟦{非|ひ}→非：28419_hi⟧ + ⟦{該当|がいとう}→該当：14177_gaitou⟧ (falling under; applying). Appears mainly on forms and in administrative or legal writing.\n\nCOMMON COLLOCATIONS:\n- {非該当|ひがいとう}⟦と→と：00512_to⟧⟦する→する：00392_suru⟧: to treat as not applicable\n- {非該当|ひがいとう}⟦と→と：00512_to⟧⟦{判断|はんだん}する→判断する：06062_handansuru⟧: to judge as not applicable\n- ⟦{対象|たいしょう}→対象：03393_taishou⟧⟦に→に：00314_ni⟧{非該当|ひがいとう}: not covered (by the criteria)\n\nSIMILAR WORDS:\n- ⟦{該当|がいとう}→該当：14177_gaitou⟧: applying; falling under — the affirmative counterpart.\n- ⟦{対象外|たいしょうがい}→対象外：10019_taishougai⟧: outside the scope; excluded — close in meaning, more common in everyday use.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "10019_taishougai",
+      "reading": "たいしょうがい",
+      "headword": "{対象外|たいしょうがい}",
+      "label": "outside the scope"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23637_fugaitou",
+      "reading": "ふがいとう",
+      "headword": "{不該当|ふがいとう}",
+      "label": "not applicable"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
-      "politeness": null,
-      "semantic": ["abstract"],
-      "domain": ["business"]
+      "politeness": "plain",
+      "semantic": [
+        "abstract"
+      ],
+      "domain": [
+        "business"
+      ]
     },
     "created": "2026-07-11T21:17:16Z",
-    "modified": "2026-07-11T21:17:16Z"
+    "modified": "2026-09-02T04:02:37Z"
   }
 }

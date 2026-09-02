@@ -19,41 +19,59 @@
   "examples": [
     {
       "id": "09841_go_ex1",
-      "japanese": "{日本語|にほんご}を{勉強|べんきょう}する。",
+      "japanese": "⟦{日本語|にほんご}→日本語：00614_nihongo⟧⟦を→を：00422_wo⟧⟦{勉強|べんきょう}する→勉強する：00527_benkyousuru⟧。",
       "english": "I study Japanese.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09841_go_ex2",
-      "japanese": "{重要|じゅうよう}な{語|ご}に{下線|かせん}を{引|ひ}いてください。",
+      "japanese": "⟦{重要|じゅうよう}→重要：01575_juuyou⟧な{語|ご}⟦に→に：00314_ni⟧⟦{下線|かせん}→下線：00190_kasen⟧⟦を→を：00422_wo⟧⟦{引|ひ}いて→引く：01978_hiku⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please underline the important words.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "09841_go_ex3",
-      "japanese": "{括弧|かっこ}{内|ない}の{語|ご}を{使|つか}って{文|ぶん}を{作|つく}りなさい。",
+      "japanese": "⟦{括弧|かっこ}→括弧：00151_kakko⟧⟦{内|ない}→〜内：09853_nai⟧⟦の→の：09472_no⟧{語|ご}⟦を→を：00422_wo⟧⟦{使|つか}って→使う：00473_tsukau⟧⟦{文|ぶん}→文：03716_bun⟧⟦を→を：00422_wo⟧⟦{作|つく}り→作る：00481_tsukuru⟧⟦なさい→なさる：01307_nasaru⟧。",
       "english": "Make sentences using the words in parentheses.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
-  "notes": "〜{語|ご} is a highly productive suffix with two main meanings: \"language\" (attached to country/region names) and \"word/term\" (in academic and grammatical compounds).\n\nLANGUAGE NAMES:\n- {日本語|にほんご}: Japanese\n- {英語|えいご}: English\n- {中国語|ちゅうごくご}: Chinese\n- {韓国語|かんこくご}: Korean\n- フランス{語|ご}: French\n- {外国語|がいこくご}: foreign language\n\nWORD/TERM COMPOUNDS:\n- {単語|たんご}: vocabulary word\n- {敬語|けいご}: honorific language\n- {主語|しゅご}: subject (grammar)\n- {述語|じゅつご}: predicate (grammar)\n- {用語|ようご}: terminology\n\nUSAGE:\nFor language names, attach 〜{語|ご} to the country or region name. Note that some languages use {語|ご} while others use different patterns: {手話|しゅわ} (sign language) does not use 〜{語|ご}. When {語|ご} means \"word,\" it is primarily found in written or academic contexts.",
-  "cross_references": [],
+  "notes": "〜{語|ご} is a highly productive suffix with two main meanings: \"language\" (attached to country/region names) and \"word/term\" (in academic and grammatical compounds).\n\nLANGUAGE NAMES:\n- ⟦{日本語|にほんご}→日本語：00614_nihongo⟧: Japanese\n- ⟦{英語|えいご}→英語：02274_eigo⟧: English\n- ⟦{中国語|ちゅうごくご}→中国語：10966_chuugokugo⟧: Chinese\n- ⟦{韓国語|かんこくご}→韓国語：25419_kankokugo⟧: Korean\n- ⟦フランス{語|ご}→フランス語：24509_furansugo⟧: French\n- ⟦{外国語|がいこくご}→外国語：03023_gaikokugo⟧: foreign language\n\nWORD/TERM COMPOUNDS:\n- ⟦{単語|たんご}→単語：03413_tango⟧: vocabulary word\n- ⟦{敬語|けいご}→敬語：04022_keigo⟧: honorific language\n- ⟦{主語|しゅご}→主語：00377_shugo⟧: subject (grammar)\n- ⟦{述語|じゅつご}→述語：04274_jutsugo⟧: predicate (grammar)\n- ⟦{用語|ようご}→用語：04086_yougo⟧: terminology\n\nUSAGE:\nFor language names, attach 〜{語|ご} to the country or region name. Note that some languages use {語|ご} while others use different patterns: {手話|しゅわ} (sign language) does not use 〜{語|ご}. When {語|ご} means \"word,\" it is primarily found in written or academic contexts.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02880_kotoba",
+      "reading": "ことば",
+      "headword": "{言葉|ことば}",
+      "label": "word, language, expression"
+    }
+  ],
   "metadata": {
     "created": "2026-02-04T01:44:31Z",
-    "modified": "2026-03-28T04:11:43Z",
+    "modified": "2026-09-02T04:01:19Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["suffix"],
+      "pos": [
+        "suffix"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["communication"]
+      "semantic": [
+        "communication"
+      ]
     }
   }
 }

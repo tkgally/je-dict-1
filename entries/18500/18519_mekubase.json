@@ -3,7 +3,7 @@
   "headword": "{目配|めくば}せ",
   "reading": "めくばせ",
   "romaji": "mekubase",
-  "part_of_speech": "noun / verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "meaningful glance; eye signal; wink",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "18519_mekubase_ex1",
-      "japanese": "{彼|かれ}に{目配|めくば}せをした。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦に→に：00314_ni⟧{目配|めくば}せ⟦を→を：00422_wo⟧⟦した→する：00392_suru⟧。",
       "english": "I gave him a meaningful glance.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "18519_mekubase_ex2",
-      "japanese": "{母|はは}が{目配|めくば}せで「{黙|だま}って」と{合図|あいず}した。",
+      "japanese": "⟦{母|はは}→母：00549_haha⟧⟦が→が：00051_ga⟧{目配|めくば}せ⟦で→で：00502_de⟧「⟦{黙|だま}って→黙る：02287_damaru⟧」⟦と→と：00512_to⟧⟦{合図|あいず}→合図：01675_aizu⟧⟦した→する：00392_suru⟧。",
       "english": "My mother signaled 'be quiet' with a glance.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "18519_mekubase_ex3",
-      "japanese": "{二人|ふたり}は{互|たが}いに{目配|めくば}せをして、{同時|どうじ}に{部屋|へや}を{出|で}た。",
+      "japanese": "⟦{二人|ふたり}→二人：00622_futari⟧⟦は→は：00079_ha⟧⟦{互|たが}い→互い：03402_tagai⟧⟦に→に：00314_ni⟧{目配|めくば}せ⟦を→を：00422_wo⟧⟦して→する：00392_suru⟧、⟦{同時|どうじ}→同時：01592_douji⟧⟦に→に：00314_ni⟧⟦{部屋|へや}→部屋：00507_heya⟧⟦を→を：00422_wo⟧⟦{出|で}た→出る：00513_deru⟧。",
       "english": "The two exchanged a look and left the room at the same time.",
       "sense_numbers": [
         1
@@ -134,8 +134,24 @@
       "notes": null
     }
   ],
-  "notes": "{目配|めくば}せ refers to a silent signal made with one's eyes — a meaningful glance or wink to communicate without words.\n\nUSAGE:\n- {目配|めくば}せする: to signal with one's eyes\n- {目配|めくば}せをする: (same, with を)\n- 〜に{目配|めくば}せする: to give someone a meaningful look\n\nCOMMON CONTEXTS:\nUsed when people secretly communicate — to signal \"let's go,\" \"be quiet,\" or \"watch out\" without speaking. Common in narratives, drama, and descriptions of social situations.\n\nDO NOT CONFUSE:\n- {目配|めくば}せ: eye signal (communicating a message)\n- {目配|めくば}り: keeping watch, being attentive (monitoring a situation)\nThese look similar but have different meanings.\n\nSIMILAR EXPRESSIONS:\n- {目|め}で{合図|あいず}する: to signal with one's eyes\n- アイコンタクト: eye contact",
+  "notes": "{目配|めくば}せ refers to a silent signal made with one's eyes — a meaningful glance or wink to communicate without words.\n\nUSAGE:\n- {目配|めくば}せ⟦する→する：00392_suru⟧: to signal with one's eyes\n- {目配|めくば}せ⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧: (same, with ⟦を→を：00422_wo⟧)\n- 〜⟦に→に：00314_ni⟧{目配|めくば}せ⟦する→する：00392_suru⟧: to give someone a meaningful look\nUsed when people secretly communicate — to signal \"let's go,\" \"be quiet,\" or \"watch out\" without speaking. Common in narratives, drama, and descriptions of social situations.\n\nWATCH OUT:\n- {目配|めくば}せ: eye signal (communicating a message)\n- ⟦{目配|めくば}り→目配り：07298_mekubari⟧: keeping watch, being attentive (monitoring a situation)\nThese look similar but have different meanings.\n\nSIMILAR WORDS:\n- ⟦{目|め}→目：00525_me⟧⟦で→で：00502_de⟧⟦{合図|あいず}→合図：01675_aizu⟧⟦する→する：00392_suru⟧: to signal with one's eyes\n- アイコンタクト: eye contact",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21313_aizuwookuru",
+      "reading": "あいずをおくる",
+      "headword": "{合図|あいず}を{送|おく}る",
+      "label": "to give a signal"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24408_winku",
+      "reading": "うぃんく",
+      "headword": "ウィンク",
+      "label": "wink"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -151,6 +167,6 @@
       "verb_class": "suru"
     },
     "created": "2026-03-22T04:40:19Z",
-    "modified": "2026-05-08T10:08:08Z"
+    "modified": "2026-09-02T04:01:52Z"
   }
 }

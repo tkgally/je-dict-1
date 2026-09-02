@@ -15,40 +15,59 @@
   "examples": [
     {
       "id": "19954_kishakaiken_ex1",
-      "japanese": "{記者会見|きしゃかいけん}を{開|ひら}く。",
+      "japanese": "{記者会見|きしゃかいけん}⟦を→を：00422_wo⟧⟦{開|ひら}く→開く：01979_hiraku⟧。",
       "english": "To hold a press conference.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19954_kishakaiken_ex2",
-      "japanese": "{首相|しゅしょう}が{記者会見|きしゃかいけん}で{声明|せいめい}を{発表|はっぴょう}した。",
+      "japanese": "⟦{首相|しゅしょう}→首相：03217_shushou⟧⟦が→が：00051_ga⟧{記者会見|きしゃかいけん}⟦で→で：00502_de⟧⟦{声明|せいめい}→声明：03763_seimei⟧⟦を→を：00422_wo⟧⟦{発表|はっぴょう}した→発表する：25231_happyousuru⟧。",
       "english": "The prime minister issued a statement at the press conference.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19954_kishakaiken_ex3",
-      "japanese": "{緊急|きんきゅう}{記者会見|きしゃかいけん}が{夜|よる}{遅|おそ}くに{行|おこな}われた。",
+      "japanese": "⟦{緊急|きんきゅう}→緊急：11327_kinkyuu⟧{記者会見|きしゃかいけん}⟦が→が：00051_ga⟧⟦{夜|よる}→夜：00487_yoru⟧⟦{遅|おそ}く→遅い：00533_osoi⟧⟦に→に：00314_ni⟧⟦{行|おこな}われた→行う：01238_okonau⟧。",
       "english": "An emergency press conference was held late at night.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {記者|きしゃ} (journalist, reporter) + {会見|かいけん} (meeting, interview). One of the most common terms encountered in news media.\n\nCOMMON COLLOCATIONS:\n- {記者会見|きしゃかいけん}を{開|ひら}く: to hold a press conference\n- {記者会見|きしゃかいけん}を{行|おこな}う: to conduct a press conference\n- {記者会見|きしゃかいけん}に{出席|しゅっせき}する: to attend a press conference\n- {緊急|きんきゅう}{記者会見|きしゃかいけん}: emergency press conference\n- {共同|きょうどう}{記者会見|きしゃかいけん}: joint press conference\n\nSIMILAR WORDS:\n- {会見|かいけん}: meeting or interview (broader; can be a private meeting, not just with press)\n- {記者|きしゃ}{発表|はっぴょう}: press release or press announcement (often one-directional, without Q&A)",
+  "notes": "Composed of ⟦{記者|きしゃ}→記者：14170_kisha⟧ (journalist, reporter) + ⟦{会見|かいけん}→会見：11447_kaiken⟧ (meeting, interview). One of the most common terms encountered in news media.\n\nCOMMON COLLOCATIONS:\n- {記者会見|きしゃかいけん}⟦を→を：00422_wo⟧⟦{開|ひら}く→開く：01979_hiraku⟧: to hold a press conference\n- {記者会見|きしゃかいけん}⟦を→を：00422_wo⟧⟦{行|おこな}う→行う：01238_okonau⟧: to conduct a press conference\n- {記者会見|きしゃかいけん}⟦に→に：00314_ni⟧⟦{出席|しゅっせき}する→出席する：01830_shussekisuru⟧: to attend a press conference\n- ⟦{緊急|きんきゅう}→緊急：11327_kinkyuu⟧{記者会見|きしゃかいけん}: emergency press conference\n- ⟦{共同|きょうどう}→共同：02591_kyoudou⟧{記者会見|きしゃかいけん}: joint press conference\n\nSIMILAR WORDS:\n- ⟦{会見|かいけん}→会見：11447_kaiken⟧: meeting or interview (broader; can be a private meeting, not just with press)\n- ⟦{記者|きしゃ}→記者：14170_kisha⟧⟦{発表|はっぴょう}→発表：03562_happyou⟧: press release or press announcement (often one-directional, without Q&A)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "30557_kishadan",
+      "reading": "きしゃだん",
+      "headword": "{記者団|きしゃだん}",
+      "label": "the press corps"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["media"]
+      "semantic": [
+        "media"
+      ]
     },
     "created": "2026-03-27T07:16:46Z",
-    "modified": "2026-03-27T07:16:46Z"
+    "modified": "2026-09-02T04:01:57Z"
   }
 }

@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "14215_gogen_ex1",
-      "japanese": "この{言葉|ことば}の{語源|ごげん}は{何|なん}ですか。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{言葉|ことば}→言葉：02880_kotoba⟧⟦の→の：09472_no⟧{語源|ごげん}⟦は→は：00079_ha⟧⟦{何|なん}→何〜：03100_nan⟧です⟦か→か：09473_ka⟧。",
       "english": "What is the etymology of this word?",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14215_gogen_ex2",
-      "japanese": "「サボる」の{語源|ごげん}はフランス{語|ご}だと{言|い}われている。",
+      "japanese": "「サボる」⟦の→の：09472_no⟧{語源|ごげん}⟦は→は：00079_ha⟧⟦フランス{語|ご}→フランス語：24509_furansugo⟧だ⟦と→と：00512_to⟧⟦{言|い}われている→言う：00515_iu⟧。",
       "english": "The word 'saboru' is said to have its origin in French.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14215_gogen_ex3",
-      "japanese": "{語源|ごげん}をたどると、{意外|いがい}な{歴史|れきし}が{見|み}えてくることがある。",
+      "japanese": "{語源|ごげん}⟦を→を：00422_wo⟧たどる⟦と→と：00512_to⟧、⟦{意外|いがい}→意外：12741_igai⟧な⟦{歴史|れきし}→歴史：02267_rekishi⟧⟦が→が：00051_ga⟧⟦{見|み}えて→見える：01165_mieru⟧くること⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "When you trace a word's etymology, you can sometimes discover surprising history.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\n{語源|ごげん} is used both in academic linguistics and casual conversation about word origins. Japanese people are often interested in the origins of everyday words, so this term appears frequently in quiz shows, books, and online articles.\n\nCOMMON COLLOCATIONS:\n- {語源|ごげん}をたどる: to trace the etymology\n- {語源|ごげん}を{調|しら}べる: to look up the etymology\n- {語源|ごげん}{辞典|じてん}: etymological dictionary\n- {語源|ごげん}は〜に{由来|ゆらい}する: the origin derives from ~\n- {語源|ごげん}{的|てき}に: etymologically",
+  "notes": "USAGE:\n{語源|ごげん} is used both in academic linguistics and casual conversation about word origins. Japanese people are often interested in the origins of everyday words, so this term appears frequently in quiz shows, books, and online articles.\n\nCOMMON COLLOCATIONS:\n- {語源|ごげん}⟦を→を：00422_wo⟧たどる: to trace the etymology\n- {語源|ごげん}⟦を→を：00422_wo⟧⟦{調|しら}べる→調べる：01213_shiraberu⟧: to look up the etymology\n- {語源|ごげん}⟦{辞典|じてん}→辞典：01640_jiten⟧: etymological dictionary\n- {語源|ごげん}⟦は→は：00079_ha⟧〜⟦に→に：00314_ni⟧⟦{由来|ゆらい}→由来：05451_yurai⟧⟦する→する：00392_suru⟧: the origin derives from ~\n- {語源|ごげん}⟦{的|てき}→〜的：09839_teki⟧⟦に→に：00314_ni⟧: etymologically",
   "cross_references": [
     {
       "type": "related",
@@ -53,19 +59,39 @@
       "reading": "ことば",
       "headword": "{言葉|ことば}",
       "label": "word, language"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23010_gogi",
+      "reading": "ごぎ",
+      "headword": "{語義|ごぎ}",
+      "label": "word meaning"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23852_haseigo",
+      "reading": "はせいご",
+      "headword": "{派生語|はせいご}",
+      "label": "derived word"
     }
   ],
   "metadata": {
     "created": "2026-02-28T03:05:00Z",
-    "modified": "2026-04-30T06:34:37Z",
+    "modified": "2026-09-02T04:01:36Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["education"],
-      "domain": ["academic"]
+      "semantic": [
+        "education"
+      ],
+      "domain": [
+        "academic"
+      ]
     }
   }
 }

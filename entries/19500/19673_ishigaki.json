@@ -15,40 +15,81 @@
   "examples": [
     {
       "id": "19673_ishigaki_ex1",
-      "japanese": "{城|しろ}の{石垣|いしがき}が{美|うつく}しい。",
+      "japanese": "⟦{城|しろ}→城：03255_shiro⟧⟦の→の：09472_no⟧{石垣|いしがき}⟦が→が：00051_ga⟧⟦{美|うつく}しい→美しい：01121_utsukushii⟧。",
       "english": "The castle's stone walls are beautiful.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19673_ishigaki_ex2",
-      "japanese": "{石垣|いしがき}の{上|うえ}にトカゲがいた。",
+      "japanese": "{石垣|いしがき}⟦の→の：09472_no⟧⟦{上|うえ}→上：00682_ue⟧⟦に→に：00314_ni⟧トカゲがいた。",
       "english": "There was a lizard on top of the stone wall.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19673_ishigaki_ex3",
-      "japanese": "{熊本城|くまもとじょう}の{石垣|いしがき}は{地震|じしん}で{大|おお}きな{被害|ひがい}を{受|う}けたが、{修復|しゅうふく}{工事|こうじ}が{進|すす}められている。",
+      "japanese": "{熊本城|くまもとじょう}⟦の→の：09472_no⟧{石垣|いしがき}⟦は→は：00079_ha⟧⟦{地震|じしん}→地震：01608_jishin⟧⟦で→で：00502_de⟧⟦{大|おお}きな→大きな：02849_ookina⟧⟦{被害|ひがい}→被害：02572_higai⟧⟦を→を：00422_wo⟧⟦{受|う}けた→受ける：01215_ukeru⟧⟦が→が：00051_ga⟧、⟦{修復|しゅうふく}→修復：11544_shuufuku⟧⟦{工事|こうじ}→工事：00244_kouji⟧⟦が→が：00051_ga⟧⟦{進|すす}められている→進める：01949_susumeru⟧。",
       "english": "The stone walls of Kumamoto Castle suffered major damage from the earthquake, but restoration work is ongoing.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {石|いし} (stone) and {垣|かき} (fence, wall). One of the most recognizable features of Japanese castles.\n\nCULTURAL CONTEXT:\n{石垣|いしがき} are an iconic element of Japanese castle architecture. The technique of building curved stone walls ({反|そ}り) that slope outward at the base and curve inward at the top was developed to be earthquake-resistant and difficult for attackers to climb. Famous castle stone walls include those at {大阪城|おおさかじょう}, {熊本城|くまもとじょう}, and {姫路城|ひめじじょう}.\n\nCOMMON COLLOCATIONS:\n- {石垣|いしがき}を{積|つ}む — to build/stack a stone wall\n- {城|しろ}の{石垣|いしがき} — castle stone wall\n- {石垣|いしがき}{島|じま} — Ishigaki Island (in Okinawa)\n\nRELATED TERMS:\n- {城壁|じょうへき} — castle wall; the broader fortification structure\n- {天守閣|てんしゅかく} — castle tower/keep; sits atop the stone walls\n- {堀|ほり} — moat; another castle defense feature",
+  "notes": "A compound of ⟦{石|いし}→石：02177_ishi⟧ (stone) and {垣|かき} (fence, wall). One of the most recognizable features of Japanese castles.\n\nCULTURAL NOTE:\n{石垣|いしがき} are an iconic element of Japanese castle architecture. The technique of building curved stone walls ({反|そ}り) that slope outward at the base and curve inward at the top was developed to be earthquake-resistant and difficult for attackers to climb. Famous castle stone walls include those at {大阪城|おおさかじょう}, {熊本城|くまもとじょう}, and {姫路城|ひめじじょう}.\n\nCOMMON COLLOCATIONS:\n- {石垣|いしがき}⟦を→を：00422_wo⟧⟦{積|つ}む→積む：02294_tsumu⟧ — to build/stack a stone wall\n- ⟦{城|しろ}→城：03255_shiro⟧⟦の→の：09472_no⟧{石垣|いしがき} — castle stone wall\n- {石垣|いしがき}{島|じま} — Ishigaki Island (in Okinawa)\n\nRELATED WORDS:\n- ⟦{城壁|じょうへき}→城壁：21582_jouheki⟧ — castle wall; the broader fortification structure\n- ⟦{天守閣|てんしゅかく}→天守閣：17449_tenshukaku⟧ — castle tower/keep; sits atop the stone walls\n- ⟦{堀|ほり}→堀：03725_hori⟧ — moat; another castle defense feature",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "21582_jouheki",
+      "reading": "じょうへき",
+      "headword": "{城壁|じょうへき}",
+      "label": "castle wall"
+    },
+    {
+      "type": "related",
+      "target_id": "17449_tenshukaku",
+      "reading": "てんしゅかく",
+      "headword": "{天守閣|てんしゅかく}",
+      "label": "castle tower/keep"
+    },
+    {
+      "type": "related",
+      "target_id": "03725_hori",
+      "reading": "ほり",
+      "headword": "{堀|ほり}",
+      "label": "moat"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28374_ishibei",
+      "reading": "いしべい",
+      "headword": "{石塀|いしべい}",
+      "label": "stone wall"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["building", "history"]
+      "semantic": [
+        "building",
+        "history"
+      ]
     },
     "created": "2026-03-26T11:46:46Z",
-    "modified": "2026-07-26T21:31:07Z"
+    "modified": "2026-09-02T04:01:56Z"
   }
 }

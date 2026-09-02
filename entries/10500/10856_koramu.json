@@ -15,40 +15,65 @@
   "examples": [
     {
       "id": "10856_koramu_ex1",
-      "japanese": "{新聞|しんぶん}のコラムを{読|よ}む。",
+      "japanese": "⟦{新聞|しんぶん}→新聞：01440_shinbun⟧⟦の→の：09472_no⟧コラム⟦を→を：00422_wo⟧⟦{読|よ}む→読む：00426_yomu⟧。",
       "english": "I read the newspaper column.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10856_koramu_ex2",
-      "japanese": "ウェブサイトで{健康|けんこう}に{関|かん}するコラムを{書|か}いている。",
+      "japanese": "⟦ウェブサイト→ウェブサイト：05152_webusaito⟧⟦で→で：00502_de⟧⟦{健康|けんこう}→健康：02706_kenkou⟧⟦に→に：00314_ni⟧⟦{関|かん}する→関する：02045_kansuru⟧コラム⟦を→を：00422_wo⟧⟦{書|か}いている→書く：00477_kaku⟧。",
       "english": "I write columns about health on a website.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10856_koramu_ex3",
-      "japanese": "あの{作家|さっか}の{連載|れんさい}コラムは{毎週|まいしゅう}{楽|たの}しみにしている{読者|どくしゃ}が{多|おお}い。",
+      "japanese": "⟦あの→あの：00915_ano⟧⟦{作家|さっか}→作家：01414_sakka⟧⟦の→の：09472_no⟧⟦{連載|れんさい}→連載：14320_rensai⟧コラム⟦は→は：00079_ha⟧⟦{毎週|まいしゅう}→毎週：00730_maishuu⟧⟦{楽|たの}しみ→楽しみ：01651_tanoshimi⟧にして⟦いる→いる：00495_iru⟧⟦{読者|どくしゃ}→読者：16554_dokusha⟧⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "Many readers look forward to that author's weekly column.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "コラム comes from English \"column\" and refers specifically to short opinion pieces or regular articles, not to physical columns or spreadsheet columns.\n\nCOMMON COLLOCATIONS:\n- コラムを{書|か}く: to write a column\n- コラムを{読|よ}む: to read a column\n- {連載|れんさい}コラム: serialized column, regular column\n- コラムニスト: columnist\n\nNOTE:\nIn Japanese, コラム refers only to written articles/essays. For a physical pillar, use {柱|はしら}. For spreadsheet columns, use {列|れつ}.",
-  "cross_references": [],
+  "notes": "コラム comes from English \"column\" and refers specifically to short opinion pieces or regular articles, not to physical columns or spreadsheet columns.\n\nCOMMON COLLOCATIONS:\n- コラム⟦を→を：00422_wo⟧⟦{書|か}く→書く：00477_kaku⟧: to write a column\n- コラム⟦を→を：00422_wo⟧⟦{読|よ}む→読む：00426_yomu⟧: to read a column\n- ⟦{連載|れんさい}→連載：14320_rensai⟧コラム: serialized column, regular column\n- コラムニスト: columnist\n\nUSAGE:\nIn Japanese, コラム refers only to written articles/essays. For a physical pillar, use ⟦{柱|はしら}→柱：05009_hashira⟧. For spreadsheet columns, use ⟦{列|れつ}→列：02171_retsu⟧.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "00227_kiji",
+      "reading": "きじ",
+      "headword": "{記事|きじ}",
+      "label": "article, news story"
+    },
+    {
+      "type": "related",
+      "target_id": "04197_shasetsu",
+      "reading": "しゃせつ",
+      "headword": "{社説|しゃせつ}",
+      "label": "editorial"
+    }
+  ],
   "metadata": {
     "created": "2026-02-11T06:44:08Z",
-    "modified": "2026-02-11T06:44:08Z",
+    "modified": "2026-09-02T04:01:22Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["communication"]
+      "semantic": [
+        "communication"
+      ]
     }
   }
 }

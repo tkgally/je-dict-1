@@ -3,7 +3,7 @@
   "id": "14682_kushi",
   "headword": "{駆使|くし}",
   "reading": "くし",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "full command; making full use of",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "14682_kushi_ex1",
-      "japanese": "{英語|えいご}を{駆使|くし}して{交渉|こうしょう}した。",
+      "japanese": "⟦{英語|えいご}→英語：02274_eigo⟧⟦を→を：00422_wo⟧{駆使|くし}⟦して→する：00392_suru⟧⟦{交渉|こうしょう}した→交渉する：17189_koushousuru⟧。",
       "english": "I used my full command of English to negotiate.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "14682_kushi_ex2",
-      "japanese": "{最新|さいしん}の{技術|ぎじゅつ}を{駆使|くし}した{製品|せいひん}だ。",
+      "japanese": "⟦{最新|さいしん}→最新：04831_saishin⟧⟦の→の：09472_no⟧⟦{技術|ぎじゅつ}→技術：01389_gijutsu⟧⟦を→を：00422_wo⟧{駆使|くし}⟦した→する：00392_suru⟧⟦{製品|せいひん}→製品：01445_seihin⟧だ。",
       "english": "It's a product that makes full use of the latest technology.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "14682_kushi_ex3",
-      "japanese": "あらゆる{人脈|じんみゃく}と{知識|ちしき}を{駆使|くし}して、{困難|こんなん}なプロジェクトを{成功|せいこう}させた。",
+      "japanese": "⟦あらゆる→あらゆる：03824_arayuru⟧⟦{人脈|じんみゃく}→人脈：18253_jinmyaku⟧⟦と→と：00512_to⟧⟦{知識|ちしき}→知識：01463_chishiki⟧⟦を→を：00422_wo⟧{駆使|くし}⟦して→する：00392_suru⟧、⟦{困難|こんなん}→困難：01410_konnan⟧な⟦プロジェクト→プロジェクト：06764_purojekuto⟧⟦を→を：00422_wo⟧⟦{成功|せいこう}→成功：02638_seikou⟧⟦させた→する：00392_suru⟧。",
       "english": "They used all their connections and knowledge to make the difficult project a success.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,26 @@
       ]
     }
   ],
-  "notes": "Implies skilled, confident use rather than basic use. Always positive — conveys mastery rather than mere utilization.\n\nPARTICLE PATTERNS:\n- ～を{駆使|くし}する (make full use of ~)\n\nCOMMON COLLOCATIONS:\n- {語学力|ごがくりょく}を{駆使|くし}する (make full use of language skills)\n- {技術|ぎじゅつ}を{駆使|くし}する (make full use of technology)\n- {知識|ちしき}を{駆使|くし}する (make full use of knowledge)\n- あらゆる{手段|しゅだん}を{駆使|くし}する (use every means available)\n\nSIMILAR WORDS:\n- {使|つか}う is the neutral word for \"use\"\n- {活用|かつよう}する means to make practical use of\n- {駆使|くし}する implies mastery and full exploitation of one's abilities",
-  "cross_references": [],
+  "notes": "Implies skilled, confident use rather than basic use. Always positive — conveys mastery rather than mere utilization.\n\nCOMMON PATTERNS:\n- ～⟦を→を：00422_wo⟧{駆使|くし}⟦する→する：00392_suru⟧ (make full use of ~)\n\nCOMMON COLLOCATIONS:\n- ⟦{語学力|ごがくりょく}→語学力：29443_gogakuryoku⟧⟦を→を：00422_wo⟧{駆使|くし}⟦する→する：00392_suru⟧ (make full use of language skills)\n- ⟦{技術|ぎじゅつ}→技術：01389_gijutsu⟧⟦を→を：00422_wo⟧{駆使|くし}⟦する→する：00392_suru⟧ (make full use of technology)\n- ⟦{知識|ちしき}→知識：01463_chishiki⟧⟦を→を：00422_wo⟧{駆使|くし}⟦する→する：00392_suru⟧ (make full use of knowledge)\n- ⟦あらゆる→あらゆる：03824_arayuru⟧⟦{手段|しゅだん}→手段：03219_shudan⟧⟦を→を：00422_wo⟧{駆使|くし}⟦する→する：00392_suru⟧ (use every means available)\n\nSIMILAR WORDS:\n- ⟦{使|つか}う→使う：00473_tsukau⟧ is the neutral word for \"use\"\n- ⟦{活用|かつよう}する→活用する：21424_katsuyousuru⟧ means to make practical use of\n- {駆使|くし}⟦する→する：00392_suru⟧ implies mastery and full exploitation of one's abilities",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00473_tsukau",
+      "reading": "つかう",
+      "headword": "{使|つか}う",
+      "label": "is the neutral word for \"use\""
+    },
+    {
+      "type": "contrast",
+      "target_id": "21424_katsuyousuru",
+      "reading": "かつようする",
+      "headword": "{活用|かつよう}する",
+      "label": "means to make practical use of"
+    }
+  ],
   "metadata": {
     "created": "2026-03-02T11:02:51Z",
-    "modified": "2026-03-29T03:08:18Z",
+    "modified": "2026-09-02T04:01:38Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -151,7 +166,8 @@
       "semantic": [
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

@@ -15,41 +15,59 @@
   "examples": [
     {
       "id": "19037_koganeiro_ex1",
-      "japanese": "{黄金色|こがねいろ}の{稲穂|いなほ}が{揺|ゆ}れている。",
+      "japanese": "{黄金色|こがねいろ}⟦の→の：09472_no⟧⟦{稲穂|いなほ}→稲穂：10175_inaho⟧⟦が→が：00051_ga⟧⟦{揺|ゆ}れている→揺れる：01161_yureru⟧。",
       "english": "Golden rice ears are swaying.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "19037_koganeiro_ex2",
-      "japanese": "{紅葉|こうよう}が{黄金色|こがねいろ}に{輝|かがや}いている。",
+      "japanese": "⟦{紅葉|こうよう}→紅葉：04151_kouyou⟧⟦が→が：00051_ga⟧{黄金色|こがねいろ}⟦に→に：00314_ni⟧⟦{輝|かがや}いている→輝く：02032_kagayaku⟧。",
       "english": "The autumn leaves are shining in golden color.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "19037_koganeiro_ex3",
-      "japanese": "{天|てん}ぷらを{黄金色|こがねいろ}にカラッと{揚|あ}げるのがコツだ。",
+      "japanese": "⟦{天|てん}ぷら→天ぷら：04948_tenpura⟧⟦を→を：00422_wo⟧{黄金色|こがねいろ}⟦に→に：00314_ni⟧カラッ⟦と→と：00512_to⟧⟦{揚|あ}げる→揚げる：16879_ageru⟧⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦コツ→コツ：06658_kotsu⟧だ。",
       "english": "The trick is to deep-fry tempura to a crispy golden color.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "READING:\nCan also be read おうごんいろ, though こがねいろ is more common in literary and poetic contexts. {黄金|こがね} literally means \"yellow gold.\"\n\nUSAGE:\nA poetic and evocative word. Commonly used to describe the warm golden hues of autumn landscapes, ripe grain, well-fried foods, and sunsets.\n\nCOMMON COLLOCATIONS:\n- {黄金色|こがねいろ}に{輝|かがや}く: to shine golden\n- {黄金色|こがねいろ}の{夕日|ゆうひ}: golden sunset\n- {黄金色|こがねいろ}に{染|そ}まる: to be dyed golden\n- {黄金色|こがねいろ}の{秋|あき}: golden autumn",
-  "cross_references": [],
+  "notes": "PRONUNCIATION:\nCan also be read おうごん⟦いろ→いる：00495_iru⟧, though こがねいろ is more common in literary and poetic contexts. {黄金|こがね} literally means \"yellow gold.\"\n\nUSAGE:\nA poetic and evocative word. Commonly used to describe the warm golden hues of autumn landscapes, ripe grain, well-fried foods, and sunsets.\n\nCOMMON COLLOCATIONS:\n- {黄金色|こがねいろ}⟦に→に：00314_ni⟧⟦{輝|かがや}く→輝く：02032_kagayaku⟧: to shine golden\n- {黄金色|こがねいろ}⟦の→の：09472_no⟧⟦{夕日|ゆうひ}→夕日：04080_yuuhi⟧: golden sunset\n- {黄金色|こがねいろ}⟦に→に：00314_ni⟧⟦{染|そ}まる→染まる：04254_somaru⟧: to be dyed golden\n- {黄金色|こがねいろ}⟦の→の：09472_no⟧⟦{秋|あき}→秋：02276_aki⟧: golden autumn",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "26345_mugiiro",
+      "reading": "むぎいろ",
+      "headword": "{麦色|むぎいろ}",
+      "label": "wheat color"
+    }
+  ],
   "metadata": {
     "created": "2026-03-24T01:05:45Z",
-    "modified": "2026-03-24T01:05:45Z",
+    "modified": "2026-09-02T04:01:54Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["color"]
+      "semantic": [
+        "color"
+      ]
     }
   }
 }

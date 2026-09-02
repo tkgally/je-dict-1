@@ -14,42 +14,88 @@
   "examples": [
     {
       "id": "11922_kappou_ex1",
-      "japanese": "{割烹|かっぽう}{料理|りょうり}を{食|た}べに{行|い}った。",
+      "japanese": "{割烹|かっぽう}⟦{料理|りょうり}→料理：01523_ryouri⟧⟦を→を：00422_wo⟧⟦{食|た}べ→食べる：00396_taberu⟧⟦に→に：00314_ni⟧⟦{行|い}った→行く：00119_iku⟧。",
       "english": "We went to eat traditional Japanese haute cuisine.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11922_kappou_ex2",
-      "japanese": "{駅前|えきまえ}に{老舗|しにせ}の{割烹|かっぽう}がある。",
+      "japanese": "⟦{駅前|えきまえ}→駅前：09593_ekimae⟧⟦に→に：00314_ni⟧⟦{老舗|しにせ}→老舗：16152_shinise⟧⟦の→の：09472_no⟧{割烹|かっぽう}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There's a long-established Japanese fine dining restaurant in front of the station.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11922_kappou_ex3",
-      "japanese": "カウンターで{職人|しょくにん}の{技|わざ}を{見|み}ながら{食|た}べるのが{割烹|かっぽう}の{醍醐味|だいごみ}だ。",
+      "japanese": "⟦カウンター→カウンター：10816_kauntaa⟧⟦で→で：00502_de⟧⟦{職人|しょくにん}→職人：09868_shokunin⟧⟦の→の：09472_no⟧⟦{技|わざ}→技：02172_waza⟧⟦を→を：00422_wo⟧⟦{見|み}→見る：00283_miru⟧⟦ながら→ながら：10530_nagara⟧⟦{食|た}べる→食べる：00396_taberu⟧⟦の→の：09472_no⟧⟦が→が：00051_ga⟧{割烹|かっぽう}⟦の→の：09472_no⟧⟦{醍醐味|だいごみ}→醍醐味：14412_daigomi⟧だ。",
       "english": "The true appeal of kappou dining is eating at the counter while watching the chef's craftsmanship.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "Literally means \"cutting ({割|か}つ) and cooking ({烹|ほう}じる)\" — the two fundamental Japanese culinary techniques. {割烹|かっぽう} restaurants are typically upscale establishments where seasonal ingredients are prepared with refined technique. Often features counter seating where diners watch the chef at work.\n\nCOMMON COMPOUNDS:\n・{割烹|かっぽう}{料理|りょうり} (Japanese haute cuisine)\n・{割烹|かっぽう}{着|ぎ} (traditional cooking apron/smock)\n・{割烹|かっぽう}{料理|りょうり}{店|てん} (kappou restaurant)",
-  "cross_references": [],
+  "notes": "Literally means \"cutting ({割|か}つ) and cooking ({烹|ほう}じる)\" — the two fundamental Japanese culinary techniques. {割烹|かっぽう} restaurants are typically upscale establishments where seasonal ingredients are prepared with refined technique. Often features counter seating where diners watch the chef at work.\n\nCOMPOUNDS:\n- {割烹|かっぽう}⟦{料理|りょうり}→料理：01523_ryouri⟧ (Japanese haute cuisine)\n- {割烹|かっぽう}{着|ぎ} (traditional cooking apron/smock)\n- {割烹|かっぽう}⟦{料理|りょうり}{店|てん}→料理店：25626_ryouriten⟧ (kappou restaurant)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21710_ryoutei",
+      "reading": "りょうてい",
+      "headword": "{料亭|りょうてい}",
+      "label": "high-class Japanese restaurant"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25920_koukyuuryoutei",
+      "reading": "こうきゅうりょうてい",
+      "headword": "{高級|こうきゅう}{料亭|りょうてい}",
+      "label": "high-class Japanese restaurant"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26980_kaisekiryouri",
+      "reading": "かいせきりょうり",
+      "headword": "{会席料理|かいせきりょうり}",
+      "label": "kaiseki cuisine"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27134_washokuya",
+      "reading": "わしょくや",
+      "headword": "{和食屋|わしょくや}",
+      "label": "Japanese food restaurant"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27551_ryouriya",
+      "reading": "りょうりや",
+      "headword": "{料理屋|りょうりや}",
+      "label": "Japanese restaurant (traditional)"
+    }
+  ],
   "metadata": {
     "created": "2026-02-18T14:17:31Z",
-    "modified": "2026-02-18T14:17:31Z",
+    "modified": "2026-09-02T04:01:27Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food"]
+      "semantic": [
+        "food"
+      ]
     }
   }
 }

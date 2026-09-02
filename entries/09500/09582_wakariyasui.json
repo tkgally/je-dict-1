@@ -2,7 +2,7 @@
   "id": "09582_wakariyasui",
   "headword": "わかりやすい",
   "reading": "わかりやすい",
-  "part_of_speech": "adjective (i)",
+  "part_of_speech": "i-adjective",
   "gloss": "easy to understand, clear",
   "definitions": [
     {
@@ -41,7 +41,7 @@
     },
     {
       "id": "09582_wakariyasui_ex4",
-      "japanese": "もっとわかりやすく⟦{言|い}って→言う：00515_iu⟧⟦ください→ください：02899_kudasai⟧。",
+      "japanese": "⟦もっと→もっと：00798_motto⟧わかりやすく⟦{言|い}って→言う：00515_iu⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please say it more clearly.",
       "has_audio": false,
       "sense_numbers": [
@@ -49,10 +49,26 @@
       ]
     }
   ],
-  "notes": "{分|わ}かりやすい is a compound adjective from {分|わ}かる + やすい.\n\nFORM:\n- Verb stem + やすい = easy to ~\n- {分|わ}かり ({分|わ}かる stem) + やすい\n\nCONTRAST:\n- わかりやすい: easy to understand\n- わかりにくい: hard to understand\n\nSIMILAR ADJECTIVES:\n- {読|よ}みやすい (easy to read)\n- {使|つか}いやすい (easy to use)\n- {食|た}べやすい (easy to eat)",
+  "notes": "⟦{分|わ}かり→分かる：00463_wakaru⟧やすい is a compound adjective from ⟦{分|わ}かる→分かる：00463_wakaru⟧ + やすい.\n\nFORMS:\n- Verb stem + やすい = easy to ~\n- ⟦{分|わ}かり→分かる：00463_wakaru⟧ (⟦{分|わ}かる→分かる：00463_wakaru⟧ stem) + やすい\n\nSIMILAR WORDS:\n- わかりやすい: easy to understand\n- わかりにくい: hard to understand\n- ⟦{読|よ}み→読む：00426_yomu⟧やすい (easy to read)\n- ⟦{使|つか}いやすい→使いやすい：30380_tsukaiyasui⟧ (easy to use)\n- ⟦{食|た}べやすい→食べやすい：21799_tabeyasui⟧ (easy to eat)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "30380_tsukaiyasui",
+      "reading": "つかいやすい",
+      "headword": "{使|つか}いやすい",
+      "label": "easy to use"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21799_tabeyasui",
+      "reading": "たべやすい",
+      "headword": "{食|た}べやすい",
+      "label": "easy to eat"
+    }
+  ],
   "metadata": {
     "created": "2026-02-03T01:43:49Z",
-    "modified": "2026-07-10T00:20:58Z",
+    "modified": "2026-09-02T04:01:18Z",
     "ai_model": "opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

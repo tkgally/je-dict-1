@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22105_reihaidou_ex1",
-      "japanese": "{礼拝堂|れいはいどう}で{祈|いの}りを{捧|ささ}げた。",
+      "japanese": "{礼拝堂|れいはいどう}⟦で→で：00502_de⟧⟦{祈|いの}り→祈り：13732_inori⟧⟦を→を：00422_wo⟧⟦{捧|ささ}げた→捧げる：02055_sasageru⟧。",
       "english": "I offered prayers in the chapel.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22105_reihaidou_ex2",
-      "japanese": "この{大学|だいがく}には{美|うつく}しい{礼拝堂|れいはいどう}がある。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{大学|だいがく}→大学：00608_daigaku⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{美|うつく}しい→美しい：01121_utsukushii⟧{礼拝堂|れいはいどう}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "This university has a beautiful chapel.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22105_reihaidou_ex3",
-      "japanese": "{中世|ちゅうせい}ヨーロッパの{礼拝堂|れいはいどう}には、{見事|みごと}なステンドグラスが{残|のこ}されている。",
+      "japanese": "⟦{中世|ちゅうせい}→中世：05524_chuusei⟧⟦ヨーロッパ→ヨーロッパ：00427_yooroppa⟧⟦の→の：09472_no⟧{礼拝堂|れいはいどう}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧、⟦{見事|みごと}→見事：03744_migoto⟧なステンド⟦グラス→グラス：00076_gurasu⟧⟦が→が：00051_ga⟧⟦{残|のこ}されている→残す：01975_nokosu⟧。",
       "english": "Medieval European chapels still have magnificent stained glass windows.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {礼拝|れいはい} (worship, prayer) + {堂|どう} (hall, building). Refers primarily to Christian chapels and prayer halls. In Japan, {礼拝堂|れいはいどう} is found at Christian schools, hospitals, wedding venues, and churches.\n\nNote that {礼拝|れいはい} can also be read らいはい in Buddhist contexts.\n\nCOMMON COLLOCATIONS:\n- {礼拝堂|れいはいどう}で{礼拝|れいはい}する: to worship in the chapel\n- {礼拝堂|れいはいどう}に{集|あつ}まる: to gather in the chapel\n- {大学|だいがく}の{礼拝堂|れいはいどう}: university chapel\n- {礼拝堂|れいはいどう}の{鐘|かね}: chapel bell\n\nSIMILAR WORDS:\n- {教会|きょうかい}: church — a broader term for a Christian church or congregation\n- チャペル: chapel — the loanword, often used for wedding chapels in Japan\n- {聖堂|せいどう}: cathedral, sanctuary — a larger or more important place of worship",
+  "notes": "Composed of ⟦{礼拝|れいはい}→礼拝：16972_reihai⟧ (worship, prayer) + {堂|どう} (hall, building). Refers primarily to Christian chapels and prayer halls. In Japan, {礼拝堂|れいはいどう} is found at Christian schools, hospitals, wedding venues, and churches.\n\nNote that ⟦{礼拝|れいはい}→礼拝：16972_reihai⟧ can also be read らいはい in Buddhist contexts.\n\nCOMMON COLLOCATIONS:\n- {礼拝堂|れいはいどう}⟦で→で：00502_de⟧⟦{礼拝|れいはい}→礼拝：16972_reihai⟧⟦する→する：00392_suru⟧: to worship in the chapel\n- {礼拝堂|れいはいどう}⟦に→に：00314_ni⟧⟦{集|あつ}まる→集まる：01162_atsumaru⟧: to gather in the chapel\n- ⟦{大学|だいがく}→大学：00608_daigaku⟧⟦の→の：09472_no⟧{礼拝堂|れいはいどう}: university chapel\n- {礼拝堂|れいはいどう}⟦の→の：09472_no⟧⟦{鐘|かね}→鐘：02654_kane⟧: chapel bell\n\nSIMILAR WORDS:\n- ⟦{教会|きょうかい}→教会：01387_kyoukai⟧: church — a broader term for a Christian church or congregation\n- チャペル: chapel — the loanword, often used for wedding chapels in Japan\n- ⟦{聖堂|せいどう}→聖堂：18663_seidou⟧: cathedral, sanctuary — a larger or more important place of worship",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01387_kyoukai",
+      "reading": "きょうかい",
+      "headword": "{教会|きょうかい}",
+      "label": "church"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18663_seidou",
+      "reading": "せいどう",
+      "headword": "{聖堂|せいどう}",
+      "label": "cathedral, sanctuary"
+    },
+    {
+      "type": "related",
+      "target_id": "20731_daiseidou",
+      "reading": "だいせいどう",
+      "headword": "{大聖堂|だいせいどう}",
+      "label": "cathedral"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +83,6 @@
       ]
     },
     "created": "2026-04-05T02:21:17Z",
-    "modified": "2026-07-30T03:35:34Z"
+    "modified": "2026-09-02T04:02:06Z"
   }
 }

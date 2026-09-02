@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "17055_juuman_ex1",
-      "japanese": "{部屋|へや}にガスが{充満|じゅうまん}していた。",
+      "japanese": "⟦{部屋|へや}→部屋：00507_heya⟧⟦に→に：00314_ni⟧⟦ガス→ガス：01344_gasu⟧⟦が→が：00051_ga⟧{充満|じゅうまん}⟦していた→する：00392_suru⟧。",
       "english": "The room was filled with gas.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "17055_juuman_ex2",
-      "japanese": "{会場|かいじょう}は{熱気|ねっき}で{充満|じゅうまん}していた。",
+      "japanese": "⟦{会場|かいじょう}→会場：01269_kaijou⟧⟦は→は：00079_ha⟧⟦{熱気|ねっき}→熱気：16141_nekki⟧⟦で→で：00502_de⟧{充満|じゅうまん}⟦していた→する：00392_suru⟧。",
       "english": "The venue was filled with excitement.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "17055_juuman_ex3",
-      "japanese": "{煙|けむり}が{充満|じゅうまん}して{前|まえ}が{見|み}えなくなったので、{急|いそ}いで{建物|たてもの}から{避難|ひなん}した。",
+      "japanese": "⟦{煙|けむり}→煙：02705_kemuri⟧⟦が→が：00051_ga⟧{充満|じゅうまん}⟦して→する：00392_suru⟧⟦{前|まえ}→前：02255_mae⟧⟦が→が：00051_ga⟧⟦{見|み}えなく→見える：01165_mieru⟧⟦なった→なる：01970_naru⟧⟦の→の：09472_no⟧で、⟦{急|いそ}いで→急ぐ：01191_isogu⟧⟦{建物|たてもの}→建物：01458_tatemono⟧⟦から→から：00504_kara⟧⟦{避難|ひなん}した→避難する：26827_hinansuru⟧。",
       "english": "The smoke filled the area and I couldn't see ahead, so I quickly evacuated from the building.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,11 @@
       ]
     }
   ],
-  "notes": "USAGE:\nOften used in emergency and safety contexts (gas leaks, smoke, fire) but also used figuratively for emotions and atmosphere. The verb form {充満|じゅうまん}する is very common.\n\nCOMMON COLLOCATIONS:\n- {煙|けむり}が{充満|じゅうまん}する (smoke fills the area)\n- ガスが{充満|じゅうまん}する (gas fills the area)\n- {緊張感|きんちょうかん}が{充満|じゅうまん}する (tension fills the atmosphere)\n- {熱気|ねっき}に{充満|じゅうまん}した{会場|かいじょう} (a venue filled with excitement)",
+  "notes": "USAGE:\nOften used in emergency and safety contexts (gas leaks, smoke, fire) but also used figuratively for emotions and atmosphere. The verb form {充満|じゅうまん}⟦する→する：00392_suru⟧ is very common.\n\nCOMMON COLLOCATIONS:\n- ⟦{煙|けむり}→煙：02705_kemuri⟧⟦が→が：00051_ga⟧{充満|じゅうまん}⟦する→する：00392_suru⟧ (smoke fills the area)\n- ⟦ガス→ガス：01344_gasu⟧⟦が→が：00051_ga⟧{充満|じゅうまん}⟦する→する：00392_suru⟧ (gas fills the area)\n- ⟦{緊張感|きんちょうかん}→緊張感：20207_kinchoukan⟧⟦が→が：00051_ga⟧{充満|じゅうまん}⟦する→する：00392_suru⟧ (tension fills the atmosphere)\n- ⟦{熱気|ねっき}→熱気：16141_nekki⟧⟦に→に：00314_ni⟧{充満|じゅうまん}⟦した→する：00392_suru⟧⟦{会場|かいじょう}→会場：01269_kaijou⟧ (a venue filled with excitement)",
   "cross_references": [],
   "metadata": {
     "created": "2026-03-15T07:20:58Z",
-    "modified": "2026-07-22T03:30:08Z",
+    "modified": "2026-09-02T04:01:47Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -152,7 +152,8 @@
         "abstract",
         "existence"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

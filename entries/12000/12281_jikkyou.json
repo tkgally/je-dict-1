@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "12281_jikkyou_ex1",
-      "japanese": "{試合|しあい}を{実況|じっきょう}する。",
+      "japanese": "⟦{試合|しあい}→試合：01601_shiai⟧⟦を→を：00422_wo⟧{実況|じっきょう}⟦する→する：00392_suru⟧。",
       "english": "To provide live commentary on a game.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "12281_jikkyou_ex2",
-      "japanese": "ゲームの{実況|じっきょう}{動画|どうが}をよく{見|み}ている。",
+      "japanese": "⟦ゲーム→ゲーム：03842_geemu⟧⟦の→の：09472_no⟧{実況|じっきょう}⟦{動画|どうが}→動画：04443_douga⟧⟦を→を：00422_wo⟧⟦よく→よく：00601_yoku⟧⟦{見|み}ている→見る：00283_miru⟧。",
       "english": "I often watch game livestream videos.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "12281_jikkyou_ex3",
-      "japanese": "{人気|にんき}の{実況|じっきょう}プレイヤーが{新作|しんさく}ゲームを{配信|はいしん}して、{何万人|なんまんにん}もの{視聴者|しちょうしゃ}が{集|あつ}まった。",
+      "japanese": "⟦{人気|にんき}→人気：01488_ninki⟧⟦の→の：09472_no⟧{実況|じっきょう}⟦プレイヤー→プレイヤー：15082_pureiyaa⟧⟦が→が：00051_ga⟧⟦{新作|しんさく}→新作：09523_shinsaku⟧⟦ゲーム→ゲーム：03842_geemu⟧⟦を→を：00422_wo⟧⟦{配信|はいしん}して→配信する：23206_haishinsuru⟧、{何万人|なんまんにん}⟦も→も：00484_mo⟧⟦の→の：09472_no⟧⟦{視聴者|しちょうしゃ}→視聴者：02570_shichousha⟧⟦が→が：00051_ga⟧⟦{集|あつ}まった→集まる：01162_atsumaru⟧。",
       "english": "A popular livestreamer broadcast a new game and attracted tens of thousands of viewers.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nTraditionally associated with sports broadcasting ({実況|じっきょう}{中継|ちゅうけい}), where an announcer provides play-by-play commentary. In modern usage, {実況|じっきょう} has become strongly associated with online gaming and video streaming. {実況|じっきょう}プレイ (let's play, gameplay commentary) and ゲーム{実況|じっきょう} (game streaming) are extremely popular online.\n\nCOMMON COLLOCATIONS:\n- {実況|じっきょう}{中継|ちゅうけい}: live broadcast, live relay\n- ゲーム{実況|じっきょう}: game streaming, gameplay commentary\n- {実況|じっきょう}プレイ: let's play, commentary playthrough\n- {実況|じっきょう}{者|しゃ}: commentator, livestreamer\n- {実況|じっきょう}{動画|どうが}: livestream video",
+  "notes": "USAGE:\nTraditionally associated with sports broadcasting ({実況|じっきょう}⟦{中継|ちゅうけい}→中継：11306_chuukei⟧), where an announcer provides play-by-play commentary. In modern usage, {実況|じっきょう} has become strongly associated with online gaming and video streaming. {実況|じっきょう}⟦プレイ→プレイ：12840_purei⟧ (let's play, gameplay commentary) and ⟦ゲーム→ゲーム：03842_geemu⟧{実況|じっきょう} (game streaming) are extremely popular online.\n\nCOMMON COLLOCATIONS:\n- {実況|じっきょう}⟦{中継|ちゅうけい}→中継：11306_chuukei⟧: live broadcast, live relay\n- ⟦ゲーム→ゲーム：03842_geemu⟧{実況|じっきょう}: game streaming, gameplay commentary\n- {実況|じっきょう}⟦プレイ→プレイ：12840_purei⟧: let's play, commentary playthrough\n- {実況|じっきょう}⟦{者|しゃ}→〜者：04662_sha⟧: commentator, livestreamer\n- {実況|じっきょう}⟦{動画|どうが}→動画：04443_douga⟧: livestream video",
   "cross_references": [
     {
       "type": "related",
@@ -149,11 +149,25 @@
       "reading": "はいしん",
       "headword": "{配信|はいしん}",
       "label": "streaming, distribution"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24412_nareeshon",
+      "reading": "なれーしょん",
+      "headword": "ナレーション",
+      "label": "narration"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27364_komentarii",
+      "reading": "こめんたりー",
+      "headword": "コメンタリー",
+      "label": "commentary (audio/video commentary track"
     }
   ],
   "metadata": {
     "created": "2026-02-20T15:07:22Z",
-    "modified": "2026-04-26T09:20:33Z",
+    "modified": "2026-09-02T04:01:28Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -167,7 +181,8 @@
         "communication",
         "leisure"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

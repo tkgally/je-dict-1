@@ -15,40 +15,65 @@
   "examples": [
     {
       "id": "15261_ichibushijuu_ex1",
-      "japanese": "{事件|じけん}の{一部始終|いちぶしじゅう}を{話|はな}した。",
+      "japanese": "⟦{事件|じけん}→事件：01568_jiken⟧⟦の→の：09472_no⟧{一部始終|いちぶしじゅう}⟦を→を：00422_wo⟧⟦{話|はな}した→話す：00467_hanasu⟧。",
       "english": "I told the whole story of the incident.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15261_ichibushijuu_ex2",
-      "japanese": "{彼女|かのじょ}はその{場|ば}の{一部始終|いちぶしじゅう}を{目撃|もくげき}していた。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧⟦その→その：00993_sono⟧⟦{場|ば}→場：03699_ba⟧⟦の→の：09472_no⟧{一部始終|いちぶしじゅう}⟦を→を：00422_wo⟧⟦{目撃|もくげき}していた→目撃する：20232_mokugekisuru⟧。",
       "english": "She had witnessed everything that happened at the scene.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15261_ichibushijuu_ex3",
-      "japanese": "{防犯|ぼうはん}カメラに{事故|じこ}の{一部始終|いちぶしじゅう}が{記録|きろく}されていたおかげで、{原因|げんいん}が{特定|とくてい}できた。",
+      "japanese": "⟦{防犯|ぼうはん}カメラ→防犯カメラ：07137_bouhankamera⟧⟦に→に：00314_ni⟧⟦{事故|じこ}→事故：00851_jiko⟧⟦の→の：09472_no⟧{一部始終|いちぶしじゅう}⟦が→が：00051_ga⟧⟦{記録|きろく}→記録：02490_kiroku⟧⟦されていた→する：00392_suru⟧⟦おかげ→おかげ：01362_okage⟧で、⟦{原因|げんいん}→原因：01400_genin⟧⟦が→が：00051_ga⟧⟦{特定|とくてい}→特定：04275_tokutei⟧⟦できた→できる：00557_dekiru⟧。",
       "english": "Because the security camera had recorded the entire accident from start to finish, the cause could be identified.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\n{一部始終|いちぶしじゅう} is a four-character compound (yojijukugo). Despite containing {一部|いちぶ} (one part), the expression means the complete story, not just a part. The {始終|しじゅう} means \"from beginning to end.\"\n\nCOMMON COLLOCATIONS:\n- {一部始終|いちぶしじゅう}を{話|はな}す (to tell the whole story)\n- {一部始終|いちぶしじゅう}を{見|み}る (to see everything)\n- {一部始終|いちぶしじゅう}を{記録|きろく}する (to record the full account)\n- {事件|じけん}の{一部始終|いちぶしじゅう} (the complete account of an incident)\n\nSIMILAR WORDS:\n- {一部始終|いちぶしじゅう}: the whole story, full account (formal, emphasizes completeness)\n- {顛末|てんまつ}: the full story, circumstances (formal, written)\n- {経緯|けいい}: the details, how things developed (focuses on process)",
-  "cross_references": [],
+  "notes": "USAGE:\n{一部始終|いちぶしじゅう} is a four-character compound (yojijukugo). Despite containing ⟦{一部|いちぶ}→一部：06783_ichibu⟧ (one part), the expression means the complete story, not just a part. The ⟦{始終|しじゅう}→始終：04192_shijuu⟧ means \"from beginning to end.\"\n\nCOMMON COLLOCATIONS:\n- {一部始終|いちぶしじゅう}⟦を→を：00422_wo⟧⟦{話|はな}す→話す：00467_hanasu⟧ (to tell the whole story)\n- {一部始終|いちぶしじゅう}⟦を→を：00422_wo⟧⟦{見|み}る→見る：00283_miru⟧ (to see everything)\n- {一部始終|いちぶしじゅう}⟦を→を：00422_wo⟧⟦{記録|きろく}する→記録する：25341_kirokusuru⟧ (to record the full account)\n- ⟦{事件|じけん}→事件：01568_jiken⟧⟦の→の：09472_no⟧{一部始終|いちぶしじゅう} (the complete account of an incident)\n\nSIMILAR WORDS:\n- {一部始終|いちぶしじゅう}: the whole story, full account (formal, emphasizes completeness)\n- ⟦{顛末|てんまつ}→顛末：21967_tenmatsu⟧: the full story, circumstances (formal, written)\n- ⟦{経緯|けいい}→経緯：02782_keii⟧: the details, how things developed (focuses on process)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21967_tenmatsu",
+      "reading": "てんまつ",
+      "headword": "{顛末|てんまつ}",
+      "label": "the full story, circumstances"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02782_keii",
+      "reading": "けいい",
+      "headword": "{経緯|けいい}",
+      "label": "the details, how things developed"
+    }
+  ],
   "metadata": {
     "created": "2026-03-06T08:08:23Z",
-    "modified": "2026-03-06T08:08:23Z",
+    "modified": "2026-09-02T04:01:40Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["communication"]
+      "semantic": [
+        "communication"
+      ]
     }
   }
 }

@@ -15,40 +15,80 @@
   "examples": [
     {
       "id": "26073_sayuusareru_ex1",
-      "japanese": "{結果|けっか}は{天気|てんき}に{左右|さゆう}される。",
+      "japanese": "⟦{結果|けっか}→結果：02486_kekka⟧⟦は→は：00079_ha⟧⟦{天気|てんき}→天気：00582_tenki⟧⟦に→に：00314_ni⟧{左右|さゆう}される。",
       "english": "The outcome is affected by the weather.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26073_sayuusareru_ex2",
-      "japanese": "{他人|たにん}の{意見|いけん}に{左右|さゆう}されないようにしたい。",
+      "japanese": "⟦{他人|たにん}→他人：01459_tanin⟧⟦の→の：09472_no⟧⟦{意見|いけん}→意見：01303_iken⟧⟦に→に：00314_ni⟧{左右|さゆう}されないようにしたい。",
       "english": "I want to not be swayed by other people's opinions.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26073_sayuusareru_ex3",
-      "japanese": "この{地域|ちいき}の{経済|けいざい}は{観光客|かんこうきゃく}の{数|かず}に{大|おお}きく{左右|さゆう}されるため、{季節|きせつ}ごとの{変動|へんどう}が{激|はげ}しい。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{地域|ちいき}→地域：01461_chiiki⟧⟦の→の：09472_no⟧⟦{経済|けいざい}→経済：01394_keizai⟧⟦は→は：00079_ha⟧⟦{観光客|かんこうきゃく}→観光客：03022_kankoukyaku⟧⟦の→の：09472_no⟧⟦{数|かず}→数：00204_kazu⟧⟦に→に：00314_ni⟧⟦{大|おお}きく→大きい：00335_ookii⟧{左右|さゆう}される⟦ため→ため：01145_tame⟧、⟦{季節|きせつ}→季節：01304_kisetsu⟧ごと⟦の→の：09472_no⟧⟦{変動|へんどう}→変動：09936_hendou⟧⟦が→が：00051_ga⟧⟦{激|はげ}しい→激しい：02348_hageshii⟧。",
       "english": "The local economy is greatly affected by tourist numbers, so seasonal fluctuations are significant.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "The passive form of {左右|さゆう}する (to influence, to control). Literally \"to be moved left and right,\" meaning to be pushed around or determined by outside forces. Almost always used in the passive (される), and much more common than the active form in everyday usage.\n\nPATTERN:\n- AがBに{左右|さゆう}される — A is influenced/affected by B\n\nCOMMON COLLOCATIONS:\n- {感情|かんじょう}に{左右|さゆう}される — to be swayed by emotions\n- {環境|かんきょう}に{左右|さゆう}される — to be affected by the environment\n- {気分|きぶん}に{左右|さゆう}される — to be influenced by one's mood\n- {大|おお}きく{左右|さゆう}される — to be greatly affected\n\nSIMILAR EXPRESSIONS:\n- {影響|えいきょう}を{受|う}ける — to be influenced, to be affected (more neutral; broader usage)\n- {振|ふ}り{回|まわ}される — to be jerked around (stronger; implies frustration)\n- {支配|しはい}される — to be controlled (stronger; implies dominance)",
+  "notes": "The passive form of ⟦{左右|さゆう}→左右：02826_sayuu⟧⟦する→する：00392_suru⟧ (to influence, to control). Literally \"to be moved left and right,\" meaning to be pushed around or determined by outside forces. Almost always used in the passive (⟦される→する：00392_suru⟧), and much more common than the active form in everyday usage.\n\nCOMMON PATTERNS:\n- A⟦が→が：00051_ga⟧B⟦に→に：00314_ni⟧{左右|さゆう}される — A is influenced/affected by B\n\nCOMMON COLLOCATIONS:\n- ⟦{感情|かんじょう}→感情：00171_kanjou⟧⟦に→に：00314_ni⟧{左右|さゆう}される — to be swayed by emotions\n- ⟦{環境|かんきょう}→環境：00174_kankyou⟧⟦に→に：00314_ni⟧{左右|さゆう}される — to be affected by the environment\n- ⟦{気分|きぶん}→気分：01306_kibun⟧⟦に→に：00314_ni⟧{左右|さゆう}される — to be influenced by one's mood\n- ⟦{大|おお}きく→大きい：00335_ookii⟧{左右|さゆう}される — to be greatly affected\n\nSIMILAR WORDS:\n- ⟦{影響|えいきょう}を{受|う}ける→影響を受ける：25023_eikyouwoukeru⟧ — to be influenced, to be affected (more neutral; broader usage)\n- ⟦{振|ふ}り{回|まわ}される→振り回す：06051_furimawasu⟧ — to be jerked around (stronger; implies frustration)\n- ⟦{支配|しはい}される→支配する：25222_shihaisuru⟧ — to be controlled (stronger; implies dominance)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25023_eikyouwoukeru",
+      "reading": "えいきょうをうける",
+      "headword": "{影響|えいきょう}を{受|う}ける",
+      "label": "to be influenced, to be affected (more…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21981_furimawasareru",
+      "reading": "ふりまわされる",
+      "headword": "{振|ふ}り{回|まわ}される",
+      "label": "to be jerked around (stronger"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17207_nagasareru",
+      "reading": "ながされる",
+      "headword": "{流|なが}される",
+      "label": "to be swept away"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26775_eikyousareru",
+      "reading": "えいきょうされる",
+      "headword": "{影響|えいきょう}される",
+      "label": "to be influenced"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["expression"],
+      "pos": [
+        "expression"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action"]
+      "semantic": [
+        "action"
+      ]
     },
     "created": "2026-04-29T12:34:40Z",
-    "modified": "2026-04-29T12:34:40Z"
+    "modified": "2026-09-02T04:02:24Z"
   }
 }

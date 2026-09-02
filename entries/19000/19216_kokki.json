@@ -15,40 +15,60 @@
   "examples": [
     {
       "id": "19216_kokki_ex1",
-      "japanese": "{国旗|こっき}を{掲|かか}げる。",
+      "japanese": "{国旗|こっき}⟦を→を：00422_wo⟧⟦{掲|かか}げる→掲げる：12791_kakageru⟧。",
       "english": "To raise a national flag.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19216_kokki_ex2",
-      "japanese": "{学校|がっこう}の{校庭|こうてい}に{国旗|こっき}が{立|た}っている。",
+      "japanese": "⟦{学校|がっこう}→学校：00055_gakkou⟧⟦の→の：09472_no⟧⟦{校庭|こうてい}→校庭：04147_koutei⟧⟦に→に：00314_ni⟧{国旗|こっき}⟦が→が：00051_ga⟧⟦{立|た}っている→立つ：00758_tatsu⟧。",
       "english": "A national flag stands in the school grounds.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19216_kokki_ex3",
-      "japanese": "オリンピックの{開会式|かいかいしき}では、{各国|かっこく}の{国旗|こっき}が{入場|にゅうじょう}する。",
+      "japanese": "⟦オリンピック→オリンピック：09899_orinpikku⟧⟦の→の：09472_no⟧⟦{開会式|かいかいしき}→開会式：27306_kaikaishiki⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧、⟦{各国|かっこく}→各国：12055_kakkoku⟧⟦の→の：09472_no⟧{国旗|こっき}⟦が→が：00051_ga⟧⟦{入場|にゅうじょう}→入場：03521_nyuujou⟧⟦する→する：00392_suru⟧。",
       "english": "At the Olympic opening ceremony, the flags of each country enter the stadium.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "{国旗|こっき} is the general term for a national flag representing a country.\n\nCOMMON COLLOCATIONS:\n- {国旗|こっき}を{掲|かか}げる: to raise a flag\n- {国旗|こっき}を{振|ふ}る: to wave a flag\n- {国旗|こっき}{掲揚|けいよう}: flag raising (ceremony)\n- {国旗|こっき}を{降|お}ろす: to lower a flag\n\nJAPAN'S FLAG:\nJapan's national flag is called {日|ひ}の{丸|まる} (hinomaru, \"circle of the sun\") — a white banner with a red circle. On national holidays ({祝日|しゅくじつ}), some households and public buildings display it.\n\nWORD FORMATION:\n{国|こく} (country) + {旗|き} (flag). Related compound: {国歌|こっか} (national anthem).",
+  "notes": "{国旗|こっき} is the general term for a national flag representing a country.\n\nCOMMON COLLOCATIONS:\n- {国旗|こっき}⟦を→を：00422_wo⟧⟦{掲|かか}げる→掲げる：12791_kakageru⟧: to raise a flag\n- {国旗|こっき}⟦を→を：00422_wo⟧⟦{振|ふ}る→振る：01983_furu⟧: to wave a flag\n- {国旗|こっき}{掲揚|けいよう}: flag raising (ceremony)\n- {国旗|こっき}⟦を→を：00422_wo⟧⟦{降|お}ろす→降ろす：01923_orosu⟧: to lower a flag\n\nJAPAN'S FLAG:\nJapan's national flag is called ⟦{日|ひ}の{丸|まる}→日の丸：19387_hinomaru⟧ (hinomaru, \"circle of the sun\") — a white banner with a red circle. On national holidays (⟦{祝日|しゅくじつ}→祝日：07588_shukujitsu⟧), some households and public buildings display it.\n\nFORMS:\n{国|こく} (country) + {旗|き} (flag). Related compound: {国歌|こっか} (national anthem).",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "30333_kokushou",
+      "reading": "こくしょう",
+      "headword": "{国章|こくしょう}",
+      "label": "national emblem"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["society", "culture"]
+      "semantic": [
+        "society",
+        "culture"
+      ]
     },
     "created": "2026-03-25T01:33:27Z",
-    "modified": "2026-07-26T21:31:07Z"
+    "modified": "2026-09-02T04:01:55Z"
   }
 }

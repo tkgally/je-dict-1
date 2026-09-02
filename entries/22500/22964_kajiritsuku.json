@@ -20,7 +20,7 @@
   "examples": [
     {
       "id": "22964_kajiritsuku_ex1",
-      "japanese": "りんごにかじりつく。",
+      "japanese": "⟦りんご→りんご：02269_ringo⟧⟦に→に：00314_ni⟧かじりつく。",
       "english": "To bite into an apple.",
       "sense_numbers": [
         1
@@ -30,7 +30,7 @@
     },
     {
       "id": "22964_kajiritsuku_ex2",
-      "japanese": "{子|こ}どもが{大|おお}きなパンにかじりついた。",
+      "japanese": "{子|こ}ども⟦が→が：00051_ga⟧⟦{大|おお}きな→大きな：02849_ookina⟧⟦パン→パン：00553_pan⟧⟦に→に：00314_ni⟧かじりついた。",
       "english": "The child bit into a large piece of bread.",
       "sense_numbers": [
         1
@@ -40,7 +40,7 @@
     },
     {
       "id": "22964_kajiritsuku_ex3",
-      "japanese": "{犬|いぬ}が{骨|ほね}にかじりついて{離|はな}さなかった。",
+      "japanese": "⟦{犬|いぬ}→犬：00632_inu⟧⟦が→が：00051_ga⟧⟦{骨|ほね}→骨：02166_hone⟧⟦に→に：00314_ni⟧かじりついて⟦{離|はな}さなかった→離す：19372_hanasu⟧。",
       "english": "The dog bit into the bone and wouldn't let go.",
       "sense_numbers": [
         1
@@ -50,7 +50,7 @@
     },
     {
       "id": "22964_kajiritsuku_ex4",
-      "japanese": "{仕事|しごと}にかじりつく。",
+      "japanese": "⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦に→に：00314_ni⟧かじりつく。",
       "english": "To cling tenaciously to one's work.",
       "sense_numbers": [
         2
@@ -60,7 +60,7 @@
     },
     {
       "id": "22964_kajiritsuku_ex5",
-      "japanese": "{最後|さいご}まであきらめずにかじりついた。",
+      "japanese": "⟦{最後|さいご}→最後：01413_saigo⟧⟦まで→まで：00490_made⟧あきらめず⟦に→に：00314_ni⟧かじりついた。",
       "english": "I clung on without giving up until the very end.",
       "sense_numbers": [
         2
@@ -70,7 +70,7 @@
     },
     {
       "id": "22964_kajiritsuku_ex6",
-      "japanese": "{彼|かれ}はどんなに{難|むずか}しくても{目標|もくひょう}にかじりつくタイプだ。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦どんな→どんな：02924_donna⟧⟦に→に：00314_ni⟧⟦{難|むずか}しくて→難しい：00517_muzukashii⟧⟦も→も：00484_mo⟧⟦{目標|もくひょう}→目標：03631_mokuhyou⟧⟦に→に：00314_ni⟧かじりつく⟦タイプ→タイプ：01534_taipu⟧だ。",
       "english": "He's the type who clings tenaciously to his goals no matter how difficult things get.",
       "sense_numbers": [
         2
@@ -79,8 +79,31 @@
       "notes": null
     }
   ],
-  "notes": "A compound verb formed from かじる (to bite, to gnaw) and つく (to attach, to stick). The つく element adds the nuance of clinging or holding fast.\n\nCOMMON COLLOCATIONS:\n- りんごにかじりつく: to bite into an apple\n- {骨|ほね}にかじりつく: to gnaw on a bone\n- {仕事|しごと}にかじりつく: to throw oneself into work\n- {最後|さいご}までかじりつく: to hang on until the end\n\nSIMILAR WORDS:\n- かじる: to bite; to gnaw — the base verb, without the sense of clinging\n- しがみつく: to cling to; to hold on desperately — emphasizes desperation more than tenacity\n- {食|く}らいつく: to bite at; to attack fiercely — more aggressive, often used in competition\n\nUSAGE:\nSense 2 is often used to describe someone who perseveres through difficulty. It carries a positive nuance of determination rather than stubbornness.",
+  "notes": "A compound verb formed from かじる (to bite, to gnaw) and つく (to attach, to stick). The つく element adds the nuance of clinging or holding fast.\n\nCOMMON COLLOCATIONS:\n- ⟦りんご→りんご：02269_ringo⟧⟦に→に：00314_ni⟧かじりつく: to bite into an apple\n- ⟦{骨|ほね}→骨：02166_hone⟧⟦に→に：00314_ni⟧かじりつく: to gnaw on a bone\n- ⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦に→に：00314_ni⟧かじりつく: to throw oneself into work\n- ⟦{最後|さいご}→最後：01413_saigo⟧⟦まで→まで：00490_made⟧かじりつく: to hang on until the end\n\nSIMILAR WORDS:\n- かじる: to bite; to gnaw — the base verb, without the sense of clinging\n- ⟦しがみつく→しがみつく：10352_shigamitsuku⟧: to cling to; to hold on desperately — emphasizes desperation more than tenacity\n- ⟦{食|く}らいつく→食らいつく：09140_kuraitsuku⟧: to bite at; to attack fiercely — more aggressive, often used in competition\n\nUSAGE:\nSense 2 is often used to describe someone who perseveres through difficulty. It carries a positive nuance of determination rather than stubbornness.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05126_kajiru",
+      "reading": "かじる",
+      "headword": "{齧|かじ}る",
+      "label": "to bite"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10352_shigamitsuku",
+      "reading": "しがみつく",
+      "headword": "しがみつく",
+      "label": "to cling to"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09140_kuraitsuku",
+      "reading": "くらいつく",
+      "headword": "{食|く}らいつく",
+      "label": "to bite at"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -89,11 +112,15 @@
       ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action", "movement"],
-      "verb_class": "godan-ku"
+      "semantic": [
+        "action",
+        "movement"
+      ],
+      "verb_class": "godan-ku",
+      "transitivity": "transitive"
     },
     "created": "2026-04-08T14:13:25Z",
-    "modified": "2026-07-31T00:22:30Z"
+    "modified": "2026-09-02T04:02:10Z"
   },
   "conjugation": {
     "type": "godan",

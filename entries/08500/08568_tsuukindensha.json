@@ -14,38 +14,93 @@
   "examples": [
     {
       "id": "08568_tsuukindensha_ex1",
-      "japanese": "{通勤電車|つうきんでんしゃ}が{混|こ}んでいる。",
+      "japanese": "{通勤電車|つうきんでんしゃ}⟦が→が：00051_ga⟧⟦{混|こ}んでいる→混む：02574_komu⟧。",
       "english": "The commuter train is crowded.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "08568_tsuukindensha_ex2",
-      "japanese": "{毎朝|まいあさ}{通勤電車|つうきんでんしゃ}に{乗|の}っている。",
+      "japanese": "⟦{毎朝|まいあさ}→毎朝：00966_maiasa⟧{通勤電車|つうきんでんしゃ}⟦に→に：00314_ni⟧⟦{乗|の}っている→乗る：00511_noru⟧。",
       "english": "I take the commuter train every morning.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "08568_tsuukindensha_ex3",
-      "japanese": "{通勤電車|つうきんでんしゃ}の{中|なか}でスマホを{見|み}ている{人|ひと}が{多|おお}い。",
+      "japanese": "{通勤電車|つうきんでんしゃ}⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧⟦で→で：00502_de⟧⟦スマホ→スマホ：04721_sumaho⟧⟦を→を：00422_wo⟧⟦{見|み}ている→見る：00283_miru⟧⟦{人|ひと}→人：00476_hito⟧⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "Many people look at their phones on the commuter train.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "TRANSPORTATION VOCABULARY:\n{通勤電車|つうきんでんしゃ} refers to trains used by commuters, especially during morning and evening rush hours.\n\nJAPANESE COMMUTER CULTURE:\nJapan is famous for its crowded commuter trains, especially in major cities like Tokyo and Osaka. Key features:\n- {満員電車|まんいんでんしゃ} - packed trains\n- {通勤|つうきん}ラッシュ - commuter rush\n- {帰宅|きたく}ラッシュ - evening rush\n\nCOMMON COLLOCATIONS:\n- {通勤電車|つうきんでんしゃ}に{乗|の}る - to ride the commuter train\n- {通勤電車|つうきんでんしゃ}が{遅|おく}れる - for the commuter train to be delayed\n- {通勤電車|つうきんでんしゃ}の{車内|しゃない} - inside the commuter train\n\nRELATED:\n- {満員電車|まんいんでんしゃ} - packed train\n- {始発電車|しはつでんしゃ} - first train\n- {終電|しゅうでん} - last train\n- {通勤|つうきん}ラッシュ - commuter rush\n- {吊|つ}り{革|かわ} - train strap",
+  "notes": "TRANSPORTATION VOCABULARY:\n{通勤電車|つうきんでんしゃ} refers to trains used by commuters, especially during morning and evening rush hours.\n\nJAPANESE COMMUTER CULTURE:\nJapan is famous for its crowded commuter trains, especially in major cities like Tokyo and Osaka. Key features:\n- ⟦{満員電車|まんいんでんしゃ}→満員電車：08350_manindensha⟧ - packed trains\n- ⟦{通勤|つうきん}ラッシュ→通勤ラッシュ：08486_tsuukinrasshu⟧ - commuter rush\n- ⟦{帰宅|きたく}ラッシュ→帰宅ラッシュ：08487_kitakurasshu⟧ - evening rush\n\nCOMMON COLLOCATIONS:\n- {通勤電車|つうきんでんしゃ}⟦に→に：00314_ni⟧⟦{乗|の}る→乗る：00511_noru⟧ - to ride the commuter train\n- {通勤電車|つうきんでんしゃ}⟦が→が：00051_ga⟧⟦{遅|おく}れる→遅れる：00741_okureru⟧ - for the commuter train to be delayed\n- {通勤電車|つうきんでんしゃ}⟦の→の：09472_no⟧⟦{車内|しゃない}→車内：06203_shanai⟧ - inside the commuter train\n\nRELATED WORDS:\n- ⟦{満員電車|まんいんでんしゃ}→満員電車：08350_manindensha⟧ - packed train\n- ⟦{始発電車|しはつでんしゃ}→始発電車：08569_shihatsudensha⟧ - first train\n- ⟦{終電|しゅうでん}→終電：05296_shuuden⟧ - last train\n- ⟦{通勤|つうきん}ラッシュ→通勤ラッシュ：08486_tsuukinrasshu⟧ - commuter rush\n- ⟦{吊|つ}り{革|かわ}→吊り革：08351_tsurikawa⟧ - train strap",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "08350_manindensha",
+      "reading": "まんいんでんしゃ",
+      "headword": "{満員電車|まんいんでんしゃ}",
+      "label": "packed train"
+    },
+    {
+      "type": "related",
+      "target_id": "08569_shihatsudensha",
+      "reading": "しはつでんしゃ",
+      "headword": "{始発電車|しはつでんしゃ}",
+      "label": "first train"
+    },
+    {
+      "type": "related",
+      "target_id": "05296_shuuden",
+      "reading": "しゅうでん",
+      "headword": "{終電|しゅうでん}",
+      "label": "last train"
+    },
+    {
+      "type": "related",
+      "target_id": "08486_tsuukinrasshu",
+      "reading": "つうきんらっしゅ",
+      "headword": "{通勤|つうきん}ラッシュ",
+      "label": "commuter rush"
+    },
+    {
+      "type": "related",
+      "target_id": "08351_tsurikawa",
+      "reading": "つりかわ",
+      "headword": "{吊|つ}り{革|かわ}",
+      "label": "train strap"
+    },
+    {
+      "type": "related",
+      "target_id": "10185_tsuukinjikan",
+      "reading": "つうきんじかん",
+      "headword": "{通勤時間|つうきんじかん}",
+      "label": "commute time, commuting time"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "semantic": ["transportation"]
+      "politeness": "plain",
+      "semantic": [
+        "transportation"
+      ]
     },
     "created": "2026-01-27T11:29:42Z",
-    "modified": "2026-01-27T11:29:42Z"
+    "modified": "2026-09-02T04:01:15Z"
   }
 }

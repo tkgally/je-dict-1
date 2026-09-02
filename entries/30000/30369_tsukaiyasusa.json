@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30369_tsukaiyasusa_ex1",
-      "japanese": "このアプリは{使|つか}いやすさが{評価|ひょうか}されている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦アプリ→アプリ：04722_apuri⟧⟦は→は：00079_ha⟧{使|つか}いやすさ⟦が→が：00051_ga⟧⟦{評価|ひょうか}→評価：03583_hyouka⟧⟦されている→する：00392_suru⟧。",
       "english": "This app is praised for its ease of use.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30369_tsukaiyasusa_ex2",
-      "japanese": "{値段|ねだん}よりも{使|つか}いやすさを{重視|じゅうし}して{選|えら}んだ。",
+      "japanese": "⟦{値段|ねだん}→値段：00871_nedan⟧⟦より→より：09476_yori⟧⟦も→も：00484_mo⟧{使|つか}いやすさ⟦を→を：00422_wo⟧⟦{重視|じゅうし}して→重視する：26832_juushisuru⟧⟦{選|えら}んだ→選ぶ：00835_erabu⟧。",
       "english": "I chose it valuing usability over price.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30369_tsukaiyasusa_ex3",
-      "japanese": "{機能|きのう}を{増|ふ}やしすぎると、かえって{使|つか}いやすさが{損|そこ}なわれる。",
+      "japanese": "⟦{機能|きのう}→機能：13165_kinou⟧⟦を→を：00422_wo⟧⟦{増|ふ}やし→増やす：02410_fuyasu⟧すぎる⟦と→と：00512_to⟧、かえって{使|つか}いやすさ⟦が→が：00051_ga⟧⟦{損|そこ}なわれる→損なう：18061_sokonau⟧。",
       "english": "Adding too many features actually harms usability.",
       "sense_numbers": [
         1
@@ -45,7 +45,7 @@
     },
     {
       "id": "30369_tsukaiyasusa_ex4",
-      "japanese": "{高齢者|こうれいしゃ}にとっての{使|つか}いやすさを{考|かんが}えて、{文字|もじ}を{大|おお}きくする{設計|せっけい}に{変更|へんこう}した。",
+      "japanese": "⟦{高齢者|こうれいしゃ}→高齢者：15649_koureisha⟧⟦にとって→にとって：06803_nitotte⟧⟦の→の：09472_no⟧{使|つか}いやすさ⟦を→を：00422_wo⟧⟦{考|かんが}えて→考える：00856_kangaeru⟧、⟦{文字|もじ}→文字：03632_moji⟧⟦を→を：00422_wo⟧⟦{大|おお}きく→大きい：00335_ookii⟧⟦する→する：00392_suru⟧⟦{設計|せっけい}→設計：03300_sekkei⟧⟦に→に：00314_ni⟧⟦{変更|へんこう}した→変更する：30779_henkousuru⟧。",
       "english": "Considering usability for older people, we changed the design to use larger text.",
       "sense_numbers": [
         1
@@ -54,12 +54,19 @@
       "notes": null
     }
   ],
-  "notes": "The noun form of {使|つか}いやすい (easy to use), made with the 〜さ suffix that turns adjectives into nouns of degree.\n\nCOMMON COLLOCATIONS:\n- {使|つか}いやすさを{重視|じゅうし}する: to place importance on usability\n- {使|つか}いやすさが{向上|こうじょう}する: usability improves\n- {使|つか}いやすさで{選|えら}ぶ: to choose based on ease of use\n\nSIMILAR WORDS:\n- {使|つか}い{勝手|がって}: usability in practice — more colloquial, focused on how a thing feels in daily use\n- ユーザビリティ: usability — the loanword, used in design and IT contexts\n- {使|つか}いにくさ: awkwardness to use — the direct opposite",
+  "notes": "The noun form of ⟦{使|つか}いやすい→使いやすい：30380_tsukaiyasui⟧ (easy to use), made with the 〜さ suffix that turns adjectives into nouns of degree.\n\nCOMMON COLLOCATIONS:\n- {使|つか}いやすさ⟦を→を：00422_wo⟧⟦{重視|じゅうし}する→重視する：26832_juushisuru⟧: to place importance on usability\n- {使|つか}いやすさ⟦が→が：00051_ga⟧⟦{向上|こうじょう}する→向上する：18997_koujousuru⟧: usability improves\n- {使|つか}いやすさ⟦で→で：00502_de⟧⟦{選|えら}ぶ→選ぶ：00835_erabu⟧: to choose based on ease of use\n\nSIMILAR WORDS:\n- ⟦{使|つか}い{勝手|がって}→使い勝手：14983_tsukaigatte⟧: usability in practice — more colloquial, focused on how a thing feels in daily use\n- ユーザビリティ: usability — the loanword, used in design and IT contexts\n- ⟦{使|つか}い→使う：00473_tsukau⟧にくさ: awkwardness to use — the direct opposite",
   "cross_references": [
     {
       "type": "related",
       "reading": "つかいやすい",
       "headword": "{使|つか}いやすい"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14983_tsukaigatte",
+      "reading": "つかいがって",
+      "headword": "{使|つか}い{勝手|がって}",
+      "label": "usability in practice"
     }
   ],
   "schema_version": "2.0",
@@ -70,13 +77,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "evaluation"
       ],
       "domain": []
     },
     "created": "2026-08-03T18:23:20Z",
-    "modified": "2026-08-03T18:23:20Z"
+    "modified": "2026-09-02T04:02:39Z"
   }
 }

@@ -15,39 +15,60 @@
   "examples": [
     {
       "id": "26388_denshirenjika_ex1",
-      "japanese": "この{容器|ようき}は{電子|でんし}レンジ{可|か}です。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{容器|ようき}→容器：03656_youki⟧⟦は→は：00079_ha⟧{電子|でんし}レンジ{可|か}です。",
       "english": "This container is microwave-safe.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26388_denshirenjika_ex2",
-      "japanese": "{電子|でんし}レンジ{可|か}のタッパーを{探|さが}している。",
+      "japanese": "{電子|でんし}レンジ{可|か}⟦の→の：09472_no⟧タッパー⟦を→を：00422_wo⟧⟦{探|さが}している→探す：00493_sagasu⟧。",
       "english": "I'm looking for a microwavable food container.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26388_denshirenjika_ex3",
-      "japanese": "{弁当箱|べんとうばこ}を{買|か}うときは、{電子|でんし}レンジ{可|か}かどうか{確認|かくにん}したほうがいい。",
+      "japanese": "⟦{弁当箱|べんとうばこ}→弁当箱：20186_bentoubako⟧⟦を→を：00422_wo⟧⟦{買|か}う→買う：00489_kau⟧とき⟦は→は：00079_ha⟧、{電子|でんし}レンジ{可|か}⟦かどうか→かどうか：28299_kadouka⟧⟦{確認|かくにん}した→確認する：25332_kakuninsuru⟧⟦ほうがいい→ほうがいい：10078_hougaii⟧。",
       "english": "When buying a lunch box, you should check whether it's microwave-safe.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {電子|でんし}レンジ (microwave oven) and {可|か} (permissible, OK). The suffix {可|か} is productively used in Japanese product labeling to indicate that something is safe or suitable for a specific use. Similar patterns include {食洗機|しょくせんき}{可|か} (dishwasher-safe) and {冷凍|れいとう}{可|か} (freezer-safe).\n\nThis word appears frequently on product packaging, kitchen goods, and online shopping descriptions. The opposite is {電子|でんし}レンジ{不可|ふか} (not microwave-safe).\n\nCOMMON COLLOCATIONS:\n- {電子|でんし}レンジ{可|か}の{容器|ようき}: microwave-safe container\n- {電子|でんし}レンジ{可|か}の{弁当箱|べんとうばこ}: microwave-safe lunch box\n- {電子|でんし}レンジ{可|か}・{食洗機|しょくせんき}{可|か}: microwave-safe and dishwasher-safe\n\nSIMILAR WORDS:\n- {電子|でんし}レンジ{不可|ふか}: not microwave-safe\n- {食洗機|しょくせんき}{可|か}: dishwasher-safe\n- {冷凍|れいとう}{可|か}: freezer-safe\n- {耐熱|たいねつ}: heat-resistant",
-  "cross_references": [],
+  "notes": "Composed of ⟦{電子|でんし}レンジ→電子レンジ：04973_denshirenji⟧ (microwave oven) and {可|か} (permissible, OK). The suffix {可|か} is productively used in Japanese product labeling to indicate that something is safe or suitable for a specific use. Similar patterns include ⟦{食洗機|しょくせんき}→食洗機：19300_shokusenki⟧{可|か} (dishwasher-safe) and ⟦{冷凍|れいとう}→冷凍：11730_reitou⟧{可|か} (freezer-safe).\n\nThis word appears frequently on product packaging, kitchen goods, and online shopping descriptions. The opposite is ⟦{電子|でんし}レンジ→電子レンジ：04973_denshirenji⟧⟦{不可|ふか}→不可：01922_fuka⟧ (not microwave-safe).\n\nCOMMON COLLOCATIONS:\n- {電子|でんし}レンジ{可|か}⟦の→の：09472_no⟧⟦{容器|ようき}→容器：03656_youki⟧: microwave-safe container\n- {電子|でんし}レンジ{可|か}⟦の→の：09472_no⟧⟦{弁当箱|べんとうばこ}→弁当箱：20186_bentoubako⟧: microwave-safe lunch box\n- {電子|でんし}レンジ{可|か}・⟦{食洗機|しょくせんき}→食洗機：19300_shokusenki⟧{可|か}: microwave-safe and dishwasher-safe\n\nSIMILAR WORDS:\n- ⟦{電子|でんし}レンジ→電子レンジ：04973_denshirenji⟧⟦{不可|ふか}→不可：01922_fuka⟧: not microwave-safe\n- ⟦{食洗機|しょくせんき}→食洗機：19300_shokusenki⟧{可|か}: dishwasher-safe\n- ⟦{冷凍|れいとう}→冷凍：11730_reitou⟧{可|か}: freezer-safe\n- ⟦{耐熱|たいねつ}→耐熱：21127_tainetsu⟧: heat-resistant",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21127_tainetsu",
+      "reading": "たいねつ",
+      "headword": "{耐熱|たいねつ}",
+      "label": "heat-resistant"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["cooking", "daily-life"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "cooking",
+        "daily-life"
+      ]
     },
     "created": "2026-05-01T13:33:35Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T04:02:26Z"
   }
 }

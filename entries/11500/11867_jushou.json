@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "11867_jushou_ex1",
-      "japanese": "ノーベル{賞|しょう}を{受賞|じゅしょう}した。",
+      "japanese": "ノーベル⟦{賞|しょう}→賞：03227_shou⟧⟦を→を：00422_wo⟧{受賞|じゅしょう}⟦した→する：00392_suru⟧。",
       "english": "He received the Nobel Prize.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "11867_jushou_ex2",
-      "japanese": "{受賞|じゅしょう}の{知|し}らせを{聞|き}いて{涙|なみだ}が{出|で}た。",
+      "japanese": "{受賞|じゅしょう}⟦の→の：09472_no⟧⟦{知|し}らせ→知らせ：03252_shirase⟧⟦を→を：00422_wo⟧⟦{聞|き}いて→聞く：00483_kiku⟧⟦{涙|なみだ}→涙：02235_namida⟧⟦が→が：00051_ga⟧⟦{出|で}た→出る：00513_deru⟧。",
       "english": "I was moved to tears when I heard the news of winning the award.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "11867_jushou_ex3",
-      "japanese": "{彼女|かのじょ}は{数々|かずかず}の{映画賞|えいがしょう}を{受賞|じゅしょう}した{実力派|じつりょくは}の{女優|じょゆう}だ。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧⟦{数々|かずかず}→数々：12722_kazukazu⟧⟦の→の：09472_no⟧{映画賞|えいがしょう}⟦を→を：00422_wo⟧{受賞|じゅしょう}⟦した→する：00392_suru⟧⟦{実力派|じつりょくは}→実力派：30320_jitsuryokuha⟧⟦の→の：09472_no⟧⟦{女優|じょゆう}→女優：03353_joyuu⟧だ。",
       "english": "She is a talented actress who has won numerous film awards.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,26 @@
       ]
     }
   ],
-  "notes": "Also functions as a する verb ({受賞|じゅしょう}する). The opposite is {授賞|じゅしょう} (giving/awarding a prize), which is a homophone — context usually makes the distinction clear.\n\nCOMMON COLLOCATIONS:\n・{受賞|じゅしょう}{者|しゃ} — prize winner, award recipient\n・{受賞|じゅしょう}{作|さく} — award-winning work\n・{受賞|じゅしょう}{歴|れき} — award history\n・{受賞|じゅしょう}スピーチ — acceptance speech\n・{受賞|じゅしょう}を{祝|いわ}う — to celebrate receiving an award",
-  "cross_references": [],
+  "notes": "Also functions as a ⟦する→する：00392_suru⟧ verb ({受賞|じゅしょう}⟦する→する：00392_suru⟧). The opposite is {授賞|じゅしょう} (giving/awarding a prize), which is a homophone — context usually makes the distinction clear.\n\nCOMMON COLLOCATIONS:\n- {受賞|じゅしょう}{者|しゃ} — prize winner, award recipient\n- {受賞|じゅしょう}⟦{作|さく}→作：27430_saku⟧ — award-winning work\n- {受賞|じゅしょう}{歴|れき} — award history\n- {受賞|じゅしょう}⟦スピーチ→スピーチ：03852_supiichi⟧ — acceptance speech\n- {受賞|じゅしょう}⟦を→を：00422_wo⟧⟦{祝|いわ}う→祝う：01881_iwau⟧ — to celebrate receiving an award",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11670_nyuushou",
+      "reading": "にゅうしょう",
+      "headword": "{入賞|にゅうしょう}",
+      "label": "winning a prize, placing (in a competition)"
+    },
+    {
+      "type": "homophone",
+      "target_id": "22879_jushou",
+      "reading": "じゅしょう",
+      "headword": "{受章|じゅしょう}",
+      "label": "receiving a decoration"
+    }
+  ],
   "metadata": {
     "created": "2026-02-18T13:42:52Z",
-    "modified": "2026-03-29T03:07:35Z",
+    "modified": "2026-09-02T04:01:26Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

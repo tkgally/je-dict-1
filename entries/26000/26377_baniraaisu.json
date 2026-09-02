@@ -15,39 +15,80 @@
   "examples": [
     {
       "id": "26377_baniraaisu_ex1",
-      "japanese": "バニラアイスを{一|ひと}つください。",
+      "japanese": "バニラアイス⟦を→を：00422_wo⟧⟦{一|ひと}つ→一つ：02948_hitotsu⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "One vanilla ice cream, please.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26377_baniraaisu_ex2",
-      "japanese": "ホットケーキにバニラアイスを{乗|の}せた。",
+      "japanese": "ホットケーキ⟦に→に：00314_ni⟧バニラアイス⟦を→を：00422_wo⟧⟦{乗|の}せた→乗せる：01972_noseru⟧。",
       "english": "I put vanilla ice cream on my pancakes.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26377_baniraaisu_ex3",
-      "japanese": "この{店|みせ}のバニラアイスは{濃厚|のうこう}で、{牧場|ぼくじょう}の{味|あじ}がする。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{店|みせ}→店：00497_mise⟧⟦の→の：09472_no⟧バニラアイス⟦は→は：00079_ha⟧⟦{濃厚|のうこう}→濃厚：07905_noukou⟧で、⟦{牧場|ぼくじょう}→牧場：06103_bokujou⟧⟦の→の：09472_no⟧⟦{味|あじ}→味：00826_aji⟧⟦が→が：00051_ga⟧⟦する→する：00392_suru⟧。",
       "english": "This shop's vanilla ice cream is rich and tastes like it's straight from the farm.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound loanword: バニラ (vanilla) + アイス (ice cream). アイス alone commonly means ice cream in Japanese, short for アイスクリーム.\n\nIn Japanese restaurants, a small serving of バニラアイス is one of the most common dessert options, often appearing as a simple, affordable dessert course. At convenience stores, vanilla is consistently the top-selling ice cream flavor.\n\nCOMMON COLLOCATIONS:\n- バニラアイスクリーム: vanilla ice cream (full form)\n- バニラアイスを{添|そ}える: to serve with vanilla ice cream\n- {濃厚|のうこう}バニラアイス: rich vanilla ice cream\n- バニラアイス{最中|もなか}: vanilla ice cream in a wafer shell\n\nRELATED TERMS:\n- アイスクリーム: ice cream — the general term\n- ソフトクリーム: soft serve — soft-serve ice cream (wasei-eigo)\n- ジェラート: gelato — Italian-style ice cream\n- かき{氷|ごおり}: shaved ice — a different frozen dessert",
-  "cross_references": [],
+  "notes": "A compound loanword: ⟦バニラ→バニラ：19022_banira⟧ (vanilla) + ⟦アイス→アイス：06770_aisu⟧ (ice cream). ⟦アイス→アイス：06770_aisu⟧ alone commonly means ice cream in Japanese, short for ⟦アイスクリーム→アイスクリーム：03830_aisukuriimu⟧.\n\nIn Japanese restaurants, a small serving of バニラアイス is one of the most common dessert options, often appearing as a simple, affordable dessert course. At convenience stores, vanilla is consistently the top-selling ice cream flavor.\n\nCOMMON COLLOCATIONS:\n- バニラアイスクリーム: vanilla ice cream (full form)\n- バニラアイス⟦を→を：00422_wo⟧⟦{添|そ}える→添える：13315_soeru⟧: to serve with vanilla ice cream\n- ⟦{濃厚|のうこう}→濃厚：07905_noukou⟧バニラアイス: rich vanilla ice cream\n- バニラアイス⟦{最中|もなか}→最中：28020_monaka⟧: vanilla ice cream in a wafer shell\n\nRELATED WORDS:\n- ⟦アイスクリーム→アイスクリーム：03830_aisukuriimu⟧: ice cream — the general term\n- ⟦ソフトクリーム→ソフトクリーム：17672_sofutokuriimu⟧: soft serve — soft-serve ice cream (wasei-eigo)\n- ⟦ジェラート→ジェラート：30406_jeraato⟧: gelato — Italian-style ice cream\n- ⟦かき{氷|ごおり}→かき氷：10300_kakigoori⟧: shaved ice — a different frozen dessert",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "03830_aisukuriimu",
+      "reading": "あいすくりーむ",
+      "headword": "アイスクリーム",
+      "label": "ice cream"
+    },
+    {
+      "type": "related",
+      "target_id": "17672_sofutokuriimu",
+      "reading": "そふとくりーむ",
+      "headword": "ソフトクリーム",
+      "label": "soft serve"
+    },
+    {
+      "type": "related",
+      "target_id": "30406_jeraato",
+      "reading": "じぇらーと",
+      "headword": "ジェラート",
+      "label": "gelato"
+    },
+    {
+      "type": "related",
+      "target_id": "10300_kakigoori",
+      "reading": "かきごおり",
+      "headword": "かき{氷|ごおり}",
+      "label": "shaved ice"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["food"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "food"
+      ]
     },
     "created": "2026-05-01T12:44:57Z",
-    "modified": "2026-05-01T12:44:57Z"
+    "modified": "2026-09-02T04:02:26Z"
   }
 }

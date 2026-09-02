@@ -3,7 +3,7 @@
   "id": "16524_katateochi",
   "headword": "{片手落|かたてお}ち",
   "reading": "かたておち",
-  "part_of_speech": "noun / adjective (na)",
+  "part_of_speech": "noun, na-adjective",
   "gloss": "unfair; one-sided; biased",
   "definitions": [
     {
@@ -15,41 +15,67 @@
   "examples": [
     {
       "id": "16524_katateochi_ex1",
-      "japanese": "それは{片手落|かたてお}ちだ。",
+      "japanese": "⟦それ→それ：00994_sore⟧⟦は→は：00079_ha⟧{片手落|かたてお}ちだ。",
       "english": "That's one-sided.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16524_katateochi_ex2",
-      "japanese": "{片手落|かたてお}ちな{判断|はんだん}は{避|さ}けるべきだ。",
+      "japanese": "{片手落|かたてお}ちな⟦{判断|はんだん}→判断：03571_handan⟧⟦は→は：00079_ha⟧⟦{避|さ}ける→避ける：02109_sakeru⟧べきだ。",
       "english": "One-sided judgments should be avoided.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16524_katateochi_ex3",
-      "japanese": "{一方|いっぽう}の{意見|いけん}だけを{聞|き}いて{決|き}めるのは{片手落|かたてお}ちではないか。",
+      "japanese": "⟦{一方|いっぽう}→一方：01739_ippou⟧⟦の→の：09472_no⟧⟦{意見|いけん}→意見：01303_iken⟧⟦だけ→〜だけ：03093_dake⟧⟦を→を：00422_wo⟧⟦{聞|き}いて→聞く：00483_kiku⟧⟦{決|き}める→決める：00858_kimeru⟧⟦の→の：09472_no⟧⟦は→は：00079_ha⟧{片手落|かたてお}ち⟦ではないか→ではないか：30627_dehanaika⟧。",
       "english": "Isn't it unfair to decide after hearing only one side's opinion?",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nUsed as a na-adjective or noun. Describes situations where fairness or balance is lacking. Often appears in criticism of decisions, policies, or evaluations.\n\nCOMMON COLLOCATIONS:\n- {片手落|かたてお}ちな{判断|はんだん} (one-sided judgment)\n- {片手落|かたてお}ちな{議論|ぎろん} (lopsided argument)\n- {片手落|かたてお}ちの{感|かん}がある (there is a sense of unfairness)\n\nSIMILAR WORDS:\n- {不公平|ふこうへい}: unfair — a more general and common word for unfairness\n- {偏|かたよ}る: to lean, to be biased — describes the action of becoming one-sided",
-  "cross_references": [],
+  "notes": "USAGE:\nUsed as a na-adjective or noun. Describes situations where fairness or balance is lacking. Often appears in criticism of decisions, policies, or evaluations.\n\nCOMMON COLLOCATIONS:\n- {片手落|かたてお}ちな⟦{判断|はんだん}→判断：03571_handan⟧ (one-sided judgment)\n- {片手落|かたてお}ちな⟦{議論|ぎろん}→議論：02650_giron⟧ (lopsided argument)\n- {片手落|かたてお}ち⟦の→の：09472_no⟧⟦{感|かん}→〜感：28578_kan⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧ (there is a sense of unfairness)\n\nSIMILAR WORDS:\n- ⟦{不公平|ふこうへい}→不公平：16851_fukouhei⟧: unfair — a more general and common word for unfairness\n- ⟦{偏|かたよ}る→偏る：07872_katayoru⟧: to lean, to be biased — describes the action of becoming one-sided",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16851_fukouhei",
+      "reading": "ふこうへい",
+      "headword": "{不公平|ふこうへい}",
+      "label": "unfair"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07872_katayoru",
+      "reading": "かたよる",
+      "headword": "{偏|かたよ}る",
+      "label": "to lean, to be biased"
+    }
+  ],
   "metadata": {
     "created": "2026-03-13T06:41:38Z",
-    "modified": "2026-03-13T06:41:38Z",
+    "modified": "2026-09-02T04:01:45Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-na"],
+      "pos": [
+        "noun",
+        "adjective-na"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

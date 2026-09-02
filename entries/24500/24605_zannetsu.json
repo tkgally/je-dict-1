@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24605_zannetsu_ex1",
-      "japanese": "{残熱|ざんねつ}で{卵|たまご}に{火|ひ}を{通|とお}す。",
+      "japanese": "{残熱|ざんねつ}⟦で→で：00502_de⟧⟦{卵|たまご}→卵：02222_tamago⟧⟦に→に：00314_ni⟧⟦{火|ひ}→火：02248_hi⟧⟦を→を：00422_wo⟧⟦{通|とお}す→通す：02300_toosu⟧。",
       "english": "Cook the egg through with the residual heat.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24605_zannetsu_ex2",
-      "japanese": "{火|ひ}を{消|け}した{後|あと}も、フライパンの{残熱|ざんねつ}で{調理|ちょうり}が{進|すす}む。",
+      "japanese": "⟦{火|ひ}→火：02248_hi⟧⟦を→を：00422_wo⟧⟦{消|け}した→消す：00528_kesu⟧⟦{後|あと}→後：09580_ato⟧⟦も→も：00484_mo⟧、⟦フライパン→フライパン：01025_furaipan⟧⟦の→の：09472_no⟧{残熱|ざんねつ}⟦で→で：00502_de⟧⟦{調理|ちょうり}→調理：07156_chouri⟧⟦が→が：00051_ga⟧⟦{進|すす}む→進む：01225_susumu⟧。",
       "english": "Even after turning off the heat, the residual heat in the frying pan continues cooking.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24605_zannetsu_ex3",
-      "japanese": "パスタは{茹|ゆ}で{上|あ}がる{一分前|いっぷんまえ}にお{湯|ゆ}から{上|あ}げて、ソースの{残熱|ざんねつ}で{絡|から}めると{美味|おい}しく{仕上|しあ}がる。",
+      "japanese": "⟦パスタ→パスタ：06768_pasuta⟧⟦は→は：00079_ha⟧⟦{茹|ゆ}で{上|あ}がる→茹で上がる：17741_yudeagaru⟧{一分前|いっぷんまえ}⟦に→に：00314_ni⟧⟦お{湯|ゆ}→お湯：02518_oyu⟧⟦から→から：00504_kara⟧⟦{上|あ}げて→上げる：02443_ageru⟧、⟦ソース→ソース：17673_soosu⟧⟦の→の：09472_no⟧{残熱|ざんねつ}⟦で→で：00502_de⟧⟦{絡|から}める→絡める：04601_karameru⟧⟦と→と：00512_to⟧⟦{美味|おい}しく→美味しい：00740_oishii⟧⟦{仕上|しあ}がる→仕上がる：11429_shiagaru⟧。",
       "english": "If you take the pasta out of the water one minute before it's done and toss it using the residual heat of the sauce, it turns out delicious.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "Heat that remains in an object or space after the heat source has been removed. Commonly used in cooking to describe using residual heat to finish cooking food, and also in engineering or industrial contexts for heat retained in machinery or buildings.\n\nCOMMON COLLOCATIONS:\n- {残熱|ざんねつ}で{火|ひ}を{通|とお}す: to cook through with residual heat\n- {残熱|ざんねつ}を{利用|りよう}する: to make use of residual heat\n- {残熱|ざんねつ}で{仕上|しあ}げる: to finish with residual heat\n- {残熱|ざんねつ}が{残|のこ}る: residual heat lingers\n\nSIMILAR WORDS:\n- {余熱|よねつ}: residual heat — synonymous; {余熱|よねつ} is more commonly used in cooking contexts\n- {廃熱|はいねつ}: waste heat — heat discarded from industrial or mechanical processes",
+  "notes": "Heat that remains in an object or space after the heat source has been removed. Commonly used in cooking to describe using residual heat to finish cooking food, and also in engineering or industrial contexts for heat retained in machinery or buildings.\n\nCOMMON COLLOCATIONS:\n- {残熱|ざんねつ}⟦で→で：00502_de⟧⟦{火|ひ}→火：02248_hi⟧⟦を→を：00422_wo⟧⟦{通|とお}す→通す：02300_toosu⟧: to cook through with residual heat\n- {残熱|ざんねつ}⟦を→を：00422_wo⟧⟦{利用|りよう}する→利用する：21735_riyousuru⟧: to make use of residual heat\n- {残熱|ざんねつ}⟦で→で：00502_de⟧⟦{仕上|しあ}げる→仕上げる：04664_shiageru⟧: to finish with residual heat\n- {残熱|ざんねつ}⟦が→が：00051_ga⟧⟦{残|のこ}る→残る：01187_nokoru⟧: residual heat lingers\n\nSIMILAR WORDS:\n- ⟦{余熱|よねつ}→余熱：17769_yonetsu⟧: residual heat — synonymous; ⟦{余熱|よねつ}→余熱：17769_yonetsu⟧ is more commonly used in cooking contexts\n- {廃熱|はいねつ}: waste heat — heat discarded from industrial or mechanical processes",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17769_yonetsu",
+      "reading": "よねつ",
+      "headword": "{余熱|よねつ}",
+      "label": "residual heat"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -63,6 +72,6 @@
       ]
     },
     "created": "2026-04-19T16:30:47Z",
-    "modified": "2026-04-19T16:30:47Z"
+    "modified": "2026-09-02T04:02:18Z"
   }
 }

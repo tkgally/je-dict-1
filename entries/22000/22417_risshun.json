@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22417_risshun_ex1",
-      "japanese": "{今日|きょう}は{立春|りっしゅん}です。",
+      "japanese": "⟦{今日|きょう}→今日：00496_kyou⟧⟦は→は：00079_ha⟧{立春|りっしゅん}です。",
       "english": "Today is the first day of spring.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22417_risshun_ex2",
-      "japanese": "{立春|りっしゅん}を{過|す}ぎても{寒|さむ}い{日|ひ}が{続|つづ}く。",
+      "japanese": "{立春|りっしゅん}⟦を→を：00422_wo⟧⟦{過|す}ぎて→過ぎる：01219_sugiru⟧⟦も→も：00484_mo⟧⟦{寒|さむ}い→寒い：00664_samui⟧⟦{日|ひ}→日：02249_hi⟧⟦が→が：00051_ga⟧⟦{続|つづ}く→続く：00903_tsuzuku⟧。",
       "english": "Cold days continue even after the start of spring.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22417_risshun_ex3",
-      "japanese": "{暦|こよみ}の{上|うえ}では{立春|りっしゅん}だが、まだまだ{冬|ふゆ}の{寒|さむ}さが{残|のこ}っている。",
+      "japanese": "⟦{暦|こよみ}→暦：19338_koyomi⟧⟦の→の：09472_no⟧⟦{上|うえ}→上：00682_ue⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧{立春|りっしゅん}だ⟦が→が：00051_ga⟧、⟦まだまだ→まだまだ：10505_madamada⟧⟦{冬|ふゆ}→冬：00623_fuyu⟧⟦の→の：09472_no⟧⟦{寒|さむ}さ→寒さ：12336_samusa⟧⟦が→が：00051_ga⟧⟦{残|のこ}っている→残る：01187_nokoru⟧。",
       "english": "On the calendar it's the start of spring, but the winter cold still lingers.",
       "sense_numbers": [
         1
@@ -44,8 +44,45 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {立|りつ} (stand/establish) and {春|しゅん} (spring). One of the {二十四節気|にじゅうしせっき} (24 solar terms), an ancient system dividing the year based on the sun's position. {立春|りっしゅん} typically falls around February 4th.\n\nCOMMON COLLOCATIONS:\n- {立春|りっしゅん}を{迎|むか}える: to welcome the start of spring\n- {立春|りっしゅん}{大吉|だいきち}: great luck on the first day of spring (auspicious phrase)\n- {暦|こよみ}の{上|うえ}では{立春|りっしゅん}: on the calendar it's spring\n\nCULTURAL NOTE:\nThe day before {立春|りっしゅん} is {節分|せつぶん}, when people throw beans ({豆|まめ}まき) to drive away evil spirits. Letters written after {立春|りっしゅん} conventionally use spring greetings even if the weather is still cold.\n\nRELATED TERMS:\n- {立夏|りっか}: beginning of summer\n- {立秋|りっしゅう}: beginning of autumn\n- {立冬|りっとう}: beginning of winter\n- {節分|せつぶん}: the day before {立春|りっしゅん}, bean-throwing festival",
+  "notes": "Composed of {立|りつ} (stand/establish) and {春|しゅん} (spring). One of the ⟦{二十四節気|にじゅうしせっき}→二十四節気：25146_nijuushisekki⟧ (24 solar terms), an ancient system dividing the year based on the sun's position. {立春|りっしゅん} typically falls around February 4th.\n\nCOMMON COLLOCATIONS:\n- {立春|りっしゅん}⟦を→を：00422_wo⟧⟦{迎|むか}える→迎える：01193_mukaeru⟧: to welcome the start of spring\n- {立春|りっしゅん}⟦{大吉|だいきち}→大吉：19336_daikichi⟧: great luck on the first day of spring (auspicious phrase)\n- ⟦{暦|こよみ}→暦：19338_koyomi⟧⟦の→の：09472_no⟧⟦{上|うえ}→上：00682_ue⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧{立春|りっしゅん}: on the calendar it's spring\n\nCULTURAL NOTE:\nThe day before {立春|りっしゅん} is ⟦{節分|せつぶん}→節分：18971_setsubun⟧, when people throw beans (⟦{豆|まめ}まき→豆まき：14275_mamemaki⟧) to drive away evil spirits. Letters written after {立春|りっしゅん} conventionally use spring greetings even if the weather is still cold.\n\nRELATED WORDS:\n- ⟦{立夏|りっか}→立夏：20374_rikka⟧: beginning of summer\n- ⟦{立秋|りっしゅう}→立秋：26285_risshuu⟧: beginning of autumn\n- ⟦{立冬|りっとう}→立冬：26312_rittou⟧: beginning of winter\n- ⟦{節分|せつぶん}→節分：18971_setsubun⟧: the day before {立春|りっしゅん}, bean-throwing festival",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "20374_rikka",
+      "reading": "りっか",
+      "headword": "{立夏|りっか}",
+      "label": "beginning of summer"
+    },
+    {
+      "type": "related",
+      "target_id": "26285_risshuu",
+      "reading": "りっしゅう",
+      "headword": "{立秋|りっしゅう}",
+      "label": "beginning of autumn"
+    },
+    {
+      "type": "related",
+      "target_id": "26312_rittou",
+      "reading": "りっとう",
+      "headword": "{立冬|りっとう}",
+      "label": "beginning of winter"
+    },
+    {
+      "type": "related",
+      "target_id": "18971_setsubun",
+      "reading": "せつぶん",
+      "headword": "{節分|せつぶん}",
+      "label": "the day before, bean-throwing festival"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21709_shoshun",
+      "reading": "しょしゅん",
+      "headword": "{初春|しょしゅん}",
+      "label": "early spring"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +97,6 @@
       ]
     },
     "created": "2026-04-05T21:08:10Z",
-    "modified": "2026-07-30T03:35:34Z"
+    "modified": "2026-09-02T04:02:08Z"
   }
 }

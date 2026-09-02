@@ -34,7 +34,7 @@
     },
     {
       "id": "03572_hannin_ex3",
-      "japanese": "{犯人|はんにん}⟦は→は：00079_ha⟧⟦{逃走|とうそう}→逃走：14403_tousou⟧した。",
+      "japanese": "{犯人|はんにん}⟦は→は：00079_ha⟧⟦{逃走|とうそう}→逃走：14403_tousou⟧⟦した→する：00392_suru⟧。",
       "english": "The criminal escaped.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "USAGE: {犯人|はんにん} refers specifically to someone who has committed a crime. It's commonly used in news reports and crime stories.\n\nCOMMON PATTERNS:\n・{犯人|はんにん}⟦を→を：00422_wo⟧⟦{捕|つか}まえる→捕まえる：01214_tsukamaeru⟧ (to catch the criminal)\n・{犯人|はんにん}⟦を→を：00422_wo⟧⟦{逮捕|たいほ}→逮捕：03397_taiho⟧する (to arrest the criminal)\n・{犯人|はんにん}⟦が→が：00051_ga⟧⟦{逃|に}げる→逃げる：01151_nigeru⟧ (the criminal escapes)\n・⟦{真|しん}{犯人|はんにん}→真犯人：28193_shinhannin⟧ (the real culprit)\n\nCOMMON COLLOCATIONS:\n・{犯人|はんにん}⟦{逮捕|たいほ}→逮捕：03397_taiho⟧ (criminal's arrest)\n・{犯人|はんにん}⟦{捜索|そうさく}→捜索：19220_sousaku⟧ (search for criminal)\n・{犯人|はんにん}⟦の→の：09472_no⟧⟦{目星|めぼし}→目星：15941_meboshi⟧ (suspect/lead on the criminal)\n・{犯人|はんにん}⟦{像|ぞう}→像：03691_zou⟧ (profile of the criminal)\n\nRELATED WORDS:\n・⟦{容疑者|ようぎしゃ}→容疑者：15039_yougisha⟧ - suspect (formal, legal)\n・⟦{被疑者|ひぎしゃ}→被疑者：22237_higisha⟧ - suspect (legal term)\n・⟦{犯罪者|はんざいしゃ}→犯罪者：19219_hanzaisha⟧ - criminal (general term)",
+  "notes": "USAGE: {犯人|はんにん} refers specifically to someone who has committed a crime. It's commonly used in news reports and crime stories.\n\nCOMMON PATTERNS:\n- {犯人|はんにん}⟦を→を：00422_wo⟧⟦{捕|つか}まえる→捕まえる：01214_tsukamaeru⟧ (to catch the criminal)\n- {犯人|はんにん}⟦を→を：00422_wo⟧⟦{逮捕|たいほ}→逮捕：03397_taiho⟧⟦する→する：00392_suru⟧ (to arrest the criminal)\n- {犯人|はんにん}⟦が→が：00051_ga⟧⟦{逃|に}げる→逃げる：01151_nigeru⟧ (the criminal escapes)\n- ⟦{真|しん}{犯人|はんにん}→真犯人：28193_shinhannin⟧ (the real culprit)\n\nCOMMON COLLOCATIONS:\n- {犯人|はんにん}⟦{逮捕|たいほ}→逮捕：03397_taiho⟧ (criminal's arrest)\n- {犯人|はんにん}⟦{捜索|そうさく}→捜索：19220_sousaku⟧ (search for criminal)\n- {犯人|はんにん}⟦の→の：09472_no⟧⟦{目星|めぼし}→目星：15941_meboshi⟧ (suspect/lead on the criminal)\n- {犯人|はんにん}⟦{像|ぞう}→像：03691_zou⟧ (profile of the criminal)\n\nRELATED WORDS:\n- ⟦{容疑者|ようぎしゃ}→容疑者：15039_yougisha⟧ - suspect (formal, legal)\n- ⟦{被疑者|ひぎしゃ}→被疑者：22237_higisha⟧ - suspect (legal term)\n- ⟦{犯罪者|はんざいしゃ}→犯罪者：19219_hanzaisha⟧ - criminal (general term)",
   "cross_references": [
     {
       "type": "related",
@@ -51,11 +51,60 @@
       "headword": "{犯罪|はんざい}",
       "label": "crime",
       "target_id": "03569_hanzai"
+    },
+    {
+      "type": "related",
+      "target_id": "15039_yougisha",
+      "reading": "ようぎしゃ",
+      "headword": "{容疑者|ようぎしゃ}",
+      "label": "suspect"
+    },
+    {
+      "type": "related",
+      "target_id": "22237_higisha",
+      "reading": "ひぎしゃ",
+      "headword": "{被疑者|ひぎしゃ}",
+      "label": "suspect"
+    },
+    {
+      "type": "related",
+      "target_id": "19219_hanzaisha",
+      "reading": "はんざいしゃ",
+      "headword": "{犯罪者|はんざいしゃ}",
+      "label": "criminal"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11533_genkyou",
+      "reading": "げんきょう",
+      "headword": "{元凶|げんきょう}",
+      "label": "root cause, chief culprit, main offender"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23640_seihan",
+      "reading": "せいはん",
+      "headword": "{正犯|せいはん}",
+      "label": "principal (offender)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26787_chouhonnin",
+      "reading": "ちょうほんにん",
+      "headword": "{張本人|ちょうほんにん}",
+      "label": "main culprit"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29116_akunin",
+      "reading": "あくにん",
+      "headword": "{悪人|あくにん}",
+      "label": "villain"
     }
   ],
   "metadata": {
     "created": "2026-01-12T11:54:00Z",
-    "modified": "2026-08-13T15:50:29Z",
+    "modified": "2026-09-02T04:01:03Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

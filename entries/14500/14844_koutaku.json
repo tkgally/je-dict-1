@@ -15,41 +15,73 @@
   "examples": [
     {
       "id": "14844_koutaku_ex1",
-      "japanese": "{光沢|こうたく}のある{布|ぬの}。",
+      "japanese": "{光沢|こうたく}⟦の→の：09472_no⟧⟦ある→ある：00006_aru⟧⟦{布|ぬの}→布：01489_nuno⟧。",
       "english": "A fabric with a sheen.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14844_koutaku_ex2",
-      "japanese": "この{革|かわ}は{磨|みが}くと{美|うつく}しい{光沢|こうたく}が{出|で}る。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{革|かわ}→革：19310_kawa⟧⟦は→は：00079_ha⟧⟦{磨|みが}く→磨く：02427_migaku⟧⟦と→と：00512_to⟧⟦{美|うつく}しい→美しい：01121_utsukushii⟧{光沢|こうたく}⟦が→が：00051_ga⟧⟦{出|で}る→出る：00513_deru⟧。",
       "english": "This leather develops a beautiful luster when polished.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14844_koutaku_ex3",
-      "japanese": "{長年|ながねん}{使|つか}い{込|こ}まれた{木|き}のテーブルは、{深|ふか}い{光沢|こうたく}を{帯|お}びていた。",
+      "japanese": "⟦{長年|ながねん}→長年：09684_naganen⟧⟦{使|つか}い{込|こ}まれた→使い込む：07876_tsukaikomu⟧⟦{木|き}→木：00524_ki⟧⟦の→の：09472_no⟧⟦テーブル→テーブル：04488_teeburu⟧⟦は→は：00079_ha⟧、⟦{深|ふか}い→深い：01211_fukai⟧{光沢|こうたく}⟦を→を：00422_wo⟧⟦{帯|お}びていた→帯びる：12428_obiru⟧。",
       "english": "The wooden table, used for many years, had taken on a deep sheen.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE NOTES:\n{光沢|こうたく} refers to a reflective quality on surfaces and is commonly used in product descriptions, material science, and everyday descriptions of polished or glossy items.\n\nCOMMON COLLOCATIONS:\n- {光沢|こうたく}がある (have a sheen)\n- {光沢|こうたく}を{出|だ}す (bring out a sheen)\n- {光沢|こうたく}を{帯|お}びる (take on a luster)\n- {光沢|こうたく}{仕上|しあ}げ (glossy finish)\n\nSIMILAR WORDS:\n- {艶|つや} is a more everyday word for gloss or sheen, often used for hair and skin\n- {光沢|こうたく} is more technical and formal, common in product descriptions and material contexts",
-  "cross_references": [],
+  "notes": "USAGE:\n{光沢|こうたく} refers to a reflective quality on surfaces and is commonly used in product descriptions, material science, and everyday descriptions of polished or glossy items.\n\nCOMMON COLLOCATIONS:\n- {光沢|こうたく}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧ (have a sheen)\n- {光沢|こうたく}⟦を→を：00422_wo⟧⟦{出|だ}す→出す：01087_dasu⟧ (bring out a sheen)\n- {光沢|こうたく}⟦を→を：00422_wo⟧⟦{帯|お}びる→帯びる：12428_obiru⟧ (take on a luster)\n- {光沢|こうたく}⟦{仕上|しあ}げ→仕上げ：11519_shiage⟧ (glossy finish)\n\nSIMILAR WORDS:\n- ⟦{艶|つや}→艶：03893_tsuya⟧ is a more everyday word for gloss or sheen, often used for hair and skin\n- {光沢|こうたく} is more technical and formal, common in product descriptions and material contexts",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03893_tsuya",
+      "reading": "つや",
+      "headword": "{艶|つや}",
+      "label": "is a more everyday word for gloss…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21706_kagayaki",
+      "reading": "かがやき",
+      "headword": "{輝|かがや}き",
+      "label": "brilliance"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25614_kyoumen",
+      "reading": "きょうめん",
+      "headword": "{鏡面|きょうめん}",
+      "label": "mirror surface"
+    }
+  ],
   "metadata": {
     "created": "2026-03-04T04:31:11Z",
-    "modified": "2026-03-04T04:31:11Z",
+    "modified": "2026-09-02T04:01:39Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["descriptive"]
+      "semantic": [
+        "descriptive"
+      ]
     }
   }
 }

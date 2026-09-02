@@ -20,7 +20,7 @@
   "examples": [
     {
       "id": "19886_karyoku_ex1",
-      "japanese": "{火力|かりょく}を{強|つよ}くする。",
+      "japanese": "{火力|かりょく}⟦を→を：00422_wo⟧⟦{強|つよ}く→強い：00820_tsuyoi⟧⟦する→する：00392_suru⟧。",
       "english": "To turn up the heat.",
       "sense_numbers": [
         1
@@ -30,7 +30,7 @@
     },
     {
       "id": "19886_karyoku_ex2",
-      "japanese": "{強|つよ}い{火力|かりょく}で{一気|いっき}に{炒|いた}める。",
+      "japanese": "⟦{強|つよ}い→強い：00820_tsuyoi⟧{火力|かりょく}⟦で→で：00502_de⟧⟦{一気|いっき}→一気：08891_ikki⟧⟦に→に：00314_ni⟧⟦{炒|いた}める→炒める：01879_itameru⟧。",
       "english": "Stir-fry quickly over high heat.",
       "sense_numbers": [
         1
@@ -40,7 +40,7 @@
     },
     {
       "id": "19886_karyoku_ex3",
-      "japanese": "このコンロは{火力|かりょく}が{足|た}りないので、{中華|ちゅうか}{料理|りょうり}には{向|む}かない。",
+      "japanese": "⟦この→この：00962_kono⟧⟦コンロ→コンロ：04677_konro⟧⟦は→は：00079_ha⟧{火力|かりょく}⟦が→が：00051_ga⟧⟦{足|た}りない→足りる：01209_tariru⟧⟦の→の：09472_no⟧で、⟦{中華|ちゅうか}{料理|りょうり}→中華料理：18122_chuukaryouri⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{向|む}かない→向く：02304_muku⟧。",
       "english": "This stove doesn't have enough heat output, so it's not suitable for Chinese cooking.",
       "sense_numbers": [
         1
@@ -50,7 +50,7 @@
     },
     {
       "id": "19886_karyoku_ex4",
-      "japanese": "{火力|かりょく}{発電所|はつでんしょ}。",
+      "japanese": "{火力|かりょく}⟦{発電所|はつでんしょ}→発電所：15991_hatsudensho⟧。",
       "english": "A thermal power plant.",
       "sense_numbers": [
         2
@@ -60,7 +60,7 @@
     },
     {
       "id": "19886_karyoku_ex5",
-      "japanese": "{敵|てき}の{火力|かりょく}が{強|つよ}い。",
+      "japanese": "⟦{敵|てき}→敵：03546_teki⟧⟦の→の：09472_no⟧{火力|かりょく}⟦が→が：00051_ga⟧⟦{強|つよ}い→強い：00820_tsuyoi⟧。",
       "english": "The enemy's firepower is strong.",
       "sense_numbers": [
         2
@@ -70,7 +70,7 @@
     },
     {
       "id": "19886_karyoku_ex6",
-      "japanese": "{日本|にほん}の{電力|でんりょく}の{多|おお}くは{火力|かりょく}{発電|はつでん}に{頼|たよ}っている。",
+      "japanese": "⟦{日本|にほん}→日本：03876_nihon⟧⟦の→の：09472_no⟧⟦{電力|でんりょく}→電力：14609_denryoku⟧⟦の→の：09472_no⟧{多|おお}く⟦は→は：00079_ha⟧{火力|かりょく}{発電|はつでん}⟦に→に：00314_ni⟧⟦{頼|たよ}っている→頼る：02069_tayoru⟧。",
       "english": "Much of Japan's electricity depends on thermal power generation.",
       "sense_numbers": [
         2
@@ -79,8 +79,31 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {火|か} (fire) + {力|りょく} (power). In everyday life, sense 1 (cooking heat) is the most frequently encountered usage. Sense 2 appears in news about energy policy and military topics.\n\nUSAGE:\nIn cooking, {火力|かりょく} refers to the intensity of the flame or heat source. Chinese cooking ({中華|ちゅうか}{料理|りょうり}) in particular demands high {火力|かりょく} for proper wok cooking.\n\nCOMMON COLLOCATIONS:\n- {火力|かりょく}を{上|あ}げる — to increase the heat\n- {火力|かりょく}を{落|お}とす — to reduce the heat\n- {火力|かりょく}{発電|はつでん} — thermal power generation\n- {火力|かりょく}{発電所|はつでんしょ} — thermal power plant\n- {最大|さいだい}{火力|かりょく} — maximum heat/firepower\n\nSIMILAR WORDS:\n- {火加減|ひかげん} — heat level; specifically the adjustment of flame when cooking\n- {強火|つよび} — high heat (cooking term)\n- {弱火|よわび} — low heat (cooking term)",
+  "notes": "Composed of {火|か} (fire) + {力|りょく} (power). In everyday life, sense 1 (cooking heat) is the most frequently encountered usage. Sense 2 appears in news about energy policy and military topics.\n\nUSAGE:\nIn cooking, {火力|かりょく} refers to the intensity of the flame or heat source. Chinese cooking (⟦{中華|ちゅうか}{料理|りょうり}→中華料理：18122_chuukaryouri⟧) in particular demands high {火力|かりょく} for proper wok cooking.\n\nCOMMON COLLOCATIONS:\n- {火力|かりょく}⟦を→を：00422_wo⟧⟦{上|あ}げる→上げる：02443_ageru⟧ — to increase the heat\n- {火力|かりょく}⟦を→を：00422_wo⟧⟦{落|お}とす→落とす：01246_otosu⟧ — to reduce the heat\n- {火力|かりょく}{発電|はつでん} — thermal power generation\n- {火力|かりょく}⟦{発電所|はつでんしょ}→発電所：15991_hatsudensho⟧ — thermal power plant\n- ⟦{最大|さいだい}→最大：04827_saidai⟧{火力|かりょく} — maximum heat/firepower\n\nSIMILAR WORDS:\n- ⟦{火加減|ひかげん}→火加減：06656_hikagen⟧ — heat level; specifically the adjustment of flame when cooking\n- ⟦{強火|つよび}→強火：08170_tsuyobi⟧ — high heat (cooking term)\n- ⟦{弱火|よわび}→弱火：08168_yowabi⟧ — low heat (cooking term)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06656_hikagen",
+      "reading": "ひかげん",
+      "headword": "{火加減|ひかげん}",
+      "label": "heat level"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08170_tsuyobi",
+      "reading": "つよび",
+      "headword": "{強火|つよび}",
+      "label": "high heat"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08168_yowabi",
+      "reading": "よわび",
+      "headword": "{弱火|よわび}",
+      "label": "low heat"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -95,6 +118,6 @@
       ]
     },
     "created": "2026-03-27T05:09:12Z",
-    "modified": "2026-07-27T12:42:09Z"
+    "modified": "2026-09-02T04:01:57Z"
   }
 }

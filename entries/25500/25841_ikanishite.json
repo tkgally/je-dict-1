@@ -15,40 +15,59 @@
   "examples": [
     {
       "id": "25841_ikanishite_ex1",
-      "japanese": "いかにして{成功|せいこう}したのか。",
+      "japanese": "いかにして⟦{成功|せいこう}した→成功する：21445_seikousuru⟧⟦の→の：09472_no⟧⟦か→か：09473_ka⟧。",
       "english": "How did they succeed?",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "25841_ikanishite_ex2",
-      "japanese": "いかにしてこの{問題|もんだい}を{解決|かいけつ}するかが{課題|かだい}だ。",
+      "japanese": "いかにして⟦この→この：00962_kono⟧⟦{問題|もんだい}→問題：00797_mondai⟧⟦を→を：00422_wo⟧⟦{解決|かいけつ}する→解決する：17191_kaiketsusuru⟧⟦か→か：09473_ka⟧⟦が→が：00051_ga⟧⟦{課題|かだい}→課題：00132_kadai⟧だ。",
       "english": "The challenge is how to solve this problem.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "25841_ikanishite_ex3",
-      "japanese": "{日本|にほん}はいかにして{経済|けいざい}{大国|たいこく}になったのか、{多|おお}くの{研究者|けんきゅうしゃ}が{分析|ぶんせき}してきた。",
+      "japanese": "⟦{日本|にほん}→日本：03876_nihon⟧⟦は→は：00079_ha⟧いかにして⟦{経済|けいざい}{大国|たいこく}→経済大国：27186_keizaitaikoku⟧になった⟦の→の：09472_no⟧⟦か→か：09473_ka⟧、{多|おお}く⟦の→の：09472_no⟧⟦{研究者|けんきゅうしゃ}→研究者：02573_kenkyuusha⟧⟦が→が：00051_ga⟧⟦{分析|ぶんせき}して→分析する：25338_bunsekisuru⟧きた。",
       "english": "Many researchers have analyzed how Japan became an economic powerhouse.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of いかに (how, in what way) + して (te-form of する). A literary and formal alternative to どうやって or どのようにして. Very common in book titles, academic writing, and journalistic prose. Rarely used in casual conversation.\n\nCOMMON PATTERNS:\n- いかにして〜するか: how to do ~\n- いかにして〜したのか: how ~ was done\n- いかにして〜すべきか: how one should ~\n\nREGISTER:\nWritten and formal. In everyday speech, どうやって or どのようにして are used instead.\n\nSIMILAR WORDS:\n- どうやって: how; by what means — the everyday spoken equivalent\n- どのようにして: in what way; how — formal but less literary than いかにして\n- いかに: how; how much — the base form, also used as an intensifier meaning \"how very\"",
-  "cross_references": [],
+  "notes": "Composed of いかに (how, in what way) + ⟦して→する：00392_suru⟧ (te-form of ⟦する→する：00392_suru⟧). A literary and formal alternative to ⟦どうやって→どうやって：27496_douyatte⟧ or ⟦どのように→どのように：23674_donoyouni⟧⟦して→する：00392_suru⟧. Very common in book titles, academic writing, and journalistic prose. Rarely used in casual conversation.\n\nCOMMON PATTERNS:\n- いかにして〜⟦する→する：00392_suru⟧⟦か→か：09473_ka⟧: how to do ~\n- いかにして〜⟦した→する：00392_suru⟧⟦の→の：09472_no⟧⟦か→か：09473_ka⟧: how ~ was done\n- いかにして〜すべき⟦か→か：09473_ka⟧: how one should ~\n\nREGISTER:\nWritten and formal. In everyday speech, ⟦どうやって→どうやって：27496_douyatte⟧ or ⟦どのように→どのように：23674_donoyouni⟧⟦して→する：00392_suru⟧ are used instead.\n\nSIMILAR WORDS:\n- ⟦どうやって→どうやって：27496_douyatte⟧: how; by what means — the everyday spoken equivalent\n- ⟦どのように→どのように：23674_donoyouni⟧⟦して→する：00392_suru⟧: in what way; how — formal but less literary than いかにして\n- いかに: how; how much — the base form, also used as an intensifier meaning \"how very\"",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "27496_douyatte",
+      "reading": "どうやって",
+      "headword": "どうやって",
+      "label": "how"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adverb"],
+      "pos": [
+        "adverb"
+      ],
       "formality": "formal",
-      "semantic": ["language"]
+      "politeness": "plain",
+      "semantic": [
+        "language"
+      ]
     },
     "created": "2026-04-27T15:10:28Z",
-    "modified": "2026-04-27T15:10:28Z"
+    "modified": "2026-09-02T04:02:24Z"
   }
 }

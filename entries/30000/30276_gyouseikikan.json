@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30276_gyouseikikan_ex1",
-      "japanese": "{行政機関|ぎょうせいきかん}に{届|とど}け{出|で}る。",
+      "japanese": "{行政機関|ぎょうせいきかん}⟦に→に：00314_ni⟧⟦{届|とど}け{出|で}る→届け出る：05910_todokederu⟧。",
       "english": "To file a notification with an administrative agency.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "30276_gyouseikikan_ex2",
-      "japanese": "この{制度|せいど}は{複数|ふくすう}の{行政機関|ぎょうせいきかん}が{関|かか}わっている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{制度|せいど}→制度：03291_seido⟧⟦は→は：00079_ha⟧⟦{複数|ふくすう}→複数：14236_fukusuu⟧⟦の→の：09472_no⟧{行政機関|ぎょうせいきかん}⟦が→が：00051_ga⟧⟦{関|かか}わっている→関わる：03020_kakawaru⟧。",
       "english": "Several administrative agencies are involved in this system.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "30276_gyouseikikan_ex3",
-      "japanese": "{行政機関|ぎょうせいきかん}が{持|も}つ{情報|じょうほう}は、{原則|げんそく}として{公開|こうかい}を{請求|せいきゅう}することができる。",
+      "japanese": "{行政機関|ぎょうせいきかん}⟦が→が：00051_ga⟧⟦{持|も}つ→持つ：00478_motsu⟧⟦{情報|じょうほう}→情報：03348_jouhou⟧⟦は→は：00079_ha⟧、⟦{原則|げんそく}→原則：11801_gensoku⟧⟦として→として：06802_toshite⟧⟦{公開|こうかい}→公開：11665_koukai⟧⟦を→を：00422_wo⟧⟦{請求|せいきゅう}する→請求する：26988_seikyuusuru⟧こと⟦が→が：00051_ga⟧⟦できる→できる：00557_dekiru⟧。",
       "english": "As a rule, one can request disclosure of information held by administrative agencies.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "{行政|ぎょうせい} (administration, the executive) + {機関|きかん} (organ, institution). A term of law and public administration, common in official documents and news.\n\nCOMMON COLLOCATIONS:\n- {国|くに}の{行政機関|ぎょうせいきかん}: national administrative agencies\n- {行政機関|ぎょうせいきかん}の{長|ちょう}: the head of an agency\n- {行政機関|ぎょうせいきかん}に{申請|しんせい}する: to apply to an administrative agency\n\nSIMILAR WORDS:\n- {役所|やくしょ}: government office — the everyday word for the building or counter one visits\n- {官庁|かんちょう}: government ministries and agencies — refers to national-level bodies collectively\n- {自治体|じちたい}: local government — a prefecture or municipality as a unit",
+  "notes": "⟦{行政|ぎょうせい}→行政：14122_gyousei⟧ (administration, the executive) + ⟦{機関|きかん}→機関：02630_kikan⟧ (organ, institution). A term of law and public administration, common in official documents and news.\n\nCOMMON COLLOCATIONS:\n- ⟦{国|くに}→国：02204_kuni⟧⟦の→の：09472_no⟧{行政機関|ぎょうせいきかん}: national administrative agencies\n- {行政機関|ぎょうせいきかん}⟦の→の：09472_no⟧⟦{長|ちょう}→〜長：04665_chou⟧: the head of an agency\n- {行政機関|ぎょうせいきかん}⟦に→に：00314_ni⟧⟦{申請|しんせい}する→申請する：25228_shinseisuru⟧: to apply to an administrative agency\n\nSIMILAR WORDS:\n- ⟦{役所|やくしょ}→役所：06455_yakusho⟧: government office — the everyday word for the building or counter one visits\n- ⟦{官庁|かんちょう}→官庁：12470_kanchou⟧: government ministries and agencies — refers to national-level bodies collectively\n- ⟦{自治体|じちたい}→自治体：13946_jichitai⟧: local government — a prefecture or municipality as a unit",
   "cross_references": [
     {
       "type": "related",
@@ -52,6 +52,34 @@
       "reading": "きかん",
       "headword": "{機関|きかん}",
       "label": "organization, agency"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06455_yakusho",
+      "reading": "やくしょ",
+      "headword": "{役所|やくしょ}",
+      "label": "government office"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12470_kanchou",
+      "reading": "かんちょう",
+      "headword": "{官庁|かんちょう}",
+      "label": "government ministries and agencies"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13946_jichitai",
+      "reading": "じちたい",
+      "headword": "{自治体|じちたい}",
+      "label": "local government"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17120_kankouchou",
+      "reading": "かんこうちょう",
+      "headword": "{官公庁|かんこうちょう}",
+      "label": "government offices"
     }
   ],
   "metadata": {
@@ -70,6 +98,6 @@
       ]
     },
     "created": "2026-07-31T06:19:07Z",
-    "modified": "2026-07-31T06:19:07Z"
+    "modified": "2026-09-02T04:02:39Z"
   }
 }

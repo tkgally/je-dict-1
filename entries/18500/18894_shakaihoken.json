@@ -15,42 +15,69 @@
   "examples": [
     {
       "id": "18894_shakaihoken_ex1",
-      "japanese": "{社会|しゃかい}{保険|ほけん}に{加入|かにゅう}する。",
+      "japanese": "{社会|しゃかい}{保険|ほけん}⟦に→に：00314_ni⟧⟦{加入|かにゅう}する→加入する：22671_kanyuusuru⟧。",
       "english": "To enroll in social insurance.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18894_shakaihoken_ex2",
-      "japanese": "パートでも{条件|じょうけん}を{満|み}たせば{社会|しゃかい}{保険|ほけん}に{入|はい}れる。",
+      "japanese": "⟦パート→パート：03106_paato⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧⟦{条件|じょうけん}→条件：03285_jouken⟧⟦を→を：00422_wo⟧⟦{満|み}たせば→満たす：09889_mitasu⟧{社会|しゃかい}{保険|ほけん}⟦に→に：00314_ni⟧⟦{入|はい}れる→入る：00494_hairu⟧。",
       "english": "Even part-time workers can enroll in social insurance if they meet the conditions.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18894_shakaihoken_ex3",
-      "japanese": "{社会|しゃかい}{保険|ほけん}{料|りょう}は{給料|きゅうりょう}から{天引|てんび}きされるので、{手取|てど}りが{減|へ}る。",
+      "japanese": "{社会|しゃかい}{保険|ほけん}{料|りょう}⟦は→は：00079_ha⟧⟦{給料|きゅうりょう}→給料：01086_kyuuryou⟧⟦から→から：00504_kara⟧{天引|てんび}き⟦される→する：00392_suru⟧⟦の→の：09472_no⟧で、⟦{手取|てど}り→手取り：06833_tedori⟧⟦が→が：00051_ga⟧⟦{減|へ}る→減る：01985_heru⟧。",
       "english": "Social insurance premiums are deducted from your salary, so your take-home pay decreases.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nJapan's social insurance ({社会|しゃかい}{保険|ほけん}) broadly covers {健康|けんこう}{保険|ほけん} (health insurance), {厚生|こうせい}{年金|ねんきん} (employees' pension), {雇用|こよう}{保険|ほけん} (unemployment insurance), and {労災|ろうさい}{保険|ほけん} (workers' compensation). Often abbreviated to {社保|しゃほ} in casual speech.\n\nCOMMON COLLOCATIONS:\n- {社会|しゃかい}{保険|ほけん}に{加入|かにゅう}する (to enroll in social insurance)\n- {社会|しゃかい}{保険|ほけん}{料|りょう} (social insurance premiums)\n- {社会|しゃかい}{保険|ほけん}{完備|かんび} (full social insurance coverage — seen in job listings)\n- {社会|しゃかい}{保険|ほけん}{制度|せいど} (social insurance system)\n\nSIMILAR WORDS:\n- {国民|こくみん}{健康|けんこう}{保険|ほけん}: National Health Insurance — for self-employed and others not covered by employer insurance\n- {生命|せいめい}{保険|ほけん}: life insurance — private, not government-mandated",
-  "cross_references": [],
+  "notes": "USAGE:\nJapan's social insurance ({社会|しゃかい}{保険|ほけん}) broadly covers ⟦{健康|けんこう}{保険|ほけん}→健康保険：18475_kenkouhoken⟧ (health insurance), {厚生|こうせい}⟦{年金|ねんきん}→年金：04695_nenkin⟧ (employees' pension), ⟦{雇用|こよう}→雇用：04840_koyou⟧⟦{保険|ほけん}→保険：01509_hoken⟧ (unemployment insurance), and {労災|ろうさい}⟦{保険|ほけん}→保険：01509_hoken⟧ (workers' compensation). Often abbreviated to {社保|しゃほ} in casual speech.\n\nCOMMON COLLOCATIONS:\n- {社会|しゃかい}{保険|ほけん}⟦に→に：00314_ni⟧⟦{加入|かにゅう}する→加入する：22671_kanyuusuru⟧ (to enroll in social insurance)\n- {社会|しゃかい}{保険|ほけん}{料|りょう} (social insurance premiums)\n- {社会|しゃかい}{保険|ほけん}{完備|かんび} (full social insurance coverage — seen in job listings)\n- {社会|しゃかい}{保険|ほけん}{制度|せいど} (social insurance system)\n\nSIMILAR WORDS:\n- ⟦{国民|こくみん}{健康|けんこう}{保険|ほけん}→国民健康保険：24671_kokuminkenkouhoken⟧: National Health Insurance — for self-employed and others not covered by employer insurance\n- ⟦{生命|せいめい}{保険|ほけん}→生命保険：18637_seimeihoken⟧: life insurance — private, not government-mandated",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24671_kokuminkenkouhoken",
+      "reading": "こくみんけんこうほけん",
+      "headword": "{国民健康保険|こくみんけんこうほけん}",
+      "label": "National Health Insurance"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18637_seimeihoken",
+      "reading": "せいめいほけん",
+      "headword": "{生命|せいめい}{保険|ほけん}",
+      "label": "life insurance"
+    }
+  ],
   "metadata": {
     "created": "2026-03-23T06:26:04Z",
-    "modified": "2026-03-23T06:26:04Z",
+    "modified": "2026-09-02T04:01:53Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["legal"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "legal"
+      ]
     }
   }
 }

@@ -2,7 +2,7 @@
   "id": "02769_gokai",
   "headword": "{誤解|ごかい}",
   "reading": "ごかい",
-  "part_of_speech": "noun / suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "misunderstanding, misconception",
   "conjugation": {
     "type": "suru",
@@ -143,7 +143,7 @@
       ]
     }
   ],
-  "notes": "{誤解|ごかい} means misunderstanding.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- No standard intransitive pair\n- Pattern: [noun]を{誤解|ごかい}する\n\nCOMMON PATTERNS:\n- {誤解|ごかい}する (to misunderstand)\n- {誤解|ごかい}される (to be misunderstood)\n- {誤解|ごかい}を⟦{招|まね}く→招く：02425_maneku⟧ (to invite misunderstanding)\n- {誤解|ごかい}を⟦{解|と}く→解く：02301_toku⟧ (to clear up a misunderstanding)\n- {誤解|ごかい}が⟦{生|しょう}じる→生じる：02118_shoujiru⟧ (a misunderstanding arises)\n\nCOMMON EXPRESSIONS:\n- {誤解|ごかい}のないように (so there's no misunderstanding)\n- {誤解|ごかい}を⟦{恐|おそ}れずに→恐れる：02023_osoreru⟧⟦{言|い}えば→言う：00515_iu⟧ (if I may say so without being misunderstood)\n\nSIMILAR WORDS:\n- {誤解|ごかい}: misunderstanding (incorrect interpretation)\n- ⟦{勘違|かんちが}い→勘違い：17609_kanchigai⟧: misconception, wrong idea\n- ⟦{誤|あやま}り→誤り：01772_ayamari⟧: error, mistake",
+  "notes": "{誤解|ごかい} means misunderstanding.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- No standard intransitive pair\n- Pattern: [noun]⟦を→を：00422_wo⟧{誤解|ごかい}⟦する→する：00392_suru⟧\n\nCOMMON PATTERNS:\n- {誤解|ごかい}⟦する→する：00392_suru⟧ (to misunderstand)\n- {誤解|ごかい}⟦される→する：00392_suru⟧ (to be misunderstood)\n- {誤解|ごかい}⟦を→を：00422_wo⟧⟦{招|まね}く→招く：02425_maneku⟧ (to invite misunderstanding)\n- {誤解|ごかい}⟦を→を：00422_wo⟧⟦{解|と}く→解く：02301_toku⟧ (to clear up a misunderstanding)\n- {誤解|ごかい}⟦が→が：00051_ga⟧⟦{生|しょう}じる→生じる：02118_shoujiru⟧ (a misunderstanding arises)\n\nCOMMON EXPRESSIONS:\n- {誤解|ごかい}⟦の→の：09472_no⟧⟦ない→ない：01118_nai⟧よう⟦に→に：00314_ni⟧ (so there's no misunderstanding)\n- {誤解|ごかい}⟦を→を：00422_wo⟧⟦{恐|おそ}れずに→恐れる：02023_osoreru⟧⟦{言|い}えば→言う：00515_iu⟧ (if I may say so without being misunderstood)\n\nSIMILAR WORDS:\n- {誤解|ごかい}: misunderstanding (incorrect interpretation)\n- ⟦{勘違|かんちが}い→勘違い：17609_kanchigai⟧: misconception, wrong idea\n- ⟦{誤|あやま}り→誤り：01772_ayamari⟧: error, mistake",
   "cross_references": [
     {
       "type": "synonym",
@@ -158,11 +158,60 @@
       "reading": "りかい",
       "headword": "{理解|りかい}",
       "label": "understanding"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01772_ayamari",
+      "reading": "あやまり",
+      "headword": "{誤|あやま}り",
+      "label": "error, mistake"
+    },
+    {
+      "type": "related",
+      "target_id": "08583_omoichigai",
+      "reading": "おもいちがい",
+      "headword": "{思|おも}い{違|ちが}い",
+      "label": "misconception"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19268_kakechigaeru",
+      "reading": "かけちがえる",
+      "headword": "{掛|か}け{違|ちが}える",
+      "label": "to button up wrong"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19908_kaishakuchigai",
+      "reading": "かいしゃくちがい",
+      "headword": "{解釈違|かいしゃくちが}い",
+      "label": "misinterpretation, different interpretation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22575_kokoroechigai",
+      "reading": "こころえちがい",
+      "headword": "{心得違|こころえちが}い",
+      "label": "misunderstanding"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24464_gonin",
+      "reading": "ごにん",
+      "headword": "{誤認|ごにん}",
+      "label": "misidentification"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27142_sakugo",
+      "reading": "さくご",
+      "headword": "{錯誤|さくご}",
+      "label": "error"
     }
   ],
   "metadata": {
     "created": "2026-01-11T08:01:15Z",
-    "modified": "2026-05-22T13:40:00Z",
+    "modified": "2026-09-02T04:01:02Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

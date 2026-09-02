@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25943_yuubinkyokuin_ex1",
-      "japanese": "{郵便局員|ゆうびんきょくいん}に{荷物|にもつ}を{預|あず}けた。",
+      "japanese": "{郵便局員|ゆうびんきょくいん}⟦に→に：00314_ni⟧⟦{荷物|にもつ}→荷物：00737_nimotsu⟧⟦を→を：00422_wo⟧⟦{預|あず}けた→預ける：01819_azukeru⟧。",
       "english": "I handed the package to the postal clerk.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25943_yuubinkyokuin_ex2",
-      "japanese": "{郵便局員|ゆうびんきょくいん}が{窓口|まどぐち}で{丁寧|ていねい}に{対応|たいおう}してくれた。",
+      "japanese": "{郵便局員|ゆうびんきょくいん}⟦が→が：00051_ga⟧⟦{窓口|まどぐち}→窓口：03154_madoguchi⟧⟦で→で：00502_de⟧⟦{丁寧|ていねい}→丁寧：00896_teinei⟧⟦に→に：00314_ni⟧⟦{対応|たいおう}→対応：02510_taiou⟧⟦して→する：00392_suru⟧⟦くれた→くれる：00724_kureru⟧。",
       "english": "The post office worker helped me courteously at the counter.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25943_yuubinkyokuin_ex3",
-      "japanese": "{祖父|そふ}は{若|わか}い{頃|ころ}{郵便局員|ゆうびんきょくいん}として{働|はたら}いていた。",
+      "japanese": "⟦{祖父|そふ}→祖父：01452_sofu⟧⟦は→は：00079_ha⟧{若|わか}い{頃|ころ}{郵便局員|ゆうびんきょくいん}⟦として→として：06802_toshite⟧⟦{働|はたら}いていた→働く：00503_hataraku⟧。",
       "english": "My grandfather worked as a post office worker when he was young.",
       "sense_numbers": [
         1
@@ -44,8 +44,16 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {郵便局|ゆうびんきょく} (post office) and {員|いん} (member; employee). In Japan, post offices ({郵便局|ゆうびんきょく}) are operated by Japan Post and provide not only mail and parcel services but also banking (ゆうちょ{銀行|ぎんこう}) and insurance (かんぽ{生命|せいめい}).\n\nCOMMON COLLOCATIONS:\n- {郵便局員|ゆうびんきょくいん}に{聞|き}く: to ask a postal clerk\n- {郵便局員|ゆうびんきょくいん}として{働|はたら}く: to work as a postal worker\n- {窓口|まどぐち}の{郵便局員|ゆうびんきょくいん}: the clerk at the counter\n\nSIMILAR WORDS:\n- {郵便配達員|ゆうびんはいたついん}: mail carrier; postal delivery person — specifically the person who delivers mail to homes\n- {局員|きょくいん}: office worker; staff member — generic term for an employee at a bureau or office\n- {配達員|はいたついん}: delivery person — broader term covering any delivery service",
-  "cross_references": [],
+  "notes": "A compound of ⟦{郵便局|ゆうびんきょく}→郵便局：00579_yuubinkyoku⟧ (post office) and {員|いん} (member; employee). In Japan, post offices (⟦{郵便局|ゆうびんきょく}→郵便局：00579_yuubinkyoku⟧) are operated by Japan Post and provide not only mail and parcel services but also banking (⟦ゆうちょ{銀行|ぎんこう}→ゆうちょ銀行：27589_yuuchoginkou⟧) and insurance (かんぽ⟦{生命|せいめい}→生命：03296_seimei⟧).\n\nCOMMON COLLOCATIONS:\n- {郵便局員|ゆうびんきょくいん}⟦に→に：00314_ni⟧⟦{聞|き}く→聞く：00483_kiku⟧: to ask a postal clerk\n- {郵便局員|ゆうびんきょくいん}⟦として→として：06802_toshite⟧⟦{働|はたら}く→働く：00503_hataraku⟧: to work as a postal worker\n- ⟦{窓口|まどぐち}→窓口：03154_madoguchi⟧⟦の→の：09472_no⟧{郵便局員|ゆうびんきょくいん}: the clerk at the counter\n\nSIMILAR WORDS:\n- {郵便配達員|ゆうびんはいたついん}: mail carrier; postal delivery person — specifically the person who delivers mail to homes\n- ⟦{局員|きょくいん}→局員：24361_kyokuin⟧: office worker; staff member — generic term for an employee at a bureau or office\n- ⟦{配達員|はいたついん}→配達員：20275_haitatsuin⟧: delivery person — broader term covering any delivery service",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20275_haitatsuin",
+      "reading": "はいたついん",
+      "headword": "{配達員|はいたついん}",
+      "label": "delivery person"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,12 +61,14 @@
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "occupation",
         "communication"
       ]
     },
     "created": "2026-04-28T13:32:05Z",
-    "modified": "2026-06-09T15:41:12Z"
+    "modified": "2026-09-02T04:02:24Z"
   }
 }

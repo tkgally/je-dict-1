@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "18583_kokou_ex1",
-      "japanese": "{糊口|ここう}を{凌|しの}ぐ。",
+      "japanese": "{糊口|ここう}⟦を→を：00422_wo⟧⟦{凌|しの}ぐ→凌ぐ：07388_shinogu⟧。",
       "english": "To eke out a living.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "18583_kokou_ex2",
-      "japanese": "{翻訳|ほんやく}の{仕事|しごと}で{糊口|ここう}を{凌|しの}いでいる。",
+      "japanese": "⟦{翻訳|ほんやく}→翻訳：01725_honyaku⟧⟦の→の：09472_no⟧⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦で→で：00502_de⟧{糊口|ここう}⟦を→を：00422_wo⟧⟦{凌|しの}いでいる→凌ぐ：07388_shinogu⟧。",
       "english": "I'm scraping by with translation work.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "18583_kokou_ex3",
-      "japanese": "{若|わか}いころは{日雇|ひやと}い{労働|ろうどう}で{糊口|ここう}を{凌|しの}いだ{時期|じき}もあった。",
+      "japanese": "{若|わか}い⟦ころ→〜ころ：03091_koro⟧⟦は→は：00079_ha⟧⟦{日雇|ひやと}い→日雇い：14965_hiyatoi⟧⟦{労働|ろうどう}→労働：03785_roudou⟧⟦で→で：00502_de⟧{糊口|ここう}⟦を→を：00422_wo⟧⟦{凌|しの}いだ→凌ぐ：07388_shinogu⟧⟦{時期|じき}→時期：03269_jiki⟧⟦も→も：00484_mo⟧⟦あった→ある：00006_aru⟧。",
       "english": "When I was young, there were times I got by doing day labor.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,19 @@
       ]
     }
   ],
-  "notes": "USAGE:\nAlmost always used in the set phrase {糊口|ここう}を{凌|しの}ぐ (to eke out a living). A literary and somewhat old-fashioned expression. The character {糊|こ} means \"paste\" or \"gruel,\" evoking the image of having barely enough thin porridge to feed oneself.\n\nCOMMON COLLOCATIONS:\n- {糊口|ここう}を{凌|しの}ぐ (to eke out a living)\n- {糊口|ここう}の{資|し} (means of livelihood)\n\nSIMILAR WORDS:\n- {生計|せいけい}: livelihood — a neutral, modern term for earning a living\n- {食|く}いつなぐ: to keep oneself fed, to scrape by — a colloquial verb with a similar meaning",
-  "cross_references": [],
+  "notes": "USAGE:\nAlmost always used in the set phrase {糊口|ここう}⟦を→を：00422_wo⟧⟦{凌|しの}ぐ→凌ぐ：07388_shinogu⟧ (to eke out a living). A literary and somewhat old-fashioned expression. The character {糊|こ} means \"paste\" or \"gruel,\" evoking the image of having barely enough thin porridge to feed oneself.\n\nCOMMON COLLOCATIONS:\n- {糊口|ここう}⟦を→を：00422_wo⟧⟦{凌|しの}ぐ→凌ぐ：07388_shinogu⟧ (to eke out a living)\n- {糊口|ここう}⟦の→の：09472_no⟧{資|し} (means of livelihood)\n\nSIMILAR WORDS:\n- ⟦{生計|せいけい}→生計：13524_seikei⟧: livelihood — a neutral, modern term for earning a living\n- {食|く}いつなぐ: to keep oneself fed, to scrape by — a colloquial verb with a similar meaning",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13524_seikei",
+      "reading": "せいけい",
+      "headword": "{生計|せいけい}",
+      "label": "livelihood"
+    }
+  ],
   "metadata": {
     "created": "2026-03-22T09:03:29Z",
-    "modified": "2026-03-22T09:03:29Z",
+    "modified": "2026-09-02T04:01:52Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

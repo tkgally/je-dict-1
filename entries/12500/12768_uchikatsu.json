@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "12768_uchikatsu_ex1",
-      "japanese": "{困難|こんなん}に{打|う}ち{勝|か}つ。",
+      "japanese": "⟦{困難|こんなん}→困難：01410_konnan⟧⟦に→に：00314_ni⟧{打|う}ち{勝|か}つ。",
       "english": "To overcome difficulties.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "12768_uchikatsu_ex2",
-      "japanese": "{誘惑|ゆうわく}に{打|う}ち{勝|か}つのは{簡単|かんたん}ではない。",
+      "japanese": "⟦{誘惑|ゆうわく}→誘惑：14209_yuuwaku⟧⟦に→に：00314_ni⟧{打|う}ち{勝|か}つ⟦の→の：09472_no⟧⟦は→は：00079_ha⟧⟦{簡単|かんたん}→簡単：00713_kantan⟧で⟦は→は：00079_ha⟧⟦ない→ない：01118_nai⟧。",
       "english": "It's not easy to overcome temptation.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "12768_uchikatsu_ex3",
-      "japanese": "{彼|かれ}は{病気|びょうき}に{打|う}ち{勝|か}って、{再|ふたた}びグラウンドに{立|た}った。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{病気|びょうき}→病気：00771_byouki⟧⟦に→に：00314_ni⟧{打|う}ち{勝|か}って、⟦{再|ふたた}び→再び：03600_futatabi⟧⟦グラウンド→グラウンド：10813_guraundo⟧⟦に→に：00314_ni⟧⟦{立|た}った→立つ：00758_tatsu⟧。",
       "english": "He conquered his illness and stood on the field once again.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "{打|う}ち{勝|か}つ means to overcome or triumph over something. It has a strong, dramatic tone and is often used for significant challenges or adversities.\n\nTRANSITIVITY:\n- Type: {自動詞|じどうし} (intransitive)\n\nPATTERN:\n- 〜に{打|う}ち{勝|か}つ: to overcome ~, to triumph over ~\n\nCOMMON COLLOCATIONS:\n- {困難|こんなん}に{打|う}ち{勝|か}つ: to overcome difficulties\n- {誘惑|ゆうわく}に{打|う}ち{勝|か}つ: to resist temptation\n- {逆境|ぎゃっきょう}に{打|う}ち{勝|か}つ: to triumph over adversity\n- {病気|びょうき}に{打|う}ち{勝|か}つ: to conquer an illness\n- {恐怖|きょうふ}に{打|う}ち{勝|か}つ: to overcome fear\n\nSIMILAR WORDS:\n- {克服|こくふく}する: to overcome (more formal, often for abstract challenges)\n- {勝|か}つ: to win (more general)\n- {乗|の}り{越|こ}える: to get over, to surmount",
+  "notes": "{打|う}ち{勝|か}つ means to overcome or triumph over something. It has a strong, dramatic tone and is often used for significant challenges or adversities.\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n\nCOMMON PATTERNS:\n- 〜⟦に→に：00314_ni⟧{打|う}ち{勝|か}つ: to overcome ~, to triumph over ~\n\nCOMMON COLLOCATIONS:\n- ⟦{困難|こんなん}→困難：01410_konnan⟧⟦に→に：00314_ni⟧{打|う}ち{勝|か}つ: to overcome difficulties\n- ⟦{誘惑|ゆうわく}→誘惑：14209_yuuwaku⟧⟦に→に：00314_ni⟧{打|う}ち{勝|か}つ: to resist temptation\n- ⟦{逆境|ぎゃっきょう}→逆境：22285_gyakkyou⟧⟦に→に：00314_ni⟧{打|う}ち{勝|か}つ: to triumph over adversity\n- ⟦{病気|びょうき}→病気：00771_byouki⟧⟦に→に：00314_ni⟧{打|う}ち{勝|か}つ: to conquer an illness\n- ⟦{恐怖|きょうふ}→恐怖：02585_kyoufu⟧⟦に→に：00314_ni⟧{打|う}ち{勝|か}つ: to overcome fear\n\nSIMILAR WORDS:\n- ⟦{克服|こくふく}する→克服する：15863_kokufukusuru⟧: to overcome (more formal, often for abstract challenges)\n- ⟦{勝|か}つ→勝つ：01199_katsu⟧: to win (more general)\n- ⟦{乗|の}り{越|こ}える→乗り越える：04620_norikoeru⟧: to get over, to surmount",
   "cross_references": [
     {
       "type": "synonym",
@@ -149,11 +149,18 @@
       "reading": "のりこえる",
       "headword": "{乗|の}り{越|こ}える",
       "label": "to get over, to surmount"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15863_kokufukusuru",
+      "reading": "こくふくする",
+      "headword": "{克服|こくふく}する",
+      "label": "to overcome"
     }
   ],
   "metadata": {
     "created": "2026-02-22T10:07:35Z",
-    "modified": "2026-04-27T08:29:13Z",
+    "modified": "2026-09-02T04:01:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

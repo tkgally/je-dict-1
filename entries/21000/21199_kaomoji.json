@@ -15,40 +15,66 @@
   "examples": [
     {
       "id": "21199_kaomoji_ex1",
-      "japanese": "{顔文字|かおもじ}を{使|つか}う。",
+      "japanese": "{顔文字|かおもじ}⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧。",
       "english": "To use emoticons.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21199_kaomoji_ex2",
-      "japanese": "メールに{顔文字|かおもじ}を{入|い}れると{柔|やわ}らかい{印象|いんしょう}になる。",
+      "japanese": "⟦メール→メール：04435_meeru⟧⟦に→に：00314_ni⟧{顔文字|かおもじ}⟦を→を：00422_wo⟧⟦{入|い}れる→入れる：01098_ireru⟧⟦と→と：00512_to⟧⟦{柔|やわ}らかい→柔らかい：01096_yawarakai⟧⟦{印象|いんしょう}→印象：01846_inshou⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧。",
       "english": "Adding emoticons to emails gives a softer impression.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21199_kaomoji_ex3",
-      "japanese": "ビジネスメールでは{顔文字|かおもじ}を{使|つか}わないほうがいいと{言|い}われている。",
+      "japanese": "⟦ビジネス→ビジネス：11162_bijinesu⟧⟦メール→メール：04435_meeru⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧{顔文字|かおもじ}⟦を→を：00422_wo⟧⟦{使|つか}わない→使う：00473_tsukau⟧⟦ほうがいい→ほうがいい：10078_hougaii⟧⟦と→と：00512_to⟧⟦{言|い}われている→言う：00515_iu⟧。",
       "english": "It is said that you shouldn't use emoticons in business emails.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Literally 'face character' ({顔|かお} face + {文字|もじ} character). Refers to emoticons made from text characters, such as (^_^) or (T_T). Japanese kaomoji are distinct from Western emoticons in that they are read face-on (not tilted sideways) and often use a much wider set of Unicode characters.\n\nCOMMON COLLOCATIONS:\n- {顔文字|かおもじ}を{使|つか}う: to use emoticons\n- {顔文字|かおもじ}を{入|い}れる: to insert an emoticon\n- {顔文字|かおもじ}{一覧|いちらん}: list of emoticons\n\nSIMILAR WORDS:\n- {絵文字|えもじ}: emoji — pictographic characters (now a global term); distinct from text-based kaomoji\n- スタンプ: LINE stickers — image-based expressions used on the LINE messaging app\n\nCULTURAL NOTE:\nKaomoji became hugely popular in Japan during the early internet era and remain widely used in casual text messages and social media. Common examples include (^_^) for happiness, (T_T) for crying, and (>_<) for frustration.",
+  "notes": "Literally 'face character' (⟦{顔|かお}→顔：00558_kao⟧ face + ⟦{文字|もじ}→文字：03632_moji⟧ character). Refers to emoticons made from text characters, such as (^_^) or (T_T). Japanese kaomoji are distinct from Western emoticons in that they are read face-on (not tilted sideways) and often use a much wider set of Unicode characters.\n\nCOMMON COLLOCATIONS:\n- {顔文字|かおもじ}⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧: to use emoticons\n- {顔文字|かおもじ}⟦を→を：00422_wo⟧⟦{入|い}れる→入れる：01098_ireru⟧: to insert an emoticon\n- {顔文字|かおもじ}⟦{一覧|いちらん}→一覧：17694_ichiran⟧: list of emoticons\n\nSIMILAR WORDS:\n- ⟦{絵文字|えもじ}→絵文字：13859_emoji⟧: emoji — pictographic characters (now a global term); distinct from text-based kaomoji\n- ⟦スタンプ→スタンプ：11577_sutanpu⟧: LINE stickers — image-based expressions used on the LINE messaging app\n\nCULTURAL NOTE:\nKaomoji became hugely popular in Japan during the early internet era and remain widely used in casual text messages and social media. Common examples include (^_^) for happiness, (T_T) for crying, and (>_<) for frustration.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13859_emoji",
+      "reading": "えもじ",
+      "headword": "{絵文字|えもじ}",
+      "label": "emoji"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11577_sutanpu",
+      "reading": "すたんぷ",
+      "headword": "スタンプ",
+      "label": "LINE stickers"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["technology"]
+      "semantic": [
+        "technology"
+      ]
     },
     "created": "2026-04-01T14:16:10Z",
-    "modified": "2026-04-01T14:16:10Z"
+    "modified": "2026-09-02T04:02:02Z"
   }
 }

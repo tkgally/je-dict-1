@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "09499_shokugo_ex1",
-      "japanese": "{食後|しょくご}⟦に→に：00314_ni⟧{薬|くすり}⟦を→を：00422_wo⟧{飲|の}む。",
+      "japanese": "{食後|しょくご}⟦に→に：00314_ni⟧⟦{薬|くすり}→薬：00793_kusuri⟧⟦を→を：00422_wo⟧⟦{飲|の}む→飲む：00322_nomu⟧。",
       "english": "Take medicine after meals.",
       "has_audio": false,
       "sense_numbers": [
@@ -23,7 +23,7 @@
     },
     {
       "id": "09499_shokugo_ex2",
-      "japanese": "{食後|しょくご}⟦の→の：09472_no⟧コーヒー。",
+      "japanese": "{食後|しょくご}⟦の→の：09472_no⟧⟦コーヒー→コーヒー：00789_koohii⟧。",
       "english": "After-meal coffee.",
       "has_audio": false,
       "sense_numbers": [
@@ -32,7 +32,7 @@
     },
     {
       "id": "09499_shokugo_ex3",
-      "japanese": "{食後|しょくご}⟦に→に：00314_ni⟧{散歩|さんぽ}⟦する→する：00392_suru⟧⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦{好|す}き→好き：02355_suki⟧⟦だ→だ：09496_da⟧。",
+      "japanese": "{食後|しょくご}⟦に→に：00314_ni⟧⟦{散歩|さんぽ}→散歩：02885_sanpo⟧⟦する→する：00392_suru⟧⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦{好|す}き→好き：02355_suki⟧⟦だ→だ：09496_da⟧。",
       "english": "I like to take a walk after meals.",
       "has_audio": false,
       "sense_numbers": [
@@ -40,10 +40,10 @@
       ]
     }
   ],
-  "notes": "{食後|しょくご} refers to the time period right after eating. It is a compound of {食|しょく} (eating) + {後|ご} (after), following the same pattern as many other time-related compounds.\n\nCOMMON PATTERNS:\n- {食後|しょくご}に{薬|くすり}を{飲|の}む: take medicine after meals\n- {食後|しょくご}のデザート: after-meal dessert\n- {食後|しょくご}のコーヒー: after-meal coffee\n- {食後|しょくご}30{分|ぷん}: 30 minutes after eating\n\nRELATED TIME-OF-MEAL WORDS:\n- {食前|しょくぜん}: before a meal\n- {食間|しょっかん}: between meals (used for medicine timing)\n- {食事|しょくじ}{中|ちゅう}: during a meal\n\nNOTE:\nFrequently seen on medicine labels and prescriptions. Pharmacists will specify {食後|しょくご} vs. {食前|しょくぜん} vs. {食間|しょっかん} for when to take medication.",
+  "notes": "{食後|しょくご} refers to the time period right after eating. It is a compound of {食|しょく} (eating) + ⟦{後|ご}→後：30157_go⟧ (after), following the same pattern as many other time-related compounds.\n\nCOMMON PATTERNS:\n- {食後|しょくご}⟦に→に：00314_ni⟧⟦{薬|くすり}→薬：00793_kusuri⟧⟦を→を：00422_wo⟧⟦{飲|の}む→飲む：00322_nomu⟧: take medicine after meals\n- {食後|しょくご}⟦の→の：09472_no⟧⟦デザート→デザート：00036_dezaato⟧: after-meal dessert\n- {食後|しょくご}⟦の→の：09472_no⟧⟦コーヒー→コーヒー：00789_koohii⟧: after-meal coffee\n- {食後|しょくご}30{分|ぷん}: 30 minutes after eating\n\nRELATED TIME-OF-MEAL WORDS:\n- ⟦{食前|しょくぜん}→食前：20726_shokuzen⟧: before a meal\n- {食間|しょっかん}: between meals (used for medicine timing)\n- ⟦{食事|しょくじ}→食事：02087_shokuji⟧⟦{中|ちゅう}→〜中：09840_chuu⟧: during a meal\n\nUSAGE:\nFrequently seen on medicine labels and prescriptions. Pharmacists will specify {食後|しょくご} vs. ⟦{食前|しょくぜん}→食前：20726_shokuzen⟧ vs. {食間|しょっかん} for when to take medication.",
   "metadata": {
     "created": "2026-02-02T10:21:20Z",
-    "modified": "2026-04-22T08:43:07Z",
+    "modified": "2026-09-02T04:01:18Z",
     "ai_model": "claude-opus-4-5-20251101",
     "vocabulary_tier": "general",
     "tags": {

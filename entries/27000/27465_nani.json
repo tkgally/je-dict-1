@@ -15,41 +15,81 @@
   "examples": [
     {
       "id": "27465_nani_ex1",
-      "japanese": "{何位|なんい}でしたか?",
+      "japanese": "{何位|なんい}でした⟦か→か：09473_ka⟧?",
       "english": "What place did you finish?",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27465_nani_ex2",
-      "japanese": "{日本|にほん}は{世界|せかい}ランキングで{何位|なんい}ですか?",
+      "japanese": "⟦{日本|にほん}→日本：03876_nihon⟧⟦は→は：00079_ha⟧⟦{世界|せかい}→世界：01447_sekai⟧⟦ランキング→ランキング：11195_rankingu⟧⟦で→で：00502_de⟧{何位|なんい}です⟦か→か：09473_ka⟧?",
       "english": "What is Japan's world ranking?",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27465_nani_ex3",
-      "japanese": "{今回|こんかい}の{大会|たいかい}で{彼女|かのじょ}が{何位|なんい}に{入|はい}るか、{誰|だれ}にも{予想|よそう}できなかった。",
+      "japanese": "⟦{今回|こんかい}→今回：01409_konkai⟧⟦の→の：09472_no⟧⟦{大会|たいかい}→大会：03386_taikai⟧⟦で→で：00502_de⟧⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦が→が：00051_ga⟧{何位|なんい}⟦に→に：00314_ni⟧⟦{入|はい}る→入る：00494_hairu⟧⟦か→か：09473_ka⟧、⟦{誰|だれ}→誰：00534_dare⟧⟦に→に：00314_ni⟧⟦も→も：00484_mo⟧⟦{予想|よそう}→予想：03664_yosou⟧⟦できなかった→できる：00557_dekiru⟧。",
       "english": "No one could predict what place she would finish in this tournament.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Compound of {何|なん} (what) + the counter {位|い} (place/rank). Standard interrogative for asking about ranking.\n\nCOMMON USES:\n- {何位|なんい}になる: to come in what place\n- {何位|なんい}に{入|はい}る: to finish in what position\n- ランキング{何位|なんい}: what rank in the ranking\n\nRELATED TERMS:\n- {一位|いちい}: first place\n- {二位|にい}: second place\n- {上位|じょうい}: high rank; top positions\n- {順位|じゅんい}: ranking; order of placement",
+  "notes": "Compound of ⟦{何|なん}→何〜：03100_nan⟧ (what) + the counter ⟦{位|い}→〜位：00443_i⟧ (place/rank). Standard interrogative for asking about ranking.\n\nCOMMON COLLOCATIONS:\n- {何位|なんい}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧: to come in what place\n- {何位|なんい}⟦に→に：00314_ni⟧⟦{入|はい}る→入る：00494_hairu⟧: to finish in what position\n- ⟦ランキング→ランキング：11195_rankingu⟧{何位|なんい}: what rank in the ranking\n\nRELATED WORDS:\n- ⟦{一位|いちい}→一位：08926_ichii⟧: first place\n- ⟦{二位|にい}→二位：27466_nii⟧: second place\n- ⟦{上位|じょうい}→上位：11188_joui⟧: high rank; top positions\n- ⟦{順位|じゅんい}→順位：14679_juni⟧: ranking; order of placement",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "08926_ichii",
+      "reading": "いちい",
+      "headword": "{一位|いちい}",
+      "label": "first place"
+    },
+    {
+      "type": "related",
+      "target_id": "27466_nii",
+      "reading": "にい",
+      "headword": "{二位|にい}",
+      "label": "second place"
+    },
+    {
+      "type": "related",
+      "target_id": "11188_joui",
+      "reading": "じょうい",
+      "headword": "{上位|じょうい}",
+      "label": "high rank"
+    },
+    {
+      "type": "related",
+      "target_id": "14679_juni",
+      "reading": "じゅんい",
+      "headword": "{順位|じゅんい}",
+      "label": "ranking"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["abstract"],
+      "politeness": "plain",
+      "semantic": [
+        "abstract"
+      ],
       "domain": []
     },
     "created": "2026-05-12T04:10:44Z",
-    "modified": "2026-05-12T04:10:44Z"
+    "modified": "2026-09-02T04:02:30Z"
   }
 }

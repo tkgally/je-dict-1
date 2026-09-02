@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30334_suishinsha_ex1",
-      "japanese": "{彼女|かのじょ}が{改革|かいかく}の{推進者|すいしんしゃ}だ。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦が→が：00051_ga⟧⟦{改革|かいかく}→改革：04815_kaikaku⟧⟦の→の：09472_no⟧{推進者|すいしんしゃ}だ。",
       "english": "She is the driving force behind the reform.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30334_suishinsha_ex2",
-      "japanese": "この{計画|けいかく}には{強力|きょうりょく}な{推進者|すいしんしゃ}が{必要|ひつよう}だ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{計画|けいかく}→計画：01172_keikaku⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{強力|きょうりょく}→強力：02656_kyouryoku⟧な{推進者|すいしんしゃ}⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧だ。",
       "english": "This plan needs a powerful champion.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30334_suishinsha_ex3",
-      "japanese": "{制度|せいど}の{推進者|すいしんしゃ}が{異動|いどう}したとたん、{議論|ぎろん}は{止|と}まってしまった。",
+      "japanese": "⟦{制度|せいど}→制度：03291_seido⟧⟦の→の：09472_no⟧{推進者|すいしんしゃ}⟦が→が：00051_ga⟧⟦{異動|いどう}→異動：01818_idou⟧⟦した→する：00392_suru⟧とたん、⟦{議論|ぎろん}→議論：02650_giron⟧⟦は→は：00079_ha⟧⟦{止|と}まって→止まる：00555_tomaru⟧しまった。",
       "english": "The moment the person driving the system forward was transferred, the discussion ground to a halt.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Formed from {推進|すいしん} (propulsion, promotion) plus 〜{者|しゃ} (person who does). The thing being promoted takes の.\n\nCOMMON COLLOCATIONS:\n- {改革|かいかく}の{推進者|すいしんしゃ}: driver of reform\n- {中心的|ちゅうしんてき}{推進者|すいしんしゃ}: central promoter\n- {推進者|すいしんしゃ}となる: to become the one pushing something forward\n\nSIMILAR WORDS:\n- {責任者|せきにんしゃ}: person in charge — defined by formal accountability, not by momentum\n- {提唱者|ていしょうしゃ}: proposer, advocate — the one who first put the idea forward, not necessarily the one carrying it out",
+  "notes": "Formed from ⟦{推進|すいしん}→推進：12908_suishin⟧ (propulsion, promotion) plus 〜⟦{者|しゃ}→〜者：04662_sha⟧ (person who does). The thing being promoted takes ⟦の→の：09472_no⟧.\n\nCOMMON COLLOCATIONS:\n- ⟦{改革|かいかく}→改革：04815_kaikaku⟧⟦の→の：09472_no⟧{推進者|すいしんしゃ}: driver of reform\n- ⟦{中心的|ちゅうしんてき}→中心的：05676_chuushinteki⟧{推進者|すいしんしゃ}: central promoter\n- {推進者|すいしんしゃ}⟦と→と：00512_to⟧⟦なる→なる：01970_naru⟧: to become the one pushing something forward\n\nSIMILAR WORDS:\n- ⟦{責任者|せきにんしゃ}→責任者：17175_sekininsha⟧: person in charge — defined by formal accountability, not by momentum\n- ⟦{提唱者|ていしょうしゃ}→提唱者：30342_teishousha⟧: proposer, advocate — the one who first put the idea forward, not necessarily the one carrying it out",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17175_sekininsha",
+      "reading": "せきにんしゃ",
+      "headword": "{責任者|せきにんしゃ}",
+      "label": "person in charge"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30342_teishousha",
+      "reading": "ていしょうしゃ",
+      "headword": "{提唱者|ていしょうしゃ}",
+      "label": "proposer, advocate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26491_sokushinsha",
+      "reading": "そくしんしゃ",
+      "headword": "{促進者|そくしんしゃ}",
+      "label": "promoter"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +76,7 @@
         "noun"
       ],
       "formality": "formal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "person",
         "work"
@@ -63,6 +86,6 @@
       ]
     },
     "created": "2026-08-02T09:20:18Z",
-    "modified": "2026-08-02T09:20:18Z"
+    "modified": "2026-09-02T04:02:39Z"
   }
 }

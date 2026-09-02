@@ -14,42 +14,67 @@
   "examples": [
     {
       "id": "11790_zenrei_ex1",
-      "japanese": "{前例|ぜんれい}のない{事態|じたい}だ。",
+      "japanese": "{前例|ぜんれい}⟦の→の：09472_no⟧⟦ない→ない：01118_nai⟧⟦{事態|じたい}→事態：10151_jitai⟧だ。",
       "english": "This is an unprecedented situation.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11790_zenrei_ex2",
-      "japanese": "{過去|かこ}の{前例|ぜんれい}に{従|したが}って{判断|はんだん}する。",
+      "japanese": "⟦{過去|かこ}→過去：00152_kako⟧⟦の→の：09472_no⟧{前例|ぜんれい}⟦に→に：00314_ni⟧⟦{従|したが}って→従う：02059_shitagau⟧⟦{判断|はんだん}する→判断する：06062_handansuru⟧。",
       "english": "To make a judgment following past precedent.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11790_zenrei_ex3",
-      "japanese": "この{問題|もんだい}に{関|かん}しては{前例|ぜんれい}がないため、{慎重|しんちょう}に{対応|たいおう}する{必要|ひつよう}がある。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{問題|もんだい}→問題：00797_mondai⟧⟦に{関|かん}して→に関して：06944_nikanshite⟧⟦は→は：00079_ha⟧{前例|ぜんれい}⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧⟦ため→ため：01145_tame⟧、⟦{慎重|しんちょう}→慎重：03264_shinchou⟧⟦に→に：00314_ni⟧⟦{対応|たいおう}→対応：02510_taiou⟧⟦する→する：00392_suru⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "Since there is no precedent for this issue, it needs to be handled carefully.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{前例|ぜんれい} refers to a past case used as a reference for current decisions. Composed of {前|ぜん} (previous) + {例|れい} (example/case).\n\nCOMMON COLLOCATIONS:\n- {前例|ぜんれい}のない: unprecedented\n- {前例|ぜんれい}に{従|したが}う: to follow precedent\n- {前例|ぜんれい}を{作|つく}る: to set a precedent\n- {前例|ぜんれい}がない: there is no precedent\n- {前例|ぜんれい}{主義|しゅぎ}: precedent-based approach (often used critically)\n\nCULTURE:\nJapanese organizations — government offices, schools, companies — often rely heavily on precedent. The phrase {前例|ぜんれい}{主義|しゅぎ} (following precedent blindly) is sometimes used critically to describe bureaucratic inflexibility.\n\nRELATED:\n- {先例|せんれい}: precedent (similar meaning, more formal/legal)",
-  "cross_references": [],
+  "notes": "{前例|ぜんれい} refers to a past case used as a reference for current decisions. Composed of ⟦{前|ぜん}→前〜：03957_zen⟧ (previous) + ⟦{例|れい}→例：09932_rei⟧ (example/case).\n\nCOMMON COLLOCATIONS:\n- {前例|ぜんれい}⟦の→の：09472_no⟧⟦ない→ない：01118_nai⟧: unprecedented\n- {前例|ぜんれい}⟦に→に：00314_ni⟧⟦{従|したが}う→従う：02059_shitagau⟧: to follow precedent\n- {前例|ぜんれい}⟦を→を：00422_wo⟧⟦{作|つく}る→作る：00481_tsukuru⟧: to set a precedent\n- {前例|ぜんれい}⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧: there is no precedent\n- {前例|ぜんれい}⟦{主義|しゅぎ}→主義：03215_shugi⟧: precedent-based approach (often used critically)\n\nCULTURAL NOTE:\nJapanese organizations — government offices, schools, companies — often rely heavily on precedent. The phrase {前例|ぜんれい}⟦{主義|しゅぎ}→主義：03215_shugi⟧ (following precedent blindly) is sometimes used critically to describe bureaucratic inflexibility.\n\nRELATED WORDS:\n- {先例|せんれい}: precedent (similar meaning, more formal/legal)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12679_kanrei",
+      "reading": "かんれい",
+      "headword": "{慣例|かんれい}",
+      "label": "custom, convention, precedent"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30088_hanrei",
+      "reading": "はんれい",
+      "headword": "{判例|はんれい}",
+      "label": "judicial precedent"
+    }
+  ],
   "metadata": {
     "created": "2026-02-18T06:08:50Z",
-    "modified": "2026-03-30T12:38:04Z",
+    "modified": "2026-09-02T04:01:26Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["abstract"]
+      "semantic": [
+        "abstract"
+      ]
     }
   }
 }

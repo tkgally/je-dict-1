@@ -14,42 +14,95 @@
   "examples": [
     {
       "id": "20805_takurami_ex1",
-      "japanese": "{彼|かれ}の{企|たくら}みは{失敗|しっぱい}した。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧{企|たくら}み⟦は→は：00079_ha⟧⟦{失敗|しっぱい}→失敗：01636_shippai⟧⟦した→する：00392_suru⟧。",
       "english": "His scheme failed.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20805_takurami_ex2",
-      "japanese": "{恐|おそ}ろしい{企|たくら}みが{進行|しんこう}していた。",
+      "japanese": "⟦{恐|おそ}ろしい→恐ろしい：02338_osoroshii⟧{企|たくら}み⟦が→が：00051_ga⟧⟦{進行|しんこう}していた→進行する：26794_shinkousuru⟧。",
       "english": "A terrible plot was underway.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20805_takurami_ex3",
-      "japanese": "{彼女|かのじょ}は{相手|あいて}の{企|たくら}みを{見抜|みぬ}いて{先手|せんて}を{打|う}った。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧⟦{相手|あいて}→相手：01677_aite⟧⟦の→の：09472_no⟧{企|たくら}み⟦を→を：00422_wo⟧⟦{見抜|みぬ}いて→見抜く：06975_minuku⟧⟦{先手|せんて}→先手：10556_sente⟧⟦を→を：00422_wo⟧⟦{打|う}った→打つ：01221_utsu⟧。",
       "english": "She saw through her opponent's scheme and made a preemptive move.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "The noun form of {企|たくら}む (to plot/scheme). Almost always carries a negative connotation of deception or malicious intent.\n\nCOMMON COLLOCATIONS:\n- {企|たくら}みを{見抜|みぬ}く: to see through a scheme\n- {企|たくら}みが{露見|ろけん}する: a plot is exposed\n- {恐|おそ}ろしい{企|たくら}み: a terrible plot\n- {企|たくら}みに{加|くわ}わる: to join in a conspiracy\n\nSIMILAR WORDS:\n- {陰謀|いんぼう}: conspiracy — larger scale, often political\n- {策略|さくりゃく}: stratagem — can be neutral, more calculated\n- {計画|けいかく}: plan — neutral, no negative connotation",
-  "cross_references": [],
+  "notes": "The noun form of {企|たくら}む (to plot/scheme). Almost always carries a negative connotation of deception or malicious intent.\n\nCOMMON COLLOCATIONS:\n- {企|たくら}み⟦を→を：00422_wo⟧⟦{見抜|みぬ}く→見抜く：06975_minuku⟧: to see through a scheme\n- {企|たくら}み⟦が→が：00051_ga⟧⟦{露見|ろけん}→露見：20077_roken⟧⟦する→する：00392_suru⟧: a plot is exposed\n- ⟦{恐|おそ}ろしい→恐ろしい：02338_osoroshii⟧{企|たくら}み: a terrible plot\n- {企|たくら}み⟦に→に：00314_ni⟧⟦{加|くわ}わる→加わる：01940_kuwawaru⟧: to join in a conspiracy\n\nSIMILAR WORDS:\n- ⟦{陰謀|いんぼう}→陰謀：10887_inbou⟧: conspiracy — larger scale, often political\n- ⟦{策略|さくりゃく}→策略：13785_sakuryaku⟧: stratagem — can be neutral, more calculated\n- ⟦{計画|けいかく}→計画：01172_keikaku⟧: plan — neutral, no negative connotation",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "10887_inbou",
+      "reading": "いんぼう",
+      "headword": "{陰謀|いんぼう}",
+      "label": "conspiracy"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13785_sakuryaku",
+      "reading": "さくりゃく",
+      "headword": "{策略|さくりゃく}",
+      "label": "stratagem"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01172_keikaku",
+      "reading": "けいかく",
+      "headword": "{計画|けいかく}",
+      "label": "plan"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16566_mokuromi",
+      "reading": "もくろみ",
+      "headword": "{目論見|もくろみ}",
+      "label": "plan"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22967_sakubou",
+      "reading": "さくぼう",
+      "headword": "{策謀|さくぼう}",
+      "label": "plot"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27224_kontan",
+      "reading": "こんたん",
+      "headword": "{魂胆|こんたん}",
+      "label": "scheme"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
+      "semantic": [
+        "general"
+      ],
       "domain": []
     },
     "created": "2026-03-30T17:10:16Z",
-    "modified": "2026-03-30T17:10:16Z"
+    "modified": "2026-09-02T04:02:01Z"
   }
 }

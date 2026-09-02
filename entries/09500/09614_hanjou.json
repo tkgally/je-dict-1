@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "09614_hanjou_ex1",
-      "japanese": "お{店|みせ}が{繁盛|はんじょう}している。",
+      "japanese": "⟦お{店|みせ}→お店：21164_omise⟧⟦が→が：00051_ga⟧{繁盛|はんじょう}⟦している→する：00392_suru⟧。",
       "english": "The shop is doing well.",
       "has_audio": false,
       "sense_numbers": [
@@ -114,7 +114,7 @@
     },
     {
       "id": "09614_hanjou_ex2",
-      "japanese": "{商売繁盛|しょうばいはんじょう}を{祈|いの}る。",
+      "japanese": "⟦{商売繁盛|しょうばいはんじょう}→商売繁盛：29953_shoubaihanjou⟧⟦を→を：00422_wo⟧⟦{祈|いの}る→祈る：01198_inoru⟧。",
       "english": "To pray for business prosperity.",
       "has_audio": false,
       "sense_numbers": [
@@ -124,7 +124,7 @@
     },
     {
       "id": "09614_hanjou_ex3",
-      "japanese": "{駅前|えきまえ}のラーメン{屋|や}は{繁盛|はんじょう}していて、いつも{行列|ぎょうれつ}ができている。",
+      "japanese": "⟦{駅前|えきまえ}→駅前：09593_ekimae⟧⟦の→の：09472_no⟧⟦ラーメン→ラーメン：05181_raamen⟧⟦{屋|や}→〜屋：03096_ya⟧⟦は→は：00079_ha⟧{繁盛|はんじょう}⟦していて→する：00392_suru⟧、⟦いつも→いつも：00599_itsumo⟧⟦{行列|ぎょうれつ}→行列：09699_gyouretsu⟧⟦が→が：00051_ga⟧⟦できている→できる：00557_dekiru⟧。",
       "english": "The ramen shop in front of the station is thriving, and there's always a line.",
       "has_audio": false,
       "sense_numbers": [
@@ -133,7 +133,7 @@
       "notes": null
     }
   ],
-  "notes": "{繁盛|はんじょう} refers to a prosperous state, especially in business.\n\nCOMMON PATTERNS:\n- {繁盛|はんじょう}する: to prosper, to thrive\n- {商売繁盛|しょうばいはんじょう}: business prosperity\n- {繁盛|はんじょう}している{店|みせ}: thriving shop\n\nCULTURAL NOTE:\n{商売繁盛|しょうばいはんじょう} is a common phrase written on ema (votive tablets) at shrines, praying for business success. {繁盛|はんじょう}{祈願|きがん} (praying for prosperity) is common at New Year.",
+  "notes": "{繁盛|はんじょう} refers to a prosperous state, especially in business.\n\nCOMMON PATTERNS:\n- {繁盛|はんじょう}⟦する→する：00392_suru⟧: to prosper, to thrive\n- ⟦{商売繁盛|しょうばいはんじょう}→商売繁盛：29953_shoubaihanjou⟧: business prosperity\n- {繁盛|はんじょう}⟦している→する：00392_suru⟧⟦{店|みせ}→店：00497_mise⟧: thriving shop\n\nCULTURAL NOTE:\n⟦{商売繁盛|しょうばいはんじょう}→商売繁盛：29953_shoubaihanjou⟧ is a common phrase written on ema (votive tablets) at shrines, praying for business success. {繁盛|はんじょう}⟦{祈願|きがん}→祈願：13745_kigan⟧ (praying for prosperity) is common at New Year.",
   "cross_references": [
     {
       "type": "related",
@@ -141,11 +141,25 @@
       "reading": "おうせい",
       "headword": "{旺盛|おうせい}",
       "label": "vigorous, flourishing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22405_kakkyou",
+      "reading": "かっきょう",
+      "headword": "{活況|かっきょう}",
+      "label": "boom"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22531_hanbou",
+      "reading": "はんぼう",
+      "headword": "{繁忙|はんぼう}",
+      "label": "busyness"
     }
   ],
   "metadata": {
     "created": "2026-02-03T02:35:27Z",
-    "modified": "2026-04-22T08:43:07Z",
+    "modified": "2026-09-02T04:01:18Z",
     "ai_model": "opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -158,7 +172,8 @@
       "semantic": [
         "work"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

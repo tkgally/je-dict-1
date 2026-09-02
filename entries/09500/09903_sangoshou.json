@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "09903_sangoshou_ex1",
-      "japanese": "{珊瑚礁|さんごしょう}でシュノーケリングをした。",
+      "japanese": "{珊瑚礁|さんごしょう}⟦で→で：00502_de⟧⟦シュノーケリング→シュノーケリング：28887_shunookeringu⟧⟦を→を：00422_wo⟧⟦した→する：00392_suru⟧。",
       "english": "I went snorkeling at the coral reef.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "09903_sangoshou_ex2",
-      "japanese": "{沖縄|おきなわ}の{珊瑚礁|さんごしょう}は{美|うつく}しい。",
+      "japanese": "⟦{沖縄|おきなわ}→沖縄：11009_okinawa⟧⟦の→の：09472_no⟧{珊瑚礁|さんごしょう}⟦は→は：00079_ha⟧⟦{美|うつく}しい→美しい：01121_utsukushii⟧。",
       "english": "The coral reefs of Okinawa are beautiful.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "09903_sangoshou_ex3",
-      "japanese": "{地球|ちきゅう}{温暖化|おんだんか}によって{世界中|せかいじゅう}の{珊瑚礁|さんごしょう}が{白化|はっか}している。",
+      "japanese": "⟦{地球|ちきゅう}{温暖化|おんだんか}→地球温暖化：18873_chikyuuondanka⟧⟦によって→によって：06801_niyotte⟧⟦{世界中|せかいじゅう}→世界中：10171_sekaijuu⟧⟦の→の：09472_no⟧{珊瑚礁|さんごしょう}⟦が→が：00051_ga⟧{白化|はっか}⟦している→する：00392_suru⟧。",
       "english": "Coral reefs around the world are bleaching due to global warming.",
       "notes": null,
       "has_audio": false,
@@ -43,10 +43,19 @@
       ]
     }
   ],
-  "notes": "{珊瑚礁|さんごしょう} is a compound of {珊瑚|さんご} (coral) + {礁|しょう} (reef). Refers to underwater ridges formed by accumulated coral skeletons in warm, shallow waters.\n\nCOMMON COLLOCATIONS:\n- {珊瑚礁|さんごしょう}の{海|うみ}: coral reef waters\n- {珊瑚礁|さんごしょう}が{広|ひろ}がる: coral reefs extend\n- {珊瑚礁|さんごしょう}を{守|まも}る: to protect coral reefs\n- {珊瑚礁|さんごしょう}の{白化|はっか}: coral reef bleaching\n\nIN JAPAN:\nCoral reefs are found mainly around {沖縄|おきなわ} and the {南西|なんせい}{諸島|しょとう}. They are popular destinations for diving and snorkeling. Environmental concerns about {温暖化|おんだんか} (global warming) causing coral bleaching are widely discussed.\n\nRELATED TERMS:\n- {珊瑚|さんご}: coral (the organism)\n- {岩礁|がんしょう}: rocky reef\n- {環礁|かんしょう}: atoll",
+  "notes": "{珊瑚礁|さんごしょう} is a compound of ⟦{珊瑚|さんご}→珊瑚：05390_sango⟧ (coral) + ⟦{礁|しょう}→礁：25212_shou⟧ (reef). Refers to underwater ridges formed by accumulated coral skeletons in warm, shallow waters.\n\nCOMMON COLLOCATIONS:\n- {珊瑚礁|さんごしょう}⟦の→の：09472_no⟧⟦{海|うみ}→海：00556_umi⟧: coral reef waters\n- {珊瑚礁|さんごしょう}⟦が→が：00051_ga⟧⟦{広|ひろ}がる→広がる：01980_hirogaru⟧: coral reefs extend\n- {珊瑚礁|さんごしょう}⟦を→を：00422_wo⟧⟦{守|まも}る→守る：01986_mamoru⟧: to protect coral reefs\n- {珊瑚礁|さんごしょう}⟦の→の：09472_no⟧{白化|はっか}: coral reef bleaching\n\nCULTURAL NOTE:\nCoral reefs are found mainly around ⟦{沖縄|おきなわ}→沖縄：11009_okinawa⟧ and the ⟦{南西|なんせい}→南西：19716_nansei⟧⟦{諸島|しょとう}→諸島：14343_shotou⟧. They are popular destinations for diving and snorkeling. Environmental concerns about ⟦{温暖化|おんだんか}→温暖化：04622_ondanka⟧ (global warming) causing coral bleaching are widely discussed.\n\nRELATED WORDS:\n- ⟦{珊瑚|さんご}→珊瑚：05390_sango⟧: coral (the organism)\n- ⟦{岩礁|がんしょう}→岩礁：24550_ganshou⟧: rocky reef\n- {環礁|かんしょう}: atoll",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "24550_ganshou",
+      "reading": "がんしょう",
+      "headword": "{岩礁|がんしょう}",
+      "label": "rocky reef"
+    }
+  ],
   "metadata": {
     "created": "2026-02-04T06:17:12Z",
-    "modified": "2026-08-14T01:00:44Z",
+    "modified": "2026-09-02T04:01:19Z",
     "ai_model": "claude-opus-4-5-20251101",
     "vocabulary_tier": "general",
     "tags": {

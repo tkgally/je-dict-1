@@ -3,7 +3,7 @@
   "id": "18081_baigaeshi",
   "headword": "{倍返|ばいがえ}し",
   "reading": "ばいがえし",
-  "part_of_speech": "noun / verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "returning double, paying back twofold",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "18081_baigaeshi_ex1",
-      "japanese": "やられたら{倍返|ばいがえ}しだ。",
+      "japanese": "⟦やられたら→やる：02980_yaru⟧{倍返|ばいがえ}しだ。",
       "english": "If they hit us, we'll hit back twice as hard.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "18081_baigaeshi_ex2",
-      "japanese": "お{祝|いわ}いをもらったので{倍返|ばいがえ}しをした。",
+      "japanese": "⟦お{祝|いわ}い→お祝い：01339_oiwai⟧⟦を→を：00422_wo⟧⟦もらった→もらう：00520_morau⟧⟦の→の：09472_no⟧で{倍返|ばいがえ}し⟦を→を：00422_wo⟧⟦した→する：00392_suru⟧。",
       "english": "I received a celebratory gift and returned one worth double.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "18081_baigaeshi_ex3",
-      "japanese": "この{恩|おん}はいつか{倍返|ばいがえ}しで{返|かえ}します。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{恩|おん}→恩：02550_on⟧⟦は→は：00079_ha⟧いつか{倍返|ばいがえ}し⟦で→で：00502_de⟧⟦{返|かえ}します→返す：09648_kaesu⟧。",
       "english": "I'll repay this kindness twofold someday.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "WORD FORMATION:\n{倍|ばい} (double) + {返|かえ}し (returning). Literally \"returning double.\"\n\nCULTURAL NOTE:\nThe phrase {倍返|ばいがえ}しだ！ became a popular catchphrase from the 2013 TV drama {半沢直樹|はんざわなおき}, where the protagonist vowed to pay back wrongdoers doubly. The expression existed before the drama but gained widespread popularity through it.\n\nUSAGE:\nCan be used for both positive (gifts, gratitude) and negative (revenge, retaliation) contexts. In gift-giving etiquette (お{返|かえ}し), returning a gift worth double is considered generous.\n\nSIMILAR WORDS:\n- {仕返|しかえ}し: payback, retaliation\n- お{返|かえ}し: return gift",
+  "notes": "FORMS:\n⟦{倍|ばい}→倍：01492_bai⟧ (double) + ⟦{返|かえ}し→返し：24802_kaeshi⟧ (returning). Literally \"returning double.\"\n\nCULTURAL NOTE:\nThe phrase {倍返|ばいがえ}しだ！ became a popular catchphrase from the 2013 TV drama {半沢直樹|はんざわなおき}, where the protagonist vowed to pay back wrongdoers doubly. The expression existed before the drama but gained widespread popularity through it.\n\nUSAGE:\nCan be used for both positive (gifts, gratitude) and negative (revenge, retaliation) contexts. In gift-giving etiquette (⟦お{返|かえ}し→お返し：08354_okaeshi⟧), returning a gift worth double is considered generous.\n\nSIMILAR WORDS:\n- ⟦{仕返|しかえ}し→仕返し：10597_shikaeshi⟧: payback, retaliation\n- ⟦お{返|かえ}し→お返し：08354_okaeshi⟧: return gift",
   "cross_references": [
     {
       "type": "related",
@@ -142,11 +142,18 @@
       "reading": "しかえし",
       "headword": "{仕返|しかえ}し",
       "label": "payback, retaliation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08354_okaeshi",
+      "reading": "おかえし",
+      "headword": "お{返|かえ}し",
+      "label": "return gift"
     }
   ],
   "metadata": {
     "created": "2026-03-20T01:13:27Z",
-    "modified": "2026-07-22T00:20:00Z",
+    "modified": "2026-09-02T04:01:50Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

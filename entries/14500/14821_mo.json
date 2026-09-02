@@ -15,41 +15,59 @@
   "examples": [
     {
       "id": "14821_mo_ex1",
-      "japanese": "{池|いけ}に{藻|も}が{生|は}えている。",
+      "japanese": "⟦{池|いけ}→池：00848_ike⟧⟦に→に：00314_ni⟧{藻|も}⟦が→が：00051_ga⟧⟦{生|は}えている→生える：02392_haeru⟧。",
       "english": "Algae are growing in the pond.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14821_mo_ex2",
-      "japanese": "{水槽|すいそう}の{藻|も}を{取|と}り{除|のぞ}いた。",
+      "japanese": "⟦{水槽|すいそう}→水槽：09956_suisou⟧⟦の→の：09472_no⟧{藻|も}⟦を→を：00422_wo⟧⟦{取|と}り{除|のぞ}いた→取り除く：04222_torinozoku⟧。",
       "english": "I removed the algae from the fish tank.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14821_mo_ex3",
-      "japanese": "{夏|なつ}になると{川|かわ}の{流|なが}れが{緩|ゆる}やかな{場所|ばしょ}に{藻|も}が{繁|しげ}って、{水面|すいめん}が{緑色|みどりいろ}になる。",
+      "japanese": "⟦{夏|なつ}→夏：02236_natsu⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦と→と：00512_to⟧⟦{川|かわ}→川：02186_kawa⟧⟦の→の：09472_no⟧⟦{流|なが}れ→流れ：03504_nagare⟧⟦が→が：00051_ga⟧⟦{緩|ゆる}やか→緩やか：13813_yuruyaka⟧な⟦{場所|ばしょ}→場所：00829_basho⟧⟦に→に：00314_ni⟧{藻|も}⟦が→が：00051_ga⟧{繁|しげ}って、⟦{水面|すいめん}→水面：04307_suimen⟧⟦が→が：00051_ga⟧⟦{緑色|みどりいろ}→緑色：24190_midoriiro⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧。",
       "english": "In summer, algae grow thick in places where the river current is gentle, turning the water surface green.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "A native Japanese word for aquatic vegetation. Often appears in compounds.\n\nCOMMON COLLOCATIONS:\n- {藻|も}が{生|は}える (algae grows)\n- {藻|も}が{繁|しげ}る (algae thrives/grows thick)\n- {藻|も}を{取|と}る (to remove algae)\n- {海藻|かいそう} (seaweed — {海|うみ} + {藻|も})\n\nCOMMON COMPOUNDS:\n- {海藻|かいそう} (seaweed)\n- {水草|みずくさ} (aquatic plant — synonym using different kanji)\n- {藻類|そうるい} (algae as a biological classification)\n\nThe character {藻|も} also appears in {藻掻|もが}く (to struggle, to flounder), though the connection is etymological rather than semantic.",
-  "cross_references": [],
+  "notes": "A native Japanese word for aquatic vegetation. Often appears in compounds.\n\nCOMMON COLLOCATIONS:\n- {藻|も}⟦が→が：00051_ga⟧⟦{生|は}える→生える：02392_haeru⟧ (algae grows)\n- {藻|も}⟦が→が：00051_ga⟧{繁|しげ}る (algae thrives/grows thick)\n- {藻|も}⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧ (to remove algae)\n- ⟦{海藻|かいそう}→海藻：06750_kaisou⟧ (seaweed — ⟦{海|うみ}→海：00556_umi⟧ + {藻|も})\n\nCOMPOUNDS:\n- ⟦{海藻|かいそう}→海藻：06750_kaisou⟧ (seaweed)\n- ⟦{水草|みずくさ}→水草：28853_mizukusa⟧ (aquatic plant — synonym using different kanji)\n- ⟦{藻類|そうるい}→藻類：22025_sourui⟧ (algae as a biological classification)\n\nThe character {藻|も} also appears in {藻掻|もが}く (to struggle, to flounder), though the connection is etymological rather than semantic.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "28853_mizukusa",
+      "reading": "みずくさ",
+      "headword": "{水草|みずくさ}",
+      "label": "water plant"
+    }
+  ],
   "metadata": {
     "created": "2026-03-04T04:05:19Z",
-    "modified": "2026-03-04T04:05:19Z",
+    "modified": "2026-09-02T04:01:38Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["plant-general"]
+      "semantic": [
+        "plant-general"
+      ]
     }
   }
 }

@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "07137_bouhankamera_ex1",
-      "japanese": "この{店|みせ}には{防犯|ぼうはん}カメラが{設置|せっち}されている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{店|みせ}→店：00497_mise⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{防犯|ぼうはん}カメラ⟦が→が：00051_ga⟧⟦{設置|せっち}→設置：09750_secchi⟧⟦されている→する：00392_suru⟧。",
       "english": "This store has security cameras installed.",
       "sense_numbers": [
         1
@@ -22,7 +22,7 @@
     },
     {
       "id": "07137_bouhankamera_ex2",
-      "japanese": "{防犯|ぼうはん}カメラの{映像|えいぞう}で{犯人|はんにん}が{特定|とくてい}された。",
+      "japanese": "{防犯|ぼうはん}カメラ⟦の→の：09472_no⟧⟦{映像|えいぞう}→映像：04444_eizou⟧⟦で→で：00502_de⟧⟦{犯人|はんにん}→犯人：03572_hannin⟧⟦が→が：00051_ga⟧⟦{特定|とくてい}→特定：04275_tokutei⟧⟦された→する：00392_suru⟧。",
       "english": "The culprit was identified from the security camera footage.",
       "sense_numbers": [
         1
@@ -37,7 +37,7 @@
       ]
     }
   ],
-  "notes": "COMPOSITION: {防犯|ぼうはん} (crime prevention) + カメラ (camera).\n\nSYNONYMS:\n- {監視|かんし}カメラ: surveillance camera (emphasizes monitoring)\n- CCTV: closed-circuit television\n\nCOMMON LOCATIONS:\n- {店舗|てんぽ}: stores\n- {駅|えき}: train stations\n- コンビニ: convenience stores\n- {駐車場|ちゅうしゃじょう}: parking lots\n- {住宅街|じゅうたくがい}: residential areas\n- {銀行|ぎんこう}: banks\n\nSIGNAGE:\n- {防犯|ぼうはん}カメラ{作動中|さどうちゅう} (security cameras in operation)\n- {録画中|ろくがちゅう} (recording in progress)\n\nRELATED VOCABULARY:\n- {防犯|ぼうはん}: crime prevention\n- {監視|かんし}: surveillance, monitoring\n- {映像|えいぞう}: footage, video\n- {録画|ろくが}: recording\n- {画像解析|がぞうかいせき}: image analysis",
+  "notes": "COMPOSITION: ⟦{防犯|ぼうはん}→防犯：08192_bouhan⟧ (crime prevention) + ⟦カメラ→カメラ：04417_kamera⟧ (camera).\n\nSIMILAR WORDS:\n- ⟦{監視|かんし}カメラ→監視カメラ：15301_kanshikamera⟧: surveillance camera (emphasizes monitoring)\n- CCTV: closed-circuit television\n\nCOMMON LOCATIONS:\n- ⟦{店舗|てんぽ}→店舗：12481_tenpo⟧: stores\n- ⟦{駅|えき}→駅：02180_eki⟧: train stations\n- ⟦コンビニ→コンビニ：01081_konbini⟧: convenience stores\n- ⟦{駐車場|ちゅうしゃじょう}→駐車場：01667_chuushajou⟧: parking lots\n- ⟦{住宅街|じゅうたくがい}→住宅街：09394_juutakugai⟧: residential areas\n- ⟦{銀行|ぎんこう}→銀行：00578_ginkou⟧: banks\n\nSIGNAGE:\n- {防犯|ぼうはん}カメラ{作動中|さどうちゅう} (security cameras in operation)\n- {録画中|ろくがちゅう} (recording in progress)\n\nRELATED WORDS:\n- ⟦{防犯|ぼうはん}→防犯：08192_bouhan⟧: crime prevention\n- ⟦{監視|かんし}→監視：05521_kanshi⟧: surveillance, monitoring\n- ⟦{映像|えいぞう}→映像：04444_eizou⟧: footage, video\n- ⟦{録画|ろくが}→録画：04441_rokuga⟧: recording\n- {画像解析|がぞうかいせき}: image analysis",
   "cross_references": [
     {
       "type": "related",
@@ -45,11 +45,46 @@
       "reading": "ぼうはん",
       "headword": "{防犯|ぼうはん}",
       "label": "crime prevention"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15301_kanshikamera",
+      "reading": "かんしかめら",
+      "headword": "{監視|かんし}カメラ",
+      "label": "surveillance camera"
+    },
+    {
+      "type": "related",
+      "target_id": "05521_kanshi",
+      "reading": "かんし",
+      "headword": "{監視|かんし}",
+      "label": "surveillance, monitoring"
+    },
+    {
+      "type": "related",
+      "target_id": "04444_eizou",
+      "reading": "えいぞう",
+      "headword": "{映像|えいぞう}",
+      "label": "footage, video"
+    },
+    {
+      "type": "related",
+      "target_id": "04441_rokuga",
+      "reading": "ろくが",
+      "headword": "{録画|ろくが}",
+      "label": "recording"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28545_bideokamera",
+      "reading": "びでおかめら",
+      "headword": "ビデオカメラ",
+      "label": "video camera"
     }
   ],
   "metadata": {
     "created": "2026-01-18T23:54:32Z",
-    "modified": "2026-08-10T06:41:18Z",
+    "modified": "2026-09-02T04:01:10Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

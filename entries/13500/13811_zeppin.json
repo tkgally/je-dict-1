@@ -15,41 +15,59 @@
   "examples": [
     {
       "id": "13811_zeppin_ex1",
-      "japanese": "このケーキは{絶品|ぜっぴん}だ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦ケーキ→ケーキ：01356_keeki⟧⟦は→は：00079_ha⟧{絶品|ぜっぴん}だ。",
       "english": "This cake is superb.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13811_zeppin_ex2",
-      "japanese": "{地元|じもと}の{魚|さかな}を{使|つか}った{刺身|さしみ}は{絶品|ぜっぴん}だった。",
+      "japanese": "⟦{地元|じもと}→地元：09941_jimoto⟧⟦の→の：09472_no⟧⟦{魚|さかな}→魚：00499_sakana⟧⟦を→を：00422_wo⟧⟦{使|つか}った→使う：00473_tsukau⟧⟦{刺身|さしみ}→刺身：04023_sashimi⟧⟦は→は：00079_ha⟧{絶品|ぜっぴん}だった。",
       "english": "The sashimi made with local fish was exquisite.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13811_zeppin_ex3",
-      "japanese": "{口|くち}コミで{広|ひろ}まった{絶品|ぜっぴん}グルメを{食|た}べに{行|い}った。",
+      "japanese": "⟦{口|くち}コミ→口コミ：17690_kuchikomi⟧⟦で→で：00502_de⟧⟦{広|ひろ}まった→広まる：02404_hiromaru⟧{絶品|ぜっぴん}⟦グルメ→グルメ：10845_gurume⟧⟦を→を：00422_wo⟧⟦{食|た}べ→食べる：00396_taberu⟧⟦に→に：00314_ni⟧⟦{行|い}った→行く：00119_iku⟧。",
       "english": "I went to try the superb dish that spread by word of mouth.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nMost commonly used as a predicate: Xは{絶品|ぜっぴん}だ (X is superb). Also used as a modifier: {絶品|ぜっぴん}グルメ (superb cuisine), {絶品|ぜっぴん}スイーツ (exquisite sweets). Overwhelmingly used for food and drink in modern Japanese, though it can apply to other items of exceptional quality.\n\nCOMMON COLLOCATIONS:\n- {絶品|ぜっぴん}グルメ: superb cuisine\n- {絶品|ぜっぴん}スイーツ: exquisite sweets\n- {絶品|ぜっぴん}の{味|あじ}: exquisite flavor\n- {絶品|ぜっぴん}{料理|りょうり}: outstanding dish",
-  "cross_references": [],
+  "notes": "USAGE:\nMost commonly used as a predicate: X⟦は→は：00079_ha⟧{絶品|ぜっぴん}だ (X is superb). Also used as a modifier: {絶品|ぜっぴん}⟦グルメ→グルメ：10845_gurume⟧ (superb cuisine), {絶品|ぜっぴん}⟦スイーツ→スイーツ：27370_suiitsu⟧ (exquisite sweets). Overwhelmingly used for food and drink in modern Japanese, though it can apply to other items of exceptional quality.\n\nCOMMON COLLOCATIONS:\n- {絶品|ぜっぴん}⟦グルメ→グルメ：10845_gurume⟧: superb cuisine\n- {絶品|ぜっぴん}⟦スイーツ→スイーツ：27370_suiitsu⟧: exquisite sweets\n- {絶品|ぜっぴん}⟦の→の：09472_no⟧⟦{味|あじ}→味：00826_aji⟧: exquisite flavor\n- {絶品|ぜっぴん}⟦{料理|りょうり}→料理：01523_ryouri⟧: outstanding dish",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19842_bimi",
+      "reading": "びみ",
+      "headword": "{美味|びみ}",
+      "label": "delicious, fine-tasting"
+    }
+  ],
   "metadata": {
     "created": "2026-02-27T04:18:28Z",
-    "modified": "2026-04-10T07:12:46Z",
+    "modified": "2026-09-02T04:01:34Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food"]
+      "semantic": [
+        "food"
+      ]
     }
   }
 }

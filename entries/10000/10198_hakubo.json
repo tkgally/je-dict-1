@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "10198_hakubo_ex1",
-      "japanese": "{薄暮|はくぼ}の{中|なか}を{歩|ある}く。",
+      "japanese": "{薄暮|はくぼ}⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧⟦を→を：00422_wo⟧⟦{歩|ある}く→歩く：00538_aruku⟧。",
       "english": "Walk in the twilight.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "10198_hakubo_ex2",
-      "japanese": "{薄暮|はくぼ}{時|じ}は{事故|じこ}が{多|おお}い。",
+      "japanese": "{薄暮|はくぼ}⟦{時|じ}→時：09869_ji⟧⟦は→は：00079_ha⟧⟦{事故|じこ}→事故：00851_jiko⟧⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "Accidents are common during twilight hours.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "10198_hakubo_ex3",
-      "japanese": "{薄暮|はくぼ}の{空|そら}に{一番星|いちばんぼし}が{輝|かがや}いていた。",
+      "japanese": "{薄暮|はくぼ}⟦の→の：09472_no⟧⟦{空|そら}→空：02216_sora⟧⟦に→に：00314_ni⟧⟦{一番星|いちばんぼし}→一番星：08953_ichibanboshi⟧⟦が→が：00051_ga⟧⟦{輝|かがや}いていた→輝く：02032_kagayaku⟧。",
       "english": "The first star was shining in the twilight sky.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "WORD FORMATION:\n{薄|はく} (thin, faint) + {暮|ぼ} (dusk, evening)\n\nREGISTER:\n{薄暮|はくぼ} is a literary/formal term. In everyday conversation, {夕暮|ゆうぐ}れ or {日暮|ひぐ}れ are more common.\n\nTRAFFIC SAFETY:\n{薄暮|はくぼ}{時|じ} (twilight hours) is particularly dangerous for driving because visibility decreases but headlights are not yet fully effective.\n\nRELATED TERMS:\n- {夕暮|ゆうぐ}れ: evening, dusk (common)\n- {黄昏|たそがれ}: twilight (literary)\n- {日暮|ひぐ}れ: dusk, sunset\n- {黎明|れいめい}: dawn (opposite time)",
+  "notes": "FORMS:\n{薄|はく} (thin, faint) + {暮|ぼ} (dusk, evening)\n\nREGISTER:\n{薄暮|はくぼ} is a literary/formal term. In everyday conversation, ⟦{夕暮|ゆうぐ}れ→夕暮れ：07682_yuugure⟧ or ⟦{日暮|ひぐ}れ→日暮れ：10086_higure⟧ are more common.\n\nTRAFFIC SAFETY:\n{薄暮|はくぼ}⟦{時|じ}→時：09869_ji⟧ (twilight hours) is particularly dangerous for driving because visibility decreases but headlights are not yet fully effective.\n\nRELATED WORDS:\n- ⟦{夕暮|ゆうぐ}れ→夕暮れ：07682_yuugure⟧: evening, dusk (common)\n- ⟦{黄昏|たそがれ}→黄昏：05046_tasogare⟧: twilight (literary)\n- ⟦{日暮|ひぐ}れ→日暮れ：10086_higure⟧: dusk, sunset\n- ⟦{黎明|れいめい}→黎明：10199_reimei⟧: dawn (opposite time)",
   "cross_references": [
     {
       "type": "antonym",
@@ -58,11 +58,32 @@
       "reading": "ゆうぐれ",
       "headword": "{夕暮|ゆうぐ}れ",
       "label": "dusk (everyday term)"
+    },
+    {
+      "type": "related",
+      "target_id": "05046_tasogare",
+      "reading": "たそがれ",
+      "headword": "{黄昏|たそがれ}",
+      "label": "twilight"
+    },
+    {
+      "type": "related",
+      "target_id": "10086_higure",
+      "reading": "ひぐれ",
+      "headword": "{日暮|ひぐ}れ",
+      "label": "dusk, sunset"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19129_yuuyami",
+      "reading": "ゆうやみ",
+      "headword": "{夕闇|ゆうやみ}",
+      "label": "evening darkness"
     }
   ],
   "metadata": {
     "created": "2026-02-05T12:58:08Z",
-    "modified": "2026-08-14T01:00:44Z",
+    "modified": "2026-09-02T04:01:20Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

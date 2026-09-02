@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "18475_kenkouhoken_ex1",
-      "japanese": "{健康保険|けんこうほけん}に{加入|かにゅう}する。",
+      "japanese": "{健康保険|けんこうほけん}⟦に→に：00314_ni⟧⟦{加入|かにゅう}する→加入する：22671_kanyuusuru⟧。",
       "english": "To enroll in health insurance.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "18475_kenkouhoken_ex2",
-      "japanese": "{健康保険|けんこうほけん}{証|しょう}を{忘|わす}れずにお{持|も}ちください。",
+      "japanese": "{健康保険|けんこうほけん}{証|しょう}⟦を→を：00422_wo⟧⟦{忘|わす}れ→忘れる：00474_wasureru⟧ず⟦に→に：00314_ni⟧お⟦{持|も}ち→持つ：00478_motsu⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please don't forget to bring your health insurance card.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "18475_kenkouhoken_ex3",
-      "japanese": "{日本|にほん}では{全員|ぜんいん}が{何|なん}らかの{健康保険|けんこうほけん}に{入|はい}ることが{義務|ぎむ}づけられている。",
+      "japanese": "⟦{日本|にほん}→日本：03876_nihon⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{全員|ぜんいん}→全員：03310_zenin⟧⟦が→が：00051_ga⟧⟦{何|なん}らか→何らか：18430_nanraka⟧⟦の→の：09472_no⟧{健康保険|けんこうほけん}⟦に→に：00314_ni⟧⟦{入|はい}る→入る：00494_hairu⟧こと⟦が→が：00051_ga⟧⟦{義務|ぎむ}→義務：02647_gimu⟧づけられて⟦いる→いる：00495_iru⟧。",
       "english": "In Japan, everyone is required to be enrolled in some form of health insurance.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "Japan has universal health insurance. All residents must enroll in some form of {健康保険|けんこうほけん}. Often abbreviated to {健保|けんぽ}.\n\nTYPES:\n- {社会保険|しゃかいほけん} ({社保|しゃほ}): employee health insurance (through employer)\n- {国民健康保険|こくみんけんこうほけん} ({国保|こくほ}): National Health Insurance (for self-employed, retirees, etc.)\n\nCOMMON EXPRESSIONS:\n- {健康保険|けんこうほけん}{証|しょう}: health insurance card\n- {健康保険|けんこうほけん}に{加入|かにゅう}する: to enroll in health insurance\n- {健康保険|けんこうほけん}{料|りょう}: health insurance premium\n\nCOPAY:\nThe standard patient copay is 30% of medical costs, with the insurance covering the remaining 70%. Children and elderly have reduced copay rates.",
+  "notes": "Japan has universal health insurance. All residents must enroll in some form of {健康保険|けんこうほけん}. Often abbreviated to {健保|けんぽ}.\n\nTYPES:\n- ⟦{社会保険|しゃかいほけん}→社会保険：18894_shakaihoken⟧ ({社保|しゃほ}): employee health insurance (through employer)\n- ⟦{国民健康保険|こくみんけんこうほけん}→国民健康保険：24671_kokuminkenkouhoken⟧ ({国保|こくほ}): National Health Insurance (for self-employed, retirees, etc.)\n\nCOMMON EXPRESSIONS:\n- {健康保険|けんこうほけん}{証|しょう}: health insurance card\n- {健康保険|けんこうほけん}⟦に→に：00314_ni⟧⟦{加入|かにゅう}する→加入する：22671_kanyuusuru⟧: to enroll in health insurance\n- {健康保険|けんこうほけん}{料|りょう}: health insurance premium\n\nCOPAY:\nThe standard patient copay is 30% of medical costs, with the insurance covering the remaining 70%. Children and elderly have reduced copay rates.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "09707_hokenshou",
+      "reading": "ほけんしょう",
+      "headword": "{保険証|ほけんしょう}",
+      "label": "health insurance card"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -63,6 +72,6 @@
       ]
     },
     "created": "2026-03-22T03:08:03Z",
-    "modified": "2026-07-25T21:35:01Z"
+    "modified": "2026-09-02T04:01:52Z"
   }
 }

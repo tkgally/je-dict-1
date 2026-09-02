@@ -43,11 +43,26 @@
       ]
     }
   ],
-  "notes": "{委員|いいん} refers to a member of a committee or board.\n\nCOMMON PATTERNS:\n- {委員|いいん}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧ (become a committee member)\n- {委員|いいん}⟦を→を：00422_wo⟧⟦{務|つと}める→務める：10446_tsutomeru⟧ (serve as a committee member)\n- {委員|いいん}⟦に→に：00314_ni⟧⟦{選|えら}ばれる→選ぶ：00835_erabu⟧ (be elected as a committee member)\n\nCOMPOUND WORDS:\n- ⟦{委員会|いいんかい}→委員会：12234_iinkai⟧: committee (the group itself)\n- ⟦{委員長|いいんちょう}→委員長：19385_iinchou⟧: committee chairman\n- ⟦{学級|がっきゅう}→学級：12253_gakkyuu⟧{委員|いいん}: class representative\n- ⟦{実行|じっこう}→実行：03274_jikkou⟧{委員|いいん}: executive committee member",
-  "cross_references": [],
+  "notes": "{委員|いいん} refers to a member of a committee or board.\n\nCOMMON PATTERNS:\n- {委員|いいん}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧ (become a committee member)\n- {委員|いいん}⟦を→を：00422_wo⟧⟦{務|つと}める→務める：10446_tsutomeru⟧ (serve as a committee member)\n- {委員|いいん}⟦に→に：00314_ni⟧⟦{選|えら}ばれる→選ぶ：00835_erabu⟧ (be elected as a committee member)\n\nCOMPOUNDS:\n- ⟦{委員会|いいんかい}→委員会：12234_iinkai⟧: committee (the group itself)\n- ⟦{委員長|いいんちょう}→委員長：19385_iinchou⟧: committee chairman\n- ⟦{学級|がっきゅう}→学級：12253_gakkyuu⟧{委員|いいん}: class representative\n- ⟦{実行|じっこう}→実行：03274_jikkou⟧{委員|いいん}: executive committee member",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03116_daihyousha",
+      "reading": "だいひょうしゃ",
+      "headword": "{代表者|だいひょうしゃ}",
+      "label": "representative, delegate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13558_riji",
+      "reading": "りじ",
+      "headword": "{理事|りじ}",
+      "label": "director, board member"
+    }
+  ],
   "metadata": {
     "created": "2026-01-09T11:57:15Z",
-    "modified": "2026-06-11T10:45:00Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

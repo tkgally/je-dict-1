@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "07533_kangakki_ex1",
-      "japanese": "{管楽器|かんがっき}は{息|いき}のコントロールが{大切|たいせつ}です。",
+      "japanese": "{管楽器|かんがっき}⟦は→は：00079_ha⟧⟦{息|いき}→息：02176_iki⟧⟦の→の：09472_no⟧⟦コントロール→コントロール：10861_kontorooru⟧⟦が→が：00051_ga⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧です。",
       "english": "Breath control is important for wind instruments.",
       "has_audio": false,
       "sense_numbers": [
@@ -23,7 +23,7 @@
     },
     {
       "id": "07533_kangakki_ex2",
-      "japanese": "フルートは{木管|もっかん}{楽器|がっき}の{一種|いっしゅ}だ。",
+      "japanese": "⟦フルート→フルート：04462_furuuto⟧⟦は→は：00079_ha⟧⟦{木管|もっかん}{楽器|がっき}→木管楽器：25946_mokkangakki⟧⟦の→の：09472_no⟧⟦{一種|いっしゅ}→一種：01628_isshu⟧だ。",
       "english": "The flute is a type of woodwind instrument.",
       "has_audio": false,
       "sense_numbers": [
@@ -32,7 +32,7 @@
     },
     {
       "id": "07533_kangakki_ex3",
-      "japanese": "{管楽器|かんがっき}の{音色|ねいろ}がホールに{響|ひび}いた。",
+      "japanese": "{管楽器|かんがっき}⟦の→の：09472_no⟧⟦{音色|ねいろ}→音色：07422_neiro⟧⟦が→が：00051_ga⟧⟦ホール→ホール：11169_hooru⟧⟦に→に：00314_ni⟧⟦{響|ひび}いた→響く：00099_hibiku⟧。",
       "english": "The sound of the wind instruments echoed through the hall.",
       "has_audio": false,
       "sense_numbers": [
@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "notes": "WORD STRUCTURE:\n{管|かん} (tube, pipe) + {楽器|がっき} (musical instrument)\n\nCATEGORIES:\n\n**{木管楽器|もっかんがっき} (Woodwinds):**\n・フルート - flute\n・クラリネット - clarinet\n・オーボエ - oboe\n・ファゴット - bassoon\n・サックス - saxophone\n\n**{金管楽器|きんかんがっき} (Brass):**\n・トランペット - trumpet\n・トロンボーン - trombone\n・ホルン - horn\n・チューバ - tuba\n\nRELATED TERMS:\n・{弦楽器|げんがっき} - string instruments\n・{打楽器|だがっき} - percussion instruments\n・{吹奏楽|すいそうがく} - wind ensemble music\n\nCOLLOCATIONS:\n・{管楽器|かんがっき}を{吹|ふ}く - to play a wind instrument\n・{管楽器|かんがっき}{奏者|そうしゃ} - wind player",
+  "notes": "ETYMOLOGY:\n⟦{管|かん}→管：09749_kan⟧ (tube, pipe) + ⟦{楽器|がっき}→楽器：13159_gakki⟧ (musical instrument)\n\nTYPES:\n\n**⟦{木管楽器|もっかんがっき}→木管楽器：25946_mokkangakki⟧ (Woodwinds):**\n- ⟦フルート→フルート：04462_furuuto⟧ - flute\n- ⟦クラリネット→クラリネット：08138_kurarinetto⟧ - clarinet\n- オーボエ - oboe\n- ファゴット - bassoon\n- ⟦サックス→サックス：07540_sakkusu⟧ - saxophone\n\n**⟦{金管楽器|きんかんがっき}→金管楽器：23683_kinkangakki⟧ (Brass):**\n- ⟦トランペット→トランペット：07541_toranpetto⟧ - trumpet\n- ⟦トロンボーン→トロンボーン：08139_toronboon⟧ - trombone\n- ⟦ホルン→ホルン：23742_horun⟧ - horn\n- チューバ - tuba\n\nRELATED WORDS:\n- ⟦{弦楽器|げんがっき}→弦楽器：07534_gengakki⟧ - string instruments\n- ⟦{打楽器|だがっき}→打楽器：07532_dagakki⟧ - percussion instruments\n- ⟦{吹奏楽|すいそうがく}→吹奏楽：07535_suisougaku⟧ - wind ensemble music\n\nCOMMON COLLOCATIONS:\n- {管楽器|かんがっき}⟦を→を：00422_wo⟧⟦{吹|ふ}く→吹く：02445_fuku⟧ - to play a wind instrument\n- {管楽器|かんがっき}⟦{奏者|そうしゃ}→奏者：06964_sousha⟧ - wind player",
   "cross_references": [
     {
       "type": "related",
@@ -55,11 +55,32 @@
       "headword": "{弦楽器|げんがっき}",
       "label": "string instruments",
       "target_id": "07534_gengakki"
+    },
+    {
+      "type": "related",
+      "target_id": "07535_suisougaku",
+      "reading": "すいそうがく",
+      "headword": "{吹奏楽|すいそうがく}",
+      "label": "wind ensemble music"
+    },
+    {
+      "type": "related",
+      "target_id": "18464_kenbangakki",
+      "reading": "けんばんがっき",
+      "headword": "{鍵盤楽器|けんばんがっき}",
+      "label": "keyboard instrument"
+    },
+    {
+      "type": "related",
+      "target_id": "22729_suisou",
+      "reading": "すいそう",
+      "headword": "{吹奏|すいそう}",
+      "label": "playing wind instruments"
     }
   ],
   "metadata": {
     "created": "2026-01-20T08:47:47Z",
-    "modified": "2026-01-24T14:24:36Z",
+    "modified": "2026-09-02T04:01:11Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -67,6 +88,7 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "music"
       ]

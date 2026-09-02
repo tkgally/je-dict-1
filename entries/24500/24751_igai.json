@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24751_igai_ex1",
-      "japanese": "{遺骸|いがい}が{発見|はっけん}された。",
+      "japanese": "{遺骸|いがい}⟦が→が：00051_ga⟧⟦{発見|はっけん}→発見：00085_hakken⟧⟦された→する：00392_suru⟧。",
       "english": "The remains were discovered.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24751_igai_ex2",
-      "japanese": "{兵士|へいし}たちの{遺骸|いがい}は{故郷|こきょう}に{送還|そうかん}された。",
+      "japanese": "⟦{兵士|へいし}→兵士：11680_heishi⟧たち⟦の→の：09472_no⟧{遺骸|いがい}⟦は→は：00079_ha⟧⟦{故郷|こきょう}→故郷：02733_kokyou⟧⟦に→に：00314_ni⟧{送還|そうかん}⟦された→する：00392_suru⟧。",
       "english": "The remains of the soldiers were repatriated to their homeland.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24751_igai_ex3",
-      "japanese": "{登山隊|とざんたい}が{雪|ゆき}の{中|なか}から{遭難者|そうなんしゃ}の{遺骸|いがい}を{収容|しゅうよう}するまでに、{数日|すうじつ}かかった。",
+      "japanese": "{登山隊|とざんたい}⟦が→が：00051_ga⟧⟦{雪|ゆき}→雪：00584_yuki⟧⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧⟦から→から：00504_kara⟧⟦{遭難者|そうなんしゃ}→遭難者：27894_sounansha⟧⟦の→の：09472_no⟧{遺骸|いがい}⟦を→を：00422_wo⟧⟦{収容|しゅうよう}→収容：11800_shuuyou⟧⟦する→する：00392_suru⟧⟦まで→まで：00490_made⟧⟦に→に：00314_ni⟧、⟦{数日|すうじつ}→数日：20517_suujitsu⟧⟦かかった→かかる：00711_kakaru⟧。",
       "english": "It took several days for the mountaineering team to recover the remains of the victim from the snow.",
       "sense_numbers": [
         1
@@ -44,19 +44,43 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {遺|い} (left behind, bequeathed) and {骸|がい} (body, remains). This is a formal, somewhat literary word for a dead body. It appears frequently in news reporting, historical writing, and literature.\n\nThe tone is respectful and detached, making it appropriate for formal accounts of deaths, war casualties, and disaster victims.\n\nCOMMON COLLOCATIONS:\n- {遺骸|いがい}を{収容|しゅうよう}する: to recover remains\n- {遺骸|いがい}を{引|ひ}き{渡|わた}す: to hand over remains\n- {遺骸|いがい}を{埋葬|まいそう}する: to bury remains\n- {遺骸|いがい}が{発見|はっけん}される: for remains to be discovered\n\nSIMILAR WORDS:\n- {遺体|いたい}: dead body, remains — the standard formal term, more common than {遺骸|いがい} in modern usage\n- {死体|したい}: corpse, dead body — more clinical and blunt; used in forensic and police contexts\n- {亡骸|なきがら}: mortal remains — poetic and deeply respectful; used in literature and eulogies",
+  "notes": "A compound of {遺|い} (left behind, bequeathed) and {骸|がい} (body, remains). This is a formal, somewhat literary word for a dead body. It appears frequently in news reporting, historical writing, and literature.\n\nThe tone is respectful and detached, making it appropriate for formal accounts of deaths, war casualties, and disaster victims.\n\nCOMMON COLLOCATIONS:\n- {遺骸|いがい}⟦を→を：00422_wo⟧⟦{収容|しゅうよう}→収容：11800_shuuyou⟧⟦する→する：00392_suru⟧: to recover remains\n- {遺骸|いがい}⟦を→を：00422_wo⟧⟦{引|ひ}き{渡|わた}す→引き渡す：12486_hikiwatasu⟧: to hand over remains\n- {遺骸|いがい}⟦を→を：00422_wo⟧⟦{埋葬|まいそう}→埋葬：15272_maisou⟧⟦する→する：00392_suru⟧: to bury remains\n- {遺骸|いがい}⟦が→が：00051_ga⟧⟦{発見|はっけん}される→発見する：26929_hakkensuru⟧: for remains to be discovered\n\nSIMILAR WORDS:\n- ⟦{遺体|いたい}→遺体：14433_itai⟧: dead body, remains — the standard formal term, more common than {遺骸|いがい} in modern usage\n- ⟦{死体|したい}→死体：04032_shitai⟧: corpse, dead body — more clinical and blunt; used in forensic and police contexts\n- ⟦{亡骸|なきがら}→亡骸：11723_nakigara⟧: mortal remains — poetic and deeply respectful; used in literature and eulogies",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14433_itai",
+      "reading": "いたい",
+      "headword": "{遺体|いたい}",
+      "label": "dead body, remains"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04032_shitai",
+      "reading": "したい",
+      "headword": "{死体|したい}",
+      "label": "corpse, dead body"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11723_nakigara",
+      "reading": "なきがら",
+      "headword": "{亡骸|なきがら}",
+      "label": "mortal remains"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "person"
       ]
     },
     "created": "2026-04-20T14:32:16Z",
-    "modified": "2026-08-03T09:22:27Z"
+    "modified": "2026-09-02T04:02:19Z"
   }
 }

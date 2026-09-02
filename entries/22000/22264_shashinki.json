@@ -15,40 +15,59 @@
   "examples": [
     {
       "id": "22264_shashinki_ex1",
-      "japanese": "{古|ふる}い{写真機|しゃしんき}を{修理|しゅうり}した。",
+      "japanese": "⟦{古|ふる}い→古い：00488_furui⟧{写真機|しゃしんき}⟦を→を：00422_wo⟧⟦{修理|しゅうり}→修理：03214_shuuri⟧⟦した→する：00392_suru⟧。",
       "english": "I repaired an old camera.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "22264_shashinki_ex2",
-      "japanese": "{祖父|そふ}の{写真機|しゃしんき}はまだ{使|つか}える。",
+      "japanese": "⟦{祖父|そふ}→祖父：01452_sofu⟧⟦の→の：09472_no⟧{写真機|しゃしんき}⟦は→は：00079_ha⟧⟦まだ→まだ：00603_mada⟧⟦{使|つか}える→使う：00473_tsukau⟧。",
       "english": "My grandfather's camera still works.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "22264_shashinki_ex3",
-      "japanese": "{明治|めいじ}{時代|じだい}に{日本|にほん}に{写真機|しゃしんき}が{伝|つた}わった。",
+      "japanese": "⟦{明治|めいじ}{時代|じだい}→明治時代：28080_meijijidai⟧⟦に→に：00314_ni⟧⟦{日本|にほん}→日本：03876_nihon⟧⟦に→に：00314_ni⟧{写真機|しゃしんき}⟦が→が：00051_ga⟧⟦{伝|つた}わった→伝わる：01961_tsutawaru⟧。",
       "english": "The camera was introduced to Japan in the Meiji era.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "An older, more formal Japanese word for camera. While カメラ is the standard word in modern Japanese, {写真機|しゃしんき} still appears in historical, technical, or literary contexts.\n\nUSAGE:\nToday {写真機|しゃしんき} is used mainly when:\n- Referring to vintage or antique cameras\n- Writing in a deliberately formal or historical style\n- Discussing the history of photography in Japan\n\nCOMMON COLLOCATIONS:\n- {写真機|しゃしんき}を{構|かま}える: to hold up a camera\n- {写真機|しゃしんき}{店|てん}: camera shop (dated)\n- {小型|こがた}{写真機|しゃしんき}: compact camera\n\nSIMILAR WORDS:\n- カメラ: camera — the standard modern word used in everyday speech\n- {撮影|さつえい}{機材|きざい}: photography equipment — broader term including lenses, tripods, etc.\n\nFORMATION:\n{写真|しゃしん} (photograph) + {機|き} (machine, device)",
+  "notes": "An older, more formal Japanese word for camera. While ⟦カメラ→カメラ：04417_kamera⟧ is the standard word in modern Japanese, {写真機|しゃしんき} still appears in historical, technical, or literary contexts.\n\nUSAGE:\nToday {写真機|しゃしんき} is used mainly when:\n- Referring to vintage or antique cameras\n- Writing in a deliberately formal or historical style\n- Discussing the history of photography in Japan\n\nCOMMON COLLOCATIONS:\n- {写真機|しゃしんき}⟦を→を：00422_wo⟧⟦{構|かま}える→構える：09567_kamaeru⟧: to hold up a camera\n- {写真機|しゃしんき}⟦{店|てん}→店：10011_ten⟧: camera shop (dated)\n- ⟦{小型|こがた}→小型：12460_kogata⟧{写真機|しゃしんき}: compact camera\n\nSIMILAR WORDS:\n- ⟦カメラ→カメラ：04417_kamera⟧: camera — the standard modern word used in everyday speech\n- ⟦{撮影|さつえい}→撮影：04175_satsuei⟧⟦{機材|きざい}→機材：13187_kizai⟧: photography equipment — broader term including lenses, tripods, etc.\n\nFORMS:\n⟦{写真|しゃしん}→写真：00753_shashin⟧ (photograph) + ⟦{機|き}→〜機：09843_ki⟧ (machine, device)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04417_kamera",
+      "reading": "かめら",
+      "headword": "カメラ",
+      "label": "camera"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["technology"]
+      "semantic": [
+        "technology"
+      ]
     },
     "created": "2026-04-05T16:27:21Z",
-    "modified": "2026-04-05T16:27:21Z"
+    "modified": "2026-09-02T04:02:07Z"
   }
 }

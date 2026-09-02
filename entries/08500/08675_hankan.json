@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08675_hankan_ex1",
-      "japanese": "{彼|かれ}の{態度|たいど}に{反感|はんかん}を{持|も}った。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧⟦{態度|たいど}→態度：03396_taido⟧⟦に→に：00314_ni⟧{反感|はんかん}⟦を→を：00422_wo⟧⟦{持|も}った→持つ：00478_motsu⟧。",
       "english": "I felt antipathy toward his attitude.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "08675_hankan_ex2",
-      "japanese": "その{発言|はつげん}は{多|おお}くの{人|ひと}の{反感|はんかん}を{買|か}った。",
+      "japanese": "⟦その→その：00993_sono⟧⟦{発言|はつげん}→発言：05099_hatsugen⟧⟦は→は：00079_ha⟧{多|おお}く⟦の→の：09472_no⟧⟦{人|ひと}→人：00476_hito⟧⟦の→の：09472_no⟧{反感|はんかん}⟦を→を：00422_wo⟧⟦{買|か}った→買う：00489_kau⟧。",
       "english": "That remark earned the resentment of many people.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "08675_hankan_ex3",
-      "japanese": "{反感|はんかん}を{抱|いだ}かれないように{言葉|ことば}を{選|えら}んだ。",
+      "japanese": "{反感|はんかん}⟦を→を：00422_wo⟧⟦{抱|いだ}かれない→抱く：02010_idaku⟧よう⟦に→に：00314_ni⟧⟦{言葉|ことば}→言葉：02880_kotoba⟧⟦を→を：00422_wo⟧⟦{選|えら}んだ→選ぶ：00835_erabu⟧。",
       "english": "I chose my words carefully so as not to provoke hostility.",
       "sense_numbers": [
         1
@@ -43,7 +43,7 @@
       "notes": null
     }
   ],
-  "notes": "{反感|はんかん} refers to a feeling of dislike or opposition directed at someone or something, often provoked by their words or behavior. It is stronger than mere dislike but less extreme than {敵意|てきい} (hostility).\n\nCOMMON PATTERNS:\n- {反感|はんかん}を{買|か}う: to incur resentment (the most common collocation)\n- {反感|はんかん}を{持|も}つ: to feel antipathy\n- {反感|はんかん}を{抱|いだ}く: to harbor resentment (more literary)\n- {反感|はんかん}を{招|まね}く: to invite hostility\n\nUSAGE:\nOften used to describe reactions to someone's attitude, remarks, or policies. The expression {反感|はんかん}を{買|か}う is especially common and means that someone's actions provoked negative feelings in others.\n\nSIMILAR WORDS:\n- {反発|はんぱつ}: opposition, pushback (implies active resistance, not just feeling)\n- {嫌悪感|けんおかん}: disgust, aversion (stronger physical/emotional revulsion)\n- {敵意|てきい}: hostility, animosity (stronger, more aggressive)",
+  "notes": "{反感|はんかん} refers to a feeling of dislike or opposition directed at someone or something, often provoked by their words or behavior. It is stronger than mere dislike but less extreme than ⟦{敵意|てきい}→敵意：16853_tekii⟧ (hostility).\n\nCOMMON PATTERNS:\n- {反感|はんかん}⟦を→を：00422_wo⟧⟦{買|か}う→買う：00489_kau⟧: to incur resentment (the most common collocation)\n- {反感|はんかん}⟦を→を：00422_wo⟧⟦{持|も}つ→持つ：00478_motsu⟧: to feel antipathy\n- {反感|はんかん}⟦を→を：00422_wo⟧⟦{抱|いだ}く→抱く：02010_idaku⟧: to harbor resentment (more literary)\n- {反感|はんかん}⟦を→を：00422_wo⟧⟦{招|まね}く→招く：02425_maneku⟧: to invite hostility\n\nUSAGE:\nOften used to describe reactions to someone's attitude, remarks, or policies. The expression {反感|はんかん}⟦を→を：00422_wo⟧⟦{買|か}う→買う：00489_kau⟧ is especially common and means that someone's actions provoked negative feelings in others.\n\nSIMILAR WORDS:\n- ⟦{反発|はんぱつ}→反発：08676_hanpatsu⟧: opposition, pushback (implies active resistance, not just feeling)\n- ⟦{嫌悪感|けんおかん}→嫌悪感：15749_kenokan⟧: disgust, aversion (stronger physical/emotional revulsion)\n- ⟦{敵意|てきい}→敵意：16853_tekii⟧: hostility, animosity (stronger, more aggressive)",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -51,12 +51,13 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "emotion"
       ]
     },
     "created": "2026-01-27T23:50:36Z",
-    "modified": "2026-06-23T01:38:10Z"
+    "modified": "2026-09-02T04:01:16Z"
   },
   "cross_references": [
     {
@@ -79,6 +80,41 @@
       "reading": "はんろん",
       "headword": "{反論|はんろん}",
       "label": "counterargument"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15749_kenokan",
+      "reading": "けんおかん",
+      "headword": "{嫌悪感|けんおかん}",
+      "label": "disgust, aversion"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16853_tekii",
+      "reading": "てきい",
+      "headword": "{敵意|てきい}",
+      "label": "hostility, animosity"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23182_akukan",
+      "reading": "あくかん",
+      "headword": "{悪感|あくかん}",
+      "label": "bad feeling"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26977_akukanjou",
+      "reading": "あくかんじょう",
+      "headword": "{悪感情|あくかんじょう}",
+      "label": "ill will"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27168_tekitaishin",
+      "reading": "てきたいしん",
+      "headword": "{敵対心|てきたいしん}",
+      "label": "hostility"
     }
   ]
 }

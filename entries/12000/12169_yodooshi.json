@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "12169_yodooshi_ex1",
-      "japanese": "{夜通|よどお}し{歩|ある}いた。",
+      "japanese": "{夜通|よどお}し⟦{歩|ある}いた→歩く：00538_aruku⟧。",
       "english": "I walked all night long.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "12169_yodooshi_ex2",
-      "japanese": "{試験|しけん}{前|まえ}に{夜通|よどお}し{勉強|べんきょう}した。",
+      "japanese": "⟦{試験|しけん}→試験：01422_shiken⟧⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧{夜通|よどお}し⟦{勉強|べんきょう}した→勉強する：00527_benkyousuru⟧。",
       "english": "I studied all night before the exam.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "12169_yodooshi_ex3",
-      "japanese": "{赤|あか}ちゃんが{夜通|よどお}し{泣|な}いていたので、{両親|りょうしん}はほとんど{眠|ねむ}れなかった。",
+      "japanese": "⟦{赤|あか}ちゃん→赤ちゃん：01282_akachan⟧⟦が→が：00051_ga⟧{夜通|よどお}し⟦{泣|な}いていた→泣く：00655_naku⟧⟦の→の：09472_no⟧で、⟦{両親|りょうしん}→両親：00806_ryoushin⟧⟦は→は：00079_ha⟧⟦ほとんど→ほとんど：00847_hotondo⟧⟦{眠|ねむ}れなかった→眠れる：15166_nemureru⟧。",
       "english": "The baby cried all night long, so the parents could hardly sleep.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nUsed adverbially to modify verbs describing activities that last the entire night. Can also function as a noun ({夜通|よどお}しの〜). Implies endurance or persistence.\n\nSIMILAR WORDS:\n- {一晩中|ひとばんじゅう}: all night long (more colloquial)\n- {夜通|よどお}し: all night long (slightly more literary)\n- {徹夜|てつや}: staying up all night (emphasizes the act of not sleeping)\n\nCOMMON COLLOCATIONS:\n- {夜通|よどお}し{働|はたら}く: to work all night\n- {夜通|よどお}しの{作業|さぎょう}: all-night work\n- {夜通|よどお}し{語|かた}り{明|あ}かす: to talk all through the night",
+  "notes": "USAGE:\nUsed adverbially to modify verbs describing activities that last the entire night. Can also function as a noun ({夜通|よどお}しの〜). Implies endurance or persistence.\n\nSIMILAR WORDS:\n- ⟦{一晩中|ひとばんじゅう}→一晩中：20338_hitobanjuu⟧: all night long (more colloquial)\n- {夜通|よどお}し: all night long (slightly more literary)\n- ⟦{徹夜|てつや}→徹夜：03552_tetsuya⟧: staying up all night (emphasizes the act of not sleeping)\n\nCOMMON COLLOCATIONS:\n- {夜通|よどお}し⟦{働|はたら}く→働く：00503_hataraku⟧: to work all night\n- {夜通|よどお}し⟦の→の：09472_no⟧⟦{作業|さぎょう}→作業：02775_sagyou⟧: all-night work\n- {夜通|よどお}し{語|かた}り{明|あ}かす: to talk all through the night",
   "cross_references": [
     {
       "type": "synonym",
@@ -52,11 +52,25 @@
       "headword": "{徹夜|てつや}",
       "label": "staying up all night",
       "target_id": "03552_tetsuya"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20338_hitobanjuu",
+      "reading": "ひとばんじゅう",
+      "headword": "{一晩中|ひとばんじゅう}",
+      "label": "all night long"
+    },
+    {
+      "type": "related",
+      "target_id": "08694_oorunaito",
+      "reading": "おーるないと",
+      "headword": "オールナイト",
+      "label": "all-night"
     }
   ],
   "metadata": {
     "created": "2026-02-20T09:57:26Z",
-    "modified": "2026-04-26T07:25:09Z",
+    "modified": "2026-09-02T04:01:28Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

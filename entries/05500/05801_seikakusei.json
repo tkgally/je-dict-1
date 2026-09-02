@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "05801_seikakusei_ex1",
-      "japanese": "⟦{データ|でーた}→データ：03944_deeta⟧⟦の→の：09472_no⟧{正確性|せいかくせい}⟦を→を：00422_wo⟧⟦{確認|かくにん}する→確認する：25332_kakuninsuru⟧。",
+      "japanese": "⟦データ→データ：03944_deeta⟧⟦の→の：09472_no⟧{正確性|せいかくせい}⟦を→を：00422_wo⟧⟦{確認|かくにん}する→確認する：25332_kakuninsuru⟧。",
       "english": "To verify the accuracy of the data.",
       "has_audio": false,
       "sense_numbers": [
@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "notes": "{正確性|せいかくせい} refers to the quality of being correct, exact, and free from errors. Common in technical, academic, and business contexts.\n\nWORD FORMATION:\n⟦{正確|せいかく}→正確：03372_seikaku⟧ (accurate) + {性|せい} (quality/nature) = accuracy\n\nCOMMON COLLOCATIONS:\n- {正確性|せいかくせい}⟦を→を：00422_wo⟧⟦{確保|かくほ}する→確保：13681_kakuho⟧: to ensure accuracy\n- {正確性|せいかくせい}⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧/⟦{低|ひく}い→低い：02947_hikui⟧: high/low accuracy\n- {正確性|せいかくせい}⟦に→に：00314_ni⟧⟦{欠|か}ける→欠ける：13167_kakeru⟧: to lack accuracy\n- {正確性|せいかくせい}⟦を→を：00422_wo⟧⟦{検証|けんしょう}する→検証：04792_kenshou⟧: to verify accuracy\n\nRELATED TERMS:\n- ⟦{正確|せいかく}→正確：03372_seikaku⟧: accurate (na-adjective)\n- ⟦{精度|せいど}→精度：13787_seido⟧: precision (often interchangeable)\n- ⟦{確実性|かくじつせい}→確実性：29133_kakujitsusei⟧: certainty, reliability\n- ⟦{信頼性|しんらいせい}→信頼性：05572_shinraisei⟧: reliability, trustworthiness\n\nUSAGE:\nOften used when discussing data, measurements, information quality, or work performance.",
+  "notes": "{正確性|せいかくせい} refers to the quality of being correct, exact, and free from errors. Common in technical, academic, and business contexts.\n\nFORMS:\n⟦{正確|せいかく}→正確：03372_seikaku⟧ (accurate) + ⟦{性|せい}→性：09880_sei⟧ (quality/nature) = accuracy\n\nCOMMON COLLOCATIONS:\n- {正確性|せいかくせい}⟦を→を：00422_wo⟧⟦{確保|かくほ}する→確保：13681_kakuho⟧: to ensure accuracy\n- {正確性|せいかくせい}⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧/⟦{低|ひく}い→低い：02947_hikui⟧: high/low accuracy\n- {正確性|せいかくせい}⟦に→に：00314_ni⟧⟦{欠|か}ける→欠ける：13167_kakeru⟧: to lack accuracy\n- {正確性|せいかくせい}⟦を→を：00422_wo⟧⟦{検証|けんしょう}する→検証：04792_kenshou⟧: to verify accuracy\n\nRELATED WORDS:\n- ⟦{正確|せいかく}→正確：03372_seikaku⟧: accurate (na-adjective)\n- ⟦{精度|せいど}→精度：13787_seido⟧: precision (often interchangeable)\n- ⟦{確実性|かくじつせい}→確実性：29133_kakujitsusei⟧: certainty, reliability\n- ⟦{信頼性|しんらいせい}→信頼性：05572_shinraisei⟧: reliability, trustworthiness\n\nUSAGE:\nOften used when discussing data, measurements, information quality, or work performance.",
   "cross_references": [
     {
       "type": "related",
@@ -62,11 +62,25 @@
       "reading": "しんらいせい",
       "headword": "{信頼性|しんらいせい}",
       "label": "reliability"
+    },
+    {
+      "type": "related",
+      "target_id": "29133_kakujitsusei",
+      "reading": "かくじつせい",
+      "headword": "{確実性|かくじつせい}",
+      "label": "certainty, reliability"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24726_shinjitsusei",
+      "reading": "しんじつせい",
+      "headword": "{真実性|しんじつせい}",
+      "label": "truthfulness"
     }
   ],
   "metadata": {
     "created": "2026-01-16T09:49:34Z",
-    "modified": "2026-08-20T06:21:38Z",
+    "modified": "2026-09-02T04:01:07Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

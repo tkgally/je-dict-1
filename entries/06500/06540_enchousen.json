@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "SPORT-SPECIFIC TERMS:\n・⟦{延長|えんちょう}→延長：06447_enchou⟧○⟦{回|かい}→回：00957_kai⟧ (baseball extra innings - e.g., ⟦{延長|えんちょう}→延長：06447_enchou⟧10⟦{回|かい}→回：00957_kai⟧)\n・⟦{延長|えんちょう}→延長：06447_enchou⟧⟦{前後半|ぜんこうはん}→前後半：noentry⟧ (soccer overtime halves)\n・PK⟦{戦|せん}→〜戦：28346_sen⟧ (penalty shootout - follows overtime in soccer)\n\nRELATED TERMS:\n・⟦{引|ひ}き{分|わ}け→引き分け：04907_hikiwake⟧ (draw, tie)\n・⟦{同点|どうてん}→同点：08586_douten⟧ (tied score)\n・⟦サドンデス→サドンデス：29960_sadondesu⟧ (sudden death)\n\nCOLLOCATIONS:\n・{延長戦|えんちょうせん}⟦に→に：00314_ni⟧⟦{入|はい}る→入る：00494_hairu⟧ (to go into overtime)\n・{延長戦|えんちょうせん}⟦に→に：00314_ni⟧⟦もつれ{込|こ}む→もつれ込む：29958_motsurekomu⟧ (to drag into overtime)\n・{延長戦|えんちょうせん}⟦の→の：09472_no⟧⟦{末|すえ}→末：03362_sue⟧ (after overtime)\n・{延長戦|えんちょうせん}⟦を→を：00422_wo⟧⟦{制|せい}する→制する：11906_seisuru⟧ (to win in overtime)",
+  "notes": "SPORT-SPECIFIC TERMS:\n- ⟦{延長|えんちょう}→延長：06447_enchou⟧○⟦{回|かい}→回：00957_kai⟧ (baseball extra innings - e.g., ⟦{延長|えんちょう}→延長：06447_enchou⟧10⟦{回|かい}→回：00957_kai⟧)\n- ⟦{延長|えんちょう}→延長：06447_enchou⟧⟦{前後半|ぜんこうはん}→前後半：noentry⟧ (soccer overtime halves)\n- PK⟦{戦|せん}→〜戦：28346_sen⟧ (penalty shootout - follows overtime in soccer)\n\nRELATED WORDS:\n- ⟦{引|ひ}き{分|わ}け→引き分け：04907_hikiwake⟧ (draw, tie)\n- ⟦{同点|どうてん}→同点：08586_douten⟧ (tied score)\n- ⟦サドンデス→サドンデス：29960_sadondesu⟧ (sudden death)\n\nCOMMON COLLOCATIONS:\n- {延長戦|えんちょうせん}⟦に→に：00314_ni⟧⟦{入|はい}る→入る：00494_hairu⟧ (to go into overtime)\n- {延長戦|えんちょうせん}⟦に→に：00314_ni⟧⟦もつれ{込|こ}む→もつれ込む：29958_motsurekomu⟧ (to drag into overtime)\n- {延長戦|えんちょうせん}⟦の→の：09472_no⟧⟦{末|すえ}→末：03362_sue⟧ (after overtime)\n- {延長戦|えんちょうせん}⟦を→を：00422_wo⟧⟦{制|せい}する→制する：11906_seisuru⟧ (to win in overtime)",
   "cross_references": [
     {
       "type": "related",
@@ -51,11 +51,32 @@
       "reading": "えんちょう",
       "headword": "{延長|えんちょう}",
       "label": "base word"
+    },
+    {
+      "type": "related",
+      "target_id": "04907_hikiwake",
+      "reading": "ひきわけ",
+      "headword": "{引|ひ}き{分|わ}け",
+      "label": "draw, tie"
+    },
+    {
+      "type": "related",
+      "target_id": "08586_douten",
+      "reading": "どうてん",
+      "headword": "{同点|どうてん}",
+      "label": "tied score"
+    },
+    {
+      "type": "related",
+      "target_id": "29960_sadondesu",
+      "reading": "さどんです",
+      "headword": "サドンデス",
+      "label": "sudden death"
     }
   ],
   "metadata": {
     "created": "2026-01-17T23:50:05Z",
-    "modified": "2026-08-08T09:25:02Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

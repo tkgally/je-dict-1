@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "COMMON PATTERNS:\n・{次々|つぎつぎ}⟦と→と：00512_to⟧〜⟦する→する：00392_suru⟧ (to do ~ one after another)\n・{次々|つぎつぎ}⟦に→に：00314_ni⟧〜⟦する→する：00392_suru⟧ (to do ~ in succession)\n\nBoth {次々|つぎつぎ}と and {次々|つぎつぎ}に are used interchangeably, though と may slightly emphasize the continuous nature.\n\nSIMILAR WORDS:\n・{次々|つぎつぎ}: One after another (rapid succession)\n・⟦{続々|ぞくぞく}→続々：00436_zokuzoku⟧: One after another (similar meaning, often for people arriving)\n・⟦{相次|あいつ}いで→相次いで：15419_aitsuide⟧: In succession, one after another (more formal)",
+  "notes": "COMMON PATTERNS:\n- {次々|つぎつぎ}⟦と→と：00512_to⟧〜⟦する→する：00392_suru⟧ (to do ~ one after another)\n- {次々|つぎつぎ}⟦に→に：00314_ni⟧〜⟦する→する：00392_suru⟧ (to do ~ in succession)\n\nBoth {次々|つぎつぎ}⟦と→と：00512_to⟧ and {次々|つぎつぎ}⟦に→に：00314_ni⟧ are used interchangeably, though ⟦と→と：00512_to⟧ may slightly emphasize the continuous nature.\n\nSIMILAR WORDS:\n- {次々|つぎつぎ}: One after another (rapid succession)\n- ⟦{続々|ぞくぞく}→続々：00436_zokuzoku⟧: One after another (similar meaning, often for people arriving)\n- ⟦{相次|あいつ}いで→相次いで：15419_aitsuide⟧: In succession, one after another (more formal)",
   "cross_references": [
     {
       "type": "synonym",
@@ -72,11 +72,32 @@
       "headword": "{次々|つぎつぎ}と",
       "label": "adverbial form with と",
       "target_id": "07028_tsugitsugito"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15419_aitsuide",
+      "reading": "あいついで",
+      "headword": "{相次|あいつ}いで",
+      "label": "In succession, one after another"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20741_junni",
+      "reading": "じゅんに",
+      "headword": "{順|じゅん}に",
+      "label": "in order"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21974_junjunni",
+      "reading": "じゅんじゅんに",
+      "headword": "{順々|じゅんじゅん}に",
+      "label": "in turn"
     }
   ],
   "metadata": {
     "created": "2026-01-12T09:30:00Z",
-    "modified": "2026-08-27T12:49:51Z",
+    "modified": "2026-09-02T04:01:03Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

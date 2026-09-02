@@ -3,7 +3,7 @@
   "id": "12002_toikakeru",
   "headword": "{問|と}いかける",
   "reading": "といかける",
-  "part_of_speech": "ichidan verb",
+  "part_of_speech": "verb (ichidan)",
   "gloss": "to pose a question; to question; to ask",
   "conjugation": {
     "type": "ichidan",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "12002_toikakeru_ex1",
-      "japanese": "{自分|じぶん}に{問|と}いかける。",
+      "japanese": "⟦{自分|じぶん}→自分：02887_jibun⟧⟦に→に：00314_ni⟧{問|と}いかける。",
       "english": "To ask oneself.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "12002_toikakeru_ex2",
-      "japanese": "{先生|せんせい}が{生徒|せいと}に{問|と}いかけた。",
+      "japanese": "⟦{先生|せんせい}→先生：00609_sensei⟧⟦が→が：00051_ga⟧⟦{生徒|せいと}→生徒：01051_seito⟧⟦に→に：00314_ni⟧{問|と}いかけた。",
       "english": "The teacher posed a question to the students.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "12002_toikakeru_ex3",
-      "japanese": "この{映画|えいが}は、{現代|げんだい}{社会|しゃかい}のあり{方|かた}を{観客|かんきゃく}に{問|と}いかけている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{映画|えいが}→映画：02273_eiga⟧⟦は→は：00079_ha⟧、⟦{現代|げんだい}{社会|しゃかい}→現代社会：11501_gendaishakai⟧⟦の→の：09472_no⟧⟦あり→ある：00006_aru⟧⟦{方|かた}→方：10665_kata⟧⟦を→を：00422_wo⟧⟦{観客|かんきゃく}→観客：02556_kankyaku⟧⟦に→に：00314_ni⟧{問|と}いかけて⟦いる→いる：00495_iru⟧。",
       "english": "This film poses questions to the audience about the state of modern society.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,19 @@
       ]
     }
   ],
-  "notes": "USAGE:\nOften implies a question meant to provoke thought rather than simply seeking factual information. Common in intellectual, philosophical, and media contexts. The form {問|と}いかけ is used as a noun meaning \"a question\" or \"an inquiry.\"\n\nIchidan verb ({一段動詞|いちだんどうし}).\n- Negative: {問|と}いかけない\n- Polite: {問|と}いかけます\n- Te-form: {問|と}いかけて\n- Past: {問|と}いかけた\n- Noun form: {問|と}いかけ\n\nCOMMON COLLOCATIONS:\n- {自分|じぶん}に{問|と}いかける: to ask oneself\n- {社会|しゃかい}に{問|と}いかける: to pose a question to society\n- {意味|いみ}を{問|と}いかける: to question the meaning of",
-  "cross_references": [],
+  "notes": "USAGE:\nOften implies a question meant to provoke thought rather than simply seeking factual information. Common in intellectual, philosophical, and media contexts. The form {問|と}いかけ is used as a noun meaning \"a question\" or \"an inquiry.\"\n\nIchidan verb ({一段動詞|いちだんどうし}).\n- Negative: {問|と}いかけない\n- Polite: {問|と}いかけます\n- Te-form: {問|と}いかけて\n- Past: {問|と}いかけた\n- Noun form: {問|と}いかけ\n\nCOMMON COLLOCATIONS:\n- ⟦{自分|じぶん}→自分：02887_jibun⟧⟦に→に：00314_ni⟧{問|と}いかける: to ask oneself\n- ⟦{社会|しゃかい}→社会：01427_shakai⟧⟦に→に：00314_ni⟧{問|と}いかける: to pose a question to society\n- ⟦{意味|いみ}→意味：01155_imi⟧⟦を→を：00422_wo⟧{問|と}いかける: to question the meaning of",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "28968_nagekakeru",
+      "reading": "なげかける",
+      "headword": "{投|な}げかける",
+      "label": "to pose (a question)"
+    }
+  ],
   "metadata": {
     "created": "2026-02-19T11:44:48Z",
-    "modified": "2026-03-29T03:07:35Z",
+    "modified": "2026-09-02T04:01:27Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

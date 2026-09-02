@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "07279_kori_ex1",
-      "japanese": "{肩|かた}の{凝|こ}りがひどい。",
+      "japanese": "⟦{肩|かた}→肩：02192_kata⟧⟦の→の：09472_no⟧{凝|こ}り⟦が→が：00051_ga⟧⟦ひどい→ひどい：01097_hidoi⟧。",
       "english": "My shoulder stiffness is terrible.",
       "has_audio": false,
       "sense_numbers": [
@@ -23,7 +23,7 @@
     },
     {
       "id": "07279_kori_ex2",
-      "japanese": "{首|くび}の{凝|こ}りをほぐすストレッチをする。",
+      "japanese": "⟦{首|くび}→首：00792_kubi⟧⟦の→の：09472_no⟧{凝|こ}り⟦を→を：00422_wo⟧⟦ほぐす→ほぐす：10496_hogusu⟧⟦ストレッチ→ストレッチ：05239_sutorecchi⟧⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧。",
       "english": "I do stretches to relieve neck stiffness.",
       "has_audio": false,
       "sense_numbers": [
@@ -32,7 +32,7 @@
     },
     {
       "id": "07279_kori_ex3",
-      "japanese": "マッサージで{凝|こ}りが{取|と}れた。",
+      "japanese": "⟦マッサージ→マッサージ：00272_massaaji⟧⟦で→で：00502_de⟧{凝|こ}り⟦が→が：00051_ga⟧⟦{取|と}れた→取れる：02376_toreru⟧。",
       "english": "The massage relieved my stiffness.",
       "has_audio": false,
       "sense_numbers": [
@@ -40,10 +40,33 @@
       ]
     }
   ],
-  "notes": "RELATED VERB:\n{凝|こ}る - to stiffen, to become tense; to be absorbed in\n\nCOMMON EXPRESSIONS:\n・{肩凝|かたこ}り - shoulder stiffness\n・{首|くび}の{凝|こ}り - neck stiffness\n・{凝|こ}りをほぐす - to loosen stiffness\n・{凝|こ}りが{取|と}れる - for stiffness to go away\n\nCAUSES:\n・{長時間|ちょうじかん}のデスクワーク - long hours of desk work\n・ストレス - stress\n・{運動|うんどう}{不足|ぶそく} - lack of exercise\n・{姿勢|しせい}の{悪|わる}さ - poor posture\n\nRELATED PHYSICAL SENSATIONS:\n・{痺|しび}れ - numbness\n・むくみ - swelling\n・かゆみ - itchiness",
+  "notes": "RELATED VERB:\n⟦{凝|こ}る→凝る：08180_koru⟧ - to stiffen, to become tense; to be absorbed in\n\nCOMMON EXPRESSIONS:\n- ⟦{肩凝|かたこ}り→肩凝り：07695_katakori⟧ - shoulder stiffness\n- ⟦{首|くび}→首：00792_kubi⟧⟦の→の：09472_no⟧{凝|こ}り - neck stiffness\n- {凝|こ}り⟦を→を：00422_wo⟧⟦ほぐす→ほぐす：10496_hogusu⟧ - to loosen stiffness\n- {凝|こ}り⟦が→が：00051_ga⟧⟦{取|と}れる→取れる：02376_toreru⟧ - for stiffness to go away\n\nCAUSES:\n- ⟦{長時間|ちょうじかん}→長時間：10165_choujikan⟧⟦の→の：09472_no⟧⟦デスク→デスク：23405_desuku⟧ワーク - long hours of desk work\n- ⟦ストレス→ストレス：03827_sutoresu⟧ - stress\n- ⟦{運動|うんどう}{不足|ぶそく}→運動不足：08567_undoubusoku⟧ - lack of exercise\n- ⟦{姿勢|しせい}→姿勢：00371_shisei⟧⟦の→の：09472_no⟧{悪|わる}さ - poor posture\n\nRELATED PHYSICAL SENSATIONS:\n- ⟦{痺|しび}れ→痺れ：07276_shibire⟧ - numbness\n- ⟦むくみ→むくみ：07277_mukumi⟧ - swelling\n- ⟦かゆみ→かゆみ：07278_kayumi⟧ - itchiness",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "07276_shibire",
+      "reading": "しびれ",
+      "headword": "{痺|しび}れ",
+      "label": "numbness"
+    },
+    {
+      "type": "related",
+      "target_id": "07277_mukumi",
+      "reading": "むくみ",
+      "headword": "むくみ",
+      "label": "swelling"
+    },
+    {
+      "type": "related",
+      "target_id": "07278_kayumi",
+      "reading": "かゆみ",
+      "headword": "かゆみ",
+      "label": "itchiness"
+    }
+  ],
   "metadata": {
     "created": "2026-01-19T03:27:27Z",
-    "modified": "2026-08-10T18:32:12Z",
+    "modified": "2026-09-02T04:01:10Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

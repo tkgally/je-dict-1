@@ -3,7 +3,7 @@
   "id": "13341_nakijakuru",
   "headword": "{泣|な}きじゃくる",
   "reading": "なきじゃくる",
-  "part_of_speech": "godan verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to sob, to cry convulsively",
   "conjugation": {
     "type": "godan",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "13341_nakijakuru_ex1",
-      "japanese": "{子|こ}どもが{泣|な}きじゃくっていた。",
+      "japanese": "{子|こ}ども⟦が→が：00051_ga⟧{泣|な}きじゃくって⟦いた→いる：00495_iru⟧。",
       "english": "The child was sobbing.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "13341_nakijakuru_ex2",
-      "japanese": "{迷子|まいご}の{女|おんな}の{子|こ}が{泣|な}きじゃくっている。",
+      "japanese": "⟦{迷子|まいご}→迷子：03729_maigo⟧⟦の→の：09472_no⟧⟦{女|おんな}の{子|こ}→女の子：02865_onnanoko⟧⟦が→が：00051_ga⟧{泣|な}きじゃくって⟦いる→いる：00495_iru⟧。",
       "english": "A lost girl is crying uncontrollably.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "13341_nakijakuru_ex3",
-      "japanese": "{母親|ははおや}の{腕|うで}の{中|なか}で{泣|な}きじゃくる{赤|あか}ちゃんをあやした。",
+      "japanese": "⟦{母親|ははおや}→母親：03564_hahaoya⟧⟦の→の：09472_no⟧⟦{腕|うで}→腕：01006_ude⟧⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧⟦で→で：00502_de⟧{泣|な}きじゃくる⟦{赤|あか}ちゃん→赤ちゃん：01282_akachan⟧⟦を→を：00422_wo⟧あやした。",
       "english": "She soothed the baby that was sobbing in its mother's arms.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nDescribes a very intense, convulsive type of crying characterized by hiccupping and gasping for breath. It is more visceral than simply {泣|な}く (to cry). Most commonly used to describe small children who are crying so hard they cannot stop, but also applies to adults in moments of overwhelming grief or emotion.\n\nThe te-form {泣|な}きじゃくって is the most common form encountered, as the word typically describes an ongoing state.\n\nSIMILAR WORDS:\n- {泣|な}く: to cry (general, neutral)\n- {泣|な}き{崩|くず}れる: to break down in tears (collapse while crying)\n- すすり{泣|な}く: to weep quietly, to sniffle",
+  "notes": "USAGE:\nDescribes a very intense, convulsive type of crying characterized by hiccupping and gasping for breath. It is more visceral than simply ⟦{泣|な}く→泣く：00655_naku⟧ (to cry). Most commonly used to describe small children who are crying so hard they cannot stop, but also applies to adults in moments of overwhelming grief or emotion.\n\nThe te-form {泣|な}きじゃくって is the most common form encountered, as the word typically describes an ongoing state.\n\nSIMILAR WORDS:\n- ⟦{泣|な}く→泣く：00655_naku⟧: to cry (general, neutral)\n- ⟦{泣|な}き{崩|くず}れる→泣き崩れる：13342_nakikuzureru⟧: to break down in tears (collapse while crying)\n- ⟦すすり{泣|な}く→すすり泣く：16789_susurinaku⟧: to weep quietly, to sniffle",
   "cross_references": [
     {
       "type": "related",
@@ -149,11 +149,18 @@
       "headword": "{泣|な}き{崩|くず}れる",
       "label": "to break down in tears",
       "target_id": "13342_nakikuzureru"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16789_susurinaku",
+      "reading": "すすりなく",
+      "headword": "すすり{泣|な}く",
+      "label": "to weep quietly, to sniffle"
     }
   ],
   "metadata": {
     "created": "2026-02-24T10:29:24Z",
-    "modified": "2026-04-28T09:07:58Z",
+    "modified": "2026-09-02T04:01:32Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

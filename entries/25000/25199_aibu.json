@@ -2,7 +2,7 @@
   "id": "25199_aibu",
   "headword": "{愛撫|あいぶ}",
   "reading": "あいぶ",
-  "part_of_speech": "noun, verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "caress; tender stroking; fondling",
   "definitions": [
     {
@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "25199_aibu_ex1",
-      "japanese": "{母|はは}は{子|こ}どもを{愛撫|あいぶ}した。",
+      "japanese": "⟦{母|はは}→母：00549_haha⟧⟦は→は：00079_ha⟧{子|こ}ども⟦を→を：00422_wo⟧{愛撫|あいぶ}⟦した→する：00392_suru⟧。",
       "english": "The mother caressed her child.",
       "has_audio": false,
       "sense_numbers": [
@@ -24,7 +24,7 @@
     },
     {
       "id": "25199_aibu_ex2",
-      "japanese": "{彼|かれ}は{猫|ねこ}の{頭|あたま}を{優|やさ}しく{愛撫|あいぶ}した。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{猫|ねこ}→猫：02237_neko⟧⟦の→の：09472_no⟧⟦{頭|あたま}→頭：00574_atama⟧⟦を→を：00422_wo⟧⟦{優|やさ}しく→優しい：02640_yasashii⟧{愛撫|あいぶ}⟦した→する：00392_suru⟧。",
       "english": "He gently stroked the cat's head.",
       "has_audio": false,
       "sense_numbers": [
@@ -34,7 +34,7 @@
     },
     {
       "id": "25199_aibu_ex3",
-      "japanese": "{春|はる}の{風|かぜ}が{頬|ほお}を{愛撫|あいぶ}するように{吹|ふ}いた。",
+      "japanese": "⟦{春|はる}→春：00627_haru⟧⟦の→の：09472_no⟧⟦{風|かぜ}→風：00641_kaze⟧⟦が→が：00051_ga⟧⟦{頬|ほお}→頬：03717_hoo⟧⟦を→を：00422_wo⟧{愛撫|あいぶ}⟦する→する：00392_suru⟧よう⟦に→に：00314_ni⟧⟦{吹|ふ}いた→吹く：02445_fuku⟧。",
       "english": "The spring breeze blew as if caressing my cheeks.",
       "has_audio": false,
       "sense_numbers": [
@@ -43,7 +43,7 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {愛|あい} (love) + {撫|ぶ} (to stroke). Refers to touching with tenderness and affection. Used in both literal and figurative contexts.\n\nUSAGE:\n- {愛撫|あいぶ}する (verb): to caress, to fondle\n- Often appears in literary or formal writing\n- Can describe romantic/intimate touching, maternal affection, or figurative use (wind, sunlight \"caressing\")\n\nCOMMON COLLOCATIONS:\n- {優|やさ}しく{愛撫|あいぶ}する: to caress gently\n- {愛撫|あいぶ}を{受|う}ける: to receive a caress\n- {愛撫|あいぶ}するように: as if caressing (figurative)\n\nSIMILAR WORDS:\n- {撫|な}でる: to stroke, to pet — more casual and everyday\n- さする: to rub gently — focuses on the rubbing motion rather than affection\n- {愛|いと}おしむ: to cherish, to hold dear — emotional rather than physical",
+  "notes": "Composed of ⟦{愛|あい}→愛：02370_ai⟧ (love) + {撫|ぶ} (to stroke). Refers to touching with tenderness and affection. Used in both literal and figurative contexts.\n\nUSAGE:\n- {愛撫|あいぶ}⟦する→する：00392_suru⟧ (verb): to caress, to fondle\n- Often appears in literary or formal writing\n- Can describe romantic/intimate touching, maternal affection, or figurative use (wind, sunlight \"caressing\")\n\nCOMMON COLLOCATIONS:\n- ⟦{優|やさ}しく→優しい：02640_yasashii⟧{愛撫|あいぶ}⟦する→する：00392_suru⟧: to caress gently\n- {愛撫|あいぶ}⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧: to receive a caress\n- {愛撫|あいぶ}⟦する→する：00392_suru⟧よう⟦に→に：00314_ni⟧: as if caressing (figurative)\n\nSIMILAR WORDS:\n- ⟦{撫|な}でる→撫でる：04411_naderu⟧: to stroke, to pet — more casual and everyday\n- ⟦さする→さする：20837_sasuru⟧: to rub gently — focuses on the rubbing motion rather than affection\n- {愛|いと}おしむ: to cherish, to hold dear — emotional rather than physical",
   "cross_references": [
     {
       "type": "related",
@@ -51,11 +51,18 @@
       "headword": "撫でる",
       "label": "to stroke, to pet",
       "target_id": "04411_naderu"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20837_sasuru",
+      "reading": "さする",
+      "headword": "さする",
+      "label": "to rub gently"
     }
   ],
   "metadata": {
     "created": "2026-04-23T14:39:40Z",
-    "modified": "2026-04-23T14:39:40Z",
+    "modified": "2026-09-02T04:02:21Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
@@ -70,7 +77,8 @@
       "semantic": [
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   },
   "conjugation": {

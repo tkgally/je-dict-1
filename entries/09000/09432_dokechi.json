@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "09432_dokechi_ex1",
-      "japanese": "あいつはドケチだ。",
+      "japanese": "⟦あいつ→あいつ：08267_aitsu⟧⟦は→は：00079_ha⟧ドケチだ。",
       "english": "That guy is a total cheapskate.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "09432_dokechi_ex2",
-      "japanese": "ドケチで{有名|ゆうめい}な{社長|しゃちょう}。",
+      "japanese": "ドケチで⟦{有名|ゆうめい}→有名：01106_yuumei⟧な⟦{社長|しゃちょう}→社長：01428_shachou⟧。",
       "english": "A CEO famous for being extremely stingy.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "09432_dokechi_ex3",
-      "japanese": "ドケチすぎて{誰|だれ}も{奢|おご}ってもらえない。",
+      "japanese": "ドケチすぎて⟦{誰|だれ}も→誰も：18610_daremo⟧{奢|おご}って⟦もらえない→もらう：00520_morau⟧。",
       "english": "They're such a cheapskate that nobody ever gets treated by them.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
     },
     {
       "id": "09432_dokechi_ex4",
-      "japanese": "{彼女|かのじょ}のドケチぶりには{呆|あき}れる。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦の→の：09472_no⟧ドケチ⟦ぶり→〜ぶり：28358_buri⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{呆|あき}れる→呆れる：06720_akireru⟧。",
       "english": "Her extreme cheapness is exasperating.",
       "notes": null,
       "has_audio": false,
@@ -53,10 +53,10 @@
       ]
     }
   ],
-  "notes": "ドケチ adds the intensifying prefix ド to ケチ (stingy), creating a stronger word for extreme stinginess. The ド prefix is used in slang to emphasize negative qualities.\n\nSimilar intensified words:\n- ど{阿呆|あほう} (total idiot)\n- どスケベ (total pervert)\n- ど{下手|へた} (terrible at something)\n\nRelated words:\n- ケチ (stingy, cheap)\n- ケチる (verb: to be cheap about)\n- けちくさい (having a stingy air)\n\nドケチ is quite insulting and should be used carefully.",
+  "notes": "ドケチ adds the intensifying prefix ド to ケチ (stingy), creating a stronger word for extreme stinginess. The ド prefix is used in slang to emphasize negative qualities.\n\nSimilar intensified words:\n- ど⟦{阿呆|あほう}→阿呆：21852_ahou⟧ (total idiot)\n- ど⟦スケベ→スケベ：16579_sukebe⟧ (total pervert)\n- ど⟦{下手|へた}→下手：00703_heta⟧ (terrible at something)\n\nRelated words:\n- ケチ (stingy, cheap)\n- ケチる (verb: to be cheap about)\n- ⟦けち→けち：02792_kechi⟧くさい (having a stingy air)\n\nドケチ is quite insulting and should be used carefully.",
   "metadata": {
     "created": "2026-02-01T11:15:18Z",
-    "modified": "2026-04-22T08:43:07Z",
+    "modified": "2026-09-02T04:01:18Z",
     "ai_model": "opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -83,6 +83,13 @@
       "reading": "けちる",
       "headword": "ケチる",
       "label": "to skimp, be stingy"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23288_kenyakuka",
+      "reading": "けんやくか",
+      "headword": "{倹約家|けんやくか}",
+      "label": "thrifty person"
     }
   ]
 }

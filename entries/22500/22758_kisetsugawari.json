@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22758_kisetsugawari_ex1",
-      "japanese": "{季節替|きせつが}わりの{時期|じき}は{体調|たいちょう}を{崩|くず}しやすい。",
+      "japanese": "{季節替|きせつが}わり⟦の→の：09472_no⟧⟦{時期|じき}→時期：03269_jiki⟧⟦は→は：00079_ha⟧⟦{体調|たいちょう}→体調：04644_taichou⟧⟦を→を：00422_wo⟧⟦{崩|くず}し→崩す：03919_kuzusu⟧やすい。",
       "english": "It's easy to get sick during seasonal transitions.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22758_kisetsugawari_ex2",
-      "japanese": "{季節替|きせつが}わりに{衣替|ころもが}えをする。",
+      "japanese": "{季節替|きせつが}わり⟦に→に：00314_ni⟧⟦{衣替|ころもが}え→衣替え：07709_koromogae⟧⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧。",
       "english": "We switch our wardrobes at the change of season.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22758_kisetsugawari_ex3",
-      "japanese": "{季節替|きせつが}わりになると、メニューも{新|あたら}しくなるレストランが{多|おお}い。",
+      "japanese": "{季節替|きせつが}わり⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦と→と：00512_to⟧、⟦メニュー→メニュー：11166_menyuu⟧⟦も→も：00484_mo⟧⟦{新|あたら}しく→新しい：00506_atarashii⟧⟦なる→なる：01970_naru⟧⟦レストラン→レストラン：01048_resutoran⟧⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "Many restaurants update their menus when the seasons change.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {季節|きせつ} ('season') and {替|か}わり ('change, switching'). Reflects the strong awareness of seasonal transitions in Japanese culture. The change of seasons brings practical considerations — updating one's wardrobe ({衣替|ころもが}え), seasonal foods, and health concerns. Also used in business for seasonal product rotations.\n\nCOMMON COLLOCATIONS:\n- {季節替|きせつが}わりの{時期|じき}: the time of seasonal change\n- {季節替|きせつが}わりの{体調不良|たいちょうふりょう}: feeling unwell due to seasonal change\n- {季節替|きせつが}わりメニュー: seasonal menu update\n\nRELATED TERMS:\n- {衣替|ころもが}え: seasonal wardrobe change — the specific practice of switching between summer and winter clothing\n- {季節|きせつ}の{変|か}わり{目|め}: turning point of the seasons — a near-synonym emphasizing the transitional moment\n- {四季|しき}: the four seasons — the broader concept of Japan's seasonal cycle",
+  "notes": "Composed of ⟦{季節|きせつ}→季節：01304_kisetsu⟧ ('season') and {替|か}わり ('change, switching'). Reflects the strong awareness of seasonal transitions in Japanese culture. The change of seasons brings practical considerations — updating one's wardrobe (⟦{衣替|ころもが}え→衣替え：07709_koromogae⟧), seasonal foods, and health concerns. Also used in business for seasonal product rotations.\n\nCOMMON COLLOCATIONS:\n- {季節替|きせつが}わり⟦の→の：09472_no⟧⟦{時期|じき}→時期：03269_jiki⟧: the time of seasonal change\n- {季節替|きせつが}わり⟦の→の：09472_no⟧⟦{体調不良|たいちょうふりょう}→体調不良：20233_taichoufuryou⟧: feeling unwell due to seasonal change\n- {季節替|きせつが}わり⟦メニュー→メニュー：11166_menyuu⟧: seasonal menu update\n\nRELATED WORDS:\n- ⟦{衣替|ころもが}え→衣替え：07709_koromogae⟧: seasonal wardrobe change — the specific practice of switching between summer and winter clothing\n- ⟦{季節|きせつ}の{変|か}わり{目|め}→季節の変わり目：22134_kisetsunokawarime⟧: turning point of the seasons — a near-synonym emphasizing the transitional moment\n- ⟦{四季|しき}→四季：11809_shiki⟧: the four seasons — the broader concept of Japan's seasonal cycle",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "07709_koromogae",
+      "reading": "ころもがえ",
+      "headword": "{衣替|ころもが}え",
+      "label": "seasonal wardrobe change"
+    },
+    {
+      "type": "related",
+      "target_id": "22134_kisetsunokawarime",
+      "reading": "きせつのかわりめ",
+      "headword": "{季節|きせつ}の{変|か}わり{目|め}",
+      "label": "turning point of the seasons"
+    },
+    {
+      "type": "related",
+      "target_id": "11809_shiki",
+      "reading": "しき",
+      "headword": "{四季|しき}",
+      "label": "the four seasons"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,6 +84,6 @@
       "politeness": "plain"
     },
     "created": "2026-04-07T14:20:09Z",
-    "modified": "2026-07-30T15:20:15Z"
+    "modified": "2026-09-02T04:02:09Z"
   }
 }

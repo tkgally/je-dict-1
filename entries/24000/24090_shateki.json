@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24090_shateki_ex1",
-      "japanese": "お{祭|まつ}りで{射的|しゃてき}をした。",
+      "japanese": "⟦お{祭|まつ}り→お祭り：01349_omatsuri⟧⟦で→で：00502_de⟧{射的|しゃてき}⟦を→を：00422_wo⟧⟦した→する：00392_suru⟧。",
       "english": "I played the shooting gallery at the festival.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24090_shateki_ex2",
-      "japanese": "{射的|しゃてき}で{大|おお}きな{景品|けいひん}を{当|あ}てた。",
+      "japanese": "{射的|しゃてき}⟦で→で：00502_de⟧⟦{大|おお}きな→大きな：02849_ookina⟧⟦{景品|けいひん}→景品：08319_keihin⟧⟦を→を：00422_wo⟧⟦{当|あ}てた→当てる：01864_ateru⟧。",
       "english": "I won a big prize at the shooting gallery.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24090_shateki_ex3",
-      "japanese": "{子供|こども}のころ、{温泉|おんせん}{街|がい}の{射的|しゃてき}{屋|や}に{行|い}くのが{楽|たの}しみだった。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧⟦の→の：09472_no⟧⟦ころ→〜ころ：03091_koro⟧、⟦{温泉|おんせん}{街|がい}→温泉街：09228_onsengai⟧⟦の→の：09472_no⟧{射的|しゃてき}⟦{屋|や}→〜屋：03096_ya⟧⟦に→に：00314_ni⟧⟦{行|い}く→行く：00119_iku⟧⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦{楽|たの}しみ→楽しみ：01651_tanoshimi⟧だった。",
       "english": "When I was a child, I looked forward to going to the shooting gallery in the hot spring town.",
       "sense_numbers": [
         1
@@ -44,20 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "In Japan, {射的|しゃてき} most commonly refers to the cork-gun shooting game found at summer festivals ({夏祭|なつまつ}り), shrine festivals, and {温泉|おんせん}{街|がい} (hot spring towns). Players use a cork gun to try to knock down prizes displayed on shelves. It is a nostalgic pastime associated with traditional Japanese entertainment.\n\nCOMMON COLLOCATIONS:\n- {射的|しゃてき}{屋|や}: shooting gallery stall\n- {射的|しゃてき}をする: to play the shooting game\n- {射的|しゃてき}{場|じょう}: shooting range\n- {射的|しゃてき}の{景品|けいひん}: shooting gallery prizes\n\nSIMILAR WORDS:\n- {的当|まとあ}て: target game — a broader term for any hit-the-target game\n- {射撃|しゃげき}: shooting — the serious sport or military activity, not a game",
+  "notes": "In Japan, {射的|しゃてき} most commonly refers to the cork-gun shooting game found at summer festivals (⟦{夏祭|なつまつ}り→夏祭り：09871_natsumatsuri⟧), shrine festivals, and ⟦{温泉|おんせん}{街|がい}→温泉街：09228_onsengai⟧ (hot spring towns). Players use a cork gun to try to knock down prizes displayed on shelves. It is a nostalgic pastime associated with traditional Japanese entertainment.\n\nCOMMON COLLOCATIONS:\n- {射的|しゃてき}⟦{屋|や}→〜屋：03096_ya⟧: shooting gallery stall\n- {射的|しゃてき}⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧: to play the shooting game\n- {射的|しゃてき}{場|じょう}: shooting range\n- {射的|しゃてき}⟦の→の：09472_no⟧⟦{景品|けいひん}→景品：08319_keihin⟧: shooting gallery prizes\n\nSIMILAR WORDS:\n- {的当|まとあ}て: target game — a broader term for any hit-the-target game\n- ⟦{射撃|しゃげき}→射撃：16089_shageki⟧: shooting — the serious sport or military activity, not a game",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16089_shageki",
+      "reading": "しゃげき",
+      "headword": "{射撃|しゃげき}",
+      "label": "shooting"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29865_shagekijou",
+      "reading": "しゃげきじょう",
+      "headword": "射撃場",
+      "label": "shooting range"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "entertainment",
         "culture"
       ]
     },
     "created": "2026-04-17T17:42:44Z",
-    "modified": "2026-04-17T17:42:44Z"
+    "modified": "2026-09-02T04:02:16Z"
   }
 }

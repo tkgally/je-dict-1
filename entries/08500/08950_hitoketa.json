@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08950_hitoketa_ex1",
-      "japanese": "{一桁|ひとけた}の{数字|すうじ}。",
+      "japanese": "{一桁|ひとけた}⟦の→の：09472_no⟧⟦{数字|すうじ}→数字：03361_suuji⟧。",
       "english": "A single-digit number.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "08950_hitoketa_ex2",
-      "japanese": "{参加者|さんかしゃ}は{一桁|ひとけた}だった。",
+      "japanese": "⟦{参加者|さんかしゃ}→参加者：03059_sankasha⟧⟦は→は：00079_ha⟧{一桁|ひとけた}だった。",
       "english": "The number of participants was in the single digits.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "08950_hitoketa_ex3",
-      "japanese": "{気温|きおん}が{一桁|ひとけた}まで{下|さ}がった。",
+      "japanese": "⟦{気温|きおん}→気温：00235_kion⟧⟦が→が：00051_ga⟧{一桁|ひとけた}⟦まで→まで：00490_made⟧⟦{下|さ}がった→下がる：01188_sagaru⟧。",
       "english": "The temperature dropped to single digits.",
       "notes": null,
       "has_audio": false,
@@ -43,11 +43,19 @@
       ]
     }
   ],
-  "notes": "{一桁|ひとけた} means having only one digit (0-9).\n\nRELATED TERMS:\n- {二桁|ふたけた}: two digits (10-99)\n- {三桁|みけた}: three digits (100-999)\n- {四桁|よんけた}: four digits (1,000-9,999)\n- {桁|けた}が{違|ちが}う: to be on a completely different scale (lit. different digit count)\n\nNUANCE:\nOften implies a small or disappointingly low number, especially when used for things like attendance, sales, or scores.",
-  "cross_references": [],
+  "notes": "{一桁|ひとけた} means having only one digit (0-9).\n\nRELATED WORDS:\n- ⟦{二桁|ふたけた}→二桁：15881_futaketa⟧: two digits (10-99)\n- {三桁|みけた}: three digits (100-999)\n- {四桁|よんけた}: four digits (1,000-9,999)\n- ⟦{桁|けた}→桁：03884_keta⟧⟦が→が：00051_ga⟧⟦{違|ちが}う→違う：01957_chigau⟧: to be on a completely different scale (lit. different digit count)\n\nUSAGE:\nOften implies a small or disappointingly low number, especially when used for things like attendance, sales, or scores.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "15881_futaketa",
+      "reading": "ふたけた",
+      "headword": "{二桁|ふたけた}",
+      "label": "two digits"
+    }
+  ],
   "metadata": {
     "created": "2026-01-29T06:14:10Z",
-    "modified": "2026-01-29T06:14:10Z",
+    "modified": "2026-09-02T04:01:16Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

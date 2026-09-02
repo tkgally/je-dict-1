@@ -15,40 +15,73 @@
   "examples": [
     {
       "id": "22276_yarinage_ex1",
-      "japanese": "やり{投|な}げの{選手|せんしゅ}になりたい。",
+      "japanese": "やり{投|な}げ⟦の→の：09472_no⟧⟦{選手|せんしゅ}→選手：03823_senshu⟧⟦に→に：00314_ni⟧⟦なりたい→なる：01970_naru⟧。",
       "english": "I want to become a javelin thrower.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "22276_yarinage_ex2",
-      "japanese": "やり{投|な}げで{金|きん}メダルを{獲得|かくとく}した。",
+      "japanese": "やり{投|な}げ⟦で→で：00502_de⟧⟦{金|きん}メダル→金メダル：20781_kinmedaru⟧⟦を→を：00422_wo⟧⟦{獲得|かくとく}→獲得：05624_kakutoku⟧⟦した→する：00392_suru⟧。",
       "english": "Won a gold medal in the javelin throw.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "22276_yarinage_ex3",
-      "japanese": "{彼|かれ}はやり{投|な}げの{日本記録|にほんきろく}を{更新|こうしん}した。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧やり{投|な}げ⟦の→の：09472_no⟧{日本記録|にほんきろく}⟦を→を：00422_wo⟧⟦{更新|こうしん}した→更新する：27994_koushinsuru⟧。",
       "english": "He set a new Japanese record in the javelin throw.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "One of the throwing events in track and field ({陸上競技|りくじょうきょうぎ}). The javelin ({槍|やり}) is thrown from behind a foul line after a running approach.\n\nRELATED THROWING EVENTS:\n- {砲丸投|ほうがんな}げ: shot put\n- {円盤投|えんばんな}げ: discus throw\n- ハンマー{投|な}げ: hammer throw\n\nCOMMON COLLOCATIONS:\n- やり{投|な}げの{選手|せんしゅ}: javelin thrower\n- やり{投|な}げの{記録|きろく}: javelin throw record\n- やり{投|な}げ{競技|きょうぎ}: javelin throw competition\n\nFORMATION:\nやり ({槍|やり}, spear/javelin) + {投|な}げ (throw, from {投|な}げる)",
+  "notes": "One of the throwing events in track and field (⟦{陸上競技|りくじょうきょうぎ}→陸上競技：06604_rikujoukyougi⟧). The javelin ({槍|やり}) is thrown from behind a foul line after a running approach.\n\nRELATED THROWING EVENTS:\n- ⟦{砲丸投|ほうがんな}げ→砲丸投げ：09273_hougannage⟧: shot put\n- ⟦{円盤投|えんばんな}げ→円盤投げ：09274_enbannage⟧: discus throw\n- ⟦ハンマー{投|な}げ→ハンマー投げ：23623_hanmaanage⟧: hammer throw\n\nCOMMON COLLOCATIONS:\n- やり{投|な}げ⟦の→の：09472_no⟧⟦{選手|せんしゅ}→選手：03823_senshu⟧: javelin thrower\n- やり{投|な}げ⟦の→の：09472_no⟧⟦{記録|きろく}→記録：02490_kiroku⟧: javelin throw record\n- やり{投|な}げ⟦{競技|きょうぎ}→競技：02606_kyougi⟧: javelin throw competition\n\nFORMS:\n⟦やり→やる：02980_yaru⟧ ({槍|やり}, spear/javelin) + ⟦{投|な}げ→投げ：21942_nage⟧ (throw, from ⟦{投|な}げる→投げる：01135_nageru⟧)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "09273_hougannage",
+      "reading": "ほうがんなげ",
+      "headword": "{砲丸投|ほうがんな}げ",
+      "label": "shot put"
+    },
+    {
+      "type": "related",
+      "target_id": "09274_enbannage",
+      "reading": "えんばんなげ",
+      "headword": "{円盤投|えんばんな}げ",
+      "label": "discus throw"
+    },
+    {
+      "type": "related",
+      "target_id": "23623_hanmaanage",
+      "reading": "はんまーなげ",
+      "headword": "ハンマー{投|な}げ",
+      "label": "hammer throw"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["sports"]
+      "semantic": [
+        "sports"
+      ]
     },
     "created": "2026-04-05T16:34:41Z",
-    "modified": "2026-04-05T16:34:41Z"
+    "modified": "2026-09-02T04:02:07Z"
   }
 }

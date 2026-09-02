@@ -2,7 +2,7 @@
   "id": "02445_fuku",
   "headword": "{吹|ふ}く",
   "reading": "ふく",
-  "part_of_speech": "godan verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to blow",
   "conjugation": {
     "type": "godan",
@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "02445_fuku_ex1",
-      "japanese": "⟦{風|かぜ}→風：00641_kaze⟧⟦が→が：00051_ga⟧{吹|ふ}いている。",
+      "japanese": "⟦{風|かぜ}→風：00641_kaze⟧⟦が→が：00051_ga⟧{吹|ふ}いて⟦いる→いる：00495_iru⟧。",
       "english": "The wind is blowing.",
       "notes": null,
       "has_audio": false,
@@ -133,11 +133,33 @@
       ]
     }
   ],
-  "notes": "{吹|ふ}く describes blowing air or wind movement. It can be intransitive (wind blows) or transitive (to blow something).\n\nTRANSITIVITY:\n- Intransitive: ⟦{風|かぜ}→風：00641_kaze⟧⟦が→が：00051_ga⟧{吹|ふ}く (wind blows)\n- Transitive: ⟦{笛|ふえ}→笛：03593_fue⟧⟦を→を：00422_wo⟧{吹|ふ}く (to play a flute)\n\nASPECT (ている):\n⟦{風|かぜ}→風：00641_kaze⟧⟦が→が：00051_ga⟧{吹|ふ}いている means the wind is currently blowing (ongoing action).\n\nCOMMON PATTERNS:\n- ⟦{風|かぜ}→風：00641_kaze⟧⟦が→が：00051_ga⟧{吹|ふ}く: wind blows\n- ⟦{笛|ふえ}→笛：03593_fue⟧⟦を→を：00422_wo⟧{吹|ふ}く: to play the flute\n- ⟦ラッパ→ラッパ：09958_rappa⟧⟦を→を：00422_wo⟧{吹|ふ}く: to play the trumpet\n- ⟦{息|いき}→息：02176_iki⟧⟦を→を：00422_wo⟧{吹|ふ}き⟦かける→かける：00854_kakeru⟧: to blow breath on\n- ⟦シャボン{玉|だま}→シャボン玉：27863_shabondama⟧⟦を→を：00422_wo⟧{吹|ふ}く: to blow bubbles\n\nNOTE: For wind instruments, {吹|ふ}く is the standard verb for \"to play.\"",
-  "cross_references": [],
+  "notes": "{吹|ふ}く describes blowing air or wind movement. It can be intransitive (wind blows) or transitive (to blow something).\n\nTRANSITIVITY:\n- Intransitive: ⟦{風|かぜ}→風：00641_kaze⟧⟦が→が：00051_ga⟧{吹|ふ}く (wind blows)\n- Transitive: ⟦{笛|ふえ}→笛：03593_fue⟧⟦を→を：00422_wo⟧{吹|ふ}く (to play a flute)\n\nASPECT (ている):\n⟦{風|かぜ}→風：00641_kaze⟧⟦が→が：00051_ga⟧{吹|ふ}いて⟦いる→いる：00495_iru⟧ means the wind is currently blowing (ongoing action).\n\nCOMMON PATTERNS:\n- ⟦{風|かぜ}→風：00641_kaze⟧⟦が→が：00051_ga⟧{吹|ふ}く: wind blows\n- ⟦{笛|ふえ}→笛：03593_fue⟧⟦を→を：00422_wo⟧{吹|ふ}く: to play the flute\n- ⟦ラッパ→ラッパ：09958_rappa⟧⟦を→を：00422_wo⟧{吹|ふ}く: to play the trumpet\n- ⟦{息|いき}→息：02176_iki⟧⟦を→を：00422_wo⟧{吹|ふ}き⟦かける→かける：00854_kakeru⟧: to blow breath on\n- ⟦シャボン{玉|だま}→シャボン玉：27863_shabondama⟧⟦を→を：00422_wo⟧{吹|ふ}く: to blow bubbles\n\nNOTE: For wind instruments, {吹|ふ}く is the standard verb for \"to play.\"",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12176_kanaderu",
+      "reading": "かなでる",
+      "headword": "{奏|かな}でる",
+      "label": "to play (an instrument), to produce music"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20349_ensousuru",
+      "reading": "えんそうする",
+      "headword": "{演奏|えんそう}する",
+      "label": "to perform (music)"
+    },
+    {
+      "type": "homophone",
+      "target_id": "26557_fuku",
+      "reading": "ふく",
+      "headword": "{噴|ふ}く",
+      "label": "to spout"
+    }
+  ],
   "metadata": {
     "created": "2026-01-09T09:00:25Z",
-    "modified": "2026-08-08T09:25:02Z",
+    "modified": "2026-09-02T04:01:01Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

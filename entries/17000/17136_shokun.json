@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "17136_shokun_ex1",
-      "japanese": "{諸君|しょくん}、{聞|き}いてくれ。",
+      "japanese": "{諸君|しょくん}、⟦{聞|き}いて→聞く：00483_kiku⟧⟦くれ→くれる：00724_kureru⟧。",
       "english": "Everyone, listen to me.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "17136_shokun_ex2",
-      "japanese": "{卒業生|そつぎょうせい}{諸君|しょくん}の{前途|ぜんと}を{祝|いわ}う。",
+      "japanese": "⟦{卒業生|そつぎょうせい}→卒業生：15284_sotsugyousei⟧{諸君|しょくん}⟦の→の：09472_no⟧⟦{前途|ぜんと}→前途：09609_zento⟧⟦を→を：00422_wo⟧⟦{祝|いわ}う→祝う：01881_iwau⟧。",
       "english": "I congratulate the graduates on their future prospects.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "17136_shokun_ex3",
-      "japanese": "{諸君|しょくん}の{健闘|けんとう}を{祈|いの}る、と{校長先生|こうちょうせんせい}は{言|い}った。",
+      "japanese": "{諸君|しょくん}⟦の→の：09472_no⟧⟦{健闘|けんとう}→健闘：15326_kentou⟧⟦を→を：00422_wo⟧⟦{祈|いの}る→祈る：01198_inoru⟧、⟦と→と：00512_to⟧{校長先生|こうちょうせんせい}⟦は→は：00079_ha⟧⟦{言|い}った→言う：00515_iu⟧。",
       "english": "\"I wish you all the best of luck,\" said the principal.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA compound of {諸|しょ} (various, many) + {君|くん} (you). Used as a formal, somewhat old-fashioned form of address for a group. Often heard in graduation speeches, military addresses, and formal announcements. Can sound authoritative or paternal.\n\nREGISTER:\nFormal and somewhat stiff. More commonly used by older speakers or in ceremonial contexts. In casual speech, みんな or {皆|みな}さん is preferred.\n\nSIMILAR WORDS:\n- {皆|みな}さん: everyone — the standard polite way to address a group\n- みんな: everyone — casual form",
+  "notes": "USAGE:\nA compound of ⟦{諸|しょ}→諸〜：03956_sho⟧ (various, many) + ⟦{君|くん}→〜君：01998_kun⟧ (you). Used as a formal, somewhat old-fashioned form of address for a group. Often heard in graduation speeches, military addresses, and formal announcements. Can sound authoritative or paternal.\n\nREGISTER:\nFormal and somewhat stiff. More commonly used by older speakers or in ceremonial contexts. In casual speech, ⟦みんな→みんな：02972_minna⟧ or ⟦{皆|みな}さん→皆さん：02971_minasan⟧ is preferred.\n\nSIMILAR WORDS:\n- ⟦{皆|みな}さん→皆さん：02971_minasan⟧: everyone — the standard polite way to address a group\n- ⟦みんな→みんな：02972_minna⟧: everyone — casual form",
   "cross_references": [
     {
       "type": "synonym",
@@ -52,11 +52,18 @@
       "reading": "みなさん",
       "headword": "{皆|みな}さん",
       "label": "standard polite form"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02972_minna",
+      "reading": "みんな",
+      "headword": "みんな",
+      "label": "everyone"
     }
   ],
   "metadata": {
     "created": "2026-03-16T03:07:35Z",
-    "modified": "2026-07-22T18:50:18Z",
+    "modified": "2026-09-02T04:01:47Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

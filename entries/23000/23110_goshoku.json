@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "23110_goshoku_ex1",
-      "japanese": "{誤植|ごしょく}を{見|み}つけた。",
+      "japanese": "{誤植|ごしょく}⟦を→を：00422_wo⟧⟦{見|み}つけた→見つける：01180_mitsukeru⟧。",
       "english": "I found a typo.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "23110_goshoku_ex2",
-      "japanese": "この{本|ほん}には{誤植|ごしょく}が{多|おお}い。",
+      "japanese": "⟦この→この：00962_kono⟧{本|ほん}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{誤植|ごしょく}⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "This book has many typos.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "23110_goshoku_ex3",
-      "japanese": "{出版|しゅっぱん}{前|まえ}に{誤植|ごしょく}がないか{丁寧|ていねい}にチェックした。",
+      "japanese": "⟦{出版|しゅっぱん}→出版：03222_shuppan⟧⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧{誤植|ごしょく}⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧⟦か→か：09473_ka⟧⟦{丁寧|ていねい}→丁寧：00896_teinei⟧⟦に→に：00314_ni⟧⟦チェックした→チェックする：04916_chekkusuru⟧。",
       "english": "I carefully checked for typos before publication.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {誤|ご} (error, mistake) and {植|しょく} (plant, set type). The {植|しょく} refers to {植字|しょくじ} (typesetting), so the word literally means \"error in typesetting.\" Despite its printing origins, it is commonly used for typos in any medium including digital text.\n\nCOMMON COLLOCATIONS:\n- {誤植|ごしょく}を{直|なお}す: to fix a typo\n- {誤植|ごしょく}が{多|おお}い: many typos\n- {誤植|ごしょく}を{見|み}つける: to find a typo\n- {誤植|ごしょく}だらけ: full of typos\n\nSIMILAR WORDS:\n- {誤字|ごじ}: wrong character — a broader term for any wrong character in writing, not limited to print\n- {脱字|だつじ}: omitted character — a missing character rather than a wrong one\n- タイポ: typo — the English loanword, used casually in conversation and online",
+  "notes": "Composed of {誤|ご} (error, mistake) and {植|しょく} (plant, set type). The {植|しょく} refers to {植字|しょくじ} (typesetting), so the word literally means \"error in typesetting.\" Despite its printing origins, it is commonly used for typos in any medium including digital text.\n\nCOMMON COLLOCATIONS:\n- {誤植|ごしょく}⟦を→を：00422_wo⟧{直|なお}す: to fix a typo\n- {誤植|ごしょく}⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧: many typos\n- {誤植|ごしょく}⟦を→を：00422_wo⟧⟦{見|み}つける→見つける：01180_mitsukeru⟧: to find a typo\n- {誤植|ごしょく}⟦だらけ→〜だらけ：18372_darake⟧: full of typos\n\nSIMILAR WORDS:\n- ⟦{誤字|ごじ}→誤字：16131_goji⟧: wrong character — a broader term for any wrong character in writing, not limited to print\n- ⟦{脱字|だつじ}→脱字：16583_datsuji⟧: omitted character — a missing character rather than a wrong one\n- タイポ: typo — the English loanword, used casually in conversation and online",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16131_goji",
+      "reading": "ごじ",
+      "headword": "{誤字|ごじ}",
+      "label": "wrong character"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16583_datsuji",
+      "reading": "だつじ",
+      "headword": "{脱字|だつじ}",
+      "label": "omitted character"
+    },
+    {
+      "type": "related",
+      "target_id": "20961_seigohyou",
+      "reading": "せいごひょう",
+      "headword": "{正誤表|せいごひょう}",
+      "label": "errata"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +83,6 @@
       "politeness": "plain"
     },
     "created": "2026-04-08T19:18:51Z",
-    "modified": "2026-07-31T18:20:34Z"
+    "modified": "2026-09-02T04:02:11Z"
   }
 }

@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "13833_soya_ex1",
-      "japanese": "{粗野|そや}な{振|ふ}る{舞|ま}いはやめなさい。",
+      "japanese": "{粗野|そや}な⟦{振|ふ}る{舞|ま}い→振る舞い：10520_furumai⟧はやめ⟦なさい→なさる：01307_nasaru⟧。",
       "english": "Stop behaving so boorishly.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13833_soya_ex2",
-      "japanese": "{彼|かれ}は{見|み}かけによらず{粗野|そや}な{言葉遣|ことばづか}いをする。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{見|み}かけ⟦に→に：00314_ni⟧よらず{粗野|そや}な{言葉遣|ことばづか}い⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧。",
       "english": "Despite his appearance, he uses crude language.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13833_soya_ex3",
-      "japanese": "{粗野|そや}な{態度|たいど}で{周囲|しゅうい}の{人|ひと}を{不快|ふかい}にさせるのは、{本人|ほんにん}が{気|き}づいていないことが{多|おお}い。",
+      "japanese": "{粗野|そや}な⟦{態度|たいど}→態度：03396_taido⟧⟦で→で：00502_de⟧⟦{周囲|しゅうい}→周囲：03206_shuui⟧⟦の→の：09472_no⟧⟦{人|ひと}→人：00476_hito⟧⟦を→を：00422_wo⟧⟦{不快|ふかい}→不快：11386_fukai⟧にさせる⟦の→の：09472_no⟧⟦は→は：00079_ha⟧、⟦{本人|ほんにん}→本人：03627_honnin⟧⟦が→が：00051_ga⟧{気|き}づいて⟦いない→いる：00495_iru⟧こと⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "People who make others uncomfortable with their boorish attitude are often unaware of it themselves.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nA somewhat literary or formal way to describe someone's lack of refinement. More often encountered in written Japanese or formal speech than in casual conversation.\n\nSIMILAR WORDS:\n- {乱暴|らんぼう}: rough, violent (stronger, implies physical aggression)\n- {下品|げひん}: vulgar, indecent (focuses on lack of taste or elegance)\n- {野蛮|やばん}: barbarous, uncivilized (stronger, implies lack of civilization)\n- {無作法|ぶさほう}: ill-mannered (focuses specifically on etiquette)\n\nCOMMON COLLOCATIONS:\n- {粗野|そや}な{言葉遣|ことばづか}い: crude language\n- {粗野|そや}な{振|ふ}る{舞|ま}い: boorish behavior\n- {粗野|そや}な{態度|たいど}: crude attitude\n- {粗野|そや}な{人|ひと}: an uncouth person",
+  "notes": "USAGE:\nA somewhat literary or formal way to describe someone's lack of refinement. More often encountered in written Japanese or formal speech than in casual conversation.\n\nSIMILAR WORDS:\n- ⟦{乱暴|らんぼう}→乱暴：02482_ranbou⟧: rough, violent (stronger, implies physical aggression)\n- ⟦{下品|げひん}→下品：00060_gehin⟧: vulgar, indecent (focuses on lack of taste or elegance)\n- ⟦{野蛮|やばん}→野蛮：18961_yaban⟧: barbarous, uncivilized (stronger, implies lack of civilization)\n- ⟦{無作法|ぶさほう}→無作法：13529_busahou⟧: ill-mannered (focuses specifically on etiquette)\n\nCOMMON COLLOCATIONS:\n- {粗野|そや}な{言葉遣|ことばづか}い: crude language\n- {粗野|そや}な⟦{振|ふ}る{舞|ま}い→振る舞い：10520_furumai⟧: boorish behavior\n- {粗野|そや}な⟦{態度|たいど}→態度：03396_taido⟧: crude attitude\n- {粗野|そや}な⟦{人|ひと}→人：00476_hito⟧: an uncouth person",
   "cross_references": [
     {
       "type": "antonym",
@@ -60,19 +66,53 @@
       "reading": "ぶさほう",
       "headword": "{無作法|ぶさほう}",
       "label": "ill-mannered"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02482_ranbou",
+      "reading": "らんぼう",
+      "headword": "{乱暴|らんぼう}",
+      "label": "rough, violent"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18961_yaban",
+      "reading": "やばん",
+      "headword": "{野蛮|やばん}",
+      "label": "barbarous, uncivilized"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21353_bukotsu",
+      "reading": "ぶこつ",
+      "headword": "{無骨|ぶこつ}",
+      "label": "rough"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23403_yaseiteki",
+      "reading": "やせいてき",
+      "headword": "{野性的|やせいてき}",
+      "label": "wild"
     }
   ],
   "metadata": {
     "created": "2026-02-27T05:09:41Z",
-    "modified": "2026-04-29T09:23:58Z",
+    "modified": "2026-09-02T04:01:34Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-na"],
+      "pos": [
+        "adjective-na"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["descriptive"],
-      "style": ["written"]
+      "semantic": [
+        "descriptive"
+      ],
+      "style": [
+        "written"
+      ]
     }
   }
 }

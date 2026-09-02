@@ -15,41 +15,62 @@
   "examples": [
     {
       "id": "29621_hiriajuu_ex1",
-      "japanese": "{自分|じぶん}は{非|ひ}リア{充|じゅう}だ。",
+      "japanese": "⟦{自分|じぶん}→自分：02887_jibun⟧⟦は→は：00079_ha⟧{非|ひ}リア{充|じゅう}だ。",
       "english": "My real life isn't much fun (I'm a hiriajuu).",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29621_hiriajuu_ex2",
-      "japanese": "{週末|しゅうまつ}は{家|いえ}で{過|す}ごす{非|ひ}リア{充|じゅう}が{多|おお}い。",
+      "japanese": "⟦{週末|しゅうまつ}→週末：03030_shuumatsu⟧⟦は→は：00079_ha⟧⟦{家|いえ}→家：00612_ie⟧⟦で→で：00502_de⟧⟦{過|す}ごす→過ごす：02062_sugosu⟧{非|ひ}リア{充|じゅう}⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "Plenty of \"hiriajuu\" spend their weekends at home.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29621_hiriajuu_ex3",
-      "japanese": "{自分|じぶん}を{非|ひ}リア{充|じゅう}だとネタにして{笑|わら}う{人|ひと}もいる。",
+      "japanese": "⟦{自分|じぶん}→自分：02887_jibun⟧⟦を→を：00422_wo⟧{非|ひ}リア{充|じゅう}だ⟦と→と：00512_to⟧⟦ネタ→ネタ：06309_neta⟧にして⟦{笑|わら}う→笑う：00685_warau⟧⟦{人|ひと}→人：00476_hito⟧⟦も→も：00484_mo⟧⟦いる→いる：00495_iru⟧。",
       "english": "Some people joke about being \"hiriajuu\" at their own expense.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "USAGE: {非|ひ}リア{充|じゅう} is internet slang, formed by prefixing {非|ひ} (non-, un-) to {リア充|りあじゅう} (a person with a fulfilling offline life). It is used self-deprecatingly or jokingly online.\n\nSIMILAR WORDS:\n- {リア充|りあじゅう}: person with a fulfilling real life — the direct antonym\n- {陰|いん}キャ: introverted, gloomy type — overlapping slang, but about personality",
+  "notes": "USAGE: {非|ひ}リア{充|じゅう} is internet slang, formed by prefixing ⟦{非|ひ}→非：28419_hi⟧ (non-, un-) to ⟦{リア充|りあじゅう}→リア充：06460_riajuu⟧ (a person with a fulfilling offline life). It is used self-deprecatingly or jokingly online.\n\nSIMILAR WORDS:\n- ⟦{リア充|りあじゅう}→リア充：06460_riajuu⟧: person with a fulfilling real life — the direct antonym\n- ⟦{陰|いん}キャ→陰キャ：06441_inkya⟧: introverted, gloomy type — overlapping slang, but about personality",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06441_inkya",
+      "reading": "いんきゃ",
+      "headword": "{陰|いん}キャ",
+      "label": "introverted, gloomy type"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "informal",
-      "politeness": null,
-      "semantic": ["person"],
-      "domain": ["internet"]
+      "politeness": "plain",
+      "semantic": [
+        "person"
+      ],
+      "domain": [
+        "internet"
+      ]
     },
     "created": "2026-07-01T18:18:59Z",
-    "modified": "2026-07-01T18:18:59Z"
+    "modified": "2026-09-02T04:02:37Z"
   }
 }

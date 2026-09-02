@@ -43,10 +43,40 @@
       ]
     }
   ],
-  "notes": "{用語|ようご} refers to specialized words or phrases used in a particular field or profession. Broader than ⟦{術語|じゅつご}→術語：28410_jutsugo⟧ (strict technical term).\n\nCOMMON COMPOUNDS:\n- ⟦{専門|せんもん}→専門：01251_senmon⟧{用語|ようご}: technical terminology\n- ⟦{医学|いがく}→医学：01301_igaku⟧{用語|ようご}: medical terminology\n- ⟦{法律|ほうりつ}→法律：01722_houritsu⟧{用語|ようご}: legal terminology\n- IT{用語|ようご}: IT terminology\n- {用語|ようご}⟦{集|しゅう}→集：noentry⟧: glossary\n- {用語|ようご}⟦{解説|かいせつ}→解説：00138_kaisetsu⟧: terminology explanation\n\nCOMMON PATTERNS:\n- {用語|ようご}⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧: to use terminology\n- {用語|ようご}⟦の→の：09472_no⟧⟦{意味|いみ}→意味：01155_imi⟧: meaning of a term\n- {用語|ようご}⟦を→を：00422_wo⟧⟦{覚|おぼ}える→覚える：00739_oboeru⟧: to learn terminology\n\nSIMILAR WORDS:\n- ⟦{術語|じゅつご}→術語：28410_jutsugo⟧: technical term (more formal, narrower)\n- ⟦{語彙|ごい}→語彙：14214_goi⟧: vocabulary (general, not field-specific)\n- ⟦{言葉|ことば}→言葉：02880_kotoba⟧: word (everyday)",
+  "notes": "{用語|ようご} refers to specialized words or phrases used in a particular field or profession. Broader than ⟦{術語|じゅつご}→術語：28410_jutsugo⟧ (strict technical term).\n\nCOMPOUNDS:\n- ⟦{専門|せんもん}→専門：01251_senmon⟧{用語|ようご}: technical terminology\n- ⟦{医学|いがく}→医学：01301_igaku⟧{用語|ようご}: medical terminology\n- ⟦{法律|ほうりつ}→法律：01722_houritsu⟧{用語|ようご}: legal terminology\n- IT{用語|ようご}: IT terminology\n- {用語|ようご}⟦{集|しゅう}→集：noentry⟧: glossary\n- {用語|ようご}⟦{解説|かいせつ}→解説：00138_kaisetsu⟧: terminology explanation\n\nCOMMON PATTERNS:\n- {用語|ようご}⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧: to use terminology\n- {用語|ようご}⟦の→の：09472_no⟧⟦{意味|いみ}→意味：01155_imi⟧: meaning of a term\n- {用語|ようご}⟦を→を：00422_wo⟧⟦{覚|おぼ}える→覚える：00739_oboeru⟧: to learn terminology\n\nSIMILAR WORDS:\n- ⟦{術語|じゅつご}→術語：28410_jutsugo⟧: technical term (more formal, narrower)\n- ⟦{語彙|ごい}→語彙：14214_goi⟧: vocabulary (general, not field-specific)\n- ⟦{言葉|ことば}→言葉：02880_kotoba⟧: word (everyday)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "28410_jutsugo",
+      "reading": "じゅつご",
+      "headword": "{術語|じゅつご}",
+      "label": "technical term"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14214_goi",
+      "reading": "ごい",
+      "headword": "{語彙|ごい}",
+      "label": "vocabulary"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02880_kotoba",
+      "reading": "ことば",
+      "headword": "{言葉|ことば}",
+      "label": "word"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02840_goku",
+      "reading": "ごく",
+      "headword": "{語句|ごく}",
+      "label": "words, phrases, wording"
+    }
+  ],
   "metadata": {
     "created": "2026-01-13T12:42:08Z",
-    "modified": "2026-08-14T18:20:10Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

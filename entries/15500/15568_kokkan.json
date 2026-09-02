@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "15568_kokkan_ex1",
-      "japanese": "{酷寒|こっかん}の{地|ち}で{暮|く}らす。",
+      "japanese": "{酷寒|こっかん}⟦の→の：09472_no⟧{地|ち}⟦で→で：00502_de⟧⟦{暮|く}らす→暮らす：01937_kurasu⟧。",
       "english": "To live in a land of severe cold.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15568_kokkan_ex2",
-      "japanese": "{酷寒|こっかん}の{中|なか}、{作業|さぎょう}を{続|つづ}けた。",
+      "japanese": "{酷寒|こっかん}⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧、⟦{作業|さぎょう}→作業：02775_sagyou⟧⟦を→を：00422_wo⟧⟦{続|つづ}け→続く：00903_tsuzuku⟧た。",
       "english": "They continued working in the bitter cold.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15568_kokkan_ex3",
-      "japanese": "シベリアの{酷寒|こっかん}に{耐|た}えられる{防寒着|ぼうかんぎ}が{必要|ひつよう}だ。",
+      "japanese": "シベリア⟦の→の：09472_no⟧{酷寒|こっかん}⟦に→に：00314_ni⟧⟦{耐|た}えられる→耐える：12087_taeru⟧⟦{防寒着|ぼうかんぎ}→防寒着：20243_boukangi⟧⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧だ。",
       "english": "Cold-weather gear that can withstand Siberia's extreme cold is needed.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "Composed of {酷|こく} (severe, harsh) and {寒|かん} (cold). The {酷|こく} undergoes sound change to {こっ} before {かん}.\n\nCOMMON COLLOCATIONS:\n- {酷寒|こっかん}の{地|ち} (land of extreme cold)\n- {酷寒|こっかん}に{耐|た}える (to endure severe cold)\n- {酷寒|こっかん}の{冬|ふゆ} (bitterly cold winter)\n\nSIMILAR WORDS:\n- {酷寒|こっかん}: extreme, severe cold (literary, emphatic)\n- {極寒|ごっかん}: extreme cold (similar meaning, slightly more common)\n- {厳寒|げんかん}: severe cold (formal)",
+  "notes": "Composed of {酷|こく} (severe, harsh) and {寒|かん} (cold). The {酷|こく} undergoes sound change to こっ before かん.\n\nCOMMON COLLOCATIONS:\n- {酷寒|こっかん}⟦の→の：09472_no⟧{地|ち} (land of extreme cold)\n- {酷寒|こっかん}⟦に→に：00314_ni⟧⟦{耐|た}える→耐える：12087_taeru⟧ (to endure severe cold)\n- {酷寒|こっかん}⟦の→の：09472_no⟧⟦{冬|ふゆ}→冬：00623_fuyu⟧ (bitterly cold winter)\n\nSIMILAR WORDS:\n- {酷寒|こっかん}: extreme, severe cold (literary, emphatic)\n- ⟦{極寒|ごっかん}→極寒：21345_gokkan⟧: extreme cold (similar meaning, slightly more common)\n- ⟦{厳寒|げんかん}→厳寒：20655_genkan⟧: severe cold (formal)",
   "cross_references": [
     {
       "type": "synonym",
@@ -53,18 +59,29 @@
       "reading": "げんかん",
       "headword": "{厳寒|げんかん}",
       "label": "severe cold (formal)"
+    },
+    {
+      "type": "related",
+      "target_id": "08556_gentou",
+      "reading": "げんとう",
+      "headword": "{厳冬|げんとう}",
+      "label": "severe winter"
     }
   ],
   "metadata": {
     "created": "2026-03-07T11:21:01Z",
-    "modified": "2026-05-01T08:11:13Z",
+    "modified": "2026-09-02T04:01:41Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["nature"]
+      "semantic": [
+        "nature"
+      ]
     }
   }
 }

@@ -16,39 +16,66 @@
   "examples": [
     {
       "id": "29218_raikou_ex1",
-      "japanese": "{雷光|らいこう}が{空|そら}を{走|はし}った。",
+      "japanese": "{雷光|らいこう}⟦が→が：00051_ga⟧⟦{空|そら}→空：02216_sora⟧⟦を→を：00422_wo⟧⟦{走|はし}った→走る：00519_hashiru⟧。",
       "english": "A flash of lightning ran across the sky.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29218_raikou_ex2",
-      "japanese": "{雷光|らいこう}の{後|あと}に{大きな|おおきな}{雷鳴|らいめい}が{響|ひび}いた。",
+      "japanese": "{雷光|らいこう}⟦の→の：09472_no⟧⟦{後|あと}→後：09580_ato⟧⟦に→に：00314_ni⟧⟦{大|おお}きな→大きな：02849_ookina⟧⟦{雷鳴|らいめい}→雷鳴：06188_raimei⟧⟦が→が：00051_ga⟧⟦{響|ひび}いた→響く：00099_hibiku⟧。",
       "english": "After the lightning flash, a loud thunderclap echoed.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29218_raikou_ex3",
-      "japanese": "{真夜中|まよなか}、{雷光|らいこう}が{部屋|へや}を{一瞬|いっしゅん}{昼|ひる}のように{照|て}らした。",
+      "japanese": "⟦{真夜中|まよなか}→真夜中：05425_mayonaka⟧、{雷光|らいこう}⟦が→が：00051_ga⟧⟦{部屋|へや}→部屋：00507_heya⟧⟦を→を：00422_wo⟧⟦{一瞬|いっしゅん}→一瞬：01805_isshun⟧⟦{昼|ひる}→昼：00540_hiru⟧⟦のように→のように：30291_noyouni⟧⟦{照|て}らした→照らす：04669_terasu⟧。",
       "english": "At midnight, a lightning flash lit up the room as bright as day for an instant.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "SIMILAR WORDS:\n- {雷|かみなり}: thunder; lightning (general term for the phenomenon)\n- {稲妻|いなずま}: lightning bolt — the specific bolt or flash, often used in literary or dramatic contexts\n- {雷光|らいこう}: lightning flash — emphasizes the visual light; more formal/literary\n- {雷鳴|らいめい}: thunderclap — the sound (contrast with 雷光, the light)\n\nCOMMON COLLOCATIONS:\n- {雷光|らいこう}が{光|ひか}る: lightning flashes\n- {雷光|らいこう}が{走|はし}る: lightning streaks across the sky\n- {雷光|らいこう}と{雷鳴|らいめい}: lightning and thunder",
+  "notes": "SIMILAR WORDS:\n- ⟦{雷|かみなり}→雷：02197_kaminari⟧: thunder; lightning (general term for the phenomenon)\n- ⟦{稲妻|いなずま}→稲妻：04989_inazuma⟧: lightning bolt — the specific bolt or flash, often used in literary or dramatic contexts\n- {雷光|らいこう}: lightning flash — emphasizes the visual light; more formal/literary\n- ⟦{雷鳴|らいめい}→雷鳴：06188_raimei⟧: thunderclap — the sound (contrast with 雷光, the light)\n\nCOMMON COLLOCATIONS:\n- {雷光|らいこう}⟦が→が：00051_ga⟧⟦{光|ひか}る→光る：01163_hikaru⟧: lightning flashes\n- {雷光|らいこう}⟦が→が：00051_ga⟧⟦{走|はし}る→走る：00519_hashiru⟧: lightning streaks across the sky\n- {雷光|らいこう}⟦と→と：00512_to⟧⟦{雷鳴|らいめい}→雷鳴：06188_raimei⟧: lightning and thunder",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04989_inazuma",
+      "reading": "いなずま",
+      "headword": "{稲妻|いなずま}",
+      "label": "lightning bolt"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06188_raimei",
+      "reading": "らいめい",
+      "headword": "{雷鳴|らいめい}",
+      "label": "thunderclap"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["weather", "nature"]
+      "semantic": [
+        "weather",
+        "nature"
+      ]
     },
     "created": "2026-06-13T03:45:19Z",
-    "modified": "2026-06-13T03:45:19Z"
+    "modified": "2026-09-02T04:02:36Z"
   }
 }

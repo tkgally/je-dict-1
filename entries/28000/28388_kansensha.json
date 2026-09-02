@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28388_kansensha_ex1",
-      "japanese": "{感染者|かんせんしゃ}が{増加|ぞうか}している。",
+      "japanese": "{感染者|かんせんしゃ}⟦が→が：00051_ga⟧⟦{増加|ぞうか}→増加：03329_zouka⟧⟦している→する：00392_suru⟧。",
       "english": "The number of infected people is increasing.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28388_kansensha_ex2",
-      "japanese": "{感染者|かんせんしゃ}との{接触|せっしょく}を{避|さ}けてください。",
+      "japanese": "{感染者|かんせんしゃ}⟦と→と：00512_to⟧⟦の→の：09472_no⟧⟦{接触|せっしょく}→接触：12904_sesshoku⟧⟦を→を：00422_wo⟧⟦{避|さ}けて→避ける：02109_sakeru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please avoid contact with infected persons.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28388_kansensha_ex3",
-      "japanese": "{新規|しんき}{感染者数|かんせんしゃすう}は{先週|せんしゅう}より{大幅|おおはば}に{減|へ}った。",
+      "japanese": "⟦{新規|しんき}→新規：06289_shinki⟧⟦{感染者数|かんせんしゃすう}→感染者数：30152_kansenshasuu⟧⟦は→は：00079_ha⟧⟦{先週|せんしゅう}→先週：00752_senshuu⟧⟦より→より：09476_yori⟧⟦{大幅|おおはば}→大幅：12170_oohaba⟧⟦に→に：00314_ni⟧⟦{減|へ}った→減る：01985_heru⟧。",
       "english": "The number of new infections fell significantly from last week.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Became part of everyday vocabulary during the COVID-19 pandemic. The compound is {感染|かんせん} (infection) + {者|しゃ} (person).\n\nCOMMON COLLOCATIONS:\n- {新規|しんき}{感染者|かんせんしゃ}: new infections (newly reported cases)\n- {感染者数|かんせんしゃすう}: number of infected people\n- {感染者|かんせんしゃ}が{出|で}る: an infection case appears\n- {濃厚|のうこう}{接触|せっしょく}{者|しゃ}: close contact (of an infected person)\n\nSIMILAR WORDS:\n- {患者|かんじゃ}: patient — broader; includes all illnesses, not just infectious\n- {陽性者|ようせいしゃ}: a person who has tested positive\n- {発症者|はっしょうしゃ}: a person showing symptoms (vs. asymptomatic carrier)",
+  "notes": "Became part of everyday vocabulary during the COVID-19 pandemic. The compound is ⟦{感染|かんせん}→感染：05977_kansen⟧ (infection) + ⟦{者|しゃ}→〜者：04662_sha⟧ (person).\n\nCOMMON COLLOCATIONS:\n- ⟦{新規|しんき}→新規：06289_shinki⟧{感染者|かんせんしゃ}: new infections (newly reported cases)\n- ⟦{感染者数|かんせんしゃすう}→感染者数：30152_kansenshasuu⟧: number of infected people\n- {感染者|かんせんしゃ}⟦が→が：00051_ga⟧⟦{出|で}る→出る：00513_deru⟧: an infection case appears\n- ⟦{濃厚|のうこう}→濃厚：07905_noukou⟧{接触|せっしょく}{者|しゃ}: close contact (of an infected person)\n\nSIMILAR WORDS:\n- ⟦{患者|かんじゃ}→患者：00170_kanja⟧: patient — broader; includes all illnesses, not just infectious\n- {陽性者|ようせいしゃ}: a person who has tested positive\n- {発症者|はっしょうしゃ}: a person showing symptoms (vs. asymptomatic carrier)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00170_kanja",
+      "reading": "かんじゃ",
+      "headword": "{患者|かんじゃ}",
+      "label": "patient"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27361_kanjasuu",
+      "reading": "かんじゃすう",
+      "headword": "{患者数|かんじゃすう}",
+      "label": "number of patients"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +69,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "health",
         "person"
@@ -61,6 +77,6 @@
       "domain": []
     },
     "created": "2026-05-30T03:11:46Z",
-    "modified": "2026-08-08T18:34:17Z"
+    "modified": "2026-09-02T04:02:33Z"
   }
 }

@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "12116_heni_ex1",
-      "japanese": "ウイルスが{変異|へんい}する。",
+      "japanese": "⟦ウイルス→ウイルス：05223_uirusu⟧⟦が→が：00051_ga⟧{変異|へんい}⟦する→する：00392_suru⟧。",
       "english": "The virus mutates.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "12116_heni_ex2",
-      "japanese": "{遺伝子|いでんし}{変異|へんい}が{発見|はっけん}された。",
+      "japanese": "⟦{遺伝子|いでんし}→遺伝子：05031_idenshi⟧{変異|へんい}⟦が→が：00051_ga⟧⟦{発見|はっけん}→発見：00085_hakken⟧⟦された→する：00392_suru⟧。",
       "english": "A genetic mutation was discovered.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "12116_heni_ex3",
-      "japanese": "この{変異|へんい}{株|かぶ}は{従来|じゅうらい}のものよりも{感染力|かんせんりょく}が{強|つよ}いとされている。",
+      "japanese": "⟦この→この：00962_kono⟧{変異|へんい}⟦{株|かぶ}→株：02592_kabu⟧⟦は→は：00079_ha⟧⟦{従来|じゅうらい}→従来：12511_juurai⟧⟦の→の：09472_no⟧もの⟦より→より：09476_yori⟧⟦も→も：00484_mo⟧{感染力|かんせんりょく}⟦が→が：00051_ga⟧⟦{強|つよ}い→強い：00820_tsuyoi⟧⟦と→と：00512_to⟧⟦されている→する：00392_suru⟧。",
       "english": "This mutant strain is said to be more infectious than previous ones.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,19 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{変異|へんい} is primarily used in scientific and medical contexts, particularly in biology and genetics. It became widely known during discussions of viral mutations. As a する verb, it describes the process of mutating.\n\nCOMMON COLLOCATIONS:\n- {遺伝子|いでんし}{変異|へんい}: genetic mutation\n- {変異|へんい}{株|かぶ}: mutant strain, variant\n- {突然変異|とつぜんへんい}: sudden mutation\n- {変異|へんい}{体|たい}: mutant (organism)",
-  "cross_references": [],
+  "notes": "USAGE:\n{変異|へんい} is primarily used in scientific and medical contexts, particularly in biology and genetics. It became widely known during discussions of viral mutations. As a ⟦する→する：00392_suru⟧ verb, it describes the process of mutating.\n\nCOMMON COLLOCATIONS:\n- ⟦{遺伝子|いでんし}→遺伝子：05031_idenshi⟧{変異|へんい}: genetic mutation\n- {変異|へんい}⟦{株|かぶ}→株：02592_kabu⟧: mutant strain, variant\n- ⟦{突然変異|とつぜんへんい}→突然変異：19099_totsuzenheni⟧: sudden mutation\n- {変異|へんい}⟦{体|たい}→体：09872_tai⟧: mutant (organism)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22498_henshu",
+      "reading": "へんしゅ",
+      "headword": "{変種|へんしゅ}",
+      "label": "variant"
+    }
+  ],
   "metadata": {
     "created": "2026-02-20T08:50:30Z",
-    "modified": "2026-08-16T12:31:26Z",
+    "modified": "2026-09-02T04:01:27Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -155,7 +163,8 @@
         "medical",
         "academic"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

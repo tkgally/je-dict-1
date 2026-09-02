@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "19762_zubora_ex1",
-      "japanese": "ずぼらな{性格|せいかく}だ。",
+      "japanese": "ずぼらな⟦{性格|せいかく}→性格：03371_seikaku⟧だ。",
       "english": "He has a sloppy personality.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "19762_zubora_ex2",
-      "japanese": "{掃除|そうじ}が{面倒|めんどう}で、つい　ずぼらになる。",
+      "japanese": "⟦{掃除|そうじ}→掃除：02889_souji⟧⟦が→が：00051_ga⟧⟦{面倒|めんどう}→面倒：03809_mendou⟧で、つい　ずぼら⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧。",
       "english": "Cleaning is a hassle, so I tend to get lazy about it.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "19762_zubora_ex3",
-      "japanese": "ずぼらな{人|ひと}でも{続|つづ}けられる{簡単|かんたん}レシピを{紹介|しょうかい}します。",
+      "japanese": "ずぼらな⟦{人|ひと}→人：00476_hito⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧⟦{続|つづ}け→続く：00903_tsuzuku⟧られる⟦{簡単|かんたん}→簡単：00713_kantan⟧⟦レシピ→レシピ：07157_reshipi⟧⟦を→を：00422_wo⟧⟦{紹介|しょうかい}します→紹介する：05641_shoukaisuru⟧。",
       "english": "I'll introduce easy recipes that even lazy people can keep up with.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "A colloquial word describing someone who is habitually careless, messy, or lax about daily tasks. It carries a mild, somewhat affectionate tone — more like 'slovenly' or 'laid-back to a fault' than truly harsh criticism. Often used self-deprecatingly.\n\nUSAGE:\nFunctions as a na-adjective (ずぼらな{人|ひと}) and can also be used as a noun (ずぼらだ). Very common in casual speech and lifestyle media — ずぼらレシピ (lazy recipes) and ずぼら{家事|かじ} (lazy housework) are popular content categories.\n\nCOMMON COLLOCATIONS:\n- ずぼらな{性格|せいかく} — a sloppy personality\n- ずぼら{飯|めし} — lazy cooking, quick-and-easy meals\n- ずぼら{家事|かじ} — lazy housework, shortcut housekeeping\n\nSIMILAR WORDS:\n- だらしない — sloppy, slovenly; stronger negative connotation, implies lack of discipline\n- {怠|なま}け{者|もの} — a lazy person; focuses on laziness as a character flaw\n- {無精|ぶしょう} — indolent, slothful; slightly more formal synonym",
+  "notes": "A colloquial word describing someone who is habitually careless, messy, or lax about daily tasks. It carries a mild, somewhat affectionate tone — more like 'slovenly' or 'laid-back to a fault' than truly harsh criticism. Often used self-deprecatingly.\n\nUSAGE:\nFunctions as a na-adjective (ずぼらな⟦{人|ひと}→人：00476_hito⟧) and can also be used as a noun (ずぼらだ). Very common in casual speech and lifestyle media — ずぼら⟦レシピ→レシピ：07157_reshipi⟧ (lazy recipes) and ずぼら⟦{家事|かじ}→家事：12313_kaji⟧ (lazy housework) are popular content categories.\n\nCOMMON COLLOCATIONS:\n- ずぼらな⟦{性格|せいかく}→性格：03371_seikaku⟧ — a sloppy personality\n- ずぼら⟦{飯|めし}→飯：03805_meshi⟧ — lazy cooking, quick-and-easy meals\n- ずぼら⟦{家事|かじ}→家事：12313_kaji⟧ — lazy housework, shortcut housekeeping\n\nSIMILAR WORDS:\n- ⟦だらしない→だらしない：10369_darashinai⟧ — sloppy, slovenly; stronger negative connotation, implies lack of discipline\n- ⟦{怠|なま}け{者|もの}→怠け者：16970_namakemono⟧ — a lazy person; focuses on laziness as a character flaw\n- {無精|ぶしょう} — indolent, slothful; slightly more formal synonym",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "10369_darashinai",
+      "reading": "だらしない",
+      "headword": "だらしない",
+      "label": "sloppy, slovenly"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16970_namakemono",
+      "reading": "なまけもの",
+      "headword": "{怠|なま}け{者|もの}",
+      "label": "a lazy person"
+    },
+    {
+      "type": "related",
+      "target_id": "15188_mendoukusagari",
+      "reading": "めんどうくさがり",
+      "headword": "{面倒|めんどう}くさがり",
+      "label": "lazy person"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +82,6 @@
       ]
     },
     "created": "2026-03-26T23:22:20Z",
-    "modified": "2026-03-26T23:22:20Z"
+    "modified": "2026-09-02T04:01:57Z"
   }
 }

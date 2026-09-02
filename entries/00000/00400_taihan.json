@@ -2,7 +2,7 @@
   "id": "00400_taihan",
   "headword": "{大半|たいはん}",
   "reading": "たいはん",
-  "part_of_speech": "noun; adverb",
+  "part_of_speech": "noun, adverb",
   "gloss": "majority; most of",
   "definitions": [
     {
@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "notes": "{大半|たいはん} means \"the majority\" or \"most of\" something, typically indicating more than 50%.\n\nCOMMON PATTERNS:\n- 〜⟦の→の：09472_no⟧{大半|たいはん} (the majority of ~)\n- {大半|たいはん}⟦が→が：00051_ga⟧〜 (most are ~)\n- {大半|たいはん}⟦は→は：00079_ha⟧〜 (for the most part, ~)\n\nSIMILAR EXPRESSIONS:\n- ⟦ほとんど→ほとんど：00847_hotondo⟧: almost all, nearly (closer to 90-100%)\n- ⟦{大部分|だいぶぶん}→大部分：03420_daibubun⟧: the greater part (similar to {大半|たいはん})\n- ⟦{過半数|かはんすう}→過半数：05610_kahansuu⟧: majority (specifically more than half, often in voting)\n- ⟦{大多数|だいたすう}→大多数：12217_daitasuu⟧: the great majority\n\nNUANCE:\n- {大半|たいはん} suggests roughly 60-80%\n- It's less absolute than ⟦ほとんど→ほとんど：00847_hotondo⟧ but clearly more than half",
+  "notes": "{大半|たいはん} means \"the majority\" or \"most of\" something, typically indicating more than 50%.\n\nCOMMON PATTERNS:\n- 〜⟦の→の：09472_no⟧{大半|たいはん} (the majority of ~)\n- {大半|たいはん}⟦が→が：00051_ga⟧〜 (most are ~)\n- {大半|たいはん}⟦は→は：00079_ha⟧〜 (for the most part, ~)\n\nSIMILAR WORDS:\n- ⟦ほとんど→ほとんど：00847_hotondo⟧: almost all, nearly (closer to 90-100%)\n- ⟦{大部分|だいぶぶん}→大部分：03420_daibubun⟧: the greater part (similar to {大半|たいはん})\n- ⟦{過半数|かはんすう}→過半数：05610_kahansuu⟧: majority (specifically more than half, often in voting)\n- ⟦{大多数|だいたすう}→大多数：12217_daitasuu⟧: the great majority\n\nUSAGE:\n- {大半|たいはん} suggests roughly 60-80%\n- It's less absolute than ⟦ほとんど→ほとんど：00847_hotondo⟧ but clearly more than half",
   "cross_references": [
     {
       "type": "synonym",
@@ -55,11 +55,32 @@
       "headword": "ほとんど",
       "label": "almost all",
       "target_id": "00847_hotondo"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05610_kahansuu",
+      "reading": "かはんすう",
+      "headword": "{過半数|かはんすう}",
+      "label": "majority"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12217_daitasuu",
+      "reading": "だいたすう",
+      "headword": "{大多数|だいたすう}",
+      "label": "the great majority"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21694_kahan",
+      "reading": "かはん",
+      "headword": "{過半|かはん}",
+      "label": "majority"
     }
   ],
   "metadata": {
     "created": "2026-01-13T03:14:22Z",
-    "modified": "2026-05-11T13:23:23Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5-20251101",
     "vocabulary_tier": "general",
     "tags": {

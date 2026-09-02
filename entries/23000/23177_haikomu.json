@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "23177_haikomu_ex1",
-      "japanese": "{布団|ふとん}に{這|は}い{込|こ}む。",
+      "japanese": "⟦{布団|ふとん}→布団：01720_futon⟧⟦に→に：00314_ni⟧{這|は}い{込|こ}む。",
       "english": "To crawl into the futon.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "23177_haikomu_ex2",
-      "japanese": "{猫|ねこ}がベッドの{下|した}に{這|は}い{込|こ}んだ。",
+      "japanese": "⟦{猫|ねこ}→猫：02237_neko⟧⟦が→が：00051_ga⟧⟦ベッド→ベッド：04501_beddo⟧⟦の→の：09472_no⟧⟦{下|した}→下：00670_shita⟧⟦に→に：00314_ni⟧{這|は}い{込|こ}んだ。",
       "english": "The cat crawled under the bed.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "23177_haikomu_ex3",
-      "japanese": "{子供|こども}たちが{狭|せま}いトンネルに{這|は}い{込|こ}んで{遊|あそ}んでいた。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧たち⟦が→が：00051_ga⟧⟦{狭|せま}い→狭い：00750_semai⟧⟦トンネル→トンネル：03865_tonneru⟧⟦に→に：00314_ni⟧{這|は}い{込|こ}んで⟦{遊|あそ}んでいた→遊ぶ：00550_asobu⟧。",
       "english": "The children were playing by crawling into a narrow tunnel.",
       "sense_numbers": [
         1
@@ -45,7 +45,7 @@
     },
     {
       "id": "23177_haikomu_ex4",
-      "japanese": "{疲|つか}れて{帰|かえ}ってきて、そのまま{布団|ふとん}に{這|は}い{込|こ}んだ。",
+      "japanese": "⟦{疲|つか}れて→疲れる：00901_tsukareru⟧⟦{帰|かえ}って→帰る：00508_kaeru⟧きて、⟦そのまま→そのまま：03322_sonomama⟧⟦{布団|ふとん}→布団：01720_futon⟧⟦に→に：00314_ni⟧{這|は}い{込|こ}んだ。",
       "english": "I came home exhausted and crawled straight into the futon.",
       "sense_numbers": [
         1
@@ -54,8 +54,31 @@
       "notes": null
     }
   ],
-  "notes": "A compound verb formed from {這|は}う (to crawl) and {込|こ}む (to go into). Describes entering somewhere by crawling or on all fours. The most common use is {布団|ふとん}に{這|は}い{込|こ}む, conveying the image of tiredly or eagerly getting into bed.\n\nCOMMON COLLOCATIONS:\n- {布団|ふとん}に{這|は}い{込|こ}む: to crawl into the futon\n- ベッドに{這|は}い{込|こ}む: to crawl into bed\n- {隙間|すきま}に{這|は}い{込|こ}む: to crawl into a gap\n\nSIMILAR WORDS:\n- {潜|もぐ}り{込|こ}む: to slip into, to sneak in — emphasizes hiding or getting under something\n- {忍|しの}び{込|こ}む: to sneak in — emphasizes stealth, often with intent to trespass\n- {入|はい}り{込|こ}む: to go into, to enter deeply — more general entering, not necessarily crawling\n\nTRANSITIVITY:\nIntransitive. Takes the particle に to mark the destination.",
+  "notes": "A compound verb formed from ⟦{這|は}う→這う：00094_hau⟧ (to crawl) and ⟦{込|こ}む→込む：00719_komu⟧ (to go into). Describes entering somewhere by crawling or on all fours. The most common use is ⟦{布団|ふとん}→布団：01720_futon⟧⟦に→に：00314_ni⟧{這|は}い{込|こ}む, conveying the image of tiredly or eagerly getting into bed.\n\nCOMMON COLLOCATIONS:\n- ⟦{布団|ふとん}→布団：01720_futon⟧⟦に→に：00314_ni⟧{這|は}い{込|こ}む: to crawl into the futon\n- ⟦ベッド→ベッド：04501_beddo⟧⟦に→に：00314_ni⟧{這|は}い{込|こ}む: to crawl into bed\n- ⟦{隙間|すきま}→隙間：00389_sukima⟧⟦に→に：00314_ni⟧{這|は}い{込|こ}む: to crawl into a gap\n\nSIMILAR WORDS:\n- ⟦{潜|もぐ}り{込|こ}む→潜り込む：15190_mogurikomu⟧: to slip into, to sneak in — emphasizes hiding or getting under something\n- ⟦{忍|しの}び{込|こ}む→忍び込む：12578_shinobikomu⟧: to sneak in — emphasizes stealth, often with intent to trespass\n- ⟦{入|はい}り{込|こ}む→入り込む：04629_hairikomu⟧: to go into, to enter deeply — more general entering, not necessarily crawling\n\nTRANSITIVITY:\nIntransitive. Takes the particle ⟦に→に：00314_ni⟧ to mark the destination.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15190_mogurikomu",
+      "reading": "もぐりこむ",
+      "headword": "{潜|もぐ}り{込|こ}む",
+      "label": "to slip into, to sneak in"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12578_shinobikomu",
+      "reading": "しのびこむ",
+      "headword": "{忍|しの}び{込|こ}む",
+      "label": "to sneak in"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04629_hairikomu",
+      "reading": "はいりこむ",
+      "headword": "{入|はい}り{込|こ}む",
+      "label": "to go into, to enter deeply"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -71,7 +94,7 @@
       "verb_class": "godan-mu"
     },
     "created": "2026-04-08T21:21:09Z",
-    "modified": "2026-04-10T06:37:10Z"
+    "modified": "2026-09-02T04:02:11Z"
   },
   "conjugation": {
     "type": "godan",

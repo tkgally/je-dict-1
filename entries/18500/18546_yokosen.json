@@ -15,40 +15,66 @@
   "examples": [
     {
       "id": "18546_yokosen_ex1",
-      "japanese": "{横線|よこせん}を{引|ひ}いてください。",
+      "japanese": "{横線|よこせん}⟦を→を：00422_wo⟧⟦{引|ひ}いて→引く：01978_hiku⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please draw a horizontal line.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "18546_yokosen_ex2",
-      "japanese": "{定規|じょうぎ}を{使|つか}って{横線|よこせん}を{引|ひ}いた。",
+      "japanese": "⟦{定規|じょうぎ}→定規：04280_jougi⟧⟦を→を：00422_wo⟧⟦{使|つか}って→使う：00473_tsukau⟧{横線|よこせん}⟦を→を：00422_wo⟧⟦{引|ひ}いた→引く：01978_hiku⟧。",
       "english": "I drew a horizontal line using a ruler.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "18546_yokosen_ex3",
-      "japanese": "ノートに{横線|よこせん}が{入|はい}っていると{書|か}きやすい。",
+      "japanese": "⟦ノート→ノート：00738_nooto⟧⟦に→に：00314_ni⟧{横線|よこせん}⟦が→が：00051_ga⟧⟦{入|はい}っている→入る：00494_hairu⟧⟦と→と：00512_to⟧⟦{書|か}き→書く：00477_kaku⟧やすい。",
       "english": "Notebooks with horizontal lines are easier to write in.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "COMPOUND: {横|よこ} (horizontal) + {線|せん} (line)\n\nCOMMON COLLOCATIONS:\n- {横線|よこせん}を{引|ひ}く: to draw a horizontal line\n- {横線|よこせん}が{入|はい}る: to have horizontal lines (e.g., lined paper)\n- {横線|よこせん}で{消|け}す: to cross out with a horizontal line (strikethrough)\n\nCONTRAST:\n- {縦線|たてせん}: vertical line\n- {斜線|しゃせん}: diagonal line\n\nRELATED:\nIn kanji stroke terminology, horizontal strokes are called {横画|おうかく}. In general use, {横線|よこせん} refers to any visible horizontal line — on paper, screens, forms, or physical surfaces.",
+  "notes": "COMPOUND: ⟦{横|よこ}→横：02984_yoko⟧ (horizontal) + ⟦{線|せん}→線：09901_sen⟧ (line)\n\nCOMMON COLLOCATIONS:\n- {横線|よこせん}⟦を→を：00422_wo⟧⟦{引|ひ}く→引く：01978_hiku⟧: to draw a horizontal line\n- {横線|よこせん}⟦が→が：00051_ga⟧⟦{入|はい}る→入る：00494_hairu⟧: to have horizontal lines (e.g., lined paper)\n- {横線|よこせん}⟦で→で：00502_de⟧⟦{消|け}す→消す：00528_kesu⟧: to cross out with a horizontal line (strikethrough)\n\nSIMILAR WORDS:\n- ⟦{縦線|たてせん}→縦線：25122_tatesen⟧: vertical line\n- ⟦{斜線|しゃせん}→斜線：08120_shasen⟧: diagonal line\n\nRELATED WORDS:\nIn kanji stroke terminology, horizontal strokes are called {横画|おうかく}. In general use, {横線|よこせん} refers to any visible horizontal line — on paper, screens, forms, or physical surfaces.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25122_tatesen",
+      "reading": "たてせん",
+      "headword": "{縦線|たてせん}",
+      "label": "vertical line"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08120_shasen",
+      "reading": "しゃせん",
+      "headword": "{斜線|しゃせん}",
+      "label": "diagonal line"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     },
     "created": "2026-03-22T04:47:55Z",
-    "modified": "2026-04-07T03:52:40Z"
+    "modified": "2026-09-02T04:01:52Z"
   }
 }

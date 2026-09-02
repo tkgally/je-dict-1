@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "20791_koshian_ex1",
-      "japanese": "こしあんの{羊羹|ようかん}を{買|か}った。",
+      "japanese": "こしあん⟦の→の：09472_no⟧⟦{羊羹|ようかん}→羊羹：05002_youkan⟧⟦を→を：00422_wo⟧⟦{買|か}った→買う：00489_kau⟧。",
       "english": "I bought yokan made with smooth bean paste.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "20791_koshian_ex2",
-      "japanese": "こしあんは{舌触|したざわ}りがなめらかだ。",
+      "japanese": "こしあん⟦は→は：00079_ha⟧⟦{舌触|したざわ}り→舌触り：07919_shitazawari⟧⟦が→が：00051_ga⟧なめらかだ。",
       "english": "Smooth bean paste has a silky texture.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "20791_koshian_ex3",
-      "japanese": "こしあんを{作|つく}るには、{小豆|あずき}を{煮|に}てから{裏漉|うらご}しする{必要|ひつよう}がある。",
+      "japanese": "こしあん⟦を→を：00422_wo⟧⟦{作|つく}る→作る：00481_tsukuru⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧、⟦{小豆|あずき}→小豆：10209_azuki⟧⟦を→を：00422_wo⟧⟦{煮|に}て→煮る：01971_niru⟧⟦から→から：00504_kara⟧⟦{裏漉|うらご}し→裏漉し：23464_uragoshi⟧⟦する→する：00392_suru⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "To make smooth bean paste, you need to boil azuki beans and then strain them.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "The name comes from {漉|こ}す (to strain) + あん (sweet bean paste). Made by pressing cooked {小豆|あずき} beans through a sieve to remove the skins, then sweetening the resulting smooth paste.\n\nCOMMON COLLOCATIONS:\n- こしあんの{羊羹|ようかん}: yokan with smooth bean paste\n- こしあんの{饅頭|まんじゅう}: manju with smooth bean paste\n- こしあんの{最中|もなか}: monaka with smooth bean paste\n- こしあんのたい{焼|や}き: taiyaki with smooth bean paste\n\nCONTRAST:\n- {粒|つぶ}あん: chunky bean paste — beans are only partially mashed, retaining texture\n- The こしあん vs {粒|つぶ}あん preference is a common conversation topic in Japan. Generally, こしあん is considered more refined and is preferred in many traditional {和菓子|わがし}\n\nALTERNATE WRITING:\nAlso written as {漉|こ}しあん or {漉|こ}し{餡|あん}.\n\nRELATED TERMS:\n- あんこ: sweet bean paste (general term)\n- {小豆|あずき}: azuki beans\n- {粒|つぶ}あん: chunky bean paste\n- {白|しろ}あん: white bean paste (made from white beans)",
+  "notes": "The name comes from ⟦{漉|こ}す→漉す：13512_kosu⟧ (to strain) + あん (sweet bean paste). Made by pressing cooked ⟦{小豆|あずき}→小豆：10209_azuki⟧ beans through a sieve to remove the skins, then sweetening the resulting smooth paste.\n\nCOMMON COLLOCATIONS:\n- こしあん⟦の→の：09472_no⟧⟦{羊羹|ようかん}→羊羹：05002_youkan⟧: yokan with smooth bean paste\n- こしあん⟦の→の：09472_no⟧⟦{饅頭|まんじゅう}→饅頭：05000_manjuu⟧: manju with smooth bean paste\n- こしあん⟦の→の：09472_no⟧⟦{最中|もなか}→最中：28020_monaka⟧: monaka with smooth bean paste\n- こしあん⟦の→の：09472_no⟧たい{焼|や}き: taiyaki with smooth bean paste\n\nSIMILAR WORDS:\n- ⟦{粒|つぶ}あん→粒あん：20790_tsubuan⟧: chunky bean paste — beans are only partially mashed, retaining texture\n- The こしあん vs ⟦{粒|つぶ}あん→粒あん：20790_tsubuan⟧ preference is a common conversation topic in Japan. Generally, こしあん is considered more refined and is preferred in many traditional ⟦{和菓子|わがし}→和菓子：04962_wagashi⟧\n\nALTERNATE WRITING:\nAlso written as ⟦{漉|こ}し→漉す：13512_kosu⟧あん or {漉|こ}し{餡|あん}.\n\nRELATED WORDS:\n- あんこ: sweet bean paste (general term)\n- ⟦{小豆|あずき}→小豆：10209_azuki⟧: azuki beans\n- ⟦{粒|つぶ}あん→粒あん：20790_tsubuan⟧: chunky bean paste\n- {白|しろ}あん: white bean paste (made from white beans)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20790_tsubuan",
+      "reading": "つぶあん",
+      "headword": "{粒|つぶ}あん",
+      "label": "chunky bean paste"
+    },
+    {
+      "type": "related",
+      "target_id": "08654_anko",
+      "reading": "あんこ",
+      "headword": "{餡子|あんこ}",
+      "label": "sweet bean paste"
+    },
+    {
+      "type": "related",
+      "target_id": "10209_azuki",
+      "reading": "あずき",
+      "headword": "{小豆|あずき}",
+      "label": "azuki beans"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +82,6 @@
       ]
     },
     "created": "2026-03-30T16:13:27Z",
-    "modified": "2026-07-24T15:18:20Z"
+    "modified": "2026-09-02T04:02:01Z"
   }
 }

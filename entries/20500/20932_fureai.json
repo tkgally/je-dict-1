@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "20932_fureai_ex1",
-      "japanese": "{動物|どうぶつ}とのふれあいを{楽|たの}しむ。",
+      "japanese": "⟦{動物|どうぶつ}→動物：01480_doubutsu⟧⟦と→と：00512_to⟧⟦の→の：09472_no⟧ふれあい⟦を→を：00422_wo⟧⟦{楽|たの}しむ→楽しむ：01203_tanoshimu⟧。",
       "english": "To enjoy interacting with animals.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "20932_fureai_ex2",
-      "japanese": "{地域|ちいき}の{人|ひと}たちとのふれあいが{大切|たいせつ}だ。",
+      "japanese": "⟦{地域|ちいき}→地域：01461_chiiki⟧⟦の→の：09472_no⟧⟦{人|ひと}→人：00476_hito⟧たち⟦と→と：00512_to⟧⟦の→の：09472_no⟧ふれあい⟦が→が：00051_ga⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧だ。",
       "english": "Interaction with people in the community is important.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "20932_fureai_ex3",
-      "japanese": "この{牧場|ぼくじょう}では、{子供|こども}たちが{羊|ひつじ}や{馬|うま}とふれあうことができる。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{牧場|ぼくじょう}→牧場：06103_bokujou⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧、⟦{子供|こども}→子供：00554_kodomo⟧たち⟦が→が：00051_ga⟧⟦{羊|ひつじ}→羊：04713_hitsuji⟧や⟦{馬|うま}→馬：01865_uma⟧⟦と→と：00512_to⟧ふれあうこと⟦が→が：00051_ga⟧⟦できる→できる：00557_dekiru⟧。",
       "english": "At this farm, children can interact with sheep and horses.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Derived from the verb {触|ふ}れ{合|あ}う (to touch each other, to come into contact). Written in hiragana when used as a noun referring to warm human interaction. Very common in compound names for community facilities, parks, and events.\n\nCOMMON COLLOCATIONS:\n- {人|ひと}とのふれあい: interaction with people\n- {動物|どうぶつ}とのふれあい: contact with animals\n- {自然|しぜん}とのふれあい: communing with nature\n- ふれあい{広場|ひろば}: interaction plaza (community gathering space)\n- ふれあい{動物園|どうぶつえん}: petting zoo\n\nUSAGE:\nOften appears in names of public facilities and events, giving a warm, community-oriented tone: ふれあいセンター (community center), ふれあい{祭|まつ}り (community festival).\n\nSIMILAR WORDS:\n- {交流|こうりゅう}: exchange, interaction — more formal, often for cultural or international exchange\n- {触|ふ}れ{合|あ}う: to touch each other, to interact — the verb form\n- コミュニケーション: communication — borrowed English word, broader in scope",
+  "notes": "Derived from the verb ⟦{触|ふ}れ{合|あ}う→触れ合う：10614_fureau⟧ (to touch each other, to come into contact). Written in hiragana when used as a noun referring to warm human interaction. Very common in compound names for community facilities, parks, and events.\n\nCOMMON COLLOCATIONS:\n- ⟦{人|ひと}→人：00476_hito⟧⟦と→と：00512_to⟧⟦の→の：09472_no⟧ふれあい: interaction with people\n- ⟦{動物|どうぶつ}→動物：01480_doubutsu⟧⟦と→と：00512_to⟧⟦の→の：09472_no⟧ふれあい: contact with animals\n- ⟦{自然|しぜん}→自然：01423_shizen⟧⟦と→と：00512_to⟧⟦の→の：09472_no⟧ふれあい: communing with nature\n- ふれあい⟦{広場|ひろば}→広場：00104_hiroba⟧: interaction plaza (community gathering space)\n- ふれあい⟦{動物園|どうぶつえん}→動物園：01686_doubutsuen⟧: petting zoo\n\nUSAGE:\nOften appears in names of public facilities and events, giving a warm, community-oriented tone: ふれあい⟦センター→センター：03854_sentaa⟧ (community center), ふれあい⟦{祭|まつ}り→祭り：03735_matsuri⟧ (community festival).\n\nSIMILAR WORDS:\n- ⟦{交流|こうりゅう}→交流：02732_kouryuu⟧: exchange, interaction — more formal, often for cultural or international exchange\n- ⟦{触|ふ}れ{合|あ}う→触れ合う：10614_fureau⟧: to touch each other, to interact — the verb form\n- ⟦コミュニケーション→コミュニケーション：08425_komyunikeeshon⟧: communication — borrowed English word, broader in scope",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02732_kouryuu",
+      "reading": "こうりゅう",
+      "headword": "{交流|こうりゅう}",
+      "label": "exchange, interaction"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10614_fureau",
+      "reading": "ふれあう",
+      "headword": "{触|ふ}れ{合|あ}う",
+      "label": "to touch each other, to interact"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08425_komyunikeeshon",
+      "reading": "こみゅにけーしょん",
+      "headword": "コミュニケーション",
+      "label": "communication"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +83,6 @@
       ]
     },
     "created": "2026-03-30T21:35:04Z",
-    "modified": "2026-07-29T00:22:41Z"
+    "modified": "2026-09-02T04:02:01Z"
   }
 }

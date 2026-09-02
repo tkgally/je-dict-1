@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "20576_ganzen_ex1",
-      "japanese": "{眼前|がんぜん}に{海|うみ}が{広|ひろ}がっている。",
+      "japanese": "{眼前|がんぜん}⟦に→に：00314_ni⟧⟦{海|うみ}→海：00556_umi⟧⟦が→が：00051_ga⟧⟦{広|ひろ}がっている→広がる：01980_hirogaru⟧。",
       "english": "The ocean stretches out before one's eyes.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "20576_ganzen_ex2",
-      "japanese": "{眼前|がんぜん}の{危機|きき}に{対処|たいしょ}しなければならない。",
+      "japanese": "{眼前|がんぜん}⟦の→の：09472_no⟧⟦{危機|きき}→危機：11798_kiki⟧⟦に→に：00314_ni⟧⟦{対処|たいしょ}→対処：05518_taisho⟧し⟦なければならない→なければならない：27600_nakerebanaranai⟧。",
       "english": "We must deal with the crisis right before us.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "20576_ganzen_ex3",
-      "japanese": "{眼前|がんぜん}に{広|ひろ}がる{雄大|ゆうだい}な{景色|けしき}に{息|いき}を{呑|の}んだ。",
+      "japanese": "{眼前|がんぜん}⟦に→に：00314_ni⟧⟦{広|ひろ}がる→広がる：01980_hirogaru⟧⟦{雄大|ゆうだい}→雄大：19608_yuudai⟧な⟦{景色|けしき}→景色：01395_keshiki⟧⟦に→に：00314_ni⟧⟦{息|いき}→息：02176_iki⟧⟦を→を：00422_wo⟧{呑|の}んだ。",
       "english": "I was breathless at the magnificent scenery spreading before my eyes.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "A literary and formal word composed of {眼|がん} (eye) and {前|ぜん} (before/front). Often used in descriptive writing and formal speech. Has both a literal sense (physically in front of one's eyes) and a figurative sense (the immediate situation one faces).\n\nCOMMON COLLOCATIONS:\n- {眼前|がんぜん}に{広|ひろ}がる: to spread out before one's eyes\n- {眼前|がんぜん}の{課題|かだい}: the challenge right before us\n- {眼前|がんぜん}に{迫|せま}る: to press close before one's eyes\n\nSIMILAR WORDS:\n- {目|め}の{前|まえ}: in front of one's eyes — the everyday equivalent\n- {面前|めんぜん}: in one's presence — emphasizes being in front of a person, often implying social context\n- {直前|ちょくぜん}: immediately before — temporal rather than spatial (just before something happens)",
+  "notes": "A literary and formal word composed of {眼|がん} (eye) and ⟦{前|ぜん}→前〜：03957_zen⟧ (before/front). Often used in descriptive writing and formal speech. Has both a literal sense (physically in front of one's eyes) and a figurative sense (the immediate situation one faces).\n\nCOMMON COLLOCATIONS:\n- {眼前|がんぜん}⟦に→に：00314_ni⟧⟦{広|ひろ}がる→広がる：01980_hirogaru⟧: to spread out before one's eyes\n- {眼前|がんぜん}⟦の→の：09472_no⟧⟦{課題|かだい}→課題：00132_kadai⟧: the challenge right before us\n- {眼前|がんぜん}⟦に→に：00314_ni⟧⟦{迫|せま}る→迫る：03928_semaru⟧: to press close before one's eyes\n\nSIMILAR WORDS:\n- ⟦{目|め}の{前|まえ}→目の前：22588_menomae⟧: in front of one's eyes — the everyday equivalent\n- {面前|めんぜん}: in one's presence — emphasizes being in front of a person, often implying social context\n- ⟦{直前|ちょくぜん}→直前：13651_chokuzen⟧: immediately before — temporal rather than spatial (just before something happens)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22588_menomae",
+      "reading": "めのまえ",
+      "headword": "{目|め}の{前|まえ}",
+      "label": "in front of one's eyes"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13651_chokuzen",
+      "reading": "ちょくぜん",
+      "headword": "{直前|ちょくぜん}",
+      "label": "immediately before"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +75,6 @@
       ]
     },
     "created": "2026-03-29T18:14:17Z",
-    "modified": "2026-07-28T09:35:50Z"
+    "modified": "2026-09-02T04:02:00Z"
   }
 }

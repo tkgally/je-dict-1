@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "13274_youshoku_ex1",
-      "japanese": "{今日|きょう}は{洋食|ようしょく}が{食|た}べたい。",
+      "japanese": "⟦{今日|きょう}→今日：00496_kyou⟧⟦は→は：00079_ha⟧{洋食|ようしょく}⟦が→が：00051_ga⟧⟦{食|た}べたい→食べる：00396_taberu⟧。",
       "english": "I want to eat Western food today.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "13274_youshoku_ex2",
-      "japanese": "この{店|みせ}は{老舗|しにせ}の{洋食|ようしょく}{屋|や}で、ハンバーグが{人気|にんき}だ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{店|みせ}→店：00497_mise⟧⟦は→は：00079_ha⟧⟦{老舗|しにせ}→老舗：16152_shinise⟧⟦の→の：09472_no⟧{洋食|ようしょく}{屋|や}⟦で→で：00502_de⟧、⟦ハンバーグ→ハンバーグ：01785_hanbaagu⟧⟦が→が：00051_ga⟧⟦{人気|にんき}→人気：01488_ninki⟧だ。",
       "english": "This is a long-established Western-style restaurant, and their hamburger steak is popular.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "13274_youshoku_ex3",
-      "japanese": "{明治|めいじ}{時代|じだい}に{日本|にほん}に{伝|つた}わった{洋食|ようしょく}は、{和食|わしょく}の{技法|ぎほう}と{融合|ゆうごう}して{独自|どくじ}の{進化|しんか}を{遂|と}げた。",
+      "japanese": "⟦{明治|めいじ}{時代|じだい}→明治時代：28080_meijijidai⟧⟦に→に：00314_ni⟧⟦{日本|にほん}→日本：03876_nihon⟧⟦に→に：00314_ni⟧⟦{伝|つた}わった→伝わる：01961_tsutawaru⟧{洋食|ようしょく}⟦は→は：00079_ha⟧、⟦{和食|わしょく}→和食：10436_washoku⟧⟦の→の：09472_no⟧⟦{技法|ぎほう}→技法：12800_gihou⟧⟦と→と：00512_to⟧⟦{融合|ゆうごう}→融合：14036_yuugou⟧⟦して→する：00392_suru⟧⟦{独自|どくじ}→独自：05614_dokuji⟧⟦の→の：09472_no⟧⟦{進化|しんか}→進化：06029_shinka⟧⟦を→を：00422_wo⟧⟦{遂|と}げた→遂げる：14323_togeru⟧。",
       "english": "Western cuisine introduced to Japan in the Meiji era merged with Japanese cooking techniques and evolved in its own unique way.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{洋食|ようしょく} refers specifically to the Japanese adaptation of Western dishes, not to Western cuisine as served in its countries of origin. It forms a pair with {和食|わしょく} (Japanese food). Typical {洋食|ようしょく} dishes include ハンバーグ (hamburger steak), オムライス (omurice), カレーライス (curry rice), コロッケ (croquettes), and ナポリタン (Napolitan spaghetti). A {洋食|ようしょく}{屋|や} is a restaurant specializing in these dishes.\n\nCOMMON COLLOCATIONS:\n- {洋食|ようしょく}{屋|や}: Western-style restaurant\n- {洋食|ようしょく}メニュー: Western-style menu\n- {和食|わしょく}と{洋食|ようしょく}: Japanese and Western food\n- {洋食|ようしょく}レストラン: Western-style restaurant",
+  "notes": "USAGE:\n{洋食|ようしょく} refers specifically to the Japanese adaptation of Western dishes, not to Western cuisine as served in its countries of origin. It forms a pair with ⟦{和食|わしょく}→和食：10436_washoku⟧ (Japanese food). Typical {洋食|ようしょく} dishes include ⟦ハンバーグ→ハンバーグ：01785_hanbaagu⟧ (hamburger steak), オムライス (omurice), ⟦カレー→カレー：02898_karee⟧⟦ライス→ライス：08838_raisu⟧ (curry rice), ⟦コロッケ→コロッケ：10857_korokke⟧ (croquettes), and ⟦ナポリタン→ナポリタン：30400_naporitan⟧ (Napolitan spaghetti). A {洋食|ようしょく}{屋|や} is a restaurant specializing in these dishes.\n\nCOMMON COLLOCATIONS:\n- {洋食|ようしょく}{屋|や}: Western-style restaurant\n- {洋食|ようしょく}⟦メニュー→メニュー：11166_menyuu⟧: Western-style menu\n- ⟦{和食|わしょく}→和食：10436_washoku⟧⟦と→と：00512_to⟧{洋食|ようしょく}: Japanese and Western food\n- {洋食|ようしょく}⟦レストラン→レストラン：01048_resutoran⟧: Western-style restaurant",
   "cross_references": [
     {
       "type": "antonym",
@@ -52,11 +52,39 @@
       "reading": "わしょく",
       "headword": "{和食|わしょく}",
       "label": "Japanese food"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12955_nihonshoku",
+      "reading": "にほんしょく",
+      "headword": "{日本食|にほんしょく}",
+      "label": "Japanese food, Japanese cuisine"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19425_nihonryouri",
+      "reading": "にほんりょうり",
+      "headword": "{日本料理|にほんりょうり}",
+      "label": "Japanese cuisine"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24510_furansuryouri",
+      "reading": "ふらんすりょうり",
+      "headword": "フランス{料理|りょうり}",
+      "label": "French cuisine"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25590_kankokuryouri",
+      "reading": "かんこくりょうり",
+      "headword": "{韓国料理|かんこくりょうり}",
+      "label": "Korean cuisine"
     }
   ],
   "metadata": {
     "created": "2026-02-24T07:33:05Z",
-    "modified": "2026-04-24T06:24:12Z",
+    "modified": "2026-09-02T04:01:32Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

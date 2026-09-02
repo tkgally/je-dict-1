@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "09246_kakutougi_ex1",
-      "japanese": "{格闘技|かくとうぎ}を{習|なら}う。",
+      "japanese": "{格闘技|かくとうぎ}⟦を→を：00422_wo⟧⟦{習|なら}う→習う：00479_narau⟧。",
       "english": "To learn martial arts.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "09246_kakutougi_ex2",
-      "japanese": "{格闘技|かくとうぎ}の{試合|しあい}を{観|み}る。",
+      "japanese": "{格闘技|かくとうぎ}⟦の→の：09472_no⟧⟦{試合|しあい}→試合：01601_shiai⟧⟦を→を：00422_wo⟧⟦{観|み}る→観る：22793_miru⟧。",
       "english": "To watch a martial arts match.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "09246_kakutougi_ex3",
-      "japanese": "{彼|かれ}は{様々|さまざま}な{格闘技|かくとうぎ}の{経験|けいけん}がある。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{様々|さまざま}→様々：01559_samazama⟧な{格闘技|かくとうぎ}⟦の→の：09472_no⟧⟦{経験|けいけん}→経験：01179_keiken⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "He has experience in various martial arts.",
       "notes": null,
       "has_audio": false,
@@ -43,11 +43,40 @@
       ]
     }
   ],
-  "notes": "{格闘技|かくとうぎ} is a general term for all combat sports and martial arts.\n\nWORD FORMATION:\n- {格闘|かくとう} (fighting, grappling) + {技|ぎ} (technique, art)\n\nTYPES OF {格闘技|かくとうぎ}:\n- {柔道|じゅうどう}: judo\n- {空手|からて}: karate\n- {剣道|けんどう}: kendo\n- {相撲|すもう}: sumo wrestling\n- {総合格闘技|そうごうかくとうぎ}: mixed martial arts (MMA)\n- ボクシング: boxing\n- キックボクシング: kickboxing\n\nRELATED WORDS:\n- {武道|ぶどう}: martial arts (traditional Japanese)\n- {武術|ぶじゅつ}: martial arts (techniques)\n\nCOMMON COLLOCATIONS:\n- {格闘技|かくとうぎ}の{選手|せんしゅ}: martial arts athlete\n- {格闘技|かくとうぎ}の{大会|たいかい}: martial arts tournament",
-  "cross_references": [],
+  "notes": "{格闘技|かくとうぎ} is a general term for all combat sports and martial arts.\n\nFORMS:\n- ⟦{格闘|かくとう}→格闘：13111_kakutou⟧ (fighting, grappling) + {技|ぎ} (technique, art)\n\nTYPES OF {格闘技|かくとうぎ}:\n- ⟦{柔道|じゅうどう}→柔道：01612_juudou⟧: judo\n- ⟦{空手|からて}→空手：04454_karate⟧: karate\n- ⟦{剣道|けんどう}→剣道：04452_kendou⟧: kendo\n- ⟦{相撲|すもう}→相撲：00390_sumou⟧: sumo wrestling\n- {総合格闘技|そうごうかくとうぎ}: mixed martial arts (MMA)\n- ⟦ボクシング→ボクシング：05235_bokushingu⟧: boxing\n- キックボクシング: kickboxing\n\nRELATED WORDS:\n- ⟦{武道|ぶどう}→武道：09640_budou⟧: martial arts (traditional Japanese)\n- ⟦{武術|ぶじゅつ}→武術：13244_bujutsu⟧: martial arts (techniques)\n\nCOMMON COLLOCATIONS:\n- {格闘技|かくとうぎ}⟦の→の：09472_no⟧⟦{選手|せんしゅ}→選手：03823_senshu⟧: martial arts athlete\n- {格闘技|かくとうぎ}⟦の→の：09472_no⟧⟦{大会|たいかい}→大会：03386_taikai⟧: martial arts tournament",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "09640_budou",
+      "reading": "ぶどう",
+      "headword": "{武道|ぶどう}",
+      "label": "martial arts"
+    },
+    {
+      "type": "related",
+      "target_id": "13244_bujutsu",
+      "reading": "ぶじゅつ",
+      "headword": "{武術|ぶじゅつ}",
+      "label": "martial arts"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20883_kentou",
+      "reading": "けんとう",
+      "headword": "{拳闘|けんとう}",
+      "label": "boxing, pugilism"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28766_puroresu",
+      "reading": "ぷろれす",
+      "headword": "プロレス",
+      "label": "professional wrestling"
+    }
+  ],
   "metadata": {
     "created": "2026-02-01T04:57:35Z",
-    "modified": "2026-02-01T04:57:35Z",
+    "modified": "2026-09-02T04:01:17Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

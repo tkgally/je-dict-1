@@ -15,42 +15,62 @@
   "examples": [
     {
       "id": "11418_jimu_ex1",
-      "japanese": "{事務|じむ}の{仕事|しごと}を{担当|たんとう}している。",
+      "japanese": "{事務|じむ}⟦の→の：09472_no⟧⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦を→を：00422_wo⟧⟦{担当|たんとう}→担当：02567_tantou⟧⟦している→する：00392_suru⟧。",
       "english": "I'm in charge of office work.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11418_jimu_ex2",
-      "japanese": "{事務所|じむしょ}で{書類|しょるい}を{整理|せいり}した。",
+      "japanese": "⟦{事務所|じむしょ}→事務所：01032_jimusho⟧⟦で→で：00502_de⟧⟦{書類|しょるい}→書類：01103_shorui⟧⟦を→を：00422_wo⟧⟦{整理|せいり}した→整理する：21729_seirisuru⟧。",
       "english": "I organized documents at the office.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11418_jimu_ex3",
-      "japanese": "{会計|かいけい}や{電話対応|でんわたいおう}など、{毎日|まいにち}さまざまな{事務|じむ}{作業|さぎょう}をこなしている。",
+      "japanese": "⟦{会計|かいけい}→会計：02536_kaikei⟧や{電話対応|でんわたいおう}⟦など→〜など：03095_nado⟧、⟦{毎日|まいにち}→毎日：00729_mainichi⟧さまざまな{事務|じむ}⟦{作業|さぎょう}→作業：02775_sagyou⟧⟦を→を：00422_wo⟧⟦こなしている→こなす：09897_konasu⟧。",
       "english": "Every day I handle various administrative tasks such as accounting and answering phone calls.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{事務|じむ} refers to routine administrative and clerical work — paperwork, scheduling, correspondence, data management, and similar office tasks. It emphasizes the procedural, behind-the-scenes side of work rather than creative or decision-making roles.\n\nCOMMON COMPOUNDS:\n- {事務所|じむしょ}: office (workplace)\n- {事務員|じむいん}: office worker, clerk\n- {事務局|じむきょく}: secretariat, administrative office\n- {事務|じむ}{作業|さぎょう}: clerical work\n- {事務|じむ}{用品|ようひん}: office supplies\n- {事務|じむ}{手続|てつづ}き: administrative procedures\n\nCOMMON PATTERNS:\n- {事務|じむ}を{取|と}る: to handle administrative work\n- {事務|じむ}{的|てき}な: administrative, clerical (adjective)\n\nCONTRAST:\n{事務|じむ} focuses on routine office tasks. {業務|ぎょうむ} is broader and covers all professional duties, including non-clerical work.",
-  "cross_references": [],
+  "notes": "{事務|じむ} refers to routine administrative and clerical work — paperwork, scheduling, correspondence, data management, and similar office tasks. It emphasizes the procedural, behind-the-scenes side of work rather than creative or decision-making roles.\n\nCOMPOUNDS:\n- ⟦{事務所|じむしょ}→事務所：01032_jimusho⟧: office (workplace)\n- ⟦{事務員|じむいん}→事務員：25266_jimuin⟧: office worker, clerk\n- ⟦{事務局|じむきょく}→事務局：17056_jimukyoku⟧: secretariat, administrative office\n- {事務|じむ}⟦{作業|さぎょう}→作業：02775_sagyou⟧: clerical work\n- {事務|じむ}{用品|ようひん}: office supplies\n- {事務|じむ}{手続|てつづ}き: administrative procedures\n\nCOMMON PATTERNS:\n- {事務|じむ}⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧: to handle administrative work\n- {事務|じむ}{的|てき}な: administrative, clerical (adjective)\n\nSIMILAR WORDS:\n{事務|じむ} focuses on routine office tasks. ⟦{業務|ぎょうむ}→業務：09630_gyoumu⟧ is broader and covers all professional duties, including non-clerical work.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20657_shomu",
+      "reading": "しょむ",
+      "headword": "{庶務|しょむ}",
+      "label": "general affairs"
+    }
+  ],
   "metadata": {
     "created": "2026-02-16T07:35:11Z",
-    "modified": "2026-03-29T07:57:19Z",
+    "modified": "2026-09-02T04:01:25Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "domain": ["business"],
-      "semantic": ["work"]
+      "domain": [
+        "business"
+      ],
+      "semantic": [
+        "work"
+      ]
     }
   }
 }

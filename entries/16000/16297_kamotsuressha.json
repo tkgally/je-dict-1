@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "16297_kamotsuressha_ex1",
-      "japanese": "{貨物列車|かもつれっしゃ}が{通過|つうか}した。",
+      "japanese": "{貨物列車|かもつれっしゃ}⟦が→が：00051_ga⟧⟦{通過|つうか}した→通過する：22435_tsuukasuru⟧。",
       "english": "A freight train passed through.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16297_kamotsuressha_ex2",
-      "japanese": "{長|なが}い{貨物列車|かもつれっしゃ}が{踏切|ふみきり}を{塞|ふさ}いでいた。",
+      "japanese": "⟦{長|なが}い→長い：00491_nagai⟧{貨物列車|かもつれっしゃ}⟦が→が：00051_ga⟧⟦{踏切|ふみきり}→踏切：06493_fumikiri⟧⟦を→を：00422_wo⟧⟦{塞|ふさ}いでいた→塞ぐ：00046_fusagu⟧。",
       "english": "A long freight train was blocking the railroad crossing.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16297_kamotsuressha_ex3",
-      "japanese": "{深夜|しんや}になると{貨物列車|かもつれっしゃ}が{工場|こうじょう}から{港|みなと}へ{荷物|にもつ}を{運|はこ}ぶ。",
+      "japanese": "⟦{深夜|しんや}→深夜：00368_shinya⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦と→と：00512_to⟧{貨物列車|かもつれっしゃ}⟦が→が：00051_ga⟧⟦{工場|こうじょう}→工場：01082_koujou⟧⟦から→から：00504_kara⟧⟦{港|みなと}→港：01512_minato⟧⟦へ→へ：02473_he⟧⟦{荷物|にもつ}→荷物：00737_nimotsu⟧⟦を→を：00422_wo⟧⟦{運|はこ}ぶ→運ぶ：01088_hakobu⟧。",
       "english": "Late at night, freight trains carry goods from factories to the port.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\n{貨物列車|かもつれっしゃ} is a straightforward compound noun. In everyday speech, it is sometimes shortened to {貨物|かもつ} when the context makes it clear that a train is being discussed.\n\nCOMMON COLLOCATIONS:\n- {貨物列車|かもつれっしゃ}が{走|はし}る (a freight train runs)\n- {貨物列車|かもつれっしゃ}の{通過|つうか} (passage of a freight train)\n- {貨物列車|かもつれっしゃ}のダイヤ (freight train schedule)\n\nSIMILAR WORDS:\n{旅客列車|りょかくれっしゃ} is the counterpart, meaning passenger train. {貨車|かしゃ} refers to an individual freight car/wagon rather than the whole train.",
+  "notes": "USAGE:\n{貨物列車|かもつれっしゃ} is a straightforward compound noun. In everyday speech, it is sometimes shortened to ⟦{貨物|かもつ}→貨物：00165_kamotsu⟧ when the context makes it clear that a train is being discussed.\n\nCOMMON COLLOCATIONS:\n- {貨物列車|かもつれっしゃ}⟦が→が：00051_ga⟧⟦{走|はし}る→走る：00519_hashiru⟧ (a freight train runs)\n- {貨物列車|かもつれっしゃ}⟦の→の：09472_no⟧⟦{通過|つうか}→通過：03506_tsuuka⟧ (passage of a freight train)\n- {貨物列車|かもつれっしゃ}⟦の→の：09472_no⟧⟦ダイヤ→ダイヤ：00032_daiya⟧ (freight train schedule)\n\nSIMILAR WORDS:\n⟦{旅客列車|りょかくれっしゃ}→旅客列車：23582_ryokakuressha⟧ is the counterpart, meaning passenger train. {貨車|かしゃ} refers to an individual freight car/wagon rather than the whole train.",
   "cross_references": [
     {
       "type": "antonym",
@@ -46,18 +52,29 @@
       "reading": "りょかくれっしゃ",
       "headword": "{旅客列車|りょかくれっしゃ}",
       "label": "passenger train"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24767_kamotsusha",
+      "reading": "かもつしゃ",
+      "headword": "{貨物車|かもつしゃ}",
+      "label": "freight car"
     }
   ],
   "metadata": {
     "created": "2026-03-11T14:05:18Z",
-    "modified": "2026-05-03T08:15:02Z",
+    "modified": "2026-09-02T04:01:44Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["transportation"]
+      "semantic": [
+        "transportation"
+      ]
     }
   }
 }

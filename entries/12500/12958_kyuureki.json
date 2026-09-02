@@ -15,41 +15,66 @@
   "examples": [
     {
       "id": "12958_kyuureki_ex1",
-      "japanese": "{旧暦|きゅうれき}の{正月|しょうがつ}は2{月|がつ}ごろだ。",
+      "japanese": "{旧暦|きゅうれき}⟦の→の：09472_no⟧⟦{正月|しょうがつ}→正月：01433_shougatsu⟧⟦は→は：00079_ha⟧2⟦{月|がつ}→月：30418_gatsu⟧ごろだ。",
       "english": "New Year on the lunar calendar falls around February.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12958_kyuureki_ex2",
-      "japanese": "{七夕|たなばた}は{旧暦|きゅうれき}では8{月|がつ}に{当|あ}たる。",
+      "japanese": "⟦{七夕|たなばた}→七夕：05633_tanabata⟧⟦は→は：00079_ha⟧{旧暦|きゅうれき}⟦で→で：00502_de⟧⟦は→は：00079_ha⟧8⟦{月|がつ}→月：30418_gatsu⟧⟦に→に：00314_ni⟧⟦{当|あ}たる→当たる：01860_ataru⟧。",
       "english": "Tanabata falls in August on the lunar calendar.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12958_kyuureki_ex3",
-      "japanese": "{沖縄|おきなわ}では{今|いま}でも{旧暦|きゅうれき}に{基|もと}づいて{行事|ぎょうじ}を{行|おこな}う{地域|ちいき}が{多|おお}い。",
+      "japanese": "⟦{沖縄|おきなわ}→沖縄：11009_okinawa⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{今|いま}→今：00945_ima⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧{旧暦|きゅうれき}⟦に→に：00314_ni⟧⟦{基|もと}づいて→基づく：02315_motozuku⟧⟦{行事|ぎょうじ}→行事：00078_gyouji⟧⟦を→を：00422_wo⟧⟦{行|おこな}う→行う：01238_okonau⟧⟦{地域|ちいき}→地域：01461_chiiki⟧⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "In Okinawa, many areas still hold events based on the lunar calendar.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nJapan adopted the Gregorian calendar ({新暦|しんれき}) in 1873 (Meiji 6). The old lunisolar calendar is still called {旧暦|きゅうれき} and remains relevant for traditional festivals, especially in Okinawa and rural areas. Some seasonal events ({お{盆|ぼん}}, {七夕|たなばた}) are celebrated on either the old or new calendar depending on the region.\n\nCOMMON COLLOCATIONS:\n- {旧暦|きゅうれき}の{正月|しょうがつ}: New Year by the lunar calendar\n- {旧暦|きゅうれき}に{基|もと}づく: based on the lunar calendar\n- {旧暦|きゅうれき}で{言|い}うと: in terms of the lunar calendar\n\nSIMILAR WORDS:\n- {新暦|しんれき}: new calendar (Gregorian calendar)\n- {太陰暦|たいいんれき}: lunar calendar (technical term)\n- {暦|こよみ}: calendar (general)",
-  "cross_references": [],
+  "notes": "USAGE:\nJapan adopted the Gregorian calendar ({新暦|しんれき}) in 1873 (Meiji 6). The old lunisolar calendar is still called {旧暦|きゅうれき} and remains relevant for traditional festivals, especially in Okinawa and rural areas. Some seasonal events (⟦お{盆|ぼん}→お盆：05587_obon⟧, ⟦{七夕|たなばた}→七夕：05633_tanabata⟧) are celebrated on either the old or new calendar depending on the region.\n\nCOMMON COLLOCATIONS:\n- {旧暦|きゅうれき}⟦の→の：09472_no⟧⟦{正月|しょうがつ}→正月：01433_shougatsu⟧: New Year by the lunar calendar\n- {旧暦|きゅうれき}⟦に→に：00314_ni⟧⟦{基|もと}づく→基づく：02315_motozuku⟧: based on the lunar calendar\n- {旧暦|きゅうれき}⟦で→で：00502_de⟧⟦{言|い}う→言う：00515_iu⟧⟦と→と：00512_to⟧: in terms of the lunar calendar\n\nSIMILAR WORDS:\n- {新暦|しんれき}: new calendar (Gregorian calendar)\n- {太陰暦|たいいんれき}: lunar calendar (technical term)\n- ⟦{暦|こよみ}→暦：19338_koyomi⟧: calendar (general)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25146_nijuushisekki",
+      "reading": "にじゅうしせっき",
+      "headword": "{二十四節気|にじゅうしせっき}",
+      "label": "the 24 solar terms"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27041_inreki",
+      "reading": "いんれき",
+      "headword": "{陰暦|いんれき}",
+      "label": "lunar calendar"
+    }
+  ],
   "metadata": {
     "created": "2026-02-22T23:39:26Z",
-    "modified": "2026-02-22T23:39:26Z",
+    "modified": "2026-09-02T04:01:31Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["time-general"]
+      "semantic": [
+        "time-general"
+      ]
     }
   }
 }

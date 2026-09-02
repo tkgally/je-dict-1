@@ -14,30 +14,36 @@
   "examples": [
     {
       "id": "10260_seisouchuu_ex1",
-      "japanese": "トイレは{清掃中|せいそうちゅう}です。",
+      "japanese": "⟦トイレ→トイレ：00818_toire⟧⟦は→は：00079_ha⟧{清掃中|せいそうちゅう}です。",
       "english": "The restroom is being cleaned.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10260_seisouchuu_ex2",
-      "japanese": "「{清掃中|せいそうちゅう}」の{看板|かんばん}が{出|で}ていた。",
+      "japanese": "「{清掃中|せいそうちゅう}」⟦の→の：09472_no⟧⟦{看板|かんばん}→看板：00166_kanban⟧⟦が→が：00051_ga⟧⟦{出|で}ていた→出る：00513_deru⟧。",
       "english": "There was a \"cleaning in progress\" sign out.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10260_seisouchuu_ex3",
-      "japanese": "{客室|きゃくしつ}{清掃中|せいそうちゅう}のため、お{待|ま}ちください。",
+      "japanese": "⟦{客室|きゃくしつ}→客室：21608_kyakushitsu⟧{清掃中|せいそうちゅう}⟦の→の：09472_no⟧⟦ため→ため：01145_tame⟧、お⟦{待|ま}ち→待つ：00469_matsu⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please wait while the room is being cleaned.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{清掃中|せいそうちゅう} is a compound of {清掃|せいそう} (cleaning) + {中|ちゅう} (in progress). It is primarily seen on signs rather than used in conversation.\n\nWHERE YOU'LL SEE IT:\n- トイレ: restroom signs\n- ホテルの{客室|きゃくしつ}: hotel room door cards\n- {公共|こうきょう}{施設|しせつ}: public buildings, stations\n\nTHE 〜{中|ちゅう} PATTERN:\nThe suffix {中|ちゅう} attaches to nouns to mean \"in the middle of ~\":\n- {工事中|こうじちゅう}: under construction\n- {点検中|てんけんちゅう}: under inspection\n- {準備中|じゅんびちゅう}: in preparation\n- {使用中|しようちゅう}: in use\n- {営業中|えいぎょうちゅう}: open for business\n\nRELATED:\n- {清掃|せいそう}: cleaning (the action itself)\n- {掃除|そうじ}: cleaning (more everyday term)\n- {清掃|せいそう} is more formal than {掃除|そうじ} and used for professional or institutional cleaning.",
+  "notes": "{清掃中|せいそうちゅう} is a compound of ⟦{清掃|せいそう}→清掃：04332_seisou⟧ (cleaning) + ⟦{中|ちゅう}→〜中：09840_chuu⟧ (in progress). It is primarily seen on signs rather than used in conversation.\n\nWHERE YOU'LL SEE IT:\n- ⟦トイレ→トイレ：00818_toire⟧: restroom signs\n- ⟦ホテル→ホテル：01027_hoteru⟧⟦の→の：09472_no⟧⟦{客室|きゃくしつ}→客室：21608_kyakushitsu⟧: hotel room door cards\n- ⟦{公共|こうきょう}{施設|しせつ}→公共施設：17944_koukyoushisetsu⟧: public buildings, stations\n\nTHE 〜{中|ちゅう} PATTERN:\nThe suffix ⟦{中|ちゅう}→〜中：09840_chuu⟧ attaches to nouns to mean \"in the middle of ~\":\n- ⟦{工事中|こうじちゅう}→工事中：09625_koujichuu⟧: under construction\n- ⟦{点検中|てんけんちゅう}→点検中：10259_tenkenchuu⟧: under inspection\n- ⟦{準備中|じゅんびちゅう}→準備中：09540_junbichuu⟧: in preparation\n- ⟦{使用中|しようちゅう}→使用中：09554_shiyouchuu⟧: in use\n- ⟦{営業中|えいぎょうちゅう}→営業中：09539_eigyouchuu⟧: open for business\n\nRELATED WORDS:\n- ⟦{清掃|せいそう}→清掃：04332_seisou⟧: cleaning (the action itself)\n- ⟦{掃除|そうじ}→掃除：02889_souji⟧: cleaning (more everyday term)\n- ⟦{清掃|せいそう}→清掃：04332_seisou⟧ is more formal than ⟦{掃除|そうじ}→掃除：02889_souji⟧ and used for professional or institutional cleaning.",
   "cross_references": [
     {
       "type": "related",
@@ -45,17 +51,42 @@
       "reading": "てんけんちゅう",
       "headword": "{点検中|てんけんちゅう}",
       "label": "under inspection (～中 sign)"
+    },
+    {
+      "type": "related",
+      "target_id": "02889_souji",
+      "reading": "そうじ",
+      "headword": "{掃除|そうじ}",
+      "label": "cleaning"
+    },
+    {
+      "type": "related",
+      "target_id": "09554_shiyouchuu",
+      "reading": "しようちゅう",
+      "headword": "{使用中|しようちゅう}",
+      "label": "in use, occupied"
+    },
+    {
+      "type": "related",
+      "target_id": "09625_koujichuu",
+      "reading": "こうじちゅう",
+      "headword": "{工事中|こうじちゅう}",
+      "label": "under construction, construction in progress"
     }
   ],
   "metadata": {
     "created": "2026-02-05T15:04:48Z",
-    "modified": "2026-07-10T21:18:41Z",
+    "modified": "2026-09-02T04:01:20Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

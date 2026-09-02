@@ -3,7 +3,7 @@
   "id": "14578_rinsetsu",
   "headword": "{隣接|りんせつ}",
   "reading": "りんせつ",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "adjacent; adjoining; neighboring",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "14578_rinsetsu_ex1",
-      "japanese": "{公園|こうえん}に{隣接|りんせつ}した{土地|とち}。",
+      "japanese": "⟦{公園|こうえん}→公園：00581_kouen⟧⟦に→に：00314_ni⟧{隣接|りんせつ}⟦した→する：00392_suru⟧⟦{土地|とち}→土地：02226_tochi⟧。",
       "english": "Land adjacent to the park.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "14578_rinsetsu_ex2",
-      "japanese": "ホテルは{駅|えき}に{隣接|りんせつ}しているので{便利|べんり}だ。",
+      "japanese": "⟦ホテル→ホテル：01027_hoteru⟧⟦は→は：00079_ha⟧⟦{駅|えき}→駅：02180_eki⟧⟦に→に：00314_ni⟧{隣接|りんせつ}⟦している→する：00392_suru⟧⟦の→の：09472_no⟧で⟦{便利|べんり}→便利：00830_benri⟧だ。",
       "english": "The hotel is right next to the station, so it's convenient.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "14578_rinsetsu_ex3",
-      "japanese": "{隣接|りんせつ}する{二|ふた}つの{県|けん}が{共同|きょうどう}で{防災|ぼうさい}{訓練|くんれん}を{実施|じっし}した。",
+      "japanese": "{隣接|りんせつ}⟦する→する：00392_suru⟧⟦{二|ふた}つ→二つ：02953_futatsu⟧⟦の→の：09472_no⟧⟦{県|けん}→県：02151_ken⟧⟦が→が：00051_ga⟧⟦{共同|きょうどう}→共同：02591_kyoudou⟧⟦で→で：00502_de⟧⟦{防災|ぼうさい}→防災：07907_bousai⟧⟦{訓練|くんれん}→訓練：02673_kunren⟧⟦を→を：00422_wo⟧⟦{実施|じっし}した→実施する：19634_jisshisuru⟧。",
       "english": "Two neighboring prefectures jointly conducted disaster preparedness drills.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{隣接|りんせつ} is a formal, written-style word meaning physically adjacent or sharing a border. It is commonly used in real estate, geography, and urban planning.\n\nPARTICLE PATTERNS:\n- AはBに{隣接|りんせつ}している (A is adjacent to B)\n- Bに{隣接|りんせつ}したA (A which is adjacent to B)\n- {隣接|りんせつ}するA (adjoining A)\n\nCOMMON COLLOCATIONS:\n- {隣接|りんせつ}する{地域|ちいき} (adjacent area)\n- {隣接|りんせつ}する{国|くに} (neighboring country)\n- ～に{隣接|りんせつ}している (to be adjacent to ~)\n\nSIMILAR WORDS:\n- {隣接|りんせつ}: adjacent, adjoining (formal; sharing a border)\n- {隣|となり}: next door, neighboring (everyday, casual)\n- {近隣|きんりん}: neighborhood, vicinity (nearby area in general)",
+  "notes": "USAGE:\n{隣接|りんせつ} is a formal, written-style word meaning physically adjacent or sharing a border. It is commonly used in real estate, geography, and urban planning.\n\nCOMMON PATTERNS:\n- A⟦は→は：00079_ha⟧B⟦に→に：00314_ni⟧{隣接|りんせつ}⟦している→する：00392_suru⟧ (A is adjacent to B)\n- B⟦に→に：00314_ni⟧{隣接|りんせつ}⟦した→する：00392_suru⟧A (A which is adjacent to B)\n- {隣接|りんせつ}⟦する→する：00392_suru⟧A (adjoining A)\n\nCOMMON COLLOCATIONS:\n- {隣接|りんせつ}⟦する→する：00392_suru⟧⟦{地域|ちいき}→地域：01461_chiiki⟧ (adjacent area)\n- {隣接|りんせつ}⟦する→する：00392_suru⟧⟦{国|くに}→国：02204_kuni⟧ (neighboring country)\n- ～⟦に→に：00314_ni⟧{隣接|りんせつ}⟦している→する：00392_suru⟧ (to be adjacent to ~)\n\nSIMILAR WORDS:\n- {隣接|りんせつ}: adjacent, adjoining (formal; sharing a border)\n- ⟦{隣|となり}→隣：01003_tonari⟧: next door, neighboring (everyday, casual)\n- ⟦{近隣|きんりん}→近隣：14361_kinrin⟧: neighborhood, vicinity (nearby area in general)",
   "cross_references": [
     {
       "type": "synonym",
@@ -156,11 +156,18 @@
       "reading": "きんりん",
       "headword": "{近隣|きんりん}",
       "label": "neighborhood, vicinity"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29505_kinsetsu",
+      "reading": "きんせつ",
+      "headword": "{近接|きんせつ}",
+      "label": "proximity"
     }
   ],
   "metadata": {
     "created": "2026-03-02T07:43:57Z",
-    "modified": "2026-04-30T09:17:48Z",
+    "modified": "2026-09-02T04:01:37Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

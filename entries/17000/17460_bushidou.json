@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "17460_bushidou_ex1",
-      "japanese": "{武士道|ぶしどう}の{精神|せいしん}を{学|まな}ぶ。",
+      "japanese": "{武士道|ぶしどう}⟦の→の：09472_no⟧⟦{精神|せいしん}→精神：03377_seishin⟧⟦を→を：00422_wo⟧⟦{学|まな}ぶ→学ぶ：01987_manabu⟧。",
       "english": "To learn the spirit of bushido.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "17460_bushidou_ex2",
-      "japanese": "{武士道|ぶしどう}では{名誉|めいよ}を{何|なに}より{大切|たいせつ}にした。",
+      "japanese": "{武士道|ぶしどう}⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{名誉|めいよ}→名誉：10568_meiyo⟧⟦を→を：00422_wo⟧⟦{何|なに}→何：00498_nani⟧⟦より→より：09476_yori⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧にした。",
       "english": "In bushido, honor was valued above all else.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "17460_bushidou_ex3",
-      "japanese": "{新渡戸稲造|にとべいなぞう}の『{武士道|ぶしどう}』は、{日本|にほん}の{道徳観|どうとくかん}を{海外|かいがい}に{紹介|しょうかい}した{名著|めいちょ}として{知|し}られている。",
+      "japanese": "{新渡戸稲造|にとべいなぞう}⟦の→の：09472_no⟧『{武士道|ぶしどう}』⟦は→は：00079_ha⟧、⟦{日本|にほん}→日本：03876_nihon⟧⟦の→の：09472_no⟧{道徳観|どうとくかん}⟦を→を：00422_wo⟧⟦{海外|かいがい}→海外：00134_kaigai⟧⟦に→に：00314_ni⟧⟦{紹介|しょうかい}した→紹介する：05641_shoukaisuru⟧⟦{名著|めいちょ}→名著：15456_meicho⟧⟦として→として：06802_toshite⟧⟦{知|し}られている→知る：00458_shiru⟧。",
       "english": "Nitobe Inazo's 'Bushido' is known as a masterwork that introduced Japanese moral values to the world.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "CULTURAL NOTES:\nThe concept of {武士道|ぶしどう} was codified and popularized through {新渡戸稲造|にとべいなぞう}'s 1900 book 'Bushido: The Soul of Japan,' written in English for a Western audience. Key virtues include {義|ぎ} (righteousness), {勇|ゆう} (courage), {仁|じん} (benevolence), {礼|れい} (respect), {誠|まこと} (honesty), {名誉|めいよ} (honor), and {忠義|ちゅうぎ} (loyalty).\n\nIn modern usage, {武士道|ぶしどう}{精神|せいしん} (bushido spirit) is invoked to describe fair play, perseverance, and integrity, often in sports and business.\n\nCOMMON COLLOCATIONS:\n- {武士道|ぶしどう}{精神|せいしん} (the spirit of bushido)\n- {武士道|ぶしどう}に{反|はん}する (to go against bushido)\n- {武士道|ぶしどう}の{教|おし}え (the teachings of bushido)",
+  "notes": "CULTURAL NOTE:\nThe concept of {武士道|ぶしどう} was codified and popularized through {新渡戸稲造|にとべいなぞう}'s 1900 book 'Bushido: The Soul of Japan,' written in English for a Western audience. Key virtues include {義|ぎ} (righteousness), {勇|ゆう} (courage), ⟦{仁|じん}→仁：23044_jin⟧ (benevolence), ⟦{礼|れい}→礼：02170_rei⟧ (respect), ⟦{誠|まこと}→誠：27623_makoto⟧ (honesty), ⟦{名誉|めいよ}→名誉：10568_meiyo⟧ (honor), and ⟦{忠義|ちゅうぎ}→忠義：20670_chuugi⟧ (loyalty).\n\nIn modern usage, {武士道|ぶしどう}⟦{精神|せいしん}→精神：03377_seishin⟧ (bushido spirit) is invoked to describe fair play, perseverance, and integrity, often in sports and business.\n\nCOMMON COLLOCATIONS:\n- {武士道|ぶしどう}⟦{精神|せいしん}→精神：03377_seishin⟧ (the spirit of bushido)\n- {武士道|ぶしどう}⟦に→に：00314_ni⟧⟦{反|はん}する→反する：11966_hansuru⟧ (to go against bushido)\n- {武士道|ぶしどう}⟦の→の：09472_no⟧⟦{教|おし}え→教え：01909_oshie⟧ (the teachings of bushido)",
   "cross_references": [
     {
       "type": "related",
@@ -52,11 +52,18 @@
       "reading": "ぶし",
       "headword": "{武士|ぶし}",
       "label": "samurai"
+    },
+    {
+      "type": "related",
+      "target_id": "10499_samurai",
+      "reading": "さむらい",
+      "headword": "{侍|さむらい}",
+      "label": "samurai, warrior"
     }
   ],
   "metadata": {
     "created": "2026-03-18T02:05:17Z",
-    "modified": "2026-05-06T07:07:17Z",
+    "modified": "2026-09-02T04:01:48Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

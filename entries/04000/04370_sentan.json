@@ -39,7 +39,7 @@
     },
     {
       "id": "04370_sentan_ex3",
-      "japanese": "あの⟦{研究所|けんきゅうじょ}→研究所：03054_kenkyuusho⟧⟦は→は：00079_ha⟧⟦{医療|いりょう}→医療：01836_iryou⟧⟦の→の：09472_no⟧⟦{最|もっと}も→最も：01736_mottomo⟧{先端|せんたん}⟦を→を：00422_wo⟧⟦{行|い}っている→行く：00119_iku⟧。",
+      "japanese": "⟦あの→あの：00915_ano⟧⟦{研究所|けんきゅうじょ}→研究所：03054_kenkyuusho⟧⟦は→は：00079_ha⟧⟦{医療|いりょう}→医療：01836_iryou⟧⟦の→の：09472_no⟧⟦{最|もっと}も→最も：01736_mottomo⟧{先端|せんたん}⟦を→を：00422_wo⟧⟦{行|い}っている→行く：00119_iku⟧。",
       "english": "That research institute is at the very forefront of medicine.",
       "notes": "先端を行く = to be at the cutting edge",
       "has_audio": false,
@@ -59,7 +59,7 @@
     },
     {
       "id": "04370_sentan_ex5",
-      "japanese": "⟦{針|はり}→針：03566_hari⟧⟦の→の：09472_no⟧{先端|せんたん}⟦は→は：00079_ha⟧とても⟦{細|ほそ}い→細い：02962_hosoi⟧。",
+      "japanese": "⟦{針|はり}→針：03566_hari⟧⟦の→の：09472_no⟧{先端|せんたん}⟦は→は：00079_ha⟧⟦とても→とても：00593_totemo⟧⟦{細|ほそ}い→細い：02962_hosoi⟧。",
       "english": "The tip of a needle is very thin.",
       "notes": null,
       "has_audio": false,
@@ -69,7 +69,7 @@
     },
     {
       "id": "04370_sentan_ex6",
-      "japanese": "この⟦{大学|だいがく}→大学：00608_daigaku⟧⟦は→は：00079_ha⟧{先端|せんたん}⟦{科学|かがく}→科学：01277_kagaku⟧⟦の→の：09472_no⟧⟦{研究|けんきゅう}→研究：01396_kenkyuu⟧⟦で→で：00502_de⟧⟦{知|し}られている→知る：00458_shiru⟧。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{大学|だいがく}→大学：00608_daigaku⟧⟦は→は：00079_ha⟧{先端|せんたん}⟦{科学|かがく}→科学：01277_kagaku⟧⟦の→の：09472_no⟧⟦{研究|けんきゅう}→研究：01396_kenkyuu⟧⟦で→で：00502_de⟧⟦{知|し}られている→知る：00458_shiru⟧。",
       "english": "This university is known for its research in frontier science.",
       "notes": null,
       "has_audio": false,
@@ -78,10 +78,26 @@
       ]
     }
   ],
-  "notes": "{先端|せんたん} has both physical (tip/point) and figurative (cutting edge) meanings.\n\nPHYSICAL MEANING:\n- The pointed end of objects (pencils, needles, branches)\n- The outermost part of something\n\nFIGURATIVE MEANING:\n- {先端|せんたん}⟦{技術|ぎじゅつ}→技術：01389_gijutsu⟧: cutting-edge technology\n- {最|さい}{先端|せんたん}: the very forefront\n- {先端|せんたん}⟦を→を：00422_wo⟧⟦{行|い}く→行く：00119_iku⟧: to be at the cutting edge\n\nCOMMON COMPOUNDS:\n- {先端|せんたん}⟦{技術|ぎじゅつ}→技術：01389_gijutsu⟧: advanced technology\n- {先端|せんたん}⟦{科学|かがく}→科学：01277_kagaku⟧: frontier science\n- {先端|せんたん}⟦{産業|さんぎょう}→産業：01419_sangyou⟧: high-tech industry\n- {最|さい}{先端|せんたん}: state-of-the-art, cutting edge",
+  "notes": "{先端|せんたん} has both physical (tip/point) and figurative (cutting edge) meanings.\n\nPHYSICAL MEANING:\n- The pointed end of objects (pencils, needles, branches)\n- The outermost part of something\n\nFIGURATIVE MEANING:\n- {先端|せんたん}⟦{技術|ぎじゅつ}→技術：01389_gijutsu⟧: cutting-edge technology\n- {最|さい}{先端|せんたん}: the very forefront\n- {先端|せんたん}⟦を→を：00422_wo⟧⟦{行|い}く→行く：00119_iku⟧: to be at the cutting edge\n\nCOMPOUNDS:\n- {先端|せんたん}⟦{技術|ぎじゅつ}→技術：01389_gijutsu⟧: advanced technology\n- {先端|せんたん}⟦{科学|かがく}→科学：01277_kagaku⟧: frontier science\n- {先端|せんたん}⟦{産業|さんぎょう}→産業：01419_sangyou⟧: high-tech industry\n- {最|さい}{先端|せんたん}: state-of-the-art, cutting edge",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "11356_ryoutan",
+      "reading": "りょうたん",
+      "headword": "{両端|りょうたん}",
+      "label": "both ends"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22556_senshin",
+      "reading": "せんしん",
+      "headword": "{先進|せんしん}",
+      "label": "advanced"
+    }
+  ],
   "metadata": {
     "created": "2026-01-13T22:31:30Z",
-    "modified": "2026-05-31T13:37:00Z",
+    "modified": "2026-09-02T04:01:04Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

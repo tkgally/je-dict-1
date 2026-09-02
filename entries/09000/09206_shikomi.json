@@ -19,7 +19,7 @@
   "examples": [
     {
       "id": "09206_shikomi_ex1",
-      "japanese": "{仕込|しこ}みを{始|はじ}める。",
+      "japanese": "{仕込|しこ}み⟦を→を：00422_wo⟧{始|はじ}める。",
       "english": "To start the preparation.",
       "notes": null,
       "has_audio": false,
@@ -29,7 +29,7 @@
     },
     {
       "id": "09206_shikomi_ex2",
-      "japanese": "{料理人|りょうりにん}は{朝早|あさはや}くから{仕込|しこ}みをする。",
+      "japanese": "⟦{料理人|りょうりにん}→料理人：19396_ryourinin⟧⟦は→は：00079_ha⟧{朝早|あさはや}く⟦から→から：00504_kara⟧{仕込|しこ}み⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧。",
       "english": "Cooks do their prep work from early morning.",
       "notes": null,
       "has_audio": false,
@@ -39,7 +39,7 @@
     },
     {
       "id": "09206_shikomi_ex3",
-      "japanese": "{仕込|しこ}みに{時間|じかん}がかかる{料理|りょうり}だ。",
+      "japanese": "{仕込|しこ}み⟦に→に：00314_ni⟧⟦{時間|じかん}がかかる→時間がかかる：26082_jikangakakaru⟧⟦{料理|りょうり}→料理：01523_ryouri⟧だ。",
       "english": "It's a dish that takes a long time to prepare.",
       "notes": null,
       "has_audio": false,
@@ -49,7 +49,7 @@
     },
     {
       "id": "09206_shikomi_ex4",
-      "japanese": "{師匠|ししょう}の{仕込|しこ}みは{厳|きび}しかった。",
+      "japanese": "⟦{師匠|ししょう}→師匠：12421_shishou⟧⟦の→の：09472_no⟧{仕込|しこ}み⟦は→は：00079_ha⟧⟦{厳|きび}しかった→厳しい：01125_kibishii⟧。",
       "english": "The master's training was strict.",
       "notes": null,
       "has_audio": false,
@@ -59,7 +59,7 @@
     },
     {
       "id": "09206_shikomi_ex5",
-      "japanese": "{若|わか}いころからの{仕込|しこ}みで{身|み}についた{技術|ぎじゅつ}だ。",
+      "japanese": "{若|わか}い⟦ころ→〜ころ：03091_koro⟧⟦から→から：00504_kara⟧⟦の→の：09472_no⟧{仕込|しこ}み⟦で→で：00502_de⟧⟦{身|み}→身：01764_mi⟧⟦に→に：00314_ni⟧ついた⟦{技術|ぎじゅつ}→技術：01389_gijutsu⟧だ。",
       "english": "It's a skill developed through training from a young age.",
       "notes": null,
       "has_audio": false,
@@ -69,7 +69,7 @@
     },
     {
       "id": "09206_shikomi_ex6",
-      "japanese": "{厳|きび}しい{親方|おやかた}の{仕込|しこ}みのおかげで{一人前|いちにんまえ}になった。",
+      "japanese": "⟦{厳|きび}しい→厳しい：01125_kibishii⟧{親方|おやかた}⟦の→の：09472_no⟧{仕込|しこ}み⟦の→の：09472_no⟧⟦おかげ→おかげ：01362_okage⟧⟦で→で：00502_de⟧⟦{一人前|いちにんまえ}→一人前：06782_ichininmae⟧になった。",
       "english": "Thanks to the strict master's training, I became a full-fledged craftsman.",
       "notes": null,
       "has_audio": false,
@@ -78,11 +78,26 @@
       ]
     }
   ],
-  "notes": "{仕込|しこ}み has two main meanings: food preparation and training/teaching.\n\nSENSE 1 - CULINARY PREPARATION:\n- Refers to mise en place in restaurant kitchens\n- Includes prepping ingredients before service\n- Common in restaurant and food service contexts\n\nSENSE 2 - TRAINING:\n- Traditional apprentice training\n- Often used in craft and traditional arts\n- Related verb: {仕込|しこ}む (to train, to prepare)\n\nCOMMON COLLOCATIONS:\n- {仕込|しこ}みをする: to do prep work\n- {仕込|しこ}み{中|ちゅう}: in preparation\n- {仕込|しこ}み{時間|じかん}: prep time",
-  "cross_references": [],
+  "notes": "{仕込|しこ}み has two main meanings: food preparation and training/teaching.\n\nSENSE 1 - CULINARY PREPARATION:\n- Refers to mise en place in restaurant kitchens\n- Includes prepping ingredients before service\n- Common in restaurant and food service contexts\n\nSENSE 2 - TRAINING:\n- Traditional apprentice training\n- Often used in craft and traditional arts\n- Related verb: ⟦{仕込|しこ}む→仕込む：04244_shikomu⟧ (to train, to prepare)\n\nCOMMON COLLOCATIONS:\n- {仕込|しこ}み⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧: to do prep work\n- {仕込|しこ}み⟦{中|ちゅう}→〜中：09840_chuu⟧: in preparation\n- {仕込|しこ}み⟦{時間|じかん}→時間：00468_jikan⟧: prep time",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "08633_sakagura",
+      "reading": "さかぐら",
+      "headword": "{酒蔵|さかぐら}",
+      "label": "sake brewery"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25583_kaitenjunbi",
+      "reading": "かいてんじゅんび",
+      "headword": "{開店準備|かいてんじゅんび}",
+      "label": "preparation for opening"
+    }
+  ],
   "metadata": {
     "created": "2026-02-01T02:37:55Z",
-    "modified": "2026-06-13T18:21:49Z",
+    "modified": "2026-09-02T04:01:17Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

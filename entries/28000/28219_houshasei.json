@@ -3,7 +3,7 @@
   "headword": "{放射性|ほうしゃせい}",
   "reading": "ほうしゃせい",
   "romaji": "houshasei",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "radioactive; radioactivity",
   "definitions": [
     {
@@ -15,41 +15,63 @@
   "examples": [
     {
       "id": "28219_houshasei_ex1",
-      "japanese": "{放射性|ほうしゃせい}{物質|ぶっしつ}が{検出|けんしゅつ}された。",
+      "japanese": "{放射性|ほうしゃせい}⟦{物質|ぶっしつ}→物質：03608_busshitsu⟧⟦が→が：00051_ga⟧⟦{検出|けんしゅつ}→検出：13132_kenshutsu⟧⟦された→する：00392_suru⟧。",
       "english": "Radioactive material was detected.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28219_houshasei_ex2",
-      "japanese": "{放射性|ほうしゃせい}{廃棄物|はいきぶつ}の{処理|しょり}は{難|むずか}しい。",
+      "japanese": "{放射性|ほうしゃせい}⟦{廃棄物|はいきぶつ}→廃棄物：04634_haikibutsu⟧⟦の→の：09472_no⟧⟦{処理|しょり}→処理：03251_shori⟧⟦は→は：00079_ha⟧⟦{難|むずか}しい→難しい：00517_muzukashii⟧。",
       "english": "Disposing of radioactive waste is difficult.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28219_houshasei_ex3",
-      "japanese": "この{元素|げんそ}は{強|つよ}い{放射性|ほうしゃせい}を{持|も}っている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{元素|げんそ}→元素：09662_genso⟧⟦は→は：00079_ha⟧⟦{強|つよ}い→強い：00820_tsuyoi⟧{放射性|ほうしゃせい}⟦を→を：00422_wo⟧⟦{持|も}っている→持つ：00478_motsu⟧。",
       "english": "This element has strong radioactivity.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "{放射|ほうしゃ} (radiation) plus 〜{性|せい} (property, -ness). Used attributively before a noun, where it behaves like a no-adjective.\n\nCOMMON COLLOCATIONS:\n- {放射性物質|ほうしゃせいぶっしつ}: radioactive material\n- {放射性廃棄物|ほうしゃせいはいきぶつ}: radioactive waste\n- {放射性|ほうしゃせい}を{帯|お}びる: to be radioactive\n\nDOMAIN:\nA physics and environmental-science term; common in news about nuclear power and accidents.",
+  "notes": "⟦{放射|ほうしゃ}→放射：16334_housha⟧ (radiation) plus 〜⟦{性|せい}→性：09880_sei⟧ (property, -ness). Used attributively before a noun, where it behaves like a no-adjective.\n\nCOMMON COLLOCATIONS:\n- {放射性物質|ほうしゃせいぶっしつ}: radioactive material\n- ⟦{放射性廃棄物|ほうしゃせいはいきぶつ}→放射性廃棄物：17909_houshaseihaikibutsu⟧: radioactive waste\n- {放射性|ほうしゃせい}⟦を→を：00422_wo⟧⟦{帯|お}びる→帯びる：12428_obiru⟧: to be radioactive\n\nDOMAIN:\nA physics and environmental-science term; common in news about nuclear power and accidents.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "13035_houshanou",
+      "reading": "ほうしゃのう",
+      "headword": "{放射能|ほうしゃのう}",
+      "label": "radioactivity"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-no"],
+      "pos": [
+        "noun",
+        "adjective-no"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["general"],
-      "domain": ["technical"]
+      "politeness": "plain",
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "technical"
+      ]
     },
     "created": "2026-05-27T03:08:15Z",
-    "modified": "2026-05-27T03:08:15Z"
+    "modified": "2026-09-02T04:02:33Z"
   }
 }

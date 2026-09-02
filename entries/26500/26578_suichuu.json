@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26578_suichuu_ex1",
-      "japanese": "{水柱|すいちゅう}が{高|たか}く{上|あ}がった。",
+      "japanese": "{水柱|すいちゅう}⟦が→が：00051_ga⟧⟦{高|たか}く→高い：00500_takai⟧⟦{上|あ}がった→上がる：00615_agaru⟧。",
       "english": "A column of water shot up high.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26578_suichuu_ex2",
-      "japanese": "{間欠泉|かんけつせん}から{水柱|すいちゅう}が{噴|ふ}き{出|だ}す{瞬間|しゅんかん}は{迫力|はくりょく}がある。",
+      "japanese": "⟦{間欠泉|かんけつせん}→間欠泉：29597_kanketsusen⟧⟦から→から：00504_kara⟧{水柱|すいちゅう}⟦が→が：00051_ga⟧⟦{噴|ふ}き{出|だ}す→噴き出す：29265_fukidasu⟧⟦{瞬間|しゅんかん}→瞬間：03226_shunkan⟧⟦は→は：00079_ha⟧⟦{迫力|はくりょく}→迫力：14310_hakuryoku⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "The moment a water column erupts from the geyser is impressive.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26578_suichuu_ex3",
-      "japanese": "{水道管|すいどうかん}が{破裂|はれつ}して、{道路|どうろ}の{真|ま}ん{中|なか}に{数|すう}メートルの{水柱|すいちゅう}が{立|た}った。",
+      "japanese": "⟦{水道管|すいどうかん}→水道管：08094_suidoukan⟧⟦が→が：00051_ga⟧⟦{破裂|はれつ}→破裂：10058_haretsu⟧⟦して→する：00392_suru⟧、⟦{道路|どうろ}→道路：01481_douro⟧⟦の→の：09472_no⟧⟦{真|ま}ん{中|なか}→真ん中：00968_mannaka⟧⟦に→に：00314_ni⟧⟦{数|すう}→数：03360_suu⟧⟦メートル→メートル：02975_meetoru⟧⟦の→の：09472_no⟧{水柱|すいちゅう}⟦が→が：00051_ga⟧⟦{立|た}った→立つ：00758_tatsu⟧。",
       "english": "A water main burst, and a water column several meters high rose in the middle of the road.",
       "sense_numbers": [
         1
@@ -44,8 +44,23 @@
       "notes": null
     }
   ],
-  "notes": "Combines {水|すい} (water) and {柱|ちゅう} (pillar, column). Describes water shooting up in a vertical column shape. Commonly seen in news reports about broken water mains, volcanic eruptions near water, and natural phenomena like geysers.\n\nCOMMON COLLOCATIONS:\n- {水柱|すいちゅう}が{上|あ}がる: a water column rises\n- {水柱|すいちゅう}が{立|た}つ: a water column forms\n- {水柱|すいちゅう}が{噴|ふ}き{出|だ}す: a water column erupts\n- ミリ{水柱|すいちゅう}: millimeters of water column (pressure unit)\n\nSIMILAR WORDS:\n- {噴水|ふんすい}: fountain — an artificial, controlled water display\n- {水中|すいちゅう}: underwater — a homophone with completely different meaning ({中|ちゅう} means \"inside\" not \"pillar\")",
-  "cross_references": [],
+  "notes": "Combines {水|すい} (water) and {柱|ちゅう} (pillar, column). Describes water shooting up in a vertical column shape. Commonly seen in news reports about broken water mains, volcanic eruptions near water, and natural phenomena like geysers.\n\nCOMMON COLLOCATIONS:\n- {水柱|すいちゅう}⟦が→が：00051_ga⟧⟦{上|あ}がる→上がる：00615_agaru⟧: a water column rises\n- {水柱|すいちゅう}⟦が→が：00051_ga⟧⟦{立|た}つ→立つ：00758_tatsu⟧: a water column forms\n- {水柱|すいちゅう}⟦が→が：00051_ga⟧⟦{噴|ふ}き{出|だ}す→噴き出す：29265_fukidasu⟧: a water column erupts\n- ⟦ミリ→ミリ：28823_miri⟧{水柱|すいちゅう}: millimeters of water column (pressure unit)\n\nSIMILAR WORDS:\n- ⟦{噴水|ふんすい}→噴水：09637_funsui⟧: fountain — an artificial, controlled water display\n- ⟦{水中|すいちゅう}→水中：13310_suichuu⟧: underwater — a homophone with completely different meaning (⟦{中|ちゅう}→〜中：09840_chuu⟧ means \"inside\" not \"pillar\")",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09637_funsui",
+      "reading": "ふんすい",
+      "headword": "{噴水|ふんすい}",
+      "label": "fountain"
+    },
+    {
+      "type": "homophone",
+      "target_id": "13310_suichuu",
+      "reading": "すいちゅう",
+      "headword": "{水中|すいちゅう}",
+      "label": "underwater"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -60,6 +75,6 @@
       ]
     },
     "created": "2026-05-03T12:30:02Z",
-    "modified": "2026-06-15T07:59:29Z"
+    "modified": "2026-09-02T04:02:26Z"
   }
 }

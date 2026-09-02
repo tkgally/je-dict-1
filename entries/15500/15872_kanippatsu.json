@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "15872_kanippatsu_ex1",
-      "japanese": "{間一髪|かんいっぱつ}で{事故|じこ}を{免|まぬが}れた。",
+      "japanese": "{間一髪|かんいっぱつ}⟦で→で：00502_de⟧⟦{事故|じこ}→事故：00851_jiko⟧⟦を→を：00422_wo⟧⟦{免|まぬが}れた→免れる：10548_manugareru⟧。",
       "english": "I narrowly avoided the accident.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "15872_kanippatsu_ex2",
-      "japanese": "{間一髪|かんいっぱつ}のところで{電車|でんしゃ}に{間|ま}に{合|あ}った。",
+      "japanese": "{間一髪|かんいっぱつ}⟦の→の：09472_no⟧⟦ところ→ところ：01137_tokoro⟧⟦で→で：00502_de⟧⟦{電車|でんしゃ}→電車：00522_densha⟧⟦に→に：00314_ni⟧⟦{間|ま}に{合|あ}った→間に合う：01142_maniau⟧。",
       "english": "I made it onto the train just in the nick of time.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "15872_kanippatsu_ex3",
-      "japanese": "{落|お}ちてきた{看板|かんばん}を{間一髪|かんいっぱつ}で{避|よ}けて、けがをせずに{済|す}んだ。",
+      "japanese": "⟦{落|お}ちて→落ちる：01242_ochiru⟧きた⟦{看板|かんばん}→看板：00166_kanban⟧⟦を→を：00422_wo⟧{間一髪|かんいっぱつ}⟦で→で：00502_de⟧⟦{避|よ}けて→避ける：14848_yokeru⟧、⟦けが→けが：00787_kega⟧⟦を→を：00422_wo⟧せず⟦に→に：00314_ni⟧⟦{済|す}んだ→済む：01950_sumu⟧。",
       "english": "I dodged the falling sign by a hair's breadth and escaped without injury.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "COMPOSITION:\n{間|かん} (gap, interval) + {一髪|いっぱつ} (one hair). Literally \"a gap of one hair,\" expressing an extremely narrow margin.\n\nUSAGE:\nOften used adverbially in the pattern {間一髪|かんいっぱつ}で or {間一髪|かんいっぱつ}のところで (at the last moment, by a narrow margin).\n\nCOMMON COLLOCATIONS:\n- {間一髪|かんいっぱつ}で{助|たす}かる (to be saved by a hair's breadth)\n- {間一髪|かんいっぱつ}で{逃|のが}れる (to escape by the narrowest margin)\n- {間一髪|かんいっぱつ}のところで (at the very last moment)",
+  "notes": "ETYMOLOGY:\n⟦{間|かん}→〜間：28469_kan⟧ (gap, interval) + {一髪|いっぱつ} (one hair). Literally \"a gap of one hair,\" expressing an extremely narrow margin.\n\nUSAGE:\nOften used adverbially in the pattern {間一髪|かんいっぱつ}⟦で→で：00502_de⟧ or {間一髪|かんいっぱつ}⟦の→の：09472_no⟧⟦ところ→ところ：01137_tokoro⟧⟦で→で：00502_de⟧ (at the last moment, by a narrow margin).\n\nCOMMON COLLOCATIONS:\n- {間一髪|かんいっぱつ}⟦で→で：00502_de⟧⟦{助|たす}かる→助かる：01956_tasukaru⟧ (to be saved by a hair's breadth)\n- {間一髪|かんいっぱつ}⟦で→で：00502_de⟧⟦{逃|のが}れる→逃れる：10425_nogareru⟧ (to escape by the narrowest margin)\n- {間一髪|かんいっぱつ}⟦の→の：09472_no⟧⟦ところ→ところ：01137_tokoro⟧⟦で→で：00502_de⟧ (at the very last moment)",
   "cross_references": [
     {
       "type": "synonym",
@@ -52,11 +52,25 @@
       "reading": "ぎりぎり",
       "headword": "ぎりぎり",
       "label": "just barely (everyday)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06949_kikiippatsu",
+      "reading": "ききいっぱつ",
+      "headword": "{危機一髪|ききいっぱつ}",
+      "label": "close call"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21368_kyuushiisshou",
+      "reading": "きゅうしいっしょう",
+      "headword": "{九死一生|きゅうしいっしょう}",
+      "label": "narrow escape from death"
     }
   ],
   "metadata": {
     "created": "2026-03-08T13:21:32Z",
-    "modified": "2026-07-18T04:02:53Z",
+    "modified": "2026-09-02T04:01:42Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

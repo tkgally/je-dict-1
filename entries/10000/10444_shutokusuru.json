@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "10444_shutokusuru_ex1",
-      "japanese": "{資格|しかく}を{取得|しゅとく}する。",
+      "japanese": "⟦{資格|しかく}→資格：02834_shikaku⟧⟦を→を：00422_wo⟧{取得|しゅとく}する。",
       "english": "To obtain a qualification.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "10444_shutokusuru_ex2",
-      "japanese": "{運転免許|うんてんめんきょ}を{取得|しゅとく}した。",
+      "japanese": "⟦{運転免許|うんてんめんきょ}→運転免許：15285_untenmenkyo⟧⟦を→を：00422_wo⟧{取得|しゅとく}した。",
       "english": "I obtained a driver's license.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "10444_shutokusuru_ex3",
-      "japanese": "{留学|りゅうがく}するためにビザを{取得|しゅとく}する{必要|ひつよう}がある。",
+      "japanese": "⟦{留学|りゅうがく}→留学：03677_ryuugaku⟧⟦する→する：00392_suru⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧⟦ビザ→ビザ：08283_biza⟧⟦を→を：00422_wo⟧{取得|しゅとく}する⟦{必要|ひつよう}→必要：00846_hitsuyou⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "You need to obtain a visa in order to study abroad.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,26 @@
       ]
     }
   ],
-  "notes": "{取得|しゅとく}する is composed of {取|しゅ} (take) + {得|とく} (gain, obtain).\n\nTRANSITIVITY:\n- Type: Transitive ({他動詞|たどうし})\n- Pattern: 〜を{取得|しゅとく}する\n\nCOMMON COLLOCATIONS:\n- {資格|しかく}を{取得|しゅとく}する: to obtain a qualification\n- {免許|めんきょ}を{取得|しゅとく}する: to obtain a license\n- {特許|とっきょ}を{取得|しゅとく}する: to obtain a patent\n- データを{取得|しゅとく}する: to acquire data\n\nSIMILAR WORDS:\n- {取得|しゅとく}する: to acquire (formal, official process)\n- {得|え}る: to obtain, to gain (general)\n- {取|と}る: to take, to get (everyday, informal)",
-  "cross_references": [],
+  "notes": "{取得|しゅとく}する is composed of {取|しゅ} (take) + ⟦{得|とく}→得：12563_toku⟧ (gain, obtain).\n\nTRANSITIVITY:\n- Type: Transitive (⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧)\n- Pattern: 〜⟦を→を：00422_wo⟧{取得|しゅとく}する\n\nCOMMON COLLOCATIONS:\n- ⟦{資格|しかく}→資格：02834_shikaku⟧⟦を→を：00422_wo⟧{取得|しゅとく}する: to obtain a qualification\n- ⟦{免許|めんきょ}→免許：03808_menkyo⟧⟦を→を：00422_wo⟧{取得|しゅとく}する: to obtain a license\n- ⟦{特許|とっきょ}→特許：13467_tokkyo⟧⟦を→を：00422_wo⟧{取得|しゅとく}する: to obtain a patent\n- ⟦データ→データ：03944_deeta⟧⟦を→を：00422_wo⟧{取得|しゅとく}する: to acquire data\n\nSIMILAR WORDS:\n- {取得|しゅとく}する: to acquire (formal, official process)\n- ⟦{得|え}る→得る：02014_eru⟧: to obtain, to gain (general)\n- ⟦{取|と}る→取る：00565_toru⟧: to take, to get (everyday, informal)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02014_eru",
+      "reading": "える",
+      "headword": "{得|え}る",
+      "label": "to obtain, to gain"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00565_toru",
+      "reading": "とる",
+      "headword": "{取|と}る",
+      "label": "to take, to get"
+    }
+  ],
   "metadata": {
     "created": "2026-02-07T11:20:16Z",
-    "modified": "2026-03-29T03:07:35Z",
+    "modified": "2026-09-02T04:01:21Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

@@ -3,7 +3,7 @@
   "headword": "ぱんぱん",
   "reading": "ぱんぱん",
   "romaji": "panpan",
-  "part_of_speech": "adverb",
+  "part_of_speech": "adverb, onomatopoeia",
   "gloss": "stuffed to capacity; bulging; packed full",
   "schema_version": "2.0",
   "definitions": [
@@ -16,39 +16,66 @@
   "examples": [
     {
       "id": "29037_panpan_ex1",
-      "japanese": "お{腹|なか}がぱんぱんだ。",
+      "japanese": "⟦お{腹|なか}→お腹：00805_onaka⟧⟦が→が：00051_ga⟧ぱんぱんだ。",
       "english": "My stomach is stuffed.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29037_panpan_ex2",
-      "japanese": "{荷物|にもつ}でぱんぱんのバッグ。",
+      "japanese": "⟦{荷物|にもつ}→荷物：00737_nimotsu⟧⟦で→で：00502_de⟧ぱんぱん⟦の→の：09472_no⟧⟦バッグ→バッグ：00008_baggu⟧。",
       "english": "A bag packed full of stuff.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29037_panpan_ex3",
-      "japanese":" {予定|よてい}がぱんぱんで、どこにも{休|やす}む{時間|じかん}がない。",
+      "japanese": " ⟦{予定|よてい}→予定：00824_yotei⟧⟦が→が：00051_ga⟧ぱんぱんで、⟦どこ→どこ：00539_doko⟧⟦に→に：00314_ni⟧⟦も→も：00484_mo⟧⟦{休|やす}む→休む：00606_yasumu⟧⟦{時間|じかん}→時間：00468_jikan⟧⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧。",
       "english": "My schedule is packed solid and I have no time to rest.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Casual mimetic word suggesting maximum capacity or fullness. Used with に + なる (to become stuffed) or as a prenominal modifier.\n\nCOMMON PATTERNS:\n- ぱんぱんになる — to become completely stuffed/full\n- ぱんぱんに{膨|ふく}らむ — to swell up / bulge\n- お{腹|なか}がぱんぱん — stomach is stuffed (after eating)\n- ぱんぱんのバッグ — a jam-packed bag\n\nNOTE: ぱんぱん is also used for a light clapping or patting sound (ぱんぱんと{手|て}を{叩|たた}く — to clap), though the 'stuffed full' meaning is more common in everyday speech.",
+  "notes": "Casual mimetic word suggesting maximum capacity or fullness. Used with ⟦に→に：00314_ni⟧ + なる (to become stuffed) or as a prenominal modifier.\n\nCOMMON PATTERNS:\n- ぱんぱん⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧ — to become completely stuffed/full\n- ぱんぱん⟦に→に：00314_ni⟧⟦{膨|ふく}らむ→膨らむ：05342_fukuramu⟧ — to swell up / bulge\n- ⟦お{腹|なか}→お腹：00805_onaka⟧⟦が→が：00051_ga⟧ぱんぱん — stomach is stuffed (after eating)\n- ぱんぱん⟦の→の：09472_no⟧⟦バッグ→バッグ：00008_baggu⟧ — a jam-packed bag\n\nNOTE: ぱんぱん is also used for a light clapping or patting sound (ぱんぱん⟦と→と：00512_to⟧⟦{手|て}→手：00569_te⟧⟦を→を：00422_wo⟧⟦{叩|たた}く→叩く：02072_tataku⟧ — to clap), though the 'stuffed full' meaning is more common in everyday speech.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05646_gyuugyuu",
+      "reading": "ぎゅうぎゅう",
+      "headword": "ぎゅうぎゅう",
+      "label": "packed"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26080_ponpon",
+      "reading": "ぽんぽん",
+      "headword": "ぽんぽん",
+      "label": "pop-pop"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adverb", "onomatopoeia"],
+      "pos": [
+        "adverb",
+        "onomatopoeia"
+      ],
       "formality": "informal",
       "politeness": "plain",
-      "semantic": ["descriptive"]
+      "semantic": [
+        "descriptive"
+      ]
     },
     "created": "2026-06-09T06:04:49Z",
-    "modified": "2026-06-09T06:04:49Z"
+    "modified": "2026-09-02T04:02:35Z"
   }
 }

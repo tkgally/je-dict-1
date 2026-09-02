@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "13108_saibai_ex1",
-      "japanese": "トマトを{栽培|さいばい}している。",
+      "japanese": "⟦トマト→トマト：05192_tomato⟧⟦を→を：00422_wo⟧{栽培|さいばい}⟦している→する：00392_suru⟧。",
       "english": "I'm growing tomatoes.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "13108_saibai_ex2",
-      "japanese": "この{地域|ちいき}では{米|こめ}の{栽培|さいばい}が{盛|さか}んだ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{地域|ちいき}→地域：01461_chiiki⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{米|こめ}→米：01323_kome⟧⟦の→の：09472_no⟧{栽培|さいばい}⟦が→が：00051_ga⟧⟦{盛|さか}ん→盛ん：01239_sakan⟧だ。",
       "english": "Rice cultivation is thriving in this region.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "13108_saibai_ex3",
-      "japanese": "{農薬|のうやく}を{使|つか}わずに{野菜|やさい}を{栽培|さいばい}する{農家|のうか}が{増|ふ}えている。",
+      "japanese": "⟦{農薬|のうやく}→農薬：04295_nouyaku⟧⟦を→を：00422_wo⟧⟦{使|つか}わ→使う：00473_tsukau⟧ず⟦に→に：00314_ni⟧⟦{野菜|やさい}→野菜：02265_yasai⟧⟦を→を：00422_wo⟧{栽培|さいばい}⟦する→する：00392_suru⟧⟦{農家|のうか}→農家：03539_nouka⟧⟦が→が：00051_ga⟧⟦{増|ふ}えている→増える：01183_fueru⟧。",
       "english": "The number of farmers growing vegetables without pesticides is increasing.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,47 @@
       ]
     }
   ],
-  "notes": "COMMON COLLOCATIONS:\n- {栽培|さいばい}する: to cultivate, to grow\n- {有機|ゆうき}{栽培|さいばい}: organic farming\n- {水耕|すいこう}{栽培|さいばい}: hydroponic cultivation\n- {露地|ろじ}{栽培|さいばい}: open-field cultivation\n- {栽培|さいばい}{方法|ほうほう}: cultivation method\n- {栽培|さいばい}{農家|のうか}: grower, cultivator\n\nUSAGE:\n{栽培|さいばい} is used for deliberate, managed growing of plants. It is not used for wild plants or natural growth. For animals, {飼育|しいく} (raising, breeding) is used instead.",
-  "cross_references": [],
+  "notes": "COMMON COLLOCATIONS:\n- {栽培|さいばい}⟦する→する：00392_suru⟧: to cultivate, to grow\n- ⟦{有機|ゆうき}→有機：03643_yuuki⟧{栽培|さいばい}: organic farming\n- {水耕|すいこう}{栽培|さいばい}: hydroponic cultivation\n- {露地|ろじ}{栽培|さいばい}: open-field cultivation\n- {栽培|さいばい}⟦{方法|ほうほう}→方法：03621_houhou⟧: cultivation method\n- {栽培|さいばい}⟦{農家|のうか}→農家：03539_nouka⟧: grower, cultivator\n\nUSAGE:\n{栽培|さいばい} is used for deliberate, managed growing of plants. It is not used for wild plants or natural growth. For animals, ⟦{飼育|しいく}→飼育：06422_shiiku⟧ (raising, breeding) is used instead.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "06617_kousaku",
+      "reading": "こうさく",
+      "headword": "{耕作|こうさく}",
+      "label": "cultivation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18823_jisei",
+      "reading": "じせい",
+      "headword": "{自生|じせい}",
+      "label": "growing wild"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23457_sakuzuke",
+      "reading": "さくづけ",
+      "headword": "{作付|さくづ}け",
+      "label": "planting crops"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24449_ikubyou",
+      "reading": "いくびょう",
+      "headword": "{育苗|いくびょう}",
+      "label": "raising seedlings"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28198_nouhou",
+      "reading": "のうほう",
+      "headword": "{農法|のうほう}",
+      "label": "farming method"
+    }
+  ],
   "metadata": {
     "created": "2026-02-23T11:16:43Z",
-    "modified": "2026-07-08T17:24:36Z",
+    "modified": "2026-09-02T04:01:31Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

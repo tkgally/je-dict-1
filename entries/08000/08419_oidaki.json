@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "08419_oidaki_ex1",
-      "japanese": "お{湯|ゆ}が{冷|さ}めたから{追|お}い{焚|だ}きする。",
+      "japanese": "⟦お{湯|ゆ}→お湯：02518_oyu⟧⟦が→が：00051_ga⟧⟦{冷|さ}めた→冷める：02114_sameru⟧⟦から→から：00504_kara⟧{追|お}い{焚|だ}き⟦する→する：00392_suru⟧。",
       "english": "The water got cold, so I'll reheat it.",
       "sense_numbers": [
         1
@@ -114,7 +114,7 @@
     },
     {
       "id": "08419_oidaki_ex2",
-      "japanese": "この{物件|ぶっけん}は{追|お}い{焚|だ}き{機能|きのう}がついている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{物件|ぶっけん}→物件：06743_bukken⟧⟦は→は：00079_ha⟧{追|お}い{焚|だ}き⟦{機能|きのう}→機能：13165_kinou⟧⟦が→が：00051_ga⟧ついて⟦いる→いる：00495_iru⟧。",
       "english": "This property has a bath reheating function.",
       "sense_numbers": [
         1
@@ -124,7 +124,7 @@
     },
     {
       "id": "08419_oidaki_ex3",
-      "japanese": "{追|お}い{焚|だ}きボタンを{押|お}せば10{分|ぷん}で{温|あたた}まる。",
+      "japanese": "{追|お}い{焚|だ}き⟦ボタン→ボタン：02963_botan⟧⟦を→を：00422_wo⟧⟦{押|お}せば→押す：02854_osu⟧10{分|ぷん}⟦で→で：00502_de⟧⟦{温|あたた}まる→温まる：02095_atatamaru⟧。",
       "english": "Press the reheat button and it'll be warm in 10 minutes.",
       "sense_numbers": [
         1
@@ -133,7 +133,30 @@
       "notes": null
     }
   ],
-  "notes": "FORMATION:\n{追|お}い (additional) + {焚|だ}き (heating, burning) → additional heating\n\nVERB FORM:\n{追|お}い{焚|だ}きする (to reheat bath water)\n\nJAPANESE BATH CULTURE:\nIn Japan, families often share the same bath water, with each person bathing one after another. The {追|お}い{焚|だ}き function reheats the water so later bathers can enjoy a warm bath without refilling.\n\nRELATED BATH CONTROLS:\n- {給湯|きゅうとう} (hot water supply)\n- {温度|おんど}{設定|せってい} (temperature setting)\n- {自動|じどう}{保温|ほおん} (automatic temperature maintenance)\n\nHOUSING NOTE:\nWhen searching for apartments in Japan, {追|お}い{焚|だ}き{機能|きのう}{付|つ}き (with reheating function) is often listed as a desirable feature.\n\nRELATED WORDS:\n- {湯船|ゆぶね} / {浴槽|よくそう} (bathtub)\n- {風呂釜|ふろがま} (bath boiler)",
+  "notes": "FORMS:\n⟦{追|お}い→追う：02016_ou⟧ (additional) + {焚|だ}き (heating, burning) → additional heating\n{追|お}い{焚|だ}き⟦する→する：00392_suru⟧ (to reheat bath water)\n\nJAPANESE BATH CULTURE:\nIn Japan, families often share the same bath water, with each person bathing one after another. The {追|お}い{焚|だ}き function reheats the water so later bathers can enjoy a warm bath without refilling.\n\nRELATED BATH CONTROLS:\n- {給湯|きゅうとう} (hot water supply)\n- ⟦{温度|おんど}→温度：00333_ondo⟧⟦{設定|せってい}→設定：04767_settei⟧ (temperature setting)\n- ⟦{自動|じどう}→自動：03339_jidou⟧⟦{保温|ほおん}→保温：17467_hoon⟧ (automatic temperature maintenance)\n\nHOUSING NOTE:\nWhen searching for apartments in Japan, {追|お}い{焚|だ}き⟦{機能|きのう}→機能：13165_kinou⟧⟦{付|つ}き→付き：26333_tsuki⟧ (with reheating function) is often listed as a desirable feature.\n\nRELATED WORDS:\n- ⟦{湯船|ゆぶね}→湯船：13322_yubune⟧ / ⟦{浴槽|よくそう}→浴槽：04985_yokusou⟧ (bathtub)\n- ⟦{風呂釜|ふろがま}→風呂釜：28259_furogama⟧ (bath boiler)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "13322_yubune",
+      "reading": "ゆぶね",
+      "headword": "{湯船|ゆぶね}",
+      "label": "bathtub"
+    },
+    {
+      "type": "related",
+      "target_id": "04985_yokusou",
+      "reading": "よくそう",
+      "headword": "{浴槽|よくそう}",
+      "label": "bathtub"
+    },
+    {
+      "type": "related",
+      "target_id": "28259_furogama",
+      "reading": "ふろがま",
+      "headword": "{風呂釜|ふろがま}",
+      "label": "bath boiler"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -142,6 +165,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "daily-life",
         "building"
@@ -149,6 +173,6 @@
       "verb_class": "suru"
     },
     "created": "2026-01-26T05:21:17Z",
-    "modified": "2026-08-12T12:50:50Z"
+    "modified": "2026-09-02T04:01:15Z"
   }
 }

@@ -15,40 +15,68 @@
   "examples": [
     {
       "id": "21371_dashimaki_ex1",
-      "japanese": "{出汁巻|だしま}き{卵|たまご}を{焼|や}いた。",
+      "japanese": "{出汁巻|だしま}き⟦{卵|たまご}→卵：02222_tamago⟧⟦を→を：00422_wo⟧⟦{焼|や}いた→焼く：01123_yaku⟧。",
       "english": "I made a dashi-rolled omelette.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21371_dashimaki_ex2",
-      "japanese": "お{弁当|べんとう}に{出汁巻|だしま}きを{入|い}れた。",
+      "japanese": "⟦お{弁当|べんとう}→お弁当：02864_obentou⟧⟦に→に：00314_ni⟧{出汁巻|だしま}き⟦を→を：00422_wo⟧⟦{入|い}れた→入れる：01098_ireru⟧。",
       "english": "I put dashi omelette in the lunch box.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21371_dashimaki_ex3",
-      "japanese": "{出汁|だし}がたっぷり{入|はい}った{出汁巻|だしま}きは、{箸|はし}で{切|き}ると{汁|しる}がじゅわっと{出|で}てくる。",
+      "japanese": "⟦{出汁|だし}→出汁：04917_dashi⟧⟦が→が：00051_ga⟧⟦たっぷり→たっぷり：03404_tappuri⟧⟦{入|はい}った→入る：00494_hairu⟧{出汁巻|だしま}き⟦は→は：00079_ha⟧、⟦{箸|はし}→箸：01026_hashi⟧⟦で→で：00502_de⟧⟦{切|き}る→切る：02693_kiru⟧⟦と→と：00512_to⟧⟦{汁|しる}→汁：10462_shiru⟧⟦が→が：00051_ga⟧じゅわっ⟦と→と：00512_to⟧⟦{出|で}てくる→出てくる：29121_detekuru⟧。",
       "english": "A dashi omelette packed with broth oozes juices when you cut it with chopsticks.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Short for {出汁巻|だしま}き{卵|たまご}. A staple of Japanese home cooking and bento boxes. Distinguished from {卵焼|たまごや}き by the addition of {出汁|だし} (soup stock), which makes it softer and more moist. Particularly associated with Kansai-style cooking, where a lighter, more savory version is preferred over the sweeter Kanto-style {卵焼|たまごや}き.\n\nCOMMON COLLOCATIONS:\n- {出汁巻|だしま}き{卵|たまご}: dashi-rolled egg (full form)\n- {出汁巻|だしま}きを{巻|ま}く: to roll a dashi omelette\n- ふわふわの{出汁巻|だしま}き: fluffy dashi omelette\n\nSIMILAR WORDS:\n- {卵焼|たまごや}き: Japanese rolled omelette — the broader category; often sweeter, may not contain dashi\n- {厚焼|あつや}き{卵|たまご}: thick omelette — a thicker, firmer style\n- {茶碗蒸|ちゃわんむ}し: savory egg custard — also uses dashi but steamed, not rolled",
+  "notes": "Short for {出汁巻|だしま}き⟦{卵|たまご}→卵：02222_tamago⟧. A staple of Japanese home cooking and bento boxes. Distinguished from ⟦{卵焼|たまごや}き→卵焼き：10367_tamagoyaki⟧ by the addition of ⟦{出汁|だし}→出汁：04917_dashi⟧ (soup stock), which makes it softer and more moist. Particularly associated with Kansai-style cooking, where a lighter, more savory version is preferred over the sweeter Kanto-style ⟦{卵焼|たまごや}き→卵焼き：10367_tamagoyaki⟧.\n\nCOMMON COLLOCATIONS:\n- {出汁巻|だしま}き⟦{卵|たまご}→卵：02222_tamago⟧: dashi-rolled egg (full form)\n- {出汁巻|だしま}き⟦を→を：00422_wo⟧⟦{巻|ま}く→巻く：02418_maku⟧: to roll a dashi omelette\n- ⟦ふわふわ→ふわふわ：05156_fuwafuwa⟧⟦の→の：09472_no⟧{出汁巻|だしま}き: fluffy dashi omelette\n\nSIMILAR WORDS:\n- ⟦{卵焼|たまごや}き→卵焼き：10367_tamagoyaki⟧: Japanese rolled omelette — the broader category; often sweeter, may not contain dashi\n- ⟦{厚焼|あつや}き→厚焼き：27125_atsuyaki⟧⟦{卵|たまご}→卵：02222_tamago⟧: thick omelette — a thicker, firmer style\n- ⟦{茶碗蒸|ちゃわんむ}し→茶碗蒸し：17312_chawanmushi⟧: savory egg custard — also uses dashi but steamed, not rolled",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "10367_tamagoyaki",
+      "reading": "たまごやき",
+      "headword": "{卵焼|たまごや}き",
+      "label": "Japanese rolled omelette"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17312_chawanmushi",
+      "reading": "ちゃわんむし",
+      "headword": "{茶碗蒸|ちゃわんむ}し",
+      "label": "savory egg custard"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food", "cooking", "culture"]
+      "semantic": [
+        "food",
+        "cooking",
+        "culture"
+      ]
     },
     "created": "2026-04-02T01:42:42Z",
-    "modified": "2026-04-02T01:42:42Z"
+    "modified": "2026-09-02T04:02:03Z"
   }
 }

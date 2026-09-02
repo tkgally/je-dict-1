@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "13911_choukaku_ex1",
-      "japanese": "{聴覚|ちょうかく}に{障害|しょうがい}がある。",
+      "japanese": "{聴覚|ちょうかく}⟦に→に：00314_ni⟧⟦{障害|しょうがい}→障害：03228_shougai⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There is a hearing impairment.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "13911_choukaku_ex2",
-      "japanese": "{犬|いぬ}は{人間|にんげん}よりも{聴覚|ちょうかく}が{鋭|するど}い。",
+      "japanese": "⟦{犬|いぬ}→犬：00632_inu⟧⟦は→は：00079_ha⟧⟦{人間|にんげん}→人間：03523_ningen⟧⟦より→より：09476_yori⟧⟦も→も：00484_mo⟧{聴覚|ちょうかく}⟦が→が：00051_ga⟧⟦{鋭|するど}い→鋭い：02347_surudoi⟧。",
       "english": "Dogs have sharper hearing than humans.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "13911_choukaku_ex3",
-      "japanese": "{加齢|かれい}とともに{聴覚|ちょうかく}が{低下|ていか}するのは{自然|しぜん}なことだが、{定期的|ていきてき}に{検査|けんさ}を{受|う}けることが{大切|たいせつ}だ。",
+      "japanese": "⟦{加齢|かれい}→加齢：11821_karei⟧⟦とともに→とともに：30485_totomoni⟧{聴覚|ちょうかく}⟦が→が：00051_ga⟧⟦{低下|ていか}→低下：04065_teika⟧⟦する→する：00392_suru⟧⟦の→の：09472_no⟧⟦は→は：00079_ha⟧⟦{自然|しぜん}→自然：01423_shizen⟧なことだ⟦が→が：00051_ga⟧、⟦{定期的|ていきてき}→定期的：06173_teikiteki⟧⟦に→に：00314_ni⟧⟦{検査|けんさ}→検査：02707_kensa⟧⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧こと⟦が→が：00051_ga⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧だ。",
       "english": "It's natural for hearing to decline with age, but it's important to get regular checkups.",
       "notes": null,
       "has_audio": false,
@@ -44,10 +44,19 @@
       ]
     }
   ],
-  "notes": "USAGE NOTE:\nA formal, technical term used in medical and scientific contexts. In everyday speech, {耳|みみ} is more commonly used to refer to hearing ability.\n\nCOMMON COLLOCATIONS:\n- {聴覚|ちょうかく}{障害|しょうがい} (hearing impairment)\n- {聴覚|ちょうかく}{検査|けんさ} (hearing test)\n- {聴覚|ちょうかく}が{鋭|するど}い (have acute hearing)\n- {聴覚|ちょうかく}が{低下|ていか}する (hearing declines)\n\nRELATED SENSES:\n{五感|ごかん} (five senses): {視覚|しかく} (sight), {聴覚|ちょうかく} (hearing), {嗅覚|きゅうかく} (smell), {味覚|みかく} (taste), {触覚|しょっかく} (touch)",
+  "notes": "USAGE:\nA formal, technical term used in medical and scientific contexts. In everyday speech, ⟦{耳|みみ}→耳：01513_mimi⟧ is more commonly used to refer to hearing ability.\n\nCOMMON COLLOCATIONS:\n- {聴覚|ちょうかく}{障害|しょうがい} (hearing impairment)\n- {聴覚|ちょうかく}⟦{検査|けんさ}→検査：02707_kensa⟧ (hearing test)\n- {聴覚|ちょうかく}⟦が→が：00051_ga⟧⟦{鋭|するど}い→鋭い：02347_surudoi⟧ (have acute hearing)\n- {聴覚|ちょうかく}⟦が→が：00051_ga⟧⟦{低下|ていか}→低下：04065_teika⟧⟦する→する：00392_suru⟧ (hearing declines)\n\nRELATED SENSES:\n⟦{五感|ごかん}→五感：05698_gokan⟧ (five senses): ⟦{視覚|しかく}→視覚：02837_shikaku⟧ (sight), {聴覚|ちょうかく} (hearing), ⟦{嗅覚|きゅうかく}→嗅覚：04422_kyuukaku⟧ (smell), ⟦{味覚|みかく}→味覚：04424_mikaku⟧ (taste), ⟦{触覚|しょっかく}→触覚：04426_shokkaku⟧ (touch)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "05698_gokan",
+      "reading": "ごかん",
+      "headword": "{五感|ごかん}",
+      "label": "five senses"
+    }
+  ],
   "metadata": {
     "created": "2026-02-27T06:55:05Z",
-    "modified": "2026-07-12T12:35:36Z",
+    "modified": "2026-09-02T04:01:35Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

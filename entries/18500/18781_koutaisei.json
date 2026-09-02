@@ -15,40 +15,66 @@
   "examples": [
     {
       "id": "18781_koutaisei_ex1",
-      "japanese": "この{工場|こうじょう}は{交代制|こうたいせい}で{稼働|かどう}している。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{工場|こうじょう}→工場：01082_koujou⟧⟦は→は：00079_ha⟧{交代制|こうたいせい}⟦で→で：00502_de⟧⟦{稼働|かどう}している→稼働する：19633_kadousuru⟧。",
       "english": "This factory operates on a shift system.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "18781_koutaisei_ex2",
-      "japanese": "{看護師|かんごし}は{三|さん}{交代制|こうたいせい}で{働|はたら}いている。",
+      "japanese": "⟦{看護師|かんごし}→看護師：05055_kangoshi⟧⟦は→は：00079_ha⟧{三|さん}{交代制|こうたいせい}⟦で→で：00502_de⟧⟦{働|はたら}いている→働く：00503_hataraku⟧。",
       "english": "The nurses work on a three-shift rotation.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "18781_koutaisei_ex3",
-      "japanese": "{交代制|こうたいせい}の{勤務|きんむ}は{生活|せいかつ}リズムが{崩|くず}れやすいのが{難点|なんてん}だ。",
+      "japanese": "{交代制|こうたいせい}⟦の→の：09472_no⟧⟦{勤務|きんむ}→勤務：04545_kinmu⟧⟦は→は：00079_ha⟧⟦{生活|せいかつ}→生活：01443_seikatsu⟧⟦リズム→リズム：04746_rizumu⟧⟦が→が：00051_ga⟧⟦{崩|くず}れ→崩れる：04248_kuzureru⟧やすい⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦{難点|なんてん}→難点：15828_nanten⟧だ。",
       "english": "The drawback of shift work is that it tends to disrupt your daily rhythm.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Common types: {二|に}{交代制|こうたいせい} (two-shift system, typically day and night), {三|さん}{交代制|こうたいせい} (three-shift system, 8 hours each). Common collocations: {交代制|こうたいせい}{勤務|きんむ} (shift work), {交代制|こうたいせい}で{働|はたら}く (to work in shifts). The suffix ～{制|せい} indicates a system or structure: {会員制|かいいんせい} (membership system), {予約制|よやくせい} (reservation-only system). Related: シフト{制|せい} (shift system — using the English loanword), {当番制|とうばんせい} (duty rotation system).",
+  "notes": "Common types: ⟦{二|に}→二：00736_ni⟧{交代制|こうたいせい} (two-shift system, typically day and night), {三|さん}{交代制|こうたいせい} (three-shift system, 8 hours each). Common collocations: {交代制|こうたいせい}⟦{勤務|きんむ}→勤務：04545_kinmu⟧ (shift work), {交代制|こうたいせい}⟦で→で：00502_de⟧⟦{働|はたら}く→働く：00503_hataraku⟧ (to work in shifts). The suffix ～⟦{制|せい}→〜制：30791_sei⟧ indicates a system or structure: ⟦{会員制|かいいんせい}→会員制：16796_kaiinsei⟧ (membership system), ⟦{予約制|よやくせい}→予約制：07058_yoyakusei⟧ (reservation-only system). Related: ⟦シフト→シフト：10934_shifuto⟧⟦{制|せい}→〜制：30791_sei⟧ (shift system — using the English loanword), {当番制|とうばんせい} (duty rotation system).",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09549_yakin",
+      "reading": "やきん",
+      "headword": "{夜勤|やきん}",
+      "label": "night shift, night duty"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23160_rinbansei",
+      "reading": "りんばんせい",
+      "headword": "{輪番制|りんばんせい}",
+      "label": "rotation system"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["work"]
+      "semantic": [
+        "work"
+      ]
     },
     "created": "2026-03-23T03:38:51Z",
-    "modified": "2026-03-23T03:38:51Z"
+    "modified": "2026-09-02T04:01:53Z"
   }
 }

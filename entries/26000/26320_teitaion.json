@@ -15,39 +15,59 @@
   "examples": [
     {
       "id": "26320_teitaion_ex1",
-      "japanese": "{低体温|ていたいおん}に{注意|ちゅうい}してください。",
+      "japanese": "{低体温|ていたいおん}⟦に→に：00314_ni⟧⟦{注意|ちゅうい}→注意：01464_chuui⟧⟦して→する：00392_suru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please watch out for hypothermia.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26320_teitaion_ex2",
-      "japanese": "{冬山|ふゆやま}では{低体温|ていたいおん}{症|しょう}になる{危険|きけん}がある。",
+      "japanese": "{冬山|ふゆやま}⟦で→で：00502_de⟧⟦は→は：00079_ha⟧{低体温|ていたいおん}{症|しょう}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦{危険|きけん}→危険：01141_kiken⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There is a risk of hypothermia in the winter mountains.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26320_teitaion_ex3",
-      "japanese": "{体|からだ}が{冷|ひ}えて{低体温|ていたいおん}になると、{判断力|はんだんりょく}が{鈍|にぶ}り、{重大|じゅうだい}な{事故|じこ}につながることがある。",
+      "japanese": "⟦{体|からだ}→体：00784_karada⟧⟦が→が：00051_ga⟧⟦{冷|ひ}えて→冷える：01154_hieru⟧{低体温|ていたいおん}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦と→と：00512_to⟧、⟦{判断力|はんだんりょく}→判断力：17617_handanryoku⟧⟦が→が：00051_ga⟧⟦{鈍|にぶ}り→鈍る：14469_niburu⟧、⟦{重大|じゅうだい}→重大：01641_juudai⟧な⟦{事故|じこ}→事故：00851_jiko⟧⟦に→に：00314_ni⟧つながること⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "When the body gets cold and hypothermia sets in, judgment becomes impaired, which can lead to serious accidents.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {低|てい} (low), {体|たい} (body), and {温|おん} (temperature). The full medical term is {低体温症|ていたいおんしょう} with the suffix {症|しょう} (condition/syndrome), but {低体温|ていたいおん} is commonly used on its own.\n\nIn everyday conversation, Japanese people sometimes describe themselves as {低体温|ていたいおん}{体質|たいしつ} (having a low-body-temperature constitution) — meaning they tend to run cold and feel chilly easily. This is distinct from clinical hypothermia.\n\nCOMMON COLLOCATIONS:\n- {低体温|ていたいおん}{症|しょう}: hypothermia (medical term)\n- {低体温|ていたいおん}になる: to become hypothermic\n- {低体温|ていたいおん}{体質|たいしつ}: low-body-temperature constitution\n- {低体温|ていたいおん}を{防|ふせ}ぐ: to prevent hypothermia\n\nRELATED TERMS:\n- {高体温|こうたいおん}: hyperthermia — abnormally high body temperature\n- {体温|たいおん}: body temperature — the base term\n- {凍傷|とうしょう}: frostbite — localized cold injury, distinct from whole-body hypothermia",
-  "cross_references": [],
+  "notes": "Composed of ⟦{低|てい}→低〜：03961_tei⟧ (low), ⟦{体|たい}→体：09872_tai⟧ (body), and {温|おん} (temperature). The full medical term is ⟦{低体温症|ていたいおんしょう}→低体温症：26133_teitaionshou⟧ with the suffix {症|しょう} (condition/syndrome), but {低体温|ていたいおん} is commonly used on its own.\n\nIn everyday conversation, Japanese people sometimes describe themselves as {低体温|ていたいおん}⟦{体質|たいしつ}→体質：08243_taishitsu⟧ (having a low-body-temperature constitution) — meaning they tend to run cold and feel chilly easily. This is distinct from clinical hypothermia.\n\nCOMMON COLLOCATIONS:\n- {低体温|ていたいおん}{症|しょう}: hypothermia (medical term)\n- {低体温|ていたいおん}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧: to become hypothermic\n- {低体温|ていたいおん}⟦{体質|たいしつ}→体質：08243_taishitsu⟧: low-body-temperature constitution\n- {低体温|ていたいおん}⟦を→を：00422_wo⟧⟦{防|ふせ}ぐ→防ぐ：02409_fusegu⟧: to prevent hypothermia\n\nRELATED WORDS:\n- {高体温|こうたいおん}: hyperthermia — abnormally high body temperature\n- ⟦{体温|たいおん}→体温：03385_taion⟧: body temperature — the base term\n- ⟦{凍傷|とうしょう}→凍傷：05018_toushou⟧: frostbite — localized cold injury, distinct from whole-body hypothermia",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "05018_toushou",
+      "reading": "とうしょう",
+      "headword": "{凍傷|とうしょう}",
+      "label": "frostbite"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["health", "science"]
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "health",
+        "science"
+      ]
     },
     "created": "2026-04-30T16:22:36Z",
-    "modified": "2026-04-30T16:22:36Z"
+    "modified": "2026-09-02T04:02:25Z"
   }
 }

@@ -15,39 +15,66 @@
   "examples": [
     {
       "id": "26099_iritamago_ex1",
-      "japanese": "{炒|い}り{卵|たまご}を{作|つく}る。",
+      "japanese": "{炒|い}り{卵|たまご}⟦を→を：00422_wo⟧⟦{作|つく}る→作る：00481_tsukuru⟧。",
       "english": "To make scrambled eggs.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26099_iritamago_ex2",
-      "japanese": "{弁当|べんとう}に{炒|い}り{卵|たまご}を{入|い}れた。",
+      "japanese": "⟦{弁当|べんとう}→弁当：01014_bentou⟧⟦に→に：00314_ni⟧{炒|い}り{卵|たまご}⟦を→を：00422_wo⟧⟦{入|い}れた→入れる：01098_ireru⟧。",
       "english": "I put scrambled eggs in the lunchbox.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26099_iritamago_ex3",
-      "japanese": "{三色|さんしょく}{丼|どん}には{炒|い}り{卵|たまご}と{鶏|とり}そぼろと{青菜|あおな}をのせる。",
+      "japanese": "⟦{三色|さんしょく}{丼|どん}→三色丼：22950_sanshokudon⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{炒|い}り{卵|たまご}⟦と→と：00512_to⟧{鶏|とり}そぼろ⟦と→と：00512_to⟧⟦{青菜|あおな}→青菜：19508_aona⟧⟦を→を：00422_wo⟧のせる。",
       "english": "For a three-color rice bowl, you top it with scrambled eggs, ground chicken, and greens.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Japanese-style scrambled eggs made by stirring eggs continuously in a pan (often with chopsticks) until they form small, dry, fluffy crumbles. Unlike Western scrambled eggs, which are typically soft and creamy, {炒|い}り{卵|たまご} is cooked until fully set and crumbly. It is a staple in bento boxes and Japanese home cooking.\n\nCOMMON COLLOCATIONS:\n- {炒|い}り{卵|たまご}を{作|つく}る: to make scrambled eggs\n- {三色|さんしょく}{丼|どん}: three-color rice bowl (with {炒|い}り{卵|たまご}, meat, and greens)\n- {甘|あま}い{炒|い}り{卵|たまご}: sweet scrambled eggs (seasoned with sugar)\n\nSIMILAR WORDS:\n- スクランブルエッグ: scrambled eggs — Western style, soft and creamy\n- {卵焼|たまごや}き: rolled omelette — eggs rolled into layers in a rectangular pan\n- {薄焼|うすや}き{卵|たまご}: thin egg crepe — used for garnish or wrapping",
-  "cross_references": [],
+  "notes": "Japanese-style scrambled eggs made by stirring eggs continuously in a pan (often with chopsticks) until they form small, dry, fluffy crumbles. Unlike Western scrambled eggs, which are typically soft and creamy, {炒|い}り{卵|たまご} is cooked until fully set and crumbly. It is a staple in bento boxes and Japanese home cooking.\n\nCOMMON COLLOCATIONS:\n- {炒|い}り{卵|たまご}⟦を→を：00422_wo⟧⟦{作|つく}る→作る：00481_tsukuru⟧: to make scrambled eggs\n- ⟦{三色|さんしょく}{丼|どん}→三色丼：22950_sanshokudon⟧: three-color rice bowl (with {炒|い}り{卵|たまご}, meat, and greens)\n- ⟦{甘|あま}い→甘い：00617_amai⟧{炒|い}り{卵|たまご}: sweet scrambled eggs (seasoned with sugar)\n\nSIMILAR WORDS:\n- ⟦スクランブルエッグ→スクランブルエッグ：23737_sukuranburueggu⟧: scrambled eggs — Western style, soft and creamy\n- ⟦{卵焼|たまごや}き→卵焼き：10367_tamagoyaki⟧: rolled omelette — eggs rolled into layers in a rectangular pan\n- {薄焼|うすや}き⟦{卵|たまご}→卵：02222_tamago⟧: thin egg crepe — used for garnish or wrapping",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23737_sukuranburueggu",
+      "reading": "すくらんぶるえっぐ",
+      "headword": "スクランブルエッグ",
+      "label": "scrambled eggs"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10367_tamagoyaki",
+      "reading": "たまごやき",
+      "headword": "{卵焼|たまごや}き",
+      "label": "rolled omelette"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["food"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "food"
+      ]
     },
     "created": "2026-04-29T13:33:16Z",
-    "modified": "2026-04-29T13:33:16Z"
+    "modified": "2026-09-02T04:02:25Z"
   }
 }

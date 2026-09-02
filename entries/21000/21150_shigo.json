@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21150_shigo_ex1",
-      "japanese": "{死後|しご}の{世界|せかい}を{信|しん}じる。",
+      "japanese": "{死後|しご}⟦の→の：09472_no⟧⟦{世界|せかい}→世界：01447_sekai⟧⟦を→を：00422_wo⟧⟦{信|しん}じる→信じる：01111_shinjiru⟧。",
       "english": "I believe in the afterlife.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21150_shigo_ex2",
-      "japanese": "{彼|かれ}の{作品|さくひん}は{死後|しご}に{評価|ひょうか}された。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧⟦{作品|さくひん}→作品：02776_sakuhin⟧⟦は→は：00079_ha⟧{死後|しご}⟦に→に：00314_ni⟧⟦{評価|ひょうか}→評価：03583_hyouka⟧⟦された→する：00392_suru⟧。",
       "english": "His works were appreciated after his death.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21150_shigo_ex3",
-      "japanese": "{死後|しご}{数十年|すうじゅうねん}が{経|た}ってから、{未発表|みはっぴょう}の{原稿|げんこう}が{発見|はっけん}された。",
+      "japanese": "{死後|しご}⟦{数十年|すうじゅうねん}→数十年：30639_suujuunen⟧⟦が→が：00051_ga⟧⟦{経|た}って→経つ：09892_tatsu⟧⟦から→から：00504_kara⟧、⟦{未発表|みはっぴょう}→未発表：24845_mihappyou⟧⟦の→の：09472_no⟧⟦{原稿|げんこう}→原稿：00064_genkou⟧⟦が→が：00051_ga⟧⟦{発見|はっけん}→発見：00085_hakken⟧⟦された→する：00392_suru⟧。",
       "english": "Decades after the author's death, an unpublished manuscript was discovered.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {死|し} (death) + {後|ご} (after). Functions both as a noun and as an adverbial modifier. Commonly used in discussions of legacy, afterlife, inheritance, and posthumous recognition.\n\nCOMMON COLLOCATIONS:\n- {死後|しご}の{世界|せかい}: the afterlife; the world after death\n- {死後|しご}{硬直|こうちょく}: rigor mortis\n- {死後|しご}に{出版|しゅっぱん}された: published posthumously\n\nRELATED WORDS:\n- {生前|せいぜん}: during one's lifetime — the temporal opposite of {死後|しご}\n- {遺|い}: prefix meaning \"left behind by the deceased\" (e.g., {遺作|いさく} posthumous work, {遺品|いひん} belongings of the deceased)\n- {死語|しご}: dead language; obsolete word — a homophone with a completely different meaning",
+  "notes": "Composed of ⟦{死|し}→死：13248_shi⟧ (death) + ⟦{後|ご}→後：30157_go⟧ (after). Functions both as a noun and as an adverbial modifier. Commonly used in discussions of legacy, afterlife, inheritance, and posthumous recognition.\n\nCOMMON COLLOCATIONS:\n- {死後|しご}⟦の→の：09472_no⟧⟦{世界|せかい}→世界：01447_sekai⟧: the afterlife; the world after death\n- {死後|しご}⟦{硬直|こうちょく}→硬直：09012_kouchoku⟧: rigor mortis\n- {死後|しご}⟦に→に：00314_ni⟧⟦{出版|しゅっぱん}→出版：03222_shuppan⟧⟦された→する：00392_suru⟧: published posthumously\n\nRELATED WORDS:\n- ⟦{生前|せいぜん}→生前：16391_seizen⟧: during one's lifetime — the temporal opposite of {死後|しご}\n- {遺|い}: prefix meaning \"left behind by the deceased\" (e.g., {遺作|いさく} posthumous work, {遺品|いひん} belongings of the deceased)\n- ⟦{死語|しご}→死語：17170_shigo⟧: dead language; obsolete word — a homophone with a completely different meaning",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "16391_seizen",
+      "reading": "せいぜん",
+      "headword": "{生前|せいぜん}",
+      "label": "during one's lifetime"
+    },
+    {
+      "type": "homophone",
+      "target_id": "17170_shigo",
+      "reading": "しご",
+      "headword": "{死語|しご}",
+      "label": "dead language"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +75,6 @@
       ]
     },
     "created": "2026-03-31T21:35:49Z",
-    "modified": "2026-07-29T00:22:41Z"
+    "modified": "2026-09-02T04:02:02Z"
   }
 }

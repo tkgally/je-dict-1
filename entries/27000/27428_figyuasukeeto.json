@@ -15,41 +15,68 @@
   "examples": [
     {
       "id": "27428_figyuasukeeto_ex1",
-      "japanese": "フィギュアスケートを{見|み}るのが{好|す}きだ。",
+      "japanese": "フィギュアスケート⟦を→を：00422_wo⟧⟦{見|み}る→見る：00283_miru⟧⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦{好|す}き→好き：02355_suki⟧だ。",
       "english": "I like watching figure skating.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27428_figyuasukeeto_ex2",
-      "japanese": "{娘|むすめ}は{5歳|ごさい}からフィギュアスケートを{習|なら}っている。",
+      "japanese": "⟦{娘|むすめ}→娘：02263_musume⟧⟦は→は：00079_ha⟧{5歳|ごさい}⟦から→から：00504_kara⟧フィギュアスケート⟦を→を：00422_wo⟧⟦{習|なら}っている→習う：00479_narau⟧。",
       "english": "My daughter has been learning figure skating since she was five.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27428_figyuasukeeto_ex3",
-      "japanese": "フィギュアスケートの{大会|たいかい}でジャンプの{回転|かいてん}が{足|た}りず{減点|げんてん}された。",
+      "japanese": "フィギュアスケート⟦の→の：09472_no⟧⟦{大会|たいかい}→大会：03386_taikai⟧⟦で→で：00502_de⟧⟦ジャンプ→ジャンプ：11051_janpu⟧⟦の→の：09472_no⟧⟦{回転|かいてん}→回転：00141_kaiten⟧⟦が→が：00051_ga⟧⟦{足|た}り→足りる：01209_tariru⟧ず⟦{減点|げんてん}→減点：16413_genten⟧⟦された→する：00392_suru⟧。",
       "english": "At the figure skating competition, the jump rotations were under-rotated and points were deducted.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Loanword from English \"figure skating.\" In casual conversation it is often shortened to フィギュア — context disambiguates between the sport and the model-figurine sense of フィギュア.\n\nCOMMON COLLOCATIONS:\n- フィギュアスケートの{選手|せんしゅ}: figure skater\n- フィギュアスケートの{大会|たいかい}: figure skating competition\n- フィギュアスケートを{習|なら}う: to take figure skating lessons\n- ペアフィギュア / アイスダンス: pairs / ice dance\n\nSIMILAR WORDS:\n- スケート: skating — the general term, includes figure skating and speed skating\n- スピードスケート: speed skating — racing on a long oval track\n- アイスダンス: ice dance — a related discipline focusing on dance choreography",
+  "notes": "Loanword from English \"figure skating.\" In casual conversation it is often shortened to ⟦フィギュア→フィギュア：07081_figyua⟧ — context disambiguates between the sport and the model-figurine sense of ⟦フィギュア→フィギュア：07081_figyua⟧.\n\nCOMMON COLLOCATIONS:\n- フィギュアスケート⟦の→の：09472_no⟧⟦{選手|せんしゅ}→選手：03823_senshu⟧: figure skater\n- フィギュアスケート⟦の→の：09472_no⟧⟦{大会|たいかい}→大会：03386_taikai⟧: figure skating competition\n- フィギュアスケート⟦を→を：00422_wo⟧⟦{習|なら}う→習う：00479_narau⟧: to take figure skating lessons\n- ペアフィギュア / ⟦アイス→アイス：06770_aisu⟧⟦ダンス→ダンス：03856_dansu⟧: pairs / ice dance\n\nSIMILAR WORDS:\n- ⟦スケート→スケート：00388_sukeeto⟧: skating — the general term, includes figure skating and speed skating\n- ⟦スピード→スピード：11048_supiido⟧⟦スケート→スケート：00388_sukeeto⟧: speed skating — racing on a long oval track\n- ⟦アイス→アイス：06770_aisu⟧⟦ダンス→ダンス：03856_dansu⟧: ice dance — a related discipline focusing on dance choreography",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "00388_sukeeto",
+      "reading": "すけーと",
+      "headword": "スケート",
+      "label": "skating"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25751_aisusukeeto",
+      "reading": "あいすすけーと",
+      "headword": "アイススケート",
+      "label": "ice skating"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["sports", "loanword"],
+      "politeness": "plain",
+      "semantic": [
+        "sports",
+        "loanword"
+      ],
       "domain": []
     },
     "created": "2026-05-11T07:40:10Z",
-    "modified": "2026-05-11T07:40:10Z"
+    "modified": "2026-09-02T04:02:30Z"
   }
 }

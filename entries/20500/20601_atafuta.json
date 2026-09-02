@@ -15,41 +15,81 @@
   "examples": [
     {
       "id": "20601_atafuta_ex1",
-      "japanese": "あたふたと{準備|じゅんび}する。",
+      "japanese": "あたふた⟦と→と：00512_to⟧⟦{準備|じゅんび}する→準備する：22427_junbisuru⟧。",
       "english": "To prepare in a fluster.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "20601_atafuta_ex2",
-      "japanese": "{電車|でんしゃ}の{時間|じかん}に{遅|おく}れそうで、あたふた{走|はし}った。",
+      "japanese": "⟦{電車|でんしゃ}→電車：00522_densha⟧⟦の→の：09472_no⟧⟦{時間|じかん}→時間：00468_jikan⟧⟦に→に：00314_ni⟧⟦{遅|おく}れ→遅れる：00741_okureru⟧そうで、あたふた⟦{走|はし}った→走る：00519_hashiru⟧。",
       "english": "I was about to miss the train, so I ran about frantically.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "20601_atafuta_ex3",
-      "japanese": "{急|きゅう}な{来客|らいきゃく}に、{母|はは}はあたふたと{部屋|へや}を{片付|かたづ}け{始|はじ}めた。",
+      "japanese": "⟦{急|きゅう}→急：13042_kyuu⟧な⟦{来客|らいきゃく}→来客：13061_raikyaku⟧⟦に→に：00314_ni⟧、⟦{母|はは}→母：00549_haha⟧⟦は→は：00079_ha⟧あたふた⟦と→と：00512_to⟧⟦{部屋|へや}→部屋：00507_heya⟧⟦を→を：00422_wo⟧⟦{片付|かたづ}け→片付ける：01192_katazukeru⟧⟦{始|はじ}めた→始める：00531_hajimeru⟧。",
       "english": "Caught off guard by unexpected guests, my mother frantically started tidying up the room.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "An onomatopoeic adverb (オノマトペ) conveying the image of someone rushing around in a flustered, disorganized manner. Often used with the particle と.\n\nUSAGE:\n- あたふたする (to be in a fluster — used as a suru verb)\n- あたふたと (in a fluster — used as an adverb modifying a verb)\n\nCOMMON COLLOCATIONS:\n- あたふたと{逃|に}げる (flee in a panic)\n- あたふたと{支度|したく}する (get ready in a rush)\n- あたふたと{走|はし}り{回|まわ}る (run around frantically)\n\nSIMILAR WORDS:\n- おろおろ — being at a loss, confused and helpless (less action-oriented, more standing in bewilderment)\n- ばたばた — rushing about busily (can be neutral busy-ness, not necessarily panicked)\n- そわそわ — restlessly, fidgeting (anxiety-based rather than action-based)\n- {大慌|おおあわ}て — great panic (noun describing the same state)",
-  "cross_references": [],
+  "notes": "An onomatopoeic adverb (⟦オノマトペ→オノマトペ：22607_onomatope⟧) conveying the image of someone rushing around in a flustered, disorganized manner. Often used with the particle ⟦と→と：00512_to⟧.\n\nUSAGE:\n- あたふた⟦する→する：00392_suru⟧ (to be in a fluster — used as a suru verb)\n- あたふた⟦と→と：00512_to⟧ (in a fluster — used as an adverb modifying a verb)\n\nCOMMON COLLOCATIONS:\n- あたふた⟦と→と：00512_to⟧⟦{逃|に}げる→逃げる：01151_nigeru⟧ (flee in a panic)\n- あたふた⟦と→と：00512_to⟧⟦{支度|したく}する→支度する：01828_shitakusuru⟧ (get ready in a rush)\n- あたふた⟦と→と：00512_to⟧⟦{走|はし}り{回|まわ}る→走り回る：04608_hashirimawaru⟧ (run around frantically)\n\nSIMILAR WORDS:\n- ⟦おろおろ→おろおろ：05369_orooro⟧ — being at a loss, confused and helpless (less action-oriented, more standing in bewilderment)\n- ⟦ばたばた→ばたばた：05353_batabata⟧ — rushing about busily (can be neutral busy-ness, not necessarily panicked)\n- ⟦そわそわ→そわそわ：05267_sowasowa⟧ — restlessly, fidgeting (anxiety-based rather than action-based)\n- ⟦{大慌|おおあわ}て→大慌て：20600_ooawate⟧ — great panic (noun describing the same state)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05369_orooro",
+      "reading": "おろおろ",
+      "headword": "おろおろ",
+      "label": "being at a loss, confused and helpless"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05353_batabata",
+      "reading": "ばたばた",
+      "headword": "ばたばた",
+      "label": "rushing about busily"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05267_sowasowa",
+      "reading": "そわそわ",
+      "headword": "そわそわ",
+      "label": "restlessly, fidgeting"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20600_ooawate",
+      "reading": "おおあわて",
+      "headword": "{大慌|おおあわ}て",
+      "label": "great panic"
+    }
+  ],
   "metadata": {
     "created": "2026-03-29T19:22:39Z",
-    "modified": "2026-03-29T19:22:39Z",
+    "modified": "2026-09-02T04:02:00Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adverb"],
+      "pos": [
+        "adverb"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["onomatopoeia", "emotion"]
+      "semantic": [
+        "onomatopoeia",
+        "emotion"
+      ]
     }
   }
 }

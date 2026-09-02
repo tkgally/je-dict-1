@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24140_kouyuukankei_ex1",
-      "japanese": "{交友関係|こうゆうかんけい}が{広|ひろ}い。",
+      "japanese": "{交友関係|こうゆうかんけい}⟦が→が：00051_ga⟧⟦{広|ひろ}い→広い：00704_hiroi⟧。",
       "english": "To have a wide circle of friends.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24140_kouyuukankei_ex2",
-      "japanese": "{子|こ}どもの{交友関係|こうゆうかんけい}が{心配|しんぱい}だ。",
+      "japanese": "{子|こ}ども⟦の→の：09472_no⟧{交友関係|こうゆうかんけい}⟦が→が：00051_ga⟧⟦{心配|しんぱい}→心配：00811_shinpai⟧だ。",
       "english": "I'm worried about my child's friendships.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24140_kouyuukankei_ex3",
-      "japanese": "{大学|だいがく}に{入|はい}ってから{交友関係|こうゆうかんけい}が{大|おお}きく{変|か}わった。",
+      "japanese": "⟦{大学|だいがく}→大学：00608_daigaku⟧⟦に→に：00314_ni⟧⟦{入|はい}って→入る：00494_hairu⟧⟦から→から：00504_kara⟧{交友関係|こうゆうかんけい}⟦が→が：00051_ga⟧⟦{大|おお}きく→大きい：00335_ookii⟧⟦{変|か}わった→変わる：00714_kawaru⟧。",
       "english": "My circle of friends changed drastically after entering university.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {交友|こうゆう} ('friendship; companionship') and {関係|かんけい} ('relationship; connection'). A useful term for discussing social dynamics, parenting concerns, and personal development. Commonly used when describing someone's social circle as a whole.\n\nUSAGE:\n- Often paired with {広|ひろ}い ('wide') or {狭|せま}い ('narrow') to describe the size of one's social circle.\n- Parents and educators use it when discussing children's peer relationships.\n- In police or news contexts, {交友関係|こうゆうかんけい}を{調|しら}べる means to investigate someone's social connections.\n\nCOMMON COLLOCATIONS:\n- {交友関係|こうゆうかんけい}が{広|ひろ}い: to have a wide circle of friends\n- {交友関係|こうゆうかんけい}が{狭|せま}い: to have a small circle of friends\n- {交友関係|こうゆうかんけい}を{広|ひろ}げる: to expand one's circle of friends\n- {交友関係|こうゆうかんけい}を{調|しら}べる: to investigate someone's social connections\n\nSIMILAR WORDS:\n- {人間関係|にんげんかんけい}: human relationships — broader term covering all interpersonal relationships, not just friendships\n- {友人関係|ゆうじんかんけい}: friendship; friend relationship — near-synonym focusing specifically on friends\n- {人脈|じんみゃく}: personal connections; network — emphasizes professional or strategic connections rather than casual friendships",
+  "notes": "Compound of ⟦{交友|こうゆう}→交友：11713_kouyuu⟧ ('friendship; companionship') and ⟦{関係|かんけい}→関係：01298_kankei⟧ ('relationship; connection'). A useful term for discussing social dynamics, parenting concerns, and personal development. Commonly used when describing someone's social circle as a whole.\n\nUSAGE:\n- Often paired with ⟦{広|ひろ}い→広い：00704_hiroi⟧ ('wide') or ⟦{狭|せま}い→狭い：00750_semai⟧ ('narrow') to describe the size of one's social circle.\n- Parents and educators use it when discussing children's peer relationships.\n- In police or news contexts, {交友関係|こうゆうかんけい}⟦を→を：00422_wo⟧⟦{調|しら}べる→調べる：01213_shiraberu⟧ means to investigate someone's social connections.\n\nCOMMON COLLOCATIONS:\n- {交友関係|こうゆうかんけい}⟦が→が：00051_ga⟧⟦{広|ひろ}い→広い：00704_hiroi⟧: to have a wide circle of friends\n- {交友関係|こうゆうかんけい}⟦が→が：00051_ga⟧⟦{狭|せま}い→狭い：00750_semai⟧: to have a small circle of friends\n- {交友関係|こうゆうかんけい}⟦を→を：00422_wo⟧⟦{広|ひろ}げる→広げる：01981_hirogeru⟧: to expand one's circle of friends\n- {交友関係|こうゆうかんけい}⟦を→を：00422_wo⟧⟦{調|しら}べる→調べる：01213_shiraberu⟧: to investigate someone's social connections\n\nSIMILAR WORDS:\n- ⟦{人間関係|にんげんかんけい}→人間関係：11462_ningenkankei⟧: human relationships — broader term covering all interpersonal relationships, not just friendships\n- {友人関係|ゆうじんかんけい}: friendship; friend relationship — near-synonym focusing specifically on friends\n- ⟦{人脈|じんみゃく}→人脈：18253_jinmyaku⟧: personal connections; network — emphasizes professional or strategic connections rather than casual friendships",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11462_ningenkankei",
+      "reading": "にんげんかんけい",
+      "headword": "{人間関係|にんげんかんけい}",
+      "label": "human relationships"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18253_jinmyaku",
+      "reading": "じんみゃく",
+      "headword": "{人脈|じんみゃく}",
+      "label": "personal connections"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -63,6 +79,6 @@
       ]
     },
     "created": "2026-04-17T19:39:34Z",
-    "modified": "2026-08-02T18:32:34Z"
+    "modified": "2026-09-02T04:02:16Z"
   }
 }

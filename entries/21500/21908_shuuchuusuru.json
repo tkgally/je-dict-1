@@ -3,8 +3,59 @@
   "id": "21908_shuuchuusuru",
   "headword": "{集中|しゅうちゅう}する",
   "reading": "しゅうちゅうする",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "to concentrate; to focus; to converge",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25369_sennensuru",
+      "reading": "せんねんする",
+      "headword": "{専念|せんねん}する",
+      "label": "to devote oneself to"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21912_chuuryokusuru",
+      "reading": "ちゅうりょくする",
+      "headword": "{注力|ちゅうりょく}する",
+      "label": "to focus efforts on"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18376_bottousuru",
+      "reading": "ぼっとうする",
+      "headword": "{没頭|ぼっとう}する",
+      "label": "to be absorbed in"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07625_bottou",
+      "reading": "ぼっとう",
+      "headword": "{没頭|ぼっとう}",
+      "label": "immersion"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19727_keichuusuru",
+      "reading": "けいちゅうする",
+      "headword": "{傾注|けいちゅう}する",
+      "label": "to devote"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22689_mushinninaru",
+      "reading": "むしんになる",
+      "headword": "{無心|むしん}になる",
+      "label": "to become absorbed"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25838_kokorowomunisuru",
+      "reading": "こころをむにする",
+      "headword": "{心|こころ}を{無|む}にする",
+      "label": "to clear one's mind"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -12,6 +63,8 @@
         "noun",
         "verb-suru"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "cognition",
         "action"
@@ -19,9 +72,9 @@
       "verb_class": "suru"
     },
     "created": "2026-04-03T21:26:19Z",
-    "modified": "2026-07-30T03:35:34Z"
+    "modified": "2026-09-02T04:02:05Z"
   },
-  "notes": "One of the most common and useful suru verbs. Has two main uses: (1) focusing one's attention or effort, and (2) the convergence or concentration of things in one place or time. Takes the particle に to mark what one is concentrating on.\n\nCOMMON COLLOCATIONS:\n- {集中|しゅうちゅう}{力|りょく}: concentration, ability to focus\n- {集中|しゅうちゅう}{治療|ちりょう}{室|しつ}: intensive care unit (ICU)\n- {集中|しゅうちゅう}{豪雨|ごうう}: localized heavy rain\n- {集中|しゅうちゅう}{攻撃|こうげき}: concentrated attack\n- {一極|いっきょく}{集中|しゅうちゅう}: concentration in one center (often describing Tokyo)\n\nPARTICLE PATTERNS:\n- ～に{集中|しゅうちゅう}する: to concentrate on ~\n- ～が{集中|しゅうちゅう}する: ~ converges/concentrates\n\nSIMILAR WORDS:\n- {専念|せんねん}する: to devote oneself to — implies giving up other things to focus exclusively\n- {注力|ちゅうりょく}する: to focus efforts on — more business-oriented; emphasizes directing resources\n- {没頭|ぼっとう}する: to be absorbed in — implies being deeply engrossed, losing track of everything else",
+  "notes": "One of the most common and useful suru verbs. Has two main uses: (1) focusing one's attention or effort, and (2) the convergence or concentration of things in one place or time. Takes the particle ⟦に→に：00314_ni⟧ to mark what one is concentrating on.\n\nCOMMON COLLOCATIONS:\n- ⟦{集中|しゅうちゅう}{力|りょく}→集中力：17614_shuuchuuryoku⟧: concentration, ability to focus\n- ⟦{集中|しゅうちゅう}→集中：03212_shuuchuu⟧{治療|ちりょう}{室|しつ}: intensive care unit (ICU)\n- ⟦{集中|しゅうちゅう}{豪雨|ごうう}→集中豪雨：23883_shuuchuugouu⟧: localized heavy rain\n- ⟦{集中|しゅうちゅう}→集中：03212_shuuchuu⟧⟦{攻撃|こうげき}→攻撃：02748_kougeki⟧: concentrated attack\n- {一極|いっきょく}⟦{集中|しゅうちゅう}→集中：03212_shuuchuu⟧: concentration in one center (often describing Tokyo)\n\nCOMMON PATTERNS:\n- ～⟦に→に：00314_ni⟧{集中|しゅうちゅう}する: to concentrate on ~\n- ～⟦が→が：00051_ga⟧{集中|しゅうちゅう}する: ~ converges/concentrates\n\nSIMILAR WORDS:\n- ⟦{専念|せんねん}する→専念する：25369_sennensuru⟧: to devote oneself to — implies giving up other things to focus exclusively\n- ⟦{注力|ちゅうりょく}する→注力する：21912_chuuryokusuru⟧: to focus efforts on — more business-oriented; emphasizes directing resources\n- ⟦{没頭|ぼっとう}する→没頭する：18376_bottousuru⟧: to be absorbed in — implies being deeply engrossed, losing track of everything else",
   "conjugation": {
     "type": "suru",
     "forms": [
@@ -127,7 +180,7 @@
   "examples": [
     {
       "id": "21908_shuuchuusuru_ex1",
-      "japanese": "{勉強|べんきょう}に{集中|しゅうちゅう}する。",
+      "japanese": "⟦{勉強|べんきょう}→勉強：00770_benkyou⟧⟦に→に：00314_ni⟧{集中|しゅうちゅう}する。",
       "english": "To concentrate on studying.",
       "sense_numbers": [
         1
@@ -137,7 +190,7 @@
     },
     {
       "id": "21908_shuuchuusuru_ex2",
-      "japanese": "{静|しず}かな{場所|ばしょ}でないと{集中|しゅうちゅう}できない。",
+      "japanese": "⟦{静|しず}か→静か：00755_shizuka⟧な⟦{場所|ばしょ}→場所：00829_basho⟧⟦でないと→でないと：30684_denaito⟧{集中|しゅうちゅう}できない。",
       "english": "I can't concentrate unless it's a quiet place.",
       "sense_numbers": [
         1
@@ -147,7 +200,7 @@
     },
     {
       "id": "21908_shuuchuusuru_ex3",
-      "japanese": "{試験|しけん}{前|まえ}は{苦手|にがて}な{科目|かもく}に{集中|しゅうちゅう}して{取|と}り{組|く}んだ。",
+      "japanese": "⟦{試験|しけん}→試験：01422_shiken⟧⟦{前|まえ}→前：02255_mae⟧⟦は→は：00079_ha⟧⟦{苦手|にがて}→苦手：03513_nigate⟧な⟦{科目|かもく}→科目：00163_kamoku⟧⟦に→に：00314_ni⟧{集中|しゅうちゅう}して⟦{取|と}り{組|く}んだ→取り組む：04225_torikumu⟧。",
       "english": "Before the exam, I concentrated on working on my weak subjects.",
       "sense_numbers": [
         1
@@ -157,7 +210,7 @@
     },
     {
       "id": "21908_shuuchuusuru_ex4",
-      "japanese": "{人口|じんこう}が{都市|とし}に{集中|しゅうちゅう}している。",
+      "japanese": "⟦{人口|じんこう}→人口：01618_jinkou⟧⟦が→が：00051_ga⟧⟦{都市|とし}→都市：01477_toshi⟧⟦に→に：00314_ni⟧{集中|しゅうちゅう}して⟦いる→いる：00495_iru⟧。",
       "english": "The population is concentrated in the cities.",
       "sense_numbers": [
         2
@@ -167,7 +220,7 @@
     },
     {
       "id": "21908_shuuchuusuru_ex5",
-      "japanese": "{注文|ちゅうもん}が{一|いち}{時期|じき}に{集中|しゅうちゅう}した。",
+      "japanese": "⟦{注文|ちゅうもん}→注文：03485_chuumon⟧⟦が→が：00051_ga⟧⟦{一|いち}→一：00705_ichi⟧⟦{時期|じき}→時期：03269_jiki⟧⟦に→に：00314_ni⟧{集中|しゅうちゅう}した。",
       "english": "Orders were concentrated in one period.",
       "sense_numbers": [
         2
@@ -177,7 +230,7 @@
     },
     {
       "id": "21908_shuuchuusuru_ex6",
-      "japanese": "{批判|ひはん}が{一人|ひとり}の{政治家|せいじか}に{集中|しゅうちゅう}している。",
+      "japanese": "⟦{批判|ひはん}→批判：03580_hihan⟧⟦が→が：00051_ga⟧⟦{一人|ひとり}→一人：00630_hitori⟧⟦の→の：09472_no⟧⟦{政治家|せいじか}→政治家：03084_seijika⟧⟦に→に：00314_ni⟧{集中|しゅうちゅう}して⟦いる→いる：00495_iru⟧。",
       "english": "Criticism is focused on a single politician.",
       "sense_numbers": [
         2

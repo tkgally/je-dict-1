@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29406_furosakibyoubu_ex1",
-      "japanese": "{風炉先屏風|ふろさきびょうぶ}を{置|お}く。",
+      "japanese": "{風炉先屏風|ふろさきびょうぶ}⟦を→を：00422_wo⟧⟦{置|お}く→置く：01092_oku⟧。",
       "english": "to place a tea-ceremony screen",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29406_furosakibyoubu_ex2",
-      "japanese": "{茶席|ちゃせき}に{風炉先屏風|ふろさきびょうぶ}を{立|た}てた。",
+      "japanese": "⟦{茶席|ちゃせき}→茶席：29411_chaseki⟧⟦に→に：00314_ni⟧{風炉先屏風|ふろさきびょうぶ}⟦を→を：00422_wo⟧⟦{立|た}てた→立てる：01196_tateru⟧。",
       "english": "A tea screen was set up at the tea gathering.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29406_furosakibyoubu_ex3",
-      "japanese": "{風炉先屏風|ふろさきびょうぶ}は{道具|どうぐ}の{背景|はいけい}を{引|ひ}き{締|し}める{役割|やくわり}がある。",
+      "japanese": "{風炉先屏風|ふろさきびょうぶ}⟦は→は：00079_ha⟧⟦{道具|どうぐ}→道具：01479_dougu⟧⟦の→の：09472_no⟧⟦{背景|はいけい}→背景：28348_haikei⟧⟦を→を：00422_wo⟧⟦{引|ひ}き{締|し}める→引き締める：15264_hikishimeru⟧⟦{役割|やくわり}→役割：03638_yakuwari⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "The tea screen serves to visually frame the utensils.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "A specialized tea-ceremony ({茶道|さどう}) screen, lower than an ordinary {屏風|びょうぶ}, set behind the {風炉|ふろ} and utensils to define the host's space.\n\nRELATED:\n- {屏風|びょうぶ}: folding screen\n- {風炉|ふろ}: portable brazier used in the tea ceremony\n- {茶道|さどう}: the way of tea",
+  "notes": "A specialized tea-ceremony (⟦{茶道|さどう}→茶道：04451_sadou⟧) screen, lower than an ordinary ⟦{屏風|びょうぶ}→屏風：06228_byoubu⟧, set behind the {風炉|ふろ} and utensils to define the host's space.\n\nRELATED WORDS:\n- ⟦{屏風|びょうぶ}→屏風：06228_byoubu⟧: folding screen\n- {風炉|ふろ}: portable brazier used in the tea ceremony\n- ⟦{茶道|さどう}→茶道：04451_sadou⟧: the way of tea",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "06228_byoubu",
+      "reading": "びょうぶ",
+      "headword": "{屏風|びょうぶ}",
+      "label": "folding screen"
+    },
+    {
+      "type": "related",
+      "target_id": "04451_sadou",
+      "reading": "さどう",
+      "headword": "{茶道|さどう}",
+      "label": "the way of tea"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +69,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "culture"
       ],
       "domain": []
     },
     "created": "2026-06-22T01:45:27Z",
-    "modified": "2026-06-22T01:45:27Z"
+    "modified": "2026-09-02T04:02:36Z"
   }
 }

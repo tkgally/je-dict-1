@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24413_riifuretto_ex1",
-      "japanese": "リーフレットを{配|くば}る。",
+      "japanese": "リーフレット⟦を→を：00422_wo⟧⟦{配|くば}る→配る：03921_kubaru⟧。",
       "english": "To hand out leaflets.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24413_riifuretto_ex2",
-      "japanese": "{観光|かんこう}{案内|あんない}のリーフレットをもらった。",
+      "japanese": "⟦{観光|かんこう}{案内|あんない}→観光案内：20675_kankouannai⟧⟦の→の：09472_no⟧リーフレット⟦を→を：00422_wo⟧⟦もらった→もらう：00520_morau⟧。",
       "english": "I got a tourism information leaflet.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24413_riifuretto_ex3",
-      "japanese": "イベントの{内容|ないよう}をまとめたリーフレットを{作成|さくせい}して、{参加者|さんかしゃ}に{配布|はいふ}した。",
+      "japanese": "⟦イベント→イベント：09594_ibento⟧⟦の→の：09472_no⟧⟦{内容|ないよう}→内容：01482_naiyou⟧⟦を→を：00422_wo⟧⟦まとめた→まとめる：02424_matomeru⟧リーフレット⟦を→を：00422_wo⟧⟦{作成|さくせい}して→作成する：25378_sakuseisuru⟧、⟦{参加者|さんかしゃ}→参加者：03059_sankasha⟧⟦に→に：00314_ni⟧⟦{配布|はいふ}→配布：14410_haifu⟧⟦した→する：00392_suru⟧。",
       "english": "We created a leaflet summarizing the event details and distributed it to participants.",
       "sense_numbers": [
         1
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "A loanword from English \"leaflet.\" In Japanese, リーフレット typically refers to a small, often folded information sheet — slightly more specific than the broader パンフレット. Common in tourism, healthcare, and municipal information.\n\nCOMMON COLLOCATIONS:\n- リーフレットを{配|くば}る: to distribute leaflets\n- リーフレットを{作|つく}る: to create a leaflet\n- リーフレットを{置|お}く: to set out leaflets (for pickup)\n- {三|み}つ{折|お}りリーフレット: tri-fold leaflet\n\nSIMILAR WORDS:\n- パンフレット: pamphlet — a broader term, often for longer booklet-style publications\n- チラシ: flyer — typically a single sheet, often used for advertising sales or events\n- ビラ: bill, handbill — an older or more casual word for a flyer\n- カタログ: catalog — a detailed product listing, usually longer and more formal",
+  "notes": "A loanword from English \"leaflet.\" In Japanese, リーフレット typically refers to a small, often folded information sheet — slightly more specific than the broader ⟦パンフレット→パンフレット：19127_panfuretto⟧. Common in tourism, healthcare, and municipal information.\n\nCOMMON COLLOCATIONS:\n- リーフレット⟦を→を：00422_wo⟧⟦{配|くば}る→配る：03921_kubaru⟧: to distribute leaflets\n- リーフレット⟦を→を：00422_wo⟧⟦{作|つく}る→作る：00481_tsukuru⟧: to create a leaflet\n- リーフレット⟦を→を：00422_wo⟧⟦{置|お}く→置く：01092_oku⟧: to set out leaflets (for pickup)\n- {三|み}つ{折|お}りリーフレット: tri-fold leaflet\n\nSIMILAR WORDS:\n- ⟦パンフレット→パンフレット：19127_panfuretto⟧: pamphlet — a broader term, often for longer booklet-style publications\n- ⟦チラシ→チラシ：23406_chirashi⟧: flyer — typically a single sheet, often used for advertising sales or events\n- ⟦ビラ→ビラ：11240_bira⟧: bill, handbill — an older or more casual word for a flyer\n- ⟦カタログ→カタログ：10806_katarogu⟧: catalog — a detailed product listing, usually longer and more formal",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19127_panfuretto",
+      "reading": "ぱんふれっと",
+      "headword": "パンフレット",
+      "label": "pamphlet"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23406_chirashi",
+      "reading": "ちらし",
+      "headword": "チラシ",
+      "label": "flyer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11240_bira",
+      "reading": "びら",
+      "headword": "ビラ",
+      "label": "bill, handbill"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10806_katarogu",
+      "reading": "かたろぐ",
+      "headword": "カタログ",
+      "label": "catalog"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +89,6 @@
       ]
     },
     "created": "2026-04-19T09:17:24Z",
-    "modified": "2026-04-19T09:17:24Z"
+    "modified": "2026-09-02T04:02:18Z"
   }
 }

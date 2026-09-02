@@ -3,7 +3,7 @@
   "headword": "{企画|きかく}する",
   "reading": "きかくする",
   "romaji": "kikakusuru",
-  "part_of_speech": "verb (suru)",
+  "part_of_speech": "suru verb",
   "gloss": "to plan; to organize; to devise",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29396_kikakusuru_ex1",
-      "japanese": "イベントを{企画|きかく}する。",
+      "japanese": "⟦イベント→イベント：09594_ibento⟧⟦を→を：00422_wo⟧{企画|きかく}する。",
       "english": "to plan an event",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29396_kikakusuru_ex2",
-      "japanese": "{新|あたら}しい{商品|しょうひん}を{企画|きかく}している。",
+      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦{商品|しょうひん}→商品：01436_shouhin⟧⟦を→を：00422_wo⟧{企画|きかく}して⟦いる→いる：00495_iru⟧。",
       "english": "We are planning a new product.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29396_kikakusuru_ex3",
-      "japanese": "{社員|しゃいん}{旅行|りょこう}を{企画|きかく}することになり、{行|い}き{先|さき}を{考|かんが}えている。",
+      "japanese": "⟦{社員|しゃいん}→社員：03065_shain⟧⟦{旅行|りょこう}→旅行：00748_ryokou⟧⟦を→を：00422_wo⟧{企画|きかく}すること⟦に→に：00314_ni⟧⟦なり→なる：01970_naru⟧、⟦{行|い}き{先|さき}→行き先：16779_ikisaki⟧⟦を→を：00422_wo⟧⟦{考|かんが}えている→考える：00856_kangaeru⟧。",
       "english": "I've been put in charge of organizing the company trip and am thinking about where to go.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "TRANSITIVITY: {他動詞|たどうし} (transitive). Pattern: X を {企画|きかく}する (plan X).\n\nThe noun {企画|きかく} (\"a plan, a project\") and {企画|きかく}{書|しょ} (\"project proposal\") are very common in the workplace.\n\nCOMMON COLLOCATIONS:\n- {企画|きかく}{書|しょ}: project proposal document\n- {企画|きかく}{部|ぶ}: planning department\n- イベントを{企画|きかく}する: to organize an event\n\nSIMILAR WORDS:\n- {計画|けいかく}する: to plan — focuses on the concrete schedule and steps; {企画|きかく} emphasizes devising the concept",
+  "notes": "TRANSITIVITY: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive). Pattern: X ⟦を→を：00422_wo⟧ {企画|きかく}する (plan X).\n\nThe noun ⟦{企画|きかく}→企画：04879_kikaku⟧ (\"a plan, a project\") and ⟦{企画|きかく}{書|しょ}→企画書：20593_kikakusho⟧ (\"project proposal\") are very common in the workplace.\n\nCOMMON COLLOCATIONS:\n- ⟦{企画|きかく}{書|しょ}→企画書：20593_kikakusho⟧: project proposal document\n- ⟦{企画|きかく}{部|ぶ}→企画部：27613_kikakubu⟧: planning department\n- ⟦イベント→イベント：09594_ibento⟧⟦を→を：00422_wo⟧{企画|きかく}する: to organize an event\n\nSIMILAR WORDS:\n- ⟦{計画|けいかく}する→計画する：20998_keikakusuru⟧: to plan — focuses on the concrete schedule and steps; ⟦{企画|きかく}→企画：04879_kikaku⟧ emphasizes devising the concept",
   "prominent_see_also": [
     {
       "target_id": "04879_kikaku",
@@ -54,6 +54,22 @@
     }
   ],
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20998_keikakusuru",
+      "reading": "けいかくする",
+      "headword": "{計画|けいかく}する",
+      "label": "to plan"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26916_sekkeisuru",
+      "reading": "せっけいする",
+      "headword": "{設計|せっけい}する",
+      "label": "to design"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -70,7 +86,7 @@
       "verb_class": "suru"
     },
     "created": "2026-06-22T01:45:27Z",
-    "modified": "2026-06-22T01:45:27Z"
+    "modified": "2026-09-02T04:02:36Z"
   },
   "conjugation": {
     "type": "suru",

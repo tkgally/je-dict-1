@@ -15,41 +15,62 @@
   "examples": [
     {
       "id": "29804_shouhon_ex1",
-      "japanese": "{戸籍|こせき}{抄本|しょうほん}が{必要|ひつよう}です。",
+      "japanese": "⟦{戸籍|こせき}→戸籍：12695_koseki⟧{抄本|しょうほん}⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧です。",
       "english": "I need an abstract copy of my family register.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29804_shouhon_ex2",
-      "japanese": "{市役所|しやくしょ}で{抄本|しょうほん}を{取|と}った。",
+      "japanese": "⟦{市役所|しやくしょ}→市役所：03067_shiyakusho⟧⟦で→で：00502_de⟧{抄本|しょうほん}⟦を→を：00422_wo⟧⟦{取|と}った→取る：00565_toru⟧。",
       "english": "I got an abstract copy at city hall.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29804_shouhon_ex3",
-      "japanese": "{申請|しんせい}には{戸籍|こせき}{抄本|しょうほん}を{一通|いっつう}{添|そ}えてください。",
+      "japanese": "⟦{申請|しんせい}→申請：04207_shinsei⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{戸籍|こせき}→戸籍：12695_koseki⟧{抄本|しょうほん}⟦を→を：00422_wo⟧⟦{一通|いっつう}→一通：26154_ittsuu⟧⟦{添|そ}えて→添える：13315_soeru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please attach one abstract copy of your family register to the application.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A {抄本|しょうほん} extracts only the part of an official register relating to one person, while a {謄本|とうほん} reproduces the entire register. Rarely used alone — it almost always appears in compounds.\n\nCOMMON COLLOCATIONS:\n- {戸籍|こせき}{抄本|しょうほん}: abstract copy of a family register (one person's section)\n- {住民票|じゅうみんひょう}の{抄本|しょうほん}: abstract of a residence record\n- {抄本|しょうほん}を{取|と}る: to obtain an abstract copy\n\nSIMILAR WORDS:\n- {謄本|とうほん}: certified full copy — reproduces the whole register, not just one person's part",
+  "notes": "A {抄本|しょうほん} extracts only the part of an official register relating to one person, while a ⟦{謄本|とうほん}→謄本：29796_touhon⟧ reproduces the entire register. Rarely used alone — it almost always appears in compounds.\n\nCOMMON COLLOCATIONS:\n- ⟦{戸籍|こせき}→戸籍：12695_koseki⟧{抄本|しょうほん}: abstract copy of a family register (one person's section)\n- ⟦{住民票|じゅうみんひょう}→住民票：09628_juuminhyou⟧⟦の→の：09472_no⟧{抄本|しょうほん}: abstract of a residence record\n- {抄本|しょうほん}⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧: to obtain an abstract copy\n\nSIMILAR WORDS:\n- ⟦{謄本|とうほん}→謄本：29796_touhon⟧: certified full copy — reproduces the whole register, not just one person's part",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "29796_touhon",
+      "reading": "とうほん",
+      "headword": "{謄本|とうほん}",
+      "label": "certified full copy"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["law"],
-      "domain": ["legal"]
+      "politeness": "plain",
+      "semantic": [
+        "law"
+      ],
+      "domain": [
+        "legal"
+      ]
     },
     "created": "2026-07-13T12:21:17Z",
-    "modified": "2026-07-13T12:21:17Z"
+    "modified": "2026-09-02T04:02:38Z"
   }
 }

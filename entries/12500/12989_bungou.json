@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "12989_bungou_ex1",
-      "japanese": "{夏目|なつめ}{漱石|そうせき}は{日本|にほん}の{文豪|ぶんごう}だ。",
+      "japanese": "⟦{夏目|なつめ}{漱石|そうせき}→夏目漱石：30575_natsumesouseki⟧⟦は→は：00079_ha⟧⟦{日本|にほん}→日本：03876_nihon⟧⟦の→の：09472_no⟧{文豪|ぶんごう}だ。",
       "english": "Natsume Soseki is a great Japanese author.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "12989_bungou_ex2",
-      "japanese": "{文豪|ぶんごう}たちが{愛|あい}した{旅館|りょかん}を{訪|たず}ねた。",
+      "japanese": "{文豪|ぶんごう}たち⟦が→が：00051_ga⟧⟦{愛|あい}した→愛する：01811_aisuru⟧⟦{旅館|りょかん}→旅館：01049_ryokan⟧⟦を→を：00422_wo⟧⟦{訪|たず}ねた→訪ねる：01182_tazuneru⟧。",
       "english": "I visited the inn that was loved by the literary masters.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "12989_bungou_ex3",
-      "japanese": "この{町|まち}には{明治|めいじ}{時代|じだい}の{文豪|ぶんごう}ゆかりの{地|ち}が{数多|かずおお}く{残|のこ}っている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{町|まち}→町：00613_machi⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{明治|めいじ}{時代|じだい}→明治時代：28080_meijijidai⟧⟦の→の：09472_no⟧{文豪|ぶんごう}⟦ゆかり→ゆかり：10650_yukari⟧⟦の→の：09472_no⟧{地|ち}⟦が→が：00051_ga⟧⟦{数多|かずおお}く→数多く：12948_kazuooku⟧⟦{残|のこ}っている→残る：01187_nokoru⟧。",
       "english": "In this town, many sites associated with Meiji-era literary masters still remain.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA respectful title used for established, canonical writers. In Japan, often applied to Meiji- and Taisho-era novelists such as {夏目|なつめ}{漱石|そうせき}, {太宰|だざい}{治|おさむ}, {芥川|あくたがわ}{龍之介|りゅうのすけ}, and {森|もり}{鷗外|おうがい}. Not typically used for living authors.\n\nCOMMON COLLOCATIONS:\n- {日本|にほん}の{文豪|ぶんごう}: great Japanese author\n- {文豪|ぶんごう}の{作品|さくひん}: works of a literary master\n- {文豪|ぶんごう}ゆかりの{地|ち}: places associated with a literary master\n\nSIMILAR WORDS:\n- {作家|さっか}: writer, author (general, neutral)\n- {小説家|しょうせつか}: novelist (neutral)",
+  "notes": "USAGE:\nA respectful title used for established, canonical writers. In Japan, often applied to Meiji- and Taisho-era novelists such as ⟦{夏目|なつめ}{漱石|そうせき}→夏目漱石：30575_natsumesouseki⟧, {太宰|だざい}{治|おさむ}, {芥川|あくたがわ}{龍之介|りゅうのすけ}, and ⟦{森|もり}→森：02260_mori⟧{鷗外|おうがい}. Not typically used for living authors.\n\nCOMMON COLLOCATIONS:\n- ⟦{日本|にほん}→日本：03876_nihon⟧⟦の→の：09472_no⟧{文豪|ぶんごう}: great Japanese author\n- {文豪|ぶんごう}⟦の→の：09472_no⟧⟦{作品|さくひん}→作品：02776_sakuhin⟧: works of a literary master\n- {文豪|ぶんごう}⟦ゆかり→ゆかり：10650_yukari⟧⟦の→の：09472_no⟧{地|ち}: places associated with a literary master\n\nSIMILAR WORDS:\n- ⟦{作家|さっか}→作家：01414_sakka⟧: writer, author (general, neutral)\n- ⟦{小説家|しょうせつか}→小説家：03070_shousetsuka⟧: novelist (neutral)",
   "cross_references": [
     {
       "type": "related",
@@ -52,11 +52,25 @@
       "headword": "{文芸|ぶんげい}",
       "label": "literary art",
       "target_id": "12990_bungei"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01414_sakka",
+      "reading": "さっか",
+      "headword": "{作家|さっか}",
+      "label": "writer, author"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03070_shousetsuka",
+      "reading": "しょうせつか",
+      "headword": "{小説家|しょうせつか}",
+      "label": "novelist"
     }
   ],
   "metadata": {
     "created": "2026-02-23T05:09:27Z",
-    "modified": "2026-07-08T17:24:36Z",
+    "modified": "2026-09-02T04:01:31Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

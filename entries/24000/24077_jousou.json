@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24077_jousou_ex1",
-      "japanese": "{大気|たいき}の{上層|じょうそう}は{気温|きおん}が{低|ひく}い。",
+      "japanese": "⟦{大気|たいき}→大気：03388_taiki⟧⟦の→の：09472_no⟧{上層|じょうそう}⟦は→は：00079_ha⟧⟦{気温|きおん}→気温：00235_kion⟧⟦が→が：00051_ga⟧⟦{低|ひく}い→低い：02947_hikui⟧。",
       "english": "The upper layers of the atmosphere have low temperatures.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24077_jousou_ex2",
-      "japanese": "{上層|じょうそう}{部|ぶ}の{管理職|かんりしょく}が{会議|かいぎ}に{出席|しゅっせき}した。",
+      "japanese": "{上層|じょうそう}⟦{部|ぶ}→〜部：00440_bu⟧⟦の→の：09472_no⟧⟦{管理職|かんりしょく}→管理職：21834_kanrishoku⟧⟦が→が：00051_ga⟧⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦に→に：00314_ni⟧⟦{出席|しゅっせき}した→出席する：01830_shussekisuru⟧。",
       "english": "Upper-level managers attended the meeting.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24077_jousou_ex3",
-      "japanese": "{上層|じょうそう}{階級|かいきゅう}の{生活|せいかつ}は{一般|いっぱん}{市民|しみん}とは{大|おお}きく{異|こと}なっていた。",
+      "japanese": "{上層|じょうそう}⟦{階級|かいきゅう}→階級：05515_kaikyuu⟧⟦の→の：09472_no⟧⟦{生活|せいかつ}→生活：01443_seikatsu⟧⟦は→は：00079_ha⟧⟦{一般|いっぱん}→一般：01737_ippan⟧⟦{市民|しみん}→市民：01426_shimin⟧⟦と→と：00512_to⟧⟦は→は：00079_ha⟧⟦{大|おお}きく→大きい：00335_ookii⟧⟦{異|こと}なっていた→異なる：02101_kotonaru⟧。",
       "english": "The lifestyle of the upper class was vastly different from that of ordinary citizens.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Used both for physical layers (atmosphere, soil, ocean) and metaphorical ones (social class, organizational hierarchy). The physical sense is common in science and weather reports; the social sense appears in discussions of class, management, and power structures.\n\nCOMMON COLLOCATIONS:\n- {上層|じょうそう}{大気|たいき}: upper atmosphere\n- {上層|じょうそう}{部|ぶ}: upper echelon/division\n- {上層|じょうそう}{階級|かいきゅう}: upper class\n- {上層|じょうそう}{階|かい}: upper floor\n\nSIMILAR WORDS:\n- {下層|かそう}: lower layer/stratum — the opposite\n- {中層|ちゅうそう}: middle layer\n- {表層|ひょうそう}: surface layer — the outermost part, not necessarily the highest",
+  "notes": "Used both for physical layers (atmosphere, soil, ocean) and metaphorical ones (social class, organizational hierarchy). The physical sense is common in science and weather reports; the social sense appears in discussions of class, management, and power structures.\n\nCOMMON COLLOCATIONS:\n- {上層|じょうそう}⟦{大気|たいき}→大気：03388_taiki⟧: upper atmosphere\n- {上層|じょうそう}⟦{部|ぶ}→〜部：00440_bu⟧: upper echelon/division\n- {上層|じょうそう}⟦{階級|かいきゅう}→階級：05515_kaikyuu⟧: upper class\n- {上層|じょうそう}⟦{階|かい}→階：01034_kai⟧: upper floor\n\nSIMILAR WORDS:\n- ⟦{下層|かそう}→下層：11372_kasou⟧: lower layer/stratum — the opposite\n- {中層|ちゅうそう}: middle layer\n- ⟦{表層|ひょうそう}→表層：21091_hyousou⟧: surface layer — the outermost part, not necessarily the highest",
   "cross_references": [
     {
       "type": "antonym",
@@ -52,6 +52,13 @@
       "reading": "かそう",
       "headword": "{下層|かそう}",
       "label": "lower layer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21091_hyousou",
+      "reading": "ひょうそう",
+      "headword": "{表層|ひょうそう}",
+      "label": "surface layer"
     }
   ],
   "schema_version": "2.0",
@@ -61,12 +68,14 @@
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "science",
         "society"
       ]
     },
     "created": "2026-04-17T17:37:55Z",
-    "modified": "2026-04-25T06:08:04Z"
+    "modified": "2026-09-02T04:02:16Z"
   }
 }

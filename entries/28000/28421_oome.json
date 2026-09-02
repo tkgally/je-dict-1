@@ -3,7 +3,7 @@
   "headword": "{多|おお}め",
   "reading": "おおめ",
   "romaji": "oome",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, na-adjective",
   "gloss": "a bit more; somewhat more; on the larger side",
   "definitions": [
     {
@@ -15,41 +15,82 @@
   "examples": [
     {
       "id": "28421_oome_ex1",
-      "japanese": "ご{飯|はん}を{多|おお}めに{盛|も}る。",
+      "japanese": "⟦ご{飯|はん}→ご飯：00776_gohan⟧⟦を→を：00422_wo⟧{多|おお}め⟦に→に：00314_ni⟧⟦{盛|も}る→盛る：00292_moru⟧。",
       "english": "Serve a bit more rice.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28421_oome_ex2",
-      "japanese": "{塩|しお}を{多|おお}めに{入|い}れてください。",
+      "japanese": "⟦{塩|しお}→塩：00887_shio⟧⟦を→を：00422_wo⟧{多|おお}め⟦に→に：00314_ni⟧⟦{入|い}れて→入れる：01098_ireru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please add a little more salt.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28421_oome_ex3",
-      "japanese": "{週末|しゅうまつ}は{客|きゃく}が{増|ふ}えるので、{食材|しょくざい}を{多|おお}めに{仕入|しい}れておいた。",
+      "japanese": "⟦{週末|しゅうまつ}→週末：03030_shuumatsu⟧⟦は→は：00079_ha⟧⟦{客|きゃく}→客：00865_kyaku⟧⟦が→が：00051_ga⟧⟦{増|ふ}える→増える：01183_fueru⟧⟦の→の：09472_no⟧で、⟦{食材|しょくざい}→食材：04940_shokuzai⟧⟦を→を：00422_wo⟧{多|おお}め⟦に→に：00314_ni⟧⟦{仕入|しい}れて→仕入れる：11430_shiireru⟧おいた。",
       "english": "Since customers increase on weekends, I stocked up on a bit more ingredients.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Formed from {多|おお}い (many, much) + the suffix め (tendency toward, slightly on the X side). Most often used adverbially as {多|おお}めに.\n\nCOMMON COLLOCATIONS:\n- {多|おお}めに{入|い}れる: put in a bit more\n- {多|おお}めに{作|つく}る: make a bit more\n- {多|おお}めに{見積|みつ}もる: estimate on the high side\n- {多|おお}めの{量|りょう}: a somewhat larger amount\n\nSIMILAR WORDS:\n- {少|すく}なめ: a bit less — the opposite, used in the same way\n- たっぷり: plenty; a lot — emphasizes generous quantity, stronger than {多|おお}め\n- {大|おお}きめ: a bit larger (in size) — uses め with size rather than quantity",
+  "notes": "Formed from ⟦{多|おお}い→多い：01127_ooi⟧ (many, much) + the suffix め (tendency toward, slightly on the X side). Most often used adverbially as {多|おお}め⟦に→に：00314_ni⟧.\n\nCOMMON COLLOCATIONS:\n- {多|おお}め⟦に→に：00314_ni⟧⟦{入|い}れる→入れる：01098_ireru⟧: put in a bit more\n- {多|おお}め⟦に→に：00314_ni⟧⟦{作|つく}る→作る：00481_tsukuru⟧: make a bit more\n- {多|おお}め⟦に→に：00314_ni⟧⟦{見積|みつ}もる→見積もる：14132_mitsumoru⟧: estimate on the high side\n- {多|おお}め⟦の→の：09472_no⟧⟦{量|りょう}→量：03799_ryou⟧: a somewhat larger amount\n\nSIMILAR WORDS:\n- ⟦{少|すく}なめ→少なめ：19120_sukuname⟧: a bit less — the opposite, used in the same way\n- ⟦たっぷり→たっぷり：03404_tappuri⟧: plenty; a lot — emphasizes generous quantity, stronger than {多|おお}め\n- ⟦{大|おお}きめ→大きめ：21239_ookime⟧: a bit larger (in size) — uses め with size rather than quantity",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "19120_sukuname",
+      "reading": "すくなめ",
+      "headword": "{少|すく}なめ",
+      "label": "a bit less"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03404_tappuri",
+      "reading": "たっぷり",
+      "headword": "たっぷり",
+      "label": "plenty"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21239_ookime",
+      "reading": "おおきめ",
+      "headword": "{大|おお}きめ",
+      "label": "a bit larger"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11176_hayame",
+      "reading": "はやめ",
+      "headword": "{早|はや}め",
+      "label": "a bit early, on the early side"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-na"],
+      "pos": [
+        "noun",
+        "adjective-na"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["quantity"],
+      "politeness": "plain",
+      "semantic": [
+        "quantity"
+      ],
       "domain": []
     },
     "created": "2026-05-31T02:08:49Z",
-    "modified": "2026-05-31T02:08:49Z"
+    "modified": "2026-09-02T04:02:33Z"
   }
 }

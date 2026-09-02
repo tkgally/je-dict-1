@@ -15,41 +15,76 @@
   "examples": [
     {
       "id": "27091_torunitaranai_ex1",
-      "japanese": "{取|と}るに{足|た}らない{問題|もんだい}だ。",
+      "japanese": "{取|と}るに{足|た}らない⟦{問題|もんだい}→問題：00797_mondai⟧だ。",
       "english": "It's a trivial problem.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27091_torunitaranai_ex2",
-      "japanese": "そんな{取|と}るに{足|た}らないことで{悩|なや}むな。",
+      "japanese": "⟦そんな→そんな：01645_sonna⟧{取|と}るに{足|た}らないこと⟦で→で：00502_de⟧⟦{悩|なや}む→悩む：02380_nayamu⟧な。",
       "english": "Don't worry about something so insignificant.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27091_torunitaranai_ex3",
-      "japanese": "{彼|かれ}は{取|と}るに{足|た}らない{人物|じんぶつ}だと{思|おも}われていたが、のちに{大|おお}きな{功績|こうせき}を{残|のこ}した。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{取|と}るに{足|た}らない⟦{人物|じんぶつ}→人物：03356_jinbutsu⟧だ⟦と→と：00512_to⟧⟦{思|おも}われていた→思う：00492_omou⟧⟦が→が：00051_ga⟧、のち⟦に→に：00314_ni⟧⟦{大|おお}きな→大きな：02849_ookina⟧⟦{功績|こうせき}→功績：04143_kouseki⟧⟦を→を：00422_wo⟧⟦{残|のこ}した→残す：01975_nokosu⟧。",
       "english": "He was considered an insignificant person, but later left behind great achievements.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A literary expression meaning \"not worth taking up\" or \"not worth considering.\" Has an elevated, slightly formal tone and is commonly encountered in writing, speeches, and formal conversation.\n\nSTRUCTURE:\nComposed of {取|と}る (to take) + に (particle) + {足|た}らない (not sufficient). The underlying meaning is \"not sufficient to be taken up [for discussion/attention].\"\n\nCOMMON COLLOCATIONS:\n- {取|と}るに{足|た}らない{問題|もんだい}: a trivial problem\n- {取|と}るに{足|た}らない{話|はなし}: a trivial matter\n- {取|と}るに{足|た}らない{存在|そんざい}: an insignificant existence\n- {取|と}るに{足|た}らない{人物|じんぶつ}: an insignificant person\n\nSIMILAR WORDS:\n- くだらない: worthless; stupid — more colloquial and dismissive, often expressing contempt. {取|と}るに{足|た}らない is more measured and literary.\n- たいしたことない: no big deal — casual and reassuring. {取|と}るに{足|た}らない is more formal and definitive.\n- つまらない: boring; trivial — broader in meaning; can mean \"boring\" or \"worthless.\" {取|と}るに{足|た}らない specifically means \"not worth considering.\"",
+  "notes": "A literary expression meaning \"not worth taking up\" or \"not worth considering.\" Has an elevated, slightly formal tone and is commonly encountered in writing, speeches, and formal conversation.\n\nCOMMON PATTERNS:\nComposed of ⟦{取|と}る→取る：00565_toru⟧ (to take) + ⟦に→に：00314_ni⟧ (particle) + ⟦{足|た}らない→足る：03914_taru⟧ (not sufficient). The underlying meaning is \"not sufficient to be taken up [for discussion/attention].\"\n\nCOMMON COLLOCATIONS:\n- {取|と}るに{足|た}らない⟦{問題|もんだい}→問題：00797_mondai⟧: a trivial problem\n- {取|と}るに{足|た}らない⟦{話|はなし}→話：01496_hanashi⟧: a trivial matter\n- {取|と}るに{足|た}らない⟦{存在|そんざい}→存在：03326_sonzai⟧: an insignificant existence\n- {取|と}るに{足|た}らない⟦{人物|じんぶつ}→人物：03356_jinbutsu⟧: an insignificant person\n\nSIMILAR WORDS:\n- ⟦くだらない→くだらない：09416_kudaranai⟧: worthless; stupid — more colloquial and dismissive, often expressing contempt. {取|と}るに{足|た}らない is more measured and literary.\n- たいしたことない: no big deal — casual and reassuring. {取|と}るに{足|た}らない is more formal and definitive.\n- ⟦つまらない→つまらない：00590_tsumaranai⟧: boring; trivial — broader in meaning; can mean \"boring\" or \"worthless.\" {取|と}るに{足|た}らない specifically means \"not worth considering.\"",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09416_kudaranai",
+      "reading": "くだらない",
+      "headword": "くだらない",
+      "label": "worthless"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25437_taishitakotonai",
+      "reading": "たいしたことない",
+      "headword": "{大|たい}したことない",
+      "label": "no big deal"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00590_tsumaranai",
+      "reading": "つまらない",
+      "headword": "つまらない",
+      "label": "boring"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["expression"],
+      "pos": [
+        "expression"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["descriptive"],
-      "style": ["written"]
+      "semantic": [
+        "descriptive"
+      ],
+      "style": [
+        "written"
+      ]
     },
     "created": "2026-05-07T11:12:26Z",
-    "modified": "2026-05-07T11:12:26Z"
+    "modified": "2026-09-02T04:02:29Z"
   }
 }

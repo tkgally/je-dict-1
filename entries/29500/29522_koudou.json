@@ -15,41 +15,74 @@
   "examples": [
     {
       "id": "29522_koudou_ex1",
-      "japanese": "{香道|こうどう}を{習|なら}う。",
+      "japanese": "{香道|こうどう}⟦を→を：00422_wo⟧⟦{習|なら}う→習う：00479_narau⟧。",
       "english": "To study the way of incense.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29522_koudou_ex2",
-      "japanese": "{香道|こうどう}では{香|こう}りを「{聞|き}く」と{言|い}う。",
+      "japanese": "{香道|こうどう}⟦で→で：00502_de⟧⟦は→は：00079_ha⟧{香|こう}り⟦を→を：00422_wo⟧「⟦{聞|き}く→聞く：00483_kiku⟧」⟦と→と：00512_to⟧⟦{言|い}う→言う：00515_iu⟧。",
       "english": "In the way of incense, smelling a fragrance is called 'listening' to it.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29522_koudou_ex3",
-      "japanese": "{香道|こうどう}は{茶道|さどう}や{華道|かどう}と{並|なら}ぶ{日本|にほん}の{伝統芸道|でんとうげいどう}の{一|ひと}つだ。",
+      "japanese": "{香道|こうどう}⟦は→は：00079_ha⟧⟦{茶道|さどう}→茶道：04451_sadou⟧や⟦{華道|かどう}→華道：04450_kadou⟧⟦と→と：00512_to⟧⟦{並|なら}ぶ→並ぶ：00605_narabu⟧⟦{日本|にほん}→日本：03876_nihon⟧⟦の→の：09472_no⟧{伝統芸道|でんとうげいどう}⟦の→の：09472_no⟧⟦{一|ひと}つ→一つ：02948_hitotsu⟧だ。",
       "english": "The way of incense is one of Japan's traditional refined arts, alongside tea ceremony and flower arranging.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A refined art centered on appreciating the fragrance of {香木|こうぼく} (fragrant wood). Practitioners 'listen' ({聞|き}く) to scents rather than 'smell' them, and play identification games such as {組香|くみこう}.\n\nCOMMON COLLOCATIONS:\n- {香道|こうどう}を{習|なら}う: to learn the way of incense\n- {香|こう}を{聞|き}く: to 'listen' to (appreciate) incense\n\nSIMILAR WORDS:\n- {茶道|さどう}: tea ceremony — the way of tea, a sister refined art\n- {華道|かどう}: flower arranging — the way of flowers, the third of the three arts",
+  "notes": "A refined art centered on appreciating the fragrance of {香木|こうぼく} (fragrant wood). Practitioners 'listen' (⟦{聞|き}く→聞く：00483_kiku⟧) to scents rather than 'smell' them, and play identification games such as {組香|くみこう}.\n\nCOMMON COLLOCATIONS:\n- {香道|こうどう}⟦を→を：00422_wo⟧⟦{習|なら}う→習う：00479_narau⟧: to learn the way of incense\n- ⟦{香|こう}→香：17307_kou⟧⟦を→を：00422_wo⟧⟦{聞|き}く→聞く：00483_kiku⟧: to 'listen' to (appreciate) incense\n\nSIMILAR WORDS:\n- ⟦{茶道|さどう}→茶道：04451_sadou⟧: tea ceremony — the way of tea, a sister refined art\n- ⟦{華道|かどう}→華道：04450_kadou⟧: flower arranging — the way of flowers, the third of the three arts",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04451_sadou",
+      "reading": "さどう",
+      "headword": "{茶道|さどう}",
+      "label": "tea ceremony"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04450_kadou",
+      "reading": "かどう",
+      "headword": "{華道|かどう}",
+      "label": "flower arranging"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29525_monkou",
+      "reading": "もんこう",
+      "headword": "{聞香|もんこう}",
+      "label": "appreciating incense"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["culture"],
+      "politeness": "plain",
+      "semantic": [
+        "culture"
+      ],
       "domain": []
     },
     "created": "2026-06-27T18:18:39Z",
-    "modified": "2026-06-27T18:18:39Z"
+    "modified": "2026-09-02T04:02:37Z"
   }
 }

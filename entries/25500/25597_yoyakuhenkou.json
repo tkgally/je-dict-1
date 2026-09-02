@@ -3,7 +3,7 @@
   "headword": "{予約変更|よやくへんこう}",
   "reading": "よやくへんこう",
   "romaji": "yoyakuhenkou",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "reservation change; booking modification",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25597_yoyakuhenkou_ex1",
-      "japanese": "{予約変更|よやくへんこう}をお{願|ねが}いしたいのですが。",
+      "japanese": "{予約変更|よやくへんこう}⟦を→を：00422_wo⟧⟦お{願|ねが}い→お願い：10299_onegai⟧⟦したい→する：00392_suru⟧⟦の→の：09472_no⟧です⟦が→が：00051_ga⟧。",
       "english": "I'd like to request a reservation change.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25597_yoyakuhenkou_ex2",
-      "japanese": "{予約変更|よやくへんこう}は{前日|ぜんじつ}まで{可能|かのう}です。",
+      "japanese": "{予約変更|よやくへんこう}⟦は→は：00079_ha⟧⟦{前日|ぜんじつ}→前日：03108_zenjitsu⟧⟦まで→まで：00490_made⟧⟦{可能|かのう}→可能：00175_kanou⟧です。",
       "english": "Reservation changes are possible until the day before.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25597_yoyakuhenkou_ex3",
-      "japanese": "{急|きゅう}な{予定|よてい}が{入|はい}ったので、レストランの{予約変更|よやくへんこう}を{電話|でんわ}でお{願|ねが}いした。",
+      "japanese": "⟦{急|きゅう}→急：13042_kyuu⟧な⟦{予定|よてい}→予定：00824_yotei⟧⟦が→が：00051_ga⟧⟦{入|はい}った→入る：00494_hairu⟧⟦の→の：09472_no⟧で、⟦レストラン→レストラン：01048_resutoran⟧⟦の→の：09472_no⟧{予約変更|よやくへんこう}⟦を→を：00422_wo⟧⟦{電話|でんわ}→電話：01471_denwa⟧⟦で→で：00502_de⟧⟦お{願|ねが}いした→お願いする：05654_onegaisuru⟧。",
       "english": "Something came up suddenly, so I called to request a change to the restaurant reservation.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {予約|よやく} (reservation) and {変更|へんこう} (change, modification). An essential phrase for travel and daily life in Japan, used at hotels, restaurants, clinics, airlines, and other services.\n\nCan function as a suru-verb ({予約変更|よやくへんこう}する). In polite service situations, {予約|よやく}の{変更|へんこう} (with the particle の) is also common.\n\nCOMMON COLLOCATIONS:\n- {予約変更|よやくへんこう}する: to change a reservation\n- {予約変更|よやくへんこう}{手数料|てすうりょう}: change fee\n- {予約変更|よやくへんこう}{不可|ふか}: no changes allowed\n- {予約変更|よやくへんこう}{期限|きげん}: deadline for changes\n\nRELATED TERMS:\n- {予約確認|よやくかくにん}: reservation confirmation — verifying an existing booking\n- {予約|よやく}キャンセル: reservation cancellation — canceling entirely rather than modifying\n- {日程変更|にっていへんこう}: schedule change — changing the dates specifically",
+  "notes": "A compound of ⟦{予約|よやく}→予約：01522_yoyaku⟧ (reservation) and ⟦{変更|へんこう}→変更：03616_henkou⟧ (change, modification). An essential phrase for travel and daily life in Japan, used at hotels, restaurants, clinics, airlines, and other services.\n\nCan function as a suru-verb ({予約変更|よやくへんこう}⟦する→する：00392_suru⟧). In polite service situations, ⟦{予約|よやく}→予約：01522_yoyaku⟧⟦の→の：09472_no⟧⟦{変更|へんこう}→変更：03616_henkou⟧ (with the particle ⟦の→の：09472_no⟧) is also common.\n\nCOMMON COLLOCATIONS:\n- {予約変更|よやくへんこう}⟦する→する：00392_suru⟧: to change a reservation\n- {予約変更|よやくへんこう}{手数料|てすうりょう}: change fee\n- {予約変更|よやくへんこう}⟦{不可|ふか}→不可：01922_fuka⟧: no changes allowed\n- {予約変更|よやくへんこう}⟦{期限|きげん}→期限：12861_kigen⟧: deadline for changes\n\nRELATED WORDS:\n- ⟦{予約確認|よやくかくにん}→予約確認：25596_yoyakukakunin⟧: reservation confirmation — verifying an existing booking\n- ⟦{予約|よやく}→予約：01522_yoyaku⟧⟦キャンセル→キャンセル：06776_kyanseru⟧: reservation cancellation — canceling entirely rather than modifying\n- {日程変更|にっていへんこう}: schedule change — changing the dates specifically",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "25596_yoyakukakunin",
+      "reading": "よやくかくにん",
+      "headword": "{予約確認|よやくかくにん}",
+      "label": "reservation confirmation"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,6 +62,8 @@
         "noun",
         "verb-suru"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "travel",
         "daily-life"
@@ -60,7 +71,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-26T12:34:18Z",
-    "modified": "2026-04-26T12:34:18Z"
+    "modified": "2026-09-02T04:02:23Z"
   },
   "conjugation": {
     "type": "suru",

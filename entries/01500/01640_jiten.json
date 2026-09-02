@@ -44,7 +44,7 @@
     },
     {
       "id": "01640_jiten_ex4",
-      "japanese": "⟦この→この：00962_kono⟧{辞典|じてん}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{例文|れいぶん}→例文：19450_reibun⟧⟦が→が：00051_ga⟧⟦たくさん→たくさん：00597_takusan⟧{載|の}っているので、⟦{使|つか}いやすいです→使う：00473_tsukau⟧。",
+      "japanese": "⟦この→この：00962_kono⟧{辞典|じてん}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{例文|れいぶん}→例文：19450_reibun⟧⟦が→が：00051_ga⟧⟦たくさん→たくさん：00597_takusan⟧⟦{載|の}っている→載る：27882_noru⟧⟦の→の：09472_no⟧で、⟦{使|つか}いやすいです→使う：00473_tsukau⟧。",
       "english": "This dictionary has many example sentences, so it's easy to use.",
       "notes": null,
       "has_audio": false,
@@ -54,7 +54,7 @@
     },
     {
       "id": "01640_jiten_ex5",
-      "japanese": "⟦{分|わ}からない→分かる：00463_wakaru⟧⟦{言葉|ことば}→言葉：02880_kotoba⟧⟦が→が：00051_ga⟧あったら、{辞典|じてん}⟦を→を：00422_wo⟧⟦{引|ひ}く→引く：01978_hiku⟧⟦{習慣|しゅうかん}→習慣：01429_shuukan⟧⟦を→を：00422_wo⟧つけましょう。",
+      "japanese": "⟦{分|わ}からない→分かる：00463_wakaru⟧⟦{言葉|ことば}→言葉：02880_kotoba⟧⟦が→が：00051_ga⟧⟦あったら→ある：00006_aru⟧、{辞典|じてん}⟦を→を：00422_wo⟧⟦{引|ひ}く→引く：01978_hiku⟧⟦{習慣|しゅうかん}→習慣：01429_shuukan⟧⟦を→を：00422_wo⟧⟦つけましょう→つける：00562_tsukeru⟧。",
       "english": "If there are words you don't understand, make a habit of looking them up in the dictionary.",
       "notes": null,
       "has_audio": false,
@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "{辞典|じてん} vs ⟦{辞書|じしょ}→辞書：04707_jisho⟧: Both mean dictionary, but {辞典|じてん} often refers to more comprehensive or specialized dictionaries.\n\nTYPES OF DICTIONARIES:\n- ⟦{国語|こくご}{辞典|じてん}→国語辞典：23277_kokugojiten⟧: Japanese-Japanese dictionary\n- ⟦{和英|わえい}{辞典|じてん}→和英辞典：24664_waeijiten⟧: Japanese-English dictionary\n- ⟦{英和|えいわ}{辞典|じてん}→英和辞典：23359_eiwajiten⟧: English-Japanese dictionary\n- ⟦{漢和|かんわ}{辞典|じてん}→漢和辞典：noentry⟧: kanji dictionary\n- ⟦{百科|ひゃっか}{事典|じてん}→百科事典：05144_hyakkajiten⟧: encyclopedia (different kanji!)\n\nNote: {事典|じてん} (encyclopedia) uses different kanji but same reading.",
+  "notes": "{辞典|じてん} vs ⟦{辞書|じしょ}→辞書：04707_jisho⟧: Both mean dictionary, but {辞典|じてん} often refers to more comprehensive or specialized dictionaries.\n\nTYPES OF DICTIONARIES:\n- ⟦{国語|こくご}{辞典|じてん}→国語辞典：23277_kokugojiten⟧: Japanese-Japanese dictionary\n- ⟦{和英|わえい}{辞典|じてん}→和英辞典：24664_waeijiten⟧: Japanese-English dictionary\n- ⟦{英和|えいわ}{辞典|じてん}→英和辞典：23359_eiwajiten⟧: English-Japanese dictionary\n- ⟦{漢和|かんわ}{辞典|じてん}→漢和辞典：noentry⟧: kanji dictionary\n- ⟦{百科|ひゃっか}{事典|じてん}→百科事典：05144_hyakkajiten⟧: encyclopedia (different kanji!)\n\nNote: ⟦{事典|じてん}→事典：21891_jiten⟧ (encyclopedia) uses different kanji but same reading.",
   "cross_references": [
     {
       "type": "synonym",
@@ -71,11 +71,39 @@
       "reading": "じしょ",
       "headword": "{辞書|じしょ}",
       "label": "dictionary (general)"
+    },
+    {
+      "type": "related",
+      "target_id": "05144_hyakkajiten",
+      "reading": "ひゃっかじてん",
+      "headword": "{百科事典|ひゃっかじてん}",
+      "label": "encyclopedia"
+    },
+    {
+      "type": "homophone",
+      "target_id": "21891_jiten",
+      "reading": "じてん",
+      "headword": "{事典|じてん}",
+      "label": "encyclopedia"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22665_benran",
+      "reading": "べんらん",
+      "headword": "{便覧|べんらん}",
+      "label": "handbook"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23121_yougoshuu",
+      "reading": "ようごしゅう",
+      "headword": "{用語集|ようごしゅう}",
+      "label": "glossary"
     }
   ],
   "metadata": {
     "created": "2026-01-09T12:36:58Z",
-    "modified": "2026-05-16T14:16:05Z",
+    "modified": "2026-09-02T04:01:00Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "17101_katamen_ex1",
-      "japanese": "{片面|かためん}だけ{印刷|いんさつ}する。",
+      "japanese": "{片面|かためん}⟦だけ→〜だけ：03093_dake⟧⟦{印刷|いんさつ}する→印刷する：21677_insatsusuru⟧。",
       "english": "To print on one side only.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17101_katamen_ex2",
-      "japanese": "{片面|かためん}テープで{壁|かべ}にポスターを{貼|は}った。",
+      "japanese": "{片面|かためん}⟦テープ→テープ：01535_teepu⟧⟦で→で：00502_de⟧⟦{壁|かべ}→壁：01290_kabe⟧⟦に→に：00314_ni⟧⟦ポスター→ポスター：09598_posutaa⟧⟦を→を：00422_wo⟧⟦{貼|は}った→貼る：10447_haru⟧。",
       "english": "I stuck a poster on the wall with single-sided tape.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17101_katamen_ex3",
-      "japanese": "この{用紙|ようし}は{片面|かためん}にしか{書|か}けないので、{両面|りょうめん}に{書|か}けるものに{変|か}えてください。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{用紙|ようし}→用紙：09588_youshi⟧⟦は→は：00079_ha⟧{片面|かためん}⟦に→に：00314_ni⟧しか⟦{書|か}けない→書く：00477_kaku⟧⟦の→の：09472_no⟧で、⟦{両面|りょうめん}→両面：11366_ryoumen⟧⟦に→に：00314_ni⟧⟦{書|か}ける→書く：00477_kaku⟧もの⟦に→に：00314_ni⟧⟦{変|か}えて→変える：01089_kaeru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "You can only write on one side of this paper, so please switch to one that allows writing on both sides.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nOften used as a modifier: {片面|かためん}{印刷|いんさつ} (single-sided printing), {片面|かためん}テープ (single-sided tape). The opposite is {両面|りょうめん} (both sides, double-sided).\n\nCOMMON COLLOCATIONS:\n- {片面|かためん}{印刷|いんさつ} (single-sided printing)\n- {片面|かためん}テープ (single-sided tape)\n- {片面|かためん}コピー (single-sided copy)\n\nSIMILAR WORDS:\n- {両面|りょうめん}: both sides, double-sided — the opposite\n- {表面|ひょうめん}: surface, front side — specifically the front/top side\n- {裏面|りめん}: back side, reverse — the back/underside",
+  "notes": "USAGE:\nOften used as a modifier: {片面|かためん}⟦{印刷|いんさつ}→印刷：01844_insatsu⟧ (single-sided printing), {片面|かためん}⟦テープ→テープ：01535_teepu⟧ (single-sided tape). The opposite is ⟦{両面|りょうめん}→両面：11366_ryoumen⟧ (both sides, double-sided).\n\nCOMMON COLLOCATIONS:\n- {片面|かためん}⟦{印刷|いんさつ}→印刷：01844_insatsu⟧ (single-sided printing)\n- {片面|かためん}⟦テープ→テープ：01535_teepu⟧ (single-sided tape)\n- {片面|かためん}⟦コピー→コピー：04883_kopii⟧ (single-sided copy)\n\nSIMILAR WORDS:\n- ⟦{両面|りょうめん}→両面：11366_ryoumen⟧: both sides, double-sided — the opposite\n- ⟦{表面|ひょうめん}→表面：03587_hyoumen⟧: surface, front side — specifically the front/top side\n- ⟦{裏面|りめん}→裏面：18245_rimen⟧: back side, reverse — the back/underside",
   "cross_references": [
     {
       "type": "antonym",
@@ -46,18 +52,36 @@
       "reading": "りょうめん",
       "headword": "{両面|りょうめん}",
       "label": "both sides"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03587_hyoumen",
+      "reading": "ひょうめん",
+      "headword": "{表面|ひょうめん}",
+      "label": "surface, front side"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18245_rimen",
+      "reading": "りめん",
+      "headword": "{裏面|りめん}",
+      "label": "back side, reverse"
     }
   ],
   "metadata": {
     "created": "2026-03-16T00:40:36Z",
-    "modified": "2026-05-05T09:06:09Z",
+    "modified": "2026-09-02T04:01:47Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["descriptive"]
+      "semantic": [
+        "descriptive"
+      ]
     }
   }
 }

@@ -118,7 +118,7 @@
       ]
     }
   ],
-  "notes": "まだ indicates a state that continues from the past to the present.\n\nKEY PATTERNS:\n- まだ + affirmative: still (continuing state)\n- まだ + negative: not yet (expected action hasn't occurred)\n\nCOMMON EXPRESSIONS:\n- まだまだ: still have a long way to go (humble expression)\n- まだ⟦{大丈夫|だいじょうぶ}→大丈夫：00772_daijoubu⟧: still okay\n- まだ⟦{間|ま}に{合|あ}う→間に合う：01142_maniau⟧: still in time\n\nCONTRAST WITH ⟦もう→もう：00602_mou⟧:\n- ⟦もう→もう：00602_mou⟧⟦{食|た}べた→食べる：00396_taberu⟧: already ate\n- まだ⟦{食|た}べていない→食べる：00396_taberu⟧: haven't eaten yet\n- ⟦もう→もう：00602_mou⟧⟦{来|き}た→来る：00254_kuru⟧: already came\n- まだ⟦{来|き}ていない→来る：00254_kuru⟧: hasn't come yet",
+  "notes": "まだ indicates a state that continues from the past to the present.\n\nCOMMON PATTERNS:\n- まだ + affirmative: still (continuing state)\n- まだ + negative: not yet (expected action hasn't occurred)\n\nCOMMON EXPRESSIONS:\n- まだまだ: still have a long way to go (humble expression)\n- まだ⟦{大丈夫|だいじょうぶ}→大丈夫：00772_daijoubu⟧: still okay\n- まだ⟦{間|ま}に{合|あ}う→間に合う：01142_maniau⟧: still in time\n\nCONTRAST WITH ⟦もう→もう：00602_mou⟧:\n- ⟦もう→もう：00602_mou⟧⟦{食|た}べた→食べる：00396_taberu⟧: already ate\n- まだ⟦{食|た}べていない→食べる：00396_taberu⟧: haven't eaten yet\n- ⟦もう→もう：00602_mou⟧⟦{来|き}た→来る：00254_kuru⟧: already came\n- まだ⟦{来|き}ていない→来る：00254_kuru⟧: hasn't come yet",
   "cross_references": [
     {
       "type": "contrast",
@@ -133,11 +133,39 @@
       "reading": "ずっと",
       "headword": "ずっと",
       "label": "continuously; much more"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00798_motto",
+      "reading": "もっと",
+      "headword": "もっと",
+      "label": "more"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01719_izen",
+      "reading": "いぜん",
+      "headword": "{依然|いぜん}",
+      "label": "still, as before"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16358_izentoshite",
+      "reading": "いぜんとして",
+      "headword": "{依然|いぜん}として",
+      "label": "still"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20772_imademo",
+      "reading": "いまでも",
+      "headword": "{今|いま}でも",
+      "label": "even now"
     }
   ],
   "metadata": {
     "created": "2026-01-07T15:48:21Z",
-    "modified": "2026-08-12T09:21:26Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

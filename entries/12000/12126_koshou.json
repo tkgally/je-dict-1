@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "12126_koshou_ex1",
-      "japanese": "{正式|せいしき}な{呼称|こしょう}は{何|なん}ですか。",
+      "japanese": "⟦{正式|せいしき}→正式：03376_seishiki⟧な{呼称|こしょう}⟦は→は：00079_ha⟧⟦{何|なん}→何〜：03100_nan⟧です⟦か→か：09473_ka⟧。",
       "english": "What is the official designation?",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "12126_koshou_ex2",
-      "japanese": "この{役職|やくしょく}の{呼称|こしょう}が{変更|へんこう}された。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{役職|やくしょく}→役職：05514_yakushoku⟧⟦の→の：09472_no⟧{呼称|こしょう}⟦が→が：00051_ga⟧⟦{変更|へんこう}→変更：03616_henkou⟧⟦された→する：00392_suru⟧。",
       "english": "The title of this position was changed.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "12126_koshou_ex3",
-      "japanese": "{各国|かっこく}で{同|おな}じ{製品|せいひん}でも{呼称|こしょう}が{異|こと}なることがあるため、{国際的|こくさいてき}な{統一|とういつ}が{求|もと}められている。",
+      "japanese": "⟦{各国|かっこく}→各国：12055_kakkoku⟧⟦で→で：00502_de⟧⟦{同|おな}じ→同じ：02857_onaji⟧⟦{製品|せいひん}→製品：01445_seihin⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧{呼称|こしょう}⟦が→が：00051_ga⟧⟦{異|こと}なる→異なる：02101_kotonaru⟧こと⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧⟦ため→ため：01145_tame⟧、⟦{国際的|こくさいてき}→国際的：06457_kokusaiteki⟧な⟦{統一|とういつ}→統一：04551_touitsu⟧⟦が→が：00051_ga⟧⟦{求|もと}められている→求める：02316_motomeru⟧。",
       "english": "Since the same product can have different designations in different countries, international standardization is being called for.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{呼称|こしょう} is a formal word used for official or institutional names and titles. It is more formal than {呼|よ}び{方|かた} (casual way of calling) and {名前|なまえ} (name). Common in bureaucratic, academic, and business writing.\n\nCOMMON COLLOCATIONS:\n- {正式|せいしき}{呼称|こしょう}: official designation\n- {呼称|こしょう}を{変更|へんこう}する: to change the designation\n- {呼称|こしょう}が{異|こと}なる: to have different designations\n- {一般的|いっぱんてき}な{呼称|こしょう}: common designation",
+  "notes": "USAGE:\n{呼称|こしょう} is a formal word used for official or institutional names and titles. It is more formal than ⟦{呼|よ}び{方|かた}→呼び方：12125_yobikata⟧ (casual way of calling) and ⟦{名前|なまえ}→名前：02234_namae⟧ (name). Common in bureaucratic, academic, and business writing.\n\nCOMMON COLLOCATIONS:\n- ⟦{正式|せいしき}→正式：03376_seishiki⟧{呼称|こしょう}: official designation\n- {呼称|こしょう}⟦を→を：00422_wo⟧⟦{変更|へんこう}する→変更する：30779_henkousuru⟧: to change the designation\n- {呼称|こしょう}⟦が→が：00051_ga⟧⟦{異|こと}なる→異なる：02101_kotonaru⟧: to have different designations\n- ⟦{一般的|いっぱんてき}→一般的：04784_ippanteki⟧な{呼称|こしょう}: common designation",
   "cross_references": [
     {
       "type": "related",
@@ -142,11 +142,32 @@
       "headword": "{呼|よ}び{方|かた}",
       "label": "informal equivalent",
       "target_id": "12125_yobikata"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12031_meishou",
+      "reading": "めいしょう",
+      "headword": "{名称|めいしょう}",
+      "label": "name, title, designation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17543_keishou",
+      "reading": "けいしょう",
+      "headword": "{敬称|けいしょう}",
+      "label": "honorific title"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26585_komei",
+      "reading": "こめい",
+      "headword": "{呼名|こめい}",
+      "label": "roll call"
     }
   ],
   "metadata": {
     "created": "2026-02-20T08:54:06Z",
-    "modified": "2026-03-29T10:42:23Z",
+    "modified": "2026-09-02T04:01:27Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

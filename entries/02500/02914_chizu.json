@@ -63,11 +63,33 @@
       ]
     }
   ],
-  "notes": "{地図|ちず} means 'map'—a visual representation of an area showing locations, roads, and geographical features.\n\nWORD FORMATION:\n- {地|ち} (earth, ground) + {図|ず} (diagram, drawing) = map\n\nTYPES OF MAPS:\n- ⟦{世界|せかい}→世界：01447_sekai⟧{地図|ちず}: world map\n- ⟦{日本|にほん}→日本：03876_nihon⟧{地図|ちず}: map of Japan\n- ⟦{道路|どうろ}→道路：01481_douro⟧{地図|ちず}: road map\n- ⟦{観光|かんこう}→観光：00173_kankou⟧{地図|ちず}: tourist map\n- ⟦{地下鉄|ちかてつ}→地下鉄：01020_chikatetsu⟧⟦{路線図|ろせんず}→路線図：15894_rosenzu⟧: subway map\n- {地図|ちず}⟦アプリ→アプリ：04722_apuri⟧: map app (Google Maps, etc.)\n\nCOMMON EXPRESSIONS:\n- {地図|ちず}⟦を→を：00422_wo⟧⟦{見|み}る→見る：00283_miru⟧: to look at a map\n- {地図|ちず}⟦を→を：00422_wo⟧⟦{広|ひろ}げる→広げる：01981_hirogeru⟧: to spread out/open a map\n- {地図|ちず}⟦で→で：00502_de⟧⟦{調|しら}べる→調べる：01213_shiraberu⟧: to check on a map\n- {地図|ちず}⟦に→に：00314_ni⟧⟦{載|の}っている→載る：27882_noru⟧: to be on the map\n\nRELATED WORDS:\n- ⟦{案内図|あんないず}→案内図：17781_annaizu⟧: guide map, directory map\n- ⟦{路線図|ろせんず}→路線図：15894_rosenzu⟧: route map (trains, buses)\n- ⟦{白地図|はくちず}→白地図：28021_hakuchizu⟧: blank map (for studying)\n- GPS / ⟦ナビ→ナビ：23508_nabi⟧: navigation system",
-  "cross_references": [],
+  "notes": "{地図|ちず} means 'map'—a visual representation of an area showing locations, roads, and geographical features.\n\nFORMS:\n- {地|ち} (earth, ground) + ⟦{図|ず}→図：03368_zu⟧ (diagram, drawing) = map\n\nTYPES OF MAPS:\n- ⟦{世界|せかい}→世界：01447_sekai⟧{地図|ちず}: world map\n- ⟦{日本|にほん}→日本：03876_nihon⟧{地図|ちず}: map of Japan\n- ⟦{道路|どうろ}→道路：01481_douro⟧{地図|ちず}: road map\n- ⟦{観光|かんこう}→観光：00173_kankou⟧{地図|ちず}: tourist map\n- ⟦{地下鉄|ちかてつ}→地下鉄：01020_chikatetsu⟧⟦{路線図|ろせんず}→路線図：15894_rosenzu⟧: subway map\n- {地図|ちず}⟦アプリ→アプリ：04722_apuri⟧: map app (Google Maps, etc.)\n\nCOMMON EXPRESSIONS:\n- {地図|ちず}⟦を→を：00422_wo⟧⟦{見|み}る→見る：00283_miru⟧: to look at a map\n- {地図|ちず}⟦を→を：00422_wo⟧⟦{広|ひろ}げる→広げる：01981_hirogeru⟧: to spread out/open a map\n- {地図|ちず}⟦で→で：00502_de⟧⟦{調|しら}べる→調べる：01213_shiraberu⟧: to check on a map\n- {地図|ちず}⟦に→に：00314_ni⟧⟦{載|の}っている→載る：27882_noru⟧: to be on the map\n\nRELATED WORDS:\n- ⟦{案内図|あんないず}→案内図：17781_annaizu⟧: guide map, directory map\n- ⟦{路線図|ろせんず}→路線図：15894_rosenzu⟧: route map (trains, buses)\n- ⟦{白地図|はくちず}→白地図：28021_hakuchizu⟧: blank map (for studying)\n- GPS / ⟦ナビ→ナビ：23508_nabi⟧: navigation system",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "17781_annaizu",
+      "reading": "あんないず",
+      "headword": "{案内図|あんないず}",
+      "label": "guide map, directory map"
+    },
+    {
+      "type": "related",
+      "target_id": "15894_rosenzu",
+      "reading": "ろせんず",
+      "headword": "{路線図|ろせんず}",
+      "label": "route map"
+    },
+    {
+      "type": "related",
+      "target_id": "01669_chiri",
+      "reading": "ちり",
+      "headword": "{地理|ちり}",
+      "label": "geography"
+    }
+  ],
   "metadata": {
     "created": "2026-01-11T09:50:00Z",
-    "modified": "2026-08-12T06:29:09Z",
+    "modified": "2026-09-02T04:01:02Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

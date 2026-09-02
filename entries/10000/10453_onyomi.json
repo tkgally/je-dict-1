@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "10453_onyomi_ex1",
-      "japanese": "「{山|やま}」の{音読|おんよ}みは「サン」だ。",
+      "japanese": "「⟦{山|やま}→山：02168_yama⟧」⟦の→の：09472_no⟧{音読|おんよ}み⟦は→は：00079_ha⟧「サン」だ。",
       "english": "The on'yomi of \"山\" is \"san.\"",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "10453_onyomi_ex2",
-      "japanese": "{熟語|じゅくご}は{音読|おんよ}みで{読|よ}むことが{多|おお}い。",
+      "japanese": "⟦{熟語|じゅくご}→熟語：04219_jukugo⟧⟦は→は：00079_ha⟧{音読|おんよ}み⟦で→で：00502_de⟧⟦{読|よ}む→読む：00426_yomu⟧こと⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "Compound words are often read with on'yomi.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "10453_onyomi_ex3",
-      "japanese": "ひとつの{漢字|かんじ}に{複数|ふくすう}の{音読|おんよ}みがあることもある。",
+      "japanese": "ひとつ⟦の→の：09472_no⟧⟦{漢字|かんじ}→漢字：09480_kanji⟧⟦に→に：00314_ni⟧⟦{複数|ふくすう}→複数：14236_fukusuu⟧⟦の→の：09472_no⟧{音読|おんよ}み⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧こと⟦も→も：00484_mo⟧⟦ある→ある：00006_aru⟧。",
       "english": "A single kanji can have multiple on'yomi readings.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,47 @@
       ]
     }
   ],
-  "notes": "{音読|おんよ}み literally means \"sound reading,\" referring to readings based on Chinese pronunciation.\n\nRELATED TERMS:\n- {音読|おんよ}み: on'yomi (Chinese-derived reading)\n- {訓読|くんよ}み: kun'yomi (native Japanese reading)\n- {熟語|じゅくご}: compound word (usually read with on'yomi)\n\nUSAGE NOTE:\nOn'yomi are typically used in multi-kanji compound words ({熟語|じゅくご}), while kun'yomi are used when kanji appear alone or with okurigana.",
-  "cross_references": [],
+  "notes": "{音読|おんよ}み literally means \"sound reading,\" referring to readings based on Chinese pronunciation.\n\nRELATED WORDS:\n- {音読|おんよ}み: on'yomi (Chinese-derived reading)\n- ⟦{訓読|くんよ}み→訓読み：10454_kunyomi⟧: kun'yomi (native Japanese reading)\n- ⟦{熟語|じゅくご}→熟語：04219_jukugo⟧: compound word (usually read with on'yomi)\n\nUSAGE:\nOn'yomi are typically used in multi-kanji compound words (⟦{熟語|じゅくご}→熟語：04219_jukugo⟧), while kun'yomi are used when kanji appear alone or with okurigana.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "04219_jukugo",
+      "reading": "じゅくご",
+      "headword": "{熟語|じゅくご}",
+      "label": "compound word"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18554_kundoku",
+      "reading": "くんどく",
+      "headword": "{訓読|くんどく}",
+      "label": "kun reading"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23894_jion",
+      "reading": "じおん",
+      "headword": "{字音|じおん}",
+      "label": "Sino-Japanese (on) reading of a kanji"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24368_jukujikun",
+      "reading": "じゅくじくん",
+      "headword": "{熟字訓|じゅくじくん}",
+      "label": "special kanji compound reading"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25434_onkun",
+      "reading": "おんくん",
+      "headword": "{音訓|おんくん}",
+      "label": "on'yomi and kun'yomi"
+    }
+  ],
   "metadata": {
     "created": "2026-02-07T11:20:16Z",
-    "modified": "2026-08-14T09:51:20Z",
+    "modified": "2026-09-02T04:01:21Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

@@ -15,41 +15,87 @@
   "examples": [
     {
       "id": "14930_gunshuu_ex1",
-      "japanese": "{群衆|ぐんしゅう}が{広場|ひろば}に{集|あつ}まった。",
+      "japanese": "{群衆|ぐんしゅう}⟦が→が：00051_ga⟧⟦{広場|ひろば}→広場：00104_hiroba⟧⟦に→に：00314_ni⟧⟦{集|あつ}まった→集まる：01162_atsumaru⟧。",
       "english": "A crowd gathered in the plaza.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14930_gunshuu_ex2",
-      "japanese": "{群衆|ぐんしゅう}の{中|なか}で{迷子|まいご}になりそうだった。",
+      "japanese": "{群衆|ぐんしゅう}⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧⟦で→で：00502_de⟧⟦{迷子|まいご}→迷子：03729_maigo⟧⟦に→に：00314_ni⟧⟦なり→なる：01970_naru⟧そうだった。",
       "english": "I almost got lost in the crowd.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14930_gunshuu_ex3",
-      "japanese": "{警察|けいさつ}は{興奮|こうふん}した{群衆|ぐんしゅう}を{抑|おさ}えるのに{苦労|くろう}した。",
+      "japanese": "⟦{警察|けいさつ}→警察：01393_keisatsu⟧⟦は→は：00079_ha⟧⟦{興奮|こうふん}した→興奮する：25351_koufunsuru⟧{群衆|ぐんしゅう}⟦を→を：00422_wo⟧⟦{抑|おさ}える→抑える：12806_osaeru⟧⟦の→の：09472_no⟧⟦に→に：00314_ni⟧⟦{苦労|くろう}した→苦労する：25357_kurousuru⟧。",
       "english": "The police struggled to control the agitated crowd.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "A somewhat formal or literary word for a large gathering of people. In everyday speech, {人込|ひとご}み or {人|ひと}だかり are more common for neutral crowds.\n\nCOMMON COLLOCATIONS:\n- {群衆|ぐんしゅう}が{集|あつ}まる (a crowd gathers)\n- {群衆|ぐんしゅう}に{紛|まぎ}れる (to blend into the crowd)\n- {群衆|ぐんしゅう}{心理|しんり} (mob mentality)\n\nUSAGE NOTE:\n{群衆|ぐんしゅう} often appears in news reports and literary contexts. It can imply an anonymous, faceless mass and is commonly used when describing demonstrations, riots, or large public events.",
-  "cross_references": [],
+  "notes": "A somewhat formal or literary word for a large gathering of people. In everyday speech, ⟦{人込|ひとご}み→人込み：03709_hitogomi⟧ or ⟦{人|ひと}だかり→人だかり：22286_hitodakari⟧ are more common for neutral crowds.\n\nCOMMON COLLOCATIONS:\n- {群衆|ぐんしゅう}⟦が→が：00051_ga⟧⟦{集|あつ}まる→集まる：01162_atsumaru⟧ (a crowd gathers)\n- {群衆|ぐんしゅう}⟦に→に：00314_ni⟧⟦{紛|まぎ}れる→紛れる：07572_magireru⟧ (to blend into the crowd)\n- {群衆|ぐんしゅう}⟦{心理|しんり}→心理：03332_shinri⟧ (mob mentality)\n\nUSAGE:\n{群衆|ぐんしゅう} often appears in news reports and literary contexts. It can imply an anonymous, faceless mass and is commonly used when describing demonstrations, riots, or large public events.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09033_zattou",
+      "reading": "ざっとう",
+      "headword": "{雑踏|ざっとう}",
+      "label": "crowd"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20681_bouto",
+      "reading": "ぼうと",
+      "headword": "{暴徒|ぼうと}",
+      "label": "rioter"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21157_taigun",
+      "reading": "たいぐん",
+      "headword": "{大群|たいぐん}",
+      "label": "large group"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22286_hitodakari",
+      "reading": "ひとだかり",
+      "headword": "{人|ひと}だかり",
+      "label": "crowd"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28183_hitonami",
+      "reading": "ひとなみ",
+      "headword": "{人波|ひとなみ}",
+      "label": "wave of people"
+    }
+  ],
   "metadata": {
     "created": "2026-03-04T07:18:25Z",
-    "modified": "2026-03-04T07:18:25Z",
+    "modified": "2026-09-02T04:01:39Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["person"]
+      "semantic": [
+        "person"
+      ]
     }
   }
 }

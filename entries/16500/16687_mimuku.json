@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "16687_mimuku_ex1",
-      "japanese": "{誰|だれ}も{見向|みむ}きもしなかった。",
+      "japanese": "⟦{誰|だれ}も→誰も：18610_daremo⟧{見向|みむ}きもしなかった。",
       "english": "Nobody even looked.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "16687_mimuku_ex2",
-      "japanese": "あの{店|みせ}は{客|きゃく}に{見向|みむ}きもされない。",
+      "japanese": "⟦あの→あの：00915_ano⟧⟦{店|みせ}→店：00497_mise⟧⟦は→は：00079_ha⟧⟦{客|きゃく}→客：00865_kyaku⟧⟦に→に：00314_ni⟧{見向|みむ}きもされない。",
       "english": "That shop is completely ignored by customers.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "16687_mimuku_ex3",
-      "japanese": "{安|やす}い{商品|しょうひん}には{見向|みむ}きもせず、{高級品|こうきゅうひん}ばかり{買|か}う。",
+      "japanese": "⟦{安|やす}い→安い：00464_yasui⟧⟦{商品|しょうひん}→商品：01436_shouhin⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{見向|みむ}き⟦も→も：00484_mo⟧せず、⟦{高級品|こうきゅうひん}→高級品：21439_koukyuuhin⟧⟦ばかり→〜ばかり：02006_bakari⟧⟦{買|か}う→買う：00489_kau⟧。",
       "english": "Without even glancing at cheap products, they only buy luxury items.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nAlmost always used in the negative pattern {見向|みむ}きもしない, meaning \"to not pay the slightest attention to\" or \"to completely ignore.\" The affirmative form is rarely used.\n\nCOMMON COLLOCATIONS:\n- {見向|みむ}きもしない (to not even glance at)\n- {見向|みむ}きもされない (to be completely ignored)\n\nSIMILAR WORDS:\n- {無視|むし}する: to ignore — a more direct and common word for ignoring\n- {振|ふ}り{向|む}く: to turn around — to physically turn to look",
+  "notes": "USAGE:\nAlmost always used in the negative pattern {見向|みむ}きもしない, meaning \"to not pay the slightest attention to\" or \"to completely ignore.\" The affirmative form is rarely used.\n\nCOMMON COLLOCATIONS:\n- {見向|みむ}きもしない (to not even glance at)\n- {見向|みむ}きもされない (to be completely ignored)\n\nSIMILAR WORDS:\n- ⟦{無視|むし}する→無視する：17288_mushisuru⟧: to ignore — a more direct and common word for ignoring\n- ⟦{振|ふ}り{向|む}く→振り向く：04232_furimuku⟧: to turn around — to physically turn to look",
   "cross_references": [
     {
       "type": "synonym",
@@ -149,11 +149,18 @@
       "reading": "ふりむく",
       "headword": "{振|ふ}り{向|む}く",
       "label": "to turn around"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17288_mushisuru",
+      "reading": "むしする",
+      "headword": "{無視|むし}する",
+      "label": "to ignore"
     }
   ],
   "metadata": {
     "created": "2026-03-14T02:12:10Z",
-    "modified": "2026-07-20T13:24:52Z",
+    "modified": "2026-09-02T04:01:45Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -165,7 +172,8 @@
       "semantic": [
         "cognition"
       ],
-      "verb_class": "godan-ku"
+      "verb_class": "godan-ku",
+      "transitivity": "intransitive"
     }
   }
 }

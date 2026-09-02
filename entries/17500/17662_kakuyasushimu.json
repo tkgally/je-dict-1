@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "17662_kakuyasushimu_ex1",
-      "japanese": "{格安|かくやす}SIMに{変|か}えた。",
+      "japanese": "{格安|かくやす}SIM⟦に→に：00314_ni⟧⟦{変|か}えた→変える：01089_kaeru⟧。",
       "english": "I switched to a budget SIM.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "17662_kakuyasushimu_ex2",
-      "japanese": "{格安|かくやす}SIMにしたら、{月々|つきづき}の{料金|りょうきん}が{半分|はんぶん}になった。",
+      "japanese": "{格安|かくやす}SIMにしたら、⟦{月々|つきづき}→月々：30032_tsukizuki⟧⟦の→の：09472_no⟧⟦{料金|りょうきん}→料金：03797_ryoukin⟧⟦が→が：00051_ga⟧⟦{半分|はんぶん}→半分：02938_hanbun⟧になった。",
       "english": "After switching to a budget SIM, my monthly bill was cut in half.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "17662_kakuyasushimu_ex3",
-      "japanese": "{日本|にほん}に{来|き}たばかりのとき、まず{格安|かくやす}SIMを{買|か}うのがおすすめだよ。",
+      "japanese": "⟦{日本|にほん}→日本：03876_nihon⟧⟦に→に：00314_ni⟧⟦{来|き}た→来る：00254_kuru⟧⟦ばかり→〜ばかり：02006_bakari⟧⟦の→の：09472_no⟧とき、⟦まず→まず：00796_mazu⟧{格安|かくやす}SIM⟦を→を：00422_wo⟧⟦{買|か}う→買う：00489_kau⟧⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦おすすめ→おすすめ：09746_osusume⟧だ⟦よ→よ：09475_yo⟧。",
       "english": "When you first come to Japan, I'd recommend getting a budget SIM first.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,19 @@
       ]
     }
   ],
-  "notes": "{格安|かくやす}SIM refers to mobile phone plans offered by MVNOs (Mobile Virtual Network Operators) that use the networks of Japan's three major carriers (ドコモ, au, ソフトバンク) at lower prices.\n\nBACKGROUND:\nJapan's major carriers historically charged high monthly fees. Starting around 2015, {格安|かくやす}SIM became a mainstream alternative. Popular MVNOs include {楽天|らくてん}モバイル, UQモバイル, ワイモバイル, IIJmio, and others.\n\nCOMMON COLLOCATIONS:\n- {格安|かくやす}SIMに{乗|の}り{換|か}える: to switch to a budget SIM\\n- {格安|かくやす}SIMを{契約|けいやく}する: to sign up for a budget SIM\n- {格安|かくやす}スマホ: a budget smartphone (often bundled)\n\nPRONUNCIATION:\nSIM is pronounced シム in Japanese, borrowing the English abbreviation. The full term is read as かくやすシム.\n\nPRACTICAL NOTE:\nFor foreigners in Japan, {格安|かくやす}SIM is often the most accessible option, as some MVNOs have simpler contract requirements than the major carriers. Many convenience stores and electronics shops sell prepaid {格安|かくやす}SIM cards for tourists.",
-  "cross_references": [],
+  "notes": "{格安|かくやす}SIM refers to mobile phone plans offered by MVNOs (Mobile Virtual Network Operators) that use the networks of Japan's three major carriers (ドコモ, au, ソフトバンク) at lower prices.\n\nCULTURAL NOTE:\nJapan's major carriers historically charged high monthly fees. Starting around 2015, {格安|かくやす}SIM became a mainstream alternative. Popular MVNOs include {楽天|らくてん}モバイル, UQモバイル, ワイモバイル, IIJmio, and others.\n\nCOMMON COLLOCATIONS:\n- {格安|かくやす}SIM⟦に→に：00314_ni⟧⟦{乗|の}り{換|か}える→乗り換える：01194_norikaeru⟧: to switch to a budget SIM\\n- {格安|かくやす}SIM⟦を→を：00422_wo⟧⟦{契約|けいやく}→契約：02698_keiyaku⟧⟦する→する：00392_suru⟧: to sign up for a budget SIM\n- ⟦{格安|かくやす}スマホ→格安スマホ：09818_kakuyasusumaho⟧: a budget smartphone (often bundled)\n\nPRONUNCIATION:\nSIM is pronounced シム in Japanese, borrowing the English abbreviation. The full term is read as かくやすシム.\n\nPRACTICAL NOTE:\nFor foreigners in Japan, {格安|かくやす}SIM is often the most accessible option, as some MVNOs have simpler contract requirements than the major carriers. Many convenience stores and electronics shops sell prepaid {格安|かくやす}SIM cards for tourists.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "09818_kakuyasusumaho",
+      "reading": "かくやすすまほ",
+      "headword": "{格安|かくやす}スマホ",
+      "label": "budget smartphone"
+    }
+  ],
   "metadata": {
     "created": "2026-02-12T07:55:57Z",
-    "modified": "2026-03-18T10:11:24Z",
+    "modified": "2026-09-02T04:01:49Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

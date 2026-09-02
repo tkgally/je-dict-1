@@ -15,38 +15,66 @@
   "examples": [
     {
       "id": "25606_masuiyaku_ex1",
-      "japanese": "{麻酔薬|ますいやく}が{効|き}いてきた。",
+      "japanese": "{麻酔薬|ますいやく}⟦が→が：00051_ga⟧⟦{効|き}いて→効く：01932_kiku⟧きた。",
       "english": "The anesthetic is taking effect.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "25606_masuiyaku_ex2",
-      "japanese": "{手術|しゅじゅつ}{前|まえ}に{麻酔薬|ますいやく}を{投与|とうよ}された。",
+      "japanese": "⟦{手術|しゅじゅつ}→手術：03218_shujutsu⟧⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧{麻酔薬|ますいやく}⟦を→を：00422_wo⟧⟦{投与|とうよ}→投与：12894_touyo⟧⟦された→する：00392_suru⟧。",
       "english": "I was given an anesthetic before the surgery.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "25606_masuiyaku_ex3",
-      "japanese": "{歯医者|はいしゃ}で{麻酔薬|ますいやく}を{注射|ちゅうしゃ}してもらったが、{治療後|ちりょうご}もしばらく{口|くち}の{感覚|かんかく}がなかった。",
+      "japanese": "⟦{歯医者|はいしゃ}→歯医者：01696_haisha⟧⟦で→で：00502_de⟧{麻酔薬|ますいやく}⟦を→を：00422_wo⟧⟦{注射|ちゅうしゃ}→注射：01665_chuusha⟧⟦して→する：00392_suru⟧⟦もらった→もらう：00520_morau⟧⟦が→が：00051_ga⟧、{治療後|ちりょうご}⟦も→も：00484_mo⟧⟦しばらく→しばらく：01267_shibaraku⟧⟦{口|くち}→口：00560_kuchi⟧⟦の→の：09472_no⟧⟦{感覚|かんかく}→感覚：02593_kankaku⟧⟦が→が：00051_ga⟧⟦なかった→ない：01118_nai⟧。",
       "english": "I got an anesthetic injection at the dentist, but my mouth was still numb for a while after the treatment.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {麻酔|ますい} (anesthesia) and {薬|やく} (drug, medicine). Refers to pharmaceutical agents that induce numbness or unconsciousness for medical procedures.\n\nThere are two main types: {局所|きょくしょ}{麻酔薬|ますいやく} (local anesthetic, which numbs a specific area) and {全身|ぜんしん}{麻酔薬|ますいやく} (general anesthetic, which induces unconsciousness).\n\nCOMMON COLLOCATIONS:\n- {麻酔薬|ますいやく}を{投与|とうよ}する: to administer an anesthetic\n- {麻酔薬|ますいやく}が{効|き}く: the anesthetic takes effect\n- {麻酔薬|ますいやく}が{切|き}れる: the anesthetic wears off\n- {局所|きょくしょ}{麻酔薬|ますいやく}: local anesthetic\n\nSIMILAR WORDS:\n- {麻酔|ますい}: anesthesia — the broader concept or medical procedure, not just the drug\n- {鎮痛剤|ちんつうざい}: painkiller, analgesic — reduces pain without necessarily causing numbness\n- {睡眠薬|すいみんやく}: sleeping pill — induces sleep but is not used for surgical procedures",
+  "notes": "A compound of ⟦{麻酔|ますい}→麻酔：10581_masui⟧ (anesthesia) and {薬|やく} (drug, medicine). Refers to pharmaceutical agents that induce numbness or unconsciousness for medical procedures.\n\nThere are two main types: ⟦{局所|きょくしょ}→局所：18743_kyokusho⟧{麻酔薬|ますいやく} (local anesthetic, which numbs a specific area) and ⟦{全身|ぜんしん}→全身：03313_zenshin⟧{麻酔薬|ますいやく} (general anesthetic, which induces unconsciousness).\n\nCOMMON COLLOCATIONS:\n- {麻酔薬|ますいやく}⟦を→を：00422_wo⟧⟦{投与|とうよ}→投与：12894_touyo⟧⟦する→する：00392_suru⟧: to administer an anesthetic\n- {麻酔薬|ますいやく}⟦が→が：00051_ga⟧⟦{効|き}く→効く：01932_kiku⟧: the anesthetic takes effect\n- {麻酔薬|ますいやく}⟦が→が：00051_ga⟧⟦{切|き}れる→切れる：01936_kireru⟧: the anesthetic wears off\n- ⟦{局所|きょくしょ}→局所：18743_kyokusho⟧{麻酔薬|ますいやく}: local anesthetic\n\nSIMILAR WORDS:\n- ⟦{麻酔|ますい}→麻酔：10581_masui⟧: anesthesia — the broader concept or medical procedure, not just the drug\n- ⟦{鎮痛剤|ちんつうざい}→鎮痛剤：15451_chintsuuzai⟧: painkiller, analgesic — reduces pain without necessarily causing numbness\n- ⟦{睡眠薬|すいみんやく}→睡眠薬：28681_suiminyaku⟧: sleeping pill — induces sleep but is not used for surgical procedures",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15451_chintsuuzai",
+      "reading": "ちんつうざい",
+      "headword": "{鎮痛剤|ちんつうざい}",
+      "label": "painkiller, analgesic"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28681_suiminyaku",
+      "reading": "すいみんやく",
+      "headword": "{睡眠薬|すいみんやく}",
+      "label": "sleeping pill"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["health"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "health"
+      ]
     },
     "created": "2026-04-26T12:38:02Z",
-    "modified": "2026-04-26T12:38:02Z"
+    "modified": "2026-09-02T04:02:23Z"
   }
 }

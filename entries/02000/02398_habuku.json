@@ -2,7 +2,7 @@
   "id": "02398_habuku",
   "headword": "{省|はぶ}く",
   "reading": "はぶく",
-  "part_of_speech": "godan verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to omit, to eliminate",
   "definitions": [
     {
@@ -29,7 +29,7 @@
     },
     {
       "id": "02398_habuku_ex2",
-      "japanese": "⟦{説明|せつめい}→説明：01449_setsumei⟧⟦を→を：00422_wo⟧{省|はぶ}いて⟦も→も：00484_mo⟧⟦いい→いい：00118_ii⟧ですか。",
+      "japanese": "⟦{説明|せつめい}→説明：01449_setsumei⟧⟦を→を：00422_wo⟧{省|はぶ}いて⟦も→も：00484_mo⟧⟦いい→いい：00118_ii⟧です⟦か→か：09473_ka⟧。",
       "english": "May I skip the explanation?",
       "notes": null,
       "has_audio": false,
@@ -86,11 +86,39 @@
       "reading": "しょうりゃく",
       "headword": "{省略|しょうりゃく}",
       "label": "abbreviation (formal)"
+    },
+    {
+      "type": "related",
+      "target_id": "07724_tenuki",
+      "reading": "てぬき",
+      "headword": "{手抜|てぬ}き",
+      "label": "cutting corners"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18602_sogiotosu",
+      "reading": "そぎおとす",
+      "headword": "そぎ{落|お}とす",
+      "label": "to strip away"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23217_katsuaisuru",
+      "reading": "かつあいする",
+      "headword": "{割愛|かつあい}する",
+      "label": "to omit"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30218_nukasu",
+      "reading": "ぬかす",
+      "headword": "抜かす",
+      "label": "to skip"
     }
   ],
   "metadata": {
     "created": "2026-01-09T08:55:27Z",
-    "modified": "2026-05-20T17:22:08Z",
+    "modified": "2026-09-02T04:01:01Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

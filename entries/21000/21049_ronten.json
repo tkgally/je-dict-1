@@ -15,40 +15,73 @@
   "examples": [
     {
       "id": "21049_ronten_ex1",
-      "japanese": "{論点|ろんてん}を{整理|せいり}しましょう。",
+      "japanese": "{論点|ろんてん}⟦を→を：00422_wo⟧⟦{整理|せいり}しましょう→整理する：21729_seirisuru⟧。",
       "english": "Let's organize the points of the argument.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21049_ronten_ex2",
-      "japanese": "{話|はなし}が{論点|ろんてん}からずれている。",
+      "japanese": "⟦{話|はなし}→話：01496_hanashi⟧⟦が→が：00051_ga⟧{論点|ろんてん}⟦から→から：00504_kara⟧⟦ずれている→ずれる：03370_zureru⟧。",
       "english": "The discussion has strayed from the main point.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21049_ronten_ex3",
-      "japanese": "この{裁判|さいばん}の{最大|さいだい}の{論点|ろんてん}は、{被告|ひこく}の{責任|せきにん}{能力|のうりょく}の{有無|うむ}である。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{裁判|さいばん}→裁判：02773_saiban⟧⟦の→の：09472_no⟧⟦{最大|さいだい}→最大：04827_saidai⟧⟦の→の：09472_no⟧{論点|ろんてん}⟦は→は：00079_ha⟧、⟦{被告|ひこく}→被告：11080_hikoku⟧⟦の→の：09472_no⟧⟦{責任|せきにん}→責任：03298_sekinin⟧⟦{能力|のうりょく}→能力：03541_nouryoku⟧⟦の→の：09472_no⟧⟦{有無|うむ}→有無：13019_umu⟧⟦である→である：09855_dearu⟧。",
       "english": "The main issue in this trial is whether or not the defendant has the capacity for responsibility.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Refers to the specific point or issue under debate. Common in formal contexts such as meetings, courtrooms, academic discussions, and news analysis.\n\nCOMMON COLLOCATIONS:\n- {論点|ろんてん}を{整理|せいり}する: to organize the points at issue\n- {論点|ろんてん}がずれる: to stray from the point\n- {論点|ろんてん}を{明確|めいかく}にする: to clarify the issue\n- {論点|ろんてん}を{絞|しぼ}る: to narrow down the issues\n- {最大|さいだい}の{論点|ろんてん}: the main issue\n\nSIMILAR WORDS:\n- {争点|そうてん}: point of contention — specifically in legal or political disputes\n- {要点|ようてん}: main point — more general, not necessarily something being debated\n- {焦点|しょうてん}: focus — the center of attention, not limited to arguments",
+  "notes": "Refers to the specific point or issue under debate. Common in formal contexts such as meetings, courtrooms, academic discussions, and news analysis.\n\nCOMMON COLLOCATIONS:\n- {論点|ろんてん}⟦を→を：00422_wo⟧⟦{整理|せいり}する→整理する：21729_seirisuru⟧: to organize the points at issue\n- {論点|ろんてん}⟦が→が：00051_ga⟧⟦ずれる→ずれる：03370_zureru⟧: to stray from the point\n- {論点|ろんてん}⟦を→を：00422_wo⟧⟦{明確|めいかく}→明確：01664_meikaku⟧⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧: to clarify the issue\n- {論点|ろんてん}⟦を→を：00422_wo⟧⟦{絞|しぼ}る→絞る：03926_shiboru⟧: to narrow down the issues\n- ⟦{最大|さいだい}→最大：04827_saidai⟧⟦の→の：09472_no⟧{論点|ろんてん}: the main issue\n\nSIMILAR WORDS:\n- ⟦{争点|そうてん}→争点：11468_souten⟧: point of contention — specifically in legal or political disputes\n- ⟦{要点|ようてん}→要点：01668_youten⟧: main point — more general, not necessarily something being debated\n- ⟦{焦点|しょうてん}→焦点：13413_shouten⟧: focus — the center of attention, not limited to arguments",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11468_souten",
+      "reading": "そうてん",
+      "headword": "{争点|そうてん}",
+      "label": "point of contention"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01668_youten",
+      "reading": "ようてん",
+      "headword": "{要点|ようてん}",
+      "label": "main point"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13413_shouten",
+      "reading": "しょうてん",
+      "headword": "{焦点|しょうてん}",
+      "label": "focus"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["language"]
+      "semantic": [
+        "language"
+      ]
     },
     "created": "2026-03-31T16:17:30Z",
-    "modified": "2026-03-31T16:17:30Z"
+    "modified": "2026-09-02T04:02:02Z"
   }
 }

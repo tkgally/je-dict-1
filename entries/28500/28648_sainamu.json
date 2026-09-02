@@ -3,7 +3,7 @@
   "headword": "{苛|さいな}む",
   "reading": "さいなむ",
   "romaji": "sainamu",
-  "part_of_speech": "verb-godan",
+  "part_of_speech": "verb (godan)",
   "gloss": "to torment; to afflict",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28648_sainamu_ex1",
-      "japanese": "{不安|ふあん}が{彼|かれ}を{苛|さいな}んだ。",
+      "japanese": "⟦{不安|ふあん}→不安：00836_fuan⟧⟦が→が：00051_ga⟧⟦{彼|かれ}→彼：01292_kare⟧⟦を→を：00422_wo⟧{苛|さいな}んだ。",
       "english": "Anxiety tormented him.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28648_sainamu_ex2",
-      "japanese": "{罪悪感|ざいあくかん}に{苛|さいな}まれる{日々|ひび}が{続|つづ}いた。",
+      "japanese": "⟦{罪悪感|ざいあくかん}→罪悪感：05951_zaiakukan⟧⟦に→に：00314_ni⟧{苛|さいな}まれる⟦{日々|ひび}→日々：04804_hibi⟧⟦が→が：00051_ga⟧⟦{続|つづ}いた→続く：00903_tsuzuku⟧。",
       "english": "Days of being tormented by guilt continued.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28648_sainamu_ex3",
-      "japanese": "{長年|ながねん}にわたって{病気|びょうき}に{苛|さいな}まれてきた。",
+      "japanese": "⟦{長年|ながねん}→長年：09684_naganen⟧⟦に→に：00314_ni⟧わたって⟦{病気|びょうき}→病気：00771_byouki⟧⟦に→に：00314_ni⟧{苛|さいな}まれてきた。",
       "english": "He has been afflicted by illness for many years.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "TRANSITIVITY:\n- Transitive ({他動詞|たどうし}): Xを{苛|さいな}む.\n- The passive form Xに{苛|さいな}まれる (\"to be tormented by X\") is far more common than the active.\n\nUSAGE:\nLiterary and somewhat formal. The agent is almost always an internal state (guilt, anxiety, regret) or an affliction (illness, hunger, doubt) — not a person.\n\nCOMMON COLLOCATIONS:\n- {罪悪感|ざいあくかん}に{苛|さいな}まれる: to be tormented by guilt\n- {不安|ふあん}に{苛|さいな}まれる: to be plagued by anxiety\n- {後悔|こうかい}に{苛|さいな}まれる: to be racked with regret\n- {孤独|こどく}に{苛|さいな}まれる: to be tormented by loneliness\n\nSIMILAR WORDS:\n- {悩|なや}ます: to trouble; to worry — milder; everyday register\n- {苦|くる}しめる: to torment; to cause to suffer — more concrete and physical",
+  "notes": "TRANSITIVITY:\n- Transitive (⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧): X⟦を→を：00422_wo⟧{苛|さいな}む.\n- The passive form X⟦に→に：00314_ni⟧{苛|さいな}まれる (\"to be tormented by X\") is far more common than the active.\n\nUSAGE:\nLiterary and somewhat formal. The agent is almost always an internal state (guilt, anxiety, regret) or an affliction (illness, hunger, doubt) — not a person.\n\nCOMMON COLLOCATIONS:\n- ⟦{罪悪感|ざいあくかん}→罪悪感：05951_zaiakukan⟧⟦に→に：00314_ni⟧{苛|さいな}まれる: to be tormented by guilt\n- ⟦{不安|ふあん}→不安：00836_fuan⟧⟦に→に：00314_ni⟧{苛|さいな}まれる: to be plagued by anxiety\n- ⟦{後悔|こうかい}→後悔：02738_koukai⟧⟦に→に：00314_ni⟧{苛|さいな}まれる: to be racked with regret\n- ⟦{孤独|こどく}→孤独：04843_kodoku⟧⟦に→に：00314_ni⟧{苛|さいな}まれる: to be tormented by loneliness\n\nSIMILAR WORDS:\n- ⟦{悩|なや}ます→悩ます：12602_nayamasu⟧: to trouble; to worry — milder; everyday register\n- ⟦{苦|くる}しめる→苦しめる：01939_kurushimeru⟧: to torment; to cause to suffer — more concrete and physical",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12602_nayamasu",
+      "reading": "なやます",
+      "headword": "{悩|なや}ます",
+      "label": "to trouble"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01939_kurushimeru",
+      "reading": "くるしめる",
+      "headword": "{苦|くる}しめる",
+      "label": "to torment"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,7 +78,7 @@
       "domain": []
     },
     "created": "2026-06-03T03:16:26Z",
-    "modified": "2026-06-03T03:16:26Z"
+    "modified": "2026-09-02T04:02:34Z"
   },
   "conjugation": {
     "type": "godan",

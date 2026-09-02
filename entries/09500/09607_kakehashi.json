@@ -19,41 +19,59 @@
   "examples": [
     {
       "id": "09607_kakehashi_ex1",
-      "japanese": "{谷|たに}に{架|か}け{橋|はし}がかかっている。",
+      "japanese": "⟦{谷|たに}→谷：02223_tani⟧⟦に→に：00314_ni⟧{架|か}け{橋|はし}⟦が→が：00051_ga⟧⟦かかっている→かかる：00711_kakaru⟧。",
       "english": "A bridge spans the valley.",
       "has_audio": false,
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "notes": null
     },
     {
       "id": "09607_kakehashi_ex2",
-      "japanese": "{両国|りょうこく}の{友好|ゆうこう}の{架|か}け{橋|はし}となる。",
+      "japanese": "⟦{両国|りょうこく}→両国：10010_ryoukoku⟧⟦の→の：09472_no⟧⟦{友好|ゆうこう}→友好：03644_yuukou⟧⟦の→の：09472_no⟧{架|か}け{橋|はし}⟦と→と：00512_to⟧⟦なる→なる：01970_naru⟧。",
       "english": "To become a bridge of friendship between the two countries.",
       "has_audio": false,
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "notes": null
     },
     {
       "id": "09607_kakehashi_ex3",
-      "japanese": "{音楽|おんがく}は{世代|せだい}を{超|こ}える{架|か}け{橋|はし}だ。",
+      "japanese": "⟦{音楽|おんがく}→音楽：00661_ongaku⟧⟦は→は：00079_ha⟧⟦{世代|せだい}→世代：05102_sedai⟧⟦を→を：00422_wo⟧⟦{超|こ}える→超える：01942_koeru⟧{架|か}け{橋|はし}だ。",
       "english": "Music is a bridge that transcends generations.",
       "has_audio": false,
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "notes": null
     }
   ],
-  "notes": "{架|か}け{橋|はし} literally means a suspended bridge, but is often used figuratively.\n\nCOMMON PATTERNS:\n- 〜の{架|か}け{橋|はし}となる: to become a bridge for ~\n- {架|か}け{橋|はし}を{築|きず}く: to build a bridge (figurative)\n- {友好|ゆうこう}の{架|か}け{橋|はし}: bridge of friendship\n\nUSAGE NOTE:\nThe figurative meaning (sense 2) is more common in modern usage. Used in contexts of international relations, cultural exchange, and connecting different groups.",
-  "cross_references": [],
+  "notes": "{架|か}け{橋|はし} literally means a suspended bridge, but is often used figuratively.\n\nCOMMON PATTERNS:\n- 〜⟦の→の：09472_no⟧{架|か}け{橋|はし}⟦と→と：00512_to⟧⟦なる→なる：01970_naru⟧: to become a bridge for ~\n- {架|か}け{橋|はし}⟦を→を：00422_wo⟧⟦{築|きず}く→築く：02046_kizuku⟧: to build a bridge (figurative)\n- ⟦{友好|ゆうこう}→友好：03644_yuukou⟧⟦の→の：09472_no⟧{架|か}け{橋|はし}: bridge of friendship\n\nUSAGE:\nThe figurative meaning (sense 2) is more common in modern usage. Used in contexts of international relations, cultural exchange, and connecting different groups.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "09606_hashiwatashi",
+      "reading": "はしわたし",
+      "headword": "{橋渡|はしわた}し",
+      "label": "mediation, bridging, acting as a go-between"
+    }
+  ],
   "metadata": {
     "created": "2026-02-03T02:33:34Z",
-    "modified": "2026-02-03T02:33:34Z",
+    "modified": "2026-09-02T04:01:18Z",
     "ai_model": "opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

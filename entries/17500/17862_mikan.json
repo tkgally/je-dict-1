@@ -3,7 +3,7 @@
   "id": "17862_mikan",
   "headword": "{未完|みかん}",
   "reading": "みかん",
-  "part_of_speech": "noun / adjective-no",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "unfinished; incomplete",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "17862_mikan_ex1",
-      "japanese": "この{小説|しょうせつ}は{未完|みかん}のまま{終|お}わった。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{小説|しょうせつ}→小説：01434_shousetsu⟧⟦は→は：00079_ha⟧{未完|みかん}⟦の→の：09472_no⟧まま⟦{終|お}わった→終わる：00567_owaru⟧。",
       "english": "This novel ended unfinished.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "17862_mikan_ex2",
-      "japanese": "{未完|みかん}の{作品|さくひん}が{展示|てんじ}されている。",
+      "japanese": "{未完|みかん}⟦の→の：09472_no⟧⟦{作品|さくひん}→作品：02776_sakuhin⟧⟦が→が：00051_ga⟧⟦{展示|てんじ}→展示：12401_tenji⟧⟦されている→する：00392_suru⟧。",
       "english": "An unfinished work is on display.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "17862_mikan_ex3",
-      "japanese": "{作者|さくしゃ}が{亡|な}くなったため、この{大作|たいさく}は{未完|みかん}に{終|お}わってしまった。",
+      "japanese": "⟦{作者|さくしゃ}→作者：04169_sakusha⟧⟦が→が：00051_ga⟧⟦{亡|な}くなった→亡くなる：02639_nakunaru⟧⟦ため→ため：01145_tame⟧、⟦この→この：00962_kono⟧⟦{大作|たいさく}→大作：12196_taisaku⟧⟦は→は：00079_ha⟧{未完|みかん}⟦に→に：00314_ni⟧⟦{終|お}わって→終わる：00567_owaru⟧しまった。",
       "english": "Because the author passed away, this great work was left unfinished.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nOften used as a modifier with の: {未完|みかん}の{作品|さくひん} (unfinished work). Also appears as a predicate or label: {未完|みかん}に{終|お}わる (to end incomplete). Common in literary and artistic contexts.\n\nCOMMON COLLOCATIONS:\n- {未完|みかん}の{作品|さくひん} (unfinished work)\n- {未完|みかん}に{終|お}わる (to remain unfinished)\n- {未完成|みかんせい} (incomplete — a related but distinct word meaning not yet perfected)\n\nSIMILAR WORDS:\n- {未完成|みかんせい}: incomplete, not yet finished — implies something still in progress that could be completed\n- {未完|みかん}: unfinished — often implies the work will never be completed",
+  "notes": "USAGE:\nOften used as a modifier with ⟦の→の：09472_no⟧: {未完|みかん}⟦の→の：09472_no⟧⟦{作品|さくひん}→作品：02776_sakuhin⟧ (unfinished work). Also appears as a predicate or label: {未完|みかん}⟦に→に：00314_ni⟧{終|お}わる (to end incomplete). Common in literary and artistic contexts.\n\nCOMMON COLLOCATIONS:\n- {未完|みかん}⟦の→の：09472_no⟧⟦{作品|さくひん}→作品：02776_sakuhin⟧ (unfinished work)\n- {未完|みかん}⟦に→に：00314_ni⟧{終|お}わる (to remain unfinished)\n- ⟦{未完成|みかんせい}→未完成：13066_mikansei⟧ (incomplete — a related but distinct word meaning not yet perfected)\n\nSIMILAR WORDS:\n- ⟦{未完成|みかんせい}→未完成：13066_mikansei⟧: incomplete, not yet finished — implies something still in progress that could be completed\n- {未完|みかん}: unfinished — often implies the work will never be completed",
   "cross_references": [
     {
       "type": "contrast",
@@ -59,11 +59,18 @@
       "reading": "かんせい",
       "headword": "{完成|かんせい}",
       "label": "completion"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24458_miryou",
+      "reading": "みりょう",
+      "headword": "{未了|みりょう}",
+      "label": "unfinished"
     }
   ],
   "metadata": {
     "created": "2026-03-19T06:58:32Z",
-    "modified": "2026-07-24T21:50:29Z",
+    "modified": "2026-09-02T04:01:50Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

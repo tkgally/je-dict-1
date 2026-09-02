@@ -3,7 +3,7 @@
   "headword": "{詰|つ}む",
   "reading": "つむ",
   "romaji": "tsumu",
-  "part_of_speech": "verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to be checkmated; to be cornered; to be stuck",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "27840_tsumu_ex1",
-      "japanese": "これでもう{詰|つ}んだ。",
+      "japanese": "⟦これ→これ：00963_kore⟧⟦で→で：00502_de⟧⟦もう→もう：00602_mou⟧{詰|つ}んだ。",
       "english": "That's it, it's all over now.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "27840_tsumu_ex2",
-      "japanese": "{王|おう}が{詰|つ}んで{勝負|しょうぶ}がついた。",
+      "japanese": "⟦{王|おう}→王：19353_ou⟧⟦が→が：00051_ga⟧{詰|つ}んで⟦{勝負|しょうぶ}→勝負：01437_shoubu⟧⟦が→が：00051_ga⟧ついた。",
       "english": "The king was checkmated and the game was decided.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "27840_tsumu_ex3",
-      "japanese": "{締|し}め{切|き}りが{明日|あした}なのに{何|なに}も{終|お}わっていなくて、もう{詰|つ}んでいる。",
+      "japanese": "⟦{締|し}め{切|き}り→締め切り：04162_shimekiri⟧⟦が→が：00051_ga⟧⟦{明日|あした}→明日：00501_ashita⟧な⟦の→の：09472_no⟧⟦に→に：00314_ni⟧⟦{何|なに}も→何も：03874_nanimo⟧⟦{終|お}わって→終わる：00567_owaru⟧⟦いなくて→いる：00495_iru⟧、⟦もう→もう：00602_mou⟧{詰|つ}んで⟦いる→いる：00495_iru⟧。",
       "english": "The deadline is tomorrow and nothing is done — I'm completely stuck.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "A shogi/chess term for checkmate, now widely used as casual slang for a hopeless situation with no remaining options. The slang sense is very common online and in conversation among younger speakers.\n\nCOMMON COLLOCATIONS:\n- {王|おう}が{詰|つ}む: the king is checkmated\n- もう{詰|つ}んだ: it's hopeless now\n- {人生|じんせい}{詰|つ}んだ: my life is over (hyperbolic slang)\n\nSIMILAR WORDS:\n- {摘|つ}む: to pluck; to pick — unrelated homophone\n- {積|つ}む: to pile up; to load — unrelated homophone",
+  "notes": "A shogi/chess term for checkmate, now widely used as casual slang for a hopeless situation with no remaining options. The slang sense is very common online and in conversation among younger speakers.\n\nCOMMON COLLOCATIONS:\n- ⟦{王|おう}→王：19353_ou⟧⟦が→が：00051_ga⟧{詰|つ}む: the king is checkmated\n- ⟦もう→もう：00602_mou⟧{詰|つ}んだ: it's hopeless now\n- ⟦{人生|じんせい}→人生：03355_jinsei⟧{詰|つ}んだ: my life is over (hyperbolic slang)\n\nSIMILAR WORDS:\n- ⟦{摘|つ}む→摘む：02472_tsumu⟧: to pluck; to pick — unrelated homophone\n- ⟦{積|つ}む→積む：02294_tsumu⟧: to pile up; to load — unrelated homophone",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "homophone",
+      "target_id": "02472_tsumu",
+      "reading": "つむ",
+      "headword": "{摘|つ}む",
+      "label": "to pluck"
+    },
+    {
+      "type": "homophone",
+      "target_id": "02294_tsumu",
+      "reading": "つむ",
+      "headword": "{積|つ}む",
+      "label": "to pile up"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +69,7 @@
         "verb-godan"
       ],
       "formality": "informal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "leisure"
       ],
@@ -62,7 +78,7 @@
       "verb_class": "godan-mu"
     },
     "created": "2026-05-21T03:11:38Z",
-    "modified": "2026-08-07T16:10:18Z"
+    "modified": "2026-09-02T04:02:31Z"
   },
   "conjugation": {
     "type": "godan",

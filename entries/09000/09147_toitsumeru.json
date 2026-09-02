@@ -2,7 +2,7 @@
   "id": "09147_toitsumeru",
   "headword": "{問|と}い{詰|つ}める",
   "reading": "といつめる",
-  "part_of_speech": "ichidan verb",
+  "part_of_speech": "verb (ichidan)",
   "gloss": "to press for answers, to interrogate",
   "conjugation": {
     "type": "ichidan",
@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "09147_toitsumeru_ex1",
-      "japanese": "{真実|しんじつ}を{問|と}い{詰|つ}める",
+      "japanese": "⟦{真実|しんじつ}→真実：05316_shinjitsu⟧⟦を→を：00422_wo⟧{問|と}い{詰|つ}める",
       "english": "to press for the truth",
       "sense_numbers": [
         1
@@ -114,7 +114,7 @@
     },
     {
       "id": "09147_toitsumeru_ex2",
-      "japanese": "{親|おや}に{問|と}い{詰|つ}められた。",
+      "japanese": "⟦{親|おや}→親：01357_oya⟧⟦に→に：00314_ni⟧{問|と}い{詰|つ}められた。",
       "english": "I was questioned relentlessly by my parents.",
       "sense_numbers": [
         1
@@ -124,7 +124,7 @@
     },
     {
       "id": "09147_toitsumeru_ex3",
-      "japanese": "{彼|かれ}は{問|と}い{詰|つ}められて、ついに{本当|ほんとう}のことを{話|はな}した。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{問|と}い{詰|つ}められて、ついに⟦{本当|ほんとう}→本当：00779_hontou⟧⟦の→の：09472_no⟧こと⟦を→を：00422_wo⟧⟦{話|はな}した→話す：00467_hanasu⟧。",
       "english": "Pressed for answers, he finally told the truth.",
       "sense_numbers": [
         1
@@ -133,7 +133,7 @@
       "notes": null
     }
   ],
-  "notes": "TRANSITIVITY: Transitive ({他動詞|たどうし}). Takes を particle for the person being questioned: ～を{問|と}い{詰|つ}める, or about + を for what is being asked about.\n\nCONJUGATION: Ichidan verb: {問|と}い{詰|つ}めない, {問|と}い{詰|つ}めます, {問|と}い{詰|つ}めて.\n\nNUANCE: {問|と}い{詰|つ}める implies persistent, aggressive questioning that doesn't let the person evade. It's stronger than simply {聞|き}く (to ask) and suggests cornering someone verbally.\n\nCOMMON COLLOCATIONS:\n- {真実|しんじつ}/{本当|ほんとう}のことを{問|と}い{詰|つ}める (to press for the truth)\n- ～を{問|と}い{詰|つ}める (to interrogate someone)\n- しつこく{問|と}い{詰|つ}める (to question persistently)\n- {問|と}い{詰|つ}められる (to be pressed for answers - passive)\n\nRELATED WORDS:\n- {詰|つ}め{寄|よ}る (to press, corner - more physical)\n- {追及|ついきゅう}する (to pursue, investigate)\n- {尋問|じんもん}する (to interrogate - formal/legal)",
+  "notes": "TRANSITIVITY: Transitive (⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧). Takes ⟦を→を：00422_wo⟧ particle for the person being questioned: ～⟦を→を：00422_wo⟧{問|と}い{詰|つ}める, or about + ⟦を→を：00422_wo⟧ for what is being asked about.\n\nCONJUGATION: Ichidan verb: {問|と}い{詰|つ}めない, {問|と}い{詰|つ}めます, {問|と}い{詰|つ}めて.\n\nNUANCE: {問|と}い{詰|つ}める implies persistent, aggressive questioning that doesn't let the person evade. It's stronger than simply ⟦{聞|き}く→聞く：00483_kiku⟧ (to ask) and suggests cornering someone verbally.\n\nCOMMON COLLOCATIONS:\n- ⟦{真実|しんじつ}→真実：05316_shinjitsu⟧/⟦{本当|ほんとう}→本当：00779_hontou⟧⟦の→の：09472_no⟧こと⟦を→を：00422_wo⟧{問|と}い{詰|つ}める (to press for the truth)\n- ～⟦を→を：00422_wo⟧{問|と}い{詰|つ}める (to interrogate someone)\n- ⟦しつこく→しつこい：06498_shitsukoi⟧{問|と}い{詰|つ}める (to question persistently)\n- {問|と}い{詰|つ}められる (to be pressed for answers - passive)\n\nRELATED WORDS:\n- ⟦{詰|つ}め{寄|よ}る→詰め寄る：09146_tsumeyoru⟧ (to press, corner - more physical)\n- ⟦{追及|ついきゅう}する→追及する：21385_tsuikyuu⟧ (to pursue, investigate)\n- ⟦{尋問|じんもん}する→尋問する：20033_jinmonsuru⟧ (to interrogate - formal/legal)",
   "cross_references": [
     {
       "type": "synonym",
@@ -148,11 +148,32 @@
       "reading": "ついきゅう",
       "headword": "{追及|ついきゅう}",
       "label": "pursuit of responsibility"
+    },
+    {
+      "type": "related",
+      "target_id": "20033_jinmonsuru",
+      "reading": "じんもんする",
+      "headword": "{尋問|じんもん}する",
+      "label": "to interrogate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21386_kitsumon",
+      "reading": "きつもん",
+      "headword": "{詰問|きつもん}する",
+      "label": "to interrogate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23434_yuudoujinmon",
+      "reading": "ゆうどうじんもん",
+      "headword": "{誘導尋問|ゆうどうじんもん}",
+      "label": "leading question"
     }
   ],
   "metadata": {
     "created": "2026-01-31T11:25:19Z",
-    "modified": "2026-08-12T21:25:53Z",
+    "modified": "2026-09-02T04:01:17Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

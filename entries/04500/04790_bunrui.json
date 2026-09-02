@@ -2,7 +2,7 @@
   "id": "04790_bunrui",
   "headword": "{分類|ぶんるい}",
   "reading": "ぶんるい",
-  "part_of_speech": "noun (verbal)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "classification",
   "conjugation": {
     "type": "suru",
@@ -133,11 +133,26 @@
       ]
     }
   ],
-  "notes": "{分類|ぶんるい} refers to organizing items into categories based on shared characteristics.\n\nUSAGE:\nUsed with する to form {分類|ぶんるい}⟦する→する：00392_suru⟧ (to classify).\n\nCOMMON PATTERNS:\n- 〜⟦を→を：00422_wo⟧{分類|ぶんるい}⟦する→する：00392_suru⟧: to classify ~\n- 〜⟦に→に：00314_ni⟧{分類|ぶんるい}⟦される→する：00392_suru⟧: to be classified as ~\n- ⟦{種類|しゅるい}→種類：01560_shurui⟧⟦ごとに→ごと：04012_goto⟧{分類|ぶんるい}⟦する→する：00392_suru⟧: to classify by type\n\nCOMPOUNDS:\n- {分類|ぶんるい}⟦{表|ひょう}→表：19354_hyou⟧: classification table\n- {分類|ぶんるい}⟦{学|がく}→〜学：09846_gaku⟧: taxonomy\n- {分類|ぶんるい}⟦{番号|ばんごう}→番号：02939_bangou⟧: classification number\n\nEVERYDAY USES:\n- ⟦ゴミ→ゴミ：00840_gomi⟧⟦の→の：09472_no⟧{分類|ぶんるい}: garbage sorting\n- ⟦{書類|しょるい}→書類：01103_shorui⟧⟦の→の：09472_no⟧{分類|ぶんるい}: document classification\n\nUsed in academic, scientific, and everyday contexts.",
-  "cross_references": [],
+  "notes": "{分類|ぶんるい} refers to organizing items into categories based on shared characteristics.\n\nUSAGE:\nUsed with ⟦する→する：00392_suru⟧ to form {分類|ぶんるい}⟦する→する：00392_suru⟧ (to classify).\n\nCOMMON PATTERNS:\n- 〜⟦を→を：00422_wo⟧{分類|ぶんるい}⟦する→する：00392_suru⟧: to classify ~\n- 〜⟦に→に：00314_ni⟧{分類|ぶんるい}⟦される→する：00392_suru⟧: to be classified as ~\n- ⟦{種類|しゅるい}→種類：01560_shurui⟧⟦ごとに→ごと：04012_goto⟧{分類|ぶんるい}⟦する→する：00392_suru⟧: to classify by type\n\nCOMPOUNDS:\n- {分類|ぶんるい}⟦{表|ひょう}→表：19354_hyou⟧: classification table\n- {分類|ぶんるい}⟦{学|がく}→〜学：09846_gaku⟧: taxonomy\n- {分類|ぶんるい}⟦{番号|ばんごう}→番号：02939_bangou⟧: classification number\n\nEVERYDAY USES:\n- ⟦ゴミ→ゴミ：00840_gomi⟧⟦の→の：09472_no⟧{分類|ぶんるい}: garbage sorting\n- ⟦{書類|しょるい}→書類：01103_shorui⟧⟦の→の：09472_no⟧{分類|ぶんるい}: document classification\n\nUsed in academic, scientific, and everyday contexts.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "07917_shiwake",
+      "reading": "しわけ",
+      "headword": "{仕分|しわ}け",
+      "label": "sorting"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09616_senbetsu",
+      "reading": "せんべつ",
+      "headword": "{選別|せんべつ}",
+      "label": "sorting, selection, screening"
+    }
+  ],
   "metadata": {
     "created": "2026-01-16T00:25:58Z",
-    "modified": "2026-06-02T17:10:05Z",
+    "modified": "2026-09-02T04:01:05Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -153,7 +168,8 @@
       "semantic": [
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

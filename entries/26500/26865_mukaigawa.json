@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26865_mukaigawa_ex1",
-      "japanese": "{駅|えき}は{道|みち}の{向|む}かい{側|がわ}にある。",
+      "japanese": "⟦{駅|えき}→駅：02180_eki⟧⟦は→は：00079_ha⟧⟦{道|みち}→道：00505_michi⟧⟦の→の：09472_no⟧{向|む}かい{側|がわ}⟦に→に：00314_ni⟧⟦ある→ある：00006_aru⟧。",
       "english": "The station is on the other side of the road.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26865_mukaigawa_ex2",
-      "japanese": "{向|む}かい{側|がわ}の{席|せき}に{座|すわ}ってください。",
+      "japanese": "{向|む}かい{側|がわ}⟦の→の：09472_no⟧⟦{席|せき}→席：02215_seki⟧⟦に→に：00314_ni⟧⟦{座|すわ}って→座る：00757_suwaru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please sit in the seat across from here.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26865_mukaigawa_ex3",
-      "japanese": "{川|かわ}の{向|む}かい{側|がわ}に{小|ちい}さな{村|むら}が{見|み}える。",
+      "japanese": "⟦{川|かわ}→川：02186_kawa⟧⟦の→の：09472_no⟧{向|む}かい{側|がわ}⟦に→に：00314_ni⟧⟦{小|ちい}さな→小さな：02913_chiisana⟧⟦{村|むら}→村：02261_mura⟧⟦が→が：00051_ga⟧⟦{見|み}える→見える：01165_mieru⟧。",
       "english": "A small village can be seen on the other side of the river.",
       "sense_numbers": [
         1
@@ -45,7 +45,7 @@
     },
     {
       "id": "26865_mukaigawa_ex4",
-      "japanese": "{向|む}かい{側|がわ}のビルに{新|あたら}しいレストランが{開店|かいてん}した。",
+      "japanese": "{向|む}かい{側|がわ}⟦の→の：09472_no⟧⟦ビル→ビル：01500_biru⟧⟦に→に：00314_ni⟧⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦レストラン→レストラン：01048_resutoran⟧⟦が→が：00051_ga⟧⟦{開店|かいてん}→開店：14569_kaiten⟧⟦した→する：00392_suru⟧。",
       "english": "A new restaurant opened in the building across the way.",
       "sense_numbers": [
         1
@@ -54,8 +54,23 @@
       "notes": null
     }
   ],
-  "notes": "Common spatial term composed of 向かい (facing, opposite) + 側 (side). Very frequently used when giving directions or describing the relative positions of things. Can be used with or without a preceding noun phrase specifying what it's across from.\n\nCOMMON COLLOCATIONS:\n- {道|みち}の{向|む}かい{側|がわ}: the other side of the street\n- {通|とお}りの{向|む}かい{側|がわ}: across the street\n- {向|む}かい{側|がわ}に{渡|わた}る: to cross to the other side\n- {向|む}かい{側|がわ}の{家|いえ}: the house across the way\n\nSIMILAR WORDS:\n- {向|む}かい: opposite, facing — shorter form; often used as a modifier ({向|む}かいの{家|いえ})\n- {反対側|はんたいがわ}: the opposite side — more general; not necessarily facing you\n- {向|む}こう{側|がわ}: the far side — emphasizes distance; the other side of a barrier",
-  "cross_references": [],
+  "notes": "Common spatial term composed of 向かい (facing, opposite) + 側 (side). Very frequently used when giving directions or describing the relative positions of things. Can be used with or without a preceding noun phrase specifying what it's across from.\n\nCOMMON COLLOCATIONS:\n- ⟦{道|みち}→道：00505_michi⟧⟦の→の：09472_no⟧{向|む}かい{側|がわ}: the other side of the street\n- ⟦{通|とお}り→通り：01475_toori⟧⟦の→の：09472_no⟧{向|む}かい{側|がわ}: across the street\n- {向|む}かい{側|がわ}⟦に→に：00314_ni⟧⟦{渡|わた}る→渡る：02441_wataru⟧: to cross to the other side\n- {向|む}かい{側|がわ}⟦の→の：09472_no⟧⟦{家|いえ}→家：00612_ie⟧: the house across the way\n\nSIMILAR WORDS:\n- ⟦{向|む}かい→向かい：03750_mukai⟧: opposite, facing — shorter form; often used as a modifier (⟦{向|む}かい→向かい：03750_mukai⟧⟦の→の：09472_no⟧⟦{家|いえ}→家：00612_ie⟧)\n- ⟦{反対側|はんたいがわ}→反対側：16780_hantaigawa⟧: the opposite side — more general; not necessarily facing you\n- ⟦{向|む}こう{側|がわ}→向こう側：08504_mukougawa⟧: the far side — emphasizes distance; the other side of a barrier",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16780_hantaigawa",
+      "reading": "はんたいがわ",
+      "headword": "{反対側|はんたいがわ}",
+      "label": "the opposite side"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08504_mukougawa",
+      "reading": "むこうがわ",
+      "headword": "{向|む}こう{側|がわ}",
+      "label": "the far side"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -70,6 +85,6 @@
       ]
     },
     "created": "2026-05-05T14:14:18Z",
-    "modified": "2026-08-06T12:44:19Z"
+    "modified": "2026-09-02T04:02:28Z"
   }
 }

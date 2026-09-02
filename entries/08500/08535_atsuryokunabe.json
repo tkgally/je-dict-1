@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08535_atsuryokunabe_ex1",
-      "japanese": "{圧力鍋|あつりょくなべ}で{料理|りょうり}する。",
+      "japanese": "{圧力鍋|あつりょくなべ}⟦で→で：00502_de⟧⟦{料理|りょうり}→料理：01523_ryouri⟧⟦する→する：00392_suru⟧。",
       "english": "To cook with a pressure cooker.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "08535_atsuryokunabe_ex2",
-      "japanese": "{圧力鍋|あつりょくなべ}を{使|つか}うと{時短|じたん}になる。",
+      "japanese": "{圧力鍋|あつりょくなべ}⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧⟦と→と：00512_to⟧⟦{時短|じたん}→時短：18970_jitan⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧。",
       "english": "Using a pressure cooker saves time.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "08535_atsuryokunabe_ex3",
-      "japanese": "{圧力鍋|あつりょくなべ}で{豆|まめ}を{煮|に}た。",
+      "japanese": "{圧力鍋|あつりょくなべ}⟦で→で：00502_de⟧⟦{豆|まめ}→豆：03738_mame⟧⟦を→を：00422_wo⟧⟦{煮|に}た→煮る：01971_niru⟧。",
       "english": "I cooked beans in the pressure cooker.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
     },
     {
       "id": "08535_atsuryokunabe_ex4",
-      "japanese": "{電気|でんき}{圧力鍋|あつりょくなべ}は{便利|べんり}だ。",
+      "japanese": "⟦{電気|でんき}→電気：09780_denki⟧{圧力鍋|あつりょくなべ}⟦は→は：00079_ha⟧⟦{便利|べんり}→便利：00830_benri⟧だ。",
       "english": "Electric pressure cookers are convenient.",
       "sense_numbers": [
         1
@@ -53,7 +53,23 @@
       "notes": null
     }
   ],
-  "notes": "USAGE:\nCooks food much faster than regular pots by raising the boiling point of water through increased pressure. Popular for cooking tough cuts of meat, beans, and making stocks.\n\nTYPES:\n- {電気|でんき}{圧力鍋|あつりょくなべ} - electric pressure cooker\n- {直火|じかび}{式|しき} - stovetop type\n\nADVANTAGES:\n- Time saving ({時短|じたん})\n- Energy efficient\n- Tenderizes tough ingredients\n\nRELATED COOKING EQUIPMENT:\n- {蒸|む}し{器|き} - steamer\n- {炊飯器|すいはんき} - rice cooker\n- {鍋|なべ} - pot",
+  "notes": "USAGE:\nCooks food much faster than regular pots by raising the boiling point of water through increased pressure. Popular for cooking tough cuts of meat, beans, and making stocks.\n\nTYPES:\n- ⟦{電気|でんき}→電気：09780_denki⟧{圧力鍋|あつりょくなべ} - electric pressure cooker\n- {直火|じかび}{式|しき} - stovetop type\n\nADVANTAGES:\n- Time saving (⟦{時短|じたん}→時短：18970_jitan⟧)\n- Energy efficient\n- Tenderizes tough ingredients\n\nRELATED COOKING EQUIPMENT:\n- ⟦{蒸|む}し{器|き}→蒸し器：08536_mushiki⟧ - steamer\n- ⟦{炊飯器|すいはんき}→炊飯器：04972_suihanki⟧ - rice cooker\n- ⟦{鍋|なべ}→鍋：01038_nabe⟧ - pot",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "08536_mushiki",
+      "reading": "むしき",
+      "headword": "{蒸|む}し{器|き}",
+      "label": "steamer"
+    },
+    {
+      "type": "related",
+      "target_id": "04972_suihanki",
+      "reading": "すいはんき",
+      "headword": "{炊飯器|すいはんき}",
+      "label": "rice cooker"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,12 +77,13 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "cooking",
         "tool"
       ]
     },
     "created": "2026-01-27T10:33:10Z",
-    "modified": "2026-06-22T12:50:00Z"
+    "modified": "2026-09-02T04:01:15Z"
   }
 }

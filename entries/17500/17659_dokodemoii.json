@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "17659_dokodemoii_ex1",
-      "japanese": "「どこで{食|た}べる？」「どこでもいいよ」",
+      "japanese": "「⟦どこ→どこ：00539_doko⟧⟦で→で：00502_de⟧⟦{食|た}べる→食べる：00396_taberu⟧？」「どこでもいい⟦よ→よ：09475_yo⟧」",
       "english": "\"Where should we eat?\" \"Anywhere is fine.\"",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "17659_dokodemoii_ex2",
-      "japanese": "{席|せき}はどこでもいいですか。",
+      "japanese": "⟦{席|せき}→席：02215_seki⟧⟦は→は：00079_ha⟧どこでもいいです⟦か→か：09473_ka⟧。",
       "english": "Is any seat fine?",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "17659_dokodemoii_ex3",
-      "japanese": "「{待|ま}ち{合|あ}わせどこにする？」「どこでもいいけど、{駅|えき}の{近|ちか}くがいいかな」",
+      "japanese": "「⟦{待|ま}ち{合|あ}わせ→待ち合わせる：12328_machiawaseru⟧⟦どこ→どこ：00539_doko⟧⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧？」「どこでもいい⟦けど→けど：09477_kedo⟧、⟦{駅|えき}→駅：02180_eki⟧⟦の→の：09472_no⟧{近|ちか}く⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧⟦か→か：09473_ka⟧な」",
       "english": "\"Where should we meet?\" \"Anywhere is fine, but near the station would be nice.\"",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "どこでもいい is composed of どこ (where) + でも (even/any) + いい (good/fine). The pattern 〜でもいい means \"any ~ is fine\" and is highly productive.\n\nRELATED PATTERNS:\n- どこでもいい: anywhere is fine\n- いつでもいい: anytime is fine\n- なんでもいい: anything is fine\n- だれでもいい: anyone is fine\n\nCULTURAL NOTE:\nAnswering どこでもいい to \"where should we eat?\" is extremely common but can frustrate the person asking, since it puts the burden of decision on them. Japanese social media and comedy often joke about the difficulty of planning with someone who always says どこでもいい.\n\nPOLITE FORM:\nどこでもいいです or どこでも{構|かま}いません are polite equivalents.",
+  "notes": "どこでもいい is composed of ⟦どこ→どこ：00539_doko⟧ (where) + ⟦でも→でも：00925_demo⟧ (even/any) + ⟦いい→いい：00118_ii⟧ (good/fine). The pattern 〜⟦でも→でも：00925_demo⟧⟦いい→いい：00118_ii⟧ means \"any ~ is fine\" and is highly productive.\n\nRELATED PATTERNS:\n- どこでもいい: anywhere is fine\n- ⟦いつでもいい→いつでもいい：17660_itsudemoii⟧: anytime is fine\n- ⟦なんでもいい→なんでもいい：10761_nandemoii⟧: anything is fine\n- だれ⟦で→で：00502_de⟧⟦も→も：00484_mo⟧⟦いい→いい：00118_ii⟧: anyone is fine\n\nCULTURAL NOTE:\nAnswering どこでもいい to \"where should we eat?\" is extremely common but can frustrate the person asking, since it puts the burden of decision on them. Japanese social media and comedy often joke about the difficulty of planning with someone who always says どこでもいい.\n\nKEIGO:\nどこでもいいです or ⟦どこ→どこ：00539_doko⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧{構|かま}いません are polite equivalents.",
   "cross_references": [
     {
       "type": "related",
@@ -52,11 +52,18 @@
       "headword": "いつでもいい",
       "target_id": "17660_itsudemoii",
       "label": "anytime is fine"
+    },
+    {
+      "type": "related",
+      "target_id": "10761_nandemoii",
+      "reading": "なんでもいい",
+      "headword": "なんでもいい",
+      "label": "anything is fine, I don't mind"
     }
   ],
   "metadata": {
     "created": "2026-02-12T07:55:57Z",
-    "modified": "2026-03-18T10:11:24Z",
+    "modified": "2026-09-02T04:01:49Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

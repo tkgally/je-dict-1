@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08039_tabegotae_ex1",
-      "japanese": "この{料理|りょうり}は{食|た}べごたえがある。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{料理|りょうり}→料理：01523_ryouri⟧⟦は→は：00079_ha⟧{食|た}べごたえ⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "This dish is filling and satisfying.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "08039_tabegotae_ex2",
-      "japanese": "{食|た}べごたえのあるステーキだった。",
+      "japanese": "{食|た}べごたえ⟦の→の：09472_no⟧⟦ある→ある：00006_aru⟧⟦ステーキ→ステーキ：01369_suteeki⟧だった。",
       "english": "It was a substantial steak.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "08039_tabegotae_ex3",
-      "japanese": "{量|りょう}は{少|すく}ないが{食|た}べごたえは{十分|じゅうぶん}だ。",
+      "japanese": "⟦{量|りょう}→量：03799_ryou⟧⟦は→は：00079_ha⟧⟦{少|すく}ない→少ない：01136_sukunai⟧⟦が→が：00051_ga⟧{食|た}べごたえ⟦は→は：00079_ha⟧⟦{十分|じゅうぶん}→十分：01614_juubun⟧だ。",
       "english": "The portion is small, but it's quite filling.",
       "sense_numbers": [
         1
@@ -43,7 +43,23 @@
       "notes": null
     }
   ],
-  "notes": "WORD FORMATION:\n- {食|た}べ (eating, from {食|た}べる)\n- ごたえ ({応|こた}え) - response, feedback, resistance\n\nRELATED 〜ごたえ COMPOUNDS:\n- {歯|は}ごたえ (texture when biting, chewiness)\n- {手|て}ごたえ (response, feedback)\n- {見|み}ごたえ (worth seeing, impressive to look at)\n- {読|よ}みごたえ (worth reading, substantial read)\n\nUSAGE:\n- {食|た}べごたえがある (to be filling/satisfying)\n- {食|た}べごたえ{十分|じゅうぶん} (plenty satisfying)",
+  "notes": "FORMS:\n- ⟦{食|た}べ→食べる：00396_taberu⟧ (eating, from ⟦{食|た}べる→食べる：00396_taberu⟧)\n- ごたえ ({応|こた}え) - response, feedback, resistance\n\nRELATED 〜ごたえ COMPOUNDS:\n- {歯|は}ごたえ (texture when biting, chewiness)\n- {手|て}ごたえ (response, feedback)\n- {見|み}ごたえ (worth seeing, impressive to look at)\n- {読|よ}みごたえ (worth reading, substantial read)\n\nUSAGE:\n- {食|た}べごたえ⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧ (to be filling/satisfying)\n- {食|た}べごたえ⟦{十分|じゅうぶん}→十分：01614_juubun⟧ (plenty satisfying)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "08085_nomigotae",
+      "reading": "のみごたえ",
+      "headword": "{飲|の}みごたえ",
+      "label": "satisfying to drink"
+    },
+    {
+      "type": "related",
+      "target_id": "08963_tsukurigotae",
+      "reading": "つくりごたえ",
+      "headword": "{作|つく}りごたえ",
+      "label": "satisfying to make"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -51,12 +67,13 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "food",
         "evaluation"
       ]
     },
     "created": "2026-01-25T00:52:39Z",
-    "modified": "2026-08-11T09:37:41Z"
+    "modified": "2026-09-02T04:01:13Z"
   }
 }

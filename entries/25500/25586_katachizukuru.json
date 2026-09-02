@@ -3,7 +3,7 @@
   "headword": "{形作|かたちづく}る",
   "reading": "かたちづくる",
   "romaji": "katachizukuru",
-  "part_of_speech": "verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to form; to shape; to mold",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25586_katachizukuru_ex1",
-      "japanese": "{粘土|ねんど}で{形作|かたちづく}る。",
+      "japanese": "⟦{粘土|ねんど}→粘土：19435_nendo⟧⟦で→で：00502_de⟧{形作|かたちづく}る。",
       "english": "To shape with clay.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25586_katachizukuru_ex2",
-      "japanese": "{経験|けいけん}が{人格|じんかく}を{形作|かたちづく}る。",
+      "japanese": "⟦{経験|けいけん}→経験：01179_keiken⟧⟦が→が：00051_ga⟧⟦{人格|じんかく}→人格：11427_jinkaku⟧⟦を→を：00422_wo⟧{形作|かたちづく}る。",
       "english": "Experience shapes one's character.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25586_katachizukuru_ex3",
-      "japanese": "{長|なが}い{歴史|れきし}の{中|なか}で{独自|どくじ}の{文化|ぶんか}が{形作|かたちづく}られてきた。",
+      "japanese": "⟦{長|なが}い→長い：00491_nagai⟧⟦{歴史|れきし}→歴史：02267_rekishi⟧⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧⟦で→で：00502_de⟧⟦{独自|どくじ}→独自：05614_dokuji⟧⟦の→の：09472_no⟧⟦{文化|ぶんか}→文化：01504_bunka⟧⟦が→が：00051_ga⟧{形作|かたちづく}られてきた。",
       "english": "A unique culture has been formed over the course of a long history.",
       "sense_numbers": [
         1
@@ -44,21 +44,39 @@
       "notes": null
     }
   ],
-  "notes": "A compound verb from {形|かたち} (shape, form) and {作|つく}る (to make). It emphasizes the process of bringing something into a definite shape or structure, whether physical objects or abstract concepts like character, society, or culture.\n\nThe passive form {形作|かたちづく}られる is very common, especially when describing how something has been shaped by external forces over time.\n\nCOMMON COLLOCATIONS:\n- {人格|じんかく}を{形作|かたちづく}る: to shape one's character\n- {文化|ぶんか}を{形作|かたちづく}る: to form a culture\n- {社会|しゃかい}を{形作|かたちづく}る: to shape society\n- {未来|みらい}を{形作|かたちづく}る: to shape the future\n\nSIMILAR WORDS:\n- {作|つく}る: to make — more general; focuses on creation rather than giving shape\n- {形成|けいせい}する: to form — more formal and often used in written or academic contexts\n- {造|つく}る: to build, to construct — emphasizes physical construction",
+  "notes": "A compound verb from ⟦{形|かたち}→形：02193_katachi⟧ (shape, form) and ⟦{作|つく}る→作る：00481_tsukuru⟧ (to make). It emphasizes the process of bringing something into a definite shape or structure, whether physical objects or abstract concepts like character, society, or culture.\n\nThe passive form {形作|かたちづく}られる is very common, especially when describing how something has been shaped by external forces over time.\n\nCOMMON COLLOCATIONS:\n- ⟦{人格|じんかく}→人格：11427_jinkaku⟧⟦を→を：00422_wo⟧{形作|かたちづく}る: to shape one's character\n- ⟦{文化|ぶんか}→文化：01504_bunka⟧⟦を→を：00422_wo⟧{形作|かたちづく}る: to form a culture\n- ⟦{社会|しゃかい}→社会：01427_shakai⟧⟦を→を：00422_wo⟧{形作|かたちづく}る: to shape society\n- ⟦{未来|みらい}→未来：03748_mirai⟧⟦を→を：00422_wo⟧{形作|かたちづく}る: to shape the future\n\nSIMILAR WORDS:\n- ⟦{作|つく}る→作る：00481_tsukuru⟧: to make — more general; focuses on creation rather than giving shape\n- ⟦{形成|けいせい}→形成：12541_keisei⟧⟦する→する：00392_suru⟧: to form — more formal and often used in written or academic contexts\n- ⟦{造|つく}る→造る：17751_tsukuru⟧: to build, to construct — emphasizes physical construction",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12541_keisei",
+      "reading": "けいせい",
+      "headword": "{形成|けいせい}",
+      "label": "to form"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17751_tsukuru",
+      "reading": "つくる",
+      "headword": "{造|つく}る",
+      "label": "to build, to construct"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "verb-godan"
       ],
+      "politeness": "plain",
       "semantic": [
         "creation"
       ],
-      "verb_class": "godan-ru"
+      "verb_class": "godan-ru",
+      "transitivity": "transitive"
     },
     "created": "2026-04-26T12:30:10Z",
-    "modified": "2026-04-26T12:30:10Z"
+    "modified": "2026-09-02T04:02:23Z"
   },
   "conjugation": {
     "type": "godan",

@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "07368_itamashii_ex1",
-      "japanese": "いたましい{事故|じこ}だった。",
+      "japanese": "いたましい⟦{事故|じこ}→事故：00851_jiko⟧だった。",
       "english": "It was a tragic accident.",
       "has_audio": false,
       "sense_numbers": [
@@ -23,7 +23,7 @@
     },
     {
       "id": "07368_itamashii_ex2",
-      "japanese": "{彼|かれ}の{姿|すがた}は{見|み}ていていたましかった。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧⟦{姿|すがた}→姿：03363_sugata⟧⟦は→は：00079_ha⟧⟦{見|み}ていて→見る：00283_miru⟧いたましかった。",
       "english": "It was heart-rending to see him in that state.",
       "has_audio": false,
       "sense_numbers": [
@@ -32,7 +32,7 @@
     },
     {
       "id": "07368_itamashii_ex3",
-      "japanese": "いたましい{結末|けつまつ}を{迎|むか}えた。",
+      "japanese": "いたましい⟦{結末|けつまつ}→結末：15091_ketsumatsu⟧⟦を→を：00422_wo⟧⟦{迎|むか}えた→迎える：01193_mukaeru⟧。",
       "english": "It came to a tragic end.",
       "has_audio": false,
       "sense_numbers": [
@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "notes": "KANJI:\nCan be written as {痛|いた}ましい. The kanji {痛|いた}い (painful) reflects the sense of emotional pain caused by witnessing tragedy.\n\nFORMS:\n・いたましく (adverb) - pitifully, tragically\n・いたましさ (noun) - pitifulness, pathos\n\nUSAGE:\nいたましい describes situations that cause emotional pain to the observer. It implies sympathy and sorrow, often used in news reports and formal contexts for tragic events.\n\nCOMMON COLLOCATIONS:\n・いたましい{事故|じこ} (tragic accident)\n・いたましい{事件|じけん} (tragic incident)\n・いたましい{最期|さいご} (tragic death)\n・いたましい{姿|すがた} (pitiful sight)\n\nREGISTER:\nNeutral to formal. Common in news and written language.\n\nSIMILAR WORDS:\n・{悲|かな}しい - sad (general sadness)\n・{哀|あわ}れ - pitiful/pathetic (literary)\n・{気|き}の{毒|どく} - pitiful/unfortunate (focuses on sympathy)\n・{痛|いた}ましい{限|かぎ}り - extremely tragic (emphatic)",
+  "notes": "WRITING:\nCan be written as {痛|いた}ましい. The kanji ⟦{痛|いた}い→痛い：01108_itai⟧ (painful) reflects the sense of emotional pain caused by witnessing tragedy.\n\nFORMS:\n- いたましく (adverb) - pitifully, tragically\n- いたましさ (noun) - pitifulness, pathos\n\nUSAGE:\nいたましい describes situations that cause emotional pain to the observer. It implies sympathy and sorrow, often used in news reports and formal contexts for tragic events.\n\nCOMMON COLLOCATIONS:\n- いたましい⟦{事故|じこ}→事故：00851_jiko⟧ (tragic accident)\n- いたましい⟦{事件|じけん}→事件：01568_jiken⟧ (tragic incident)\n- いたましい⟦{最期|さいご}→最期：30329_saigo⟧ (tragic death)\n- いたましい⟦{姿|すがた}→姿：03363_sugata⟧ (pitiful sight)\n\nREGISTER:\nNeutral to formal. Common in news and written language.\n\nSIMILAR WORDS:\n- ⟦{悲|かな}しい→悲しい：00783_kanashii⟧ - sad (general sadness)\n- ⟦{哀|あわ}れ→哀れ：01775_aware⟧ - pitiful/pathetic (literary)\n- ⟦{気|き}の{毒|どく}→気の毒：02581_kinodoku⟧ - pitiful/unfortunate (focuses on sympathy)\n- {痛|いた}ましい⟦{限|かぎ}り→限り：00133_kagiri⟧ - extremely tragic (emphatic)",
   "cross_references": [
     {
       "type": "synonym",
@@ -55,11 +55,18 @@
       "reading": "きのどく",
       "headword": "{気|き}の{毒|どく}",
       "label": "pitiful, unfortunate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01775_aware",
+      "reading": "あわれ",
+      "headword": "{哀|あわ}れ",
+      "label": "pitiful/pathetic"
     }
   ],
   "metadata": {
     "created": "2026-01-19T06:00:18Z",
-    "modified": "2026-04-18T08:05:14Z",
+    "modified": "2026-09-02T04:01:11Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

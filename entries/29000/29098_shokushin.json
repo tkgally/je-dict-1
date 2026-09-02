@@ -3,7 +3,7 @@
   "headword": "{触診|しょくしん}",
   "reading": "しょくしん",
   "romaji": "shokushin",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "palpation; physical examination by touch",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29098_shokushin_ex1",
-      "japanese": "{医師|いし}が{腹部|ふくぶ}を{触診|しょくしん}した。",
+      "japanese": "⟦{医師|いし}→医師：11851_ishi⟧⟦が→が：00051_ga⟧⟦{腹部|ふくぶ}→腹部：21667_fukubu⟧⟦を→を：00422_wo⟧{触診|しょくしん}⟦した→する：00392_suru⟧。",
       "english": "The doctor palpated the abdomen.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29098_shokushin_ex2",
-      "japanese": "{触診|しょくしん}で{しこり|しこり}が{見|み}つかった。",
+      "japanese": "{触診|しょくしん}⟦で→で：00502_de⟧しこり⟦が→が：00051_ga⟧⟦{見|み}つかった→見つかる：01173_mitsukaru⟧。",
       "english": "A lump was found during palpation.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29098_shokushin_ex3",
-      "japanese": "{内科|ないか}の{医師|いし}は{視診|ししん}・{聴診|ちょうしん}・{触診|しょくしん}を{組|く}み{合|あ}わせて{診察|しんさつ}を{行|おこな}った。",
+      "japanese": "⟦{内科|ないか}→内科：04076_naika⟧⟦の→の：09472_no⟧⟦{医師|いし}→医師：11851_ishi⟧⟦は→は：00079_ha⟧{視診|ししん}・⟦{聴診|ちょうしん}→聴診：29063_choushin⟧・{触診|しょくしん}⟦を→を：00422_wo⟧⟦{組|く}み{合|あ}わせて→組み合わせる：04659_kumiawaseru⟧⟦{診察|しんさつ}→診察：03259_shinsatsu⟧⟦を→を：00422_wo⟧⟦{行|おこな}った→行う：01238_okonau⟧。",
       "english": "The internist conducted the examination using a combination of visual inspection, auscultation, and palpation.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "{触|しょく} means to touch; {診|しん} means to examine medically. One of the standard clinical examination methods.\n\nCOMMON COLLOCATIONS:\n- {触診|しょくしん}する: to palpate\n- {触診|しょくしん}を{行|おこな}う: to perform palpation\n- {腹部|ふくぶ}{触診|しょくしん}: abdominal palpation\n\nRELATED EXAMINATION TYPES:\n- {視診|ししん}: visual inspection\n- {聴診|ちょうしん}: auscultation (listening with stethoscope)\n- {打診|だしん}: percussion (tapping to assess sound)",
+  "notes": "{触|しょく} means to touch; {診|しん} means to examine medically. One of the standard clinical examination methods.\n\nCOMMON COLLOCATIONS:\n- {触診|しょくしん}⟦する→する：00392_suru⟧: to palpate\n- {触診|しょくしん}⟦を→を：00422_wo⟧⟦{行|おこな}う→行う：01238_okonau⟧: to perform palpation\n- ⟦{腹部|ふくぶ}→腹部：21667_fukubu⟧{触診|しょくしん}: abdominal palpation\n\nRELATED EXAMINATION TYPES:\n- {視診|ししん}: visual inspection\n- ⟦{聴診|ちょうしん}→聴診：29063_choushin⟧: auscultation (listening with stethoscope)\n- ⟦{打診|だしん}→打診：05831_dashin⟧: percussion (tapping to assess sound)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "29063_choushin",
+      "reading": "ちょうしん",
+      "headword": "{聴診|ちょうしん}",
+      "label": "auscultation"
+    },
+    {
+      "type": "related",
+      "target_id": "05831_dashin",
+      "reading": "だしん",
+      "headword": "{打診|だしん}",
+      "label": "percussion"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -54,17 +70,18 @@
         "verb-suru"
       ],
       "formality": "formal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "health"
       ],
       "domain": [
         "medical"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-06-10T12:35:28Z",
-    "modified": "2026-08-09T06:33:11Z"
+    "modified": "2026-09-02T04:02:35Z"
   },
   "conjugation": {
     "type": "suru",

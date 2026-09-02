@@ -3,7 +3,7 @@
   "headword": "{急峻|きゅうしゅん}",
   "reading": "きゅうしゅん",
   "romaji": "kyuushun",
-  "part_of_speech": "な-adjective",
+  "part_of_speech": "na-adjective",
   "gloss": "steep; precipitous; sheer",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21358_kyuushun_ex1",
-      "japanese": "{急峻|きゅうしゅん}な{山道|やまみち}を{登|のぼ}った。",
+      "japanese": "{急峻|きゅうしゅん}な⟦{山道|やまみち}→山道：12406_yamamichi⟧⟦を→を：00422_wo⟧⟦{登|のぼ}った→登る：00660_noboru⟧。",
       "english": "We climbed a steep mountain path.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21358_kyuushun_ex2",
-      "japanese": "この{地域|ちいき}は{急峻|きゅうしゅん}な{地形|ちけい}が{多|おお}い。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{地域|ちいき}→地域：01461_chiiki⟧⟦は→は：00079_ha⟧{急峻|きゅうしゅん}な⟦{地形|ちけい}→地形：12083_chikei⟧⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "This area has a lot of steep terrain.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21358_kyuushun_ex3",
-      "japanese": "{急峻|きゅうしゅん}な{崖|がけ}がそびえ{立|た}ち、{下|した}を{見|み}ると{足|あし}がすくんだ。",
+      "japanese": "{急峻|きゅうしゅん}な⟦{崖|がけ}→崖：05391_gake⟧⟦が→が：00051_ga⟧そびえ{立|た}ち、⟦{下|した}→下：00670_shita⟧⟦を→を：00422_wo⟧⟦{見|み}る→見る：00283_miru⟧⟦と→と：00512_to⟧⟦{足|あし}→足：00575_ashi⟧⟦が→が：00051_ga⟧⟦すくんだ→すくむ：10356_sukumu⟧。",
       "english": "A sheer cliff towered above, and looking down made my legs freeze.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {急|きゅう} (steep/sudden) and {峻|しゅん} (towering/precipitous). Describes terrain that is not merely steep but dramatically so — nearly vertical cliffs, extremely steep mountain faces, or rugged highland terrain. More literary and emphatic than the common {急|きゅう}な.\n\nCOMMON COLLOCATIONS:\n- {急峻|きゅうしゅん}な{山|やま}: steep mountain\n- {急峻|きゅうしゅん}な{斜面|しゃめん}: steep slope\n- {急峻|きゅうしゅん}な{崖|がけ}: sheer cliff\n- {急峻|きゅうしゅん}な{地形|ちけい}: rugged terrain\n\nSIMILAR WORDS:\n- {険|けわ}しい: steep, rugged — the most common everyday word for steep terrain\n- {急|きゅう}な: steep, sudden — general-purpose, less dramatic\n- {切|き}り{立|た}った: sheer, precipitous — describes a cliff that drops straight down\n- {峻険|しゅんけん}: steep and rugged — literary synonym, nearly interchangeable",
+  "notes": "A compound of ⟦{急|きゅう}→急：13042_kyuu⟧ (steep/sudden) and {峻|しゅん} (towering/precipitous). Describes terrain that is not merely steep but dramatically so — nearly vertical cliffs, extremely steep mountain faces, or rugged highland terrain. More literary and emphatic than the common ⟦{急|きゅう}→急：13042_kyuu⟧な.\n\nCOMMON COLLOCATIONS:\n- {急峻|きゅうしゅん}な⟦{山|やま}→山：02168_yama⟧: steep mountain\n- {急峻|きゅうしゅん}な⟦{斜面|しゃめん}→斜面：12870_shamen⟧: steep slope\n- {急峻|きゅうしゅん}な⟦{崖|がけ}→崖：05391_gake⟧: sheer cliff\n- {急峻|きゅうしゅん}な⟦{地形|ちけい}→地形：12083_chikei⟧: rugged terrain\n\nSIMILAR WORDS:\n- ⟦{険|けわ}しい→険しい：08154_kewashii⟧: steep, rugged — the most common everyday word for steep terrain\n- ⟦{急|きゅう}→急：13042_kyuu⟧な: steep, sudden — general-purpose, less dramatic\n- {切|き}り{立|た}った: sheer, precipitous — describes a cliff that drops straight down\n- {峻険|しゅんけん}: steep and rugged — literary synonym, nearly interchangeable",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08154_kewashii",
+      "reading": "けわしい",
+      "headword": "{険|けわ}しい",
+      "label": "steep, rugged"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13042_kyuu",
+      "reading": "きゅう",
+      "headword": "{急|きゅう}",
+      "label": "steep, sudden"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19915_kiritatta",
+      "reading": "きりたった",
+      "headword": "{切|き}り{立|た}った",
+      "label": "sheer, precipitous"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +83,6 @@
       ]
     },
     "created": "2026-04-02T01:37:50Z",
-    "modified": "2026-04-02T01:37:50Z"
+    "modified": "2026-09-02T04:02:03Z"
   }
 }

@@ -15,41 +15,59 @@
   "examples": [
     {
       "id": "16384_kyouki_ex1",
-      "japanese": "{凶器|きょうき}はナイフだった。",
+      "japanese": "{凶器|きょうき}⟦は→は：00079_ha⟧⟦ナイフ→ナイフ：01039_naifu⟧だった。",
       "english": "The weapon was a knife.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16384_kyouki_ex2",
-      "japanese": "{犯人|はんにん}は{凶器|きょうき}を{持|も}って{逃|に}げた。",
+      "japanese": "⟦{犯人|はんにん}→犯人：03572_hannin⟧⟦は→は：00079_ha⟧{凶器|きょうき}⟦を→を：00422_wo⟧⟦{持|も}って→持つ：00478_motsu⟧⟦{逃|に}げた→逃げる：01151_nigeru⟧。",
       "english": "The criminal fled with the weapon.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16384_kyouki_ex3",
-      "japanese": "{警察|けいさつ}は{現場|げんば}{付近|ふきん}で{凶器|きょうき}と{思|おも}われる{包丁|ほうちょう}を{発見|はっけん}した。",
+      "japanese": "⟦{警察|けいさつ}→警察：01393_keisatsu⟧⟦は→は：00079_ha⟧⟦{現場|げんば}→現場：02723_genba⟧⟦{付近|ふきん}→付近：00044_fukin⟧⟦で→で：00502_de⟧{凶器|きょうき}⟦と→と：00512_to⟧⟦{思|おも}われる→思う：00492_omou⟧⟦{包丁|ほうちょう}→包丁：04976_houchou⟧⟦を→を：00422_wo⟧⟦{発見|はっけん}した→発見する：26929_hakkensuru⟧。",
       "english": "Police found a kitchen knife believed to be the weapon near the scene.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\n{凶器|きょうき} specifically refers to an object used as a weapon in a violent act. It is most commonly encountered in news reports and legal contexts. Any everyday object can become a {凶器|きょうき} if used to harm someone.\n\nCOMMON COLLOCATIONS:\n- {凶器|きょうき}を{持|も}つ (to carry a weapon)\n- {凶器|きょうき}を{使|つか}う (to use a weapon)\n- {凶器|きょうき}{準備|じゅんび}{集合|しゅうごう}{罪|ざい} (crime of assembling with weapons prepared — a legal term)\n- {鈍器|どんき} (blunt weapon — a related term)\n\nKANJI NOTE:\nThe character {凶|きょう} means bad luck or evil, as in {凶悪|きょうあく} (atrocious). {器|き} means instrument or vessel.",
-  "cross_references": [],
+  "notes": "USAGE:\n{凶器|きょうき} specifically refers to an object used as a weapon in a violent act. It is most commonly encountered in news reports and legal contexts. Any everyday object can become a {凶器|きょうき} if used to harm someone.\n\nCOMMON COLLOCATIONS:\n- {凶器|きょうき}⟦を→を：00422_wo⟧⟦{持|も}つ→持つ：00478_motsu⟧ (to carry a weapon)\n- {凶器|きょうき}⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧ (to use a weapon)\n- {凶器|きょうき}⟦{準備|じゅんび}→準備：01431_junbi⟧⟦{集合|しゅうごう}→集合：03068_shuugou⟧{罪|ざい} (crime of assembling with weapons prepared — a legal term)\n- {鈍器|どんき} (blunt weapon — a related term)\n\nWRITING:\nThe character ⟦{凶|きょう}→凶：19345_kyou⟧ means bad luck or evil, as in ⟦{凶悪|きょうあく}→凶悪：28175_kyouaku⟧ (atrocious). {器|き} means instrument or vessel.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11679_heiki",
+      "reading": "へいき",
+      "headword": "{兵器|へいき}",
+      "label": "weapon, arms"
+    }
+  ],
   "metadata": {
     "created": "2026-03-12T05:13:56Z",
-    "modified": "2026-03-12T05:13:56Z",
+    "modified": "2026-09-02T04:01:44Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["tool"]
+      "semantic": [
+        "tool"
+      ]
     }
   }
 }

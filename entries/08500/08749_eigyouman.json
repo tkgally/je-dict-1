@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08749_eigyouman_ex1",
-      "japanese": "{営業|えいぎょう}マンとして{働|はたら}いている。",
+      "japanese": "{営業|えいぎょう}マン⟦として→として：06802_toshite⟧⟦{働|はたら}いている→働く：00503_hataraku⟧。",
       "english": "I work as a salesperson.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "08749_eigyouman_ex2",
-      "japanese": "{優秀|ゆうしゅう}な{営業|えいぎょう}マンは{顧客|こきゃく}との{信頼関係|しんらいかんけい}を{大切|たいせつ}にする。",
+      "japanese": "⟦{優秀|ゆうしゅう}→優秀：03646_yuushuu⟧な{営業|えいぎょう}マン⟦は→は：00079_ha⟧⟦{顧客|こきゃく}→顧客：08632_kokyaku⟧⟦と→と：00512_to⟧⟦の→の：09472_no⟧⟦{信頼関係|しんらいかんけい}→信頼関係：16095_shinraikankei⟧⟦を→を：00422_wo⟧⟦{大切|たいせつ}にする→大切にする：26940_taisetsunisuru⟧。",
       "english": "Excellent salespeople value their relationships with customers.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "08749_eigyouman_ex3",
-      "japanese": "{営業|えいぎょう}マンが{商品|しょうひん}の{説明|せつめい}に{来|き}た。",
+      "japanese": "{営業|えいぎょう}マン⟦が→が：00051_ga⟧⟦{商品|しょうひん}→商品：01436_shouhin⟧⟦の→の：09472_no⟧⟦{説明|せつめい}→説明：01449_setsumei⟧⟦に→に：00314_ni⟧⟦{来|き}た→来る：00254_kuru⟧。",
       "english": "A salesperson came to explain the product.",
       "sense_numbers": [
         1
@@ -43,7 +43,7 @@
       "notes": null
     }
   ],
-  "notes": "GENDER-NEUTRAL ALTERNATIVES:\n- {営業|えいぎょう}{担当|たんとう} - sales representative (gender-neutral)\n- {営業|えいぎょう}{担当者|たんとうしゃ} - sales representative (formal, gender-neutral)\n- セールスパーソン - salesperson (gender-neutral loanword)\n\nRELATED TERMS:\n- {営業|えいぎょう}{部|ぶ} - sales department\n- {営業|えいぎょう}{活動|かつどう} - sales activities\n- {飛|と}び{込|こ}み{営業|えいぎょう} - cold calling\n- ルート{営業|えいぎょう} - route sales (visiting existing clients)\n\nNOTE ON ~マン:\nWords ending in マン (from English \"man\") are gradually being replaced with gender-neutral alternatives in modern Japanese business language.",
+  "notes": "GENDER-NEUTRAL ALTERNATIVES:\n- ⟦{営業|えいぎょう}→営業：01878_eigyou⟧⟦{担当|たんとう}→担当：02567_tantou⟧ - sales representative (gender-neutral)\n- ⟦{営業|えいぎょう}→営業：01878_eigyou⟧⟦{担当者|たんとうしゃ}→担当者：09676_tantousha⟧ - sales representative (formal, gender-neutral)\n- ⟦セールス→セールス：11050_seerusu⟧パーソン - salesperson (gender-neutral loanword)\n\nRELATED WORDS:\n- ⟦{営業|えいぎょう}{部|ぶ}→営業部：19381_eigyoubu⟧ - sales department\n- ⟦{営業|えいぎょう}→営業：01878_eigyou⟧⟦{活動|かつどう}→活動：00201_katsudou⟧ - sales activities\n- ⟦{飛|と}び{込|こ}み{営業|えいぎょう}→飛び込み営業：08609_tobikomieigyou⟧ - cold calling\n- ⟦ルート→ルート：11250_ruuto⟧⟦{営業|えいぎょう}→営業：01878_eigyou⟧ - route sales (visiting existing clients)\n\nNOTE ON ~マン:\nWords ending in マン (from English \"man\") are gradually being replaced with gender-neutral alternatives in modern Japanese business language.",
   "cross_references": [
     {
       "type": "related",
@@ -51,6 +51,27 @@
       "reading": "えいぎょう",
       "headword": "{営業|えいぎょう}",
       "label": "sales, business"
+    },
+    {
+      "type": "related",
+      "target_id": "19381_eigyoubu",
+      "reading": "えいぎょうぶ",
+      "headword": "{営業部|えいぎょうぶ}",
+      "label": "sales department"
+    },
+    {
+      "type": "related",
+      "target_id": "08609_tobikomieigyou",
+      "reading": "とびこみえいぎょう",
+      "headword": "{飛|と}び{込|こ}み{営業|えいぎょう}",
+      "label": "cold calling"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18939_hanbaiin",
+      "reading": "はんばいいん",
+      "headword": "{販売員|はんばいいん}",
+      "label": "sales clerk"
     }
   ],
   "metadata": {
@@ -60,12 +81,13 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "business",
         "occupation"
       ]
     },
     "created": "2026-01-28T03:36:53Z",
-    "modified": "2026-06-23T01:38:10Z"
+    "modified": "2026-09-02T04:01:16Z"
   }
 }

@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "09394_juutakugai_ex1",
-      "japanese": "{閑静|かんせい}な{住宅街|じゅうたくがい}に{住|す}む。",
+      "japanese": "⟦{閑静|かんせい}→閑静：14526_kansei⟧な{住宅街|じゅうたくがい}⟦に→に：00314_ni⟧⟦{住|す}む→住む：00673_sumu⟧。",
       "english": "To live in a quiet residential area.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "09394_juutakugai_ex2",
-      "japanese": "この{住宅街|じゅうたくがい}は{治安|ちあん}がいい。",
+      "japanese": "⟦この→この：00962_kono⟧{住宅街|じゅうたくがい}⟦は→は：00079_ha⟧⟦{治安|ちあん}→治安：13269_chian⟧⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧。",
       "english": "This residential area has good public safety.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "09394_juutakugai_ex3",
-      "japanese": "{住宅街|じゅうたくがい}の{中|なか}にある{公園|こうえん}で{子供|こども}が{遊|あそ}んでいる。",
+      "japanese": "{住宅街|じゅうたくがい}⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧⟦に→に：00314_ni⟧⟦ある→ある：00006_aru⟧⟦{公園|こうえん}→公園：00581_kouen⟧⟦で→で：00502_de⟧⟦{子供|こども}→子供：00554_kodomo⟧⟦が→が：00051_ga⟧⟦{遊|あそ}んでいる→遊ぶ：00550_asobu⟧。",
       "english": "Children are playing in a park in the residential area.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
     },
     {
       "id": "09394_juutakugai_ex4",
-      "japanese": "{駅|えき}から{住宅街|じゅうたくがい}までバスで{十|じゅっ}{分|ぷん}かかる。",
+      "japanese": "⟦{駅|えき}→駅：02180_eki⟧⟦から→から：00504_kara⟧{住宅街|じゅうたくがい}⟦まで→まで：00490_made⟧⟦バス→バス：00769_basu⟧⟦で→で：00502_de⟧⟦{十|じゅっ}{分|ぷん}→十分：09572_juppun⟧⟦かかる→かかる：00711_kakaru⟧。",
       "english": "It takes ten minutes by bus from the station to the residential area.",
       "notes": null,
       "has_audio": false,
@@ -53,10 +53,10 @@
       ]
     }
   ],
-  "notes": "{住宅街|じゅうたくがい} refers to areas where people primarily live. These areas are characterized by houses, apartments, and related facilities like schools and parks.\n\nCommon collocations:\n- {閑静|かんせい}な{住宅街|じゅうたくがい}: quiet residential area\n- {高級|こうきゅう}{住宅街|じゅうたくがい}: upscale residential area\n\nRelated terms:\n- {繁華街|はんかがい}: downtown, commercial district\n- {住宅地|じゅうたくち}: residential land/district\n- ベッドタウン: bedroom community",
+  "notes": "{住宅街|じゅうたくがい} refers to areas where people primarily live. These areas are characterized by houses, apartments, and related facilities like schools and parks.\n\nCommon collocations:\n- ⟦{閑静|かんせい}→閑静：14526_kansei⟧な{住宅街|じゅうたくがい}: quiet residential area\n- ⟦{高級|こうきゅう}→高級：08644_koukyuu⟧{住宅街|じゅうたくがい}: upscale residential area\n\nRelated terms:\n- ⟦{繁華街|はんかがい}→繁華街：09392_hankagai⟧: downtown, commercial district\n- ⟦{住宅地|じゅうたくち}→住宅地：10158_juutakuchi⟧: residential land/district\n- ⟦ベッド→ベッド：04501_beddo⟧タウン: bedroom community",
   "metadata": {
     "created": "2026-02-01T09:13:31Z",
-    "modified": "2026-08-13T09:37:24Z",
+    "modified": "2026-09-02T04:01:18Z",
     "ai_model": "opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -84,6 +84,20 @@
       "reading": "かんらくがい",
       "headword": "{歓楽街|かんらくがい}",
       "label": "entertainment district"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10158_juutakuchi",
+      "reading": "じゅうたくち",
+      "headword": "{住宅地|じゅうたくち}",
+      "label": "residential area"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23226_shinkoujuutakuchi",
+      "reading": "しんこうじゅうたくち",
+      "headword": "{新興住宅地|しんこうじゅうたくち}",
+      "label": "newly developed residential area"
     }
   ]
 }

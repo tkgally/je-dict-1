@@ -110,7 +110,7 @@
   "examples": [
     {
       "id": "12600_horeru_ex1",
-      "japanese": "{彼|かれ}に{惚|ほ}れてしまった。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦に→に：00314_ni⟧{惚|ほ}れてしまった。",
       "english": "I fell for him.",
       "notes": null,
       "has_audio": false,
@@ -120,7 +120,7 @@
     },
     {
       "id": "12600_horeru_ex2",
-      "japanese": "{一目|ひとめ}{惚|ぼ}れだった。",
+      "japanese": "⟦{一目|ひとめ}{惚|ぼ}れ→一目惚れ：15330_hitomebore⟧だった。",
       "english": "It was love at first sight.",
       "notes": null,
       "has_audio": false,
@@ -130,7 +130,7 @@
     },
     {
       "id": "12600_horeru_ex3",
-      "japanese": "{彼女|かのじょ}の{笑顔|えがお}に{惚|ほ}れて、{付|つ}き{合|あ}い{始|はじ}めた。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦の→の：09472_no⟧⟦{笑顔|えがお}→笑顔：01884_egao⟧⟦に→に：00314_ni⟧{惚|ほ}れて、⟦{付|つ}き{合|あ}い{始|はじ}めた→付き合い始める：29797_tsukiaihajimeru⟧。",
       "english": "I fell for her smile and we started going out.",
       "notes": null,
       "has_audio": false,
@@ -140,7 +140,7 @@
     },
     {
       "id": "12600_horeru_ex4",
-      "japanese": "{彼|かれ}の{腕前|うでまえ}に{惚|ほ}れた。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧⟦{腕前|うでまえ}→腕前：07299_udemae⟧⟦に→に：00314_ni⟧{惚|ほ}れた。",
       "english": "I was captivated by his skill.",
       "notes": null,
       "has_audio": false,
@@ -150,7 +150,7 @@
     },
     {
       "id": "12600_horeru_ex5",
-      "japanese": "この{景色|けしき}には{惚|ほ}れ{惚|ぼ}れする。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{景色|けしき}→景色：01395_keshiki⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{惚|ほ}れ{惚|ぼ}れ⟦する→する：00392_suru⟧。",
       "english": "This scenery is enchanting.",
       "notes": null,
       "has_audio": false,
@@ -160,7 +160,7 @@
     },
     {
       "id": "12600_horeru_ex6",
-      "japanese": "{職人|しょくにん}の{見事|みごと}な{技|わざ}に{惚|ほ}れ{込|こ}んで、{弟子入|でしい}りした。",
+      "japanese": "⟦{職人|しょくにん}→職人：09868_shokunin⟧⟦の→の：09472_no⟧⟦{見事|みごと}→見事：03744_migoto⟧な⟦{技|わざ}→技：02172_waza⟧⟦に→に：00314_ni⟧⟦{惚|ほ}れ{込|こ}んで→惚れ込む：12681_horekomu⟧、{弟子入|でしい}り⟦した→する：00392_suru⟧。",
       "english": "I was so captivated by the craftsman's splendid technique that I became his apprentice.",
       "notes": null,
       "has_audio": false,
@@ -169,11 +169,26 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA direct, somewhat informal word for falling in love or being captivated. More spontaneous and passionate than {好|す}きになる. Often implies being struck by sudden attraction.\n\nCOMPOUNDS:\n- {一目惚|ひとめぼ}れ: love at first sight\n- {惚|ほ}れ{込|こ}む: to fall deeply in love / to be thoroughly captivated\n- {惚|ほ}れ{惚|ぼ}れする: to be enchanted, to gaze in admiration\n- {惚|ほ}れた{弱|よわ}み: the weakness of being in love\n\nGRAMMAR:\nIchidan verb. Intransitive. Takes に for the object of affection: Xに{惚|ほ}れる.",
-  "cross_references": [],
+  "notes": "USAGE:\nA direct, somewhat informal word for falling in love or being captivated. More spontaneous and passionate than ⟦{好|す}き→好き：02355_suki⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧. Often implies being struck by sudden attraction.\n\nCOMPOUNDS:\n- ⟦{一目惚|ひとめぼ}れ→一目惚れ：15330_hitomebore⟧: love at first sight\n- ⟦{惚|ほ}れ{込|こ}む→惚れ込む：12681_horekomu⟧: to fall deeply in love / to be thoroughly captivated\n- {惚|ほ}れ{惚|ぼ}れ⟦する→する：00392_suru⟧: to be enchanted, to gaze in admiration\n- {惚|ほ}れた⟦{弱|よわ}み→弱み：15341_yowami⟧: the weakness of being in love\n\nCOMMON PATTERNS:\nIchidan verb. Intransitive. Takes ⟦に→に：00314_ni⟧ for the object of affection: X⟦に→に：00314_ni⟧{惚|ほ}れる.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20014_koiniochiru",
+      "reading": "こいにおちる",
+      "headword": "{恋|こい}に{落|お}ちる",
+      "label": "to fall in love"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20584_noboseru",
+      "reading": "のぼせる",
+      "headword": "のぼせる",
+      "label": "to feel flushed"
+    }
+  ],
   "metadata": {
     "created": "2026-02-22T04:07:31Z",
-    "modified": "2026-03-29T03:07:35Z",
+    "modified": "2026-09-02T04:01:29Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

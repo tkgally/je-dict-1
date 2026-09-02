@@ -15,41 +15,59 @@
   "examples": [
     {
       "id": "15211_kanshoku_ex1",
-      "japanese": "{閑職|かんしょく}に{回|まわ}された。",
+      "japanese": "{閑職|かんしょく}⟦に→に：00314_ni⟧⟦{回|まわ}された→回す：01158_mawasu⟧。",
       "english": "I was transferred to a dead-end position.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15211_kanshoku_ex2",
-      "japanese": "{部長|ぶちょう}は{失敗|しっぱい}の{責任|せきにん}を{取|と}らされ、{閑職|かんしょく}に{追|お}いやられた。",
+      "japanese": "⟦{部長|ぶちょう}→部長：01017_buchou⟧⟦は→は：00079_ha⟧⟦{失敗|しっぱい}→失敗：01636_shippai⟧⟦の→の：09472_no⟧⟦{責任|せきにん}→責任：03298_sekinin⟧⟦を→を：00422_wo⟧{取|と}らされ、{閑職|かんしょく}⟦に→に：00314_ni⟧{追|お}いやられた。",
       "english": "The department head was held responsible for the failure and pushed into a dead-end position.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15211_kanshoku_ex3",
-      "japanese": "{定年|ていねん}まで{閑職|かんしょく}で{過|す}ごすのは{辛|つら}いものがある。",
+      "japanese": "⟦{定年|ていねん}→定年：07500_teinen⟧⟦まで→まで：00490_made⟧{閑職|かんしょく}⟦で→で：00502_de⟧⟦{過|す}ごす→過ごす：02062_sugosu⟧⟦の→の：09472_no⟧⟦は→は：00079_ha⟧⟦{辛|つら}い→辛い：01112_tsurai⟧もの⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "Spending the time until retirement in a do-nothing position is a painful experience.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\n{閑職|かんしょく} almost always carries a negative connotation. Being placed in a {閑職|かんしょく} is a form of indirect punishment or marginalization in Japanese corporate and government culture, where outright firing is uncommon.\n\nCOMMON COLLOCATIONS:\n- {閑職|かんしょく}に{回|まわ}される (to be transferred to a dead-end post)\n- {閑職|かんしょく}に{追|お}いやられる (to be pushed into a sinecure)\n- {閑職|かんしょく}に{就|つ}く (to be placed in a quiet position)\n- {閑職|かんしょく}に{甘|あま}んじる (to resign oneself to a quiet post)",
-  "cross_references": [],
+  "notes": "USAGE:\n{閑職|かんしょく} almost always carries a negative connotation. Being placed in a {閑職|かんしょく} is a form of indirect punishment or marginalization in Japanese corporate and government culture, where outright firing is uncommon.\n\nCOMMON COLLOCATIONS:\n- {閑職|かんしょく}⟦に→に：00314_ni⟧⟦{回|まわ}される→回す：01158_mawasu⟧ (to be transferred to a dead-end post)\n- {閑職|かんしょく}⟦に→に：00314_ni⟧{追|お}いやられる (to be pushed into a sinecure)\n- {閑職|かんしょく}⟦に→に：00314_ni⟧⟦{就|つ}く→就く：10123_tsuku⟧ (to be placed in a quiet position)\n- {閑職|かんしょく}⟦に→に：00314_ni⟧⟦{甘|あま}んじる→甘んじる：26968_amanjiru⟧ (to resign oneself to a quiet post)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "08611_madogiwazoku",
+      "reading": "まどぎわぞく",
+      "headword": "{窓際族|まどぎわぞく}",
+      "label": "sidelined employees"
+    }
+  ],
   "metadata": {
     "created": "2026-03-05T09:37:01Z",
-    "modified": "2026-03-05T09:37:01Z",
+    "modified": "2026-09-02T04:01:40Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["work"]
+      "semantic": [
+        "work"
+      ]
     }
   }
 }

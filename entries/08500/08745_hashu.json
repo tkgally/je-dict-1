@@ -109,7 +109,7 @@
   "examples": [
     {
       "id": "08745_hashu_ex1",
-      "japanese": "{春|はる}に{播種|はしゅ}する。",
+      "japanese": "⟦{春|はる}→春：00627_haru⟧⟦に→に：00314_ni⟧{播種|はしゅ}⟦する→する：00392_suru⟧。",
       "english": "To sow seeds in spring.",
       "sense_numbers": [
         1
@@ -119,7 +119,7 @@
     },
     {
       "id": "08745_hashu_ex2",
-      "japanese": "{播種|はしゅ}の{時期|じき}が{来|き}た。",
+      "japanese": "{播種|はしゅ}⟦の→の：09472_no⟧⟦{時期|じき}→時期：03269_jiki⟧⟦が→が：00051_ga⟧⟦{来|き}た→来る：00254_kuru⟧。",
       "english": "The seeding season has arrived.",
       "sense_numbers": [
         1
@@ -129,7 +129,7 @@
     },
     {
       "id": "08745_hashu_ex3",
-      "japanese": "{野菜|やさい}の{播種|はしゅ}は{計画的|けいかくてき}に{行|おこな}う。",
+      "japanese": "⟦{野菜|やさい}→野菜：02265_yasai⟧⟦の→の：09472_no⟧{播種|はしゅ}⟦は→は：00079_ha⟧⟦{計画的|けいかくてき}→計画的：21003_keikakuteki⟧⟦に→に：00314_ni⟧⟦{行|おこな}う→行う：01238_okonau⟧。",
       "english": "Vegetable seeding is done systematically.",
       "sense_numbers": [
         1
@@ -139,7 +139,7 @@
     },
     {
       "id": "08745_hashu_ex4",
-      "japanese": "がんの{腹膜|ふくまく}{播種|はしゅ}が{見|み}つかった。",
+      "japanese": "がん⟦の→の：09472_no⟧{腹膜|ふくまく}{播種|はしゅ}⟦が→が：00051_ga⟧⟦{見|み}つかった→見つかる：01173_mitsukaru⟧。",
       "english": "Peritoneal dissemination of cancer was found.",
       "sense_numbers": [
         2
@@ -149,7 +149,7 @@
     },
     {
       "id": "08745_hashu_ex5",
-      "japanese": "{播種|はしゅ}{転移|てんい}を{防|ふせ}ぐ{治療|ちりょう}が{必要|ひつよう}だ。",
+      "japanese": "{播種|はしゅ}⟦{転移|てんい}→転移：14394_teni⟧⟦を→を：00422_wo⟧⟦{防|ふせ}ぐ→防ぐ：02409_fusegu⟧⟦{治療|ちりょう}→治療：03503_chiryou⟧⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧だ。",
       "english": "Treatment to prevent metastatic dissemination is necessary.",
       "sense_numbers": [
         2
@@ -159,7 +159,7 @@
     },
     {
       "id": "08745_hashu_ex6",
-      "japanese": "{播種|はしゅ}から{発芽|はつが}まで{約|やく}{一週間|いっしゅうかん}かかる。",
+      "japanese": "{播種|はしゅ}⟦から→から：00504_kara⟧⟦{発芽|はつが}→発芽：18956_hatsuga⟧⟦まで→まで：00490_made⟧⟦{約|やく}→約：09563_yaku⟧⟦{一週間|いっしゅうかん}→一週間：10979_isshuukan⟧⟦かかる→かかる：00711_kakaru⟧。",
       "english": "It takes about a week from seeding to germination.",
       "sense_numbers": [
         1
@@ -168,7 +168,23 @@
       "notes": null
     }
   ],
-  "notes": "KANJI NOTE:\n{播|は} means \"to sow\" or \"to spread.\" This is a relatively uncommon kanji.\n\nAGRICULTURAL TERMS:\n- {播種|はしゅ} - sowing, seeding\n- {発芽|はつが} - germination\n- {苗|なえ} - seedling\n- {定植|ていしょく} - transplanting\n\nMEDICAL USAGE:\nIn oncology, {播種|はしゅ} refers to cancer spreading to body cavities like the {腹膜|ふくまく} (peritoneum). This is different from {転移|てんい} (metastasis) through the bloodstream or lymphatic system.",
+  "notes": "WRITING:\n{播|は} means \"to sow\" or \"to spread.\" This is a relatively uncommon kanji.\n\nAGRICULTURAL TERMS:\n- {播種|はしゅ} - sowing, seeding\n- ⟦{発芽|はつが}→発芽：18956_hatsuga⟧ - germination\n- ⟦{苗|なえ}→苗：05489_nae⟧ - seedling\n- {定植|ていしょく} - transplanting\n\nMEDICAL USAGE:\nIn oncology, {播種|はしゅ} refers to cancer spreading to body cavities like the {腹膜|ふくまく} (peritoneum). This is different from ⟦{転移|てんい}→転移：14394_teni⟧ (metastasis) through the bloodstream or lymphatic system.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "08104_tanemaki",
+      "reading": "たねまき",
+      "headword": "{種|たね}まき",
+      "label": "sowing seeds"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23457_sakuzuke",
+      "reading": "さくづけ",
+      "headword": "{作付|さくづ}け",
+      "label": "planting crops"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -176,6 +192,8 @@
         "noun",
         "verb-suru"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "plant-general",
         "health"
@@ -183,6 +201,6 @@
       "verb_class": "suru"
     },
     "created": "2026-01-28T03:35:56Z",
-    "modified": "2026-08-12T12:52:42Z"
+    "modified": "2026-09-02T04:01:16Z"
   }
 }

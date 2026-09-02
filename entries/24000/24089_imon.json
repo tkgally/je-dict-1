@@ -3,7 +3,7 @@
   "headword": "{慰問|いもん}",
   "reading": "いもん",
   "romaji": "imon",
-  "part_of_speech": "noun (する verb)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "consolation visit; morale visit",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24089_imon_ex1",
-      "japanese": "{病院|びょういん}を{慰問|いもん}する。",
+      "japanese": "⟦{病院|びょういん}→病院：00577_byouin⟧⟦を→を：00422_wo⟧{慰問|いもん}⟦する→する：00392_suru⟧。",
       "english": "To make a consolation visit to a hospital.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24089_imon_ex2",
-      "japanese": "{被災地|ひさいち}への{慰問|いもん}{活動|かつどう}に{参加|さんか}した。",
+      "japanese": "⟦{被災地|ひさいち}→被災地：27434_hisaichi⟧⟦へ→へ：02473_he⟧⟦の→の：09472_no⟧{慰問|いもん}⟦{活動|かつどう}→活動：00201_katsudou⟧⟦に→に：00314_ni⟧⟦{参加|さんか}した→参加する：25408_sankasuru⟧。",
       "english": "I participated in consolation activities for the disaster-stricken area.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24089_imon_ex3",
-      "japanese": "ボランティアグループが{老人|ろうじん}ホームを{慰問|いもん}して{音楽|おんがく}を{演奏|えんそう}した。",
+      "japanese": "⟦ボランティア→ボランティア：04834_borantia⟧⟦グループ→グループ：03840_guruupu⟧⟦が→が：00051_ga⟧⟦{老人|ろうじん}ホーム→老人ホーム：28075_roujinhoomu⟧⟦を→を：00422_wo⟧{慰問|いもん}⟦して→する：00392_suru⟧⟦{音楽|おんがく}→音楽：00661_ongaku⟧⟦を→を：00422_wo⟧⟦{演奏|えんそう}した→演奏する：20349_ensousuru⟧。",
       "english": "A volunteer group visited a nursing home to perform music as a consolation visit.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Describes visiting people in difficult situations — the sick, elderly, disaster victims, or those separated from family — to provide comfort and encouragement. Often involves bringing gifts, performing entertainment, or simply spending time. Commonly done by volunteers, celebrities, politicians, and organizations.\n\nCOMMON COLLOCATIONS:\n- {慰問|いもん}{公演|こうえん}: consolation performance (entertainment for those in hardship)\n- {慰問|いもん}{品|ひん}: consolation gifts; care packages\n- {慰問|いもん}{活動|かつどう}: consolation/morale-boosting activities\n- {慰問|いもん}に{訪|おとず}れる: to visit for consolation\n\nSIMILAR WORDS:\n- {見舞|みま}い: visiting someone who is ill or in trouble — more personal and everyday\n- {慰労|いろう}: appreciation/consolation for hard work — thanking someone for their efforts rather than comforting in adversity",
+  "notes": "Describes visiting people in difficult situations — the sick, elderly, disaster victims, or those separated from family — to provide comfort and encouragement. Often involves bringing gifts, performing entertainment, or simply spending time. Commonly done by volunteers, celebrities, politicians, and organizations.\n\nCOMMON COLLOCATIONS:\n- {慰問|いもん}⟦{公演|こうえん}→公演：11639_kouen⟧: consolation performance (entertainment for those in hardship)\n- {慰問|いもん}⟦{品|ひん}→品：03712_hin⟧: consolation gifts; care packages\n- {慰問|いもん}⟦{活動|かつどう}→活動：00201_katsudou⟧: consolation/morale-boosting activities\n- {慰問|いもん}⟦に→に：00314_ni⟧⟦{訪|おとず}れる→訪れる：07678_otozureru⟧: to visit for consolation\n\nSIMILAR WORDS:\n- ⟦{見舞|みま}い→見舞い：03745_mimai⟧: visiting someone who is ill or in trouble — more personal and everyday\n- ⟦{慰労|いろう}→慰労：25276_irou⟧: appreciation/consolation for hard work — thanking someone for their efforts rather than comforting in adversity",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03745_mimai",
+      "reading": "みまい",
+      "headword": "{見舞|みま}い",
+      "label": "visiting someone who is ill…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25276_irou",
+      "reading": "いろう",
+      "headword": "{慰労|いろう}",
+      "label": "appreciation/consolation for hard work"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +69,16 @@
         "noun",
         "verb-suru"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "society"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-04-17T17:42:21Z",
-    "modified": "2026-08-02T18:32:34Z"
+    "modified": "2026-09-02T04:02:16Z"
   },
   "conjugation": {
     "type": "suru",

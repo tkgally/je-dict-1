@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{神社|じんじゃ} is a Shinto shrine, distinct from Buddhist temples.\n\nSHRINE vs TEMPLE:\n- {神社|じんじゃ}: Shinto shrine (has torii gate)\n- ⟦お{寺|てら}→お寺：23515_otera⟧/⟦{寺院|じいん}→寺院：00122_jiin⟧: Buddhist temple\n\nCOMMON COLLOCATIONS:\n- {神社|じんじゃ}⟦に→に：00314_ni⟧⟦{参|まい}る→参る：01322_mairu⟧: to visit a shrine\n- {神社|じんじゃ}⟦で→で：00502_de⟧⟦{お参|まい}り→お参り：16837_omairi⟧⟦する→する：00392_suru⟧: to pray at a shrine\n- ⟦{鳥居|とりい}→鳥居：05956_torii⟧: torii gate\n- ⟦{お守|まも}り→お守り：05955_omamori⟧: amulet, charm\n- ⟦{絵馬|えま}→絵馬：05957_ema⟧: votive tablet\n- ⟦おみくじ→おみくじ：05959_omikuji⟧: fortune slip\n\nFAMOUS SHRINES:\n- {伊勢|いせ}{神宮|じんぐう}: Ise Grand Shrine\n- {明治|めいじ}{神宮|じんぐう}: Meiji Shrine\n- {出雲|いずも}{大社|たいしゃ}: Izumo Grand Shrine",
+  "notes": "{神社|じんじゃ} is a Shinto shrine, distinct from Buddhist temples.\n\nSHRINE vs TEMPLE:\n- {神社|じんじゃ}: Shinto shrine (has torii gate)\n- ⟦お{寺|てら}→お寺：23515_otera⟧/⟦{寺院|じいん}→寺院：00122_jiin⟧: Buddhist temple\n\nCOMMON COLLOCATIONS:\n- {神社|じんじゃ}⟦に→に：00314_ni⟧⟦{参|まい}る→参る：01322_mairu⟧: to visit a shrine\n- {神社|じんじゃ}⟦で→で：00502_de⟧⟦{お参|まい}り→お参り：16837_omairi⟧⟦する→する：00392_suru⟧: to pray at a shrine\n- ⟦{鳥居|とりい}→鳥居：05956_torii⟧: torii gate\n- ⟦{お守|まも}り→お守り：05955_omamori⟧: amulet, charm\n- ⟦{絵馬|えま}→絵馬：05957_ema⟧: votive tablet\n- ⟦おみくじ→おみくじ：05959_omikuji⟧: fortune slip\n\nFAMOUS SHRINES:\n- ⟦{伊勢|いせ}→伊勢：30733_ise⟧⟦{神宮|じんぐう}→神宮：17736_jinguu⟧: Ise Grand Shrine\n- ⟦{明治|めいじ}→明治：19860_meiji⟧⟦{神宮|じんぐう}→神宮：17736_jinguu⟧: Meiji Shrine\n- ⟦{出雲|いずも}{大社|たいしゃ}→出雲大社：29110_izumotaisha⟧: Izumo Grand Shrine",
   "cross_references": [
     {
       "type": "contrast",
@@ -58,11 +58,32 @@
       "headword": "{神様|かみさま}",
       "label": "god, deity",
       "target_id": "00161_kamisama"
+    },
+    {
+      "type": "related",
+      "target_id": "18663_seidou",
+      "reading": "せいどう",
+      "headword": "{聖堂|せいどう}",
+      "label": "cathedral"
+    },
+    {
+      "type": "related",
+      "target_id": "18822_shinden",
+      "reading": "しんでん",
+      "headword": "{神殿|しんでん}",
+      "label": "temple"
+    },
+    {
+      "type": "related",
+      "target_id": "22716_shamusho",
+      "reading": "しゃむしょ",
+      "headword": "{社務所|しゃむしょ}",
+      "label": "shrine office"
     }
   ],
   "metadata": {
     "created": "2026-01-09T12:07:59Z",
-    "modified": "2026-05-16T13:13:30Z",
+    "modified": "2026-09-02T04:01:00Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

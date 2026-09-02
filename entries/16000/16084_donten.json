@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "16084_donten_ex1",
-      "japanese": "{今日|きょう}は{曇天|どんてん}だ。",
+      "japanese": "⟦{今日|きょう}→今日：00496_kyou⟧⟦は→は：00079_ha⟧{曇天|どんてん}だ。",
       "english": "It's cloudy today.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "16084_donten_ex2",
-      "japanese": "{曇天|どんてん}が{続|つづ}いて{気分|きぶん}が{沈|しず}む。",
+      "japanese": "{曇天|どんてん}⟦が→が：00051_ga⟧⟦{続|つづ}いて→続く：00903_tsuzuku⟧⟦{気分|きぶん}→気分：01306_kibun⟧⟦が→が：00051_ga⟧⟦{沈|しず}む→沈む：02061_shizumu⟧。",
       "english": "The continuous overcast weather is making me feel down.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "16084_donten_ex3",
-      "japanese": "{曇天|どんてん}の{下|した}、{選手|せんしゅ}たちはグラウンドに{集|あつ}まって{練習|れんしゅう}を{始|はじ}めた。",
+      "japanese": "{曇天|どんてん}⟦の→の：09472_no⟧⟦{下|した}→下：00670_shita⟧、⟦{選手|せんしゅ}→選手：03823_senshu⟧たち⟦は→は：00079_ha⟧⟦グラウンド→グラウンド：10813_guraundo⟧⟦に→に：00314_ni⟧⟦{集|あつ}まって→集まる：01162_atsumaru⟧⟦{練習|れんしゅう}→練習：05323_renshuu⟧⟦を→を：00422_wo⟧⟦{始|はじ}めた→始める：00531_hajimeru⟧。",
       "english": "Under the overcast sky, the players gathered on the field and started practice.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA somewhat formal or literary word. In everyday conversation, {曇|くも}り is much more common. {曇天|どんてん} tends to appear in written descriptions, weather reports, and literary contexts.\n\nCOMMON COLLOCATIONS:\n- {曇天|どんてん}が{続|つづ}く (overcast weather continues)\n- {曇天|どんてん}の{空|そら} (an overcast sky)\n- {曇天|どんてん}の{下|した} (under cloudy skies)\n\nSIMILAR WORDS:\n- {曇|くも}り: cloudy — everyday word for overcast weather\n- {雨天|うてん}: rainy weather — similar formal pattern, specifically for rain",
+  "notes": "USAGE:\nA somewhat formal or literary word. In everyday conversation, ⟦{曇|くも}り→曇り：02875_kumori⟧ is much more common. {曇天|どんてん} tends to appear in written descriptions, weather reports, and literary contexts.\n\nCOMMON COLLOCATIONS:\n- {曇天|どんてん}⟦が→が：00051_ga⟧⟦{続|つづ}く→続く：00903_tsuzuku⟧ (overcast weather continues)\n- {曇天|どんてん}⟦の→の：09472_no⟧⟦{空|そら}→空：02216_sora⟧ (an overcast sky)\n- {曇天|どんてん}⟦の→の：09472_no⟧⟦{下|した}→下：00670_shita⟧ (under cloudy skies)\n\nSIMILAR WORDS:\n- ⟦{曇|くも}り→曇り：02875_kumori⟧: cloudy — everyday word for overcast weather\n- ⟦{雨天|うてん}→雨天：15325_uten⟧: rainy weather — similar formal pattern, specifically for rain",
   "cross_references": [
     {
       "type": "synonym",
@@ -52,11 +52,18 @@
       "reading": "くもり",
       "headword": "{曇|くも}り",
       "label": "cloudy (everyday)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15325_uten",
+      "reading": "うてん",
+      "headword": "{雨天|うてん}",
+      "label": "rainy weather"
     }
   ],
   "metadata": {
     "created": "2026-03-09T12:21:06Z",
-    "modified": "2026-05-03T04:25:32Z",
+    "modified": "2026-09-02T04:01:43Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

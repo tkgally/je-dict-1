@@ -20,65 +20,96 @@
   "examples": [
     {
       "id": "15658_kerorito_ex1",
-      "japanese": "{叱|しか}られてもけろりとしている。",
+      "japanese": "⟦{叱|しか}られて→叱る：01202_shikaru⟧⟦も→も：00484_mo⟧けろりと⟦している→する：00392_suru⟧。",
       "english": "Even after being scolded, they act as if nothing happened.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15658_kerorito_ex2",
-      "japanese": "あれだけ{失敗|しっぱい}したのにけろりとした{顔|かお}をしている。",
+      "japanese": "⟦あれ→あれ：00916_are⟧⟦だけ→〜だけ：03093_dake⟧⟦{失敗|しっぱい}→失敗：01636_shippai⟧⟦した→する：00392_suru⟧⟦の→の：09472_no⟧⟦に→に：00314_ni⟧けろりと⟦した→する：00392_suru⟧⟦{顔|かお}→顔：00558_kao⟧⟦を→を：00422_wo⟧⟦している→する：00392_suru⟧。",
       "english": "Despite failing that badly, they have a completely unfazed expression.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15658_kerorito_ex3",
-      "japanese": "{昨日|きのう}{大泣|おおな}きしていたのに、{今日|きょう}はけろりとして{遊|あそ}んでいる。",
+      "japanese": "⟦{昨日|きのう}→昨日：00859_kinou⟧{大泣|おおな}き⟦していた→する：00392_suru⟧⟦の→の：09472_no⟧⟦に→に：00314_ni⟧、⟦{今日|きょう}→今日：00496_kyou⟧⟦は→は：00079_ha⟧けろりと⟦して→する：00392_suru⟧⟦{遊|あそ}んでいる→遊ぶ：00550_asobu⟧。",
       "english": "They were crying their eyes out yesterday, but today they're playing happily as if nothing happened.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15658_kerorito_ex4",
-      "japanese": "{熱|ねつ}がけろりと{下|さ}がった。",
+      "japanese": "⟦{熱|ねつ}→熱：01690_netsu⟧⟦が→が：00051_ga⟧けろりと⟦{下|さ}がった→下がる：01188_sagaru⟧。",
       "english": "The fever went down completely.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "15658_kerorito_ex5",
-      "japanese": "{約束|やくそく}をけろりと{忘|わす}れていた。",
+      "japanese": "⟦{約束|やくそく}→約束：01517_yakusoku⟧⟦を→を：00422_wo⟧けろりと⟦{忘|わす}れていた→忘れる：00474_wasureru⟧。",
       "english": "I had completely forgotten about the promise.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "15658_kerorito_ex6",
-      "japanese": "{風邪|かぜ}がけろりと{治|なお}って{元気|げんき}に{学校|がっこう}へ{行|い}った。",
+      "japanese": "⟦{風邪|かぜ}→風邪：02188_kaze⟧⟦が→が：00051_ga⟧けろりと⟦{治|なお}って→治る：19598_naoru⟧⟦{元気|げんき}→元気：00696_genki⟧⟦に→に：00314_ni⟧⟦{学校|がっこう}→学校：00055_gakkou⟧⟦へ→へ：02473_he⟧⟦{行|い}った→行く：00119_iku⟧。",
       "english": "The cold cleared up completely and they went to school full of energy.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
-  "notes": "USAGE:\nMost commonly used in the pattern けろりとしている (acting as if nothing happened). Conveys a sense of surprise at how unaffected someone is. Can be slightly critical, implying someone should show more concern or reaction.\n\nSIMILAR WORDS:\n- けろっと: a more casual variant with the same meaning\n- {平然|へいぜん}と: calmly, composedly (more formal)\n- {平気|へいき}な{顔|かお}で: with an unfazed expression",
-  "cross_references": [],
+  "notes": "USAGE:\nMost commonly used in the pattern けろりと⟦している→する：00392_suru⟧ (acting as if nothing happened). Conveys a sense of surprise at how unaffected someone is. Can be slightly critical, implying someone should show more concern or reaction.\n\nSIMILAR WORDS:\n- ⟦けろっと→けろっと：06933_kerotto⟧: a more casual variant with the same meaning\n- ⟦{平然|へいぜん}→平然：21263_heizen⟧⟦と→と：00512_to⟧: calmly, composedly (more formal)\n- ⟦{平気|へいき}→平気：00095_heiki⟧な⟦{顔|かお}→顔：00558_kao⟧⟦で→で：00502_de⟧: with an unfazed expression",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06933_kerotto",
+      "reading": "けろっと",
+      "headword": "けろっと",
+      "label": "a more casual variant with the same…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15737_heizento",
+      "reading": "へいぜんと",
+      "headword": "{平然|へいぜん}と",
+      "label": "calmly, composedly"
+    }
+  ],
   "metadata": {
     "created": "2026-03-08T06:42:51Z",
-    "modified": "2026-03-08T06:42:51Z",
+    "modified": "2026-09-02T04:01:42Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adverb"],
+      "pos": [
+        "adverb"
+      ],
       "formality": "informal",
       "politeness": "plain",
-      "semantic": ["onomatopoeia"]
+      "semantic": [
+        "onomatopoeia"
+      ]
     }
   }
 }

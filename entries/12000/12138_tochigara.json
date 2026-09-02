@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "12138_tochigara_ex1",
-      "japanese": "この{辺|あた}りは{土地柄|とちがら}、{外国人|がいこくじん}が{多|おお}い。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{辺|あた}り→辺り：01770_atari⟧⟦は→は：00079_ha⟧{土地柄|とちがら}、⟦{外国人|がいこくじん}→外国人：02869_gaikokujin⟧⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "Given the nature of this area, there are many foreigners.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12138_tochigara_ex2",
-      "japanese": "{土地柄|とちがら}もあって、{海産物|かいさんぶつ}が{豊富|ほうふ}だ。",
+      "japanese": "{土地柄|とちがら}⟦も→も：00484_mo⟧⟦あって→ある：00006_aru⟧、⟦{海産物|かいさんぶつ}→海産物：13394_kaisanbutsu⟧⟦が→が：00051_ga⟧⟦{豊富|ほうふ}→豊富：03620_houfu⟧だ。",
       "english": "Due in part to the nature of the area, seafood is abundant.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12138_tochigara_ex3",
-      "japanese": "{下町|したまち}の{土地柄|とちがら}なのか、{近所|きんじょ}の{人|ひと}たちは{気|き}さくで{親|した}しみやすい。",
+      "japanese": "⟦{下町|したまち}→下町：04193_shitamachi⟧⟦の→の：09472_no⟧{土地柄|とちがら}な⟦の→の：09472_no⟧⟦か→か：09473_ka⟧、⟦{近所|きんじょ}→近所：01318_kinjo⟧⟦の→の：09472_no⟧⟦{人|ひと}→人：00476_hito⟧たち⟦は→は：00079_ha⟧⟦{気|き}さく→気さく：07158_kisaku⟧で⟦{親|した}しみやすい→親しみやすい：19142_shitashimiyasui⟧。",
       "english": "Perhaps because of the character of this old downtown area, the neighbors are friendly and approachable.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\n{土地柄|とちがら} often appears as an explanation for why something is the case in a particular area. Common patterns include {土地柄|とちがら}もあって (partly because of the local character) and この{土地柄|とちがら}では (in a place like this). The suffix {柄|がら} denotes inherent character or nature, as in {人柄|ひとがら} (personality).\n\nCOMMON COLLOCATIONS:\n- {土地柄|とちがら}もあって: partly because of the area\n- {土地柄|とちがら}を{反映|はんえい}する: to reflect the local character\n- {土地柄|とちがら}か: perhaps because of the area",
+  "notes": "USAGE:\n{土地柄|とちがら} often appears as an explanation for why something is the case in a particular area. Common patterns include {土地柄|とちがら}⟦も→も：00484_mo⟧⟦あって→ある：00006_aru⟧ (partly because of the local character) and ⟦この→この：00962_kono⟧{土地柄|とちがら}⟦で→で：00502_de⟧⟦は→は：00079_ha⟧ (in a place like this). The suffix ⟦{柄|がら}→柄：02609_gara⟧ denotes inherent character or nature, as in ⟦{人柄|ひとがら}→人柄：08163_hitogara⟧ (personality).\n\nCOMMON COLLOCATIONS:\n- {土地柄|とちがら}⟦も→も：00484_mo⟧⟦あって→ある：00006_aru⟧: partly because of the area\n- {土地柄|とちがら}⟦を→を：00422_wo⟧⟦{反映|はんえい}する→反映する：17186_haneisuru⟧: to reflect the local character\n- {土地柄|とちがら}⟦か→か：09473_ka⟧: perhaps because of the area",
   "cross_references": [
     {
       "type": "related",
@@ -46,18 +52,43 @@
       "headword": "{土地|とち}",
       "label": "land, area",
       "target_id": "02226_tochi"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14628_fuudo",
+      "reading": "ふうど",
+      "headword": "{風土|ふうど}",
+      "label": "natural features"
+    },
+    {
+      "type": "related",
+      "target_id": "15253_kenminsei",
+      "reading": "けんみんせい",
+      "headword": "{県民性|けんみんせい}",
+      "label": "regional character"
+    },
+    {
+      "type": "related",
+      "target_id": "16695_iegara",
+      "reading": "いえがら",
+      "headword": "{家柄|いえがら}",
+      "label": "family lineage, pedigree"
     }
   ],
   "metadata": {
     "created": "2026-02-20T08:58:21Z",
-    "modified": "2026-04-26T07:25:09Z",
+    "modified": "2026-09-02T04:01:27Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["geography"]
+      "semantic": [
+        "geography"
+      ]
     }
   }
 }

@@ -89,7 +89,7 @@
     },
     {
       "id": "01328_uchi_ex7",
-      "japanese": "⟦{五人|ごにん}→五人：noentry⟧⟦の→の：09472_no⟧{内|うち}、⟦{二人|ふたり}→二人：00622_futari⟧⟦が→が：00051_ga⟧⟦{来|こ}られませんでした→来る：00254_kuru⟧。",
+      "japanese": "⟦{五人|ごにん}→五人：30567_gonin⟧⟦の→の：09472_no⟧{内|うち}、⟦{二人|ふたり}→二人：00622_futari⟧⟦が→が：00051_ga⟧⟦{来|こ}られませんでした→来る：00254_kuru⟧。",
       "english": "Of the five, two couldn't come.",
       "notes": null,
       "has_audio": false,
@@ -228,7 +228,7 @@
       ]
     }
   ],
-  "notes": "{内|うち} has multiple meanings related to 'inside' or 'within.'\n\nGrammar patterns:\n- 〜の{内|うち}: among ~, of ~\n- 〜{内|うち}に: while ~, before ~ (changes)\n- 〜ない{内|うち}に: before ~ happens\n\nIn-group usage:\n- {内|うち}: my home, our family, our company (humble)\n- {内|うち}の + [person/thing]: my/our ~\n\nContrast:\n- {内|うち} (inside, in-group) vs. ⟦{外|そと}→外：00671_soto⟧ (outside, out-group)\n- {内|うち} can be humble; ⟦{お宅|おたく}→お宅：01569_otaku⟧ is the polite equivalent for others' homes\n\nNote: The sense of 'inside' is abstract - for physical interiors, ⟦{中|なか}→中：00654_naka⟧ is more common.",
+  "notes": "{内|うち} has multiple meanings related to 'inside' or 'within.'\n\nGrammar patterns:\n- 〜⟦の→の：09472_no⟧{内|うち}: among ~, of ~\n- 〜{内|うち}⟦に→に：00314_ni⟧: while ~, before ~ (changes)\n- 〜⟦ない→ない：01118_nai⟧{内|うち}⟦に→に：00314_ni⟧: before ~ happens\n\nIn-group usage:\n- {内|うち}: my home, our family, our company (humble)\n- {内|うち}⟦の→の：09472_no⟧ + [person/thing]: my/our ~\n\nContrast:\n- {内|うち} (inside, in-group) vs. ⟦{外|そと}→外：00671_soto⟧ (outside, out-group)\n- {内|うち} can be humble; ⟦お{宅|たく}→お宅：01569_otaku⟧ is the polite equivalent for others' homes\n\nNote: The sense of 'inside' is abstract - for physical interiors, ⟦{中|なか}→中：00654_naka⟧ is more common.",
   "cross_references": [
     {
       "type": "antonym",
@@ -242,11 +242,18 @@
       "reading": "なか",
       "headword": "{中|なか}",
       "target_id": "00654_naka"
+    },
+    {
+      "type": "homophone",
+      "target_id": "27540_uchi",
+      "reading": "うち",
+      "headword": "うち",
+      "label": "my home"
     }
   ],
   "metadata": {
     "created": "2026-01-08T12:14:24Z",
-    "modified": "2026-08-10T12:46:43Z",
+    "modified": "2026-09-02T04:05:40Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

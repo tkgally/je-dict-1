@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "07542_seya_ex1",
-      "japanese": "「{今日|きょう}は{金曜日|きんようび}やろ？」「せや」",
+      "japanese": "「⟦{今日|きょう}→今日：00496_kyou⟧⟦は→は：00079_ha⟧⟦{金曜日|きんようび}→金曜日：00642_kinyoubi⟧やろ？」「せや」",
       "english": "\"It's Friday today, right?\" \"Yeah.\"",
       "has_audio": false,
       "sense_numbers": [
@@ -23,7 +23,7 @@
     },
     {
       "id": "07542_seya_ex2",
-      "japanese": "せやな、その{通|とお}りや。",
+      "japanese": "せやな、⟦その{通|とお}り→その通り：22252_sonotoori⟧や。",
       "english": "Yeah, that's right.",
       "has_audio": false,
       "sense_numbers": [
@@ -32,7 +32,7 @@
     },
     {
       "id": "07542_seya_ex3",
-      "japanese": "せやせや、{忘|わす}れてた。",
+      "japanese": "せやせや、⟦{忘|わす}れ→忘れる：00474_wasureru⟧てた。",
       "english": "Oh yeah, I forgot.",
       "has_audio": false,
       "sense_numbers": [
@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "notes": "DIALECT:\nKansai ({関西|かんさい}) dialect, widely used throughout the region including Osaka, Kyoto, and Kobe.\n\nSTANDARD EQUIVALENT:\nそう / そうだ (standard Japanese)\n\nDERIVED FORMS:\n・せやな - that's right, isn't it\n・せやで - it is, you know\n・せやから - that's why\n・せやけど - but, however\n・せやろ - right? (seeking confirmation)\n・せやせや - yes yes, that's right\n\nRELATED EXPRESSIONS:\n・ほんま - really (Kansai)\n・そうや - that's right (variant)\n\nUSAGE:\nVery common in everyday Kansai speech. Often heard in comedy shows and Osaka-based media.",
+  "notes": "DIALECT:\nKansai (⟦{関西|かんさい}→関西：00179_kansai⟧) dialect, widely used throughout the region including Osaka, Kyoto, and Kobe.\n\nSTANDARD EQUIVALENT:\nそう / そうだ (standard Japanese)\n\nFORMS:\n- せやな - that's right, isn't it\n- せや⟦で→で：00502_de⟧ - it is, you know\n- せや⟦から→から：00504_kara⟧ - that's why\n- せや⟦けど→けど：09477_kedo⟧ - but, however\n- せやろ - right? (seeking confirmation)\n- せやせや - yes yes, that's right\n\nRELATED WORDS:\n- ⟦ほんま→ほんま：07528_honma⟧ - really (Kansai)\n- そうや - that's right (variant)\n\nUSAGE:\nVery common in everyday Kansai speech. Often heard in comedy shows and Osaka-based media.",
   "prominent_see_also": [
     {
       "target_id": "10076_souda",
@@ -63,11 +63,18 @@
       "headword": "ええやん",
       "label": "Kansai dialect",
       "target_id": "07549_eeyan"
+    },
+    {
+      "type": "related",
+      "target_id": "29148_souya",
+      "reading": "そうや",
+      "headword": "そうや",
+      "label": "that's right"
     }
   ],
   "metadata": {
     "created": "2026-01-20T08:47:47Z",
-    "modified": "2026-04-19T06:26:07Z",
+    "modified": "2026-09-02T04:01:11Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -75,6 +82,7 @@
         "expression"
       ],
       "formality": "informal",
+      "politeness": "plain",
       "semantic": [
         "expression"
       ],

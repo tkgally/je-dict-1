@@ -15,41 +15,51 @@
   "examples": [
     {
       "id": "29590_mon_ex1",
-      "japanese": "{一文|いちもん}も{持|も}っていない。",
+      "japanese": "{一文|いちもん}⟦も→も：00484_mo⟧⟦{持|も}っていない→持つ：00478_motsu⟧。",
       "english": "I don't have a single mon. (= I'm penniless.)",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29590_mon_ex2",
-      "japanese": "そんな{物|もの}は{三文|さんもん}の{価値|かち}もない。",
+      "japanese": "⟦そんな→そんな：01645_sonna⟧⟦{物|もの}→物：02259_mono⟧⟦は→は：00079_ha⟧⟦{三文|さんもん}→三文：28481_sanmon⟧⟦の→の：09472_no⟧⟦{価値|かち}→価値：00131_kachi⟧⟦も→も：00484_mo⟧⟦ない→ない：01118_nai⟧。",
       "english": "Something like that isn't worth even three mon. (= It's worthless.)",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29590_mon_ex3",
-      "japanese": "{江戸|えど}{時代|じだい}の{物価|ぶっか}は{文|もん}という{単位|たんい}で{表|あらわ}された。",
+      "japanese": "⟦{江戸|えど}{時代|じだい}→江戸時代：20431_edojidai⟧⟦の→の：09472_no⟧⟦{物価|ぶっか}→物価：03607_bukka⟧⟦は→は：00079_ha⟧{文|もん}⟦という→という：09577_toiu⟧⟦{単位|たんい}→単位：03412_tani⟧⟦で→で：00502_de⟧⟦{表|あらわ}された→表す：01868_arawasu⟧。",
       "english": "Prices in the Edo period were expressed in a unit called the mon.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "An old currency unit, replaced by the {円|えん} (yen) in 1871. It survives mainly in idioms that express \"a tiny sum.\"\n\nCOMMON EXPRESSIONS:\n- {一文|いちもん}{無|な}し: penniless, without a single coin\n- {二束三文|にそくさんもん}: dirt cheap (lit. two bundles for three mon)\n- {早起|はやお}きは{三文|さんもん}の{徳|とく}: the early bird gets the worm (lit. early rising is worth three mon)\n\nNOTE:\nRead {ぶん}, the same kanji means \"sentence; writing\"—a separate word. As {もん} it was also a historical unit for shoe size.",
+  "notes": "An old currency unit, replaced by the ⟦{円|えん}→円：00774_en⟧ (yen) in 1871. It survives mainly in idioms that express \"a tiny sum.\"\n\nCOMMON EXPRESSIONS:\n- {一文|いちもん}{無|な}し: penniless, without a single coin\n- ⟦{二束三文|にそくさんもん}→二束三文：06020_nisokusanmon⟧: dirt cheap (lit. two bundles for three mon)\n- ⟦{早起|はやお}きは{三文|さんもん}の{徳|とく}→早起きは三文の徳：06335_hayaokihasanmonnotoku⟧: the early bird gets the worm (lit. early rising is worth three mon)\n\nUSAGE:\nRead ぶん, the same kanji means \"sentence; writing\"—a separate word. As もん it was also a historical unit for shoe size.",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["money"],
+      "politeness": "plain",
+      "semantic": [
+        "money"
+      ],
       "domain": []
     },
     "created": "2026-06-30T09:20:35Z",
-    "modified": "2026-06-30T09:20:35Z"
+    "modified": "2026-09-02T04:02:37Z"
   }
 }

@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "14120_kurushimi_ex1",
-      "japanese": "{苦|くる}しみから{逃|に}げたい。",
+      "japanese": "{苦|くる}しみ⟦から→から：00504_kara⟧⟦{逃|に}げたい→逃げる：01151_nigeru⟧。",
       "english": "I want to escape from the suffering.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14120_kurushimi_ex2",
-      "japanese": "{彼|かれ}の{苦|くる}しみは{誰|だれ}にもわからない。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧{苦|くる}しみ⟦は→は：00079_ha⟧⟦{誰|だれ}→誰：00534_dare⟧⟦に→に：00314_ni⟧⟦も→も：00484_mo⟧わからない。",
       "english": "Nobody can understand his anguish.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14120_kurushimi_ex3",
-      "japanese": "{長|なが}い{病気|びょうき}の{苦|くる}しみを{乗|の}り{越|こ}えて、やっと{元気|げんき}になった。",
+      "japanese": "⟦{長|なが}い→長い：00491_nagai⟧⟦{病気|びょうき}→病気：00771_byouki⟧⟦の→の：09472_no⟧{苦|くる}しみ⟦を→を：00422_wo⟧⟦{乗|の}り{越|こ}えて→乗り越える：04620_norikoeru⟧、⟦やっと→やっと：01561_yatto⟧⟦{元気|げんき}→元気：00696_genki⟧になった。",
       "english": "After overcoming the suffering of a long illness, I finally got well.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\n{苦|くる}しみ is the nominal form of {苦|くる}しむ (to suffer). It conveys deeper, more prolonged distress than {痛|いた}み (pain), which is primarily physical. {苦|くる}しみ encompasses both physical and emotional suffering.\n\nCOMMON COLLOCATIONS:\n- {苦|くる}しみを{味|あじ}わう: to experience suffering\n- {苦|くる}しみに{耐|た}える: to endure suffering\n- {苦|くる}しみから{逃|に}れる: to escape from suffering\n- {苦|くる}しみを{乗|の}り{越|こ}える: to overcome suffering\n- {苦|くる}しみを{分|わ}かち{合|あ}う: to share suffering",
+  "notes": "USAGE:\n{苦|くる}しみ is the nominal form of ⟦{苦|くる}しむ→苦しむ：01938_kurushimu⟧ (to suffer). It conveys deeper, more prolonged distress than ⟦{痛|いた}み→痛み：01795_itami⟧ (pain), which is primarily physical. {苦|くる}しみ encompasses both physical and emotional suffering.\n\nCOMMON COLLOCATIONS:\n- {苦|くる}しみ⟦を→を：00422_wo⟧⟦{味|あじ}わう→味わう：04405_ajiwau⟧: to experience suffering\n- {苦|くる}しみ⟦に→に：00314_ni⟧⟦{耐|た}える→耐える：12087_taeru⟧: to endure suffering\n- {苦|くる}しみ⟦から→から：00504_kara⟧{逃|に}れる: to escape from suffering\n- {苦|くる}しみ⟦を→を：00422_wo⟧⟦{乗|の}り{越|こ}える→乗り越える：04620_norikoeru⟧: to overcome suffering\n- {苦|くる}しみ⟦を→を：00422_wo⟧⟦{分|わ}かち{合|あ}う→分かち合う：18203_wakachiau⟧: to share suffering",
   "cross_references": [
     {
       "type": "related",
@@ -60,18 +66,29 @@
       "reading": "なやみ",
       "headword": "{悩|なや}み",
       "label": "worry, trouble"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02652_kutsuu",
+      "reading": "くつう",
+      "headword": "{苦痛|くつう}",
+      "label": "pain, agony, suffering"
     }
   ],
   "metadata": {
     "created": "2026-02-28T01:13:11Z",
-    "modified": "2026-04-30T04:29:16Z",
+    "modified": "2026-09-02T04:01:36Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["emotion"]
+      "semantic": [
+        "emotion"
+      ]
     }
   }
 }

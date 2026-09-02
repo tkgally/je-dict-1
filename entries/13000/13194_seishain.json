@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "13194_seishain_ex1",
-      "japanese": "{来年|らいねん}から{正社員|せいしゃいん}になる。",
+      "japanese": "⟦{来年|らいねん}→来年：00745_rainen⟧⟦から→から：00504_kara⟧{正社員|せいしゃいん}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧。",
       "english": "I will become a regular employee starting next year.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13194_seishain_ex2",
-      "japanese": "{正社員|せいしゃいん}と{非正規|ひせいき}の{待遇|たいぐう}に{差|さ}がある。",
+      "japanese": "{正社員|せいしゃいん}⟦と→と：00512_to⟧⟦{非正規|ひせいき}→非正規：26236_hiseiki⟧⟦の→の：09472_no⟧⟦{待遇|たいぐう}→待遇：12517_taiguu⟧⟦に→に：00314_ni⟧⟦{差|さ}→差：02771_sa⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There is a difference in treatment between regular and non-regular employees.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13194_seishain_ex3",
-      "japanese": "アルバイトから{正社員|せいしゃいん}に{登用|とうよう}される{制度|せいど}がある{会社|かいしゃ}も{増|ふ}えている。",
+      "japanese": "⟦アルバイト→アルバイト：01528_arubaito⟧⟦から→から：00504_kara⟧{正社員|せいしゃいん}⟦に→に：00314_ni⟧⟦{登用|とうよう}→登用：17153_touyou⟧⟦される→する：00392_suru⟧⟦{制度|せいど}→制度：03291_seido⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦も→も：00484_mo⟧⟦{増|ふ}えている→増える：01183_fueru⟧。",
       "english": "More companies now have systems for promoting part-timers to regular employee status.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nA key term in the Japanese employment system. {正社員|せいしゃいん} typically enjoy lifetime employment ({終身|しゅうしん}{雇用|こよう}), regular salary increases, bonuses, and social insurance. The distinction between {正社員|せいしゃいん} and {非正規|ひせいき}{社員|しゃいん} (non-regular workers) is a major social and economic issue in Japan.\n\nCOMMON COLLOCATIONS:\n- {正社員|せいしゃいん}として{働|はたら}く: to work as a regular employee\n- {正社員|せいしゃいん}{登用|とうよう}: promotion to regular employee status\n- {正社員|せいしゃいん}{募集|ぼしゅう}: recruiting for regular positions\n\nCONTRASTING TERMS:\n- {契約|けいやく}{社員|しゃいん}: contract employee\n- {派遣|はけん}{社員|しゃいん}: dispatch/temporary worker\n- パート / アルバイト: part-time worker",
+  "notes": "USAGE:\nA key term in the Japanese employment system. {正社員|せいしゃいん} typically enjoy lifetime employment (⟦{終身|しゅうしん}{雇用|こよう}→終身雇用：13852_shuushinkoyou⟧), regular salary increases, bonuses, and social insurance. The distinction between {正社員|せいしゃいん} and ⟦{非正規|ひせいき}→非正規：26236_hiseiki⟧⟦{社員|しゃいん}→社員：03065_shain⟧ (non-regular workers) is a major social and economic issue in Japan.\n\nCOMMON COLLOCATIONS:\n- {正社員|せいしゃいん}⟦として→として：06802_toshite⟧⟦{働|はたら}く→働く：00503_hataraku⟧: to work as a regular employee\n- {正社員|せいしゃいん}⟦{登用|とうよう}→登用：17153_touyou⟧: promotion to regular employee status\n- {正社員|せいしゃいん}⟦{募集|ぼしゅう}→募集：03035_boshuu⟧: recruiting for regular positions\n\nCONTRASTING TERMS:\n- ⟦{契約|けいやく}{社員|しゃいん}→契約社員：12260_keiyakushain⟧: contract employee\n- ⟦{派遣|はけん}{社員|しゃいん}→派遣社員：18875_hakenshain⟧: dispatch/temporary worker\n- ⟦パート→パート：03106_paato⟧ / ⟦アルバイト→アルバイト：01528_arubaito⟧: part-time worker",
   "cross_references": [
     {
       "type": "contrast",
@@ -60,19 +66,46 @@
       "reading": "あるばいと",
       "headword": "アルバイト",
       "label": "part-time work"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03106_paato",
+      "reading": "ぱーと",
+      "headword": "パート",
+      "label": "part-time worker"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17155_shokutaku",
+      "reading": "しょくたく",
+      "headword": "{嘱託|しょくたく}",
+      "label": "commission"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29941_hiyatoiroudousha",
+      "reading": "ひやといろうどうしゃ",
+      "headword": "{日雇|ひやと}い{労働者|ろうどうしゃ}",
+      "label": "day laborer"
     }
   ],
   "metadata": {
     "created": "2026-02-24T06:09:37Z",
-    "modified": "2026-04-28T06:26:02Z",
+    "modified": "2026-09-02T04:01:32Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["work"],
-      "domain": ["business"]
+      "semantic": [
+        "work"
+      ],
+      "domain": [
+        "business"
+      ]
     }
   }
 }

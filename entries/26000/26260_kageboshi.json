@@ -3,7 +3,7 @@
   "headword": "{陰干|かげぼ}し",
   "reading": "かげぼし",
   "romaji": "kageboshi",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "drying in the shade; air-drying out of direct sunlight",
   "definitions": [
     {
@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "26260_kageboshi_ex1",
-      "japanese": "セーターを{陰干|かげぼ}しにする。",
+      "japanese": "⟦セーター→セーター：01371_seetaa⟧⟦を→を：00422_wo⟧{陰干|かげぼ}し⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧。",
       "english": "I dry the sweater in the shade.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "26260_kageboshi_ex2",
-      "japanese": "このシャツは{陰干|かげぼ}しが{推奨|すいしょう}されています。",
+      "japanese": "⟦この→この：00962_kono⟧⟦シャツ→シャツ：01052_shatsu⟧⟦は→は：00079_ha⟧{陰干|かげぼ}し⟦が→が：00051_ga⟧⟦{推奨|すいしょう}→推奨：12907_suishou⟧⟦されています→する：00392_suru⟧。",
       "english": "Shade drying is recommended for this shirt.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "26260_kageboshi_ex3",
-      "japanese": "{色落|いろお}ちを{防|ふせ}ぐために、{大切|たいせつ}な{服|ふく}は{陰干|かげぼ}しにしてください。",
+      "japanese": "⟦{色落|いろお}ち→色落ち：20012_iroochi⟧⟦を→を：00422_wo⟧⟦{防|ふせ}ぐ→防ぐ：02409_fusegu⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧、⟦{大切|たいせつ}→大切：01456_taisetsu⟧な⟦{服|ふく}→服：00695_fuku⟧⟦は→は：00079_ha⟧{陰干|かげぼ}しにして⟦ください→ください：02899_kudasai⟧。",
       "english": "Please dry important clothes in the shade to prevent color fading.",
       "sense_numbers": [
         1
@@ -43,12 +43,35 @@
       "notes": null
     }
   ],
-  "notes": "Refers to drying laundry or other items in the shade rather than in direct sunlight. This method is used to protect delicate fabrics, dark colors, and materials that degrade under UV light.\n\nCOMMON COLLOCATIONS:\n- {陰干|かげぼ}しにする: to dry in the shade\n- {陰干|かげぼ}しが{必要|ひつよう}: shade drying is necessary\n- {風通|かぜとお}しの{良|よ}い{場所|ばしょ}で{陰干|かげぼ}し: shade-dry in a well-ventilated spot\n\nSIMILAR WORDS:\n- {天日干|てんぴぼ}し: sun drying (the opposite — drying in direct sunlight)\n- {部屋干|へやぼ}し: indoor drying (drying laundry inside the house)\n- {室内干|しつないぼ}し: indoor drying (slightly more formal synonym of {部屋干|へやぼ}し)\n\nUSAGE:\nOften seen on care labels for clothing as an instruction. The symbol for shade drying on Japanese laundry tags is a square with two diagonal lines in the upper left corner.",
-  "cross_references": [],
+  "notes": "Refers to drying laundry or other items in the shade rather than in direct sunlight. This method is used to protect delicate fabrics, dark colors, and materials that degrade under UV light.\n\nCOMMON COLLOCATIONS:\n- {陰干|かげぼ}し⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧: to dry in the shade\n- {陰干|かげぼ}し⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧: shade drying is necessary\n- ⟦{風通|かぜとお}し→風通し：09032_kazetooshi⟧⟦の→の：09472_no⟧⟦{良|よ}い→良い：02350_yoi⟧⟦{場所|ばしょ}→場所：00829_basho⟧⟦で→で：00502_de⟧{陰干|かげぼ}し: shade-dry in a well-ventilated spot\n\nSIMILAR WORDS:\n- ⟦{天日干|てんぴぼ}し→天日干し：21115_tenpiboshi⟧: sun drying (the opposite — drying in direct sunlight)\n- ⟦{部屋干|へやぼ}し→部屋干し：29859_heyaboshi⟧: indoor drying (drying laundry inside the house)\n- ⟦{室内干|しつないぼ}し→室内干し：19247_shitsunaiboshi⟧: indoor drying (slightly more formal synonym of ⟦{部屋干|へやぼ}し→部屋干し：29859_heyaboshi⟧)\n\nUSAGE:\nOften seen on care labels for clothing as an instruction. The symbol for shade drying on Japanese laundry tags is a square with two diagonal lines in the upper left corner.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21115_tenpiboshi",
+      "reading": "てんぴぼし",
+      "headword": "{天日干|てんぴぼ}し",
+      "label": "sun drying (the opposite"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29859_heyaboshi",
+      "reading": "へやぼし",
+      "headword": "部屋干し",
+      "label": "indoor drying"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19247_shitsunaiboshi",
+      "reading": "しつないぼし",
+      "headword": "{室内干|しつないぼ}し",
+      "label": "indoor drying"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
+      "politeness": "plain",
       "semantic": [
         "daily-life",
         "clothing"
@@ -60,7 +83,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-30T14:19:38Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T04:02:25Z"
   },
   "conjugation": {
     "type": "suru",

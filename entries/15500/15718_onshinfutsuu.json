@@ -15,41 +15,59 @@
   "examples": [
     {
       "id": "15718_onshinfutsuu_ex1",
-      "japanese": "{友人|ゆうじん}と{音信不通|おんしんふつう}になった。",
+      "japanese": "⟦{友人|ゆうじん}→友人：03649_yuujin⟧⟦と→と：00512_to⟧{音信不通|おんしんふつう}になった。",
       "english": "I lost contact with my friend.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15718_onshinfutsuu_ex2",
-      "japanese": "{卒業|そつぎょう}{以来|いらい}、{彼|かれ}とは{音信不通|おんしんふつう}だ。",
+      "japanese": "⟦{卒業|そつぎょう}→卒業：01643_sotsugyou⟧⟦{以来|いらい}→以来：01831_irai⟧、⟦{彼|かれ}→彼：01292_kare⟧⟦と→と：00512_to⟧⟦は→は：00079_ha⟧{音信不通|おんしんふつう}だ。",
       "english": "I've been out of touch with him since graduation.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15718_onshinfutsuu_ex3",
-      "japanese": "{十年|じゅうねん}{音信不通|おんしんふつう}だった{兄|あに}から{突然|とつぜん}{連絡|れんらく}が{来|き}た。",
+      "japanese": "{十年|じゅうねん}{音信不通|おんしんふつう}だった⟦{兄|あに}→兄：00570_ani⟧⟦から→から：00504_kara⟧⟦{突然|とつぜん}→突然：00409_totsuzen⟧⟦{連絡|れんらく}→連絡：01524_renraku⟧⟦が→が：00051_ga⟧⟦{来|き}た→来る：00254_kuru⟧。",
       "english": "My brother, whom I hadn't heard from in ten years, suddenly got in touch.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "A {四字熟語|よじじゅくご} (four-character compound) meaning complete loss of contact with someone.\n\nCOMPOUND: {音信|おんしん} (news/correspondence) + {不通|ふつう} (not going through)\n\nCOMMON COLLOCATIONS:\n- {音信不通|おんしんふつう}になる: to lose contact\n- {音信不通|おんしんふつう}のまま: still out of touch\n- {長年|ながねん}{音信不通|おんしんふつう}だった: had been out of touch for years\n- {音信不通|おんしんふつう}だった{人|ひと}から{連絡|れんらく}が{来|く}る: to hear from someone who had been out of touch\n\nUSAGE:\nCan describe both intentional disappearance (someone cuts off contact) and unintentional loss of contact (drifting apart). Often used in the pattern ～{以来|いらい}{音信不通|おんしんふつう}だ (have been out of touch since ~).\n\nIn modern Japanese, also used casually for someone who stops responding to messages or calls.",
-  "cross_references": [],
+  "notes": "A ⟦{四字熟語|よじじゅくご}→四字熟語：15663_yojijukugo⟧ (four-character compound) meaning complete loss of contact with someone.\n\nCOMPOUND: ⟦{音信|おんしん}→音信：24082_onshin⟧ (news/correspondence) + {不通|ふつう} (not going through)\n\nCOMMON COLLOCATIONS:\n- {音信不通|おんしんふつう}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧: to lose contact\n- {音信不通|おんしんふつう}⟦の→の：09472_no⟧まま: still out of touch\n- ⟦{長年|ながねん}→長年：09684_naganen⟧{音信不通|おんしんふつう}だった: had been out of touch for years\n- {音信不通|おんしんふつう}だった⟦{人|ひと}→人：00476_hito⟧⟦から→から：00504_kara⟧⟦{連絡|れんらく}→連絡：01524_renraku⟧⟦が→が：00051_ga⟧⟦{来|く}る→来る：00254_kuru⟧: to hear from someone who had been out of touch\n\nUSAGE:\nCan describe both intentional disappearance (someone cuts off contact) and unintentional loss of contact (drifting apart). Often used in the pattern ～⟦{以来|いらい}→以来：01831_irai⟧{音信不通|おんしんふつう}だ (have been out of touch since ~).\n\nIn modern Japanese, also used casually for someone who stops responding to messages or calls.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24663_shousokufumei",
+      "reading": "しょうそくふめい",
+      "headword": "{消息不明|しょうそくふめい}",
+      "label": "missing"
+    }
+  ],
   "metadata": {
     "created": "2026-03-08T08:48:39Z",
-    "modified": "2026-04-07T03:52:40Z",
+    "modified": "2026-09-02T04:01:42Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["communication"]
+      "semantic": [
+        "communication"
+      ]
     }
   }
 }

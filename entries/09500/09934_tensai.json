@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "09934_tensai_ex1",
-      "japanese": "{彼|かれ}は{天才|てんさい}だ。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{天才|てんさい}だ。",
       "english": "He is a genius.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "09934_tensai_ex2",
-      "japanese": "{音楽|おんがく}の{天才|てんさい}です。",
+      "japanese": "⟦{音楽|おんがく}→音楽：00661_ongaku⟧⟦の→の：09472_no⟧{天才|てんさい}です。",
       "english": "He/She is a musical genius.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "09934_tensai_ex3",
-      "japanese": "{天才|てんさい}は{努力|どりょく}も{大切|たいせつ}だと{言|い}う。",
+      "japanese": "{天才|てんさい}⟦は→は：00079_ha⟧⟦{努力|どりょく}→努力：03490_doryoku⟧⟦も→も：00484_mo⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧だ⟦と→と：00512_to⟧⟦{言|い}う→言う：00515_iu⟧。",
       "english": "They say that even geniuses value hard work.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{天才|てんさい} refers to extraordinary natural talent or a person possessing such talent — a genius or prodigy.\n\nWORD FORMATION:\n{天|てん} (heaven) + {才|さい} (talent). Literally \"heavenly talent\" — ability granted by nature rather than effort.\n\nCOMMON EXPRESSIONS:\n- {天才|てんさい}{的|てき}: genius-like, brilliant\n- {天才|てんさい}{児|じ}: child prodigy\n- {天才|てんさい}{肌|はだ}: having a genius temperament\n\nSIMILAR WORDS:\n- {天才|てんさい}: genius (innate, exceptional talent)\n- {秀才|しゅうさい}: talented person (through hard work and intelligence)\n- {鬼才|きさい}: extraordinary talent, maverick genius\n- {才能|さいのう}: talent, ability (general term)\n\nNOTE:\nThe distinction between {天才|てんさい} (innate genius) and {秀才|しゅうさい} (brilliant through effort) is important in Japanese culture.",
+  "notes": "{天才|てんさい} refers to extraordinary natural talent or a person possessing such talent — a genius or prodigy.\n\nFORMS:\n⟦{天|てん}→天：28464_ten⟧ (heaven) + {才|さい} (talent). Literally \"heavenly talent\" — ability granted by nature rather than effort.\n\nCOMMON EXPRESSIONS:\n- {天才|てんさい}{的|てき}: genius-like, brilliant\n- {天才|てんさい}{児|じ}: child prodigy\n- {天才|てんさい}⟦{肌|はだ}→肌：02243_hada⟧: having a genius temperament\n\nSIMILAR WORDS:\n- {天才|てんさい}: genius (innate, exceptional talent)\n- ⟦{秀才|しゅうさい}→秀才：18297_shuusai⟧: talented person (through hard work and intelligence)\n- ⟦{鬼才|きさい}→鬼才：24222_kisai⟧: extraordinary talent, maverick genius\n- ⟦{才能|さいのう}→才能：02772_sainou⟧: talent, ability (general term)\n\nUSAGE:\nThe distinction between {天才|てんさい} (innate genius) and ⟦{秀才|しゅうさい}→秀才：18297_shuusai⟧ (brilliant through effort) is important in Japanese culture.",
   "prominent_see_also": [
     {
       "target_id": "14359_tensai",
@@ -66,11 +66,46 @@
       "reading": "さいのう",
       "headword": "{才能|さいのう}",
       "label": "talent, ability"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24222_kisai",
+      "reading": "きさい",
+      "headword": "{鬼才|きさい}",
+      "label": "extraordinary talent, maverick genius"
+    },
+    {
+      "type": "related",
+      "target_id": "18469_eisaikyouiku",
+      "reading": "えいさいきょういく",
+      "headword": "{英才教育|えいさいきょういく}",
+      "label": "education for gifted children"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21625_saijin",
+      "reading": "さいじん",
+      "headword": "{才人|さいじん}",
+      "label": "talented person"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24435_shunsai",
+      "reading": "しゅんさい",
+      "headword": "{俊才|しゅんさい}",
+      "label": "talented person"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26809_kyoshou",
+      "reading": "きょしょう",
+      "headword": "{巨匠|きょしょう}",
+      "label": "great master"
     }
   ],
   "metadata": {
     "created": "2026-02-04T10:52:33Z",
-    "modified": "2026-04-23T08:17:03Z",
+    "modified": "2026-09-02T04:01:19Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

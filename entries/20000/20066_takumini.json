@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "20066_takumini_ex1",
-      "japanese": "{言葉|ことば}を{巧|たく}みに{使|つか}う。",
+      "japanese": "⟦{言葉|ことば}→言葉：02880_kotoba⟧⟦を→を：00422_wo⟧{巧|たく}みに⟦{使|つか}う→使う：00473_tsukau⟧。",
       "english": "To use words skillfully.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "20066_takumini_ex2",
-      "japanese": "{彼|かれ}は{質問|しつもん}を{巧|たく}みにかわした。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{質問|しつもん}→質問：00888_shitsumon⟧⟦を→を：00422_wo⟧{巧|たく}みに⟦かわした→かわす：28851_kawasu⟧。",
       "english": "He deftly dodged the question.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "20066_takumini_ex3",
-      "japanese": "{詐欺師|さぎし}は{巧|たく}みな{手口|てぐち}で{人々|ひとびと}を{騙|だま}した。",
+      "japanese": "⟦{詐欺師|さぎし}→詐欺師：10176_sagishi⟧⟦は→は：00079_ha⟧{巧|たく}みな⟦{手口|てぐち}→手口：12756_teguchi⟧⟦で→で：00502_de⟧⟦{人々|ひとびと}→人々：03141_hitobito⟧⟦を→を：00422_wo⟧⟦{騙|だま}した→騙す：02286_damasu⟧。",
       "english": "The swindler deceived people with clever tricks.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "The adverbial form of {巧|たく}み (na-adjective meaning skillful/clever). Describes actions performed with notable skill or cleverness. Can be used both positively (impressive skill) and negatively (cunning manipulation).\n\nUSAGE:\nWhen used with neutral or positive verbs, it praises skill and dexterity. When used with verbs like {騙|だま}す (to deceive) or かわす (to dodge), it implies craftiness or cunning.\n\nCOMMON COLLOCATIONS:\n- {巧|たく}みに{操|あやつ}る: to manipulate skillfully\n- {巧|たく}みに{使|つか}う: to use skillfully\n- {巧|たく}みにかわす: to dodge deftly\n- {巧|たく}みな{技|わざ}: skillful technique\n- {巧|たく}みな{話術|わじゅつ}: skillful way of speaking\n\nSIMILAR WORDS:\n- {上手|じょうず}に: skillfully — the everyday, neutral word for doing something well\n- {器用|きよう}に: deftly — emphasizes manual dexterity or versatility\n- {巧|たく}みに: adds a literary quality and can imply cleverness or cunning that the others lack",
+  "notes": "The adverbial form of ⟦{巧|たく}み→巧み：07153_takumi⟧ (na-adjective meaning skillful/clever). Describes actions performed with notable skill or cleverness. Can be used both positively (impressive skill) and negatively (cunning manipulation).\n\nUSAGE:\nWhen used with neutral or positive verbs, it praises skill and dexterity. When used with verbs like ⟦{騙|だま}す→騙す：02286_damasu⟧ (to deceive) or ⟦かわす→かわす：28851_kawasu⟧ (to dodge), it implies craftiness or cunning.\n\nCOMMON COLLOCATIONS:\n- {巧|たく}みに⟦{操|あやつ}る→操る：12707_ayatsuru⟧: to manipulate skillfully\n- {巧|たく}みに⟦{使|つか}う→使う：00473_tsukau⟧: to use skillfully\n- {巧|たく}みに⟦かわす→かわす：28851_kawasu⟧: to dodge deftly\n- {巧|たく}みな⟦{技|わざ}→技：02172_waza⟧: skillful technique\n- {巧|たく}みな⟦{話術|わじゅつ}→話術：21732_wajutsu⟧: skillful way of speaking\n\nSIMILAR WORDS:\n- ⟦{上手|じょうず}→上手：00707_jouzu⟧⟦に→に：00314_ni⟧: skillfully — the everyday, neutral word for doing something well\n- ⟦{器用|きよう}→器用：02655_kiyou⟧⟦に→に：00314_ni⟧: deftly — emphasizes manual dexterity or versatility\n- {巧|たく}みに: adds a literary quality and can imply cleverness or cunning that the others lack",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00707_jouzu",
+      "reading": "じょうず",
+      "headword": "{上手|じょうず}",
+      "label": "skillfully"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02655_kiyou",
+      "reading": "きよう",
+      "headword": "{器用|きよう}",
+      "label": "deftly"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +75,6 @@
       ]
     },
     "created": "2026-03-28T06:16:53Z",
-    "modified": "2026-03-28T06:16:53Z"
+    "modified": "2026-09-02T04:01:58Z"
   }
 }

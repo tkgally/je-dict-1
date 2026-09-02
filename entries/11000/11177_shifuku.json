@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "11177_shifuku_ex1",
-      "japanese": "{今日|きょう}は{私服|しふく}で{来|き}た。",
+      "japanese": "⟦{今日|きょう}→今日：00496_kyou⟧⟦は→は：00079_ha⟧{私服|しふく}⟦で→で：00502_de⟧⟦{来|き}た→来る：00254_kuru⟧。",
       "english": "I came in plain clothes today.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "11177_shifuku_ex2",
-      "japanese": "{休|やす}みの{日|ひ}は{私服|しふく}で{過|す}ごす。",
+      "japanese": "⟦{休|やす}み→休み：02266_yasumi⟧⟦の→の：09472_no⟧⟦{日|ひ}→日：02249_hi⟧⟦は→は：00079_ha⟧{私服|しふく}⟦で→で：00502_de⟧⟦{過|す}ごす→過ごす：02062_sugosu⟧。",
       "english": "I spend days off in casual clothes.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "11177_shifuku_ex3",
-      "japanese": "この{学校|がっこう}は{制服|せいふく}がないので、{生徒|せいと}は{毎日|まいにち}{私服|しふく}で{通|かよ}っている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{学校|がっこう}→学校：00055_gakkou⟧⟦は→は：00079_ha⟧⟦{制服|せいふく}→制服：03086_seifuku⟧⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧⟦の→の：09472_no⟧で、⟦{生徒|せいと}→生徒：01051_seito⟧⟦は→は：00079_ha⟧⟦{毎日|まいにち}→毎日：00729_mainichi⟧{私服|しふく}⟦で→で：00502_de⟧⟦{通|かよ}っている→通う：01217_kayou⟧。",
       "english": "This school has no uniform, so students attend in their own clothes every day.",
       "notes": null,
       "has_audio": false,
@@ -43,10 +43,10 @@
       ]
     }
   ],
-  "notes": "{私服|しふく} refers to personal, everyday clothing worn outside of official duties, school, or work — as opposed to a uniform or formal attire.\n\nCOMMON EXPRESSIONS:\n- {私服|しふく}で{通|かよ}う: to commute/attend in plain clothes\n- {私服|しふく}で{来|く}る: to come in casual clothes\n- {私服|しふく}{警官|けいかん}: plainclothes police officer\n- {私服|しふく}{勤務|きんむ}: working in plain clothes\n\nCONTRAST:\n- {制服|せいふく}: uniform (school, work)\n- {作業着|さぎょうぎ}: work clothes\n- {正装|せいそう}: formal attire\n\nUSAGE NOTE:\nIn Japan, many schools require {制服|せいふく} (uniforms), so {私服|しふく} often comes up in discussions about school dress codes. A {私服|しふく}の{学校|がっこう} is a school without a uniform policy.",
+  "notes": "{私服|しふく} refers to personal, everyday clothing worn outside of official duties, school, or work — as opposed to a uniform or formal attire.\n\nCOMMON EXPRESSIONS:\n- {私服|しふく}⟦で→で：00502_de⟧⟦{通|かよ}う→通う：01217_kayou⟧: to commute/attend in plain clothes\n- {私服|しふく}⟦で→で：00502_de⟧⟦{来|く}る→来る：00254_kuru⟧: to come in casual clothes\n- {私服|しふく}⟦{警官|けいかん}→警官：02876_keikan⟧: plainclothes police officer\n- {私服|しふく}⟦{勤務|きんむ}→勤務：04545_kinmu⟧: working in plain clothes\n\nSIMILAR WORDS:\n- ⟦{制服|せいふく}→制服：03086_seifuku⟧: uniform (school, work)\n- ⟦{作業着|さぎょうぎ}→作業着：24135_sagyougi⟧: work clothes\n- ⟦{正装|せいそう}→正装：16053_seisou⟧: formal attire\n\nUSAGE:\nIn Japan, many schools require ⟦{制服|せいふく}→制服：03086_seifuku⟧ (uniforms), so {私服|しふく} often comes up in discussions about school dress codes. A {私服|しふく}⟦の→の：09472_no⟧⟦{学校|がっこう}→学校：00055_gakkou⟧ is a school without a uniform policy.",
   "metadata": {
     "created": "2026-02-14T12:48:34Z",
-    "modified": "2026-04-25T04:12:08Z",
+    "modified": "2026-09-02T04:01:24Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -68,6 +68,20 @@
       "reading": "せいふく",
       "headword": "{制服|せいふく}",
       "label": "uniform"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24135_sagyougi",
+      "reading": "さぎょうぎ",
+      "headword": "{作業着|さぎょうぎ}",
+      "label": "work clothes"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16053_seisou",
+      "reading": "せいそう",
+      "headword": "{正装|せいそう}",
+      "label": "formal attire"
     }
   ]
 }

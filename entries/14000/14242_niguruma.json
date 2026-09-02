@@ -15,41 +15,59 @@
   "examples": [
     {
       "id": "14242_niguruma_ex1",
-      "japanese": "{荷車|にぐるま}を{引|ひ}く。",
+      "japanese": "{荷車|にぐるま}⟦を→を：00422_wo⟧⟦{引|ひ}く→引く：01978_hiku⟧。",
       "english": "To pull a cart.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14242_niguruma_ex2",
-      "japanese": "{牛|うし}が{荷車|にぐるま}を{引|ひ}いて{道|みち}を{進|すす}んだ。",
+      "japanese": "⟦{牛|うし}→牛：01857_ushi⟧⟦が→が：00051_ga⟧{荷車|にぐるま}⟦を→を：00422_wo⟧⟦{引|ひ}いて→引く：01978_hiku⟧⟦{道|みち}→道：00505_michi⟧⟦を→を：00422_wo⟧⟦{進|すす}んだ→進む：01225_susumu⟧。",
       "english": "An ox pulled a cart along the road.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14242_niguruma_ex3",
-      "japanese": "{昔|むかし}の{農家|のうか}は{荷車|にぐるま}に{野菜|やさい}を{積|つ}んで{市場|いちば}まで{運|はこ}んでいた。",
+      "japanese": "⟦{昔|むかし}→昔：01515_mukashi⟧⟦の→の：09472_no⟧⟦{農家|のうか}→農家：03539_nouka⟧⟦は→は：00079_ha⟧{荷車|にぐるま}⟦に→に：00314_ni⟧⟦{野菜|やさい}→野菜：02265_yasai⟧⟦を→を：00422_wo⟧⟦{積|つ}んで→積む：02294_tsumu⟧⟦{市場|いちば}→市場：01803_ichiba⟧⟦まで→まで：00490_made⟧⟦{運|はこ}んでいた→運ぶ：01088_hakobu⟧。",
       "english": "In the old days, farmers loaded vegetables onto carts and transported them to the market.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{荷車|にぐるま} is a compound of {荷|に} (load, cargo) and {車|くるま} (vehicle, wheel). It refers to a simple wheeled vehicle for hauling goods.\n\nCOMMON COLLOCATIONS:\n- {荷車|にぐるま}を{引|ひ}く (pull a cart)\n- {荷車|にぐるま}に{積|つ}む (load onto a cart)\n- {荷車|にぐるま}を{押|お}す (push a cart)\n\nThe word evokes a traditional or historical setting, as modern transportation has largely replaced carts. It appears frequently in historical fiction and descriptions of rural life.",
-  "cross_references": [],
+  "notes": "{荷車|にぐるま} is a compound of ⟦{荷|に}→荷：28294_ni⟧ (load, cargo) and ⟦{車|くるま}→車：00516_kuruma⟧ (vehicle, wheel). It refers to a simple wheeled vehicle for hauling goods.\n\nCOMMON COLLOCATIONS:\n- {荷車|にぐるま}⟦を→を：00422_wo⟧⟦{引|ひ}く→引く：01978_hiku⟧ (pull a cart)\n- {荷車|にぐるま}⟦に→に：00314_ni⟧⟦{積|つ}む→積む：02294_tsumu⟧ (load onto a cart)\n- {荷車|にぐるま}⟦を→を：00422_wo⟧⟦{押|お}す→押す：02854_osu⟧ (push a cart)\n\nThe word evokes a traditional or historical setting, as modern transportation has largely replaced carts. It appears frequently in historical fiction and descriptions of rural life.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "26632_teguruma",
+      "reading": "てぐるま",
+      "headword": "{手車|てぐるま}",
+      "label": "handcart"
+    }
+  ],
   "metadata": {
     "created": "2026-02-28T07:53:04Z",
-    "modified": "2026-02-28T07:53:04Z",
+    "modified": "2026-09-02T04:01:36Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["transportation"]
+      "semantic": [
+        "transportation"
+      ]
     }
   }
 }

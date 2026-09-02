@@ -3,7 +3,7 @@
   "headword": "{詰問|きつもん}する",
   "reading": "きつもん",
   "romaji": "kitsumon",
-  "part_of_speech": "noun, suru verb, transitive",
+  "part_of_speech": "noun, suru verb (transitive)",
   "gloss": "to interrogate; to cross-examine; to grill",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21386_kitsumon_ex1",
-      "japanese": "{上司|じょうし}に{詰問|きつもん}された。",
+      "japanese": "⟦{上司|じょうし}→上司：03286_joushi⟧⟦に→に：00314_ni⟧{詰問|きつもん}された。",
       "english": "I was grilled by my boss.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21386_kitsumon_ex2",
-      "japanese": "「なぜ{報告|ほうこく}しなかったのか」と{詰問|きつもん}された。",
+      "japanese": "「⟦なぜ→なぜ：01484_naze⟧⟦{報告|ほうこく}しなかった→報告する：05644_houkokusuru⟧⟦の→の：09472_no⟧⟦か→か：09473_ka⟧」⟦と→と：00512_to⟧{詰問|きつもん}された。",
       "english": "I was interrogated with 'Why didn't you report this?'",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21386_kitsumon_ex3",
-      "japanese": "{記者|きしゃ}たちが{大臣|だいじん}に{矛盾|むじゅん}を{詰問|きつもん}したが、{明確|めいかく}な{回答|かいとう}は{得|え}られなかった。",
+      "japanese": "⟦{記者|きしゃ}→記者：14170_kisha⟧たち⟦が→が：00051_ga⟧⟦{大臣|だいじん}→大臣：03417_daijin⟧⟦に→に：00314_ni⟧⟦{矛盾|むじゅん}→矛盾：05215_mujun⟧⟦を→を：00422_wo⟧{詰問|きつもん}した⟦が→が：00051_ga⟧、⟦{明確|めいかく}→明確：01664_meikaku⟧な⟦{回答|かいとう}→回答：00142_kaitou⟧⟦は→は：00079_ha⟧⟦{得|え}られなかった→得る：02014_eru⟧。",
       "english": "The reporters grilled the minister on the contradictions, but couldn't get a clear answer.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "A strong word implying aggressive, confrontational questioning. The {詰|きつ} kanji conveys the sense of pressing hard or cornering someone. Typically used when a superior questions a subordinate, or when journalists confront officials.\n\nCOMMON COLLOCATIONS:\n- {厳|きび}しく{詰問|きつもん}する: to interrogate harshly\n- {理由|りゆう}を{詰問|きつもん}する: to demand a reason\n- {詰問|きつもん}{調|ちょう}: interrogative tone\n\nSIMILAR WORDS:\n- {尋問|じんもん}する: to interrogate — legal/police context, formal examination\n- {質問|しつもん}する: to ask a question — neutral, no hostile nuance\n- {問|と}い{詰|つ}める: to press someone for answers — similar intensity, but a native Japanese compound verb",
+  "notes": "A strong word implying aggressive, confrontational questioning. The {詰|きつ} kanji conveys the sense of pressing hard or cornering someone. Typically used when a superior questions a subordinate, or when journalists confront officials.\n\nCOMMON COLLOCATIONS:\n- ⟦{厳|きび}しく→厳しい：01125_kibishii⟧{詰問|きつもん}する: to interrogate harshly\n- ⟦{理由|りゆう}→理由：01102_riyuu⟧⟦を→を：00422_wo⟧{詰問|きつもん}する: to demand a reason\n- {詰問|きつもん}{調|ちょう}: interrogative tone\n\nSIMILAR WORDS:\n- ⟦{尋問|じんもん}する→尋問する：20033_jinmonsuru⟧: to interrogate — legal/police context, formal examination\n- ⟦{質問|しつもん}する→質問する：05637_shitsumonsuru⟧: to ask a question — neutral, no hostile nuance\n- ⟦{問|と}い{詰|つ}める→問い詰める：09147_toitsumeru⟧: to press someone for answers — similar intensity, but a native Japanese compound verb",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20033_jinmonsuru",
+      "reading": "じんもんする",
+      "headword": "{尋問|じんもん}する",
+      "label": "to interrogate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05637_shitsumonsuru",
+      "reading": "しつもんする",
+      "headword": "{質問|しつもん}する",
+      "label": "to ask a question"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09147_toitsumeru",
+      "reading": "といつめる",
+      "headword": "{問|と}い{詰|つ}める",
+      "label": "to press someone for answers"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,7 +85,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-02T02:07:05Z",
-    "modified": "2026-04-02T02:07:05Z"
+    "modified": "2026-09-02T04:02:03Z"
   },
   "conjugation": {
     "type": "suru",

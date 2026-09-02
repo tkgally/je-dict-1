@@ -15,41 +15,74 @@
   "examples": [
     {
       "id": "17987_saikou_sokudo_ex1",
-      "japanese": "{最高|さいこう}{速度|そくど}は{時速|じそく}300キロだ。",
+      "japanese": "{最高|さいこう}{速度|そくど}⟦は→は：00079_ha⟧⟦{時速|じそく}→時速：00128_jisoku⟧300⟦キロ→キロ：01350_kiro⟧だ。",
       "english": "The top speed is 300 kilometers per hour.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17987_saikou_sokudo_ex2",
-      "japanese": "この{道路|どうろ}の{最高|さいこう}{速度|そくど}は{時速|じそく}60キロに{制限|せいげん}されている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{道路|どうろ}→道路：01481_douro⟧⟦の→の：09472_no⟧{最高|さいこう}{速度|そくど}⟦は→は：00079_ha⟧⟦{時速|じそく}→時速：00128_jisoku⟧60⟦キロ→キロ：01350_kiro⟧⟦に→に：00314_ni⟧⟦{制限|せいげん}→制限：03375_seigen⟧⟦されている→する：00392_suru⟧。",
       "english": "The speed limit on this road is set at 60 kilometers per hour.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17987_saikou_sokudo_ex3",
-      "japanese": "{新幹線|しんかんせん}の{最高|さいこう}{速度|そくど}は{年々|ねんねん}{向上|こうじょう}しており、{現在|げんざい}は{時速|じそく}320キロに{達|たっ}する。",
+      "japanese": "⟦{新幹線|しんかんせん}→新幹線：01053_shinkansen⟧⟦の→の：09472_no⟧{最高|さいこう}{速度|そくど}⟦は→は：00079_ha⟧⟦{年々|ねんねん}→年々：10417_nennen⟧⟦{向上|こうじょう}して→向上する：18997_koujousuru⟧おり、⟦{現在|げんざい}→現在：01556_genzai⟧⟦は→は：00079_ha⟧⟦{時速|じそく}→時速：00128_jisoku⟧320⟦キロ→キロ：01350_kiro⟧⟦に→に：00314_ni⟧⟦{達|たっ}する→達する：02129_tassuru⟧。",
       "english": "The Shinkansen's maximum speed has been improving year after year and currently reaches 320 kilometers per hour.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nUsed in traffic law, vehicle specs, and physics. In traffic contexts, {最高|さいこう}{速度|そくど} often means the speed limit rather than the fastest a vehicle can go. Context determines the meaning.\n\nCOMMON COLLOCATIONS:\n- {最高|さいこう}{速度|そくど}に{達|たっ}する (to reach maximum speed)\n- {最高|さいこう}{速度|そくど}{制限|せいげん} (speed limit)\n- {最高|さいこう}{速度|そくど}を{出|だ}す (to reach top speed)\n- {法定|ほうてい}{最高|さいこう}{速度|そくど} (legal speed limit)",
-  "cross_references": [],
+  "notes": "USAGE:\nUsed in traffic law, vehicle specs, and physics. In traffic contexts, {最高|さいこう}{速度|そくど} often means the speed limit rather than the fastest a vehicle can go. Context determines the meaning.\n\nCOMMON COLLOCATIONS:\n- {最高|さいこう}{速度|そくど}⟦に→に：00314_ni⟧⟦{達|たっ}する→達する：02129_tassuru⟧ (to reach maximum speed)\n- {最高|さいこう}{速度|そくど}⟦{制限|せいげん}→制限：03375_seigen⟧ (speed limit)\n- {最高|さいこう}{速度|そくど}⟦を→を：00422_wo⟧⟦{出|だ}す→出す：01087_dasu⟧ (to reach top speed)\n- {法定|ほうてい}{最高|さいこう}{速度|そくど} (legal speed limit)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25675_zensokuryoku",
+      "reading": "ぜんそくりょく",
+      "headword": "{全速力|ぜんそくりょく}",
+      "label": "full speed"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26875_seigensokudo",
+      "reading": "せいげんそくど",
+      "headword": "{制限速度|せいげんそくど}",
+      "label": "speed limit"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29320_genkaisokudo",
+      "reading": "げんかいそくど",
+      "headword": "{限界速度|げんかいそくど}",
+      "label": "critical speed"
+    }
+  ],
   "metadata": {
     "created": "2026-03-19T11:47:29Z",
-    "modified": "2026-03-19T11:47:29Z",
+    "modified": "2026-09-02T04:01:50Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["transportation", "quantity"]
+      "semantic": [
+        "transportation",
+        "quantity"
+      ]
     }
   }
 }

@@ -109,7 +109,7 @@
   "examples": [
     {
       "id": "09249_fukugen_ex1",
-      "japanese": "{城|しろ}を{復元|ふくげん}する。",
+      "japanese": "⟦{城|しろ}→城：03255_shiro⟧⟦を→を：00422_wo⟧{復元|ふくげん}⟦する→する：00392_suru⟧。",
       "english": "To restore the castle.",
       "notes": null,
       "has_audio": false,
@@ -119,7 +119,7 @@
     },
     {
       "id": "09249_fukugen_ex2",
-      "japanese": "{歴史的|れきしてき}な{建物|たてもの}の{復元|ふくげん}{工事|こうじ}。",
+      "japanese": "⟦{歴史的|れきしてき}→歴史的：05671_rekishiteki⟧な⟦{建物|たてもの}→建物：01458_tatemono⟧⟦の→の：09472_no⟧{復元|ふくげん}⟦{工事|こうじ}→工事：00244_kouji⟧。",
       "english": "Restoration work on a historical building.",
       "notes": null,
       "has_audio": false,
@@ -129,7 +129,7 @@
     },
     {
       "id": "09249_fukugen_ex3",
-      "japanese": "{古代|こだい}の{生活|せいかつ}を{復元|ふくげん}した{展示|てんじ}がある。",
+      "japanese": "⟦{古代|こだい}→古代：05324_kodai⟧⟦の→の：09472_no⟧⟦{生活|せいかつ}→生活：01443_seikatsu⟧⟦を→を：00422_wo⟧{復元|ふくげん}⟦した→する：00392_suru⟧⟦{展示|てんじ}→展示：12401_tenji⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There is an exhibit that reconstructs ancient life.",
       "notes": null,
       "has_audio": false,
@@ -139,7 +139,7 @@
     },
     {
       "id": "09249_fukugen_ex4",
-      "japanese": "データを{復元|ふくげん}する。",
+      "japanese": "⟦データ→データ：03944_deeta⟧⟦を→を：00422_wo⟧{復元|ふくげん}⟦する→する：00392_suru⟧。",
       "english": "To recover data.",
       "notes": null,
       "has_audio": false,
@@ -149,7 +149,7 @@
     },
     {
       "id": "09249_fukugen_ex5",
-      "japanese": "{削除|さくじょ}したファイルを{復元|ふくげん}できる。",
+      "japanese": "⟦{削除|さくじょ}→削除：04171_sakujo⟧⟦した→する：00392_suru⟧⟦ファイル→ファイル：05280_fairu⟧⟦を→を：00422_wo⟧{復元|ふくげん}⟦できる→できる：00557_dekiru⟧。",
       "english": "You can recover deleted files.",
       "notes": null,
       "has_audio": false,
@@ -159,7 +159,7 @@
     },
     {
       "id": "09249_fukugen_ex6",
-      "japanese": "バックアップから{復元|ふくげん}してください。",
+      "japanese": "⟦バックアップ→バックアップ：04870_bakkuappu⟧⟦から→から：00504_kara⟧{復元|ふくげん}⟦して→する：00392_suru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please restore from the backup.",
       "notes": null,
       "has_audio": false,
@@ -168,7 +168,7 @@
       ]
     }
   ],
-  "notes": "{復元|ふくげん} is used both for physical restoration and digital data recovery.\n\nWORD FORMATION:\n- {復|ふく} (return, restore) + {元|げん} (origin, original)\n\nRELATED WORDS:\n- {修復|しゅうふく}: repair, restoration\n- {回復|かいふく}: recovery (health, situation)\n- {再建|さいけん}: rebuilding, reconstruction\n\nCOMMON COLLOCATIONS:\n- {復元|ふくげん}{工事|こうじ}: restoration work\n- {復元|ふくげん}ポイント: restore point (computing)\n- システムの{復元|ふくげん}: system restore",
+  "notes": "{復元|ふくげん} is used both for physical restoration and digital data recovery.\n\nFORMS:\n- {復|ふく} (return, restore) + {元|げん} (origin, original)\n\nRELATED WORDS:\n- ⟦{修復|しゅうふく}→修復：11544_shuufuku⟧: repair, restoration\n- ⟦{回復|かいふく}→回復：03812_kaifuku⟧: recovery (health, situation)\n- ⟦{再建|さいけん}→再建：11743_saiken⟧: rebuilding, reconstruction\n\nCOMMON COLLOCATIONS:\n- {復元|ふくげん}⟦{工事|こうじ}→工事：00244_kouji⟧: restoration work\n- {復元|ふくげん}⟦ポイント→ポイント：11283_pointo⟧: restore point (computing)\n- ⟦システム→システム：08428_shisutemu⟧⟦の→の：09472_no⟧{復元|ふくげん}: system restore",
   "cross_references": [
     {
       "type": "synonym",
@@ -183,11 +183,25 @@
       "reading": "ふっきゅう",
       "headword": "{復旧|ふっきゅう}",
       "label": "restoration, recovery"
+    },
+    {
+      "type": "related",
+      "target_id": "03812_kaifuku",
+      "reading": "かいふく",
+      "headword": "{回復|かいふく}",
+      "label": "recovery"
+    },
+    {
+      "type": "related",
+      "target_id": "11743_saiken",
+      "reading": "さいけん",
+      "headword": "{再建|さいけん}",
+      "label": "rebuilding, reconstruction"
     }
   ],
   "metadata": {
     "created": "2026-02-01T04:57:35Z",
-    "modified": "2026-08-12T21:25:53Z",
+    "modified": "2026-09-02T04:01:17Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -200,7 +214,8 @@
       "semantic": [
         "technology"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

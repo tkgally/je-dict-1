@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22416_kakugi_ex1",
-      "japanese": "{閣議|かくぎ}で{決定|けってい}された。",
+      "japanese": "{閣議|かくぎ}⟦で→で：00502_de⟧⟦{決定|けってい}→決定：02701_kettei⟧⟦された→する：00392_suru⟧。",
       "english": "It was decided at a cabinet meeting.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22416_kakugi_ex2",
-      "japanese": "{閣議|かくぎ}{決定|けってい}を{受|う}けて{法案|ほうあん}が{提出|ていしゅつ}された。",
+      "japanese": "{閣議|かくぎ}⟦{決定|けってい}→決定：02701_kettei⟧⟦を→を：00422_wo⟧⟦{受|う}けて→受ける：01215_ukeru⟧⟦{法案|ほうあん}→法案：09758_houan⟧⟦が→が：00051_ga⟧⟦{提出|ていしゅつ}→提出：03542_teishutsu⟧⟦された→する：00392_suru⟧。",
       "english": "A bill was submitted following the cabinet decision.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22416_kakugi_ex3",
-      "japanese": "{政府|せいふ}は{今朝|けさ}の{閣議|かくぎ}で{新|あら}たな{経済|けいざい}{対策|たいさく}を{正式|せいしき}に{決定|けってい}した。",
+      "japanese": "⟦{政府|せいふ}→政府：03294_seifu⟧⟦は→は：00079_ha⟧⟦{今朝|けさ}→今朝：02877_kesa⟧⟦の→の：09472_no⟧{閣議|かくぎ}⟦で→で：00502_de⟧⟦{新|あら}た→新た：01697_arata⟧な⟦{経済|けいざい}→経済：01394_keizai⟧⟦{対策|たいさく}→対策：02511_taisaku⟧⟦を→を：00422_wo⟧⟦{正式|せいしき}→正式：03376_seishiki⟧⟦に→に：00314_ni⟧⟦{決定|けってい}した→決定する：21022_ketteisuru⟧。",
       "english": "The government officially decided on new economic measures at this morning's cabinet meeting.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {閣|かく} (cabinet) and {議|ぎ} (deliberation). A key term in Japanese political news. The Japanese cabinet ({内閣|ないかく}) holds regular meetings, and decisions made there ({閣議決定|かくぎけってい}) carry the weight of government policy.\n\nCOMMON COLLOCATIONS:\n- {閣議|かくぎ}{決定|けってい}: cabinet decision\n- {閣議|かくぎ}を{開|ひら}く: to hold a cabinet meeting\n- {閣議|かくぎ}で{了承|りょうしょう}する: to approve at a cabinet meeting\n- {閣議|かくぎ}{了解|りょうかい}: cabinet understanding/agreement\n- {臨時|りんじ}{閣議|かくぎ}: extraordinary cabinet meeting\n\nRELATED TERMS:\n- {内閣|ないかく}: cabinet — the governing body itself\n- {国会|こっかい}: National Diet/parliament — the legislative body, distinct from the cabinet\n- {閣僚|かくりょう}: cabinet minister — a member of the cabinet",
+  "notes": "Composed of {閣|かく} (cabinet) and {議|ぎ} (deliberation). A key term in Japanese political news. The Japanese cabinet (⟦{内閣|ないかく}→内閣：04800_naikaku⟧) holds regular meetings, and decisions made there (⟦{閣議決定|かくぎけってい}→閣議決定：27030_kakugikettei⟧) carry the weight of government policy.\n\nCOMMON COLLOCATIONS:\n- {閣議|かくぎ}⟦{決定|けってい}→決定：02701_kettei⟧: cabinet decision\n- {閣議|かくぎ}⟦を→を：00422_wo⟧⟦{開|ひら}く→開く：01979_hiraku⟧: to hold a cabinet meeting\n- {閣議|かくぎ}⟦で→で：00502_de⟧⟦{了承|りょうしょう}する→了承する：20062_ryoushousuru⟧: to approve at a cabinet meeting\n- {閣議|かくぎ}⟦{了解|りょうかい}→了解：05091_ryoukai⟧: cabinet understanding/agreement\n- ⟦{臨時|りんじ}→臨時：04092_rinji⟧{閣議|かくぎ}: extraordinary cabinet meeting\n\nRELATED WORDS:\n- ⟦{内閣|ないかく}→内閣：04800_naikaku⟧: cabinet — the governing body itself\n- ⟦{国会|こっかい}→国会：02761_kokkai⟧: National Diet/parliament — the legislative body, distinct from the cabinet\n- ⟦{閣僚|かくりょう}→閣僚：20561_kakuryou⟧: cabinet minister — a member of the cabinet",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "04800_naikaku",
+      "reading": "ないかく",
+      "headword": "{内閣|ないかく}",
+      "label": "cabinet"
+    },
+    {
+      "type": "related",
+      "target_id": "02761_kokkai",
+      "reading": "こっかい",
+      "headword": "{国会|こっかい}",
+      "label": "National Diet/parliament"
+    },
+    {
+      "type": "related",
+      "target_id": "20561_kakuryou",
+      "reading": "かくりょう",
+      "headword": "{閣僚|かくりょう}",
+      "label": "cabinet minister"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +82,6 @@
       ]
     },
     "created": "2026-04-05T21:08:10Z",
-    "modified": "2026-07-30T03:50:30Z"
+    "modified": "2026-09-02T04:02:08Z"
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28087_miokurinin_ex1",
-      "japanese": "{駅|えき}に{見送|みおく}り{人|にん}が{集|あつ}まった。",
+      "japanese": "⟦{駅|えき}→駅：02180_eki⟧⟦に→に：00314_ni⟧{見送|みおく}り{人|にん}⟦が→が：00051_ga⟧⟦{集|あつ}まった→集まる：01162_atsumaru⟧。",
       "english": "The well-wishers gathered at the station.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28087_miokurinin_ex2",
-      "japanese": "{空港|くうこう}には{大勢|おおぜい}の{見送|みおく}り{人|にん}がいた。",
+      "japanese": "⟦{空港|くうこう}→空港：00648_kuukou⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{大勢|おおぜい}→大勢：02850_oozei⟧⟦の→の：09472_no⟧{見送|みおく}り{人|にん}がいた。",
       "english": "There were many people seeing them off at the airport.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28087_miokurinin_ex3",
-      "japanese": "{出航|しゅっこう}の{時|とき}、{見送|みおく}り{人|にん}たちが{岸|きし}から{手|て}を{振|ふ}っていた。",
+      "japanese": "⟦{出航|しゅっこう}→出航：30231_shukkou⟧⟦の→の：09472_no⟧{時|とき}、{見送|みおく}り{人|にん}たち⟦が→が：00051_ga⟧⟦{岸|きし}→岸：02545_kishi⟧⟦から→から：00504_kara⟧⟦{手|て}→手：00569_te⟧⟦を→を：00422_wo⟧⟦{振|ふ}っていた→振る：01983_furu⟧。",
       "english": "As the ship set sail, the well-wishers waved from the shore.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {見送|みおく}り (seeing off) + {人|にん} (person). Refers to those who come to bid farewell to a departing traveler.\n\nCOMMON COLLOCATIONS:\n- {見送|みおく}り{人|にん}が{集|あつ}まる: well-wishers gather\n- {大勢|おおぜい}の{見送|みおく}り{人|にん}: a large crowd seeing (someone) off\n\nSIMILAR WORDS:\n- {見送|みおく}り: a send-off — the act itself rather than the person\n- {出迎|でむか}え: meeting, welcoming — the opposite, greeting an arrival",
+  "notes": "Compound of ⟦{見送|みおく}り→見送り：03742_miokuri⟧ (seeing off) + ⟦{人|にん}→〜人：00658_nin⟧ (person). Refers to those who come to bid farewell to a departing traveler.\n\nCOMMON COLLOCATIONS:\n- {見送|みおく}り{人|にん}⟦が→が：00051_ga⟧⟦{集|あつ}まる→集まる：01162_atsumaru⟧: well-wishers gather\n- ⟦{大勢|おおぜい}→大勢：02850_oozei⟧⟦の→の：09472_no⟧{見送|みおく}り{人|にん}: a large crowd seeing (someone) off\n\nSIMILAR WORDS:\n- ⟦{見送|みおく}り→見送り：03742_miokuri⟧: a send-off — the act itself rather than the person\n- ⟦{出迎|でむか}え→出迎える：04633_demukaeru⟧: meeting, welcoming — the opposite, greeting an arrival",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "18937_demukae",
+      "reading": "でむかえ",
+      "headword": "{出迎|でむか}え",
+      "label": "meeting, welcoming"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +62,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "person"
       ],
       "domain": []
     },
     "created": "2026-05-25T03:05:12Z",
-    "modified": "2026-08-08T03:27:39Z"
+    "modified": "2026-09-02T04:02:32Z"
   }
 }

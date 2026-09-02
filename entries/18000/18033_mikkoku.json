@@ -2,7 +2,7 @@
   "id": "18033_mikkoku",
   "headword": "{密告|みっこく}",
   "reading": "みっこく",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "secret informing; tip-off; betrayal",
   "conjugation": {
     "type": "suru",
@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "18033_mikkoku_ex1",
-      "japanese": "{仲間|なかま}を{密告|みっこく}する。",
+      "japanese": "⟦{仲間|なかま}→仲間：03498_nakama⟧⟦を→を：00422_wo⟧{密告|みっこく}⟦する→する：00392_suru⟧。",
       "english": "To inform on a comrade.",
       "sense_numbers": [
         1
@@ -114,7 +114,7 @@
     },
     {
       "id": "18033_mikkoku_ex2",
-      "japanese": "{密告|みっこく}によって{犯人|はんにん}が{逮捕|たいほ}された。",
+      "japanese": "{密告|みっこく}⟦によって→によって：06801_niyotte⟧⟦{犯人|はんにん}→犯人：03572_hannin⟧⟦が→が：00051_ga⟧⟦{逮捕|たいほ}→逮捕：03397_taiho⟧⟦された→する：00392_suru⟧。",
       "english": "The criminal was arrested thanks to a tip-off.",
       "sense_numbers": [
         1
@@ -124,7 +124,7 @@
     },
     {
       "id": "18033_mikkoku_ex3",
-      "japanese": "{戦時中|せんじちゅう}は{隣人|りんじん}による{密告|みっこく}が{恐|おそ}れられていた。",
+      "japanese": "⟦{戦時中|せんじちゅう}→戦時中：28629_senjichuu⟧⟦は→は：00079_ha⟧⟦{隣人|りんじん}→隣人：10007_rinjin⟧⟦による→による：28349_niyoru⟧{密告|みっこく}⟦が→が：00051_ga⟧⟦{恐|おそ}れられていた→恐れる：02023_osoreru⟧。",
       "english": "During wartime, people feared being informed on by their neighbors.",
       "sense_numbers": [
         1
@@ -133,7 +133,7 @@
       "notes": null
     }
   ],
-  "notes": "{密告|みっこく} means secretly reporting someone's wrongdoing to authorities or those in power. It carries a strong negative connotation of betrayal and treachery.\n\nCOMMON COMPOUNDS:\n- {密告|みっこく}{者|しゃ}: informer, snitch\n- {密告|みっこく}{状|じょう}: letter of denunciation\n- {匿名|とくめい}{密告|みっこく}: anonymous tip-off\n\nSIMILAR WORDS:\n- {密告|みっこく}: secret informing (negative — implies betrayal)\n- {通報|つうほう}: reporting to authorities (neutral)\n- {告発|こくはつ}: formal accusation, whistleblowing (can be positive)\n- {告|つ}げ{口|ぐち}: tattling, telling on someone (childish)\n\nETYMOLOGY:\n{密|みつ} (secret) + {告|こく} (inform, tell). The {密|みつ} emphasizes the secretive, underhanded nature of the act.\n\nUSAGE:\nOften appears in historical and wartime contexts. In modern usage, also refers to anonymous tips to police or tax authorities.",
+  "notes": "{密告|みっこく} means secretly reporting someone's wrongdoing to authorities or those in power. It carries a strong negative connotation of betrayal and treachery.\n\nCOMPOUNDS:\n- {密告|みっこく}⟦{者|しゃ}→〜者：04662_sha⟧: informer, snitch\n- {密告|みっこく}⟦{状|じょう}→状：09878_jou⟧: letter of denunciation\n- ⟦{匿名|とくめい}→匿名：11797_tokumei⟧{密告|みっこく}: anonymous tip-off\n\nSIMILAR WORDS:\n- {密告|みっこく}: secret informing (negative — implies betrayal)\n- ⟦{通報|つうほう}→通報：14318_tsuuhou⟧: reporting to authorities (neutral)\n- ⟦{告発|こくはつ}→告発：07999_kokuhatsu⟧: formal accusation, whistleblowing (can be positive)\n- ⟦{告|つ}げ{口|ぐち}→告げ口：08453_tsugeguchi⟧: tattling, telling on someone (childish)\n\nETYMOLOGY:\n⟦{密|みつ}→密：03777_mitsu⟧ (secret) + {告|こく} (inform, tell). The ⟦{密|みつ}→密：03777_mitsu⟧ emphasizes the secretive, underhanded nature of the act.\n\nUSAGE:\nOften appears in historical and wartime contexts. In modern usage, also refers to anonymous tips to police or tax authorities.",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -147,10 +147,11 @@
       "semantic": [
         "communication"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-03-19T12:17:59Z",
-    "modified": "2026-05-08T04:12:06Z"
+    "modified": "2026-09-02T04:01:50Z"
   },
   "cross_references": [
     {
@@ -166,6 +167,20 @@
       "reading": "こくはつ",
       "headword": "{告発|こくはつ}",
       "label": "formal accusation, whistleblowing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08453_tsugeguchi",
+      "reading": "つげぐち",
+      "headword": "{告|つ}げ{口|ぐち}",
+      "label": "tattling, telling on someone"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24691_naibukokuhatsu",
+      "reading": "ないぶこくはつ",
+      "headword": "{内部告発|ないぶこくはつ}",
+      "label": "whistleblowing"
     }
   ]
 }

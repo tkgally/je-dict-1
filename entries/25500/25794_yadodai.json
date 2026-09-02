@@ -15,39 +15,66 @@
   "examples": [
     {
       "id": "25794_yadodai_ex1",
-      "japanese": "{宿代|やどだい}はいくらですか。",
+      "japanese": "{宿代|やどだい}⟦は→は：00079_ha⟧いくらです⟦か→か：09473_ka⟧。",
       "english": "How much is the lodging fee?",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "25794_yadodai_ex2",
-      "japanese": "{宿代|やどだい}を{節約|せつやく}するためにゲストハウスに{泊|と}まった。",
+      "japanese": "{宿代|やどだい}⟦を→を：00422_wo⟧⟦{節約|せつやく}する→節約する：25226_setsuyakusuru⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧⟦ゲストハウス→ゲストハウス：29675_gesutohausu⟧⟦に→に：00314_ni⟧⟦{泊|と}まった→泊まる：10445_tomaru⟧。",
       "english": "I stayed at a guesthouse to save on accommodation costs.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "25794_yadodai_ex3",
-      "japanese": "{旅行|りょこう}の{予算|よさん}のうち、{宿代|やどだい}が{一番|いちばん}{大|おお}きな{出費|しゅっぴ}だった。",
+      "japanese": "⟦{旅行|りょこう}→旅行：00748_ryokou⟧⟦の→の：09472_no⟧⟦{予算|よさん}→予算：03663_yosan⟧のうち、{宿代|やどだい}⟦が→が：00051_ga⟧⟦{一番|いちばん}→一番：01140_ichiban⟧⟦{大|おお}きな→大きな：02849_ookina⟧⟦{出費|しゅっぴ}→出費：09205_shuppi⟧だった。",
       "english": "Of the travel budget, lodging was the biggest expense.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {宿|やど} (inn; lodging) and {代|だい} (fee; charge). This is the everyday, conversational way to refer to accommodation costs. The word {宿|やど} by itself can mean any kind of lodging, from a traditional {旅館|りょかん} to a modern hotel.\n\nCOMMON COLLOCATIONS:\n- {宿代|やどだい}を{払|はら}う: to pay the lodging fee\n- {宿代|やどだい}を{節約|せつやく}する: to save on lodging costs\n- {宿代|やどだい}{込|こ}み: lodging included\n- {一泊|いっぱく}の{宿代|やどだい}: cost per night\n\nSIMILAR WORDS:\n- {宿泊料|しゅくはくりょう}: accommodation fee — more formal; used in hotel pricing and official documents\n- {宿泊費|しゅくはくひ}: accommodation expenses — used in expense reports and budgeting\n- {部屋代|へやだい}: room charge — focuses on the room itself rather than the lodging experience",
-  "cross_references": [],
+  "notes": "A compound of ⟦{宿|やど}→宿：03641_yado⟧ (inn; lodging) and ⟦{代|だい}→〜代：28331_dai⟧ (fee; charge). This is the everyday, conversational way to refer to accommodation costs. The word ⟦{宿|やど}→宿：03641_yado⟧ by itself can mean any kind of lodging, from a traditional ⟦{旅館|りょかん}→旅館：01049_ryokan⟧ to a modern hotel.\n\nCOMMON COLLOCATIONS:\n- {宿代|やどだい}⟦を→を：00422_wo⟧⟦{払|はら}う→払う：00535_harau⟧: to pay the lodging fee\n- {宿代|やどだい}⟦を→を：00422_wo⟧⟦{節約|せつやく}する→節約する：25226_setsuyakusuru⟧: to save on lodging costs\n- {宿代|やどだい}⟦{込|こ}み→込み：28615_komi⟧: lodging included\n- ⟦{一泊|いっぱく}→一泊：08892_ippaku⟧⟦の→の：09472_no⟧{宿代|やどだい}: cost per night\n\nSIMILAR WORDS:\n- ⟦{宿泊料|しゅくはくりょう}→宿泊料：07142_shukuhakuryou⟧: accommodation fee — more formal; used in hotel pricing and official documents\n- ⟦{宿泊費|しゅくはくひ}→宿泊費：25963_shukuhakuhi⟧: accommodation expenses — used in expense reports and budgeting\n- {部屋代|へやだい}: room charge — focuses on the room itself rather than the lodging experience",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07142_shukuhakuryou",
+      "reading": "しゅくはくりょう",
+      "headword": "{宿泊料|しゅくはくりょう}",
+      "label": "accommodation fee"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25963_shukuhakuhi",
+      "reading": "しゅくはくひ",
+      "headword": "{宿泊費|しゅくはくひ}",
+      "label": "accommodation expenses"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["travel", "money"]
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "travel",
+        "money"
+      ]
     },
     "created": "2026-04-27T13:16:01Z",
-    "modified": "2026-04-27T13:16:01Z"
+    "modified": "2026-09-02T04:02:23Z"
   }
 }

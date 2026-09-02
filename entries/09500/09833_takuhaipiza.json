@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "09833_takuhaipiza_ex1",
-      "japanese": "{今日|きょう}は{宅配|たくはい}ピザにしよう。",
+      "japanese": "⟦{今日|きょう}→今日：00496_kyou⟧⟦は→は：00079_ha⟧{宅配|たくはい}ピザ⟦に→に：00314_ni⟧⟦しよう→する：00392_suru⟧。",
       "english": "Let's order delivery pizza today.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "09833_takuhaipiza_ex2",
-      "japanese": "{宅配|たくはい}ピザを{注文|ちゅうもん}した。",
+      "japanese": "{宅配|たくはい}ピザ⟦を→を：00422_wo⟧⟦{注文|ちゅうもん}した→注文する：21390_chuumon⟧。",
       "english": "I ordered delivery pizza.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "09833_takuhaipiza_ex3",
-      "japanese": "{宅配|たくはい}ピザのクーポンがあるから{使|つか}おう。",
+      "japanese": "{宅配|たくはい}ピザ⟦の→の：09472_no⟧⟦クーポン→クーポン：06446_kuupon⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧⟦から→から：00504_kara⟧⟦{使|つか}おう→使う：00473_tsukau⟧。",
       "english": "I have a delivery pizza coupon, so let's use it.",
       "notes": null,
       "has_audio": false,
@@ -43,10 +43,33 @@
       ]
     }
   ],
-  "notes": "{宅配|たくはい}ピザ means delivery pizza — pizza ordered for home delivery.\n\nWORD FORMATION:\n{宅配|たくはい} (home delivery) + ピザ (pizza). {宅配|たくはい} itself is {宅|たく} (home) + {配|はい} (distribution).\n\nUSAGE:\nMajor chains like ドミノピザ, ピザーラ, and ピザハット are popular in Japan. Online ordering and app-based discounts are common. Delivery pizza flyers (チラシ) in mailboxes are a familiar sight.\n\nCOMMON COLLOCATIONS:\n- {宅配|たくはい}ピザを{頼|たの}む: to order delivery pizza\n- {宅配|たくはい}ピザ{屋|や}: delivery pizza shop\n- {宅配|たくはい}ピザのチラシ: delivery pizza flyer\n\nRELATED TERMS:\n- デリバリー: delivery (general loanword)\n- {出前|でまえ}: food delivery (traditional Japanese term, used for soba, sushi, etc.)\n- テイクアウト: takeout\n{宅配|たくはい}ピザ uses the modern {宅配|たくはい} system, while {出前|でまえ} evokes the traditional delivery from local restaurants.",
+  "notes": "{宅配|たくはい}ピザ means delivery pizza — pizza ordered for home delivery.\n\nFORMS:\n⟦{宅配|たくはい}→宅配：09571_takuhai⟧ (home delivery) + ⟦ピザ→ピザ：06769_piza⟧ (pizza). ⟦{宅配|たくはい}→宅配：09571_takuhai⟧ itself is ⟦{宅|たく}→宅：12302_taku⟧ (home) + {配|はい} (distribution).\n\nUSAGE:\nMajor chains like ドミノピザ, ピザーラ, and ピザハット are popular in Japan. Online ordering and app-based discounts are common. Delivery pizza flyers (⟦チラシ→チラシ：23406_chirashi⟧) in mailboxes are a familiar sight.\n\nCOMMON COLLOCATIONS:\n- {宅配|たくはい}ピザ⟦を→を：00422_wo⟧⟦{頼|たの}む→頼む：01104_tanomu⟧: to order delivery pizza\n- {宅配|たくはい}ピザ⟦{屋|や}→〜屋：03096_ya⟧: delivery pizza shop\n- {宅配|たくはい}ピザ⟦の→の：09472_no⟧⟦チラシ→チラシ：23406_chirashi⟧: delivery pizza flyer\n\nRELATED WORDS:\n- ⟦デリバリー→デリバリー：06181_deribarii⟧: delivery (general loanword)\n- ⟦{出前|でまえ}→出前：08155_demae⟧: food delivery (traditional Japanese term, used for soba, sushi, etc.)\n- ⟦テイクアウト→テイクアウト：06180_teikuauto⟧: takeout\n{宅配|たくはい}ピザ uses the modern ⟦{宅配|たくはい}→宅配：09571_takuhai⟧ system, while ⟦{出前|でまえ}→出前：08155_demae⟧ evokes the traditional delivery from local restaurants.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "06181_deribarii",
+      "reading": "でりばりー",
+      "headword": "デリバリー",
+      "label": "delivery"
+    },
+    {
+      "type": "related",
+      "target_id": "08155_demae",
+      "reading": "でまえ",
+      "headword": "{出前|でまえ}",
+      "label": "food delivery"
+    },
+    {
+      "type": "related",
+      "target_id": "06180_teikuauto",
+      "reading": "ていくあうと",
+      "headword": "テイクアウト",
+      "label": "takeout"
+    }
+  ],
   "metadata": {
     "created": "2026-02-03T12:23:06Z",
-    "modified": "2026-07-10T00:20:58Z",
+    "modified": "2026-09-02T04:01:19Z",
     "ai_model": "claude-opus-4-5-20251101",
     "vocabulary_tier": "general",
     "tags": {

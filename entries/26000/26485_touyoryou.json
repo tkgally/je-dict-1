@@ -15,42 +15,76 @@
   "examples": [
     {
       "id": "26485_touyoryou_ex1",
-      "japanese": "{投与量|とうよりょう}を{守|まも}ってください。",
+      "japanese": "{投与量|とうよりょう}⟦を→を：00422_wo⟧⟦{守|まも}って→守る：01986_mamoru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please follow the prescribed dosage.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26485_touyoryou_ex2",
-      "japanese": "{子|こ}どもの{投与量|とうよりょう}は{体重|たいじゅう}によって{異|こと}なる。",
+      "japanese": "{子|こ}ども⟦の→の：09472_no⟧{投与量|とうよりょう}⟦は→は：00079_ha⟧⟦{体重|たいじゅう}→体重：03395_taijuu⟧⟦によって→によって：06801_niyotte⟧⟦{異|こと}なる→異なる：02101_kotonaru⟧。",
       "english": "The dosage for children varies depending on body weight.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26485_touyoryou_ex3",
-      "japanese": "{医師|いし}の{指示|しじ}なく{投与量|とうよりょう}を{変|か}えると、{副作用|ふくさよう}が{出|で}る{可能性|かのうせい}がある。",
+      "japanese": "⟦{医師|いし}→医師：11851_ishi⟧⟦の→の：09472_no⟧⟦{指示|しじ}→指示：09674_shiji⟧⟦なく→ない：01118_nai⟧{投与量|とうよりょう}⟦を→を：00422_wo⟧⟦{変|か}える→変える：01089_kaeru⟧⟦と→と：00512_to⟧、⟦{副作用|ふくさよう}→副作用：05015_fukusayou⟧⟦が→が：00051_ga⟧⟦{出|で}る→出る：00513_deru⟧⟦{可能性|かのうせい}→可能性：04818_kanousei⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "Changing the dosage without a doctor's instructions may cause side effects.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {投与|とうよ} (administration of medicine) and {量|りょう} (amount, quantity). A standard medical term used on prescription labels, drug information sheets, and in clinical settings. The suffix {量|りょう} is productive in measurement compounds: {摂取量|せっしゅりょう} (intake amount), {使用量|しようりょう} (amount used), {消費量|しょうひりょう} (consumption amount).\n\nCOMMON COLLOCATIONS:\n- {投与量|とうよりょう}を{調整|ちょうせい}する: to adjust the dosage\n- {投与量|とうよりょう}を{増|ふ}やす: to increase the dosage\n- {一日|いちにち}の{投与量|とうよりょう}: daily dosage\n- {最大|さいだい}{投与量|とうよりょう}: maximum dosage\n\nSIMILAR WORDS:\n- {服用量|ふくようりょう}: dose to be taken — specifically refers to oral medication, while {投与量|とうよりょう} covers any route of administration\n- {用量|ようりょう}: dose — a shorter, more general term often seen on medicine packaging\n- {投薬|とうやく}: medication administration — the act of giving medicine, not the amount",
-  "cross_references": [],
+  "notes": "Composed of ⟦{投与|とうよ}→投与：12894_touyo⟧ (administration of medicine) and ⟦{量|りょう}→量：03799_ryou⟧ (amount, quantity). A standard medical term used on prescription labels, drug information sheets, and in clinical settings. The suffix ⟦{量|りょう}→量：03799_ryou⟧ is productive in measurement compounds: {摂取量|せっしゅりょう} (intake amount), {使用量|しようりょう} (amount used), {消費量|しょうひりょう} (consumption amount).\n\nCOMMON COLLOCATIONS:\n- {投与量|とうよりょう}⟦を→を：00422_wo⟧⟦{調整|ちょうせい}する→調整する：10442_chouseisuru⟧: to adjust the dosage\n- {投与量|とうよりょう}⟦を→を：00422_wo⟧⟦{増|ふ}やす→増やす：02410_fuyasu⟧: to increase the dosage\n- ⟦{一日|いちにち}→一日：00942_ichinichi⟧⟦の→の：09472_no⟧{投与量|とうよりょう}: daily dosage\n- ⟦{最大|さいだい}→最大：04827_saidai⟧{投与量|とうよりょう}: maximum dosage\n\nSIMILAR WORDS:\n- ⟦{服用量|ふくようりょう}→服用量：25128_fukuyouryou⟧: dose to be taken — specifically refers to oral medication, while {投与量|とうよりょう} covers any route of administration\n- ⟦{用量|ようりょう}→用量：18412_youryou⟧: dose — a shorter, more general term often seen on medicine packaging\n- ⟦{投薬|とうやく}→投薬：08213_touyaku⟧: medication administration — the act of giving medicine, not the amount",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25128_fukuyouryou",
+      "reading": "ふくようりょう",
+      "headword": "{服用量|ふくようりょう}",
+      "label": "dose to be taken"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18412_youryou",
+      "reading": "ようりょう",
+      "headword": "{用量|ようりょう}",
+      "label": "dose"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08213_touyaku",
+      "reading": "とうやく",
+      "headword": "{投薬|とうやく}",
+      "label": "medication administration"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["medical"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "medical"
+      ]
     },
     "created": "2026-05-02T12:19:45Z",
-    "modified": "2026-05-02T12:19:45Z"
+    "modified": "2026-09-02T04:02:26Z"
   }
 }

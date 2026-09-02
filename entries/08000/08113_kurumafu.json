@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08113_kurumafu_ex1",
-      "japanese": "{車麩|くるまふ}を{水|みず}で{戻|もど}す。",
+      "japanese": "{車麩|くるまふ}⟦を→を：00422_wo⟧⟦{水|みず}→水：02258_mizu⟧⟦で→で：00502_de⟧⟦{戻|もど}す→戻す：02317_modosu⟧。",
       "english": "Rehydrate the wheel fu in water.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "08113_kurumafu_ex2",
-      "japanese": "{車麩|くるまふ}の{煮物|にもの}は{新潟|にいがた}の{郷土料理|きょうどりょうり}だ。",
+      "japanese": "{車麩|くるまふ}⟦の→の：09472_no⟧⟦{煮物|にもの}→煮物：04971_nimono⟧⟦は→は：00079_ha⟧⟦{新潟|にいがた}→新潟：27452_niigata⟧⟦の→の：09472_no⟧⟦{郷土料理|きょうどりょうり}→郷土料理：15130_kyoudoryouri⟧だ。",
       "english": "Simmered wheel fu is a local dish from Niigata.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "08113_kurumafu_ex3",
-      "japanese": "{車麩|くるまふ}を{卵|たまご}でとじた{丼|どんぶり}は{食|た}べごたえがある。",
+      "japanese": "{車麩|くるまふ}⟦を→を：00422_wo⟧⟦{卵|たまご}→卵：02222_tamago⟧⟦で→で：00502_de⟧とじた⟦{丼|どんぶり}→丼：03904_donburi⟧⟦は→は：00079_ha⟧⟦{食|た}べごたえ→食べごたえ：08039_tabegotae⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "A bowl with egg-topped wheel fu is quite filling.",
       "sense_numbers": [
         1
@@ -43,7 +43,7 @@
       "notes": null
     }
   ],
-  "notes": "REGIONAL FOOD:\n{車麩|くるまふ} is a specialty of Niigata Prefecture, though similar varieties exist in Ishikawa and Okinawa. The ring shape comes from the traditional method of wrapping dough around a metal pole before baking.\n\nPREPARATION:\nSoak in water for about 30 minutes until soft, then squeeze out excess water before cooking. The spongy texture makes it excellent for absorbing flavors.\n\nCOOKING USES:\n- {煮物|にもの} (simmered dishes)\n- {卵|たまご}とじ (egg-topped dishes)\n- {唐揚|からあ}げ (deep-fried as a meat substitute)\n\nRELATED TERMS:\n- お{麩|ふ} (wheat gluten - general term)\n- {生麩|なまふ} (fresh wheat gluten)",
+  "notes": "REGIONAL FOOD:\n{車麩|くるまふ} is a specialty of Niigata Prefecture, though similar varieties exist in Ishikawa and Okinawa. The ring shape comes from the traditional method of wrapping dough around a metal pole before baking.\n\nPREPARATION:\nSoak in water for about 30 minutes until soft, then squeeze out excess water before cooking. The spongy texture makes it excellent for absorbing flavors.\n\nCOOKING USES:\n- ⟦{煮物|にもの}→煮物：04971_nimono⟧ (simmered dishes)\n- {卵|たまご}とじ (egg-topped dishes)\n- ⟦{唐揚|からあ}げ→唐揚げ：04949_karaage⟧ (deep-fried as a meat substitute)\n\nRELATED WORDS:\n- ⟦お{麩|ふ}→お麩：08112_ofu⟧ (wheat gluten - general term)\n- ⟦{生麩|なまふ}→生麩：23651_namafu⟧ (fresh wheat gluten)",
   "cross_references": [
     {
       "type": "related",
@@ -51,6 +51,20 @@
       "headword": "お{麩|ふ}",
       "label": "wheat gluten (general term)",
       "target_id": "08112_ofu"
+    },
+    {
+      "type": "related",
+      "target_id": "23651_namafu",
+      "reading": "なまふ",
+      "headword": "{生麩|なまふ}",
+      "label": "fresh wheat gluten"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23650_yakifu",
+      "reading": "やきふ",
+      "headword": "{焼|や}き{麩|ふ}",
+      "label": "yaki-fu"
     }
   ],
   "metadata": {
@@ -60,6 +74,7 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "food",
         "ingredient",
@@ -68,6 +83,6 @@
       ]
     },
     "created": "2026-01-25T05:16:11Z",
-    "modified": "2026-08-11T21:34:29Z"
+    "modified": "2026-09-02T04:01:14Z"
   }
 }

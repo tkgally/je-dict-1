@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "10397_nobinobi_ex1",
-      "japanese": "{子|こ}どもを{伸|の}び{伸|の}び{育|そだ}てたい。",
+      "japanese": "{子|こ}ども⟦を→を：00422_wo⟧{伸|の}び{伸|の}び⟦{育|そだ}てたい→育てる：01235_sodateru⟧。",
       "english": "I want to raise children in a relaxed, free environment.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "10397_nobinobi_ex2",
-      "japanese": "{田舎|いなか}で{伸|の}び{伸|の}びと{暮|く}らしている。",
+      "japanese": "⟦{田舎|いなか}→田舎：01320_inaka⟧⟦で→で：00502_de⟧{伸|の}び{伸|の}び⟦と→と：00512_to⟧⟦{暮|く}らしている→暮らす：01937_kurasu⟧。",
       "english": "I'm living a carefree life in the countryside.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "10397_nobinobi_ex3",
-      "japanese": "{休日|きゅうじつ}は{何|なに}も{考|かんが}えず、{伸|の}び{伸|の}びと{過|す}ごしたい。",
+      "japanese": "⟦{休日|きゅうじつ}→休日：03028_kyuujitsu⟧⟦は→は：00079_ha⟧⟦{何|なに}も→何も：03874_nanimo⟧⟦{考|かんが}え→考える：00856_kangaeru⟧ず、{伸|の}び{伸|の}び⟦と→と：00512_to⟧⟦{過|す}ごしたい→過ごす：02062_sugosu⟧。",
       "english": "On my days off, I want to relax and spend time without thinking about anything.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,33 @@
       ]
     }
   ],
-  "notes": "{伸|の}び{伸|の}び describes a state free from stress or restriction. Often used with the particle と.\n\nCOMMON PATTERNS:\n- {伸|の}び{伸|の}びと{育|そだ}つ / {育|そだ}てる: to grow up / raise freely\n- {伸|の}び{伸|の}びと{暮|く}らす: to live in a relaxed way\n- {伸|の}び{伸|の}びと{過|す}ごす: to spend time in a carefree way\n- {伸|の}び{伸|の}びした〜: relaxed, easygoing ~\n\nUSAGE: Has a strongly positive connotation. Suggests a healthy, natural state unburdened by excessive rules or pressure.",
-  "cross_references": [],
+  "notes": "{伸|の}び{伸|の}び describes a state free from stress or restriction. Often used with the particle ⟦と→と：00512_to⟧.\n\nCOMMON PATTERNS:\n- {伸|の}び{伸|の}び⟦と→と：00512_to⟧⟦{育|そだ}つ→育つ：01951_sodatsu⟧ / ⟦{育|そだ}てる→育てる：01235_sodateru⟧: to grow up / raise freely\n- {伸|の}び{伸|の}び⟦と→と：00512_to⟧⟦{暮|く}らす→暮らす：01937_kurasu⟧: to live in a relaxed way\n- {伸|の}び{伸|の}び⟦と→と：00512_to⟧⟦{過|す}ごす→過ごす：02062_sugosu⟧: to spend time in a carefree way\n- {伸|の}び{伸|の}び⟦した→する：00392_suru⟧〜: relaxed, easygoing ~\n\nUSAGE: Has a strongly positive connotation. Suggests a healthy, natural state unburdened by excessive rules or pressure.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "01974_nobiru",
+      "reading": "のびる",
+      "headword": "{伸|の}びる",
+      "label": "to stretch, to grow"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19420_sukusuku",
+      "reading": "すくすく",
+      "headword": "すくすく",
+      "label": "healthily"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20548_hirobirotoshita",
+      "reading": "ひろびろとした",
+      "headword": "{広々|ひろびろ}とした",
+      "label": "spacious"
+    }
+  ],
   "metadata": {
     "created": "2026-02-07T10:28:08Z",
-    "modified": "2026-02-19T12:32:33Z",
+    "modified": "2026-09-02T04:01:21Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

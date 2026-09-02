@@ -3,7 +3,7 @@
   "headword": "{卒倒|そっとう}",
   "reading": "そっとう",
   "romaji": "sottou",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "fainting; collapse; swooning",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "23022_sottou_ex1",
-      "japanese": "{暑|あつ}さで{卒倒|そっとう}した。",
+      "japanese": "⟦{暑|あつ}さ→暑さ：12973_atsusa⟧⟦で→で：00502_de⟧{卒倒|そっとう}⟦した→する：00392_suru⟧。",
       "english": "I fainted from the heat.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "23022_sottou_ex2",
-      "japanese": "その{金額|きんがく}を{聞|き}いて{卒倒|そっとう}しそうになった。",
+      "japanese": "⟦その→その：00993_sono⟧⟦{金額|きんがく}→金額：02665_kingaku⟧⟦を→を：00422_wo⟧⟦{聞|き}いて→聞く：00483_kiku⟧{卒倒|そっとう}しそうになった。",
       "english": "I nearly fainted when I heard the price.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "23022_sottou_ex3",
-      "japanese": "{長時間|ちょうじかん}{立|た}ちっぱなしで、{貧血|ひんけつ}を{起|お}こして{卒倒|そっとう}してしまった。",
+      "japanese": "⟦{長時間|ちょうじかん}→長時間：10165_choujikan⟧⟦{立|た}ち→立つ：00758_tatsu⟧っぱなしで、⟦{貧血|ひんけつ}→貧血：07019_hinketsu⟧⟦を→を：00422_wo⟧⟦{起|お}こして→起こす：01234_okosu⟧{卒倒|そっとう}⟦して→する：00392_suru⟧しまった。",
       "english": "After standing for a long time, I became anemic and collapsed.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Describes a sudden, dramatic loss of consciousness. Literally, the kanji combine {卒|そつ} (sudden) and {倒|とう} (collapse/fall). Often used hyperbolically to express extreme shock, as in {卒倒|そっとう}しそうになった (I nearly fainted).\n\nCOMMON COLLOCATIONS:\n- {卒倒|そっとう}する: to faint, to collapse\n- {卒倒|そっとう}しそうになる: to nearly faint\n- {暑|あつ}さで{卒倒|そっとう}する: to faint from the heat\n- その{場|ば}で{卒倒|そっとう}する: to collapse on the spot\n\nSIMILAR WORDS:\n- {気絶|きぜつ}: fainting, losing consciousness — more neutral medical term, also used for being knocked unconscious\n- {失神|しっしん}: fainting — formal/medical term for loss of consciousness\n- {目眩|めまい}: dizziness — the sensation of dizziness, not necessarily leading to collapse",
+  "notes": "Describes a sudden, dramatic loss of consciousness. Literally, the kanji combine {卒|そつ} (sudden) and {倒|とう} (collapse/fall). Often used hyperbolically to express extreme shock, as in {卒倒|そっとう}しそうになった (I nearly fainted).\n\nCOMMON COLLOCATIONS:\n- {卒倒|そっとう}⟦する→する：00392_suru⟧: to faint, to collapse\n- {卒倒|そっとう}しそう⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧: to nearly faint\n- ⟦{暑|あつ}さ→暑さ：12973_atsusa⟧⟦で→で：00502_de⟧{卒倒|そっとう}⟦する→する：00392_suru⟧: to faint from the heat\n- ⟦その→その：00993_sono⟧⟦{場|ば}→場：03699_ba⟧⟦で→で：00502_de⟧{卒倒|そっとう}⟦する→する：00392_suru⟧: to collapse on the spot\n\nSIMILAR WORDS:\n- ⟦{気絶|きぜつ}→気絶：19929_kizetsu⟧: fainting, losing consciousness — more neutral medical term, also used for being knocked unconscious\n- ⟦{失神|しっしん}→失神：20933_shisshin⟧: fainting — formal/medical term for loss of consciousness\n- {目眩|めまい}: dizziness — the sensation of dizziness, not necessarily leading to collapse",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19929_kizetsu",
+      "reading": "きぜつ",
+      "headword": "{気絶|きぜつ}",
+      "label": "fainting, losing consciousness"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20933_shisshin",
+      "reading": "しっしん",
+      "headword": "{失神|しっしん}",
+      "label": "fainting"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24430_kontou",
+      "reading": "こんとう",
+      "headword": "{昏倒|こんとう}",
+      "label": "fainting"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -55,11 +78,13 @@
       ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["health"],
+      "semantic": [
+        "health"
+      ],
       "verb_class": "suru"
     },
     "created": "2026-04-08T16:23:44Z",
-    "modified": "2026-07-31T00:22:30Z"
+    "modified": "2026-09-02T04:02:10Z"
   },
   "conjugation": {
     "type": "suru",

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29309_sukeetorinku_ex1",
-      "japanese": "スケートリンクで{滑|すべ}る。",
+      "japanese": "スケートリンク⟦で→で：00502_de⟧⟦{滑|すべ}る→滑る：01230_suberu⟧。",
       "english": "to skate on the rink.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29309_sukeetorinku_ex2",
-      "japanese": "{冬|ふゆ}になると{公園|こうえん}にスケートリンクができる。",
+      "japanese": "⟦{冬|ふゆ}→冬：00623_fuyu⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦と→と：00512_to⟧⟦{公園|こうえん}→公園：00581_kouen⟧⟦に→に：00314_ni⟧スケートリンク⟦が→が：00051_ga⟧⟦できる→できる：00557_dekiru⟧。",
       "english": "In winter, a skating rink is set up in the park.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29309_sukeetorinku_ex3",
-      "japanese": "{子供|こども}たちはスケートリンクで{楽|たの}しそうに{滑|すべ}っていた。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧たち⟦は→は：00079_ha⟧スケートリンク⟦で→で：00502_de⟧{楽|たの}しそう⟦に→に：00314_ni⟧⟦{滑|すべ}っていた→滑る：01230_suberu⟧。",
       "english": "The children were skating happily on the rink.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "From English 'skate rink.' Refers to the ice (or skating) surface itself or to the whole facility.\n\nCOMMON COLLOCATIONS:\n- スケートリンクで{滑|すべ}る: to skate on a rink\n- {屋内|おくない}スケートリンク: an indoor skating rink\n- スケートリンクを{作|つく}る: to build a skating rink",
+  "notes": "From English 'skate rink.' Refers to the ice (or skating) surface itself or to the whole facility.\n\nCOMMON COLLOCATIONS:\n- スケートリンク⟦で→で：00502_de⟧⟦{滑|すべ}る→滑る：01230_suberu⟧: to skate on a rink\n- ⟦{屋内|おくない}→屋内：18948_okunai⟧スケートリンク: an indoor skating rink\n- スケートリンク⟦を→を：00422_wo⟧⟦{作|つく}る→作る：00481_tsukuru⟧: to build a skating rink",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "00388_sukeeto",
+      "reading": "すけーと",
+      "headword": "スケート",
+      "label": "skating, skates"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25737_sukeetojou",
+      "reading": "すけーとじょう",
+      "headword": "スケート{場|じょう}",
+      "label": "skating rink"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +69,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "sports"
       ],
       "domain": []
     },
     "created": "2026-06-17T06:20:08Z",
-    "modified": "2026-06-17T06:20:08Z"
+    "modified": "2026-09-02T04:02:36Z"
   }
 }

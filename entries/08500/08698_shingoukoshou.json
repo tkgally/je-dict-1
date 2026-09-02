@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08698_shingoukoshou_ex1",
-      "japanese": "{信号故障|しんごうこしょう}により{電車|でんしゃ}が{遅|おく}れている。",
+      "japanese": "{信号故障|しんごうこしょう}⟦に→に：00314_ni⟧⟦より→より：09476_yori⟧⟦{電車|でんしゃ}→電車：00522_densha⟧⟦が→が：00051_ga⟧⟦{遅|おく}れている→遅れる：00741_okureru⟧。",
       "english": "The train is delayed due to a signal malfunction.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "08698_shingoukoshou_ex2",
-      "japanese": "{信号故障|しんごうこしょう}の{復旧|ふっきゅう}に{時間|じかん}がかかっています。",
+      "japanese": "{信号故障|しんごうこしょう}⟦の→の：09472_no⟧⟦{復旧|ふっきゅう}→復旧：07521_fukkyuu⟧⟦に→に：00314_ni⟧⟦{時間|じかん}→時間：00468_jikan⟧⟦が→が：00051_ga⟧⟦かかっています→かかる：00711_kakaru⟧。",
       "english": "It's taking time to repair the signal malfunction.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "08698_shingoukoshou_ex3",
-      "japanese": "{信号故障|しんごうこしょう}が{発生|はっせい}したため、{徐行運転|じょこううんてん}を{行|おこな}っています。",
+      "japanese": "{信号故障|しんごうこしょう}⟦が→が：00051_ga⟧⟦{発生|はっせい}した→発生する：25529_hasseisuru⟧⟦ため→ため：01145_tame⟧、{徐行運転|じょこううんてん}⟦を→を：00422_wo⟧⟦{行|おこな}っています→行う：01238_okonau⟧。",
       "english": "We are operating at reduced speed due to a signal malfunction.",
       "sense_numbers": [
         1
@@ -43,7 +43,7 @@
       "notes": null
     }
   ],
-  "notes": "COMPOUND:\n{信号|しんごう} (signal) + {故障|こしょう} (malfunction/breakdown)\n\nTRAIN ANNOUNCEMENT PATTERNS:\n- 「{信号故障|しんごうこしょう}により{遅|おく}れが{発生|はっせい}しております」\n  \"Delays have occurred due to a signal malfunction.\"\n- 「{信号故障|しんごうこしょう}は{復旧|ふっきゅう}いたしました」\n  \"The signal malfunction has been repaired.\"\n\nCOMMON COLLOCATIONS:\n- {信号故障|しんごうこしょう}が{発生|はっせい}する - signal malfunction occurs\n- {信号故障|しんごうこしょう}の{復旧|ふっきゅう} - repair of signal malfunction\n- {信号故障|しんごうこしょう}の{影響|えいきょう} - impact of signal malfunction\n\nRELATED:\n- {車両点検|しゃりょうてんけん} - train inspection\n- {運転|うんてん}{見合|みあ}わせ - service suspension\n- {遅延|ちえん} - delay",
+  "notes": "COMPOUNDS:\n⟦{信号|しんごう}→信号：03258_shingou⟧ (signal) + ⟦{故障|こしょう}→故障：01405_koshou⟧ (malfunction/breakdown)\n\nTRAIN ANNOUNCEMENT PATTERNS:\n- 「{信号故障|しんごうこしょう}⟦に→に：00314_ni⟧⟦より→より：09476_yori⟧⟦{遅|おく}れ→遅れ：01908_okure⟧⟦が→が：00051_ga⟧⟦{発生|はっせい}して→発生する：25529_hasseisuru⟧⟦おります→おる：01324_oru⟧」\n  \"Delays have occurred due to a signal malfunction.\"\n- 「{信号故障|しんごうこしょう}⟦は→は：00079_ha⟧⟦{復旧|ふっきゅう}→復旧：07521_fukkyuu⟧⟦いたしました→いたす：01314_itasu⟧」\n  \"The signal malfunction has been repaired.\"\n\nCOMMON COLLOCATIONS:\n- {信号故障|しんごうこしょう}⟦が→が：00051_ga⟧⟦{発生|はっせい}する→発生する：25529_hasseisuru⟧ - signal malfunction occurs\n- {信号故障|しんごうこしょう}⟦の→の：09472_no⟧⟦{復旧|ふっきゅう}→復旧：07521_fukkyuu⟧ - repair of signal malfunction\n- {信号故障|しんごうこしょう}⟦の→の：09472_no⟧⟦{影響|えいきょう}→影響：01877_eikyou⟧ - impact of signal malfunction\n\nRELATED WORDS:\n- ⟦{車両点検|しゃりょうてんけん}→車両点検：08697_sharyoutenken⟧ - train inspection\n- ⟦{運転|うんてん}{見合|みあ}わせ→運転見合わせ：08695_untenmiawase⟧ - service suspension\n- ⟦{遅延|ちえん}→遅延：06749_chien⟧ - delay",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -51,12 +51,13 @@
         "noun"
       ],
       "formality": "formal",
+      "politeness": "plain",
       "semantic": [
         "transportation"
       ]
     },
     "created": "2026-01-28T02:45:31Z",
-    "modified": "2026-06-23T01:38:10Z"
+    "modified": "2026-09-02T04:01:16Z"
   },
   "cross_references": [
     {
@@ -65,6 +66,20 @@
       "reading": "しゃりょうてんけん",
       "headword": "{車両|しゃりょう}{点検|てんけん}",
       "label": "train inspection"
+    },
+    {
+      "type": "related",
+      "target_id": "08695_untenmiawase",
+      "reading": "うんてんみあわせ",
+      "headword": "{運転|うんてん}{見合|みあ}わせ",
+      "label": "service suspension"
+    },
+    {
+      "type": "related",
+      "target_id": "06749_chien",
+      "reading": "ちえん",
+      "headword": "{遅延|ちえん}",
+      "label": "delay"
     }
   ]
 }

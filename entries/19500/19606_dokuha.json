@@ -3,7 +3,7 @@
   "headword": "{読破|どくは}",
   "reading": "どくは",
   "romaji": "dokuha",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "reading through; finishing a book",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "19606_dokuha_ex1",
-      "japanese": "{長編|ちょうへん}を{読破|どくは}した。",
+      "japanese": "⟦{長編|ちょうへん}→長編：14475_chouhen⟧⟦を→を：00422_wo⟧{読破|どくは}⟦した→する：00392_suru⟧。",
       "english": "I read through the long novel.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "19606_dokuha_ex2",
-      "japanese": "{夏休|なつやす}みに{古典|こてん}を{読破|どくは}するつもりだ。",
+      "japanese": "⟦{夏休|なつやす}み→夏休み：02925_natsuyasumi⟧⟦に→に：00314_ni⟧⟦{古典|こてん}→古典：00242_koten⟧⟦を→を：00422_wo⟧{読破|どくは}⟦する→する：00392_suru⟧⟦つもり→つもり：01152_tsumori⟧だ。",
       "english": "I plan to read through the classics during summer break.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "19606_dokuha_ex3",
-      "japanese": "あの{分厚|ぶあつ}い{哲学書|てつがくしょ}を{一週間|いっしゅうかん}で{読破|どくは}するのは{大変|たいへん}だった。",
+      "japanese": "⟦あの→あの：00915_ano⟧⟦{分厚|ぶあつ}い→分厚い：10502_buatsui⟧{哲学書|てつがくしょ}⟦を→を：00422_wo⟧⟦{一週間|いっしゅうかん}→一週間：10979_isshuukan⟧⟦で→で：00502_de⟧{読破|どくは}⟦する→する：00392_suru⟧⟦の→の：09472_no⟧⟦は→は：00079_ha⟧⟦{大変|たいへん}→大変：00594_taihen⟧だった。",
       "english": "It was tough to read through that thick philosophy book in one week.",
       "sense_numbers": [
         1
@@ -134,8 +134,24 @@
       "notes": null
     }
   ],
-  "notes": "Emphasizes the accomplishment of finishing a complete work, particularly one that requires sustained effort. The {破|は} character conveys the idea of breaking through or conquering, suggesting determination.\n\nCOMMON COLLOCATIONS:\n- {長編|ちょうへん}を{読破|どくは}する: read through a long novel\n- {全巻|ぜんかん}{読破|どくは}: reading through all volumes\n- {難書|なんしょ}を{読破|どくは}する: read through a difficult book\n- {一気|いっき}に{読破|どくは}する: read through in one sitting\n\nSIMILAR WORDS:\n- {読了|どくりょう}: finishing reading — more neutral, simply indicates completing a book without the connotation of difficulty or effort\n- {完読|かんどく}: reading to completion — similar meaning but less common\n- {通読|つうどく}: reading through — emphasizes reading from start to finish without skipping, but doesn't imply difficulty",
+  "notes": "Emphasizes the accomplishment of finishing a complete work, particularly one that requires sustained effort. The {破|は} character conveys the idea of breaking through or conquering, suggesting determination.\n\nCOMMON COLLOCATIONS:\n- ⟦{長編|ちょうへん}→長編：14475_chouhen⟧⟦を→を：00422_wo⟧{読破|どくは}⟦する→する：00392_suru⟧: read through a long novel\n- ⟦{全巻|ぜんかん}→全巻：17073_zenkan⟧{読破|どくは}: reading through all volumes\n- {難書|なんしょ}⟦を→を：00422_wo⟧{読破|どくは}⟦する→する：00392_suru⟧: read through a difficult book\n- ⟦{一気|いっき}→一気：08891_ikki⟧⟦に→に：00314_ni⟧{読破|どくは}⟦する→する：00392_suru⟧: read through in one sitting\n\nSIMILAR WORDS:\n- {読了|どくりょう}: finishing reading — more neutral, simply indicates completing a book without the connotation of difficulty or effort\n- ⟦{完読|かんどく}→完読：22581_kandoku⟧: reading to completion — similar meaning but less common\n- ⟦{通読|つうどく}→通読：19800_tsuudoku⟧: reading through — emphasizes reading from start to finish without skipping, but doesn't imply difficulty",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22581_kandoku",
+      "reading": "かんどく",
+      "headword": "{完読|かんどく}",
+      "label": "reading to completion"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19800_tsuudoku",
+      "reading": "つうどく",
+      "headword": "{通読|つうどく}",
+      "label": "reading through"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -152,6 +168,6 @@
       "verb_class": "suru"
     },
     "created": "2026-03-26T08:26:52Z",
-    "modified": "2026-03-26T08:26:52Z"
+    "modified": "2026-09-02T04:01:56Z"
   }
 }

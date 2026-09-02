@@ -3,7 +3,7 @@
   "headword": "{推|お}し{量|はか}る",
   "reading": "おしはかる",
   "romaji": "oshihakaru",
-  "part_of_speech": "verb-godan",
+  "part_of_speech": "verb (godan)",
   "gloss": "to guess; to infer; to surmise",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22516_oshihakaru_ex1",
-      "japanese": "{彼|かれ}の{気持|きも}ちを{推|お}し{量|はか}る。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧{気持|きも}ち⟦を→を：00422_wo⟧{推|お}し{量|はか}る。",
       "english": "To guess his feelings.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22516_oshihakaru_ex2",
-      "japanese": "{表情|ひょうじょう}から{相手|あいて}の{心情|しんじょう}を{推|お}し{量|はか}った。",
+      "japanese": "⟦{表情|ひょうじょう}→表情：03585_hyoujou⟧⟦から→から：00504_kara⟧⟦{相手|あいて}→相手：01677_aite⟧⟦の→の：09472_no⟧⟦{心情|しんじょう}→心情：12700_shinjou⟧⟦を→を：00422_wo⟧{推|お}し{量|はか}った。",
       "english": "I inferred the other person's feelings from their facial expression.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22516_oshihakaru_ex3",
-      "japanese": "{被災者|ひさいしゃ}の{苦|くる}しみは{想像|そうぞう}を{絶|ぜっ}するもので、{容易|ようい}には{推|お}し{量|はか}れない。",
+      "japanese": "⟦{被災者|ひさいしゃ}→被災者：25337_hisaisha⟧⟦の→の：09472_no⟧⟦{苦|くる}しみ→苦しみ：14120_kurushimi⟧⟦は→は：00079_ha⟧⟦{想像|そうぞう}→想像：02489_souzou⟧⟦を→を：00422_wo⟧{絶|ぜっ}するもので、⟦{容易|ようい}→容易：12316_youi⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{推|お}し{量|はか}れない。",
       "english": "The suffering of the disaster victims is beyond imagination and cannot easily be surmised.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "A somewhat literary or formal verb meaning to deduce or infer someone's feelings, thoughts, or a situation based on indirect evidence. It implies thoughtful consideration rather than a wild guess. Often used when trying to understand another person's inner state.\n\nCOMMON COLLOCATIONS:\n- {気持|きも}ちを{推|お}し{量|はか}る: to guess someone's feelings\n- {心中|しんちゅう}を{推|お}し{量|はか}る: to surmise what someone is thinking\n- {容易|ようい}に{推|お}し{量|はか}れる: can be easily inferred\n- {推|お}し{量|はか}ることができない: cannot surmise\n\nSIMILAR WORDS:\n- {推測|すいそく}する: to guess; to conjecture — a more neutral, general term for guessing\n- {察|さっ}する: to sense; to perceive — implies intuitive understanding with empathy\n- {見当|けんとう}をつける: to make a rough estimate — more casual, used for practical guesses about numbers or situations",
+  "notes": "A somewhat literary or formal verb meaning to deduce or infer someone's feelings, thoughts, or a situation based on indirect evidence. It implies thoughtful consideration rather than a wild guess. Often used when trying to understand another person's inner state.\n\nCOMMON COLLOCATIONS:\n- {気持|きも}ち⟦を→を：00422_wo⟧{推|お}し{量|はか}る: to guess someone's feelings\n- ⟦{心中|しんちゅう}→心中：25870_shinchuu⟧⟦を→を：00422_wo⟧{推|お}し{量|はか}る: to surmise what someone is thinking\n- ⟦{容易|ようい}→容易：12316_youi⟧⟦に→に：00314_ni⟧{推|お}し{量|はか}れる: can be easily inferred\n- {推|お}し{量|はか}ること⟦が→が：00051_ga⟧⟦できない→できる：00557_dekiru⟧: cannot surmise\n\nSIMILAR WORDS:\n- ⟦{推測|すいそく}する→推測する：17957_suisokusuru⟧: to guess; to conjecture — a more neutral, general term for guessing\n- ⟦{察|さっ}する→察する：08053_sassuru⟧: to sense; to perceive — implies intuitive understanding with empathy\n- ⟦{見当|けんとう}→見当：02795_kentou⟧⟦を→を：00422_wo⟧⟦つける→つける：00562_tsukeru⟧: to make a rough estimate — more casual, used for practical guesses about numbers or situations",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17957_suisokusuru",
+      "reading": "すいそくする",
+      "headword": "{推測|すいそく}する",
+      "label": "to guess"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08053_sassuru",
+      "reading": "さっする",
+      "headword": "{察|さっ}する",
+      "label": "to sense"
+    },
+    {
+      "type": "related",
+      "target_id": "07705_sontaku",
+      "reading": "そんたく",
+      "headword": "{忖度|そんたく}",
+      "label": "surmising someone's wishes"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -58,10 +81,11 @@
       "domain": [],
       "formality": "formal",
       "politeness": "plain",
-      "verb_class": "godan-ru"
+      "verb_class": "godan-ru",
+      "transitivity": "transitive"
     },
     "created": "2026-04-06T16:57:11Z",
-    "modified": "2026-08-01T06:41:09Z"
+    "modified": "2026-09-02T04:02:08Z"
   },
   "conjugation": {
     "type": "godan",

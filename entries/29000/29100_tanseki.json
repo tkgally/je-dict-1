@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29100_tanseki_ex1",
-      "japanese": "{胆石|たんせき}が{見|み}つかった。",
+      "japanese": "{胆石|たんせき}⟦が→が：00051_ga⟧⟦{見|み}つかった→見つかる：01173_mitsukaru⟧。",
       "english": "A gallstone was found.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29100_tanseki_ex2",
-      "japanese": "{胆石|たんせき}による{激痛|げきつう}で{救急車|きゅうきゅうしゃ}を{呼|よ}んだ。",
+      "japanese": "{胆石|たんせき}⟦による→による：28349_niyoru⟧⟦{激痛|げきつう}→激痛：17165_gekitsuu⟧⟦で→で：00502_de⟧⟦{救急車|きゅうきゅうしゃ}→救急車：05077_kyuukyuusha⟧⟦を→を：00422_wo⟧⟦{呼|よ}んだ→呼ぶ：00766_yobu⟧。",
       "english": "I called an ambulance because of severe pain from a gallstone.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29100_tanseki_ex3",
-      "japanese": "{健康診断|けんこうしんだん}で{胆石|たんせき}が{発見|はっけん}され、{手術|しゅじゅつ}で{摘出|てきしゅつ}することになった。",
+      "japanese": "⟦{健康診断|けんこうしんだん}→健康診断：05979_kenkoushindan⟧⟦で→で：00502_de⟧{胆石|たんせき}⟦が→が：00051_ga⟧⟦{発見|はっけん}→発見：00085_hakken⟧⟦され→する：00392_suru⟧、⟦{手術|しゅじゅつ}→手術：03218_shujutsu⟧⟦で→で：00502_de⟧⟦{摘出|てきしゅつ}→摘出：29095_tekishutsu⟧⟦する→する：00392_suru⟧ことになった。",
       "english": "A gallstone was discovered during a health checkup, and it was decided that it would be removed surgically.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "{胆|たん} refers to the gallbladder; {石|せき} means stone. Gallstones are a relatively common condition in adults.\n\nCOMMON COLLOCATIONS:\n- {胆石|たんせき}が{できる}: a gallstone forms\n- {胆石|たんせき}を{摘出|てきしゅつ}する: to remove a gallstone\n- {胆石|たんせき}{発作|ほっさ}: gallstone attack\n- {胆石症|たんせきしょう}: cholelithiasis (gallstone disease)",
+  "notes": "{胆|たん} refers to the gallbladder; {石|せき} means stone. Gallstones are a relatively common condition in adults.\n\nCOMMON COLLOCATIONS:\n- {胆石|たんせき}⟦が→が：00051_ga⟧⟦できる→できる：00557_dekiru⟧: a gallstone forms\n- {胆石|たんせき}⟦を→を：00422_wo⟧⟦{摘出|てきしゅつ}→摘出：29095_tekishutsu⟧⟦する→する：00392_suru⟧: to remove a gallstone\n- {胆石|たんせき}⟦{発作|ほっさ}→発作：15023_hossa⟧: gallstone attack\n- {胆石症|たんせきしょう}: cholelithiasis (gallstone disease)",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,7 +53,7 @@
         "noun"
       ],
       "formality": "formal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "health"
       ],
@@ -62,6 +62,6 @@
       ]
     },
     "created": "2026-06-10T12:36:01Z",
-    "modified": "2026-08-09T06:33:11Z"
+    "modified": "2026-09-02T04:02:35Z"
   }
 }

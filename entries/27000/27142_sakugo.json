@@ -15,40 +15,80 @@
   "examples": [
     {
       "id": "27142_sakugo_ex1",
-      "japanese": "{試行|しこう}{錯誤|さくご}を{繰|く}り{返|かえ}す。",
+      "japanese": "{試行|しこう}{錯誤|さくご}⟦を→を：00422_wo⟧⟦{繰|く}り{返|かえ}す→繰り返す：02051_kurikaesu⟧。",
       "english": "To repeat trial and error.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27142_sakugo_ex2",
-      "japanese": "{認識|にんしき}に{錯誤|さくご}があった。",
+      "japanese": "⟦{認識|にんしき}→認識：05090_ninshiki⟧⟦に→に：00314_ni⟧{錯誤|さくご}⟦が→が：00051_ga⟧⟦あった→ある：00006_aru⟧。",
       "english": "There was an error in perception.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27142_sakugo_ex3",
-      "japanese": "{試行|しこう}{錯誤|さくご}の{末|すえ}に、ようやく{正|ただ}しい{方法|ほうほう}を{見|み}つけた。",
+      "japanese": "{試行|しこう}{錯誤|さくご}⟦の→の：09472_no⟧⟦{末|すえ}→末：03362_sue⟧⟦に→に：00314_ni⟧、ようやく⟦{正|ただ}しい→正しい：00893_tadashii⟧⟦{方法|ほうほう}→方法：03621_houhou⟧⟦を→を：00422_wo⟧⟦{見|み}つけた→見つける：01180_mitsukeru⟧。",
       "english": "After much trial and error, I finally found the right method.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Most commonly encountered in the compound {試行錯誤|しこうさくご} (trial and error), which is used far more frequently than {錯誤|さくご} alone. When used independently, it appears primarily in legal, academic, or formal written contexts.\n\nCOMMON COLLOCATIONS:\n- {試行錯誤|しこうさくご} — trial and error\n- {錯誤|さくご}に{陥|おちい}る — to fall into error\n- {認識|にんしき}の{錯誤|さくご} — error in perception\n- {事実|じじつ}{錯誤|さくご} — mistake of fact (legal term)\n\nSIMILAR WORDS:\n- {間違|まちが}い — mistake; the everyday word for errors of all kinds\n- {誤|あやま}り — error, fault; slightly more formal than {間違|まちが}い but still common\n- {過|あやま}ち — blunder, fault; implies a moral failing or serious mistake\n- {誤解|ごかい} — misunderstanding; specifically about misinterpreting meaning or intent",
+  "notes": "Most commonly encountered in the compound ⟦{試行錯誤|しこうさくご}→試行錯誤：05656_shikousakugo⟧ (trial and error), which is used far more frequently than {錯誤|さくご} alone. When used independently, it appears primarily in legal, academic, or formal written contexts.\n\nCOMMON COLLOCATIONS:\n- ⟦{試行錯誤|しこうさくご}→試行錯誤：05656_shikousakugo⟧ — trial and error\n- {錯誤|さくご}⟦に→に：00314_ni⟧⟦{陥|おちい}る→陥る：14537_ochiiru⟧ — to fall into error\n- ⟦{認識|にんしき}→認識：05090_ninshiki⟧⟦の→の：09472_no⟧{錯誤|さくご} — error in perception\n- ⟦{事実|じじつ}→事実：03271_jijitsu⟧{錯誤|さくご} — mistake of fact (legal term)\n\nSIMILAR WORDS:\n- ⟦{間違|まちが}い→間違い：03733_machigai⟧ — mistake; the everyday word for errors of all kinds\n- ⟦{誤|あやま}り→誤り：01772_ayamari⟧ — error, fault; slightly more formal than ⟦{間違|まちが}い→間違い：03733_machigai⟧ but still common\n- ⟦{過|あやま}ち→過ち：14376_ayamachi⟧ — blunder, fault; implies a moral failing or serious mistake\n- ⟦{誤解|ごかい}→誤解：02769_gokai⟧ — misunderstanding; specifically about misinterpreting meaning or intent",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03733_machigai",
+      "reading": "まちがい",
+      "headword": "{間違|まちが}い",
+      "label": "mistake"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01772_ayamari",
+      "reading": "あやまり",
+      "headword": "{誤|あやま}り",
+      "label": "error, fault"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14376_ayamachi",
+      "reading": "あやまち",
+      "headword": "{過|あやま}ち",
+      "label": "blunder, fault"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02769_gokai",
+      "reading": "ごかい",
+      "headword": "{誤解|ごかい}",
+      "label": "misunderstanding"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["cognition"]
+      "semantic": [
+        "cognition"
+      ]
     },
     "created": "2026-05-07T13:09:14Z",
-    "modified": "2026-05-07T13:09:14Z"
+    "modified": "2026-09-02T04:02:29Z"
   }
 }

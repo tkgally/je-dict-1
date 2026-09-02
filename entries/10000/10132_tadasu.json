@@ -109,7 +109,7 @@
   "examples": [
     {
       "id": "10132_tadasu_ex1",
-      "japanese": "{姿勢|しせい}を{正|ただ}してください。",
+      "japanese": "⟦{姿勢|しせい}→姿勢：00371_shisei⟧⟦を→を：00422_wo⟧{正|ただ}して⟦ください→ください：02899_kudasai⟧。",
       "english": "Please straighten your posture.",
       "notes": null,
       "has_audio": false,
@@ -119,7 +119,7 @@
     },
     {
       "id": "10132_tadasu_ex2",
-      "japanese": "{襟|えり}を{正|ただ}す。",
+      "japanese": "⟦{襟|えり}→襟：06487_eri⟧⟦を→を：00422_wo⟧{正|ただ}す。",
       "english": "To straighten one's collar (to compose oneself).",
       "notes": null,
       "has_audio": false,
@@ -129,7 +129,7 @@
     },
     {
       "id": "10132_tadasu_ex3",
-      "japanese": "{真偽|しんぎ}を{正|ただ}す。",
+      "japanese": "⟦{真偽|しんぎ}→真偽：05564_shingi⟧⟦を→を：00422_wo⟧{正|ただ}す。",
       "english": "To inquire about the truth.",
       "notes": null,
       "has_audio": false,
@@ -138,7 +138,7 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: Transitive ({他動詞|たどうし}).\n\nCOMMON PATTERNS:\n・{姿勢|しせい}を{正|ただ}す (to straighten one's posture)\n・{襟|えり}を{正|ただ}す (to straighten one's collar - idiom meaning to compose oneself formally)\n・{間違|まちが}いを{正|ただ}す (to correct a mistake)\n・{真偽|しんぎ}を{正|ただ}す (to inquire about the truth)\n\nSIMILAR WORDS:\n・{直|なお}す (to fix/repair - more general)\n・{訂正|ていせい}する (to correct - for written errors)",
+  "notes": "TRANSITIVITY: Transitive (⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧).\n\nCOMMON PATTERNS:\n- ⟦{姿勢|しせい}→姿勢：00371_shisei⟧⟦を→を：00422_wo⟧{正|ただ}す (to straighten one's posture)\n- ⟦{襟|えり}→襟：06487_eri⟧⟦を→を：00422_wo⟧{正|ただ}す (to straighten one's collar - idiom meaning to compose oneself formally)\n- ⟦{間違|まちが}い→間違い：03733_machigai⟧⟦を→を：00422_wo⟧{正|ただ}す (to correct a mistake)\n- ⟦{真偽|しんぎ}→真偽：05564_shingi⟧⟦を→を：00422_wo⟧{正|ただ}す (to inquire about the truth)\n\nSIMILAR WORDS:\n- {直|なお}す (to fix/repair - more general)\n- ⟦{訂正|ていせい}する→訂正する：10443_teiseisuru⟧ (to correct - for written errors)",
   "cross_references": [
     {
       "type": "synonym",
@@ -153,11 +153,18 @@
       "reading": "ていせい",
       "headword": "{訂正|ていせい}",
       "label": "correction (written)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10443_teiseisuru",
+      "reading": "ていせいする",
+      "headword": "{訂正|ていせい}する",
+      "label": "to correct"
     }
   ],
   "metadata": {
     "created": "2026-02-05T08:37:56Z",
-    "modified": "2026-04-24T04:04:43Z",
+    "modified": "2026-09-02T04:01:20Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

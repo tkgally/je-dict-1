@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28704_bareisho_ex1",
-      "japanese": "{原材料|げんざいりょう}に{馬鈴薯|ばれいしょ}でんぷんが{含|ふく}まれている。",
+      "japanese": "⟦{原材料|げんざいりょう}→原材料：18966_genzairyou⟧⟦に→に：00314_ni⟧{馬鈴薯|ばれいしょ}⟦でんぷん→デンプン：11028_denpun⟧⟦が→が：00051_ga⟧⟦{含|ふく}まれている→含む：01982_fukumu⟧。",
       "english": "The ingredients include potato starch.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28704_bareisho_ex2",
-      "japanese": "{北海道|ほっかいどう}は{馬鈴薯|ばれいしょ}の{産地|さんち}として{有名|ゆうめい}だ。",
+      "japanese": "⟦{北海道|ほっかいどう}→北海道：11010_hokkaidou⟧⟦は→は：00079_ha⟧{馬鈴薯|ばれいしょ}⟦の→の：09472_no⟧⟦{産地|さんち}→産地：04031_sanchi⟧⟦として→として：06802_toshite⟧⟦{有名|ゆうめい}→有名：01106_yuumei⟧だ。",
       "english": "Hokkaido is famous as a potato-producing region.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28704_bareisho_ex3",
-      "japanese": "{農家|のうか}は{今年|ことし}も{良質|りょうしつ}な{馬鈴薯|ばれいしょ}を{収穫|しゅうかく}することができた。",
+      "japanese": "⟦{農家|のうか}→農家：03539_nouka⟧⟦は→は：00079_ha⟧⟦{今年|ことし}→今年：00722_kotoshi⟧⟦も→も：00484_mo⟧⟦{良質|りょうしつ}→良質：13949_ryoushitsu⟧な{馬鈴薯|ばれいしょ}⟦を→を：00422_wo⟧⟦{収穫|しゅうかく}→収穫：03207_shuukaku⟧⟦する→する：00392_suru⟧こと⟦が→が：00051_ga⟧⟦できた→できる：00557_dekiru⟧。",
       "english": "The farmers were able to harvest good-quality potatoes again this year.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Formal/technical synonym of じゃがいも. Most often seen on food labels (e.g., {馬鈴薯|ばれいしょ}でんぷん, potato starch), in agricultural statistics, and in academic writing.\n\nCOMMON COLLOCATIONS:\n- {馬鈴薯|ばれいしょ}でんぷん: potato starch\n- {馬鈴薯|ばれいしょ}の{栽培|さいばい}: potato cultivation\n- {馬鈴薯|ばれいしょ}{粉|こ}: potato flour\n\nSIMILAR WORDS:\n- じゃがいも: potato — the everyday word used in conversation, recipes, and most writing\n- ポテト: potato — loanword, common in product names (フライドポテト, ポテトサラダ)",
+  "notes": "Formal/technical synonym of ⟦じゃがいも→じゃがいも：05184_jagaimo⟧. Most often seen on food labels (e.g., {馬鈴薯|ばれいしょ}⟦でんぷん→デンプン：11028_denpun⟧, potato starch), in agricultural statistics, and in academic writing.\n\nCOMMON COLLOCATIONS:\n- {馬鈴薯|ばれいしょ}⟦でんぷん→デンプン：11028_denpun⟧: potato starch\n- {馬鈴薯|ばれいしょ}⟦の→の：09472_no⟧⟦{栽培|さいばい}→栽培：13108_saibai⟧: potato cultivation\n- {馬鈴薯|ばれいしょ}{粉|こ}: potato flour\n\nSIMILAR WORDS:\n- ⟦じゃがいも→じゃがいも：05184_jagaimo⟧: potato — the everyday word used in conversation, recipes, and most writing\n- ⟦ポテト→ポテト：11170_poteto⟧: potato — loanword, common in product names (⟦フライドポテト→フライドポテト：29026_furaidopoteto⟧, ⟦ポテトサラダ→ポテトサラダ：27703_potetosarada⟧)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05184_jagaimo",
+      "reading": "じゃがいも",
+      "headword": "じゃがいも",
+      "label": "potato"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11170_poteto",
+      "reading": "ぽてと",
+      "headword": "ポテト",
+      "label": "potato"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +69,13 @@
         "noun"
       ],
       "formality": "formal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "food"
       ],
       "domain": []
     },
     "created": "2026-06-04T03:10:28Z",
-    "modified": "2026-08-08T18:34:17Z"
+    "modified": "2026-09-02T04:02:34Z"
   }
 }

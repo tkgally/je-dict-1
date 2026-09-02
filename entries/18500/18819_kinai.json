@@ -15,43 +15,83 @@
   "examples": [
     {
       "id": "18819_kinai_ex1",
-      "japanese": "{機内|きない}では{携帯電話|けいたいでんわ}の{電源|でんげん}をお{切|き}りください。",
+      "japanese": "{機内|きない}⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{携帯電話|けいたいでんわ}→携帯電話：04433_keitaidenwa⟧⟦の→の：09472_no⟧⟦{電源|でんげん}→電源：04429_dengen⟧⟦を→を：00422_wo⟧お⟦{切|き}り→切る：02693_kiru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please turn off your mobile phone inside the aircraft.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "18819_kinai_ex2",
-      "japanese": "{機内|きない}{食|しょく}はあまりおいしくなかった。",
+      "japanese": "{機内|きない}{食|しょく}⟦は→は：00079_ha⟧⟦あまり→あまり：00604_amari⟧おいしく⟦なかった→ない：01118_nai⟧。",
       "english": "The in-flight meal wasn't very good.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "18819_kinai_ex3",
-      "japanese": "{機内|きない}アナウンスが{日本語|にほんご}と{英語|えいご}で{流|なが}れた。",
+      "japanese": "{機内|きない}⟦アナウンス→アナウンス：10700_anaunsu⟧⟦が→が：00051_ga⟧⟦{日本語|にほんご}→日本語：00614_nihongo⟧⟦と→と：00512_to⟧⟦{英語|えいご}→英語：02274_eigo⟧⟦で→で：00502_de⟧⟦{流|なが}れた→流れる：01969_nagareru⟧。",
       "english": "The in-flight announcement was made in both Japanese and English.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "{機内|きない} means inside an aircraft. The {機|き} refers to {飛行機|ひこうき} (airplane). Used primarily as a modifier for in-flight services and items.\n\nCOMPOSITION:\n{機|き} (machine, aircraft) + {内|ない} (inside).\n\nCOMMON COMPOUNDS:\n- {機内|きない}{食|しょく}: in-flight meal\n- {機内|きない}{誌|し}: in-flight magazine\n- {機内|きない}{持|も}ち{込|こ}み: carry-on (luggage)\n- {機内|きない}エンターテインメント: in-flight entertainment\n- {機内|きない}アナウンス: in-flight announcement\n- {機内|きない}Wi-Fi: onboard Wi-Fi\n\nSIMILAR 〜{内|ない} LOCATION WORDS:\n- {車内|しゃない}: inside a vehicle/train\n- {室内|しつない}: indoors, inside a room\n- {店内|てんない}: inside a store",
+  "notes": "{機内|きない} means inside an aircraft. The ⟦{機|き}→〜機：09843_ki⟧ refers to ⟦{飛行機|ひこうき}→飛行機：00629_hikouki⟧ (airplane). Used primarily as a modifier for in-flight services and items.\n\nETYMOLOGY:\n⟦{機|き}→〜機：09843_ki⟧ (machine, aircraft) + ⟦{内|ない}→〜内：09853_nai⟧ (inside).\n\nCOMPOUNDS:\n- {機内|きない}{食|しょく}: in-flight meal\n- {機内|きない}{誌|し}: in-flight magazine\n- {機内|きない}⟦{持|も}ち{込|こ}み→持ち込み：08293_mochikomi⟧: carry-on (luggage)\n- {機内|きない}⟦エンターテインメント→エンターテインメント：10775_entaateinmento⟧: in-flight entertainment\n- {機内|きない}⟦アナウンス→アナウンス：10700_anaunsu⟧: in-flight announcement\n- {機内|きない}Wi-Fi: onboard Wi-Fi\n\nSIMILAR 〜{内|ない} LOCATION WORDS:\n- ⟦{車内|しゃない}→車内：06203_shanai⟧: inside a vehicle/train\n- ⟦{室内|しつない}→室内：03061_shitsunai⟧: indoors, inside a room\n- ⟦{店内|てんない}→店内：03124_tennai⟧: inside a store",
   "synonyms": [],
   "antonyms": [],
   "related": [],
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "06203_shanai",
+      "reading": "しゃない",
+      "headword": "{車内|しゃない}",
+      "label": "inside a vehicle/train"
+    },
+    {
+      "type": "related",
+      "target_id": "03061_shitsunai",
+      "reading": "しつない",
+      "headword": "{室内|しつない}",
+      "label": "indoors, inside a room"
+    },
+    {
+      "type": "related",
+      "target_id": "03124_tennai",
+      "reading": "てんない",
+      "headword": "{店内|てんない}",
+      "label": "inside a store"
+    },
+    {
+      "type": "related",
+      "target_id": "10204_kinaimochikomi",
+      "reading": "きないもちこみ",
+      "headword": "{機内持|きないも}ち{込|こ}み",
+      "label": "carry-on luggage, cabin baggage"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["transportation"]
+      "semantic": [
+        "transportation"
+      ]
     },
     "created": "2026-03-23T04:44:18Z",
-    "modified": "2026-03-25T09:40:20Z"
+    "modified": "2026-09-02T04:01:53Z"
   }
 }

@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "09938_choutatsu_ex1",
-      "japanese": "{資材|しざい}を{調達|ちょうたつ}する。",
+      "japanese": "⟦{資材|しざい}→資材：19470_shizai⟧⟦を→を：00422_wo⟧{調達|ちょうたつ}⟦する→する：00392_suru⟧。",
       "english": "To procure materials.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "09938_choutatsu_ex2",
-      "japanese": "{資金|しきん}{調達|ちょうたつ}に{苦心|くしん}している。",
+      "japanese": "{資金|しきん}{調達|ちょうたつ}⟦に→に：00314_ni⟧⟦{苦心|くしん}→苦心：00255_kushin⟧⟦している→する：00392_suru⟧。",
       "english": "We are struggling with fund procurement.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "09938_choutatsu_ex3",
-      "japanese": "{必要|ひつよう}な{部品|ぶひん}を{海外|かいがい}から{調達|ちょうたつ}した。",
+      "japanese": "⟦{必要|ひつよう}→必要：00846_hitsuyou⟧な⟦{部品|ぶひん}→部品：00020_buhin⟧⟦を→を：00422_wo⟧⟦{海外|かいがい}→海外：00134_kaigai⟧⟦から→から：00504_kara⟧{調達|ちょうたつ}⟦した→する：00392_suru⟧。",
       "english": "We procured the necessary parts from overseas.",
       "notes": null,
       "has_audio": false,
@@ -133,18 +133,39 @@
       ]
     }
   ],
-  "notes": "{調達|ちょうたつ} means to obtain, procure, or raise resources — whether materials, equipment, funds, or supplies. Used in both business/formal and everyday contexts.\n\nCOMMON COMPOUNDS:\n- {資金|しきん}{調達|ちょうたつ}: fundraising, capital procurement\n- {物資|ぶっし}{調達|ちょうたつ}: supply procurement\n- {調達|ちょうたつ}{部門|ぶもん}: procurement department\n- {調達|ちょうたつ}{先|さき}: supplier, procurement source\n- {調達|ちょうたつ}コスト: procurement cost\n\nPATTERNS:\n- 〜を{調達|ちょうたつ}する: to procure/obtain ~\n- {現地|げんち}{調達|ちょうたつ}: local procurement (buying locally rather than importing)\n\nSIMILAR WORDS:\n- {仕入|しい}れる: to stock/purchase (for resale)\n- {入手|にゅうしゅ}する: to obtain, get hold of (broader)",
+  "notes": "{調達|ちょうたつ} means to obtain, procure, or raise resources — whether materials, equipment, funds, or supplies. Used in both business/formal and everyday contexts.\n\nCOMPOUNDS:\n- {資金|しきん}{調達|ちょうたつ}: fundraising, capital procurement\n- ⟦{物資|ぶっし}→物資：07863_busshi⟧{調達|ちょうたつ}: supply procurement\n- {調達|ちょうたつ}⟦{部門|ぶもん}→部門：14406_bumon⟧: procurement department\n- {調達|ちょうたつ}⟦{先|さき}→先：02883_saki⟧: supplier, procurement source\n- {調達|ちょうたつ}⟦コスト→コスト：06666_kosuto⟧: procurement cost\n\nCOMMON PATTERNS:\n- 〜⟦を→を：00422_wo⟧{調達|ちょうたつ}⟦する→する：00392_suru⟧: to procure/obtain ~\n- ⟦{現地|げんち}→現地：13502_genchi⟧{調達|ちょうたつ}: local procurement (buying locally rather than importing)\n\nSIMILAR WORDS:\n- ⟦{仕入|しい}れる→仕入れる：11430_shiireru⟧: to stock/purchase (for resale)\n- ⟦{入手|にゅうしゅ}→入手：11636_nyuushu⟧⟦する→する：00392_suru⟧: to obtain, get hold of (broader)",
   "cross_references": [
     {
       "type": "related",
       "reading": "しきん",
       "target_id": "09937_shikin",
       "headword": "{資金|しきん}"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11430_shiireru",
+      "reading": "しいれる",
+      "headword": "{仕入|しい}れる",
+      "label": "to stock/purchase"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11636_nyuushu",
+      "reading": "にゅうしゅ",
+      "headword": "{入手|にゅうしゅ}",
+      "label": "to obtain, get hold of"
+    },
+    {
+      "type": "related",
+      "target_id": "07431_shiire",
+      "reading": "しいれ",
+      "headword": "{仕入|しい}れ",
+      "label": "stocking"
     }
   ],
   "metadata": {
     "created": "2026-02-04T10:52:33Z",
-    "modified": "2026-03-29T03:05:07Z",
+    "modified": "2026-09-02T04:01:19Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -157,7 +178,8 @@
       "semantic": [
         "work"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

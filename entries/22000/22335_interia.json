@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22335_interia_ex1",
-      "japanese": "インテリアにこだわる。",
+      "japanese": "インテリア⟦に→に：00314_ni⟧⟦こだわる→こだわる：10319_kodawaru⟧。",
       "english": "To be particular about interior design.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22335_interia_ex2",
-      "japanese": "おしゃれなインテリアの{店|みせ}に{入|はい}った。",
+      "japanese": "⟦おしゃれ→おしゃれ：02515_oshare⟧なインテリア⟦の→の：09472_no⟧⟦{店|みせ}→店：00497_mise⟧⟦に→に：00314_ni⟧⟦{入|はい}った→入る：00494_hairu⟧。",
       "english": "I went into a shop with stylish interior decor.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22335_interia_ex3",
-      "japanese": "{引|ひ}っ{越|こ}しを{機|き}に{部屋|へや}のインテリアを{全部|ぜんぶ}{変|か}えようと{思|おも}っている。",
+      "japanese": "{引|ひ}っ{越|こ}し⟦を→を：00422_wo⟧⟦{機|き}→〜機：09843_ki⟧⟦に→に：00314_ni⟧⟦{部屋|へや}→部屋：00507_heya⟧⟦の→の：09472_no⟧インテリア⟦を→を：00422_wo⟧⟦{全部|ぜんぶ}→全部：02888_zenbu⟧⟦{変|か}えよう→変える：01089_kaeru⟧⟦と→と：00512_to⟧⟦{思|おも}っている→思う：00492_omou⟧。",
       "english": "I'm thinking of changing all the furnishings in my room when I move.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "From English \"interior.\" In Japanese, this word is used more broadly than in English — it can refer to the design concept, the furniture itself, and decorative items. Often used in compound forms and as a modifier.\n\nCOMMON COLLOCATIONS:\n- インテリアショップ: interior design/furnishing store\n- インテリアコーディネーター: interior coordinator/designer\n- インテリア{雑貨|ざっか}: interior accessories/small decor items\n- インテリアデザイン: interior design\n- {北欧|ほくおう}インテリア: Scandinavian-style interior\n\nSIMILAR WORDS:\n- {内装|ないそう}: interior finish — more technical, refers to walls, floors, and built-in elements\n- {家具|かぐ}: furniture — the physical objects\n- {調度品|ちょうどひん}: furnishings — formal term for furniture and fittings\n- エクステリア: exterior — the opposite: outdoor design and landscaping",
+  "notes": "From English \"interior.\" In Japanese, this word is used more broadly than in English — it can refer to the design concept, the furniture itself, and decorative items. Often used in compound forms and as a modifier.\n\nCOMMON COLLOCATIONS:\n- インテリア⟦ショップ→ショップ：08913_shoppu⟧: interior design/furnishing store\n- インテリアコーディネーター: interior coordinator/designer\n- インテリア⟦{雑貨|ざっか}→雑貨：10008_zakka⟧: interior accessories/small decor items\n- インテリアデザイン: interior design\n- ⟦{北欧|ほくおう}→北欧：10139_hokuou⟧インテリア: Scandinavian-style interior\n\nSIMILAR WORDS:\n- ⟦{内装|ないそう}→内装：06425_naisou⟧: interior finish — more technical, refers to walls, floors, and built-in elements\n- ⟦{家具|かぐ}→家具：12314_kagu⟧: furniture — the physical objects\n- {調度品|ちょうどひん}: furnishings — formal term for furniture and fittings\n- エクステリア: exterior — the opposite: outdoor design and landscaping",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06425_naisou",
+      "reading": "ないそう",
+      "headword": "{内装|ないそう}",
+      "label": "interior finish"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12314_kagu",
+      "reading": "かぐ",
+      "headword": "{家具|かぐ}",
+      "label": "furniture"
+    },
+    {
+      "type": "related",
+      "target_id": "07708_moyougae",
+      "reading": "もようがえ",
+      "headword": "{模様替|もようが}え",
+      "label": "room rearrangement"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +83,6 @@
       ]
     },
     "created": "2026-04-05T18:32:23Z",
-    "modified": "2026-08-01T06:42:57Z"
+    "modified": "2026-09-02T04:02:07Z"
   }
 }

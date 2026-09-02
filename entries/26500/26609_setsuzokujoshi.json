@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26609_setsuzokujoshi_ex1",
-      "japanese": "「ので」は{接続|せつぞく}{助詞|じょし}の{一|ひと}つだ。",
+      "japanese": "「⟦の→の：09472_no⟧で」⟦は→は：00079_ha⟧{接続|せつぞく}{助詞|じょし}⟦の→の：09472_no⟧⟦{一|ひと}つ→一つ：02948_hitotsu⟧だ。",
       "english": "\"Node\" is one of the conjunctive particles.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26609_setsuzokujoshi_ex2",
-      "japanese": "{接続|せつぞく}{助詞|じょし}の{使|つか}い{方|かた}を{勉強|べんきょう}している。",
+      "japanese": "{接続|せつぞく}{助詞|じょし}⟦の→の：09472_no⟧⟦{使|つか}い{方|かた}→使い方：07797_tsukaikata⟧⟦を→を：00422_wo⟧⟦{勉強|べんきょう}している→勉強する：00527_benkyousuru⟧。",
       "english": "I'm studying how to use conjunctive particles.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26609_setsuzokujoshi_ex3",
-      "japanese": "「ながら」「ても」「けれど」など、{接続|せつぞく}{助詞|じょし}にはさまざまな{種類|しゅるい}がある。",
+      "japanese": "「⟦ながら→ながら：10530_nagara⟧」「て⟦も→も：00484_mo⟧」「⟦けれど→けれど：01990_keredo⟧」⟦など→〜など：03095_nado⟧、{接続|せつぞく}{助詞|じょし}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧さまざまな⟦{種類|しゅるい}→種類：01560_shurui⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There are various types of conjunctive particles, such as \"nagara,\" \"temo,\" and \"keredo.\"",
       "sense_numbers": [
         1
@@ -44,8 +44,16 @@
       "notes": null
     }
   ],
-  "notes": "A grammatical term combining {接続|せつぞく} (connection, conjunction) and {助詞|じょし} (particle). {接続|せつぞく}{助詞|じょし} are essential for constructing complex sentences in Japanese and are a core topic in grammar study.\n\nCOMMON CONJUNCTIVE PARTICLES:\n- から: because (subjective reason)\n- ので: because (objective reason)\n- けれど(も): although, but\n- ても: even if\n- ながら: while (simultaneous actions)\n- たら: if, when\n- ば: if (conditional)\n- のに: although, despite\n- て: and then (sequential)\n\nRELATED GRAMMAR TERMS:\n- {格助詞|かくじょし}: case particle (が, を, に, etc.)\n- {副助詞|ふくじょし}: adverbial particle (は, も, etc.)\n- {終助詞|しゅうじょし}: sentence-ending particle (ね, よ, etc.)\n- {係助詞|かかりじょし}: binding particle",
-  "cross_references": [],
+  "notes": "A grammatical term combining ⟦{接続|せつぞく}→接続：04367_setsuzoku⟧ (connection, conjunction) and ⟦{助詞|じょし}→助詞：03351_joshi⟧ (particle). {接続|せつぞく}{助詞|じょし} are essential for constructing complex sentences in Japanese and are a core topic in grammar study.\n\nCOMMON CONJUNCTIVE PARTICLES:\n- から: because (subjective reason)\n- ⟦の→の：09472_no⟧で: because (objective reason)\n- ⟦けれど→けれど：01990_keredo⟧(⟦も→も：00484_mo⟧): although, but\n- て⟦も→も：00484_mo⟧: even if\n- ⟦ながら→ながら：10530_nagara⟧: while (simultaneous actions)\n- たら: if, when\n- ば: if (conditional)\n- ⟦の→の：09472_no⟧⟦に→に：00314_ni⟧: although, despite\n- て: and then (sequential)\n\nRELATED GRAMMAR TERMS:\n- ⟦{格助詞|かくじょし}→格助詞：16675_kakujoshi⟧: case particle (が, ⟦を→を：00422_wo⟧, ⟦に→に：00314_ni⟧, etc.)\n- ⟦{副助詞|ふくじょし}→副助詞：20890_fukujoshi⟧: adverbial particle (⟦は→は：00079_ha⟧, ⟦も→も：00484_mo⟧, etc.)\n- ⟦{終助詞|しゅうじょし}→終助詞：26064_shuujoshi⟧: sentence-ending particle (⟦ね→ね：09474_ne⟧, ⟦よ→よ：09475_yo⟧, etc.)\n- ⟦{係助詞|かかりじょし}→係助詞：29609_kakarijoshi⟧: binding particle",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "16564_setsuzokushi",
+      "reading": "せつぞくし",
+      "headword": "{接続詞|せつぞくし}",
+      "label": "conjunction (grammar)"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -63,6 +71,6 @@
       ]
     },
     "created": "2026-05-03T14:28:16Z",
-    "modified": "2026-05-03T14:28:16Z"
+    "modified": "2026-09-02T04:02:27Z"
   }
 }

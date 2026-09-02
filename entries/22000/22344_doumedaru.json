@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22344_doumedaru_ex1",
-      "japanese": "{銅|どう}メダルを{取|と}れてうれしい。",
+      "japanese": "{銅|どう}メダル⟦を→を：00422_wo⟧⟦{取|と}れて→取れる：02376_toreru⟧うれしい。",
       "english": "I'm happy to have won a bronze medal.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22344_doumedaru_ex2",
-      "japanese": "{三位|さんい}{決定|けってい}{戦|せん}に{勝|か}って{銅|どう}メダルを{獲得|かくとく}した。",
+      "japanese": "⟦{三位|さんい}→三位：26221_sani⟧⟦{決定|けってい}→決定：02701_kettei⟧⟦{戦|せん}→〜戦：28346_sen⟧⟦に→に：00314_ni⟧⟦{勝|か}って→勝つ：01199_katsu⟧{銅|どう}メダル⟦を→を：00422_wo⟧⟦{獲得|かくとく}→獲得：05624_kakutoku⟧⟦した→する：00392_suru⟧。",
       "english": "They won the bronze medal match and took third place.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22344_doumedaru_ex3",
-      "japanese": "{前回|ぜんかい}の{大会|たいかい}では{銅|どう}メダルだったが、{今回|こんかい}は{金|きん}メダルを{目指|めざ}している。",
+      "japanese": "⟦{前回|ぜんかい}→前回：11817_zenkai⟧⟦の→の：09472_no⟧⟦{大会|たいかい}→大会：03386_taikai⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧{銅|どう}メダルだった⟦が→が：00051_ga⟧、⟦{今回|こんかい}→今回：01409_konkai⟧⟦は→は：00079_ha⟧⟦{金|きん}メダル→金メダル：20781_kinmedaru⟧⟦を→を：00422_wo⟧⟦{目指|めざ}している→目指す：10528_mezasu⟧。",
       "english": "At the last tournament it was a bronze medal, but this time the aim is gold.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Standard term for the third-place medal in competitive events. Unlike gold and silver, a bronze medal is often celebrated rather than seen as a disappointment, since it represents making the podium.\n\nCOMMON COLLOCATIONS:\n- {銅|どう}メダルを{獲得|かくとく}する: to win a bronze medal\n- {銅|どう}メダリスト: bronze medalist\n- {銅|どう}メダルに{輝|かがや}く: to shine with a bronze medal\n\nRELATED TERMS:\n- {金|きん}メダル: gold medal\n- {銀|ぎん}メダル: silver medal\n- {入賞|にゅうしょう}: placing in the top ranks (usually top 8)",
+  "notes": "Standard term for the third-place medal in competitive events. Unlike gold and silver, a bronze medal is often celebrated rather than seen as a disappointment, since it represents making the podium.\n\nCOMMON COLLOCATIONS:\n- {銅|どう}メダル⟦を→を：00422_wo⟧⟦{獲得|かくとく}→獲得：05624_kakutoku⟧⟦する→する：00392_suru⟧: to win a bronze medal\n- ⟦{銅|どう}→銅：19443_dou⟧⟦メダリスト→メダリスト：24415_medarisuto⟧: bronze medalist\n- {銅|どう}メダル⟦に→に：00314_ni⟧⟦{輝|かがや}く→輝く：02032_kagayaku⟧: to shine with a bronze medal\n\nRELATED WORDS:\n- ⟦{金|きん}メダル→金メダル：20781_kinmedaru⟧: gold medal\n- ⟦{銀|ぎん}メダル→銀メダル：22343_ginmedaru⟧: silver medal\n- ⟦{入賞|にゅうしょう}→入賞：11670_nyuushou⟧: placing in the top ranks (usually top 8)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "20781_kinmedaru",
+      "reading": "きんめだる",
+      "headword": "{金|きん}メダル",
+      "label": "gold medal"
+    },
+    {
+      "type": "related",
+      "target_id": "22343_ginmedaru",
+      "reading": "ぎんめだる",
+      "headword": "{銀|ぎん}メダル",
+      "label": "silver medal"
+    },
+    {
+      "type": "related",
+      "target_id": "11670_nyuushou",
+      "reading": "にゅうしょう",
+      "headword": "{入賞|にゅうしょう}",
+      "label": "placing in the top ranks"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +82,6 @@
       ]
     },
     "created": "2026-04-05T19:19:36Z",
-    "modified": "2026-04-10T08:28:27Z"
+    "modified": "2026-09-02T04:02:07Z"
   }
 }

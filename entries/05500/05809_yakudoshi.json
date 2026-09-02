@@ -34,7 +34,7 @@
     },
     {
       "id": "05809_yakudoshi_ex3",
-      "japanese": "{厄年|やくどし}には{本厄|ほんやく}の{前後|ぜんご}に{前厄|まえやく}・{後厄|あとやく}があり、{三年間|さんねんかん}{続|つづ}けて{厄払|やくばら}いをする{人|ひと}も{多|おお}い。",
+      "japanese": "{厄年|やくどし}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{本厄|ほんやく}→本厄：25008_honyaku⟧⟦の→の：09472_no⟧⟦{前後|ぜんご}→前後：04042_zengo⟧⟦に→に：00314_ni⟧⟦{前厄|まえやく}→前厄：25748_maeyaku⟧・⟦{後厄|あとやく}→後厄：25749_atoyaku⟧⟦が→が：00051_ga⟧⟦あり→ある：00006_aru⟧、⟦{三年間|さんねんかん}→三年間：28861_sannenkan⟧⟦{続|つづ}け→続く：00903_tsuzuku⟧て⟦{厄払|やくばら}い→厄払い：22342_yakubarai⟧⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧⟦{人|ひと}→人：00476_hito⟧⟦も→も：00484_mo⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "In the unlucky year, there are pre-unlucky and post-unlucky years surrounding the main unlucky year, and many people do purification rites for three consecutive years.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{厄年|やくどし} is a deeply rooted Japanese folk belief that certain ages are unlucky and bring heightened risk of misfortune, illness, or disaster.\n\nUNLUCKY AGES (counted by ⟦{数|かぞ}え{年|どし}→数え年：22294_kazoedoshi⟧, traditional age counting):\n- Men: 25, 42 (⟦{大厄|たいやく}→大厄：noentry⟧ — the most dangerous), 61\n- Women: 19, 33 (⟦{大厄|たいやく}→大厄：noentry⟧ — the most dangerous), 37, 61\n\nThe year before (⟦{前厄|まえやく}→前厄：25748_maeyaku⟧) and after (⟦{後厄|あとやく}→後厄：25749_atoyaku⟧) are also considered risky.\n\nCOMMON EXPRESSIONS:\n- ⟦{厄払|やくばら}い→厄払い：22342_yakubarai⟧: purification ritual to ward off bad luck\n- ⟦{厄除|やくよ}け→厄除け：24744_yakuyoke⟧: protection against misfortune\n- {厄年|やくどし}⟦に→に：00314_ni⟧⟦{当|あ}たる→当たる：01860_ataru⟧: to be in one's unlucky year\n\nCULTURE:\nMany Japanese visit shrines or temples for ⟦{厄払|やくばら}い→厄払い：22342_yakubarai⟧ ceremonies during January or February of their {厄年|やくどし}. Even people who are not particularly religious often observe this custom. The number 42 ({四十二|よんじゅうに}) is especially feared because it sounds like ⟦{死|し}に→死ぬ：00669_shinu⟧ (death).",
+  "notes": "{厄年|やくどし} is a deeply rooted Japanese folk belief that certain ages are unlucky and bring heightened risk of misfortune, illness, or disaster.\n\nUNLUCKY AGES (counted by ⟦{数|かぞ}え{年|どし}→数え年：22294_kazoedoshi⟧, traditional age counting):\n- Men: 25, 42 (⟦{大厄|たいやく}→大厄：noentry⟧ — the most dangerous), 61\n- Women: 19, 33 (⟦{大厄|たいやく}→大厄：noentry⟧ — the most dangerous), 37, 61\n\nThe year before (⟦{前厄|まえやく}→前厄：25748_maeyaku⟧) and after (⟦{後厄|あとやく}→後厄：25749_atoyaku⟧) are also considered risky.\n\nCOMMON EXPRESSIONS:\n- ⟦{厄払|やくばら}い→厄払い：22342_yakubarai⟧: purification ritual to ward off bad luck\n- ⟦{厄除|やくよ}け→厄除け：24744_yakuyoke⟧: protection against misfortune\n- {厄年|やくどし}⟦に→に：00314_ni⟧⟦{当|あ}たる→当たる：01860_ataru⟧: to be in one's unlucky year\n\nCULTURAL NOTE:\nMany Japanese visit shrines or temples for ⟦{厄払|やくばら}い→厄払い：22342_yakubarai⟧ ceremonies during January or February of their {厄年|やくどし}. Even people who are not particularly religious often observe this custom. The number 42 ({四十二|よんじゅうに}) is especially feared because it sounds like ⟦{死|し}に→死ぬ：00669_shinu⟧ (death).",
   "cross_references": [
     {
       "type": "related",
@@ -58,11 +58,32 @@
       "reading": "かぞえどし",
       "headword": "{数|かぞ}え{年|どし}",
       "label": "traditional age count"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25008_honyaku",
+      "reading": "ほんやく",
+      "headword": "{本厄|ほんやく}",
+      "label": "main unlucky year"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25748_maeyaku",
+      "reading": "まえやく",
+      "headword": "{前厄|まえやく}",
+      "label": "year before an unlucky year"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25749_atoyaku",
+      "reading": "あとやく",
+      "headword": "{後厄|あとやく}",
+      "label": "year after an unlucky year"
     }
   ],
   "metadata": {
     "created": "2026-01-16T08:49:32Z",
-    "modified": "2026-06-12T12:41:12Z",
+    "modified": "2026-09-02T04:01:07Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "13375_sumi_ex1",
-      "japanese": "{炭|すみ}で{肉|にく}を{焼|や}く。",
+      "japanese": "{炭|すみ}⟦で→で：00502_de⟧⟦{肉|にく}→肉：02240_niku⟧⟦を→を：00422_wo⟧⟦{焼|や}く→焼く：01123_yaku⟧。",
       "english": "To grill meat over charcoal.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "13375_sumi_ex2",
-      "japanese": "{炭|すみ}を{火|ひ}おこし{器|き}で{起|お}こす。",
+      "japanese": "{炭|すみ}⟦を→を：00422_wo⟧{火|ひ}おこし{器|き}⟦で→で：00502_de⟧⟦{起|お}こす→起こす：01234_okosu⟧。",
       "english": "To light charcoal with a fire starter.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "13375_sumi_ex3",
-      "japanese": "{備長炭|びんちょうたん}は{高品質|こうひんしつ}の{炭|すみ}として、{料理|りょうり}{店|てん}で{広|ひろ}く{使|つか}われている。",
+      "japanese": "{備長炭|びんちょうたん}⟦は→は：00079_ha⟧⟦{高品質|こうひんしつ}→高品質：18051_kouhinshitsu⟧⟦の→の：09472_no⟧{炭|すみ}⟦として→として：06802_toshite⟧、⟦{料理|りょうり}{店|てん}→料理店：25626_ryouriten⟧⟦で→で：00502_de⟧⟦{広|ひろ}く→広い：00704_hiroi⟧⟦{使|つか}われている→使う：00473_tsukau⟧。",
       "english": "Binchotan is widely used in restaurants as a high-quality charcoal.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nNot to be confused with homophones {墨|すみ} (ink) and {隅|すみ} (corner). {炭|すみ} specifically refers to charcoal used for fuel.\n\nCOMMON COLLOCATIONS:\n- {炭|すみ}を{起|お}こす: to light charcoal\n- {炭火|すみび}: charcoal fire\n- {炭焼|すみや}き: charcoal grilling; charcoal making\n- {備長炭|びんちょうたん}: binchotan (high-grade Japanese charcoal)\n- {木炭|もくたん}: wood charcoal\n\nCULTURE:\nCharcoal has a long history in Japan, used in tea ceremony ({炭手前|すみてまえ}), traditional heating ({火鉢|ひばち}), and yakitori grilling.",
+  "notes": "USAGE:\nNot to be confused with homophones ⟦{墨|すみ}→墨：02155_sumi⟧ (ink) and ⟦{隅|すみ}→隅：01625_sumi⟧ (corner). {炭|すみ} specifically refers to charcoal used for fuel.\n\nCOMMON COLLOCATIONS:\n- {炭|すみ}⟦を→を：00422_wo⟧⟦{起|お}こす→起こす：01234_okosu⟧: to light charcoal\n- ⟦{炭火|すみび}→炭火：25320_sumibi⟧: charcoal fire\n- {炭焼|すみや}き: charcoal grilling; charcoal making\n- {備長炭|びんちょうたん}: binchotan (high-grade Japanese charcoal)\n- ⟦{木炭|もくたん}→木炭：18043_mokutan⟧: wood charcoal\n\nCULTURAL NOTE:\nCharcoal has a long history in Japan, used in tea ceremony ({炭手前|すみてまえ}), traditional heating (⟦{火鉢|ひばち}→火鉢：06121_hibachi⟧), and yakitori grilling.",
   "cross_references": [
     {
       "type": "homophone",
@@ -73,11 +73,18 @@
       "reading": "もくたん",
       "headword": "{木炭|もくたん}",
       "label": "charcoal (formal/technical)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21824_moegara",
+      "reading": "もえがら",
+      "headword": "{燃|も}え{殻|がら}",
+      "label": "cinders"
     }
   ],
   "metadata": {
     "created": "2026-02-24T11:04:32Z",
-    "modified": "2026-07-10T04:36:00Z",
+    "modified": "2026-09-02T04:01:32Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

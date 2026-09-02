@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "02778_katagata_ex1",
-      "japanese": "ご{出席|しゅっせき}の{方々|かたがた}のご{協力|きょうりょく}に、{心|こころ}より{感謝|かんしゃ}{申|もう}し{上|あ}げます。",
+      "japanese": "ご⟦{出席|しゅっせき}→出席：02084_shusseki⟧⟦の→の：09472_no⟧{方々|かたがた}⟦の→の：09472_no⟧ご⟦{協力|きょうりょく}→協力：00261_kyouryoku⟧⟦に→に：00314_ni⟧、⟦{心|こころ}→心：01321_kokoro⟧⟦より→より：09476_yori⟧⟦{感謝|かんしゃ}→感謝：00181_kansha⟧⟦{申|もう}し{上|あ}げます→申し上げる：01734_moushiageru⟧。",
       "english": "I express my heartfelt gratitude for the cooperation of all those present.",
       "notes": null,
       "has_audio": false,
@@ -63,11 +63,19 @@
       ]
     }
   ],
-  "notes": "{方々|かたがた} is the respectful plural of ⟦{方|かた}→方：10665_kata⟧ (person).\n\nUSAGE:\n- Used in formal speech and writing\n- Often in business, ceremonies, announcements\n- More respectful than ⟦{人|ひと}→人：00476_hito⟧⟦たち→たち：01551_tachi⟧ or ⟦{人々|ひとびと}→人々：03141_hitobito⟧\n\nCOMMON PATTERNS:\n- ⟦{皆様|みなさま}→皆様：15860_minasama⟧{方|がた} (everyone, very polite)\n- 〜の{方々|かたがた} (the people who ~)\n- ご⟦{参加|さんか}→参加：02498_sanka⟧の{方々|かたがた} (participants)\n\nNOTE: ⟦{方々|ほうぼう}→方々：00116_houbou⟧ with different reading means 'various places'.",
-  "cross_references": [],
+  "notes": "{方々|かたがた} is the respectful plural of ⟦{方|かた}→方：10665_kata⟧ (person).\n\nUSAGE:\n- Used in formal speech and writing\n- Often in business, ceremonies, announcements\n- More respectful than ⟦{人|ひと}→人：00476_hito⟧⟦たち→たち：01551_tachi⟧ or ⟦{人々|ひとびと}→人々：03141_hitobito⟧\n\nCOMMON PATTERNS:\n- ⟦{皆様|みなさま}→皆様：15860_minasama⟧{方|がた} (everyone, very polite)\n- 〜⟦の→の：09472_no⟧{方々|かたがた} (the people who ~)\n- ご⟦{参加|さんか}→参加：02498_sanka⟧⟦の→の：09472_no⟧{方々|かたがた} (participants)\n\nNOTE: ⟦{方々|ほうぼう}→方々：00116_houbou⟧ with different reading means 'various places'.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03141_hitobito",
+      "reading": "ひとびと",
+      "headword": "{人々|ひとびと}",
+      "label": "people, men and women"
+    }
+  ],
   "metadata": {
     "created": "2026-01-11T08:30:00Z",
-    "modified": "2026-06-12T12:41:12Z",
+    "modified": "2026-09-02T04:01:02Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

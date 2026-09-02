@@ -3,7 +3,7 @@
   "headword": "{無理強|むりじ}い",
   "reading": "むりじい",
   "romaji": "murijii",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "forcing; coercion; compulsion",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21959_murijii_ex1",
-      "japanese": "{無理強|むりじ}いはしないでください。",
+      "japanese": "{無理強|むりじ}いはしないで⟦ください→ください：02899_kudasai⟧。",
       "english": "Please don't force me.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21959_murijii_ex2",
-      "japanese": "お{酒|さけ}の{無理強|むりじ}いはよくない。",
+      "japanese": "⟦お{酒|さけ}→お酒：01045_osake⟧⟦の→の：09472_no⟧{無理強|むりじ}い⟦は→は：00079_ha⟧⟦よくない→いい：00118_ii⟧。",
       "english": "Forcing someone to drink is not good.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21959_murijii_ex3",
-      "japanese": "{子|こ}どもに{勉強|べんきょう}を{無理強|むりじ}いしても{逆効果|ぎゃくこうか}になることがある。",
+      "japanese": "{子|こ}ども⟦に→に：00314_ni⟧⟦{勉強|べんきょう}→勉強：00770_benkyou⟧⟦を→を：00422_wo⟧{無理強|むりじ}い⟦して→する：00392_suru⟧⟦も→も：00484_mo⟧⟦{逆効果|ぎゃくこうか}→逆効果：14315_gyakukouka⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧こと⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "Forcing a child to study can sometimes have the opposite effect.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {無理|むり} (unreasonable, impossible) + {強|し}い (forcing). Describes the act of pressuring someone into doing something they don't want to do.\n\nCOMMON COLLOCATIONS:\n- {無理強|むりじ}いする: to force; to coerce\n- {無理強|むりじ}いはしない: to not force (someone)\n- お{酒|さけ}の{無理強|むりじ}い: forcing someone to drink alcohol\n- {無理強|むりじ}いされる: to be forced/coerced\n\nUSAGE:\nOften appears in contexts about social pressure, such as drinking culture, eating, or work demands. The する form ({無理強|むりじ}いする) is commonly used as a verb meaning 'to force.' The word carries a clearly negative connotation—it always implies that the pressure is unwelcome.\n\nSIMILAR WORDS:\n- {強制|きょうせい}: compulsion — more formal and official; used for legal or institutional contexts\n- {強要|きょうよう}: coercion, demand — stronger and more aggressive than {無理強|むりじ}い\n- {押|お}し{付|つ}ける: to force upon — more casual; focuses on imposing things (opinions, tasks) on others",
+  "notes": "Composed of ⟦{無理|むり}→無理：01558_muri⟧ (unreasonable, impossible) + {強|し}い (forcing). Describes the act of pressuring someone into doing something they don't want to do.\n\nCOMMON COLLOCATIONS:\n- {無理強|むりじ}い⟦する→する：00392_suru⟧: to force; to coerce\n- {無理強|むりじ}いはしない: to not force (someone)\n- ⟦お{酒|さけ}→お酒：01045_osake⟧⟦の→の：09472_no⟧{無理強|むりじ}い: forcing someone to drink alcohol\n- {無理強|むりじ}い⟦される→する：00392_suru⟧: to be forced/coerced\n\nUSAGE:\nOften appears in contexts about social pressure, such as drinking culture, eating, or work demands. The ⟦する→する：00392_suru⟧ form ({無理強|むりじ}い⟦する→する：00392_suru⟧) is commonly used as a verb meaning 'to force.' The word carries a clearly negative connotation—it always implies that the pressure is unwelcome.\n\nSIMILAR WORDS:\n- ⟦{強制|きょうせい}→強制：12500_kyousei⟧: compulsion — more formal and official; used for legal or institutional contexts\n- ⟦{強要|きょうよう}→強要：12538_kyouyou⟧: coercion, demand — stronger and more aggressive than {無理強|むりじ}い\n- ⟦{押|お}し{付|つ}ける→押し付ける：04236_oshitsukeru⟧: to force upon — more casual; focuses on imposing things (opinions, tasks) on others",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12500_kyousei",
+      "reading": "きょうせい",
+      "headword": "{強制|きょうせい}",
+      "label": "compulsion"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12538_kyouyou",
+      "reading": "きょうよう",
+      "headword": "{強要|きょうよう}",
+      "label": "coercion, demand"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04236_oshitsukeru",
+      "reading": "おしつける",
+      "headword": "{押|お}し{付|つ}ける",
+      "label": "to force upon"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -58,10 +81,11 @@
       "semantic": [
         "human-relations"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-04-04T18:21:46Z",
-    "modified": "2026-07-26T03:19:02Z"
+    "modified": "2026-09-02T04:02:06Z"
   },
   "conjugation": {
     "type": "suru",

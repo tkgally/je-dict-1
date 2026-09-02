@@ -15,39 +15,67 @@
   "examples": [
     {
       "id": "26359_rooraasukeeto_ex1",
-      "japanese": "{子|こ}どものころ、ローラースケートでよく{遊|あそ}んだ。",
+      "japanese": "{子|こ}ども⟦の→の：09472_no⟧⟦ころ→〜ころ：03091_koro⟧、ローラースケート⟦で→で：00502_de⟧⟦よく→よく：00601_yoku⟧⟦{遊|あそ}んだ→遊ぶ：00550_asobu⟧。",
       "english": "I used to play with roller skates a lot when I was a child.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26359_rooraasukeeto_ex2",
-      "japanese": "{公園|こうえん}でローラースケートを{履|は}いて{滑|すべ}っている{人|ひと}がいた。",
+      "japanese": "⟦{公園|こうえん}→公園：00581_kouen⟧⟦で→で：00502_de⟧ローラースケート⟦を→を：00422_wo⟧⟦{履|は}いて→履く：00700_haku⟧⟦{滑|すべ}っている→滑る：01230_suberu⟧⟦{人|ひと}→人：00476_hito⟧がいた。",
       "english": "There were people wearing roller skates and gliding around in the park.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26359_rooraasukeeto_ex3",
-      "japanese": "{初|はじ}めてローラースケートに{挑戦|ちょうせん}したが、{何度|なんど}も{転|ころ}んでしまった。",
+      "japanese": "⟦{初|はじ}めて→初めて：02932_hajimete⟧ローラースケート⟦に→に：00314_ni⟧⟦{挑戦|ちょうせん}した→挑戦する：21602_chousensuru⟧⟦が→が：00051_ga⟧、⟦{何度|なんど}→何度：17592_nando⟧⟦も→も：00484_mo⟧⟦{転|ころ}んで→転ぶ：00863_korobu⟧しまった。",
       "english": "I tried roller skating for the first time but kept falling over.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A loanword from English \"roller skate(s).\" Refers to the traditional four-wheeled (quad) style. In Japan, the roller skating boom peaked in the 1970s-80s, and roller skating rinks ({ローラースケート{場|じょう}}) can still be found in some entertainment facilities.\n\nCOMMON COLLOCATIONS:\n- ローラースケートを{履|は}く: to put on roller skates\n- ローラースケートで{滑|すべ}る: to skate on roller skates\n- ローラースケート{場|じょう}: roller skating rink\n\nSIMILAR WORDS:\n- インラインスケート: inline skates, rollerblades — wheels arranged in a single line\n- アイススケート: ice skating — skating on ice\n- スケートボード: skateboard — a board with wheels, ridden standing",
-  "cross_references": [],
+  "notes": "A loanword from English \"roller skate(s).\" Refers to the traditional four-wheeled (quad) style. In Japan, the roller skating boom peaked in the 1970s-80s, and roller skating rinks (ローラースケート{場|じょう}) can still be found in some entertainment facilities.\n\nCOMMON COLLOCATIONS:\n- ローラースケート⟦を→を：00422_wo⟧⟦{履|は}く→履く：00700_haku⟧: to put on roller skates\n- ローラースケート⟦で→で：00502_de⟧⟦{滑|すべ}る→滑る：01230_suberu⟧: to skate on roller skates\n- ローラースケート{場|じょう}: roller skating rink\n\nSIMILAR WORDS:\n- インラインスケート: inline skates, rollerblades — wheels arranged in a single line\n- ⟦アイススケート→アイススケート：25751_aisusukeeto⟧: ice skating — skating on ice\n- スケートボード: skateboard — a board with wheels, ridden standing",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25751_aisusukeeto",
+      "reading": "あいすすけーと",
+      "headword": "アイススケート",
+      "label": "ice skating"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26360_sukeetogutsu",
+      "reading": "すけーとぐつ",
+      "headword": "スケート{靴|ぐつ}",
+      "label": "ice skates"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["leisure", "sports"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "leisure",
+        "sports"
+      ]
     },
     "created": "2026-05-01T11:37:42Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T04:02:26Z"
   }
 }

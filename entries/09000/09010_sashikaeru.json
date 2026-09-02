@@ -2,7 +2,7 @@
   "id": "09010_sashikaeru",
   "headword": "{差|さ}し{替|か}える",
   "reading": "さしかえる",
-  "part_of_speech": "ichidan verb",
+  "part_of_speech": "verb (ichidan)",
   "verb_type": "ichidan",
   "transitivity": "transitive",
   "gloss": "to replace; to substitute; to swap out",
@@ -106,7 +106,7 @@
   "examples": [
     {
       "id": "09010_sashikaeru_ex1",
-      "japanese": "{写真|しゃしん}を{新|あたら}しいものに{差|さ}し{替|か}える。",
+      "japanese": "⟦{写真|しゃしん}→写真：00753_shashin⟧⟦を→を：00422_wo⟧⟦{新|あたら}しい→新しい：00506_atarashii⟧もの⟦に→に：00314_ni⟧{差|さ}し{替|か}える。",
       "english": "Replace the photo with a new one.",
       "notes": null,
       "has_audio": false,
@@ -116,7 +116,7 @@
     },
     {
       "id": "09010_sashikaeru_ex2",
-      "japanese": "{資料|しりょう}の{一部|いちぶ}を{差|さ}し{替|か}えて{再提出|さいていしゅつ}した。",
+      "japanese": "⟦{資料|しりょう}→資料：04166_shiryou⟧⟦の→の：09472_no⟧⟦{一部|いちぶ}→一部：06783_ichibu⟧⟦を→を：00422_wo⟧{差|さ}し{替|か}えて{再提出|さいていしゅつ}⟦した→する：00392_suru⟧。",
       "english": "I replaced part of the document and resubmitted it.",
       "notes": null,
       "has_audio": false,
@@ -126,7 +126,7 @@
     },
     {
       "id": "09010_sashikaeru_ex3",
-      "japanese": "{出演者|しゅつえんしゃ}を{急遽|きゅうきょ}{差|さ}し{替|か}えることになった。",
+      "japanese": "⟦{出演者|しゅつえんしゃ}→出演者：11340_shutsuensha⟧⟦を→を：00422_wo⟧⟦{急遽|きゅうきょ}→急遽：12575_kyuukyo⟧{差|さ}し{替|か}えることになった。",
       "english": "We had to suddenly replace the performer.",
       "notes": null,
       "has_audio": false,
@@ -135,11 +135,33 @@
       ]
     }
   ],
-  "notes": "{差|さ}し{替|か}える is commonly used in business and media contexts.\n\nCOMMON COLLOCATIONS:\n- {写真|しゃしん}を{差|さ}し{替|か}える: to replace a photo\n- {資料|しりょう}を{差|さ}し{替|か}える: to replace documents\n- {人員|じんいん}を{差|さ}し{替|か}える: to replace personnel\n- {差|さ}し{替|か}え{版|ばん}: replacement version\n\nRELATED WORDS:\n- {入|い}れ{替|か}える: to switch, to interchange\n- {取|と}り{替|か}える: to exchange, to replace\n- {交換|こうかん}する: to exchange",
-  "cross_references": [],
+  "notes": "{差|さ}し{替|か}える is commonly used in business and media contexts.\n\nCOMMON COLLOCATIONS:\n- ⟦{写真|しゃしん}→写真：00753_shashin⟧⟦を→を：00422_wo⟧{差|さ}し{替|か}える: to replace a photo\n- ⟦{資料|しりょう}→資料：04166_shiryou⟧⟦を→を：00422_wo⟧{差|さ}し{替|か}える: to replace documents\n- ⟦{人員|じんいん}→人員：17843_jinin⟧⟦を→を：00422_wo⟧{差|さ}し{替|か}える: to replace personnel\n- {差|さ}し{替|か}え{版|ばん}: replacement version\n\nRELATED WORDS:\n- ⟦{入|い}れ{替|か}える→入れ替える：08227_irekaeru⟧: to switch, to interchange\n- ⟦{取|と}り{替|か}える→取り替える：01252_torikaeru⟧: to exchange, to replace\n- ⟦{交換|こうかん}→交換：02746_koukan⟧⟦する→する：00392_suru⟧: to exchange",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "08227_irekaeru",
+      "reading": "いれかえる",
+      "headword": "{入|い}れ{替|か}える",
+      "label": "to switch, to interchange"
+    },
+    {
+      "type": "related",
+      "target_id": "01252_torikaeru",
+      "reading": "とりかえる",
+      "headword": "{取|と}り{替|か}える",
+      "label": "to exchange, to replace"
+    },
+    {
+      "type": "related",
+      "target_id": "02746_koukan",
+      "reading": "こうかん",
+      "headword": "{交換|こうかん}",
+      "label": "to exchange"
+    }
+  ],
   "metadata": {
     "created": "2026-01-30T14:52:14Z",
-    "modified": "2026-03-29T03:05:07Z",
+    "modified": "2026-09-02T04:01:17Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
@@ -151,7 +173,8 @@
         "action",
         "business"
       ],
-      "verb_class": "ichidan"
+      "verb_class": "ichidan",
+      "transitivity": "transitive"
     }
   }
 }

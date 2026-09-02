@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "11506_housoushi_ex1",
-      "japanese": "プレゼントを{包装紙|ほうそうし}で{包|つつ}んだ。",
+      "japanese": "⟦プレゼント→プレゼント：01791_purezento⟧⟦を→を：00422_wo⟧{包装紙|ほうそうし}⟦で→で：00502_de⟧⟦{包|つつ}んだ→包む：01226_tsutsumu⟧。",
       "english": "I wrapped the present in wrapping paper.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "11506_housoushi_ex2",
-      "japanese": "きれいな{包装紙|ほうそうし}を{選|えら}んでください。",
+      "japanese": "⟦きれい→きれい：00717_kirei⟧な{包装紙|ほうそうし}⟦を→を：00422_wo⟧⟦{選|えら}んで→選ぶ：00835_erabu⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please choose a nice wrapping paper.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "11506_housoushi_ex3",
-      "japanese": "{百貨店|ひゃっかてん}では{商品|しょうひん}を{買|か}うと{無料|むりょう}で{包装紙|ほうそうし}に{包|つつ}んでくれる。",
+      "japanese": "⟦{百貨店|ひゃっかてん}→百貨店：18639_hyakkaten⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{商品|しょうひん}→商品：01436_shouhin⟧⟦を→を：00422_wo⟧⟦{買|か}う→買う：00489_kau⟧⟦と→と：00512_to⟧⟦{無料|むりょう}→無料：01662_muryou⟧⟦で→で：00502_de⟧{包装紙|ほうそうし}⟦に→に：00314_ni⟧⟦{包|つつ}んで→包む：01226_tsutsumu⟧⟦くれる→くれる：00724_kureru⟧。",
       "english": "At department stores, they wrap your purchases in wrapping paper for free.",
       "notes": null,
       "has_audio": false,
@@ -43,11 +43,26 @@
       ]
     }
   ],
-  "notes": "Paper used to wrap gifts or purchases. In Japanese culture, presentation matters greatly, and wrapping is considered part of the gift.\n\nFORMATION:\n{包装|ほうそう} (wrapping, packaging) + {紙|し} (paper).\n\nCOMMON COLLOCATIONS:\n- {包装紙|ほうそうし}で{包|つつ}む: to wrap in wrapping paper\n- {包装紙|ほうそうし}を{破|やぶ}る: to tear open wrapping paper\n- {包装紙|ほうそうし}を{選|えら}ぶ: to choose wrapping paper\n\nCULTURAL NOTE:\nDepartment stores ({百貨店|ひゃっかてん}) and specialty shops typically offer free gift-wrapping. Each store often has its own signature {包装紙|ほうそうし}, which can signal where the gift was purchased.",
-  "cross_references": [],
+  "notes": "Paper used to wrap gifts or purchases. In Japanese culture, presentation matters greatly, and wrapping is considered part of the gift.\n\nFORMS:\n⟦{包装|ほうそう}→包装：11932_housou⟧ (wrapping, packaging) + {紙|し} (paper).\n\nCOMMON COLLOCATIONS:\n- {包装紙|ほうそうし}⟦で→で：00502_de⟧⟦{包|つつ}む→包む：01226_tsutsumu⟧: to wrap in wrapping paper\n- {包装紙|ほうそうし}⟦を→を：00422_wo⟧⟦{破|やぶ}る→破る：02321_yaburu⟧: to tear open wrapping paper\n- {包装紙|ほうそうし}⟦を→を：00422_wo⟧⟦{選|えら}ぶ→選ぶ：00835_erabu⟧: to choose wrapping paper\n\nCULTURAL NOTE:\nDepartment stores (⟦{百貨店|ひゃっかてん}→百貨店：18639_hyakkaten⟧) and specialty shops typically offer free gift-wrapping. Each store often has its own signature {包装紙|ほうそうし}, which can signal where the gift was purchased.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21971_tsutsumigami",
+      "reading": "つつみがみ",
+      "headword": "{包|つつ}み{紙|がみ}",
+      "label": "wrapping paper"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30141_konpouzai",
+      "reading": "こんぽうざい",
+      "headword": "{梱包材|こんぽうざい}",
+      "label": "packing material"
+    }
+  ],
   "metadata": {
     "created": "2026-02-17T01:54:44Z",
-    "modified": "2026-08-15T21:21:01Z",
+    "modified": "2026-09-02T04:01:25Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",

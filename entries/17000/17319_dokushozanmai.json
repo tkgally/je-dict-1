@@ -15,41 +15,59 @@
   "examples": [
     {
       "id": "17319_dokushozanmai_ex1",
-      "japanese": "{休日|きゅうじつ}は{読書三昧|どくしょざんまい}だった。",
+      "japanese": "⟦{休日|きゅうじつ}→休日：03028_kyuujitsu⟧⟦は→は：00079_ha⟧{読書三昧|どくしょざんまい}だった。",
       "english": "I spent my day off absorbed in reading.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17319_dokushozanmai_ex2",
-      "japanese": "{連休|れんきゅう}は{家|いえ}で{読書三昧|どくしょざんまい}の{予定|よてい}だ。",
+      "japanese": "⟦{連休|れんきゅう}→連休：07587_renkyuu⟧⟦は→は：00079_ha⟧⟦{家|いえ}→家：00612_ie⟧⟦で→で：00502_de⟧{読書三昧|どくしょざんまい}⟦の→の：09472_no⟧⟦{予定|よてい}→予定：00824_yotei⟧だ。",
       "english": "I plan to spend the long weekend at home reading to my heart's content.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17319_dokushozanmai_ex3",
-      "japanese": "{退職後|たいしょくご}は{読書三昧|どくしょざんまい}の{日々|ひび}を{送|おく}りたい。",
+      "japanese": "{退職後|たいしょくご}⟦は→は：00079_ha⟧{読書三昧|どくしょざんまい}⟦の→の：09472_no⟧⟦{日々|ひび}→日々：04804_hibi⟧⟦を→を：00422_wo⟧⟦{送|おく}りたい→送る：00742_okuru⟧。",
       "english": "After retirement, I want to spend my days immersed in reading.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\n{三昧|ざんまい} (originally a Buddhist term for deep meditation) is used as a suffix meaning \"being completely absorbed in\" or \"indulging in.\" It can be attached to many activities: {贅沢三昧|ぜいたくざんまい} (indulging in luxury), ゲーム{三昧|ざんまい} (absorbed in gaming), etc.\n\nCOMMON COLLOCATIONS:\n- {読書三昧|どくしょざんまい}の{日々|ひび} (days spent reading)\n- {読書三昧|どくしょざんまい}の{休日|きゅうじつ} (a holiday spent reading)\n\nRELATED PATTERNS:\n- 〜{三昧|ざんまい}: suffix for full immersion in any activity",
-  "cross_references": [],
+  "notes": "USAGE:\n⟦{三昧|ざんまい}→三昧：05931_zanmai⟧ (originally a Buddhist term for deep meditation) is used as a suffix meaning \"being completely absorbed in\" or \"indulging in.\" It can be attached to many activities: ⟦{贅沢三昧|ぜいたくざんまい}→贅沢三昧：17878_zeitakuzanmai⟧ (indulging in luxury), ⟦ゲーム→ゲーム：03842_geemu⟧⟦{三昧|ざんまい}→三昧：05931_zanmai⟧ (absorbed in gaming), etc.\n\nCOMMON COLLOCATIONS:\n- {読書三昧|どくしょざんまい}⟦の→の：09472_no⟧⟦{日々|ひび}→日々：04804_hibi⟧ (days spent reading)\n- {読書三昧|どくしょざんまい}⟦の→の：09472_no⟧⟦{休日|きゅうじつ}→休日：03028_kyuujitsu⟧ (a holiday spent reading)\n\nRELATED PATTERNS:\n- 〜⟦{三昧|ざんまい}→三昧：05931_zanmai⟧: suffix for full immersion in any activity",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "17878_zeitakuzanmai",
+      "reading": "ぜいたくざんまい",
+      "headword": "{贅沢三昧|ぜいたくざんまい}",
+      "label": "living in luxury"
+    }
+  ],
   "metadata": {
     "created": "2026-03-17T06:00:07Z",
-    "modified": "2026-03-17T06:00:07Z",
+    "modified": "2026-09-02T04:01:48Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["leisure"]
+      "semantic": [
+        "leisure"
+      ]
     }
   }
 }

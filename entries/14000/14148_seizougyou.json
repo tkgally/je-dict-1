@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "14148_seizougyou_ex1",
-      "japanese": "{日本|にほん}は{製造業|せいぞうぎょう}が{強|つよ}い{国|くに}だ。",
+      "japanese": "⟦{日本|にほん}→日本：03876_nihon⟧⟦は→は：00079_ha⟧{製造業|せいぞうぎょう}⟦が→が：00051_ga⟧⟦{強|つよ}い→強い：00820_tsuyoi⟧⟦{国|くに}→国：02204_kuni⟧だ。",
       "english": "Japan is a country with a strong manufacturing sector.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14148_seizougyou_ex2",
-      "japanese": "{製造業|せいぞうぎょう}の{海外|かいがい}{移転|いてん}が{進|すす}んでいる。",
+      "japanese": "{製造業|せいぞうぎょう}⟦の→の：09472_no⟧⟦{海外|かいがい}→海外：00134_kaigai⟧⟦{移転|いてん}→移転：04000_iten⟧⟦が→が：00051_ga⟧⟦{進|すす}んでいる→進む：01225_susumu⟧。",
       "english": "The relocation of manufacturing overseas is progressing.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14148_seizougyou_ex3",
-      "japanese": "ロボット{技術|ぎじゅつ}の{発展|はってん}により、{製造業|せいぞうぎょう}の{現場|げんば}は{大|おお}きく{変|か}わりつつある。",
+      "japanese": "⟦ロボット→ロボット：06404_robotto⟧⟦{技術|ぎじゅつ}→技術：01389_gijutsu⟧⟦の→の：09472_no⟧⟦{発展|はってん}→発展：03561_hatten⟧⟦に→に：00314_ni⟧⟦より→より：09476_yori⟧、{製造業|せいぞうぎょう}⟦の→の：09472_no⟧⟦{現場|げんば}→現場：02723_genba⟧⟦は→は：00079_ha⟧⟦{大|おお}きく→大きい：00335_ookii⟧⟦{変|か}わり→変わる：00714_kawaru⟧つつ⟦ある→ある：00006_aru⟧。",
       "english": "Due to advances in robotics, manufacturing workplaces are undergoing major changes.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\n{製造業|せいぞうぎょう} is a compound of {製造|せいぞう} (manufacturing, production) and {業|ぎょう} (industry, business). Japan's {製造業|せいぞうぎょう} is globally known for quality and innovation, particularly in automobiles and electronics. The term is often contrasted with サービス{業|ぎょう} (service industry).\n\nCOMMON COLLOCATIONS:\n- {製造業|せいぞうぎょう}の{空洞化|くうどうか}: hollowing out of manufacturing\n- {製造業|せいぞうぎょう}に{従事|じゅうじ}する: to work in manufacturing\n- {国内|こくない}{製造業|せいぞうぎょう}: domestic manufacturing\n- {製造業|せいぞうぎょう}の{復活|ふっかつ}: revival of manufacturing",
+  "notes": "USAGE:\n{製造業|せいぞうぎょう} is a compound of ⟦{製造|せいぞう}→製造：03289_seizou⟧ (manufacturing, production) and {業|ぎょう} (industry, business). Japan's {製造業|せいぞうぎょう} is globally known for quality and innovation, particularly in automobiles and electronics. The term is often contrasted with ⟦サービス{業|ぎょう}→サービス業：25287_saabisugyou⟧ (service industry).\n\nCOMMON COLLOCATIONS:\n- {製造業|せいぞうぎょう}⟦の→の：09472_no⟧⟦{空洞化|くうどうか}→空洞化：08025_kuudouka⟧: hollowing out of manufacturing\n- {製造業|せいぞうぎょう}⟦に→に：00314_ni⟧⟦{従事|じゅうじ}→従事：12562_juuji⟧⟦する→する：00392_suru⟧: to work in manufacturing\n- ⟦{国内|こくない}→国内：02998_kokunai⟧{製造業|せいぞうぎょう}: domestic manufacturing\n- {製造業|せいぞうぎょう}⟦の→の：09472_no⟧⟦{復活|ふっかつ}→復活：12565_fukkatsu⟧: revival of manufacturing",
   "cross_references": [
     {
       "type": "related",
@@ -46,19 +52,32 @@
       "reading": "せいぞう",
       "headword": "{製造|せいぞう}",
       "label": "manufacturing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25287_saabisugyou",
+      "reading": "さーびすぎょう",
+      "headword": "サービス{業|ぎょう}",
+      "label": "service industry"
     }
   ],
   "metadata": {
     "created": "2026-02-28T01:23:10Z",
-    "modified": "2026-04-30T04:29:16Z",
+    "modified": "2026-09-02T04:01:36Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["work"],
-      "domain": ["business"]
+      "semantic": [
+        "work"
+      ],
+      "domain": [
+        "business"
+      ]
     }
   }
 }

@@ -2,7 +2,7 @@
   "id": "02672_kurou",
   "headword": "{苦労|くろう}",
   "reading": "くろう",
-  "part_of_speech": "noun / suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "hardship, trouble, difficulty",
   "definitions": [
     {
@@ -19,7 +19,7 @@
   "examples": [
     {
       "id": "02672_kurou_ex1",
-      "japanese": "{苦労|くろう}して⟦{成功|せいこう}した→成功する：02638_seikou⟧。",
+      "japanese": "{苦労|くろう}⟦して→する：00392_suru⟧⟦{成功|せいこう}した→成功する：02638_seikou⟧。",
       "english": "I succeeded through hardship.",
       "notes": null,
       "has_audio": false,
@@ -78,7 +78,7 @@
       ]
     }
   ],
-  "notes": "{苦労|くろう} expresses hardship and effort.\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n- No standard transitive pair\n- Pattern: {苦労|くろう}する\n\nCOMMON PATTERNS:\n- {苦労|くろう}する (to have difficulty, to struggle)\n- {苦労|くろう}⟦を→を：00422_wo⟧⟦かける→かける：00854_kakeru⟧ (to cause trouble for someone)\n- {苦労|くろう}⟦が→が：00051_ga⟧⟦{絶|た}えない→絶える：13814_taeru⟧ (hardships never end)\n- {苦労|くろう}⟦が→が：00051_ga⟧⟦{報|むく}われる→報いる：12088_mukuiru⟧ (efforts are rewarded)\n\nSET EXPRESSIONS:\n- お{苦労|くろう}⟦さま→様：01549_sama⟧(⟦です→です：09485_desu⟧) (thank you for your effort)\n- {苦労|くろう}⟦{人|にん}→人：00476_hito⟧/{苦労|くろう}⟦{性|しょう}→性：noentry⟧ (someone who has known hardship)\n- {苦労|くろう}⟦{話|ばなし}→話：01496_hanashi⟧ (tales of hardship)\n\nSIMILAR WORDS:\n- {苦労|くろう}: hardship (often life difficulties)\n- ⟦{努力|どりょく}→努力：03490_doryoku⟧: effort (more positive, self-motivated)\n- ⟦{苦|く}しむ→苦しむ：01938_kurushimu⟧: to suffer (verb)",
+  "notes": "{苦労|くろう} expresses hardship and effort.\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n- No standard transitive pair\n- Pattern: {苦労|くろう}⟦する→する：00392_suru⟧\n\nCOMMON PATTERNS:\n- {苦労|くろう}⟦する→する：00392_suru⟧ (to have difficulty, to struggle)\n- {苦労|くろう}⟦を→を：00422_wo⟧⟦かける→かける：00854_kakeru⟧ (to cause trouble for someone)\n- {苦労|くろう}⟦が→が：00051_ga⟧⟦{絶|た}えない→絶える：13814_taeru⟧ (hardships never end)\n- {苦労|くろう}⟦が→が：00051_ga⟧⟦{報|むく}われる→報いる：12088_mukuiru⟧ (efforts are rewarded)\n\nCOMMON EXPRESSIONS:\n- お{苦労|くろう}⟦さま→様：01549_sama⟧(⟦です→です：09485_desu⟧) (thank you for your effort)\n- {苦労|くろう}⟦{人|にん}→人：00476_hito⟧/{苦労|くろう}⟦{性|しょう}→性：noentry⟧ (someone who has known hardship)\n- {苦労|くろう}⟦{話|ばなし}→話：01496_hanashi⟧ (tales of hardship)\n\nSIMILAR WORDS:\n- {苦労|くろう}: hardship (often life difficulties)\n- ⟦{努力|どりょく}→努力：03490_doryoku⟧: effort (more positive, self-motivated)\n- ⟦{苦|く}しむ→苦しむ：01938_kurushimu⟧: to suffer (verb)",
   "cross_references": [
     {
       "type": "related",
@@ -86,11 +86,46 @@
       "headword": "{努力|どりょく}",
       "label": "effort",
       "target_id": "03490_doryoku"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01938_kurushimu",
+      "reading": "くるしむ",
+      "headword": "{苦|くる}しむ",
+      "label": "to suffer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05517_kunou",
+      "reading": "くのう",
+      "headword": "{苦悩|くのう}",
+      "label": "anguish"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22440_temahima",
+      "reading": "てまひま",
+      "headword": "{手間暇|てまひま}",
+      "label": "time and effort"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25318_kunan",
+      "reading": "くなん",
+      "headword": "{苦難|くなん}",
+      "label": "hardship"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27156_konku",
+      "reading": "こんく",
+      "headword": "{困苦|こんく}",
+      "label": "hardship"
     }
   ],
   "metadata": {
     "created": "2026-01-11T07:03:50Z",
-    "modified": "2026-05-21T19:14:39Z",
+    "modified": "2026-09-02T04:01:02Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

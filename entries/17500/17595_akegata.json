@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "17595_akegata_ex1",
-      "japanese": "{明|あ}け{方|がた}に{目|め}が{覚|さ}めた。",
+      "japanese": "{明|あ}け{方|がた}⟦に→に：00314_ni⟧⟦{目|め}→目：00525_me⟧⟦が→が：00051_ga⟧⟦{覚|さ}めた→覚める：02058_sameru⟧。",
       "english": "I woke up at dawn.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "17595_akegata_ex2",
-      "japanese": "{明|あ}け{方|がた}の{空|そら}がとても{美|うつく}しかった。",
+      "japanese": "{明|あ}け{方|がた}⟦の→の：09472_no⟧⟦{空|そら}→空：02216_sora⟧⟦が→が：00051_ga⟧⟦とても→とても：00593_totemo⟧⟦{美|うつく}しかった→美しい：01121_utsukushii⟧。",
       "english": "The sky at dawn was very beautiful.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "17595_akegata_ex3",
-      "japanese": "{彼|かれ}は{明|あ}け{方|がた}まで{仕事|しごと}をしていた。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{明|あ}け{方|がた}⟦まで→まで：00490_made⟧⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦を→を：00422_wo⟧⟦していた→する：00392_suru⟧。",
       "english": "He was working until dawn.",
       "sense_numbers": [
         1
@@ -43,7 +43,7 @@
       "notes": null
     }
   ],
-  "notes": "TIME OF DAY:\n{明|あ}け{方|がた} refers specifically to the period just before sunrise when the sky begins to lighten, typically between 4:00-6:00 AM depending on the season.\n\nRELATED TIME WORDS:\n- {夜明|よあ}け (dawn, daybreak - similar meaning)\n- {日|ひ}の{出|で} (sunrise - the moment the sun appears)\n- {早朝|そうちょう} (early morning)\n- {朝方|あさがた} (toward morning)\n\nFORMATION:\n{明|あ}ける (to dawn) + {方|がた} (time period suffix) → the time when it dawns",
+  "notes": "TIME OF DAY:\n{明|あ}け{方|がた} refers specifically to the period just before sunrise when the sky begins to lighten, typically between 4:00-6:00 AM depending on the season.\n\nRELATED TIME WORDS:\n- ⟦{夜明|よあ}け→夜明け：03655_yoake⟧ (dawn, daybreak - similar meaning)\n- ⟦{日|ひ}の{出|で}→日の出：17596_hinode⟧ (sunrise - the moment the sun appears)\n- ⟦{早朝|そうちょう}→早朝：03109_souchou⟧ (early morning)\n- ⟦{朝方|あさがた}→朝方：21392_asagata⟧ (toward morning)\n\nFORMS:\n⟦{明|あ}ける→明ける：21288_akeru⟧ (to dawn) + {方|がた} (time period suffix) → the time when it dawns",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -51,12 +51,13 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "time-general"
       ]
     },
     "created": "2026-01-26T13:58:14Z",
-    "modified": "2026-07-24T07:00:08Z"
+    "modified": "2026-09-02T04:01:49Z"
   },
   "cross_references": [
     {
@@ -72,6 +73,62 @@
       "reading": "ひので",
       "headword": "{日|ひ}の{出|で}",
       "label": "sunrise"
+    },
+    {
+      "type": "related",
+      "target_id": "03109_souchou",
+      "reading": "そうちょう",
+      "headword": "{早朝|そうちょう}",
+      "label": "early morning"
+    },
+    {
+      "type": "related",
+      "target_id": "21392_asagata",
+      "reading": "あさがた",
+      "headword": "{朝方|あさがた}",
+      "label": "toward morning"
+    },
+    {
+      "type": "related",
+      "target_id": "09127_futsugyou",
+      "reading": "ふつぎょう",
+      "headword": "{払暁|ふつぎょう}",
+      "label": "dawn, daybreak"
+    },
+    {
+      "type": "related",
+      "target_id": "10036_akatsuki",
+      "reading": "あかつき",
+      "headword": "{暁|あかつき}",
+      "label": "dawn, daybreak"
+    },
+    {
+      "type": "related",
+      "target_id": "15521_shuuake",
+      "reading": "しゅうあけ",
+      "headword": "{週明|しゅうあ}け",
+      "label": "beginning of the week"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25609_hakumei",
+      "reading": "はくめい",
+      "headword": "{薄明|はくめい}",
+      "label": "twilight"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26715_shirajiraakeru",
+      "reading": "しらじらあける",
+      "headword": "{白々明|しらじらあ}ける",
+      "label": "to dawn"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27573_mimei",
+      "reading": "みめい",
+      "headword": "{未明|みめい}",
+      "label": "predawn"
     }
   ]
 }

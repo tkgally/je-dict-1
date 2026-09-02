@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "18418_hiyoke_ex1",
-      "japanese": "{窓|まど}に{日除|ひよ}けを{付|つ}けた。",
+      "japanese": "⟦{窓|まど}→窓：02254_mado⟧⟦に→に：00314_ni⟧{日除|ひよ}け⟦を→を：00422_wo⟧⟦{付|つ}けた→付ける：00761_tsukeru⟧。",
       "english": "I installed a sun blind on the window.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "18418_hiyoke_ex2",
-      "japanese": "テラスに{日除|ひよ}けのテントがある。",
+      "japanese": "⟦テラス→テラス：28798_terasu⟧⟦に→に：00314_ni⟧{日除|ひよ}け⟦の→の：09472_no⟧⟦テント→テント：03859_tento⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There is a shade tent on the terrace.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "18418_hiyoke_ex3",
-      "japanese": "{夏場|なつば}は{日除|ひよ}けがないと{部屋|へや}の{温度|おんど}がかなり{上|あ}がる。",
+      "japanese": "⟦{夏場|なつば}→夏場：28060_natsuba⟧⟦は→は：00079_ha⟧{日除|ひよ}け⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧⟦と→と：00512_to⟧⟦{部屋|へや}→部屋：00507_heya⟧⟦の→の：09472_no⟧⟦{温度|おんど}→温度：00333_ondo⟧⟦が→が：00051_ga⟧⟦かなり→かなり：01149_kanari⟧⟦{上|あ}がる→上がる：00615_agaru⟧。",
       "english": "In summer, the room temperature rises considerably without a sunshade.",
       "sense_numbers": [
         1
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "{日除|ひよ}け comes from {日|ひ} (sun) + {除|よ}ける (to ward off). Also written as {日避|ひよ}け. It covers any device or structure that blocks sunlight, from architectural awnings to portable parasols.\n\nCOMMON COLLOCATIONS:\n- {日除|ひよ}けを{付|つ}ける: to put up a sunshade\n- {日除|ひよ}けテント: shade tent\n- {日除|ひよ}け{帽子|ぼうし}: sun hat\n- {車|くるま}の{日除|ひよ}け: car sun visor/shade\n\nRELATED ～{除|よ}け WORDS:\n- {雨除|あまよ}け: rain shelter\n- {風除|かぜよ}け: windbreak\n- {虫除|むしよ}け: insect repellent\n- {魔除|まよ}け: charm against evil\n\nThe ～{除|よ}け pattern is productive and means \"protection from\" or \"warding off\" whatever the first element names.",
+  "notes": "{日除|ひよ}け comes from ⟦{日|ひ}→日：02249_hi⟧ (sun) + {除|よ}ける (to ward off). Also written as {日避|ひよ}け. It covers any device or structure that blocks sunlight, from architectural awnings to portable parasols.\n\nCOMMON COLLOCATIONS:\n- {日除|ひよ}け⟦を→を：00422_wo⟧⟦{付|つ}ける→付ける：00761_tsukeru⟧: to put up a sunshade\n- {日除|ひよ}け⟦テント→テント：03859_tento⟧: shade tent\n- {日除|ひよ}け⟦{帽子|ぼうし}→帽子：00692_boushi⟧: sun hat\n- ⟦{車|くるま}→車：00516_kuruma⟧⟦の→の：09472_no⟧{日除|ひよ}け: car sun visor/shade\n\nRELATED ～{除|よ}け WORDS:\n- {雨除|あまよ}け: rain shelter\n- {風除|かぜよ}け: windbreak\n- ⟦{虫除|むしよ}け→虫除け：09715_mushiyoke⟧: insect repellent\n- ⟦{魔除|まよ}け→魔除け：20337_mayoke⟧: charm against evil\n\nThe ～{除|よ}け pattern is productive and means \"protection from\" or \"warding off\" whatever the first element names.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "09715_mushiyoke",
+      "reading": "むしよけ",
+      "headword": "{虫除|むしよ}け",
+      "label": "insect repellent"
+    },
+    {
+      "type": "related",
+      "target_id": "20337_mayoke",
+      "reading": "まよけ",
+      "headword": "{魔除|まよ}け",
+      "label": "charm against evil"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19850_shakou",
+      "reading": "しゃこう",
+      "headword": "{遮光|しゃこう}",
+      "label": "light blocking"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23743_sanbaizaa",
+      "reading": "さんばいざー",
+      "headword": "サンバイザー",
+      "label": "sun visor"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +89,6 @@
       ]
     },
     "created": "2026-03-22T00:43:10Z",
-    "modified": "2026-05-08T10:08:08Z"
+    "modified": "2026-09-02T04:01:52Z"
   }
 }

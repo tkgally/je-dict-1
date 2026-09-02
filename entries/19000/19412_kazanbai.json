@@ -15,40 +15,73 @@
   "examples": [
     {
       "id": "19412_kazanbai_ex1",
-      "japanese": "{火山灰|かざんばい}が{降|ふ}っている。",
+      "japanese": "{火山灰|かざんばい}⟦が→が：00051_ga⟧⟦{降|ふ}っている→降る：00839_furu⟧。",
       "english": "Volcanic ash is falling.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19412_kazanbai_ex2",
-      "japanese": "{噴火|ふんか}のあと、{町|まち}は{火山灰|かざんばい}に{覆|おお}われた。",
+      "japanese": "⟦{噴火|ふんか}→噴火：00045_funka⟧⟦の→の：09472_no⟧あと、⟦{町|まち}→町：00613_machi⟧⟦は→は：00079_ha⟧{火山灰|かざんばい}⟦に→に：00314_ni⟧⟦{覆|おお}われた→覆う：02020_oou⟧。",
       "english": "After the eruption, the town was covered in volcanic ash.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19412_kazanbai_ex3",
-      "japanese": "{鹿児島|かごしま}では{桜島|さくらじま}の{火山灰|かざんばい}が{日常的|にちじょうてき}に{降|ふ}るため、{住民|じゅうみん}は{対策|たいさく}に{慣|な}れている。",
+      "japanese": "{鹿児島|かごしま}⟦で→で：00502_de⟧⟦は→は：00079_ha⟧{桜島|さくらじま}⟦の→の：09472_no⟧{火山灰|かざんばい}⟦が→が：00051_ga⟧⟦{日常的|にちじょうてき}→日常的：16902_nichijouteki⟧⟦に→に：00314_ni⟧⟦{降|ふ}る→降る：00839_furu⟧⟦ため→ため：01145_tame⟧、⟦{住民|じゅうみん}→住民：03281_juumin⟧⟦は→は：00079_ha⟧⟦{対策|たいさく}→対策：02511_taisaku⟧⟦に→に：00314_ni⟧⟦{慣|な}れている→慣れる：00870_nareru⟧。",
       "english": "In Kagoshima, volcanic ash from Sakurajima falls regularly, so residents are accustomed to dealing with it.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "{火山灰|かざんばい} refers to fine particles of rock ejected during a volcanic eruption. A compound of {火山|かざん} (volcano) + {灰|はい} (ash). The reading uses {灰|ばい}, the on'yomi.\n\nCOMMON COLLOCATIONS:\n- {火山灰|かざんばい}が{降|ふ}る: volcanic ash falls\n- {火山灰|かざんばい}に{覆|おお}われる: to be covered in volcanic ash\n- {火山灰|かざんばい}を{取|と}り{除|のぞ}く: to remove volcanic ash\n- {火山灰|かざんばい}が{積|つ}もる: volcanic ash accumulates\n\nCULTURAL NOTE:\nJapan has many active volcanoes, so {火山灰|かざんばい} is a practical concern. In {鹿児島|かごしま}, {桜島|さくらじま} regularly deposits ash, and special collection bags ({克灰袋|こくはいぶくろ}) are distributed by the city.\n\nRELATED:\n- {噴火|ふんか}: volcanic eruption\n- {火山|かざん}: volcano\n- {溶岩|ようがん}: lava",
+  "notes": "{火山灰|かざんばい} refers to fine particles of rock ejected during a volcanic eruption. A compound of ⟦{火山|かざん}→火山：04020_kazan⟧ (volcano) + ⟦{灰|はい}→灰：02244_hai⟧ (ash). The reading uses {灰|ばい}, the on'yomi.\n\nCOMMON COLLOCATIONS:\n- {火山灰|かざんばい}⟦が→が：00051_ga⟧⟦{降|ふ}る→降る：00839_furu⟧: volcanic ash falls\n- {火山灰|かざんばい}⟦に→に：00314_ni⟧⟦{覆|おお}われる→覆う：02020_oou⟧: to be covered in volcanic ash\n- {火山灰|かざんばい}⟦を→を：00422_wo⟧⟦{取|と}り{除|のぞ}く→取り除く：04222_torinozoku⟧: to remove volcanic ash\n- {火山灰|かざんばい}⟦が→が：00051_ga⟧⟦{積|つ}もる→積もる：01964_tsumoru⟧: volcanic ash accumulates\n\nCULTURAL NOTE:\nJapan has many active volcanoes, so {火山灰|かざんばい} is a practical concern. In {鹿児島|かごしま}, {桜島|さくらじま} regularly deposits ash, and special collection bags ({克灰袋|こくはいぶくろ}) are distributed by the city.\n\nRELATED WORDS:\n- ⟦{噴火|ふんか}→噴火：00045_funka⟧: volcanic eruption\n- ⟦{火山|かざん}→火山：04020_kazan⟧: volcano\n- ⟦{溶岩|ようがん}→溶岩：13328_yougan⟧: lava",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "00045_funka",
+      "reading": "ふんか",
+      "headword": "{噴火|ふんか}",
+      "label": "volcanic eruption"
+    },
+    {
+      "type": "related",
+      "target_id": "13328_yougan",
+      "reading": "ようがん",
+      "headword": "{溶岩|ようがん}",
+      "label": "lava"
+    },
+    {
+      "type": "related",
+      "target_id": "19155_funen",
+      "reading": "ふんえん",
+      "headword": "{噴煙|ふんえん}",
+      "label": "volcanic smoke"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["weather"]
+      "semantic": [
+        "weather"
+      ]
     },
     "created": "2026-03-25T13:28:10Z",
-    "modified": "2026-03-31T09:28:45Z"
+    "modified": "2026-09-02T04:01:55Z"
   }
 }

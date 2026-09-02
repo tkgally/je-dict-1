@@ -3,7 +3,7 @@
   "headword": "{持参|じさん}する",
   "reading": "じさんする",
   "romaji": "jisansuru",
-  "part_of_speech": "verb",
+  "part_of_speech": "suru verb",
   "gloss": "to bring; to carry with oneself",
   "definitions": [
     {
@@ -17,7 +17,7 @@
   "examples": [
     {
       "id": "21143_jisansuru_ex1",
-      "japanese": "{昼食|ちゅうしょく}を{持参|じさん}する。",
+      "japanese": "⟦{昼食|ちゅうしょく}→昼食：01616_chuushoku⟧⟦を→を：00422_wo⟧{持参|じさん}する。",
       "english": "To bring one's own lunch.",
       "sense_numbers": [
         1
@@ -27,7 +27,7 @@
     },
     {
       "id": "21143_jisansuru_ex2",
-      "japanese": "{身分証明書|みぶんしょうめいしょ}をご{持参|じさん}ください。",
+      "japanese": "⟦{身分証明書|みぶんしょうめいしょ}→身分証明書：09809_mibunshoumeisho⟧⟦を→を：00422_wo⟧ご⟦{持参|じさん}→持参：00127_jisan⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please bring your identification.",
       "sense_numbers": [
         1
@@ -37,7 +37,7 @@
     },
     {
       "id": "21143_jisansuru_ex3",
-      "japanese": "{参加者|さんかしゃ}は{各自|かくじ}で{飲|の}み{物|もの}を{持参|じさん}することになっている。",
+      "japanese": "⟦{参加者|さんかしゃ}→参加者：03059_sankasha⟧⟦は→は：00079_ha⟧⟦{各自|かくじ}→各自：00157_kakuji⟧⟦で→で：00502_de⟧⟦{飲|の}み{物|もの}→飲み物：02929_nomimono⟧⟦を→を：00422_wo⟧{持参|じさん}することになっている。",
       "english": "Participants are expected to bring their own drinks.",
       "sense_numbers": [
         1
@@ -46,8 +46,31 @@
       "notes": null
     }
   ],
-  "notes": "A formal way to say \"bring\" or \"carry with oneself.\" Commonly seen in official notices, event instructions, and business communications. In everyday speech, {持|も}っていく or {持|も}ってくる are more natural.\n\nCOMMON COLLOCATIONS:\n- {弁当|べんとう}{持参|じさん}: bringing one's own lunch (BYOL)\n- ご{持参|じさん}ください: please bring (polite)\n- {各自|かくじ}{持参|じさん}: each person bringing their own\n\nSIMILAR WORDS:\n- {持|も}っていく: to take (something) along — everyday equivalent\n- {持|も}ってくる: to bring (something) here — everyday, direction toward speaker\n- {携帯|けいたい}する: to carry on one's person — more formal, implies keeping something readily accessible",
+  "notes": "A formal way to say \"bring\" or \"carry with oneself.\" Commonly seen in official notices, event instructions, and business communications. In everyday speech, ⟦{持|も}っていく→持っていく：27431_motteiku⟧ or ⟦{持|も}ってくる→持ってくる：10666_mottekuru⟧ are more natural.\n\nCOMMON COLLOCATIONS:\n- ⟦{弁当|べんとう}→弁当：01014_bentou⟧⟦{持参|じさん}→持参：00127_jisan⟧: bringing one's own lunch (BYOL)\n- ご⟦{持参|じさん}→持参：00127_jisan⟧⟦ください→ください：02899_kudasai⟧: please bring (polite)\n- ⟦{各自|かくじ}→各自：00157_kakuji⟧⟦{持参|じさん}→持参：00127_jisan⟧: each person bringing their own\n\nSIMILAR WORDS:\n- ⟦{持|も}っていく→持っていく：27431_motteiku⟧: to take (something) along — everyday equivalent\n- ⟦{持|も}ってくる→持ってくる：10666_mottekuru⟧: to bring (something) here — everyday, direction toward speaker\n- ⟦{携帯|けいたい}する→携帯する：21144_keitaisuru⟧: to carry on one's person — more formal, implies keeping something readily accessible",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "27431_motteiku",
+      "reading": "もっていく",
+      "headword": "{持|も}っていく",
+      "label": "to take (something) along"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10666_mottekuru",
+      "reading": "もってくる",
+      "headword": "{持|も}ってくる",
+      "label": "to bring (something) here"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21144_keitaisuru",
+      "reading": "けいたいする",
+      "headword": "{携帯|けいたい}する",
+      "label": "to carry on one's person"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,10 +82,11 @@
       "semantic": [
         "general"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-03-31T21:33:17Z",
-    "modified": "2026-03-31T21:33:17Z"
+    "modified": "2026-09-02T04:02:02Z"
   },
   "conjugation": {
     "type": "suru",

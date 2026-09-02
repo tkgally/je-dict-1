@@ -3,7 +3,7 @@
   "headword": "{内蔵|ないぞう}",
   "reading": "ないぞう",
   "romaji": "naizou",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "built-in; internal (component); incorporating internally",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30075_naizou_ex1",
-      "japanese": "このパソコンはカメラを{内蔵|ないぞう}している。",
+      "japanese": "⟦この→この：00962_kono⟧⟦パソコン→パソコン：01538_pasokon⟧⟦は→は：00079_ha⟧⟦カメラ→カメラ：04417_kamera⟧⟦を→を：00422_wo⟧{内蔵|ないぞう}⟦している→する：00392_suru⟧。",
       "english": "This computer has a built-in camera.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30075_naizou_ex2",
-      "japanese": "{内蔵|ないぞう}バッテリーは{交換|こうかん}できない。",
+      "japanese": "{内蔵|ないぞう}⟦バッテリー→バッテリー：04425_batterii⟧⟦は→は：00079_ha⟧⟦{交換|こうかん}→交換：02746_koukan⟧⟦できない→できる：00557_dekiru⟧。",
       "english": "The built-in battery cannot be replaced.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30075_naizou_ex3",
-      "japanese": "{最近|さいきん}のテレビは{録画|ろくが}{機能|きのう}を{内蔵|ないぞう}している。",
+      "japanese": "⟦{最近|さいきん}→最近：00881_saikin⟧⟦の→の：09472_no⟧⟦テレビ→テレビ：01536_terebi⟧⟦は→は：00079_ha⟧⟦{録画|ろくが}→録画：04441_rokuga⟧⟦{機能|きのう}→機能：13165_kinou⟧⟦を→を：00422_wo⟧{内蔵|ないぞう}⟦している→する：00392_suru⟧。",
       "english": "Recent TVs have a built-in recording function.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Combines {内|ない} (inside) with {蔵|ぞう} (store, house). Describes a component or function that is built into a device rather than external. As a modifier, {内蔵|ないぞう}〜 means 'built-in'; with する it means 'to incorporate internally.'\n\nCOMMON COLLOCATIONS:\n- {内蔵|ないぞう}カメラ: built-in camera\n- {内蔵|ないぞう}メモリ: built-in memory\n- {内蔵|ないぞう}ハードディスク: internal hard disk\n\nSIMILAR WORDS:\n- {外付|そとづ}け: external (attachment) — the opposite; connected from outside\n- {内臓|ないぞう}: internal organs — a homophone written with a different kanji ({臓|ぞう}); do not confuse",
+  "notes": "Combines ⟦{内|ない}→〜内：09853_nai⟧ (inside) with {蔵|ぞう} (store, house). Describes a component or function that is built into a device rather than external. As a modifier, {内蔵|ないぞう}〜 means 'built-in'; with ⟦する→する：00392_suru⟧ it means 'to incorporate internally.'\n\nCOMMON COLLOCATIONS:\n- {内蔵|ないぞう}⟦カメラ→カメラ：04417_kamera⟧: built-in camera\n- {内蔵|ないぞう}⟦メモリ→メモリ：04893_memori⟧: built-in memory\n- {内蔵|ないぞう}⟦ハードディスク→ハードディスク：06603_haadodisuku⟧: internal hard disk\n\nSIMILAR WORDS:\n- ⟦{外付|そとづ}け→外付け：22099_sotozuke⟧: external (attachment) — the opposite; connected from outside\n- ⟦{内臓|ないぞう}→内臓：05028_naizou⟧: internal organs — a homophone written with a different kanji ({臓|ぞう}); do not confuse",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "22099_sotozuke",
+      "reading": "そとづけ",
+      "headword": "{外付|そとづ}け",
+      "label": "external"
+    },
+    {
+      "type": "homophone",
+      "target_id": "05028_naizou",
+      "reading": "ないぞう",
+      "headword": "{内臓|ないぞう}",
+      "label": "internal organs"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -54,7 +70,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "technology"
       ],
@@ -65,7 +81,7 @@
       "verb_class": "suru"
     },
     "created": "2026-07-23T21:21:47Z",
-    "modified": "2026-07-23T21:21:47Z"
+    "modified": "2026-09-02T04:02:38Z"
   },
   "conjugation": {
     "type": "suru",

@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "13163_kousou_ex1",
-      "japanese": "{新|あたら}しい{構想|こうそう}を{練|ね}る。",
+      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧{構想|こうそう}⟦を→を：00422_wo⟧⟦{練|ね}る→練る：09751_neru⟧。",
       "english": "To work out a new concept.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "13163_kousou_ex2",
-      "japanese": "{小説|しょうせつ}の{構想|こうそう}はできているが、まだ{書|か}き{始|はじ}めていない。",
+      "japanese": "⟦{小説|しょうせつ}→小説：01434_shousetsu⟧⟦の→の：09472_no⟧{構想|こうそう}⟦は→は：00079_ha⟧⟦できている→できる：00557_dekiru⟧⟦が→が：00051_ga⟧、⟦まだ→まだ：00603_mada⟧⟦{書|か}き{始|はじ}めていない→書き始める：22272_kakihajimeru⟧。",
       "english": "I have the concept for the novel, but I haven't started writing yet.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "13163_kousou_ex3",
-      "japanese": "{市長|しちょう}は{駅前|えきまえ}の{再開発|さいかいはつ}について{壮大|そうだい}な{構想|こうそう}を{発表|はっぴょう}した。",
+      "japanese": "⟦{市長|しちょう}→市長：12472_shichou⟧⟦は→は：00079_ha⟧⟦{駅前|えきまえ}→駅前：09593_ekimae⟧⟦の→の：09472_no⟧⟦{再開発|さいかいはつ}→再開発：17066_saikaihatsu⟧⟦について→〜について：03103_nitsuite⟧⟦{壮大|そうだい}→壮大：10900_soudai⟧な{構想|こうそう}⟦を→を：00422_wo⟧⟦{発表|はっぴょう}した→発表する：25231_happyousuru⟧。",
       "english": "The mayor announced a grand vision for the redevelopment of the area in front of the station.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,26 @@
       ]
     }
   ],
-  "notes": "ETYMOLOGY:\n{構|こう} (to construct, to plan) + {想|そう} (thought, idea). Literally \"constructed thought\" — a carefully built-up idea.\n\nUSAGE:\n{構想|こうそう} implies a big-picture plan that has been thought through, but not necessarily finalized or implemented. It is commonly used with {練|ね}る (to work out, to refine) and {立|た}てる (to set up). As a する verb, {構想|こうそう}する means \"to conceive a plan.\"\n\nCOMMON COLLOCATIONS:\n- {構想|こうそう}を{練|ね}る: to work out / refine a concept\n- {構想|こうそう}を{立|た}てる: to formulate a plan\n- {構想|こうそう}を{発表|はっぴょう}する: to announce a plan\n- {壮大|そうだい}な{構想|こうそう}: a grand vision\n- {構想|こうそう}{段階|だんかい}: planning stage",
-  "cross_references": [],
+  "notes": "ETYMOLOGY:\n{構|こう} (to construct, to plan) + {想|そう} (thought, idea). Literally \"constructed thought\" — a carefully built-up idea.\n\nUSAGE:\n{構想|こうそう} implies a big-picture plan that has been thought through, but not necessarily finalized or implemented. It is commonly used with ⟦{練|ね}る→練る：09751_neru⟧ (to work out, to refine) and ⟦{立|た}てる→立てる：01196_tateru⟧ (to set up). As a ⟦する→する：00392_suru⟧ verb, {構想|こうそう}⟦する→する：00392_suru⟧ means \"to conceive a plan.\"\n\nCOMMON COLLOCATIONS:\n- {構想|こうそう}⟦を→を：00422_wo⟧⟦{練|ね}る→練る：09751_neru⟧: to work out / refine a concept\n- {構想|こうそう}⟦を→を：00422_wo⟧⟦{立|た}てる→立てる：01196_tateru⟧: to formulate a plan\n- {構想|こうそう}⟦を→を：00422_wo⟧⟦{発表|はっぴょう}する→発表する：25231_happyousuru⟧: to announce a plan\n- ⟦{壮大|そうだい}→壮大：10900_soudai⟧な{構想|こうそう}: a grand vision\n- {構想|こうそう}⟦{段階|だんかい}→段階：04515_dankai⟧: planning stage",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "10859_konseputo",
+      "reading": "こんせぷと",
+      "headword": "コンセプト",
+      "label": "concept, theme, vision"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26916_sekkeisuru",
+      "reading": "せっけいする",
+      "headword": "{設計|せっけい}する",
+      "label": "to design"
+    }
+  ],
   "metadata": {
     "created": "2026-02-23T12:17:06Z",
-    "modified": "2026-03-29T03:07:35Z",
+    "modified": "2026-09-02T04:01:32Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

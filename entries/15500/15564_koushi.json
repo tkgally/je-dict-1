@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "15564_koushi_ex1",
-      "japanese": "{公使|こうし}が{会談|かいだん}に{出席|しゅっせき}した。",
+      "japanese": "{公使|こうし}⟦が→が：00051_ga⟧⟦{会談|かいだん}→会談：11542_kaidan⟧⟦に→に：00314_ni⟧⟦{出席|しゅっせき}した→出席する：01830_shussekisuru⟧。",
       "english": "The minister attended the meeting.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15564_koushi_ex2",
-      "japanese": "{特命|とくめい}{全権|ぜんけん}{公使|こうし}として{派遣|はけん}された。",
+      "japanese": "{特命|とくめい}{全権|ぜんけん}{公使|こうし}⟦として→として：06802_toshite⟧⟦{派遣|はけん}→派遣：13273_haken⟧⟦された→する：00392_suru⟧。",
       "english": "He was dispatched as minister plenipotentiary.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15564_koushi_ex3",
-      "japanese": "{明治|めいじ}{時代|じだい}には{多|おお}くの{国|くに}に{公使|こうし}が{派遣|はけん}され、{外交|がいこう}{関係|かんけい}が{築|きず}かれた。",
+      "japanese": "⟦{明治|めいじ}{時代|じだい}→明治時代：28080_meijijidai⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{多|おお}く⟦の→の：09472_no⟧⟦{国|くに}→国：02204_kuni⟧⟦に→に：00314_ni⟧{公使|こうし}⟦が→が：00051_ga⟧⟦{派遣|はけん}→派遣：13273_haken⟧⟦され→する：00392_suru⟧、⟦{外交|がいこう}→外交：02627_gaikou⟧⟦{関係|かんけい}→関係：01298_kankei⟧⟦が→が：00051_ga⟧⟦{築|きず}かれた→築く：02046_kizuku⟧。",
       "english": "During the Meiji era, ministers were dispatched to many countries and diplomatic relations were established.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "Composed of {公|こう} (public, official) and {使|し} (envoy, messenger).\n\nIn modern diplomacy, most countries exchange ambassadors ({大使|たいし}) rather than ministers. The rank of {公使|こうし} is now less common but still exists in some diplomatic contexts and appears frequently in historical texts about the Meiji and Taisho periods.\n\nCOMMON COLLOCATIONS:\n- {特命|とくめい}{全権|ぜんけん}{公使|こうし} (minister plenipotentiary)\n- {公使|こうし}を{派遣|はけん}する (to dispatch a minister)\n- {公使|こうし}{館|かん} (legation)\n\nSIMILAR WORDS:\n- {公使|こうし}: minister (lower diplomatic rank)\n- {大使|たいし}: ambassador (highest diplomatic rank)\n- {領事|りょうじ}: consul (handles commercial and citizen affairs)",
+  "notes": "Composed of {公|こう} (public, official) and {使|し} (envoy, messenger).\n\nIn modern diplomacy, most countries exchange ambassadors (⟦{大使|たいし}→大使：03391_taishi⟧) rather than ministers. The rank of {公使|こうし} is now less common but still exists in some diplomatic contexts and appears frequently in historical texts about the Meiji and Taisho periods.\n\nCOMMON COLLOCATIONS:\n- {特命|とくめい}{全権|ぜんけん}{公使|こうし} (minister plenipotentiary)\n- {公使|こうし}⟦を→を：00422_wo⟧⟦{派遣|はけん}→派遣：13273_haken⟧⟦する→する：00392_suru⟧ (to dispatch a minister)\n- {公使|こうし}{館|かん} (legation)\n\nSIMILAR WORDS:\n- {公使|こうし}: minister (lower diplomatic rank)\n- ⟦{大使|たいし}→大使：03391_taishi⟧: ambassador (highest diplomatic rank)\n- ⟦{領事|りょうじ}→領事：15209_ryouji⟧: consul (handles commercial and citizen affairs)",
   "cross_references": [
     {
       "type": "related",
@@ -53,19 +59,39 @@
       "reading": "りょうじ",
       "headword": "{領事|りょうじ}",
       "label": "consul"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23491_tokushi",
+      "reading": "とくし",
+      "headword": "{特使|とくし}",
+      "label": "special envoy"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23635_tokumeizenkentaishi",
+      "reading": "とくめいぜんけんたいし",
+      "headword": "{特命全権大使|とくめいぜんけんたいし}",
+      "label": "ambassador extraordinary and plenipotentiary"
     }
   ],
   "metadata": {
     "created": "2026-03-07T11:21:01Z",
-    "modified": "2026-05-01T08:11:13Z",
+    "modified": "2026-09-02T04:01:41Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["person"],
-      "domain": ["legal"]
+      "semantic": [
+        "person"
+      ],
+      "domain": [
+        "legal"
+      ]
     }
   }
 }

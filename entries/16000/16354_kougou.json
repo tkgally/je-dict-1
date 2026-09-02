@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "16354_kougou_ex1",
-      "japanese": "{皇后|こうごう}{陛下|へいか}がお{言葉|ことば}を{述|の}べられた。",
+      "japanese": "{皇后|こうごう}⟦{陛下|へいか}→陛下：14566_heika⟧⟦が→が：00051_ga⟧お⟦{言葉|ことば}→言葉：02880_kotoba⟧⟦を→を：00422_wo⟧⟦{述|の}べられた→述べる：02389_noberu⟧。",
       "english": "Her Majesty the Empress delivered a speech.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16354_kougou_ex2",
-      "japanese": "{天皇|てんのう}と{皇后|こうごう}が{被災地|ひさいち}を{訪問|ほうもん}された。",
+      "japanese": "⟦{天皇|てんのう}→天皇：04546_tennou⟧⟦と→と：00512_to⟧{皇后|こうごう}⟦が→が：00051_ga⟧⟦{被災地|ひさいち}→被災地：27434_hisaichi⟧⟦を→を：00422_wo⟧⟦{訪問|ほうもん}→訪問：03622_houmon⟧⟦された→する：00392_suru⟧。",
       "english": "The Emperor and Empress visited the disaster-affected area.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16354_kougou_ex3",
-      "japanese": "{皇后|こうごう}は{国際|こくさい}{親善|しんぜん}のために{海外|かいがい}を{訪問|ほうもん}されることもある。",
+      "japanese": "{皇后|こうごう}⟦は→は：00079_ha⟧⟦{国際|こくさい}→国際：01406_kokusai⟧{親善|しんぜん}⟦の→の：09472_no⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧⟦{海外|かいがい}→海外：00134_kaigai⟧⟦を→を：00422_wo⟧⟦{訪問|ほうもん}される→訪問する：26836_houmonsuru⟧こと⟦も→も：00484_mo⟧⟦ある→ある：00006_aru⟧。",
       "english": "The Empress sometimes visits foreign countries for the purpose of international goodwill.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{皇后|こうごう} refers specifically to the wife of a reigning emperor. In Japan, the full formal title is {皇后|こうごう}{陛下|へいか} (Her Majesty the Empress).\n\nRELATED WORDS:\n- {天皇|てんのう}: Emperor of Japan\n- {皇太子|こうたいし}: Crown Prince\n- {皇太后|こうたいごう}: Empress Dowager (mother of the reigning emperor)\n- {女王|じょおう}: queen (ruling monarch, not consort)\n\nWhen speaking about the imperial family, honorific language ({敬語|けいご}) is typically used. Verbs describing the empress's actions use special respectful forms such as 〜される or 〜になる.",
+  "notes": "{皇后|こうごう} refers specifically to the wife of a reigning emperor. In Japan, the full formal title is {皇后|こうごう}⟦{陛下|へいか}→陛下：14566_heika⟧ (Her Majesty the Empress).\n\nRELATED WORDS:\n- ⟦{天皇|てんのう}→天皇：04546_tennou⟧: Emperor of Japan\n- ⟦{皇太子|こうたいし}→皇太子：15717_koutaishi⟧: Crown Prince\n- {皇太后|こうたいごう}: Empress Dowager (mother of the reigning emperor)\n- ⟦{女王|じょおう}→女王：03349_joou⟧: queen (ruling monarch, not consort)\n\nWhen speaking about the imperial family, honorific language (⟦{敬語|けいご}→敬語：04022_keigo⟧) is typically used. Verbs describing the empress's actions use special respectful forms such as 〜⟦される→する：00392_suru⟧ or 〜⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧.",
   "cross_references": [
     {
       "type": "related",
@@ -53,18 +59,43 @@
       "reading": "てんのう",
       "headword": "{天皇|てんのう}",
       "label": "Emperor of Japan"
+    },
+    {
+      "type": "related",
+      "target_id": "15717_koutaishi",
+      "reading": "こうたいし",
+      "headword": "{皇太子|こうたいし}",
+      "label": "Crown Prince"
+    },
+    {
+      "type": "related",
+      "target_id": "03349_joou",
+      "reading": "じょおう",
+      "headword": "{女王|じょおう}",
+      "label": "queen"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25191_ougou",
+      "reading": "おうごう",
+      "headword": "{王后|おうごう}",
+      "label": "queen consort"
     }
   ],
   "metadata": {
     "created": "2026-03-12T02:30:00Z",
-    "modified": "2026-05-03T09:07:48Z",
+    "modified": "2026-09-02T04:01:44Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["person"]
+      "semantic": [
+        "person"
+      ]
     }
   }
 }

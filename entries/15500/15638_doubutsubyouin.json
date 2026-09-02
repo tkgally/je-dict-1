@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "15638_doubutsubyouin_ex1",
-      "japanese": "{猫|ねこ}を{動物|どうぶつ}{病院|びょういん}に{連|つ}れていった。",
+      "japanese": "⟦{猫|ねこ}→猫：02237_neko⟧⟦を→を：00422_wo⟧{動物|どうぶつ}{病院|びょういん}⟦に→に：00314_ni⟧⟦{連|つ}れて→連れる：01240_tsureru⟧いった。",
       "english": "I took the cat to the vet.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "15638_doubutsubyouin_ex2",
-      "japanese": "{近所|きんじょ}に{新|あたら}しい{動物|どうぶつ}{病院|びょういん}ができた。",
+      "japanese": "⟦{近所|きんじょ}→近所：01318_kinjo⟧⟦に→に：00314_ni⟧⟦{新|あたら}しい→新しい：00506_atarashii⟧{動物|どうぶつ}{病院|びょういん}⟦が→が：00051_ga⟧⟦できた→できる：00557_dekiru⟧。",
       "english": "A new animal clinic opened in the neighborhood.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "15638_doubutsubyouin_ex3",
-      "japanese": "{犬|いぬ}の{具合|ぐあい}が{悪|わる}いので、{今日中|きょうじゅう}に{動物|どうぶつ}{病院|びょういん}に{予約|よやく}を{入|い}れたい。",
+      "japanese": "⟦{犬|いぬ}→犬：00632_inu⟧⟦の→の：09472_no⟧⟦{具合|ぐあい}が{悪|わる}い→具合が悪い：22231_guaigawarui⟧⟦の→の：09472_no⟧で、⟦{今日中|きょうじゅう}→今日中：19382_kyoujuu⟧⟦に→に：00314_ni⟧{動物|どうぶつ}{病院|びょういん}⟦に→に：00314_ni⟧⟦{予約|よやく}→予約：01522_yoyaku⟧⟦を→を：00422_wo⟧⟦{入|い}れたい→入れる：01098_ireru⟧。",
       "english": "The dog is not feeling well, so I want to make an appointment at the vet today.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,33 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{動物|どうぶつ}{病院|びょういん} is the standard everyday term for a veterinary clinic in Japan. Pet owners use this term regardless of the size of the facility. The abbreviated form {動物病院|どうぶつびょういん} is often seen on signs and business cards.\n\nCOMMON COLLOCATIONS:\n- {動物|どうぶつ}{病院|びょういん}に{連|つ}れていく (to take to the vet)\n- {動物|どうぶつ}{病院|びょういん}に{通|かよ}う (to go to the vet regularly)\n- {動物|どうぶつ}{病院|びょういん}の{先生|せんせい} (the vet, the veterinarian)\n\nSIMILAR WORDS:\n- {獣医|じゅうい}: veterinarian (the profession)\n- {獣医師|じゅういし}: veterinarian (formal title)",
-  "cross_references": [],
+  "notes": "USAGE:\n{動物|どうぶつ}{病院|びょういん} is the standard everyday term for a veterinary clinic in Japan. Pet owners use this term regardless of the size of the facility. The abbreviated form {動物病院|どうぶつびょういん} is often seen on signs and business cards.\n\nCOMMON COLLOCATIONS:\n- {動物|どうぶつ}{病院|びょういん}⟦に→に：00314_ni⟧⟦{連|つ}れていく→連れていく：23753_tsureteiku⟧ (to take to the vet)\n- {動物|どうぶつ}{病院|びょういん}⟦に→に：00314_ni⟧⟦{通|かよ}う→通う：01217_kayou⟧ (to go to the vet regularly)\n- {動物|どうぶつ}{病院|びょういん}⟦の→の：09472_no⟧⟦{先生|せんせい}→先生：00609_sensei⟧ (the vet, the veterinarian)\n\nSIMILAR WORDS:\n- ⟦{獣医|じゅうい}→獣医：07031_juui⟧: veterinarian (the profession)\n- ⟦{獣医師|じゅういし}→獣医師：30766_juuishi⟧: veterinarian (formal title)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07031_juui",
+      "reading": "じゅうい",
+      "headword": "{獣医|じゅうい}",
+      "label": "veterinarian"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30766_juuishi",
+      "reading": "じゅういし",
+      "headword": "{獣医師|じゅういし}",
+      "label": "veterinarian"
+    },
+    {
+      "type": "related",
+      "target_id": "20887_juuigaku",
+      "reading": "じゅういがく",
+      "headword": "{獣医学|じゅういがく}",
+      "label": "veterinary medicine, veterinary science"
+    }
+  ],
   "metadata": {
     "created": "2026-03-07T13:43:42Z",
-    "modified": "2026-07-17T12:56:16Z",
+    "modified": "2026-09-02T04:01:41Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

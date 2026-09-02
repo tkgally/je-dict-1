@@ -3,7 +3,7 @@
   "headword": "{加水|かすい}",
   "reading": "かすい",
   "romaji": "kasui",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "adding water; hydration",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24921_kasui_ex1",
-      "japanese": "{加水|かすい}して{濃度|のうど}を{調整|ちょうせい}する。",
+      "japanese": "{加水|かすい}⟦して→する：00392_suru⟧⟦{濃度|のうど}→濃度：00325_noudo⟧⟦を→を：00422_wo⟧⟦{調整|ちょうせい}する→調整する：10442_chouseisuru⟧。",
       "english": "Adjust the concentration by adding water.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24921_kasui_ex2",
-      "japanese": "このラーメンの{麺|めん}は{加水|かすい}{率|りつ}が{高|たか}い。",
+      "japanese": "⟦この→この：00962_kono⟧⟦ラーメン→ラーメン：05181_raamen⟧⟦の→の：09472_no⟧⟦{麺|めん}→麺：14644_men⟧⟦は→は：00079_ha⟧{加水|かすい}⟦{率|りつ}→率：03802_ritsu⟧⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧。",
       "english": "The noodles in this ramen have a high hydration rate.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24921_kasui_ex3",
-      "japanese": "{加水|かすい}{分解|ぶんかい}は{化学|かがく}の{基本|きほん}{反応|はんのう}の{一|ひと}つだ。",
+      "japanese": "{加水|かすい}⟦{分解|ぶんかい}→分解：08389_bunkai⟧⟦は→は：00079_ha⟧⟦{化学|かがく}→化学：05336_kagaku_chem⟧⟦の→の：09472_no⟧⟦{基本|きほん}→基本：00226_kihon⟧⟦{反応|はんのう}→反応：04812_hannou⟧⟦の→の：09472_no⟧⟦{一|ひと}つ→一つ：02948_hitotsu⟧だ。",
       "english": "Hydrolysis is one of the basic reactions in chemistry.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {加|か} (add) and {水|すい} (water). This word is used in several specialized contexts. In ramen culture, {加水|かすい}{率|りつ} (hydration rate) is a key specification that determines noodle texture — higher hydration produces softer, chewier noodles, while lower hydration yields firmer, drier noodles.\n\nIn chemistry, {加水|かすい} appears in the important compound {加水|かすい}{分解|ぶんかい} (hydrolysis), meaning the chemical breakdown of a compound through reaction with water.\n\nCOMMON COLLOCATIONS:\n- {加水|かすい}{率|りつ}: hydration rate (especially for noodles)\n- {加水|かすい}{分解|ぶんかい}: hydrolysis\n- {加水|かすい}{量|りょう}: amount of water added\n- {加水|かすい}する: to add water\n\nSIMILAR WORDS:\n- {注水|ちゅうすい}: pouring water, water injection — emphasizes the physical act of pouring or injecting water\n- {希釈|きしゃく}: dilution — more technical term used in chemistry and pharmacy",
+  "notes": "A compound of {加|か} (add) and {水|すい} (water). This word is used in several specialized contexts. In ramen culture, {加水|かすい}⟦{率|りつ}→率：03802_ritsu⟧ (hydration rate) is a key specification that determines noodle texture — higher hydration produces softer, chewier noodles, while lower hydration yields firmer, drier noodles.\n\nIn chemistry, {加水|かすい} appears in the important compound {加水|かすい}⟦{分解|ぶんかい}→分解：08389_bunkai⟧ (hydrolysis), meaning the chemical breakdown of a compound through reaction with water.\n\nCOMMON COLLOCATIONS:\n- {加水|かすい}⟦{率|りつ}→率：03802_ritsu⟧: hydration rate (especially for noodles)\n- {加水|かすい}⟦{分解|ぶんかい}→分解：08389_bunkai⟧: hydrolysis\n- {加水|かすい}⟦{量|りょう}→量：03799_ryou⟧: amount of water added\n- {加水|かすい}⟦する→する：00392_suru⟧: to add water\n\nSIMILAR WORDS:\n- ⟦{注水|ちゅうすい}→注水：24925_chuusui⟧: pouring water, water injection — emphasizes the physical act of pouring or injecting water\n- ⟦{希釈|きしゃく}→希釈：18672_kishaku⟧: dilution — more technical term used in chemistry and pharmacy",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24925_chuusui",
+      "reading": "ちゅうすい",
+      "headword": "{注水|ちゅうすい}",
+      "label": "pouring water, water injection"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18672_kishaku",
+      "reading": "きしゃく",
+      "headword": "{希釈|きしゃく}",
+      "label": "dilution"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,6 +69,8 @@
         "noun",
         "verb-suru"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "food",
         "science"
@@ -60,7 +78,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-21T13:10:46Z",
-    "modified": "2026-04-21T13:10:46Z"
+    "modified": "2026-09-02T04:02:20Z"
   },
   "conjugation": {
     "type": "suru",

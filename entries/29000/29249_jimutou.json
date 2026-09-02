@@ -15,41 +15,67 @@
   "examples": [
     {
       "id": "29249_jimutou_ex1",
-      "japanese": "{受付|うけつけ}は{事務棟|じむとう}にあります。",
+      "japanese": "⟦{受付|うけつけ}→受付：01325_uketsuke⟧⟦は→は：00079_ha⟧{事務棟|じむとう}⟦に→に：00314_ni⟧⟦あります→ある：00006_aru⟧。",
       "english": "The reception is in the office building.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29249_jimutou_ex2",
-      "japanese": "{工場|こうじょう}の{隣|となり}に{事務棟|じむとう}が{建|た}っている。",
+      "japanese": "⟦{工場|こうじょう}→工場：01082_koujou⟧⟦の→の：09472_no⟧⟦{隣|となり}→隣：01003_tonari⟧⟦に→に：00314_ni⟧{事務棟|じむとう}⟦が→が：00051_ga⟧⟦{建|た}っている→建つ：12544_tatsu⟧。",
       "english": "The office building stands next to the factory.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29249_jimutou_ex3",
-      "japanese": "{手続|てつづ}きをするには、まず{事務棟|じむとう}の{二階|にかい}に{行|い}ってください。",
+      "japanese": "⟦{手続|てつづ}き→手続き：05453_tetsuzuki⟧⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧、⟦まず→まず：00796_mazu⟧{事務棟|じむとう}⟦の→の：09472_no⟧⟦{二階|にかい}→二階：27513_nikai⟧⟦に→に：00314_ni⟧⟦{行|い}って→行く：00119_iku⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "To complete the paperwork, please first go to the second floor of the administration building.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Formed from {事務|じむ} (office work, administration) + {棟|とう} (a counter and word for a building or wing). Used on campuses, hospital grounds, and factory sites to name the administrative building.\n\nCOMMON COLLOCATIONS:\n- {事務棟|じむとう}の{入口|いりぐち}: the entrance to the office building\n- {本部|ほんぶ}{事務棟|じむとう}: headquarters office building\n\nSIMILAR WORDS:\n- {事務所|じむしょ}: office — a workplace office in general, not specifically a separate building on a larger site\n- {本館|ほんかん}: main building — the principal building of a complex, regardless of its function",
+  "notes": "Formed from ⟦{事務|じむ}→事務：11418_jimu⟧ (office work, administration) + {棟|とう} (a counter and word for a building or wing). Used on campuses, hospital grounds, and factory sites to name the administrative building.\n\nCOMMON COLLOCATIONS:\n- {事務棟|じむとう}⟦の→の：09472_no⟧{入口|いりぐち}: the entrance to the office building\n- ⟦{本部|ほんぶ}→本部：00112_honbu⟧{事務棟|じむとう}: headquarters office building\n\nSIMILAR WORDS:\n- ⟦{事務所|じむしょ}→事務所：01032_jimusho⟧: office — a workplace office in general, not specifically a separate building on a larger site\n- ⟦{本館|ほんかん}→本館：21133_honkan⟧: main building — the principal building of a complex, regardless of its function",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01032_jimusho",
+      "reading": "じむしょ",
+      "headword": "{事務所|じむしょ}",
+      "label": "office"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21133_honkan",
+      "reading": "ほんかん",
+      "headword": "{本館|ほんかん}",
+      "label": "main building"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["building"],
+      "politeness": "plain",
+      "semantic": [
+        "building"
+      ],
       "domain": []
     },
     "created": "2026-06-14T12:18:51Z",
-    "modified": "2026-06-14T12:18:51Z"
+    "modified": "2026-09-02T04:02:36Z"
   }
 }

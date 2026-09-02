@@ -2,7 +2,7 @@
   "id": "08203_mochinaosu",
   "headword": "{持|も}ち{直|なお}す",
   "reading": "もちなおす",
-  "part_of_speech": "godan verb (intransitive)",
+  "part_of_speech": "verb (godan, intransitive)",
   "gloss": "to recover; to rally; to improve",
   "conjugation": {
     "type": "godan",
@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "08203_mochinaosu_ex1",
-      "japanese": "{病状|びょうじょう}が{持|も}ち{直|なお}した。",
+      "japanese": "⟦{病状|びょうじょう}→病状：21011_byoujou⟧⟦が→が：00051_ga⟧{持|も}ち{直|なお}した。",
       "english": "The patient's condition improved.",
       "sense_numbers": [
         1
@@ -114,7 +114,7 @@
     },
     {
       "id": "08203_mochinaosu_ex2",
-      "japanese": "{天気|てんき}が{持|も}ち{直|なお}してきた。",
+      "japanese": "⟦{天気|てんき}→天気：00582_tenki⟧⟦が→が：00051_ga⟧{持|も}ち{直|なお}してきた。",
       "english": "The weather is improving.",
       "sense_numbers": [
         1
@@ -124,7 +124,7 @@
     },
     {
       "id": "08203_mochinaosu_ex3",
-      "japanese": "{株価|かぶか}がやっと{持|も}ち{直|なお}しつつある。",
+      "japanese": "⟦{株価|かぶか}→株価：05154_kabuka⟧⟦が→が：00051_ga⟧⟦やっと→やっと：01561_yatto⟧{持|も}ち{直|なお}しつつ⟦ある→ある：00006_aru⟧。",
       "english": "Stock prices are finally starting to recover.",
       "sense_numbers": [
         1
@@ -133,7 +133,7 @@
       "notes": null
     }
   ],
-  "notes": "USAGE:\n- {病状|びょうじょう}が{持|も}ち{直|なお}す (condition improves)\n- {天気|てんき}が{持|も}ち{直|なお}す (weather improves)\n- {景気|けいき}が{持|も}ち{直|なお}す (economy recovers)\n\nNUANCE:\nImplies gradual recovery from a difficult situation. Often used for health, weather, and economic conditions.\n\nTRANSITIVITY:\nIntransitive ({自動詞|じどうし})\n\nRELATED:\n- {盛|も}り{返|かえ}す (to rally - similar, more active)\n- {回復|かいふく}する (to recover - more formal)\n- {持|も}つ (to hold - base verb)",
+  "notes": "USAGE:\n- ⟦{病状|びょうじょう}→病状：21011_byoujou⟧⟦が→が：00051_ga⟧{持|も}ち{直|なお}す (condition improves)\n- ⟦{天気|てんき}→天気：00582_tenki⟧⟦が→が：00051_ga⟧{持|も}ち{直|なお}す (weather improves)\n- ⟦{景気|けいき}→景気：02694_keiki⟧⟦が→が：00051_ga⟧{持|も}ち{直|なお}す (economy recovers)\nImplies gradual recovery from a difficult situation. Often used for health, weather, and economic conditions.\n\nTRANSITIVITY:\nIntransitive (⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧)\n\nRELATED WORDS:\n- ⟦{盛|も}り{返|かえ}す→盛り返す：08202_morikaesu⟧ (to rally - similar, more active)\n- ⟦{回復|かいふく}する→回復する：21330_kaifukusuru⟧ (to recover - more formal)\n- ⟦{持|も}つ→持つ：00478_motsu⟧ (to hold - base verb)",
   "cross_references": [
     {
       "type": "synonym",
@@ -141,6 +141,13 @@
       "headword": "{盛|も}り{返|かえ}す",
       "label": "to rally; to make a comeback",
       "target_id": "08202_morikaesu"
+    },
+    {
+      "type": "related",
+      "target_id": "21330_kaifukusuru",
+      "reading": "かいふくする",
+      "headword": "{回復|かいふく}する",
+      "label": "to recover"
     }
   ],
   "metadata": {
@@ -151,6 +158,7 @@
       ],
       "transitivity": "intransitive",
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "health",
         "recovery"
@@ -158,6 +166,6 @@
       "verb_class": "godan-su"
     },
     "created": "2026-01-25T08:05:54Z",
-    "modified": "2026-04-10T06:37:10Z"
+    "modified": "2026-09-02T04:01:14Z"
   }
 }

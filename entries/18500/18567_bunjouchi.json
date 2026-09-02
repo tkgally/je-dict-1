@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "18567_bunjouchi_ex1",
-      "japanese": "{分譲地|ぶんじょうち}を{探|さが}している。",
+      "japanese": "{分譲地|ぶんじょうち}⟦を→を：00422_wo⟧⟦{探|さが}している→探す：00493_sagasu⟧。",
       "english": "I'm looking for subdivided land for sale.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "18567_bunjouchi_ex2",
-      "japanese": "{駅|えき}から{近|ちか}い{分譲地|ぶんじょうち}は{人気|にんき}が{高|たか}い。",
+      "japanese": "⟦{駅|えき}→駅：02180_eki⟧⟦から→から：00504_kara⟧⟦{近|ちか}い→近い：00530_chikai⟧{分譲地|ぶんじょうち}⟦は→は：00079_ha⟧⟦{人気|にんき}→人気：01488_ninki⟧⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧。",
       "english": "Subdivided lots near the station are popular.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "18567_bunjouchi_ex3",
-      "japanese": "{新|あたら}しい{分譲地|ぶんじょうち}が{開発|かいはつ}され、{住宅|じゅうたく}が{次々|つぎつぎ}と{建|た}てられている。",
+      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧{分譲地|ぶんじょうち}⟦が→が：00051_ga⟧⟦{開発|かいはつ}→開発：06746_kaihatsu⟧⟦され→する：00392_suru⟧、⟦{住宅|じゅうたく}→住宅：03280_juutaku⟧⟦が→が：00051_ga⟧⟦{次々|つぎつぎ}→次々：03522_tsugitsugi⟧⟦と→と：00512_to⟧⟦{建|た}てられている→建てる：01189_tateru⟧。",
       "english": "New subdivided lots have been developed, and houses are being built one after another.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,19 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA real estate term commonly seen in advertisements and housing discussions. {分譲|ぶんじょう} means \"selling in lots\" and appears in compounds like {分譲|ぶんじょう}マンション (condominium for sale) and {分譲|ぶんじょう}{住宅|じゅうたく} (house built on subdivided land).\n\nCOMMON COLLOCATIONS:\n- {分譲地|ぶんじょうち}を{買|か}う (to buy a lot)\n- {分譲地|ぶんじょうち}を{探|さが}す (to look for lots)\n- {分譲地|ぶんじょうち}の{開発|かいはつ} (development of subdivided land)\n\nSIMILAR WORDS:\n- {宅地|たくち}: residential land — a broader term for any land designated for housing\n- {分譲|ぶんじょう}マンション: condominium for sale — an apartment unit sold rather than rented",
-  "cross_references": [],
+  "notes": "USAGE:\nA real estate term commonly seen in advertisements and housing discussions. ⟦{分譲|ぶんじょう}→分譲：06577_bunjou⟧ means \"selling in lots\" and appears in compounds like ⟦{分譲|ぶんじょう}→分譲：06577_bunjou⟧⟦マンション→マンション：01035_manshon⟧ (condominium for sale) and ⟦{分譲|ぶんじょう}{住宅|じゅうたく}→分譲住宅：23884_bunjoujuutaku⟧ (house built on subdivided land).\n\nCOMMON COLLOCATIONS:\n- {分譲地|ぶんじょうち}⟦を→を：00422_wo⟧⟦{買|か}う→買う：00489_kau⟧ (to buy a lot)\n- {分譲地|ぶんじょうち}⟦を→を：00422_wo⟧⟦{探|さが}す→探す：00493_sagasu⟧ (to look for lots)\n- {分譲地|ぶんじょうち}⟦の→の：09472_no⟧⟦{開発|かいはつ}→開発：06746_kaihatsu⟧ (development of subdivided land)\n\nSIMILAR WORDS:\n- ⟦{宅地|たくち}→宅地：21589_takuchi⟧: residential land — a broader term for any land designated for housing\n- ⟦{分譲|ぶんじょう}→分譲：06577_bunjou⟧⟦マンション→マンション：01035_manshon⟧: condominium for sale — an apartment unit sold rather than rented",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21589_takuchi",
+      "reading": "たくち",
+      "headword": "{宅地|たくち}",
+      "label": "residential land"
+    }
+  ],
   "metadata": {
     "created": "2026-03-22T08:58:09Z",
-    "modified": "2026-07-25T21:35:01Z",
+    "modified": "2026-09-02T04:01:52Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

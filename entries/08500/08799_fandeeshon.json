@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08799_fandeeshon_ex1",
-      "japanese": "ファンデーションを{塗|ぬ}る。",
+      "japanese": "ファンデーション⟦を→を：00422_wo⟧⟦{塗|ぬ}る→塗る：01174_nuru⟧。",
       "english": "To apply foundation.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "08799_fandeeshon_ex2",
-      "japanese": "この{肌|はだ}の{色|いろ}に{合|あ}うファンデーションを{探|さが}している。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{肌|はだ}→肌：02243_hada⟧⟦の→の：09472_no⟧⟦{色|いろ}→色：00849_iro⟧⟦に→に：00314_ni⟧⟦{合|あ}う→合う：10466_au⟧ファンデーション⟦を→を：00422_wo⟧⟦{探|さが}している→探す：00493_sagasu⟧。",
       "english": "I'm looking for a foundation that matches my skin tone.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "08799_fandeeshon_ex3",
-      "japanese": "リキッドファンデーションとパウダーファンデーション、どちらがいい？",
+      "japanese": "リキッドファンデーション⟦と→と：00512_to⟧⟦パウダー→パウダー：23869_paudaa⟧ファンデーション、⟦どちら→どちら：00927_dochira⟧⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧？",
       "english": "Which is better, liquid foundation or powder foundation?",
       "sense_numbers": [
         1
@@ -43,7 +43,37 @@
       "notes": null
     }
   ],
-  "notes": "MAKEUP TERM:\nファンデーション is a base makeup product that evens skin tone before applying other cosmetics.\n\nTYPES:\n- リキッドファンデーション - liquid foundation\n- パウダーファンデーション - powder foundation\n- クッションファンデーション - cushion foundation\n- スティックファンデーション - stick foundation\n- クリームファンデーション - cream foundation\n\nRELATED MAKEUP TERMS:\n- {下地|したじ} - makeup primer/base\n- コンシーラー - concealer\n- フェイスパウダー - face powder\n- BBクリーム - BB cream\n\nCOMMON COLLOCATIONS:\n- ファンデーションを{塗|ぬ}る - to apply foundation\n- ファンデーションを{落|お}とす - to remove foundation\n- {素肌|すはだ}のような{仕上|しあ}がり - natural-looking finish",
+  "notes": "MAKEUP TERM:\nファンデーション is a base makeup product that evens skin tone before applying other cosmetics.\n\nTYPES:\n- リキッドファンデーション - liquid foundation\n- ⟦パウダー→パウダー：23869_paudaa⟧ファンデーション - powder foundation\n- ⟦クッション→クッション：10799_kusshon⟧ファンデーション - cushion foundation\n- スティックファンデーション - stick foundation\n- ⟦クリーム→クリーム：00253_kuriimu⟧ファンデーション - cream foundation\n\nRELATED MAKEUP TERMS:\n- ⟦{下地|したじ}→下地：15064_shitaji⟧ - makeup primer/base\n- ⟦コンシーラー→コンシーラー：23361_konshiiraa⟧ - concealer\n- フェイス⟦パウダー→パウダー：23869_paudaa⟧ - face powder\n- BB⟦クリーム→クリーム：00253_kuriimu⟧ - BB cream\n\nCOMMON COLLOCATIONS:\n- ファンデーション⟦を→を：00422_wo⟧⟦{塗|ぬ}る→塗る：01174_nuru⟧ - to apply foundation\n- ファンデーション⟦を→を：00422_wo⟧⟦{落|お}とす→落とす：01246_otosu⟧ - to remove foundation\n- ⟦{素肌|すはだ}→素肌：20256_suhada⟧⟦の→の：09472_no⟧ような⟦{仕上|しあ}がり→仕上がり：07432_shiagari⟧ - natural-looking finish",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "15064_shitaji",
+      "reading": "したじ",
+      "headword": "{下地|したじ}",
+      "label": "makeup primer/base"
+    },
+    {
+      "type": "related",
+      "target_id": "23361_konshiiraa",
+      "reading": "こんしーらー",
+      "headword": "コンシーラー",
+      "label": "concealer"
+    },
+    {
+      "type": "related",
+      "target_id": "20551_keshoushitaji",
+      "reading": "けしょうしたじ",
+      "headword": "{化粧下地|けしょうしたじ}",
+      "label": "makeup primer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27322_hohobeni",
+      "reading": "ほほべに",
+      "headword": "{頬紅|ほほべに}",
+      "label": "blush"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,6 +91,6 @@
       ]
     },
     "created": "2026-01-28T11:27:48Z",
-    "modified": "2026-08-12T12:52:42Z"
+    "modified": "2026-09-02T04:01:16Z"
   }
 }

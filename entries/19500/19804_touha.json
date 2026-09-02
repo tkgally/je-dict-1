@@ -3,7 +3,7 @@
   "headword": "{踏破|とうは}",
   "reading": "とうは",
   "romaji": "touha",
-  "part_of_speech": "noun, verb (する)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "traversing; completing a route on foot",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "19804_touha_ex1",
-      "japanese": "{全|ぜん}コースを{踏破|とうは}した。",
+      "japanese": "⟦{全|ぜん}→全〜：28337_zen⟧⟦コース→コース：10864_koosu⟧⟦を→を：00422_wo⟧{踏破|とうは}⟦した→する：00392_suru⟧。",
       "english": "I completed the entire course on foot.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "19804_touha_ex2",
-      "japanese": "{日本|にほん}アルプスの{縦走|じゅうそう}ルートを{踏破|とうは}するのが{夢|ゆめ}だ。",
+      "japanese": "⟦{日本|にほん}→日本：03876_nihon⟧アルプス⟦の→の：09472_no⟧{縦走|じゅうそう}⟦ルート→ルート：11250_ruuto⟧⟦を→を：00422_wo⟧{踏破|とうは}⟦する→する：00392_suru⟧⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦{夢|ゆめ}→夢：01519_yume⟧だ。",
       "english": "My dream is to traverse the ridge route of the Japanese Alps.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "19804_touha_ex3",
-      "japanese": "{彼|かれ}は{半年|はんとし}かけて{四国|しこく}お{遍路|へんろ}の{八十八|はちじゅうはち}か{所|しょ}をすべて{踏破|とうは}した。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{半年|はんとし}→半年：03139_hantoshi⟧⟦かけて→かける：00854_kakeru⟧⟦{四国|しこく}→四国：21447_shikoku⟧⟦お{遍路|へんろ}→お遍路：19059_ohenro⟧⟦の→の：09472_no⟧{八十八|はちじゅうはち}か{所|しょ}⟦を→を：00422_wo⟧すべて{踏破|とうは}⟦した→する：00392_suru⟧。",
       "english": "He spent half a year completing all 88 temples of the Shikoku pilgrimage.",
       "sense_numbers": [
         1
@@ -134,8 +134,24 @@
       "notes": null
     }
   ],
-  "notes": "Combines {踏|とう} (to tread, to step on) and {破|は} (to break through). Carries a strong sense of achievement — not just walking, but conquering a challenging route. Often used in mountaineering and long-distance hiking contexts.\n\nCOMMON COLLOCATIONS:\n- {全|ぜん}ルートを{踏破|とうは}する — to complete the entire route\n- {山脈|さんみゃく}を{踏破|とうは}する — to traverse a mountain range\n- {踏破|とうは}{距離|きょり} — distance covered on foot\n\nSIMILAR WORDS:\n- {縦走|じゅうそう} — ridge traverse (specifically hiking along mountain ridges)\n- {完走|かんそう} — completing a race (running, not walking)\n- {走破|そうは} — completing a route by running or driving",
+  "notes": "Combines {踏|とう} (to tread, to step on) and {破|は} (to break through). Carries a strong sense of achievement — not just walking, but conquering a challenging route. Often used in mountaineering and long-distance hiking contexts.\n\nCOMMON COLLOCATIONS:\n- ⟦{全|ぜん}→全〜：28337_zen⟧⟦ルート→ルート：11250_ruuto⟧⟦を→を：00422_wo⟧{踏破|とうは}⟦する→する：00392_suru⟧ — to complete the entire route\n- ⟦{山脈|さんみゃく}→山脈：07856_sanmyaku⟧⟦を→を：00422_wo⟧{踏破|とうは}⟦する→する：00392_suru⟧ — to traverse a mountain range\n- {踏破|とうは}⟦{距離|きょり}→距離：05331_kyori⟧ — distance covered on foot\n\nSIMILAR WORDS:\n- {縦走|じゅうそう} — ridge traverse (specifically hiking along mountain ridges)\n- ⟦{完走|かんそう}→完走：16981_kansou⟧ — completing a race (running, not walking)\n- ⟦{走破|そうは}→走破：22108_souha⟧ — completing a route by running or driving",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16981_kansou",
+      "reading": "かんそう",
+      "headword": "{完走|かんそう}",
+      "label": "completing a race"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22108_souha",
+      "reading": "そうは",
+      "headword": "{走破|そうは}",
+      "label": "completing a route by running or driving"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -148,9 +164,10 @@
       "semantic": [
         "sports"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-03-27T00:20:08Z",
-    "modified": "2026-03-27T00:20:08Z"
+    "modified": "2026-09-02T04:01:57Z"
   }
 }

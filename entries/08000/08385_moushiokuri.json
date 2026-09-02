@@ -2,7 +2,7 @@
   "id": "08385_moushiokuri",
   "headword": "{申|もう}し{送|おく}り",
   "reading": "もうしおくり",
-  "part_of_speech": "noun, godan verb",
+  "part_of_speech": "noun, verb (godan)",
   "gloss": "handover briefing; passing on information; report",
   "definitions": [
     {
@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08385_moushiokuri_ex1",
-      "japanese": "{申|もう}し{送|おく}りを{忘|わす}れないでください。",
+      "japanese": "{申|もう}し{送|おく}り⟦を→を：00422_wo⟧⟦{忘|わす}れないで→忘れる：00474_wasureru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please don't forget to do the handover briefing.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "08385_moushiokuri_ex2",
-      "japanese": "{夜勤|やきん}から{日勤|にっきん}への{申|もう}し{送|おく}りがある。",
+      "japanese": "⟦{夜勤|やきん}→夜勤：09549_yakin⟧⟦から→から：00504_kara⟧⟦{日勤|にっきん}→日勤：18684_nikkin⟧⟦へ→へ：02473_he⟧⟦の→の：09472_no⟧{申|もう}し{送|おく}り⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There's a handover briefing from the night shift to the day shift.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "08385_moushiokuri_ex3",
-      "japanese": "{患者|かんじゃ}の{状態|じょうたい}を{申|もう}し{送|おく}りで{伝|つた}えた。",
+      "japanese": "⟦{患者|かんじゃ}→患者：00170_kanja⟧⟦の→の：09472_no⟧⟦{状態|じょうたい}→状態：03345_joutai⟧⟦を→を：00422_wo⟧{申|もう}し{送|おく}り⟦で→で：00502_de⟧⟦{伝|つた}えた→伝える：01220_tsutaeru⟧。",
       "english": "I communicated the patient's condition during the handover.",
       "sense_numbers": [
         1
@@ -43,7 +43,7 @@
       "notes": null
     }
   ],
-  "notes": "FORMATION:\n{申|もう}す (humble: to say) + {送|おく}る (to send) → send a message/report\n\nVERB FORM:\n{申|もう}し{送|おく}る (to pass on information, to hand over)\n\nRELATED COMPOUNDS:\n- {申|もう}し{送|おく}り{事項|じこう} (handover items)\n- {申|もう}し{送|おく}りノート (handover notebook)\n\nRELATED WORDS:\n- {引|ひ}き{継|つ}ぎ (handover, succession - broader scope)\n- {連絡|れんらく} (communication, contact)\n- {報告|ほうこく} (report)\n\nWORKPLACE USAGE:\n{申|もう}し{送|おく}り is especially common in hospitals, care facilities, and factories with shift work. It ensures continuity of care or operations. {引|ひ}き{継|つ}ぎ} tends to be used for longer-term handovers (job changes), while {申|もう}し{送|おく}り is often for daily or shift-based information transfer.",
+  "notes": "FORMS:\n⟦{申|もう}す→申す：01319_mousu⟧ (humble: to say) + ⟦{送|おく}る→送る：00742_okuru⟧ (to send) → send a message/report\n{申|もう}し{送|おく}る (to pass on information, to hand over)\n\nCOMPOUNDS:\n- {申|もう}し{送|おく}り⟦{事項|じこう}→事項：11469_jikou⟧ (handover items)\n- {申|もう}し{送|おく}り⟦ノート→ノート：00738_nooto⟧ (handover notebook)\n\nRELATED WORDS:\n- ⟦{引|ひ}き{継|つ}ぎ→引き継ぎ：08365_hikitsugi⟧ (handover, succession - broader scope)\n- ⟦{連絡|れんらく}→連絡：01524_renraku⟧ (communication, contact)\n- ⟦{報告|ほうこく}→報告：03618_houkoku⟧ (report)\n\nWORKPLACE USAGE:\n{申|もう}し{送|おく}り is especially common in hospitals, care facilities, and factories with shift work. It ensures continuity of care or operations. ⟦{引|ひ}き{継|つ}ぎ→引き継ぎ：08365_hikitsugi⟧} tends to be used for longer-term handovers (job changes), while {申|もう}し{送|おく}り is often for daily or shift-based information transfer.",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -56,10 +56,11 @@
         "work",
         "business",
         "health"
-      ]
+      ],
+      "transitivity": "transitive"
     },
     "created": "2026-01-26T04:46:09Z",
-    "modified": "2026-08-12T12:50:50Z"
+    "modified": "2026-09-02T04:01:15Z"
   },
   "cross_references": [
     {
@@ -68,6 +69,20 @@
       "reading": "ひきつぎ",
       "headword": "{引|ひ}き{継|つ}ぎ",
       "label": "handover (broader)"
+    },
+    {
+      "type": "related",
+      "target_id": "01524_renraku",
+      "reading": "れんらく",
+      "headword": "{連絡|れんらく}",
+      "label": "communication, contact"
+    },
+    {
+      "type": "related",
+      "target_id": "03618_houkoku",
+      "reading": "ほうこく",
+      "headword": "{報告|ほうこく}",
+      "label": "report"
     }
   ]
 }

@@ -16,7 +16,7 @@
   "examples": [
     {
       "id": "24578_kinensha_ex1",
-      "japanese": "{禁煙車|きんえんしゃ}の{席|せき}をお{願|ねが}いします。",
+      "japanese": "{禁煙車|きんえんしゃ}⟦の→の：09472_no⟧⟦{席|せき}→席：02215_seki⟧⟦を→を：00422_wo⟧お{願|ねが}いします。",
       "english": "I'd like a seat in the non-smoking car, please.",
       "sense_numbers": [
         1
@@ -26,7 +26,7 @@
     },
     {
       "id": "24578_kinensha_ex2",
-      "japanese": "この{列車|れっしゃ}は{全車両|ぜんしゃりょう}{禁煙車|きんえんしゃ}です。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{列車|れっしゃ}→列車：01670_ressha⟧⟦は→は：00079_ha⟧{全車両|ぜんしゃりょう}{禁煙車|きんえんしゃ}です。",
       "english": "All cars on this train are non-smoking.",
       "sense_numbers": [
         1
@@ -36,7 +36,7 @@
     },
     {
       "id": "24578_kinensha_ex3",
-      "japanese": "かつては{喫煙車|きつえんしゃ}と{禁煙車|きんえんしゃ}が{分|わ}かれていたが、{今|いま}ではほとんどの{列車|れっしゃ}が{全面|ぜんめん}{禁煙|きんえん}だ。",
+      "japanese": "⟦かつて→かつて：10303_katsute⟧⟦は→は：00079_ha⟧⟦{喫煙車|きつえんしゃ}→喫煙車：29946_kitsuensha⟧⟦と→と：00512_to⟧{禁煙車|きんえんしゃ}⟦が→が：00051_ga⟧⟦{分|わ}かれていた→分かれる：10976_wakareru⟧⟦が→が：00051_ga⟧、⟦{今|いま}→今：00945_ima⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦ほとんど→ほとんど：00847_hotondo⟧⟦の→の：09472_no⟧⟦{列車|れっしゃ}→列車：01670_ressha⟧⟦が→が：00051_ga⟧⟦{全面|ぜんめん}→全面：22735_zenmen⟧⟦{禁煙|きんえん}→禁煙：02644_kinen⟧だ。",
       "english": "Trains used to be split between smoking and non-smoking cars, but now almost all trains are entirely smoke-free.",
       "sense_numbers": [
         1
@@ -45,11 +45,26 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {禁煙|きんえん} (no smoking) and {車|しゃ} (car/vehicle). Historically, Japanese trains had separate {喫煙車|きつえんしゃ} (smoking cars) and {禁煙車|きんえんしゃ} (non-smoking cars). As of the 2020s, almost all trains in Japan are entirely non-smoking, making the distinction largely historical. The term is still used when booking Shinkansen seats, as some older reservation systems reference it.\n\nCOMMON COLLOCATIONS:\n- {禁煙車|きんえんしゃ}の{指定席|していせき}: reserved seat in a non-smoking car\n- {全車|ぜんしゃ}{禁煙|きんえん}: all cars non-smoking\n- {禁煙車|きんえんしゃ}を{希望|きぼう}する: to request a non-smoking car\n\nSIMILAR WORDS:\n- {喫煙車|きつえんしゃ}: smoking car — the opposite, now largely discontinued\n- {禁煙|きんえん}{席|せき}: non-smoking seat — used in restaurants and planes\n- {禁煙|きんえん}: no smoking — the general concept or policy",
-  "cross_references": [],
+  "notes": "Composed of ⟦{禁煙|きんえん}→禁煙：02644_kinen⟧ (no smoking) and ⟦{車|しゃ}→車：09874_sha⟧ (car/vehicle). Historically, Japanese trains had separate ⟦{喫煙車|きつえんしゃ}→喫煙車：29946_kitsuensha⟧ (smoking cars) and {禁煙車|きんえんしゃ} (non-smoking cars). As of the 2020s, almost all trains in Japan are entirely non-smoking, making the distinction largely historical. The term is still used when booking Shinkansen seats, as some older reservation systems reference it.\n\nCOMMON COLLOCATIONS:\n- {禁煙車|きんえんしゃ}⟦の→の：09472_no⟧⟦{指定席|していせき}→指定席：07046_shiteiseki⟧: reserved seat in a non-smoking car\n- {全車|ぜんしゃ}⟦{禁煙|きんえん}→禁煙：02644_kinen⟧: all cars non-smoking\n- {禁煙車|きんえんしゃ}⟦を→を：00422_wo⟧⟦{希望|きぼう}→希望：00221_kibou⟧⟦する→する：00392_suru⟧: to request a non-smoking car\n\nSIMILAR WORDS:\n- ⟦{喫煙車|きつえんしゃ}→喫煙車：29946_kitsuensha⟧: smoking car — the opposite, now largely discontinued\n- ⟦{禁煙|きんえん}{席|せき}→禁煙席：09694_kinenseki⟧: non-smoking seat — used in restaurants and planes\n- ⟦{禁煙|きんえん}→禁煙：02644_kinen⟧: no smoking — the general concept or policy",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "29946_kitsuensha",
+      "reading": "きつえんしゃ",
+      "headword": "{喫煙車|きつえんしゃ}",
+      "label": "smoking car"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09694_kinenseki",
+      "reading": "きんえんせき",
+      "headword": "{禁煙席|きんえんせき}",
+      "label": "non-smoking seat"
+    }
+  ],
   "metadata": {
     "created": "2026-04-19T15:20:36Z",
-    "modified": "2026-08-03T09:22:27Z",
+    "modified": "2026-09-02T04:02:18Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

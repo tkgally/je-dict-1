@@ -3,7 +3,7 @@
   "headword": "{発送|はっそう}する",
   "reading": "はっそうする",
   "romaji": "hassousuru",
-  "part_of_speech": "noun, verb (する)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "to send; to ship; to dispatch",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21737_hassousuru_ex1",
-      "japanese": "{荷物|にもつ}を{発送|はっそう}する。",
+      "japanese": "⟦{荷物|にもつ}→荷物：00737_nimotsu⟧⟦を→を：00422_wo⟧{発送|はっそう}する。",
       "english": "To ship a package.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21737_hassousuru_ex2",
-      "japanese": "{注文|ちゅうもん}の{商品|しょうひん}は{明日|あした}{発送|はっそう}いたします。",
+      "japanese": "⟦{注文|ちゅうもん}→注文：03485_chuumon⟧⟦の→の：09472_no⟧⟦{商品|しょうひん}→商品：01436_shouhin⟧⟦は→は：00079_ha⟧⟦{明日|あした}→明日：00501_ashita⟧⟦{発送|はっそう}→発送：10458_hassou⟧⟦いたします→いたす：01314_itasu⟧。",
       "english": "The ordered item will be shipped tomorrow.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21737_hassousuru_ex3",
-      "japanese": "{書類|しょるい}を{速達|そくたつ}で{発送|はっそう}したので、{明後日|あさって}には{届|とど}くはずです。",
+      "japanese": "⟦{書類|しょるい}→書類：01103_shorui⟧⟦を→を：00422_wo⟧⟦{速達|そくたつ}→速達：04393_sokutatsu⟧⟦で→で：00502_de⟧{発送|はっそう}した⟦の→の：09472_no⟧で、{明後日|あさって}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{届|とど}く→届く：00899_todoku⟧⟦はず→はず：01557_hazu⟧です。",
       "english": "I sent the documents by express mail, so they should arrive the day after tomorrow.",
       "sense_numbers": [
         1
@@ -44,7 +44,37 @@
       "notes": null
     }
   ],
-  "notes": "Refers specifically to the act of sending out goods or mail — the sender's side of the shipping process. It focuses on the point of dispatch rather than the delivery to the recipient.\n\nUSAGE:\n- Takes the particle を: ～を{発送|はっそう}する\n- Very common in e-commerce and business contexts\n- Often appears in email notifications: 「{商品|しょうひん}を{発送|はっそう}しました」 (Your item has been shipped)\n\nCOMMON COLLOCATIONS:\n- {商品|しょうひん}を{発送|はっそう}する: to ship a product\n- {荷物|にもつ}を{発送|はっそう}する: to send a package\n- {発送|はっそう}{日|び}: shipping date\n- {発送|はっそう}{済|ず}み: shipped, dispatched\n- {発送|はっそう}{手続|てつづ}き: shipping procedure\n- {発送|はっそう}{元|もと}: sender, shipper\n\nSIMILAR WORDS:\n- {配送|はいそう}する: to deliver — focuses on the delivery process and getting the item to the recipient\n- {送|おく}る: to send — the most general word for sending things or people\n- {出荷|しゅっか}する: to ship (from warehouse) — a business/logistics term for shipping goods from a warehouse or factory",
+  "notes": "Refers specifically to the act of sending out goods or mail — the sender's side of the shipping process. It focuses on the point of dispatch rather than the delivery to the recipient.\n\nUSAGE:\n- Takes the particle ⟦を→を：00422_wo⟧: ～⟦を→を：00422_wo⟧{発送|はっそう}する\n- Very common in e-commerce and business contexts\n- Often appears in email notifications: 「⟦{商品|しょうひん}→商品：01436_shouhin⟧⟦を→を：00422_wo⟧{発送|はっそう}しました」 (Your item has been shipped)\n\nCOMMON COLLOCATIONS:\n- ⟦{商品|しょうひん}→商品：01436_shouhin⟧⟦を→を：00422_wo⟧{発送|はっそう}する: to ship a product\n- ⟦{荷物|にもつ}→荷物：00737_nimotsu⟧⟦を→を：00422_wo⟧{発送|はっそう}する: to send a package\n- ⟦{発送|はっそう}→発送：10458_hassou⟧{日|び}: shipping date\n- ⟦{発送|はっそう}{済|ず}み→発送済み：15440_hassouzumi⟧: shipped, dispatched\n- ⟦{発送|はっそう}→発送：10458_hassou⟧⟦{手続|てつづ}き→手続き：05453_tetsuzuki⟧: shipping procedure\n- ⟦{発送|はっそう}→発送：10458_hassou⟧⟦{元|もと}→元：03878_moto⟧: sender, shipper\n\nSIMILAR WORDS:\n- ⟦{配送|はいそう}する→配送する：21738_haisousuru⟧: to deliver — focuses on the delivery process and getting the item to the recipient\n- ⟦{送|おく}る→送る：00742_okuru⟧: to send — the most general word for sending things or people\n- ⟦{出荷|しゅっか}→出荷：05135_shukka⟧⟦する→する：00392_suru⟧: to ship (from warehouse) — a business/logistics term for shipping goods from a warehouse or factory",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21738_haisousuru",
+      "reading": "はいそうする",
+      "headword": "{配送|はいそう}する",
+      "label": "to deliver"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00742_okuru",
+      "reading": "おくる",
+      "headword": "{送|おく}る",
+      "label": "to send"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05135_shukka",
+      "reading": "しゅっか",
+      "headword": "{出荷|しゅっか}",
+      "label": "to ship"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23008_chokusousuru",
+      "reading": "ちょくそうする",
+      "headword": "{直送|ちょくそう}する",
+      "label": "to ship directly"
+    }
+  ],
   "metadata": {
     "entry_id": "21737_hassousuru",
     "schema_version": "2.0",
@@ -56,14 +86,17 @@
         "noun",
         "verb-suru"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "action"
       ],
       "register": [],
       "usage": [],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
-    "modified": "2026-04-03T15:26:30Z"
+    "modified": "2026-09-02T04:02:04Z"
   },
   "conjugation": {
     "type": "suru",

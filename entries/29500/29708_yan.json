@@ -16,7 +16,7 @@
   "examples": [
     {
       "id": "29708_yan_ex1",
-      "japanese": "ええやん。",
+      "japanese": "⟦ええ→ええ：02893_ee⟧やん。",
       "english": "That's fine, isn't it?",
       "sense_numbers": [
         1
@@ -26,7 +26,7 @@
     },
     {
       "id": "29708_yan_ex2",
-      "japanese": "もう{時間|じかん}ないやん。",
+      "japanese": "⟦もう→もう：00602_mou⟧⟦{時間|じかん}→時間：00468_jikan⟧⟦ない→ない：01118_nai⟧やん。",
       "english": "We're out of time, aren't we?",
       "sense_numbers": [
         1
@@ -36,7 +36,7 @@
     },
     {
       "id": "29708_yan_ex3",
-      "japanese": "{昨日|きのう}{約束|やくそく}したやん、{忘|わす}れたん？",
+      "japanese": "⟦{昨日|きのう}→昨日：00859_kinou⟧⟦{約束|やくそく}した→約束する：05643_yakusokusuru⟧やん、⟦{忘|わす}れた→忘れる：00474_wasureru⟧ん？",
       "english": "You promised yesterday, didn't you? Did you forget?",
       "sense_numbers": [
         1
@@ -45,7 +45,7 @@
       "notes": null
     }
   ],
-  "notes": "A sentence-ending particle characteristic of Kansai (western Japan) speech. It attaches to plain forms and works like standard じゃない or Tokyo-area じゃん, either seeking the listener's agreement or drawing attention to something the speaker finds obvious.\n\nCOMMON PATTERNS:\n- ええやん: that's good, isn't it? (ええ = Kansai for いい)\n- できるやん: you can do it, can't you!\n- {知|し}らんやん: you don't know, do you?\n\nSIMILAR WORDS:\n- じゃん: the Kanto/Tokyo casual equivalent\n- じゃないか: the standard casual tag-question ending\n- なあ: Kansai-flavored confirmation, softer and less pointed",
+  "notes": "A sentence-ending particle characteristic of Kansai (western Japan) speech. It attaches to plain forms and works like standard ⟦じゃない→じゃない：28483_janai⟧ or Tokyo-area ⟦じゃん→じゃん：05432_jan⟧, either seeking the listener's agreement or drawing attention to something the speaker finds obvious.\n\nCOMMON PATTERNS:\n- ⟦ええ→ええ：02893_ee⟧やん: that's good, isn't it? (⟦ええ→ええ：02893_ee⟧ = Kansai for ⟦いい→いい：00118_ii⟧)\n- ⟦できる→できる：00557_dekiru⟧やん: you can do it, can't you!\n- ⟦{知|し}らん→知る：00458_shiru⟧やん: you don't know, do you?\n\nSIMILAR WORDS:\n- ⟦じゃん→じゃん：05432_jan⟧: the Kanto/Tokyo casual equivalent\n- ⟦じゃないか→じゃないか：29707_janaika⟧: the standard casual tag-question ending\n- ⟦なあ→なあ：29262_naa⟧: Kansai-flavored confirmation, softer and less pointed",
   "cross_references": [
     {
       "type": "related",
@@ -53,11 +53,25 @@
       "reading": "じゃん",
       "headword": "じゃん",
       "label": "isn't it (casual, Kanto)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29707_janaika",
+      "reading": "じゃないか",
+      "headword": "じゃないか",
+      "label": "the standard casual tag-question ending"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29262_naa",
+      "reading": "なあ",
+      "headword": "なあ",
+      "label": "Kansai-flavored confirmation, softer…"
     }
   ],
   "metadata": {
     "created": "2026-07-06T21:18:51Z",
-    "modified": "2026-07-14T21:20:38Z",
+    "modified": "2026-09-02T04:02:37Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

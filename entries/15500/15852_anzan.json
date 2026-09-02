@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "15852_anzan_ex1",
-      "japanese": "{暗算|あんざん}で{計算|けいさん}した。",
+      "japanese": "{暗算|あんざん}⟦で→で：00502_de⟧⟦{計算|けいさん}した→計算する：25526_keisansuru⟧。",
       "english": "I calculated it in my head.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "15852_anzan_ex2",
-      "japanese": "{彼|かれ}は{暗算|あんざん}が{得意|とくい}で、{大|おお}きな{数|かず}もすぐに{計算|けいさん}できる。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{暗算|あんざん}⟦が→が：00051_ga⟧⟦{得意|とくい}→得意：03455_tokui⟧で、⟦{大|おお}きな→大きな：02849_ookina⟧⟦{数|かず}→数：00204_kazu⟧⟦も→も：00484_mo⟧⟦すぐ→すぐ：00814_sugu⟧⟦に→に：00314_ni⟧⟦{計算|けいさん}できる→計算する：25526_keisansuru⟧。",
       "english": "He's good at mental arithmetic and can quickly calculate large numbers.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "15852_anzan_ex3",
-      "japanese": "{買|か}い{物|もの}の{合計|ごうけい}を{暗算|あんざん}で{出|だ}そうとしたが、{途中|とちゅう}でわからなくなった。",
+      "japanese": "⟦{買|か}い{物|もの}→買い物：00853_kaimono⟧⟦の→の：09472_no⟧⟦{合計|ごうけい}→合計：02817_goukei⟧⟦を→を：00422_wo⟧{暗算|あんざん}⟦で→で：00502_de⟧⟦{出|だ}そう→出す：01087_dasu⟧とした⟦が→が：00051_ga⟧、⟦{途中|とちゅう}→途中：01684_tochuu⟧⟦で→で：00502_de⟧わからなくなった。",
       "english": "I tried to work out the shopping total in my head, but lost track partway through.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,40 @@
       ]
     }
   ],
-  "notes": "GRAMMAR:\n{暗算|あんざん}する is used as a する verb meaning \"to calculate mentally.\"\n\nCOMPOSITION:\n{暗|あん} (dark, hidden) + {算|ざん} (calculation). The idea is calculating \"in the dark\" — without visible aids.\n\nCOMMON COLLOCATIONS:\n- {暗算|あんざん}で{計算|けいさん}する (to calculate mentally)\n- {暗算|あんざん}が{得意|とくい} / {苦手|にがて} (good/bad at mental math)\n- {暗算|あんざん}{検定|けんてい} (mental arithmetic proficiency test)",
-  "cross_references": [],
+  "notes": "COMMON PATTERNS:\n{暗算|あんざん}⟦する→する：00392_suru⟧ is used as a ⟦する→する：00392_suru⟧ verb meaning \"to calculate mentally.\"\n\nETYMOLOGY:\n{暗|あん} (dark, hidden) + {算|ざん} (calculation). The idea is calculating \"in the dark\" — without visible aids.\n\nCOMMON COLLOCATIONS:\n- {暗算|あんざん}⟦で→で：00502_de⟧⟦{計算|けいさん}する→計算する：25526_keisansuru⟧ (to calculate mentally)\n- {暗算|あんざん}⟦が→が：00051_ga⟧⟦{得意|とくい}→得意：03455_tokui⟧ / ⟦{苦手|にがて}→苦手：03513_nigate⟧ (good/bad at mental math)\n- {暗算|あんざん}⟦{検定|けんてい}→検定：13131_kentei⟧ (mental arithmetic proficiency test)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "05332_tashizan",
+      "reading": "たしざん",
+      "headword": "{足|た}し{算|ざん}",
+      "label": "addition"
+    },
+    {
+      "type": "related",
+      "target_id": "05333_hikizan",
+      "reading": "ひきざん",
+      "headword": "{引|ひ}き{算|ざん}",
+      "label": "subtraction"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20135_hissan",
+      "reading": "ひっさん",
+      "headword": "{筆算|ひっさん}",
+      "label": "written calculation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28871_shuzan",
+      "reading": "しゅざん",
+      "headword": "{珠算|しゅざん}",
+      "label": "abacus calculation"
+    }
+  ],
   "metadata": {
     "created": "2026-03-08T12:24:55Z",
-    "modified": "2026-07-18T04:02:53Z",
+    "modified": "2026-09-02T04:01:42Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

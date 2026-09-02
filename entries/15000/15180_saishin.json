@@ -15,42 +15,62 @@
   "examples": [
     {
       "id": "15180_saishin_ex1",
-      "japanese": "{再審|さいしん}が{認|みと}められた。",
+      "japanese": "{再審|さいしん}⟦が→が：00051_ga⟧⟦{認|みと}められた→認める：02429_mitomeru⟧。",
       "english": "The retrial was granted.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15180_saishin_ex2",
-      "japanese": "{弁護団|べんごだん}が{再審|さいしん}を{請求|せいきゅう}した。",
+      "japanese": "{弁護団|べんごだん}⟦が→が：00051_ga⟧{再審|さいしん}⟦を→を：00422_wo⟧⟦{請求|せいきゅう}した→請求する：26988_seikyuusuru⟧。",
       "english": "The defense team filed for a retrial.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15180_saishin_ex3",
-      "japanese": "{新|あたら}しい{証拠|しょうこ}が{見|み}つかり、{三十|さんじゅう}{年|ねん}ぶりに{再審|さいしん}が{開|ひら}かれることになった。",
+      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦{証拠|しょうこ}→証拠：10575_shouko⟧⟦が→が：00051_ga⟧⟦{見|み}つかり→見つかる：01173_mitsukaru⟧、⟦{三十|さんじゅう}→三十：00984_sanjuu⟧⟦{年|ねん}→年：09876_nen⟧⟦ぶり→〜ぶり：28358_buri⟧⟦に→に：00314_ni⟧{再審|さいしん}⟦が→が：00051_ga⟧⟦{開|ひら}かれる→開く：01979_hiraku⟧ことになった。",
       "english": "New evidence was found, and a retrial will be held for the first time in thirty years.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\n{再審|さいしん} is a legal term frequently seen in news reports about criminal cases, especially wrongful convictions. Japan's retrial system is notoriously difficult to navigate, making {再審|さいしん} cases major news events.\n\nCOMMON COLLOCATIONS:\n- {再審|さいしん}を{請求|せいきゅう}する (to file for a retrial)\n- {再審|さいしん}が{認|みと}められる (for a retrial to be granted)\n- {再審|さいしん}が{開|ひら}かれる (for a retrial to be held)\n- {再審|さいしん}{無罪|むざい} (acquittal on retrial)\n- {再審|さいしん}{開始|かいし}{決定|けってい} (decision to begin a retrial)",
-  "cross_references": [],
+  "notes": "USAGE:\n{再審|さいしん} is a legal term frequently seen in news reports about criminal cases, especially wrongful convictions. Japan's retrial system is notoriously difficult to navigate, making {再審|さいしん} cases major news events.\n\nCOMMON COLLOCATIONS:\n- {再審|さいしん}⟦を→を：00422_wo⟧⟦{請求|せいきゅう}する→請求する：26988_seikyuusuru⟧ (to file for a retrial)\n- {再審|さいしん}⟦が→が：00051_ga⟧⟦{認|みと}められる→認める：02429_mitomeru⟧ (for a retrial to be granted)\n- {再審|さいしん}⟦が→が：00051_ga⟧⟦{開|ひら}かれる→開く：01979_hiraku⟧ (for a retrial to be held)\n- {再審|さいしん}⟦{無罪|むざい}→無罪：13383_muzai⟧ (acquittal on retrial)\n- {再審|さいしん}⟦{開始|かいし}→開始：02537_kaishi⟧⟦{決定|けってい}→決定：02701_kettei⟧ (decision to begin a retrial)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "08392_enzai",
+      "reading": "えんざい",
+      "headword": "{冤罪|えんざい}",
+      "label": "false accusation"
+    }
+  ],
   "metadata": {
     "created": "2026-03-05T09:05:14Z",
-    "modified": "2026-03-05T09:05:14Z",
+    "modified": "2026-09-02T04:01:40Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["legal"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "legal"
+      ]
     }
   }
 }

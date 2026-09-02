@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30138_sokutatsubin_ex1",
-      "japanese": "{速達便|そくたつびん}で{送|おく}った。",
+      "japanese": "{速達便|そくたつびん}⟦で→で：00502_de⟧⟦{送|おく}った→送る：00742_okuru⟧。",
       "english": "I sent it by express mail.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30138_sokutatsubin_ex2",
-      "japanese": "{急|いそ}ぐので{速達便|そくたつびん}にしてください。",
+      "japanese": "⟦{急|いそ}ぐ→急ぐ：01191_isogu⟧⟦の→の：09472_no⟧で{速達便|そくたつびん}にして⟦ください→ください：02899_kudasai⟧。",
       "english": "It's urgent, so please send it as express mail.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30138_sokutatsubin_ex3",
-      "japanese": "{願書|がんしょ}の{締|し}め{切|き}りに{間|ま}に{合|あ}わせるため、{追加|ついか}{料金|りょうきん}を{払|はら}って{速達便|そくたつびん}で{出|だ}した。",
+      "japanese": "⟦{願書|がんしょ}→願書：16223_gansho⟧⟦の→の：09472_no⟧⟦{締|し}め{切|き}り→締め切り：04162_shimekiri⟧⟦に→に：00314_ni⟧⟦{間|ま}に{合|あ}わせる→間に合う：01142_maniau⟧⟦ため→ため：01145_tame⟧、⟦{追加|ついか}{料金|りょうきん}→追加料金：22313_tsuikaryoukin⟧⟦を→を：00422_wo⟧⟦{払|はら}って→払う：00535_harau⟧{速達便|そくたつびん}⟦で→で：00502_de⟧⟦{出|だ}した→出す：01087_dasu⟧。",
       "english": "To make the application deadline, I paid the extra fee and sent it by express mail.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "{速達|そくたつ} (express delivery) + {便|びん} (a mail or transport service). {速達|そくたつ} alone is used just as often; {速達便|そくたつびん} stresses that it is a particular service option.\n\nCOMMON COLLOCATIONS:\n- {速達便|そくたつびん}で{送|おく}る: to send by express mail\n- {速達便|そくたつびん}にする: to make it express mail\n- {速達便|そくたつびん}{料金|りょうきん}: the express mail fee\n\nSIMILAR WORDS:\n- {書留|かきとめ}: registered mail — about tracking and compensation, not speed; often combined with express\n- {宅配便|たくはいびん}: parcel delivery service — run by private couriers, for packages rather than letters",
+  "notes": "⟦{速達|そくたつ}→速達：04393_sokutatsu⟧ (express delivery) + ⟦{便|びん}→便：28160_bin⟧ (a mail or transport service). ⟦{速達|そくたつ}→速達：04393_sokutatsu⟧ alone is used just as often; {速達便|そくたつびん} stresses that it is a particular service option.\n\nCOMMON COLLOCATIONS:\n- {速達便|そくたつびん}⟦で→で：00502_de⟧⟦{送|おく}る→送る：00742_okuru⟧: to send by express mail\n- {速達便|そくたつびん}⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧: to make it express mail\n- {速達便|そくたつびん}⟦{料金|りょうきん}→料金：03797_ryoukin⟧: the express mail fee\n\nSIMILAR WORDS:\n- ⟦{書留|かきとめ}→書留：00150_kakitome⟧: registered mail — about tracking and compensation, not speed; often combined with express\n- ⟦{宅配便|たくはいびん}→宅配便：09534_takuhaibin⟧: parcel delivery service — run by private couriers, for packages rather than letters",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00150_kakitome",
+      "reading": "かきとめ",
+      "headword": "{書留|かきとめ}",
+      "label": "registered mail"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09534_takuhaibin",
+      "reading": "たくはいびん",
+      "headword": "{宅配便|たくはいびん}",
+      "label": "parcel delivery service"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +69,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "communication",
         "daily-life"
@@ -61,6 +77,6 @@
       "domain": []
     },
     "created": "2026-07-26T12:19:17Z",
-    "modified": "2026-07-26T12:19:17Z"
+    "modified": "2026-09-02T04:02:38Z"
   }
 }

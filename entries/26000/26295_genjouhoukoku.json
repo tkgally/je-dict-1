@@ -3,7 +3,7 @@
   "headword": "{現状報告|げんじょうほうこく}",
   "reading": "げんじょうほうこく",
   "romaji": "genjouhoukoku",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "status report; progress report; current situation report",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26295_genjouhoukoku_ex1",
-      "japanese": "{週|しゅう}に{一度|いちど}、{現状報告|げんじょうほうこく}をしてください。",
+      "japanese": "⟦{週|しゅう}→週：03204_shuu⟧⟦に→に：00314_ni⟧⟦{一度|いちど}→一度：01312_ichido⟧、{現状報告|げんじょうほうこく}⟦を→を：00422_wo⟧⟦して→する：00392_suru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please give a status report once a week.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26295_genjouhoukoku_ex2",
-      "japanese": "プロジェクトの{現状報告|げんじょうほうこく}を{資料|しりょう}にまとめた。",
+      "japanese": "⟦プロジェクト→プロジェクト：06764_purojekuto⟧⟦の→の：09472_no⟧{現状報告|げんじょうほうこく}⟦を→を：00422_wo⟧⟦{資料|しりょう}→資料：04166_shiryou⟧⟦に→に：00314_ni⟧⟦まとめた→まとめる：02424_matomeru⟧。",
       "english": "I compiled a status report on the project into a document.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26295_genjouhoukoku_ex3",
-      "japanese": "{部長|ぶちょう}から{現状報告|げんじょうほうこく}を{求|もと}められたが、{進捗|しんちょく}が{思|おも}わしくなく、{報告|ほうこく}しにくかった。",
+      "japanese": "⟦{部長|ぶちょう}→部長：01017_buchou⟧⟦から→から：00504_kara⟧{現状報告|げんじょうほうこく}⟦を→を：00422_wo⟧⟦{求|もと}められた→求める：02316_motomeru⟧⟦が→が：00051_ga⟧、⟦{進捗|しんちょく}→進捗：07377_shinchoku⟧⟦が→が：00051_ga⟧{思|おも}わしく⟦なく→ない：01118_nai⟧、⟦{報告|ほうこく}→報告：03618_houkoku⟧しにくかった。",
       "english": "The department manager asked for a status report, but progress was poor and it was hard to report.",
       "sense_numbers": [
         1
@@ -44,8 +44,30 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {現状|げんじょう} (current situation; status quo) + {報告|ほうこく} (report). A staple of Japanese business communication, especially in meetings, emails, and project updates.\n\nCOMMON COLLOCATIONS:\n- {現状報告|げんじょうほうこく}をする: to give a status report\n- {現状報告|げんじょうほうこく}を{求|もと}める: to request a status report\n- {現状報告|げんじょうほうこく}を{受|う}ける: to receive a status report\n- {現状報告|げんじょうほうこく}{書|しょ}: written status report\n\nSIMILAR WORDS:\n- {進捗報告|しんちょくほうこく}: progress report — focuses specifically on how much progress has been made toward a goal\n- {中間報告|ちゅうかんほうこく}: interim report — a report given partway through a project or process\n- {経過報告|けいかほうこく}: progress update — emphasizes the process and developments over time",
-  "cross_references": [],
+  "notes": "Composed of ⟦{現状|げんじょう}→現状：02721_genjou⟧ (current situation; status quo) + ⟦{報告|ほうこく}→報告：03618_houkoku⟧ (report). A staple of Japanese business communication, especially in meetings, emails, and project updates.\n\nCOMMON COLLOCATIONS:\n- {現状報告|げんじょうほうこく}⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧: to give a status report\n- {現状報告|げんじょうほうこく}⟦を→を：00422_wo⟧⟦{求|もと}める→求める：02316_motomeru⟧: to request a status report\n- {現状報告|げんじょうほうこく}⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧: to receive a status report\n- {現状報告|げんじょうほうこく}{書|しょ}: written status report\n\nSIMILAR WORDS:\n- ⟦{進捗報告|しんちょくほうこく}→進捗報告：26881_shinchokuhoukoku⟧: progress report — focuses specifically on how much progress has been made toward a goal\n- ⟦{中間報告|ちゅうかんほうこく}→中間報告：16653_chuukanhoukoku⟧: interim report — a report given partway through a project or process\n- ⟦{経過報告|けいかほうこく}→経過報告：22899_keikahoukoku⟧: progress update — emphasizes the process and developments over time",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "26881_shinchokuhoukoku",
+      "reading": "しんちょくほうこく",
+      "headword": "{進捗報告|しんちょくほうこく}",
+      "label": "progress report"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16653_chuukanhoukoku",
+      "reading": "ちゅうかんほうこく",
+      "headword": "{中間報告|ちゅうかんほうこく}",
+      "label": "interim report"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22899_keikahoukoku",
+      "reading": "けいかほうこく",
+      "headword": "{経過|けいか}{報告|ほうこく}",
+      "label": "progress update"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -66,7 +88,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-30T15:26:51Z",
-    "modified": "2026-04-30T15:26:51Z"
+    "modified": "2026-09-02T04:02:25Z"
   },
   "conjugation": {
     "type": "suru",

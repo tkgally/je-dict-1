@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "18464_kenbangakki_ex1",
-      "japanese": "ピアノは{鍵盤楽器|けんばんがっき}の{代表|だいひょう}だ。",
+      "japanese": "⟦ピアノ→ピアノ：01376_piano⟧⟦は→は：00079_ha⟧{鍵盤楽器|けんばんがっき}⟦の→の：09472_no⟧⟦{代表|だいひょう}→代表：03419_daihyou⟧だ。",
       "english": "The piano is the quintessential keyboard instrument.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "18464_kenbangakki_ex2",
-      "japanese": "{鍵盤楽器|けんばんがっき}を{習|なら}いたい。",
+      "japanese": "{鍵盤楽器|けんばんがっき}⟦を→を：00422_wo⟧⟦{習|なら}いたい→習う：00479_narau⟧。",
       "english": "I want to learn a keyboard instrument.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "18464_kenbangakki_ex3",
-      "japanese": "オルガンやチェンバロも{鍵盤楽器|けんばんがっき}に{分類|ぶんるい}される。",
+      "japanese": "オルガンやチェンバロ⟦も→も：00484_mo⟧{鍵盤楽器|けんばんがっき}⟦に→に：00314_ni⟧⟦{分類|ぶんるい}される→分類する：25224_bunruisuru⟧。",
       "english": "Organs and harpsichords are also classified as keyboard instruments.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "{鍵盤楽器|けんばんがっき} is a compound of {鍵盤|けんばん} (keyboard) and {楽器|がっき} (musical instrument). The three main categories of Western instruments in Japanese are {弦楽器|げんがっき} (string instruments), {管楽器|かんがっき} (wind instruments), and {打楽器|だがっき} (percussion instruments). {鍵盤楽器|けんばんがっき} is sometimes treated as a subcategory of percussion or as its own group.\n\nCOMMON COLLOCATIONS:\n- {鍵盤楽器|けんばんがっき}を{弾|ひ}く — to play a keyboard instrument\n- {鍵盤楽器|けんばんがっき}{奏者|そうしゃ} — keyboard player\n\nRELATED WORDS:\n- {鍵盤|けんばん} — keyboard (of an instrument)\n- {楽器|がっき} — musical instrument\n- {弦楽器|げんがっき} — string instrument\n- {管楽器|かんがっき} — wind instrument",
+  "notes": "{鍵盤楽器|けんばんがっき} is a compound of ⟦{鍵盤|けんばん}→鍵盤：14747_kenban⟧ (keyboard) and ⟦{楽器|がっき}→楽器：13159_gakki⟧ (musical instrument). The three main categories of Western instruments in Japanese are ⟦{弦楽器|げんがっき}→弦楽器：07534_gengakki⟧ (string instruments), ⟦{管楽器|かんがっき}→管楽器：07533_kangakki⟧ (wind instruments), and ⟦{打楽器|だがっき}→打楽器：07532_dagakki⟧ (percussion instruments). {鍵盤楽器|けんばんがっき} is sometimes treated as a subcategory of percussion or as its own group.\n\nCOMMON COLLOCATIONS:\n- {鍵盤楽器|けんばんがっき}⟦を→を：00422_wo⟧⟦{弾|ひ}く→弾く：02444_hiku⟧ — to play a keyboard instrument\n- {鍵盤楽器|けんばんがっき}⟦{奏者|そうしゃ}→奏者：06964_sousha⟧ — keyboard player\n\nRELATED WORDS:\n- ⟦{鍵盤|けんばん}→鍵盤：14747_kenban⟧ — keyboard (of an instrument)\n- ⟦{楽器|がっき}→楽器：13159_gakki⟧ — musical instrument\n- ⟦{弦楽器|げんがっき}→弦楽器：07534_gengakki⟧ — string instrument\n- ⟦{管楽器|かんがっき}→管楽器：07533_kangakki⟧ — wind instrument",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -59,7 +59,7 @@
       ]
     },
     "created": "2026-03-22T02:35:35Z",
-    "modified": "2026-07-25T21:35:01Z"
+    "modified": "2026-09-02T04:01:52Z"
   },
   "cross_references": [
     {
@@ -68,6 +68,27 @@
       "reading": "がっき",
       "headword": "{楽器|がっき}",
       "label": "musical instrument"
+    },
+    {
+      "type": "related",
+      "target_id": "07534_gengakki",
+      "reading": "げんがっき",
+      "headword": "{弦楽器|げんがっき}",
+      "label": "string instrument"
+    },
+    {
+      "type": "related",
+      "target_id": "07533_kangakki",
+      "reading": "かんがっき",
+      "headword": "{管楽器|かんがっき}",
+      "label": "wind instrument"
+    },
+    {
+      "type": "related",
+      "target_id": "07532_dagakki",
+      "reading": "だがっき",
+      "headword": "{打楽器|だがっき}",
+      "label": "percussion instrument"
     }
   ]
 }

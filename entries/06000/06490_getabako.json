@@ -53,7 +53,7 @@
       ]
     }
   ],
-  "notes": "COMPOSITION: ⟦{下駄|げた}→下駄：03984_geta⟧ (geta, traditional wooden sandals) + ⟦{箱|はこ}→箱：02162_hako⟧ (box)\n\nNAME ORIGIN: Although named after traditional geta sandals, modern {下駄箱|げたばこ} are used for all types of footwear including sneakers, boots, and regular shoes.\n\nCONTEXTS:\n・At home: Usually located in the ⟦{玄関|げんかん}→玄関：05003_genkan⟧ (entryway)\n・At school: Students have individual shoe lockers to change from outdoor to indoor shoes\n・At gyms/offices: Used to store street shoes when changing to indoor footwear\n\nALTERNATIVE NAMES:\n・⟦{靴箱|くつばこ}→靴箱：09735_kutsubako⟧ - shoe box (also used)\n・⟦シューズボックス→シューズボックス：noentry⟧ - shoes box (loanword)\n・⟦シューズロッカー→シューズロッカー：noentry⟧ - shoe locker (in schools)\n\nCULTURAL NOTE: In Japanese schools, students often leave personal notes, love letters, or chocolates (on Valentine's Day) in classmates' shoe lockers.",
+  "notes": "COMPOSITION: ⟦{下駄|げた}→下駄：03984_geta⟧ (geta, traditional wooden sandals) + ⟦{箱|はこ}→箱：02162_hako⟧ (box)\n\nNAME ORIGIN: Although named after traditional geta sandals, modern {下駄箱|げたばこ} are used for all types of footwear including sneakers, boots, and regular shoes.\n\nUSAGE:\n- At home: Usually located in the ⟦{玄関|げんかん}→玄関：05003_genkan⟧ (entryway)\n- At school: Students have individual shoe lockers to change from outdoor to indoor shoes\n- At gyms/offices: Used to store street shoes when changing to indoor footwear\n\nALTERNATIVE NAMES:\n- ⟦{靴箱|くつばこ}→靴箱：09735_kutsubako⟧ - shoe box (also used)\n- ⟦シューズボックス→シューズボックス：noentry⟧ - shoes box (loanword)\n- ⟦シューズロッカー→シューズロッカー：noentry⟧ - shoe locker (in schools)\n\nCULTURAL NOTE: In Japanese schools, students often leave personal notes, love letters, or chocolates (on Valentine's Day) in classmates' shoe lockers.",
   "cross_references": [
     {
       "type": "related",
@@ -61,11 +61,39 @@
       "reading": "くつばこ",
       "headword": "{靴箱|くつばこ}",
       "label": "shoe cabinet"
+    },
+    {
+      "type": "related",
+      "target_id": "10240_uwabaki",
+      "reading": "うわばき",
+      "headword": "{上履|うわば}き",
+      "label": "indoor shoes"
+    },
+    {
+      "type": "related",
+      "target_id": "19244_dosokugenkin",
+      "reading": "どそくげんきん",
+      "headword": "{土足厳禁|どそくげんきん}",
+      "label": "no shoes allowed"
+    },
+    {
+      "type": "related",
+      "target_id": "19979_kutsubera",
+      "reading": "くつべら",
+      "headword": "{靴|くつ}べら",
+      "label": "shoehorn"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27460_sotobaki",
+      "reading": "そとばき",
+      "headword": "{外履|そとば}き",
+      "label": "outdoor shoes"
     }
   ],
   "metadata": {
     "created": "2026-01-17T18:43:05Z",
-    "modified": "2026-07-15T06:21:14Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

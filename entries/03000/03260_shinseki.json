@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "03260_shinseki_ex1",
-      "japanese": "{親戚|しんせき}⟦が→が：00051_ga⟧⟦{お正月|おしょうがつ}→お正月：05586_oshougatsu⟧⟦に→に：00314_ni⟧⟦{集|あつ}まった→集まる：01162_atsumaru⟧。",
+      "japanese": "{親戚|しんせき}⟦が→が：00051_ga⟧⟦お{正月|しょうがつ}→お正月：05586_oshougatsu⟧⟦に→に：00314_ni⟧⟦{集|あつ}まった→集まる：01162_atsumaru⟧。",
       "english": "Our relatives gathered for New Year's.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{親戚|しんせき} includes relatives by blood and marriage.\n\nCOMMON EXPRESSIONS:\n- {親戚|しんせき}⟦{付|づ}き{合|あ}い→付き合い：03520_tsukiai⟧ (interacting with relatives)\n- ⟦{遠|とお}い→遠い：00529_tooi⟧{親戚|しんせき} (distant relative)\n- ⟦{近|ちか}い→近い：00530_chikai⟧{親戚|しんせき} (close relative)\n- {親戚|しんせき}⟦に→に：00314_ni⟧⟦あたる→当たる：01860_ataru⟧ (to be a relative)\n- {親戚|しんせき}⟦{一同|いちどう}→一同：08918_ichidou⟧ (all the relatives)\n\nCOMPARISON:\n- {親戚|しんせき}: relatives (general term)\n- ⟦{親族|しんぞく}→親族：14199_shinzoku⟧: relatives (more formal, legal term)\n- ⟦{身内|みうち}→身内：14300_miuchi⟧: family members, close relatives",
+  "notes": "{親戚|しんせき} includes relatives by blood and marriage.\n\nCOMMON EXPRESSIONS:\n- {親戚|しんせき}⟦{付|づ}き{合|あ}い→付き合い：03520_tsukiai⟧ (interacting with relatives)\n- ⟦{遠|とお}い→遠い：00529_tooi⟧{親戚|しんせき} (distant relative)\n- ⟦{近|ちか}い→近い：00530_chikai⟧{親戚|しんせき} (close relative)\n- {親戚|しんせき}⟦に→に：00314_ni⟧⟦あたる→当たる：01860_ataru⟧ (to be a relative)\n- {親戚|しんせき}⟦{一同|いちどう}→一同：08918_ichidou⟧ (all the relatives)\n\nSIMILAR WORDS:\n- {親戚|しんせき}: relatives (general term)\n- ⟦{親族|しんぞく}→親族：14199_shinzoku⟧: relatives (more formal, legal term)\n- ⟦{身内|みうち}→身内：14300_miuchi⟧: family members, close relatives",
   "cross_references": [
     {
       "type": "related",
@@ -72,11 +72,46 @@
       "reading": "みより",
       "headword": "{身寄|みよ}り",
       "label": "someone to rely on"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14300_miuchi",
+      "reading": "みうち",
+      "headword": "{身内|みうち}",
+      "label": "family members, close relatives"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14865_kinen",
+      "reading": "きんえん",
+      "headword": "{近縁|きんえん}",
+      "label": "closely related"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24000_inseki",
+      "reading": "いんせき",
+      "headword": "{姻戚|いんせき}",
+      "label": "relative by marriage"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27921_hatoko",
+      "reading": "はとこ",
+      "headword": "はとこ",
+      "label": "second cousin"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28448_enja",
+      "reading": "えんじゃ",
+      "headword": "{縁者|えんじゃ}",
+      "label": "relatives"
     }
   ],
   "metadata": {
     "created": "2026-01-12T00:55:05Z",
-    "modified": "2026-05-24T19:07:01Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

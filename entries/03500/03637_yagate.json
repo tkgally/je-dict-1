@@ -54,7 +54,7 @@
     },
     {
       "id": "03637_yagate_ex5",
-      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{若|わか}い→若い：00823_wakai⟧⟦{頃|ころ}→〜ころ：03091_koro⟧⟦{苦労|くろう}→苦労：02672_kurou⟧したが、やがて⟦{自分|じぶん}→自分：02887_jibun⟧⟦の→の：09472_no⟧⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦を→を：00422_wo⟧⟦{持|も}つ→持つ：00478_motsu⟧まで⟦に→に：00314_ni⟧⟦なった→なる：01970_naru⟧。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{若|わか}い→若い：00823_wakai⟧⟦{頃|ころ}→〜ころ：03091_koro⟧⟦{苦労|くろう}→苦労：02672_kurou⟧⟦した→する：00392_suru⟧⟦が→が：00051_ga⟧、やがて⟦{自分|じぶん}→自分：02887_jibun⟧⟦の→の：09472_no⟧⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦を→を：00422_wo⟧⟦{持|も}つ→持つ：00478_motsu⟧⟦まで→まで：00490_made⟧⟦に→に：00314_ni⟧⟦なった→なる：01970_naru⟧。",
       "english": "He struggled when he was young, but eventually he came to own his own company.",
       "notes": null,
       "has_audio": false,
@@ -63,10 +63,26 @@
       ]
     }
   ],
-  "notes": "やがて suggests that something will happen naturally after a period of time. It implies inevitability and gradual progression rather than sudden change.\n\nUSAGE:\nTypically used in written or slightly formal contexts. Often appears in narratives to describe the natural passage of time or the inevitable outcome of a process.\n\nSIMILAR WORDS:\n- やがて: before long, eventually (gradual, natural progression)\n- ⟦{遂|つい}に→遂に：02360_tsuini⟧: finally, at last (after a long wait)\n- そのうち: before long, sometime soon (casual)",
+  "notes": "やがて suggests that something will happen naturally after a period of time. It implies inevitability and gradual progression rather than sudden change.\n\nUSAGE:\nTypically used in written or slightly formal contexts. Often appears in narratives to describe the natural passage of time or the inevitable outcome of a process.\n\nSIMILAR WORDS:\n- やがて: before long, eventually (gradual, natural progression)\n- ⟦{遂|つい}に→遂に：02360_tsuini⟧: finally, at last (after a long wait)\n- ⟦そのうち→そのうち：00380_sonouchi⟧: before long, sometime soon (casual)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02360_tsuini",
+      "reading": "ついに",
+      "headword": "{遂|つい}に",
+      "label": "finally, at last"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00380_sonouchi",
+      "reading": "そのうち",
+      "headword": "そのうち",
+      "label": "before long, sometime soon"
+    }
+  ],
   "metadata": {
     "created": "2026-01-12T16:01:00Z",
-    "modified": "2026-05-26T19:11:30Z",
+    "modified": "2026-09-02T04:01:03Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

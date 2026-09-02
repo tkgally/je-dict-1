@@ -3,7 +3,7 @@
   "headword": "{褶曲|しゅうきょく}",
   "reading": "しゅうきょく",
   "romaji": "shuukyoku",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "fold; folding of strata (geology)",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29635_shuukyoku_ex1",
-      "japanese": "{地層|ちそう}が{褶曲|しゅうきょく}する。",
+      "japanese": "⟦{地層|ちそう}→地層：06366_chisou⟧⟦が→が：00051_ga⟧{褶曲|しゅうきょく}⟦する→する：00392_suru⟧。",
       "english": "The strata fold.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29635_shuukyoku_ex2",
-      "japanese": "{褶曲|しゅうきょく}した{山脈|さんみゃく}が{見|み}える。",
+      "japanese": "{褶曲|しゅうきょく}⟦した→する：00392_suru⟧⟦{山脈|さんみゃく}→山脈：07856_sanmyaku⟧⟦が→が：00051_ga⟧⟦{見|み}える→見える：01165_mieru⟧。",
       "english": "You can see a folded mountain range.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29635_shuukyoku_ex3",
-      "japanese": "{地殻|ちかく}にかかる{圧力|あつりょく}によって、{岩盤|がんばん}が{大|おお}きく{褶曲|しゅうきょく}した。",
+      "japanese": "⟦{地殻|ちかく}→地殻：12142_chikaku⟧⟦に→に：00314_ni⟧⟦かかる→かかる：00711_kakaru⟧⟦{圧力|あつりょく}→圧力：12014_atsuryoku⟧⟦によって→によって：06801_niyotte⟧、⟦{岩盤|がんばん}→岩盤：22242_ganban⟧⟦が→が：00051_ga⟧⟦{大|おお}きく→大きい：00335_ookii⟧{褶曲|しゅうきょく}⟦した→する：00392_suru⟧。",
       "english": "Pressure on the earth's crust folded the bedrock dramatically.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "A geology term. Composed of {褶|しゅう} (fold, pleat) + {曲|きょく} (bend).\n\nCOMMON COLLOCATIONS:\n- {褶曲|しゅうきょく}{構造|こうぞう}: fold structure\n- {褶曲|しゅうきょく}{山脈|さんみゃく}: fold mountains\n\nSIMILAR WORDS:\n- {断層|だんそう}: fault — strata fracture and slip, rather than bend\n- {地層|ちそう}: stratum — the rock layer that undergoes folding",
+  "notes": "A geology term. Composed of {褶|しゅう} (fold, pleat) + ⟦{曲|きょく}→曲：09881_kyoku⟧ (bend).\n\nCOMMON COLLOCATIONS:\n- {褶曲|しゅうきょく}⟦{構造|こうぞう}→構造：02730_kouzou⟧: fold structure\n- {褶曲|しゅうきょく}⟦{山脈|さんみゃく}→山脈：07856_sanmyaku⟧: fold mountains\n\nSIMILAR WORDS:\n- ⟦{断層|だんそう}→断層：06367_dansou⟧: fault — strata fracture and slip, rather than bend\n- ⟦{地層|ちそう}→地層：06366_chisou⟧: stratum — the rock layer that undergoes folding",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06367_dansou",
+      "reading": "だんそう",
+      "headword": "{断層|だんそう}",
+      "label": "fault"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06366_chisou",
+      "reading": "ちそう",
+      "headword": "{地層|ちそう}",
+      "label": "stratum"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -54,7 +70,7 @@
         "verb-suru"
       ],
       "formality": "formal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "nature",
         "action"
@@ -62,10 +78,11 @@
       "domain": [
         "academic"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     },
     "created": "2026-07-02T12:18:49Z",
-    "modified": "2026-07-02T12:18:49Z"
+    "modified": "2026-09-02T04:02:37Z"
   },
   "conjugation": {
     "type": "suru",

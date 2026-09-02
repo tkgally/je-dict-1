@@ -24,7 +24,7 @@
     },
     {
       "id": "09096_nakimushi_ex2",
-      "japanese": "あの{子|こ}はなきむしだ。",
+      "japanese": "⟦あの→あの：00915_ano⟧⟦{子|こ}→子：09851_ko⟧⟦は→は：00079_ha⟧なきむしだ。",
       "english": "That child is a crybaby.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "09096_nakimushi_ex3",
-      "japanese": "{小|ちい}さい{頃|ころ}はなきむしだったけど、{今|いま}は{強|つよ}くなった。",
+      "japanese": "⟦{小|ちい}さい→小さい：00025_chiisai⟧{頃|ころ}⟦は→は：00079_ha⟧なきむしだった⟦けど→けど：09477_kedo⟧、⟦{今|いま}→今：00945_ima⟧⟦は→は：00079_ha⟧⟦{強|つよ}く→強い：00820_tsuyoi⟧⟦なった→なる：01970_naru⟧。",
       "english": "I was a crybaby when I was little, but now I've become strong.",
       "sense_numbers": [
         1
@@ -43,11 +43,33 @@
       "notes": null
     }
   ],
-  "notes": "なきむし describes a person (usually a child) who cries frequently or easily. Can also be written in kanji as {泣|な}き{虫|むし}.\n\nWORD FORMATION:\n{泣|な}き (crying, from {泣|な}く) + {虫|むし} (bug). The むし suffix creates personality-type words implying the person is \"infested\" with the trait.\n\nTHE ～{虫|むし} PATTERN:\n- なきむし/{泣|な}き{虫|むし}: crybaby\n- {弱虫|よわむし}: coward, weakling\n- {怠|なま}け{虫|むし}: lazybones\n- {泣|な}き{虫|むし}: crybaby (same as なきむし)\n\nUSAGE:\nMost commonly used among children as a mild taunt. Adults may use it self-deprecatingly ({子供|こども}の{頃|ころ}はなきむしだった — I was a crybaby as a kid). Not strongly offensive but can sting depending on context.\n\nRELATED PERSONALITY WORDS:\n- {甘|あま}えん{坊|ぼう}: clingy/spoiled person\n- {意気地|いくじ}なし: coward, gutless person\n- {照|て}れ{屋|や}: easily embarrassed person",
-  "cross_references": [],
+  "notes": "なきむし describes a person (usually a child) who cries frequently or easily. Can also be written in kanji as {泣|な}き{虫|むし}.\n\nFORMS:\n{泣|な}き (crying, from ⟦{泣|な}く→泣く：00655_naku⟧) + ⟦{虫|むし}→虫：02262_mushi⟧ (bug). The むし suffix creates personality-type words implying the person is \"infested\" with the trait.\n\nTHE ～{虫|むし} PATTERN:\n- なきむし/{泣|な}き{虫|むし}: crybaby\n- ⟦{弱虫|よわむし}→弱虫：20009_yowamushi⟧: coward, weakling\n- ⟦{怠|なま}け→怠ける：02379_namakeru⟧⟦{虫|むし}→虫：02262_mushi⟧: lazybones\n- {泣|な}き{虫|むし}: crybaby (same as なきむし)\n\nUSAGE:\nMost commonly used among children as a mild taunt. Adults may use it self-deprecatingly (⟦{子供|こども}→子供：00554_kodomo⟧⟦の→の：09472_no⟧{頃|ころ}⟦は→は：00079_ha⟧なきむしだった — I was a crybaby as a kid). Not strongly offensive but can sting depending on context.\n\nRELATED PERSONALITY WORDS:\n- ⟦{甘|あま}えん{坊|ぼう}→甘えん坊：19928_amaenbou⟧: clingy/spoiled person\n- ⟦{意気地|いくじ}なし→意気地なし：15798_ikujinashi⟧: coward, gutless person\n- ⟦{照|て}れ{屋|や}→照れ屋：18529_tereya⟧: easily embarrassed person",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "19928_amaenbou",
+      "reading": "あまえんぼう",
+      "headword": "{甘|あま}えん{坊|ぼう}",
+      "label": "clingy/spoiled person"
+    },
+    {
+      "type": "related",
+      "target_id": "15798_ikujinashi",
+      "reading": "いくじなし",
+      "headword": "{意気地|いくじ}なし",
+      "label": "coward, gutless person"
+    },
+    {
+      "type": "related",
+      "target_id": "18529_tereya",
+      "reading": "てれや",
+      "headword": "{照|て}れ{屋|や}",
+      "label": "easily embarrassed person"
+    }
+  ],
   "metadata": {
     "created": "2026-01-31T04:25:12Z",
-    "modified": "2026-08-12T21:25:53Z",
+    "modified": "2026-09-02T04:01:17Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

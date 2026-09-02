@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "17907_kougen_ex1",
-      "japanese": "{抗原|こうげん}{検査|けんさ}を{受|う}けた。",
+      "japanese": "{抗原|こうげん}{検査|けんさ}⟦を→を：00422_wo⟧⟦{受|う}けた→受ける：01215_ukeru⟧。",
       "english": "I took an antigen test.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17907_kougen_ex2",
-      "japanese": "{抗原|こうげん}が{体内|たいない}に{入|はい}ると、{免疫|めんえき}{反応|はんのう}が{起|お}きる。",
+      "japanese": "{抗原|こうげん}⟦が→が：00051_ga⟧⟦{体内|たいない}→体内：11556_tainai⟧⟦に→に：00314_ni⟧⟦{入|はい}る→入る：00494_hairu⟧⟦と→と：00512_to⟧、⟦{免疫|めんえき}→免疫：05032_meneki⟧⟦{反応|はんのう}→反応：04812_hannou⟧⟦が→が：00051_ga⟧⟦{起|お}きる→起きる：00521_okiru⟧。",
       "english": "When an antigen enters the body, an immune response occurs.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17907_kougen_ex3",
-      "japanese": "{薬局|やっきょく}で{抗原|こうげん}{検査|けんさ}キットを{購入|こうにゅう}して、{自宅|じたく}で{検査|けんさ}した。",
+      "japanese": "⟦{薬局|やっきょく}→薬局：01069_yakkyoku⟧⟦で→で：00502_de⟧{抗原|こうげん}{検査|けんさ}キット⟦を→を：00422_wo⟧⟦{購入|こうにゅう}→購入：03057_kounyuu⟧⟦して→する：00392_suru⟧、⟦{自宅|じたく}→自宅：00129_jitaku⟧⟦で→で：00502_de⟧⟦{検査|けんさ}→検査：02707_kensa⟧⟦した→する：00392_suru⟧。",
       "english": "I bought an antigen test kit at the pharmacy and tested at home.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nBecame widely known during the COVID-19 pandemic through {抗原|こうげん}{検査|けんさ} (antigen test). The term is now familiar to most Japanese speakers.\n\nNOTE: A homophone of {高原|こうげん} (plateau, highland).\n\nCOMMON COLLOCATIONS:\n- {抗原|こうげん}{検査|けんさ} (antigen test)\n- {抗原|こうげん}{検査|けんさ}キット (antigen test kit)\n- {抗原|こうげん}{陽性|ようせい} (antigen positive)\n\nRELATED WORDS:\n- {抗体|こうたい}: antibody\n- {免疫|めんえき}: immunity\n- PCR{検査|けんさ}: PCR test",
+  "notes": "USAGE:\nBecame widely known during the COVID-19 pandemic through {抗原|こうげん}{検査|けんさ} (antigen test). The term is now familiar to most Japanese speakers.\n\nNOTE: A homophone of ⟦{高原|こうげん}→高原：05497_kougen⟧ (plateau, highland).\n\nCOMMON COLLOCATIONS:\n- {抗原|こうげん}{検査|けんさ} (antigen test)\n- {抗原|こうげん}{検査|けんさ}キット (antigen test kit)\n- {抗原|こうげん}{陽性|ようせい} (antigen positive)\n\nRELATED WORDS:\n- ⟦{抗体|こうたい}→抗体：12896_koutai⟧: antibody\n- ⟦{免疫|めんえき}→免疫：05032_meneki⟧: immunity\n- PCR{検査|けんさ}: PCR test",
   "prominent_see_also": [
     {
       "target_id": "05497_kougen",
@@ -65,15 +71,21 @@
   ],
   "metadata": {
     "created": "2026-03-19T08:33:43Z",
-    "modified": "2026-05-07T09:10:12Z",
+    "modified": "2026-09-02T04:01:50Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["medical"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "medical"
+      ]
     }
   }
 }

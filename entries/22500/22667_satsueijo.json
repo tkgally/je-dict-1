@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22667_satsueijo_ex1",
-      "japanese": "{撮影所|さつえいじょ}を{見学|けんがく}する。",
+      "japanese": "{撮影所|さつえいじょ}⟦を→を：00422_wo⟧⟦{見学|けんがく}→見学：00214_kengaku⟧⟦する→する：00392_suru⟧。",
       "english": "To tour a film studio.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22667_satsueijo_ex2",
-      "japanese": "{映画|えいが}の{撮影所|さつえいじょ}は{京都|きょうと}にもいくつかある。",
+      "japanese": "⟦{映画|えいが}→映画：02273_eiga⟧⟦の→の：09472_no⟧{撮影所|さつえいじょ}⟦は→は：00079_ha⟧⟦{京都|きょうと}→京都：09484_kyouto⟧⟦に→に：00314_ni⟧⟦も→も：00484_mo⟧いくつ⟦か→か：09473_ka⟧⟦ある→ある：00006_aru⟧。",
       "english": "There are several film studios in Kyoto as well.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22667_satsueijo_ex3",
-      "japanese": "{俳優|はいゆう}たちは{毎朝|まいあさ}{早|はや}く{撮影所|さつえいじょ}に{入|はい}って{準備|じゅんび}をする。",
+      "japanese": "⟦{俳優|はいゆう}→俳優：03547_haiyuu⟧たち⟦は→は：00079_ha⟧⟦{毎朝|まいあさ}→毎朝：00966_maiasa⟧⟦{早|はや}く→早い：00514_hayai⟧{撮影所|さつえいじょ}⟦に→に：00314_ni⟧⟦{入|はい}って→入る：00494_hairu⟧⟦{準備|じゅんび}→準備：01431_junbi⟧⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧。",
       "english": "The actors arrive at the studio early every morning to prepare.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {撮影|さつえい} (filming/photography) and {所|じょ} (place). Refers to the physical facility where productions are filmed, including sound stages, back lots, and support buildings.\n\nCOMMON COLLOCATIONS:\n- {撮影所|さつえいじょ}を{見学|けんがく}する: to tour a film studio\n- {撮影所|さつえいじょ}で{撮影|さつえい}する: to film at a studio\n- {映画|えいが}{撮影所|さつえいじょ}: movie studio\n\nCULTURAL NOTE:\nFamous Japanese film studios include {東映|とうえい}{太秦|うずまさ}{撮影所|さつえいじょ} (Toei Uzumasa Studio) in Kyoto and {東宝|とうほう}スタジオ in Tokyo. The Kyoto studios are known for period dramas ({時代劇|じだいげき}) and some are open to tourists.\n\nSIMILAR WORDS:\n- スタジオ: studio (loanword) — used for both film/TV studios and recording studios; more casual\n- {映画|えいが}{会社|がいしゃ}: film company — the business entity rather than the physical facility\n- セット: set — the specific constructed environment within a studio",
+  "notes": "A compound of ⟦{撮影|さつえい}→撮影：04175_satsuei⟧ (filming/photography) and {所|じょ} (place). Refers to the physical facility where productions are filmed, including sound stages, back lots, and support buildings.\n\nCOMMON COLLOCATIONS:\n- {撮影所|さつえいじょ}⟦を→を：00422_wo⟧⟦{見学|けんがく}→見学：00214_kengaku⟧⟦する→する：00392_suru⟧: to tour a film studio\n- {撮影所|さつえいじょ}⟦で→で：00502_de⟧⟦{撮影|さつえい}する→撮影する：21990_satsueisuru⟧: to film at a studio\n- ⟦{映画|えいが}→映画：02273_eiga⟧{撮影所|さつえいじょ}: movie studio\n\nCULTURAL NOTE:\nFamous Japanese film studios include {東映|とうえい}{太秦|うずまさ}{撮影所|さつえいじょ} (Toei Uzumasa Studio) in Kyoto and {東宝|とうほう}⟦スタジオ→スタジオ：11583_sutajio⟧ in Tokyo. The Kyoto studios are known for period dramas (⟦{時代劇|じだいげき}→時代劇：12968_jidaigeki⟧) and some are open to tourists.\n\nSIMILAR WORDS:\n- ⟦スタジオ→スタジオ：11583_sutajio⟧: studio (loanword) — used for both film/TV studios and recording studios; more casual\n- ⟦{映画|えいが}→映画：02273_eiga⟧{会社|がいしゃ}: film company — the business entity rather than the physical facility\n- ⟦セット→セット：03853_setto⟧: set — the specific constructed environment within a studio",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11583_sutajio",
+      "reading": "すたじお",
+      "headword": "スタジオ",
+      "label": "studio"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03853_setto",
+      "reading": "せっと",
+      "headword": "セット",
+      "label": "set"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -57,9 +73,9 @@
         "building"
       ],
       "formality": "neutral",
-      "politeness": null
+      "politeness": "plain"
     },
     "created": "2026-04-06T21:29:04Z",
-    "modified": "2026-07-30T15:38:57Z"
+    "modified": "2026-09-02T04:02:09Z"
   }
 }

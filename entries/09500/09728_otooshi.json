@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "09728_otooshi_ex1",
-      "japanese": "お{通|とお}しは{断|ことわ}れますか？",
+      "japanese": "お{通|とお}し⟦は→は：00079_ha⟧⟦{断|ことわ}れます→断る：02102_kotowaru⟧⟦か→か：09473_ka⟧？",
       "english": "Can I refuse the appetizer?",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "09728_otooshi_ex2",
-      "japanese": "{今日|きょう}のお{通|とお}しは{枝豆|えだまめ}だった。",
+      "japanese": "⟦{今日|きょう}→今日：00496_kyou⟧⟦の→の：09472_no⟧お{通|とお}し⟦は→は：00079_ha⟧⟦{枝豆|えだまめ}→枝豆：21197_edamame⟧だった。",
       "english": "Today's appetizer was edamame.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "09728_otooshi_ex3",
-      "japanese": "お{通|とお}しは{一人|ひとり}300{円|えん}の{席料|せきりょう}に{含|ふく}まれています。",
+      "japanese": "お{通|とお}し⟦は→は：00079_ha⟧⟦{一人|ひとり}→一人：00630_hitori⟧300⟦{円|えん}→円：00774_en⟧⟦の→の：09472_no⟧{席料|せきりょう}⟦に→に：00314_ni⟧⟦{含|ふく}まれています→含む：01982_fukumu⟧。",
       "english": "The appetizer is included in the 300 yen per person cover charge.",
       "notes": null,
       "has_audio": false,
@@ -43,10 +43,33 @@
       ]
     }
   ],
-  "notes": "お{通|とお}し is a standard practice at izakaya and some bars in Japan.\n\nCULTURAL NOTE:\n- The appetizer is automatically served and charged, which can surprise visitors unfamiliar with the custom.\n- It functions similarly to a cover charge ({席料|せきりょう}).\n- Some establishments allow you to decline it, but this varies.\n\nRELATED TERMS:\n- つきだし: another word for appetizer (more casual)\n- {席料|せきりょう}: seating charge\n- チャージ: cover charge",
+  "notes": "お{通|とお}し is a standard practice at izakaya and some bars in Japan.\n\nCULTURAL NOTE:\n- The appetizer is automatically served and charged, which can surprise visitors unfamiliar with the custom.\n- It functions similarly to a cover charge ({席料|せきりょう}).\n- Some establishments allow you to decline it, but this varies.\n\nRELATED WORDS:\n- つきだし: another word for appetizer (more casual)\n- {席料|せきりょう}: seating charge\n- ⟦チャージ→チャージ：09729_chaaji⟧: cover charge",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "21999_tsukidashi",
+      "reading": "つきだし",
+      "headword": "{突|つ}き{出|だ}し",
+      "label": "another word for appetizer"
+    },
+    {
+      "type": "related",
+      "target_id": "09729_chaaji",
+      "reading": "ちゃーじ",
+      "headword": "チャージ",
+      "label": "cover charge"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19968_kobachi",
+      "reading": "こばち",
+      "headword": "{小鉢|こばち}",
+      "label": "small bowl"
+    }
+  ],
   "metadata": {
     "created": "2026-02-03T07:18:38Z",
-    "modified": "2026-06-24T18:40:49Z",
+    "modified": "2026-09-02T04:01:19Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "15322_miewoharu_ex1",
-      "japanese": "{見栄|みえ}を{張|は}らなくていい。",
+      "japanese": "{見栄|みえ}を{張|は}らなくて⟦いい→いい：00118_ii⟧。",
       "english": "You don't need to show off.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "15322_miewoharu_ex2",
-      "japanese": "{彼女|かのじょ}はいつも{見栄|みえ}を{張|は}って{高|たか}い{服|ふく}を{買|か}う。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧⟦いつも→いつも：00599_itsumo⟧{見栄|みえ}を{張|は}って⟦{高|たか}い→高い：00500_takai⟧⟦{服|ふく}→服：00695_fuku⟧⟦を→を：00422_wo⟧⟦{買|か}う→買う：00489_kau⟧。",
       "english": "She always buys expensive clothes to keep up appearances.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "15322_miewoharu_ex3",
-      "japanese": "{見栄|みえ}を{張|は}って{無理|むり}をすると、あとで{後悔|こうかい}する。",
+      "japanese": "{見栄|みえ}を{張|は}って⟦{無理|むり}→無理：01558_muri⟧⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧⟦と→と：00512_to⟧、あと⟦で→で：00502_de⟧⟦{後悔|こうかい}→後悔：02738_koukai⟧⟦する→する：00392_suru⟧。",
       "english": "If you overdo things just to show off, you'll regret it later.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,40 @@
       ]
     }
   ],
-  "notes": "USAGE:\nCarries a negative connotation, suggesting that someone is being pretentious or living beyond their means. Commonly used to gently criticize vanity.\n\nCOMMON COLLOCATIONS:\n- {見栄|みえ}を{張|は}らない (to not show off, to be unpretentious)\n- {見栄|みえ}を{張|は}って{無理|むり}をする (to overextend oneself to keep up appearances)\n- {見栄|みえ}っ{張|ぱ}り (show-off; vain person)\n\nGRAMMAR:\nConjugates as a godan verb ({張|は}る). {見栄|みえ}っ{張|ぱ}り is a related noun/adjective meaning \"vain\" or \"showy.\"",
-  "cross_references": [],
+  "notes": "USAGE:\nCarries a negative connotation, suggesting that someone is being pretentious or living beyond their means. Commonly used to gently criticize vanity.\n\nCOMMON COLLOCATIONS:\n- {見栄|みえ}を{張|は}らない (to not show off, to be unpretentious)\n- {見栄|みえ}を{張|は}って⟦{無理|むり}→無理：01558_muri⟧⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧ (to overextend oneself to keep up appearances)\n- ⟦{見栄|みえ}っ{張|ぱ}り→見栄っ張り：20410_mieppari⟧ (show-off; vain person)\n\nCOMMON PATTERNS:\nConjugates as a godan verb (⟦{張|は}る→張る：12583_haru⟧). ⟦{見栄|みえ}っ{張|ぱ}り→見栄っ張り：20410_mieppari⟧ is a related noun/adjective meaning \"vain\" or \"showy.\"",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "07291_kyoeishin",
+      "reading": "きょえいしん",
+      "headword": "{虚栄心|きょえいしん}",
+      "label": "vanity"
+    },
+    {
+      "type": "related",
+      "target_id": "20410_mieppari",
+      "reading": "みえっぱり",
+      "headword": "{見栄|みえ}っ{張|ぱ}り",
+      "label": "show-off"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22111_mauntingu",
+      "reading": "まうんてぃんぐ",
+      "headword": "マウンティング",
+      "label": "one-upmanship"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27185_kakkoutsukeru",
+      "reading": "かっこうつける",
+      "headword": "{格好|かっこう}つける",
+      "label": "to show off"
+    }
+  ],
   "metadata": {
     "created": "2026-03-06T09:46:37Z",
-    "modified": "2026-07-16T07:06:35Z",
+    "modified": "2026-09-02T04:01:40Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -56,6 +85,7 @@
         "expression"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "action",
         "personality"

@@ -15,38 +15,81 @@
   "examples": [
     {
       "id": "25624_shokuhintenkabutsu_ex1",
-      "japanese": "{食品添加物|しょくひんてんかぶつ}が{気|き}になる。",
+      "japanese": "{食品添加物|しょくひんてんかぶつ}⟦が→が：00051_ga⟧⟦{気|き}になる→気になる：03027_kininaru⟧。",
       "english": "I'm concerned about food additives.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "25624_shokuhintenkabutsu_ex2",
-      "japanese": "この{商品|しょうひん}には{食品添加物|しょくひんてんかぶつ}が{一切|いっさい}{使|つか}われていない。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{商品|しょうひん}→商品：01436_shouhin⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{食品添加物|しょくひんてんかぶつ}⟦が→が：00051_ga⟧⟦{一切|いっさい}→一切：06662_issai⟧⟦{使|つか}われていない→使う：00473_tsukau⟧。",
       "english": "This product contains no food additives whatsoever.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "25624_shokuhintenkabutsu_ex3",
-      "japanese": "{日本|にほん}では{食品添加物|しょくひんてんかぶつ}の{使用|しよう}は{食品衛生法|しょくひんえいせいほう}によって{厳|きび}しく{規制|きせい}されている。",
+      "japanese": "⟦{日本|にほん}→日本：03876_nihon⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧{食品添加物|しょくひんてんかぶつ}⟦の→の：09472_no⟧⟦{使用|しよう}→使用：01637_shiyou⟧⟦は→は：00079_ha⟧{食品衛生法|しょくひんえいせいほう}⟦によって→によって：06801_niyotte⟧⟦{厳|きび}しく→厳しい：01125_kibishii⟧⟦{規制|きせい}→規制：02598_kisei⟧⟦されている→する：00392_suru⟧。",
       "english": "In Japan, the use of food additives is strictly regulated by the Food Sanitation Act.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {食品|しょくひん} (food products) and {添加物|てんかぶつ} (additive). This is a topic of significant public interest in Japan, where many consumers actively seek out {無添加|むてんか} (additive-free) products.\n\nCOMMON COLLOCATIONS:\n- {食品添加物|しょくひんてんかぶつ}{不使用|ふしよう}: free from food additives\n- {食品添加物|しょくひんてんかぶつ}の{表示|ひょうじ}: food additive labeling\n- {食品添加物|しょくひんてんかぶつ}を{避|さ}ける: to avoid food additives\n- {天然|てんねん}{添加物|てんかぶつ}: natural additives\n\nRELATED TERMS:\n- {無添加|むてんか}: additive-free — a major selling point in Japanese food marketing\n- {保存料|ほぞんりょう}: preservative — one specific type of food additive\n- {着色料|ちゃくしょくりょう}: coloring agent — another common type of additive\n- {防腐剤|ぼうふざい}: antiseptic, preservative — overlaps with {保存料|ほぞんりょう}",
+  "notes": "A compound of ⟦{食品|しょくひん}→食品：03247_shokuhin⟧ (food products) and ⟦{添加物|てんかぶつ}→添加物：06479_tenkabutsu⟧ (additive). This is a topic of significant public interest in Japan, where many consumers actively seek out ⟦{無添加|むてんか}→無添加：19283_mutenka⟧ (additive-free) products.\n\nCOMMON COLLOCATIONS:\n- {食品添加物|しょくひんてんかぶつ}⟦{不使用|ふしよう}→不使用：29835_fushiyou⟧: free from food additives\n- {食品添加物|しょくひんてんかぶつ}⟦の→の：09472_no⟧⟦{表示|ひょうじ}→表示：03143_hyouji⟧: food additive labeling\n- {食品添加物|しょくひんてんかぶつ}⟦を→を：00422_wo⟧⟦{避|さ}ける→避ける：02109_sakeru⟧: to avoid food additives\n- ⟦{天然|てんねん}→天然：03560_tennen⟧⟦{添加物|てんかぶつ}→添加物：06479_tenkabutsu⟧: natural additives\n\nRELATED WORDS:\n- ⟦{無添加|むてんか}→無添加：19283_mutenka⟧: additive-free — a major selling point in Japanese food marketing\n- ⟦{保存料|ほぞんりょう}→保存料：06593_hozonryou⟧: preservative — one specific type of food additive\n- ⟦{着色料|ちゃくしょくりょう}→着色料：19751_chakushokuryou⟧: coloring agent — another common type of additive\n- ⟦{防腐剤|ぼうふざい}→防腐剤：18083_boufuzai⟧: antiseptic, preservative — overlaps with ⟦{保存料|ほぞんりょう}→保存料：06593_hozonryou⟧",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "19283_mutenka",
+      "reading": "むてんか",
+      "headword": "{無添加|むてんか}",
+      "label": "additive-free"
+    },
+    {
+      "type": "related",
+      "target_id": "06593_hozonryou",
+      "reading": "ほぞんりょう",
+      "headword": "{保存料|ほぞんりょう}",
+      "label": "preservative"
+    },
+    {
+      "type": "related",
+      "target_id": "19751_chakushokuryou",
+      "reading": "ちゃくしょくりょう",
+      "headword": "{着色料|ちゃくしょくりょう}",
+      "label": "coloring agent"
+    },
+    {
+      "type": "related",
+      "target_id": "18083_boufuzai",
+      "reading": "ぼうふざい",
+      "headword": "{防腐剤|ぼうふざい}",
+      "label": "antiseptic, preservative"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["food", "health"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "food",
+        "health"
+      ]
     },
     "created": "2026-04-26T13:19:47Z",
-    "modified": "2026-04-26T13:19:47Z"
+    "modified": "2026-09-02T04:02:23Z"
   }
 }

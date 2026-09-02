@@ -15,40 +15,80 @@
   "examples": [
     {
       "id": "21118_hayaashi_ex1",
-      "japanese": "{早足|はやあし}で{歩|ある}く。",
+      "japanese": "{早足|はやあし}⟦で→で：00502_de⟧⟦{歩|ある}く→歩く：00538_aruku⟧。",
       "english": "To walk at a brisk pace.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21118_hayaashi_ex2",
-      "japanese": "{遅刻|ちこく}しそうなので{早足|はやあし}で{会社|かいしゃ}に{向|む}かった。",
+      "japanese": "⟦{遅刻|ちこく}→遅刻：03465_chikoku⟧しそうな⟦の→の：09472_no⟧で{早足|はやあし}⟦で→で：00502_de⟧⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦に→に：00314_ni⟧⟦{向|む}かった→向かう：01186_mukau⟧。",
       "english": "I was about to be late, so I walked quickly toward the office.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21118_hayaashi_ex3",
-      "japanese": "{観光地|かんこうち}を{早足|はやあし}で{回|まわ}ったので、あまり{楽|たの}しめなかった。",
+      "japanese": "⟦{観光地|かんこうち}→観光地：14163_kankouchi⟧⟦を→を：00422_wo⟧{早足|はやあし}⟦で→で：00502_de⟧⟦{回|まわ}った→回る：01150_mawaru⟧⟦の→の：09472_no⟧で、⟦あまり→あまり：00604_amari⟧⟦{楽|たの}しめなかった→楽しむ：01203_tanoshimu⟧。",
       "english": "We rushed through the tourist spots, so we didn't really enjoy them.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Describes walking faster than usual, with purpose or urgency. Can also be used figuratively to describe rushing through an activity without taking time to appreciate it.\n\nCOMMON PATTERNS:\n- {早足|はやあし}で{歩|ある}く: to walk briskly\n- {早足|はやあし}で{通|とお}り{過|す}ぎる: to walk past quickly\n- {早足|はやあし}で{回|まわ}る: to rush through (a place)\n- {早足|はやあし}になる: to quicken one's pace\n\nUSAGE:\nUsually used with the particle で as an adverbial expression. The figurative use ({早足|はやあし}で{回|まわ}る, to rush through) implies that something was done too quickly and superficially.\n\nSIMILAR WORDS:\n- {小走|こばし}り: trot, light jog — faster than {早足|はやあし}; actually running with short steps\n- {駆|か}け{足|あし}: running, double-time — a full run\n- {足早|あしばや}: quick-footed — same meaning, different word order; slightly more literary",
+  "notes": "Describes walking faster than usual, with purpose or urgency. Can also be used figuratively to describe rushing through an activity without taking time to appreciate it.\n\nCOMMON PATTERNS:\n- {早足|はやあし}⟦で→で：00502_de⟧⟦{歩|ある}く→歩く：00538_aruku⟧: to walk briskly\n- {早足|はやあし}⟦で→で：00502_de⟧⟦{通|とお}り{過|す}ぎる→通り過ぎる：02372_toorisugiru⟧: to walk past quickly\n- {早足|はやあし}⟦で→で：00502_de⟧⟦{回|まわ}る→回る：01150_mawaru⟧: to rush through (a place)\n- {早足|はやあし}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧: to quicken one's pace\n\nUSAGE:\nUsually used with the particle で as an adverbial expression. The figurative use ({早足|はやあし}⟦で→で：00502_de⟧⟦{回|まわ}る→回る：01150_mawaru⟧, to rush through) implies that something was done too quickly and superficially.\n\nSIMILAR WORDS:\n- ⟦{小走|こばし}り→小走り：21117_kobashiri⟧: trot, light jog — faster than {早足|はやあし}; actually running with short steps\n- ⟦{駆|か}け{足|あし}→駆け足：22316_kakeashi⟧: running, double-time — a full run\n- ⟦{足早|あしばや}→足早：14454_ashibaya⟧: quick-footed — same meaning, different word order; slightly more literary",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21117_kobashiri",
+      "reading": "こばしり",
+      "headword": "{小走|こばし}り",
+      "label": "trot, light jog"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22316_kakeashi",
+      "reading": "かけあし",
+      "headword": "{駆|か}け{足|あし}",
+      "label": "running, double-time"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14454_ashibaya",
+      "reading": "あしばや",
+      "headword": "{足早|あしばや}",
+      "label": "quick-footed"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24760_sokuho",
+      "reading": "そくほ",
+      "headword": "{速歩|そくほ}",
+      "label": "fast walking"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["movement"]
+      "semantic": [
+        "movement"
+      ]
     },
     "created": "2026-03-31T20:18:06Z",
-    "modified": "2026-03-31T20:18:06Z"
+    "modified": "2026-09-02T04:02:02Z"
   }
 }

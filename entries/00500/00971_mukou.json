@@ -99,7 +99,7 @@
     },
     {
       "id": "00971_mukou_ex9",
-      "japanese": "⟦この→この：00962_kono⟧⟦{問題|もんだい}→問題：00797_mondai⟧について、{向|む}こう⟦は→は：00079_ha⟧⟦{何|なに}→何：00498_nani⟧⟦も→も：00484_mo⟧⟦{言|い}っていません→言う：00515_iu⟧。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{問題|もんだい}→問題：00797_mondai⟧⟦について→〜について：03103_nitsuite⟧、{向|む}こう⟦は→は：00079_ha⟧⟦{何|なに}→何：00498_nani⟧⟦も→も：00484_mo⟧⟦{言|い}っていません→言う：00515_iu⟧。",
       "english": "They haven't said anything about this issue.",
       "notes": null,
       "has_audio": false,
@@ -119,10 +119,39 @@
     }
   ],
   "notes": "{向|む}こう indicates a place across from or opposite the speaker's position, implying something (a road, river, or distance) lies in between.\n\nSPATIAL PATTERNS:\n- ⟦{川|かわ}→{川|かわ}：02186_kawa⟧⟦の→の：09472_no⟧{向|む}こう: the other side of the river\n- ⟦{道|みち}→{道|みち}：00505_michi⟧⟦の→の：09472_no⟧{向|む}こう: across the street\n- ⟦{海|うみ}→{海|うみ}：00556_umi⟧⟦の→の：09472_no⟧{向|む}こう: across the sea\n- {向|む}こう⟦に→に：00314_ni⟧⟦{見|み}える→{見|み}える：01165_mieru⟧: visible over there\n\nPERSON/PARTY SENSE:\n{向|む}こう can refer to 'them' or 'the other side' in negotiations, relationships, or disputes.\n- {向|む}こう⟦が→が：00051_ga⟧⟦{悪|わる}い→{悪|わる}い：00908_warui⟧: they are in the wrong\n- {向|む}こう⟦から→から：00504_kara⟧⟦{連絡|れんらく}→{連絡|れんらく}：01524_renraku⟧⟦があった→ある：00006_aru⟧: we heard from them\n\nRELATED DIRECTIONAL WORDS:\n- ⟦こちら→こちら：00960_kochira⟧: this side, here\n- ⟦あちら→あちら：00913_achira⟧: that side, over there (polite)\n- ⟦{向|む}かい→{向かい|むかい}：03750_mukai⟧: facing, opposite (e.g., ⟦{向|む}かい→{向かい|むかい}：03750_mukai⟧⟦の→の：09472_no⟧⟦{家|いえ}→{家|いえ}：00612_ie⟧ = house across the street)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "00960_kochira",
+      "reading": "こちら",
+      "headword": "こちら",
+      "label": "this side, here"
+    },
+    {
+      "type": "related",
+      "target_id": "00913_achira",
+      "reading": "あちら",
+      "headword": "あちら",
+      "label": "that side, over there"
+    },
+    {
+      "type": "related",
+      "target_id": "03750_mukai",
+      "reading": "むかい",
+      "headword": "{向|む}かい",
+      "label": "facing, opposite"
+    },
+    {
+      "type": "related",
+      "target_id": "02304_muku",
+      "reading": "むく",
+      "headword": "{向|む}く",
+      "label": "to face, to turn toward"
+    }
+  ],
   "metadata": {
     "created": "2026-01-07T12:15:04Z",
-    "modified": "2026-05-13T18:23:35Z",
+    "modified": "2026-09-02T04:00:58Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "basic",
     "tags": {
@@ -146,7 +175,7 @@
     {
       "target_id": "01516_mukou",
       "reading": "むこう",
-      "headword": "{向こう|むこう}",
+      "headword": "{向|む}こう",
       "note": "over there (variant)"
     }
   ]

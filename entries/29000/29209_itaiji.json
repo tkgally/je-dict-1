@@ -16,39 +16,65 @@
   "examples": [
     {
       "id": "29209_itaiji_ex1",
-      "japanese": "{峯|みね}は{峰|みね}の{異体字|いたいじ}だ。",
+      "japanese": "{峯|みね}⟦は→は：00079_ha⟧⟦{峰|みね}→峰：23001_mine⟧⟦の→の：09472_no⟧{異体字|いたいじ}だ。",
       "english": "峯 is a variant form of 峰.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29209_itaiji_ex2",
-      "japanese": "{人名|じんめい}に{使|つか}われる{異体字|いたいじ}は{辞書|じしょ}に{載|の}っていないことが{多|おお}い。",
+      "japanese": "⟦{人名|じんめい}→人名：22206_jinmei⟧⟦に→に：00314_ni⟧⟦{使|つか}われる→使う：00473_tsukau⟧{異体字|いたいじ}⟦は→は：00079_ha⟧⟦{辞書|じしょ}→辞書：04707_jisho⟧⟦に→に：00314_ni⟧⟦{載|の}っていない→載る：27882_noru⟧こと⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "Variant characters used in personal names often don't appear in dictionaries.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29209_itaiji_ex3",
-      "japanese": "{古文書|こもんじょ}には{現代|げんだい}の{標準字体|ひょうじゅんじたい}とは{異|こと}なる{異体字|いたいじ}が{多|おお}く{含|ふく}まれている。",
+      "japanese": "⟦{古文書|こもんじょ}→古文書：15839_komonjo⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{現代|げんだい}→現代：02722_gendai⟧⟦の→の：09472_no⟧{標準字体|ひょうじゅんじたい}⟦と→と：00512_to⟧⟦は→は：00079_ha⟧⟦{異|こと}なる→異なる：02101_kotonaru⟧{異体字|いたいじ}⟦が→が：00051_ga⟧⟦{多|おお}く→多い：01127_ooi⟧⟦{含|ふく}まれている→含む：01982_fukumu⟧。",
       "english": "Old documents contain many variant characters that differ from modern standard forms.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "SIMILAR WORDS:\n- {旧字体|きゅうじたい}: old character form — the pre-1949 standard forms (e.g., {國|くに} for 国); a category of historical standard rather than variant\n- {略字|りゃくじ}: simplified character — informal shorthand used in handwriting\n- {異体字|いたいじ}: variant — a recognized alternate form, neither the modern standard nor purely informal\n\nUSAGE:\nCommonly encountered when reading historical documents, Japanese personal names (人名用漢字 includes many), and place names. Digitally, may require special fonts or character selectors to display correctly.",
+  "notes": "SIMILAR WORDS:\n- ⟦{旧字体|きゅうじたい}→旧字体：27161_kyuujitai⟧: old character form — the pre-1949 standard forms (e.g., {國|くに} for 国); a category of historical standard rather than variant\n- {略字|りゃくじ}: simplified character — informal shorthand used in handwriting\n- {異体字|いたいじ}: variant — a recognized alternate form, neither the modern standard nor purely informal\n\nUSAGE:\nCommonly encountered when reading historical documents, Japanese personal names (人名用漢字 includes many), and place names. Digitally, may require special fonts or character selectors to display correctly.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "27161_kyuujitai",
+      "reading": "きゅうじたい",
+      "headword": "{旧字体|きゅうじたい}",
+      "label": "old character form"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24448_seiji",
+      "reading": "せいじ",
+      "headword": "{正字|せいじ}",
+      "label": "standard character form"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["language"]
+      "semantic": [
+        "language"
+      ]
     },
     "created": "2026-06-13T03:42:20Z",
-    "modified": "2026-06-13T03:42:20Z"
+    "modified": "2026-09-02T04:02:36Z"
   }
 }

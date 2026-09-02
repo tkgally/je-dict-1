@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "20944_poniiteeru_ex1",
-      "japanese": "ポニーテールにする。",
+      "japanese": "ポニーテール⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧。",
       "english": "I'll put my hair in a ponytail.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "20944_poniiteeru_ex2",
-      "japanese": "{彼女|かのじょ}はいつもポニーテールにしている。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧⟦いつも→いつも：00599_itsumo⟧ポニーテールにして⟦いる→いる：00495_iru⟧。",
       "english": "She always wears her hair in a ponytail.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "20944_poniiteeru_ex3",
-      "japanese": "{暑|あつ}いから{髪|かみ}をポニーテールに{結|むす}んだ。",
+      "japanese": "⟦{暑|あつ}い→暑い：00619_atsui⟧⟦から→から：00504_kara⟧⟦{髪|かみ}→髪：02196_kami⟧⟦を→を：00422_wo⟧ポニーテール⟦に→に：00314_ni⟧⟦{結|むす}んだ→結ぶ：02308_musubu⟧。",
       "english": "It was hot, so I tied my hair up in a ponytail.",
       "sense_numbers": [
         1
@@ -43,8 +43,24 @@
       "notes": null
     }
   ],
-  "notes": "A loanword from English. One of the most commonly mentioned hairstyle names in everyday conversation. The pattern ポニーテールにする means 'to put one's hair in a ponytail.'\n\nCOMMON COLLOCATIONS:\n- ポニーテールにする: to put one's hair in a ponytail\n- ポニーテールに{結|むす}ぶ: to tie one's hair in a ponytail\n- {高|たか}めのポニーテール: high ponytail\n- {低|ひく}めのポニーテール: low ponytail\n\nRELATED TERMS:\n- おさげ: braids, pigtails — hair divided and tied on both sides\n- お{団子|だんご}: hair bun — hair twisted and pinned up\n- ツインテール: twin tails — two ponytails, one on each side\n- {三|み}つ{編|あ}み: braid — hair woven in three strands",
+  "notes": "A loanword from English. One of the most commonly mentioned hairstyle names in everyday conversation. The pattern ポニーテール⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧ means 'to put one's hair in a ponytail.'\n\nCOMMON COLLOCATIONS:\n- ポニーテール⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧: to put one's hair in a ponytail\n- ポニーテール⟦に→に：00314_ni⟧⟦{結|むす}ぶ→結ぶ：02308_musubu⟧: to tie one's hair in a ponytail\n- ⟦{高|たか}め→高め：14861_takame⟧⟦の→の：09472_no⟧ポニーテール: high ponytail\n- ⟦{低|ひく}め→低め：24497_hikume⟧⟦の→の：09472_no⟧ポニーテール: low ponytail\n\nRELATED WORDS:\n- ⟦おさげ→おさげ：20771_osage⟧: braids, pigtails — hair divided and tied on both sides\n- お⟦{団子|だんご}→団子：04959_dango⟧: hair bun — hair twisted and pinned up\n- ツインテール: twin tails — two ponytails, one on each side\n- ⟦{三|み}つ{編|あ}み→三つ編み：18439_mitsuami⟧: braid — hair woven in three strands",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "20771_osage",
+      "reading": "おさげ",
+      "headword": "おさげ",
+      "label": "braids, pigtails"
+    },
+    {
+      "type": "related",
+      "target_id": "18439_mitsuami",
+      "reading": "みつあみ",
+      "headword": "{三|み}つ{編|あ}み",
+      "label": "braid"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +75,6 @@
       "loanword": true
     },
     "created": "2026-03-30T22:17:40Z",
-    "modified": "2026-03-30T22:17:40Z"
+    "modified": "2026-09-02T04:02:01Z"
   }
 }

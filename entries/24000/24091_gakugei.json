@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24091_gakugei_ex1",
-      "japanese": "{学芸|がくげい}{員|いん}の{説明|せつめい}を{聞|き}いた。",
+      "japanese": "{学芸|がくげい}{員|いん}⟦の→の：09472_no⟧⟦{説明|せつめい}→説明：01449_setsumei⟧⟦を→を：00422_wo⟧⟦{聞|き}いた→聞く：00483_kiku⟧。",
       "english": "I listened to the museum curator's explanation.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24091_gakugei_ex2",
-      "japanese": "{学校|がっこう}で{学芸|がくげい}{会|かい}が{開|ひら}かれる。",
+      "japanese": "⟦{学校|がっこう}→学校：00055_gakkou⟧⟦で→で：00502_de⟧{学芸|がくげい}{会|かい}⟦が→が：00051_ga⟧⟦{開|ひら}かれる→開く：01979_hiraku⟧。",
       "english": "A school performance event will be held.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24091_gakugei_ex3",
-      "japanese": "この{大学|だいがく}は{学芸|がくげい}{学部|がくぶ}で{幅広|はばひろ}い{教養|きょうよう}{教育|きょういく}を{行|おこな}っている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{大学|だいがく}→大学：00608_daigaku⟧⟦は→は：00079_ha⟧{学芸|がくげい}{学部|がくぶ}⟦で→で：00502_de⟧⟦{幅広|はばひろ}い→幅広い：11326_habahiroi⟧⟦{教養|きょうよう}→教養：09788_kyouyou⟧⟦{教育|きょういく}→教育：01313_kyouiku⟧⟦を→を：00422_wo⟧⟦{行|おこな}っている→行う：01238_okonau⟧。",
       "english": "This university provides a broad liberal education in its faculty of arts and sciences.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Combines {学|がく} (learning/scholarship) and {芸|げい} (art/skill). Most commonly encountered in compound words rather than on its own. The two most frequent uses are {学芸|がくげい}{員|いん} (museum curator — an official certification in Japan) and {学芸|がくげい}{会|かい} (school arts/performance festival).\n\nCOMMON COLLOCATIONS:\n- {学芸|がくげい}{員|いん}: museum curator/curator\n- {学芸|がくげい}{会|かい}: school arts festival/performance day\n- {学芸|がくげい}{大学|だいがく}: university of arts and sciences (e.g., {東京|とうきょう}{学芸|がくげい}{大学|だいがく})\n- {学芸|がくげい}{学部|がくぶ}: faculty of arts and sciences\n\nCULTURAL NOTE:\n{学芸|がくげい}{会|かい} is a major event at Japanese schools where students put on plays, musical performances, and other presentations. It is distinct from {運動会|うんどうかい} (sports day) and {文化祭|ぶんかさい} (culture festival).",
+  "notes": "Combines ⟦{学|がく}→〜学：09846_gaku⟧ (learning/scholarship) and ⟦{芸|げい}→芸：19343_gei⟧ (art/skill). Most commonly encountered in compound words rather than on its own. The two most frequent uses are {学芸|がくげい}{員|いん} (museum curator — an official certification in Japan) and {学芸|がくげい}{会|かい} (school arts/performance festival).\n\nCOMMON COLLOCATIONS:\n- {学芸|がくげい}{員|いん}: museum curator/curator\n- {学芸|がくげい}{会|かい}: school arts festival/performance day\n- {学芸|がくげい}{大学|だいがく}: university of arts and sciences (e.g., {東京|とうきょう}{学芸|がくげい}{大学|だいがく})\n- {学芸|がくげい}{学部|がくぶ}: faculty of arts and sciences\n\nCULTURAL NOTE:\n{学芸|がくげい}{会|かい} is a major event at Japanese schools where students put on plays, musical performances, and other presentations. It is distinct from ⟦{運動会|うんどうかい}→運動会：03013_undoukai⟧ (sports day) and ⟦{文化祭|ぶんかさい}→文化祭：05589_bunkasai⟧ (culture festival).",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -52,12 +52,14 @@
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "education",
         "culture"
       ]
     },
     "created": "2026-04-17T17:43:12Z",
-    "modified": "2026-04-17T17:43:12Z"
+    "modified": "2026-09-02T04:02:16Z"
   }
 }

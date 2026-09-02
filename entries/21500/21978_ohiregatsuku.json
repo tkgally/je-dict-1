@@ -15,40 +15,60 @@
   "examples": [
     {
       "id": "21978_ohiregatsuku_ex1",
-      "japanese": "{噂|うわさ}に{尾|お}ひれがつく。",
+      "japanese": "⟦{噂|うわさ}→噂：01871_uwasa⟧⟦に→に：00314_ni⟧{尾|お}ひれがつく。",
       "english": "The rumor gets embellished.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21978_ohiregatsuku_ex2",
-      "japanese": "{話|はなし}に{尾|お}ひれがついて{広|ひろ}まった。",
+      "japanese": "⟦{話|はなし}→話：01496_hanashi⟧⟦に→に：00314_ni⟧{尾|お}ひれがついて⟦{広|ひろ}まった→広まる：02404_hiromaru⟧。",
       "english": "The story spread with added embellishments.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21978_ohiregatsuku_ex3",
-      "japanese": "{小|ちい}さな{失敗|しっぱい}だったのに、{尾|お}ひれがついて{大事件|だいじけん}のように{語|かた}られている。",
+      "japanese": "⟦{小|ちい}さな→小さな：02913_chiisana⟧⟦{失敗|しっぱい}→失敗：01636_shippai⟧だった⟦の→の：09472_no⟧⟦に→に：00314_ni⟧、{尾|お}ひれがついて{大事件|だいじけん}⟦のように→のように：30291_noyouni⟧⟦{語|かた}られている→語る：01930_kataru⟧。",
       "english": "It was just a small mistake, but it was exaggerated and talked about as if it were a major incident.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Literally means 'a tail and fins get attached.' The image is of a story growing extra parts (like a fish growing a tail and fins) as it is retold, becoming increasingly exaggerated and embellished.\n\nFORMS:\n- {尾|お}ひれがつく: embellishments get added (intransitive)\n- {尾|お}ひれをつける: to add embellishments (transitive)\n\nCOMMON COLLOCATIONS:\n- {噂|うわさ}に{尾|お}ひれがつく: a rumor gets embellished\n- {話|はなし}に{尾|お}ひれがつく: a story gets exaggerated\n- {尾|お}ひれがついて{広|ひろ}まる: to spread with embellishments\n\nSIMILAR EXPRESSIONS:\n- {大|おお}げさになる: to become exaggerated — more straightforward; {尾|お}ひれがつく is more vivid and idiomatic\n- {話|はなし}が{膨|ふく}らむ: a story inflates — similar concept but without the fish imagery\n- {針小棒大|しんしょうぼうだい}: making a mountain out of a molehill — emphasizes the disproportion between fact and description",
+  "notes": "Literally means 'a tail and fins get attached.' The image is of a story growing extra parts (like a fish growing a tail and fins) as it is retold, becoming increasingly exaggerated and embellished.\n\nFORMS:\n- {尾|お}ひれがつく: embellishments get added (intransitive)\n- ⟦{尾|お}ひれをつける→尾ひれをつける：28672_ohirewotsukeru⟧: to add embellishments (transitive)\n\nCOMMON COLLOCATIONS:\n- ⟦{噂|うわさ}→噂：01871_uwasa⟧⟦に→に：00314_ni⟧{尾|お}ひれがつく: a rumor gets embellished\n- ⟦{話|はなし}→話：01496_hanashi⟧⟦に→に：00314_ni⟧{尾|お}ひれがつく: a story gets exaggerated\n- {尾|お}ひれがついて⟦{広|ひろ}まる→広まる：02404_hiromaru⟧: to spread with embellishments\n\nSIMILAR WORDS:\n- ⟦{大|おお}げさ→大げさ：19918_oogesa⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧: to become exaggerated — more straightforward; {尾|お}ひれがつく is more vivid and idiomatic\n- ⟦{話|はなし}→話：01496_hanashi⟧⟦が→が：00051_ga⟧⟦{膨|ふく}らむ→膨らむ：05342_fukuramu⟧: a story inflates — similar concept but without the fish imagery\n- ⟦{針小棒大|しんしょうぼうだい}→針小棒大：06217_shinshouboudai⟧: making a mountain out of a molehill — emphasizes the disproportion between fact and description",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06217_shinshouboudai",
+      "reading": "しんしょうぼうだい",
+      "headword": "{針小棒大|しんしょうぼうだい}",
+      "label": "making a mountain out of a molehill"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["expression"],
+      "pos": [
+        "expression"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["communication", "idiom"]
+      "semantic": [
+        "communication",
+        "idiom"
+      ]
     },
     "created": "2026-04-04T18:28:07Z",
-    "modified": "2026-04-04T18:28:07Z"
+    "modified": "2026-09-02T04:02:06Z"
   }
 }

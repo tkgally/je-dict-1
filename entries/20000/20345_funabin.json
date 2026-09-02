@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "20345_funabin_ex1",
-      "japanese": "{船便|ふなびん}で{送|おく}ると{安|やす}い。",
+      "japanese": "{船便|ふなびん}⟦で→で：00502_de⟧⟦{送|おく}る→送る：00742_okuru⟧⟦と→と：00512_to⟧⟦{安|やす}い→安い：00464_yasui⟧。",
       "english": "It's cheaper to send by sea mail.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "20345_funabin_ex2",
-      "japanese": "{船便|ふなびん}だと{届|とど}くまで２{ヶ月|かげつ}かかる。",
+      "japanese": "{船便|ふなびん}だ⟦と→と：00512_to⟧⟦{届|とど}く→届く：00899_todoku⟧⟦まで→まで：00490_made⟧２⟦{ヶ月|かげつ}→ヶ月：00956_kagetsu⟧⟦かかる→かかる：00711_kakaru⟧。",
       "english": "By sea mail, it takes two months to arrive.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "20345_funabin_ex3",
-      "japanese": "{引|ひ}っ{越|こ}しの{荷物|にもつ}は{船便|ふなびん}で{送|おく}り、{身|み}の{回|まわ}りの{物|もの}だけ{航空便|こうくうびん}にした。",
+      "japanese": "{引|ひ}っ{越|こ}し⟦の→の：09472_no⟧⟦{荷物|にもつ}→荷物：00737_nimotsu⟧⟦は→は：00079_ha⟧{船便|ふなびん}⟦で→で：00502_de⟧⟦{送|おく}り→送る：00742_okuru⟧、⟦{身|み}の{回|まわ}り→身の回り：07854_minomawari⟧⟦の→の：09472_no⟧⟦{物|もの}→物：02259_mono⟧⟦だけ→〜だけ：03093_dake⟧⟦{航空便|こうくうびん}→航空便：24353_koukuubin⟧にした。",
       "english": "I sent the moving boxes by sea and only shipped personal essentials by air.",
       "sense_numbers": [
         1
@@ -43,8 +43,24 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {船|ふな} (ship, combining form) + {便|びん} (mail, service). Note that {船|ふね} changes to {船|ふな} in compounds. This is a practical word for anyone living abroad or sending international packages.\n\nCOMMON COLLOCATIONS:\n- {船便|ふなびん}で{送|おく}る: to send by sea mail\n- {船便|ふなびん}で{届|とど}く: to arrive by sea mail\n- {船便|ふなびん}の{料金|りょうきん}: sea mail rates\n\nSIMILAR WORDS:\n- {航空便|こうくうびん}: airmail — faster but more expensive\n- SAL{便|びん}: economy airmail — intermediate speed and cost\n- {小包|こづつみ}: parcel, package — refers to the item, not the shipping method",
+  "notes": "Composed of {船|ふな} (ship, combining form) + ⟦{便|びん}→便：28160_bin⟧ (mail, service). Note that ⟦{船|ふね}→船：00775_fune⟧ changes to {船|ふな} in compounds. This is a practical word for anyone living abroad or sending international packages.\n\nCOMMON COLLOCATIONS:\n- {船便|ふなびん}⟦で→で：00502_de⟧⟦{送|おく}る→送る：00742_okuru⟧: to send by sea mail\n- {船便|ふなびん}⟦で→で：00502_de⟧⟦{届|とど}く→届く：00899_todoku⟧: to arrive by sea mail\n- {船便|ふなびん}⟦の→の：09472_no⟧⟦{料金|りょうきん}→料金：03797_ryoukin⟧: sea mail rates\n\nSIMILAR WORDS:\n- ⟦{航空便|こうくうびん}→航空便：24353_koukuubin⟧: airmail — faster but more expensive\n- SAL{便|びん}: economy airmail — intermediate speed and cost\n- ⟦{小包|こづつみ}→小包：02764_kozutsumi⟧: parcel, package — refers to the item, not the shipping method",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24353_koukuubin",
+      "reading": "こうくうびん",
+      "headword": "{航空便|こうくうびん}",
+      "label": "airmail"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02764_kozutsumi",
+      "reading": "こづつみ",
+      "headword": "{小包|こづつみ}",
+      "label": "parcel, package"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +75,6 @@
       ]
     },
     "created": "2026-03-28T21:18:45Z",
-    "modified": "2026-07-28T00:51:36Z"
+    "modified": "2026-09-02T04:01:59Z"
   }
 }

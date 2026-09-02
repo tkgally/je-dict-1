@@ -15,41 +15,81 @@
   "examples": [
     {
       "id": "28669_dochiraka_ex1",
-      "japanese": "どちらか{選|えら}んでください。",
+      "japanese": "どちらか⟦{選|えら}んで→選ぶ：00835_erabu⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please pick one of the two.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28669_dochiraka_ex2",
-      "japanese": "どちらかと{言|い}えば{紅茶|こうちゃ}の{方|ほう}が{好|す}きだ。",
+      "japanese": "どちらか⟦と→と：00512_to⟧⟦{言|い}えば→言う：00515_iu⟧⟦{紅茶|こうちゃ}→紅茶：02878_koucha⟧⟦の→の：09472_no⟧⟦{方|ほう}→方：01139_hou⟧⟦が→が：00051_ga⟧⟦{好|す}き→好き：02355_suki⟧だ。",
       "english": "If I had to choose, I'd say I prefer black tea.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28669_dochiraka_ex3",
-      "japanese": "{紙|かみ}か{電子版|でんしばん}か、どちらかをお{選|えら}びいただけます。",
+      "japanese": "⟦{紙|かみ}→紙：00712_kami⟧⟦か→か：09473_ka⟧{電子版|でんしばん}⟦か→か：09473_ka⟧、どちらか⟦を→を：00422_wo⟧お⟦{選|えら}び→選ぶ：00835_erabu⟧⟦いただけます→いただく：01326_itadaku⟧。",
       "english": "You can choose either the paper or the digital version.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Refers to a pair, not three or more. Use どれか for three or more options. The casual contraction どっちか is extremely common in speech.\n\nFIXED EXPRESSIONS:\n- どちらかと{言|い}えば: if I had to say which; if anything\n- どちらかと{言|い}うと: if one had to choose between them\n- どちらか{一方|いっぽう}: one or the other (of the two)\n- どちらか{選|えら}ぶ: to choose between two\n\nSIMILAR WORDS:\n- どちらも: both — covers the pair\n- どちらでも: either is fine; any one will do\n- どれか: any one of (three or more)\n- どっちか: casual contracted form",
+  "notes": "Refers to a pair, not three or more. Use ⟦どれか→どれか：22606_doreka⟧ for three or more options. The casual contraction ⟦どっちか→どっちか：26335_docchika⟧ is extremely common in speech.\n\nCOMMON EXPRESSIONS:\n- どちらか⟦と→と：00512_to⟧⟦{言|い}えば→言う：00515_iu⟧: if I had to say which; if anything\n- どちらか⟦と→と：00512_to⟧⟦{言|い}う→言う：00515_iu⟧⟦と→と：00512_to⟧: if one had to choose between them\n- どちらか⟦{一方|いっぽう}→一方：01739_ippou⟧: one or the other (of the two)\n- どちらか⟦{選|えら}ぶ→選ぶ：00835_erabu⟧: to choose between two\n\nSIMILAR WORDS:\n- ⟦どちらも→どちらも：08721_dochiramo⟧: both — covers the pair\n- ⟦どちら→どちら：00927_dochira⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧: either is fine; any one will do\n- ⟦どれか→どれか：22606_doreka⟧: any one of (three or more)\n- ⟦どっちか→どっちか：26335_docchika⟧: casual contracted form",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08721_dochiramo",
+      "reading": "どちらも",
+      "headword": "どちらも",
+      "label": "both"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22606_doreka",
+      "reading": "どれか",
+      "headword": "どれか",
+      "label": "any one of"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26335_docchika",
+      "reading": "どっちか",
+      "headword": "どっちか",
+      "label": "casual contracted form"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22057_izureka",
+      "reading": "いずれか",
+      "headword": "いずれか",
+      "label": "one or the other"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["pronoun"],
+      "pos": [
+        "pronoun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["abstract"],
+      "politeness": "plain",
+      "semantic": [
+        "abstract"
+      ],
       "domain": []
     },
     "created": "2026-06-03T04:18:53Z",
-    "modified": "2026-06-03T04:18:53Z"
+    "modified": "2026-09-02T04:02:34Z"
   }
 }

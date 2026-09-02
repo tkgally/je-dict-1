@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "12244_konin_ex1",
-      "japanese": "{婚姻届|こんいんとどけ}を{提出|ていしゅつ}する。",
+      "japanese": "⟦{婚姻届|こんいんとどけ}→婚姻届：22413_konintodoke⟧⟦を→を：00422_wo⟧⟦{提出|ていしゅつ}する→提出する：19644_teishutsusuru⟧。",
       "english": "To submit a marriage registration.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "12244_konin_ex2",
-      "japanese": "{日本|にほん}では{婚姻|こんいん}{年齢|ねんれい}は{男女|だんじょ}とも18{歳|さい}だ。",
+      "japanese": "⟦{日本|にほん}→日本：03876_nihon⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧{婚姻|こんいん}⟦{年齢|ねんれい}→年齢：01490_nenrei⟧⟦は→は：00079_ha⟧⟦{男女|だんじょ}→男女：03117_danjo⟧とも18⟦{歳|さい}→歳：10017_sai⟧だ。",
       "english": "In Japan, the legal marriage age is 18 for both men and women.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "12244_konin_ex3",
-      "japanese": "{婚姻|こんいん}{関係|かんけい}にある{夫婦|ふうふ}は、{法律|ほうりつ}{上|じょう}さまざまな{権利|けんり}と{義務|ぎむ}を{持|も}つ。",
+      "japanese": "{婚姻|こんいん}{関係|かんけい}⟦に→に：00314_ni⟧⟦ある→ある：00006_aru⟧⟦{夫婦|ふうふ}→夫婦：03592_fuufu⟧⟦は→は：00079_ha⟧、⟦{法律|ほうりつ}→法律：01722_houritsu⟧⟦{上|じょう}→〜上：30365_jou⟧さまざまな⟦{権利|けんり}→権利：02711_kenri⟧⟦と→と：00512_to⟧⟦{義務|ぎむ}→義務：02647_gimu⟧⟦を→を：00422_wo⟧⟦{持|も}つ→持つ：00478_motsu⟧。",
       "english": "Married couples have various legal rights and obligations.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA formal, legal term for marriage. In everyday conversation, {結婚|けっこん} is preferred. {婚姻|こんいん} appears mainly in legal documents, government forms, news reports, and academic writing.\n\nCOMMON COLLOCATIONS:\n- {婚姻届|こんいんとどけ}: marriage registration form\n- {婚姻|こんいん}{関係|かんけい}: marital relationship\n- {婚姻|こんいん}{年齢|ねんれい}: legal marriage age\n- {婚姻|こんいん}{届|とどけ}を{出|だ}す: to file a marriage registration\n\nSIMILAR WORDS:\n{結婚|けっこん} is the general, everyday word for marriage. {婚姻|こんいん} is the formal legal term, similar to the distinction between \"marriage\" and \"matrimony\" in English.",
+  "notes": "USAGE:\nA formal, legal term for marriage. In everyday conversation, ⟦{結婚|けっこん}→結婚：02514_kekkon⟧ is preferred. {婚姻|こんいん} appears mainly in legal documents, government forms, news reports, and academic writing.\n\nCOMMON COLLOCATIONS:\n- ⟦{婚姻届|こんいんとどけ}→婚姻届：22413_konintodoke⟧: marriage registration form\n- {婚姻|こんいん}{関係|かんけい}: marital relationship\n- {婚姻|こんいん}⟦{年齢|ねんれい}→年齢：01490_nenrei⟧: legal marriage age\n- {婚姻|こんいん}{届|とどけ}⟦を→を：00422_wo⟧⟦{出|だ}す→出す：01087_dasu⟧: to file a marriage registration\n\nSIMILAR WORDS:\n⟦{結婚|けっこん}→結婚：02514_kekkon⟧ is the general, everyday word for marriage. {婚姻|こんいん} is the formal legal term, similar to the distinction between \"marriage\" and \"matrimony\" in English.",
   "cross_references": [
     {
       "type": "synonym",
@@ -52,11 +52,18 @@
       "reading": "けっこん",
       "headword": "{結婚|けっこん}",
       "label": "marriage (general)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24000_inseki",
+      "reading": "いんせき",
+      "headword": "{姻戚|いんせき}",
+      "label": "relative by marriage"
     }
   ],
   "metadata": {
     "created": "2026-02-20T13:36:37Z",
-    "modified": "2026-08-16T12:31:26Z",
+    "modified": "2026-09-02T04:01:28Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

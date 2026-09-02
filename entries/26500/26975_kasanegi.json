@@ -3,7 +3,7 @@
   "headword": "{重|かさ}ね{着|ぎ}",
   "reading": "かさねぎ",
   "romaji": "kasanegi",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "layering; wearing multiple layers of clothing",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26975_kasanegi_ex1",
-      "japanese": "{冬|ふゆ}は{重|かさ}ね{着|ぎ}が{基本|きほん}だ。",
+      "japanese": "⟦{冬|ふゆ}→冬：00623_fuyu⟧⟦は→は：00079_ha⟧{重|かさ}ね{着|ぎ}⟦が→が：00051_ga⟧⟦{基本|きほん}→基本：00226_kihon⟧だ。",
       "english": "Layering is the basics in winter.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26975_kasanegi_ex2",
-      "japanese": "{重|かさ}ね{着|ぎ}をすると{暖|あたた}かい。",
+      "japanese": "{重|かさ}ね{着|ぎ}⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧⟦と→と：00512_to⟧⟦{暖|あたた}かい→暖かい：00618_atatakai⟧。",
       "english": "Wearing layers keeps you warm.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26975_kasanegi_ex3",
-      "japanese": "おしゃれな{重|かさ}ね{着|ぎ}のコーディネートを{紹介|しょうかい}します。",
+      "japanese": "⟦おしゃれ→おしゃれ：02515_oshare⟧な{重|かさ}ね{着|ぎ}⟦の→の：09472_no⟧コーディネート⟦を→を：00422_wo⟧⟦{紹介|しょうかい}します→紹介する：05641_shoukaisuru⟧。",
       "english": "I'll introduce some stylish layered outfit ideas.",
       "sense_numbers": [
         1
@@ -45,7 +45,7 @@
     },
     {
       "id": "26975_kasanegi_ex4",
-      "japanese": "{重|かさ}ね{着|ぎ}しすぎて{動|うご}きにくくなった。",
+      "japanese": "{重|かさ}ね{着|ぎ}しすぎて⟦{動|うご}き→動く：00904_ugoku⟧にくく⟦なった→なる：01970_naru⟧。",
       "english": "I layered so many clothes that it became hard to move.",
       "sense_numbers": [
         1
@@ -54,8 +54,30 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {重|かさ}ねる (to pile up, layer) and {着|ぎ} (wearing). Also used as a verb with する: {重|かさ}ね{着|ぎ}する. In fashion, layering is treated as both a practical cold-weather strategy and a style technique.\n\nCOMMON COLLOCATIONS:\n- {重|かさ}ね{着|ぎ}する: to layer clothes\n- {重|かさ}ね{着|ぎ}コーデ: layered outfit coordination\n- おしゃれな{重|かさ}ね{着|ぎ}: stylish layering\n- {重|かさ}ね{着|ぎ}しすぎる: to over-layer\n\nSIMILAR WORDS:\n- {着込|きこ}む: to bundle up — verb emphasizing putting on many layers for warmth\n- {厚着|あつぎ}: heavy dressing — wearing thick or warm clothing; opposite of {薄着|うすぎ}\n- {薄着|うすぎ}: light dressing — wearing few or thin layers of clothing",
-  "cross_references": [],
+  "notes": "Compound of ⟦{重|かさ}ねる→重ねる：02039_kasaneru⟧ (to pile up, layer) and {着|ぎ} (wearing). Also used as a verb with ⟦する→する：00392_suru⟧: {重|かさ}ね{着|ぎ}⟦する→する：00392_suru⟧. In fashion, layering is treated as both a practical cold-weather strategy and a style technique.\n\nCOMMON COLLOCATIONS:\n- {重|かさ}ね{着|ぎ}⟦する→する：00392_suru⟧: to layer clothes\n- {重|かさ}ね{着|ぎ}⟦コーデ→コーデ：17567_koode⟧: layered outfit coordination\n- ⟦おしゃれ→おしゃれ：02515_oshare⟧な{重|かさ}ね{着|ぎ}: stylish layering\n- {重|かさ}ね{着|ぎ}しすぎる: to over-layer\n\nSIMILAR WORDS:\n- ⟦{着込|きこ}む→着込む：26962_kikomu⟧: to bundle up — verb emphasizing putting on many layers for warmth\n- ⟦{厚着|あつぎ}→厚着：15266_atsugi⟧: heavy dressing — wearing thick or warm clothing; opposite of ⟦{薄着|うすぎ}→薄着：14028_usugi⟧\n- ⟦{薄着|うすぎ}→薄着：14028_usugi⟧: light dressing — wearing few or thin layers of clothing",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "26962_kikomu",
+      "reading": "きこむ",
+      "headword": "{着込|きこ}む",
+      "label": "to bundle up"
+    },
+    {
+      "type": "antonym",
+      "target_id": "15266_atsugi",
+      "reading": "あつぎ",
+      "headword": "{厚着|あつぎ}",
+      "label": "heavy dressing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14028_usugi",
+      "reading": "うすぎ",
+      "headword": "{薄着|うすぎ}",
+      "label": "light dressing"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -73,7 +95,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-06T12:21:41Z",
-    "modified": "2026-08-06T12:50:26Z"
+    "modified": "2026-09-02T04:02:28Z"
   },
   "conjugation": {
     "type": "suru",

@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "09534_takuhaibin_ex1",
-      "japanese": "{宅配便|たくはいびん}が{届|とど}いた。",
+      "japanese": "{宅配便|たくはいびん}⟦が→が：00051_ga⟧⟦{届|とど}いた→届く：00899_todoku⟧。",
       "english": "A delivery arrived.",
       "has_audio": false,
       "sense_numbers": [
@@ -23,7 +23,7 @@
     },
     {
       "id": "09534_takuhaibin_ex2",
-      "japanese": "{宅配便|たくはいびん}で{送|おく}る。",
+      "japanese": "{宅配便|たくはいびん}⟦で→で：00502_de⟧⟦{送|おく}る→送る：00742_okuru⟧。",
       "english": "To send by delivery service.",
       "has_audio": false,
       "sense_numbers": [
@@ -32,7 +32,7 @@
     },
     {
       "id": "09534_takuhaibin_ex3",
-      "japanese": "{不在|ふざい}だったので、{宅配便|たくはいびん}の{再配達|さいはいたつ}を{頼|たの}んだ。",
+      "japanese": "⟦{不在|ふざい}→不在：11302_fuzai⟧だった⟦の→の：09472_no⟧で、{宅配便|たくはいびん}⟦の→の：09472_no⟧⟦{再配達|さいはいたつ}→再配達：09690_saihaitatsu⟧⟦を→を：00422_wo⟧⟦{頼|たの}んだ→頼む：01104_tanomu⟧。",
       "english": "I wasn't home, so I requested redelivery.",
       "has_audio": false,
       "sense_numbers": [
@@ -40,10 +40,68 @@
       ]
     }
   ],
-  "notes": "COMMON COLLOCATIONS:\n- {宅配便|たくはいびん}を{受|う}け{取|と}る: to receive a delivery\n- {宅配便|たくはいびん}で{送|おく}る: to send by courier\n- {再配達|さいはいたつ}を{頼|たの}む: to request redelivery\n\nCULTURAL NOTE:\nJapan has an efficient delivery system with options for time-slot delivery and easy redelivery scheduling via phone or app.\n\nRELATED:\n- {配達|はいたつ}: delivery\n- {荷物|にもつ}: package, luggage\n- {不在票|ふざいひょう}: missed delivery notice",
+  "notes": "COMMON COLLOCATIONS:\n- {宅配便|たくはいびん}⟦を→を：00422_wo⟧⟦{受|う}け{取|と}る→受け取る：01883_uketoru⟧: to receive a delivery\n- {宅配便|たくはいびん}⟦で→で：00502_de⟧⟦{送|おく}る→送る：00742_okuru⟧: to send by courier\n- ⟦{再配達|さいはいたつ}→再配達：09690_saihaitatsu⟧⟦を→を：00422_wo⟧⟦{頼|たの}む→頼む：01104_tanomu⟧: to request redelivery\n\nCULTURAL NOTE:\nJapan has an efficient delivery system with options for time-slot delivery and easy redelivery scheduling via phone or app.\n\nRELATED WORDS:\n- ⟦{配達|はいたつ}→配達：00084_haitatsu⟧: delivery\n- ⟦{荷物|にもつ}→荷物：00737_nimotsu⟧: package, luggage\n- ⟦{不在票|ふざいひょう}→不在票：09689_fuzaihyou⟧: missed delivery notice",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "00084_haitatsu",
+      "reading": "はいたつ",
+      "headword": "{配達|はいたつ}",
+      "label": "delivery"
+    },
+    {
+      "type": "related",
+      "target_id": "00737_nimotsu",
+      "reading": "にもつ",
+      "headword": "{荷物|にもつ}",
+      "label": "package, luggage"
+    },
+    {
+      "type": "related",
+      "target_id": "09689_fuzaihyou",
+      "reading": "ふざいひょう",
+      "headword": "{不在票|ふざいひょう}",
+      "label": "missed delivery notice"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02764_kozutsumi",
+      "reading": "こづつみ",
+      "headword": "{小包|こづつみ}",
+      "label": "parcel, package"
+    },
+    {
+      "type": "related",
+      "target_id": "09723_haitatsujoukyou",
+      "reading": "はいたつじょうきょう",
+      "headword": "{配達|はいたつ}{状況|じょうきょう}",
+      "label": "delivery status"
+    },
+    {
+      "type": "related",
+      "target_id": "18044_yuubinbutsu",
+      "reading": "ゆうびんぶつ",
+      "headword": "{郵便物|ゆうびんぶつ}",
+      "label": "mail"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24729_baikubin",
+      "reading": "ばいくびん",
+      "headword": "バイク{便|びん}",
+      "label": "motorcycle courier"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30138_sokutatsubin",
+      "reading": "そくたつびん",
+      "headword": "{速達便|そくたつびん}",
+      "label": "express mail"
+    }
+  ],
   "metadata": {
     "created": "2026-02-02T10:38:47Z",
-    "modified": "2026-05-06T07:07:17Z",
+    "modified": "2026-09-02T04:01:18Z",
     "ai_model": "claude-opus-4-5-20251101",
     "vocabulary_tier": "general",
     "tags": {

@@ -15,41 +15,67 @@
   "examples": [
     {
       "id": "12265_teiban_ex1",
-      "japanese": "{定番|ていばん}の{商品|しょうひん}だ。",
+      "japanese": "{定番|ていばん}⟦の→の：09472_no⟧⟦{商品|しょうひん}→商品：01436_shouhin⟧だ。",
       "english": "It's a staple product.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12265_teiban_ex2",
-      "japanese": "カレーライスは{日本|にほん}の{定番|ていばん}メニューだ。",
+      "japanese": "⟦カレー→カレー：02898_karee⟧⟦ライス→ライス：08838_raisu⟧⟦は→は：00079_ha⟧⟦{日本|にほん}→日本：03876_nihon⟧⟦の→の：09472_no⟧{定番|ていばん}⟦メニュー→メニュー：11166_menyuu⟧だ。",
       "english": "Curry rice is a classic Japanese menu item.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12265_teiban_ex3",
-      "japanese": "{花見|はなみ}の{定番|ていばん}スポットといえば、{上野|うえの}{公園|こうえん}が{有名|ゆうめい}だ。",
+      "japanese": "⟦{花見|はなみ}→花見：01700_hanami⟧⟦の→の：09472_no⟧{定番|ていばん}⟦スポット→スポット：11578_supotto⟧⟦と→と：00512_to⟧いえば、⟦{上野|うえの}→上野：28394_ueno⟧⟦{公園|こうえん}→公園：00581_kouen⟧⟦が→が：00051_ga⟧⟦{有名|ゆうめい}→有名：01106_yuumei⟧だ。",
       "english": "Speaking of classic cherry blossom viewing spots, Ueno Park is famous.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nOriginally a retail and fashion industry term referring to items that remain in stock across seasons ({定番|ていばん}{商品|しょうひん}). Now widely used in everyday conversation for anything considered a tried-and-true favorite or classic choice — foods, songs, tourist spots, gifts, and more.\n\nOften modifies another noun directly: {定番|ていばん}メニュー (standard menu item), {定番|ていばん}ソング (classic song), {定番|ていばん}コーデ (go-to outfit).\n\nCOMMON COLLOCATIONS:\n- {定番|ていばん}{商品|しょうひん}: staple product\n- {定番|ていばん}メニュー: standard menu item\n- {定番|ていばん}の{味|あじ}: classic flavor\n- {定番|ていばん}スポット: classic spot, go-to destination\n- {定番|ていばん}{人気|にんき}: perennial favorite",
-  "cross_references": [],
+  "notes": "USAGE:\nOriginally a retail and fashion industry term referring to items that remain in stock across seasons ({定番|ていばん}⟦{商品|しょうひん}→商品：01436_shouhin⟧). Now widely used in everyday conversation for anything considered a tried-and-true favorite or classic choice — foods, songs, tourist spots, gifts, and more.\n\nOften modifies another noun directly: {定番|ていばん}⟦メニュー→メニュー：11166_menyuu⟧ (standard menu item), {定番|ていばん}ソング (classic song), {定番|ていばん}⟦コーデ→コーデ：17567_koode⟧ (go-to outfit).\n\nCOMMON COLLOCATIONS:\n- {定番|ていばん}⟦{商品|しょうひん}→商品：01436_shouhin⟧: staple product\n- {定番|ていばん}⟦メニュー→メニュー：11166_menyuu⟧: standard menu item\n- {定番|ていばん}⟦の→の：09472_no⟧⟦{味|あじ}→味：00826_aji⟧: classic flavor\n- {定番|ていばん}⟦スポット→スポット：11578_supotto⟧: classic spot, go-to destination\n- {定番|ていばん}⟦{人気|にんき}→人気：01488_ninki⟧: perennial favorite",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19249_uresuji",
+      "reading": "うれすじ",
+      "headword": "{売|う}れ{筋|すじ}",
+      "label": "best seller"
+    },
+    {
+      "type": "antonym",
+      "target_id": "23949_tsukigawari",
+      "reading": "つきがわり",
+      "headword": "{月替|つきが}わり",
+      "label": "changing every month"
+    }
+  ],
   "metadata": {
     "created": "2026-02-20T14:59:52Z",
-    "modified": "2026-02-20T14:59:52Z",
+    "modified": "2026-09-02T04:01:28Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-no"],
+      "pos": [
+        "noun",
+        "adjective-no"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

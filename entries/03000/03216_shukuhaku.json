@@ -2,7 +2,7 @@
   "id": "03216_shukuhaku",
   "headword": "{宿泊|しゅくはく}",
   "reading": "しゅくはく",
-  "part_of_speech": "noun, suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "lodging, accommodation",
   "definitions": [
     {
@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "03216_shukuhaku_ex1",
-      "japanese": "⟦{京都|きょうと}→京都：09484_kyouto⟧⟦で→で：00502_de⟧⟦{一泊|いっぱく}→一泊：08892_ippaku⟧{宿泊|しゅくはく}した。",
+      "japanese": "⟦{京都|きょうと}→京都：09484_kyouto⟧⟦で→で：00502_de⟧⟦{一泊|いっぱく}→一泊：08892_ippaku⟧{宿泊|しゅくはく}⟦した→する：00392_suru⟧。",
       "english": "I stayed one night in Kyoto.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{宿泊|しゅくはく} refers to lodging or staying overnight at a hotel, inn, etc.\n\nCOMMON PATTERNS:\n- {宿泊|しゅくはく}する (to stay overnight, to lodge)\n- {宿泊|しゅくはく}⟦を→を：00422_wo⟧⟦{予約|よやく}→予約：01522_yoyaku⟧する (to book accommodation)\n\nCOMMON COLLOCATIONS:\n- {宿泊|しゅくはく}⟦{料金|りょうきん}→料金：03797_ryoukin⟧ / {宿泊|しゅくはく}⟦{費|ひ}→費：09877_hi⟧ (accommodation fee)\n- {宿泊|しゅくはく}⟦{施設|しせつ}→施設：02503_shisetsu⟧ (lodging facility)\n- {宿泊|しゅくはく}⟦{先|さき}→先：02883_saki⟧ (place to stay)\n- {宿泊|しゅくはく}⟦{客|きゃく}→客：00865_kyaku⟧ (hotel guest)\n- {宿泊|しゅくはく}⟦{予約|よやく}→予約：01522_yoyaku⟧ (accommodation reservation)\n- ⟦{素泊|すどま}り→素泊まり：07048_sudomari⟧{宿泊|しゅくはく} (room only, no meals)\n\nSIMILAR WORDS:\n- {宿泊|しゅくはく}: lodging (formal term)\n- ⟦{泊|と}まる→泊まる：10445_tomaru⟧: to stay (casual verb)\n- ⟦{宿|やど}→宿：03641_yado⟧: lodging, inn (traditional word)",
+  "notes": "{宿泊|しゅくはく} refers to lodging or staying overnight at a hotel, inn, etc.\n\nCOMMON PATTERNS:\n- {宿泊|しゅくはく}⟦する→する：00392_suru⟧ (to stay overnight, to lodge)\n- {宿泊|しゅくはく}⟦を→を：00422_wo⟧⟦{予約|よやく}→予約：01522_yoyaku⟧⟦する→する：00392_suru⟧ (to book accommodation)\n\nCOMMON COLLOCATIONS:\n- {宿泊|しゅくはく}⟦{料金|りょうきん}→料金：03797_ryoukin⟧ / {宿泊|しゅくはく}⟦{費|ひ}→費：09877_hi⟧ (accommodation fee)\n- {宿泊|しゅくはく}⟦{施設|しせつ}→施設：02503_shisetsu⟧ (lodging facility)\n- {宿泊|しゅくはく}⟦{先|さき}→先：02883_saki⟧ (place to stay)\n- {宿泊|しゅくはく}⟦{客|きゃく}→客：00865_kyaku⟧ (hotel guest)\n- {宿泊|しゅくはく}⟦{予約|よやく}→予約：01522_yoyaku⟧ (accommodation reservation)\n- ⟦{素泊|すどま}り→素泊まり：07048_sudomari⟧{宿泊|しゅくはく} (room only, no meals)\n\nSIMILAR WORDS:\n- {宿泊|しゅくはく}: lodging (formal term)\n- ⟦{泊|と}まる→泊まる：10445_tomaru⟧: to stay (casual verb)\n- ⟦{宿|やど}→宿：03641_yado⟧: lodging, inn (traditional word)",
   "cross_references": [
     {
       "type": "synonym",
@@ -51,11 +51,39 @@
       "reading": "とまる",
       "headword": "{泊|と}まる",
       "label": "to stay (casual)"
+    },
+    {
+      "type": "related",
+      "target_id": "01027_hoteru",
+      "reading": "ほてる",
+      "headword": "ホテル",
+      "label": "hotel"
+    },
+    {
+      "type": "related",
+      "target_id": "08282_chekkuauto",
+      "reading": "ちぇっくあうと",
+      "headword": "チェックアウト",
+      "label": "check-out"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22935_tomari",
+      "reading": "とまり",
+      "headword": "{泊|とま}まり",
+      "label": "overnight stay"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30784_enpaku",
+      "reading": "えんぱく",
+      "headword": "{延泊|えんぱく}",
+      "label": "extending a stay by extra nights"
     }
   ],
   "metadata": {
     "created": "2026-01-11T13:40:30Z",
-    "modified": "2026-08-13T15:50:29Z",
+    "modified": "2026-09-02T04:01:02Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

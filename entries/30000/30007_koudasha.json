@@ -15,41 +15,60 @@
   "examples": [
     {
       "id": "30007_koudasha_ex1",
-      "japanese": "{彼|かれ}はチーム{一|いち}の{好打者|こうだしゃ}だ。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦チーム→チーム：03858_chiimu⟧⟦{一|いち}→一：00705_ichi⟧⟦の→の：09472_no⟧{好打者|こうだしゃ}だ。",
       "english": "He is the team's best hitter.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "30007_koudasha_ex2",
-      "japanese": "{好打者|こうだしゃ}が{揃|そろ}った{強力|きょうりょく}な{打線|だせん}。",
+      "japanese": "{好打者|こうだしゃ}⟦が→が：00051_ga⟧⟦{揃|そろ}った→揃う：01953_sorou⟧⟦{強力|きょうりょく}→強力：02656_kyouryoku⟧な⟦{打線|だせん}→打線：30021_dasen⟧。",
       "english": "A powerful lineup full of good hitters.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "30007_koudasha_ex3",
-      "japanese": "{好打者|こうだしゃ}はボールをよく{見|み}て、{確実|かくじつ}にヒットを{打|う}つ。",
+      "japanese": "{好打者|こうだしゃ}⟦は→は：00079_ha⟧⟦ボール→ボール：00017_booru⟧⟦を→を：00422_wo⟧⟦よく→よく：00601_yoku⟧⟦{見|み}て→見る：00283_miru⟧、⟦{確実|かくじつ}→確実：02538_kakujitsu⟧⟦に→に：00314_ni⟧⟦ヒット→ヒット：11161_hitto⟧⟦を→を：00422_wo⟧⟦{打|う}つ→打つ：01221_utsu⟧。",
       "english": "A good hitter watches the ball carefully and reliably gets hits.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Formed from {好|こう} (good) + {打者|だしゃ} (batter). Emphasizes skill at making contact and getting on base, as opposed to home-run power.\n\nSIMILAR WORDS:\n- {強打者|きょうだしゃ}: power hitter — valued for home-run power over average\n- {打者|だしゃ}: batter — the neutral general term",
+  "notes": "Formed from {好|こう} (good) + ⟦{打者|だしゃ}→打者：06564_dasha⟧ (batter). Emphasizes skill at making contact and getting on base, as opposed to home-run power.\n\nSIMILAR WORDS:\n- ⟦{強打者|きょうだしゃ}→強打者：23977_kyoudasha⟧: power hitter — valued for home-run power over average\n- ⟦{打者|だしゃ}→打者：06564_dasha⟧: batter — the neutral general term",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23977_kyoudasha",
+      "reading": "きょうだしゃ",
+      "headword": "{強打者|きょうだしゃ}",
+      "label": "power hitter"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["sports"],
+      "politeness": "plain",
+      "semantic": [
+        "sports"
+      ],
       "domain": []
     },
     "created": "2026-07-21T00:17:50Z",
-    "modified": "2026-07-21T00:17:50Z"
+    "modified": "2026-09-02T04:02:38Z"
   }
 }

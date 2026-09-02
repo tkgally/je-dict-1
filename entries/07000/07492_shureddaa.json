@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "07492_shureddaa_ex1",
-      "japanese": "{機密|きみつ}{書類|しょるい}はシュレッダーにかけてください。",
+      "japanese": "⟦{機密|きみつ}→機密：13179_kimitsu⟧⟦{書類|しょるい}→書類：01103_shorui⟧⟦は→は：00079_ha⟧シュレッダー⟦にかけて→〜にかけて：30530_nikakete⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please shred confidential documents.",
       "has_audio": false,
       "sense_numbers": [
@@ -23,7 +23,7 @@
     },
     {
       "id": "07492_shureddaa_ex2",
-      "japanese": "シュレッダーが{紙詰|かみづ}まりを{起|お}こした。",
+      "japanese": "シュレッダー⟦が→が：00051_ga⟧⟦{紙詰|かみづ}まり→紙詰まり：07494_kamizumari⟧⟦を→を：00422_wo⟧⟦{起|お}こした→起こす：01234_okosu⟧。",
       "english": "The shredder jammed.",
       "has_audio": false,
       "sense_numbers": [
@@ -32,7 +32,7 @@
     },
     {
       "id": "07492_shureddaa_ex3",
-      "japanese": "シュレッダーのゴミ{袋|ぶくろ}を{交換|こうかん}する。",
+      "japanese": "シュレッダー⟦の→の：09472_no⟧ゴミ{袋|ぶくろ}⟦を→を：00422_wo⟧⟦{交換|こうかん}→交換：02746_koukan⟧⟦する→する：00392_suru⟧。",
       "english": "Replace the shredder's waste bag.",
       "has_audio": false,
       "sense_numbers": [
@@ -40,10 +40,10 @@
       ]
     }
   ],
-  "notes": "LOANWORD:\nFrom English \"shredder\"\n\nSHREDDING TYPES:\n・ストレートカット - straight cut (strips)\n・クロスカット - cross cut (small pieces)\n・マイクロカット - micro cut (very fine pieces, most secure)\n\nCOMMON EXPRESSIONS:\n・シュレッダーにかける - to shred (lit. \"put through the shredder\")\n・シュレッダー{処理|しょり} - shredding/shredder processing\n・シュレッダー{屑|くず} - shredded paper waste\n\nOFFICE USE:\nUsed to dispose of:\n・{個人情報|こじんじょうほう} - personal information\n・{機密|きみつ}{書類|しょるい} - confidential documents\n・{社外秘|しゃがいひ}{資料|しりょう} - proprietary materials\n\nSECURITY LEVELS:\nSecurity-conscious offices use micro-cut shredders for sensitive documents, as cross-cut pieces can theoretically be reassembled.",
+  "notes": "LOANWORD:\nFrom English \"shredder\"\n\nSHREDDING TYPES:\n- ⟦ストレート→ストレート：11630_sutoreeto⟧⟦カット→カット：10818_katto⟧ - straight cut (strips)\n- ⟦クロス→クロス：27429_kurosu⟧⟦カット→カット：10818_katto⟧ - cross cut (small pieces)\n- マイクロ⟦カット→カット：10818_katto⟧ - micro cut (very fine pieces, most secure)\n\nCOMMON EXPRESSIONS:\n- シュレッダー⟦に→に：00314_ni⟧⟦かける→かける：00854_kakeru⟧ - to shred (lit. \"put through the shredder\")\n- シュレッダー⟦{処理|しょり}→処理：03251_shori⟧ - shredding/shredder processing\n- シュレッダー⟦{屑|くず}→屑：03883_kuzu⟧ - shredded paper waste\n\nOFFICE USE:\nUsed to dispose of:\n- ⟦{個人情報|こじんじょうほう}→個人情報：18842_kojinjouhou⟧ - personal information\n- ⟦{機密|きみつ}→機密：13179_kimitsu⟧⟦{書類|しょるい}→書類：01103_shorui⟧ - confidential documents\n- ⟦{社外秘|しゃがいひ}→社外秘：24152_shagaihi⟧⟦{資料|しりょう}→資料：04166_shiryou⟧ - proprietary materials\n\nSECURITY LEVELS:\nSecurity-conscious offices use micro-cut shredders for sensitive documents, as cross-cut pieces can theoretically be reassembled.",
   "metadata": {
     "created": "2026-01-20T05:43:45Z",
-    "modified": "2026-08-10T18:29:45Z",
+    "modified": "2026-09-02T04:01:11Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -51,6 +51,7 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "tool",
         "technology"

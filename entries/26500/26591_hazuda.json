@@ -20,7 +20,7 @@
   "examples": [
     {
       "id": "26591_hazuda_ex1",
-      "japanese": "もう{届|とど}いたはずだ。",
+      "japanese": "⟦もう→もう：00602_mou⟧⟦{届|とど}いた→届く：00899_todoku⟧はずだ。",
       "english": "It should have arrived by now.",
       "sense_numbers": [
         1
@@ -30,7 +30,7 @@
     },
     {
       "id": "26591_hazuda_ex2",
-      "japanese": "この{時間|じかん}なら{電車|でんしゃ}は{空|す}いているはずだ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{時間|じかん}→時間：00468_jikan⟧なら⟦{電車|でんしゃ}→電車：00522_densha⟧⟦は→は：00079_ha⟧{空|す}いて⟦いる→いる：00495_iru⟧はずだ。",
       "english": "The train should be empty at this hour.",
       "sense_numbers": [
         1
@@ -40,7 +40,7 @@
     },
     {
       "id": "26591_hazuda_ex3",
-      "japanese": "{彼|かれ}は{日本|にほん}に{十年|じゅうねん}{住|す}んでいたから、{日本語|にほんご}が{上手|じょうず}なはずだ。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{日本|にほん}→日本：03876_nihon⟧⟦に→に：00314_ni⟧{十年|じゅうねん}⟦{住|す}んでいた→住む：00673_sumu⟧⟦から→から：00504_kara⟧、⟦{日本語|にほんご}→日本語：00614_nihongo⟧⟦が→が：00051_ga⟧⟦{上手|じょうず}→上手：00707_jouzu⟧なはずだ。",
       "english": "He lived in Japan for ten years, so his Japanese should be good.",
       "sense_numbers": [
         1
@@ -50,7 +50,7 @@
     },
     {
       "id": "26591_hazuda_ex4",
-      "japanese": "{会議|かいぎ}は{三時|さんじ}に{始|はじ}まるはずだ。",
+      "japanese": "⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦は→は：00079_ha⟧⟦{三時|さんじ}→三時：10983_sanji⟧⟦に→に：00314_ni⟧⟦{始|はじ}まる→始まる：00841_hajimaru⟧はずだ。",
       "english": "The meeting is supposed to start at three.",
       "sense_numbers": [
         2
@@ -60,7 +60,7 @@
     },
     {
       "id": "26591_hazuda_ex5",
-      "japanese": "{彼女|かのじょ}は{今日|きょう}{来|く}るはずだったのに。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧⟦{今日|きょう}→今日：00496_kyou⟧⟦{来|く}る→来る：00254_kuru⟧はずだった⟦の→の：09472_no⟧⟦に→に：00314_ni⟧。",
       "english": "She was supposed to come today, but...",
       "sense_numbers": [
         2
@@ -70,7 +70,7 @@
     },
     {
       "id": "26591_hazuda_ex6",
-      "japanese": "{荷物|にもつ}は{明日|あした}の{午前中|ごぜんちゅう}に{届|とど}くはずだったが、{遅|おく}れているらしい。",
+      "japanese": "⟦{荷物|にもつ}→荷物：00737_nimotsu⟧⟦は→は：00079_ha⟧⟦{明日|あした}→明日：00501_ashita⟧⟦の→の：09472_no⟧⟦{午前中|ごぜんちゅう}→午前中：11495_gozenchuu⟧⟦に→に：00314_ni⟧⟦{届|とど}く→届く：00899_todoku⟧はずだった⟦が→が：00051_ga⟧、⟦{遅|おく}れている→遅れる：00741_okureru⟧らしい。",
       "english": "The package was supposed to arrive by tomorrow morning, but it seems to be delayed.",
       "sense_numbers": [
         2
@@ -79,8 +79,23 @@
       "notes": null
     }
   ],
-  "notes": "Attaches to the plain form of verbs, adjectives, and nouns (+の). Expresses the speaker's confident expectation based on logic or evidence, not mere hope or wish. The core meaning comes from {筈|はず} (the notch of an arrow where the bowstring fits), suggesting something that fits naturally or logically.\n\nCOMMON PATTERNS:\n- verb plain form + はずだ: {知|し}っているはずだ (should know)\n- い-adjective + はずだ: {安|やす}いはずだ (should be cheap)\n- な-adjective + なはずだ: {静|しず}かなはずだ (should be quiet)\n- noun + のはずだ: {休|やす}みのはずだ (should be a day off)\n- はずがない: there is no way that... (strong negation)\n- はずだった: was supposed to (but didn't happen)\n\nSIMILAR EXPRESSIONS:\n- べきだ: expresses moral obligation or recommendation (\"should\" as in \"ought to\"), while はずだ expresses expectation or logical conclusion\n- だろう: expresses probability or supposition, while はずだ conveys stronger confidence based on evidence\n\nREGISTER:\nUsed in both spoken and written Japanese. The polite form はずです is common in everyday conversation.",
-  "cross_references": [],
+  "notes": "Attaches to the plain form of verbs, adjectives, and nouns (+⟦の→の：09472_no⟧). Expresses the speaker's confident expectation based on logic or evidence, not mere hope or wish. The core meaning comes from {筈|はず} (the notch of an arrow where the bowstring fits), suggesting something that fits naturally or logically.\n\nCOMMON PATTERNS:\n- verb plain form + はずだ: ⟦{知|し}っている→知る：00458_shiru⟧はずだ (should know)\n- い-adjective + はずだ: ⟦{安|やす}い→安い：00464_yasui⟧はずだ (should be cheap)\n- な-adjective + なはずだ: ⟦{静|しず}か→静か：00755_shizuka⟧なはずだ (should be quiet)\n- noun + ⟦の→の：09472_no⟧はずだ: ⟦{休|やす}み→休み：02266_yasumi⟧⟦の→の：09472_no⟧はずだ (should be a day off)\n- ⟦はず→はず：01557_hazu⟧⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧: there is no way that... (strong negation)\n- はずだった: was supposed to (but didn't happen)\n\nSIMILAR WORDS:\n- べきだ: expresses moral obligation or recommendation (\"should\" as in \"ought to\"), while はずだ expresses expectation or logical conclusion\n- だろう: expresses probability or supposition, while はずだ conveys stronger confidence based on evidence\n\nREGISTER:\nUsed in both spoken and written Japanese. The polite form ⟦はず→はず：01557_hazu⟧です is common in everyday conversation.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "26592_bekida",
+      "reading": "べきだ",
+      "headword": "べきだ",
+      "label": "expresses moral obligation…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09576_darou",
+      "reading": "だろう",
+      "headword": "だろう",
+      "label": "expresses probability or supposition…"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -96,6 +111,6 @@
       "domain": []
     },
     "created": "2026-05-03T14:16:22Z",
-    "modified": "2026-05-03T14:16:22Z"
+    "modified": "2026-09-02T04:02:27Z"
   }
 }

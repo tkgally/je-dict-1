@@ -3,7 +3,7 @@
   "headword": "コア",
   "reading": "こあ",
   "romaji": "koa",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, na-adjective",
   "gloss": "core; central part; hardcore (modifier)",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29474_koa_ex1",
-      "japanese": "この{番組|ばんぐみ}にはコアなファンが{多|おお}い。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{番組|ばんぐみ}→番組：01705_bangumi⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧コアな⟦ファン→ファン：10065_fan⟧⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "This show has many devoted fans.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29474_koa_ex2",
-      "japanese": "{事業|じぎょう}のコアとなる{部分|ぶぶん}に{力|ちから}を{入|い}れる。",
+      "japanese": "⟦{事業|じぎょう}→事業：11421_jigyou⟧⟦の→の：09472_no⟧コア⟦と→と：00512_to⟧⟦なる→なる：01970_naru⟧⟦{部分|ぶぶん}→部分：03715_bubun⟧⟦に→に：00314_ni⟧⟦{力|ちから}→力：01661_chikara⟧⟦を→を：00422_wo⟧⟦{入|い}れる→入れる：01098_ireru⟧。",
       "english": "We put our energy into the part that forms the core of the business.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29474_koa_ex3",
-      "japanese": "コアな{音楽|おんがく}{好|ず}きにこそ{聴|き}いてほしいアルバムだ。",
+      "japanese": "コアな⟦{音楽|おんがく}→音楽：00661_ongaku⟧{好|ず}き⟦に→に：00314_ni⟧⟦こそ→こそ：12731_koso⟧⟦{聴|き}いて→聴く：30010_kiku⟧ほしい⟦アルバム→アルバム：03831_arubamu⟧だ。",
       "english": "It's an album I especially want hardcore music lovers to listen to.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Loanword from English \"core.\" Works both as a noun for the central part and as a na-adjective for a niche, devoted, or hardcore character.\n\nCOMMON COLLOCATIONS:\n- コアなファン: devoted, hardcore fans\n- コア{層|そう}: core demographic\n- コア{技術|ぎじゅつ}: core technology\n\nSIMILAR WORDS:\n- {核|かく}: nucleus, core — the native word for a central part, more abstract\n- {中核|ちゅうかく}: nucleus, central pillar — formal term for the most important part of an organization",
+  "notes": "Loanword from English \"core.\" Works both as a noun for the central part and as a na-adjective for a niche, devoted, or hardcore character.\n\nCOMMON COLLOCATIONS:\n- コアな⟦ファン→ファン：10065_fan⟧: devoted, hardcore fans\n- コア⟦{層|そう}→層：12441_sou⟧: core demographic\n- コア⟦{技術|ぎじゅつ}→技術：01389_gijutsu⟧: core technology\n\nSIMILAR WORDS:\n- ⟦{核|かく}→核：13127_kaku⟧: nucleus, core — the native word for a central part, more abstract\n- ⟦{中核|ちゅうかく}→中核：11369_chuukaku⟧: nucleus, central pillar — formal term for the most important part of an organization",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13127_kaku",
+      "reading": "かく",
+      "headword": "{核|かく}",
+      "label": "nucleus, core"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11369_chuukaku",
+      "reading": "ちゅうかく",
+      "headword": "{中核|ちゅうかく}",
+      "label": "nucleus, central pillar"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,6 +77,6 @@
       "domain": []
     },
     "created": "2026-06-24T21:18:11Z",
-    "modified": "2026-06-24T21:18:11Z"
+    "modified": "2026-09-02T04:02:37Z"
   }
 }

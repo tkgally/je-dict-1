@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30350_shichinin_ex1",
-      "japanese": "{七人|しちにん}で{行|い}った。",
+      "japanese": "{七人|しちにん}⟦で→で：00502_de⟧⟦{行|い}った→行く：00119_iku⟧。",
       "english": "The seven of us went.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30350_shichinin_ex2",
-      "japanese": "この{班|はん}は{七人|しちにん}のメンバーで{構成|こうせい}されている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{班|はん}→班：03697_han⟧⟦は→は：00079_ha⟧{七人|しちにん}⟦の→の：09472_no⟧⟦メンバー→メンバー：00275_menbaa⟧⟦で→で：00502_de⟧⟦{構成|こうせい}→構成：02729_kousei⟧⟦されている→する：00392_suru⟧。",
       "english": "This group is made up of seven members.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30350_shichinin_ex3",
-      "japanese": "{黒澤|くろさわ}{監督|かんとく}の『{七人|しちにん}の{侍|さむらい}』は、{世界中|せかいじゅう}の{映画|えいが}に{影響|えいきょう}を{与|あた}えた。",
+      "japanese": "{黒澤|くろさわ}⟦{監督|かんとく}→監督：00185_kantoku⟧⟦の→の：09472_no⟧『{七人|しちにん}⟦の→の：09472_no⟧⟦{侍|さむらい}→侍：10499_samurai⟧』⟦は→は：00079_ha⟧、⟦{世界中|せかいじゅう}→世界中：10171_sekaijuu⟧⟦の→の：09472_no⟧⟦{映画|えいが}→映画：02273_eiga⟧⟦に→に：00314_ni⟧⟦{影響|えいきょう}→影響：01877_eikyou⟧⟦を→を：00422_wo⟧⟦{与|あた}えた→与える：01821_ataeru⟧。",
       "english": "Director Kurosawa's Seven Samurai influenced films around the world.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "{七|しち} plus the counter {人|にん} for people.\n\nWHICH READING:\nBoth しちにん and ななにん are correct. ななにん is preferred in speech because しち is easily misheard as {一|いち}, but fixed titles and set phrases keep しちにん.\n\nCOMMON PATTERNS:\n- {七人|しちにん}で: as a group of seven\n- {七人|しちにん}{兄弟|きょうだい}: seven siblings\n- {七人|しちにん}の{侍|さむらい}: Seven Samurai (the 1954 film)\n\nRELATED COUNTS:\n- {六人|ろくにん}: six people\n- {八人|はちにん}: eight people\n- {何人|なんにん}: how many people",
+  "notes": "{七|しち} plus the counter ⟦{人|にん}→〜人：00658_nin⟧ for people.\n\nWHICH READING:\nBoth しちにん and ななにん are correct. ななにん is preferred in speech because しち is easily misheard as ⟦{一|いち}→一：00705_ichi⟧, but fixed titles and set phrases keep しち⟦に→に：00314_ni⟧ん.\n\nCOMMON PATTERNS:\n- {七人|しちにん}で: as a group of seven\n- {七人|しちにん}⟦{兄弟|きょうだい}→兄弟：00964_kyoudai⟧: seven siblings\n- {七人|しちにん}⟦の→の：09472_no⟧⟦{侍|さむらい}→侍：10499_samurai⟧: Seven Samurai (the 1954 film)\n\nRELATED COUNTS:\n- ⟦{六人|ろくにん}→六人：30568_rokunin⟧: six people\n- ⟦{八人|はちにん}→八人：30569_hachinin⟧: eight people\n- ⟦{何人|なんにん}→何人：17593_nannin⟧: how many people",
   "cross_references": [
     {
       "type": "related",
@@ -57,6 +57,20 @@
       "target_id": "10978_sannin",
       "reading": "さんにん",
       "headword": "{三人|さんにん}"
+    },
+    {
+      "type": "related",
+      "target_id": "30568_rokunin",
+      "reading": "ろくにん",
+      "headword": "{六人|ろくにん}",
+      "label": "six people"
+    },
+    {
+      "type": "related",
+      "target_id": "30569_hachinin",
+      "reading": "はちにん",
+      "headword": "{八人|はちにん}",
+      "label": "eight people"
     }
   ],
   "schema_version": "2.0",
@@ -75,6 +89,6 @@
       "domain": []
     },
     "created": "2026-08-03T00:18:03Z",
-    "modified": "2026-08-03T00:18:03Z"
+    "modified": "2026-09-02T04:02:39Z"
   }
 }

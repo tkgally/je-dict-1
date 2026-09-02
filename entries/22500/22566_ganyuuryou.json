@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22566_ganyuuryou_ex1",
-      "japanese": "{鉄分|てつぶん}の{含有量|がんゆうりょう}が{高|たか}い。",
+      "japanese": "⟦{鉄分|てつぶん}→鉄分：19444_tetsubun⟧⟦の→の：09472_no⟧{含有量|がんゆうりょう}⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧。",
       "english": "The iron content is high.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22566_ganyuuryou_ex2",
-      "japanese": "この{食品|しょくひん}はカルシウムの{含有量|がんゆうりょう}が{多|おお}い。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{食品|しょくひん}→食品：03247_shokuhin⟧⟦は→は：00079_ha⟧⟦カルシウム→カルシウム：10963_karushiumu⟧⟦の→の：09472_no⟧{含有量|がんゆうりょう}⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "This food has a high calcium content.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22566_ganyuuryou_ex3",
-      "japanese": "{水質|すいしつ}{検査|けんさ}で{有害|ゆうがい}{物質|ぶっしつ}の{含有量|がんゆうりょう}を{調|しら}べた。",
+      "japanese": "⟦{水質|すいしつ}→水質：22420_suishitsu⟧⟦{検査|けんさ}→検査：02707_kensa⟧⟦で→で：00502_de⟧⟦{有害|ゆうがい}{物質|ぶっしつ}→有害物質：22132_yuugaibusshitsu⟧⟦の→の：09472_no⟧{含有量|がんゆうりょう}⟦を→を：00422_wo⟧⟦{調|しら}べた→調べる：01213_shiraberu⟧。",
       "english": "We checked the content of harmful substances in the water quality test.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {含有|がんゆう} (containing, inclusion) and {量|りょう} (amount, quantity). Used in scientific, nutritional, and industrial contexts to express how much of a particular substance is contained in something.\n\nCOMMON COLLOCATIONS:\n- {含有量|がんゆうりょう}が{高|たか}い: high content\n- {含有量|がんゆうりょう}が{低|ひく}い: low content\n- {含有量|がんゆうりょう}を{測定|そくてい}する: to measure the content\n- {含有量|がんゆうりょう}を{調|しら}べる: to check the content\n- {栄養素|えいようそ}の{含有量|がんゆうりょう}: nutrient content\n\nSIMILAR WORDS:\n- {含有率|がんゆうりつ}: content ratio — expressed as a percentage rather than an absolute amount\n- {成分|せいぶん}: ingredient, component — refers to the substance itself rather than its quantity\n- {濃度|のうど}: concentration — the amount of a substance per unit volume of solution",
+  "notes": "A compound of ⟦{含有|がんゆう}→含有：20105_ganyuu⟧ (containing, inclusion) and ⟦{量|りょう}→量：03799_ryou⟧ (amount, quantity). Used in scientific, nutritional, and industrial contexts to express how much of a particular substance is contained in something.\n\nCOMMON COLLOCATIONS:\n- {含有量|がんゆうりょう}⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧: high content\n- {含有量|がんゆうりょう}⟦が→が：00051_ga⟧⟦{低|ひく}い→低い：02947_hikui⟧: low content\n- {含有量|がんゆうりょう}⟦を→を：00422_wo⟧⟦{測定|そくてい}→測定：04398_sokutei⟧⟦する→する：00392_suru⟧: to measure the content\n- {含有量|がんゆうりょう}⟦を→を：00422_wo⟧⟦{調|しら}べる→調べる：01213_shiraberu⟧: to check the content\n- ⟦{栄養素|えいようそ}→栄養素：06207_eiyouso⟧⟦の→の：09472_no⟧{含有量|がんゆうりょう}: nutrient content\n\nSIMILAR WORDS:\n- {含有率|がんゆうりつ}: content ratio — expressed as a percentage rather than an absolute amount\n- ⟦{成分|せいぶん}→成分：04344_seibun⟧: ingredient, component — refers to the substance itself rather than its quantity\n- ⟦{濃度|のうど}→濃度：00325_noudo⟧: concentration — the amount of a substance per unit volume of solution",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04344_seibun",
+      "reading": "せいぶん",
+      "headword": "{成分|せいぶん}",
+      "label": "ingredient, component"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00325_noudo",
+      "reading": "のうど",
+      "headword": "{濃度|のうど}",
+      "label": "concentration"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +76,6 @@
       "politeness": "plain"
     },
     "created": "2026-04-06T18:12:15Z",
-    "modified": "2026-07-30T15:22:32Z"
+    "modified": "2026-09-02T04:02:08Z"
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "20554_keneki_ex1",
-      "japanese": "{空港|くうこう}の{検疫|けんえき}を{通|とお}る。",
+      "japanese": "⟦{空港|くうこう}→空港：00648_kuukou⟧⟦の→の：09472_no⟧{検疫|けんえき}⟦を→を：00422_wo⟧⟦{通|とお}る→通る：01243_tooru⟧。",
       "english": "To go through quarantine at the airport.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "20554_keneki_ex2",
-      "japanese": "{入国|にゅうこく}{時|じ}に{検疫|けんえき}で{体温|たいおん}を{測|はか}られた。",
+      "japanese": "⟦{入国|にゅうこく}→入国：15859_nyuukoku⟧⟦{時|じ}→時：09869_ji⟧⟦に→に：00314_ni⟧{検疫|けんえき}⟦で→で：00502_de⟧⟦{体温|たいおん}→体温：03385_taion⟧⟦を→を：00422_wo⟧⟦{測|はか}られた→測る：01977_hakaru⟧。",
       "english": "My temperature was taken at quarantine when entering the country.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "20554_keneki_ex3",
-      "japanese": "{感染症|かんせんしょう}の{拡大|かくだい}を{防|ふせ}ぐために、{検疫|けんえき}{体制|たいせい}が{強化|きょうか}された。",
+      "japanese": "⟦{感染症|かんせんしょう}→感染症：15681_kansenshou⟧⟦の→の：09472_no⟧⟦{拡大|かくだい}→拡大：02553_kakudai⟧⟦を→を：00422_wo⟧⟦{防|ふせ}ぐ→防ぐ：02409_fusegu⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧、{検疫|けんえき}⟦{体制|たいせい}→体制：04490_taisei⟧⟦が→が：00051_ga⟧⟦{強化|きょうか}→強化：00260_kyouka⟧⟦された→する：00392_suru⟧。",
       "english": "The quarantine system was strengthened to prevent the spread of infectious diseases.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "Refers to the official inspection process at national borders, airports, and seaports to prevent the introduction of infectious diseases or agricultural pests. The word combines {検|けん} (inspect) and {疫|えき} (epidemic).\n\nCOMMON COLLOCATIONS:\n- {検疫|けんえき}を{受|う}ける: to undergo quarantine inspection\n- {検疫|けんえき}を{通|とお}る: to pass through quarantine\n- {検疫|けんえき}{体制|たいせい}: quarantine system\n- {検疫|けんえき}{官|かん}: quarantine officer\n- {動物|どうぶつ}{検疫|けんえき}: animal quarantine\n- {植物|しょくぶつ}{検疫|けんえき}: plant quarantine\n\nUSAGE:\nIn Japan, quarantine inspection at airports and ports is handled by the Ministry of Health, Labour and Welfare. The term became widely known during pandemic-related travel restrictions. It applies to both health screening of people and inspection of imported food, animals, and plants.",
+  "notes": "Refers to the official inspection process at national borders, airports, and seaports to prevent the introduction of infectious diseases or agricultural pests. The word combines {検|けん} (inspect) and {疫|えき} (epidemic).\n\nCOMMON COLLOCATIONS:\n- {検疫|けんえき}⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧: to undergo quarantine inspection\n- {検疫|けんえき}⟦を→を：00422_wo⟧⟦{通|とお}る→通る：01243_tooru⟧: to pass through quarantine\n- {検疫|けんえき}⟦{体制|たいせい}→体制：04490_taisei⟧: quarantine system\n- {検疫|けんえき}{官|かん}: quarantine officer\n- ⟦{動物|どうぶつ}→動物：01480_doubutsu⟧{検疫|けんえき}: animal quarantine\n- ⟦{植物|しょくぶつ}→植物：03248_shokubutsu⟧{検疫|けんえき}: plant quarantine\n\nUSAGE:\nIn Japan, quarantine inspection at airports and ports is handled by the Ministry of Health, Labour and Welfare. The term became widely known during pandemic-related travel restrictions. It applies to both health screening of people and inspection of imported food, animals, and plants.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "19565_nyuukokushinsa",
+      "reading": "にゅうこくしんさ",
+      "headword": "{入国審査|にゅうこくしんさ}",
+      "label": "immigration inspection"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +69,6 @@
       ]
     },
     "created": "2026-03-29T18:06:58Z",
-    "modified": "2026-07-28T09:35:50Z"
+    "modified": "2026-09-02T04:02:00Z"
   }
 }

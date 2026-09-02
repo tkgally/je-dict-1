@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "16254_kiten_ex1",
-      "japanese": "ここが{旅|たび}の{起点|きてん}だ。",
+      "japanese": "⟦ここ→ここ：00961_koko⟧⟦が→が：00051_ga⟧⟦{旅|たび}→旅：03407_tabi⟧⟦の→の：09472_no⟧{起点|きてん}だ。",
       "english": "This is the starting point of the journey.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16254_kiten_ex2",
-      "japanese": "{東京駅|とうきょうえき}を{起点|きてん}にして{全国|ぜんこく}に{広|ひろ}がる。",
+      "japanese": "{東京駅|とうきょうえき}⟦を→を：00422_wo⟧{起点|きてん}にして⟦{全国|ぜんこく}→全国：03311_zenkoku⟧⟦に→に：00314_ni⟧⟦{広|ひろ}がる→広がる：01980_hirogaru⟧。",
       "english": "It spreads across the country with Tokyo Station as its starting point.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16254_kiten_ex3",
-      "japanese": "この{事件|じけん}が{社会|しゃかい}{変革|へんかく}の{起点|きてん}となった。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{事件|じけん}→事件：01568_jiken⟧⟦が→が：00051_ga⟧⟦{社会|しゃかい}→社会：01427_shakai⟧⟦{変革|へんかく}→変革：12100_henkaku⟧⟦の→の：09472_no⟧{起点|きてん}⟦と→と：00512_to⟧⟦なった→なる：01970_naru⟧。",
       "english": "This incident became the starting point of social reform.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{起点|きてん} is composed of {起|き} (rise, start) + {点|てん} (point).\n\nCOMMON PATTERNS:\n- 〜を{起点|きてん}にする: to use ~ as a starting point\n- 〜を{起点|きてん}として: starting from ~\n- 〜が{起点|きてん}となる: to become the starting point\n\nCOMMON COLLOCATIONS:\n- {出発|しゅっぱつ}の{起点|きてん}: starting point of departure\n- {起点|きてん}から{終点|しゅうてん}まで: from start to finish\n\nSIMILAR WORDS: {出発点|しゅっぱつてん} is a close synonym but more commonly used for journeys and metaphorical beginnings. {起点|きてん} is more formal and often used for routes, systems, and historical developments.",
+  "notes": "{起点|きてん} is composed of {起|き} (rise, start) + ⟦{点|てん}→点：01553_ten⟧ (point).\n\nCOMMON PATTERNS:\n- 〜⟦を→を：00422_wo⟧{起点|きてん}⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧: to use ~ as a starting point\n- 〜⟦を→を：00422_wo⟧{起点|きてん}⟦として→として：06802_toshite⟧: starting from ~\n- 〜⟦が→が：00051_ga⟧{起点|きてん}⟦と→と：00512_to⟧⟦なる→なる：01970_naru⟧: to become the starting point\n\nCOMMON COLLOCATIONS:\n- ⟦{出発|しゅっぱつ}→出発：02085_shuppatsu⟧⟦の→の：09472_no⟧{起点|きてん}: starting point of departure\n- {起点|きてん}⟦から→から：00504_kara⟧⟦{終点|しゅうてん}→終点：05457_shuuten⟧⟦まで→まで：00490_made⟧: from start to finish\n\nSIMILAR WORDS: ⟦{出発点|しゅっぱつてん}→出発点：05816_shuppatsuten⟧ is a close synonym but more commonly used for journeys and metaphorical beginnings. {起点|きてん} is more formal and often used for routes, systems, and historical developments.",
   "cross_references": [
     {
       "type": "antonym",
@@ -53,17 +59,35 @@
       "reading": "しゅっぱつてん",
       "headword": "{出発点|しゅっぱつてん}",
       "label": "starting point (journeys)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23087_shiten",
+      "reading": "してん",
+      "headword": "{始点|してん}",
+      "label": "starting point"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26069_shihatsueki",
+      "reading": "しはつえき",
+      "headword": "{始発駅|しはつえき}",
+      "label": "starting station"
     }
   ],
   "metadata": {
     "created": "2026-03-11T10:30:57Z",
-    "modified": "2026-05-03T07:09:48Z",
+    "modified": "2026-09-02T04:01:44Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

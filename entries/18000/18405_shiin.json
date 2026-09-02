@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "18405_shiin_ex1",
-      "japanese": "「k」は{子音|しいん}だ。",
+      "japanese": "「k」⟦は→は：00079_ha⟧{子音|しいん}だ。",
       "english": "\"k\" is a consonant.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "18405_shiin_ex2",
-      "japanese": "{日本語|にほんご}の{子音|しいん}は{英語|えいご}より{少|すく}ない。",
+      "japanese": "⟦{日本語|にほんご}→日本語：00614_nihongo⟧⟦の→の：09472_no⟧{子音|しいん}⟦は→は：00079_ha⟧⟦{英語|えいご}→英語：02274_eigo⟧⟦より→より：09476_yori⟧⟦{少|すく}ない→少ない：01136_sukunai⟧。",
       "english": "Japanese has fewer consonants than English.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "18405_shiin_ex3",
-      "japanese": "{子音|しいん}と{母音|ぼいん}の{組|く}み{合|あ}わせで{音節|おんせつ}ができる。",
+      "japanese": "{子音|しいん}⟦と→と：00512_to⟧⟦{母音|ぼいん}→母音：13205_boin⟧⟦の→の：09472_no⟧⟦{組|く}み{合|あ}わせ→組み合わせ：13794_kumiawase⟧⟦で→で：00502_de⟧{音節|おんせつ}⟦が→が：00051_ga⟧⟦できる→できる：00557_dekiru⟧。",
       "english": "Syllables are formed by combining consonants and vowels.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "{子音|しいん} is the opposite of {母音|ぼいん} (vowel).\n\nCOMMON COLLOCATIONS:\n- {子音|しいん}と{母音|ぼいん} — consonants and vowels\n- {有声|ゆうせい}{子音|しいん} — voiced consonant\n- {無声|むせい}{子音|しいん} — voiceless consonant\n- {子音|しいん}{連続|れんぞく} — consonant cluster\n\nIn Japanese phonology, most syllables consist of one {子音|しいん} followed by one {母音|ぼいん} (CV structure), with the notable exception of ん (the moraic nasal).",
+  "notes": "{子音|しいん} is the opposite of ⟦{母音|ぼいん}→母音：13205_boin⟧ (vowel).\n\nCOMMON COLLOCATIONS:\n- {子音|しいん}⟦と→と：00512_to⟧⟦{母音|ぼいん}→母音：13205_boin⟧ — consonants and vowels\n- {有声|ゆうせい}{子音|しいん} — voiced consonant\n- {無声|むせい}{子音|しいん} — voiceless consonant\n- {子音|しいん}⟦{連続|れんぞく}→連続：03783_renzoku⟧ — consonant cluster\n\nIn Japanese phonology, most syllables consist of one {子音|しいん} followed by one ⟦{母音|ぼいん}→母音：13205_boin⟧ (CV structure), with the notable exception of ん (the moraic nasal).",
   "cross_references": [
     {
       "type": "antonym",
@@ -46,18 +52,29 @@
       "reading": "ぼいん",
       "headword": "{母音|ぼいん}",
       "label": "vowel"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23274_masatsuon",
+      "reading": "まさつおん",
+      "headword": "{摩擦音|まさつおん}",
+      "label": "fricative (sound)"
     }
   ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["education"]
+      "semantic": [
+        "education"
+      ]
     },
     "created": "2026-03-22T00:38:55Z",
-    "modified": "2026-04-28T06:26:02Z"
+    "modified": "2026-09-02T04:01:52Z"
   }
 }

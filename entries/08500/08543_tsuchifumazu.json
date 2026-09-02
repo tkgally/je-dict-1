@@ -14,38 +14,79 @@
   "examples": [
     {
       "id": "08543_tsuchifumazu_ex1",
-      "japanese": "{土踏|つちふ}まずが{痛|いた}い。",
+      "japanese": "{土踏|つちふ}まず⟦が→が：00051_ga⟧⟦{痛|いた}い→痛い：01108_itai⟧。",
       "english": "My arch hurts.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "08543_tsuchifumazu_ex2",
-      "japanese": "{土踏|つちふ}まずの{高|たか}い{靴|くつ}を{選|えら}んだ。",
+      "japanese": "{土踏|つちふ}まず⟦の→の：09472_no⟧⟦{高|たか}い→高い：00500_takai⟧⟦{靴|くつ}→靴：00725_kutsu⟧⟦を→を：00422_wo⟧⟦{選|えら}んだ→選ぶ：00835_erabu⟧。",
       "english": "I chose shoes with good arch support.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "08543_tsuchifumazu_ex3",
-      "japanese": "{扁平足|へんぺいそく}で{土踏|つちふ}まずがない。",
+      "japanese": "⟦{扁平足|へんぺいそく}→扁平足：24889_henpeisoku⟧⟦で→で：00502_de⟧{土踏|つちふ}まず⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧。",
       "english": "I have flat feet and no arch.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "BODY PART:\n{土踏|つちふ}まず literally means \"doesn't touch the ground\" ({土|つち} = ground, {踏|ふ}む = to step on, ず = negative). It refers to the arch of the foot that doesn't touch the ground when standing.\n\nMEDICAL TERMS:\n- {扁平足|へんぺいそく} - flat feet (no arch)\n- {偏平足|へんぺいそく} - alternate writing for flat feet\n- ハイアーチ - high arch\n\nCOMMON COLLOCATIONS:\n- {土踏|つちふ}まずが{発達|はったつ}する - for the arch to develop\n- {土踏|つちふ}まずをサポートする - to support the arch\n\nRELATED:\n- {足|あし} - foot/leg\n- {足裏|あしうら} - sole of the foot\n- {かかと} - heel",
+  "notes": "BODY PART:\n{土踏|つちふ}まず literally means \"doesn't touch the ground\" (⟦{土|つち}→土：02229_tsuchi⟧ = ground, ⟦{踏|ふ}む→踏む：01197_fumu⟧ = to step on, ず = negative). It refers to the arch of the foot that doesn't touch the ground when standing.\n\nMEDICAL TERMS:\n- ⟦{扁平足|へんぺいそく}→扁平足：24889_henpeisoku⟧ - flat feet (no arch)\n- {偏平足|へんぺいそく} - alternate writing for flat feet\n- ハイアーチ - high arch\n\nCOMMON COLLOCATIONS:\n- {土踏|つちふ}まず⟦が→が：00051_ga⟧⟦{発達|はったつ}→発達：03559_hattatsu⟧⟦する→する：00392_suru⟧ - for the arch to develop\n- {土踏|つちふ}まず⟦を→を：00422_wo⟧⟦サポート→サポート：07776_sapooto⟧⟦する→する：00392_suru⟧ - to support the arch\n\nRELATED WORDS:\n- ⟦{足|あし}→足：00575_ashi⟧ - foot/leg\n- ⟦{足裏|あしうら}→足裏：23068_ashiura⟧ - sole of the foot\n- かかと - heel",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "00575_ashi",
+      "reading": "あし",
+      "headword": "{足|あし}",
+      "label": "foot/leg"
+    },
+    {
+      "type": "related",
+      "target_id": "23068_ashiura",
+      "reading": "あしうら",
+      "headword": "{足裏|あしうら}",
+      "label": "sole of the foot"
+    },
+    {
+      "type": "related",
+      "target_id": "04265_kakato",
+      "reading": "かかと",
+      "headword": "{踵|かかと}",
+      "label": "heel"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24889_henpeisoku",
+      "reading": "へんぺいそく",
+      "headword": "{扁平足|へんぺいそく}",
+      "label": "flat feet"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "semantic": ["body-part"]
+      "politeness": "plain",
+      "semantic": [
+        "body-part"
+      ]
     },
     "created": "2026-01-27T11:29:42Z",
-    "modified": "2026-07-03T15:18:32Z"
+    "modified": "2026-09-02T04:01:15Z"
   }
 }

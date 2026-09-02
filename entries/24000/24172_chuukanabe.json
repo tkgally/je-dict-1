@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24172_chuukanabe_ex1",
-      "japanese": "{中華鍋|ちゅうかなべ}で{炒|いた}める。",
+      "japanese": "{中華鍋|ちゅうかなべ}⟦で→で：00502_de⟧⟦{炒|いた}める→炒める：01879_itameru⟧。",
       "english": "To stir-fry in a wok.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24172_chuukanabe_ex2",
-      "japanese": "{中華鍋|ちゅうかなべ}を{強火|つよび}で{熱|ねっ}してから{油|あぶら}を{入|い}れる。",
+      "japanese": "{中華鍋|ちゅうかなべ}⟦を→を：00422_wo⟧⟦{強火|つよび}→強火：08170_tsuyobi⟧⟦で→で：00502_de⟧⟦{熱|ねっ}して→熱する：09794_nessuru⟧⟦から→から：00504_kara⟧⟦{油|あぶら}→油：01693_abura⟧⟦を→を：00422_wo⟧⟦{入|い}れる→入れる：01098_ireru⟧。",
       "english": "Heat the wok on high flame, then add oil.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24172_chuukanabe_ex3",
-      "japanese": "{鉄製|てつせい}の{中華鍋|ちゅうかなべ}は{使|つか}い{込|こ}むほど{油|あぶら}が{馴染|なじ}んで{焦|こ}げつきにくくなる。",
+      "japanese": "⟦{鉄製|てつせい}→鉄製：25875_tetsusei⟧⟦の→の：09472_no⟧{中華鍋|ちゅうかなべ}⟦は→は：00079_ha⟧⟦{使|つか}い{込|こ}む→使い込む：07876_tsukaikomu⟧ほど⟦{油|あぶら}→油：01693_abura⟧⟦が→が：00051_ga⟧⟦{馴染|なじ}んで→馴染む：14631_najimu⟧{焦|こ}げつきにくく⟦なる→なる：01970_naru⟧。",
       "english": "An iron wok becomes more seasoned with use and less prone to sticking.",
       "sense_numbers": [
         1
@@ -44,14 +44,39 @@
       "notes": null
     }
   ],
-  "notes": "A round-bottomed, high-sided cooking pan used for stir-frying and other high-heat Chinese-style cooking. Standard equipment in Japanese home kitchens for making {炒|いた}め{物|もの} (stir-fry) and {焼|や}きそば.\n\nCOMMON COLLOCATIONS:\n- {中華鍋|ちゅうかなべ}で{炒|いた}める: to stir-fry in a wok\n- {中華鍋|ちゅうかなべ}を{振|ふ}る: to toss a wok\n- {鉄製|てつせい}の{中華鍋|ちゅうかなべ}: iron wok\n\nSIMILAR WORDS:\n- フライパン: frying pan — flat-bottomed; used for Western-style frying and sautéing\n- {鍋|なべ}: pot, pan — general term for any cooking pot or pan\n- {土鍋|どなべ}: clay pot — used for {鍋|なべ}{料理|りょうり} (hot pot dishes), not for stir-frying",
+  "notes": "A round-bottomed, high-sided cooking pan used for stir-frying and other high-heat Chinese-style cooking. Standard equipment in Japanese home kitchens for making ⟦{炒|いた}め{物|もの}→炒め物：08537_itamemono⟧ (stir-fry) and ⟦{焼|や}きそば→焼きそば：13405_yakisoba⟧.\n\nCOMMON COLLOCATIONS:\n- {中華鍋|ちゅうかなべ}⟦で→で：00502_de⟧⟦{炒|いた}める→炒める：01879_itameru⟧: to stir-fry in a wok\n- {中華鍋|ちゅうかなべ}⟦を→を：00422_wo⟧⟦{振|ふ}る→振る：01983_furu⟧: to toss a wok\n- ⟦{鉄製|てつせい}→鉄製：25875_tetsusei⟧⟦の→の：09472_no⟧{中華鍋|ちゅうかなべ}: iron wok\n\nSIMILAR WORDS:\n- ⟦フライパン→フライパン：01025_furaipan⟧: frying pan — flat-bottomed; used for Western-style frying and sautéing\n- ⟦{鍋|なべ}→鍋：01038_nabe⟧: pot, pan — general term for any cooking pot or pan\n- ⟦{土鍋|どなべ}→土鍋：07949_donabe⟧: clay pot — used for ⟦{鍋|なべ}{料理|りょうり}→鍋料理：19952_naberyouri⟧ (hot pot dishes), not for stir-frying",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01025_furaipan",
+      "reading": "ふらいぱん",
+      "headword": "フライパン",
+      "label": "frying pan"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07949_donabe",
+      "reading": "どなべ",
+      "headword": "{土鍋|どなべ}",
+      "label": "clay pot"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23918_tetsunabe",
+      "reading": "てつなべ",
+      "headword": "{鉄鍋|てつなべ}",
+      "label": "iron pot"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "food",
         "daily-life"
@@ -59,6 +84,6 @@
       "usage": []
     },
     "created": "2026-04-17T21:39:51Z",
-    "modified": "2026-08-02T18:32:34Z"
+    "modified": "2026-09-02T04:02:17Z"
   }
 }

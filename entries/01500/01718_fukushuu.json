@@ -2,7 +2,7 @@
   "id": "01718_fukushuu",
   "headword": "{復習|ふくしゅう}",
   "reading": "ふくしゅう",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "review, revision",
   "conjugation": {
     "type": "suru",
@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "01718_fukushuu_ex1",
-      "japanese": "⟦{毎日|まいにち}→毎日：00729_mainichi⟧{復習|ふくしゅう}しています。",
+      "japanese": "⟦{毎日|まいにち}→毎日：00729_mainichi⟧{復習|ふくしゅう}⟦しています→する：00392_suru⟧。",
       "english": "I review every day.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "01718_fukushuu_ex2",
-      "japanese": "⟦{試験|しけん}→試験：01422_shiken⟧⟦の→の：09472_no⟧⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧{復習|ふくしゅう}しなければなりません。",
+      "japanese": "⟦{試験|しけん}→試験：01422_shiken⟧⟦の→の：09472_no⟧⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧{復習|ふくしゅう}⟦しなければ→する：00392_suru⟧⟦なりません→なる：01970_naru⟧。",
       "english": "I have to review before the exam.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "01718_fukushuu_ex3",
-      "japanese": "⟦{今日|きょう}→今日：00496_kyou⟧⟦の→の：09472_no⟧⟦{授業|じゅぎょう}→授業：00781_jugyou⟧⟦を→を：00422_wo⟧{復習|ふくしゅう}しよう。",
+      "japanese": "⟦{今日|きょう}→今日：00496_kyou⟧⟦の→の：09472_no⟧⟦{授業|じゅぎょう}→授業：00781_jugyou⟧⟦を→を：00422_wo⟧{復習|ふくしゅう}⟦しよう→する：00392_suru⟧。",
       "english": "Let's review today's lesson.",
       "notes": null,
       "has_audio": false,
@@ -153,7 +153,7 @@
       ]
     }
   ],
-  "notes": "{復習|ふくしゅう} means reviewing what you've already learned.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- No standard intransitive pair\n- Pattern: [noun]⟦を→を：00422_wo⟧{復習|ふくしゅう}する\n\nLEARNING CYCLE:\n- ⟦{予習|よしゅう}→予習：01748_yoshuu⟧: preparation before class\n- ⟦{授業|じゅぎょう}→授業：00781_jugyou⟧: class/lesson\n- {復習|ふくしゅう}: review after class\n\nCOMMON PATTERNS:\n- {復習|ふくしゅう}する: to review\n- {復習|ふくしゅう}⟦を→を：00422_wo⟧⟦{忘|わす}れない→忘れる：00474_wasureru⟧: don't forget to review\n- 〜⟦を→を：00422_wo⟧{復習|ふくしゅう}する: to review ~\n\nOPPOSITE: ⟦{予習|よしゅう}→予習：01748_yoshuu⟧ (preparation/preview)\n\nNote: Don't confuse with ⟦{復讐|ふくしゅう}→復讐：12512_fukushuu⟧ (revenge) which uses different kanji but same reading.",
+  "notes": "{復習|ふくしゅう} means reviewing what you've already learned.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- No standard intransitive pair\n- Pattern: [noun]⟦を→を：00422_wo⟧{復習|ふくしゅう}⟦する→する：00392_suru⟧\n\nLEARNING CYCLE:\n- ⟦{予習|よしゅう}→予習：01748_yoshuu⟧: preparation before class\n- ⟦{授業|じゅぎょう}→授業：00781_jugyou⟧: class/lesson\n- {復習|ふくしゅう}: review after class\n\nCOMMON PATTERNS:\n- {復習|ふくしゅう}⟦する→する：00392_suru⟧: to review\n- {復習|ふくしゅう}⟦を→を：00422_wo⟧⟦{忘|わす}れない→忘れる：00474_wasureru⟧: don't forget to review\n- 〜⟦を→を：00422_wo⟧{復習|ふくしゅう}⟦する→する：00392_suru⟧: to review ~\n\nOPPOSITE: ⟦{予習|よしゅう}→予習：01748_yoshuu⟧ (preparation/preview)\n\nNote: Don't confuse with ⟦{復讐|ふくしゅう}→復讐：12512_fukushuu⟧ (revenge) which uses different kanji but same reading.",
   "cross_references": [
     {
       "type": "antonym",
@@ -161,11 +161,25 @@
       "headword": "{予習|よしゅう}",
       "label": "preparation/preview",
       "target_id": "01748_yoshuu"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21560_dokushuu",
+      "reading": "どくしゅう",
+      "headword": "{独習|どくしゅう}",
+      "label": "self-study"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24708_kateigakushuu",
+      "reading": "かていがくしゅう",
+      "headword": "{家庭学習|かていがくしゅう}",
+      "label": "home study"
     }
   ],
   "metadata": {
     "created": "2026-01-09T12:33:20Z",
-    "modified": "2026-05-16T20:08:32Z",
+    "modified": "2026-09-02T04:01:00Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

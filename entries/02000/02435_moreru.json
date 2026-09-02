@@ -2,7 +2,7 @@
   "id": "02435_moreru",
   "headword": "{漏|も}れる",
   "reading": "もれる",
-  "part_of_speech": "ichidan verb",
+  "part_of_speech": "verb (ichidan)",
   "gloss": "to leak",
   "conjugation": {
     "type": "ichidan",
@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "02435_moreru_ex1",
-      "japanese": "⟦{水|みず}→水：02258_mizu⟧⟦が→が：00051_ga⟧{漏|も}れている。",
+      "japanese": "⟦{水|みず}→水：02258_mizu⟧⟦が→が：00051_ga⟧{漏|も}れて⟦いる→いる：00495_iru⟧。",
       "english": "Water is leaking.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "02435_moreru_ex2",
-      "japanese": "⟦{光|ひかり}→光：01707_hikari⟧⟦が→が：00051_ga⟧{漏|も}れている。",
+      "japanese": "⟦{光|ひかり}→光：01707_hikari⟧⟦が→が：00051_ga⟧{漏|も}れて⟦いる→いる：00495_iru⟧。",
       "english": "Light is leaking through.",
       "notes": null,
       "has_audio": false,
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "{漏|も}れる means for something (liquid, gas, light, information) to escape or leak out.\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n- Pair: ⟦{漏|も}らす→漏らす：02436_morasu⟧ (transitive) - to leak/let escape\n\nCOMMON PATTERNS:\n- ⟦{水|みず}→水：02258_mizu⟧が{漏|も}れる: water leaks\n- ⟦{光|ひかり}→光：01707_hikari⟧が{漏|も}れる: light leaks through\n- ⟦{声|こえ}→声：02207_koe⟧が{漏|も}れる: a voice escapes\n- ⟦{情報|じょうほう}→情報：03348_jouhou⟧が{漏|も}れる: information leaks\n- ⟦{秘密|ひみつ}→秘密：02504_himitsu⟧が{漏|も}れる: a secret gets out\n\nASPECT:\n{漏|も}れている means 'is leaking' (ongoing state).\n\nRELATED EXPRESSIONS:\n- {漏|も}れなく: without omission, completely\n- ⟦{水漏|みずも}れ→水漏れ：07936_mizumore⟧: water leak (noun)\n- ⟦{情報漏洩|じょうほうろうえい}→情報漏洩：19198_jouhourouei⟧: information leak (formal)",
+  "notes": "{漏|も}れる means for something (liquid, gas, light, information) to escape or leak out.\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n- Pair: ⟦{漏|も}らす→漏らす：02436_morasu⟧ (transitive) - to leak/let escape\n\nCOMMON PATTERNS:\n- ⟦{水|みず}→水：02258_mizu⟧⟦が→が：00051_ga⟧{漏|も}れる: water leaks\n- ⟦{光|ひかり}→光：01707_hikari⟧⟦が→が：00051_ga⟧{漏|も}れる: light leaks through\n- ⟦{声|こえ}→声：02207_koe⟧⟦が→が：00051_ga⟧{漏|も}れる: a voice escapes\n- ⟦{情報|じょうほう}→情報：03348_jouhou⟧⟦が→が：00051_ga⟧{漏|も}れる: information leaks\n- ⟦{秘密|ひみつ}→秘密：02504_himitsu⟧⟦が→が：00051_ga⟧{漏|も}れる: a secret gets out\n\nASPECT (ている):\n{漏|も}れて⟦いる→いる：00495_iru⟧ means 'is leaking' (ongoing state).\n\nRELATED WORDS:\n- ⟦{漏|も}れ→漏れ：13362_more⟧⟦なく→ない：01118_nai⟧: without omission, completely\n- ⟦{水漏|みずも}れ→水漏れ：07936_mizumore⟧: water leak (noun)\n- ⟦{情報漏洩|じょうほうろうえい}→情報漏洩：19198_jouhourouei⟧: information leak (formal)",
   "prominent_see_also": [
     {
       "target_id": "02436_morasu",
@@ -142,10 +142,32 @@
       "note": "transitive"
     }
   ],
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "07936_mizumore",
+      "reading": "みずもれ",
+      "headword": "{水漏|みずも}れ",
+      "label": "water leak"
+    },
+    {
+      "type": "related",
+      "target_id": "19198_jouhourouei",
+      "reading": "じょうほうろうえい",
+      "headword": "{情報漏洩|じょうほうろうえい}",
+      "label": "information leak"
+    },
+    {
+      "type": "related",
+      "target_id": "07935_amamori",
+      "reading": "あまもり",
+      "headword": "{雨漏|あまも}り",
+      "label": "roof leak"
+    }
+  ],
   "metadata": {
     "created": "2026-01-09T08:58:32Z",
-    "modified": "2026-05-20T18:29:33Z",
+    "modified": "2026-09-02T04:01:01Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

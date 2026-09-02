@@ -3,7 +3,7 @@
   "headword": "{一新|いっしん}",
   "reading": "いっしん",
   "romaji": "isshin",
-  "part_of_speech": "noun, verb (する)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "complete renewal; overhaul; fresh start",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "19941_isshin_ex1",
-      "japanese": "{気分|きぶん}を{一新|いっしん}する。",
+      "japanese": "⟦{気分|きぶん}→気分：01306_kibun⟧⟦を→を：00422_wo⟧{一新|いっしん}⟦する→する：00392_suru⟧。",
       "english": "To completely refresh one's mood.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "19941_isshin_ex2",
-      "japanese": "{会社|かいしゃ}の{経営陣|けいえいじん}を{一新|いっしん}した。",
+      "japanese": "⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦の→の：09472_no⟧⟦{経営陣|けいえいじん}→経営陣：20535_keieijin⟧⟦を→を：00422_wo⟧{一新|いっしん}⟦した→する：00392_suru⟧。",
       "english": "The company's management team was completely overhauled.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "19941_isshin_ex3",
-      "japanese": "{店内|てんない}の{内装|ないそう}を{一新|いっしん}して、リニューアルオープンした。",
+      "japanese": "⟦{店内|てんない}→店内：03124_tennai⟧⟦の→の：09472_no⟧⟦{内装|ないそう}→内装：06425_naisou⟧⟦を→を：00422_wo⟧{一新|いっしん}⟦して→する：00392_suru⟧、リニューアル⟦オープン→オープン：10831_oopun⟧⟦した→する：00392_suru⟧。",
       "english": "The store completely renovated its interior and reopened.",
       "sense_numbers": [
         1
@@ -134,7 +134,7 @@
       "notes": null
     }
   ],
-  "notes": "Emphasizes totality — not just a change, but a complete replacement or refresh. Common in business, organizational, and personal contexts. The word {面目|めんもく}{一新|いっしん} (complete transformation of image/reputation) is a well-known set phrase.\n\nCOMMON COLLOCATIONS:\n- {気分|きぶん}を{一新|いっしん}する: to refresh one's mood completely\n- メンバーを{一新|いっしん}する: to completely change the lineup\n- {面目|めんもく}{一新|いっしん}: dramatic transformation of one's image\n- {体制|たいせい}を{一新|いっしん}する: to overhaul the system\n\nSIMILAR WORDS:\n- {刷新|さっしん}: reform, overhaul — more formal, often for systems or organizations\n- リニューアル: renewal (loanword) — often for stores and websites\n- {改革|かいかく}: reform — broader, can be gradual",
+  "notes": "Emphasizes totality — not just a change, but a complete replacement or refresh. Common in business, organizational, and personal contexts. The word {面目|めんもく}{一新|いっしん} (complete transformation of image/reputation) is a well-known set phrase.\n\nCOMMON COLLOCATIONS:\n- ⟦{気分|きぶん}→気分：01306_kibun⟧⟦を→を：00422_wo⟧{一新|いっしん}⟦する→する：00392_suru⟧: to refresh one's mood completely\n- ⟦メンバー→メンバー：00275_menbaa⟧⟦を→を：00422_wo⟧{一新|いっしん}⟦する→する：00392_suru⟧: to completely change the lineup\n- {面目|めんもく}{一新|いっしん}: dramatic transformation of one's image\n- ⟦{体制|たいせい}→体制：04490_taisei⟧⟦を→を：00422_wo⟧{一新|いっしん}⟦する→する：00392_suru⟧: to overhaul the system\n\nSIMILAR WORDS:\n- ⟦{刷新|さっしん}→刷新：07520_sasshin⟧: reform, overhaul — more formal, often for systems or organizations\n- リニューアル: renewal (loanword) — often for stores and websites\n- ⟦{改革|かいかく}→改革：04815_kaikaku⟧: reform — broader, can be gradual",
   "prominent_see_also": [
     {
       "target_id": "11236_isshin",
@@ -144,6 +144,22 @@
     }
   ],
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07520_sasshin",
+      "reading": "さっしん",
+      "headword": "{刷新|さっしん}",
+      "label": "reform, overhaul"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04815_kaikaku",
+      "reading": "かいかく",
+      "headword": "{改革|かいかく}",
+      "label": "reform"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -159,6 +175,6 @@
       "verb_class": "suru"
     },
     "created": "2026-03-27T06:09:33Z",
-    "modified": "2026-03-27T06:09:33Z"
+    "modified": "2026-09-02T04:01:57Z"
   }
 }

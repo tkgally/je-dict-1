@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24945_shiseikyousei_ex1",
-      "japanese": "{姿勢矯正|しせいきょうせい}ベルトを{買|か}った。",
+      "japanese": "{姿勢矯正|しせいきょうせい}⟦ベルト→ベルト：01508_beruto⟧⟦を→を：00422_wo⟧⟦{買|か}った→買う：00489_kau⟧。",
       "english": "I bought a posture correction belt.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24945_shiseikyousei_ex2",
-      "japanese": "{整体|せいたい}で{姿勢矯正|しせいきょうせい}をしてもらった。",
+      "japanese": "⟦{整体|せいたい}→整体：27407_seitai⟧⟦で→で：00502_de⟧{姿勢矯正|しせいきょうせい}⟦を→を：00422_wo⟧⟦して→する：00392_suru⟧⟦もらった→もらう：00520_morau⟧。",
       "english": "I had my posture corrected at a chiropractic clinic.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24945_shiseikyousei_ex3",
-      "japanese": "デスクワークが{多|おお}い{人|ひと}は、{猫背|ねこぜ}になりやすいので、{日頃|ひごろ}から{姿勢矯正|しせいきょうせい}を{意識|いしき}することが{大切|たいせつ}だ。",
+      "japanese": "⟦デスク→デスク：23405_desuku⟧ワーク⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧⟦{人|ひと}→人：00476_hito⟧⟦は→は：00079_ha⟧、⟦{猫背|ねこぜ}→猫背：10133_nekoze⟧⟦に→に：00314_ni⟧⟦なり→なる：01970_naru⟧やすい⟦の→の：09472_no⟧で、⟦{日頃|ひごろ}→日頃：07284_higoro⟧⟦から→から：00504_kara⟧{姿勢矯正|しせいきょうせい}⟦を→を：00422_wo⟧⟦{意識|いしき}する→意識する：17974_ishikisuru⟧こと⟦が→が：00051_ga⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧だ。",
       "english": "People who do a lot of desk work tend to develop a hunched back, so it's important to be mindful of posture correction in daily life.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {姿勢|しせい} (posture) and {矯正|きょうせい} (correction; straightening). With the rise of desk jobs and smartphone use, {姿勢矯正|しせいきょうせい} has become a popular health topic in Japan. Products like posture belts, cushions, and {整体|せいたい} (chiropractic/bodywork) treatments are widely marketed.\n\nCOMMON COLLOCATIONS:\n- {姿勢矯正|しせいきょうせい}ベルト: posture correction belt\n- {姿勢矯正|しせいきょうせい}クッション: posture correction cushion\n- {姿勢矯正|しせいきょうせい}ストレッチ: posture correction stretches\n- {姿勢矯正|しせいきょうせい}{椅子|いす}: posture correction chair\n\nRELATED TERMS:\n- {猫背|ねこぜ}: hunched back, rounded shoulders\n- {整体|せいたい}: chiropractic treatment, bodywork\n- {骨盤矯正|こつばんきょうせい}: pelvic alignment correction\n- {歯列矯正|しれつきょうせい}: orthodontics (same {矯正|きょうせい}, different domain)",
+  "notes": "Compound of ⟦{姿勢|しせい}→姿勢：00371_shisei⟧ (posture) and ⟦{矯正|きょうせい}→矯正：14784_kyousei⟧ (correction; straightening). With the rise of desk jobs and smartphone use, {姿勢矯正|しせいきょうせい} has become a popular health topic in Japan. Products like posture belts, cushions, and ⟦{整体|せいたい}→整体：27407_seitai⟧ (chiropractic/bodywork) treatments are widely marketed.\n\nCOMMON COLLOCATIONS:\n- {姿勢矯正|しせいきょうせい}⟦ベルト→ベルト：01508_beruto⟧: posture correction belt\n- {姿勢矯正|しせいきょうせい}⟦クッション→クッション：10799_kusshon⟧: posture correction cushion\n- {姿勢矯正|しせいきょうせい}⟦ストレッチ→ストレッチ：05239_sutorecchi⟧: posture correction stretches\n- {姿勢矯正|しせいきょうせい}⟦{椅子|いす}→椅子：00706_isu⟧: posture correction chair\n\nRELATED WORDS:\n- ⟦{猫背|ねこぜ}→猫背：10133_nekoze⟧: hunched back, rounded shoulders\n- ⟦{整体|せいたい}→整体：27407_seitai⟧: chiropractic treatment, bodywork\n- {骨盤矯正|こつばんきょうせい}: pelvic alignment correction\n- {歯列矯正|しれつきょうせい}: orthodontics (same ⟦{矯正|きょうせい}→矯正：14784_kyousei⟧, different domain)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "10133_nekoze",
+      "reading": "ねこぜ",
+      "headword": "{猫背|ねこぜ}",
+      "label": "hunched back, rounded shoulders"
+    },
+    {
+      "type": "related",
+      "target_id": "27407_seitai",
+      "reading": "せいたい",
+      "headword": "{整体|せいたい}",
+      "label": "chiropractic treatment, bodywork"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,6 +78,6 @@
       ]
     },
     "created": "2026-04-21T14:20:24Z",
-    "modified": "2026-08-03T21:47:49Z"
+    "modified": "2026-09-02T04:02:20Z"
   }
 }

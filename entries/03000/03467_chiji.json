@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "{知事|ちじ} is the elected head of a ⟦{都道府県|とどうふけん}→都道府県：14502_todoufuken⟧ (prefecture). Japan has 47 prefectures, each with its own {知事|ちじ}.\n\nCOMMON PATTERNS:\n- 〜⟦{県|けん}→県：02151_ken⟧{知事|ちじ}: governor of ~ Prefecture\n- {知事|ちじ}⟦{選挙|せんきょ}→選挙：03303_senkyo⟧: gubernatorial election\n- {知事|ちじ}⟦に→に：00314_ni⟧⟦{当選|とうせん}→当選：07074_tousen⟧⟦する→する：00392_suru⟧: to be elected governor\n- {知事|ちじ}⟦に→に：00314_ni⟧⟦{立候補|りっこうほ}→立候補：13778_rikkouho⟧⟦する→する：00392_suru⟧: to run for governor\n\nRELATED TITLES:\n- ⟦{市長|しちょう}→市長：12472_shichou⟧: mayor (city)\n- ⟦{町長|ちょうちょう}→町長：13580_chouchou⟧: mayor (town)\n- ⟦{村長|そんちょう}→村長：13091_sonchou⟧: village chief\n- ⟦{総理大臣|そうりだいじん}→総理大臣：15205_souridaijin⟧: prime minister\n\nNOTE:\nThe titles vary by prefecture type: ⟦{東京都|とうきょうと}→東京：09564_toukyou⟧{知事|ちじ}, ⟦{大阪府|おおさかふ}→大阪：09779_oosaka⟧{知事|ちじ}, ⟦{北海道|ほっかいどう}→北海道：11010_hokkaidou⟧{知事|ちじ}, 〜⟦{県|けん}→県：02151_ken⟧{知事|ちじ}.",
+  "notes": "{知事|ちじ} is the elected head of a ⟦{都道府県|とどうふけん}→都道府県：14502_todoufuken⟧ (prefecture). Japan has 47 prefectures, each with its own {知事|ちじ}.\n\nCOMMON PATTERNS:\n- 〜⟦{県|けん}→県：02151_ken⟧{知事|ちじ}: governor of ~ Prefecture\n- {知事|ちじ}⟦{選挙|せんきょ}→選挙：03303_senkyo⟧: gubernatorial election\n- {知事|ちじ}⟦に→に：00314_ni⟧⟦{当選|とうせん}→当選：07074_tousen⟧⟦する→する：00392_suru⟧: to be elected governor\n- {知事|ちじ}⟦に→に：00314_ni⟧⟦{立候補|りっこうほ}→立候補：13778_rikkouho⟧⟦する→する：00392_suru⟧: to run for governor\n\nRELATED TITLES:\n- ⟦{市長|しちょう}→市長：12472_shichou⟧: mayor (city)\n- ⟦{町長|ちょうちょう}→町長：13580_chouchou⟧: mayor (town)\n- ⟦{村長|そんちょう}→村長：13091_sonchou⟧: village chief\n- ⟦{総理大臣|そうりだいじん}→総理大臣：15205_souridaijin⟧: prime minister\n\nUSAGE:\nThe titles vary by prefecture type: ⟦{東京都|とうきょうと}→東京：09564_toukyou⟧{知事|ちじ}, ⟦{大阪府|おおさかふ}→大阪：09779_oosaka⟧{知事|ちじ}, ⟦{北海道|ほっかいどう}→北海道：11010_hokkaidou⟧{知事|ちじ}, 〜⟦{県|けん}→県：02151_ken⟧{知事|ちじ}.",
   "cross_references": [
     {
       "type": "related",
@@ -71,11 +71,39 @@
       "headword": "{市長|しちょう}",
       "label": "mayor",
       "target_id": "12472_shichou"
+    },
+    {
+      "type": "related",
+      "target_id": "13580_chouchou",
+      "reading": "ちょうちょう",
+      "headword": "{町長|ちょうちょう}",
+      "label": "mayor"
+    },
+    {
+      "type": "related",
+      "target_id": "13091_sonchou",
+      "reading": "そんちょう",
+      "headword": "{村長|そんちょう}",
+      "label": "village chief"
+    },
+    {
+      "type": "related",
+      "target_id": "15205_souridaijin",
+      "reading": "そうりだいじん",
+      "headword": "{総理大臣|そうりだいじん}",
+      "label": "prime minister"
+    },
+    {
+      "type": "related",
+      "target_id": "09870_fu",
+      "reading": "ふ",
+      "headword": "{府|ふ}",
+      "label": "urban prefecture"
     }
   ],
   "metadata": {
     "created": "2026-01-12T09:16:30Z",
-    "modified": "2026-05-25T19:11:11Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

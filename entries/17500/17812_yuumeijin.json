@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "17812_yuumeijin_ex1",
-      "japanese": "あの{人|ひと}は{有名人|ゆうめいじん}らしい。",
+      "japanese": "⟦あの{人|ひと}→あの人：25922_anohito⟧⟦は→は：00079_ha⟧{有名人|ゆうめいじん}らしい。",
       "english": "That person seems to be a celebrity.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "17812_yuumeijin_ex2",
-      "japanese": "{有名人|ゆうめいじん}にサインをもらった。",
+      "japanese": "{有名人|ゆうめいじん}⟦に→に：00314_ni⟧⟦サイン→サイン：03846_sain⟧⟦を→を：00422_wo⟧⟦もらった→もらう：00520_morau⟧。",
       "english": "I got an autograph from a celebrity.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "17812_yuumeijin_ex3",
-      "japanese": "この{町|まち}は{多|おお}くの{有名人|ゆうめいじん}を{輩出|はいしゅつ}したことで{知|し}られている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{町|まち}→町：00613_machi⟧⟦は→は：00079_ha⟧{多|おお}く⟦の→の：09472_no⟧{有名人|ゆうめいじん}⟦を→を：00422_wo⟧⟦{輩出|はいしゅつ}→輩出：14396_haishutsu⟧⟦した→する：00392_suru⟧こと⟦で→で：00502_de⟧⟦{知|し}られている→知る：00458_shiru⟧。",
       "english": "This town is known for having produced many famous people.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{有名人|ゆうめいじん} is a neutral, general term for any well-known person. It can be used in both positive and negative contexts.\n\nCOMMON COLLOCATIONS:\n- {有名人|ゆうめいじん}の{私生活|しせいかつ} (a celebrity's private life)\n- {地元|じもと}の{有名人|ゆうめいじん} (a local celebrity)\n- {有名人|ゆうめいじん}になる (to become famous)\n\nSIMILAR WORDS:\n- {著名人|ちょめいじん}: a more formal synonym, often used in written contexts\n- {芸能人|げいのうじん}: specifically an entertainer or show business personality\n- セレブ: a loanword from \"celebrity,\" often implying wealth and glamour",
+  "notes": "USAGE:\n{有名人|ゆうめいじん} is a neutral, general term for any well-known person. It can be used in both positive and negative contexts.\n\nCOMMON COLLOCATIONS:\n- {有名人|ゆうめいじん}⟦の→の：09472_no⟧⟦{私生活|しせいかつ}→私生活：15112_shiseikatsu⟧ (a celebrity's private life)\n- ⟦{地元|じもと}→地元：09941_jimoto⟧⟦の→の：09472_no⟧{有名人|ゆうめいじん} (a local celebrity)\n- {有名人|ゆうめいじん}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧ (to become famous)\n\nSIMILAR WORDS:\n- ⟦{著名人|ちょめいじん}→著名人：23055_chomeijin⟧: a more formal synonym, often used in written contexts\n- ⟦{芸能人|げいのうじん}→芸能人：14959_geinoujin⟧: specifically an entertainer or show business personality\n- ⟦セレブ→セレブ：17675_serebu⟧: a loanword from \"celebrity,\" often implying wealth and glamour",
   "cross_references": [
     {
       "type": "synonym",
@@ -59,11 +59,46 @@
       "reading": "ゆうめい",
       "headword": "{有名|ゆうめい}",
       "label": "famous"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14959_geinoujin",
+      "reading": "げいのうじん",
+      "headword": "{芸能人|げいのうじん}",
+      "label": "specifically an entertainer or show…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17675_serebu",
+      "reading": "せれぶ",
+      "headword": "セレブ",
+      "label": "a loanword from \"celebrity,\" often…"
+    },
+    {
+      "type": "related",
+      "target_id": "00393_sutaa",
+      "reading": "すたー",
+      "headword": "スター",
+      "label": "star (celebrity)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19887_ninkimono",
+      "reading": "にんきもの",
+      "headword": "{人気者|にんきもの}",
+      "label": "popular person"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21860_meishi",
+      "reading": "めいし",
+      "headword": "{名士|めいし}",
+      "label": "notable person"
     }
   ],
   "metadata": {
     "created": "2026-03-19T04:18:56Z",
-    "modified": "2026-08-04T18:18:49Z",
+    "modified": "2026-09-02T04:01:49Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

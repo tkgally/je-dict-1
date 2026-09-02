@@ -15,41 +15,60 @@
   "examples": [
     {
       "id": "17530_chiebukuro_ex1",
-      "japanese": "{彼|かれ}はチームの{知恵袋|ちえぶくろ}だ。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦チーム→チーム：03858_chiimu⟧⟦の→の：09472_no⟧{知恵袋|ちえぶくろ}だ。",
       "english": "He is the brain of the team.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17530_chiebukuro_ex2",
-      "japanese": "{困|こま}ったときは{祖母|そぼ}が{知恵袋|ちえぶくろ}になってくれる。",
+      "japanese": "⟦{困|こま}った→困る：00861_komaru⟧とき⟦は→は：00079_ha⟧⟦{祖母|そぼ}→祖母：00813_sobo⟧⟦が→が：00051_ga⟧{知恵袋|ちえぶくろ}になって⟦くれる→くれる：00724_kureru⟧。",
       "english": "When I'm in trouble, my grandmother serves as my source of wisdom.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17530_chiebukuro_ex3",
-      "japanese": "{社長|しゃちょう}の{知恵袋|ちえぶくろ}として{長年|ながねん}{会社|かいしゃ}を{支|ささ}えてきた。",
+      "japanese": "⟦{社長|しゃちょう}→社長：01428_shachou⟧⟦の→の：09472_no⟧{知恵袋|ちえぶくろ}⟦として→として：06802_toshite⟧⟦{長年|ながねん}→長年：09684_naganen⟧⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦を→を：00422_wo⟧⟦{支|ささ}えて→支える：01946_sasaeru⟧きた。",
       "english": "He has supported the company for many years as the president's trusted advisor.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nLiterally \"bag of wisdom.\" Used to describe someone whose knowledge and judgment are relied upon. In historical contexts, it often referred to the strategist or advisor behind a powerful leader. Also known as the name of Yahoo! Japan's Q&A service (Yahoo!{知恵袋|ちえぶくろ}).\n\nCOMMON COLLOCATIONS:\n- {知恵袋|ちえぶくろ}として{活躍|かつやく}する (to play an active role as an advisor)\n- {知恵袋|ちえぶくろ}になる (to become an advisor)\n- チームの{知恵袋|ちえぶくろ} (the team's brain)\n\nSIMILAR WORDS:\n- {参謀|さんぼう}: strategist, staff officer — more military/organizational\n- {相談役|そうだんやく}: advisor, consultant — more formal title\n- ブレーン: brain (loanword) — used similarly for trusted advisors",
-  "cross_references": [],
+  "notes": "USAGE:\nLiterally \"bag of wisdom.\" Used to describe someone whose knowledge and judgment are relied upon. In historical contexts, it often referred to the strategist or advisor behind a powerful leader. Also known as the name of Yahoo! Japan's Q&A service (Yahoo!{知恵袋|ちえぶくろ}).\n\nCOMMON COLLOCATIONS:\n- {知恵袋|ちえぶくろ}⟦として→として：06802_toshite⟧⟦{活躍|かつやく}する→活躍する：25354_katsuyakusuru⟧ (to play an active role as an advisor)\n- {知恵袋|ちえぶくろ}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧ (to become an advisor)\n- ⟦チーム→チーム：03858_chiimu⟧⟦の→の：09472_no⟧{知恵袋|ちえぶくろ} (the team's brain)\n\nSIMILAR WORDS:\n- {参謀|さんぼう}: strategist, staff officer — more military/organizational\n- ⟦{相談役|そうだんやく}→相談役：20958_soudanyaku⟧: advisor, consultant — more formal title\n- ブレーン: brain (loanword) — used similarly for trusted advisors",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20958_soudanyaku",
+      "reading": "そうだんやく",
+      "headword": "{相談役|そうだんやく}",
+      "label": "advisor, consultant"
+    }
+  ],
   "metadata": {
     "created": "2026-03-18T08:02:34Z",
-    "modified": "2026-03-18T08:02:34Z",
+    "modified": "2026-09-02T04:01:48Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["person", "cognition"]
+      "semantic": [
+        "person",
+        "cognition"
+      ]
     }
   }
 }

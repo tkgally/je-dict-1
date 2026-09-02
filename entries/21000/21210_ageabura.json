@@ -15,40 +15,60 @@
   "examples": [
     {
       "id": "21210_ageabura_ex1",
-      "japanese": "{揚|あ}げ{油|あぶら}を{温|あたた}める。",
+      "japanese": "{揚|あ}げ{油|あぶら}⟦を→を：00422_wo⟧⟦{温|あたた}める→温める：02096_atatameru⟧。",
       "english": "To heat the frying oil.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21210_ageabura_ex2",
-      "japanese": "{揚|あ}げ{油|あぶら}の{温度|おんど}は{百八十度|ひゃくはちじゅうど}がいい。",
+      "japanese": "{揚|あ}げ{油|あぶら}⟦の→の：09472_no⟧⟦{温度|おんど}→温度：00333_ondo⟧⟦は→は：00079_ha⟧{百八十度|ひゃくはちじゅうど}⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧。",
       "english": "The frying oil should be at 180 degrees.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21210_ageabura_ex3",
-      "japanese": "{使|つか}い{終|お}わった{揚|あ}げ{油|あぶら}は、{固|かた}めて{燃|も}えるゴミとして{捨|す}てる。",
+      "japanese": "⟦{使|つか}い→使う：00473_tsukau⟧⟦{終|お}わった→終わる：00567_owaru⟧{揚|あ}げ{油|あぶら}⟦は→は：00079_ha⟧、⟦{固|かた}めて→固める：01929_katameru⟧⟦{燃|も}えるゴミ→燃えるゴミ：17105_moerugomi⟧⟦として→として：06802_toshite⟧⟦{捨|す}てる→捨てる：00892_suteru⟧。",
       "english": "Used frying oil should be solidified and disposed of as combustible waste.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Compound of {揚|あ}げる (to deep-fry) + {油|あぶら} (oil). Refers specifically to oil used for deep-frying, as opposed to cooking oil in general.\n\nCOMMON COLLOCATIONS:\n- {揚|あ}げ{油|あぶら}を{熱|ねっ}する: to heat frying oil\n- {揚|あ}げ{油|あぶら}の{温度|おんど}: frying oil temperature\n- {揚|あ}げ{油|あぶら}を{処理|しょり}する: to dispose of frying oil\n- {揚|あ}げ{油|あぶら}を{替|か}える: to change the frying oil\n\nRELATED WORDS:\n- サラダ{油|あぶら}: salad oil, vegetable oil — the most common type of oil used for frying in Japanese kitchens\n- {天|てん}ぷら{油|あぶら}: tempura oil — often used interchangeably with {揚|あ}げ{油|あぶら}\n- {廃油|はいゆ}: waste oil — used frying oil that needs to be disposed of\n\nCOOKING NOTE:\nProper frying oil temperature is important in Japanese cooking: around 160°C for low-temperature frying, 170-180°C for standard frying ({天|てん}ぷら, {唐揚|からあ}げ), and 180-190°C for high-temperature frying.",
+  "notes": "Compound of ⟦{揚|あ}げる→揚げる：16879_ageru⟧ (to deep-fry) + ⟦{油|あぶら}→油：01693_abura⟧ (oil). Refers specifically to oil used for deep-frying, as opposed to cooking oil in general.\n\nCOMMON COLLOCATIONS:\n- {揚|あ}げ{油|あぶら}⟦を→を：00422_wo⟧⟦{熱|ねっ}する→熱する：09794_nessuru⟧: to heat frying oil\n- {揚|あ}げ{油|あぶら}⟦の→の：09472_no⟧⟦{温度|おんど}→温度：00333_ondo⟧: frying oil temperature\n- {揚|あ}げ{油|あぶら}⟦を→を：00422_wo⟧⟦{処理|しょり}する→処理する：25531_shorisuru⟧: to dispose of frying oil\n- {揚|あ}げ{油|あぶら}⟦を→を：00422_wo⟧⟦{替|か}える→替える：13399_kaeru⟧: to change the frying oil\n\nRELATED WORDS:\n- ⟦サラダ{油|あぶら}→サラダ油：21131_saradaabura⟧: salad oil, vegetable oil — the most common type of oil used for frying in Japanese kitchens\n- ⟦{天|てん}ぷら→天ぷら：04948_tenpura⟧⟦{油|あぶら}→油：01693_abura⟧: tempura oil — often used interchangeably with {揚|あ}げ{油|あぶら}\n- {廃油|はいゆ}: waste oil — used frying oil that needs to be disposed of\n\nCOOKING NOTE:\nProper frying oil temperature is important in Japanese cooking: around 160°C for low-temperature frying, 170-180°C for standard frying (⟦{天|てん}ぷら→天ぷら：04948_tenpura⟧, ⟦{唐揚|からあ}げ→唐揚げ：04949_karaage⟧), and 180-190°C for high-temperature frying.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "21131_saradaabura",
+      "reading": "さらだあぶら",
+      "headword": "サラダ{油|あぶら}",
+      "label": "salad oil, vegetable oil"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food", "cooking"]
+      "semantic": [
+        "food",
+        "cooking"
+      ]
     },
     "created": "2026-04-01T14:16:10Z",
-    "modified": "2026-04-01T14:16:10Z"
+    "modified": "2026-09-02T04:02:02Z"
   }
 }

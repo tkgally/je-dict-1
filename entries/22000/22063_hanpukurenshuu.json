@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22063_hanpukurenshuu_ex1",
-      "japanese": "{反復|はんぷく}{練習|れんしゅう}が{大切|たいせつ}だ。",
+      "japanese": "{反復|はんぷく}{練習|れんしゅう}⟦が→が：00051_ga⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧だ。",
       "english": "Repetitive practice is important.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22063_hanpukurenshuu_ex2",
-      "japanese": "ピアノは{反復|はんぷく}{練習|れんしゅう}で{上達|じょうたつ}する。",
+      "japanese": "⟦ピアノ→ピアノ：01376_piano⟧⟦は→は：00079_ha⟧{反復|はんぷく}{練習|れんしゅう}⟦で→で：00502_de⟧⟦{上達|じょうたつ}する→上達する：17981_joutatsusuru⟧。",
       "english": "Piano improves through repeated practice.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22063_hanpukurenshuu_ex3",
-      "japanese": "{漢字|かんじ}を{覚|おぼ}えるには{反復|はんぷく}{練習|れんしゅう}が{最|もっと}も{効果的|こうかてき}だと{言|い}われている。",
+      "japanese": "⟦{漢字|かんじ}→漢字：09480_kanji⟧⟦を→を：00422_wo⟧⟦{覚|おぼ}える→覚える：00739_oboeru⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{反復|はんぷく}{練習|れんしゅう}⟦が→が：00051_ga⟧⟦{最|もっと}も→最も：01736_mottomo⟧⟦{効果的|こうかてき}→効果的：04793_koukateki⟧だ⟦と→と：00512_to⟧⟦{言|い}われている→言う：00515_iu⟧。",
       "english": "It is said that repetitive practice is the most effective way to learn kanji.",
       "sense_numbers": [
         1
@@ -44,20 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {反復|はんぷく} (repetition) and {練習|れんしゅう} (practice). Refers to a learning method based on repeating the same action many times to build skill or memory. Commonly used in education, music, sports, and language learning contexts.\n\nCOMMON COLLOCATIONS:\n- {反復|はんぷく}{練習|れんしゅう}をする: to do repetitive practice\n- {反復|はんぷく}{練習|れんしゅう}で{身|み}につける: to master through repetitive practice\n- {反復|はんぷく}{練習|れんしゅう}を{繰|く}り{返|かえ}す: to keep doing drills\n\nSIMILAR WORDS:\n- {繰|く}り{返|かえ}し{練習|れんしゅう} — repeated practice (more conversational)\n- {基礎|きそ}{練習|れんしゅう} — basic practice; fundamental drills\n- ドリル — drill (loanword, often used for workbook exercises)",
+  "notes": "A compound of ⟦{反復|はんぷく}→反復：11096_hanpuku⟧ (repetition) and ⟦{練習|れんしゅう}→練習：05323_renshuu⟧ (practice). Refers to a learning method based on repeating the same action many times to build skill or memory. Commonly used in education, music, sports, and language learning contexts.\n\nCOMMON COLLOCATIONS:\n- {反復|はんぷく}{練習|れんしゅう}⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧: to do repetitive practice\n- {反復|はんぷく}{練習|れんしゅう}⟦で→で：00502_de⟧⟦{身|み}につける→身につける：03158_minitsukeru⟧: to master through repetitive practice\n- {反復|はんぷく}{練習|れんしゅう}⟦を→を：00422_wo⟧⟦{繰|く}り{返|かえ}す→繰り返す：02051_kurikaesu⟧: to keep doing drills\n\nSIMILAR WORDS:\n- ⟦{繰|く}り{返|かえ}し→繰り返す：02051_kurikaesu⟧⟦{練習|れんしゅう}→練習：05323_renshuu⟧ — repeated practice (more conversational)\n- ⟦{基礎|きそ}→基礎：03981_kiso⟧⟦{練習|れんしゅう}→練習：05323_renshuu⟧ — basic practice; fundamental drills\n- ⟦ドリル→ドリル：11148_doriru⟧ — drill (loanword, often used for workbook exercises)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11148_doriru",
+      "reading": "どりる",
+      "headword": "ドリル",
+      "label": "drill"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "education"
       ],
       "usage_context": []
     },
     "created": "2026-04-04T22:16:25Z",
-    "modified": "2026-04-04T22:16:25Z"
+    "modified": "2026-09-02T04:02:06Z"
   }
 }

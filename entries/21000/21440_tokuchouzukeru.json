@@ -3,7 +3,7 @@
   "headword": "{特徴|とくちょう}づける",
   "reading": "とくちょうづける",
   "romaji": "tokuchouzukeru",
-  "part_of_speech": "verb",
+  "part_of_speech": "verb (ichidan)",
   "gloss": "to characterize; to be distinctive of",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21440_tokuchouzukeru_ex1",
-      "japanese": "この{作品|さくひん}を{特徴|とくちょう}づけるのは{独特|どくとく}な{色使|いろづか}いだ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{作品|さくひん}→作品：02776_sakuhin⟧⟦を→を：00422_wo⟧{特徴|とくちょう}づける⟦の→の：09472_no⟧⟦は→は：00079_ha⟧⟦{独特|どくとく}→独特：01656_dokutoku⟧な{色使|いろづか}いだ。",
       "english": "What characterizes this work is its unique use of color.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21440_tokuchouzukeru_ex2",
-      "japanese": "{多様性|たようせい}が{現代|げんだい}{社会|しゃかい}を{特徴|とくちょう}づけている。",
+      "japanese": "⟦{多様性|たようせい}→多様性：04825_tayousei⟧⟦が→が：00051_ga⟧⟦{現代|げんだい}{社会|しゃかい}→現代社会：11501_gendaishakai⟧⟦を→を：00422_wo⟧{特徴|とくちょう}づけて⟦いる→いる：00495_iru⟧。",
       "english": "Diversity characterizes modern society.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21440_tokuchouzukeru_ex3",
-      "japanese": "{急速|きゅうそく}な{技術|ぎじゅつ}{革新|かくしん}と{情報|じょうほう}の{大量|たいりょう}{消費|しょうひ}が、この{時代|じだい}を{特徴|とくちょう}づけていると{言|い}えるだろう。",
+      "japanese": "⟦{急速|きゅうそく}→急速：02634_kyuusoku⟧な⟦{技術|ぎじゅつ}{革新|かくしん}→技術革新：12892_gijutsukakushin⟧⟦と→と：00512_to⟧⟦{情報|じょうほう}→情報：03348_jouhou⟧⟦の→の：09472_no⟧⟦{大量|たいりょう}{消費|しょうひ}→大量消費：17905_tairyoushouhi⟧⟦が→が：00051_ga⟧、⟦この→この：00962_kono⟧⟦{時代|じだい}→時代：01424_jidai⟧⟦を→を：00422_wo⟧{特徴|とくちょう}づけて⟦いる→いる：00495_iru⟧⟦と→と：00512_to⟧⟦{言|い}える→言う：00515_iu⟧だろう。",
       "english": "One could say that rapid technological innovation and massive information consumption characterize this era.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Formed from the noun {特徴|とくちょう} (characteristic, feature) plus the verb-forming suffix づける (to give, to attach). This is an ichidan verb. Common in academic writing, essays, and analytical discussion.\n\nCOMMON COLLOCATIONS:\n- {時代|じだい}を{特徴|とくちょう}づける: to characterize an era\n- {文化|ぶんか}を{特徴|とくちょう}づける: to define a culture\n- {作品|さくひん}を{特徴|とくちょう}づける: to characterize a work\n\nSIMILAR WORDS:\n- {特徴|とくちょう}がある: to have a characteristic — describes having features, rather than defining something by them\n- {象徴|しょうちょう}する: to symbolize — represents something abstractly rather than defining its nature\n- {定義|ていぎ}する: to define — more precise and logical; used for formal definitions",
+  "notes": "Formed from the noun ⟦{特徴|とくちょう}→特徴：03456_tokuchou⟧ (characteristic, feature) plus the verb-forming suffix づける (to give, to attach). This is an ichidan verb. Common in academic writing, essays, and analytical discussion.\n\nCOMMON COLLOCATIONS:\n- ⟦{時代|じだい}→時代：01424_jidai⟧⟦を→を：00422_wo⟧{特徴|とくちょう}づける: to characterize an era\n- ⟦{文化|ぶんか}→文化：01504_bunka⟧⟦を→を：00422_wo⟧{特徴|とくちょう}づける: to define a culture\n- ⟦{作品|さくひん}→作品：02776_sakuhin⟧⟦を→を：00422_wo⟧{特徴|とくちょう}づける: to characterize a work\n\nSIMILAR WORDS:\n- ⟦{特徴|とくちょう}→特徴：03456_tokuchou⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧: to have a characteristic — describes having features, rather than defining something by them\n- ⟦{象徴|しょうちょう}→象徴：05534_shouchou⟧⟦する→する：00392_suru⟧: to symbolize — represents something abstractly rather than defining its nature\n- ⟦{定義|ていぎ}→定義：04789_teigi⟧⟦する→する：00392_suru⟧: to define — more precise and logical; used for formal definitions",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05534_shouchou",
+      "reading": "しょうちょう",
+      "headword": "{象徴|しょうちょう}",
+      "label": "to symbolize"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04789_teigi",
+      "reading": "ていぎ",
+      "headword": "{定義|ていぎ}",
+      "label": "to define"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -57,10 +73,11 @@
       "semantic": [
         "abstract"
       ],
-      "verb_class": "ichidan"
+      "verb_class": "ichidan",
+      "transitivity": "transitive"
     },
     "created": "2026-04-02T03:24:56Z",
-    "modified": "2026-04-02T03:24:56Z"
+    "modified": "2026-09-02T04:02:03Z"
   },
   "conjugation": {
     "type": "ichidan",

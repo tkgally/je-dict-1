@@ -24,7 +24,7 @@
     },
     {
       "id": "04500_tairitsu_ex2",
-      "japanese": "⟦{両国|りょうこく}→両国：10010_ryoukoku⟧⟦は→は：00079_ha⟧⟦{長|なが}く→長い：00491_nagai⟧{対立|たいりつ}している。",
+      "japanese": "⟦{両国|りょうこく}→両国：10010_ryoukoku⟧⟦は→は：00079_ha⟧⟦{長|なが}く→長い：00491_nagai⟧{対立|たいりつ}⟦している→する：00392_suru⟧。",
       "english": "The two countries have been in confrontation for a long time.",
       "notes": null,
       "has_audio": false,
@@ -51,11 +51,67 @@
       "reading": "ふんそう",
       "headword": "{紛争|ふんそう}",
       "label": "conflict, dispute"
+    },
+    {
+      "type": "related",
+      "target_id": "12398_taikou",
+      "reading": "たいこう",
+      "headword": "{対抗|たいこう}",
+      "label": "opposition, rivalry"
+    },
+    {
+      "type": "related",
+      "target_id": "03235_shoutotsu",
+      "reading": "しょうとつ",
+      "headword": "{衝突|しょうとつ}",
+      "label": "collision, clash"
+    },
+    {
+      "type": "related",
+      "target_id": "05215_mujun",
+      "reading": "むじゅん",
+      "headword": "{矛盾|むじゅん}",
+      "label": "contradiction"
+    },
+    {
+      "type": "related",
+      "target_id": "09129_atsureki",
+      "reading": "あつれき",
+      "headword": "{軋轢|あつれき}",
+      "label": "friction, discord, conflict"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09992_arasoi",
+      "reading": "あらそい",
+      "headword": "{争|あらそ}い",
+      "label": "conflict, dispute"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12914_tekitai",
+      "reading": "てきたい",
+      "headword": "{敵対|てきたい}",
+      "label": "hostility, antagonism, opposition"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22102_hanmoku",
+      "reading": "はんもく",
+      "headword": "{反目|はんもく}",
+      "label": "discord"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26019_aihan",
+      "reading": "あいはん",
+      "headword": "{相反|あいはん}",
+      "label": "contradiction"
     }
   ],
   "metadata": {
     "created": "2026-01-14T00:33:36Z",
-    "modified": "2026-08-09T18:18:20Z",
+    "modified": "2026-09-02T04:01:05Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

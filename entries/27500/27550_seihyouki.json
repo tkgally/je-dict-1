@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "27550_seihyouki_ex1",
-      "japanese": "{製氷機|せいひょうき}が{壊|こわ}れた。",
+      "japanese": "{製氷機|せいひょうき}⟦が→が：00051_ga⟧⟦{壊|こわ}れた→壊れる：00791_kowareru⟧。",
       "english": "The ice maker broke.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "27550_seihyouki_ex2",
-      "japanese": "ホテルの{廊下|ろうか}に{製氷機|せいひょうき}がある。",
+      "japanese": "⟦ホテル→ホテル：01027_hoteru⟧⟦の→の：09472_no⟧⟦{廊下|ろうか}→廊下：05005_rouka⟧⟦に→に：00314_ni⟧{製氷機|せいひょうき}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There is an ice machine in the hotel hallway.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "27550_seihyouki_ex3",
-      "japanese": "{冷蔵庫|れいぞうこ}の{自動|じどう}{製氷機|せいひょうき}に{水|みず}を{入|い}れるのを{忘|わす}れていた。",
+      "japanese": "⟦{冷蔵庫|れいぞうこ}→冷蔵庫：01046_reizouko⟧⟦の→の：09472_no⟧⟦{自動|じどう}→自動：03339_jidou⟧{製氷機|せいひょうき}⟦に→に：00314_ni⟧⟦{水|みず}→水：02258_mizu⟧⟦を→を：00422_wo⟧⟦{入|い}れる→入れる：01098_ireru⟧⟦の→の：09472_no⟧⟦を→を：00422_wo⟧⟦{忘|わす}れていた→忘れる：00474_wasureru⟧。",
       "english": "I forgot to put water in the refrigerator's automatic ice maker.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {製氷|せいひょう} (ice-making) + {機|き} (machine). Found in modern refrigerators and as standalone commercial appliances in hotels, restaurants, and offices.\n\nCOMMON COLLOCATIONS:\n- {自動|じどう}{製氷機|せいひょうき}: automatic ice maker\n- {製氷機|せいひょうき}に{水|みず}を{入|い}れる: to put water in the ice maker\n- {製氷機|せいひょうき}が{故障|こしょう}する: the ice maker breaks down\n\nSIMILAR WORDS:\n- {製氷|せいひょう}{皿|ざら}: ice cube tray (manual)\n- {氷|こおり}: ice (general)\n- {製氷室|せいひょうしつ}: ice-making compartment (in a fridge)",
+  "notes": "Compound of {製氷|せいひょう} (ice-making) + ⟦{機|き}→〜機：09843_ki⟧ (machine). Found in modern refrigerators and as standalone commercial appliances in hotels, restaurants, and offices.\n\nCOMMON COLLOCATIONS:\n- ⟦{自動|じどう}→自動：03339_jidou⟧{製氷機|せいひょうき}: automatic ice maker\n- {製氷機|せいひょうき}⟦に→に：00314_ni⟧⟦{水|みず}→水：02258_mizu⟧⟦を→を：00422_wo⟧⟦{入|い}れる→入れる：01098_ireru⟧: to put water in the ice maker\n- {製氷機|せいひょうき}⟦が→が：00051_ga⟧⟦{故障|こしょう}する→故障する：01826_koshousuru⟧: the ice maker breaks down\n\nSIMILAR WORDS:\n- {製氷|せいひょう}{皿|ざら}: ice cube tray (manual)\n- ⟦{氷|こおり}→氷：02753_koori⟧: ice (general)\n- {製氷室|せいひょうしつ}: ice-making compartment (in a fridge)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02753_koori",
+      "reading": "こおり",
+      "headword": "{氷|こおり}",
+      "label": "ice"
+    },
+    {
+      "type": "related",
+      "target_id": "01046_reizouko",
+      "reading": "れいぞうこ",
+      "headword": "{冷蔵庫|れいぞうこ}",
+      "label": "refrigerator"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +69,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "daily-life",
         "tool"
@@ -61,6 +77,6 @@
       "domain": []
     },
     "created": "2026-05-14T01:41:20Z",
-    "modified": "2026-08-07T16:10:18Z"
+    "modified": "2026-09-02T04:02:31Z"
   }
 }

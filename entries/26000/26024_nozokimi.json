@@ -3,7 +3,7 @@
   "headword": "{覗|のぞ}き{見|み}",
   "reading": "のぞきみ",
   "romaji": "nozokimi",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "peeking; peeping; spying",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26024_nozokimi_ex1",
-      "japanese": "{覗|のぞ}き{見|み}はやめなさい。",
+      "japanese": "{覗|のぞ}き{見|み}はやめ⟦なさい→なさる：01307_nasaru⟧。",
       "english": "Stop peeking.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26024_nozokimi_ex2",
-      "japanese": "{隙間|すきま}から{覗|のぞ}き{見|み}した。",
+      "japanese": "⟦{隙間|すきま}→隙間：00389_sukima⟧⟦から→から：00504_kara⟧{覗|のぞ}き{見|み}⟦した→する：00392_suru⟧。",
       "english": "I peeked through the gap.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26024_nozokimi_ex3",
-      "japanese": "{他人|たにん}のメールを{覗|のぞ}き{見|み}するのはプライバシーの{侵害|しんがい}だ。",
+      "japanese": "⟦{他人|たにん}→他人：01459_tanin⟧⟦の→の：09472_no⟧⟦メール→メール：04435_meeru⟧⟦を→を：00422_wo⟧{覗|のぞ}き{見|み}⟦する→する：00392_suru⟧⟦の→の：09472_no⟧⟦は→は：00079_ha⟧⟦プライバシー→プライバシー：06806_puraibashii⟧⟦の→の：09472_no⟧⟦{侵害|しんがい}→侵害：11563_shingai⟧だ。",
       "english": "Peeking at someone else's email is an invasion of privacy.",
       "sense_numbers": [
         1
@@ -44,13 +44,34 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {覗|のぞ}く (to peek; to peer) + {見|み} (looking). Emphasizes the physical act of peering through or around something to see what is hidden. Carries a negative connotation of intrusiveness. Can also be used in digital contexts (peeking at someone's screen or messages).\n\nCOMMON COLLOCATIONS:\n- {覗|のぞ}き{見|み}する: to peek; to spy\n- {覗|のぞ}き{見|み}{防止|ぼうし}: anti-peeping (e.g., screen filters)\n- {覗|のぞ}き{見|み}される: to be peeked at\n\nSIMILAR WORDS:\n- {盗|ぬす}み{見|み}: sneaking a look — emphasizes the secretive, stolen nature of the glance\n- {覗|のぞ}く: to peek; to peer — the base verb, more neutral\n- {盗撮|とうさつ}: hidden camera filming — a criminal act of secretly photographing or filming",
+  "notes": "Composed of ⟦{覗|のぞ}く→覗く：02388_nozoku⟧ (to peek; to peer) + ⟦{見|み}→見る：00283_miru⟧ (looking). Emphasizes the physical act of peering through or around something to see what is hidden. Carries a negative connotation of intrusiveness. Can also be used in digital contexts (peeking at someone's screen or messages).\n\nCOMMON COLLOCATIONS:\n- {覗|のぞ}き{見|み}⟦する→する：00392_suru⟧: to peek; to spy\n- {覗|のぞ}き{見|み}⟦{防止|ぼうし}→防止：14571_boushi⟧: anti-peeping (e.g., screen filters)\n- {覗|のぞ}き{見|み}⟦される→する：00392_suru⟧: to be peeked at\n\nSIMILAR WORDS:\n- ⟦{盗|ぬす}み{見|み}→盗み見：26023_nusumimi⟧: sneaking a look — emphasizes the secretive, stolen nature of the glance\n- ⟦{覗|のぞ}く→覗く：02388_nozoku⟧: to peek; to peer — the base verb, more neutral\n- ⟦{盗撮|とうさつ}→盗撮：20492_tousatsu⟧: hidden camera filming — a criminal act of secretly photographing or filming",
   "cross_references": [
     {
       "type": "synonym",
       "target_id": "26023_nusumimi",
       "reading": "ぬすみみ",
       "label": "emphasizes stealth"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02388_nozoku",
+      "reading": "のぞく",
+      "headword": "{覗|のぞ}く",
+      "label": "to peek"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20492_tousatsu",
+      "reading": "とうさつ",
+      "headword": "{盗撮|とうさつ}",
+      "label": "hidden camera filming"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28038_sesshi",
+      "reading": "せっし",
+      "headword": "窃視",
+      "label": "voyeurism"
     }
   ],
   "schema_version": "2.0",
@@ -61,13 +82,15 @@
         "noun",
         "verb-suru"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "action"
       ],
       "verb_class": "suru"
     },
     "created": "2026-04-28T16:15:19Z",
-    "modified": "2026-04-28T16:15:19Z"
+    "modified": "2026-09-02T04:02:24Z"
   },
   "conjugation": {
     "type": "suru",

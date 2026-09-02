@@ -15,41 +15,66 @@
   "examples": [
     {
       "id": "15091_ketsumatsu_ex1",
-      "japanese": "{結末|けつまつ}が{気|き}になる。",
+      "japanese": "{結末|けつまつ}⟦が→が：00051_ga⟧⟦{気|き}になる→気になる：03027_kininaru⟧。",
       "english": "I'm curious about the ending.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15091_ketsumatsu_ex2",
-      "japanese": "この{小説|しょうせつ}の{結末|けつまつ}には{驚|おどろ}いた。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{小説|しょうせつ}→小説：01434_shousetsu⟧⟦の→の：09472_no⟧{結末|けつまつ}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{驚|おどろ}いた→驚く：01255_odoroku⟧。",
       "english": "I was surprised by the ending of this novel.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15091_ketsumatsu_ex3",
-      "japanese": "{事件|じけん}は{思|おも}いがけない{結末|けつまつ}を{迎|むか}え、{関係者|かんけいしゃ}{全員|ぜんいん}が{驚|おどろ}いた。",
+      "japanese": "⟦{事件|じけん}→事件：01568_jiken⟧⟦は→は：00079_ha⟧{思|おも}いがけない{結末|けつまつ}⟦を→を：00422_wo⟧⟦{迎|むか}え→迎える：01193_mukaeru⟧、⟦{関係者|かんけいしゃ}→関係者：16441_kankeisha⟧⟦{全員|ぜんいん}→全員：03310_zenin⟧⟦が→が：00051_ga⟧⟦{驚|おどろ}いた→驚く：01255_odoroku⟧。",
       "english": "The case reached an unexpected conclusion, surprising everyone involved.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\n{結末|けつまつ} refers to the conclusion or final outcome of events, stories, or situations. It is commonly used when discussing narratives (novels, movies, dramas) as well as real-life events.\n\nCOMMON COLLOCATIONS:\n- {結末|けつまつ}を{迎|むか}える (to reach a conclusion)\n- {意外|いがい}な{結末|けつまつ} (unexpected ending)\n- {悲|かな}しい{結末|けつまつ} (sad ending)\n- ハッピーエンドの{結末|けつまつ} (happy ending)\n\nSIMILAR WORDS:\n{結果|けっか} means result or outcome and is more general. {結末|けつまつ} specifically implies the final resolution of a sequence of events. {終結|しゅうけつ} means conclusion or termination and is more formal.",
-  "cross_references": [],
+  "notes": "USAGE:\n{結末|けつまつ} refers to the conclusion or final outcome of events, stories, or situations. It is commonly used when discussing narratives (novels, movies, dramas) as well as real-life events.\n\nCOMMON COLLOCATIONS:\n- {結末|けつまつ}⟦を→を：00422_wo⟧⟦{迎|むか}える→迎える：01193_mukaeru⟧ (to reach a conclusion)\n- ⟦{意外|いがい}→意外：12741_igai⟧な{結末|けつまつ} (unexpected ending)\n- ⟦{悲|かな}しい→悲しい：00783_kanashii⟧{結末|けつまつ} (sad ending)\n- ハッピーエンド⟦の→の：09472_no⟧{結末|けつまつ} (happy ending)\n\nSIMILAR WORDS:\n⟦{結果|けっか}→結果：02486_kekka⟧ means result or outcome and is more general. {結末|けつまつ} specifically implies the final resolution of a sequence of events. ⟦{終結|しゅうけつ}→終結：13851_shuuketsu⟧ means conclusion or termination and is more formal.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "09991_matsuro",
+      "reading": "まつろ",
+      "headword": "{末路|まつろ}",
+      "label": "end, fate, downfall"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15238_makugire",
+      "reading": "まくぎれ",
+      "headword": "{幕切|まくぎ}れ",
+      "label": "end of an act"
+    }
+  ],
   "metadata": {
     "created": "2026-03-05T06:54:27Z",
-    "modified": "2026-03-05T06:54:27Z",
+    "modified": "2026-09-02T04:01:40Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["abstract"]
+      "semantic": [
+        "abstract"
+      ]
     }
   }
 }

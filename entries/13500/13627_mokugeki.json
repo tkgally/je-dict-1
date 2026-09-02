@@ -3,7 +3,7 @@
   "id": "13627_mokugeki",
   "headword": "{目撃|もくげき}",
   "reading": "もくげき",
-  "part_of_speech": "noun; verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "witnessing; eyewitness",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "13627_mokugeki_ex1",
-      "japanese": "{事故|じこ}を{目撃|もくげき}した。",
+      "japanese": "⟦{事故|じこ}→事故：00851_jiko⟧⟦を→を：00422_wo⟧{目撃|もくげき}⟦した→する：00392_suru⟧。",
       "english": "I witnessed an accident.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "13627_mokugeki_ex2",
-      "japanese": "{目撃者|もくげきしゃ}は{犯人|はんにん}の{顔|かお}を{覚|おぼ}えていた。",
+      "japanese": "⟦{目撃者|もくげきしゃ}→目撃者：09652_mokugekisha⟧⟦は→は：00079_ha⟧⟦{犯人|はんにん}→犯人：03572_hannin⟧⟦の→の：09472_no⟧⟦{顔|かお}→顔：00558_kao⟧⟦を→を：00422_wo⟧⟦{覚|おぼ}えていた→覚える：00739_oboeru⟧。",
       "english": "The eyewitness remembered the criminal's face.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "13627_mokugeki_ex3",
-      "japanese": "{住民|じゅうみん}が{不審|ふしん}な{人物|じんぶつ}を{目撃|もくげき}したと{警察|けいさつ}に{通報|つうほう}した。",
+      "japanese": "⟦{住民|じゅうみん}→住民：03281_juumin⟧⟦が→が：00051_ga⟧⟦{不審|ふしん}→不審：16934_fushin⟧な⟦{人物|じんぶつ}→人物：03356_jinbutsu⟧⟦を→を：00422_wo⟧{目撃|もくげき}⟦した→する：00392_suru⟧⟦と→と：00512_to⟧⟦{警察|けいさつ}→警察：01393_keisatsu⟧⟦に→に：00314_ni⟧⟦{通報|つうほう}→通報：14318_tsuuhou⟧⟦した→する：00392_suru⟧。",
       "english": "A resident reported to the police that they had witnessed a suspicious person.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,11 @@
       ]
     }
   ],
-  "notes": "USAGE:\nFunctions as a する verb: {目撃|もくげき}する (to witness). Primarily used for witnessing accidents, crimes, or unusual events. For everyday seeing, {見|み}る or {目|め}にする are more natural.\n\nCOMMON COLLOCATIONS:\n- {目撃|もくげき}{者|しゃ}: eyewitness\n- {目撃|もくげき}{情報|じょうほう}: eyewitness information/reports\n- {目撃|もくげき}{証言|しょうげん}: eyewitness testimony\n- {事故|じこ}を{目撃|もくげき}する: to witness an accident\n- {犯行|はんこう}を{目撃|もくげき}する: to witness a crime\n- {目撃|もくげき}{談|だん}: eyewitness account",
+  "notes": "USAGE:\nFunctions as a ⟦する→する：00392_suru⟧ verb: {目撃|もくげき}⟦する→する：00392_suru⟧ (to witness). Primarily used for witnessing accidents, crimes, or unusual events. For everyday seeing, ⟦{見|み}る→見る：00283_miru⟧ or ⟦{目|め}にする→目にする：21472_menisuru⟧ are more natural.\n\nCOMMON COLLOCATIONS:\n- {目撃|もくげき}{者|しゃ}: eyewitness\n- {目撃|もくげき}⟦{情報|じょうほう}→情報：03348_jouhou⟧: eyewitness information/reports\n- {目撃|もくげき}⟦{証言|しょうげん}→証言：11088_shougen⟧: eyewitness testimony\n- ⟦{事故|じこ}→事故：00851_jiko⟧⟦を→を：00422_wo⟧{目撃|もくげき}⟦する→する：00392_suru⟧: to witness an accident\n- ⟦{犯行|はんこう}→犯行：13472_hankou⟧⟦を→を：00422_wo⟧{目撃|もくげき}⟦する→する：00392_suru⟧: to witness a crime\n- {目撃|もくげき}{談|だん}: eyewitness account",
   "cross_references": [],
   "metadata": {
     "created": "2026-02-26T10:37:13Z",
-    "modified": "2026-03-29T03:07:35Z",
+    "modified": "2026-09-02T04:01:34Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -151,7 +151,8 @@
       "semantic": [
         "cognition"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

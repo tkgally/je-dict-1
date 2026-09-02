@@ -15,41 +15,60 @@
   "examples": [
     {
       "id": "27857_onsentamago_ex1",
-      "japanese": "{温泉|おんせん}{卵|たまご}を{作|つく}る。",
+      "japanese": "{温泉|おんせん}{卵|たまご}⟦を→を：00422_wo⟧⟦{作|つく}る→作る：00481_tsukuru⟧。",
       "english": "To make an onsen egg.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27857_onsentamago_ex2",
-      "japanese": "{丼|どんぶり}の{上|うえ}に{温泉|おんせん}{卵|たまご}をのせる。",
+      "japanese": "⟦{丼|どんぶり}→丼：03904_donburi⟧⟦の→の：09472_no⟧⟦{上|うえ}→上：00682_ue⟧⟦に→に：00314_ni⟧{温泉|おんせん}{卵|たまご}⟦を→を：00422_wo⟧のせる。",
       "english": "Place an onsen egg on top of the rice bowl.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27857_onsentamago_ex3",
-      "japanese": "{温泉|おんせん}{卵|たまご}は{白身|しろみ}がやわらかく、{黄身|きみ}がとろりとしているのが{特徴|とくちょう}だ。",
+      "japanese": "{温泉|おんせん}{卵|たまご}⟦は→は：00079_ha⟧⟦{白身|しろみ}→白身：13692_shiromi⟧⟦が→が：00051_ga⟧やわらかく、{黄身|きみ}⟦が→が：00051_ga⟧とろり⟦として→として：06802_toshite⟧⟦いる→いる：00495_iru⟧⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦{特徴|とくちょう}→特徴：03456_tokuchou⟧だ。",
       "english": "An onsen egg is characterized by its soft white and runny yolk.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Compound of {温泉|おんせん} (hot spring) + {卵|たまご} (egg); the name comes from originally cooking eggs in hot-spring water. Often shortened to {温玉|おんたま} in casual speech and on menus.\n\nCOMMON COLLOCATIONS:\n- {温泉|おんせん}{卵|たまご}をのせる: to top (a dish) with an onsen egg\n- {温泉|おんせん}{卵|たまご}を{作|つく}る: to make an onsen egg\n\nSIMILAR WORDS:\n- {半熟|はんじゅく}{卵|たまご}: soft-boiled egg — boiled briefly so the white sets firm but the yolk stays runny; an onsen egg instead has a soft, custard-like white",
+  "notes": "Compound of ⟦{温泉|おんせん}→温泉：04117_onsen⟧ (hot spring) + ⟦{卵|たまご}→卵：02222_tamago⟧ (egg); the name comes from originally cooking eggs in hot-spring water. Often shortened to {温玉|おんたま} in casual speech and on menus.\n\nCOMMON COLLOCATIONS:\n- {温泉|おんせん}{卵|たまご}⟦を→を：00422_wo⟧のせる: to top (a dish) with an onsen egg\n- {温泉|おんせん}{卵|たまご}⟦を→を：00422_wo⟧⟦{作|つく}る→作る：00481_tsukuru⟧: to make an onsen egg\n\nSIMILAR WORDS:\n- ⟦{半熟|はんじゅく}→半熟：11935_hanjuku⟧⟦{卵|たまご}→卵：02222_tamago⟧: soft-boiled egg — boiled briefly so the white sets firm but the yolk stays runny; an onsen egg instead has a soft, custard-like white",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21365_katayude",
+      "reading": "かたゆで",
+      "headword": "{固|かた}ゆで",
+      "label": "hard-boiled"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["food"],
+      "politeness": "plain",
+      "semantic": [
+        "food"
+      ],
       "domain": []
     },
     "created": "2026-05-21T03:11:38Z",
-    "modified": "2026-05-21T03:11:38Z"
+    "modified": "2026-09-02T04:02:32Z"
   }
 }

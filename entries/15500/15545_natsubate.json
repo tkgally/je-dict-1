@@ -3,7 +3,7 @@
   "id": "15545_natsubate",
   "headword": "{夏|なつ}バテ",
   "reading": "なつばて",
-  "part_of_speech": "noun / verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "summer heat fatigue; summer lethargy",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "15545_natsubate_ex1",
-      "japanese": "{夏|なつ}バテで{食欲|しょくよく}がない。",
+      "japanese": "{夏|なつ}バテ⟦で→で：00502_de⟧⟦{食欲|しょくよく}→食欲：03249_shokuyoku⟧⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧。",
       "english": "I have no appetite due to summer fatigue.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "15545_natsubate_ex2",
-      "japanese": "{夏|なつ}バテしないように、しっかり{食|た}べよう。",
+      "japanese": "{夏|なつ}バテ⟦しない→する：00392_suru⟧よう⟦に→に：00314_ni⟧、⟦しっかり→しっかり：01272_shikkari⟧⟦{食|た}べよう→食べる：00396_taberu⟧。",
       "english": "Let's eat well so we don't get summer fatigue.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "15545_natsubate_ex3",
-      "japanese": "{毎年|まいとし}{八月|はちがつ}になると{夏|なつ}バテして、{何|なに}もやる{気|き}が{起|お}きなくなる。",
+      "japanese": "⟦{毎年|まいとし}→毎年：00731_maitoshi⟧⟦{八月|はちがつ}→八月：00626_hachigatsu⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦と→と：00512_to⟧{夏|なつ}バテ⟦して→する：00392_suru⟧、⟦{何|なに}も→何も：03874_nanimo⟧⟦やる{気|き}→やる気：05089_yaruki⟧⟦が→が：00051_ga⟧⟦{起|お}きなく→起きる：00521_okiru⟧⟦なる→なる：01970_naru⟧。",
       "english": "Every year when August comes, I get summer fatigue and lose all motivation.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,19 @@
       ]
     }
   ],
-  "notes": "USAGE:\nCan function as a noun ({夏|なつ}バテ) or as a する verb ({夏|なつ}バテする). Symptoms include loss of appetite, fatigue, and difficulty sleeping. Very common topic in Japanese summer conversation.\n\nCOMMON COLLOCATIONS:\n- {夏|なつ}バテする (to suffer from summer fatigue)\n- {夏|なつ}バテ{防止|ぼうし} / {予防|よぼう} (preventing summer fatigue)\n- {夏|なつ}バテ{対策|たいさく} (measures against summer fatigue)\n- {夏|なつ}バテ{気味|ぎみ} (a touch of summer fatigue)\n\nCULTURAL NOTE:\nJapan's humid summers make {夏|なつ}バテ a widely shared experience. Traditional remedies include eating {鰻|うなぎ} (eel) on {土用|どよう}の{丑|うし}の{日|ひ} (midsummer day of the ox) and consuming {梅干|うめぼ}し (pickled plums) for energy.",
-  "cross_references": [],
+  "notes": "USAGE:\nCan function as a noun ({夏|なつ}バテ) or as a ⟦する→する：00392_suru⟧ verb ({夏|なつ}バテ⟦する→する：00392_suru⟧). Symptoms include loss of appetite, fatigue, and difficulty sleeping. Very common topic in Japanese summer conversation.\n\nCOMMON COLLOCATIONS:\n- {夏|なつ}バテ⟦する→する：00392_suru⟧ (to suffer from summer fatigue)\n- {夏|なつ}バテ⟦{防止|ぼうし}→防止：14571_boushi⟧ / ⟦{予防|よぼう}→予防：03669_yobou⟧ (preventing summer fatigue)\n- {夏|なつ}バテ⟦{対策|たいさく}→対策：02511_taisaku⟧ (measures against summer fatigue)\n- {夏|なつ}バテ⟦{気味|ぎみ}→気味：27635_gimi⟧ (a touch of summer fatigue)\n\nCULTURAL NOTE:\nJapan's humid summers make {夏|なつ}バテ a widely shared experience. Traditional remedies include eating ⟦{鰻|うなぎ}→鰻：06105_unagi⟧ (eel) on ⟦{土用|どよう}→土用：27533_doyou⟧⟦の→の：09472_no⟧{丑|うし}⟦の→の：09472_no⟧⟦{日|ひ}→日：02249_hi⟧ (midsummer day of the ox) and consuming ⟦{梅干|うめぼ}し→梅干し：13110_umeboshi⟧ (pickled plums) for energy.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25286_natsuzukare",
+      "reading": "なつづかれ",
+      "headword": "{夏疲|なつづか}れ",
+      "label": "summer fatigue"
+    }
+  ],
   "metadata": {
     "created": "2026-03-07T10:09:24Z",
-    "modified": "2026-03-29T03:08:18Z",
+    "modified": "2026-09-02T04:01:41Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

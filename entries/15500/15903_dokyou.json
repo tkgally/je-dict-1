@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "15903_dokyou_ex1",
-      "japanese": "{度胸|どきょう}がある{人|ひと}だ。",
+      "japanese": "{度胸|どきょう}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧⟦{人|ひと}→人：00476_hito⟧だ。",
       "english": "He's a gutsy person.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15903_dokyou_ex2",
-      "japanese": "{社長|しゃちょう}に{直接|ちょくせつ}{意見|いけん}を{言|い}う{度胸|どきょう}はない。",
+      "japanese": "⟦{社長|しゃちょう}→社長：01428_shachou⟧⟦に→に：00314_ni⟧⟦{直接|ちょくせつ}→直接：03499_chokusetsu⟧⟦{意見|いけん}→意見：01303_iken⟧⟦を→を：00422_wo⟧⟦{言|い}う→言う：00515_iu⟧{度胸|どきょう}⟦は→は：00079_ha⟧⟦ない→ない：01118_nai⟧。",
       "english": "I don't have the nerve to speak my mind directly to the president.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15903_dokyou_ex3",
-      "japanese": "{彼女|かのじょ}は{度胸|どきょう}が{据|す}わっていて、どんな{場面|ばめん}でも{落|お}ち{着|つ}いている。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧{度胸|どきょう}⟦が→が：00051_ga⟧{据|す}わって⟦いて→いる：00495_iru⟧、⟦どんな→どんな：02924_donna⟧⟦{場面|ばめん}→場面：03702_bamen⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧⟦{落|お}ち{着|つ}いている→落ち着く：04670_ochitsuku⟧。",
       "english": "She has nerves of steel and stays calm in any situation.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE: {度胸|どきょう} refers to boldness and nerve in the face of difficulty. It implies an admirable quality of being unfazed by pressure.\n\nThe expression {度胸|どきょう}が{据|す}わっている means \"having nerves of steel\" or \"being unflappable.\"\n\nCOMMON COLLOCATIONS:\n- {度胸|どきょう}がある: to have guts/nerve\n- {度胸|どきょう}がない: to lack courage\n- {度胸|どきょう}が{据|す}わる: to have nerves of steel\n- {度胸|どきょう}{試|だめ}し: test of courage\n\nSIMILAR WORDS:\n- {度胸|どきょう}: boldness, nerve (practical courage in the moment)\n- {勇気|ゆうき}: courage, bravery (general, noble courage)\n- {根性|こんじょう}: grit, determination (persevering spirit)",
+  "notes": "USAGE: {度胸|どきょう} refers to boldness and nerve in the face of difficulty. It implies an admirable quality of being unfazed by pressure.\n\nThe expression {度胸|どきょう}⟦が→が：00051_ga⟧{据|す}わって⟦いる→いる：00495_iru⟧ means \"having nerves of steel\" or \"being unflappable.\"\n\nCOMMON COLLOCATIONS:\n- {度胸|どきょう}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧: to have guts/nerve\n- {度胸|どきょう}⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧: to lack courage\n- {度胸|どきょう}⟦が→が：00051_ga⟧{据|す}わる: to have nerves of steel\n- {度胸|どきょう}{試|だめ}し: test of courage\n\nSIMILAR WORDS:\n- {度胸|どきょう}: boldness, nerve (practical courage in the moment)\n- ⟦{勇気|ゆうき}→勇気：02499_yuuki⟧: courage, bravery (general, noble courage)\n- ⟦{根性|こんじょう}→根性：19215_konjou⟧: grit, determination (persevering spirit)",
   "cross_references": [
     {
       "type": "synonym",
@@ -53,18 +59,29 @@
       "reading": "こんじょう",
       "headword": "{根性|こんじょう}",
       "label": "grit, determination"
+    },
+    {
+      "type": "related",
+      "target_id": "07609_daitan",
+      "reading": "だいたん",
+      "headword": "{大胆|だいたん}",
+      "label": "bold"
     }
   ],
   "metadata": {
     "created": "2026-03-08T13:58:41Z",
-    "modified": "2026-05-02T08:18:57Z",
+    "modified": "2026-09-02T04:01:43Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["emotion"]
+      "semantic": [
+        "emotion"
+      ]
     }
   }
 }

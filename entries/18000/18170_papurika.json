@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "18170_papurika_ex1",
-      "japanese": "サラダに{赤|あか}いパプリカを{入|い}れた。",
+      "japanese": "⟦サラダ→サラダ：01364_sarada⟧⟦に→に：00314_ni⟧⟦{赤|あか}い→赤い：00585_akai⟧パプリカ⟦を→を：00422_wo⟧⟦{入|い}れた→入れる：01098_ireru⟧。",
       "english": "I added red bell pepper to the salad.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18170_papurika_ex2",
-      "japanese": "パプリカはピーマンより{甘|あま}くて{食|た}べやすい。",
+      "japanese": "パプリカ⟦は→は：00079_ha⟧⟦ピーマン→ピーマン：11132_piiman⟧⟦より→より：09476_yori⟧⟦{甘|あま}くて→甘い：00617_amai⟧⟦{食|た}べやすい→食べやすい：21799_tabeyasui⟧。",
       "english": "Bell peppers are sweeter and easier to eat than green peppers.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18170_papurika_ex3",
-      "japanese": "{黄色|きいろ}いパプリカと{赤|あか}いパプリカを{使|つか}うと{料理|りょうり}が{華|はな}やかになる。",
+      "japanese": "⟦{黄色|きいろ}い→黄色い：00959_kiiroi⟧パプリカ⟦と→と：00512_to⟧⟦{赤|あか}い→赤い：00585_akai⟧パプリカ⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧⟦と→と：00512_to⟧⟦{料理|りょうり}→料理：01523_ryouri⟧⟦が→が：00051_ga⟧⟦{華|はな}やか→華やか：06070_hanayaka⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧。",
       "english": "Using yellow and red bell peppers makes the dish look more colorful.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nIn Japanese, パプリカ and ピーマン refer to different things. ピーマン is the smaller, thinner-walled green pepper common in Japanese cooking. パプリカ refers to the larger, thicker, sweeter varieties (typically red, yellow, or orange). Both are types of bell pepper in English.\n\nCOMMON COLLOCATIONS:\n- パプリカの{肉詰|にくづ}め (stuffed bell pepper)\n- パプリカパウダー (paprika powder — the spice)\n- {赤|あか}パプリカ / {黄|き}パプリカ (red / yellow bell pepper)",
+  "notes": "USAGE:\nIn Japanese, パプリカ and ⟦ピーマン→ピーマン：11132_piiman⟧ refer to different things. ⟦ピーマン→ピーマン：11132_piiman⟧ is the smaller, thinner-walled green pepper common in Japanese cooking. パプリカ refers to the larger, thicker, sweeter varieties (typically red, yellow, or orange). Both are types of bell pepper in English.\n\nCOMMON COLLOCATIONS:\n- パプリカ⟦の→の：09472_no⟧{肉詰|にくづ}め (stuffed bell pepper)\n- パプリカ⟦パウダー→パウダー：23869_paudaa⟧ (paprika powder — the spice)\n- ⟦{赤|あか}→赤：02842_aka⟧パプリカ / ⟦{黄|き}→黄：19352_ki⟧パプリカ (red / yellow bell pepper)",
   "cross_references": [
     {
       "type": "contrast",
@@ -46,18 +52,29 @@
       "reading": "ぴーまん",
       "headword": "ピーマン",
       "label": "green pepper"
+    },
+    {
+      "type": "related",
+      "target_id": "26209_akapiiman",
+      "reading": "あかぴーまん",
+      "headword": "{赤|あか}ピーマン",
+      "label": "red bell pepper"
     }
   ],
   "metadata": {
     "created": "2026-03-20T08:58:29Z",
-    "modified": "2026-05-08T06:14:38Z",
+    "modified": "2026-09-02T04:01:51Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food"]
+      "semantic": [
+        "food"
+      ]
     }
   }
 }

@@ -15,41 +15,67 @@
   "examples": [
     {
       "id": "28205_paama_ex1",
-      "japanese": "{髪|かみ}にパーマをかけた。",
+      "japanese": "⟦{髪|かみ}→髪：02196_kami⟧⟦に→に：00314_ni⟧パーマ⟦を→を：00422_wo⟧⟦かけた→かける：00854_kakeru⟧。",
       "english": "I got a perm.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28205_paama_ex2",
-      "japanese": "{彼女|かのじょ}はパーマをかけている。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧パーマ⟦を→を：00422_wo⟧⟦かけている→かける：00854_kakeru⟧。",
       "english": "She has a perm.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28205_paama_ex3",
-      "japanese": "{美容院|びよういん}でゆるいパーマをかけてもらった。",
+      "japanese": "⟦{美容院|びよういん}→美容院：06319_biyouin⟧⟦で→で：00502_de⟧ゆるいパーマ⟦を→を：00422_wo⟧⟦かけて→かける：00854_kakeru⟧⟦もらった→もらう：00520_morau⟧。",
       "english": "I had a loose perm done at the salon.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Shortened from English 'permanent wave'. The standard verb is パーマをかける (to get or give a perm).\n\nCOMMON COLLOCATIONS:\n- パーマをかける: to get a perm\n- パーマがとれる: for a perm to come out / fade\n- ゆるいパーマ: a loose perm\n\nRELATED WORDS:\n- ストレートパーマ: a straightening perm\n- {美容院|びよういん}: hair salon",
+  "notes": "Shortened from English 'permanent wave'. The standard verb is パーマ⟦を→を：00422_wo⟧⟦かける→かける：00854_kakeru⟧ (to get or give a perm).\n\nCOMMON COLLOCATIONS:\n- パーマ⟦を→を：00422_wo⟧⟦かける→かける：00854_kakeru⟧: to get a perm\n- パーマ⟦が→が：00051_ga⟧とれる: for a perm to come out / fade\n- ゆるいパーマ: a loose perm\n\nRELATED WORDS:\n- ストレートパーマ: a straightening perm\n- ⟦{美容院|びよういん}→美容院：06319_biyouin⟧: hair salon",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "06319_biyouin",
+      "reading": "びよういん",
+      "headword": "{美容院|びよういん}",
+      "label": "hair salon"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23424_kaaru",
+      "reading": "かーる",
+      "headword": "カール",
+      "label": "curl (in the hair)"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["general"],
+      "politeness": "plain",
+      "semantic": [
+        "general"
+      ],
       "domain": []
     },
     "created": "2026-05-27T03:08:15Z",
-    "modified": "2026-05-27T03:08:15Z"
+    "modified": "2026-09-02T04:02:32Z"
   }
 }

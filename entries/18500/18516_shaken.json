@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "18516_shaken_ex1",
-      "japanese": "{車検|しゃけん}が{切|き}れた。",
+      "japanese": "{車検|しゃけん}⟦が→が：00051_ga⟧⟦{切|き}れた→切れる：01936_kireru⟧。",
       "english": "The vehicle inspection has expired.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "18516_shaken_ex2",
-      "japanese": "{来月|らいげつ}{車検|しゃけん}を{通|とお}さなければならない。",
+      "japanese": "⟦{来月|らいげつ}→来月：00744_raigetsu⟧{車検|しゃけん}⟦を→を：00422_wo⟧⟦{通|とお}さ→通す：02300_toosu⟧⟦なければならない→なければならない：27600_nakerebanaranai⟧。",
       "english": "I have to get my car inspected next month.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "18516_shaken_ex3",
-      "japanese": "{車検|しゃけん}の{費用|ひよう}が{思|おも}ったより{高|たか}くて{驚|おどろ}いた。",
+      "japanese": "{車検|しゃけん}⟦の→の：09472_no⟧⟦{費用|ひよう}→費用：03588_hiyou⟧⟦が→が：00051_ga⟧⟦{思|おも}った→思う：00492_omou⟧⟦より→より：09476_yori⟧⟦{高|たか}くて→高い：00500_takai⟧⟦{驚|おどろ}いた→驚く：01255_odoroku⟧。",
       "english": "I was surprised that the vehicle inspection cost more than I expected.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "Short for {自動車検査登録制度|じどうしゃけんさとうろくせいど}. In Japan, {車検|しゃけん} is mandatory and quite expensive, often costing over 100,000 yen including taxes and fees. Common collocations: {車検|しゃけん}を{通|とお}す (to pass inspection), {車検|しゃけん}が{切|き}れる (inspection expires), {車検|しゃけん}に{出|だ}す (to take in for inspection), {車検|しゃけん}{費用|ひよう} (inspection cost). Driving with an expired {車検|しゃけん} is illegal.",
+  "notes": "Short for {自動車検査登録制度|じどうしゃけんさとうろくせいど}. In Japan, {車検|しゃけん} is mandatory and quite expensive, often costing over 100,000 yen including taxes and fees. Common collocations: {車検|しゃけん}⟦を→を：00422_wo⟧⟦{通|とお}す→通す：02300_toosu⟧ (to pass inspection), {車検|しゃけん}⟦が→が：00051_ga⟧⟦{切|き}れる→切れる：01936_kireru⟧ (inspection expires), {車検|しゃけん}⟦に→に：00314_ni⟧⟦{出|だ}す→出す：01087_dasu⟧ (to take in for inspection), {車検|しゃけん}⟦{費用|ひよう}→費用：03588_hiyou⟧ (inspection cost). Driving with an expired {車検|しゃけん} is illegal.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "11334_shinsha",
+      "reading": "しんしゃ",
+      "headword": "{新車|しんしゃ}",
+      "label": "new car"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +68,6 @@
       ]
     },
     "created": "2026-03-22T04:39:34Z",
-    "modified": "2026-05-08T10:08:08Z"
+    "modified": "2026-09-02T04:01:52Z"
   }
 }

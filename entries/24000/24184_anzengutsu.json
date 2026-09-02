@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24184_anzengutsu_ex1",
-      "japanese": "{工事|こうじ}{現場|げんば}では{安全靴|あんぜんぐつ}が{必須|ひっす}だ。",
+      "japanese": "⟦{工事|こうじ}{現場|げんば}→工事現場：26202_koujigenba⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧{安全靴|あんぜんぐつ}⟦が→が：00051_ga⟧⟦{必須|ひっす}→必須：12516_hissu⟧だ。",
       "english": "Safety shoes are required at construction sites.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24184_anzengutsu_ex2",
-      "japanese": "{安全靴|あんぜんぐつ}を{履|は}いていたおかげで{怪我|けが}をせずに{済|す}んだ。",
+      "japanese": "{安全靴|あんぜんぐつ}⟦を→を：00422_wo⟧⟦{履|は}いていた→履く：00700_haku⟧⟦おかげ→おかげ：01362_okage⟧⟦で→で：00502_de⟧{怪我|けが}⟦を→を：00422_wo⟧せず⟦に→に：00314_ni⟧⟦{済|す}んだ→済む：01950_sumu⟧。",
       "english": "I was spared from injury thanks to wearing safety shoes.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24184_anzengutsu_ex3",
-      "japanese": "{新入|しんにゅう}{社員|しゃいん}には{会社|かいしゃ}から{安全靴|あんぜんぐつ}とヘルメットが{支給|しきゅう}される。",
+      "japanese": "⟦{新入|しんにゅう}{社員|しゃいん}→新入社員：15536_shinnyuushain⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦から→から：00504_kara⟧{安全靴|あんぜんぐつ}⟦と→と：00512_to⟧⟦ヘルメット→ヘルメット：11325_herumetto⟧⟦が→が：00051_ga⟧⟦{支給|しきゅう}→支給：02835_shikyuu⟧⟦される→する：00392_suru⟧。",
       "english": "New employees are provided with safety shoes and helmets by the company.",
       "sense_numbers": [
         1
@@ -44,20 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "Footwear with reinforced toes (usually steel or composite) designed to protect workers from falling objects, crushing, and other workplace hazards. Required in many industrial and construction settings in Japan.\n\nCOMMON COLLOCATIONS:\n- {安全靴|あんぜんぐつ}を{履|は}く: to wear safety shoes\n- {安全靴|あんぜんぐつ}の{着用|ちゃくよう}: wearing safety shoes\n- {安全靴|あんぜんぐつ}が{必要|ひつよう}: safety shoes are needed\n\nSIMILAR WORDS:\n- {長靴|ながぐつ}: rubber boots — waterproof boots, not necessarily reinforced for safety\n- {作業靴|さぎょうぐつ}: work shoes — general work footwear without the specific safety reinforcement\n- ヘルメット: helmet — another piece of standard safety equipment, protects the head",
+  "notes": "Footwear with reinforced toes (usually steel or composite) designed to protect workers from falling objects, crushing, and other workplace hazards. Required in many industrial and construction settings in Japan.\n\nCOMMON COLLOCATIONS:\n- {安全靴|あんぜんぐつ}⟦を→を：00422_wo⟧⟦{履|は}く→履く：00700_haku⟧: to wear safety shoes\n- {安全靴|あんぜんぐつ}⟦の→の：09472_no⟧⟦{着用|ちゃくよう}→着用：13693_chakuyou⟧: wearing safety shoes\n- {安全靴|あんぜんぐつ}⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧: safety shoes are needed\n\nSIMILAR WORDS:\n- ⟦{長靴|ながぐつ}→長靴：17966_nagagutsu⟧: rubber boots — waterproof boots, not necessarily reinforced for safety\n- {作業靴|さぎょうぐつ}: work shoes — general work footwear without the specific safety reinforcement\n- ⟦ヘルメット→ヘルメット：11325_herumetto⟧: helmet — another piece of standard safety equipment, protects the head",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17966_nagagutsu",
+      "reading": "ながぐつ",
+      "headword": "{長靴|ながぐつ}",
+      "label": "rubber boots"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11325_herumetto",
+      "reading": "へるめっと",
+      "headword": "ヘルメット",
+      "label": "helmet"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "clothing"
       ],
       "usage": []
     },
     "created": "2026-04-17T21:44:55Z",
-    "modified": "2026-08-02T18:32:34Z"
+    "modified": "2026-09-02T04:02:17Z"
   }
 }

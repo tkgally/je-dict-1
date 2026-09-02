@@ -14,40 +14,66 @@
   "examples": [
     {
       "id": "10533_kurumaisu_ex1",
-      "japanese": "{車椅子|くるまいす}を{使|つか}っています。",
+      "japanese": "{車椅子|くるまいす}⟦を→を：00422_wo⟧⟦{使|つか}っています→使う：00473_tsukau⟧。",
       "english": "I use a wheelchair.",
       "has_audio": false,
       "notes": null,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10533_kurumaisu_ex2",
-      "japanese": "この{建物|たてもの}は{車椅子|くるまいす}でも{入|はい}れます。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{建物|たてもの}→建物：01458_tatemono⟧⟦は→は：00079_ha⟧{車椅子|くるまいす}⟦で→で：00502_de⟧⟦も→も：00484_mo⟧⟦{入|はい}れ→入る：00494_hairu⟧ます。",
       "english": "This building is accessible by wheelchair.",
       "has_audio": false,
       "notes": null,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10533_kurumaisu_ex3",
-      "japanese": "{祖母|そぼ}は{足|あし}を{怪我|けが}してから{車椅子|くるまいす}で{生活|せいかつ}しています。",
+      "japanese": "⟦{祖母|そぼ}→祖母：00813_sobo⟧⟦は→は：00079_ha⟧⟦{足|あし}→足：00575_ashi⟧⟦を→を：00422_wo⟧{怪我|けが}⟦して→する：00392_suru⟧⟦から→から：00504_kara⟧{車椅子|くるまいす}⟦で→で：00502_de⟧⟦{生活|せいかつ}しています→生活する：01839_seikatsusuru⟧。",
       "english": "My grandmother has been living in a wheelchair since she injured her leg.",
       "has_audio": false,
       "notes": null,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{車椅子|くるまいす} is a compound of {車|くるま} (wheel/vehicle) and {椅子|いす} (chair). It refers to both manual and electric wheelchairs.\n\nCOMMON EXPRESSIONS:\n- {車椅子|くるまいす}に{乗|の}る: to ride in a wheelchair\n- {車椅子|くるまいす}を{押|お}す: to push a wheelchair\n- {車椅子|くるまいす}{用|よう}のスロープ: wheelchair ramp\n- {車椅子|くるまいす}{生活|せいかつ}: life in a wheelchair\n\nRELATED VOCABULARY:\n- {電動|でんどう}{車椅子|くるまいす}: electric wheelchair\n- バリアフリー: barrier-free (accessibility)\n- {介助|かいじょ}: assistance, caregiving\n\nUSAGE:\nIn accessibility contexts, signs and public facilities often use the shorter {車椅子|くるまいす} rather than longer formal terms. The international wheelchair symbol is called {車椅子|くるまいす}マーク.",
+  "notes": "{車椅子|くるまいす} is a compound of ⟦{車|くるま}→車：00516_kuruma⟧ (wheel/vehicle) and ⟦{椅子|いす}→椅子：00706_isu⟧ (chair). It refers to both manual and electric wheelchairs.\n\nCOMMON EXPRESSIONS:\n- {車椅子|くるまいす}⟦に→に：00314_ni⟧⟦{乗|の}る→乗る：00511_noru⟧: to ride in a wheelchair\n- {車椅子|くるまいす}⟦を→を：00422_wo⟧⟦{押|お}す→押す：02854_osu⟧: to push a wheelchair\n- {車椅子|くるまいす}⟦{用|よう}→〜用：09842_you⟧⟦の→の：09472_no⟧スロープ: wheelchair ramp\n- {車椅子|くるまいす}⟦{生活|せいかつ}→生活：01443_seikatsu⟧: life in a wheelchair\n\nRELATED WORDS:\n- {電動|でんどう}{車椅子|くるまいす}: electric wheelchair\n- ⟦バリアフリー→バリアフリー：11153_bariafurii⟧: barrier-free (accessibility)\n- ⟦{介助|かいじょ}→介助：18633_kaijo⟧: assistance, caregiving\n\nUSAGE:\nIn accessibility contexts, signs and public facilities often use the shorter {車椅子|くるまいす} rather than longer formal terms. The international wheelchair symbol is called {車椅子|くるまいす}⟦マーク→マーク：09478_maaku⟧.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "11153_bariafurii",
+      "reading": "ばりあふりー",
+      "headword": "バリアフリー",
+      "label": "barrier-free"
+    },
+    {
+      "type": "related",
+      "target_id": "18633_kaijo",
+      "reading": "かいじょ",
+      "headword": "{介助|かいじょ}",
+      "label": "assistance, caregiving"
+    }
+  ],
   "metadata": {
     "created": "2026-02-08T03:20:10Z",
-    "modified": "2026-03-25T06:54:04Z",
+    "modified": "2026-09-02T04:01:21Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["tool"]
+      "semantic": [
+        "tool"
+      ]
     }
   }
 }

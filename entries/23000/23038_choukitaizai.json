@@ -3,7 +3,7 @@
   "headword": "{長期滞在|ちょうきたいざい}",
   "reading": "ちょうきたいざい",
   "romaji": "choukitaizai",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "long-term stay; extended stay",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "23038_choukitaizai_ex1",
-      "japanese": "{海外|かいがい}に{長期滞在|ちょうきたいざい}する。",
+      "japanese": "⟦{海外|かいがい}→海外：00134_kaigai⟧⟦に→に：00314_ni⟧{長期滞在|ちょうきたいざい}⟦する→する：00392_suru⟧。",
       "english": "To stay abroad for an extended period.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "23038_choukitaizai_ex2",
-      "japanese": "{長期滞在|ちょうきたいざい}{用|よう}のホテルを{探|さが}している。",
+      "japanese": "{長期滞在|ちょうきたいざい}⟦{用|よう}→〜用：09842_you⟧⟦の→の：09472_no⟧⟦ホテル→ホテル：01027_hoteru⟧⟦を→を：00422_wo⟧⟦{探|さが}している→探す：00493_sagasu⟧。",
       "english": "I am looking for a hotel for a long-term stay.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "23038_choukitaizai_ex3",
-      "japanese": "{長期滞在|ちょうきたいざい}ビザを{取得|しゅとく}するには、{収入|しゅうにゅう}の{証明|しょうめい}が{必要|ひつよう}だ。",
+      "japanese": "{長期滞在|ちょうきたいざい}⟦ビザ→ビザ：08283_biza⟧⟦を→を：00422_wo⟧⟦{取得|しゅとく}する→取得する：10444_shutokusuru⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧、⟦{収入|しゅうにゅう}→収入：03213_shuunyuu⟧⟦の→の：09472_no⟧⟦{証明|しょうめい}→証明：03242_shoumei⟧⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧だ。",
       "english": "To obtain a long-term stay visa, proof of income is required.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {長期|ちょうき} (long term) and {滞在|たいざい} (stay/sojourn). Very common in travel and immigration contexts. What counts as \"long-term\" depends on context — it could mean weeks for a hotel stay, or months to years for an overseas assignment.\n\nCOMMON COLLOCATIONS:\n- {長期滞在|ちょうきたいざい}ビザ: long-term stay visa\n- {長期滞在|ちょうきたいざい}{者|しゃ}: long-term resident/visitor\n- {長期滞在|ちょうきたいざい}{型|がた}ホテル: extended-stay hotel\n- {長期滞在|ちょうきたいざい}{向|む}け: designed for long-term stays\n\nSIMILAR WORDS:\n- {短期滞在|たんきたいざい}: short-term stay — the opposite, typically for tourism or brief visits\n- {在留|ざいりゅう}: residence (in a foreign country) — a more formal/legal term used in immigration law\n- {駐在|ちゅうざい}: stationing, being posted — specifically for being assigned to a post, especially overseas work assignments",
+  "notes": "Composed of ⟦{長期|ちょうき}→長期：03487_chouki⟧ (long term) and ⟦{滞在|たいざい}→滞在：03390_taizai⟧ (stay/sojourn). Very common in travel and immigration contexts. What counts as \"long-term\" depends on context — it could mean weeks for a hotel stay, or months to years for an overseas assignment.\n\nCOMMON COLLOCATIONS:\n- {長期滞在|ちょうきたいざい}⟦ビザ→ビザ：08283_biza⟧: long-term stay visa\n- {長期滞在|ちょうきたいざい}⟦{者|しゃ}→〜者：04662_sha⟧: long-term resident/visitor\n- {長期滞在|ちょうきたいざい}{型|がた}⟦ホテル→ホテル：01027_hoteru⟧: extended-stay hotel\n- {長期滞在|ちょうきたいざい}{向|む}け: designed for long-term stays\n\nSIMILAR WORDS:\n- {短期滞在|たんきたいざい}: short-term stay — the opposite, typically for tourism or brief visits\n- ⟦{在留|ざいりゅう}→在留：12128_zairyuu⟧: residence (in a foreign country) — a more formal/legal term used in immigration law\n- ⟦{駐在|ちゅうざい}→駐在：18181_chuuzai⟧: stationing, being posted — specifically for being assigned to a post, especially overseas work assignments",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12128_zairyuu",
+      "reading": "ざいりゅう",
+      "headword": "{在留|ざいりゅう}",
+      "label": "residence"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18181_chuuzai",
+      "reading": "ちゅうざい",
+      "headword": "{駐在|ちゅうざい}",
+      "label": "stationing, being posted"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -55,11 +71,14 @@
       ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["travel", "daily-life"],
+      "semantic": [
+        "travel",
+        "daily-life"
+      ],
       "verb_class": "suru"
     },
     "created": "2026-04-08T16:31:55Z",
-    "modified": "2026-07-31T00:22:30Z"
+    "modified": "2026-09-02T04:02:10Z"
   },
   "conjugation": {
     "type": "suru",

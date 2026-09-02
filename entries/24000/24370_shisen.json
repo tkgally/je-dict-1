@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24370_shisen_ex1",
-      "japanese": "この{駅|えき}で{支線|しせん}に{乗|の}り{換|か}える。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{駅|えき}→駅：02180_eki⟧⟦で→で：00502_de⟧{支線|しせん}⟦に→に：00314_ni⟧⟦{乗|の}り{換|か}える→乗り換える：01194_norikaeru⟧。",
       "english": "Transfer to the branch line at this station.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24370_shisen_ex2",
-      "japanese": "{支線|しせん}は{本数|ほんすう}が{少|すく}ないので{時刻表|じこくひょう}を{確認|かくにん}してください。",
+      "japanese": "{支線|しせん}⟦は→は：00079_ha⟧⟦{本数|ほんすう}→本数：13154_honsuu⟧⟦が→が：00051_ga⟧⟦{少|すく}ない→少ない：01136_sukunai⟧⟦の→の：09472_no⟧で⟦{時刻表|じこくひょう}→時刻表：01031_jikokuhyou⟧⟦を→を：00422_wo⟧⟦{確認|かくにん}して→確認する：25332_kakuninsuru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "The branch line has few trains, so please check the timetable.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24370_shisen_ex3",
-      "japanese": "{利用者|りようしゃ}の{減少|げんしょう}により{支線|しせん}の{廃止|はいし}が{検討|けんとう}されている。",
+      "japanese": "⟦{利用者|りようしゃ}→利用者：03189_riyousha⟧⟦の→の：09472_no⟧⟦{減少|げんしょう}→減少：02719_genshou⟧⟦に→に：00314_ni⟧⟦より→より：09476_yori⟧{支線|しせん}⟦の→の：09472_no⟧⟦{廃止|はいし}→廃止：12483_haishi⟧⟦が→が：00051_ga⟧⟦{検討|けんとう}→検討：02710_kentou⟧⟦されている→する：00392_suru⟧。",
       "english": "Discontinuation of the branch line is being considered due to declining ridership.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {支|し} ('branch; offshoot') and {線|せん} ('line; route'). The standard term for a secondary railway or cable line that branches off from the main ({本線|ほんせん}).\n\nUSAGE:\n- In railway terminology, {支線|しせん} contrasts with {本線|ほんせん} ('main line'). Branch lines typically serve smaller communities and run less frequently.\n- Also used for telecommunications and electrical wiring: a {支線|しせん} branches from the main cable to serve individual buildings or areas.\n- Many rural {支線|しせん} in Japan face closure due to population decline and low ridership — a recurring topic in regional news.\n\nCOMMON COLLOCATIONS:\n- {支線|しせん}に{乗|の}り{換|か}える: to transfer to a branch line\n- {支線|しせん}の{廃止|はいし}: discontinuation of a branch line\n- {本線|ほんせん}と{支線|しせん}: main line and branch line\n\nSIMILAR WORDS:\n- {本線|ほんせん}: main line; trunk line — the primary route from which branch lines diverge\n- {路線|ろせん}: route; line — the general term for a railway, bus, or airline route\n- {単線|たんせん}: single-track line — a railway with only one track, common on branch lines\n- {私鉄|してつ}: private railway — a non-JR railway company, many of which operate branch lines",
+  "notes": "Compound of {支|し} ('branch; offshoot') and ⟦{線|せん}→線：09901_sen⟧ ('line; route'). The standard term for a secondary railway or cable line that branches off from the main (⟦{本線|ほんせん}→本線：22486_honsen⟧).\n\nUSAGE:\n- In railway terminology, {支線|しせん} contrasts with ⟦{本線|ほんせん}→本線：22486_honsen⟧ ('main line'). Branch lines typically serve smaller communities and run less frequently.\n- Also used for telecommunications and electrical wiring: a {支線|しせん} branches from the main cable to serve individual buildings or areas.\n- Many rural {支線|しせん} in Japan face closure due to population decline and low ridership — a recurring topic in regional news.\n\nCOMMON COLLOCATIONS:\n- {支線|しせん}⟦に→に：00314_ni⟧⟦{乗|の}り{換|か}える→乗り換える：01194_norikaeru⟧: to transfer to a branch line\n- {支線|しせん}⟦の→の：09472_no⟧⟦{廃止|はいし}→廃止：12483_haishi⟧: discontinuation of a branch line\n- ⟦{本線|ほんせん}→本線：22486_honsen⟧⟦と→と：00512_to⟧{支線|しせん}: main line and branch line\n\nSIMILAR WORDS:\n- ⟦{本線|ほんせん}→本線：22486_honsen⟧: main line; trunk line — the primary route from which branch lines diverge\n- ⟦{路線|ろせん}→路線：11341_rosen⟧: route; line — the general term for a railway, bus, or airline route\n- {単線|たんせん}: single-track line — a railway with only one track, common on branch lines\n- ⟦{私鉄|してつ}→私鉄：00374_shitetsu⟧: private railway — a non-JR railway company, many of which operate branch lines",
   "cross_references": [
     {
       "type": "antonym",
@@ -52,6 +52,27 @@
       "reading": "かんせん",
       "headword": "{幹線|かんせん}",
       "label": "main line / trunk line"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22486_honsen",
+      "reading": "ほんせん",
+      "headword": "{本線|ほんせん}",
+      "label": "main line"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11341_rosen",
+      "reading": "ろせん",
+      "headword": "{路線|ろせん}",
+      "label": "route"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00374_shitetsu",
+      "reading": "してつ",
+      "headword": "{私鉄|してつ}",
+      "label": "private railway"
     }
   ],
   "schema_version": "2.0",
@@ -72,6 +93,6 @@
       ]
     },
     "created": "2026-04-18T15:24:29Z",
-    "modified": "2026-05-01T05:08:10Z"
+    "modified": "2026-09-02T04:02:18Z"
   }
 }

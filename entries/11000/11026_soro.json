@@ -15,41 +15,73 @@
   "examples": [
     {
       "id": "11026_soro_ex1",
-      "japanese": "ソロで{歌|うた}う。",
+      "japanese": "ソロ⟦で→で：00502_de⟧⟦{歌|うた}う→歌う：00684_utau⟧。",
       "english": "To sing solo.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11026_soro_ex2",
-      "japanese": "{彼女|かのじょ}はソロ{活動|かつどう}を{始|はじ}めた。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧ソロ⟦{活動|かつどう}→活動：00201_katsudou⟧⟦を→を：00422_wo⟧⟦{始|はじ}めた→始める：00531_hajimeru⟧。",
       "english": "She started solo activities.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11026_soro_ex3",
-      "japanese": "{初|はじ}めてソロキャンプに{挑戦|ちょうせん}してみたら、{意外|いがい}と{楽|たの}しかった。",
+      "japanese": "⟦{初|はじ}めて→初めて：02932_hajimete⟧ソロキャンプ⟦に→に：00314_ni⟧⟦{挑戦|ちょうせん}して→挑戦する：21602_chousensuru⟧みたら、⟦{意外|いがい}→意外：12741_igai⟧⟦と→と：00512_to⟧⟦{楽|たの}しかった→楽しい：00817_tanoshii⟧。",
       "english": "I tried solo camping for the first time and it was surprisingly fun.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nソロ is widely used as a modifier with の or as a prefix: ソロ{活動|かつどう} (solo activities), ソロキャンプ (solo camping), ソロ{旅行|りょこう} (solo travel). The word ソロ{活|かつ} (solo activities as a lifestyle) has become a popular term describing people who enjoy doing things alone.\n\nCOMMON COLLOCATIONS:\n- ソロ{活動|かつどう}: solo activities (especially in music/entertainment)\n- ソロキャンプ: solo camping\n- ソロで{演奏|えんそう}する: to perform solo\n- ソロデビュー: solo debut",
-  "cross_references": [],
+  "notes": "USAGE:\nソロ is widely used as a modifier with ⟦の→の：09472_no⟧ or as a prefix: ソロ⟦{活動|かつどう}→活動：00201_katsudou⟧ (solo activities), ソロキャンプ (solo camping), ソロ⟦{旅行|りょこう}→旅行：00748_ryokou⟧ (solo travel). The word ソロ{活|かつ} (solo activities as a lifestyle) has become a popular term describing people who enjoy doing things alone.\n\nCOMMON COLLOCATIONS:\n- ソロ⟦{活動|かつどう}→活動：00201_katsudou⟧: solo activities (especially in music/entertainment)\n- ソロキャンプ: solo camping\n- ソロ⟦で→で：00502_de⟧⟦{演奏|えんそう}する→演奏する：20349_ensousuru⟧: to perform solo\n- ソロデビュー: solo debut",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "07539_dokusou",
+      "reading": "どくそう",
+      "headword": "{独奏|どくそう}",
+      "label": "solo (musical)"
+    },
+    {
+      "type": "related",
+      "target_id": "08147_rifu",
+      "reading": "りふ",
+      "headword": "リフ",
+      "label": "riff (music)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16457_gunbu",
+      "reading": "ぐんぶ",
+      "headword": "{群舞|ぐんぶ}",
+      "label": "group dance"
+    }
+  ],
   "metadata": {
     "created": "2026-02-12T20:10:50Z",
-    "modified": "2026-02-12T20:10:50Z",
+    "modified": "2026-09-02T04:01:23Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["leisure"]
+      "semantic": [
+        "leisure"
+      ]
     }
   }
 }

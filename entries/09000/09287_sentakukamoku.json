@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "09287_sentakukamoku_ex1",
-      "japanese": "{選択科目|せんたくかもく}を{三|みっ}つ{選|えら}んだ。",
+      "japanese": "{選択科目|せんたくかもく}⟦を→を：00422_wo⟧⟦{三|みっ}つ→三つ：02970_mittsu⟧⟦{選|えら}んだ→選ぶ：00835_erabu⟧。",
       "english": "I chose three elective courses.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "09287_sentakukamoku_ex2",
-      "japanese": "{選択科目|せんたくかもく}は{興味|きょうみ}のあるものを{取|と}れる。",
+      "japanese": "{選択科目|せんたくかもく}⟦は→は：00079_ha⟧⟦{興味|きょうみ}→興味：01316_kyoumi⟧⟦の→の：09472_no⟧⟦ある→ある：00006_aru⟧もの⟦を→を：00422_wo⟧⟦{取|と}れる→取れる：02376_toreru⟧。",
       "english": "You can take elective courses that interest you.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "09287_sentakukamoku_ex3",
-      "japanese": "{選択科目|せんたくかもく}の{中|なか}から{二単位|にたんい}{以上|いじょう}{履修|りしゅう}すること。",
+      "japanese": "{選択科目|せんたくかもく}⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧⟦から→から：00504_kara⟧{二単位|にたんい}⟦{以上|いじょう}→以上：01308_ijou⟧⟦{履修|りしゅう}→履修：04861_rishuu⟧⟦する→する：00392_suru⟧こと。",
       "english": "You must take at least two credits from the elective courses.",
       "sense_numbers": [
         1
@@ -43,7 +43,7 @@
       "notes": null
     }
   ],
-  "notes": "{選択科目|せんたくかもく} refers to courses that students can choose based on their interests. Unlike required courses, these are optional but may still be needed to complete credit requirements.\n\nCOMMON COLLOCATIONS:\n- {選択科目|せんたくかもく}を{選|えら}ぶ (to choose electives)\n- {選択科目|せんたくかもく}を{履修|りしゅう}する (to enroll in an elective)\n- {自由|じゆう}{選択科目|せんたくかもく} (free elective)\n\nRELATED TERMS:\n- {必修科目|ひっしゅうかもく} (required course)\n- {選択|せんたく} (choice, selection)\n- {選択必修|せんたくひっしゅう} (required elective - must choose from a set)",
+  "notes": "{選択科目|せんたくかもく} refers to courses that students can choose based on their interests. Unlike required courses, these are optional but may still be needed to complete credit requirements.\n\nCOMMON COLLOCATIONS:\n- {選択科目|せんたくかもく}⟦を→を：00422_wo⟧⟦{選|えら}ぶ→選ぶ：00835_erabu⟧ (to choose electives)\n- {選択科目|せんたくかもく}⟦を→を：00422_wo⟧⟦{履修|りしゅう}→履修：04861_rishuu⟧⟦する→する：00392_suru⟧ (to enroll in an elective)\n- ⟦{自由|じゆう}→自由：01148_jiyuu⟧{選択科目|せんたくかもく} (free elective)\n\nRELATED WORDS:\n- ⟦{必修科目|ひっしゅうかもく}→必修科目：09286_hisshuukamoku⟧ (required course)\n- ⟦{選択|せんたく}→選択：03306_sentaku⟧ (choice, selection)\n- {選択必修|せんたくひっしゅう} (required elective - must choose from a set)",
   "cross_references": [
     {
       "type": "antonym",
@@ -51,11 +51,18 @@
       "reading": "ひっしゅうかもく",
       "headword": "{必修科目|ひっしゅうかもく}",
       "label": "required course"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08641_hisshuu",
+      "reading": "ひっしゅう",
+      "headword": "{必修|ひっしゅう}",
+      "label": "required"
     }
   ],
   "metadata": {
     "created": "2026-02-01T06:19:49Z",
-    "modified": "2026-04-22T08:43:07Z",
+    "modified": "2026-09-02T04:01:17Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

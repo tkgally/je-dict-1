@@ -3,7 +3,7 @@
   "id": "17488_meiki",
   "headword": "{銘記|めいき}",
   "reading": "めいき",
-  "part_of_speech": "noun / verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "to engrave in one's mind; to remember firmly",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "17488_meiki_ex1",
-      "japanese": "この{教訓|きょうくん}を{銘記|めいき}すべきだ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{教訓|きょうくん}→教訓：12721_kyoukun⟧⟦を→を：00422_wo⟧{銘記|めいき}すべきだ。",
       "english": "We should keep this lesson firmly in mind.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "17488_meiki_ex2",
-      "japanese": "{先生|せんせい}の{言葉|ことば}を{心|こころ}に{銘記|めいき}した。",
+      "japanese": "⟦{先生|せんせい}→先生：00609_sensei⟧⟦の→の：09472_no⟧⟦{言葉|ことば}→言葉：02880_kotoba⟧⟦を→を：00422_wo⟧⟦{心|こころ}→心：01321_kokoro⟧⟦に→に：00314_ni⟧{銘記|めいき}⟦した→する：00392_suru⟧。",
       "english": "I engraved the teacher's words in my heart.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "17488_meiki_ex3",
-      "japanese": "{過去|かこ}の{失敗|しっぱい}を{銘記|めいき}し、{同|おな}じ{過|あやま}ちを{繰|く}り{返|かえ}さないようにしたい。",
+      "japanese": "⟦{過去|かこ}→過去：00152_kako⟧⟦の→の：09472_no⟧⟦{失敗|しっぱい}→失敗：01636_shippai⟧⟦を→を：00422_wo⟧{銘記|めいき}し、⟦{同|おな}じ→同じ：02857_onaji⟧⟦{過|あやま}ち→過ち：14376_ayamachi⟧⟦を→を：00422_wo⟧⟦{繰|く}り{返|かえ}さない→繰り返す：02051_kurikaesu⟧ようにしたい。",
       "english": "I want to keep past failures firmly in mind and avoid repeating the same mistakes.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA formal, literary word. The kanji {銘|めい} means \"inscription\" or \"engraving,\" so {銘記|めいき} literally suggests carving something into memory. Often used in speeches, essays, and formal writing.\n\nCOMMON COLLOCATIONS:\n- {心|こころ}に{銘記|めいき}する (to engrave in one's heart)\n- {深|ふか}く{銘記|めいき}する (to remember deeply)\n- {銘記|めいき}すべき (worth keeping in mind)\n\nSIMILAR WORDS:\n- {明記|めいき}: to state clearly in writing — same reading but different meaning (written documentation vs. mental remembrance)\n- {肝|きも}に{銘|めい}じる: to take to heart — similar meaning, also literary",
+  "notes": "USAGE:\nA formal, literary word. The kanji ⟦{銘|めい}→銘：24393_mei⟧ means \"inscription\" or \"engraving,\" so {銘記|めいき} literally suggests carving something into memory. Often used in speeches, essays, and formal writing.\n\nCOMMON COLLOCATIONS:\n- ⟦{心|こころ}→心：01321_kokoro⟧⟦に→に：00314_ni⟧{銘記|めいき}⟦する→する：00392_suru⟧ (to engrave in one's heart)\n- ⟦{深|ふか}く→深い：01211_fukai⟧{銘記|めいき}⟦する→する：00392_suru⟧ (to remember deeply)\n- {銘記|めいき}すべき (worth keeping in mind)\n\nSIMILAR WORDS:\n- ⟦{明記|めいき}→明記：13030_meiki⟧: to state clearly in writing — same reading but different meaning (written documentation vs. mental remembrance)\n- ⟦{肝|きも}→肝：10796_kimo⟧⟦に→に：00314_ni⟧{銘|めい}じる: to take to heart — similar meaning, also literary",
   "cross_references": [
     {
       "type": "homophone",
@@ -142,11 +142,18 @@
       "headword": "{明記|めいき}",
       "label": "to state clearly",
       "target_id": "13030_meiki"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29449_meikoku",
+      "reading": "めいこく",
+      "headword": "銘刻",
+      "label": "inscription"
     }
   ],
   "metadata": {
     "created": "2026-03-18T04:27:44Z",
-    "modified": "2026-03-29T10:42:23Z",
+    "modified": "2026-09-02T04:01:48Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -163,7 +170,8 @@
         "written",
         "literary"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   },
   "prominent_see_also": [

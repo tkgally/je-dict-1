@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "14282_romendensha_ex1",
-      "japanese": "{広島|ひろしま}は{路面電車|ろめんでんしゃ}で{有名|ゆうめい}だ。",
+      "japanese": "⟦{広島|ひろしま}→広島：28985_hiroshima⟧⟦は→は：00079_ha⟧{路面電車|ろめんでんしゃ}⟦で→で：00502_de⟧⟦{有名|ゆうめい}→有名：01106_yuumei⟧だ。",
       "english": "Hiroshima is famous for its streetcars.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "14282_romendensha_ex2",
-      "japanese": "{路面電車|ろめんでんしゃ}に{乗|の}って{市内|しない}を{観光|かんこう}した。",
+      "japanese": "{路面電車|ろめんでんしゃ}⟦に→に：00314_ni⟧⟦{乗|の}って→乗る：00511_noru⟧⟦{市内|しない}→市内：20934_shinai⟧⟦を→を：00422_wo⟧⟦{観光|かんこう}→観光：00173_kankou⟧⟦した→する：00392_suru⟧。",
       "english": "I toured the city by streetcar.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "14282_romendensha_ex3",
-      "japanese": "{環境|かんきょう}にやさしい{交通|こうつう}{手段|しゅだん}として、{路面電車|ろめんでんしゃ}を{復活|ふっかつ}させる{都市|とし}が{増|ふ}えている。",
+      "japanese": "⟦{環境|かんきょう}→環境：00174_kankyou⟧⟦に→に：00314_ni⟧やさしい⟦{交通|こうつう}→交通：01584_koutsuu⟧⟦{手段|しゅだん}→手段：03219_shudan⟧⟦として→として：06802_toshite⟧、{路面電車|ろめんでんしゃ}⟦を→を：00422_wo⟧⟦{復活|ふっかつ}→復活：12565_fukkatsu⟧⟦させる→する：00392_suru⟧⟦{都市|とし}→都市：01477_toshi⟧⟦が→が：00051_ga⟧⟦{増|ふ}えている→増える：01183_fueru⟧。",
       "english": "More cities are reviving streetcars as an environmentally friendly means of transportation.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "Compound of {路面|ろめん} (road surface) + {電車|でんしゃ} (electric train). Often shortened to {路電|ろでん} in casual speech. In some regions, locals simply call it {電車|でんしゃ}.\n\nJapanese cities with active streetcar systems include {広島|ひろしま}, {長崎|ながさき}, {鹿児島|かごしま}, {松山|まつやま}, {函館|はこだて}, {高知|こうち}, and {富山|とやま}. {広島|ひろしま} has the largest network.\n\nCOMMON COLLOCATIONS:\n- {路面電車|ろめんでんしゃ}に{乗|の}る (to ride a streetcar)\n- {路面電車|ろめんでんしゃ}の{停留所|ていりゅうじょ} (streetcar stop)\n- {路面電車|ろめんでんしゃ}が{走|はし}る (a streetcar runs)\n\nRELATED WORDS:\n- {市電|しでん}: municipal streetcar (abbreviated form)\n- {電車|でんしゃ}: electric train (general term)\n- バス: bus (another common urban transit option)",
+  "notes": "Compound of ⟦{路面|ろめん}→路面：16490_romen⟧ (road surface) + ⟦{電車|でんしゃ}→電車：00522_densha⟧ (electric train). Often shortened to {路電|ろでん} in casual speech. In some regions, locals simply call it ⟦{電車|でんしゃ}→電車：00522_densha⟧.\n\nJapanese cities with active streetcar systems include ⟦{広島|ひろしま}→広島：28985_hiroshima⟧, ⟦{長崎|ながさき}→長崎：30731_nagasaki⟧, {鹿児島|かごしま}, {松山|まつやま}, {函館|はこだて}, {高知|こうち}, and {富山|とやま}. ⟦{広島|ひろしま}→広島：28985_hiroshima⟧ has the largest network.\n\nCOMMON COLLOCATIONS:\n- {路面電車|ろめんでんしゃ}⟦に→に：00314_ni⟧⟦{乗|の}る→乗る：00511_noru⟧ (to ride a streetcar)\n- {路面電車|ろめんでんしゃ}⟦の→の：09472_no⟧⟦{停留所|ていりゅうじょ}→停留所：03440_teiryuujo⟧ (streetcar stop)\n- {路面電車|ろめんでんしゃ}⟦が→が：00051_ga⟧⟦{走|はし}る→走る：00519_hashiru⟧ (a streetcar runs)\n\nRELATED WORDS:\n- {市電|しでん}: municipal streetcar (abbreviated form)\n- ⟦{電車|でんしゃ}→電車：00522_densha⟧: electric train (general term)\n- ⟦バス→バス：00769_basu⟧: bus (another common urban transit option)",
   "cross_references": [
     {
       "type": "related",
@@ -52,11 +52,18 @@
       "reading": "でんしゃ",
       "headword": "{電車|でんしゃ}",
       "label": "train, electric railway"
+    },
+    {
+      "type": "related",
+      "target_id": "00769_basu",
+      "reading": "ばす",
+      "headword": "バス",
+      "label": "bus"
     }
   ],
   "metadata": {
     "created": "2026-02-28T09:24:40Z",
-    "modified": "2026-04-30T06:34:37Z",
+    "modified": "2026-09-02T04:01:36Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

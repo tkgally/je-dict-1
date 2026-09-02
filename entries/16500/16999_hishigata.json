@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "16999_hishigata_ex1",
-      "japanese": "ひし{形|がた}の{模様|もよう}がきれいだ。",
+      "japanese": "ひし{形|がた}⟦の→の：09472_no⟧⟦{模様|もよう}→模様：03635_moyou⟧⟦が→が：00051_ga⟧⟦きれい→きれい：00717_kirei⟧だ。",
       "english": "The diamond pattern is beautiful.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "16999_hishigata_ex2",
-      "japanese": "{算数|さんすう}でひし{形|がた}の{面積|めんせき}を{求|もと}めた。",
+      "japanese": "⟦{算数|さんすう}→算数：04170_sansuu⟧⟦で→で：00502_de⟧ひし{形|がた}⟦の→の：09472_no⟧⟦{面積|めんせき}→面積：05330_menseki⟧⟦を→を：00422_wo⟧⟦{求|もと}めた→求める：02316_motomeru⟧。",
       "english": "In math, we calculated the area of a rhombus.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "16999_hishigata_ex3",
-      "japanese": "この{着物|きもの}にはひし{形|がた}の{柄|がら}が{全体|ぜんたい}に{入|はい}っていて、{伝統的|でんとうてき}な{雰囲気|ふんいき}がある。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{着物|きもの}→着物：01309_kimono⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧ひし{形|がた}⟦の→の：09472_no⟧⟦{柄|がら}→柄：02609_gara⟧⟦が→が：00051_ga⟧⟦{全体|ぜんたい}→全体：03314_zentai⟧⟦に→に：00314_ni⟧⟦{入|はい}っていて→入る：00494_hairu⟧、⟦{伝統的|でんとうてき}→伝統的：04802_dentouteki⟧な⟦{雰囲気|ふんいき}→雰囲気：03604_funiki⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "This kimono has a diamond pattern throughout, giving it a traditional feel.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,26 @@
       ]
     }
   ],
-  "notes": "ETYMOLOGY:\nThe name comes from {菱|ひし} (water chestnut), whose seed has this characteristic shape. {形|がた} means \"shape.\"\n\nMATHEMATICS:\nIn geometry, ひし{形|がた} is a rhombus — a quadrilateral with four equal sides. Area = {対角線|たいかくせん} × {対角線|たいかくせん} ÷ 2.\n\nCULTURAL SIGNIFICANCE:\nThe diamond pattern ({菱|ひし}{紋|もん}) is one of the most common traditional Japanese patterns, frequently seen on:\n- {着物|きもの}: kimono fabric\n- {家紋|かもん}: family crests\n- {甲冑|かっちゅう}: samurai armor\n\nCOMMON COLLOCATIONS:\n- ひし{形|がた}の{模様|もよう}: diamond pattern\n- ひし{形|がた}の{面積|めんせき}: area of a rhombus\n- ひし{形|がた}に{並|なら}べる: to arrange in a diamond shape",
-  "cross_references": [],
+  "notes": "ETYMOLOGY:\nThe name comes from {菱|ひし} (water chestnut), whose seed has this characteristic shape. {形|がた} means \"shape.\"\n\nMATHEMATICS:\nIn geometry, ひし{形|がた} is a rhombus — a quadrilateral with four equal sides. Area = ⟦{対角線|たいかくせん}→対角線：08121_taikakusen⟧ × ⟦{対角線|たいかくせん}→対角線：08121_taikakusen⟧ ÷ 2.\n\nCULTURAL NOTE:\nThe diamond pattern ({菱|ひし}⟦{紋|もん}→紋：13863_mon⟧) is one of the most common traditional Japanese patterns, frequently seen on:\n- ⟦{着物|きもの}→着物：01309_kimono⟧: kimono fabric\n- ⟦{家紋|かもん}→家紋：15366_kamon⟧: family crests\n- ⟦{甲冑|かっちゅう}→甲冑：15370_kacchuu⟧: samurai armor\n\nCOMMON COLLOCATIONS:\n- ひし{形|がた}⟦の→の：09472_no⟧⟦{模様|もよう}→模様：03635_moyou⟧: diamond pattern\n- ひし{形|がた}⟦の→の：09472_no⟧⟦{面積|めんせき}→面積：05330_menseki⟧: area of a rhombus\n- ひし{形|がた}⟦に→に：00314_ni⟧⟦{並|なら}べる→並べる：01091_naraberu⟧: to arrange in a diamond shape",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "05438_seihoukei",
+      "reading": "せいほうけい",
+      "headword": "{正方形|せいほうけい}",
+      "label": "square"
+    },
+    {
+      "type": "related",
+      "target_id": "23382_heikoushihenkei",
+      "reading": "へいこうしへんけい",
+      "headword": "{平行四辺形|へいこうしへんけい}",
+      "label": "parallelogram"
+    }
+  ],
   "metadata": {
     "created": "2026-03-15T05:53:16Z",
-    "modified": "2026-07-22T03:30:08Z",
+    "modified": "2026-09-02T04:01:46Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

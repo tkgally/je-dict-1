@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "notes": "SYNONYMS:\n・⟦ウェブ{会議|かいぎ}→ウェブ会議：08746_webukaigi⟧/Web⟦{会議|かいぎ}→会議：00710_kaigi⟧ (web conference)\n・⟦ビデオ→ビデオ：01499_bideo⟧⟦{会議|かいぎ}→会議：00710_kaigi⟧ (video conference)\n・⟦リモート→リモート：04743_rimooto⟧⟦{会議|かいぎ}→会議：00710_kaigi⟧ (remote meeting)\n・⟦テレビ{会議|かいぎ}→テレビ会議：21751_terebikaigi⟧ (teleconference - older term)\n\nCOMMON PLATFORMS:\n・Zoom（ズーム）\n・Microsoft Teams（チームズ）\n・Google Meet（グーグルミート）\n\nRELATED EXPRESSIONS:\n・⟦{画面|がめん}→画面：04406_gamen⟧⟦{共有|きょうゆう}→共有：11666_kyouyuu⟧ (screen sharing)\n・⟦ミュート→ミュート：05903_myuuto⟧⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧ (to mute)\n・⟦カメラ→カメラ：04417_kamera⟧⟦を→を：00422_wo⟧⟦オン→オン：29843_on⟧/⟦オフ→オフ：10733_ofu⟧⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧ (to turn camera on/off)\n・⟦{退出|たいしゅつ}→退出：18284_taishutsu⟧⟦する→する：00392_suru⟧ (to leave the meeting)",
+  "notes": "SIMILAR WORDS:\n- ⟦ウェブ{会議|かいぎ}→ウェブ会議：08746_webukaigi⟧/Web⟦{会議|かいぎ}→会議：00710_kaigi⟧ (web conference)\n- ⟦ビデオ→ビデオ：01499_bideo⟧⟦{会議|かいぎ}→会議：00710_kaigi⟧ (video conference)\n- ⟦リモート→リモート：04743_rimooto⟧⟦{会議|かいぎ}→会議：00710_kaigi⟧ (remote meeting)\n- ⟦テレビ{会議|かいぎ}→テレビ会議：21751_terebikaigi⟧ (teleconference - older term)\n\nCOMMON PLATFORMS:\n- Zoom（ズーム）\n- Microsoft Teams（チームズ）\n- Google Meet（グーグルミート）\n\nRELATED WORDS:\n- ⟦{画面|がめん}→画面：04406_gamen⟧⟦{共有|きょうゆう}→共有：11666_kyouyuu⟧ (screen sharing)\n- ⟦ミュート→ミュート：05903_myuuto⟧⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧ (to mute)\n- ⟦カメラ→カメラ：04417_kamera⟧⟦を→を：00422_wo⟧⟦オン→オン：29843_on⟧/⟦オフ→オフ：10733_ofu⟧⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧ (to turn camera on/off)\n- ⟦{退出|たいしゅつ}→退出：18284_taishutsu⟧⟦する→する：00392_suru⟧ (to leave the meeting)",
   "cross_references": [
     {
       "type": "related",
@@ -48,11 +48,60 @@
       "headword": "ビデオ{通話|つうわ}",
       "label": "one-on-one version",
       "target_id": "06607_bideotsuuwa"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21751_terebikaigi",
+      "reading": "てれびかいぎ",
+      "headword": "テレビ{会議|かいぎ}",
+      "label": "teleconference"
+    },
+    {
+      "type": "related",
+      "target_id": "06476_gamenkyouyuu",
+      "reading": "がめんきょうゆう",
+      "headword": "{画面共有|がめんきょうゆう}",
+      "label": "screen sharing"
+    },
+    {
+      "type": "related",
+      "target_id": "22130_taishutsusuru",
+      "reading": "たいしゅつする",
+      "headword": "{退出|たいしゅつ}する",
+      "label": "to leave the meeting"
+    },
+    {
+      "type": "related",
+      "target_id": "05397_terewaaku",
+      "reading": "てれわーく",
+      "headword": "テレワーク",
+      "label": "telework"
+    },
+    {
+      "type": "related",
+      "target_id": "06158_zaitakukinmu",
+      "reading": "ざいたくきんむ",
+      "headword": "{在宅勤務|ざいたくきんむ}",
+      "label": "work from home"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08746_webukaigi",
+      "reading": "うぇぶかいぎ",
+      "headword": "ウェブ{会議|かいぎ}",
+      "label": "web conference"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28807_bideochatto",
+      "reading": "びでおちゃっと",
+      "headword": "ビデオチャット",
+      "label": "video chat"
     }
   ],
   "metadata": {
     "created": "2026-01-18T01:12:30Z",
-    "modified": "2026-07-24T00:21:21Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

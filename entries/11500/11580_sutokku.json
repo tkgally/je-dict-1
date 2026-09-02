@@ -3,7 +3,7 @@
   "id": "11580_sutokku",
   "headword": "ストック",
   "reading": "すとっく",
-  "part_of_speech": "noun / verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "stock, reserve, supply",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "11580_sutokku_ex1",
-      "japanese": "{食料|しょくりょう}をストックする。",
+      "japanese": "⟦{食料|しょくりょう}→食料：03250_shokuryou⟧⟦を→を：00422_wo⟧ストック⟦する→する：00392_suru⟧。",
       "english": "To stock up on food.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "11580_sutokku_ex2",
-      "japanese": "{缶詰|かんづめ}のストックが{切|き}れた。",
+      "japanese": "⟦{缶詰|かんづめ}→缶詰：00187_kanzume⟧⟦の→の：09472_no⟧ストック⟦が→が：00051_ga⟧⟦{切|き}れた→切れる：01936_kireru⟧。",
       "english": "We've run out of our canned food stock.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "11580_sutokku_ex3",
-      "japanese": "{災害|さいがい}に{備|そな}えて、{水|みず}と{食料|しょくりょう}をストックしておいた{方|ほう}がいい。",
+      "japanese": "⟦{災害|さいがい}→災害：09636_saigai⟧⟦に→に：00314_ni⟧⟦{備|そな}えて→備える：02125_sonaeru⟧、⟦{水|みず}→水：02258_mizu⟧⟦と→と：00512_to⟧⟦{食料|しょくりょう}→食料：03250_shokuryou⟧⟦を→を：00422_wo⟧ストック⟦して→する：00392_suru⟧おいた⟦{方|ほう}→方：01139_hou⟧⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧。",
       "english": "You should stock up on water and food in case of a disaster.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,11 @@
       ]
     }
   ],
-  "notes": "USAGE:\nストック typically refers to keeping a reserve of consumable items (food, supplies, etc.) rather than financial stocks (which is {株|かぶ} in Japanese). ストックする functions as a suru-verb meaning 'to stock up' or 'to keep in reserve.'\n\nCOMMON COLLOCATIONS:\n- ストックする: to stock up, to keep in reserve\n- ストックが{切|き}れる: to run out of stock\n- ストックがある: to have stock on hand\n- {食料|しょくりょう}のストック: food reserves\n- {在庫|ざいこ}ストック: inventory stock",
+  "notes": "USAGE:\nストック typically refers to keeping a reserve of consumable items (food, supplies, etc.) rather than financial stocks (which is ⟦{株|かぶ}→株：02592_kabu⟧ in Japanese). ストック⟦する→する：00392_suru⟧ functions as a suru-verb meaning 'to stock up' or 'to keep in reserve.'\n\nCOMMON COLLOCATIONS:\n- ストック⟦する→する：00392_suru⟧: to stock up, to keep in reserve\n- ストック⟦が→が：00051_ga⟧⟦{切|き}れる→切れる：01936_kireru⟧: to run out of stock\n- ストック⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧: to have stock on hand\n- ⟦{食料|しょくりょう}→食料：03250_shokuryou⟧⟦の→の：09472_no⟧ストック: food reserves\n- ⟦{在庫|ざいこ}→在庫：04701_zaiko⟧ストック: inventory stock",
   "cross_references": [],
   "metadata": {
     "created": "2026-02-17T13:41:39Z",
-    "modified": "2026-03-29T03:07:35Z",
+    "modified": "2026-09-02T04:01:25Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -151,7 +151,8 @@
       "semantic": [
         "general"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

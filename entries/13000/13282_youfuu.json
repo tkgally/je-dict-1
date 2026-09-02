@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "13282_youfuu_ex1",
-      "japanese": "{洋風|ようふう}の{家|いえ}に{住|す}んでいる。",
+      "japanese": "{洋風|ようふう}⟦の→の：09472_no⟧⟦{家|いえ}→家：00612_ie⟧⟦に→に：00314_ni⟧⟦{住|す}んでいる→住む：00673_sumu⟧。",
       "english": "I live in a Western-style house.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13282_youfuu_ex2",
-      "japanese": "{今日|きょう}の{昼|ひる}ご{飯|はん}は{洋風|ようふう}パスタにしよう。",
+      "japanese": "⟦{今日|きょう}→今日：00496_kyou⟧⟦の→の：09472_no⟧⟦{昼|ひる}ご{飯|はん}→昼ご飯：02950_hirugohan⟧⟦は→は：00079_ha⟧{洋風|ようふう}⟦パスタ→パスタ：06768_pasuta⟧⟦に→に：00314_ni⟧⟦しよう→する：00392_suru⟧。",
       "english": "Let's have Western-style pasta for lunch today.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13282_youfuu_ex3",
-      "japanese": "このホテルは{和風|わふう}と{洋風|ようふう}の{部屋|へや}が{選|えら}べる。",
+      "japanese": "⟦この→この：00962_kono⟧⟦ホテル→ホテル：01027_hoteru⟧⟦は→は：00079_ha⟧⟦{和風|わふう}→和風：12034_wafuu⟧⟦と→と：00512_to⟧{洋風|ようふう}⟦の→の：09472_no⟧⟦{部屋|へや}→部屋：00507_heya⟧⟦が→が：00051_ga⟧⟦{選|えら}べる→選ぶ：00835_erabu⟧。",
       "english": "At this hotel, you can choose between Japanese-style and Western-style rooms.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nUsed as a noun modifier with の ({洋風|ようふう}の) or directly before another noun ({洋風|ようふう}{建築|けんちく}). Often contrasted with {和風|わふう} (Japanese-style). In food contexts, {洋風|ようふう} typically refers to dishes influenced by European cuisine adapted to Japanese tastes.\n\nCOMMON COLLOCATIONS:\n- {洋風|ようふう}{建築|けんちく}: Western-style architecture\n- {洋風|ようふう}{料理|りょうり}: Western-style cooking\n- {洋風|ようふう}の{部屋|へや}: Western-style room\n- {洋風|ようふう}の{庭|にわ}: Western-style garden\n- {和|わ}{洋|よう}{折衷|せっちゅう}: Japanese-Western eclectic style",
+  "notes": "USAGE:\nUsed as a noun modifier with ⟦の→の：09472_no⟧ ({洋風|ようふう}⟦の→の：09472_no⟧) or directly before another noun ({洋風|ようふう}⟦{建築|けんちく}→建築：02709_kenchiku⟧). Often contrasted with ⟦{和風|わふう}→和風：12034_wafuu⟧ (Japanese-style). In food contexts, {洋風|ようふう} typically refers to dishes influenced by European cuisine adapted to Japanese tastes.\n\nCOMMON COLLOCATIONS:\n- {洋風|ようふう}⟦{建築|けんちく}→建築：02709_kenchiku⟧: Western-style architecture\n- {洋風|ようふう}⟦{料理|りょうり}→料理：01523_ryouri⟧: Western-style cooking\n- {洋風|ようふう}⟦の→の：09472_no⟧⟦{部屋|へや}→部屋：00507_heya⟧: Western-style room\n- {洋風|ようふう}⟦の→の：09472_no⟧⟦{庭|にわ}→庭：02239_niwa⟧: Western-style garden\n- ⟦{和|わ}{洋|よう}{折衷|せっちゅう}→和洋折衷：17524_wayousecchuu⟧: Japanese-Western eclectic style",
   "cross_references": [
     {
       "type": "antonym",
@@ -46,18 +52,37 @@
       "reading": "わふう",
       "headword": "{和風|わふう}",
       "label": "Japanese-style"
+    },
+    {
+      "type": "related",
+      "target_id": "17524_wayousecchuu",
+      "reading": "わようせっちゅう",
+      "headword": "{和洋折衷|わようせっちゅう}",
+      "label": "blending of Japanese and Western styles"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22966_ikokufuu",
+      "reading": "いこくふう",
+      "headword": "{異国風|いこくふう}",
+      "label": "foreign style"
     }
   ],
   "metadata": {
     "created": "2026-02-24T08:52:14Z",
-    "modified": "2026-04-25T10:12:38Z",
+    "modified": "2026-09-02T04:01:32Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-no"],
+      "pos": [
+        "noun",
+        "adjective-no"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["culture"]
+      "semantic": [
+        "culture"
+      ]
     }
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "13469_tokuten_ex1",
-      "japanese": "{会員|かいいん}{限定|げんてい}の{特典|とくてん}がある。",
+      "japanese": "⟦{会員|かいいん}→会員：02535_kaiin⟧⟦{限定|げんてい}→限定：10997_gentei⟧⟦の→の：09472_no⟧{特典|とくてん}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There are member-exclusive perks.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "13469_tokuten_ex2",
-      "japanese": "{予約|よやく}{購入|こうにゅう}すると{特典|とくてん}がつく。",
+      "japanese": "⟦{予約|よやく}→予約：01522_yoyaku⟧⟦{購入|こうにゅう}→購入：03057_kounyuu⟧⟦する→する：00392_suru⟧⟦と→と：00512_to⟧{特典|とくてん}⟦が→が：00051_ga⟧つく。",
       "english": "You get a bonus item if you pre-order.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "13469_tokuten_ex3",
-      "japanese": "このクレジットカードには{空港|くうこう}ラウンジが{使|つか}える{特典|とくてん}がついている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦クレジットカード→クレジットカード：06968_kurejittokaado⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{空港|くうこう}→空港：00648_kuukou⟧⟦ラウンジ→ラウンジ：29687_raunji⟧⟦が→が：00051_ga⟧⟦{使|つか}える→使う：00473_tsukau⟧{特典|とくてん}⟦が→が：00051_ga⟧ついて⟦いる→いる：00495_iru⟧。",
       "english": "This credit card comes with the perk of access to airport lounges.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,26 @@
       ]
     }
   ],
-  "notes": "USAGE:\nVery common in consumer and marketing contexts. Used for promotional extras (DVDs with bonus content, pre-order gifts), membership benefits, and credit card rewards. Not to be confused with the homophone {得点|とくてん} (score, points in a game).\n\nCOMMON COLLOCATIONS:\n- {特典|とくてん}つき: with bonus/perks included\n- {会員|かいいん}{特典|とくてん}: membership benefits\n- {初回|しょかい}{特典|とくてん}: first-edition bonus\n- {購入|こうにゅう}{特典|とくてん}: purchase bonus\n- {限定|げんてい}{特典|とくてん}: exclusive bonus",
-  "cross_references": [],
+  "notes": "USAGE:\nVery common in consumer and marketing contexts. Used for promotional extras (DVDs with bonus content, pre-order gifts), membership benefits, and credit card rewards. Not to be confused with the homophone ⟦{得点|とくてん}→得点：04909_tokuten⟧ (score, points in a game).\n\nCOMMON COLLOCATIONS:\n- {特典|とくてん}つき: with bonus/perks included\n- ⟦{会員|かいいん}→会員：02535_kaiin⟧{特典|とくてん}: membership benefits\n- ⟦{初回|しょかい}→初回：11780_shokai⟧{特典|とくてん}: first-edition bonus\n- ⟦{購入|こうにゅう}→購入：03057_kounyuu⟧{特典|とくてん}: purchase bonus\n- ⟦{限定|げんてい}→限定：10997_gentei⟧{特典|とくてん}: exclusive bonus",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "06446_kuupon",
+      "reading": "くーぽん",
+      "headword": "クーポン",
+      "label": "coupon, voucher, discount ticket"
+    },
+    {
+      "type": "related",
+      "target_id": "08797_kyasshubakku",
+      "reading": "きゃっしゅばっく",
+      "headword": "キャッシュバック",
+      "label": "cashback"
+    }
+  ],
   "metadata": {
     "created": "2026-02-24T13:29:04Z",
-    "modified": "2026-07-10T04:36:00Z",
+    "modified": "2026-09-02T04:01:33Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

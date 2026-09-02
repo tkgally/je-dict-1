@@ -25,7 +25,7 @@
     },
     {
       "id": "25255_ojikezuku_ex2",
-      "japanese": "{相手|あいて}の{迫力|はくりょく}に{怖気|おじけ}づいた。",
+      "japanese": "⟦{相手|あいて}→相手：01677_aite⟧⟦の→の：09472_no⟧⟦{迫力|はくりょく}→迫力：14310_hakuryoku⟧⟦に→に：00314_ni⟧{怖気|おじけ}づいた。",
       "english": "I was intimidated by the opponent's intensity.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25255_ojikezuku_ex3",
-      "japanese": "{試合|しあい}の{前|まえ}に{怖気|おじけ}づくな。",
+      "japanese": "⟦{試合|しあい}→試合：01601_shiai⟧⟦の→の：09472_no⟧⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧{怖気|おじけ}づくな。",
       "english": "Don't lose your nerve before the match.",
       "sense_numbers": [
         1
@@ -45,7 +45,7 @@
     },
     {
       "id": "25255_ojikezuku_ex4",
-      "japanese": "{暗|くら}い{森|もり}の{中|なか}に{入|はい}ろうとしたが、{怖気|おじけ}づいて{引|ひ}き{返|かえ}した。",
+      "japanese": "⟦{暗|くら}い→暗い：00647_kurai⟧⟦{森|もり}→森：02260_mori⟧⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧⟦に→に：00314_ni⟧⟦{入|はい}ろう→入る：00494_hairu⟧とした⟦が→が：00051_ga⟧、{怖気|おじけ}づいて⟦{引|ひ}き{返|かえ}した→引き返す：05872_hikikaesu⟧。",
       "english": "I tried to enter the dark forest but got frightened and turned back.",
       "sense_numbers": [
         1
@@ -54,21 +54,46 @@
       "notes": null
     }
   ],
-  "notes": "A godan verb describing the moment when fear or intimidation takes hold and one loses the courage to proceed. Implies that the person was initially willing but became afraid.\n\nCOMMON COLLOCATIONS:\n- {怖気|おじけ}づいて{逃|に}げる: to run away out of fear\n- {迫力|はくりょく}に{怖気|おじけ}づく: to be intimidated by someone's intensity\n- {怖気|おじけ}づくことなく: without flinching\n- {怖気|おじけ}づかせる: to intimidate someone\n\nSIMILAR WORDS:\n- ひるむ: to flinch or shrink back; similar in meaning but more literary\n- {臆|おく}する: to be timid or lose courage; more formal and written\n- びびる: (colloquial) to be scared or chicken out; casual and slangy\n\nETYMOLOGY:\nFrom {怖気|おじけ} (a feeling of dread) + づく (to become attached to, to take on a quality). Literally, to become seized by dread.",
+  "notes": "A godan verb describing the moment when fear or intimidation takes hold and one loses the courage to proceed. Implies that the person was initially willing but became afraid.\n\nCOMMON COLLOCATIONS:\n- {怖気|おじけ}づいて⟦{逃|に}げる→逃げる：01151_nigeru⟧: to run away out of fear\n- ⟦{迫力|はくりょく}→迫力：14310_hakuryoku⟧⟦に→に：00314_ni⟧{怖気|おじけ}づく: to be intimidated by someone's intensity\n- {怖気|おじけ}づくこと⟦なく→ない：01118_nai⟧: without flinching\n- {怖気|おじけ}づかせる: to intimidate someone\n\nSIMILAR WORDS:\n- ⟦ひるむ→ひるむ：07358_hirumu⟧: to flinch or shrink back; similar in meaning but more literary\n- ⟦{臆|おく}する→臆する：09168_okusuru⟧: to be timid or lose courage; more formal and written\n- ⟦びびる→びびる：09292_bibiru⟧: (colloquial) to be scared or chicken out; casual and slangy\n\nETYMOLOGY:\nFrom {怖気|おじけ} (a feeling of dread) + づく (to become attached to, to take on a quality). Literally, to become seized by dread.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07358_hirumu",
+      "reading": "ひるむ",
+      "headword": "ひるむ",
+      "label": "to flinch or shrink back"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09168_okusuru",
+      "reading": "おくする",
+      "headword": "{臆|おく}する",
+      "label": "to be timid or lose courage"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09292_bibiru",
+      "reading": "びびる",
+      "headword": "びびる",
+      "label": "(colloquial) to be scared or chicken out"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "verb-godan"
       ],
+      "politeness": "plain",
       "semantic": [
         "emotion"
       ],
-      "verb_class": "godan-ku"
+      "verb_class": "godan-ku",
+      "transitivity": "intransitive"
     },
     "created": "2026-04-24T12:13:29Z",
-    "modified": "2026-04-24T12:13:29Z"
+    "modified": "2026-09-02T04:02:21Z"
   },
   "conjugation": {
     "type": "godan",

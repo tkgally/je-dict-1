@@ -2,7 +2,7 @@
   "id": "01399_geshuku",
   "headword": "{下宿|げしゅく}",
   "reading": "げしゅく",
-  "part_of_speech": "noun (verbal)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "lodging, boarding house",
   "definitions": [
     {
@@ -139,10 +139,32 @@
     }
   ],
   "notes": "{下宿|げしゅく} refers to a boarding house or the act of lodging, traditionally popular among students.\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n- No standard transitive pair\n- Pattern: {下宿|げしゅく}⟦する→する：00392_suru⟧\n\nVERBAL USE:\n{下宿|げしゅく}⟦する→する：00392_suru⟧: to board, to lodge\n\nCOMMON EXPRESSIONS:\n- {下宿|げしゅく}⟦を→を：00422_wo⟧⟦{探|さが}す→探す：00493_sagasu⟧: to look for lodgings\n- {下宿|げしゅく}⟦に→に：00314_ni⟧⟦{住|す}む→住む：00673_sumu⟧: to live in a boarding house\n- {下宿|げしゅく}⟦{代|だい}→代：noentry⟧/{下宿|げしゅく}⟦{料|りょう}→料：noentry⟧: lodging fee\n- {下宿|げしゅく}⟦{先|さき}→先：02883_saki⟧: place of lodging\n- {下宿|げしゅく}⟦{生活|せいかつ}→生活：01443_seikatsu⟧: boarding house life\n\nTRADITIONAL FEATURES:\nHistorically, {下宿|げしゅく} included meals (⟦{食事|しょくじ}→食事：02087_shokuji⟧⟦つき→付き：26333_tsuki⟧) and were run by a landlord/landlady (⟦{大家|おおや}→大家：01907_ooya⟧⟦さん→〜さん：09848_san⟧). Common for university students away from home.\n\nMODERN CONTEXT:\nLess common today as ⟦アパート→アパート：01012_apaato⟧ (apartments) and ⟦マンション→マンション：01035_manshon⟧ (condominiums) have become the standard for student housing.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06397_sheahausu",
+      "reading": "しぇあはうす",
+      "headword": "シェアハウス",
+      "label": "share house"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20478_kishukusha",
+      "reading": "きしゅくしゃ",
+      "headword": "{寄宿舎|きしゅくしゃ}",
+      "label": "dormitory"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22383_magari",
+      "reading": "まがり",
+      "headword": "{間借|まが}り",
+      "label": "renting a room"
+    }
+  ],
   "metadata": {
     "created": "2026-01-08T12:45:23Z",
-    "modified": "2026-05-15T15:14:06Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

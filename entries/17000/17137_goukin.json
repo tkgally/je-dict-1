@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "17137_goukin_ex1",
-      "japanese": "{青銅|せいどう}は{銅|どう}と{錫|すず}の{合金|ごうきん}だ。",
+      "japanese": "{青銅|せいどう}⟦は→は：00079_ha⟧⟦{銅|どう}→銅：19443_dou⟧⟦と→と：00512_to⟧{錫|すず}⟦の→の：09472_no⟧{合金|ごうきん}だ。",
       "english": "Bronze is an alloy of copper and tin.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "17137_goukin_ex2",
-      "japanese": "この{部品|ぶひん}はアルミニウム{合金|ごうきん}で{作|つく}られている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{部品|ぶひん}→部品：00020_buhin⟧⟦は→は：00079_ha⟧アルミニウム{合金|ごうきん}⟦で→で：00502_de⟧⟦{作|つく}られている→作る：00481_tsukuru⟧。",
       "english": "This part is made from an aluminum alloy.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "17137_goukin_ex3",
-      "japanese": "{軽|かる}くて{丈夫|じょうぶ}な{合金|ごうきん}が{航空機|こうくうき}の{材料|ざいりょう}として{使|つか}われている。",
+      "japanese": "⟦{軽|かる}くて→軽い：00785_karui⟧⟦{丈夫|じょうぶ}→丈夫：01156_joubu⟧な{合金|ごうきん}⟦が→が：00051_ga⟧⟦{航空機|こうくうき}→航空機：14008_koukuuki⟧⟦の→の：09472_no⟧⟦{材料|ざいりょう}→材料：02831_zairyou⟧⟦として→として：06802_toshite⟧⟦{使|つか}われている→使う：00473_tsukau⟧。",
       "english": "Lightweight and strong alloys are used as materials for aircraft.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA compound of {合|ごう} (combine) + {金|きん} (metal). Used in scientific, industrial, and everyday contexts when discussing metal materials.\n\nCOMMON COLLOCATIONS:\n- アルミニウム{合金|ごうきん} (aluminum alloy)\n- チタン{合金|ごうきん} (titanium alloy)\n- {合金|ごうきん}{製|せい} (made of alloy)\n\nSIMILAR WORDS:\n- {金属|きんぞく}: metal — the general term for metallic elements\n- {鋼|はがね}: steel — a specific alloy of iron and carbon",
+  "notes": "USAGE:\nA compound of ⟦{合|ごう}→合：27628_gou⟧ (combine) + {金|きん} (metal). Used in scientific, industrial, and everyday contexts when discussing metal materials.\n\nCOMMON COLLOCATIONS:\n- アルミニウム{合金|ごうきん} (aluminum alloy)\n- チタン{合金|ごうきん} (titanium alloy)\n- {合金|ごうきん}⟦{製|せい}→〜製：02001_sei⟧ (made of alloy)\n\nSIMILAR WORDS:\n- ⟦{金属|きんぞく}→金属：02645_kinzoku⟧: metal — the general term for metallic elements\n- ⟦{鋼|はがね}→鋼：14739_hagane⟧: steel — a specific alloy of iron and carbon",
   "cross_references": [
     {
       "type": "related",
@@ -59,11 +59,32 @@
       "reading": "ききんぞく",
       "headword": "{貴金属|ききんぞく}",
       "label": "precious metals"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14739_hagane",
+      "reading": "はがね",
+      "headword": "{鋼|はがね}",
+      "label": "steel"
+    },
+    {
+      "type": "related",
+      "target_id": "16997_junkin",
+      "reading": "じゅんきん",
+      "headword": "{純金|じゅんきん}",
+      "label": "pure gold"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24156_yakin",
+      "reading": "やきん",
+      "headword": "{冶金|やきん}",
+      "label": "metallurgy"
     }
   ],
   "metadata": {
     "created": "2026-03-16T03:07:56Z",
-    "modified": "2026-07-22T18:50:18Z",
+    "modified": "2026-09-02T04:01:47Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "11748_kyoudoutai_ex1",
-      "japanese": "{地域|ちいき}{共同体|きょうどうたい}のつながりが{薄|うす}れている。",
+      "japanese": "⟦{地域|ちいき}→地域：01461_chiiki⟧{共同体|きょうどうたい}⟦の→の：09472_no⟧つながり⟦が→が：00051_ga⟧⟦{薄|うす}れている→薄れる：14107_usureru⟧。",
       "english": "Ties within the local community are weakening.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11748_kyoudoutai_ex2",
-      "japanese": "ヨーロッパ{共同体|きょうどうたい}はEUの{前身|ぜんしん}だ。",
+      "japanese": "ヨーロッパ{共同体|きょうどうたい}⟦は→は：00079_ha⟧EU⟦の→の：09472_no⟧⟦{前身|ぜんしん}→前身：11910_zenshin⟧だ。",
       "english": "The European Community was the predecessor of the EU.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11748_kyoudoutai_ex3",
-      "japanese": "{国際|こくさい}{共同体|きょうどうたい}として{気候|きこう}{変動|へんどう}に{取|と}り{組|く}む{必要|ひつよう}がある。",
+      "japanese": "⟦{国際|こくさい}→国際：01406_kokusai⟧{共同体|きょうどうたい}⟦として→として：06802_toshite⟧⟦{気候|きこう}{変動|へんどう}→気候変動：04627_kikouhendou⟧⟦に→に：00314_ni⟧⟦{取|と}り{組|く}む→取り組む：04225_torikumu⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "We need to tackle climate change as an international community.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "Compound of {共同|きょうどう} (joint, communal) + {体|たい} (body, organization). A somewhat formal term used in social, political, and academic contexts.\n\nCOMMON COLLOCATIONS:\n・{地域|ちいき}{共同体|きょうどうたい} (local community)\n・{国際|こくさい}{共同体|きょうどうたい} (international community)\n・ヨーロッパ{共同体|きょうどうたい} (European Community)\n・{経済|けいざい}{共同体|きょうどうたい} (economic community)\n・{共同体|きょうどうたい}{意識|いしき} (sense of community)\n\nDISTINCTIONS:\n・{共同体|きょうどうたい}: a formal, structured community bound by shared ties (political, social, or cultural)\n・コミュニティ: a more casual loanword for community, used for both online and offline groups\n・{社会|しゃかい}: society in general, broader than {共同体|きょうどうたい}",
+  "notes": "Compound of ⟦{共同|きょうどう}→共同：02591_kyoudou⟧ (joint, communal) + ⟦{体|たい}→体：09872_tai⟧ (body, organization). A somewhat formal term used in social, political, and academic contexts.\n\nCOMMON COLLOCATIONS:\n- ⟦{地域|ちいき}→地域：01461_chiiki⟧{共同体|きょうどうたい} (local community)\n- ⟦{国際|こくさい}→国際：01406_kokusai⟧{共同体|きょうどうたい} (international community)\n- ヨーロッパ{共同体|きょうどうたい} (European Community)\n- ⟦{経済|けいざい}→経済：01394_keizai⟧{共同体|きょうどうたい} (economic community)\n- {共同体|きょうどうたい}⟦{意識|いしき}→意識：01714_ishiki⟧ (sense of community)\n\nSIMILAR WORDS:\n- {共同体|きょうどうたい}: a formal, structured community bound by shared ties (political, social, or cultural)\n- ⟦コミュニティ→コミュニティ：08426_komyuniti⟧: a more casual loanword for community, used for both online and offline groups\n- ⟦{社会|しゃかい}→社会：01427_shakai⟧: society in general, broader than {共同体|きょうどうたい}",
   "cross_references": [
     {
       "type": "related",
@@ -46,18 +52,38 @@
       "reading": "きょうどう",
       "headword": "{共同|きょうどう}",
       "label": "joint, communal (base word)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08426_komyuniti",
+      "reading": "こみゅにてぃ",
+      "headword": "コミュニティ",
+      "label": "a more casual loanword for community…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01427_shakai",
+      "reading": "しゃかい",
+      "headword": "{社会|しゃかい}",
+      "label": "society in general, broader"
     }
   ],
   "metadata": {
     "created": "2026-02-17T22:53:09Z",
-    "modified": "2026-04-25T08:21:10Z",
+    "modified": "2026-09-02T04:01:26Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["academic"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "academic"
+      ]
     }
   }
 }

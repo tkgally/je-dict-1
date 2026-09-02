@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30431_nensei_ex1",
-      "japanese": "{弟|おとうと}は{三年生|さんねんせい}だ。",
+      "japanese": "⟦{弟|おとうと}→弟：00572_otouto⟧⟦は→は：00079_ha⟧⟦{三年生|さんねんせい}→三年生：27560_sannensei⟧だ。",
       "english": "My younger brother is a third-year student.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30431_nensei_ex2",
-      "japanese": "{小学校|しょうがっこう}の{一年生|いちねんせい}になった。",
+      "japanese": "⟦{小学校|しょうがっこう}→小学校：01055_shougakkou⟧⟦の→の：09472_no⟧⟦{一年生|いちねんせい}→一年生：27559_ichinensei⟧になった。",
       "english": "She started first grade in elementary school.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30431_nensei_ex3",
-      "japanese": "{大学|だいがく}{四年生|よねんせい}は{就職活動|しゅうしょくかつどう}で{忙|いそが}しい。",
+      "japanese": "⟦{大学|だいがく}→大学：00608_daigaku⟧⟦{四年生|よねんせい}→四年生：28268_yonensei⟧⟦は→は：00079_ha⟧⟦{就職活動|しゅうしょくかつどう}→就職活動：14840_shuushokukatsudou⟧⟦で→で：00502_de⟧⟦{忙|いそが}しい→忙しい：00591_isogashii⟧。",
       "english": "Fourth-year university students are busy with job hunting.",
       "sense_numbers": [
         1
@@ -45,7 +45,7 @@
     },
     {
       "id": "30431_nensei_ex4",
-      "japanese": "{何年生|なんねんせい}ですかと{聞|き}かれて、{中学|ちゅうがく}{二年生|にねんせい}ですと{答|こた}えた。",
+      "japanese": "{何年生|なんねんせい}です⟦か→か：09473_ka⟧⟦と→と：00512_to⟧⟦{聞|き}かれて→聞く：00483_kiku⟧、⟦{中学|ちゅうがく}→中学：03477_chuugaku⟧⟦{二年生|にねんせい}→二年生：27586_ninensei⟧です⟦と→と：00512_to⟧⟦{答|こた}えた→答える：01099_kotaeru⟧。",
       "english": "When asked what year I was in, I answered that I was in the second year of junior high.",
       "sense_numbers": [
         1
@@ -54,7 +54,7 @@
       "notes": null
     }
   ],
-  "notes": "From {年|ねん} (year) + {生|せい} (student). The number takes the on'yomi: いち, に, さん, よ ({四年生|よねんせい}), ご, ろく.\n\nCOMMON COLLOCATIONS:\n- {小学|しょうがく}{一年生|いちねんせい}: first-grader\n- {高校|こうこう}{三年生|さんねんせい}: third-year high school student (final year)\n- {何年生|なんねんせい}: what year (question word)\n- {新|しん}{一年生|いちねんせい}: incoming first-year student\n\nUSAGE:\nJapanese counts school years from one within each school, so a {中学|ちゅうがく}{一年生|いちねんせい} is a seventh-grader in American terms. The school year begins in April, so students change year in the spring.",
+  "notes": "From ⟦{年|ねん}→年：09876_nen⟧ (year) + {生|せい} (student). The number takes the on'yomi: いち, ⟦に→に：00314_ni⟧, さん, ⟦よ→よ：09475_yo⟧ (⟦{四年生|よねんせい}→四年生：28268_yonensei⟧), ご, ろく.\n\nCOMMON COLLOCATIONS:\n- ⟦{小学|しょうがく}→小学：29351_shougaku⟧⟦{一年生|いちねんせい}→一年生：27559_ichinensei⟧: first-grader\n- ⟦{高校|こうこう}→高校：01083_koukou⟧⟦{三年生|さんねんせい}→三年生：27560_sannensei⟧: third-year high school student (final year)\n- {何年生|なんねんせい}: what year (question word)\n- {新|しん}⟦{一年生|いちねんせい}→一年生：27559_ichinensei⟧: incoming first-year student\n\nUSAGE:\nJapanese counts school years from one within each school, so a ⟦{中学|ちゅうがく}→中学：03477_chuugaku⟧⟦{一年生|いちねんせい}→一年生：27559_ichinensei⟧ is a seventh-grader in American terms. The school year begins in April, so students change year in the spring.",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -63,13 +63,13 @@
         "suffix"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "education"
       ],
       "domain": []
     },
     "created": "2026-08-05T15:24:36Z",
-    "modified": "2026-08-05T15:24:36Z"
+    "modified": "2026-09-02T04:02:40Z"
   }
 }

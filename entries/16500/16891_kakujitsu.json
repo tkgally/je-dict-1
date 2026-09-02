@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "16891_kakujitsu_ex1",
-      "japanese": "{隔日|かくじつ}でジョギングしている。",
+      "japanese": "{隔日|かくじつ}⟦で→で：00502_de⟧⟦ジョギング→ジョギング：04738_jogingu⟧⟦している→する：00392_suru⟧。",
       "english": "I jog every other day.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "16891_kakujitsu_ex2",
-      "japanese": "この{薬|くすり}は{隔日|かくじつ}で{服用|ふくよう}してください。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{薬|くすり}→薬：00793_kusuri⟧⟦は→は：00079_ha⟧{隔日|かくじつ}⟦で→で：00502_de⟧⟦{服用|ふくよう}して→服用する：21605_fukuyousuru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please take this medicine every other day.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "16891_kakujitsu_ex3",
-      "japanese": "ゴミの{収集|しゅうしゅう}は{隔日|かくじつ}で{行|おこな}われている。",
+      "japanese": "⟦ゴミ→ゴミ：00840_gomi⟧⟦の→の：09472_no⟧⟦{収集|しゅうしゅう}→収集：11829_shuushuu⟧⟦は→は：00079_ha⟧{隔日|かくじつ}⟦で→で：00502_de⟧⟦{行|おこな}われている→行う：01238_okonau⟧。",
       "english": "Garbage collection is done every other day.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA formal, concise way to express \"every other day.\" Often used in medical instructions, schedules, and official contexts. The more conversational equivalent is {一日|いちにち}おきに.\n\nCOMMON COLLOCATIONS:\n- {隔日|かくじつ}{勤務|きんむ} (working every other day)\n- {隔日|かくじつ}で{服用|ふくよう}する (to take medicine every other day)\n\nSIMILAR WORDS:\n- {一日|いちにち}おきに: every other day — conversational equivalent\n- {隔週|かくしゅう}: every other week — same pattern for weeks",
+  "notes": "USAGE:\nA formal, concise way to express \"every other day.\" Often used in medical instructions, schedules, and official contexts. The more conversational equivalent is ⟦{一日|いちにち}→一日：00942_ichinichi⟧おき⟦に→に：00314_ni⟧.\n\nCOMMON COLLOCATIONS:\n- {隔日|かくじつ}⟦{勤務|きんむ}→勤務：04545_kinmu⟧ (working every other day)\n- {隔日|かくじつ}⟦で→で：00502_de⟧⟦{服用|ふくよう}する→服用する：21605_fukuyousuru⟧ (to take medicine every other day)\n\nSIMILAR WORDS:\n- ⟦{一日|いちにち}→一日：00942_ichinichi⟧おき⟦に→に：00314_ni⟧: every other day — conversational equivalent\n- ⟦{隔週|かくしゅう}→隔週：15282_kakushuu⟧: every other week — same pattern for weeks",
   "cross_references": [
     {
       "type": "related",
@@ -52,11 +52,25 @@
       "reading": "かくしゅう",
       "headword": "{隔週|かくしゅう}",
       "label": "every other week"
+    },
+    {
+      "type": "related",
+      "target_id": "19328_kakugetsu",
+      "reading": "かくげつ",
+      "headword": "{隔月|かくげつ}",
+      "label": "every other month"
+    },
+    {
+      "type": "related",
+      "target_id": "19987_kakunen",
+      "reading": "かくねん",
+      "headword": "{隔年|かくねん}",
+      "label": "every other year"
     }
   ],
   "metadata": {
     "created": "2026-03-15T00:18:56Z",
-    "modified": "2026-07-21T06:41:24Z",
+    "modified": "2026-09-02T04:01:46Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

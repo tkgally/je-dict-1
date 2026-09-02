@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "11119_batsuichi_ex1",
-      "japanese": "{彼|かれ}はバツイチだ。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧バツイチだ。",
       "english": "He's been divorced once.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "11119_batsuichi_ex2",
-      "japanese": "バツイチで{子|こ}ども{二人|ふたり}を{育|そだ}てている。",
+      "japanese": "バツイチ⟦で→で：00502_de⟧{子|こ}ども⟦{二人|ふたり}→二人：00622_futari⟧⟦を→を：00422_wo⟧⟦{育|そだ}てている→育てる：01235_sodateru⟧。",
       "english": "She's divorced and raising two children.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "11119_batsuichi_ex3",
-      "japanese": "{最近|さいきん}はバツイチでも{気|き}にしない{人|ひと}が{増|ふ}えてきた。",
+      "japanese": "⟦{最近|さいきん}→最近：00881_saikin⟧⟦は→は：00079_ha⟧バツイチ⟦で→で：00502_de⟧⟦も→も：00484_mo⟧⟦{気|き}にしない→気にする：03026_kinisuru⟧⟦{人|ひと}→人：00476_hito⟧⟦が→が：00051_ga⟧⟦{増|ふ}えて→増える：01183_fueru⟧きた。",
       "english": "Recently, more people don't mind dating someone who's been divorced.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA casual, somewhat lighthearted term. Not typically used in formal or official contexts, where {離婚歴|りこんれき}がある is preferred. Similarly, バツニ (twice divorced) and バツサン (three times divorced) exist but are less common.\n\nCULTURAL NOTE:\nThe バツ (×) refers to the × mark placed on a person's name in the family register ({戸籍|こせき}) when a marriage is dissolved. イチ means \"one,\" so バツイチ literally means \"one ×.\"\n\nCOMMON COLLOCATIONS:\n- バツイチ{子持|こも}ち (divorced with children)\n- バツイチ{同士|どうし} (both divorced)",
+  "notes": "USAGE:\nA casual, somewhat lighthearted term. Not typically used in formal or official contexts, where {離婚歴|りこんれき}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧ is preferred. Similarly, ⟦バツニ→バツニ：27329_batsuni⟧ (twice divorced) and バツサン (three times divorced) exist but are less common.\n\nCULTURAL NOTE:\nThe ⟦バツ→バツ：00012_batsu⟧ (×) refers to the × mark placed on a person's name in the family register (⟦{戸籍|こせき}→戸籍：12695_koseki⟧) when a marriage is dissolved. イチ means \"one,\" so バツイチ literally means \"one ×.\"\n\nCOMMON COLLOCATIONS:\n- バツイチ⟦{子持|こも}ち→子持ち：12303_komochi⟧ (divorced with children)\n- バツイチ⟦{同士|どうし}→同士：03474_doushi⟧ (both divorced)",
   "cross_references": [
     {
       "type": "related",
@@ -52,11 +52,25 @@
       "reading": "りこん",
       "headword": "{離婚|りこん}",
       "label": "divorce"
+    },
+    {
+      "type": "related",
+      "target_id": "03486_dokushin",
+      "reading": "どくしん",
+      "headword": "{独身|どくしん}",
+      "label": "single, unmarried"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25575_saikonsha",
+      "reading": "さいこんしゃ",
+      "headword": "{再婚者|さいこんしゃ}",
+      "label": "person who has remarried"
     }
   ],
   "metadata": {
     "created": "2026-02-14T03:15:22Z",
-    "modified": "2026-04-25T04:12:08Z",
+    "modified": "2026-09-02T04:01:24Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

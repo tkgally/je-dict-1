@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25373_ouyousuru_ex1",
-      "japanese": "{理論|りろん}を{実践|じっせん}に{応用|おうよう}する。",
+      "japanese": "⟦{理論|りろん}→理論：04708_riron⟧⟦を→を：00422_wo⟧⟦{実践|じっせん}→実践：08241_jissen⟧⟦に→に：00314_ni⟧{応用|おうよう}する。",
       "english": "To apply theory to practice.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25373_ouyousuru_ex2",
-      "japanese": "この{技術|ぎじゅつ}は{医療|いりょう}{分野|ぶんや}に{応用|おうよう}できる。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{技術|ぎじゅつ}→技術：01389_gijutsu⟧⟦は→は：00079_ha⟧⟦{医療|いりょう}→医療：01836_iryou⟧⟦{分野|ぶんや}→分野：03612_bunya⟧⟦に→に：00314_ni⟧{応用|おうよう}できる。",
       "english": "This technology can be applied to the medical field.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25373_ouyousuru_ex3",
-      "japanese": "{基礎|きそ}を{学|まな}んだら、{次|つぎ}は{応用|おうよう}{問題|もんだい}に{挑戦|ちょうせん}しよう。",
+      "japanese": "⟦{基礎|きそ}→基礎：03981_kiso⟧⟦を→を：00422_wo⟧⟦{学|まな}んだら→学ぶ：01987_manabu⟧、⟦{次|つぎ}→次：00819_tsugi⟧⟦は→は：00079_ha⟧⟦{応用|おうよう}→応用：04135_ouyou⟧⟦{問題|もんだい}→問題：00797_mondai⟧⟦に→に：00314_ni⟧⟦{挑戦|ちょうせん}しよう→挑戦する：21602_chousensuru⟧。",
       "english": "Once you've learned the basics, try the applied problems next.",
       "sense_numbers": [
         1
@@ -45,7 +45,7 @@
     },
     {
       "id": "25373_ouyousuru_ex4",
-      "japanese": "AIの{応用|おうよう}{範囲|はんい}は{年々|ねんねん}{広|ひろ}がっている。",
+      "japanese": "AI⟦の→の：09472_no⟧⟦{応用|おうよう}→応用：04135_ouyou⟧⟦{範囲|はんい}→範囲：03567_hani⟧⟦は→は：00079_ha⟧⟦{年々|ねんねん}→年々：10417_nennen⟧⟦{広|ひろ}がっている→広がる：01980_hirogaru⟧。",
       "english": "The range of AI applications is expanding year by year.",
       "sense_numbers": [
         1
@@ -54,8 +54,31 @@
       "notes": null
     }
   ],
-  "notes": "Paired with {基礎|きそ} (basics/fundamentals) as its complement. In education, {基礎|きそ} and {応用|おうよう} represent the progression from foundational knowledge to practical application. Also used broadly in science and technology.\n\nCOMMON COLLOCATIONS:\n- {応用|おうよう}{問題|もんだい}: applied/advanced problem\n- {応用|おうよう}{力|りょく}: ability to apply knowledge\n- {応用|おうよう}{科学|かがく}: applied science\n- {応用|おうよう}{範囲|はんい}: range of application\n- {応用|おうよう}が{利|き}く: to be versatile, adaptable\n\nSIMILAR WORDS:\n- {利用|りよう}する: to use, to utilize — more general; simply using something that is available\n- {活用|かつよう}する: to make good use of — emphasizes effective, productive use\n- {適用|てきよう}する: to apply (rules, laws) — specifically applying rules or standards to cases",
+  "notes": "Paired with ⟦{基礎|きそ}→基礎：03981_kiso⟧ (basics/fundamentals) as its complement. In education, ⟦{基礎|きそ}→基礎：03981_kiso⟧ and ⟦{応用|おうよう}→応用：04135_ouyou⟧ represent the progression from foundational knowledge to practical application. Also used broadly in science and technology.\n\nCOMMON COLLOCATIONS:\n- ⟦{応用|おうよう}→応用：04135_ouyou⟧⟦{問題|もんだい}→問題：00797_mondai⟧: applied/advanced problem\n- ⟦{応用|おうよう}{力|りょく}→応用力：21107_ouyouryoku⟧: ability to apply knowledge\n- ⟦{応用|おうよう}→応用：04135_ouyou⟧⟦{科学|かがく}→科学：01277_kagaku⟧: applied science\n- ⟦{応用|おうよう}→応用：04135_ouyou⟧⟦{範囲|はんい}→範囲：03567_hani⟧: range of application\n- ⟦{応用|おうよう}→応用：04135_ouyou⟧⟦が→が：00051_ga⟧⟦{利|き}く→利く：11845_kiku⟧: to be versatile, adaptable\n\nSIMILAR WORDS:\n- ⟦{利用|りよう}する→利用する：21735_riyousuru⟧: to use, to utilize — more general; simply using something that is available\n- ⟦{活用|かつよう}する→活用する：21424_katsuyousuru⟧: to make good use of — emphasizes effective, productive use\n- ⟦{適用|てきよう}する→適用する：21739_tekiyousuru⟧: to apply (rules, laws) — specifically applying rules or standards to cases",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21735_riyousuru",
+      "reading": "りようする",
+      "headword": "{利用|りよう}する",
+      "label": "to use, to utilize"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21424_katsuyousuru",
+      "reading": "かつようする",
+      "headword": "{活用|かつよう}する",
+      "label": "to make good use of"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21739_tekiyousuru",
+      "reading": "てきようする",
+      "headword": "{適用|てきよう}する",
+      "label": "to apply"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -72,7 +95,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-24T16:16:42Z",
-    "modified": "2026-04-24T16:16:42Z"
+    "modified": "2026-09-02T04:02:22Z"
   },
   "conjugation": {
     "type": "suru",

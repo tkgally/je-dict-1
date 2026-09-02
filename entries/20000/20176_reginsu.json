@@ -15,41 +15,67 @@
   "examples": [
     {
       "id": "20176_reginsu_ex1",
-      "japanese": "レギンスを{履|は}く。",
+      "japanese": "レギンス⟦を→を：00422_wo⟧⟦{履|は}く→履く：00700_haku⟧。",
       "english": "To wear leggings.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20176_reginsu_ex2",
-      "japanese": "ヨガにはレギンスが{動|うご}きやすい。",
+      "japanese": "⟦ヨガ→ヨガ：04737_yoga⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧レギンス⟦が→が：00051_ga⟧⟦{動|うご}き→動く：00904_ugoku⟧やすい。",
       "english": "Leggings are easy to move in for yoga.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20176_reginsu_ex3",
-      "japanese": "{冬|ふゆ}は{裏起毛|うらきもう}のレギンスが{暖|あたた}かくて{手放|てばな}せない。",
+      "japanese": "⟦{冬|ふゆ}→冬：00623_fuyu⟧⟦は→は：00079_ha⟧{裏起毛|うらきもう}⟦の→の：09472_no⟧レギンス⟦が→が：00051_ga⟧⟦{暖|あたた}かくて→暖かい：00618_atatakai⟧⟦{手放|てばな}せない→手放す：05338_tebanasu⟧。",
       "english": "In winter, fleece-lined leggings are so warm I can't live without them.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "From English \"leggings.\" A common fashion and sportswear item in Japan. In Japanese fashion, レギンス are distinguished from タイツ (tights), which cover the feet, whereas レギンス end at the ankle.\n\nCOMMON COLLOCATIONS:\n- レギンスパンツ — leggings pants (thicker, worn as regular pants)\n- {裏起毛|うらきもう}レギンス — fleece-lined leggings\n- スポーツレギンス — sports leggings\n- レギンスコーデ — leggings outfit/coordination\n\nSIMILAR WORDS:\n- タイツ — tights (cover the feet)\n- スパッツ — spats (older Japanese term, now often means shorter leggings)\n- ストッキング — stockings (sheer, formal)",
+  "notes": "From English \"leggings.\" A common fashion and sportswear item in Japan. In Japanese fashion, レギンス are distinguished from ⟦タイツ→タイツ：04683_taitsu⟧ (tights), which cover the feet, whereas レギンス end at the ankle.\n\nCOMMON COLLOCATIONS:\n- レギンス⟦パンツ→パンツ：01374_pantsu⟧ — leggings pants (thicker, worn as regular pants)\n- {裏起毛|うらきもう}レギンス — fleece-lined leggings\n- ⟦スポーツ→スポーツ：04740_supootsu⟧レギンス — sports leggings\n- レギンス⟦コーデ→コーデ：17567_koode⟧ — leggings outfit/coordination\n\nSIMILAR WORDS:\n- ⟦タイツ→タイツ：04683_taitsu⟧ — tights (cover the feet)\n- スパッツ — spats (older Japanese term, now often means shorter leggings)\n- ⟦ストッキング→ストッキング：04682_sutokkingu⟧ — stockings (sheer, formal)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04683_taitsu",
+      "reading": "たいつ",
+      "headword": "タイツ",
+      "label": "tights"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04682_sutokkingu",
+      "reading": "すとっきんぐ",
+      "headword": "ストッキング",
+      "label": "stockings"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["clothing"],
+      "semantic": [
+        "clothing"
+      ],
       "loanword": true
     },
     "created": "2026-03-28T15:12:49Z",
-    "modified": "2026-03-28T15:12:49Z"
+    "modified": "2026-09-02T04:01:58Z"
   }
 }

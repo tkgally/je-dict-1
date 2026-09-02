@@ -2,7 +2,7 @@
   "id": "02288_chirasu",
   "headword": "{散|ち}らす",
   "reading": "ちらす",
-  "part_of_speech": "godan verb, transitive",
+  "part_of_speech": "verb (godan, transitive)",
   "gloss": "to scatter, to disperse",
   "conjugation": {
     "type": "godan",
@@ -133,11 +133,33 @@
       ]
     }
   ],
-  "notes": "{散|ち}らす means to scatter or spread things in different directions.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- Pair: ⟦{散|ち}る→散る：02075_chiru⟧ (intransitive, to scatter by itself)\n\nASPECT (ている):\n{散|ち}らしている indicates things are scattered about or that scattering is ongoing.\n\nCOMMON PATTERNS:\n- ⟦{花|はな}びら→花びら：13988_hanabira⟧⟦を→を：00422_wo⟧{散|ち}らす: to scatter petals\n- ⟦{気|き}→気：02199_ki⟧⟦を→を：00422_wo⟧{散|ち}らす: to distract (someone's mind)\n- ⟦{注意|ちゅうい}→注意：01464_chuui⟧⟦を→を：00422_wo⟧{散|ち}らす: to distract attention\n- ⟦ばらばら→ばらばら：05165_barabara⟧⟦に→に：00314_ni⟧{散|ち}らす: to scatter everywhere\n\nRELATED:\n⟦{散|ち}らかす→散らかす：04360_chirakasu⟧: to make a mess, leave things scattered",
-  "cross_references": [],
+  "notes": "{散|ち}らす means to scatter or spread things in different directions.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- Pair: ⟦{散|ち}る→散る：02075_chiru⟧ (intransitive, to scatter by itself)\n\nASPECT (ている):\n{散|ち}らして⟦いる→いる：00495_iru⟧ indicates things are scattered about or that scattering is ongoing.\n\nCOMMON PATTERNS:\n- ⟦{花|はな}びら→花びら：13988_hanabira⟧⟦を→を：00422_wo⟧{散|ち}らす: to scatter petals\n- ⟦{気|き}→気：02199_ki⟧⟦を→を：00422_wo⟧{散|ち}らす: to distract (someone's mind)\n- ⟦{注意|ちゅうい}→注意：01464_chuui⟧⟦を→を：00422_wo⟧{散|ち}らす: to distract attention\n- ⟦ばらばら→ばらばら：05165_barabara⟧⟦に→に：00314_ni⟧{散|ち}らす: to scatter everywhere\n\nRELATED WORDS:\n⟦{散|ち}らかす→散らかす：04360_chirakasu⟧: to make a mess, leave things scattered",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "04360_chirakasu",
+      "reading": "ちらかす",
+      "headword": "{散|ち}らかす",
+      "label": "to make a mess, leave things scattered"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21485_furikakeru",
+      "reading": "ふりかける",
+      "headword": "{振|ふ}りかける",
+      "label": "to sprinkle over"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21621_sanpusuru",
+      "reading": "さんぷする",
+      "headword": "{散布|さんぷ}する",
+      "label": "to scatter"
+    }
+  ],
   "metadata": {
     "created": "2026-01-09T08:15:18Z",
-    "modified": "2026-05-18T23:16:04Z",
+    "modified": "2026-09-02T04:01:01Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

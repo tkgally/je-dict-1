@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "19517_omoshirogaru_ex1",
-      "japanese": "{子供|こども}たちは{面白|おもしろ}がった。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧たち⟦は→は：00079_ha⟧{面白|おもしろ}がった。",
       "english": "The children were amused.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "19517_omoshirogaru_ex2",
-      "japanese": "{彼|かれ}はその{話|はなし}を{面白|おもしろ}がって{聞|き}いていた。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦その→その：00993_sono⟧⟦{話|はなし}→話：01496_hanashi⟧⟦を→を：00422_wo⟧{面白|おもしろ}がって⟦{聞|き}いていた→聞く：00483_kiku⟧。",
       "english": "He listened to the story with amusement.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "19517_omoshirogaru_ex3",
-      "japanese": "{友達|ともだち}は{私|わたし}の{失敗|しっぱい}を{面白|おもしろ}がって、ずっと{笑|わら}っていた。",
+      "japanese": "⟦{友達|ともだち}→友達：01478_tomodachi⟧⟦は→は：00079_ha⟧⟦{私|わたし}→私：02988_watashi⟧⟦の→の：09472_no⟧⟦{失敗|しっぱい}→失敗：01636_shippai⟧⟦を→を：00422_wo⟧{面白|おもしろ}がって、⟦ずっと→ずっと：00912_zutto⟧⟦{笑|わら}っていた→笑う：00685_warau⟧。",
       "english": "My friend found my mistake amusing and kept laughing about it.",
       "sense_numbers": [
         1
@@ -134,8 +134,17 @@
       "notes": null
     }
   ],
-  "notes": "Formed from {面白|おもしろ}い + がる, a suffix that turns i-adjectives into verbs describing observable emotional reactions. While {面白|おもしろ}い describes one's own feeling, {面白|おもしろ}がる describes someone visibly showing amusement.\n\nGRAMMAR:\nAs a がる-verb, it is primarily used to describe third persons. For first person, {面白|おもしろ}い or {面白|おもしろ}く{思|おも}う is more natural. The て-form ({面白|おもしろ}がって) is common as an adverbial modifier.\n\nCOMMON COLLOCATIONS:\n- {面白|おもしろ}がって{見|み}る — to watch with amusement\n- {面白|おもしろ}がって{聞|き}く — to listen with interest\n- {何|なに}でも{面白|おもしろ}がる — to find everything amusing\n\nSIMILAR WORDS:\n- {楽|たの}しがる — to show enjoyment; broader than {面白|おもしろ}がる, which focuses on amusement or intellectual interest\n- {喜|よろこ}ぶ — to be pleased; expresses happiness rather than amusement\n- {珍|めずら}しがる — to show curiosity about something unusual",
+  "notes": "Formed from ⟦{面白|おもしろ}い→面白い：00589_omoshiroi⟧ + ⟦がる→〜がる：03089_garu⟧, a suffix that turns i-adjectives into verbs describing observable emotional reactions. While ⟦{面白|おもしろ}い→面白い：00589_omoshiroi⟧ describes one's own feeling, {面白|おもしろ}がる describes someone visibly showing amusement.\n\nCOMMON PATTERNS:\nAs a ⟦がる→〜がる：03089_garu⟧-verb, it is primarily used to describe third persons. For first person, ⟦{面白|おもしろ}い→面白い：00589_omoshiroi⟧ or ⟦{面白|おもしろ}く→面白い：00589_omoshiroi⟧⟦{思|おも}う→思う：00492_omou⟧ is more natural. The て-form ({面白|おもしろ}がって) is common as an adverbial modifier.\n\nCOMMON COLLOCATIONS:\n- {面白|おもしろ}がって⟦{見|み}る→見る：00283_miru⟧ — to watch with amusement\n- {面白|おもしろ}がって⟦{聞|き}く→聞く：00483_kiku⟧ — to listen with interest\n- ⟦{何|なに}→何：00498_nani⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧{面白|おもしろ}がる — to find everything amusing\n\nSIMILAR WORDS:\n- {楽|たの}し⟦がる→〜がる：03089_garu⟧ — to show enjoyment; broader than {面白|おもしろ}がる, which focuses on amusement or intellectual interest\n- ⟦{喜|よろこ}ぶ→喜ぶ：01169_yorokobu⟧ — to be pleased; expresses happiness rather than amusement\n- {珍|めずら}し⟦がる→〜がる：03089_garu⟧ — to show curiosity about something unusual",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01169_yorokobu",
+      "reading": "よろこぶ",
+      "headword": "{喜|よろこ}ぶ",
+      "label": "to be pleased"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -151,6 +160,6 @@
       ]
     },
     "created": "2026-03-26T04:14:08Z",
-    "modified": "2026-07-26T21:31:07Z"
+    "modified": "2026-09-02T04:01:56Z"
   }
 }

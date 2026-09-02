@@ -14,41 +14,63 @@
   "examples": [
     {
       "id": "19001_minou_ex1",
-      "japanese": "{税金|ぜいきん}が{未納|みのう}になっている。",
+      "japanese": "⟦{税金|ぜいきん}→税金：03308_zeikin⟧⟦が→が：00051_ga⟧{未納|みのう}になっている。",
       "english": "Taxes are unpaid.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19001_minou_ex2",
-      "japanese": "{保険料|ほけんりょう}の{未納|みのう}が{続|つづ}くと、{保障|ほしょう}が{受|う}けられなくなる。",
+      "japanese": "⟦{保険料|ほけんりょう}→保険料：11058_hokenryou⟧⟦の→の：09472_no⟧{未納|みのう}⟦が→が：00051_ga⟧⟦{続|つづ}く→続く：00903_tsuzuku⟧⟦と→と：00512_to⟧、⟦{保障|ほしょう}→保障：03719_hoshou⟧⟦が→が：00051_ga⟧⟦{受|う}けられなく→受ける：01215_ukeru⟧⟦なる→なる：01970_naru⟧。",
       "english": "If non-payment of insurance premiums continues, you won't be able to receive coverage.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19001_minou_ex3",
-      "japanese": "{家賃|やちん}の{未納|みのう}が3か{月|げつ}{以上|いじょう}{続|つづ}いた{場合|ばあい}、{契約|けいやく}{解除|かいじょ}となることがあります。",
+      "japanese": "⟦{家賃|やちん}→家賃：03639_yachin⟧⟦の→の：09472_no⟧{未納|みのう}⟦が→が：00051_ga⟧3か{月|げつ}⟦{以上|いじょう}→以上：01308_ijou⟧⟦{続|つづ}いた→続く：00903_tsuzuku⟧⟦{場合|ばあい}→場合：01704_baai⟧、⟦{契約|けいやく}→契約：02698_keiyaku⟧⟦{解除|かいじょ}→解除：05762_kaijo⟧⟦と→と：00512_to⟧⟦なる→なる：01970_naru⟧こと⟦が→が：00051_ga⟧⟦あります→ある：00006_aru⟧。",
       "english": "If rent remains unpaid for more than three months, the lease may be terminated.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Part of the {未|み}～ (not yet) prefix pattern: {未納|みのう} (not yet paid), {未払|みはら}い (unpaid), {未着|みちゃく} (not yet arrived). Common collocations: {税金|ぜいきん}の{未納|みのう} (unpaid taxes), {未納分|みのうぶん} (unpaid portion), {未納者|みのうしゃ} (non-payer). Distinguished from {滞納|たいのう} (delinquent payment) — {未納|みのう} is neutral and simply means 'not yet paid,' while {滞納|たいのう} implies willful non-payment or default.",
+  "notes": "Part of the ⟦{未|み}→未〜：00277_mi⟧～ (not yet) prefix pattern: {未納|みのう} (not yet paid), {未払|みはら}い (unpaid), {未着|みちゃく} (not yet arrived). Common collocations: ⟦{税金|ぜいきん}→税金：03308_zeikin⟧⟦の→の：09472_no⟧{未納|みのう} (unpaid taxes), {未納分|みのうぶん} (unpaid portion), {未納者|みのうしゃ} (non-payer). Distinguished from ⟦{滞納|たいのう}→滞納：09323_tainou⟧ (delinquent payment) — {未納|みのう} is neutral and simply means 'not yet paid,' while ⟦{滞納|たいのう}→滞納：09323_tainou⟧ implies willful non-payment or default.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18029_mibarai",
+      "reading": "みばらい",
+      "headword": "{未払|みばら}い",
+      "label": "unpaid"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["business", "legal"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "business",
+        "legal"
+      ]
     },
     "created": "2026-03-23T12:15:34Z",
-    "modified": "2026-03-23T12:15:34Z"
+    "modified": "2026-09-02T04:01:54Z"
   }
 }

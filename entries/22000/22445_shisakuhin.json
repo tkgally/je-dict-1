@@ -15,40 +15,67 @@
   "examples": [
     {
       "id": "22445_shisakuhin_ex1",
-      "japanese": "{試作品|しさくひん}を{作|つく}る。",
+      "japanese": "{試作品|しさくひん}⟦を→を：00422_wo⟧⟦{作|つく}る→作る：00481_tsukuru⟧。",
       "english": "To make a prototype.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "22445_shisakuhin_ex2",
-      "japanese": "{新|あたら}しい{試作品|しさくひん}のテストが{始|はじ}まった。",
+      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧{試作品|しさくひん}⟦の→の：09472_no⟧⟦テスト→テスト：01065_tesuto⟧⟦が→が：00051_ga⟧⟦{始|はじ}まった→始まる：00841_hajimaru⟧。",
       "english": "Testing of the new prototype has begun.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "22445_shisakuhin_ex3",
-      "japanese": "{試作品|しさくひん}の{段階|だんかい}では{問題|もんだい}がなかったが、{量産|りょうさん}で{不具合|ふぐあい}が{出|で}た。",
+      "japanese": "{試作品|しさくひん}⟦の→の：09472_no⟧⟦{段階|だんかい}→段階：04515_dankai⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{問題|もんだい}→問題：00797_mondai⟧⟦が→が：00051_ga⟧⟦なかった→ない：01118_nai⟧⟦が→が：00051_ga⟧、⟦{量産|りょうさん}→量産：14441_ryousan⟧⟦で→で：00502_de⟧⟦{不具合|ふぐあい}→不具合：06413_fuguai⟧⟦が→が：00051_ga⟧⟦{出|で}た→出る：00513_deru⟧。",
       "english": "There were no problems at the prototype stage, but defects appeared during mass production.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {試作|しさく} (trial manufacture) + {品|ひん} (product). Refers to an early version of a product created for evaluation and testing before committing to full production.\n\nCOMMON COLLOCATIONS:\n- {試作品|しさくひん}を{作|つく}る: to make a prototype\n- {試作品|しさくひん}のテスト: prototype testing\n- {試作品|しさくひん}の{段階|だんかい}: prototype stage\n- {試作品|しさくひん}を{完成|かんせい}させる: to complete a prototype\n\nSIMILAR WORDS:\n- {見本|みほん}: sample — a finished product shown as a representative example, not necessarily a test version\n- {模型|もけい}: model — a scaled or simplified representation, not a functional trial product\n- プロトタイプ: prototype — the English loanword, used more in tech/startup contexts",
+  "notes": "Composed of ⟦{試作|しさく}→試作：20405_shisaku⟧ (trial manufacture) + ⟦{品|ひん}→品：03712_hin⟧ (product). Refers to an early version of a product created for evaluation and testing before committing to full production.\n\nCOMMON COLLOCATIONS:\n- {試作品|しさくひん}⟦を→を：00422_wo⟧⟦{作|つく}る→作る：00481_tsukuru⟧: to make a prototype\n- {試作品|しさくひん}⟦の→の：09472_no⟧⟦テスト→テスト：01065_tesuto⟧: prototype testing\n- {試作品|しさくひん}⟦の→の：09472_no⟧⟦{段階|だんかい}→段階：04515_dankai⟧: prototype stage\n- {試作品|しさくひん}⟦を→を：00422_wo⟧{完成|かんせい}させる: to complete a prototype\n\nSIMILAR WORDS:\n- ⟦{見本|みほん}→見本：00279_mihon⟧: sample — a finished product shown as a representative example, not necessarily a test version\n- ⟦{模型|もけい}→模型：07079_mokei⟧: model — a scaled or simplified representation, not a functional trial product\n- プロトタイプ: prototype — the English loanword, used more in tech/startup contexts",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00279_mihon",
+      "reading": "みほん",
+      "headword": "{見本|みほん}",
+      "label": "sample"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07079_mokei",
+      "reading": "もけい",
+      "headword": "{模型|もけい}",
+      "label": "model"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["business", "technology"]
+      "semantic": [
+        "business",
+        "technology"
+      ]
     },
     "created": "2026-04-06T12:08:01Z",
-    "modified": "2026-04-06T12:08:01Z"
+    "modified": "2026-09-02T04:02:08Z"
   }
 }

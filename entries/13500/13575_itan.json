@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "13575_itan_ex1",
-      "japanese": "{彼|かれ}は{業界|ぎょうかい}の{異端|いたん}{児|じ}と{呼|よ}ばれている。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{業界|ぎょうかい}→業界：13129_gyoukai⟧⟦の→の：09472_no⟧{異端|いたん}{児|じ}⟦と→と：00512_to⟧⟦{呼|よ}ばれている→呼ぶ：00766_yobu⟧。",
       "english": "He is called a maverick of the industry.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "13575_itan_ex2",
-      "japanese": "かつて{異端|いたん}とされた{理論|りろん}が、{今|いま}では{主流|しゅりゅう}になっている。",
+      "japanese": "⟦かつて→かつて：10303_katsute⟧{異端|いたん}⟦と→と：00512_to⟧⟦された→する：00392_suru⟧⟦{理論|りろん}→理論：04708_riron⟧⟦が→が：00051_ga⟧、⟦{今|いま}→今：00945_ima⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{主流|しゅりゅう}→主流：11407_shuryuu⟧になっている。",
       "english": "A theory once considered heretical has now become mainstream.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "13575_itan_ex3",
-      "japanese": "{彼女|かのじょ}の{異端|いたん}{的|てき}な{研究|けんきゅう}アプローチは{当初|とうしょ}{批判|ひはん}されたが、やがて{画期的|かっきてき}な{成果|せいか}を{生|う}み{出|だ}した。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦の→の：09472_no⟧{異端|いたん}⟦{的|てき}→〜的：09839_teki⟧な⟦{研究|けんきゅう}→研究：01396_kenkyuu⟧⟦アプローチ→アプローチ：10702_apuroochi⟧⟦は→は：00079_ha⟧⟦{当初|とうしょ}→当初：12503_tousho⟧⟦{批判|ひはん}→批判：03580_hihan⟧⟦された→する：00392_suru⟧⟦が→が：00051_ga⟧、⟦やがて→やがて：03637_yagate⟧⟦{画期的|かっきてき}→画期的：06826_kakkiteki⟧な⟦{成果|せいか}→成果：06745_seika⟧⟦を→を：00422_wo⟧⟦{生|う}み{出|だ}した→生み出す：10423_umidasu⟧。",
       "english": "Her unorthodox research approach was initially criticized, but it eventually produced groundbreaking results.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,26 @@
       ]
     }
   ],
-  "notes": "USAGE:\nOriginally a religious term (heresy opposing orthodox doctrine), now widely used in general contexts to describe unconventional or non-mainstream ideas, methods, or people. The compound {異端|いたん}{児|じ} (maverick, enfant terrible) is very common and often carries a positive nuance of someone who defies convention successfully.\n\nCOMMON COLLOCATIONS:\n- {異端|いたん}{児|じ} (maverick, enfant terrible)\n- {異端|いたん}とされる (to be considered heretical)\n- {異端|いたん}{的|てき}な{考|かんが}え (unorthodox ideas)\n- {異端|いたん}{審問|しんもん} (inquisition — historical)\n\nSIMILAR WORDS:\n- {正統|せいとう}: orthodox, mainstream (antonym)\n- {異色|いしょく}: unique, unconventional (lighter tone, often positive)\n- {邪道|じゃどう}: wrong approach, deviation from the proper way (negative)",
-  "cross_references": [],
+  "notes": "USAGE:\nOriginally a religious term (heresy opposing orthodox doctrine), now widely used in general contexts to describe unconventional or non-mainstream ideas, methods, or people. The compound {異端|いたん}{児|じ} (maverick, enfant terrible) is very common and often carries a positive nuance of someone who defies convention successfully.\n\nCOMMON COLLOCATIONS:\n- {異端|いたん}{児|じ} (maverick, enfant terrible)\n- {異端|いたん}⟦と→と：00512_to⟧⟦される→する：00392_suru⟧ (to be considered heretical)\n- {異端|いたん}⟦{的|てき}→〜的：09839_teki⟧な⟦{考|かんが}え→考え：00855_kangae⟧ (unorthodox ideas)\n- {異端|いたん}{審問|しんもん} (inquisition — historical)\n\nSIMILAR WORDS:\n- ⟦{正統|せいとう}→正統：13220_seitou⟧: orthodox, mainstream (antonym)\n- {異色|いしょく}: unique, unconventional (lighter tone, often positive)\n- {邪道|じゃどう}: wrong approach, deviation from the proper way (negative)",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "13220_seitou",
+      "reading": "せいとう",
+      "headword": "{正統|せいとう}",
+      "label": "orthodox, mainstream"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20262_katayaburi",
+      "reading": "かたやぶり",
+      "headword": "{型破|かたやぶ}り",
+      "label": "unconventional"
+    }
+  ],
   "metadata": {
     "created": "2026-02-25T14:34:31Z",
-    "modified": "2026-07-10T15:31:03Z",
+    "modified": "2026-09-02T04:01:33Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

@@ -15,41 +15,60 @@
   "examples": [
     {
       "id": "29893_okubi_ex1",
-      "japanese": "おくびが{出|で}た。",
+      "japanese": "おくび⟦が→が：00051_ga⟧⟦{出|で}た→出る：00513_deru⟧。",
       "english": "I let out a belch.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29893_okubi_ex2",
-      "japanese": "{彼|かれ}は{不満|ふまん}をおくびにも{出|だ}さなかった。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{不満|ふまん}→不満：02497_fuman⟧⟦を→を：00422_wo⟧おくび⟦に→に：00314_ni⟧⟦も→も：00484_mo⟧⟦{出|だ}さなかった→出す：01087_dasu⟧。",
       "english": "He didn't let his dissatisfaction show in the slightest.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29893_okubi_ex3",
-      "japanese": "{苦|くる}しくても、その{気持|きも}ちをおくびにも{出|だ}さずに{働|はたら}き{続|つづ}けた。",
+      "japanese": "⟦{苦|くる}しくて→苦しい：02636_kurushii⟧⟦も→も：00484_mo⟧、⟦その→その：00993_sono⟧{気持|きも}ち⟦を→を：00422_wo⟧おくび⟦に→に：00314_ni⟧⟦も→も：00484_mo⟧⟦{出|だ}さ→出す：01087_dasu⟧ず⟦に→に：00314_ni⟧⟦{働|はたら}き→働く：00503_hataraku⟧⟦{続|つづ}け→続く：00903_tsuzuku⟧た。",
       "english": "Even though it was hard, he kept working without letting a hint of his feelings show.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A belch. The plain word for a burp in everyday speech is げっぷ; おくび is more literary and is now used mainly in one idiom.\n\nCOMMON EXPRESSIONS:\n- おくびにも{出|だ}さない: to not let on in the slightest; to keep something completely hidden\n\nSIMILAR WORDS:\n- げっぷ: burp — the ordinary, colloquial word for the same thing",
+  "notes": "A belch. The plain word for a burp in everyday speech is ⟦げっぷ→げっぷ：06511_geppu⟧; おくび is more literary and is now used mainly in one idiom.\n\nCOMMON EXPRESSIONS:\n- おくび⟦に→に：00314_ni⟧⟦も→も：00484_mo⟧⟦{出|だ}さない→出す：01087_dasu⟧: to not let on in the slightest; to keep something completely hidden\n\nSIMILAR WORDS:\n- ⟦げっぷ→げっぷ：06511_geppu⟧: burp — the ordinary, colloquial word for the same thing",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06511_geppu",
+      "reading": "げっぷ",
+      "headword": "げっぷ",
+      "label": "burp"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["general"],
+      "politeness": "plain",
+      "semantic": [
+        "general"
+      ],
       "domain": []
     },
     "created": "2026-07-16T21:18:06Z",
-    "modified": "2026-07-16T21:18:06Z"
+    "modified": "2026-09-02T04:02:38Z"
   }
 }

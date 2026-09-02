@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22903_kenkouzoushin_ex1",
-      "japanese": "{健康|けんこう}{増進|ぞうしん}のためにジョギングを{始|はじ}めた。",
+      "japanese": "{健康|けんこう}{増進|ぞうしん}⟦の→の：09472_no⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧⟦ジョギング→ジョギング：04738_jogingu⟧⟦を→を：00422_wo⟧⟦{始|はじ}めた→始める：00531_hajimeru⟧。",
       "english": "I started jogging to improve my health.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22903_kenkouzoushin_ex2",
-      "japanese": "{市|し}は{健康|けんこう}{増進|ぞうしん}プログラムを{実施|じっし}している。",
+      "japanese": "⟦{市|し}→市：01599_shi⟧⟦は→は：00079_ha⟧{健康|けんこう}{増進|ぞうしん}⟦プログラム→プログラム：01540_puroguramu⟧⟦を→を：00422_wo⟧⟦{実施|じっし}している→実施する：19634_jisshisuru⟧。",
       "english": "The city is implementing a health promotion program.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22903_kenkouzoushin_ex3",
-      "japanese": "{健康|けんこう}{増進|ぞうしん}{法|ほう}に{基|もと}づいて、{受動|じゅどう}{喫煙|きつえん}{対策|たいさく}が{強化|きょうか}された。",
+      "japanese": "{健康|けんこう}{増進|ぞうしん}⟦{法|ほう}→法：13620_hou⟧⟦に→に：00314_ni⟧⟦{基|もと}づいて→基づく：02315_motozuku⟧、⟦{受動|じゅどう}→受動：12070_judou⟧⟦{喫煙|きつえん}→喫煙：17580_kitsuen⟧⟦{対策|たいさく}→対策：02511_taisaku⟧⟦が→が：00051_ga⟧⟦{強化|きょうか}→強化：00260_kyouka⟧⟦された→する：00392_suru⟧。",
       "english": "Based on the Health Promotion Act, measures against secondhand smoke were strengthened.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "A four-character compound commonly seen in government policy, public health campaigns, and everyday conversation about healthy living. Japan's {健康|けんこう}{増進|ぞうしん}{法|ほう} (Health Promotion Act) is a well-known piece of legislation.\n\nCOMMON COLLOCATIONS:\n- {健康|けんこう}{増進|ぞうしん}{法|ほう}: Health Promotion Act\n- {健康|けんこう}{増進|ぞうしん}のために: for the purpose of improving health\n- {健康|けんこう}{増進|ぞうしん}{施設|しせつ}: health promotion facility\n- {健康|けんこう}{増進|ぞうしん}{活動|かつどう}: health promotion activities\n\nRELATED TERMS:\n- {健康|けんこう}{管理|かんり}: health management\n- {健康|けんこう}{維持|いじ}: maintaining health — focuses on keeping current health rather than improving it\n- {増進|ぞうしん}: promotion, enhancement — also used in other compounds like {食欲|しょくよく}{増進|ぞうしん} (appetite stimulation)",
+  "notes": "A four-character compound commonly seen in government policy, public health campaigns, and everyday conversation about healthy living. Japan's {健康|けんこう}{増進|ぞうしん}⟦{法|ほう}→法：13620_hou⟧ (Health Promotion Act) is a well-known piece of legislation.\n\nCOMMON COLLOCATIONS:\n- {健康|けんこう}{増進|ぞうしん}⟦{法|ほう}→法：13620_hou⟧: Health Promotion Act\n- {健康|けんこう}{増進|ぞうしん}⟦の→の：09472_no⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧: for the purpose of improving health\n- {健康|けんこう}{増進|ぞうしん}⟦{施設|しせつ}→施設：02503_shisetsu⟧: health promotion facility\n- {健康|けんこう}{増進|ぞうしん}⟦{活動|かつどう}→活動：00201_katsudou⟧: health promotion activities\n\nRELATED WORDS:\n- ⟦{健康|けんこう}{管理|かんり}→健康管理：21662_kenkoukanri⟧: health management\n- ⟦{健康|けんこう}{維持|いじ}→健康維持：16455_kenkouiji⟧: maintaining health — focuses on keeping current health rather than improving it\n- ⟦{増進|ぞうしん}→増進：12150_zoushin⟧: promotion, enhancement — also used in other compounds like ⟦{食欲|しょくよく}→食欲：03249_shokuyoku⟧⟦{増進|ぞうしん}→増進：12150_zoushin⟧ (appetite stimulation)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "21662_kenkoukanri",
+      "reading": "けんこうかんり",
+      "headword": "{健康管理|けんこうかんり}",
+      "label": "health management"
+    },
+    {
+      "type": "related",
+      "target_id": "16455_kenkouiji",
+      "reading": "けんこういじ",
+      "headword": "{健康維持|けんこういじ}",
+      "label": "maintaining health"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24944_yobouiryou",
+      "reading": "よぼういりょう",
+      "headword": "{予防医療|よぼういりょう}",
+      "label": "preventive medicine"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +82,6 @@
       ]
     },
     "created": "2026-04-07T20:17:00Z",
-    "modified": "2026-04-10T08:28:27Z"
+    "modified": "2026-09-02T04:02:10Z"
   }
 }

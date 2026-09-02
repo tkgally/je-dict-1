@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30304_suiyou_ex1",
-      "japanese": "{水曜|すいよう}は{定休日|ていきゅうび}です。",
+      "japanese": "{水曜|すいよう}⟦は→は：00079_ha⟧⟦{定休日|ていきゅうび}→定休日：09541_teikyuubi⟧です。",
       "english": "Wednesday is our regular closing day.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30304_suiyou_ex2",
-      "japanese": "{毎週|まいしゅう}{水曜|すいよう}にごみを{出|だ}します。",
+      "japanese": "⟦{毎週|まいしゅう}→毎週：00730_maishuu⟧{水曜|すいよう}⟦に→に：00314_ni⟧⟦ごみ→ゴミ：00840_gomi⟧⟦を→を：00422_wo⟧⟦{出|だ}します→出す：01087_dasu⟧。",
       "english": "We put out the trash every Wednesday.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30304_suiyou_ex3",
-      "japanese": "{来週|らいしゅう}の{水曜|すいよう}なら{時間|じかん}が{取|と}れそうです。",
+      "japanese": "⟦{来週|らいしゅう}→来週：00746_raishuu⟧⟦の→の：09472_no⟧{水曜|すいよう}なら⟦{時間|じかん}→時間：00468_jikan⟧⟦が→が：00051_ga⟧⟦{取|と}れ→取れる：02376_toreru⟧そうです。",
       "english": "It looks like I can make time next Wednesday.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Shortened from {水曜日|すいようび} by dropping {日|び}. The full form is the default in careful speech and writing; the short form appears where space is tight or the context is obvious.\n\nCOMMON COLLOCATIONS:\n- {毎週|まいしゅう}{水曜|すいよう}: every Wednesday\n- {水曜|すいよう}の{夜|よる}: Wednesday night\n- {水曜|すいよう}{定休|ていきゅう}: closed on Wednesdays\n- {水曜|すいよう}{発売|はつばい}: released on Wednesdays\n\nUSAGE:\nAll seven days clip the same way ({月曜|げつよう}, {火曜|かよう}, {木曜|もくよう}, {金曜|きんよう}, {土曜|どよう}, {日曜|にちよう}). Many shops and museums take their {定休日|ていきゅうび} on a Wednesday, so the word turns up often on signs and websites.",
+  "notes": "Shortened from ⟦{水曜日|すいようび}→水曜日：00672_suiyoubi⟧ by dropping {日|び}. The full form is the default in careful speech and writing; the short form appears where space is tight or the context is obvious.\n\nCOMMON COLLOCATIONS:\n- ⟦{毎週|まいしゅう}→毎週：00730_maishuu⟧{水曜|すいよう}: every Wednesday\n- {水曜|すいよう}⟦の→の：09472_no⟧⟦{夜|よる}→夜：00487_yoru⟧: Wednesday night\n- {水曜|すいよう}{定休|ていきゅう}: closed on Wednesdays\n- {水曜|すいよう}⟦{発売|はつばい}→発売：04315_hatsubai⟧: released on Wednesdays\n\nUSAGE:\nAll seven days clip the same way (⟦{月曜|げつよう}→月曜：30298_getsuyou⟧, ⟦{火曜|かよう}→火曜：13459_kayou⟧, ⟦{木曜|もくよう}→木曜：03163_mokuyou⟧, {金曜|きんよう}, ⟦{土曜|どよう}→土曜：22529_doyou⟧, ⟦{日曜|にちよう}→日曜：22837_nichiyou⟧). Many shops and museums take their ⟦{定休日|ていきゅうび}→定休日：09541_teikyuubi⟧ on a Wednesday, so the word turns up often on signs and websites.",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,13 +53,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "time-day-of-week"
       ],
       "domain": []
     },
     "created": "2026-08-01T15:17:17Z",
-    "modified": "2026-08-01T15:17:17Z"
+    "modified": "2026-09-02T04:02:39Z"
   }
 }

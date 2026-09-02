@@ -19,7 +19,7 @@
   "examples": [
     {
       "id": "10036_akatsuki_ex1",
-      "japanese": "{暁|あかつき}の{空|そら}。",
+      "japanese": "{暁|あかつき}⟦の→の：09472_no⟧⟦{空|そら}→空：02216_sora⟧。",
       "english": "The dawn sky.",
       "sense_numbers": [
         1
@@ -29,7 +29,7 @@
     },
     {
       "id": "10036_akatsuki_ex2",
-      "japanese": "{暁|あかつき}に{目|め}が{覚|さ}めた。",
+      "japanese": "{暁|あかつき}⟦に→に：00314_ni⟧⟦{目|め}→目：00525_me⟧⟦が→が：00051_ga⟧⟦{覚|さ}めた→覚める：02058_sameru⟧。",
       "english": "I woke up at dawn.",
       "sense_numbers": [
         1
@@ -39,7 +39,7 @@
     },
     {
       "id": "10036_akatsuki_ex3",
-      "japanese": "{東|ひがし}の{空|そら}が{暁|あかつき}に{染|そ}まっていく。",
+      "japanese": "⟦{東|ひがし}→東：02250_higashi⟧⟦の→の：09472_no⟧⟦{空|そら}→空：02216_sora⟧⟦が→が：00051_ga⟧{暁|あかつき}⟦に→に：00314_ni⟧⟦{染|そ}まって→染まる：04254_somaru⟧いく。",
       "english": "The eastern sky is being colored by dawn.",
       "sense_numbers": [
         1
@@ -49,7 +49,7 @@
     },
     {
       "id": "10036_akatsuki_ex4",
-      "japanese": "{成功|せいこう}の{暁|あかつき}には。",
+      "japanese": "⟦{成功|せいこう}→成功：02638_seikou⟧⟦の→の：09472_no⟧{暁|あかつき}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧。",
       "english": "When success is achieved...",
       "sense_numbers": [
         2
@@ -59,7 +59,7 @@
     },
     {
       "id": "10036_akatsuki_ex5",
-      "japanese": "{合格|ごうかく}の{暁|あかつき}にはお{祝|いわ}いしよう。",
+      "japanese": "⟦{合格|ごうかく}→合格：02816_goukaku⟧⟦の→の：09472_no⟧{暁|あかつき}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦お{祝|いわ}い→お祝い：01339_oiwai⟧⟦しよう→する：00392_suru⟧。",
       "english": "Let's celebrate when you pass.",
       "sense_numbers": [
         2
@@ -69,7 +69,7 @@
     },
     {
       "id": "10036_akatsuki_ex6",
-      "japanese": "{計画|けいかく}が{実現|じつげん}した{暁|あかつき}には、{皆|みな}で{乾杯|かんぱい}しましょう。",
+      "japanese": "⟦{計画|けいかく}→計画：01172_keikaku⟧⟦が→が：00051_ga⟧⟦{実現|じつげん}→実現：03276_jitsugen⟧⟦した→する：00392_suru⟧{暁|あかつき}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧、⟦{皆|みな}→皆：01810_mina⟧⟦で→で：00502_de⟧⟦{乾杯|かんぱい}→乾杯：00176_kanpai⟧⟦しましょう→する：00392_suru⟧。",
       "english": "When the plan is realized, let's all toast together.",
       "sense_numbers": [
         2
@@ -78,11 +78,54 @@
       "notes": null
     }
   ],
-  "notes": "{暁|あかつき} has both literal (dawn) and figurative (occasion) meanings.\n\nCOMMON PATTERNS:\n- {暁|あかつき}の{空|そら}: dawn sky\n- 〜の{暁|あかつき}には: when ~, on the occasion of ~\n- {成功|せいこう}の{暁|あかつき}には: when success is achieved\n\nNUANCE:\nSense 2 is often used in formal or literary contexts to express anticipation of a future event.\n\nREGISTER:\nBoth senses are somewhat formal or literary.\n\nRELATED:\n- {曙|あけぼの}: dawn (more poetic)\n- {夜明|よあ}け: daybreak (more common)\n- {明|あ}け{方|がた}: early morning",
-  "cross_references": [],
+  "notes": "{暁|あかつき} has both literal (dawn) and figurative (occasion) meanings.\n\nCOMMON PATTERNS:\n- {暁|あかつき}⟦の→の：09472_no⟧⟦{空|そら}→空：02216_sora⟧: dawn sky\n- 〜⟦の→の：09472_no⟧{暁|あかつき}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧: when ~, on the occasion of ~\n- ⟦{成功|せいこう}→成功：02638_seikou⟧⟦の→の：09472_no⟧{暁|あかつき}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧: when success is achieved\n\nUSAGE:\nSense 2 is often used in formal or literary contexts to express anticipation of a future event.\n\nREGISTER:\nBoth senses are somewhat formal or literary.\n\nRELATED WORDS:\n- ⟦{曙|あけぼの}→曙：10035_akebono⟧: dawn (more poetic)\n- ⟦{夜明|よあ}け→夜明け：03655_yoake⟧: daybreak (more common)\n- ⟦{明|あ}け{方|がた}→明け方：17595_akegata⟧: early morning",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "10035_akebono",
+      "reading": "あけぼの",
+      "headword": "{曙|あけぼの}",
+      "label": "dawn"
+    },
+    {
+      "type": "related",
+      "target_id": "03655_yoake",
+      "reading": "よあけ",
+      "headword": "{夜明|よあ}け",
+      "label": "daybreak"
+    },
+    {
+      "type": "related",
+      "target_id": "17595_akegata",
+      "reading": "あけがた",
+      "headword": "{明|あ}け{方|がた}",
+      "label": "early morning"
+    },
+    {
+      "type": "related",
+      "target_id": "07682_yuugure",
+      "reading": "ゆうぐれ",
+      "headword": "{夕暮|ゆうぐ}れ",
+      "label": "dusk"
+    },
+    {
+      "type": "related",
+      "target_id": "10199_reimei",
+      "reading": "れいめい",
+      "headword": "{黎明|れいめい}",
+      "label": "dawn, daybreak"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27573_mimei",
+      "reading": "みめい",
+      "headword": "{未明|みめい}",
+      "label": "predawn"
+    }
+  ],
   "metadata": {
     "created": "2026-02-04T14:18:11Z",
-    "modified": "2026-08-14T01:00:44Z",
+    "modified": "2026-09-02T04:01:19Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

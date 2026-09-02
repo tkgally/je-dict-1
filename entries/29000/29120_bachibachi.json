@@ -3,7 +3,7 @@
   "headword": "バチバチ",
   "reading": "ばちばち",
   "romaji": "bachibachi",
-  "part_of_speech": "adverb",
+  "part_of_speech": "adverb, onomatopoeia",
   "gloss": "crackling; snapping; sparking",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29120_bachibachi_ex1",
-      "japanese": "{焚火|たきび}がバチバチと{燃|も}えている。",
+      "japanese": "{焚火|たきび}⟦が→が：00051_ga⟧バチバチ⟦と→と：00512_to⟧⟦{燃|も}えている→燃える：02312_moeru⟧。",
       "english": "The bonfire is crackling and burning.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29120_bachibachi_ex2",
-      "japanese": "{電線|でんせん}がバチバチと{火花|ひばな}を{散|ち}らした。",
+      "japanese": "⟦{電線|でんせん}→電線：11507_densen⟧⟦が→が：00051_ga⟧バチバチ⟦と→と：00512_to⟧⟦{火花|ひばな}→火花：13378_hibana⟧⟦を→を：00422_wo⟧⟦{散|ち}らした→散らす：02288_chirasu⟧。",
       "english": "The power line crackled and sent out sparks.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29120_bachibachi_ex3",
-      "japanese": " {鉄板|てっぱん}の{上|うえ}で{油|あぶら}がバチバチとはねて、{顔|かお}まで{飛|と}んできた。",
+      "japanese": " ⟦{鉄板|てっぱん}→鉄板：14470_teppan⟧⟦の→の：09472_no⟧⟦{上|うえ}→上：00682_ue⟧⟦で→で：00502_de⟧⟦{油|あぶら}→油：01693_abura⟧⟦が→が：00051_ga⟧バチバチ⟦と→と：00512_to⟧はねて、⟦{顔|かお}→顔：00558_kao⟧⟦まで→まで：00490_made⟧⟦{飛|と}んで→飛ぶ：00759_tobu⟧きた。",
       "english": "Oil was splattering noisily on the iron griddle and flying up to my face.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "A mimetic/onomatopoeic word for sharp, repeated crackling sounds — louder and more intense than ぱちぱち.\n\nCOMMON CONTEXTS:\n- {火|ひ}/{焚火|たきび}: crackling fire\n- {静電気|せいでんき}: static electricity sparking\n- {油|あぶら}/{揚|あ}げ{物|もの}: oil splattering when frying\n- {電気|でんき}: electrical sparking\n\nSIMILAR WORDS:\n- ぱちぱち: lighter crackling (small fire, applause, flapping) — softer than バチバチ\n- バリバリ: sharp tearing or crunching — suggests more force\n- パチパチ: same word in katakana for emphasis or electrical connotation",
+  "notes": "A mimetic/onomatopoeic word for sharp, repeated crackling sounds — louder and more intense than ⟦ぱちぱち→ぱちぱち：05889_pachipachi⟧.\n\nUSAGE:\n- ⟦{火|ひ}→火：02248_hi⟧/{焚火|たきび}: crackling fire\n- ⟦{静電気|せいでんき}→静電気：18522_seidenki⟧: static electricity sparking\n- ⟦{油|あぶら}→油：01693_abura⟧/⟦{揚|あ}げ{物|もの}→揚げ物：04975_agemono⟧: oil splattering when frying\n- ⟦{電気|でんき}→電気：09780_denki⟧: electrical sparking\n\nSIMILAR WORDS:\n- ⟦ぱちぱち→ぱちぱち：05889_pachipachi⟧: lighter crackling (small fire, applause, flapping) — softer than バチバチ\n- バリバリ: sharp tearing or crunching — suggests more force\n- パチパチ: same word in katakana for emphasis or electrical connotation",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -54,14 +54,14 @@
         "onomatopoeia"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "descriptive"
       ],
       "domain": []
     },
     "created": "2026-06-10T19:41:04Z",
-    "modified": "2026-07-26T15:19:51Z"
+    "modified": "2026-09-02T04:02:36Z"
   },
   "cross_references": [
     {
@@ -70,6 +70,13 @@
       "headword": "ぱちぱち",
       "label": "repeated crackling/clapping/blinking",
       "target_id": "05889_pachipachi"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05720_baribari",
+      "reading": "ばりばり",
+      "headword": "ばりばり",
+      "label": "sharp tearing or crunching"
     }
   ]
 }

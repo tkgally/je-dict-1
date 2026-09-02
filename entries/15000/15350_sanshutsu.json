@@ -3,7 +3,7 @@
   "id": "15350_sanshutsu",
   "headword": "{算出|さんしゅつ}",
   "reading": "さんしゅつ",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "calculation; computation",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "15350_sanshutsu_ex1",
-      "japanese": "{費用|ひよう}を{算出|さんしゅつ}する。",
+      "japanese": "⟦{費用|ひよう}→費用：03588_hiyou⟧⟦を→を：00422_wo⟧{算出|さんしゅつ}⟦する→する：00392_suru⟧。",
       "english": "To calculate the cost.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "15350_sanshutsu_ex2",
-      "japanese": "{平均|へいきん}{値|ち}はデータから{算出|さんしゅつ}された。",
+      "japanese": "⟦{平均|へいきん}{値|ち}→平均値：30167_heikinchi⟧⟦は→は：00079_ha⟧⟦データ→データ：03944_deeta⟧⟦から→から：00504_kara⟧{算出|さんしゅつ}⟦された→する：00392_suru⟧。",
       "english": "The average was computed from the data.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "15350_sanshutsu_ex3",
-      "japanese": "{正確|せいかく}な{被害|ひがい}{額|がく}を{算出|さんしゅつ}するには{時間|じかん}がかかる。",
+      "japanese": "⟦{正確|せいかく}→正確：03372_seikaku⟧な⟦{被害|ひがい}{額|がく}→被害額：30556_higaigaku⟧⟦を→を：00422_wo⟧{算出|さんしゅつ}⟦する→する：00392_suru⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{時間|じかん}がかかる→時間がかかる：26082_jikangakakaru⟧。",
       "english": "It takes time to calculate the exact amount of damage.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,54 @@
       ]
     }
   ],
-  "notes": "USAGE: {算出|さんしゅつ} is a formal word used in business, academic, and technical settings. It implies a methodical process of computing a result, not casual mental arithmetic.\n\nCOMMON COLLOCATIONS:\n- {費用|ひよう}を{算出|さんしゅつ}する: to calculate the cost\n- {数値|すうち}を{算出|さんしゅつ}する: to compute a figure\n- {算出|さんしゅつ}{方法|ほうほう}: calculation method\n- {算出|さんしゅつ}{結果|けっか}: calculation result\n\nSIMILAR WORDS:\n- {計算|けいさん}: general-purpose word for calculation (everyday to technical)\n- {算出|さんしゅつ}: producing a computed result (more formal, emphasizes the output)\n- {算定|さんてい}: official assessment or determination of a value",
-  "cross_references": [],
+  "notes": "USAGE: {算出|さんしゅつ} is a formal word used in business, academic, and technical settings. It implies a methodical process of computing a result, not casual mental arithmetic.\n\nCOMMON COLLOCATIONS:\n- ⟦{費用|ひよう}→費用：03588_hiyou⟧⟦を→を：00422_wo⟧{算出|さんしゅつ}⟦する→する：00392_suru⟧: to calculate the cost\n- ⟦{数値|すうち}→数値：12913_suuchi⟧⟦を→を：00422_wo⟧{算出|さんしゅつ}⟦する→する：00392_suru⟧: to compute a figure\n- {算出|さんしゅつ}{方法|ほうほう}: calculation method\n- {算出|さんしゅつ}⟦{結果|けっか}→結果：02486_kekka⟧: calculation result\n\nSIMILAR WORDS:\n- ⟦{計算|けいさん}→計算：02697_keisan⟧: general-purpose word for calculation (everyday to technical)\n- {算出|さんしゅつ}: producing a computed result (more formal, emphasizes the output)\n- ⟦{算定|さんてい}→算定：25483_santei⟧: official assessment or determination of a value",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02697_keisan",
+      "reading": "けいさん",
+      "headword": "{計算|けいさん}",
+      "label": "general-purpose word for calculation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25483_santei",
+      "reading": "さんてい",
+      "headword": "{算定|さんてい}",
+      "label": "official assessment or determination…"
+    },
+    {
+      "type": "related",
+      "target_id": "07992_kansan",
+      "reading": "かんさん",
+      "headword": "{換算|かんさん}",
+      "label": "conversion"
+    },
+    {
+      "type": "homophone",
+      "target_id": "19750_sanshutsu",
+      "reading": "さんしゅつ",
+      "headword": "{産出|さんしゅつ}",
+      "label": "production"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25526_keisansuru",
+      "reading": "けいさんする",
+      "headword": "{計算|けいさん}する",
+      "label": "to calculate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25998_doushutsu",
+      "reading": "どうしゅつ",
+      "headword": "{導出|どうしゅつ}",
+      "label": "derivation"
+    }
+  ],
   "metadata": {
     "created": "2026-03-06T11:43:54Z",
-    "modified": "2026-03-29T03:08:18Z",
+    "modified": "2026-09-02T04:01:40Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

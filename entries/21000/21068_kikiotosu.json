@@ -3,7 +3,7 @@
   "headword": "{聞|き}き{落|お}とす",
   "reading": "ききおとす",
   "romaji": "kikiotosu",
-  "part_of_speech": "godan verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to miss hearing; to fail to catch",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21068_kikiotosu_ex1",
-      "japanese": "{大事|だいじ}な{部分|ぶぶん}を{聞|き}き{落|お}とした。",
+      "japanese": "⟦{大事|だいじ}→大事：01253_daiji⟧な⟦{部分|ぶぶん}→部分：03715_bubun⟧⟦を→を：00422_wo⟧{聞|き}き{落|お}とした。",
       "english": "I missed hearing the important part.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21068_kikiotosu_ex2",
-      "japanese": "{周|まわ}りがうるさくて{名前|なまえ}を{聞|き}き{落|お}としてしまった。",
+      "japanese": "⟦{周|まわ}り→周り：01732_mawari⟧⟦が→が：00051_ga⟧⟦うるさくて→うるさい：00763_urusai⟧⟦{名前|なまえ}→名前：02234_namae⟧⟦を→を：00422_wo⟧{聞|き}き{落|お}としてしまった。",
       "english": "It was so noisy around me that I missed catching the name.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21068_kikiotosu_ex3",
-      "japanese": "アナウンスを{聞|き}き{落|お}とさないように{注意|ちゅうい}してください。",
+      "japanese": "⟦アナウンス→アナウンス：10700_anaunsu⟧⟦を→を：00422_wo⟧{聞|き}き{落|お}とさないよう⟦に→に：00314_ni⟧⟦{注意|ちゅうい}→注意：01464_chuui⟧⟦して→する：00392_suru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please pay attention so you don't miss the announcement.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "A compound verb: {聞|き}く (to hear) + {落|お}とす (to drop, to miss). The pattern verb + {落|お}とす means 'to fail to do' or 'to miss doing.'\n\nTHE VERB + {落|お}とす PATTERN:\nWhen attached to another verb stem, {落|お}とす means 'to fail to ~' or 'to miss ~ing':\n- {見落|みお}とす: to overlook, to miss seeing\n- {聞|き}き{落|お}とす: to miss hearing\n- {読|よ}み{落|お}とす: to miss reading, to skip over\n- {書|か}き{落|お}とす: to omit writing\n\nCOMMON COLLOCATIONS:\n- {名前|なまえ}を{聞|き}き{落|お}とす: to miss catching a name\n- アナウンスを{聞|き}き{落|お}とす: to miss an announcement\n- {大事|だいじ}なことを{聞|き}き{落|お}とす: to miss something important\n\nSIMILAR WORDS:\n- {聞|き}き{逃|のが}す: to miss hearing — very similar, slightly more casual\n- {聞|き}き{漏|も}らす: to fail to hear — also very similar, slightly more formal",
+  "notes": "A compound verb: ⟦{聞|き}く→聞く：00483_kiku⟧ (to hear) + ⟦{落|お}とす→落とす：01246_otosu⟧ (to drop, to miss). The pattern verb + ⟦{落|お}とす→落とす：01246_otosu⟧ means 'to fail to do' or 'to miss doing.'\n\nTHE VERB + {落|お}とす PATTERN:\nWhen attached to another verb stem, ⟦{落|お}とす→落とす：01246_otosu⟧ means 'to fail to ~' or 'to miss ~ing':\n- ⟦{見落|みお}とす→見落とす：04578_miotosu⟧: to overlook, to miss seeing\n- {聞|き}き{落|お}とす: to miss hearing\n- {読|よ}み{落|お}とす: to miss reading, to skip over\n- {書|か}き{落|お}とす: to omit writing\n\nCOMMON COLLOCATIONS:\n- ⟦{名前|なまえ}→名前：02234_namae⟧⟦を→を：00422_wo⟧{聞|き}き{落|お}とす: to miss catching a name\n- ⟦アナウンス→アナウンス：10700_anaunsu⟧⟦を→を：00422_wo⟧{聞|き}き{落|お}とす: to miss an announcement\n- ⟦{大事|だいじ}→大事：01253_daiji⟧なこと⟦を→を：00422_wo⟧{聞|き}き{落|お}とす: to miss something important\n\nSIMILAR WORDS:\n- ⟦{聞|き}き{逃|のが}す→聞き逃す：07929_kikinogasu⟧: to miss hearing — very similar, slightly more casual\n- {聞|き}き{漏|も}らす: to fail to hear — also very similar, slightly more formal",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07929_kikinogasu",
+      "reading": "ききのがす",
+      "headword": "{聞|き}き{逃|のが}す",
+      "label": "to miss hearing"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -57,10 +66,11 @@
       "semantic": [
         "communication"
       ],
-      "verb_class": "godan-su"
+      "verb_class": "godan-su",
+      "transitivity": "transitive"
     },
     "created": "2026-03-31T16:23:55Z",
-    "modified": "2026-03-31T16:23:55Z"
+    "modified": "2026-09-02T04:02:02Z"
   },
   "conjugation": {
     "type": "godan",

@@ -15,38 +15,79 @@
   "examples": [
     {
       "id": "24920_teikishiken_ex1",
-      "japanese": "{来週|らいしゅう}は{定期試験|ていきしけん}だ。",
+      "japanese": "⟦{来週|らいしゅう}→来週：00746_raishuu⟧⟦は→は：00079_ha⟧{定期試験|ていきしけん}だ。",
       "english": "We have regular exams next week.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "24920_teikishiken_ex2",
-      "japanese": "{定期試験|ていきしけん}の{範囲|はんい}がまだ{発表|はっぴょう}されていない。",
+      "japanese": "{定期試験|ていきしけん}⟦の→の：09472_no⟧⟦{範囲|はんい}→範囲：03567_hani⟧⟦が→が：00051_ga⟧⟦まだ→まだ：00603_mada⟧⟦{発表|はっぴょう}→発表：03562_happyou⟧⟦されていない→する：00392_suru⟧。",
       "english": "The scope of the periodic exam hasn't been announced yet.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "24920_teikishiken_ex3",
-      "japanese": "{定期試験|ていきしけん}が{終|お}わったら、{友達|ともだち}と{遊|あそ}びに{行|い}く{約束|やくそく}をしている。",
+      "japanese": "{定期試験|ていきしけん}⟦が→が：00051_ga⟧⟦{終|お}わったら→終わる：00567_owaru⟧、⟦{友達|ともだち}→友達：01478_tomodachi⟧⟦と→と：00512_to⟧⟦{遊|あそ}び→遊ぶ：00550_asobu⟧⟦に→に：00314_ni⟧⟦{行|い}く→行く：00119_iku⟧⟦{約束|やくそく}→約束：01517_yakusoku⟧⟦を→を：00422_wo⟧⟦している→する：00392_suru⟧。",
       "english": "I've promised to go out with friends after the regular exams are over.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {定期|ていき} (regular, periodic) and {試験|しけん} (examination, test). In Japanese schools, {定期試験|ていきしけん} typically refers to the midterm ({中間|ちゅうかん}) and final ({期末|きまつ}) exams held each term. Most Japanese middle and high schools hold these exams two to three times per year.\n\nDuring {定期試験|ていきしけん} periods, club activities are usually suspended so students can focus on studying. Results significantly influence report card grades.\n\nCOMMON COLLOCATIONS:\n- {定期試験|ていきしけん}の{勉強|べんきょう}: studying for regular exams\n- {定期試験|ていきしけん}の{範囲|はんい}: exam scope\n- {定期試験|ていきしけん}の{結果|けっか}: exam results\n- {定期試験|ていきしけん}{期間|きかん}: exam period\n\nSIMILAR WORDS:\n- {中間試験|ちゅうかんしけん}: midterm exam — a specific type of {定期試験|ていきしけん}\n- {期末試験|きまつしけん}: final exam — another specific type\n- {実力|じつりょく}テスト: achievement test — tests overall ability, not tied to a specific unit of study\n- {小|しょう}テスト: quiz — shorter, less formal test covering recent material",
+  "notes": "A compound of ⟦{定期|ていき}→定期：03538_teiki⟧ (regular, periodic) and ⟦{試験|しけん}→試験：01422_shiken⟧ (examination, test). In Japanese schools, {定期試験|ていきしけん} typically refers to the midterm (⟦{中間|ちゅうかん}→中間：05458_chuukan⟧) and final (⟦{期末|きまつ}→期末：22375_kimatsu⟧) exams held each term. Most Japanese middle and high schools hold these exams two to three times per year.\n\nDuring {定期試験|ていきしけん} periods, club activities are usually suspended so students can focus on studying. Results significantly influence report card grades.\n\nCOMMON COLLOCATIONS:\n- {定期試験|ていきしけん}⟦の→の：09472_no⟧⟦{勉強|べんきょう}→勉強：00770_benkyou⟧: studying for regular exams\n- {定期試験|ていきしけん}⟦の→の：09472_no⟧⟦{範囲|はんい}→範囲：03567_hani⟧: exam scope\n- {定期試験|ていきしけん}⟦の→の：09472_no⟧⟦{結果|けっか}→結果：02486_kekka⟧: exam results\n- {定期試験|ていきしけん}⟦{期間|きかん}→期間：00229_kikan⟧: exam period\n\nSIMILAR WORDS:\n- ⟦{中間試験|ちゅうかんしけん}→中間試験：06691_chuukanshiken⟧: midterm exam — a specific type of {定期試験|ていきしけん}\n- ⟦{期末試験|きまつしけん}→期末試験：06690_kimatsushiken⟧: final exam — another specific type\n- ⟦{実力|じつりょく}→実力：03277_jitsuryoku⟧⟦テスト→テスト：01065_tesuto⟧: achievement test — tests overall ability, not tied to a specific unit of study\n- ⟦{小|しょう}テスト→小テスト：27557_shoutesuto⟧: quiz — shorter, less formal test covering recent material",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06691_chuukanshiken",
+      "reading": "ちゅうかんしけん",
+      "headword": "{中間試験|ちゅうかんしけん}",
+      "label": "midterm exam"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06690_kimatsushiken",
+      "reading": "きまつしけん",
+      "headword": "{期末試験|きまつしけん}",
+      "label": "final exam"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27557_shoutesuto",
+      "reading": "しょうてすと",
+      "headword": "{小|しょう}テスト",
+      "label": "quiz"
+    },
+    {
+      "type": "related",
+      "target_id": "08738_shikenkikan",
+      "reading": "しけんきかん",
+      "headword": "{試験|しけん}{期間|きかん}",
+      "label": "exam period"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["education"]
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "education"
+      ]
     },
     "created": "2026-04-21T13:10:21Z",
-    "modified": "2026-04-21T13:10:21Z"
+    "modified": "2026-09-02T04:02:20Z"
   }
 }

@@ -15,39 +15,72 @@
   "examples": [
     {
       "id": "26165_soukousokudo_ex1",
-      "japanese": "{走行速度|そうこうそくど}を{落|お}としてください。",
+      "japanese": "{走行速度|そうこうそくど}⟦を→を：00422_wo⟧⟦{落|お}として→落とす：01246_otosu⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please reduce your driving speed.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26165_soukousokudo_ex2",
-      "japanese": "この{区間|くかん}の{平均|へいきん}{走行速度|そうこうそくど}は{時速|じそく}60キロだ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{区間|くかん}→区間：18759_kukan⟧⟦の→の：09472_no⟧⟦{平均|へいきん}→平均：03614_heikin⟧{走行速度|そうこうそくど}⟦は→は：00079_ha⟧⟦{時速|じそく}→時速：00128_jisoku⟧60⟦キロ→キロ：01350_kiro⟧だ。",
       "english": "The average travel speed for this section is 60 km/h.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26165_soukousokudo_ex3",
-      "japanese": "{雨|あめ}の{日|ひ}は{走行速度|そうこうそくど}を{控|ひか}えめにして、{車間距離|しゃかんきょり}を{十分|じゅうぶん}に{取|と}りましょう。",
+      "japanese": "⟦{雨|あめ}→雨：00583_ame⟧⟦の→の：09472_no⟧⟦{日|ひ}→日：02249_hi⟧⟦は→は：00079_ha⟧{走行速度|そうこうそくど}⟦を→を：00422_wo⟧⟦{控|ひか}えめ→控えめ：17234_hikaeme⟧にして、⟦{車間距離|しゃかんきょり}→車間距離：14858_shakankyori⟧⟦を→を：00422_wo⟧⟦{十分|じゅうぶん}→十分：01614_juubun⟧⟦に→に：00314_ni⟧⟦{取|と}りましょう→取る：00565_toru⟧。",
       "english": "On rainy days, keep your driving speed moderate and maintain plenty of distance between vehicles.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {走行|そうこう} (running, traveling by vehicle) + {速度|そくど} (speed, velocity). A standard term in driving, traffic engineering, and transportation contexts.\n\nCOMMON COLLOCATIONS:\n- {平均|へいきん}{走行速度|そうこうそくど}: average travel speed\n- {最高|さいこう}{走行速度|そうこうそくど}: maximum travel speed\n- {走行速度|そうこうそくど}を{上|あ}げる: to increase speed\n- {走行速度|そうこうそくど}を{落|お}とす: to reduce speed\n- {走行速度|そうこうそくど}{制限|せいげん}: speed limit (while driving)\n\nSIMILAR WORDS:\n- {速度|そくど}: speed — more general, applies to anything\n- スピード: speed — English loanword, casual\n- {時速|じそく}: speed per hour (km/h or mph)\n- {制限速度|せいげんそくど}: speed limit — the legal limit",
-  "cross_references": [],
+  "notes": "Composed of ⟦{走行|そうこう}→走行：14260_soukou⟧ (running, traveling by vehicle) + ⟦{速度|そくど}→速度：03319_sokudo⟧ (speed, velocity). A standard term in driving, traffic engineering, and transportation contexts.\n\nCOMMON COLLOCATIONS:\n- ⟦{平均|へいきん}→平均：03614_heikin⟧{走行速度|そうこうそくど}: average travel speed\n- ⟦{最高|さいこう}→最高：02637_saikou⟧{走行速度|そうこうそくど}: maximum travel speed\n- {走行速度|そうこうそくど}⟦を→を：00422_wo⟧⟦{上|あ}げる→上げる：02443_ageru⟧: to increase speed\n- {走行速度|そうこうそくど}⟦を→を：00422_wo⟧⟦{落|お}とす→落とす：01246_otosu⟧: to reduce speed\n- {走行速度|そうこうそくど}⟦{制限|せいげん}→制限：03375_seigen⟧: speed limit (while driving)\n\nSIMILAR WORDS:\n- ⟦{速度|そくど}→速度：03319_sokudo⟧: speed — more general, applies to anything\n- ⟦スピード→スピード：11048_supiido⟧: speed — English loanword, casual\n- ⟦{時速|じそく}→時速：00128_jisoku⟧: speed per hour (km/h or mph)\n- ⟦{制限速度|せいげんそくど}→制限速度：26875_seigensokudo⟧: speed limit — the legal limit",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11048_supiido",
+      "reading": "すぴーど",
+      "headword": "スピード",
+      "label": "speed"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00128_jisoku",
+      "reading": "じそく",
+      "headword": "{時速|じそく}",
+      "label": "speed per hour"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26875_seigensokudo",
+      "reading": "せいげんそくど",
+      "headword": "{制限速度|せいげんそくど}",
+      "label": "speed limit"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["transportation"]
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "transportation"
+      ]
     },
     "created": "2026-04-29T15:33:54Z",
-    "modified": "2026-04-29T15:33:54Z"
+    "modified": "2026-09-02T04:02:25Z"
   }
 }

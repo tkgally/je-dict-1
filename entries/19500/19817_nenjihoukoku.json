@@ -15,40 +15,59 @@
   "examples": [
     {
       "id": "19817_nenjihoukoku_ex1",
-      "japanese": "{年次報告|ねんじほうこく}を{作成|さくせい}する。",
+      "japanese": "{年次報告|ねんじほうこく}⟦を→を：00422_wo⟧⟦{作成|さくせい}する→作成する：25378_sakuseisuru⟧。",
       "english": "To prepare the annual report.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19817_nenjihoukoku_ex2",
-      "japanese": "{会社|かいしゃ}の{年次報告|ねんじほうこく}{書|しょ}が{公開|こうかい}された。",
+      "japanese": "⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦の→の：09472_no⟧{年次報告|ねんじほうこく}{書|しょ}⟦が→が：00051_ga⟧⟦{公開|こうかい}→公開：11665_koukai⟧⟦された→する：00392_suru⟧。",
       "english": "The company's annual report was published.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19817_nenjihoukoku_ex3",
-      "japanese": "{国連|こくれん}の{年次報告|ねんじほうこく}によると、{世界|せかい}の{人口|じんこう}は{増加|ぞうか}を{続|つづ}けている。",
+      "japanese": "⟦{国連|こくれん}→国連：12035_kokuren⟧⟦の→の：09472_no⟧{年次報告|ねんじほうこく}⟦によると→〜によると：03104_niyoruto⟧、⟦{世界|せかい}→世界：01447_sekai⟧⟦の→の：09472_no⟧⟦{人口|じんこう}→人口：01618_jinkou⟧⟦は→は：00079_ha⟧⟦{増加|ぞうか}→増加：03329_zouka⟧⟦を→を：00422_wo⟧⟦{続|つづ}け→続く：00903_tsuzuku⟧て⟦いる→いる：00495_iru⟧。",
       "english": "According to the UN's annual report, the world's population continues to grow.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {年次|ねんじ} (annual, yearly) and {報告|ほうこく} (report). Common in business, government, and academic contexts.\n\nCOMMON COLLOCATIONS:\n- {年次報告|ねんじほうこく}{書|しょ} — annual report (document)\n- {年次報告|ねんじほうこく}を{提出|ていしゅつ}する — to submit an annual report\n- {年次報告|ねんじほうこく}を{発表|はっぴょう}する — to release an annual report\n\nSIMILAR WORDS:\n- {年報|ねんぽう} — annual report, yearbook (shorter synonym, also common)\n- {決算報告|けっさんほうこく} — financial report (specifically about accounts/finances)\n- {年次|ねんじ} — annual (the base modifier)",
+  "notes": "A compound of ⟦{年次|ねんじ}→年次：15657_nenji⟧ (annual, yearly) and ⟦{報告|ほうこく}→報告：03618_houkoku⟧ (report). Common in business, government, and academic contexts.\n\nCOMMON COLLOCATIONS:\n- {年次報告|ねんじほうこく}{書|しょ} — annual report (document)\n- {年次報告|ねんじほうこく}⟦を→を：00422_wo⟧⟦{提出|ていしゅつ}する→提出する：19644_teishutsusuru⟧ — to submit an annual report\n- {年次報告|ねんじほうこく}⟦を→を：00422_wo⟧⟦{発表|はっぴょう}する→発表する：25231_happyousuru⟧ — to release an annual report\n\nSIMILAR WORDS:\n- {年報|ねんぽう} — annual report, yearbook (shorter synonym, also common)\n- ⟦{決算報告|けっさんほうこく}→決算報告：25816_kessanhoukoku⟧ — financial report (specifically about accounts/finances)\n- ⟦{年次|ねんじ}→年次：15657_nenji⟧ — annual (the base modifier)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25816_kessanhoukoku",
+      "reading": "けっさんほうこく",
+      "headword": "{決算報告|けっさんほうこく}",
+      "label": "financial report"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["work"]
+      "semantic": [
+        "work"
+      ]
     },
     "created": "2026-03-27T00:25:23Z",
-    "modified": "2026-03-27T00:25:23Z"
+    "modified": "2026-09-02T04:01:57Z"
   }
 }

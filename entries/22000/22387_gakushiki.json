@@ -15,40 +15,73 @@
   "examples": [
     {
       "id": "22387_gakushiki_ex1",
-      "japanese": "{学識|がくしき}のある{人|ひと}だ。",
+      "japanese": "{学識|がくしき}⟦の→の：09472_no⟧⟦ある→ある：00006_aru⟧⟦{人|ひと}→人：00476_hito⟧だ。",
       "english": "That is a person of learning.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "22387_gakushiki_ex2",
-      "japanese": "{学識|がくしき}{経験者|けいけんしゃ}の{意見|いけん}を{聞|き}く。",
+      "japanese": "{学識|がくしき}⟦{経験者|けいけんしゃ}→経験者：18664_keikensha⟧⟦の→の：09472_no⟧⟦{意見|いけん}→意見：01303_iken⟧⟦を→を：00422_wo⟧⟦{聞|き}く→聞く：00483_kiku⟧。",
       "english": "To hear the opinions of learned experts.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "22387_gakushiki_ex3",
-      "japanese": "{彼|かれ}は{幅広|はばひろ}い{学識|がくしき}を{持|も}ち、さまざまな{分野|ぶんや}について{深|ふか}い{見識|けんしき}がある。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{幅広|はばひろ}い→幅広い：11326_habahiroi⟧{学識|がくしき}⟦を→を：00422_wo⟧⟦{持|も}ち→持つ：00478_motsu⟧、さまざまな⟦{分野|ぶんや}→分野：03612_bunya⟧⟦について→〜について：03103_nitsuite⟧⟦{深|ふか}い→深い：01211_fukai⟧⟦{見識|けんしき}→見識：05527_kenshiki⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "He possesses broad scholarship and has deep insight in various fields.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Describes academic knowledge and intellectual accomplishment at a high level. Often used in formal contexts when referring to experts and scholars.\n\nCOMMON COLLOCATIONS:\n- {学識|がくしき}{経験者|けいけんしゃ}: learned expert (a person with both academic knowledge and practical experience)\n- {学識|がくしき}のある: learned / scholarly\n- {学識|がくしき}が{深|ふか}い: deeply learned\n- {学識|がくしき}が{豊|ゆた}かな: richly knowledgeable\n- {幅広|はばひろ}い{学識|がくしき}: broad scholarship\n\nSIMILAR WORDS:\n- {知識|ちしき}: knowledge — general knowledge on any topic, not necessarily academic\n- {教養|きょうよう}: education / culture — broad general education and cultural refinement\n- {見識|けんしき}: insight / discernment — emphasizes good judgment from experience and learning\n- {博学|はくがく}: erudition / wide learning — emphasizes breadth of knowledge across many fields\n\nREGISTER:\nFormal. The compound {学識|がくしき}{経験者|けいけんしゃ} is an official term used in government advisory committees and legal panels.",
+  "notes": "Describes academic knowledge and intellectual accomplishment at a high level. Often used in formal contexts when referring to experts and scholars.\n\nCOMMON COLLOCATIONS:\n- {学識|がくしき}⟦{経験者|けいけんしゃ}→経験者：18664_keikensha⟧: learned expert (a person with both academic knowledge and practical experience)\n- {学識|がくしき}⟦の→の：09472_no⟧⟦ある→ある：00006_aru⟧: learned / scholarly\n- {学識|がくしき}⟦が→が：00051_ga⟧⟦{深|ふか}い→深い：01211_fukai⟧: deeply learned\n- {学識|がくしき}⟦が→が：00051_ga⟧⟦{豊|ゆた}か→豊か：03654_yutaka⟧な: richly knowledgeable\n- ⟦{幅広|はばひろ}い→幅広い：11326_habahiroi⟧{学識|がくしき}: broad scholarship\n\nSIMILAR WORDS:\n- ⟦{知識|ちしき}→知識：01463_chishiki⟧: knowledge — general knowledge on any topic, not necessarily academic\n- ⟦{教養|きょうよう}→教養：09788_kyouyou⟧: education / culture — broad general education and cultural refinement\n- ⟦{見識|けんしき}→見識：05527_kenshiki⟧: insight / discernment — emphasizes good judgment from experience and learning\n- {博学|はくがく}: erudition / wide learning — emphasizes breadth of knowledge across many fields\n\nREGISTER:\nFormal. The compound {学識|がくしき}⟦{経験者|けいけんしゃ}→経験者：18664_keikensha⟧ is an official term used in government advisory committees and legal panels.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01463_chishiki",
+      "reading": "ちしき",
+      "headword": "{知識|ちしき}",
+      "label": "knowledge"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09788_kyouyou",
+      "reading": "きょうよう",
+      "headword": "{教養|きょうよう}",
+      "label": "education / culture"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05527_kenshiki",
+      "reading": "けんしき",
+      "headword": "{見識|けんしき}",
+      "label": "insight / discernment"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["education"]
+      "semantic": [
+        "education"
+      ]
     },
     "created": "2026-04-05T20:14:51Z",
-    "modified": "2026-04-05T20:14:51Z"
+    "modified": "2026-09-02T04:02:07Z"
   }
 }

@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "07977_tsumitate_ex1",
-      "japanese": "{毎月|まいつき}{積立|つみたて}をしている。",
+      "japanese": "⟦{毎月|まいつき}→毎月：00732_maitsuki⟧{積立|つみたて}⟦を→を：00422_wo⟧⟦している→する：00392_suru⟧。",
       "english": "I make regular savings every month.",
       "sense_numbers": [
         1
@@ -114,7 +114,7 @@
     },
     {
       "id": "07977_tsumitate_ex2",
-      "japanese": "{積立|つみたて}{貯金|ちょきん}で{旅行|りょこう}{資金|しきん}を{貯|た}めた。",
+      "japanese": "{積立|つみたて}⟦{貯金|ちょきん}→貯金：03497_chokin⟧⟦で→で：00502_de⟧⟦{旅行|りょこう}→旅行：00748_ryokou⟧⟦{資金|しきん}→資金：09937_shikin⟧⟦を→を：00422_wo⟧⟦{貯|た}めた→貯める：27801_tameru⟧。",
       "english": "I saved up travel funds through installment savings.",
       "sense_numbers": [
         1
@@ -124,7 +124,7 @@
     },
     {
       "id": "07977_tsumitate_ex3",
-      "japanese": "{将来|しょうらい}のために{積立|つみたて}NISAを{始|はじ}めることにした。",
+      "japanese": "⟦{将来|しょうらい}→将来：01438_shourai⟧⟦の→の：09472_no⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧{積立|つみたて}NISA⟦を→を：00422_wo⟧{始|はじ}めることにした。",
       "english": "I decided to start a tsumitate NISA for my future.",
       "sense_numbers": [
         1
@@ -133,7 +133,23 @@
       "notes": null
     }
   ],
-  "notes": "{積立|つみたて} refers to regular savings or accumulation, commonly used in financial contexts.\n\nKANJI BREAKDOWN:\n- {積|つ}む (to pile up, accumulate)\n- {立|た}てる (to set up, establish)\n\nUSAGE:\n- {積立|つみたて}する (to save regularly - suru verb)\n- {積|つ}み{立|た}てる (verb form - to accumulate)\n\nCOMMON COMPOUNDS:\n- {積立|つみたて}{貯金|ちょきん} (installment savings)\n- {積立|つみたて}{保険|ほけん} (accumulation-type insurance)\n- {積立|つみたて}NISA ({積立|つみたて}{型|がた}{少額|しょうがく}{投資|とうし}{非課税|ひかぜい}{制度|せいど})\n- {積立|つみたて}{投資|とうし} (regular investment)\n\nFINANCIAL CONTEXT:\n- Popular savings method in Japan\n- Often automatic monthly deductions\n- Used for retirement, education, travel funds\n\n{積立|つみたて}NISA:\n- Tax-advantaged investment account in Japan\n- Encourages long-term, regular investing\n- Popular since 2018\n\nRELATED TERMS:\n- {定期|ていき}{積金|つみきん} (fixed-term installment savings)\n- {貯蓄|ちょちく} (savings - general term)\n- {投資|とうし} (investment)",
+  "notes": "{積立|つみたて} refers to regular savings or accumulation, commonly used in financial contexts.\n\nWRITING:\n- ⟦{積|つ}む→積む：02294_tsumu⟧ (to pile up, accumulate)\n- ⟦{立|た}てる→立てる：01196_tateru⟧ (to set up, establish)\n\nUSAGE:\n- {積立|つみたて}⟦する→する：00392_suru⟧ (to save regularly - suru verb)\n- ⟦{積|つ}み{立|た}てる→積み立てる：21136_tsumitateru⟧ (verb form - to accumulate)\n\nCOMPOUNDS:\n- {積立|つみたて}⟦{貯金|ちょきん}→貯金：03497_chokin⟧ (installment savings)\n- {積立|つみたて}⟦{保険|ほけん}→保険：01509_hoken⟧ (accumulation-type insurance)\n- {積立|つみたて}NISA ({積立|つみたて}{型|がた}⟦{少額|しょうがく}→少額：15387_shougaku⟧⟦{投資|とうし}→投資：04711_toushi⟧⟦{非課税|ひかぜい}→非課税：18326_hikazei⟧⟦{制度|せいど}→制度：03291_seido⟧)\n- {積立|つみたて}⟦{投資|とうし}→投資：04711_toushi⟧ (regular investment)\n\nFINANCIAL CONTEXT:\n- Popular savings method in Japan\n- Often automatic monthly deductions\n- Used for retirement, education, travel funds\n\n{積立|つみたて}NISA:\n- Tax-advantaged investment account in Japan\n- Encourages long-term, regular investing\n- Popular since 2018\n\nRELATED WORDS:\n- ⟦{定期|ていき}→定期：03538_teiki⟧{積金|つみきん} (fixed-term installment savings)\n- ⟦{貯蓄|ちょちく}→貯蓄：18972_chochiku⟧ (savings - general term)\n- ⟦{投資|とうし}→投資：04711_toushi⟧ (investment)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "18972_chochiku",
+      "reading": "ちょちく",
+      "headword": "{貯蓄|ちょちく}",
+      "label": "savings"
+    },
+    {
+      "type": "related",
+      "target_id": "04711_toushi",
+      "reading": "とうし",
+      "headword": "{投資|とうし}",
+      "label": "investment"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -150,6 +166,6 @@
       "verb_class": "suru"
     },
     "created": "2026-01-23T10:50:28Z",
-    "modified": "2026-08-11T09:37:41Z"
+    "modified": "2026-09-02T04:01:13Z"
   }
 }

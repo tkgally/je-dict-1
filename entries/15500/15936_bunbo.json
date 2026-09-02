@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "15936_bunbo_ex1",
-      "japanese": "{分母|ぶんぼ}が{同|おな}じ{分数|ぶんすう}を{足|た}す。",
+      "japanese": "{分母|ぶんぼ}⟦が→が：00051_ga⟧⟦{同|おな}じ→同じ：02857_onaji⟧⟦{分数|ぶんすう}→分数：06952_bunsuu⟧⟦を→を：00422_wo⟧⟦{足|た}す→足す：01168_tasu⟧。",
       "english": "Add fractions with the same denominator.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15936_bunbo_ex2",
-      "japanese": "{分母|ぶんぼ}を{揃|そろ}えてから{計算|けいさん}してください。",
+      "japanese": "{分母|ぶんぼ}⟦を→を：00422_wo⟧⟦{揃|そろ}えて→揃える：01952_soroeru⟧⟦から→から：00504_kara⟧⟦{計算|けいさん}して→計算する：25526_keisansuru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please find a common denominator before calculating.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15936_bunbo_ex3",
-      "japanese": "{合格率|ごうかくりつ}の{分母|ぶんぼ}には{欠席者|けっせきしゃ}も{含|ふく}まれている。",
+      "japanese": "{合格率|ごうかくりつ}⟦の→の：09472_no⟧{分母|ぶんぼ}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{欠席者|けっせきしゃ}⟦も→も：00484_mo⟧⟦{含|ふく}まれている→含む：01982_fukumu⟧。",
       "english": "The denominator of the pass rate includes absentees as well.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\n{分母|ぶんぼ} is a basic math term learned in elementary school. Beyond mathematics, it is used in everyday language to discuss rates and ratios — for example, when discussing what counts in the \"total\" for a percentage.\n\nCOMMON COLLOCATIONS:\n- {分母|ぶんぼ}を{揃|そろ}える (to find a common denominator)\n- {分母|ぶんぼ}が{大|おお}きい (the denominator is large)\n- {分母|ぶんぼ}を{増|ふ}やす (to increase the denominator)\n\nRELATED WORDS:\n{分子|ぶんし} is the numerator (the top number in a fraction). Note that {分子|ぶんし} also means \"molecule\" in a scientific context.",
+  "notes": "USAGE:\n{分母|ぶんぼ} is a basic math term learned in elementary school. Beyond mathematics, it is used in everyday language to discuss rates and ratios — for example, when discussing what counts in the \"total\" for a percentage.\n\nCOMMON COLLOCATIONS:\n- {分母|ぶんぼ}⟦を→を：00422_wo⟧⟦{揃|そろ}える→揃える：01952_soroeru⟧ (to find a common denominator)\n- {分母|ぶんぼ}⟦が→が：00051_ga⟧⟦{大|おお}きい→大きい：00335_ookii⟧ (the denominator is large)\n- {分母|ぶんぼ}⟦を→を：00422_wo⟧⟦{増|ふ}やす→増やす：02410_fuyasu⟧ (to increase the denominator)\n\nRELATED WORDS:\n⟦{分子|ぶんし}→分子：11769_bunshi⟧ is the numerator (the top number in a fraction). Note that ⟦{分子|ぶんし}→分子：11769_bunshi⟧ also means \"molecule\" in a scientific context.",
   "cross_references": [
     {
       "type": "antonym",
@@ -46,19 +52,32 @@
       "reading": "ぶんし",
       "headword": "{分子|ぶんし}",
       "label": "numerator"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30689_tsuubun",
+      "reading": "つうぶん",
+      "headword": "{通分|つうぶん}",
+      "label": "finding a common denominator"
     }
   ],
   "metadata": {
     "created": "2026-03-09T00:40:28Z",
-    "modified": "2026-05-02T08:18:57Z",
+    "modified": "2026-09-02T04:01:43Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["number"],
-      "domain": ["academic"]
+      "semantic": [
+        "number"
+      ],
+      "domain": [
+        "academic"
+      ]
     }
   }
 }

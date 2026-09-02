@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "15128_shittai_ex1",
-      "japanese": "{大|おお}きな{失態|しったい}を{犯|おか}してしまった。",
+      "japanese": "⟦{大|おお}きな→大きな：02849_ookina⟧{失態|しったい}⟦を→を：00422_wo⟧⟦{犯|おか}して→犯す：10059_okasu⟧しまった。",
       "english": "I committed a major blunder.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "15128_shittai_ex2",
-      "japanese": "{大臣|だいじん}の{失態|しったい}がニュースになった。",
+      "japanese": "⟦{大臣|だいじん}→大臣：03417_daijin⟧⟦の→の：09472_no⟧{失態|しったい}⟦が→が：00051_ga⟧⟦ニュース→ニュース：04437_nyuusu⟧になった。",
       "english": "The minister's blunder made the news.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "15128_shittai_ex3",
-      "japanese": "{二度|にど}とこのような{失態|しったい}を{繰|く}り{返|かえ}さないように{注意|ちゅうい}する。",
+      "japanese": "⟦{二度|にど}と→二度と：06482_nidoto⟧⟦この→この：00962_kono⟧ような{失態|しったい}⟦を→を：00422_wo⟧⟦{繰|く}り{返|かえ}さない→繰り返す：02051_kurikaesu⟧よう⟦に→に：00314_ni⟧⟦{注意|ちゅうい}→注意：01464_chuui⟧⟦する→する：00392_suru⟧。",
       "english": "I will be careful not to repeat this kind of blunder again.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,19 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{失態|しったい} is often used in formal or news contexts to describe professional mistakes by politicians, companies, or public figures. It carries a stronger sense of embarrassment and loss of face than simple {失敗|しっぱい} (failure).\n\nCOMMON COLLOCATIONS:\n- {失態|しったい}を{犯|おか}す (to commit a blunder)\n- {失態|しったい}を{演|えん}じる (to make a spectacle of one's failure)\n- {失態|しったい}を{繰|く}り{返|かえ}す (to repeat a blunder)\n- {大|おお}{失態|しったい} (major blunder)\n\nNUANCE:\n{失態|しったい} implies public embarrassment, while {失敗|しっぱい} is a more neutral term for failure. {醜態|しゅうたい} is even stronger, implying disgraceful or shameful behavior.",
-  "cross_references": [],
+  "notes": "USAGE:\n{失態|しったい} is often used in formal or news contexts to describe professional mistakes by politicians, companies, or public figures. It carries a stronger sense of embarrassment and loss of face than simple ⟦{失敗|しっぱい}→失敗：01636_shippai⟧ (failure).\n{失態|しったい} implies public embarrassment, while ⟦{失敗|しっぱい}→失敗：01636_shippai⟧ is a more neutral term for failure. ⟦{醜態|しゅうたい}→醜態：20089_shuutai⟧ is even stronger, implying disgraceful or shameful behavior.\n\nCOMMON COLLOCATIONS:\n- {失態|しったい}⟦を→を：00422_wo⟧⟦{犯|おか}す→犯す：10059_okasu⟧ (to commit a blunder)\n- {失態|しったい}⟦を→を：00422_wo⟧⟦{演|えん}じる→演じる：13330_enjiru⟧ (to make a spectacle of one's failure)\n- {失態|しったい}⟦を→を：00422_wo⟧⟦{繰|く}り{返|かえ}す→繰り返す：02051_kurikaesu⟧ (to repeat a blunder)\n- {大|おお}{失態|しったい} (major blunder)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20089_shuutai",
+      "reading": "しゅうたい",
+      "headword": "{醜態|しゅうたい}",
+      "label": "disgraceful behavior"
+    }
+  ],
   "metadata": {
     "created": "2026-03-05T07:55:46Z",
-    "modified": "2026-07-15T03:29:10Z",
+    "modified": "2026-09-02T04:01:40Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

@@ -3,7 +3,7 @@
   "id": "13842_touchi",
   "headword": "{統治|とうち}",
   "reading": "とうち",
-  "part_of_speech": "noun / verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "rule, governance, administration",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "13842_touchi_ex1",
-      "japanese": "{国|くに}を{統治|とうち}する。",
+      "japanese": "⟦{国|くに}→国：02204_kuni⟧⟦を→を：00422_wo⟧{統治|とうち}⟦する→する：00392_suru⟧。",
       "english": "Rule a country.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "13842_touchi_ex2",
-      "japanese": "{植民地|しょくみんち}{統治|とうち}の{歴史|れきし}を{学|まな}ぶ。",
+      "japanese": "⟦{植民地|しょくみんち}→植民地：16073_shokuminchi⟧{統治|とうち}⟦の→の：09472_no⟧⟦{歴史|れきし}→歴史：02267_rekishi⟧⟦を→を：00422_wo⟧⟦{学|まな}ぶ→学ぶ：01987_manabu⟧。",
       "english": "Study the history of colonial rule.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "13842_touchi_ex3",
-      "japanese": "{徳川幕府|とくがわばくふ}は{約|やく}260{年|ねん}にわたって{日本|にほん}を{統治|とうち}した。",
+      "japanese": "{徳川幕府|とくがわばくふ}⟦は→は：00079_ha⟧⟦{約|やく}→約：09563_yaku⟧260⟦{年|ねん}→年：09876_nen⟧⟦に→に：00314_ni⟧わたって⟦{日本|にほん}→日本：03876_nihon⟧⟦を→を：00422_wo⟧{統治|とうち}⟦した→する：00392_suru⟧。",
       "english": "The Tokugawa shogunate ruled Japan for approximately 260 years.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA formal word used primarily in political, historical, and legal contexts. Implies legitimate or de facto political authority over a territory or people.\n\nSIMILAR WORDS:\n- {支配|しはい}: domination, control (can imply oppressive rule)\n- {治世|ちせい}: reign, rule (focuses on the period of rule)\n- {政治|せいじ}: politics, government (broader, refers to the system)\n- {統制|とうせい}: control, regulation (focuses on managing/regulating)\n\nCOMMON COLLOCATIONS:\n- {統治|とうち}{権|けん}: governing authority, sovereignty\n- {統治|とうち}{者|しゃ}: ruler, governor\n- {統治|とうち}{体制|たいせい}: system of governance\n- {植民地|しょくみんち}{統治|とうち}: colonial rule\n- {統治|とうち}{機構|きこう}: governing structure",
+  "notes": "USAGE:\nA formal word used primarily in political, historical, and legal contexts. Implies legitimate or de facto political authority over a territory or people.\n\nSIMILAR WORDS:\n- ⟦{支配|しはい}→支配：01421_shihai⟧: domination, control (can imply oppressive rule)\n- {治世|ちせい}: reign, rule (focuses on the period of rule)\n- ⟦{政治|せいじ}→政治：01629_seiji⟧: politics, government (broader, refers to the system)\n- ⟦{統制|とうせい}→統制：21836_tousei⟧: control, regulation (focuses on managing/regulating)\n\nCOMMON COLLOCATIONS:\n- {統治|とうち}{権|けん}: governing authority, sovereignty\n- {統治|とうち}{者|しゃ}: ruler, governor\n- {統治|とうち}⟦{体制|たいせい}→体制：04490_taisei⟧: system of governance\n- ⟦{植民地|しょくみんち}→植民地：16073_shokuminchi⟧{統治|とうち}: colonial rule\n- {統治|とうち}⟦{機構|きこう}→機構：02784_kikou⟧: governing structure",
   "cross_references": [
     {
       "type": "synonym",
@@ -142,11 +142,39 @@
       "reading": "しはい",
       "headword": "{支配|しはい}",
       "label": "domination, control"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01629_seiji",
+      "reading": "せいじ",
+      "headword": "{政治|せいじ}",
+      "label": "politics, government"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21836_tousei",
+      "reading": "とうせい",
+      "headword": "{統制|とうせい}",
+      "label": "control, regulation"
+    },
+    {
+      "type": "related",
+      "target_id": "02462_osameru",
+      "reading": "おさめる",
+      "headword": "{治|おさ}める",
+      "label": "to govern, to rule, to manage"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25222_shihaisuru",
+      "reading": "しはいする",
+      "headword": "{支配|しはい}する",
+      "label": "to rule"
     }
   ],
   "metadata": {
     "created": "2026-02-27T05:13:13Z",
-    "modified": "2026-04-29T09:23:58Z",
+    "modified": "2026-09-02T04:01:34Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -162,7 +190,8 @@
       "domain": [
         "legal"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

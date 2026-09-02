@@ -3,7 +3,7 @@
   "headword": "{親|した}しみやすい",
   "reading": "したしみやすい",
   "romaji": "shitashimiyasui",
-  "part_of_speech": "adjective (i)",
+  "part_of_speech": "i-adjective",
   "gloss": "approachable; friendly; easy to feel close to",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "19142_shitashimiyasui_ex1",
-      "japanese": "{彼|かれ}はとても{親|した}しみやすい{人|ひと}だ。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦とても→とても：00593_totemo⟧{親|した}しみやすい⟦{人|ひと}→人：00476_hito⟧だ。",
       "english": "He is a very approachable person.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "19142_shitashimiyasui_ex2",
-      "japanese": "{親|した}しみやすい{雰囲気|ふんいき}の{店|みせ}で{食事|しょくじ}をした。",
+      "japanese": "{親|した}しみやすい⟦{雰囲気|ふんいき}→雰囲気：03604_funiki⟧⟦の→の：09472_no⟧⟦{店|みせ}→店：00497_mise⟧⟦で→で：00502_de⟧⟦{食事|しょくじ}→食事：02087_shokuji⟧⟦を→を：00422_wo⟧⟦した→する：00392_suru⟧。",
       "english": "We ate at a restaurant with a friendly atmosphere.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "19142_shitashimiyasui_ex3",
-      "japanese": "{先生|せんせい}が{親|した}しみやすいおかげで、{質問|しつもん}しやすい{授業|じゅぎょう}になっている。",
+      "japanese": "⟦{先生|せんせい}→先生：00609_sensei⟧⟦が→が：00051_ga⟧{親|した}しみやすい⟦おかげ→おかげ：01362_okage⟧で、⟦{質問|しつもん}→質問：00888_shitsumon⟧しやすい⟦{授業|じゅぎょう}→授業：00781_jugyou⟧になっている。",
       "english": "Because the teacher is approachable, it's a class where it's easy to ask questions.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {親|した}しみ (familiarity, closeness — noun form of {親|した}しむ) + やすい (easy to). Describes someone or something that puts people at ease.\n\nCOMMON COLLOCATIONS:\n- {親|した}しみやすい{人|ひと}: approachable person\n- {親|した}しみやすい{雰囲気|ふんいき}: friendly/welcoming atmosphere\n- {親|した}しみやすいデザイン: user-friendly design\n- {親|した}しみやすい{笑顔|えがお}: a friendly smile\n\nUSAGE:\nAlways a positive description. Often used for people in service, teaching, or leadership roles where approachability matters. Can also describe places, designs, or media that feel accessible.\n\nFORMS:\n- {親|した}しみやすさ: approachability (noun form)\n\nSIMILAR WORDS:\n- {気|き}さく（な）: friendly, easy-going (describes personality)\n- {話|はな}しやすい: easy to talk to\n- {取|と}っ{付|つ}きやすい: approachable, accessible",
+  "notes": "Compound of ⟦{親|した}しみ→親しみ：19963_shitashimi⟧ (familiarity, closeness — noun form of ⟦{親|した}しむ→親しむ：14139_shitashimu⟧) + やすい (easy to). Describes someone or something that puts people at ease.\n\nCOMMON COLLOCATIONS:\n- {親|した}しみやすい⟦{人|ひと}→人：00476_hito⟧: approachable person\n- {親|した}しみやすい⟦{雰囲気|ふんいき}→雰囲気：03604_funiki⟧: friendly/welcoming atmosphere\n- {親|した}しみやすい⟦デザイン→デザイン：03860_dezain⟧: user-friendly design\n- {親|した}しみやすい⟦{笑顔|えがお}→笑顔：01884_egao⟧: a friendly smile\n\nUSAGE:\nAlways a positive description. Often used for people in service, teaching, or leadership roles where approachability matters. Can also describe places, designs, or media that feel accessible.\n\nFORMS:\n- {親|した}しみやすさ: approachability (noun form)\n\nSIMILAR WORDS:\n- ⟦{気|き}さく→気さく：07158_kisaku⟧（な）: friendly, easy-going (describes personality)\n- ⟦{話|はな}し→話す：00467_hanasu⟧やすい: easy to talk to\n- {取|と}っ{付|つ}きやすい: approachable, accessible",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -60,7 +60,7 @@
       ]
     },
     "created": "2026-03-24T10:07:01Z",
-    "modified": "2026-07-23T12:19:07Z"
+    "modified": "2026-09-02T04:01:54Z"
   },
   "conjugation": {
     "type": "i-adjective",
@@ -104,6 +104,13 @@
       "reading": "きさく",
       "headword": "{気|き}さく",
       "label": "friendly, approachable"
+    },
+    {
+      "type": "related",
+      "target_id": "02345_shitashii",
+      "reading": "したしい",
+      "headword": "{親|した}しい",
+      "label": "intimate, close"
     }
   ]
 }

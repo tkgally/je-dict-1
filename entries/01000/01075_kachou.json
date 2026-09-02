@@ -24,7 +24,7 @@
     },
     {
       "id": "01075_kachou_ex2",
-      "japanese": "{田中|たなか}{課長|かちょう}⟦は→は：00079_ha⟧⟦{来週|らいしゅう}→来週：00746_raishuu⟧⟦{出張|しゅっちょう}→出張：01094_shucchou⟧⟦です→です：09485_desu⟧。",
+      "japanese": "⟦{田中|たなか}→田中：09528_tanaka⟧{課長|かちょう}⟦は→は：00079_ha⟧⟦{来週|らいしゅう}→来週：00746_raishuu⟧⟦{出張|しゅっちょう}→出張：01094_shucchou⟧⟦です→です：09485_desu⟧。",
       "english": "Section Chief Tanaka has a business trip next week.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{課長|かちょう} is a section manager, an important first management position in Japanese companies.\n\nCORPORATE HIERARCHY:\n- ⟦{係長|かかりちょう}→係長：08212_kakarichou⟧: team leader\n- {課長|かちょう}: section chief\n- ⟦{次長|じちょう}→次長：17780_jichou⟧: deputy department head\n- ⟦{部長|ぶちょう}→部長：01017_buchou⟧: department head\n\nUSAGE AS TITLE:\nUsed after names: ⟦{田中|たなか}→田中：09528_tanaka⟧{課長|かちょう} (Section Chief Tanaka). When addressing directly, use {課長|かちょう} alone or with ⟦さん→〜さん：09848_san⟧ in some companies.\n\nCOMMON EXPRESSIONS:\n- {課長|かちょう}⟦に→に：00314_ni⟧⟦{昇進|しょうしん}→昇進：04553_shoushin⟧⟦する→する：00392_suru⟧: to be promoted to section chief\n- {課長|かちょう}⟦{代理|だいり}→代理：03422_dairi⟧: acting section chief\n- {課長|かちょう}⟦{補佐|ほさ}→補佐：19834_hosa⟧: assistant section chief\n\nNOTE:\n{課|か} (section) is a subdivision of {部|ぶ} (department).",
+  "notes": "{課長|かちょう} is a section manager, an important first management position in Japanese companies.\n\nCORPORATE HIERARCHY:\n- ⟦{係長|かかりちょう}→係長：08212_kakarichou⟧: team leader\n- {課長|かちょう}: section chief\n- ⟦{次長|じちょう}→次長：17780_jichou⟧: deputy department head\n- ⟦{部長|ぶちょう}→部長：01017_buchou⟧: department head\n\nUSAGE AS TITLE:\nUsed after names: ⟦{田中|たなか}→田中：09528_tanaka⟧{課長|かちょう} (Section Chief Tanaka). When addressing directly, use {課長|かちょう} alone or with ⟦さん→〜さん：09848_san⟧ in some companies.\n\nCOMMON EXPRESSIONS:\n- {課長|かちょう}⟦に→に：00314_ni⟧⟦{昇進|しょうしん}→昇進：04553_shoushin⟧⟦する→する：00392_suru⟧: to be promoted to section chief\n- {課長|かちょう}⟦{代理|だいり}→代理：03422_dairi⟧: acting section chief\n- {課長|かちょう}⟦{補佐|ほさ}→補佐：19834_hosa⟧: assistant section chief\n\nUSAGE:\n⟦{課|か}→課：01548_ka⟧ (section) is a subdivision of ⟦{部|ぶ}→〜部：00440_bu⟧ (department).",
   "prominent_see_also": [
     {
       "target_id": "14018_kachou",
@@ -66,11 +66,25 @@
       "reading": "かかりちょう",
       "headword": "{係長|かかりちょう}",
       "label": "team leader (lower rank)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20023_kyokuchou",
+      "reading": "きょくちょう",
+      "headword": "{局長|きょくちょう}",
+      "label": "bureau chief"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23994_fukubuchou",
+      "reading": "ふくぶちょう",
+      "headword": "{副部長|ふくぶちょう}",
+      "label": "deputy department head"
     }
   ],
   "metadata": {
     "created": "2026-01-07T12:10:14Z",
-    "modified": "2026-08-09T12:26:58Z",
+    "modified": "2026-09-02T04:00:58Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

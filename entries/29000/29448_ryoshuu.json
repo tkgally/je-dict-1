@@ -15,41 +15,67 @@
   "examples": [
     {
       "id": "29448_ryoshuu_ex1",
-      "japanese": "{虜囚|りょしゅう}となる。",
+      "japanese": "{虜囚|りょしゅう}⟦と→と：00512_to⟧⟦なる→なる：01970_naru⟧。",
       "english": "to become a captive.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29448_ryoshuu_ex2",
-      "japanese": "{敵|てき}の{虜囚|りょしゅう}として{扱|あつか}われた。",
+      "japanese": "⟦{敵|てき}→敵：03546_teki⟧⟦の→の：09472_no⟧{虜囚|りょしゅう}⟦として→として：06802_toshite⟧⟦{扱|あつか}われた→扱う：01862_atsukau⟧。",
       "english": "He was treated as a captive of the enemy.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29448_ryoshuu_ex3",
-      "japanese": "{長|なが}い{虜囚|りょしゅう}の{身|み}から、ようやく{解放|かいほう}された。",
+      "japanese": "⟦{長|なが}い→長い：00491_nagai⟧{虜囚|りょしゅう}⟦の→の：09472_no⟧⟦{身|み}→身：01764_mi⟧⟦から→から：00504_kara⟧、ようやく⟦{解放|かいほう}→解放：00135_kaihou⟧⟦された→する：00392_suru⟧。",
       "english": "He was finally freed after a long captivity.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A formal, somewhat literary term. In everyday speech {捕虜|ほりょ} is far more common.\n\nCOMMON COLLOCATIONS:\n- {虜囚|りょしゅう}となる: to become a captive\n- {虜囚|りょしゅう}の{身|み}: the status of a captive\n- {虜囚|りょしゅう}{生活|せいかつ}: life in captivity\n\nSIMILAR WORDS:\n- {捕虜|ほりょ}: prisoner of war — the ordinary, neutral word\n- {人質|ひとじち}: hostage — held to force concessions, not captured in battle",
+  "notes": "A formal, somewhat literary term. In everyday speech ⟦{捕虜|ほりょ}→捕虜：20662_horyo⟧ is far more common.\n\nCOMMON COLLOCATIONS:\n- {虜囚|りょしゅう}⟦と→と：00512_to⟧⟦なる→なる：01970_naru⟧: to become a captive\n- {虜囚|りょしゅう}⟦の→の：09472_no⟧⟦{身|み}→身：01764_mi⟧: the status of a captive\n- {虜囚|りょしゅう}⟦{生活|せいかつ}→生活：01443_seikatsu⟧: life in captivity\n\nSIMILAR WORDS:\n- ⟦{捕虜|ほりょ}→捕虜：20662_horyo⟧: prisoner of war — the ordinary, neutral word\n- ⟦{人質|ひとじち}→人質：09678_hitojichi⟧: hostage — held to force concessions, not captured in battle",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20662_horyo",
+      "reading": "ほりょ",
+      "headword": "{捕虜|ほりょ}",
+      "label": "prisoner of war"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09678_hitojichi",
+      "reading": "ひとじち",
+      "headword": "{人質|ひとじち}",
+      "label": "hostage"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
-      "politeness": null,
-      "semantic": ["person"],
+      "politeness": "plain",
+      "semantic": [
+        "person"
+      ],
       "domain": []
     },
     "created": "2026-06-24T00:19:16Z",
-    "modified": "2026-06-24T00:19:16Z"
+    "modified": "2026-09-02T04:02:37Z"
   }
 }

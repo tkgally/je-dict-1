@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "14494_senbatsu_ex1",
-      "japanese": "{選抜|せんばつ}メンバーが{発表|はっぴょう}された。",
+      "japanese": "{選抜|せんばつ}⟦メンバー→メンバー：00275_menbaa⟧⟦が→が：00051_ga⟧⟦{発表|はっぴょう}→発表：03562_happyou⟧⟦された→する：00392_suru⟧。",
       "english": "The selected members were announced.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "14494_senbatsu_ex2",
-      "japanese": "{全国|ぜんこく}から{優秀|ゆうしゅう}な{選手|せんしゅ}が{選抜|せんばつ}された。",
+      "japanese": "⟦{全国|ぜんこく}→全国：03311_zenkoku⟧⟦から→から：00504_kara⟧⟦{優秀|ゆうしゅう}→優秀：03646_yuushuu⟧な⟦{選手|せんしゅ}→選手：03823_senshu⟧⟦が→が：00051_ga⟧{選抜|せんばつ}⟦された→する：00392_suru⟧。",
       "english": "Outstanding athletes were selected from across the country.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "14494_senbatsu_ex3",
-      "japanese": "{春|はる}の{選抜|せんばつ}{高校|こうこう}{野球|やきゅう}{大会|たいかい}は、{毎年|まいとし}{甲子園|こうしえん}で{行|おこな}われる。",
+      "japanese": "⟦{春|はる}→春：00627_haru⟧⟦の→の：09472_no⟧{選抜|せんばつ}⟦{高校|こうこう}{野球|やきゅう}→高校野球：21950_koukouyakyuu⟧⟦{大会|たいかい}→大会：03386_taikai⟧⟦は→は：00079_ha⟧、⟦{毎年|まいとし}→毎年：00731_maitoshi⟧⟦{甲子園|こうしえん}→甲子園：23102_koushien⟧⟦で→で：00502_de⟧⟦{行|おこな}われる→行う：01238_okonau⟧。",
       "english": "The spring invitational high school baseball tournament is held at Koshien every year.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "Implies careful selection of the best from a larger pool. Commonly used for competitive team selection, academic programs, and tournaments.\n\nCOMMON COLLOCATIONS:\n- {選抜|せんばつ}メンバー (selected members)\n- {選抜|せんばつ}{試験|しけん} (selection exam)\n- {選抜|せんばつ}チーム (select team)\n- {選抜|せんばつ}{大会|たいかい} (invitational tournament)\n\nParticularly well known in the context of {選抜|せんばつ}{高校|こうこう}{野球|やきゅう}{大会|たいかい} (Spring Koshien), the spring invitational high school baseball tournament, often referred to simply as {選抜|せんばつ} or {春|はる}の{選抜|せんばつ}.",
+  "notes": "Implies careful selection of the best from a larger pool. Commonly used for competitive team selection, academic programs, and tournaments.\n\nCOMMON COLLOCATIONS:\n- {選抜|せんばつ}⟦メンバー→メンバー：00275_menbaa⟧ (selected members)\n- {選抜|せんばつ}⟦{試験|しけん}→試験：01422_shiken⟧ (selection exam)\n- {選抜|せんばつ}⟦チーム→チーム：03858_chiimu⟧ (select team)\n- {選抜|せんばつ}⟦{大会|たいかい}→大会：03386_taikai⟧ (invitational tournament)\n\nParticularly well known in the context of {選抜|せんばつ}⟦{高校|こうこう}{野球|やきゅう}→高校野球：21950_koukouyakyuu⟧⟦{大会|たいかい}→大会：03386_taikai⟧ (Spring Koshien), the spring invitational high school baseball tournament, often referred to simply as {選抜|せんばつ} or ⟦{春|はる}→春：00627_haru⟧⟦の→の：09472_no⟧{選抜|せんばつ}.",
   "cross_references": [
     {
       "type": "synonym",
@@ -59,11 +59,18 @@
       "reading": "せんしゅつ",
       "headword": "{選出|せんしゅつ}",
       "label": "election, choosing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03774_senkou",
+      "reading": "せんこう",
+      "headword": "{選考|せんこう}",
+      "label": "selection, screening"
     }
   ],
   "metadata": {
     "created": "2026-03-01T12:09:59Z",
-    "modified": "2026-04-30T07:28:10Z",
+    "modified": "2026-09-02T04:01:37Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

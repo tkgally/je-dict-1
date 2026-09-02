@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28926_ryouashi_ex1",
-      "japanese": "{両足|りょうあし}でジャンプする。",
+      "japanese": "{両足|りょうあし}⟦で→で：00502_de⟧⟦ジャンプ→ジャンプ：11051_janpu⟧⟦する→する：00392_suru⟧。",
       "english": "To jump with both feet.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28926_ryouashi_ex2",
-      "japanese": "{両足|りょうあし}を{揃|そろ}えて{座|すわ}ってください。",
+      "japanese": "{両足|りょうあし}⟦を→を：00422_wo⟧⟦{揃|そろ}えて→揃える：01952_soroeru⟧⟦{座|すわ}って→座る：00757_suwaru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please sit with your feet together.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28926_ryouashi_ex3",
-      "japanese": "{長時間|ちょうじかん}{立|た}ちっぱなしだったので、{両足|りょうあし}がパンパンに{張|は}っている。",
+      "japanese": "⟦{長時間|ちょうじかん}→長時間：10165_choujikan⟧⟦{立|た}ち→立つ：00758_tatsu⟧っぱなしだった⟦の→の：09472_no⟧で、{両足|りょうあし}⟦が→が：00051_ga⟧パンパン⟦に→に：00314_ni⟧⟦{張|は}っている→張る：12583_haru⟧。",
       "english": "Because I was standing for a long time, both my legs are tight and swollen.",
       "sense_numbers": [
         1
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {両|りょう} (both) + {足|あし} (foot/leg). The prefix {両|りょう} attaches to paired body parts to mean \"both —\".\n\nCOMMON COLLOCATIONS:\n- {両足|りょうあし}を{揃|そろ}える: to put one's feet together\n- {両足|りょうあし}で{立|た}つ: to stand on both feet\n- {両足|りょうあし}を{広|ひろ}げる: to spread one's legs\n- {両足|りょうあし}{骨折|こっせつ}: fractures in both legs\n\nSIMILAR WORDS:\n- {片足|かたあし}: one foot/leg — paired opposite\n- {両手|りょうて}: both hands — same pattern with hands\n- {両腕|りょううで}: both arms\n- {両肩|りょうかた}: both shoulders",
+  "notes": "Compound of ⟦{両|りょう}→両：11182_ryou⟧ (both) + ⟦{足|あし}→足：00575_ashi⟧ (foot/leg). The prefix ⟦{両|りょう}→両：11182_ryou⟧ attaches to paired body parts to mean \"both —\".\n\nCOMMON COLLOCATIONS:\n- {両足|りょうあし}⟦を→を：00422_wo⟧⟦{揃|そろ}える→揃える：01952_soroeru⟧: to put one's feet together\n- {両足|りょうあし}⟦で→で：00502_de⟧⟦{立|た}つ→立つ：00758_tatsu⟧: to stand on both feet\n- {両足|りょうあし}⟦を→を：00422_wo⟧⟦{広|ひろ}げる→広げる：01981_hirogeru⟧: to spread one's legs\n- {両足|りょうあし}⟦{骨折|こっせつ}→骨折：02763_kossetsu⟧: fractures in both legs\n\nSIMILAR WORDS:\n- {片足|かたあし}: one foot/leg — paired opposite\n- ⟦{両手|りょうて}→両手：09518_ryoute⟧: both hands — same pattern with hands\n- ⟦{両腕|りょううで}→両腕：19455_ryouude⟧: both arms\n- {両肩|りょうかた}: both shoulders",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09518_ryoute",
+      "reading": "りょうて",
+      "headword": "{両手|りょうて}",
+      "label": "both hands"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19455_ryouude",
+      "reading": "りょううで",
+      "headword": "{両腕|りょううで}",
+      "label": "both arms"
+    },
+    {
+      "type": "related",
+      "target_id": "21275_ryoume",
+      "reading": "りょうめ",
+      "headword": "{両目|りょうめ}",
+      "label": "both eyes"
+    },
+    {
+      "type": "related",
+      "target_id": "25207_ryoumimi",
+      "reading": "りょうみみ",
+      "headword": "{両耳|りょうみみ}",
+      "label": "both ears"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +83,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "body-part"
       ],
       "domain": []
     },
     "created": "2026-06-07T03:04:58Z",
-    "modified": "2026-08-09T06:33:11Z"
+    "modified": "2026-09-02T04:02:35Z"
   }
 }

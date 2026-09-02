@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "12616_kouen_ex1",
-      "japanese": "{市|し}の{後援|こうえん}で{開催|かいさい}された。",
+      "japanese": "⟦{市|し}→市：01599_shi⟧⟦の→の：09472_no⟧{後援|こうえん}⟦で→で：00502_de⟧⟦{開催|かいさい}→開催：10457_kaisai⟧⟦された→する：00392_suru⟧。",
       "english": "It was held with the city's sponsorship.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "12616_kouen_ex2",
-      "japanese": "{後援|こうえん}{会|かい}が{設立|せつりつ}された。",
+      "japanese": "{後援|こうえん}{会|かい}⟦が→が：00051_ga⟧⟦{設立|せつりつ}→設立：14171_setsuritsu⟧⟦された→する：00392_suru⟧。",
       "english": "A support group was established.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "12616_kouen_ex3",
-      "japanese": "{地元|じもと}の{企業|きぎょう}が{後援|こうえん}してくれたおかげで、イベントが{実現|じつげん}した。",
+      "japanese": "⟦{地元|じもと}→地元：09941_jimoto⟧⟦の→の：09472_no⟧⟦{企業|きぎょう}→企業：00225_kigyou⟧⟦が→が：00051_ga⟧{後援|こうえん}⟦して→する：00392_suru⟧⟦くれた→くれる：00724_kureru⟧⟦おかげ→おかげ：01362_okage⟧で、⟦イベント→イベント：09594_ibento⟧⟦が→が：00051_ga⟧⟦{実現|じつげん}→実現：03276_jitsugen⟧⟦した→する：00392_suru⟧。",
       "english": "Thanks to sponsorship from local businesses, the event became a reality.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,47 @@
       ]
     }
   ],
-  "notes": "{後援|こうえん} refers to backing or sponsorship, typically by an organization, company, or influential person.\n\nCOMMON EXPRESSIONS:\n- {後援|こうえん}{会|かい}: support group, fan club (especially for politicians)\n- {後援|こうえん}する: to sponsor, to back\n- {後援|こうえん}{団体|だんたい}: sponsoring organization\n\nSIMILAR WORDS:\n- {後援|こうえん}: backing, sponsorship (institutional, from behind the scenes)\n- {支援|しえん}: support, assistance (broader, includes direct help)\n- {援助|えんじょ}: aid, assistance (often financial or material)\n- {協賛|きょうさん}: co-sponsorship (listed alongside organizers)\n\nNOTE:\nOn event posters and flyers in Japan, {後援|こうえん} commonly appears in the credits section, listing organizations that provided backing.",
-  "cross_references": [],
+  "notes": "{後援|こうえん} refers to backing or sponsorship, typically by an organization, company, or influential person.\n\nCOMMON EXPRESSIONS:\n- {後援|こうえん}{会|かい}: support group, fan club (especially for politicians)\n- {後援|こうえん}⟦する→する：00392_suru⟧: to sponsor, to back\n- {後援|こうえん}⟦{団体|だんたい}→団体：03426_dantai⟧: sponsoring organization\n\nSIMILAR WORDS:\n- {後援|こうえん}: backing, sponsorship (institutional, from behind the scenes)\n- ⟦{支援|しえん}→支援：07778_shien⟧: support, assistance (broader, includes direct help)\n- ⟦{援助|えんじょ}→援助：01892_enjo⟧: aid, assistance (often financial or material)\n- ⟦{協賛|きょうさん}→協賛：19226_kyousan⟧: co-sponsorship (listed alongside organizers)\n\nUSAGE:\nOn event posters and flyers in Japan, {後援|こうえん} commonly appears in the credits section, listing organizations that provided backing.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07778_shien",
+      "reading": "しえん",
+      "headword": "{支援|しえん}",
+      "label": "support, assistance"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01892_enjo",
+      "reading": "えんじょ",
+      "headword": "{援助|えんじょ}",
+      "label": "aid, assistance"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19226_kyousan",
+      "reading": "きょうさん",
+      "headword": "{協賛|きょうさん}",
+      "label": "co-sponsorship"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16911_sanjo",
+      "reading": "さんじょ",
+      "headword": "{賛助|さんじょ}",
+      "label": "support"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18790_kyousai",
+      "reading": "きょうさい",
+      "headword": "{共催|きょうさい}",
+      "label": "co-hosting"
+    }
+  ],
   "metadata": {
     "created": "2026-02-22T04:30:50Z",
-    "modified": "2026-03-29T03:07:35Z",
+    "modified": "2026-09-02T04:01:29Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

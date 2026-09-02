@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "15980_aidoku_ex1",
-      "japanese": "この{雑誌|ざっし}を{愛読|あいどく}している。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{雑誌|ざっし}→雑誌：00686_zasshi⟧⟦を→を：00422_wo⟧{愛読|あいどく}⟦している→する：00392_suru⟧。",
       "english": "I'm a devoted reader of this magazine.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "15980_aidoku_ex2",
-      "japanese": "{彼|かれ}は{子供|こども}の{頃|ころ}からその{作家|さっか}の{本|ほん}を{愛読|あいどく}してきた。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{子供|こども}→子供：00554_kodomo⟧⟦の→の：09472_no⟧{頃|ころ}⟦から→から：00504_kara⟧⟦その→その：00993_sono⟧⟦{作家|さっか}→作家：01414_sakka⟧⟦の→の：09472_no⟧{本|ほん}⟦を→を：00422_wo⟧{愛読|あいどく}してきた。",
       "english": "He has been an avid reader of that author's books since childhood.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "15980_aidoku_ex3",
-      "japanese": "{祖母|そぼ}が{愛読|あいどく}していた{小説|しょうせつ}を{本棚|ほんだな}で{見|み}つけた。",
+      "japanese": "⟦{祖母|そぼ}→祖母：00813_sobo⟧⟦が→が：00051_ga⟧{愛読|あいどく}⟦していた→する：00392_suru⟧⟦{小説|しょうせつ}→小説：01434_shousetsu⟧⟦を→を：00422_wo⟧⟦{本棚|ほんだな}→本棚：04489_hondana⟧⟦で→で：00502_de⟧⟦{見|み}つけた→見つける：01180_mitsukeru⟧。",
       "english": "I found the novel that my grandmother used to love reading on the bookshelf.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nMost commonly used with する as {愛読|あいどく}する. The object is typically a specific book, author, magazine, or newspaper that one reads regularly and with enjoyment.\n\nCOMMON COLLOCATIONS:\n- {愛読|あいどく}する (to read with pleasure, to be a devoted reader of)\n- {愛読|あいどく}{書|しょ} (favorite book)\n- {愛読|あいどく}{者|しゃ} (devoted reader, regular reader)\n\nSIMILAR WORDS:\n- {読書|どくしょ}: reading in general, without the nuance of special fondness\n- {熟読|じゅくどく}: reading carefully and thoroughly, focusing on comprehension rather than enjoyment",
+  "notes": "USAGE:\nMost commonly used with ⟦する→する：00392_suru⟧ as {愛読|あいどく}⟦する→する：00392_suru⟧. The object is typically a specific book, author, magazine, or newspaper that one reads regularly and with enjoyment.\n\nCOMMON COLLOCATIONS:\n- {愛読|あいどく}⟦する→する：00392_suru⟧ (to read with pleasure, to be a devoted reader of)\n- {愛読|あいどく}{書|しょ} (favorite book)\n- {愛読|あいどく}⟦{者|しゃ}→〜者：04662_sha⟧ (devoted reader, regular reader)\n\nSIMILAR WORDS:\n- ⟦{読書|どくしょ}→読書：03484_dokusho⟧: reading in general, without the nuance of special fondness\n- ⟦{熟読|じゅくどく}→熟読：17535_jukudoku⟧: reading carefully and thoroughly, focusing on comprehension rather than enjoyment",
   "cross_references": [
     {
       "type": "related",
@@ -149,11 +149,18 @@
       "reading": "じゅくどく",
       "headword": "{熟読|じゅくどく}",
       "label": "careful reading"
+    },
+    {
+      "type": "related",
+      "target_id": "15421_aidokusho",
+      "reading": "あいどくしょ",
+      "headword": "{愛読書|あいどくしょ}",
+      "label": "favorite book"
     }
   ],
   "metadata": {
     "created": "2026-03-09T06:11:44Z",
-    "modified": "2026-05-02T09:03:34Z",
+    "modified": "2026-09-02T04:01:43Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -166,7 +173,8 @@
       "semantic": [
         "leisure"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

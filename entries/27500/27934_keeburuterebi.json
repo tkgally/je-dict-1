@@ -15,41 +15,68 @@
   "examples": [
     {
       "id": "27934_keeburuterebi_ex1",
-      "japanese": "ケーブルテレビに{加入|かにゅう}した。",
+      "japanese": "ケーブルテレビ⟦に→に：00314_ni⟧⟦{加入|かにゅう}した→加入する：22671_kanyuusuru⟧。",
       "english": "I subscribed to cable TV.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27934_keeburuterebi_ex2",
-      "japanese": "ケーブルテレビで{地元|じもと}の{番組|ばんぐみ}が{見|み}られる。",
+      "japanese": "ケーブルテレビ⟦で→で：00502_de⟧⟦{地元|じもと}→地元：09941_jimoto⟧⟦の→の：09472_no⟧⟦{番組|ばんぐみ}→番組：01705_bangumi⟧⟦が→が：00051_ga⟧⟦{見|み}られる→見る：00283_miru⟧。",
       "english": "You can watch local programs on cable TV.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27934_keeburuterebi_ex3",
-      "japanese": "この{地域|ちいき}は{電波|でんぱ}が{弱|よわ}いので、ケーブルテレビを{契約|けいやく}している{家|いえ}が{多|おお}い。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{地域|ちいき}→地域：01461_chiiki⟧⟦は→は：00079_ha⟧⟦{電波|でんぱ}→電波：04070_denpa⟧⟦が→が：00051_ga⟧⟦{弱|よわ}い→弱い：00825_yowai⟧⟦の→の：09472_no⟧で、ケーブルテレビ⟦を→を：00422_wo⟧⟦{契約|けいやく}→契約：02698_keiyaku⟧⟦している→する：00392_suru⟧⟦{家|いえ}→家：00612_ie⟧⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "Reception is weak in this area, so many households subscribe to cable TV.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "From English \"cable TV,\" sometimes abbreviated CATV. In Japan it is valued in mountainous or remote areas where over-the-air signals are weak, as well as for local community channels.\n\nCOMMON COLLOCATIONS:\n- ケーブルテレビに{加入|かにゅう}する: to subscribe to cable TV\n- ケーブルテレビ{局|きょく}: cable TV station\n\nSIMILAR WORDS:\n- {地上波|ちじょうは}: terrestrial (over-the-air) broadcasting\n- {衛星|えいせい}{放送|ほうそう}: satellite broadcasting",
+  "notes": "From English \"cable TV,\" sometimes abbreviated CATV. In Japan it is valued in mountainous or remote areas where over-the-air signals are weak, as well as for local community channels.\n\nCOMMON COLLOCATIONS:\n- ケーブルテレビ⟦に→に：00314_ni⟧⟦{加入|かにゅう}する→加入する：22671_kanyuusuru⟧: to subscribe to cable TV\n- ケーブルテレビ{局|きょく}: cable TV station\n\nSIMILAR WORDS:\n- ⟦{地上波|ちじょうは}→地上波：27732_chijouha⟧: terrestrial (over-the-air) broadcasting\n- ⟦{衛星|えいせい}→衛星：01880_eisei⟧⟦{放送|ほうそう}→放送：02093_housou⟧: satellite broadcasting",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "27732_chijouha",
+      "reading": "ちじょうは",
+      "headword": "{地上波|ちじょうは}",
+      "label": "terrestrial (over-the-air) broadcasting"
+    },
+    {
+      "type": "related",
+      "target_id": "01536_terebi",
+      "reading": "てれび",
+      "headword": "テレビ",
+      "label": "television"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["media", "technology"],
+      "politeness": "plain",
+      "semantic": [
+        "media",
+        "technology"
+      ],
       "domain": []
     },
     "created": "2026-05-23T03:06:48Z",
-    "modified": "2026-05-23T03:06:48Z"
+    "modified": "2026-09-02T04:02:32Z"
   }
 }

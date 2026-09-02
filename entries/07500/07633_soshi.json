@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "07633_soshi_ex1",
-      "japanese": "{犯罪|はんざい}を{阻止|そし}する。",
+      "japanese": "⟦{犯罪|はんざい}→犯罪：03569_hanzai⟧⟦を→を：00422_wo⟧{阻止|そし}⟦する→する：00392_suru⟧。",
       "english": "To prevent a crime.",
       "has_audio": false,
       "sense_numbers": [
@@ -113,7 +113,7 @@
     },
     {
       "id": "07633_soshi_ex2",
-      "japanese": "{計画|けいかく}の{阻止|そし}に{失敗|しっぱい}した。",
+      "japanese": "⟦{計画|けいかく}→計画：01172_keikaku⟧⟦の→の：09472_no⟧{阻止|そし}⟦に→に：00314_ni⟧⟦{失敗|しっぱい}→失敗：01636_shippai⟧⟦した→する：00392_suru⟧。",
       "english": "We failed to stop the plan.",
       "has_audio": false,
       "sense_numbers": [
@@ -122,7 +122,7 @@
     },
     {
       "id": "07633_soshi_ex3",
-      "japanese": "{市民|しみん}は{開発|かいはつ}を{阻止|そし}するためにデモを{行|おこな}った。",
+      "japanese": "⟦{市民|しみん}→市民：01426_shimin⟧⟦は→は：00079_ha⟧⟦{開発|かいはつ}→開発：06746_kaihatsu⟧⟦を→を：00422_wo⟧{阻止|そし}⟦する→する：00392_suru⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧⟦デモ→デモ：19416_demo⟧⟦を→を：00422_wo⟧⟦{行|おこな}った→行う：01238_okonau⟧。",
       "english": "Citizens held a demonstration to stop the development.",
       "has_audio": false,
       "sense_numbers": [
@@ -130,7 +130,7 @@
       ]
     }
   ],
-  "notes": "COMMON COLLOCATIONS:\n・{犯罪|はんざい}を{阻止|そし}する - to prevent a crime\n・{計画|けいかく}を{阻止|そし}する - to stop a plan\n・{侵入|しんにゅう}を{阻止|そし}する - to prevent intrusion\n・{進行|しんこう}を{阻止|そし}する - to stop the progress\n\nNUANCE:\n{阻止|そし} emphasizes the act of stopping or preventing something from happening, while {妨害|ぼうがい} emphasizes interference or obstruction.\n\nRELATED WORDS:\n・{妨害|ぼうがい} - obstruction, interference\n・{抑止|よくし} - deterrence (preventing through threat)\n・{防止|ぼうし} - prevention (more general)",
+  "notes": "COMMON COLLOCATIONS:\n- ⟦{犯罪|はんざい}→犯罪：03569_hanzai⟧⟦を→を：00422_wo⟧{阻止|そし}⟦する→する：00392_suru⟧ - to prevent a crime\n- ⟦{計画|けいかく}→計画：01172_keikaku⟧⟦を→を：00422_wo⟧{阻止|そし}⟦する→する：00392_suru⟧ - to stop a plan\n- ⟦{侵入|しんにゅう}→侵入：11440_shinnyuu⟧⟦を→を：00422_wo⟧{阻止|そし}⟦する→する：00392_suru⟧ - to prevent intrusion\n- ⟦{進行|しんこう}→進行：03686_shinkou⟧⟦を→を：00422_wo⟧{阻止|そし}⟦する→する：00392_suru⟧ - to stop the progress\n\nUSAGE:\n{阻止|そし} emphasizes the act of stopping or preventing something from happening, while ⟦{妨害|ぼうがい}→妨害：07632_bougai⟧ emphasizes interference or obstruction.\n\nRELATED WORDS:\n- ⟦{妨害|ぼうがい}→妨害：07632_bougai⟧ - obstruction, interference\n- ⟦{抑止|よくし}→抑止：07985_yokushi⟧ - deterrence (preventing through threat)\n- ⟦{防止|ぼうし}→防止：14571_boushi⟧ - prevention (more general)",
   "cross_references": [
     {
       "type": "related",
@@ -138,11 +138,25 @@
       "headword": "{妨害|ぼうがい}",
       "label": "obstruction",
       "target_id": "07632_bougai"
+    },
+    {
+      "type": "related",
+      "target_id": "07985_yokushi",
+      "reading": "よくし",
+      "headword": "{抑止|よくし}",
+      "label": "deterrence"
+    },
+    {
+      "type": "related",
+      "target_id": "14571_boushi",
+      "reading": "ぼうし",
+      "headword": "{防止|ぼうし}",
+      "label": "prevention"
     }
   ],
   "metadata": {
     "created": "2026-01-20T13:21:59Z",
-    "modified": "2026-08-11T09:37:41Z",
+    "modified": "2026-09-02T04:01:12Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -151,11 +165,13 @@
         "verb-suru"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "action"
       ],
       "domain": [],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

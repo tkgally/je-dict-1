@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "12706_okite_ex1",
-      "japanese": "{村|むら}の{掟|おきて}を{破|やぶ}った。",
+      "japanese": "⟦{村|むら}→村：02261_mura⟧⟦の→の：09472_no⟧{掟|おきて}⟦を→を：00422_wo⟧⟦{破|やぶ}った→破る：02321_yaburu⟧。",
       "english": "He broke the village's rules.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "12706_okite_ex2",
-      "japanese": "この{世界|せかい}には{暗黙|あんもく}の{掟|おきて}がある。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{世界|せかい}→世界：01447_sekai⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{暗黙|あんもく}→暗黙：12876_anmoku⟧⟦の→の：09472_no⟧{掟|おきて}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There are unspoken rules in this world.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "12706_okite_ex3",
-      "japanese": "{組織|そしき}の{掟|おきて}に{背|そむ}いた{者|もの}は、{厳|きび}しい{処分|しょぶん}を{受|う}ける。",
+      "japanese": "⟦{組織|そしき}→組織：03320_soshiki⟧⟦の→の：09472_no⟧{掟|おきて}⟦に→に：00314_ni⟧⟦{背|そむ}いた→背く：19577_somuku⟧⟦{者|もの}→者：12734_mono⟧⟦は→は：00079_ha⟧、⟦{厳|きび}しい→厳しい：01125_kibishii⟧⟦{処分|しょぶん}→処分：05520_shobun⟧⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧。",
       "english": "Those who defy the organization's code face severe punishment.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,40 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{掟|おきて} refers to rules that are often unwritten, traditional, or enforced within a specific community rather than by formal legal systems. It appears frequently in historical or dramatic contexts — samurai codes, village laws, underworld rules. In modern usage, it can refer metaphorically to any strict unwritten norm.\n\nCOMMON COLLOCATIONS:\n- {掟|おきて}を{破|やぶ}る: to break a rule/code\n- {掟|おきて}に{背|そむ}く: to defy the rules\n- {掟|おきて}を{守|まも}る: to observe the rules\n- {暗黙|あんもく}の{掟|おきて}: unspoken rule\n\nSIMILAR WORDS:\n- {規則|きそく}: rule, regulation (formal, institutional)\n- {法律|ほうりつ}: law (legal system)\n- しきたり: custom, tradition (emphasis on established practice)",
-  "cross_references": [],
+  "notes": "USAGE:\n{掟|おきて} refers to rules that are often unwritten, traditional, or enforced within a specific community rather than by formal legal systems. It appears frequently in historical or dramatic contexts — samurai codes, village laws, underworld rules. In modern usage, it can refer metaphorically to any strict unwritten norm.\n\nCOMMON COLLOCATIONS:\n- {掟|おきて}⟦を→を：00422_wo⟧⟦{破|やぶ}る→破る：02321_yaburu⟧: to break a rule/code\n- {掟|おきて}⟦に→に：00314_ni⟧⟦{背|そむ}く→背く：19577_somuku⟧: to defy the rules\n- {掟|おきて}⟦を→を：00422_wo⟧⟦{守|まも}る→守る：01986_mamoru⟧: to observe the rules\n- ⟦{暗黙|あんもく}→暗黙：12876_anmoku⟧⟦の→の：09472_no⟧{掟|おきて}: unspoken rule\n\nSIMILAR WORDS:\n- ⟦{規則|きそく}→規則：01382_kisoku⟧: rule, regulation (formal, institutional)\n- ⟦{法律|ほうりつ}→法律：01722_houritsu⟧: law (legal system)\n- ⟦しきたり→しきたり：14951_shikitari⟧: custom, tradition (emphasis on established practice)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01382_kisoku",
+      "reading": "きそく",
+      "headword": "{規則|きそく}",
+      "label": "rule, regulation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01722_houritsu",
+      "reading": "ほうりつ",
+      "headword": "{法律|ほうりつ}",
+      "label": "law"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14951_shikitari",
+      "reading": "しきたり",
+      "headword": "しきたり",
+      "label": "custom, tradition"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22203_kairitsu",
+      "reading": "かいりつ",
+      "headword": "{戒律|かいりつ}",
+      "label": "religious precepts"
+    }
+  ],
   "metadata": {
     "created": "2026-02-22T06:17:23Z",
-    "modified": "2026-04-27T07:31:57Z",
+    "modified": "2026-09-02T04:01:30Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

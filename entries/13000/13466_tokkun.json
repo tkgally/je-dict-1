@@ -3,7 +3,7 @@
   "id": "13466_tokkun",
   "headword": "{特訓|とっくん}",
   "reading": "とっくん",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "special training, intensive drill",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "13466_tokkun_ex1",
-      "japanese": "{夏休|なつやす}みに{特訓|とっくん}を{受|う}けた。",
+      "japanese": "⟦{夏休|なつやす}み→夏休み：02925_natsuyasumi⟧⟦に→に：00314_ni⟧{特訓|とっくん}⟦を→を：00422_wo⟧⟦{受|う}けた→受ける：01215_ukeru⟧。",
       "english": "I underwent special training during summer break.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "13466_tokkun_ex2",
-      "japanese": "{試合|しあい}{前|まえ}にコーチから{特訓|とっくん}を{受|う}けている。",
+      "japanese": "⟦{試合|しあい}→試合：01601_shiai⟧⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧⟦コーチ→コーチ：03844_koochi⟧⟦から→から：00504_kara⟧{特訓|とっくん}⟦を→を：00422_wo⟧⟦{受|う}けている→受ける：01215_ukeru⟧。",
       "english": "I am receiving intensive training from my coach before the match.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "13466_tokkun_ex3",
-      "japanese": "プレゼンが{苦手|にがて}なので、{先輩|せんぱい}に{頼|たの}んで{特訓|とっくん}してもらった。",
+      "japanese": "⟦プレゼン→プレゼン：05505_purezen⟧⟦が→が：00051_ga⟧⟦{苦手|にがて}→苦手：03513_nigate⟧な⟦の→の：09472_no⟧で、⟦{先輩|せんぱい}→先輩：01451_senpai⟧⟦に→に：00314_ni⟧⟦{頼|たの}んで→頼む：01104_tanomu⟧{特訓|とっくん}⟦して→する：00392_suru⟧⟦もらった→もらう：00520_morau⟧。",
       "english": "Since I'm bad at presentations, I asked a senior colleague to put me through intensive practice.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nUsed as a noun or with する as a verb. Implies training that is more intensive, focused, or demanding than regular practice. Common in sports, academics, and skill-building contexts. Often has an enthusiastic or determined tone.\n\nCOMMON COLLOCATIONS:\n- {特訓|とっくん}を{受|う}ける: to undergo special training\n- {特訓|とっくん}する: to do intensive training\n- {猛|もう}{特訓|とっくん}: fierce/grueling special training\n- {特訓|とっくん}{合宿|がっしゅく}: intensive training camp",
+  "notes": "USAGE:\nUsed as a noun or with ⟦する→する：00392_suru⟧ as a verb. Implies training that is more intensive, focused, or demanding than regular practice. Common in sports, academics, and skill-building contexts. Often has an enthusiastic or determined tone.\n\nCOMMON COLLOCATIONS:\n- {特訓|とっくん}⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧: to undergo special training\n- {特訓|とっくん}⟦する→する：00392_suru⟧: to do intensive training\n- {猛|もう}{特訓|とっくん}: fierce/grueling special training\n- {特訓|とっくん}⟦{合宿|がっしゅく}→合宿：11901_gasshuku⟧: intensive training camp",
   "cross_references": [
     {
       "type": "related",
@@ -149,11 +149,25 @@
       "reading": "れんしゅう",
       "headword": "{練習|れんしゅう}",
       "label": "practice"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22991_renshuusuru",
+      "reading": "れんしゅうする",
+      "headword": "{練習|れんしゅう}する",
+      "label": "to practice"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24820_mourenshuu",
+      "reading": "もうれんしゅう",
+      "headword": "{猛練習|もうれんしゅう}",
+      "label": "intensive practice"
     }
   ],
   "metadata": {
     "created": "2026-02-24T13:29:04Z",
-    "modified": "2026-07-10T04:36:00Z",
+    "modified": "2026-09-02T04:01:33Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

@@ -2,7 +2,7 @@
   "id": "09988_torimotsu",
   "headword": "{取|と}り{持|も}つ",
   "reading": "とりもつ",
-  "part_of_speech": "godan verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to mediate, to act as go-between, to introduce",
   "conjugation": {
     "type": "godan",
@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "09988_torimotsu_ex1",
-      "japanese": "{縁|えん}を{取|と}り{持|も}つ。",
+      "japanese": "⟦{縁|えん}→縁：02182_en⟧⟦を→を：00422_wo⟧{取|と}り{持|も}つ。",
       "english": "To act as a matchmaker.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "09988_torimotsu_ex2",
-      "japanese": "{友人|ゆうじん}が{二人|ふたり}の{仲|なか}を{取|と}り{持|も}ってくれた。",
+      "japanese": "⟦{友人|ゆうじん}→友人：03649_yuujin⟧⟦が→が：00051_ga⟧⟦{二人|ふたり}→二人：00622_futari⟧⟦の→の：09472_no⟧⟦{仲|なか}→仲：09513_naka⟧⟦を→を：00422_wo⟧{取|と}り{持|も}って⟦くれた→くれる：00724_kureru⟧。",
       "english": "A friend acted as go-between for the two of them.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "09988_torimotsu_ex3",
-      "japanese": "{会社|かいしゃ}{同士|どうし}の{取引|とりひき}を{取|と}り{持|も}つ{役割|やくわり}を{果|は}たした。",
+      "japanese": "⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦{同士|どうし}→同士：03474_doushi⟧⟦の→の：09472_no⟧⟦{取引|とりひき}→取引：04700_torihiki⟧⟦を→を：00422_wo⟧{取|と}り{持|も}つ⟦{役割|やくわり}→役割：03638_yakuwari⟧⟦を→を：00422_wo⟧⟦{果|は}たした→果たす：10060_hatasu⟧。",
       "english": "I played the role of mediating business deals between companies.",
       "notes": null,
       "has_audio": false,
@@ -133,11 +133,40 @@
       ]
     }
   ],
-  "notes": "{取|と}り{持|も}つ means to act as an intermediary between parties.\n\nTRANSITIVITY:\n- Type: {他動詞|たどうし} (transitive)\n- Pattern: Xを{取|と}り{持|も}つ / Xの{間|あいだ}を{取|と}り{持|も}つ\n\nCOMMON PATTERNS:\n- {縁|えん}を{取|と}り{持|も}つ: to play matchmaker\n- {仲|なか}を{取|と}り{持|も}つ: to mediate between parties\n- {間|あいだ}を{取|と}り{持|も}つ: to act as go-between\n\nRELATED EXPRESSIONS:\n- {仲介|ちゅうかい}する: to mediate (more formal)\n- {橋渡|はしわた}しをする: to bridge (figurative)\n- {斡旋|あっせん}する: to arrange, to introduce",
-  "cross_references": [],
+  "notes": "{取|と}り{持|も}つ means to act as an intermediary between parties.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- Pattern: X⟦を→を：00422_wo⟧{取|と}り{持|も}つ / X⟦の→の：09472_no⟧⟦{間|あいだ}→間：00914_aida⟧⟦を→を：00422_wo⟧{取|と}り{持|も}つ\n\nCOMMON PATTERNS:\n- ⟦{縁|えん}→縁：02182_en⟧⟦を→を：00422_wo⟧{取|と}り{持|も}つ: to play matchmaker\n- ⟦{仲|なか}→仲：09513_naka⟧⟦を→を：00422_wo⟧{取|と}り{持|も}つ: to mediate between parties\n- ⟦{間|あいだ}→間：00914_aida⟧⟦を→を：00422_wo⟧{取|と}り{持|も}つ: to act as go-between\n\nRELATED WORDS:\n- ⟦{仲介|ちゅうかい}する→仲介する：21383_chuukai⟧: to mediate (more formal)\n- ⟦{橋渡|はしわた}し→橋渡し：09606_hashiwatashi⟧⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧: to bridge (figurative)\n- ⟦{斡旋|あっせん}→斡旋：09978_assen⟧⟦する→する：00392_suru⟧: to arrange, to introduce",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "09718_chuukai",
+      "reading": "ちゅうかい",
+      "headword": "{仲介|ちゅうかい}",
+      "label": "to mediate"
+    },
+    {
+      "type": "related",
+      "target_id": "09978_assen",
+      "reading": "あっせん",
+      "headword": "{斡旋|あっせん}",
+      "label": "to arrange, to introduce"
+    },
+    {
+      "type": "related",
+      "target_id": "09606_hashiwatashi",
+      "reading": "はしわたし",
+      "headword": "{橋渡|はしわた}し",
+      "label": "mediation, bridging, acting as a go-between"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21383_chuukai",
+      "reading": "ちゅうかい",
+      "headword": "{仲介|ちゅうかい}する",
+      "label": "to mediate"
+    }
+  ],
   "metadata": {
     "created": "2026-02-04T12:10:07Z",
-    "modified": "2026-03-29T03:05:07Z",
+    "modified": "2026-09-02T04:01:19Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

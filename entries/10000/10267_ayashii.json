@@ -19,7 +19,7 @@
   "examples": [
     {
       "id": "10267_ayashii_ex1",
-      "japanese": "{怪|あや}しい{人|ひと}がいる。",
+      "japanese": "{怪|あや}しい⟦{人|ひと}→人：00476_hito⟧⟦が→が：00051_ga⟧⟦いる→いる：00495_iru⟧。",
       "english": "There's a suspicious person.",
       "notes": null,
       "has_audio": false,
@@ -29,7 +29,7 @@
     },
     {
       "id": "10267_ayashii_ex2",
-      "japanese": "あの{男|おとこ}の{態度|たいど}が{怪|あや}しい。",
+      "japanese": "⟦あの→あの：00915_ano⟧⟦{男|おとこ}→男：00561_otoko⟧⟦の→の：09472_no⟧⟦{態度|たいど}→態度：03396_taido⟧⟦が→が：00051_ga⟧{怪|あや}しい。",
       "english": "That man's behavior is suspicious.",
       "notes": null,
       "has_audio": false,
@@ -39,7 +39,7 @@
     },
     {
       "id": "10267_ayashii_ex3",
-      "japanese": "{夜道|よみち}で{怪|あや}しい{物音|ものおと}が{聞|き}こえた。",
+      "japanese": "⟦{夜道|よみち}→夜道：17541_yomichi⟧⟦で→で：00502_de⟧{怪|あや}しい⟦{物音|ものおと}→物音：03633_monooto⟧⟦が→が：00051_ga⟧⟦{聞|き}こえた→聞こえる：01229_kikoeru⟧。",
       "english": "I heard a suspicious sound on the dark street at night.",
       "notes": null,
       "has_audio": false,
@@ -49,7 +49,7 @@
     },
     {
       "id": "10267_ayashii_ex4",
-      "japanese": "{天気|てんき}が{怪|あや}しい。",
+      "japanese": "⟦{天気|てんき}→天気：00582_tenki⟧⟦が→が：00051_ga⟧{怪|あや}しい。",
       "english": "The weather looks iffy.",
       "notes": null,
       "has_audio": false,
@@ -59,7 +59,7 @@
     },
     {
       "id": "10267_ayashii_ex5",
-      "japanese": "その{話|はなし}は{怪|あや}しいと{思|おも}う。",
+      "japanese": "⟦その→その：00993_sono⟧⟦{話|はなし}→話：01496_hanashi⟧⟦は→は：00079_ha⟧{怪|あや}しい⟦と→と：00512_to⟧⟦{思|おも}う→思う：00492_omou⟧。",
       "english": "I think that story is dubious.",
       "notes": null,
       "has_audio": false,
@@ -69,7 +69,7 @@
     },
     {
       "id": "10267_ayashii_ex6",
-      "japanese": "{彼|かれ}の{日本語|にほんご}は{怪|あや}しいけど、{一生懸命|いっしょうけんめい}{話|はな}している。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧⟦{日本語|にほんご}→日本語：00614_nihongo⟧⟦は→は：00079_ha⟧{怪|あや}しい⟦けど→けど：09477_kedo⟧、⟦{一生懸命|いっしょうけんめい}→一生懸命：01280_isshoukenmei⟧⟦{話|はな}している→話す：00467_hanasu⟧。",
       "english": "His Japanese is shaky, but he's trying hard to speak.",
       "notes": null,
       "has_audio": false,
@@ -78,7 +78,7 @@
       ]
     }
   ],
-  "notes": "FORMS: {怪|あや}しく (adverbial), {怪|あや}しさ (noun form).\n\nSense 1 covers people, behavior, and situations that arouse suspicion. Sense 2 covers things that are unreliable or of questionable quality — often used for weather, skills, or claims.\n\nCOMMON COLLOCATIONS:\n- {怪|あや}しい{人|ひと} — suspicious person\n- {怪|あや}しい{動|うご}き — suspicious movement\n- {怪|あや}しい{雲行|くもゆ}き — ominous clouds; uncertain outlook\n- {日本語|にほんご}が{怪|あや}しい — one's Japanese is shaky\n\nSIMILAR WORDS: {疑|うたが}わしい focuses on doubt or disbelief, while {怪|あや}しい carries a nuance of something being creepy, off, or unreliable.",
+  "notes": "FORMS: {怪|あや}しく (adverbial), {怪|あや}しさ (noun form).\n\nSense 1 covers people, behavior, and situations that arouse suspicion. Sense 2 covers things that are unreliable or of questionable quality — often used for weather, skills, or claims.\n\nCOMMON COLLOCATIONS:\n- {怪|あや}しい⟦{人|ひと}→人：00476_hito⟧ — suspicious person\n- {怪|あや}しい⟦{動|うご}き→動き：11926_ugoki⟧ — suspicious movement\n- {怪|あや}しい⟦{雲行|くもゆ}き→雲行き：18285_kumoyuki⟧ — ominous clouds; uncertain outlook\n- ⟦{日本語|にほんご}→日本語：00614_nihongo⟧⟦が→が：00051_ga⟧{怪|あや}しい — one's Japanese is shaky\n\nSIMILAR WORDS: ⟦{疑|うたが}わしい→疑わしい：13582_utagawashii⟧ focuses on doubt or disbelief, while {怪|あや}しい carries a nuance of something being creepy, off, or unreliable.",
   "cross_references": [
     {
       "type": "synonym",
@@ -93,11 +93,32 @@
       "reading": "ふしん",
       "headword": "{不審|ふしん}",
       "label": "suspicious (formal)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17439_kyodoufushin",
+      "reading": "きょどうふしん",
+      "headword": "{挙動|きょどう}{不審|ふしん}",
+      "label": "suspicious behavior"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28820_mayutsuba",
+      "reading": "まゆつば",
+      "headword": "{眉唾|まゆつば}",
+      "label": "dubious story"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28993_usoppoi",
+      "reading": "うそっぽい",
+      "headword": "{嘘|うそ}っぽい",
+      "label": "fishy"
     }
   ],
   "metadata": {
     "created": "2026-02-05T18:03:12Z",
-    "modified": "2026-04-24T06:24:12Z",
+    "modified": "2026-09-02T04:01:20Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

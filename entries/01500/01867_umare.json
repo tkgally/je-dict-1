@@ -64,7 +64,7 @@
     },
     {
       "id": "01867_umare_ex5",
-      "japanese": "{生|う}まれながら⟦の→の：09472_no⟧⟦{才能|さいのう}→才能：02772_sainou⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
+      "japanese": "{生|う}まれ⟦ながら→ながら：10530_nagara⟧⟦の→の：09472_no⟧⟦{才能|さいのう}→才能：02772_sainou⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "To have innate talent.",
       "notes": null,
       "has_audio": false,
@@ -84,7 +84,7 @@
     },
     {
       "id": "01867_umare_ex7",
-      "japanese": "⟦{田舎|いなか}→田舎：01320_inaka⟧{生|う}まれなので、⟦{自然|しぜん}→自然：01423_shizen⟧⟦が→が：00051_ga⟧⟦{好|す}きだ→好き：02355_suki⟧。",
+      "japanese": "⟦{田舎|いなか}→田舎：01320_inaka⟧{生|う}まれな⟦の→の：09472_no⟧で、⟦{自然|しぜん}→自然：01423_shizen⟧⟦が→が：00051_ga⟧⟦{好|す}きだ→好き：02355_suki⟧。",
       "english": "Since I was born in the countryside, I love nature.",
       "notes": null,
       "has_audio": false,
@@ -113,11 +113,26 @@
       ]
     }
   ],
-  "notes": "{生|う}まれ is the noun form of ⟦{生|う}まれる→生まれる：00905_umareru⟧ (to be born). It is commonly used to state one's birthplace or birth year in self-introductions.\n\nCOMMON PATTERNS:\n- 〜{生|う}まれ: born in ~ (place or year)\n- {生|う}まれ⟦も→も：00484_mo⟧⟦{育|そだ}ち→育ち：13927_sodachi⟧⟦も→も：00484_mo⟧〜: born and raised in ~\n- ⟦{生|う}まれつき→生まれつき：21201_umaretsuki⟧: by nature, innately, from birth\n- {生|う}まれ⟦ながら→ながら：10530_nagara⟧: innate, born with\n- ⟦{生|う}まれ{変|か}わる→生まれ変わる：13522_umarekawaru⟧: to be reborn\n\nUSAGE:\nOften follows a place name or year directly: ⟦{東京|とうきょう}→東京：09564_toukyou⟧{生|う}まれ (Tokyo-born), 1990⟦{年|ねん}→年：09876_nen⟧{生|う}まれ (born in 1990). The pattern {生|う}まれ⟦が→が：00051_ga⟧⟦{良|よ}い→良い：02350_yoi⟧ means 'from a good family' (refers to social background, not just birthplace).\n\nCONTRAST:\n- ⟦{出身|しゅっしん}→出身：03221_shusshin⟧: one's origin/hometown (more formal, used on forms and resumes)\n- {生|う}まれ: where/when one was born (more conversational)",
-  "cross_references": [],
+  "notes": "{生|う}まれ is the noun form of ⟦{生|う}まれる→生まれる：00905_umareru⟧ (to be born). It is commonly used to state one's birthplace or birth year in self-introductions.\n\nCOMMON PATTERNS:\n- 〜{生|う}まれ: born in ~ (place or year)\n- {生|う}まれ⟦も→も：00484_mo⟧⟦{育|そだ}ち→育ち：13927_sodachi⟧⟦も→も：00484_mo⟧〜: born and raised in ~\n- ⟦{生|う}まれつき→生まれつき：21201_umaretsuki⟧: by nature, innately, from birth\n- {生|う}まれ⟦ながら→ながら：10530_nagara⟧: innate, born with\n- ⟦{生|う}まれ{変|か}わる→生まれ変わる：13522_umarekawaru⟧: to be reborn\n\nUSAGE:\nOften follows a place name or year directly: ⟦{東京|とうきょう}→東京：09564_toukyou⟧{生|う}まれ (Tokyo-born), 1990⟦{年|ねん}→年：09876_nen⟧{生|う}まれ (born in 1990). The pattern {生|う}まれ⟦が→が：00051_ga⟧⟦{良|よ}い→良い：02350_yoi⟧ means 'from a good family' (refers to social background, not just birthplace).\n\nSIMILAR WORDS:\n- ⟦{出身|しゅっしん}→出身：03221_shusshin⟧: one's origin/hometown (more formal, used on forms and resumes)\n- {生|う}まれ: where/when one was born (more conversational)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03221_shusshin",
+      "reading": "しゅっしん",
+      "headword": "{出身|しゅっしん}",
+      "label": "one's origin/hometown"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11766_shusshou",
+      "reading": "しゅっしょう",
+      "headword": "{出生|しゅっしょう}",
+      "label": "birth"
+    }
+  ],
   "metadata": {
     "created": "2026-01-09T12:30:00Z",
-    "modified": "2026-06-11T10:50:00Z",
+    "modified": "2026-09-02T04:01:00Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

@@ -15,41 +15,67 @@
   "examples": [
     {
       "id": "26291_mikeikensha_ex1",
-      "japanese": "{未経験者|みけいけんしゃ}{歓迎|かんげい}の{求人|きゅうじん}を{探|さが}している。",
+      "japanese": "{未経験者|みけいけんしゃ}⟦{歓迎|かんげい}→歓迎：02557_kangei⟧⟦の→の：09472_no⟧⟦{求人|きゅうじん}→求人：04690_kyuujin⟧⟦を→を：00422_wo⟧⟦{探|さが}している→探す：00493_sagasu⟧。",
       "english": "I'm looking for job postings that welcome inexperienced applicants.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26291_mikeikensha_ex2",
-      "japanese": "{未経験者|みけいけんしゃ}でも{応募|おうぼ}できますか。",
+      "japanese": "{未経験者|みけいけんしゃ}で⟦も→も：00484_mo⟧⟦{応募|おうぼ}→応募：03014_oubo⟧⟦できます→できる：00557_dekiru⟧⟦か→か：09473_ka⟧。",
       "english": "Can someone with no experience apply?",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26291_mikeikensha_ex3",
-      "japanese": "この{会社|かいしゃ}は{未経験者|みけいけんしゃ}にも{丁寧|ていねい}な{研修|けんしゅう}プログラムを{用意|ようい}しているので、{安心|あんしん}して{働|はたら}ける。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦は→は：00079_ha⟧{未経験者|みけいけんしゃ}⟦に→に：00314_ni⟧⟦も→も：00484_mo⟧⟦{丁寧|ていねい}→丁寧：00896_teinei⟧な⟦{研修|けんしゅう}→研修：05322_kenshuu⟧⟦プログラム→プログラム：01540_puroguramu⟧⟦を→を：00422_wo⟧⟦{用意|ようい}している→用意する：22428_youisuru⟧⟦の→の：09472_no⟧で、⟦{安心|あんしん}して→安心する：06067_anshinsuru⟧⟦{働|はたら}ける→働く：00503_hataraku⟧。",
       "english": "This company provides thorough training programs even for those with no experience, so you can work with peace of mind.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {未|み} (not yet; un-) + {経験|けいけん} (experience) + {者|しゃ} (person). Very commonly seen in job listings and recruitment contexts. The phrase {未経験者|みけいけんしゃ}{歓迎|かんげい} (inexperienced applicants welcome) is a standard line in Japanese job ads.\n\nCOMMON COLLOCATIONS:\n- {未経験者|みけいけんしゃ}{歓迎|かんげい}: inexperienced applicants welcome\n- {未経験者|みけいけんしゃ}OK: no experience required (informal listing)\n- {未経験者|みけいけんしゃ}{可|か}: inexperienced persons accepted\n- {未経験者|みけいけんしゃ}でも{大丈夫|だいじょうぶ}: it's fine even for beginners\n\nSIMILAR WORDS:\n- {初心者|しょしんしゃ}: beginner — focuses on skill level rather than work history; used for hobbies and learning too\n- {経験者|けいけんしゃ}: experienced person — the antonym\n- {素人|しろうと}: amateur; layperson — more casual and can carry a slightly dismissive nuance",
-  "cross_references": [],
+  "notes": "Composed of ⟦{未|み}→未〜：00277_mi⟧ (not yet; un-) + ⟦{経験|けいけん}→経験：01179_keiken⟧ (experience) + ⟦{者|しゃ}→〜者：04662_sha⟧ (person). Very commonly seen in job listings and recruitment contexts. The phrase {未経験者|みけいけんしゃ}⟦{歓迎|かんげい}→歓迎：02557_kangei⟧ (inexperienced applicants welcome) is a standard line in Japanese job ads.\n\nCOMMON COLLOCATIONS:\n- {未経験者|みけいけんしゃ}⟦{歓迎|かんげい}→歓迎：02557_kangei⟧: inexperienced applicants welcome\n- {未経験者|みけいけんしゃ}OK: no experience required (informal listing)\n- {未経験者|みけいけんしゃ}{可|か}: inexperienced persons accepted\n- {未経験者|みけいけんしゃ}で⟦も→も：00484_mo⟧⟦{大丈夫|だいじょうぶ}→大丈夫：00772_daijoubu⟧: it's fine even for beginners\n\nSIMILAR WORDS:\n- ⟦{初心者|しょしんしゃ}→初心者：10149_shoshinsha⟧: beginner — focuses on skill level rather than work history; used for hobbies and learning too\n- ⟦{経験者|けいけんしゃ}→経験者：18664_keikensha⟧: experienced person — the antonym\n- ⟦{素人|しろうと}→素人：04270_shirouto⟧: amateur; layperson — more casual and can carry a slightly dismissive nuance",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "10149_shoshinsha",
+      "reading": "しょしんしゃ",
+      "headword": "{初心者|しょしんしゃ}",
+      "label": "beginner"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04270_shirouto",
+      "reading": "しろうと",
+      "headword": "{素人|しろうと}",
+      "label": "amateur"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["person", "work"]
+      "semantic": [
+        "person",
+        "work"
+      ]
     },
     "created": "2026-04-30T15:25:10Z",
-    "modified": "2026-04-30T15:25:10Z"
+    "modified": "2026-09-02T04:02:25Z"
   }
 }

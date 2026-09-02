@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "{歌手|かしゅ} refers to a professional singer, especially in popular music genres.\n\nCOMMON EXPRESSIONS:\n- ⟦{人気|にんき}→人気：01488_ninki⟧{歌手|かしゅ}: popular singer\n- ⟦{有名|ゆうめい}→有名：01106_yuumei⟧{歌手|かしゅ}: famous singer\n- ⟦{演歌|えんか}→演歌：07082_enka⟧{歌手|かしゅ}: enka singer\n- ⟦ポップ→ポップ：27372_poppu⟧{歌手|かしゅ}: pop singer\n- ⟦ロック→ロック：08116_rokku⟧{歌手|かしゅ}: rock singer\n\nRELATED TERMS:\n- ⟦{歌|うた}→歌：02179_uta⟧⟦を→を：00422_wo⟧⟦{歌|うた}う→歌う：00684_utau⟧: to sing a song\n- ⟦{歌曲|かきょく}→歌曲：27373_kakyoku⟧: song (formal/classical)\n- ⟦アーティスト→アーティスト：10712_aatisuto⟧: artist (broader term)\n- ⟦ボーカル→ボーカル：08763_bookaru⟧: vocalist (in a band)\n- ⟦シンガーソングライター→シンガーソングライター：27385_shingaasonguraitaa⟧: singer-songwriter\n\nNOTE:\n{歌手|かしゅ} typically refers to solo singers. Band vocalists are often called ⟦ボーカル→ボーカル：08763_bookaru⟧.",
+  "notes": "{歌手|かしゅ} refers to a professional singer, especially in popular music genres.\n\nCOMMON EXPRESSIONS:\n- ⟦{人気|にんき}→人気：01488_ninki⟧{歌手|かしゅ}: popular singer\n- ⟦{有名|ゆうめい}→有名：01106_yuumei⟧{歌手|かしゅ}: famous singer\n- ⟦{演歌|えんか}→演歌：07082_enka⟧{歌手|かしゅ}: enka singer\n- ⟦ポップ→ポップ：27372_poppu⟧{歌手|かしゅ}: pop singer\n- ⟦ロック→ロック：08116_rokku⟧{歌手|かしゅ}: rock singer\n\nRELATED WORDS:\n- ⟦{歌|うた}→歌：02179_uta⟧⟦を→を：00422_wo⟧⟦{歌|うた}う→歌う：00684_utau⟧: to sing a song\n- ⟦{歌曲|かきょく}→歌曲：27373_kakyoku⟧: song (formal/classical)\n- ⟦アーティスト→アーティスト：10712_aatisuto⟧: artist (broader term)\n- ⟦ボーカル→ボーカル：08763_bookaru⟧: vocalist (in a band)\n- ⟦シンガーソングライター→シンガーソングライター：27385_shingaasonguraitaa⟧: singer-songwriter\n\nUSAGE:\n{歌手|かしゅ} typically refers to solo singers. Band vocalists are often called ⟦ボーカル→ボーカル：08763_bookaru⟧.",
   "cross_references": [
     {
       "type": "related",
@@ -78,11 +78,67 @@
       "headword": "{歌|うた}",
       "label": "song",
       "target_id": "02179_uta"
+    },
+    {
+      "type": "related",
+      "target_id": "27373_kakyoku",
+      "reading": "かきょく",
+      "headword": "{歌曲|かきょく}",
+      "label": "song"
+    },
+    {
+      "type": "related",
+      "target_id": "10712_aatisuto",
+      "reading": "あーてぃすと",
+      "headword": "アーティスト",
+      "label": "artist"
+    },
+    {
+      "type": "related",
+      "target_id": "08763_bookaru",
+      "reading": "ぼーかる",
+      "headword": "ボーカル",
+      "label": "vocalist"
+    },
+    {
+      "type": "related",
+      "target_id": "27385_shingaasonguraitaa",
+      "reading": "しんがーそんぐらいたー",
+      "headword": "シンガーソングライター",
+      "label": "singer-songwriter"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20522_kajin",
+      "reading": "かじん",
+      "headword": "{歌人|かじん}",
+      "label": "waka poet"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21752_sakushika",
+      "reading": "さくしか",
+      "headword": "{作詞家|さくしか}",
+      "label": "lyricist"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23923_seigakuka",
+      "reading": "せいがくか",
+      "headword": "{声楽家|せいがくか}",
+      "label": "classical vocalist"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25426_ensousha",
+      "reading": "えんそうしゃ",
+      "headword": "{演奏者|えんそうしゃ}",
+      "label": "performer"
     }
   ],
   "metadata": {
     "created": "2026-01-10T08:42:54Z",
-    "modified": "2026-08-08T09:25:02Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

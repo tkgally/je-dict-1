@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24601_natane_ex1",
-      "japanese": "{菜種|なたね}{油|あぶら}で{料理|りょうり}する。",
+      "japanese": "{菜種|なたね}{油|あぶら}⟦で→で：00502_de⟧⟦{料理|りょうり}→料理：01523_ryouri⟧⟦する→する：00392_suru⟧。",
       "english": "Cook with rapeseed oil.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24601_natane_ex2",
-      "japanese": "{春|はる}になると{菜種|なたね}の{黄色|きいろ}い{花|はな}が{一面|いちめん}に{咲|さ}く。",
+      "japanese": "⟦{春|はる}→春：00627_haru⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦と→と：00512_to⟧{菜種|なたね}⟦の→の：09472_no⟧⟦{黄色|きいろ}い→黄色い：00959_kiiroi⟧⟦{花|はな}→花：00523_hana⟧⟦が→が：00051_ga⟧⟦{一面|いちめん}→一面：11184_ichimen⟧⟦に→に：00314_ni⟧⟦{咲|さ}く→咲く：08150_saku⟧。",
       "english": "When spring comes, the yellow flowers of rapeseed bloom across the fields.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24601_natane_ex3",
-      "japanese": "{日本|にほん}では{古|ふる}くから{菜種|なたね}を{栽培|さいばい}して{油|あぶら}を{搾|しぼ}り、{灯|あか}りや{調理|ちょうり}に{使|つか}っていた。",
+      "japanese": "⟦{日本|にほん}→日本：03876_nihon⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{古|ふる}く→古い：00488_furui⟧⟦から→から：00504_kara⟧{菜種|なたね}⟦を→を：00422_wo⟧⟦{栽培|さいばい}して→栽培する：09860_saibaisuru⟧⟦{油|あぶら}→油：01693_abura⟧⟦を→を：00422_wo⟧⟦{搾|しぼ}り→搾る：18724_shiboru⟧、⟦{灯|あか}り→灯り：13380_akari⟧や⟦{調理|ちょうり}→調理：07156_chouri⟧⟦に→に：00314_ni⟧⟦{使|つか}っていた→使う：00473_tsukau⟧。",
       "english": "In Japan, rapeseed has been cultivated since ancient times to press oil, which was used for lighting and cooking.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "The seeds of the rape plant (Brassica napus), widely cultivated for vegetable oil production. The yellow-flowered {菜|な}の{花|はな} (rapeseed blossom) is an iconic symbol of spring in Japan. The oil extracted from the seeds, {菜種油|なたねあぶら}, is one of the most commonly used cooking oils.\n\nCOMMON COLLOCATIONS:\n- {菜種油|なたねあぶら}: rapeseed oil, canola oil\n- {菜種|なたね}{梅雨|づゆ}: spring rain during rapeseed flowering season (March-April)\n- {菜種|なたね}を{搾|しぼ}る: to press rapeseed (for oil)\n- {菜種|なたね}{畑|ばたけ}: rapeseed field\n\nSIMILAR WORDS:\n- {菜|な}の{花|はな}: rapeseed blossoms — the flowers of the same plant, often eaten as a vegetable\n- {大豆|だいず}: soybean — another oilseed crop important in Japanese cuisine",
+  "notes": "The seeds of the rape plant (Brassica napus), widely cultivated for vegetable oil production. The yellow-flowered ⟦{菜|な}の{花|はな}→菜の花：14042_nanohana⟧ (rapeseed blossom) is an iconic symbol of spring in Japan. The oil extracted from the seeds, {菜種油|なたねあぶら}, is one of the most commonly used cooking oils.\n\nCOMMON COLLOCATIONS:\n- {菜種油|なたねあぶら}: rapeseed oil, canola oil\n- {菜種|なたね}{梅雨|づゆ}: spring rain during rapeseed flowering season (March-April)\n- {菜種|なたね}⟦を→を：00422_wo⟧⟦{搾|しぼ}る→搾る：18724_shiboru⟧: to press rapeseed (for oil)\n- {菜種|なたね}{畑|ばたけ}: rapeseed field\n\nSIMILAR WORDS:\n- ⟦{菜|な}の{花|はな}→菜の花：14042_nanohana⟧: rapeseed blossoms — the flowers of the same plant, often eaten as a vegetable\n- ⟦{大豆|だいず}→大豆：10536_daizu⟧: soybean — another oilseed crop important in Japanese cuisine",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14042_nanohana",
+      "reading": "なのはな",
+      "headword": "{菜|な}の{花|はな}",
+      "label": "rapeseed blossoms"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10536_daizu",
+      "reading": "だいず",
+      "headword": "{大豆|だいず}",
+      "label": "soybean"
+    },
+    {
+      "type": "related",
+      "target_id": "19785_aburana",
+      "reading": "あぶらな",
+      "headword": "{油菜|あぶらな}",
+      "label": "rapeseed"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -64,6 +87,6 @@
       ]
     },
     "created": "2026-04-19T16:28:57Z",
-    "modified": "2026-04-19T16:28:57Z"
+    "modified": "2026-09-02T04:02:18Z"
   }
 }

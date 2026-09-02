@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "09869_ji_ex1",
-      "japanese": "{今|いま}、{何|なん}{時|じ}？",
+      "japanese": "⟦{今|いま}→今：00945_ima⟧、⟦{何|なん}{時|じ}→何時：00973_nanji⟧？",
       "english": "What time is it now?",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "09869_ji_ex2",
-      "japanese": "8{時|じ}に{起|お}きた。",
+      "japanese": "8{時|じ}⟦に→に：00314_ni⟧⟦{起|お}きた→起きる：00521_okiru⟧。",
       "english": "I woke up at 8 o'clock.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "09869_ji_ex3",
-      "japanese": "{会議|かいぎ}は{午後|ごご}2{時|じ}から{始|はじ}まります。",
+      "japanese": "⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦は→は：00079_ha⟧⟦{午後|ごご}→午後：00544_gogo⟧2{時|じ}⟦から→から：00504_kara⟧⟦{始|はじ}まります→始まる：00841_hajimaru⟧。",
       "english": "The meeting starts at 2 PM.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{時|じ} is the counter for hours when telling time.\n\nCOUNTING PATTERN (o'clock):\n1: {一時|いちじ}      6: {六時|ろくじ}\n2: {二時|にじ}       7: {七時|しちじ}\n3: {三時|さんじ}     8: {八時|はちじ}\n4: {四時|よじ}       9: {九時|くじ}\n5: {五時|ごじ}      10: {十時|じゅうじ}\n\nIRREGULAR READINGS:\n- 4: よじ (not よんじ)\n- 7: しちじ (ななじ also exists but less standard)\n- 9: くじ (not きゅうじ)\n\nCOMMON PATTERNS:\n- {何時|なんじ}: what time?\n- ～{時|じ}{半|はん}: half past ~\n- ～{時|じ}ちょうど: exactly ~ o'clock\n- ～{時|じ}{頃|ごろ}: around ~ o'clock\n\nRELATED COUNTERS:\n- ～{分|ふん}/{分|ぷん}: minutes\n- ～{秒|びょう}: seconds\n- ～{時間|じかん}: duration in hours",
+  "notes": "{時|じ} is the counter for hours when telling time.\n\nCOUNTING PATTERN (o'clock):\n1: ⟦{一時|いちじ}→一時：01799_ichiji⟧      6: ⟦{六時|ろくじ}→六時：10982_rokuji⟧\n2: {二時|にじ}       7: ⟦{七時|しちじ}→七時：10114_shichiji⟧\n3: ⟦{三時|さんじ}→三時：10983_sanji⟧     8: {八時|はちじ}\n4: ⟦{四時|よじ}→四時：30328_yoji⟧       9: ⟦{九時|くじ}→九時：10980_kuji⟧\n5: {五時|ごじ}      10: {十時|じゅうじ}\n\nCOUNTING PATTERNS:\n- 4: ⟦よ→よ：09475_yo⟧じ (not よんじ)\n- 7: しちじ (ななじ also exists but less standard)\n- 9: くじ (not きゅうじ)\n\nCOMMON PATTERNS:\n- ⟦{何時|なんじ}→何時：00973_nanji⟧: what time?\n- ～{時|じ}{半|はん}: half past ~\n- ～{時|じ}⟦ちょうど→ちょうど：02916_choudo⟧: exactly ~ o'clock\n- ～{時|じ}⟦{頃|ごろ}→頃：00932_goro⟧: around ~ o'clock\n\nRELATED COUNTERS:\n- ～⟦{分|ふん}→分：00928_fun⟧/{分|ぷん}: minutes\n- ～⟦{秒|びょう}→秒：00921_byou⟧: seconds\n- ～⟦{時間|じかん}→時間：00468_jikan⟧: duration in hours",
   "cross_references": [
     {
       "type": "related",
@@ -72,6 +72,13 @@
       "reading": "びょう",
       "headword": "{秒|びょう}",
       "label": "second counter"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00941_ichijikan",
+      "reading": "いちじかん",
+      "headword": "{一時間|いちじかん}",
+      "label": "one hour"
     }
   ],
   "metadata": {
@@ -87,6 +94,6 @@
       ]
     },
     "created": "2026-02-04T03:55:03Z",
-    "modified": "2026-08-10T12:37:45Z"
+    "modified": "2026-09-02T04:01:19Z"
   }
 }

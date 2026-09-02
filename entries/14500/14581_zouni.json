@@ -15,41 +15,66 @@
   "examples": [
     {
       "id": "14581_zouni_ex1",
-      "japanese": "お{正月|しょうがつ}に{雑煮|ぞうに}を{食|た}べる。",
+      "japanese": "⟦お{正月|しょうがつ}→お正月：05586_oshougatsu⟧⟦に→に：00314_ni⟧{雑煮|ぞうに}⟦を→を：00422_wo⟧⟦{食|た}べる→食べる：00396_taberu⟧。",
       "english": "We eat zōni on New Year's.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14581_zouni_ex2",
-      "japanese": "うちの{雑煮|ぞうに}は{白|しろ}みそ{仕立|した}てだ。",
+      "japanese": "うち⟦の→の：09472_no⟧{雑煮|ぞうに}⟦は→は：00079_ha⟧⟦{白|しろ}→白：13854_shiro⟧みそ⟦{仕立|した}て→仕立て：11645_shitate⟧だ。",
       "english": "Our family's zōni is made with white miso.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14581_zouni_ex3",
-      "japanese": "{雑煮|ぞうに}の{味|あじ}は{地域|ちいき}によって{大|おお}きく{異|こと}なり、{関東|かんとう}ではすまし{汁|じる}、{関西|かんさい}では{白|しろ}みそが{主流|しゅりゅう}だ。",
+      "japanese": "{雑煮|ぞうに}⟦の→の：09472_no⟧⟦{味|あじ}→味：00826_aji⟧⟦は→は：00079_ha⟧⟦{地域|ちいき}→地域：01461_chiiki⟧⟦によって→によって：06801_niyotte⟧⟦{大|おお}きく→大きい：00335_ookii⟧⟦{異|こと}なり→異なる：02101_kotonaru⟧、⟦{関東|かんとう}→関東：00186_kantou⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧すまし{汁|じる}、⟦{関西|かんさい}→関西：00179_kansai⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{白|しろ}→白：13854_shiro⟧みそ⟦が→が：00051_ga⟧⟦{主流|しゅりゅう}→主流：11407_shuryuu⟧だ。",
       "english": "The taste of zōni varies greatly by region — clear broth is standard in Kantō, while white miso is the norm in Kansai.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "CULTURE:\n{雑煮|ぞうに} is one of the most important dishes of the Japanese New Year ({正月|しょうがつ}). It is traditionally eaten on the morning of January 1st. The recipe is deeply tied to regional and family identity — asking someone about their {雑煮|ぞうに} is a common conversation topic.\n\nRegional variations include:\n- {関東|かんとう}: clear broth (すまし{汁|じる}) with rectangular {餅|もち}\n- {関西|かんさい}: {白|しろ}みそ broth with round {餅|もち}\n\nCOMMON COLLOCATIONS:\n- {雑煮|ぞうに}を{作|つく}る (to make zōni)\n- {雑煮|ぞうに}を{食|た}べる (to eat zōni)\n- お{雑煮|ぞうに} (zōni — with polite prefix お)",
-  "cross_references": [],
+  "notes": "CULTURAL NOTE:\n{雑煮|ぞうに} is one of the most important dishes of the Japanese New Year (⟦{正月|しょうがつ}→正月：01433_shougatsu⟧). It is traditionally eaten on the morning of January 1st. The recipe is deeply tied to regional and family identity — asking someone about their {雑煮|ぞうに} is a common conversation topic.\n\nRegional variations include:\n- ⟦{関東|かんとう}→関東：00186_kantou⟧: clear broth (すまし{汁|じる}) with rectangular ⟦{餅|もち}→餅：03900_mochi⟧\n- ⟦{関西|かんさい}→関西：00179_kansai⟧: ⟦{白|しろ}→白：13854_shiro⟧みそ broth with round ⟦{餅|もち}→餅：03900_mochi⟧\n\nCOMMON COLLOCATIONS:\n- {雑煮|ぞうに}⟦を→を：00422_wo⟧⟦{作|つく}る→作る：00481_tsukuru⟧ (to make zōni)\n- {雑煮|ぞうに}⟦を→を：00422_wo⟧⟦{食|た}べる→食べる：00396_taberu⟧ (to eat zōni)\n- お{雑煮|ぞうに} (zōni — with polite prefix お)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "19469_kagamimochi",
+      "reading": "かがみもち",
+      "headword": "{鏡餅|かがみもち}",
+      "label": "New Year's rice cake offering"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26981_osechiryouri",
+      "reading": "おせちりょうり",
+      "headword": "おせち{料理|りょうり}",
+      "label": "traditional New Year's cuisine"
+    }
+  ],
   "metadata": {
     "created": "2026-03-02T07:45:08Z",
-    "modified": "2026-03-02T07:45:08Z",
+    "modified": "2026-09-02T04:01:37Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food"]
+      "semantic": [
+        "food"
+      ]
     }
   }
 }

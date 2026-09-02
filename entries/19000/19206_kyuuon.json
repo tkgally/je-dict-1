@@ -3,7 +3,7 @@
   "headword": "{吸音|きゅうおん}",
   "reading": "きゅうおん",
   "romaji": "kyuuon",
-  "part_of_speech": "noun / suru verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "sound absorption; absorbing sound",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "19206_kyuuon_ex1",
-      "japanese": "{吸音|きゅうおん}{材|ざい}を{壁|かべ}に{貼|は}る。",
+      "japanese": "{吸音|きゅうおん}{材|ざい}⟦を→を：00422_wo⟧⟦{壁|かべ}→壁：01290_kabe⟧⟦に→に：00314_ni⟧⟦{貼|は}る→貼る：10447_haru⟧。",
       "english": "To apply sound-absorbing material to the walls.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "19206_kyuuon_ex2",
-      "japanese": "この{部屋|へや}は{吸音|きゅうおん}{性能|せいのう}が{高|たか}い。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{部屋|へや}→部屋：00507_heya⟧⟦は→は：00079_ha⟧{吸音|きゅうおん}⟦{性能|せいのう}→性能：04340_seinou⟧⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧。",
       "english": "This room has high sound absorption performance.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "19206_kyuuon_ex3",
-      "japanese": "{会議室|かいぎしつ}の{天井|てんじょう}に{吸音|きゅうおん}パネルを{取|と}り{付|つ}けて{反響|はんきょう}を{抑|おさ}えた。",
+      "japanese": "⟦{会議室|かいぎしつ}→会議室：01265_kaigishitsu⟧⟦の→の：09472_no⟧⟦{天井|てんじょう}→天井：05008_tenjou⟧⟦に→に：00314_ni⟧{吸音|きゅうおん}⟦パネル→パネル：08840_paneru⟧⟦を→を：00422_wo⟧⟦{取|と}り{付|つ}けて→取り付ける：06797_toritsukeru⟧⟦{反響|はんきょう}→反響：09126_hankyou⟧⟦を→を：00422_wo⟧⟦{抑|おさ}えた→抑える：12806_osaeru⟧。",
       "english": "Sound-absorbing panels were installed on the meeting room ceiling to reduce echo.",
       "sense_numbers": [
         1
@@ -134,8 +134,24 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {吸|きゅう} (absorb, inhale) + {音|おん} (sound). Distinct from {遮音|しゃおん} (sound insulation, which blocks sound transmission) and {防音|ぼうおん} (soundproofing, the general term). {吸音|きゅうおん} specifically reduces echo and reverberation within a space. Common collocations: {吸音|きゅうおん}{材|ざい} (sound-absorbing material), {吸音|きゅうおん}パネル (acoustic panel), {吸音|きゅうおん}{率|りつ} (sound absorption coefficient), {吸音|きゅうおん}{効果|こうか} (sound absorption effect). Materials like felt, foam, and perforated boards are common {吸音|きゅうおん}{材|ざい}.",
+  "notes": "Composed of {吸|きゅう} (absorb, inhale) + {音|おん} (sound). Distinct from ⟦{遮音|しゃおん}→遮音：19182_shaon⟧ (sound insulation, which blocks sound transmission) and ⟦{防音|ぼうおん}→防音：14565_bouon⟧ (soundproofing, the general term). {吸音|きゅうおん} specifically reduces echo and reverberation within a space. Common collocations: {吸音|きゅうおん}{材|ざい} (sound-absorbing material), {吸音|きゅうおん}⟦パネル→パネル：08840_paneru⟧ (acoustic panel), {吸音|きゅうおん}⟦{率|りつ}→率：03802_ritsu⟧ (sound absorption coefficient), {吸音|きゅうおん}⟦{効果|こうか}→効果：02726_kouka⟧ (sound absorption effect). Materials like felt, foam, and perforated boards are common {吸音|きゅうおん}{材|ざい}.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "14565_bouon",
+      "reading": "ぼうおん",
+      "headword": "{防音|ぼうおん}",
+      "label": "soundproofing"
+    },
+    {
+      "type": "related",
+      "target_id": "19237_bouonshitsu",
+      "reading": "ぼうおんしつ",
+      "headword": "{防音室|ぼうおんしつ}",
+      "label": "soundproof room"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -154,6 +170,6 @@
       "verb_class": "suru"
     },
     "created": "2026-03-24T14:03:02Z",
-    "modified": "2026-03-24T14:03:02Z"
+    "modified": "2026-09-02T04:01:55Z"
   }
 }

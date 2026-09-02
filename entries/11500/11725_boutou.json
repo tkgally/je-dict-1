@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "11725_boutou_ex1",
-      "japanese": "{冒頭|ぼうとう}で{述|の}べたように。",
+      "japanese": "{冒頭|ぼうとう}⟦で→で：00502_de⟧⟦{述|の}べた→述べる：02389_noberu⟧よう⟦に→に：00314_ni⟧。",
       "english": "As stated at the beginning.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11725_boutou_ex2",
-      "japanese": "{小説|しょうせつ}の{冒頭|ぼうとう}が{印象的|いんしょうてき}だった。",
+      "japanese": "⟦{小説|しょうせつ}→小説：01434_shousetsu⟧⟦の→の：09472_no⟧{冒頭|ぼうとう}⟦が→が：00051_ga⟧⟦{印象的|いんしょうてき}→印象的：15547_inshouteki⟧だった。",
       "english": "The opening of the novel was impressive.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11725_boutou_ex3",
-      "japanese": "{映画|えいが}の{冒頭|ぼうとう}シーンで{観客|かんきゃく}の{心|こころ}をつかんだ。",
+      "japanese": "⟦{映画|えいが}→映画：02273_eiga⟧⟦の→の：09472_no⟧{冒頭|ぼうとう}⟦シーン→シーン：08914_shiin⟧⟦で→で：00502_de⟧⟦{観客|かんきゃく}→観客：02556_kankyaku⟧⟦の→の：09472_no⟧⟦{心|こころ}→心：01321_kokoro⟧⟦を→を：00422_wo⟧つかんだ。",
       "english": "The opening scene of the film captured the audience's hearts.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "Compound of {冒|ぼう} (to risk, to brave) + {頭|とう} (head, beginning). Refers specifically to the opening portion of something structured like a text, speech, or performance.\n\nCOMMON COLLOCATIONS:\n・{冒頭|ぼうとう}で (at the beginning)\n・{冒頭|ぼうとう}に (at the start)\n・{冒頭|ぼうとう}シーン (opening scene)\n・{冒頭|ぼうとう}{部分|ぶぶん} (opening section)\n・{冒頭|ぼうとう}{陳述|ちんじゅつ} (opening statement)\n\nUSAGE NOTES:\n{冒頭|ぼうとう} refers to the opening portion of something, not merely the start time. It is often used with texts ({小説|しょうせつ}, {論文|ろんぶん}), speeches ({演説|えんぜつ}, {挨拶|あいさつ}), and performances ({映画|えいが}, {番組|ばんぐみ}). It has a somewhat formal tone and is common in written Japanese and news broadcasts.",
+  "notes": "Compound of {冒|ぼう} (to risk, to brave) + ⟦{頭|とう}→頭：18067_tou⟧ (head, beginning). Refers specifically to the opening portion of something structured like a text, speech, or performance.\n\nCOMMON COLLOCATIONS:\n- {冒頭|ぼうとう}⟦で→で：00502_de⟧ (at the beginning)\n- {冒頭|ぼうとう}⟦に→に：00314_ni⟧ (at the start)\n- {冒頭|ぼうとう}⟦シーン→シーン：08914_shiin⟧ (opening scene)\n- {冒頭|ぼうとう}⟦{部分|ぶぶん}→部分：03715_bubun⟧ (opening section)\n- {冒頭|ぼうとう}⟦{陳述|ちんじゅつ}→陳述：08406_chinjutsu⟧ (opening statement)\n\nUSAGE:\n{冒頭|ぼうとう} refers to the opening portion of something, not merely the start time. It is often used with texts (⟦{小説|しょうせつ}→小説：01434_shousetsu⟧, ⟦{論文|ろんぶん}→論文：03787_ronbun⟧), speeches (⟦{演説|えんぜつ}→演説：01894_enzetsu⟧, ⟦{挨拶|あいさつ}→挨拶：02505_aisatsu⟧), and performances (⟦{映画|えいが}→映画：02273_eiga⟧, ⟦{番組|ばんぐみ}→番組：01705_bangumi⟧). It has a somewhat formal tone and is common in written Japanese and news broadcasts.",
   "cross_references": [
     {
       "type": "homophone",
@@ -46,17 +52,42 @@
       "reading": "ぼうとう",
       "headword": "{暴騰|ぼうとう}",
       "notes": "暴騰 means a sharp rise (in prices) — same reading, different meaning"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11883_shotou",
+      "reading": "しょとう",
+      "headword": "{初頭|しょとう}",
+      "label": "beginning of a period"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22968_dounyuubu",
+      "reading": "どうにゅうぶ",
+      "headword": "{導入部|どうにゅうぶ}",
+      "label": "introduction"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30703_dedashi",
+      "reading": "でだし",
+      "headword": "{出|で}だし",
+      "label": "opening"
     }
   ],
   "metadata": {
     "created": "2026-02-17T22:41:31Z",
-    "modified": "2026-02-17T22:41:31Z",
+    "modified": "2026-09-02T04:01:26Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

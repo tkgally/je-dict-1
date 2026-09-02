@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21577_shiroppu_ex1",
-      "japanese": "シロップを{入|い}れすぎた。",
+      "japanese": "シロップ⟦を→を：00422_wo⟧⟦{入|い}れ→入れる：01098_ireru⟧すぎた。",
       "english": "I put in too much syrup.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21577_shiroppu_ex2",
-      "japanese": "かき{氷|ごおり}にシロップをかけて{食|た}べる。",
+      "japanese": "⟦かき{氷|ごおり}→かき氷：10300_kakigoori⟧⟦に→に：00314_ni⟧シロップ⟦を→を：00422_wo⟧⟦かけて→かける：00854_kakeru⟧⟦{食|た}べる→食べる：00396_taberu⟧。",
       "english": "I eat shaved ice with syrup poured over it.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21577_shiroppu_ex3",
-      "japanese": "このカフェでは、コーヒーに{好|す}きなシロップを{追加|ついか}できる。",
+      "japanese": "⟦この→この：00962_kono⟧⟦カフェ→カフェ：06767_kafe⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧、⟦コーヒー→コーヒー：00789_koohii⟧⟦に→に：00314_ni⟧⟦{好|す}き→好き：02355_suki⟧なシロップ⟦を→を：00422_wo⟧⟦{追加|ついか}できる→追加する：19646_tsuikasuru⟧。",
       "english": "At this cafe, you can add your favorite syrup to your coffee.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "From English \"syrup.\" Used broadly for any sweet liquid — from flavored syrups for shaved ice (かき{氷|ごおり}) and coffee drinks to medicinal cough syrup.\n\nCOMMON COLLOCATIONS:\n- シロップをかける: to pour syrup on\n- シロップを{加|くわ}える: to add syrup\n- メープルシロップ: maple syrup\n- ガムシロップ: liquid sugar (for iced coffee)\n- {咳止|せきど}めシロップ: cough syrup\n\nCULTURAL NOTE:\nIn Japan, ガムシロップ (gum syrup) is the standard sweetener served with iced coffee. At かき{氷|ごおり} stalls, colorful flavored syrups (いちご, メロン, ブルーハワイ, etc.) are a quintessential summer experience.",
+  "notes": "From English \"syrup.\" Used broadly for any sweet liquid — from flavored syrups for shaved ice (⟦かき{氷|ごおり}→かき氷：10300_kakigoori⟧) and coffee drinks to medicinal cough syrup.\n\nCOMMON COLLOCATIONS:\n- シロップ⟦を→を：00422_wo⟧⟦かける→かける：00854_kakeru⟧: to pour syrup on\n- シロップ⟦を→を：00422_wo⟧⟦{加|くわ}える→加える：01941_kuwaeru⟧: to add syrup\n- メープルシロップ: maple syrup\n- ガムシロップ: liquid sugar (for iced coffee)\n- ⟦{咳止|せきど}め→咳止め：27038_sekidome⟧シロップ: cough syrup\n\nCULTURAL NOTE:\nIn Japan, ガムシロップ (gum syrup) is the standard sweetener served with iced coffee. At ⟦かき{氷|ごおり}→かき氷：10300_kakigoori⟧ stalls, colorful flavored syrups (⟦いちご→いちご：01028_ichigo⟧, ⟦メロン→メロン：05194_meron⟧, ⟦ブルー→ブルー：11276_buruu⟧ハワイ, etc.) are a quintessential summer experience.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "27566_mizuame",
+      "reading": "みずあめ",
+      "headword": "{水飴|みずあめ}",
+      "label": "starch syrup"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +68,6 @@
       ]
     },
     "created": "2026-04-02T17:22:45Z",
-    "modified": "2026-06-09T15:41:11Z"
+    "modified": "2026-09-02T04:02:04Z"
   }
 }

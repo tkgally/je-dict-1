@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29138_jidounirinsha_ex1",
-      "japanese": "{自動二輪車|じどうにりんしゃ}の{免許|めんきょ}を{取|と}った。",
+      "japanese": "{自動二輪車|じどうにりんしゃ}⟦の→の：09472_no⟧⟦{免許|めんきょ}→免許：03808_menkyo⟧⟦を→を：00422_wo⟧⟦{取|と}った→取る：00565_toru⟧。",
       "english": "I got a motorcycle license.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29138_jidounirinsha_ex2",
-      "japanese": "{自動二輪車|じどうにりんしゃ}は{排気量|はいきりょう}によって{普通|ふつう}と{大型|おおがた}に{区分|くぶん}される。",
+      "japanese": "{自動二輪車|じどうにりんしゃ}⟦は→は：00079_ha⟧⟦{排気量|はいきりょう}→排気量：18363_haikiryou⟧⟦によって→によって：06801_niyotte⟧⟦{普通|ふつう}→普通：01502_futsuu⟧⟦と→と：00512_to⟧⟦{大型|おおがた}→大型：03016_oogata⟧⟦に→に：00314_ni⟧⟦{区分|くぶん}→区分：00248_kubun⟧⟦される→する：00392_suru⟧。",
       "english": "Motorcycles are classified as ordinary or large displacement based on engine size.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29138_jidounirinsha_ex3",
-      "japanese": "{道路交通法|どうろこうつうほう}では、{自動二輪車|じどうにりんしゃ}の{二人乗|ふたりの}りは{一定|いってい}の{条件|じょうけん}のもとで{認|みと}められている。",
+      "japanese": "{道路交通法|どうろこうつうほう}⟦で→で：00502_de⟧⟦は→は：00079_ha⟧、{自動二輪車|じどうにりんしゃ}⟦の→の：09472_no⟧⟦{二人乗|ふたりの}り→二人乗り：27975_futarinori⟧⟦は→は：00079_ha⟧⟦{一定|いってい}→一定：01735_ittei⟧⟦の→の：09472_no⟧⟦{条件|じょうけん}→条件：03285_jouken⟧⟦の→の：09472_no⟧もと⟦で→で：00502_de⟧⟦{認|みと}められている→認める：02429_mitomeru⟧。",
       "english": "Under the Road Traffic Act, riding two on a motorcycle is permitted under certain conditions.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "The formal legal designation used in vehicle registration documents, traffic laws, and official contexts. Everyday alternatives are more common in speech.\n\nCOMMON COLLOCATIONS:\n- {自動二輪車|じどうにりんしゃ}{免許|めんきょ}: motorcycle license\n- {大型|おおがた}{自動二輪車|じどうにりんしゃ}: large motorcycle (over 400cc)\n- {普通|ふつう}{自動二輪車|じどうにりんしゃ}: standard motorcycle (under 400cc)\n- {自動二輪車|じどうにりんしゃ}{専用|せんよう}{レーン|れーん}: motorcycle lane\n\nSIMILAR WORDS:\n- オートバイ: motorcycle — the standard everyday term\n- バイク: bike/motorcycle — very common colloquial term",
+  "notes": "The formal legal designation used in vehicle registration documents, traffic laws, and official contexts. Everyday alternatives are more common in speech.\n\nCOMMON COLLOCATIONS:\n- {自動二輪車|じどうにりんしゃ}⟦{免許|めんきょ}→免許：03808_menkyo⟧: motorcycle license\n- ⟦{大型|おおがた}→大型：03016_oogata⟧{自動二輪車|じどうにりんしゃ}: large motorcycle (over 400cc)\n- ⟦{普通|ふつう}→普通：01502_futsuu⟧{自動二輪車|じどうにりんしゃ}: standard motorcycle (under 400cc)\n- {自動二輪車|じどうにりんしゃ}⟦{専用|せんよう}→専用：12385_senyou⟧レーン: motorcycle lane\n\nSIMILAR WORDS:\n- ⟦オートバイ→オートバイ：01774_ootobai⟧: motorcycle — the standard everyday term\n- ⟦バイク→バイク：05081_baiku⟧: bike/motorcycle — very common colloquial term",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01774_ootobai",
+      "reading": "おーとばい",
+      "headword": "オートバイ",
+      "label": "motorcycle"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05081_baiku",
+      "reading": "ばいく",
+      "headword": "バイク",
+      "label": "bike/motorcycle"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27053_sukuutaa",
+      "reading": "すくーたー",
+      "headword": "スクーター",
+      "label": "scooter"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +76,7 @@
         "noun"
       ],
       "formality": "formal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "transportation"
       ],
@@ -62,6 +85,6 @@
       ]
     },
     "created": "2026-06-11T11:41:37Z",
-    "modified": "2026-06-11T11:41:37Z"
+    "modified": "2026-09-02T04:02:36Z"
   }
 }

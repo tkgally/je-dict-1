@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "14732_deisui_ex1",
-      "japanese": "{彼|かれ}は{泥酔|でいすい}して{動|うご}けなかった。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{泥酔|でいすい}⟦して→する：00392_suru⟧⟦{動|うご}けなかった→動く：00904_ugoku⟧。",
       "english": "He was dead drunk and couldn't move.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14732_deisui_ex2",
-      "japanese": "{泥酔|でいすい}{状態|じょうたい}で{駅|えき}のホームで{寝|ね}ている{人|ひと}がいた。",
+      "japanese": "{泥酔|でいすい}⟦{状態|じょうたい}→状態：03345_joutai⟧⟦で→で：00502_de⟧⟦{駅|えき}→駅：02180_eki⟧⟦の→の：09472_no⟧⟦ホーム→ホーム：00113_hoomu⟧⟦で→で：00502_de⟧⟦{寝|ね}ている→寝る：00470_neru⟧⟦{人|ひと}→人：00476_hito⟧がいた。",
       "english": "There was someone passed out drunk on the station platform.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14732_deisui_ex3",
-      "japanese": "{泥酔|でいすい}した{客|きゃく}がタクシーの{中|なか}で{暴|あば}れて、{運転手|うんてんしゅ}が{困|こま}っていた。",
+      "japanese": "{泥酔|でいすい}⟦した→する：00392_suru⟧⟦{客|きゃく}→客：00865_kyaku⟧⟦が→が：00051_ga⟧⟦タクシー→タクシー：00816_takushii⟧⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧⟦で→で：00502_de⟧⟦{暴|あば}れて→暴れる：04575_abareru⟧、⟦{運転手|うんてんしゅ}→運転手：01333_untenshu⟧⟦が→が：00051_ga⟧⟦{困|こま}っていた→困る：00861_komaru⟧。",
       "english": "A dead-drunk passenger was being rowdy in the taxi, and the driver was at a loss.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "Literally \"mud-drunk\" — the {泥|どろ} (mud) character evokes the image of someone so drunk they are like mud, completely limp and unable to function. The verb form {泥酔|でいすい}する means \"to get completely wasted.\"\n\nDEGREES OF DRUNKENNESS (from mild to severe):\n- ほろ{酔|よ}い (pleasantly tipsy)\n- {酔|よ}っている (drunk)\n- {泥酔|でいすい} (dead drunk)\n\nCOMMON COLLOCATIONS:\n- {泥酔|でいすい}{状態|じょうたい} (state of heavy intoxication)\n- {泥酔|でいすい}{運転|うんてん} (driving while heavily intoxicated)\n- {泥酔|でいすい}した{客|きゃく} (extremely drunk customer/patron)",
+  "notes": "Literally \"mud-drunk\" — the ⟦{泥|どろ}→泥：03492_doro⟧ (mud) character evokes the image of someone so drunk they are like mud, completely limp and unable to function. The verb form {泥酔|でいすい}⟦する→する：00392_suru⟧ means \"to get completely wasted.\"\n\nDEGREES OF DRUNKENNESS (from mild to severe):\n- ⟦ほろ{酔|よ}い→ほろ酔い：09370_horoyoi⟧ (pleasantly tipsy)\n- ⟦{酔|よ}っている→酔う：14437_you⟧ (drunk)\n- {泥酔|でいすい} (dead drunk)\n\nCOMMON COLLOCATIONS:\n- {泥酔|でいすい}⟦{状態|じょうたい}→状態：03345_joutai⟧ (state of heavy intoxication)\n- {泥酔|でいすい}⟦{運転|うんてん}→運転：01335_unten⟧ (driving while heavily intoxicated)\n- {泥酔|でいすい}⟦した→する：00392_suru⟧⟦{客|きゃく}→客：00865_kyaku⟧ (extremely drunk customer/patron)",
   "cross_references": [
     {
       "type": "related",
@@ -46,18 +52,29 @@
       "reading": "よう",
       "headword": "{酔|よ}う",
       "label": "to get drunk"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21223_meitei",
+      "reading": "めいてい",
+      "headword": "{酩酊|めいてい}",
+      "label": "intoxication"
     }
   ],
   "metadata": {
     "created": "2026-03-03T09:49:20Z",
-    "modified": "2026-04-30T10:24:44Z",
+    "modified": "2026-09-02T04:01:38Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["consumption"]
+      "semantic": [
+        "consumption"
+      ]
     }
   }
 }

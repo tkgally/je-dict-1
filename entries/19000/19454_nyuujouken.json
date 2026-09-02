@@ -14,42 +14,109 @@
   "examples": [
     {
       "id": "19454_nyuujouken_ex1",
-      "japanese": "{入場券|にゅうじょうけん}を{買|か}う。",
+      "japanese": "{入場券|にゅうじょうけん}⟦を→を：00422_wo⟧⟦{買|か}う→買う：00489_kau⟧。",
       "english": "To buy an admission ticket.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "19454_nyuujouken_ex2",
-      "japanese": "{入場券|にゅうじょうけん}は{大人|おとな}{一枚|いちまい}{五百円|ごひゃくえん}です。",
+      "japanese": "{入場券|にゅうじょうけん}⟦は→は：00079_ha⟧⟦{大人|おとな}→大人：02856_otona⟧⟦{一枚|いちまい}→一枚：08889_ichimai⟧{五百円|ごひゃくえん}です。",
       "english": "Admission tickets are 500 yen per adult.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "19454_nyuujouken_ex3",
-      "japanese": "{入場券|にゅうじょうけん}を{見|み}せてから{会場|かいじょう}に{入|はい}った。",
+      "japanese": "{入場券|にゅうじょうけん}⟦を→を：00422_wo⟧⟦{見|み}せて→見せる：01988_miseru⟧⟦から→から：00504_kara⟧⟦{会場|かいじょう}→会場：01269_kaijou⟧⟦に→に：00314_ni⟧⟦{入|はい}った→入る：00494_hairu⟧。",
       "english": "I showed my ticket and then entered the venue.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{入場券|にゅうじょうけん} is a ticket that grants entry to a venue such as a museum, stadium, concert hall, or train station platform. In Japan, train stations sell {入場券|にゅうじょうけん} to people who want to enter the platform area without riding a train, for example to see someone off.\n\nSTRUCTURE:\n- {入場|にゅうじょう} (admission, entry) + {券|けん} (ticket)\n\nCOMMON COLLOCATIONS:\n- {入場券|にゅうじょうけん}を{買|か}う (to buy an admission ticket)\n- {入場券|にゅうじょうけん}を{見|み}せる (to show an admission ticket)\n- {入場券|にゅうじょうけん}{売|う}り{場|ば} (ticket counter)\n- {当日|とうじつ}{入場券|にゅうじょうけん} (same-day admission ticket)\n\nRELATED TICKET WORDS:\n- {乗車券|じょうしゃけん} (train/bus ticket)\n- {食券|しょっけん} (meal ticket)\n- {商品券|しょうひんけん} (gift certificate)\n- {入場料|にゅうじょうりょう} (admission fee — the price, not the physical ticket)",
-  "cross_references": [],
+  "notes": "{入場券|にゅうじょうけん} is a ticket that grants entry to a venue such as a museum, stadium, concert hall, or train station platform. In Japan, train stations sell {入場券|にゅうじょうけん} to people who want to enter the platform area without riding a train, for example to see someone off.\n\nCOMMON PATTERNS:\n- ⟦{入場|にゅうじょう}→入場：03521_nyuujou⟧ (admission, entry) + ⟦{券|けん}→券：02150_ken⟧ (ticket)\n\nCOMMON COLLOCATIONS:\n- {入場券|にゅうじょうけん}⟦を→を：00422_wo⟧⟦{買|か}う→買う：00489_kau⟧ (to buy an admission ticket)\n- {入場券|にゅうじょうけん}⟦を→を：00422_wo⟧⟦{見|み}せる→見せる：01988_miseru⟧ (to show an admission ticket)\n- {入場券|にゅうじょうけん}⟦{売|う}り{場|ば}→売り場：01331_uriba⟧ (ticket counter)\n- ⟦{当日|とうじつ}→当日：04558_toujitsu⟧{入場券|にゅうじょうけん} (same-day admission ticket)\n\nRELATED TICKET WORDS:\n- ⟦{乗車券|じょうしゃけん}→乗車券：05298_joushaken⟧ (train/bus ticket)\n- ⟦{食券|しょっけん}→食券：19934_shokken⟧ (meal ticket)\n- ⟦{商品券|しょうひんけん}→商品券：22121_shouhinken⟧ (gift certificate)\n- ⟦{入場料|にゅうじょうりょう}→入場料：07056_nyuujouryou⟧ (admission fee — the price, not the physical ticket)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "05298_joushaken",
+      "reading": "じょうしゃけん",
+      "headword": "{乗車券|じょうしゃけん}",
+      "label": "train/bus ticket"
+    },
+    {
+      "type": "related",
+      "target_id": "19934_shokken",
+      "reading": "しょっけん",
+      "headword": "{食券|しょっけん}",
+      "label": "meal ticket"
+    },
+    {
+      "type": "related",
+      "target_id": "22121_shouhinken",
+      "reading": "しょうひんけん",
+      "headword": "{商品券|しょうひんけん}",
+      "label": "gift certificate"
+    },
+    {
+      "type": "related",
+      "target_id": "07056_nyuujouryou",
+      "reading": "にゅうじょうりょう",
+      "headword": "{入場料|にゅうじょうりょう}",
+      "label": "admission fee"
+    },
+    {
+      "type": "related",
+      "target_id": "08287_toujitsuken",
+      "reading": "とうじつけん",
+      "headword": "{当日券|とうじつけん}",
+      "label": "same-day ticket"
+    },
+    {
+      "type": "related",
+      "target_id": "15821_sainyuujou",
+      "reading": "さいにゅうじょう",
+      "headword": "{再入場|さいにゅうじょう}",
+      "label": "re-entry"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20509_shoutaiken",
+      "reading": "しょうたいけん",
+      "headword": "{招待券|しょうたいけん}",
+      "label": "complimentary ticket"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20634_jukenhyou",
+      "reading": "じゅけんひょう",
+      "headword": "{受験票|じゅけんひょう}",
+      "label": "examination admission ticket"
+    }
+  ],
   "metadata": {
     "created": "2026-03-25T14:48:00Z",
-    "modified": "2026-03-25T14:48:00Z",
+    "modified": "2026-09-02T04:01:56Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

@@ -15,41 +15,74 @@
   "examples": [
     {
       "id": "27457_uwabe_ex1",
-      "japanese": "うわべだけの{付|つ}き{合|あ}いだ。",
+      "japanese": "うわべ⟦だけ→〜だけ：03093_dake⟧⟦の→の：09472_no⟧⟦{付|つ}き{合|あ}い→付き合い：03520_tsukiai⟧だ。",
       "english": "It's a superficial relationship.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27457_uwabe_ex2",
-      "japanese": "うわべは{穏|おだ}やかだが、{内心|ないしん}は{怒|おこ}っている。",
+      "japanese": "うわべ⟦は→は：00079_ha⟧⟦{穏|おだ}やか→穏やか：02353_odayaka⟧だ⟦が→が：00051_ga⟧、⟦{内心|ないしん}→内心：11669_naishin⟧⟦は→は：00079_ha⟧⟦{怒|おこ}っている→怒る：00876_okoru⟧。",
       "english": "On the surface he looks calm, but inside he's angry.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27457_uwabe_ex3",
-      "japanese": "{人|ひと}をうわべだけで{判断|はんだん}してはいけない。",
+      "japanese": "⟦{人|ひと}→人：00476_hito⟧⟦を→を：00422_wo⟧うわべ⟦だけ→〜だけ：03093_dake⟧⟦で→で：00502_de⟧⟦{判断|はんだん}して→判断する：06062_handansuru⟧⟦は→は：00079_ha⟧いけない。",
       "english": "You shouldn't judge people only by their outward appearance.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Usually written in hiragana, occasionally as {上辺}. Almost always used figuratively, contrasting outward appearance with hidden inner reality. Carries a slightly negative nuance — suggesting that the surface is shallow or misleading.\n\nCOMMON COLLOCATIONS:\n- うわべだけ: only on the surface; merely superficial\n- うわべを{飾|かざ}る: to put on a façade\n- うわべを{取|と}り{繕|つくろ}う: to keep up appearances\n- うわべで{判断|はんだん}する: to judge by appearances\n\nSIMILAR WORDS:\n- {表面|ひょうめん}: surface — neutral; refers to literal or figurative surface without negative nuance\n- {外見|がいけん}: outward appearance — neutral; how someone or something looks\n- {見|み}かけ: outward appearance — close in meaning, slightly more colloquial",
+  "notes": "Usually written in hiragana, occasionally as {上辺}. Almost always used figuratively, contrasting outward appearance with hidden inner reality. Carries a slightly negative nuance — suggesting that the surface is shallow or misleading.\n\nCOMMON COLLOCATIONS:\n- うわべ⟦だけ→〜だけ：03093_dake⟧: only on the surface; merely superficial\n- うわべ⟦を→を：00422_wo⟧⟦{飾|かざ}る→飾る：01185_kazaru⟧: to put on a façade\n- うわべ⟦を→を：00422_wo⟧⟦{取|と}り{繕|つくろ}う→取り繕う：06864_toritsukurou⟧: to keep up appearances\n- うわべ⟦で→で：00502_de⟧⟦{判断|はんだん}する→判断する：06062_handansuru⟧: to judge by appearances\n\nSIMILAR WORDS:\n- ⟦{表面|ひょうめん}→表面：03587_hyoumen⟧: surface — neutral; refers to literal or figurative surface without negative nuance\n- ⟦{外見|がいけん}→外見：12114_gaiken⟧: outward appearance — neutral; how someone or something looks\n- {見|み}かけ: outward appearance — close in meaning, slightly more colloquial",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03587_hyoumen",
+      "reading": "ひょうめん",
+      "headword": "{表面|ひょうめん}",
+      "label": "surface"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12114_gaiken",
+      "reading": "がいけん",
+      "headword": "{外見|がいけん}",
+      "label": "outward appearance"
+    },
+    {
+      "type": "related",
+      "target_id": "09153_misekake",
+      "reading": "みせかけ",
+      "headword": "{見|み}せかけ",
+      "label": "pretense, facade, outward appearance"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["abstract"],
+      "politeness": "plain",
+      "semantic": [
+        "abstract"
+      ],
       "domain": []
     },
     "created": "2026-05-12T04:10:44Z",
-    "modified": "2026-05-12T04:10:44Z"
+    "modified": "2026-09-02T04:02:30Z"
   }
 }

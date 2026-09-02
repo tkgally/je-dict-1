@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29014_chiku_ex1",
-      "japanese": "このアパートは{築|ちく}10{年|ねん}だ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦アパート→アパート：01012_apaato⟧⟦は→は：00079_ha⟧{築|ちく}10⟦{年|ねん}→年：09876_nen⟧だ。",
       "english": "This apartment is 10 years old.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29014_chiku_ex2",
-      "japanese": "{築|ちく}{浅|あさ}の{物件|ぶっけん}を{探|さが}している。",
+      "japanese": "{築|ちく}{浅|あさ}⟦の→の：09472_no⟧⟦{物件|ぶっけん}→物件：06743_bukken⟧⟦を→を：00422_wo⟧⟦{探|さが}している→探す：00493_sagasu⟧。",
       "english": "I'm looking for a recently-built property.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29014_chiku_ex3",
-      "japanese": "{築|ちく}50{年|ねん}の{古民家|こみんか}をリノベーションして{住|す}んでいる。",
+      "japanese": "{築|ちく}50⟦{年|ねん}→年：09876_nen⟧⟦の→の：09472_no⟧⟦{古民家|こみんか}→古民家：11833_kominka⟧⟦を→を：00422_wo⟧⟦リノベーション→リノベーション：11211_rinobeeshon⟧⟦して→する：00392_suru⟧⟦{住|す}んでいる→住む：00673_sumu⟧。",
       "english": "We renovated a 50-year-old traditional house and now live in it.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Derived from the verb {築|きず}く (to build, to construct), but read ちく in this prefix usage. Appears in real estate listings and casual descriptions of a building's age. The fixed pattern is {築|ちく} + number + {年|ねん}.\n\nCOMMON PATTERNS:\n- {築|ちく}〜{年|ねん}: built ~ years ago\n- {築|ちく}{浅|あさ}: recently built (literally \"newly built\")\n- {築|ちく}{古|ふる}: old building (less common but used in listings)\n- {築|ちく}{年数|ねんすう}: years since construction (the count itself)\n\nSIMILAR WORDS:\n- {新築|しんちく}: newly built — a building that has never been occupied\n- {中古|ちゅうこ}: secondhand, used — for a previously-occupied property\n- {古民家|こみんか}: traditional old house — typically 50+ years old, often with historic value",
+  "notes": "Derived from the verb ⟦{築|きず}く→築く：02046_kizuku⟧ (to build, to construct), but read ちく in this prefix usage. Appears in real estate listings and casual descriptions of a building's age. The fixed pattern is {築|ちく} + number + ⟦{年|ねん}→年：09876_nen⟧.\n\nCOMMON PATTERNS:\n- {築|ちく}〜⟦{年|ねん}→年：09876_nen⟧: built ~ years ago\n- {築|ちく}{浅|あさ}: recently built (literally \"newly built\")\n- {築|ちく}⟦{古|ふる}→古〜：03966_furu⟧: old building (less common but used in listings)\n- ⟦{築|ちく}{年数|ねんすう}→築年数：17563_chikunensuu⟧: years since construction (the count itself)\n\nSIMILAR WORDS:\n- ⟦{新築|しんちく}→新築：06567_shinchiku⟧: newly built — a building that has never been occupied\n- ⟦{中古|ちゅうこ}→中古：03479_chuuko⟧: secondhand, used — for a previously-occupied property\n- ⟦{古民家|こみんか}→古民家：11833_kominka⟧: traditional old house — typically 50+ years old, often with historic value",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03479_chuuko",
+      "reading": "ちゅうこ",
+      "headword": "{中古|ちゅうこ}",
+      "label": "secondhand, used"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11833_kominka",
+      "reading": "こみんか",
+      "headword": "{古民家|こみんか}",
+      "label": "traditional old house"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +69,13 @@
         "prefix"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "building"
       ],
       "domain": []
     },
     "created": "2026-06-08T08:27:42Z",
-    "modified": "2026-08-09T06:33:11Z"
+    "modified": "2026-09-02T04:02:35Z"
   }
 }

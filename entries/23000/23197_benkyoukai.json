@@ -15,40 +15,87 @@
   "examples": [
     {
       "id": "23197_benkyoukai_ex1",
-      "japanese": "{週|しゅう}に{一回|いっかい}{勉強会|べんきょうかい}がある。",
+      "japanese": "⟦{週|しゅう}→週：03204_shuu⟧⟦に→に：00314_ni⟧⟦{一回|いっかい}→一回：08925_ikkai⟧{勉強会|べんきょうかい}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There's a study group once a week.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "23197_benkyoukai_ex2",
-      "japanese": "{社内|しゃない}で{勉強会|べんきょうかい}を{開|ひら}いている。",
+      "japanese": "⟦{社内|しゃない}→社内：13731_shanai⟧⟦で→で：00502_de⟧{勉強会|べんきょうかい}⟦を→を：00422_wo⟧⟦{開|ひら}いている→開く：01979_hiraku⟧。",
       "english": "We hold study meetings within the company.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "23197_benkyoukai_ex3",
-      "japanese": "プログラミングの{勉強会|べんきょうかい}に{参加|さんか}したら、{同|おな}じ{目標|もくひょう}を{持|も}つ{仲間|なかま}ができた。",
+      "japanese": "⟦プログラミング→プログラミング：06099_puroguramingu⟧⟦の→の：09472_no⟧{勉強会|べんきょうかい}⟦に→に：00314_ni⟧⟦{参加|さんか}したら→参加する：25408_sankasuru⟧、⟦{同|おな}じ→同じ：02857_onaji⟧⟦{目標|もくひょう}→目標：03631_mokuhyou⟧⟦を→を：00422_wo⟧⟦{持|も}つ→持つ：00478_motsu⟧⟦{仲間|なかま}→仲間：03498_nakama⟧⟦が→が：00051_ga⟧⟦できた→できる：00557_dekiru⟧。",
       "english": "When I attended a programming study group, I made friends with the same goals.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {勉強|べんきょう} (study) and {会|かい} (meeting, gathering). Covers a wide range from casual peer study sessions to formal professional development workshops.\n\nCOMMON COLLOCATIONS:\n- {勉強会|べんきょうかい}を{開|ひら}く: to hold a study meeting\n- {勉強会|べんきょうかい}に{参加|さんか}する: to attend a study meeting\n- {勉強会|べんきょうかい}を{主催|しゅさい}する: to organize a study meeting\n- {社内|しゃない}{勉強会|べんきょうかい}: in-company study session\n- {自主|じしゅ}{勉強会|べんきょうかい}: self-organized study group\n\nUSAGE:\nIn the workplace, {勉強会|べんきょうかい} often refers to informal knowledge-sharing sessions where employees present topics or skills to colleagues. In the tech industry, community-run {勉強会|べんきょうかい} (meetups) are very popular. The word has a more voluntary, collaborative nuance compared to {研修|けんしゅう} (formal training) or {講座|こうざ} (course/lecture).",
+  "notes": "A compound of ⟦{勉強|べんきょう}→勉強：00770_benkyou⟧ (study) and ⟦{会|かい}→会：27493_kai⟧ (meeting, gathering). Covers a wide range from casual peer study sessions to formal professional development workshops.\n\nCOMMON COLLOCATIONS:\n- {勉強会|べんきょうかい}⟦を→を：00422_wo⟧⟦{開|ひら}く→開く：01979_hiraku⟧: to hold a study meeting\n- {勉強会|べんきょうかい}⟦に→に：00314_ni⟧⟦{参加|さんか}する→参加する：25408_sankasuru⟧: to attend a study meeting\n- {勉強会|べんきょうかい}⟦を→を：00422_wo⟧⟦{主催|しゅさい}する→主催する：17278_shusaisuru⟧: to organize a study meeting\n- ⟦{社内|しゃない}→社内：13731_shanai⟧{勉強会|べんきょうかい}: in-company study session\n- ⟦{自主|じしゅ}→自主：13979_jishu⟧{勉強会|べんきょうかい}: self-organized study group\n\nUSAGE:\nIn the workplace, {勉強会|べんきょうかい} often refers to informal knowledge-sharing sessions where employees present topics or skills to colleagues. In the tech industry, community-run {勉強会|べんきょうかい} (meetups) are very popular. The word has a more voluntary, collaborative nuance compared to ⟦{研修|けんしゅう}→研修：05322_kenshuu⟧ (formal training) or ⟦{講座|こうざ}→講座：09790_kouza⟧ (course/lecture).",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21441_kouryuukai",
+      "reading": "こうりゅうかい",
+      "headword": "{交流会|こうりゅうかい}",
+      "label": "exchange meeting"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23279_kenshuukai",
+      "reading": "けんしゅうかい",
+      "headword": "{研修会|けんしゅうかい}",
+      "label": "training session"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25416_kenkyuukai",
+      "reading": "けんきゅうかい",
+      "headword": "{研究会|けんきゅうかい}",
+      "label": "study group"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27026_koushuukai",
+      "reading": "こうしゅうかい",
+      "headword": "{講習会|こうしゅうかい}",
+      "label": "workshop"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30042_gakushuukai",
+      "reading": "がくしゅうかい",
+      "headword": "学習会",
+      "label": "study group"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["education"]
+      "semantic": [
+        "education"
+      ]
     },
     "created": "2026-04-10T03:35:47Z",
-    "modified": "2026-04-10T03:35:47Z"
+    "modified": "2026-09-02T04:02:11Z"
   }
 }

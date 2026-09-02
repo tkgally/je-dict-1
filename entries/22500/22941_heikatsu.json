@@ -3,7 +3,7 @@
   "headword": "{平滑|へいかつ}",
   "reading": "へいかつ",
   "romaji": "heikatsu",
-  "part_of_speech": "adjective-na",
+  "part_of_speech": "na-adjective, noun",
   "gloss": "smooth; flat; even",
   "definitions": [
     {
@@ -15,31 +15,53 @@
   "examples": [
     {
       "id": "22941_heikatsu_ex1",
-      "japanese": "{表面|ひょうめん}が{平滑|へいかつ}だ。",
+      "japanese": "⟦{表面|ひょうめん}→表面：03587_hyoumen⟧⟦が→が：00051_ga⟧{平滑|へいかつ}だ。",
       "english": "The surface is smooth.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "22941_heikatsu_ex2",
-      "japanese": "{平滑|へいかつ}な{仕上|しあ}がりにするために、{丁寧|ていねい}に{磨|みが}いた。",
+      "japanese": "{平滑|へいかつ}な⟦{仕上|しあ}がり→仕上がり：07432_shiagari⟧⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧、⟦{丁寧|ていねい}→丁寧：00896_teinei⟧⟦に→に：00314_ni⟧⟦{磨|みが}いた→磨く：02427_migaku⟧。",
       "english": "I polished it carefully to achieve a smooth finish.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "22941_heikatsu_ex3",
-      "japanese": "この{素材|そざい}は{平滑|へいかつ}で{汚|よご}れが{付|つ}きにくい。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{素材|そざい}→素材：09492_sozai⟧⟦は→は：00079_ha⟧{平滑|へいかつ}で⟦{汚|よご}れ→汚れ：03186_yogore⟧⟦が→が：00051_ga⟧⟦{付|つ}き→付く：01960_tsuku⟧にくい。",
       "english": "This material is smooth and resistant to stains.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A na-adjective composed of {平|へい} (flat) and {滑|かつ} (smooth, slippery). Primarily used in technical, manufacturing, and scientific writing to describe smooth surfaces. Less common in everyday casual speech, where なめらか or すべすべ would be preferred.\n\nCOMMON COLLOCATIONS:\n- {平滑|へいかつ}な{表面|ひょうめん}: smooth surface\n- {平滑|へいかつ}{筋|きん}: smooth muscle (anatomy)\n- {平滑|へいかつ}に{仕上|しあ}げる: to finish smoothly\n- {平滑|へいかつ}{化|か}: smoothing, leveling\n\nSIMILAR WORDS:\n- なめらか: smooth — everyday word for smooth textures, also used for graceful movement\n- すべすべ: smooth to the touch — onomatopoeia, used for skin and surfaces in casual speech\n- {円滑|えんかつ}: smooth, harmonious — used for processes, relationships, not physical surfaces\n- {滑|なめ}らか: smooth — more literary variant of なめらか",
+  "notes": "A na-adjective composed of {平|へい} (flat) and {滑|かつ} (smooth, slippery). Primarily used in technical, manufacturing, and scientific writing to describe smooth surfaces. Less common in everyday casual speech, where なめらか or ⟦すべすべ→すべすべ：05163_subesube⟧ would be preferred.\n\nCOMMON COLLOCATIONS:\n- {平滑|へいかつ}な⟦{表面|ひょうめん}→表面：03587_hyoumen⟧: smooth surface\n- {平滑|へいかつ}{筋|きん}: smooth muscle (anatomy)\n- {平滑|へいかつ}⟦に→に：00314_ni⟧⟦{仕上|しあ}げる→仕上げる：04664_shiageru⟧: to finish smoothly\n- {平滑|へいかつ}⟦{化|か}→〜化：28335_ka⟧: smoothing, leveling\n\nSIMILAR WORDS:\n- なめらか: smooth — everyday word for smooth textures, also used for graceful movement\n- ⟦すべすべ→すべすべ：05163_subesube⟧: smooth to the touch — onomatopoeia, used for skin and surfaces in casual speech\n- ⟦{円滑|えんかつ}→円滑：10146_enkatsu⟧: smooth, harmonious — used for processes, relationships, not physical surfaces\n- ⟦{滑|なめ}らか→滑らか：06068_nameraka⟧: smooth — more literary variant of なめらか",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06068_nameraka",
+      "reading": "なめらか",
+      "headword": "{滑|なめ}らか",
+      "label": "smooth"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10146_enkatsu",
+      "reading": "えんかつ",
+      "headword": "{円滑|えんかつ}",
+      "label": "smooth, harmonious"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -47,10 +69,13 @@
         "adjective-na",
         "noun"
       ],
-      "semantic": ["descriptive"],
+      "politeness": "plain",
+      "semantic": [
+        "descriptive"
+      ],
       "formality": "formal"
     },
     "created": "2026-04-08T07:44:58Z",
-    "modified": "2026-07-31T00:22:30Z"
+    "modified": "2026-09-02T04:02:10Z"
   }
 }

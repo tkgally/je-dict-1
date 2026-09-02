@@ -3,7 +3,7 @@
   "id": "17970_tenmetsu",
   "headword": "{点滅|てんめつ}",
   "reading": "てんめつ",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "flashing; flickering; blinking",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "17970_tenmetsu_ex1",
-      "japanese": "{信号|しんごう}が{点滅|てんめつ}している。",
+      "japanese": "⟦{信号|しんごう}→信号：03258_shingou⟧⟦が→が：00051_ga⟧{点滅|てんめつ}⟦している→する：00392_suru⟧。",
       "english": "The traffic light is flashing.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "17970_tenmetsu_ex2",
-      "japanese": "{非常灯|ひじょうとう}が{赤|あか}く{点滅|てんめつ}し{始|はじ}めた。",
+      "japanese": "{非常灯|ひじょうとう}⟦が→が：00051_ga⟧⟦{赤|あか}く→赤い：00585_akai⟧{点滅|てんめつ}し⟦{始|はじ}めた→始める：00531_hajimeru⟧。",
       "english": "The emergency light started flashing red.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "17970_tenmetsu_ex3",
-      "japanese": "{黄色|きいろ}い{信号|しんごう}が{点滅|てんめつ}しているときは、{注意|ちゅうい}して{進|すす}んでください。",
+      "japanese": "⟦{黄色|きいろ}い→黄色い：00959_kiiroi⟧⟦{信号|しんごう}→信号：03258_shingou⟧⟦が→が：00051_ga⟧{点滅|てんめつ}⟦している→する：00392_suru⟧とき⟦は→は：00079_ha⟧、⟦{注意|ちゅうい}→注意：01464_chuui⟧⟦して→する：00392_suru⟧⟦{進|すす}んで→進む：01225_susumu⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "When the yellow light is flashing, please proceed with caution.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,33 @@
       ]
     }
   ],
-  "notes": "USAGE:\nComposed of {点|てん} (to light, to turn on) and {滅|めつ} (to extinguish, to turn off). Describes the on-off cycle of lights, not continuous illumination.\n\nCOMMON COLLOCATIONS:\n- {点滅|てんめつ}する (to flash, to blink)\n- {点滅|てんめつ}{信号|しんごう} (flashing traffic signal)\n- {赤|あか}く{点滅|てんめつ}する (flash red)\n- {点滅|てんめつ}を{繰|く}り{返|かえ}す (flash repeatedly)\n\nSIMILAR WORDS:\n- {明滅|めいめつ}: flickering — more literary; describes light wavering between bright and dim\n- {点灯|てんとう}: lighting up — turning a light on (without the off cycle)\n- {消灯|しょうとう}: lights out — turning lights off",
-  "cross_references": [],
+  "notes": "USAGE:\nComposed of ⟦{点|てん}→点：01553_ten⟧ (to light, to turn on) and {滅|めつ} (to extinguish, to turn off). Describes the on-off cycle of lights, not continuous illumination.\n\nCOMMON COLLOCATIONS:\n- {点滅|てんめつ}⟦する→する：00392_suru⟧ (to flash, to blink)\n- {点滅|てんめつ}{信号|しんごう} (flashing traffic signal)\n- ⟦{赤|あか}く→赤い：00585_akai⟧{点滅|てんめつ}⟦する→する：00392_suru⟧ (flash red)\n- {点滅|てんめつ}⟦を→を：00422_wo⟧⟦{繰|く}り{返|かえ}す→繰り返す：02051_kurikaesu⟧ (flash repeatedly)\n\nSIMILAR WORDS:\n- {明滅|めいめつ}: flickering — more literary; describes light wavering between bright and dim\n- ⟦{点灯|てんとう}→点灯：17477_tentou⟧: lighting up — turning a light on (without the off cycle)\n- ⟦{消灯|しょうとう}→消灯：18944_shoutou⟧: lights out — turning lights off",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17477_tentou",
+      "reading": "てんとう",
+      "headword": "{点灯|てんとう}",
+      "label": "lighting up"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18944_shoutou",
+      "reading": "しょうとう",
+      "headword": "{消灯|しょうとう}",
+      "label": "lights out"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19691_chiratsuku",
+      "reading": "ちらつく",
+      "headword": "ちらつく",
+      "label": "to flicker"
+    }
+  ],
   "metadata": {
     "created": "2026-03-19T10:06:01Z",
-    "modified": "2026-03-29T03:08:18Z",
+    "modified": "2026-09-02T04:01:50Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

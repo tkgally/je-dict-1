@@ -61,7 +61,6 @@ def main():
 
     # Generate JSON files for each kanji
     kanji_dir = Path('kanji')
-    timestamp = datetime.now(timezone.utc).isoformat().replace('+00:00', 'Z')
 
     for kanji_char, kanji_data in kanji_list['kanji'].items():
         kanji_id = kanji_data['kanji_id']
@@ -77,8 +76,7 @@ def main():
                 'onyomi': kanji_data['onyomi'],
                 'kunyomi': kanji_data['kunyomi'],
                 'gloss': kanji_data['gloss'],
-                'entry_count': len(entries_sorted),
-                'generated': timestamp
+                'entry_count': len(entries_sorted)
             },
             'entries': entries_sorted
         }

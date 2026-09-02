@@ -15,40 +15,59 @@
   "examples": [
     {
       "id": "27038_sekidome_ex1",
-      "japanese": "{咳止|せきど}めを{飲|の}んだ。",
+      "japanese": "{咳止|せきど}め⟦を→を：00422_wo⟧⟦{飲|の}んだ→飲む：00322_nomu⟧。",
       "english": "I took some cough medicine.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27038_sekidome_ex2",
-      "japanese": "{薬局|やっきょく}で{咳止|せきど}めを{買|か}ってきて。",
+      "japanese": "⟦{薬局|やっきょく}→薬局：01069_yakkyoku⟧⟦で→で：00502_de⟧{咳止|せきど}め⟦を→を：00422_wo⟧⟦{買|か}って→買う：00489_kau⟧きて。",
       "english": "Go buy some cough medicine at the pharmacy.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27038_sekidome_ex3",
-      "japanese": "この{咳止|せきど}めシロップは{子供|こども}でも{飲|の}みやすい。",
+      "japanese": "⟦この→この：00962_kono⟧{咳止|せきど}め⟦シロップ→シロップ：21577_shiroppu⟧⟦は→は：00079_ha⟧⟦{子供|こども}→子供：00554_kodomo⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧⟦{飲|の}みやすい→飲みやすい：21767_nomiyasui⟧。",
       "english": "This cough syrup is easy even for children to take.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {咳|せき} (cough) and {止|と}め (stopping), referring to medicine that suppresses coughing. Can refer to cough drops, syrups, or tablets.\n\nCOMMON COLLOCATIONS:\n- {咳止|せきど}めを{飲|の}む — to take cough medicine\n- {咳止|せきど}めシロップ — cough syrup\n- {咳止|せきど}めの{薬|くすり} — cough medicine\n- {咳止|せきど}めドロップ — cough drops\n\nSIMILAR WORDS:\n- {風邪薬|かぜぐすり} — cold medicine (broader; treats multiple cold symptoms, not just cough)\n- {鎮咳剤|ちんがいざい} — antitussive (medical/technical term for cough suppressant)",
+  "notes": "A compound of ⟦{咳|せき}→咳：12007_seki⟧ (cough) and ⟦{止|と}め→止める：00678_tomeru⟧ (stopping), referring to medicine that suppresses coughing. Can refer to cough drops, syrups, or tablets.\n\nCOMMON COLLOCATIONS:\n- {咳止|せきど}め⟦を→を：00422_wo⟧⟦{飲|の}む→飲む：00322_nomu⟧ — to take cough medicine\n- {咳止|せきど}め⟦シロップ→シロップ：21577_shiroppu⟧ — cough syrup\n- {咳止|せきど}め⟦の→の：09472_no⟧⟦{薬|くすり}→薬：00793_kusuri⟧ — cough medicine\n- {咳止|せきど}めドロップ — cough drops\n\nSIMILAR WORDS:\n- ⟦{風邪薬|かぜぐすり}→風邪薬：09712_kazegusuri⟧ — cold medicine (broader; treats multiple cold symptoms, not just cough)\n- {鎮咳剤|ちんがいざい} — antitussive (medical/technical term for cough suppressant)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09712_kazegusuri",
+      "reading": "かぜぐすり",
+      "headword": "{風邪薬|かぜぐすり}",
+      "label": "cold medicine (broader"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["health"]
+      "semantic": [
+        "health"
+      ]
     },
     "created": "2026-05-06T15:07:39Z",
-    "modified": "2026-08-07T06:31:23Z"
+    "modified": "2026-09-02T04:02:28Z"
   }
 }

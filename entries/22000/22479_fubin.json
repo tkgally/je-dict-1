@@ -3,7 +3,7 @@
   "headword": "{不憫|ふびん}",
   "reading": "ふびん",
   "romaji": "fubin",
-  "part_of_speech": "na-adjective",
+  "part_of_speech": "na-adjective, noun",
   "gloss": "pitiful; pitiable; poor (someone to feel sorry for)",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22479_fubin_ex1",
-      "japanese": "{不憫|ふびん}な{子|こ}だ。",
+      "japanese": "{不憫|ふびん}な⟦{子|こ}→子：09851_ko⟧だ。",
       "english": "What a poor child.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22479_fubin_ex2",
-      "japanese": "{親|おや}を{亡|な}くした{子供|こども}を{不憫|ふびん}に{思|おも}う。",
+      "japanese": "⟦{親|おや}→親：01357_oya⟧⟦を→を：00422_wo⟧⟦{亡|な}くした→亡くす：30483_nakusu⟧⟦{子供|こども}→子供：00554_kodomo⟧⟦を→を：00422_wo⟧{不憫|ふびん}⟦に→に：00314_ni⟧⟦{思|おも}う→思う：00492_omou⟧。",
       "english": "I feel sorry for the child who lost their parents.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22479_fubin_ex3",
-      "japanese": "{祖母|そぼ}は{不憫|ふびん}な{孫|まご}のために{毎日|まいにち}お{弁当|べんとう}を{作|つく}ってくれた。",
+      "japanese": "⟦{祖母|そぼ}→祖母：00813_sobo⟧⟦は→は：00079_ha⟧{不憫|ふびん}な⟦{孫|まご}→孫：03731_mago⟧⟦の→の：09472_no⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧⟦{毎日|まいにち}→毎日：00729_mainichi⟧⟦お{弁当|べんとう}→お弁当：02864_obentou⟧⟦を→を：00422_wo⟧⟦{作|つく}って→作る：00481_tsukuru⟧⟦くれた→くれる：00724_kureru⟧。",
       "english": "My grandmother made a lunch box every day for her poor grandchild.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Expresses a feeling of pity or sympathy for someone who is in an unfortunate situation, often through no fault of their own. The emotion conveyed is one of compassionate sadness rather than contempt. Also written as {不便|ふびん} in older texts, though {不憫|ふびん} is the standard modern form.\n\nCOMMON COLLOCATIONS:\n- {不憫|ふびん}に{思|おも}う: to feel sorry for\n- {不憫|ふびん}な{子|こ}: a poor child\n- {不憫|ふびん}でならない: cannot help feeling sorry\n\nSIMILAR WORDS:\n- {可哀想|かわいそう}: pitiful, poor — the most common everyday word for expressing pity; less literary than {不憫|ふびん}\n- {気|き}の{毒|どく}: unfortunate, pitiable — focuses on the situation being regrettable; also used as a polite apology\n- {哀|あわ}れ: pathos, pity — literary; conveys a deeper sense of sorrow",
+  "notes": "Expresses a feeling of pity or sympathy for someone who is in an unfortunate situation, often through no fault of their own. The emotion conveyed is one of compassionate sadness rather than contempt. Also written as {不便|ふびん} in older texts, though {不憫|ふびん} is the standard modern form.\n\nCOMMON COLLOCATIONS:\n- {不憫|ふびん}⟦に→に：00314_ni⟧⟦{思|おも}う→思う：00492_omou⟧: to feel sorry for\n- {不憫|ふびん}な⟦{子|こ}→子：09851_ko⟧: a poor child\n- {不憫|ふびん}で⟦ならない→なる：01970_naru⟧: cannot help feeling sorry\n\nSIMILAR WORDS:\n- {可哀想|かわいそう}: pitiful, poor — the most common everyday word for expressing pity; less literary than {不憫|ふびん}\n- ⟦{気|き}の{毒|どく}→気の毒：02581_kinodoku⟧: unfortunate, pitiable — focuses on the situation being regrettable; also used as a polite apology\n- ⟦{哀|あわ}れ→哀れ：01775_aware⟧: pathos, pity — literary; conveys a deeper sense of sorrow",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02581_kinodoku",
+      "reading": "きのどく",
+      "headword": "{気|き}の{毒|どく}",
+      "label": "unfortunate, pitiable"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01775_aware",
+      "reading": "あわれ",
+      "headword": "{哀|あわ}れ",
+      "label": "pathos, pity"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02580_kawaisou",
+      "reading": "かわいそう",
+      "headword": "かわいそう",
+      "label": "pitiful, pathetic, poor (thing)"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +83,6 @@
       "politeness": "plain"
     },
     "created": "2026-04-06T14:21:16Z",
-    "modified": "2026-04-06T14:21:16Z"
+    "modified": "2026-09-02T04:02:08Z"
   }
 }

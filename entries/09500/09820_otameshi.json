@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "09820_otameshi_ex1",
-      "japanese": "お{試|ため}しサイズを{買|か}ってみた。",
+      "japanese": "お{試|ため}し⟦サイズ→サイズ：01363_saizu⟧⟦を→を：00422_wo⟧⟦{買|か}って→買う：00489_kau⟧みた。",
       "english": "I bought the trial size.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "09820_otameshi_ex2",
-      "japanese": "まずはお{試|ため}しコースで{体験|たいけん}できます。",
+      "japanese": "⟦まず→まず：00796_mazu⟧⟦は→は：00079_ha⟧お{試|ため}し⟦コース→コース：10864_koosu⟧⟦で→で：00502_de⟧⟦{体験|たいけん}→体験：11443_taiken⟧⟦できます→できる：00557_dekiru⟧。",
       "english": "You can first try it with a trial course.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "09820_otameshi_ex3",
-      "japanese": "お{試|ため}し{期間|きかん}は{1週間|いっしゅうかん}{無料|むりょう}です。",
+      "japanese": "お{試|ため}し⟦{期間|きかん}→期間：00229_kikan⟧⟦は→は：00079_ha⟧{1週間|いっしゅうかん}⟦{無料|むりょう}→無料：01662_muryou⟧です。",
       "english": "The trial period is free for one week.",
       "notes": null,
       "has_audio": false,
@@ -43,10 +43,33 @@
       ]
     }
   ],
-  "notes": "お{試|ため}し is commonly used in marketing for trial-size products, free trial periods, and sample offerings. The polite prefix お- makes it sound more appealing to customers.\n\nCOMMON COLLOCATIONS:\n- お{試|ため}し{価格|かかく} (trial price)\n- お{試|ため}しセット (trial set)\n- お{試|ため}し{期間|きかん} (trial period)\n- お{試|ため}しキャンペーン (trial campaign)\n\nRELATED TERMS:\n- {無料|むりょう}{体験|たいけん}: free trial\n- サンプル: sample\n- {初回|しょかい}{限定|げんてい}: first-time only",
+  "notes": "お{試|ため}し is commonly used in marketing for trial-size products, free trial periods, and sample offerings. The polite prefix お- makes it sound more appealing to customers.\n\nCOMMON COLLOCATIONS:\n- お{試|ため}し⟦{価格|かかく}→価格：00147_kakaku⟧ (trial price)\n- お{試|ため}し⟦セット→セット：03853_setto⟧ (trial set)\n- お{試|ため}し⟦{期間|きかん}→期間：00229_kikan⟧ (trial period)\n- お{試|ため}し⟦キャンペーン→キャンペーン：10809_kyanpeen⟧ (trial campaign)\n\nRELATED WORDS:\n- ⟦{無料|むりょう}{体験|たいけん}→無料体験：09743_muryoutaiken⟧: free trial\n- ⟦サンプル→サンプル：10939_sanpuru⟧: sample\n- ⟦{初回|しょかい}{限定|げんてい}→初回限定：09821_shokaigentei⟧: first-time only",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "09743_muryoutaiken",
+      "reading": "むりょうたいけん",
+      "headword": "{無料|むりょう}{体験|たいけん}",
+      "label": "free trial"
+    },
+    {
+      "type": "related",
+      "target_id": "10939_sanpuru",
+      "reading": "さんぷる",
+      "headword": "サンプル",
+      "label": "sample"
+    },
+    {
+      "type": "related",
+      "target_id": "09821_shokaigentei",
+      "reading": "しょかいげんてい",
+      "headword": "{初回|しょかい}{限定|げんてい}",
+      "label": "first-time only"
+    }
+  ],
   "metadata": {
     "created": "2026-02-03T12:23:06Z",
-    "modified": "2026-06-26T03:27:23Z",
+    "modified": "2026-09-02T04:01:19Z",
     "ai_model": "claude-opus-4-5-20251101",
     "vocabulary_tier": "general",
     "tags": {

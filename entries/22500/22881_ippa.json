@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22881_ippa_ex1",
-      "japanese": "{彼|かれ}はその{一派|いっぱ}の{中心|ちゅうしん}{人物|じんぶつ}だ。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦その→その：00993_sono⟧{一派|いっぱ}⟦の→の：09472_no⟧⟦{中心|ちゅうしん}→中心：01467_chuushin⟧⟦{人物|じんぶつ}→人物：03356_jinbutsu⟧だ。",
       "english": "He is the central figure of that faction.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22881_ippa_ex2",
-      "japanese": "{改革|かいかく}{一派|いっぱ}が{勢力|せいりょく}を{伸|の}ばしている。",
+      "japanese": "⟦{改革|かいかく}→改革：04815_kaikaku⟧{一派|いっぱ}⟦が→が：00051_ga⟧⟦{勢力|せいりょく}→勢力：11812_seiryoku⟧⟦を→を：00422_wo⟧⟦{伸|の}ばしている→伸ばす：01973_nobasu⟧。",
       "english": "The reform faction is gaining influence.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22881_ippa_ex3",
-      "japanese": "この{流派|りゅうは}は{千利休|せんのりきゅう}の{一派|いっぱ}から{生|う}まれた。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{流派|りゅうは}→流派：13365_ryuuha⟧⟦は→は：00079_ha⟧{千利休|せんのりきゅう}⟦の→の：09472_no⟧{一派|いっぱ}⟦から→から：00504_kara⟧⟦{生|う}まれた→生まれる：00905_umareru⟧。",
       "english": "This school was born from one of Sen no Rikyū's factions.",
       "sense_numbers": [
         1
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {一|いち} (one) + {派|は} (faction, school). Refers to a distinct group within a larger movement or tradition. Can be neutral or slightly negative depending on context.\n\nCOMMON COLLOCATIONS:\n- {一派|いっぱ}を{率|ひき}いる: to lead a faction\n- {一派|いっぱ}に{属|ぞく}する: to belong to a faction\n- ～の{一派|いっぱ}: a faction of ~\n- {反対|はんたい}{一派|いっぱ}: the opposing faction\n\nSIMILAR WORDS:\n- {派閥|はばつ}: faction, clique — often used in politics with a slightly negative nuance\n- {流派|りゅうは}: school, style — used for artistic or martial arts traditions\n- {宗派|しゅうは}: sect, denomination — specifically for religious groups\n- {一味|いちみ}: a gang, accomplices — negative connotation, implies criminal association",
+  "notes": "Composed of ⟦{一|いち}→一：00705_ichi⟧ (one) + ⟦{派|は}→派：28356_ha⟧ (faction, school). Refers to a distinct group within a larger movement or tradition. Can be neutral or slightly negative depending on context.\n\nCOMMON COLLOCATIONS:\n- {一派|いっぱ}⟦を→を：00422_wo⟧⟦{率|ひき}いる→率いる：10879_hikiiru⟧: to lead a faction\n- {一派|いっぱ}⟦に→に：00314_ni⟧⟦{属|ぞく}する→属する：12402_zokusuru⟧: to belong to a faction\n- ～⟦の→の：09472_no⟧{一派|いっぱ}: a faction of ~\n- ⟦{反対|はんたい}→反対：01497_hantai⟧{一派|いっぱ}: the opposing faction\n\nSIMILAR WORDS:\n- ⟦{派閥|はばつ}→派閥：16960_habatsu⟧: faction, clique — often used in politics with a slightly negative nuance\n- ⟦{流派|りゅうは}→流派：13365_ryuuha⟧: school, style — used for artistic or martial arts traditions\n- {宗派|しゅうは}: sect, denomination — specifically for religious groups\n- ⟦{一味|いちみ}→一味：11238_ichimi⟧: a gang, accomplices — negative connotation, implies criminal association",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16960_habatsu",
+      "reading": "はばつ",
+      "headword": "{派閥|はばつ}",
+      "label": "faction, clique"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13365_ryuuha",
+      "reading": "りゅうは",
+      "headword": "{流派|りゅうは}",
+      "label": "school, style"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11238_ichimi",
+      "reading": "いちみ",
+      "headword": "{一味|いちみ}",
+      "label": "a gang, accomplices"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24360_batsu",
+      "reading": "ばつ",
+      "headword": "{閥|ばつ}",
+      "label": "clique"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +90,6 @@
       ]
     },
     "created": "2026-04-07T19:16:05Z",
-    "modified": "2026-04-10T08:28:27Z"
+    "modified": "2026-09-02T04:02:10Z"
   }
 }

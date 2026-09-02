@@ -3,7 +3,7 @@
   "headword": "{催促|さいそく}する",
   "reading": "さいそくする",
   "romaji": "saisoku suru",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "to urge; to press; to demand promptly",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26806_saisokusuru_ex1",
-      "japanese": "{友達|ともだち}に{本|ほん}の{返却|へんきゃく}を{催促|さいそく}した。",
+      "japanese": "⟦{友達|ともだち}→友達：01478_tomodachi⟧⟦に→に：00314_ni⟧{本|ほん}⟦の→の：09472_no⟧⟦{返却|へんきゃく}→返却：03149_henkyaku⟧⟦を→を：00422_wo⟧{催促|さいそく}した。",
       "english": "I pressed my friend to return the book.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26806_saisokusuru_ex2",
-      "japanese": "{上司|じょうし}に{報告書|ほうこくしょ}の{提出|ていしゅつ}を{催促|さいそく}された。",
+      "japanese": "⟦{上司|じょうし}→上司：03286_joushi⟧⟦に→に：00314_ni⟧⟦{報告書|ほうこくしょ}→報告書：06744_houkokusho⟧⟦の→の：09472_no⟧⟦{提出|ていしゅつ}→提出：03542_teishutsu⟧⟦を→を：00422_wo⟧{催促|さいそく}された。",
       "english": "My boss urged me to submit the report.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26806_saisokusuru_ex3",
-      "japanese": "{何度|なんど}も{催促|さいそく}しているのに、まだ{返事|へんじ}が{来|こ}ない。",
+      "japanese": "⟦{何度|なんど}→何度：17592_nando⟧⟦も→も：00484_mo⟧{催促|さいそく}して⟦いる→いる：00495_iru⟧⟦の→の：09472_no⟧⟦に→に：00314_ni⟧、⟦まだ→まだ：00603_mada⟧⟦{返事|へんじ}→返事：00844_henji⟧⟦が→が：00051_ga⟧⟦{来|こ}ない→来る：00254_kuru⟧。",
       "english": "Even though I've pressed them many times, I still haven't gotten a reply.",
       "sense_numbers": [
         1
@@ -44,8 +44,44 @@
       "notes": null
     }
   ],
-  "notes": "Implies that the person being urged is overdue or slow in fulfilling an obligation. Carries a slightly pushy or impatient nuance — stronger than simply asking or reminding.\n\nCOMMON COLLOCATIONS:\n- {支払|しはら}いを{催促|さいそく}する: to press for payment\n- {返事|へんじ}を{催促|さいそく}する: to urge a reply\n- {催促|さいそく}の{電話|でんわ}: a phone call pressing for action\n- {催促|さいそく}{状|じょう}: a demand letter, reminder notice\n\nSIMILAR WORDS:\n- {促|うなが}す: to prompt/urge — more neutral and polite, used for encouragement as well as reminders\n- {督促|とくそく}する: to demand — stronger and more formal, often used in legal/financial contexts\n- {急|せ}かす: to rush someone — focuses on speed rather than fulfillment of obligation\n\nUSAGE:\nCommon in both business and daily life. Being {催促|さいそく}される (pressed/urged) is somewhat uncomfortable in Japanese culture, so people often try to fulfill obligations before reaching that point.",
-  "cross_references": [],
+  "notes": "Implies that the person being urged is overdue or slow in fulfilling an obligation. Carries a slightly pushy or impatient nuance — stronger than simply asking or reminding.\n\nCOMMON COLLOCATIONS:\n- {支払|しはら}い⟦を→を：00422_wo⟧{催促|さいそく}する: to press for payment\n- ⟦{返事|へんじ}→返事：00844_henji⟧⟦を→を：00422_wo⟧{催促|さいそく}する: to urge a reply\n- ⟦{催促|さいそく}→催促：04159_saisoku⟧⟦の→の：09472_no⟧⟦{電話|でんわ}→電話：01471_denwa⟧: a phone call pressing for action\n- ⟦{催促|さいそく}→催促：04159_saisoku⟧⟦{状|じょう}→状：09878_jou⟧: a demand letter, reminder notice\n\nSIMILAR WORDS:\n- ⟦{促|うなが}す→促す：10875_unagasu⟧: to prompt/urge — more neutral and polite, used for encouragement as well as reminders\n- ⟦{督促|とくそく}→督促：09002_tokusoku⟧⟦する→する：00392_suru⟧: to demand — stronger and more formal, often used in legal/financial contexts\n- ⟦{急|せ}かす→急かす：12596_sekasu⟧: to rush someone — focuses on speed rather than fulfillment of obligation\n\nUSAGE:\nCommon in both business and daily life. Being {催促|さいそく}される (pressed/urged) is somewhat uncomfortable in Japanese culture, so people often try to fulfill obligations before reaching that point.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "10875_unagasu",
+      "reading": "うながす",
+      "headword": "{促|うなが}す",
+      "label": "to prompt/urge"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09002_tokusoku",
+      "reading": "とくそく",
+      "headword": "{督促|とくそく}",
+      "label": "to demand"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12596_sekasu",
+      "reading": "せかす",
+      "headword": "{急|せ}かす",
+      "label": "to rush someone"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20289_toritateru",
+      "reading": "とりたてる",
+      "headword": "{取|と}り{立|た}てる",
+      "label": "to collect forcibly"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26988_seikyuusuru",
+      "reading": "せいきゅうする",
+      "headword": "{請求|せいきゅう}する",
+      "label": "to bill"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -60,10 +96,11 @@
         "communication",
         "business"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-05-05T12:08:01Z",
-    "modified": "2026-05-05T12:08:01Z"
+    "modified": "2026-09-02T04:02:27Z"
   },
   "conjugation": {
     "type": "suru",

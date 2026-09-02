@@ -15,41 +15,66 @@
   "examples": [
     {
       "id": "14021_urawaza_ex1",
-      "japanese": "このゲームには{裏技|うらわざ}がたくさんある。",
+      "japanese": "⟦この→この：00962_kono⟧⟦ゲーム→ゲーム：03842_geemu⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{裏技|うらわざ}⟦が→が：00051_ga⟧⟦たくさん→たくさん：00597_takusan⟧⟦ある→ある：00006_aru⟧。",
       "english": "This game has a lot of secret tricks.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14021_urawaza_ex2",
-      "japanese": "{料理|りょうり}の{裏技|うらわざ}を{教|おし}えてもらった。",
+      "japanese": "⟦{料理|りょうり}→料理：01523_ryouri⟧⟦の→の：09472_no⟧{裏技|うらわざ}⟦を→を：00422_wo⟧⟦{教|おし}えて→教える：00526_oshieru⟧⟦もらった→もらう：00520_morau⟧。",
       "english": "Someone taught me a cooking hack.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14021_urawaza_ex3",
-      "japanese": "{節約|せつやく}の{裏技|うらわざ}をSNSで{紹介|しょうかい}したら、たくさんの{人|ひと}にシェアされた。",
+      "japanese": "⟦{節約|せつやく}→節約：03302_setsuyaku⟧⟦の→の：09472_no⟧{裏技|うらわざ}⟦を→を：00422_wo⟧SNS⟦で→で：00502_de⟧⟦{紹介|しょうかい}したら→紹介する：05641_shoukaisuru⟧、⟦たくさん→たくさん：00597_takusan⟧⟦の→の：09472_no⟧⟦{人|ひと}→人：00476_hito⟧⟦に→に：00314_ni⟧⟦シェア→シェア：07882_shea⟧⟦された→する：00392_suru⟧。",
       "english": "When I shared a money-saving hack on social media, lots of people shared it.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "A compound of {裏|うら} (hidden side, behind the scenes) and {技|わざ} (technique, skill).\n\nCOMMON COLLOCATIONS:\n- {裏技|うらわざ}を{使|つか}う (use a hidden trick)\n- {裏技|うらわざ}を{教|おし}える (teach a secret trick)\n- {生活|せいかつ}の{裏技|うらわざ} (life hack)\n- {節約|せつやく}の{裏技|うらわざ} (money-saving hack)\n\nOriginally popularized in the context of video games (cheat codes, hidden features, Easter eggs), the word has expanded to mean any clever insider tip. It is very common in lifestyle media, cooking shows, and online content, where it is essentially equivalent to the English \"life hack.\" The tone is informal and positive — a {裏技|うらわざ} is a welcome shortcut, not something underhanded.",
-  "cross_references": [],
+  "notes": "A compound of ⟦{裏|うら}→裏：02178_ura⟧ (hidden side, behind the scenes) and ⟦{技|わざ}→技：02172_waza⟧ (technique, skill).\n\nCOMMON COLLOCATIONS:\n- {裏技|うらわざ}⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧ (use a hidden trick)\n- {裏技|うらわざ}⟦を→を：00422_wo⟧⟦{教|おし}える→教える：00526_oshieru⟧ (teach a secret trick)\n- ⟦{生活|せいかつ}→生活：01443_seikatsu⟧⟦の→の：09472_no⟧{裏技|うらわざ} (life hack)\n- ⟦{節約|せつやく}→節約：03302_setsuyaku⟧⟦の→の：09472_no⟧{裏技|うらわざ} (money-saving hack)\n\nOriginally popularized in the context of video games (cheat codes, hidden features, Easter eggs), the word has expanded to mean any clever insider tip. It is very common in lifestyle media, cooking shows, and online content, where it is essentially equivalent to the English \"life hack.\" The tone is informal and positive — a {裏技|うらわざ} is a welcome shortcut, not something underhanded.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25480_hisaku",
+      "reading": "ひさく",
+      "headword": "{秘策|ひさく}",
+      "label": "secret plan"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27218_mamechishiki",
+      "reading": "まめちしき",
+      "headword": "{豆知識|まめちしき}",
+      "label": "trivia"
+    }
+  ],
   "metadata": {
     "created": "2026-02-27T09:17:32Z",
-    "modified": "2026-02-27T09:17:32Z",
+    "modified": "2026-09-02T04:01:35Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "informal",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

@@ -15,41 +15,67 @@
   "examples": [
     {
       "id": "30017_akapera_ex1",
-      "japanese": "アカペラで{歌|うた}う。",
+      "japanese": "アカペラ⟦で→で：00502_de⟧⟦{歌|うた}う→歌う：00684_utau⟧。",
       "english": "To sing a cappella.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "30017_akapera_ex2",
-      "japanese": "{大学|だいがく}でアカペラサークルに{入|はい}っている。",
+      "japanese": "⟦{大学|だいがく}→大学：00608_daigaku⟧⟦で→で：00502_de⟧アカペラ⟦サークル→サークル：10933_saakuru⟧⟦に→に：00314_ni⟧⟦{入|はい}っている→入る：00494_hairu⟧。",
       "english": "I'm in an a cappella club at university.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "30017_akapera_ex3",
-      "japanese": "{楽器|がっき}を{使|つか}わず、{五人|ごにん}のアカペラだけであの{名曲|めいきょく}を{再現|さいげん}した。",
+      "japanese": "⟦{楽器|がっき}→楽器：13159_gakki⟧⟦を→を：00422_wo⟧⟦{使|つか}わ→使う：00473_tsukau⟧ず、⟦{五人|ごにん}→五人：30567_gonin⟧⟦の→の：09472_no⟧アカペラ⟦だけ→〜だけ：03093_dake⟧⟦で→で：00502_de⟧⟦あの→あの：00915_ano⟧⟦{名曲|めいきょく}→名曲：17476_meikyoku⟧⟦を→を：00422_wo⟧⟦{再現|さいげん}→再現：09777_saigen⟧⟦した→する：00392_suru⟧。",
       "english": "Without using any instruments, the five of them recreated that famous song with a cappella alone.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "The everyday word for unaccompanied singing, common in pop, choral, and school-club contexts. Frequently used with で to mean \"a cappella\" adverbially.\n\nCOMMON COLLOCATIONS:\n- アカペラで{歌|うた}う: to sing a cappella\n- アカペラサークル: a cappella club\n- アカペラグループ: a cappella group\n\nSIMILAR WORDS:\n- {無伴奏|むばんそう}: unaccompanied — the more formal, classical-music equivalent",
+  "notes": "The everyday word for unaccompanied singing, common in pop, choral, and school-club contexts. Frequently used with で to mean \"a cappella\" adverbially.\n\nCOMMON COLLOCATIONS:\n- アカペラ⟦で→で：00502_de⟧⟦{歌|うた}う→歌う：00684_utau⟧: to sing a cappella\n- アカペラ⟦サークル→サークル：10933_saakuru⟧: a cappella club\n- アカペラ⟦グループ→グループ：03840_guruupu⟧: a cappella group\n\nSIMILAR WORDS:\n- ⟦{無伴奏|むばんそう}→無伴奏：30016_mubansou⟧: unaccompanied — the more formal, classical-music equivalent",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "30016_mubansou",
+      "reading": "むばんそう",
+      "headword": "{無伴奏|むばんそう}",
+      "label": "unaccompanied"
+    },
+    {
+      "type": "related",
+      "target_id": "06566_bansou",
+      "reading": "ばんそう",
+      "headword": "{伴奏|ばんそう}",
+      "label": "musical accompaniment"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["music"],
+      "politeness": "plain",
+      "semantic": [
+        "music"
+      ],
       "domain": []
     },
     "created": "2026-07-21T18:18:56Z",
-    "modified": "2026-07-21T18:18:56Z"
+    "modified": "2026-09-02T04:02:38Z"
   }
 }

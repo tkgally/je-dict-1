@@ -2,7 +2,7 @@
   "id": "10050_kyougyou",
   "headword": "{協業|きょうぎょう}",
   "reading": "きょうぎょう",
-  "part_of_speech": "noun, suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "collaboration, cooperation, partnership",
   "conjugation": {
     "type": "suru",
@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "10050_kyougyou_ex1",
-      "japanese": "{他社|たしゃ}と{協業|きょうぎょう}する。",
+      "japanese": "⟦{他社|たしゃ}→他社：17803_tasha⟧⟦と→と：00512_to⟧{協業|きょうぎょう}⟦する→する：00392_suru⟧。",
       "english": "To collaborate with other companies.",
       "sense_numbers": [
         1
@@ -114,7 +114,7 @@
     },
     {
       "id": "10050_kyougyou_ex2",
-      "japanese": "{協業|きょうぎょう}{関係|かんけい}を{築|きず}く。",
+      "japanese": "{協業|きょうぎょう}⟦{関係|かんけい}→関係：01298_kankei⟧⟦を→を：00422_wo⟧⟦{築|きず}く→築く：02046_kizuku⟧。",
       "english": "To build a partnership.",
       "sense_numbers": [
         1
@@ -124,7 +124,7 @@
     },
     {
       "id": "10050_kyougyou_ex3",
-      "japanese": "{異業種|いぎょうしゅ}との{協業|きょうぎょう}が{増|ふ}えている。",
+      "japanese": "{異業種|いぎょうしゅ}⟦と→と：00512_to⟧⟦の→の：09472_no⟧{協業|きょうぎょう}⟦が→が：00051_ga⟧⟦{増|ふ}えている→増える：01183_fueru⟧。",
       "english": "Collaborations with different industries are increasing.",
       "sense_numbers": [
         1
@@ -134,7 +134,7 @@
     },
     {
       "id": "10050_kyougyou_ex4",
-      "japanese": "{両社|りょうしゃ}は{新製品|しんせいひん}{開発|かいはつ}で{協業|きょうぎょう}することになった。",
+      "japanese": "{両社|りょうしゃ}⟦は→は：00079_ha⟧⟦{新製品|しんせいひん}→新製品：18629_shinseihin⟧⟦{開発|かいはつ}→開発：06746_kaihatsu⟧⟦で→で：00502_de⟧{協業|きょうぎょう}⟦する→する：00392_suru⟧ことになった。",
       "english": "The two companies have decided to collaborate on new product development.",
       "sense_numbers": [
         1
@@ -143,11 +143,40 @@
       "notes": null
     }
   ],
-  "notes": "{協業|きょうぎょう} means business collaboration or partnership.\n\nCOMPONENTS:\n- {協|きょう}: together, cooperate\n- {業|ぎょう}: business, work\n\nCOMMON PATTERNS:\n- {協業|きょうぎょう}する: to collaborate\n- {協業|きょうぎょう}{関係|かんけい}: collaborative relationship\n- {協業|きょうぎょう}{先|さき}: collaboration partner\n- {協業|きょうぎょう}を{進|すす}める: to advance collaboration\n\nCONTEXTS:\nOften used in business news and corporate announcements about partnerships.\n\nRELATED:\n- {提携|ていけい}: alliance, partnership\n- {連携|れんけい}: cooperation, coordination\n- {合弁|ごうべん}: joint venture\n- {コラボレーション}: collaboration (loanword)",
-  "cross_references": [],
+  "notes": "{協業|きょうぎょう} means business collaboration or partnership.\n\nETYMOLOGY:\n- {協|きょう}: together, cooperate\n- {業|ぎょう}: business, work\n\nCOMMON PATTERNS:\n- {協業|きょうぎょう}⟦する→する：00392_suru⟧: to collaborate\n- {協業|きょうぎょう}⟦{関係|かんけい}→関係：01298_kankei⟧: collaborative relationship\n- {協業|きょうぎょう}⟦{先|さき}→先：02883_saki⟧: collaboration partner\n- {協業|きょうぎょう}⟦を→を：00422_wo⟧⟦{進|すす}める→進める：01949_susumeru⟧: to advance collaboration\n\nUSAGE:\nOften used in business news and corporate announcements about partnerships.\n\nRELATED WORDS:\n- ⟦{提携|ていけい}→提携：05773_teikei⟧: alliance, partnership\n- ⟦{連携|れんけい}→連携：05094_renkei⟧: cooperation, coordination\n- {合弁|ごうべん}: joint venture\n- コラボレーション: collaboration (loanword)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "05773_teikei",
+      "reading": "ていけい",
+      "headword": "{提携|ていけい}",
+      "label": "alliance, partnership"
+    },
+    {
+      "type": "related",
+      "target_id": "05094_renkei",
+      "reading": "れんけい",
+      "headword": "{連携|れんけい}",
+      "label": "cooperation, coordination"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09617_bungyou",
+      "reading": "ぶんぎょう",
+      "headword": "{分業|ぶんぎょう}",
+      "label": "division of labor, specialization"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22907_gyoumuteikei",
+      "reading": "ぎょうむていけい",
+      "headword": "{業務|ぎょうむ}{提携|ていけい}",
+      "label": "business alliance"
+    }
+  ],
   "metadata": {
     "created": "2026-02-04T14:18:11Z",
-    "modified": "2026-03-29T03:07:35Z",
+    "modified": "2026-09-02T04:01:20Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

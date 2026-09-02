@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "20964_gouken_ex1",
-      "japanese": "{最高裁|さいこうさい}が{合憲|ごうけん}と{判断|はんだん}した。",
+      "japanese": "{最高裁|さいこうさい}⟦が→が：00051_ga⟧{合憲|ごうけん}⟦と→と：00512_to⟧⟦{判断|はんだん}した→判断する：06062_handansuru⟧。",
       "english": "The Supreme Court ruled it constitutional.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "20964_gouken_ex2",
-      "japanese": "この{法律|ほうりつ}が{合憲|ごうけん}かどうかが{争|あらそ}われている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{法律|ほうりつ}→法律：01722_houritsu⟧⟦が→が：00051_ga⟧{合憲|ごうけん}⟦かどうか→かどうか：28299_kadouka⟧⟦が→が：00051_ga⟧⟦{争|あらそ}われている→争う：01866_arasou⟧。",
       "english": "Whether this law is constitutional is being disputed.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "20964_gouken_ex3",
-      "japanese": "{合憲|ごうけん}{判決|はんけつ}が{出|で}たことで、{政府|せいふ}は{政策|せいさく}を{継続|けいぞく}する{方針|ほうしん}だ。",
+      "japanese": "{合憲|ごうけん}⟦{判決|はんけつ}→判決：05906_hanketsu⟧⟦が→が：00051_ga⟧⟦{出|で}た→出る：00513_deru⟧ことで、⟦{政府|せいふ}→政府：03294_seifu⟧⟦は→は：00079_ha⟧⟦{政策|せいさく}→政策：10070_seisaku⟧⟦を→を：00422_wo⟧⟦{継続|けいぞく}する→継続する：26971_keizokusuru⟧⟦{方針|ほうしん}→方針：04871_houshin⟧だ。",
       "english": "With the ruling of constitutionality, the government plans to continue the policy.",
       "sense_numbers": [
         1
@@ -43,7 +43,7 @@
       "notes": null
     }
   ],
-  "notes": "A legal term that is the antonym of {違憲|いけん} (unconstitutional). Frequently encountered in news coverage of Supreme Court decisions and constitutional debates.\n\nCOMMON COLLOCATIONS:\n- {合憲|ごうけん}{判決|はんけつ}: ruling of constitutionality\n- {合憲|ごうけん}{判断|はんだん}: judgment of constitutionality\n- {合憲|ごうけん}か{違憲|いけん}か: whether constitutional or unconstitutional\n- {合憲|ごうけん}{性|せい}: constitutionality\n\nSIMILAR WORDS:\n- {違憲|いけん}: unconstitutional — the direct antonym\n- {適法|てきほう}: lawful, legal — conforming to law in general\n- {合法|ごうほう}: legal, lawful — in accordance with the law (broader than constitutional)",
+  "notes": "A legal term that is the antonym of ⟦{違憲|いけん}→違憲：15917_iken⟧ (unconstitutional). Frequently encountered in news coverage of Supreme Court decisions and constitutional debates.\n\nCOMMON COLLOCATIONS:\n- {合憲|ごうけん}⟦{判決|はんけつ}→判決：05906_hanketsu⟧: ruling of constitutionality\n- {合憲|ごうけん}⟦{判断|はんだん}→判断：03571_handan⟧: judgment of constitutionality\n- {合憲|ごうけん}⟦か→か：09473_ka⟧⟦{違憲|いけん}→違憲：15917_iken⟧⟦か→か：09473_ka⟧: whether constitutional or unconstitutional\n- {合憲|ごうけん}⟦{性|せい}→性：09880_sei⟧: constitutionality\n\nSIMILAR WORDS:\n- ⟦{違憲|いけん}→違憲：15917_iken⟧: unconstitutional — the direct antonym\n- ⟦{適法|てきほう}→適法：21808_tekihou⟧: lawful, legal — conforming to law in general\n- ⟦{合法|ごうほう}→合法：15024_gouhou⟧: legal, lawful — in accordance with the law (broader than constitutional)",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -60,7 +60,7 @@
       ]
     },
     "created": "2026-03-30T22:24:58Z",
-    "modified": "2026-05-02T08:18:57Z"
+    "modified": "2026-09-02T04:02:01Z"
   },
   "cross_references": [
     {
@@ -69,6 +69,20 @@
       "reading": "いけん",
       "headword": "{違憲|いけん}",
       "label": "unconstitutional"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21808_tekihou",
+      "reading": "てきほう",
+      "headword": "{適法|てきほう}",
+      "label": "lawful, legal"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15024_gouhou",
+      "reading": "ごうほう",
+      "headword": "{合法|ごうほう}",
+      "label": "legal, lawful"
     }
   ]
 }

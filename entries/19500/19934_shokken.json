@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "19934_shokken_ex1",
-      "japanese": "{食券|しょっけん}を{買|か}ってください。",
+      "japanese": "{食券|しょっけん}⟦を→を：00422_wo⟧⟦{買|か}って→買う：00489_kau⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please buy a meal ticket.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "19934_shokken_ex2",
-      "japanese": "{入口|いりぐち}の{券売機|けんばいき}で{食券|しょっけん}を{買|か}う。",
+      "japanese": "{入口|いりぐち}⟦の→の：09472_no⟧⟦{券売機|けんばいき}→券売機：09553_kenbaiki⟧⟦で→で：00502_de⟧{食券|しょっけん}⟦を→を：00422_wo⟧⟦{買|か}う→買う：00489_kau⟧。",
       "english": "Buy a meal ticket at the vending machine by the entrance.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "19934_shokken_ex3",
-      "japanese": "ラーメン{屋|や}に{入|はい}ったら、まず{食券|しょっけん}を{購入|こうにゅう}して{店員|てんいん}に{渡|わた}す。",
+      "japanese": "⟦ラーメン→ラーメン：05181_raamen⟧⟦{屋|や}→〜屋：03096_ya⟧⟦に→に：00314_ni⟧⟦{入|はい}ったら→入る：00494_hairu⟧、⟦まず→まず：00796_mazu⟧{食券|しょっけん}⟦を→を：00422_wo⟧⟦{購入|こうにゅう}→購入：03057_kounyuu⟧⟦して→する：00392_suru⟧⟦{店員|てんいん}→店員：00897_tenin⟧⟦に→に：00314_ni⟧⟦{渡|わた}す→渡す：02442_watasu⟧。",
       "english": "When you enter a ramen shop, first buy a meal ticket and hand it to the staff.",
       "sense_numbers": [
         1
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "A key concept for anyone visiting Japanese restaurants. Many casual eateries — especially ramen shops, {牛丼|ぎゅうどん} chains, and {社員食堂|しゃいんしょくどう} (company cafeterias) — use a ticket vending machine ({券売機|けんばいき}) system where you pay for your meal upfront and hand the ticket to the staff.\n\nCOMMON COLLOCATIONS:\n- {食券|しょっけん}を{買|か}う: to buy a meal ticket\n- {食券|しょっけん}を{渡|わた}す: to hand over a meal ticket\n- {食券|しょっけん}{制|せい}: meal ticket system\n- {食券|しょっけん}{販売機|はんばいき}: meal ticket vending machine\n\nRELATED TERMS:\n- {券売機|けんばいき}: ticket vending machine\n- {社員食堂|しゃいんしょくどう}: company cafeteria\n- {学食|がくしょく}: university cafeteria (abbreviation of {学生食堂|がくせいしょくどう})",
+  "notes": "A key concept for anyone visiting Japanese restaurants. Many casual eateries — especially ramen shops, ⟦{牛丼|ぎゅうどん}→牛丼：08600_gyuudon⟧ chains, and ⟦{社員食堂|しゃいんしょくどう}→社員食堂：19803_shainshokudou⟧ (company cafeterias) — use a ticket vending machine (⟦{券売機|けんばいき}→券売機：09553_kenbaiki⟧) system where you pay for your meal upfront and hand the ticket to the staff.\n\nCOMMON COLLOCATIONS:\n- {食券|しょっけん}⟦を→を：00422_wo⟧⟦{買|か}う→買う：00489_kau⟧: to buy a meal ticket\n- {食券|しょっけん}⟦を→を：00422_wo⟧⟦{渡|わた}す→渡す：02442_watasu⟧: to hand over a meal ticket\n- {食券|しょっけん}⟦{制|せい}→〜制：30791_sei⟧: meal ticket system\n- {食券|しょっけん}⟦{販売機|はんばいき}→販売機：26391_hanbaiki⟧: meal ticket vending machine\n\nRELATED WORDS:\n- ⟦{券売機|けんばいき}→券売機：09553_kenbaiki⟧: ticket vending machine\n- ⟦{社員食堂|しゃいんしょくどう}→社員食堂：19803_shainshokudou⟧: company cafeteria\n- ⟦{学食|がくしょく}→学食：12241_gakushoku⟧: university cafeteria (abbreviation of {学生食堂|がくせいしょくどう})",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "09553_kenbaiki",
+      "reading": "けんばいき",
+      "headword": "{券売機|けんばいき}",
+      "label": "ticket vending machine"
+    },
+    {
+      "type": "related",
+      "target_id": "19803_shainshokudou",
+      "reading": "しゃいんしょくどう",
+      "headword": "{社員食堂|しゃいんしょくどう}",
+      "label": "company cafeteria"
+    },
+    {
+      "type": "related",
+      "target_id": "12241_gakushoku",
+      "reading": "がくしょく",
+      "headword": "{学食|がくしょく}",
+      "label": "university cafeteria"
+    },
+    {
+      "type": "related",
+      "target_id": "19454_nyuujouken",
+      "reading": "にゅうじょうけん",
+      "headword": "{入場券|にゅうじょうけん}",
+      "label": "admission ticket, entrance ticket"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +89,6 @@
       ]
     },
     "created": "2026-03-27T06:09:33Z",
-    "modified": "2026-07-27T12:42:09Z"
+    "modified": "2026-09-02T04:01:57Z"
   }
 }

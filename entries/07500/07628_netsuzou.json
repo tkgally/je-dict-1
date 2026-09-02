@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "07628_netsuzou_ex1",
-      "japanese": "データを{捏造|ねつぞう}する。",
+      "japanese": "⟦データ→データ：03944_deeta⟧⟦を→を：00422_wo⟧{捏造|ねつぞう}⟦する→する：00392_suru⟧。",
       "english": "To fabricate data.",
       "has_audio": false,
       "sense_numbers": [
@@ -113,7 +113,7 @@
     },
     {
       "id": "07628_netsuzou_ex2",
-      "japanese": "この{記事|きじ}は{捏造|ねつぞう}だと{判明|はんめい}した。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{記事|きじ}→記事：00227_kiji⟧⟦は→は：00079_ha⟧{捏造|ねつぞう}だ⟦と→と：00512_to⟧⟦{判明|はんめい}→判明：11785_hanmei⟧⟦した→する：00392_suru⟧。",
       "english": "This article turned out to be fabricated.",
       "has_audio": false,
       "sense_numbers": [
@@ -122,7 +122,7 @@
     },
     {
       "id": "07628_netsuzou_ex3",
-      "japanese": "{研究|けんきゅう}{不正|ふせい}で{論文|ろんぶん}の{捏造|ねつぞう}が{発覚|はっかく}した。",
+      "japanese": "⟦{研究|けんきゅう}→研究：01396_kenkyuu⟧⟦{不正|ふせい}→不正：01660_fusei⟧で⟦{論文|ろんぶん}→論文：03787_ronbun⟧⟦の→の：09472_no⟧{捏造|ねつぞう}⟦が→が：00051_ga⟧⟦{発覚|はっかく}した→発覚する：15423_hakkakusuru⟧。",
       "english": "Fabrication of the research paper was discovered as academic misconduct.",
       "has_audio": false,
       "sense_numbers": [
@@ -130,7 +130,7 @@
       ]
     }
   ],
-  "notes": "COMMON COLLOCATIONS:\n・データを{捏造|ねつぞう}する - to fabricate data\n・{証拠|しょうこ}を{捏造|ねつぞう}する - to forge evidence\n・{歴史|れきし}の{捏造|ねつぞう} - falsification of history\n・{論文|ろんぶん}{捏造|ねつぞう} - research fraud/fabrication\n\nUSAGE CONTEXT:\nCommon in news reporting about scandals, academic misconduct, or legal cases.\n\nRELATED WORDS:\n・{改竄|かいざん} - falsification, tampering (altering existing documents)\n・{歪曲|わいきょく} - distortion, misrepresentation\n・{偽造|ぎぞう} - forgery, counterfeiting (especially documents, money)",
+  "notes": "COMMON COLLOCATIONS:\n- ⟦データ→データ：03944_deeta⟧⟦を→を：00422_wo⟧{捏造|ねつぞう}⟦する→する：00392_suru⟧ - to fabricate data\n- ⟦{証拠|しょうこ}→証拠：10575_shouko⟧⟦を→を：00422_wo⟧{捏造|ねつぞう}⟦する→する：00392_suru⟧ - to forge evidence\n- ⟦{歴史|れきし}→歴史：02267_rekishi⟧⟦の→の：09472_no⟧{捏造|ねつぞう} - falsification of history\n- ⟦{論文|ろんぶん}→論文：03787_ronbun⟧{捏造|ねつぞう} - research fraud/fabrication\n\nUSAGE:\nCommon in news reporting about scandals, academic misconduct, or legal cases.\n\nRELATED WORDS:\n- ⟦{改竄|かいざん}→改竄：07943_kaizan⟧ - falsification, tampering (altering existing documents)\n- ⟦{歪曲|わいきょく}→歪曲：07968_waikyoku⟧ - distortion, misrepresentation\n- ⟦{偽造|ぎぞう}→偽造：11524_gizou⟧ - forgery, counterfeiting (especially documents, money)",
   "cross_references": [
     {
       "type": "synonym",
@@ -145,11 +145,32 @@
       "reading": "ぎぞう",
       "headword": "{偽造|ぎぞう}",
       "label": "forgery, counterfeiting"
+    },
+    {
+      "type": "related",
+      "target_id": "07968_waikyoku",
+      "reading": "わいきょく",
+      "headword": "{歪曲|わいきょく}",
+      "label": "distortion, misrepresentation"
+    },
+    {
+      "type": "related",
+      "target_id": "07627_inpei",
+      "reading": "いんぺい",
+      "headword": "{隠蔽|いんぺい}",
+      "label": "concealment"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25260_funshoku",
+      "reading": "ふんしょく",
+      "headword": "{粉飾|ふんしょく}",
+      "label": "embellishment"
     }
   ],
   "metadata": {
     "created": "2026-01-20T13:21:59Z",
-    "modified": "2026-08-11T09:37:41Z",
+    "modified": "2026-09-02T04:01:12Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -158,6 +179,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "communication",
         "action"
@@ -166,7 +188,8 @@
         "legal",
         "academic"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

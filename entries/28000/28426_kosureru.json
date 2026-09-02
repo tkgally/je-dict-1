@@ -3,7 +3,7 @@
   "headword": "{擦|こす}れる",
   "reading": "こすれる",
   "romaji": "kosureru",
-  "part_of_speech": "verb",
+  "part_of_speech": "verb (ichidan)",
   "gloss": "to rub against; to chafe; to become worn",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28426_kosureru_ex1",
-      "japanese": "{靴|くつ}が{擦|こす}れて{痛|いた}い。",
+      "japanese": "⟦{靴|くつ}→靴：00725_kutsu⟧⟦が→が：00051_ga⟧⟦{擦|こす}れ→擦る：04262_kosuru⟧て⟦{痛|いた}い→痛い：01108_itai⟧。",
       "english": "My shoes are rubbing and it hurts.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28426_kosureru_ex2",
-      "japanese": "{袋|ふくろ}が{壁|かべ}に{擦|こす}れて{破|やぶ}れた。",
+      "japanese": "⟦{袋|ふくろ}→袋：00837_fukuro⟧⟦が→が：00051_ga⟧⟦{壁|かべ}→壁：01290_kabe⟧⟦に→に：00314_ni⟧⟦{擦|こす}れ→擦る：04262_kosuru⟧て⟦{破|やぶ}れた→破れる：02322_yabureru⟧。",
       "english": "The bag rubbed against the wall and tore.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28426_kosureru_ex3",
-      "japanese": "{長|なが}い{間|あいだ}{使|つか}っていたので、リュックの{底|そこ}が{擦|こす}れて{薄|うす}くなってきた。",
+      "japanese": "⟦{長|なが}い→長い：00491_nagai⟧⟦{間|あいだ}→間：00914_aida⟧⟦{使|つか}っていた→使う：00473_tsukau⟧⟦の→の：09472_no⟧で、⟦リュック→リュック：04541_ryukku⟧⟦の→の：09472_no⟧⟦{底|そこ}→底：12560_soko⟧⟦が→が：00051_ga⟧⟦{擦|こす}れ→擦る：04262_kosuru⟧て⟦{薄|うす}く→薄い：00764_usui⟧⟦なって→なる：01970_naru⟧きた。",
       "english": "Since I'd been using it for a long time, the bottom of the backpack had become worn and thin.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "TRANSITIVITY:\nIntransitive ({自動詞|じどうし}). The transitive pair is {擦|こす}る (to rub something). The thing that rubs is marked with が; what it rubs against is marked with に.\n\nPATTERN:\n- AがBに{擦|こす}れる: A rubs against B\n\nCOMMON COLLOCATIONS:\n- {靴|くつ}が{擦|こす}れる: the shoes chafe\n- {肌|はだ}が{擦|こす}れる: the skin chafes\n- {生地|きじ}が{擦|こす}れる: the fabric gets worn\n- {擦|こす}れて{破|やぶ}れる: tear from friction\n\nSIMILAR WORDS:\n- {擦|こす}る: to rub (something) — the transitive pair; an actor deliberately rubs something\n- {擦|す}り{切|き}れる: to wear through completely — endpoint of long-term {擦|こす}れる",
+  "notes": "TRANSITIVITY:\nIntransitive (⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧). The transitive pair is ⟦{擦|こす}る→擦る：04262_kosuru⟧ (to rub something). The thing that rubs is marked with が; what it rubs against is marked with ⟦に→に：00314_ni⟧.\n\nCOMMON PATTERNS:\n- A⟦が→が：00051_ga⟧B⟦に→に：00314_ni⟧{擦|こす}れる: A rubs against B\n\nCOMMON COLLOCATIONS:\n- ⟦{靴|くつ}→靴：00725_kutsu⟧⟦が→が：00051_ga⟧{擦|こす}れる: the shoes chafe\n- ⟦{肌|はだ}→肌：02243_hada⟧⟦が→が：00051_ga⟧{擦|こす}れる: the skin chafes\n- ⟦{生地|きじ}→生地：02631_kiji⟧⟦が→が：00051_ga⟧{擦|こす}れる: the fabric gets worn\n- ⟦{擦|こす}れ→擦る：04262_kosuru⟧て⟦{破|やぶ}れる→破れる：02322_yabureru⟧: tear from friction\n\nSIMILAR WORDS:\n- ⟦{擦|こす}る→擦る：04262_kosuru⟧: to rub (something) — the transitive pair; an actor deliberately rubs something\n- ⟦{擦|す}り{切|き}れる→擦り切れる：08216_surikireru⟧: to wear through completely — endpoint of long-term {擦|こす}れる",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -63,7 +63,7 @@
       "domain": []
     },
     "created": "2026-05-31T02:08:49Z",
-    "modified": "2026-08-09T09:17:33Z"
+    "modified": "2026-09-02T04:02:33Z"
   },
   "conjugation": {
     "type": "ichidan",
@@ -162,6 +162,13 @@
       "reading": "こする",
       "headword": "{擦|こす}る",
       "label": "transitive"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08216_surikireru",
+      "reading": "すりきれる",
+      "headword": "{擦|す}り{切|き}れる",
+      "label": "to wear through completely"
     }
   ]
 }

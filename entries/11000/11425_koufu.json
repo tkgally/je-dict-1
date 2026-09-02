@@ -2,7 +2,7 @@
   "id": "11425_koufu",
   "headword": "{交付|こうふ}",
   "reading": "こうふ",
-  "part_of_speech": "noun / suru verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "issuance, granting, delivery",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "11425_koufu_ex1",
-      "japanese": "パスポートが{交付|こうふ}された。",
+      "japanese": "⟦パスポート→パスポート：00341_pasupooto⟧⟦が→が：00051_ga⟧{交付|こうふ}⟦された→する：00392_suru⟧。",
       "english": "The passport was issued.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "11425_koufu_ex2",
-      "japanese": "{補助金|ほじょきん}の{交付|こうふ}を{申請|しんせい}する。",
+      "japanese": "⟦{補助金|ほじょきん}→補助金：19222_hojokin⟧⟦の→の：09472_no⟧{交付|こうふ}⟦を→を：00422_wo⟧⟦{申請|しんせい}する→申請する：25228_shinseisuru⟧。",
       "english": "To apply for the granting of a subsidy.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "11425_koufu_ex3",
-      "japanese": "{運転免許証|うんてんめんきょしょう}は{試験|しけん}に{合格|ごうかく}した{後|あと}、{即日|そくじつ}{交付|こうふ}される{場合|ばあい}もある。",
+      "japanese": "⟦{運転免許証|うんてんめんきょしょう}→運転免許証：25263_untenmenkyoshou⟧⟦は→は：00079_ha⟧⟦{試験|しけん}→試験：01422_shiken⟧⟦に→に：00314_ni⟧⟦{合格|ごうかく}した→合格する：27949_goukakusuru⟧⟦{後|あと}→後：09580_ato⟧、⟦{即日|そくじつ}→即日：09661_sokujitsu⟧{交付|こうふ}⟦される→する：00392_suru⟧⟦{場合|ばあい}→場合：01704_baai⟧⟦も→も：00484_mo⟧⟦ある→ある：00006_aru⟧。",
       "english": "A driver's license may be issued on the same day after passing the exam.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,19 @@
       ]
     }
   ],
-  "notes": "COMMON COLLOCATIONS:\n- {交付|こうふ}する (to issue, to grant)\n- {交付|こうふ}を{受|う}ける (to receive an issuance)\n- {交付|こうふ}{金|きん} (grant money, subsidy)\n- {交付|こうふ}{日|び} (date of issuance)\n- {交付|こうふ}を{申請|しんせい}する (to apply for issuance)\n\nREGISTER: {交付|こうふ} is a formal, administrative term. It is used specifically for official documents and funds distributed by government or institutional authorities.",
-  "cross_references": [],
+  "notes": "COMMON COLLOCATIONS:\n- {交付|こうふ}⟦する→する：00392_suru⟧ (to issue, to grant)\n- {交付|こうふ}⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧ (to receive an issuance)\n- {交付|こうふ}{金|きん} (grant money, subsidy)\n- {交付|こうふ}{日|び} (date of issuance)\n- {交付|こうふ}⟦を→を：00422_wo⟧⟦{申請|しんせい}する→申請する：25228_shinseisuru⟧ (to apply for issuance)\n\nREGISTER: {交付|こうふ} is a formal, administrative term. It is used specifically for official documents and funds distributed by government or institutional authorities.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21479_josei",
+      "reading": "じょせい",
+      "headword": "{助成|じょせい}",
+      "label": "subsidy"
+    }
+  ],
   "metadata": {
     "created": "2026-02-16T07:35:11Z",
-    "modified": "2026-06-30T18:44:39Z",
+    "modified": "2026-09-02T04:01:25Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

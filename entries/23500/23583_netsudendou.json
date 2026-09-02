@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "23583_netsudendou_ex1",
-      "japanese": "{銅|どう}は{熱伝導|ねつでんどう}が{良|よ}い。",
+      "japanese": "⟦{銅|どう}→銅：19443_dou⟧⟦は→は：00079_ha⟧{熱伝導|ねつでんどう}⟦が→が：00051_ga⟧⟦{良|よ}い→良い：02350_yoi⟧。",
       "english": "Copper has good heat conduction.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "23583_netsudendou_ex2",
-      "japanese": "このフライパンは{熱伝導|ねつでんどう}が{高|たか}く、{素早|すばや}く{温|あたた}まる。",
+      "japanese": "⟦この→この：00962_kono⟧⟦フライパン→フライパン：01025_furaipan⟧⟦は→は：00079_ha⟧{熱伝導|ねつでんどう}⟦が→が：00051_ga⟧⟦{高|たか}く→高い：00500_takai⟧、⟦{素早|すばや}く→素早い：17093_subayai⟧⟦{温|あたた}まる→温まる：02095_atatamaru⟧。",
       "english": "This frying pan has high thermal conductivity and heats up quickly.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "23583_netsudendou_ex3",
-      "japanese": "{金属|きんぞく}と{木|き}では{熱伝導|ねつでんどう}の{速|はや}さが{大|おお}きく{異|こと}なる。",
+      "japanese": "⟦{金属|きんぞく}→金属：02645_kinzoku⟧⟦と→と：00512_to⟧⟦{木|き}→木：00524_ki⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧{熱伝導|ねつでんどう}⟦の→の：09472_no⟧⟦{速|はや}さ→速さ：28072_hayasa⟧⟦が→が：00051_ga⟧⟦{大|おお}きく→大きい：00335_ookii⟧⟦{異|こと}なる→異なる：02101_kotonaru⟧。",
       "english": "The speed of heat conduction differs greatly between metal and wood.",
       "sense_numbers": [
         1
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "A scientific term combining {熱|ねつ} (heat) and {伝導|でんどう} (conduction, transmission). Used in physics and engineering, as well as in consumer contexts describing cookware, thermal insulation, and electronics cooling.\n\nCOMMON COLLOCATIONS:\n- {熱伝導|ねつでんどう}が{良|よ}い / {悪|わる}い: has good / poor heat conduction\n- {熱伝導|ねつでんどう}{率|りつ}: thermal conductivity (coefficient)\n- {熱伝導|ねつでんどう}{性|せい}: thermal conductivity (property)\n- {熱伝導|ねつでんどう}シート: thermal conduction sheet (used in electronics)\n\nRELATED TERMS:\n- {対流|たいりゅう}: convection — heat transfer via fluid movement\n- {放射|ほうしゃ}: radiation — heat transfer via electromagnetic waves\n- {断熱|だんねつ}: heat insulation — blocking heat transfer",
+  "notes": "A scientific term combining ⟦{熱|ねつ}→熱：01690_netsu⟧ (heat) and ⟦{伝導|でんどう}→伝導：24991_dendou⟧ (conduction, transmission). Used in physics and engineering, as well as in consumer contexts describing cookware, thermal insulation, and electronics cooling.\n\nCOMMON COLLOCATIONS:\n- {熱伝導|ねつでんどう}⟦が→が：00051_ga⟧⟦{良|よ}い→良い：02350_yoi⟧ / ⟦{悪|わる}い→悪い：00908_warui⟧: has good / poor heat conduction\n- {熱伝導|ねつでんどう}{率|りつ}: thermal conductivity (coefficient)\n- {熱伝導|ねつでんどう}⟦{性|せい}→性：09880_sei⟧: thermal conductivity (property)\n- {熱伝導|ねつでんどう}⟦シート→シート：10945_shiito⟧: thermal conduction sheet (used in electronics)\n\nRELATED WORDS:\n- {対流|たいりゅう}: convection — heat transfer via fluid movement\n- ⟦{放射|ほうしゃ}→放射：16334_housha⟧: radiation — heat transfer via electromagnetic waves\n- ⟦{断熱|だんねつ}→断熱：06427_dannetsu⟧: heat insulation — blocking heat transfer",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "16334_housha",
+      "reading": "ほうしゃ",
+      "headword": "{放射|ほうしゃ}",
+      "label": "radiation"
+    },
+    {
+      "type": "related",
+      "target_id": "06427_dannetsu",
+      "reading": "だんねつ",
+      "headword": "{断熱|だんねつ}",
+      "label": "heat insulation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26634_dounetsu",
+      "reading": "どうねつ",
+      "headword": "{導熱|どうねつ}",
+      "label": "heat conduction"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29773_netsudentatsu",
+      "reading": "ねつでんたつ",
+      "headword": "熱伝達",
+      "label": "heat transfer"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -63,6 +93,6 @@
       ]
     },
     "created": "2026-04-12T18:10:29Z",
-    "modified": "2026-08-01T21:36:06Z"
+    "modified": "2026-09-02T04:02:13Z"
   }
 }

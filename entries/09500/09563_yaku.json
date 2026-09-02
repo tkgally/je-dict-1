@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "09563_yaku_ex1",
-      "japanese": "{約|やく}10{人|にん}が{参加|さんか}した。",
+      "japanese": "{約|やく}10⟦{人|にん}→〜人：00658_nin⟧⟦が→が：00051_ga⟧⟦{参加|さんか}した→参加する：25408_sankasuru⟧。",
       "english": "About 10 people participated.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "09563_yaku_ex2",
-      "japanese": "{駅|えき}まで{約|やく}5{分|ふん}です。",
+      "japanese": "⟦{駅|えき}→駅：02180_eki⟧⟦まで→まで：00490_made⟧{約|やく}5⟦{分|ふん}→分：00928_fun⟧です。",
       "english": "It's about 5 minutes to the station.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "09563_yaku_ex3",
-      "japanese": "{約|やく}1{時間|じかん}{待|ま}った。",
+      "japanese": "{約|やく}1⟦{時間|じかん}→時間：00468_jikan⟧⟦{待|ま}った→待つ：00469_matsu⟧。",
       "english": "I waited for about an hour.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{約|やく} is a prefix meaning \"approximately\" that attaches directly to numbers.\n\nUSAGE:\n- {約|やく}10{分|ぷん} (about 10 minutes)\n- {約|やく}100{人|にん} (about 100 people)\n- {約|やく}3{時間|じかん} (about 3 hours)\n\nSIMILAR WORDS:\n- {約|やく} vs. ほぼ: {約|やく} is used specifically with numbers, while ほぼ is broader (e.g., ほぼ{完成|かんせい} = almost complete)\n- {約|やく} vs. だいたい: だいたい is more casual and can mean \"generally\" as well as \"approximately\"",
+  "notes": "{約|やく} is a prefix meaning \"approximately\" that attaches directly to numbers.\n\nUSAGE:\n- {約|やく}10{分|ぷん} (about 10 minutes)\n- {約|やく}100⟦{人|にん}→〜人：00658_nin⟧ (about 100 people)\n- {約|やく}3⟦{時間|じかん}→時間：00468_jikan⟧ (about 3 hours)\n\nSIMILAR WORDS:\n- {約|やく} vs. ⟦ほぼ→ほぼ：00109_hobo⟧: {約|やく} is used specifically with numbers, while ⟦ほぼ→ほぼ：00109_hobo⟧ is broader (e.g., ⟦ほぼ→ほぼ：00109_hobo⟧⟦{完成|かんせい}→完成：01550_kansei⟧ = almost complete)\n- {約|やく} vs. だいたい: だいたい is more casual and can mean \"generally\" as well as \"approximately\"",
   "cross_references": [
     {
       "type": "related",
@@ -61,11 +61,18 @@
       "reading": "ぐらい",
       "headword": "ぐらい",
       "label": "about, approximately"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24883_gaisuu",
+      "reading": "がいすう",
+      "headword": "{概数|がいすう}",
+      "label": "approximate number"
     }
   ],
   "metadata": {
     "created": "2026-02-03T00:29:56Z",
-    "modified": "2026-07-14T21:20:38Z",
+    "modified": "2026-09-02T04:01:18Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

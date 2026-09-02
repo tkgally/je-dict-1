@@ -14,50 +14,84 @@
   "examples": [
     {
       "id": "19448_joutai_ex1",
-      "japanese": "{上体|じょうたい}を{起|お}こす。",
+      "japanese": "{上体|じょうたい}⟦を→を：00422_wo⟧⟦{起|お}こす→起こす：01234_okosu⟧。",
       "english": "To raise one's upper body.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "19448_joutai_ex2",
-      "japanese": "{上体|じょうたい}を{前|まえ}に{倒|たお}す。",
+      "japanese": "{上体|じょうたい}⟦を→を：00422_wo⟧⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧⟦{倒|たお}す→倒す：01954_taosu⟧。",
       "english": "To bend the upper body forward.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "19448_joutai_ex3",
-      "japanese": "{上体|じょうたい}をひねるストレッチをした。",
+      "japanese": "{上体|じょうたい}⟦を→を：00422_wo⟧ひねる⟦ストレッチ→ストレッチ：05239_sutorecchi⟧⟦を→を：00422_wo⟧⟦した→する：00392_suru⟧。",
       "english": "I did a stretch where I twisted my upper body.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "19448_joutai_ex4",
-      "japanese": "ボクシングでは{上体|じょうたい}の{動|うご}きがとても{大切|たいせつ}だ。",
+      "japanese": "⟦ボクシング→ボクシング：05235_bokushingu⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧{上体|じょうたい}⟦の→の：09472_no⟧⟦{動|うご}き→動き：11926_ugoki⟧⟦が→が：00051_ga⟧⟦とても→とても：00593_totemo⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧だ。",
       "english": "In boxing, upper body movement is very important.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{上体|じょうたい} refers to the upper part of the body from the waist up, including the chest, back, shoulders, and arms. It appears most often in fitness, sports, and physical therapy contexts where specific movements of the torso are described, and is more technical than the near-synonym {上半身|じょうはんしん}.\n\nCOMMON COLLOCATIONS:\n- {上体|じょうたい}を{起|お}こす (to raise one's upper body)\n- {上体|じょうたい}を{倒|たお}す (to bend the upper body forward)\n- {上体|じょうたい}をひねる (to twist the upper body)\n- {上体|じょうたい}を{反|そ}らす (to arch the upper body backward)\n- {上体|じょうたい}{起|お}こし (sit-ups)\n\nUSAGE:\n- Commonly used in exercise instructions and sports commentary\n- Focuses on the torso as a unit that moves, bends, or rotates\n- {上半身|じょうはんしん} is a broader anatomical term; {上体|じょうたい} emphasizes the torso in motion\n\nRELATED WORDS:\n- {上半身|じょうはんしん} (upper half of the body — broader synonym)\n- {下半身|かはんしん} (lower body)\n- {全身|ぜんしん} (whole body)",
-  "cross_references": [],
+  "notes": "{上体|じょうたい} refers to the upper part of the body from the waist up, including the chest, back, shoulders, and arms. It appears most often in fitness, sports, and physical therapy contexts where specific movements of the torso are described, and is more technical than the near-synonym ⟦{上半身|じょうはんしん}→上半身：11509_jouhanshin⟧.\n\nCOMMON COLLOCATIONS:\n- {上体|じょうたい}⟦を→を：00422_wo⟧⟦{起|お}こす→起こす：01234_okosu⟧ (to raise one's upper body)\n- {上体|じょうたい}⟦を→を：00422_wo⟧⟦{倒|たお}す→倒す：01954_taosu⟧ (to bend the upper body forward)\n- {上体|じょうたい}⟦を→を：00422_wo⟧ひねる (to twist the upper body)\n- {上体|じょうたい}⟦を→を：00422_wo⟧⟦{反|そ}らす→反らす：20852_sorasu⟧ (to arch the upper body backward)\n- {上体|じょうたい}{起|お}こし (sit-ups)\n\nUSAGE:\n- Commonly used in exercise instructions and sports commentary\n- Focuses on the torso as a unit that moves, bends, or rotates\n- ⟦{上半身|じょうはんしん}→上半身：11509_jouhanshin⟧ is a broader anatomical term; {上体|じょうたい} emphasizes the torso in motion\n\nRELATED WORDS:\n- ⟦{上半身|じょうはんしん}→上半身：11509_jouhanshin⟧ (upper half of the body — broader synonym)\n- ⟦{下半身|かはんしん}→下半身：19453_kahanshin⟧ (lower body)\n- ⟦{全身|ぜんしん}→全身：03313_zenshin⟧ (whole body)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "11509_jouhanshin",
+      "reading": "じょうはんしん",
+      "headword": "{上半身|じょうはんしん}",
+      "label": "upper half of the body"
+    },
+    {
+      "type": "related",
+      "target_id": "19453_kahanshin",
+      "reading": "かはんしん",
+      "headword": "{下半身|かはんしん}",
+      "label": "lower body"
+    },
+    {
+      "type": "related",
+      "target_id": "03313_zenshin",
+      "reading": "ぜんしん",
+      "headword": "{全身|ぜんしん}",
+      "label": "whole body"
+    }
+  ],
   "metadata": {
     "created": "2026-03-25T14:44:30Z",
-    "modified": "2026-03-25T14:44:30Z",
+    "modified": "2026-09-02T04:01:56Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["body-part"]
+      "semantic": [
+        "body-part"
+      ]
     }
   }
 }

@@ -3,7 +3,7 @@
   "id": "14051_rakka",
   "headword": "{落下|らっか}",
   "reading": "らっか",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "fall, descent, drop",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "14051_rakka_ex1",
-      "japanese": "{屋根|やね}から{雪|ゆき}が{落下|らっか}した。",
+      "japanese": "⟦{屋根|やね}→屋根：02264_yane⟧⟦から→から：00504_kara⟧⟦{雪|ゆき}→雪：00584_yuki⟧⟦が→が：00051_ga⟧{落下|らっか}⟦した→する：00392_suru⟧。",
       "english": "Snow fell from the roof.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "14051_rakka_ex2",
-      "japanese": "{工事|こうじ}{現場|げんば}では{落下物|らっかぶつ}に{注意|ちゅうい}してください。",
+      "japanese": "⟦{工事|こうじ}{現場|げんば}→工事現場：26202_koujigenba⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{落下物|らっかぶつ}→落下物：22008_rakkabutsu⟧⟦に→に：00314_ni⟧⟦{注意|ちゅうい}→注意：01464_chuui⟧⟦して→する：00392_suru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please watch out for falling objects at the construction site.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "14051_rakka_ex3",
-      "japanese": "{自由|じゆう}{落下|らっか}の{実験|じっけん}では、{空気|くうき}{抵抗|ていこう}がなければ{全|すべ}ての{物体|ぶったい}が{同|おな}じ{速|はや}さで{落|お}ちる。",
+      "japanese": "⟦{自由|じゆう}→自由：01148_jiyuu⟧{落下|らっか}⟦の→の：09472_no⟧⟦{実験|じっけん}→実験：03273_jikken⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧、⟦{空気|くうき}→空気：01390_kuuki⟧⟦{抵抗|ていこう}→抵抗：03540_teikou⟧⟦が→が：00051_ga⟧⟦なければ→ない：01118_nai⟧⟦{全|すべ}て→全て：03822_subete⟧⟦の→の：09472_no⟧⟦{物体|ぶったい}→物体：13506_buttai⟧⟦が→が：00051_ga⟧⟦{同|おな}じ→同じ：02857_onaji⟧⟦{速|はや}さ→速さ：28072_hayasa⟧⟦で→で：00502_de⟧⟦{落|お}ちる→落ちる：01242_ochiru⟧。",
       "english": "In a free-fall experiment, if there is no air resistance, all objects fall at the same speed.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA formal word for falling, used more in written language, news, and technical contexts than in daily conversation (where {落|お}ちる is more natural).\n\nCOMMON COMPOUNDS:\n- {自由|じゆう}{落下|らっか}: free fall\n- {落下物|らっかぶつ}: falling object\n- {落下|らっか}{傘|さん}: parachute\n- {落下|らっか}{地点|ちてん}: point of impact\n\nCOMMON COLLOCATIONS:\n- {落下|らっか}する: to fall, to drop\n- {落下|らっか}を{防|ふせ}ぐ: to prevent falling",
+  "notes": "USAGE:\nA formal word for falling, used more in written language, news, and technical contexts than in daily conversation (where ⟦{落|お}ちる→落ちる：01242_ochiru⟧ is more natural).\n\nCOMPOUNDS:\n- ⟦{自由|じゆう}→自由：01148_jiyuu⟧{落下|らっか}: free fall\n- ⟦{落下物|らっかぶつ}→落下物：22008_rakkabutsu⟧: falling object\n- {落下|らっか}{傘|さん}: parachute\n- {落下|らっか}⟦{地点|ちてん}→地点：04058_chiten⟧: point of impact\n\nCOMMON COLLOCATIONS:\n- {落下|らっか}⟦する→する：00392_suru⟧: to fall, to drop\n- {落下|らっか}⟦を→を：00422_wo⟧⟦{防|ふせ}ぐ→防ぐ：02409_fusegu⟧: to prevent falling",
   "cross_references": [
     {
       "type": "related",
@@ -149,11 +149,32 @@
       "reading": "かつらく",
       "headword": "{滑落|かつらく}",
       "label": "sliding down (slopes)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18763_tsuiraku",
+      "reading": "ついらく",
+      "headword": "{墜落|ついらく}",
+      "label": "crash"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19790_tenraku",
+      "reading": "てんらく",
+      "headword": "{転落|てんらく}",
+      "label": "fall"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21547_kouka",
+      "reading": "こうか",
+      "headword": "{降下|こうか}",
+      "label": "descent"
     }
   ],
   "metadata": {
     "created": "2026-02-27T10:16:25Z",
-    "modified": "2026-05-06T09:07:22Z",
+    "modified": "2026-09-02T04:01:35Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -166,7 +187,8 @@
       "semantic": [
         "movement"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

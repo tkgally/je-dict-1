@@ -2,7 +2,7 @@
   "id": "01665_chuusha",
   "headword": "{注射|ちゅうしゃ}",
   "reading": "ちゅうしゃ",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "injection, shot",
   "definitions": [
     {
@@ -44,10 +44,60 @@
     }
   ],
   "notes": "{注射|ちゅうしゃ} refers to medical injections.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- No standard intransitive pair\n- Pattern: [noun]⟦を→を：00422_wo⟧{注射|ちゅうしゃ}⟦する→する：00392_suru⟧\n\nCOMMON PATTERNS:\n- {注射|ちゅうしゃ}⟦を→を：00422_wo⟧⟦{打|う}つ→打つ：01221_utsu⟧: to give/get an injection\n- {注射|ちゅうしゃ}⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧: to inject\n- {注射|ちゅうしゃ}⟦{器|き}→器：noentry⟧: syringe\n- {注射|ちゅうしゃ}⟦{針|ばり}→針：03566_hari⟧: needle\n\nTYPES OF INJECTIONS:\n- ⟦{予防|よぼう}→予防：03669_yobou⟧{注射|ちゅうしゃ}: vaccination\n- ⟦{皮下|ひか}→皮下：08743_hika⟧{注射|ちゅうしゃ}: subcutaneous injection\n- ⟦{静脈|じょうみゃく}→静脈：05858_joumyaku⟧{注射|ちゅうしゃ}: intravenous injection\n- ⟦{筋肉|きんにく}→筋肉：02646_kinniku⟧{注射|ちゅうしゃ}: intramuscular injection",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19044_nomigusuri",
+      "reading": "のみぐすり",
+      "headword": "{飲|の}み{薬|ぐすり}",
+      "label": "oral medicine"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22410_chuunyuu",
+      "reading": "ちゅうにゅう",
+      "headword": "{注入|ちゅうにゅう}",
+      "label": "injection"
+    },
+    {
+      "type": "related",
+      "target_id": "22643_naifukuyaku",
+      "reading": "ないふくやく",
+      "headword": "{内服薬|ないふくやく}",
+      "label": "oral medication"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22649_sesshu",
+      "reading": "せっしゅ",
+      "headword": "{接種|せっしゅ}",
+      "label": "vaccination"
+    },
+    {
+      "type": "related",
+      "target_id": "23619_zoueizai",
+      "reading": "ぞうえいざい",
+      "headword": "{造影剤|ぞうえいざい}",
+      "label": "contrast agent"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23660_yueki",
+      "reading": "ゆえき",
+      "headword": "{輸液|ゆえき}",
+      "label": "intravenous infusion"
+    },
+    {
+      "type": "related",
+      "target_id": "24503_insurin",
+      "reading": "いんすりん",
+      "headword": "インスリン",
+      "label": "insulin"
+    }
+  ],
   "metadata": {
     "created": "2026-01-09T12:55:45Z",
-    "modified": "2026-05-16T15:17:20Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

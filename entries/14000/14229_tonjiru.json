@@ -15,41 +15,66 @@
   "examples": [
     {
       "id": "14229_tonjiru_ex1",
-      "japanese": "{寒|さむ}い{日|ひ}には{豚汁|とんじる}がおいしい。",
+      "japanese": "⟦{寒|さむ}い→寒い：00664_samui⟧⟦{日|ひ}→日：02249_hi⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{豚汁|とんじる}⟦が→が：00051_ga⟧おいしい。",
       "english": "Pork miso soup is delicious on cold days.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14229_tonjiru_ex2",
-      "japanese": "{大根|だいこん}と{人参|にんじん}をたっぷり{入|い}れた{豚汁|とんじる}を{作|つく}った。",
+      "japanese": "⟦{大根|だいこん}→大根：05186_daikon⟧⟦と→と：00512_to⟧⟦{人参|にんじん}→人参：05185_ninjin⟧⟦を→を：00422_wo⟧⟦たっぷり→たっぷり：03404_tappuri⟧⟦{入|い}れた→入れる：01098_ireru⟧{豚汁|とんじる}⟦を→を：00422_wo⟧⟦{作|つく}った→作る：00481_tsukuru⟧。",
       "english": "I made pork miso soup with plenty of daikon and carrots.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14229_tonjiru_ex3",
-      "japanese": "{祭|まつ}りの{屋台|やたい}で{豚汁|とんじる}が{振|ふ}る{舞|ま}われた。",
+      "japanese": "⟦{祭|まつ}り→祭り：03735_matsuri⟧⟦の→の：09472_no⟧⟦{屋台|やたい}→屋台：10549_yatai⟧⟦で→で：00502_de⟧{豚汁|とんじる}⟦が→が：00051_ga⟧⟦{振|ふ}る{舞|ま}われた→振る舞う：04233_furumau⟧。",
       "english": "Pork miso soup was served at the festival food stalls.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "PRONUNCIATION:\n{豚汁|とんじる} has two accepted readings: とんじる (more common in eastern Japan) and ぶたじる (more common in western Japan). Both are widely understood.\n\nUSAGE:\n{豚汁|とんじる} is a staple of home cooking and is often served at community events, festivals, and school lunches. It is heartier than regular {味噌汁|みそしる} due to the pork and abundance of root vegetables. It is sometimes described as a meal in itself when paired with rice.\n\nCOMMON COLLOCATIONS:\n- {豚汁|とんじる}を{作|つく}る: to make pork miso soup\n- {豚汁|とんじる}{定食|ていしょく}: pork miso soup set meal\n- {具|ぐ}だくさんの{豚汁|とんじる}: pork miso soup full of ingredients",
-  "cross_references": [],
+  "notes": "PRONUNCIATION:\n{豚汁|とんじる} has two accepted readings: とんじる (more common in eastern Japan) and ぶたじる (more common in western Japan). Both are widely understood.\n\nUSAGE:\n{豚汁|とんじる} is a staple of home cooking and is often served at community events, festivals, and school lunches. It is heartier than regular ⟦{味噌汁|みそしる}→味噌汁：04954_misoshiru⟧ due to the pork and abundance of root vegetables. It is sometimes described as a meal in itself when paired with rice.\n\nCOMMON COLLOCATIONS:\n- {豚汁|とんじる}⟦を→を：00422_wo⟧⟦{作|つく}る→作る：00481_tsukuru⟧: to make pork miso soup\n- {豚汁|とんじる}⟦{定食|ていしょく}→定食：03123_teishoku⟧: pork miso soup set meal\n- ⟦{具|ぐ}だくさん→具だくさん：15063_gudakusan⟧⟦の→の：09472_no⟧{豚汁|とんじる}: pork miso soup full of ingredients",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "24970_kasujiru",
+      "reading": "かすじる",
+      "headword": "{粕汁|かすじる}",
+      "label": "sake lees soup"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29412_kenchinjiru",
+      "reading": "けんちんじる",
+      "headword": "けんちん{汁|じる}",
+      "label": "kenchin soup"
+    }
+  ],
   "metadata": {
     "created": "2026-02-28T03:10:40Z",
-    "modified": "2026-02-28T03:10:40Z",
+    "modified": "2026-09-02T04:01:36Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food"]
+      "semantic": [
+        "food"
+      ]
     }
   }
 }

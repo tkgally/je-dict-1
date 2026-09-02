@@ -15,41 +15,74 @@
   "examples": [
     {
       "id": "29291_daisaigai_ex1",
-      "japanese": "{大災害|だいさいがい}に{見舞|みま}われる。",
+      "japanese": "{大災害|だいさいがい}⟦に→に：00314_ni⟧⟦{見舞|みま}われる→見舞う：14133_mimau⟧。",
       "english": "Be struck by a major disaster.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29291_daisaigai_ex2",
-      "japanese": "この{地震|じしん}は{戦後|せんご}{最大|さいだい}の{大災害|だいさいがい}となった。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{地震|じしん}→地震：01608_jishin⟧⟦は→は：00079_ha⟧⟦{戦後|せんご}→戦後：12853_sengo⟧⟦{最大|さいだい}→最大：04827_saidai⟧⟦の→の：09472_no⟧{大災害|だいさいがい}⟦と→と：00512_to⟧⟦なった→なる：01970_naru⟧。",
       "english": "This earthquake became the worst catastrophe since the war.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29291_daisaigai_ex3",
-      "japanese": "{大災害|だいさいがい}に{備|そな}えて、{各家庭|かくかてい}で{食料|しょくりょう}や{水|みず}を{備蓄|びちく}しておくことが{勧|すす}められている。",
+      "japanese": "{大災害|だいさいがい}⟦に→に：00314_ni⟧⟦{備|そな}えて→備える：02125_sonaeru⟧、{各家庭|かくかてい}⟦で→で：00502_de⟧⟦{食料|しょくりょう}→食料：03250_shokuryou⟧や⟦{水|みず}→水：02258_mizu⟧⟦を→を：00422_wo⟧⟦{備蓄|びちく}→備蓄：07589_bichiku⟧⟦して→する：00392_suru⟧おくこと⟦が→が：00051_ga⟧⟦{勧|すす}められている→勧める：02120_susumeru⟧。",
       "english": "Each household is encouraged to stockpile food and water in preparation for a major disaster.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of the prefix {大|だい} (large, major) + {災害|さいがい} (disaster). Emphasizes the scale and severity of the damage.\n\nCOMMON COLLOCATIONS:\n- {大災害|だいさいがい}に{見舞|みま}われる: to be struck by a catastrophe\n- {大災害|だいさいがい}に{備|そな}える: to prepare for a major disaster\n\nSIMILAR WORDS:\n- {自然|しぜん}{災害|さいがい}: natural disaster — classifies by cause rather than scale\n- {惨事|さんじ}: tragic accident; disaster — stresses the tragic, horrific nature of the event",
+  "notes": "Composed of the prefix {大|だい} (large, major) + ⟦{災害|さいがい}→災害：09636_saigai⟧ (disaster). Emphasizes the scale and severity of the damage.\n\nCOMMON COLLOCATIONS:\n- {大災害|だいさいがい}⟦に→に：00314_ni⟧⟦{見舞|みま}われる→見舞う：14133_mimau⟧: to be struck by a catastrophe\n- {大災害|だいさいがい}⟦に→に：00314_ni⟧⟦{備|そな}える→備える：02125_sonaeru⟧: to prepare for a major disaster\n\nSIMILAR WORDS:\n- ⟦{自然|しぜん}{災害|さいがい}→自然災害：29290_shizensaigai⟧: natural disaster — classifies by cause rather than scale\n- ⟦{惨事|さんじ}→惨事：28385_sanji⟧: tragic accident; disaster — stresses the tragic, horrific nature of the event",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "29290_shizensaigai",
+      "reading": "しぜんさいがい",
+      "headword": "{自然|しぜん}{災害|さいがい}",
+      "label": "natural disaster"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28385_sanji",
+      "reading": "さんじ",
+      "headword": "{惨事|さんじ}",
+      "label": "tragic accident"
+    },
+    {
+      "type": "related",
+      "target_id": "06146_tenpenchii",
+      "reading": "てんぺんちい",
+      "headword": "{天変地異|てんぺんちい}",
+      "label": "natural disaster"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["nature"],
+      "politeness": "plain",
+      "semantic": [
+        "nature"
+      ],
       "domain": []
     },
     "created": "2026-06-16T15:19:08Z",
-    "modified": "2026-06-16T15:19:08Z"
+    "modified": "2026-09-02T04:02:36Z"
   }
 }

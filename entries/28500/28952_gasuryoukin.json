@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28952_gasuryoukin_ex1",
-      "japanese": "{今月|こんげつ}のガス{料金|りょうきん}が{高|たか}い。",
+      "japanese": "⟦{今月|こんげつ}→今月：00720_kongetsu⟧⟦の→の：09472_no⟧ガス{料金|りょうきん}⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧。",
       "english": "This month's gas bill is high.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28952_gasuryoukin_ex2",
-      "japanese": "ガス{料金|りょうきん}はクレジットカードで{払|はら}っている。",
+      "japanese": "ガス{料金|りょうきん}⟦は→は：00079_ha⟧⟦クレジットカード→クレジットカード：06968_kurejittokaado⟧⟦で→で：00502_de⟧⟦{払|はら}っている→払う：00535_harau⟧。",
       "english": "I pay the gas bill with a credit card.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28952_gasuryoukin_ex3",
-      "japanese": "{冬|ふゆ}は{暖房|だんぼう}を{使|つか}うのでガス{料金|りょうきん}が{上|あ}がる。",
+      "japanese": "⟦{冬|ふゆ}→冬：00623_fuyu⟧⟦は→は：00079_ha⟧⟦{暖房|だんぼう}→暖房：01657_danbou⟧⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧⟦の→の：09472_no⟧でガス{料金|りょうきん}⟦が→が：00051_ga⟧⟦{上|あ}がる→上がる：00615_agaru⟧。",
       "english": "Gas bills go up in winter because we use the heater.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Compound of ガス (gas) + {料金|りょうきん} (charge; fee). One of the four standard household utility bills, along with electricity, water, and internet.\n\nCOMMON COLLOCATIONS:\n- ガス{料金|りょうきん}を{払|はら}う: to pay the gas bill\n- ガス{料金|りょうきん}の{値上|ねあ}げ: a rise in gas charges\n- ガス{料金|りょうきん}の{口座振替|こうざふりかえ}: automatic bank transfer for the gas bill\n\nSIMILAR WORDS:\n- {電気|でんき}{料金|りょうきん}: electricity bill\n- {水道|すいどう}{料金|りょうきん}: water bill\n- {光熱費|こうねつひ}: utility costs (electricity + gas + water taken together)",
+  "notes": "Compound of ⟦ガス→ガス：01344_gasu⟧ (gas) + ⟦{料金|りょうきん}→料金：03797_ryoukin⟧ (charge; fee). One of the four standard household utility bills, along with electricity, water, and internet.\n\nCOMMON COLLOCATIONS:\n- ガス{料金|りょうきん}⟦を→を：00422_wo⟧⟦{払|はら}う→払う：00535_harau⟧: to pay the gas bill\n- ガス{料金|りょうきん}⟦の→の：09472_no⟧⟦{値上|ねあ}げ→値上げ：07582_neage⟧: a rise in gas charges\n- ガス{料金|りょうきん}⟦の→の：09472_no⟧⟦{口座振替|こうざふりかえ}→口座振替：19853_kouzafurikae⟧: automatic bank transfer for the gas bill\n\nSIMILAR WORDS:\n- ⟦{電気|でんき}{料金|りょうきん}→電気料金：26946_denkiryoukin⟧: electricity bill\n- ⟦{水道|すいどう}{料金|りょうきん}→水道料金：22703_suidouryoukin⟧: water bill\n- ⟦{光熱費|こうねつひ}→光熱費：08244_kounetsuhi⟧: utility costs (electricity + gas + water taken together)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "26946_denkiryoukin",
+      "reading": "でんきりょうきん",
+      "headword": "{電気料金|でんきりょうきん}",
+      "label": "electricity bill"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22703_suidouryoukin",
+      "reading": "すいどうりょうきん",
+      "headword": "{水道料金|すいどうりょうきん}",
+      "label": "water bill"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08244_kounetsuhi",
+      "reading": "こうねつひ",
+      "headword": "{光熱費|こうねつひ}",
+      "label": "utility costs"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,6 +84,6 @@
       "domain": []
     },
     "created": "2026-06-07T04:11:17Z",
-    "modified": "2026-08-09T06:33:44Z"
+    "modified": "2026-09-02T04:02:35Z"
   }
 }

@@ -15,40 +15,80 @@
   "examples": [
     {
       "id": "22035_shakin_ex1",
-      "japanese": "{講演|こうえん}の{謝金|しゃきん}を{受|う}け{取|と}る。",
+      "japanese": "⟦{講演|こうえん}→講演：02735_kouen⟧⟦の→の：09472_no⟧{謝金|しゃきん}⟦を→を：00422_wo⟧⟦{受|う}け{取|と}る→受け取る：01883_uketoru⟧。",
       "english": "To receive an honorarium for a lecture.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "22035_shakin_ex2",
-      "japanese": "{謝金|しゃきん}として{三万円|さんまんえん}が{支払|しはら}われた。",
+      "japanese": "{謝金|しゃきん}⟦として→として：06802_toshite⟧{三万円|さんまんえん}⟦が→が：00051_ga⟧⟦{支払|しはら}われた→支払う：02116_shiharau⟧。",
       "english": "Thirty thousand yen was paid as an honorarium.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "22035_shakin_ex3",
-      "japanese": "{研究|けんきゅう}に{協力|きょうりょく}してくださった{方|かた}には、{謝金|しゃきん}をお{支払|しはら}いいたします。",
+      "japanese": "⟦{研究|けんきゅう}→研究：01396_kenkyuu⟧⟦に→に：00314_ni⟧⟦{協力|きょうりょく}して→協力する：25370_kyouryokusuru⟧⟦くださった→くださる：01305_kudasaru⟧⟦{方|かた}→方：10665_kata⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧、{謝金|しゃきん}⟦を→を：00422_wo⟧お⟦{支払|しはら}い→支払う：02116_shiharau⟧⟦いたします→いたす：01314_itasu⟧。",
       "english": "We will pay an honorarium to those who cooperated with the research.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {謝|しゃ} (thanks, gratitude) and {金|きん} (money). A formal term for a monetary payment given as thanks for professional services, typically one-time contributions rather than ongoing employment.\n\nCOMMON COLLOCATIONS:\n- {謝金|しゃきん}を{支払|しはら}う: to pay an honorarium\n- {謝金|しゃきん}を{受|う}け{取|と}る: to receive an honorarium\n- {講演|こうえん}{謝金|しゃきん}: lecture honorarium\n- {研究|けんきゅう}{協力|きょうりょく}{謝金|しゃきん}: research cooperation honorarium\n\nSIMILAR WORDS:\n- {報酬|ほうしゅう}: remuneration / reward — broader term for compensation, can be larger amounts\n- {謝礼|しゃれい}: token of gratitude — can be money or a gift, slightly less formal\n- {手当|てあて}: allowance / stipend — regular additional payment for specific duties\n\nREGISTER:\nFormal. Commonly used in academic, government, and business contexts, particularly on official forms and budget documents.",
+  "notes": "Composed of {謝|しゃ} (thanks, gratitude) and {金|きん} (money). A formal term for a monetary payment given as thanks for professional services, typically one-time contributions rather than ongoing employment.\n\nCOMMON COLLOCATIONS:\n- {謝金|しゃきん}⟦を→を：00422_wo⟧⟦{支払|しはら}う→支払う：02116_shiharau⟧: to pay an honorarium\n- {謝金|しゃきん}⟦を→を：00422_wo⟧⟦{受|う}け{取|と}る→受け取る：01883_uketoru⟧: to receive an honorarium\n- ⟦{講演|こうえん}→講演：02735_kouen⟧{謝金|しゃきん}: lecture honorarium\n- ⟦{研究|けんきゅう}→研究：01396_kenkyuu⟧⟦{協力|きょうりょく}→協力：00261_kyouryoku⟧{謝金|しゃきん}: research cooperation honorarium\n\nSIMILAR WORDS:\n- ⟦{報酬|ほうしゅう}→報酬：12094_houshuu⟧: remuneration / reward — broader term for compensation, can be larger amounts\n- ⟦{謝礼|しゃれい}→謝礼：16034_sharei⟧: token of gratitude — can be money or a gift, slightly less formal\n- ⟦{手当|てあて}→手当：04881_teate⟧: allowance / stipend — regular additional payment for specific duties\n\nREGISTER:\nFormal. Commonly used in academic, government, and business contexts, particularly on official forms and budget documents.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12094_houshuu",
+      "reading": "ほうしゅう",
+      "headword": "{報酬|ほうしゅう}",
+      "label": "remuneration / reward"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16034_sharei",
+      "reading": "しゃれい",
+      "headword": "{謝礼|しゃれい}",
+      "label": "token of gratitude"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04881_teate",
+      "reading": "てあて",
+      "headword": "{手当|てあて}",
+      "label": "allowance / stipend"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22049_iroukin",
+      "reading": "いろうきん",
+      "headword": "{慰労金|いろうきん}",
+      "label": "consolation money"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["money"]
+      "semantic": [
+        "money"
+      ]
     },
     "created": "2026-04-04T21:12:28Z",
-    "modified": "2026-04-04T21:12:28Z"
+    "modified": "2026-09-02T04:02:06Z"
   }
 }

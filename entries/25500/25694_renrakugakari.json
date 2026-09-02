@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25694_renrakugakari_ex1",
-      "japanese": "{連絡係|れんらくがかり}に{伝|つた}えてください。",
+      "japanese": "{連絡係|れんらくがかり}⟦に→に：00314_ni⟧⟦{伝|つた}えて→伝える：01220_tsutaeru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please pass the message to the contact person.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25694_renrakugakari_ex2",
-      "japanese": "クラスの{連絡係|れんらくがかり}を{任|まか}された。",
+      "japanese": "⟦クラス→クラス：01084_kurasu⟧⟦の→の：09472_no⟧{連絡係|れんらくがかり}⟦を→を：00422_wo⟧{任|まか}された。",
       "english": "I was assigned to be the class liaison.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25694_renrakugakari_ex3",
-      "japanese": "イベントの{連絡係|れんらくがかり}として、{参加者|さんかしゃ}{全員|ぜんいん}に{日程|にってい}{変更|へんこう}を{知|し}らせなければならない。",
+      "japanese": "⟦イベント→イベント：09594_ibento⟧⟦の→の：09472_no⟧{連絡係|れんらくがかり}⟦として→として：06802_toshite⟧、⟦{参加者|さんかしゃ}→参加者：03059_sankasha⟧⟦{全員|ぜんいん}→全員：03310_zenin⟧⟦に→に：00314_ni⟧⟦{日程|にってい}→日程：04289_nittei⟧⟦{変更|へんこう}→変更：03616_henkou⟧⟦を→を：00422_wo⟧⟦{知|し}らせ→知る：00458_shiru⟧⟦なければならない→なければならない：27600_nakerebanaranai⟧。",
       "english": "As the event liaison, I have to notify all participants of the schedule change.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {連絡|れんらく} (contact, communication) and {係|がかり} (person in charge). Common in schools, workplaces, and organizations where someone is designated to relay messages and coordinate communication between groups.\n\nCOMMON COLLOCATIONS:\n- {連絡係|れんらくがかり}を{務|つと}める: to serve as liaison\n- {連絡係|れんらくがかり}を{任|まか}される: to be put in charge of communications\n- クラスの{連絡係|れんらくがかり}: class contact person\n- {連絡係|れんらくがかり}に{連絡|れんらく}する: to contact the liaison person\n\nSIMILAR WORDS:\n- {窓口|まどぐち}: point of contact, counter — the designated person or office for inquiries\n- {担当者|たんとうしゃ}: person in charge — broader, the person responsible for a task or area\n- コーディネーター: coordinator — loanword, implies broader organizational responsibilities",
+  "notes": "A compound of ⟦{連絡|れんらく}→連絡：01524_renraku⟧ (contact, communication) and {係|がかり} (person in charge). Common in schools, workplaces, and organizations where someone is designated to relay messages and coordinate communication between groups.\n\nCOMMON COLLOCATIONS:\n- {連絡係|れんらくがかり}⟦を→を：00422_wo⟧⟦{務|つと}める→務める：10446_tsutomeru⟧: to serve as liaison\n- {連絡係|れんらくがかり}⟦を→を：00422_wo⟧{任|まか}される: to be put in charge of communications\n- ⟦クラス→クラス：01084_kurasu⟧⟦の→の：09472_no⟧{連絡係|れんらくがかり}: class contact person\n- {連絡係|れんらくがかり}⟦に→に：00314_ni⟧⟦{連絡|れんらく}する→連絡する：20202_renrakusuru⟧: to contact the liaison person\n\nSIMILAR WORDS:\n- ⟦{窓口|まどぐち}→窓口：03154_madoguchi⟧: point of contact, counter — the designated person or office for inquiries\n- ⟦{担当者|たんとうしゃ}→担当者：09676_tantousha⟧: person in charge — broader, the person responsible for a task or area\n- コーディネーター: coordinator — loanword, implies broader organizational responsibilities",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03154_madoguchi",
+      "reading": "まどぐち",
+      "headword": "{窓口|まどぐち}",
+      "label": "point of contact, counter"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09676_tantousha",
+      "reading": "たんとうしゃ",
+      "headword": "{担当者|たんとうしゃ}",
+      "label": "person in charge"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -63,6 +79,6 @@
       ]
     },
     "created": "2026-04-26T15:22:23Z",
-    "modified": "2026-04-26T15:22:23Z"
+    "modified": "2026-09-02T04:02:23Z"
   }
 }

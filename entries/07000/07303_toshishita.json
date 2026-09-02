@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "07303_toshishita_ex1",
-      "japanese": "{彼女|かのじょ}は{私|わたし}より{二|に}{歳|さい}{年下|としした}だ。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧⟦{私|わたし}→私：02988_watashi⟧⟦より→より：09476_yori⟧⟦{二|に}→二：00736_ni⟧⟦{歳|さい}→歳：10017_sai⟧{年下|としした}だ。",
       "english": "She is two years younger than me.",
       "has_audio": false,
       "sense_numbers": [
@@ -23,7 +23,7 @@
     },
     {
       "id": "07303_toshishita_ex2",
-      "japanese": "{年下|としした}の{同僚|どうりょう}に{教|おし}えてもらった。",
+      "japanese": "{年下|としした}⟦の→の：09472_no⟧⟦{同僚|どうりょう}→同僚：01023_douryou⟧⟦に→に：00314_ni⟧⟦{教|おし}えて→教える：00526_oshieru⟧⟦もらった→もらう：00520_morau⟧。",
       "english": "I was taught by a younger colleague.",
       "has_audio": false,
       "sense_numbers": [
@@ -32,7 +32,7 @@
     },
     {
       "id": "07303_toshishita_ex3",
-      "japanese": "{夫|おっと}は{五|ご}{歳|さい}{年下|としした}です。",
+      "japanese": "⟦{夫|おっと}→夫：00982_otto⟧⟦は→は：00079_ha⟧⟦{五|ご}→五：00697_go⟧⟦{歳|さい}→歳：10017_sai⟧{年下|としした}です。",
       "english": "My husband is five years younger than me.",
       "has_audio": false,
       "sense_numbers": [
@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "notes": "WORD FORMATION:\n{年|とし} (age, year) + {下|した} (below) → below in years = younger\n\nCOMMON PATTERNS:\n・〜より{年下|としした} - younger than ~\n・{年下|としした}の{人|ひと} - younger person\n・{五|ご}{歳|さい}{年下|としした} - five years younger\n\nUSAGE:\nDescribes age relationships between people. In Japanese society, age differences often affect how people interact and what language they use with each other.\n\nCULTURAL NOTE:\nDating or marrying someone {年下|としした} used to be less common, especially for women with younger men, but has become more accepted in modern Japan.",
+  "notes": "FORMS:\n⟦{年|とし}→年：00486_toshi⟧ (age, year) + ⟦{下|した}→下：00670_shita⟧ (below) → below in years = younger\n\nCOMMON PATTERNS:\n- 〜より{年下|としした} - younger than ~\n- {年下|としした}⟦の→の：09472_no⟧⟦{人|ひと}→人：00476_hito⟧ - younger person\n- ⟦{五|ご}→五：00697_go⟧⟦{歳|さい}→歳：10017_sai⟧{年下|としした} - five years younger\n\nUSAGE:\nDescribes age relationships between people. In Japanese society, age differences often affect how people interact and what language they use with each other.\n\nCULTURAL NOTE:\nDating or marrying someone {年下|としした} used to be less common, especially for women with younger men, but has become more accepted in modern Japan.",
   "cross_references": [
     {
       "type": "antonym",
@@ -55,11 +55,18 @@
       "reading": "とし",
       "headword": "{年|とし}",
       "label": "age"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29613_nenshou",
+      "reading": "ねんしょう",
+      "headword": "{年少|ねんしょう}",
+      "label": "young"
     }
   ],
   "metadata": {
     "created": "2026-01-19T04:08:05Z",
-    "modified": "2026-08-05T03:18:09Z",
+    "modified": "2026-09-02T04:01:10Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

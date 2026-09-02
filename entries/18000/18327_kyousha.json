@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "18327_kyousha_ex1",
-      "japanese": "{強者|きょうしゃ}の{論理|ろんり}が{通|とお}る{社会|しゃかい}だ。",
+      "japanese": "{強者|きょうしゃ}⟦の→の：09472_no⟧⟦{論理|ろんり}→論理：06026_ronri⟧⟦が→が：00051_ga⟧⟦{通|とお}る→通る：01243_tooru⟧⟦{社会|しゃかい}→社会：01427_shakai⟧だ。",
       "english": "It's a society where the logic of the strong prevails.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "18327_kyousha_ex2",
-      "japanese": "{弱者|じゃくしゃ}を{守|まも}り、{強者|きょうしゃ}に{立|た}ち{向|む}かう。",
+      "japanese": "⟦{弱者|じゃくしゃ}→弱者：12535_jakusha⟧⟦を→を：00422_wo⟧⟦{守|まも}り→守る：01986_mamoru⟧、{強者|きょうしゃ}⟦に→に：00314_ni⟧⟦{立|た}ち{向|む}かう→立ち向かう：06981_tachimukau⟧。",
       "english": "To protect the weak and stand up against the strong.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "18327_kyousha_ex3",
-      "japanese": "{市場|しじょう}では{常|つね}に{強者|きょうしゃ}が{有利|ゆうり}な{立場|たちば}にある。",
+      "japanese": "⟦{市場|しじょう}→市場：09685_shijou⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{常|つね}→常：28958_tsune⟧⟦に→に：00314_ni⟧{強者|きょうしゃ}⟦が→が：00051_ga⟧⟦{有利|ゆうり}→有利：03651_yuuri⟧な⟦{立場|たちば}→立場：03403_tachiba⟧⟦に→に：00314_ni⟧⟦ある→ある：00006_aru⟧。",
       "english": "In the market, the powerful are always in an advantageous position.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nThe reading きょうしゃ is used in formal/abstract contexts about power dynamics. The same kanji can also be read as つわもの, which means a brave warrior or formidable person (see separate entry). The きょうしゃ reading is more common in modern social and economic discussions.\n\nCOMMON COLLOCATIONS:\n- {強者|きょうしゃ}の{論理|ろんり} (logic of the strong)\n- {強者|きょうしゃ}と{弱者|じゃくしゃ} (the strong and the weak)\n\nSIMILAR WORDS:\n- {強者|つわもの}: brave warrior, formidable person — same kanji, different reading and nuance\n- {弱者|じゃくしゃ}: the weak — the direct opposite\n- {権力者|けんりょくしゃ}: person in power — focuses on institutional authority",
+  "notes": "USAGE:\nThe reading きょうしゃ is used in formal/abstract contexts about power dynamics. The same kanji can also be read as つわもの, which means a brave warrior or formidable person (see separate entry). The きょうしゃ reading is more common in modern social and economic discussions.\n\nCOMMON COLLOCATIONS:\n- {強者|きょうしゃ}⟦の→の：09472_no⟧⟦{論理|ろんり}→論理：06026_ronri⟧ (logic of the strong)\n- {強者|きょうしゃ}⟦と→と：00512_to⟧⟦{弱者|じゃくしゃ}→弱者：12535_jakusha⟧ (the strong and the weak)\n\nSIMILAR WORDS:\n- {強者|つわもの}: brave warrior, formidable person — same kanji, different reading and nuance\n- ⟦{弱者|じゃくしゃ}→弱者：12535_jakusha⟧: the weak — the direct opposite\n- ⟦{権力者|けんりょくしゃ}→権力者：17021_kenryokusha⟧: person in power — focuses on institutional authority",
   "prominent_see_also": [
     {
       "target_id": "12582_tsuwamono",
@@ -60,11 +60,18 @@
       "reading": "じゃくしゃ",
       "headword": "{弱者|じゃくしゃ}",
       "label": "the weak, vulnerable"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17021_kenryokusha",
+      "reading": "けんりょくしゃ",
+      "headword": "{権力者|けんりょくしゃ}",
+      "label": "person in power"
     }
   ],
   "metadata": {
     "created": "2026-03-21T09:14:32Z",
-    "modified": "2026-04-27T06:29:35Z",
+    "modified": "2026-09-02T04:01:51Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

@@ -64,10 +64,46 @@
     }
   ],
   "notes": "{帰国|きこく} is a noun/suru-verb meaning to return to one's home country.\n\nCOMMON PATTERNS:\n- {帰国|きこく}⟦する→する：00392_suru⟧ (to return to one's country)\n- {帰国|きこく}⟦{予定|よてい}→予定：00824_yotei⟧ (scheduled return)\n- {帰国|きこく}⟦{後|ご}→後：noentry⟧ (after returning)\n- ⟦{一時|いちじ}→一時：01799_ichiji⟧{帰国|きこく} (temporary return home)\n\nRELATED WORDS:\n- ⟦{出国|しゅっこく}→出国：15879_shukkoku⟧: leaving one's country\n- ⟦{入国|にゅうこく}→入国：15859_nyuukoku⟧: entering a country\n- ⟦{帰省|きせい}→帰省：12419_kisei⟧: returning to one's hometown (within same country)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "15879_shukkoku",
+      "reading": "しゅっこく",
+      "headword": "{出国|しゅっこく}",
+      "label": "leaving one's country"
+    },
+    {
+      "type": "related",
+      "target_id": "15859_nyuukoku",
+      "reading": "にゅうこく",
+      "headword": "{入国|にゅうこく}",
+      "label": "entering a country"
+    },
+    {
+      "type": "related",
+      "target_id": "12419_kisei",
+      "reading": "きせい",
+      "headword": "{帰省|きせい}",
+      "label": "returning to one's hometown"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21075_gaisen",
+      "reading": "がいせん",
+      "headword": "{凱旋|がいせん}",
+      "label": "triumphal return"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27137_sainyuukoku",
+      "reading": "さいにゅうこく",
+      "headword": "{再入国|さいにゅうこく}",
+      "label": "re-entry (into a country)"
+    }
+  ],
   "metadata": {
     "created": "2026-01-11T10:41:41Z",
-    "modified": "2026-05-23T15:11:59Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

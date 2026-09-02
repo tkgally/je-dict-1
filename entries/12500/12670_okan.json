@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "12670_okan_ex1",
-      "japanese": "{悪寒|おかん}がする。",
+      "japanese": "{悪寒|おかん}⟦が→が：00051_ga⟧⟦する→する：00392_suru⟧。",
       "english": "I have the chills.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "12670_okan_ex2",
-      "japanese": "{悪寒|おかん}がして{体|からだ}がだるい。",
+      "japanese": "{悪寒|おかん}がして⟦{体|からだ}→体：00784_karada⟧⟦が→が：00051_ga⟧⟦だるい→だるい：05307_darui⟧。",
       "english": "I have chills and my body feels sluggish.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "12670_okan_ex3",
-      "japanese": "{昨夜|さくや}から{悪寒|おかん}と{頭痛|ずつう}が{続|つづ}いているので、{病院|びょういん}に{行|い}くことにした。",
+      "japanese": "⟦{昨夜|さくや}→昨夜：02999_sakuya⟧⟦から→から：00504_kara⟧{悪寒|おかん}⟦と→と：00512_to⟧⟦{頭痛|ずつう}→頭痛：03369_zutsuu⟧⟦が→が：00051_ga⟧⟦{続|つづ}いている→続く：00903_tsuzuku⟧⟦の→の：09472_no⟧で、⟦{病院|びょういん}→病院：00577_byouin⟧⟦に→に：00314_ni⟧⟦{行|い}く→行く：00119_iku⟧ことにした。",
       "english": "I've had chills and a headache since last night, so I decided to go to the hospital.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{悪寒|おかん} specifically refers to the chills or shivering that accompany illness, especially fever. It is not used for feeling cold due to weather.\n\nThe most common collocation is {悪寒|おかん}がする (to have chills/to feel chills).\n\nCOMMON COLLOCATIONS:\n- {悪寒|おかん}がする: to feel chills\n- {悪寒|おかん}が{走|はし}る: chills run through one's body\n- {悪寒|おかん}と{発熱|はつねつ}: chills and fever\n\nSIMILAR WORDS:\n- {悪寒|おかん}: chills from illness (medical symptom)\n- {寒気|さむけ}: feeling cold, chilliness (broader, can also mean cold air)\n- {震|ふる}え: trembling, shivering (physical action, not limited to illness)",
+  "notes": "USAGE:\n{悪寒|おかん} specifically refers to the chills or shivering that accompany illness, especially fever. It is not used for feeling cold due to weather.\n\nThe most common collocation is {悪寒|おかん}⟦が→が：00051_ga⟧⟦する→する：00392_suru⟧ (to have chills/to feel chills).\n\nCOMMON COLLOCATIONS:\n- {悪寒|おかん}⟦が→が：00051_ga⟧⟦する→する：00392_suru⟧: to feel chills\n- {悪寒|おかん}⟦が→が：00051_ga⟧⟦{走|はし}る→走る：00519_hashiru⟧: chills run through one's body\n- {悪寒|おかん}⟦と→と：00512_to⟧⟦{発熱|はつねつ}→発熱：06297_hatsunetsu⟧: chills and fever\n\nSIMILAR WORDS:\n- {悪寒|おかん}: chills from illness (medical symptom)\n- ⟦{寒気|さむけ}→寒気：16081_samuke⟧: feeling cold, chilliness (broader, can also mean cold air)\n- ⟦{震|ふる}え→震え：18840_furue⟧: trembling, shivering (physical action, not limited to illness)",
   "cross_references": [
     {
       "type": "related",
@@ -59,11 +59,18 @@
       "reading": "はつねつ",
       "headword": "{発熱|はつねつ}",
       "label": "fever"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18840_furue",
+      "reading": "ふるえ",
+      "headword": "{震|ふる}え",
+      "label": "trembling, shivering"
     }
   ],
   "metadata": {
     "created": "2026-02-22T05:44:22Z",
-    "modified": "2026-07-06T12:49:19Z",
+    "modified": "2026-09-02T04:01:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

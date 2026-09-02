@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "13807_shuujitsu_ex1",
-      "japanese": "{終日|しゅうじつ}{営業|えいぎょう}しています。",
+      "japanese": "{終日|しゅうじつ}⟦{営業|えいぎょう}→営業：01878_eigyou⟧⟦しています→する：00392_suru⟧。",
       "english": "We are open all day.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13807_shuujitsu_ex2",
-      "japanese": "{会議|かいぎ}が{終日|しゅうじつ}{続|つづ}いた。",
+      "japanese": "⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦が→が：00051_ga⟧{終日|しゅうじつ}⟦{続|つづ}いた→続く：00903_tsuzuku⟧。",
       "english": "The meeting continued all day.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13807_shuujitsu_ex3",
-      "japanese": "{工事|こうじ}のため{終日|しゅうじつ}{通行止|つうこうど}めとなります。",
+      "japanese": "⟦{工事|こうじ}→工事：00244_kouji⟧⟦の→の：09472_no⟧⟦ため→ため：01145_tame⟧{終日|しゅうじつ}⟦{通行止|つうこうど}め→通行止め：19920_tsuukoudome⟧となります。",
       "english": "The road will be closed all day due to construction.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nA formal, written-style word that functions as both a noun and an adverb. Often seen on signs, notices, and schedules. In casual speech, {一日中|いちにちじゅう} is preferred.\n\nCOMMON COLLOCATIONS:\n- {終日|しゅうじつ}{営業|えいぎょう}: open all day\n- {終日|しゅうじつ}{運休|うんきゅう}: out of service all day\n- {終日|しゅうじつ}{通行止|つうこうど}め: closed to traffic all day\n- {終日|しゅうじつ}{禁煙|きんえん}: no smoking all day\n\nSIMILAR WORDS:\n{一日中|いちにちじゅう} (all day long) is the everyday equivalent. {終日|しゅうじつ} is more formal and concise, making it ideal for signs and official announcements.",
+  "notes": "USAGE:\nA formal, written-style word that functions as both a noun and an adverb. Often seen on signs, notices, and schedules. In casual speech, ⟦{一日中|いちにちじゅう}→一日中：09519_ichinichijuu⟧ is preferred.\n\nCOMMON COLLOCATIONS:\n- {終日|しゅうじつ}⟦{営業|えいぎょう}→営業：01878_eigyou⟧: open all day\n- {終日|しゅうじつ}⟦{運休|うんきゅう}→運休：06807_unkyuu⟧: out of service all day\n- {終日|しゅうじつ}⟦{通行止|つうこうど}め→通行止め：19920_tsuukoudome⟧: closed to traffic all day\n- {終日|しゅうじつ}⟦{禁煙|きんえん}→禁煙：02644_kinen⟧: no smoking all day\n\nSIMILAR WORDS:\n⟦{一日中|いちにちじゅう}→一日中：09519_ichinichijuu⟧ (all day long) is the everyday equivalent. {終日|しゅうじつ} is more formal and concise, making it ideal for signs and official announcements.",
   "cross_references": [
     {
       "type": "synonym",
@@ -46,19 +52,33 @@
       "reading": "いちにちじゅう",
       "headword": "{一日中|いちにちじゅう}",
       "label": "all day (casual)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12993_chuuya",
+      "reading": "ちゅうや",
+      "headword": "{昼夜|ちゅうや}",
+      "label": "day and night"
     }
   ],
   "metadata": {
     "created": "2026-02-27T04:16:51Z",
-    "modified": "2026-04-29T08:23:01Z",
+    "modified": "2026-09-02T04:01:34Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adverb"],
+      "pos": [
+        "noun",
+        "adverb"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["time-general"],
-      "style": ["written"]
+      "semantic": [
+        "time-general"
+      ],
+      "style": [
+        "written"
+      ]
     }
   }
 }

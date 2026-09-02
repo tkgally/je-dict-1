@@ -15,40 +15,80 @@
   "examples": [
     {
       "id": "22336_kyuuzaka_ex1",
-      "japanese": "{急坂|きゅうざか}を{登|のぼ}る。",
+      "japanese": "{急坂|きゅうざか}⟦を→を：00422_wo⟧⟦{登|のぼ}る→登る：00660_noboru⟧。",
       "english": "To climb a steep hill.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "22336_kyuuzaka_ex2",
-      "japanese": "この{急坂|きゅうざか}は{自転車|じてんしゃ}では{無理|むり}だ。",
+      "japanese": "⟦この→この：00962_kono⟧{急坂|きゅうざか}⟦は→は：00079_ha⟧⟦{自転車|じてんしゃ}→自転車：00633_jitensha⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{無理|むり}→無理：01558_muri⟧だ。",
       "english": "This steep slope is impossible by bicycle.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "22336_kyuuzaka_ex3",
-      "japanese": "{駅|えき}から{家|いえ}まで{急坂|きゅうざか}が{続|つづ}くので、{毎日|まいにち}の{通勤|つうきん}がいい{運動|うんどう}になっている。",
+      "japanese": "⟦{駅|えき}→駅：02180_eki⟧⟦から→から：00504_kara⟧⟦{家|いえ}→家：00612_ie⟧⟦まで→まで：00490_made⟧{急坂|きゅうざか}⟦が→が：00051_ga⟧⟦{続|つづ}く→続く：00903_tsuzuku⟧⟦の→の：09472_no⟧で、⟦{毎日|まいにち}→毎日：00729_mainichi⟧⟦の→の：09472_no⟧⟦{通勤|つうきん}→通勤：03512_tsuukin⟧⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧⟦{運動|うんどう}→運動：00821_undou⟧になっている。",
       "english": "Since there are steep hills all the way from the station to my house, my daily commute serves as good exercise.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {急|きゅう} (steep/sudden) + {坂|さか} (slope/hill). Can also be read as きゅうはん in more formal or technical contexts, though きゅうざか is the standard reading.\n\nCOMMON COLLOCATIONS:\n- {急坂|きゅうざか}を{登|のぼ}る: to climb a steep hill\n- {急坂|きゅうざか}を{下|くだ}る: to go down a steep hill\n- {急坂|きゅうざか}が{続|つづ}く: steep hills continue\n- {急坂|きゅうざか}{注意|ちゅうい}: caution: steep slope (road sign)\n\nSIMILAR WORDS:\n- {坂道|さかみち}: sloping road — any road on a slope, not necessarily steep\n- {上|のぼ}り{坂|ざか}: uphill slope — going up, any gradient\n- {下|くだ}り{坂|ざか}: downhill slope — going down, any gradient\n- {勾配|こうばい}: gradient/grade — technical term for slope angle",
+  "notes": "Composed of ⟦{急|きゅう}→急：13042_kyuu⟧ (steep/sudden) + ⟦{坂|さか}→坂：01415_saka⟧ (slope/hill). Can also be read as きゅうはん in more formal or technical contexts, though きゅうざか is the standard reading.\n\nCOMMON COLLOCATIONS:\n- {急坂|きゅうざか}⟦を→を：00422_wo⟧⟦{登|のぼ}る→登る：00660_noboru⟧: to climb a steep hill\n- {急坂|きゅうざか}⟦を→を：00422_wo⟧⟦{下|くだ}る→下る：03913_kudaru⟧: to go down a steep hill\n- {急坂|きゅうざか}⟦が→が：00051_ga⟧⟦{続|つづ}く→続く：00903_tsuzuku⟧: steep hills continue\n- {急坂|きゅうざか}⟦{注意|ちゅうい}→注意：01464_chuui⟧: caution: steep slope (road sign)\n\nSIMILAR WORDS:\n- ⟦{坂道|さかみち}→坂道：08166_sakamichi⟧: sloping road — any road on a slope, not necessarily steep\n- ⟦{上|のぼ}り{坂|ざか}→上り坂：16376_noborizaka⟧: uphill slope — going up, any gradient\n- ⟦{下|くだ}り{坂|ざか}→下り坂：16377_kudarizaka⟧: downhill slope — going down, any gradient\n- {勾配|こうばい}: gradient/grade — technical term for slope angle",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08166_sakamichi",
+      "reading": "さかみち",
+      "headword": "{坂道|さかみち}",
+      "label": "sloping road"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16376_noborizaka",
+      "reading": "のぼりざか",
+      "headword": "{上|のぼ}り{坂|ざか}",
+      "label": "uphill slope"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16377_kudarizaka",
+      "reading": "くだりざか",
+      "headword": "{下|くだ}り{坂|ざか}",
+      "label": "downhill slope"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25180_kyuukeisha",
+      "reading": "きゅうけいしゃ",
+      "headword": "{急傾斜|きゅうけいしゃ}",
+      "label": "steep slope"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["geography"]
+      "semantic": [
+        "geography"
+      ]
     },
     "created": "2026-04-05T18:32:43Z",
-    "modified": "2026-04-05T18:32:43Z"
+    "modified": "2026-09-02T04:02:07Z"
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "27735_tokkuni_ex1",
-      "japanese": "{彼|かれ}はとっくに{帰|かえ}った。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧とっくに⟦{帰|かえ}った→帰る：00508_kaeru⟧。",
       "english": "He left long ago.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "27735_tokkuni_ex2",
-      "japanese": "その{話|はなし}はとっくに{知|し}っているよ。",
+      "japanese": "⟦その→その：00993_sono⟧⟦{話|はなし}→話：01496_hanashi⟧⟦は→は：00079_ha⟧とっくに⟦{知|し}っている→知る：00458_shiru⟧⟦よ→よ：09475_yo⟧。",
       "english": "I've known about that for ages.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "27735_tokkuni_ex3",
-      "japanese": "{締|し}め{切|き}りはとっくに{過|す}ぎているのに、まだ{終|お}わっていない。",
+      "japanese": "⟦{締|し}め{切|き}り→締め切り：04162_shimekiri⟧⟦は→は：00079_ha⟧とっくに⟦{過|す}ぎている→過ぎる：01219_sugiru⟧⟦の→の：09472_no⟧⟦に→に：00314_ni⟧、⟦まだ→まだ：00603_mada⟧⟦{終|お}わっていない→終わる：00567_owaru⟧。",
       "english": "The deadline passed long ago, yet it's still not finished.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "An emphatic, somewhat casual adverb stressing that something happened well before the present moment. It often carries a nuance of mild surprise or impatience that the listener did not already realize this.\n\nUSAGE:\n- Frequently paired with verbs in a completed state: とっくに{終|お}わった (finished long ago), とっくに{過|す}ぎた (passed long ago).\n- The fuller form とっくの{昔|むかし}に (long, long ago) is even more emphatic.\n\nSIMILAR WORDS:\n- すでに: already — more neutral and formal; lacks the 'much earlier than you think' nuance\n- もう: already — neutral; simply marks completion without emphasizing how long ago",
+  "notes": "An emphatic, somewhat casual adverb stressing that something happened well before the present moment. It often carries a nuance of mild surprise or impatience that the listener did not already realize this.\n\nUSAGE:\n- Frequently paired with verbs in a completed state: とっくに⟦{終|お}わった→終わる：00567_owaru⟧ (finished long ago), とっくに⟦{過|す}ぎた→過ぎる：01219_sugiru⟧ (passed long ago).\n- The fuller form とっく⟦の→の：09472_no⟧⟦{昔|むかし}→昔：01515_mukashi⟧⟦に→に：00314_ni⟧ (long, long ago) is even more emphatic.\n\nSIMILAR WORDS:\n- すでに: already — more neutral and formal; lacks the 'much earlier than you think' nuance\n- ⟦もう→もう：00602_mou⟧: already — neutral; simply marks completion without emphasizing how long ago",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01581_sudeni",
+      "reading": "すでに",
+      "headword": "{既|すで}に",
+      "label": "already"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00602_mou",
+      "reading": "もう",
+      "headword": "もう",
+      "label": "already"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +69,13 @@
         "adverb"
       ],
       "formality": "informal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "time-general"
       ],
       "domain": []
     },
     "created": "2026-05-17T04:06:49Z",
-    "modified": "2026-08-07T15:50:37Z"
+    "modified": "2026-09-02T04:02:31Z"
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30406_jeraato_ex1",
-      "japanese": "ジェラートを{二種類|にしゅるい}{選|えら}んだ。",
+      "japanese": "ジェラート⟦を→を：00422_wo⟧{二種類|にしゅるい}⟦{選|えら}んだ→選ぶ：00835_erabu⟧。",
       "english": "I chose two flavors of gelato.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30406_jeraato_ex2",
-      "japanese": "この{牧場|ぼくじょう}のジェラートは{牛乳|ぎゅうにゅう}の{味|あじ}が{濃|こ}い。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{牧場|ぼくじょう}→牧場：06103_bokujou⟧⟦の→の：09472_no⟧ジェラート⟦は→は：00079_ha⟧⟦{牛乳|ぎゅうにゅう}→牛乳：00777_gyuunyuu⟧⟦の→の：09472_no⟧⟦{味|あじ}→味：00826_aji⟧⟦が→が：00051_ga⟧⟦{濃|こ}い→濃い：02344_koi⟧。",
       "english": "The gelato at this dairy farm has a rich milk flavor.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30406_jeraato_ex3",
-      "japanese": "{旅先|たびさき}で、その{土地|とち}の{果物|くだもの}を{使|つか}ったジェラートを{食|た}べるのが{楽|たの}しみだ。",
+      "japanese": "⟦{旅先|たびさき}→旅先：12949_tabisaki⟧で、⟦その→その：00993_sono⟧⟦{土地|とち}→土地：02226_tochi⟧⟦の→の：09472_no⟧⟦{果物|くだもの}→果物：00509_kudamono⟧⟦を→を：00422_wo⟧⟦{使|つか}った→使う：00473_tsukau⟧ジェラート⟦を→を：00422_wo⟧⟦{食|た}べる→食べる：00396_taberu⟧⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦{楽|たの}しみ→楽しみ：01651_tanoshimi⟧だ。",
       "english": "When traveling, I look forward to eating gelato made with the local fruit.",
       "sense_numbers": [
         1
@@ -44,8 +44,45 @@
       "notes": null
     }
   ],
-  "notes": "Ordered by flavor count — シングル (one scoop) or ダブル (two scoops).\n\nCOMMON COLLOCATIONS:\n- ジェラートを{食|た}べる: to eat gelato\n- ジェラート{屋|や}さん: a gelato shop\n- {季節|きせつ}{限定|げんてい}のジェラート: seasonal gelato flavors\n- ダブルのジェラート: a double scoop of gelato\n\nSIMILAR WORDS:\n- アイスクリーム: ice cream — the general word; gelato is presented as the artisanal Italian version\n- ソフトクリーム: soft serve — dispensed from a machine into a cone\n- シャーベット: sorbet — made without milk",
+  "notes": "Ordered by flavor count — ⟦シングル→シングル：10949_shinguru⟧ (one scoop) or ⟦ダブル→ダブル：24220_daburu⟧ (two scoops).\n\nCOMMON COLLOCATIONS:\n- ジェラート⟦を→を：00422_wo⟧⟦{食|た}べる→食べる：00396_taberu⟧: to eat gelato\n- ジェラート⟦{屋|や}→〜屋：03096_ya⟧さん: a gelato shop\n- ⟦{季節|きせつ}{限定|げんてい}→季節限定：09823_kisetsugentei⟧⟦の→の：09472_no⟧ジェラート: seasonal gelato flavors\n- ⟦ダブル→ダブル：24220_daburu⟧⟦の→の：09472_no⟧ジェラート: a double scoop of gelato\n\nSIMILAR WORDS:\n- ⟦アイスクリーム→アイスクリーム：03830_aisukuriimu⟧: ice cream — the general word; gelato is presented as the artisanal Italian version\n- ⟦ソフトクリーム→ソフトクリーム：17672_sofutokuriimu⟧: soft serve — dispensed from a machine into a cone\n- ⟦シャーベット→シャーベット：29891_shaabetto⟧: sorbet — made without milk",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03830_aisukuriimu",
+      "reading": "あいすくりーむ",
+      "headword": "アイスクリーム",
+      "label": "ice cream"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17672_sofutokuriimu",
+      "reading": "そふとくりーむ",
+      "headword": "ソフトクリーム",
+      "label": "soft serve"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29891_shaabetto",
+      "reading": "しゃーべっと",
+      "headword": "シャーベット",
+      "label": "sorbet"
+    },
+    {
+      "type": "related",
+      "target_id": "06770_aisu",
+      "reading": "あいす",
+      "headword": "アイス",
+      "label": "ice cream"
+    },
+    {
+      "type": "related",
+      "target_id": "26377_baniraaisu",
+      "reading": "ばにらあいす",
+      "headword": "バニラアイス",
+      "label": "vanilla ice cream"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +97,6 @@
       "domain": []
     },
     "created": "2026-08-05T00:20:41Z",
-    "modified": "2026-08-05T00:20:41Z"
+    "modified": "2026-09-02T04:02:40Z"
   }
 }

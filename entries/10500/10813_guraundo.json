@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "10813_guraundo_ex1",
-      "japanese": "グラウンドで{走|はし}る。",
+      "japanese": "グラウンド⟦で→で：00502_de⟧⟦{走|はし}る→走る：00519_hashiru⟧。",
       "english": "To run on the field.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "10813_guraundo_ex2",
-      "japanese": "{雨|あめ}でグラウンドが{使|つか}えない。",
+      "japanese": "⟦{雨|あめ}→雨：00583_ame⟧⟦で→で：00502_de⟧グラウンド⟦が→が：00051_ga⟧⟦{使|つか}えない→使う：00473_tsukau⟧。",
       "english": "The field can't be used because of rain.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "10813_guraundo_ex3",
-      "japanese": "{放課後|ほうかご}、グラウンドで{野球部|やきゅうぶ}が{練習|れんしゅう}している。",
+      "japanese": "⟦{放課後|ほうかご}→放課後：12720_houkago⟧、グラウンド⟦で→で：00502_de⟧⟦{野球部|やきゅうぶ}→野球部：27441_yakyuubu⟧⟦が→が：00051_ga⟧⟦{練習|れんしゅう}している→練習する：22991_renshuusuru⟧。",
       "english": "After school, the baseball team is practicing on the field.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nグラウンド in Japanese refers specifically to an outdoor playing field, often unpaved (dirt or sand surface). It is the standard word for school athletic fields and sports grounds. It differs from the English \"ground\" in that it does not mean the earth or floor in general.\n\nThe abbreviation グランド is also sometimes used, and {校庭|こうてい} (school yard) overlaps in meaning for school contexts.\n\nCOMMON COLLOCATIONS:\n- グラウンド{整備|せいび}: field maintenance\n- グラウンドを{走|はし}る: to run on the field\n- {学校|がっこう}のグラウンド: school athletic field\n- グラウンドがぬかるむ: the field gets muddy",
+  "notes": "USAGE:\nグラウンド in Japanese refers specifically to an outdoor playing field, often unpaved (dirt or sand surface). It is the standard word for school athletic fields and sports grounds. It differs from the English \"ground\" in that it does not mean the earth or floor in general.\n\nThe abbreviation ⟦グランド→グランド：00075_gurando⟧ is also sometimes used, and ⟦{校庭|こうてい}→校庭：04147_koutei⟧ (school yard) overlaps in meaning for school contexts.\n\nCOMMON COLLOCATIONS:\n- グラウンド⟦{整備|せいび}→整備：04037_seibi⟧: field maintenance\n- グラウンド⟦を→を：00422_wo⟧⟦{走|はし}る→走る：00519_hashiru⟧: to run on the field\n- ⟦{学校|がっこう}→学校：00055_gakkou⟧⟦の→の：09472_no⟧グラウンド: school athletic field\n- グラウンド⟦が→が：00051_ga⟧⟦ぬかるむ→ぬかるむ：26941_nukarumu⟧: the field gets muddy",
   "cross_references": [
     {
       "type": "synonym",
@@ -52,11 +52,18 @@
       "reading": "こうてい",
       "headword": "{校庭|こうてい}",
       "label": "schoolyard"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21813_undoujou",
+      "reading": "うんどうじょう",
+      "headword": "{運動場|うんどうじょう}",
+      "label": "sports ground"
     }
   ],
   "metadata": {
     "created": "2026-02-10T08:06:05Z",
-    "modified": "2026-07-12T18:20:07Z",
+    "modified": "2026-09-02T04:01:22Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

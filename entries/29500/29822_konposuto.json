@@ -15,41 +15,74 @@
   "examples": [
     {
       "id": "29822_konposuto_ex1",
-      "japanese": "{生|なま}ごみをコンポストに{入|い}れる。",
+      "japanese": "{生|なま}ごみ⟦を→を：00422_wo⟧コンポスト⟦に→に：00314_ni⟧⟦{入|い}れる→入れる：01098_ireru⟧。",
       "english": "Put food scraps into the compost.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29822_konposuto_ex2",
-      "japanese": "{家庭|かてい}でコンポストを{始|はじ}めた。",
+      "japanese": "⟦{家庭|かてい}→家庭：12315_katei⟧⟦で→で：00502_de⟧コンポスト⟦を→を：00422_wo⟧⟦{始|はじ}めた→始める：00531_hajimeru⟧。",
       "english": "We started composting at home.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29822_konposuto_ex3",
-      "japanese": "コンポストで{作|つく}った{肥料|ひりょう}を{畑|はたけ}にまいた。",
+      "japanese": "コンポスト⟦で→で：00502_de⟧⟦{作|つく}った→作る：00481_tsukuru⟧⟦{肥料|ひりょう}→肥料：06102_hiryou⟧⟦を→を：00422_wo⟧⟦{畑|はたけ}→畑：00842_hatake⟧にまいた。",
       "english": "I spread the fertilizer made from compost on the field.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Loanword from English \"compost\". Refers both to the composted material and to the bin or system used to make it.\n\nCOMMON COLLOCATIONS:\n- コンポストを{作|つく}る: to make compost\n- {生|なま}ごみコンポスト: food-waste composting\n- コンポストに{入|い}れる: to put into the compost",
+  "notes": "Loanword from English \"compost\". Refers both to the composted material and to the bin or system used to make it.\n\nCOMMON COLLOCATIONS:\n- コンポスト⟦を→を：00422_wo⟧⟦{作|つく}る→作る：00481_tsukuru⟧: to make compost\n- {生|なま}ごみコンポスト: food-waste composting\n- コンポスト⟦に→に：00314_ni⟧⟦{入|い}れる→入れる：01098_ireru⟧: to put into the compost",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "06471_taihi",
+      "reading": "たいひ",
+      "headword": "{堆肥|たいひ}",
+      "label": "compost"
+    },
+    {
+      "type": "related",
+      "target_id": "29825_taihika",
+      "reading": "たいひか",
+      "headword": "{堆肥化|たいひか}",
+      "label": "composting"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29842_konposutaa",
+      "reading": "こんぽすたー",
+      "headword": "コンポスター",
+      "label": "composter"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["daily-life"],
+      "politeness": "plain",
+      "semantic": [
+        "daily-life"
+      ],
       "domain": []
     },
     "created": "2026-07-14T06:18:33Z",
-    "modified": "2026-07-14T06:18:33Z"
+    "modified": "2026-09-02T04:02:38Z"
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30270_kigatsuyoi_ex1",
-      "japanese": "{彼女|かのじょ}は{気|き}が{強|つよ}い。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧{気|き}が{強|つよ}い。",
       "english": "She is strong-willed.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "30270_kigatsuyoi_ex2",
-      "japanese": "{気|き}が{強|つよ}い{人|ひと}だから、{反対|はんたい}されても{意見|いけん}を{変|か}えないだろう。",
+      "japanese": "{気|き}が{強|つよ}い⟦{人|ひと}→人：00476_hito⟧だ⟦から→から：00504_kara⟧、⟦{反対|はんたい}→反対：01497_hantai⟧⟦されて→する：00392_suru⟧⟦も→も：00484_mo⟧⟦{意見|いけん}→意見：01303_iken⟧⟦を→を：00422_wo⟧⟦{変|か}えない→変える：01089_kaeru⟧だろう。",
       "english": "She's strong-willed, so she probably won't change her opinion even if she's opposed.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "30270_kigatsuyoi_ex3",
-      "japanese": "{気|き}が{強|つよ}そうに{見|み}えるが、{実|じつ}は{人一倍|ひといちばい}{気|き}を{使|つか}う{性格|せいかく}だ。",
+      "japanese": "{気|き}が{強|つよ}そう⟦に→に：00314_ni⟧⟦{見|み}える→見える：01165_mieru⟧⟦が→が：00051_ga⟧、⟦{実|じつ}→実：28344_jitsu⟧⟦は→は：00079_ha⟧{人一倍|ひといちばい}⟦{気|き}→気：02199_ki⟧⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧⟦{性格|せいかく}→性格：03371_seikaku⟧だ。",
       "english": "He looks assertive, but in fact he is more considerate of others than most.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "A fixed {気|き} expression: the subject of {強|つよ}い is {気|き}, so the person takes は or が in a double-subject pattern ({彼女|かのじょ}は{気|き}が{強|つよ}い).\n\nCOMMON COLLOCATIONS:\n- {気|き}が{強|つよ}そう: to seem assertive\n- {気|き}の{強|つよ}い{人|ひと}: an assertive person (attributive form)\n- {見|み}かけによらず{気|き}が{強|つよ}い: to be tougher than one looks\n\nSIMILAR WORDS:\n- {気|き}が{弱|よわ}い: timid, faint-hearted — the direct opposite\n- {勝|か}ち{気|き}: competitive, unwilling to lose — emphasizes hating to be beaten\n- {我|が}が{強|つよ}い: headstrong, self-willed — clearly negative, suggesting selfishness",
+  "notes": "A fixed ⟦{気|き}→気：02199_ki⟧ expression: the subject of ⟦{強|つよ}い→強い：00820_tsuyoi⟧ is ⟦{気|き}→気：02199_ki⟧, so the person takes ⟦は→は：00079_ha⟧ or ⟦が→が：00051_ga⟧ in a double-subject pattern (⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧{気|き}が{強|つよ}い).\n\nCOMMON COLLOCATIONS:\n- {気|き}が{強|つよ}そう: to seem assertive\n- ⟦{気|き}→気：02199_ki⟧⟦の→の：09472_no⟧⟦{強|つよ}い→強い：00820_tsuyoi⟧⟦{人|ひと}→人：00476_hito⟧: an assertive person (attributive form)\n- {見|み}かけ⟦に→に：00314_ni⟧よらず{気|き}が{強|つよ}い: to be tougher than one looks\n\nSIMILAR WORDS:\n- ⟦{気|き}が{弱|よわ}い→気が弱い：30281_kigayowai⟧: timid, faint-hearted — the direct opposite\n- ⟦{勝|か}ち{気|き}→勝ち気：07468_kachiki⟧: competitive, unwilling to lose — emphasizes hating to be beaten\n- {我|が}が⟦{強|つよ}い→強い：00820_tsuyoi⟧: headstrong, self-willed — clearly negative, suggesting selfishness",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,7 +60,7 @@
       "domain": []
     },
     "created": "2026-07-31T06:19:07Z",
-    "modified": "2026-07-31T21:20:10Z"
+    "modified": "2026-09-02T04:02:39Z"
   },
   "conjugation": {
     "type": "i-adjective",
@@ -111,6 +111,13 @@
       "reading": "かちき",
       "headword": "{勝|か}ち{気|き}",
       "label": "competitive, unwilling to lose"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30775_mukouki",
+      "reading": "むこうき",
+      "headword": "{向|む}こう{気|き}",
+      "label": "pluck"
     }
   ]
 }

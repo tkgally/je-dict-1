@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30265_mangakissa_ex1",
-      "japanese": "{漫画喫茶|まんがきっさ}で{三時間|さんじかん}{過|す}ごした。",
+      "japanese": "{漫画喫茶|まんがきっさ}⟦で→で：00502_de⟧⟦{三時間|さんじかん}→三時間：30478_sanjikan⟧⟦{過|す}ごした→過ごす：02062_sugosu⟧。",
       "english": "I spent three hours at a manga cafe.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "30265_mangakissa_ex2",
-      "japanese": "{終電|しゅうでん}を{逃|のが}して{漫画喫茶|まんがきっさ}に{泊|と}まった。",
+      "japanese": "⟦{終電|しゅうでん}→終電：05296_shuuden⟧⟦を→を：00422_wo⟧⟦{逃|のが}して→逃す：04611_nogasu⟧{漫画喫茶|まんがきっさ}⟦に→に：00314_ni⟧⟦{泊|と}まった→泊まる：10445_tomaru⟧。",
       "english": "I missed the last train and stayed at a manga cafe.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "30265_mangakissa_ex3",
-      "japanese": "{最近|さいきん}の{漫画喫茶|まんがきっさ}は、シャワーや{洗濯機|せんたくき}まであるところが{多|おお}い。",
+      "japanese": "⟦{最近|さいきん}→最近：00881_saikin⟧⟦の→の：09472_no⟧{漫画喫茶|まんがきっさ}⟦は→は：00079_ha⟧、⟦シャワー→シャワー：04503_shawaa⟧や⟦{洗濯機|せんたくき}→洗濯機：04969_sentakuki⟧⟦まで→まで：00490_made⟧⟦ある→ある：00006_aru⟧⟦ところ→ところ：01137_tokoro⟧⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "Many manga cafes these days even have showers and washing machines.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "{漫画|まんが} + {喫茶|きっさ} (tea-drinking, as in {喫茶店|きっさてん}). Often shortened to {漫喫|まんきつ} in casual speech. Charged by the hour, with {パック}{料金|りょうきん} (block rates) for longer stays.\n\nCOMMON COLLOCATIONS:\n- {漫画喫茶|まんがきっさ}に{行|い}く: to go to a manga cafe\n- {漫画喫茶|まんがきっさ}に{泊|と}まる: to stay overnight at a manga cafe\n- {漫画喫茶|まんがきっさ}の{個室|こしつ}: a private booth at a manga cafe\n\nSIMILAR WORDS:\n- ネットカフェ: internet cafe — largely the same business; the name emphasizes the terminals rather than the manga\n- {喫茶店|きっさてん}: coffee shop — an ordinary cafe, priced per drink rather than per hour",
+  "notes": "⟦{漫画|まんが}→漫画：01511_manga⟧ + ⟦{喫茶|きっさ}→喫茶：28984_kissa⟧ (tea-drinking, as in ⟦{喫茶店|きっさてん}→喫茶店：01079_kissaten⟧). Often shortened to {漫喫|まんきつ} in casual speech. Charged by the hour, with ⟦パック→パック：11002_pakku⟧⟦{料金|りょうきん}→料金：03797_ryoukin⟧ (block rates) for longer stays.\n\nCOMMON COLLOCATIONS:\n- {漫画喫茶|まんがきっさ}⟦に→に：00314_ni⟧⟦{行|い}く→行く：00119_iku⟧: to go to a manga cafe\n- {漫画喫茶|まんがきっさ}⟦に→に：00314_ni⟧⟦{泊|と}まる→泊まる：10445_tomaru⟧: to stay overnight at a manga cafe\n- {漫画喫茶|まんがきっさ}⟦の→の：09472_no⟧⟦{個室|こしつ}→個室：11535_koshitsu⟧: a private booth at a manga cafe\n\nSIMILAR WORDS:\n- ⟦ネットカフェ→ネットカフェ：30266_nettokafe⟧: internet cafe — largely the same business; the name emphasizes the terminals rather than the manga\n- ⟦{喫茶店|きっさてん}→喫茶店：01079_kissaten⟧: coffee shop — an ordinary cafe, priced per drink rather than per hour",
   "cross_references": [
     {
       "type": "related",
@@ -52,6 +52,13 @@
       "reading": "きっさてん",
       "headword": "{喫茶店|きっさてん}",
       "label": "coffee shop"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30266_nettokafe",
+      "reading": "ねっとかふぇ",
+      "headword": "ネットカフェ",
+      "label": "internet cafe"
     }
   ],
   "metadata": {
@@ -69,6 +76,6 @@
       "domain": []
     },
     "created": "2026-07-31T06:19:07Z",
-    "modified": "2026-07-31T06:19:07Z"
+    "modified": "2026-09-02T04:02:39Z"
   }
 }

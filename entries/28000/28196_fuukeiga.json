@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28196_fuukeiga_ex1",
-      "japanese": "{壁|かべ}に{風景画|ふうけいが}を{飾|かざ}った。",
+      "japanese": "⟦{壁|かべ}→壁：01290_kabe⟧⟦に→に：00314_ni⟧{風景画|ふうけいが}⟦を→を：00422_wo⟧⟦{飾|かざ}った→飾る：01185_kazaru⟧。",
       "english": "I hung a landscape painting on the wall.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28196_fuukeiga_ex2",
-      "japanese": "{彼女|かのじょ}は{風景画|ふうけいが}を{描|か}くのが{得意|とくい}だ。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧{風景画|ふうけいが}⟦を→を：00422_wo⟧⟦{描|か}く→描く：28436_kaku⟧⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦{得意|とくい}→得意：03455_tokui⟧だ。",
       "english": "She is good at painting landscapes.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28196_fuukeiga_ex3",
-      "japanese": "この{美術館|びじゅつかん}には、{有名|ゆうめい}な{画家|がか}の{風景画|ふうけいが}が{数多|かずおお}く{展示|てんじ}されている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{美術館|びじゅつかん}→美術館：01717_bijutsukan⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧、⟦{有名|ゆうめい}→有名：01106_yuumei⟧な⟦{画家|がか}→画家：02583_gaka⟧⟦の→の：09472_no⟧{風景画|ふうけいが}⟦が→が：00051_ga⟧⟦{数多|かずおお}く→数多く：12948_kazuooku⟧⟦{展示|てんじ}→展示：12401_tenji⟧⟦されている→する：00392_suru⟧。",
       "english": "This art museum exhibits many landscape paintings by famous painters.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {風景|ふうけい} (scenery, landscape) + {画|が} (picture, painting). The {画|が} suffix names a genre of picture, as in {肖像画|しょうぞうが} (portrait) and {静物画|せいぶつが} (still life).\n\nCOMMON COLLOCATIONS:\n- {風景画|ふうけいが}を{描|か}く: to paint a landscape\n- {風景画|ふうけいが}を{飾|かざ}る: to display a landscape painting\n- {水彩|すいさい}の{風景画|ふうけいが}: a watercolor landscape\n\nSIMILAR WORDS:\n- {肖像画|しょうぞうが}: portrait — a picture whose subject is a person\n- {山水画|さんすいが}: ink landscape painting — a traditional East Asian style of mountains and water",
+  "notes": "Compound of ⟦{風景|ふうけい}→風景：03591_fuukei⟧ (scenery, landscape) + {画|が} (picture, painting). The {画|が} suffix names a genre of picture, as in ⟦{肖像画|しょうぞうが}→肖像画：23432_shouzouga⟧ (portrait) and {静物画|せいぶつが} (still life).\n\nCOMMON COLLOCATIONS:\n- {風景画|ふうけいが}⟦を→を：00422_wo⟧⟦{描|か}く→描く：28436_kaku⟧: to paint a landscape\n- {風景画|ふうけいが}⟦を→を：00422_wo⟧⟦{飾|かざ}る→飾る：01185_kazaru⟧: to display a landscape painting\n- ⟦{水彩|すいさい}→水彩：24163_suisai⟧⟦の→の：09472_no⟧{風景画|ふうけいが}: a watercolor landscape\n\nSIMILAR WORDS:\n- ⟦{肖像画|しょうぞうが}→肖像画：23432_shouzouga⟧: portrait — a picture whose subject is a person\n- {山水画|さんすいが}: ink landscape painting — a traditional East Asian style of mountains and water",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23432_shouzouga",
+      "reading": "しょうぞうが",
+      "headword": "{肖像画|しょうぞうが}",
+      "label": "portrait"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +62,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "art"
       ],
       "domain": []
     },
     "created": "2026-05-27T02:07:43Z",
-    "modified": "2026-05-27T02:07:43Z"
+    "modified": "2026-09-02T04:02:32Z"
   }
 }

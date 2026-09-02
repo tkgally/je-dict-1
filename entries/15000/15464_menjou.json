@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "15464_menjou_ex1",
-      "japanese": "{教員|きょういん}{免状|めんじょう}を{取得|しゅとく}した。",
+      "japanese": "⟦{教員|きょういん}→教員：12942_kyouin⟧{免状|めんじょう}⟦を→を：00422_wo⟧⟦{取得|しゅとく}した→取得する：10444_shutokusuru⟧。",
       "english": "I obtained a teaching license.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "15464_menjou_ex2",
-      "japanese": "{茶道|さどう}の{免状|めんじょう}を{師匠|ししょう}からいただいた。",
+      "japanese": "⟦{茶道|さどう}→茶道：04451_sadou⟧⟦の→の：09472_no⟧{免状|めんじょう}⟦を→を：00422_wo⟧⟦{師匠|ししょう}→師匠：12421_shishou⟧⟦から→から：00504_kara⟧⟦いただいた→いただく：01326_itadaku⟧。",
       "english": "I received a certificate in tea ceremony from my teacher.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "15464_menjou_ex3",
-      "japanese": "{柔道|じゅうどう}で{黒帯|くろおび}の{免状|めんじょう}を{持|も}っていることが{採用|さいよう}の{条件|じょうけん}だった。",
+      "japanese": "⟦{柔道|じゅうどう}→柔道：01612_juudou⟧⟦で→で：00502_de⟧⟦{黒帯|くろおび}→黒帯：14938_kuroobi⟧⟦の→の：09472_no⟧{免状|めんじょう}⟦を→を：00422_wo⟧⟦{持|も}っている→持つ：00478_motsu⟧こと⟦が→が：00051_ga⟧⟦{採用|さいよう}→採用：04563_saiyou⟧⟦の→の：09472_no⟧⟦{条件|じょうけん}→条件：03285_jouken⟧だった。",
       "english": "Having a black belt certificate in judo was a requirement for hiring.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nCommonly used for licenses and certificates in traditional Japanese arts ({茶道|さどう}, {華道|かどう}, {武道|ぶどう}) as well as official credentials like teaching licenses.\n\nCOMMON COLLOCATIONS:\n- {教員|きょういん}{免状|めんじょう} (teaching license)\n- {免状|めんじょう}を{取得|しゅとく}する (to obtain a license/certificate)\n- {免状|めんじょう}を{授|さず}ける (to confer a certificate)\n- {師範|しはん}{免状|めんじょう} (instructor's certificate)\n\nRELATED:\n- {免許|めんきょ} (license — broader term, includes driver's licenses)\n- {資格|しかく} (qualification, credential)\n- {修了証|しゅうりょうしょう} (certificate of completion)",
+  "notes": "USAGE:\nCommonly used for licenses and certificates in traditional Japanese arts (⟦{茶道|さどう}→茶道：04451_sadou⟧, ⟦{華道|かどう}→華道：04450_kadou⟧, ⟦{武道|ぶどう}→武道：09640_budou⟧) as well as official credentials like teaching licenses.\n\nCOMMON COLLOCATIONS:\n- ⟦{教員|きょういん}→教員：12942_kyouin⟧{免状|めんじょう} (teaching license)\n- {免状|めんじょう}⟦を→を：00422_wo⟧⟦{取得|しゅとく}する→取得する：10444_shutokusuru⟧ (to obtain a license/certificate)\n- {免状|めんじょう}⟦を→を：00422_wo⟧⟦{授|さず}ける→授ける：10350_sazukeru⟧ (to confer a certificate)\n- ⟦{師範|しはん}→師範：20595_shihan⟧{免状|めんじょう} (instructor's certificate)\n\nRELATED WORDS:\n- ⟦{免許|めんきょ}→免許：03808_menkyo⟧ (license — broader term, includes driver's licenses)\n- ⟦{資格|しかく}→資格：02834_shikaku⟧ (qualification, credential)\n- {修了証|しゅうりょうしょう} (certificate of completion)",
   "cross_references": [
     {
       "type": "synonym",
@@ -52,11 +52,18 @@
       "reading": "めんきょ",
       "headword": "{免許|めんきょ}",
       "label": "license"
+    },
+    {
+      "type": "related",
+      "target_id": "02834_shikaku",
+      "reading": "しかく",
+      "headword": "{資格|しかく}",
+      "label": "qualification, credential"
     }
   ],
   "metadata": {
     "created": "2026-03-07T07:41:08Z",
-    "modified": "2026-05-01T06:14:09Z",
+    "modified": "2026-09-02T04:01:41Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

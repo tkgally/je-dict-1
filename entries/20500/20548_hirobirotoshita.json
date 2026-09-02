@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "20548_hirobirotoshita_ex1",
-      "japanese": "{広々|ひろびろ}とした{部屋|へや}に{住|す}みたい。",
+      "japanese": "{広々|ひろびろ}とした⟦{部屋|へや}→部屋：00507_heya⟧⟦に→に：00314_ni⟧⟦{住|す}みたい→住む：00673_sumu⟧。",
       "english": "I want to live in a spacious room.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "20548_hirobirotoshita_ex2",
-      "japanese": "{広々|ひろびろ}とした{草原|そうげん}が{目|め}の{前|まえ}に{広|ひろ}がっている。",
+      "japanese": "{広々|ひろびろ}とした⟦{草原|そうげん}→草原：05035_sougen⟧⟦が→が：00051_ga⟧⟦{目|め}の{前|まえ}→目の前：22588_menomae⟧⟦に→に：00314_ni⟧⟦{広|ひろ}がっている→広がる：01980_hirogaru⟧。",
       "english": "A vast grassland stretches out before my eyes.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "20548_hirobirotoshita_ex3",
-      "japanese": "リフォームして{広々|ひろびろ}とした{空間|くうかん}になった。",
+      "japanese": "⟦リフォームして→リフォームする：26948_rifoomusuru⟧{広々|ひろびろ}とした⟦{空間|くうかん}→空間：13754_kuukan⟧になった。",
       "english": "After the renovation, it became a spacious area.",
       "sense_numbers": [
         1
@@ -43,8 +43,31 @@
       "notes": null
     }
   ],
-  "notes": "A reduplication of {広|ひろ}い (wide) with the と particle, forming an adjectival expression. The reduplication intensifies the sense of spaciousness and adds an emotional, descriptive quality.\n\nFORMS:\n- {広々|ひろびろ}とした + noun: modifying a noun (spacious ~)\n- {広々|ひろびろ}としている: predicate form (is spacious)\n- {広々|ひろびろ}と: adverbial form ({広々|ひろびろ}と{広|ひろ}がる: to spread out spaciously)\n\nCOMMON COLLOCATIONS:\n- {広々|ひろびろ}とした{部屋|へや}: spacious room\n- {広々|ひろびろ}とした{空間|くうかん}: expansive space\n- {広々|ひろびろ}とした{景色|けしき}: wide-open scenery\n- {広々|ひろびろ}とした{公園|こうえん}: spacious park\n\nSIMILAR WORDS:\n- {広|ひろ}い: wide, spacious — the base adjective, more neutral\n- のびのび: freely, unrestricted — similar positive nuance but focuses on feeling\n- ゆったり: roomy, relaxed — emphasizes comfort and ease",
+  "notes": "A reduplication of ⟦{広|ひろ}い→広い：00704_hiroi⟧ (wide) with the ⟦と→と：00512_to⟧ particle, forming an adjectival expression. The reduplication intensifies the sense of spaciousness and adds an emotional, descriptive quality.\n\nFORMS:\n- {広々|ひろびろ}とした + noun: modifying a noun (spacious ~)\n- ⟦{広々|ひろびろ}→広々：03973_hirobiro⟧⟦として→として：06802_toshite⟧⟦いる→いる：00495_iru⟧: predicate form (is spacious)\n- ⟦{広々|ひろびろ}→広々：03973_hirobiro⟧⟦と→と：00512_to⟧: adverbial form (⟦{広々|ひろびろ}→広々：03973_hirobiro⟧⟦と→と：00512_to⟧⟦{広|ひろ}がる→広がる：01980_hirogaru⟧: to spread out spaciously)\n\nCOMMON COLLOCATIONS:\n- {広々|ひろびろ}とした⟦{部屋|へや}→部屋：00507_heya⟧: spacious room\n- {広々|ひろびろ}とした⟦{空間|くうかん}→空間：13754_kuukan⟧: expansive space\n- {広々|ひろびろ}とした⟦{景色|けしき}→景色：01395_keshiki⟧: wide-open scenery\n- {広々|ひろびろ}とした⟦{公園|こうえん}→公園：00581_kouen⟧: spacious park\n\nSIMILAR WORDS:\n- ⟦{広|ひろ}い→広い：00704_hiroi⟧: wide, spacious — the base adjective, more neutral\n- のびのび: freely, unrestricted — similar positive nuance but focuses on feeling\n- ⟦ゆったり→ゆったり：05841_yuttari⟧: roomy, relaxed — emphasizes comfort and ease",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00704_hiroi",
+      "reading": "ひろい",
+      "headword": "{広|ひろ}い",
+      "label": "wide, spacious"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10397_nobinobi",
+      "reading": "のびのび",
+      "headword": "{伸|の}び{伸|の}び",
+      "label": "freely, unrestricted"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05841_yuttari",
+      "reading": "ゆったり",
+      "headword": "ゆったり",
+      "label": "roomy, relaxed"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +82,6 @@
       ]
     },
     "created": "2026-03-29T17:11:07Z",
-    "modified": "2026-07-28T09:34:52Z"
+    "modified": "2026-09-02T04:02:00Z"
   }
 }

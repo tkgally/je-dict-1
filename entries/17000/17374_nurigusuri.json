@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "17374_nurigusuri_ex1",
-      "japanese": "{塗|ぬ}り{薬|ぐすり}を{塗|ぬ}る。",
+      "japanese": "{塗|ぬ}り{薬|ぐすり}⟦を→を：00422_wo⟧⟦{塗|ぬ}る→塗る：01174_nuru⟧。",
       "english": "Apply ointment.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "17374_nurigusuri_ex2",
-      "japanese": "{医者|いしゃ}に{塗|ぬ}り{薬|ぐすり}を{処方|しょほう}された。",
+      "japanese": "⟦{医者|いしゃ}→医者：02847_isha⟧⟦に→に：00314_ni⟧{塗|ぬ}り{薬|ぐすり}⟦を→を：00422_wo⟧⟦{処方|しょほう}→処方：05976_shohou⟧⟦された→する：00392_suru⟧。",
       "english": "The doctor prescribed me a topical medicine.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "17374_nurigusuri_ex3",
-      "japanese": "この{塗|ぬ}り{薬|ぐすり}は{一日|いちにち}に{三回|さんかい}、{患部|かんぶ}に{塗|ぬ}ってください。",
+      "japanese": "⟦この→この：00962_kono⟧{塗|ぬ}り{薬|ぐすり}⟦は→は：00079_ha⟧⟦{一日|いちにち}→一日：00942_ichinichi⟧⟦に→に：00314_ni⟧⟦{三回|さんかい}→三回：30448_sankai⟧、⟦{患部|かんぶ}→患部：18653_kanbu⟧⟦に→に：00314_ni⟧⟦{塗|ぬ}って→塗る：01174_nuru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please apply this ointment to the affected area three times a day.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA general term for any medication applied externally to the skin. Covers ointments, creams, gels, and lotions.\n\nCOMMON COLLOCATIONS:\n- {塗|ぬ}り{薬|ぐすり}を{塗|ぬ}る (to apply ointment)\n- {塗|ぬ}り{薬|ぐすり}を{処方|しょほう}する (to prescribe topical medicine)\n- {塗|ぬ}り{薬|ぐすり}を{患部|かんぶ}に{付|つ}ける (to put ointment on the affected area)\n\nSIMILAR WORDS:\n- {軟膏|なんこう}: ointment — more specific medical term for thick, greasy ointments\n- {飲|の}み{薬|ぐすり}: oral medicine — medicine taken by mouth, the counterpart of {塗|ぬ}り{薬|ぐすり}",
+  "notes": "USAGE:\nA general term for any medication applied externally to the skin. Covers ointments, creams, gels, and lotions.\n\nCOMMON COLLOCATIONS:\n- {塗|ぬ}り{薬|ぐすり}⟦を→を：00422_wo⟧⟦{塗|ぬ}る→塗る：01174_nuru⟧ (to apply ointment)\n- {塗|ぬ}り{薬|ぐすり}⟦を→を：00422_wo⟧⟦{処方|しょほう}→処方：05976_shohou⟧⟦する→する：00392_suru⟧ (to prescribe topical medicine)\n- {塗|ぬ}り{薬|ぐすり}⟦を→を：00422_wo⟧⟦{患部|かんぶ}→患部：18653_kanbu⟧⟦に→に：00314_ni⟧⟦{付|つ}ける→付ける：00761_tsukeru⟧ (to put ointment on the affected area)\n\nSIMILAR WORDS:\n- {軟膏|なんこう}: ointment — more specific medical term for thick, greasy ointments\n- ⟦{飲|の}み{薬|ぐすり}→飲み薬：19044_nomigusuri⟧: oral medicine — medicine taken by mouth, the counterpart of {塗|ぬ}り{薬|ぐすり}",
   "cross_references": [
     {
       "type": "antonym",
@@ -52,11 +52,25 @@
       "reading": "のみぐすり",
       "headword": "{飲|の}み{薬|ぐすり}",
       "label": "oral medicine"
+    },
+    {
+      "type": "related",
+      "target_id": "22643_naifukuyaku",
+      "reading": "ないふくやく",
+      "headword": "{内服薬|ないふくやく}",
+      "label": "oral medication"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24270_gaiyouyaku",
+      "reading": "がいようやく",
+      "headword": "{外用薬|がいようやく}",
+      "label": "external medicine"
     }
   ],
   "metadata": {
     "created": "2026-03-17T10:34:13Z",
-    "modified": "2026-07-23T19:02:37Z",
+    "modified": "2026-09-02T04:01:48Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

@@ -78,7 +78,7 @@
       ]
     }
   ],
-  "notes": "GRAMMAR:\n- {単純|たんじゅん}⟦な→な：09497_na⟧ + noun: simple (noun)\n- {単純|たんじゅん}⟦に→に：00314_ni⟧: simply (adverb)\n\nNUANCE:\n- Sense 1 is neutral/positive: uncomplicated, straightforward\n- Sense 2 can be negative: naive, gullible\n\nSIMILAR WORDS:\n- {単純|たんじゅん}: Simple (structure/complexity)\n- ⟦{簡単|かんたん}→簡単：00713_kantan⟧: Easy, simple (difficulty level)\n- ⟦{素朴|そぼく}→素朴：06071_soboku⟧: Simple, naive (innocent quality)\n\nANTONYM:\n- ⟦{複雑|ふくざつ}→複雑：01115_fukuzatsu⟧: Complex, complicated",
+  "notes": "COMMON PATTERNS:\n- {単純|たんじゅん}⟦な→な：09497_na⟧ + noun: simple (noun)\n- {単純|たんじゅん}⟦に→に：00314_ni⟧: simply (adverb)\n\nUSAGE:\n- Sense 1 is neutral/positive: uncomplicated, straightforward\n- Sense 2 can be negative: naive, gullible\n\nSIMILAR WORDS:\n- {単純|たんじゅん}: Simple (structure/complexity)\n- ⟦{簡単|かんたん}→簡単：00713_kantan⟧: Easy, simple (difficulty level)\n- ⟦{素朴|そぼく}→素朴：06071_soboku⟧: Simple, naive (innocent quality)\n- ⟦{複雑|ふくざつ}→複雑：01115_fukuzatsu⟧: Complex, complicated",
   "cross_references": [
     {
       "type": "antonym",
@@ -93,11 +93,39 @@
       "headword": "{簡単|かんたん}",
       "label": "easy, simple",
       "target_id": "00713_kantan"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06071_soboku",
+      "reading": "そぼく",
+      "headword": "{素朴|そぼく}",
+      "label": "Simple, naive"
+    },
+    {
+      "type": "related",
+      "target_id": "01757_tannaru",
+      "reading": "たんなる",
+      "headword": "{単|たん}なる",
+      "label": "mere, simple, sheer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03415_tanni",
+      "reading": "たんに",
+      "headword": "{単|たん}に",
+      "label": "simply, merely"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08673_junsui",
+      "reading": "じゅんすい",
+      "headword": "{純粋|じゅんすい}",
+      "label": "pure"
     }
   ],
   "metadata": {
     "created": "2026-01-12T14:34:00Z",
-    "modified": "2026-06-12T18:22:32Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

@@ -3,7 +3,7 @@
   "headword": "{株式公開|かぶしきこうかい}",
   "reading": "かぶしきこうかい",
   "romaji": "kabushikikoukai",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "stock listing; IPO; going public",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22714_kabushikikoukai_ex1",
-      "japanese": "{株式公開|かぶしきこうかい}を{目指|めざ}す。",
+      "japanese": "{株式公開|かぶしきこうかい}⟦を→を：00422_wo⟧⟦{目指|めざ}す→目指す：10528_mezasu⟧。",
       "english": "To aim for a stock listing.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22714_kabushikikoukai_ex2",
-      "japanese": "あの{会社|かいしゃ}は{来年|らいねん}{株式公開|かぶしきこうかい}する{予定|よてい}だ。",
+      "japanese": "⟦あの→あの：00915_ano⟧⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦は→は：00079_ha⟧⟦{来年|らいねん}→来年：00745_rainen⟧{株式公開|かぶしきこうかい}⟦する→する：00392_suru⟧⟦{予定|よてい}→予定：00824_yotei⟧だ。",
       "english": "That company plans to go public next year.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22714_kabushikikoukai_ex3",
-      "japanese": "{株式公開|かぶしきこうかい}によって{多額|たがく}の{資金|しきん}を{調達|ちょうたつ}することができた。",
+      "japanese": "{株式公開|かぶしきこうかい}⟦によって→によって：06801_niyotte⟧⟦{多額|たがく}→多額：12309_tagaku⟧⟦の→の：09472_no⟧⟦{資金|しきん}→資金：09937_shikin⟧⟦を→を：00422_wo⟧⟦{調達|ちょうたつ}→調達：09938_choutatsu⟧⟦する→する：00392_suru⟧こと⟦が→が：00051_ga⟧⟦できた→できる：00557_dekiru⟧。",
       "english": "Through the IPO, they were able to raise a large amount of capital.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {株式|かぶしき} (stock, shares) + {公開|こうかい} (making public, opening). Can function as a noun or a suru-verb. When referring specifically to the first time a company lists its shares, the English term IPO (Initial Public Offering) is also commonly used in Japanese business contexts.\n\nCOMMON COLLOCATIONS:\n- {株式公開|かぶしきこうかい}する: to go public\n- {株式公開|かぶしきこうかい}を{果|は}たす: to achieve a stock listing\n- {株式公開|かぶしきこうかい}{企業|きぎょう}: publicly listed company\n- {新規|しんき}{株式公開|かぶしきこうかい}: initial public offering (IPO)\n\nSIMILAR WORDS:\n- {上場|じょうじょう}: listing (on a stock exchange) — often used interchangeably, but {上場|じょうじょう} specifically refers to being listed on an exchange, while {株式公開|かぶしきこうかい} emphasizes making shares available to the public\n- IPO: initial public offering — the English abbreviation commonly used in Japanese business media\n- {非公開|ひこうかい}: privately held — the opposite state, where shares are not publicly traded",
+  "notes": "A compound of ⟦{株式|かぶしき}→株式：04772_kabushiki⟧ (stock, shares) + ⟦{公開|こうかい}→公開：11665_koukai⟧ (making public, opening). Can function as a noun or a suru-verb. When referring specifically to the first time a company lists its shares, the English term IPO (Initial Public Offering) is also commonly used in Japanese business contexts.\n\nCOMMON COLLOCATIONS:\n- {株式公開|かぶしきこうかい}⟦する→する：00392_suru⟧: to go public\n- {株式公開|かぶしきこうかい}⟦を→を：00422_wo⟧⟦{果|は}たす→果たす：10060_hatasu⟧: to achieve a stock listing\n- {株式公開|かぶしきこうかい}⟦{企業|きぎょう}→企業：00225_kigyou⟧: publicly listed company\n- ⟦{新規|しんき}→新規：06289_shinki⟧{株式公開|かぶしきこうかい}: initial public offering (IPO)\n\nSIMILAR WORDS:\n- ⟦{上場|じょうじょう}→上場：11189_joujou_b⟧: listing (on a stock exchange) — often used interchangeably, but ⟦{上場|じょうじょう}→上場：11189_joujou_b⟧ specifically refers to being listed on an exchange, while {株式公開|かぶしきこうかい} emphasizes making shares available to the public\n- IPO: initial public offering — the English abbreviation commonly used in Japanese business media\n- ⟦{非公開|ひこうかい}→非公開：16599_hikoukai⟧: privately held — the opposite state, where shares are not publicly traded",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11189_joujou_b",
+      "reading": "じょうじょう",
+      "headword": "{上場|じょうじょう}",
+      "label": "listing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16599_hikoukai",
+      "reading": "ひこうかい",
+      "headword": "{非公開|ひこうかい}",
+      "label": "privately held"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -63,7 +79,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-07T12:37:43Z",
-    "modified": "2026-08-01T06:41:09Z"
+    "modified": "2026-09-02T04:02:09Z"
   },
   "conjugation": {
     "type": "suru",

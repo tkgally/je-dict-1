@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28045_nihonjuu_ex1",
-      "japanese": "{日本中|にほんじゅう}で{有名|ゆうめい}だ。",
+      "japanese": "{日本中|にほんじゅう}⟦で→で：00502_de⟧⟦{有名|ゆうめい}→有名：01106_yuumei⟧だ。",
       "english": "It's famous all over Japan.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28045_nihonjuu_ex2",
-      "japanese": "そのニュースは{日本中|にほんじゅう}に{広|ひろ}まった。",
+      "japanese": "⟦その→その：00993_sono⟧⟦ニュース→ニュース：04437_nyuusu⟧⟦は→は：00079_ha⟧{日本中|にほんじゅう}⟦に→に：00314_ni⟧⟦{広|ひろ}まった→広まる：02404_hiromaru⟧。",
       "english": "The news spread throughout Japan.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28045_nihonjuu_ex3",
-      "japanese": "{彼|かれ}のヒット{曲|きょく}は{日本中|にほんじゅう}の{人|ひと}に{愛|あい}されている。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧⟦ヒット{曲|きょく}→ヒット曲：25764_hittokyoku⟧⟦は→は：00079_ha⟧{日本中|にほんじゅう}⟦の→の：09472_no⟧⟦{人|ひと}→人：00476_hito⟧⟦に→に：00314_ni⟧⟦{愛|あい}されている→愛する：01811_aisuru⟧。",
       "english": "His hit song is loved by people all over Japan.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "The suffix 〜{中|じゅう} attaches to place words to mean \"throughout\" or \"all over.\"\n\nCOMMON COLLOCATIONS:\n- {日本中|にほんじゅう}を{旅|たび}する: to travel all over Japan\n- {日本中|にほんじゅう}に{広|ひろ}まる: to spread throughout Japan\n- {世界中|せかいじゅう}: all over the world (same 〜{中|じゅう} pattern)\n\nNOTE ON READING:\nWith place words 〜{中|じゅう} is read じゅう (extent across space); the same kanji read 〜{中|ちゅう} marks an ongoing action or period ({会議中|かいぎちゅう} \"in a meeting\").",
+  "notes": "The suffix 〜{中|じゅう} attaches to place words to mean \"throughout\" or \"all over.\"\n\nCOMMON COLLOCATIONS:\n- {日本中|にほんじゅう}⟦を→を：00422_wo⟧⟦{旅|たび}→旅：03407_tabi⟧⟦する→する：00392_suru⟧: to travel all over Japan\n- {日本中|にほんじゅう}⟦に→に：00314_ni⟧⟦{広|ひろ}まる→広まる：02404_hiromaru⟧: to spread throughout Japan\n- ⟦{世界中|せかいじゅう}→世界中：10171_sekaijuu⟧: all over the world (same 〜{中|じゅう} pattern)\n\nNOTE ON READING:\nWith place words 〜{中|じゅう} is read じゅう (extent across space); the same kanji read 〜⟦{中|ちゅう}→〜中：09840_chuu⟧ marks an ongoing action or period (⟦{会議中|かいぎちゅう}→会議中：16781_kaigichuu⟧ \"in a meeting\").",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03311_zenkoku",
+      "reading": "ぜんこく",
+      "headword": "{全国|ぜんこく}",
+      "label": "the whole country, nationwide"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +62,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "geography"
       ],
       "domain": []
     },
     "created": "2026-05-25T02:04:35Z",
-    "modified": "2026-08-08T03:27:39Z"
+    "modified": "2026-09-02T04:02:32Z"
   }
 }

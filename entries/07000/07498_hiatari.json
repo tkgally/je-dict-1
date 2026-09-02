@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "07498_hiatari_ex1",
-      "japanese": "この{部屋|へや}は{日当|ひあ}たりがいい。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{部屋|へや}→部屋：00507_heya⟧⟦は→は：00079_ha⟧{日当|ひあ}たり⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧。",
       "english": "This room gets good sunlight.",
       "has_audio": false,
       "sense_numbers": [
@@ -23,7 +23,7 @@
     },
     {
       "id": "07498_hiatari_ex2",
-      "japanese": "{南向|みなみむ}きの{部屋|へや}は{日当|ひあ}たりが{良|よ}い。",
+      "japanese": "⟦{南向|みなみむ}き→南向き：22595_minamimuki⟧⟦の→の：09472_no⟧⟦{部屋|へや}→部屋：00507_heya⟧⟦は→は：00079_ha⟧{日当|ひあ}たり⟦が→が：00051_ga⟧⟦{良|よ}い→良い：02350_yoi⟧。",
       "english": "South-facing rooms get good sun exposure.",
       "has_audio": false,
       "sense_numbers": [
@@ -32,7 +32,7 @@
     },
     {
       "id": "07498_hiatari_ex3",
-      "japanese": "{日当|ひあ}たりの{悪|わる}い{部屋|へや}は{湿気|しっけ}がたまりやすい。",
+      "japanese": "{日当|ひあ}たり⟦の→の：09472_no⟧⟦{悪|わる}い→悪い：00908_warui⟧⟦{部屋|へや}→部屋：00507_heya⟧⟦は→は：00079_ha⟧⟦{湿気|しっけ}→湿気：03177_shikke⟧⟦が→が：00051_ga⟧たまりやすい。",
       "english": "Rooms with poor sun exposure tend to accumulate moisture.",
       "has_audio": false,
       "sense_numbers": [
@@ -40,10 +40,33 @@
       ]
     }
   ],
-  "notes": "WORD STRUCTURE:\n{日|ひ} (sun) + {当|あ}たり (hitting, exposure)\n\nLiterally \"sun hitting\" - how much sunlight reaches a place.\n\nIMPORTANCE IN JAPAN:\n{日当|ひあ}たり is crucial in Japanese housing because:\n- {南向|みなみむ}き (south-facing) rooms are preferred\n- Good sunlight = natural warmth = lower heating costs\n- Poor {日当|ひあ}たり leads to {湿気|しっけ} (dampness) and mold\n- Affects mental well-being and plant growth\n\nCOMMON EXPRESSIONS:\n・{日当|ひあ}たりがいい/{良|よ}い - gets good sunlight\n・{日当|ひあ}たりが{悪|わる}い - gets poor sunlight\n・{日当|ひあ}たり{良好|りょうこう} - excellent sun exposure (real estate term)\n\nREAL ESTATE FACTORS:\n・{方角|ほうがく} - direction the unit faces\n  - {南向|みなみむ}き (south) = best\n  - {東向|ひがしむ}き (east) = morning sun\n  - {西向|にしむ}き (west) = afternoon sun\n  - {北向|きたむ}き (north) = least sun\n・{階数|かいすう} - floor level (higher = more sun)\n・{周囲|しゅうい}の{建物|たてもの} - surrounding buildings",
+  "notes": "ETYMOLOGY:\n⟦{日|ひ}→日：02249_hi⟧ (sun) + ⟦{当|あ}たり→当たり：01919_atari⟧ (hitting, exposure)\n\nLiterally \"sun hitting\" - how much sunlight reaches a place.\n\nIMPORTANCE IN JAPAN:\n{日当|ひあ}たり is crucial in Japanese housing because:\n- ⟦{南向|みなみむ}き→南向き：22595_minamimuki⟧ (south-facing) rooms are preferred\n- Good sunlight = natural warmth = lower heating costs\n- Poor {日当|ひあ}たり leads to ⟦{湿気|しっけ}→湿気：03177_shikke⟧ (dampness) and mold\n- Affects mental well-being and plant growth\n\nCOMMON EXPRESSIONS:\n- {日当|ひあ}たり⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧/⟦{良|よ}い→良い：02350_yoi⟧ - gets good sunlight\n- {日当|ひあ}たり⟦が→が：00051_ga⟧⟦{悪|わる}い→悪い：00908_warui⟧ - gets poor sunlight\n- {日当|ひあ}たり⟦{良好|りょうこう}→良好：13954_ryoukou⟧ - excellent sun exposure (real estate term)\n\nREAL ESTATE FACTORS:\n- ⟦{方角|ほうがく}→方角：08447_hougaku⟧ - direction the unit faces\n  - ⟦{南向|みなみむ}き→南向き：22595_minamimuki⟧ (south) = best\n  - {東向|ひがしむ}き (east) = morning sun\n  - {西向|にしむ}き (west) = afternoon sun\n  - {北向|きたむ}き (north) = least sun\n- {階数|かいすう} - floor level (higher = more sun)\n- ⟦{周囲|しゅうい}→周囲：03206_shuui⟧⟦の→の：09472_no⟧⟦{建物|たてもの}→建物：01458_tatemono⟧ - surrounding buildings",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21173_nisshou",
+      "reading": "にっしょう",
+      "headword": "{日照|にっしょう}",
+      "label": "sunshine"
+    },
+    {
+      "type": "related",
+      "target_id": "22595_minamimuki",
+      "reading": "みなみむき",
+      "headword": "{南向|みなみむ}き",
+      "label": "south-facing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29943_nisshoujikan",
+      "reading": "にっしょうじかん",
+      "headword": "{日照時間|にっしょうじかん}",
+      "label": "hours of sunshine"
+    }
+  ],
   "metadata": {
     "created": "2026-01-20T05:43:45Z",
-    "modified": "2026-08-10T18:29:45Z",
+    "modified": "2026-09-02T04:01:11Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -51,6 +74,7 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "building",
         "weather"

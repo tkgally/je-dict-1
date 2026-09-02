@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "27948_keisanshiki_ex1",
-      "japanese": "{計算式|けいさんしき}を{書|か}く。",
+      "japanese": "{計算式|けいさんしき}⟦を→を：00422_wo⟧⟦{書|か}く→書く：00477_kaku⟧。",
       "english": "I write out the formula.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "27948_keisanshiki_ex2",
-      "japanese": "この{計算式|けいさんしき}は{間違|まちが}っている。",
+      "japanese": "⟦この→この：00962_kono⟧{計算式|けいさんしき}⟦は→は：00079_ha⟧⟦{間違|まちが}っている→間違う：03036_machigau⟧。",
       "english": "This formula is wrong.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "27948_keisanshiki_ex3",
-      "japanese": "{表計算|ひょうけいさん}ソフトでは、セルに{計算式|けいさんしき}を{入力|にゅうりょく}すると{自動|じどう}で{答|こた}えが{出|で}る。",
+      "japanese": "{表計算|ひょうけいさん}⟦ソフト→ソフト：01532_sofuto⟧で⟦は→は：00079_ha⟧、セル⟦に→に：00314_ni⟧{計算式|けいさんしき}⟦を→を：00422_wo⟧⟦{入力|にゅうりょく}する→入力する：28127_nyuuryokusuru⟧⟦と→と：00512_to⟧⟦{自動|じどう}→自動：03339_jidou⟧⟦で→で：00502_de⟧⟦{答|こた}え→答え：00790_kotae⟧⟦が→が：00051_ga⟧⟦{出|で}る→出る：00513_deru⟧。",
       "english": "In spreadsheet software, when you enter a formula in a cell the answer appears automatically.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {計算|けいさん} (calculation) + {式|しき} (formula, expression). Refers to the written form of a calculation rather than the act of calculating.\n\nCOMMON COLLOCATIONS:\n- {計算式|けいさんしき}を{立|た}てる: to set up a calculation\n- {計算式|けいさんしき}を{入力|にゅうりょく}する: to enter a formula\n\nSIMILAR WORDS:\n- {数式|すうしき}: mathematical expression — broader, including algebraic formulas\n- {公式|こうしき}: formula — an established formula such as a²+b²=c²",
+  "notes": "Compound of ⟦{計算|けいさん}→計算：02697_keisan⟧ (calculation) + {式|しき} (formula, expression). Refers to the written form of a calculation rather than the act of calculating.\n\nCOMMON COLLOCATIONS:\n- {計算式|けいさんしき}⟦を→を：00422_wo⟧⟦{立|た}てる→立てる：01196_tateru⟧: to set up a calculation\n- {計算式|けいさんしき}⟦を→を：00422_wo⟧⟦{入力|にゅうりょく}する→入力する：28127_nyuuryokusuru⟧: to enter a formula\n\nSIMILAR WORDS:\n- ⟦{数式|すうしき}→数式：16124_suushiki⟧: mathematical expression — broader, including algebraic formulas\n- ⟦{公式|こうしき}→公式：04167_koushiki⟧: formula — an established formula such as a²+b²=c²",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16124_suushiki",
+      "reading": "すうしき",
+      "headword": "{数式|すうしき}",
+      "label": "mathematical expression"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04167_koushiki",
+      "reading": "こうしき",
+      "headword": "{公式|こうしき}",
+      "label": "formula"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +69,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "education",
         "science"
@@ -61,6 +77,6 @@
       "domain": []
     },
     "created": "2026-05-23T03:06:48Z",
-    "modified": "2026-08-08T03:24:52Z"
+    "modified": "2026-09-02T04:02:32Z"
   }
 }

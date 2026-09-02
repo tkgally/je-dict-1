@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "13932_kyoui_ex1",
-      "japanese": "{安全|あんぜん}{保障|ほしょう}への{脅威|きょうい}が{高|たか}まっている。",
+      "japanese": "⟦{安全|あんぜん}{保障|ほしょう}→安全保障：05788_anzenhoshou⟧⟦へ→へ：02473_he⟧⟦の→の：09472_no⟧{脅威|きょうい}⟦が→が：00051_ga⟧⟦{高|たか}まっている→高まる：02066_takamaru⟧。",
       "english": "The threat to national security is growing.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "13932_kyoui_ex2",
-      "japanese": "{地球|ちきゅう}{温暖|おんだん}{化|か}は{人類|じんるい}にとって{大|おお}きな{脅威|きょうい}だ。",
+      "japanese": "⟦{地球|ちきゅう}{温暖|おんだん}{化|か}→地球温暖化：18873_chikyuuondanka⟧⟦は→は：00079_ha⟧⟦{人類|じんるい}→人類：01578_jinrui⟧⟦にとって→にとって：06803_nitotte⟧⟦{大|おお}きな→大きな：02849_ookina⟧{脅威|きょうい}だ。",
       "english": "Global warming is a great threat to humanity.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "13932_kyoui_ex3",
-      "japanese": "サイバー{攻撃|こうげき}の{脅威|きょうい}に{備|そな}えるため、{企業|きぎょう}はセキュリティ{対策|たいさく}を{強化|きょうか}している。",
+      "japanese": "⟦サイバー→サイバー：28281_saibaa⟧⟦{攻撃|こうげき}→攻撃：02748_kougeki⟧⟦の→の：09472_no⟧{脅威|きょうい}⟦に→に：00314_ni⟧⟦{備|そな}える→備える：02125_sonaeru⟧⟦ため→ため：01145_tame⟧、⟦{企業|きぎょう}→企業：00225_kigyou⟧⟦は→は：00079_ha⟧⟦セキュリティ→セキュリティ：04867_sekyuriti⟧⟦{対策|たいさく}→対策：02511_taisaku⟧⟦を→を：00422_wo⟧⟦{強化|きょうか}している→強化する：25344_kyoukasuru⟧。",
       "english": "Companies are strengthening their security measures to prepare for the threat of cyberattacks.",
       "notes": null,
       "has_audio": false,
@@ -44,10 +44,10 @@
       ]
     }
   ],
-  "notes": "USAGE NOTE:\nA formal, serious word used in news, politics, and academic contexts. Not used for trivial or personal-level threats. Carries a tone of gravity and urgency.\n\nCOMMON COLLOCATIONS:\n- {脅威|きょうい}になる (become a threat)\n- {脅威|きょうい}を{感|かん}じる (feel threatened)\n- {脅威|きょうい}を{与|あた}える (pose a threat)\n- {脅威|きょうい}に{さらされる} (be exposed to a threat)\n- {脅威|きょうい}に{備|そな}える (prepare for a threat)\n\nSIMILAR WORDS:\n- {脅|おど}し: threat, intimidation (direct personal threat, less formal)\n- {危険|きけん}: danger, risk (broader; not necessarily from an external agent)\n- {危機|きき}: crisis (more immediate and urgent)",
+  "notes": "USAGE:\nA formal, serious word used in news, politics, and academic contexts. Not used for trivial or personal-level threats. Carries a tone of gravity and urgency.\n\nCOMMON COLLOCATIONS:\n- {脅威|きょうい}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧ (become a threat)\n- {脅威|きょうい}⟦を→を：00422_wo⟧⟦{感|かん}じる→感じる：02044_kanjiru⟧ (feel threatened)\n- {脅威|きょうい}⟦を→を：00422_wo⟧⟦{与|あた}える→与える：01821_ataeru⟧ (pose a threat)\n- {脅威|きょうい}⟦に→に：00314_ni⟧さらされる (be exposed to a threat)\n- {脅威|きょうい}⟦に→に：00314_ni⟧⟦{備|そな}える→備える：02125_sonaeru⟧ (prepare for a threat)\n\nSIMILAR WORDS:\n- {脅|おど}し: threat, intimidation (direct personal threat, less formal)\n- ⟦{危険|きけん}→危険：01141_kiken⟧: danger, risk (broader; not necessarily from an external agent)\n- ⟦{危機|きき}→危機：11798_kiki⟧: crisis (more immediate and urgent)",
   "metadata": {
     "created": "2026-02-27T07:06:33Z",
-    "modified": "2026-02-27T07:06:33Z",
+    "modified": "2026-09-02T04:01:35Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -71,6 +71,13 @@
       "reading": "きき",
       "headword": "{危機|きき}",
       "label": "crisis"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01141_kiken",
+      "reading": "きけん",
+      "headword": "{危険|きけん}",
+      "label": "danger, risk (broader"
     }
   ],
   "prominent_see_also": [

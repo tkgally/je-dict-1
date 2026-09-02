@@ -3,7 +3,7 @@
   "headword": "{立|た}ちすくむ",
   "reading": "たちすくむ",
   "romaji": "tachisukumu",
-  "part_of_speech": "verb-godan",
+  "part_of_speech": "verb (godan)",
   "gloss": "to stand frozen; to be rooted to the spot",
   "conjugation": {
     "type": "godan",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "18704_tachisukumu_ex1",
-      "japanese": "{恐怖|きょうふ}で{立|た}ちすくんだ。",
+      "japanese": "⟦{恐怖|きょうふ}→恐怖：02585_kyoufu⟧⟦で→で：00502_de⟧{立|た}ちすくんだ。",
       "english": "I stood frozen with fear.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "18704_tachisukumu_ex2",
-      "japanese": "{突然|とつぜん}の{大|おお}きな{音|おと}に{立|た}ちすくんだ。",
+      "japanese": "⟦{突然|とつぜん}→突然：00409_totsuzen⟧⟦の→の：09472_no⟧⟦{大|おお}きな→大きな：02849_ookina⟧⟦{音|おと}→音：00743_oto⟧⟦に→に：00314_ni⟧{立|た}ちすくんだ。",
       "english": "I froze in place at the sudden loud noise.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "18704_tachisukumu_ex3",
-      "japanese": "{目|め}の{前|まえ}に{熊|くま}が{現|あらわ}れて、{立|た}ちすくむしかなかった。",
+      "japanese": "⟦{目|め}の{前|まえ}→目の前：22588_menomae⟧⟦に→に：00314_ni⟧⟦{熊|くま}→熊：04343_kuma⟧⟦が→が：00051_ga⟧⟦{現|あらわ}れて→現れる：01870_arawareru⟧、{立|た}ちすくむしかなかった。",
       "english": "A bear appeared right in front of me, and all I could do was stand frozen.",
       "sense_numbers": [
         1
@@ -134,8 +134,17 @@
       "notes": null
     }
   ],
-  "notes": "{立|た}ちすくむ describes standing motionless, unable to move, typically due to fear, shock, or overwhelming emotion.\n\nTRANSITIVITY:\n- Type: {自動詞|じどうし} (intransitive)\n\nWORD FORMATION:\n{立|た}つ (to stand) + すくむ (to cower, to stiffen). The verb すくむ means to become rigid or paralyzed.\n\nASPECT (ている):\n{立|た}ちすくんでいる means \"is standing frozen\" — a continuing state of paralysis.\n\nCOMMON CONTEXTS:\n- {恐怖|きょうふ}で{立|た}ちすくむ: to freeze with fear\n- ショックで{立|た}ちすくむ: to stand frozen in shock\n- {圧倒|あっとう}されて{立|た}ちすくむ: to be rooted to the spot in awe\n\nRELATED EXPRESSIONS:\n- {足|あし}がすくむ: legs freeze (with fear)\n- {身|み}がすくむ: body freezes up\n- {動|うご}けなくなる: to become unable to move",
+  "notes": "{立|た}ちすくむ describes standing motionless, unable to move, typically due to fear, shock, or overwhelming emotion.\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n\nFORMS:\n⟦{立|た}つ→立つ：00758_tatsu⟧ (to stand) + ⟦すくむ→すくむ：10356_sukumu⟧ (to cower, to stiffen). The verb ⟦すくむ→すくむ：10356_sukumu⟧ means to become rigid or paralyzed.\n\nASPECT (ている):\n{立|た}ちすくんで⟦いる→いる：00495_iru⟧ means \"is standing frozen\" — a continuing state of paralysis.\n\nUSAGE:\n- ⟦{恐怖|きょうふ}→恐怖：02585_kyoufu⟧⟦で→で：00502_de⟧{立|た}ちすくむ: to freeze with fear\n- ⟦ショック→ショック：03847_shokku⟧⟦で→で：00502_de⟧{立|た}ちすくむ: to stand frozen in shock\n- ⟦{圧倒|あっとう}されて→圧倒される：15413_attousareru⟧{立|た}ちすくむ: to be rooted to the spot in awe\n\nRELATED WORDS:\n- ⟦{足|あし}がすくむ→足がすくむ：18703_ashigasukumu⟧: legs freeze (with fear)\n- ⟦{身|み}→身：01764_mi⟧⟦が→が：00051_ga⟧⟦すくむ→すくむ：10356_sukumu⟧: body freezes up\n- ⟦{動|うご}けなく→動く：00904_ugoku⟧⟦なる→なる：01970_naru⟧: to become unable to move",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "18703_ashigasukumu",
+      "reading": "あしがすくむ",
+      "headword": "{足|あし}がすくむ",
+      "label": "legs freeze"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -152,6 +161,6 @@
       "verb_class": "godan-mu"
     },
     "created": "2026-03-23T00:22:20Z",
-    "modified": "2026-07-26T09:39:42Z"
+    "modified": "2026-09-02T04:01:53Z"
   }
 }

@@ -15,38 +15,73 @@
   "examples": [
     {
       "id": "25588_yasashisa_ex1",
-      "japanese": "{彼女|かのじょ}の{優|やさ}しさに{感動|かんどう}した。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦の→の：09472_no⟧{優|やさ}しさ⟦に→に：00314_ni⟧⟦{感動|かんどう}した→感動する：21603_kandousuru⟧。",
       "english": "I was moved by her kindness.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "25588_yasashisa_ex2",
-      "japanese": "{人|ひと}の{優|やさ}しさは{言葉|ことば}だけでは{伝|つた}わらない。",
+      "japanese": "⟦{人|ひと}→人：00476_hito⟧⟦の→の：09472_no⟧{優|やさ}しさ⟦は→は：00079_ha⟧⟦{言葉|ことば}→言葉：02880_kotoba⟧⟦だけ→〜だけ：03093_dake⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{伝|つた}わらない→伝わる：01961_tsutawaru⟧。",
       "english": "A person's kindness can't be conveyed through words alone.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "25588_yasashisa_ex3",
-      "japanese": "{子|こ}どもに{接|せっ}するときは、{厳|きび}しさと{優|やさ}しさのバランスが{大切|たいせつ}だ。",
+      "japanese": "{子|こ}ども⟦に→に：00314_ni⟧⟦{接|せっ}する→接する：12920_sessuru⟧とき⟦は→は：00079_ha⟧、{厳|きび}しさ⟦と→と：00512_to⟧{優|やさ}しさ⟦の→の：09472_no⟧⟦バランス→バランス：03870_baransu⟧⟦が→が：00051_ga⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧だ。",
       "english": "When dealing with children, a balance of strictness and gentleness is important.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "The nominalized form of the i-adjective {優|やさ}しい (kind, gentle). It refers to the abstract quality of kindness or tenderness as a trait or feeling.\n\nOften used to describe warmth in personal relationships and is a highly valued quality in Japanese culture. It encompasses both emotional warmth and considerate behavior.\n\nCOMMON COLLOCATIONS:\n- {優|やさ}しさに{溢|あふ}れる: to overflow with kindness\n- {優|やさ}しさに{触|ふ}れる: to experience someone's kindness\n- {優|やさ}しさを{感|かん}じる: to feel kindness\n- {本当|ほんとう}の{優|やさ}しさ: true kindness\n\nSIMILAR WORDS:\n- {親切|しんせつ}: kindness, helpfulness — focuses more on helpful actions toward others\n- {思|おも}いやり: consideration, compassion — emphasizes empathy and thoughtfulness\n- {温|あたた}かさ: warmth — broader sense of emotional or physical warmth",
+  "notes": "The nominalized form of the i-adjective {優|やさ}しい (kind, gentle). It refers to the abstract quality of kindness or tenderness as a trait or feeling.\n\nOften used to describe warmth in personal relationships and is a highly valued quality in Japanese culture. It encompasses both emotional warmth and considerate behavior.\n\nCOMMON COLLOCATIONS:\n- {優|やさ}しさ⟦に→に：00314_ni⟧⟦{溢|あふ}れる→溢れる：04250_afureru⟧: to overflow with kindness\n- {優|やさ}しさ⟦に→に：00314_ni⟧⟦{触|ふ}れる→触れる：01984_fureru⟧: to experience someone's kindness\n- {優|やさ}しさ⟦を→を：00422_wo⟧⟦{感|かん}じる→感じる：02044_kanjiru⟧: to feel kindness\n- ⟦{本当|ほんとう}→本当：00779_hontou⟧⟦の→の：09472_no⟧{優|やさ}しさ: true kindness\n\nSIMILAR WORDS:\n- ⟦{親切|しんせつ}→親切：01144_shinsetsu⟧: kindness, helpfulness — focuses more on helpful actions toward others\n- ⟦{思|おも}いやり→思いやり：06651_omoiyari⟧: consideration, compassion — emphasizes empathy and thoughtfulness\n- {温|あたた}かさ: warmth — broader sense of emotional or physical warmth",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01144_shinsetsu",
+      "reading": "しんせつ",
+      "headword": "{親切|しんせつ}",
+      "label": "kindness, helpfulness"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06651_omoiyari",
+      "reading": "おもいやり",
+      "headword": "{思|おも}いやり",
+      "label": "consideration, compassion"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25336_atatakami",
+      "reading": "あたたかみ",
+      "headword": "{温|あたた}かみ",
+      "label": "warmth"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["emotion"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "emotion"
+      ]
     },
     "created": "2026-04-26T12:30:56Z",
-    "modified": "2026-04-26T12:30:56Z"
+    "modified": "2026-09-02T04:02:23Z"
   }
 }

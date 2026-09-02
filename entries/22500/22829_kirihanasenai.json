@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22829_kirihanasenai_ex1",
-      "japanese": "この{二|ふた}つは{切|き}り{離|はな}せない{関係|かんけい}だ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{二|ふた}つ→二つ：02953_futatsu⟧⟦は→は：00079_ha⟧{切|き}り{離|はな}せない⟦{関係|かんけい}→関係：01298_kankei⟧だ。",
       "english": "These two have an inseparable relationship.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22829_kirihanasenai_ex2",
-      "japanese": "{経済|けいざい}と{環境|かんきょう}は{切|き}り{離|はな}せない。",
+      "japanese": "⟦{経済|けいざい}→経済：01394_keizai⟧⟦と→と：00512_to⟧⟦{環境|かんきょう}→環境：00174_kankyou⟧⟦は→は：00079_ha⟧{切|き}り{離|はな}せない。",
       "english": "The economy and the environment are inseparable.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22829_kirihanasenai_ex3",
-      "japanese": "{日本|にほん}の{文化|ぶんか}と{四季|しき}は{切|き}り{離|はな}せない{関係|かんけい}にある。",
+      "japanese": "⟦{日本|にほん}→日本：03876_nihon⟧⟦の→の：09472_no⟧⟦{文化|ぶんか}→文化：01504_bunka⟧⟦と→と：00512_to⟧⟦{四季|しき}→四季：11809_shiki⟧⟦は→は：00079_ha⟧{切|き}り{離|はな}せない⟦{関係|かんけい}→関係：01298_kankei⟧⟦に→に：00314_ni⟧⟦ある→ある：00006_aru⟧。",
       "english": "Japanese culture and the four seasons are inextricably linked.",
       "sense_numbers": [
         1
@@ -44,19 +44,36 @@
       "notes": null
     }
   ],
-  "notes": "The negative potential form of {切|き}り{離|はな}す (to separate; to detach), used as a set expression meaning \"cannot be separated\" or \"inseparable.\" Commonly used to describe deep connections between concepts, people, or things.\n\nCOMMON PATTERNS:\n- AとBは{切|き}り{離|はな}せない: A and B are inseparable\n- {切|き}り{離|はな}せない{関係|かんけい}: an inseparable relationship\n- ～から{切|き}り{離|はな}せない: inseparable from ~\n\nSIMILAR EXPRESSIONS:\n- {不可分|ふかぶん}: indivisible — more formal and academic\n- {密接|みっせつ}な{関係|かんけい}: a close relationship — similar but less emphatic\n- {表裏一体|ひょうりいったい}: two sides of the same coin",
+  "notes": "The negative potential form of ⟦{切|き}り{離|はな}す→切り離す：05763_kirihanasu⟧ (to separate; to detach), used as a set expression meaning \"cannot be separated\" or \"inseparable.\" Commonly used to describe deep connections between concepts, people, or things.\n\nCOMMON PATTERNS:\n- A⟦と→と：00512_to⟧B⟦は→は：00079_ha⟧{切|き}り{離|はな}せない: A and B are inseparable\n- {切|き}り{離|はな}せない⟦{関係|かんけい}→関係：01298_kankei⟧: an inseparable relationship\n- ～⟦から→から：00504_kara⟧{切|き}り{離|はな}せない: inseparable from ~\n\nSIMILAR WORDS:\n- ⟦{不可分|ふかぶん}→不可分：24459_fukabun⟧: indivisible — more formal and academic\n- ⟦{密接|みっせつ}→密接：12289_missetsu⟧な⟦{関係|かんけい}→関係：01298_kankei⟧: a close relationship — similar but less emphatic\n- ⟦{表裏一体|ひょうりいったい}→表裏一体：14082_hyouriittai⟧: two sides of the same coin",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24459_fukabun",
+      "reading": "ふかぶん",
+      "headword": "{不可分|ふかぶん}",
+      "label": "indivisible"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14082_hyouriittai",
+      "reading": "ひょうりいったい",
+      "headword": "{表裏一体|ひょうりいったい}",
+      "label": "two sides of the same coin"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "expression"
       ],
+      "politeness": "plain",
       "semantic": [
         "abstract"
       ]
     },
     "created": "2026-04-07T17:11:48Z",
-    "modified": "2026-04-07T17:11:48Z"
+    "modified": "2026-09-02T04:02:09Z"
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29277_chokkatsuchi_ex1",
-      "japanese": "この{地域|ちいき}は{幕府|ばくふ}の{直轄地|ちょっかつち}だった。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{地域|ちいき}→地域：01461_chiiki⟧⟦は→は：00079_ha⟧⟦{幕府|ばくふ}→幕府：12448_bakufu⟧⟦の→の：09472_no⟧{直轄地|ちょっかつち}だった。",
       "english": "This region was directly controlled territory of the shogunate.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29277_chokkatsuchi_ex2",
-      "japanese": "{首都|しゅと}は{中央政府|ちゅうおうせいふ}の{直轄地|ちょっかつち}とされている。",
+      "japanese": "⟦{首都|しゅと}→首都：03224_shuto⟧⟦は→は：00079_ha⟧{中央政府|ちゅうおうせいふ}⟦の→の：09472_no⟧{直轄地|ちょっかつち}⟦と→と：00512_to⟧⟦されている→する：00392_suru⟧。",
       "english": "The capital is designated as territory under the direct control of the central government.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29277_chokkatsuchi_ex3",
-      "japanese": "{江戸時代|えどじだい}、{重要|じゅうよう}な{鉱山|こうざん}の{多|おお}くは{幕府|ばくふ}の{直轄地|ちょっかつち}に{置|お}かれた。",
+      "japanese": "⟦{江戸時代|えどじだい}→江戸時代：20431_edojidai⟧、⟦{重要|じゅうよう}→重要：01575_juuyou⟧な⟦{鉱山|こうざん}→鉱山：15746_kouzan⟧⟦の→の：09472_no⟧{多|おお}く⟦は→は：00079_ha⟧⟦{幕府|ばくふ}→幕府：12448_bakufu⟧⟦の→の：09472_no⟧{直轄地|ちょっかつち}⟦に→に：00314_ni⟧⟦{置|お}かれた→置く：01092_oku⟧。",
       "english": "In the Edo period, many important mines were placed under the direct control of the shogunate.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "A term from history, administration, and politics. {直轄|ちょっかつ} means 'direct control,' so {直轄地|ちょっかつち} is land governed directly by the top authority instead of through intermediaries.\n\nCOMMON COLLOCATIONS:\n- {幕府|ばくふ}の{直轄地|ちょっかつち}: territory directly controlled by the shogunate\n- {国|くに}の{直轄地|ちょっかつち}: land under direct national control\n\nSIMILAR WORDS:\n- {直轄|ちょっかつ}: direct control (the base noun, often used as a modifier, e.g. {直轄|ちょっかつ}{事業|じぎょう})\n- {領地|りょうち}: domain; fief — land held by a lord, often contrasted with directly controlled land",
+  "notes": "A term from history, administration, and politics. ⟦{直轄|ちょっかつ}→直轄：13838_chokkatsu⟧ means 'direct control,' so {直轄地|ちょっかつち} is land governed directly by the top authority instead of through intermediaries.\n\nCOMMON COLLOCATIONS:\n- ⟦{幕府|ばくふ}→幕府：12448_bakufu⟧⟦の→の：09472_no⟧{直轄地|ちょっかつち}: territory directly controlled by the shogunate\n- ⟦{国|くに}→国：02204_kuni⟧⟦の→の：09472_no⟧{直轄地|ちょっかつち}: land under direct national control\n\nSIMILAR WORDS:\n- ⟦{直轄|ちょっかつ}→直轄：13838_chokkatsu⟧: direct control (the base noun, often used as a modifier, e.g. ⟦{直轄|ちょっかつ}→直轄：13838_chokkatsu⟧⟦{事業|じぎょう}→事業：11421_jigyou⟧)\n- ⟦{領地|りょうち}→領地：14860_ryouchi⟧: domain; fief — land held by a lord, often contrasted with directly controlled land",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14860_ryouchi",
+      "reading": "りょうち",
+      "headword": "{領地|りょうち}",
+      "label": "domain"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +62,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "politics"
       ],
       "domain": []
     },
     "created": "2026-06-15T21:19:05Z",
-    "modified": "2026-06-15T21:19:05Z"
+    "modified": "2026-09-02T04:02:36Z"
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "17270_awatemono_ex1",
-      "japanese": "{弟|おとうと}は{慌|あわ}て{者|もの}だ。",
+      "japanese": "⟦{弟|おとうと}→弟：00572_otouto⟧⟦は→は：00079_ha⟧{慌|あわ}て{者|もの}だ。",
       "english": "My younger brother is a hasty person.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "17270_awatemono_ex2",
-      "japanese": "{慌|あわ}て{者|もの}の{彼|かれ}はまた{忘|わす}れ{物|もの}をした。",
+      "japanese": "{慌|あわ}て{者|もの}⟦の→の：09472_no⟧⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦また→また：00969_mata⟧⟦{忘|わす}れ{物|もの}→忘れ物：01758_wasuremono⟧⟦を→を：00422_wo⟧⟦した→する：00392_suru⟧。",
       "english": "Being the hasty person he is, he forgot something again.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "17270_awatemono_ex3",
-      "japanese": "{慌|あわ}て{者|もの}で{有名|ゆうめい}な{先輩|せんぱい}が、{今朝|けさ}も{靴|くつ}を{左右|さゆう}{間違|まちが}えて{履|は}いてきた。",
+      "japanese": "{慌|あわ}て{者|もの}⟦で→で：00502_de⟧⟦{有名|ゆうめい}→有名：01106_yuumei⟧な⟦{先輩|せんぱい}→先輩：01451_senpai⟧⟦が→が：00051_ga⟧、⟦{今朝|けさ}→今朝：02877_kesa⟧⟦も→も：00484_mo⟧⟦{靴|くつ}→靴：00725_kutsu⟧⟦を→を：00422_wo⟧⟦{左右|さゆう}→左右：02826_sayuu⟧⟦{間違|まちが}えて→間違える：01109_machigaeru⟧⟦{履|は}いて→履く：00700_haku⟧きた。",
       "english": "The senior who is famous for being hasty came in this morning wearing mismatched shoes again.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nDescribes a personality trait — someone who habitually acts too quickly. Often used with affectionate exasperation. The word is a compound of {慌|あわ}てる (to panic, to rush) and {者|もの} (person).\n\nCOMMON COLLOCATIONS:\n- {慌|あわ}て{者|もの}の〜 (the hasty ~)\n- {慌|あわ}て{者|もの}で{有名|ゆうめい} (famous for being hasty)\n\nSIMILAR WORDS:\n- おっちょこちょい: scatterbrain — similar meaning but lighter, more playful tone\n- うっかり{者|もの}: absentminded person — focuses on forgetfulness rather than rushing\n- {早|はや}とちり: jumping to conclusions — emphasizes misunderstanding due to haste",
+  "notes": "USAGE:\nDescribes a personality trait — someone who habitually acts too quickly. Often used with affectionate exasperation. The word is a compound of ⟦{慌|あわ}てる→慌てる：01874_awateru⟧ (to panic, to rush) and ⟦{者|もの}→者：12734_mono⟧ (person).\n\nCOMMON COLLOCATIONS:\n- {慌|あわ}て{者|もの}⟦の→の：09472_no⟧〜 (the hasty ~)\n- {慌|あわ}て{者|もの}⟦で→で：00502_de⟧⟦{有名|ゆうめい}→有名：01106_yuumei⟧ (famous for being hasty)\n\nSIMILAR WORDS:\n- ⟦おっちょこちょい→おっちょこちょい：17269_occhokochoi⟧: scatterbrain — similar meaning but lighter, more playful tone\n- ⟦うっかり→うっかり：01863_ukkari⟧⟦{者|もの}→者：12734_mono⟧: absentminded person — focuses on forgetfulness rather than rushing\n- ⟦{早|はや}とちり→早とちり：12717_hayatochiri⟧: jumping to conclusions — emphasizes misunderstanding due to haste",
   "cross_references": [
     {
       "type": "synonym",
@@ -52,11 +52,18 @@
       "reading": "おっちょこちょい",
       "headword": "おっちょこちょい",
       "label": "scatterbrain (playful)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12717_hayatochiri",
+      "reading": "はやとちり",
+      "headword": "{早|はや}とちり",
+      "label": "jumping to conclusions"
     }
   ],
   "metadata": {
     "created": "2026-03-17T04:26:10Z",
-    "modified": "2026-05-06T05:09:10Z",
+    "modified": "2026-09-02T04:01:47Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

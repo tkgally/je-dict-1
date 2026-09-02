@@ -15,41 +15,67 @@
   "examples": [
     {
       "id": "29647_konpetishon_ex1",
-      "japanese": "コンペティションに{参加|さんか}する。",
+      "japanese": "コンペティション⟦に→に：00314_ni⟧⟦{参加|さんか}する→参加する：25408_sankasuru⟧。",
       "english": "To take part in a competition.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29647_konpetishon_ex2",
-      "japanese": "{設計|せっけい}のコンペティションで{優勝|ゆうしょう}した。",
+      "japanese": "⟦{設計|せっけい}→設計：03300_sekkei⟧⟦の→の：09472_no⟧コンペティション⟦で→で：00502_de⟧⟦{優勝|ゆうしょう}した→優勝する：25496_yuushousuru⟧。",
       "english": "We won first place in the design competition.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29647_konpetishon_ex3",
-      "japanese": "{国際|こくさい}コンペティションには{世界中|せかいじゅう}から{強豪|きょうごう}が{集|あつ}まる。",
+      "japanese": "⟦{国際|こくさい}→国際：01406_kokusai⟧コンペティション⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{世界中|せかいじゅう}→世界中：10171_sekaijuu⟧⟦から→から：00504_kara⟧{強豪|きょうごう}⟦が→が：00051_ga⟧⟦{集|あつ}まる→集まる：01162_atsumaru⟧。",
       "english": "Strong contenders from all over the world gather for the international competition.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A loanword from English \"competition,\" referring to an organized contest. Often shortened to コンペ, especially for golf outings and design or bidding contests.\n\nCOMMON COLLOCATIONS:\n- コンペティションに{参加|さんか}する: to enter a competition\n- {設計|せっけい}コンペティション: a design competition\n- コンペティションで{優勝|ゆうしょう}する: to win a competition\n\nSIMILAR WORDS:\n- {競技|きょうぎ}: athletic event, contest — used mainly for sports\n- コンクール: concours — a competition in arts such as music or film (from French)",
+  "notes": "A loanword from English \"competition,\" referring to an organized contest. Often shortened to コンペ, especially for golf outings and design or bidding contests.\n\nCOMMON COLLOCATIONS:\n- コンペティション⟦に→に：00314_ni⟧⟦{参加|さんか}する→参加する：25408_sankasuru⟧: to enter a competition\n- ⟦{設計|せっけい}→設計：03300_sekkei⟧コンペティション: a design competition\n- コンペティション⟦で→で：00502_de⟧⟦{優勝|ゆうしょう}する→優勝する：25496_yuushousuru⟧: to win a competition\n\nSIMILAR WORDS:\n- ⟦{競技|きょうぎ}→競技：02606_kyougi⟧: athletic event, contest — used mainly for sports\n- ⟦コンクール→コンクール：28795_konkuuru⟧: concours — a competition in arts such as music or film (from French)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02606_kyougi",
+      "reading": "きょうぎ",
+      "headword": "{競技|きょうぎ}",
+      "label": "athletic event, contest"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28795_konkuuru",
+      "reading": "こんくーる",
+      "headword": "コンクール",
+      "label": "concours"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["leisure"],
+      "politeness": "plain",
+      "semantic": [
+        "leisure"
+      ],
       "domain": []
     },
     "created": "2026-07-03T00:20:10Z",
-    "modified": "2026-07-03T00:20:10Z"
+    "modified": "2026-09-02T04:02:37Z"
   }
 }

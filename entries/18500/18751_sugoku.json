@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "18751_sugoku_ex1",
-      "japanese": "すごく{楽|たの}しかった。",
+      "japanese": "すごく⟦{楽|たの}しかった→楽しい：00817_tanoshii⟧。",
       "english": "It was really fun.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "18751_sugoku_ex2",
-      "japanese": "{今日|きょう}はすごく{寒|さむ}いね。",
+      "japanese": "⟦{今日|きょう}→今日：00496_kyou⟧⟦は→は：00079_ha⟧すごく⟦{寒|さむ}い→寒い：00664_samui⟧⟦ね→ね：09474_ne⟧。",
       "english": "It's extremely cold today, isn't it.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "18751_sugoku_ex3",
-      "japanese": "すごく{頑張|がんば}ったのに{結果|けっか}が{出|で}なかった。",
+      "japanese": "すごく⟦{頑張|がんば}った→頑張る：01222_ganbaru⟧⟦の→の：09472_no⟧⟦に→に：00314_ni⟧⟦{結果|けっか}→結果：02486_kekka⟧⟦が→が：00051_ga⟧⟦{出|で}なかった→出る：00513_deru⟧。",
       "english": "I tried incredibly hard, but didn't get results.",
       "sense_numbers": [
         1
@@ -44,8 +44,66 @@
       "notes": null
     }
   ],
-  "notes": "The standard adverbial form of すごい (amazing/terrible), used as an intensifier meaning \"very\" or \"extremely.\"\n\nUSAGE NOTE:\nIn casual speech, すごい is also widely used as an adverb (すごい{楽|たの}しい instead of すごく{楽|たの}しい). This is grammatically nonstandard but extremely common in everyday conversation.\n\nSIMILAR WORDS (intensifiers by register):\n- めちゃくちゃ / めっちゃ: super, crazy (very casual, young speakers)\n- すごく: very, extremely (casual)\n- とても: very (neutral, standard)\n- たいへん: very (slightly formal)\n- {非常|ひじょう}に: extremely (formal, written)\n\nREGISTER:\nすごく is informal and used primarily in spoken language. In formal writing, prefer とても or {非常|ひじょう}に.",
+  "notes": "The standard adverbial form of ⟦すごい→すごい：01128_sugoi⟧ (amazing/terrible), used as an intensifier meaning \"very\" or \"extremely.\"\n\nUSAGE:\nIn casual speech, ⟦すごい→すごい：01128_sugoi⟧ is also widely used as an adverb (⟦すごい→すごい：01128_sugoi⟧⟦{楽|たの}しい→楽しい：00817_tanoshii⟧ instead of すごく⟦{楽|たの}しい→楽しい：00817_tanoshii⟧). This is grammatically nonstandard but extremely common in everyday conversation.\n\nSIMILAR WORDS (intensifiers by register):\n- ⟦めちゃくちゃ→めちゃくちゃ：05178_mechakucha⟧ / ⟦めっちゃ→めっちゃ：04748_meccha⟧: super, crazy (very casual, young speakers)\n- すごく: very, extremely (casual)\n- ⟦とても→とても：00593_totemo⟧: very (neutral, standard)\n- たいへん: very (slightly formal)\n- ⟦{非常|ひじょう}→非常：01598_hijou⟧⟦に→に：00314_ni⟧: extremely (formal, written)\n\nREGISTER:\nすごく is informal and used primarily in spoken language. In formal writing, prefer ⟦とても→とても：00593_totemo⟧ or ⟦{非常|ひじょう}→非常：01598_hijou⟧⟦に→に：00314_ni⟧.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05178_mechakucha",
+      "reading": "めちゃくちゃ",
+      "headword": "めちゃくちゃ",
+      "label": "super, crazy"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04748_meccha",
+      "reading": "めっちゃ",
+      "headword": "めっちゃ",
+      "label": "super, crazy"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00593_totemo",
+      "reading": "とても",
+      "headword": "とても",
+      "label": "very"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00594_taihen",
+      "reading": "たいへん",
+      "headword": "{大変|たいへん}",
+      "label": "very"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01223_hijouni",
+      "reading": "ひじょうに",
+      "headword": "{非常|ひじょう}に",
+      "label": "extremely"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01598_hijou",
+      "reading": "ひじょう",
+      "headword": "{非常|ひじょう}",
+      "label": "emergency"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03820_jitsuni",
+      "reading": "じつに",
+      "headword": "{実|じつ}に",
+      "label": "indeed, truly, really"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18750_ichijirushiku",
+      "reading": "いちじるしく",
+      "headword": "{著|いちじる}しく",
+      "label": "remarkably"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,6 +120,6 @@
       ]
     },
     "created": "2026-03-23T02:03:39Z",
-    "modified": "2026-06-08T02:21:06Z"
+    "modified": "2026-09-02T04:01:53Z"
   }
 }

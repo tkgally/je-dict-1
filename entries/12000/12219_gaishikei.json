@@ -3,7 +3,7 @@
   "id": "12219_gaishikei",
   "headword": "{外資系|がいしけい}",
   "reading": "がいしけい",
-  "part_of_speech": "noun / pre-noun adjectival",
+  "part_of_speech": "noun, pre-noun adjectival",
   "gloss": "foreign-affiliated, foreign-owned",
   "definitions": [
     {
@@ -15,42 +15,63 @@
   "examples": [
     {
       "id": "12219_gaishikei_ex1",
-      "japanese": "{外資系|がいしけい}{企業|きぎょう}で{働|はたら}いている。",
+      "japanese": "{外資系|がいしけい}{企業|きぎょう}⟦で→で：00502_de⟧⟦{働|はたら}いている→働く：00503_hataraku⟧。",
       "english": "I work at a foreign-affiliated company.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12219_gaishikei_ex2",
-      "japanese": "{外資系|がいしけい}のホテルはサービスが{違|ちが}う。",
+      "japanese": "{外資系|がいしけい}⟦の→の：09472_no⟧⟦ホテル→ホテル：01027_hoteru⟧⟦は→は：00079_ha⟧⟦サービス→サービス：01531_saabisu⟧⟦が→が：00051_ga⟧⟦{違|ちが}う→違う：01957_chigau⟧。",
       "english": "Foreign-owned hotels have a different level of service.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12219_gaishikei_ex3",
-      "japanese": "{彼女|かのじょ}は{日系|にっけい}{企業|きぎょう}から{外資系|がいしけい}コンサルティング{会社|がいしゃ}に{転職|てんしょく}した。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧⟦{日系|にっけい}{企業|きぎょう}→日系企業：16650_nikkeikigyou⟧⟦から→から：00504_kara⟧{外資系|がいしけい}コンサルティング{会社|がいしゃ}⟦に→に：00314_ni⟧⟦{転職|てんしょく}→転職：04557_tenshoku⟧⟦した→する：00392_suru⟧。",
       "english": "She changed jobs from a Japanese company to a foreign-affiliated consulting firm.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "Composed of {外資|がいし} (foreign capital) + {系|けい} (affiliated, type).\n\nCOMMON COLLOCATIONS:\n- {外資系|がいしけい}{企業|きぎょう}: foreign-affiliated company\n- {外資系|がいしけい}{銀行|ぎんこう}: foreign bank\n- {外資系|がいしけい}ホテル: foreign-owned hotel\n- {外資系|がいしけい}コンサルティング: foreign consulting firm\n\nUSAGE:\nIn Japanese business culture, {外資系|がいしけい} companies are associated with higher salaries, performance-based evaluation, more flexible work styles, and English-language requirements. The term is frequently used in job-hunting contexts. Contrasts with {日系|にっけい} (Japanese-affiliated) and {国内|こくない}{企業|きぎょう} (domestic company).",
-  "cross_references": [],
+  "notes": "Composed of {外資|がいし} (foreign capital) + ⟦{系|けい}→〜系：28466_kei⟧ (affiliated, type).\n\nCOMMON COLLOCATIONS:\n- {外資系|がいしけい}{企業|きぎょう}: foreign-affiliated company\n- {外資系|がいしけい}⟦{銀行|ぎんこう}→銀行：00578_ginkou⟧: foreign bank\n- {外資系|がいしけい}⟦ホテル→ホテル：01027_hoteru⟧: foreign-owned hotel\n- {外資系|がいしけい}コンサルティング: foreign consulting firm\n\nUSAGE:\nIn Japanese business culture, {外資系|がいしけい} companies are associated with higher salaries, performance-based evaluation, more flexible work styles, and English-language requirements. The term is frequently used in job-hunting contexts. Contrasts with ⟦{日系|にっけい}→日系：12956_nikkei⟧ (Japanese-affiliated) and ⟦{国内|こくない}→国内：02998_kokunai⟧⟦{企業|きぎょう}→企業：00225_kigyou⟧ (domestic company).",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16650_nikkeikigyou",
+      "reading": "にっけいきぎょう",
+      "headword": "{日系企業|にっけいきぎょう}",
+      "label": "Japanese company (overseas)"
+    }
+  ],
   "metadata": {
     "created": "2026-02-20T13:08:20Z",
-    "modified": "2026-02-20T13:08:20Z",
+    "modified": "2026-09-02T04:01:28Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "pre-noun-adjectival"],
+      "pos": [
+        "noun",
+        "pre-noun-adjectival"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["work"],
-      "domain": ["business"]
+      "semantic": [
+        "work"
+      ],
+      "domain": [
+        "business"
+      ]
     }
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "11072_shika_ex1",
-      "japanese": "{歯科|しか}で{検診|けんしん}を{受|う}けた。",
+      "japanese": "{歯科|しか}⟦で→で：00502_de⟧⟦{検診|けんしん}→検診：07679_kenshin⟧⟦を→を：00422_wo⟧⟦{受|う}けた→受ける：01215_ukeru⟧。",
       "english": "I had a checkup at the dentist.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "11072_shika_ex2",
-      "japanese": "{歯|は}が{痛|いた}いので{歯科|しか}を{予約|よやく}した。",
+      "japanese": "⟦{歯|は}→歯：00778_ha⟧⟦が→が：00051_ga⟧⟦{痛|いた}い→痛い：01108_itai⟧⟦の→の：09472_no⟧で{歯科|しか}⟦を→を：00422_wo⟧⟦{予約|よやく}した→予約する：22989_yoyakusuru⟧。",
       "english": "My tooth hurts, so I made an appointment at the dental clinic.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "11072_shika_ex3",
-      "japanese": "{半年|はんとし}に{一度|いちど}は{歯科|しか}で{定期|ていき}{検診|けんしん}を{受|う}けるようにしている。",
+      "japanese": "⟦{半年|はんとし}→半年：03139_hantoshi⟧⟦に→に：00314_ni⟧⟦{一度|いちど}→一度：01312_ichido⟧⟦は→は：00079_ha⟧{歯科|しか}⟦で→で：00502_de⟧⟦{定期|ていき}{検診|けんしん}→定期検診：15678_teikikenshin⟧⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧ようにして⟦いる→いる：00495_iru⟧。",
       "english": "I make sure to get a regular dental checkup once every six months.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nIn everyday speech, {歯科|しか} and {歯医者|はいしゃ} (dentist) are often used interchangeably when referring to a dental clinic. {歯科|しか} is slightly more formal and refers to the discipline or department, while {歯医者|はいしゃ} is more colloquial and refers to the dentist or the office.\n\nRELATED MEDICAL DEPARTMENTS:\n- {眼科|がんか}: ophthalmology\n- {皮膚科|ひふか}: dermatology\n- {内科|ないか}: internal medicine\n- {外科|げか}: surgery\n\nCOMMON COLLOCATIONS:\n- {歯科医|しかい}: dentist (formal)\n- {歯科|しか}{衛生士|えいせいし}: dental hygienist\n- {歯科|しか}{検診|けんしん}: dental checkup\n- {歯科|しか}{治療|ちりょう}: dental treatment",
+  "notes": "USAGE:\nIn everyday speech, {歯科|しか} and ⟦{歯医者|はいしゃ}→歯医者：01696_haisha⟧ (dentist) are often used interchangeably when referring to a dental clinic. {歯科|しか} is slightly more formal and refers to the discipline or department, while ⟦{歯医者|はいしゃ}→歯医者：01696_haisha⟧ is more colloquial and refers to the dentist or the office.\n\nRELATED MEDICAL DEPARTMENTS:\n- ⟦{眼科|がんか}→眼科：11071_ganka⟧: ophthalmology\n- ⟦{皮膚科|ひふか}→皮膚科：11073_hifuka⟧: dermatology\n- ⟦{内科|ないか}→内科：04076_naika⟧: internal medicine\n- ⟦{外科|げか}→外科：03983_geka⟧: surgery\n\nCOMMON COLLOCATIONS:\n- ⟦{歯科医|しかい}→歯科医：19394_shikai⟧: dentist (formal)\n- {歯科|しか}{衛生士|えいせいし}: dental hygienist\n- {歯科|しか}⟦{検診|けんしん}→検診：07679_kenshin⟧: dental checkup\n- {歯科|しか}⟦{治療|ちりょう}→治療：03503_chiryou⟧: dental treatment",
   "cross_references": [
     {
       "type": "related",
@@ -59,11 +59,46 @@
       "headword": "{皮膚科|ひふか}",
       "label": "dermatology",
       "target_id": "11073_hifuka"
+    },
+    {
+      "type": "related",
+      "target_id": "04076_naika",
+      "reading": "ないか",
+      "headword": "{内科|ないか}",
+      "label": "internal medicine"
+    },
+    {
+      "type": "related",
+      "target_id": "03983_geka",
+      "reading": "げか",
+      "headword": "{外科|げか}",
+      "label": "surgery"
+    },
+    {
+      "type": "related",
+      "target_id": "00299_mushiba",
+      "reading": "むしば",
+      "headword": "{虫歯|むしば}",
+      "label": "cavity"
+    },
+    {
+      "type": "related",
+      "target_id": "21278_basshi",
+      "reading": "ばっし",
+      "headword": "{抜歯|ばっし}",
+      "label": "tooth extraction"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27622_shigaku",
+      "reading": "しがく",
+      "headword": "{歯学|しがく}",
+      "label": "dentistry"
     }
   ],
   "metadata": {
     "created": "2026-02-13T05:17:28Z",
-    "modified": "2026-02-19T12:42:20Z",
+    "modified": "2026-09-02T04:01:23Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

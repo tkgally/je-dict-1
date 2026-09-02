@@ -3,7 +3,7 @@
   "headword": "{逝|い}く",
   "reading": "いく",
   "romaji": "iku",
-  "part_of_speech": "verb-godan",
+  "part_of_speech": "verb (godan)",
   "gloss": "to pass away; to die",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28113_iku_ex1",
-      "japanese": "{祖父|そふ}が{逝|い}った。",
+      "japanese": "⟦{祖父|そふ}→祖父：01452_sofu⟧⟦が→が：00051_ga⟧{逝|い}った。",
       "english": "My grandfather passed away.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28113_iku_ex2",
-      "japanese": "{彼|かれ}は{眠|ねむ}るように{逝|い}った。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{眠|ねむ}る→眠る：01181_nemuru⟧よう⟦に→に：00314_ni⟧{逝|い}った。",
       "english": "He passed away as if falling asleep.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28113_iku_ex3",
-      "japanese": "{長|なが}い{闘病|とうびょう}の{末|すえ}、{父|ちち}は{家族|かぞく}に{見守|みまも}られて{逝|い}った。",
+      "japanese": "⟦{長|なが}い→長い：00491_nagai⟧⟦{闘病|とうびょう}→闘病：19949_toubyou⟧⟦の→の：09472_no⟧⟦{末|すえ}→末：03362_sue⟧、⟦{父|ちち}→父：00566_chichi⟧⟦は→は：00079_ha⟧⟦{家族|かぞく}→家族：00552_kazoku⟧⟦に→に：00314_ni⟧⟦{見守|みまも}られて→見守る：04574_mimamoru⟧{逝|い}った。",
       "english": "After a long fight with illness, my father passed away surrounded by family.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "{逝|い}く is an intransitive verb, a euphemistic and literary alternative to {死|し}ぬ (to die). It softens the bluntness of death and is typically used for people one respects or feels close to. Also read {逝|ゆ}く.\n\nUSAGE:\n- It carries emotional or literary weight and is not used for plain, neutral statements the way {死|し}ぬ is.\n- The kanji {逝|い}く is distinct from {行|い}く (to go), though pronounced the same; the て-form is likewise {逝|い}って.\n\nSIMILAR WORDS:\n- {死|し}ぬ: to die — direct and neutral\n- {亡|な}くなる: to pass away — the standard polite euphemism",
+  "notes": "{逝|い}く is an intransitive verb, a euphemistic and literary alternative to ⟦{死|し}ぬ→死ぬ：00669_shinu⟧ (to die). It softens the bluntness of death and is typically used for people one respects or feels close to. Also read {逝|ゆ}く.\n\nUSAGE:\n- It carries emotional or literary weight and is not used for plain, neutral statements the way ⟦{死|し}ぬ→死ぬ：00669_shinu⟧ is.\n- The kanji {逝|い}く is distinct from ⟦{行|い}く→行く：00119_iku⟧ (to go), though pronounced the same; the て-form is likewise {逝|い}って.\n\nSIMILAR WORDS:\n- ⟦{死|し}ぬ→死ぬ：00669_shinu⟧: to die — direct and neutral\n- ⟦{亡|な}くなる→亡くなる：02639_nakunaru⟧: to pass away — the standard polite euphemism",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00669_shinu",
+      "reading": "しぬ",
+      "headword": "{死|し}ぬ",
+      "label": "to die"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02639_nakunaru",
+      "reading": "なくなる",
+      "headword": "{亡|な}くなる",
+      "label": "to pass away"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26337_hakanakunaru",
+      "reading": "はかなくなる",
+      "headword": "はかなくなる",
+      "label": "to pass away"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,7 +85,7 @@
       "domain": []
     },
     "created": "2026-05-26T02:06:25Z",
-    "modified": "2026-05-26T02:06:25Z"
+    "modified": "2026-09-02T04:02:32Z"
   },
   "conjugation": {
     "type": "godan",

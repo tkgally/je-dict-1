@@ -3,7 +3,7 @@
   "headword": "{書|か}き{漏|も}らす",
   "reading": "かきもらす",
   "romaji": "kakimorasu",
-  "part_of_speech": "godan verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to omit writing; to fail to write down; to leave out",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26053_kakimorasu_ex1",
-      "japanese": "{名前|なまえ}を{書|か}き{漏|も}らしていた。",
+      "japanese": "⟦{名前|なまえ}→名前：02234_namae⟧⟦を→を：00422_wo⟧{書|か}き{漏|も}らして⟦いた→いる：00495_iru⟧。",
       "english": "I had omitted writing the name.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26053_kakimorasu_ex2",
-      "japanese": "{大事|だいじ}なことを{書|か}き{漏|も}らさないように{注意|ちゅうい}した。",
+      "japanese": "⟦{大事|だいじ}→大事：01253_daiji⟧なこと⟦を→を：00422_wo⟧{書|か}き{漏|も}らさないよう⟦に→に：00314_ni⟧⟦{注意|ちゅうい}→注意：01464_chuui⟧⟦した→する：00392_suru⟧。",
       "english": "I was careful not to leave out anything important.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26053_kakimorasu_ex3",
-      "japanese": "{報告書|ほうこくしょ}で{数字|すうじ}をひとつ{書|か}き{漏|も}らしたせいで、やり{直|なお}しになった。",
+      "japanese": "⟦{報告書|ほうこくしょ}→報告書：06744_houkokusho⟧⟦で→で：00502_de⟧⟦{数字|すうじ}→数字：03361_suuji⟧⟦を→を：00422_wo⟧ひとつ{書|か}き{漏|も}らしたせい⟦で→で：00502_de⟧、やり{直|なお}しになった。",
       "english": "Because I left out one number in the report, I had to redo it.",
       "sense_numbers": [
         1
@@ -44,12 +44,13 @@
       "notes": null
     }
   ],
-  "notes": "A compound verb from {書|か}く (to write) + {漏|も}らす (to let leak, to miss). Transitive. Describes the accidental omission of something in writing. The auxiliary {漏|も}らす adds the meaning of 'failing to do' or 'letting slip through' when attached to verb stems.\n\nTRANSITIVITY: transitive\n\nCOMMON COLLOCATIONS:\n- {書|か}き{漏|も}らしがある: there is an omission in the writing\n- {書|か}き{漏|も}らさないように: so as not to leave anything out\n- うっかり{書|か}き{漏|も}らす: to accidentally omit writing\n\nSIMILAR PATTERNS WITH {漏|も}らす:\n- {聞|き}き{漏|も}らす: to fail to hear, to miss hearing\n- {言|い}い{漏|も}らす: to fail to mention, to leave unsaid\n- {見|み}{漏|も}らす: to fail to notice, to overlook\n\nSIMILAR WORDS:\n- {書|か}き{忘|わす}れる: to forget to write -- emphasis on forgetting rather than accidentally omitting\n- {書|か}き{落|お}とす: to leave out in writing -- very similar, slightly more formal",
+  "notes": "A compound verb from ⟦{書|か}く→書く：00477_kaku⟧ (to write) + ⟦{漏|も}らす→漏らす：02436_morasu⟧ (to let leak, to miss). Transitive. Describes the accidental omission of something in writing. The auxiliary ⟦{漏|も}らす→漏らす：02436_morasu⟧ adds the meaning of 'failing to do' or 'letting slip through' when attached to verb stems.\n\nTRANSITIVITY: transitive\n\nCOMMON COLLOCATIONS:\n- {書|か}き{漏|も}らし⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧: there is an omission in the writing\n- {書|か}き{漏|も}らさないよう⟦に→に：00314_ni⟧: so as not to leave anything out\n- ⟦うっかり→うっかり：01863_ukkari⟧{書|か}き{漏|も}らす: to accidentally omit writing\n\nSIMILAR PATTERNS WITH {漏|も}らす:\n- {聞|き}き{漏|も}らす: to fail to hear, to miss hearing\n- {言|い}い{漏|も}らす: to fail to mention, to leave unsaid\n- {見|み}{漏|も}らす: to fail to notice, to overlook\n\nSIMILAR WORDS:\n- ⟦{書|か}き{忘|わす}れる→書き忘れる：28241_kakiwasureru⟧: to forget to write -- emphasis on forgetting rather than accidentally omitting\n- {書|か}き{落|お}とす: to leave out in writing -- very similar, slightly more formal",
   "metadata": {
     "tags": {
       "pos": [
         "verb-godan"
       ],
+      "politeness": "plain",
       "semantic": [
         "general"
       ],
@@ -58,9 +59,17 @@
     },
     "vocabulary_tier": "general",
     "created": "2026-04-29T11:20:31Z",
-    "modified": "2026-04-29T11:20:31Z"
+    "modified": "2026-09-02T04:02:24Z"
   },
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "28241_kakiwasureru",
+      "reading": "かきわすれる",
+      "headword": "{書|か}き{忘|わす}れる",
+      "label": "to forget to write -- emphasis…"
+    }
+  ],
   "conjugation": {
     "type": "godan",
     "forms": [

@@ -15,41 +15,60 @@
   "examples": [
     {
       "id": "27680_makuai_ex1",
-      "japanese": "{幕間|まくあい}に{飲|の}み{物|もの}を{買|か}った。",
+      "japanese": "{幕間|まくあい}⟦に→に：00314_ni⟧⟦{飲|の}み{物|もの}→飲み物：02929_nomimono⟧⟦を→を：00422_wo⟧⟦{買|か}った→買う：00489_kau⟧。",
       "english": "I bought a drink during the intermission.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27680_makuai_ex2",
-      "japanese": "{幕間|まくあい}は{二十分|にじゅっぷん}ある。",
+      "japanese": "{幕間|まくあい}⟦は→は：00079_ha⟧{二十分|にじゅっぷん}⟦ある→ある：00006_aru⟧。",
       "english": "The intermission is twenty minutes long.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27680_makuai_ex3",
-      "japanese": "{幕間|まくあい}にロビーで{知|し}り{合|あ}いに{偶然|ぐうぜん}{会|あ}った。",
+      "japanese": "{幕間|まくあい}⟦に→に：00314_ni⟧⟦ロビー→ロビー：26995_robii⟧⟦で→で：00502_de⟧⟦{知|し}り{合|あ}い→知り合い：03253_shiriai⟧⟦に→に：00314_ni⟧⟦{偶然|ぐうぜん}→偶然：02674_guuzen⟧⟦{会|あ}った→会う：00482_au⟧。",
       "english": "During the intermission, I happened to run into an acquaintance in the lobby.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Refers specifically to the pause between acts of a stage performance. The reading まくあい is standard; まくま is also heard. Originally a theater term from kabuki.\n\nCOMMON COLLOCATIONS:\n- {幕間|まくあい}に{休憩|きゅうけい}する: to rest during the intermission\n- {幕間|まくあい}の{時間|じかん}: the length of the intermission\n- {幕間|まくあい}{狂言|きょうげん}: a short interlude piece performed between acts\n\nSIMILAR WORDS:\n- {休憩|きゅうけい}: break; rest — a general break, not tied to a performance\n- インターミッション: intermission — the loanword, used for films and concerts",
+  "notes": "Refers specifically to the pause between acts of a stage performance. The reading まくあい is standard; まくま is also heard. Originally a theater term from kabuki.\n\nCOMMON COLLOCATIONS:\n- {幕間|まくあい}⟦に→に：00314_ni⟧⟦{休憩|きゅうけい}→休憩：00262_kyuukei⟧⟦する→する：00392_suru⟧: to rest during the intermission\n- {幕間|まくあい}⟦の→の：09472_no⟧⟦{時間|じかん}→時間：00468_jikan⟧: the length of the intermission\n- {幕間|まくあい}⟦{狂言|きょうげん}→狂言：04456_kyougen⟧: a short interlude piece performed between acts\n\nSIMILAR WORDS:\n- ⟦{休憩|きゅうけい}→休憩：00262_kyuukei⟧: break; rest — a general break, not tied to a performance\n- インターミッション: intermission — the loanword, used for films and concerts",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00262_kyuukei",
+      "reading": "きゅうけい",
+      "headword": "{休憩|きゅうけい}",
+      "label": "break"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["culture"],
+      "politeness": "plain",
+      "semantic": [
+        "culture"
+      ],
       "domain": []
     },
     "created": "2026-05-16T04:08:30Z",
-    "modified": "2026-05-16T04:08:30Z"
+    "modified": "2026-09-02T04:02:31Z"
   }
 }

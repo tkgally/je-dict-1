@@ -15,40 +15,73 @@
   "examples": [
     {
       "id": "23060_gaitou_ex1",
-      "japanese": "{外套|がいとう}を{羽織|はお}る。",
+      "japanese": "{外套|がいとう}⟦を→を：00422_wo⟧⟦{羽織|はお}る→羽織る：13901_haoru⟧。",
       "english": "To throw on an overcoat.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "23060_gaitou_ex2",
-      "japanese": "{寒|さむ}さに{耐|た}えかねて{外套|がいとう}の{襟|えり}を{立|た}てた。",
+      "japanese": "⟦{寒|さむ}さ→寒さ：12336_samusa⟧⟦に→に：00314_ni⟧⟦{耐|た}え→耐える：12087_taeru⟧かねて{外套|がいとう}⟦の→の：09472_no⟧⟦{襟|えり}→襟：06487_eri⟧⟦を→を：00422_wo⟧⟦{立|た}てた→立てる：01196_tateru⟧。",
       "english": "Unable to bear the cold, he turned up the collar of his overcoat.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "23060_gaitou_ex3",
-      "japanese": "{玄関|げんかん}に{掛|か}けてあった{黒|くろ}い{外套|がいとう}を{手|て}に{取|と}り、{夜|よる}の{街|まち}へ{出|で}た。",
+      "japanese": "⟦{玄関|げんかん}→玄関：05003_genkan⟧⟦に→に：00314_ni⟧{掛|か}けて⟦あった→ある：00006_aru⟧⟦{黒|くろ}い→黒い：00588_kuroi⟧{外套|がいとう}⟦を→を：00422_wo⟧⟦{手|て}→手：00569_te⟧⟦に→に：00314_ni⟧⟦{取|と}り→取る：00565_toru⟧、⟦{夜|よる}→夜：00487_yoru⟧⟦の→の：09472_no⟧⟦{街|まち}→街：17306_machi⟧⟦へ→へ：02473_he⟧⟦{出|で}た→出る：00513_deru⟧。",
       "english": "He picked up the black overcoat hanging in the entryway and went out into the night streets.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A literary compound of {外|がい} (outer) + {套|とう} (covering/sheath). More commonly encountered in literature, period dramas, and historical writing than in everyday conversation.\n\nCOMMON COLLOCATIONS:\n- {外套|がいとう}を{着|き}る: to wear an overcoat\n- {外套|がいとう}を{脱|ぬ}ぐ: to take off an overcoat\n- {外套|がいとう}を{羽織|はお}る: to throw on an overcoat\n- {軍用|ぐんよう}{外套|がいとう}: military overcoat\n\nSIMILAR WORDS:\n- コート: coat — the standard modern word for coats and overcoats\n- オーバー: overcoat — older loanword (from 'overcoat'), still used by older speakers\n- マント: mantle, cape — a cloak-style outer garment\n\nLITERARY NOTE:\n{外套|がいとう} is the Japanese title of Gogol's famous short story \"The Overcoat.\" The word evokes a literary, atmospheric quality.",
+  "notes": "A literary compound of ⟦{外|がい}→外〜：03948_gai⟧ (outer) + {套|とう} (covering/sheath). More commonly encountered in literature, period dramas, and historical writing than in everyday conversation.\n\nCOMMON COLLOCATIONS:\n- {外套|がいとう}⟦を→を：00422_wo⟧⟦{着|き}る→着る：00541_kiru⟧: to wear an overcoat\n- {外套|がいとう}⟦を→を：00422_wo⟧⟦{脱|ぬ}ぐ→脱ぐ：00518_nugu⟧: to take off an overcoat\n- {外套|がいとう}⟦を→を：00422_wo⟧⟦{羽織|はお}る→羽織る：13901_haoru⟧: to throw on an overcoat\n- {軍用|ぐんよう}{外套|がいとう}: military overcoat\n\nSIMILAR WORDS:\n- ⟦コート→コート：01358_kooto⟧: coat — the standard modern word for coats and overcoats\n- ⟦オーバー→オーバー：01529_oobaa⟧: overcoat — older loanword (from 'overcoat'), still used by older speakers\n- ⟦マント→マント：11267_manto⟧: mantle, cape — a cloak-style outer garment\n\nLITERARY NOTE:\n{外套|がいとう} is the Japanese title of Gogol's famous short story \"The Overcoat.\" The word evokes a literary, atmospheric quality.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01358_kooto",
+      "reading": "こーと",
+      "headword": "コート",
+      "label": "coat"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01529_oobaa",
+      "reading": "おーばー",
+      "headword": "オーバー",
+      "label": "overcoat"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11267_manto",
+      "reading": "まんと",
+      "headword": "マント",
+      "label": "mantle, cape"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["clothing"]
+      "semantic": [
+        "clothing"
+      ]
     },
     "created": "2026-04-08T17:30:21Z",
-    "modified": "2026-04-08T17:30:21Z"
+    "modified": "2026-09-02T04:02:10Z"
   }
 }

@@ -15,41 +15,67 @@
   "examples": [
     {
       "id": "27681_umarekawari_ex1",
-      "japanese": "{猫|ねこ}の{生|う}まれ{変|か}わりだと{言|い}われた。",
+      "japanese": "⟦{猫|ねこ}→猫：02237_neko⟧⟦の→の：09472_no⟧{生|う}まれ{変|か}わりだ⟦と→と：00512_to⟧⟦{言|い}われた→言う：00515_iu⟧。",
       "english": "I was told I was the reincarnation of a cat.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27681_umarekawari_ex2",
-      "japanese": "かれは{祖父|そふ}の{生|う}まれ{変|か}わりのようだ。",
+      "japanese": "かれ⟦は→は：00079_ha⟧⟦{祖父|そふ}→祖父：01452_sofu⟧⟦の→の：09472_no⟧{生|う}まれ{変|か}わり⟦の→の：09472_no⟧ようだ。",
       "english": "He seems like the reincarnation of his grandfather.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27681_umarekawari_ex3",
-      "japanese": "{改装|かいそう}した{店|みせ}は、まるで{生|う}まれ{変|か}わりのようにがらりと{明|あか}るくなった。",
+      "japanese": "⟦{改装|かいそう}→改装：09682_kaisou⟧⟦した→する：00392_suru⟧⟦{店|みせ}→店：00497_mise⟧⟦は→は：00079_ha⟧、⟦まるで→まるで：03739_marude⟧{生|う}まれ{変|か}わり⟦のように→のように：30291_noyouni⟧⟦がらり→がらり：10313_garari⟧⟦と→と：00512_to⟧⟦{明|あか}るく→明るい：00616_akarui⟧⟦なった→なる：01970_naru⟧。",
       "english": "The renovated shop became completely bright, as if it had been reborn.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "The noun form of {生|う}まれ{変|か}わる (to be reborn). Refers to reincarnation in a religious sense, or to someone seen as another person reborn. The verb form is also widely used figuratively for renewal or transformation.\n\nCOMMON COLLOCATIONS:\n- ~の{生|う}まれ{変|か}わり: the reincarnation of ~\n- {生|う}まれ{変|か}わったように: as if reborn; completely changed\n\nSIMILAR WORDS:\n- {転生|てんせい}: reincarnation — more formal; common in fiction such as {異世界|いせかい}{転生|てんせい}\n- {輪廻|りんね}: the cycle of rebirth — a Buddhist concept of the whole cycle, not a single rebirth",
+  "notes": "The noun form of ⟦{生|う}まれ{変|か}わる→生まれ変わる：13522_umarekawaru⟧ (to be reborn). Refers to reincarnation in a religious sense, or to someone seen as another person reborn. The verb form is also widely used figuratively for renewal or transformation.\n\nCOMMON COLLOCATIONS:\n- ~⟦の→の：09472_no⟧{生|う}まれ{変|か}わり: the reincarnation of ~\n- ⟦{生|う}まれ{変|か}わった→生まれ変わる：13522_umarekawaru⟧よう⟦に→に：00314_ni⟧: as if reborn; completely changed\n\nSIMILAR WORDS:\n- ⟦{転生|てんせい}→転生：14347_tensei⟧: reincarnation — more formal; common in fiction such as ⟦{異世界|いせかい}→異世界：18438_isekai⟧⟦{転生|てんせい}→転生：14347_tensei⟧\n- ⟦{輪廻|りんね}→輪廻：14486_rinne⟧: the cycle of rebirth — a Buddhist concept of the whole cycle, not a single rebirth",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14347_tensei",
+      "reading": "てんせい",
+      "headword": "{転生|てんせい}",
+      "label": "reincarnation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14486_rinne",
+      "reading": "りんね",
+      "headword": "{輪廻|りんね}",
+      "label": "the cycle of rebirth"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["religion"],
+      "politeness": "plain",
+      "semantic": [
+        "religion"
+      ],
       "domain": []
     },
     "created": "2026-05-16T04:08:30Z",
-    "modified": "2026-06-13T18:21:49Z"
+    "modified": "2026-09-02T04:02:31Z"
   }
 }

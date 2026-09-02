@@ -44,7 +44,7 @@
     },
     {
       "id": "00746_raishuu_ex4",
-      "japanese": "{来週|らいしゅう}⟦の→の：09472_no⟧⟦{木曜日|もくようび}→もくようび：00653_mokuyoubi⟧⟦に→に：00314_ni⟧⟦{大切|たいせつ}→たいせつ：01456_taisetsu⟧な⟦{会議|かいぎ}→かいぎ：00710_kaigi⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧⟦ので→ので：09501_node⟧、⟦{準備|じゅんび}→じゅんび：01431_junbi⟧しています。",
+      "japanese": "{来週|らいしゅう}⟦の→の：09472_no⟧⟦{木曜日|もくようび}→もくようび：00653_mokuyoubi⟧⟦に→に：00314_ni⟧⟦{大切|たいせつ}→たいせつ：01456_taisetsu⟧な⟦{会議|かいぎ}→かいぎ：00710_kaigi⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧⟦ので→ので：09501_node⟧、⟦{準備|じゅんび}→じゅんび：01431_junbi⟧⟦しています→する：00392_suru⟧。",
       "english": "There's an important meeting next Thursday, so I'm preparing for it.",
       "notes": null,
       "has_audio": false,
@@ -92,11 +92,32 @@
       "reading": "らいねん",
       "headword": "{来年|らいねん}",
       "label": "next year"
+    },
+    {
+      "type": "related",
+      "target_id": "00730_maishuu",
+      "reading": "まいしゅう",
+      "headword": "{毎週|まいしゅう}",
+      "label": "every week"
+    },
+    {
+      "type": "homophone",
+      "target_id": "17077_raishuu",
+      "reading": "らいしゅう",
+      "headword": "{来襲|らいしゅう}",
+      "label": "raid"
+    },
+    {
+      "type": "related",
+      "target_id": "25325_yokushuu",
+      "reading": "よくしゅう",
+      "headword": "{翌週|よくしゅう}",
+      "label": "the following week"
     }
   ],
   "metadata": {
     "created": "2026-01-07T12:57:52Z",
-    "modified": "2026-08-05T12:27:45Z",
+    "modified": "2026-09-02T04:00:58Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "basic",
     "tags": {

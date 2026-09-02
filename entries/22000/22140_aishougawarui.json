@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22140_aishougawarui_ex1",
-      "japanese": "あの{二人|ふたり}は{相性|あいしょう}が{悪|わる}い。",
+      "japanese": "⟦あの→あの：00915_ano⟧⟦{二人|ふたり}→二人：00622_futari⟧⟦は→は：00079_ha⟧{相性|あいしょう}が{悪|わる}い。",
       "english": "Those two don't get along well.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22140_aishougawarui_ex2",
-      "japanese": "このソフトはうちのパソコンと{相性|あいしょう}が{悪|わる}いみたいだ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦ソフト→ソフト：01532_sofuto⟧⟦は→は：00079_ha⟧うち⟦の→の：09472_no⟧⟦パソコン→パソコン：01538_pasokon⟧⟦と→と：00512_to⟧{相性|あいしょう}が{悪|わる}い⟦みたい→みたい：10755_mitai⟧だ。",
       "english": "This software doesn't seem to be compatible with our computer.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22140_aishougawarui_ex3",
-      "japanese": "{上司|じょうし}と{相性|あいしょう}が{悪|わる}くて{毎日|まいにち}ストレスを{感|かん}じているが、{仕事|しごと}だから{仕方|しかた}がない。",
+      "japanese": "⟦{上司|じょうし}→上司：03286_joushi⟧⟦と→と：00512_to⟧{相性|あいしょう}が{悪|わる}くて⟦{毎日|まいにち}→毎日：00729_mainichi⟧⟦ストレス→ストレス：03827_sutoresu⟧⟦を→を：00422_wo⟧⟦{感|かん}じている→感じる：02044_kanjiru⟧⟦が→が：00051_ga⟧、⟦{仕事|しごと}→仕事：00480_shigoto⟧だ⟦から→から：00504_kara⟧⟦{仕方|しかた}→仕方：01603_shikata⟧⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧。",
       "english": "I don't get along with my boss and feel stressed every day, but since it's work, there's nothing I can do.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {相性|あいしょう} (compatibility, chemistry) + が + {悪|わる}い (bad). The opposite is {相性|あいしょう}が{良|い}い/{良|よ}い (compatible, a good match). This expression is very versatile and used beyond just people — it describes any pairing that doesn't work well.\n\nCOMMON PATTERNS:\n- AとBは{相性|あいしょう}が{悪|わる}い: A and B are incompatible\n- {相性|あいしょう}が{悪|わる}いと{感|かん}じる: to feel incompatible with\n\nCOMMON COLLOCATIONS:\n- {人|ひと}と{相性|あいしょう}が{悪|わる}い: not getting along with someone\n- {食|た}べ{合|あ}わせの{相性|あいしょう}が{悪|わる}い: food combination that doesn't go well together\n- {機器|きき}の{相性|あいしょう}が{悪|わる}い: hardware/device incompatibility\n\nSIMILAR WORDS:\n- {合|あ}わない: doesn't suit, doesn't match — more casual\n- {馬|うま}が{合|あ}わない: don't hit it off — specifically about interpersonal chemistry\n- {不向|ふむ}き: unsuited — focuses on suitability rather than mutual chemistry",
+  "notes": "Composed of ⟦{相性|あいしょう}→相性：13654_aishou⟧ (compatibility, chemistry) + ⟦が→が：00051_ga⟧ + ⟦{悪|わる}い→悪い：00908_warui⟧ (bad). The opposite is ⟦{相性|あいしょう}→相性：13654_aishou⟧⟦が→が：00051_ga⟧{良|い}い/⟦{良|よ}い→良い：02350_yoi⟧ (compatible, a good match). This expression is very versatile and used beyond just people — it describes any pairing that doesn't work well.\n\nCOMMON PATTERNS:\n- A⟦と→と：00512_to⟧B⟦は→は：00079_ha⟧{相性|あいしょう}が{悪|わる}い: A and B are incompatible\n- {相性|あいしょう}が{悪|わる}い⟦と→と：00512_to⟧⟦{感|かん}じる→感じる：02044_kanjiru⟧: to feel incompatible with\n\nCOMMON COLLOCATIONS:\n- ⟦{人|ひと}→人：00476_hito⟧⟦と→と：00512_to⟧{相性|あいしょう}が{悪|わる}い: not getting along with someone\n- {食|た}べ{合|あ}わせ⟦の→の：09472_no⟧{相性|あいしょう}が{悪|わる}い: food combination that doesn't go well together\n- ⟦{機器|きき}→機器：13180_kiki⟧⟦の→の：09472_no⟧{相性|あいしょう}が{悪|わる}い: hardware/device incompatibility\n\nSIMILAR WORDS:\n- ⟦{合|あ}わない→合う：10466_au⟧: doesn't suit, doesn't match — more casual\n- ⟦{馬|うま}→馬：01865_uma⟧⟦が→が：00051_ga⟧⟦{合|あ}わない→合う：10466_au⟧: don't hit it off — specifically about interpersonal chemistry\n- ⟦{不向|ふむ}き→不向き：11388_fumuki⟧: unsuited — focuses on suitability rather than mutual chemistry",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11388_fumuki",
+      "reading": "ふむき",
+      "headword": "{不向|ふむ}き",
+      "label": "unsuited"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +69,6 @@
       ]
     },
     "created": "2026-04-05T03:41:07Z",
-    "modified": "2026-04-10T08:28:27Z"
+    "modified": "2026-09-02T04:02:06Z"
   }
 }

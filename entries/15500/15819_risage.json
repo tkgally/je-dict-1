@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "15819_risage_ex1",
-      "japanese": "{中央|ちゅうおう}{銀行|ぎんこう}が{利下|りさ}げを{決|き}めた。",
+      "japanese": "⟦{中央|ちゅうおう}{銀行|ぎんこう}→中央銀行：10173_chuuouginkou⟧⟦が→が：00051_ga⟧{利下|りさ}げ⟦を→を：00422_wo⟧⟦{決|き}めた→決める：00858_kimeru⟧。",
       "english": "The central bank decided on an interest rate cut.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "15819_risage_ex2",
-      "japanese": "{利下|りさ}げの{影響|えいきょう}で{株価|かぶか}が{上昇|じょうしょう}した。",
+      "japanese": "{利下|りさ}げ⟦の→の：09472_no⟧⟦{影響|えいきょう}→影響：01877_eikyou⟧⟦で→で：00502_de⟧⟦{株価|かぶか}→株価：05154_kabuka⟧⟦が→が：00051_ga⟧⟦{上昇|じょうしょう}した→上昇する：21681_joushousuru⟧。",
       "english": "Stock prices rose due to the effect of the rate cut.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "15819_risage_ex3",
-      "japanese": "{景気|けいき}{後退|こうたい}を{防|ふせ}ぐために、{大幅|おおはば}な{利下|りさ}げが{実施|じっし}される{見通|みとお}しだ。",
+      "japanese": "⟦{景気|けいき}→景気：02694_keiki⟧⟦{後退|こうたい}→後退：12556_koutai⟧⟦を→を：00422_wo⟧⟦{防|ふせ}ぐ→防ぐ：02409_fusegu⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧、⟦{大幅|おおはば}→大幅：12170_oohaba⟧な{利下|りさ}げ⟦が→が：00051_ga⟧⟦{実施|じっし}される→実施する：19634_jisshisuru⟧⟦{見通|みとお}し→見通し：10566_mitooshi⟧だ。",
       "english": "A significant rate cut is expected to be implemented to prevent an economic downturn.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{利下|りさ}げ is a noun often used in news and financial reporting. It can also be used with する: {利下|りさ}げする (to cut interest rates). The word is frequently seen in headlines about central bank policy decisions.\n\nCOMMON COLLOCATIONS:\n- {利下|りさ}げを{行|おこな}う (carry out a rate cut)\n- {大幅|おおはば}な{利下|りさ}げ (significant rate cut)\n- {追加|ついか}{利下|りさ}げ (additional rate cut)\n- {利下|りさ}げ{幅|はば} (size of the rate cut)\n\nRELATED TERMS:\n- {利上|りあ}げ is the opposite, meaning an interest rate hike.\n- {金利|きんり} means interest rate.\n- {金融|きんゆう}{緩和|かんわ} means monetary easing, a broader policy that includes rate cuts.",
+  "notes": "USAGE:\n{利下|りさ}げ is a noun often used in news and financial reporting. It can also be used with ⟦する→する：00392_suru⟧: {利下|りさ}げ⟦する→する：00392_suru⟧ (to cut interest rates). The word is frequently seen in headlines about central bank policy decisions.\n\nCOMMON COLLOCATIONS:\n- {利下|りさ}げ⟦を→を：00422_wo⟧⟦{行|おこな}う→行う：01238_okonau⟧ (carry out a rate cut)\n- ⟦{大幅|おおはば}→大幅：12170_oohaba⟧な{利下|りさ}げ (significant rate cut)\n- ⟦{追加|ついか}→追加：04060_tsuika⟧{利下|りさ}げ (additional rate cut)\n- {利下|りさ}げ⟦{幅|はば}→幅：03565_haba⟧ (size of the rate cut)\n\nRELATED WORDS:\n- ⟦{利上|りあ}げ→利上げ：11987_riage⟧ is the opposite, meaning an interest rate hike.\n- ⟦{金利|きんり}→金利：04856_kinri⟧ means interest rate.\n- ⟦{金融|きんゆう}{緩和|かんわ}→金融緩和：24263_kinyuukanwa⟧ means monetary easing, a broader policy that includes rate cuts.",
   "cross_references": [
     {
       "type": "antonym",
@@ -142,11 +142,32 @@
       "reading": "りあげ",
       "headword": "{利上|りあ}げ",
       "label": "interest rate hike"
+    },
+    {
+      "type": "related",
+      "target_id": "04856_kinri",
+      "reading": "きんり",
+      "headword": "{金利|きんり}",
+      "label": "means interest rate."
+    },
+    {
+      "type": "related",
+      "target_id": "24263_kinyuukanwa",
+      "reading": "きんゆうかんわ",
+      "headword": "{金融緩和|きんゆうかんわ}",
+      "label": "means monetary easing, a broader policy…"
+    },
+    {
+      "type": "related",
+      "target_id": "26656_seisakukinri",
+      "reading": "せいさくきんり",
+      "headword": "{政策金利|せいさくきんり}",
+      "label": "policy interest rate"
     }
   ],
   "metadata": {
     "created": "2026-03-08T10:12:20Z",
-    "modified": "2026-04-25T10:12:38Z",
+    "modified": "2026-09-02T04:01:42Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

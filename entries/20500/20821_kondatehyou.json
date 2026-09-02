@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "20821_kondatehyou_ex1",
-      "japanese": "{今月|こんげつ}の{献立表|こんだてひょう}を{確認|かくにん}した。",
+      "japanese": "⟦{今月|こんげつ}→今月：00720_kongetsu⟧⟦の→の：09472_no⟧{献立表|こんだてひょう}⟦を→を：00422_wo⟧⟦{確認|かくにん}した→確認する：25332_kakuninsuru⟧。",
       "english": "I checked this month's meal plan.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "20821_kondatehyou_ex2",
-      "japanese": "{学校|がっこう}から{給食|きゅうしょく}の{献立表|こんだてひょう}が{届|とど}いた。",
+      "japanese": "⟦{学校|がっこう}→学校：00055_gakkou⟧⟦から→から：00504_kara⟧⟦{給食|きゅうしょく}→給食：13800_kyuushoku⟧⟦の→の：09472_no⟧{献立表|こんだてひょう}⟦が→が：00051_ga⟧⟦{届|とど}いた→届く：00899_todoku⟧。",
       "english": "The school lunch menu arrived from school.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "20821_kondatehyou_ex3",
-      "japanese": "{栄養士|えいようし}が{一週間分|いっしゅうかんぶん}の{献立表|こんだてひょう}を{作成|さくせい}して、{栄養|えいよう}バランスを{管理|かんり}している。",
+      "japanese": "⟦{栄養士|えいようし}→栄養士：29375_eiyoushi⟧⟦が→が：00051_ga⟧{一週間分|いっしゅうかんぶん}⟦の→の：09472_no⟧{献立表|こんだてひょう}⟦を→を：00422_wo⟧⟦{作成|さくせい}して→作成する：25378_sakuseisuru⟧、⟦{栄養|えいよう}→栄養：01882_eiyou⟧⟦バランス→バランス：03870_baransu⟧⟦を→を：00422_wo⟧⟦{管理|かんり}している→管理する：21910_kanrisuru⟧。",
       "english": "The nutritionist creates a weekly meal plan to manage nutritional balance.",
       "sense_numbers": [
         1
@@ -43,8 +43,16 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {献立|こんだて} (menu/meal plan) and {表|ひょう} (chart/table). Commonly associated with school lunches ({給食|きゅうしょく}), where meal plans are distributed to parents monthly.\n\nCOMMON COLLOCATIONS:\n- {献立表|こんだてひょう}を{作|つく}る: to create a meal plan\n- {給食|きゅうしょく}の{献立表|こんだてひょう}: school lunch menu\n- {一週間|いっしゅうかん}の{献立表|こんだてひょう}: weekly meal plan\n- {献立表|こんだてひょう}を{配|くば}る: to distribute meal plans\n\nSIMILAR WORDS:\n- {献立|こんだて}: menu — the meal plan itself, without the physical chart\n- メニュー: menu — used for restaurant menus\n- {食事|しょくじ}プラン: meal plan — more modern, used in hotels and diets",
-  "cross_references": [],
+  "notes": "A compound of ⟦{献立|こんだて}→献立：04155_kondate⟧ (menu/meal plan) and ⟦{表|ひょう}→表：19354_hyou⟧ (chart/table). Commonly associated with school lunches (⟦{給食|きゅうしょく}→給食：13800_kyuushoku⟧), where meal plans are distributed to parents monthly.\n\nCOMMON COLLOCATIONS:\n- {献立表|こんだてひょう}⟦を→を：00422_wo⟧⟦{作|つく}る→作る：00481_tsukuru⟧: to create a meal plan\n- ⟦{給食|きゅうしょく}→給食：13800_kyuushoku⟧⟦の→の：09472_no⟧{献立表|こんだてひょう}: school lunch menu\n- ⟦{一週間|いっしゅうかん}→一週間：10979_isshuukan⟧⟦の→の：09472_no⟧{献立表|こんだてひょう}: weekly meal plan\n- {献立表|こんだてひょう}⟦を→を：00422_wo⟧⟦{配|くば}る→配る：03921_kubaru⟧: to distribute meal plans\n\nSIMILAR WORDS:\n- ⟦{献立|こんだて}→献立：04155_kondate⟧: menu — the meal plan itself, without the physical chart\n- ⟦メニュー→メニュー：11166_menyuu⟧: menu — used for restaurant menus\n- ⟦{食事|しょくじ}→食事：02087_shokuji⟧⟦プラン→プラン：00345_puran⟧: meal plan — more modern, used in hotels and diets",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11166_menyuu",
+      "reading": "めにゅー",
+      "headword": "メニュー",
+      "label": "menu"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -60,6 +68,6 @@
       "domain": []
     },
     "created": "2026-03-30T17:15:48Z",
-    "modified": "2026-03-30T17:15:48Z"
+    "modified": "2026-09-02T04:02:01Z"
   }
 }

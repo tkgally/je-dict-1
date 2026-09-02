@@ -3,7 +3,7 @@
   "headword": "{受精|じゅせい}",
   "reading": "じゅせい",
   "romaji": "jusei",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "fertilization",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29502_jusei_ex1",
-      "japanese": "{卵|たまご}が{受精|じゅせい}する。",
+      "japanese": "⟦{卵|たまご}→卵：02222_tamago⟧⟦が→が：00051_ga⟧{受精|じゅせい}⟦する→する：00392_suru⟧。",
       "english": "The egg is fertilized.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29502_jusei_ex2",
-      "japanese": "{体外|たいがい}{受精|じゅせい}の{技術|ぎじゅつ}が{進歩|しんぽ}した。",
+      "japanese": "⟦{体外|たいがい}→体外：19203_taigai⟧{受精|じゅせい}⟦の→の：09472_no⟧⟦{技術|ぎじゅつ}→技術：01389_gijutsu⟧⟦が→が：00051_ga⟧⟦{進歩|しんぽ}→進歩：03265_shinpo⟧⟦した→する：00392_suru⟧。",
       "english": "In-vitro fertilization technology has advanced.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29502_jusei_ex3",
-      "japanese": "{受精|じゅせい}した{卵|らん}は、{細胞|さいぼう}{分裂|ぶんれつ}を{繰|く}り{返|かえ}しながら{成長|せいちょう}する。",
+      "japanese": "{受精|じゅせい}⟦した→する：00392_suru⟧{卵|らん}⟦は→は：00079_ha⟧、⟦{細胞|さいぼう}→細胞：05030_saibou⟧⟦{分裂|ぶんれつ}→分裂：11747_bunretsu⟧⟦を→を：00422_wo⟧⟦{繰|く}り{返|かえ}し→繰り返す：02051_kurikaesu⟧⟦ながら→ながら：10530_nagara⟧⟦{成長|せいちょう}→成長：03290_seichou⟧⟦する→する：00392_suru⟧。",
       "english": "A fertilized egg grows by repeatedly dividing into cells.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "Combines {受|じゅ} (receive) + {精|せい} (sperm, essence). The fusion of sperm and egg that starts a new life; applies to animals and plants alike. Used with する.\n\nCOMMON COLLOCATIONS:\n- {体外|たいがい}{受精|じゅせい}: in-vitro fertilization\n- {受精|じゅせい}{卵|らん}: fertilized egg\n- {人工|じんこう}{受精|じゅせい}: artificial insemination\n\nSIMILAR WORDS:\n- {授粉|じゅふん}: pollination — the transfer of pollen that precedes fertilization in plants\n- {妊娠|にんしん}: pregnancy — the state that follows fertilization in mammals",
+  "notes": "Combines {受|じゅ} (receive) + {精|せい} (sperm, essence). The fusion of sperm and egg that starts a new life; applies to animals and plants alike. Used with ⟦する→する：00392_suru⟧.\n\nCOMMON COLLOCATIONS:\n- ⟦{体外|たいがい}→体外：19203_taigai⟧{受精|じゅせい}: in-vitro fertilization\n- {受精|じゅせい}{卵|らん}: fertilized egg\n- ⟦{人工|じんこう}→人工：11573_jinkou⟧{受精|じゅせい}: artificial insemination\n\nSIMILAR WORDS:\n- {授粉|じゅふん}: pollination — the transfer of pollen that precedes fertilization in plants\n- ⟦{妊娠|にんしん}→妊娠：12227_ninshin⟧: pregnancy — the state that follows fertilization in mammals",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12227_ninshin",
+      "reading": "にんしん",
+      "headword": "{妊娠|にんしん}",
+      "label": "pregnancy"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -54,7 +63,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "science"
       ],
@@ -62,7 +71,7 @@
       "verb_class": "suru"
     },
     "created": "2026-06-26T09:20:43Z",
-    "modified": "2026-06-26T09:20:43Z"
+    "modified": "2026-09-02T04:02:37Z"
   },
   "conjugation": {
     "type": "suru",

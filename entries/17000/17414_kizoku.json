@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "17414_kizoku_ex1",
-      "japanese": "{貴族|きぞく}の{生活|せいかつ}は{豪華|ごうか}だった。",
+      "japanese": "{貴族|きぞく}⟦の→の：09472_no⟧⟦{生活|せいかつ}→生活：01443_seikatsu⟧⟦は→は：00079_ha⟧⟦{豪華|ごうか}→豪華：02815_gouka⟧だった。",
       "english": "The lives of the aristocrats were luxurious.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "17414_kizoku_ex2",
-      "japanese": "{平安|へいあん}{時代|じだい}の{貴族|きぞく}は{和歌|わか}を{詠|よ}んだ。",
+      "japanese": "⟦{平安|へいあん}→平安：12641_heian⟧⟦{時代|じだい}→時代：01424_jidai⟧⟦の→の：09472_no⟧{貴族|きぞく}⟦は→は：00079_ha⟧⟦{和歌|わか}→和歌：05230_waka⟧⟦を→を：00422_wo⟧⟦{詠|よ}んだ→詠む：14186_yomu⟧。",
       "english": "Aristocrats of the Heian period composed waka poetry.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "17414_kizoku_ex3",
-      "japanese": "ヨーロッパの{貴族|きぞく}{階級|かいきゅう}は{長|なが}い{歴史|れきし}を{持|も}っている。",
+      "japanese": "⟦ヨーロッパ→ヨーロッパ：00427_yooroppa⟧⟦の→の：09472_no⟧{貴族|きぞく}⟦{階級|かいきゅう}→階級：05515_kaikyuu⟧⟦は→は：00079_ha⟧⟦{長|なが}い→長い：00491_nagai⟧⟦{歴史|れきし}→歴史：02267_rekishi⟧⟦を→を：00422_wo⟧⟦{持|も}っている→持つ：00478_motsu⟧。",
       "english": "The aristocratic class in Europe has a long history.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nRefers to the aristocratic class in both Japanese and Western history. In Japanese history, {貴族|きぞく} most commonly refers to the court nobles ({公家|くげ}) of the Heian period who wielded political and cultural influence.\n\nCOMMON COLLOCATIONS:\n- {貴族|きぞく}{階級|かいきゅう} (aristocratic class)\n- {貴族|きぞく}{社会|しゃかい} (aristocratic society)\n- {貴族|きぞく}{院|いん} (House of Peers — historical)\n- {貴族|きぞく}{的|てき}な (aristocratic, noble-like)\n\nSIMILAR WORDS:\n- {公家|くげ}: specifically Japanese court nobles\n- {武士|ぶし}: samurai — the warrior class, distinct from the court nobility",
+  "notes": "USAGE:\nRefers to the aristocratic class in both Japanese and Western history. In Japanese history, {貴族|きぞく} most commonly refers to the court nobles (⟦{公家|くげ}→公家：12664_kuge⟧) of the Heian period who wielded political and cultural influence.\n\nCOMMON COLLOCATIONS:\n- {貴族|きぞく}⟦{階級|かいきゅう}→階級：05515_kaikyuu⟧ (aristocratic class)\n- {貴族|きぞく}⟦{社会|しゃかい}→社会：01427_shakai⟧ (aristocratic society)\n- {貴族|きぞく}{院|いん} (House of Peers — historical)\n- {貴族|きぞく}{的|てき}な (aristocratic, noble-like)\n\nSIMILAR WORDS:\n- ⟦{公家|くげ}→公家：12664_kuge⟧: specifically Japanese court nobles\n- ⟦{武士|ぶし}→武士：03989_bushi⟧: samurai — the warrior class, distinct from the court nobility",
   "cross_references": [
     {
       "type": "contrast",
@@ -52,11 +52,18 @@
       "reading": "ぶし",
       "headword": "{武士|ぶし}",
       "label": "samurai (warrior class)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12664_kuge",
+      "reading": "くげ",
+      "headword": "{公家|くげ}",
+      "label": "specifically Japanese court nobles"
     }
   ],
   "metadata": {
     "created": "2026-03-17T23:15:29Z",
-    "modified": "2026-05-06T07:07:17Z",
+    "modified": "2026-09-02T04:01:48Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

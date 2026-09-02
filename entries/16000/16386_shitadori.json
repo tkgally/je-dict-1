@@ -3,7 +3,7 @@
   "id": "16386_shitadori",
   "headword": "{下取|したど}り",
   "reading": "したどり",
-  "part_of_speech": "noun / suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "trade-in; part exchange",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "16386_shitadori_ex1",
-      "japanese": "{古|ふる}い{車|くるま}を{下取|したど}りに{出|だ}す。",
+      "japanese": "⟦{古|ふる}い→古い：00488_furui⟧⟦{車|くるま}→車：00516_kuruma⟧⟦を→を：00422_wo⟧{下取|したど}り⟦に→に：00314_ni⟧⟦{出|だ}す→出す：01087_dasu⟧。",
       "english": "To trade in an old car.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "16386_shitadori_ex2",
-      "japanese": "{下取|したど}り{価格|かかく}は{思|おも}ったより{高|たか}かった。",
+      "japanese": "{下取|したど}り⟦{価格|かかく}→価格：00147_kakaku⟧⟦は→は：00079_ha⟧⟦{思|おも}った→思う：00492_omou⟧⟦より→より：09476_yori⟧⟦{高|たか}かった→高い：00500_takai⟧。",
       "english": "The trade-in price was higher than I expected.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "16386_shitadori_ex3",
-      "japanese": "スマホを{買|か}い{替|か}えるとき、{今|いま}の{機種|きしゅ}を{下取|したど}りしてもらえるか{聞|き}いてみた。",
+      "japanese": "⟦スマホ→スマホ：04721_sumaho⟧⟦を→を：00422_wo⟧⟦{買|か}い{替|か}える→買い替える：19456_kaikaeru⟧とき、⟦{今|いま}→今：00945_ima⟧⟦の→の：09472_no⟧⟦{機種|きしゅ}→機種：13211_kishu⟧⟦を→を：00422_wo⟧{下取|したど}り⟦して→する：00392_suru⟧⟦もらえる→もらう：00520_morau⟧⟦か→か：09473_ka⟧⟦{聞|き}いて→聞く：00483_kiku⟧みた。",
       "english": "When replacing my smartphone, I asked if they could take my current model as a trade-in.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,11 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{下取|したど}り is most commonly used when buying cars, electronics, and appliances. The seller evaluates the old item and deducts its value from the new purchase price.\n\nCOMMON COLLOCATIONS:\n- {下取|したど}りに{出|だ}す (to trade in, to offer as a trade-in)\n- {下取|したど}り{価格|かかく} (trade-in price/value)\n- {下取|したど}りしてもらう (to have something accepted as a trade-in)\n- {下取|したど}り{査定|さてい} (trade-in appraisal)\n\nSIMILAR WORDS:\n{買|か}い{取|と}り means buyback or purchase, where the store buys your item outright. {下取|したど}り specifically implies exchanging an old item when purchasing a new one.",
+  "notes": "USAGE:\n{下取|したど}り is most commonly used when buying cars, electronics, and appliances. The seller evaluates the old item and deducts its value from the new purchase price.\n\nCOMMON COLLOCATIONS:\n- {下取|したど}り⟦に→に：00314_ni⟧⟦{出|だ}す→出す：01087_dasu⟧ (to trade in, to offer as a trade-in)\n- {下取|したど}り⟦{価格|かかく}→価格：00147_kakaku⟧ (trade-in price/value)\n- {下取|したど}り⟦して→する：00392_suru⟧⟦もらう→もらう：00520_morau⟧ (to have something accepted as a trade-in)\n- {下取|したど}り⟦{査定|さてい}→査定：07518_satei⟧ (trade-in appraisal)\n\nSIMILAR WORDS:\n⟦{買|か}い{取|と}り→買い取る：16704_kaitoru⟧ means buyback or purchase, where the store buys your item outright. {下取|したど}り specifically implies exchanging an old item when purchasing a new one.",
   "cross_references": [],
   "metadata": {
     "created": "2026-03-12T05:14:35Z",
-    "modified": "2026-03-29T03:08:18Z",
+    "modified": "2026-09-02T04:01:44Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -151,7 +151,8 @@
       "semantic": [
         "general"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

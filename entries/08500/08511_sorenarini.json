@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08511_sorenarini_ex1",
-      "japanese": "それなりに{楽|たの}しかった。",
+      "japanese": "それなりに⟦{楽|たの}しかった→楽しい：00817_tanoshii⟧。",
       "english": "It was enjoyable in its own way.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "08511_sorenarini_ex2",
-      "japanese": "{安|やす}いけど、それなりに{使|つか}える。",
+      "japanese": "⟦{安|やす}い→安い：00464_yasui⟧⟦けど→けど：09477_kedo⟧、それなりに⟦{使|つか}える→使う：00473_tsukau⟧。",
       "english": "It's cheap, but it works reasonably well.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "08511_sorenarini_ex3",
-      "japanese": "{努力|どりょく}すれば、それなりの{結果|けっか}が{出|で}る。",
+      "japanese": "⟦{努力|どりょく}すれば→努力する：20201_doryokusuru⟧、⟦それなり→それなり：30238_sorenari⟧⟦の→の：09472_no⟧⟦{結果|けっか}→結果：02486_kekka⟧⟦が→が：00051_ga⟧⟦{出|で}る→出る：00513_deru⟧。",
       "english": "If you make an effort, you'll get corresponding results.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
     },
     {
       "id": "08511_sorenarini_ex4",
-      "japanese": "{経験|けいけん}を{積|つ}めばそれなりに{上達|じょうたつ}する。",
+      "japanese": "⟦{経験|けいけん}→経験：01179_keiken⟧⟦を→を：00422_wo⟧⟦{積|つ}めば→積む：02294_tsumu⟧それなりに⟦{上達|じょうたつ}する→上達する：17981_joutatsusuru⟧。",
       "english": "With experience, you'll improve to a reasonable degree.",
       "sense_numbers": [
         1
@@ -53,7 +53,37 @@
       "notes": null
     }
   ],
-  "notes": "USAGE:\nExpresses that something meets expectations appropriate to its level or context. Often implies \"not great, but acceptable\" or \"good enough for what it is.\"\n\nCOMMON PATTERNS:\n- それなりに + adjective/verb - reasonably ~\n- それなりの + noun - appropriate/corresponding ~\n\nNUANCE:\nCan have a slightly reserved or hedging tone, acknowledging value while not overstating it.\n\nRELATED:\n- {相応|そうおう}に - correspondingly\n- まあまあ - so-so, fairly\n- {一応|いちおう} - for the time being",
+  "notes": "USAGE:\nExpresses that something meets expectations appropriate to its level or context. Often implies \"not great, but acceptable\" or \"good enough for what it is.\"\nCan have a slightly reserved or hedging tone, acknowledging value while not overstating it.\n\nCOMMON PATTERNS:\n- それなりに + adjective/verb - reasonably ~\n- ⟦それなり→それなり：30238_sorenari⟧⟦の→の：09472_no⟧ + noun - appropriate/corresponding ~\n\nRELATED WORDS:\n- ⟦{相応|そうおう}→相応：13714_souou⟧⟦に→に：00314_ni⟧ - correspondingly\n- ⟦まあまあ→まあまあ：05430_maamaa⟧ - so-so, fairly\n- ⟦{一応|いちおう}→一応：01721_ichiou⟧ - for the time being",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "13714_souou",
+      "reading": "そうおう",
+      "headword": "{相応|そうおう}",
+      "label": "correspondingly"
+    },
+    {
+      "type": "related",
+      "target_id": "05430_maamaa",
+      "reading": "まあまあ",
+      "headword": "まあまあ",
+      "label": "so-so, fairly"
+    },
+    {
+      "type": "related",
+      "target_id": "01721_ichiou",
+      "reading": "いちおう",
+      "headword": "{一応|いちおう}",
+      "label": "for the time being"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06684_sokosoko",
+      "reading": "そこそこ",
+      "headword": "そこそこ",
+      "label": "so-so"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,12 +91,13 @@
         "adverb"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "descriptive",
         "evaluation"
       ]
     },
     "created": "2026-01-27T10:33:10Z",
-    "modified": "2026-06-22T12:50:00Z"
+    "modified": "2026-09-02T04:01:15Z"
   }
 }

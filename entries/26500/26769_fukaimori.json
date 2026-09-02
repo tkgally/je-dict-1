@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26769_fukaimori_ex1",
-      "japanese": "{深|ふか}い{森|もり}に{入|はい}った。",
+      "japanese": "{深|ふか}い{森|もり}⟦に→に：00314_ni⟧⟦{入|はい}った→入る：00494_hairu⟧。",
       "english": "I entered a deep forest.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26769_fukaimori_ex2",
-      "japanese": "{深|ふか}い{森|もり}の{中|なか}では{日|ひ}の{光|ひかり}がほとんど{届|とど}かない。",
+      "japanese": "{深|ふか}い{森|もり}⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{日|ひ}→日：02249_hi⟧⟦の→の：09472_no⟧⟦{光|ひかり}→光：01707_hikari⟧⟦が→が：00051_ga⟧⟦ほとんど→ほとんど：00847_hotondo⟧⟦{届|とど}かない→届く：00899_todoku⟧。",
       "english": "Deep inside the forest, almost no sunlight reaches the ground.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26769_fukaimori_ex3",
-      "japanese": "{昔話|むかしばなし}には、{深|ふか}い{森|もり}の{奥|おく}に{住|す}む{不思議|ふしぎ}な{生|い}き{物|もの}がよく{登場|とうじょう}する。",
+      "japanese": "⟦{昔話|むかしばなし}→昔話：12718_mukashibanashi⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧、{深|ふか}い{森|もり}⟦の→の：09472_no⟧⟦{奥|おく}→奥：00980_oku⟧⟦に→に：00314_ni⟧⟦{住|す}む→住む：00673_sumu⟧⟦{不思議|ふしぎ}→不思議：02358_fushigi⟧な⟦{生|い}き{物|もの}→生き物：01783_ikimono⟧⟦が→が：00051_ga⟧⟦よく→よく：00601_yoku⟧⟦{登場|とうじょう}→登場：13625_toujou⟧⟦する→する：00392_suru⟧。",
       "english": "Folktales often feature mysterious creatures living deep within the forest.",
       "sense_numbers": [
         1
@@ -44,8 +44,30 @@
       "notes": null
     }
   ],
-  "notes": "A common descriptive phrase combining {深|ふか}い (deep) and {森|もり} (forest). In Japanese literature and folklore, the deep forest is a frequent setting representing the boundary between the human world and the supernatural. Locations like {白神山地|しらかみさんち} (Shirakami Mountains) and {屋久島|やくしま} (Yakushima) are famous for their primeval deep forests.\n\nCOMMON COLLOCATIONS:\n- {深|ふか}い{森|もり}の{奥|おく}: deep inside the forest\n- {深|ふか}い{森|もり}に{迷|まよ}い{込|こ}む: to wander into a deep forest\n- {深|ふか}い{森|もり}に{囲|かこ}まれた: surrounded by deep forest\n\nSIMILAR WORDS:\n- {密林|みつりん}: jungle, dense forest — emphasizes thick vegetation; often tropical\n- {原生林|げんせいりん}: primeval forest, virgin forest — forest untouched by human activity\n- {樹海|じゅかい}: sea of trees — a vast, dense forest viewed from above; famously associated with {青木ヶ原|あおきがはら}",
-  "cross_references": [],
+  "notes": "A common descriptive phrase combining ⟦{深|ふか}い→深い：01211_fukai⟧ (deep) and ⟦{森|もり}→森：02260_mori⟧ (forest). In Japanese literature and folklore, the deep forest is a frequent setting representing the boundary between the human world and the supernatural. Locations like {白神山地|しらかみさんち} (Shirakami Mountains) and {屋久島|やくしま} (Yakushima) are famous for their primeval deep forests.\n\nCOMMON COLLOCATIONS:\n- {深|ふか}い{森|もり}⟦の→の：09472_no⟧⟦{奥|おく}→奥：00980_oku⟧: deep inside the forest\n- {深|ふか}い{森|もり}⟦に→に：00314_ni⟧⟦{迷|まよ}い{込|こ}む→迷い込む：17603_mayoikomu⟧: to wander into a deep forest\n- {深|ふか}い{森|もり}⟦に→に：00314_ni⟧⟦{囲|かこ}まれた→囲む：02037_kakomu⟧: surrounded by deep forest\n\nSIMILAR WORDS:\n- ⟦{密林|みつりん}→密林：19969_mitsurin⟧: jungle, dense forest — emphasizes thick vegetation; often tropical\n- ⟦{原生林|げんせいりん}→原生林：09965_genseirin⟧: primeval forest, virgin forest — forest untouched by human activity\n- ⟦{樹海|じゅかい}→樹海：20810_jukai⟧: sea of trees — a vast, dense forest viewed from above; famously associated with {青木ヶ原|あおきがはら}",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19969_mitsurin",
+      "reading": "みつりん",
+      "headword": "{密林|みつりん}",
+      "label": "jungle, dense forest"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09965_genseirin",
+      "reading": "げんせいりん",
+      "headword": "{原生林|げんせいりん}",
+      "label": "primeval forest, virgin forest"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20810_jukai",
+      "reading": "じゅかい",
+      "headword": "{樹海|じゅかい}",
+      "label": "sea of trees"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -61,6 +83,6 @@
       "domain": []
     },
     "created": "2026-05-04T16:23:18Z",
-    "modified": "2026-05-04T16:23:18Z"
+    "modified": "2026-09-02T04:02:27Z"
   }
 }

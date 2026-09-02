@@ -63,10 +63,33 @@
       ]
     }
   ],
-  "notes": "USAGE:\nなぜなら typically starts a new sentence or clause and is followed by the reason, often ending with からだ/からです.\n\nPATTERN:\n[Statement]. なぜなら〜⟦から→から：00504_kara⟧⟦だ→だ：09496_da⟧/からです。\n\nSIMILAR EXPRESSIONS:\n・なぜなら (because, the reason is - formal/written)\n・⟦だって→だって：03423_datte⟧ (because - casual)\n・⟦というのは→というのは：08760_toiunoha⟧ (the reason is - explanatory)\n・⟦というのも→というのも：18108_toiunomo⟧ (the reason being - explanatory)\n\nNOTE:\nなぜなら is more common in written Japanese and formal speech. In casual conversation, ⟦だって→だって：03423_datte⟧ or simply 〜⟦から→から：00504_kara⟧ is more common.",
+  "notes": "USAGE:\nなぜなら typically starts a new sentence or clause and is followed by the reason, often ending with ⟦から→から：00504_kara⟧だ/⟦から→から：00504_kara⟧です.\nなぜなら is more common in written Japanese and formal speech. In casual conversation, ⟦だって→だって：03423_datte⟧ or simply 〜⟦から→から：00504_kara⟧ is more common.\n\nCOMMON PATTERNS:\n[Statement]. なぜなら〜⟦から→から：00504_kara⟧⟦だ→だ：09496_da⟧/⟦から→から：00504_kara⟧です。\n\nSIMILAR WORDS:\n- なぜなら (because, the reason is - formal/written)\n- ⟦だって→だって：03423_datte⟧ (because - casual)\n- ⟦というのは→というのは：08760_toiunoha⟧ (the reason is - explanatory)\n- ⟦というのも→というのも：18108_toiunomo⟧ (the reason being - explanatory)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03423_datte",
+      "reading": "だって",
+      "headword": "だって",
+      "label": "because"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08760_toiunoha",
+      "reading": "というのは",
+      "headword": "というのは",
+      "label": "the reason is"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18108_toiunomo",
+      "reading": "というのも",
+      "headword": "というのも",
+      "label": "the reason being"
+    }
+  ],
   "metadata": {
     "created": "2026-01-12T12:48:00Z",
-    "modified": "2026-06-12T18:23:45Z",
+    "modified": "2026-09-02T04:01:03Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

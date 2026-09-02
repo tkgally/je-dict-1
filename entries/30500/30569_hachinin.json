@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30569_hachinin_ex1",
-      "japanese": "{八人|はちにん}{乗|の}れる。",
+      "japanese": "{八人|はちにん}⟦{乗|の}れる→乗る：00511_noru⟧。",
       "english": "It seats eight.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30569_hachinin_ex2",
-      "japanese": "{今日|きょう}の{参加者|さんかしゃ}は{八人|はちにん}だった。",
+      "japanese": "⟦{今日|きょう}→今日：00496_kyou⟧⟦の→の：09472_no⟧⟦{参加者|さんかしゃ}→参加者：03059_sankasha⟧⟦は→は：00079_ha⟧{八人|はちにん}だった。",
       "english": "There were eight participants today.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30569_hachinin_ex3",
-      "japanese": "{十人|じゅうにん}{招待|しょうたい}したが、{当日|とうじつ}{来|き}てくれたのは{八人|はちにん}だけだった。",
+      "japanese": "⟦{十人|じゅうにん}→十人：28475_juunin⟧⟦{招待|しょうたい}した→招待する：01833_shoutaisuru⟧⟦が→が：00051_ga⟧、⟦{当日|とうじつ}→当日：04558_toujitsu⟧⟦{来|き}て→来る：00254_kuru⟧⟦くれた→くれる：00724_kureru⟧⟦の→の：09472_no⟧⟦は→は：00079_ha⟧{八人|はちにん}⟦だけ→〜だけ：03093_dake⟧だった。",
       "english": "We invited ten people, but only eight actually came on the day.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "{八|はち} plus the counter {人|にん} for people.\n\nCOMMON PATTERNS:\n- {八人|はちにん}で: as a group of eight\n- {八人|はちにん}{乗|の}り: eight-seater (of a vehicle)\n- {八人|はちにん}{家族|かぞく}: a family of eight\n\nRELATED COUNTS:\n- {七人|しちにん}: seven people\n- {十人|じゅうにん}: ten people\n- {何人|なんにん}: how many people",
+  "notes": "⟦{八|はち}→八：00698_hachi⟧ plus the counter ⟦{人|にん}→〜人：00658_nin⟧ for people.\n\nCOMMON PATTERNS:\n- {八人|はちにん}で: as a group of eight\n- {八人|はちにん}{乗|の}り: eight-seater (of a vehicle)\n- {八人|はちにん}⟦{家族|かぞく}→家族：00552_kazoku⟧: a family of eight\n\nRELATED COUNTS:\n- ⟦{七人|しちにん}→七人：30350_shichinin⟧: seven people\n- ⟦{十人|じゅうにん}→十人：28475_juunin⟧: ten people\n- ⟦{何人|なんにん}→何人：17593_nannin⟧: how many people",
   "cross_references": [
     {
       "type": "related",
@@ -57,6 +57,20 @@
       "target_id": "28475_juunin",
       "reading": "じゅうにん",
       "headword": "{十人|じゅうにん}"
+    },
+    {
+      "type": "related",
+      "target_id": "17593_nannin",
+      "reading": "なんにん",
+      "headword": "{何人|なんにん}",
+      "label": "how many people"
+    },
+    {
+      "type": "related",
+      "target_id": "30570_kyuunin",
+      "reading": "きゅうにん",
+      "headword": "{九人|きゅうにん}",
+      "label": "nine people"
     }
   ],
   "schema_version": "2.0",
@@ -67,13 +81,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "quantity"
       ],
       "domain": []
     },
     "created": "2026-08-11T03:25:44Z",
-    "modified": "2026-08-11T03:25:44Z"
+    "modified": "2026-09-02T04:02:40Z"
   }
 }

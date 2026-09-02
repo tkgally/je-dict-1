@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "09383_uradoori_ex1",
-      "japanese": "{裏通|うらどお}りを{歩|ある}く。",
+      "japanese": "{裏通|うらどお}り⟦を→を：00422_wo⟧⟦{歩|ある}く→歩く：00538_aruku⟧。",
       "english": "To walk along the back street.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "09383_uradoori_ex2",
-      "japanese": "{裏通|うらどお}りには{静|しず}かな{住宅|じゅうたく}が{多|おお}い。",
+      "japanese": "{裏通|うらどお}り⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{静|しず}か→静か：00755_shizuka⟧な⟦{住宅|じゅうたく}→住宅：03280_juutaku⟧⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "There are many quiet residences on the back streets.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "09383_uradoori_ex3",
-      "japanese": "{表通|おもてどお}りは{混|こ}んでいるから、{裏通|うらどお}りを{通|とお}ろう。",
+      "japanese": "⟦{表通|おもてどお}り→表通り：18552_omotedoori⟧⟦は→は：00079_ha⟧⟦{混|こ}んでいる→混む：02574_komu⟧⟦から→から：00504_kara⟧、{裏通|うらどお}り⟦を→を：00422_wo⟧⟦{通|とお}ろう→通る：01243_tooru⟧。",
       "english": "The main street is crowded, so let's take the back street.",
       "notes": null,
       "has_audio": false,
@@ -43,10 +43,10 @@
       ]
     }
   ],
-  "notes": "{裏通|うらどお}り is a quieter street behind or parallel to a main street. Composed of {裏|うら} (back/behind) + {通|どお}り (street).\n\nCONTRAST:\n- {表通|おもてどお}り: main street, front street (busy, commercial)\n- {裏通|うらどお}り: back street (quiet, residential)\n\nCOMMON COLLOCATIONS:\n- {裏通|うらどお}りを{歩|ある}く: to walk along a back street\n- {裏通|うらどお}りの{店|みせ}: a shop on a back street\n- {裏通|うらどお}りに{入|はい}る: to turn into a back street\n\nRELATED TERMS:\n- {路地|ろじ}: alley, lane (narrower than a street)\n- {路地裏|ろじうら}: back alley (even narrower, hidden)\n- {脇道|わきみち}: side road\n- {小道|こみち}: path, narrow lane\n\nCULTURAL NOTE:\nIn Japanese cities, {裏通|うらどお}り often contains hidden restaurants and bars ({隠|かく}れ{家|が}{的|てき}な{店|みせ}). Exploring back streets is a popular way to discover local spots.",
+  "notes": "{裏通|うらどお}り is a quieter street behind or parallel to a main street. Composed of ⟦{裏|うら}→裏：02178_ura⟧ (back/behind) + {通|どお}り (street).\n\nSIMILAR WORDS:\n- ⟦{表通|おもてどお}り→表通り：18552_omotedoori⟧: main street, front street (busy, commercial)\n- {裏通|うらどお}り: back street (quiet, residential)\n\nCOMMON COLLOCATIONS:\n- {裏通|うらどお}り⟦を→を：00422_wo⟧⟦{歩|ある}く→歩く：00538_aruku⟧: to walk along a back street\n- {裏通|うらどお}り⟦の→の：09472_no⟧⟦{店|みせ}→店：00497_mise⟧: a shop on a back street\n- {裏通|うらどお}り⟦に→に：00314_ni⟧⟦{入|はい}る→入る：00494_hairu⟧: to turn into a back street\n\nRELATED WORDS:\n- ⟦{路地|ろじ}→路地：06501_roji⟧: alley, lane (narrower than a street)\n- ⟦{路地裏|ろじうら}→路地裏：09382_rojiura⟧: back alley (even narrower, hidden)\n- ⟦{脇道|わきみち}→脇道：13943_wakimichi⟧: side road\n- ⟦{小道|こみち}→小道：21202_komichi⟧: path, narrow lane\n\nCULTURAL NOTE:\nIn Japanese cities, {裏通|うらどお}り often contains hidden restaurants and bars (⟦{隠|かく}れ{家|が}→隠れ家：16379_kakurega⟧⟦{的|てき}→〜的：09839_teki⟧な⟦{店|みせ}→店：00497_mise⟧). Exploring back streets is a popular way to discover local spots.",
   "metadata": {
     "created": "2026-02-01T09:09:24Z",
-    "modified": "2026-08-13T09:37:24Z",
+    "modified": "2026-09-02T04:01:18Z",
     "ai_model": "opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -67,6 +67,48 @@
       "reading": "ろじうら",
       "headword": "{路地裏|ろじうら}",
       "label": "back alley"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18552_omotedoori",
+      "reading": "おもてどおり",
+      "headword": "{表通|おもてどお}り",
+      "label": "main street, front street"
+    },
+    {
+      "type": "related",
+      "target_id": "06501_roji",
+      "reading": "ろじ",
+      "headword": "{路地|ろじ}",
+      "label": "alley, lane"
+    },
+    {
+      "type": "related",
+      "target_id": "13943_wakimichi",
+      "reading": "わきみち",
+      "headword": "{脇道|わきみち}",
+      "label": "side road"
+    },
+    {
+      "type": "related",
+      "target_id": "21202_komichi",
+      "reading": "こみち",
+      "headword": "{小道|こみち}",
+      "label": "path, narrow lane"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21057_uraroji",
+      "reading": "うらろじ",
+      "headword": "{裏路地|うらろじ}",
+      "label": "back alley"
+    },
+    {
+      "type": "antonym",
+      "target_id": "26913_oodoori",
+      "reading": "おおどおり",
+      "headword": "{大通|おおどお}り",
+      "label": "main street"
     }
   ]
 }

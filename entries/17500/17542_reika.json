@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "17542_reika_ex1",
-      "japanese": "{今朝|けさ}は{零下|れいか}5{度|ど}だった。",
+      "japanese": "⟦{今朝|けさ}→今朝：02877_kesa⟧⟦は→は：00079_ha⟧{零下|れいか}5⟦{度|ど}→〜度：09845_do⟧だった。",
       "english": "It was minus 5 degrees this morning.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17542_reika_ex2",
-      "japanese": "{気温|きおん}が{零下|れいか}になると{水道管|すいどうかん}が{凍|こお}る。",
+      "japanese": "⟦{気温|きおん}→気温：00235_kion⟧⟦が→が：00051_ga⟧{零下|れいか}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦と→と：00512_to⟧⟦{水道管|すいどうかん}→水道管：08094_suidoukan⟧⟦が→が：00051_ga⟧⟦{凍|こお}る→凍る：02100_kooru⟧。",
       "english": "When the temperature drops below zero, water pipes freeze.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17542_reika_ex3",
-      "japanese": "{北海道|ほっかいどう}では{冬|ふゆ}に{零下|れいか}20{度|ど}を{下回|したまわ}ることもある。",
+      "japanese": "⟦{北海道|ほっかいどう}→北海道：11010_hokkaidou⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{冬|ふゆ}→冬：00623_fuyu⟧⟦に→に：00314_ni⟧{零下|れいか}20⟦{度|ど}→〜度：09845_do⟧⟦を→を：00422_wo⟧⟦{下回|したまわ}る→下回る：07649_shitamawaru⟧こと⟦も→も：00484_mo⟧⟦ある→ある：00006_aru⟧。",
       "english": "In Hokkaido, temperatures can drop below minus 20 degrees in winter.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nUsed before a number to indicate a temperature below zero: {零下|れいか}10{度|ど} (minus 10 degrees). マイナス is also commonly used in spoken Japanese for the same purpose.\n\nCOMMON COLLOCATIONS:\n- {零下|れいか}～{度|ど} (minus ~ degrees)\n- {零下|れいか}になる (to drop below zero)\n- {零下|れいか}を{記録|きろく}する (to record sub-zero temperatures)\n\nCONTRAST:\n- マイナス: minus — loanword, commonly used in spoken Japanese\n- {氷点下|ひょうてんか}: below freezing point — more formal, specifically refers to below 0°C",
+  "notes": "USAGE:\nUsed before a number to indicate a temperature below zero: {零下|れいか}10⟦{度|ど}→〜度：09845_do⟧ (minus 10 degrees). ⟦マイナス→マイナス：00268_mainasu⟧ is also commonly used in spoken Japanese for the same purpose.\n\nCOMMON COLLOCATIONS:\n- {零下|れいか}～⟦{度|ど}→〜度：09845_do⟧ (minus ~ degrees)\n- {零下|れいか}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧ (to drop below zero)\n- {零下|れいか}⟦を→を：00422_wo⟧⟦{記録|きろく}する→記録する：25341_kirokusuru⟧ (to record sub-zero temperatures)\n\nSIMILAR WORDS:\n- ⟦マイナス→マイナス：00268_mainasu⟧: minus — loanword, commonly used in spoken Japanese\n- ⟦{氷点下|ひょうてんか}→氷点下：07669_hyoutenka⟧: below freezing point — more formal, specifically refers to below 0°C",
   "cross_references": [
     {
       "type": "synonym",
@@ -46,18 +52,30 @@
       "reading": "ひょうてんか",
       "headword": "{氷点下|ひょうてんか}",
       "label": "below freezing (formal)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00268_mainasu",
+      "reading": "まいなす",
+      "headword": "マイナス",
+      "label": "minus"
     }
   ],
   "metadata": {
     "created": "2026-03-18T08:06:53Z",
-    "modified": "2026-05-06T09:07:22Z",
+    "modified": "2026-09-02T04:01:48Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["weather", "number"]
+      "semantic": [
+        "weather",
+        "number"
+      ]
     }
   }
 }

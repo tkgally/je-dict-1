@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28816_kuriafairu_ex1",
-      "japanese": "{書類|しょるい}をクリアファイルに{入|い}れた。",
+      "japanese": "⟦{書類|しょるい}→書類：01103_shorui⟧⟦を→を：00422_wo⟧クリアファイル⟦に→に：00314_ni⟧⟦{入|い}れた→入れる：01098_ireru⟧。",
       "english": "I put the documents in a clear folder.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28816_kuriafairu_ex2",
-      "japanese": "{記念|きねん}のクリアファイルをもらった。",
+      "japanese": "⟦{記念|きねん}→記念：00232_kinen⟧⟦の→の：09472_no⟧クリアファイル⟦を→を：00422_wo⟧⟦もらった→もらう：00520_morau⟧。",
       "english": "I got a commemorative clear file.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28816_kuriafairu_ex3",
-      "japanese": "アニメの{展示会|てんじかい}でキャラクターの{描|えが}かれたクリアファイルを{買|か}った。",
+      "japanese": "⟦アニメ→アニメ：01527_anime⟧⟦の→の：09472_no⟧⟦{展示会|てんじかい}→展示会：21869_tenjikai⟧⟦で→で：00502_de⟧⟦キャラクター→キャラクター：23518_kyarakutaa⟧⟦の→の：09472_no⟧⟦{描|えが}かれた→描く：02013_egaku⟧クリアファイル⟦を→を：00422_wo⟧⟦{買|か}った→買う：00489_kau⟧。",
       "english": "At the anime exhibition I bought a clear file with the character printed on it.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "From English 'clear file'. Japan-made compound that does not match standard English usage. Printed clear files featuring anime, idol, or sports characters are popular collectibles and event giveaways.\n\nCOMMON COLLOCATIONS:\n- クリアファイルに{入|い}れる: to put in a clear file\n- クリアファイルに{挟|はさ}む: to slip between the sheets of a clear file\n- {特典|とくてん}クリアファイル: bonus/freebie clear file\n- A4クリアファイル: A4-size clear file\n\nSIMILAR WORDS:\n- ファイル: file; binder — broader, includes ring binders and other types\n- クリアホルダー: another name for the same item, used by some manufacturers",
+  "notes": "From English 'clear file'. Japan-made compound that does not match standard English usage. Printed clear files featuring anime, idol, or sports characters are popular collectibles and event giveaways.\n\nCOMMON COLLOCATIONS:\n- クリアファイル⟦に→に：00314_ni⟧⟦{入|い}れる→入れる：01098_ireru⟧: to put in a clear file\n- クリアファイル⟦に→に：00314_ni⟧⟦{挟|はさ}む→挟む：00091_hasamu⟧: to slip between the sheets of a clear file\n- ⟦{特典|とくてん}→特典：13469_tokuten⟧クリアファイル: bonus/freebie clear file\n- A4クリアファイル: A4-size clear file\n\nSIMILAR WORDS:\n- ⟦ファイル→ファイル：05280_fairu⟧: file; binder — broader, includes ring binders and other types\n- ⟦クリア→クリア：10825_kuria⟧ホルダー: another name for the same item, used by some manufacturers",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "05280_fairu",
+      "reading": "ふぁいる",
+      "headword": "ファイル",
+      "label": "file"
+    },
+    {
+      "type": "related",
+      "target_id": "05394_foruda",
+      "reading": "ふぉるだ",
+      "headword": "フォルダ",
+      "label": "folder"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24419_forudaa",
+      "reading": "ふぉるだー",
+      "headword": "フォルダー",
+      "label": "folder"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +76,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "tool",
         "work"
@@ -61,6 +84,6 @@
       "domain": []
     },
     "created": "2026-06-06T02:07:42Z",
-    "modified": "2026-08-08T18:34:17Z"
+    "modified": "2026-09-02T04:02:35Z"
   }
 }

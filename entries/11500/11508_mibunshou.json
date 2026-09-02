@@ -14,42 +14,67 @@
   "examples": [
     {
       "id": "11508_mibunshou_ex1",
-      "japanese": "{身分証|みぶんしょう}を{見|み}せてください。",
+      "japanese": "{身分証|みぶんしょう}⟦を→を：00422_wo⟧⟦{見|み}せて→見せる：01988_miseru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please show your ID.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11508_mibunshou_ex2",
-      "japanese": "{受付|うけつけ}で{身分証|みぶんしょう}の{提示|ていじ}を{求|もと}められた。",
+      "japanese": "⟦{受付|うけつけ}→受付：01325_uketsuke⟧で{身分証|みぶんしょう}⟦の→の：09472_no⟧⟦{提示|ていじ}→提示：12905_teiji⟧⟦を→を：00422_wo⟧⟦{求|もと}められた→求める：02316_motomeru⟧。",
       "english": "I was asked to present my ID at the reception desk.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11508_mibunshou_ex3",
-      "japanese": "{運転免許証|うんてんめんきょしょう}やパスポートなど、{写真付|しゃしんつ}きの{身分証|みぶんしょう}が{必要|ひつよう}です。",
+      "japanese": "⟦{運転免許証|うんてんめんきょしょう}→運転免許証：25263_untenmenkyoshou⟧や⟦パスポート→パスポート：00341_pasupooto⟧⟦など→〜など：03095_nado⟧、{写真付|しゃしんつ}き⟦の→の：09472_no⟧{身分証|みぶんしょう}⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧です。",
       "english": "A photo ID such as a driver's license or passport is required.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "Short for {身分証明書|みぶんしょうめいしょ} (identification document). The abbreviated form {身分証|みぶんしょう} is the standard way to say \"ID\" in everyday Japanese.\n\nCOMMON COLLOCATIONS:\n- {身分証|みぶんしょう}を{見|み}せる: to show ID\n- {身分証|みぶんしょう}の{提示|ていじ}: presentation of ID\n- {写真付|しゃしんつ}きの{身分証|みぶんしょう}: photo ID\n- {身分証|みぶんしょう}を{携帯|けいたい}する: to carry ID\n\nCOMMON TYPES OF ID IN JAPAN:\n- {運転免許証|うんてんめんきょしょう}: driver's license (most widely accepted)\n- マイナンバーカード: My Number card (national ID)\n- パスポート: passport\n- {健康保険証|けんこうほけんしょう}: health insurance card\n- {学生証|がくせいしょう}: student ID\n\nUSAGE:\nOften required when opening bank accounts, signing contracts, picking up packages, or entering certain buildings.",
-  "cross_references": [],
+  "notes": "Short for ⟦{身分証明書|みぶんしょうめいしょ}→身分証明書：09809_mibunshoumeisho⟧ (identification document). The abbreviated form {身分証|みぶんしょう} is the standard way to say \"ID\" in everyday Japanese.\n\nCOMMON COLLOCATIONS:\n- {身分証|みぶんしょう}⟦を→を：00422_wo⟧⟦{見|み}せる→見せる：01988_miseru⟧: to show ID\n- {身分証|みぶんしょう}⟦の→の：09472_no⟧⟦{提示|ていじ}→提示：12905_teiji⟧: presentation of ID\n- {写真付|しゃしんつ}き⟦の→の：09472_no⟧{身分証|みぶんしょう}: photo ID\n- {身分証|みぶんしょう}⟦を→を：00422_wo⟧⟦{携帯|けいたい}する→携帯する：21144_keitaisuru⟧: to carry ID\n\nCOMMON TYPES OF ID IN JAPAN:\n- ⟦{運転免許証|うんてんめんきょしょう}→運転免許証：25263_untenmenkyoshou⟧: driver's license (most widely accepted)\n- ⟦マイナンバーカード→マイナンバーカード：23712_mainanbaakaado⟧: My Number card (national ID)\n- ⟦パスポート→パスポート：00341_pasupooto⟧: passport\n- {健康保険証|けんこうほけんしょう}: health insurance card\n- ⟦{学生証|がくせいしょう}→学生証：14966_gakuseishou⟧: student ID\n\nUSAGE:\nOften required when opening bank accounts, signing contracts, picking up packages, or entering certain buildings.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "22652_shainshou",
+      "reading": "しゃいんしょう",
+      "headword": "{社員証|しゃいんしょう}",
+      "label": "employee ID card"
+    },
+    {
+      "type": "related",
+      "target_id": "22898_kaiinshou",
+      "reading": "かいいんしょう",
+      "headword": "{会員証|かいいんしょう}",
+      "label": "membership card"
+    }
+  ],
   "metadata": {
     "created": "2026-02-17T01:54:44Z",
-    "modified": "2026-03-26T01:40:08Z",
+    "modified": "2026-09-02T04:01:25Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

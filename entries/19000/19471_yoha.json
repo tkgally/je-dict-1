@@ -15,41 +15,83 @@
   "examples": [
     {
       "id": "19471_yoha_ex1",
-      "japanese": "{台風|たいふう}の{余波|よは}で{海|うみ}が{荒|あ}れている。",
+      "japanese": "⟦{台風|たいふう}→台風：01455_taifuu⟧⟦の→の：09472_no⟧{余波|よは}⟦で→で：00502_de⟧⟦{海|うみ}→海：00556_umi⟧⟦が→が：00051_ga⟧⟦{荒|あ}れている→荒れる：04577_areru⟧。",
       "english": "The sea is rough from the aftereffects of the typhoon.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19471_yoha_ex2",
-      "japanese": "{不祥事|ふしょうじ}の{余波|よは}が{続|つづ}いている。",
+      "japanese": "⟦{不祥事|ふしょうじ}→不祥事：14981_fushouji⟧⟦の→の：09472_no⟧{余波|よは}⟦が→が：00051_ga⟧⟦{続|つづ}いている→続く：00903_tsuzuku⟧。",
       "english": "The repercussions of the scandal continue.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19471_yoha_ex3",
-      "japanese": "{世界的|せかいてき}な{金融|きんゆう}{危機|きき}の{余波|よは}を{受|う}けて、{国内|こくない}の{景気|けいき}も{悪化|あっか}した。",
+      "japanese": "⟦{世界的|せかいてき}→世界的：20935_sekaiteki⟧な⟦{金融|きんゆう}→金融：02664_kinyuu⟧⟦{危機|きき}→危機：11798_kiki⟧⟦の→の：09472_no⟧{余波|よは}⟦を→を：00422_wo⟧⟦{受|う}けて→受ける：01215_ukeru⟧、⟦{国内|こくない}→国内：02998_kokunai⟧⟦の→の：09472_no⟧⟦{景気|けいき}→景気：02694_keiki⟧⟦も→も：00484_mo⟧⟦{悪化|あっか}した→悪化する：18844_akkasuru⟧。",
       "english": "Affected by the repercussions of the global financial crisis, the domestic economy also deteriorated.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Originally a maritime term for waves that remain after a storm ({余|よ} = remaining, {波|なみ} = wave). Now primarily used figuratively for the lingering effects of events, crises, or disturbances. The word implies that the main event has passed but its effects linger.\n\nCOMMON COLLOCATIONS:\n- {余波|よは}を{受|う}ける — to be affected by the repercussions\n- {余波|よは}が{広|ひろ}がる — the aftereffects spread\n- {余波|よは}が{続|つづ}く — the repercussions continue\n- {台風|たいふう}の{余波|よは} — aftereffects of a typhoon\n\nSIMILAR WORDS:\n- {影響|えいきょう} — influence, effect; broader and more neutral, not limited to aftermath\n- {波紋|はもん} — ripples; used figuratively for spreading consequences, especially in social/political contexts\n- {後遺症|こういしょう} — aftereffects (medical); lingering symptoms after illness or injury",
+  "notes": "Originally a maritime term for waves that remain after a storm ({余|よ} = remaining, ⟦{波|なみ}→波：00868_nami⟧ = wave). Now primarily used figuratively for the lingering effects of events, crises, or disturbances. The word implies that the main event has passed but its effects linger.\n\nCOMMON COLLOCATIONS:\n- {余波|よは}⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧ — to be affected by the repercussions\n- {余波|よは}⟦が→が：00051_ga⟧⟦{広|ひろ}がる→広がる：01980_hirogaru⟧ — the aftereffects spread\n- {余波|よは}⟦が→が：00051_ga⟧⟦{続|つづ}く→続く：00903_tsuzuku⟧ — the repercussions continue\n- ⟦{台風|たいふう}→台風：01455_taifuu⟧⟦の→の：09472_no⟧{余波|よは} — aftereffects of a typhoon\n\nSIMILAR WORDS:\n- ⟦{影響|えいきょう}→影響：01877_eikyou⟧ — influence, effect; broader and more neutral, not limited to aftermath\n- ⟦{波紋|はもん}→波紋：10553_hamon⟧ — ripples; used figuratively for spreading consequences, especially in social/political contexts\n- ⟦{後遺症|こういしょう}→後遺症：08622_kouishou⟧ — aftereffects (medical); lingering symptoms after illness or injury",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01877_eikyou",
+      "reading": "えいきょう",
+      "headword": "{影響|えいきょう}",
+      "label": "influence, effect"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10553_hamon",
+      "reading": "はもん",
+      "headword": "{波紋|はもん}",
+      "label": "ripples"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08622_kouishou",
+      "reading": "こういしょう",
+      "headword": "{後遺症|こういしょう}",
+      "label": "aftereffects"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25944_shougekiha",
+      "reading": "しょうげきは",
+      "headword": "{衝撃波|しょうげきは}",
+      "label": "shock wave"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "style": ["written"]
+      "semantic": [
+        "general"
+      ],
+      "style": [
+        "written"
+      ]
     },
     "created": "2026-03-26T01:20:45Z",
-    "modified": "2026-03-26T01:20:45Z"
+    "modified": "2026-09-02T04:01:56Z"
   }
 }

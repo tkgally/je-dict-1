@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "17112_shigaku_ex1",
-      "japanese": "{私学|しがく}に{通|かよ}っている。",
+      "japanese": "{私学|しがく}⟦に→に：00314_ni⟧⟦{通|かよ}っている→通う：01217_kayou⟧。",
       "english": "I attend a private school.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17112_shigaku_ex2",
-      "japanese": "{私学|しがく}の{授業料|じゅぎょうりょう}は{公立|こうりつ}より{高|たか}い。",
+      "japanese": "{私学|しがく}⟦の→の：09472_no⟧⟦{授業料|じゅぎょうりょう}→授業料：14967_jugyouryou⟧⟦は→は：00079_ha⟧⟦{公立|こうりつ}→公立：08210_kouritsu⟧⟦より→より：09476_yori⟧⟦{高|たか}い→高い：00500_takai⟧。",
       "english": "Private school tuition is higher than public school.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17112_shigaku_ex3",
-      "japanese": "{私学|しがく}{助成金|じょせいきん}の{制度|せいど}を{利用|りよう}して、{学費|がくひ}の{負担|ふたん}を{軽減|けいげん}することができる。",
+      "japanese": "{私学|しがく}⟦{助成金|じょせいきん}→助成金：11343_joseikin⟧⟦の→の：09472_no⟧⟦{制度|せいど}→制度：03291_seido⟧⟦を→を：00422_wo⟧⟦{利用|りよう}して→利用する：21735_riyousuru⟧、⟦{学費|がくひ}→学費：04706_gakuhi⟧⟦の→の：09472_no⟧⟦{負担|ふたん}→負担：09752_futan⟧⟦を→を：00422_wo⟧⟦{軽減|けいげん}する→軽減する：25372_keigensuru⟧こと⟦が→が：00051_ga⟧⟦できる→できる：00557_dekiru⟧。",
       "english": "You can reduce the burden of tuition fees by using the private school subsidy system.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nAn abbreviation of {私立|しりつ}{学校|がっこう} (private school). Used in both educational discussions and administrative/policy contexts. Contrasts with {公立|こうりつ} (public) and {国立|こくりつ} (national).\n\nCOMMON COLLOCATIONS:\n- {私学|しがく}{助成金|じょせいきん} (private school subsidy)\n- {私学|しがく}{経営|けいえい} (private school management)\n- {私学|しがく}{振興|しんこう} (private school promotion)\n\nSIMILAR WORDS:\n- {私立|しりつ}: private (institution) — the full, more common term\n- {公立|こうりつ}: public (institution) — government-funded schools\n- {国立|こくりつ}: national (institution) — nationally funded schools",
+  "notes": "USAGE:\nAn abbreviation of ⟦{私立|しりつ}→私立：00370_shiritsu⟧⟦{学校|がっこう}→学校：00055_gakkou⟧ (private school). Used in both educational discussions and administrative/policy contexts. Contrasts with ⟦{公立|こうりつ}→公立：08210_kouritsu⟧ (public) and ⟦{国立|こくりつ}→国立：04153_kokuritsu⟧ (national).\n\nCOMMON COLLOCATIONS:\n- {私学|しがく}⟦{助成金|じょせいきん}→助成金：11343_joseikin⟧ (private school subsidy)\n- {私学|しがく}⟦{経営|けいえい}→経営：02740_keiei⟧ (private school management)\n- {私学|しがく}⟦{振興|しんこう}→振興：00471_shinkou⟧ (private school promotion)\n\nSIMILAR WORDS:\n- ⟦{私立|しりつ}→私立：00370_shiritsu⟧: private (institution) — the full, more common term\n- ⟦{公立|こうりつ}→公立：08210_kouritsu⟧: public (institution) — government-funded schools\n- ⟦{国立|こくりつ}→国立：04153_kokuritsu⟧: national (institution) — nationally funded schools",
   "cross_references": [
     {
       "type": "related",
@@ -53,18 +59,29 @@
       "reading": "こうりつ",
       "headword": "{公立|こうりつ}",
       "label": "public (institution)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04153_kokuritsu",
+      "reading": "こくりつ",
+      "headword": "{国立|こくりつ}",
+      "label": "national"
     }
   ],
   "metadata": {
     "created": "2026-03-16T00:44:52Z",
-    "modified": "2026-05-05T09:06:09Z",
+    "modified": "2026-09-02T04:01:47Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["education"]
+      "semantic": [
+        "education"
+      ]
     }
   }
 }

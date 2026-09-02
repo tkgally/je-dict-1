@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "10499_samurai_ex1",
-      "japanese": "{侍|さむらい}の{刀|かたな}。",
+      "japanese": "{侍|さむらい}⟦の→の：09472_no⟧⟦{刀|かたな}→刀：02194_katana⟧。",
       "english": "A samurai's sword.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "10499_samurai_ex2",
-      "japanese": "{侍|さむらい}は{主君|しゅくん}に{仕|つか}えた。",
+      "japanese": "{侍|さむらい}⟦は→は：00079_ha⟧⟦{主君|しゅくん}→主君：11712_shukun⟧⟦に→に：00314_ni⟧⟦{仕|つか}えた→仕える：11547_tsukaeru⟧。",
       "english": "Samurai served their lord.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "10499_samurai_ex3",
-      "japanese": "{江戸|えど}{時代|じだい}の{侍|さむらい}は{武士道|ぶしどう}の{精神|せいしん}を{大切|たいせつ}にした。",
+      "japanese": "⟦{江戸|えど}{時代|じだい}→江戸時代：20431_edojidai⟧⟦の→の：09472_no⟧{侍|さむらい}⟦は→は：00079_ha⟧⟦{武士道|ぶしどう}→武士道：17460_bushidou⟧⟦の→の：09472_no⟧⟦{精神|せいしん}→精神：03377_seishin⟧⟦を→を：00422_wo⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧にした。",
       "english": "Samurai in the Edo period valued the spirit of bushido.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{侍|さむらい} refers to members of the warrior class in feudal Japan. In modern usage, it is often used figuratively or in cultural contexts such as film titles and sports nicknames.\n\nRELATED VOCABULARY:\n- {武士|ぶし}: warrior (more formal, historical term)\n- {武士道|ぶしどう}: the way of the warrior, bushido\n- {刀|かたな}: sword\n- {殿様|とのさま}: feudal lord\n\nCOMMON COLLOCATIONS:\n- {侍|さむらい}{魂|だましい}: samurai spirit\n- {侍|さむらい}ジャパン: Samurai Japan (national sports teams)\n- {侍|さむらい}{映画|えいが}: samurai film",
+  "notes": "USAGE:\n{侍|さむらい} refers to members of the warrior class in feudal Japan. In modern usage, it is often used figuratively or in cultural contexts such as film titles and sports nicknames.\n\nRELATED WORDS:\n- ⟦{武士|ぶし}→武士：03989_bushi⟧: warrior (more formal, historical term)\n- ⟦{武士道|ぶしどう}→武士道：17460_bushidou⟧: the way of the warrior, bushido\n- ⟦{刀|かたな}→刀：02194_katana⟧: sword\n- ⟦{殿様|とのさま}→殿様：10455_tonosama⟧: feudal lord\n\nCOMMON COLLOCATIONS:\n- {侍|さむらい}{魂|だましい}: samurai spirit\n- {侍|さむらい}ジャパン: Samurai Japan (national sports teams)\n- {侍|さむらい}⟦{映画|えいが}→映画：02273_eiga⟧: samurai film",
   "cross_references": [
     {
       "type": "synonym",
@@ -52,11 +52,46 @@
       "reading": "ぶし",
       "headword": "{武士|ぶし}",
       "label": "formal, historical"
+    },
+    {
+      "type": "related",
+      "target_id": "17460_bushidou",
+      "reading": "ぶしどう",
+      "headword": "{武士道|ぶしどう}",
+      "label": "the way of the warrior, bushido"
+    },
+    {
+      "type": "related",
+      "target_id": "02194_katana",
+      "reading": "かたな",
+      "headword": "{刀|かたな}",
+      "label": "sword"
+    },
+    {
+      "type": "related",
+      "target_id": "10455_tonosama",
+      "reading": "とのさま",
+      "headword": "{殿様|とのさま}",
+      "label": "feudal lord"
+    },
+    {
+      "type": "related",
+      "target_id": "11912_kenshi",
+      "reading": "けんし",
+      "headword": "{剣士|けんし}",
+      "label": "swordsman, fencer, sword fighter"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28922_musha",
+      "reading": "むしゃ",
+      "headword": "{武者|むしゃ}",
+      "label": "warrior"
     }
   ],
   "metadata": {
     "created": "2026-02-07T23:54:21Z",
-    "modified": "2026-06-27T03:38:18Z",
+    "modified": "2026-09-02T04:01:21Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

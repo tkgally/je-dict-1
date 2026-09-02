@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30106_kin_ex1",
-      "japanese": "{入学|にゅうがく}{金|きん}を{払|はら}った。",
+      "japanese": "⟦{入学|にゅうがく}{金|きん}→入学金：22398_nyuugakukin⟧⟦を→を：00422_wo⟧⟦{払|はら}った→払う：00535_harau⟧。",
       "english": "I paid the enrollment fee.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30106_kin_ex2",
-      "japanese": "{未払|みはら}い{金|きん}が{三万円|さんまんえん}{残|のこ}っている。",
+      "japanese": "⟦{未払|みはら}い{金|きん}→未払い金：30179_miharaikin⟧⟦が→が：00051_ga⟧{三万円|さんまんえん}⟦{残|のこ}っている→残る：01187_nokoru⟧。",
       "english": "Thirty thousand yen remains unpaid.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30106_kin_ex3",
-      "japanese": "{退職|たいしょく}{金|きん}の{額|がく}は、{勤続|きんぞく}{年数|ねんすう}によって{決|き}まる。",
+      "japanese": "⟦{退職|たいしょく}{金|きん}→退職金：07959_taishokukin⟧⟦の→の：09472_no⟧⟦{額|がく}→額：02607_gaku⟧⟦は→は：00079_ha⟧、⟦{勤続|きんぞく}{年数|ねんすう}→勤続年数：25628_kinzokunensuu⟧⟦によって→によって：06801_niyotte⟧⟦{決|き}まる→決まる：01233_kimaru⟧。",
       "english": "The amount of the retirement allowance is determined by length of service.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Names a designated sum of money rather than money in general.\n\nCOMMON COMPOUNDS:\n- {料金|りょうきん}: charge; fare\n- {代金|だいきん}: payment for goods; price\n- {現金|げんきん}: cash\n- {貯金|ちょきん}: savings\n- {保証|ほしょう}{金|きん}: deposit; security money\n- {年金|ねんきん}: pension\n\nSIMILAR SUFFIXES:\n- 〜{料|りょう}: fee charged for a service ({送料|そうりょう}, {手数料|てすうりょう}) — narrower than 〜{金|きん}\n- 〜{費|ひ}: expense; cost incurred ({交通|こうつう}{費|ひ}, {生活|せいかつ}{費|ひ}) — money spent, not a sum set aside",
+  "notes": "Names a designated sum of money rather than money in general.\n\nCOMPOUNDS:\n- ⟦{料金|りょうきん}→料金：03797_ryoukin⟧: charge; fare\n- ⟦{代金|だいきん}→代金：03416_daikin⟧: payment for goods; price\n- ⟦{現金|げんきん}→現金：02716_genkin⟧: cash\n- ⟦{貯金|ちょきん}→貯金：03497_chokin⟧: savings\n- ⟦{保証|ほしょう}→保証：03718_hoshou⟧⟦{金|きん}→金：02666_kin⟧: deposit; security money\n- ⟦{年金|ねんきん}→年金：04695_nenkin⟧: pension\n\nSIMILAR SUFFIXES:\n- 〜⟦{料|りょう}→料：28172_ryou⟧: fee charged for a service (⟦{送料|そうりょう}→送料：06128_souryou⟧, ⟦{手数料|てすうりょう}→手数料：05423_tesuuryou⟧) — narrower than 〜⟦{金|きん}→金：02666_kin⟧\n- 〜⟦{費|ひ}→費：09877_hi⟧: expense; cost incurred (⟦{交通|こうつう}{費|ひ}→交通費：03056_koutsuuhi⟧, ⟦{生活|せいかつ}{費|ひ}→生活費：19424_seikatsuhi⟧) — money spent, not a sum set aside",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,13 +53,13 @@
         "suffix"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "money"
       ],
       "domain": []
     },
     "created": "2026-07-25T18:20:39Z",
-    "modified": "2026-07-25T18:20:39Z"
+    "modified": "2026-09-02T04:02:38Z"
   }
 }

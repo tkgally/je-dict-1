@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "16242_toushika_ex1",
-      "japanese": "{個人|こじん}{投資家|とうしか}が{増|ふ}えている。",
+      "japanese": "⟦{個人|こじん}→個人：02758_kojin⟧{投資家|とうしか}⟦が→が：00051_ga⟧⟦{増|ふ}えている→増える：01183_fueru⟧。",
       "english": "Individual investors are increasing.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16242_toushika_ex2",
-      "japanese": "{海外|かいがい}の{投資家|とうしか}から{資金|しきん}を{集|あつ}めた。",
+      "japanese": "⟦{海外|かいがい}→海外：00134_kaigai⟧⟦の→の：09472_no⟧{投資家|とうしか}⟦から→から：00504_kara⟧⟦{資金|しきん}→資金：09937_shikin⟧⟦を→を：00422_wo⟧⟦{集|あつ}めた→集める：01170_atsumeru⟧。",
       "english": "They raised funds from overseas investors.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16242_toushika_ex3",
-      "japanese": "{有名|ゆうめい}な{投資家|とうしか}が「{今|いま}が{買|か}い{時|どき}だ」と{発言|はつげん}し、{市場|しじょう}が{反応|はんのう}した。",
+      "japanese": "⟦{有名|ゆうめい}→有名：01106_yuumei⟧な{投資家|とうしか}⟦が→が：00051_ga⟧「⟦{今|いま}→今：00945_ima⟧⟦が→が：00051_ga⟧{買|か}い{時|どき}だ」⟦と→と：00512_to⟧⟦{発言|はつげん}→発言：05099_hatsugen⟧し、⟦{市場|しじょう}→市場：09685_shijou⟧⟦が→が：00051_ga⟧⟦{反応|はんのう}した→反応する：20204_hannousuru⟧。",
       "english": "A famous investor said \"now is the time to buy,\" and the market reacted.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{投資家|とうしか} is a general term for anyone who invests money in assets for financial return. A compound of {投資|とうし} (investment) + {家|か} (person, specialist).\n\nCOMMON TYPES:\n- {個人|こじん}{投資家|とうしか}: individual/retail investor\n- {機関|きかん}{投資家|とうしか}: institutional investor\n- {海外|かいがい}{投資家|とうしか}: foreign investor\n- エンジェル{投資家|とうしか}: angel investor\n\nCOMMON COLLOCATIONS:\n- {投資家|とうしか}{心理|しんり}: investor sentiment\n- {投資家|とうしか}を{募|つの}る: to recruit investors\n- {投資家|とうしか}から{資金|しきん}を{集|あつ}める: to raise funds from investors\n\nNOTE:\nThe {家|か} suffix indicates a person engaged in a professional or serious pursuit. Compare: {政治家|せいじか} (politician), {作家|さっか} (writer), {専門家|せんもんか} (specialist).",
+  "notes": "{投資家|とうしか} is a general term for anyone who invests money in assets for financial return. A compound of ⟦{投資|とうし}→投資：04711_toushi⟧ (investment) + ⟦{家|か}→〜家：28339_ka⟧ (person, specialist).\n\nTYPES:\n- ⟦{個人|こじん}→個人：02758_kojin⟧{投資家|とうしか}: individual/retail investor\n- ⟦{機関|きかん}→機関：02630_kikan⟧{投資家|とうしか}: institutional investor\n- ⟦{海外|かいがい}→海外：00134_kaigai⟧{投資家|とうしか}: foreign investor\n- エンジェル{投資家|とうしか}: angel investor\n\nCOMMON COLLOCATIONS:\n- {投資家|とうしか}⟦{心理|しんり}→心理：03332_shinri⟧: investor sentiment\n- {投資家|とうしか}⟦を→を：00422_wo⟧⟦{募|つの}る→募る：10878_tsunoru⟧: to recruit investors\n- {投資家|とうしか}⟦から→から：00504_kara⟧⟦{資金|しきん}→資金：09937_shikin⟧⟦を→を：00422_wo⟧⟦{集|あつ}める→集める：01170_atsumeru⟧: to raise funds from investors\n\nUSAGE:\nThe ⟦{家|か}→〜家：28339_ka⟧ suffix indicates a person engaged in a professional or serious pursuit. Compare: ⟦{政治家|せいじか}→政治家：03084_seijika⟧ (politician), ⟦{作家|さっか}→作家：01414_sakka⟧ (writer), ⟦{専門家|せんもんか}→専門家：03088_senmonka⟧ (specialist).",
   "cross_references": [
     {
       "type": "related",
@@ -46,17 +52,28 @@
       "reading": "とうし",
       "headword": "{投資|とうし}",
       "label": "investment"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15274_kabunushi",
+      "reading": "かぶぬし",
+      "headword": "{株主|かぶぬし}",
+      "label": "shareholder"
     }
   ],
   "metadata": {
     "created": "2026-03-11T08:04:07Z",
-    "modified": "2026-05-03T06:32:09Z",
+    "modified": "2026-09-02T04:01:44Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["business"]
+      "semantic": [
+        "business"
+      ]
     }
   }
 }

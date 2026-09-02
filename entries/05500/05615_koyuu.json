@@ -24,7 +24,7 @@
     },
     {
       "id": "05615_koyuu_ex2",
-      "japanese": "この⟦{地域|ちいき}→地域：01461_chiiki⟧{固有|こゆう}⟦の→の：09472_no⟧⟦{動物|どうぶつ}→動物：01480_doubutsu⟧⟦が→が：00051_ga⟧⟦いる→いる：00495_iru⟧。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{地域|ちいき}→地域：01461_chiiki⟧{固有|こゆう}⟦の→の：09472_no⟧⟦{動物|どうぶつ}→動物：01480_doubutsu⟧⟦が→が：00051_ga⟧⟦いる→いる：00495_iru⟧。",
       "english": "There are animals endemic to this region.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{固有|こゆう} is a na-adjective meaning inherent, unique to, or peculiar to something.\n\nFORMS:\n- {固有|こゆう}⟦の→の：09472_no⟧ + noun: unique to ~\n- {固有|こゆう}な + noun: (less common)\n\nCOMMON COLLOCATIONS:\n- {固有|こゆう}⟦{名詞|めいし}→名詞：10420_meishi⟧: proper noun (grammar)\n- {固有|こゆう}⟦{種|しゅ}→種：28584_shu⟧: endemic species\n- {固有|こゆう}⟦の→の：09472_no⟧⟦{文化|ぶんか}→文化：01504_bunka⟧: unique culture\n- {固有|こゆう}⟦の→の：09472_no⟧⟦{問題|もんだい}→問題：00797_mondai⟧: inherent problem\n- {固有|こゆう}⟦{値|ち}→値：noentry⟧: eigenvalue (mathematics)\n\nPATTERN:\nX{固有|こゆう}の Y: Y unique/inherent to X\n- ⟦{日本|にほん}→日本：03876_nihon⟧{固有|こゆう}⟦の→の：09472_no⟧⟦{文化|ぶんか}→文化：01504_bunka⟧: culture unique to Japan\n- この⟦{地域|ちいき}→地域：01461_chiiki⟧{固有|こゆう}⟦の→の：09472_no⟧⟦{動物|どうぶつ}→動物：01480_doubutsu⟧: animals endemic to this region\n\nSIMILAR WORDS:\n- ⟦{独特|どくとく}→独特：01656_dokutoku⟧: distinctive, peculiar\n- ⟦{特有|とくゆう}→特有：13471_tokuyuu⟧: characteristic of, peculiar to\n- ユニーク: unique (loanword)",
+  "notes": "{固有|こゆう} is a na-adjective meaning inherent, unique to, or peculiar to something.\n\nFORMS:\n- {固有|こゆう}⟦の→の：09472_no⟧ + noun: unique to ~\n- {固有|こゆう}な + noun: (less common)\n\nCOMMON COLLOCATIONS:\n- {固有|こゆう}⟦{名詞|めいし}→名詞：10420_meishi⟧: proper noun (grammar)\n- {固有|こゆう}⟦{種|しゅ}→種：28584_shu⟧: endemic species\n- {固有|こゆう}⟦の→の：09472_no⟧⟦{文化|ぶんか}→文化：01504_bunka⟧: unique culture\n- {固有|こゆう}⟦の→の：09472_no⟧⟦{問題|もんだい}→問題：00797_mondai⟧: inherent problem\n- {固有|こゆう}⟦{値|ち}→値：noentry⟧: eigenvalue (mathematics)\n\nCOMMON PATTERNS:\nX{固有|こゆう}⟦の→の：09472_no⟧ Y: Y unique/inherent to X\n- ⟦{日本|にほん}→日本：03876_nihon⟧{固有|こゆう}⟦の→の：09472_no⟧⟦{文化|ぶんか}→文化：01504_bunka⟧: culture unique to Japan\n- ⟦この→この：00962_kono⟧⟦{地域|ちいき}→地域：01461_chiiki⟧{固有|こゆう}⟦の→の：09472_no⟧⟦{動物|どうぶつ}→動物：01480_doubutsu⟧: animals endemic to this region\n\nSIMILAR WORDS:\n- ⟦{独特|どくとく}→独特：01656_dokutoku⟧: distinctive, peculiar\n- ⟦{特有|とくゆう}→特有：13471_tokuyuu⟧: characteristic of, peculiar to\n- ⟦ユニーク→ユニーク：11393_yuniiku⟧: unique (loanword)",
   "cross_references": [
     {
       "type": "synonym",
@@ -65,11 +65,25 @@
       "reading": "どくじ",
       "headword": "{独自|どくじ}",
       "label": "original, unique"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11393_yuniiku",
+      "reading": "ゆにーく",
+      "headword": "ユニーク",
+      "label": "unique"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24149_naizai",
+      "reading": "ないざい",
+      "headword": "{内在|ないざい}",
+      "label": "inherence"
     }
   ],
   "metadata": {
     "created": "2026-01-16T08:20:19Z",
-    "modified": "2026-07-29T21:21:40Z",
+    "modified": "2026-09-02T04:01:07Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

@@ -14,41 +14,101 @@
   "examples": [
     {
       "id": "09868_shokunin_ex1",
-      "japanese": "{活字|かつじ}を{拾|ひろ}う{職人|しょくにん}の{技|わざ}。",
+      "japanese": "⟦{活字|かつじ}→活字：00202_katsuji⟧⟦を→を：00422_wo⟧⟦{拾|ひろ}う→拾う：00845_hirou⟧{職人|しょくにん}⟦の→の：09472_no⟧⟦{技|わざ}→技：02172_waza⟧。",
       "english": "The skill of craftsmen who set type.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09868_shokunin_ex2",
-      "japanese": "{職人|しょくにん}が{丁寧|ていねい}に{作|つく}った{家具|かぐ}。",
+      "japanese": "{職人|しょくにん}⟦が→が：00051_ga⟧⟦{丁寧|ていねい}→丁寧：00896_teinei⟧⟦に→に：00314_ni⟧⟦{作|つく}った→作る：00481_tsukuru⟧⟦{家具|かぐ}→家具：12314_kagu⟧。",
       "english": "Furniture carefully made by craftsmen.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09868_shokunin_ex3",
-      "japanese": "{彼|かれ}は{寿司|すし}{職人|しょくにん}として{働|はたら}いている。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{寿司|すし}→寿司：04946_sushi⟧{職人|しょくにん}⟦として→として：06802_toshite⟧⟦{働|はたら}いている→働く：00503_hataraku⟧。",
       "english": "He works as a sushi chef.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{職人|しょくにん} refers to skilled craftspeople and artisans.\n\nCOMMON TYPES:\n- {寿司|すし}{職人|しょくにん}: sushi chef\n- {大工|だいく}（{職人|しょくにん}）: carpenter\n- {陶芸|とうげい}{職人|しょくにん}: pottery artisan\n- {和菓子|わがし}{職人|しょくにん}: Japanese confectionery craftsman\n\nRELATED EXPRESSIONS:\n- {職人|しょくにん}{気質|かたぎ}: craftsman's temperament/pride\n- {職人|しょくにん}{技|わざ}: craftsmanship\n- {職人|しょくにん}{芸|げい}: artisan skill\n- {熟練|じゅくれん}{職人|しょくにん}: skilled craftsman\n\nCULTURAL NOTE:\nIn Japan, {職人|しょくにん} carries a sense of respect for traditional skills passed down through generations.",
-  "cross_references": [],
+  "notes": "{職人|しょくにん} refers to skilled craftspeople and artisans.\n\nTYPES:\n- ⟦{寿司|すし}→寿司：04946_sushi⟧{職人|しょくにん}: sushi chef\n- ⟦{大工|だいく}→大工：04051_daiku⟧（{職人|しょくにん}）: carpenter\n- ⟦{陶芸|とうげい}→陶芸：04449_tougei⟧{職人|しょくにん}: pottery artisan\n- ⟦{和菓子|わがし}→和菓子：04962_wagashi⟧{職人|しょくにん}: Japanese confectionery craftsman\n\nRELATED WORDS:\n- {職人|しょくにん}{気質|かたぎ}: craftsman's temperament/pride\n- {職人|しょくにん}⟦{技|わざ}→技：02172_waza⟧: craftsmanship\n- {職人|しょくにん}{芸|げい}: artisan skill\n- ⟦{熟練|じゅくれん}→熟練：09081_jukuren⟧{職人|しょくにん}: skilled craftsman\n\nCULTURAL NOTE:\nIn Japan, {職人|しょくにん} carries a sense of respect for traditional skills passed down through generations.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22271_ginousha",
+      "reading": "ぎのうしゃ",
+      "headword": "{技能者|ぎのうしゃ}",
+      "label": "skilled worker"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23192_koushou",
+      "reading": "こうしょう",
+      "headword": "{工匠|こうしょう}",
+      "label": "artisan"
+    },
+    {
+      "type": "related",
+      "target_id": "23336_rokuro",
+      "reading": "ろくろ",
+      "headword": "{轆轤|ろくろ}",
+      "label": "potter's wheel"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23783_jukurensha",
+      "reading": "じゅくれんしゃ",
+      "headword": "{熟練者|じゅくれんしゃ}",
+      "label": "skilled worker"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24136_sagyouin",
+      "reading": "さぎょういん",
+      "headword": "{作業員|さぎょういん}",
+      "label": "worker"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26668_purofesshonaru",
+      "reading": "ぷろふぇっしょなる",
+      "headword": "プロフェッショナル",
+      "label": "professional"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28838_shigotonin",
+      "reading": "しごとにん",
+      "headword": "{仕事人|しごとにん}",
+      "label": "hard worker"
+    }
+  ],
   "metadata": {
     "created": "2026-02-04T01:44:31Z",
-    "modified": "2026-02-04T01:44:31Z",
+    "modified": "2026-09-02T04:01:19Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["occupation"]
+      "semantic": [
+        "occupation"
+      ]
     }
   }
 }

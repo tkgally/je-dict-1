@@ -3,7 +3,7 @@
   "id": "14251_choutei",
   "headword": "{調停|ちょうてい}",
   "reading": "ちょうてい",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "mediation; arbitration",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "14251_choutei_ex1",
-      "japanese": "{裁判所|さいばんしょ}で{調停|ちょうてい}を{行|おこな}う。",
+      "japanese": "⟦{裁判所|さいばんしょ}→裁判所：09665_saibansho⟧⟦で→で：00502_de⟧{調停|ちょうてい}⟦を→を：00422_wo⟧⟦{行|おこな}う→行う：01238_okonau⟧。",
       "english": "To conduct mediation at the court.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "14251_choutei_ex2",
-      "japanese": "{労使|ろうし}{間|かん}の{紛争|ふんそう}を{調停|ちょうてい}する。",
+      "japanese": "⟦{労使|ろうし}→労使：27897_roushi⟧⟦{間|かん}→〜間：28469_kan⟧⟦の→の：09472_no⟧⟦{紛争|ふんそう}→紛争：05758_funsou⟧⟦を→を：00422_wo⟧{調停|ちょうてい}⟦する→する：00392_suru⟧。",
       "english": "To mediate a dispute between labor and management.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "14251_choutei_ex3",
-      "japanese": "{離婚|りこん}{調停|ちょうてい}では、{第三者|だいさんしゃ}が{間|あいだ}に{入|はい}って{話|はな}し{合|あ}いを{進|すす}める。",
+      "japanese": "⟦{離婚|りこん}→離婚：02530_rikon⟧{調停|ちょうてい}⟦で→で：00502_de⟧⟦は→は：00079_ha⟧、⟦{第三者|だいさんしゃ}→第三者：26789_daisansha⟧⟦が→が：00051_ga⟧⟦{間|あいだ}→間：00914_aida⟧⟦に→に：00314_ni⟧⟦{入|はい}って→入る：00494_hairu⟧⟦{話|はな}し{合|あ}い→話し合い：14176_hanashiai⟧⟦を→を：00422_wo⟧⟦{進|すす}める→進める：01949_susumeru⟧。",
       "english": "In divorce mediation, a third party steps in to facilitate discussion.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "{調停|ちょうてい} refers to mediation or arbitration, particularly in legal contexts. It is distinct from {朝廷|ちょうてい} (imperial court), which has the same reading but different kanji.\n\nCOMMON COLLOCATIONS:\n- {調停|ちょうてい}を{行|おこな}う (conduct mediation)\n- {調停|ちょうてい}{委員|いいん} (mediator, mediation committee member)\n- {離婚|りこん}{調停|ちょうてい} (divorce mediation)\n- {調停|ちょうてい}{案|あん} (mediation proposal)\n\nIn the Japanese legal system, {調停|ちょうてい} is a formal process conducted at family courts or summary courts as an alternative to litigation. It is commonly used for divorce cases, inheritance disputes, and neighbor conflicts.",
+  "notes": "{調停|ちょうてい} refers to mediation or arbitration, particularly in legal contexts. It is distinct from ⟦{朝廷|ちょうてい}→朝廷：13081_choutei⟧ (imperial court), which has the same reading but different kanji.\n\nCOMMON COLLOCATIONS:\n- {調停|ちょうてい}⟦を→を：00422_wo⟧⟦{行|おこな}う→行う：01238_okonau⟧ (conduct mediation)\n- {調停|ちょうてい}⟦{委員|いいん}→委員：01708_iin⟧ (mediator, mediation committee member)\n- ⟦{離婚|りこん}→離婚：02530_rikon⟧{調停|ちょうてい} (divorce mediation)\n- {調停|ちょうてい}⟦{案|あん}→案：01776_an⟧ (mediation proposal)\n\nIn the Japanese legal system, {調停|ちょうてい} is a formal process conducted at family courts or summary courts as an alternative to litigation. It is commonly used for divorce cases, inheritance disputes, and neighbor conflicts.",
   "cross_references": [
     {
       "type": "synonym",
@@ -142,11 +142,46 @@
       "reading": "ちゅうさい",
       "headword": "{仲裁|ちゅうさい}",
       "label": "arbitration"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14912_wakaisuru",
+      "reading": "わかいする",
+      "headword": "{和解|わかい}する",
+      "label": "to reconcile"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21383_chuukai",
+      "reading": "ちゅうかい",
+      "headword": "{仲介|ちゅうかい}する",
+      "label": "to mediate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23317_jidan",
+      "reading": "じだん",
+      "headword": "{示談|じだん}",
+      "label": "out-of-court settlement"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26407_rigaichousei",
+      "reading": "りがいちょうせい",
+      "headword": "{利害|りがい}{調整|ちょうせい}",
+      "label": "coordination of interests"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27010_chuusaisuru",
+      "reading": "ちゅうさいする",
+      "headword": "{仲裁|ちゅうさい}する",
+      "label": "to mediate"
     }
   ],
   "metadata": {
     "created": "2026-02-28T07:56:39Z",
-    "modified": "2026-04-17T14:07:51Z",
+    "modified": "2026-09-02T04:01:36Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -162,7 +197,8 @@
       "domain": [
         "legal"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

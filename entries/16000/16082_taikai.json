@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "16082_taikai_ex1",
-      "japanese": "{退会|たいかい}{手続|てつづ}きをする。",
+      "japanese": "{退会|たいかい}⟦{手続|てつづ}き→手続き：05453_tetsuzuki⟧⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧。",
       "english": "To go through the withdrawal procedure.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "16082_taikai_ex2",
-      "japanese": "ジムを{退会|たいかい}したいのですが。",
+      "japanese": "⟦ジム→ジム：04735_jimu⟧⟦を→を：00422_wo⟧{退会|たいかい}⟦したい→する：00392_suru⟧⟦の→の：09472_no⟧です⟦が→が：00051_ga⟧。",
       "english": "I'd like to cancel my gym membership.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "16082_taikai_ex3",
-      "japanese": "{退会|たいかい}する{前|まえ}に、ポイントを{使|つか}い{切|き}ったほうがいいですよ。",
+      "japanese": "{退会|たいかい}⟦する→する：00392_suru⟧⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧、⟦ポイント→ポイント：11283_pointo⟧⟦を→を：00422_wo⟧⟦{使|つか}い{切|き}った→使い切る：11518_tsukaikiru⟧⟦ほうがいい→ほうがいい：10078_hougaii⟧です⟦よ→よ：09475_yo⟧。",
       "english": "You should use up your points before canceling your membership.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nCommonly used as a suru-verb ({退会|たいかい}する). Very common in modern contexts for canceling subscriptions, memberships, and online accounts. The opposite is {入会|にゅうかい} (joining, enrolling).\n\nCOMMON COLLOCATIONS:\n- {退会|たいかい}する (to withdraw, to cancel membership)\n- {退会|たいかい}{届|とどけ} (withdrawal notice/form)\n- {退会|たいかい}{手続|てつづ}き (withdrawal procedure)\n\nSIMILAR WORDS:\n- {脱退|だったい}: withdrawal, secession — more formal, often used for political parties or international organizations\n- {解約|かいやく}: cancellation (of a contract) — specifically for contracts and subscriptions",
+  "notes": "USAGE:\nCommonly used as a suru-verb ({退会|たいかい}⟦する→する：00392_suru⟧). Very common in modern contexts for canceling subscriptions, memberships, and online accounts. The opposite is ⟦{入会|にゅうかい}→入会：11671_nyuukai⟧ (joining, enrolling).\n\nCOMMON COLLOCATIONS:\n- {退会|たいかい}⟦する→する：00392_suru⟧ (to withdraw, to cancel membership)\n- {退会|たいかい}{届|とどけ} (withdrawal notice/form)\n- {退会|たいかい}⟦{手続|てつづ}き→手続き：05453_tetsuzuki⟧ (withdrawal procedure)\n\nSIMILAR WORDS:\n- ⟦{脱退|だったい}→脱退：05770_dattai⟧: withdrawal, secession — more formal, often used for political parties or international organizations\n- ⟦{解約|かいやく}→解約：06129_kaiyaku⟧: cancellation (of a contract) — specifically for contracts and subscriptions",
   "cross_references": [
     {
       "type": "synonym",
@@ -142,11 +142,46 @@
       "reading": "だったい",
       "headword": "{脱退|だったい}",
       "label": "withdrawal (formal, political)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06129_kaiyaku",
+      "reading": "かいやく",
+      "headword": "{解約|かいやく}",
+      "label": "cancellation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19799_taidan",
+      "reading": "たいだん",
+      "headword": "{退団|たいだん}",
+      "label": "leaving a group"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21010_taibu",
+      "reading": "たいぶ",
+      "headword": "{退部|たいぶ}",
+      "label": "leaving a club"
+    },
+    {
+      "type": "related",
+      "target_id": "22815_kaiintouroku",
+      "reading": "かいいんとうろく",
+      "headword": "{会員登録|かいいんとうろく}",
+      "label": "membership registration"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26135_dakkai",
+      "reading": "だっかい",
+      "headword": "{脱会|だっかい}",
+      "label": "withdrawal from an organization"
     }
   ],
   "metadata": {
     "created": "2026-03-09T12:20:25Z",
-    "modified": "2026-07-18T12:31:39Z",
+    "modified": "2026-09-02T04:01:43Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -159,7 +194,8 @@
       "semantic": [
         "society"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

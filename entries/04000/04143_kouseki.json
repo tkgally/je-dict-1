@@ -24,7 +24,7 @@
     },
     {
       "id": "04143_kouseki_ex2",
-      "japanese": "⟦{科学|かがく}→科学：01277_kagaku⟧への{功績|こうせき}⟦で→で：00502_de⟧ノーベル⟦{賞|しょう}→賞：03227_shou⟧⟦を→を：00422_wo⟧⟦{受賞|じゅしょう}した→受賞：11867_jushou⟧。",
+      "japanese": "⟦{科学|かがく}→科学：01277_kagaku⟧⟦へ→へ：02473_he⟧⟦の→の：09472_no⟧{功績|こうせき}⟦で→で：00502_de⟧ノーベル⟦{賞|しょう}→賞：03227_shou⟧⟦を→を：00422_wo⟧⟦{受賞|じゅしょう}した→受賞：11867_jushou⟧。",
       "english": "He received the Nobel Prize for his contributions to science.",
       "notes": null,
       "has_audio": false,
@@ -43,10 +43,40 @@
       ]
     }
   ],
-  "notes": "{功績|こうせき} refers to notable achievements, accomplishments, or contributions deserving recognition.\n\nWORD FORMATION:\n{功|こう} (merit) + {績|せき} (achievements) = meritorious achievements\n\nCOMMON EXPRESSIONS:\n- {功績|こうせき}を⟦{残|のこ}す→残す：01975_nokosu⟧: to leave behind achievements\n- {功績|こうせき}を⟦{認|みと}める→認める：02429_mitomeru⟧: to acknowledge achievements\n- {功績|こうせき}を⟦{称|たた}える→称える：13751_tataeru⟧: to praise achievements\n- ⟦{偉大|いだい}→偉大：01798_idai⟧な{功績|こうせき}: great achievements\n- {功績|こうせき}を⟦{挙|あ}げる→挙げる：27889_ageru⟧: to make contributions\n\nSIMILAR WORDS:\n- ⟦{業績|ぎょうせき}→業績：04873_gyouseki⟧: work achievements, performance\n- ⟦{実績|じっせき}→実績：04214_jisseki⟧: actual results, track record\n- ⟦{貢献|こうけん}→貢献：02737_kouken⟧: contribution",
+  "notes": "{功績|こうせき} refers to notable achievements, accomplishments, or contributions deserving recognition.\n\nFORMS:\n{功|こう} (merit) + {績|せき} (achievements) = meritorious achievements\n\nCOMMON EXPRESSIONS:\n- {功績|こうせき}⟦を→を：00422_wo⟧⟦{残|のこ}す→残す：01975_nokosu⟧: to leave behind achievements\n- {功績|こうせき}⟦を→を：00422_wo⟧⟦{認|みと}める→認める：02429_mitomeru⟧: to acknowledge achievements\n- {功績|こうせき}⟦を→を：00422_wo⟧⟦{称|たた}える→称える：13751_tataeru⟧: to praise achievements\n- ⟦{偉大|いだい}→偉大：01798_idai⟧な{功績|こうせき}: great achievements\n- {功績|こうせき}⟦を→を：00422_wo⟧⟦{挙|あ}げる→挙げる：27889_ageru⟧: to make contributions\n\nSIMILAR WORDS:\n- ⟦{業績|ぎょうせき}→業績：04873_gyouseki⟧: work achievements, performance\n- ⟦{実績|じっせき}→実績：04214_jisseki⟧: actual results, track record\n- ⟦{貢献|こうけん}→貢献：02737_kouken⟧: contribution",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04873_gyouseki",
+      "reading": "ぎょうせき",
+      "headword": "{業績|ぎょうせき}",
+      "label": "work achievements, performance"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04214_jisseki",
+      "reading": "じっせき",
+      "headword": "{実績|じっせき}",
+      "label": "actual results, track record"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02737_kouken",
+      "reading": "こうけん",
+      "headword": "{貢献|こうけん}",
+      "label": "contribution"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26262_sokuseki",
+      "reading": "そくせき",
+      "headword": "{足跡|そくせき}",
+      "label": "track record"
+    }
+  ],
   "metadata": {
     "created": "2026-01-13T14:00:49Z",
-    "modified": "2026-05-29T18:08:43Z",
+    "modified": "2026-09-02T04:01:04Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

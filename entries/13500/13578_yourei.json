@@ -15,41 +15,66 @@
   "examples": [
     {
       "id": "13578_yourei_ex1",
-      "japanese": "{辞書|じしょ}には{豊富|ほうふ}な{用例|ようれい}が{載|の}っている。",
+      "japanese": "⟦{辞書|じしょ}→辞書：04707_jisho⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{豊富|ほうふ}→豊富：03620_houfu⟧な{用例|ようれい}⟦が→が：00051_ga⟧⟦{載|の}っている→載る：27882_noru⟧。",
       "english": "The dictionary contains abundant usage examples.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13578_yourei_ex2",
-      "japanese": "{用例|ようれい}を{見|み}れば、{使|つか}い{方|かた}がよく{分|わ}かる。",
+      "japanese": "{用例|ようれい}⟦を→を：00422_wo⟧⟦{見|み}れば→見る：00283_miru⟧、⟦{使|つか}い{方|かた}→使い方：07797_tsukaikata⟧⟦が→が：00051_ga⟧⟦よく→よく：00601_yoku⟧⟦{分|わ}かる→分かる：00463_wakaru⟧。",
       "english": "If you look at the usage examples, you can easily understand how to use it.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13578_yourei_ex3",
-      "japanese": "この{文法書|ぶんぽうしょ}は{用例|ようれい}が{少|すく}ないので、{実際|じっさい}にどう{使|つか}うのか{分|わ}かりにくい。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{文法書|ぶんぽうしょ}→文法書：29307_bunpousho⟧⟦は→は：00079_ha⟧{用例|ようれい}⟦が→が：00051_ga⟧⟦{少|すく}ない→少ない：01136_sukunai⟧⟦の→の：09472_no⟧で、⟦{実際|じっさい}→実際：02502_jissai⟧⟦に→に：00314_ni⟧⟦どう→どう：00543_dou⟧⟦{使|つか}う→使う：00473_tsukau⟧⟦の→の：09472_no⟧⟦か→か：09473_ka⟧⟦{分|わ}かり→分かる：00463_wakaru⟧にくい。",
       "english": "This grammar book has few usage examples, so it's hard to understand how the items are actually used.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\n{用例|ようれい} refers specifically to examples that demonstrate how something is used in practice. Most commonly found in discussions about dictionaries, language learning materials, and technical documentation.\n\nCOMMON COLLOCATIONS:\n- {用例|ようれい}を{示|しめ}す (show usage examples)\n- {用例|ようれい}を{集|あつ}める (collect usage examples)\n- {豊富|ほうふ}な{用例|ようれい} (abundant examples)\n- {用例|ようれい}{検索|けんさく} (example search)\n\nSIMILAR WORDS:\n- {例文|れいぶん}: example sentence (specifically a sentence, often in language study)\n- {例|れい}: example (general, broader)\n- {実例|じつれい}: actual example, real-world case (emphasis on being from real situations)",
-  "cross_references": [],
+  "notes": "USAGE:\n{用例|ようれい} refers specifically to examples that demonstrate how something is used in practice. Most commonly found in discussions about dictionaries, language learning materials, and technical documentation.\n\nCOMMON COLLOCATIONS:\n- {用例|ようれい}⟦を→を：00422_wo⟧⟦{示|しめ}す→示す：01948_shimesu⟧ (show usage examples)\n- {用例|ようれい}⟦を→を：00422_wo⟧⟦{集|あつ}める→集める：01170_atsumeru⟧ (collect usage examples)\n- ⟦{豊富|ほうふ}→豊富：03620_houfu⟧な{用例|ようれい} (abundant examples)\n- {用例|ようれい}⟦{検索|けんさく}→検索：04729_kensaku⟧ (example search)\n\nSIMILAR WORDS:\n- ⟦{例文|れいぶん}→例文：19450_reibun⟧: example sentence (specifically a sentence, often in language study)\n- ⟦{例|れい}→例：09932_rei⟧: example (general, broader)\n- ⟦{実例|じつれい}→実例：04217_jitsurei⟧: actual example, real-world case (emphasis on being from real situations)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19450_reibun",
+      "reading": "れいぶん",
+      "headword": "{例文|れいぶん}",
+      "label": "example sentence"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04217_jitsurei",
+      "reading": "じつれい",
+      "headword": "{実例|じつれい}",
+      "label": "actual example, real-world case"
+    }
+  ],
   "metadata": {
     "created": "2026-02-25T14:35:52Z",
-    "modified": "2026-02-25T14:35:52Z",
+    "modified": "2026-09-02T04:01:33Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["education"]
+      "semantic": [
+        "education"
+      ]
     }
   }
 }

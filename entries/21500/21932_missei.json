@@ -3,7 +3,7 @@
   "headword": "{密生|みっせい}",
   "reading": "みっせい",
   "romaji": "missei",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "dense growth; growing thickly",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21932_missei_ex1",
-      "japanese": "{雑草|ざっそう}が{密生|みっせい}している。",
+      "japanese": "⟦{雑草|ざっそう}→雑草：04996_zassou⟧⟦が→が：00051_ga⟧{密生|みっせい}⟦している→する：00392_suru⟧。",
       "english": "Weeds are growing thickly.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21932_missei_ex2",
-      "japanese": "{苔|こけ}が{密生|みっせい}した{岩|いわ}の{表面|ひょうめん}は{滑|すべ}りやすい。",
+      "japanese": "⟦{苔|こけ}→苔：04991_koke⟧⟦が→が：00051_ga⟧{密生|みっせい}⟦した→する：00392_suru⟧⟦{岩|いわ}→岩：00850_iwa⟧⟦の→の：09472_no⟧⟦{表面|ひょうめん}→表面：03587_hyoumen⟧⟦は→は：00079_ha⟧⟦{滑|すべ}りやすい→滑りやすい：27611_suberiyasui⟧。",
       "english": "Rock surfaces with dense moss growth are slippery.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21932_missei_ex3",
-      "japanese": "この{森|もり}では{木|き}が{密生|みっせい}しているため、{日光|にっこう}がほとんど{地面|じめん}に{届|とど}かない。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{森|もり}→森：02260_mori⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{木|き}→木：00524_ki⟧⟦が→が：00051_ga⟧{密生|みっせい}⟦している→する：00392_suru⟧⟦ため→ため：01145_tame⟧、⟦{日光|にっこう}→日光：03515_nikkou⟧⟦が→が：00051_ga⟧⟦ほとんど→ほとんど：00847_hotondo⟧⟦{地面|じめん}→地面：00125_jimen⟧⟦に→に：00314_ni⟧⟦{届|とど}かない→届く：00899_todoku⟧。",
       "english": "In this forest, the trees grow so densely that almost no sunlight reaches the ground.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {密|みつ} (dense, thick) and {生|せい} (growth, life). Describes vegetation, hair, fur, or other organic matter growing in a tightly packed manner. Used both as a noun and as a suru verb ({密生|みっせい}する).\n\nCOMMON COLLOCATIONS:\n- {密生|みっせい}する: to grow densely\n- {密生|みっせい}した{森|もり}: a densely grown forest\n- {密生|みっせい}{地帯|ちたい}: area of dense growth\n\nSIMILAR WORDS:\n- {群生|ぐんせい}: growing in clusters — similar but emphasizes groups rather than density\n- {繁茂|はんも}: luxuriant growth — emphasizes thriving, vigorous growth\n- {密集|みっしゅう}: crowding together — used for both objects and people, not limited to plant growth",
+  "notes": "A compound of ⟦{密|みつ}→密：03777_mitsu⟧ (dense, thick) and {生|せい} (growth, life). Describes vegetation, hair, fur, or other organic matter growing in a tightly packed manner. Used both as a noun and as a suru verb ({密生|みっせい}⟦する→する：00392_suru⟧).\n\nCOMMON COLLOCATIONS:\n- {密生|みっせい}⟦する→する：00392_suru⟧: to grow densely\n- {密生|みっせい}⟦した→する：00392_suru⟧⟦{森|もり}→森：02260_mori⟧: a densely grown forest\n- {密生|みっせい}⟦{地帯|ちたい}→地帯：04057_chitai⟧: area of dense growth\n\nSIMILAR WORDS:\n- ⟦{群生|ぐんせい}→群生：21936_gunsei⟧: growing in clusters — similar but emphasizes groups rather than density\n- ⟦{繁茂|はんも}→繁茂：17007_hanmo⟧: luxuriant growth — emphasizes thriving, vigorous growth\n- ⟦{密集|みっしゅう}→密集：12342_misshuu⟧: crowding together — used for both objects and people, not limited to plant growth",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21936_gunsei",
+      "reading": "ぐんせい",
+      "headword": "{群生|ぐんせい}",
+      "label": "growing in clusters"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17007_hanmo",
+      "reading": "はんも",
+      "headword": "{繁茂|はんも}",
+      "label": "luxuriant growth"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12342_misshuu",
+      "reading": "みっしゅう",
+      "headword": "{密集|みっしゅう}",
+      "label": "crowding together"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -58,10 +81,11 @@
       "semantic": [
         "nature"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     },
     "created": "2026-04-03T22:09:18Z",
-    "modified": "2026-04-03T22:09:18Z"
+    "modified": "2026-09-02T04:02:05Z"
   },
   "conjugation": {
     "type": "suru",

@@ -2,7 +2,7 @@
   "id": "07515_motamota",
   "headword": "もたもた",
   "reading": "もたもた",
-  "part_of_speech": "adverb, verb (suru)",
+  "part_of_speech": "adverb, suru verb",
   "gloss": "slowly; sluggishly; dilly-dallying",
   "conjugation": {
     "type": "suru",
@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "07515_motamota_ex1",
-      "japanese": "もたもたしてると{遅刻|ちこく}するよ。",
+      "japanese": "もたもたしてる⟦と→と：00512_to⟧⟦{遅刻|ちこく}する→遅刻する：22282_chikokusuru⟧⟦よ→よ：09475_yo⟧。",
       "english": "If you keep dilly-dallying, you'll be late.",
       "has_audio": false,
       "sense_numbers": [
@@ -113,7 +113,7 @@
     },
     {
       "id": "07515_motamota_ex2",
-      "japanese": "もたもたしないで{早|はや}く{準備|じゅんび}して。",
+      "japanese": "もたもた⟦しないで→する：00392_suru⟧⟦{早|はや}く→早い：00514_hayai⟧⟦{準備|じゅんび}して→準備する：22427_junbisuru⟧。",
       "english": "Stop dawdling and get ready quickly.",
       "has_audio": false,
       "sense_numbers": [
@@ -122,7 +122,7 @@
     },
     {
       "id": "07515_motamota_ex3",
-      "japanese": "{彼|かれ}のもたもたした{動|うご}きにイライラした。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧もたもた⟦した→する：00392_suru⟧⟦{動|うご}き→動き：11926_ugoki⟧⟦に→に：00314_ni⟧イライラ⟦した→する：00392_suru⟧。",
       "english": "I got irritated by his sluggish movements.",
       "has_audio": false,
       "sense_numbers": [
@@ -130,7 +130,7 @@
       ]
     }
   ],
-  "notes": "MIMETIC TYPE:\nOnomatopoeia expressing slow, inefficient movement or action.\n\nGRAMMATICAL FORMS:\n・もたもたする - to dawdle, be slow (suru-verb)\n・もたもた（と）{動|うご}く - to move sluggishly\n・もたもたした - sluggish (adjectival)\n\nNUANCE:\nUsually carries a negative connotation, implying the person is being annoyingly slow or wasting time. Often used when urging someone to hurry.\n\nSIMILAR EXPRESSIONS:\n・ぐずぐずする - to dawdle, procrastinate\n・のろのろ - slowly (more neutral)\n・てきぱき - briskly, efficiently (opposite)",
+  "notes": "MIMETIC TYPE:\nOnomatopoeia expressing slow, inefficient movement or action.\n\nGRAMMATICAL FORMS:\n- もたもた⟦する→する：00392_suru⟧ - to dawdle, be slow (suru-verb)\n- もたもた（⟦と→と：00512_to⟧）⟦{動|うご}く→動く：00904_ugoku⟧ - to move sluggishly\n- もたもた⟦した→する：00392_suru⟧ - sluggish (adjectival)\n\nUSAGE:\nUsually carries a negative connotation, implying the person is being annoyingly slow or wasting time. Often used when urging someone to hurry.\n\nSIMILAR WORDS:\n- ⟦ぐずぐずする→ぐずぐずする：25850_guzuguzusuru⟧ - to dawdle, procrastinate\n- ⟦のろのろ→のろのろ：05162_noronoro⟧ - slowly (more neutral)\n- ⟦てきぱき→てきぱき：05649_tekipaki⟧ - briskly, efficiently (opposite)",
   "cross_references": [
     {
       "type": "synonym",
@@ -152,11 +152,18 @@
       "reading": "てきぱき",
       "headword": "てきぱき",
       "label": "briskly, efficiently"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25850_guzuguzusuru",
+      "reading": "ぐずぐずする",
+      "headword": "ぐずぐずする",
+      "label": "to dawdle, procrastinate"
     }
   ],
   "metadata": {
     "created": "2026-01-20T08:19:38Z",
-    "modified": "2026-04-18T08:05:14Z",
+    "modified": "2026-09-02T04:01:11Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -165,6 +172,7 @@
         "verb-suru"
       ],
       "formality": "informal",
+      "politeness": "plain",
       "semantic": [
         "descriptive"
       ],

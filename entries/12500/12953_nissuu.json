@@ -15,41 +15,60 @@
   "examples": [
     {
       "id": "12953_nissuu_ex1",
-      "japanese": "{工事|こうじ}の{日数|にっすう}は{約|やく}30{日|にち}だ。",
+      "japanese": "⟦{工事|こうじ}→工事：00244_kouji⟧⟦の→の：09472_no⟧{日数|にっすう}⟦は→は：00079_ha⟧⟦{約|やく}→約：09563_yaku⟧30⟦{日|にち}→日：12732_nichi⟧だ。",
       "english": "The number of days for the construction is about 30.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12953_nissuu_ex2",
-      "japanese": "{配達|はいたつ}までの{日数|にっすう}は{地域|ちいき}によって{異|こと}なります。",
+      "japanese": "⟦{配達|はいたつ}→配達：00084_haitatsu⟧⟦まで→まで：00490_made⟧⟦の→の：09472_no⟧{日数|にっすう}⟦は→は：00079_ha⟧⟦{地域|ちいき}→地域：01461_chiiki⟧⟦によって→によって：06801_niyotte⟧⟦{異|こと}なります→異なる：02101_kotonaru⟧。",
       "english": "The number of days until delivery varies by region.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12953_nissuu_ex3",
-      "japanese": "{有給休暇|ゆうきゅうきゅうか}の{残|のこ}り{日数|にっすう}を{確認|かくにん}してから{申請|しんせい}してください。",
+      "japanese": "⟦{有給休暇|ゆうきゅうきゅうか}→有給休暇：06996_yuukyuukyuuka⟧⟦の→の：09472_no⟧⟦{残|のこ}り→残り：01622_nokori⟧{日数|にっすう}⟦を→を：00422_wo⟧⟦{確認|かくにん}して→確認する：25332_kakuninsuru⟧⟦から→から：00504_kara⟧⟦{申請|しんせい}して→申請する：25228_shinseisuru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please check the remaining number of paid leave days before applying.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nUsed to express the total count of days for a duration or process. Common in administrative, business, and logistics contexts. Often modified by adjectives or used in calculations.\n\nCOMMON COLLOCATIONS:\n- {日数|にっすう}がかかる: to take a number of days\n- {所要|しょよう}{日数|にっすう}: required number of days\n- {残|のこ}り{日数|にっすう}: remaining days\n- {営業|えいぎょう}{日数|にっすう}: number of business days\n\nSIMILAR WORDS:\n- {日|ひ}にち: days (general, less formal)\n- {期間|きかん}: period, duration\n- {工期|こうき}: construction period",
-  "cross_references": [],
+  "notes": "USAGE:\nUsed to express the total count of days for a duration or process. Common in administrative, business, and logistics contexts. Often modified by adjectives or used in calculations.\n\nCOMMON COLLOCATIONS:\n- {日数|にっすう}⟦が→が：00051_ga⟧⟦かかる→かかる：00711_kakaru⟧: to take a number of days\n- {所要|しょよう}{日数|にっすう}: required number of days\n- ⟦{残|のこ}り→残り：01622_nokori⟧{日数|にっすう}: remaining days\n- {営業|えいぎょう}{日数|にっすう}: number of business days\n\nSIMILAR WORDS:\n- {日|ひ}にち: days (general, less formal)\n- ⟦{期間|きかん}→期間：00229_kikan⟧: period, duration\n- {工期|こうき}: construction period",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00229_kikan",
+      "reading": "きかん",
+      "headword": "{期間|きかん}",
+      "label": "period, duration"
+    }
+  ],
   "metadata": {
     "created": "2026-02-22T23:37:45Z",
-    "modified": "2026-02-22T23:37:45Z",
+    "modified": "2026-09-02T04:01:31Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["time-general", "quantity"]
+      "semantic": [
+        "time-general",
+        "quantity"
+      ]
     }
   }
 }

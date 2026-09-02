@@ -15,40 +15,60 @@
   "examples": [
     {
       "id": "24259_denwabokkusu_ex1",
-      "japanese": "{電話|でんわ}ボックスで{電話|でんわ}をかけた。",
+      "japanese": "{電話|でんわ}ボックス⟦で→で：00502_de⟧⟦{電話|でんわ}→電話：01471_denwa⟧⟦を→を：00422_wo⟧⟦かけた→かける：00854_kakeru⟧。",
       "english": "I made a call from a phone booth.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "24259_denwabokkusu_ex2",
-      "japanese": "{最近|さいきん}は{電話|でんわ}ボックスを{見|み}かけなくなった。",
+      "japanese": "⟦{最近|さいきん}→最近：00881_saikin⟧⟦は→は：00079_ha⟧{電話|でんわ}ボックス⟦を→を：00422_wo⟧⟦{見|み}かけなく→見かける：01644_mikakeru⟧⟦なった→なる：01970_naru⟧。",
       "english": "You don't see phone booths much anymore these days.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "24259_denwabokkusu_ex3",
-      "japanese": "{災害時|さいがいじ}には{携帯|けいたい}がつながらなくなるので、{電話|でんわ}ボックスの{場所|ばしょ}を{知|し}っておくとよい。",
+      "japanese": "{災害時|さいがいじ}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{携帯|けいたい}→携帯：00715_keitai⟧⟦が→が：00051_ga⟧つながらなくなる⟦の→の：09472_no⟧で、{電話|でんわ}ボックス⟦の→の：09472_no⟧⟦{場所|ばしょ}→場所：00829_basho⟧⟦を→を：00422_wo⟧⟦{知|し}って→知る：00458_shiru⟧おく⟦と→と：00512_to⟧よい。",
       "english": "Since mobile phones can lose signal during disasters, it's good to know where phone booths are.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Compound of {電話|でんわ} ('telephone') and ボックス ('box'). Japan's phone booths are gradually disappearing — NTT has been reducing the number of public phones from a peak of over 900,000 in the 1980s. However, they are maintained at certain densities for disaster preparedness, as they connect through landlines that remain functional when mobile networks are overloaded.\n\nCULTURAL NOTE:\n- Japanese phone booths appear frequently in films, anime, and manga as dramatic settings\n- Some decommissioned phone booths have been converted into art installations, aquariums, or book exchanges\n- The {風|かぜ}の{電話|でんわ} ('wind telephone') in {岩手県|いわてけん} — a disconnected phone booth for people to speak to deceased loved ones — became famous after the 2011 earthquake\n\nCOMMON COLLOCATIONS:\n- {電話|でんわ}ボックスに{入|はい}る: to step into a phone booth\n- {電話|でんわ}ボックスが{撤去|てっきょ}される: phone booths are removed\n- {公衆|こうしゅう}{電話|でんわ}ボックス: public phone booth\n\nSIMILAR WORDS:\n- {公衆電話|こうしゅうでんわ}: public telephone — refers to the phone itself rather than the enclosure\n- テレホンボックス: telephone box — an alternative loanword, less common than {電話|でんわ}ボックス",
+  "notes": "Compound of ⟦{電話|でんわ}→電話：01471_denwa⟧ ('telephone') and ⟦ボックス→ボックス：30522_bokkusu⟧ ('box'). Japan's phone booths are gradually disappearing — NTT has been reducing the number of public phones from a peak of over 900,000 in the 1980s. However, they are maintained at certain densities for disaster preparedness, as they connect through landlines that remain functional when mobile networks are overloaded.\n\nCULTURAL NOTE:\n- Japanese phone booths appear frequently in films, anime, and manga as dramatic settings\n- Some decommissioned phone booths have been converted into art installations, aquariums, or book exchanges\n- The ⟦{風|かぜ}→風：00641_kaze⟧⟦の→の：09472_no⟧⟦{電話|でんわ}→電話：01471_denwa⟧ ('wind telephone') in {岩手県|いわてけん} — a disconnected phone booth for people to speak to deceased loved ones — became famous after the 2011 earthquake\n\nCOMMON COLLOCATIONS:\n- {電話|でんわ}ボックス⟦に→に：00314_ni⟧⟦{入|はい}る→入る：00494_hairu⟧: to step into a phone booth\n- {電話|でんわ}ボックス⟦が→が：00051_ga⟧⟦{撤去|てっきょ}される→撤去する：21321_tekkyosuru⟧: phone booths are removed\n- ⟦{公衆|こうしゅう}→公衆：11660_koushuu⟧{電話|でんわ}ボックス: public phone booth\n\nSIMILAR WORDS:\n- ⟦{公衆電話|こうしゅうでんわ}→公衆電話：16108_koushuudenwa⟧: public telephone — refers to the phone itself rather than the enclosure\n- テレホン⟦ボックス→ボックス：30522_bokkusu⟧: telephone box — an alternative loanword, less common than {電話|でんわ}ボックス",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16108_koushuudenwa",
+      "reading": "こうしゅうでんわ",
+      "headword": "{公衆電話|こうしゅうでんわ}",
+      "label": "public telephone"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["building", "electronics"]
+      "semantic": [
+        "building",
+        "electronics"
+      ]
     },
     "created": "2026-04-18T11:28:49Z",
-    "modified": "2026-04-18T11:28:49Z"
+    "modified": "2026-09-02T04:02:17Z"
   }
 }

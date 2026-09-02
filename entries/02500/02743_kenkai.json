@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "02743_kenkai_ex1",
-      "japanese": "⟦{政府|せいふ}→政府：03294_seifu⟧⟦の→の：09472_no⟧⟦{公式|こうしき}→公式：04167_koushiki⟧{見解|けんかい}⟦を→を：00422_wo⟧⟦{発表|はっぴょう}→発表：03562_happyou⟧した。",
+      "japanese": "⟦{政府|せいふ}→政府：03294_seifu⟧⟦の→の：09472_no⟧⟦{公式|こうしき}→公式：04167_koushiki⟧{見解|けんかい}⟦を→を：00422_wo⟧⟦{発表|はっぴょう}→発表：03562_happyou⟧⟦した→する：00392_suru⟧。",
       "english": "They announced the government's official view.",
       "notes": null,
       "has_audio": false,
@@ -53,7 +53,7 @@
       ]
     }
   ],
-  "notes": "{見解|けんかい} is a formal word for opinion or view.\n\nCOMMON PATTERNS:\n- {見解|けんかい}⟦を→を：00422_wo⟧⟦{述|の}べる→述べる：02389_noberu⟧ (to express an opinion)\n- {見解|けんかい}⟦を→を：00422_wo⟧⟦{示|しめ}す→示す：01948_shimesu⟧ (to show one's view)\n- {見解|けんかい}⟦が→が：00051_ga⟧⟦{分|わ}かれる→分かれる：10976_wakareru⟧ (opinions are divided)\n- {見解|けんかい}⟦を→を：00422_wo⟧⟦{求|もと}める→求める：02316_motomeru⟧ (to seek an opinion)\n\nCOLLOCATIONS:\n- ⟦{公式|こうしき}→公式：04167_koushiki⟧{見解|けんかい} (official view)\n- ⟦{個人|こじん}{的|てき}→個人的：04788_kojinteki⟧{見解|けんかい} (personal opinion)\n- ⟦{統一|とういつ}→統一：04551_touitsu⟧{見解|けんかい} (unified view)\n\nSIMILAR WORDS:\n- {見解|けんかい}: formal opinion (often official or expert)\n- ⟦{意見|いけん}→意見：01303_iken⟧: opinion (general, everyday)\n- ⟦{考|かんが}え→考え：00855_kangae⟧: thoughts, thinking (personal)",
+  "notes": "{見解|けんかい} is a formal word for opinion or view.\n\nCOMMON PATTERNS:\n- {見解|けんかい}⟦を→を：00422_wo⟧⟦{述|の}べる→述べる：02389_noberu⟧ (to express an opinion)\n- {見解|けんかい}⟦を→を：00422_wo⟧⟦{示|しめ}す→示す：01948_shimesu⟧ (to show one's view)\n- {見解|けんかい}⟦が→が：00051_ga⟧⟦{分|わ}かれる→分かれる：10976_wakareru⟧ (opinions are divided)\n- {見解|けんかい}⟦を→を：00422_wo⟧⟦{求|もと}める→求める：02316_motomeru⟧ (to seek an opinion)\n\nCOMMON COLLOCATIONS:\n- ⟦{公式|こうしき}→公式：04167_koushiki⟧{見解|けんかい} (official view)\n- ⟦{個人|こじん}{的|てき}→個人的：04788_kojinteki⟧{見解|けんかい} (personal opinion)\n- ⟦{統一|とういつ}→統一：04551_touitsu⟧{見解|けんかい} (unified view)\n\nSIMILAR WORDS:\n- {見解|けんかい}: formal opinion (often official or expert)\n- ⟦{意見|いけん}→意見：01303_iken⟧: opinion (general, everyday)\n- ⟦{考|かんが}え→考え：00855_kangae⟧: thoughts, thinking (personal)",
   "cross_references": [
     {
       "type": "synonym",
@@ -61,11 +61,25 @@
       "reading": "いけん",
       "headword": "{意見|いけん}",
       "label": "opinion (general)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00855_kangae",
+      "reading": "かんがえ",
+      "headword": "{考|かんが}え",
+      "label": "thoughts, thinking"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30285_shiken",
+      "reading": "しけん",
+      "headword": "{私見|しけん}",
+      "label": "one's personal opinion"
     }
   ],
   "metadata": {
     "created": "2026-01-11T07:47:45Z",
-    "modified": "2026-05-21T22:21:32Z",
+    "modified": "2026-09-02T04:01:02Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

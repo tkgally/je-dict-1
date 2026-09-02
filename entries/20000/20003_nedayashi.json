@@ -15,40 +15,66 @@
   "examples": [
     {
       "id": "20003_nedayashi_ex1",
-      "japanese": "{一族|いちぞく}を{根絶|ねだ}やしにする。",
+      "japanese": "⟦{一族|いちぞく}→一族：11229_ichizoku⟧⟦を→を：00422_wo⟧{根絶|ねだ}やし⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧。",
       "english": "To wipe out an entire clan.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20003_nedayashi_ex2",
-      "japanese": "{害虫|がいちゅう}を{根絶|ねだ}やしにするのは{難|むずか}しい。",
+      "japanese": "⟦{害虫|がいちゅう}→害虫：06430_gaichuu⟧⟦を→を：00422_wo⟧{根絶|ねだ}やし⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧⟦の→の：09472_no⟧⟦は→は：00079_ha⟧⟦{難|むずか}しい→難しい：00517_muzukashii⟧。",
       "english": "It is difficult to completely eradicate pests.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20003_nedayashi_ex3",
-      "japanese": "{戦争|せんそう}で{村|むら}は{根絶|ねだ}やしにされ、{生|い}き{残|のこ}った{者|もの}はほとんどいなかった。",
+      "japanese": "⟦{戦争|せんそう}→戦争：01450_sensou⟧⟦で→で：00502_de⟧⟦{村|むら}→村：02261_mura⟧⟦は→は：00079_ha⟧{根絶|ねだ}やし⟦に→に：00314_ni⟧⟦され→する：00392_suru⟧、⟦{生|い}き{残|のこ}った→生き残る：13521_ikinokoru⟧⟦{者|もの}→者：12734_mono⟧⟦は→は：00079_ha⟧⟦ほとんど→ほとんど：00847_hotondo⟧⟦いなかった→いる：00495_iru⟧。",
       "english": "The village was wiped out in the war, and hardly anyone survived.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {根|ね} (root) and {絶|た}やし (extinguishing, from {絶|た}やす — to cut off). The image is of pulling up every root so nothing can grow back. A vivid, strong word implying total and merciless destruction.\n\nUSAGE:\nAlmost always used in the pattern ～を{根絶|ねだ}やしにする (to wipe out ~). Carries a harsh, dramatic tone. Common in historical narratives, war contexts, and figurative usage about completely eliminating something.\n\nCOMMON COLLOCATIONS:\n- {根絶|ねだ}やしにする — to eradicate, to wipe out\n- {根絶|ねだ}やしにされる — to be wiped out\n- {一族|いちぞく}の{根絶|ねだ}やし — extermination of a clan\n\nSIMILAR WORDS:\n- {根絶|こんぜつ} — eradication (more formal, often for diseases or social problems)\n- {全滅|ぜんめつ} — annihilation, total destruction (military/group destruction)\n- {撲滅|ぼくめつ} — eradication, stamping out (of crime, disease)",
+  "notes": "A compound of ⟦{根|ね}→根：03525_ne⟧ (root) and ⟦{絶|た}やし→絶やす：15895_tayasu⟧ (extinguishing, from ⟦{絶|た}やす→絶やす：15895_tayasu⟧ — to cut off). The image is of pulling up every root so nothing can grow back. A vivid, strong word implying total and merciless destruction.\n\nUSAGE:\nAlmost always used in the pattern ～⟦を→を：00422_wo⟧{根絶|ねだ}やし⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧ (to wipe out ~). Carries a harsh, dramatic tone. Common in historical narratives, war contexts, and figurative usage about completely eliminating something.\n\nCOMMON COLLOCATIONS:\n- {根絶|ねだ}やし⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧ — to eradicate, to wipe out\n- {根絶|ねだ}やし⟦に→に：00314_ni⟧⟦される→する：00392_suru⟧ — to be wiped out\n- ⟦{一族|いちぞく}→一族：11229_ichizoku⟧⟦の→の：09472_no⟧{根絶|ねだ}やし — extermination of a clan\n\nSIMILAR WORDS:\n- ⟦{根絶|こんぜつ}→根絶：18244_konzetsu⟧ — eradication (more formal, often for diseases or social problems)\n- ⟦{全滅|ぜんめつ}→全滅：11638_zenmetsu⟧ — annihilation, total destruction (military/group destruction)\n- ⟦{撲滅|ぼくめつ}→撲滅：19614_bokumetsu⟧ — eradication, stamping out (of crime, disease)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11638_zenmetsu",
+      "reading": "ぜんめつ",
+      "headword": "{全滅|ぜんめつ}",
+      "label": "annihilation, total destruction"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19614_bokumetsu",
+      "reading": "ぼくめつ",
+      "headword": "{撲滅|ぼくめつ}",
+      "label": "eradication, stamping out"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action"]
+      "semantic": [
+        "action"
+      ]
     },
     "created": "2026-03-28T04:34:49Z",
-    "modified": "2026-03-28T04:34:49Z"
+    "modified": "2026-09-02T04:01:58Z"
   }
 }

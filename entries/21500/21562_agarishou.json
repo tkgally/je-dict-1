@@ -15,40 +15,74 @@
   "examples": [
     {
       "id": "21562_agarishou_ex1",
-      "japanese": "{私|わたし}はあがり{症|しょう}だ。",
+      "japanese": "⟦{私|わたし}→私：02988_watashi⟧⟦は→は：00079_ha⟧あがり{症|しょう}だ。",
       "english": "I have stage fright.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21562_agarishou_ex2",
-      "japanese": "あがり{症|しょう}を{克服|こくふく}したい。",
+      "japanese": "あがり{症|しょう}⟦を→を：00422_wo⟧⟦{克服|こくふく}→克服：02805_kokufuku⟧⟦したい→する：00392_suru⟧。",
       "english": "I want to overcome my stage fright.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21562_agarishou_ex3",
-      "japanese": "あがり{症|しょう}なので、{大勢|おおぜい}の{前|まえ}でスピーチするのがとても{苦手|にがて}だ。",
+      "japanese": "あがり{症|しょう}な⟦の→の：09472_no⟧で、⟦{大勢|おおぜい}→大勢：02850_oozei⟧⟦の→の：09472_no⟧⟦{前|まえ}→前：02255_mae⟧⟦で→で：00502_de⟧⟦スピーチ→スピーチ：03852_supiichi⟧⟦する→する：00392_suru⟧⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦とても→とても：00593_totemo⟧⟦{苦手|にがて}→苦手：03513_nigate⟧だ。",
       "english": "Since I have stage fright, I'm very bad at giving speeches in front of a large audience.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of あがる (to get nervous, to freeze up) and {症|しょう} (condition, tendency). Describes a habitual tendency to become nervous in social performance situations.\n\nCOMMON COLLOCATIONS:\n- あがり{症|しょう}を{克服|こくふく}する: to overcome stage fright\n- あがり{症|しょう}を{治|なお}す: to cure one's stage fright\n- ひどいあがり{症|しょう}: severe stage fright\n- あがり{症|しょう}の{人|ひと}: a person with stage fright\n\nUSAGE:\nCan be used both as a noun describing the condition (あがり{症|しょう}を{克服|こくふく}する) and as a predicate describing a person ({私|わたし}はあがり{症|しょう}だ). As a na-adjective modifier: あがり{症|しょう}な{人|ひと}.\n\nSIMILAR WORDS:\n- {緊張|きんちょう}: nervousness, tension — a temporary state, not a habitual trait\n- あがり{症|しょう}: stage fright — a personality trait or habitual tendency\n- {人見知|ひとみし}り: shyness around strangers — nervousness with unfamiliar people specifically",
+  "notes": "Composed of ⟦あがる→あがる：17309_agaru⟧ (to get nervous, to freeze up) and {症|しょう} (condition, tendency). Describes a habitual tendency to become nervous in social performance situations.\n\nCOMMON COLLOCATIONS:\n- あがり{症|しょう}⟦を→を：00422_wo⟧⟦{克服|こくふく}する→克服する：15863_kokufukusuru⟧: to overcome stage fright\n- あがり{症|しょう}⟦を→を：00422_wo⟧⟦{治|なお}す→治す：19371_naosu⟧: to cure one's stage fright\n- ⟦ひどい→ひどい：01097_hidoi⟧あがり{症|しょう}: severe stage fright\n- あがり{症|しょう}⟦の→の：09472_no⟧⟦{人|ひと}→人：00476_hito⟧: a person with stage fright\n\nUSAGE:\nCan be used both as a noun describing the condition (あがり{症|しょう}⟦を→を：00422_wo⟧⟦{克服|こくふく}する→克服する：15863_kokufukusuru⟧) and as a predicate describing a person (⟦{私|わたし}→私：02988_watashi⟧⟦は→は：00079_ha⟧あがり{症|しょう}だ). As a na-adjective modifier: あがり{症|しょう}な⟦{人|ひと}→人：00476_hito⟧.\n\nSIMILAR WORDS:\n- ⟦{緊張|きんちょう}→緊張：02494_kinchou⟧: nervousness, tension — a temporary state, not a habitual trait\n- あがり{症|しょう}: stage fright — a personality trait or habitual tendency\n- ⟦{人見知|ひとみし}り→人見知り：06622_hitomishiri⟧: shyness around strangers — nervousness with unfamiliar people specifically",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02494_kinchou",
+      "reading": "きんちょう",
+      "headword": "{緊張|きんちょう}",
+      "label": "nervousness, tension"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06622_hitomishiri",
+      "reading": "ひとみしり",
+      "headword": "{人見知|ひとみし}り",
+      "label": "shyness around strangers"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26521_butaikyoufushou",
+      "reading": "ぶたいきょうふしょう",
+      "headword": "{舞台|ぶたい}{恐怖症|きょうふしょう}",
+      "label": "stage fright"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["emotion", "personality"]
+      "semantic": [
+        "emotion",
+        "personality"
+      ]
     },
     "created": "2026-04-02T16:18:02Z",
-    "modified": "2026-07-26T03:19:02Z"
+    "modified": "2026-09-02T04:02:04Z"
   }
 }

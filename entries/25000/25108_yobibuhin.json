@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25108_yobibuhin_ex1",
-      "japanese": "{予備部品|よびぶひん}を{注文|ちゅうもん}した。",
+      "japanese": "{予備部品|よびぶひん}⟦を→を：00422_wo⟧⟦{注文|ちゅうもん}した→注文する：21390_chuumon⟧。",
       "english": "I ordered a spare part.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25108_yobibuhin_ex2",
-      "japanese": "{予備部品|よびぶひん}がないと{修理|しゅうり}できない。",
+      "japanese": "{予備部品|よびぶひん}⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧⟦と→と：00512_to⟧⟦{修理|しゅうり}→修理：03214_shuuri⟧⟦できない→できる：00557_dekiru⟧。",
       "english": "Without spare parts, the repair can't be done.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25108_yobibuhin_ex3",
-      "japanese": "{古|ふる}い{車|くるま}は{予備部品|よびぶひん}の{入手|にゅうしゅ}が{難|むずか}しくなるので、{維持|いじ}するのが{大変|たいへん}だ。",
+      "japanese": "⟦{古|ふる}い→古い：00488_furui⟧⟦{車|くるま}→車：00516_kuruma⟧⟦は→は：00079_ha⟧{予備部品|よびぶひん}⟦の→の：09472_no⟧⟦{入手|にゅうしゅ}→入手：11636_nyuushu⟧⟦が→が：00051_ga⟧⟦{難|むずか}しく→難しい：00517_muzukashii⟧⟦なる→なる：01970_naru⟧⟦の→の：09472_no⟧で、⟦{維持|いじ}する→維持する：17311_ijisuru⟧⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦{大変|たいへん}→大変：00594_taihen⟧だ。",
       "english": "Old cars are hard to maintain because spare parts become difficult to obtain.",
       "sense_numbers": [
         1
@@ -44,20 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "Combines {予備|よび} (reserve, spare) and {部品|ぶひん} (parts, components). Used in automotive, industrial, electronics, and general maintenance contexts. The shortened form スペア{部品|ぶひん} or スペアパーツ is also used.\n\nCOMMON COLLOCATIONS:\n- {予備部品|よびぶひん}を{確保|かくほ}する: to secure spare parts\n- {予備部品|よびぶひん}の{在庫|ざいこ}: spare parts inventory\n- {予備部品|よびぶひん}を{交換|こうかん}する: to replace with a spare part\n- {純正|じゅんせい}{予備部品|よびぶひん}: genuine spare parts\n\nSIMILAR WORDS:\n- {交換部品|こうかんぶひん}: replacement part — a part specifically for swapping out\n- {消耗品|しょうもうひん}: consumable — items that wear out with regular use\n- スペアパーツ: spare parts — the English loanword version\n- {部品|ぶひん}: parts, components — the general term",
+  "notes": "Combines ⟦{予備|よび}→予備：03993_yobi⟧ (reserve, spare) and ⟦{部品|ぶひん}→部品：00020_buhin⟧ (parts, components). Used in automotive, industrial, electronics, and general maintenance contexts. The shortened form スペア⟦{部品|ぶひん}→部品：00020_buhin⟧ or スペア⟦パーツ→パーツ：11272_paatsu⟧ is also used.\n\nCOMMON COLLOCATIONS:\n- {予備部品|よびぶひん}⟦を→を：00422_wo⟧⟦{確保|かくほ}→確保：13681_kakuho⟧⟦する→する：00392_suru⟧: to secure spare parts\n- {予備部品|よびぶひん}⟦の→の：09472_no⟧⟦{在庫|ざいこ}→在庫：04701_zaiko⟧: spare parts inventory\n- {予備部品|よびぶひん}⟦を→を：00422_wo⟧⟦{交換|こうかん}→交換：02746_koukan⟧⟦する→する：00392_suru⟧: to replace with a spare part\n- ⟦{純正|じゅんせい}→純正：21689_junsei⟧{予備部品|よびぶひん}: genuine spare parts\n\nSIMILAR WORDS:\n- ⟦{交換部品|こうかんぶひん}→交換部品：26115_koukanbuhin⟧: replacement part — a part specifically for swapping out\n- ⟦{消耗品|しょうもうひん}→消耗品：09548_shoumouhin⟧: consumable — items that wear out with regular use\n- スペア⟦パーツ→パーツ：11272_paatsu⟧: spare parts — the English loanword version\n- ⟦{部品|ぶひん}→部品：00020_buhin⟧: parts, components — the general term",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "26115_koukanbuhin",
+      "reading": "こうかんぶひん",
+      "headword": "{交換|こうかん}{部品|ぶひん}",
+      "label": "replacement part"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09548_shoumouhin",
+      "reading": "しょうもうひん",
+      "headword": "{消耗品|しょうもうひん}",
+      "label": "consumable"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "tool",
         "business"
       ]
     },
     "created": "2026-04-22T14:47:09Z",
-    "modified": "2026-08-04T12:59:53Z"
+    "modified": "2026-09-02T04:02:21Z"
   }
 }

@@ -19,7 +19,7 @@
   "examples": [
     {
       "id": "09492_sozai_ex1",
-      "japanese": "⟦この→この：00962_kono⟧{素材|そざい}⟦は→は：00079_ha⟧{軽|かる}い。",
+      "japanese": "⟦この→この：00962_kono⟧{素材|そざい}⟦は→は：00079_ha⟧⟦{軽|かる}い→軽い：00785_karui⟧。",
       "english": "This material is light.",
       "has_audio": false,
       "sense_numbers": [
@@ -28,7 +28,7 @@
     },
     {
       "id": "09492_sozai_ex2",
-      "japanese": "{天然|てんねん}{素材|そざい}⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧。",
+      "japanese": "⟦{天然|てんねん}→天然：03560_tennen⟧{素材|そざい}⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧。",
       "english": "To use natural materials.",
       "has_audio": false,
       "sense_numbers": [
@@ -37,7 +37,7 @@
     },
     {
       "id": "09492_sozai_ex3",
-      "japanese": "{小説|しょうせつ}⟦の→の：09472_no⟧{素材|そざい}⟦を→を：00422_wo⟧{集|あつ}める。",
+      "japanese": "⟦{小説|しょうせつ}→小説：01434_shousetsu⟧⟦の→の：09472_no⟧{素材|そざい}⟦を→を：00422_wo⟧⟦{集|あつ}める→集める：01170_atsumeru⟧。",
       "english": "To gather material for a novel.",
       "has_audio": false,
       "sense_numbers": [
@@ -45,7 +45,7 @@
       ]
     }
   ],
-  "notes": "{素材|そざい} refers to the basic substance or raw material from which something is made, or the source material for creative work.\n\nSENSE 1 - PHYSICAL MATERIAL:\n- {天然|てんねん}{素材|そざい} (natural material)\n- {合成|ごうせい}{素材|そざい} (synthetic material)\n- {素材|そざい}がいい (good quality material)\n- {素材|そざい}の{味|あじ}を{生|い}かす (bring out the natural flavor of ingredients)\n\nSENSE 2 - SOURCE MATERIAL:\n- {映画|えいが}の{素材|そざい} (material for a film)\n- {作品|さくひん}の{素材|そざい} (subject matter for a work)\n- {素材|そざい}を{集|あつ}める (gather material)\n\nSIMILAR WORDS:\n- {材料|ざいりょう}: more concrete, refers to specific materials or ingredients used to make something\n- {原料|げんりょう}: raw materials that undergo chemical transformation (e.g., oil for plastics)\n- {素材|そざい}: emphasizes the inherent quality or potential of the material",
+  "notes": "{素材|そざい} refers to the basic substance or raw material from which something is made, or the source material for creative work.\n\nSENSE 1 - PHYSICAL MATERIAL:\n- ⟦{天然|てんねん}→天然：03560_tennen⟧{素材|そざい} (natural material)\n- ⟦{合成|ごうせい}→合成：12027_gousei⟧{素材|そざい} (synthetic material)\n- {素材|そざい}⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧ (good quality material)\n- {素材|そざい}⟦の→の：09472_no⟧⟦{味|あじ}→味：00826_aji⟧⟦を→を：00422_wo⟧{生|い}かす (bring out the natural flavor of ingredients)\n\nSENSE 2 - SOURCE MATERIAL:\n- ⟦{映画|えいが}→映画：02273_eiga⟧⟦の→の：09472_no⟧{素材|そざい} (material for a film)\n- ⟦{作品|さくひん}→作品：02776_sakuhin⟧⟦の→の：09472_no⟧{素材|そざい} (subject matter for a work)\n- {素材|そざい}⟦を→を：00422_wo⟧⟦{集|あつ}める→集める：01170_atsumeru⟧ (gather material)\n\nSIMILAR WORDS:\n- ⟦{材料|ざいりょう}→材料：02831_zairyou⟧: more concrete, refers to specific materials or ingredients used to make something\n- ⟦{原料|げんりょう}→原料：11802_genryou⟧: raw materials that undergo chemical transformation (e.g., oil for plastics)\n- {素材|そざい}: emphasizes the inherent quality or potential of the material",
   "cross_references": [
     {
       "type": "contrast",
@@ -60,11 +60,25 @@
       "reading": "ざいりょう",
       "headword": "{材料|ざいりょう}",
       "label": "material, ingredient"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02631_kiji",
+      "reading": "きじ",
+      "headword": "{生地|きじ}",
+      "label": "fabric, cloth"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24616_buzai",
+      "reading": "ぶざい",
+      "headword": "{部材|ぶざい}",
+      "label": "structural member"
     }
   ],
   "metadata": {
     "created": "2026-02-02T07:47:12Z",
-    "modified": "2026-04-25T09:21:10Z",
+    "modified": "2026-09-02T04:01:18Z",
     "ai_model": "claude-opus-4-5-20251101",
     "vocabulary_tier": "general",
     "tags": {

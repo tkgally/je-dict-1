@@ -3,7 +3,7 @@
   "headword": "{高|たか}ぶる",
   "reading": "たかぶる",
   "romaji": "takaburu",
-  "part_of_speech": "verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to get excited; to be worked up; to be on edge",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28051_takaburu_ex1",
-      "japanese": "{気持|きも}ちが{高|たか}ぶる。",
+      "japanese": "{気持|きも}ち⟦が→が：00051_ga⟧{高|たか}ぶる。",
       "english": "To feel excited and worked up.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28051_takaburu_ex2",
-      "japanese": "{神経|しんけい}が{高|たか}ぶって{眠|ねむ}れない。",
+      "japanese": "⟦{神経|しんけい}→神経：03257_shinkei⟧⟦が→が：00051_ga⟧{高|たか}ぶって⟦{眠|ねむ}れない→眠れる：15166_nemureru⟧。",
       "english": "My nerves are on edge and I can't sleep.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28051_takaburu_ex3",
-      "japanese": "{大事|だいじ}な{発表|はっぴょう}を{前|まえ}に、{気持|きも}ちが{高|たか}ぶって{落|お}ち{着|つ}かなかった。",
+      "japanese": "⟦{大事|だいじ}→大事：01253_daiji⟧な⟦{発表|はっぴょう}→発表：03562_happyou⟧⟦を→を：00422_wo⟧⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧、{気持|きも}ち⟦が→が：00051_ga⟧{高|たか}ぶって⟦{落|お}ち{着|つ}かなかった→落ち着く：04670_ochitsuku⟧。",
       "english": "With an important presentation ahead, I was worked up and couldn't settle down.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "TRANSITIVITY: Intransitive godan verb. Xが{高|たか}ぶる.\n\nDescribes emotions or nerves becoming heightened, often excitement or agitation. Frequently in the て-form ({高|たか}ぶって).\n\nCOMMON COLLOCATIONS:\n- {気持|きも}ちが{高|たか}ぶる: to feel worked up\n- {神経|しんけい}が{高|たか}ぶる: to be on edge; nerves heightened\n- {感情|かんじょう}が{高|たか}ぶる: emotions run high\n\nSIMILAR WORDS:\n- {興奮|こうふん}する: to get excited — more general and neutral\n- {高揚|こうよう}する: to be elated, uplifted — positive, elevated mood",
+  "notes": "TRANSITIVITY: Intransitive godan verb. X⟦が→が：00051_ga⟧{高|たか}ぶる.\n\nDescribes emotions or nerves becoming heightened, often excitement or agitation. Frequently in the て-form ({高|たか}ぶって).\n\nCOMMON COLLOCATIONS:\n- {気持|きも}ち⟦が→が：00051_ga⟧{高|たか}ぶる: to feel worked up\n- ⟦{神経|しんけい}→神経：03257_shinkei⟧⟦が→が：00051_ga⟧{高|たか}ぶる: to be on edge; nerves heightened\n- ⟦{感情|かんじょう}→感情：00171_kanjou⟧⟦が→が：00051_ga⟧{高|たか}ぶる: emotions run high\n\nSIMILAR WORDS:\n- ⟦{興奮|こうふん}する→興奮する：25351_koufunsuru⟧: to get excited — more general and neutral\n- ⟦{高揚|こうよう}→高揚：14658_kouyou⟧⟦する→する：00392_suru⟧: to be elated, uplifted — positive, elevated mood",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25351_koufunsuru",
+      "reading": "こうふんする",
+      "headword": "{興奮|こうふん}する",
+      "label": "to get excited"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14658_kouyou",
+      "reading": "こうよう",
+      "headword": "{高揚|こうよう}",
+      "label": "to be elated, uplifted"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -58,10 +74,11 @@
         "emotion"
       ],
       "domain": [],
-      "verb_class": "godan-ru"
+      "verb_class": "godan-ru",
+      "transitivity": "intransitive"
     },
     "created": "2026-05-25T02:04:35Z",
-    "modified": "2026-05-25T02:04:35Z"
+    "modified": "2026-09-02T04:02:32Z"
   },
   "conjugation": {
     "type": "godan",

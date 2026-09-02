@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24919_shiensha_ex1",
-      "japanese": "{多|おお}くの{支援者|しえんしゃ}が{集|あつ}まった。",
+      "japanese": "{多|おお}く⟦の→の：09472_no⟧{支援者|しえんしゃ}⟦が→が：00051_ga⟧⟦{集|あつ}まった→集まる：01162_atsumaru⟧。",
       "english": "Many supporters gathered.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24919_shiensha_ex2",
-      "japanese": "{被災地|ひさいち}に{支援者|しえんしゃ}がボランティアとして{駆|か}けつけた。",
+      "japanese": "⟦{被災地|ひさいち}→被災地：27434_hisaichi⟧⟦に→に：00314_ni⟧{支援者|しえんしゃ}⟦が→が：00051_ga⟧⟦ボランティア→ボランティア：04834_borantia⟧⟦として→として：06802_toshite⟧⟦{駆|か}けつけた→駆けつける：14632_kaketsukeru⟧。",
       "english": "Supporters rushed to the disaster area as volunteers.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24919_shiensha_ex3",
-      "japanese": "この{団体|だんたい}は{世界中|せかいじゅう}の{支援者|しえんしゃ}からの{寄付|きふ}によって{運営|うんえい}されている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{団体|だんたい}→団体：03426_dantai⟧⟦は→は：00079_ha⟧⟦{世界中|せかいじゅう}→世界中：10171_sekaijuu⟧⟦の→の：09472_no⟧{支援者|しえんしゃ}⟦から→から：00504_kara⟧⟦の→の：09472_no⟧⟦{寄付|きふ}→寄付：02584_kifu⟧⟦によって→によって：06801_niyotte⟧⟦{運営|うんえい}→運営：05096_unei⟧⟦されている→する：00392_suru⟧。",
       "english": "This organization is funded by donations from supporters around the world.",
       "sense_numbers": [
         1
@@ -44,20 +44,65 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {支援|しえん} (support, assistance) and {者|しゃ} (person). This word appears frequently in news reporting about politics, charity, disaster relief, and social movements.\n\nThe term is versatile: it can refer to political supporters, financial backers, humanitarian aid workers, or anyone who offers help to a cause or person in need.\n\nCOMMON COLLOCATIONS:\n- {支援者|しえんしゃ}を{募|つの}る: to seek supporters\n- {支援者|しえんしゃ}に{感謝|かんしゃ}する: to thank supporters\n- {熱心|ねっしん}な{支援者|しえんしゃ}: enthusiastic supporter\n- {海外|かいがい}の{支援者|しえんしゃ}: overseas supporters\n\nSIMILAR WORDS:\n- {支持者|しじしゃ}: supporter, advocate — emphasizes ideological or political backing rather than material assistance\n- {後援者|こうえんしゃ}: patron, sponsor — implies financial or organizational backing, often for arts, events, or campaigns\n- {援助者|えんじょしゃ}: helper, aid giver — emphasizes the act of giving aid, often in humanitarian contexts\n- {応援者|おうえんしゃ}: cheerer, supporter — more informal; includes fans and those who offer moral support",
+  "notes": "A compound of ⟦{支援|しえん}→支援：07778_shien⟧ (support, assistance) and ⟦{者|しゃ}→〜者：04662_sha⟧ (person). This word appears frequently in news reporting about politics, charity, disaster relief, and social movements.\n\nThe term is versatile: it can refer to political supporters, financial backers, humanitarian aid workers, or anyone who offers help to a cause or person in need.\n\nCOMMON COLLOCATIONS:\n- {支援者|しえんしゃ}⟦を→を：00422_wo⟧⟦{募|つの}る→募る：10878_tsunoru⟧: to seek supporters\n- {支援者|しえんしゃ}⟦に→に：00314_ni⟧⟦{感謝|かんしゃ}する→感謝する：06055_kanshasuru⟧: to thank supporters\n- ⟦{熱心|ねっしん}→熱心：01207_nesshin⟧な{支援者|しえんしゃ}: enthusiastic supporter\n- ⟦{海外|かいがい}→海外：00134_kaigai⟧⟦の→の：09472_no⟧{支援者|しえんしゃ}: overseas supporters\n\nSIMILAR WORDS:\n- ⟦{支持者|しじしゃ}→支持者：17852_shijisha⟧: supporter, advocate — emphasizes ideological or political backing rather than material assistance\n- ⟦{後援者|こうえんしゃ}→後援者：21846_kouensha⟧: patron, sponsor — implies financial or organizational backing, often for arts, events, or campaigns\n- ⟦{援助者|えんじょしゃ}→援助者：26681_enjosha⟧: helper, aid giver — emphasizes the act of giving aid, often in humanitarian contexts\n- ⟦{応援者|おうえんしゃ}→応援者：24483_ouensha⟧: cheerer, supporter — more informal; includes fans and those who offer moral support",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17852_shijisha",
+      "reading": "しじしゃ",
+      "headword": "{支持者|しじしゃ}",
+      "label": "supporter, advocate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21846_kouensha",
+      "reading": "こうえんしゃ",
+      "headword": "{後援者|こうえんしゃ}",
+      "label": "patron, sponsor"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26681_enjosha",
+      "reading": "えんじょしゃ",
+      "headword": "{援助者|えんじょしゃ}",
+      "label": "helper, aid giver"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24483_ouensha",
+      "reading": "おうえんしゃ",
+      "headword": "{応援者|おうえんしゃ}",
+      "label": "cheerer, supporter"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24298_kyouryokusha",
+      "reading": "きょうりょくしゃ",
+      "headword": "{協力者|きょうりょくしゃ}",
+      "label": "collaborator"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25693_kifusha",
+      "reading": "きふしゃ",
+      "headword": "{寄付者|きふしゃ}",
+      "label": "donor"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "person",
         "society"
       ]
     },
     "created": "2026-04-21T13:09:56Z",
-    "modified": "2026-08-03T09:22:27Z"
+    "modified": "2026-09-02T04:02:20Z"
   }
 }

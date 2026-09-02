@@ -15,41 +15,59 @@
   "examples": [
     {
       "id": "14939_botanyuki_ex1",
-      "japanese": "{牡丹雪|ぼたんゆき}が{静|しず}かに{降|ふ}っている。",
+      "japanese": "{牡丹雪|ぼたんゆき}⟦が→が：00051_ga⟧⟦{静|しず}か→静か：00755_shizuka⟧⟦に→に：00314_ni⟧⟦{降|ふ}っている→降る：00839_furu⟧。",
       "english": "Large snowflakes are falling quietly.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14939_botanyuki_ex2",
-      "japanese": "{窓|まど}の{外|そと}には{牡丹雪|ぼたんゆき}が{舞|ま}っていた。",
+      "japanese": "⟦{窓|まど}→窓：02254_mado⟧⟦の→の：09472_no⟧⟦{外|そと}→外：00671_soto⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{牡丹雪|ぼたんゆき}⟦が→が：00051_ga⟧⟦{舞|ま}っていた→舞う：04573_mau⟧。",
       "english": "Outside the window, large snowflakes were dancing in the air.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14939_botanyuki_ex3",
-      "japanese": "{夕方|ゆうがた}から{牡丹雪|ぼたんゆき}に{変|か}わり、あっという{間|ま}に{積|つ}もり{始|はじ}めた。",
+      "japanese": "⟦{夕方|ゆうがた}→夕方：01010_yuugata⟧⟦から→から：00504_kara⟧{牡丹雪|ぼたんゆき}⟦に→に：00314_ni⟧⟦{変|か}わり→変わる：00714_kawaru⟧、⟦あっという{間|ま}に→あっという間に：25467_attoiumani⟧⟦{積|つ}もり→積もる：01964_tsumoru⟧⟦{始|はじ}めた→始める：00531_hajimeru⟧。",
       "english": "In the evening it changed to large wet snowflakes, and before long the snow started piling up.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "Named after the {牡丹|ぼたん} (peony) flower because the large, clumped snowflakes resemble peony petals. This is a poetic and evocative weather term.\n\nCOMMON COLLOCATIONS:\n- {牡丹雪|ぼたんゆき}が{降|ふ}る (large snowflakes fall)\n- {牡丹雪|ぼたんゆき}が{舞|ま}う (large snowflakes dance)\n\nUSAGE NOTE:\n{牡丹雪|ぼたんゆき} is wet and heavy compared to {粉雪|こなゆき} (powder snow), which is dry and fine. {牡丹雪|ぼたんゆき} typically falls when temperatures are close to 0°C, so it melts quickly on the ground.",
-  "cross_references": [],
+  "notes": "Named after the ⟦{牡丹|ぼたん}→牡丹：13488_botan⟧ (peony) flower because the large, clumped snowflakes resemble peony petals. This is a poetic and evocative weather term.\n\nCOMMON COLLOCATIONS:\n- {牡丹雪|ぼたんゆき}⟦が→が：00051_ga⟧⟦{降|ふ}る→降る：00839_furu⟧ (large snowflakes fall)\n- {牡丹雪|ぼたんゆき}⟦が→が：00051_ga⟧⟦{舞|ま}う→舞う：04573_mau⟧ (large snowflakes dance)\n\nUSAGE:\n{牡丹雪|ぼたんゆき} is wet and heavy compared to ⟦{粉雪|こなゆき}→粉雪：13858_konayuki⟧ (powder snow), which is dry and fine. {牡丹雪|ぼたんゆき} typically falls when temperatures are close to 0°C, so it melts quickly on the ground.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13858_konayuki",
+      "reading": "こなゆき",
+      "headword": "{粉雪|こなゆき}",
+      "label": "powder snow, fine snow"
+    }
+  ],
   "metadata": {
     "created": "2026-03-04T07:21:41Z",
-    "modified": "2026-03-04T07:21:41Z",
+    "modified": "2026-09-02T04:01:39Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["weather"]
+      "semantic": [
+        "weather"
+      ]
     }
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30109_shushoukantei_ex1",
-      "japanese": "{首相官邸|しゅしょうかんてい}で{会見|かいけん}が{開|ひら}かれた。",
+      "japanese": "{首相官邸|しゅしょうかんてい}⟦で→で：00502_de⟧⟦{会見|かいけん}→会見：11447_kaiken⟧⟦が→が：00051_ga⟧⟦{開|ひら}かれた→開く：01979_hiraku⟧。",
       "english": "A press conference was held at the prime minister's office.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30109_shushoukantei_ex2",
-      "japanese": "{記者|きしゃ}たちが{首相官邸|しゅしょうかんてい}の{前|まえ}に{集|あつ}まっている。",
+      "japanese": "⟦{記者|きしゃ}→記者：14170_kisha⟧たち⟦が→が：00051_ga⟧{首相官邸|しゅしょうかんてい}⟦の→の：09472_no⟧⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧⟦{集|あつ}まっている→集まる：01162_atsumaru⟧。",
       "english": "Reporters are gathering in front of the prime minister's office.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30109_shushoukantei_ex3",
-      "japanese": "この{方針|ほうしん}は{省庁|しょうちょう}ではなく{首相官邸|しゅしょうかんてい}が{主導|しゅどう}して{決|き}めたと{言|い}われている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{方針|ほうしん}→方針：04871_houshin⟧⟦は→は：00079_ha⟧⟦{省庁|しょうちょう}→省庁：13703_shouchou⟧⟦ではなく→ではなく：09578_dehanaku⟧{首相官邸|しゅしょうかんてい}⟦が→が：00051_ga⟧⟦{主導|しゅどう}→主導：11406_shudou⟧⟦して→する：00392_suru⟧⟦{決|き}めた→決める：00858_kimeru⟧⟦と→と：00512_to⟧⟦{言|い}われている→言う：00515_iu⟧。",
       "english": "This policy is said to have been decided at the initiative of the prime minister's office rather than the ministries.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "Often shortened to {官邸|かんてい} in news reports. Used both for the physical building and, by extension, for the prime minister's inner circle as a centre of political power.\n\nCOMMON COLLOCATIONS:\n- {官邸|かんてい}{主導|しゅどう}: leadership driven by the prime minister's office\n- {首相官邸|しゅしょうかんてい}に{入|はい}る: to enter the prime minister's office\n- {官邸|かんてい}の{意向|いこう}: the wishes of the prime minister's office\n\nSIMILAR WORDS:\n- {公邸|こうてい}: official residence — where the prime minister lives, next to the {官邸|かんてい} where he works\n- {国会|こっかい}{議事堂|ぎじどう}: the Diet building — the legislature, a separate institution",
+  "notes": "Often shortened to ⟦{官邸|かんてい}→官邸：12305_kantei⟧ in news reports. Used both for the physical building and, by extension, for the prime minister's inner circle as a centre of political power.\n\nCOMMON COLLOCATIONS:\n- ⟦{官邸|かんてい}→官邸：12305_kantei⟧⟦{主導|しゅどう}→主導：11406_shudou⟧: leadership driven by the prime minister's office\n- {首相官邸|しゅしょうかんてい}⟦に→に：00314_ni⟧⟦{入|はい}る→入る：00494_hairu⟧: to enter the prime minister's office\n- ⟦{官邸|かんてい}→官邸：12305_kantei⟧⟦の→の：09472_no⟧⟦{意向|いこう}→意向：12624_ikou⟧: the wishes of the prime minister's office\n\nSIMILAR WORDS:\n- ⟦{公邸|こうてい}→公邸：30126_koutei⟧: official residence — where the prime minister lives, next to the ⟦{官邸|かんてい}→官邸：12305_kantei⟧ where he works\n- ⟦{国会|こっかい}→国会：02761_kokkai⟧⟦{議事堂|ぎじどう}→議事堂：29496_gijidou⟧: the Diet building — the legislature, a separate institution",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "30126_koutei",
+      "reading": "こうてい",
+      "headword": "{公邸|こうてい}",
+      "label": "official residence"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +62,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "politics"
       ],
       "domain": []
     },
     "created": "2026-07-25T18:20:39Z",
-    "modified": "2026-07-25T18:20:39Z"
+    "modified": "2026-09-02T04:02:38Z"
   }
 }

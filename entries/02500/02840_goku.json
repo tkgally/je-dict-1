@@ -63,11 +63,40 @@
       ]
     }
   ],
-  "notes": "{語句|ごく} refers to words and short phrases, especially in the context of reading, studying, or writing. It is composed of {語|ご} (word) + ⟦{句|く}→句：02137_ku⟧ (phrase/clause).\n\nCOMMON PATTERNS:\n- {語句|ごく}⟦の→の：09472_no⟧⟦{意味|いみ}→意味：01155_imi⟧: meaning of words/phrases\n- {語句|ごく}⟦を→を：00422_wo⟧⟦{調|しら}べる→調べる：01213_shiraberu⟧: to look up words\n- {語句|ごく}⟦を→を：00422_wo⟧⟦{覚|おぼ}える→覚える：00739_oboeru⟧: to memorize vocabulary\n- ⟦{適切|てきせつ}な→適切：01621_tekisetsu⟧{語句|ごく}: appropriate wording\n\nSIMILAR WORDS:\n- ⟦{単語|たんご}→単語：03413_tango⟧: an individual word (the most common term for \"word\")\n- ⟦{語彙|ごい}→語彙：14214_goi⟧: vocabulary (a collective set of words)\n- ⟦{表現|ひょうげん}→表現：03584_hyougen⟧: expression (broader, includes sentence-level phrasing)\n- ⟦{用語|ようご}→用語：04086_yougo⟧: technical term, terminology\n\n{語句|ごく} is somewhat formal and often appears in academic or literary contexts. In everyday conversation, ⟦{単語|たんご}→単語：03413_tango⟧ or ⟦{言葉|ことば}→言葉：02880_kotoba⟧ is more natural.\n\nHOMOPHONE:\nDo not confuse with ごく (⟦{極|ごく}→極：03816_goku⟧, extremely), which is an adverb.",
-  "cross_references": [],
+  "notes": "{語句|ごく} refers to words and short phrases, especially in the context of reading, studying, or writing. It is composed of ⟦{語|ご}→〜語：09841_go⟧ (word) + ⟦{句|く}→句：02137_ku⟧ (phrase/clause).\n\nCOMMON PATTERNS:\n- {語句|ごく}⟦の→の：09472_no⟧⟦{意味|いみ}→意味：01155_imi⟧: meaning of words/phrases\n- {語句|ごく}⟦を→を：00422_wo⟧⟦{調|しら}べる→調べる：01213_shiraberu⟧: to look up words\n- {語句|ごく}⟦を→を：00422_wo⟧⟦{覚|おぼ}える→覚える：00739_oboeru⟧: to memorize vocabulary\n- ⟦{適切|てきせつ}な→適切：01621_tekisetsu⟧{語句|ごく}: appropriate wording\n\nSIMILAR WORDS:\n- ⟦{単語|たんご}→単語：03413_tango⟧: an individual word (the most common term for \"word\")\n- ⟦{語彙|ごい}→語彙：14214_goi⟧: vocabulary (a collective set of words)\n- ⟦{表現|ひょうげん}→表現：03584_hyougen⟧: expression (broader, includes sentence-level phrasing)\n- ⟦{用語|ようご}→用語：04086_yougo⟧: technical term, terminology\n\n{語句|ごく} is somewhat formal and often appears in academic or literary contexts. In everyday conversation, ⟦{単語|たんご}→単語：03413_tango⟧ or ⟦{言葉|ことば}→言葉：02880_kotoba⟧ is more natural.\n\nWATCH OUT:\nDo not confuse with ごく (⟦{極|ごく}→極：03816_goku⟧, extremely), which is an adverb.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03413_tango",
+      "reading": "たんご",
+      "headword": "{単語|たんご}",
+      "label": "an individual word"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14214_goi",
+      "reading": "ごい",
+      "headword": "{語彙|ごい}",
+      "label": "vocabulary"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03584_hyougen",
+      "reading": "ひょうげん",
+      "headword": "{表現|ひょうげん}",
+      "label": "expression"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04086_yougo",
+      "reading": "ようご",
+      "headword": "{用語|ようご}",
+      "label": "technical term, terminology"
+    }
+  ],
   "metadata": {
     "created": "2026-01-11T09:02:15Z",
-    "modified": "2026-05-22T17:10:15Z",
+    "modified": "2026-09-02T04:01:02Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

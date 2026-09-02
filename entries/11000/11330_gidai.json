@@ -14,41 +14,97 @@
   "examples": [
     {
       "id": "11330_gidai_ex1",
-      "japanese": "{次|つぎ}の{議題|ぎだい}に{移|うつ}ります。",
+      "japanese": "⟦{次|つぎ}→次：00819_tsugi⟧⟦の→の：09472_no⟧{議題|ぎだい}⟦に→に：00314_ni⟧⟦{移|うつ}ります→移る：01232_utsuru⟧。",
       "english": "Let's move on to the next agenda item.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11330_gidai_ex2",
-      "japanese": "{今日|きょう}の{議題|ぎだい}は{三|みっ}つあります。",
+      "japanese": "⟦{今日|きょう}→今日：00496_kyou⟧⟦の→の：09472_no⟧{議題|ぎだい}⟦は→は：00079_ha⟧⟦{三|みっ}つ→三つ：02970_mittsu⟧⟦あります→ある：00006_aru⟧。",
       "english": "There are three items on today's agenda.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11330_gidai_ex3",
-      "japanese": "{予算|よさん}の{問題|もんだい}が{議題|ぎだい}に{上|あ}がったが、{結論|けつろん}は{出|で}なかった。",
+      "japanese": "⟦{予算|よさん}→予算：03663_yosan⟧⟦の→の：09472_no⟧⟦{問題|もんだい}→問題：00797_mondai⟧⟦が→が：00051_ga⟧{議題|ぎだい}⟦に→に：00314_ni⟧⟦{上|あ}がった→上がる：00615_agaru⟧⟦が→が：00051_ga⟧、⟦{結論|けつろん}→結論：02704_ketsuron⟧⟦は→は：00079_ha⟧⟦{出|で}なかった→出る：00513_deru⟧。",
       "english": "The budget issue came up as an agenda item, but no conclusion was reached.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{議題|ぎだい} refers to items formally put forward for discussion in a meeting.\n\nWORD FORMATION:\n{議|ぎ} (deliberation) + {題|だい} (topic, subject)\n\nCOMMON COLLOCATIONS:\n- {議題|ぎだい}に{上|あ}がる: to come up as an agenda item\n- {議題|ぎだい}に{入|はい}る: to move to the agenda items\n- {議題|ぎだい}を{決|き}める: to set the agenda\n- {次|つぎ}の{議題|ぎだい}: next item on the agenda\n\nSIMILAR WORDS:\n- {話題|わだい}: topic of conversation (casual)\n- {議題|ぎだい}: formal discussion topic (meetings)\n- {課題|かだい}: task, issue to be addressed",
+  "notes": "{議題|ぎだい} refers to items formally put forward for discussion in a meeting.\n\nFORMS:\n{議|ぎ} (deliberation) + {題|だい} (topic, subject)\n\nCOMMON COLLOCATIONS:\n- {議題|ぎだい}⟦に→に：00314_ni⟧⟦{上|あ}がる→上がる：00615_agaru⟧: to come up as an agenda item\n- {議題|ぎだい}⟦に→に：00314_ni⟧⟦{入|はい}る→入る：00494_hairu⟧: to move to the agenda items\n- {議題|ぎだい}⟦を→を：00422_wo⟧⟦{決|き}める→決める：00858_kimeru⟧: to set the agenda\n- ⟦{次|つぎ}→次：00819_tsugi⟧⟦の→の：09472_no⟧{議題|ぎだい}: next item on the agenda\n\nSIMILAR WORDS:\n- ⟦{話題|わだい}→話題：03793_wadai⟧: topic of conversation (casual)\n- {議題|ぎだい}: formal discussion topic (meetings)\n- ⟦{課題|かだい}→課題：00132_kadai⟧: task, issue to be addressed",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03793_wadai",
+      "reading": "わだい",
+      "headword": "{話題|わだい}",
+      "label": "topic of conversation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00132_kadai",
+      "reading": "かだい",
+      "headword": "{課題|かだい}",
+      "label": "task, issue to be addressed"
+    },
+    {
+      "type": "related",
+      "target_id": "00710_kaigi",
+      "reading": "かいぎ",
+      "headword": "{会議|かいぎ}",
+      "label": "meeting, conference"
+    },
+    {
+      "type": "related",
+      "target_id": "11045_topikku",
+      "reading": "とぴっく",
+      "headword": "トピック",
+      "label": "topic, subject"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11545_shudai",
+      "reading": "しゅだい",
+      "headword": "{主題|しゅだい}",
+      "label": "theme, subject, topic"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24690_ketsugijikou",
+      "reading": "けつぎじこう",
+      "headword": "{決議事項|けつぎじこう}",
+      "label": "items resolved"
+    }
+  ],
   "metadata": {
     "created": "2026-02-16T00:41:26Z",
-    "modified": "2026-02-16T00:41:26Z",
+    "modified": "2026-09-02T04:01:24Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["work"],
-      "domain": ["business"]
+      "semantic": [
+        "work"
+      ],
+      "domain": [
+        "business"
+      ]
     }
   }
 }

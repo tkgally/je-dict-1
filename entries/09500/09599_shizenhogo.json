@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "09599_shizenhogo_ex1",
-      "japanese": "{自然保護|しぜんほご}は{大切|たいせつ}だ。",
+      "japanese": "{自然保護|しぜんほご}⟦は→は：00079_ha⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧だ。",
       "english": "Nature conservation is important.",
       "has_audio": false,
       "sense_numbers": [
@@ -24,7 +24,7 @@
     },
     {
       "id": "09599_shizenhogo_ex2",
-      "japanese": "{自然保護|しぜんほご}に{取|と}り{組|く}む{団体|だんたい}が{増|ふ}えている。",
+      "japanese": "{自然保護|しぜんほご}⟦に→に：00314_ni⟧⟦{取|と}り{組|く}む→取り組む：04225_torikumu⟧⟦{団体|だんたい}→団体：03426_dantai⟧⟦が→が：00051_ga⟧⟦{増|ふ}えている→増える：01183_fueru⟧。",
       "english": "More organizations are working on nature conservation.",
       "has_audio": false,
       "sense_numbers": [
@@ -34,7 +34,7 @@
     },
     {
       "id": "09599_shizenhogo_ex3",
-      "japanese": "{政府|せいふ}は{自然保護|しぜんほご}のための{法律|ほうりつ}を{制定|せいてい}した。",
+      "japanese": "⟦{政府|せいふ}→政府：03294_seifu⟧⟦は→は：00079_ha⟧{自然保護|しぜんほご}⟦の→の：09472_no⟧⟦ため→ため：01145_tame⟧⟦の→の：09472_no⟧⟦{法律|ほうりつ}→法律：01722_houritsu⟧⟦を→を：00422_wo⟧⟦{制定|せいてい}→制定：11907_seitei⟧⟦した→する：00392_suru⟧。",
       "english": "The government enacted laws for nature conservation.",
       "has_audio": false,
       "sense_numbers": [
@@ -43,11 +43,33 @@
       "notes": null
     }
   ],
-  "notes": "{自然保護|しぜんほご} refers to efforts to protect natural environments and ecosystems.\n\nCOMMON PATTERNS:\n- {自然保護|しぜんほご}に{取|と}り{組|く}む: to work on nature conservation\n- {自然保護|しぜんほご}{活動|かつどう}: conservation activities\n- {自然保護|しぜんほご}{団体|だんたい}: conservation organization\n- {自然保護|しぜんほご}{区|く}/{地域|ちいき}: nature reserve, protected area\n\nRELATED TERMS:\n- {環境保護|かんきょうほご}: environmental protection (broader concept)\n- {野生動物|やせいどうぶつ}{保護|ほご}: wildlife protection",
-  "cross_references": [],
+  "notes": "{自然保護|しぜんほご} refers to efforts to protect natural environments and ecosystems.\n\nCOMMON PATTERNS:\n- {自然保護|しぜんほご}⟦に→に：00314_ni⟧⟦{取|と}り{組|く}む→取り組む：04225_torikumu⟧: to work on nature conservation\n- {自然保護|しぜんほご}⟦{活動|かつどう}→活動：00201_katsudou⟧: conservation activities\n- {自然保護|しぜんほご}⟦{団体|だんたい}→団体：03426_dantai⟧: conservation organization\n- {自然保護|しぜんほご}{区|く}/⟦{地域|ちいき}→地域：01461_chiiki⟧: nature reserve, protected area\n\nRELATED WORDS:\n- ⟦{環境保護|かんきょうほご}→環境保護：15308_kankyouhogo⟧: environmental protection (broader concept)\n- ⟦{野生動物|やせいどうぶつ}→野生動物：09251_yaseidoubutsu⟧⟦{保護|ほご}→保護：03625_hogo⟧: wildlife protection",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "15308_kankyouhogo",
+      "reading": "かんきょうほご",
+      "headword": "{環境保護|かんきょうほご}",
+      "label": "environmental protection"
+    },
+    {
+      "type": "related",
+      "target_id": "04626_seitaikei",
+      "reading": "せいたいけい",
+      "headword": "{生態系|せいたいけい}",
+      "label": "ecosystem"
+    },
+    {
+      "type": "antonym",
+      "target_id": "22710_shizenhakai",
+      "reading": "しぜんはかい",
+      "headword": "{自然破壊|しぜんはかい}",
+      "label": "destruction of nature"
+    }
+  ],
   "metadata": {
     "created": "2026-02-03T02:31:41Z",
-    "modified": "2026-06-24T06:55:10Z",
+    "modified": "2026-09-02T04:01:18Z",
     "ai_model": "opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

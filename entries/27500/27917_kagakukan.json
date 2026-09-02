@@ -15,41 +15,67 @@
   "examples": [
     {
       "id": "27917_kagakukan_ex1",
-      "japanese": "{科学館|かがくかん}に{行|い}った。",
+      "japanese": "{科学館|かがくかん}⟦に→に：00314_ni⟧⟦{行|い}った→行く：00119_iku⟧。",
       "english": "We went to the science museum.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27917_kagakukan_ex2",
-      "japanese": "{科学館|かがくかん}でロボットの{展示|てんじ}を{見|み}た。",
+      "japanese": "{科学館|かがくかん}⟦で→で：00502_de⟧⟦ロボット→ロボット：06404_robotto⟧⟦の→の：09472_no⟧⟦{展示|てんじ}→展示：12401_tenji⟧⟦を→を：00422_wo⟧⟦{見|み}た→見る：00283_miru⟧。",
       "english": "I saw a robot exhibit at the science museum.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27917_kagakukan_ex3",
-      "japanese": "{科学館|かがくかん}では{実際|じっさい}に{触|さわ}って{学|まな}べる{展示|てんじ}が{人気|にんき}だ。",
+      "japanese": "{科学館|かがくかん}⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{実際|じっさい}→実際：02502_jissai⟧⟦に→に：00314_ni⟧⟦{触|さわ}って→触る：00808_sawaru⟧⟦{学|まな}べる→学ぶ：01987_manabu⟧⟦{展示|てんじ}→展示：12401_tenji⟧⟦が→が：00051_ga⟧⟦{人気|にんき}→人気：01488_ninki⟧だ。",
       "english": "At the science museum, exhibits you can actually touch and learn from are popular.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Formed from {科学|かがく} (science) + {館|かん} (hall, building). A facility, often public, with interactive exhibits on science and technology; the suffix {館|かん} appears in many building names.\n\nCOMMON COLLOCATIONS:\n- {科学館|かがくかん}を{訪|おとず}れる: visit a science museum\n- {科学館|かがくかん}の{展示|てんじ}: a science museum exhibit\n- プラネタリウムのある{科学館|かがくかん}: a science museum with a planetarium\n\nSIMILAR WORDS:\n- {博物館|はくぶつかん}: museum — broader, covering history and nature; a {科学館|かがくかん} focuses on science with hands-on displays",
+  "notes": "Formed from ⟦{科学|かがく}→科学：01277_kagaku⟧ (science) + ⟦{館|かん}→館：17308_kan⟧ (hall, building). A facility, often public, with interactive exhibits on science and technology; the suffix ⟦{館|かん}→館：17308_kan⟧ appears in many building names.\n\nCOMMON COLLOCATIONS:\n- {科学館|かがくかん}⟦を→を：00422_wo⟧⟦{訪|おとず}れる→訪れる：07678_otozureru⟧: visit a science museum\n- {科学館|かがくかん}⟦の→の：09472_no⟧⟦{展示|てんじ}→展示：12401_tenji⟧: a science museum exhibit\n- プラネタリウム⟦の→の：09472_no⟧⟦ある→ある：00006_aru⟧{科学館|かがくかん}: a science museum with a planetarium\n\nSIMILAR WORDS:\n- ⟦{博物館|はくぶつかん}→博物館：01494_hakubutsukan⟧: museum — broader, covering history and nature; a {科学館|かがくかん} focuses on science with hands-on displays",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01494_hakubutsukan",
+      "reading": "はくぶつかん",
+      "headword": "{博物館|はくぶつかん}",
+      "label": "museum"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01717_bijutsukan",
+      "reading": "びじゅつかん",
+      "headword": "{美術館|びじゅつかん}",
+      "label": "art museum"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["building"],
+      "politeness": "plain",
+      "semantic": [
+        "building"
+      ],
       "domain": []
     },
     "created": "2026-05-23T02:04:30Z",
-    "modified": "2026-05-23T02:04:30Z"
+    "modified": "2026-09-02T04:02:32Z"
   }
 }

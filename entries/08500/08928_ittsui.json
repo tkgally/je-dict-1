@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08928_ittsui_ex1",
-      "japanese": "{一対|いっつい}の{花瓶|かびん}を{飾|かざ}る。",
+      "japanese": "{一対|いっつい}⟦の→の：09472_no⟧⟦{花瓶|かびん}→花瓶：02867_kabin⟧⟦を→を：00422_wo⟧⟦{飾|かざ}る→飾る：01185_kazaru⟧。",
       "english": "I display a pair of vases.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "08928_ittsui_ex2",
-      "japanese": "イヤリングは{一対|いっつい}で{売|う}られている。",
+      "japanese": "⟦イヤリング→イヤリング：04684_iyaringu⟧⟦は→は：00079_ha⟧{一対|いっつい}⟦で→で：00502_de⟧⟦{売|う}られている→売る：00906_uru⟧。",
       "english": "The earrings are sold as a pair.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "08928_ittsui_ex3",
-      "japanese": "{一対|いっつい}の{狛犬|こまいぬ}が{神社|じんじゃ}の{入|い}り{口|ぐち}にある。",
+      "japanese": "{一対|いっつい}⟦の→の：09472_no⟧⟦{狛犬|こまいぬ}→狛犬：07115_komainu⟧⟦が→が：00051_ga⟧⟦{神社|じんじゃ}→神社：01620_jinja⟧⟦の→の：09472_no⟧⟦{入|い}り{口|ぐち}→入り口：02507_iriguchi⟧⟦に→に：00314_ni⟧⟦ある→ある：00006_aru⟧。",
       "english": "A pair of guardian lion-dogs stands at the shrine entrance.",
       "notes": null,
       "has_audio": false,
@@ -43,11 +43,19 @@
       ]
     }
   ],
-  "notes": "{一対|いっつい} refers to a pair of items that naturally go together.\n\nCOMMON USAGES:\n- {一対|いっつい}の{花瓶|かびん}: a pair of vases\n- {一対|いっつい}の{狛犬|こまいぬ}: a pair of komainu (guardian dogs)\n- {一対|いっつい}の{燭台|しょくだい}: a pair of candlesticks\n- {一対一|いったいいち}: one-to-one\n\nDISTINCTION:\n- {一対|いっつい}: a matching pair (like earrings, vases)\n- {一足|いっそく}: a pair (for footwear)\n- {一組|ひとくみ}: a set, a pair (more general)\n\nNUANCE:\n{一対|いっつい} emphasizes that two items form a matched or complementary set, often decorative items or things displayed in pairs.",
-  "cross_references": [],
+  "notes": "{一対|いっつい} refers to a pair of items that naturally go together.\n\nCOMMON USAGES:\n- {一対|いっつい}⟦の→の：09472_no⟧⟦{花瓶|かびん}→花瓶：02867_kabin⟧: a pair of vases\n- {一対|いっつい}⟦の→の：09472_no⟧⟦{狛犬|こまいぬ}→狛犬：07115_komainu⟧: a pair of komainu (guardian dogs)\n- {一対|いっつい}⟦の→の：09472_no⟧⟦{燭台|しょくだい}→燭台：22975_shokudai⟧: a pair of candlesticks\n- {一対一|いったいいち}: one-to-one\n\nSIMILAR WORDS:\n- {一対|いっつい}: a matching pair (like earrings, vases)\n- {一足|いっそく}: a pair (for footwear)\n- ⟦{一組|ひとくみ}→一組：26487_hitokumi⟧: a set, a pair (more general)\n\nUSAGE:\n{一対|いっつい} emphasizes that two items form a matched or complementary set, often decorative items or things displayed in pairs.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "26487_hitokumi",
+      "reading": "ひとくみ",
+      "headword": "{一組|ひとくみ}",
+      "label": "a set, a pair"
+    }
+  ],
   "metadata": {
     "created": "2026-01-29T03:43:03Z",
-    "modified": "2026-02-19T12:32:33Z",
+    "modified": "2026-09-02T04:01:16Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

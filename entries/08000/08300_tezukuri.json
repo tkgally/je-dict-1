@@ -14,38 +14,102 @@
   "examples": [
     {
       "id": "08300_tezukuri_ex1",
-      "japanese": "これは{手作|てづく}りのケーキです。",
+      "japanese": "⟦これ→これ：00963_kore⟧⟦は→は：00079_ha⟧{手作|てづく}り⟦の→の：09472_no⟧⟦ケーキ→ケーキ：01356_keeki⟧です。",
       "english": "This is a homemade cake.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "08300_tezukuri_ex2",
-      "japanese": "{母|はは}の{手作|てづく}り{弁当|べんとう}は{最高|さいこう}だ。",
+      "japanese": "⟦{母|はは}→母：00549_haha⟧⟦の→の：09472_no⟧{手作|てづく}り⟦{弁当|べんとう}→弁当：01014_bentou⟧⟦は→は：00079_ha⟧⟦{最高|さいこう}→最高：02637_saikou⟧だ。",
       "english": "My mother's homemade bento is the best.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "08300_tezukuri_ex3",
-      "japanese": "{手作|てづく}りの{温|あたた}かみが{感|かん}じられるプレゼントだった。",
+      "japanese": "{手作|てづく}り⟦の→の：09472_no⟧⟦{温|あたた}かみ→温かみ：25336_atatakami⟧⟦が→が：00051_ga⟧⟦{感|かん}じられる→感じる：02044_kanjiru⟧⟦プレゼント→プレゼント：01791_purezento⟧だった。",
       "english": "It was a present that you could feel the warmth of being handmade.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "FORMATION:\n{手|て} (hand) + {作|つく}り (making) → made by hand\n\nUSAGE PATTERNS:\n- {手作|てづく}りの + noun: handmade [noun]\n- {手作|てづく}り{感|かん} (handmade feel/quality)\n\nNUANCE:\n{手作|てづく}り carries positive connotations of care, effort, and authenticity. It's often used to emphasize the personal touch or traditional craftsmanship.\n\nCOMMON COLLOCATIONS:\n- {手作|てづく}り{料理|りょうり} (home-cooked meal)\n- {手作|てづく}り{弁当|べんとう} (homemade bento)\n- {手作|てづく}りのお{菓子|かし} (homemade sweets)\n- {手作|てづく}り{雑貨|ざっか} (handmade goods)\n\nCONTRAST:\n- {既製品|きせいひん} (ready-made product) - opposite concept",
+  "notes": "FORMS:\n⟦{手|て}→手：00569_te⟧ (hand) + {作|つく}り (making) → made by hand\n\nCOMMON PATTERNS:\n- {手作|てづく}り⟦の→の：09472_no⟧ + noun: handmade [noun]\n- {手作|てづく}り⟦{感|かん}→〜感：28578_kan⟧ (handmade feel/quality)\n\nUSAGE:\n{手作|てづく}り carries positive connotations of care, effort, and authenticity. It's often used to emphasize the personal touch or traditional craftsmanship.\n\nCOMMON COLLOCATIONS:\n- {手作|てづく}り⟦{料理|りょうり}→料理：01523_ryouri⟧ (home-cooked meal)\n- {手作|てづく}り⟦{弁当|べんとう}→弁当：01014_bentou⟧ (homemade bento)\n- {手作|てづく}り⟦の→の：09472_no⟧⟦お{菓子|かし}→お菓子：02852_okashi⟧ (homemade sweets)\n- {手作|てづく}り⟦{雑貨|ざっか}→雑貨：10008_zakka⟧ (handmade goods)\n\nSIMILAR WORDS:\n- ⟦{既製品|きせいひん}→既製品：08304_kiseihin⟧ (ready-made product) - opposite concept",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "08304_kiseihin",
+      "reading": "きせいひん",
+      "headword": "{既製品|きせいひん}",
+      "label": "ready-made product"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07062_shugei",
+      "reading": "しゅげい",
+      "headword": "{手芸|しゅげい}",
+      "label": "handicraft"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12523_tairyouseisan",
+      "reading": "たいりょうせいさん",
+      "headword": "{大量生産|たいりょうせいさん}",
+      "label": "mass production"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12760_teryouri",
+      "reading": "てりょうり",
+      "headword": "{手料理|てりょうり}",
+      "label": "home cooking, homemade food"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12767_tesagyou",
+      "reading": "てさぎょう",
+      "headword": "{手作業|てさぎょう}",
+      "label": "manual work, handwork"
+    },
+    {
+      "type": "related",
+      "target_id": "15314_teami",
+      "reading": "てあみ",
+      "headword": "{手編|てあ}み",
+      "label": "hand-knit"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19878_teshigoto",
+      "reading": "てしごと",
+      "headword": "{手仕事|てしごと}",
+      "label": "handicraft"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "semantic": ["products", "crafts", "food"]
+      "politeness": "plain",
+      "semantic": [
+        "products",
+        "crafts",
+        "food"
+      ]
     },
     "created": "2026-01-25T23:08:31Z",
-    "modified": "2026-01-25T23:08:31Z"
+    "modified": "2026-09-02T04:01:14Z"
   }
 }

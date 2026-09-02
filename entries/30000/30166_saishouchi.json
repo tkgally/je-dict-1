@@ -16,7 +16,7 @@
   "examples": [
     {
       "id": "30166_saishouchi_ex1",
-      "japanese": "{最小値|さいしょうち}は0だった。",
+      "japanese": "{最小値|さいしょうち}⟦は→は：00079_ha⟧0だった。",
       "english": "The minimum value was zero.",
       "sense_numbers": [
         1
@@ -26,7 +26,7 @@
     },
     {
       "id": "30166_saishouchi_ex2",
-      "japanese": "このデータの{最小値|さいしょうち}を{求|もと}めてください。",
+      "japanese": "⟦この→この：00962_kono⟧⟦データ→データ：03944_deeta⟧⟦の→の：09472_no⟧{最小値|さいしょうち}⟦を→を：00422_wo⟧⟦{求|もと}めて→求める：02316_motomeru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please find the minimum value of this data.",
       "sense_numbers": [
         1
@@ -36,7 +36,7 @@
     },
     {
       "id": "30166_saishouchi_ex3",
-      "japanese": "{今週|こんしゅう}の{気温|きおん}の{最小値|さいしょうち}と{最大値|さいだいち}を{記録|きろく}しておいた。",
+      "japanese": "⟦{今週|こんしゅう}→今週：00721_konshuu⟧⟦の→の：09472_no⟧⟦{気温|きおん}→気温：00235_kion⟧⟦の→の：09472_no⟧{最小値|さいしょうち}⟦と→と：00512_to⟧⟦{最大値|さいだいち}→最大値：30158_saidaichi⟧⟦を→を：00422_wo⟧⟦{記録|きろく}して→記録する：25341_kirokusuru⟧おいた。",
       "english": "I recorded this week's minimum and maximum temperatures.",
       "sense_numbers": [
         1
@@ -45,7 +45,30 @@
       "notes": null
     }
   ],
-  "notes": "Formed from {最小|さいしょう} (smallest) plus {値|ち} (value). The {値|ち} reading is used in this technical family of words; the same kanji read {値|あたい} is the everyday word for \"value\" or \"price.\"\n\nCOMMON COLLOCATIONS:\n- {最小値|さいしょうち}を{求|もと}める: to find the minimum value\n- {最小値|さいしょうち}を{取|と}る: to take its minimum value\n- {最小値|さいしょうち}を{下回|したまわ}る: to fall below the minimum\n\nRELATED TERMS:\n- {最大値|さいだいち}: maximum value — the direct opposite\n- {平均値|へいきんち}: average value, mean\n- {中央値|ちゅうおうち}: median",
+  "notes": "Formed from ⟦{最小|さいしょう}→最小：04828_saishou⟧ (smallest) plus {値|ち} (value). The {値|ち} reading is used in this technical family of words; the same kanji read ⟦{値|あたい}→値：21704_atai⟧ is the everyday word for \"value\" or \"price.\"\n\nCOMMON COLLOCATIONS:\n- {最小値|さいしょうち}⟦を→を：00422_wo⟧⟦{求|もと}める→求める：02316_motomeru⟧: to find the minimum value\n- {最小値|さいしょうち}⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧: to take its minimum value\n- {最小値|さいしょうち}⟦を→を：00422_wo⟧⟦{下回|したまわ}る→下回る：07649_shitamawaru⟧: to fall below the minimum\n\nRELATED WORDS:\n- ⟦{最大値|さいだいち}→最大値：30158_saidaichi⟧: maximum value — the direct opposite\n- ⟦{平均値|へいきんち}→平均値：30167_heikinchi⟧: average value, mean\n- ⟦{中央値|ちゅうおうち}→中央値：25790_chuuouchi⟧: median",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "30158_saidaichi",
+      "reading": "さいだいち",
+      "headword": "{最大値|さいだいち}",
+      "label": "maximum value"
+    },
+    {
+      "type": "related",
+      "target_id": "30167_heikinchi",
+      "reading": "へいきんち",
+      "headword": "平均値",
+      "label": "average value, mean"
+    },
+    {
+      "type": "related",
+      "target_id": "25790_chuuouchi",
+      "reading": "ちゅうおうち",
+      "headword": "{中央値|ちゅうおうち}",
+      "label": "median"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +76,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "number"
       ],
@@ -62,6 +85,6 @@
       ]
     },
     "created": "2026-07-27T21:18:32Z",
-    "modified": "2026-07-27T21:18:32Z"
+    "modified": "2026-09-02T04:02:39Z"
   }
 }

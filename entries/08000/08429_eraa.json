@@ -19,47 +19,77 @@
   "examples": [
     {
       "id": "08429_eraa_ex1",
-      "japanese": "エラーが{出|で}た。",
+      "japanese": "エラー⟦が→が：00051_ga⟧⟦{出|で}た→出る：00513_deru⟧。",
       "english": "An error occurred.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "08429_eraa_ex2",
-      "japanese": "エラーメッセージを{確認|かくにん}する。",
+      "japanese": "エラーメッセージ⟦を→を：00422_wo⟧⟦{確認|かくにん}する→確認する：25332_kakuninsuru⟧。",
       "english": "To check the error message.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "08429_eraa_ex3",
-      "japanese": "システムエラーで{作業|さぎょう}が{中断|ちゅうだん}された。",
+      "japanese": "システムエラー⟦で→で：00502_de⟧⟦{作業|さぎょう}→作業：02775_sagyou⟧⟦が→が：00051_ga⟧⟦{中断|ちゅうだん}→中断：05218_chuudan⟧⟦された→する：00392_suru⟧。",
       "english": "Work was interrupted due to a system error.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "08429_eraa_ex4",
-      "japanese": "ショートのエラーで{一点|いってん}{入|はい}った。",
+      "japanese": "⟦ショート→ショート：10951_shooto⟧⟦の→の：09472_no⟧エラー⟦で→で：00502_de⟧⟦{一点|いってん}→一点：08894_itten⟧⟦{入|はい}った→入る：00494_hairu⟧。",
       "english": "A run scored due to the shortstop's error.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "From English \"error.\" エラー is used primarily in technical and sports contexts, while native Japanese words like {間違|まちが}い or {誤|あやま}り are preferred for everyday mistakes.\n\nCOMMON COLLOCATIONS:\n- エラーが{出|で}る: an error occurs\n- エラーが{起|お}きる: an error happens\n- エラーを{修正|しゅうせい}する: to fix an error\n- エラーメッセージ: error message\n- エラーコード: error code\n- ヒューマンエラー: human error\n\nSENSE 1 (COMPUTING/TECHNICAL):\nMost commonly used for computer errors, system malfunctions, and technical faults. Often appears in compound forms: システムエラー (system error), {通信|つうしん}エラー (communication error).\n\nSENSE 2 (BASEBALL):\nA fielding mistake. {失策|しっさく} is the formal equivalent used in official records. エラーする is used colloquially to mean \"to commit an error.\"\n\nJAPANESE EQUIVALENTS:\n- {誤|あやま}り: error, mistake (formal)\n- {間違|まちが}い: mistake (general)\n- {失策|しっさく}: error (baseball, formal)",
+  "notes": "From English \"error.\" エラー is used primarily in technical and sports contexts, while native Japanese words like ⟦{間違|まちが}い→間違い：03733_machigai⟧ or ⟦{誤|あやま}り→誤り：01772_ayamari⟧ are preferred for everyday mistakes.\n\nCOMMON COLLOCATIONS:\n- エラー⟦が→が：00051_ga⟧⟦{出|で}る→出る：00513_deru⟧: an error occurs\n- エラー⟦が→が：00051_ga⟧⟦{起|お}きる→起きる：00521_okiru⟧: an error happens\n- エラー⟦を→を：00422_wo⟧⟦{修正|しゅうせい}する→修正する：25527_shuuseisuru⟧: to fix an error\n- エラーメッセージ: error message\n- エラーコード: error code\n- ヒューマンエラー: human error\n\nSENSE 1 (COMPUTING/TECHNICAL):\nMost commonly used for computer errors, system malfunctions, and technical faults. Often appears in compound forms: システムエラー (system error), ⟦{通信|つうしん}→通信：03514_tsuushin⟧エラー (communication error).\n\nSENSE 2 (BASEBALL):\nA fielding mistake. ⟦{失策|しっさく}→失策：18506_shissaku⟧ is the formal equivalent used in official records. エラー⟦する→する：00392_suru⟧ is used colloquially to mean \"to commit an error.\"\n\nJAPANESE EQUIVALENTS:\n- ⟦{誤|あやま}り→誤り：01772_ayamari⟧: error, mistake (formal)\n- ⟦{間違|まちが}い→間違い：03733_machigai⟧: mistake (general)\n- ⟦{失策|しっさく}→失策：18506_shissaku⟧: error (baseball, formal)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "00285_misu",
+      "reading": "みす",
+      "headword": "ミス",
+      "label": "mistake"
+    },
+    {
+      "type": "related",
+      "target_id": "06151_debaggu",
+      "reading": "でばっぐ",
+      "headword": "デバッグ",
+      "label": "debugging"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "semantic": ["technology", "sports"],
+      "politeness": "plain",
+      "semantic": [
+        "technology",
+        "sports"
+      ],
       "loanword": "English"
     },
     "created": "2026-01-27T00:58:00Z",
-    "modified": "2026-03-26T23:41:41Z"
+    "modified": "2026-09-02T04:01:15Z"
   }
 }

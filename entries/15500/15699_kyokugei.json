@@ -15,41 +15,66 @@
   "examples": [
     {
       "id": "15699_kyokugei_ex1",
-      "japanese": "{曲芸|きょくげい}{師|し}がステージに{立|た}った。",
+      "japanese": "{曲芸|きょくげい}{師|し}⟦が→が：00051_ga⟧⟦ステージ→ステージ：11047_suteeji⟧⟦に→に：00314_ni⟧⟦{立|た}った→立つ：00758_tatsu⟧。",
       "english": "The acrobat took the stage.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15699_kyokugei_ex2",
-      "japanese": "サーカスで{見事|みごと}な{曲芸|きょくげい}を{見|み}た。",
+      "japanese": "⟦サーカス→サーカス：20826_saakasu⟧⟦で→で：00502_de⟧⟦{見事|みごと}→見事：03744_migoto⟧な{曲芸|きょくげい}⟦を→を：00422_wo⟧⟦{見|み}た→見る：00283_miru⟧。",
       "english": "I saw a splendid acrobatic performance at the circus.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15699_kyokugei_ex3",
-      "japanese": "{彼|かれ}は{自転車|じてんしゃ}に{乗|の}りながら{曲芸|きょくげい}のような{動|うご}きを{見|み}せた。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{自転車|じてんしゃ}→自転車：00633_jitensha⟧⟦に→に：00314_ni⟧⟦{乗|の}り→乗る：00511_noru⟧⟦ながら→ながら：10530_nagara⟧{曲芸|きょくげい}⟦の→の：09472_no⟧ような⟦{動|うご}き→動き：11926_ugoki⟧⟦を→を：00422_wo⟧⟦{見|み}せた→見せる：01988_miseru⟧。",
       "english": "He showed acrobatic moves while riding a bicycle.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nUsed for physical performances of skill such as juggling, trapeze acts, and other circus arts. Can also be used figuratively to describe any action requiring extraordinary skill or dexterity.\n\nCOMMON COLLOCATIONS:\n- {曲芸|きょくげい}{師|し} (acrobat, stunt performer)\n- {曲芸|きょくげい}{飛行|ひこう} (aerobatics, stunt flying)\n- {曲芸|きょくげい}を{披露|ひろう}する (to perform acrobatics)\n\nSIMILAR WORDS:\n- アクロバット: acrobatics (loanword, more modern)\n- {大道芸|だいどうげい}: street performance\n- {芸当|げいとう}: feat, trick, accomplishment",
-  "cross_references": [],
+  "notes": "USAGE:\nUsed for physical performances of skill such as juggling, trapeze acts, and other circus arts. Can also be used figuratively to describe any action requiring extraordinary skill or dexterity.\n\nCOMMON COLLOCATIONS:\n- {曲芸|きょくげい}{師|し} (acrobat, stunt performer)\n- {曲芸|きょくげい}⟦{飛行|ひこう}→飛行：03578_hikou⟧ (aerobatics, stunt flying)\n- {曲芸|きょくげい}⟦を→を：00422_wo⟧⟦{披露|ひろう}する→披露する：20927_hirousuru⟧ (to perform acrobatics)\n\nSIMILAR WORDS:\n- アクロバット: acrobatics (loanword, more modern)\n- ⟦{大道芸|だいどうげい}→大道芸：12252_daidougei⟧: street performance\n- {芸当|げいとう}: feat, trick, accomplishment",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12252_daidougei",
+      "reading": "だいどうげい",
+      "headword": "{大道芸|だいどうげい}",
+      "label": "street performance"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22866_karuwaza",
+      "reading": "かるわざ",
+      "headword": "{軽業|かるわざ}",
+      "label": "acrobatics"
+    }
+  ],
   "metadata": {
     "created": "2026-03-08T07:39:23Z",
-    "modified": "2026-03-08T07:39:23Z",
+    "modified": "2026-09-02T04:01:42Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["entertainment"]
+      "semantic": [
+        "entertainment"
+      ]
     }
   }
 }

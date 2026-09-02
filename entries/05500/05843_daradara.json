@@ -2,7 +2,7 @@
   "id": "05843_daradara",
   "headword": "だらだら",
   "reading": "だらだら",
-  "part_of_speech": "adverb, verb (suru)",
+  "part_of_speech": "adverb, suru verb",
   "gloss": "sluggishly, lazily, dripping",
   "conjugation": {
     "type": "suru",
@@ -208,7 +208,7 @@
       ]
     }
   ],
-  "notes": "だらだら is an onomatopoeic word with two main uses. The more common sense describes lazy, aimless, or drawn-out behavior, often with a negative connotation of wasting time. The second sense describes liquid dripping or trickling slowly and continuously.\n\nCOMMON PATTERNS (sense 1 — lazily):\n- だらだら⟦{過|す}ごす→過ごす：02062_sugosu⟧: to spend time lazily\n- だらだら⟦と→と：00512_to⟧⟦{長引|ながび}く→長引く：14473_nagabiku⟧: to drag on\n- だらだら⟦する→する：00392_suru⟧: to laze around, to be idle\n- だらだら⟦{続|つづ}く→続く：00903_tsuzuku⟧: to go on and on without purpose\n\nCOMMON PATTERNS (sense 2 — dripping):\n- ⟦{汗|あせ}→汗：02173_ase⟧⟦が→が：00051_ga⟧だらだら⟦{流|なが}れる→流れる：01969_nagareru⟧: sweat dripping down\n- ⟦{血|ち}→血：01659_chi⟧⟦が→が：00051_ga⟧だらだら⟦{出|で}る→出る：00513_deru⟧: blood trickling continuously\n\nCONTRAST:\n- ⟦きびきび→きびきび：05842_kibikibi⟧: briskly, energetically (opposite of sense 1)\n- ⟦てきぱき→てきぱき：05649_tekipaki⟧: efficiently, promptly (opposite of sense 1)\n- ⟦ぽたぽた→ぽたぽた：05715_potapota⟧: drip-drip (drops falling one by one, vs. だらだら's continuous flow)",
+  "notes": "だらだら is an onomatopoeic word with two main uses. The more common sense describes lazy, aimless, or drawn-out behavior, often with a negative connotation of wasting time. The second sense describes liquid dripping or trickling slowly and continuously.\n\nCOMMON PATTERNS (sense 1 — lazily):\n- だらだら⟦{過|す}ごす→過ごす：02062_sugosu⟧: to spend time lazily\n- だらだら⟦と→と：00512_to⟧⟦{長引|ながび}く→長引く：14473_nagabiku⟧: to drag on\n- だらだら⟦する→する：00392_suru⟧: to laze around, to be idle\n- だらだら⟦{続|つづ}く→続く：00903_tsuzuku⟧: to go on and on without purpose\n\nCOMMON PATTERNS (sense 2 — dripping):\n- ⟦{汗|あせ}→汗：02173_ase⟧⟦が→が：00051_ga⟧だらだら⟦{流|なが}れる→流れる：01969_nagareru⟧: sweat dripping down\n- ⟦{血|ち}→血：01659_chi⟧⟦が→が：00051_ga⟧だらだら⟦{出|で}る→出る：00513_deru⟧: blood trickling continuously\n\nSIMILAR WORDS:\n- ⟦きびきび→きびきび：05842_kibikibi⟧: briskly, energetically (opposite of sense 1)\n- ⟦てきぱき→てきぱき：05649_tekipaki⟧: efficiently, promptly (opposite of sense 1)\n- ⟦ぽたぽた→ぽたぽた：05715_potapota⟧: drip-drip (drops falling one by one, vs. だらだら's continuous flow)",
   "cross_references": [
     {
       "type": "synonym",
@@ -223,11 +223,53 @@
       "reading": "きびきび",
       "headword": "きびきび",
       "label": "brisk, energetic"
+    },
+    {
+      "type": "antonym",
+      "target_id": "05649_tekipaki",
+      "reading": "てきぱき",
+      "headword": "てきぱき",
+      "label": "efficiently, promptly"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05715_potapota",
+      "reading": "ぽたぽた",
+      "headword": "ぽたぽた",
+      "label": "drip-drip"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05896_enen",
+      "reading": "えんえん",
+      "headword": "{延々|えんえん}",
+      "label": "endlessly"
+    },
+    {
+      "type": "related",
+      "target_id": "05942_nosonoso",
+      "reading": "のそのそ",
+      "headword": "のそのそ",
+      "label": "slowly"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28987_botabota",
+      "reading": "ぼたぼた",
+      "headword": "ぼたぼた",
+      "label": "in large drops"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28988_taratara",
+      "reading": "たらたら",
+      "headword": "たらたら",
+      "label": "in a thin trickle"
     }
   ],
   "metadata": {
     "created": "2026-01-16T13:47:25Z",
-    "modified": "2026-06-08T17:04:37Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

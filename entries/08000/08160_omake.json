@@ -19,7 +19,7 @@
   "examples": [
     {
       "id": "08160_omake_ex1",
-      "japanese": "おまけをもらった。",
+      "japanese": "おまけ⟦を→を：00422_wo⟧⟦もらった→もらう：00520_morau⟧。",
       "english": "I got a freebie.",
       "sense_numbers": [
         1
@@ -29,7 +29,7 @@
     },
     {
       "id": "08160_omake_ex2",
-      "japanese": "{子供|こども}におまけをつけてくれた。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧⟦に→に：00314_ni⟧おまけ⟦を→を：00422_wo⟧⟦つけて→つける：00562_tsukeru⟧⟦くれた→くれる：00724_kureru⟧。",
       "english": "They gave the child a bonus item.",
       "sense_numbers": [
         1
@@ -39,7 +39,7 @@
     },
     {
       "id": "08160_omake_ex3",
-      "japanese": "このお{菓子|かし}にはシールのおまけが{付|つ}いている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦お{菓子|かし}→お菓子：02852_okashi⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦シール→シール：09597_shiiru⟧⟦の→の：09472_no⟧おまけ⟦が→が：00051_ga⟧⟦{付|つ}いている→付く：01960_tsuku⟧。",
       "english": "This snack comes with a sticker as a bonus.",
       "sense_numbers": [
         1
@@ -49,7 +49,7 @@
     },
     {
       "id": "08160_omake_ex4",
-      "japanese": "{雨|あめ}で、おまけに{風|かぜ}も{強|つよ}い。",
+      "japanese": "⟦{雨|あめ}→雨：00583_ame⟧で、おまけ⟦に→に：00314_ni⟧⟦{風|かぜ}→風：00641_kaze⟧⟦も→も：00484_mo⟧⟦{強|つよ}い→強い：00820_tsuyoi⟧。",
       "english": "It's raining, and on top of that, the wind is strong too.",
       "sense_numbers": [
         2
@@ -59,7 +59,7 @@
     },
     {
       "id": "08160_omake_ex5",
-      "japanese": "{電車|でんしゃ}に{乗|の}り{遅|おく}れた。おまけに{財布|さいふ}も{忘|わす}れた。",
+      "japanese": "⟦{電車|でんしゃ}→電車：00522_densha⟧⟦に→に：00314_ni⟧⟦{乗|の}り{遅|おく}れた→乗り遅れる：04621_noriokureru⟧。おまけ⟦に→に：00314_ni⟧⟦{財布|さいふ}→財布：00663_saifu⟧⟦も→も：00484_mo⟧⟦{忘|わす}れた→忘れる：00474_wasureru⟧。",
       "english": "I missed the train. And to make matters worse, I forgot my wallet.",
       "sense_numbers": [
         2
@@ -69,7 +69,7 @@
     },
     {
       "id": "08160_omake_ex6",
-      "japanese": "{熱|ねつ}があって、おまけに{咳|せき}も{止|と}まらない。",
+      "japanese": "⟦{熱|ねつ}→熱：01690_netsu⟧⟦が→が：00051_ga⟧⟦あって→ある：00006_aru⟧、おまけ⟦に→に：00314_ni⟧⟦{咳|せき}→咳：12007_seki⟧⟦も→も：00484_mo⟧⟦{止|と}まらない→止まる：00555_tomaru⟧。",
       "english": "I have a fever, and on top of that, I can't stop coughing.",
       "sense_numbers": [
         2
@@ -78,7 +78,7 @@
       "notes": null
     }
   ],
-  "notes": "SENSE 1 - BONUS:\n- おまけをつける (to add a bonus)\n- おまけをもらう (to receive a freebie)\n- おまけ{付|つ}き (comes with bonus)\n\nSENSE 2 - IN ADDITION:\n- おまけに〜 (and on top of that...)\n- Often introduces additional negative information\n\nRELATED WORDS:\n- {景品|けいひん} (prize, giveaway)\n- {特典|とくてん} (privilege, bonus)\n- サービス (service - can mean free extra)\n\nETYMOLOGY:\nFrom {御|お}{負|ま}け, literally 'giving a discount' or 'reducing the price.'",
+  "notes": "SENSE 1 - BONUS:\n- おまけ⟦を→を：00422_wo⟧⟦つける→つける：00562_tsukeru⟧ (to add a bonus)\n- おまけ⟦を→を：00422_wo⟧⟦もらう→もらう：00520_morau⟧ (to receive a freebie)\n- おまけ⟦{付|つ}き→付き：26333_tsuki⟧ (comes with bonus)\n\nSENSE 2 - IN ADDITION:\n- おまけ⟦に→に：00314_ni⟧〜 (and on top of that...)\n- Often introduces additional negative information\n\nRELATED WORDS:\n- ⟦{景品|けいひん}→景品：08319_keihin⟧ (prize, giveaway)\n- ⟦{特典|とくてん}→特典：13469_tokuten⟧ (privilege, bonus)\n- ⟦サービス→サービス：01531_saabisu⟧ (service - can mean free extra)\n\nETYMOLOGY:\nFrom {御|お}{負|ま}け, literally 'giving a discount' or 'reducing the price.'",
   "cross_references": [
     {
       "type": "related",
@@ -93,6 +93,13 @@
       "reading": "とくてん",
       "headword": "{特典|とくてん}",
       "label": "privilege, bonus"
+    },
+    {
+      "type": "related",
+      "target_id": "01531_saabisu",
+      "reading": "さーびす",
+      "headword": "サービス",
+      "label": "service"
     }
   ],
   "metadata": {
@@ -102,12 +109,13 @@
         "noun"
       ],
       "formality": "informal",
+      "politeness": "plain",
       "semantic": [
         "shopping",
         "addition"
       ]
     },
     "created": "2026-01-25T07:33:27Z",
-    "modified": "2026-07-02T15:18:16Z"
+    "modified": "2026-09-02T04:01:14Z"
   }
 }

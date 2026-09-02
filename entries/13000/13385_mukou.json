@@ -3,7 +3,7 @@
   "id": "13385_mukou",
   "headword": "{無効|むこう}",
   "reading": "むこう",
-  "part_of_speech": "noun / na-adjective",
+  "part_of_speech": "noun, na-adjective",
   "gloss": "invalid, void, null",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "13385_mukou_ex1",
-      "japanese": "この{切符|きっぷ}は{無効|むこう}です。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{切符|きっぷ}→切符：00643_kippu⟧⟦は→は：00079_ha⟧{無効|むこう}です。",
       "english": "This ticket is invalid.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "13385_mukou_ex2",
-      "japanese": "{契約|けいやく}が{無効|むこう}になった。",
+      "japanese": "⟦{契約|けいやく}→契約：02698_keiyaku⟧⟦が→が：00051_ga⟧{無効|むこう}になった。",
       "english": "The contract became void.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "13385_mukou_ex3",
-      "japanese": "{記入|きにゅう}ミスがあった{場合|ばあい}、その{投票|とうひょう}{用紙|ようし}は{無効|むこう}{扱|あつか}いとなります。",
+      "japanese": "⟦{記入|きにゅう}→記入：02624_kinyuu⟧⟦ミス→ミス：00285_misu⟧⟦が→が：00051_ga⟧⟦あった→ある：00006_aru⟧⟦{場合|ばあい}→場合：01704_baai⟧、⟦その→その：00993_sono⟧⟦{投票|とうひょう}→投票：03453_touhyou⟧⟦{用紙|ようし}→用紙：09588_youshi⟧⟦は→は：00079_ha⟧{無効|むこう}⟦{扱|あつか}い→扱い：12777_atsukai⟧となります。",
       "english": "If there is a filling error, that ballot will be treated as invalid.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "WORD FORMATION:\n{無|む} (without, none) + {効|こう} (effect, validity)\n\nUSAGE:\nUsed in legal, administrative, and technical contexts for things that have no force or effect. Functions as a noun or na-adjective.\n\nCOMMON COLLOCATIONS:\n- {無効|むこう}になる: to become invalid\n- {無効|むこう}にする: to invalidate, to void\n- {無効|むこう}{投票|とうひょう}: invalid vote, spoiled ballot\n- {契約|けいやく}{無効|むこう}: contract nullification\n- {無効|むこう}{扱|あつか}い: treated as invalid\n\nCONTRAST:\n- {無効|むこう}: invalid, void (no legal/practical effect)\n- {有効|ゆうこう}: valid, effective (the antonym)\n\nCAUTION:\nDo not confuse with the homophone {向|む}こう (over there, the other side).",
+  "notes": "FORMS:\n⟦{無|む}→無：17750_mu⟧ (without, none) + {効|こう} (effect, validity)\n\nUSAGE:\nUsed in legal, administrative, and technical contexts for things that have no force or effect. Functions as a noun or na-adjective.\n\nCOMMON COLLOCATIONS:\n- {無効|むこう}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧: to become invalid\n- {無効|むこう}⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧: to invalidate, to void\n- {無効|むこう}⟦{投票|とうひょう}→投票：03453_touhyou⟧: invalid vote, spoiled ballot\n- ⟦{契約|けいやく}→契約：02698_keiyaku⟧{無効|むこう}: contract nullification\n- {無効|むこう}⟦{扱|あつか}い→扱い：12777_atsukai⟧: treated as invalid\n\nSIMILAR WORDS:\n- {無効|むこう}: invalid, void (no legal/practical effect)\n- ⟦{有効|ゆうこう}→有効：03645_yuukou⟧: valid, effective (the antonym)\n\nWATCH OUT:\nDo not confuse with the homophone {向|む}こう (over there, the other side).",
   "cross_references": [
     {
       "type": "antonym",
@@ -59,11 +59,18 @@
       "headword": "{向|む}こう",
       "target_id": "00971_mukou",
       "label": "over there"
+    },
+    {
+      "type": "related",
+      "target_id": "08642_haki",
+      "reading": "はき",
+      "headword": "{破棄|はき}",
+      "label": "destruction"
     }
   ],
   "metadata": {
     "created": "2026-02-24T11:09:15Z",
-    "modified": "2026-03-30T06:07:33Z",
+    "modified": "2026-09-02T04:01:32Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -91,7 +98,7 @@
     {
       "target_id": "01516_mukou",
       "reading": "むこう",
-      "headword": "{向こう|むこう}",
+      "headword": "{向|む}こう",
       "note": "over there"
     }
   ]

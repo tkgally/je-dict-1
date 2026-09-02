@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "01582_kouchou_ex1",
-      "japanese": "{校長|こうちょう}⟦{先生|せんせい}→先生：00609_sensei⟧⟦が→が：00051_ga⟧お⟦{話|はなし}→話：01496_hanashi⟧⟦を→を：00422_wo⟧されました。",
+      "japanese": "{校長|こうちょう}⟦{先生|せんせい}→先生：00609_sensei⟧⟦が→が：00051_ga⟧お⟦{話|はなし}→話：01496_hanashi⟧⟦を→を：00422_wo⟧⟦されました→する：00392_suru⟧。",
       "english": "The principal gave a speech.",
       "notes": "先生 is often added as a respectful title",
       "has_audio": false,
@@ -63,11 +63,47 @@
       ]
     }
   ],
-  "notes": "{校長|こうちょう} is the head of a school — used for elementary (⟦{小学校|しょうがっこう}→小学校：01055_shougakkou⟧), middle (⟦{中学校|ちゅうがっこう}→中学校：01465_chuugakkou⟧), and high schools (⟦{高校|こうこう}→高校：01083_koukou⟧). Not used for universities.\n\nCOMMON COLLOCATIONS:\n- {校長|こうちょう}⟦{先生|せんせい}→先生：00609_sensei⟧: principal (respectful form, used by students and parents)\n- {校長|こうちょう}⟦{室|しつ}→室：09946_shitsu⟧: principal's office\n- ⟦{副|ふく}{校長|こうちょう}→副校長：23995_fukukouchou⟧: vice principal\n- {校長|こうちょう}⟦{挨拶|あいさつ}→挨拶：02505_aisatsu⟧: principal's address (at ceremonies)\n\nRELATED TERMS:\n- ⟦{学長|がくちょう}→学長：29864_gakuchou⟧: university president\n- ⟦{園長|えんちょう}→園長：27936_enchou⟧: kindergarten/preschool principal\n- ⟦{教頭|きょうとう}→教頭：16380_kyoutou⟧: vice principal (older term, still widely used)\n\nCULTURAL NOTE:\nThe {校長|こうちょう}⟦{先生|せんせい}→先生：00609_sensei⟧ typically gives a speech at major school events like ⟦{入学式|にゅうがくしき}→入学式：05495_nyuugakushiki⟧ (entrance ceremony) and ⟦{卒業式|そつぎょうしき}→卒業式：05584_sotsugyoushiki⟧ (graduation ceremony).",
-  "cross_references": [],
+  "notes": "{校長|こうちょう} is the head of a school — used for elementary (⟦{小学校|しょうがっこう}→小学校：01055_shougakkou⟧), middle (⟦{中学校|ちゅうがっこう}→中学校：01465_chuugakkou⟧), and high schools (⟦{高校|こうこう}→高校：01083_koukou⟧). Not used for universities.\n\nCOMMON COLLOCATIONS:\n- {校長|こうちょう}⟦{先生|せんせい}→先生：00609_sensei⟧: principal (respectful form, used by students and parents)\n- {校長|こうちょう}⟦{室|しつ}→室：09946_shitsu⟧: principal's office\n- ⟦{副|ふく}{校長|こうちょう}→副校長：23995_fukukouchou⟧: vice principal\n- {校長|こうちょう}⟦{挨拶|あいさつ}→挨拶：02505_aisatsu⟧: principal's address (at ceremonies)\n\nRELATED WORDS:\n- ⟦{学長|がくちょう}→学長：29864_gakuchou⟧: university president\n- ⟦{園長|えんちょう}→園長：27936_enchou⟧: kindergarten/preschool principal\n- ⟦{教頭|きょうとう}→教頭：16380_kyoutou⟧: vice principal (older term, still widely used)\n\nCULTURAL NOTE:\nThe {校長|こうちょう}⟦{先生|せんせい}→先生：00609_sensei⟧ typically gives a speech at major school events like ⟦{入学式|にゅうがくしき}→入学式：05495_nyuugakushiki⟧ (entrance ceremony) and ⟦{卒業式|そつぎょうしき}→卒業式：05584_sotsugyoushiki⟧ (graduation ceremony).",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "29864_gakuchou",
+      "reading": "がくちょう",
+      "headword": "学長",
+      "label": "university president"
+    },
+    {
+      "type": "related",
+      "target_id": "27936_enchou",
+      "reading": "えんちょう",
+      "headword": "{園長|えんちょう}",
+      "label": "kindergarten/preschool principal"
+    },
+    {
+      "type": "related",
+      "target_id": "16380_kyoutou",
+      "reading": "きょうとう",
+      "headword": "{教頭|きょうとう}",
+      "label": "vice principal"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24280_jukuchou",
+      "reading": "じゅくちょう",
+      "headword": "{塾長|じゅくちょう}",
+      "label": "cram school director"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30316_gakkachou",
+      "reading": "がっかちょう",
+      "headword": "学科長",
+      "label": "department head"
+    }
+  ],
   "metadata": {
     "created": "2026-01-09T12:09:14Z",
-    "modified": "2026-08-11T00:22:01Z",
+    "modified": "2026-09-02T04:01:00Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "core",
     "tags": {

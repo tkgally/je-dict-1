@@ -14,39 +14,95 @@
   "examples": [
     {
       "id": "08283_biza_ex1",
-      "japanese": "ビザを{申請|しんせい}する。",
+      "japanese": "ビザ⟦を→を：00422_wo⟧⟦{申請|しんせい}する→申請する：25228_shinseisuru⟧。",
       "english": "To apply for a visa.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "08283_biza_ex2",
-      "japanese": "ビザの{有効期限|ゆうこうきげん}が{切|き}れた。",
+      "japanese": "ビザ⟦の→の：09472_no⟧⟦{有効期限|ゆうこうきげん}→有効期限：06415_yuukoukigen⟧⟦が→が：00051_ga⟧⟦{切|き}れた→切れる：01936_kireru⟧。",
       "english": "My visa has expired.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "08283_biza_ex3",
-      "japanese": "{就労|しゅうろう}ビザを{取得|しゅとく}するのは{難|むずか}しい。",
+      "japanese": "{就労|しゅうろう}ビザ⟦を→を：00422_wo⟧⟦{取得|しゅとく}する→取得する：10444_shutokusuru⟧⟦の→の：09472_no⟧⟦は→は：00079_ha⟧⟦{難|むずか}しい→難しい：00517_muzukashii⟧。",
       "english": "It's difficult to obtain a work visa.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "FROM ENGLISH:\nLoanword from English \"visa.\"\n\nKANJI EQUIVALENT:\n{査証|さしょう} is the formal Japanese term for visa.\n\nTYPES OF VISAS:\n- {観光|かんこう}ビザ (tourist visa)\n- {就労|しゅうろう}ビザ / {労働|ろうどう}ビザ (work visa)\n- {学生|がくせい}ビザ (student visa)\n- ワーキングホリデービザ (working holiday visa)\n- {配偶者|はいぐうしゃ}ビザ (spouse visa)\n\nCOMMON EXPRESSIONS:\n- ビザを{申請|しんせい}する (to apply for a visa)\n- ビザを{取得|しゅとく}する (to obtain a visa)\n- ビザが{下|お}りる (visa is approved/granted)\n- ビザが{切|き}れる (visa expires)\n- ビザ{免除|めんじょ} (visa exemption/waiver)\n\nRELATED:\n- {旅券|りょけん} / パスポート (passport)\n- {在留資格|ざいりゅうしかく} (residence status)\n- {入国|にゅうこく}{審査|しんさ} (immigration inspection)",
+  "notes": "FROM ENGLISH:\nLoanword from English \"visa.\"\n\nKANJI EQUIVALENT:\n⟦{査証|さしょう}→査証：18658_sashou⟧ is the formal Japanese term for visa.\n\nTYPES OF VISAS:\n- ⟦{観光|かんこう}→観光：00173_kankou⟧ビザ (tourist visa)\n- {就労|しゅうろう}ビザ / ⟦{労働|ろうどう}→労働：03785_roudou⟧ビザ (work visa)\n- ⟦{学生|がくせい}→学生：00610_gakusei⟧ビザ (student visa)\n- ワーキングホリデービザ (working holiday visa)\n- ⟦{配偶者|はいぐうしゃ}→配偶者：07430_haiguusha⟧ビザ (spouse visa)\n\nCOMMON EXPRESSIONS:\n- ビザ⟦を→を：00422_wo⟧⟦{申請|しんせい}する→申請する：25228_shinseisuru⟧ (to apply for a visa)\n- ビザ⟦を→を：00422_wo⟧⟦{取得|しゅとく}する→取得する：10444_shutokusuru⟧ (to obtain a visa)\n- ビザ⟦が→が：00051_ga⟧{下|お}りる (visa is approved/granted)\n- ビザ⟦が→が：00051_ga⟧⟦{切|き}れる→切れる：01936_kireru⟧ (visa expires)\n- ビザ⟦{免除|めんじょ}→免除：05764_menjo⟧ (visa exemption/waiver)\n\nRELATED WORDS:\n- ⟦{旅券|りょけん}→旅券：08284_ryoken⟧ / ⟦パスポート→パスポート：00341_pasupooto⟧ (passport)\n- ⟦{在留資格|ざいりゅうしかく}→在留資格：18891_zairyuushikaku⟧ (residence status)\n- ⟦{入国|にゅうこく}{審査|しんさ}→入国審査：19565_nyuukokushinsa⟧ (immigration inspection)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "08284_ryoken",
+      "reading": "りょけん",
+      "headword": "{旅券|りょけん}",
+      "label": "passport"
+    },
+    {
+      "type": "related",
+      "target_id": "00341_pasupooto",
+      "reading": "ぱすぽーと",
+      "headword": "パスポート",
+      "label": "passport"
+    },
+    {
+      "type": "related",
+      "target_id": "18891_zairyuushikaku",
+      "reading": "ざいりゅうしかく",
+      "headword": "{在留|ざいりゅう}{資格|しかく}",
+      "label": "residence status"
+    },
+    {
+      "type": "related",
+      "target_id": "19565_nyuukokushinsa",
+      "reading": "にゅうこくしんさ",
+      "headword": "{入国審査|にゅうこくしんさ}",
+      "label": "immigration inspection"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23967_nyuukokukanri",
+      "reading": "にゅうこくかんり",
+      "headword": "{入国|にゅうこく}{管理|かんり}",
+      "label": "immigration control"
+    },
+    {
+      "type": "related",
+      "target_id": "24934_nyuukokukanrikyoku",
+      "reading": "にゅうこくかんりきょく",
+      "headword": "{入国管理局|にゅうこくかんりきょく}",
+      "label": "immigration bureau"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
+      "politeness": "plain",
       "loanword": true,
-      "semantic": ["travel", "immigration"]
+      "semantic": [
+        "travel",
+        "immigration"
+      ]
     },
     "created": "2026-01-25T11:41:14Z",
-    "modified": "2026-01-25T11:41:14Z"
+    "modified": "2026-09-02T04:01:14Z"
   }
 }

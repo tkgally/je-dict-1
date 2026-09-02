@@ -3,7 +3,7 @@
   "headword": "{嫉|そね}む",
   "reading": "そねむ",
   "romaji": "sonemu",
-  "part_of_speech": "verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to envy; to be jealous of; to begrudge",
   "verb_type": "godan",
   "verb_ending": "む",
@@ -18,7 +18,7 @@
   "examples": [
     {
       "id": "21357_sonemu_ex1",
-      "japanese": "{他人|たにん}の{成功|せいこう}を{嫉|そね}む。",
+      "japanese": "⟦{他人|たにん}→他人：01459_tanin⟧⟦の→の：09472_no⟧⟦{成功|せいこう}→成功：02638_seikou⟧⟦を→を：00422_wo⟧{嫉|そね}む。",
       "english": "To envy others' success.",
       "sense_numbers": [
         1
@@ -28,7 +28,7 @@
     },
     {
       "id": "21357_sonemu_ex2",
-      "japanese": "{才能|さいのう}のある{人|ひと}を{嫉|そね}んではいけない。",
+      "japanese": "⟦{才能|さいのう}→才能：02772_sainou⟧⟦の→の：09472_no⟧⟦ある→ある：00006_aru⟧⟦{人|ひと}→人：00476_hito⟧⟦を→を：00422_wo⟧{嫉|そね}んで⟦は→は：00079_ha⟧いけない。",
       "english": "You shouldn't be jealous of talented people.",
       "sense_numbers": [
         1
@@ -38,7 +38,7 @@
     },
     {
       "id": "21357_sonemu_ex3",
-      "japanese": "{彼女|かのじょ}は{周囲|しゅうい}から{嫉|そね}まれるほど{美|うつく}しかった。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧⟦{周囲|しゅうい}→周囲：03206_shuui⟧⟦から→から：00504_kara⟧{嫉|そね}まれるほど⟦{美|うつく}しかった→美しい：01121_utsukushii⟧。",
       "english": "She was so beautiful that people around her envied her.",
       "sense_numbers": [
         1
@@ -47,8 +47,24 @@
       "notes": null
     }
   ],
-  "notes": "Carries a stronger negative connotation than {羨|うらや}ましい, implying resentment or spite rather than simple admiration. The envy described by {嫉|そね}む is often bitter and can lead to hostility. Used primarily in written or literary contexts; in everyday speech, {妬|ねた}む is more common.\n\nCOMMON COLLOCATIONS:\n- {人|ひと}の{幸|しあわ}せを{嫉|そね}む: to begrudge others' happiness\n- {成功|せいこう}を{嫉|そね}む: to be envious of someone's success\n- {嫉|そね}まれる: to be envied (passive)\n\nSIMILAR WORDS:\n- {妬|ねた}む: to be jealous of, to envy — more common in everyday speech, similar intensity\n- {嫉妬|しっと}する: to feel jealousy — the する-verb form, used broadly for both romantic and non-romantic jealousy\n- {羨|うらや}む: to envy — lighter, can be admiring rather than resentful",
+  "notes": "Carries a stronger negative connotation than ⟦{羨|うらや}ましい→羨ましい：02336_urayamashii⟧, implying resentment or spite rather than simple admiration. The envy described by {嫉|そね}む is often bitter and can lead to hostility. Used primarily in written or literary contexts; in everyday speech, {妬|ねた}む is more common.\n\nCOMMON COLLOCATIONS:\n- ⟦{人|ひと}→人：00476_hito⟧⟦の→の：09472_no⟧{幸|しあわ}せ⟦を→を：00422_wo⟧{嫉|そね}む: to begrudge others' happiness\n- ⟦{成功|せいこう}→成功：02638_seikou⟧⟦を→を：00422_wo⟧{嫉|そね}む: to be envious of someone's success\n- {嫉|そね}まれる: to be envied (passive)\n\nSIMILAR WORDS:\n- {妬|ねた}む: to be jealous of, to envy — more common in everyday speech, similar intensity\n- ⟦{嫉妬|しっと}する→嫉妬する：20164_shittosuru⟧: to feel jealousy — the ⟦する→する：00392_suru⟧-verb form, used broadly for both romantic and non-romantic jealousy\n- ⟦{羨|うらや}む→羨む：01903_urayamu⟧: to envy — lighter, can be admiring rather than resentful",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20164_shittosuru",
+      "reading": "しっとする",
+      "headword": "{嫉妬|しっと}する",
+      "label": "to feel jealousy"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01903_urayamu",
+      "reading": "うらやむ",
+      "headword": "{羨|うらや}む",
+      "label": "to envy"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,10 +76,11 @@
       "semantic": [
         "emotion"
       ],
-      "verb_class": "godan-mu"
+      "verb_class": "godan-mu",
+      "transitivity": "transitive"
     },
     "created": "2026-04-02T01:37:31Z",
-    "modified": "2026-04-02T01:37:31Z"
+    "modified": "2026-09-02T04:02:03Z"
   },
   "conjugation": {
     "type": "godan",

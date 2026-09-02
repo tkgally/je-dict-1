@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "18648_josou_ex1",
-      "japanese": "{庭|にわ}の{除草|じょそう}をする。",
+      "japanese": "⟦{庭|にわ}→庭：02239_niwa⟧⟦の→の：09472_no⟧{除草|じょそう}⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧。",
       "english": "To weed the garden.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "18648_josou_ex2",
-      "japanese": "{梅雨|つゆ}の{時期|じき}は{除草|じょそう}が{大変|たいへん}だ。",
+      "japanese": "⟦{梅雨|つゆ}→梅雨：02232_tsuyu⟧⟦の→の：09472_no⟧⟦{時期|じき}→時期：03269_jiki⟧⟦は→は：00079_ha⟧{除草|じょそう}⟦が→が：00051_ga⟧⟦{大変|たいへん}→大変：00594_taihen⟧だ。",
       "english": "Weeding is tough during the rainy season.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "18648_josou_ex3",
-      "japanese": "{除草|じょそう}{剤|ざい}を{使|つか}わずに{手作業|てさぎょう}で{除草|じょそう}している。",
+      "japanese": "{除草|じょそう}{剤|ざい}⟦を→を：00422_wo⟧⟦{使|つか}わ→使う：00473_tsukau⟧ず⟦に→に：00314_ni⟧⟦{手作業|てさぎょう}→手作業：12767_tesagyou⟧⟦で→で：00502_de⟧{除草|じょそう}⟦している→する：00392_suru⟧。",
       "english": "I'm weeding by hand without using herbicides.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "{除草|じょそう} means weeding or removing unwanted plants. A compound of {除|じょ} (remove) + {草|そう} (grass/weeds).\n\nCOMMON COLLOCATIONS:\n- {除草|じょそう}する: to weed\n- {除草|じょそう}{剤|ざい}: herbicide, weed killer\n- {除草|じょそう}{作業|さぎょう}: weeding work\n- {除草|じょそう}{機|き}: weed trimmer, mower\n\nUSAGE:\nA practical term used in gardening, agriculture, and property maintenance. Common in spring and summer when weeds grow rapidly.\n\nHOMOPHONES (IMPORTANT):\n- {除草|じょそう}: weeding (this entry)\n- {助走|じょそう}: run-up, approach run (sports)\n- {女装|じょそう}: dressing as a woman, cross-dressing\n\nSIMILAR WORDS:\n- {草|くさ}むしり: pulling weeds by hand (casual, everyday)\n- {草刈|くさか}り: mowing grass/weeds",
+  "notes": "{除草|じょそう} means weeding or removing unwanted plants. A compound of {除|じょ} (remove) + {草|そう} (grass/weeds).\n\nCOMMON COLLOCATIONS:\n- {除草|じょそう}⟦する→する：00392_suru⟧: to weed\n- {除草|じょそう}{剤|ざい}: herbicide, weed killer\n- {除草|じょそう}⟦{作業|さぎょう}→作業：02775_sagyou⟧: weeding work\n- {除草|じょそう}⟦{機|き}→〜機：09843_ki⟧: weed trimmer, mower\n\nUSAGE:\nA practical term used in gardening, agriculture, and property maintenance. Common in spring and summer when weeds grow rapidly.\n\nHOMOPHONES (IMPORTANT):\n- {除草|じょそう}: weeding (this entry)\n- ⟦{助走|じょそう}→助走：15506_josou⟧: run-up, approach run (sports)\n- ⟦{女装|じょそう}→女装：12643_josou⟧: dressing as a woman, cross-dressing\n\nSIMILAR WORDS:\n- ⟦{草|くさ}むしり→草むしり：08195_kusamushiri⟧: pulling weeds by hand (casual, everyday)\n- ⟦{草刈|くさか}り→草刈り：22813_kusakari⟧: mowing grass/weeds",
   "cross_references": [
     {
       "entry_id": "15506_josou",
@@ -151,11 +151,39 @@
       "type": "homophone",
       "relationship": "homophone",
       "target_id": "12643_josou"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08195_kusamushiri",
+      "reading": "くさむしり",
+      "headword": "{草|くさ}むしり",
+      "label": "pulling weeds by hand"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22813_kusakari",
+      "reading": "くさかり",
+      "headword": "{草刈|くさか}り",
+      "label": "mowing grass/weeds"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08533_kusatori",
+      "reading": "くさとり",
+      "headword": "{草取|くさと}り",
+      "label": "weeding"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24687_boujo",
+      "reading": "ぼうじょ",
+      "headword": "{防除|ぼうじょ}",
+      "label": "pest control"
     }
   ],
   "metadata": {
     "created": "2026-03-22T10:41:08Z",
-    "modified": "2026-03-29T10:42:23Z",
+    "modified": "2026-09-02T04:01:53Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

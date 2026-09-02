@@ -14,42 +14,76 @@
   "examples": [
     {
       "id": "09288_sankoubunken_ex1",
-      "japanese": "{論文|ろんぶん}の{最後|さいご}に{参考文献|さんこうぶんけん}を{載|の}せる。",
+      "japanese": "⟦{論文|ろんぶん}→論文：03787_ronbun⟧⟦の→の：09472_no⟧⟦{最後|さいご}→最後：01413_saigo⟧⟦に→に：00314_ni⟧{参考文献|さんこうぶんけん}⟦を→を：00422_wo⟧⟦{載|の}せる→載せる：28290_noseru⟧。",
       "english": "Put the bibliography at the end of the paper.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "09288_sankoubunken_ex2",
-      "japanese": "{参考文献|さんこうぶんけん}を{正|ただ}しく{書|か}くことが{大切|たいせつ}だ。",
+      "japanese": "{参考文献|さんこうぶんけん}⟦を→を：00422_wo⟧⟦{正|ただ}しく→正しい：00893_tadashii⟧⟦{書|か}く→書く：00477_kaku⟧こと⟦が→が：00051_ga⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧だ。",
       "english": "It's important to write the references correctly.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "09288_sankoubunken_ex3",
-      "japanese": "{参考文献|さんこうぶんけん}リストには{使|つか}った{資料|しりょう}を{全|すべ}て{記載|きさい}する。",
+      "japanese": "{参考文献|さんこうぶんけん}⟦リスト→リスト：09786_risuto⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{使|つか}った→使う：00473_tsukau⟧⟦{資料|しりょう}→資料：04166_shiryou⟧⟦を→を：00422_wo⟧⟦{全|すべ}て→全て：03822_subete⟧⟦{記載|きさい}→記載：14169_kisai⟧⟦する→する：00392_suru⟧。",
       "english": "List all the materials you used in the bibliography.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "{参考文献|さんこうぶんけん} is essential in academic writing. It acknowledges sources and allows readers to verify information.\n\nCOMMON COLLOCATIONS:\n- {参考文献|さんこうぶんけん}リスト (bibliography list)\n- {参考文献|さんこうぶんけん}を{引用|いんよう}する (to cite a reference)\n- {参考文献|さんこうぶんけん}の{書|か}き{方|かた} (how to write references)\n\nRELATED TERMS:\n- {引用|いんよう} (citation, quotation)\n- {出典|しゅってん} (source)\n- {脚注|きゃくちゅう} (footnote)",
-  "cross_references": [],
+  "notes": "{参考文献|さんこうぶんけん} is essential in academic writing. It acknowledges sources and allows readers to verify information.\n\nCOMMON COLLOCATIONS:\n- {参考文献|さんこうぶんけん}⟦リスト→リスト：09786_risuto⟧ (bibliography list)\n- {参考文献|さんこうぶんけん}⟦を→を：00422_wo⟧⟦{引用|いんよう}する→引用する：26928_inyousuru⟧ (to cite a reference)\n- {参考文献|さんこうぶんけん}⟦の→の：09472_no⟧⟦{書|か}き{方|かた}→書き方：13054_kakikata⟧ (how to write references)\n\nRELATED WORDS:\n- ⟦{引用|いんよう}→引用：01850_inyou⟧ (citation, quotation)\n- ⟦{出典|しゅってん}→出典：06424_shutten⟧ (source)\n- ⟦{脚注|きゃくちゅう}→脚注：06423_kyakuchuu⟧ (footnote)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "01850_inyou",
+      "reading": "いんよう",
+      "headword": "{引用|いんよう}",
+      "label": "citation, quotation"
+    },
+    {
+      "type": "related",
+      "target_id": "06424_shutten",
+      "reading": "しゅってん",
+      "headword": "{出典|しゅってん}",
+      "label": "source"
+    },
+    {
+      "type": "related",
+      "target_id": "06423_kyakuchuu",
+      "reading": "きゃくちゅう",
+      "headword": "{脚注|きゃくちゅう}",
+      "label": "footnote"
+    }
+  ],
   "metadata": {
     "created": "2026-02-01T06:19:49Z",
-    "modified": "2026-02-01T06:19:49Z",
+    "modified": "2026-09-02T04:01:17Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["education"],
-      "domain": ["academic"]
+      "semantic": [
+        "education"
+      ],
+      "domain": [
+        "academic"
+      ]
     }
   }
 }

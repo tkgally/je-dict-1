@@ -15,41 +15,67 @@
   "examples": [
     {
       "id": "10708_ariina_ex1",
-      "japanese": "アリーナでライブを{観|み}た。",
+      "japanese": "アリーナ⟦で→で：00502_de⟧⟦ライブ→ライブ：05412_raibu⟧⟦を→を：00422_wo⟧⟦{観|み}た→観る：22793_miru⟧。",
       "english": "I saw a concert at an arena.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10708_ariina_ex2",
-      "japanese": "アリーナ{席|せき}のチケットが{当|あ}たった。",
+      "japanese": "アリーナ⟦{席|せき}→席：02215_seki⟧⟦の→の：09472_no⟧⟦チケット→チケット：11014_chiketto⟧⟦が→が：00051_ga⟧⟦{当|あ}たった→当たる：01860_ataru⟧。",
       "english": "I won tickets for arena floor seats.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10708_ariina_ex3",
-      "japanese": "{来月|らいげつ}、あの{人気|にんき}バンドが{一万人|いちまんにん}{収容|しゅうよう}のアリーナでツアーの{最終|さいしゅう}{公演|こうえん}を{行|おこな}う。",
+      "japanese": "⟦{来月|らいげつ}→来月：00744_raigetsu⟧、⟦あの→あの：00915_ano⟧⟦{人気|にんき}→人気：01488_ninki⟧⟦バンド→バンド：05508_bando⟧⟦が→が：00051_ga⟧{一万人|いちまんにん}⟦{収容|しゅうよう}→収容：11800_shuuyou⟧⟦の→の：09472_no⟧アリーナ⟦で→で：00502_de⟧⟦ツアー→ツアー：08285_tsuaa⟧⟦の→の：09472_no⟧⟦{最終|さいしゅう}→最終：02820_saishuu⟧⟦{公演|こうえん}→公演：11639_kouen⟧⟦を→を：00422_wo⟧⟦{行|おこな}う→行う：01238_okonau⟧。",
       "english": "Next month, that popular band will hold their final tour performance at an arena that holds ten thousand people.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nIn Japanese concert terminology, アリーナ has two meanings: the venue itself (an arena), and the floor-level area in front of the stage (アリーナ{席|せき}). Getting アリーナ{席|せき} is considered a lucky draw because of the proximity to the performers.\n\nCONCERT VENUE HIERARCHY:\nJapanese concerts are categorized by venue size:\n- ライブハウス: small live house (hundreds)\n- ホール: concert hall (thousands)\n- アリーナ: arena (5,000-20,000)\n- ドーム: dome stadium (30,000+)\n\nCOMMON COLLOCATIONS:\n- アリーナ{席|せき}: arena floor seats\n- アリーナツアー: arena tour\n- アリーナ{公演|こうえん}: arena performance",
-  "cross_references": [],
+  "notes": "USAGE:\nIn Japanese concert terminology, アリーナ has two meanings: the venue itself (an arena), and the floor-level area in front of the stage (アリーナ⟦{席|せき}→席：02215_seki⟧). Getting アリーナ⟦{席|せき}→席：02215_seki⟧ is considered a lucky draw because of the proximity to the performers.\n\nCONCERT VENUE HIERARCHY:\nJapanese concerts are categorized by venue size:\n- ⟦ライブ→ライブ：05412_raibu⟧ハウス: small live house (hundreds)\n- ⟦ホール→ホール：11169_hooru⟧: concert hall (thousands)\n- アリーナ: arena (5,000-20,000)\n- ⟦ドーム→ドーム：24058_doomu⟧: dome stadium (30,000+)\n\nCOMMON COLLOCATIONS:\n- アリーナ⟦{席|せき}→席：02215_seki⟧: arena floor seats\n- アリーナ⟦ツアー→ツアー：08285_tsuaa⟧: arena tour\n- アリーナ⟦{公演|こうえん}→公演：11639_kouen⟧: arena performance",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23905_sutajiamu",
+      "reading": "すたじあむ",
+      "headword": "スタジアム",
+      "label": "stadium (sports venue)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24058_doomu",
+      "reading": "どーむ",
+      "headword": "ドーム",
+      "label": "dome (architectural or stadium)"
+    }
+  ],
   "metadata": {
     "created": "2026-02-09T07:23:05Z",
-    "modified": "2026-02-09T07:23:05Z",
+    "modified": "2026-09-02T04:01:22Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["building", "leisure"]
+      "semantic": [
+        "building",
+        "leisure"
+      ]
     }
   }
 }

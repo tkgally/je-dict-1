@@ -4,7 +4,7 @@
   "headword": "{発根|はっこん}",
   "reading": "はっこん",
   "romaji": "hakkon",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "root emergence; taking root",
   "definitions": [
     {
@@ -16,7 +16,7 @@
   "examples": [
     {
       "id": "24451_hakkon_ex1",
-      "japanese": "{種|たね}をまいてから{一週間|いっしゅうかん}で{発根|はっこん}した。",
+      "japanese": "⟦{種|たね}→種：02157_tane⟧⟦を→を：00422_wo⟧まいて⟦から→から：00504_kara⟧⟦{一週間|いっしゅうかん}→一週間：10979_isshuukan⟧⟦で→で：00502_de⟧{発根|はっこん}⟦した→する：00392_suru⟧。",
       "english": "The seeds took root one week after sowing.",
       "sense_numbers": [
         1
@@ -26,7 +26,7 @@
     },
     {
       "id": "24451_hakkon_ex2",
-      "japanese": "{挿|さ}し{木|き}の{発根|はっこん}を{促|うなが}すために{発根|はっこん}{剤|ざい}を{使|つか}う。",
+      "japanese": "⟦{挿|さ}し{木|き}→挿し木：08105_sashiki⟧⟦の→の：09472_no⟧{発根|はっこん}⟦を→を：00422_wo⟧⟦{促|うなが}す→促す：10875_unagasu⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧{発根|はっこん}⟦{剤|ざい}→〜剤：30790_zai⟧⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧。",
       "english": "Use rooting agent to promote root growth in cuttings.",
       "sense_numbers": [
         1
@@ -36,7 +36,7 @@
     },
     {
       "id": "24451_hakkon_ex3",
-      "japanese": "{温度|おんど}と{湿度|しつど}を{適切|てきせつ}に{管理|かんり}すれば、{発根|はっこん}{率|りつ}を{大幅|おおはば}に{向上|こうじょう}させることができる。",
+      "japanese": "⟦{温度|おんど}→温度：00333_ondo⟧⟦と→と：00512_to⟧⟦{湿度|しつど}→湿度：03181_shitsudo⟧⟦を→を：00422_wo⟧⟦{適切|てきせつ}→適切：01621_tekisetsu⟧⟦に→に：00314_ni⟧⟦{管理|かんり}すれば→管理する：21910_kanrisuru⟧、{発根|はっこん}⟦{率|りつ}→率：03802_ritsu⟧⟦を→を：00422_wo⟧⟦{大幅|おおはば}→大幅：12170_oohaba⟧⟦に→に：00314_ni⟧{向上|こうじょう}させること⟦が→が：00051_ga⟧⟦できる→できる：00557_dekiru⟧。",
       "english": "By properly managing temperature and humidity, you can significantly improve the rooting rate.",
       "sense_numbers": [
         1
@@ -45,7 +45,30 @@
       "notes": null
     }
   ],
-  "notes": "A botanical and gardening term for the process of roots emerging from seeds, cuttings, or transplanted plants. Important in horticulture and agriculture, where successful rooting determines whether plants survive transplanting.\n\nCOMMON COLLOCATIONS:\n- {発根|はっこん}する: to put out roots, to take root\n- {発根|はっこん}{剤|ざい}: rooting agent/hormone\n- {発根|はっこん}{率|りつ}: rooting rate/success rate\n- {発根|はっこん}を{促|うなが}す: to encourage root growth\n\nSIMILAR WORDS:\n- {根付|ねづ}く: to take root/become established — more general, also used figuratively\n- {発芽|はつが}: germination — the sprouting of a seed above ground, the complementary process to rooting\n- {活着|かっちゃく}: successful establishment — specifically for transplanted plants that survive and thrive",
+  "notes": "A botanical and gardening term for the process of roots emerging from seeds, cuttings, or transplanted plants. Important in horticulture and agriculture, where successful rooting determines whether plants survive transplanting.\n\nCOMMON COLLOCATIONS:\n- {発根|はっこん}⟦する→する：00392_suru⟧: to put out roots, to take root\n- {発根|はっこん}⟦{剤|ざい}→〜剤：30790_zai⟧: rooting agent/hormone\n- {発根|はっこん}⟦{率|りつ}→率：03802_ritsu⟧: rooting rate/success rate\n- {発根|はっこん}⟦を→を：00422_wo⟧⟦{促|うなが}す→促す：10875_unagasu⟧: to encourage root growth\n\nSIMILAR WORDS:\n- ⟦{根付|ねづ}く→根付く：13113_nezuku⟧: to take root/become established — more general, also used figuratively\n- ⟦{発芽|はつが}→発芽：18956_hatsuga⟧: germination — the sprouting of a seed above ground, the complementary process to rooting\n- {活着|かっちゃく}: successful establishment — specifically for transplanted plants that survive and thrive",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13113_nezuku",
+      "reading": "ねづく",
+      "headword": "{根付|ねづ}く",
+      "label": "to take root/become established"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18956_hatsuga",
+      "reading": "はつが",
+      "headword": "{発芽|はつが}",
+      "label": "germination"
+    },
+    {
+      "type": "related",
+      "target_id": "08105_sashiki",
+      "reading": "さしき",
+      "headword": "{挿|さ}し{木|き}",
+      "label": "plant cutting"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +76,15 @@
         "noun",
         "verb-suru"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "plant-general"
       ],
       "verb_class": "suru"
     },
     "created": "2026-04-19T10:16:08Z",
-    "modified": "2026-08-02T18:32:34Z"
+    "modified": "2026-09-02T04:02:18Z"
   },
   "conjugation": {
     "type": "suru",

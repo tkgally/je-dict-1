@@ -139,7 +139,7 @@
     },
     {
       "id": "00723_kumoru_ex4",
-      "japanese": "⟦{今日|きょう}→今日：00496_kyou⟧⟦は→は：00079_ha⟧⟦{朝|あさ}→朝：02277_asa⟧⟦から→から：00504_kara⟧{曇|くも}っていて、⟦{太陽|たいよう}→太陽：03398_taiyou⟧⟦が→が：00051_ga⟧⟦{見|み}えません→見える：01165_mieru⟧。",
+      "japanese": "⟦{今日|きょう}→今日：00496_kyou⟧⟦は→は：00079_ha⟧⟦{朝|あさ}→朝：02277_asa⟧⟦から→から：00504_kara⟧{曇|くも}って⟦いて→いる：00495_iru⟧、⟦{太陽|たいよう}→太陽：03398_taiyou⟧⟦が→が：00051_ga⟧⟦{見|み}えません→見える：01165_mieru⟧。",
       "english": "It's been cloudy since morning today, and you can't see the sun.",
       "notes": null,
       "has_audio": false,
@@ -169,7 +169,7 @@
     },
     {
       "id": "00723_kumoru_ex7",
-      "japanese": "⟦{鏡|かがみ}→鏡：02190_kagami⟧⟦が→が：00051_ga⟧{曇|くも}っています。",
+      "japanese": "⟦{鏡|かがみ}→鏡：02190_kagami⟧⟦が→が：00051_ga⟧{曇|くも}って⟦います→いる：00495_iru⟧。",
       "english": "The mirror is fogged up.",
       "notes": null,
       "has_audio": false,
@@ -208,7 +208,7 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: {自動詞|じどうし} (intransitive). No pair verb. Pattern: {空|そら}が{曇|くも}る.\n\nASPECT: ている indicates resulting state. {曇|くも}っている = 'is cloudy' (current weather state).\n\nCOMMON PATTERNS:\n・{空|そら}が{曇|くも}る (sky becomes cloudy)\n・{曇|くも}ってきた (it's getting cloudy)\n・{眼鏡|めがね}が{曇|くも}る (glasses fog up)\n・{曇|くも}り (noun: cloudy weather)\n\nWEATHER VOCABULARY: {晴|は}れる (clear), {曇|くも}る (cloudy), {降|ふ}る (rain/snow).",
+  "notes": "TRANSITIVITY: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive). No pair verb. Pattern: ⟦{空|そら}→空：02216_sora⟧⟦が→が：00051_ga⟧{曇|くも}る.\n\nASPECT: て⟦いる→いる：00495_iru⟧ indicates resulting state. {曇|くも}って⟦いる→いる：00495_iru⟧ = 'is cloudy' (current weather state).\n\nCOMMON PATTERNS:\n- ⟦{空|そら}→空：02216_sora⟧⟦が→が：00051_ga⟧{曇|くも}る (sky becomes cloudy)\n- {曇|くも}ってきた (it's getting cloudy)\n- ⟦{眼鏡|めがね}→眼鏡：00651_megane⟧⟦が→が：00051_ga⟧{曇|くも}る (glasses fog up)\n- ⟦{曇|くも}り→曇り：02875_kumori⟧ (noun: cloudy weather)\n\nWEATHER VOCABULARY: ⟦{晴|は}れる→晴れる：00701_hareru⟧ (clear), {曇|くも}る (cloudy), ⟦{降|ふ}る→降る：00839_furu⟧ (rain/snow).",
   "prominent_see_also": [
     {
       "target_id": "02875_kumori",
@@ -217,10 +217,18 @@
       "note": "noun form"
     }
   ],
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "07982_kasumu",
+      "reading": "かすむ",
+      "headword": "{翳|かす}む",
+      "label": "to become misty"
+    }
+  ],
   "metadata": {
     "created": "2026-01-07T12:36:08Z",
-    "modified": "2026-04-10T06:37:10Z",
+    "modified": "2026-09-02T04:00:58Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

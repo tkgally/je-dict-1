@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "15841_kyuuseichou_ex1",
-      "japanese": "この{会社|かいしゃ}は{急成長|きゅうせいちょう}している。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦は→は：00079_ha⟧{急成長|きゅうせいちょう}⟦している→する：00392_suru⟧。",
       "english": "This company is growing rapidly.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "15841_kyuuseichou_ex2",
-      "japanese": "IT{業界|ぎょうかい}の{急成長|きゅうせいちょう}が{続|つづ}いている。",
+      "japanese": "IT⟦{業界|ぎょうかい}→業界：13129_gyoukai⟧⟦の→の：09472_no⟧{急成長|きゅうせいちょう}⟦が→が：00051_ga⟧⟦{続|つづ}いている→続く：00903_tsuzuku⟧。",
       "english": "The rapid growth of the IT industry continues.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "15841_kyuuseichou_ex3",
-      "japanese": "{急成長|きゅうせいちょう}を{遂|と}げた{企業|きぎょう}には、それなりのリスクも{伴|ともな}う。",
+      "japanese": "{急成長|きゅうせいちょう}⟦を→を：00422_wo⟧⟦{遂|と}げた→遂げる：14323_togeru⟧⟦{企業|きぎょう}→企業：00225_kigyou⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧、⟦それなり→それなり：30238_sorenari⟧⟦の→の：09472_no⟧⟦リスク→リスク：06752_risuku⟧⟦も→も：00484_mo⟧⟦{伴|ともな}う→伴う：10389_tomonau⟧。",
       "english": "Companies that have achieved rapid growth come with corresponding risks.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "Describes unusually fast growth or expansion. Primarily used for businesses, economies, and industries, but can also apply to children or personal development.\n\nETYMOLOGY:\nCompound of {急|きゅう} (sudden, rapid) + {成長|せいちょう} (growth).\n\nCOMMON COLLOCATIONS:\n- {急成長|きゅうせいちょう}を{遂|と}げる: to achieve rapid growth\n- {急成長|きゅうせいちょう}{中|ちゅう}の{企業|きぎょう}: a rapidly growing company\n- {急成長|きゅうせいちょう}{市場|しじょう}: rapidly growing market\n- {急成長|きゅうせいちょう}する: to grow rapidly (verb)\n\nRELATED TERMS:\n- {成長|せいちょう}: growth (general)\n- {急拡大|きゅうかくだい}: rapid expansion\n- {高度成長|こうどせいちょう}: high growth (as in Japan's {高度経済成長期|こうどけいざいせいちょうき})",
+  "notes": "Describes unusually fast growth or expansion. Primarily used for businesses, economies, and industries, but can also apply to children or personal development.\n\nETYMOLOGY:\nCompound of ⟦{急|きゅう}→急：13042_kyuu⟧ (sudden, rapid) + ⟦{成長|せいちょう}→成長：03290_seichou⟧ (growth).\n\nCOMMON COLLOCATIONS:\n- {急成長|きゅうせいちょう}⟦を→を：00422_wo⟧⟦{遂|と}げる→遂げる：14323_togeru⟧: to achieve rapid growth\n- {急成長|きゅうせいちょう}⟦{中|ちゅう}→〜中：09840_chuu⟧⟦の→の：09472_no⟧⟦{企業|きぎょう}→企業：00225_kigyou⟧: a rapidly growing company\n- {急成長|きゅうせいちょう}⟦{市場|しじょう}→市場：09685_shijou⟧: rapidly growing market\n- {急成長|きゅうせいちょう}⟦する→する：00392_suru⟧: to grow rapidly (verb)\n\nRELATED WORDS:\n- ⟦{成長|せいちょう}→成長：03290_seichou⟧: growth (general)\n- {急拡大|きゅうかくだい}: rapid expansion\n- {高度成長|こうどせいちょう}: high growth (as in Japan's {高度経済成長期|こうどけいざいせいちょうき})",
   "cross_references": [
     {
       "type": "related",
@@ -146,7 +146,7 @@
   ],
   "metadata": {
     "created": "2026-03-08T12:24:55Z",
-    "modified": "2026-05-02T06:35:29Z",
+    "modified": "2026-09-02T04:01:42Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -160,7 +160,8 @@
         "business",
         "change"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

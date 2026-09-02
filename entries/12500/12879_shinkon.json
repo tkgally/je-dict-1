@@ -15,41 +15,60 @@
   "examples": [
     {
       "id": "12879_shinkon_ex1",
-      "japanese": "{新婚|しんこん}{旅行|りょこう}でハワイに{行|い}った。",
+      "japanese": "{新婚|しんこん}{旅行|りょこう}⟦で→で：00502_de⟧ハワイ⟦に→に：00314_ni⟧⟦{行|い}った→行く：00119_iku⟧。",
       "english": "We went to Hawaii on our honeymoon.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12879_shinkon_ex2",
-      "japanese": "{新婚|しんこん}の{二人|ふたり}はとても{幸|しあわ}せそうだ。",
+      "japanese": "{新婚|しんこん}⟦の→の：09472_no⟧⟦{二人|ふたり}→二人：00622_futari⟧⟦は→は：00079_ha⟧⟦とても→とても：00593_totemo⟧{幸|しあわ}せそうだ。",
       "english": "The newlywed couple looks very happy.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12879_shinkon_ex3",
-      "japanese": "{新婚|しんこん}{生活|せいかつ}は{楽|たの}しいことばかりではなく、お{互|たが}いに{合|あ}わせることも{多|おお}い。",
+      "japanese": "{新婚|しんこん}⟦{生活|せいかつ}→生活：01443_seikatsu⟧⟦は→は：00079_ha⟧⟦{楽|たの}しい→楽しい：00817_tanoshii⟧こと⟦ばかり→〜ばかり：02006_bakari⟧⟦ではなく→ではなく：09578_dehanaku⟧、⟦お{互|たが}い→お互い：00336_otagai⟧⟦に→に：00314_ni⟧⟦{合|あ}わせる→合わせる：01872_awaseru⟧こと⟦も→も：00484_mo⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "Newlywed life isn't all fun — there are many things you need to adjust to each other on.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nMost commonly used as a modifier with の or in compound nouns. The phrase {新婚|しんこん}{旅行|りょこう} (honeymoon trip) is extremely common. {新婚|しんこん}ほやほや is a colloquial expression meaning \"freshly newlywed\" or \"just married.\"\n\nCOMMON COLLOCATIONS:\n- {新婚|しんこん}{旅行|りょこう}: honeymoon\n- {新婚|しんこん}{生活|せいかつ}: newlywed life\n- {新婚|しんこん}{夫婦|ふうふ}: newlywed couple\n- {新婚|しんこん}ほやほや: freshly married\n\nSIMILAR WORDS:\n- {新郎|しんろう}{新婦|しんぷ}: bride and groom (specifically at the wedding)",
-  "cross_references": [],
+  "notes": "USAGE:\nMost commonly used as a modifier with ⟦の→の：09472_no⟧ or in compound nouns. The phrase {新婚|しんこん}{旅行|りょこう} (honeymoon trip) is extremely common. {新婚|しんこん}ほやほや is a colloquial expression meaning \"freshly newlywed\" or \"just married.\"\n\nCOMMON COLLOCATIONS:\n- {新婚|しんこん}{旅行|りょこう}: honeymoon\n- {新婚|しんこん}⟦{生活|せいかつ}→生活：01443_seikatsu⟧: newlywed life\n- {新婚|しんこん}⟦{夫婦|ふうふ}→夫婦：03592_fuufu⟧: newlywed couple\n- {新婚|しんこん}ほやほや: freshly married\n\nSIMILAR WORDS:\n- ⟦{新郎|しんろう}{新婦|しんぷ}→新郎新婦：28965_shinroushinpu⟧: bride and groom (specifically at the wedding)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "28965_shinroushinpu",
+      "reading": "しんろうしんぷ",
+      "headword": "{新郎新婦|しんろうしんぷ}",
+      "label": "bride and groom"
+    }
+  ],
   "metadata": {
     "created": "2026-02-22T12:45:35Z",
-    "modified": "2026-02-22T12:45:35Z",
+    "modified": "2026-09-02T04:01:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-no"],
+      "pos": [
+        "noun",
+        "adjective-no"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["family"]
+      "semantic": [
+        "family"
+      ]
     }
   }
 }

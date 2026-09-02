@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "10414_hagurakasu_ex1",
-      "japanese": "{質問|しつもん}をはぐらかされた。",
+      "japanese": "⟦{質問|しつもん}→質問：00888_shitsumon⟧⟦を→を：00422_wo⟧はぐらかされた。",
       "english": "My question was dodged.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "10414_hagurakasu_ex2",
-      "japanese": "{彼|かれ}は{都合|つごう}の{悪|わる}い{話題|わだい}をいつもはぐらかす。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{都合|つごう}→都合：01672_tsugou⟧⟦の→の：09472_no⟧⟦{悪|わる}い→悪い：00908_warui⟧⟦{話題|わだい}→話題：03793_wadai⟧⟦を→を：00422_wo⟧⟦いつも→いつも：00599_itsumo⟧はぐらかす。",
       "english": "He always dodges inconvenient topics.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "10414_hagurakasu_ex3",
-      "japanese": "{冗談|じょうだん}ではぐらかそうとしたが、{相手|あいて}は{真剣|しんけん}だった。",
+      "japanese": "⟦{冗談|じょうだん}→冗談：03347_joudan⟧⟦で→で：00502_de⟧はぐらかそうとした⟦が→が：00051_ga⟧、⟦{相手|あいて}→相手：01677_aite⟧⟦は→は：00079_ha⟧⟦{真剣|しんけん}→真剣：01565_shinken⟧だった。",
       "english": "I tried to deflect with a joke, but the other person was serious.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,40 @@
       ]
     }
   ],
-  "notes": "はぐらかす describes a deliberate evasion — not through refusal, but through skillful redirection or vagueness.\n\nTRANSITIVITY:\n- Type: Transitive ({他動詞|たどうし})\n- Pattern: 〜をはぐらかす\n\nCOMMON COLLOCATIONS:\n- {質問|しつもん}をはぐらかす (to dodge a question)\n- {話題|わだい}をはぐらかす (to deflect a topic)\n- {話|はなし}をはぐらかす (to evade a conversation)\n\nSIMILAR WORDS:\n- ごまかす: to cover up, to gloss over (broader, includes deception)\n- はぐらかす: to dodge, to evade (specifically about deflecting questions/topics)\n- {逃|に}げる: to run away (physical or figurative escape)\n\nUSAGE: Often used with a slightly negative connotation, suggesting the person is being evasive or uncooperative.",
-  "cross_references": [],
+  "notes": "はぐらかす describes a deliberate evasion — not through refusal, but through skillful redirection or vagueness.\n\nTRANSITIVITY:\n- Type: Transitive (⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧)\n- Pattern: 〜⟦を→を：00422_wo⟧はぐらかす\n\nCOMMON COLLOCATIONS:\n- ⟦{質問|しつもん}→質問：00888_shitsumon⟧⟦を→を：00422_wo⟧はぐらかす (to dodge a question)\n- ⟦{話題|わだい}→話題：03793_wadai⟧⟦を→を：00422_wo⟧はぐらかす (to deflect a topic)\n- ⟦{話|はなし}→話：01496_hanashi⟧⟦を→を：00422_wo⟧はぐらかす (to evade a conversation)\n\nSIMILAR WORDS:\n- ごまかす: to cover up, to gloss over (broader, includes deception)\n- はぐらかす: to dodge, to evade (specifically about deflecting questions/topics)\n- ⟦{逃|に}げる→逃げる：01151_nigeru⟧: to run away (physical or figurative escape)\n\nUSAGE: Often used with a slightly negative connotation, suggesting the person is being evasive or uncooperative.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14212_gomakasu",
+      "reading": "ごまかす",
+      "headword": "{誤魔化|ごまか}す",
+      "label": "to cover up, to gloss over"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01151_nigeru",
+      "reading": "にげる",
+      "headword": "{逃|に}げる",
+      "label": "to run away"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19579_nigosu",
+      "reading": "にごす",
+      "headword": "{濁|にご}す",
+      "label": "to make muddy"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25854_ochawonigosu",
+      "reading": "おちゃをにごす",
+      "headword": "お{茶|ちゃ}を{濁|にご}す",
+      "label": "to give a vague answer"
+    }
+  ],
   "metadata": {
     "created": "2026-02-07T10:28:08Z",
-    "modified": "2026-03-29T03:07:35Z",
+    "modified": "2026-09-02T04:01:21Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

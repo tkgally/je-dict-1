@@ -15,41 +15,68 @@
   "examples": [
     {
       "id": "29776_kozumi_ex1",
-      "japanese": "{濃墨|こずみ}で{名前|なまえ}を{書|か}く。",
+      "japanese": "{濃墨|こずみ}⟦で→で：00502_de⟧⟦{名前|なまえ}→名前：02234_namae⟧⟦を→を：00422_wo⟧⟦{書|か}く→書く：00477_kaku⟧。",
       "english": "I write the name in dark ink.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29776_kozumi_ex2",
-      "japanese": "お{祝|いわ}いの{手紙|てがみ}は{濃墨|こずみ}で{書|か}くのが{礼儀|れいぎ}だ。",
+      "japanese": "⟦お{祝|いわ}い→お祝い：01339_oiwai⟧⟦の→の：09472_no⟧⟦{手紙|てがみ}→手紙：00675_tegami⟧⟦は→は：00079_ha⟧{濃墨|こずみ}⟦で→で：00502_de⟧⟦{書|か}く→書く：00477_kaku⟧⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦{礼儀|れいぎ}→礼儀：03780_reigi⟧だ。",
       "english": "It is proper etiquette to write congratulatory letters in dark ink.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29776_kozumi_ex3",
-      "japanese": "{書道|しょどう}の{先生|せんせい}は、{力強|ちからづよ}い{線|せん}には{濃墨|こずみ}が{欠|か}かせないと{言|い}った。",
+      "japanese": "⟦{書道|しょどう}→書道：04178_shodou⟧⟦の→の：09472_no⟧⟦{先生|せんせい}→先生：00609_sensei⟧⟦は→は：00079_ha⟧、⟦{力強|ちからづよ}い→力強い：03119_chikarazuyoi⟧⟦{線|せん}→線：09901_sen⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{濃墨|こずみ}⟦が→が：00051_ga⟧⟦{欠|か}かせない→欠かす：10138_kakasu⟧⟦と→と：00512_to⟧⟦{言|い}った→言う：00515_iu⟧。",
       "english": "The calligraphy teacher said that dark ink is essential for powerful strokes.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "The counterpart of {薄墨|うすずみ} (pale ink). In traditional correspondence the depth of the ink carries meaning: deep black ink is used for happy or formal occasions, while pale ink signals mourning.\n\nCOMMON COLLOCATIONS:\n- {濃墨|こずみ}で{書|か}く: to write in dark ink\n- {濃墨|こずみ}を{磨|す}る: to grind (make) dark ink\n\nSIMILAR WORDS:\n- {薄墨|うすずみ}: pale ink — watered-down gray ink, used for condolence letters.\n- {墨汁|ぼくじゅう}: liquid sumi ink — ready-made bottled ink, as opposed to ink ground from an inkstick.",
+  "notes": "The counterpart of ⟦{薄墨|うすずみ}→薄墨：29763_usuzumi⟧ (pale ink). In traditional correspondence the depth of the ink carries meaning: deep black ink is used for happy or formal occasions, while pale ink signals mourning.\n\nCOMMON COLLOCATIONS:\n- {濃墨|こずみ}⟦で→で：00502_de⟧⟦{書|か}く→書く：00477_kaku⟧: to write in dark ink\n- {濃墨|こずみ}⟦を→を：00422_wo⟧{磨|す}る: to grind (make) dark ink\n\nSIMILAR WORDS:\n- ⟦{薄墨|うすずみ}→薄墨：29763_usuzumi⟧: pale ink — watered-down gray ink, used for condolence letters.\n- ⟦{墨汁|ぼくじゅう}→墨汁：17748_bokujuu⟧: liquid sumi ink — ready-made bottled ink, as opposed to ink ground from an inkstick.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "29763_usuzumi",
+      "reading": "うすずみ",
+      "headword": "薄墨",
+      "label": "pale ink"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17748_bokujuu",
+      "reading": "ぼくじゅう",
+      "headword": "{墨汁|ぼくじゅう}",
+      "label": "liquid sumi ink"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["art", "tool"],
+      "politeness": "plain",
+      "semantic": [
+        "art",
+        "tool"
+      ],
       "domain": []
     },
     "created": "2026-07-11T21:17:16Z",
-    "modified": "2026-07-11T21:17:16Z"
+    "modified": "2026-09-02T04:02:37Z"
   }
 }

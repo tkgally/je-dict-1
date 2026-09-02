@@ -317,8 +317,8 @@ validate_semantic_labels() {
     fail "validate_tags.py reported errors"
   fi
 
-  # Run check_tag_consistency.py for logical consistency
-  if python3 "$PROJECT_DIR/build/check_tag_consistency.py" > /dev/null 2>&1; then
+  # check_tag_consistency.py was archived 2026-09-02 (superseded by validate_tags.py)
+  if [ -f "$PROJECT_DIR/build/check_tag_consistency.py" ] && python3 "$PROJECT_DIR/build/check_tag_consistency.py" > /dev/null 2>&1; then
     pass "check_tag_consistency.py passed"
   else
     warn "check_tag_consistency.py reported issues (may be pre-existing)"

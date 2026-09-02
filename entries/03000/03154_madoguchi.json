@@ -59,7 +59,7 @@
     },
     {
       "id": "03154_madoguchi_ex5",
-      "japanese": "{田中|たなか}さん⟦が→が：00051_ga⟧⟦この→この：00962_kono⟧⟦プロジェクト→プロジェクト：06764_purojekuto⟧⟦の→の：09472_no⟧{窓口|まどぐち}⟦です→です：09485_desu⟧。",
+      "japanese": "⟦{田中|たなか}→田中：09528_tanaka⟧さん⟦が→が：00051_ga⟧⟦この→この：00962_kono⟧⟦プロジェクト→プロジェクト：06764_purojekuto⟧⟦の→の：09472_no⟧{窓口|まどぐち}⟦です→です：09485_desu⟧。",
       "english": "Mr. Tanaka is the contact person for this project.",
       "notes": null,
       "has_audio": false,
@@ -78,11 +78,40 @@
       ]
     }
   ],
-  "notes": "COMPOUND: ⟦{窓|まど}→窓：02254_mado⟧ (window) + ⟦{口|ぐち}→口：00560_kuchi⟧ (opening, mouth)\n\nCOMMON TYPES:\n- ⟦{切符|きっぷ}→切符：00643_kippu⟧⟦の→の：09472_no⟧{窓口|まどぐち} (ticket counter)\n- ⟦{銀行|ぎんこう}→銀行：00578_ginkou⟧⟦の→の：09472_no⟧{窓口|まどぐち} (bank counter)\n- ⟦{受付|うけつけ}→受付：01325_uketsuke⟧{窓口|まどぐち} (reception counter)\n- ⟦お{客様|きゃくさま}→お客様：08780_okyakusama⟧{窓口|まどぐち} (customer service)\n- ⟦{相談|そうだん}→相談：02089_soudan⟧{窓口|まどぐち} (consultation counter)\n\nMODERN CONTEXT: While many transactions have moved online, {窓口|まどぐち} services remain important for complex transactions and for those who prefer face-to-face service.",
-  "cross_references": [],
+  "notes": "COMPOUND: ⟦{窓|まど}→窓：02254_mado⟧ (window) + ⟦{口|ぐち}→口：00560_kuchi⟧ (opening, mouth)\n\nTYPES:\n- ⟦{切符|きっぷ}→切符：00643_kippu⟧⟦の→の：09472_no⟧{窓口|まどぐち} (ticket counter)\n- ⟦{銀行|ぎんこう}→銀行：00578_ginkou⟧⟦の→の：09472_no⟧{窓口|まどぐち} (bank counter)\n- ⟦{受付|うけつけ}→受付：01325_uketsuke⟧{窓口|まどぐち} (reception counter)\n- ⟦お{客様|きゃくさま}→お客様：08780_okyakusama⟧{窓口|まどぐち} (customer service)\n- ⟦{相談|そうだん}→相談：02089_soudan⟧{窓口|まどぐち} (consultation counter)\n\nMODERN CONTEXT: While many transactions have moved online, {窓口|まどぐち} services remain important for complex transactions and for those who prefer face-to-face service.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "05058_ginkouin",
+      "reading": "ぎんこういん",
+      "headword": "{銀行員|ぎんこういん}",
+      "label": "bank employee"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25182_hikikaejo",
+      "reading": "ひきかえじょ",
+      "headword": "{引換所|ひきかえじょ}",
+      "label": "exchange counter"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25694_renrakugakari",
+      "reading": "れんらくがかり",
+      "headword": "{連絡係|れんらくがかり}",
+      "label": "liaison"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29058_soudanjo",
+      "reading": "そうだんじょ",
+      "headword": "{相談所|そうだんじょ}",
+      "label": "consultation office"
+    }
+  ],
   "metadata": {
     "created": "2026-01-11T12:28:58Z",
-    "modified": "2026-08-08T09:25:02Z",
+    "modified": "2026-09-02T04:01:02Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

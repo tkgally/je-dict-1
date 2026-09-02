@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "20653_anmitsu_ex1",
-      "japanese": "あんみつを{注文|ちゅうもん}した。",
+      "japanese": "あんみつ⟦を→を：00422_wo⟧⟦{注文|ちゅうもん}した→注文する：21390_chuumon⟧。",
       "english": "I ordered anmitsu.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "20653_anmitsu_ex2",
-      "japanese": "{夏|なつ}はあんみつがおいしい{季節|きせつ}だ。",
+      "japanese": "⟦{夏|なつ}→夏：02236_natsu⟧⟦は→は：00079_ha⟧あんみつ⟦が→が：00051_ga⟧おいしい⟦{季節|きせつ}→季節：01304_kisetsu⟧だ。",
       "english": "Summer is the season when anmitsu is at its best.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "20653_anmitsu_ex3",
-      "japanese": "{浅草|あさくさ}の{甘味処|かんみどころ}で{食|た}べたあんみつは{絶品|ぜっぴん}だった。",
+      "japanese": "⟦{浅草|あさくさ}→浅草：28393_asakusa⟧⟦の→の：09472_no⟧⟦{甘味処|かんみどころ}→甘味処：17144_kanmidokoro⟧⟦で→で：00502_de⟧⟦{食|た}べた→食べる：00396_taberu⟧あんみつ⟦は→は：00079_ha⟧⟦{絶品|ぜっぴん}→絶品：13811_zeppin⟧だった。",
       "english": "The anmitsu I had at a sweets shop in Asakusa was exquisite.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "A classic Japanese dessert combining {寒天|かんてん} (agar jelly) cubes, {餡|あん} (sweet red bean paste), fruit, {求肥|ぎゅうひ} (soft mochi), and {黒蜜|くろみつ} (brown sugar syrup) or other sweet syrups. The name comes from {餡|あん} (bean paste) + {蜜|みつ} (syrup/honey).\n\nVARIATIONS:\n- クリームあんみつ: anmitsu topped with ice cream or whipped cream\n- {白玉|しらたま}あんみつ: anmitsu with shiratama dango (rice flour dumplings)\n- {抹茶|まっちゃ}あんみつ: anmitsu with matcha-flavored elements\n\nCULTURAL NOTE:\nAnmitsu is a quintessential summer dessert in Japan, strongly associated with {甘味処|かんみどころ} (traditional Japanese sweets shops). It originated in the early 20th century as a variation of みつ{豆|まめ} (mitsumame), which is the same dessert without the bean paste.\n\nRELATED TERMS:\n- みつ{豆|まめ}: similar dessert without red bean paste\n- {甘味処|かんみどころ}: traditional Japanese sweets shop",
+  "notes": "A classic Japanese dessert combining ⟦{寒天|かんてん}→寒天：12463_kanten⟧ (agar jelly) cubes, ⟦{餡|あん}→餡：10220_an⟧ (sweet red bean paste), fruit, ⟦{求肥|ぎゅうひ}→求肥：21941_gyuuhi⟧ (soft mochi), and ⟦{黒蜜|くろみつ}→黒蜜：24332_kuromitsu⟧ (brown sugar syrup) or other sweet syrups. The name comes from ⟦{餡|あん}→餡：10220_an⟧ (bean paste) + ⟦{蜜|みつ}→蜜：14085_mitsu⟧ (syrup/honey).\n\nFORMS:\n- ⟦クリーム→クリーム：00253_kuriimu⟧あんみつ: anmitsu topped with ice cream or whipped cream\n- ⟦{白玉|しらたま}→白玉：13711_shiratama⟧あんみつ: anmitsu with shiratama dango (rice flour dumplings)\n- ⟦{抹茶|まっちゃ}→抹茶：10574_maccha⟧あんみつ: anmitsu with matcha-flavored elements\n\nCULTURAL NOTE:\nAnmitsu is a quintessential summer dessert in Japan, strongly associated with ⟦{甘味処|かんみどころ}→甘味処：17144_kanmidokoro⟧ (traditional Japanese sweets shops). It originated in the early 20th century as a variation of みつ{豆|まめ} (mitsumame), which is the same dessert without the bean paste.\n\nRELATED WORDS:\n- みつ{豆|まめ}: similar dessert without red bean paste\n- ⟦{甘味処|かんみどころ}→甘味処：17144_kanmidokoro⟧: traditional Japanese sweets shop",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "17144_kanmidokoro",
+      "reading": "かんみどころ",
+      "headword": "{甘味処|かんみどころ}",
+      "label": "traditional Japanese sweets shop"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +68,6 @@
       ]
     },
     "created": "2026-03-29T21:21:57Z",
-    "modified": "2026-07-24T15:18:20Z"
+    "modified": "2026-09-02T04:02:00Z"
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "12609_osoruosoru_ex1",
-      "japanese": "{恐|おそ}る{恐|おそ}る{扉|とびら}を{開|あ}けた。",
+      "japanese": "{恐|おそ}る{恐|おそ}る⟦{扉|とびら}→扉：04494_tobira⟧⟦を→を：00422_wo⟧⟦{開|あ}けた→開ける：00563_akeru⟧。",
       "english": "I timidly opened the door.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "12609_osoruosoru_ex2",
-      "japanese": "{恐|おそ}る{恐|おそ}る{先生|せんせい}に{質問|しつもん}した。",
+      "japanese": "{恐|おそ}る{恐|おそ}る⟦{先生|せんせい}→先生：00609_sensei⟧⟦に→に：00314_ni⟧⟦{質問|しつもん}した→質問する：05637_shitsumonsuru⟧。",
       "english": "I nervously asked the teacher a question.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "12609_osoruosoru_ex3",
-      "japanese": "{初|はじ}めての{料理|りょうり}を{恐|おそ}る{恐|おそ}る{口|くち}に{運|はこ}んだが、{意外|いがい}とおいしかった。",
+      "japanese": "⟦{初|はじ}めて→初めて：02932_hajimete⟧⟦の→の：09472_no⟧⟦{料理|りょうり}→料理：01523_ryouri⟧⟦を→を：00422_wo⟧{恐|おそ}る{恐|おそ}る⟦{口|くち}→口：00560_kuchi⟧⟦に→に：00314_ni⟧⟦{運|はこ}んだ→運ぶ：01088_hakobu⟧⟦が→が：00051_ga⟧、⟦{意外|いがい}→意外：12741_igai⟧⟦と→と：00512_to⟧おいしかった。",
       "english": "I gingerly brought the unfamiliar dish to my mouth, but it was surprisingly delicious.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,26 @@
       ]
     }
   ],
-  "notes": "WORD FORMATION:\nA reduplication of {恐|おそ}る, the classical attributive form of {恐|おそ}れる (to fear). The repetition intensifies the sense of timidity and hesitation.\n\nUSAGE:\nDescribes the manner of doing something — always modifies a verb. The fear involved is usually mild or everyday (nervousness, anxiety, apprehension) rather than extreme terror. Often used in lighthearted or relatable contexts.\n\nCOMMON COLLOCATIONS:\n- {恐|おそ}る{恐|おそ}る{聞|き}く: to ask nervously\n- {恐|おそ}る{恐|おそ}る{触|さわ}る: to touch gingerly\n- {恐|おそ}る{恐|おそ}る{覗|のぞ}く: to peek timidly",
-  "cross_references": [],
+  "notes": "FORMS:\nA reduplication of ⟦{恐|おそ}る→恐る：01913_osoru⟧, the classical attributive form of ⟦{恐|おそ}れる→恐れる：02023_osoreru⟧ (to fear). The repetition intensifies the sense of timidity and hesitation.\n\nUSAGE:\nDescribes the manner of doing something — always modifies a verb. The fear involved is usually mild or everyday (nervousness, anxiety, apprehension) rather than extreme terror. Often used in lighthearted or relatable contexts.\n\nCOMMON COLLOCATIONS:\n- {恐|おそ}る{恐|おそ}る⟦{聞|き}く→聞く：00483_kiku⟧: to ask nervously\n- {恐|おそ}る{恐|おそ}る⟦{触|さわ}る→触る：00808_sawaru⟧: to touch gingerly\n- {恐|おそ}る{恐|おそ}る⟦{覗|のぞ}く→覗く：02388_nozoku⟧: to peek timidly",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06932_ozuozu",
+      "reading": "おずおず",
+      "headword": "おずおず",
+      "label": "timidly, bashfully, hesitantly"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19981_sensenkyoukyou",
+      "reading": "せんせんきょうきょう",
+      "headword": "{戦々恐々|せんせんきょうきょう}",
+      "label": "trembling with fear"
+    }
+  ],
   "metadata": {
     "created": "2026-02-22T04:11:23Z",
-    "modified": "2026-06-08T02:21:06Z",
+    "modified": "2026-09-02T04:01:29Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

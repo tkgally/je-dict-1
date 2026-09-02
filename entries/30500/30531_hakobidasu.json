@@ -3,7 +3,7 @@
   "headword": "{運|はこ}び{出|だ}す",
   "reading": "はこびだす",
   "romaji": "hakobidasu",
-  "part_of_speech": "verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to carry out; to haul out; to remove",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30531_hakobidasu_ex1",
-      "japanese": "{荷物|にもつ}を{運|はこ}び{出|だ}す。",
+      "japanese": "⟦{荷物|にもつ}→荷物：00737_nimotsu⟧⟦を→を：00422_wo⟧{運|はこ}び{出|だ}す。",
       "english": "To carry the luggage out.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30531_hakobidasu_ex2",
-      "japanese": "{机|つくえ}を{廊下|ろうか}に{運|はこ}び{出|だ}してください。",
+      "japanese": "⟦{机|つくえ}→机：00762_tsukue⟧⟦を→を：00422_wo⟧⟦{廊下|ろうか}→廊下：05005_rouka⟧⟦に→に：00314_ni⟧{運|はこ}び{出|だ}して⟦ください→ください：02899_kudasai⟧。",
       "english": "Please carry the desk out into the hallway.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30531_hakobidasu_ex3",
-      "japanese": "{倒|たお}れた{人|ひと}を、{数人|すうにん}がかりで{建物|たてもの}の{外|そと}へ{運|はこ}び{出|だ}した。",
+      "japanese": "⟦{倒|たお}れた→倒れる：01160_taoreru⟧⟦{人|ひと}→人：00476_hito⟧⟦を→を：00422_wo⟧、⟦{数人|すうにん}→数人：18787_suunin⟧がかり⟦で→で：00502_de⟧⟦{建物|たてもの}→建物：01458_tatemono⟧⟦の→の：09472_no⟧⟦{外|そと}→外：00671_soto⟧⟦へ→へ：02473_he⟧{運|はこ}び{出|だ}した。",
       "english": "Several of them together carried the collapsed person out of the building.",
       "sense_numbers": [
         1
@@ -44,8 +44,23 @@
       "notes": null
     }
   ],
-  "notes": "TRANSITIVITY:\n- Transitive: {荷物|にもつ}を{運|はこ}び{出|だ}す. The starting point takes から or を, the destination に or へ.\n\nCOMMON COLLOCATIONS:\n- {家具|かぐ}を{運|はこ}び{出|だ}す: to move furniture out\n- {倉庫|そうこ}から{運|はこ}び{出|だ}す: to haul out of the warehouse\n- {負傷者|ふしょうしゃ}を{運|はこ}び{出|だ}す: to carry out the injured\n\nSIMILAR WORDS:\n- {運|はこ}び{込|こ}む: to carry in — the opposite direction\n- {持|も}ち{出|だ}す: to take out — often means removing without permission, or bringing up a topic",
-  "cross_references": [],
+  "notes": "TRANSITIVITY:\n- Transitive: ⟦{荷物|にもつ}→荷物：00737_nimotsu⟧⟦を→を：00422_wo⟧{運|はこ}び{出|だ}す. The starting point takes ⟦から→から：00504_kara⟧ or ⟦を→を：00422_wo⟧, the destination ⟦に→に：00314_ni⟧ or ⟦へ→へ：02473_he⟧.\n\nCOMMON COLLOCATIONS:\n- ⟦{家具|かぐ}→家具：12314_kagu⟧⟦を→を：00422_wo⟧{運|はこ}び{出|だ}す: to move furniture out\n- ⟦{倉庫|そうこ}→倉庫：04044_souko⟧⟦から→から：00504_kara⟧{運|はこ}び{出|だ}す: to haul out of the warehouse\n- ⟦{負傷者|ふしょうしゃ}→負傷者：27169_fushousha⟧⟦を→を：00422_wo⟧{運|はこ}び{出|だ}す: to carry out the injured\n\nSIMILAR WORDS:\n- ⟦{運|はこ}び{込|こ}む→運び込む：30545_hakobikomu⟧: to carry in — the opposite direction\n- ⟦{持|も}ち{出|だ}す→持ち出す：06160_mochidasu⟧: to take out — often means removing without permission, or bringing up a topic",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "30545_hakobikomu",
+      "reading": "はこびこむ",
+      "headword": "{運|はこ}び{込|こ}む",
+      "label": "to carry in"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06160_mochidasu",
+      "reading": "もちだす",
+      "headword": "{持|も}ち{出|だ}す",
+      "label": "to take out"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -55,7 +70,7 @@
       ],
       "transitivity": "transitive",
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "movement",
         "action"
@@ -64,7 +79,7 @@
       "verb_class": "godan-su"
     },
     "created": "2026-08-10T00:22:10Z",
-    "modified": "2026-08-10T00:22:10Z"
+    "modified": "2026-09-02T04:02:40Z"
   },
   "conjugation": {
     "type": "godan",

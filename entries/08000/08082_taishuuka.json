@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "08082_taishuuka_ex1",
-      "japanese": "スマートフォンの{大衆化|たいしゅうか}が{進|すす}んだ。",
+      "japanese": "⟦スマートフォン→スマートフォン：04434_sumaatofon⟧⟦の→の：09472_no⟧{大衆化|たいしゅうか}⟦が→が：00051_ga⟧⟦{進|すす}んだ→進む：01225_susumu⟧。",
       "english": "Smartphones have become widely popularized.",
       "sense_numbers": [
         1
@@ -114,7 +114,7 @@
     },
     {
       "id": "08082_taishuuka_ex2",
-      "japanese": "{自動車|じどうしゃ}の{大衆化|たいしゅうか}は{20世紀|にじっせいき}の{大|おお}きな{変化|へんか}だった。",
+      "japanese": "⟦{自動車|じどうしゃ}→自動車：02886_jidousha⟧⟦の→の：09472_no⟧{大衆化|たいしゅうか}⟦は→は：00079_ha⟧{20世紀|にじっせいき}⟦の→の：09472_no⟧⟦{大|おお}きな→大きな：02849_ookina⟧⟦{変化|へんか}→変化：03615_henka⟧だった。",
       "english": "The mass popularization of automobiles was a major change of the 20th century.",
       "sense_numbers": [
         1
@@ -124,7 +124,7 @@
     },
     {
       "id": "08082_taishuuka_ex3",
-      "japanese": "{高級|こうきゅう}{料理|りょうり}の{大衆化|たいしゅうか}により、{誰|だれ}でも{楽|たの}しめるようになった。",
+      "japanese": "⟦{高級|こうきゅう}→高級：08644_koukyuu⟧⟦{料理|りょうり}→料理：01523_ryouri⟧⟦の→の：09472_no⟧{大衆化|たいしゅうか}⟦に→に：00314_ni⟧⟦より→より：09476_yori⟧、⟦{誰|だれ}→誰：00534_dare⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧⟦{楽|たの}しめる→楽しむ：01203_tanoshimu⟧ようになった。",
       "english": "The popularization of high-end cuisine has made it accessible to everyone.",
       "sense_numbers": [
         1
@@ -133,7 +133,23 @@
       "notes": null
     }
   ],
-  "notes": "{大衆化|たいしゅうか} describes the process of something becoming accessible to ordinary people.\n\nWORD FORMATION:\n{大衆|たいしゅう} (the masses, general public) + {化|か} (change into, -ization)\n\nVERBAL USE:\n{大衆化|たいしゅうか}する: to become popularized, to become accessible to the masses\n\nCOMMON EXPRESSIONS:\n- {大衆化|たいしゅうか}が{進|すす}む: popularization advances\n- 〜の{大衆化|たいしゅうか}: popularization of ~\n- {大衆化|たいしゅうか}した〜: popularized ~\n\nUSAGE:\nOften used for technologies, luxury goods, or cultural items that were once exclusive but became widely available. Can have neutral or slightly negative connotations (implying loss of exclusivity).\n\nRELATED:\n- {普及|ふきゅう}: spread, diffusion (more neutral)\n- {一般化|いっぱんか}: generalization\n- {民主化|みんしゅか}: democratization",
+  "notes": "{大衆化|たいしゅうか} describes the process of something becoming accessible to ordinary people.\n\nFORMS:\n⟦{大衆|たいしゅう}→大衆：10150_taishuu⟧ (the masses, general public) + ⟦{化|か}→〜化：28335_ka⟧ (change into, -ization)\n\nVERBAL USE:\n{大衆化|たいしゅうか}⟦する→する：00392_suru⟧: to become popularized, to become accessible to the masses\n\nCOMMON EXPRESSIONS:\n- {大衆化|たいしゅうか}⟦が→が：00051_ga⟧⟦{進|すす}む→進む：01225_susumu⟧: popularization advances\n- 〜⟦の→の：09472_no⟧{大衆化|たいしゅうか}: popularization of ~\n- {大衆化|たいしゅうか}⟦した→する：00392_suru⟧〜: popularized ~\n\nUSAGE:\nOften used for technologies, luxury goods, or cultural items that were once exclusive but became widely available. Can have neutral or slightly negative connotations (implying loss of exclusivity).\n\nRELATED WORDS:\n- ⟦{普及|ふきゅう}→普及：07592_fukyuu⟧: spread, diffusion (more neutral)\n- {一般化|いっぱんか}: generalization\n- ⟦{民主化|みんしゅか}→民主化：13230_minshuka⟧: democratization",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "07592_fukyuu",
+      "reading": "ふきゅう",
+      "headword": "{普及|ふきゅう}",
+      "label": "spread, diffusion"
+    },
+    {
+      "type": "related",
+      "target_id": "13230_minshuka",
+      "reading": "みんしゅか",
+      "headword": "{民主化|みんしゅか}",
+      "label": "democratization"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -142,6 +158,7 @@
         "verb-suru"
       ],
       "formality": "formal",
+      "politeness": "plain",
       "semantic": [
         "society",
         "change",
@@ -150,6 +167,6 @@
       "verb_class": "suru"
     },
     "created": "2026-01-25T01:25:08Z",
-    "modified": "2026-02-19T12:32:33Z"
+    "modified": "2026-09-02T04:01:13Z"
   }
 }

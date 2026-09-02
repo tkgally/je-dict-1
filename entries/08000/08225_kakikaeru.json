@@ -2,7 +2,7 @@
   "id": "08225_kakikaeru",
   "headword": "{書|か}き{換|か}える",
   "reading": "かきかえる",
-  "part_of_speech": "ichidan verb (transitive)",
+  "part_of_speech": "verb (ichidan, transitive)",
   "gloss": "to rewrite; to renew; to update",
   "conjugation": {
     "type": "ichidan",
@@ -109,7 +109,7 @@
   "examples": [
     {
       "id": "08225_kakikaeru_ex1",
-      "japanese": "{文章|ぶんしょう}を{書|か}き{換|か}えた。",
+      "japanese": "⟦{文章|ぶんしょう}→文章：02957_bunshou⟧⟦を→を：00422_wo⟧{書|か}き{換|か}えた。",
       "english": "I rewrote the text.",
       "sense_numbers": [
         1
@@ -119,7 +119,7 @@
     },
     {
       "id": "08225_kakikaeru_ex2",
-      "japanese": "{下書|したが}きを{何度|なんど}も{書|か}き{換|か}えた。",
+      "japanese": "⟦{下書|したが}き→下書き：06836_shitagaki⟧⟦を→を：00422_wo⟧⟦{何度|なんど}→何度：17592_nando⟧⟦も→も：00484_mo⟧{書|か}き{換|か}えた。",
       "english": "I rewrote the draft many times.",
       "sense_numbers": [
         1
@@ -129,7 +129,7 @@
     },
     {
       "id": "08225_kakikaeru_ex3",
-      "japanese": "{歴史|れきし}を{書|か}き{換|か}える{大発見|だいはっけん}だ。",
+      "japanese": "⟦{歴史|れきし}→歴史：02267_rekishi⟧⟦を→を：00422_wo⟧{書|か}き{換|か}える⟦{大発見|だいはっけん}→大発見：28152_daihakken⟧だ。",
       "english": "It's a discovery that will rewrite history.",
       "sense_numbers": [
         1
@@ -139,7 +139,7 @@
     },
     {
       "id": "08225_kakikaeru_ex4",
-      "japanese": "{免許証|めんきょしょう}を{書|か}き{換|か}える。",
+      "japanese": "⟦{免許証|めんきょしょう}→免許証：03160_menkyoshou⟧⟦を→を：00422_wo⟧{書|か}き{換|か}える。",
       "english": "To renew a driver's license.",
       "sense_numbers": [
         2
@@ -149,7 +149,7 @@
     },
     {
       "id": "08225_kakikaeru_ex5",
-      "japanese": "パスポートを{書|か}き{換|か}えなければならない。",
+      "japanese": "⟦パスポート→パスポート：00341_pasupooto⟧⟦を→を：00422_wo⟧{書|か}き{換|か}え⟦なければならない→なければならない：27600_nakerebanaranai⟧。",
       "english": "I have to renew my passport.",
       "sense_numbers": [
         2
@@ -159,7 +159,7 @@
     },
     {
       "id": "08225_kakikaeru_ex6",
-      "japanese": "{契約書|けいやくしょ}を{書|か}き{換|か}える{手続|てつづ}きをした。",
+      "japanese": "⟦{契約書|けいやくしょ}→契約書：06416_keiyakusho⟧⟦を→を：00422_wo⟧{書|か}き{換|か}える⟦{手続|てつづ}き→手続き：05453_tetsuzuki⟧⟦を→を：00422_wo⟧⟦した→する：00392_suru⟧。",
       "english": "I completed the procedure to renew the contract.",
       "sense_numbers": [
         2
@@ -168,7 +168,30 @@
       "notes": null
     }
   ],
-  "notes": "TRANSITIVITY:\nTransitive ({他動詞|たどうし})\n\nUSAGE:\n- 〜を{書|か}き{換|か}える (to rewrite/renew ~)\n\nFOR DOCUMENTS:\nWhen renewing official documents, {書|か}き{換|か}える is commonly used:\n- {免許|めんきょ}の{書|か}き{換|か}え (license renewal)\n- {登録|とうろく}の{書|か}き{換|か}え (registration renewal)\n\nRELATED:\n- {書|か}き{直|なお}す (to rewrite - implies fixing/improving)\n- {更新|こうしん}する (to renew, update - more formal)\n- {置|お}き{換|か}える (to replace)",
+  "notes": "TRANSITIVITY:\nTransitive (⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧)\n\nUSAGE:\n- 〜⟦を→を：00422_wo⟧{書|か}き{換|か}える (to rewrite/renew ~)\n\nFOR DOCUMENTS:\nWhen renewing official documents, {書|か}き{換|か}える is commonly used:\n- ⟦{免許|めんきょ}→免許：03808_menkyo⟧⟦の→の：09472_no⟧⟦{書|か}き{換|か}え→書き換え：18958_kakikae⟧ (license renewal)\n- ⟦{登録|とうろく}→登録：05703_touroku⟧⟦の→の：09472_no⟧⟦{書|か}き{換|か}え→書き換え：18958_kakikae⟧ (registration renewal)\n\nRELATED WORDS:\n- ⟦{書|か}き{直|なお}す→書き直す：04597_kakinaosu⟧ (to rewrite - implies fixing/improving)\n- ⟦{更新|こうしん}する→更新する：27994_koushinsuru⟧ (to renew, update - more formal)\n- ⟦{置|お}き{換|か}える→置き換える：08226_okikaeru⟧ (to replace)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "04597_kakinaosu",
+      "reading": "かきなおす",
+      "headword": "{書|か}き{直|なお}す",
+      "label": "to rewrite"
+    },
+    {
+      "type": "related",
+      "target_id": "27994_koushinsuru",
+      "reading": "こうしんする",
+      "headword": "{更新|こうしん}する",
+      "label": "to renew, update"
+    },
+    {
+      "type": "related",
+      "target_id": "08226_okikaeru",
+      "reading": "おきかえる",
+      "headword": "{置|お}き{換|か}える",
+      "label": "to replace"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -177,6 +200,7 @@
       ],
       "transitivity": "transitive",
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "writing",
         "documents"
@@ -184,6 +208,6 @@
       "verb_class": "ichidan"
     },
     "created": "2026-01-25T08:30:51Z",
-    "modified": "2026-07-02T15:18:16Z"
+    "modified": "2026-09-02T04:01:14Z"
   }
 }

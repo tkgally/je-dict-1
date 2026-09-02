@@ -3,7 +3,7 @@
   "headword": "{絶食|ぜっしょく}",
   "reading": "ぜっしょく",
   "romaji": "zesshoku",
-  "part_of_speech": "noun / suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "fasting; going without food",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "19704_zesshoku_ex1",
-      "japanese": "{検査|けんさ}{前|まえ}は{絶食|ぜっしょく}してください。",
+      "japanese": "⟦{検査|けんさ}→検査：02707_kensa⟧⟦{前|まえ}→前：02255_mae⟧⟦は→は：00079_ha⟧{絶食|ぜっしょく}⟦して→する：00392_suru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please fast before the examination.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "19704_zesshoku_ex2",
-      "japanese": "{抗議|こうぎ}のために{三日間|みっかかん}{絶食|ぜっしょく}した。",
+      "japanese": "⟦{抗議|こうぎ}→抗議：12807_kougi⟧⟦の→の：09472_no⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧{三日間|みっかかん}{絶食|ぜっしょく}⟦した→する：00392_suru⟧。",
       "english": "They fasted for three days in protest.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "19704_zesshoku_ex3",
-      "japanese": "{手術|しゅじゅつ}{後|ご}は{絶食|ぜっしょく}が{必要|ひつよう}で、{点滴|てんてき}だけで{栄養|えいよう}を{摂|と}っていた。",
+      "japanese": "⟦{手術|しゅじゅつ}→手術：03218_shujutsu⟧⟦{後|ご}→後：30157_go⟧⟦は→は：00079_ha⟧{絶食|ぜっしょく}⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧で、⟦{点滴|てんてき}→点滴：10580_tenteki⟧⟦だけ→〜だけ：03093_dake⟧⟦で→で：00502_de⟧⟦{栄養|えいよう}→栄養：01882_eiyou⟧⟦を→を：00422_wo⟧⟦{摂|と}っていた→摂る：29372_toru⟧。",
       "english": "Fasting was required after the surgery, and nutrition was taken only through an IV drip.",
       "sense_numbers": [
         1
@@ -134,7 +134,7 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {絶|ぜつ} (to cut off, cease) + {食|しょく} (food, eating). Refers to complete abstention from food, as opposed to simply skipping a meal. Most commonly encountered in medical contexts (pre-surgery or pre-examination fasting) and in references to hunger strikes.\n\nCOMMON COLLOCATIONS:\n- {絶食|ぜっしょく}する — to fast\n- {絶食|ぜっしょく}{状態|じょうたい} — state of fasting\n- {絶食|ぜっしょく}ストライキ — hunger strike\n- {絶食|ぜっしょく}{期間|きかん} — fasting period\n\nSIMILAR WORDS:\n- {断食|だんじき} — fasting; often used for religious or health-motivated fasting\n- {欠食|けっしょく} — skipping a meal; less severe than complete fasting\n- ファスティング — fasting; loanword used in health/diet contexts",
+  "notes": "Composed of {絶|ぜつ} (to cut off, cease) + {食|しょく} (food, eating). Refers to complete abstention from food, as opposed to simply skipping a meal. Most commonly encountered in medical contexts (pre-surgery or pre-examination fasting) and in references to hunger strikes.\n\nCOMMON COLLOCATIONS:\n- {絶食|ぜっしょく}⟦する→する：00392_suru⟧ — to fast\n- {絶食|ぜっしょく}⟦{状態|じょうたい}→状態：03345_joutai⟧ — state of fasting\n- {絶食|ぜっしょく}ストライキ — hunger strike\n- {絶食|ぜっしょく}⟦{期間|きかん}→期間：00229_kikan⟧ — fasting period\n\nSIMILAR WORDS:\n- {断食|だんじき} — fasting; often used for religious or health-motivated fasting\n- {欠食|けっしょく} — skipping a meal; less severe than complete fasting\n- ファスティング — fasting; loanword used in health/diet contexts",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -149,9 +149,10 @@
         "food",
         "health"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     },
     "created": "2026-03-26T14:26:37Z",
-    "modified": "2026-07-27T12:42:09Z"
+    "modified": "2026-09-02T04:01:56Z"
   }
 }

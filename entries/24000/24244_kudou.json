@@ -3,7 +3,7 @@
   "headword": "{駆動|くどう}",
   "reading": "くどう",
   "romaji": "kudou",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "drive; propulsion",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24244_kudou_ex1",
-      "japanese": "この{車|くるま}は{四輪|よんりん}{駆動|くどう}だ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{車|くるま}→車：00516_kuruma⟧⟦は→は：00079_ha⟧{四輪|よんりん}{駆動|くどう}だ。",
       "english": "This car is four-wheel drive.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24244_kudou_ex2",
-      "japanese": "モーターで{駆動|くどう}する{装置|そうち}を{開発|かいはつ}した。",
+      "japanese": "⟦モーター→モーター：23127_mootaa⟧⟦で→で：00502_de⟧{駆動|くどう}⟦する→する：00392_suru⟧⟦{装置|そうち}→装置：03318_souchi⟧⟦を→を：00422_wo⟧⟦{開発|かいはつ}→開発：06746_kaihatsu⟧⟦した→する：00392_suru⟧。",
       "english": "We developed a motor-driven device.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24244_kudou_ex3",
-      "japanese": "{電気|でんき}{駆動|くどう}の{自動車|じどうしゃ}は{環境|かんきょう}にやさしいと{言|い}われている。",
+      "japanese": "⟦{電気|でんき}→電気：09780_denki⟧{駆動|くどう}⟦の→の：09472_no⟧⟦{自動車|じどうしゃ}→自動車：02886_jidousha⟧⟦は→は：00079_ha⟧⟦{環境|かんきょう}→環境：00174_kankyou⟧⟦に→に：00314_ni⟧やさしい⟦と→と：00512_to⟧⟦{言|い}われている→言う：00515_iu⟧。",
       "english": "Electrically driven cars are said to be environmentally friendly.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {駆|く} ('to drive; to gallop') and {動|どう} ('to move'). Originally described driving horses at speed, now almost exclusively used in mechanical and technological contexts.\n\nCOMMON COLLOCATIONS:\n- {四輪|よんりん}{駆動|くどう} (4WD): four-wheel drive\n- {前輪|ぜんりん}{駆動|くどう} (FWD): front-wheel drive\n- {後輪|こうりん}{駆動|くどう} (RWD): rear-wheel drive\n- {駆動|くどう}{方式|ほうしき}: drive system; drive type\n- {駆動|くどう}{力|りょく}: driving force; motive power\n- {電気|でんき}{駆動|くどう}: electric drive\n\nSIMILAR WORDS:\n- {動力|どうりょく}: motive power; power source — emphasizes the energy source rather than the transmission mechanism\n- {推進|すいしん}: propulsion; promotion — used for rockets, ships, and figuratively for driving initiatives forward\n- {運転|うんてん}: operation; driving — focuses on the human act of operating a vehicle or machine",
+  "notes": "Compound of {駆|く} ('to drive; to gallop') and {動|どう} ('to move'). Originally described driving horses at speed, now almost exclusively used in mechanical and technological contexts.\n\nCOMMON COLLOCATIONS:\n- {四輪|よんりん}{駆動|くどう} (4WD): four-wheel drive\n- {前輪|ぜんりん}{駆動|くどう} (FWD): front-wheel drive\n- {後輪|こうりん}{駆動|くどう} (RWD): rear-wheel drive\n- {駆動|くどう}⟦{方式|ほうしき}→方式：05454_houshiki⟧: drive system; drive type\n- {駆動|くどう}{力|りょく}: driving force; motive power\n- ⟦{電気|でんき}→電気：09780_denki⟧{駆動|くどう}: electric drive\n\nSIMILAR WORDS:\n- ⟦{動力|どうりょく}→動力：18784_douryoku⟧: motive power; power source — emphasizes the energy source rather than the transmission mechanism\n- ⟦{推進|すいしん}→推進：12908_suishin⟧: propulsion; promotion — used for rockets, ships, and figuratively for driving initiatives forward\n- ⟦{運転|うんてん}→運転：01335_unten⟧: operation; driving — focuses on the human act of operating a vehicle or machine",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18784_douryoku",
+      "reading": "どうりょく",
+      "headword": "{動力|どうりょく}",
+      "label": "motive power"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12908_suishin",
+      "reading": "すいしん",
+      "headword": "{推進|すいしん}",
+      "label": "propulsion"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01335_unten",
+      "reading": "うんてん",
+      "headword": "{運転|うんてん}",
+      "label": "operation"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -64,7 +87,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-18T11:21:44Z",
-    "modified": "2026-04-18T11:21:44Z"
+    "modified": "2026-09-02T04:02:17Z"
   },
   "conjugation": {
     "type": "suru",

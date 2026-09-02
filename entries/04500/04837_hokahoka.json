@@ -2,7 +2,7 @@
   "id": "04837_hokahoka",
   "headword": "ほかほか",
   "reading": "ほかほか",
-  "part_of_speech": "adverb, na-adjective, verb (suru)",
+  "part_of_speech": "adverb, na-adjective, suru verb",
   "gloss": "warm, steaming",
   "conjugation": {
     "type": "suru",
@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "04837_hokahoka_ex1",
-      "japanese": "ほかほかの⟦{焼|や}きたて→焼き立て：08344_yakitate⟧⟦パン→パン：00553_pan⟧⟦を→を：00422_wo⟧⟦{食|た}べた→食べる：00396_taberu⟧。",
+      "japanese": "ほかほか⟦の→の：09472_no⟧⟦{焼|や}きたて→焼き立て：08344_yakitate⟧⟦パン→パン：00553_pan⟧⟦を→を：00422_wo⟧⟦{食|た}べた→食べる：00396_taberu⟧。",
       "english": "I ate freshly baked, warm bread.",
       "has_audio": false,
       "sense_numbers": [
@@ -122,7 +122,7 @@
     },
     {
       "id": "04837_hokahoka_ex3",
-      "japanese": "ほかほかの⟦{御飯|ごはん}→御飯：00776_gohan⟧⟦が→が：00051_ga⟧⟦{食|た}べたい→食べる：00396_taberu⟧。",
+      "japanese": "ほかほか⟦の→の：09472_no⟧⟦{御飯|ごはん}→御飯：00776_gohan⟧⟦が→が：00051_ga⟧⟦{食|た}べたい→食べる：00396_taberu⟧。",
       "english": "I want to eat steaming hot rice.",
       "has_audio": false,
       "sense_numbers": [
@@ -130,7 +130,7 @@
       ]
     }
   ],
-  "notes": "ほかほか is an onomatopoeia describing pleasant warmth, especially from freshly cooked food.\n\nGRAMMAR:\n- Adverb: ほかほかと⟦{温|あたた}かい→温かい：13395_atatakai⟧\n- Na-adjective: ほかほかの + noun\n- Suru verb: ⟦{体|からだ}→体：00784_karada⟧⟦が→が：00051_ga⟧ほかほかする\n\nCOMMON PATTERNS:\n- ほかほかの⟦{御飯|ごはん}→御飯：00776_gohan⟧: steaming hot rice\n- ほかほかの⟦{弁当|べんとう}→弁当：01014_bentou⟧: hot/warm bento\n- ほかほかに⟦{温|あたた}まる→温まる：02095_atatamaru⟧: to get nice and warm\n\nNUANCE:\nConveys pleasant, comforting warmth - not scorching hot. Associated with freshly cooked food, warm drinks, or the comfortable feeling after a bath.\n\nSIMILAR WORDS:\n- ⟦あつあつ→あつあつ：20109_atsuatsu⟧: piping hot (hotter than ほかほか)\n- ⟦ぽかぽか→ぽかぽか：05784_pokapoka⟧: warm and cozy (body warmth)\n\nCULTURAL NOTE:\nほっかほっか{亭|てい} is a popular bento chain whose name derives from this word.",
+  "notes": "ほかほか is an onomatopoeia describing pleasant warmth, especially from freshly cooked food.\n\nCOMMON PATTERNS:\n- Adverb: ほかほか⟦と→と：00512_to⟧⟦{温|あたた}かい→温かい：13395_atatakai⟧\n- Na-adjective: ほかほか⟦の→の：09472_no⟧ + noun\n- Suru verb: ⟦{体|からだ}→体：00784_karada⟧⟦が→が：00051_ga⟧ほかほか⟦する→する：00392_suru⟧\n- ほかほか⟦の→の：09472_no⟧⟦{御飯|ごはん}→御飯：00776_gohan⟧: steaming hot rice\n- ほかほか⟦の→の：09472_no⟧⟦{弁当|べんとう}→弁当：01014_bentou⟧: hot/warm bento\n- ほかほか⟦に→に：00314_ni⟧⟦{温|あたた}まる→温まる：02095_atatamaru⟧: to get nice and warm\n\nUSAGE:\nConveys pleasant, comforting warmth - not scorching hot. Associated with freshly cooked food, warm drinks, or the comfortable feeling after a bath.\n\nSIMILAR WORDS:\n- ⟦あつあつ→あつあつ：20109_atsuatsu⟧: piping hot (hotter than ほかほか)\n- ⟦ぽかぽか→ぽかぽか：05784_pokapoka⟧: warm and cozy (body warmth)\n\nCULTURAL NOTE:\nほっかほっか{亭|てい} is a popular bento chain whose name derives from this word.",
   "cross_references": [
     {
       "type": "synonym",
@@ -145,11 +145,32 @@
       "reading": "ぬくぬく",
       "headword": "ぬくぬく",
       "label": "snugly warm"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20109_atsuatsu",
+      "reading": "あつあつ",
+      "headword": "{熱々|あつあつ}",
+      "label": "piping hot"
+    },
+    {
+      "type": "related",
+      "target_id": "08508_jinwari",
+      "reading": "じんわり",
+      "headword": "じんわり",
+      "label": "gradually"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21494_attakai",
+      "reading": "あったかい",
+      "headword": "あったかい",
+      "label": "warm"
     }
   ],
   "metadata": {
     "created": "2026-01-15T23:57:36Z",
-    "modified": "2026-08-04T03:22:59Z",
+    "modified": "2026-09-02T04:01:05Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -163,7 +184,8 @@
       "semantic": [
         "food"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

@@ -3,7 +3,7 @@
   "id": "16987_judouteki",
   "headword": "{受動的|じゅどうてき}",
   "reading": "じゅどうてき",
-  "part_of_speech": "adjective-na",
+  "part_of_speech": "na-adjective",
   "gloss": "passive; inactive",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "16987_judouteki_ex1",
-      "japanese": "{彼|かれ}は{受動的|じゅどうてき}な{性格|せいかく}だ。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{受動的|じゅどうてき}な⟦{性格|せいかく}→性格：03371_seikaku⟧だ。",
       "english": "He has a passive personality.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "16987_judouteki_ex2",
-      "japanese": "{受動的|じゅどうてき}な{態度|たいど}では{成長|せいちょう}できない。",
+      "japanese": "{受動的|じゅどうてき}な⟦{態度|たいど}→態度：03396_taido⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{成長|せいちょう}→成長：03290_seichou⟧⟦できない→できる：00557_dekiru⟧。",
       "english": "You cannot grow with a passive attitude.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "16987_judouteki_ex3",
-      "japanese": "{授業|じゅぎょう}で{受動的|じゅどうてき}に{聞|き}いているだけでは、{内容|ないよう}が{身|み}に{付|つ}かない。",
+      "japanese": "⟦{授業|じゅぎょう}→授業：00781_jugyou⟧⟦で→で：00502_de⟧{受動的|じゅどうてき}⟦に→に：00314_ni⟧⟦{聞|き}いている→聞く：00483_kiku⟧⟦だけ→〜だけ：03093_dake⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧、⟦{内容|ないよう}→内容：01482_naiyou⟧⟦が→が：00051_ga⟧⟦{身|み}→身：01764_mi⟧⟦に→に：00314_ni⟧⟦{付|つ}かない→付く：01960_tsuku⟧。",
       "english": "If you just passively listen in class, the content won't stick.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nThe opposite of {能動的|のうどうてき} (active, proactive). Often used in educational and workplace contexts to describe people who wait for instructions rather than taking initiative.\n\nCOMMON COLLOCATIONS:\n- {受動的|じゅどうてき}な{態度|たいど} (passive attitude)\n- {受動的|じゅどうてき}な{学習|がくしゅう} (passive learning)\n- {受動的|じゅどうてき}な{姿勢|しせい} (passive stance)\n\nSIMILAR WORDS:\n- {消極的|しょうきょくてき}: negative, passive — broader term that includes reluctance or timidity, while {受動的|じゅどうてき} specifically means receiving rather than acting",
+  "notes": "USAGE:\nThe opposite of ⟦{能動的|のうどうてき}→能動的：13963_noudouteki⟧ (active, proactive). Often used in educational and workplace contexts to describe people who wait for instructions rather than taking initiative.\n\nCOMMON COLLOCATIONS:\n- {受動的|じゅどうてき}な⟦{態度|たいど}→態度：03396_taido⟧ (passive attitude)\n- {受動的|じゅどうてき}な⟦{学習|がくしゅう}→学習：02623_gakushuu⟧ (passive learning)\n- {受動的|じゅどうてき}な⟦{姿勢|しせい}→姿勢：00371_shisei⟧ (passive stance)\n\nSIMILAR WORDS:\n- ⟦{消極的|しょうきょくてき}→消極的：04779_shoukyokuteki⟧: negative, passive — broader term that includes reluctance or timidity, while {受動的|じゅどうてき} specifically means receiving rather than acting",
   "cross_references": [
     {
       "type": "antonym",
@@ -59,11 +59,25 @@
       "reading": "のうどうてき",
       "headword": "{能動的|のうどうてき}",
       "label": "active, proactive"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04779_shoukyokuteki",
+      "reading": "しょうきょくてき",
+      "headword": "{消極的|しょうきょくてき}",
+      "label": "negative, passive"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25731_hannouteki",
+      "reading": "はんのうてき",
+      "headword": "{反応的|はんのうてき}",
+      "label": "reactive"
     }
   ],
   "metadata": {
     "created": "2026-03-15T05:53:16Z",
-    "modified": "2026-07-22T03:30:08Z",
+    "modified": "2026-09-02T04:01:46Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

@@ -15,41 +15,60 @@
   "examples": [
     {
       "id": "29812_sanketa_ex1",
-      "japanese": "パスワードは{三桁|さんけた}の{数字|すうじ}だ。",
+      "japanese": "⟦パスワード→パスワード：05277_pasuwaado⟧⟦は→は：00079_ha⟧{三桁|さんけた}⟦の→の：09472_no⟧⟦{数字|すうじ}→数字：03361_suuji⟧だ。",
       "english": "The password is a three-digit number.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29812_sanketa_ex2",
-      "japanese": "{売上|うりあげ}がついに{三桁|さんけた}に{届|とど}いた。",
+      "japanese": "⟦{売上|うりあげ}→売上：04102_uriage⟧⟦が→が：00051_ga⟧ついに{三桁|さんけた}⟦に→に：00314_ni⟧⟦{届|とど}いた→届く：00899_todoku⟧。",
       "english": "Sales finally reached three digits (the hundreds).",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29812_sanketa_ex3",
-      "japanese": "{二桁|ふたけた}の{掛|か}け{算|ざん}をすると{答|こた}えが{三桁|さんけた}になることがある。",
+      "japanese": "⟦{二桁|ふたけた}→二桁：15881_futaketa⟧⟦の→の：09472_no⟧⟦{掛|か}け{算|ざん}→掛け算：05334_kakezan⟧⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧⟦と→と：00512_to⟧⟦{答|こた}え→答え：00790_kotae⟧⟦が→が：00051_ga⟧{三桁|さんけた}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧こと⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "Multiplying two-digit numbers can give a three-digit answer.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "{桁|けた} means a digit or decimal place, so {三桁|さんけた} is a number with three places — the hundreds, from 100 to 999. The pattern extends to other counts of digits.\n\nCOMMON COLLOCATIONS:\n- {三桁|さんけた}の{数字|すうじ}: a three-digit number\n- {三桁|さんけた}に{乗|の}る: to reach three digits (the hundreds)\n\nRELATED:\n- {二桁|ふたけた}: two digits (10–99)\n- {四桁|よんけた}: four digits (1,000–9,999)",
+  "notes": "⟦{桁|けた}→桁：03884_keta⟧ means a digit or decimal place, so {三桁|さんけた} is a number with three places — the hundreds, from 100 to 999. The pattern extends to other counts of digits.\n\nCOMMON COLLOCATIONS:\n- {三桁|さんけた}⟦の→の：09472_no⟧⟦{数字|すうじ}→数字：03361_suuji⟧: a three-digit number\n- {三桁|さんけた}⟦に→に：00314_ni⟧⟦{乗|の}る→乗る：00511_noru⟧: to reach three digits (the hundreds)\n\nRELATED WORDS:\n- ⟦{二桁|ふたけた}→二桁：15881_futaketa⟧: two digits (10–99)\n- {四桁|よんけた}: four digits (1,000–9,999)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "15881_futaketa",
+      "reading": "ふたけた",
+      "headword": "{二桁|ふたけた}",
+      "label": "two digits"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["number"],
+      "politeness": "plain",
+      "semantic": [
+        "number"
+      ],
       "domain": []
     },
     "created": "2026-07-13T12:21:17Z",
-    "modified": "2026-07-13T12:21:17Z"
+    "modified": "2026-09-02T04:02:38Z"
   }
 }

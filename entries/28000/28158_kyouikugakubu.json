@@ -15,41 +15,60 @@
   "examples": [
     {
       "id": "28158_kyouikugakubu_ex1",
-      "japanese": "{教育学部|きょういくがくぶ}で{学|まな}んでいる。",
+      "japanese": "{教育学部|きょういくがくぶ}⟦で→で：00502_de⟧⟦{学|まな}んでいる→学ぶ：01987_manabu⟧。",
       "english": "I'm studying in the faculty of education.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28158_kyouikugakubu_ex2",
-      "japanese": "{彼|かれ}は{教育学部|きょういくがくぶ}を{出|で}て{教師|きょうし}になった。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{教育学部|きょういくがくぶ}⟦を→を：00422_wo⟧⟦{出|で}て→出る：00513_deru⟧⟦{教師|きょうし}→教師：03029_kyoushi⟧になった。",
       "english": "He graduated from the faculty of education and became a teacher.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28158_kyouikugakubu_ex3",
-      "japanese": "{教育学部|きょういくがくぶ}では{教員免許|きょういんめんきょ}を{取|と}るための{科目|かもく}を{学|まな}ぶ。",
+      "japanese": "{教育学部|きょういくがくぶ}⟦で→で：00502_de⟧⟦は→は：00079_ha⟧{教員免許|きょういんめんきょ}⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧⟦ため→ため：01145_tame⟧⟦の→の：09472_no⟧⟦{科目|かもく}→科目：00163_kamoku⟧⟦を→を：00422_wo⟧⟦{学|まな}ぶ→学ぶ：01987_manabu⟧。",
       "english": "In the faculty of education you study courses for earning a teaching license.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Compound of {教育|きょういく} (education) + {学部|がくぶ} (faculty). Most graduates pursue a teaching license, though the faculty also covers educational research.\n\nCOMMON COLLOCATIONS:\n- {教育学部|きょういくがくぶ}に{進|すす}む: to go on to the faculty of education\n- {教育学部|きょういくがくぶ}の{付属校|ふぞくこう}: a school attached to the faculty of education\n- {国立|こくりつ}{大学|だいがく}の{教育学部|きょういくがくぶ}: the faculty of education at a national university",
+  "notes": "Compound of ⟦{教育|きょういく}→教育：01313_kyouiku⟧ (education) + {学部|がくぶ} (faculty). Most graduates pursue a teaching license, though the faculty also covers educational research.\n\nCOMMON COLLOCATIONS:\n- {教育学部|きょういくがくぶ}⟦に→に：00314_ni⟧⟦{進|すす}む→進む：01225_susumu⟧: to go on to the faculty of education\n- {教育学部|きょういくがくぶ}⟦の→の：09472_no⟧{付属校|ふぞくこう}: a school attached to the faculty of education\n- ⟦{国立|こくりつ}→国立：04153_kokuritsu⟧⟦{大学|だいがく}→大学：00608_daigaku⟧⟦の→の：09472_no⟧{教育学部|きょういくがくぶ}: the faculty of education at a national university",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "24048_bungakubu",
+      "reading": "ぶんがくぶ",
+      "headword": "{文学部|ぶんがくぶ}",
+      "label": "Faculty of Letters, Faculty of Humanities"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["education"],
+      "politeness": "plain",
+      "semantic": [
+        "education"
+      ],
       "domain": []
     },
     "created": "2026-05-26T04:08:43Z",
-    "modified": "2026-05-26T04:08:43Z"
+    "modified": "2026-09-02T04:02:32Z"
   }
 }

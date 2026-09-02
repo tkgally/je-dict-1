@@ -15,40 +15,60 @@
   "examples": [
     {
       "id": "22594_gyosen_ex1",
-      "japanese": "{漁船|ぎょせん}が{港|みなと}に{戻|もど}ってきた。",
+      "japanese": "{漁船|ぎょせん}⟦が→が：00051_ga⟧⟦{港|みなと}→港：01512_minato⟧⟦に→に：00314_ni⟧⟦{戻|もど}って→戻る：01117_modoru⟧きた。",
       "english": "The fishing boats returned to the harbor.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "22594_gyosen_ex2",
-      "japanese": "{小|ちい}さな{漁船|ぎょせん}が{朝早|あさはや}く{沖|おき}に{出|で}た。",
+      "japanese": "⟦{小|ちい}さな→小さな：02913_chiisana⟧{漁船|ぎょせん}⟦が→が：00051_ga⟧{朝早|あさはや}く⟦{沖|おき}→沖：02144_oki⟧⟦に→に：00314_ni⟧⟦{出|で}た→出る：00513_deru⟧。",
       "english": "A small fishing boat went out to sea early in the morning.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "22594_gyosen_ex3",
-      "japanese": "{台風|たいふう}が{近|ちか}づいているため、すべての{漁船|ぎょせん}が{港|みなと}に{避難|ひなん}している。",
+      "japanese": "⟦{台風|たいふう}→台風：01455_taifuu⟧⟦が→が：00051_ga⟧⟦{近|ちか}づいている→近づく：01958_chikazuku⟧⟦ため→ため：01145_tame⟧、すべて⟦の→の：09472_no⟧{漁船|ぎょせん}⟦が→が：00051_ga⟧⟦{港|みなと}→港：01512_minato⟧⟦に→に：00314_ni⟧⟦{避難|ひなん}している→避難する：26827_hinansuru⟧。",
       "english": "All fishing boats have taken shelter in the harbor because a typhoon is approaching.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {漁|ぎょ} (fishing, as an industry) and {船|せん} (vessel, ship). This is the standard formal term for fishing boats. Japan has a long maritime tradition, and {漁船|ぎょせん} frequently appears in news reports about fishing industry, maritime incidents, and weather warnings.\n\nCOMMON COLLOCATIONS:\n- {漁船|ぎょせん}が{沖|おき}に{出|で}る: a fishing boat goes offshore\n- {漁船|ぎょせん}が{転覆|てんぷく}する: a fishing boat capsizes\n- {漁船|ぎょせん}の{乗組員|のりくみいん}: fishing boat crew\n- {小型|こがた}{漁船|ぎょせん}: small fishing vessel\n\nSIMILAR WORDS:\n- {釣|つ}り{船|ぶね}: fishing boat — for recreational fishing charters\n- {船|ふね}: boat; ship — the general word for any watercraft\n- {漁|りょう}: fishing — the act of commercial fishing itself",
+  "notes": "A compound of {漁|ぎょ} (fishing, as an industry) and ⟦{船|せん}→船：09875_sen⟧ (vessel, ship). This is the standard formal term for fishing boats. Japan has a long maritime tradition, and {漁船|ぎょせん} frequently appears in news reports about fishing industry, maritime incidents, and weather warnings.\n\nCOMMON COLLOCATIONS:\n- {漁船|ぎょせん}⟦が→が：00051_ga⟧⟦{沖|おき}→沖：02144_oki⟧⟦に→に：00314_ni⟧⟦{出|で}る→出る：00513_deru⟧: a fishing boat goes offshore\n- {漁船|ぎょせん}⟦が→が：00051_ga⟧⟦{転覆|てんぷく}→転覆：24054_tenpuku⟧⟦する→する：00392_suru⟧: a fishing boat capsizes\n- {漁船|ぎょせん}⟦の→の：09472_no⟧⟦{乗組員|のりくみいん}→乗組員：21154_norikumiin⟧: fishing boat crew\n- ⟦{小型|こがた}→小型：12460_kogata⟧{漁船|ぎょせん}: small fishing vessel\n\nSIMILAR WORDS:\n- {釣|つ}り{船|ぶね}: fishing boat — for recreational fishing charters\n- ⟦{船|ふね}→船：00775_fune⟧: boat; ship — the general word for any watercraft\n- {漁|りょう}: fishing — the act of commercial fishing itself",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22204_kamotsusen",
+      "reading": "かもつせん",
+      "headword": "{貨物船|かもつせん}",
+      "label": "cargo ship"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["transportation", "nature"],
+      "pos": [
+        "noun"
+      ],
+      "semantic": [
+        "transportation",
+        "nature"
+      ],
       "formality": "neutral",
       "politeness": "plain"
     },
     "created": "2026-04-06T19:14:01Z",
-    "modified": "2026-04-06T19:14:01Z"
+    "modified": "2026-09-02T04:02:08Z"
   }
 }

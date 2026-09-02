@@ -129,7 +129,7 @@
     },
     {
       "id": "06165_hikiokosu_ex3",
-      "japanese": "⟦{経済|けいざい}→経済：01394_keizai⟧⟦{危機|きき}→危機：11798_kiki⟧⟦が→が：00051_ga⟧⟦{社会|しゃかい}→社会：01427_shakai⟧⟦{不安|ふあん}→不安：00836_fuan⟧⟦を→を：00422_wo⟧{引|ひ}き{起|お}こしている。",
+      "japanese": "⟦{経済|けいざい}→経済：01394_keizai⟧⟦{危機|きき}→危機：11798_kiki⟧⟦が→が：00051_ga⟧⟦{社会|しゃかい}→社会：01427_shakai⟧⟦{不安|ふあん}→不安：00836_fuan⟧⟦を→を：00422_wo⟧{引|ひ}き{起|お}こして⟦いる→いる：00495_iru⟧。",
       "english": "The economic crisis is causing social unrest.",
       "notes": null,
       "has_audio": false,
@@ -168,7 +168,7 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive). Compound verb: ⟦{引|ひ}く→引く：01978_hiku⟧ + ⟦{起|お}こす→起こす：01234_okosu⟧. Pattern: Xを{引|ひ}き{起|お}こす (cause X / help X up).\n\nASPECT: ている indicates ongoing situation or resulting state. {引|ひ}き{起|お}こしている = 'is causing' or 'has caused.'\n\nCOMMON PATTERNS:\n・⟦{問題|もんだい}→問題：00797_mondai⟧⟦を→を：00422_wo⟧{引|ひ}き{起|お}こす (cause a problem)\n・⟦{事故|じこ}→事故：00851_jiko⟧⟦を→を：00422_wo⟧{引|ひ}き{起|お}こす (cause an accident)\n・⟦{反発|はんぱつ}→反発：08676_hanpatsu⟧⟦を→を：00422_wo⟧{引|ひ}き{起|お}こす (provoke opposition)\n・⟦{副作用|ふくさよう}→副作用：05015_fukusayou⟧⟦を→を：00422_wo⟧{引|ひ}き{起|お}こす (cause side effects)\n\nNOTE: Sense 1 (to cause) is much more common than sense 2 (to help up). Often used for negative events or consequences.",
+  "notes": "TRANSITIVITY: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive). Compound verb: ⟦{引|ひ}く→引く：01978_hiku⟧ + ⟦{起|お}こす→起こす：01234_okosu⟧. Pattern: X⟦を→を：00422_wo⟧{引|ひ}き{起|お}こす (cause X / help X up).\n\nASPECT: て⟦いる→いる：00495_iru⟧ indicates ongoing situation or resulting state. {引|ひ}き{起|お}こして⟦いる→いる：00495_iru⟧ = 'is causing' or 'has caused.'\n\nCOMMON PATTERNS:\n- ⟦{問題|もんだい}→問題：00797_mondai⟧⟦を→を：00422_wo⟧{引|ひ}き{起|お}こす (cause a problem)\n- ⟦{事故|じこ}→事故：00851_jiko⟧⟦を→を：00422_wo⟧{引|ひ}き{起|お}こす (cause an accident)\n- ⟦{反発|はんぱつ}→反発：08676_hanpatsu⟧⟦を→を：00422_wo⟧{引|ひ}き{起|お}こす (provoke opposition)\n- ⟦{副作用|ふくさよう}→副作用：05015_fukusayou⟧⟦を→を：00422_wo⟧{引|ひ}き{起|お}こす (cause side effects)\n\nNOTE: Sense 1 (to cause) is much more common than sense 2 (to help up). Often used for negative events or consequences.",
   "cross_references": [
     {
       "type": "related",
@@ -181,11 +181,25 @@
       "reading": "ひく",
       "headword": "{引|ひ}く",
       "target_id": "01978_hiku"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18378_yuuhatsusuru",
+      "reading": "ゆうはつする",
+      "headword": "{誘発|ゆうはつ}する",
+      "label": "to trigger"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28817_kanki",
+      "reading": "かんき",
+      "headword": "{喚起|かんき}",
+      "label": "arousal"
     }
   ],
   "metadata": {
     "created": "2026-01-17T04:29:29Z",
-    "modified": "2026-06-18T06:20:49Z",
+    "modified": "2026-09-02T04:01:08Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

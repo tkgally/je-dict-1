@@ -15,41 +15,73 @@
   "examples": [
     {
       "id": "12915_bunkobon_ex1",
-      "japanese": "{文庫本|ぶんこぼん}なら{鞄|かばん}に{入|はい}る。",
+      "japanese": "{文庫本|ぶんこぼん}なら{鞄|かばん}⟦に→に：00314_ni⟧⟦{入|はい}る→入る：00494_hairu⟧。",
       "english": "A paperback will fit in a bag.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12915_bunkobon_ex2",
-      "japanese": "ハードカバーは{高|たか}いので、{文庫本|ぶんこぼん}が{出|で}るまで{待|ま}つことにした。",
+      "japanese": "ハードカバー⟦は→は：00079_ha⟧⟦{高|たか}い→高い：00500_takai⟧⟦の→の：09472_no⟧で、{文庫本|ぶんこぼん}⟦が→が：00051_ga⟧⟦{出|で}る→出る：00513_deru⟧⟦まで→まで：00490_made⟧⟦{待|ま}つ→待つ：00469_matsu⟧ことにした。",
       "english": "Since the hardcover is expensive, I decided to wait until the paperback comes out.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12915_bunkobon_ex3",
-      "japanese": "{通勤|つうきん}{電車|でんしゃ}の{中|なか}で{文庫本|ぶんこぼん}を{読|よ}んでいる{人|ひと}を{見|み}かけることが{多|おお}い。",
+      "japanese": "⟦{通勤|つうきん}{電車|でんしゃ}→通勤電車：08568_tsuukindensha⟧⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧⟦で→で：00502_de⟧{文庫本|ぶんこぼん}⟦を→を：00422_wo⟧⟦{読|よ}んでいる→読む：00426_yomu⟧⟦{人|ひと}→人：00476_hito⟧⟦を→を：00422_wo⟧⟦{見|み}かける→見かける：01644_mikakeru⟧こと⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "You often see people reading paperbacks on commuter trains.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nA compound of {文庫|ぶんこ} (library/collection) and {本|ほん} (book). The bunko format is a staple of Japanese publishing — major publishers have their own bunko lines (e.g., {新潮文庫|しんちょうぶんこ}, {角川文庫|かどかわぶんこ}). Bunko books are typically priced around ¥500-800, significantly cheaper than hardcovers. They are popular for reading on trains due to their compact size.\n\nCOMMON COLLOCATIONS:\n- {文庫本|ぶんこぼん}を{読|よ}む: to read a paperback\n- {文庫本|ぶんこぼん}{化|か}: publication in paperback format\n- {文庫本|ぶんこぼん}サイズ: paperback size\n\nSIMILAR WORDS:\n- {単行本|たんこうぼん}: standalone book, hardcover edition\n- {新書|しんしょ}: shinsho (a slightly taller pocket-sized nonfiction format)",
-  "cross_references": [],
+  "notes": "USAGE:\nA compound of ⟦{文庫|ぶんこ}→文庫：18437_bunko⟧ (library/collection) and {本|ほん} (book). The bunko format is a staple of Japanese publishing — major publishers have their own bunko lines (e.g., {新潮文庫|しんちょうぶんこ}, {角川文庫|かどかわぶんこ}). Bunko books are typically priced around ¥500-800, significantly cheaper than hardcovers. They are popular for reading on trains due to their compact size.\n\nCOMMON COLLOCATIONS:\n- {文庫本|ぶんこぼん}⟦を→を：00422_wo⟧⟦{読|よ}む→読む：00426_yomu⟧: to read a paperback\n- {文庫本|ぶんこぼん}⟦{化|か}→〜化：28335_ka⟧: publication in paperback format\n- {文庫本|ぶんこぼん}⟦サイズ→サイズ：01363_saizu⟧: paperback size\n\nSIMILAR WORDS:\n- ⟦{単行本|たんこうぼん}→単行本：11937_tankoubon⟧: standalone book, hardcover edition\n- ⟦{新書|しんしょ}→新書：16406_shinsho⟧: shinsho (a slightly taller pocket-sized nonfiction format)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11937_tankoubon",
+      "reading": "たんこうぼん",
+      "headword": "{単行本|たんこうぼん}",
+      "label": "standalone book, hardcover edition"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16406_shinsho",
+      "reading": "しんしょ",
+      "headword": "{新書|しんしょ}",
+      "label": "shinsho"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24633_gappon",
+      "reading": "がっぽん",
+      "headword": "{合本|がっぽん}",
+      "label": "combined volume"
+    }
+  ],
   "metadata": {
     "created": "2026-02-22T14:29:50Z",
-    "modified": "2026-02-22T14:29:50Z",
+    "modified": "2026-09-02T04:01:31Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

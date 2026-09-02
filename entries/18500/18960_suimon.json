@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "18960_suimon_ex1",
-      "japanese": "{水門|すいもん}を{開|あ}けた。",
+      "japanese": "{水門|すいもん}⟦を→を：00422_wo⟧⟦{開|あ}けた→開ける：00563_akeru⟧。",
       "english": "They opened the floodgate.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "18960_suimon_ex2",
-      "japanese": "{大雨|おおあめ}に{備|そな}えて{水門|すいもん}を{閉|し}めた。",
+      "japanese": "⟦{大雨|おおあめ}→大雨：03015_ooame⟧⟦に→に：00314_ni⟧⟦{備|そな}えて→備える：02125_sonaeru⟧{水門|すいもん}⟦を→を：00422_wo⟧⟦{閉|し}めた→閉める：00485_shimeru⟧。",
       "english": "They closed the sluice gate in preparation for heavy rain.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "18960_suimon_ex3",
-      "japanese": "この{川|かわ}には{洪水|こうずい}を{防|ふせ}ぐための{水門|すいもん}がいくつも{設置|せっち}されている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{川|かわ}→川：02186_kawa⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{洪水|こうずい}→洪水：05065_kouzui⟧⟦を→を：00422_wo⟧⟦{防|ふせ}ぐ→防ぐ：02409_fusegu⟧⟦ため→ため：01145_tame⟧⟦の→の：09472_no⟧{水門|すいもん}⟦が→が：00051_ga⟧いくつ⟦も→も：00484_mo⟧⟦{設置|せっち}→設置：09750_secchi⟧⟦されている→する：00392_suru⟧。",
       "english": "Several floodgates have been installed along this river to prevent flooding.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {水|すい} (water) + {門|もん} (gate). A gate or barrier used to control water flow in rivers, canals, and dams.\n\nCOMMON COLLOCATIONS:\n- {水門|すいもん}を{開|あ}ける: to open a sluice gate\n- {水門|すいもん}を{閉|し}める: to close a sluice gate\n- {防潮|ぼうちょう}{水門|すいもん}: tidal floodgate\n- {排水|はいすい}{水門|すいもん}: drainage gate\n\nIN JAPAN:\nJapan's many rivers and flood-prone geography make {水門|すいもん} critical infrastructure. They are frequently mentioned in news during {台風|たいふう} (typhoon) season and {大雨|おおあめ} (heavy rain) events.\n\nRELATED:\n- ダム: dam\n- {堤防|ていぼう}: levee, embankment\n- {放水|ほうすい}: water discharge\n- {治水|ちすい}: flood control",
+  "notes": "A compound of {水|すい} (water) + ⟦{門|もん}→門：14603_mon⟧ (gate). A gate or barrier used to control water flow in rivers, canals, and dams.\n\nCOMMON COLLOCATIONS:\n- {水門|すいもん}⟦を→を：00422_wo⟧⟦{開|あ}ける→開ける：00563_akeru⟧: to open a sluice gate\n- {水門|すいもん}⟦を→を：00422_wo⟧⟦{閉|し}める→閉める：00485_shimeru⟧: to close a sluice gate\n- {防潮|ぼうちょう}{水門|すいもん}: tidal floodgate\n- ⟦{排水|はいすい}→排水：11104_haisui⟧{水門|すいもん}: drainage gate\n\nCULTURAL NOTE:\nJapan's many rivers and flood-prone geography make {水門|すいもん} critical infrastructure. They are frequently mentioned in news during ⟦{台風|たいふう}→台風：01455_taifuu⟧ (typhoon) season and ⟦{大雨|おおあめ}→大雨：03015_ooame⟧ (heavy rain) events.\n\nRELATED WORDS:\n- ⟦ダム→ダム：00034_damu⟧: dam\n- ⟦{堤防|ていぼう}→堤防：19409_teibou⟧: levee, embankment\n- {放水|ほうすい}: water discharge\n- ⟦{治水|ちすい}→治水：27318_chisui⟧: flood control",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "00034_damu",
+      "reading": "だむ",
+      "headword": "ダム",
+      "label": "dam"
+    },
+    {
+      "type": "related",
+      "target_id": "19409_teibou",
+      "reading": "ていぼう",
+      "headword": "{堤防|ていぼう}",
+      "label": "levee, embankment"
+    },
+    {
+      "type": "related",
+      "target_id": "27318_chisui",
+      "reading": "ちすい",
+      "headword": "{治水|ちすい}",
+      "label": "flood control"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +82,6 @@
       ]
     },
     "created": "2026-03-23T10:22:39Z",
-    "modified": "2026-07-26T09:39:42Z"
+    "modified": "2026-09-02T04:01:54Z"
   }
 }

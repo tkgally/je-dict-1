@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "18675_suishin_ex1",
-      "japanese": "{水深|すいしん}が{深|ふか}い。",
+      "japanese": "{水深|すいしん}⟦が→が：00051_ga⟧⟦{深|ふか}い→深い：01211_fukai⟧。",
       "english": "The water is deep.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "18675_suishin_ex2",
-      "japanese": "このプールの{水深|すいしん}は1.2メートルだ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦プール→プール：02958_puuru⟧⟦の→の：09472_no⟧{水深|すいしん}⟦は→は：00079_ha⟧1.2⟦メートル→メートル：02975_meetoru⟧だ。",
       "english": "The depth of this pool is 1.2 meters.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "18675_suishin_ex3",
-      "japanese": "{水深|すいしん}200メートルを{超|こ}えると、{太陽|たいよう}の{光|ひかり}はほとんど{届|とど}かなくなる。",
+      "japanese": "{水深|すいしん}200⟦メートル→メートル：02975_meetoru⟧⟦を→を：00422_wo⟧⟦{超|こ}える→超える：01942_koeru⟧⟦と→と：00512_to⟧、⟦{太陽|たいよう}→太陽：03398_taiyou⟧⟦の→の：09472_no⟧⟦{光|ひかり}→光：01707_hikari⟧⟦は→は：00079_ha⟧⟦ほとんど→ほとんど：00847_hotondo⟧⟦{届|とど}かなく→届く：00899_todoku⟧⟦なる→なる：01970_naru⟧。",
       "english": "Beyond a depth of 200 meters, sunlight barely reaches.",
       "sense_numbers": [
         1
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "{水深|すいしん} refers to the depth of water — how deep a body of water is at a given point.\n\nWORD FORMATION:\n{水|すい} (water) + {深|しん} (depth). The same pattern appears in {海深|かいしん} (ocean depth).\n\nCOMMON COLLOCATIONS:\n- {水深|すいしん}〜メートル: depth of ~ meters\n- {水深|すいしん}が{深|ふか}い/{浅|あさ}い: deep/shallow water\n- {最大|さいだい}{水深|すいしん}: maximum depth\n- {水深|すいしん}を{測|はか}る: to measure water depth\n\nUSAGE:\nUsed in maritime navigation, scuba diving, fishing, and geographic descriptions. Often appears on nautical charts and diving information.\n\nRELATED TERMS:\n- {水位|すいい}: water level (height of water surface)\n- {深海|しんかい}: deep sea\n- {浅瀬|あさせ}: shallows, shoal",
+  "notes": "{水深|すいしん} refers to the depth of water — how deep a body of water is at a given point.\n\nFORMS:\n{水|すい} (water) + {深|しん} (depth). The same pattern appears in {海深|かいしん} (ocean depth).\n\nCOMMON COLLOCATIONS:\n- {水深|すいしん}〜⟦メートル→メートル：02975_meetoru⟧: depth of ~ meters\n- {水深|すいしん}⟦が→が：00051_ga⟧⟦{深|ふか}い→深い：01211_fukai⟧/⟦{浅|あさ}い→浅い：01274_asai⟧: deep/shallow water\n- ⟦{最大|さいだい}→最大：04827_saidai⟧{水深|すいしん}: maximum depth\n- {水深|すいしん}⟦を→を：00422_wo⟧⟦{測|はか}る→測る：01977_hakaru⟧: to measure water depth\n\nUSAGE:\nUsed in maritime navigation, scuba diving, fishing, and geographic descriptions. Often appears on nautical charts and diving information.\n\nRELATED WORDS:\n- ⟦{水位|すいい}→水位：21569_suii⟧: water level (height of water surface)\n- ⟦{深海|しんかい}→深海：16050_shinkai⟧: deep sea\n- ⟦{浅瀬|あさせ}→浅瀬：15720_asase⟧: shallows, shoal",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "21569_suii",
+      "reading": "すいい",
+      "headword": "{水位|すいい}",
+      "label": "water level"
+    },
+    {
+      "type": "related",
+      "target_id": "16050_shinkai",
+      "reading": "しんかい",
+      "headword": "{深海|しんかい}",
+      "label": "deep sea"
+    },
+    {
+      "type": "related",
+      "target_id": "15720_asase",
+      "reading": "あさせ",
+      "headword": "{浅瀬|あさせ}",
+      "label": "shallows, shoal"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21723_shindo",
+      "reading": "しんど",
+      "headword": "{深度|しんど}",
+      "label": "depth"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +90,6 @@
       ]
     },
     "created": "2026-03-22T11:51:27Z",
-    "modified": "2026-07-26T09:41:02Z"
+    "modified": "2026-09-02T04:01:53Z"
   }
 }

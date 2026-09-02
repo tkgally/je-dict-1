@@ -3,7 +3,7 @@
   "id": "15236_tenkyo",
   "headword": "{転居|てんきょ}",
   "reading": "てんきょ",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "moving; change of residence",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "15236_tenkyo_ex1",
-      "japanese": "{転居|てんきょ}の{届|とど}けを{出|だ}した。",
+      "japanese": "{転居|てんきょ}⟦の→の：09472_no⟧{届|とど}け⟦を→を：00422_wo⟧⟦{出|だ}した→出す：01087_dasu⟧。",
       "english": "I submitted a change-of-address notification.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "15236_tenkyo_ex2",
-      "japanese": "{転居先|てんきょさき}の{住所|じゅうしょ}を{教|おし}えてください。",
+      "japanese": "⟦{転居先|てんきょさき}→転居先：29866_tenkyosaki⟧⟦の→の：09472_no⟧⟦{住所|じゅうしょ}→住所：01430_juusho⟧⟦を→を：00422_wo⟧⟦{教|おし}えて→教える：00526_oshieru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please tell me your new address.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "15236_tenkyo_ex3",
-      "japanese": "{転勤|てんきん}に{伴|ともな}い{来月|らいげつ}{転居|てんきょ}することになったので、{郵便局|ゆうびんきょく}に{転居届|てんきょとどけ}を{出|だ}さなければならない。",
+      "japanese": "⟦{転勤|てんきん}→転勤：04555_tenkin⟧⟦に{伴|ともな}い→に伴い：06804_nitomonai⟧⟦{来月|らいげつ}→来月：00744_raigetsu⟧{転居|てんきょ}⟦する→する：00392_suru⟧ことになった⟦の→の：09472_no⟧で、⟦{郵便局|ゆうびんきょく}→郵便局：00579_yuubinkyoku⟧⟦に→に：00314_ni⟧⟦{転居届|てんきょとどけ}→転居届：10284_tenkyotodoke⟧⟦を→を：00422_wo⟧⟦{出|だ}さ→出す：01087_dasu⟧⟦なければならない→なければならない：27600_nakerebanaranai⟧。",
       "english": "I'll be moving next month due to a job transfer, so I need to submit a change-of-address form at the post office.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE: {転居|てんきょ} is a formal word used mainly in official documents, government forms, and written communication. In everyday conversation, {引|ひ}っ{越|こ}し or {引|ひ}っ{越|こ}す is more common.\n\nCOMMON COLLOCATIONS:\n- {転居届|てんきょとどけ}: change-of-address notification\n- {転居先|てんきょさき}: new address (after moving)\n- {転居|てんきょ}する: to move, to relocate\n- {転居|てんきょ}の{挨拶|あいさつ}: moving announcement\n\nSIMILAR WORDS:\n- {転居|てんきょ}: formal term for changing residence\n- {引|ひ}っ{越|こ}し: moving (everyday term)\n- {移転|いてん}: relocation (used for both residences and businesses/offices)",
+  "notes": "USAGE: {転居|てんきょ} is a formal word used mainly in official documents, government forms, and written communication. In everyday conversation, {引|ひ}っ{越|こ}し or ⟦{引|ひ}っ{越|こ}す→引っ越す：01171_hikkosu⟧ is more common.\n\nCOMMON COLLOCATIONS:\n- ⟦{転居届|てんきょとどけ}→転居届：10284_tenkyotodoke⟧: change-of-address notification\n- ⟦{転居先|てんきょさき}→転居先：29866_tenkyosaki⟧: new address (after moving)\n- {転居|てんきょ}⟦する→する：00392_suru⟧: to move, to relocate\n- {転居|てんきょ}⟦の→の：09472_no⟧⟦{挨拶|あいさつ}→挨拶：02505_aisatsu⟧: moving announcement\n\nSIMILAR WORDS:\n- {転居|てんきょ}: formal term for changing residence\n- {引|ひ}っ{越|こ}し: moving (everyday term)\n- ⟦{移転|いてん}→移転：04000_iten⟧: relocation (used for both residences and businesses/offices)",
   "cross_references": [
     {
       "type": "synonym",
@@ -142,11 +142,46 @@
       "reading": "ひっこす",
       "headword": "{引|ひ}っ{越|こ}す",
       "label": "to move (colloquial)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04000_iten",
+      "reading": "いてん",
+      "headword": "{移転|いてん}",
+      "label": "relocation"
+    },
+    {
+      "type": "related",
+      "target_id": "03444_tenkou",
+      "reading": "てんこう",
+      "headword": "{転校|てんこう}",
+      "label": "school transfer"
+    },
+    {
+      "type": "related",
+      "target_id": "08630_nyuukyo",
+      "reading": "にゅうきょ",
+      "headword": "{入居|にゅうきょ}",
+      "label": "moving in"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25698_tenshutsu",
+      "reading": "てんしゅつ",
+      "headword": "{転出|てんしゅつ}",
+      "label": "moving out"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26638_tensho",
+      "reading": "てんしょ",
+      "headword": "{転所|てんしょ}",
+      "label": "transfer to a different facility"
     }
   ],
   "metadata": {
     "created": "2026-03-05T10:20:56Z",
-    "modified": "2026-07-15T18:53:39Z",
+    "modified": "2026-09-02T04:01:40Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

@@ -3,7 +3,7 @@
   "headword": "{遠隔操作|えんかくそうさ}",
   "reading": "えんかくそうさ",
   "romaji": "enkakusousa",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "remote control; remote operation",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "20454_enkakusousa_ex1",
-      "japanese": "パソコンを{遠隔操作|えんかくそうさ}する。",
+      "japanese": "⟦パソコン→パソコン：01538_pasokon⟧⟦を→を：00422_wo⟧{遠隔操作|えんかくそうさ}⟦する→する：00392_suru⟧。",
       "english": "To operate a computer remotely.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "20454_enkakusousa_ex2",
-      "japanese": "このロボットは{遠隔操作|えんかくそうさ}で{動|うご}かせます。",
+      "japanese": "⟦この→この：00962_kono⟧⟦ロボット→ロボット：06404_robotto⟧⟦は→は：00079_ha⟧{遠隔操作|えんかくそうさ}⟦で→で：00502_de⟧⟦{動|うご}かせます→動く：00904_ugoku⟧。",
       "english": "This robot can be operated by remote control.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "20454_enkakusousa_ex3",
-      "japanese": "{遠隔操作|えんかくそうさ}によるサポートのおかげで、{現地|げんち}に{行|い}かなくても{問題|もんだい}を{解決|かいけつ}できた。",
+      "japanese": "{遠隔操作|えんかくそうさ}⟦による→による：28349_niyoru⟧⟦サポート→サポート：07776_sapooto⟧⟦の→の：09472_no⟧⟦おかげ→おかげ：01362_okage⟧で、⟦{現地|げんち}→現地：13502_genchi⟧⟦に→に：00314_ni⟧⟦{行|い}かなくて→行く：00119_iku⟧⟦も→も：00484_mo⟧⟦{問題|もんだい}→問題：00797_mondai⟧⟦を→を：00422_wo⟧⟦{解決|かいけつ}→解決：00136_kaiketsu⟧⟦できた→できる：00557_dekiru⟧。",
       "english": "Thanks to remote support, we were able to solve the problem without going on-site.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {遠隔|えんかく} (remote, distant) and {操作|そうさ} (operation, control). Covers both physical remote control of devices and digital remote access to computers and systems.\n\nUSAGE:\nIncreasingly common in modern contexts — from IT support and remote desktop access to drone operation and smart home technology. Can be used as a suru verb: {遠隔操作|えんかくそうさ}する (to operate remotely).\n\nCOMMON COLLOCATIONS:\n- {遠隔操作|えんかくそうさ}する — to operate remotely\n- {遠隔操作|えんかくそうさ}が{可能|かのう} — remote operation is possible\n- {遠隔操作|えんかくそうさ}ソフト — remote access software\n- {遠隔操作|えんかくそうさ}ロボット — remotely operated robot\n\nSIMILAR WORDS:\n- リモコン — remote control (the handheld device)\n- {遠隔|えんかく} — remote, distant (the prefix alone)\n- リモートアクセス — remote access (IT loanword)",
+  "notes": "A compound of ⟦{遠隔|えんかく}→遠隔：14381_enkaku⟧ (remote, distant) and ⟦{操作|そうさ}→操作：03316_sousa⟧ (operation, control). Covers both physical remote control of devices and digital remote access to computers and systems.\n\nUSAGE:\nIncreasingly common in modern contexts — from IT support and remote desktop access to drone operation and smart home technology. Can be used as a suru verb: {遠隔操作|えんかくそうさ}⟦する→する：00392_suru⟧ (to operate remotely).\n\nCOMMON COLLOCATIONS:\n- {遠隔操作|えんかくそうさ}⟦する→する：00392_suru⟧ — to operate remotely\n- {遠隔操作|えんかくそうさ}⟦が→が：00051_ga⟧⟦{可能|かのう}→可能：00175_kanou⟧ — remote operation is possible\n- {遠隔操作|えんかくそうさ}⟦ソフト→ソフト：01532_sofuto⟧ — remote access software\n- {遠隔操作|えんかくそうさ}⟦ロボット→ロボット：06404_robotto⟧ — remotely operated robot\n\nSIMILAR WORDS:\n- ⟦リモコン→リモコン：05284_rimokon⟧ — remote control (the handheld device)\n- ⟦{遠隔|えんかく}→遠隔：14381_enkaku⟧ — remote, distant (the prefix alone)\n- ⟦リモート→リモート：04743_rimooto⟧⟦アクセス→アクセス：10696_akusesu⟧ — remote access (IT loanword)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05284_rimokon",
+      "reading": "りもこん",
+      "headword": "リモコン",
+      "label": "remote control"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24819_mujinki",
+      "reading": "むじんき",
+      "headword": "{無人機|むじんき}",
+      "label": "unmanned aircraft"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -58,10 +74,11 @@
       "semantic": [
         "technology"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-03-29T14:14:11Z",
-    "modified": "2026-03-29T14:14:11Z"
+    "modified": "2026-09-02T04:01:59Z"
   },
   "conjugation": {
     "type": "suru",

@@ -15,41 +15,74 @@
   "examples": [
     {
       "id": "14888_undoushinkei_ex1",
-      "japanese": "{彼|かれ}は{運動神経|うんどうしんけい}がいい。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{運動神経|うんどうしんけい}⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧。",
       "english": "He has good athletic ability.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14888_undoushinkei_ex2",
-      "japanese": "{運動神経|うんどうしんけい}が{悪|わる}いので、スポーツは{苦手|にがて}だ。",
+      "japanese": "{運動神経|うんどうしんけい}⟦が→が：00051_ga⟧⟦{悪|わる}い→悪い：00908_warui⟧⟦の→の：09472_no⟧で、⟦スポーツ→スポーツ：04740_supootsu⟧⟦は→は：00079_ha⟧⟦{苦手|にがて}→苦手：03513_nigate⟧だ。",
       "english": "I'm bad at sports because I'm not physically coordinated.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14888_undoushinkei_ex3",
-      "japanese": "{姉|あね}は{運動神経|うんどうしんけい}が{抜群|ばつぐん}で、どんなスポーツもすぐ{上達|じょうたつ}する。",
+      "japanese": "⟦{姉|あね}→姉：00571_ane⟧⟦は→は：00079_ha⟧{運動神経|うんどうしんけい}⟦が→が：00051_ga⟧⟦{抜群|ばつぐん}→抜群：12783_batsugun⟧で、⟦どんな→どんな：02924_donna⟧⟦スポーツ→スポーツ：04740_supootsu⟧⟦も→も：00484_mo⟧⟦すぐ→すぐ：00814_sugu⟧⟦{上達|じょうたつ}する→上達する：17981_joutatsusuru⟧。",
       "english": "My older sister has outstanding athletic ability and quickly improves at any sport.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{運動神経|うんどうしんけい} literally means \"motor nerves\" ({運動|うんどう} = movement + {神経|しんけい} = nerves). In medical contexts it refers to the actual motor nervous system, but in everyday usage it refers to a person's natural athletic talent.\n\nCOMMON COLLOCATIONS:\n- {運動神経|うんどうしんけい}がいい (to be athletic / physically coordinated)\n- {運動神経|うんどうしんけい}が{悪|わる}い (to be unathletic / uncoordinated)\n- {運動神経|うんどうしんけい}が{鈍|にぶ}い (to have slow reflexes)\n- {運動神経|うんどうしんけい}{抜群|ばつぐん} (outstanding athletic ability)\n\nUSAGE NOTES:\nThis is a very common expression in daily conversation. Japanese people frequently describe themselves or others as having good or bad {運動神経|うんどうしんけい}. It encompasses overall physical coordination, not just speed or strength.",
-  "cross_references": [],
+  "notes": "{運動神経|うんどうしんけい} literally means \"motor nerves\" (⟦{運動|うんどう}→運動：00821_undou⟧ = movement + ⟦{神経|しんけい}→神経：03257_shinkei⟧ = nerves). In medical contexts it refers to the actual motor nervous system, but in everyday usage it refers to a person's natural athletic talent.\n\nCOMMON COLLOCATIONS:\n- {運動神経|うんどうしんけい}⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧ (to be athletic / physically coordinated)\n- {運動神経|うんどうしんけい}⟦が→が：00051_ga⟧⟦{悪|わる}い→悪い：00908_warui⟧ (to be unathletic / uncoordinated)\n- {運動神経|うんどうしんけい}⟦が→が：00051_ga⟧⟦{鈍|にぶ}い→鈍い：00315_nibui⟧ (to have slow reflexes)\n- {運動神経|うんどうしんけい}⟦{抜群|ばつぐん}→抜群：12783_batsugun⟧ (outstanding athletic ability)\n\nUSAGE:\nThis is a very common expression in daily conversation. Japanese people frequently describe themselves or others as having good or bad {運動神経|うんどうしんけい}. It encompasses overall physical coordination, not just speed or strength.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "21420_kankakushinkei",
+      "reading": "かんかくしんけい",
+      "headword": "{感覚神経|かんかくしんけい}",
+      "label": "sensory nerve"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25595_hanshashinkei",
+      "reading": "はんしゃしんけい",
+      "headword": "{反射神経|はんしゃしんけい}",
+      "label": "reflexes"
+    },
+    {
+      "type": "related",
+      "target_id": "25805_undounouryoku",
+      "reading": "うんどうのうりょく",
+      "headword": "{運動能力|うんどうのうりょく}",
+      "label": "athletic ability"
+    }
+  ],
   "metadata": {
     "created": "2026-03-04T05:28:12Z",
-    "modified": "2026-03-04T05:28:12Z",
+    "modified": "2026-09-02T04:01:39Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["body-part", "leisure"]
+      "semantic": [
+        "body-part",
+        "leisure"
+      ]
     }
   }
 }

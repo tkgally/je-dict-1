@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24071_youkou_ex1",
-      "japanese": "{募集|ぼしゅう}{要項|ようこう}を{読|よ}んでください。",
+      "japanese": "⟦{募集|ぼしゅう}→募集：03035_boshuu⟧{要項|ようこう}⟦を→を：00422_wo⟧⟦{読|よ}んで→読む：00426_yomu⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please read the application guidelines.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24071_youkou_ex2",
-      "japanese": "{試験|しけん}{要項|ようこう}はウェブサイトに{掲載|けいさい}されている。",
+      "japanese": "⟦{試験|しけん}→試験：01422_shiken⟧{要項|ようこう}⟦は→は：00079_ha⟧⟦ウェブサイト→ウェブサイト：05152_webusaito⟧⟦に→に：00314_ni⟧⟦{掲載|けいさい}→掲載：08993_keisai⟧⟦されている→する：00392_suru⟧。",
       "english": "The examination guidelines are posted on the website.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24071_youkou_ex3",
-      "japanese": "{実施|じっし}{要項|ようこう}に{従|したが}って{手続|てつづ}きを{進|すす}めてください。",
+      "japanese": "⟦{実施|じっし}→実施：03275_jisshi⟧{要項|ようこう}⟦に→に：00314_ni⟧⟦{従|したが}って→従う：02059_shitagau⟧⟦{手続|てつづ}き→手続き：05453_tetsuzuki⟧⟦を→を：00422_wo⟧⟦{進|すす}めて→進める：01949_susumeru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please proceed with the process in accordance with the implementation guidelines.",
       "sense_numbers": [
         1
@@ -44,20 +44,37 @@
       "notes": null
     }
   ],
-  "notes": "A formal word used for official documents that summarize rules, procedures, and essential information. Commonly seen in government, education, and business contexts — application guidelines, examination procedures, event rules, and the like.\n\nCOMMON COLLOCATIONS:\n- {募集|ぼしゅう}{要項|ようこう}: recruitment/application guidelines\n- {試験|しけん}{要項|ようこう}: examination guidelines\n- {実施|じっし}{要項|ようこう}: implementation guidelines\n- {入学|にゅうがく}{要項|ようこう}: enrollment guidelines\n- {大会|たいかい}{要項|ようこう}: event/competition guidelines\n\nSIMILAR WORDS:\n- {要綱|ようこう}: outline of key policies — a higher-level framework, while {要項|ようこう} is more detailed and procedural\n- {概要|がいよう}: overview — a general summary, less formal than {要項|ようこう}\n- {要領|ようりょう}: essentials/knack — can mean a summary of procedures, but also refers to skill or cleverness",
+  "notes": "A formal word used for official documents that summarize rules, procedures, and essential information. Commonly seen in government, education, and business contexts — application guidelines, examination procedures, event rules, and the like.\n\nCOMMON COLLOCATIONS:\n- ⟦{募集|ぼしゅう}→募集：03035_boshuu⟧{要項|ようこう}: recruitment/application guidelines\n- ⟦{試験|しけん}→試験：01422_shiken⟧{要項|ようこう}: examination guidelines\n- ⟦{実施|じっし}→実施：03275_jisshi⟧{要項|ようこう}: implementation guidelines\n- ⟦{入学|にゅうがく}→入学：02092_nyuugaku⟧{要項|ようこう}: enrollment guidelines\n- ⟦{大会|たいかい}→大会：03386_taikai⟧{要項|ようこう}: event/competition guidelines\n\nSIMILAR WORDS:\n- {要綱|ようこう}: outline of key policies — a higher-level framework, while {要項|ようこう} is more detailed and procedural\n- ⟦{概要|がいよう}→概要：06747_gaiyou⟧: overview — a general summary, less formal than {要項|ようこう}\n- ⟦{要領|ようりょう}→要領：14109_youryou⟧: essentials/knack — can mean a summary of procedures, but also refers to skill or cleverness",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06747_gaiyou",
+      "reading": "がいよう",
+      "headword": "{概要|がいよう}",
+      "label": "overview"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14109_youryou",
+      "reading": "ようりょう",
+      "headword": "{要領|ようりょう}",
+      "label": "essentials/knack"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "media",
         "politics"
       ]
     },
     "created": "2026-04-17T17:35:38Z",
-    "modified": "2026-08-02T18:32:34Z"
+    "modified": "2026-09-02T04:02:16Z"
   }
 }

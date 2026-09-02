@@ -15,41 +15,73 @@
   "examples": [
     {
       "id": "12850_nenbutsu_ex1",
-      "japanese": "{念仏|ねんぶつ}を{唱|とな}える。",
+      "japanese": "{念仏|ねんぶつ}⟦を→を：00422_wo⟧⟦{唱|とな}える→唱える：10467_tonaeru⟧。",
       "english": "Chant the nenbutsu.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12850_nenbutsu_ex2",
-      "japanese": "{祖母|そぼ}は{毎朝|まいあさ}{念仏|ねんぶつ}を{唱|とな}えている。",
+      "japanese": "⟦{祖母|そぼ}→祖母：00813_sobo⟧⟦は→は：00079_ha⟧⟦{毎朝|まいあさ}→毎朝：00966_maiasa⟧{念仏|ねんぶつ}⟦を→を：00422_wo⟧⟦{唱|とな}えている→唱える：10467_tonaeru⟧。",
       "english": "My grandmother chants the nenbutsu every morning.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12850_nenbutsu_ex3",
-      "japanese": "{法然|ほうねん}は、{念仏|ねんぶつ}を{唱|とな}えることで{誰|だれ}でも{救|すく}われると{説|と}いた。",
+      "japanese": "{法然|ほうねん}⟦は→は：00079_ha⟧、{念仏|ねんぶつ}⟦を→を：00422_wo⟧⟦{唱|とな}える→唱える：10467_tonaeru⟧こと⟦で→で：00502_de⟧⟦{誰|だれ}→誰：00534_dare⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧⟦{救|すく}われる→救う：02063_sukuu⟧⟦と→と：00512_to⟧⟦{説|と}いた→説く：14245_toku⟧。",
       "english": "Hōnen taught that anyone can be saved by chanting the nenbutsu.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nThe standard collocation is {念仏|ねんぶつ}を{唱|とな}える (to chant the nenbutsu). The chant itself is 「{南無阿弥陀仏|なむあみだぶつ}」 (Namu Amida Butsu — \"I take refuge in Amida Buddha\").\n\nIDIOMS:\n- {馬|うま}の{耳|みみ}に{念仏|ねんぶつ}: \"nenbutsu in a horse's ear\" — preaching to deaf ears, wasting one's breath\n\nCULTURAL NOTE:\n{念仏|ねんぶつ} is the core practice of {浄土宗|じょうどしゅう} (Jōdo-shū) and {浄土真宗|じょうどしんしゅう} (Jōdo Shinshū), which are among the most popular Buddhist traditions in Japan.",
-  "cross_references": [],
+  "notes": "USAGE:\nThe standard collocation is {念仏|ねんぶつ}⟦を→を：00422_wo⟧⟦{唱|とな}える→唱える：10467_tonaeru⟧ (to chant the nenbutsu). The chant itself is 「{南無阿弥陀仏|なむあみだぶつ}」 (Namu Amida Butsu — \"I take refuge in Amida Buddha\").\n\nCOMMON EXPRESSIONS:\n- ⟦{馬|うま}→馬：01865_uma⟧⟦の→の：09472_no⟧⟦{耳|みみ}→耳：01513_mimi⟧⟦に→に：00314_ni⟧{念仏|ねんぶつ}: \"nenbutsu in a horse's ear\" — preaching to deaf ears, wasting one's breath\n\nCULTURAL NOTE:\n{念仏|ねんぶつ} is the core practice of {浄土宗|じょうどしゅう} (Jōdo-shū) and {浄土真宗|じょうどしんしゅう} (Jōdo Shinshū), which are among the most popular Buddhist traditions in Japan.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "22912_dokyou",
+      "reading": "どきょう",
+      "headword": "{読経|どきょう}",
+      "label": "sutra chanting"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24001_kyoumon",
+      "reading": "きょうもん",
+      "headword": "{経文|きょうもん}",
+      "label": "sutra text"
+    },
+    {
+      "type": "related",
+      "target_id": "25098_amidabutsu",
+      "reading": "あみだぶつ",
+      "headword": "{阿弥陀仏|あみだぶつ}",
+      "label": "Amitabha Buddha"
+    }
+  ],
   "metadata": {
     "created": "2026-02-22T11:58:27Z",
-    "modified": "2026-02-22T11:58:27Z",
+    "modified": "2026-09-02T04:01:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

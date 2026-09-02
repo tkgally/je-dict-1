@@ -2,7 +2,7 @@
   "id": "05132_hacchuu",
   "headword": "{発注|はっちゅう}",
   "reading": "はっちゅう",
-  "part_of_speech": "noun / suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "ordering, placing an order",
   "conjugation": {
     "type": "suru",
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "{発注|はっちゅう} is a business term for placing an order with a supplier or manufacturer. More formal and specific than ⟦{注文|ちゅうもん}→注文：03485_chuumon⟧, which covers general ordering including at restaurants.\n\nCOMMON COLLOCATIONS:\n- {発注|はっちゅう}⟦する→する：00392_suru⟧: to place an order\n- ⟦{発注|はっちゅう}{書|しょ}→発注書：08069_hacchuusho⟧: purchase order (document)\n- {発注|はっちゅう}⟦{先|さき}→先：02883_saki⟧: supplier, vendor\n- ⟦{追加|ついか}→追加：04060_tsuika⟧{発注|はっちゅう}: additional order\n- ⟦{大量|たいりょう}→大量：03112_tairyou⟧{発注|はっちゅう}: bulk order\n\nCONTRAST:\n- ⟦{注文|ちゅうもん}→注文：03485_chuumon⟧: general term for ordering (restaurants, online shopping, etc.)\n- {発注|はっちゅう}: specifically placing orders with suppliers in a business context\n- ⟦{受注|じゅちゅう}→受注：05133_juchuu⟧: receiving an order (the opposite side of the transaction)",
+  "notes": "{発注|はっちゅう} is a business term for placing an order with a supplier or manufacturer. More formal and specific than ⟦{注文|ちゅうもん}→注文：03485_chuumon⟧, which covers general ordering including at restaurants.\n\nCOMMON COLLOCATIONS:\n- {発注|はっちゅう}⟦する→する：00392_suru⟧: to place an order\n- ⟦{発注|はっちゅう}{書|しょ}→発注書：08069_hacchuusho⟧: purchase order (document)\n- {発注|はっちゅう}⟦{先|さき}→先：02883_saki⟧: supplier, vendor\n- ⟦{追加|ついか}→追加：04060_tsuika⟧{発注|はっちゅう}: additional order\n- ⟦{大量|たいりょう}→大量：03112_tairyou⟧{発注|はっちゅう}: bulk order\n\nSIMILAR WORDS:\n- ⟦{注文|ちゅうもん}→注文：03485_chuumon⟧: general term for ordering (restaurants, online shopping, etc.)\n- {発注|はっちゅう}: specifically placing orders with suppliers in a business context\n- ⟦{受注|じゅちゅう}→受注：05133_juchuu⟧: receiving an order (the opposite side of the transaction)",
   "cross_references": [
     {
       "type": "antonym",
@@ -148,11 +148,25 @@
       "reading": "ちゅうもん",
       "headword": "{注文|ちゅうもん}",
       "label": "order (general)"
+    },
+    {
+      "type": "related",
+      "target_id": "07431_shiire",
+      "reading": "しいれ",
+      "headword": "{仕入|しい}れ",
+      "label": "stocking"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21390_chuumon",
+      "reading": "ちゅうもん",
+      "headword": "{注文|ちゅうもん}する",
+      "label": "to order"
     }
   ],
   "metadata": {
     "created": "2026-01-16T02:32:54Z",
-    "modified": "2026-06-04T16:09:35Z",
+    "modified": "2026-09-02T04:00:52Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -165,7 +179,8 @@
       "semantic": [
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

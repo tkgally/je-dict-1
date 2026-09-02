@@ -15,42 +15,76 @@
   "examples": [
     {
       "id": "18880_seikashugi_ex1",
-      "japanese": "うちの{会社|かいしゃ}は{成果|せいか}{主義|しゅぎ}だ。",
+      "japanese": "うち⟦の→の：09472_no⟧⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦は→は：00079_ha⟧{成果|せいか}{主義|しゅぎ}だ。",
       "english": "Our company follows a performance-based system.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18880_seikashugi_ex2",
-      "japanese": "{成果|せいか}{主義|しゅぎ}を{導入|どうにゅう}する{企業|きぎょう}が{増|ふ}えている。",
+      "japanese": "{成果|せいか}{主義|しゅぎ}⟦を→を：00422_wo⟧⟦{導入|どうにゅう}する→導入する：16055_dounyuusuru⟧⟦{企業|きぎょう}→企業：00225_kigyou⟧⟦が→が：00051_ga⟧⟦{増|ふ}えている→増える：01183_fueru⟧。",
       "english": "More and more companies are introducing performance-based systems.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18880_seikashugi_ex3",
-      "japanese": "{成果|せいか}{主義|しゅぎ}には{賛否|さんぴ}{両論|りょうろん}があり、{社員|しゃいん}のストレスが{増|ふ}えるという{批判|ひはん}もある。",
+      "japanese": "{成果|せいか}{主義|しゅぎ}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{賛否|さんぴ}→賛否：14233_sanpi⟧{両論|りょうろん}⟦が→が：00051_ga⟧⟦あり→ある：00006_aru⟧、⟦{社員|しゃいん}→社員：03065_shain⟧⟦の→の：09472_no⟧⟦ストレス→ストレス：03827_sutoresu⟧⟦が→が：00051_ga⟧⟦{増|ふ}える→増える：01183_fueru⟧⟦という→という：09577_toiu⟧⟦{批判|ひはん}→批判：03580_hihan⟧⟦も→も：00484_mo⟧⟦ある→ある：00006_aru⟧。",
       "english": "There are arguments for and against meritocracy, including criticism that it increases employee stress.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nA buzzword in Japanese business since the late 1990s, when companies began moving away from the traditional {年功序列|ねんこうじょれつ} (seniority-based) system. Still debated in management circles.\n\nCOMMON COLLOCATIONS:\n- {成果|せいか}{主義|しゅぎ}を{導入|どうにゅう}する (to introduce a performance-based system)\n- {成果|せいか}{主義|しゅぎ}{型|がた}の{評価|ひょうか} (performance-based evaluation)\n- {成果|せいか}{主義|しゅぎ}の{弊害|へいがい} (drawbacks of meritocracy)\n\nSIMILAR WORDS:\n- {年功序列|ねんこうじょれつ}: seniority system — the traditional Japanese model where pay and rank increase with years of service\n- {実力主義|じつりょくしゅぎ}: meritocracy based on ability — similar but emphasizes skill rather than measurable output",
-  "cross_references": [],
+  "notes": "USAGE:\nA buzzword in Japanese business since the late 1990s, when companies began moving away from the traditional ⟦{年功序列|ねんこうじょれつ}→年功序列：12532_nenkoujoretsu⟧ (seniority-based) system. Still debated in management circles.\n\nCOMMON COLLOCATIONS:\n- {成果|せいか}{主義|しゅぎ}⟦を→を：00422_wo⟧⟦{導入|どうにゅう}する→導入する：16055_dounyuusuru⟧ (to introduce a performance-based system)\n- {成果|せいか}{主義|しゅぎ}{型|がた}⟦の→の：09472_no⟧⟦{評価|ひょうか}→評価：03583_hyouka⟧ (performance-based evaluation)\n- {成果|せいか}{主義|しゅぎ}⟦の→の：09472_no⟧⟦{弊害|へいがい}→弊害：09349_heigai⟧ (drawbacks of meritocracy)\n\nSIMILAR WORDS:\n- ⟦{年功序列|ねんこうじょれつ}→年功序列：12532_nenkoujoretsu⟧: seniority system — the traditional Japanese model where pay and rank increase with years of service\n- ⟦{実力主義|じつりょくしゅぎ}→実力主義：17836_jitsuryokushugi⟧: meritocracy based on ability — similar but emphasizes skill rather than measurable output",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12532_nenkoujoretsu",
+      "reading": "ねんこうじょれつ",
+      "headword": "{年功序列|ねんこうじょれつ}",
+      "label": "seniority system"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17836_jitsuryokushugi",
+      "reading": "じつりょくしゅぎ",
+      "headword": "{実力主義|じつりょくしゅぎ}",
+      "label": "meritocracy based on ability"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26516_jissekishugi",
+      "reading": "じっせきしゅぎ",
+      "headword": "{実績|じっせき}{主義|しゅぎ}",
+      "label": "meritocracy"
+    }
+  ],
   "metadata": {
     "created": "2026-03-23T06:20:54Z",
-    "modified": "2026-03-23T06:20:54Z",
+    "modified": "2026-09-02T04:01:53Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["work"],
-      "domain": ["business"]
+      "semantic": [
+        "work"
+      ],
+      "domain": [
+        "business"
+      ]
     }
   }
 }

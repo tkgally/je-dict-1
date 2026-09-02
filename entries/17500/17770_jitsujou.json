@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "17770_jitsujou_ex1",
-      "japanese": "{現場|げんば}の{実情|じつじょう}を{知|し}る。",
+      "japanese": "⟦{現場|げんば}→現場：02723_genba⟧⟦の→の：09472_no⟧{実情|じつじょう}⟦を→を：00422_wo⟧⟦{知|し}る→知る：00458_shiru⟧。",
       "english": "To know the real situation on the ground.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17770_jitsujou_ex2",
-      "japanese": "{実情|じつじょう}に{合|あ}わない{制度|せいど}だ。",
+      "japanese": "{実情|じつじょう}⟦に→に：00314_ni⟧⟦{合|あ}わない→合う：10466_au⟧⟦{制度|せいど}→制度：03291_seido⟧だ。",
       "english": "It's a system that doesn't match the actual conditions.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17770_jitsujou_ex3",
-      "japanese": "{報道|ほうどう}だけでは{分|わ}からない{地方|ちほう}の{実情|じつじょう}を、{現地|げんち}{調査|ちょうさ}で{明|あき}らかにした。",
+      "japanese": "⟦{報道|ほうどう}→報道：04438_houdou⟧⟦だけ→〜だけ：03093_dake⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{分|わ}からない→分かる：00463_wakaru⟧⟦{地方|ちほう}→地方：02369_chihou⟧⟦の→の：09472_no⟧{実情|じつじょう}⟦を→を：00422_wo⟧、⟦{現地|げんち}→現地：13502_genchi⟧⟦{調査|ちょうさ}→調査：03489_chousa⟧⟦で→で：00502_de⟧⟦{明|あき}らかにした→明らかにする：22256_akirakanisuru⟧。",
       "english": "A field survey revealed the actual conditions in the rural areas that media reports alone couldn't convey.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nA somewhat formal word common in journalism, business, and policy discussions. Often used when pointing out a discrepancy between official narratives and reality.\n\nSIMILAR WORDS:\n- {実態|じったい}: actual state, true conditions — very close in meaning; {実態|じったい} often emphasizes investigation and uncovering hidden truths\n- {現実|げんじつ}: reality — more general and less focused on the gap between appearance and truth\n\nCOMMON COLLOCATIONS:\n- {実情|じつじょう}を{知|し}る: to know the real situation\n- {実情|じつじょう}に{合|あ}う: to match actual conditions\n- {実情|じつじょう}を{把握|はあく}する: to grasp the actual situation\n- {実情|じつじょう}に{即|そく}した: in line with the actual conditions",
+  "notes": "USAGE:\nA somewhat formal word common in journalism, business, and policy discussions. Often used when pointing out a discrepancy between official narratives and reality.\n\nSIMILAR WORDS:\n- ⟦{実態|じったい}→実態：10567_jittai⟧: actual state, true conditions — very close in meaning; ⟦{実態|じったい}→実態：10567_jittai⟧ often emphasizes investigation and uncovering hidden truths\n- ⟦{現実|げんじつ}→現実：02720_genjitsu⟧: reality — more general and less focused on the gap between appearance and truth\n\nCOMMON COLLOCATIONS:\n- {実情|じつじょう}⟦を→を：00422_wo⟧⟦{知|し}る→知る：00458_shiru⟧: to know the real situation\n- {実情|じつじょう}⟦に→に：00314_ni⟧⟦{合|あ}う→合う：10466_au⟧: to match actual conditions\n- {実情|じつじょう}⟦を→を：00422_wo⟧⟦{把握|はあく}する→把握する：19628_haakusuru⟧: to grasp the actual situation\n- {実情|じつじょう}⟦に→に：00314_ni⟧⟦{即|そく}した→即する：11971_sokusuru⟧: in line with the actual conditions",
   "cross_references": [
     {
       "type": "synonym",
@@ -46,18 +52,43 @@
       "reading": "じったい",
       "headword": "{実態|じったい}",
       "label": "actual state (investigative nuance)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02720_genjitsu",
+      "reading": "げんじつ",
+      "headword": "{現実|げんじつ}",
+      "label": "reality"
+    },
+    {
+      "type": "related",
+      "target_id": "02721_genjou",
+      "reading": "げんじょう",
+      "headword": "{現状|げんじょう}",
+      "label": "present condition, current state, status quo"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25305_naijou",
+      "reading": "ないじょう",
+      "headword": "{内情|ないじょう}",
+      "label": "internal affairs"
     }
   ],
   "metadata": {
     "created": "2026-03-18T23:18:24Z",
-    "modified": "2026-05-07T06:03:41Z",
+    "modified": "2026-09-02T04:01:49Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

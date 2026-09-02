@@ -2,7 +2,7 @@
   "id": "11788_tourai",
   "headword": "{到来|とうらい}",
   "reading": "とうらい",
-  "part_of_speech": "noun / suru verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "arrival; advent",
   "conjugation": {
     "type": "suru",
@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "11788_tourai_ex1",
-      "japanese": "{春|はる}の{到来|とうらい}を{待|ま}つ。",
+      "japanese": "⟦{春|はる}→春：00627_haru⟧⟦の→の：09472_no⟧{到来|とうらい}⟦を→を：00422_wo⟧⟦{待|ま}つ→待つ：00469_matsu⟧。",
       "english": "To wait for the arrival of spring.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "11788_tourai_ex2",
-      "japanese": "AI{時代|じだい}の{到来|とうらい}が{話題|わだい}になっている。",
+      "japanese": "AI⟦{時代|じだい}→時代：01424_jidai⟧⟦の→の：09472_no⟧{到来|とうらい}⟦が→が：00051_ga⟧⟦{話題|わだい}→話題：03793_wadai⟧になっている。",
       "english": "The advent of the AI era is a hot topic.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "11788_tourai_ex3",
-      "japanese": "{長|なが}い{冬|ふゆ}が{終|お}わり、ようやく{暖|あたた}かい{季節|きせつ}の{到来|とうらい}を{感|かん}じた。",
+      "japanese": "⟦{長|なが}い→長い：00491_nagai⟧⟦{冬|ふゆ}→冬：00623_fuyu⟧⟦が→が：00051_ga⟧{終|お}わり、ようやく⟦{暖|あたた}かい→暖かい：00618_atatakai⟧⟦{季節|きせつ}→季節：01304_kisetsu⟧⟦の→の：09472_no⟧{到来|とうらい}⟦を→を：00422_wo⟧⟦{感|かん}じた→感じる：02044_kanjiru⟧。",
       "english": "The long winter ended, and I finally felt the arrival of the warm season.",
       "notes": null,
       "has_audio": false,
@@ -133,11 +133,33 @@
       ]
     }
   ],
-  "notes": "{到来|とうらい} describes the arrival or advent of abstract things — seasons, eras, opportunities, or turning points. It is not used for the physical arrival of people or objects.\n\nUSAGE:\nOften appears in written or formal contexts. Carries a sense of significance — the thing arriving marks a notable change or beginning.\n\nCOMMON COLLOCATIONS:\n- {時代|じだい}の{到来|とうらい}: the advent of an era\n- {春|はる}の{到来|とうらい}: the arrival of spring\n- チャンスの{到来|とうらい}: the arrival of an opportunity\n- {危機|きき}の{到来|とうらい}: the onset of a crisis\n\nSIMILAR WORDS:\n- {到着|とうちゃく}: arrival (physical, for people/objects at a destination)\n- {訪|おとず}れ: coming, arrival (literary, used for seasons and abstract events)\n- {出現|しゅつげん}: emergence, appearance",
-  "cross_references": [],
+  "notes": "{到来|とうらい} describes the arrival or advent of abstract things — seasons, eras, opportunities, or turning points. It is not used for the physical arrival of people or objects.\n\nUSAGE:\nOften appears in written or formal contexts. Carries a sense of significance — the thing arriving marks a notable change or beginning.\n\nCOMMON COLLOCATIONS:\n- ⟦{時代|じだい}→時代：01424_jidai⟧⟦の→の：09472_no⟧{到来|とうらい}: the advent of an era\n- ⟦{春|はる}→春：00627_haru⟧⟦の→の：09472_no⟧{到来|とうらい}: the arrival of spring\n- ⟦チャンス→チャンス：03857_chansu⟧⟦の→の：09472_no⟧{到来|とうらい}: the arrival of an opportunity\n- ⟦{危機|きき}→危機：11798_kiki⟧⟦の→の：09472_no⟧{到来|とうらい}: the onset of a crisis\n\nSIMILAR WORDS:\n- ⟦{到着|とうちゃく}→到着：02526_touchaku⟧: arrival (physical, for people/objects at a destination)\n- ⟦{訪|おとず}れ→訪れ：14267_otozure⟧: coming, arrival (literary, used for seasons and abstract events)\n- ⟦{出現|しゅつげん}→出現：11758_shutsugen⟧: emergence, appearance",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02526_touchaku",
+      "reading": "とうちゃく",
+      "headword": "{到着|とうちゃく}",
+      "label": "arrival"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14267_otozure",
+      "reading": "おとずれ",
+      "headword": "{訪|おとず}れ",
+      "label": "coming, arrival"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11758_shutsugen",
+      "reading": "しゅつげん",
+      "headword": "{出現|しゅつげん}",
+      "label": "emergence, appearance"
+    }
+  ],
   "metadata": {
     "created": "2026-02-18T06:08:50Z",
-    "modified": "2026-08-15T21:25:25Z",
+    "modified": "2026-09-02T04:01:26Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",

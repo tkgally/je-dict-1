@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "20958_soudanyaku_ex1",
-      "japanese": "{会社|かいしゃ}の{相談役|そうだんやく}に{就任|しゅうにん}する。",
+      "japanese": "⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦の→の：09472_no⟧{相談役|そうだんやく}⟦に→に：00314_ni⟧⟦{就任|しゅうにん}→就任：12368_shuunin⟧⟦する→する：00392_suru⟧。",
       "english": "To be appointed as company advisor.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "20958_soudanyaku_ex2",
-      "japanese": "{元社長|もとしゃちょう}が{相談役|そうだんやく}として{残|のこ}っている。",
+      "japanese": "{元社長|もとしゃちょう}⟦が→が：00051_ga⟧{相談役|そうだんやく}⟦として→として：06802_toshite⟧⟦{残|のこ}っている→残る：01187_nokoru⟧。",
       "english": "The former president remains as an advisor.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "20958_soudanyaku_ex3",
-      "japanese": "{彼|かれ}はチームの{相談役|そうだんやく}のような{存在|そんざい}で、みんなから{頼|たよ}りにされている。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦チーム→チーム：03858_chiimu⟧⟦の→の：09472_no⟧{相談役|そうだんやく}⟦の→の：09472_no⟧ような⟦{存在|そんざい}→存在：03326_sonzai⟧⟦で→で：00502_de⟧、⟦みんな→みんな：02972_minna⟧⟦から→から：00504_kara⟧⟦{頼|たよ}り→頼り：14634_tayori⟧⟦に→に：00314_ni⟧⟦されている→する：00392_suru⟧。",
       "english": "He's like an advisor to the team, and everyone relies on him.",
       "sense_numbers": [
         1
@@ -43,8 +43,38 @@
       "notes": null
     }
   ],
-  "notes": "In Japanese corporate culture, {相談役|そうだんやく} is a specific position typically held by former presidents or chairmen who have retired from active management but remain in an advisory capacity. This system has been criticized for allowing retired executives to retain influence without accountability.\n\nCOMMON COLLOCATIONS:\n- {相談役|そうだんやく}に{就任|しゅうにん}する: to take the position of advisor\n- {相談役|そうだんやく}を{務|つと}める: to serve as advisor\n- {相談役|そうだんやく}を{廃止|はいし}する: to abolish the advisor position\n\nSIMILAR WORDS:\n- {顧問|こもん}: advisor, consultant — similar corporate position, more formal\n- アドバイザー: advisor — loanword, broader usage\n- {参与|さんよ}: councilor — a different advisory rank in organizations\n- コンサルタント: consultant — usually an external specialist",
+  "notes": "In Japanese corporate culture, {相談役|そうだんやく} is a specific position typically held by former presidents or chairmen who have retired from active management but remain in an advisory capacity. This system has been criticized for allowing retired executives to retain influence without accountability.\n\nCOMMON COLLOCATIONS:\n- {相談役|そうだんやく}⟦に→に：00314_ni⟧⟦{就任|しゅうにん}→就任：12368_shuunin⟧⟦する→する：00392_suru⟧: to take the position of advisor\n- {相談役|そうだんやく}⟦を→を：00422_wo⟧⟦{務|つと}める→務める：10446_tsutomeru⟧: to serve as advisor\n- {相談役|そうだんやく}⟦を→を：00422_wo⟧⟦{廃止|はいし}→廃止：12483_haishi⟧⟦する→する：00392_suru⟧: to abolish the advisor position\n\nSIMILAR WORDS:\n- ⟦{顧問|こもん}→顧問：16146_komon⟧: advisor, consultant — similar corporate position, more formal\n- アドバイザー: advisor — loanword, broader usage\n- {参与|さんよ}: councilor — a different advisory rank in organizations\n- コンサルタント: consultant — usually an external specialist",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16146_komon",
+      "reading": "こもん",
+      "headword": "{顧問|こもん}",
+      "label": "advisor, consultant"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17530_chiebukuro",
+      "reading": "ちえぶくろ",
+      "headword": "{知恵袋|ちえぶくろ}",
+      "label": "fountain of wisdom"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23171_soudansha",
+      "reading": "そうだんしゃ",
+      "headword": "{相談者|そうだんしゃ}",
+      "label": "person seeking advice"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24877_jogensha",
+      "reading": "じょげんしゃ",
+      "headword": "{助言者|じょげんしゃ}",
+      "label": "advisor"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +89,6 @@
       ]
     },
     "created": "2026-03-30T22:22:44Z",
-    "modified": "2026-03-30T22:22:44Z"
+    "modified": "2026-09-02T04:02:01Z"
   }
 }

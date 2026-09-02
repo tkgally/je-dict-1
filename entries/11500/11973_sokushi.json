@@ -2,7 +2,7 @@
   "id": "11973_sokushi",
   "headword": "{即死|そくし}",
   "reading": "そくし",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "instant death; dying instantly",
   "conjugation": {
     "type": "suru",
@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "11973_sokushi_ex1",
-      "japanese": "{運転手|うんてんしゅ}は{即死|そくし}だった。",
+      "japanese": "⟦{運転手|うんてんしゅ}→運転手：01333_untenshu⟧⟦は→は：00079_ha⟧{即死|そくし}だった。",
       "english": "The driver died instantly.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "11973_sokushi_ex2",
-      "japanese": "{事故|じこ}の{衝撃|しょうげき}で{即死|そくし}した。",
+      "japanese": "⟦{事故|じこ}→事故：00851_jiko⟧⟦の→の：09472_no⟧⟦{衝撃|しょうげき}→衝撃：08678_shougeki⟧⟦で→で：00502_de⟧{即死|そくし}⟦した→する：00392_suru⟧。",
       "english": "He died instantly from the impact of the accident.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "11973_sokushi_ex3",
-      "japanese": "この{攻撃|こうげき}を{受|う}けると{即死|そくし}するので{注意|ちゅうい}してください。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{攻撃|こうげき}→攻撃：02748_kougeki⟧⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧⟦と→と：00512_to⟧{即死|そくし}⟦する→する：00392_suru⟧⟦の→の：09472_no⟧で⟦{注意|ちゅうい}→注意：01464_chuui⟧⟦して→する：00392_suru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Be careful, because this attack will kill you instantly.",
       "notes": null,
       "has_audio": false,
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "COMMON COLLOCATIONS:\n・{即死|そくし}する (die instantly)\n・{即死|そくし}だった (was dead on the spot)\n・{即死|そくし}{攻撃|こうげき} (one-hit kill attack — gaming)\n\nUSAGE NOTES:\nFrequently appears in news reports about traffic accidents and disasters. In gaming contexts, {即死|そくし} refers to attacks or traps that kill a character in one hit regardless of remaining health. The noun form is often used as a predicate with だった: {即死|そくし}だった (was an instant death / died on the spot).",
+  "notes": "COMMON COLLOCATIONS:\n- {即死|そくし}⟦する→する：00392_suru⟧ (die instantly)\n- {即死|そくし}だった (was dead on the spot)\n- {即死|そくし}⟦{攻撃|こうげき}→攻撃：02748_kougeki⟧ (one-hit kill attack — gaming)\n\nUSAGE:\nFrequently appears in news reports about traffic accidents and disasters. In gaming contexts, {即死|そくし} refers to attacks or traps that kill a character in one hit regardless of remaining health. The noun form is often used as a predicate with だった: {即死|そくし}だった (was an instant death / died on the spot).",
   "cross_references": [
     {
       "type": "related",
@@ -141,11 +141,18 @@
       "reading": "しぼう",
       "headword": "{死亡|しぼう}",
       "label": "death"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23678_jikoshi",
+      "reading": "じこし",
+      "headword": "{事故死|じこし}",
+      "label": "accidental death"
     }
   ],
   "metadata": {
     "created": "2026-02-19T11:09:42Z",
-    "modified": "2026-04-25T10:12:38Z",
+    "modified": "2026-09-02T04:01:27Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",

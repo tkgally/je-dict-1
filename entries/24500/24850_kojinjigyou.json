@@ -15,41 +15,77 @@
   "examples": [
     {
       "id": "24850_kojinjigyou_ex1",
-      "japanese": "{個人事業|こじんじぎょう}を{始|はじ}めた。",
+      "japanese": "{個人事業|こじんじぎょう}⟦を→を：00422_wo⟧⟦{始|はじ}めた→始める：00531_hajimeru⟧。",
       "english": "I started a sole proprietorship.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "24850_kojinjigyou_ex2",
-      "japanese": "{個人事業|こじんじぎょう}の{届出|とどけで}を{税務署|ぜいむしょ}に{出|だ}す{必要|ひつよう}がある。",
+      "japanese": "{個人事業|こじんじぎょう}⟦の→の：09472_no⟧⟦{届出|とどけで}→届出：07555_todokede⟧⟦を→を：00422_wo⟧⟦{税務署|ぜいむしょ}→税務署：13782_zeimusho⟧⟦に→に：00314_ni⟧⟦{出|だ}す→出す：01087_dasu⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "You need to file a sole proprietorship registration with the tax office.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "24850_kojinjigyou_ex3",
-      "japanese": "フリーランスとして{働|はたら}く{場合|ばあい}、{多|おお}くの{人|ひと}が{個人事業|こじんじぎょう}{主|ぬし}として{確定申告|かくていしんこく}をする。",
+      "japanese": "⟦フリーランス→フリーランス：06152_furiiransu⟧⟦として→として：06802_toshite⟧⟦{働|はたら}く→働く：00503_hataraku⟧⟦{場合|ばあい}→場合：01704_baai⟧、{多|おお}く⟦の→の：09472_no⟧⟦{人|ひと}→人：00476_hito⟧⟦が→が：00051_ga⟧{個人事業|こじんじぎょう}{主|ぬし}⟦として→として：06802_toshite⟧⟦{確定申告|かくていしんこく}→確定申告：04902_kakuteishinkoku⟧⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧。",
       "english": "When working as a freelancer, many people file tax returns as a sole proprietor.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {個人|こじん} (individual) + {事業|じぎょう} (business). This is a formal legal and tax term in Japan. A person running a {個人事業|こじんじぎょう} is called a {個人事業主|こじんじぎょうぬし} (sole proprietor).\n\nCOMMON COLLOCATIONS:\n- {個人事業主|こじんじぎょうぬし}: sole proprietor\n- {個人事業|こじんじぎょう}の{開業届|かいぎょうとどけ}: business opening notification\n- {個人事業|こじんじぎょう}を{始|はじ}める: to start a sole proprietorship\n- {個人事業|こじんじぎょう}{税|ぜい}: individual business tax\n\nSIMILAR WORDS:\n- {自営業|じえいぎょう}: self-employment — more general and everyday term for working for oneself\n- {法人|ほうじん}: corporation — a legally incorporated entity, contrasted with {個人事業|こじんじぎょう}\n- フリーランス: freelancer — describes the work style rather than the legal business structure",
+  "notes": "Composed of ⟦{個人|こじん}→個人：02758_kojin⟧ (individual) + ⟦{事業|じぎょう}→事業：11421_jigyou⟧ (business). This is a formal legal and tax term in Japan. A person running a {個人事業|こじんじぎょう} is called a ⟦{個人事業主|こじんじぎょうぬし}→個人事業主：26304_kojinjigyounushi⟧ (sole proprietor).\n\nCOMMON COLLOCATIONS:\n- ⟦{個人事業主|こじんじぎょうぬし}→個人事業主：26304_kojinjigyounushi⟧: sole proprietor\n- {個人事業|こじんじぎょう}⟦の→の：09472_no⟧{開業届|かいぎょうとどけ}: business opening notification\n- {個人事業|こじんじぎょう}⟦を→を：00422_wo⟧{始|はじ}める: to start a sole proprietorship\n- {個人事業|こじんじぎょう}{税|ぜい}: individual business tax\n\nSIMILAR WORDS:\n- ⟦{自営業|じえいぎょう}→自営業：15723_jieigyou⟧: self-employment — more general and everyday term for working for oneself\n- ⟦{法人|ほうじん}→法人：13298_houjin⟧: corporation — a legally incorporated entity, contrasted with {個人事業|こじんじぎょう}\n- ⟦フリーランス→フリーランス：06152_furiiransu⟧: freelancer — describes the work style rather than the legal business structure",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15723_jieigyou",
+      "reading": "じえいぎょう",
+      "headword": "{自営業|じえいぎょう}",
+      "label": "self-employment"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13298_houjin",
+      "reading": "ほうじん",
+      "headword": "{法人|ほうじん}",
+      "label": "corporation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06152_furiiransu",
+      "reading": "ふりーらんす",
+      "headword": "フリーランス",
+      "label": "freelancer"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["work"],
-      "domain": ["business", "legal"]
+      "semantic": [
+        "work"
+      ],
+      "domain": [
+        "business",
+        "legal"
+      ]
     },
     "created": "2026-04-21T10:25:37Z",
-    "modified": "2026-04-21T10:25:37Z"
+    "modified": "2026-09-02T04:02:20Z"
   }
 }

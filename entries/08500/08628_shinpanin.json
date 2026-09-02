@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08628_shinpanin_ex1",
-      "japanese": "{審判員|しんぱんいん}がファウルを{取|と}った。",
+      "japanese": "{審判員|しんぱんいん}⟦が→が：00051_ga⟧⟦ファウル→ファウル：06584_fauru⟧⟦を→を：00422_wo⟧⟦{取|と}った→取る：00565_toru⟧。",
       "english": "The referee called a foul.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "08628_shinpanin_ex2",
-      "japanese": "{審判員|しんぱんいん}の{判定|はんてい}に{抗議|こうぎ}する。",
+      "japanese": "{審判員|しんぱんいん}⟦の→の：09472_no⟧⟦{判定|はんてい}→判定：09767_hantei⟧⟦に→に：00314_ni⟧⟦{抗議|こうぎ}する→抗議する：26923_kougisuru⟧。",
       "english": "Protest the referee's decision.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "08628_shinpanin_ex3",
-      "japanese": "プロの{試合|しあい}で{審判員|しんぱんいん}を{務|つと}める。",
+      "japanese": "⟦プロ→プロ：03871_puro⟧⟦の→の：09472_no⟧⟦{試合|しあい}→試合：01601_shiai⟧⟦で→で：00502_de⟧{審判員|しんぱんいん}⟦を→を：00422_wo⟧⟦{務|つと}める→務める：10446_tsutomeru⟧。",
       "english": "Serve as a referee in a professional match.",
       "sense_numbers": [
         1
@@ -43,7 +43,7 @@
       "notes": null
     }
   ],
-  "notes": "SPORTS TERM:\n{審判員|しんぱんいん} is the formal term for sports officials. Different sports use different terms.\n\nSPORT-SPECIFIC TERMS:\n- {主審|しゅしん} - head referee/umpire\n- {副審|ふくしん} - assistant referee\n- {線審|せんしん} - line judge\n- {塁審|るいしん} - base umpire (baseball)\n- {球審|きゅうしん} - home plate umpire\n\nSYNONYMS:\n- {審判|しんぱん} - referee (shorter form)\n- レフェリー - referee (loanword)\n- アンパイア - umpire (baseball)\n- ジャッジ - judge\n\nCOMMON COLLOCATIONS:\n- {審判員|しんぱんいん}の{判定|はんてい} - referee's decision\n- {審判員|しんぱんいん}に{抗議|こうぎ}する - protest to the referee\n- {審判員|しんぱんいん}を{務|つと}める - serve as referee\n\nVIDEO ASSISTANT:\n- VAR (ビデオアシスタントレフェリー) - video assistant referee",
+  "notes": "SPORTS TERM:\n{審判員|しんぱんいん} is the formal term for sports officials. Different sports use different terms.\n\nSPORT-SPECIFIC TERMS:\n- ⟦{主審|しゅしん}→主審：09268_shushin⟧ - head referee/umpire\n- ⟦{副審|ふくしん}→副審：09269_fukushin⟧ - assistant referee\n- ⟦{線審|せんしん}→線審：08629_senshin⟧ - line judge\n- {塁審|るいしん} - base umpire (baseball)\n- {球審|きゅうしん} - home plate umpire\n\nSIMILAR WORDS:\n- ⟦{審判|しんぱん}→審判：03331_shinpan⟧ - referee (shorter form)\n- レフェリー - referee (loanword)\n- アンパイア - umpire (baseball)\n- ⟦ジャッジ→ジャッジ：12830_jajji⟧ - judge\n\nCOMMON COLLOCATIONS:\n- {審判員|しんぱんいん}⟦の→の：09472_no⟧⟦{判定|はんてい}→判定：09767_hantei⟧ - referee's decision\n- {審判員|しんぱんいん}⟦に→に：00314_ni⟧⟦{抗議|こうぎ}する→抗議する：26923_kougisuru⟧ - protest to the referee\n- {審判員|しんぱんいん}⟦を→を：00422_wo⟧⟦{務|つと}める→務める：10446_tsutomeru⟧ - serve as referee\n\nVIDEO ASSISTANT:\n- VAR (⟦ビデオ→ビデオ：01499_bideo⟧⟦アシスタント→アシスタント：10750_ashisutanto⟧レフェリー) - video assistant referee",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -51,12 +51,13 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "sports"
       ]
     },
     "created": "2026-01-27T12:31:57Z",
-    "modified": "2026-04-20T08:21:42Z"
+    "modified": "2026-09-02T04:01:15Z"
   },
   "cross_references": [
     {
@@ -72,6 +73,13 @@
       "reading": "しんぱん",
       "headword": "{審判|しんぱん}",
       "label": "refereeing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12830_jajji",
+      "reading": "じゃっじ",
+      "headword": "ジャッジ",
+      "label": "judge"
     }
   ]
 }

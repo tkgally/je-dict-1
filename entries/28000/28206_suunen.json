@@ -15,41 +15,88 @@
   "examples": [
     {
       "id": "28206_suunen_ex1",
-      "japanese": "{数年|すうねん}{前|まえ}に{引|ひ}っ{越|こ}した。",
+      "japanese": "{数年|すうねん}⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧⟦{引|ひ}っ{越|こ}した→引っ越す：01171_hikkosu⟧。",
       "english": "I moved several years ago.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28206_suunen_ex2",
-      "japanese": "この{数年|すうねん}で{町|まち}は{大|おお}きく{変|か}わった。",
+      "japanese": "⟦この→この：00962_kono⟧{数年|すうねん}⟦で→で：00502_de⟧⟦{町|まち}→町：00613_machi⟧⟦は→は：00079_ha⟧⟦{大|おお}きく→大きい：00335_ookii⟧⟦{変|か}わった→変わる：00714_kawaru⟧。",
       "english": "The town has changed a lot in these past few years.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28206_suunen_ex3",
-      "japanese": "{完成|かんせい}までにはあと{数年|すうねん}かかる{見込|みこ}みだ。",
+      "japanese": "⟦{完成|かんせい}→完成：01550_kansei⟧⟦まで→まで：00490_made⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧あと{数年|すうねん}⟦かかる→かかる：00711_kakaru⟧⟦{見込|みこ}み→見込み：06872_mikomi⟧だ。",
       "english": "It is expected to take several more years to complete.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "The prefix {数|すう} ('several, a number of') attaches to counters to give a vague quantity.\n\nCOMMON COLLOCATIONS:\n- {数年前|すうねんまえ}: several years ago\n- この{数年|すうねん}: these past few years\n- {数年間|すうねんかん}: over a period of several years\n\nRELATED WORDS:\n- {数日|すうじつ}: several days\n- {数週間|すうしゅうかん}: several weeks\n- {数十年|すうじゅうねん}: several decades",
+  "notes": "The prefix ⟦{数|すう}→数：03360_suu⟧ ('several, a number of') attaches to counters to give a vague quantity.\n\nCOMMON COLLOCATIONS:\n- {数年前|すうねんまえ}: several years ago\n- ⟦この→この：00962_kono⟧{数年|すうねん}: these past few years\n- {数年間|すうねんかん}: over a period of several years\n\nRELATED WORDS:\n- ⟦{数日|すうじつ}→数日：20517_suujitsu⟧: several days\n- ⟦{数週間|すうしゅうかん}→数週間：21615_suushuukan⟧: several weeks\n- ⟦{数十年|すうじゅうねん}→数十年：30639_suujuunen⟧: several decades",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "20517_suujitsu",
+      "reading": "すうじつ",
+      "headword": "{数日|すうじつ}",
+      "label": "several days"
+    },
+    {
+      "type": "related",
+      "target_id": "21615_suushuukan",
+      "reading": "すうしゅうかん",
+      "headword": "{数週間|すうしゅうかん}",
+      "label": "several weeks"
+    },
+    {
+      "type": "related",
+      "target_id": "30639_suujuunen",
+      "reading": "すうじゅうねん",
+      "headword": "{数十年|すうじゅうねん}",
+      "label": "several decades"
+    },
+    {
+      "type": "related",
+      "target_id": "21622_suujikan",
+      "reading": "すうじかん",
+      "headword": "{数時間|すうじかん}",
+      "label": "several hours"
+    },
+    {
+      "type": "related",
+      "target_id": "29820_suukai",
+      "reading": "すうかい",
+      "headword": "{数回|すうかい}",
+      "label": "several times"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["time-period"],
+      "politeness": "plain",
+      "semantic": [
+        "time-period"
+      ],
       "domain": []
     },
     "created": "2026-05-27T03:08:15Z",
-    "modified": "2026-05-27T03:08:15Z"
+    "modified": "2026-09-02T04:02:32Z"
   }
 }

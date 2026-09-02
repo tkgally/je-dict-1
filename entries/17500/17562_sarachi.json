@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "17562_sarachi_ex1",
-      "japanese": "{古|ふる}い{家|いえ}を{取|と}り{壊|こわ}して{更地|さらち}にした。",
+      "japanese": "⟦{古|ふる}い→古い：00488_furui⟧⟦{家|いえ}→家：00612_ie⟧⟦を→を：00422_wo⟧⟦{取|と}り{壊|こわ}して→取り壊す：15755_torikowasu⟧{更地|さらち}にした。",
       "english": "I demolished the old house and cleared the land.",
       "has_audio": false,
       "sense_numbers": [
@@ -23,7 +23,7 @@
     },
     {
       "id": "17562_sarachi_ex2",
-      "japanese": "{駅前|えきまえ}の{更地|さらち}にマンションが{建|た}つらしい。",
+      "japanese": "⟦{駅前|えきまえ}→駅前：09593_ekimae⟧⟦の→の：09472_no⟧{更地|さらち}⟦に→に：00314_ni⟧⟦マンション→マンション：01035_manshon⟧⟦が→が：00051_ga⟧⟦{建|た}つ→建つ：12544_tatsu⟧らしい。",
       "english": "Apparently an apartment building will be built on the vacant lot in front of the station.",
       "has_audio": false,
       "sense_numbers": [
@@ -32,7 +32,7 @@
     },
     {
       "id": "17562_sarachi_ex3",
-      "japanese": "{更地|さらち}の{状態|じょうたい}で{売|う}りに{出|だ}された。",
+      "japanese": "{更地|さらち}⟦の→の：09472_no⟧⟦{状態|じょうたい}→状態：03345_joutai⟧⟦で→で：00502_de⟧⟦{売|う}り→売り：12159_uri⟧⟦に→に：00314_ni⟧⟦{出|だ}された→出す：01087_dasu⟧。",
       "english": "It was put up for sale as a cleared lot.",
       "has_audio": false,
       "sense_numbers": [
@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "notes": "REAL ESTATE USAGE:\nCommon term in real estate transactions. Land is often sold as {更地|さらち} (cleared) or with existing structures.\n\nCOMMON EXPRESSIONS:\n・{更地|さらち}にする - to clear the land (demolish existing structures)\n・{更地|さらち}で{売|う}る - to sell as vacant land\n・{更地|さらち}{渡|わた}し - delivery as cleared land\n\nCOMPARISON:\n・{更地|さらち} - cleared/vacant lot (no structures)\n・{空|あ}き{地|ち} - empty lot (may have weeds, unused)\n・{宅地|たくち} - residential land\n・{敷地|しきち} - site, premises (for a specific purpose)",
+  "notes": "REAL ESTATE USAGE:\nCommon term in real estate transactions. Land is often sold as {更地|さらち} (cleared) or with existing structures.\n\nCOMMON EXPRESSIONS:\n- {更地|さらち}⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧ - to clear the land (demolish existing structures)\n- {更地|さらち}⟦で→で：00502_de⟧⟦{売|う}る→売る：00906_uru⟧ - to sell as vacant land\n- {更地|さらち}{渡|わた}し - delivery as cleared land\n\nSIMILAR WORDS:\n- {更地|さらち} - cleared/vacant lot (no structures)\n- ⟦{空|あ}き{地|ち}→空き地：15270_akichi⟧ - empty lot (may have weeds, unused)\n- ⟦{宅地|たくち}→宅地：21589_takuchi⟧ - residential land\n- ⟦{敷地|しきち}→敷地：00365_shikichi⟧ - site, premises (for a specific purpose)",
   "cross_references": [
     {
       "type": "contrast",
@@ -62,11 +62,18 @@
       "reading": "しきち",
       "headword": "{敷地|しきち}",
       "label": "site, premises"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14281_atochi",
+      "reading": "あとち",
+      "headword": "{跡地|あとち}",
+      "label": "former site"
     }
   ],
   "metadata": {
     "created": "2026-01-22T23:40:24Z",
-    "modified": "2026-07-24T07:00:08Z",
+    "modified": "2026-09-02T04:01:48Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -74,6 +81,7 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "geography",
         "finance"

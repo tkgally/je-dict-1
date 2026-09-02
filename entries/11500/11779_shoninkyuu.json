@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "11779_shoninkyuu_ex1",
-      "japanese": "{初任給|しょにんきゅう}で{親|おや}にプレゼントを{買|か}った。",
+      "japanese": "{初任給|しょにんきゅう}⟦で→で：00502_de⟧⟦{親|おや}→親：01357_oya⟧⟦に→に：00314_ni⟧⟦プレゼント→プレゼント：01791_purezento⟧⟦を→を：00422_wo⟧⟦{買|か}った→買う：00489_kau⟧。",
       "english": "I bought my parents a present with my first paycheck.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "11779_shoninkyuu_ex2",
-      "japanese": "{大卒|だいそつ}の{初任給|しょにんきゅう}は{約|やく}22{万円|まんえん}だ。",
+      "japanese": "⟦{大卒|だいそつ}→大卒：19285_daisotsu⟧⟦の→の：09472_no⟧{初任給|しょにんきゅう}⟦は→は：00079_ha⟧⟦{約|やく}→約：09563_yaku⟧22{万円|まんえん}だ。",
       "english": "The starting salary for university graduates is about 220,000 yen.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "11779_shoninkyuu_ex3",
-      "japanese": "この{会社|かいしゃ}は{初任給|しょにんきゅう}が{高|たか}いことで{知|し}られている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦は→は：00079_ha⟧{初任給|しょにんきゅう}⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧こと⟦で→で：00502_de⟧⟦{知|し}られている→知る：00458_shiru⟧。",
       "english": "This company is known for its high starting salary.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{初任給|しょにんきゅう} combines {初任|しょにん} (first appointment) + {給|きゅう} (salary). Refers both to the starting salary level and to the first paycheck itself.\n\nCULTURAL NOTE:\nIn Japan, it is a common tradition to buy a gift for one's parents with the first paycheck as a gesture of gratitude. This is a widely recognized milestone for new graduates.\n\nCOMMON COLLOCATIONS:\n- {初任給|しょにんきゅう}で{買|か}う: to buy with one's first paycheck\n- {初任給|しょにんきゅう}の{平均|へいきん}: average starting salary\n- {初任給|しょにんきゅう}が{上|あ}がる: starting salaries rise\n- {大卒|だいそつ}{初任給|しょにんきゅう}: starting salary for university graduates\n\nRELATED WORDS:\n- {給料|きゅうりょう}: salary, pay (general)\n- {年収|ねんしゅう}: annual income\n- {手取|てど}り: take-home pay",
+  "notes": "{初任給|しょにんきゅう} combines {初任|しょにん} (first appointment) + {給|きゅう} (salary). Refers both to the starting salary level and to the first paycheck itself.\n\nCULTURAL NOTE:\nIn Japan, it is a common tradition to buy a gift for one's parents with the first paycheck as a gesture of gratitude. This is a widely recognized milestone for new graduates.\n\nCOMMON COLLOCATIONS:\n- {初任給|しょにんきゅう}⟦で→で：00502_de⟧⟦{買|か}う→買う：00489_kau⟧: to buy with one's first paycheck\n- {初任給|しょにんきゅう}⟦の→の：09472_no⟧⟦{平均|へいきん}→平均：03614_heikin⟧: average starting salary\n- {初任給|しょにんきゅう}⟦が→が：00051_ga⟧⟦{上|あ}がる→上がる：00615_agaru⟧: starting salaries rise\n- ⟦{大卒|だいそつ}→大卒：19285_daisotsu⟧{初任給|しょにんきゅう}: starting salary for university graduates\n\nRELATED WORDS:\n- ⟦{給料|きゅうりょう}→給料：01086_kyuuryou⟧: salary, pay (general)\n- ⟦{年収|ねんしゅう}→年収：05504_nenshuu⟧: annual income\n- ⟦{手取|てど}り→手取り：06833_tedori⟧: take-home pay",
   "cross_references": [
     {
       "type": "related",
@@ -51,11 +51,25 @@
       "reading": "きゅうりょう",
       "headword": "{給料|きゅうりょう}",
       "label": "salary, pay (general)"
+    },
+    {
+      "type": "related",
+      "target_id": "05504_nenshuu",
+      "reading": "ねんしゅう",
+      "headword": "{年収|ねんしゅう}",
+      "label": "annual income"
+    },
+    {
+      "type": "related",
+      "target_id": "06833_tedori",
+      "reading": "てどり",
+      "headword": "{手取|てど}り",
+      "label": "take-home pay"
     }
   ],
   "metadata": {
     "created": "2026-02-17T23:15:01Z",
-    "modified": "2026-04-25T08:21:10Z",
+    "modified": "2026-09-02T04:01:26Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",

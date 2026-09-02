@@ -3,7 +3,7 @@
   "headword": "{擬態|ぎたい}",
   "reading": "ぎたい",
   "romaji": "gitai",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "mimicry; camouflage",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29905_gitai_ex1",
-      "japanese": "この{虫|むし}は{擬態|ぎたい}が{上手|じょうず}だ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{虫|むし}→虫：02262_mushi⟧⟦は→は：00079_ha⟧{擬態|ぎたい}⟦が→が：00051_ga⟧⟦{上手|じょうず}→上手：00707_jouzu⟧だ。",
       "english": "This insect is good at camouflage.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29905_gitai_ex2",
-      "japanese": "カマキリは{葉|は}に{擬態|ぎたい}して{身|み}を{隠|かく}す。",
+      "japanese": "⟦カマキリ→カマキリ：06516_kamakiri⟧⟦は→は：00079_ha⟧⟦{葉|は}→葉：02241_ha⟧⟦に→に：00314_ni⟧{擬態|ぎたい}⟦して→する：00392_suru⟧⟦{身|み}→身：01764_mi⟧⟦を→を：00422_wo⟧⟦{隠|かく}す→隠す：02034_kakusu⟧。",
       "english": "The praying mantis camouflages itself as a leaf to hide.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29905_gitai_ex3",
-      "japanese": "{昆虫|こんちゅう}の{擬態|ぎたい}は、{敵|てき}から{身|み}を{守|まも}るための{仕組|しく}みだ。",
+      "japanese": "⟦{昆虫|こんちゅう}→昆虫：05010_konchuu⟧⟦の→の：09472_no⟧{擬態|ぎたい}⟦は→は：00079_ha⟧、⟦{敵|てき}→敵：03546_teki⟧⟦から→から：00504_kara⟧⟦{身|み}→身：01764_mi⟧⟦を→を：00422_wo⟧⟦{守|まも}る→守る：01986_mamoru⟧⟦ため→ため：01145_tame⟧⟦の→の：09472_no⟧⟦{仕組|しく}み→仕組み：07168_shikumi⟧だ。",
       "english": "Insect mimicry is a mechanism for protecting themselves from enemies.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "A biology term for the way an organism mimics its surroundings or another species for protection. Commonly used as a suru-verb: {擬態|ぎたい}する (to camouflage oneself, to mimic).\n\nCOMMON COLLOCATIONS:\n- {葉|は}に{擬態|ぎたい}する: to camouflage as a leaf\n- {擬態|ぎたい}する{昆虫|こんちゅう}: an insect that uses mimicry\n\nSIMILAR WORDS:\n- {保護色|ほごしょく}: protective coloration — blending in by color alone, a narrower idea than {擬態|ぎたい}",
+  "notes": "A biology term for the way an organism mimics its surroundings or another species for protection. Commonly used as a suru-verb: {擬態|ぎたい}⟦する→する：00392_suru⟧ (to camouflage oneself, to mimic).\n\nCOMMON COLLOCATIONS:\n- ⟦{葉|は}→葉：02241_ha⟧⟦に→に：00314_ni⟧{擬態|ぎたい}⟦する→する：00392_suru⟧: to camouflage as a leaf\n- {擬態|ぎたい}⟦する→する：00392_suru⟧⟦{昆虫|こんちゅう}→昆虫：05010_konchuu⟧: an insect that uses mimicry\n\nSIMILAR WORDS:\n- ⟦{保護色|ほごしょく}→保護色：29906_hogoshoku⟧: protective coloration — blending in by color alone, a narrower idea than {擬態|ぎたい}",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "29906_hogoshoku",
+      "reading": "ほごしょく",
+      "headword": "{保護色|ほごしょく}",
+      "label": "protective coloration"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -54,7 +63,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "science"
       ],
@@ -62,7 +71,7 @@
       "verb_class": "suru"
     },
     "created": "2026-07-16T21:18:06Z",
-    "modified": "2026-07-16T21:18:06Z"
+    "modified": "2026-09-02T04:02:38Z"
   },
   "conjugation": {
     "type": "suru",

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "17105_moerugomi_ex1",
-      "japanese": "{燃|も}えるゴミの{日|ひ}は{火曜日|かようび}だ。",
+      "japanese": "{燃|も}えるゴミ⟦の→の：09472_no⟧⟦{日|ひ}→日：02249_hi⟧⟦は→は：00079_ha⟧⟦{火曜日|かようび}→火曜日：00640_kayoubi⟧だ。",
       "english": "Burnable garbage day is Tuesday.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "17105_moerugomi_ex2",
-      "japanese": "{燃|も}えるゴミと{燃|も}えないゴミを{分|わ}けてください。",
+      "japanese": "{燃|も}えるゴミ⟦と→と：00512_to⟧⟦{燃|も}えないゴミ→燃えないゴミ：23525_moenaigomi⟧⟦を→を：00422_wo⟧⟦{分|わ}けて→分ける：02333_wakeru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please separate burnable and non-burnable garbage.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "17105_moerugomi_ex3",
-      "japanese": "{引|ひ}っ{越|こ}しの{時|とき}に{大量|たいりょう}の{燃|も}えるゴミが{出|で}たので、{何回|なんかい}かに{分|わ}けて{出|だ}した。",
+      "japanese": "{引|ひ}っ{越|こ}し⟦の→の：09472_no⟧{時|とき}⟦に→に：00314_ni⟧⟦{大量|たいりょう}→大量：03112_tairyou⟧⟦の→の：09472_no⟧{燃|も}えるゴミ⟦が→が：00051_ga⟧⟦{出|で}た→出る：00513_deru⟧⟦の→の：09472_no⟧で、⟦{何回|なんかい}→何回：08497_nankai⟧⟦か→か：09473_ka⟧⟦に→に：00314_ni⟧⟦{分|わ}けて→分ける：02333_wakeru⟧⟦{出|だ}した→出す：01087_dasu⟧。",
       "english": "A large amount of burnable garbage came out during the move, so I put it out in several batches.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nAn essential daily-life term in Japan, where garbage is strictly sorted by category. {燃|も}えるゴミ is one of the main categories, along with {燃|も}えないゴミ (non-burnable garbage) and {資源|しげん}ゴミ (recyclable waste). Collection days and sorting rules vary by municipality. Also written as {可燃|かねん}ゴミ on official signs.\n\nCOMMON COLLOCATIONS:\n- {燃|も}えるゴミの{日|ひ} (burnable garbage day)\n- {燃|も}えるゴミの{袋|ふくろ} (burnable garbage bag)\n- {燃|も}えるゴミに{出|だ}す (to put out as burnable garbage)\n\nSIMILAR WORDS:\n- {燃|も}えないゴミ: non-burnable garbage — metals, ceramics, glass\n- {可燃|かねん}ゴミ: combustible waste — formal equivalent\n- {資源|しげん}ゴミ: recyclable waste — paper, cans, bottles, plastics",
+  "notes": "USAGE:\nAn essential daily-life term in Japan, where garbage is strictly sorted by category. {燃|も}えるゴミ is one of the main categories, along with ⟦{燃|も}えないゴミ→燃えないゴミ：23525_moenaigomi⟧ (non-burnable garbage) and ⟦{資源|しげん}→資源：03167_shigen⟧⟦ゴミ→ゴミ：00840_gomi⟧ (recyclable waste). Collection days and sorting rules vary by municipality. Also written as ⟦{可燃|かねん}→可燃：26077_kanen⟧⟦ゴミ→ゴミ：00840_gomi⟧ on official signs.\n\nCOMMON COLLOCATIONS:\n- {燃|も}えるゴミ⟦の→の：09472_no⟧⟦{日|ひ}→日：02249_hi⟧ (burnable garbage day)\n- {燃|も}えるゴミ⟦の→の：09472_no⟧⟦{袋|ふくろ}→袋：00837_fukuro⟧ (burnable garbage bag)\n- {燃|も}えるゴミ⟦に→に：00314_ni⟧⟦{出|だ}す→出す：01087_dasu⟧ (to put out as burnable garbage)\n\nSIMILAR WORDS:\n- ⟦{燃|も}えないゴミ→燃えないゴミ：23525_moenaigomi⟧: non-burnable garbage — metals, ceramics, glass\n- ⟦{可燃|かねん}→可燃：26077_kanen⟧⟦ゴミ→ゴミ：00840_gomi⟧: combustible waste — formal equivalent\n- ⟦{資源|しげん}→資源：03167_shigen⟧⟦ゴミ→ゴミ：00840_gomi⟧: recyclable waste — paper, cans, bottles, plastics",
   "prominent_see_also": [
     {
       "target_id": "23525_moenaigomi",
@@ -60,11 +60,25 @@
       "reading": "ごみ",
       "headword": "ゴミ",
       "label": "garbage (general)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16790_kanenbutsu",
+      "reading": "かねんぶつ",
+      "headword": "{可燃物|かねんぶつ}",
+      "label": "combustible material"
+    },
+    {
+      "type": "antonym",
+      "target_id": "19230_funenbutsu",
+      "reading": "ふねんぶつ",
+      "headword": "{不燃物|ふねんぶつ}",
+      "label": "non-burnable waste"
     }
   ],
   "metadata": {
     "created": "2026-03-16T00:42:05Z",
-    "modified": "2026-07-22T18:50:18Z",
+    "modified": "2026-09-02T04:01:47Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

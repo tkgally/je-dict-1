@@ -78,7 +78,7 @@
       ]
     }
   ],
-  "notes": "ファイル is a loanword from English \"file,\" used for both digital and physical files.\n\nCOMPUTER USAGE:\n- ファイル⟦を→を：00422_wo⟧⟦{開|ひら}く→開く：01979_hiraku⟧: to open a file\n- ファイル⟦を→を：00422_wo⟧⟦{保存|ほぞん}→保存：03626_hozon⟧⟦する→する：00392_suru⟧: to save a file\n- ファイル⟦を→を：00422_wo⟧⟦{削除|さくじょ}→削除：04171_sakujo⟧⟦する→する：00392_suru⟧: to delete a file\n- ⟦{添付|てんぷ}→添付：07376_tenpu⟧ファイル: attached file\n- ファイル⟦を→を：00422_wo⟧⟦{転送|てんそう}→転送：14792_tensou⟧⟦する→する：00392_suru⟧: to transfer a file\n\nOFFICE/PHYSICAL USAGE:\n- ⟦クリアファイル→クリアファイル：28816_kuriafairu⟧: clear plastic folder\n- リングファイル: ring binder\n- ファイル⟦に→に：00314_ni⟧⟦{綴|と}じる→綴じる：19583_tojiru⟧: to file (documents)\n\nRELATED:\n- ⟦フォルダ→フォルダ：05394_foruda⟧: folder (computer)\n- ⟦{書類|しょるい}→書類：01103_shorui⟧: documents",
+  "notes": "ファイル is a loanword from English \"file,\" used for both digital and physical files.\n\nCOMPUTER USAGE:\n- ファイル⟦を→を：00422_wo⟧⟦{開|ひら}く→開く：01979_hiraku⟧: to open a file\n- ファイル⟦を→を：00422_wo⟧⟦{保存|ほぞん}→保存：03626_hozon⟧⟦する→する：00392_suru⟧: to save a file\n- ファイル⟦を→を：00422_wo⟧⟦{削除|さくじょ}→削除：04171_sakujo⟧⟦する→する：00392_suru⟧: to delete a file\n- ⟦{添付|てんぷ}→添付：07376_tenpu⟧ファイル: attached file\n- ファイル⟦を→を：00422_wo⟧⟦{転送|てんそう}→転送：14792_tensou⟧⟦する→する：00392_suru⟧: to transfer a file\n\nOFFICE/PHYSICAL USAGE:\n- ⟦クリアファイル→クリアファイル：28816_kuriafairu⟧: clear plastic folder\n- ⟦リング→リング：28765_ringu⟧ファイル: ring binder\n- ファイル⟦に→に：00314_ni⟧⟦{綴|と}じる→綴じる：19583_tojiru⟧: to file (documents)\n\nRELATED WORDS:\n- ⟦フォルダ→フォルダ：05394_foruda⟧: folder (computer)\n- ⟦{書類|しょるい}→書類：01103_shorui⟧: documents",
   "cross_references": [
     {
       "type": "related",
@@ -86,11 +86,53 @@
       "headword": "フォルダ",
       "label": "folder",
       "target_id": "05394_foruda"
+    },
+    {
+      "type": "related",
+      "target_id": "01103_shorui",
+      "reading": "しょるい",
+      "headword": "{書類|しょるい}",
+      "label": "documents"
+    },
+    {
+      "type": "related",
+      "target_id": "08135_anaakepanchi",
+      "reading": "あなあけぱんち",
+      "headword": "{穴|あな}あけパンチ",
+      "label": "hole punch"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24419_forudaa",
+      "reading": "ふぉるだー",
+      "headword": "フォルダー",
+      "label": "folder"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25889_dokyumento",
+      "reading": "どきゅめんと",
+      "headword": "ドキュメント",
+      "label": "document"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27674_direkutori",
+      "reading": "でぃれくとり",
+      "headword": "ディレクトリ",
+      "label": "directory"
+    },
+    {
+      "type": "related",
+      "target_id": "28816_kuriafairu",
+      "reading": "くりあふぁいる",
+      "headword": "クリアファイル",
+      "label": "clear plastic folder"
     }
   ],
   "metadata": {
     "created": "2026-01-16T05:20:28Z",
-    "modified": "2026-08-08T09:25:02Z",
+    "modified": "2026-09-02T04:01:06Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

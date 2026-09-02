@@ -15,41 +15,74 @@
   "examples": [
     {
       "id": "13958_geinin_ex1",
-      "japanese": "あの{芸人|げいにん}は{面白|おもしろ}い。",
+      "japanese": "⟦あの→あの：00915_ano⟧{芸人|げいにん}⟦は→は：00079_ha⟧⟦{面白|おもしろ}い→面白い：00589_omoshiroi⟧。",
       "english": "That comedian is funny.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13958_geinin_ex2",
-      "japanese": "{若手|わかて}{芸人|げいにん}がテレビで{活躍|かつやく}している。",
+      "japanese": "⟦{若手|わかて}→若手：13989_wakate⟧{芸人|げいにん}⟦が→が：00051_ga⟧⟦テレビ→テレビ：01536_terebi⟧⟦で→で：00502_de⟧⟦{活躍|かつやく}している→活躍する：25354_katsuyakusuru⟧。",
       "english": "Young comedians are active on television.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13958_geinin_ex3",
-      "japanese": "{彼|かれ}は{芸人|げいにん}を{目指|めざ}して{大阪|おおさか}から{上京|じょうきょう}した。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{芸人|げいにん}⟦を→を：00422_wo⟧⟦{目指|めざ}して→目指す：10528_mezasu⟧⟦{大阪|おおさか}→大阪：09779_oosaka⟧⟦から→から：00504_kara⟧⟦{上京|じょうきょう}→上京：03344_joukyou⟧⟦した→する：00392_suru⟧。",
       "english": "He came up to Tokyo from Osaka aspiring to become a comedian.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nIn modern usage, {芸人|げいにん} most often means a comedian, especially an お{笑|わら}い{芸人|げいにん} (comedy entertainer). Japanese comedy culture, centered in Osaka and Tokyo, is a major part of the TV entertainment industry. Many {芸人|げいにん} work in pairs (コンビ) performing manzai or conte.\n\nThe word can also refer more broadly to any performer or entertainer, including {大道|だいどう}{芸人|げいにん} (street performer).\n\nCOMMON COLLOCATIONS:\n- お{笑|わら}い{芸人|げいにん}: comedian\n- {若手|わかて}{芸人|げいにん}: young/up-and-coming comedian\n- {大道|だいどう}{芸人|げいにん}: street performer\n- {売|う}れっ{子|こ}{芸人|げいにん}: popular comedian\n- {芸人|げいにん}{魂|だましい}: entertainer's spirit",
-  "cross_references": [],
+  "notes": "USAGE:\nIn modern usage, {芸人|げいにん} most often means a comedian, especially an ⟦お{笑|わら}い→お笑い：10298_owarai⟧{芸人|げいにん} (comedy entertainer). Japanese comedy culture, centered in Osaka and Tokyo, is a major part of the TV entertainment industry. Many {芸人|げいにん} work in pairs (⟦コンビ→コンビ：27903_konbi⟧) performing manzai or conte.\n\nThe word can also refer more broadly to any performer or entertainer, including {大道|だいどう}{芸人|げいにん} (street performer).\n\nCOMMON COLLOCATIONS:\n- ⟦お{笑|わら}い→お笑い：10298_owarai⟧{芸人|げいにん}: comedian\n- ⟦{若手|わかて}→若手：13989_wakate⟧{芸人|げいにん}: young/up-and-coming comedian\n- {大道|だいどう}{芸人|げいにん}: street performer\n- ⟦{売|う}れっ{子|こ}→売れっ子：12110_urekko⟧{芸人|げいにん}: popular comedian\n- {芸人|げいにん}{魂|だましい}: entertainer's spirit",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "22032_manzaishi",
+      "reading": "まんざいし",
+      "headword": "{漫才師|まんざいし}",
+      "label": "manzai comedian"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24231_pafoomaa",
+      "reading": "ぱふぉーまー",
+      "headword": "パフォーマー",
+      "label": "performer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28498_rakugoka",
+      "reading": "らくごか",
+      "headword": "{落語家|らくごか}",
+      "label": "rakugo performer"
+    }
+  ],
   "metadata": {
     "created": "2026-02-27T07:51:29Z",
-    "modified": "2026-07-15T09:17:48Z",
+    "modified": "2026-09-02T04:01:35Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["occupation", "leisure"]
+      "semantic": [
+        "occupation",
+        "leisure"
+      ]
     }
   }
 }

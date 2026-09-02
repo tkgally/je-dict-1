@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30720_fuyoujou_ex1",
-      "japanese": "{不養生|ふようじょう}がたたった。",
+      "japanese": "{不養生|ふようじょう}⟦が→が：00051_ga⟧たたった。",
       "english": "My neglect of my health caught up with me.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30720_fuyoujou_ex2",
-      "japanese": "{若|わか}いころの{不養生|ふようじょう}を{後悔|こうかい}している。",
+      "japanese": "{若|わか}い⟦ころ→〜ころ：03091_koro⟧⟦の→の：09472_no⟧{不養生|ふようじょう}⟦を→を：00422_wo⟧⟦{後悔|こうかい}→後悔：02738_koukai⟧⟦している→する：00392_suru⟧。",
       "english": "I regret how badly I looked after myself when I was young.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30720_fuyoujou_ex3",
-      "japanese": "{毎晩|まいばん}{夜更|よふ}かしをして{朝食|ちょうしょく}も{抜|ぬ}くようでは、{不養生|ふようじょう}と{言|い}われても{仕方|しかた}がない。",
+      "japanese": "⟦{毎晩|まいばん}→毎晩：00967_maiban⟧⟦{夜更|よふ}かし→夜更かし：07693_yofukashi⟧⟦を→を：00422_wo⟧⟦して→する：00392_suru⟧⟦{朝食|ちょうしょく}→朝食：03122_choushoku⟧⟦も→も：00484_mo⟧⟦{抜|ぬ}く→抜く：02384_nuku⟧ようで⟦は→は：00079_ha⟧、{不養生|ふようじょう}⟦と→と：00512_to⟧⟦{言|い}われて→言う：00515_iu⟧⟦も→も：00484_mo⟧⟦{仕方|しかた}→仕方：01603_shikata⟧⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧。",
       "english": "If you stay up late every night and skip breakfast too, you can hardly complain about being told you neglect your health.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "Formed from {不|ふ} (not) plus {養生|ようじょう} (taking care of one's health, convalescing). It names the behavior, not the illness that results.\n\nCOMMON EXPRESSIONS:\n- {医者|いしゃ}の{不養生|ふようじょう}: \"the doctor's own bad habits\" — a set proverb for someone who preaches what they fail to practice\n- {不養生|ふようじょう}がたたる: for neglect of one's health to catch up with one\n- {日頃|ひごろ}の{不養生|ふようじょう}: one's habitual poor self-care\n\nSIMILAR WORDS:\n- {不摂生|ふせっせい}: intemperance, unhealthy habits — a near-synonym, slightly more about excess (drink, food)\n- {養生|ようじょう}: taking care of one's health, resting to recover — the positive counterpart",
+  "notes": "Formed from {不|ふ} (not) plus ⟦{養生|ようじょう}→養生：08636_youjou⟧ (taking care of one's health, convalescing). It names the behavior, not the illness that results.\n\nCOMMON EXPRESSIONS:\n- ⟦{医者|いしゃ}→医者：02847_isha⟧⟦の→の：09472_no⟧{不養生|ふようじょう}: \"the doctor's own bad habits\" — a set proverb for someone who preaches what they fail to practice\n- {不養生|ふようじょう}⟦が→が：00051_ga⟧たたる: for neglect of one's health to catch up with one\n- ⟦{日頃|ひごろ}→日頃：07284_higoro⟧⟦の→の：09472_no⟧{不養生|ふようじょう}: one's habitual poor self-care\n\nSIMILAR WORDS:\n- ⟦{不摂生|ふせっせい}→不摂生：15502_fusessei⟧: intemperance, unhealthy habits — a near-synonym, slightly more about excess (drink, food)\n- ⟦{養生|ようじょう}→養生：08636_youjou⟧: taking care of one's health, resting to recover — the positive counterpart",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15502_fusessei",
+      "reading": "ふせっせい",
+      "headword": "{不摂生|ふせっせい}",
+      "label": "intemperance, unhealthy habits"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +62,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "health",
         "daily-life"
@@ -61,6 +70,6 @@
       "domain": []
     },
     "created": "2026-08-22T12:17:21Z",
-    "modified": "2026-08-22T12:17:21Z"
+    "modified": "2026-09-02T04:02:41Z"
   }
 }

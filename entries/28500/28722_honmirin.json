@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "28722_honmirin_ex1",
-      "japanese": "{本|ほん}みりんを{使|つか}う。",
+      "japanese": "{本|ほん}みりん⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧。",
       "english": "I use true mirin.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28722_honmirin_ex2",
-      "japanese": "{本|ほん}みりんは{照|て}りと{深|ふか}い{甘|あま}みを{出|だ}す。",
+      "japanese": "{本|ほん}みりん⟦は→は：00079_ha⟧⟦{照|て}り→照り：16401_teri⟧⟦と→と：00512_to⟧⟦{深|ふか}い→深い：01211_fukai⟧⟦{甘|あま}み→甘み：17244_amami⟧⟦を→を：00422_wo⟧⟦{出|だ}す→出す：01087_dasu⟧。",
       "english": "True mirin produces glaze and a deep sweetness.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28722_honmirin_ex3",
-      "japanese": "{本|ほん}みりんはアルコールを{含|ふく}むので、{料理|りょうり}の{始|はじ}めに{加|くわ}えて{煮切|にき}ることが{多|おお}い。",
+      "japanese": "{本|ほん}みりん⟦は→は：00079_ha⟧⟦アルコール→アルコール：01771_arukooru⟧⟦を→を：00422_wo⟧⟦{含|ふく}む→含む：01982_fukumu⟧⟦の→の：09472_no⟧で、⟦{料理|りょうり}→料理：01523_ryouri⟧⟦の→の：09472_no⟧{始|はじ}め⟦に→に：00314_ni⟧⟦{加|くわ}えて→加える：01941_kuwaeru⟧{煮切|にき}ること⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "Since true mirin contains alcohol, it's often added at the start of cooking and boiled to evaporate the alcohol.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Distinguished from みりん{風|ふう}{調味料|ちょうみりょう} (mirin-style seasoning), which contains little or no alcohol and is cheaper. {本|ほん}みりん is treated as an alcoholic beverage in Japan and is sold in the liquor section.\n\nCOMMON COLLOCATIONS:\n- {本|ほん}みりんを{加|くわ}える: to add true mirin\n- {本|ほん}みりんで{煮|に}る: to simmer with true mirin\n- {本|ほん}みりんの{照|て}り: the glaze produced by true mirin\n\nSIMILAR WORDS:\n- みりん{風|ふう}{調味料|ちょうみりょう}: mirin-style seasoning — low-alcohol substitute, milder flavor\n- {料理酒|りょうりしゅ}: cooking sake — adds depth but lacks sweetness",
+  "notes": "Distinguished from みりん{風|ふう}⟦{調味料|ちょうみりょう}→調味料：04941_choumiryou⟧ (mirin-style seasoning), which contains little or no alcohol and is cheaper. {本|ほん}みりん is treated as an alcoholic beverage in Japan and is sold in the liquor section.\n\nCOMMON COLLOCATIONS:\n- {本|ほん}みりん⟦を→を：00422_wo⟧⟦{加|くわ}える→加える：01941_kuwaeru⟧: to add true mirin\n- {本|ほん}みりん⟦で→で：00502_de⟧⟦{煮|に}る→煮る：01971_niru⟧: to simmer with true mirin\n- {本|ほん}みりん⟦の→の：09472_no⟧⟦{照|て}り→照り：16401_teri⟧: the glaze produced by true mirin\n\nSIMILAR WORDS:\n- みりん{風|ふう}⟦{調味料|ちょうみりょう}→調味料：04941_choumiryou⟧: mirin-style seasoning — low-alcohol substitute, milder flavor\n- ⟦{料理酒|りょうりしゅ}→料理酒：17180_ryourishu⟧: cooking sake — adds depth but lacks sweetness",
   "cross_references": [
     {
       "type": "related",
@@ -46,19 +52,30 @@
       "reading": "みりん",
       "headword": "{味醂|みりん}",
       "label": "mirin (general term)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17180_ryourishu",
+      "reading": "りょうりしゅ",
+      "headword": "{料理酒|りょうりしゅ}",
+      "label": "cooking sake"
     }
   ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["food"],
+      "politeness": "plain",
+      "semantic": [
+        "food"
+      ],
       "domain": []
     },
     "created": "2026-06-04T04:07:37Z",
-    "modified": "2026-06-04T04:07:37Z"
+    "modified": "2026-09-02T04:02:34Z"
   }
 }

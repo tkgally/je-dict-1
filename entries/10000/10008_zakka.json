@@ -14,40 +14,65 @@
   "examples": [
     {
       "id": "10008_zakka_ex1",
-      "japanese": "{雑貨|ざっか}{屋|や}で{買|か}い{物|もの}をした。",
+      "japanese": "{雑貨|ざっか}{屋|や}⟦で→で：00502_de⟧⟦{買|か}い{物|もの}→買い物：00853_kaimono⟧⟦を→を：00422_wo⟧⟦した→する：00392_suru⟧。",
       "english": "I went shopping at a general store.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10008_zakka_ex2",
-      "japanese": "かわいい{雑貨|ざっか}を{集|あつ}めている。",
+      "japanese": "⟦かわいい→かわいい：00857_kawaii⟧{雑貨|ざっか}⟦を→を：00422_wo⟧⟦{集|あつ}めている→集める：01170_atsumeru⟧。",
       "english": "I collect cute miscellaneous goods.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10008_zakka_ex3",
-      "japanese": "クリスマスマーケットでは{手作|てづく}りの{雑貨|ざっか}や{温|あたた}かい{飲|の}み{物|もの}が{楽|たの}しめる。",
+      "japanese": "⟦クリスマス→クリスマス：03839_kurisumasu⟧⟦マーケット→マーケット：00265_maaketto⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{手作|てづく}り→手作り：08300_tezukuri⟧⟦の→の：09472_no⟧{雑貨|ざっか}や⟦{温|あたた}かい→温かい：13395_atatakai⟧⟦{飲|の}み{物|もの}→飲み物：02929_nomimono⟧⟦が→が：00051_ga⟧⟦{楽|たの}しめる→楽しむ：01203_tanoshimu⟧。",
       "english": "At Christmas markets, you can enjoy handmade goods and warm drinks.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{雑貨|ざっか} refers to various small everyday items, often with a focus on lifestyle and decorative goods.\n\nWORD FORMATION:\n{雑|ざつ} (miscellaneous) + {貨|か} (goods) = miscellaneous goods\n\nCOMMON COMPOUNDS:\n- {雑貨|ざっか}{屋|や}: general store, variety shop\n- {雑貨|ざっか}{店|てん}: miscellaneous goods store\n- {生活|せいかつ}{雑貨|ざっか}: lifestyle goods, household items\n- {輸入|ゆにゅう}{雑貨|ざっか}: imported goods\n- {インテリア}{雑貨|ざっか}: interior décor items\n\nNOTE:\nIn modern Japanese, {雑貨|ざっか} often has a positive connotation, referring to stylish or cute items rather than just \"miscellaneous junk.\"",
-  "cross_references": [],
+  "notes": "{雑貨|ざっか} refers to various small everyday items, often with a focus on lifestyle and decorative goods.\n\nFORMS:\n⟦{雑|ざつ}→雑：14582_zatsu⟧ (miscellaneous) + {貨|か} (goods) = miscellaneous goods\n\nCOMPOUNDS:\n- {雑貨|ざっか}{屋|や}: general store, variety shop\n- {雑貨|ざっか}{店|てん}: miscellaneous goods store\n- ⟦{生活|せいかつ}→生活：01443_seikatsu⟧{雑貨|ざっか}: lifestyle goods, household items\n- ⟦{輸入|ゆにゅう}→輸入：01742_yunyuu⟧{雑貨|ざっか}: imported goods\n- ⟦インテリア→インテリア：22335_interia⟧{雑貨|ざっか}: interior décor items\n\nUSAGE:\nIn modern Japanese, {雑貨|ざっか} often has a positive connotation, referring to stylish or cute items rather than just \"miscellaneous junk.\"",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09547_nichiyouhin",
+      "reading": "にちようひん",
+      "headword": "{日用品|にちようひん}",
+      "label": "daily necessities, everyday goods"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17814_komono",
+      "reading": "こもの",
+      "headword": "{小物|こもの}",
+      "label": "accessories"
+    }
+  ],
   "metadata": {
     "created": "2026-02-04T13:51:51Z",
-    "modified": "2026-02-04T13:51:51Z",
+    "modified": "2026-09-02T04:01:19Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

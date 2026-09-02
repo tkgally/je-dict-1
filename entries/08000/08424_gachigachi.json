@@ -24,7 +24,7 @@
   "examples": [
     {
       "id": "08424_gachigachi_ex1",
-      "japanese": "{緊張|きんちょう}でがちがちになった。",
+      "japanese": "⟦{緊張|きんちょう}→緊張：02494_kinchou⟧⟦で→で：00502_de⟧がちがちになった。",
       "english": "I became stiff with nervousness.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "08424_gachigachi_ex2",
-      "japanese": "{彼|かれ}はがちがちの{保守派|ほしゅは}だ。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧がちがち⟦の→の：09472_no⟧{保守派|ほしゅは}だ。",
       "english": "He is a rigid conservative.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
     },
     {
       "id": "08424_gachigachi_ex3",
-      "japanese": "{冷凍庫|れいとうこ}の{肉|にく}はがちがちに{凍|こお}っている。",
+      "japanese": "⟦{冷凍庫|れいとうこ}→冷凍庫：14721_reitouko⟧⟦の→の：09472_no⟧⟦{肉|にく}→肉：02240_niku⟧⟦は→は：00079_ha⟧がちがち⟦に→に：00314_ni⟧⟦{凍|こお}っている→凍る：02100_kooru⟧。",
       "english": "The meat in the freezer is frozen solid.",
       "sense_numbers": [
         2
@@ -54,7 +54,7 @@
     },
     {
       "id": "08424_gachigachi_ex4",
-      "japanese": "{寒|さむ}くて{歯|は}ががちがち{鳴|な}った。",
+      "japanese": "⟦{寒|さむ}くて→寒い：00664_samui⟧⟦{歯|は}→歯：00778_ha⟧⟦が→が：00051_ga⟧がちがち⟦{鳴|な}った→鳴る：01143_naru⟧。",
       "english": "My teeth chattered from the cold.",
       "sense_numbers": [
         3
@@ -63,7 +63,7 @@
       "notes": null
     }
   ],
-  "notes": "がちがち is a mimetic word ({擬態語|ぎたいご}/{擬音語|ぎおんご}) that can express both a physical state and a sound. It conveys extreme stiffness, hardness, or rigidity.\n\nCOMMON PATTERNS:\n- がちがちになる: to become stiff/rigid (from nervousness, cold, etc.)\n- がちがちに{凍|こお}る: to freeze solid\n- がちがちの〜: rigid/staunch ~ (e.g., がちがちの{保守派|ほしゅは})\n- {歯|は}ががちがち{鳴|な}る: teeth chatter\n\nSIMILAR WORDS:\n- かちかち: similar but softer nuance; often for frozen/hard objects\n- こちこち: stiff, rigid; also used for nervousness\n- ばりばり: energetic, going strong (positive connotation)\n- がちがち is stronger and more emphatic than かちかち\n\nREGISTER:\nInformal and colloquial. Common in everyday speech.",
+  "notes": "がちがち is a mimetic word (⟦{擬態語|ぎたいご}→擬態語：22468_gitaigo⟧/⟦{擬音語|ぎおんご}→擬音語：22536_giongo⟧) that can express both a physical state and a sound. It conveys extreme stiffness, hardness, or rigidity.\n\nCOMMON PATTERNS:\n- がちがち⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧: to become stiff/rigid (from nervousness, cold, etc.)\n- がちがち⟦に→に：00314_ni⟧⟦{凍|こお}る→凍る：02100_kooru⟧: to freeze solid\n- がちがち⟦の→の：09472_no⟧〜: rigid/staunch ~ (e.g., がちがち⟦の→の：09472_no⟧{保守派|ほしゅは})\n- ⟦{歯|は}→歯：00778_ha⟧⟦が→が：00051_ga⟧がちがち⟦{鳴|な}る→鳴る：01143_naru⟧: teeth chatter\n\nSIMILAR WORDS:\n- ⟦かちかち→カチカチ：05719_kachikachi⟧: similar but softer nuance; often for frozen/hard objects\n- ⟦こちこち→コチコチ：28995_kochikochi⟧: stiff, rigid; also used for nervousness\n- ⟦ばりばり→ばりばり：05720_baribari⟧: energetic, going strong (positive connotation)\n- がちがち is stronger and more emphatic than ⟦かちかち→カチカチ：05719_kachikachi⟧\n\nREGISTER:\nInformal and colloquial. Common in everyday speech.",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -72,13 +72,14 @@
         "onomatopoeia"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "descriptive",
         "onomatopoeia"
       ]
     },
     "created": "2026-01-27T00:58:00Z",
-    "modified": "2026-08-12T12:50:50Z"
+    "modified": "2026-09-02T04:01:15Z"
   },
   "cross_references": [
     {
@@ -87,6 +88,20 @@
       "headword": "カチカチ",
       "label": "clicking; hard (softer)",
       "target_id": "05719_kachikachi"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28995_kochikochi",
+      "reading": "こちこち",
+      "headword": "コチコチ",
+      "label": "stiff, rigid"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05720_baribari",
+      "reading": "ばりばり",
+      "headword": "ばりばり",
+      "label": "energetic, going strong"
     }
   ]
 }

@@ -15,42 +15,83 @@
   "examples": [
     {
       "id": "17748_bokujuu_ex1",
-      "japanese": "{墨汁|ぼくじゅう}を{筆|ふで}につけた。",
+      "japanese": "{墨汁|ぼくじゅう}⟦を→を：00422_wo⟧⟦{筆|ふで}→筆：03601_fude⟧につけた。",
       "english": "I dipped the brush in the ink.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17748_bokujuu_ex2",
-      "japanese": "{書道|しょどう}の{授業|じゅぎょう}で{墨汁|ぼくじゅう}を{使|つか}う。",
+      "japanese": "⟦{書道|しょどう}→書道：04178_shodou⟧⟦の→の：09472_no⟧⟦{授業|じゅぎょう}→授業：00781_jugyou⟧⟦で→で：00502_de⟧{墨汁|ぼくじゅう}⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧。",
       "english": "We use liquid ink in calligraphy class.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17748_bokujuu_ex3",
-      "japanese": "{服|ふく}に{墨汁|ぼくじゅう}がついてしまい、{洗|あら}っても{落|お}ちなかった。",
+      "japanese": "⟦{服|ふく}→服：00695_fuku⟧⟦に→に：00314_ni⟧{墨汁|ぼくじゅう}⟦が→が：00051_ga⟧ついてしまい、⟦{洗|あら}って→洗う：00827_arau⟧⟦も→も：00484_mo⟧⟦{落|お}ちなかった→落ちる：01242_ochiru⟧。",
       "english": "I got ink on my clothes and it wouldn't come out even after washing.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "Pre-made liquid ink used for {書道|しょどう} (calligraphy) and {水墨画|すいぼくが} (ink painting). A convenient modern alternative to the traditional method of grinding ink.\n\nCULTURE:\nIn Japanese schools, students use {墨汁|ぼくじゅう} in {書道|しょどう} class. Traditionally, ink was prepared by grinding an {墨|すみ} (ink stick) on a {硯|すずり} (inkstone) with water, but bottled {墨汁|ぼくじゅう} is far more convenient and is standard today.\n\nCOMMON COLLOCATIONS:\n- {墨汁|ぼくじゅう}をつける: to apply ink (to a brush)\n- {墨汁|ぼくじゅう}がこぼれる: the ink spills\n- {墨汁|ぼくじゅう}のしみ: an ink stain\n\nRELATED TERMS:\n- {墨|すみ}: ink stick (traditional solid form)\n- {硯|すずり}: inkstone\n- {筆|ふで}: writing brush",
-  "cross_references": [],
+  "notes": "Pre-made liquid ink used for ⟦{書道|しょどう}→書道：04178_shodou⟧ (calligraphy) and ⟦{水墨画|すいぼくが}→水墨画：27810_suibokuga⟧ (ink painting). A convenient modern alternative to the traditional method of grinding ink.\n\nCULTURAL NOTE:\nIn Japanese schools, students use {墨汁|ぼくじゅう} in ⟦{書道|しょどう}→書道：04178_shodou⟧ class. Traditionally, ink was prepared by grinding an ⟦{墨|すみ}→墨：02155_sumi⟧ (ink stick) on a ⟦{硯|すずり}→硯：06124_suzuri⟧ (inkstone) with water, but bottled {墨汁|ぼくじゅう} is far more convenient and is standard today.\n\nCOMMON COLLOCATIONS:\n- {墨汁|ぼくじゅう}⟦を→を：00422_wo⟧⟦つける→つける：00562_tsukeru⟧: to apply ink (to a brush)\n- {墨汁|ぼくじゅう}⟦が→が：00051_ga⟧⟦こぼれる→こぼれる：02105_koboreru⟧: the ink spills\n- {墨汁|ぼくじゅう}⟦の→の：09472_no⟧しみ: an ink stain\n\nRELATED WORDS:\n- ⟦{墨|すみ}→墨：02155_sumi⟧: ink stick (traditional solid form)\n- ⟦{硯|すずり}→硯：06124_suzuri⟧: inkstone\n- ⟦{筆|ふで}→筆：03601_fude⟧: writing brush",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "06124_suzuri",
+      "reading": "すずり",
+      "headword": "{硯|すずり}",
+      "label": "inkstone"
+    },
+    {
+      "type": "related",
+      "target_id": "03601_fude",
+      "reading": "ふで",
+      "headword": "{筆|ふで}",
+      "label": "writing brush"
+    },
+    {
+      "type": "related",
+      "target_id": "00120_inku",
+      "reading": "いんく",
+      "headword": "インク",
+      "label": "ink"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29776_kozumi",
+      "reading": "こずみ",
+      "headword": "濃墨",
+      "label": "dark ink"
+    }
+  ],
   "metadata": {
     "created": "2026-03-18T23:10:04Z",
-    "modified": "2026-04-06T04:02:27Z",
+    "modified": "2026-09-02T04:01:49Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["tool"],
-      "domain": ["technical"]
+      "semantic": [
+        "tool"
+      ],
+      "domain": [
+        "technical"
+      ]
     }
   }
 }

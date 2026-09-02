@@ -3,7 +3,7 @@
   "headword": "{修正|しゅうせい}する",
   "reading": "しゅうせいする",
   "romaji": "shuuseisuru",
-  "part_of_speech": "verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "to correct; to revise; to amend",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25527_shuuseisuru_ex1",
-      "japanese": "{間違|まちが}いを{修正|しゅうせい}する。",
+      "japanese": "⟦{間違|まちが}い→間違い：03733_machigai⟧⟦を→を：00422_wo⟧{修正|しゅうせい}する。",
       "english": "I correct the mistake.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25527_shuuseisuru_ex2",
-      "japanese": "{計画|けいかく}を{少|すこ}し{修正|しゅうせい}する{必要|ひつよう}がある。",
+      "japanese": "⟦{計画|けいかく}→計画：01172_keikaku⟧⟦を→を：00422_wo⟧⟦{少|すこ}し→少し：00596_sukoshi⟧{修正|しゅうせい}する⟦{必要|ひつよう}→必要：00846_hitsuyou⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "We need to revise the plan a little.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25527_shuuseisuru_ex3",
-      "japanese": "{提出|ていしゅつ}する{前|まえ}にレポートを{修正|しゅうせい}しておいてください。",
+      "japanese": "⟦{提出|ていしゅつ}する→提出する：19644_teishutsusuru⟧⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧⟦レポート→レポート：01543_repooto⟧⟦を→を：00422_wo⟧{修正|しゅうせい}しておいて⟦ください→ください：02899_kudasai⟧。",
       "english": "Please fix the report before submitting it.",
       "sense_numbers": [
         1
@@ -44,8 +44,51 @@
       "notes": null
     }
   ],
-  "notes": "{修正|しゅうせい}する means to make corrections or adjustments to something that already exists. It implies improving accuracy or quality rather than creating something new. Used for documents, plans, software, and policies.\n\nCOMMON COLLOCATIONS:\n- {文章|ぶんしょう}を{修正|しゅうせい}する: revise a text\n- バグを{修正|しゅうせい}する: fix a bug\n- {予算|よさん}を{修正|しゅうせい}する: revise the budget\n- {法案|ほうあん}を{修正|しゅうせい}する: amend a bill\n- {軌道|きどう}{修正|しゅうせい}: course correction\n\nSIMILAR WORDS:\n- {訂正|ていせい}する: to correct — focuses on fixing factual errors or typos, narrower in scope\n- {改正|かいせい}する: to reform; to revise — used for laws, rules, and systems; implies larger-scale change\n- {変更|へんこう}する: to change — neutral change without the implication of fixing something wrong",
-  "cross_references": [],
+  "notes": "{修正|しゅうせい}する means to make corrections or adjustments to something that already exists. It implies improving accuracy or quality rather than creating something new. Used for documents, plans, software, and policies.\n\nCOMMON COLLOCATIONS:\n- ⟦{文章|ぶんしょう}→文章：02957_bunshou⟧⟦を→を：00422_wo⟧{修正|しゅうせい}する: revise a text\n- ⟦バグ→バグ：06098_bagu⟧⟦を→を：00422_wo⟧{修正|しゅうせい}する: fix a bug\n- ⟦{予算|よさん}→予算：03663_yosan⟧⟦を→を：00422_wo⟧{修正|しゅうせい}する: revise the budget\n- ⟦{法案|ほうあん}→法案：09758_houan⟧⟦を→を：00422_wo⟧{修正|しゅうせい}する: amend a bill\n- ⟦{軌道|きどう}→軌道：06360_kidou⟧⟦{修正|しゅうせい}→修正：03210_shuusei⟧: course correction\n\nSIMILAR WORDS:\n- ⟦{訂正|ていせい}する→訂正する：10443_teiseisuru⟧: to correct — focuses on fixing factual errors or typos, narrower in scope\n- ⟦{改正|かいせい}→改正：00446_kaisei⟧⟦する→する：00392_suru⟧: to reform; to revise — used for laws, rules, and systems; implies larger-scale change\n- ⟦{変更|へんこう}する→変更する：30779_henkousuru⟧: to change — neutral change without the implication of fixing something wrong",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "10443_teiseisuru",
+      "reading": "ていせいする",
+      "headword": "{訂正|ていせい}する",
+      "label": "to correct"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00446_kaisei",
+      "reading": "かいせい",
+      "headword": "{改正|かいせい}",
+      "label": "to reform"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30779_henkousuru",
+      "reading": "へんこうする",
+      "headword": "{変更|へんこう}する",
+      "label": "to change"
+    },
+    {
+      "type": "related",
+      "target_id": "08256_iinaosu",
+      "reading": "いいなおす",
+      "headword": "{言|い}い{直|なお}す",
+      "label": "to rephrase"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21991_henshuusuru",
+      "reading": "へんしゅうする",
+      "headword": "{編集|へんしゅう}する",
+      "label": "to edit"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26798_hoseisuru",
+      "reading": "ほせいする",
+      "headword": "{補正|ほせい}する",
+      "label": "to correct"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -54,6 +97,8 @@
         "noun",
         "verb-suru"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "action",
         "language"
@@ -62,7 +107,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-25T16:12:19Z",
-    "modified": "2026-08-04T12:59:53Z"
+    "modified": "2026-09-02T04:02:22Z"
   },
   "conjugation": {
     "type": "suru",

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24292_shigemi_ex1",
-      "japanese": "{猫|ねこ}が{茂|しげ}みに{隠|かく}れた。",
+      "japanese": "⟦{猫|ねこ}→猫：02237_neko⟧⟦が→が：00051_ga⟧{茂|しげ}み⟦に→に：00314_ni⟧⟦{隠|かく}れた→隠れる：02035_kakureru⟧。",
       "english": "The cat hid in the bushes.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24292_shigemi_ex2",
-      "japanese": "{公園|こうえん}の{茂|しげ}みの{中|なか}から{鳥|とり}の{声|こえ}が{聞|き}こえた。",
+      "japanese": "⟦{公園|こうえん}→公園：00581_kouen⟧⟦の→の：09472_no⟧{茂|しげ}み⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧⟦から→から：00504_kara⟧⟦{鳥|とり}→鳥：00679_tori⟧⟦の→の：09472_no⟧⟦{声|こえ}→声：02207_koe⟧⟦が→が：00051_ga⟧⟦{聞|き}こえた→聞こえる：01229_kikoeru⟧。",
       "english": "I could hear birdsong from within the thicket in the park.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24292_shigemi_ex3",
-      "japanese": "{子供|こども}たちは{茂|しげ}みの{奥|おく}に{秘密基地|ひみつきち}を{作|つく}って{遊|あそ}んでいた。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧たち⟦は→は：00079_ha⟧{茂|しげ}み⟦の→の：09472_no⟧⟦{奥|おく}→奥：00980_oku⟧⟦に→に：00314_ni⟧{秘密基地|ひみつきち}⟦を→を：00422_wo⟧⟦{作|つく}って→作る：00481_tsukuru⟧⟦{遊|あそ}んでいた→遊ぶ：00550_asobu⟧。",
       "english": "The children were playing, having built a secret base deep in the undergrowth.",
       "sense_numbers": [
         1
@@ -44,20 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Refers to a dense mass of shrubs or low trees growing closely together. Unlike {森|もり} (forest) or {林|はやし} (grove), {茂|しげ}み implies shorter, bushier vegetation that one might push through or hide behind.\n\nCOMMON COLLOCATIONS:\n- {茂|しげ}みに{隠|かく}れる — hide in the bushes\n- {茂|しげ}みの{中|なか} — inside the thicket\n- {茂|しげ}みをかき{分|わ}ける — push through the undergrowth\n- {草|くさ}の{茂|しげ}み — grassy thicket\n\nSIMILAR WORDS:\n- {藪|やぶ} — also means thicket or bush, but often implies a more tangled, wilder mass of vegetation, sometimes with negative connotations (e.g., {藪蚊|やぶか}, bush mosquito)\n- {草むら|くさむら} — patch of tall grass, not necessarily bushes or trees",
+  "notes": "Refers to a dense mass of shrubs or low trees growing closely together. Unlike ⟦{森|もり}→森：02260_mori⟧ (forest) or ⟦{林|はやし}→林：01702_hayashi⟧ (grove), {茂|しげ}み implies shorter, bushier vegetation that one might push through or hide behind.\n\nCOMMON COLLOCATIONS:\n- {茂|しげ}み⟦に→に：00314_ni⟧⟦{隠|かく}れる→隠れる：02035_kakureru⟧ — hide in the bushes\n- {茂|しげ}み⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧ — inside the thicket\n- {茂|しげ}み⟦を→を：00422_wo⟧⟦かき{分|わ}ける→かき分ける：28182_kakiwakeru⟧ — push through the undergrowth\n- ⟦{草|くさ}→草：02206_kusa⟧⟦の→の：09472_no⟧{茂|しげ}み — grassy thicket\n\nSIMILAR WORDS:\n- {藪|やぶ} — also means thicket or bush, but often implies a more tangled, wilder mass of vegetation, sometimes with negative connotations (e.g., {藪蚊|やぶか}, bush mosquito)\n- ⟦{草|くさ}むら→草むら：29900_kusamura⟧ — patch of tall grass, not necessarily bushes or trees",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "29900_kusamura",
+      "reading": "くさむら",
+      "headword": "{草|くさ}むら",
+      "label": "patch of tall grass, not necessarily…"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "nature",
         "plant-general"
       ]
     },
     "created": "2026-04-18T13:11:58Z",
-    "modified": "2026-08-02T18:32:34Z"
+    "modified": "2026-09-02T04:02:17Z"
   }
 }

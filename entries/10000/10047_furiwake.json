@@ -2,7 +2,7 @@
   "id": "10047_furiwake",
   "headword": "{振|ふ}り{分|わ}け",
   "reading": "ふりわけ",
-  "part_of_speech": "noun, suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "sorting, allocation, distribution",
   "conjugation": {
     "type": "suru",
@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "10047_furiwake_ex1",
-      "japanese": "{仕事|しごと}の{振|ふ}り{分|わ}けをする。",
+      "japanese": "⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦の→の：09472_no⟧{振|ふ}り{分|わ}け⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧。",
       "english": "To allocate work.",
       "sense_numbers": [
         1
@@ -114,7 +114,7 @@
     },
     {
       "id": "10047_furiwake_ex2",
-      "japanese": "{予算|よさん}を{各部署|かくぶしょ}に{振|ふ}り{分|わ}ける。",
+      "japanese": "⟦{予算|よさん}→予算：03663_yosan⟧⟦を→を：00422_wo⟧⟦{各部署|かくぶしょ}→各部署：29114_kakubusho⟧⟦に→に：00314_ni⟧{振|ふ}り{分|わ}ける。",
       "english": "To allocate the budget to each department.",
       "sense_numbers": [
         1
@@ -124,7 +124,7 @@
     },
     {
       "id": "10047_furiwake_ex3",
-      "japanese": "{荷物|にもつ}の{振|ふ}り{分|わ}けに{時間|じかん}がかかった。",
+      "japanese": "⟦{荷物|にもつ}→荷物：00737_nimotsu⟧⟦の→の：09472_no⟧{振|ふ}り{分|わ}け⟦に→に：00314_ni⟧⟦{時間|じかん}→時間：00468_jikan⟧⟦が→が：00051_ga⟧⟦かかった→かかる：00711_kakaru⟧。",
       "english": "Sorting the packages took time.",
       "sense_numbers": [
         1
@@ -134,7 +134,7 @@
     },
     {
       "id": "10047_furiwake_ex4",
-      "japanese": "{担当者|たんとうしゃ}への{振|ふ}り{分|わ}けを{見直|みなお}す{必要|ひつよう}がある。",
+      "japanese": "⟦{担当者|たんとうしゃ}→担当者：09676_tantousha⟧⟦へ→へ：02473_he⟧⟦の→の：09472_no⟧{振|ふ}り{分|わ}け⟦を→を：00422_wo⟧⟦{見直|みなお}す→見直す：04579_minaosu⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "We need to review the allocation to the staff in charge.",
       "sense_numbers": [
         1
@@ -143,11 +143,26 @@
       "notes": null
     }
   ],
-  "notes": "{振|ふ}り{分|わ}け means sorting or allocating things into groups.\n\nVERB FORM:\n{振|ふ}り{分|わ}ける (ichidan verb): to sort, to allocate, to distribute\n\nCOMMON PATTERNS:\n- {仕事|しごと}を{振|ふ}り{分|わ}ける: to allocate work\n- {予算|よさん}を{振|ふ}り{分|わ}ける: to allocate budget\n- {担当|たんとう}を{振|ふ}り{分|わ}ける: to assign responsibilities\n\nUSAGE CONTEXTS:\n- Business: task allocation, budget distribution\n- IT: routing, load balancing\n- Daily life: sorting items\n\nRELATED:\n- {割|わ}り{振|ふ}り: allocation (similar meaning)\n- {配分|はいぶん}: distribution\n- {分担|ぶんたん}: sharing of duties",
-  "cross_references": [],
+  "notes": "{振|ふ}り{分|わ}け means sorting or allocating things into groups.\n\nFORMS:\n{振|ふ}り{分|わ}ける (ichidan verb): to sort, to allocate, to distribute\n\nCOMMON PATTERNS:\n- ⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦を→を：00422_wo⟧{振|ふ}り{分|わ}ける: to allocate work\n- ⟦{予算|よさん}→予算：03663_yosan⟧⟦を→を：00422_wo⟧{振|ふ}り{分|わ}ける: to allocate budget\n- ⟦{担当|たんとう}→担当：02567_tantou⟧⟦を→を：00422_wo⟧{振|ふ}り{分|わ}ける: to assign responsibilities\n\nUSAGE:\n- Business: task allocation, budget distribution\n- IT: routing, load balancing\n- Daily life: sorting items\n\nRELATED WORDS:\n- {割|わ}り{振|ふ}り: allocation (similar meaning)\n- ⟦{配分|はいぶん}→配分：14495_haibun⟧: distribution\n- ⟦{分担|ぶんたん}→分担：11771_buntan⟧: sharing of duties",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "14495_haibun",
+      "reading": "はいぶん",
+      "headword": "{配分|はいぶん}",
+      "label": "distribution"
+    },
+    {
+      "type": "related",
+      "target_id": "11771_buntan",
+      "reading": "ぶんたん",
+      "headword": "{分担|ぶんたん}",
+      "label": "sharing of duties"
+    }
+  ],
   "metadata": {
     "created": "2026-02-04T14:18:11Z",
-    "modified": "2026-03-29T03:07:35Z",
+    "modified": "2026-09-02T04:01:20Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

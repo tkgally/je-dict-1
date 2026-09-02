@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22121_shouhinken_ex1",
-      "japanese": "{商品券|しょうひんけん}を{贈|おく}り{物|もの}にした。",
+      "japanese": "{商品券|しょうひんけん}⟦を→を：00422_wo⟧⟦{贈|おく}り{物|もの}→贈り物：01343_okurimono⟧にした。",
       "english": "I gave a gift certificate as a present.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22121_shouhinken_ex2",
-      "japanese": "この{商品券|しょうひんけん}はどこで{使|つか}えますか。",
+      "japanese": "⟦この→この：00962_kono⟧{商品券|しょうひんけん}⟦は→は：00079_ha⟧⟦どこ→どこ：00539_doko⟧⟦で→で：00502_de⟧⟦{使|つか}えます→使う：00473_tsukau⟧⟦か→か：09473_ka⟧。",
       "english": "Where can I use this gift certificate?",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22121_shouhinken_ex3",
-      "japanese": "{百貨店|ひゃっかてん}の{商品券|しょうひんけん}は{有効期限|ゆうこうきげん}がないので、{贈|おく}り{物|もの}として{人気|にんき}がある。",
+      "japanese": "⟦{百貨店|ひゃっかてん}→百貨店：18639_hyakkaten⟧⟦の→の：09472_no⟧{商品券|しょうひんけん}⟦は→は：00079_ha⟧⟦{有効期限|ゆうこうきげん}→有効期限：06415_yuukoukigen⟧⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧⟦の→の：09472_no⟧で、⟦{贈|おく}り{物|もの}→贈り物：01343_okurimono⟧⟦として→として：06802_toshite⟧⟦{人気|にんき}→人気：01488_ninki⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "Department store gift certificates have no expiration date, so they are popular as gifts.",
       "sense_numbers": [
         1
@@ -44,8 +44,66 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {商品|しょうひん} (merchandise, goods) + {券|けん} (ticket, voucher). Gift certificates remain popular in Japan alongside digital payment methods, especially for formal occasions such as weddings, promotions, and seasonal gift-giving.\n\nCOMMON COLLOCATIONS:\n- {百貨店|ひゃっかてん}の{商品券|しょうひんけん}: department store gift certificate\n- {商品券|しょうひんけん}を{使|つか}う: to use a gift certificate\n- {商品券|しょうひんけん}を{贈|おく}る: to give a gift certificate\n- {全国|ぜんこく}{共通|きょうつう}{商品券|しょうひんけん}: nationwide gift certificate\n\nSIMILAR WORDS:\n- ギフトカード: gift card — digital or card-based, often for specific stores\n- {図書券|としょけん}: book voucher — specifically for purchasing books (now mostly replaced by {図書|としょ}カード)\n- クーポン: coupon — usually a discount rather than stored value\n- {金券|きんけん}: monetary voucher — broader term covering any cash-equivalent voucher",
+  "notes": "Composed of ⟦{商品|しょうひん}→商品：01436_shouhin⟧ (merchandise, goods) + ⟦{券|けん}→券：02150_ken⟧ (ticket, voucher). Gift certificates remain popular in Japan alongside digital payment methods, especially for formal occasions such as weddings, promotions, and seasonal gift-giving.\n\nCOMMON COLLOCATIONS:\n- ⟦{百貨店|ひゃっかてん}→百貨店：18639_hyakkaten⟧⟦の→の：09472_no⟧{商品券|しょうひんけん}: department store gift certificate\n- {商品券|しょうひんけん}⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧: to use a gift certificate\n- {商品券|しょうひんけん}⟦を→を：00422_wo⟧⟦{贈|おく}る→贈る：09862_okuru⟧: to give a gift certificate\n- ⟦{全国|ぜんこく}→全国：03311_zenkoku⟧⟦{共通|きょうつう}→共通：02590_kyoutsuu⟧{商品券|しょうひんけん}: nationwide gift certificate\n\nSIMILAR WORDS:\n- ⟦ギフト→ギフト：10824_gifuto⟧⟦カード→カード：03836_kaado⟧: gift card — digital or card-based, often for specific stores\n- {図書券|としょけん}: book voucher — specifically for purchasing books (now mostly replaced by ⟦{図書|としょ}→図書：03459_tosho⟧⟦カード→カード：03836_kaado⟧)\n- ⟦クーポン→クーポン：06446_kuupon⟧: coupon — usually a discount rather than stored value\n- ⟦{金券|きんけん}→金券：20632_kinken⟧: monetary voucher — broader term covering any cash-equivalent voucher",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06446_kuupon",
+      "reading": "くーぽん",
+      "headword": "クーポン",
+      "label": "coupon"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20632_kinken",
+      "reading": "きんけん",
+      "headword": "{金券|きんけん}",
+      "label": "monetary voucher"
+    },
+    {
+      "type": "related",
+      "target_id": "09545_waribikiken",
+      "reading": "わりびきけん",
+      "headword": "{割引券|わりびきけん}",
+      "label": "discount coupon"
+    },
+    {
+      "type": "related",
+      "target_id": "19454_nyuujouken",
+      "reading": "にゅうじょうけん",
+      "headword": "{入場券|にゅうじょうけん}",
+      "label": "admission ticket, entrance ticket"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24897_koukanken",
+      "reading": "こうかんけん",
+      "headword": "{交換券|こうかんけん}",
+      "label": "exchange coupon"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24947_kuuponken",
+      "reading": "くーぽんけん",
+      "headword": "クーポン{券|けん}",
+      "label": "coupon"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28000_shokujiken",
+      "reading": "しょくじけん",
+      "headword": "食事券",
+      "label": "meal voucher"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28001_ryokouken",
+      "reading": "りょこうけん",
+      "headword": "旅行券",
+      "label": "travel voucher"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +118,6 @@
       ]
     },
     "created": "2026-04-05T03:33:01Z",
-    "modified": "2026-04-10T08:28:27Z"
+    "modified": "2026-09-02T04:02:06Z"
   }
 }

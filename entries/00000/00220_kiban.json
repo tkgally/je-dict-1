@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "COMMON COMPOUNDS:\n・⟦{社会|しゃかい}→社会：01427_shakai⟧{基盤|きばん} (social infrastructure)\n・⟦{経済|けいざい}→経済：01394_keizai⟧{基盤|きばん} (economic foundation)\n・⟦{産業|さんぎょう}→産業：01419_sangyou⟧{基盤|きばん} (industrial base)\n・⟦{支持|しじ}→支持：12933_shiji⟧{基盤|きばん} (support base — political)\n・⟦{技術|ぎじゅつ}→技術：01389_gijutsu⟧{基盤|きばん} (technological foundation)\n\nPATTERNS:\n・〜⟦の→の：09472_no⟧{基盤|きばん}⟦を→を：00422_wo⟧⟦{築|きず}く→築く：02046_kizuku⟧ (to build a foundation for ...)\n・〜⟦を→を：00422_wo⟧{基盤|きばん}⟦に→に：00314_ni⟧ (based on ..., with ... as a foundation)\n・{基盤|きばん}⟦を→を：00422_wo⟧⟦{固|かた}める→固める：01929_katameru⟧ (to solidify one's foundation)\n\nSIMILAR WORDS:\n・⟦{基礎|きそ}→基礎：03981_kiso⟧ (foundation, basis — more fundamental)\n・⟦{土台|どだい}→土台：07146_dodai⟧ (foundation — more physical)\n・⟦インフラ→インフラ：09898_infura⟧ (infrastructure — loanword)",
+  "notes": "COMPOUNDS:\n- ⟦{社会|しゃかい}→社会：01427_shakai⟧{基盤|きばん} (social infrastructure)\n- ⟦{経済|けいざい}→経済：01394_keizai⟧{基盤|きばん} (economic foundation)\n- ⟦{産業|さんぎょう}→産業：01419_sangyou⟧{基盤|きばん} (industrial base)\n- ⟦{支持|しじ}→支持：12933_shiji⟧{基盤|きばん} (support base — political)\n- ⟦{技術|ぎじゅつ}→技術：01389_gijutsu⟧{基盤|きばん} (technological foundation)\n\nCOMMON PATTERNS:\n- 〜⟦の→の：09472_no⟧{基盤|きばん}⟦を→を：00422_wo⟧⟦{築|きず}く→築く：02046_kizuku⟧ (to build a foundation for ...)\n- 〜⟦を→を：00422_wo⟧{基盤|きばん}⟦に→に：00314_ni⟧ (based on ..., with ... as a foundation)\n- {基盤|きばん}⟦を→を：00422_wo⟧⟦{固|かた}める→固める：01929_katameru⟧ (to solidify one's foundation)\n\nSIMILAR WORDS:\n- ⟦{基礎|きそ}→基礎：03981_kiso⟧ (foundation, basis — more fundamental)\n- ⟦{土台|どだい}→土台：07146_dodai⟧ (foundation — more physical)\n- ⟦インフラ→インフラ：09898_infura⟧ (infrastructure — loanword)",
   "cross_references": [
     {
       "type": "related",
@@ -51,11 +51,53 @@
       "headword": "{基礎|きそ}",
       "label": "foundation/basis",
       "target_id": "03981_kiso"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07146_dodai",
+      "reading": "どだい",
+      "headword": "{土台|どだい}",
+      "label": "foundation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09898_infura",
+      "reading": "いんふら",
+      "headword": "インフラ",
+      "label": "infrastructure"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07799_konkan",
+      "reading": "こんかん",
+      "headword": "{根幹|こんかん}",
+      "label": "core"
+    },
+    {
+      "type": "related",
+      "target_id": "08762_beesu",
+      "reading": "べーす",
+      "headword": "ベース",
+      "label": "bass (instrument)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20425_yataibone",
+      "reading": "やたいぼね",
+      "headword": "{屋台骨|やたいぼね}",
+      "label": "framework"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22242_ganban",
+      "reading": "がんばん",
+      "headword": "{岩盤|がんばん}",
+      "label": "bedrock"
     }
   ],
   "metadata": {
     "created": "2026-01-13T10:53:53Z",
-    "modified": "2026-05-09T23:44:07Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26174_senban_ex1",
-      "japanese": "{旋盤|せんばん}で{金属|きんぞく}を{削|けず}る。",
+      "japanese": "{旋盤|せんばん}⟦で→で：00502_de⟧⟦{金属|きんぞく}→金属：02645_kinzoku⟧⟦を→を：00422_wo⟧⟦{削|けず}る→削る：03922_kezuru⟧。",
       "english": "I cut metal on a lathe.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26174_senban_ex2",
-      "japanese": "この{工場|こうじょう}には{旋盤|せんばん}が{五台|ごだい}ある。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{工場|こうじょう}→工場：01082_koujou⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{旋盤|せんばん}⟦が→が：00051_ga⟧{五台|ごだい}⟦ある→ある：00006_aru⟧。",
       "english": "This factory has five lathes.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26174_senban_ex3",
-      "japanese": "{旋盤|せんばん}{加工|かこう}の{技術|ぎじゅつ}を{身|み}につけるには{何年|なんねん}もかかる。",
+      "japanese": "{旋盤|せんばん}⟦{加工|かこう}→加工：11793_kakou⟧⟦の→の：09472_no⟧⟦{技術|ぎじゅつ}→技術：01389_gijutsu⟧⟦を→を：00422_wo⟧⟦{身|み}につける→身につける：03158_minitsukeru⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{何年|なんねん}→何年：12737_nannen⟧⟦も→も：00484_mo⟧⟦かかる→かかる：00711_kakaru⟧。",
       "english": "It takes years to master lathe machining skills.",
       "sense_numbers": [
         1
@@ -44,8 +44,16 @@
       "notes": null
     }
   ],
-  "notes": "A {旋盤|せんばん} is one of the most fundamental machine tools in metalworking and woodworking. The workpiece is clamped and rotated while a cutting tool is applied to shape it. The word comes from {旋|せん} (revolving) and {盤|ばん} (platform, disc).\n\nCOMMON COLLOCATIONS:\n- {旋盤|せんばん}{加工|かこう} — lathe machining\n- {旋盤|せんばん}{工|こう} — lathe operator\n- NC{旋盤|せんばん} — CNC lathe (computer-controlled)\n- {汎用|はんよう}{旋盤|せんばん} — general-purpose lathe\n\nRELATED TERMS:\n- {工作機械|こうさくきかい} — machine tool (general term)\n- フライス{盤|ばん} — milling machine\n- ボール{盤|ばん} — drill press",
-  "cross_references": [],
+  "notes": "A {旋盤|せんばん} is one of the most fundamental machine tools in metalworking and woodworking. The workpiece is clamped and rotated while a cutting tool is applied to shape it. The word comes from {旋|せん} (revolving) and ⟦{盤|ばん}→盤：18576_ban⟧ (platform, disc).\n\nCOMMON COLLOCATIONS:\n- {旋盤|せんばん}⟦{加工|かこう}→加工：11793_kakou⟧ — lathe machining\n- {旋盤|せんばん}{工|こう} — lathe operator\n- NC{旋盤|せんばん} — CNC lathe (computer-controlled)\n- ⟦{汎用|はんよう}→汎用：07653_hanyou⟧{旋盤|せんばん} — general-purpose lathe\n\nRELATED WORDS:\n- {工作機械|こうさくきかい} — machine tool (general term)\n- フライス⟦{盤|ばん}→盤：18576_ban⟧ — milling machine\n- ⟦ボール→ボール：00017_booru⟧⟦{盤|ばん}→盤：18576_ban⟧ — drill press",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "29605_sensaku",
+      "reading": "せんさく",
+      "headword": "{旋削|せんさく}",
+      "label": "turning (lathe machining)"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,12 +61,14 @@
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "technology",
         "tool"
       ]
     },
     "created": "2026-04-29T16:30:14Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T04:02:25Z"
   }
 }

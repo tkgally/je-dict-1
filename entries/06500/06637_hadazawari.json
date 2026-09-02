@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "06637_hadazawari_ex1",
-      "japanese": "このシャツは{肌触|はだざわ}りがいい。",
+      "japanese": "⟦この→この：00962_kono⟧⟦シャツ→シャツ：01052_shatsu⟧⟦は→は：00079_ha⟧{肌触|はだざわ}り⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧。",
       "english": "This shirt feels nice against the skin.",
       "has_audio": false,
       "sense_numbers": [
@@ -23,7 +23,7 @@
     },
     {
       "id": "06637_hadazawari_ex2",
-      "japanese": "シルクの{肌触|はだざわ}りが{好|す}きだ。",
+      "japanese": "⟦シルク→シルク：28530_shiruku⟧⟦の→の：09472_no⟧{肌触|はだざわ}り⟦が→が：00051_ga⟧⟦{好|す}き→好き：02355_suki⟧だ。",
       "english": "I like the feel of silk against my skin.",
       "has_audio": false,
       "sense_numbers": [
@@ -32,7 +32,7 @@
     },
     {
       "id": "06637_hadazawari_ex3",
-      "japanese": "{肌触|はだざわ}りの{良|よ}いタオルを{選|えら}んだ。",
+      "japanese": "{肌触|はだざわ}り⟦の→の：09472_no⟧⟦{良|よ}い→良い：02350_yoi⟧⟦タオル→タオル：01533_taoru⟧⟦を→を：00422_wo⟧⟦{選|えら}んだ→選ぶ：00835_erabu⟧。",
       "english": "I chose a towel with a nice texture.",
       "has_audio": false,
       "sense_numbers": [
@@ -40,10 +40,10 @@
       ]
     }
   ],
-  "notes": "{肌触|はだざわ}り combines {肌|はだ} (skin) and {触|さわ}り (touch): how a material feels against the skin. It is a selling point in Japanese descriptions of clothing, bedding, and towels.\n\nCOMMON EXPRESSIONS:\n- {肌触|はだざわ}り⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧ / ⟦{良|よ}い→良い：02350_yoi⟧ (feels nice against the skin)\n- {肌触|はだざわ}り⟦が→が：00051_ga⟧⟦{悪|わる}い→悪い：00908_warui⟧ (feels rough or unpleasant)\n- {肌触|はだざわ}り⟦の→の：09472_no⟧⟦{良|よ}い→良い：02350_yoi⟧⟦{素材|そざい}→素材：09492_sozai⟧ (material with a good feel)\n- さらさらした{肌触|はだざわ}り (a smooth, silky feel)\n\nRELATED 〜{触|ざわ}り WORDS:\n- ⟦{手触|てざわ}り→手触り：12758_tezawari⟧: how something feels to the hand\n- ⟦{舌触|したざわ}り→舌触り：07919_shitazawari⟧: how something feels on the tongue\n- ⟦{耳障|みみざわ}り→耳障り：20216_mimizawari⟧: grating on the ears — note the different kanji {障|ざわ} and the negative meaning",
+  "notes": "{肌触|はだざわ}り combines ⟦{肌|はだ}→肌：02243_hada⟧ (skin) and ⟦{触|さわ}り→触る：00808_sawaru⟧ (touch): how a material feels against the skin. It is a selling point in Japanese descriptions of clothing, bedding, and towels.\n\nCOMMON EXPRESSIONS:\n- {肌触|はだざわ}り⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧ / ⟦{良|よ}い→良い：02350_yoi⟧ (feels nice against the skin)\n- {肌触|はだざわ}り⟦が→が：00051_ga⟧⟦{悪|わる}い→悪い：00908_warui⟧ (feels rough or unpleasant)\n- {肌触|はだざわ}り⟦の→の：09472_no⟧⟦{良|よ}い→良い：02350_yoi⟧⟦{素材|そざい}→素材：09492_sozai⟧ (material with a good feel)\n- ⟦さらさら→さらさら：05255_sarasara⟧⟦した→する：00392_suru⟧{肌触|はだざわ}り (a smooth, silky feel)\n\nRELATED 〜{触|ざわ}り WORDS:\n- ⟦{手触|てざわ}り→手触り：12758_tezawari⟧: how something feels to the hand\n- ⟦{舌触|したざわ}り→舌触り：07919_shitazawari⟧: how something feels on the tongue\n- ⟦{耳障|みみざわ}り→耳障り：20216_mimizawari⟧: grating on the ears — note the different kanji {障|ざわ} and the negative meaning",
   "metadata": {
     "created": "2026-01-18T03:30:27Z",
-    "modified": "2026-07-26T00:27:19Z",
+    "modified": "2026-09-02T04:01:09Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -71,6 +71,34 @@
       "reading": "したざわり",
       "headword": "{舌触|したざわ}り",
       "label": "feel on the tongue"
+    },
+    {
+      "type": "related",
+      "target_id": "20216_mimizawari",
+      "reading": "みみざわり",
+      "headword": "{耳障|みみざわ}り",
+      "label": "grating on the ears"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12743_kanshoku",
+      "reading": "かんしょく",
+      "headword": "{感触|かんしょく}",
+      "label": "feel, touch, impression"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22557_shokkan",
+      "reading": "しょっかん",
+      "headword": "{触感|しょっかん}",
+      "label": "sense of touch"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25996_hadashitsu",
+      "reading": "はだしつ",
+      "headword": "{肌質|はだしつ}",
+      "label": "skin type"
     }
   ]
 }

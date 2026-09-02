@@ -15,41 +15,73 @@
   "examples": [
     {
       "id": "18593_nanamemukai_ex1",
-      "japanese": "コンビニは{郵便局|ゆうびんきょく}の{斜|なな}め{向|む}かいにある。",
+      "japanese": "⟦コンビニ→コンビニ：01081_konbini⟧⟦は→は：00079_ha⟧⟦{郵便局|ゆうびんきょく}→郵便局：00579_yuubinkyoku⟧⟦の→の：09472_no⟧{斜|なな}め{向|む}かい⟦に→に：00314_ni⟧⟦ある→ある：00006_aru⟧。",
       "english": "The convenience store is diagonally across from the post office.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18593_nanamemukai_ex2",
-      "japanese": "{彼女|かのじょ}は{斜|なな}め{向|む}かいの{席|せき}に{座|すわ}っていた。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧{斜|なな}め{向|む}かい⟦の→の：09472_no⟧⟦{席|せき}→席：02215_seki⟧⟦に→に：00314_ni⟧⟦{座|すわ}っていた→座る：00757_suwaru⟧。",
       "english": "She was sitting in the seat diagonally across from me.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18593_nanamemukai_ex3",
-      "japanese": "うちの{斜|なな}め{向|む}かいに{新|あたら}しいラーメン{屋|や}ができたので、{今度|こんど}{行|い}ってみよう。",
+      "japanese": "うち⟦の→の：09472_no⟧{斜|なな}め{向|む}かい⟦に→に：00314_ni⟧⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦ラーメン→ラーメン：05181_raamen⟧⟦{屋|や}→〜屋：03096_ya⟧⟦が→が：00051_ga⟧⟦できた→できる：00557_dekiru⟧⟦の→の：09472_no⟧で、⟦{今度|こんど}→今度：01327_kondo⟧⟦{行|い}って→行く：00119_iku⟧みよう。",
       "english": "A new ramen shop opened diagonally across from our place, so let's try it sometime.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nUsed with the particle に to indicate location: ～の{斜|なな}め{向|む}かいに (diagonally across from ~). Very common when giving directions or describing spatial relationships.\n\nRELATED SPATIAL TERMS:\n- {向|む}かい: directly opposite/across\n- {隣|となり}: next door, beside\n- {斜|なな}め{前|まえ}: diagonally in front\n- {斜|なな}め{後|うし}ろ: diagonally behind\n- {真|ま}{向|む}かい: directly opposite (emphatic)",
-  "cross_references": [],
+  "notes": "USAGE:\nUsed with the particle ⟦に→に：00314_ni⟧ to indicate location: ～⟦の→の：09472_no⟧{斜|なな}め{向|む}かい⟦に→に：00314_ni⟧ (diagonally across from ~). Very common when giving directions or describing spatial relationships.\n\nRELATED SPATIAL TERMS:\n- ⟦{向|む}かい→向かい：03750_mukai⟧: directly opposite/across\n- ⟦{隣|となり}→隣：01003_tonari⟧: next door, beside\n- ⟦{斜|なな}め{前|まえ}→斜め前：22020_nanamemae⟧: diagonally in front\n- {斜|なな}め{後|うし}ろ: diagonally behind\n- ⟦{真|ま}{向|む}かい→真向かい：16718_mamukai⟧: directly opposite (emphatic)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "01003_tonari",
+      "reading": "となり",
+      "headword": "{隣|となり}",
+      "label": "next door, beside"
+    },
+    {
+      "type": "related",
+      "target_id": "22020_nanamemae",
+      "reading": "ななめまえ",
+      "headword": "{斜|なな}め{前|まえ}",
+      "label": "diagonally in front"
+    },
+    {
+      "type": "related",
+      "target_id": "16718_mamukai",
+      "reading": "まむかい",
+      "headword": "{真向|まむ}かい",
+      "label": "directly opposite"
+    }
+  ],
   "metadata": {
     "created": "2026-03-22T09:49:39Z",
-    "modified": "2026-03-22T09:49:39Z",
+    "modified": "2026-09-02T04:01:52Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["direction"]
+      "semantic": [
+        "direction"
+      ]
     }
   }
 }

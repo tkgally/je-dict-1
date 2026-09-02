@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "27388_gamushiroppu_ex1",
-      "japanese": "アイスコーヒーにガムシロップを{入|い}れる。",
+      "japanese": "⟦アイス→アイス：06770_aisu⟧⟦コーヒー→コーヒー：00789_koohii⟧⟦に→に：00314_ni⟧ガムシロップ⟦を→を：00422_wo⟧⟦{入|い}れる→入れる：01098_ireru⟧。",
       "english": "Put gum syrup in the iced coffee.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "27388_gamushiroppu_ex2",
-      "japanese": "ガムシロップとミルクをお{付|つ}けしますか。",
+      "japanese": "ガムシロップ⟦と→と：00512_to⟧⟦ミルク→ミルク：00284_miruku⟧⟦を→を：00422_wo⟧お⟦{付|つ}け→付く：01960_tsuku⟧⟦します→する：00392_suru⟧⟦か→か：09473_ka⟧。",
       "english": "Would you like gum syrup and milk with it?",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "27388_gamushiroppu_ex3",
-      "japanese": "{家|いえ}でアイスコーヒーを{作|つく}るときは、{砂糖|さとう}より{溶|と}けやすいガムシロップを{使|つか}っている。",
+      "japanese": "⟦{家|いえ}→家：00612_ie⟧⟦で→で：00502_de⟧⟦アイス→アイス：06770_aisu⟧⟦コーヒー→コーヒー：00789_koohii⟧⟦を→を：00422_wo⟧⟦{作|つく}る→作る：00481_tsukuru⟧とき⟦は→は：00079_ha⟧、⟦{砂糖|さとう}→砂糖：00884_satou⟧⟦より→より：09476_yori⟧⟦{溶|と}け→溶ける：02302_tokeru⟧やすいガムシロップ⟦を→を：00422_wo⟧⟦{使|つか}っている→使う：00473_tsukau⟧。",
       "english": "When I make iced coffee at home, I use gum syrup, which dissolves more easily than sugar.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "From English \"gum syrup\" (a sugar syrup originally stabilized with gum arabic). In Japanese cafes it is almost always served in small plastic capsules with iced drinks. Frequently shortened to ガムシロ in conversation.\n\nCOMMON COLLOCATIONS:\n- ガムシロップを{入|い}れる: to add gum syrup\n- ガムシロップを{付|つ}ける: to serve gum syrup alongside\n- ガムシロ{抜|ぬ}き: without gum syrup\n\nSIMILAR WORDS:\n- {砂糖|さとう}: sugar — granular; doesn't dissolve well in cold drinks\n- シロップ: syrup — general term; flavored syrups (vanilla, hazelnut) are also called this",
+  "notes": "From English \"gum syrup\" (a sugar syrup originally stabilized with gum arabic). In Japanese cafes it is almost always served in small plastic capsules with iced drinks. Frequently shortened to ガムシロ in conversation.\n\nCOMMON COLLOCATIONS:\n- ガムシロップ⟦を→を：00422_wo⟧⟦{入|い}れる→入れる：01098_ireru⟧: to add gum syrup\n- ガムシロップ⟦を→を：00422_wo⟧⟦{付|つ}ける→付ける：00761_tsukeru⟧: to serve gum syrup alongside\n- ガムシロ⟦{抜|ぬ}き→抜き：23505_nuki⟧: without gum syrup\n\nSIMILAR WORDS:\n- ⟦{砂糖|さとう}→砂糖：00884_satou⟧: sugar — granular; doesn't dissolve well in cold drinks\n- ⟦シロップ→シロップ：21577_shiroppu⟧: syrup — general term; flavored syrups (vanilla, hazelnut) are also called this",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00884_satou",
+      "reading": "さとう",
+      "headword": "{砂糖|さとう}",
+      "label": "sugar"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +62,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "food"
       ],
       "domain": []
     },
     "created": "2026-05-11T07:02:07Z",
-    "modified": "2026-08-07T16:10:18Z"
+    "modified": "2026-09-02T04:02:30Z"
   }
 }

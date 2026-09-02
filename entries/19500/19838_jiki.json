@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "19838_jiki_ex1",
-      "japanese": "{次期|じき}{社長|しゃちょう}は{誰|だれ}だろう。",
+      "japanese": "{次期|じき}⟦{社長|しゃちょう}→社長：01428_shachou⟧⟦は→は：00079_ha⟧⟦{誰|だれ}→誰：00534_dare⟧だろう。",
       "english": "I wonder who the next president will be.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "19838_jiki_ex2",
-      "japanese": "{次期|じき}モデルが{発表|はっぴょう}された。",
+      "japanese": "{次期|じき}⟦モデル→モデル：05112_moderu⟧⟦が→が：00051_ga⟧⟦{発表|はっぴょう}→発表：03562_happyou⟧⟦された→する：00392_suru⟧。",
       "english": "The next-generation model was announced.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "19838_jiki_ex3",
-      "japanese": "{次期|じき}{大統領|だいとうりょう}{候補|こうほ}として{名前|なまえ}が{挙|あ}がっている。",
+      "japanese": "{次期|じき}⟦{大統領|だいとうりょう}→大統領：03418_daitouryou⟧⟦{候補|こうほ}→候補：02804_kouho⟧⟦として→として：06802_toshite⟧⟦{名前|なまえ}→名前：02234_namae⟧⟦が→が：00051_ga⟧⟦{挙|あ}がっている→挙がる：30433_agaru⟧。",
       "english": "His name is being mentioned as a candidate for the next president.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,19 @@
       ]
     }
   ],
-  "notes": "Functions as a prefix-like modifier placed before nouns to indicate the next one in a sequence. Very common in news and business contexts.\n\nCOMMON COLLOCATIONS:\n- {次期|じき}{社長|しゃちょう} — the next company president\n- {次期|じき}{大統領|だいとうりょう} — the next president\n- {次期|じき}モデル — the next model/version\n- {次期|じき}{計画|けいかく} — the next plan\n- {次期|じき}{候補|こうほ} — next-in-line candidate\n\nSIMILAR WORDS:\n- {時期|じき} — time period, season (same pronunciation, different meaning)\n- {次|つぎ}の — next (everyday, general purpose)\n- {来期|らいき} — next term/period (specifically about fiscal or academic terms)\n\nUSAGE:\n{次期|じき} implies a formal succession or planned replacement. Use {次|つぎ}の for everyday \"next\" and {次期|じき} when discussing successors to positions, product lines, or official plans.",
-  "cross_references": [],
+  "notes": "Functions as a prefix-like modifier placed before nouns to indicate the next one in a sequence. Very common in news and business contexts.\n\nCOMMON COLLOCATIONS:\n- {次期|じき}⟦{社長|しゃちょう}→社長：01428_shachou⟧ — the next company president\n- {次期|じき}⟦{大統領|だいとうりょう}→大統領：03418_daitouryou⟧ — the next president\n- {次期|じき}⟦モデル→モデル：05112_moderu⟧ — the next model/version\n- {次期|じき}⟦{計画|けいかく}→計画：01172_keikaku⟧ — the next plan\n- {次期|じき}⟦{候補|こうほ}→候補：02804_kouho⟧ — next-in-line candidate\n\nSIMILAR WORDS:\n- ⟦{時期|じき}→時期：03269_jiki⟧ — time period, season (same pronunciation, different meaning)\n- ⟦{次|つぎ}→次：00819_tsugi⟧⟦の→の：09472_no⟧ — next (everyday, general purpose)\n- {来期|らいき} — next term/period (specifically about fiscal or academic terms)\n\nUSAGE:\n{次期|じき} implies a formal succession or planned replacement. Use ⟦{次|つぎ}→次：00819_tsugi⟧⟦の→の：09472_no⟧ for everyday \"next\" and {次期|じき} when discussing successors to positions, product lines, or official plans.",
+  "cross_references": [
+    {
+      "type": "homophone",
+      "target_id": "03269_jiki",
+      "reading": "じき",
+      "headword": "{時期|じき}",
+      "label": "time period, season"
+    }
+  ],
   "metadata": {
     "created": "2026-03-27T02:13:04Z",
-    "modified": "2026-07-27T12:42:09Z",
+    "modified": "2026-09-02T04:01:57Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

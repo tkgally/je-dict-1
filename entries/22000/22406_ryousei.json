@@ -3,7 +3,7 @@
   "headword": "{良性|りょうせい}",
   "reading": "りょうせい",
   "romaji": "ryousei",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "benign; non-malignant",
   "definitions": [
     {
@@ -15,40 +15,61 @@
   "examples": [
     {
       "id": "22406_ryousei_ex1",
-      "japanese": "{良性|りょうせい}の{腫瘍|しゅよう}だった。",
+      "japanese": "{良性|りょうせい}⟦の→の：09472_no⟧⟦{腫瘍|しゅよう}→腫瘍：23364_shuyou⟧だった。",
       "english": "It was a benign tumor.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "22406_ryousei_ex2",
-      "japanese": "{検査|けんさ}の{結果|けっか}、{良性|りょうせい}と{判明|はんめい}した。",
+      "japanese": "⟦{検査|けんさ}→検査：02707_kensa⟧⟦の→の：09472_no⟧⟦{結果|けっか}→結果：02486_kekka⟧、{良性|りょうせい}⟦と→と：00512_to⟧⟦{判明|はんめい}→判明：11785_hanmei⟧⟦した→する：00392_suru⟧。",
       "english": "The test results revealed it to be benign.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "22406_ryousei_ex3",
-      "japanese": "{良性|りょうせい}のポリープでも{定期的|ていきてき}に{経過|けいか}{観察|かんさつ}が{必要|ひつよう}です。",
+      "japanese": "{良性|りょうせい}⟦の→の：09472_no⟧ポリープ⟦で→で：00502_de⟧⟦も→も：00484_mo⟧⟦{定期的|ていきてき}→定期的：06173_teikiteki⟧⟦に→に：00314_ni⟧⟦{経過|けいか}{観察|かんさつ}→経過観察：09019_keikakansatsu⟧⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧です。",
       "english": "Even benign polyps require regular follow-up observation.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {良|りょう} (good) and {性|せい} (nature/character). Almost exclusively used in medical contexts. When hearing test results, {良性|りょうせい}です is reassuring news.\n\nCOMMON COLLOCATIONS:\n- {良性|りょうせい}{腫瘍|しゅよう}: benign tumor\n- {良性|りょうせい}のポリープ: benign polyp\n- {良性|りょうせい}と{診断|しんだん}される: to be diagnosed as benign\n- {良性|りょうせい}{疾患|しっかん}: benign disease\n\nSIMILAR WORDS:\n- {悪性|あくせい}: malignant — the opposite; cancerous or dangerous\n- {陽性|ようせい}: positive (test result) — a different medical term; positive does not mean malignant\n- {陰性|いんせい}: negative (test result) — negative test result\n\nNOTE ON HOMOPHONES:\nDo not confuse with {両性|りょうせい} (both sexes / bisexuality), which has the same reading.",
+  "notes": "Composed of {良|りょう} (good) and ⟦{性|せい}→性：09880_sei⟧ (nature/character). Almost exclusively used in medical contexts. When hearing test results, {良性|りょうせい}です is reassuring news.\n\nCOMMON COLLOCATIONS:\n- {良性|りょうせい}⟦{腫瘍|しゅよう}→腫瘍：23364_shuyou⟧: benign tumor\n- {良性|りょうせい}⟦の→の：09472_no⟧ポリープ: benign polyp\n- {良性|りょうせい}⟦と→と：00512_to⟧⟦{診断|しんだん}→診断：04209_shindan⟧⟦される→する：00392_suru⟧: to be diagnosed as benign\n- {良性|りょうせい}⟦{疾患|しっかん}→疾患：16370_shikkan⟧: benign disease\n\nSIMILAR WORDS:\n- {悪性|あくせい}: malignant — the opposite; cancerous or dangerous\n- {陽性|ようせい}: positive (test result) — a different medical term; positive does not mean malignant\n- ⟦{陰性|いんせい}→陰性：22817_insei⟧: negative (test result) — negative test result\n\nNOTE ON HOMOPHONES:\nDo not confuse with ⟦{両性|りょうせい}→両性：18569_ryousei⟧ (both sexes / bisexuality), which has the same reading.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22817_insei",
+      "reading": "いんせい",
+      "headword": "{陰性|いんせい}",
+      "label": "negative"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-no"],
+      "pos": [
+        "noun",
+        "adjective-no"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["health", "science"]
+      "semantic": [
+        "health",
+        "science"
+      ]
     },
     "created": "2026-04-05T21:08:10Z",
-    "modified": "2026-04-05T21:08:10Z"
+    "modified": "2026-09-02T04:02:08Z"
   }
 }

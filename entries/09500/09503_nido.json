@@ -28,7 +28,7 @@
     },
     {
       "id": "09503_nido_ex2",
-      "japanese": "{二度|にど}⟦と→と：00512_to⟧{行|い}かない。",
+      "japanese": "{二度|にど}⟦と→と：00512_to⟧⟦{行|い}かない→行く：00119_iku⟧。",
       "english": "I'll never go again.",
       "has_audio": false,
       "sense_numbers": [
@@ -45,10 +45,47 @@
       ]
     }
   ],
-  "notes": "{二度|にど} means \"twice\" or \"two times.\" It can also express \"never again\" in a specific grammatical pattern.\n\nKEY PATTERN:\n{二度|にど}と + negative verb = never again. This expresses strong resolve or emotional emphasis:\n- {二度|にど}と{行|い}かない: I'll never go again\n- {二度|にど}と{会|あ}いたくない: I never want to see them again\n- {二度|にど}と{繰|く}り{返|かえ}さない: I'll never repeat this\n\nPROVERB:\n{二度|にど}あることは{三度|さんど}ある: What happens twice will happen a third time (similar to \"things come in threes\").\n\nRELATED COUNTING WORDS:\n- {一度|いちど}: once\n- {三度|さんど}: three times\n- {何度|なんど}: how many times\n- {何度|なんど}も: many times, repeatedly",
+  "notes": "{二度|にど} means \"twice\" or \"two times.\" It can also express \"never again\" in a specific grammatical pattern.\n\nKEY PATTERN:\n{二度|にど}⟦と→と：00512_to⟧ + negative verb = never again. This expresses strong resolve or emotional emphasis:\n- {二度|にど}⟦と→と：00512_to⟧⟦{行|い}かない→行く：00119_iku⟧: I'll never go again\n- {二度|にど}⟦と→と：00512_to⟧⟦{会|あ}いたくない→会う：00482_au⟧: I never want to see them again\n- {二度|にど}⟦と→と：00512_to⟧⟦{繰|く}り{返|かえ}さない→繰り返す：02051_kurikaesu⟧: I'll never repeat this\n\nPROVERB:\n{二度|にど}⟦ある→ある：00006_aru⟧こと⟦は→は：00079_ha⟧⟦{三度|さんど}→三度：15154_sando⟧⟦ある→ある：00006_aru⟧: What happens twice will happen a third time (similar to \"things come in threes\").\n\nRELATED COUNTING WORDS:\n- ⟦{一度|いちど}→一度：01312_ichido⟧: once\n- ⟦{三度|さんど}→三度：15154_sando⟧: three times\n- ⟦{何度|なんど}→何度：17592_nando⟧: how many times\n- ⟦{何度|なんど}→何度：17592_nando⟧⟦も→も：00484_mo⟧: many times, repeatedly",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "01312_ichido",
+      "reading": "いちど",
+      "headword": "{一度|いちど}",
+      "label": "once"
+    },
+    {
+      "type": "related",
+      "target_id": "15154_sando",
+      "reading": "さんど",
+      "headword": "{三度|さんど}",
+      "label": "three times"
+    },
+    {
+      "type": "related",
+      "target_id": "17592_nando",
+      "reading": "なんど",
+      "headword": "{何度|なんど}",
+      "label": "how many times"
+    },
+    {
+      "type": "related",
+      "target_id": "20449_nandomo",
+      "reading": "なんども",
+      "headword": "{何度|なんど}も",
+      "label": "many times, repeatedly"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27625_nikai",
+      "reading": "にかい",
+      "headword": "{二回|にかい}",
+      "label": "twice"
+    }
+  ],
   "metadata": {
     "created": "2026-02-02T10:21:20Z",
-    "modified": "2026-03-26T09:48:21Z",
+    "modified": "2026-09-02T04:01:18Z",
     "ai_model": "claude-opus-4-5-20251101",
     "vocabulary_tier": "general",
     "tags": {

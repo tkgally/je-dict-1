@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "17860_kando_ex1",
-      "japanese": "このセンサーは{感度|かんど}が{高|たか}い。",
+      "japanese": "⟦この→この：00962_kono⟧⟦センサー→センサー：29781_sensaa⟧⟦は→は：00079_ha⟧{感度|かんど}⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧。",
       "english": "This sensor has high sensitivity.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "17860_kando_ex2",
-      "japanese": "{流行|りゅうこう}に{対|たい}する{感度|かんど}が{鋭|するど}い{人|ひと}だ。",
+      "japanese": "⟦{流行|りゅうこう}→流行：03678_ryuukou⟧⟦に→に：00314_ni⟧⟦{対|たい}する→対する：02126_taisuru⟧{感度|かんど}⟦が→が：00051_ga⟧⟦{鋭|するど}い→鋭い：02347_surudoi⟧⟦{人|ひと}→人：00476_hito⟧だ。",
       "english": "She is someone with a keen sensitivity to trends.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "17860_kando_ex3",
-      "japanese": "カメラの{感度|かんど}を{上|あ}げると、{暗|くら}い{場所|ばしょ}でも{撮影|さつえい}できるようになる。",
+      "japanese": "⟦カメラ→カメラ：04417_kamera⟧⟦の→の：09472_no⟧{感度|かんど}⟦を→を：00422_wo⟧⟦{上|あ}げる→上げる：02443_ageru⟧⟦と→と：00512_to⟧、⟦{暗|くら}い→暗い：00647_kurai⟧⟦{場所|ばしょ}→場所：00829_basho⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧⟦{撮影|さつえい}できる→撮影する：21990_satsueisuru⟧⟦ようになる→ようになる：28408_youninaru⟧。",
       "english": "If you raise the camera's sensitivity, you can take photos even in dark places.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nUsed in both technical and figurative contexts. In photography, refers to ISO sensitivity. In everyday language, often describes someone's awareness of trends, social cues, or aesthetic qualities.\n\nCOMMON COLLOCATIONS:\n- {感度|かんど}が{高|たか}い (highly sensitive)\n- {感度|かんど}が{低|ひく}い (low sensitivity)\n- {感度|かんど}を{上|あ}げる (to increase sensitivity)\n- ISO{感度|かんど} (ISO sensitivity)\n\nSIMILAR WORDS:\n- {敏感|びんかん}: sensitive — describes a person or thing that reacts easily to stimuli\n- {感受性|かんじゅせい}: sensibility — emotional or artistic sensitivity",
+  "notes": "USAGE:\nUsed in both technical and figurative contexts. In photography, refers to ISO sensitivity. In everyday language, often describes someone's awareness of trends, social cues, or aesthetic qualities.\n\nCOMMON COLLOCATIONS:\n- {感度|かんど}⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧ (highly sensitive)\n- {感度|かんど}⟦が→が：00051_ga⟧⟦{低|ひく}い→低い：02947_hikui⟧ (low sensitivity)\n- {感度|かんど}⟦を→を：00422_wo⟧⟦{上|あ}げる→上げる：02443_ageru⟧ (to increase sensitivity)\n- ISO{感度|かんど} (ISO sensitivity)\n\nSIMILAR WORDS:\n- ⟦{敏感|びんかん}→敏感：06641_binkan⟧: sensitive — describes a person or thing that reacts easily to stimuli\n- ⟦{感受性|かんじゅせい}→感受性：12697_kanjusei⟧: sensibility — emotional or artistic sensitivity",
   "cross_references": [
     {
       "type": "synonym",
@@ -59,11 +59,25 @@
       "reading": "かんじゅせい",
       "headword": "{感受性|かんじゅせい}",
       "label": "sensibility"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19552_antena",
+      "reading": "あんてな",
+      "headword": "アンテナ",
+      "label": "antenna"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24012_bunkainou",
+      "reading": "ぶんかいのう",
+      "headword": "{分解能|ぶんかいのう}",
+      "label": "resolution"
     }
   ],
   "metadata": {
     "created": "2026-03-19T06:58:32Z",
-    "modified": "2026-07-24T21:50:29Z",
+    "modified": "2026-09-02T04:01:50Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

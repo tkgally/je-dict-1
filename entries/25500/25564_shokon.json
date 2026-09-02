@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25564_shokon_ex1",
-      "japanese": "{初婚|しょこん}{年齢|ねんれい}が{上|あ}がっている。",
+      "japanese": "{初婚|しょこん}⟦{年齢|ねんれい}→年齢：01490_nenrei⟧⟦が→が：00051_ga⟧⟦{上|あ}がっている→上がる：00615_agaru⟧。",
       "english": "The average age of first marriage is rising.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25564_shokon_ex2",
-      "japanese": "{彼女|かのじょ}は{初婚|しょこん}で、{彼|かれ}は{再婚|さいこん}だった。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧{初婚|しょこん}⟦で→で：00502_de⟧、⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{再婚|さいこん}→再婚：22805_saikon⟧だった。",
       "english": "It was her first marriage, and his remarriage.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25564_shokon_ex3",
-      "japanese": "{女性|じょせい}の{平均|へいきん}{初婚|しょこん}{年齢|ねんれい}は{約|やく}{三十歳|さんじっさい}になっている。",
+      "japanese": "⟦{女性|じょせい}→女性：01617_josei⟧⟦の→の：09472_no⟧⟦{平均|へいきん}→平均：03614_heikin⟧{初婚|しょこん}⟦{年齢|ねんれい}→年齢：01490_nenrei⟧⟦は→は：00079_ha⟧⟦{約|やく}→約：09563_yaku⟧{三十歳|さんじっさい}になっている。",
       "english": "The average age of first marriage for women has reached about thirty.",
       "sense_numbers": [
         1
@@ -44,8 +44,30 @@
       "notes": null
     }
   ],
-  "notes": "A formal term frequently encountered in demographic statistics, news reports about social trends, and official documents. Japan's rising age of first marriage is a widely discussed social issue.\n\nCOMMON COLLOCATIONS:\n- {初婚|しょこん}{年齢|ねんれい}: age at first marriage\n- {平均|へいきん}{初婚|しょこん}{年齢|ねんれい}: average age at first marriage\n- {初婚|しょこん}の{相手|あいて}: first marriage partner\n- {初婚同士|しょこんどうし}: both marrying for the first time\n\nSIMILAR WORDS:\n- {再婚|さいこん}: remarriage — marrying again after divorce or the death of a spouse\n- {晩婚|ばんこん}: late marriage — marrying at a relatively old age\n- {結婚|けっこん}: marriage — the general term, does not specify first or subsequent\n\nREGISTER:\nFormal. Primarily used in statistics, news, and official contexts rather than casual conversation.",
-  "cross_references": [],
+  "notes": "A formal term frequently encountered in demographic statistics, news reports about social trends, and official documents. Japan's rising age of first marriage is a widely discussed social issue.\n\nCOMMON COLLOCATIONS:\n- {初婚|しょこん}⟦{年齢|ねんれい}→年齢：01490_nenrei⟧: age at first marriage\n- ⟦{平均|へいきん}→平均：03614_heikin⟧{初婚|しょこん}⟦{年齢|ねんれい}→年齢：01490_nenrei⟧: average age at first marriage\n- {初婚|しょこん}⟦の→の：09472_no⟧⟦{相手|あいて}→相手：01677_aite⟧: first marriage partner\n- {初婚同士|しょこんどうし}: both marrying for the first time\n\nSIMILAR WORDS:\n- ⟦{再婚|さいこん}→再婚：22805_saikon⟧: remarriage — marrying again after divorce or the death of a spouse\n- {晩婚|ばんこん}: late marriage — marrying at a relatively old age\n- ⟦{結婚|けっこん}→結婚：02514_kekkon⟧: marriage — the general term, does not specify first or subsequent\n\nREGISTER:\nFormal. Primarily used in statistics, news, and official contexts rather than casual conversation.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22805_saikon",
+      "reading": "さいこん",
+      "headword": "{再婚|さいこん}",
+      "label": "remarriage"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02514_kekkon",
+      "reading": "けっこん",
+      "headword": "{結婚|けっこん}",
+      "label": "marriage"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25476_saikonsuru",
+      "reading": "さいこんする",
+      "headword": "{再婚|さいこん}する",
+      "label": "to remarry"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,12 +75,13 @@
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "family",
         "society"
       ]
     },
     "created": "2026-04-26T11:18:51Z",
-    "modified": "2026-04-26T11:18:51Z"
+    "modified": "2026-09-02T04:02:22Z"
   }
 }

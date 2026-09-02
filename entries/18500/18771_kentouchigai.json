@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "18771_kentouchigai_ex1",
-      "japanese": "それは{見当違|けんとうちが}いだ。",
+      "japanese": "⟦それ→それ：00994_sore⟧⟦は→は：00079_ha⟧{見当違|けんとうちが}いだ。",
       "english": "That's off the mark.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "18771_kentouchigai_ex2",
-      "japanese": "{見当違|けんとうちが}いの{方向|ほうこう}に{努力|どりょく}していた。",
+      "japanese": "{見当違|けんとうちが}い⟦の→の：09472_no⟧⟦{方向|ほうこう}→方向：03617_houkou⟧⟦に→に：00314_ni⟧⟦{努力|どりょく}していた→努力する：20201_doryokusuru⟧。",
       "english": "I was putting effort in the wrong direction.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "18771_kentouchigai_ex3",
-      "japanese": "{犯人|はんにん}を{見当違|けんとうちが}いの{人物|じんぶつ}だと{思|おも}い{込|こ}んで{捜査|そうさ}を{進|すす}めていた。",
+      "japanese": "⟦{犯人|はんにん}→犯人：03572_hannin⟧⟦を→を：00422_wo⟧{見当違|けんとうちが}い⟦の→の：09472_no⟧⟦{人物|じんぶつ}→人物：03356_jinbutsu⟧だ⟦と→と：00512_to⟧⟦{思|おも}い{込|こ}んで→思い込む：04588_omoikomu⟧⟦{捜査|そうさ}→捜査：03688_sousa⟧⟦を→を：00422_wo⟧⟦{進|すす}めていた→進める：01949_susumeru⟧。",
       "english": "They had been proceeding with the investigation thinking the culprit was the wrong person.",
       "sense_numbers": [
         1
@@ -44,8 +44,59 @@
       "notes": null
     }
   ],
-  "notes": "{見当違|けんとうちが}い describes a guess, opinion, or approach that is fundamentally off the mark — pointed in the wrong direction entirely.\n\nUSAGE:\n- Functions as a noun and as a な-adjective.\n- The component {見当|けんとう} means 'estimate' or 'rough guess,' so the literal idea is 'guessing in the wrong direction.'\n- Frequently used to dismiss criticism or opinions that miss the actual point.\n\nPREDICATE VS. MODIFIER:\n- Modifier: {見当違|けんとうちが}いな{意見|いけん} (a misguided opinion), {見当違|けんとうちが}いな{批判|ひはん} (misdirected criticism), {見当違|けんとうちが}いな{方向|ほうこう} (the wrong direction)\n- Predicate: その{推測|すいそく}は{見当違|けんとうちが}いだ (that guess is off the mark)\n- Idiomatic emphasis: {見当違|けんとうちが}いも{甚|はなは}だしい (utterly wrong, completely missing the point)\n\nSIMILAR WORDS:\n- {的外|まとはず}れ: missing the target (very close synonym).\n- {勘違|かんちが}い: misunderstanding (the most common, everyday word for ordinary mix-ups).\n- {筋違|すじちが}い: out of line, illogical (similar but emphasizes faulty reasoning).",
+  "notes": "{見当違|けんとうちが}い describes a guess, opinion, or approach that is fundamentally off the mark — pointed in the wrong direction entirely.\n\nUSAGE:\n- Functions as a noun and as a な-adjective.\n- The component ⟦{見当|けんとう}→見当：02795_kentou⟧ means 'estimate' or 'rough guess,' so the literal idea is 'guessing in the wrong direction.'\n- Frequently used to dismiss criticism or opinions that miss the actual point.\n- Modifier: {見当違|けんとうちが}いな⟦{意見|いけん}→意見：01303_iken⟧ (a misguided opinion), {見当違|けんとうちが}いな⟦{批判|ひはん}→批判：03580_hihan⟧ (misdirected criticism), {見当違|けんとうちが}いな⟦{方向|ほうこう}→方向：03617_houkou⟧ (the wrong direction)\n- Predicate: ⟦その→その：00993_sono⟧⟦{推測|すいそく}→推測：12821_suisoku⟧⟦は→は：00079_ha⟧{見当違|けんとうちが}いだ (that guess is off the mark)\n- Idiomatic emphasis: {見当違|けんとうちが}い⟦も→も：00484_mo⟧⟦{甚|はなは}だしい→甚だしい：13520_hanahadashii⟧ (utterly wrong, completely missing the point)\n\nSIMILAR WORDS:\n- ⟦{的外|まとはず}れ→的外れ：16719_matohazure⟧: missing the target (very close synonym).\n- ⟦{勘違|かんちが}い→勘違い：17609_kanchigai⟧: misunderstanding (the most common, everyday word for ordinary mix-ups).\n- ⟦{筋違|すじちが}い→筋違い：21040_sujichigai⟧: out of line, illogical (similar but emphasizes faulty reasoning).",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16719_matohazure",
+      "reading": "まとはずれ",
+      "headword": "{的外|まとはず}れ",
+      "label": "missing the target (very close synonym)."
+    },
+    {
+      "type": "contrast",
+      "target_id": "17609_kanchigai",
+      "reading": "かんちがい",
+      "headword": "{勘違|かんちが}い",
+      "label": "misunderstanding (the most common…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21040_sujichigai",
+      "reading": "すじちがい",
+      "headword": "{筋違|すじちが}い",
+      "label": "out of line, illogical (similar but…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19738_okadochigai",
+      "reading": "おかどちがい",
+      "headword": "お{門違|かどちが}い",
+      "label": "barking up the wrong tree"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20504_tonchinkan",
+      "reading": "とんちんかん",
+      "headword": "{頓珍漢|とんちんかん}",
+      "label": "nonsensical"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22135_mikomichigai",
+      "reading": "みこみちがい",
+      "headword": "{見込|みこ}み{違|ちが}い",
+      "label": "misjudgment"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27226_kentouhazure",
+      "reading": "けんとうはずれ",
+      "headword": "{見当外|けんとうはず}れ",
+      "label": "off the mark"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +111,6 @@
       ]
     },
     "created": "2026-03-23T03:35:51Z",
-    "modified": "2026-04-10T13:28:57Z"
+    "modified": "2026-09-02T04:01:53Z"
   }
 }

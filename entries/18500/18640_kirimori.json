@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "18640_kirimori_ex1",
-      "japanese": "{一人|ひとり}で{店|みせ}を{切|き}り{盛|も}りしている。",
+      "japanese": "⟦{一人|ひとり}→一人：00630_hitori⟧⟦で→で：00502_de⟧⟦{店|みせ}→店：00497_mise⟧⟦を→を：00422_wo⟧{切|き}り{盛|も}り⟦している→する：00392_suru⟧。",
       "english": "I'm running the shop by myself.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "18640_kirimori_ex2",
-      "japanese": "{母|はは}が{家計|かけい}を{切|き}り{盛|も}りしていた。",
+      "japanese": "⟦{母|はは}→母：00549_haha⟧⟦が→が：00051_ga⟧⟦{家計|かけい}→家計：12287_kakei⟧⟦を→を：00422_wo⟧{切|き}り{盛|も}り⟦していた→する：00392_suru⟧。",
       "english": "My mother managed the household finances.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "18640_kirimori_ex3",
-      "japanese": "{少|すく}ない{人数|にんずう}で{会社|かいしゃ}を{切|き}り{盛|も}りするのは{大変|たいへん}だ。",
+      "japanese": "⟦{少|すく}ない→少ない：01136_sukunai⟧⟦{人数|にんずう}→人数：03132_ninzuu⟧⟦で→で：00502_de⟧⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦を→を：00422_wo⟧{切|き}り{盛|も}り⟦する→する：00392_suru⟧⟦の→の：09472_no⟧⟦は→は：00079_ha⟧⟦{大変|たいへん}→大変：00594_taihen⟧だ。",
       "english": "It's tough to run a company with a small number of people.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,11 @@
       ]
     }
   ],
-  "notes": "{切|き}り{盛|も}り means managing or running something with practical, hands-on effort. It often carries a nuance of doing it skillfully despite limited resources or difficult conditions.\n\nETYMOLOGY:\nOriginally from cooking — {切|き}る (to cut) and {盛|も}る (to serve/plate) — referring to preparing and serving food. This extended to mean managing all aspects of an operation.\n\nCOMMON COLLOCATIONS:\n- {店|みせ}を{切|き}り{盛|も}りする: to run a shop\n- {家計|かけい}を{切|き}り{盛|も}りする: to manage household finances\n- {一人|ひとり}で{切|き}り{盛|も}りする: to manage single-handedly\n- {会社|かいしゃ}を{切|き}り{盛|も}りする: to run a company\n\nNUANCE:\nImplies active, resourceful management. Often used to praise someone who handles everything capably: {彼女|かのじょ}が{一人|ひとり}で{切|き}り{盛|も}りしている (She's running the whole thing by herself).",
+  "notes": "{切|き}り{盛|も}り means managing or running something with practical, hands-on effort. It often carries a nuance of doing it skillfully despite limited resources or difficult conditions.\n\nETYMOLOGY:\nOriginally from cooking — ⟦{切|き}る→切る：02693_kiru⟧ (to cut) and ⟦{盛|も}る→盛る：00292_moru⟧ (to serve/plate) — referring to preparing and serving food. This extended to mean managing all aspects of an operation.\n\nCOMMON COLLOCATIONS:\n- ⟦{店|みせ}→店：00497_mise⟧⟦を→を：00422_wo⟧{切|き}り{盛|も}り⟦する→する：00392_suru⟧: to run a shop\n- ⟦{家計|かけい}→家計：12287_kakei⟧⟦を→を：00422_wo⟧{切|き}り{盛|も}り⟦する→する：00392_suru⟧: to manage household finances\n- ⟦{一人|ひとり}→一人：00630_hitori⟧⟦で→で：00502_de⟧{切|き}り{盛|も}り⟦する→する：00392_suru⟧: to manage single-handedly\n- ⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦を→を：00422_wo⟧{切|き}り{盛|も}り⟦する→する：00392_suru⟧: to run a company\n\nUSAGE:\nImplies active, resourceful management. Often used to praise someone who handles everything capably: ⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦が→が：00051_ga⟧⟦{一人|ひとり}→一人：00630_hitori⟧⟦で→で：00502_de⟧{切|き}り{盛|も}り⟦している→する：00392_suru⟧ (She's running the whole thing by herself).",
   "cross_references": [],
   "metadata": {
     "created": "2026-03-22T10:41:08Z",
-    "modified": "2026-04-02T07:10:41Z",
+    "modified": "2026-09-02T04:01:53Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -152,7 +152,8 @@
         "work",
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

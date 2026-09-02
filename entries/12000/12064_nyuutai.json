@@ -3,7 +3,7 @@
   "id": "12064_nyuutai",
   "headword": "{入隊|にゅうたい}",
   "reading": "にゅうたい",
-  "part_of_speech": "noun / suru verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "enlisting; joining the military",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "12064_nyuutai_ex1",
-      "japanese": "{十八歳|じゅうはっさい}で{入隊|にゅうたい}した。",
+      "japanese": "{十八歳|じゅうはっさい}⟦で→で：00502_de⟧{入隊|にゅうたい}⟦した→する：00392_suru⟧。",
       "english": "He enlisted at the age of eighteen.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "12064_nyuutai_ex2",
-      "japanese": "{入隊|にゅうたい}{希望者|きぼうしゃ}は{体力|たいりょく}{検査|けんさ}を{受|う}ける{必要|ひつよう}がある。",
+      "japanese": "{入隊|にゅうたい}⟦{希望者|きぼうしゃ}→希望者：03050_kibousha⟧⟦は→は：00079_ha⟧⟦{体力|たいりょく}→体力：05318_tairyoku⟧⟦{検査|けんさ}→検査：02707_kensa⟧⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "Those wishing to enlist must undergo a physical fitness test.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "12064_nyuutai_ex3",
-      "japanese": "{祖父|そふ}は{戦時中|せんじちゅう}に{徴兵|ちょうへい}されて{入隊|にゅうたい}し、{終戦|しゅうせん}まで{軍|ぐん}に{所属|しょぞく}していた。",
+      "japanese": "⟦{祖父|そふ}→祖父：01452_sofu⟧⟦は→は：00079_ha⟧⟦{戦時中|せんじちゅう}→戦時中：28629_senjichuu⟧⟦に→に：00314_ni⟧{徴兵|ちょうへい}⟦されて→する：00392_suru⟧{入隊|にゅうたい}し、⟦{終戦|しゅうせん}→終戦：18973_shuusen⟧⟦まで→まで：00490_made⟧⟦{軍|ぐん}→軍：02677_gun⟧⟦に→に：00314_ni⟧⟦{所属|しょぞく}→所属：12750_shozoku⟧⟦していた→する：00392_suru⟧。",
       "english": "My grandfather was drafted and enlisted during the war, and remained in the military until the war ended.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nOften used as a suru verb: {入隊|にゅうたい}する (to enlist). The word implies formally joining a military organization, whether voluntarily or through conscription.\n\nCOMMON COLLOCATIONS:\n- {入隊|にゅうたい}する: to enlist, to join the military\n- {入隊|にゅうたい}{希望者|きぼうしゃ}: enlistment applicant\n- {入隊|にゅうたい}{式|しき}: enlistment ceremony\n- {入隊|にゅうたい}{検査|けんさ}: enlistment examination\n\nSIMILAR WORDS:\nThe opposite is {除隊|じょたい} (discharge from the military). {志願|しがん} (volunteering) emphasizes the voluntary nature of enlistment, while {徴兵|ちょうへい} (conscription) refers to compulsory military service.",
+  "notes": "USAGE:\nOften used as a suru verb: {入隊|にゅうたい}⟦する→する：00392_suru⟧ (to enlist). The word implies formally joining a military organization, whether voluntarily or through conscription.\n\nCOMMON COLLOCATIONS:\n- {入隊|にゅうたい}⟦する→する：00392_suru⟧: to enlist, to join the military\n- {入隊|にゅうたい}⟦{希望者|きぼうしゃ}→希望者：03050_kibousha⟧: enlistment applicant\n- {入隊|にゅうたい}{式|しき}: enlistment ceremony\n- {入隊|にゅうたい}⟦{検査|けんさ}→検査：02707_kensa⟧: enlistment examination\n\nSIMILAR WORDS:\nThe opposite is ⟦{除隊|じょたい}→除隊：22883_jotai⟧ (discharge from the military). ⟦{志願|しがん}→志願：12669_shigan⟧ (volunteering) emphasizes the voluntary nature of enlistment, while {徴兵|ちょうへい} (conscription) refers to compulsory military service.",
   "cross_references": [
     {
       "type": "antonym",
@@ -142,11 +142,25 @@
       "reading": "じょたい",
       "headword": "{除隊|じょたい}",
       "label": "military discharge"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19964_heieki",
+      "reading": "へいえき",
+      "headword": "{兵役|へいえき}",
+      "label": "military service"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22877_juugun",
+      "reading": "じゅうぐん",
+      "headword": "{従軍|じゅうぐん}",
+      "label": "military service"
     }
   ],
   "metadata": {
     "created": "2026-02-20T04:29:29Z",
-    "modified": "2026-04-26T04:23:53Z",
+    "modified": "2026-09-02T04:01:27Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

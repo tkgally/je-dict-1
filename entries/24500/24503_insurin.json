@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24503_insurin_ex1",
-      "japanese": "インスリンを{注射|ちゅうしゃ}する。",
+      "japanese": "インスリン⟦を→を：00422_wo⟧⟦{注射|ちゅうしゃ}→注射：01665_chuusha⟧⟦する→する：00392_suru⟧。",
       "english": "To inject insulin.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24503_insurin_ex2",
-      "japanese": "{糖尿病|とうにょうびょう}の{患者|かんじゃ}はインスリンが{必要|ひつよう}だ。",
+      "japanese": "⟦{糖尿病|とうにょうびょう}→糖尿病：04414_tounyoubyou⟧⟦の→の：09472_no⟧⟦{患者|かんじゃ}→患者：00170_kanja⟧⟦は→は：00079_ha⟧インスリン⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧だ。",
       "english": "Diabetes patients need insulin.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24503_insurin_ex3",
-      "japanese": "{食後|しょくご}に{血糖値|けっとうち}が{上|あ}がると、{膵臓|すいぞう}からインスリンが{分泌|ぶんぴつ}される。",
+      "japanese": "⟦{食後|しょくご}→食後：09499_shokugo⟧⟦に→に：00314_ni⟧⟦{血糖値|けっとうち}→血糖値：19493_kettouchi⟧⟦が→が：00051_ga⟧⟦{上|あ}がる→上がる：00615_agaru⟧⟦と→と：00512_to⟧、⟦{膵臓|すいぞう}→膵臓：05960_suizou⟧⟦から→から：00504_kara⟧インスリン⟦が→が：00051_ga⟧⟦{分泌|ぶんぴつ}→分泌：25492_bunpitsu⟧⟦される→する：00392_suru⟧。",
       "english": "When blood sugar rises after eating, insulin is secreted from the pancreas.",
       "sense_numbers": [
         1
@@ -44,19 +44,51 @@
       "notes": null
     }
   ],
-  "notes": "A loanword from English/German \"insulin.\" Japan has a significant population of diabetes patients, making this a word commonly encountered in health-related contexts, news, and daily conversation.\n\nCOMMON COLLOCATIONS:\n- インスリン{注射|ちゅうしゃ}: insulin injection\n- インスリンの{分泌|ぶんぴつ}: insulin secretion\n- インスリン{療法|りょうほう}: insulin therapy\n- インスリン{抵抗性|ていこうせい}: insulin resistance\n\nRELATED TERMS:\n- {糖尿病|とうにょうびょう}: diabetes\n- {血糖値|けっとうち}: blood sugar level\n- {膵臓|すいぞう}: pancreas\n- {注射|ちゅうしゃ}: injection",
+  "notes": "A loanword from English/German \"insulin.\" Japan has a significant population of diabetes patients, making this a word commonly encountered in health-related contexts, news, and daily conversation.\n\nCOMMON COLLOCATIONS:\n- インスリン⟦{注射|ちゅうしゃ}→注射：01665_chuusha⟧: insulin injection\n- インスリン⟦の→の：09472_no⟧⟦{分泌|ぶんぴつ}→分泌：25492_bunpitsu⟧: insulin secretion\n- インスリン⟦{療法|りょうほう}→療法：13615_ryouhou⟧: insulin therapy\n- インスリン{抵抗性|ていこうせい}: insulin resistance\n\nRELATED WORDS:\n- ⟦{糖尿病|とうにょうびょう}→糖尿病：04414_tounyoubyou⟧: diabetes\n- ⟦{血糖値|けっとうち}→血糖値：19493_kettouchi⟧: blood sugar level\n- ⟦{膵臓|すいぞう}→膵臓：05960_suizou⟧: pancreas\n- ⟦{注射|ちゅうしゃ}→注射：01665_chuusha⟧: injection",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "04414_tounyoubyou",
+      "reading": "とうにょうびょう",
+      "headword": "{糖尿病|とうにょうびょう}",
+      "label": "diabetes"
+    },
+    {
+      "type": "related",
+      "target_id": "19493_kettouchi",
+      "reading": "けっとうち",
+      "headword": "{血糖値|けっとうち}",
+      "label": "blood sugar level"
+    },
+    {
+      "type": "related",
+      "target_id": "05960_suizou",
+      "reading": "すいぞう",
+      "headword": "{膵臓|すいぞう}",
+      "label": "pancreas"
+    },
+    {
+      "type": "related",
+      "target_id": "01665_chuusha",
+      "reading": "ちゅうしゃ",
+      "headword": "{注射|ちゅうしゃ}",
+      "label": "injection"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "health"
       ]
     },
     "created": "2026-04-19T12:37:04Z",
-    "modified": "2026-08-03T09:22:27Z"
+    "modified": "2026-09-02T04:02:18Z"
   }
 }

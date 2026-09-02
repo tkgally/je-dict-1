@@ -3,7 +3,7 @@
   "id": "10795_gizagiza",
   "headword": "ギザギザ",
   "reading": "ぎざぎざ",
-  "part_of_speech": "noun, na-adjective, onomatopoeia",
+  "part_of_speech": "na-adjective, noun, onomatopoeia",
   "gloss": "jagged, serrated",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "10795_gizagiza_ex1",
-      "japanese": "ギザギザの{葉|は}っぱ。",
+      "japanese": "ギザギザ⟦の→の：09472_no⟧⟦{葉|は}っぱ→葉っぱ：05388_happa⟧。",
       "english": "A jagged leaf.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "10795_gizagiza_ex2",
-      "japanese": "{缶|かん}のふたがギザギザで{手|て}を{切|き}りそうだ。",
+      "japanese": "⟦{缶|かん}→缶：01076_kan⟧⟦の→の：09472_no⟧ふた⟦が→が：00051_ga⟧ギザギザで⟦{手|て}→手：00569_te⟧⟦を→を：00422_wo⟧⟦{切|き}り→切る：02693_kiru⟧そうだ。",
       "english": "The can lid is jagged and I might cut my hand.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "10795_gizagiza_ex3",
-      "japanese": "ハサミで{切|き}ったら、{端|はし}がギザギザになってしまった。",
+      "japanese": "ハサミ⟦で→で：00502_de⟧⟦{切|き}ったら→切る：02693_kiru⟧、⟦{端|はし}→端：00936_hashi⟧⟦が→が：00051_ga⟧ギザギザになってしまった。",
       "english": "When I cut it with scissors, the edge ended up jagged.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,19 @@
       ]
     }
   ],
-  "notes": "ギザギザ is an onomatopoeic word describing rough, uneven edges with sharp points — like saw teeth or torn paper.\n\nGRAMMAR:\n- ギザギザの + noun: ギザギザの{葉|は} (jagged leaf)\n- noun + がギザギザだ: {端|はし}がギザギザだ (the edge is jagged)\n- ギザギザに + verb: ギザギザに{切|き}る (to cut jaggedly)\n- ギザギザした + noun: ギザギザした{形|かたち} (jagged shape)\n\nCOMMON COLLOCATIONS:\n- ギザギザの{刃|は}: serrated blade\n- ギザギザの{線|せん}: zigzag line\n- ギザギザした{岩|いわ}: jagged rock\n\nCONTRAST:\n- でこぼこ: bumpy, uneven (surface irregularity)\n- ギザギザ: jagged, serrated (sharp pointed edges)\n- なみなみ: wavy (smooth undulation)",
-  "cross_references": [],
+  "notes": "ギザギザ is an onomatopoeic word describing rough, uneven edges with sharp points — like saw teeth or torn paper.\n\nCOMMON PATTERNS:\n- ギザギザ⟦の→の：09472_no⟧ + noun: ギザギザ⟦の→の：09472_no⟧⟦{葉|は}→葉：02241_ha⟧ (jagged leaf)\n- noun + ⟦が→が：00051_ga⟧ギザギザだ: ⟦{端|はし}→端：00936_hashi⟧⟦が→が：00051_ga⟧ギザギザだ (the edge is jagged)\n- ギザギザ⟦に→に：00314_ni⟧ + verb: ギザギザ⟦に→に：00314_ni⟧⟦{切|き}る→切る：02693_kiru⟧ (to cut jaggedly)\n- ギザギザ⟦した→する：00392_suru⟧ + noun: ギザギザ⟦した→する：00392_suru⟧⟦{形|かたち}→形：02193_katachi⟧ (jagged shape)\n\nCOMMON COLLOCATIONS:\n- ギザギザ⟦の→の：09472_no⟧⟦{刃|は}→刃：09865_ha⟧: serrated blade\n- ギザギザ⟦の→の：09472_no⟧⟦{線|せん}→線：09901_sen⟧: zigzag line\n- ギザギザ⟦した→する：00392_suru⟧⟦{岩|いわ}→岩：00850_iwa⟧: jagged rock\n\nSIMILAR WORDS:\n- でこぼこ: bumpy, uneven (surface irregularity)\n- ギザギザ: jagged, serrated (sharp pointed edges)\n- なみなみ: wavy (smooth undulation)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04547_dekoboko",
+      "reading": "でこぼこ",
+      "headword": "{凸凹|でこぼこ}",
+      "label": "bumpy, uneven"
+    }
+  ],
   "metadata": {
     "created": "2026-02-10T08:06:05Z",
-    "modified": "2026-06-28T03:46:26Z",
+    "modified": "2026-09-02T04:01:22Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

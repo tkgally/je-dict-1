@@ -3,7 +3,7 @@
   "headword": "ショッピング",
   "reading": "しょっぴんぐ",
   "romaji": "shoppingu",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "shopping; going shopping",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28815_shoppingu_ex1",
-      "japanese": "ショッピングに{行|い}く。",
+      "japanese": "ショッピング⟦に→に：00314_ni⟧⟦{行|い}く→行く：00119_iku⟧。",
       "english": "I'm going shopping.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28815_shoppingu_ex2",
-      "japanese": "{友達|ともだち}とショッピングを{楽|たの}しんだ。",
+      "japanese": "⟦{友達|ともだち}→友達：01478_tomodachi⟧⟦と→と：00512_to⟧ショッピング⟦を→を：00422_wo⟧⟦{楽|たの}しんだ→楽しむ：01203_tanoshimu⟧。",
       "english": "I enjoyed shopping with my friends.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28815_shoppingu_ex3",
-      "japanese": "{週末|しゅうまつ}は{家族|かぞく}で{大|おお}きなショッピングモールに{出|で}かけた。",
+      "japanese": "⟦{週末|しゅうまつ}→週末：03030_shuumatsu⟧⟦は→は：00079_ha⟧⟦{家族|かぞく}→家族：00552_kazoku⟧⟦で→で：00502_de⟧⟦{大|おお}きな→大きな：02849_ookina⟧ショッピングモール⟦に→に：00314_ni⟧⟦{出|で}かけた→出かける：00833_dekakeru⟧。",
       "english": "On the weekend, my family went out to a large shopping mall.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "From English 'shopping'. Often appears in compounds for retail facilities. Carries a recreational, browsing nuance — for routine errands (groceries, household items), {買|か}い{物|もの} is more natural.\n\nCOMMON COLLOCATIONS:\n- ショッピングに{行|い}く: to go shopping\n- ショッピングをする: to shop; to go shopping\n- ショッピングモール: shopping mall\n- ショッピングセンター: shopping center\n- ネットショッピング: online shopping\n\nSIMILAR WORDS:\n- {買|か}い{物|もの}: shopping; errands — more everyday, includes groceries and necessities\n- ウィンドウショッピング: window shopping — browsing without buying",
+  "notes": "From English 'shopping'. Often appears in compounds for retail facilities. Carries a recreational, browsing nuance — for routine errands (groceries, household items), ⟦{買|か}い{物|もの}→買い物：00853_kaimono⟧ is more natural.\n\nCOMMON COLLOCATIONS:\n- ショッピング⟦に→に：00314_ni⟧⟦{行|い}く→行く：00119_iku⟧: to go shopping\n- ショッピング⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧: to shop; to go shopping\n- ショッピングモール: shopping mall\n- ショッピングセンター: shopping center\n- ⟦ネット→ネット：05279_netto⟧ショッピング: online shopping\n\nSIMILAR WORDS:\n- ⟦{買|か}い{物|もの}→買い物：00853_kaimono⟧: shopping; errands — more everyday, includes groceries and necessities\n- ウィンドウショッピング: window shopping — browsing without buying",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00853_kaimono",
+      "reading": "かいもの",
+      "headword": "{買|か}い{物|もの}",
+      "label": "shopping"
+    },
+    {
+      "type": "related",
+      "target_id": "30463_windoushoppingu",
+      "reading": "うぃんどうしょっぴんぐ",
+      "headword": "ウィンドウショッピング",
+      "label": "window shopping"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -55,7 +71,7 @@
       ],
       "transitivity": "intransitive",
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "daily-life",
         "business"
@@ -64,7 +80,7 @@
       "verb_class": "suru"
     },
     "created": "2026-06-06T02:07:42Z",
-    "modified": "2026-08-08T18:34:17Z"
+    "modified": "2026-09-02T04:02:35Z"
   },
   "conjugation": {
     "type": "suru",

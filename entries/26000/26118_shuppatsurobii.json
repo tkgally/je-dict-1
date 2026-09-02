@@ -15,39 +15,67 @@
   "examples": [
     {
       "id": "26118_shuppatsurobii_ex1",
-      "japanese": "{出発|しゅっぱつ}ロビーで{待|ま}ち{合|あ}わせしよう。",
+      "japanese": "{出発|しゅっぱつ}ロビー⟦で→で：00502_de⟧⟦{待|ま}ち{合|あ}わせ→待ち合わせ：07397_machiawase⟧⟦しよう→する：00392_suru⟧。",
       "english": "Let's meet at the departure lobby.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26118_shuppatsurobii_ex2",
-      "japanese": "{出発|しゅっぱつ}ロビーには{免税店|めんぜいてん}やカフェがある。",
+      "japanese": "{出発|しゅっぱつ}ロビー⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{免税店|めんぜいてん}→免税店：16170_menzeiten⟧や⟦カフェ→カフェ：06767_kafe⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There are duty-free shops and cafes in the departure lobby.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26118_shuppatsurobii_ex3",
-      "japanese": "{搭乗|とうじょう}{手続|てつづ}きを{済|す}ませてから{出発|しゅっぱつ}ロビーでゆっくり{過|す}ごした。",
+      "japanese": "⟦{搭乗|とうじょう}→搭乗：06200_toujou⟧⟦{手続|てつづ}き→手続き：05453_tetsuzuki⟧⟦を→を：00422_wo⟧⟦{済|す}ませて→済む：01950_sumu⟧⟦から→から：00504_kara⟧{出発|しゅっぱつ}ロビー⟦で→で：00502_de⟧⟦ゆっくり→ゆっくり：00910_yukkuri⟧⟦{過|す}ごした→過ごす：02062_sugosu⟧。",
       "english": "After completing the boarding procedures, I spent time relaxing in the departure lounge.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {出発|しゅっぱつ} (departure) and ロビー (lobby). Primarily used in airport contexts, referring to the area past security where passengers wait to board. Essential travel vocabulary for anyone flying in or through Japan.\n\nCOMMON COLLOCATIONS:\n- {国際線|こくさいせん}{出発|しゅっぱつ}ロビー: international departure lobby\n- {国内線|こくないせん}{出発|しゅっぱつ}ロビー: domestic departure lobby\n- {出発|しゅっぱつ}ロビーに{向|む}かう: to head to the departure lobby\n\nSIMILAR WORDS:\n- {到着|とうちゃく}ロビー: arrival lobby — the area for incoming passengers\n- {搭乗|とうじょう}ゲート: boarding gate — the specific gate for a flight\n- {待合室|まちあいしつ}: waiting room — a more general waiting area in stations or clinics",
-  "cross_references": [],
+  "notes": "A compound of ⟦{出発|しゅっぱつ}→出発：02085_shuppatsu⟧ (departure) and ⟦ロビー→ロビー：26995_robii⟧ (lobby). Primarily used in airport contexts, referring to the area past security where passengers wait to board. Essential travel vocabulary for anyone flying in or through Japan.\n\nCOMMON COLLOCATIONS:\n- ⟦{国際線|こくさいせん}→国際線：27502_kokusaisen⟧{出発|しゅっぱつ}ロビー: international departure lobby\n- ⟦{国内線|こくないせん}→国内線：27501_kokunaisen⟧{出発|しゅっぱつ}ロビー: domestic departure lobby\n- {出発|しゅっぱつ}ロビー⟦に→に：00314_ni⟧⟦{向|む}かう→向かう：01186_mukau⟧: to head to the departure lobby\n\nSIMILAR WORDS:\n- ⟦{到着|とうちゃく}→到着：02526_touchaku⟧⟦ロビー→ロビー：26995_robii⟧: arrival lobby — the area for incoming passengers\n- ⟦{搭乗|とうじょう}→搭乗：06200_toujou⟧⟦ゲート→ゲート：10851_geeto⟧: boarding gate — the specific gate for a flight\n- ⟦{待合室|まちあいしつ}→待合室：07373_machiaishitsu⟧: waiting room — a more general waiting area in stations or clinics",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07373_machiaishitsu",
+      "reading": "まちあいしつ",
+      "headword": "{待合室|まちあいしつ}",
+      "label": "waiting room"
+    },
+    {
+      "type": "related",
+      "target_id": "09927_toujouguchi",
+      "reading": "とうじょうぐち",
+      "headword": "{搭乗口|とうじょうぐち}",
+      "label": "boarding gate"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["travel", "building"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "travel",
+        "building"
+      ]
     },
     "created": "2026-04-29T13:41:38Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T04:02:25Z"
   }
 }

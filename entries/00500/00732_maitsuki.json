@@ -44,7 +44,7 @@
     },
     {
       "id": "00732_maitsuki_ex4",
-      "japanese": "{毎月|まいつき}⟦{一|いち}→一：00705_ichi⟧⟦{回|かい}→回：00957_kai⟧、⟦{友達|ともだち}→友達：01478_tomodachi⟧⟦と→と：00512_to⟧⟦{会|あ}って→会う：00482_au⟧⟦{ご飯|ごはん}→ご飯：00776_gohan⟧⟦を→を：00422_wo⟧⟦{食|た}べる→食べる：00396_taberu⟧⟦ことにしています→ことにする：10986_kotonisuru⟧。",
+      "japanese": "{毎月|まいつき}⟦{一|いち}→一：00705_ichi⟧⟦{回|かい}→回：00957_kai⟧、⟦{友達|ともだち}→友達：01478_tomodachi⟧⟦と→と：00512_to⟧⟦{会|あ}って→会う：00482_au⟧⟦ご{飯|はん}→ご飯：00776_gohan⟧⟦を→を：00422_wo⟧⟦{食|た}べる→食べる：00396_taberu⟧⟦ことにしています→ことにする：10986_kotonisuru⟧。",
       "english": "I make it a point to meet with my friend once a month to have a meal.",
       "notes": null,
       "has_audio": false,
@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "{毎月|まいつき} means \"every month\" and can function as both a noun and an adverb.\n\nREADINGS:\n- まいつき: more common in speech\n- まいげつ: also used, chiefly in formal or written contexts\n\nCOMMON PATTERNS:\n- {毎月|まいつき}〜⟦する→する：00392_suru⟧: to do ~ every month\n- {毎月|まいつき}⟦{一|いち}→一：00705_ichi⟧⟦{回|かい}→回：00957_kai⟧: once a month\n- {毎月|まいつき}⟦の→の：09472_no⟧⟦{支払|しはら}い→支払う：02116_shiharau⟧: monthly payment\n\nRELATED TIME WORDS:\n- ⟦{先月|せんげつ}→先月：00751_sengetsu⟧: last month\n- ⟦{今月|こんげつ}→今月：00720_kongetsu⟧: this month\n- ⟦{来月|らいげつ}→来月：00744_raigetsu⟧: next month\n- ⟦{毎週|まいしゅう}→毎週：00730_maishuu⟧: every week\n- ⟦{毎年|まいとし}→毎年：00731_maitoshi⟧: every year",
+  "notes": "{毎月|まいつき} means \"every month\" and can function as both a noun and an adverb.\n\nPRONUNCIATION:\n- まいつき: more common in speech\n- まいげつ: also used, chiefly in formal or written contexts\n\nCOMMON PATTERNS:\n- {毎月|まいつき}〜⟦する→する：00392_suru⟧: to do ~ every month\n- {毎月|まいつき}⟦{一|いち}→一：00705_ichi⟧⟦{回|かい}→回：00957_kai⟧: once a month\n- {毎月|まいつき}⟦の→の：09472_no⟧⟦{支払|しはら}い→支払う：02116_shiharau⟧: monthly payment\n\nRELATED TIME WORDS:\n- ⟦{先月|せんげつ}→先月：00751_sengetsu⟧: last month\n- ⟦{今月|こんげつ}→今月：00720_kongetsu⟧: this month\n- ⟦{来月|らいげつ}→来月：00744_raigetsu⟧: next month\n- ⟦{毎週|まいしゅう}→毎週：00730_maishuu⟧: every week\n- ⟦{毎年|まいとし}→毎年：00731_maitoshi⟧: every year",
   "cross_references": [
     {
       "type": "related",
@@ -85,11 +85,53 @@
       "headword": "{今月|こんげつ}",
       "target_id": "00720_kongetsu",
       "label": "this month"
+    },
+    {
+      "type": "related",
+      "target_id": "00751_sengetsu",
+      "reading": "せんげつ",
+      "headword": "{先月|せんげつ}",
+      "label": "last month"
+    },
+    {
+      "type": "related",
+      "target_id": "00744_raigetsu",
+      "reading": "らいげつ",
+      "headword": "{来月|らいげつ}",
+      "label": "next month"
+    },
+    {
+      "type": "related",
+      "target_id": "00967_maiban",
+      "reading": "まいばん",
+      "headword": "{毎晩|まいばん}",
+      "label": "every night"
+    },
+    {
+      "type": "related",
+      "target_id": "18697_maibyou",
+      "reading": "まいびょう",
+      "headword": "{毎秒|まいびょう}",
+      "label": "every second"
+    },
+    {
+      "type": "related",
+      "target_id": "19328_kakugetsu",
+      "reading": "かくげつ",
+      "headword": "{隔月|かくげつ}",
+      "label": "every other month"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30032_tsukizuki",
+      "reading": "つきづき",
+      "headword": "月々",
+      "label": "every month"
     }
   ],
   "metadata": {
     "created": "2026-01-07T12:34:08Z",
-    "modified": "2026-08-01T09:19:26Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

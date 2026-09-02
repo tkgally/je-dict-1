@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "17619_datsuijo_ex1",
-      "japanese": "{脱衣所|だついじょ}で{服|ふく}を{脱|ぬ}いだ。",
+      "japanese": "{脱衣所|だついじょ}⟦で→で：00502_de⟧⟦{服|ふく}→服：00695_fuku⟧⟦を→を：00422_wo⟧⟦{脱|ぬ}いだ→脱ぐ：00518_nugu⟧。",
       "english": "I took off my clothes in the changing room.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "17619_datsuijo_ex2",
-      "japanese": "{脱衣所|だついじょ}にタオルを{用意|ようい}しておいた。",
+      "japanese": "{脱衣所|だついじょ}⟦に→に：00314_ni⟧⟦タオル→タオル：01533_taoru⟧⟦を→を：00422_wo⟧⟦{用意|ようい}して→用意する：22428_youisuru⟧おいた。",
       "english": "I prepared towels in the changing room.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "17619_datsuijo_ex3",
-      "japanese": "{銭湯|せんとう}の{脱衣所|だついじょ}にはロッカーがある。",
+      "japanese": "⟦{銭湯|せんとう}→銭湯：16032_sentou⟧⟦の→の：09472_no⟧{脱衣所|だついじょ}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦ロッカー→ロッカー：09734_rokkaa⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "The changing room at the public bath has lockers.",
       "sense_numbers": [
         1
@@ -43,7 +43,7 @@
       "notes": null
     }
   ],
-  "notes": "FORMATION:\n{脱衣|だつい} (undressing) + {所|じょ} (place) → place for undressing\n\nJAPANESE BATH CULTURE:\nIn Japanese homes and public baths, the {脱衣所|だついじょ} serves as a transition space between the living area and the bathing area. You undress here before entering the bathroom.\n\nCOMMON FEATURES:\n- Storage baskets or lockers\n- Mirror\n- Scale ({体重計|たいじゅうけい})\n- Sometimes combined with {洗面所|せんめんじょ}\n\nPUBLIC BATHS:\nAt {銭湯|せんとう} (public baths) and {温泉|おんせん} (hot springs), the {脱衣所|だついじょ} has lockers for storing belongings.\n\nRELATED WORDS:\n- {洗面所|せんめんじょ} (washroom)\n- {浴室|よくしつ} / お{風呂|ふろ} (bathroom)\n- {更衣室|こういしつ} (changing room - general, at gyms/pools)",
+  "notes": "FORMS:\n⟦{脱衣|だつい}→脱衣：22872_datsui⟧ (undressing) + {所|じょ} (place) → place for undressing\n\nJAPANESE BATH CULTURE:\nIn Japanese homes and public baths, the {脱衣所|だついじょ} serves as a transition space between the living area and the bathing area. You undress here before entering the bathroom.\n\nCOMMON FEATURES:\n- Storage baskets or lockers\n- Mirror\n- Scale (⟦{体重計|たいじゅうけい}→体重計：05485_taijuukei⟧)\n- Sometimes combined with ⟦{洗面所|せんめんじょ}→洗面所：17618_senmenjo⟧\n\nPUBLIC BATHS:\nAt ⟦{銭湯|せんとう}→銭湯：16032_sentou⟧ (public baths) and ⟦{温泉|おんせん}→温泉：04117_onsen⟧ (hot springs), the {脱衣所|だついじょ} has lockers for storing belongings.\n\nRELATED WORDS:\n- ⟦{洗面所|せんめんじょ}→洗面所：17618_senmenjo⟧ (washroom)\n- ⟦{浴室|よくしつ}→浴室：05301_yokushitsu⟧ / ⟦お{風呂|ふろ}→お風呂：00802_ofuro⟧ (bathroom)\n- ⟦{更衣室|こういしつ}→更衣室：07042_kouishitsu⟧ (changing room - general, at gyms/pools)",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -51,13 +51,14 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "building",
         "daily-life"
       ]
     },
     "created": "2026-01-26T13:58:14Z",
-    "modified": "2026-08-14T21:21:34Z"
+    "modified": "2026-09-02T04:01:49Z"
   },
   "cross_references": [
     {
@@ -73,6 +74,48 @@
       "headword": "{洗面台|せんめんだい}",
       "label": "washstand",
       "target_id": "04988_senmendai"
+    },
+    {
+      "type": "related",
+      "target_id": "05301_yokushitsu",
+      "reading": "よくしつ",
+      "headword": "{浴室|よくしつ}",
+      "label": "bathroom"
+    },
+    {
+      "type": "related",
+      "target_id": "00802_ofuro",
+      "reading": "おふろ",
+      "headword": "お{風呂|ふろ}",
+      "label": "bathroom"
+    },
+    {
+      "type": "related",
+      "target_id": "07042_kouishitsu",
+      "reading": "こういしつ",
+      "headword": "{更衣室|こういしつ}",
+      "label": "changing room"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26393_randoriiruumu",
+      "reading": "らんどりーるーむ",
+      "headword": "ランドリールーム",
+      "label": "laundry room"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28523_shawaaruumu",
+      "reading": "しゃわーるーむ",
+      "headword": "シャワールーム",
+      "label": "shower room"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28822_furoba",
+      "reading": "ふろば",
+      "headword": "{風呂場|ふろば}",
+      "label": "bathroom"
     }
   ]
 }

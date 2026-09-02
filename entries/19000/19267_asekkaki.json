@@ -3,7 +3,7 @@
   "headword": "{汗|あせ}っかき",
   "reading": "あせっかき",
   "romaji": "asekkaki",
-  "part_of_speech": "noun, な-adjective",
+  "part_of_speech": "noun, na-adjective",
   "gloss": "heavy sweater; person who sweats easily",
   "definitions": [
     {
@@ -15,40 +15,74 @@
   "examples": [
     {
       "id": "19267_asekkaki_ex1",
-      "japanese": "{私|わたし}は{汗|あせ}っかきだ。",
+      "japanese": "⟦{私|わたし}→私：02988_watashi⟧⟦は→は：00079_ha⟧{汗|あせ}っかきだ。",
       "english": "I sweat easily.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19267_asekkaki_ex2",
-      "japanese": "{汗|あせ}っかきなので、{夏|なつ}は{大変|たいへん}だ。",
+      "japanese": "{汗|あせ}っかきな⟦の→の：09472_no⟧で、⟦{夏|なつ}→夏：02236_natsu⟧⟦は→は：00079_ha⟧⟦{大変|たいへん}→大変：00594_taihen⟧だ。",
       "english": "I sweat a lot, so summer is tough for me.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19267_asekkaki_ex3",
-      "japanese": "{汗|あせ}っかきの{子供|こども}には、{着替|きが}えを{多|おお}めに{持|も}たせたほうがいい。",
+      "japanese": "{汗|あせ}っかき⟦の→の：09472_no⟧⟦{子供|こども}→子供：00554_kodomo⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧、⟦{着替|きが}え→着替え：16045_kigae⟧⟦を→を：00422_wo⟧⟦{多|おお}め→多め：28421_oome⟧⟦に→に：00314_ni⟧⟦{持|も}たせた→持つ：00478_motsu⟧⟦ほうがいい→ほうがいい：10078_hougaii⟧。",
       "english": "For kids who sweat a lot, it's better to pack extra changes of clothes.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A colloquial, slightly informal word for someone who sweats heavily. Formed from {汗|あせ} (sweat) + っかき (one who does a lot of something). The っかき suffix appears in other words like {恥|は}ずかしがり (shy person).\n\nCOMMON COLLOCATIONS:\n- {汗|あせ}っかきの{人|ひと}: a person who sweats easily\n- {汗|あせ}っかき{体質|たいしつ}: a constitution prone to sweating\n\nRELATED WORDS:\n- {多汗症|たかんしょう}: hyperhidrosis — the medical term for excessive sweating\n- {汗|あせ}をかく: to sweat — the basic verb phrase\n- {寒|さむ}がり: someone sensitive to cold — same ～がり pattern for personal tendencies\n- {暑|あつ}がり: someone sensitive to heat\n\nUSAGE:\nCasual and slightly self-deprecating when used about oneself. Not offensive, but not formal either.",
+  "notes": "A colloquial, slightly informal word for someone who sweats heavily. Formed from ⟦{汗|あせ}→汗：02173_ase⟧ (sweat) + っかき (one who does a lot of something). The っかき suffix appears in other words like {恥|は}ずかし⟦がり→ガリ：27408_gari⟧ (shy person).\n\nCOMMON COLLOCATIONS:\n- {汗|あせ}っかき⟦の→の：09472_no⟧⟦{人|ひと}→人：00476_hito⟧: a person who sweats easily\n- {汗|あせ}っかき⟦{体質|たいしつ}→体質：08243_taishitsu⟧: a constitution prone to sweating\n\nRELATED WORDS:\n- {多汗症|たかんしょう}: hyperhidrosis — the medical term for excessive sweating\n- ⟦{汗|あせ}をかく→汗をかく：16925_asewokaku⟧: to sweat — the basic verb phrase\n- {寒|さむ}⟦がり→ガリ：27408_gari⟧: someone sensitive to cold — same ～⟦がり→ガリ：27408_gari⟧ pattern for personal tendencies\n- {暑|あつ}⟦がり→ガリ：27408_gari⟧: someone sensitive to heat\n\nUSAGE:\nCasual and slightly self-deprecating when used about oneself. Not offensive, but not formal either.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "16925_asewokaku",
+      "reading": "あせをかく",
+      "headword": "{汗|あせ}をかく",
+      "label": "to sweat"
+    },
+    {
+      "type": "related",
+      "target_id": "16865_samugari",
+      "reading": "さむがり",
+      "headword": "{寒|さむ}がり",
+      "label": "someone sensitive to cold"
+    },
+    {
+      "type": "related",
+      "target_id": "16866_atsugari",
+      "reading": "あつがり",
+      "headword": "{暑|あつ}がり",
+      "label": "someone sensitive to heat"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-na"],
+      "pos": [
+        "noun",
+        "adjective-na"
+      ],
       "formality": "informal",
       "politeness": "plain",
-      "semantic": ["health"]
+      "semantic": [
+        "health"
+      ]
     },
     "created": "2026-03-25T03:40:33Z",
-    "modified": "2026-07-26T21:31:07Z"
+    "modified": "2026-09-02T04:01:55Z"
   }
 }

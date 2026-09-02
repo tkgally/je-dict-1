@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25026_sashimimori_ex1",
-      "japanese": "{刺身盛|さしみも}りを{注文|ちゅうもん}した。",
+      "japanese": "{刺身盛|さしみも}り⟦を→を：00422_wo⟧⟦{注文|ちゅうもん}した→注文する：21390_chuumon⟧。",
       "english": "I ordered a sashimi platter.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25026_sashimimori_ex2",
-      "japanese": "{今日|きょう}の{刺身盛|さしみも}りには{何|なん}の{魚|さかな}が{入|はい}っていますか。",
+      "japanese": "⟦{今日|きょう}→今日：00496_kyou⟧⟦の→の：09472_no⟧{刺身盛|さしみも}り⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{何|なん}→何〜：03100_nan⟧⟦の→の：09472_no⟧⟦{魚|さかな}→魚：00499_sakana⟧⟦が→が：00051_ga⟧⟦{入|はい}っています→入る：00494_hairu⟧⟦か→か：09473_ka⟧。",
       "english": "What fish are in today's sashimi platter?",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25026_sashimimori_ex3",
-      "japanese": "{忘年会|ぼうねんかい}のコースには{豪華|ごうか}な{刺身盛|さしみも}り{合|あ}わせが{付|つ}いていた。",
+      "japanese": "⟦{忘年会|ぼうねんかい}→忘年会：15800_bounenkai⟧⟦の→の：09472_no⟧⟦コース→コース：10864_koosu⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{豪華|ごうか}→豪華：02815_gouka⟧な{刺身盛|さしみも}り{合|あ}わせ⟦が→が：00051_ga⟧⟦{付|つ}いていた→付く：01960_tsuku⟧。",
       "english": "The year-end party course came with a luxurious assorted sashimi platter.",
       "sense_numbers": [
         1
@@ -44,19 +44,29 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {刺身|さしみ} (sashimi; raw sliced fish) + {盛|も}り (serving; arrangement). Often written as {刺身|さしみ}{盛|も}り{合|あ}わせ for the full form. A staple item at izakaya and Japanese restaurants.\n\nCOMMON COLLOCATIONS:\n- {刺身盛|さしみも}り{合|あ}わせ: assorted sashimi platter (full form)\n- {三点盛|さんてんも}り: three-variety sashimi plate\n- {五点盛|ごてんも}り: five-variety sashimi plate\n- {刺身盛|さしみも}りを{頼|たの}む: order a sashimi platter\n\nRELATED TERMS:\n- {刺身|さしみ}: sashimi — raw fish sliced for eating\n- {盛|も}り{合|あ}わせ: assortment; assorted plate — used for other foods too\n- {舟盛|ふなも}り: boat-shaped sashimi platter — sashimi arranged on a boat-shaped wooden plate, a premium presentation",
+  "notes": "Composed of ⟦{刺身|さしみ}→刺身：04023_sashimi⟧ (sashimi; raw sliced fish) + ⟦{盛|も}り→盛り：13696_mori⟧ (serving; arrangement). Often written as {刺身|さしみ}{盛|も}り{合|あ}わせ for the full form. A staple item at izakaya and Japanese restaurants.\n\nCOMMON COLLOCATIONS:\n- {刺身盛|さしみも}り{合|あ}わせ: assorted sashimi platter (full form)\n- {三点盛|さんてんも}り: three-variety sashimi plate\n- {五点盛|ごてんも}り: five-variety sashimi plate\n- {刺身盛|さしみも}り⟦を→を：00422_wo⟧⟦{頼|たの}む→頼む：01104_tanomu⟧: order a sashimi platter\n\nRELATED WORDS:\n- ⟦{刺身|さしみ}→刺身：04023_sashimi⟧: sashimi — raw fish sliced for eating\n- ⟦{盛|も}り{合|あ}わせ→盛り合わせ：21762_moriawase⟧: assortment; assorted plate — used for other foods too\n- {舟盛|ふなも}り: boat-shaped sashimi platter — sashimi arranged on a boat-shaped wooden plate, a premium presentation",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "21762_moriawase",
+      "reading": "もりあわせ",
+      "headword": "{盛|も}り{合|あ}わせ",
+      "label": "assortment"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "food"
       ]
     },
     "created": "2026-04-22T11:25:23Z",
-    "modified": "2026-08-03T09:22:27Z"
+    "modified": "2026-09-02T04:02:20Z"
   }
 }

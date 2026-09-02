@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "06032_haishakusuru_ex1",
-      "japanese": "⟦お→お〜：03097_o⟧⟦{知恵|ちえ}→知恵：03428_chie⟧⟦を→を：00422_wo⟧{拝借|はいしゃく}したいのですが。",
+      "japanese": "⟦お→お〜：03097_o⟧⟦{知恵|ちえ}→知恵：03428_chie⟧⟦を→を：00422_wo⟧{拝借|はいしゃく}したい⟦の→の：09472_no⟧です⟦が→が：00051_ga⟧。",
       "english": "I would like to borrow your wisdom (ask for your advice).",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "06032_haishakusuru_ex2",
-      "japanese": "⟦ペン→ペン：02960_pen⟧⟦を→を：00422_wo⟧{拝借|はいしゃく}⟦できますか→できる：00557_dekiru⟧。",
+      "japanese": "⟦ペン→ペン：02960_pen⟧⟦を→を：00422_wo⟧⟦{拝借|はいしゃく}→拝借：06381_haishaku⟧⟦できますか→できる：00557_dekiru⟧。",
       "english": "May I borrow a pen?",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "06032_haishakusuru_ex3",
-      "japanese": "⟦お→お〜：03097_o⟧⟦{時間|じかん}→時間：00468_jikan⟧⟦を→を：00422_wo⟧{拝借|はいしゃく}⟦いたします→いたす：01314_itasu⟧。",
+      "japanese": "⟦お→お〜：03097_o⟧⟦{時間|じかん}→時間：00468_jikan⟧⟦を→を：00422_wo⟧⟦{拝借|はいしゃく}→拝借：06381_haishaku⟧⟦いたします→いたす：01314_itasu⟧。",
       "english": "I humbly ask for a moment of your time.",
       "notes": null,
       "has_audio": false,
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "{拝借|はいしゃく}する is ⟦{謙譲語|けんじょうご}→謙譲語：15869_kenjougo⟧ (humble language) for ⟦{借|か}りる→借りる：00532_kariru⟧ (to borrow). The {拝|はい} prefix conveys respect toward the person you are borrowing from.\n\nFORMALITY LEVELS (\"to borrow\"):\n- ⟦{借|か}りる→借りる：00532_kariru⟧: neutral\n- お⟦{借|か}りする→借りる：00532_kariru⟧: polite\n- {拝借|はいしゃく}する: humble/very formal\n\nCOMMON EXPRESSIONS:\n- お⟦{知恵|ちえ}→知恵：03428_chie⟧を{拝借|はいしゃく}する: to seek advice (lit. \"borrow wisdom\")\n- お⟦{時間|じかん}→時間：00468_jikan⟧を{拝借|はいしゃく}する: to take someone's time\n- お⟦{力|ちから}→力：01661_chikara⟧を{拝借|はいしゃく}する: to ask for assistance\n\nUSAGE:\nUsed in business and formal settings. Can sound overly stiff in casual conversation. Often used with ⟦いたす→いたす：01314_itasu⟧ for extra humility: {拝借|はいしゃく}⟦いたします→いたす：01314_itasu⟧.",
+  "notes": "{拝借|はいしゃく}する is ⟦{謙譲語|けんじょうご}→謙譲語：15869_kenjougo⟧ (humble language) for ⟦{借|か}りる→借りる：00532_kariru⟧ (to borrow). The {拝|はい} prefix conveys respect toward the person you are borrowing from.\n\nFORMALITY LEVELS (\"to borrow\"):\n- ⟦{借|か}りる→借りる：00532_kariru⟧: neutral\n- お⟦{借|か}りする→借りる：00532_kariru⟧: polite\n- {拝借|はいしゃく}する: humble/very formal\n\nCOMMON EXPRESSIONS:\n- お⟦{知恵|ちえ}→知恵：03428_chie⟧⟦を→を：00422_wo⟧{拝借|はいしゃく}する: to seek advice (lit. \"borrow wisdom\")\n- お⟦{時間|じかん}→時間：00468_jikan⟧⟦を→を：00422_wo⟧{拝借|はいしゃく}する: to take someone's time\n- お⟦{力|ちから}→力：01661_chikara⟧⟦を→を：00422_wo⟧{拝借|はいしゃく}する: to ask for assistance\n\nUSAGE:\nUsed in business and formal settings. Can sound overly stiff in casual conversation. Often used with ⟦いたす→いたす：01314_itasu⟧ for extra humility: ⟦{拝借|はいしゃく}→拝借：06381_haishaku⟧⟦いたします→いたす：01314_itasu⟧.",
   "cross_references": [
     {
       "type": "keigo",
@@ -145,7 +145,7 @@
   ],
   "metadata": {
     "created": "2026-01-16T21:25:32Z",
-    "modified": "2026-06-16T06:42:50Z",
+    "modified": "2026-09-02T04:01:07Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -157,7 +157,8 @@
       "semantic": [
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   },
   "prominent_see_also": [

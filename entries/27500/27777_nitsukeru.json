@@ -3,7 +3,7 @@
   "headword": "{煮|に}つける",
   "reading": "につける",
   "romaji": "nitsukeru",
-  "part_of_speech": "verb",
+  "part_of_speech": "verb (ichidan)",
   "gloss": "to simmer in seasoned broth",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "27777_nitsukeru_ex1",
-      "japanese": "{魚|さかな}を{煮|に}つける。",
+      "japanese": "⟦{魚|さかな}→魚：00499_sakana⟧⟦を→を：00422_wo⟧{煮|に}つける。",
       "english": "To simmer fish in seasoned broth.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "27777_nitsukeru_ex2",
-      "japanese": "{大根|だいこん}を{甘|あま}く{煮|に}つけた。",
+      "japanese": "⟦{大根|だいこん}→大根：05186_daikon⟧⟦を→を：00422_wo⟧⟦{甘|あま}く→甘い：00617_amai⟧{煮|に}つけた。",
       "english": "I simmered the daikon in a sweet seasoning.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "27777_nitsukeru_ex3",
-      "japanese": "{骨付|ほねつ}きの{魚|さかな}を{醤油|しょうゆ}と{砂糖|さとう}でこっくりと{煮|に}つける。",
+      "japanese": "{骨付|ほねつ}き⟦の→の：09472_no⟧⟦{魚|さかな}→魚：00499_sakana⟧⟦を→を：00422_wo⟧⟦{醤油|しょうゆ}→醤油：01056_shouyu⟧⟦と→と：00512_to⟧⟦{砂糖|さとう}→砂糖：00884_satou⟧⟦で→で：00502_de⟧こっくり⟦と→と：00512_to⟧{煮|に}つける。",
       "english": "I simmer the bone-in fish richly with soy sauce and sugar.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "TRANSITIVITY: Transitive ichidan verb. Xを{煮|に}つける. Refers specifically to simmering ingredients in a strongly seasoned liquid so that the flavor soaks in.\n\nCOMMON COLLOCATIONS:\n- {魚|さかな}を{煮|に}つける: to simmer fish\n- {甘辛|あまから}く{煮|に}つける: to simmer in a sweet-and-salty seasoning\n\nSIMILAR WORDS:\n- {煮込|にこ}む: to stew — long simmering, often for soups and stews; less focus on seasoning soaking in\n- {煮|に}る: to boil; to cook — the general term, neutral about seasoning",
+  "notes": "TRANSITIVITY: Transitive ichidan verb. X⟦を→を：00422_wo⟧{煮|に}つける. Refers specifically to simmering ingredients in a strongly seasoned liquid so that the flavor soaks in.\n\nCOMMON COLLOCATIONS:\n- ⟦{魚|さかな}→魚：00499_sakana⟧⟦を→を：00422_wo⟧{煮|に}つける: to simmer fish\n- ⟦{甘辛|あまから}く→甘辛い：27507_amakarai⟧{煮|に}つける: to simmer in a sweet-and-salty seasoning\n\nSIMILAR WORDS:\n- ⟦{煮込|にこ}む→煮込む：05822_nikomu⟧: to stew — long simmering, often for soups and stews; less focus on seasoning soaking in\n- ⟦{煮|に}る→煮る：01971_niru⟧: to boil; to cook — the general term, neutral about seasoning",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05822_nikomu",
+      "reading": "にこむ",
+      "headword": "{煮込|にこ}む",
+      "label": "to stew"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01971_niru",
+      "reading": "にる",
+      "headword": "{煮|に}る",
+      "label": "to boil"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -63,7 +79,7 @@
       "verb_class": "ichidan"
     },
     "created": "2026-05-18T04:14:41Z",
-    "modified": "2026-05-18T04:14:41Z"
+    "modified": "2026-09-02T04:02:31Z"
   },
   "conjugation": {
     "type": "ichidan",

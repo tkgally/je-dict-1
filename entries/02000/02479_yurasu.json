@@ -114,7 +114,7 @@
     },
     {
       "id": "02479_yurasu_ex2",
-      "japanese": "⟦{風|かぜ}→風：00641_kaze⟧⟦が→が：00051_ga⟧⟦{木|き}→木：00524_ki⟧⟦の→の：09472_no⟧⟦{枝|えだ}→枝：02181_eda⟧⟦を→を：00422_wo⟧{揺|ゆ}らしている。",
+      "japanese": "⟦{風|かぜ}→風：00641_kaze⟧⟦が→が：00051_ga⟧⟦{木|き}→木：00524_ki⟧⟦の→の：09472_no⟧⟦{枝|えだ}→枝：02181_eda⟧⟦を→を：00422_wo⟧{揺|ゆ}らして⟦いる→いる：00495_iru⟧。",
       "english": "The wind is shaking the tree branches.",
       "notes": null,
       "has_audio": false,
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "{揺|ゆ}らす means to shake, rock, or sway something back and forth.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- Pair: ⟦{揺|ゆ}れる→揺れる：01161_yureru⟧ (intransitive, to sway)\n- Pattern: X⟦を→を：00422_wo⟧{揺|ゆ}らす (shake X)\n\nASPECT (ている):\n{揺|ゆ}らしている means \"is shaking\" (ongoing action).\n\nCOMMON PATTERNS:\n- ⟦{体|からだ}→体：00784_karada⟧⟦を→を：00422_wo⟧{揺|ゆ}らす: to sway one's body\n- ⟦ゆりかご→ゆりかご：noentry⟧⟦を→を：00422_wo⟧{揺|ゆ}らす: to rock a cradle\n- ⟦{心|こころ}→心：01321_kokoro⟧⟦を→を：00422_wo⟧{揺|ゆ}らす: to move someone emotionally\n- ⟦{肩|かた}→肩：02192_kata⟧⟦を→を：00422_wo⟧{揺|ゆ}らして⟦{笑|わら}う→笑う：00685_warau⟧: to laugh while shaking one's shoulders\n\nCONTRAST:\n- {揺|ゆ}らす: to shake (transitive, gentle/rhythmic)\n- ⟦{揺|ゆ}する→揺する：04598_yusuru⟧: to shake (transitive, more forceful, often to extort)\n- ⟦{振|ふ}る→振る：01983_furu⟧: to swing, wave (more vigorous movement)",
+  "notes": "{揺|ゆ}らす means to shake, rock, or sway something back and forth.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- Pair: ⟦{揺|ゆ}れる→揺れる：01161_yureru⟧ (intransitive, to sway)\n- Pattern: X⟦を→を：00422_wo⟧{揺|ゆ}らす (shake X)\n\nASPECT (ている):\n{揺|ゆ}らして⟦いる→いる：00495_iru⟧ means \"is shaking\" (ongoing action).\n\nCOMMON PATTERNS:\n- ⟦{体|からだ}→体：00784_karada⟧⟦を→を：00422_wo⟧{揺|ゆ}らす: to sway one's body\n- ⟦ゆりかご→ゆりかご：noentry⟧⟦を→を：00422_wo⟧{揺|ゆ}らす: to rock a cradle\n- ⟦{心|こころ}→心：01321_kokoro⟧⟦を→を：00422_wo⟧{揺|ゆ}らす: to move someone emotionally\n- ⟦{肩|かた}→肩：02192_kata⟧⟦を→を：00422_wo⟧{揺|ゆ}らして⟦{笑|わら}う→笑う：00685_warau⟧: to laugh while shaking one's shoulders\n\nSIMILAR WORDS:\n- {揺|ゆ}らす: to shake (transitive, gentle/rhythmic)\n- ⟦{揺|ゆ}する→揺する：04598_yusuru⟧: to shake (transitive, more forceful, often to extort)\n- ⟦{振|ふ}る→振る：01983_furu⟧: to swing, wave (more vigorous movement)",
   "cross_references": [
     {
       "type": "pair",
@@ -141,11 +141,25 @@
       "reading": "ゆれる",
       "headword": "{揺|ゆ}れる",
       "label": "intransitive pair"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04598_yusuru",
+      "reading": "ゆする",
+      "headword": "{揺|ゆ}する",
+      "label": "to shake"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01983_furu",
+      "reading": "ふる",
+      "headword": "{振|ふ}る",
+      "label": "to swing, wave"
     }
   ],
   "metadata": {
     "created": "2026-01-11T12:03:44Z",
-    "modified": "2026-05-20T20:09:11Z",
+    "modified": "2026-09-02T04:01:01Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

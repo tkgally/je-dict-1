@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "16945_hayagaten_ex1",
-      "japanese": "{早合点|はやがてん}しないでほしい。",
+      "japanese": "{早合点|はやがてん}⟦しないで→する：00392_suru⟧ほしい。",
       "english": "Please don't jump to conclusions.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "16945_hayagaten_ex2",
-      "japanese": "{早合点|はやがてん}して{間違|まちが}えてしまった。",
+      "japanese": "{早合点|はやがてん}⟦して→する：00392_suru⟧⟦{間違|まちが}えて→間違える：01109_machigaeru⟧しまった。",
       "english": "I jumped to conclusions and made a mistake.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "16945_hayagaten_ex3",
-      "japanese": "{説明|せつめい}を{最後|さいご}まで{聞|き}かずに{早合点|はやがてん}するのは{彼|かれ}の{悪|わる}い{癖|くせ}だ。",
+      "japanese": "⟦{説明|せつめい}→説明：01449_setsumei⟧⟦を→を：00422_wo⟧⟦{最後|さいご}→最後：01413_saigo⟧⟦まで→まで：00490_made⟧⟦{聞|き}か→聞く：00483_kiku⟧ず⟦に→に：00314_ni⟧{早合点|はやがてん}⟦する→する：00392_suru⟧⟦の→の：09472_no⟧⟦は→は：00079_ha⟧⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧⟦{悪|わる}い→悪い：00908_warui⟧⟦{癖|くせ}→癖：03814_kuse⟧だ。",
       "english": "Jumping to conclusions without listening to the explanation all the way through is his bad habit.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nUsed as a noun or with する as a verb. Almost always carries a negative connotation — the hasty understanding leads to errors or misunderstandings.\n\nFORMATION:\n{早|はや} (early, quick) + {合点|がてん} (understanding, agreement). {合点|がてん} by itself means to understand or agree, so {早合点|はやがてん} literally means \"quick understanding\" — but in a negative sense.\n\nCOMMON PATTERNS:\n- {早合点|はやがてん}する (to jump to conclusions)\n- {早合点|はやがてん}しないで (don't jump to conclusions)\n- {早合点|はやがてん}は{禁物|きんもつ} (jumping to conclusions is to be avoided)\n\nSIMILAR WORDS:\n- {思|おも}い{込|こ}み: assumption, preconception — a fixed belief that may be wrong\n- {誤解|ごかい}: misunderstanding — the result, not the process",
+  "notes": "USAGE:\nUsed as a noun or with ⟦する→する：00392_suru⟧ as a verb. Almost always carries a negative connotation — the hasty understanding leads to errors or misunderstandings.\n\nFORMS:\n{早|はや} (early, quick) + {合点|がてん} (understanding, agreement). {合点|がてん} by itself means to understand or agree, so {早合点|はやがてん} literally means \"quick understanding\" — but in a negative sense.\n\nCOMMON PATTERNS:\n- {早合点|はやがてん}⟦する→する：00392_suru⟧ (to jump to conclusions)\n- {早合点|はやがてん}⟦しないで→する：00392_suru⟧ (don't jump to conclusions)\n- {早合点|はやがてん}⟦は→は：00079_ha⟧⟦{禁物|きんもつ}→禁物：13738_kinmotsu⟧ (jumping to conclusions is to be avoided)\n\nSIMILAR WORDS:\n- ⟦{思|おも}い{込|こ}み→思い込み：10111_omoikomi⟧: assumption, preconception — a fixed belief that may be wrong\n- ⟦{誤解|ごかい}→誤解：02769_gokai⟧: misunderstanding — the result, not the process",
   "cross_references": [
     {
       "type": "related",
@@ -142,11 +142,18 @@
       "reading": "ごかい",
       "headword": "{誤解|ごかい}",
       "label": "misunderstanding"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10111_omoikomi",
+      "reading": "おもいこみ",
+      "headword": "{思|おも}い{込|こ}み",
+      "label": "assumption, preconception"
     }
   ],
   "metadata": {
     "created": "2026-03-15T02:19:16Z",
-    "modified": "2026-05-05T05:04:25Z",
+    "modified": "2026-09-02T04:01:46Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

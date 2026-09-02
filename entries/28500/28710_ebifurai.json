@@ -15,41 +15,60 @@
   "examples": [
     {
       "id": "28710_ebifurai_ex1",
-      "japanese": "{今日|きょう}の{晩|ばん}ごはんはエビフライだ。",
+      "japanese": "⟦{今日|きょう}→今日：00496_kyou⟧⟦の→の：09472_no⟧{晩|ばん}ごはん⟦は→は：00079_ha⟧エビフライだ。",
       "english": "Tonight's dinner is fried shrimp.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28710_ebifurai_ex2",
-      "japanese": "{子供|こども}が{大|だい}{好物|こうぶつ}のエビフライを{３本|さんぼん}も{食|た}べた。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧⟦が→が：00051_ga⟧⟦{大|だい}{好物|こうぶつ}→大好物：16283_daikoubutsu⟧⟦の→の：09472_no⟧エビフライ⟦を→を：00422_wo⟧{３本|さんぼん}⟦も→も：00484_mo⟧⟦{食|た}べた→食べる：00396_taberu⟧。",
       "english": "My child ate three of their favorite fried shrimp.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28710_ebifurai_ex3",
-      "japanese": "{名古屋|なごや}のエビフライは{長|なが}くて{大|おお}きいことで{有名|ゆうめい}だ。",
+      "japanese": "⟦{名古屋|なごや}→名古屋：19405_nagoya⟧⟦の→の：09472_no⟧エビフライ⟦は→は：00079_ha⟧⟦{長|なが}くて→長い：00491_nagai⟧⟦{大|おお}きい→大きい：00335_ookii⟧こと⟦で→で：00502_de⟧⟦{有名|ゆうめい}→有名：01106_yuumei⟧だ。",
       "english": "Nagoya's fried shrimp are famous for being long and large.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Compound of エビ (shrimp) + フライ (fry, from English). A yōshoku (Japanese-Western) staple often served as part of a lunch set, in a bento, or with curry rice.\n\nCOMMON COLLOCATIONS:\n- エビフライ{定食|ていしょく}: fried shrimp set meal\n- エビフライにタルタルソースをかける: to put tartar sauce on fried shrimp\n- {手作|てづく}りのエビフライ: homemade fried shrimp\n\nSIMILAR WORDS:\n- {天|てん}ぷら: tempura — lighter batter, uses different technique; not breaded\n- エビカツ: shrimp cutlet — minced shrimp formed into a patty and breaded\n- フライ: fry (suffix) — generic for breaded deep-fried items, also used in アジフライ (fried horse mackerel), カキフライ (fried oysters)",
+  "notes": "Compound of エビ (shrimp) + ⟦フライ→フライ：11124_furai⟧ (fry, from English). A yōshoku (Japanese-Western) staple often served as part of a lunch set, in a bento, or with curry rice.\n\nCOMMON COLLOCATIONS:\n- エビフライ⟦{定食|ていしょく}→定食：03123_teishoku⟧: fried shrimp set meal\n- エビフライ⟦に→に：00314_ni⟧タルタル⟦ソース→ソース：17673_soosu⟧⟦を→を：00422_wo⟧⟦かける→かける：00854_kakeru⟧: to put tartar sauce on fried shrimp\n- ⟦{手作|てづく}り→手作り：08300_tezukuri⟧⟦の→の：09472_no⟧エビフライ: homemade fried shrimp\n\nSIMILAR WORDS:\n- ⟦{天|てん}ぷら→天ぷら：04948_tenpura⟧: tempura — lighter batter, uses different technique; not breaded\n- エビカツ: shrimp cutlet — minced shrimp formed into a patty and breaded\n- ⟦フライ→フライ：11124_furai⟧: fry (suffix) — generic for breaded deep-fried items, also used in アジフライ (fried horse mackerel), カキフライ (fried oysters)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04948_tenpura",
+      "reading": "てんぷら",
+      "headword": "{天|てん}ぷら",
+      "label": "tempura"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["food"],
+      "politeness": "plain",
+      "semantic": [
+        "food"
+      ],
       "domain": []
     },
     "created": "2026-06-04T03:12:40Z",
-    "modified": "2026-06-04T03:12:40Z"
+    "modified": "2026-09-02T04:02:34Z"
   }
 }

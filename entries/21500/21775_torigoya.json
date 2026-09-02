@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "21775_torigoya_ex1",
-      "japanese": "{庭|にわ}に{鳥小屋|とりごや}を{作|つく}った。",
+      "japanese": "⟦{庭|にわ}→庭：02239_niwa⟧⟦に→に：00314_ni⟧{鳥小屋|とりごや}⟦を→を：00422_wo⟧⟦{作|つく}った→作る：00481_tsukuru⟧。",
       "english": "I built a birdhouse in the garden.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "21775_torigoya_ex2",
-      "japanese": "{鳥小屋|とりごや}の{掃除|そうじ}を{毎日|まいにち}する。",
+      "japanese": "{鳥小屋|とりごや}⟦の→の：09472_no⟧⟦{掃除|そうじ}→掃除：02889_souji⟧⟦を→を：00422_wo⟧⟦{毎日|まいにち}→毎日：00729_mainichi⟧⟦する→する：00392_suru⟧。",
       "english": "I clean the birdcage every day.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "21775_torigoya_ex3",
-      "japanese": "{動物園|どうぶつえん}の{鳥小屋|とりごや}には{色|いろ}とりどりの{鳥|とり}がいた。",
+      "japanese": "⟦{動物園|どうぶつえん}→動物園：01686_doubutsuen⟧⟦の→の：09472_no⟧{鳥小屋|とりごや}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{色|いろ}とりどり→色とりどり：10404_irotoridori⟧⟦の→の：09472_no⟧⟦{鳥|とり}→鳥：00679_tori⟧がいた。",
       "english": "The aviary at the zoo had birds of many colors.",
       "sense_numbers": [
         1
@@ -43,8 +43,24 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {鳥|とり} (bird) + {小屋|こや} (shed, hut, small building). The word covers various sizes of bird enclosures. In rural settings, it often refers specifically to a {鶏小屋|にわとりごや} (chicken coop). The {小屋|こや} component undergoes rendaku, becoming ごや.\n\nCOMMON COLLOCATIONS:\n- {鳥小屋|とりごや}を{作|つく}る: to build a birdhouse\n- {鳥小屋|とりごや}の{掃除|そうじ}: cleaning the birdcage/coop\n- {鳥小屋|とりごや}で{飼|か}う: to keep in a birdcage\n\nRELATED TERMS:\n- {鶏小屋|にわとりごや}: chicken coop (specifically for chickens)\n- {犬小屋|いぬごや}: doghouse\n- {小屋|こや}: hut, shed (base word)\n- {巣箱|すばこ}: nesting box, birdhouse (specifically for nesting)",
+  "notes": "Composed of ⟦{鳥|とり}→鳥：00679_tori⟧ (bird) + ⟦{小屋|こや}→小屋：02768_koya⟧ (shed, hut, small building). The word covers various sizes of bird enclosures. In rural settings, it often refers specifically to a {鶏小屋|にわとりごや} (chicken coop). The ⟦{小屋|こや}→小屋：02768_koya⟧ component undergoes rendaku, becoming ごや.\n\nCOMMON COLLOCATIONS:\n- {鳥小屋|とりごや}⟦を→を：00422_wo⟧⟦{作|つく}る→作る：00481_tsukuru⟧: to build a birdhouse\n- {鳥小屋|とりごや}⟦の→の：09472_no⟧⟦{掃除|そうじ}→掃除：02889_souji⟧: cleaning the birdcage/coop\n- {鳥小屋|とりごや}⟦で→で：00502_de⟧⟦{飼|か}う→飼う：08151_kau⟧: to keep in a birdcage\n\nRELATED WORDS:\n- {鶏小屋|にわとりごや}: chicken coop (specifically for chickens)\n- {犬小屋|いぬごや}: doghouse\n- ⟦{小屋|こや}→小屋：02768_koya⟧: hut, shed (base word)\n- ⟦{巣箱|すばこ}→巣箱：26028_subako⟧: nesting box, birdhouse (specifically for nesting)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "26028_subako",
+      "reading": "すばこ",
+      "headword": "{巣箱|すばこ}",
+      "label": "nesting box, birdhouse"
+    },
+    {
+      "type": "related",
+      "target_id": "19574_torikago",
+      "reading": "とりかご",
+      "headword": "{鳥籠|とりかご}",
+      "label": "birdcage"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +75,6 @@
       ]
     },
     "created": "2026-04-03T16:14:41Z",
-    "modified": "2026-07-29T12:35:11Z"
+    "modified": "2026-09-02T04:02:05Z"
   }
 }

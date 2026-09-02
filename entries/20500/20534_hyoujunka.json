@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "20534_hyoujunka_ex1",
-      "japanese": "{業務|ぎょうむ}の{標準化|ひょうじゅんか}を{進|すす}める。",
+      "japanese": "⟦{業務|ぎょうむ}→業務：09630_gyoumu⟧⟦の→の：09472_no⟧{標準化|ひょうじゅんか}⟦を→を：00422_wo⟧⟦{進|すす}める→進める：01949_susumeru⟧。",
       "english": "We are promoting the standardization of work processes.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "20534_hyoujunka_ex2",
-      "japanese": "{国際的|こくさいてき}な{標準化|ひょうじゅんか}が{必要|ひつよう}だと{言|い}われている。",
+      "japanese": "⟦{国際的|こくさいてき}→国際的：06457_kokusaiteki⟧な{標準化|ひょうじゅんか}⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧だ⟦と→と：00512_to⟧⟦{言|い}われている→言う：00515_iu⟧。",
       "english": "It is said that international standardization is necessary.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "20534_hyoujunka_ex3",
-      "japanese": "{品質管理|ひんしつかんり}のために{製造工程|せいぞうこうてい}を{標準化|ひょうじゅんか}した。",
+      "japanese": "⟦{品質管理|ひんしつかんり}→品質管理：21220_hinshitsukanri⟧⟦の→の：09472_no⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧{製造工程|せいぞうこうてい}⟦を→を：00422_wo⟧{標準化|ひょうじゅんか}⟦した→する：00392_suru⟧。",
       "english": "We standardized the manufacturing process for quality control.",
       "sense_numbers": [
         1
@@ -43,8 +43,59 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {標準|ひょうじゅん} (standard, norm) and {化|か} (transformation suffix, '-ization'). A key concept in manufacturing (ISO standards), IT, and business process management.\n\nCOMMON COLLOCATIONS:\n- {標準化|ひょうじゅんか}を{進|すす}める: to advance standardization\n- {標準化|ひょうじゅんか}{団体|だんたい}: standards organization\n- {国際標準化機構|こくさいひょうじゅんかきこう} (ISO): International Organization for Standardization\n- {標準化|ひょうじゅんか}された{手順|てじゅん}: standardized procedure\n\nSIMILAR WORDS:\n- {規格化|きかくか}: standardization — emphasis on specifications and norms\n- {統一|とういつ}: unification — making things uniform, broader than technical standards\n- {画一化|かくいつか}: making things uniform — often carries a negative nuance of excessive uniformity",
+  "notes": "Composed of ⟦{標準|ひょうじゅん}→標準：04832_hyoujun⟧ (standard, norm) and ⟦{化|か}→〜化：28335_ka⟧ (transformation suffix, '-ization'). A key concept in manufacturing (ISO standards), IT, and business process management.\n\nCOMMON COLLOCATIONS:\n- {標準化|ひょうじゅんか}⟦を→を：00422_wo⟧⟦{進|すす}める→進める：01949_susumeru⟧: to advance standardization\n- {標準化|ひょうじゅんか}⟦{団体|だんたい}→団体：03426_dantai⟧: standards organization\n- {国際標準化機構|こくさいひょうじゅんかきこう} (ISO): International Organization for Standardization\n- {標準化|ひょうじゅんか}⟦された→する：00392_suru⟧⟦{手順|てじゅん}→手順：05452_tejun⟧: standardized procedure\n\nSIMILAR WORDS:\n- ⟦{規格化|きかくか}→規格化：08023_kikakuka⟧: standardization — emphasis on specifications and norms\n- ⟦{統一|とういつ}→統一：04551_touitsu⟧: unification — making things uniform, broader than technical standards\n- ⟦{画一化|かくいつか}→画一化：22353_kakuitsuka⟧: making things uniform — often carries a negative nuance of excessive uniformity",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08023_kikakuka",
+      "reading": "きかくか",
+      "headword": "{規格化|きかくか}",
+      "label": "standardization"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04551_touitsu",
+      "reading": "とういつ",
+      "headword": "{統一|とういつ}",
+      "label": "unification"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22353_kakuitsuka",
+      "reading": "かくいつか",
+      "headword": "{画一化|かくいつか}",
+      "label": "making things uniform"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22833_heijunka",
+      "reading": "へいじゅんか",
+      "headword": "{平準化|へいじゅんか}",
+      "label": "leveling"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23401_kakuitsukasuru",
+      "reading": "かくいつかする",
+      "headword": "{画一化|かくいつか}する",
+      "label": "to standardize"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23592_kinshitsuka",
+      "reading": "きんしつか",
+      "headword": "{均質化|きんしつか}",
+      "label": "homogenization"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23719_heikinka",
+      "reading": "へいきんか",
+      "headword": "{平均化|へいきんか}",
+      "label": "averaging"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,7 +112,7 @@
       "verb_class": "suru"
     },
     "created": "2026-03-29T17:06:48Z",
-    "modified": "2026-03-29T17:06:48Z"
+    "modified": "2026-09-02T04:02:00Z"
   },
   "conjugation": {
     "type": "suru",

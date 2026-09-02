@@ -15,41 +15,51 @@
   "examples": [
     {
       "id": "28331_dai_ex1",
-      "japanese": "{電気|でんき}{代|だい}が{高|たか}い。",
+      "japanese": "⟦{電気|でんき}{代|だい}→電気代：09543_denkidai⟧⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧。",
       "english": "The electricity bill is high.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28331_dai_ex2",
-      "japanese": "{今月|こんげつ}の{暖房|だんぼう}{代|だい}を{払|はら}った。",
+      "japanese": "⟦{今月|こんげつ}→今月：00720_kongetsu⟧⟦の→の：09472_no⟧⟦{暖房|だんぼう}→暖房：01657_danbou⟧{代|だい}⟦を→を：00422_wo⟧⟦{払|はら}った→払う：00535_harau⟧。",
       "english": "I paid this month's heating bill.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28331_dai_ex3",
-      "japanese": "{食事|しょくじ}{代|だい}はこちらで{持|も}たせていただきます。",
+      "japanese": "⟦{食事|しょくじ}→食事：02087_shokuji⟧{代|だい}⟦は→は：00079_ha⟧⟦こちら→こちら：00960_kochira⟧⟦で→で：00502_de⟧⟦{持|も}たせて→持つ：00478_motsu⟧⟦いただきます→いただく：01326_itadaku⟧。",
       "english": "Please let us pay for the meal.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Suffix attached to a noun to form the word for the bill or fee for that thing. Distinct from 〜{料|りょう} (fee, charge) which is more formal and 〜{費|ひ} (expense) which typically refers to a category of expenses.\n\nCOMMON COMPOUNDS:\n- {電気|でんき}{代|だい}: electricity bill\n- {ガス|がす}{代|だい}: gas bill\n- {水道|すいどう}{代|だい}: water bill\n- {飲|の}み{代|だい}: drinking tab; bar bill\n- {タクシー|たくしー}{代|だい}: taxi fare\n- {部屋|へや}{代|だい}: room charge\n\nSIMILAR WORDS:\n- 〜{料|りょう}: fee; charge — more formal; used for fixed institutional fees ({授業|じゅぎょう}{料|りょう} tuition)\n- 〜{費|ひ}: expense — refers to a category of spending ({生活|せいかつ}{費|ひ} living expenses)\n- 〜{賃|ちん}: fare; rent — used for transport fares and rent ({家|や}{賃|ちん} rent)",
+  "notes": "Suffix attached to a noun to form the word for the bill or fee for that thing. Distinct from 〜⟦{料|りょう}→料：28172_ryou⟧ (fee, charge) which is more formal and 〜⟦{費|ひ}→費：09877_hi⟧ (expense) which typically refers to a category of expenses.\n\nCOMPOUNDS:\n- ⟦{電気|でんき}{代|だい}→電気代：09543_denkidai⟧: electricity bill\n- ⟦ガス{代|だい}→ガス代：08943_gasudai⟧: gas bill\n- ⟦{水道|すいどう}{代|だい}→水道代：09544_suidoudai⟧: water bill\n- ⟦{飲|の}み{代|だい}→飲み代：29658_nomidai⟧: drinking tab; bar bill\n- ⟦タクシー→タクシー：00816_takushii⟧{代|だい}: taxi fare\n- ⟦{部屋|へや}→部屋：00507_heya⟧{代|だい}: room charge\n\nSIMILAR WORDS:\n- 〜⟦{料|りょう}→料：28172_ryou⟧: fee; charge — more formal; used for fixed institutional fees (⟦{授業|じゅぎょう}{料|りょう}→授業料：14967_jugyouryou⟧ tuition)\n- 〜⟦{費|ひ}→費：09877_hi⟧: expense — refers to a category of spending (⟦{生活|せいかつ}{費|ひ}→生活費：19424_seikatsuhi⟧ living expenses)\n- 〜⟦{賃|ちん}→〜賃：28343_chin⟧: fare; rent — used for transport fares and rent (⟦{家|や}{賃|ちん}→家賃：03639_yachin⟧ rent)",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["suffix"],
+      "pos": [
+        "suffix"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["money"],
+      "politeness": "plain",
+      "semantic": [
+        "money"
+      ],
       "domain": []
     },
     "created": "2026-05-29T03:08:25Z",
-    "modified": "2026-05-29T03:08:25Z"
+    "modified": "2026-09-02T04:02:33Z"
   }
 }

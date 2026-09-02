@@ -3,7 +3,7 @@
   "headword": "{着金|ちゃっきん}する",
   "reading": "ちゃっきんする",
   "romaji": "chakkinsuru",
-  "part_of_speech": "verb",
+  "part_of_speech": "suru verb",
   "gloss": "to receive payment; for money to arrive",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "20996_chakkinsuru_ex1",
-      "japanese": "{給料|きゅうりょう}が{着金|ちゃっきん}した。",
+      "japanese": "⟦{給料|きゅうりょう}→給料：01086_kyuuryou⟧⟦が→が：00051_ga⟧{着金|ちゃっきん}した。",
       "english": "My salary was deposited.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "20996_chakkinsuru_ex2",
-      "japanese": "{振込|ふりこみ}は{翌営業日|よくえいぎょうび}に{着金|ちゃっきん}する{予定|よてい}です。",
+      "japanese": "⟦{振込|ふりこみ}→振込：05421_furikomi⟧⟦は→は：00079_ha⟧{翌営業日|よくえいぎょうび}⟦に→に：00314_ni⟧{着金|ちゃっきん}する⟦{予定|よてい}→予定：00824_yotei⟧です。",
       "english": "The transfer is scheduled to arrive on the next business day.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "20996_chakkinsuru_ex3",
-      "japanese": "まだ{着金|ちゃっきん}が{確認|かくにん}できていないので、{銀行|ぎんこう}に{問|と}い{合|あ}わせてみます。",
+      "japanese": "⟦まだ→まだ：00603_mada⟧⟦{着金|ちゃっきん}→着金：26153_chakkin⟧⟦が→が：00051_ga⟧⟦{確認|かくにん}→確認：00158_kakunin⟧⟦できていない→できる：00557_dekiru⟧⟦の→の：09472_no⟧で、⟦{銀行|ぎんこう}→銀行：00578_ginkou⟧⟦に→に：00314_ni⟧⟦{問|と}い{合|あ}わせて→問い合わせる：17737_toiawaseru⟧みます。",
       "english": "I haven't been able to confirm receipt of the funds yet, so I'll check with the bank.",
       "sense_numbers": [
         1
@@ -44,9 +44,32 @@
       "notes": null
     }
   ],
-  "notes": "A する verb composed of {着|ちゃく} (arrive) + {金|きん} (money). Used in business and banking contexts for money arriving at its destination.\n\nCOMMON COLLOCATIONS:\n- {着金|ちゃっきん}を{確認|かくにん}する: to confirm receipt of funds\n- {着金|ちゃっきん}{予定日|よていび}: expected date of fund arrival\n- {着金|ちゃっきん}{通知|つうち}: payment arrival notification\n- {着金|ちゃっきん}が{遅|おく}れる: for the payment to be delayed\n\nSIMILAR WORDS:\n- {入金|にゅうきん}する: to deposit/receive money — more general; can also mean to pay money in\n- {振|ふ}り{込|こ}む: to transfer money — describes the sender's action, not the arrival\n- {送金|そうきん}する: to remit money — the act of sending money",
+  "notes": "A ⟦する→する：00392_suru⟧ verb composed of ⟦{着|ちゃく}→着：27655_chaku⟧ (arrive) + {金|きん} (money). Used in business and banking contexts for money arriving at its destination.\n\nCOMMON COLLOCATIONS:\n- ⟦{着金|ちゃっきん}→着金：26153_chakkin⟧⟦を→を：00422_wo⟧⟦{確認|かくにん}する→確認する：25332_kakuninsuru⟧: to confirm receipt of funds\n- ⟦{着金|ちゃっきん}→着金：26153_chakkin⟧{予定日|よていび}: expected date of fund arrival\n- ⟦{着金|ちゃっきん}→着金：26153_chakkin⟧⟦{通知|つうち}→通知：04061_tsuuchi⟧: payment arrival notification\n- ⟦{着金|ちゃっきん}→着金：26153_chakkin⟧⟦が→が：00051_ga⟧⟦{遅|おく}れる→遅れる：00741_okureru⟧: for the payment to be delayed\n\nSIMILAR WORDS:\n- ⟦{入金|にゅうきん}→入金：05467_nyuukin⟧⟦する→する：00392_suru⟧: to deposit/receive money — more general; can also mean to pay money in\n- ⟦{振|ふ}り{込|こ}む→振り込む：10992_furikomu⟧: to transfer money — describes the sender's action, not the arrival\n- ⟦{送金|そうきん}→送金：09774_soukin⟧⟦する→する：00392_suru⟧: to remit money — the act of sending money",
   "conjugation_type": "suru",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05467_nyuukin",
+      "reading": "にゅうきん",
+      "headword": "{入金|にゅうきん}",
+      "label": "to deposit/receive money"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10992_furikomu",
+      "reading": "ふりこむ",
+      "headword": "{振|ふ}り{込|こ}む",
+      "label": "to transfer money"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09774_soukin",
+      "reading": "そうきん",
+      "headword": "{送金|そうきん}",
+      "label": "to remit money"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -58,10 +81,11 @@
       "semantic": [
         "finance"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     },
     "created": "2026-03-31T09:52:02Z",
-    "modified": "2026-03-31T09:52:02Z"
+    "modified": "2026-09-02T04:02:01Z"
   },
   "conjugation": {
     "type": "suru",

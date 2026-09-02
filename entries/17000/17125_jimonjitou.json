@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "17125_jimonjitou_ex1",
-      "japanese": "{自問自答|じもんじとう}を{繰|く}り{返|かえ}した。",
+      "japanese": "{自問自答|じもんじとう}⟦を→を：00422_wo⟧⟦{繰|く}り{返|かえ}した→繰り返す：02051_kurikaesu⟧。",
       "english": "I questioned myself over and over.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "17125_jimonjitou_ex2",
-      "japanese": "「これでよかったのか」と{自問自答|じもんじとう}している。",
+      "japanese": "「⟦これ→これ：00963_kore⟧⟦で→で：00502_de⟧⟦よかった→いい：00118_ii⟧⟦の→の：09472_no⟧⟦か→か：09473_ka⟧」⟦と→と：00512_to⟧{自問自答|じもんじとう}⟦している→する：00392_suru⟧。",
       "english": "I keep asking myself, 'Was this the right choice?'",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "17125_jimonjitou_ex3",
-      "japanese": "{退職|たいしょく}するべきかどうか、{何日|なんにち}も{自問自答|じもんじとう}した{末|すえ}に、{最終的|さいしゅうてき}に{辞|や}める{決断|けつだん}をした。",
+      "japanese": "⟦{退職|たいしょく}→退職：04559_taishoku⟧⟦する→する：00392_suru⟧べき⟦かどうか→かどうか：28299_kadouka⟧、⟦{何日|なんにち}→何日：23870_nannichi⟧⟦も→も：00484_mo⟧{自問自答|じもんじとう}⟦した→する：00392_suru⟧⟦{末|すえ}→末：03362_sue⟧⟦に→に：00314_ni⟧、⟦{最終的|さいしゅうてき}→最終的：13013_saishuuteki⟧⟦に→に：00314_ni⟧{辞|や}める⟦{決断|けつだん}→決断：13250_ketsudan⟧⟦を→を：00422_wo⟧⟦した→する：00392_suru⟧。",
       "english": "After days of questioning myself about whether I should resign, I finally made the decision to quit.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA four-character compound ({四字熟語|よじじゅくご}): {自|じ} (self) + {問|もん} (question) + {自|じ} (self) + {答|とう} (answer). Used as a verbal noun with する: {自問自答|じもんじとう}する. Conveys introspection or wrestling with a difficult decision.\n\nCOMMON COLLOCATIONS:\n- {自問自答|じもんじとう}する (to question oneself)\n- {自問自答|じもんじとう}を{繰|く}り{返|かえ}す (to repeatedly question oneself)\n- {自問自答|じもんじとう}の{末|すえ} (after much self-questioning)\n\nSIMILAR WORDS:\n- {自問|じもん}: self-questioning — just the questioning part, without the answering\n- {内省|ないせい}: introspection, self-reflection — broader term for looking inward\n- {葛藤|かっとう}: inner conflict — focuses on the struggle rather than the questioning",
+  "notes": "USAGE:\nA four-character compound (⟦{四字熟語|よじじゅくご}→四字熟語：15663_yojijukugo⟧): {自|じ} (self) + ⟦{問|もん}→〜問：04016_mon⟧ (question) + {自|じ} (self) + {答|とう} (answer). Used as a verbal noun with ⟦する→する：00392_suru⟧: {自問自答|じもんじとう}⟦する→する：00392_suru⟧. Conveys introspection or wrestling with a difficult decision.\n\nCOMMON COLLOCATIONS:\n- {自問自答|じもんじとう}⟦する→する：00392_suru⟧ (to question oneself)\n- {自問自答|じもんじとう}⟦を→を：00422_wo⟧⟦{繰|く}り{返|かえ}す→繰り返す：02051_kurikaesu⟧ (to repeatedly question oneself)\n- {自問自答|じもんじとう}⟦の→の：09472_no⟧⟦{末|すえ}→末：03362_sue⟧ (after much self-questioning)\n\nSIMILAR WORDS:\n- {自問|じもん}: self-questioning — just the questioning part, without the answering\n- {内省|ないせい}: introspection, self-reflection — broader term for looking inward\n- ⟦{葛藤|かっとう}→葛藤：05407_kattou⟧: inner conflict — focuses on the struggle rather than the questioning",
   "cross_references": [
     {
       "type": "related",
@@ -142,11 +142,18 @@
       "reading": "かっとう",
       "headword": "{葛藤|かっとう}",
       "label": "inner conflict"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25117_kabeuchi",
+      "reading": "かべうち",
+      "headword": "{壁打|かべう}ち",
+      "label": "hitting against a wall"
     }
   ],
   "metadata": {
     "created": "2026-03-16T00:49:29Z",
-    "modified": "2026-05-05T10:11:30Z",
+    "modified": "2026-09-02T04:01:47Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -160,7 +167,8 @@
         "cognition"
       ],
       "yojijukugo": true,
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

@@ -15,38 +15,58 @@
   "examples": [
     {
       "id": "24519_toroukan_ex1",
-      "japanese": "{何|なに}をしても{徒労感|とろうかん}しか{残|のこ}らない。",
+      "japanese": "⟦{何|なに}→何：00498_nani⟧⟦を→を：00422_wo⟧⟦して→する：00392_suru⟧⟦も→も：00484_mo⟧{徒労感|とろうかん}しか⟦{残|のこ}らない→残る：01187_nokoru⟧。",
       "english": "No matter what I do, all that remains is a feeling of futility.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "24519_toroukan_ex2",
-      "japanese": "{長時間|ちょうじかん}{働|はたら}いたのに{成果|せいか}が{出|で}ず、{強|つよ}い{徒労感|とろうかん}に{襲|おそ}われた。",
+      "japanese": "⟦{長時間|ちょうじかん}→長時間：10165_choujikan⟧⟦{働|はたら}いた→働く：00503_hataraku⟧⟦の→の：09472_no⟧⟦に→に：00314_ni⟧⟦{成果|せいか}→成果：06745_seika⟧⟦が→が：00051_ga⟧⟦{出|で}→出る：00513_deru⟧ず、⟦{強|つよ}い→強い：00820_tsuyoi⟧{徒労感|とろうかん}⟦に→に：00314_ni⟧⟦{襲|おそ}われた→襲う：01915_osou⟧。",
       "english": "I worked long hours but got no results, and was struck by a strong sense of futility.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "24519_toroukan_ex3",
-      "japanese": "{何度|なんど}{説明|せつめい}しても{相手|あいて}に{伝|つた}わらず、{徒労感|とろうかん}を{覚|おぼ}えた。",
+      "japanese": "⟦{何度|なんど}→何度：17592_nando⟧⟦{説明|せつめい}して→説明する：05639_setsumeisuru⟧⟦も→も：00484_mo⟧⟦{相手|あいて}→相手：01677_aite⟧⟦に→に：00314_ni⟧⟦{伝|つた}わら→伝わる：01961_tsutawaru⟧ず、{徒労感|とろうかん}⟦を→を：00422_wo⟧⟦{覚|おぼ}えた→覚える：00739_oboeru⟧。",
       "english": "No matter how many times I explained, the other person didn't understand, and I felt a sense of wasted effort.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {徒労|とろう} (futile effort, wasted labor) and {感|かん} (feeling, sense). Expresses the emotional weight of having put in effort that came to nothing — heavier and more literary than simply saying {無駄|むだ}だった (it was pointless).\n\nCOMMON COLLOCATIONS:\n- {徒労感|とろうかん}を{覚|おぼ}える: to feel a sense of futility\n- {徒労感|とろうかん}に{襲|おそ}われる: to be struck by a sense of futility\n- {徒労感|とろうかん}が{残|のこ}る: a feeling of futility remains\n- {深|ふか}い{徒労感|とろうかん}: deep sense of futility\n\nSIMILAR WORDS:\n- {虚|むな}しさ: emptiness; a broader feeling of meaninglessness\n- {徒労|とろう}: wasted effort (the objective fact, without the emotional component)\n- {脱力感|だつりょくかん}: feeling of exhaustion/lethargy — physical rather than emotional",
+  "notes": "A compound of ⟦{徒労|とろう}→徒労：15513_torou⟧ (futile effort, wasted labor) and ⟦{感|かん}→〜感：28578_kan⟧ (feeling, sense). Expresses the emotional weight of having put in effort that came to nothing — heavier and more literary than simply saying ⟦{無駄|むだ}→無駄：02512_muda⟧だった (it was pointless).\n\nCOMMON COLLOCATIONS:\n- {徒労感|とろうかん}⟦を→を：00422_wo⟧⟦{覚|おぼ}える→覚える：00739_oboeru⟧: to feel a sense of futility\n- {徒労感|とろうかん}⟦に→に：00314_ni⟧⟦{襲|おそ}われる→襲う：01915_osou⟧: to be struck by a sense of futility\n- {徒労感|とろうかん}⟦が→が：00051_ga⟧⟦{残|のこ}る→残る：01187_nokoru⟧: a feeling of futility remains\n- ⟦{深|ふか}い→深い：01211_fukai⟧{徒労感|とろうかん}: deep sense of futility\n\nSIMILAR WORDS:\n- {虚|むな}しさ: emptiness; a broader feeling of meaninglessness\n- ⟦{徒労|とろう}→徒労：15513_torou⟧: wasted effort (the objective fact, without the emotional component)\n- ⟦{脱力感|だつりょくかん}→脱力感：16094_datsuryokukan⟧: feeling of exhaustion/lethargy — physical rather than emotional",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16094_datsuryokukan",
+      "reading": "だつりょくかん",
+      "headword": "{脱力感|だつりょくかん}",
+      "label": "feeling of exhaustion/lethargy"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["emotion"]
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "emotion"
+      ]
     },
     "created": "2026-04-19T13:07:49Z",
-    "modified": "2026-04-19T13:07:49Z"
+    "modified": "2026-09-02T04:02:18Z"
   }
 }

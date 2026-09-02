@@ -15,41 +15,74 @@
   "examples": [
     {
       "id": "27906_tsunezune_ex1",
-      "japanese": "{常々|つねづね}そう{思|おも}っていた。",
+      "japanese": "{常々|つねづね}そう⟦{思|おも}っていた→思う：00492_omou⟧。",
       "english": "I had always thought so.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27906_tsunezune_ex2",
-      "japanese": "{常々|つねづね}お{世話|せわ}になっております。",
+      "japanese": "{常々|つねづね}⟦お{世話|せわ}になっております→お世話になっております：23569_osewaninatteorimasu⟧。",
       "english": "You are always so good to me. (set business greeting)",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27906_tsunezune_ex3",
-      "japanese": "{健康|けんこう}が{一番|いちばん}{大切|たいせつ}だと{常々|つねづね}{感|かん}じている。",
+      "japanese": "⟦{健康|けんこう}→健康：02706_kenkou⟧⟦が→が：00051_ga⟧⟦{一番|いちばん}→一番：01140_ichiban⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧だ⟦と→と：00512_to⟧{常々|つねづね}⟦{感|かん}じている→感じる：02044_kanjiru⟧。",
       "english": "I've always felt that health is the most important thing.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A reduplication of {常|つね} (always). Often introduces a long-held thought or opinion, pairing naturally with {思|おも}う / {感|かん}じる.\n\nPOSITION: Appears before the verb it modifies, frequently at the start of a clause.\n\nREGISTER: Slightly formal and written in feel; in casual speech いつも (always) is more common.\n\nSIMILAR WORDS:\n- いつも: always — neutral and far more common in everyday speech.\n- {普段|ふだん}: usually, ordinarily — describes one's normal state rather than a continuing thought.",
+  "notes": "A reduplication of ⟦{常|つね}→常：28958_tsune⟧ (always). Often introduces a long-held thought or opinion, pairing naturally with ⟦{思|おも}う→思う：00492_omou⟧ / ⟦{感|かん}じる→感じる：02044_kanjiru⟧.\n\nPOSITION: Appears before the verb it modifies, frequently at the start of a clause.\n\nREGISTER: Slightly formal and written in feel; in casual speech ⟦いつも→いつも：00599_itsumo⟧ (always) is more common.\n\nSIMILAR WORDS:\n- ⟦いつも→いつも：00599_itsumo⟧: always — neutral and far more common in everyday speech.\n- ⟦{普段|ふだん}→普段：00041_fudan⟧: usually, ordinarily — describes one's normal state rather than a continuing thought.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00599_itsumo",
+      "reading": "いつも",
+      "headword": "いつも",
+      "label": "always"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00041_fudan",
+      "reading": "ふだん",
+      "headword": "{普段|ふだん}",
+      "label": "usually, ordinarily"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01619_tsuneni",
+      "reading": "つねに",
+      "headword": "{常|つね}に",
+      "label": "always, constantly"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adverb"],
+      "pos": [
+        "adverb"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["descriptive"],
+      "semantic": [
+        "descriptive"
+      ],
       "domain": []
     },
     "created": "2026-05-22T03:04:31Z",
-    "modified": "2026-05-22T03:04:31Z"
+    "modified": "2026-09-02T04:02:32Z"
   }
 }

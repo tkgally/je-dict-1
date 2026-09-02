@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "07482_gijiroku_ex1",
-      "japanese": "{会議|かいぎ}の{議事録|ぎじろく}を{作成|さくせい}する。",
+      "japanese": "⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦の→の：09472_no⟧{議事録|ぎじろく}⟦を→を：00422_wo⟧⟦{作成|さくせい}する→作成する：25378_sakuseisuru⟧。",
       "english": "Create the meeting minutes.",
       "has_audio": false,
       "sense_numbers": [
@@ -23,7 +23,7 @@
     },
     {
       "id": "07482_gijiroku_ex2",
-      "japanese": "{議事録|ぎじろく}を{参加者|さんかしゃ}{全員|ぜんいん}に{送|おく}る。",
+      "japanese": "{議事録|ぎじろく}⟦を→を：00422_wo⟧⟦{参加者|さんかしゃ}→参加者：03059_sankasha⟧⟦{全員|ぜんいん}→全員：03310_zenin⟧⟦に→に：00314_ni⟧⟦{送|おく}る→送る：00742_okuru⟧。",
       "english": "Send the minutes to all the participants.",
       "has_audio": false,
       "sense_numbers": [
@@ -32,7 +32,7 @@
     },
     {
       "id": "07482_gijiroku_ex3",
-      "japanese": "{前回|ぜんかい}の{議事録|ぎじろく}を{確認|かくにん}しましょう。",
+      "japanese": "⟦{前回|ぜんかい}→前回：11817_zenkai⟧⟦の→の：09472_no⟧{議事録|ぎじろく}⟦を→を：00422_wo⟧⟦{確認|かくにん}しましょう→確認する：25332_kakuninsuru⟧。",
       "english": "Let's review the minutes from the last meeting.",
       "has_audio": false,
       "sense_numbers": [
@@ -40,10 +40,26 @@
       ]
     }
   ],
-  "notes": "WORD STRUCTURE:\n{議事|ぎじ} (proceedings, agenda) + {録|ろく} (record)\n\nTYPICAL CONTENTS:\n・{日時|にちじ} - date and time\n・{場所|ばしょ} - location\n・{出席者|しゅっせきしゃ} - attendees\n・{議題|ぎだい} - agenda items\n・{決定事項|けっていじこう} - decisions made\n・{次回|じかい}アクション - next actions\n\nCOMMON COLLOCATIONS:\n・{議事録|ぎじろく}を{作成|さくせい}する - to create minutes\n・{議事録|ぎじろく}を{取|と}る - to take minutes\n・{議事録|ぎじろく}を{配布|はいふ}する - to distribute minutes\n・{議事録|ぎじろく}を{承認|しょうにん}する - to approve minutes\n\nROLE IN MEETINGS:\nThe person who takes minutes is called {議事録係|ぎじろくがかり} or {書記|しょき}.\n\nFORMAL VS INFORMAL:\n・{議事録|ぎじろく} - formal minutes (official meetings)\n・メモ/ノート - informal notes",
+  "notes": "ETYMOLOGY:\n{議事|ぎじ} (proceedings, agenda) + {録|ろく} (record)\n\nTYPICAL CONTENTS:\n- ⟦{日時|にちじ}→日時：00316_nichiji⟧ - date and time\n- ⟦{場所|ばしょ}→場所：00829_basho⟧ - location\n- ⟦{出席者|しゅっせきしゃ}→出席者：20975_shussekisha⟧ - attendees\n- ⟦{議題|ぎだい}→議題：11330_gidai⟧ - agenda items\n- ⟦{決定事項|けっていじこう}→決定事項：18093_ketteijikou⟧ - decisions made\n- ⟦{次回|じかい}→次回：13170_jikai⟧⟦アクション→アクション：10749_akushon⟧ - next actions\n\nCOMMON COLLOCATIONS:\n- {議事録|ぎじろく}⟦を→を：00422_wo⟧⟦{作成|さくせい}する→作成する：25378_sakuseisuru⟧ - to create minutes\n- {議事録|ぎじろく}⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧ - to take minutes\n- {議事録|ぎじろく}⟦を→を：00422_wo⟧⟦{配布|はいふ}→配布：14410_haifu⟧⟦する→する：00392_suru⟧ - to distribute minutes\n- {議事録|ぎじろく}⟦を→を：00422_wo⟧⟦{承認|しょうにん}する→承認する：20064_shouninsuru⟧ - to approve minutes\n\nROLE IN MEETINGS:\nThe person who takes minutes is called {議事録係|ぎじろくがかり} or ⟦{書記|しょき}→書記：13055_shoki⟧.\n\nFORMAL VS INFORMAL:\n- {議事録|ぎじろく} - formal minutes (official meetings)\n- ⟦メモ→メモ：00274_memo⟧/⟦ノート→ノート：00738_nooto⟧ - informal notes",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "00710_kaigi",
+      "reading": "かいぎ",
+      "headword": "{会議|かいぎ}",
+      "label": "meeting, conference"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29450_kougiroku",
+      "reading": "こうぎろく",
+      "headword": "講義録",
+      "label": "lecture notes"
+    }
+  ],
   "metadata": {
     "created": "2026-01-20T05:43:45Z",
-    "modified": "2026-08-10T18:29:45Z",
+    "modified": "2026-09-02T04:01:11Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -51,6 +67,7 @@
         "noun"
       ],
       "formality": "formal",
+      "politeness": "plain",
       "semantic": [
         "business",
         "communication"

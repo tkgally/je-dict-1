@@ -15,41 +15,83 @@
   "examples": [
     {
       "id": "24378_denka_ex1",
-      "japanese": "{電子|でんし}は{負|ふ}の{電荷|でんか}を{持|も}つ。",
+      "japanese": "⟦{電子|でんし}→電子：03449_denshi⟧⟦は→は：00079_ha⟧⟦{負|ふ}→負：09512_fu⟧⟦の→の：09472_no⟧{電荷|でんか}⟦を→を：00422_wo⟧⟦{持|も}つ→持つ：00478_motsu⟧。",
       "english": "Electrons carry a negative charge.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "24378_denka_ex2",
-      "japanese": "{同|おな}じ{電荷|でんか}どうしは{反発|はんぱつ}する。",
+      "japanese": "⟦{同|おな}じ→同じ：02857_onaji⟧{電荷|でんか}どうし⟦は→は：00079_ha⟧⟦{反発|はんぱつ}する→反発する：26991_hanpatsusuru⟧。",
       "english": "Like charges repel each other.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "24378_denka_ex3",
-      "japanese": "{静電気|せいでんき}は{物体|ぶったい}の{表面|ひょうめん}に{電荷|でんか}がたまることで{発生|はっせい}する。",
+      "japanese": "⟦{静電気|せいでんき}→静電気：18522_seidenki⟧⟦は→は：00079_ha⟧⟦{物体|ぶったい}→物体：13506_buttai⟧⟦の→の：09472_no⟧⟦{表面|ひょうめん}→表面：03587_hyoumen⟧⟦に→に：00314_ni⟧{電荷|でんか}⟦が→が：00051_ga⟧たまること⟦で→で：00502_de⟧⟦{発生|はっせい}する→発生する：25529_hasseisuru⟧。",
       "english": "Static electricity occurs when electric charge accumulates on the surface of an object.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Compound of {電|でん} ('electricity') and {荷|か} ('load; cargo; charge'). The fundamental physics term for the quantity of electricity carried by a particle or body. Encountered in high school physics education and technical contexts.\n\nUSAGE:\n- A core concept in physics: {正|せい}の{電荷|でんか} ('positive charge') and {負|ふ}の{電荷|でんか} ('negative charge').\n- The SI unit of electric charge is the coulomb ({クーロン|くーろん}).\n- Also used in chemistry when discussing ions: an ion is an atom that has gained or lost {電荷|でんか}.\n\nCOMMON COLLOCATIONS:\n- {正|せい}の{電荷|でんか}: positive charge\n- {負|ふ}の{電荷|でんか}: negative charge\n- {電荷|でんか}を{帯|お}びる: to carry a charge; to become charged\n- {電荷|でんか}の{保存|ほぞん}: conservation of charge\n\nSIMILAR WORDS:\n- {電流|でんりゅう}: electric current — the flow of electric charge through a conductor\n- {電圧|でんあつ}: voltage — the difference in electric potential that drives current\n- {静電気|せいでんき}: static electricity — stationary electric charge on a surface\n- {帯電|たいでん}: electrification; becoming charged — the process of acquiring an electric charge",
+  "notes": "Compound of {電|でん} ('electricity') and {荷|か} ('load; cargo; charge'). The fundamental physics term for the quantity of electricity carried by a particle or body. Encountered in high school physics education and technical contexts.\n\nUSAGE:\n- A core concept in physics: ⟦{正|せい}→正：09511_sei⟧⟦の→の：09472_no⟧{電荷|でんか} ('positive charge') and ⟦{負|ふ}→負：09512_fu⟧⟦の→の：09472_no⟧{電荷|でんか} ('negative charge').\n- The SI unit of electric charge is the coulomb (クーロン).\n- Also used in chemistry when discussing ions: an ion is an atom that has gained or lost {電荷|でんか}.\n\nCOMMON COLLOCATIONS:\n- ⟦{正|せい}→正：09511_sei⟧⟦の→の：09472_no⟧{電荷|でんか}: positive charge\n- ⟦{負|ふ}→負：09512_fu⟧⟦の→の：09472_no⟧{電荷|でんか}: negative charge\n- {電荷|でんか}⟦を→を：00422_wo⟧⟦{帯|お}びる→帯びる：12428_obiru⟧: to carry a charge; to become charged\n- {電荷|でんか}⟦の→の：09472_no⟧⟦{保存|ほぞん}→保存：03626_hozon⟧: conservation of charge\n\nSIMILAR WORDS:\n- ⟦{電流|でんりゅう}→電流：21016_denryuu⟧: electric current — the flow of electric charge through a conductor\n- ⟦{電圧|でんあつ}→電圧：19996_denatsu⟧: voltage — the difference in electric potential that drives current\n- ⟦{静電気|せいでんき}→静電気：18522_seidenki⟧: static electricity — stationary electric charge on a surface\n- ⟦{帯電|たいでん}→帯電：21702_taiden⟧: electrification; becoming charged — the process of acquiring an electric charge",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21016_denryuu",
+      "reading": "でんりゅう",
+      "headword": "{電流|でんりゅう}",
+      "label": "electric current"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19996_denatsu",
+      "reading": "でんあつ",
+      "headword": "{電圧|でんあつ}",
+      "label": "voltage"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18522_seidenki",
+      "reading": "せいでんき",
+      "headword": "{静電気|せいでんき}",
+      "label": "static electricity"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21702_taiden",
+      "reading": "たいでん",
+      "headword": "{帯電|たいでん}",
+      "label": "electrification"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "style": ["written"],
-      "semantic": ["science"]
+      "style": [
+        "written"
+      ],
+      "semantic": [
+        "science"
+      ]
     },
     "created": "2026-04-18T15:28:01Z",
-    "modified": "2026-04-18T15:28:01Z"
+    "modified": "2026-09-02T04:02:18Z"
   }
 }

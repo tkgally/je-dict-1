@@ -3,7 +3,7 @@
   "headword": "{繰|く}る",
   "reading": "くる",
   "romaji": "kuru",
-  "part_of_speech": "verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to reel in; to turn (pages); to count off one by one",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30725_kuru_ex1",
-      "japanese": "ページを{繰|く}る。",
+      "japanese": "⟦ページ→ページ：02961_peeji⟧⟦を→を：00422_wo⟧{繰|く}る。",
       "english": "To turn the pages.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30725_kuru_ex2",
-      "japanese": "{糸|いと}をゆっくり{繰|く}っている。",
+      "japanese": "⟦{糸|いと}→糸：01315_ito⟧⟦を→を：00422_wo⟧⟦ゆっくり→ゆっくり：00910_yukkuri⟧{繰|く}って⟦いる→いる：00495_iru⟧。",
       "english": "She is slowly reeling in the thread.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30725_kuru_ex3",
-      "japanese": "{辞書|じしょ}を{繰|く}って{意味|いみ}を{調|しら}べた。",
+      "japanese": "⟦{辞書|じしょ}→辞書：04707_jisho⟧⟦を→を：00422_wo⟧{繰|く}って⟦{意味|いみ}→意味：01155_imi⟧⟦を→を：00422_wo⟧⟦{調|しら}べた→調べる：01213_shiraberu⟧。",
       "english": "I leafed through the dictionary and looked up the meaning.",
       "sense_numbers": [
         1
@@ -45,7 +45,7 @@
     },
     {
       "id": "30725_kuru_ex4",
-      "japanese": "{祖母|そぼ}はカレンダーを{繰|く}りながら、{孫|まご}が{来|く}る{日|ひ}を{指折|ゆびお}り{数|かぞ}えていた。",
+      "japanese": "⟦{祖母|そぼ}→祖母：00813_sobo⟧⟦は→は：00079_ha⟧⟦カレンダー→カレンダー：02897_karendaa⟧⟦を→を：00422_wo⟧{繰|く}り⟦ながら→ながら：10530_nagara⟧、⟦{孫|まご}→孫：03731_mago⟧⟦が→が：00051_ga⟧⟦{来|く}る→来る：00254_kuru⟧⟦{日|ひ}→日：02249_hi⟧⟦を→を：00422_wo⟧⟦{指折|ゆびお}り→指折り：18050_yubiori⟧⟦{数|かぞ}えていた→数える：01926_kazoeru⟧。",
       "english": "My grandmother turned the calendar pages and counted on her fingers the days until her grandchild would come.",
       "sense_numbers": [
         1
@@ -54,8 +54,17 @@
       "notes": null
     }
   ],
-  "notes": "A somewhat literary godan verb. Note that it is a homophone of {来|く}る (to come) in the dictionary form only — the conjugations differ completely ({繰|く}らない vs {来|こ}ない).\n\nTRANSITIVITY:\nTransitive; the thing handled takes を: ページを{繰|く}る, {糸|いと}を{繰|く}る.\n\nCOMMON COLLOCATIONS:\n- ページを{繰|く}る: to turn the pages\n- {辞書|じしょ}を{繰|く}る: to leaf through a dictionary\n- {糸|いと}を{繰|く}る: to reel thread\n- {日|ひ}を{繰|く}る: to count off the days\n\nSIMILAR WORDS:\n- めくる: to turn over, to flip — the everyday word for turning pages; {繰|く}る sounds more bookish\n- {手繰|たぐ}る: to pull in hand over hand — keeps only the rope-pulling sense, and is used figuratively of tracing memories",
+  "notes": "A somewhat literary godan verb. Note that it is a homophone of ⟦{来|く}る→来る：00254_kuru⟧ (to come) in the dictionary form only — the conjugations differ completely ({繰|く}らない vs ⟦{来|こ}ない→来る：00254_kuru⟧).\n\nTRANSITIVITY:\nTransitive; the thing handled takes ⟦を→を：00422_wo⟧: ⟦ページ→ページ：02961_peeji⟧⟦を→を：00422_wo⟧{繰|く}る, ⟦{糸|いと}→糸：01315_ito⟧⟦を→を：00422_wo⟧{繰|く}る.\n\nCOMMON COLLOCATIONS:\n- ⟦ページ→ページ：02961_peeji⟧⟦を→を：00422_wo⟧{繰|く}る: to turn the pages\n- ⟦{辞書|じしょ}→辞書：04707_jisho⟧⟦を→を：00422_wo⟧{繰|く}る: to leaf through a dictionary\n- ⟦{糸|いと}→糸：01315_ito⟧⟦を→を：00422_wo⟧{繰|く}る: to reel thread\n- ⟦{日|ひ}→日：02249_hi⟧⟦を→を：00422_wo⟧{繰|く}る: to count off the days\n\nSIMILAR WORDS:\n- めくる: to turn over, to flip — the everyday word for turning pages; {繰|く}る sounds more bookish\n- ⟦{手繰|たぐ}る→手繰る：30734_taguru⟧: to pull in hand over hand — keeps only the rope-pulling sense, and is used figuratively of tracing memories",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02310_mekuru",
+      "reading": "めくる",
+      "headword": "{捲|めく}る",
+      "label": "to turn over, to flip"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -64,7 +73,7 @@
       ],
       "transitivity": "transitive",
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "movement",
         "action"
@@ -73,7 +82,7 @@
       "verb_class": "godan-ru"
     },
     "created": "2026-08-22T12:17:21Z",
-    "modified": "2026-08-22T12:17:21Z"
+    "modified": "2026-09-02T04:02:41Z"
   },
   "conjugation": {
     "type": "godan",

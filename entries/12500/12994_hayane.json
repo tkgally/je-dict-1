@@ -3,7 +3,7 @@
   "id": "12994_hayane",
   "headword": "{早寝|はやね}",
   "reading": "はやね",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "going to bed early, early bedtime",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "12994_hayane_ex1",
-      "japanese": "{今日|きょう}は{早寝|はやね}しよう。",
+      "japanese": "⟦{今日|きょう}→今日：00496_kyou⟧⟦は→は：00079_ha⟧{早寝|はやね}⟦しよう→する：00392_suru⟧。",
       "english": "Let's go to bed early today.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "12994_hayane_ex2",
-      "japanese": "{早寝|はやね}{早起|はやお}きは{健康|けんこう}にいい。",
+      "japanese": "{早寝|はやね}⟦{早起|はやお}き→早起き：02477_hayaoki⟧⟦は→は：00079_ha⟧⟦{健康|けんこう}→健康：02706_kenkou⟧⟦に→に：00314_ni⟧⟦いい→いい：00118_ii⟧。",
       "english": "Going to bed early and rising early is good for your health.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "12994_hayane_ex3",
-      "japanese": "{子|こ}どもの{頃|ころ}は{早寝|はやね}の{習慣|しゅうかん}があったが、{大人|おとな}になってからは{夜更|よふ}かしが{増|ふ}えた。",
+      "japanese": "{子|こ}ども⟦の→の：09472_no⟧{頃|ころ}⟦は→は：00079_ha⟧{早寝|はやね}⟦の→の：09472_no⟧⟦{習慣|しゅうかん}→習慣：01429_shuukan⟧⟦が→が：00051_ga⟧⟦あった→ある：00006_aru⟧⟦が→が：00051_ga⟧、⟦{大人|おとな}→大人：02856_otona⟧になって⟦から→から：00504_kara⟧⟦は→は：00079_ha⟧⟦{夜更|よふ}かし→夜更かし：07693_yofukashi⟧⟦が→が：00051_ga⟧⟦{増|ふ}えた→増える：01183_fueru⟧。",
       "english": "I had a habit of going to bed early as a child, but since becoming an adult, I've been staying up late more often.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nAlmost always appears in the set phrase {早寝|はやね}{早起|はやお}き (early to bed, early to rise). Can be used with する: {早寝|はやね}する (to go to bed early). The proverb {早寝|はやね}{早起|はやお}き{病|やまい}{知|し}らず means \"early to bed and early to rise keeps you healthy.\"\n\nCOMMON COLLOCATIONS:\n- {早寝|はやね}{早起|はやお}き: early to bed, early to rise\n- {早寝|はやね}する: to go to bed early\n- {早寝|はやね}の{習慣|しゅうかん}: habit of going to bed early\n\nSIMILAR WORDS:\n- {夜更|よふ}かし: staying up late (opposite habit)",
+  "notes": "USAGE:\nAlmost always appears in the set phrase {早寝|はやね}⟦{早起|はやお}き→早起き：02477_hayaoki⟧ (early to bed, early to rise). Can be used with ⟦する→する：00392_suru⟧: {早寝|はやね}⟦する→する：00392_suru⟧ (to go to bed early). The proverb {早寝|はやね}⟦{早起|はやお}き→早起き：02477_hayaoki⟧⟦{病|やまい}→病：13610_yamai⟧⟦{知|し}ら→知る：00458_shiru⟧ず means \"early to bed and early to rise keeps you healthy.\"\n\nCOMMON COLLOCATIONS:\n- {早寝|はやね}⟦{早起|はやお}き→早起き：02477_hayaoki⟧: early to bed, early to rise\n- {早寝|はやね}⟦する→する：00392_suru⟧: to go to bed early\n- {早寝|はやね}⟦の→の：09472_no⟧⟦{習慣|しゅうかん}→習慣：01429_shuukan⟧: habit of going to bed early\n\nSIMILAR WORDS:\n- ⟦{夜更|よふ}かし→夜更かし：07693_yofukashi⟧: staying up late (opposite habit)",
   "cross_references": [
     {
       "type": "related",
@@ -142,11 +142,25 @@
       "reading": "はやおき",
       "headword": "{早起|はやお}き",
       "label": "early rising"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07693_yofukashi",
+      "reading": "よふかし",
+      "headword": "{夜更|よふ}かし",
+      "label": "staying up late"
+    },
+    {
+      "type": "antonym",
+      "target_id": "27127_osone",
+      "reading": "おそね",
+      "headword": "{遅寝|おそね}",
+      "label": "going to bed late"
     }
   ],
   "metadata": {
     "created": "2026-02-23T05:11:37Z",
-    "modified": "2026-04-27T10:17:30Z",
+    "modified": "2026-09-02T04:01:31Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -160,7 +174,8 @@
         "daily-life",
         "health"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

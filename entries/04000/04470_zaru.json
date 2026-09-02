@@ -24,7 +24,7 @@
     },
     {
       "id": "04470_zaru_ex2",
-      "japanese": "ざる⟦に→に：00314_ni⟧⟦{野菜|やさい}→野菜：02265_yasai⟧⟦を→を：00422_wo⟧⟦{入|い}れて→入れる：01098_ireru⟧、⟦{水|みず}→水：02258_mizu⟧⟦で→で：00502_de⟧⟦{洗|あら}って→洗う：00827_arau⟧ください。",
+      "japanese": "ざる⟦に→に：00314_ni⟧⟦{野菜|やさい}→野菜：02265_yasai⟧⟦を→を：00422_wo⟧⟦{入|い}れて→入れる：01098_ireru⟧、⟦{水|みず}→水：02258_mizu⟧⟦で→で：00502_de⟧⟦{洗|あら}って→洗う：00827_arau⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please put the vegetables in a strainer and wash them with water.",
       "notes": null,
       "has_audio": false,
@@ -64,10 +64,46 @@
     }
   ],
   "notes": "A ざる is a strainer or colander, traditionally made of bamboo but now also available in metal or plastic. It is essential in Japanese cooking for draining noodles, washing rice, and straining vegetables.\n\nCommon expressions:\n- ざる⟦で→で：00502_de⟧⟦{水|みず}→水：02258_mizu⟧⟦を→を：00422_wo⟧⟦{切|き}る→切る：02693_kiru⟧ (drain water with a colander)\n- ざる⟦に→に：00314_ni⟧⟦{上|あ}げる→上げる：02443_ageru⟧ (lift into a strainer)\n- ざる⟦{蕎麦|そば}→蕎麦：14329_soba⟧ (cold soba served on a bamboo strainer)\n\nThe term ざる also appears in the expression ざる⟦{耳|みみ}→耳：01513_mimi⟧, meaning \"in one ear and out the other\" (like water through a sieve).",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "02577_kago",
+      "reading": "かご",
+      "headword": "{籠|かご}",
+      "label": "basket, cage"
+    },
+    {
+      "type": "related",
+      "target_id": "08134_sukuiami",
+      "reading": "すくいあみ",
+      "headword": "すくい{網|あみ}",
+      "label": "skimmer"
+    },
+    {
+      "type": "related",
+      "target_id": "08573_mizukiri",
+      "reading": "みずきり",
+      "headword": "{水切|みずき}り",
+      "label": "draining water"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28692_chakoshi",
+      "reading": "ちゃこし",
+      "headword": "{茶漉|ちゃこ}し",
+      "label": "tea strainer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28702_furui",
+      "reading": "ふるい",
+      "headword": "ふるい",
+      "label": "sieve"
+    }
+  ],
   "metadata": {
     "created": "2026-01-14T18:52:29Z",
-    "modified": "2026-08-03T03:24:09Z",
+    "modified": "2026-09-02T04:01:04Z",
     "ai_model": "claude-opus-4-5-20251101",
     "vocabulary_tier": "core",
     "tags": {

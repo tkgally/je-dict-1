@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21012_teikouryoku_ex1",
-      "japanese": "{抵抗力|ていこうりょく}が{落|お}ちている。",
+      "japanese": "{抵抗力|ていこうりょく}⟦が→が：00051_ga⟧⟦{落|お}ちている→落ちる：01242_ochiru⟧。",
       "english": "My resistance is low.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21012_teikouryoku_ex2",
-      "japanese": "{睡眠不足|すいみんぶそく}は{抵抗力|ていこうりょく}を{弱|よわ}める。",
+      "japanese": "⟦{睡眠不足|すいみんぶそく}→睡眠不足：08690_suiminbusoku⟧⟦は→は：00079_ha⟧{抵抗力|ていこうりょく}⟦を→を：00422_wo⟧⟦{弱|よわ}める→弱める：02331_yowameru⟧。",
       "english": "Lack of sleep weakens your immunity.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21012_teikouryoku_ex3",
-      "japanese": "{栄養|えいよう}バランスのよい{食事|しょくじ}をとることで、{病気|びょうき}に{対|たい}する{抵抗力|ていこうりょく}を{高|たか}めることができる。",
+      "japanese": "⟦{栄養|えいよう}→栄養：01882_eiyou⟧⟦バランス→バランス：03870_baransu⟧⟦の→の：09472_no⟧よい⟦{食事|しょくじ}→食事：02087_shokuji⟧⟦を→を：00422_wo⟧とることで、⟦{病気|びょうき}→病気：00771_byouki⟧⟦に→に：00314_ni⟧⟦{対|たい}する→対する：02126_taisuru⟧{抵抗力|ていこうりょく}⟦を→を：00422_wo⟧⟦{高|たか}める→高める：02065_takameru⟧こと⟦が→が：00051_ga⟧⟦できる→できる：00557_dekiru⟧。",
       "english": "By eating a well-balanced diet, you can boost your resistance to disease.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {抵抗|ていこう} (resistance) + {力|りょく} (power, ability). Most commonly used in health and medical contexts to refer to the body's natural defense mechanisms against illness.\n\nCOMMON COLLOCATIONS:\n- {抵抗力|ていこうりょく}を{高|たか}める: to boost resistance/immunity\n- {抵抗力|ていこうりょく}が{落|お}ちる: resistance drops\n- {抵抗力|ていこうりょく}が{弱|よわ}い: to have weak resistance\n- {抵抗力|ていこうりょく}をつける: to build up resistance\n\nSIMILAR WORDS:\n- {免疫力|めんえきりょく}: immune strength — more specifically about the immune system\n- {体力|たいりょく}: physical strength, stamina — broader, covering overall physical fitness\n- {耐性|たいせい}: tolerance, resistance — used for drug resistance or acquired tolerance",
+  "notes": "Composed of ⟦{抵抗|ていこう}→抵抗：03540_teikou⟧ (resistance) + {力|りょく} (power, ability). Most commonly used in health and medical contexts to refer to the body's natural defense mechanisms against illness.\n\nCOMMON COLLOCATIONS:\n- {抵抗力|ていこうりょく}⟦を→を：00422_wo⟧⟦{高|たか}める→高める：02065_takameru⟧: to boost resistance/immunity\n- {抵抗力|ていこうりょく}⟦が→が：00051_ga⟧⟦{落|お}ちる→落ちる：01242_ochiru⟧: resistance drops\n- {抵抗力|ていこうりょく}⟦が→が：00051_ga⟧⟦{弱|よわ}い→弱い：00825_yowai⟧: to have weak resistance\n- {抵抗力|ていこうりょく}⟦を→を：00422_wo⟧⟦つける→つける：00562_tsukeru⟧: to build up resistance\n\nSIMILAR WORDS:\n- ⟦{免疫力|めんえきりょく}→免疫力：08599_menekiryoku⟧: immune strength — more specifically about the immune system\n- ⟦{体力|たいりょく}→体力：05318_tairyoku⟧: physical strength, stamina — broader, covering overall physical fitness\n- ⟦{耐性|たいせい}→耐性：13917_taisei⟧: tolerance, resistance — used for drug resistance or acquired tolerance",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08599_menekiryoku",
+      "reading": "めんえきりょく",
+      "headword": "{免疫力|めんえきりょく}",
+      "label": "immune strength"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05318_tairyoku",
+      "reading": "たいりょく",
+      "headword": "{体力|たいりょく}",
+      "label": "physical strength, stamina"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13917_taisei",
+      "reading": "たいせい",
+      "headword": "{耐性|たいせい}",
+      "label": "tolerance, resistance"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +83,6 @@
       ]
     },
     "created": "2026-03-31T14:10:34Z",
-    "modified": "2026-07-29T00:22:41Z"
+    "modified": "2026-09-02T04:02:01Z"
   }
 }

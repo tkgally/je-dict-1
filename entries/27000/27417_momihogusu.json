@@ -3,7 +3,7 @@
   "headword": "もみほぐす",
   "reading": "もみほぐす",
   "romaji": "momihogusu",
-  "part_of_speech": "verb-godan",
+  "part_of_speech": "verb (godan)",
   "gloss": "to massage thoroughly; to knead out; to loosen up",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "27417_momihogusu_ex1",
-      "japanese": "{肩|かた}をもみほぐす。",
+      "japanese": "⟦{肩|かた}→肩：02192_kata⟧⟦を→を：00422_wo⟧もみほぐす。",
       "english": "To massage one's shoulders thoroughly.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "27417_momihogusu_ex2",
-      "japanese": "{固|かた}くなった{筋肉|きんにく}を{丁寧|ていねい}にもみほぐした。",
+      "japanese": "⟦{固|かた}く→固い：12090_katai⟧⟦なった→なる：01970_naru⟧⟦{筋肉|きんにく}→筋肉：02646_kinniku⟧⟦を→を：00422_wo⟧⟦{丁寧|ていねい}→丁寧：00896_teinei⟧⟦に→に：00314_ni⟧もみほぐした。",
       "english": "I carefully massaged the stiffened muscles loose.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "27417_momihogusu_ex3",
-      "japanese": "{試合|しあい}の{前|まえ}にトレーナーが{選手|せんしゅ}の{足|あし}をしっかりもみほぐしてくれた。",
+      "japanese": "⟦{試合|しあい}→試合：01601_shiai⟧⟦の→の：09472_no⟧⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧⟦トレーナー→トレーナー：21469_toreenaa⟧⟦が→が：00051_ga⟧⟦{選手|せんしゅ}→選手：03823_senshu⟧⟦の→の：09472_no⟧⟦{足|あし}→足：00575_ashi⟧⟦を→を：00422_wo⟧⟦しっかり→しっかり：01272_shikkari⟧もみほぐして⟦くれた→くれる：00724_kureru⟧。",
       "english": "Before the match the trainer thoroughly massaged the athlete's legs.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "Transitive godan verb (もみほぐす・もみほぐして・もみほぐした). Compound of {揉|も}む + ほぐす, common in massage and sports contexts.\n\nTRANSITIVITY:\nTransitive: marks the body part with を.\n- {肩|かた}をもみほぐす: to massage shoulders\n- {足|あし}をもみほぐす: to massage feet\n\nCOMMON COLLOCATIONS:\n- {肩|かた}・{首|くび}・{腰|こし}をもみほぐす: to massage shoulders/neck/lower back\n- {筋肉|きんにく}をもみほぐす: to loosen the muscles\n- {凝|こ}りをもみほぐす: to knead out stiffness\n\nSIMILAR WORDS:\n- {揉|も}む: to knead; to rub — broader, may not imply loosening as the goal\n- ほぐす: to loosen; to untangle — broader; not limited to massage\n- マッサージする: to massage — generic loanword, doesn't specify kneading motion",
+  "notes": "Transitive godan verb (もみほぐす・もみほぐして・もみほぐした). Compound of ⟦{揉|も}む→揉む：00289_momu⟧ + ⟦ほぐす→ほぐす：10496_hogusu⟧, common in massage and sports contexts.\n\nTRANSITIVITY:\nTransitive: marks the body part with ⟦を→を：00422_wo⟧.\n- ⟦{肩|かた}→肩：02192_kata⟧⟦を→を：00422_wo⟧もみほぐす: to massage shoulders\n- ⟦{足|あし}→足：00575_ashi⟧⟦を→を：00422_wo⟧もみほぐす: to massage feet\n\nCOMMON COLLOCATIONS:\n- ⟦{肩|かた}→肩：02192_kata⟧・⟦{首|くび}→首：00792_kubi⟧・⟦{腰|こし}→腰：02210_koshi⟧⟦を→を：00422_wo⟧もみほぐす: to massage shoulders/neck/lower back\n- ⟦{筋肉|きんにく}→筋肉：02646_kinniku⟧⟦を→を：00422_wo⟧もみほぐす: to loosen the muscles\n- ⟦{凝|こ}り→凝り：07279_kori⟧⟦を→を：00422_wo⟧もみほぐす: to knead out stiffness\n\nSIMILAR WORDS:\n- ⟦{揉|も}む→揉む：00289_momu⟧: to knead; to rub — broader, may not imply loosening as the goal\n- ⟦ほぐす→ほぐす：10496_hogusu⟧: to loosen; to untangle — broader; not limited to massage\n- ⟦マッサージ→マッサージ：00272_massaaji⟧⟦する→する：00392_suru⟧: to massage — generic loanword, doesn't specify kneading motion",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00289_momu",
+      "reading": "もむ",
+      "headword": "{揉|も}む",
+      "label": "to knead"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -54,7 +63,7 @@
       ],
       "transitivity": "transitive",
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "body-part",
         "health"
@@ -63,7 +72,7 @@
       "verb_class": "godan-su"
     },
     "created": "2026-05-11T07:40:10Z",
-    "modified": "2026-08-07T16:10:18Z"
+    "modified": "2026-09-02T04:02:30Z"
   },
   "conjugation": {
     "type": "godan",

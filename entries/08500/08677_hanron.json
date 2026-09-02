@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "08677_hanron_ex1",
-      "japanese": "{彼|かれ}の{意見|いけん}に{反論|はんろん}した。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧⟦{意見|いけん}→意見：01303_iken⟧⟦に→に：00314_ni⟧{反論|はんろん}⟦した→する：00392_suru⟧。",
       "english": "I argued against his opinion.",
       "sense_numbers": [
         1
@@ -114,7 +114,7 @@
     },
     {
       "id": "08677_hanron_ex2",
-      "japanese": "{反論|はんろん}の{余地|よち}がない。",
+      "japanese": "{反論|はんろん}⟦の→の：09472_no⟧⟦{余地|よち}→余地：07612_yochi⟧⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧。",
       "english": "There's no room for rebuttal.",
       "sense_numbers": [
         1
@@ -124,7 +124,7 @@
     },
     {
       "id": "08677_hanron_ex3",
-      "japanese": "{誰|だれ}も{反論|はんろん}できないほど{説得力|せっとくりょく}があった。",
+      "japanese": "⟦{誰|だれ}も→誰も：18610_daremo⟧{反論|はんろん}⟦できない→できる：00557_dekiru⟧ほど⟦{説得力|せっとくりょく}→説得力：08525_settokuryoku⟧⟦が→が：00051_ga⟧⟦あった→ある：00006_aru⟧。",
       "english": "It was so persuasive that no one could object.",
       "sense_numbers": [
         1
@@ -133,7 +133,37 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {反|はん} (anti-, counter-) + {論|ろん} (argument, theory). Refers to an argument made in opposition to another person's claim or position.\n\nPATTERNS:\n- [person]に{反論|はんろん}する: to argue against [person]\n- [opinion]に{反論|はんろん}する: to rebut [opinion]\n- {反論|はんろん}を{述|の}べる: to state a counterargument\n\nCOMMON COLLOCATIONS:\n- {反論|はんろん}の{余地|よち}がない: no room for argument\n- {反論|はんろん}を{許|ゆる}さない: to not allow objections\n- {反論|はんろん}できない: cannot argue against\n- {激|はげ}しい{反論|はんろん}: fierce rebuttal\n\nSIMILAR WORDS:\n- {異論|いろん}: dissenting opinion (milder — simply a different view)\n- {異議|いぎ}: objection (formal, often legal: {異議|いぎ}あり = \"objection!\")\n- {抗議|こうぎ}: protest (broader — can involve actions, not just arguments)\n- {批判|ひはん}: criticism (evaluative, not necessarily a direct counter-argument)",
+  "notes": "Composed of ⟦{反|はん}→反〜：03964_han⟧ (anti-, counter-) + ⟦{論|ろん}→〜論：04017_ron⟧ (argument, theory). Refers to an argument made in opposition to another person's claim or position.\n\nCOMMON PATTERNS:\n- [person]⟦に→に：00314_ni⟧{反論|はんろん}⟦する→する：00392_suru⟧: to argue against [person]\n- [opinion]⟦に→に：00314_ni⟧{反論|はんろん}⟦する→する：00392_suru⟧: to rebut [opinion]\n- {反論|はんろん}⟦を→を：00422_wo⟧⟦{述|の}べる→述べる：02389_noberu⟧: to state a counterargument\n\nCOMMON COLLOCATIONS:\n- {反論|はんろん}⟦の→の：09472_no⟧⟦{余地|よち}→余地：07612_yochi⟧⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧: no room for argument\n- {反論|はんろん}⟦を→を：00422_wo⟧⟦{許|ゆる}さない→許す：02325_yurusu⟧: to not allow objections\n- {反論|はんろん}⟦できない→できる：00557_dekiru⟧: cannot argue against\n- ⟦{激|はげ}しい→激しい：02348_hageshii⟧{反論|はんろん}: fierce rebuttal\n\nSIMILAR WORDS:\n- ⟦{異論|いろん}→異論：13551_iron⟧: dissenting opinion (milder — simply a different view)\n- ⟦{異議|いぎ}→異議：13552_igi⟧: objection (formal, often legal: ⟦{異議|いぎ}→異議：13552_igi⟧あり = \"objection!\")\n- ⟦{抗議|こうぎ}→抗議：12807_kougi⟧: protest (broader — can involve actions, not just arguments)\n- ⟦{批判|ひはん}→批判：03580_hihan⟧: criticism (evaluative, not necessarily a direct counter-argument)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13551_iron",
+      "reading": "いろん",
+      "headword": "{異論|いろん}",
+      "label": "dissenting opinion (milder"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13552_igi",
+      "reading": "いぎ",
+      "headword": "{異議|いぎ}",
+      "label": "objection (formal, often legal"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12807_kougi",
+      "reading": "こうぎ",
+      "headword": "{抗議|こうぎ}",
+      "label": "protest (broader"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03580_hihan",
+      "reading": "ひはん",
+      "headword": "{批判|ひはん}",
+      "label": "criticism"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -142,13 +172,14 @@
         "verb-suru"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "communication"
       ],
       "verb_class": "suru"
     },
     "created": "2026-01-27T23:50:36Z",
-    "modified": "2026-08-12T12:51:44Z"
+    "modified": "2026-09-02T04:01:16Z"
   },
   "prominent_see_also": [
     {

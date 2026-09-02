@@ -3,7 +3,7 @@
   "headword": "{開票|かいひょう}",
   "reading": "かいひょう",
   "romaji": "kaihyou",
-  "part_of_speech": "noun; verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "ballot counting; vote counting",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "19117_kaihyou_ex1",
-      "japanese": "{開票|かいひょう}が{始|はじ}まった。",
+      "japanese": "{開票|かいひょう}⟦が→が：00051_ga⟧⟦{始|はじ}まった→始まる：00841_hajimaru⟧。",
       "english": "The ballot counting has begun.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "19117_kaihyou_ex2",
-      "japanese": "{開票|かいひょう}{速報|そくほう}をテレビで{見|み}ていた。",
+      "japanese": "{開票|かいひょう}⟦{速報|そくほう}→速報：14319_sokuhou⟧⟦を→を：00422_wo⟧⟦テレビ→テレビ：01536_terebi⟧⟦で→で：00502_de⟧⟦{見|み}ていた→見る：00283_miru⟧。",
       "english": "I was watching the vote-counting updates on TV.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "19117_kaihyou_ex3",
-      "japanese": "{深夜|しんや}まで{開票|かいひょう}{作業|さぎょう}が{続|つづ}き、ようやく{結果|けっか}が{確定|かくてい}した。",
+      "japanese": "⟦{深夜|しんや}→深夜：00368_shinya⟧⟦まで→まで：00490_made⟧{開票|かいひょう}⟦{作業|さぎょう}→作業：02775_sagyou⟧⟦が→が：00051_ga⟧⟦{続|つづ}き→続く：00903_tsuzuku⟧、ようやく⟦{結果|けっか}→結果：02486_kekka⟧⟦が→が：00051_ga⟧⟦{確定|かくてい}→確定：13707_kakutei⟧⟦した→する：00392_suru⟧。",
       "english": "The ballot-counting work continued until late at night, and the results were finally confirmed.",
       "sense_numbers": [
         1
@@ -134,8 +134,24 @@
       "notes": null
     }
   ],
-  "notes": "Literally 'opening ({開|かい}) ballots ({票|ひょう})' — the process of opening ballot boxes and counting votes after an election.\n\nCOMMON COLLOCATIONS:\n- {開票|かいひょう}する (to count ballots)\n- {開票|かいひょう}{速報|そくほう} (vote-counting flash report)\n- {開票|かいひょう}{作業|さぎょう} (ballot-counting work)\n- {開票|かいひょう}{結果|けっか} (counting results)\n- {開票|かいひょう}{率|りつ} (percentage of ballots counted)\n- {即日|そくじつ}{開票|かいひょう} (same-day ballot counting)\n\nELECTION VOCABULARY SERIES:\n- {投票|とうひょう}: casting a vote\n- {開票|かいひょう}: counting votes\n- {得票|とくひょう}: votes received (by a candidate)\n- {当選|とうせん}: winning an election\n- {落選|らくせん}: losing an election",
+  "notes": "Literally 'opening ({開|かい}) ballots (⟦{票|ひょう}→票：03582_hyou⟧)' — the process of opening ballot boxes and counting votes after an election.\n\nCOMMON COLLOCATIONS:\n- {開票|かいひょう}⟦する→する：00392_suru⟧ (to count ballots)\n- {開票|かいひょう}⟦{速報|そくほう}→速報：14319_sokuhou⟧ (vote-counting flash report)\n- {開票|かいひょう}⟦{作業|さぎょう}→作業：02775_sagyou⟧ (ballot-counting work)\n- {開票|かいひょう}⟦{結果|けっか}→結果：02486_kekka⟧ (counting results)\n- {開票|かいひょう}⟦{率|りつ}→率：03802_ritsu⟧ (percentage of ballots counted)\n- ⟦{即日|そくじつ}→即日：09661_sokujitsu⟧{開票|かいひょう} (same-day ballot counting)\n\nELECTION VOCABULARY SERIES:\n- ⟦{投票|とうひょう}→投票：03453_touhyou⟧: casting a vote\n- {開票|かいひょう}: counting votes\n- ⟦{得票|とくひょう}→得票：19111_tokuhyou⟧: votes received (by a candidate)\n- ⟦{当選|とうせん}→当選：07074_tousen⟧: winning an election\n- ⟦{落選|らくせん}→落選：07075_rakusen⟧: losing an election",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25137_hyousuu",
+      "reading": "ひょうすう",
+      "headword": "{票数|ひょうすう}",
+      "label": "number of votes"
+    },
+    {
+      "type": "related",
+      "target_id": "26674_touhyousuu",
+      "reading": "とうひょうすう",
+      "headword": "{投票数|とうひょうすう}",
+      "label": "number of votes"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -151,6 +167,6 @@
       "verb_class": "suru"
     },
     "created": "2026-03-24T09:59:42Z",
-    "modified": "2026-03-31T01:51:57Z"
+    "modified": "2026-09-02T04:01:54Z"
   }
 }

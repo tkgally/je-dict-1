@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08517_wanryoku_ex1",
-      "japanese": "{腕力|わんりょく}に{自信|じしん}がある。",
+      "japanese": "{腕力|わんりょく}⟦に→に：00314_ni⟧⟦{自信|じしん}→自信：10143_jishin⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "I'm confident in my arm strength.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "08517_wanryoku_ex2",
-      "japanese": "{腕力|わんりょく}で{解決|かいけつ}しようとした。",
+      "japanese": "{腕力|わんりょく}⟦で→で：00502_de⟧⟦{解決|かいけつ}しよう→解決する：17191_kaiketsusuru⟧とした。",
       "english": "He tried to resolve it by force.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "08517_wanryoku_ex3",
-      "japanese": "{腕力|わんりょく}だけでは{勝|か}てない。",
+      "japanese": "{腕力|わんりょく}⟦だけ→〜だけ：03093_dake⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{勝|か}てない→勝つ：01199_katsu⟧。",
       "english": "You can't win with brute strength alone.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
     },
     {
       "id": "08517_wanryoku_ex4",
-      "japanese": "{彼|かれ}は{腕力|わんりょく}が{強|つよ}くて{有名|ゆうめい}だった。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{腕力|わんりょく}⟦が→が：00051_ga⟧⟦{強|つよ}くて→強い：00820_tsuyoi⟧⟦{有名|ゆうめい}→有名：01106_yuumei⟧だった。",
       "english": "He was famous for his physical strength.",
       "sense_numbers": [
         1
@@ -53,7 +53,30 @@
       "notes": null
     }
   ],
-  "notes": "USAGE:\nCan refer specifically to arm strength or more generally to physical force or power. Often used in contexts involving physical confrontation or tasks requiring strength.\n\nCOMMON COLLOCATIONS:\n- {腕力|わんりょく}に{頼|たよ}る - to rely on physical force\n- {腕力|わんりょく}で{解決|かいけつ}する - to solve by force\n- {腕力|わんりょく}が{強|つよ}い - to have strong arms\n\nNUANCE:\nWhen used in the broader sense, often carries a negative connotation of using brute force instead of intelligence or diplomacy.\n\nRELATED:\n- {脚力|きゃくりょく} - leg strength\n- {握力|あくりょく} - grip strength\n- {力|ちから}ずく - by force",
+  "notes": "USAGE:\nCan refer specifically to arm strength or more generally to physical force or power. Often used in contexts involving physical confrontation or tasks requiring strength.\nWhen used in the broader sense, often carries a negative connotation of using brute force instead of intelligence or diplomacy.\n\nCOMMON COLLOCATIONS:\n- {腕力|わんりょく}⟦に→に：00314_ni⟧⟦{頼|たよ}る→頼る：02069_tayoru⟧ - to rely on physical force\n- {腕力|わんりょく}⟦で→で：00502_de⟧⟦{解決|かいけつ}する→解決する：17191_kaiketsusuru⟧ - to solve by force\n- {腕力|わんりょく}⟦が→が：00051_ga⟧⟦{強|つよ}い→強い：00820_tsuyoi⟧ - to have strong arms\n\nRELATED WORDS:\n- ⟦{脚力|きゃくりょく}→脚力：08516_kyakuryoku⟧ - leg strength\n- ⟦{握力|あくりょく}→握力：08518_akuryoku⟧ - grip strength\n- ⟦{力|ちから}ずく→力ずく：29143_chikarazuku⟧ - by force",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "08516_kyakuryoku",
+      "reading": "きゃくりょく",
+      "headword": "{脚力|きゃくりょく}",
+      "label": "leg strength"
+    },
+    {
+      "type": "related",
+      "target_id": "08518_akuryoku",
+      "reading": "あくりょく",
+      "headword": "{握力|あくりょく}",
+      "label": "grip strength"
+    },
+    {
+      "type": "related",
+      "target_id": "29143_chikarazuku",
+      "reading": "ちからずく",
+      "headword": "{力|ちから}ずく",
+      "label": "by force"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,12 +84,13 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "body-part",
         "cognition"
       ]
     },
     "created": "2026-01-27T10:33:10Z",
-    "modified": "2026-06-22T12:50:00Z"
+    "modified": "2026-09-02T04:01:15Z"
   }
 }

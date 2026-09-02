@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "{朝|あさ} refers to the morning, roughly from dawn until late morning.\n\nTIMES OF DAY:\n- {朝|あさ}: morning\n- ⟦{昼|ひる}→昼：00540_hiru⟧: noon, daytime\n- ⟦{夕方|ゆうがた}→夕方：01010_yuugata⟧: evening (before dark)\n- ⟦{夜|よる}→夜：00487_yoru⟧: night\n\nCOMMON COMPOUNDS:\n- ⟦{朝食|ちょうしょく}→朝食：03122_choushoku⟧: breakfast (formal)\n- {朝|あさ}⟦ご{飯|はん}→ご飯：00776_gohan⟧: breakfast (casual)\n- ⟦{毎朝|まいあさ}→毎朝：00966_maiasa⟧: every morning\n- ⟦{今朝|けさ}→今朝：02877_kesa⟧: this morning\n- ⟦{朝日|あさひ}→朝日：23495_asahi⟧: morning sun, sunrise\n- ⟦{朝寝坊|あさねぼう}→朝寝坊：02516_asanebou⟧: oversleeping, late riser\n\nGRAMMAR:\nLike other time words, {朝|あさ} can be used without a particle:\n- {朝|あさ}⟦{起|お}きる→起きる：00521_okiru⟧ (wake up in the morning)\n\nEXPRESSIONS:\n- {朝|あさ}⟦から→から：00504_kara⟧⟦{晩|ばん}→晩：00542_ban⟧⟦まで→まで：00490_made⟧: from morning till night\n- {朝|あさ}⟦イチ→イチ：noentry⟧: first thing in the morning (casual)",
+  "notes": "{朝|あさ} refers to the morning, roughly from dawn until late morning.\n\nTIMES OF DAY:\n- {朝|あさ}: morning\n- ⟦{昼|ひる}→昼：00540_hiru⟧: noon, daytime\n- ⟦{夕方|ゆうがた}→夕方：01010_yuugata⟧: evening (before dark)\n- ⟦{夜|よる}→夜：00487_yoru⟧: night\n\nCOMPOUNDS:\n- ⟦{朝食|ちょうしょく}→朝食：03122_choushoku⟧: breakfast (formal)\n- {朝|あさ}⟦ご{飯|はん}→ご飯：00776_gohan⟧: breakfast (casual)\n- ⟦{毎朝|まいあさ}→毎朝：00966_maiasa⟧: every morning\n- ⟦{今朝|けさ}→今朝：02877_kesa⟧: this morning\n- ⟦{朝日|あさひ}→朝日：23495_asahi⟧: morning sun, sunrise\n- ⟦{朝寝坊|あさねぼう}→朝寝坊：02516_asanebou⟧: oversleeping, late riser\n\nCOMMON PATTERNS:\nLike other time words, {朝|あさ} can be used without a particle:\n- {朝|あさ}⟦{起|お}きる→起きる：00521_okiru⟧ (wake up in the morning)\n\nCOMMON EXPRESSIONS:\n- {朝|あさ}⟦から→から：00504_kara⟧⟦{晩|ばん}→晩：00542_ban⟧⟦まで→まで：00490_made⟧: from morning till night\n- {朝|あさ}⟦イチ→イチ：noentry⟧: first thing in the morning (casual)",
   "cross_references": [
     {
       "type": "antonym",
@@ -71,11 +71,25 @@
       "reading": "よる",
       "headword": "{夜|よる}",
       "label": "night"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03655_yoake",
+      "reading": "よあけ",
+      "headword": "{夜明|よあ}け",
+      "label": "dawn, daybreak"
+    },
+    {
+      "type": "related",
+      "target_id": "11495_gozenchuu",
+      "reading": "ごぜんちゅう",
+      "headword": "{午前中|ごぜんちゅう}",
+      "label": "in the morning, during the morning"
     }
   ],
   "metadata": {
     "created": "2026-01-09T12:35:44Z",
-    "modified": "2026-05-18T23:16:04Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

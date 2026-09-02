@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "16148_yoshin_ex1",
-      "japanese": "{余震|よしん}に{注意|ちゅうい}してください。",
+      "japanese": "{余震|よしん}⟦に→に：00314_ni⟧⟦{注意|ちゅうい}→注意：01464_chuui⟧⟦して→する：00392_suru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please be cautious of aftershocks.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "16148_yoshin_ex2",
-      "japanese": "{本震|ほんしん}の{後|あと}、{何度|なんど}も{余震|よしん}が{続|つづ}いた。",
+      "japanese": "{本震|ほんしん}⟦の→の：09472_no⟧⟦{後|あと}→後：09580_ato⟧、⟦{何度|なんど}→何度：17592_nando⟧⟦も→も：00484_mo⟧{余震|よしん}⟦が→が：00051_ga⟧⟦{続|つづ}いた→続く：00903_tsuzuku⟧。",
       "english": "After the main quake, aftershocks continued many times.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "16148_yoshin_ex3",
-      "japanese": "{大|おお}きな{地震|じしん}から{一週間|いっしゅうかん}{経|た}っても、まだ{余震|よしん}が{感|かん}じられる。",
+      "japanese": "⟦{大|おお}きな→大きな：02849_ookina⟧⟦{地震|じしん}→地震：01608_jishin⟧⟦から→から：00504_kara⟧⟦{一週間|いっしゅうかん}→一週間：10979_isshuukan⟧⟦{経|た}って→経つ：09892_tatsu⟧⟦も→も：00484_mo⟧、⟦まだ→まだ：00603_mada⟧{余震|よしん}⟦が→が：00051_ga⟧⟦{感|かん}じられる→感じる：02044_kanjiru⟧。",
       "english": "Even a week after the major earthquake, aftershocks can still be felt.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nAfter a major earthquake in Japan, news broadcasts will regularly report on {余震|よしん} activity. The phrase {余震|よしん}に{注意|ちゅうい} (be cautious of aftershocks) is a standard warning. The main earthquake is called {本震|ほんしん}, and foreshocks are called {前震|ぜんしん}.\n\nCOMMON COLLOCATIONS:\n- {余震|よしん}に{注意|ちゅうい} (be cautious of aftershocks)\n- {余震|よしん}が{続|つづ}く (aftershocks continue)\n- {余震|よしん}が{収|おさ}まる (aftershocks subside)\n- {強|つよ}い{余震|よしん} (strong aftershock)\n- {余震|よしん}{活動|かつどう} (aftershock activity)",
+  "notes": "USAGE:\nAfter a major earthquake in Japan, news broadcasts will regularly report on {余震|よしん} activity. The phrase {余震|よしん}⟦に→に：00314_ni⟧⟦{注意|ちゅうい}→注意：01464_chuui⟧ (be cautious of aftershocks) is a standard warning. The main earthquake is called {本震|ほんしん}, and foreshocks are called {前震|ぜんしん}.\n\nCOMMON COLLOCATIONS:\n- {余震|よしん}⟦に→に：00314_ni⟧⟦{注意|ちゅうい}→注意：01464_chuui⟧ (be cautious of aftershocks)\n- {余震|よしん}⟦が→が：00051_ga⟧⟦{続|つづ}く→続く：00903_tsuzuku⟧ (aftershocks continue)\n- {余震|よしん}⟦が→が：00051_ga⟧⟦{収|おさ}まる→収まる：11858_osamaru⟧ (aftershocks subside)\n- ⟦{強|つよ}い→強い：00820_tsuyoi⟧{余震|よしん} (strong aftershock)\n- {余震|よしん}⟦{活動|かつどう}→活動：00201_katsudou⟧ (aftershock activity)",
   "cross_references": [
     {
       "type": "related",
@@ -52,11 +52,18 @@
       "reading": "じしん",
       "headword": "{地震|じしん}",
       "label": "earthquake"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25404_yurimodoshi",
+      "reading": "ゆりもどし",
+      "headword": "{揺|ゆ}り{戻|もど}し",
+      "label": "rebound"
     }
   ],
   "metadata": {
     "created": "2026-03-10T06:07:11Z",
-    "modified": "2026-07-18T12:31:39Z",
+    "modified": "2026-09-02T04:01:43Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

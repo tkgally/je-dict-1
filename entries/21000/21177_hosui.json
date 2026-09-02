@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21177_hosui_ex1",
-      "japanese": "こまめに{補水|ほすい}してください。",
+      "japanese": "⟦こまめ→こまめ：10325_komame⟧⟦に→に：00314_ni⟧{補水|ほすい}⟦して→する：00392_suru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please rehydrate frequently.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "21177_hosui_ex2",
-      "japanese": "{運動|うんどう}{中|ちゅう}の{補水|ほすい}は{大切|たいせつ}だ。",
+      "japanese": "⟦{運動|うんどう}→運動：00821_undou⟧⟦{中|ちゅう}→〜中：09840_chuu⟧⟦の→の：09472_no⟧{補水|ほすい}⟦は→は：00079_ha⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧だ。",
       "english": "Rehydrating during exercise is important.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "21177_hosui_ex3",
-      "japanese": "{熱中症|ねっちゅうしょう}を{防|ふせ}ぐために{早|はや}めの{補水|ほすい}を{心|こころ}がけましょう。",
+      "japanese": "⟦{熱中症|ねっちゅうしょう}→熱中症：08330_necchuushou⟧⟦を→を：00422_wo⟧⟦{防|ふせ}ぐ→防ぐ：02409_fusegu⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧⟦{早|はや}め→早め：11176_hayame⟧⟦の→の：09472_no⟧{補水|ほすい}⟦を→を：00422_wo⟧⟦{心|こころ}がけましょう→心がける：10015_kokorogakeru⟧。",
       "english": "Let's make a point of rehydrating early to prevent heatstroke.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,26 @@
       ]
     }
   ],
-  "notes": "{補|ほ} means 'to supplement' or 'to replenish,' and {水|すい} means 'water.' {補水|ほすい} is commonly used in health and fitness contexts, especially during summer when heatstroke prevention is a major public health concern in Japan.\n\nCOMMON COLLOCATIONS:\n- {補水|ほすい}する (to rehydrate)\n- {補水|ほすい}{液|えき} (rehydration solution, oral rehydration fluid)\n- {経口|けいこう}{補水|ほすい}{液|えき} (oral rehydration solution — ORS)\n- こまめに{補水|ほすい}する (to rehydrate frequently)\n\nSIMILAR WORDS:\n- {水分|すいぶん}{補給|ほきゅう} — hydration, fluid intake (more common in everyday speech; same meaning but longer)\n- {給水|きゅうすい} — water supply (providing water to a system or area, not specifically about drinking)",
-  "cross_references": [],
+  "notes": "{補|ほ} means 'to supplement' or 'to replenish,' and {水|すい} means 'water.' {補水|ほすい} is commonly used in health and fitness contexts, especially during summer when heatstroke prevention is a major public health concern in Japan.\n\nCOMMON COLLOCATIONS:\n- {補水|ほすい}⟦する→する：00392_suru⟧ (to rehydrate)\n- {補水|ほすい}⟦{液|えき}→液：02270_eki⟧ (rehydration solution, oral rehydration fluid)\n- {経口|けいこう}{補水|ほすい}⟦{液|えき}→液：02270_eki⟧ (oral rehydration solution — ORS)\n- ⟦こまめ→こまめ：10325_komame⟧⟦に→に：00314_ni⟧{補水|ほすい}⟦する→する：00392_suru⟧ (to rehydrate frequently)\n\nSIMILAR WORDS:\n- ⟦{水分|すいぶん}{補給|ほきゅう}→水分補給：14832_suibunhokyuu⟧ — hydration, fluid intake (more common in everyday speech; same meaning but longer)\n- ⟦{給水|きゅうすい}→給水：15031_kyuusui⟧ — water supply (providing water to a system or area, not specifically about drinking)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14832_suibunhokyuu",
+      "reading": "すいぶんほきゅう",
+      "headword": "{水分補給|すいぶんほきゅう}",
+      "label": "hydration, fluid intake (more common…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15031_kyuusui",
+      "reading": "きゅうすい",
+      "headword": "{給水|きゅうすい}",
+      "label": "water supply"
+    }
+  ],
   "metadata": {
     "created": "2026-03-31T22:16:43Z",
-    "modified": "2026-07-29T00:22:41Z",
+    "modified": "2026-09-02T04:02:02Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

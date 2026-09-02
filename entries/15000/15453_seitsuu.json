@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "15453_seitsuu_ex1",
-      "japanese": "{彼|かれ}は{法律|ほうりつ}に{精通|せいつう}している。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{法律|ほうりつ}→法律：01722_houritsu⟧⟦に→に：00314_ni⟧{精通|せいつう}⟦している→する：00392_suru⟧。",
       "english": "He is well-versed in law.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "15453_seitsuu_ex2",
-      "japanese": "この{分野|ぶんや}に{精通|せいつう}した{専門家|せんもんか}が{必要|ひつよう}だ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{分野|ぶんや}→分野：03612_bunya⟧⟦に→に：00314_ni⟧{精通|せいつう}⟦した→する：00392_suru⟧⟦{専門家|せんもんか}→専門家：03088_senmonka⟧⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧だ。",
       "english": "We need an expert well-versed in this field.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "15453_seitsuu_ex3",
-      "japanese": "{地元|じもと}の{事情|じじょう}に{精通|せいつう}している{人|ひと}に{案内|あんない}を{頼|たの}んだ。",
+      "japanese": "⟦{地元|じもと}→地元：09941_jimoto⟧⟦の→の：09472_no⟧⟦{事情|じじょう}→事情：03272_jijou⟧⟦に→に：00314_ni⟧{精通|せいつう}⟦している→する：00392_suru⟧⟦{人|ひと}→人：00476_hito⟧⟦に→に：00314_ni⟧⟦{案内|あんない}→案内：01291_annai⟧⟦を→を：00422_wo⟧⟦{頼|たの}んだ→頼む：01104_tanomu⟧。",
       "english": "I asked someone familiar with local affairs to show me around.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,47 @@
       ]
     }
   ],
-  "notes": "GRAMMAR:\nUsed as a suru verb. The pattern is ～に{精通|せいつう}する (to be well-versed in ~). The particle に marks the field or subject of expertise.\n\nCOMMON PATTERNS:\n- ～に{精通|せいつう}している (is well-versed in ~)\n- ～に{精通|せいつう}した + noun (noun well-versed in ~)\n\nCOMMON COLLOCATIONS:\n- {法律|ほうりつ}に{精通|せいつう}する (to be well-versed in law)\n- {技術|ぎじゅつ}に{精通|せいつう}する (to be well-versed in technology)\n- {業界|ぎょうかい}に{精通|せいつう}する (to be well-versed in the industry)\n\nNUANCE:\nImplies deeper, more specialized knowledge than {詳|くわ}しい (knowledgeable). {精通|せいつう} suggests professional-level or expert familiarity.",
-  "cross_references": [],
+  "notes": "COMMON PATTERNS:\nUsed as a suru verb. The pattern is ～⟦に→に：00314_ni⟧{精通|せいつう}⟦する→する：00392_suru⟧ (to be well-versed in ~). The particle ⟦に→に：00314_ni⟧ marks the field or subject of expertise.\n- ～⟦に→に：00314_ni⟧{精通|せいつう}⟦している→する：00392_suru⟧ (is well-versed in ~)\n- ～⟦に→に：00314_ni⟧{精通|せいつう}⟦した→する：00392_suru⟧ + noun (noun well-versed in ~)\n\nCOMMON COLLOCATIONS:\n- ⟦{法律|ほうりつ}→法律：01722_houritsu⟧⟦に→に：00314_ni⟧{精通|せいつう}⟦する→する：00392_suru⟧ (to be well-versed in law)\n- ⟦{技術|ぎじゅつ}→技術：01389_gijutsu⟧⟦に→に：00314_ni⟧{精通|せいつう}⟦する→する：00392_suru⟧ (to be well-versed in technology)\n- ⟦{業界|ぎょうかい}→業界：13129_gyoukai⟧⟦に→に：00314_ni⟧{精通|せいつう}⟦する→する：00392_suru⟧ (to be well-versed in the industry)\n\nUSAGE:\nImplies deeper, more specialized knowledge than ⟦{詳|くわ}しい→詳しい：02483_kuwashii⟧ (knowledgeable). {精通|せいつう} suggests professional-level or expert familiarity.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15463_jukutatsu",
+      "reading": "じゅくたつ",
+      "headword": "{熟達|じゅくたつ}",
+      "label": "proficiency"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21086_shuujuku",
+      "reading": "しゅうじゅく",
+      "headword": "{習熟|しゅうじゅく}",
+      "label": "mastery"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21355_jukuchi",
+      "reading": "じゅくち",
+      "headword": "{熟知|じゅくち}",
+      "label": "thorough knowledge"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21388_shuujuku",
+      "reading": "しゅうじゅく",
+      "headword": "{習熟|しゅうじゅく}する",
+      "label": "to become proficient"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24396_tsuugyou",
+      "reading": "つうぎょう",
+      "headword": "{通暁|つうぎょう}",
+      "label": "thorough knowledge"
+    }
+  ],
   "metadata": {
     "created": "2026-03-07T07:36:42Z",
-    "modified": "2026-03-29T03:08:43Z",
+    "modified": "2026-09-02T04:01:41Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

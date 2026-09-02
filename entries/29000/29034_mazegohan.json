@@ -16,39 +16,72 @@
   "examples": [
     {
       "id": "29034_mazegohan_ex1",
-      "japanese": "{鮭|さけ}の{混|ま}ぜご{飯|はん}を{作|つく}る。",
+      "japanese": "⟦{鮭|さけ}→鮭：19337_sake⟧⟦の→の：09472_no⟧{混|ま}ぜご{飯|はん}⟦を→を：00422_wo⟧⟦{作|つく}る→作る：00481_tsukuru⟧。",
       "english": "To make salmon mixed rice.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29034_mazegohan_ex2",
-      "japanese":" {残|のこ}り{野菜|やさい}で{混|ま}ぜご{飯|はん}にしよう。",
+      "japanese": " ⟦{残|のこ}り→残り：01622_nokori⟧⟦{野菜|やさい}→野菜：02265_yasai⟧⟦で→で：00502_de⟧{混|ま}ぜご{飯|はん}⟦に→に：00314_ni⟧⟦しよう→する：00392_suru⟧。",
       "english": "Let's make mixed rice with the leftover vegetables.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29034_mazegohan_ex3",
-      "japanese": "{炊|た}きたてのご{飯|はん}に{具|ぐ}を{混|ま}ぜるだけで{美味|おい}しい{混|ま}ぜご{飯|はん}ができる。",
+      "japanese": "{炊|た}きたて⟦の→の：09472_no⟧⟦ご{飯|はん}→ご飯：00776_gohan⟧⟦に→に：00314_ni⟧⟦{具|ぐ}→具：07857_gu⟧⟦を→を：00422_wo⟧⟦{混|ま}ぜる→混ぜる：02423_mazeru⟧⟦だけ→〜だけ：03093_dake⟧⟦で→で：00502_de⟧⟦{美味|おい}しい→美味しい：00740_oishii⟧{混|ま}ぜご{飯|はん}⟦が→が：00051_ga⟧⟦できる→できる：00557_dekiru⟧。",
       "english": "Just mix ingredients into freshly cooked rice and you have a delicious mixed rice dish.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A rice dish where plain cooked rice is tossed with ingredients and seasonings. The key distinction from similar dishes: the mixing happens after cooking.\n\nSIMILAR WORDS:\n- {炊|た}き{込|こ}みご{飯|はん}: seasoned rice cooked with ingredients from the start (the ingredients and broth are added to raw rice before cooking)\n- チャーハン: fried rice (stir-fried in a wok with oil)\n- {寿司|すし}めし / 酢{飯|めし}: sushi rice (vinegar-seasoned mixed rice)",
+  "notes": "A rice dish where plain cooked rice is tossed with ingredients and seasonings. The key distinction from similar dishes: the mixing happens after cooking.\n\nSIMILAR WORDS:\n- ⟦{炊|た}き{込|こ}みご{飯|はん}→炊き込みご飯：05883_takikomigohan⟧: seasoned rice cooked with ingredients from the start (the ingredients and broth are added to raw rice before cooking)\n- ⟦チャーハン→チャーハン：17671_chaahan⟧: fried rice (stir-fried in a wok with oil)\n- ⟦{寿司|すし}→寿司：04946_sushi⟧めし / 酢{飯|めし}: sushi rice (vinegar-seasoned mixed rice)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05883_takikomigohan",
+      "reading": "たきこみごはん",
+      "headword": "{炊|た}き{込|こ}みご{飯|はん}",
+      "label": "seasoned rice cooked with ingredients…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17671_chaahan",
+      "reading": "ちゃーはん",
+      "headword": "チャーハン",
+      "label": "fried rice"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14460_sumeshi",
+      "reading": "すめし",
+      "headword": "{酢飯|すめし}",
+      "label": "sushi rice"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food"]
+      "semantic": [
+        "food"
+      ]
     },
     "created": "2026-06-09T06:03:47Z",
-    "modified": "2026-06-09T06:03:47Z"
+    "modified": "2026-09-02T04:02:35Z"
   }
 }

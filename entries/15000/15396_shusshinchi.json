@@ -15,41 +15,73 @@
   "examples": [
     {
       "id": "15396_shusshinchi_ex1",
-      "japanese": "{出身地|しゅっしんち}はどこですか。",
+      "japanese": "{出身地|しゅっしんち}⟦は→は：00079_ha⟧⟦どこ→どこ：00539_doko⟧です⟦か→か：09473_ka⟧。",
       "english": "Where are you from?",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15396_shusshinchi_ex2",
-      "japanese": "{私|わたし}の{出身地|しゅっしんち}は{北海道|ほっかいどう}です。",
+      "japanese": "⟦{私|わたし}→私：02988_watashi⟧⟦の→の：09472_no⟧{出身地|しゅっしんち}⟦は→は：00079_ha⟧⟦{北海道|ほっかいどう}→北海道：11010_hokkaidou⟧です。",
       "english": "My hometown is Hokkaido.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15396_shusshinchi_ex3",
-      "japanese": "{同|おな}じ{出身地|しゅっしんち}だと{分|わ}かって、すぐに{親|した}しくなった。",
+      "japanese": "⟦{同|おな}じ→同じ：02857_onaji⟧{出身地|しゅっしんち}だ⟦と→と：00512_to⟧⟦{分|わ}かって→分かる：00463_wakaru⟧、⟦すぐ→すぐ：00814_sugu⟧⟦に→に：00314_ni⟧⟦{親|した}しく→親しい：02345_shitashii⟧⟦なった→なる：01970_naru⟧。",
       "english": "When we found out we were from the same place, we became close right away.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\n{出身地|しゅっしんち} is a standard way to refer to one's place of origin. It is commonly asked about in {自己紹介|じこしょうかい} (self-introductions). For informal speech, {出身|しゅっしん}はどこ？ is more natural than the full compound.\n\nCOMMON COLLOCATIONS:\n- {出身地|しゅっしんち}を{聞|き}く (to ask about someone's hometown)\n- {出身地|しゅっしんち}が{同|おな}じ (to be from the same place)\n\nRELATED WORDS:\n{出身|しゅっしん} alone also means \"from\" or \"coming from\" and is used more broadly ({大学|だいがく}{出身|しゅっしん} — university graduate).",
-  "cross_references": [],
+  "notes": "USAGE:\n{出身地|しゅっしんち} is a standard way to refer to one's place of origin. It is commonly asked about in ⟦{自己紹介|じこしょうかい}→自己紹介：12331_jikoshoukai⟧ (self-introductions). For informal speech, ⟦{出身|しゅっしん}→出身：03221_shusshin⟧⟦は→は：00079_ha⟧⟦どこ→どこ：00539_doko⟧？ is more natural than the full compound.\n\nCOMMON COLLOCATIONS:\n- {出身地|しゅっしんち}⟦を→を：00422_wo⟧⟦{聞|き}く→聞く：00483_kiku⟧ (to ask about someone's hometown)\n- {出身地|しゅっしんち}⟦が→が：00051_ga⟧⟦{同|おな}じ→同じ：02857_onaji⟧ (to be from the same place)\n\nRELATED WORDS:\n⟦{出身|しゅっしん}→出身：03221_shusshin⟧ alone also means \"from\" or \"coming from\" and is used more broadly (⟦{大学|だいがく}→大学：00608_daigaku⟧⟦{出身|しゅっしん}→出身：03221_shusshin⟧ — university graduate).",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "02733_kokyou",
+      "reading": "こきょう",
+      "headword": "{故郷|こきょう}",
+      "label": "hometown, birthplace"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18863_kyouri",
+      "reading": "きょうり",
+      "headword": "{郷里|きょうり}",
+      "label": "hometown"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25466_furusato",
+      "reading": "ふるさと",
+      "headword": "{故郷|ふるさと}",
+      "label": "hometown"
+    }
+  ],
   "metadata": {
     "created": "2026-03-06T12:35:07Z",
-    "modified": "2026-03-06T12:35:07Z",
+    "modified": "2026-09-02T04:01:41Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["geography"]
+      "semantic": [
+        "geography"
+      ]
     }
   }
 }

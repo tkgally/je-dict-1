@@ -3,7 +3,7 @@
   "id": "18592_utagaibukai",
   "headword": "{疑|うたが}い{深|ぶか}い",
   "reading": "うたがいぶかい",
-  "part_of_speech": "adjective-i",
+  "part_of_speech": "i-adjective",
   "gloss": "distrustful; skeptical; suspicious",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "18592_utagaibukai_ex1",
-      "japanese": "{彼|かれ}は{疑|うたが}い{深|ぶか}い{性格|せいかく}だ。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{疑|うたが}い{深|ぶか}い⟦{性格|せいかく}→性格：03371_seikaku⟧だ。",
       "english": "He has a distrustful personality.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "18592_utagaibukai_ex2",
-      "japanese": "{疑|うたが}い{深|ぶか}い{目|め}でこちらを{見|み}ている。",
+      "japanese": "{疑|うたが}い{深|ぶか}い⟦{目|め}→目：00525_me⟧⟦で→で：00502_de⟧⟦こちら→こちら：00960_kochira⟧⟦を→を：00422_wo⟧⟦{見|み}ている→見る：00283_miru⟧。",
       "english": "He's looking at us with suspicious eyes.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "18592_utagaibukai_ex3",
-      "japanese": "あの{人|ひと}は{疑|うたが}い{深|ぶか}いから、{簡単|かんたん}には{信|しん}じてくれないだろう。",
+      "japanese": "⟦あの{人|ひと}→あの人：25922_anohito⟧⟦は→は：00079_ha⟧{疑|うたが}い{深|ぶか}い⟦から→から：00504_kara⟧、⟦{簡単|かんたん}→簡単：00713_kantan⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{信|しん}じて→信じる：01111_shinjiru⟧⟦くれない→くれる：00724_kureru⟧だろう。",
       "english": "That person is so skeptical that they probably won't believe us easily.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,26 @@
       ]
     }
   ],
-  "notes": "FORMATION:\nFollows the productive ～{深|ぶか}い pattern meaning \"deeply inclined toward ~\": {用心|ようじん}{深|ぶか}い (cautious), {信仰|しんこう}{深|ぶか}い (devout), {嫉妬|しっと}{深|ぶか}い (jealous).\n\nCOMMON COLLOCATIONS:\n- {疑|うたが}い{深|ぶか}い{性格|せいかく} (a distrustful personality)\n- {疑|うたが}い{深|ぶか}い{目|め} (suspicious eyes)\n- {疑|うたが}い{深|ぶか}い{人|ひと} (a skeptical person)\n\nSIMILAR WORDS:\n- {猜疑|さいぎ}{心|しん}が{強|つよ}い: suspicious-natured — more formal, emphasizes paranoia\n- {懐疑的|かいぎてき}: skeptical — more formal/academic, used for intellectual doubt\n- {用心|ようじん}{深|ぶか}い: cautious — focuses on carefulness rather than distrust",
-  "cross_references": [],
+  "notes": "FORMS:\nFollows the productive ～{深|ぶか}い pattern meaning \"deeply inclined toward ~\": ⟦{用心|ようじん}{深|ぶか}い→用心深い：16988_youjinbukai⟧ (cautious), ⟦{信仰|しんこう}→信仰：03685_shinkou⟧{深|ぶか}い (devout), ⟦{嫉妬|しっと}→嫉妬：05406_shitto⟧{深|ぶか}い (jealous).\n\nCOMMON COLLOCATIONS:\n- {疑|うたが}い{深|ぶか}い⟦{性格|せいかく}→性格：03371_seikaku⟧ (a distrustful personality)\n- {疑|うたが}い{深|ぶか}い⟦{目|め}→目：00525_me⟧ (suspicious eyes)\n- {疑|うたが}い{深|ぶか}い⟦{人|ひと}→人：00476_hito⟧ (a skeptical person)\n\nSIMILAR WORDS:\n- ⟦{猜疑|さいぎ}{心|しん}→猜疑心：21293_saigishin⟧⟦が→が：00051_ga⟧⟦{強|つよ}い→強い：00820_tsuyoi⟧: suspicious-natured — more formal, emphasizes paranoia\n- ⟦{懐疑的|かいぎてき}→懐疑的：09406_kaigiteki⟧: skeptical — more formal/academic, used for intellectual doubt\n- ⟦{用心|ようじん}{深|ぶか}い→用心深い：16988_youjinbukai⟧: cautious — focuses on carefulness rather than distrust",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09406_kaigiteki",
+      "reading": "かいぎてき",
+      "headword": "{懐疑的|かいぎてき}",
+      "label": "skeptical"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16988_youjinbukai",
+      "reading": "ようじんぶかい",
+      "headword": "{用心深|ようじんぶか}い",
+      "label": "cautious"
+    }
+  ],
   "metadata": {
     "created": "2026-03-22T09:49:19Z",
-    "modified": "2026-03-22T09:49:19Z",
+    "modified": "2026-09-02T04:01:52Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

@@ -20,7 +20,7 @@
   "examples": [
     {
       "id": "30372_nanjikan_ex1",
-      "japanese": "{何時間|なんじかん}かかりますか。",
+      "japanese": "{何時間|なんじかん}⟦かかります→かかる：00711_kakaru⟧⟦か→か：09473_ka⟧。",
       "english": "How many hours does it take?",
       "sense_numbers": [
         1
@@ -30,7 +30,7 @@
     },
     {
       "id": "30372_nanjikan_ex2",
-      "japanese": "{昨日|きのう}は{何時間|なんじかん}{寝|ね}ましたか。",
+      "japanese": "⟦{昨日|きのう}→昨日：00859_kinou⟧⟦は→は：00079_ha⟧{何時間|なんじかん}⟦{寝|ね}ました→寝る：00470_neru⟧⟦か→か：09473_ka⟧。",
       "english": "How many hours did you sleep last night?",
       "sense_numbers": [
         1
@@ -40,7 +40,7 @@
     },
     {
       "id": "30372_nanjikan_ex3",
-      "japanese": "{東京|とうきょう}から{大阪|おおさか}まで、{車|くるま}で{何時間|なんじかん}ぐらいかかるか{調|しら}べておいてください。",
+      "japanese": "⟦{東京|とうきょう}→東京：09564_toukyou⟧⟦から→から：00504_kara⟧⟦{大阪|おおさか}→大阪：09779_oosaka⟧⟦まで→まで：00490_made⟧、⟦{車|くるま}→車：00516_kuruma⟧⟦で→で：00502_de⟧{何時間|なんじかん}⟦ぐらい→ぐらい：02900_gurai⟧⟦かかる→かかる：00711_kakaru⟧⟦か→か：09473_ka⟧⟦{調|しら}べて→調べる：01213_shiraberu⟧おいて⟦ください→ください：02899_kudasai⟧。",
       "english": "Please look up roughly how many hours it takes from Tokyo to Osaka by car.",
       "sense_numbers": [
         1
@@ -50,7 +50,7 @@
     },
     {
       "id": "30372_nanjikan_ex4",
-      "japanese": "{何時間|なんじかん}も{待|ま}たされた。",
+      "japanese": "{何時間|なんじかん}⟦も→も：00484_mo⟧{待|ま}たされた。",
       "english": "I was kept waiting for hours.",
       "sense_numbers": [
         2
@@ -60,7 +60,7 @@
     },
     {
       "id": "30372_nanjikan_ex5",
-      "japanese": "{弟|おとうと}は{何時間|なんじかん}もゲームをしている。",
+      "japanese": "⟦{弟|おとうと}→弟：00572_otouto⟧⟦は→は：00079_ha⟧{何時間|なんじかん}⟦も→も：00484_mo⟧⟦ゲーム→ゲーム：03842_geemu⟧⟦を→を：00422_wo⟧⟦している→する：00392_suru⟧。",
       "english": "My little brother has been playing games for hours.",
       "sense_numbers": [
         2
@@ -70,7 +70,7 @@
     },
     {
       "id": "30372_nanjikan_ex6",
-      "japanese": "{結論|けつろん}が{出|で}ないまま{何時間|なんじかん}も{話|はな}し{合|あ}ったので、みんな{疲|つか}れきっていた。",
+      "japanese": "⟦{結論|けつろん}→結論：02704_ketsuron⟧⟦が→が：00051_ga⟧⟦{出|で}ない→出る：00513_deru⟧まま{何時間|なんじかん}⟦も→も：00484_mo⟧⟦{話|はな}し{合|あ}った→話し合う：02396_hanashiau⟧⟦の→の：09472_no⟧で、⟦みんな→みんな：02972_minna⟧⟦{疲|つか}れ→疲れる：00901_tsukareru⟧きって⟦いた→いる：00495_iru⟧。",
       "english": "We talked for hours without reaching a conclusion, so everyone was worn out.",
       "sense_numbers": [
         2
@@ -79,7 +79,7 @@
       "notes": null
     }
   ],
-  "notes": "Formed from {何|なん} (what, how many) + the counter {時間|じかん} (hours).\n\nCOMMON PATTERNS:\n- {何時間|なんじかん}かかる: to take how many hours\n- {何時間|なんじかん}も: for hours on end\n- {何時間|なんじかん}ぐらい: about how many hours\n\nSIMILAR WORDS:\n- {何時|なんじ}: what time — asks the point on the clock, not the length of time\n- {何分|なんぷん}: how many minutes — the same pattern for minutes\n- どのくらい: how long, how much — vaguer, and not limited to hours",
+  "notes": "Formed from ⟦{何|なん}→何〜：03100_nan⟧ (what, how many) + the counter ⟦{時間|じかん}→時間：00468_jikan⟧ (hours).\n\nCOMMON PATTERNS:\n- {何時間|なんじかん}⟦かかる→かかる：00711_kakaru⟧: to take how many hours\n- {何時間|なんじかん}⟦も→も：00484_mo⟧: for hours on end\n- {何時間|なんじかん}⟦ぐらい→ぐらい：02900_gurai⟧: about how many hours\n\nSIMILAR WORDS:\n- ⟦{何時|なんじ}→何時：00973_nanji⟧: what time — asks the point on the clock, not the length of time\n- ⟦{何分|なんぷん}→何分：30327_nanpun⟧: how many minutes — the same pattern for minutes\n- ⟦どの→どの：00551_dono⟧くらい: how long, how much — vaguer, and not limited to hours",
   "cross_references": [
     {
       "type": "contrast",
@@ -90,6 +90,13 @@
       "type": "related",
       "reading": "じかん",
       "headword": "{時間|じかん}"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30327_nanpun",
+      "reading": "なんぷん",
+      "headword": "{何分|なんぷん}",
+      "label": "how many minutes"
     }
   ],
   "schema_version": "2.0",
@@ -100,7 +107,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "time-general",
         "quantity"
@@ -108,6 +115,6 @@
       "domain": []
     },
     "created": "2026-08-03T18:24:25Z",
-    "modified": "2026-08-03T18:24:25Z"
+    "modified": "2026-09-02T04:02:39Z"
   }
 }

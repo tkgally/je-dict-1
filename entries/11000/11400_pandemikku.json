@@ -15,41 +15,75 @@
   "examples": [
     {
       "id": "11400_pandemikku_ex1",
-      "japanese": "パンデミックが{世界中|せかいじゅう}に{広|ひろ}がった。",
+      "japanese": "パンデミック⟦が→が：00051_ga⟧⟦{世界中|せかいじゅう}→世界中：10171_sekaijuu⟧⟦に→に：00314_ni⟧⟦{広|ひろ}がった→広がる：01980_hirogaru⟧。",
       "english": "The pandemic spread across the world.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11400_pandemikku_ex2",
-      "japanese": "パンデミックの{影響|えいきょう}で{在宅|ざいたく}{勤務|きんむ}が{増|ふ}えた。",
+      "japanese": "パンデミック⟦の→の：09472_no⟧⟦{影響|えいきょう}→影響：01877_eikyou⟧⟦で→で：00502_de⟧⟦{在宅|ざいたく}{勤務|きんむ}→在宅勤務：06158_zaitakukinmu⟧⟦が→が：00051_ga⟧⟦{増|ふ}えた→増える：01183_fueru⟧。",
       "english": "Remote work increased due to the pandemic.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11400_pandemikku_ex3",
-      "japanese": "パンデミックを{経験|けいけん}したことで、{感染症|かんせんしょう}{対策|たいさく}の{重要性|じゅうようせい}が{広|ひろ}く{認識|にんしき}されるようになった。",
+      "japanese": "パンデミック⟦を→を：00422_wo⟧⟦{経験|けいけん}→経験：01179_keiken⟧⟦した→する：00392_suru⟧ことで、⟦{感染症|かんせんしょう}→感染症：15681_kansenshou⟧⟦{対策|たいさく}→対策：02511_taisaku⟧⟦の→の：09472_no⟧⟦{重要性|じゅうようせい}→重要性：04823_juuyousei⟧⟦が→が：00051_ga⟧⟦{広|ひろ}く→広い：00704_hiroi⟧⟦{認識|にんしき}される→認識する：25356_ninshikisuru⟧ようになった。",
       "english": "Having experienced the pandemic, the importance of infectious disease countermeasures became widely recognized.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE: パンデミック is a loanword from English \"pandemic.\" While the word existed in medical terminology before, it entered everyday Japanese vocabulary during the COVID-19 crisis starting in 2020.\n\nCOMMON COLLOCATIONS:\n- パンデミックが{発生|はっせい}する (a pandemic breaks out)\n- パンデミックの{影響|えいきょう} (the effects of the pandemic)\n- パンデミック{対策|たいさく} (pandemic countermeasures)\n- パンデミック{前|まえ} / パンデミック{後|ご} (pre-pandemic / post-pandemic)\n- コロナパンデミック (the COVID pandemic)\n\nRELATED TERMS:\n- {感染症|かんせんしょう} (infectious disease)\n- {流行|りゅうこう} (epidemic, outbreak)\n- エピデミック (epidemic — more localized than a pandemic)",
-  "cross_references": [],
+  "notes": "USAGE: パンデミック is a loanword from English \"pandemic.\" While the word existed in medical terminology before, it entered everyday Japanese vocabulary during the COVID-19 crisis starting in 2020.\n\nCOMMON COLLOCATIONS:\n- パンデミック⟦が→が：00051_ga⟧⟦{発生|はっせい}する→発生する：25529_hasseisuru⟧ (a pandemic breaks out)\n- パンデミック⟦の→の：09472_no⟧⟦{影響|えいきょう}→影響：01877_eikyou⟧ (the effects of the pandemic)\n- パンデミック⟦{対策|たいさく}→対策：02511_taisaku⟧ (pandemic countermeasures)\n- パンデミック⟦{前|まえ}→前：02255_mae⟧ / パンデミック⟦{後|ご}→後：30157_go⟧ (pre-pandemic / post-pandemic)\n- ⟦コロナ→コロナ：28801_korona⟧パンデミック (the COVID pandemic)\n\nRELATED WORDS:\n- ⟦{感染症|かんせんしょう}→感染症：15681_kansenshou⟧ (infectious disease)\n- ⟦{流行|りゅうこう}→流行：03678_ryuukou⟧ (epidemic, outbreak)\n- エピデミック (epidemic — more localized than a pandemic)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "15681_kansenshou",
+      "reading": "かんせんしょう",
+      "headword": "{感染症|かんせんしょう}",
+      "label": "infectious disease"
+    },
+    {
+      "type": "related",
+      "target_id": "03678_ryuukou",
+      "reading": "りゅうこう",
+      "headword": "{流行|りゅうこう}",
+      "label": "epidemic, outbreak"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19965_dairyuukou",
+      "reading": "だいりゅうこう",
+      "headword": "{大流行|だいりゅうこう}",
+      "label": "huge craze"
+    }
+  ],
   "metadata": {
     "created": "2026-02-16T02:06:50Z",
-    "modified": "2026-02-16T02:06:50Z",
+    "modified": "2026-09-02T04:01:25Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["medical"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "medical"
+      ]
     }
   }
 }

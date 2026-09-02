@@ -5,21 +5,45 @@
   "reading": "こし",
   "part_of_speech": "noun",
   "gloss": "waste paper; used paper; recycled paper",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22826_saiseishi",
+      "reading": "さいせいし",
+      "headword": "{再生紙|さいせいし}",
+      "label": "recycled paper"
+    },
+    {
+      "type": "related",
+      "target_id": "04138_kamikuzu",
+      "reading": "かみくず",
+      "headword": "{紙屑|かみくず}",
+      "label": "wastepaper, scrap paper"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20415_shinbunshi",
+      "reading": "しんぶんし",
+      "headword": "{新聞紙|しんぶんし}",
+      "label": "newspaper (as material)"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "nature",
         "daily-life"
       ]
     },
     "created": "2026-04-03T19:21:58Z",
-    "modified": "2026-07-29T12:35:11Z"
+    "modified": "2026-09-02T04:02:05Z"
   },
-  "notes": "A compound of {古|こ} (old, used) and {紙|し} (paper). Common in environmental and recycling contexts. In Japan, waste paper collection is an important part of the detailed garbage separation system.\n\nCOMMON COLLOCATIONS:\n- {古紙|こし}{回収|かいしゅう}: waste paper collection\n- {古紙|こし}リサイクル: paper recycling\n- {古紙|こし}{配合率|はいごうりつ}: recycled paper content ratio\n- {古紙|こし}100パーセント: 100% recycled paper\n\nSIMILAR WORDS:\n- {再生紙|さいせいし}: recycled paper — emphasizes that the paper has been reprocessed\n- {廃紙|はいし}: waste paper — more formal, emphasizes discarding",
+  "notes": "A compound of {古|こ} (old, used) and {紙|し} (paper). Common in environmental and recycling contexts. In Japan, waste paper collection is an important part of the detailed garbage separation system.\n\nCOMMON COLLOCATIONS:\n- {古紙|こし}⟦{回収|かいしゅう}→回収：03019_kaishuu⟧: waste paper collection\n- {古紙|こし}⟦リサイクル→リサイクル：04624_risaikuru⟧: paper recycling\n- {古紙|こし}{配合率|はいごうりつ}: recycled paper content ratio\n- {古紙|こし}100⟦パーセント→パーセント：01537_paasento⟧: 100% recycled paper\n\nSIMILAR WORDS:\n- ⟦{再生紙|さいせいし}→再生紙：22826_saiseishi⟧: recycled paper — emphasizes that the paper has been reprocessed\n- {廃紙|はいし}: waste paper — more formal, emphasizes discarding",
   "definitions": [
     {
       "sense_number": 1,
@@ -30,7 +54,7 @@
   "examples": [
     {
       "id": "21849_koshi_ex1",
-      "japanese": "{古紙|こし}を{回収|かいしゅう}する。",
+      "japanese": "{古紙|こし}⟦を→を：00422_wo⟧⟦{回収|かいしゅう}する→回収する：21142_kaishuusuru⟧。",
       "english": "To collect waste paper.",
       "sense_numbers": [
         1
@@ -40,7 +64,7 @@
     },
     {
       "id": "21849_koshi_ex2",
-      "japanese": "{古紙|こし}はリサイクルに{出|だ}してください。",
+      "japanese": "{古紙|こし}⟦は→は：00079_ha⟧⟦リサイクル→リサイクル：04624_risaikuru⟧⟦に→に：00314_ni⟧⟦{出|だ}して→出す：01087_dasu⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please put waste paper out for recycling.",
       "sense_numbers": [
         1
@@ -50,7 +74,7 @@
     },
     {
       "id": "21849_koshi_ex3",
-      "japanese": "この{製品|せいひん}は{古紙|こし}100パーセントで{作|つく}られている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{製品|せいひん}→製品：01445_seihin⟧⟦は→は：00079_ha⟧{古紙|こし}100⟦パーセント→パーセント：01537_paasento⟧⟦で→で：00502_de⟧⟦{作|つく}られている→作る：00481_tsukuru⟧。",
       "english": "This product is made from 100% recycled paper.",
       "sense_numbers": [
         1

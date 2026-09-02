@@ -3,7 +3,7 @@
   "headword": "{再撮影|さいさつえい}",
   "reading": "さいさつえい",
   "romaji": "saisatsuei",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "retake; reshooting; rephotographing",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26497_saisatsuei_ex1",
-      "japanese": "{写真|しゃしん}がぼやけていたので{再撮影|さいさつえい}した。",
+      "japanese": "⟦{写真|しゃしん}→写真：00753_shashin⟧⟦が→が：00051_ga⟧⟦ぼやけていた→ぼやける：16967_boyakeru⟧⟦の→の：09472_no⟧で{再撮影|さいさつえい}⟦した→する：00392_suru⟧。",
       "english": "The photo was blurry, so I retook it.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26497_saisatsuei_ex2",
-      "japanese": "パスポートの{写真|しゃしん}が{基準|きじゅん}を{満|み}たさず、{再撮影|さいさつえい}を{求|もと}められた。",
+      "japanese": "⟦パスポート→パスポート：00341_pasupooto⟧⟦の→の：09472_no⟧⟦{写真|しゃしん}→写真：00753_shashin⟧⟦が→が：00051_ga⟧⟦{基準|きじゅん}→基準：00228_kijun⟧⟦を→を：00422_wo⟧⟦{満|み}たさ→満たす：09889_mitasu⟧ず、{再撮影|さいさつえい}⟦を→を：00422_wo⟧⟦{求|もと}められた→求める：02316_motomeru⟧。",
       "english": "My passport photo didn't meet the requirements, and I was asked to retake it.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26497_saisatsuei_ex3",
-      "japanese": "{監督|かんとく}は{演技|えんぎ}に{納得|なっとく}がいかず、{何度|なんど}も{再撮影|さいさつえい}を{繰|く}り{返|かえ}した。",
+      "japanese": "⟦{監督|かんとく}→監督：00185_kantoku⟧⟦は→は：00079_ha⟧⟦{演技|えんぎ}→演技：01890_engi⟧⟦に→に：00314_ni⟧⟦{納得|なっとく}→納得：03507_nattoku⟧がいかず、⟦{何度|なんど}→何度：17592_nando⟧⟦も→も：00484_mo⟧{再撮影|さいさつえい}⟦を→を：00422_wo⟧⟦{繰|く}り{返|かえ}した→繰り返す：02051_kurikaesu⟧。",
       "english": "The director wasn't satisfied with the acting and repeated the retake many times.",
       "sense_numbers": [
         1
@@ -44,8 +44,23 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {再|さい} (re-, again) and {撮影|さつえい} (photography, filming). The prefix {再|さい} is highly productive: {再確認|さいかくにん} (reconfirmation), {再検討|さいけんとう} (reconsideration), {再発行|さいはっこう} (reissuance). This word applies to both still photography and video/film production.\n\nCOMMON COLLOCATIONS:\n- {再撮影|さいさつえい}する: to retake/reshoot\n- {再撮影|さいさつえい}を{依頼|いらい}する: to request a retake\n- {再撮影|さいさつえい}が{必要|ひつよう}: a retake is needed\n\nSIMILAR WORDS:\n- {撮|と}り{直|なお}し: retake — the native Japanese equivalent, more colloquial and commonly used in everyday conversation\n- リテイク: retake — the English loanword, often used in film and TV production\n- {再録|さいろく}: re-recording — for audio or video recording rather than photography",
-  "cross_references": [],
+  "notes": "Composed of ⟦{再|さい}→再〜：03953_sai⟧ (re-, again) and ⟦{撮影|さつえい}→撮影：04175_satsuei⟧ (photography, filming). The prefix ⟦{再|さい}→再〜：03953_sai⟧ is highly productive: ⟦{再確認|さいかくにん}→再確認：16446_saikakunin⟧ (reconfirmation), ⟦{再検討|さいけんとう}→再検討：19102_saikentou⟧ (reconsideration), ⟦{再発行|さいはっこう}→再発行：18901_saihakkou⟧ (reissuance). This word applies to both still photography and video/film production.\n\nCOMMON COLLOCATIONS:\n- {再撮影|さいさつえい}⟦する→する：00392_suru⟧: to retake/reshoot\n- {再撮影|さいさつえい}⟦を→を：00422_wo⟧⟦{依頼|いらい}する→依頼する：21376_irai⟧: to request a retake\n- {再撮影|さいさつえい}⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧: a retake is needed\n\nSIMILAR WORDS:\n- ⟦{撮|と}り{直|なお}し→撮り直す：25509_torinaosu⟧: retake — the native Japanese equivalent, more colloquial and commonly used in everyday conversation\n- リテイク: retake — the English loanword, often used in film and TV production\n- {再録|さいろく}: re-recording — for audio or video recording rather than photography",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18634_torinaoshi",
+      "reading": "とりなおし",
+      "headword": "{撮|と}り{直|なお}し",
+      "label": "retake"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25509_torinaosu",
+      "reading": "とりなおす",
+      "headword": "{撮|と}り{直|なお}す",
+      "label": "to retake"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -62,7 +77,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-02T12:24:32Z",
-    "modified": "2026-05-02T12:24:32Z"
+    "modified": "2026-09-02T04:02:26Z"
   },
   "conjugation": {
     "type": "suru",

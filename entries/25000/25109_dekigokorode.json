@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25109_dekigokorode_ex1",
-      "japanese": "{出来心|できごころ}でやってしまった。",
+      "japanese": "{出来心|できごころ}で⟦やって→やる：02980_yaru⟧しまった。",
       "english": "I did it on impulse.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25109_dekigokorode_ex2",
-      "japanese": "{出来心|できごころ}で{万引|まんび}きをして{捕|つか}まった。",
+      "japanese": "{出来心|できごころ}で⟦{万引|まんび}き→万引き：16838_manbiki⟧⟦を→を：00422_wo⟧⟦して→する：00392_suru⟧⟦{捕|つか}まった→捕まる：01959_tsukamaru⟧。",
       "english": "I shoplifted on impulse and got caught.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25109_dekigokorode_ex3",
-      "japanese": "いくら{出来心|できごころ}でやったと{言|い}っても、{犯罪|はんざい}は{犯罪|はんざい}だ。",
+      "japanese": "いくら{出来心|できごころ}で⟦やった→やる：02980_yaru⟧⟦と→と：00512_to⟧⟦{言|い}って→言う：00515_iu⟧⟦も→も：00484_mo⟧、⟦{犯罪|はんざい}→犯罪：03569_hanzai⟧⟦は→は：00079_ha⟧⟦{犯罪|はんざい}→犯罪：03569_hanzai⟧だ。",
       "english": "No matter how much you say it was done on impulse, a crime is a crime.",
       "sense_numbers": [
         1
@@ -44,20 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "The noun {出来心|できごころ} means a sudden impulse or whim, especially one that leads to wrongdoing. It combines {出来|でき} (occurrence) and {心|こころ} (heart, mind). Almost always used with the particle で to form the adverbial phrase {出来心|できごころ}で. The word strongly implies that the action was not premeditated and is often used as an excuse or mitigating explanation.\n\nCOMMON COLLOCATIONS:\n- {出来心|できごころ}で{盗|ぬす}む: to steal on impulse\n- {出来心|できごころ}から: out of a sudden impulse\n- ほんの{出来心|できごころ}: just a momentary impulse\n- {出来心|できごころ}とはいえ: even though it was on impulse\n\nSIMILAR WORDS:\n- {衝動的|しょうどうてき}に: impulsively — a more neutral term for acting on impulse\n- つい: unintentionally, without meaning to — milder, for small slips\n- {魔|ま}が{差|さ}す: to be tempted by the devil — yielding to a momentary bad impulse",
+  "notes": "The noun ⟦{出来心|できごころ}→出来心：10598_dekigokoro⟧ means a sudden impulse or whim, especially one that leads to wrongdoing. It combines ⟦{出来|でき}→出来：11763_deki⟧ (occurrence) and ⟦{心|こころ}→心：01321_kokoro⟧ (heart, mind). Almost always used with the particle で to form the adverbial phrase {出来心|できごころ}で. The word strongly implies that the action was not premeditated and is often used as an excuse or mitigating explanation.\n\nCOMMON COLLOCATIONS:\n- {出来心|できごころ}で⟦{盗|ぬす}む→盗む：01166_nusumu⟧: to steal on impulse\n- ⟦{出来心|できごころ}→出来心：10598_dekigokoro⟧⟦から→から：00504_kara⟧: out of a sudden impulse\n- ⟦ほんの→ほんの：22755_honno⟧⟦{出来心|できごころ}→出来心：10598_dekigokoro⟧: just a momentary impulse\n- ⟦{出来心|できごころ}→出来心：10598_dekigokoro⟧⟦とはいえ→とはいえ：06282_tohaie⟧: even though it was on impulse\n\nSIMILAR WORDS:\n- ⟦{衝動的|しょうどうてき}→衝動的：06241_shoudouteki⟧⟦に→に：00314_ni⟧: impulsively — a more neutral term for acting on impulse\n- つい: unintentionally, without meaning to — milder, for small slips\n- ⟦{魔|ま}→魔：19358_ma⟧⟦が→が：00051_ga⟧⟦{差|さ}す→差す：17637_sasu⟧: to be tempted by the devil — yielding to a momentary bad impulse",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06241_shoudouteki",
+      "reading": "しょうどうてき",
+      "headword": "{衝動的|しょうどうてき}",
+      "label": "impulsively"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "expression"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "emotion",
         "action"
       ]
     },
     "created": "2026-04-22T14:47:31Z",
-    "modified": "2026-08-04T12:59:53Z"
+    "modified": "2026-09-02T04:02:21Z"
   }
 }

@@ -19,7 +19,7 @@
   "examples": [
     {
       "id": "05917_shikakui_ex1",
-      "japanese": "{四角|しかく}い⟦{箱|はこ}→箱：02162_hako⟧⟦に→に：00314_ni⟧⟦{入|い}れて→入れる：01098_ireru⟧ください。",
+      "japanese": "{四角|しかく}い⟦{箱|はこ}→箱：02162_hako⟧⟦に→に：00314_ni⟧⟦{入|い}れて→入れる：01098_ireru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please put it in the square box.",
       "notes": null,
       "has_audio": false,
@@ -69,7 +69,7 @@
     },
     {
       "id": "05917_shikakui_ex6",
-      "japanese": "⟦もう→もう：00602_mou⟧⟦{少|すこ}し→少し：00596_sukoshi⟧{四角|しかく}くない⟦{話|はな}し{方|かた}→話し方：15767_hanashikata⟧⟦を→を：00422_wo⟧⟦した{方|ほう}がいいよ→方がいい：10078_hougaii⟧。",
+      "japanese": "⟦もう→もう：00602_mou⟧⟦{少|すこ}し→少し：00596_sukoshi⟧{四角|しかく}く⟦ない→ない：01118_nai⟧⟦{話|はな}し{方|かた}→話し方：15767_hanashikata⟧⟦を→を：00422_wo⟧⟦した{方|ほう}がいいよ→方がいい：10078_hougaii⟧。",
       "english": "You should speak in a less stiff way.",
       "notes": null,
       "has_audio": false,
@@ -78,7 +78,7 @@
       ]
     }
   ],
-  "notes": "{四角|しかく}い is the everyday adjective for describing square or rectangular shapes. It covers both squares and rectangles — any shape with four corners.\n\nCOMMON PATTERNS:\n- {四角|しかく}い⟦{箱|はこ}→箱：02162_hako⟧: square/rectangular box\n- {四角|しかく}い⟦{顔|かお}→顔：00558_kao⟧: square/angular face\n- {四角|しかく}い⟦テーブル→テーブル：04488_teeburu⟧: rectangular table\n- {四角|しかく}く⟦{切|き}る→切る：02693_kiru⟧: to cut into a square shape\n\nFIGURATIVE USAGE:\nDescribes a rigid, overly formal personality: {四角|しかく}い⟦{考|かんが}え{方|かた}→考え方：10169_kangaekata⟧ (rigid thinking). The four-character compound ⟦{四角四面|しかくしめん}→四角四面：noentry⟧ means \"extremely stiff and formal.\"\n\nRELATED SHAPE ADJECTIVES:\n- ⟦{丸|まる}い→丸い：02967_marui⟧: round\n- ⟦{細長|ほそなが}い→細長い：06670_hosonagai⟧: long and thin\n- ⟦{平|たい}ら→平ら：03399_taira⟧: flat",
+  "notes": "{四角|しかく}い is the everyday adjective for describing square or rectangular shapes. It covers both squares and rectangles — any shape with four corners.\n\nCOMMON PATTERNS:\n- {四角|しかく}い⟦{箱|はこ}→箱：02162_hako⟧: square/rectangular box\n- {四角|しかく}い⟦{顔|かお}→顔：00558_kao⟧: square/angular face\n- {四角|しかく}い⟦テーブル→テーブル：04488_teeburu⟧: rectangular table\n- {四角|しかく}く⟦{切|き}る→切る：02693_kiru⟧: to cut into a square shape\n\nUSAGE:\nDescribes a rigid, overly formal personality: {四角|しかく}い⟦{考|かんが}え{方|かた}→考え方：10169_kangaekata⟧ (rigid thinking). The four-character compound ⟦{四角四面|しかくしめん}→四角四面：noentry⟧ means \"extremely stiff and formal.\"\n\nRELATED SHAPE ADJECTIVES:\n- ⟦{丸|まる}い→丸い：02967_marui⟧: round\n- ⟦{細長|ほそなが}い→細長い：06670_hosonagai⟧: long and thin\n- ⟦{平|たい}ら→平ら：03399_taira⟧: flat",
   "cross_references": [
     {
       "type": "contrast",
@@ -86,11 +86,32 @@
       "reading": "まるい",
       "headword": "{丸|まる}い",
       "label": "round"
+    },
+    {
+      "type": "related",
+      "target_id": "06670_hosonagai",
+      "reading": "ほそながい",
+      "headword": "{細長|ほそなが}い",
+      "label": "long and thin"
+    },
+    {
+      "type": "related",
+      "target_id": "03399_taira",
+      "reading": "たいら",
+      "headword": "{平|たい}ら",
+      "label": "flat"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22518_kakubaru",
+      "reading": "かくばる",
+      "headword": "{角張|かくば}る",
+      "label": "to be angular"
     }
   ],
   "metadata": {
     "created": "2026-01-16T14:51:32Z",
-    "modified": "2026-06-08T21:08:00Z",
+    "modified": "2026-09-02T04:01:07Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

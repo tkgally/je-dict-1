@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "11749_nairan_ex1",
-      "japanese": "{国内|こくない}で{内乱|ないらん}が{起|お}きた。",
+      "japanese": "⟦{国内|こくない}→国内：02998_kokunai⟧⟦で→で：00502_de⟧{内乱|ないらん}⟦が→が：00051_ga⟧⟦{起|お}きた→起きる：00521_okiru⟧。",
       "english": "A civil war broke out within the country.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11749_nairan_ex2",
-      "japanese": "{内乱|ないらん}により{多|おお}くの{市民|しみん}が{避難|ひなん}した。",
+      "japanese": "{内乱|ないらん}⟦に→に：00314_ni⟧⟦より→より：09476_yori⟧{多|おお}く⟦の→の：09472_no⟧⟦{市民|しみん}→市民：01426_shimin⟧⟦が→が：00051_ga⟧⟦{避難|ひなん}した→避難する：26827_hinansuru⟧。",
       "english": "Many citizens evacuated due to the civil war.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11749_nairan_ex3",
-      "japanese": "その{国|くに}は{長年|ながねん}の{内乱|ないらん}で{経済|けいざい}が{壊滅的|かいめつてき}な{打撃|だげき}を{受|う}けた。",
+      "japanese": "⟦その→その：00993_sono⟧⟦{国|くに}→国：02204_kuni⟧⟦は→は：00079_ha⟧⟦{長年|ながねん}→長年：09684_naganen⟧⟦の→の：09472_no⟧{内乱|ないらん}⟦で→で：00502_de⟧⟦{経済|けいざい}→経済：01394_keizai⟧⟦が→が：00051_ga⟧⟦{壊滅的|かいめつてき}→壊滅的：06389_kaimetsuteki⟧な⟦{打撃|だげき}→打撃：12775_dageki⟧⟦を→を：00422_wo⟧⟦{受|う}けた→受ける：01215_ukeru⟧。",
       "english": "The country's economy suffered devastating damage from years of civil war.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "Compound of {内|ない} (inside, internal) + {乱|らん} (disorder, rebellion). A formal term used in news, historical, and legal contexts.\n\nCOMMON COLLOCATIONS:\n・{内乱|ないらん}が{起|お}きる (a civil war breaks out)\n・{内乱|ないらん}{状態|じょうたい} (state of civil war)\n・{内乱|ないらん}{罪|ざい} (crime of insurrection — legal term)\n・{内乱|ないらん}を{鎮圧|ちんあつ}する (to suppress a civil war)\n\nDISTINCTIONS:\n・{内乱|ないらん}: civil war or uprising within a country (formal, legal)\n・{内戦|ないせん}: civil war (more commonly used in modern news)\n・{反乱|はんらん}: rebellion, revolt (emphasis on defiance against authority)\n・{紛争|ふんそう}: conflict, dispute (broader term, not necessarily armed)",
+  "notes": "Compound of ⟦{内|ない}→〜内：09853_nai⟧ (inside, internal) + {乱|らん} (disorder, rebellion). A formal term used in news, historical, and legal contexts.\n\nCOMMON COLLOCATIONS:\n- {内乱|ないらん}⟦が→が：00051_ga⟧⟦{起|お}きる→起きる：00521_okiru⟧ (a civil war breaks out)\n- {内乱|ないらん}⟦{状態|じょうたい}→状態：03345_joutai⟧ (state of civil war)\n- {内乱|ないらん}{罪|ざい} (crime of insurrection — legal term)\n- {内乱|ないらん}⟦を→を：00422_wo⟧⟦{鎮圧|ちんあつ}→鎮圧：14542_chinatsu⟧⟦する→する：00392_suru⟧ (to suppress a civil war)\n\nSIMILAR WORDS:\n- {内乱|ないらん}: civil war or uprising within a country (formal, legal)\n- ⟦{内戦|ないせん}→内戦：19875_naisen⟧: civil war (more commonly used in modern news)\n- ⟦{反乱|はんらん}→反乱：11860_hanran⟧: rebellion, revolt (emphasis on defiance against authority)\n- ⟦{紛争|ふんそう}→紛争：05758_funsou⟧: conflict, dispute (broader term, not necessarily armed)",
   "cross_references": [
     {
       "type": "homophone",
@@ -67,18 +73,31 @@
       "reading": "ふんそう",
       "headword": "{紛争|ふんそう}",
       "label": "conflict, dispute"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23902_souran",
+      "reading": "そうらん",
+      "headword": "{騒乱|そうらん}",
+      "label": "disturbance"
     }
   ],
   "metadata": {
     "created": "2026-02-17T22:53:30Z",
-    "modified": "2026-04-25T08:21:10Z",
+    "modified": "2026-09-02T04:01:26Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["legal"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "legal"
+      ]
     }
   }
 }

@@ -3,7 +3,7 @@
   "headword": "{制作|せいさく}する",
   "reading": "せいさくする",
   "romaji": "seisakusuru",
-  "part_of_speech": "verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "to produce; to create; to make (a work)",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25535_seisakusuru_ex1",
-      "japanese": "{映画|えいが}を{制作|せいさく}する。",
+      "japanese": "⟦{映画|えいが}→映画：02273_eiga⟧⟦を→を：00422_wo⟧{制作|せいさく}する。",
       "english": "I produce a film.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25535_seisakusuru_ex2",
-      "japanese": "このアニメは{日本|にほん}の{会社|かいしゃ}が{制作|せいさく}した。",
+      "japanese": "⟦この→この：00962_kono⟧⟦アニメ→アニメ：01527_anime⟧⟦は→は：00079_ha⟧⟦{日本|にほん}→日本：03876_nihon⟧⟦の→の：09472_no⟧⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦が→が：00051_ga⟧{制作|せいさく}した。",
       "english": "This anime was produced by a Japanese company.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25535_seisakusuru_ex3",
-      "japanese": "{学生|がくせい}たちが{協力|きょうりょく}して{短編|たんぺん}{映画|えいが}を{制作|せいさく}している。",
+      "japanese": "⟦{学生|がくせい}→学生：00610_gakusei⟧たち⟦が→が：00051_ga⟧⟦{協力|きょうりょく}して→協力する：25370_kyouryokusuru⟧⟦{短編|たんぺん}→短編：04512_tanpen⟧⟦{映画|えいが}→映画：02273_eiga⟧⟦を→を：00422_wo⟧{制作|せいさく}して⟦いる→いる：00495_iru⟧。",
       "english": "The students are working together to produce a short film.",
       "sense_numbers": [
         1
@@ -44,8 +44,30 @@
       "notes": null
     }
   ],
-  "notes": "{制作|せいさく}する is used for creative and media production — films, TV shows, artworks, games, and advertisements. It implies an organized production process. Note the distinction from the near-homophone {製作|せいさく}する, which focuses on manufacturing physical products.\n\nUSAGE:\n- ～を{制作|せいさく}する: to produce/create something\n\nCOMMON COLLOCATIONS:\n- {映画|えいが}を{制作|せいさく}する: to produce a film\n- {番組|ばんぐみ}を{制作|せいさく}する: to produce a program\n- {作品|さくひん}を{制作|せいさく}する: to create a work\n- {制作|せいさく}{費|ひ}: production cost\n- {制作|せいさく}{者|しゃ}: producer; creator\n- {制作|せいさく}{過程|かてい}: production process\n\nSIMILAR WORDS:\n- {製作|せいさく}する: to manufacture; to produce — same pronunciation but uses a different kanji; focuses on making physical goods or industrial products\n- {作成|さくせい}する: to create; to prepare — used for documents, plans, and data; more routine and less creative\n- {製造|せいぞう}する: to manufacture — industrial mass production of goods",
-  "cross_references": [],
+  "notes": "{制作|せいさく}する is used for creative and media production — films, TV shows, artworks, games, and advertisements. It implies an organized production process. Note the distinction from the near-homophone ⟦{製作|せいさく}→製作：04322_seisaku⟧⟦する→する：00392_suru⟧, which focuses on manufacturing physical products.\n\nUSAGE:\n- ～⟦を→を：00422_wo⟧{制作|せいさく}する: to produce/create something\n\nCOMMON COLLOCATIONS:\n- ⟦{映画|えいが}→映画：02273_eiga⟧⟦を→を：00422_wo⟧{制作|せいさく}する: to produce a film\n- ⟦{番組|ばんぐみ}→番組：01705_bangumi⟧⟦を→を：00422_wo⟧{制作|せいさく}する: to produce a program\n- ⟦{作品|さくひん}→作品：02776_sakuhin⟧⟦を→を：00422_wo⟧{制作|せいさく}する: to create a work\n- ⟦{制作|せいさく}→制作：04320_seisaku⟧⟦{費|ひ}→費：09877_hi⟧: production cost\n- ⟦{制作|せいさく}{者|しゃ}→制作者：23765_seisakusha⟧: producer; creator\n- ⟦{制作|せいさく}→制作：04320_seisaku⟧⟦{過程|かてい}→過程：02621_katei⟧: production process\n\nSIMILAR WORDS:\n- ⟦{製作|せいさく}→製作：04322_seisaku⟧⟦する→する：00392_suru⟧: to manufacture; to produce — same pronunciation but uses a different kanji; focuses on making physical goods or industrial products\n- ⟦{作成|さくせい}する→作成する：25378_sakuseisuru⟧: to create; to prepare — used for documents, plans, and data; more routine and less creative\n- ⟦{製造|せいぞう}→製造：03289_seizou⟧⟦する→する：00392_suru⟧: to manufacture — industrial mass production of goods",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04322_seisaku",
+      "reading": "せいさく",
+      "headword": "{製作|せいさく}",
+      "label": "to manufacture"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25378_sakuseisuru",
+      "reading": "さくせいする",
+      "headword": "{作成|さくせい}する",
+      "label": "to create"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03289_seizou",
+      "reading": "せいぞう",
+      "headword": "{製造|せいぞう}",
+      "label": "to manufacture"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -54,6 +76,8 @@
         "noun",
         "verb-suru"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "creation",
         "art"
@@ -62,7 +86,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-25T16:15:14Z",
-    "modified": "2026-04-25T16:15:14Z"
+    "modified": "2026-09-02T04:02:22Z"
   },
   "conjugation": {
     "type": "suru",

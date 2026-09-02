@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08896_jiikee_ex1",
-      "japanese": "GKがシュートを{止|と}めた。",
+      "japanese": "GK⟦が→が：00051_ga⟧⟦シュート→シュート：05926_shuuto⟧⟦を→を：00422_wo⟧⟦{止|と}めた→止める：00678_tomeru⟧。",
       "english": "The goalkeeper stopped the shot.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "08896_jiikee_ex2",
-      "japanese": "{彼|かれ}は{代表|だいひょう}チームのGKだ。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{代表|だいひょう}→代表：03419_daihyou⟧⟦チーム→チーム：03858_chiimu⟧⟦の→の：09472_no⟧GKだ。",
       "english": "He is the national team's goalkeeper.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "08896_jiikee_ex3",
-      "japanese": "GKの{好|こう}セーブで{失点|しってん}を{防|ふせ}いだ。",
+      "japanese": "GK⟦の→の：09472_no⟧{好|こう}⟦セーブ→セーブ：11030_seebu⟧⟦で→で：00502_de⟧⟦{失点|しってん}→失点：19150_shitten⟧⟦を→を：00422_wo⟧⟦{防|ふせ}いだ→防ぐ：02409_fusegu⟧。",
       "english": "The goalkeeper's great save prevented a goal.",
       "notes": null,
       "has_audio": false,
@@ -43,11 +43,26 @@
       ]
     }
   ],
-  "notes": "GK stands for Goalkeeper. It is the standard abbreviation in soccer/football.\n\nCOMMON COLLOCATIONS:\n- GKの{好|こう}セーブ: goalkeeper's great save\n- {正|せい}GK: starting goalkeeper\n- {控|ひか}えGK: backup goalkeeper\n- GKコーチ: goalkeeper coach\n\nALTERNATIVE TERMS:\n- ゴールキーパー: goalkeeper (full word)\n- キーパー: keeper (shortened)\n- ゴーリー: goalie\n\nSOCCER POSITIONS:\n- GK: goalkeeper\n- DF: defender\n- MF: midfielder\n- FW: forward",
-  "cross_references": [],
+  "notes": "GK stands for Goalkeeper. It is the standard abbreviation in soccer/football.\n\nCOMMON COLLOCATIONS:\n- GK⟦の→の：09472_no⟧{好|こう}⟦セーブ→セーブ：11030_seebu⟧: goalkeeper's great save\n- ⟦{正|せい}→正：09511_sei⟧GK: starting goalkeeper\n- ⟦{控|ひか}え→控える：10054_hikaeru⟧GK: backup goalkeeper\n- GK⟦コーチ→コーチ：03844_koochi⟧: goalkeeper coach\n\nALTERNATIVE TERMS:\n- ⟦ゴールキーパー→ゴールキーパー：06585_goorukiipaa⟧: goalkeeper (full word)\n- ⟦キーパー→キーパー：24417_kiipaa⟧: keeper (shortened)\n- ゴーリー: goalie\n\nSOCCER POSITIONS:\n- GK: goalkeeper\n- DF: defender\n- MF: midfielder\n- FW: forward",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06585_goorukiipaa",
+      "reading": "ごーるきーぱー",
+      "headword": "ゴールキーパー",
+      "label": "goalkeeper"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24417_kiipaa",
+      "reading": "きーぱー",
+      "headword": "キーパー",
+      "label": "keeper"
+    }
+  ],
   "metadata": {
     "created": "2026-01-29T02:54:05Z",
-    "modified": "2026-06-23T01:38:10Z",
+    "modified": "2026-09-02T04:01:16Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

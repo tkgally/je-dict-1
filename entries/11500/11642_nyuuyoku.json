@@ -2,7 +2,7 @@
   "id": "11642_nyuuyoku",
   "headword": "{入浴|にゅうよく}",
   "reading": "にゅうよく",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "bathing, taking a bath",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "11642_nyuuyoku_ex1",
-      "japanese": "{食事|しょくじ}の{前|まえ}に{入浴|にゅうよく}する。",
+      "japanese": "⟦{食事|しょくじ}→食事：02087_shokuji⟧⟦の→の：09472_no⟧⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧{入浴|にゅうよく}⟦する→する：00392_suru⟧。",
       "english": "Take a bath before the meal.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "11642_nyuuyoku_ex2",
-      "japanese": "{入浴|にゅうよく}{後|ご}は{水分|すいぶん}を{補給|ほきゅう}してください。",
+      "japanese": "{入浴|にゅうよく}⟦{後|ご}→後：30157_go⟧⟦は→は：00079_ha⟧⟦{水分|すいぶん}→水分：04302_suibun⟧⟦を→を：00422_wo⟧⟦{補給|ほきゅう}→補給：14055_hokyuu⟧⟦して→する：00392_suru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please hydrate after bathing.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "11642_nyuuyoku_ex3",
-      "japanese": "この{温泉|おんせん}{旅館|りょかん}では、{露天風呂|ろてんぶろ}での{入浴|にゅうよく}が{楽|たの}しめる。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{温泉|おんせん}{旅館|りょかん}→温泉旅館：25209_onsenryokan⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧、⟦{露天風呂|ろてんぶろ}→露天風呂：14611_rotenburo⟧⟦で→で：00502_de⟧⟦の→の：09472_no⟧{入浴|にゅうよく}⟦が→が：00051_ga⟧⟦{楽|たの}しめる→楽しむ：01203_tanoshimu⟧。",
       "english": "At this hot spring inn, you can enjoy bathing in an open-air bath.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,33 @@
       ]
     }
   ],
-  "notes": "A formal word for bathing. In everyday conversation, お{風呂|ふろ}に{入|はい}る is more common.\n\nCOMMON COLLOCATIONS:\n・{入浴|にゅうよく}する (take a bath)\n・{入浴|にゅうよく}{剤|ざい} (bath salts/additives)\n・{入浴|にゅうよく}{時間|じかん} (bathing time)\n・{入浴|にゅうよく}{後|ご} (after bathing)\n・{入浴|にゅうよく}{中|ちゅう} (currently bathing)\n・{入浴|にゅうよく}{介助|かいじょ} (bathing assistance — nursing/care context)\n\nIn medical and caregiving contexts, {入浴|にゅうよく} is the standard term rather than the casual お{風呂|ふろ}.",
-  "cross_references": [],
+  "notes": "A formal word for bathing. In everyday conversation, ⟦お{風呂|ふろ}→お風呂：00802_ofuro⟧⟦に→に：00314_ni⟧⟦{入|はい}る→入る：00494_hairu⟧ is more common.\n\nCOMMON COLLOCATIONS:\n- {入浴|にゅうよく}⟦する→する：00392_suru⟧ (take a bath)\n- {入浴|にゅうよく}{剤|ざい} (bath salts/additives)\n- {入浴|にゅうよく}⟦{時間|じかん}→時間：00468_jikan⟧ (bathing time)\n- {入浴|にゅうよく}⟦{後|ご}→後：30157_go⟧ (after bathing)\n- {入浴|にゅうよく}⟦{中|ちゅう}→〜中：09840_chuu⟧ (currently bathing)\n- {入浴|にゅうよく}⟦{介助|かいじょ}→介助：18633_kaijo⟧ (bathing assistance — nursing/care context)\n\nIn medical and caregiving contexts, {入浴|にゅうよく} is the standard term rather than the casual ⟦お{風呂|ふろ}→お風呂：00802_ofuro⟧.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "21203_nikkouyoku",
+      "reading": "にっこうよく",
+      "headword": "{日光浴|にっこうよく}",
+      "label": "sunbathing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24020_sokuyoku",
+      "reading": "そくよく",
+      "headword": "{足浴|そくよく}",
+      "label": "foot bath"
+    },
+    {
+      "type": "related",
+      "target_id": "26328_senyoku",
+      "reading": "せんよく",
+      "headword": "{洗浴|せんよく}",
+      "label": "washing and bathing"
+    }
+  ],
   "metadata": {
     "created": "2026-02-17T18:35:29Z",
-    "modified": "2026-07-01T21:30:49Z",
+    "modified": "2026-09-02T04:01:25Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

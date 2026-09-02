@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08631_hinpan_ex1",
-      "japanese": "{頻繁|ひんぱん}に{連絡|れんらく}を{取|と}る。",
+      "japanese": "{頻繁|ひんぱん}⟦に→に：00314_ni⟧⟦{連絡|れんらく}→連絡：01524_renraku⟧⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧。",
       "english": "I stay in frequent contact.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "08631_hinpan_ex2",
-      "japanese": "この{道路|どうろ}は{事故|じこ}が{頻繁|ひんぱん}に{起|お}きる。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{道路|どうろ}→道路：01481_douro⟧⟦は→は：00079_ha⟧⟦{事故|じこ}→事故：00851_jiko⟧⟦が→が：00051_ga⟧{頻繁|ひんぱん}⟦に→に：00314_ni⟧⟦{起|お}きる→起きる：00521_okiru⟧。",
       "english": "Accidents occur frequently on this road.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "08631_hinpan_ex3",
-      "japanese": "{最近|さいきん}、{彼|かれ}との{頻繁|ひんぱん}なやり{取|と}りで{疲|つか}れている。",
+      "japanese": "⟦{最近|さいきん}→最近：00881_saikin⟧、⟦{彼|かれ}→彼：01292_kare⟧⟦と→と：00512_to⟧⟦の→の：09472_no⟧{頻繁|ひんぱん}な⟦やり{取|と}り→やり取り：07702_yaritori⟧⟦で→で：00502_de⟧⟦{疲|つか}れている→疲れる：00901_tsukareru⟧。",
       "english": "Recently, I'm tired from frequent exchanges with him.",
       "sense_numbers": [
         1
@@ -43,7 +43,30 @@
       "notes": null
     }
   ],
-  "notes": "{頻繁|ひんぱん} is a na-adjective meaning frequent or repeated, implying things happen at short intervals.\n\nFORMS:\n- {頻繁|ひんぱん}な〜: frequent (modifier)\n- {頻繁|ひんぱん}に: frequently (adverb — this is the most common form)\n\nCOMMON COLLOCATIONS:\n- {頻繁|ひんぱん}な{更新|こうしん}: frequent updates\n- {頻繁|ひんぱん}な{連絡|れんらく}: frequent contact\n- {頻繁|ひんぱん}に{利用|りよう}する: to use frequently\n- {頻繁|ひんぱん}に{起|お}きる: to occur frequently\n\nSIMILAR WORDS:\n- よく: often (casual, everyday)\n- しばしば: often (literary, written)\n- たびたび: repeatedly, time and again\n- ひっきりなしに: incessantly, without pause\n\nREGISTER:\nSomewhat formal. In casual speech, よく is more natural. {頻繁|ひんぱん} is common in news, reports, and written Japanese.",
+  "notes": "{頻繁|ひんぱん} is a na-adjective meaning frequent or repeated, implying things happen at short intervals.\n\nFORMS:\n- {頻繁|ひんぱん}な〜: frequent (modifier)\n- {頻繁|ひんぱん}⟦に→に：00314_ni⟧: frequently (adverb — this is the most common form)\n\nCOMMON COLLOCATIONS:\n- {頻繁|ひんぱん}な⟦{更新|こうしん}→更新：04765_koushin⟧: frequent updates\n- {頻繁|ひんぱん}な⟦{連絡|れんらく}→連絡：01524_renraku⟧: frequent contact\n- {頻繁|ひんぱん}⟦に→に：00314_ni⟧⟦{利用|りよう}する→利用する：21735_riyousuru⟧: to use frequently\n- {頻繁|ひんぱん}⟦に→に：00314_ni⟧⟦{起|お}きる→起きる：00521_okiru⟧: to occur frequently\n\nSIMILAR WORDS:\n- ⟦よく→よく：00601_yoku⟧: often (casual, everyday)\n- ⟦しばしば→しばしば：02365_shibashiba⟧: often (literary, written)\n- ⟦たびたび→たびたび：00397_tabitabi⟧: repeatedly, time and again\n- ⟦ひっきりなしに→ひっきりなしに：20411_hikkirinashini⟧: incessantly, without pause\n\nREGISTER:\nSomewhat formal. In casual speech, ⟦よく→よく：00601_yoku⟧ is more natural. {頻繁|ひんぱん} is common in news, reports, and written Japanese.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14670_hinpatsu",
+      "reading": "ひんぱつ",
+      "headword": "{頻発|ひんぱつ}",
+      "label": "frequent occurrence"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20508_tahatsu",
+      "reading": "たはつ",
+      "headword": "{多発|たはつ}",
+      "label": "frequent occurrence"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26684_tahatsuteki",
+      "reading": "たはつてき",
+      "headword": "{多発的|たはつてき}",
+      "label": "frequent"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -51,12 +74,13 @@
         "adjective-na"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "descriptive",
         "time-general"
       ]
     },
     "created": "2026-01-27T13:14:45Z",
-    "modified": "2026-06-22T12:50:00Z"
+    "modified": "2026-09-02T04:01:15Z"
   }
 }

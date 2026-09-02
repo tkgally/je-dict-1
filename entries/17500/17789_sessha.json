@@ -3,7 +3,7 @@
   "id": "17789_sessha",
   "headword": "{接写|せっしゃ}",
   "reading": "せっしゃ",
-  "part_of_speech": "noun / verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "close-up photography; macro photography",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "17789_sessha_ex1",
-      "japanese": "{花|はな}を{接写|せっしゃ}した。",
+      "japanese": "⟦{花|はな}→花：00523_hana⟧⟦を→を：00422_wo⟧{接写|せっしゃ}⟦した→する：00392_suru⟧。",
       "english": "I took a close-up photo of the flower.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "17789_sessha_ex2",
-      "japanese": "{接写|せっしゃ}すると{虫|むし}の{細部|さいぶ}まで{見|み}える。",
+      "japanese": "{接写|せっしゃ}⟦する→する：00392_suru⟧⟦と→と：00512_to⟧⟦{虫|むし}→虫：02262_mushi⟧⟦の→の：09472_no⟧⟦{細部|さいぶ}→細部：20562_saibu⟧⟦まで→まで：00490_made⟧⟦{見|み}える→見える：01165_mieru⟧。",
       "english": "With close-up photography, you can see the fine details of insects.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "17789_sessha_ex3",
-      "japanese": "{接写|せっしゃ}モードに{切|き}り{替|か}えてから、{料理|りょうり}の{写真|しゃしん}を{撮|と}った。",
+      "japanese": "{接写|せっしゃ}⟦モード→モード：11596_moodo⟧⟦に→に：00314_ni⟧⟦{切|き}り{替|か}えて→切り替える：04239_kirikaeru⟧⟦から→から：00504_kara⟧、⟦{料理|りょうり}→料理：01523_ryouri⟧⟦の→の：09472_no⟧⟦{写真|しゃしん}→写真：00753_shashin⟧⟦を→を：00422_wo⟧⟦{撮|と}った→撮る：00760_toru⟧。",
       "english": "I switched to macro mode and then took photos of the food.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,19 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA compound of {接|せつ} (close, contact) + {写|しゃ} (photograph). Used in photography to describe shooting at very close range. The English equivalent \"macro photography\" is more technical, while {接写|せっしゃ} is used more broadly for any close-up shot.\n\nCOMMON COLLOCATIONS:\n- {接写|せっしゃ}モード (close-up/macro mode)\n- {接写|せっしゃ}レンズ (macro lens)\n- {接写|せっしゃ}する (to take a close-up photo)\n\nSIMILAR WORDS:\n- マクロ{撮影|さつえい}: macro photography — the loanword equivalent, more technical\n- {広角|こうかく}: wide-angle — captures a broader view (opposite approach)",
-  "cross_references": [],
+  "notes": "USAGE:\nA compound of {接|せつ} (close, contact) + {写|しゃ} (photograph). Used in photography to describe shooting at very close range. The English equivalent \"macro photography\" is more technical, while {接写|せっしゃ} is used more broadly for any close-up shot.\n\nCOMMON COLLOCATIONS:\n- {接写|せっしゃ}⟦モード→モード：11596_moodo⟧ (close-up/macro mode)\n- {接写|せっしゃ}⟦レンズ→レンズ：07808_renzu⟧ (macro lens)\n- {接写|せっしゃ}⟦する→する：00392_suru⟧ (to take a close-up photo)\n\nSIMILAR WORDS:\n- マクロ⟦{撮影|さつえい}→撮影：04175_satsuei⟧: macro photography — the loanword equivalent, more technical\n- ⟦{広角|こうかく}→広角：17788_koukaku⟧: wide-angle — captures a broader view (opposite approach)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17788_koukaku",
+      "reading": "こうかく",
+      "headword": "{広角|こうかく}",
+      "label": "wide-angle"
+    }
+  ],
   "metadata": {
     "created": "2026-03-19T03:58:19Z",
-    "modified": "2026-03-29T03:08:18Z",
+    "modified": "2026-09-02T04:01:49Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -154,7 +162,8 @@
       "domain": [
         "technical"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

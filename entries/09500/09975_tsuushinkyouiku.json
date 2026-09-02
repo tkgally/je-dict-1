@@ -14,41 +14,66 @@
   "examples": [
     {
       "id": "09975_tsuushinkyouiku_ex1",
-      "japanese": "{通信教育|つうしんきょういく}で{資格|しかく}を{取|と}る。",
+      "japanese": "{通信教育|つうしんきょういく}⟦で→で：00502_de⟧⟦{資格|しかく}→資格：02834_shikaku⟧⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧。",
       "english": "To get a qualification through distance learning.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09975_tsuushinkyouiku_ex2",
-      "japanese": "{仕事|しごと}をしながら{通信教育|つうしんきょういく}で{大学|だいがく}を{卒業|そつぎょう}した。",
+      "japanese": "⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦を→を：00422_wo⟧し⟦ながら→ながら：10530_nagara⟧{通信教育|つうしんきょういく}⟦で→で：00502_de⟧⟦{大学|だいがく}→大学：00608_daigaku⟧⟦を→を：00422_wo⟧⟦{卒業|そつぎょう}→卒業：01643_sotsugyou⟧⟦した→する：00392_suru⟧。",
       "english": "I graduated from university through correspondence courses while working.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09975_tsuushinkyouiku_ex3",
-      "japanese": "{子|こ}どもに{通信教育|つうしんきょういく}の{教材|きょうざい}を{買|か}ってあげた。",
+      "japanese": "{子|こ}ども⟦に→に：00314_ni⟧{通信教育|つうしんきょういく}⟦の→の：09472_no⟧⟦{教材|きょうざい}→教材：12878_kyouzai⟧⟦を→を：00422_wo⟧⟦{買|か}って→買う：00489_kau⟧⟦あげた→あげる：00546_ageru⟧。",
       "english": "I bought correspondence course materials for my child.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{通信教育|つうしんきょういく} is a compound of {通信|つうしん} (communication) and {教育|きょういく} (education).\n\nTYPES:\n- {大学|だいがく}{通信|つうしん}{教育|きょういく}: university correspondence courses\n- {資格|しかく}{取得|しゅとく}のための{通信|つうしん}{教育|きょういく}: correspondence courses for qualifications\n- {子|こ}ども{向|む}け{通信|つうしん}{教育|きょういく}: correspondence courses for children\n\nMODERN CONTEXT:\nIncreasingly includes online learning ({オンライン{学習|がくしゅう}}, eラーニング) in addition to traditional mail-based courses.",
-  "cross_references": [],
+  "notes": "{通信教育|つうしんきょういく} is a compound of ⟦{通信|つうしん}→通信：03514_tsuushin⟧ (communication) and ⟦{教育|きょういく}→教育：01313_kyouiku⟧ (education).\n\nTYPES:\n- ⟦{大学|だいがく}→大学：00608_daigaku⟧{通信|つうしん}{教育|きょういく}: university correspondence courses\n- ⟦{資格|しかく}→資格：02834_shikaku⟧⟦{取得|しゅとく}→取得：11947_shutoku⟧⟦の→の：09472_no⟧⟦ため→ため：01145_tame⟧⟦の→の：09472_no⟧{通信|つうしん}{教育|きょういく}: correspondence courses for qualifications\n- {子|こ}ども{向|む}け{通信|つうしん}{教育|きょういく}: correspondence courses for children\n\nMODERN CONTEXT:\nIncreasingly includes online learning (⟦オンライン→オンライン：05278_onrain⟧⟦{学習|がくしゅう}→学習：02623_gakushuu⟧, eラーニング) in addition to traditional mail-based courses.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24828_enkakukyouiku",
+      "reading": "えんかくきょういく",
+      "headword": "{遠隔|えんかく}{教育|きょういく}",
+      "label": "distance education"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26517_jitakugakushuu",
+      "reading": "じたくがくしゅう",
+      "headword": "{自宅|じたく}{学習|がくしゅう}",
+      "label": "home study"
+    }
+  ],
   "metadata": {
     "created": "2026-02-04T12:05:01Z",
-    "modified": "2026-02-04T12:05:01Z",
+    "modified": "2026-09-02T04:01:19Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["education"]
+      "semantic": [
+        "education"
+      ]
     }
   }
 }

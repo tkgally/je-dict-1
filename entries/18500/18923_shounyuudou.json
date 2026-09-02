@@ -15,40 +15,80 @@
   "examples": [
     {
       "id": "18923_shounyuudou_ex1",
-      "japanese": "{鍾乳洞|しょうにゅうどう}を{探検|たんけん}する。",
+      "japanese": "{鍾乳洞|しょうにゅうどう}⟦を→を：00422_wo⟧⟦{探検|たんけん}→探検：17461_tanken⟧⟦する→する：00392_suru⟧。",
       "english": "To explore a limestone cave.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "18923_shounyuudou_ex2",
-      "japanese": "{鍾乳洞|しょうにゅうどう}の{中|なか}は{夏|なつ}でも{涼|すず}しい。",
+      "japanese": "{鍾乳洞|しょうにゅうどう}⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧⟦は→は：00079_ha⟧⟦{夏|なつ}→夏：02236_natsu⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧⟦{涼|すず}しい→涼しい：00674_suzushii⟧。",
       "english": "It's cool inside the limestone cave even in summer.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "18923_shounyuudou_ex3",
-      "japanese": "{何万年|なんまんねん}もかけて{形成|けいせい}された{鍾乳洞|しょうにゅうどう}の{美|うつく}しさに{感動|かんどう}した。",
+      "japanese": "{何万年|なんまんねん}⟦も→も：00484_mo⟧⟦かけて→かける：00854_kakeru⟧⟦{形成|けいせい}→形成：12541_keisei⟧⟦された→する：00392_suru⟧{鍾乳洞|しょうにゅうどう}⟦の→の：09472_no⟧{美|うつく}しさ⟦に→に：00314_ni⟧⟦{感動|かんどう}した→感動する：21603_kandousuru⟧。",
       "english": "I was moved by the beauty of the limestone cave, formed over tens of thousands of years.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "WORD FORMATION:\n{鍾乳|しょうにゅう} (stalactite) + {洞|どう} (cave). The character {鍾|しょう} is uncommon outside this word.\n\nFAMOUS EXAMPLES IN JAPAN:\n- {秋芳洞|あきよしどう}: Akiyoshi-do ({山口県|やまぐちけん})\n- {龍泉洞|りゅうせんどう}: Ryūsen-do ({岩手県|いわてけん})\n- {龍河洞|りゅうがどう}: Ryūga-do ({高知県|こうちけん})\n\nRELATED TERMS:\n- {鍾乳石|しょうにゅうせき}: stalactite (hangs from ceiling)\n- {石筍|せきじゅん}: stalagmite (grows from floor)\n- {洞窟|どうくつ}: cave (general term)\n\nCULTURAL NOTE:\n{鍾乳洞|しょうにゅうどう} are popular tourist destinations in Japan, especially in summer because the cave interior stays cool year-round.",
+  "notes": "FORMS:\n{鍾乳|しょうにゅう} (stalactite) + {洞|どう} (cave). The character {鍾|しょう} is uncommon outside this word.\n\nFAMOUS EXAMPLES IN JAPAN:\n- {秋芳洞|あきよしどう}: Akiyoshi-do ({山口県|やまぐちけん})\n- {龍泉洞|りゅうせんどう}: Ryūsen-do ({岩手県|いわてけん})\n- {龍河洞|りゅうがどう}: Ryūga-do ({高知県|こうちけん})\n\nRELATED WORDS:\n- ⟦{鍾乳石|しょうにゅうせき}→鍾乳石：24538_shounyuuseki⟧: stalactite (hangs from ceiling)\n- {石筍|せきじゅん}: stalagmite (grows from floor)\n- ⟦{洞窟|どうくつ}→洞窟：05038_doukutsu⟧: cave (general term)\n\nCULTURAL NOTE:\n{鍾乳洞|しょうにゅうどう} are popular tourist destinations in Japan, especially in summer because the cave interior stays cool year-round.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "24538_shounyuuseki",
+      "reading": "しょうにゅうせき",
+      "headword": "{鍾乳石|しょうにゅうせき}",
+      "label": "stalactite"
+    },
+    {
+      "type": "related",
+      "target_id": "05038_doukutsu",
+      "reading": "どうくつ",
+      "headword": "{洞窟|どうくつ}",
+      "label": "cave"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21698_iwaana",
+      "reading": "いわあな",
+      "headword": "{岩穴|いわあな}",
+      "label": "cave"
+    },
+    {
+      "type": "related",
+      "target_id": "23396_sekkaigan",
+      "reading": "せっかいがん",
+      "headword": "{石灰岩|せっかいがん}",
+      "label": "limestone"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["geography"]
+      "semantic": [
+        "geography"
+      ]
     },
     "created": "2026-03-23T09:29:17Z",
-    "modified": "2026-04-01T09:07:17Z"
+    "modified": "2026-09-02T04:01:54Z"
   }
 }

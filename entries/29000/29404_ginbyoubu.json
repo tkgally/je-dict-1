@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29404_ginbyoubu_ex1",
-      "japanese": "{銀屏風|ぎんびょうぶ}を{立|た}てる。",
+      "japanese": "{銀屏風|ぎんびょうぶ}⟦を→を：00422_wo⟧⟦{立|た}てる→立てる：01196_tateru⟧。",
       "english": "to set up a silver folding screen",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29404_ginbyoubu_ex2",
-      "japanese": "{茶室|ちゃしつ}に{銀屏風|ぎんびょうぶ}が{飾|かざ}られていた。",
+      "japanese": "⟦{茶室|ちゃしつ}→茶室：14081_chashitsu⟧⟦に→に：00314_ni⟧{銀屏風|ぎんびょうぶ}⟦が→が：00051_ga⟧⟦{飾|かざ}られていた→飾る：01185_kazaru⟧。",
       "english": "A silver folding screen was displayed in the tea room.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29404_ginbyoubu_ex3",
-      "japanese": "{金屏風|きんびょうぶ}と{銀屏風|ぎんびょうぶ}では{受|う}ける{印象|いんしょう}がだいぶ{違|ちが}う。",
+      "japanese": "⟦{金屏風|きんびょうぶ}→金屏風：29403_kinbyoubu⟧⟦と→と：00512_to⟧{銀屏風|ぎんびょうぶ}⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{受|う}ける→受ける：01215_ukeru⟧⟦{印象|いんしょう}→印象：01846_inshou⟧⟦が→が：00051_ga⟧だいぶ⟦{違|ちが}う→違う：01957_chigau⟧。",
       "english": "A gold screen and a silver screen give quite different impressions.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "The silver-leaf counterpart of the {金屏風|きんびょうぶ}; calmer and more understated in feeling.\n\nRELATED:\n- {屏風|びょうぶ}: folding screen\n- {金屏風|きんびょうぶ}: gold folding screen — brighter, more celebratory",
+  "notes": "The silver-leaf counterpart of the ⟦{金屏風|きんびょうぶ}→金屏風：29403_kinbyoubu⟧; calmer and more understated in feeling.\n\nRELATED WORDS:\n- ⟦{屏風|びょうぶ}→屏風：06228_byoubu⟧: folding screen\n- ⟦{金屏風|きんびょうぶ}→金屏風：29403_kinbyoubu⟧: gold folding screen — brighter, more celebratory",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "29403_kinbyoubu",
+      "reading": "きんびょうぶ",
+      "headword": "{金屏風|きんびょうぶ}",
+      "label": "gold folding screen"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +62,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "art"
       ],
       "domain": []
     },
     "created": "2026-06-22T01:45:27Z",
-    "modified": "2026-06-22T01:45:27Z"
+    "modified": "2026-09-02T04:02:36Z"
   }
 }

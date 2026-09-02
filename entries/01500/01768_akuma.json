@@ -39,7 +39,7 @@
     },
     {
       "id": "01768_akuma_ex3",
-      "japanese": "{悪魔|あくま}{払|ばら}い⟦の→の：09472_no⟧⟦{儀式|ぎしき}→儀式：00071_gishiki⟧⟦を→を：00422_wo⟧⟦{行|おこな}う→行う：01238_okonau⟧。",
+      "japanese": "{悪魔|あくま}⟦{払|ばら}い→払い：09655_barai⟧⟦の→の：09472_no⟧⟦{儀式|ぎしき}→儀式：00071_gishiki⟧⟦を→を：00422_wo⟧⟦{行|おこな}う→行う：01238_okonau⟧。",
       "english": "To perform an exorcism ritual.",
       "notes": null,
       "has_audio": false,
@@ -49,7 +49,7 @@
     },
     {
       "id": "01768_akuma_ex4",
-      "japanese": "この⟦{映画|えいが}→映画：02273_eiga⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{悪魔|あくま}⟦が→が：00051_ga⟧⟦{登場|とうじょう}する→登場：13625_toujou⟧。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{映画|えいが}→映画：02273_eiga⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{悪魔|あくま}⟦が→が：00051_ga⟧⟦{登場|とうじょう}する→登場：13625_toujou⟧。",
       "english": "A devil appears in this movie.",
       "notes": null,
       "has_audio": false,
@@ -69,7 +69,7 @@
     },
     {
       "id": "01768_akuma_ex6",
-      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{悪魔|あくま}⟦の→の：09472_no⟧ように⟦{冷酷|れいこく}→冷酷：15089_reikoku⟧だ。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{悪魔|あくま}⟦の→の：09472_no⟧よう⟦に→に：00314_ni⟧⟦{冷酷|れいこく}→冷酷：15089_reikoku⟧だ。",
       "english": "He is as ruthless as a devil.",
       "notes": null,
       "has_audio": false,
@@ -89,7 +89,7 @@
     },
     {
       "id": "01768_akuma_ex8",
-      "japanese": "あの{悪魔|あくま}⟦の→の：09472_no⟧ような⟦{行為|こうい}→行為：10021_koui⟧⟦は→は：00079_ha⟧⟦{許|ゆる}せない→許す：02325_yurusu⟧。",
+      "japanese": "⟦あの→あの：00915_ano⟧{悪魔|あくま}⟦の→の：09472_no⟧ような⟦{行為|こうい}→行為：10021_koui⟧⟦は→は：00079_ha⟧⟦{許|ゆる}せない→許す：02325_yurusu⟧。",
       "english": "Such fiendish behavior is unforgivable.",
       "notes": null,
       "has_audio": false,
@@ -109,7 +109,7 @@
     },
     {
       "id": "01768_akuma_ex10",
-      "japanese": "⟦{金|かね}→金：02618_kane⟧⟦の→の：09472_no⟧ために{悪魔|あくま}⟦に→に：00314_ni⟧⟦なった→なる：01970_naru⟧⟦{男|おとこ}→男：00561_otoko⟧だ。",
+      "japanese": "⟦{金|かね}→金：02618_kane⟧⟦の→の：09472_no⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧{悪魔|あくま}⟦に→に：00314_ni⟧⟦なった→なる：01970_naru⟧⟦{男|おとこ}→男：00561_otoko⟧だ。",
       "english": "He's a man who became a fiend for money.",
       "notes": null,
       "has_audio": false,
@@ -136,11 +136,46 @@
       "reading": "てんし",
       "headword": "{天使|てんし}",
       "label": "angel"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02184_oni",
+      "reading": "おに",
+      "headword": "{鬼|おに}",
+      "label": "demon, ogre"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12222_youkai",
+      "reading": "ようかい",
+      "headword": "{妖怪|ようかい}",
+      "label": "supernatural creature, monster"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14842_mamono",
+      "reading": "まもの",
+      "headword": "{魔物|まもの}",
+      "label": "evil creature, monster"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12857_yasha",
+      "reading": "やしゃ",
+      "headword": "{夜叉|やしゃ}",
+      "label": "yaksha, demon, fierce person"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26467_rasetsu",
+      "reading": "らせつ",
+      "headword": "{羅刹|らせつ}",
+      "label": "rakshasa"
     }
   ],
   "metadata": {
     "created": "2026-01-09T12:15:00Z",
-    "modified": "2026-05-16T22:11:50Z",
+    "modified": "2026-09-02T04:01:00Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

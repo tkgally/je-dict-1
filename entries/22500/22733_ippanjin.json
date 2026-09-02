@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22733_ippanjin_ex1",
-      "japanese": "{一般人|いっぱんじん}には{入|はい}れない。",
+      "japanese": "{一般人|いっぱんじん}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{入|はい}れない→入る：00494_hairu⟧。",
       "english": "Ordinary people cannot enter.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22733_ippanjin_ex2",
-      "japanese": "{彼女|かのじょ}は{芸能人|げいのうじん}ではなく{一般人|いっぱんじん}だ。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧⟦{芸能人|げいのうじん}→芸能人：14959_geinoujin⟧⟦ではなく→ではなく：09578_dehanaku⟧{一般人|いっぱんじん}だ。",
       "english": "She's not a celebrity — she's an ordinary person.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22733_ippanjin_ex3",
-      "japanese": "この{情報|じょうほう}は{専門家|せんもんか}だけでなく{一般人|いっぱんじん}にもわかりやすく{書|か}かれている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{情報|じょうほう}→情報：03348_jouhou⟧⟦は→は：00079_ha⟧⟦{専門家|せんもんか}→専門家：03088_senmonka⟧⟦だけでなく→〜だけでなく：18373_dakedenaku⟧{一般人|いっぱんじん}⟦に→に：00314_ni⟧⟦も→も：00484_mo⟧⟦わかりやすく→わかりやすい：09582_wakariyasui⟧⟦{書|か}かれている→書く：00477_kaku⟧。",
       "english": "This information is written in a way that is easy to understand not just for experts but for ordinary people too.",
       "sense_numbers": [
         1
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "Refers to anyone who is not part of a specific professional, famous, or privileged group. The exact meaning depends on context: in celebrity news, it means 'non-celebrity'; in law, it means 'private citizen'; in academia, it means 'layperson.' Very frequently used in entertainment media when a celebrity marries a non-famous person.\n\nCOMMON COLLOCATIONS:\n- {一般人|いっぱんじん}{立|た}ち{入|い}り{禁止|きんし}: no entry for the general public\n- {一般人|いっぱんじん}の{感覚|かんかく}: the sensibility of ordinary people\n- {一般人|いっぱんじん}{女性|じょせい}: ordinary woman (non-celebrity)\n\nSIMILAR WORDS:\n- {素人|しろうと}: amateur, layperson — emphasizes lack of expertise rather than social status\n- {庶民|しょみん}: common people — emphasizes ordinary social/economic class\n- {一般|いっぱん}{市民|しみん}: ordinary citizen — more formal, often used in legal or political contexts",
+  "notes": "Refers to anyone who is not part of a specific professional, famous, or privileged group. The exact meaning depends on context: in celebrity news, it means 'non-celebrity'; in law, it means 'private citizen'; in academia, it means 'layperson.' Very frequently used in entertainment media when a celebrity marries a non-famous person.\n\nCOMMON COLLOCATIONS:\n- {一般人|いっぱんじん}⟦{立|た}ち{入|い}り→立ち入る：26367_tachiiru⟧⟦{禁止|きんし}→禁止：02643_kinshi⟧: no entry for the general public\n- {一般人|いっぱんじん}⟦の→の：09472_no⟧⟦{感覚|かんかく}→感覚：02593_kankaku⟧: the sensibility of ordinary people\n- {一般人|いっぱんじん}⟦{女性|じょせい}→女性：01617_josei⟧: ordinary woman (non-celebrity)\n\nSIMILAR WORDS:\n- ⟦{素人|しろうと}→素人：04270_shirouto⟧: amateur, layperson — emphasizes lack of expertise rather than social status\n- ⟦{庶民|しょみん}→庶民：12427_shomin⟧: common people — emphasizes ordinary social/economic class\n- ⟦{一般|いっぱん}→一般：01737_ippan⟧⟦{市民|しみん}→市民：01426_shimin⟧: ordinary citizen — more formal, often used in legal or political contexts",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04270_shirouto",
+      "reading": "しろうと",
+      "headword": "{素人|しろうと}",
+      "label": "amateur, layperson"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12427_shomin",
+      "reading": "しょみん",
+      "headword": "{庶民|しょみん}",
+      "label": "common people"
+    },
+    {
+      "type": "related",
+      "target_id": "04784_ippanteki",
+      "reading": "いっぱんてき",
+      "headword": "{一般的|いっぱんてき}",
+      "label": "general, common"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18298_bonjin",
+      "reading": "ぼんじん",
+      "headword": "{凡人|ぼんじん}",
+      "label": "ordinary person"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +90,6 @@
       "politeness": "plain"
     },
     "created": "2026-04-07T14:10:43Z",
-    "modified": "2026-07-30T15:20:15Z"
+    "modified": "2026-09-02T04:02:09Z"
   }
 }

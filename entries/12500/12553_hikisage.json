@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "12553_hikisage_ex1",
-      "japanese": "{価格|かかく}の{引|ひ}き{下|さ}げを{発表|はっぴょう}した。",
+      "japanese": "⟦{価格|かかく}→価格：00147_kakaku⟧⟦の→の：09472_no⟧{引|ひ}き{下|さ}げ⟦を→を：00422_wo⟧⟦{発表|はっぴょう}した→発表する：25231_happyousuru⟧。",
       "english": "They announced a price reduction.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12553_hikisage_ex2",
-      "japanese": "{金利|きんり}の{引|ひ}き{下|さ}げが{景気|けいき}を{刺激|しげき}する。",
+      "japanese": "⟦{金利|きんり}→金利：04856_kinri⟧⟦の→の：09472_no⟧{引|ひ}き{下|さ}げ⟦が→が：00051_ga⟧⟦{景気|けいき}→景気：02694_keiki⟧⟦を→を：00422_wo⟧⟦{刺激|しげき}する→刺激する：20205_shigekisuru⟧。",
       "english": "An interest rate cut stimulates the economy.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12553_hikisage_ex3",
-      "japanese": "{成人|せいじん}{年齢|ねんれい}の{引|ひ}き{下|さ}げについて{国会|こっかい}で{議論|ぎろん}されている。",
+      "japanese": "⟦{成人|せいじん}→成人：03378_seijin⟧⟦{年齢|ねんれい}→年齢：01490_nenrei⟧⟦の→の：09472_no⟧{引|ひ}き{下|さ}げ⟦について→〜について：03103_nitsuite⟧⟦{国会|こっかい}→国会：02761_kokkai⟧⟦で→で：00502_de⟧⟦{議論|ぎろん}→議論：02650_giron⟧⟦されている→する：00392_suru⟧。",
       "english": "The lowering of the age of adulthood is being debated in the National Diet.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nThe opposite of {引|ひ}き{上|あ}げ (increase, raise). Used extensively in economic, political, and administrative contexts when discussing reductions in numerical values such as prices, taxes, rates, or age thresholds.\n\nCOMMON COLLOCATIONS:\n- {価格|かかく}の{引|ひ}き{下|さ}げ: price reduction\n- {金利|きんり}の{引|ひ}き{下|さ}げ: interest rate cut\n- {税率|ぜいりつ}の{引|ひ}き{下|さ}げ: tax rate reduction\n- {年齢|ねんれい}の{引|ひ}き{下|さ}げ: lowering of the age (limit)",
+  "notes": "USAGE:\nThe opposite of ⟦{引|ひ}き{上|あ}げ→引き上げ：12552_hikiage⟧ (increase, raise). Used extensively in economic, political, and administrative contexts when discussing reductions in numerical values such as prices, taxes, rates, or age thresholds.\n\nCOMMON COLLOCATIONS:\n- ⟦{価格|かかく}→価格：00147_kakaku⟧⟦の→の：09472_no⟧{引|ひ}き{下|さ}げ: price reduction\n- ⟦{金利|きんり}→金利：04856_kinri⟧⟦の→の：09472_no⟧{引|ひ}き{下|さ}げ: interest rate cut\n- ⟦{税率|ぜいりつ}→税率：28616_zeiritsu⟧⟦の→の：09472_no⟧{引|ひ}き{下|さ}げ: tax rate reduction\n- ⟦{年齢|ねんれい}→年齢：01490_nenrei⟧⟦の→の：09472_no⟧{引|ひ}き{下|さ}げ: lowering of the age (limit)",
   "cross_references": [
     {
       "type": "antonym",
@@ -53,18 +59,29 @@
       "reading": "ひきさげる",
       "headword": "{引|ひ}き{下|さ}げる",
       "label": "verb form"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19864_kahoushuusei",
+      "reading": "かほうしゅうせい",
+      "headword": "{下方修正|かほうしゅうせい}",
+      "label": "downward revision"
     }
   ],
   "metadata": {
     "created": "2026-02-21T13:21:13Z",
-    "modified": "2026-04-27T06:29:35Z",
+    "modified": "2026-09-02T04:01:29Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["economics"]
+      "semantic": [
+        "economics"
+      ]
     }
   }
 }

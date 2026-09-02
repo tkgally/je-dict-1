@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "09491_choume_ex1",
-      "japanese": "3{丁目|ちょうめ}5{番地|ばんち}⟦に→に：00314_ni⟧⟦{住|す}んでいます→住む：00673_sumu⟧。",
+      "japanese": "3{丁目|ちょうめ}5⟦{番地|ばんち}→番地：00010_banchi⟧⟦に→に：00314_ni⟧⟦{住|す}んでいます→住む：00673_sumu⟧。",
       "english": "I live at 3-chome, 5-banchi.",
       "has_audio": false,
       "sense_numbers": [
@@ -23,7 +23,7 @@
     },
     {
       "id": "09491_choume_ex2",
-      "japanese": "{渋谷|しぶや}2{丁目|ちょうめ}⟦に→に：00314_ni⟧ある。",
+      "japanese": "⟦{渋谷|しぶや}→渋谷：30632_shibuya⟧2{丁目|ちょうめ}⟦に→に：00314_ni⟧⟦ある→ある：00006_aru⟧。",
       "english": "It's in Shibuya 2-chome.",
       "has_audio": false,
       "sense_numbers": [
@@ -32,7 +32,7 @@
     },
     {
       "id": "09491_choume_ex3",
-      "japanese": "{何|なん}{丁目|ちょうめ}です⟦か→か：09473_ka⟧。",
+      "japanese": "⟦{何|なん}→何〜：03100_nan⟧{丁目|ちょうめ}です⟦か→か：09473_ka⟧。",
       "english": "What chome is it?",
       "has_audio": false,
       "sense_numbers": [
@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "notes": "{丁目|ちょうめ} is a counter suffix used in Japanese addresses to indicate numbered subdivisions within a neighborhood ({町|まち}). Each {丁目|ちょうめ} contains multiple {番地|ばんち} (lot numbers).\n\nADDRESS ORDER (large to small):\n{都道府県|とどうふけん} → {市区町村|しくちょうそん} → {町名|ちょうめい} → {丁目|ちょうめ} → {番地|ばんち} → {号|ごう}\n\nCOUNTING:\n- 1{丁目|ちょうめ} (いっちょうめ)\n- 2{丁目|ちょうめ} (にちょうめ)\n- 3{丁目|ちょうめ} (さんちょうめ)\n- {何|なん}{丁目|ちょうめ}: what block number?\n\nUSAGE:\nWhen giving addresses verbally, the number comes before {丁目|ちょうめ} with no particle between them. In written addresses, Arabic numerals are standard (3{丁目|ちょうめ}). Japanese addresses go from largest to smallest unit, the reverse of Western address order.",
+  "notes": "{丁目|ちょうめ} is a counter suffix used in Japanese addresses to indicate numbered subdivisions within a neighborhood (⟦{町|まち}→町：00613_machi⟧). Each {丁目|ちょうめ} contains multiple ⟦{番地|ばんち}→番地：00010_banchi⟧ (lot numbers).\n\nADDRESS ORDER (large to small):\n⟦{都道府県|とどうふけん}→都道府県：14502_todoufuken⟧ → ⟦{市区町村|しくちょうそん}→市区町村：23061_shikuchouson⟧ → {町名|ちょうめい} → {丁目|ちょうめ} → ⟦{番地|ばんち}→番地：00010_banchi⟧ → {号|ごう}\n\nCOUNTING PATTERNS:\n- 1{丁目|ちょうめ} (いっちょうめ)\n- 2{丁目|ちょうめ} (⟦に→に：00314_ni⟧ちょうめ)\n- 3{丁目|ちょうめ} (さんちょうめ)\n- ⟦{何|なん}→何〜：03100_nan⟧{丁目|ちょうめ}: what block number?\n\nUSAGE:\nWhen giving addresses verbally, the number comes before {丁目|ちょうめ} with no particle between them. In written addresses, Arabic numerals are standard (3{丁目|ちょうめ}). Japanese addresses go from largest to smallest unit, the reverse of Western address order.",
   "cross_references": [
     {
       "type": "related",
@@ -55,11 +55,18 @@
       "reading": "ごう",
       "headword": "号",
       "label": "building number"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29061_gaiku",
+      "reading": "がいく",
+      "headword": "{街区|がいく}",
+      "label": "city block"
     }
   ],
   "metadata": {
     "created": "2026-02-02T07:47:12Z",
-    "modified": "2026-05-08T14:02:32Z",
+    "modified": "2026-09-02T04:01:18Z",
     "ai_model": "claude-opus-4-5-20251101",
     "vocabulary_tier": "general",
     "tags": {

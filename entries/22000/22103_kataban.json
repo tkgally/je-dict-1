@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22103_kataban_ex1",
-      "japanese": "{型番|かたばん}を{確認|かくにん}してください。",
+      "japanese": "{型番|かたばん}⟦を→を：00422_wo⟧⟦{確認|かくにん}して→確認する：25332_kakuninsuru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please check the model number.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22103_kataban_ex2",
-      "japanese": "この{製品|せいひん}の{型番|かたばん}は{裏面|うらめん}に{書|か}いてあります。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{製品|せいひん}→製品：01445_seihin⟧⟦の→の：09472_no⟧{型番|かたばん}⟦は→は：00079_ha⟧{裏面|うらめん}⟦に→に：00314_ni⟧⟦{書|か}いてあります→書く：00477_kaku⟧。",
       "english": "The model number for this product is written on the back.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22103_kataban_ex3",
-      "japanese": "{修理|しゅうり}を{依頼|いらい}する{際|さい}は、{型番|かたばん}と{製造|せいぞう}{番号|ばんごう}をお{伝|つた}えください。",
+      "japanese": "⟦{修理|しゅうり}→修理：03214_shuuri⟧⟦を→を：00422_wo⟧⟦{依頼|いらい}する→依頼する：21376_irai⟧⟦{際|さい}→際：02819_sai⟧⟦は→は：00079_ha⟧、{型番|かたばん}⟦と→と：00512_to⟧⟦{製造|せいぞう}→製造：03289_seizou⟧⟦{番号|ばんごう}→番号：02939_bangou⟧⟦を→を：00422_wo⟧お⟦{伝|つた}え→伝える：01220_tsutaeru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "When requesting a repair, please provide the model number and serial number.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {型|かた} (model, type) + {番|ばん} (number). A practical term used in retail, manufacturing, and customer service. Knowing the {型番|かたばん} is essential when buying replacement parts, getting repairs, or comparing product specifications.\n\nCOMMON COLLOCATIONS:\n- {型番|かたばん}を{調|しら}べる: to look up the model number\n- {型番|かたばん}を{確認|かくにん}する: to verify the model number\n- {型番|かたばん}{検索|けんさく}: model number search\n- {旧|きゅう}{型番|かたばん}: old model number\n\nSIMILAR WORDS:\n- {品番|ひんばん}: product number — used more in retail and inventory contexts\n- {製造|せいぞう}{番号|ばんごう}: serial number — unique to each individual unit, unlike {型番|かたばん} which is shared across all units of the same model\n- {型式|かたしき}: model type — a more formal/technical designation, common in automotive contexts",
+  "notes": "Composed of ⟦{型|かた}→型：02146_kata⟧ (model, type) + ⟦{番|ばん}→番：09873_ban⟧ (number). A practical term used in retail, manufacturing, and customer service. Knowing the {型番|かたばん} is essential when buying replacement parts, getting repairs, or comparing product specifications.\n\nCOMMON COLLOCATIONS:\n- {型番|かたばん}⟦を→を：00422_wo⟧⟦{調|しら}べる→調べる：01213_shiraberu⟧: to look up the model number\n- {型番|かたばん}⟦を→を：00422_wo⟧⟦{確認|かくにん}する→確認する：25332_kakuninsuru⟧: to verify the model number\n- {型番|かたばん}⟦{検索|けんさく}→検索：04729_kensaku⟧: model number search\n- ⟦{旧|きゅう}→旧：19346_kyuu⟧{型番|かたばん}: old model number\n\nSIMILAR WORDS:\n- {品番|ひんばん}: product number — used more in retail and inventory contexts\n- ⟦{製造|せいぞう}→製造：03289_seizou⟧⟦{番号|ばんごう}→番号：02939_bangou⟧: serial number — unique to each individual unit, unlike {型番|かたばん} which is shared across all units of the same model\n- {型式|かたしき}: model type — a more formal/technical designation, common in automotive contexts",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13211_kishu",
+      "reading": "きしゅ",
+      "headword": "{機種|きしゅ}",
+      "label": "model, type (of machine or device)"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +69,6 @@
       ]
     },
     "created": "2026-04-05T02:21:17Z",
-    "modified": "2026-04-10T08:28:27Z"
+    "modified": "2026-09-02T04:02:06Z"
   }
 }

@@ -15,42 +15,69 @@
   "examples": [
     {
       "id": "14908_shasai_ex1",
-      "japanese": "{車載|しゃさい}カメラで{録画|ろくが}する。",
+      "japanese": "{車載|しゃさい}⟦カメラ→カメラ：04417_kamera⟧⟦で→で：00502_de⟧⟦{録画|ろくが}→録画：04441_rokuga⟧⟦する→する：00392_suru⟧。",
       "english": "To record with a dashcam.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14908_shasai_ex2",
-      "japanese": "{車載|しゃさい}ナビの{地図|ちず}を{更新|こうしん}した。",
+      "japanese": "{車載|しゃさい}⟦ナビ→ナビ：23508_nabi⟧⟦の→の：09472_no⟧⟦{地図|ちず}→地図：02914_chizu⟧⟦を→を：00422_wo⟧⟦{更新|こうしん}した→更新する：27994_koushinsuru⟧。",
       "english": "I updated the maps on the car's built-in navigation system.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14908_shasai_ex3",
-      "japanese": "{最近|さいきん}の{車|くるま}には{車載|しゃさい}Wi-Fiが{標準装備|ひょうじゅんそうび}されているものも{多|おお}い。",
+      "japanese": "⟦{最近|さいきん}→最近：00881_saikin⟧⟦の→の：09472_no⟧⟦{車|くるま}→車：00516_kuruma⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{車載|しゃさい}Wi-Fi⟦が→が：00051_ga⟧{標準装備|ひょうじゅんそうび}⟦されている→する：00392_suru⟧もの⟦も→も：00484_mo⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "Many recent cars come equipped with on-board Wi-Fi as standard.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\n{車載|しゃさい} functions primarily as a prefix or modifier attached to nouns to indicate that something is designed for use in or mounted on a vehicle. It is very common in product descriptions, technical specifications, and everyday conversation about car accessories.\n\nCOMMON COLLOCATIONS:\n- {車載|しゃさい}カメラ (dashcam, vehicle camera)\n- {車載|しゃさい}ナビ (car navigation system)\n- {車載|しゃさい}{充電器|じゅうでんき} (car charger)\n- {車載|しゃさい}{冷蔵庫|れいぞうこ} (portable car refrigerator)\n- {車載|しゃさい}スピーカー (car speaker)\n\nSIMILAR WORDS:\n- {車載|しゃさい}: vehicle-mounted (built into or designed for a vehicle)\n- {搭載|とうさい}: equipped with (broader; any device or feature installed in something)\n- {車内|しゃない}: inside the vehicle (refers to the interior space, not equipment)",
-  "cross_references": [],
+  "notes": "USAGE:\n{車載|しゃさい} functions primarily as a prefix or modifier attached to nouns to indicate that something is designed for use in or mounted on a vehicle. It is very common in product descriptions, technical specifications, and everyday conversation about car accessories.\n\nCOMMON COLLOCATIONS:\n- {車載|しゃさい}⟦カメラ→カメラ：04417_kamera⟧ (dashcam, vehicle camera)\n- {車載|しゃさい}⟦ナビ→ナビ：23508_nabi⟧ (car navigation system)\n- {車載|しゃさい}⟦{充電器|じゅうでんき}→充電器：05106_juudenki⟧ (car charger)\n- {車載|しゃさい}⟦{冷蔵庫|れいぞうこ}→冷蔵庫：01046_reizouko⟧ (portable car refrigerator)\n- {車載|しゃさい}⟦スピーカー→スピーカー：04420_supiikaa⟧ (car speaker)\n\nSIMILAR WORDS:\n- {車載|しゃさい}: vehicle-mounted (built into or designed for a vehicle)\n- ⟦{搭載|とうさい}→搭載：12789_tousai⟧: equipped with (broader; any device or feature installed in something)\n- ⟦{車内|しゃない}→車内：06203_shanai⟧: inside the vehicle (refers to the interior space, not equipment)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12789_tousai",
+      "reading": "とうさい",
+      "headword": "{搭載|とうさい}",
+      "label": "equipped with (broader"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06203_shanai",
+      "reading": "しゃない",
+      "headword": "{車内|しゃない}",
+      "label": "inside the vehicle"
+    }
+  ],
   "metadata": {
     "created": "2026-03-04T05:52:20Z",
-    "modified": "2026-03-04T05:52:20Z",
+    "modified": "2026-09-02T04:01:39Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["transportation"],
-      "domain": ["technical"]
+      "semantic": [
+        "transportation"
+      ],
+      "domain": [
+        "technical"
+      ]
     }
   }
 }

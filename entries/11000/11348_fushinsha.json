@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "11348_fushinsha_ex1",
-      "japanese": "{不審者|ふしんしゃ}に{注意|ちゅうい}。",
+      "japanese": "{不審者|ふしんしゃ}⟦に→に：00314_ni⟧⟦{注意|ちゅうい}→注意：01464_chuui⟧。",
       "english": "Watch out for suspicious persons.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "11348_fushinsha_ex2",
-      "japanese": "{学校|がっこう}の{近|ちか}くで{不審者|ふしんしゃ}が{目撃|もくげき}された。",
+      "japanese": "⟦{学校|がっこう}→学校：00055_gakkou⟧⟦の→の：09472_no⟧{近|ちか}く⟦で→で：00502_de⟧{不審者|ふしんしゃ}⟦が→が：00051_ga⟧⟦{目撃|もくげき}→目撃：13627_mokugeki⟧⟦された→する：00392_suru⟧。",
       "english": "A suspicious person was spotted near the school.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "11348_fushinsha_ex3",
-      "japanese": "{不審者|ふしんしゃ}を{見|み}かけたら、すぐに{警察|けいさつ}に{通報|つうほう}してください。",
+      "japanese": "{不審者|ふしんしゃ}⟦を→を：00422_wo⟧⟦{見|み}かけたら→見かける：01644_mikakeru⟧、⟦すぐ→すぐ：00814_sugu⟧⟦に→に：00314_ni⟧⟦{警察|けいさつ}→警察：01393_keisatsu⟧⟦に→に：00314_ni⟧⟦{通報|つうほう}→通報：14318_tsuuhou⟧⟦して→する：00392_suru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "If you see a suspicious person, please call the police immediately.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,40 @@
       ]
     }
   ],
-  "notes": "USAGE:\nFrequently used in community safety bulletins, school circulars, and police announcements. Japanese neighborhoods often have signs reading {不審者|ふしんしゃ}に{注意|ちゅうい} (beware of suspicious persons).\n\nWORD FORMATION:\n{不審|ふしん} (suspicious, doubtful) + {者|しゃ} (person)\n\nCOMMON COLLOCATIONS:\n- {不審者|ふしんしゃ}{情報|じょうほう}: suspicious person report\n- {不審者|ふしんしゃ}を{通報|つうほう}する: to report a suspicious person\n- {不審者|ふしんしゃ}に{声|こえ}をかけられる: to be approached by a suspicious person",
-  "cross_references": [],
+  "notes": "USAGE:\nFrequently used in community safety bulletins, school circulars, and police announcements. Japanese neighborhoods often have signs reading {不審者|ふしんしゃ}⟦に→に：00314_ni⟧⟦{注意|ちゅうい}→注意：01464_chuui⟧ (beware of suspicious persons).\n\nFORMS:\n⟦{不審|ふしん}→不審：16934_fushin⟧ (suspicious, doubtful) + ⟦{者|しゃ}→〜者：04662_sha⟧ (person)\n\nCOMMON COLLOCATIONS:\n- {不審者|ふしんしゃ}⟦{情報|じょうほう}→情報：03348_jouhou⟧: suspicious person report\n- {不審者|ふしんしゃ}⟦を→を：00422_wo⟧⟦{通報|つうほう}→通報：14318_tsuuhou⟧⟦する→する：00392_suru⟧: to report a suspicious person\n- {不審者|ふしんしゃ}⟦に→に：00314_ni⟧⟦{声|こえ}→声：02207_koe⟧⟦を→を：00422_wo⟧⟦かけられる→かける：00854_kakeru⟧: to be approached by a suspicious person",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14974_fushinbutsu",
+      "reading": "ふしんぶつ",
+      "headword": "{不審物|ふしんぶつ}",
+      "label": "suspicious object"
+    },
+    {
+      "type": "related",
+      "target_id": "15010_shokumushitsumon",
+      "reading": "しょくむしつもん",
+      "headword": "{職務質問|しょくむしつもん}",
+      "label": "police questioning"
+    },
+    {
+      "type": "related",
+      "target_id": "19521_shinnyuusha",
+      "reading": "しんにゅうしゃ",
+      "headword": "{侵入者|しんにゅうしゃ}",
+      "label": "intruder"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26725_haikaisha",
+      "reading": "はいかいしゃ",
+      "headword": "{徘徊者|はいかいしゃ}",
+      "label": "wanderer"
+    }
+  ],
   "metadata": {
     "created": "2026-02-16T01:06:12Z",
-    "modified": "2026-06-30T06:28:36Z",
+    "modified": "2026-09-02T04:01:24Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

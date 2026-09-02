@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "27537_uruudoshi_ex1",
-      "japanese": "{今年|ことし}は{閏年|うるうどし}だ。",
+      "japanese": "⟦{今年|ことし}→今年：00722_kotoshi⟧⟦は→は：00079_ha⟧{閏年|うるうどし}だ。",
       "english": "This year is a leap year.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "27537_uruudoshi_ex2",
-      "japanese": "{閏年|うるうどし}には{二月|にがつ}が{二十九日|にじゅうくにち}まである。",
+      "japanese": "{閏年|うるうどし}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{二月|にがつ}→二月：00657_nigatsu⟧⟦が→が：00051_ga⟧{二十九日|にじゅうくにち}⟦まで→まで：00490_made⟧⟦ある→ある：00006_aru⟧。",
       "english": "In a leap year, February has up to the 29th.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "27537_uruudoshi_ex3",
-      "japanese": "{閏年|うるうどし}に{生|う}まれた{人|ひと}は、{誕生日|たんじょうび}を{祝|いわ}う{日|ひ}に{迷|まよ}うことがあるそうだ。",
+      "japanese": "{閏年|うるうどし}⟦に→に：00314_ni⟧⟦{生|う}まれた→生まれる：00905_umareru⟧⟦{人|ひと}→人：00476_hito⟧⟦は→は：00079_ha⟧、⟦{誕生日|たんじょうび}→誕生日：02910_tanjoubi⟧⟦を→を：00422_wo⟧⟦{祝|いわ}う→祝う：01881_iwau⟧⟦{日|ひ}→日：02249_hi⟧⟦に→に：00314_ni⟧⟦{迷|まよ}う→迷う：02426_mayou⟧こと⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧そうだ。",
       "english": "People born in a leap year sometimes have trouble deciding which day to celebrate their birthday on.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {閏|うるう} (intercalary; extra) + {年|とし} (year). The day added in a leap year is {閏日|うるうび} (Feb 29).\n\nCOMMON COLLOCATIONS:\n- {閏年|うるうどし}に{当|あ}たる: to fall on a leap year\n- {閏日|うるうび}: leap day (Feb 29)\n- {閏年|うるうどし}ではない{年|とし}: a non-leap year ({平年|へいねん})\n\nRELATED TERMS:\n- {平年|へいねん}: ordinary (non-leap) year\n- {閏秒|うるうびょう}: leap second\n- {閏月|うるうづき}: intercalary month (in the old lunar calendar)",
+  "notes": "Composed of {閏|うるう} (intercalary; extra) + ⟦{年|とし}→年：00486_toshi⟧ (year). The day added in a leap year is {閏日|うるうび} (Feb 29).\n\nCOMMON COLLOCATIONS:\n- {閏年|うるうどし}⟦に→に：00314_ni⟧⟦{当|あ}たる→当たる：01860_ataru⟧: to fall on a leap year\n- {閏日|うるうび}: leap day (Feb 29)\n- {閏年|うるうどし}⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦ない→ない：01118_nai⟧⟦{年|とし}→年：00486_toshi⟧: a non-leap year (⟦{平年|へいねん}→平年：24128_heinen⟧)\n\nRELATED WORDS:\n- ⟦{平年|へいねん}→平年：24128_heinen⟧: ordinary (non-leap) year\n- {閏秒|うるうびょう}: leap second\n- {閏月|うるうづき}: intercalary month (in the old lunar calendar)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "24128_heinen",
+      "reading": "へいねん",
+      "headword": "{平年|へいねん}",
+      "label": "ordinary (non-leap) year"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +62,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "time-general"
       ],
       "domain": []
     },
     "created": "2026-05-13T04:10:31Z",
-    "modified": "2026-08-07T15:50:37Z"
+    "modified": "2026-09-02T04:02:31Z"
   }
 }

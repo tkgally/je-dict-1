@@ -3,7 +3,7 @@
   "headword": "{出没|しゅつぼつ}",
   "reading": "しゅつぼつ",
   "romaji": "shutsubotsu",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "appearance and disappearance; (sudden) appearances; haunting",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28438_shutsubotsu_ex1",
-      "japanese": "{熊|くま}の{出没|しゅつぼつ}に{注意|ちゅうい}。",
+      "japanese": "⟦{熊|くま}→熊：04343_kuma⟧⟦の→の：09472_no⟧{出没|しゅつぼつ}⟦に→に：00314_ni⟧⟦{注意|ちゅうい}→注意：01464_chuui⟧。",
       "english": "Beware of bear sightings.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28438_shutsubotsu_ex2",
-      "japanese": "この{地域|ちいき}では{猿|さる}が{出没|しゅつぼつ}している。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{地域|ちいき}→地域：01461_chiiki⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{猿|さる}→猿：02213_saru⟧⟦が→が：00051_ga⟧{出没|しゅつぼつ}⟦している→する：00392_suru⟧。",
       "english": "Monkeys are appearing in this area.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28438_shutsubotsu_ex3",
-      "japanese": "{最近|さいきん}、{近所|きんじょ}に{不審者|ふしんしゃ}が{出没|しゅつぼつ}しているので{気|き}をつけてください。",
+      "japanese": "⟦{最近|さいきん}→最近：00881_saikin⟧、⟦{近所|きんじょ}→近所：01318_kinjo⟧⟦に→に：00314_ni⟧⟦{不審者|ふしんしゃ}→不審者：11348_fushinsha⟧⟦が→が：00051_ga⟧{出没|しゅつぼつ}⟦している→する：00392_suru⟧⟦の→の：09472_no⟧で{気|き}をつけて⟦ください→ください：02899_kudasai⟧。",
       "english": "Recently, suspicious people have been turning up in the neighborhood, so please be careful.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {出|しゅつ} (appear) + {没|ぼつ} (disappear, sink). Often takes する to form a verb. The nuance is that the subject appears unpredictably or repeatedly, not just once.\n\nCOMMON COLLOCATIONS:\n- {熊|くま}が{出没|しゅつぼつ}する: bears are appearing (in an area)\n- {不審者|ふしんしゃ}の{出没|しゅつぼつ}: appearances of suspicious people\n- {出没|しゅつぼつ}{情報|じょうほう}: sighting information / reports\n- {出没|しゅつぼつ}{注意|ちゅうい}: warning of (animal/criminal) appearances\n\nUSAGE:\nTypical subjects are wild animals ({熊|くま}, {猿|さる}, {猪|いのしし}), criminals ({不審者|ふしんしゃ}, {泥棒|どろぼう}), or supernatural beings (ghosts, {幽霊|ゆうれい}). Less commonly used for ordinary people.",
+  "notes": "Composed of {出|しゅつ} (appear) + {没|ぼつ} (disappear, sink). Often takes ⟦する→する：00392_suru⟧ to form a verb. The nuance is that the subject appears unpredictably or repeatedly, not just once.\n\nCOMMON COLLOCATIONS:\n- ⟦{熊|くま}→熊：04343_kuma⟧⟦が→が：00051_ga⟧{出没|しゅつぼつ}⟦する→する：00392_suru⟧: bears are appearing (in an area)\n- ⟦{不審者|ふしんしゃ}→不審者：11348_fushinsha⟧⟦の→の：09472_no⟧{出没|しゅつぼつ}: appearances of suspicious people\n- {出没|しゅつぼつ}⟦{情報|じょうほう}→情報：03348_jouhou⟧: sighting information / reports\n- {出没|しゅつぼつ}⟦{注意|ちゅうい}→注意：01464_chuui⟧: warning of (animal/criminal) appearances\n\nUSAGE:\nTypical subjects are wild animals (⟦{熊|くま}→熊：04343_kuma⟧, ⟦{猿|さる}→猿：02213_saru⟧, ⟦{猪|いのしし}→猪：04349_inoshishi⟧), criminals (⟦{不審者|ふしんしゃ}→不審者：11348_fushinsha⟧, ⟦{泥棒|どろぼう}→泥棒：01688_dorobou⟧), or supernatural beings (ghosts, ⟦{幽霊|ゆうれい}→幽霊：10648_yuurei⟧). Less commonly used for ordinary people.",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -54,16 +54,17 @@
         "verb-suru"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "action",
         "nature"
       ],
       "domain": [],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     },
     "created": "2026-05-31T02:08:49Z",
-    "modified": "2026-05-31T02:08:49Z"
+    "modified": "2026-09-02T04:02:33Z"
   },
   "conjugation": {
     "type": "suru",

@@ -63,11 +63,33 @@
       ]
     }
   ],
-  "notes": "{行|い}ってらっしゃい is said to someone leaving, expressing a wish for them to go safely and return.\n\nUSAGE:\nThis is the standard response to ⟦{行|い}ってきます→行ってきます：01029_ittekimasu⟧. It literally means 'please go and come back.'\n\nFORMS:\n- {行|い}ってらっしゃい: standard polite\n- {行|い}ってらっしゃいませ: very polite (formal contexts, service staff)\n\nCOMMON ADDITIONS:\n- ⟦{気|き}をつけて→気をつける：09771_kiwotsukeru⟧{行|い}ってらっしゃい: take care on your way\n- {行|い}ってらっしゃい、⟦{頑張|がんば}って→頑張る：01222_ganbaru⟧⟦ね→ね：09474_ne⟧: have a good day, do your best\n\nRELATED EXPRESSIONS:\n- ⟦{行|い}ってきます→行ってきます：01029_ittekimasu⟧: I'm leaving (said by the one departing)\n- ⟦ただいま→ただいま：01062_tadaima⟧: I'm home (upon returning)\n- ⟦お{帰|かえ}りなさい→お帰りなさい：01042_okaerinasai⟧: welcome back (response to ⟦ただいま→ただいま：01062_tadaima⟧)",
-  "cross_references": [],
+  "notes": "{行|い}ってらっしゃい is said to someone leaving, expressing a wish for them to go safely and return.\n\nUSAGE:\nThis is the standard response to ⟦{行|い}ってきます→行ってきます：01029_ittekimasu⟧. It literally means 'please go and come back.'\n\nFORMS:\n- {行|い}ってらっしゃい: standard polite\n- {行|い}ってらっしゃいませ: very polite (formal contexts, service staff)\n\nCOMMON ADDITIONS:\n- ⟦{気|き}をつけて→気をつける：09771_kiwotsukeru⟧{行|い}ってらっしゃい: take care on your way\n- {行|い}ってらっしゃい、⟦{頑張|がんば}って→頑張る：01222_ganbaru⟧⟦ね→ね：09474_ne⟧: have a good day, do your best\n\nRELATED WORDS:\n- ⟦{行|い}ってきます→行ってきます：01029_ittekimasu⟧: I'm leaving (said by the one departing)\n- ⟦ただいま→ただいま：01062_tadaima⟧: I'm home (upon returning)\n- ⟦お{帰|かえ}りなさい→お帰りなさい：01042_okaerinasai⟧: welcome back (response to ⟦ただいま→ただいま：01062_tadaima⟧)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "01029_ittekimasu",
+      "reading": "いってきます",
+      "headword": "{行|い}ってきます",
+      "label": "I'm leaving"
+    },
+    {
+      "type": "related",
+      "target_id": "01062_tadaima",
+      "reading": "ただいま",
+      "headword": "ただいま",
+      "label": "I'm home"
+    },
+    {
+      "type": "related",
+      "target_id": "01042_okaerinasai",
+      "reading": "おかえりなさい",
+      "headword": "お{帰|かえ}りなさい",
+      "label": "welcome back"
+    }
+  ],
   "metadata": {
     "created": "2026-01-07T12:50:35Z",
-    "modified": "2026-06-10T14:04:28Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

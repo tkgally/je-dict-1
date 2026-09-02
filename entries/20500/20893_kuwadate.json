@@ -15,40 +15,73 @@
   "examples": [
     {
       "id": "20893_kuwadate_ex1",
-      "japanese": "{企|くわだ}てが{失敗|しっぱい}した。",
+      "japanese": "{企|くわだ}て⟦が→が：00051_ga⟧⟦{失敗|しっぱい}→失敗：01636_shippai⟧⟦した→する：00392_suru⟧。",
       "english": "The plan failed.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20893_kuwadate_ex2",
-      "japanese": "{大胆|だいたん}な{企|くわだ}てを{実行|じっこう}に{移|うつ}す。",
+      "japanese": "⟦{大胆|だいたん}→大胆：07609_daitan⟧な{企|くわだ}て⟦を→を：00422_wo⟧⟦{実行|じっこう}→実行：03274_jikkou⟧⟦に→に：00314_ni⟧⟦{移|うつ}す→移す：10122_utsusu⟧。",
       "english": "To put a bold plan into action.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20893_kuwadate_ex3",
-      "japanese": "{彼|かれ}の{企|くわだ}ては{事前|じぜん}に{発覚|はっかく}して{未然|みぜん}に{防|ふせ}がれた。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧{企|くわだ}て⟦は→は：00079_ha⟧⟦{事前|じぜん}→事前：07580_jizen⟧⟦に→に：00314_ni⟧⟦{発覚|はっかく}して→発覚する：15423_hakkakusuru⟧⟦{未然|みぜん}→未然：13084_mizen⟧⟦に→に：00314_ni⟧⟦{防|ふせ}がれた→防ぐ：02409_fusegu⟧。",
       "english": "His plot was discovered beforehand and prevented.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "The noun form of the verb {企|くわだ}てる (to plan, to scheme). While it can refer to neutral or positive plans, it often carries a nuance of ambition, secrecy, or cunning — closer to English \"scheme\" or \"plot\" than a simple \"plan.\"\n\nCOMMON COLLOCATIONS:\n- {企|くわだ}てを{実行|じっこう}する: to carry out a plan\n- {企|くわだ}てが{失敗|しっぱい}する: for a plan to fail\n- {企|くわだ}てが{発覚|はっかく}する: for a plot to be discovered\n- {大胆|だいたん}な{企|くわだ}て: a bold scheme\n\nSIMILAR WORDS:\n- {計画|けいかく}: plan — neutral and general-purpose; the most common word for \"plan\"\n- {陰謀|いんぼう}: conspiracy — stronger negative connotation, implies a hidden group effort\n- {企画|きかく}: project/planning — used in business contexts for project proposals",
+  "notes": "The noun form of the verb {企|くわだ}てる (to plan, to scheme). While it can refer to neutral or positive plans, it often carries a nuance of ambition, secrecy, or cunning — closer to English \"scheme\" or \"plot\" than a simple \"plan.\"\n\nCOMMON COLLOCATIONS:\n- {企|くわだ}て⟦を→を：00422_wo⟧⟦{実行|じっこう}する→実行する：22146_jikkousuru⟧: to carry out a plan\n- {企|くわだ}て⟦が→が：00051_ga⟧⟦{失敗|しっぱい}→失敗：01636_shippai⟧⟦する→する：00392_suru⟧: for a plan to fail\n- {企|くわだ}て⟦が→が：00051_ga⟧⟦{発覚|はっかく}する→発覚する：15423_hakkakusuru⟧: for a plot to be discovered\n- ⟦{大胆|だいたん}→大胆：07609_daitan⟧な{企|くわだ}て: a bold scheme\n\nSIMILAR WORDS:\n- ⟦{計画|けいかく}→計画：01172_keikaku⟧: plan — neutral and general-purpose; the most common word for \"plan\"\n- ⟦{陰謀|いんぼう}→陰謀：10887_inbou⟧: conspiracy — stronger negative connotation, implies a hidden group effort\n- ⟦{企画|きかく}→企画：04879_kikaku⟧: project/planning — used in business contexts for project proposals",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01172_keikaku",
+      "reading": "けいかく",
+      "headword": "{計画|けいかく}",
+      "label": "plan"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10887_inbou",
+      "reading": "いんぼう",
+      "headword": "{陰謀|いんぼう}",
+      "label": "conspiracy"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04879_kikaku",
+      "reading": "きかく",
+      "headword": "{企画|きかく}",
+      "label": "project/planning"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["abstract"]
+      "semantic": [
+        "abstract"
+      ]
     },
     "created": "2026-03-30T20:09:14Z",
-    "modified": "2026-03-30T20:09:14Z"
+    "modified": "2026-09-02T04:02:01Z"
   }
 }

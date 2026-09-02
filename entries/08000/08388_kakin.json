@@ -109,7 +109,7 @@
   "examples": [
     {
       "id": "08388_kakin_ex1",
-      "japanese": "{利用|りよう}{時間|じかん}に{応|おう}じて{課金|かきん}される。",
+      "japanese": "⟦{利用|りよう}→利用：01752_riyou⟧⟦{時間|じかん}→時間：00468_jikan⟧⟦に→に：00314_ni⟧⟦{応|おう}じて→応じる：02018_oujiru⟧{課金|かきん}⟦される→する：00392_suru⟧。",
       "english": "You are charged based on usage time.",
       "sense_numbers": [
         1
@@ -119,7 +119,7 @@
     },
     {
       "id": "08388_kakin_ex2",
-      "japanese": "{月額|げつがく}{課金|かきん}のサービスだ。",
+      "japanese": "⟦{月額|げつがく}→月額：09739_getsugaku⟧{課金|かきん}⟦の→の：09472_no⟧⟦サービス→サービス：01531_saabisu⟧だ。",
       "english": "It's a monthly subscription service.",
       "sense_numbers": [
         1
@@ -129,7 +129,7 @@
     },
     {
       "id": "08388_kakin_ex3",
-      "japanese": "{従量|じゅうりょう}{課金|かきん}{制|せい}で{料金|りょうきん}が{決|き}まる。",
+      "japanese": "{従量|じゅうりょう}{課金|かきん}⟦{制|せい}→〜制：30791_sei⟧⟦で→で：00502_de⟧⟦{料金|りょうきん}→料金：03797_ryoukin⟧⟦が→が：00051_ga⟧⟦{決|き}まる→決まる：01233_kimaru⟧。",
       "english": "The fee is determined by usage-based billing.",
       "sense_numbers": [
         1
@@ -139,7 +139,7 @@
     },
     {
       "id": "08388_kakin_ex4",
-      "japanese": "ゲームに{課金|かきん}しすぎた。",
+      "japanese": "⟦ゲーム→ゲーム：03842_geemu⟧⟦に→に：00314_ni⟧{課金|かきん}しすぎた。",
       "english": "I spent too much on in-app purchases in the game.",
       "sense_numbers": [
         2
@@ -149,7 +149,7 @@
     },
     {
       "id": "08388_kakin_ex5",
-      "japanese": "{課金|かきん}しないと{強|つよ}くなれない。",
+      "japanese": "{課金|かきん}⟦しない→する：00392_suru⟧⟦と→と：00512_to⟧⟦{強|つよ}く→強い：00820_tsuyoi⟧⟦なれない→なる：01970_naru⟧。",
       "english": "You can't get stronger without paying.",
       "sense_numbers": [
         2
@@ -159,7 +159,7 @@
     },
     {
       "id": "08388_kakin_ex6",
-      "japanese": "{無課金|むかきん}で{遊|あそ}んでいる。",
+      "japanese": "⟦{無課金|むかきん}→無課金：19851_mukakin⟧⟦で→で：00502_de⟧⟦{遊|あそ}んでいる→遊ぶ：00550_asobu⟧。",
       "english": "I play without spending any money.",
       "sense_numbers": [
         2
@@ -168,7 +168,16 @@
       "notes": null
     }
   ],
-  "notes": "FORMATION:\n{課|か} (impose, assign) + {金|きん} (money) → impose money/charges\n\nVERB FORM:\n{課金|かきん}する (to charge, to bill; to make in-app purchases)\n\nRELATED COMPOUNDS:\n- {課金|かきん}{制|せい} (fee-based system)\n- {従量|じゅうりょう}{課金|かきん} (usage-based billing)\n- {月額|げつがく}{課金|かきん} (monthly billing)\n- {無課金|むかきん} (free-to-play without paying)\n- {廃課金|はいかきん} (excessive in-app spending - slang)\n- {微課金|びかきん} (light spending - slang)\n\nMODERN USAGE:\nThe word has gained a new colloquial meaning in gaming culture, referring specifically to in-app purchases in mobile/online games. \"{課金|かきん}する\" can mean \"to pay real money in a game,\" often for gacha (loot box) systems or premium items.",
+  "notes": "FORMS:\n⟦{課|か}→課：01548_ka⟧ (impose, assign) + {金|きん} (money) → impose money/charges\n{課金|かきん}⟦する→する：00392_suru⟧ (to charge, to bill; to make in-app purchases)\n\nCOMPOUNDS:\n- {課金|かきん}⟦{制|せい}→〜制：30791_sei⟧ (fee-based system)\n- {従量|じゅうりょう}{課金|かきん} (usage-based billing)\n- ⟦{月額|げつがく}→月額：09739_getsugaku⟧{課金|かきん} (monthly billing)\n- ⟦{無課金|むかきん}→無課金：19851_mukakin⟧ (free-to-play without paying)\n- {廃課金|はいかきん} (excessive in-app spending - slang)\n- ⟦{微課金|びかきん}→微課金：29819_bikakin⟧ (light spending - slang)\n\nMODERN USAGE:\nThe word has gained a new colloquial meaning in gaming culture, referring specifically to in-app purchases in mobile/online games. \"{課金|かきん}⟦する→する：00392_suru⟧\" can mean \"to pay real money in a game,\" often for gacha (loot box) systems or premium items.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23649_nagesenkinou",
+      "reading": "なげせんきのう",
+      "headword": "{投|な}げ{銭|せん}{機能|きのう}",
+      "label": "tipping feature"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -177,6 +186,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "business",
         "technology",
@@ -185,6 +195,6 @@
       "verb_class": "suru"
     },
     "created": "2026-01-26T04:46:09Z",
-    "modified": "2026-08-12T12:50:50Z"
+    "modified": "2026-09-02T04:01:15Z"
   }
 }

@@ -20,65 +20,89 @@
   "examples": [
     {
       "id": "13796_keiro_ex1",
-      "japanese": "{通勤|つうきん}{経路|けいろ}を{確認|かくにん}する。",
+      "japanese": "{通勤|つうきん}{経路|けいろ}⟦を→を：00422_wo⟧⟦{確認|かくにん}する→確認する：25332_kakuninsuru⟧。",
       "english": "I'll confirm the commuting route.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13796_keiro_ex2",
-      "japanese": "{台風|たいふう}の{経路|けいろ}が{予測|よそく}された。",
+      "japanese": "⟦{台風|たいふう}→台風：01455_taifuu⟧⟦の→の：09472_no⟧{経路|けいろ}⟦が→が：00051_ga⟧⟦{予測|よそく}→予測：03665_yosoku⟧⟦された→する：00392_suru⟧。",
       "english": "The path of the typhoon was predicted.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13796_keiro_ex3",
-      "japanese": "{最短|さいたん}{経路|けいろ}で{目的地|もくてきち}に{向|む}かった。",
+      "japanese": "{最短|さいたん}{経路|けいろ}⟦で→で：00502_de⟧⟦{目的地|もくてきち}→目的地：09996_mokutekichi⟧⟦に→に：00314_ni⟧⟦{向|む}かった→向かう：01186_mukau⟧。",
       "english": "I headed for the destination by the shortest route.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13796_keiro_ex4",
-      "japanese": "{感染|かんせん}{経路|けいろ}を{調|しら}べる。",
+      "japanese": "⟦{感染|かんせん}→感染：05977_kansen⟧{経路|けいろ}⟦を→を：00422_wo⟧⟦{調|しら}べる→調べる：01213_shiraberu⟧。",
       "english": "To investigate the route of infection.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "13796_keiro_ex5",
-      "japanese": "{正規|せいき}の{経路|けいろ}で{申請|しんせい}してください。",
+      "japanese": "⟦{正規|せいき}→正規：03776_seiki⟧⟦の→の：09472_no⟧{経路|けいろ}⟦で→で：00502_de⟧⟦{申請|しんせい}して→申請する：25228_shinseisuru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please apply through the proper channels.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "13796_keiro_ex6",
-      "japanese": "{流通|りゅうつう}{経路|けいろ}を{見直|みなお}してコストを{削減|さくげん}した。",
+      "japanese": "⟦{流通|りゅうつう}→流通：05138_ryuutsuu⟧{経路|けいろ}⟦を→を：00422_wo⟧⟦{見直|みなお}して→見直す：04579_minaosu⟧⟦コスト→コスト：06666_kosuto⟧⟦を→を：00422_wo⟧⟦{削減|さくげん}した→削減する：25399_sakugensuru⟧。",
       "english": "We reduced costs by reviewing the distribution channels.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
-  "notes": "USAGE:\nA somewhat formal word often used in official or technical contexts. Frequently appears in compounds where it follows a noun describing the type of route or channel.\n\nCOMMON COLLOCATIONS:\n- {通勤|つうきん}{経路|けいろ}: commuting route\n- {感染|かんせん}{経路|けいろ}: route of infection\n- {流通|りゅうつう}{経路|けいろ}: distribution channel\n- {最短|さいたん}{経路|けいろ}: shortest path\n- {経路|けいろ}{検索|けんさく}: route search\n\nSIMILAR WORDS:\n{道順|みちじゅん} (directions) describes step-by-step navigation. ルート is the casual loanword equivalent. {経路|けいろ} is more formal and also covers abstract paths like infection routes.",
-  "cross_references": [],
+  "notes": "USAGE:\nA somewhat formal word often used in official or technical contexts. Frequently appears in compounds where it follows a noun describing the type of route or channel.\n\nCOMMON COLLOCATIONS:\n- {通勤|つうきん}{経路|けいろ}: commuting route\n- ⟦{感染|かんせん}→感染：05977_kansen⟧{経路|けいろ}: route of infection\n- ⟦{流通|りゅうつう}→流通：05138_ryuutsuu⟧{経路|けいろ}: distribution channel\n- {最短|さいたん}{経路|けいろ}: shortest path\n- {経路|けいろ}{検索|けんさく}: route search\n\nSIMILAR WORDS:\n⟦{道順|みちじゅん}→道順：19280_michijun⟧ (directions) describes step-by-step navigation. ⟦ルート→ルート：11250_ruuto⟧ is the casual loanword equivalent. {経路|けいろ} is more formal and also covers abstract paths like infection routes.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19280_michijun",
+      "reading": "みちじゅん",
+      "headword": "{道順|みちじゅん}",
+      "label": "directions"
+    }
+  ],
   "metadata": {
     "created": "2026-02-27T04:12:01Z",
-    "modified": "2026-02-27T04:12:01Z",
+    "modified": "2026-09-02T04:01:34Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

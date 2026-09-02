@@ -16,7 +16,7 @@
   "examples": [
     {
       "id": "30201_marunoko_ex1",
-      "japanese": "{丸|まる}のこで{板|いた}を{切|き}る。",
+      "japanese": "{丸|まる}のこ⟦で→で：00502_de⟧⟦{板|いた}→板：01792_ita⟧⟦を→を：00422_wo⟧⟦{切|き}る→切る：02693_kiru⟧。",
       "english": "I cut the board with a circular saw.",
       "sense_numbers": [
         1
@@ -26,7 +26,7 @@
     },
     {
       "id": "30201_marunoko_ex2",
-      "japanese": "{丸|まる}のこを{使|つか}うときは、{必|かなら}ず{保護|ほご}メガネをかける。",
+      "japanese": "{丸|まる}のこ⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧とき⟦は→は：00079_ha⟧、⟦{必|かなら}ず→必ず：01249_kanarazu⟧⟦{保護|ほご}→保護：03625_hogo⟧メガネ⟦を→を：00422_wo⟧⟦かける→かける：00854_kakeru⟧。",
       "english": "Always wear safety glasses when using a circular saw.",
       "sense_numbers": [
         1
@@ -36,7 +36,7 @@
     },
     {
       "id": "30201_marunoko_ex3",
-      "japanese": "{真|ま}っすぐ{切|き}りたいときは、のこぎりより{丸|まる}のこのほうが{早|はや}くてきれいだ。",
+      "japanese": "{真|ま}っすぐ⟦{切|き}りたい→切る：02693_kiru⟧とき⟦は→は：00079_ha⟧、のこぎり⟦より→より：09476_yori⟧{丸|まる}のこ⟦の→の：09472_no⟧ほう⟦が→が：00051_ga⟧⟦{早|はや}くて→早い：00514_hayai⟧⟦きれい→きれい：00717_kirei⟧だ。",
       "english": "For a straight cut, a circular saw is faster and cleaner than a handsaw.",
       "sense_numbers": [
         1
@@ -46,7 +46,7 @@
     },
     {
       "id": "30201_marunoko_ex4",
-      "japanese": "{棚|たな}を{作|つく}るために、ホームセンターで{丸|まる}のこを{借|か}りて{木材|もくざい}を{切|き}ってもらった。",
+      "japanese": "⟦{棚|たな}→棚：01650_tana⟧⟦を→を：00422_wo⟧⟦{作|つく}る→作る：00481_tsukuru⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧、⟦ホームセンター→ホームセンター：11152_hoomusentaa⟧⟦で→で：00502_de⟧{丸|まる}のこ⟦を→を：00422_wo⟧⟦{借|か}りて→借りる：00532_kariru⟧⟦{木材|もくざい}→木材：13017_mokuzai⟧⟦を→を：00422_wo⟧⟦{切|き}って→切る：02693_kiru⟧⟦もらった→もらう：00520_morau⟧。",
       "english": "To build the shelf, I had the wood cut with a circular saw rented at the home center.",
       "sense_numbers": [
         1
@@ -55,7 +55,30 @@
       "notes": null
     }
   ],
-  "notes": "Written several ways — {丸|まる}のこ, {丸鋸|まるのこ}, and {丸|まる}ノコ — with the mixed spellings all read the same. The word covers both handheld saws and bench-mounted models.\n\nCOMMON COLLOCATIONS:\n- {丸|まる}のこで{切|き}る: to cut with a circular saw\n- {丸|まる}のこの{刃|は}: the circular saw blade\n- {電動|でんどう}{丸|まる}のこ: electric circular saw\n\nSIMILAR WORDS:\n- のこぎり: handsaw — manual, with a straight blade\n- チェーンソー: chainsaw — for felling trees and cutting logs, not straight boards",
+  "notes": "Written several ways — {丸|まる}のこ, {丸鋸|まるのこ}, and {丸|まる}ノコ — with the mixed spellings all read the same. The word covers both handheld saws and bench-mounted models.\n\nCOMMON COLLOCATIONS:\n- {丸|まる}のこ⟦で→で：00502_de⟧⟦{切|き}る→切る：02693_kiru⟧: to cut with a circular saw\n- {丸|まる}のこ⟦の→の：09472_no⟧⟦{刃|は}→刃：09865_ha⟧: the circular saw blade\n- ⟦{電動|でんどう}→電動：06412_dendou⟧{丸|まる}のこ: electric circular saw\n\nSIMILAR WORDS:\n- のこぎり: handsaw — manual, with a straight blade\n- ⟦チェーンソー→チェーンソー：30211_cheensoo⟧: chainsaw — for felling trees and cutting logs, not straight boards",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05477_nokogiri",
+      "reading": "のこぎり",
+      "headword": "{鋸|のこぎり}",
+      "label": "handsaw"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30211_cheensoo",
+      "reading": "ちぇーんそー",
+      "headword": "チェーンソー",
+      "label": "chainsaw"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23980_dendounokogiri",
+      "reading": "でんどうのこぎり",
+      "headword": "{電動|でんどう}のこぎり",
+      "label": "power saw"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -63,7 +86,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "tool"
       ],
@@ -72,6 +95,6 @@
       ]
     },
     "created": "2026-07-28T12:21:16Z",
-    "modified": "2026-07-28T12:21:16Z"
+    "modified": "2026-09-02T04:02:39Z"
   }
 }

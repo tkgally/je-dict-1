@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24136_sagyouin_ex1",
-      "japanese": "{作業員|さぎょういん}がヘルメットをかぶっている。",
+      "japanese": "{作業員|さぎょういん}⟦が→が：00051_ga⟧⟦ヘルメット→ヘルメット：11325_herumetto⟧⟦を→を：00422_wo⟧⟦かぶっている→かぶる：00709_kaburu⟧。",
       "english": "The workers are wearing helmets.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24136_sagyouin_ex2",
-      "japanese": "{工事|こうじ}{現場|げんば}で{作業員|さぎょういん}が{働|はたら}いている。",
+      "japanese": "⟦{工事|こうじ}{現場|げんば}→工事現場：26202_koujigenba⟧⟦で→で：00502_de⟧{作業員|さぎょういん}⟦が→が：00051_ga⟧⟦{働|はたら}いている→働く：00503_hataraku⟧。",
       "english": "Workers are working at the construction site.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24136_sagyouin_ex3",
-      "japanese": "{作業員|さぎょういん}の{安全|あんぜん}を{確保|かくほ}するために{新|あたら}しいルールが{導入|どうにゅう}された。",
+      "japanese": "{作業員|さぎょういん}⟦の→の：09472_no⟧⟦{安全|あんぜん}→安全：01131_anzen⟧⟦を→を：00422_wo⟧⟦{確保|かくほ}→確保：13681_kakuho⟧⟦する→する：00392_suru⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦ルール→ルール：00354_ruuru⟧⟦が→が：00051_ga⟧⟦{導入|どうにゅう}→導入：10127_dounyuu⟧⟦された→する：00392_suru⟧。",
       "english": "New rules were introduced to ensure the safety of workers.",
       "sense_numbers": [
         1
@@ -44,8 +44,45 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {作業|さぎょう} ('work; operation') and {員|いん} ('member; personnel'). A factual, non-pejorative term commonly used in news reports, workplace regulations, and industrial contexts. More specific than the general {労働者|ろうどうしゃ} ('laborer') and less formal than {従業員|じゅうぎょういん} ('employee').\n\nUSAGE:\n- Frequently appears in news about industrial accidents, construction projects, and disaster response.\n- Can be modified with a field: {建設|けんせつ}{作業員|さぎょういん} ('construction worker'), {清掃|せいそう}{作業員|さぎょういん} ('cleaning worker').\n- In nuclear and disaster contexts, {作業員|さぎょういん} often refers to people working in hazardous conditions.\n\nCOMMON COLLOCATIONS:\n- {建設|けんせつ}{作業員|さぎょういん}: construction worker\n- {作業員|さぎょういん}の{安全|あんぜん}: worker safety\n- {現場|げんば}の{作業員|さぎょういん}: on-site workers\n- {作業員|さぎょういん}を{配置|はいち}する: to deploy workers\n\nSIMILAR WORDS:\n- {労働者|ろうどうしゃ}: laborer; worker — a broader, more formal term often used in legal and economic contexts\n- {従業員|じゅうぎょういん}: employee — someone employed by a company; covers office workers as well as manual laborers\n- {職人|しょくにん}: craftsperson; artisan — a skilled tradesperson, emphasizing specialized expertise",
+  "notes": "Compound of ⟦{作業|さぎょう}→作業：02775_sagyou⟧ ('work; operation') and {員|いん} ('member; personnel'). A factual, non-pejorative term commonly used in news reports, workplace regulations, and industrial contexts. More specific than the general ⟦{労働者|ろうどうしゃ}→労働者：23971_roudousha⟧ ('laborer') and less formal than ⟦{従業員|じゅうぎょういん}→従業員：10018_juugyouin⟧ ('employee').\n\nUSAGE:\n- Frequently appears in news about industrial accidents, construction projects, and disaster response.\n- Can be modified with a field: ⟦{建設|けんせつ}→建設：02708_kensetsu⟧{作業員|さぎょういん} ('construction worker'), ⟦{清掃|せいそう}→清掃：04332_seisou⟧{作業員|さぎょういん} ('cleaning worker').\n- In nuclear and disaster contexts, {作業員|さぎょういん} often refers to people working in hazardous conditions.\n\nCOMMON COLLOCATIONS:\n- ⟦{建設|けんせつ}→建設：02708_kensetsu⟧{作業員|さぎょういん}: construction worker\n- {作業員|さぎょういん}⟦の→の：09472_no⟧⟦{安全|あんぜん}→安全：01131_anzen⟧: worker safety\n- ⟦{現場|げんば}→現場：02723_genba⟧⟦の→の：09472_no⟧{作業員|さぎょういん}: on-site workers\n- {作業員|さぎょういん}⟦を→を：00422_wo⟧⟦{配置|はいち}→配置：14409_haichi⟧⟦する→する：00392_suru⟧: to deploy workers\n\nSIMILAR WORDS:\n- ⟦{労働者|ろうどうしゃ}→労働者：23971_roudousha⟧: laborer; worker — a broader, more formal term often used in legal and economic contexts\n- ⟦{従業員|じゅうぎょういん}→従業員：10018_juugyouin⟧: employee — someone employed by a company; covers office workers as well as manual laborers\n- ⟦{職人|しょくにん}→職人：09868_shokunin⟧: craftsperson; artisan — a skilled tradesperson, emphasizing specialized expertise",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23971_roudousha",
+      "reading": "ろうどうしゃ",
+      "headword": "{労働者|ろうどうしゃ}",
+      "label": "laborer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10018_juugyouin",
+      "reading": "じゅうぎょういん",
+      "headword": "{従業員|じゅうぎょういん}",
+      "label": "employee"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09868_shokunin",
+      "reading": "しょくにん",
+      "headword": "{職人|しょくにん}",
+      "label": "craftsperson"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04181_kouin",
+      "reading": "こういん",
+      "headword": "{工員|こういん}",
+      "label": "factory worker"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29438_nikutairoudousha",
+      "reading": "にくたいろうどうしゃ",
+      "headword": "{肉体労働者|にくたいろうどうしゃ}",
+      "label": "manual laborer"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -64,6 +101,6 @@
       ]
     },
     "created": "2026-04-17T19:37:21Z",
-    "modified": "2026-08-02T18:32:34Z"
+    "modified": "2026-09-02T04:02:16Z"
   }
 }

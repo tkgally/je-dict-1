@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "15796_mukouryou_ex1",
-      "japanese": "{無香料|むこうりょう}の{石鹸|せっけん}を{使|つか}っている。",
+      "japanese": "{無香料|むこうりょう}⟦の→の：09472_no⟧⟦{石鹸|せっけん}→石鹸：04981_sekken⟧⟦を→を：00422_wo⟧⟦{使|つか}っている→使う：00473_tsukau⟧。",
       "english": "I use unscented soap.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "15796_mukouryou_ex2",
-      "japanese": "{肌|はだ}が{弱|よわ}いので、{無香料|むこうりょう}の{化粧品|けしょうひん}を{選|えら}んでいる。",
+      "japanese": "⟦{肌|はだ}→肌：02243_hada⟧⟦が→が：00051_ga⟧⟦{弱|よわ}い→弱い：00825_yowai⟧⟦の→の：09472_no⟧で、{無香料|むこうりょう}⟦の→の：09472_no⟧⟦{化粧品|けしょうひん}→化粧品：05119_keshouhin⟧⟦を→を：00422_wo⟧⟦{選|えら}んでいる→選ぶ：00835_erabu⟧。",
       "english": "Since I have sensitive skin, I choose fragrance-free cosmetics.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "15796_mukouryou_ex3",
-      "japanese": "{赤|あか}ちゃん{用|よう}の{洗剤|せんざい}は{無香料|むこうりょう}・{無着色|むちゃくしょく}のものが{安心|あんしん}だ。",
+      "japanese": "⟦{赤|あか}ちゃん→赤ちゃん：01282_akachan⟧⟦{用|よう}→〜用：09842_you⟧⟦の→の：09472_no⟧⟦{洗剤|せんざい}→洗剤：03304_senzai⟧⟦は→は：00079_ha⟧{無香料|むこうりょう}・⟦{無着色|むちゃくしょく}→無着色：29231_muchakushoku⟧⟦の→の：09472_no⟧もの⟦が→が：00051_ga⟧⟦{安心|あんしん}→安心：01288_anshin⟧だ。",
       "english": "For baby detergent, fragrance-free and dye-free products are safest.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,19 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{無香料|むこうりょう} is used as a no-adjective to modify nouns: {無香料|むこうりょう}の{製品|せいひん} (fragrance-free product). It appears frequently on product labels and in advertising.\n\nCOMMON COLLOCATIONS:\n- {無香料|むこうりょう}・{無着色|むちゃくしょく} (fragrance-free and dye-free)\n- {無香料|むこうりょう}タイプ (unscented type)\n- {無香料|むこうりょう}の{洗剤|せんざい} (fragrance-free detergent)\n\nRELATED TERMS:\n- {香料|こうりょう} (fragrance, perfume ingredient)\n- {無添加|むてんか} (additive-free)\n- {低刺激|ていしげき} (hypoallergenic, low-irritation)",
-  "cross_references": [],
+  "notes": "USAGE:\n{無香料|むこうりょう} is used as a no-adjective to modify nouns: {無香料|むこうりょう}⟦の→の：09472_no⟧⟦{製品|せいひん}→製品：01445_seihin⟧ (fragrance-free product). It appears frequently on product labels and in advertising.\n\nCOMMON COLLOCATIONS:\n- {無香料|むこうりょう}・⟦{無着色|むちゃくしょく}→無着色：29231_muchakushoku⟧ (fragrance-free and dye-free)\n- {無香料|むこうりょう}⟦タイプ→タイプ：01534_taipu⟧ (unscented type)\n- {無香料|むこうりょう}⟦の→の：09472_no⟧⟦{洗剤|せんざい}→洗剤：03304_senzai⟧ (fragrance-free detergent)\n\nRELATED WORDS:\n- ⟦{香料|こうりょう}→香料：14678_kouryou⟧ (fragrance, perfume ingredient)\n- ⟦{無添加|むてんか}→無添加：19283_mutenka⟧ (additive-free)\n- {低刺激|ていしげき} (hypoallergenic, low-irritation)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "19283_mutenka",
+      "reading": "むてんか",
+      "headword": "{無添加|むてんか}",
+      "label": "additive-free"
+    }
+  ],
   "metadata": {
     "created": "2026-03-08T09:49:25Z",
-    "modified": "2026-07-18T04:02:53Z",
+    "modified": "2026-09-02T04:01:42Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

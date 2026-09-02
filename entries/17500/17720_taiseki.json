@@ -3,7 +3,7 @@
   "id": "17720_taiseki",
   "headword": "{退席|たいせき}",
   "reading": "たいせき",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "leaving one's seat; withdrawing from a meeting",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "17720_taiseki_ex1",
-      "japanese": "{会議|かいぎ}の{途中|とちゅう}で{退席|たいせき}した。",
+      "japanese": "⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦の→の：09472_no⟧⟦{途中|とちゅう}→途中：01684_tochuu⟧⟦で→で：00502_de⟧{退席|たいせき}⟦した→する：00392_suru⟧。",
       "english": "I left the meeting partway through.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "17720_taiseki_ex2",
-      "japanese": "{体調|たいちょう}が{悪|わる}くなり、{授業|じゅぎょう}を{退席|たいせき}させてもらった。",
+      "japanese": "⟦{体調|たいちょう}→体調：04644_taichou⟧⟦が→が：00051_ga⟧⟦{悪|わる}く→悪い：00908_warui⟧⟦なり→なる：01970_naru⟧、⟦{授業|じゅぎょう}→授業：00781_jugyou⟧⟦を→を：00422_wo⟧{退席|たいせき}⟦させて→する：00392_suru⟧⟦もらった→もらう：00520_morau⟧。",
       "english": "I felt unwell and was allowed to leave the class.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "17720_taiseki_ex3",
-      "japanese": "{議長|ぎちょう}が{退席|たいせき}を{命|めい}じたため、その{議員|ぎいん}は{議場|ぎじょう}を{離|はな}れた。",
+      "japanese": "⟦{議長|ぎちょう}→議長：02681_gichou⟧⟦が→が：00051_ga⟧{退席|たいせき}⟦を→を：00422_wo⟧⟦{命|めい}じた→命じる：02309_meijiru⟧⟦ため→ため：01145_tame⟧、⟦その→その：00993_sono⟧⟦{議員|ぎいん}→議員：02660_giin⟧⟦は→は：00079_ha⟧⟦{議場|ぎじょう}→議場：27898_gijou⟧⟦を→を：00422_wo⟧⟦{離|はな}れた→離れる：02397_hanareru⟧。",
       "english": "The chairman ordered the member to leave, so the legislator left the chamber.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{退席|たいせき} is a formal word, often used in meetings, classes, and official proceedings. The opposite is {着席|ちゃくせき} (taking one's seat).\n\nCOMMON COLLOCATIONS:\n- {途中|とちゅう}{退席|たいせき} (leaving partway through)\n- {退席|たいせき}を{求|もと}める (to request someone to leave)\n- {退席|たいせき}を{命|めい}じる (to order someone to leave)\n\nSIMILAR WORDS:\n{退出|たいしゅつ} means leaving a room or building entirely, while {退席|たいせき} specifically refers to leaving one's seat or place at a gathering.",
+  "notes": "USAGE:\n{退席|たいせき} is a formal word, often used in meetings, classes, and official proceedings. The opposite is ⟦{着席|ちゃくせき}→着席：18472_chakuseki⟧ (taking one's seat).\n\nCOMMON COLLOCATIONS:\n- ⟦{途中|とちゅう}→途中：01684_tochuu⟧{退席|たいせき} (leaving partway through)\n- {退席|たいせき}⟦を→を：00422_wo⟧⟦{求|もと}める→求める：02316_motomeru⟧ (to request someone to leave)\n- {退席|たいせき}⟦を→を：00422_wo⟧⟦{命|めい}じる→命じる：02309_meijiru⟧ (to order someone to leave)\n\nSIMILAR WORDS:\n⟦{退出|たいしゅつ}→退出：18284_taishutsu⟧ means leaving a room or building entirely, while {退席|たいせき} specifically refers to leaving one's seat or place at a gathering.",
   "cross_references": [
     {
       "type": "antonym",
@@ -148,11 +148,18 @@
       "reading": "たいしゅつ",
       "headword": "{退出|たいしゅつ}",
       "label": "leaving a room"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19808_chuuza",
+      "reading": "ちゅうざ",
+      "headword": "{中座|ちゅうざ}",
+      "label": "leaving in the middle"
     }
   ],
   "metadata": {
     "created": "2026-03-18T14:40:44Z",
-    "modified": "2026-05-07T05:07:45Z",
+    "modified": "2026-09-02T04:01:49Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

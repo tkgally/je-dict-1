@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "RELATED FAMILY TERMS:\n・⟦{祖父|そふ}→祖父：01452_sofu⟧ - grandfather\n・⟦{祖母|そぼ}→祖母：00813_sobo⟧ - grandmother\n・⟦{祖父母|そふぼ}→祖父母：03110_sofubo⟧ - grandparents\n・⟦{曾孫|ひまご}→曾孫：noentry⟧/⟦{曽孫|そうそん}→曽孫：noentry⟧ - great-grandchild\n\nCOMMON EXPRESSIONS:\n・{孫|まご}⟦の→の：09472_no⟧⟦{手|て}→手：00569_te⟧ - back scratcher (lit. grandchild's hand)\n・⟦{内孫|うちまご}→内孫：noentry⟧ - grandchild from one's son (who carries on the family name)\n・⟦{外孫|そとまご}→外孫：noentry⟧ - grandchild from one's daughter\n\nNOTE:\nIn Japanese culture, grandparents often play an important role in childcare, and the relationship between grandparents and grandchildren ({孫|まご}) is highly valued.",
+  "notes": "RELATED FAMILY TERMS:\n- ⟦{祖父|そふ}→祖父：01452_sofu⟧ - grandfather\n- ⟦{祖母|そぼ}→祖母：00813_sobo⟧ - grandmother\n- ⟦{祖父母|そふぼ}→祖父母：03110_sofubo⟧ - grandparents\n- ⟦{曾孫|ひまご}→曾孫：noentry⟧/⟦{曽孫|そうそん}→曽孫：noentry⟧ - great-grandchild\n\nCOMMON EXPRESSIONS:\n- {孫|まご}⟦の→の：09472_no⟧⟦{手|て}→手：00569_te⟧ - back scratcher (lit. grandchild's hand)\n- ⟦{内孫|うちまご}→内孫：noentry⟧ - grandchild from one's son (who carries on the family name)\n- ⟦{外孫|そとまご}→外孫：noentry⟧ - grandchild from one's daughter\n\nUSAGE:\nIn Japanese culture, grandparents often play an important role in childcare, and the relationship between grandparents and grandchildren ({孫|まご}) is highly valued.",
   "cross_references": [
     {
       "type": "related",
@@ -71,11 +71,32 @@
       "headword": "{祖父母|そふぼ}",
       "label": "grandparents",
       "target_id": "03110_sofubo"
+    },
+    {
+      "type": "related",
+      "target_id": "01452_sofu",
+      "reading": "そふ",
+      "headword": "{祖父|そふ}",
+      "label": "grandfather"
+    },
+    {
+      "type": "related",
+      "target_id": "00813_sobo",
+      "reading": "そぼ",
+      "headword": "{祖母|そぼ}",
+      "label": "grandmother"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30760_oikko",
+      "reading": "おいっこ",
+      "headword": "{甥|おい}っ{子|こ}",
+      "label": "nephew"
     }
   ],
   "metadata": {
     "created": "2026-01-12T12:48:00Z",
-    "modified": "2026-05-27T14:10:06Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

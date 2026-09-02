@@ -2,7 +2,7 @@
   "id": "11771_buntan",
   "headword": "{分担|ぶんたん}",
   "reading": "ぶんたん",
-  "part_of_speech": "noun; noun (する)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "sharing duties, division of labor",
   "conjugation": {
     "type": "suru",
@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "11771_buntan_ex1",
-      "japanese": "{家事|かじ}を{分担|ぶんたん}する。",
+      "japanese": "⟦{家事|かじ}→家事：12313_kaji⟧⟦を→を：00422_wo⟧{分担|ぶんたん}⟦する→する：00392_suru⟧。",
       "english": "We share the housework.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "11771_buntan_ex2",
-      "japanese": "{費用|ひよう}は{全員|ぜんいん}で{分担|ぶんたん}した。",
+      "japanese": "⟦{費用|ひよう}→費用：03588_hiyou⟧⟦は→は：00079_ha⟧⟦{全員|ぜんいん}→全員：03310_zenin⟧⟦で→で：00502_de⟧{分担|ぶんたん}⟦した→する：00392_suru⟧。",
       "english": "The costs were shared among everyone.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "11771_buntan_ex3",
-      "japanese": "プロジェクトの{作業|さぎょう}を{分担|ぶんたん}して{効率|こうりつ}よく{進|すす}めよう。",
+      "japanese": "⟦プロジェクト→プロジェクト：06764_purojekuto⟧⟦の→の：09472_no⟧⟦{作業|さぎょう}→作業：02775_sagyou⟧⟦を→を：00422_wo⟧{分担|ぶんたん}⟦して→する：00392_suru⟧⟦{効率|こうりつ}→効率：11794_kouritsu⟧⟦よく→よく：00601_yoku⟧⟦{進|すす}めよう→進める：01949_susumeru⟧。",
       "english": "Let's divide up the project tasks and proceed efficiently.",
       "notes": null,
       "has_audio": false,
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "Dividing work, costs, or responsibilities among multiple people so each bears a portion. Functions as a noun and する verb.\n\nWORD FORMATION:\n{分|ぶん} (divide) + {担|たん} (bear/carry)\n\nCOMMON COLLOCATIONS:\n- {役割|やくわり}{分担|ぶんたん}: division of roles\n- {費用|ひよう}を{分担|ぶんたん}する: to share costs\n- {家事|かじ}を{分担|ぶんたん}する: to share housework\n- {分担|ぶんたん}{金|きん}: shared cost, contribution\n- {作業|さぎょう}を{分担|ぶんたん}する: to divide up tasks\n\nUSAGE:\nVery common in both workplace ({役割|やくわり}{分担|ぶんたん}) and household ({家事|かじ}{分担|ぶんたん}) contexts. Unlike {分配|ぶんぱい} (distribution of goods/money), {分担|ぶんたん} emphasizes sharing burdens or responsibilities.",
+  "notes": "Dividing work, costs, or responsibilities among multiple people so each bears a portion. Functions as a noun and ⟦する→する：00392_suru⟧ verb.\n\nFORMS:\n⟦{分|ぶん}→分：26216_bun⟧ (divide) + {担|たん} (bear/carry)\n\nCOMMON COLLOCATIONS:\n- {役割|やくわり}{分担|ぶんたん}: division of roles\n- ⟦{費用|ひよう}→費用：03588_hiyou⟧⟦を→を：00422_wo⟧{分担|ぶんたん}⟦する→する：00392_suru⟧: to share costs\n- ⟦{家事|かじ}→家事：12313_kaji⟧⟦を→を：00422_wo⟧{分担|ぶんたん}⟦する→する：00392_suru⟧: to share housework\n- {分担|ぶんたん}{金|きん}: shared cost, contribution\n- ⟦{作業|さぎょう}→作業：02775_sagyou⟧⟦を→を：00422_wo⟧{分担|ぶんたん}⟦する→する：00392_suru⟧: to divide up tasks\n\nUSAGE:\nVery common in both workplace ({役割|やくわり}{分担|ぶんたん}) and household (⟦{家事|かじ}→家事：12313_kaji⟧{分担|ぶんたん}) contexts. Unlike ⟦{分配|ぶんぱい}→分配：11746_bunpai⟧ (distribution of goods/money), {分担|ぶんたん} emphasizes sharing burdens or responsibilities.",
   "cross_references": [
     {
       "type": "contrast",
@@ -141,11 +141,25 @@
       "reading": "ぶんぱい",
       "headword": "{分配|ぶんぱい}",
       "label": "distribution of goods/money"
+    },
+    {
+      "type": "related",
+      "target_id": "08218_furiwakeru",
+      "reading": "ふりわける",
+      "headword": "{振|ふ}り{分|わ}ける",
+      "label": "to divide up"
+    },
+    {
+      "type": "related",
+      "target_id": "10047_furiwake",
+      "reading": "ふりわけ",
+      "headword": "{振|ふ}り{分|わ}け",
+      "label": "sorting, allocation, distribution"
     }
   ],
   "metadata": {
     "created": "2026-02-17T23:15:01Z",
-    "modified": "2026-08-15T21:25:25Z",
+    "modified": "2026-09-02T04:01:26Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
@@ -160,7 +174,8 @@
         "society",
         "work"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

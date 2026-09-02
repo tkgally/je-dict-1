@@ -15,40 +15,67 @@
   "examples": [
     {
       "id": "27009_obuje_ex1",
-      "japanese": "{公園|こうえん}に{大|おお}きなオブジェがある。",
+      "japanese": "⟦{公園|こうえん}→公園：00581_kouen⟧⟦に→に：00314_ni⟧⟦{大|おお}きな→大きな：02849_ookina⟧オブジェ⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There is a large art object in the park.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27009_obuje_ex2",
-      "japanese": "ガラスで{作|つく}られたオブジェが{美|うつく}しかった。",
+      "japanese": "⟦ガラス→ガラス：01777_garasu⟧⟦で→で：00502_de⟧⟦{作|つく}られた→作る：00481_tsukuru⟧オブジェ⟦が→が：00051_ga⟧⟦{美|うつく}しかった→美しい：01121_utsukushii⟧。",
       "english": "The glass art object was beautiful.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27009_obuje_ex3",
-      "japanese": "{美術館|びじゅつかん}の{入口|いりぐち}に{現代|げんだい}アーティストのオブジェが{展示|てんじ}されていた。",
+      "japanese": "⟦{美術館|びじゅつかん}→美術館：01717_bijutsukan⟧⟦の→の：09472_no⟧{入口|いりぐち}⟦に→に：00314_ni⟧⟦{現代|げんだい}→現代：02722_gendai⟧⟦アーティスト→アーティスト：10712_aatisuto⟧⟦の→の：09472_no⟧オブジェ⟦が→が：00051_ga⟧⟦{展示|てんじ}→展示：12401_tenji⟧⟦されていた→する：00392_suru⟧。",
       "english": "A contemporary artist's art object was displayed at the museum entrance.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "From French \"objet\" (object/objet d'art). In Japanese, broadly used for any decorative or artistic three-dimensional piece, from public sculptures to small interior decorations. More commonly used than the English equivalent — Japanese speakers use オブジェ for things English speakers might simply call \"sculpture\" or \"decoration.\"\n\nCOMMON COLLOCATIONS:\n- オブジェを{飾|かざ}る: to display an art object\n- インテリアオブジェ: interior decorative object\n- {金属|きんぞく}のオブジェ: metal sculpture/art object\n- オブジェとして{使|つか}う: to use as a decorative object\n\nSIMILAR WORDS:\n- {彫刻|ちょうこく}: sculpture — specifically carved or sculpted works; narrower than オブジェ\n- {置物|おきもの}: ornament; figurine — smaller decorative items for display, often traditional\n- モニュメント: monument — a larger, often commemorative structure",
+  "notes": "From French \"objet\" (object/objet d'art). In Japanese, broadly used for any decorative or artistic three-dimensional piece, from public sculptures to small interior decorations. More commonly used than the English equivalent — Japanese speakers use オブジェ for things English speakers might simply call \"sculpture\" or \"decoration.\"\n\nCOMMON COLLOCATIONS:\n- オブジェ⟦を→を：00422_wo⟧⟦{飾|かざ}る→飾る：01185_kazaru⟧: to display an art object\n- ⟦インテリア→インテリア：22335_interia⟧オブジェ: interior decorative object\n- ⟦{金属|きんぞく}→金属：02645_kinzoku⟧⟦の→の：09472_no⟧オブジェ: metal sculpture/art object\n- オブジェ⟦として→として：06802_toshite⟧⟦{使|つか}う→使う：00473_tsukau⟧: to use as a decorative object\n\nSIMILAR WORDS:\n- ⟦{彫刻|ちょうこく}→彫刻：04448_choukoku⟧: sculpture — specifically carved or sculpted works; narrower than オブジェ\n- ⟦{置物|おきもの}→置物：19885_okimono⟧: ornament; figurine — smaller decorative items for display, often traditional\n- モニュメント: monument — a larger, often commemorative structure",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04448_choukoku",
+      "reading": "ちょうこく",
+      "headword": "{彫刻|ちょうこく}",
+      "label": "sculpture"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19885_okimono",
+      "reading": "おきもの",
+      "headword": "{置物|おきもの}",
+      "label": "ornament"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["leisure", "general"]
+      "semantic": [
+        "leisure",
+        "general"
+      ]
     },
     "created": "2026-05-06T13:16:01Z",
-    "modified": "2026-05-06T13:16:01Z"
+    "modified": "2026-09-02T04:02:28Z"
   }
 }

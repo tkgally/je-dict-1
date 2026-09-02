@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "17314_yotsukado_ex1",
-      "japanese": "{四|よ}つ{角|かど}を{右|みぎ}に{曲|ま}がる。",
+      "japanese": "{四|よ}つ{角|かど}⟦を→を：00422_wo⟧⟦{右|みぎ}→右：02257_migi⟧⟦に→に：00314_ni⟧⟦{曲|ま}がる→曲がる：00649_magaru⟧。",
       "english": "Turn right at the intersection.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "17314_yotsukado_ex2",
-      "japanese": "あの{四|よ}つ{角|かど}にコンビニがある。",
+      "japanese": "⟦あの→あの：00915_ano⟧{四|よ}つ{角|かど}⟦に→に：00314_ni⟧⟦コンビニ→コンビニ：01081_konbini⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There is a convenience store at that intersection.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "17314_yotsukado_ex3",
-      "japanese": "{次|つぎ}の{四|よ}つ{角|かど}を{左|ひだり}に{曲|ま}がると、{駅|えき}が{見|み}えてきます。",
+      "japanese": "⟦{次|つぎ}→次：00819_tsugi⟧⟦の→の：09472_no⟧{四|よ}つ{角|かど}⟦を→を：00422_wo⟧⟦{左|ひだり}→左：00628_hidari⟧⟦に→に：00314_ni⟧⟦{曲|ま}がる→曲がる：00649_magaru⟧⟦と→と：00512_to⟧、⟦{駅|えき}→駅：02180_eki⟧⟦が→が：00051_ga⟧⟦{見|み}えて→見える：01165_mieru⟧きます。",
       "english": "If you turn left at the next intersection, you will see the station.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA common word in everyday directions. Refers specifically to a four-way intersection where streets cross at roughly right angles. More colloquial and specific than {交差点|こうさてん}, which is the general term for any intersection.\n\nCOMMON COLLOCATIONS:\n- {四|よ}つ{角|かど}を{曲|ま}がる (to turn at the intersection)\n- {四|よ}つ{角|かど}の{手前|てまえ} (just before the intersection)\n\nSIMILAR WORDS:\n- {交差点|こうさてん}: intersection — the standard, slightly more formal term for any road crossing\n- {十字路|じゅうじろ}: crossroads — literally \"cross-shaped road,\" more formal",
+  "notes": "USAGE:\nA common word in everyday directions. Refers specifically to a four-way intersection where streets cross at roughly right angles. More colloquial and specific than ⟦{交差点|こうさてん}→交差点：01404_kousaten⟧, which is the general term for any intersection.\n\nCOMMON COLLOCATIONS:\n- {四|よ}つ{角|かど}⟦を→を：00422_wo⟧⟦{曲|ま}がる→曲がる：00649_magaru⟧ (to turn at the intersection)\n- {四|よ}つ{角|かど}⟦の→の：09472_no⟧⟦{手前|てまえ}→手前：01001_temae⟧ (just before the intersection)\n\nSIMILAR WORDS:\n- ⟦{交差点|こうさてん}→交差点：01404_kousaten⟧: intersection — the standard, slightly more formal term for any road crossing\n- ⟦{十字路|じゅうじろ}→十字路：09387_juujiro⟧: crossroads — literally \"cross-shaped road,\" more formal",
   "cross_references": [
     {
       "type": "synonym",
@@ -52,11 +52,18 @@
       "reading": "こうさてん",
       "headword": "{交差点|こうさてん}",
       "label": "intersection (standard)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09387_juujiro",
+      "reading": "じゅうじろ",
+      "headword": "{十字路|じゅうじろ}",
+      "label": "crossroads"
     }
   ],
   "metadata": {
     "created": "2026-03-17T05:58:32Z",
-    "modified": "2026-05-06T06:14:35Z",
+    "modified": "2026-09-02T04:01:48Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

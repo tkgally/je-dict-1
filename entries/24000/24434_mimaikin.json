@@ -16,7 +16,7 @@
   "examples": [
     {
       "id": "24434_mimaikin_ex1",
-      "japanese": "{会社|かいしゃ}から{見舞金|みまいきん}が{出|で}た。",
+      "japanese": "⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦から→から：00504_kara⟧{見舞金|みまいきん}⟦が→が：00051_ga⟧⟦{出|で}た→出る：00513_deru⟧。",
       "english": "The company gave sympathy money.",
       "sense_numbers": [
         1
@@ -26,7 +26,7 @@
     },
     {
       "id": "24434_mimaikin_ex2",
-      "japanese": "{入院|にゅういん}した{同僚|どうりょう}に{見舞金|みまいきん}を{渡|わた}した。",
+      "japanese": "⟦{入院|にゅういん}した→入院する：01849_nyuuinsuru⟧⟦{同僚|どうりょう}→同僚：01023_douryou⟧⟦に→に：00314_ni⟧{見舞金|みまいきん}⟦を→を：00422_wo⟧⟦{渡|わた}した→渡す：02442_watasu⟧。",
       "english": "I gave sympathy money to a colleague who was hospitalized.",
       "sense_numbers": [
         1
@@ -36,7 +36,7 @@
     },
     {
       "id": "24434_mimaikin_ex3",
-      "japanese": "{被災者|ひさいしゃ}に{対|たい}して{一人|ひとり}{当|あ}たり{十万円|じゅうまんえん}の{見舞金|みまいきん}が{支給|しきゅう}された。",
+      "japanese": "⟦{被災者|ひさいしゃ}→被災者：25337_hisaisha⟧⟦に{対|たい}して→に対して：06800_nitaishite⟧⟦{一人|ひとり}→一人：00630_hitori⟧⟦{当|あ}たり→当たり：01919_atari⟧{十万円|じゅうまんえん}⟦の→の：09472_no⟧{見舞金|みまいきん}⟦が→が：00051_ga⟧⟦{支給|しきゅう}→支給：02835_shikyuu⟧⟦された→する：00392_suru⟧。",
       "english": "Disaster relief payments of 100,000 yen per person were provided to the victims.",
       "sense_numbers": [
         1
@@ -45,19 +45,58 @@
       "notes": null
     }
   ],
-  "notes": "Money given as a gesture of sympathy to someone facing illness, injury, or disaster. In Japanese culture, giving money in these situations is a standard social practice, similar to {香典|こうでん} (condolence money for funerals) but for living recipients. The amount varies by relationship and situation.\n\nCOMMON COLLOCATIONS:\n- {見舞金|みまいきん}を{渡|わた}す: to hand over sympathy money\n- {見舞金|みまいきん}を{受|う}け{取|と}る: to receive sympathy money\n- {見舞金|みまいきん}が{支給|しきゅう}される: sympathy money is provided\n- {災害|さいがい}{見舞金|みまいきん}: disaster relief payment\n\nSIMILAR WORDS:\n- {香典|こうでん}: condolence money — specifically for funerals\n- {慰謝料|いしゃりょう}: compensation for damages — a legal term for monetary compensation for pain and suffering\n- {お{見舞|みま}い}: get-well visit — the visit itself, which may or may not include money",
+  "notes": "Money given as a gesture of sympathy to someone facing illness, injury, or disaster. In Japanese culture, giving money in these situations is a standard social practice, similar to ⟦{香典|こうでん}→香典：06127_kouden⟧ (condolence money for funerals) but for living recipients. The amount varies by relationship and situation.\n\nCOMMON COLLOCATIONS:\n- {見舞金|みまいきん}⟦を→を：00422_wo⟧⟦{渡|わた}す→渡す：02442_watasu⟧: to hand over sympathy money\n- {見舞金|みまいきん}⟦を→を：00422_wo⟧⟦{受|う}け{取|と}る→受け取る：01883_uketoru⟧: to receive sympathy money\n- {見舞金|みまいきん}⟦が→が：00051_ga⟧⟦{支給|しきゅう}→支給：02835_shikyuu⟧⟦される→する：00392_suru⟧: sympathy money is provided\n- {災害|さいがい}{見舞金|みまいきん}: disaster relief payment\n\nSIMILAR WORDS:\n- ⟦{香典|こうでん}→香典：06127_kouden⟧: condolence money — specifically for funerals\n- ⟦{慰謝料|いしゃりょう}→慰謝料：14802_isharyou⟧: compensation for damages — a legal term for monetary compensation for pain and suffering\n- ⟦お{見舞|みま}い→お見舞い：01351_omimai⟧: get-well visit — the visit itself, which may or may not include money",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06127_kouden",
+      "reading": "こうでん",
+      "headword": "{香典|こうでん}",
+      "label": "condolence money"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14802_isharyou",
+      "reading": "いしゃりょう",
+      "headword": "{慰謝料|いしゃりょう}",
+      "label": "compensation for damages"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01351_omimai",
+      "reading": "おみまい",
+      "headword": "お{見舞|みま}い",
+      "label": "get-well visit"
+    },
+    {
+      "type": "related",
+      "target_id": "23615_yukaueshinsui",
+      "reading": "ゆかうえしんすい",
+      "headword": "{床上浸水|ゆかうえしんすい}",
+      "label": "above-floor flooding"
+    },
+    {
+      "type": "related",
+      "target_id": "24857_mimaikyaku",
+      "reading": "みまいきゃく",
+      "headword": "{見舞客|みまいきゃく}",
+      "label": "visitor (to a sick or hospitalized person)"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "culture",
         "money"
       ]
     },
     "created": "2026-04-19T10:07:27Z",
-    "modified": "2026-04-19T10:07:27Z"
+    "modified": "2026-09-02T04:02:18Z"
   }
 }

@@ -3,7 +3,7 @@
   "headword": "{緊密|きんみつ}な",
   "reading": "きんみつな",
   "romaji": "kinmitsuna",
-  "part_of_speech": "adjective",
+  "part_of_speech": "na-adjective",
   "gloss": "close; tight; intimate",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25559_kinmitsuna_ex1",
-      "japanese": "{両国|りょうこく}は{緊密|きんみつ}な{関係|かんけい}にある。",
+      "japanese": "⟦{両国|りょうこく}→両国：10010_ryoukoku⟧⟦は→は：00079_ha⟧{緊密|きんみつ}な⟦{関係|かんけい}→関係：01298_kankei⟧⟦に→に：00314_ni⟧⟦ある→ある：00006_aru⟧。",
       "english": "The two countries have a close relationship.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25559_kinmitsuna_ex2",
-      "japanese": "{各部署|かくぶしょ}が{緊密|きんみつ}に{連携|れんけい}して{対応|たいおう}した。",
+      "japanese": "⟦{各部署|かくぶしょ}→各部署：29114_kakubusho⟧⟦が→が：00051_ga⟧{緊密|きんみつ}に⟦{連携|れんけい}→連携：05094_renkei⟧⟦して→する：00392_suru⟧⟦{対応|たいおう}→対応：02510_taiou⟧⟦した→する：00392_suru⟧。",
       "english": "Each department coordinated closely to respond.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25559_kinmitsuna_ex3",
-      "japanese": "{緊密|きんみつ}な{情報交換|じょうほうこうかん}を{通|つう}じて{信頼|しんらい}が{生|う}まれた。",
+      "japanese": "{緊密|きんみつ}な{情報交換|じょうほうこうかん}⟦を→を：00422_wo⟧⟦{通|つう}じて→通じる：02289_tsuujiru⟧⟦{信頼|しんらい}→信頼：03268_shinrai⟧⟦が→が：00051_ga⟧⟦{生|う}まれた→生まれる：00905_umareru⟧。",
       "english": "Trust was built through close information sharing.",
       "sense_numbers": [
         1
@@ -44,8 +44,30 @@
       "notes": null
     }
   ],
-  "notes": "Describes connections that are tightly woven and well-maintained. Most commonly used for organizational, diplomatic, or professional relationships rather than personal emotional closeness.\n\nCOMMON COLLOCATIONS:\n- {緊密|きんみつ}な{関係|かんけい}: close relationship\n- {緊密|きんみつ}な{連携|れんけい}: close cooperation\n- {緊密|きんみつ}に{協力|きょうりょく}する: to cooperate closely\n- {緊密|きんみつ}な{連絡|れんらく}: close communication\n- {緊密|きんみつ}な{協議|きょうぎ}: close consultation\n\nSIMILAR WORDS:\n- {親密|しんみつ}な: intimate, close — used for personal relationships and emotional closeness between individuals\n- {密接|みっせつ}な: closely connected — emphasizes inseparable linkage between things or concepts, often used abstractly\n- {親|した}しい: friendly, close — casual and warm, used for personal friendships\n\nREGISTER:\nFormal. Common in news, diplomacy, business, and official statements. Rarely used in casual conversation.",
-  "cross_references": [],
+  "notes": "Describes connections that are tightly woven and well-maintained. Most commonly used for organizational, diplomatic, or professional relationships rather than personal emotional closeness.\n\nCOMMON COLLOCATIONS:\n- {緊密|きんみつ}な⟦{関係|かんけい}→関係：01298_kankei⟧: close relationship\n- {緊密|きんみつ}な⟦{連携|れんけい}→連携：05094_renkei⟧: close cooperation\n- {緊密|きんみつ}に⟦{協力|きょうりょく}する→協力する：25370_kyouryokusuru⟧: to cooperate closely\n- {緊密|きんみつ}な⟦{連絡|れんらく}→連絡：01524_renraku⟧: close communication\n- {緊密|きんみつ}な⟦{協議|きょうぎ}→協議：02635_kyougi⟧: close consultation\n\nSIMILAR WORDS:\n- ⟦{親密|しんみつ}→親密：14140_shinmitsu⟧な: intimate, close — used for personal relationships and emotional closeness between individuals\n- ⟦{密接|みっせつ}→密接：12289_missetsu⟧な: closely connected — emphasizes inseparable linkage between things or concepts, often used abstractly\n- ⟦{親|した}しい→親しい：02345_shitashii⟧: friendly, close — casual and warm, used for personal friendships\n\nREGISTER:\nFormal. Common in news, diplomacy, business, and official statements. Rarely used in casual conversation.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14140_shinmitsu",
+      "reading": "しんみつ",
+      "headword": "{親密|しんみつ}",
+      "label": "intimate, close"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12289_missetsu",
+      "reading": "みっせつ",
+      "headword": "{密接|みっせつ}",
+      "label": "closely connected"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02345_shitashii",
+      "reading": "したしい",
+      "headword": "{親|した}しい",
+      "label": "friendly, close"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,11 +75,12 @@
       "pos": [
         "adjective-na"
       ],
+      "politeness": "plain",
       "semantic": [
         "descriptive"
       ]
     },
     "created": "2026-04-26T11:17:13Z",
-    "modified": "2026-08-04T12:59:53Z"
+    "modified": "2026-09-02T04:02:22Z"
   }
 }

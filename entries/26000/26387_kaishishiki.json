@@ -15,39 +15,73 @@
   "examples": [
     {
       "id": "26387_kaishishiki_ex1",
-      "japanese": "{開始式|かいししき}が{行|おこな}われた。",
+      "japanese": "{開始式|かいししき}⟦が→が：00051_ga⟧⟦{行|おこな}われた→行う：01238_okonau⟧。",
       "english": "The opening ceremony was held.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26387_kaishishiki_ex2",
-      "japanese": "{工事|こうじ}の{開始式|かいししき}に{市長|しちょう}が{出席|しゅっせき}した。",
+      "japanese": "⟦{工事|こうじ}→工事：00244_kouji⟧⟦の→の：09472_no⟧{開始式|かいししき}⟦に→に：00314_ni⟧⟦{市長|しちょう}→市長：12472_shichou⟧⟦が→が：00051_ga⟧⟦{出席|しゅっせき}した→出席する：01830_shussekisuru⟧。",
       "english": "The mayor attended the groundbreaking ceremony.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26387_kaishishiki_ex3",
-      "japanese": "プロ{野球|やきゅう}の{開始式|かいししき}では、ゲストが{始球式|しきゅうしき}を{行|おこな}うのが{恒例|こうれい}だ。",
+      "japanese": "⟦プロ{野球|やきゅう}→プロ野球：08837_puroyakyuu⟧⟦の→の：09472_no⟧{開始式|かいししき}⟦で→で：00502_de⟧⟦は→は：00079_ha⟧、⟦ゲスト→ゲスト：10849_gesuto⟧⟦が→が：00051_ga⟧{始球式|しきゅうしき}⟦を→を：00422_wo⟧⟦{行|おこな}う→行う：01238_okonau⟧⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦{恒例|こうれい}→恒例：12597_kourei⟧だ。",
       "english": "At the pro baseball opening ceremony, it's customary for a guest to throw the ceremonial first pitch.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {開始|かいし} (start, commencement) and {式|しき} (ceremony). While {開会式|かいかいしき} is the standard term for large-scale opening ceremonies like the Olympics, {開始式|かいししき} is used for smaller, more specific occasions such as the start of a construction project, a training program, or a sports season.\n\nCOMMON COLLOCATIONS:\n- {開始式|かいししき}を{行|おこな}う: to hold an opening ceremony\n- {開始式|かいししき}に{出席|しゅっせき}する: to attend an opening ceremony\n- {工事|こうじ}{開始式|かいししき}: construction commencement ceremony\n- シーズン{開始式|かいししき}: season opening ceremony\n\nSIMILAR WORDS:\n- {開会式|かいかいしき}: opening ceremony — for large events like the Olympics or national conventions\n- {起工式|きこうしき}: groundbreaking ceremony — specifically for construction projects\n- {閉会式|へいかいしき}: closing ceremony — the counterpart marking the end of an event",
-  "cross_references": [],
+  "notes": "Composed of ⟦{開始|かいし}→開始：02537_kaishi⟧ (start, commencement) and {式|しき} (ceremony). While ⟦{開会式|かいかいしき}→開会式：27306_kaikaishiki⟧ is the standard term for large-scale opening ceremonies like the Olympics, {開始式|かいししき} is used for smaller, more specific occasions such as the start of a construction project, a training program, or a sports season.\n\nCOMMON COLLOCATIONS:\n- {開始式|かいししき}⟦を→を：00422_wo⟧⟦{行|おこな}う→行う：01238_okonau⟧: to hold an opening ceremony\n- {開始式|かいししき}⟦に→に：00314_ni⟧⟦{出席|しゅっせき}する→出席する：01830_shussekisuru⟧: to attend an opening ceremony\n- ⟦{工事|こうじ}→工事：00244_kouji⟧{開始式|かいししき}: construction commencement ceremony\n- ⟦シーズン→シーズン：10944_shiizun⟧{開始式|かいししき}: season opening ceremony\n\nSIMILAR WORDS:\n- ⟦{開会式|かいかいしき}→開会式：27306_kaikaishiki⟧: opening ceremony — for large events like the Olympics or national conventions\n- ⟦{起工式|きこうしき}→起工式：23578_kikoushiki⟧: groundbreaking ceremony — specifically for construction projects\n- ⟦{閉会式|へいかいしき}→閉会式：26936_heikaishiki⟧: closing ceremony — the counterpart marking the end of an event",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "27306_kaikaishiki",
+      "reading": "かいかいしき",
+      "headword": "{開会式|かいかいしき}",
+      "label": "opening ceremony"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23578_kikoushiki",
+      "reading": "きこうしき",
+      "headword": "{起工式|きこうしき}",
+      "label": "groundbreaking ceremony"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26936_heikaishiki",
+      "reading": "へいかいしき",
+      "headword": "{閉会式|へいかいしき}",
+      "label": "closing ceremony"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["society", "culture"]
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "society",
+        "culture"
+      ]
     },
     "created": "2026-05-01T13:33:14Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T04:02:26Z"
   }
 }

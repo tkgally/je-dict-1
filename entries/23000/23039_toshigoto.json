@@ -3,7 +3,7 @@
   "headword": "{年毎|としごと}",
   "reading": "としごと",
   "romaji": "toshigoto",
-  "part_of_speech": "adverb",
+  "part_of_speech": "adverb, noun",
   "gloss": "year by year; every year; with each passing year",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "23039_toshigoto_ex1",
-      "japanese": "{年毎|としごと}に{暑|あつ}くなっている。",
+      "japanese": "{年毎|としごと}⟦に→に：00314_ni⟧⟦{暑|あつ}く→暑い：00619_atsui⟧⟦なっている→なる：01970_naru⟧。",
       "english": "It gets hotter year by year.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "23039_toshigoto_ex2",
-      "japanese": "{桜|さくら}が{年毎|としごと}に{美|うつく}しく{咲|さ}く。",
+      "japanese": "⟦{桜|さくら}→桜：02212_sakura⟧⟦が→が：00051_ga⟧{年毎|としごと}⟦に→に：00314_ni⟧⟦{美|うつく}しく→美しい：01121_utsukushii⟧⟦{咲|さ}く→咲く：08150_saku⟧。",
       "english": "The cherry blossoms bloom beautifully every year.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "23039_toshigoto_ex3",
-      "japanese": "{年毎|としごと}に{子供|こども}たちの{成長|せいちょう}を{感|かん}じる。",
+      "japanese": "{年毎|としごと}⟦に→に：00314_ni⟧⟦{子供|こども}→子供：00554_kodomo⟧たち⟦の→の：09472_no⟧⟦{成長|せいちょう}→成長：03290_seichou⟧⟦を→を：00422_wo⟧⟦{感|かん}じる→感じる：02044_kanjiru⟧。",
       "english": "I feel the children's growth with each passing year.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Typically used with the particle に as {年毎|としごと}に. Part of a series of time-interval words using {毎|ごと}: {日毎|ひごと} (day by day), {月毎|つきごと} (month by month), {年毎|としごと} (year by year).\n\nUSAGE:\nUsed in two main patterns:\n- {年毎|としごと}に + change: describes gradual change over years\n- {年毎|としごと}の + noun: describes something that recurs annually\n\nCOMMON COLLOCATIONS:\n- {年毎|としごと}に{増|ふ}える: to increase year by year\n- {年毎|としごと}に{変|か}わる: to change year by year\n- {年毎|としごと}の{行事|ぎょうじ}: annual event\n\nSIMILAR WORDS:\n- {毎年|まいとし}/{毎年|まいねん}: every year — simply states annual frequency, without the nuance of gradual change\n- {年々|ねんねん}: year after year — very similar but more commonly used in written Japanese to describe progressive change\n- {日毎|ひごと}に: day by day — the daily equivalent",
+  "notes": "Typically used with the particle ⟦に→に：00314_ni⟧ as {年毎|としごと}⟦に→に：00314_ni⟧. Part of a series of time-interval words using ⟦{毎|ごと}→〜毎：04012_goto⟧: {日毎|ひごと} (day by day), {月毎|つきごと} (month by month), {年毎|としごと} (year by year).\n\nUSAGE:\nUsed in two main patterns:\n- {年毎|としごと}⟦に→に：00314_ni⟧ + change: describes gradual change over years\n- {年毎|としごと}⟦の→の：09472_no⟧ + noun: describes something that recurs annually\n\nCOMMON COLLOCATIONS:\n- {年毎|としごと}⟦に→に：00314_ni⟧⟦{増|ふ}える→増える：01183_fueru⟧: to increase year by year\n- {年毎|としごと}⟦に→に：00314_ni⟧⟦{変|か}わる→変わる：00714_kawaru⟧: to change year by year\n- {年毎|としごと}⟦の→の：09472_no⟧⟦{行事|ぎょうじ}→行事：00078_gyouji⟧: annual event\n\nSIMILAR WORDS:\n- ⟦{毎年|まいとし}→毎年：00731_maitoshi⟧/{毎年|まいねん}: every year — simply states annual frequency, without the nuance of gradual change\n- ⟦{年々|ねんねん}→年々：10417_nennen⟧: year after year — very similar but more commonly used in written Japanese to describe progressive change\n- {日毎|ひごと}⟦に→に：00314_ni⟧: day by day — the daily equivalent",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00731_maitoshi",
+      "reading": "まいとし",
+      "headword": "{毎年|まいとし}",
+      "label": "every year"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10417_nennen",
+      "reading": "ねんねん",
+      "headword": "{年々|ねんねん}",
+      "label": "year after year"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +76,6 @@
       ]
     },
     "created": "2026-04-08T16:32:19Z",
-    "modified": "2026-07-31T00:22:50Z"
+    "modified": "2026-09-02T04:02:10Z"
   }
 }

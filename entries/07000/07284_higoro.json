@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "07284_higoro_ex1",
-      "japanese": "{日頃|ひごろ}からの{努力|どりょく}が{大切|たいせつ}だ。",
+      "japanese": "{日頃|ひごろ}⟦から→から：00504_kara⟧⟦の→の：09472_no⟧⟦{努力|どりょく}→努力：03490_doryoku⟧⟦が→が：00051_ga⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧だ。",
       "english": "Consistent daily effort is important.",
       "has_audio": false,
       "notes": null,
@@ -24,7 +24,7 @@
     },
     {
       "id": "07284_higoro_ex2",
-      "japanese": "{日頃|ひごろ}お{世話|せわ}になっております。",
+      "japanese": "{日頃|ひごろ}⟦お{世話|せわ}になっております→お世話になっております：23569_osewaninatteorimasu⟧。",
       "english": "Thank you for your continued support.",
       "has_audio": false,
       "notes": null,
@@ -34,7 +34,7 @@
     },
     {
       "id": "07284_higoro_ex3",
-      "japanese": "{日頃|ひごろ}の{運動|うんどう}{不足|ぶそく}がたたった。",
+      "japanese": "{日頃|ひごろ}⟦の→の：09472_no⟧⟦{運動|うんどう}{不足|ぶそく}→運動不足：08567_undoubusoku⟧⟦が→が：00051_ga⟧たたった。",
       "english": "My usual lack of exercise caught up with me.",
       "has_audio": false,
       "notes": null,
@@ -44,7 +44,7 @@
     },
     {
       "id": "07284_higoro_ex4",
-      "japanese": "{日頃|ひごろ}{感|かん}じていることを{書|か}いてみた。",
+      "japanese": "{日頃|ひごろ}⟦{感|かん}じている→感じる：02044_kanjiru⟧こと⟦を→を：00422_wo⟧⟦{書|か}いて→書く：00477_kaku⟧みた。",
       "english": "I tried writing down what I usually feel.",
       "has_audio": false,
       "notes": null,
@@ -54,7 +54,7 @@
     },
     {
       "id": "07284_higoro_ex5",
-      "japanese": "{日頃|ひごろ}の{感謝|かんしゃ}の{気持|きも}ちを{込|こ}めて、{母|はは}に{花|はな}を{贈|おく}った。",
+      "japanese": "{日頃|ひごろ}⟦の→の：09472_no⟧⟦{感謝|かんしゃ}→感謝：00181_kansha⟧⟦の→の：09472_no⟧{気持|きも}ち⟦を→を：00422_wo⟧⟦{込|こ}めて→込める：01945_komeru⟧、⟦{母|はは}→母：00549_haha⟧⟦に→に：00314_ni⟧⟦{花|はな}→花：00523_hana⟧⟦を→を：00422_wo⟧⟦{贈|おく}った→贈る：09862_okuru⟧。",
       "english": "I gave my mother flowers to express my everyday gratitude.",
       "has_audio": false,
       "notes": null,
@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "WORD FORMATION:\n{日|ひ} (day) + {頃|ころ} (around, about) → around the days = daily, usually\n\nCOMMON EXPRESSIONS:\n・{日頃|ひごろ}から - from day to day, habitually\n・{日頃|ひごろ}の - one's usual, everyday\n・{日頃|ひごろ}お{世話|せわ}になっております - (polite) Thank you for your continued support\n\nSIMILAR WORDS:\n・{普段|ふだん} - usually, normally\n・いつも - always\n・{毎日|まいにち} - every day\n\nREGISTER:\nSlightly formal. Often used in business correspondence and speeches.",
+  "notes": "FORMS:\n⟦{日|ひ}→日：02249_hi⟧ (day) + {頃|ころ} (around, about) → around the days = daily, usually\n\nCOMMON EXPRESSIONS:\n- {日頃|ひごろ}⟦から→から：00504_kara⟧ - from day to day, habitually\n- {日頃|ひごろ}⟦の→の：09472_no⟧ - one's usual, everyday\n- {日頃|ひごろ}⟦お{世話|せわ}になっております→お世話になっております：23569_osewaninatteorimasu⟧ - (polite) Thank you for your continued support\n\nSIMILAR WORDS:\n- ⟦{普段|ふだん}→普段：00041_fudan⟧ - usually, normally\n- ⟦いつも→いつも：00599_itsumo⟧ - always\n- ⟦{毎日|まいにち}→毎日：00729_mainichi⟧ - every day\n\nREGISTER:\nSlightly formal. Often used in business correspondence and speeches.",
   "cross_references": [
     {
       "type": "synonym",
@@ -71,11 +71,32 @@
       "headword": "{普段|ふだん}",
       "label": "usually",
       "target_id": "00041_fudan"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00599_itsumo",
+      "reading": "いつも",
+      "headword": "いつも",
+      "label": "always"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00729_mainichi",
+      "reading": "まいにち",
+      "headword": "{毎日|まいにち}",
+      "label": "every day"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19270_heizei",
+      "reading": "へいぜい",
+      "headword": "{平生|へいぜい}",
+      "label": "ordinarily"
     }
   ],
   "metadata": {
     "created": "2026-01-19T03:28:31Z",
-    "modified": "2026-08-10T18:32:12Z",
+    "modified": "2026-09-02T04:01:10Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

@@ -124,7 +124,7 @@
     },
     {
       "id": "00555_tomaru_ex3",
-      "japanese": "⟦{時計|とけい}→時計：00677_tokei⟧⟦が→が：00051_ga⟧{止|と}まっています。",
+      "japanese": "⟦{時計|とけい}→時計：00677_tokei⟧⟦が→が：00051_ga⟧{止|と}まって⟦います→いる：00495_iru⟧。",
       "english": "The clock has stopped.",
       "notes": "ている = resulting state",
       "has_audio": false,
@@ -144,7 +144,7 @@
     },
     {
       "id": "00555_tomaru_ex5",
-      "japanese": "⟦{信号|しんごう}→信号：03258_shingou⟧⟦が→が：00051_ga⟧⟦{赤|あか}→赤：02842_aka⟧⟦に→に：00314_ni⟧⟦なった→なる：01970_naru⟧⟦ので→ので：09501_node⟧、{止|と}まらなければなりません。",
+      "japanese": "⟦{信号|しんごう}→信号：03258_shingou⟧⟦が→が：00051_ga⟧⟦{赤|あか}→赤：02842_aka⟧⟦に→に：00314_ni⟧⟦なった→なる：01970_naru⟧⟦ので→ので：09501_node⟧、{止|と}まらなければ⟦なりません→なる：01970_naru⟧。",
       "english": "Because the light turned red, I have to stop.",
       "notes": null,
       "has_audio": false,
@@ -153,7 +153,7 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive). Pair: ⟦{止|と}める→止める：00678_tomeru⟧ (transitive). Pattern: Xが{止|と}まる (X stops).\n\nASPECT: ている indicates resulting state. {止|と}まっている = 'is stopped/is stationary.'\n\nCOMMON PATTERNS:\n- ⟦{電車|でんしゃ}→電車：00522_densha⟧⟦が→が：00051_ga⟧{止|と}まる (train stops)\n- ⟦{時計|とけい}→時計：00677_tokei⟧⟦が→が：00051_ga⟧{止|と}まっている (clock is stopped)\n- ⟦{雨|あめ}→雨：00583_ame⟧⟦が→が：00051_ga⟧{止|と}んだ (rain stopped - past form often ん)\n- ⟦ホテル→ホテル：01027_hoteru⟧⟦に→に：00314_ni⟧{泊|と}まる (stay at hotel - different kanji)\n\nPAIR: ⟦{止|と}める→止める：00678_tomeru⟧ (transitive) - ⟦{車|くるま}→車：00516_kuruma⟧⟦を→を：00422_wo⟧{止|と}めた (stopped the car).\n\nNote: ⟦{泊|と}まる→泊まる：10445_tomaru⟧ (stay overnight) uses different kanji.",
+  "notes": "TRANSITIVITY: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive). Pair: ⟦{止|と}める→止める：00678_tomeru⟧ (transitive). Pattern: X⟦が→が：00051_ga⟧{止|と}まる (X stops).\n\nASPECT: て⟦いる→いる：00495_iru⟧ indicates resulting state. {止|と}まって⟦いる→いる：00495_iru⟧ = 'is stopped/is stationary.'\n\nCOMMON PATTERNS:\n- ⟦{電車|でんしゃ}→電車：00522_densha⟧⟦が→が：00051_ga⟧{止|と}まる (train stops)\n- ⟦{時計|とけい}→時計：00677_tokei⟧⟦が→が：00051_ga⟧{止|と}まって⟦いる→いる：00495_iru⟧ (clock is stopped)\n- ⟦{雨|あめ}→雨：00583_ame⟧⟦が→が：00051_ga⟧{止|と}んだ (rain stopped - past form often ん)\n- ⟦ホテル→ホテル：01027_hoteru⟧⟦に→に：00314_ni⟧⟦{泊|と}まる→泊まる：10445_tomaru⟧ (stay at hotel - different kanji)\n\nPAIR: ⟦{止|と}める→止める：00678_tomeru⟧ (transitive) - ⟦{車|くるま}→車：00516_kuruma⟧⟦を→を：00422_wo⟧⟦{止|と}めた→止める：00678_tomeru⟧ (stopped the car).\n\nNote: ⟦{泊|と}まる→泊まる：10445_tomaru⟧ (stay overnight) uses different kanji.",
   "prominent_see_also": [
     {
       "target_id": "00678_tomeru",
@@ -176,11 +176,39 @@
       "reading": "とめる",
       "headword": "{止|と}める",
       "label": "transitive pair: to stop something"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01153_yamu",
+      "reading": "やむ",
+      "headword": "{止|や}む",
+      "label": "to cease, to stop"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20992_teishisuru",
+      "reading": "ていしする",
+      "headword": "{停止|ていし}する",
+      "label": "to stop"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21325_teishasuru",
+      "reading": "ていしゃする",
+      "headword": "{停車|ていしゃ}する",
+      "label": "to stop (a vehicle)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26796_seishisuru",
+      "reading": "せいしする",
+      "headword": "{静止|せいし}する",
+      "label": "to stand still"
     }
   ],
   "metadata": {
     "created": "2026-01-07T12:07:07Z",
-    "modified": "2026-08-15T15:29:03Z",
+    "modified": "2026-09-02T04:00:57Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

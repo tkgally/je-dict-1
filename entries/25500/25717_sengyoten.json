@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25717_sengyoten_ex1",
-      "japanese": "{鮮魚店|せんぎょてん}で{刺身|さしみ}を{買|か}う。",
+      "japanese": "{鮮魚店|せんぎょてん}⟦で→で：00502_de⟧⟦{刺身|さしみ}→刺身：04023_sashimi⟧⟦を→を：00422_wo⟧⟦{買|か}う→買う：00489_kau⟧。",
       "english": "To buy sashimi at a fresh fish shop.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25717_sengyoten_ex2",
-      "japanese": "{商店街|しょうてんがい}の{鮮魚店|せんぎょてん}は{朝|あさ}が{早|はや}い。",
+      "japanese": "⟦{商店街|しょうてんがい}→商店街：09391_shoutengai⟧⟦の→の：09472_no⟧{鮮魚店|せんぎょてん}⟦は→は：00079_ha⟧⟦{朝|あさ}→朝：02277_asa⟧⟦が→が：00051_ga⟧⟦{早|はや}い→早い：00514_hayai⟧。",
       "english": "The fish shop in the shopping street opens early in the morning.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25717_sengyoten_ex3",
-      "japanese": "{地元|じもと}の{鮮魚店|せんぎょてん}には{毎朝|まいあさ}{新鮮|しんせん}な{魚|さかな}が{並|なら}ぶ。",
+      "japanese": "⟦{地元|じもと}→地元：09941_jimoto⟧⟦の→の：09472_no⟧{鮮魚店|せんぎょてん}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{毎朝|まいあさ}→毎朝：00966_maiasa⟧⟦{新鮮|しんせん}→新鮮：03261_shinsen⟧な⟦{魚|さかな}→魚：00499_sakana⟧⟦が→が：00051_ga⟧⟦{並|なら}ぶ→並ぶ：00605_narabu⟧。",
       "english": "Fresh fish is displayed every morning at the local fish shop.",
       "sense_numbers": [
         1
@@ -44,8 +44,30 @@
       "notes": null
     }
   ],
-  "notes": "{鮮魚|せんぎょ} (fresh fish) + {店|てん} (shop). A traditional shop type found in shopping streets and markets throughout Japan. While supermarkets have largely replaced them for everyday shopping, {鮮魚店|せんぎょてん} remain popular at markets and in areas near fishing ports for their superior quality and expert knowledge.\n\nCOMMON COLLOCATIONS:\n- {鮮魚店|せんぎょてん}で{買|か}う — buy at a fish shop\n- {老舗|しにせ}の{鮮魚店|せんぎょてん} — long-established fish shop\n- {鮮魚店|せんぎょてん}の{店主|てんしゅ} — fish shop owner\n\nSIMILAR WORDS:\n- {魚屋|さかなや} — fish shop; fishmonger — the everyday, colloquial term\n- {鮮魚|せんぎょ} — fresh fish — the product itself\n- {魚市場|うおいちば} — fish market — a larger wholesale or retail market for fish",
-  "cross_references": [],
+  "notes": "⟦{鮮魚|せんぎょ}→鮮魚：16483_sengyo⟧ (fresh fish) + ⟦{店|てん}→店：10011_ten⟧ (shop). A traditional shop type found in shopping streets and markets throughout Japan. While supermarkets have largely replaced them for everyday shopping, {鮮魚店|せんぎょてん} remain popular at markets and in areas near fishing ports for their superior quality and expert knowledge.\n\nCOMMON COLLOCATIONS:\n- {鮮魚店|せんぎょてん}⟦で→で：00502_de⟧⟦{買|か}う→買う：00489_kau⟧ — buy at a fish shop\n- ⟦{老舗|しにせ}→老舗：16152_shinise⟧⟦の→の：09472_no⟧{鮮魚店|せんぎょてん} — long-established fish shop\n- {鮮魚店|せんぎょてん}⟦の→の：09472_no⟧⟦{店主|てんしゅ}→店主：12451_tenshu⟧ — fish shop owner\n\nSIMILAR WORDS:\n- ⟦{魚屋|さかなや}→魚屋：14642_sakanaya⟧ — fish shop; fishmonger — the everyday, colloquial term\n- ⟦{鮮魚|せんぎょ}→鮮魚：16483_sengyo⟧ — fresh fish — the product itself\n- ⟦{魚市場|うおいちば}→魚市場：27120_uoichiba⟧ — fish market — a larger wholesale or retail market for fish",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14642_sakanaya",
+      "reading": "さかなや",
+      "headword": "{魚屋|さかなや}",
+      "label": "fish shop"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27120_uoichiba",
+      "reading": "うおいちば",
+      "headword": "{魚市場|うおいちば}",
+      "label": "fish market"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23099_seinikuten",
+      "reading": "せいにくてん",
+      "headword": "{精肉店|せいにくてん}",
+      "label": "butcher shop"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,12 +75,13 @@
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "food",
         "shopping"
       ]
     },
     "created": "2026-04-26T16:33:57Z",
-    "modified": "2026-06-15T07:59:19Z"
+    "modified": "2026-09-02T04:02:23Z"
   }
 }

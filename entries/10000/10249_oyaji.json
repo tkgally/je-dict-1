@@ -19,54 +19,66 @@
   "examples": [
     {
       "id": "10249_oyaji_ex1",
-      "japanese": "おやじは{今|いま}{何|なに}してる？",
+      "japanese": "おやじ⟦は→は：00079_ha⟧⟦{今|いま}→今：00945_ima⟧⟦{何|なに}→何：00498_nani⟧してる？",
       "english": "What's your dad doing now?",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10249_oyaji_ex2",
-      "japanese": "おやじに{似|に}てきたな。",
+      "japanese": "おやじ⟦に→に：00314_ni⟧⟦{似|に}て→似る：01159_niru⟧きたな。",
       "english": "You're starting to look like your old man.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10249_oyaji_ex3",
-      "japanese": "うちのおやじは{頑固|がんこ}だ。",
+      "japanese": "うち⟦の→の：09472_no⟧おやじ⟦は→は：00079_ha⟧⟦{頑固|がんこ}→頑固：06643_ganko⟧だ。",
       "english": "My old man is stubborn.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10249_oyaji_ex4",
-      "japanese": "{店|みせ}のおやじに{話|はなし}を{聞|き}いた。",
+      "japanese": "⟦{店|みせ}→店：00497_mise⟧⟦の→の：09472_no⟧おやじ⟦に→に：00314_ni⟧⟦{話|はなし}→話：01496_hanashi⟧⟦を→を：00422_wo⟧⟦{聞|き}いた→聞く：00483_kiku⟧。",
       "english": "I talked to the shop owner.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "10249_oyaji_ex5",
-      "japanese": "ラーメン{屋|や}のおやじは{愛想|あいそう}がいい。",
+      "japanese": "⟦ラーメン→ラーメン：05181_raamen⟧⟦{屋|や}→〜屋：03096_ya⟧⟦の→の：09472_no⟧おやじ⟦は→は：00079_ha⟧⟦{愛想|あいそう}→愛想：07292_aisou⟧⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧。",
       "english": "The ramen shop owner is friendly.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "10249_oyaji_ex6",
-      "japanese": "{寿司屋|すしや}のおやじに{勧|すす}められた。",
+      "japanese": "⟦{寿司屋|すしや}→寿司屋：10166_sushiya⟧⟦の→の：09472_no⟧おやじ⟦に→に：00314_ni⟧⟦{勧|すす}められた→勧める：02120_susumeru⟧。",
       "english": "It was recommended by the sushi chef.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
-  "notes": "An informal, masculine term for one's own father or for a middle-aged/older man. Also used for the owner of a small shop or eatery.\n\nGENDER AND REGISTER:\nPrimarily used by men. Sounds casual and rough — not appropriate in polite or formal situations. Women typically say お{父|とう}さん or パパ instead.\n\nCOMMON EXPRESSIONS:\n- おやじギャグ: dad joke (corny, groan-worthy pun)\n- おやじ{臭|くさ}い: having an old-man quality\n\nRELATED WORDS:\n- おふくろ: mother (informal, similarly masculine)\n- {父|ちち}: neutral/humble term for one's own father\n- お{父|とう}さん: polite, general term for father\n- {父親|ちちおや}: formal, objective term (as in documents)\n\nKANJI:\nCan be written as {親父|おやじ}, but hiragana is more common in everyday writing.",
+  "notes": "An informal, masculine term for one's own father or for a middle-aged/older man. Also used for the owner of a small shop or eatery.\n\nGENDER AND REGISTER:\nPrimarily used by men. Sounds casual and rough — not appropriate in polite or formal situations. Women typically say ⟦お{父|とう}さん→お父さん：02855_otousan⟧ or ⟦パパ→パパ：01788_papa⟧ instead.\n\nCOMMON EXPRESSIONS:\n- おやじ⟦ギャグ→ギャグ：10810_gyagu⟧: dad joke (corny, groan-worthy pun)\n- おやじ⟦{臭|くさ}い→臭い：01133_kusai⟧: having an old-man quality\n\nRELATED WORDS:\n- ⟦おふくろ→おふくろ：10246_ofukuro⟧: mother (informal, similarly masculine)\n- ⟦{父|ちち}→父：00566_chichi⟧: neutral/humble term for one's own father\n- ⟦お{父|とう}さん→お父さん：02855_otousan⟧: polite, general term for father\n- ⟦{父親|ちちおや}→父親：03469_chichioya⟧: formal, objective term (as in documents)\n\nWRITING:\nCan be written as {親父|おやじ}, but hiragana is more common in everyday writing.",
   "cross_references": [
     {
       "type": "synonym",
@@ -81,17 +93,35 @@
       "reading": "おふくろ",
       "headword": "おふくろ",
       "label": "mother (informal, masculine)"
+    },
+    {
+      "type": "related",
+      "target_id": "02855_otousan",
+      "reading": "おとうさん",
+      "headword": "お{父|とう}さん",
+      "label": "polite, general term for father"
+    },
+    {
+      "type": "related",
+      "target_id": "03469_chichioya",
+      "reading": "ちちおや",
+      "headword": "{父親|ちちおや}",
+      "label": "formal, objective term"
     }
   ],
   "metadata": {
     "created": "2026-02-05T14:57:35Z",
-    "modified": "2026-04-24T05:32:11Z",
+    "modified": "2026-09-02T04:01:20Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "informal",
       "politeness": "plain",
-      "semantic": ["family"]
+      "semantic": [
+        "family"
+      ]
     }
   }
 }

@@ -2,7 +2,7 @@
   "id": "02574_komu",
   "headword": "{混|こ}む",
   "reading": "こむ",
-  "part_of_speech": "godan verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to be crowded, to be congested",
   "definitions": [
     {
@@ -24,7 +24,7 @@
     },
     {
       "id": "02574_komu_ex2",
-      "japanese": "⟦{電車|でんしゃ}→電車：00522_densha⟧⟦が→が：00051_ga⟧⟦とても→とても：00593_totemo⟧{混|こ}んでいる。",
+      "japanese": "⟦{電車|でんしゃ}→電車：00522_densha⟧⟦が→が：00051_ga⟧⟦とても→とても：00593_totemo⟧{混|こ}んで⟦いる→いる：00495_iru⟧。",
       "english": "The train is very crowded.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "02574_komu_ex3",
-      "japanese": "⟦この→この：00962_kono⟧⟦レストラン→レストラン：01048_resutoran⟧⟦は→は：00079_ha⟧⟦いつも→いつも：00599_itsumo⟧{混|こ}んでいる。",
+      "japanese": "⟦この→この：00962_kono⟧⟦レストラン→レストラン：01048_resutoran⟧⟦は→は：00079_ha⟧⟦いつも→いつも：00599_itsumo⟧{混|こ}んで⟦いる→いる：00495_iru⟧。",
       "english": "This restaurant is always crowded.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{混|こ}む is an intransitive verb (⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧) describing a crowded state.\n\nTRANSITIVITY:\n- Type: Intransitive (⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧)\n- No direct transitive pair\n- Pattern: [place]⟦が→が：00051_ga⟧{混|こ}む\n\nASPECT (ている):\n- {混|こ}んでいる = is crowded (state, not action)\n- This is one of the verbs where ている indicates a state result\n\nCOMMON PATTERNS:\n- ⟦{電車|でんしゃ}→電車：00522_densha⟧⟦が→が：00051_ga⟧{混|こ}む (train is crowded)\n- ⟦{道|みち}→道：00505_michi⟧⟦が→が：00051_ga⟧{混|こ}む (road is congested)\n- ⟦{店|みせ}→店：00497_mise⟧⟦が→が：00051_ga⟧{混|こ}む (shop is crowded)\n\nCOMPOUND VERBS:\n- ⟦{込|こ}み{合|あ}う→込み合う：21395_komiau⟧ (to be packed together)\n\nSIMILAR WORDS:\n- ⟦{空|す}く→すく：00756_suku⟧: to become empty (opposite)\n- ⟦{空|す}いている→すく：00756_suku⟧: not crowded (opposite state)",
+  "notes": "{混|こ}む is an intransitive verb (⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧) describing a crowded state.\n\nTRANSITIVITY:\n- Type: Intransitive (⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧)\n- No direct transitive pair\n- Pattern: [place]⟦が→が：00051_ga⟧{混|こ}む\n\nASPECT (ている):\n- {混|こ}んで⟦いる→いる：00495_iru⟧ = is crowded (state, not action)\n- This is one of the verbs where て⟦いる→いる：00495_iru⟧ indicates a state result\n\nCOMMON PATTERNS:\n- ⟦{電車|でんしゃ}→電車：00522_densha⟧⟦が→が：00051_ga⟧{混|こ}む (train is crowded)\n- ⟦{道|みち}→道：00505_michi⟧⟦が→が：00051_ga⟧{混|こ}む (road is congested)\n- ⟦{店|みせ}→店：00497_mise⟧⟦が→が：00051_ga⟧{混|こ}む (shop is crowded)\n\nCOMPOUND VERBS:\n- ⟦{込|こ}み{合|あ}う→込み合う：21395_komiau⟧ (to be packed together)\n\nSIMILAR WORDS:\n- ⟦{空|す}く→すく：00756_suku⟧: to become empty (opposite)\n- ⟦{空|す}いている→すく：00756_suku⟧: not crowded (opposite state)",
   "cross_references": [
     {
       "type": "antonym",
@@ -51,11 +51,39 @@
       "headword": "すく",
       "label": "to be empty",
       "target_id": "00756_suku"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02420_mazaru",
+      "reading": "まざる",
+      "headword": "{混|ま}ざる",
+      "label": "to be mixed, to mingle"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02525_suiteiru",
+      "reading": "すいている",
+      "headword": "{空|す}いている",
+      "label": "to be empty, to be vacant"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14235_nigiwau",
+      "reading": "にぎわう",
+      "headword": "{賑|にぎ}わう",
+      "label": "to be bustling, to be lively, to thrive"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21395_komiau",
+      "reading": "こみあう",
+      "headword": "{込|こ}み{合|あ}う",
+      "label": "to be crowded"
     }
   ],
   "metadata": {
     "created": "2026-01-11T10:31:20Z",
-    "modified": "2026-05-21T14:27:26Z",
+    "modified": "2026-09-02T04:01:01Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

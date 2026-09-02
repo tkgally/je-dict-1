@@ -2,7 +2,7 @@
   "id": "03222_shuppan",
   "headword": "{出版|しゅっぱん}",
   "reading": "しゅっぱん",
-  "part_of_speech": "noun, suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "publication, publishing",
   "definitions": [
     {
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{出版|しゅっぱん} refers to publishing or publication of books and other written materials.\n\nCOMMON PATTERNS:\n- {出版|しゅっぱん}する (to publish)\n- {出版|しゅっぱん}される (to be published)\n- ○○⟦を→を：00422_wo⟧{出版|しゅっぱん}する (to publish XX)\n\nCOMMON COLLOCATIONS:\n- {出版|しゅっぱん}⟦{社|しゃ}→社：04660_sha⟧ (publishing company)\n- {出版|しゅっぱん}⟦{業|ぎょう}→業：noentry⟧ (publishing industry)\n- {出版|しゅっぱん}⟦{物|ぶつ}→物：noentry⟧ (publication, published work)\n- {出版|しゅっぱん}⟦{日|び}→日：noentry⟧ (publication date)\n- ⟦{自費|じひ}→自費：noentry⟧{出版|しゅっぱん} (self-publishing)\n- ⟦{電子|でんし}→電子：03449_denshi⟧{出版|しゅっぱん} (electronic publishing)\n\nRELATED TERMS:\n- ⟦{発行|はっこう}→発行：03693_hakkou⟧: issuance, publication (broader - includes newspapers, stamps)\n- ⟦{刊行|かんこう}→刊行：02788_kankou⟧: publication (more formal, literary)",
+  "notes": "{出版|しゅっぱん} refers to publishing or publication of books and other written materials.\n\nCOMMON PATTERNS:\n- {出版|しゅっぱん}⟦する→する：00392_suru⟧ (to publish)\n- {出版|しゅっぱん}⟦される→する：00392_suru⟧ (to be published)\n- ○○⟦を→を：00422_wo⟧{出版|しゅっぱん}⟦する→する：00392_suru⟧ (to publish XX)\n\nCOMMON COLLOCATIONS:\n- {出版|しゅっぱん}⟦{社|しゃ}→社：04660_sha⟧ (publishing company)\n- {出版|しゅっぱん}⟦{業|ぎょう}→業：noentry⟧ (publishing industry)\n- {出版|しゅっぱん}⟦{物|ぶつ}→物：noentry⟧ (publication, published work)\n- {出版|しゅっぱん}⟦{日|び}→日：noentry⟧ (publication date)\n- ⟦{自費|じひ}→自費：noentry⟧{出版|しゅっぱん} (self-publishing)\n- ⟦{電子|でんし}→電子：03449_denshi⟧{出版|しゅっぱん} (electronic publishing)\n\nRELATED WORDS:\n- ⟦{発行|はっこう}→発行：03693_hakkou⟧: issuance, publication (broader - includes newspapers, stamps)\n- ⟦{刊行|かんこう}→刊行：02788_kankou⟧: publication (more formal, literary)",
   "cross_references": [
     {
       "type": "synonym",
@@ -51,11 +51,53 @@
       "reading": "はっこう",
       "headword": "{発行|はっこう}",
       "label": "issuance, publication"
+    },
+    {
+      "type": "related",
+      "target_id": "02788_kankou",
+      "reading": "かんこう",
+      "headword": "{刊行|かんこう}",
+      "label": "publication"
+    },
+    {
+      "type": "related",
+      "target_id": "00202_katsuji",
+      "reading": "かつじ",
+      "headword": "{活字|かつじ}",
+      "label": "printing type"
+    },
+    {
+      "type": "related",
+      "target_id": "00686_zasshi",
+      "reading": "ざっし",
+      "headword": "{雑誌|ざっし}",
+      "label": "magazine"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19236_hakkousuru",
+      "reading": "はっこうする",
+      "headword": "{発行|はっこう}する",
+      "label": "to issue"
+    },
+    {
+      "type": "related",
+      "target_id": "21677_insatsusuru",
+      "reading": "いんさつする",
+      "headword": "{印刷|いんさつ}する",
+      "label": "to print"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22925_hakkan",
+      "reading": "はっかん",
+      "headword": "{発刊|はっかん}",
+      "label": "launching a publication"
     }
   ],
   "metadata": {
     "created": "2026-01-11T13:40:30Z",
-    "modified": "2026-08-08T09:25:02Z",
+    "modified": "2026-09-02T04:01:02Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

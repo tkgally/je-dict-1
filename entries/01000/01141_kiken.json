@@ -49,7 +49,7 @@
     },
     {
       "id": "01141_kiken_ex4",
-      "japanese": "⟦この→この：00962_kono⟧⟦{道|みち}→道：00505_michi⟧⟦は→は：00079_ha⟧⟦{夜|よる}→夜：00487_yoru⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦と→と：00512_to⟧{危険|きけん}なので、⟦{気|き}をつけて→気をつける：09771_kiwotsukeru⟧⟦ください→ください：02899_kudasai⟧。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{道|みち}→道：00505_michi⟧⟦は→は：00079_ha⟧⟦{夜|よる}→夜：00487_yoru⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦と→と：00512_to⟧{危険|きけん}な⟦の→の：09472_no⟧で、⟦{気|き}をつけて→気をつける：09771_kiwotsukeru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "This road becomes dangerous at night, so please be careful.",
       "notes": null,
       "has_audio": false,
@@ -118,7 +118,7 @@
       ]
     }
   ],
-  "notes": "{危険|きけん} works both as a na-adjective and as a noun.\n\nAS A NA-ADJECTIVE:\n- {危険|きけん}⟦な→な：09497_na⟧⟦{場所|ばしょ}→場所：00829_basho⟧: a dangerous place (before a noun)\n- {危険|きけん}⟦だ→だ：09496_da⟧/⟦です→です：09485_desu⟧: it is dangerous (predicate)\n- {危険|きけん}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧: to become dangerous\n\nAS A NOUN:\n- {危険|きけん}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧: there is a danger\n- {危険|きけん}⟦を→を：00422_wo⟧⟦{感|かん}じる→感じる：02044_kanjiru⟧: to sense danger\n- {危険|きけん}⟦を→を：00422_wo⟧⟦{避|さ}ける→避ける：02109_sakeru⟧: to avoid danger\n\nREGISTER: More formal and written than ⟦{危|あぶ}ない→危ない：00768_abunai⟧. Signs, warnings, and official notices use {危険|きけん}；everyday spoken warnings use ⟦{危|あぶ}ない→危ない：00768_abunai⟧. The bare sign {危険|きけん}！means 'Danger!'\n\nSIMILAR WORDS:\n- ⟦{危|あぶ}ない→危ない：00768_abunai⟧: dangerous (plain, spoken; also 'Look out!')\n- ⟦{危険性|きけんせい}→危険性：17827_kikensei⟧: riskiness, the degree of danger (abstract noun)\n- ⟦リスク→リスク：06752_risuku⟧: risk (loanword; business and statistical contexts)\n- ⟦{危機|きき}→危機：11798_kiki⟧: crisis (a critical situation, not a hazard)\n\nANTONYM:\n- ⟦{安全|あんぜん}→安全：01131_anzen⟧: safe, safety",
+  "notes": "{危険|きけん} works both as a na-adjective and as a noun.\n\nAS A NA-ADJECTIVE:\n- {危険|きけん}⟦な→な：09497_na⟧⟦{場所|ばしょ}→場所：00829_basho⟧: a dangerous place (before a noun)\n- {危険|きけん}⟦だ→だ：09496_da⟧/⟦です→です：09485_desu⟧: it is dangerous (predicate)\n- {危険|きけん}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧: to become dangerous\n\nAS A NOUN:\n- {危険|きけん}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧: there is a danger\n- {危険|きけん}⟦を→を：00422_wo⟧⟦{感|かん}じる→感じる：02044_kanjiru⟧: to sense danger\n- {危険|きけん}⟦を→を：00422_wo⟧⟦{避|さ}ける→避ける：02109_sakeru⟧: to avoid danger\n\nREGISTER: More formal and written than ⟦{危|あぶ}ない→危ない：00768_abunai⟧. Signs, warnings, and official notices use {危険|きけん}；everyday spoken warnings use ⟦{危|あぶ}ない→危ない：00768_abunai⟧. The bare sign {危険|きけん}！means 'Danger!'\n\nSIMILAR WORDS:\n- ⟦{危|あぶ}ない→危ない：00768_abunai⟧: dangerous (plain, spoken; also 'Look out!')\n- ⟦{危険性|きけんせい}→危険性：17827_kikensei⟧: riskiness, the degree of danger (abstract noun)\n- ⟦リスク→リスク：06752_risuku⟧: risk (loanword; business and statistical contexts)\n- ⟦{危機|きき}→危機：11798_kiki⟧: crisis (a critical situation, not a hazard)\n- ⟦{安全|あんぜん}→安全：01131_anzen⟧: safe, safety",
   "cross_references": [
     {
       "type": "antonym",
@@ -147,11 +147,39 @@
       "headword": "リスク",
       "label": "risk (loanword)",
       "target_id": "06752_risuku"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11798_kiki",
+      "reading": "きき",
+      "headword": "{危機|きき}",
+      "label": "crisis"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13002_yuugai",
+      "reading": "ゆうがい",
+      "headword": "{有害|ゆうがい}",
+      "label": "harmful, noxious, toxic"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13932_kyoui",
+      "reading": "きょうい",
+      "headword": "{脅威|きょうい}",
+      "label": "threat"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24056_risukii",
+      "reading": "りすきー",
+      "headword": "リスキー",
+      "label": "risky"
     }
   ],
   "metadata": {
     "created": "2026-01-07T12:39:35Z",
-    "modified": "2026-07-30T00:17:41Z",
+    "modified": "2026-09-02T04:00:59Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

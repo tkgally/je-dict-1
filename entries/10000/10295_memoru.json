@@ -2,7 +2,7 @@
   "id": "10295_memoru",
   "headword": "メモる",
   "reading": "めもる",
-  "part_of_speech": "godan verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to jot down; to take notes",
   "conjugation": {
     "type": "godan",
@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "10295_memoru_ex1",
-      "japanese": "ちょっとメモるね。",
+      "japanese": "⟦ちょっと→ちょっと：00595_chotto⟧メモる⟦ね→ね：09474_ne⟧。",
       "english": "Let me jot that down.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "10295_memoru_ex2",
-      "japanese": "{電話番号|でんわばんごう}をメモっておいた。",
+      "japanese": "⟦{電話番号|でんわばんごう}→電話番号：10159_denwabangou⟧⟦を→を：00422_wo⟧メモっておいた。",
       "english": "I jotted down the phone number.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "10295_memoru_ex3",
-      "japanese": "{会議|かいぎ}の{内容|ないよう}をメモっていたら、{書|か}くのが{追|お}いつかなかった。",
+      "japanese": "⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦の→の：09472_no⟧⟦{内容|ないよう}→内容：01482_naiyou⟧⟦を→を：00422_wo⟧メモって⟦いたら→いる：00495_iru⟧、⟦{書|か}く→書く：00477_kaku⟧⟦の→の：09472_no⟧⟦が→が：00051_ga⟧{追|お}いつかなかった。",
       "english": "I was taking notes on the meeting content, but I couldn't keep up with the writing.",
       "notes": null,
       "has_audio": false,
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "CONJUGATION: Godan verb. メモる → メモった (past) → メモって (te-form) → メモらない (negative). The っ in メモった is a common source of confusion — it follows godan conjugation, not ichidan.\n\nFormed from メモ (memo, from English) + る. This pattern of creating verbs from loanwords by adding る is productive in casual Japanese. Similar examples:\n- コピる — to copy\n- サボる — to skip/slack off (from サボタージュ)\n- ググる — to google\n- ミスる — to make a mistake\n\nCasual/informal. In formal contexts, use メモを{取|と}る or {書|か}き{留|と}める instead.",
+  "notes": "CONJUGATION: Godan verb. メモる → メモった (past) → メモって (te-form) → メモらない (negative). The っ in メモった is a common source of confusion — it follows godan conjugation, not ichidan.\n\nFormed from ⟦メモ→メモ：00274_memo⟧ (memo, from English) + る. This pattern of creating verbs from loanwords by adding る is productive in casual Japanese. Similar examples:\n- コピる — to copy\n- サボる — to skip/slack off (from サボタージュ)\n- ググる — to google\n- ミスる — to make a mistake\n\nCasual/informal. In formal contexts, use ⟦メモ→メモ：00274_memo⟧⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧ or ⟦{書|か}き{留|と}める→書き留める：06730_kakitomeru⟧ instead.",
   "prominent_see_also": [
     {
       "target_id": "00274_memo",
@@ -145,7 +145,7 @@
   "cross_references": [],
   "metadata": {
     "created": "2026-02-05T18:13:13Z",
-    "modified": "2026-04-24T06:24:12Z",
+    "modified": "2026-09-02T04:01:20Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
@@ -156,7 +156,8 @@
       "semantic": [
         "general"
       ],
-      "verb_class": "godan-ru"
+      "verb_class": "godan-ru",
+      "transitivity": "transitive"
     }
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "12488_tentou_ex1",
-      "japanese": "{店頭|てんとう}に{新商品|しんしょうひん}が{並|なら}んでいる。",
+      "japanese": "{店頭|てんとう}⟦に→に：00314_ni⟧⟦{新商品|しんしょうひん}→新商品：11504_shinshouhin⟧⟦が→が：00051_ga⟧⟦{並|なら}んでいる→並ぶ：00605_narabu⟧。",
       "english": "New products are lined up on the store shelves.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "12488_tentou_ex2",
-      "japanese": "{店頭|てんとう}{価格|かかく}はネットより{高|たか}いことが{多|おお}い。",
+      "japanese": "{店頭|てんとう}⟦{価格|かかく}→価格：00147_kakaku⟧⟦は→は：00079_ha⟧⟦ネット→ネット：05279_netto⟧⟦より→より：09476_yori⟧⟦{高|たか}い→高い：00500_takai⟧こと⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "In-store prices are often higher than online.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "12488_tentou_ex3",
-      "japanese": "その{限定|げんてい}{商品|しょうひん}は{店頭|てんとう}{販売|はんばい}のみで、オンラインでは{購入|こうにゅう}できない。",
+      "japanese": "⟦その→その：00993_sono⟧⟦{限定|げんてい}→限定：10997_gentei⟧⟦{商品|しょうひん}→商品：01436_shouhin⟧⟦は→は：00079_ha⟧{店頭|てんとう}{販売|はんばい}⟦のみ→のみ：06546_nomi⟧で、⟦オンライン→オンライン：05278_onrain⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{購入|こうにゅう}→購入：03057_kounyuu⟧⟦できない→できる：00557_dekiru⟧。",
       "english": "That limited-edition product is only available for in-store purchase; it cannot be bought online.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,26 @@
       ]
     }
   ],
-  "notes": "USAGE:\nOften used to contrast in-store retail with online sales: {店頭|てんとう}{販売|はんばい} (in-store sales) vs. ネット{販売|はんばい} (online sales). In finance, {店頭|てんとう}{取引|とりひき} refers to over-the-counter (OTC) trading. The word emphasizes the physical retail space where customers interact with products.\n\nCOMMON COLLOCATIONS:\n- {店頭|てんとう}{販売|はんばい}: in-store sales\n- {店頭|てんとう}{価格|かかく}: in-store price\n- {店頭|てんとう}に{並|なら}ぶ: be on store shelves\n- {店頭|てんとう}{取引|とりひき}: over-the-counter trading (finance)",
-  "cross_references": [],
+  "notes": "USAGE:\nOften used to contrast in-store retail with online sales: {店頭|てんとう}{販売|はんばい} (in-store sales) vs. ⟦ネット→ネット：05279_netto⟧⟦{販売|はんばい}→販売：03573_hanbai⟧ (online sales). In finance, {店頭|てんとう}⟦{取引|とりひき}→取引：04700_torihiki⟧ refers to over-the-counter (OTC) trading. The word emphasizes the physical retail space where customers interact with products.\n\nCOMMON COLLOCATIONS:\n- {店頭|てんとう}{販売|はんばい}: in-store sales\n- {店頭|てんとう}⟦{価格|かかく}→価格：00147_kakaku⟧: in-store price\n- {店頭|てんとう}⟦に→に：00314_ni⟧⟦{並|なら}ぶ→並ぶ：00605_narabu⟧: be on store shelves\n- {店頭|てんとう}⟦{取引|とりひき}→取引：04700_torihiki⟧: over-the-counter trading (finance)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "08402_nokisaki",
+      "reading": "のきさき",
+      "headword": "{軒先|のきさき}",
+      "label": "edge of eaves"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20728_misesaki",
+      "reading": "みせさき",
+      "headword": "{店先|みせさき}",
+      "label": "storefront"
+    }
+  ],
   "metadata": {
     "created": "2026-02-21T10:36:35Z",
-    "modified": "2026-08-16T21:41:29Z",
+    "modified": "2026-09-02T04:01:29Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

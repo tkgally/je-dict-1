@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "10131_hanei_ex1",
-      "japanese": "{子孫|しそん}{繁栄|はんえい}を{願|ねが}う。",
+      "japanese": "⟦{子孫|しそん}→子孫：00372_shison⟧{繁栄|はんえい}⟦を→を：00422_wo⟧⟦{願|ねが}う→願う：02387_negau⟧。",
       "english": "To wish for the prosperity of one's descendants.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "10131_hanei_ex2",
-      "japanese": "{町|まち}は{繁栄|はんえい}している。",
+      "japanese": "⟦{町|まち}→町：00613_machi⟧⟦は→は：00079_ha⟧{繁栄|はんえい}⟦している→する：00392_suru⟧。",
       "english": "The town is flourishing.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "10131_hanei_ex3",
-      "japanese": "{経済|けいざい}の{繁栄|はんえい}が{続|つづ}いた。",
+      "japanese": "⟦{経済|けいざい}→経済：01394_keizai⟧⟦の→の：09472_no⟧{繁栄|はんえい}⟦が→が：00051_ga⟧⟦{続|つづ}いた→続く：00903_tsuzuku⟧。",
       "english": "Economic prosperity continued.",
       "notes": null,
       "has_audio": false,
@@ -133,10 +133,10 @@
       ]
     }
   ],
-  "notes": "USAGE: Used in formal contexts to describe prosperity of nations, businesses, or family lines.\n\nCOMMON COLLOCATIONS:\n・{繁栄|はんえい}する (to prosper/flourish)\n・{経済|けいざい}{繁栄|はんえい} (economic prosperity)\n・{子孫|しそん}{繁栄|はんえい} (prosperity of descendants)\n・{繁栄|はんえい}を{極|きわ}める (to reach the height of prosperity)\n\nSIMILAR WORDS:\n・{発展|はってん} (development; progress)\n・{栄|さか}える (to prosper - verb)",
+  "notes": "USAGE: Used in formal contexts to describe prosperity of nations, businesses, or family lines.\n\nCOMMON COLLOCATIONS:\n- {繁栄|はんえい}⟦する→する：00392_suru⟧ (to prosper/flourish)\n- ⟦{経済|けいざい}→経済：01394_keizai⟧{繁栄|はんえい} (economic prosperity)\n- ⟦{子孫|しそん}→子孫：00372_shison⟧{繁栄|はんえい} (prosperity of descendants)\n- {繁栄|はんえい}⟦を→を：00422_wo⟧⟦{極|きわ}める→極める：13139_kiwameru⟧ (to reach the height of prosperity)\n\nSIMILAR WORDS:\n- ⟦{発展|はってん}→発展：03561_hatten⟧ (development; progress)\n- ⟦{栄|さか}える→栄える：13104_sakaeru⟧ (to prosper - verb)",
   "metadata": {
     "created": "2026-02-05T08:37:56Z",
-    "modified": "2026-04-24T04:04:43Z",
+    "modified": "2026-09-02T04:01:20Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -181,6 +181,27 @@
       "reading": "さかえる",
       "headword": "{栄|さか}える",
       "label": "to prosper (verb)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20446_koukeiki",
+      "reading": "こうけいき",
+      "headword": "{好景気|こうけいき}",
+      "label": "economic boom"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22392_kyouei",
+      "reading": "きょうえい",
+      "headword": "{共栄|きょうえい}",
+      "label": "co-prosperity"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26838_nigiwai",
+      "reading": "にぎわい",
+      "headword": "{賑|にぎ}わい",
+      "label": "bustle"
     }
   ]
 }

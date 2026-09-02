@@ -109,7 +109,7 @@
   "examples": [
     {
       "id": "09362_buratsuku_ex1",
-      "japanese": "{街|まち}をぶらつく。",
+      "japanese": "⟦{街|まち}→街：17306_machi⟧⟦を→を：00422_wo⟧ぶらつく。",
       "english": "To stroll around town.",
       "notes": null,
       "has_audio": false,
@@ -119,7 +119,7 @@
     },
     {
       "id": "09362_buratsuku_ex2",
-      "japanese": "{休|やす}みの{日|ひ}は{近所|きんじょ}をぶらついている。",
+      "japanese": "⟦{休|やす}み→休み：02266_yasumi⟧⟦の→の：09472_no⟧⟦{日|ひ}→日：02249_hi⟧⟦は→は：00079_ha⟧⟦{近所|きんじょ}→近所：01318_kinjo⟧⟦を→を：00422_wo⟧ぶらついて⟦いる→いる：00495_iru⟧。",
       "english": "On my days off, I wander around the neighborhood.",
       "notes": null,
       "has_audio": false,
@@ -129,7 +129,7 @@
     },
     {
       "id": "09362_buratsuku_ex3",
-      "japanese": "デパートをぶらついて{時間|じかん}をつぶした。",
+      "japanese": "⟦デパート→デパート：01022_depaato⟧⟦を→を：00422_wo⟧ぶらついて⟦{時間|じかん}→時間：00468_jikan⟧⟦を→を：00422_wo⟧つぶした。",
       "english": "I killed time wandering around the department store.",
       "notes": null,
       "has_audio": false,
@@ -139,7 +139,7 @@
     },
     {
       "id": "09362_buratsuku_ex4",
-      "japanese": "{駅前|えきまえ}でぶらついている{若者|わかもの}たち。",
+      "japanese": "⟦{駅前|えきまえ}→駅前：09593_ekimae⟧⟦で→で：00502_de⟧ぶらついて⟦いる→いる：00495_iru⟧⟦{若者|わかもの}→若者：03037_wakamono⟧たち。",
       "english": "Young people hanging around in front of the station.",
       "notes": null,
       "has_audio": false,
@@ -149,7 +149,7 @@
     },
     {
       "id": "09362_buratsuku_ex5",
-      "japanese": "{暇|ひま}だから{公園|こうえん}でぶらついていた。",
+      "japanese": "⟦{暇|ひま}→暇：00592_hima⟧だ⟦から→から：00504_kara⟧⟦{公園|こうえん}→公園：00581_kouen⟧⟦で→で：00502_de⟧ぶらついて⟦いた→いる：00495_iru⟧。",
       "english": "I was hanging around the park because I had nothing to do.",
       "notes": null,
       "has_audio": false,
@@ -159,7 +159,7 @@
     },
     {
       "id": "09362_buratsuku_ex6",
-      "japanese": "{仕事|しごと}もしないでぶらついてばかりいる。",
+      "japanese": "⟦{仕事|しごと}→仕事：00480_shigoto⟧もしないでぶらついて⟦ばかり→〜ばかり：02006_bakari⟧⟦いる→いる：00495_iru⟧。",
       "english": "They just hang around without working.",
       "notes": null,
       "has_audio": false,
@@ -168,10 +168,10 @@
       ]
     }
   ],
-  "notes": "ぶらつく is an informal verb describing aimless wandering or hanging around. It comes from the onomatopoeia ぶらぶら (dangling, swinging loosely), suggesting a relaxed, unhurried movement.\n\nRelated expressions:\n- ぶらぶらする: similar meaning, to loaf around\n- {散歩|さんぽ}する: to take a walk (more purposeful)\n\nWhile often neutral, ぶらつく can have slightly negative connotations when describing someone who should be doing something productive.",
+  "notes": "ぶらつく is an informal verb describing aimless wandering or hanging around. It comes from the onomatopoeia ⟦ぶらぶら→ぶらぶら：05167_burabura⟧ (dangling, swinging loosely), suggesting a relaxed, unhurried movement.\n\nRelated expressions:\n- ⟦ぶらぶら→ぶらぶら：05167_burabura⟧⟦する→する：00392_suru⟧: similar meaning, to loaf around\n- ⟦{散歩|さんぽ}する→散歩する：26840_sanposuru⟧: to take a walk (more purposeful)\n\nWhile often neutral, ぶらつく can have slightly negative connotations when describing someone who should be doing something productive.",
   "metadata": {
     "created": "2026-02-01T08:16:49Z",
-    "modified": "2026-04-22T08:43:07Z",
+    "modified": "2026-09-02T04:01:18Z",
     "ai_model": "opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -184,7 +184,8 @@
         "movement",
         "leisure"
       ],
-      "verb_class": "godan-ku"
+      "verb_class": "godan-ku",
+      "transitivity": "intransitive"
     }
   },
   "cross_references": [

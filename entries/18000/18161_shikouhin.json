@@ -15,41 +15,59 @@
   "examples": [
     {
       "id": "18161_shikouhin_ex1",
-      "japanese": "コーヒーは{代表的|だいひょうてき}な{嗜好品|しこうひん}だ。",
+      "japanese": "⟦コーヒー→コーヒー：00789_koohii⟧⟦は→は：00079_ha⟧⟦{代表的|だいひょうてき}→代表的：05670_daihyouteki⟧な{嗜好品|しこうひん}だ。",
       "english": "Coffee is a typical indulgence item.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18161_shikouhin_ex2",
-      "japanese": "{健康|けんこう}のために{嗜好品|しこうひん}を{控|ひか}えている。",
+      "japanese": "⟦{健康|けんこう}→健康：02706_kenkou⟧⟦の→の：09472_no⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧{嗜好品|しこうひん}⟦を→を：00422_wo⟧⟦{控|ひか}えている→控える：10054_hikaeru⟧。",
       "english": "I'm cutting back on indulgences for my health.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18161_shikouhin_ex3",
-      "japanese": "{嗜好品|しこうひん}にかける{費用|ひよう}を{見直|みなお}したら、{毎月|まいつき}かなり{節約|せつやく}できた。",
+      "japanese": "{嗜好品|しこうひん}⟦に→に：00314_ni⟧⟦かける→かける：00854_kakeru⟧⟦{費用|ひよう}→費用：03588_hiyou⟧⟦を→を：00422_wo⟧⟦{見直|みなお}したら→見直す：04579_minaosu⟧、⟦{毎月|まいつき}→毎月：00732_maitsuki⟧⟦かなり→かなり：01149_kanari⟧⟦{節約|せつやく}→節約：03302_setsuyaku⟧⟦できた→できる：00557_dekiru⟧。",
       "english": "When I reviewed my spending on indulgence items, I was able to save quite a bit each month.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nA somewhat formal category term commonly seen in health articles, nutrition guides, tax discussions, and household budgeting. The classic examples are coffee, tea, tobacco, and alcohol. Chocolate and snacks are sometimes included. The word does not imply moral judgment — it is a neutral classification.\n\nCOMMON COLLOCATIONS:\n- {嗜好品|しこうひん}を{控|ひか}える (to cut back on indulgences)\n- {嗜好品|しこうひん}の{摂取|せっしゅ} (consumption of luxury foods/drinks)\n- {嗜好品|しこうひん}{税|ぜい} (tax on luxury consumables)\n\nNOTE ON TRANSLATION:\nThere is no single natural English equivalent. \"Luxury grocery\" is too narrow; \"indulgence\" is close but vague. In Japanese, the term is well-defined and commonly understood.",
-  "cross_references": [],
+  "notes": "USAGE:\nA somewhat formal category term commonly seen in health articles, nutrition guides, tax discussions, and household budgeting. The classic examples are coffee, tea, tobacco, and alcohol. Chocolate and snacks are sometimes included. The word does not imply moral judgment — it is a neutral classification.\n\nCOMMON COLLOCATIONS:\n- {嗜好品|しこうひん}⟦を→を：00422_wo⟧⟦{控|ひか}える→控える：10054_hikaeru⟧ (to cut back on indulgences)\n- {嗜好品|しこうひん}⟦の→の：09472_no⟧⟦{摂取|せっしゅ}→摂取：09322_sesshu⟧ (consumption of luxury foods/drinks)\n- {嗜好品|しこうひん}⟦{税|ぜい}→税：03767_zei⟧ (tax on luxury consumables)\n\nNOTE ON TRANSLATION:\nThere is no single natural English equivalent. \"Luxury grocery\" is too narrow; \"indulgence\" is close but vague. In Japanese, the term is well-defined and commonly understood.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "27266_shumishikou",
+      "reading": "しゅみしこう",
+      "headword": "{趣味|しゅみ}{嗜好|しこう}",
+      "label": "tastes and preferences"
+    }
+  ],
   "metadata": {
     "created": "2026-03-20T08:54:48Z",
-    "modified": "2026-03-20T08:54:48Z",
+    "modified": "2026-09-02T04:01:51Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["food"]
+      "semantic": [
+        "food"
+      ]
     }
   }
 }

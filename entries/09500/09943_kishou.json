@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "09943_kishou_ex1",
-      "japanese": "{気象|きしょう}{情報|じょうほう}を{確認|かくにん}する。",
+      "japanese": "{気象|きしょう}⟦{情報|じょうほう}→情報：03348_jouhou⟧⟦を→を：00422_wo⟧⟦{確認|かくにん}する→確認する：25332_kakuninsuru⟧。",
       "english": "To check weather information.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "09943_kishou_ex2",
-      "japanese": "{気象|きしょう}{観測|かんそく}によると、{台風|たいふう}が{接近|せっきん}している。",
+      "japanese": "{気象|きしょう}⟦{観測|かんそく}→観測：00183_kansoku⟧⟦によると→〜によると：03104_niyoruto⟧、⟦{台風|たいふう}→台風：01455_taifuu⟧⟦が→が：00051_ga⟧⟦{接近|せっきん}している→接近する：25362_sekkinsuru⟧。",
       "english": "According to meteorological observations, a typhoon is approaching.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "09943_kishou_ex3",
-      "japanese": "{気象|きしょう}{条件|じょうけん}が{悪|わる}いので{中止|ちゅうし}になった。",
+      "japanese": "{気象|きしょう}⟦{条件|じょうけん}→条件：03285_jouken⟧⟦が→が：00051_ga⟧⟦{悪|わる}い→悪い：00908_warui⟧⟦の→の：09472_no⟧で⟦{中止|ちゅうし}→中止：03481_chuushi⟧になった。",
       "english": "It was cancelled due to poor weather conditions.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{気象|きしょう} refers to atmospheric conditions and their study.\n\nCOMMON COMPOUNDS:\n- {気象|きしょう}{庁|ちょう}: Japan Meteorological Agency\n- {気象|きしょう}{予報|よほう}: weather forecast\n- {気象|きしょう}{観測|かんそく}: meteorological observation\n- {気象|きしょう}{条件|じょうけん}: weather conditions\n- {気象|きしょう}{情報|じょうほう}: weather information\n\nSIMILAR WORDS:\n- {天気|てんき}: weather (everyday usage)\n- {天候|てんこう}: weather (formal)",
+  "notes": "{気象|きしょう} refers to atmospheric conditions and their study.\n\nCOMPOUNDS:\n- {気象|きしょう}{庁|ちょう}: Japan Meteorological Agency\n- {気象|きしょう}{予報|よほう}: weather forecast\n- {気象|きしょう}⟦{観測|かんそく}→観測：00183_kansoku⟧: meteorological observation\n- {気象|きしょう}⟦{条件|じょうけん}→条件：03285_jouken⟧: weather conditions\n- {気象|きしょう}⟦{情報|じょうほう}→情報：03348_jouhou⟧: weather information\n\nSIMILAR WORDS:\n- ⟦{天気|てんき}→天気：00582_tenki⟧: weather (everyday usage)\n- ⟦{天候|てんこう}→天候：03558_tenkou⟧: weather (formal)",
   "cross_references": [
     {
       "type": "synonym",
@@ -58,11 +58,32 @@
       "reading": "てんこう",
       "headword": "{天候|てんこう}",
       "label": "weather (formal)"
+    },
+    {
+      "type": "related",
+      "target_id": "00231_kikou",
+      "reading": "きこう",
+      "headword": "{気候|きこう}",
+      "label": "climate"
+    },
+    {
+      "type": "related",
+      "target_id": "01678_tenkiyohou",
+      "reading": "てんきよほう",
+      "headword": "{天気予報|てんきよほう}",
+      "label": "weather forecast"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27360_kiryuu",
+      "reading": "きりゅう",
+      "headword": "{気流|きりゅう}",
+      "label": "air current"
     }
   ],
   "metadata": {
     "created": "2026-02-04T10:52:33Z",
-    "modified": "2026-04-23T08:17:03Z",
+    "modified": "2026-09-02T04:01:19Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

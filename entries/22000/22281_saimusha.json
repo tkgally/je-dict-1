@@ -15,40 +15,81 @@
   "examples": [
     {
       "id": "22281_saimusha_ex1",
-      "japanese": "{債務者|さいむしゃ}が{返済|へんさい}できない。",
+      "japanese": "{債務者|さいむしゃ}⟦が→が：00051_ga⟧⟦{返済|へんさい}→返済：04776_hensai⟧⟦できない→できる：00557_dekiru⟧。",
       "english": "The debtor cannot repay.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "22281_saimusha_ex2",
-      "japanese": "{債務者|さいむしゃ}の{権利|けんり}は{法律|ほうりつ}で{守|まも}られている。",
+      "japanese": "{債務者|さいむしゃ}⟦の→の：09472_no⟧⟦{権利|けんり}→権利：02711_kenri⟧⟦は→は：00079_ha⟧⟦{法律|ほうりつ}→法律：01722_houritsu⟧⟦で→で：00502_de⟧⟦{守|まも}られている→守る：01986_mamoru⟧。",
       "english": "The rights of debtors are protected by law.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "22281_saimusha_ex3",
-      "japanese": "{多重|たじゅう}{債務者|さいむしゃ}を{救済|きゅうさい}するための{制度|せいど}が{設|もう}けられた。",
+      "japanese": "⟦{多重|たじゅう}→多重：19772_tajuu⟧{債務者|さいむしゃ}⟦を→を：00422_wo⟧⟦{救済|きゅうさい}→救済：12928_kyuusai⟧⟦する→する：00392_suru⟧⟦ため→ため：01145_tame⟧⟦の→の：09472_no⟧⟦{制度|せいど}→制度：03291_seido⟧⟦が→が：00051_ga⟧⟦{設|もう}けられた→設ける：14220_moukeru⟧。",
       "english": "A system was established to help people with multiple debts.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A formal legal and financial term. The opposite of {債権者|さいけんしゃ} (creditor).\n\nCOMMON COLLOCATIONS:\n- {多重|たじゅう}{債務者|さいむしゃ}: person with multiple debts\n- {債務者|さいむしゃ}の{義務|ぎむ}: debtor's obligation\n- {債務者|さいむしゃ}{保護|ほご}: debtor protection\n- {連帯|れんたい}{債務者|さいむしゃ}: joint debtor\n\nOPPOSITE:\n- {債権者|さいけんしゃ}: creditor — the person or entity owed money\n\nRELATED TERMS:\n- {債務|さいむ}: debt, obligation\n- {借金|しゃっきん}: debt, loan — more everyday term\n- {負債|ふさい}: liability, debt — used in accounting\n\nFORMATION:\n{債務|さいむ} (debt, obligation) + {者|しゃ} (person)",
+  "notes": "A formal legal and financial term. The opposite of ⟦{債権者|さいけんしゃ}→債権者：22802_saikensha⟧ (creditor).\n\nCOMMON COLLOCATIONS:\n- ⟦{多重|たじゅう}→多重：19772_tajuu⟧{債務者|さいむしゃ}: person with multiple debts\n- {債務者|さいむしゃ}⟦の→の：09472_no⟧⟦{義務|ぎむ}→義務：02647_gimu⟧: debtor's obligation\n- {債務者|さいむしゃ}⟦{保護|ほご}→保護：03625_hogo⟧: debtor protection\n- {連帯|れんたい}{債務者|さいむしゃ}: joint debtor\n\nSIMILAR WORDS:\n- ⟦{債権者|さいけんしゃ}→債権者：22802_saikensha⟧: creditor — the person or entity owed money\n\nRELATED WORDS:\n- ⟦{債務|さいむ}→債務：06578_saimu⟧: debt, obligation\n- ⟦{借金|しゃっきん}→借金：03203_shakkin⟧: debt, loan — more everyday term\n- ⟦{負債|ふさい}→負債：14950_fusai⟧: liability, debt — used in accounting\n\nFORMS:\n⟦{債務|さいむ}→債務：06578_saimu⟧ (debt, obligation) + ⟦{者|しゃ}→〜者：04662_sha⟧ (person)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22802_saikensha",
+      "reading": "さいけんしゃ",
+      "headword": "{債権者|さいけんしゃ}",
+      "label": "creditor"
+    },
+    {
+      "type": "related",
+      "target_id": "03203_shakkin",
+      "reading": "しゃっきん",
+      "headword": "{借金|しゃっきん}",
+      "label": "debt, loan"
+    },
+    {
+      "type": "related",
+      "target_id": "14950_fusai",
+      "reading": "ふさい",
+      "headword": "{負債|ふさい}",
+      "label": "liability, debt"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23595_hasansha",
+      "reading": "はさんしゃ",
+      "headword": "{破産者|はさんしゃ}",
+      "label": "bankrupt person"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["finance", "law"]
+      "semantic": [
+        "finance",
+        "law"
+      ]
     },
     "created": "2026-04-05T16:37:00Z",
-    "modified": "2026-04-05T16:37:00Z"
+    "modified": "2026-09-02T04:02:07Z"
   }
 }

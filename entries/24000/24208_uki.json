@@ -16,7 +16,7 @@
   "examples": [
     {
       "id": "24208_uki_ex1",
-      "japanese": "{右記|うき}の{通|とお}り{申請|しんせい}します。",
+      "japanese": "{右記|うき}⟦の→の：09472_no⟧⟦{通|とお}り→通り：01475_toori⟧⟦{申請|しんせい}します→申請する：25228_shinseisuru⟧。",
       "english": "I apply as stated above.",
       "sense_numbers": [
         1
@@ -26,7 +26,7 @@
     },
     {
       "id": "24208_uki_ex2",
-      "japanese": "{右記|うき}の{内容|ないよう}をご{確認|かくにん}ください。",
+      "japanese": "{右記|うき}⟦の→の：09472_no⟧⟦{内容|ないよう}→内容：01482_naiyou⟧⟦を→を：00422_wo⟧⟦ご{確認|かくにん}→ご確認：23544_gokakunin⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please confirm the above content.",
       "sense_numbers": [
         1
@@ -36,7 +36,7 @@
     },
     {
       "id": "24208_uki_ex3",
-      "japanese": "{右記|うき}の{条件|じょうけん}に{同意|どうい}する{場合|ばあい}は{署名|しょめい}してください。",
+      "japanese": "{右記|うき}⟦の→の：09472_no⟧⟦{条件|じょうけん}→条件：03285_jouken⟧⟦に→に：00314_ni⟧⟦{同意|どうい}する→同意する：06056_douisuru⟧⟦{場合|ばあい}→場合：01704_baai⟧⟦は→は：00079_ha⟧⟦{署名|しょめい}して→署名する：22432_shomeisuru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "If you agree to the conditions stated above, please sign.",
       "sense_numbers": [
         1
@@ -45,16 +45,46 @@
       "notes": null
     }
   ],
-  "notes": "{右|う} (right) + {記|き} (written). In traditional Japanese vertical writing, text flows from right to left, so earlier content is to the right. {右記|うき} therefore means \"what was written previously\" or \"the above.\"\n\nCOMMON COLLOCATIONS:\n- {右記|うき}の{通|とお}り: as stated above\n- {右記|うき}の{住所|じゅうしょ}: the address listed above\n- {右記|うき}の{条件|じょうけん}: the conditions stated above\n- {右記|うき}のとおり{相違|そうい}ありません: the above is correct without error\n\nSIMILAR WORDS:\n- {上記|じょうき}: the above — used in horizontal writing (modern standard); functionally equivalent\n- {下記|かき}: the following, what is written below — the opposite, referring to content that comes after\n- {左記|さき}: what follows (in vertical writing) — the counterpart to {右記|うき} in vertical text\n- {前記|ぜんき}: the aforementioned — refers to content mentioned previously\n\nUSAGE:\n{右記|うき} is used primarily in formal documents, legal papers, and official forms that use vertical writing. In modern horizontal writing, {上記|じょうき} is more common. Both are formal register.",
-  "cross_references": [],
+  "notes": "{右|う} (right) + {記|き} (written). In traditional Japanese vertical writing, text flows from right to left, so earlier content is to the right. {右記|うき} therefore means \"what was written previously\" or \"the above.\"\n\nCOMMON COLLOCATIONS:\n- {右記|うき}⟦の→の：09472_no⟧⟦{通|とお}り→通り：01475_toori⟧: as stated above\n- {右記|うき}⟦の→の：09472_no⟧⟦{住所|じゅうしょ}→住所：01430_juusho⟧: the address listed above\n- {右記|うき}⟦の→の：09472_no⟧⟦{条件|じょうけん}→条件：03285_jouken⟧: the conditions stated above\n- {右記|うき}⟦の→の：09472_no⟧とおり⟦{相違|そうい}→相違：04043_soui⟧⟦ありません→ある：00006_aru⟧: the above is correct without error\n\nSIMILAR WORDS:\n- ⟦{上記|じょうき}→上記：11375_jouki⟧: the above — used in horizontal writing (modern standard); functionally equivalent\n- ⟦{下記|かき}→下記：11376_kaki⟧: the following, what is written below — the opposite, referring to content that comes after\n- ⟦{左記|さき}→左記：17256_saki⟧: what follows (in vertical writing) — the counterpart to {右記|うき} in vertical text\n- ⟦{前記|ぜんき}→前記：22210_zenki⟧: the aforementioned — refers to content mentioned previously\n\nUSAGE:\n{右記|うき} is used primarily in formal documents, legal papers, and official forms that use vertical writing. In modern horizontal writing, ⟦{上記|じょうき}→上記：11375_jouki⟧ is more common. Both are formal register.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11375_jouki",
+      "reading": "じょうき",
+      "headword": "{上記|じょうき}",
+      "label": "the above"
+    },
+    {
+      "type": "antonym",
+      "target_id": "11376_kaki",
+      "reading": "かき",
+      "headword": "{下記|かき}",
+      "label": "the following, what is written below"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17256_saki",
+      "reading": "さき",
+      "headword": "{左記|さき}",
+      "label": "what follows"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22210_zenki",
+      "reading": "ぜんき",
+      "headword": "{前記|ぜんき}",
+      "label": "the aforementioned"
+    }
+  ],
   "metadata": {
     "created": "2026-04-18T09:16:40Z",
-    "modified": "2026-08-02T18:32:34Z",
+    "modified": "2026-09-02T04:02:17Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "media",
         "business"

@@ -15,31 +15,67 @@
   "examples": [
     {
       "id": "21530_shisha_ex1",
-      "japanese": "{王|おう}は{使者|ししゃ}を{送|おく}った。",
+      "japanese": "⟦{王|おう}→王：19353_ou⟧⟦は→は：00079_ha⟧{使者|ししゃ}⟦を→を：00422_wo⟧⟦{送|おく}った→送る：00742_okuru⟧。",
       "english": "The king sent a messenger.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21530_shisha_ex2",
-      "japanese": "{使者|ししゃ}が{和平|わへい}の{条件|じょうけん}を{伝|つた}えた。",
+      "japanese": "{使者|ししゃ}⟦が→が：00051_ga⟧{和平|わへい}⟦の→の：09472_no⟧⟦{条件|じょうけん}→条件：03285_jouken⟧⟦を→を：00422_wo⟧⟦{伝|つた}えた→伝える：01220_tsutaeru⟧。",
       "english": "The envoy conveyed the conditions for peace.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21530_shisha_ex3",
-      "japanese": "{春|はる}の{訪|おとず}れを{告|つ}げる{使者|ししゃ}のように、{梅|うめ}の{花|はな}が{咲|さ}いた。",
+      "japanese": "⟦{春|はる}→春：00627_haru⟧⟦の→の：09472_no⟧⟦{訪|おとず}れ→訪れ：14267_otozure⟧⟦を→を：00422_wo⟧⟦{告|つ}げる→告げる：11808_tsugeru⟧{使者|ししゃ}⟦のように→のように：30291_noyouni⟧、⟦{梅|うめ}→梅：01869_ume⟧⟦の→の：09472_no⟧⟦{花|はな}→花：00523_hana⟧⟦が→が：00051_ga⟧⟦{咲|さ}いた→咲く：08150_saku⟧。",
       "english": "The plum blossoms bloomed, like messengers heralding the arrival of spring.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Compound of {使|し} (to send on a mission) + {者|しゃ} (person). Commonly appears in historical narratives, fantasy, and literary writing. Also used figuratively for things that herald or signal something.\n\nCOMMON COLLOCATIONS:\n- {使者|ししゃ}を{送|おく}る: to send a messenger\n- {使者|ししゃ}を{遣|つか}わす: to dispatch an envoy (literary)\n- {使者|ししゃ}が{来|く}る: a messenger comes\n- {春|はる}の{使者|ししゃ}: herald of spring\n- {死|し}の{使者|ししゃ}: messenger of death\n\nSIMILAR WORDS:\n- {特使|とくし}: special envoy — specifically appointed for a particular mission\n- {大使|たいし}: ambassador — a permanent diplomatic representative\n- メッセンジャー: messenger — the loanword, used in modern/casual contexts\n\nNOTE ON HOMOPHONES:\n{使者|ししゃ} (messenger) is distinct from {死者|ししゃ} (deceased person). The kanji make the difference clear in writing.",
+  "notes": "Compound of {使|し} (to send on a mission) + ⟦{者|しゃ}→〜者：04662_sha⟧ (person). Commonly appears in historical narratives, fantasy, and literary writing. Also used figuratively for things that herald or signal something.\n\nCOMMON COLLOCATIONS:\n- {使者|ししゃ}⟦を→を：00422_wo⟧⟦{送|おく}る→送る：00742_okuru⟧: to send a messenger\n- {使者|ししゃ}⟦を→を：00422_wo⟧{遣|つか}わす: to dispatch an envoy (literary)\n- {使者|ししゃ}⟦が→が：00051_ga⟧⟦{来|く}る→来る：00254_kuru⟧: a messenger comes\n- ⟦{春|はる}→春：00627_haru⟧⟦の→の：09472_no⟧{使者|ししゃ}: herald of spring\n- ⟦{死|し}→死：13248_shi⟧⟦の→の：09472_no⟧{使者|ししゃ}: messenger of death\n\nSIMILAR WORDS:\n- ⟦{特使|とくし}→特使：23491_tokushi⟧: special envoy — specifically appointed for a particular mission\n- ⟦{大使|たいし}→大使：03391_taishi⟧: ambassador — a permanent diplomatic representative\n- メッセンジャー: messenger — the loanword, used in modern/casual contexts\n\nNOTE ON HOMOPHONES:\n{使者|ししゃ} (messenger) is distinct from ⟦{死者|ししゃ}→死者：13225_shisha⟧ (deceased person). The kanji make the difference clear in writing.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23491_tokushi",
+      "reading": "とくし",
+      "headword": "{特使|とくし}",
+      "label": "special envoy"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03391_taishi",
+      "reading": "たいし",
+      "headword": "{大使|たいし}",
+      "label": "ambassador"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22015_denrei",
+      "reading": "でんれい",
+      "headword": "{伝令|でんれい}",
+      "label": "messenger"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25633_tsukai",
+      "reading": "つかい",
+      "headword": "{使|つか}い",
+      "label": "errand"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,6 +89,6 @@
       ]
     },
     "created": "2026-04-02T15:22:32Z",
-    "modified": "2026-04-02T15:22:32Z"
+    "modified": "2026-09-02T04:02:04Z"
   }
 }

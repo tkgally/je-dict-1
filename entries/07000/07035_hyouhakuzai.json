@@ -34,7 +34,7 @@
     },
     {
       "id": "07035_hyouhakuzai_ex3",
-      "japanese": "⟦{酸素|さんそ}→酸素：02830_sanso⟧⟦{系|けい}→系：noentry⟧{漂白剤|ひょうはくざい}⟦は→は：00079_ha⟧⟦{色柄物|いろがらもの}→色柄物：noentry⟧⟦に→に：00314_ni⟧⟦も→も：00484_mo⟧⟦{使|つか}える→使う：00473_tsukau⟧。",
+      "japanese": "⟦{酸素|さんそ}→酸素：02830_sanso⟧⟦{系|けい}→系：noentry⟧{漂白剤|ひょうはくざい}⟦は→は：00079_ha⟧⟦{色柄物|いろがらもの}→色柄物：30767_irogaramono⟧⟦に→に：00314_ni⟧⟦も→も：00484_mo⟧⟦{使|つか}える→使う：00473_tsukau⟧。",
       "english": "Oxygen-based bleach can be used on colored and patterned items too.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{漂白剤|ひょうはくざい} is bleach — any whitening or stain-removing agent. Formation: ⟦{漂白|ひょうはく}→漂白：16995_hyouhaku⟧ 'bleaching' + {剤|ざい} 'agent', the same suffix as in ⟦{洗剤|せんざい}→洗剤：03304_senzai⟧ and ⟦{柔軟剤|じゅうなんざい}→柔軟剤：07034_juunanzai⟧.\n\nJapanese households distinguish two kinds, and the label always says which:\n- ⟦{塩素|えんそ}→塩素：12143_enso⟧⟦{系|けい}→系：noentry⟧{漂白剤|ひょうはくざい}: chlorine bleach — powerful, whites only, will strip colour\n- ⟦{酸素|さんそ}→酸素：02830_sanso⟧⟦{系|けい}→系：noentry⟧{漂白剤|ひょうはくざい}: oxygen bleach — gentler and safe on colours and patterns\n\nCollocations:\n- {漂白剤|ひょうはくざい}⟦を→を：00422_wo⟧⟦{入|い}れる→入れる：01098_ireru⟧: to add bleach\n- {漂白剤|ひょうはくざい}⟦に→に：00314_ni⟧⟦つける→漬ける：09861_tsukeru⟧: to soak something in bleach\n- {漂白剤|ひょうはくざい}⟦{禁止|きんし}→禁止：02643_kinshi⟧: 'do not bleach' — the wording on a care label\n\nChlorine bleach must never be combined with acidic cleaners; Japanese products carry a prominent 「⟦まぜるな→混ぜる：02423_mazeru⟧⟦{危険|きけん}→危険：01141_kiken⟧」 ('do not mix — danger') warning for this reason.",
+  "notes": "{漂白剤|ひょうはくざい} is bleach — any whitening or stain-removing agent. Formation: ⟦{漂白|ひょうはく}→漂白：16995_hyouhaku⟧ 'bleaching' + ⟦{剤|ざい}→〜剤：30790_zai⟧ 'agent', the same suffix as in ⟦{洗剤|せんざい}→洗剤：03304_senzai⟧ and ⟦{柔軟剤|じゅうなんざい}→柔軟剤：07034_juunanzai⟧.\n\nJapanese households distinguish two kinds, and the label always says which:\n- ⟦{塩素|えんそ}→塩素：12143_enso⟧⟦{系|けい}→系：noentry⟧{漂白剤|ひょうはくざい}: chlorine bleach — powerful, whites only, will strip colour\n- ⟦{酸素|さんそ}→酸素：02830_sanso⟧⟦{系|けい}→系：noentry⟧{漂白剤|ひょうはくざい}: oxygen bleach — gentler and safe on colours and patterns\n\nCollocations:\n- {漂白剤|ひょうはくざい}⟦を→を：00422_wo⟧⟦{入|い}れる→入れる：01098_ireru⟧: to add bleach\n- {漂白剤|ひょうはくざい}⟦に→に：00314_ni⟧⟦つける→漬ける：09861_tsukeru⟧: to soak something in bleach\n- {漂白剤|ひょうはくざい}⟦{禁止|きんし}→禁止：02643_kinshi⟧: 'do not bleach' — the wording on a care label\n\nChlorine bleach must never be combined with acidic cleaners; Japanese products carry a prominent 「⟦まぜるな→混ぜる：02423_mazeru⟧⟦{危険|きけん}→危険：01141_kiken⟧」 ('do not mix — danger') warning for this reason.",
   "cross_references": [
     {
       "type": "related",
@@ -58,11 +58,18 @@
       "headword": "{柔軟剤|じゅうなんざい}",
       "label": "fabric softener",
       "target_id": "07034_juunanzai"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29515_dasshokuzai",
+      "reading": "だっしょくざい",
+      "headword": "{脱色剤|だっしょくざい}",
+      "label": "decolorizing agent"
     }
   ],
   "metadata": {
     "created": "2026-01-18T22:21:53Z",
-    "modified": "2026-08-27T12:46:01Z",
+    "modified": "2026-09-02T04:05:40Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

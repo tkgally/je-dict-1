@@ -3,7 +3,7 @@
   "headword": "{出産|しゅっさん}する",
   "reading": "しゅっさんする",
   "romaji": "shussansuru",
-  "part_of_speech": "verb",
+  "part_of_speech": "suru verb",
   "gloss": "to give birth",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26987_shussansuru_ex1",
-      "japanese": "{姉|あね}が{先月|せんげつ}{出産|しゅっさん}した。",
+      "japanese": "⟦{姉|あね}→姉：00571_ane⟧⟦が→が：00051_ga⟧⟦{先月|せんげつ}→先月：00751_sengetsu⟧{出産|しゅっさん}した。",
       "english": "My older sister gave birth last month.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26987_shussansuru_ex2",
-      "japanese": "{妻|つま}は{来年|らいねん}の{春|はる}に{出産|しゅっさん}する{予定|よてい}です。",
+      "japanese": "⟦{妻|つま}→妻：01005_tsuma⟧⟦は→は：00079_ha⟧⟦{来年|らいねん}→来年：00745_rainen⟧⟦の→の：09472_no⟧⟦{春|はる}→春：00627_haru⟧⟦に→に：00314_ni⟧{出産|しゅっさん}する⟦{予定|よてい}→予定：00824_yotei⟧です。",
       "english": "My wife is due to give birth next spring.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26987_shussansuru_ex3",
-      "japanese": "{初|はじ}めて{出産|しゅっさん}するときは{不安|ふあん}なことが{多|おお}いと{思|おも}います。",
+      "japanese": "⟦{初|はじ}めて→初めて：02932_hajimete⟧{出産|しゅっさん}するとき⟦は→は：00079_ha⟧⟦{不安|ふあん}→不安：00836_fuan⟧なこと⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧⟦と→と：00512_to⟧⟦{思|おも}います→思う：00492_omou⟧。",
       "english": "I think there are many things to worry about when giving birth for the first time.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "A somewhat formal or medical-register word for giving birth. In casual conversation, {産|う}む is more common. {出産|しゅっさん}する emphasizes the event of childbirth as a process.\n\nCOMMON COLLOCATIONS:\n- {出産予定日|しゅっさんよていび}: due date\n- {出産費用|しゅっさんひよう}: childbirth expenses\n- {出産祝|しゅっさんいわ}い: baby shower gift; congratulatory gift for a birth\n- {出産休暇|しゅっさんきゅうか}: maternity leave\n- {無事|ぶじ}に{出産|しゅっさん}する: to give birth safely\n\nSIMILAR WORDS:\n- {産|う}む: to give birth — more colloquial, also used for animals and figuratively for creating/producing\n- {分娩|ぶんべん}: delivery — medical term used by doctors and in hospitals",
+  "notes": "A somewhat formal or medical-register word for giving birth. In casual conversation, ⟦{産|う}む→産む：01899_umu⟧ is more common. {出産|しゅっさん}する emphasizes the event of childbirth as a process.\n\nCOMMON COLLOCATIONS:\n- ⟦{出産予定日|しゅっさんよていび}→出産予定日：30115_shussanyoteibi⟧: due date\n- {出産費用|しゅっさんひよう}: childbirth expenses\n- ⟦{出産祝|しゅっさんいわ}い→出産祝い：08660_shussaniwai⟧: baby shower gift; congratulatory gift for a birth\n- {出産休暇|しゅっさんきゅうか}: maternity leave\n- ⟦{無事|ぶじ}→無事：01602_buji⟧⟦に→に：00314_ni⟧{出産|しゅっさん}する: to give birth safely\n\nSIMILAR WORDS:\n- ⟦{産|う}む→産む：01899_umu⟧: to give birth — more colloquial, also used for animals and figuratively for creating/producing\n- ⟦{分娩|ぶんべん}→分娩：22801_bunben⟧: delivery — medical term used by doctors and in hospitals",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01899_umu",
+      "reading": "うむ",
+      "headword": "{産|う}む",
+      "label": "to give birth"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22801_bunben",
+      "reading": "ぶんべん",
+      "headword": "{分娩|ぶんべん}",
+      "label": "delivery"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -64,7 +80,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-06T13:08:01Z",
-    "modified": "2026-08-06T12:50:26Z"
+    "modified": "2026-09-02T04:02:28Z"
   },
   "conjugation": {
     "type": "suru",

@@ -69,7 +69,7 @@
     },
     {
       "id": "00609_sensei_ex6",
-      "japanese": "{田中|たなか}{先生|せんせい}⟦は→は：00079_ha⟧⟦どこ→どこ：00539_doko⟧⟦です→です：09485_desu⟧⟦か→か：09473_ka⟧？",
+      "japanese": "⟦{田中|たなか}→田中：09528_tanaka⟧{先生|せんせい}⟦は→は：00079_ha⟧⟦どこ→どこ：00539_doko⟧⟦です→です：09485_desu⟧⟦か→か：09473_ka⟧？",
       "english": "Where is Dr. Tanaka?",
       "notes": "Title for doctor",
       "has_audio": false,
@@ -109,7 +109,7 @@
     },
     {
       "id": "00609_sensei_ex10",
-      "japanese": "⟦あの→あの：00915_ano⟧{先生|せんせい}⟦は→は：00079_ha⟧⟦{有名|ゆうめい}→有名：01106_yuumei⟧な⟦{作家|さっか}→作家：01414_sakka⟧で、⟦{本|ほん}→本：00111_hon⟧⟦を→を：00422_wo⟧⟦たくさん→たくさん：00597_takusan⟧⟦{書|か}いていて→書く：00477_kaku⟧、⟦{毎年|まいとし}→毎年：00731_maitoshi⟧⟦{賞|しょう}→賞：03227_shou⟧⟦を→を：00422_wo⟧⟦もらっています→もらう：00520_morau⟧。",
+      "japanese": "⟦あの→あの：00915_ano⟧{先生|せんせい}⟦は→は：00079_ha⟧⟦{有名|ゆうめい}→有名：01106_yuumei⟧な⟦{作家|さっか}→作家：01414_sakka⟧⟦で→で：00502_de⟧、⟦{本|ほん}→本：00111_hon⟧⟦を→を：00422_wo⟧⟦たくさん→たくさん：00597_takusan⟧⟦{書|か}いていて→書く：00477_kaku⟧、⟦{毎年|まいとし}→毎年：00731_maitoshi⟧⟦{賞|しょう}→賞：03227_shou⟧⟦を→を：00422_wo⟧⟦もらっています→もらう：00520_morau⟧。",
       "english": "That writer is famous, has written many books, and receives awards every year.",
       "notes": "Also used for authors and artists",
       "has_audio": false,
@@ -118,7 +118,7 @@
       ]
     }
   ],
-  "notes": "{先生|せんせい} is a respectful title for teachers, doctors, and other professionals.\n\nUSAGE AS TITLE:\n- After names: {田中|たなか}{先生|せんせい} (Teacher/Dr. Tanaka)\n- Direct address: {先生|せんせい}、⟦{質問|しつもん}→質問：00888_shitsumon⟧⟦が→が：00051_ga⟧⟦あります→ある：00006_aru⟧。\n\nAPPLIES TO:\n- ⟦{教師|きょうし}→教師：03029_kyoushi⟧: teachers\n- ⟦{医者|いしゃ}→医者：02847_isha⟧: doctors\n- ⟦{弁護士|べんごし}→弁護士：03150_bengoshi⟧: lawyers\n- ⟦{作家|さっか}→作家：01414_sakka⟧: authors, artists\n- ⟦{政治家|せいじか}→政治家：03084_seijika⟧: politicians\n\nIMPORTANT:\nNever use {先生|せんせい} for yourself. Use ⟦{教師|きょうし}→教師：03029_kyoushi⟧ or ⟦{教員|きょういん}→教員：12942_kyouin⟧ instead.\n\nRELATED:\n- ⟦{生徒|せいと}→生徒：01051_seito⟧: student (of a {先生|せんせい})",
+  "notes": "{先生|せんせい} is a respectful title for teachers, doctors, and other professionals.\n\nUSAGE AS TITLE:\n- After names: ⟦{田中|たなか}→田中：09528_tanaka⟧{先生|せんせい} (Teacher/Dr. Tanaka)\n- Direct address: {先生|せんせい}、⟦{質問|しつもん}→質問：00888_shitsumon⟧⟦が→が：00051_ga⟧⟦あります→ある：00006_aru⟧。\n\nAPPLIES TO:\n- ⟦{教師|きょうし}→教師：03029_kyoushi⟧: teachers\n- ⟦{医者|いしゃ}→医者：02847_isha⟧: doctors\n- ⟦{弁護士|べんごし}→弁護士：03150_bengoshi⟧: lawyers\n- ⟦{作家|さっか}→作家：01414_sakka⟧: authors, artists\n- ⟦{政治家|せいじか}→政治家：03084_seijika⟧: politicians\n\nWATCH OUT:\nNever use {先生|せんせい} for yourself. Use ⟦{教師|きょうし}→教師：03029_kyoushi⟧ or ⟦{教員|きょういん}→教員：12942_kyouin⟧ instead.\n\nRELATED WORDS:\n- ⟦{生徒|せいと}→生徒：01051_seito⟧: student (of a {先生|せんせい})",
   "cross_references": [
     {
       "type": "related",
@@ -133,11 +133,53 @@
       "headword": "{学生|がくせい}",
       "target_id": "00610_gakusei",
       "label": "student"
+    },
+    {
+      "type": "related",
+      "target_id": "01051_seito",
+      "reading": "せいと",
+      "headword": "{生徒|せいと}",
+      "label": "student"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11851_ishi",
+      "reading": "いし",
+      "headword": "{医師|いし}",
+      "label": "doctor, physician"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20595_shihan",
+      "reading": "しはん",
+      "headword": "{師範|しはん}",
+      "label": "master instructor"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23281_tantoui",
+      "reading": "たんとうい",
+      "headword": "{担当医|たんとうい}",
+      "label": "doctor in charge"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25264_kyouikusha",
+      "reading": "きょういくしゃ",
+      "headword": "{教育者|きょういくしゃ}",
+      "label": "educator"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30765_kyouyu",
+      "reading": "きょうゆ",
+      "headword": "{教諭|きょうゆ}",
+      "label": "teacher (official title)"
     }
   ],
   "metadata": {
     "created": "2026-01-07T15:46:11Z",
-    "modified": "2026-05-12T13:16:23Z",
+    "modified": "2026-09-02T04:00:57Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

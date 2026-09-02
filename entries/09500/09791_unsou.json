@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "09791_unsou_ex1",
-      "japanese": "{運送|うんそう}{会社|かいしゃ}⟦に→に：00314_ni⟧{頼|たの}む。",
+      "japanese": "{運送|うんそう}⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦に→に：00314_ni⟧⟦{頼|たの}む→頼む：01104_tanomu⟧。",
       "english": "To ask a shipping company.",
       "has_audio": false,
       "sense_numbers": [
@@ -113,7 +113,7 @@
     },
     {
       "id": "09791_unsou_ex2",
-      "japanese": "{荷物|にもつ}⟦を→を：00422_wo⟧{運送|うんそう}⟦する→する：00392_suru⟧。",
+      "japanese": "⟦{荷物|にもつ}→荷物：00737_nimotsu⟧⟦を→を：00422_wo⟧{運送|うんそう}⟦する→する：00392_suru⟧。",
       "english": "To transport luggage/cargo.",
       "has_audio": false,
       "sense_numbers": [
@@ -122,7 +122,7 @@
     },
     {
       "id": "09791_unsou_ex3",
-      "japanese": "{運送|うんそう}{費|ひ}⟦が→が：00051_ga⟧{高|たか}い。",
+      "japanese": "{運送|うんそう}{費|ひ}⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧。",
       "english": "Shipping costs are high.",
       "has_audio": false,
       "sense_numbers": [
@@ -130,10 +130,10 @@
       ]
     }
   ],
-  "notes": "{運送|うんそう} refers to the commercial transportation of goods and cargo from one place to another, typically by truck, ship, or other vehicle. It focuses on the physical movement of items, not people.\n\nWORD FORMATION:\n{運|うん} (carry) + {送|そう} (send)\n\nCOMMON COLLOCATIONS:\n- {運送|うんそう}{会社|かいしゃ}: shipping/transport company\n- {運送|うんそう}{業|ぎょう}: transport industry\n- {運送|うんそう}{費|ひ}: shipping cost\n- {運送|うんそう}{業者|ぎょうしゃ}: freight carrier\n- {運送|うんそう}{契約|けいやく}: transportation contract\n\nSIMILAR WORDS:\n- {運送|うんそう}: commercial transport of goods (business focus)\n- {輸送|ゆそう}: transportation (broader, more formal, includes military)\n- {配送|はいそう}: delivery (final delivery to a destination)\n- {宅配|たくはい}: home delivery (specifically to residences)\n- {運搬|うんぱん}: carrying, conveyance (physical act of moving items)\n\nREGISTER:\nBusiness/commercial term. In everyday speech, people are more likely to say {届|とど}ける (to deliver) or {送|おく}る (to send).",
+  "notes": "{運送|うんそう} refers to the commercial transportation of goods and cargo from one place to another, typically by truck, ship, or other vehicle. It focuses on the physical movement of items, not people.\n\nFORMS:\n⟦{運|うん}→運：02143_un⟧ (carry) + {送|そう} (send)\n\nCOMMON COLLOCATIONS:\n- {運送|うんそう}⟦{会社|かいしゃ}→会社：00607_kaisha⟧: shipping/transport company\n- {運送|うんそう}{業|ぎょう}: transport industry\n- {運送|うんそう}{費|ひ}: shipping cost\n- {運送|うんそう}{業者|ぎょうしゃ}: freight carrier\n- {運送|うんそう}⟦{契約|けいやく}→契約：02698_keiyaku⟧: transportation contract\n\nSIMILAR WORDS:\n- {運送|うんそう}: commercial transport of goods (business focus)\n- ⟦{輸送|ゆそう}→輸送：04084_yusou⟧: transportation (broader, more formal, includes military)\n- ⟦{配送|はいそう}→配送：05464_haisou⟧: delivery (final delivery to a destination)\n- ⟦{宅配|たくはい}→宅配：09571_takuhai⟧: home delivery (specifically to residences)\n- ⟦{運搬|うんぱん}→運搬：09231_unpan⟧: carrying, conveyance (physical act of moving items)\n\nREGISTER:\nBusiness/commercial term. In everyday speech, people are more likely to say ⟦{届|とど}ける→届ける：01248_todokeru⟧ (to deliver) or ⟦{送|おく}る→送る：00742_okuru⟧ (to send).",
   "metadata": {
     "created": "2026-02-03T11:36:14Z",
-    "modified": "2026-04-04T12:31:47Z",
+    "modified": "2026-09-02T04:01:19Z",
     "ai_model": "claude-opus-4-5-20251101",
     "vocabulary_tier": "general",
     "tags": {
@@ -146,7 +146,8 @@
       "semantic": [
         "transportation"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   },
   "cross_references": [
@@ -170,6 +171,20 @@
       "reading": "たくはい",
       "headword": "{宅配|たくはい}",
       "label": "home delivery"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09231_unpan",
+      "reading": "うんぱん",
+      "headword": "{運搬|うんぱん}",
+      "label": "carrying, conveyance"
+    },
+    {
+      "type": "related",
+      "target_id": "09800_tsumini",
+      "reading": "つみに",
+      "headword": "{積|つ}み{荷|に}",
+      "label": "cargo"
     }
   ]
 }

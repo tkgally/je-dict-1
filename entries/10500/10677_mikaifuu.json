@@ -3,7 +3,7 @@
   "id": "10677_mikaifuu",
   "headword": "{未開封|みかいふう}",
   "reading": "みかいふう",
-  "part_of_speech": "noun, adjective (no)",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "unopened, sealed",
   "definitions": [
     {
@@ -15,41 +15,67 @@
   "examples": [
     {
       "id": "10677_mikaifuu_ex1",
-      "japanese": "{未開封|みかいふう}の{商品|しょうひん}のみ{返品|へんぴん}{可能|かのう}です。",
+      "japanese": "{未開封|みかいふう}⟦の→の：09472_no⟧⟦{商品|しょうひん}→商品：01436_shouhin⟧⟦のみ→のみ：06546_nomi⟧⟦{返品|へんぴん}→返品：05465_henpin⟧⟦{可能|かのう}→可能：00175_kanou⟧です。",
       "english": "Only unopened items can be returned.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10677_mikaifuu_ex2",
-      "japanese": "この{牛乳|ぎゅうにゅう}は{未開封|みかいふう}なら{一週間|いっしゅうかん}{持|も}つ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{牛乳|ぎゅうにゅう}→牛乳：00777_gyuunyuu⟧⟦は→は：00079_ha⟧{未開封|みかいふう}なら⟦{一週間|いっしゅうかん}→一週間：10979_isshuukan⟧⟦{持|も}つ→持つ：00478_motsu⟧。",
       "english": "This milk will keep for a week if left unopened.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10677_mikaifuu_ex3",
-      "japanese": "{押|お}し{入|い}れから{未開封|みかいふう}のまま{忘|わす}れられていた{荷物|にもつ}が{出|で}てきた。",
+      "japanese": "{押|お}し{入|い}れ⟦から→から：00504_kara⟧{未開封|みかいふう}⟦の→の：09472_no⟧まま⟦{忘|わす}れられていた→忘れる：00474_wasureru⟧⟦{荷物|にもつ}→荷物：00737_nimotsu⟧⟦が→が：00051_ga⟧⟦{出|で}て→出る：00513_deru⟧きた。",
       "english": "A package that had been forgotten while still unopened came out of the closet.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{未開封|みかいふう} means \"unopened\" or \"still sealed.\" It combines {未|み} (not yet) + {開封|かいふう} (opening a seal).\n\nCONTRAST:\n- {未開封|みかいふう}: unopened, still sealed\n- {開封|かいふう}{済|ず}み: already opened\n\nCOMMON PATTERNS:\n- {未開封|みかいふう}の{場合|ばあい}: in the case of being unopened\n- {未開封|みかいふう}のまま: while still unopened\n- {未開封|みかいふう}{品|ひん}: unopened item\n- {未開封|みかいふう}に{限|かぎ}り: only if unopened\n\nOTHER {未|み}～ WORDS:\n- {未使用|みしよう}: unused\n- {未読|みどく}: unread\n- {未完成|みかんせい}: incomplete, unfinished\n- {未定|みてい}: undecided, TBD\n\nNOTE:\nFrequently seen on return policies, food labeling, and online marketplace listings.",
-  "cross_references": [],
+  "notes": "{未開封|みかいふう} means \"unopened\" or \"still sealed.\" It combines ⟦{未|み}→未〜：00277_mi⟧ (not yet) + ⟦{開封|かいふう}→開封：16747_kaifuu⟧ (opening a seal).\n\nSIMILAR WORDS:\n- {未開封|みかいふう}: unopened, still sealed\n- ⟦{開封|かいふう}→開封：16747_kaifuu⟧⟦{済|ず}み→〜済み：04013_zumi⟧: already opened\n\nCOMMON PATTERNS:\n- {未開封|みかいふう}⟦の→の：09472_no⟧⟦{場合|ばあい}→場合：01704_baai⟧: in the case of being unopened\n- {未開封|みかいふう}⟦の→の：09472_no⟧まま: while still unopened\n- {未開封|みかいふう}⟦{品|ひん}→品：03712_hin⟧: unopened item\n- {未開封|みかいふう}⟦に→に：00314_ni⟧⟦{限|かぎ}り→限り：00133_kagiri⟧: only if unopened\n\nOTHER {未|み}～ WORDS:\n- ⟦{未使用|みしよう}→未使用：21316_mishiyou⟧: unused\n- ⟦{未読|みどく}→未読：07733_midoku⟧: unread\n- ⟦{未完成|みかんせい}→未完成：13066_mikansei⟧: incomplete, unfinished\n- ⟦{未定|みてい}→未定：14985_mitei⟧: undecided, TBD\n\nUSAGE:\nFrequently seen on return policies, food labeling, and online marketplace listings.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21316_mishiyou",
+      "reading": "みしよう",
+      "headword": "{未使用|みしよう}",
+      "label": "unused"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26539_shinpinmishiyou",
+      "reading": "しんぴんみしよう",
+      "headword": "{新品未使用|しんぴんみしよう}",
+      "label": "brand new, unused"
+    }
+  ],
   "metadata": {
     "created": "2026-02-09T02:36:47Z",
-    "modified": "2026-03-30T02:16:27Z",
+    "modified": "2026-09-02T04:01:22Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-no"],
+      "pos": [
+        "noun",
+        "adjective-no"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

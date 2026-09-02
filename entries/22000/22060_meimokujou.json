@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22060_meimokujou_ex1",
-      "japanese": "{名目上|めいもくじょう}は{社長|しゃちょう}だ。",
+      "japanese": "{名目上|めいもくじょう}⟦は→は：00079_ha⟧⟦{社長|しゃちょう}→社長：01428_shachou⟧だ。",
       "english": "He is president in name only.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22060_meimokujou_ex2",
-      "japanese": "{名目上|めいもくじょう}の{責任者|せきにんしゃ}は{彼|かれ}だが、{実際|じっさい}は{別|べつ}の{人|ひと}が{決|き}めている。",
+      "japanese": "{名目上|めいもくじょう}⟦の→の：09472_no⟧⟦{責任者|せきにんしゃ}→責任者：17175_sekininsha⟧⟦は→は：00079_ha⟧⟦{彼|かれ}→彼：01292_kare⟧だ⟦が→が：00051_ga⟧、⟦{実際|じっさい}→実際：02502_jissai⟧⟦は→は：00079_ha⟧⟦{別|べつ}→別：01216_betsu⟧⟦の→の：09472_no⟧⟦{人|ひと}→人：00476_hito⟧⟦が→が：00051_ga⟧⟦{決|き}めている→決める：00858_kimeru⟧。",
       "english": "He is the person in charge in name only, but in reality someone else makes the decisions.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22060_meimokujou_ex3",
-      "japanese": "その{会社|かいしゃ}は{名目上|めいもくじょう}{独立|どくりつ}しているが、{実質的|じっしつてき}には{親会社|おやがいしゃ}に{支配|しはい}されている。",
+      "japanese": "⟦その→その：00993_sono⟧⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦は→は：00079_ha⟧{名目上|めいもくじょう}⟦{独立|どくりつ}→独立：03488_dokuritsu⟧⟦している→する：00392_suru⟧⟦が→が：00051_ga⟧、⟦{実質的|じっしつてき}→実質的：06171_jisshitsuteki⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{親会社|おやがいしゃ}→親会社：19734_oyagaisha⟧⟦に→に：00314_ni⟧⟦{支配|しはい}→支配：01421_shihai⟧⟦されている→する：00392_suru⟧。",
       "english": "The company is nominally independent, but is effectively controlled by the parent company.",
       "sense_numbers": [
         1
@@ -44,14 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "An adverb indicating that something is true only in name or on paper, while the reality is different. Frequently used in business, politics, and organizational contexts to contrast official titles or statuses with actual power or function.\n\nCOMMON COLLOCATIONS:\n- {名目上|めいもくじょう}の{代表|だいひょう}: nominal representative\n- {名目上|めいもくじょう}は～だが: nominally ~ but...\n- {名目上|めいもくじょう}の{理由|りゆう}: ostensible reason\n\nSIMILAR WORDS:\n- {形式上|けいしきじょう} — formally; emphasizes official form/procedure rather than titles\n- {表向|おもてむ}き — outwardly; what is presented to the public\n- {実質的|じっしつてき}に — effectively; in substance (often used as the contrast)",
+  "notes": "An adverb indicating that something is true only in name or on paper, while the reality is different. Frequently used in business, politics, and organizational contexts to contrast official titles or statuses with actual power or function.\n\nCOMMON COLLOCATIONS:\n- {名目上|めいもくじょう}⟦の→の：09472_no⟧⟦{代表|だいひょう}→代表：03419_daihyou⟧: nominal representative\n- {名目上|めいもくじょう}⟦は→は：00079_ha⟧～だ⟦が→が：00051_ga⟧: nominally ~ but...\n- {名目上|めいもくじょう}⟦の→の：09472_no⟧⟦{理由|りゆう}→理由：01102_riyuu⟧: ostensible reason\n\nSIMILAR WORDS:\n- ⟦{形式上|けいしきじょう}→形式上：22071_keishikijou⟧ — formally; emphasizes official form/procedure rather than titles\n- ⟦{表向|おもてむ}き→表向き：17918_omotemuki⟧ — outwardly; what is presented to the public\n- ⟦{実質的|じっしつてき}→実質的：06171_jisshitsuteki⟧⟦に→に：00314_ni⟧ — effectively; in substance (often used as the contrast)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22071_keishikijou",
+      "reading": "けいしきじょう",
+      "headword": "{形式上|けいしきじょう}",
+      "label": "formally"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17918_omotemuki",
+      "reading": "おもてむき",
+      "headword": "{表向|おもてむ}き",
+      "label": "outwardly"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06171_jisshitsuteki",
+      "reading": "じっしつてき",
+      "headword": "{実質的|じっしつてき}",
+      "label": "effectively"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "adverb"
       ],
+      "politeness": "plain",
       "semantic": [
         "formal-language"
       ],
@@ -61,6 +85,6 @@
       ]
     },
     "created": "2026-04-04T22:15:22Z",
-    "modified": "2026-04-04T22:15:22Z"
+    "modified": "2026-09-02T04:02:06Z"
   }
 }

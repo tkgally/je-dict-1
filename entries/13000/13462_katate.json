@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "13462_katate_ex1",
-      "japanese": "{片手|かたて}で{持|も}てる。",
+      "japanese": "{片手|かたて}⟦で→で：00502_de⟧⟦{持|も}てる→持つ：00478_motsu⟧。",
       "english": "I can hold it with one hand.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13462_katate_ex2",
-      "japanese": "{彼|かれ}は{片手|かたて}にコーヒーを{持|も}って{歩|ある}いていた。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{片手|かたて}⟦に→に：00314_ni⟧⟦コーヒー→コーヒー：00789_koohii⟧⟦を→を：00422_wo⟧⟦{持|も}って→持つ：00478_motsu⟧⟦{歩|ある}いていた→歩く：00538_aruku⟧。",
       "english": "He was walking with a coffee in one hand.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13462_katate_ex3",
-      "japanese": "{片手|かたて}で{運転|うんてん}するのは{危|あぶ}ないからやめてほしい。",
+      "japanese": "{片手|かたて}⟦で→で：00502_de⟧⟦{運転|うんてん}する→運転する：20318_untensuru⟧⟦の→の：09472_no⟧⟦は→は：00079_ha⟧⟦{危|あぶ}ない→危ない：00768_abunai⟧⟦から→から：00504_kara⟧⟦やめて→やめる：00909_yameru⟧ほしい。",
       "english": "I wish you would stop driving with one hand because it's dangerous.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nOften used with the particle で to describe how an action is performed: {片手|かたて}で (with one hand). Also used with に to describe what is being held: {片手|かたて}に{傘|かさ}を{持|も}つ (to hold an umbrella in one hand). The expression {片手|かたて}{間|ま} describes doing something casually or as a side activity.\n\nCOMMON COLLOCATIONS:\n- {片手|かたて}で{持|も}つ: to hold with one hand\n- {片手|かたて}に: in one hand\n- {片手|かたて}{操作|そうさ}: one-handed operation\n- {片手|かたて}{落|お}ち: one hand down (sumo); inferior version",
+  "notes": "USAGE:\nOften used with the particle で to describe how an action is performed: {片手|かたて}⟦で→で：00502_de⟧ (with one hand). Also used with ⟦に→に：00314_ni⟧ to describe what is being held: {片手|かたて}⟦に→に：00314_ni⟧⟦{傘|かさ}→傘：00639_kasa⟧⟦を→を：00422_wo⟧⟦{持|も}つ→持つ：00478_motsu⟧ (to hold an umbrella in one hand). The expression {片手|かたて}{間|ま} describes doing something casually or as a side activity.\n\nCOMMON COLLOCATIONS:\n- {片手|かたて}⟦で→で：00502_de⟧⟦{持|も}つ→持つ：00478_motsu⟧: to hold with one hand\n- {片手|かたて}⟦に→に：00314_ni⟧: in one hand\n- {片手|かたて}⟦{操作|そうさ}→操作：03316_sousa⟧: one-handed operation\n- {片手|かたて}{落|お}ち: one hand down (sumo); inferior version",
   "prominent_see_also": [
     {
       "target_id": "09518_ryoute",
@@ -54,18 +60,36 @@
       "reading": "かたほう",
       "headword": "{片方|かたほう}",
       "label": "one side"
+    },
+    {
+      "type": "related",
+      "target_id": "20229_katame",
+      "reading": "かため",
+      "headword": "{片目|かため}",
+      "label": "one eye"
+    },
+    {
+      "type": "related",
+      "target_id": "26319_katamimi",
+      "reading": "かたみみ",
+      "headword": "{片耳|かたみみ}",
+      "label": "one ear"
     }
   ],
   "metadata": {
     "created": "2026-02-24T13:29:04Z",
-    "modified": "2026-04-29T04:08:17Z",
+    "modified": "2026-09-02T04:01:33Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["body-part"]
+      "semantic": [
+        "body-part"
+      ]
     }
   }
 }

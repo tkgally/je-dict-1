@@ -44,7 +44,7 @@
     },
     {
       "id": "03986_deshi_ex4",
-      "japanese": "⟦{若|わか}い→若い：00823_wakai⟧⟦ころ→〜ころ：03091_koro⟧⟦に→に：00314_ni⟧{弟子|でし}{入|い}りして、⟦{何年|なんねん}→何年：12737_nannen⟧⟦も→も：00484_mo⟧⟦{修行|しゅぎょう}した→修行：05522_shugyou⟧。",
+      "japanese": "⟦{若|わか}い→若い：00823_wakai⟧⟦ころ→〜ころ：03091_koro⟧⟦に→に：00314_ni⟧{弟子|でし}{入|い}り⟦して→する：00392_suru⟧、⟦{何年|なんねん}→何年：12737_nannen⟧⟦も→も：00484_mo⟧⟦{修行|しゅぎょう}した→修行：05522_shugyou⟧。",
       "english": "I became an apprentice when I was young and trained for many years.",
       "notes": null,
       "has_audio": false,
@@ -54,7 +54,7 @@
     },
     {
       "id": "03986_deshi_ex5",
-      "japanese": "⟦その→その：00993_sono⟧⟦{師匠|ししょう}→師匠：12421_shishou⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{弟子|でし}⟦が→が：00051_ga⟧⟦{大勢|おおぜい}→大勢：02850_oozei⟧いるが、⟦{一番|いちばん}→一番：01140_ichiban⟧{弟子|でし}⟦は→は：00079_ha⟧⟦{特|とく}に→特に：01260_tokuni⟧⟦{腕|うで}→腕：01006_ude⟧がいいと⟦{言|い}われている→言う：00515_iu⟧。",
+      "japanese": "⟦その→その：00993_sono⟧⟦{師匠|ししょう}→師匠：12421_shishou⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{弟子|でし}⟦が→が：00051_ga⟧⟦{大勢|おおぜい}→大勢：02850_oozei⟧⟦いる→いる：00495_iru⟧⟦が→が：00051_ga⟧、⟦{一番|いちばん}→一番：01140_ichiban⟧{弟子|でし}⟦は→は：00079_ha⟧⟦{特|とく}に→特に：01260_tokuni⟧⟦{腕|うで}→腕：01006_ude⟧⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧⟦と→と：00512_to⟧⟦{言|い}われている→言う：00515_iu⟧。",
       "english": "That master has many disciples, but the top disciple is said to be especially skilled.",
       "notes": null,
       "has_audio": false,
@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "USAGE: More formal than ⟦{生徒|せいと}→生徒：01051_seito⟧ (student) and implies a traditional master-apprentice relationship.\n\nCOMMON EXPRESSIONS:\n・{弟子|でし}{入|い}りする (to become an apprentice)\n・⟦{内|うち}{弟子|でし}→内弟子：noentry⟧ (live-in apprentice)\n・⟦{高|たか}{弟|でい}→高弟：noentry⟧ (top disciple, senior student)\n\nCONTRAST:\n・⟦{師匠|ししょう}→師匠：12421_shishou⟧ (master) - the teacher in this relationship\n・⟦{生徒|せいと}→生徒：01051_seito⟧ - student (more general, school context)\n・⟦{門下生|もんかせい}→門下生：17733_monkasei⟧ - student of a school/tradition",
+  "notes": "USAGE: More formal than ⟦{生徒|せいと}→生徒：01051_seito⟧ (student) and implies a traditional master-apprentice relationship.\n\nCOMMON EXPRESSIONS:\n- {弟子|でし}{入|い}り⟦する→する：00392_suru⟧ (to become an apprentice)\n- ⟦{内|うち}{弟子|でし}→内弟子：noentry⟧ (live-in apprentice)\n- ⟦{高|たか}{弟|でい}→高弟：noentry⟧ (top disciple, senior student)\n\nSIMILAR WORDS:\n- ⟦{師匠|ししょう}→師匠：12421_shishou⟧ (master) - the teacher in this relationship\n- ⟦{生徒|せいと}→生徒：01051_seito⟧ - student (more general, school context)\n- ⟦{門下生|もんかせい}→門下生：17733_monkasei⟧ - student of a school/tradition",
   "cross_references": [
     {
       "type": "antonym",
@@ -71,11 +71,67 @@
       "headword": "{師匠|ししょう}",
       "label": "master",
       "target_id": "12421_shishou"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01051_seito",
+      "reading": "せいと",
+      "headword": "{生徒|せいと}",
+      "label": "student"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17733_monkasei",
+      "reading": "もんかせい",
+      "headword": "{門下生|もんかせい}",
+      "label": "student of a school/tradition"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12874_oshiego",
+      "reading": "おしえご",
+      "headword": "{教|おし}え{子|ご}",
+      "label": "pupil, student, protege"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19895_kobun",
+      "reading": "こぶん",
+      "headword": "{子分|こぶん}",
+      "label": "follower, henchman"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21826_totei",
+      "reading": "とてい",
+      "headword": "{徒弟|とてい}",
+      "label": "apprentice"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21880_shitei",
+      "reading": "してい",
+      "headword": "{師弟|してい}",
+      "label": "master and disciple"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23488_monka",
+      "reading": "もんか",
+      "headword": "{門下|もんか}",
+      "label": "pupil"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24440_monjin",
+      "reading": "もんじん",
+      "headword": "{門人|もんじん}",
+      "label": "disciple"
     }
   ],
   "metadata": {
     "created": "2026-01-13T07:50:37Z",
-    "modified": "2026-05-28T16:14:48Z",
+    "modified": "2026-09-02T04:01:04Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

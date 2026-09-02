@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "02433_mokuteki_ex1",
-      "japanese": "{目的|もくてき}⟦は→は：00079_ha⟧⟦{何|なん}→何：00498_nani⟧ですか。",
+      "japanese": "{目的|もくてき}⟦は→は：00079_ha⟧⟦{何|なん}→何：00498_nani⟧です⟦か→か：09473_ka⟧。",
       "english": "What is the purpose?",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "02433_mokuteki_ex2",
-      "japanese": "⟦{旅行|りょこう}→旅行：00748_ryokou⟧⟦の→の：09472_no⟧{目的|もくてき}⟦は→は：00079_ha⟧⟦{何|なん}→何：00498_nani⟧ですか。",
+      "japanese": "⟦{旅行|りょこう}→旅行：00748_ryokou⟧⟦の→の：09472_no⟧{目的|もくてき}⟦は→は：00079_ha⟧⟦{何|なん}→何：00498_nani⟧です⟦か→か：09473_ka⟧。",
       "english": "What's the purpose of your trip?",
       "notes": null,
       "has_audio": false,
@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "{目的|もくてき} means purpose or objective - the reason for doing something or what one aims to achieve.\n\nCOMMON EXPRESSIONS:\n- {目的|もくてき}を⟦{達成|たっせい}→達成：04816_tassei⟧⟦する→する：00392_suru⟧: to achieve one's objective\n- ⟦{目的|もくてき}{地|ち}→目的地：09996_mokutekichi⟧: destination\n- {目的|もくてき}⟦{意識|いしき}→意識：01714_ishiki⟧: sense of purpose\n- ～を{目的|もくてき}として: with the purpose of ~\n\nPATTERNS:\n- ～の{目的|もくてき}は{何|なん}ですか: What is the purpose of ~?\n- {目的|もくてき}を⟦{持|も}って→持つ：00478_motsu⟧: with a purpose\n\nCONTRAST:\n- ⟦{目標|もくひょう}→目標：03631_mokuhyou⟧: goal, target (more concrete/measurable)\n- ⟦{狙|ねら}い→狙い：00312_nerai⟧: aim (intention behind an action)\n- ⟦{理由|りゆう}→理由：01102_riyuu⟧: reason (cause rather than aim)",
+  "notes": "{目的|もくてき} means purpose or objective - the reason for doing something or what one aims to achieve.\n\nCOMMON EXPRESSIONS:\n- {目的|もくてき}⟦を→を：00422_wo⟧⟦{達成|たっせい}→達成：04816_tassei⟧⟦する→する：00392_suru⟧: to achieve one's objective\n- ⟦{目的|もくてき}{地|ち}→目的地：09996_mokutekichi⟧: destination\n- {目的|もくてき}⟦{意識|いしき}→意識：01714_ishiki⟧: sense of purpose\n- ～⟦を→を：00422_wo⟧{目的|もくてき}⟦として→として：06802_toshite⟧: with the purpose of ~\n\nCOMMON PATTERNS:\n- ～⟦の→の：09472_no⟧{目的|もくてき}⟦は→は：00079_ha⟧⟦{何|なん}→何〜：03100_nan⟧です⟦か→か：09473_ka⟧: What is the purpose of ~?\n- {目的|もくてき}⟦を→を：00422_wo⟧⟦{持|も}って→持つ：00478_motsu⟧: with a purpose\n\nSIMILAR WORDS:\n- ⟦{目標|もくひょう}→目標：03631_mokuhyou⟧: goal, target (more concrete/measurable)\n- ⟦{狙|ねら}い→狙い：00312_nerai⟧: aim (intention behind an action)\n- ⟦{理由|りゆう}→理由：01102_riyuu⟧: reason (cause rather than aim)",
   "cross_references": [
     {
       "type": "contrast",
@@ -78,11 +78,46 @@
       "reading": "ねらい",
       "headword": "{狙|ねら}い",
       "label": "aim, intention"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01102_riyuu",
+      "reading": "りゆう",
+      "headword": "{理由|りゆう}",
+      "label": "reason"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03845_gooru",
+      "reading": "ごーる",
+      "headword": "ゴール",
+      "label": "goal"
+    },
+    {
+      "type": "related",
+      "target_id": "04089_youto",
+      "reading": "ようと",
+      "headword": "{用途|ようと}",
+      "label": "use, purpose, application"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05629_shushi",
+      "reading": "しゅし",
+      "headword": "{趣旨|しゅし}",
+      "label": "gist"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12625_ito",
+      "reading": "いと",
+      "headword": "{意図|いと}",
+      "label": "intention, aim, purpose"
     }
   ],
   "metadata": {
     "created": "2026-01-09T08:58:32Z",
-    "modified": "2026-06-11T18:03:17Z",
+    "modified": "2026-09-02T04:01:01Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "core",
     "tags": {

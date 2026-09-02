@@ -3,7 +3,7 @@
   "headword": "{果|は}てしない",
   "reading": "はてしない",
   "romaji": "hateshinai",
-  "part_of_speech": "adjective-i",
+  "part_of_speech": "i-adjective",
   "gloss": "boundless; endless; limitless",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21980_hateshinai_ex1",
-      "japanese": "{果|は}てしない{大地|だいち}が{広|ひろ}がっている。",
+      "japanese": "{果|は}てしない⟦{大地|だいち}→大地：12187_daichi⟧⟦が→が：00051_ga⟧⟦{広|ひろ}がっている→広がる：01980_hirogaru⟧。",
       "english": "Boundless land stretches out.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21980_hateshinai_ex2",
-      "japanese": "{果|は}てしない{議論|ぎろん}が{続|つづ}いている。",
+      "japanese": "{果|は}てしない⟦{議論|ぎろん}→議論：02650_giron⟧⟦が→が：00051_ga⟧⟦{続|つづ}いている→続く：00903_tsuzuku⟧。",
       "english": "An endless debate continues.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21980_hateshinai_ex3",
-      "japanese": "{宇宙|うちゅう}の{果|は}てしない{広|ひろ}がりを{想像|そうぞう}すると、{自分|じぶん}の{小|ちい}ささを{感|かん}じる。",
+      "japanese": "⟦{宇宙|うちゅう}→宇宙：01861_uchuu⟧⟦の→の：09472_no⟧{果|は}てしない{広|ひろ}がり⟦を→を：00422_wo⟧⟦{想像|そうぞう}する→想像する：06060_souzousuru⟧⟦と→と：00512_to⟧、⟦{自分|じぶん}→自分：02887_jibun⟧⟦の→の：09472_no⟧{小|ちい}ささ⟦を→を：00422_wo⟧⟦{感|かん}じる→感じる：02044_kanjiru⟧。",
       "english": "When I imagine the boundless expanse of the universe, I feel how small I am.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Derived from {果|は}てる (to end, to be exhausted) + しない (not). Literally 'does not end.' Despite being formed from a verb, it functions as an i-adjective and modifies nouns directly.\n\nCOMMON COLLOCATIONS:\n- {果|は}てしない{旅|たび}: an endless journey\n- {果|は}てしない{議論|ぎろん}: an endless debate\n- {果|は}てしない{努力|どりょく}: endless effort\n- {果|は}てしない{広|ひろ}がり: boundless expanse\n- {果|は}てしなく{続|つづ}く: to continue endlessly\n\nSIMILAR WORDS:\n- {終|お}わりのない: never-ending — more everyday and conversational; {果|は}てしない is more literary and evocative\n- {限|かぎ}りない: limitless, boundless — very similar; slightly more formal\n- {永遠|えいえん}の: eternal — focuses on time; {果|は}てしない can apply to space, time, or abstract concepts\n- {際限|さいげん}のない: unlimited — more formal; often used for quantities or processes",
+  "notes": "Derived from ⟦{果|は}てる→果てる：28565_hateru⟧ (to end, to be exhausted) + ⟦しない→する：00392_suru⟧ (not). Literally 'does not end.' Despite being formed from a verb, it functions as an i-adjective and modifies nouns directly.\n\nCOMMON COLLOCATIONS:\n- {果|は}てしない⟦{旅|たび}→旅：03407_tabi⟧: an endless journey\n- {果|は}てしない⟦{議論|ぎろん}→議論：02650_giron⟧: an endless debate\n- {果|は}てしない⟦{努力|どりょく}→努力：03490_doryoku⟧: endless effort\n- {果|は}てしない{広|ひろ}がり: boundless expanse\n- {果|は}てしなく⟦{続|つづ}く→続く：00903_tsuzuku⟧: to continue endlessly\n\nSIMILAR WORDS:\n- ⟦{終|お}わり→終わり：01361_owari⟧⟦の→の：09472_no⟧⟦ない→ない：01118_nai⟧: never-ending — more everyday and conversational; {果|は}てしない is more literary and evocative\n- {限|かぎ}りない: limitless, boundless — very similar; slightly more formal\n- ⟦{永遠|えいえん}→永遠：01873_eien⟧⟦の→の：09472_no⟧: eternal — focuses on time; {果|は}てしない can apply to space, time, or abstract concepts\n- ⟦{際限|さいげん}→際限：14535_saigen⟧⟦の→の：09472_no⟧⟦ない→ない：01118_nai⟧: unlimited — more formal; often used for quantities or processes",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22889_kiriganai",
+      "reading": "きりがない",
+      "headword": "{切|き}りがない",
+      "label": "endless"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23312_sokoshirenai",
+      "reading": "そこしれない",
+      "headword": "{底知|そこし}れない",
+      "label": "bottomless"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,7 +75,7 @@
       ]
     },
     "created": "2026-04-04T18:28:53Z",
-    "modified": "2026-07-30T03:35:34Z"
+    "modified": "2026-09-02T04:02:06Z"
   },
   "conjugation": {
     "type": "i-adjective",

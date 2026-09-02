@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "15311_danshikou_ex1",
-      "japanese": "{彼|かれ}は{男子校|だんしこう}に{通|かよ}っている。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{男子校|だんしこう}⟦に→に：00314_ni⟧⟦{通|かよ}っている→通う：01217_kayou⟧。",
       "english": "He attends a boys' school.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "15311_danshikou_ex2",
-      "japanese": "{男子校|だんしこう}から{共学|きょうがく}に{変|か}わる{学校|がっこう}が{増|ふ}えている。",
+      "japanese": "{男子校|だんしこう}⟦から→から：00504_kara⟧⟦{共学|きょうがく}→共学：15412_kyougaku⟧⟦に→に：00314_ni⟧⟦{変|か}わる→変わる：00714_kawaru⟧⟦{学校|がっこう}→学校：00055_gakkou⟧⟦が→が：00051_ga⟧⟦{増|ふ}えている→増える：01183_fueru⟧。",
       "english": "More and more schools are changing from all-boys to co-ed.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "15311_danshikou_ex3",
-      "japanese": "{男子校|だんしこう}で{六年間|ろくねんかん}{過|す}ごしたので、{大学|だいがく}に{入|はい}るまで{女子|じょし}と{話|はな}す{機会|きかい}がほとんどなかった。",
+      "japanese": "{男子校|だんしこう}⟦で→で：00502_de⟧{六年間|ろくねんかん}⟦{過|す}ごした→過ごす：02062_sugosu⟧⟦の→の：09472_no⟧で、⟦{大学|だいがく}→大学：00608_daigaku⟧⟦に→に：00314_ni⟧⟦{入|はい}る→入る：00494_hairu⟧⟦まで→まで：00490_made⟧⟦{女子|じょし}→女子：03350_joshi⟧⟦と→と：00512_to⟧⟦{話|はな}す→話す：00467_hanasu⟧⟦{機会|きかい}→機会：01302_kikai⟧⟦が→が：00051_ga⟧⟦ほとんど→ほとんど：00847_hotondo⟧⟦なかった→ない：01118_nai⟧。",
       "english": "Since I spent six years at an all-boys school, I had almost no opportunity to talk with girls until I entered university.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{男子校|だんしこう} is short for {男子|だんし}{学校|がっこう}. In Japan, single-sex schools are primarily private and often have long histories and traditions.\n\nRELATED TERMS:\n- {女子校|じょしこう} (girls' school)\n- {共学|きょうがく} (co-educational school)\n- {別学|べつがく} (single-sex education)\n\nNOTE:\nMany traditional {男子校|だんしこう} in Japan have been converting to {共学|きょうがく} in recent decades due to declining birth rates and changing social norms.",
+  "notes": "USAGE:\n{男子校|だんしこう} is short for ⟦{男子|だんし}→男子：03425_danshi⟧⟦{学校|がっこう}→学校：00055_gakkou⟧. In Japan, single-sex schools are primarily private and often have long histories and traditions.\nMany traditional {男子校|だんしこう} in Japan have been converting to ⟦{共学|きょうがく}→共学：15412_kyougaku⟧ in recent decades due to declining birth rates and changing social norms.\n\nRELATED WORDS:\n- ⟦{女子校|じょしこう}→女子校：22046_joshikou⟧ (girls' school)\n- ⟦{共学|きょうがく}→共学：15412_kyougaku⟧ (co-educational school)\n- {別学|べつがく} (single-sex education)",
   "cross_references": [
     {
       "type": "antonym",
@@ -52,11 +52,25 @@
       "reading": "じょしこう",
       "headword": "{女子校|じょしこう}",
       "label": "girls' school"
+    },
+    {
+      "type": "related",
+      "target_id": "15412_kyougaku",
+      "reading": "きょうがく",
+      "headword": "{共学|きょうがく}",
+      "label": "co-educational school"
+    },
+    {
+      "type": "related",
+      "target_id": "24527_danjobetsugaku",
+      "reading": "だんじょべつがく",
+      "headword": "{男女別学|だんじょべつがく}",
+      "label": "single-sex education"
     }
   ],
   "metadata": {
     "created": "2026-03-06T08:58:53Z",
-    "modified": "2026-05-01T06:14:09Z",
+    "modified": "2026-09-02T04:01:40Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

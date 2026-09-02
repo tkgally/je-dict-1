@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30651_kakushibouchou_ex1",
-      "japanese": "{大根|だいこん}に{隠|かく}し{包丁|ぼうちょう}を{入|い}れる。",
+      "japanese": "⟦{大根|だいこん}→大根：05186_daikon⟧⟦に→に：00314_ni⟧{隠|かく}し{包丁|ぼうちょう}⟦を→を：00422_wo⟧⟦{入|い}れる→入れる：01098_ireru⟧。",
       "english": "Score the underside of the daikon.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30651_kakushibouchou_ex2",
-      "japanese": "{隠|かく}し{包丁|ぼうちょう}を{入|い}れると{味|あじ}がしみやすくなる。",
+      "japanese": "{隠|かく}し{包丁|ぼうちょう}⟦を→を：00422_wo⟧⟦{入|い}れる→入れる：01098_ireru⟧⟦と→と：00512_to⟧⟦{味|あじ}→味：00826_aji⟧⟦が→が：00051_ga⟧しみやすく⟦なる→なる：01970_naru⟧。",
       "english": "Making hidden cuts helps the flavor soak in.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30651_kakushibouchou_ex3",
-      "japanese": "{裏側|うらがわ}に{十字|じゅうじ}の{隠|かく}し{包丁|ぼうちょう}を{入|い}れておくと、{煮崩|にくず}れせずに{中|なか}まで{火|ひ}が{通|とお}る。",
+      "japanese": "⟦{裏側|うらがわ}→裏側：03042_uragawa⟧⟦に→に：00314_ni⟧⟦{十字|じゅうじ}→十字：11919_juuji⟧⟦の→の：09472_no⟧{隠|かく}し{包丁|ぼうちょう}⟦を→を：00422_wo⟧⟦{入|い}れて→入れる：01098_ireru⟧おく⟦と→と：00512_to⟧、{煮崩|にくず}れせず⟦に→に：00314_ni⟧⟦{中|なか}→中：00654_naka⟧⟦まで→まで：00490_made⟧⟦{火|ひ}→火：02248_hi⟧⟦が→が：00051_ga⟧⟦{通|とお}る→通る：01243_tooru⟧。",
       "english": "If you cut a cross on the underside beforehand, it cooks through without falling apart.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Literally \"hidden knife.\" Here {包丁|ぼうちょう} stands for the cut made with the knife, not the knife itself.\n\nCOMMON COLLOCATIONS:\n- {隠|かく}し{包丁|ぼうちょう}を{入|い}れる: to make hidden cuts (the standard verb)\n- {十字|じゅうじ}の{隠|かく}し{包丁|ぼうちょう}: a cross-shaped scoring cut\n- {裏|うら}に{隠|かく}し{包丁|ぼうちょう}: cuts on the underside\n\nSIMILAR WORDS:\n- {飾|かざ}り{包丁|ぼうちょう}: decorative cuts — meant to be seen, for appearance\n- {切|き}り{込|こ}み: a slit, an incision — the general word for a cut into something",
+  "notes": "Literally \"hidden knife.\" Here {包丁|ぼうちょう} stands for the cut made with the knife, not the knife itself.\n\nCOMMON COLLOCATIONS:\n- {隠|かく}し{包丁|ぼうちょう}⟦を→を：00422_wo⟧⟦{入|い}れる→入れる：01098_ireru⟧: to make hidden cuts (the standard verb)\n- ⟦{十字|じゅうじ}→十字：11919_juuji⟧⟦の→の：09472_no⟧{隠|かく}し{包丁|ぼうちょう}: a cross-shaped scoring cut\n- ⟦{裏|うら}→裏：02178_ura⟧⟦に→に：00314_ni⟧{隠|かく}し{包丁|ぼうちょう}: cuts on the underside\n\nSIMILAR WORDS:\n- ⟦{飾|かざ}り{包丁|ぼうちょう}→飾り包丁：30656_kazaribouchou⟧: decorative cuts — meant to be seen, for appearance\n- ⟦{切|き}り{込|こ}み→切り込み：30657_kirikomi⟧: a slit, an incision — the general word for a cut into something",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "30656_kazaribouchou",
+      "reading": "かざりぼうちょう",
+      "headword": "{飾|かざ}り{包丁|ぼうちょう}",
+      "label": "decorative cuts"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30657_kirikomi",
+      "reading": "きりこみ",
+      "headword": "{切|き}り{込|こ}み",
+      "label": "a slit, an incision"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +69,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "cooking",
         "food"
@@ -61,6 +77,6 @@
       "domain": []
     },
     "created": "2026-08-14T15:52:31Z",
-    "modified": "2026-08-14T15:52:31Z"
+    "modified": "2026-09-02T04:02:41Z"
   }
 }

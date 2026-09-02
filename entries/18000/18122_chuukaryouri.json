@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "18122_chuukaryouri_ex1",
-      "japanese": "{中華料理|ちゅうかりょうり}が{食|た}べたい。",
+      "japanese": "{中華料理|ちゅうかりょうり}⟦が→が：00051_ga⟧⟦{食|た}べたい→食べる：00396_taberu⟧。",
       "english": "I want to eat Chinese food.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18122_chuukaryouri_ex2",
-      "japanese": "この{辺|あた}りで{美味|おい}しい{中華料理|ちゅうかりょうり}の{店|みせ}はありますか。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{辺|あた}り→辺り：01770_atari⟧⟦で→で：00502_de⟧⟦{美味|おい}しい→美味しい：00740_oishii⟧{中華料理|ちゅうかりょうり}⟦の→の：09472_no⟧⟦{店|みせ}→店：00497_mise⟧⟦は→は：00079_ha⟧⟦あります→ある：00006_aru⟧⟦か→か：09473_ka⟧。",
       "english": "Is there a good Chinese restaurant around here?",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18122_chuukaryouri_ex3",
-      "japanese": "{横浜|よこはま}の{中華街|ちゅうかがい}には{本格的|ほんかくてき}な{中華料理|ちゅうかりょうり}を{出|だ}す{店|みせ}がたくさんある。",
+      "japanese": "⟦{横浜|よこはま}→横浜：28138_yokohama⟧⟦の→の：09472_no⟧⟦{中華街|ちゅうかがい}→中華街：11353_chuukagai⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{本格的|ほんかくてき}→本格的：05681_honkakuteki⟧な{中華料理|ちゅうかりょうり}⟦を→を：00422_wo⟧⟦{出|だ}す→出す：01087_dasu⟧⟦{店|みせ}→店：00497_mise⟧⟦が→が：00051_ga⟧⟦たくさん→たくさん：00597_takusan⟧⟦ある→ある：00006_aru⟧。",
       "english": "In Yokohama's Chinatown, there are many restaurants that serve authentic Chinese cuisine.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nIn Japan, {中華料理|ちゅうかりょうり} and {中国料理|ちゅうごくりょうり} are sometimes distinguished. {中華料理|ちゅうかりょうり} often refers to Chinese food as adapted for Japanese tastes, while {中国料理|ちゅうごくりょうり} may refer to more traditional Chinese cooking. However, this distinction is not always observed.\n\nCOMMON COLLOCATIONS:\n- {中華料理|ちゅうかりょうり}の{店|みせ} (Chinese restaurant)\n- {中華料理|ちゅうかりょうり}を{作|つく}る (to cook Chinese food)\n- {本格的|ほんかくてき}な{中華料理|ちゅうかりょうり} (authentic Chinese cuisine)\n\nSIMILAR WORDS:\n- {中華|ちゅうか}: casual, shortened form often used in everyday speech\n- {中国料理|ちゅうごくりょうり}: may imply more traditional or regional Chinese cooking",
+  "notes": "USAGE:\nIn Japan, {中華料理|ちゅうかりょうり} and {中国料理|ちゅうごくりょうり} are sometimes distinguished. {中華料理|ちゅうかりょうり} often refers to Chinese food as adapted for Japanese tastes, while {中国料理|ちゅうごくりょうり} may refer to more traditional Chinese cooking. However, this distinction is not always observed.\n\nCOMMON COLLOCATIONS:\n- {中華料理|ちゅうかりょうり}⟦の→の：09472_no⟧⟦{店|みせ}→店：00497_mise⟧ (Chinese restaurant)\n- {中華料理|ちゅうかりょうり}⟦を→を：00422_wo⟧⟦{作|つく}る→作る：00481_tsukuru⟧ (to cook Chinese food)\n- ⟦{本格的|ほんかくてき}→本格的：05681_honkakuteki⟧な{中華料理|ちゅうかりょうり} (authentic Chinese cuisine)\n\nSIMILAR WORDS:\n- ⟦{中華|ちゅうか}→中華：11322_chuuka⟧: casual, shortened form often used in everyday speech\n- {中国料理|ちゅうごくりょうり}: may imply more traditional or regional Chinese cooking",
   "cross_references": [
     {
       "type": "related",
@@ -46,18 +52,50 @@
       "reading": "ちゅうか",
       "headword": "{中華|ちゅうか}",
       "label": "casual short form"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19425_nihonryouri",
+      "reading": "にほんりょうり",
+      "headword": "{日本料理|にほんりょうり}",
+      "label": "Japanese cuisine"
+    },
+    {
+      "type": "related",
+      "target_id": "20099_yamucha",
+      "reading": "やむちゃ",
+      "headword": "{飲茶|やむちゃ}",
+      "label": "dim sum"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24510_furansuryouri",
+      "reading": "ふらんすりょうり",
+      "headword": "フランス{料理|りょうり}",
+      "label": "French cuisine"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25590_kankokuryouri",
+      "reading": "かんこくりょうり",
+      "headword": "{韓国料理|かんこくりょうり}",
+      "label": "Korean cuisine"
     }
   ],
   "metadata": {
     "created": "2026-03-20T06:39:15Z",
-    "modified": "2026-05-08T05:05:08Z",
+    "modified": "2026-09-02T04:01:51Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food"]
+      "semantic": [
+        "food"
+      ]
     }
   }
 }

@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "16875_awaremu_ex1",
-      "japanese": "{彼|かれ}の{境遇|きょうぐう}を{憐|あわ}れんだ。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧⟦{境遇|きょうぐう}→境遇：12097_kyouguu⟧⟦を→を：00422_wo⟧{憐|あわ}れんだ。",
       "english": "I pitied his circumstances.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "16875_awaremu_ex2",
-      "japanese": "{捨|す}てられた{犬|いぬ}を{憐|あわ}れんで{家|いえ}に{連|つ}れて{帰|かえ}った。",
+      "japanese": "⟦{捨|す}てられた→捨てる：00892_suteru⟧⟦{犬|いぬ}→犬：00632_inu⟧⟦を→を：00422_wo⟧{憐|あわ}れんで⟦{家|いえ}→家：00612_ie⟧⟦に→に：00314_ni⟧⟦{連|つ}れて→連れる：01240_tsureru⟧⟦{帰|かえ}った→帰る：00508_kaeru⟧。",
       "english": "I felt sorry for the abandoned dog and brought it home.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "16875_awaremu_ex3",
-      "japanese": "{人|ひと}を{憐|あわ}れむ{気持|きも}ちは{大切|たいせつ}だが、{同情|どうじょう}だけでは{助|たす}けにならない。",
+      "japanese": "⟦{人|ひと}→人：00476_hito⟧⟦を→を：00422_wo⟧{憐|あわ}れむ{気持|きも}ち⟦は→は：00079_ha⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧だ⟦が→が：00051_ga⟧、⟦{同情|どうじょう}→同情：11954_doujou⟧⟦だけ→〜だけ：03093_dake⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{助|たす}け→助け：07777_tasuke⟧⟦に→に：00314_ni⟧⟦ならない→なる：01970_naru⟧。",
       "english": "Feeling compassion for others is important, but sympathy alone doesn't help.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA literary and somewhat formal verb. In everyday speech, {可哀想|かわいそう}に{思|おも}う or {同情|どうじょう}する are more common. Can carry a nuance of looking down on the person being pitied.\n\nCOMMON COLLOCATIONS:\n- {人|ひと}を{憐|あわ}れむ (to pity someone)\n- {境遇|きょうぐう}を{憐|あわ}れむ (to pity one's circumstances)\n- {憐|あわ}れみの{目|め} (eyes of pity)\n\nSIMILAR WORDS:\n- {同情|どうじょう}する: to sympathize — more neutral and common in everyday speech\n- {哀|あわ}れ: pathos, pity — the related noun/adjective form",
+  "notes": "USAGE:\nA literary and somewhat formal verb. In everyday speech, {可哀想|かわいそう}⟦に→に：00314_ni⟧⟦{思|おも}う→思う：00492_omou⟧ or ⟦{同情|どうじょう}する→同情する：18037_doujousuru⟧ are more common. Can carry a nuance of looking down on the person being pitied.\n\nCOMMON COLLOCATIONS:\n- ⟦{人|ひと}→人：00476_hito⟧⟦を→を：00422_wo⟧{憐|あわ}れむ (to pity someone)\n- ⟦{境遇|きょうぐう}→境遇：12097_kyouguu⟧⟦を→を：00422_wo⟧{憐|あわ}れむ (to pity one's circumstances)\n- ⟦{憐|あわ}れみ→憐れみ：18318_awaremi⟧⟦の→の：09472_no⟧⟦{目|め}→目：00525_me⟧ (eyes of pity)\n\nSIMILAR WORDS:\n- ⟦{同情|どうじょう}する→同情する：18037_doujousuru⟧: to sympathize — more neutral and common in everyday speech\n- ⟦{哀|あわ}れ→哀れ：01775_aware⟧: pathos, pity — the related noun/adjective form",
   "cross_references": [
     {
       "type": "synonym",
@@ -142,11 +142,25 @@
       "reading": "どうじょう",
       "headword": "{同情|どうじょう}",
       "label": "sympathy (neutral)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18037_doujousuru",
+      "reading": "どうじょうする",
+      "headword": "{同情|どうじょう}する",
+      "label": "to sympathize"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01775_aware",
+      "reading": "あわれ",
+      "headword": "{哀|あわ}れ",
+      "label": "pathos, pity"
     }
   ],
   "metadata": {
     "created": "2026-03-15T00:18:56Z",
-    "modified": "2026-05-05T05:04:25Z",
+    "modified": "2026-09-02T04:01:46Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

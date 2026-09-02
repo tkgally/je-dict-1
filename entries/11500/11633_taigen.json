@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "11633_taigen_ex1",
-      "japanese": "{理想|りそう}を{体現|たいげん}する。",
+      "japanese": "⟦{理想|りそう}→理想：03676_risou⟧⟦を→を：00422_wo⟧{体現|たいげん}⟦する→する：00392_suru⟧。",
       "english": "To embody an ideal.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "11633_taigen_ex2",
-      "japanese": "{彼女|かのじょ}は{自由|じゆう}を{体現|たいげん}したアーティストだ。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧⟦{自由|じゆう}→自由：01148_jiyuu⟧⟦を→を：00422_wo⟧{体現|たいげん}⟦した→する：00392_suru⟧⟦アーティスト→アーティスト：10712_aatisuto⟧だ。",
       "english": "She is an artist who embodies freedom.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "11633_taigen_ex3",
-      "japanese": "この{建物|たてもの}は{日本|にほん}の{伝統|でんとう}と{現代|げんだい}の{技術|ぎじゅつ}を{体現|たいげん}している。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{建物|たてもの}→建物：01458_tatemono⟧⟦は→は：00079_ha⟧⟦{日本|にほん}→日本：03876_nihon⟧⟦の→の：09472_no⟧⟦{伝統|でんとう}→伝統：09585_dentou⟧⟦と→と：00512_to⟧⟦{現代|げんだい}→現代：02722_gendai⟧⟦の→の：09472_no⟧⟦{技術|ぎじゅつ}→技術：01389_gijutsu⟧⟦を→を：00422_wo⟧{体現|たいげん}⟦している→する：00392_suru⟧。",
       "english": "This building embodies both Japanese tradition and modern technology.",
       "notes": null,
       "has_audio": false,
@@ -133,11 +133,19 @@
       ]
     }
   ],
-  "notes": "A formal word typically used in written language, speeches, and critical discussion. The pattern ～を{体現|たいげん}する means to embody or give form to an abstract concept.\n\nCompare with {具現|ぐげん} (realization, materialization), which focuses more on making something real or actual, while {体現|たいげん} emphasizes representing an abstract quality through one's being or actions.\n\nCOMMON COLLOCATIONS:\n・{理念|りねん}を{体現|たいげん}する — to embody a principle\n・{精神|せいしん}を{体現|たいげん}する — to embody a spirit\n・{価値観|かちかん}を{体現|たいげん}する — to embody values\n・～の{体現|たいげん} — the embodiment of ~",
-  "cross_references": [],
+  "notes": "A formal word typically used in written language, speeches, and critical discussion. The pattern ～⟦を→を：00422_wo⟧{体現|たいげん}⟦する→する：00392_suru⟧ means to embody or give form to an abstract concept.\n\nCompare with ⟦{具現|ぐげん}→具現：15635_gugen⟧ (realization, materialization), which focuses more on making something real or actual, while {体現|たいげん} emphasizes representing an abstract quality through one's being or actions.\n\nCOMMON COLLOCATIONS:\n- ⟦{理念|りねん}→理念：06027_rinen⟧⟦を→を：00422_wo⟧{体現|たいげん}⟦する→する：00392_suru⟧ — to embody a principle\n- ⟦{精神|せいしん}→精神：03377_seishin⟧⟦を→を：00422_wo⟧{体現|たいげん}⟦する→する：00392_suru⟧ — to embody a spirit\n- ⟦{価値観|かちかん}→価値観：10431_kachikan⟧⟦を→を：00422_wo⟧{体現|たいげん}⟦する→する：00392_suru⟧ — to embody values\n- ～⟦の→の：09472_no⟧{体現|たいげん} — the embodiment of ~",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15635_gugen",
+      "reading": "ぐげん",
+      "headword": "{具現|ぐげん}",
+      "label": "embodiment"
+    }
+  ],
   "metadata": {
     "created": "2026-02-17T14:46:07Z",
-    "modified": "2026-03-29T03:07:35Z",
+    "modified": "2026-09-02T04:01:25Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
@@ -154,7 +162,8 @@
       "style": [
         "written"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

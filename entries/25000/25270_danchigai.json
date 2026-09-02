@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25270_danchigai_ex1",
-      "japanese": "{味|あじ}が{段違|だんちが}いだ。",
+      "japanese": "⟦{味|あじ}→味：00826_aji⟧⟦が→が：00051_ga⟧{段違|だんちが}いだ。",
       "english": "The flavor is on a completely different level.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25270_danchigai_ex2",
-      "japanese": "プロとアマでは{段違|だんちが}いの{差|さ}がある。",
+      "japanese": "⟦プロ→プロ：03871_puro⟧⟦と→と：00512_to⟧アマ⟦で→で：00502_de⟧⟦は→は：00079_ha⟧{段違|だんちが}い⟦の→の：09472_no⟧⟦{差|さ}→差：02771_sa⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There's a world of difference between pros and amateurs.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25270_danchigai_ex3",
-      "japanese": "{新|あたら}しいモデルは{性能|せいのう}が{段違|だんちが}いに{良|よ}い。",
+      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦モデル→モデル：05112_moderu⟧⟦は→は：00079_ha⟧⟦{性能|せいのう}→性能：04340_seinou⟧⟦が→が：00051_ga⟧{段違|だんちが}い⟦に→に：00314_ni⟧⟦{良|よ}い→良い：02350_yoi⟧。",
       "english": "The new model is incomparably better in performance.",
       "sense_numbers": [
         1
@@ -45,7 +45,7 @@
     },
     {
       "id": "25270_danchigai_ex4",
-      "japanese": "{去年|きょねん}と{今年|ことし}では、チームの{実力|じつりょく}が{段違|だんちが}いだ。",
+      "japanese": "⟦{去年|きょねん}→去年：00727_kyonen⟧⟦と→と：00512_to⟧⟦{今年|ことし}→今年：00722_kotoshi⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧、⟦チーム→チーム：03858_chiimu⟧⟦の→の：09472_no⟧⟦{実力|じつりょく}→実力：03277_jitsuryoku⟧⟦が→が：00051_ga⟧{段違|だんちが}いだ。",
       "english": "The team's ability is on a completely different level compared to last year.",
       "sense_numbers": [
         1
@@ -54,8 +54,31 @@
       "notes": null
     }
   ],
-  "notes": "Literally means being on different steps or levels ({段|だん} = step/level, {違|ちが}い = difference). Describes a gap in quality or ability that is not just noticeable but dramatic.\n\nCOMMON COLLOCATIONS:\n- {段違|だんちが}いの{差|さ}: an overwhelming difference\n- {段違|だんちが}いに{良|よ}い: incomparably better\n- {段違|だんちが}いの{実力|じつりょく}: ability on a different level\n- {段違|だんちが}いに{速|はや}い: incomparably faster\n\nSIMILAR WORDS:\n- {桁違|けたちが}い: on a different order of magnitude; emphasizes numerical scale, while {段違|だんちが}い emphasizes quality or skill\n- {格段|かくだん}に: remarkably, significantly; more formal and used adverbially\n- {雲泥|うんでい}の{差|さ}: a world of difference (literally \"the difference between clouds and mud\"); more literary\n\nNOTE:\nAlso used in gymnastics: {段違|だんちが}い{平行棒|へいこうぼう} means uneven parallel bars.",
+  "notes": "Literally means being on different steps or levels (⟦{段|だん}→段：03424_dan⟧ = step/level, ⟦{違|ちが}い→違い：03432_chigai⟧ = difference). Describes a gap in quality or ability that is not just noticeable but dramatic.\n\nCOMMON COLLOCATIONS:\n- {段違|だんちが}い⟦の→の：09472_no⟧⟦{差|さ}→差：02771_sa⟧: an overwhelming difference\n- {段違|だんちが}い⟦に→に：00314_ni⟧⟦{良|よ}い→良い：02350_yoi⟧: incomparably better\n- {段違|だんちが}い⟦の→の：09472_no⟧⟦{実力|じつりょく}→実力：03277_jitsuryoku⟧: ability on a different level\n- {段違|だんちが}い⟦に→に：00314_ni⟧⟦{速|はや}い→速い：00514_hayai⟧: incomparably faster\n\nSIMILAR WORDS:\n- ⟦{桁違|けたちが}い→桁違い：15744_ketachigai⟧: on a different order of magnitude; emphasizes numerical scale, while {段違|だんちが}い emphasizes quality or skill\n- ⟦{格段|かくだん}→格段：13112_kakudan⟧⟦に→に：00314_ni⟧: remarkably, significantly; more formal and used adverbially\n- ⟦{雲泥|うんでい}の{差|さ}→雲泥の差：19998_undeinosa⟧: a world of difference (literally \"the difference between clouds and mud\"); more literary\n\nUSAGE:\nAlso used in gymnastics: {段違|だんちが}い{平行棒|へいこうぼう} means uneven parallel bars.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15744_ketachigai",
+      "reading": "けたちがい",
+      "headword": "{桁違|けたちが}い",
+      "label": "on a different order of magnitude"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14800_kakudanni",
+      "reading": "かくだんに",
+      "headword": "{格段|かくだん}に",
+      "label": "remarkably, significantly"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19998_undeinosa",
+      "reading": "うんでいのさ",
+      "headword": "{雲泥|うんでい}の{差|さ}",
+      "label": "a world of difference"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -63,12 +86,13 @@
         "noun",
         "adjective-no"
       ],
+      "politeness": "plain",
       "semantic": [
         "evaluation",
         "quantity"
       ]
     },
     "created": "2026-04-24T12:20:27Z",
-    "modified": "2026-08-04T12:59:53Z"
+    "modified": "2026-09-02T04:02:21Z"
   }
 }

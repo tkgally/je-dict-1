@@ -15,41 +15,60 @@
   "examples": [
     {
       "id": "29960_sadondesu_ex1",
-      "japanese": "{勝負|しょうぶ}はサドンデスになった。",
+      "japanese": "⟦{勝負|しょうぶ}→勝負：01437_shoubu⟧⟦は→は：00079_ha⟧サドンデスになった。",
       "english": "The match went to sudden death.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29960_sadondesu_ex2",
-      "japanese": "サドンデスで{先|さき}に{点|てん}を{取|と}ったほうが{勝|か}ちだ。",
+      "japanese": "サドンデス⟦で→で：00502_de⟧⟦{先|さき}→先：02883_saki⟧⟦に→に：00314_ni⟧⟦{点|てん}→点：01553_ten⟧⟦を→を：00422_wo⟧⟦{取|と}った→取る：00565_toru⟧ほう⟦が→が：00051_ga⟧⟦{勝|か}ち→勝ち：02540_kachi⟧だ。",
       "english": "In sudden death, whoever scores first wins.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29960_sadondesu_ex3",
-      "japanese": "{延長|えんちょう}でも{決着|けっちゃく}がつかず、サドンデスで{雌雄|しゆう}を{決|けっ}した。",
+      "japanese": "⟦{延長|えんちょう}→延長：06447_enchou⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧⟦{決着|けっちゃく}→決着：13251_kecchaku⟧⟦が→が：00051_ga⟧つかず、サドンデス⟦で→で：00502_de⟧{雌雄|しゆう}⟦を→を：00422_wo⟧{決|けっ}した。",
       "english": "Even overtime settled nothing, so they decided it in sudden death.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A loanword naming an overtime rule where the next score ends the game. Contrasts with formats that play out a fixed period before deciding the winner.\n\nCOMMON COLLOCATIONS:\n- サドンデスになる: to go to sudden death\n- サドンデス{方式|ほうしき}: sudden-death format\n- サドンデスで{決着|けっちゃく}をつける: to settle it by sudden death",
+  "notes": "A loanword naming an overtime rule where the next score ends the game. Contrasts with formats that play out a fixed period before deciding the winner.\n\nCOMMON COLLOCATIONS:\n- サドンデス⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧: to go to sudden death\n- サドンデス⟦{方式|ほうしき}→方式：05454_houshiki⟧: sudden-death format\n- サドンデス⟦で→で：00502_de⟧⟦{決着|けっちゃく}→決着：13251_kecchaku⟧⟦を→を：00422_wo⟧⟦つける→つける：00562_tsukeru⟧: to settle it by sudden death",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "06540_enchousen",
+      "reading": "えんちょうせん",
+      "headword": "{延長戦|えんちょうせん}",
+      "label": "extra innings, overtime, extended play"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["sports"],
+      "semantic": [
+        "sports"
+      ],
       "domain": []
     },
     "created": "2026-07-19T18:17:15Z",
-    "modified": "2026-07-19T18:17:15Z"
+    "modified": "2026-09-02T04:02:38Z"
   }
 }

@@ -15,40 +15,59 @@
   "examples": [
     {
       "id": "22921_ikiwokirasu_ex1",
-      "japanese": "{息|いき}を{切|き}らして{走|はし}る。",
+      "japanese": "{息|いき}を{切|き}らして⟦{走|はし}る→走る：00519_hashiru⟧。",
       "english": "To run gasping for breath.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "22921_ikiwokirasu_ex2",
-      "japanese": "{階段|かいだん}を{上|のぼ}って{息|いき}を{切|き}らしていた。",
+      "japanese": "⟦{階段|かいだん}→階段：00782_kaidan⟧⟦を→を：00422_wo⟧⟦{上|のぼ}って→上る：21460_noboru⟧{息|いき}を{切|き}らして⟦いた→いる：00495_iru⟧。",
       "english": "I was out of breath from climbing the stairs.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "22921_ikiwokirasu_ex3",
-      "japanese": "{彼|かれ}は{息|いき}を{切|き}らしながら{遅刻|ちこく}の{言|い}い{訳|わけ}を{始|はじ}めた。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{息|いき}を{切|き}らし⟦ながら→ながら：10530_nagara⟧⟦{遅刻|ちこく}→遅刻：03465_chikoku⟧⟦の→の：09472_no⟧⟦{言|い}い{訳|わけ}→言い訳：04653_iiwake⟧⟦を→を：00422_wo⟧⟦{始|はじ}めた→始める：00531_hajimeru⟧。",
       "english": "He started making excuses for being late while gasping for breath.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Literally \"to cut off one's breath.\" The most common form is {息|いき}を{切|き}らして (te-form), used to describe someone who is panting or breathless while doing something else.\n\nCOMMON PATTERNS:\n- {息|いき}を{切|き}らして + verb: doing something while out of breath\n- {息|いき}を{切|き}らしながら: while panting\n- {息|いき}を{切|き}らした{様子|ようす}で: looking out of breath\n\nSIMILAR WORDS:\n- {息切|いきぎ}れ: shortness of breath — the noun form; can also refer to a medical symptom\n- {息|いき}が{上|あ}がる: to be out of breath — similar meaning, slightly more literary\n- ゼーゼーする: to wheeze — onomatopoeic, emphasizes the sound of labored breathing\n- はあはあする: to pant — onomatopoeic, lighter than ゼーゼー",
+  "notes": "Literally \"to cut off one's breath.\" The most common form is {息|いき}を{切|き}らして (te-form), used to describe someone who is panting or breathless while doing something else.\n\nCOMMON PATTERNS:\n- {息|いき}を{切|き}らして + verb: doing something while out of breath\n- {息|いき}を{切|き}らし⟦ながら→ながら：10530_nagara⟧: while panting\n- {息|いき}を{切|き}らした⟦{様子|ようす}→様子：01521_yousu⟧⟦で→で：00502_de⟧: looking out of breath\n\nSIMILAR WORDS:\n- ⟦{息切|いきぎ}れ→息切れ：06300_ikigire⟧: shortness of breath — the noun form; can also refer to a medical symptom\n- ⟦{息|いき}→息：02176_iki⟧⟦が→が：00051_ga⟧⟦{上|あ}がる→上がる：00615_agaru⟧: to be out of breath — similar meaning, slightly more literary\n- ゼーゼー⟦する→する：00392_suru⟧: to wheeze — onomatopoeic, emphasizes the sound of labored breathing\n- はあはあ⟦する→する：00392_suru⟧: to pant — onomatopoeic, lighter than ゼーゼー",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06300_ikigire",
+      "reading": "いきぎれ",
+      "headword": "{息切|いきぎ}れ",
+      "label": "shortness of breath"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["expression"],
-      "semantic": ["health"],
+      "pos": [
+        "expression"
+      ],
+      "semantic": [
+        "health"
+      ],
       "formality": "neutral",
       "politeness": "plain"
     },
     "created": "2026-04-07T21:09:31Z",
-    "modified": "2026-07-31T00:22:30Z"
+    "modified": "2026-09-02T04:02:10Z"
   }
 }

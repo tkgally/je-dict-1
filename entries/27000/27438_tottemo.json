@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "27438_tottemo_ex1",
-      "japanese": "とっても{楽|たの}しい!",
+      "japanese": "とっても⟦{楽|たの}しい→楽しい：00817_tanoshii⟧!",
       "english": "It's really fun!",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "27438_tottemo_ex2",
-      "japanese": "{今日|きょう}はとっても{暖|あたた}かい{日|ひ}だね。",
+      "japanese": "⟦{今日|きょう}→今日：00496_kyou⟧⟦は→は：00079_ha⟧とっても⟦{暖|あたた}かい→暖かい：00618_atatakai⟧⟦{日|ひ}→日：02249_hi⟧だ⟦ね→ね：09474_ne⟧。",
       "english": "It's a really warm day today, isn't it.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "27438_tottemo_ex3",
-      "japanese": "{彼女|かのじょ}の{作|つく}ったケーキはとっても{美味|おい}しくて、みんなあっという{間|ま}に{食|た}べてしまった。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦の→の：09472_no⟧⟦{作|つく}った→作る：00481_tsukuru⟧⟦ケーキ→ケーキ：01356_keeki⟧⟦は→は：00079_ha⟧とっても⟦{美味|おい}しくて→美味しい：00740_oishii⟧、⟦みんな→みんな：02972_minna⟧⟦あっという{間|ま}に→あっという間に：25467_attoiumani⟧⟦{食|た}べて→食べる：00396_taberu⟧しまった。",
       "english": "The cake she made was so delicious that everyone finished it in no time.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Casual variant of とても formed by gemination (small っ). Slightly warmer and more emphatic, common in spoken language and informal writing.\n\nUSAGE:\n- Replaces とても in casual speech; not typically used in formal/written contexts\n- Like とても, in standard usage it modifies positive predicates; with negatives, とても means 'not at all (possible)' (e.g., とても{無理|むり}だ 'there's no way')\n\nCOMMON COLLOCATIONS:\n- とっても{好|す}き: really like\n- とっても{嬉|うれ}しい: very happy\n- とっても{美味|おい}しい: really delicious\n- とっても{綺麗|きれい}: really pretty\n\nSIMILAR WORDS:\n- とても: very — the standard form; appropriate in any register\n- すごく: extremely — comparable casual intensifier, often interchangeable\n- とっても is preferred when the speaker wants a slightly affectionate, childlike, or playful tone",
+  "notes": "Casual variant of ⟦とても→とても：00593_totemo⟧ formed by gemination (small っ). Slightly warmer and more emphatic, common in spoken language and informal writing.\n\nUSAGE:\n- Replaces ⟦とても→とても：00593_totemo⟧ in casual speech; not typically used in formal/written contexts\n- Like ⟦とても→とても：00593_totemo⟧, in standard usage it modifies positive predicates; with negatives, ⟦とても→とても：00593_totemo⟧ means 'not at all (possible)' (e.g., ⟦とても→とても：00593_totemo⟧⟦{無理|むり}→無理：01558_muri⟧だ 'there's no way')\n\nCOMMON COLLOCATIONS:\n- とっても⟦{好|す}き→好き：02355_suki⟧: really like\n- とっても⟦{嬉|うれ}しい→嬉しい：00822_ureshii⟧: very happy\n- とっても⟦{美味|おい}しい→美味しい：00740_oishii⟧: really delicious\n- とっても{綺麗|きれい}: really pretty\n\nSIMILAR WORDS:\n- ⟦とても→とても：00593_totemo⟧: very — the standard form; appropriate in any register\n- ⟦すごく→すごい：01128_sugoi⟧: extremely — comparable casual intensifier, often interchangeable\n- とっても is preferred when the speaker wants a slightly affectionate, childlike, or playful tone",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00593_totemo",
+      "reading": "とても",
+      "headword": "とても",
+      "label": "very"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18751_sugoku",
+      "reading": "すごく",
+      "headword": "すごく",
+      "label": "extremely"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +69,13 @@
         "adverb"
       ],
       "formality": "informal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "quantity"
       ],
       "domain": []
     },
     "created": "2026-05-12T03:04:54Z",
-    "modified": "2026-08-07T16:10:18Z"
+    "modified": "2026-09-02T04:02:30Z"
   }
 }

@@ -78,10 +78,33 @@
       ]
     }
   ],
-  "notes": "USAGE: {武器|ぶき} can refer to physical weapons or figuratively to personal strengths or advantages.\n\nCOMMON PATTERNS:\n・{武器|ぶき}⟦を→を：00422_wo⟧⟦{持|も}つ→持つ：00478_motsu⟧ (to carry a weapon)\n・{武器|ぶき}⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧ (to use a weapon)\n・{武器|ぶき}にする (to use as a weapon/advantage)\n\nCOMMON COMPOUNDS:\n・⟦{核|かく}→核：13127_kaku⟧{武器|ぶき} (nuclear weapons)\n・⟦{化学|かがく}→化学：05336_kagaku_chem⟧{武器|ぶき} (chemical weapons)\n・⟦{生物|せいぶつ}→生物：03295_seibutsu⟧{武器|ぶき} (biological weapons)\n・⟦{武器庫|ぶきこ}→武器庫：noentry⟧ (armory)",
+  "notes": "USAGE: {武器|ぶき} can refer to physical weapons or figuratively to personal strengths or advantages.\n\nCOMMON PATTERNS:\n- {武器|ぶき}⟦を→を：00422_wo⟧⟦{持|も}つ→持つ：00478_motsu⟧ (to carry a weapon)\n- {武器|ぶき}⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧ (to use a weapon)\n- {武器|ぶき}⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧ (to use as a weapon/advantage)\n\nCOMPOUNDS:\n- ⟦{核|かく}→核：13127_kaku⟧{武器|ぶき} (nuclear weapons)\n- ⟦{化学|かがく}→化学：05336_kagaku_chem⟧{武器|ぶき} (chemical weapons)\n- ⟦{生物|せいぶつ}→生物：03295_seibutsu⟧{武器|ぶき} (biological weapons)\n- ⟦{武器庫|ぶきこ}→武器庫：noentry⟧ (armory)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11679_heiki",
+      "reading": "へいき",
+      "headword": "{兵器|へいき}",
+      "label": "weapon, arms"
+    },
+    {
+      "type": "related",
+      "target_id": "20108_danyaku",
+      "reading": "だんやく",
+      "headword": "{弾薬|だんやく}",
+      "label": "ammunition"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24598_bugu",
+      "reading": "ぶぐ",
+      "headword": "{武具|ぶぐ}",
+      "label": "arms and armor"
+    }
+  ],
   "metadata": {
     "created": "2026-01-12T15:34:00Z",
-    "modified": "2026-08-13T15:50:29Z",
+    "modified": "2026-09-02T04:01:03Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

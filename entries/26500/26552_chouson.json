@@ -15,42 +15,60 @@
   "examples": [
     {
       "id": "26552_chouson_ex1",
-      "japanese": "{長孫|ちょうそん}が{生|う}まれて、{祖父母|そふぼ}は{大喜|おおよろこ}びだった。",
+      "japanese": "{長孫|ちょうそん}⟦が→が：00051_ga⟧⟦{生|う}まれて→生まれる：00905_umareru⟧、⟦{祖父母|そふぼ}→祖父母：03110_sofubo⟧⟦は→は：00079_ha⟧⟦{大喜|おおよろこ}び→大喜び：28880_ooyorokobi⟧だった。",
       "english": "The grandparents were overjoyed when their first grandchild was born.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26552_chouson_ex2",
-      "japanese": "{長孫|ちょうそん}として、{家|いえ}の{行事|ぎょうじ}には{必|かなら}ず{出席|しゅっせき}する。",
+      "japanese": "{長孫|ちょうそん}⟦として→として：06802_toshite⟧、⟦{家|いえ}→家：00612_ie⟧⟦の→の：09472_no⟧⟦{行事|ぎょうじ}→行事：00078_gyouji⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{必|かなら}ず→必ず：01249_kanarazu⟧⟦{出席|しゅっせき}する→出席する：01830_shussekisuru⟧。",
       "english": "As the eldest grandchild, I always attend family events.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26552_chouson_ex3",
-      "japanese": "{祖父|そふ}は{長孫|ちょうそん}である{私|わたし}に、{先祖|せんぞ}のことをよく{話|はな}してくれた。",
+      "japanese": "⟦{祖父|そふ}→祖父：01452_sofu⟧⟦は→は：00079_ha⟧{長孫|ちょうそん}⟦である→である：09855_dearu⟧⟦{私|わたし}→私：02988_watashi⟧⟦に→に：00314_ni⟧、⟦{先祖|せんぞ}→先祖：04040_senzo⟧⟦の→の：09472_no⟧こと⟦を→を：00422_wo⟧⟦よく→よく：00601_yoku⟧⟦{話|はな}して→話す：00467_hanasu⟧⟦くれた→くれる：00724_kureru⟧。",
       "english": "My grandfather often told me, his eldest grandchild, about our ancestors.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {長|ちょう} (eldest, senior) and {孫|そん} (grandchild). Part of a family vocabulary series that includes {長男|ちょうなん} (eldest son), {長女|ちょうじょ} (eldest daughter), and {長子|ちょうし} (firstborn child). In traditional Japanese families, the {長孫|ちょうそん} may hold a special position, particularly in matters of inheritance and family succession.\n\nCOMMON COLLOCATIONS:\n- {長孫|ちょうそん}が{生|う}まれる: the first grandchild is born\n- {長孫|ちょうそん}を{可愛|かわい}がる: to dote on one's eldest grandchild\n- {内孫|うちまご}の{長孫|ちょうそん}: the eldest grandchild from the family line\n\nSIMILAR WORDS:\n- {孫|まご}: grandchild — the everyday word for grandchild\n- {初孫|はつまご}: first grandchild — emphasizes being the first, with a warmer nuance\n- {長男|ちょうなん}: eldest son — same {長|ちょう} prefix applied to the son generation",
-  "cross_references": [],
+  "notes": "Composed of {長|ちょう} (eldest, senior) and {孫|そん} (grandchild). Part of a family vocabulary series that includes ⟦{長男|ちょうなん}→長男：14519_chounan⟧ (eldest son), ⟦{長女|ちょうじょ}→長女：14518_choujo⟧ (eldest daughter), and ⟦{長子|ちょうし}→長子：25076_choushi⟧ (firstborn child). In traditional Japanese families, the {長孫|ちょうそん} may hold a special position, particularly in matters of inheritance and family succession.\n\nCOMMON COLLOCATIONS:\n- {長孫|ちょうそん}⟦が→が：00051_ga⟧⟦{生|う}まれる→生まれる：00905_umareru⟧: the first grandchild is born\n- {長孫|ちょうそん}⟦を→を：00422_wo⟧{可愛|かわい}⟦がる→〜がる：03089_garu⟧: to dote on one's eldest grandchild\n- {内孫|うちまご}⟦の→の：09472_no⟧{長孫|ちょうそん}: the eldest grandchild from the family line\n\nSIMILAR WORDS:\n- ⟦{孫|まご}→孫：03731_mago⟧: grandchild — the everyday word for grandchild\n- {初孫|はつまご}: first grandchild — emphasizes being the first, with a warmer nuance\n- ⟦{長男|ちょうなん}→長男：14519_chounan⟧: eldest son — same {長|ちょう} prefix applied to the son generation",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14519_chounan",
+      "reading": "ちょうなん",
+      "headword": "{長男|ちょうなん}",
+      "label": "eldest son"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["family"],
+      "semantic": [
+        "family"
+      ],
       "domain": []
     },
     "created": "2026-05-02T15:32:17Z",
-    "modified": "2026-05-02T15:32:17Z"
+    "modified": "2026-09-02T04:02:26Z"
   }
 }

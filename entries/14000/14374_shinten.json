@@ -3,7 +3,7 @@
   "id": "14374_shinten",
   "headword": "{進展|しんてん}",
   "reading": "しんてん",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "progress; development; advancement",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "14374_shinten_ex1",
-      "japanese": "{交渉|こうしょう}に{進展|しんてん}があった。",
+      "japanese": "⟦{交渉|こうしょう}→交渉：02727_koushou⟧⟦に→に：00314_ni⟧{進展|しんてん}⟦が→が：00051_ga⟧⟦あった→ある：00006_aru⟧。",
       "english": "There was progress in the negotiations.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "14374_shinten_ex2",
-      "japanese": "{事件|じけん}の{捜査|そうさ}は{進展|しんてん}していない。",
+      "japanese": "⟦{事件|じけん}→事件：01568_jiken⟧⟦の→の：09472_no⟧⟦{捜査|そうさ}→捜査：03688_sousa⟧⟦は→は：00079_ha⟧{進展|しんてん}⟦していない→する：00392_suru⟧。",
       "english": "The investigation into the case has made no progress.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "14374_shinten_ex3",
-      "japanese": "{技術|ぎじゅつ}の{進展|しんてん}により、{以前|いぜん}は{不可能|ふかのう}だったことが{実現|じつげん}できるようになった。",
+      "japanese": "⟦{技術|ぎじゅつ}→技術：01389_gijutsu⟧⟦の→の：09472_no⟧{進展|しんてん}⟦に→に：00314_ni⟧⟦より→より：09476_yori⟧、⟦{以前|いぜん}→以前：01790_izen⟧⟦は→は：00079_ha⟧⟦{不可能|ふかのう}→不可能：03144_fukanou⟧だったこと⟦が→が：00051_ga⟧⟦{実現|じつげん}→実現：03276_jitsugen⟧⟦できる→できる：00557_dekiru⟧ようになった。",
       "english": "Thanks to technological progress, things that were previously impossible have become achievable.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE NOTES:\n{進展|しんてん} describes forward movement in abstract situations — negotiations, investigations, relationships, technology. It is preferred in formal and written Japanese.\n\nCOMMON COLLOCATIONS:\n- {進展|しんてん}がある (there is progress)\n- {進展|しんてん}がない (there is no progress)\n- {進展|しんてん}を{見|み}せる (to show progress)\n- {大|おお}きな{進展|しんてん} (significant progress)\n- {新|あら}たな{進展|しんてん} (new development)\n\nSIMILAR WORDS:\n{進歩|しんぽ} focuses on improvement and betterment (often skills or civilization). {進展|しんてん} focuses on a situation moving forward. {発展|はってん} emphasizes growth and expansion.",
+  "notes": "USAGE:\n{進展|しんてん} describes forward movement in abstract situations — negotiations, investigations, relationships, technology. It is preferred in formal and written Japanese.\n\nCOMMON COLLOCATIONS:\n- {進展|しんてん}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧ (there is progress)\n- {進展|しんてん}⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧ (there is no progress)\n- {進展|しんてん}⟦を→を：00422_wo⟧⟦{見|み}せる→見せる：01988_miseru⟧ (to show progress)\n- ⟦{大|おお}きな→大きな：02849_ookina⟧{進展|しんてん} (significant progress)\n- ⟦{新|あら}た→新た：01697_arata⟧な{進展|しんてん} (new development)\n\nSIMILAR WORDS:\n⟦{進歩|しんぽ}→進歩：03265_shinpo⟧ focuses on improvement and betterment (often skills or civilization). {進展|しんてん} focuses on a situation moving forward. ⟦{発展|はってん}→発展：03561_hatten⟧ emphasizes growth and expansion.",
   "cross_references": [
     {
       "type": "synonym",
@@ -163,11 +163,25 @@
       "reading": "はってん",
       "headword": "{発展|はってん}",
       "label": "development, growth"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25229_tenkaisuru",
+      "reading": "てんかいする",
+      "headword": "{展開|てんかい}する",
+      "label": "to develop"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26794_shinkousuru",
+      "reading": "しんこうする",
+      "headword": "{進行|しんこう}する",
+      "label": "to progress"
     }
   ],
   "metadata": {
     "created": "2026-02-28T13:10:27Z",
-    "modified": "2026-04-18T08:05:14Z",
+    "modified": "2026-09-02T04:01:37Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -180,7 +194,8 @@
       "semantic": [
         "general"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

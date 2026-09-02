@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "17294_kakushitsu_ex1",
-      "japanese": "{二人|ふたり}の{間|あいだ}に{確執|かくしつ}がある。",
+      "japanese": "⟦{二人|ふたり}→二人：00622_futari⟧⟦の→の：09472_no⟧⟦{間|あいだ}→間：00914_aida⟧⟦に→に：00314_ni⟧{確執|かくしつ}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There is friction between the two of them.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17294_kakushitsu_ex2",
-      "japanese": "{長年|ながねん}の{確執|かくしつ}がようやく{解消|かいしょう}された。",
+      "japanese": "⟦{長年|ながねん}→長年：09684_naganen⟧⟦の→の：09472_no⟧{確執|かくしつ}⟦が→が：00051_ga⟧ようやく⟦{解消|かいしょう}→解消：14143_kaishou⟧⟦された→する：00392_suru⟧。",
       "english": "The long-standing feud was finally resolved.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17294_kakushitsu_ex3",
-      "japanese": "{兄弟|きょうだい}の{間|あいだ}で{遺産|いさん}をめぐる{確執|かくしつ}が{生|う}まれ、{家族|かぞく}の{関係|かんけい}が{壊|こわ}れてしまった。",
+      "japanese": "⟦{兄弟|きょうだい}→兄弟：00964_kyoudai⟧⟦の→の：09472_no⟧⟦{間|あいだ}→間：00914_aida⟧⟦で→で：00502_de⟧⟦{遺産|いさん}→遺産：14405_isan⟧⟦を→を：00422_wo⟧めぐる{確執|かくしつ}⟦が→が：00051_ga⟧⟦{生|う}まれ→生まれる：00905_umareru⟧、⟦{家族|かぞく}→家族：00552_kazoku⟧⟦の→の：09472_no⟧⟦{関係|かんけい}→関係：01298_kankei⟧⟦が→が：00051_ga⟧⟦{壊|こわ}れて→壊れる：00791_kowareru⟧しまった。",
       "english": "A feud over the inheritance arose between the siblings, and the family relationship was destroyed.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nA somewhat formal word often seen in news articles and written accounts. Describes conflicts that are deeper and more persistent than a simple {争|あらそ}い (dispute). Often used for family feuds, political rivalries, and organizational power struggles.\n\nCOMMON COLLOCATIONS:\n- {確執|かくしつ}が{生|う}まれる (a feud arises)\n- {確執|かくしつ}が{深|ふか}まる (friction deepens)\n- {確執|かくしつ}を{解消|かいしょう}する (resolve a feud)\n- {長年|ながねん}の{確執|かくしつ} (a long-standing feud)\n\nSIMILAR WORDS:\n- {対立|たいりつ}: opposition/conflict — more neutral; can be ideological without personal animosity\n- {不和|ふわ}: discord — focuses on a lack of harmony in a relationship\n- {軋轢|あつれき}: friction — very similar; slightly more formal",
+  "notes": "USAGE:\nA somewhat formal word often seen in news articles and written accounts. Describes conflicts that are deeper and more persistent than a simple ⟦{争|あらそ}い→争い：09992_arasoi⟧ (dispute). Often used for family feuds, political rivalries, and organizational power struggles.\n\nCOMMON COLLOCATIONS:\n- {確執|かくしつ}⟦が→が：00051_ga⟧⟦{生|う}まれる→生まれる：00905_umareru⟧ (a feud arises)\n- {確執|かくしつ}⟦が→が：00051_ga⟧⟦{深|ふか}まる→深まる：02406_fukamaru⟧ (friction deepens)\n- {確執|かくしつ}⟦を→を：00422_wo⟧⟦{解消|かいしょう}する→解消する：21324_kaishousuru⟧ (resolve a feud)\n- ⟦{長年|ながねん}→長年：09684_naganen⟧⟦の→の：09472_no⟧{確執|かくしつ} (a long-standing feud)\n\nSIMILAR WORDS:\n- ⟦{対立|たいりつ}→対立：04500_tairitsu⟧: opposition/conflict — more neutral; can be ideological without personal animosity\n- ⟦{不和|ふわ}→不和：16133_fuwa⟧: discord — focuses on a lack of harmony in a relationship\n- ⟦{軋轢|あつれき}→軋轢：09129_atsureki⟧: friction — very similar; slightly more formal",
   "cross_references": [
     {
       "type": "synonym",
@@ -53,19 +59,46 @@
       "reading": "ふわ",
       "headword": "{不和|ふわ}",
       "label": "discord"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09129_atsureki",
+      "reading": "あつれき",
+      "headword": "{軋轢|あつれき}",
+      "label": "friction"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22102_hanmoku",
+      "reading": "はんもく",
+      "headword": "{反目|はんもく}",
+      "label": "discord"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30054_ikon",
+      "reading": "いこん",
+      "headword": "{遺恨|いこん}",
+      "label": "grudge"
     }
   ],
   "metadata": {
     "created": "2026-03-17T04:37:12Z",
-    "modified": "2026-05-06T06:14:35Z",
+    "modified": "2026-09-02T04:01:47Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["emotion"],
-      "style": ["written"]
+      "semantic": [
+        "emotion"
+      ],
+      "style": [
+        "written"
+      ]
     }
   }
 }

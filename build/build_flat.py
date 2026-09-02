@@ -56,7 +56,9 @@ from entry_renderer import (
     JST,
 )
 from search_index_builder import (
-    generate_search_index,
+    build_search_data,
+    generate_search_index_js,
+    generate_search_tags_js,
     generate_search_js,
     generate_tag_search_js,
 )
@@ -64,10 +66,16 @@ from page_generators import (
     generate_index_page,
     generate_advanced_page,
     generate_browse_page,
+    generate_browse_row_page,
+    group_entries_by_kana_row,
     generate_recent_page,
     generate_random_page,
     generate_pending_page,
     generate_kanji_list_page,
+    generate_list_page,
+    generate_lists_index_page,
+    generate_tag_list_page,
+    collect_semantic_tag_pages,
     build_recent_entries,
 )
 from article_renderer import (
@@ -250,34 +258,14 @@ def build_flat(project_root: Path, quick: bool = False) -> int:
                 if src.exists():
                     shutil.copy2(src, temp_dir / preserved_file)
 
-        # Ensure about.html exists with content (manually-edited file, not generated)
-        # If missing or empty, try to restore from git history
+        # about.html is hand-maintained in build/templates/ (docs/ is not tracked
+        # since 2026-09-02, so a fresh checkout has no docs/about.html to preserve).
         about_path = temp_dir / 'about.html'
-        if not about_path.exists() or about_path.stat().st_size == 0:
-            print(f"  WARNING: about.html is missing or empty - attempting git restore")
-            try:
-                # Get about.html from the most recent commit where it had content
-                result = subprocess.run(
-                    ['git', 'log', '--oneline', '--diff-filter=M', '-1', '--', 'docs/about.html'],
-                    capture_output=True, text=True, cwd=project_root
-                )
-                if result.returncode == 0 and result.stdout.strip():
-                    commit_hash = result.stdout.strip().split()[0]
-                    # Try to get content from parent of deletion commit
-                    restore_result = subprocess.run(
-                        ['git', 'show', f'{commit_hash}:docs/about.html'],
-                        capture_output=True, text=True, cwd=project_root
-                    )
-                    if restore_result.returncode == 0 and restore_result.stdout.strip():
-                        with open(about_path, 'w', encoding='utf-8') as f:
-                            f.write(restore_result.stdout)
-                        print(f"  Restored about.html from git commit {commit_hash}")
-                    else:
-                        print(f"  ERROR: Could not restore about.html from git - file may need manual restoration")
-                else:
-                    print(f"  ERROR: Could not find about.html in git history - file may need manual restoration")
-            except Exception as e:
-                print(f"  ERROR: Git restore failed for about.html: {e}")
+        template_about = project_root / 'build' / 'templates' / 'about.html'
+        if template_about.exists():
+            shutil.copy2(template_about, about_path)
+        elif not about_path.exists() or about_path.stat().st_size == 0:
+            print("  WARNING: about.html is missing and build/templates/about.html does not exist")
 
         # Always ensure CNAME file exists with canonical content
         # This protects against accidental deletion of the custom domain config
@@ -346,13 +334,37 @@ def build_flat(project_root: Path, quick: bool = False) -> int:
     with open(docs_dir / 'index.html', 'w', encoding='utf-8') as f:
         f.write(generate_index_page(len(entries), tier_counts, total_examples, build_time_jst))
 
-    # Advanced search page (tag-based)
+    # Advanced search page (tag-based) and the unlinked curator tools page
     with open(docs_dir / 'advanced.html', 'w', encoding='utf-8') as f:
         f.write(generate_advanced_page())
+    with open(docs_dir / 'curator.html', 'w', encoding='utf-8') as f:
+        f.write(generate_advanced_page(curator_tools=True))
 
-    # Browse page
+    # Browse index plus one page per kana row
     with open(docs_dir / 'browse.html', 'w', encoding='utf-8') as f:
         f.write(generate_browse_page(entries, entries_dict))
+    browse_dir = docs_dir / 'browse'
+    browse_dir.mkdir(parents=True, exist_ok=True)
+    for row, row_entries in group_entries_by_kana_row(entries):
+        with open(browse_dir / f"{row['folder']}.html", 'w', encoding='utf-8') as f:
+            f.write(generate_browse_row_page(row, row_entries))
+
+    # Study lists (basic/core tiers) and semantic-tag lists
+    lists_dir = docs_dir / 'lists'
+    lists_dir.mkdir(parents=True, exist_ok=True)
+    for tier in ('basic', 'core'):
+        tier_entries = [e for e in entries if e.get('metadata', {}).get('vocabulary_tier') == tier]
+        with open(lists_dir / f'{tier}.html', 'w', encoding='utf-8') as f:
+            f.write(generate_list_page(tier, tier_entries))
+    tag_pages = collect_semantic_tag_pages(entries)
+    tags_dir = docs_dir / 'tags'
+    tags_dir.mkdir(parents=True, exist_ok=True)
+    for slug, info in tag_pages.items():
+        with open(tags_dir / f'{slug}.html', 'w', encoding='utf-8') as f:
+            f.write(generate_tag_list_page(slug, info['label'], info['entries']))
+    with open(lists_dir / 'index.html', 'w', encoding='utf-8') as f:
+        f.write(generate_lists_index_page(tier_counts, tag_pages))
+    print(f"  Generated lists/ (basic, core) and {len(tag_pages)} tags/ pages")
 
     # Recent page
     recent_entries = build_recent_entries(entries)
@@ -399,15 +411,19 @@ def build_flat(project_root: Path, quick: bool = False) -> int:
     else:
         print("  No articles found")
 
-    print("  Generated index.html, advanced.html, browse.html, recent.html, random.html, pending.html, kanji.html")
+    print("  Generated index.html, advanced.html, curator.html, browse.html (+ browse/), recent.html, random.html, pending.html, kanji.html")
 
     timings['4_navigation_pages'] = time.time() - phase_start
 
     # Step 5: Generate search index and JavaScript
     print("\n[5/6] Generating search index...")
     phase_start = time.time()
+    search_index, search_entries, search_tags = build_search_data(entries)
     with open(docs_dir / 'search-index.js', 'w', encoding='utf-8') as f:
-        f.write(generate_search_index(entries))
+        f.write(generate_search_index_js(search_index, search_entries))
+
+    with open(docs_dir / 'search-tags.js', 'w', encoding='utf-8') as f:
+        f.write(generate_search_tags_js(search_tags))
 
     with open(docs_dir / 'search.js', 'w', encoding='utf-8') as f:
         f.write(generate_search_js())
@@ -415,7 +431,11 @@ def build_flat(project_root: Path, quick: bool = False) -> int:
     with open(docs_dir / 'tag-search.js', 'w', encoding='utf-8') as f:
         f.write(generate_tag_search_js())
 
-    print("  Generated search-index.js, search.js, tag-search.js")
+    index_size = (docs_dir / 'search-index.js').stat().st_size / 1e6
+    tags_size = (docs_dir / 'search-tags.js').stat().st_size / 1e6
+    forms_count = len(search_index['forms'])
+    print(f"  Generated search-index.js ({index_size:.1f} MB, {forms_count:,} conjugated forms), "
+          f"search-tags.js ({tags_size:.1f} MB), search.js, tag-search.js")
 
     timings['5_search_index'] = time.time() - phase_start
 

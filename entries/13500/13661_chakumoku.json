@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "13661_chakumoku_ex1",
-      "japanese": "この{点|てん}に{着目|ちゃくもく}してほしい。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{点|てん}→点：01553_ten⟧⟦に→に：00314_ni⟧{着目|ちゃくもく}⟦して→する：00392_suru⟧ほしい。",
       "english": "I'd like you to focus on this point.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "13661_chakumoku_ex2",
-      "japanese": "{研究者|けんきゅうしゃ}は{新|あたら}しい{素材|そざい}の{可能性|かのうせい}に{着目|ちゃくもく}した。",
+      "japanese": "⟦{研究者|けんきゅうしゃ}→研究者：02573_kenkyuusha⟧⟦は→は：00079_ha⟧⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦{素材|そざい}→素材：09492_sozai⟧⟦の→の：09472_no⟧⟦{可能性|かのうせい}→可能性：04818_kanousei⟧⟦に→に：00314_ni⟧{着目|ちゃくもく}⟦した→する：00392_suru⟧。",
       "english": "The researcher focused on the potential of a new material.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "13661_chakumoku_ex3",
-      "japanese": "{彼|かれ}は{他|ほか}の{誰|だれ}も{気|き}づかなかった{小|ちい}さな{変化|へんか}に{着目|ちゃくもく}して{大|おお}きな{発見|はっけん}をした。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{他|ほか}→他：04129_hoka⟧⟦の→の：09472_no⟧⟦{誰|だれ}も→誰も：18610_daremo⟧{気|き}づかなかった⟦{小|ちい}さな→小さな：02913_chiisana⟧⟦{変化|へんか}→変化：03615_henka⟧⟦に→に：00314_ni⟧{着目|ちゃくもく}⟦して→する：00392_suru⟧⟦{大|おお}きな→大きな：02849_ookina⟧⟦{発見|はっけん}→発見：00085_hakken⟧⟦を→を：00422_wo⟧⟦した→する：00392_suru⟧。",
       "english": "He focused on a small change that no one else had noticed and made a great discovery.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nAlways takes the particle に: ～に{着目|ちゃくもく}する (to focus on ~). Common in academic writing, journalism, and business presentations. The related noun {着目点|ちゃくもくてん} means \"point of focus\" or \"angle.\"\n\nCOMMON COLLOCATIONS:\n- ～に{着目|ちゃくもく}する: to focus on ~\n- {着目|ちゃくもく}{点|てん}: point of focus, angle\n- {着目|ちゃくもく}すべき: worth noting, noteworthy\n\nSIMILAR WORDS:\n- {注目|ちゅうもく}: attention, notice (broader; includes public attention/spotlight)\n- {注視|ちゅうし}: close observation, watching carefully (implies sustained watching)",
+  "notes": "USAGE:\nAlways takes the particle ⟦に→に：00314_ni⟧: ～⟦に→に：00314_ni⟧{着目|ちゃくもく}⟦する→する：00392_suru⟧ (to focus on ~). Common in academic writing, journalism, and business presentations. The related noun {着目点|ちゃくもくてん} means \"point of focus\" or \"angle.\"\n\nCOMMON COLLOCATIONS:\n- ～⟦に→に：00314_ni⟧{着目|ちゃくもく}⟦する→する：00392_suru⟧: to focus on ~\n- {着目|ちゃくもく}⟦{点|てん}→点：01553_ten⟧: point of focus, angle\n- {着目|ちゃくもく}すべき: worth noting, noteworthy\n\nSIMILAR WORDS:\n- ⟦{注目|ちゅうもく}→注目：03483_chuumoku⟧: attention, notice (broader; includes public attention/spotlight)\n- ⟦{注視|ちゅうし}→注視：16389_chuushi⟧: close observation, watching carefully (implies sustained watching)",
   "cross_references": [
     {
       "type": "synonym",
@@ -149,11 +149,18 @@
       "reading": "ちゅうし",
       "headword": "{注視|ちゅうし}",
       "label": "close observation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25530_chuumokusuru",
+      "reading": "ちゅうもくする",
+      "headword": "{注目|ちゅうもく}する",
+      "label": "to pay attention to"
     }
   ],
   "metadata": {
     "created": "2026-02-26T12:22:38Z",
-    "modified": "2026-04-29T07:15:05Z",
+    "modified": "2026-09-02T04:01:34Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

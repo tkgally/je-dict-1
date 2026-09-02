@@ -3,7 +3,7 @@
   "headword": "{入|はい}ってくる",
   "reading": "はいってくる",
   "romaji": "haittekuru",
-  "part_of_speech": "verb-kuru",
+  "part_of_speech": "verb (kuru)",
   "gloss": "to come in; to flow in; to enter (toward the speaker)",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29060_haittekuru_ex1",
-      "japanese": "{冷気|れいき}が{窓|まど}から{入|はい}ってくる。",
+      "japanese": "⟦{冷気|れいき}→冷気：21352_reiki⟧⟦が→が：00051_ga⟧⟦{窓|まど}→窓：02254_mado⟧⟦から→から：00504_kara⟧{入|はい}ってくる。",
       "english": "Cold air comes in through the window.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29060_haittekuru_ex2",
-      "japanese": "{誰|だれ}かが{部屋|へや}に{入|はい}ってきた。",
+      "japanese": "⟦{誰|だれ}か→誰か：02912_dareka⟧⟦が→が：00051_ga⟧⟦{部屋|へや}→部屋：00507_heya⟧⟦に→に：00314_ni⟧{入|はい}ってきた。",
       "english": "Someone came into the room.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29060_haittekuru_ex3",
-      "japanese": "SNSを{通|とお}じて{海外|かいがい}からも{情報|じょうほう}が{入|はい}ってくるようになった。",
+      "japanese": "SNS⟦を→を：00422_wo⟧{通|とお}じて⟦{海外|かいがい}→海外：00134_kaigai⟧⟦から→から：00504_kara⟧⟦も→も：00484_mo⟧⟦{情報|じょうほう}→情報：03348_jouhou⟧⟦が→が：00051_ga⟧{入|はい}ってくるようになった。",
       "english": "Information has come to flow in from overseas through social media as well.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "The ～てくる pattern attached to {入|はい}る conveys that the entering is directed toward the speaker or scene. Compare {入|はい}っていく (to go in, moving away) and {入|はい}る (neutral).\n\nCOMMON COLLOCATIONS:\n- {部屋|へや}に{入|はい}ってくる: to come into the room\n- {情報|じょうほう}が{入|はい}ってくる: information comes in\n- {光|ひかり}が{入|はい}ってくる: light comes in\n- {風|かぜ}が{入|はい}ってくる: a breeze comes in\n\nSIMILAR WORDS:\n- {入|はい}る: to enter — neutral, no directional connotation\n- {入|はい}っていく: to go in — the movement is away from the speaker",
+  "notes": "The ～てくる pattern attached to ⟦{入|はい}る→入る：00494_hairu⟧ conveys that the entering is directed toward the speaker or scene. Compare ⟦{入|はい}って→入る：00494_hairu⟧いく (to go in, moving away) and ⟦{入|はい}る→入る：00494_hairu⟧ (neutral).\n\nCOMMON COLLOCATIONS:\n- ⟦{部屋|へや}→部屋：00507_heya⟧⟦に→に：00314_ni⟧{入|はい}ってくる: to come into the room\n- ⟦{情報|じょうほう}→情報：03348_jouhou⟧⟦が→が：00051_ga⟧{入|はい}ってくる: information comes in\n- ⟦{光|ひかり}→光：01707_hikari⟧⟦が→が：00051_ga⟧{入|はい}ってくる: light comes in\n- ⟦{風|かぜ}→風：00641_kaze⟧⟦が→が：00051_ga⟧{入|はい}ってくる: a breeze comes in\n\nSIMILAR WORDS:\n- ⟦{入|はい}る→入る：00494_hairu⟧: to enter — neutral, no directional connotation\n- ⟦{入|はい}って→入る：00494_hairu⟧いく: to go in — the movement is away from the speaker",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00494_hairu",
+      "reading": "はいる",
+      "headword": "{入|はい}る",
+      "label": "to enter"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,15 +62,16 @@
         "verb-kuru"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "movement"
       ],
       "domain": [],
-      "verb_class": "kuru"
+      "verb_class": "kuru",
+      "transitivity": "intransitive"
     },
     "created": "2026-06-09T17:41:06Z",
-    "modified": "2026-08-09T06:33:11Z"
+    "modified": "2026-09-02T04:02:35Z"
   },
   "conjugation": {
     "type": "kuru",

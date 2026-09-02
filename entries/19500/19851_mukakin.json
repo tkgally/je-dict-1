@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "19851_mukakin_ex1",
-      "japanese": "{無課金|むかきん}でクリアした。",
+      "japanese": "{無課金|むかきん}⟦で→で：00502_de⟧⟦クリア→クリア：10825_kuria⟧⟦した→する：00392_suru⟧。",
       "english": "I cleared it without spending any money.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "19851_mukakin_ex2",
-      "japanese": "{無課金|むかきん}プレイヤーでも{楽|たの}しめるゲームだ。",
+      "japanese": "{無課金|むかきん}⟦プレイヤー→プレイヤー：15082_pureiyaa⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧⟦{楽|たの}しめる→楽しむ：01203_tanoshimu⟧⟦ゲーム→ゲーム：03842_geemu⟧だ。",
       "english": "It's a game that even free-to-play players can enjoy.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "19851_mukakin_ex3",
-      "japanese": "{彼|かれ}は{無課金|むかきん}なのにランキング{上位|じょうい}に{入|はい}っている。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{無課金|むかきん}な⟦の→の：09472_no⟧⟦に→に：00314_ni⟧⟦ランキング→ランキング：11195_rankingu⟧⟦{上位|じょうい}→上位：11188_joui⟧⟦に→に：00314_ni⟧⟦{入|はい}っている→入る：00494_hairu⟧。",
       "english": "He's ranked high even though he hasn't spent any money.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "A modern internet and gaming term composed of {無|む} (without) + {課金|かきん} (in-app purchase/billing). Widely used in discussions of mobile games and online games with microtransaction models.\n\nCOMMON COLLOCATIONS:\n- {無課金|むかきん}プレイヤー — free-to-play player\n- {無課金|むかきん}で{攻略|こうりゃく}する — to beat (a game) without paying\n- {無課金|むかきん}{勢|ぜい} — the free-to-play crowd\n\nRELATED TERMS:\n- {課金|かきん} — in-app purchase; paying for game items\n- {微課金|びかきん} — light spending (small purchases)\n- {廃課金|はいかきん} — heavy spending (whale)\n- ガチャ — gacha (random item draw mechanic)",
+  "notes": "A modern internet and gaming term composed of ⟦{無|む}→無：17750_mu⟧ (without) + ⟦{課金|かきん}→課金：08388_kakin⟧ (in-app purchase/billing). Widely used in discussions of mobile games and online games with microtransaction models.\n\nCOMMON COLLOCATIONS:\n- {無課金|むかきん}⟦プレイヤー→プレイヤー：15082_pureiyaa⟧ — free-to-play player\n- {無課金|むかきん}⟦で→で：00502_de⟧⟦{攻略|こうりゃく}する→攻略する：25273_kouryakusuru⟧ — to beat (a game) without paying\n- {無課金|むかきん}{勢|ぜい} — the free-to-play crowd\n\nRELATED WORDS:\n- ⟦{課金|かきん}→課金：08388_kakin⟧ — in-app purchase; paying for game items\n- ⟦{微課金|びかきん}→微課金：29819_bikakin⟧ — light spending (small purchases)\n- {廃課金|はいかきん} — heavy spending (whale)\n- ガチャ — gacha (random item draw mechanic)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "29819_bikakin",
+      "reading": "びかきん",
+      "headword": "{微|び}{課金|かきん}",
+      "label": "light spending"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29811_juukakinzei",
+      "reading": "じゅうかきんぜい",
+      "headword": "{重課金勢|じゅうかきんぜい}",
+      "label": "heavy spender"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,6 +77,6 @@
       ]
     },
     "created": "2026-03-27T03:26:33Z",
-    "modified": "2026-03-27T03:26:33Z"
+    "modified": "2026-09-02T04:01:57Z"
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "16414_keisandakai_ex1",
-      "japanese": "あの{人|ひと}は{計算高|けいさんだか}い。",
+      "japanese": "⟦あの{人|ひと}→あの人：25922_anohito⟧⟦は→は：00079_ha⟧{計算高|けいさんだか}い。",
       "english": "That person is calculating.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "16414_keisandakai_ex2",
-      "japanese": "{計算高|けいさんだか}い{彼女|かのじょ}は{損|そん}になることは{絶対|ぜったい}にしない。",
+      "japanese": "{計算高|けいさんだか}い⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧⟦{損|そん}→損：03325_son⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧こと⟦は→は：00079_ha⟧⟦{絶対|ぜったい}→絶対：00435_zettai⟧にしない。",
       "english": "Being calculating, she never does anything that doesn't benefit her.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "16414_keisandakai_ex3",
-      "japanese": "{親切|しんせつ}そうに{見|み}えるが、{実|じつ}は{計算高|けいさんだか}くて{自分|じぶん}の{利益|りえき}しか{考|かんが}えていない。",
+      "japanese": "⟦{親切|しんせつ}→親切：01144_shinsetsu⟧そう⟦に→に：00314_ni⟧⟦{見|み}える→見える：01165_mieru⟧⟦が→が：00051_ga⟧、⟦{実|じつ}→実：28344_jitsu⟧⟦は→は：00079_ha⟧{計算高|けいさんだか}くて⟦{自分|じぶん}→自分：02887_jibun⟧⟦の→の：09472_no⟧⟦{利益|りえき}→利益：03673_rieki⟧しか⟦{考|かんが}えていない→考える：00856_kangaeru⟧。",
       "english": "He looks kind, but he's actually calculating and only thinks about his own interests.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,19 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{計算高|けいさんだか}い is almost always negative, suggesting someone who weighs every action in terms of personal gain. Unlike {賢|かしこ}い (clever) or {頭|あたま}がいい (smart), which are positive, {計算高|けいさんだか}い implies a cold, self-serving shrewdness.\n\nCOMMON COLLOCATIONS:\n- {計算高|けいさんだか}い{人|ひと} (a calculating person)\n- {計算高|けいさんだか}い{性格|せいかく} (a calculating personality)\n- {計算高|けいさんだか}く{行動|こうどう}する (to act calculatingly)\n\nSIMILAR WORDS:\n{狡|ずる}い (sly, unfair) is more bluntly negative. {抜|ぬ}け{目|め}がない (shrewd, missing nothing) can be slightly more neutral or even admiring.",
-  "cross_references": [],
+  "notes": "USAGE:\n{計算高|けいさんだか}い is almost always negative, suggesting someone who weighs every action in terms of personal gain. Unlike ⟦{賢|かしこ}い→賢い：00192_kashikoi⟧ (clever) or ⟦{頭|あたま}がいい→頭がいい：20316_atamagaii⟧ (smart), which are positive, {計算高|けいさんだか}い implies a cold, self-serving shrewdness.\n\nCOMMON COLLOCATIONS:\n- {計算高|けいさんだか}い⟦{人|ひと}→人：00476_hito⟧ (a calculating person)\n- {計算高|けいさんだか}い⟦{性格|せいかく}→性格：03371_seikaku⟧ (a calculating personality)\n- {計算高|けいさんだか}く⟦{行動|こうどう}→行動：02728_koudou⟧⟦する→する：00392_suru⟧ (to act calculatingly)\n\nSIMILAR WORDS:\n⟦{狡|ずる}い→狡い：03929_zurui⟧ (sly, unfair) is more bluntly negative. ⟦{抜|ぬ}け{目|め}がない→抜け目がない：28319_nukemeganai⟧ (shrewd, missing nothing) can be slightly more neutral or even admiring.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03929_zurui",
+      "reading": "ずるい",
+      "headword": "{狡|ずる}い",
+      "label": "sly, unfair"
+    }
+  ],
   "metadata": {
     "created": "2026-03-12T08:59:47Z",
-    "modified": "2026-03-12T08:59:47Z",
+    "modified": "2026-09-02T04:01:44Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

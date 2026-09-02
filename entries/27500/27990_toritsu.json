@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "27990_toritsu_ex1",
-      "japanese": "{息子|むすこ}は{都立高校|とりつこうこう}に{通|かよ}っている。",
+      "japanese": "⟦{息子|むすこ}→息子：00799_musuko⟧⟦は→は：00079_ha⟧{都立高校|とりつこうこう}⟦に→に：00314_ni⟧⟦{通|かよ}っている→通う：01217_kayou⟧。",
       "english": "My son attends a metropolitan high school.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "27990_toritsu_ex2",
-      "japanese": "この{公園|こうえん}は{都立|とりつ}だ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{公園|こうえん}→公園：00581_kouen⟧⟦は→は：00079_ha⟧{都立|とりつ}だ。",
       "english": "This park is run by the Tokyo metropolitan government.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "27990_toritsu_ex3",
-      "japanese": "{都立|とりつ}の{病院|びょういん}は{私立|しりつ}より{費用|ひよう}が{安|やす}いことが{多|おお}い。",
+      "japanese": "{都立|とりつ}⟦の→の：09472_no⟧⟦{病院|びょういん}→病院：00577_byouin⟧⟦は→は：00079_ha⟧⟦{私立|しりつ}→私立：00370_shiritsu⟧⟦より→より：09476_yori⟧⟦{費用|ひよう}→費用：03588_hiyou⟧⟦が→が：00051_ga⟧⟦{安|やす}い→安い：00464_yasui⟧こと⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "Metropolitan hospitals are often cheaper than private ones.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Means 'established by the Tokyo Metropolitan Government.' Attaches to public institutions: {都立高校|とりつこうこう}, {都立|とりつ}{病院|びょういん}.\n\nCOMMON COLLOCATIONS:\n- {都立高校|とりつこうこう}: metropolitan high school\n- {都立|とりつ}{公園|こうえん}: metropolitan park\n\nSIMILAR WORDS:\n- {県立|けんりつ}: prefectural (run by a {県|けん})\n- {市立|しりつ}: municipal (run by a city)\n- {私立|しりつ}: private — not government-run",
+  "notes": "Means 'established by the Tokyo Metropolitan Government.' Attaches to public institutions: {都立高校|とりつこうこう}, {都立|とりつ}⟦{病院|びょういん}→病院：00577_byouin⟧.\n\nCOMMON COLLOCATIONS:\n- {都立高校|とりつこうこう}: metropolitan high school\n- {都立|とりつ}⟦{公園|こうえん}→公園：00581_kouen⟧: metropolitan park\n\nSIMILAR WORDS:\n- ⟦{県立|けんりつ}→県立：21885_kenritsu⟧: prefectural (run by a ⟦{県|けん}→県：02151_ken⟧)\n- ⟦{市立|しりつ}→市立：19923_shiritsu⟧: municipal (run by a city)\n- ⟦{私立|しりつ}→私立：00370_shiritsu⟧: private — not government-run",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21885_kenritsu",
+      "reading": "けんりつ",
+      "headword": "{県立|けんりつ}",
+      "label": "prefectural"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19923_shiritsu",
+      "reading": "しりつ",
+      "headword": "{市立|しりつ}",
+      "label": "municipal"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00370_shiritsu",
+      "reading": "しりつ",
+      "headword": "{私立|しりつ}",
+      "label": "private"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +76,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "society"
       ],
       "domain": []
     },
     "created": "2026-05-24T02:02:35Z",
-    "modified": "2026-08-08T03:24:52Z"
+    "modified": "2026-09-02T04:02:32Z"
   }
 }

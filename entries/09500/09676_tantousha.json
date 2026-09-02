@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "09676_tantousha_ex1",
-      "japanese": "{担当者|たんとうしゃ}に{聞|き}いてください。",
+      "japanese": "{担当者|たんとうしゃ}⟦に→に：00314_ni⟧⟦{聞|き}いて→聞く：00483_kiku⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please ask the person in charge.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "09676_tantousha_ex2",
-      "japanese": "{担当者|たんとうしゃ}が{変|か}わりました。",
+      "japanese": "{担当者|たんとうしゃ}⟦が→が：00051_ga⟧⟦{変|か}わりました→変わる：00714_kawaru⟧。",
       "english": "The person in charge has changed.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "09676_tantousha_ex3",
-      "japanese": "{担当者|たんとうしゃ}の{名前|なまえ}を{教|おし}えてください。",
+      "japanese": "{担当者|たんとうしゃ}⟦の→の：09472_no⟧⟦{名前|なまえ}→名前：02234_namae⟧⟦を→を：00422_wo⟧⟦{教|おし}えて→教える：00526_oshieru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please tell me the name of the contact person.",
       "notes": null,
       "has_audio": false,
@@ -43,10 +43,10 @@
       ]
     }
   ],
-  "notes": "{担当者|たんとうしゃ} is the person assigned to handle a specific task, account, or area. Very common in business and customer service contexts.\n\nCOMPOUND: {担当|たんとう} (charge, responsibility) + {者|しゃ} (person)\n\nCOMMON COLLOCATIONS:\n- {担当者|たんとうしゃ}に{連絡|れんらく}する: to contact the person in charge\n- {担当者|たんとうしゃ}{不在|ふざい}: the person in charge is absent\n- {営業|えいぎょう}{担当者|たんとうしゃ}: sales representative\n- {担当者|たんとうしゃ}を{変更|へんこう}する: to change the person in charge\n\nRELATED WORDS:\n- {担当|たんとう}: charge, responsibility (the role itself, not the person)\n- {責任者|せきにんしゃ}: person responsible (emphasizes accountability, often higher rank)\n- {係|かかり}: person in charge (often for specific duties within an organization)",
+  "notes": "{担当者|たんとうしゃ} is the person assigned to handle a specific task, account, or area. Very common in business and customer service contexts.\n\nCOMPOUND: ⟦{担当|たんとう}→担当：02567_tantou⟧ (charge, responsibility) + ⟦{者|しゃ}→〜者：04662_sha⟧ (person)\n\nCOMMON COLLOCATIONS:\n- {担当者|たんとうしゃ}⟦に→に：00314_ni⟧⟦{連絡|れんらく}する→連絡する：20202_renrakusuru⟧: to contact the person in charge\n- {担当者|たんとうしゃ}⟦{不在|ふざい}→不在：11302_fuzai⟧: the person in charge is absent\n- {営業|えいぎょう}{担当者|たんとうしゃ}: sales representative\n- {担当者|たんとうしゃ}⟦を→を：00422_wo⟧⟦{変更|へんこう}する→変更する：30779_henkousuru⟧: to change the person in charge\n\nRELATED WORDS:\n- ⟦{担当|たんとう}→担当：02567_tantou⟧: charge, responsibility (the role itself, not the person)\n- ⟦{責任者|せきにんしゃ}→責任者：17175_sekininsha⟧: person responsible (emphasizes accountability, often higher rank)\n- ⟦{係|かかり}→係：02552_kakari⟧: person in charge (often for specific duties within an organization)",
   "metadata": {
     "created": "2026-02-03T05:02:44Z",
-    "modified": "2026-05-06T04:08:30Z",
+    "modified": "2026-09-02T04:01:19Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -74,6 +74,27 @@
       "reading": "せきにんしゃ",
       "headword": "{責任者|せきにんしゃ}",
       "label": "broader responsibility"
+    },
+    {
+      "type": "related",
+      "target_id": "02552_kakari",
+      "reading": "かかり",
+      "headword": "{係|かかり}",
+      "label": "person in charge"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25694_renrakugakari",
+      "reading": "れんらくがかり",
+      "headword": "{連絡係|れんらくがかり}",
+      "label": "liaison"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27111_kakariin",
+      "reading": "かかりいん",
+      "headword": "{係員|かかりいん}",
+      "label": "person in charge"
     }
   ]
 }

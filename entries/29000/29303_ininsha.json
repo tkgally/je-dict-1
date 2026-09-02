@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29303_ininsha_ex1",
-      "japanese": "{委任者|いにんしゃ}の{署名|しょめい}が{必要|ひつよう}だ。",
+      "japanese": "{委任者|いにんしゃ}⟦の→の：09472_no⟧⟦{署名|しょめい}→署名：03682_shomei⟧⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧だ。",
       "english": "The mandator's signature is required.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29303_ininsha_ex2",
-      "japanese": "{委任者|いにんしゃ}は{代理人|だいりにん}に{権限|けんげん}を{与|あた}える。",
+      "japanese": "{委任者|いにんしゃ}⟦は→は：00079_ha⟧⟦{代理人|だいりにん}→代理人：18508_dairinin⟧⟦に→に：00314_ni⟧⟦{権限|けんげん}→権限：10600_kengen⟧⟦を→を：00422_wo⟧⟦{与|あた}える→与える：01821_ataeru⟧。",
       "english": "The mandator grants authority to the agent.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29303_ininsha_ex3",
-      "japanese": "{契約書|けいやくしょ}には{委任者|いにんしゃ}と{受任者|じゅにんしゃ}の{氏名|しめい}を{記載|きさい}する。",
+      "japanese": "⟦{契約書|けいやくしょ}→契約書：06416_keiyakusho⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{委任者|いにんしゃ}⟦と→と：00512_to⟧⟦{受任者|じゅにんしゃ}→受任者：29299_juninsha⟧⟦の→の：09472_no⟧⟦{氏名|しめい}→氏名：04033_shimei⟧⟦を→を：00422_wo⟧⟦{記載|きさい}→記載：14169_kisai⟧⟦する→する：00392_suru⟧。",
       "english": "The contract states the names of both the mandator and the mandatary.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "A legal and business term. The {委任者|いにんしゃ} delegates authority, while the {受任者|じゅにんしゃ} accepts and carries it out.\n\nCOMMON COLLOCATIONS:\n- {委任者|いにんしゃ}の{意思|いし}: the mandator's intent\n- {委任者|いにんしゃ}に{代|か}わって: on behalf of the mandator\n\nRELATED WORDS:\n- {受任者|じゅにんしゃ}: mandatary — the party that accepts the entrusted task\n- {委任状|いにんじょう}: power of attorney — the document granting the authority",
+  "notes": "A legal and business term. The {委任者|いにんしゃ} delegates authority, while the ⟦{受任者|じゅにんしゃ}→受任者：29299_juninsha⟧ accepts and carries it out.\n\nCOMMON COLLOCATIONS:\n- {委任者|いにんしゃ}⟦の→の：09472_no⟧⟦{意思|いし}→意思：12742_ishi⟧: the mandator's intent\n- {委任者|いにんしゃ}⟦に→に：00314_ni⟧⟦{代|か}わって→代わる：11718_kawaru⟧: on behalf of the mandator\n\nRELATED WORDS:\n- ⟦{受任者|じゅにんしゃ}→受任者：29299_juninsha⟧: mandatary — the party that accepts the entrusted task\n- ⟦{委任状|いにんじょう}→委任状：07962_ininjou⟧: power of attorney — the document granting the authority",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "29299_juninsha",
+      "reading": "じゅにんしゃ",
+      "headword": "{受任者|じゅにんしゃ}",
+      "label": "mandatary"
+    },
+    {
+      "type": "related",
+      "target_id": "07962_ininjou",
+      "reading": "いにんじょう",
+      "headword": "{委任状|いにんじょう}",
+      "label": "power of attorney"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +69,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "person"
       ],
@@ -62,6 +78,6 @@
       ]
     },
     "created": "2026-06-17T06:20:08Z",
-    "modified": "2026-06-17T06:20:08Z"
+    "modified": "2026-09-02T04:02:36Z"
   }
 }

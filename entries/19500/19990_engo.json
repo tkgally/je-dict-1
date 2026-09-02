@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "19990_engo_ex1",
-      "japanese": "{仲間|なかま}を{援護|えんご}する。",
+      "japanese": "⟦{仲間|なかま}→仲間：03498_nakama⟧⟦を→を：00422_wo⟧{援護|えんご}⟦する→する：00392_suru⟧。",
       "english": "To back up one's teammates.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "19990_engo_ex2",
-      "japanese": "{味方|みかた}の{援護|えんご}{射撃|しゃげき}で{前進|ぜんしん}できた。",
+      "japanese": "⟦{味方|みかた}→味方：03743_mikata⟧⟦の→の：09472_no⟧{援護|えんご}⟦{射撃|しゃげき}→射撃：16089_shageki⟧⟦で→で：00502_de⟧⟦{前進|ぜんしん}→前進：03758_zenshin⟧⟦できた→できる：00557_dekiru⟧。",
       "english": "We were able to advance thanks to covering fire from our allies.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "19990_engo_ex3",
-      "japanese": "{会議|かいぎ}で{自分|じぶん}の{意見|いけん}が{通|とお}ったのは、{先輩|せんぱい}の{援護|えんご}があったからだ。",
+      "japanese": "⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦で→で：00502_de⟧⟦{自分|じぶん}→自分：02887_jibun⟧⟦の→の：09472_no⟧⟦{意見|いけん}→意見：01303_iken⟧⟦が→が：00051_ga⟧⟦{通|とお}った→通る：01243_tooru⟧⟦の→の：09472_no⟧⟦は→は：00079_ha⟧、⟦{先輩|せんぱい}→先輩：01451_senpai⟧⟦の→の：09472_no⟧{援護|えんご}⟦が→が：00051_ga⟧⟦あった→ある：00006_aru⟧⟦から→から：00504_kara⟧だ。",
       "english": "My opinion was accepted at the meeting because my senior colleague backed me up.",
       "sense_numbers": [
         1
@@ -134,8 +134,38 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {援|えん} (aid) and {護|ご} (protect). Originally a military term for providing covering fire or protective support, now commonly used figuratively in everyday and business contexts.\n\nCOMMON COLLOCATIONS:\n- {援護|えんご}する — to provide support, to back up\n- {援護|えんご}{射撃|しゃげき} — covering fire\n- {援護|えんご}を{求|もと}める — to seek support\n- {戦傷病者|せんしょうびょうしゃ}{戦没者|せんぼつしゃ}{遺族|いぞく}{等|とう}{援護|えんご}{法|ほう} — war veterans' support law\n\nSIMILAR WORDS:\n- {支援|しえん} — support, assistance (broader, more general)\n- {応援|おうえん} — cheering, support (encouraging someone)\n- {援助|えんじょ} — aid, assistance (material or financial help)\n- {庇護|ひご} — protection, patronage (sheltering from harm)",
+  "notes": "A compound of {援|えん} (aid) and {護|ご} (protect). Originally a military term for providing covering fire or protective support, now commonly used figuratively in everyday and business contexts.\n\nCOMMON COLLOCATIONS:\n- {援護|えんご}⟦する→する：00392_suru⟧ — to provide support, to back up\n- {援護|えんご}⟦{射撃|しゃげき}→射撃：16089_shageki⟧ — covering fire\n- {援護|えんご}⟦を→を：00422_wo⟧⟦{求|もと}める→求める：02316_motomeru⟧ — to seek support\n- {戦傷病者|せんしょうびょうしゃ}⟦{戦没者|せんぼつしゃ}→戦没者：23238_senbotsusha⟧⟦{遺族|いぞく}→遺族：14886_izoku⟧{等|とう}{援護|えんご}{法|ほう} — war veterans' support law\n\nSIMILAR WORDS:\n- ⟦{支援|しえん}→支援：07778_shien⟧ — support, assistance (broader, more general)\n- ⟦{応援|おうえん}→応援：01900_ouen⟧ — cheering, support (encouraging someone)\n- ⟦{援助|えんじょ}→援助：01892_enjo⟧ — aid, assistance (material or financial help)\n- ⟦{庇護|ひご}→庇護：12480_higo⟧ — protection, patronage (sheltering from harm)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07778_shien",
+      "reading": "しえん",
+      "headword": "{支援|しえん}",
+      "label": "support, assistance"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01900_ouen",
+      "reading": "おうえん",
+      "headword": "{応援|おうえん}",
+      "label": "cheering, support"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01892_enjo",
+      "reading": "えんじょ",
+      "headword": "{援助|えんじょ}",
+      "label": "aid, assistance"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12480_higo",
+      "reading": "ひご",
+      "headword": "{庇護|ひご}",
+      "label": "protection, patronage"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -148,9 +178,10 @@
       "semantic": [
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-03-28T04:34:49Z",
-    "modified": "2026-03-28T04:34:49Z"
+    "modified": "2026-09-02T04:01:58Z"
   }
 }

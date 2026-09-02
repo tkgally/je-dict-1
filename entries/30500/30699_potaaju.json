@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30699_potaaju_ex1",
-      "japanese": "ポタージュが{好|す}きだ。",
+      "japanese": "ポタージュ⟦が→が：00051_ga⟧⟦{好|す}き→好き：02355_suki⟧だ。",
       "english": "I like potage.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30699_potaaju_ex2",
-      "japanese": "{今日|きょう}のスープはかぼちゃのポタージュです。",
+      "japanese": "⟦{今日|きょう}→今日：00496_kyou⟧⟦の→の：09472_no⟧⟦スープ→スープ：00395_suupu⟧⟦は→は：00079_ha⟧⟦かぼちゃ→かぼちゃ：10306_kabocha⟧⟦の→の：09472_no⟧ポタージュです。",
       "english": "Today's soup is pumpkin potage.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30699_potaaju_ex3",
-      "japanese": "ポタージュはコンソメより{濃|こ}くて、{寒|さむ}い{季節|きせつ}によく{合|あ}う。",
+      "japanese": "ポタージュ⟦は→は：00079_ha⟧⟦コンソメ→コンソメ：30717_konsome⟧⟦より→より：09476_yori⟧⟦{濃|こ}くて→濃い：02344_koi⟧、⟦{寒|さむ}い→寒い：00664_samui⟧⟦{季節|きせつ}→季節：01304_kisetsu⟧⟦に→に：00314_ni⟧⟦よく→よく：00601_yoku⟧⟦{合|あ}う→合う：10466_au⟧。",
       "english": "Potage is thicker than consommé and suits the cold season well.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "From French \"potage.\" The vegetable name comes first, joined with の: かぼちゃのポタージュ, じゃがいものポタージュ.\n\nCOMMON COLLOCATIONS:\n- コーンポタージュ: corn potage — by far the most common variety in Japan\n- かぼちゃのポタージュ: pumpkin potage\n- ポタージュスープ: potage soup — a common redundant phrasing\n- {濃厚|のうこう}なポタージュ: rich, thick potage\n\nSIMILAR WORDS:\n- コンソメ: consommé — the clear, thin soup that ポタージュ is contrasted with\n- クリームスープ: cream soup — overlaps heavily, but names the dairy rather than the texture",
+  "notes": "From French \"potage.\" The vegetable name comes first, joined with ⟦の→の：09472_no⟧: ⟦かぼちゃ→かぼちゃ：10306_kabocha⟧⟦の→の：09472_no⟧ポタージュ, ⟦じゃがいも→じゃがいも：05184_jagaimo⟧⟦の→の：09472_no⟧ポタージュ.\n\nCOMMON COLLOCATIONS:\n- ⟦コーン→コーン：28894_koon⟧ポタージュ: corn potage — by far the most common variety in Japan\n- ⟦かぼちゃ→かぼちゃ：10306_kabocha⟧⟦の→の：09472_no⟧ポタージュ: pumpkin potage\n- ポタージュ⟦スープ→スープ：00395_suupu⟧: potage soup — a common redundant phrasing\n- ⟦{濃厚|のうこう}→濃厚：07905_noukou⟧なポタージュ: rich, thick potage\n\nSIMILAR WORDS:\n- ⟦コンソメ→コンソメ：30717_konsome⟧: consommé — the clear, thin soup that ポタージュ is contrasted with\n- ⟦クリーム→クリーム：00253_kuriimu⟧⟦スープ→スープ：00395_suupu⟧: cream soup — overlaps heavily, but names the dairy rather than the texture",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "30717_konsome",
+      "reading": "こんそめ",
+      "headword": "コンソメ",
+      "label": "consommé"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30698_koonsuupu",
+      "reading": "こーんすーぷ",
+      "headword": "コーンスープ",
+      "label": "corn soup"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +69,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "food"
       ],
       "domain": []
     },
     "created": "2026-08-20T02:40:41Z",
-    "modified": "2026-08-20T02:40:41Z"
+    "modified": "2026-09-02T04:02:41Z"
   }
 }

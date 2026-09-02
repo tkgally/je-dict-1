@@ -14,30 +14,36 @@
   "examples": [
     {
       "id": "10147_konkyo_ex1",
-      "japanese": "その{主張|しゅちょう}には{根拠|こんきょ}がない。",
+      "japanese": "⟦その→その：00993_sono⟧⟦{主張|しゅちょう}→主張：03220_shuchou⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{根拠|こんきょ}⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧。",
       "english": "That claim has no basis.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10147_konkyo_ex2",
-      "japanese": "{根拠|こんきょ}を{示|しめ}してください。",
+      "japanese": "{根拠|こんきょ}⟦を→を：00422_wo⟧⟦{示|しめ}して→示す：01948_shimesu⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please show your evidence.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10147_konkyo_ex3",
-      "japanese": "{科学的|かがくてき}な{根拠|こんきょ}に{基|もと}づいて{判断|はんだん}する。",
+      "japanese": "⟦{科学的|かがくてき}→科学的：05677_kagakuteki⟧な{根拠|こんきょ}⟦に→に：00314_ni⟧⟦{基|もと}づいて→基づく：02315_motozuku⟧⟦{判断|はんだん}する→判断する：06062_handansuru⟧。",
       "english": "To make judgments based on scientific evidence.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{根拠|こんきょ} refers to evidence or reasoning that supports a claim or action.\n\nCOMMON EXPRESSIONS:\n- {根拠|こんきょ}がある: to have grounds/basis\n- {根拠|こんきょ}がない: to have no basis, baseless\n- {根拠|こんきょ}を{示|しめ}す: to show evidence\n- {根拠|こんきょ}に{基|もと}づく: to be based on evidence\n- {科学的|かがくてき}{根拠|こんきょ}: scientific evidence\n- {法的|ほうてき}{根拠|こんきょ}: legal basis\n\nSIMILAR WORDS:\n- {理由|りゆう}: reason (more general)\n- {証拠|しょうこ}: evidence, proof (concrete)",
+  "notes": "{根拠|こんきょ} refers to evidence or reasoning that supports a claim or action.\n\nCOMMON EXPRESSIONS:\n- {根拠|こんきょ}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧: to have grounds/basis\n- {根拠|こんきょ}⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧: to have no basis, baseless\n- {根拠|こんきょ}⟦を→を：00422_wo⟧⟦{示|しめ}す→示す：01948_shimesu⟧: to show evidence\n- {根拠|こんきょ}⟦に→に：00314_ni⟧⟦{基|もと}づく→基づく：02315_motozuku⟧: to be based on evidence\n- {科学的|かがくてき}{根拠|こんきょ}: scientific evidence\n- ⟦{法的|ほうてき}→法的：13300_houteki⟧{根拠|こんきょ}: legal basis\n\nSIMILAR WORDS:\n- ⟦{理由|りゆう}→理由：01102_riyuu⟧: reason (more general)\n- ⟦{証拠|しょうこ}→証拠：10575_shouko⟧: evidence, proof (concrete)",
   "cross_references": [
     {
       "type": "contrast",
@@ -45,17 +51,63 @@
       "reading": "しょうこ",
       "headword": "{証拠|しょうこ}",
       "label": "evidence, proof (concrete)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01102_riyuu",
+      "reading": "りゆう",
+      "headword": "{理由|りゆう}",
+      "label": "reason"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12855_yuen",
+      "reading": "ゆえん",
+      "headword": "{所以|ゆえん}",
+      "label": "reason, grounds, basis"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12866_yoridokoro",
+      "reading": "よりどころ",
+      "headword": "{拠|よ}り{所|どころ}",
+      "label": "basis, foundation, support"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14092_urauchi",
+      "reading": "うらうち",
+      "headword": "{裏打|うらう}ち",
+      "label": "lining"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23070_ikyo",
+      "reading": "いきょ",
+      "headword": "{依拠|いきょ}",
+      "label": "reliance"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29713_tenkyo",
+      "reading": "てんきょ",
+      "headword": "{典拠|てんきょ}",
+      "label": "authority"
     }
   ],
   "metadata": {
     "created": "2026-02-05T11:49:02Z",
-    "modified": "2026-02-05T11:49:02Z",
+    "modified": "2026-09-02T04:01:20Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

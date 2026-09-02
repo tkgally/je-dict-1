@@ -15,40 +15,66 @@
   "examples": [
     {
       "id": "20087_tashoutomo_ex1",
-      "japanese": "{多少|たしょう}とも{役|やく}に{立|た}てればうれしい。",
+      "japanese": "{多少|たしょう}とも⟦{役|やく}→役：12557_yaku⟧⟦に→に：00314_ni⟧⟦{立|た}てれば→立てる：01196_tateru⟧うれしい。",
       "english": "I'd be happy if I could be of some help.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20087_tashoutomo_ex2",
-      "japanese": "{多少|たしょう}とも{経験|けいけん}がある{人|ひと}を{探|さが}している。",
+      "japanese": "{多少|たしょう}とも⟦{経験|けいけん}→経験：01179_keiken⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧⟦{人|ひと}→人：00476_hito⟧⟦を→を：00422_wo⟧⟦{探|さが}している→探す：00493_sagasu⟧。",
       "english": "We're looking for someone with at least some experience.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20087_tashoutomo_ex3",
-      "japanese": "{日本語|にほんご}が{多少|たしょう}とも{分|わ}かる{方|かた}は、{手|て}を{挙|あ}げてください。",
+      "japanese": "⟦{日本語|にほんご}→日本語：00614_nihongo⟧⟦が→が：00051_ga⟧{多少|たしょう}とも⟦{分|わ}かる→分かる：00463_wakaru⟧⟦{方|かた}→方：10665_kata⟧⟦は→は：00079_ha⟧、⟦{手|て}→手：00569_te⟧⟦を→を：00422_wo⟧⟦{挙|あ}げて→挙げる：27889_ageru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "If you understand Japanese even a little, please raise your hand.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A slightly formal adverb combining {多少|たしょう} (some, a little) with とも (even, at least). Emphasizes that even a small amount counts.\n\nUSAGE:\nOften used in conditional or wishful contexts: 'if even a little...' or 'anyone who has even some...' The nuance is inclusive — it sets a low bar and invites participation or acknowledges partial truth.\n\nCOMMON PATTERNS:\n- {多少|たしょう}とも{関係|かんけい}がある: to be at least somewhat related\n- {多少|たしょう}とも{影響|えいきょう}がある: to have at least some influence\n- {多少|たしょう}とも{知識|ちしき}がある: to have at least some knowledge\n\nSIMILAR WORDS:\n- {多少|たしょう}: somewhat, a little — the base word without とも; more neutral\n- いくらか: somewhat, to some degree — more conversational\n- {少|すこ}しでも: even a little — more emphatic about the minimal amount",
+  "notes": "A slightly formal adverb combining ⟦{多少|たしょう}→多少：01647_tashou⟧ (some, a little) with とも (even, at least). Emphasizes that even a small amount counts.\n\nUSAGE:\nOften used in conditional or wishful contexts: 'if even a little...' or 'anyone who has even some...' The nuance is inclusive — it sets a low bar and invites participation or acknowledges partial truth.\n\nCOMMON PATTERNS:\n- {多少|たしょう}とも⟦{関係|かんけい}→関係：01298_kankei⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧: to be at least somewhat related\n- {多少|たしょう}とも⟦{影響|えいきょう}→影響：01877_eikyou⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧: to have at least some influence\n- {多少|たしょう}とも⟦{知識|ちしき}→知識：01463_chishiki⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧: to have at least some knowledge\n\nSIMILAR WORDS:\n- ⟦{多少|たしょう}→多少：01647_tashou⟧: somewhat, a little — the base word without とも; more neutral\n- いくら⟦か→か：09473_ka⟧: somewhat, to some degree — more conversational\n- ⟦{少|すこ}し→少し：00596_sukoshi⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧: even a little — more emphatic about the minimal amount",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21790_ikuraka",
+      "reading": "いくらか",
+      "headword": "いくらか",
+      "label": "somewhat, to some degree"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19718_sukoshidemo",
+      "reading": "すこしでも",
+      "headword": "{少|すこ}しでも",
+      "label": "even a little"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adverb"],
+      "pos": [
+        "adverb"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["degree"]
+      "semantic": [
+        "degree"
+      ]
     },
     "created": "2026-03-28T07:41:00Z",
-    "modified": "2026-03-28T07:41:00Z"
+    "modified": "2026-09-02T04:01:58Z"
   }
 }

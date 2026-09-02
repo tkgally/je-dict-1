@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30654_shinryounaika_ex1",
-      "japanese": "{心療内科|しんりょうないか}に{通|かよ}っている。",
+      "japanese": "{心療内科|しんりょうないか}⟦に→に：00314_ni⟧⟦{通|かよ}っている→通う：01217_kayou⟧。",
       "english": "I've been going to a psychosomatic medicine clinic.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30654_shinryounaika_ex2",
-      "japanese": "{胃|い}の{不調|ふちょう}が{続|つづ}き、{心療内科|しんりょうないか}を{受診|じゅしん}した。",
+      "japanese": "⟦{胃|い}→胃：01706_i⟧⟦の→の：09472_no⟧⟦{不調|ふちょう}→不調：11303_fuchou⟧⟦が→が：00051_ga⟧⟦{続|つづ}き→続く：00903_tsuzuku⟧、{心療内科|しんりょうないか}⟦を→を：00422_wo⟧⟦{受診|じゅしん}→受診：11890_jushin⟧⟦した→する：00392_suru⟧。",
       "english": "My stomach trouble kept up, so I saw a psychosomatic medicine specialist.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30654_shinryounaika_ex3",
-      "japanese": "ストレスが{原因|げんいん}かもしれないと{言|い}われ、{心療内科|しんりょうないか}を{紹介|しょうかい}された。",
+      "japanese": "⟦ストレス→ストレス：03827_sutoresu⟧⟦が→が：00051_ga⟧⟦{原因|げんいん}→原因：01400_genin⟧⟦かもしれない→かもしれない：00164_kamoshirenai⟧⟦と→と：00512_to⟧⟦{言|い}われ→言う：00515_iu⟧、{心療内科|しんりょうないか}⟦を→を：00422_wo⟧⟦{紹介|しょうかい}→紹介：01432_shoukai⟧⟦された→する：00392_suru⟧。",
       "english": "I was told stress might be the cause, and was referred to a psychosomatic medicine department.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Often the least intimidating door into mental health care in Japan, since the presenting complaint is a physical one.\n\nCOMMON COLLOCATIONS:\n- {心療内科|しんりょうないか}を{受診|じゅしん}する: to see a psychosomatic medicine doctor\n- {心療内科|しんりょうないか}に{通|かよ}う: to attend such a clinic regularly\n- {心療内科|しんりょうないか}を{紹介|しょうかい}される: to be referred to one\n\nSIMILAR WORDS:\n- {精神科|せいしんか}: psychiatry — treats mental illness itself, including conditions requiring hospitalization\n- {神経内科|しんけいないか}: neurology — treats diseases of the nerves and brain, not stress reactions\n- {内科|ないか}: internal medicine — the general department this one branched off from",
+  "notes": "Often the least intimidating door into mental health care in Japan, since the presenting complaint is a physical one.\n\nCOMMON COLLOCATIONS:\n- {心療内科|しんりょうないか}⟦を→を：00422_wo⟧⟦{受診|じゅしん}→受診：11890_jushin⟧⟦する→する：00392_suru⟧: to see a psychosomatic medicine doctor\n- {心療内科|しんりょうないか}⟦に→に：00314_ni⟧⟦{通|かよ}う→通う：01217_kayou⟧: to attend such a clinic regularly\n- {心療内科|しんりょうないか}⟦を→を：00422_wo⟧⟦{紹介|しょうかい}される→紹介する：05641_shoukaisuru⟧: to be referred to one\n\nSIMILAR WORDS:\n- ⟦{精神科|せいしんか}→精神科：21587_seishinka⟧: psychiatry — treats mental illness itself, including conditions requiring hospitalization\n- {神経内科|しんけいないか}: neurology — treats diseases of the nerves and brain, not stress reactions\n- ⟦{内科|ないか}→内科：04076_naika⟧: internal medicine — the general department this one branched off from",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21587_seishinka",
+      "reading": "せいしんか",
+      "headword": "{精神科|せいしんか}",
+      "label": "psychiatry"
+    },
+    {
+      "type": "related",
+      "target_id": "08598_tekioushougai",
+      "reading": "てきおうしょうがい",
+      "headword": "{適応障害|てきおうしょうがい}",
+      "label": "adjustment disorder"
+    },
+    {
+      "type": "related",
+      "target_id": "18441_seishinshikkan",
+      "reading": "せいしんしっかん",
+      "headword": "{精神疾患|せいしんしっかん}",
+      "label": "mental illness"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +76,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "health"
       ],
@@ -62,6 +85,6 @@
       ]
     },
     "created": "2026-08-15T12:20:22Z",
-    "modified": "2026-08-15T12:20:22Z"
+    "modified": "2026-09-02T04:02:41Z"
   }
 }

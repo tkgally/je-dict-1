@@ -15,41 +15,58 @@
   "examples": [
     {
       "id": "27522_nanido_ex1",
-      "japanese": "{今回|こんかい}の{試験|しけん}は{難易度|なんいど}が{高|たか}い。",
+      "japanese": "⟦{今回|こんかい}→今回：01409_konkai⟧⟦の→の：09472_no⟧⟦{試験|しけん}→試験：01422_shiken⟧⟦は→は：00079_ha⟧{難易度|なんいど}⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧。",
       "english": "This exam has a high difficulty level.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27522_nanido_ex2",
-      "japanese": "このゲームは{難易度|なんいど}を{選|えら}べる。",
+      "japanese": "⟦この→この：00962_kono⟧⟦ゲーム→ゲーム：03842_geemu⟧⟦は→は：00079_ha⟧{難易度|なんいど}⟦を→を：00422_wo⟧⟦{選|えら}べる→選ぶ：00835_erabu⟧。",
       "english": "In this game you can choose the difficulty level.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27522_nanido_ex3",
-      "japanese": "{昨年|さくねん}に{比|くら}べて{問題|もんだい}の{難易度|なんいど}が{上|あ}がったと{言|い}われている。",
+      "japanese": "⟦{昨年|さくねん}→昨年：10433_sakunen⟧⟦に→に：00314_ni⟧⟦{比|くら}べて→比べる：01237_kuraberu⟧⟦{問題|もんだい}→問題：00797_mondai⟧⟦の→の：09472_no⟧{難易度|なんいど}⟦が→が：00051_ga⟧⟦{上|あ}がった→上がる：00615_agaru⟧⟦と→と：00512_to⟧⟦{言|い}われている→言う：00515_iu⟧。",
       "english": "Compared to last year, the difficulty of the questions is said to have gone up.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Compound of {難|なん} (difficult) + {易|い} (easy) + {度|ど} (degree). Functions as a measurement noun — high values mean more difficult.\n\nCOMMON COLLOCATIONS:\n- {難易度|なんいど}が{高|たか}い / {低|ひく}い: high / low difficulty\n- {難易度|なんいど}{設定|せってい}: difficulty setting\n- {難易度|なんいど}が{上|あ}がる / {下|さ}がる: difficulty rises / falls\n- {難易度|なんいど}{別|べつ}: by difficulty level\n\nSIMILAR WORDS:\n- {難|むずか}しさ: difficulty (general feeling) — {難易度|なんいど} is measured/rated; {難|むずか}しさ is more subjective\n- レベル: level — overlaps for games but lacks the difficult/easy axis built into {難易度|なんいど}",
+  "notes": "Compound of ⟦{難|なん}→難：00452_nan⟧ (difficult) + {易|い} (easy) + ⟦{度|ど}→〜度：09845_do⟧ (degree). Functions as a measurement noun — high values mean more difficult.\n\nCOMMON COLLOCATIONS:\n- {難易度|なんいど}⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧ / ⟦{低|ひく}い→低い：02947_hikui⟧: high / low difficulty\n- {難易度|なんいど}⟦{設定|せってい}→設定：04767_settei⟧: difficulty setting\n- {難易度|なんいど}⟦が→が：00051_ga⟧⟦{上|あ}がる→上がる：00615_agaru⟧ / ⟦{下|さ}がる→下がる：01188_sagaru⟧: difficulty rises / falls\n- {難易度|なんいど}⟦{別|べつ}→別：01216_betsu⟧: by difficulty level\n\nSIMILAR WORDS:\n- {難|むずか}しさ: difficulty (general feeling) — {難易度|なんいど} is measured/rated; {難|むずか}しさ is more subjective\n- ⟦レベル→レベル：00352_reberu⟧: level — overlaps for games but lacks the difficult/easy axis built into {難易度|なんいど}",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00352_reberu",
+      "reading": "れべる",
+      "headword": "レベル",
+      "label": "level"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [],
       "domain": []
     },
     "created": "2026-05-13T04:05:36Z",
-    "modified": "2026-05-13T04:05:36Z"
+    "modified": "2026-09-02T04:02:30Z"
   }
 }

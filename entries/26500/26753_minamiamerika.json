@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26753_minamiamerika_ex1",
-      "japanese": "{南|みなみ}アメリカに{行|い}きたい。",
+      "japanese": "{南|みなみ}アメリカ⟦に→に：00314_ni⟧⟦{行|い}きたい→行く：00119_iku⟧。",
       "english": "I want to go to South America.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26753_minamiamerika_ex2",
-      "japanese": "{南|みなみ}アメリカには{熱帯|ねったい}の{森|もり}が{広|ひろ}がっている。",
+      "japanese": "{南|みなみ}アメリカ⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{熱帯|ねったい}→熱帯：03531_nettai⟧⟦の→の：09472_no⟧⟦{森|もり}→森：02260_mori⟧⟦が→が：00051_ga⟧⟦{広|ひろ}がっている→広がる：01980_hirogaru⟧。",
       "english": "Tropical forests spread across South America.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26753_minamiamerika_ex3",
-      "japanese": "{南|みなみ}アメリカ{大陸|たいりく}には{世界|せかい}で{最|もっと}も{長|なが}い{山脈|さんみゃく}がある。",
+      "japanese": "{南|みなみ}アメリカ{大陸|たいりく}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{世界|せかい}→世界：01447_sekai⟧⟦で→で：00502_de⟧⟦{最|もっと}も→最も：01736_mottomo⟧⟦{長|なが}い→長い：00491_nagai⟧⟦{山脈|さんみゃく}→山脈：07856_sanmyaku⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "The South American continent has the longest mountain range in the world.",
       "sense_numbers": [
         1
@@ -44,8 +44,30 @@
       "notes": null
     }
   ],
-  "notes": "Written either as {南|みなみ}アメリカ or {南米|なんべい}. The full form is used in everyday conversation, while {南米|なんべい} is the Sino-Japanese abbreviation preferred in news reports, formal writing, and compound terms.\n\nCOMMON COLLOCATIONS:\n- {南|みなみ}アメリカ{大陸|たいりく}: the South American continent\n- {南|みなみ}アメリカ{諸国|しょこく}: South American countries\n- {南|みなみ}アメリカ{旅行|りょこう}: travel to South America\n\nSIMILAR WORDS:\n- {南米|なんべい}: South America — Sino-Japanese abbreviation; more compact and formal\n- {北|きた}アメリカ: North America — the northern counterpart\n- {中南米|ちゅうなんべい}: Central and South America — often grouped together in Japanese media",
-  "cross_references": [],
+  "notes": "Written either as {南|みなみ}アメリカ or ⟦{南米|なんべい}→南米：04285_nanbei⟧. The full form is used in everyday conversation, while ⟦{南米|なんべい}→南米：04285_nanbei⟧ is the Sino-Japanese abbreviation preferred in news reports, formal writing, and compound terms.\n\nCOMMON COLLOCATIONS:\n- {南|みなみ}アメリカ{大陸|たいりく}: the South American continent\n- {南|みなみ}アメリカ⟦{諸国|しょこく}→諸国：15992_shokoku⟧: South American countries\n- {南|みなみ}アメリカ⟦{旅行|りょこう}→旅行：00748_ryokou⟧: travel to South America\n\nSIMILAR WORDS:\n- ⟦{南米|なんべい}→南米：04285_nanbei⟧: South America — Sino-Japanese abbreviation; more compact and formal\n- ⟦{北|きた}アメリカ→北アメリカ：26752_kitaamerika⟧: North America — the northern counterpart\n- ⟦{中南米|ちゅうなんべい}→中南米：19053_chuunanbei⟧: Central and South America — often grouped together in Japanese media",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04285_nanbei",
+      "reading": "なんべい",
+      "headword": "{南米|なんべい}",
+      "label": "South America"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26752_kitaamerika",
+      "reading": "きたあめりか",
+      "headword": "{北|きた}アメリカ",
+      "label": "North America"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19053_chuunanbei",
+      "reading": "ちゅうなんべい",
+      "headword": "{中南米|ちゅうなんべい}",
+      "label": "Central and South America"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -61,6 +83,6 @@
       "domain": []
     },
     "created": "2026-05-04T16:16:59Z",
-    "modified": "2026-08-06T12:46:55Z"
+    "modified": "2026-09-02T04:02:27Z"
   }
 }

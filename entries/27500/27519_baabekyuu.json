@@ -3,7 +3,7 @@
   "headword": "バーベキュー",
   "reading": "ばーべきゅー",
   "romaji": "baabekyuu",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "barbecue; BBQ; cookout",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "27519_baabekyuu_ex1",
-      "japanese": "{週末|しゅうまつ}にバーベキューをしよう。",
+      "japanese": "⟦{週末|しゅうまつ}→週末：03030_shuumatsu⟧⟦に→に：00314_ni⟧バーベキュー⟦を→を：00422_wo⟧⟦しよう→する：00392_suru⟧。",
       "english": "Let's have a barbecue this weekend.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "27519_baabekyuu_ex2",
-      "japanese": "{川|かわ}{沿|ぞ}いでバーベキューを{楽|たの}しんだ。",
+      "japanese": "⟦{川|かわ}{沿|ぞ}い→川沿い：03046_kawazoi⟧⟦で→で：00502_de⟧バーベキュー⟦を→を：00422_wo⟧⟦{楽|たの}しんだ→楽しむ：01203_tanoshimu⟧。",
       "english": "We enjoyed a barbecue along the river.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "27519_baabekyuu_ex3",
-      "japanese": "{雨|あめ}が{降|ふ}ってきたので、バーベキューは{屋根|やね}のあるところに{移|うつ}した。",
+      "japanese": "⟦{雨|あめ}→雨：00583_ame⟧⟦が→が：00051_ga⟧⟦{降|ふ}って→降る：00839_furu⟧きた⟦の→の：09472_no⟧で、バーベキュー⟦は→は：00079_ha⟧⟦{屋根|やね}→屋根：02264_yane⟧⟦の→の：09472_no⟧⟦ある→ある：00006_aru⟧⟦ところ→ところ：01137_tokoro⟧⟦に→に：00314_ni⟧⟦{移|うつ}した→移す：10122_utsusu⟧。",
       "english": "It started raining, so we moved the barbecue to a place with a roof.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "Loanword from English 'barbecue'. Frequently abbreviated as BBQ in writing and casual speech.\n\nCOMMON COLLOCATIONS:\n- バーベキューをする: to have a barbecue\n- バーベキュー{大会|たいかい}: BBQ gathering / cookout event\n- バーベキューコンロ: BBQ grill (the equipment)\n- {手ぶら|てぶら}バーベキュー: 'empty-handed' BBQ (a venue provides all the equipment and food)\n\nCULTURAL CONTEXT:\nIn Japan, バーベキュー typically refers to the social event itself rather than a cooking technique. Many parks, campgrounds, and rooftop venues offer rental setups, and gas-style griddles such as {鉄板|てっぱん} are often used alongside charcoal.",
+  "notes": "Loanword from English 'barbecue'. Frequently abbreviated as BBQ in writing and casual speech.\n\nCOMMON COLLOCATIONS:\n- バーベキュー⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧: to have a barbecue\n- バーベキュー⟦{大会|たいかい}→大会：03386_taikai⟧: BBQ gathering / cookout event\n- バーベキュー⟦コンロ→コンロ：04677_konro⟧: BBQ grill (the equipment)\n- ⟦{手|て}ぶら→手ぶら：12755_tebura⟧バーベキュー: 'empty-handed' BBQ (a venue provides all the equipment and food)\n\nCULTURAL NOTE:\nIn Japan, バーベキュー typically refers to the social event itself rather than a cooking technique. Many parks, campgrounds, and rooftop venues offer rental setups, and gas-style griddles such as ⟦{鉄板|てっぱん}→鉄板：14470_teppan⟧ are often used alongside charcoal.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "00343_pikunikku",
+      "reading": "ぴくにっく",
+      "headword": "ピクニック",
+      "label": "picnic"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -54,7 +63,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "food",
         "leisure"
@@ -63,7 +72,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-13T04:04:34Z",
-    "modified": "2026-08-07T16:10:18Z"
+    "modified": "2026-09-02T04:02:30Z"
   },
   "conjugation": {
     "type": "suru",

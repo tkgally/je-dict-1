@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "15776_kakushigoto_ex1",
-      "japanese": "{彼女|かのじょ}には{隠|かく}し{事|ごと}がある。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{隠|かく}し{事|ごと}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "She has a secret.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "15776_kakushigoto_ex2",
-      "japanese": "{夫婦|ふうふ}の{間|あいだ}に{隠|かく}し{事|ごと}はないほうがいい。",
+      "japanese": "⟦{夫婦|ふうふ}→夫婦：03592_fuufu⟧⟦の→の：09472_no⟧⟦{間|あいだ}→間：00914_aida⟧⟦に→に：00314_ni⟧{隠|かく}し{事|ごと}⟦は→は：00079_ha⟧⟦ない→ない：01118_nai⟧⟦ほうがいい→ほうがいい：10078_hougaii⟧。",
       "english": "It's better not to have secrets between a married couple.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "15776_kakushigoto_ex3",
-      "japanese": "{子供|こども}が{何|なに}か{隠|かく}し{事|ごと}をしているようで、{最近|さいきん}{様子|ようす}がおかしい。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧⟦が→が：00051_ga⟧⟦{何|なに}か→何か：03873_nanika⟧{隠|かく}し{事|ごと}⟦を→を：00422_wo⟧⟦している→する：00392_suru⟧ようで、⟦{最近|さいきん}→最近：00881_saikin⟧⟦{様子|ようす}→様子：01521_yousu⟧⟦が→が：00051_ga⟧⟦おかしい→おかしい：00875_okashii⟧。",
       "english": "It seems like the child is hiding something — they've been acting strangely lately.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{隠|かく}し{事|ごと} refers specifically to a personal secret — something one person is concealing from another. It often comes up in discussions of trust in relationships.\n\nCOMMON COLLOCATIONS:\n- {隠|かく}し{事|ごと}をする (keep a secret)\n- {隠|かく}し{事|ごと}がある (have a secret)\n- {隠|かく}し{事|ごと}がばれる (one's secret is found out)\n- {隠|かく}し{事|ごと}はしない (not keep secrets)\n\nSIMILAR WORDS:\n{秘密|ひみつ} is a broader term for \"secret\" that can refer to official secrets, mysteries, or personal secrets. {隠|かく}し{事|ごと} specifically implies a personal matter being deliberately concealed from someone close. {内緒|ないしょ} means \"keeping something between us\" and has a lighter, more casual nuance.",
+  "notes": "USAGE:\n{隠|かく}し{事|ごと} refers specifically to a personal secret — something one person is concealing from another. It often comes up in discussions of trust in relationships.\n\nCOMMON COLLOCATIONS:\n- {隠|かく}し{事|ごと}⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧ (keep a secret)\n- {隠|かく}し{事|ごと}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧ (have a secret)\n- {隠|かく}し{事|ごと}⟦が→が：00051_ga⟧⟦ばれる→ばれる：06721_bareru⟧ (one's secret is found out)\n- {隠|かく}し{事|ごと}はしない (not keep secrets)\n\nSIMILAR WORDS:\n⟦{秘密|ひみつ}→秘密：02504_himitsu⟧ is a broader term for \"secret\" that can refer to official secrets, mysteries, or personal secrets. {隠|かく}し{事|ごと} specifically implies a personal matter being deliberately concealed from someone close. ⟦{内緒|ないしょ}→内緒：03126_naisho⟧ means \"keeping something between us\" and has a lighter, more casual nuance.",
   "cross_references": [
     {
       "type": "synonym",
@@ -59,11 +59,18 @@
       "reading": "ないしょ",
       "headword": "{内緒|ないしょ}",
       "label": "keeping something secret"
+    },
+    {
+      "type": "related",
+      "target_id": "02034_kakusu",
+      "reading": "かくす",
+      "headword": "{隠|かく}す",
+      "label": "to hide, to conceal"
     }
   ],
   "metadata": {
     "created": "2026-03-08T09:41:32Z",
-    "modified": "2026-07-18T04:02:53Z",
+    "modified": "2026-09-02T04:01:42Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

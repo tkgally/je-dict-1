@@ -15,40 +15,67 @@
   "examples": [
     {
       "id": "21365_katayude_ex1",
-      "japanese": "{固|かた}ゆで{卵|たまご}を{作|つく}った。",
+      "japanese": "{固|かた}ゆで⟦{卵|たまご}→卵：02222_tamago⟧⟦を→を：00422_wo⟧⟦{作|つく}った→作る：00481_tsukuru⟧。",
       "english": "I made hard-boiled eggs.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21365_katayude_ex2",
-      "japanese": "{固|かた}ゆでにするには{十二分|じゅうにふん}ほど{茹|ゆ}でる。",
+      "japanese": "{固|かた}ゆで⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{十二分|じゅうにふん}ほど⟦{茹|ゆ}でる→茹でる：02324_yuderu⟧。",
       "english": "Boil for about twelve minutes to make them hard-boiled.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21365_katayude_ex3",
-      "japanese": "サラダには{半熟|はんじゅく}より{固|かた}ゆでの{方|ほう}が{崩|くず}れなくて{使|つか}いやすい。",
+      "japanese": "⟦サラダ→サラダ：01364_sarada⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{半熟|はんじゅく}→半熟：11935_hanjuku⟧⟦より→より：09476_yori⟧{固|かた}ゆで⟦の→の：09472_no⟧⟦{方|ほう}→方：01139_hou⟧⟦が→が：00051_ga⟧⟦{崩|くず}れなくて→崩れる：04248_kuzureru⟧⟦{使|つか}いやすい→使いやすい：30380_tsukaiyasui⟧。",
       "english": "Hard-boiled eggs are easier to use in salads than soft-boiled ones since they don't fall apart.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Also written as {固茹|かたゆ}で. A cooking term composed of {固|かた} (hard, firm) and {茹|ゆ}で (boiling). Almost always used in reference to eggs. Can function as a noun ({固|かた}ゆで{卵|たまご}) or as a descriptive modifier ({固|かた}ゆでにする).\n\nCOMMON COLLOCATIONS:\n- {固|かた}ゆで{卵|たまご}: hard-boiled egg\n- {固|かた}ゆでにする: to hard-boil\n- {固|かた}ゆでの{卵|たまご}: hard-boiled egg\n\nSIMILAR WORDS:\n- {半熟|はんじゅく}: soft-boiled, half-cooked — the opposite, with a runny yolk\n- {温泉卵|おんせんたまご}: hot spring egg — egg with set white and runny yolk\n- {茹|ゆ}で{卵|たまご}: boiled egg — general term, regardless of doneness",
+  "notes": "Also written as {固茹|かたゆ}で. A cooking term composed of {固|かた} (hard, firm) and ⟦{茹|ゆ}で→茹でる：02324_yuderu⟧ (boiling). Almost always used in reference to eggs. Can function as a noun ({固|かた}ゆで⟦{卵|たまご}→卵：02222_tamago⟧) or as a descriptive modifier ({固|かた}ゆで⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧).\n\nCOMMON COLLOCATIONS:\n- {固|かた}ゆで⟦{卵|たまご}→卵：02222_tamago⟧: hard-boiled egg\n- {固|かた}ゆで⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧: to hard-boil\n- {固|かた}ゆで⟦の→の：09472_no⟧⟦{卵|たまご}→卵：02222_tamago⟧: hard-boiled egg\n\nSIMILAR WORDS:\n- ⟦{半熟|はんじゅく}→半熟：11935_hanjuku⟧: soft-boiled, half-cooked — the opposite, with a runny yolk\n- ⟦{温泉卵|おんせんたまご}→温泉卵：27857_onsentamago⟧: hot spring egg — egg with set white and runny yolk\n- {茹|ゆ}で{卵|たまご}: boiled egg — general term, regardless of doneness",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "11935_hanjuku",
+      "reading": "はんじゅく",
+      "headword": "{半熟|はんじゅく}",
+      "label": "soft-boiled, half-cooked"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27857_onsentamago",
+      "reading": "おんせんたまご",
+      "headword": "{温泉|おんせん}{卵|たまご}",
+      "label": "hot spring egg"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food", "cooking"]
+      "semantic": [
+        "food",
+        "cooking"
+      ]
     },
     "created": "2026-04-02T01:40:24Z",
-    "modified": "2026-04-02T01:40:24Z"
+    "modified": "2026-09-02T04:02:03Z"
   }
 }

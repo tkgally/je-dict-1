@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "17739_sensei_ex1",
-      "japanese": "{専制|せんせい}{政治|せいじ}が{長|なが}く{続|つづ}いた。",
+      "japanese": "{専制|せんせい}{政治|せいじ}⟦が→が：00051_ga⟧⟦{長|なが}く→長い：00491_nagai⟧⟦{続|つづ}いた→続く：00903_tsuzuku⟧。",
       "english": "The despotic rule lasted for a long time.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "17739_sensei_ex2",
-      "japanese": "{国民|こくみん}は{専制|せんせい}{君主|くんしゅ}に{反発|はんぱつ}した。",
+      "japanese": "⟦{国民|こくみん}→国民：02757_kokumin⟧⟦は→は：00079_ha⟧{専制|せんせい}{君主|くんしゅ}⟦に→に：00314_ni⟧⟦{反発|はんぱつ}した→反発する：26991_hanpatsusuru⟧。",
       "english": "The people revolted against the despotic monarch.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "17739_sensei_ex3",
-      "japanese": "{歴史|れきし}の{授業|じゅぎょう}で{専制|せんせい}と{民主制|みんしゅせい}の{違|ちが}いについて{学|まな}んだ。",
+      "japanese": "⟦{歴史|れきし}→歴史：02267_rekishi⟧⟦の→の：09472_no⟧⟦{授業|じゅぎょう}→授業：00781_jugyou⟧⟦で→で：00502_de⟧{専制|せんせい}⟦と→と：00512_to⟧{民主制|みんしゅせい}⟦の→の：09472_no⟧⟦{違|ちが}い→違い：03432_chigai⟧⟦について→〜について：03103_nitsuite⟧⟦{学|まな}んだ→学ぶ：01987_manabu⟧。",
       "english": "In history class, we learned about the difference between autocracy and democracy.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nPrimarily used in political and historical discourse. Carries a strongly negative connotation. Can modify nouns directly: {専制|せんせい}{政治|せいじ} (despotic rule), {専制|せんせい}{君主|くんしゅ} (despot, autocrat).\n\nRELATED WORDS:\n- {独裁|どくさい}: dictatorship — more commonly used in modern political contexts\n- {暴政|ぼうせい}: tyrannical government — emphasizes cruelty and oppression\n\nCOMMON COLLOCATIONS:\n- {専制|せんせい}{政治|せいじ}: despotic rule\n- {専制|せんせい}{君主|くんしゅ}: autocratic monarch, despot\n- {専制|せんせい}{国家|こっか}: autocratic state",
+  "notes": "USAGE:\nPrimarily used in political and historical discourse. Carries a strongly negative connotation. Can modify nouns directly: {専制|せんせい}{政治|せいじ} (despotic rule), {専制|せんせい}{君主|くんしゅ} (despot, autocrat).\n\nRELATED WORDS:\n- ⟦{独裁|どくさい}→独裁：05969_dokusai⟧: dictatorship — more commonly used in modern political contexts\n- ⟦{暴政|ぼうせい}→暴政：24165_bousei⟧: tyrannical government — emphasizes cruelty and oppression\n\nCOMMON COLLOCATIONS:\n- {専制|せんせい}{政治|せいじ}: despotic rule\n- {専制|せんせい}{君主|くんしゅ}: autocratic monarch, despot\n- {専制|せんせい}⟦{国家|こっか}→国家：02760_kokka⟧: autocratic state",
   "cross_references": [
     {
       "type": "synonym",
@@ -52,11 +52,25 @@
       "reading": "どくさい",
       "headword": "{独裁|どくさい}",
       "label": "dictatorship (modern)"
+    },
+    {
+      "type": "related",
+      "target_id": "24165_bousei",
+      "reading": "ぼうせい",
+      "headword": "{暴政|ぼうせい}",
+      "label": "tyrannical government"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06028_minshu",
+      "reading": "みんしゅ",
+      "headword": "{民主|みんしゅ}",
+      "label": "democracy"
     }
   ],
   "metadata": {
     "created": "2026-03-18T23:07:12Z",
-    "modified": "2026-07-24T07:00:08Z",
+    "modified": "2026-09-02T04:01:49Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

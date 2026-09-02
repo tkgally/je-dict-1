@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "12110_urekko_ex1",
-      "japanese": "{彼女|かのじょ}は{今|いま}{売|う}れっ{子|こ}の{女優|じょゆう}だ。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧⟦{今|いま}→今：00945_ima⟧{売|う}れっ{子|こ}⟦の→の：09472_no⟧⟦{女優|じょゆう}→女優：03353_joyuu⟧だ。",
       "english": "She is a popular actress right now.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12110_urekko_ex2",
-      "japanese": "{売|う}れっ{子|こ}の{作家|さっか}は{毎月|まいつき}{締|し}め{切|き}りに{追|お}われている。",
+      "japanese": "{売|う}れっ{子|こ}⟦の→の：09472_no⟧⟦{作家|さっか}→作家：01414_sakka⟧⟦は→は：00079_ha⟧⟦{毎月|まいつき}→毎月：00732_maitsuki⟧⟦{締|し}め{切|き}り→締め切り：04162_shimekiri⟧⟦に→に：00314_ni⟧⟦{追|お}われている→追う：02016_ou⟧。",
       "english": "The in-demand author is chased by deadlines every month.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12110_urekko_ex3",
-      "japanese": "デビューからわずか{一年|いちねん}で{売|う}れっ{子|こ}になり、テレビに{出|で}ない{日|ひ}はないほどだ。",
+      "japanese": "⟦デビュー→デビュー：11016_debyuu⟧⟦から→から：00504_kara⟧わずか⟦{一年|いちねん}→一年：10994_ichinen⟧⟦で→で：00502_de⟧{売|う}れっ{子|こ}⟦に→に：00314_ni⟧⟦なり→なる：01970_naru⟧、⟦テレビ→テレビ：01536_terebi⟧⟦に→に：00314_ni⟧⟦{出|で}ない→出る：00513_deru⟧⟦{日|ひ}→日：02249_hi⟧⟦は→は：00079_ha⟧⟦ない→ない：01118_nai⟧ほどだ。",
       "english": "Within just one year of debuting, she became hugely popular — there isn't a day she's not on TV.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nTypically used for entertainers, writers, designers, and other professionals whose popularity is measured by demand for their work. Carries a positive connotation of success and desirability. The っ{子|こ} suffix is colloquial and adds a familiar tone.\n\nCOMMON COLLOCATIONS:\n- {売|う}れっ{子|こ}{女優|じょゆう}: popular actress\n- {売|う}れっ{子|こ}{作家|さっか}: in-demand author\n- {売|う}れっ{子|こ}タレント: popular TV personality\n- {売|う}れっ{子|こ}になる: become popular/in-demand\n\nSIMILAR WORDS:\n{売|う}れっ{子|こ} emphasizes being in high demand professionally. {人気者|にんきもの} (popular person) is broader and can apply to anyone well-liked, not just professionals.",
+  "notes": "USAGE:\nTypically used for entertainers, writers, designers, and other professionals whose popularity is measured by demand for their work. Carries a positive connotation of success and desirability. The っ{子|こ} suffix is colloquial and adds a familiar tone.\n\nCOMMON COLLOCATIONS:\n- {売|う}れっ{子|こ}⟦{女優|じょゆう}→女優：03353_joyuu⟧: popular actress\n- {売|う}れっ{子|こ}⟦{作家|さっか}→作家：01414_sakka⟧: in-demand author\n- {売|う}れっ{子|こ}⟦タレント→タレント：25367_tarento⟧: popular TV personality\n- {売|う}れっ{子|こ}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧: become popular/in-demand\n\nSIMILAR WORDS:\n{売|う}れっ{子|こ} emphasizes being in high demand professionally. ⟦{人気者|にんきもの}→人気者：19887_ninkimono⟧ (popular person) is broader and can apply to anyone well-liked, not just professionals.",
   "cross_references": [
     {
       "type": "synonym",
@@ -46,18 +52,29 @@
       "reading": "にんきもの",
       "headword": "{人気者|にんきもの}",
       "label": "popular person (general)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21393_hipparidako",
+      "reading": "ひっぱりだこ",
+      "headword": "{引|ひ}っ{張|ぱ}りだこ",
+      "label": "in great demand"
     }
   ],
   "metadata": {
     "created": "2026-02-20T05:28:34Z",
-    "modified": "2026-04-26T06:29:08Z",
+    "modified": "2026-09-02T04:01:27Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "informal",
       "politeness": "plain",
-      "semantic": ["person"]
+      "semantic": [
+        "person"
+      ]
     }
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "23937_joshidaisei_ex1",
-      "japanese": "{姉|あね}は{女子大生|じょしだいせい}です。",
+      "japanese": "⟦{姉|あね}→姉：00571_ane⟧⟦は→は：00079_ha⟧{女子大生|じょしだいせい}です。",
       "english": "My older sister is a female college student.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "23937_joshidaisei_ex2",
-      "japanese": "{女子大生|じょしだいせい}{向|む}けの{雑誌|ざっし}を{読|よ}んでいる。",
+      "japanese": "{女子大生|じょしだいせい}{向|む}け⟦の→の：09472_no⟧⟦{雑誌|ざっし}→雑誌：00686_zasshi⟧⟦を→を：00422_wo⟧⟦{読|よ}んでいる→読む：00426_yomu⟧。",
       "english": "I'm reading a magazine aimed at female college students.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "23937_joshidaisei_ex3",
-      "japanese": "この{喫茶店|きっさてん}は{近|ちか}くの{大学|だいがく}の{女子大生|じょしだいせい}に{人気|にんき}だそうだ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{喫茶店|きっさてん}→喫茶店：01079_kissaten⟧⟦は→は：00079_ha⟧{近|ちか}く⟦の→の：09472_no⟧⟦{大学|だいがく}→大学：00608_daigaku⟧⟦の→の：09472_no⟧{女子大生|じょしだいせい}⟦に→に：00314_ni⟧⟦{人気|にんき}→人気：01488_ninki⟧だそうだ。",
       "english": "I hear this café is popular with female students from the nearby university.",
       "sense_numbers": [
         1
@@ -44,8 +44,45 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {女子|じょし} (girl, young woman) and {大生|だいせい}, itself a clipped form of {大学生|だいがくせい} (university student). The word is a common demographic label, but be aware that it can sometimes carry a mildly stereotyped connotation in marketing and media contexts, where it often suggests youthfulness, trendiness, or buying power.\n\nCOMMON COLLOCATIONS:\n- {女子大生|じょしだいせい}{向|む}け: aimed at female college students\n- {現役|げんえき}{女子大生|じょしだいせい}: currently enrolled female college student\n- {女子大生|じょしだいせい}ブランド: brands popular with female college students\n- {女子大生|じょしだいせい}のアルバイト: part-time jobs done by female college students\n- {女子大生|じょしだいせい}{社長|しゃちょう}: female college student CEO (media label for young women entrepreneurs)\n\nSIMILAR WORDS:\n- {男子大生|だんしだいせい}: male college student — the male counterpart, but used much less often\n- {大学生|だいがくせい}: university student — gender-neutral, more formal\n- {女子学生|じょしがくせい}: female student — covers all school levels, more formal\n- {女|じょ}{大生|だいせい}: (rare spelling) — occasionally seen in older print media\n\nCULTURAL NOTE:\nIn Japan, \"{女子|じょし}\" in this compound does not evoke the \"little girl\" sense — it is simply the paired counterpart to {男子|だんし} in academic and sporting labels, similar to \"women's/men's\" in English.",
+  "notes": "Composed of ⟦{女子|じょし}→女子：03350_joshi⟧ (girl, young woman) and {大生|だいせい}, itself a clipped form of ⟦{大学生|だいがくせい}→大学生：01653_daigakusei⟧ (university student). The word is a common demographic label, but be aware that it can sometimes carry a mildly stereotyped connotation in marketing and media contexts, where it often suggests youthfulness, trendiness, or buying power.\n\nCOMMON COLLOCATIONS:\n- {女子大生|じょしだいせい}{向|む}け: aimed at female college students\n- ⟦{現役|げんえき}→現役：21782_geneki⟧{女子大生|じょしだいせい}: currently enrolled female college student\n- {女子大生|じょしだいせい}⟦ブランド→ブランド：05221_burando⟧: brands popular with female college students\n- {女子大生|じょしだいせい}⟦の→の：09472_no⟧⟦アルバイト→アルバイト：01528_arubaito⟧: part-time jobs done by female college students\n- {女子大生|じょしだいせい}⟦{社長|しゃちょう}→社長：01428_shachou⟧: female college student CEO (media label for young women entrepreneurs)\n\nSIMILAR WORDS:\n- {男子大生|だんしだいせい}: male college student — the male counterpart, but used much less often\n- ⟦{大学生|だいがくせい}→大学生：01653_daigakusei⟧: university student — gender-neutral, more formal\n- ⟦{女子学生|じょしがくせい}→女子学生：25054_joshigakusei⟧: female student — covers all school levels, more formal\n- {女|じょ}{大生|だいせい}: (rare spelling) — occasionally seen in older print media\n\nCULTURAL NOTE:\nIn Japan, \"⟦{女子|じょし}→女子：03350_joshi⟧\" in this compound does not evoke the \"little girl\" sense — it is simply the paired counterpart to ⟦{男子|だんし}→男子：03425_danshi⟧ in academic and sporting labels, similar to \"women's/men's\" in English.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01653_daigakusei",
+      "reading": "だいがくせい",
+      "headword": "{大学生|だいがくせい}",
+      "label": "university student"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25054_joshigakusei",
+      "reading": "じょしがくせい",
+      "headword": "{女子学生|じょしがくせい}",
+      "label": "female student"
+    },
+    {
+      "type": "related",
+      "target_id": "07743_jeeshii",
+      "reading": "じぇーしー",
+      "headword": "JC",
+      "label": "middle school girl"
+    },
+    {
+      "type": "related",
+      "target_id": "12381_joshikousei",
+      "reading": "じょしこうせい",
+      "headword": "{女子高生|じょしこうせい}",
+      "label": "high school girl"
+    },
+    {
+      "type": "related",
+      "target_id": "23376_joshichuugakusei",
+      "reading": "じょしちゅうがくせい",
+      "headword": "{女子中学生|じょしちゅうがくせい}",
+      "label": "female junior high school student"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +97,6 @@
       ]
     },
     "created": "2026-04-15T14:03:17Z",
-    "modified": "2026-08-02T18:32:34Z"
+    "modified": "2026-09-02T04:02:15Z"
   }
 }

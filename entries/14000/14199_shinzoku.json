@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "14199_shinzoku_ex1",
-      "japanese": "{親族|しんぞく}が{集|あつ}まった。",
+      "japanese": "{親族|しんぞく}⟦が→が：00051_ga⟧⟦{集|あつ}まった→集まる：01162_atsumaru⟧。",
       "english": "The relatives gathered.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14199_shinzoku_ex2",
-      "japanese": "{結婚式|けっこんしき}には{親族|しんぞく}だけを{招待|しょうたい}した。",
+      "japanese": "⟦{結婚式|けっこんしき}→結婚式：05493_kekkonshiki⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{親族|しんぞく}⟦だけ→〜だけ：03093_dake⟧⟦を→を：00422_wo⟧⟦{招待|しょうたい}した→招待する：01833_shoutaisuru⟧。",
       "english": "We invited only relatives to the wedding.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14199_shinzoku_ex3",
-      "japanese": "{遠|とお}い{親族|しんぞく}から{突然|とつぜん}{連絡|れんらく}が{来|き}て{驚|おどろ}いた。",
+      "japanese": "⟦{遠|とお}い→遠い：00529_tooi⟧{親族|しんぞく}⟦から→から：00504_kara⟧⟦{突然|とつぜん}→突然：00409_totsuzen⟧⟦{連絡|れんらく}→連絡：01524_renraku⟧⟦が→が：00051_ga⟧⟦{来|き}て→来る：00254_kuru⟧⟦{驚|おどろ}いた→驚く：01255_odoroku⟧。",
       "english": "I was surprised to receive a sudden contact from a distant relative.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "COMMON COLLOCATIONS:\n- {親族|しんぞく}{関係|かんけい}: family/kinship relations\n- {親族|しんぞく}{一同|いちどう}: all the relatives\n- {遠|とお}い{親族|しんぞく}: distant relative\n- {近|ちか}い{親族|しんぞく}: close relative\n- {親族|しんぞく}{会議|かいぎ}: family council\n\nSIMILAR WORDS:\n- {親戚|しんせき}: relatives (more colloquial and commonly used in daily conversation)\n- {身内|みうち}: family, one's own people (informal, includes close associates)\n- {一族|いちぞく}: clan, whole family (emphasizes the group as a unit)\n\nUSAGE:\n{親族|しんぞく} is more formal than {親戚|しんせき} and is preferred in legal, official, and ceremonial contexts such as funerals, weddings, and legal documents. In casual conversation, {親戚|しんせき} is more natural.",
+  "notes": "COMMON COLLOCATIONS:\n- {親族|しんぞく}{関係|かんけい}: family/kinship relations\n- {親族|しんぞく}⟦{一同|いちどう}→一同：08918_ichidou⟧: all the relatives\n- ⟦{遠|とお}い→遠い：00529_tooi⟧{親族|しんぞく}: distant relative\n- ⟦{近|ちか}い→近い：00530_chikai⟧{親族|しんぞく}: close relative\n- {親族|しんぞく}⟦{会議|かいぎ}→会議：00710_kaigi⟧: family council\n\nSIMILAR WORDS:\n- ⟦{親戚|しんせき}→親戚：03260_shinseki⟧: relatives (more colloquial and commonly used in daily conversation)\n- ⟦{身内|みうち}→身内：14300_miuchi⟧: family, one's own people (informal, includes close associates)\n- ⟦{一族|いちぞく}→一族：11229_ichizoku⟧: clan, whole family (emphasizes the group as a unit)\n\nUSAGE:\n{親族|しんぞく} is more formal than ⟦{親戚|しんせき}→親戚：03260_shinseki⟧ and is preferred in legal, official, and ceremonial contexts such as funerals, weddings, and legal documents. In casual conversation, ⟦{親戚|しんせき}→親戚：03260_shinseki⟧ is more natural.",
   "cross_references": [
     {
       "type": "synonym",
@@ -46,18 +52,43 @@
       "reading": "しんせき",
       "headword": "{親戚|しんせき}",
       "label": "relatives (colloquial)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14300_miuchi",
+      "reading": "みうち",
+      "headword": "{身内|みうち}",
+      "label": "family, one's own people"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11229_ichizoku",
+      "reading": "いちぞく",
+      "headword": "{一族|いちぞく}",
+      "label": "clan, whole family"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04210_shinrui",
+      "reading": "しんるい",
+      "headword": "{親類|しんるい}",
+      "label": "relatives, kin"
     }
   ],
   "metadata": {
     "created": "2026-02-28T02:20:40Z",
-    "modified": "2026-04-30T05:18:10Z",
+    "modified": "2026-09-02T04:01:36Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["family"]
+      "semantic": [
+        "family"
+      ]
     }
   }
 }

@@ -14,50 +14,84 @@
   "examples": [
     {
       "id": "19440_toushi_ex1",
-      "japanese": "{闘志|とうし}を{燃|も}やす。",
+      "japanese": "{闘志|とうし}⟦を→を：00422_wo⟧⟦{燃|も}やす→燃やす：02318_moyasu⟧。",
       "english": "To burn with fighting spirit.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "19440_toushi_ex2",
-      "japanese": "{彼|かれ}は{闘志|とうし}あふれる{選手|せんしゅ}だ。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{闘志|とうし}あふれる⟦{選手|せんしゅ}→選手：03823_senshu⟧だ。",
       "english": "He is a player brimming with fighting spirit.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "19440_toushi_ex3",
-      "japanese": "{負|ま}けても{闘志|とうし}を{失|うしな}わなかった。",
+      "japanese": "⟦{負|ま}けて→負ける：01134_makeru⟧⟦も→も：00484_mo⟧{闘志|とうし}⟦を→を：00422_wo⟧⟦{失|うしな}わなかった→失う：01887_ushinau⟧。",
       "english": "Even after losing, I didn't lose my fighting spirit.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "19440_toushi_ex4",
-      "japanese": "{相手|あいて}チームの{強|つよ}さを{見|み}て、かえって{闘志|とうし}がわいてきた。",
+      "japanese": "⟦{相手|あいて}→相手：01677_aite⟧⟦チーム→チーム：03858_chiimu⟧⟦の→の：09472_no⟧⟦{強|つよ}さ→強さ：25692_tsuyosa⟧⟦を→を：00422_wo⟧⟦{見|み}て→見る：00283_miru⟧、かえって{闘志|とうし}⟦が→が：00051_ga⟧わいてきた。",
       "english": "Seeing the strength of the opposing team, my fighting spirit surged even more.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{闘志|とうし} refers to a fierce determination to compete or overcome adversity.\n\nCOMMON COLLOCATIONS:\n- {闘志|とうし}を{燃|も}やす (to burn with fighting spirit)\n- {闘志|とうし}がわく (fighting spirit wells up)\n- {闘志|とうし}を{失|うしな}う (to lose one's fighting spirit)\n- {闘志|とうし}あふれる (brimming with fighting spirit)\n- {闘志|とうし}むき{出|だ}し (openly combative)\n\nUSAGE:\n- Common in sports and competition contexts\n- Also used figuratively for determination in business or personal challenges\n- Always written with {闘|とう} (fight), not {闘|たたか}",
-  "cross_references": [],
+  "notes": "{闘志|とうし} refers to a fierce determination to compete or overcome adversity.\n\nCOMMON COLLOCATIONS:\n- {闘志|とうし}⟦を→を：00422_wo⟧⟦{燃|も}やす→燃やす：02318_moyasu⟧ (to burn with fighting spirit)\n- {闘志|とうし}⟦が→が：00051_ga⟧わく (fighting spirit wells up)\n- {闘志|とうし}⟦を→を：00422_wo⟧⟦{失|うしな}う→失う：01887_ushinau⟧ (to lose one's fighting spirit)\n- {闘志|とうし}あふれる (brimming with fighting spirit)\n- {闘志|とうし}むき{出|だ}し (openly combative)\n\nUSAGE:\n- Common in sports and competition contexts\n- Also used figuratively for determination in business or personal challenges\n- Always written with {闘|とう} (fight), not {闘|たたか}",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21464_faito",
+      "reading": "ふぁいと",
+      "headword": "ファイト",
+      "label": "fighting spirit"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22382_tousoushin",
+      "reading": "とうそうしん",
+      "headword": "{闘争心|とうそうしん}",
+      "label": "fighting spirit"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27064_shoubushin",
+      "reading": "しょうぶしん",
+      "headword": "{勝負心|しょうぶしん}",
+      "label": "fighting spirit"
+    }
+  ],
   "metadata": {
     "created": "2026-03-25T14:40:30Z",
-    "modified": "2026-03-25T14:40:30Z",
+    "modified": "2026-09-02T04:01:56Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["emotion"]
+      "semantic": [
+        "emotion"
+      ]
     }
   }
 }

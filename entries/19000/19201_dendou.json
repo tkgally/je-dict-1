@@ -3,7 +3,7 @@
   "headword": "{伝道|でんどう}",
   "reading": "でんどう",
   "romaji": "dendou",
-  "part_of_speech": "noun / suru verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "evangelism; missionary work; spreading a teaching",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "19201_dendou_ex1",
-      "japanese": "{伝道|でんどう}{活動|かつどう}に{従事|じゅうじ}する。",
+      "japanese": "{伝道|でんどう}⟦{活動|かつどう}→活動：00201_katsudou⟧⟦に→に：00314_ni⟧⟦{従事|じゅうじ}→従事：12562_juuji⟧⟦する→する：00392_suru⟧。",
       "english": "To engage in missionary work.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "19201_dendou_ex2",
-      "japanese": "{彼|かれ}は{日本茶|にほんちゃ}の{伝道師|でんどうし}として{海外|かいがい}で{活動|かつどう}している。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{日本茶|にほんちゃ}→日本茶：28691_nihoncha⟧⟦の→の：09472_no⟧⟦{伝道師|でんどうし}→伝道師：25610_dendoushi⟧⟦として→として：06802_toshite⟧⟦{海外|かいがい}→海外：00134_kaigai⟧⟦で→で：00502_de⟧⟦{活動|かつどう}→活動：00201_katsudou⟧⟦している→する：00392_suru⟧。",
       "english": "He is active overseas as an evangelist for Japanese tea.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "19201_dendou_ex3",
-      "japanese": "フランシスコ・ザビエルは{日本|にほん}にキリスト{教|きょう}を{伝道|でんどう}した{最初|さいしょ}の{宣教師|せんきょうし}だ。",
+      "japanese": "フランシスコ・ザビエル⟦は→は：00079_ha⟧⟦{日本|にほん}→日本：03876_nihon⟧⟦に→に：00314_ni⟧⟦キリスト{教|きょう}→キリスト教：10823_kirisutokyou⟧⟦を→を：00422_wo⟧{伝道|でんどう}⟦した→する：00392_suru⟧⟦{最初|さいしょ}→最初：00882_saisho⟧⟦の→の：09472_no⟧⟦{宣教師|せんきょうし}→宣教師：12382_senkyoushi⟧だ。",
       "english": "Francisco Xavier was the first missionary to spread Christianity to Japan.",
       "sense_numbers": [
         1
@@ -134,8 +134,17 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {伝|でん} (transmit, convey) + {道|どう} (way, path, teaching). Originally a religious term, now also used figuratively for anyone who passionately promotes something. Common collocations: {伝道|でんどう}する (to evangelize), {伝道師|でんどうし} (evangelist; also used figuratively), {伝道|でんどう}{活動|かつどう} (missionary activity). Not to be confused with the homophones {電動|でんどう} (electric-powered) or {殿堂|でんどう} (hall of fame). Related: {宣教|せんきょう} (mission, propagation of religion) is a near-synonym but more specifically religious, while {伝道|でんどう} extends more easily to figurative use.",
+  "notes": "Composed of {伝|でん} (transmit, convey) + {道|どう} (way, path, teaching). Originally a religious term, now also used figuratively for anyone who passionately promotes something. Common collocations: {伝道|でんどう}⟦する→する：00392_suru⟧ (to evangelize), ⟦{伝道師|でんどうし}→伝道師：25610_dendoushi⟧ (evangelist; also used figuratively), {伝道|でんどう}⟦{活動|かつどう}→活動：00201_katsudou⟧ (missionary activity). Not to be confused with the homophones ⟦{電動|でんどう}→電動：06412_dendou⟧ (electric-powered) or ⟦{殿堂|でんどう}→殿堂：13227_dendou⟧ (hall of fame). Related: {宣教|せんきょう} (mission, propagation of religion) is a near-synonym but more specifically religious, while {伝道|でんどう} extends more easily to figurative use.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15286_fukyou",
+      "reading": "ふきょう",
+      "headword": "{布教|ふきょう}",
+      "label": "proselytizing"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -145,10 +154,12 @@
       ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["religion"],
+      "semantic": [
+        "religion"
+      ],
       "verb_class": "suru"
     },
     "created": "2026-03-24T14:01:31Z",
-    "modified": "2026-07-26T21:32:58Z"
+    "modified": "2026-09-02T04:01:55Z"
   }
 }

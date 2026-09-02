@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30625_ashidematoi_ex1",
-      "japanese": "{足手|あしで}まといになりたくない。",
+      "japanese": "{足手|あしで}まとい⟦に→に：00314_ni⟧⟦なりたくない→なる：01970_naru⟧。",
       "english": "I don't want to be a burden.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30625_ashidematoi_ex2",
-      "japanese": "{大|おお}きな{荷物|にもつ}が{足手|あしで}まといになった。",
+      "japanese": "⟦{大|おお}きな→大きな：02849_ookina⟧⟦{荷物|にもつ}→荷物：00737_nimotsu⟧⟦が→が：00051_ga⟧{足手|あしで}まといになった。",
       "english": "The big luggage slowed us down.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30625_ashidematoi_ex3",
-      "japanese": "{足|あし}を{痛|いた}めていたので、チームの{足手|あしで}まといになるのではないかと{心配|しんぱい}だった。",
+      "japanese": "⟦{足|あし}→足：00575_ashi⟧⟦を→を：00422_wo⟧⟦{痛|いた}めていた→痛める：13613_itameru⟧⟦の→の：09472_no⟧で、⟦チーム→チーム：03858_chiimu⟧⟦の→の：09472_no⟧{足手|あしで}まとい⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦の→の：09472_no⟧⟦ではないか→ではないか：30627_dehanaika⟧⟦と→と：00512_to⟧⟦{心配|しんぱい}→心配：00811_shinpai⟧だった。",
       "english": "My foot was hurting, and I worried I would be dead weight for the team.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "COMMON COLLOCATIONS:\n- {足手|あしで}まといになる: to become a burden\n- {足手|あしで}まといだ: to be dead weight\n- {足手|あしで}まとい{扱|あつか}いされる: to be treated as a hindrance\n\nUSAGE:\nCalling someone else {足手|あしで}まとい is harsh, so the word appears far more often in the first person ({私|わたし}が{足手|あしで}まといになる) or in an anxious question about oneself. Also read あしてまとい, and written {足手|あしで}{纏|まと}い in older texts.\n\nSIMILAR WORDS:\n- {邪魔|じゃま}: a nuisance, something in the way — broader, and not specifically about slowing progress\n- {重荷|おもに}: a heavy load, a responsibility one can hardly bear",
+  "notes": "COMMON COLLOCATIONS:\n- {足手|あしで}まとい⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧: to become a burden\n- {足手|あしで}まといだ: to be dead weight\n- {足手|あしで}まとい⟦{扱|あつか}い→扱い：12777_atsukai⟧⟦される→する：00392_suru⟧: to be treated as a hindrance\n\nUSAGE:\nCalling someone else {足手|あしで}まとい is harsh, so the word appears far more often in the first person (⟦{私|わたし}→私：02988_watashi⟧⟦が→が：00051_ga⟧{足手|あしで}まとい⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧) or in an anxious question about oneself. Also read あしてまとい, and written {足手|あしで}{纏|まと}い in older texts.\n\nSIMILAR WORDS:\n- ⟦{邪魔|じゃま}→邪魔：01610_jama⟧: a nuisance, something in the way — broader, and not specifically about slowing progress\n- ⟦{重荷|おもに}→重荷：19438_omoni⟧: a heavy load, a responsibility one can hardly bear",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01610_jama",
+      "reading": "じゃま",
+      "headword": "{邪魔|じゃま}",
+      "label": "a nuisance, something in the way"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19438_omoni",
+      "reading": "おもに",
+      "headword": "{重荷|おもに}",
+      "label": "a heavy load, a responsibility one can…"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +69,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "person",
         "evaluation"
@@ -61,6 +77,6 @@
       "domain": []
     },
     "created": "2026-08-13T18:28:31Z",
-    "modified": "2026-08-13T18:28:31Z"
+    "modified": "2026-09-02T04:02:41Z"
   }
 }

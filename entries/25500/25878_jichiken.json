@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25878_jichiken_ex1",
-      "japanese": "{住民|じゅうみん}は{自治権|じちけん}を{求|もと}めている。",
+      "japanese": "⟦{住民|じゅうみん}→住民：03281_juumin⟧⟦は→は：00079_ha⟧{自治権|じちけん}⟦を→を：00422_wo⟧⟦{求|もと}めている→求める：02316_motomeru⟧。",
       "english": "The residents are demanding self-governance.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25878_jichiken_ex2",
-      "japanese": "その{地域|ちいき}には{広|ひろ}い{自治権|じちけん}が{認|みと}められている。",
+      "japanese": "⟦その→その：00993_sono⟧⟦{地域|ちいき}→地域：01461_chiiki⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{広|ひろ}い→広い：00704_hiroi⟧{自治権|じちけん}⟦が→が：00051_ga⟧⟦{認|みと}められている→認める：02429_mitomeru⟧。",
       "english": "That region is granted broad autonomy.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25878_jichiken_ex3",
-      "japanese": "{大学|だいがく}の{自治権|じちけん}は{憲法|けんぽう}で{保障|ほしょう}されている。",
+      "japanese": "⟦{大学|だいがく}→大学：00608_daigaku⟧⟦の→の：09472_no⟧{自治権|じちけん}⟦は→は：00079_ha⟧⟦{憲法|けんぽう}→憲法：02744_kenpou⟧⟦で→で：00502_de⟧⟦{保障|ほしょう}→保障：03719_hoshou⟧⟦されている→する：00392_suru⟧。",
       "english": "University autonomy is guaranteed by the constitution.",
       "sense_numbers": [
         1
@@ -45,7 +45,7 @@
     },
     {
       "id": "25878_jichiken_ex4",
-      "japanese": "{植民地|しょくみんち}の{人々|ひとびと}は{長年|ながねん}にわたって{自治権|じちけん}の{獲得|かくとく}のために{闘|たたか}ってきた。",
+      "japanese": "⟦{植民地|しょくみんち}→植民地：16073_shokuminchi⟧⟦の→の：09472_no⟧⟦{人々|ひとびと}→人々：03141_hitobito⟧⟦は→は：00079_ha⟧⟦{長年|ながねん}→長年：09684_naganen⟧⟦に→に：00314_ni⟧わたって{自治権|じちけん}⟦の→の：09472_no⟧⟦{獲得|かくとく}→獲得：05624_kakutoku⟧⟦の→の：09472_no⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧⟦{闘|たたか}って→闘う：17304_tatakau⟧きた。",
       "english": "The people of the colony fought for years to obtain the right of self-governance.",
       "sense_numbers": [
         1
@@ -54,8 +54,23 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {自治|じち} (self-governance) + {権|けん} (right). Used in political, legal, and academic contexts to discuss the right of communities, regions, or institutions to manage their own affairs without external control.\n\nCOMMON COLLOCATIONS:\n- {自治権|じちけん}を{認|みと}める: recognize the right to self-governance\n- {自治権|じちけん}を{求|もと}める: demand autonomy\n- {自治権|じちけん}を{獲得|かくとく}する: obtain autonomy\n- {自治権|じちけん}の{拡大|かくだい}: expansion of autonomy\n- {地方|ちほう}{自治権|じちけん}: local autonomy\n\nSIMILAR WORDS:\n- {自治|じち}: self-governance (the concept itself, without the \"right\" nuance)\n- {自主権|じしゅけん}: sovereignty, independence (broader)\n- {自律|じりつ}: self-regulation, autonomy (often personal or organizational)\n- {独立|どくりつ}: independence (complete separation, stronger than autonomy)",
-  "cross_references": [],
+  "notes": "Composed of ⟦{自治|じち}→自治：03985_jichi⟧ (self-governance) + {権|けん} (right). Used in political, legal, and academic contexts to discuss the right of communities, regions, or institutions to manage their own affairs without external control.\n\nCOMMON COLLOCATIONS:\n- {自治権|じちけん}⟦を→を：00422_wo⟧⟦{認|みと}める→認める：02429_mitomeru⟧: recognize the right to self-governance\n- {自治権|じちけん}⟦を→を：00422_wo⟧⟦{求|もと}める→求める：02316_motomeru⟧: demand autonomy\n- {自治権|じちけん}⟦を→を：00422_wo⟧⟦{獲得|かくとく}→獲得：05624_kakutoku⟧⟦する→する：00392_suru⟧: obtain autonomy\n- {自治権|じちけん}⟦の→の：09472_no⟧⟦{拡大|かくだい}→拡大：02553_kakudai⟧: expansion of autonomy\n- ⟦{地方|ちほう}→地方：02369_chihou⟧{自治権|じちけん}: local autonomy\n\nSIMILAR WORDS:\n- ⟦{自治|じち}→自治：03985_jichi⟧: self-governance (the concept itself, without the \"right\" nuance)\n- {自主権|じしゅけん}: sovereignty, independence (broader)\n- ⟦{自律|じりつ}→自律：13955_jiritsu⟧: self-regulation, autonomy (often personal or organizational)\n- ⟦{独立|どくりつ}→独立：03488_dokuritsu⟧: independence (complete separation, stronger than autonomy)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13955_jiritsu",
+      "reading": "じりつ",
+      "headword": "{自律|じりつ}",
+      "label": "self-regulation, autonomy"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03488_dokuritsu",
+      "reading": "どくりつ",
+      "headword": "{独立|どくりつ}",
+      "label": "independence"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -63,12 +78,14 @@
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "politics",
         "law"
       ]
     },
     "created": "2026-04-27T16:21:44Z",
-    "modified": "2026-04-27T16:21:44Z"
+    "modified": "2026-09-02T04:02:24Z"
   }
 }

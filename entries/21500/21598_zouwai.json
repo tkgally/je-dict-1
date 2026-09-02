@@ -3,7 +3,7 @@
   "headword": "{贈賄|ぞうわい}",
   "reading": "ぞうわい",
   "romaji": "zouwai",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "bribery; offering a bribe",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21598_zouwai_ex1",
-      "japanese": "{贈賄|ぞうわい}の{容疑|ようぎ}で{逮捕|たいほ}された。",
+      "japanese": "{贈賄|ぞうわい}⟦の→の：09472_no⟧⟦{容疑|ようぎ}→容疑：12317_yougi⟧⟦で→で：00502_de⟧⟦{逮捕|たいほ}→逮捕：03397_taiho⟧⟦された→する：00392_suru⟧。",
       "english": "He was arrested on suspicion of bribery.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21598_zouwai_ex2",
-      "japanese": "{贈賄|ぞうわい}{罪|ざい}は{重|おも}い{刑罰|けいばつ}が{科|か}される。",
+      "japanese": "{贈賄|ぞうわい}{罪|ざい}⟦は→は：00079_ha⟧⟦{重|おも}い→重い：00804_omoi⟧⟦{刑罰|けいばつ}→刑罰：20566_keibatsu⟧⟦が→が：00051_ga⟧{科|か}される。",
       "english": "The crime of bribery carries heavy penalties.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21598_zouwai_ex3",
-      "japanese": "その{企業|きぎょう}は{公務員|こうむいん}への{贈賄|ぞうわい}が{発覚|はっかく}し、{社会的|しゃかいてき}な{信用|しんよう}を{失|うしな}った。",
+      "japanese": "⟦その→その：00993_sono⟧⟦{企業|きぎょう}→企業：00225_kigyou⟧⟦は→は：00079_ha⟧⟦{公務員|こうむいん}→公務員：01588_koumuin⟧⟦へ→へ：02473_he⟧⟦の→の：09472_no⟧{贈賄|ぞうわい}⟦が→が：00051_ga⟧⟦{発覚|はっかく}→発覚：07629_hakkaku⟧し、⟦{社会的|しゃかいてき}→社会的：04791_shakaiteki⟧な⟦{信用|しんよう}→信用：03267_shinyou⟧⟦を→を：00422_wo⟧⟦{失|うしな}った→失う：01887_ushinau⟧。",
       "english": "The company's bribery of a public official was discovered, and it lost public trust.",
       "sense_numbers": [
         1
@@ -44,8 +44,45 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {贈|ぞう} (give, present) and {賄|わい} (bribe). A legal term specifically for the act of giving a bribe, as opposed to {収賄|しゅうわい} (receiving a bribe). Both are crimes under Japanese law.\n\nCOMMON COLLOCATIONS:\n- {贈賄|ぞうわい}{罪|ざい}: the crime of bribery (giving)\n- {贈賄|ぞうわい}の{容疑|ようぎ}: suspicion of bribery\n- {贈賄|ぞうわい}{事件|じけん}: bribery case\n- {贈賄|ぞうわい}で{起訴|きそ}される: to be indicted for bribery\n\nSIMILAR WORDS:\n- {収賄|しゅうわい}: accepting a bribe — the receiver's crime, the other side of the transaction\n- {賄賂|わいろ}: bribe — the thing given or received; the general word for bribery\n- {汚職|おしょく}: corruption — a broader term covering all forms of official misconduct\n- {買収|ばいしゅう}: buying off — bribing in a broader sense, not limited to public officials",
+  "notes": "Compound of {贈|ぞう} (give, present) and {賄|わい} (bribe). A legal term specifically for the act of giving a bribe, as opposed to ⟦{収賄|しゅうわい}→収賄：27665_shuuwai⟧ (receiving a bribe). Both are crimes under Japanese law.\n\nCOMMON COLLOCATIONS:\n- {贈賄|ぞうわい}{罪|ざい}: the crime of bribery (giving)\n- {贈賄|ぞうわい}⟦の→の：09472_no⟧⟦{容疑|ようぎ}→容疑：12317_yougi⟧: suspicion of bribery\n- {贈賄|ぞうわい}⟦{事件|じけん}→事件：01568_jiken⟧: bribery case\n- {贈賄|ぞうわい}⟦で→で：00502_de⟧⟦{起訴|きそ}される→起訴する：09863_kisosuru⟧: to be indicted for bribery\n\nSIMILAR WORDS:\n- ⟦{収賄|しゅうわい}→収賄：27665_shuuwai⟧: accepting a bribe — the receiver's crime, the other side of the transaction\n- ⟦{賄賂|わいろ}→賄賂：21571_wairo⟧: bribe — the thing given or received; the general word for bribery\n- ⟦{汚職|おしょく}→汚職：17399_oshoku⟧: corruption — a broader term covering all forms of official misconduct\n- ⟦{買収|ばいしゅう}→買収：04780_baishuu⟧: buying off — bribing in a broader sense, not limited to public officials",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "27665_shuuwai",
+      "reading": "しゅうわい",
+      "headword": "{収賄|しゅうわい}",
+      "label": "accepting a bribe"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21571_wairo",
+      "reading": "わいろ",
+      "headword": "{賄賂|わいろ}",
+      "label": "bribe"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17399_oshoku",
+      "reading": "おしょく",
+      "headword": "{汚職|おしょく}",
+      "label": "corruption"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04780_baishuu",
+      "reading": "ばいしゅう",
+      "headword": "{買収|ばいしゅう}",
+      "label": "buying off"
+    },
+    {
+      "type": "related",
+      "target_id": "26904_zoushuuwai",
+      "reading": "ぞうしゅうわい",
+      "headword": "{贈収賄|ぞうしゅうわい}",
+      "label": "bribery"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,7 +98,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-02T17:29:45Z",
-    "modified": "2026-04-02T17:29:45Z"
+    "modified": "2026-09-02T04:02:04Z"
   },
   "conjugation": {
     "type": "suru",

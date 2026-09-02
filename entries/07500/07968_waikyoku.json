@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "07968_waikyoku_ex1",
-      "japanese": "{事実|じじつ}を{歪曲|わいきょく}してはいけない。",
+      "japanese": "⟦{事実|じじつ}→事実：03271_jijitsu⟧⟦を→を：00422_wo⟧{歪曲|わいきょく}⟦して→する：00392_suru⟧⟦は→は：00079_ha⟧いけない。",
       "english": "You must not distort the facts.",
       "sense_numbers": [
         1
@@ -114,7 +114,7 @@
     },
     {
       "id": "07968_waikyoku_ex2",
-      "japanese": "{歴史|れきし}の{歪曲|わいきょく}は{許|ゆる}されない。",
+      "japanese": "⟦{歴史|れきし}→歴史：02267_rekishi⟧⟦の→の：09472_no⟧{歪曲|わいきょく}⟦は→は：00079_ha⟧⟦{許|ゆる}されない→許す：02325_yurusu⟧。",
       "english": "Distortion of history is unforgivable.",
       "sense_numbers": [
         1
@@ -124,7 +124,7 @@
     },
     {
       "id": "07968_waikyoku_ex3",
-      "japanese": "その{記事|きじ}は{発言|はつげん}を{歪曲|わいきょく}して{報道|ほうどう}したと{批判|ひはん}された。",
+      "japanese": "⟦その→その：00993_sono⟧⟦{記事|きじ}→記事：00227_kiji⟧⟦は→は：00079_ha⟧⟦{発言|はつげん}→発言：05099_hatsugen⟧⟦を→を：00422_wo⟧{歪曲|わいきょく}⟦して→する：00392_suru⟧⟦{報道|ほうどう}→報道：04438_houdou⟧⟦した→する：00392_suru⟧⟦と→と：00512_to⟧⟦{批判|ひはん}→批判：03580_hihan⟧⟦された→する：00392_suru⟧。",
       "english": "The article was criticized for reporting the statement in a distorted way.",
       "sense_numbers": [
         1
@@ -133,7 +133,7 @@
       "notes": null
     }
   ],
-  "notes": "{歪曲|わいきょく} means to distort or misrepresent, often used in contexts of media, history, or political discourse.\n\nKANJI BREAKDOWN:\n- {歪|わい} (warp, distort)\n- {曲|きょく} (bend, curve)\n\nUSAGE:\n- {歪曲|わいきょく}する (to distort - suru verb)\n- {歪曲|わいきょく}された (distorted)\n- {歪曲|わいきょく}{報道|ほうどう} (distorted reporting)\n\nCOMMON CONTEXTS:\n- {事実|じじつ}の{歪曲|わいきょく} (distortion of facts)\n- {歴史|れきし}の{歪曲|わいきょく} (distortion of history)\n- {真実|しんじつ}の{歪曲|わいきょく} (distortion of truth)\n\nFORMALITY:\n- Formal/written language\n- Common in journalism, politics, and academic discourse\n\nRELATED TERMS:\n- {捏造|ねつぞう} (fabrication)\n- {改竄|かいざん} (falsification)\n- {曲解|きょっかい} (misinterpretation)",
+  "notes": "{歪曲|わいきょく} means to distort or misrepresent, often used in contexts of media, history, or political discourse.\n\nWRITING:\n- {歪|わい} (warp, distort)\n- ⟦{曲|きょく}→曲：09881_kyoku⟧ (bend, curve)\n\nUSAGE:\n- {歪曲|わいきょく}⟦する→する：00392_suru⟧ (to distort - suru verb)\n- {歪曲|わいきょく}⟦された→する：00392_suru⟧ (distorted)\n- {歪曲|わいきょく}⟦{報道|ほうどう}→報道：04438_houdou⟧ (distorted reporting)\n- ⟦{事実|じじつ}→事実：03271_jijitsu⟧⟦の→の：09472_no⟧{歪曲|わいきょく} (distortion of facts)\n- ⟦{歴史|れきし}→歴史：02267_rekishi⟧⟦の→の：09472_no⟧{歪曲|わいきょく} (distortion of history)\n- ⟦{真実|しんじつ}→真実：05316_shinjitsu⟧⟦の→の：09472_no⟧{歪曲|わいきょく} (distortion of truth)\n\nREGISTER:\n- Formal/written language\n- Common in journalism, politics, and academic discourse\n\nRELATED WORDS:\n- ⟦{捏造|ねつぞう}→捏造：07628_netsuzou⟧ (fabrication)\n- ⟦{改竄|かいざん}→改竄：07943_kaizan⟧ (falsification)\n- ⟦{曲解|きょっかい}→曲解：17923_kyokkai⟧ (misinterpretation)",
   "cross_references": [
     {
       "type": "synonym",
@@ -148,6 +148,13 @@
       "headword": "{改竄|かいざん}",
       "label": "falsification (altering documents)",
       "target_id": "07943_kaizan"
+    },
+    {
+      "type": "related",
+      "target_id": "17923_kyokkai",
+      "reading": "きょっかい",
+      "headword": "{曲解|きょっかい}",
+      "label": "misinterpretation"
     }
   ],
   "metadata": {
@@ -163,9 +170,10 @@
         "media",
         "communication"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-01-23T10:47:14Z",
-    "modified": "2026-06-21T00:53:31Z"
+    "modified": "2026-09-02T04:01:13Z"
   }
 }

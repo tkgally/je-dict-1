@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "13047_houi_ex1",
-      "japanese": "{方位|ほうい}を{確認|かくにん}する。",
+      "japanese": "{方位|ほうい}⟦を→を：00422_wo⟧⟦{確認|かくにん}する→確認する：25332_kakuninsuru⟧。",
       "english": "To check the direction.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "13047_houi_ex2",
-      "japanese": "コンパスで{方位|ほうい}を{調|しら}べた。",
+      "japanese": "⟦コンパス→コンパス：05595_konpasu⟧⟦で→で：00502_de⟧{方位|ほうい}⟦を→を：00422_wo⟧⟦{調|しら}べた→調べる：01213_shiraberu⟧。",
       "english": "I checked the bearing with a compass.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "13047_houi_ex3",
-      "japanese": "{地図|ちず}の{上|うえ}には{方位|ほうい}を{示|しめ}す{記号|きごう}が{必|かなら}ず{載|の}っている。",
+      "japanese": "⟦{地図|ちず}→地図：02914_chizu⟧⟦の→の：09472_no⟧⟦{上|うえ}→上：00682_ue⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{方位|ほうい}⟦を→を：00422_wo⟧⟦{示|しめ}す→示す：01948_shimesu⟧⟦{記号|きごう}→記号：00224_kigou⟧⟦が→が：00051_ga⟧⟦{必|かなら}ず→必ず：01249_kanarazu⟧⟦{載|の}っている→載る：27882_noru⟧。",
       "english": "Maps always include a symbol indicating the compass directions.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{方位|ほうい} is a somewhat formal or technical term compared to the more everyday {方角|ほうがく} (direction). It is commonly used in navigation, cartography, and traditional practices.\n\nCOMMON COLLOCATIONS:\n- {方位|ほうい}を{確認|かくにん}する: to confirm one's bearings\n- {方位|ほうい}{磁石|じしゃく}: compass\n- {八|はち}{方位|ほうい}: the eight compass points\n- {方位|ほうい}{記号|きごう}: compass rose\n\nRELATED WORDS:\n{方角|ほうがく} is the everyday synonym. {方向|ほうこう} (direction) is broader and refers to the direction of movement or facing, while {方位|ほうい} specifically refers to compass-based orientation.",
+  "notes": "USAGE:\n{方位|ほうい} is a somewhat formal or technical term compared to the more everyday ⟦{方角|ほうがく}→方角：08447_hougaku⟧ (direction). It is commonly used in navigation, cartography, and traditional practices.\n\nCOMMON COLLOCATIONS:\n- {方位|ほうい}⟦を→を：00422_wo⟧⟦{確認|かくにん}する→確認する：25332_kakuninsuru⟧: to confirm one's bearings\n- {方位|ほうい}⟦{磁石|じしゃく}→磁石：04211_jishaku⟧: compass\n- {八|はち}{方位|ほうい}: the eight compass points\n- {方位|ほうい}⟦{記号|きごう}→記号：00224_kigou⟧: compass rose\n\nRELATED WORDS:\n⟦{方角|ほうがく}→方角：08447_hougaku⟧ is the everyday synonym. ⟦{方向|ほうこう}→方向：03617_houkou⟧ (direction) is broader and refers to the direction of movement or facing, while {方位|ほうい} specifically refers to compass-based orientation.",
   "cross_references": [
     {
       "type": "synonym",
@@ -52,11 +52,18 @@
       "reading": "ほうがく",
       "headword": "{方角|ほうがく}",
       "label": "direction (everyday)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22128_touzainanboku",
+      "reading": "とうざいなんぼく",
+      "headword": "{東西南北|とうざいなんぼく}",
+      "label": "the four cardinal directions"
     }
   ],
   "metadata": {
     "created": "2026-02-23T10:01:27Z",
-    "modified": "2026-04-28T04:13:10Z",
+    "modified": "2026-09-02T04:01:31Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

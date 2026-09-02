@@ -16,7 +16,7 @@
   "examples": [
     {
       "id": "30190_tokuwosuru_ex1",
-      "japanese": "まとめて{買|か}うと{得|とく}をする。",
+      "japanese": "⟦まとめて→まとめる：02424_matomeru⟧⟦{買|か}う→買う：00489_kau⟧⟦と→と：00512_to⟧{得|とく}をする。",
       "english": "You come out ahead if you buy in bulk.",
       "sense_numbers": [
         1
@@ -26,7 +26,7 @@
     },
     {
       "id": "30190_tokuwosuru_ex2",
-      "japanese": "{早|はや}めに{予約|よやく}したので、{千円|せんえん}{得|とく}をした。",
+      "japanese": "⟦{早|はや}め→早め：11176_hayame⟧⟦に→に：00314_ni⟧⟦{予約|よやく}した→予約する：22989_yoyakusuru⟧⟦の→の：09472_no⟧で、⟦{千円|せんえん}→千円：08980_senen⟧{得|とく}をした。",
       "english": "I booked early, so I saved a thousand yen.",
       "sense_numbers": [
         1
@@ -36,7 +36,7 @@
     },
     {
       "id": "30190_tokuwosuru_ex3",
-      "japanese": "{会員|かいいん}になると、{割引|わりびき}や{特典|とくてん}があって{得|とく}をすることが{多|おお}い。",
+      "japanese": "⟦{会員|かいいん}→会員：02535_kaiin⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦と→と：00512_to⟧、⟦{割引|わりびき}→割引：01526_waribiki⟧や⟦{特典|とくてん}→特典：13469_tokuten⟧⟦が→が：00051_ga⟧⟦あって→ある：00006_aru⟧{得|とく}をすること⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "If you become a member, there are discounts and perks, so you often come out ahead.",
       "sense_numbers": [
         1
@@ -46,7 +46,7 @@
     },
     {
       "id": "30190_tokuwosuru_ex4",
-      "japanese": "{正直|しょうじき}に{話|はな}したほうが、{結局|けっきょく}は{得|とく}をすると{思|おも}う。",
+      "japanese": "⟦{正直|しょうじき}→正直：01562_shoujiki⟧⟦に→に：00314_ni⟧⟦{話|はな}した→話す：00467_hanasu⟧ほう⟦が→が：00051_ga⟧、⟦{結局|けっきょく}→結局：03815_kekkyoku⟧⟦は→は：00079_ha⟧{得|とく}をする⟦と→と：00512_to⟧⟦{思|おも}う→思う：00492_omou⟧。",
       "english": "I think you come out ahead in the end by speaking honestly.",
       "sense_numbers": [
         1
@@ -55,7 +55,23 @@
       "notes": null
     }
   ],
-  "notes": "The gain is usually financial, but it can be any advantage — time, reputation, or convenience. {得|とく} also stands alone as a na-adjective ({得|とく}な{買|か}い{物|もの}, a good buy) and in the polite お{得|とく}, which is everywhere in advertising.\n\nCOMMON PATTERNS:\n- ...と{得|とく}をする: you come out ahead if ...\n- {得|とく}をした{気分|きぶん}: the feeling of having gotten a good deal\n- {誰|だれ}も{得|とく}をしない: nobody benefits\n\nSIMILAR WORDS:\n- {損|そん}をする: to lose out — the direct opposite\n- {儲|もう}かる: to make money — specifically monetary profit, usually from business\n- {利益|りえき}を{得|え}る: to obtain a profit — formal, written register",
+  "notes": "The gain is usually financial, but it can be any advantage — time, reputation, or convenience. ⟦{得|とく}→得：12563_toku⟧ also stands alone as a na-adjective (⟦{得|とく}→得：12563_toku⟧な⟦{買|か}い{物|もの}→買い物：00853_kaimono⟧, a good buy) and in the polite ⟦お{得|とく}→お得：07739_otoku⟧, which is everywhere in advertising.\n\nCOMMON PATTERNS:\n- ...⟦と→と：00512_to⟧{得|とく}をする: you come out ahead if ...\n- {得|とく}をした⟦{気分|きぶん}→気分：01306_kibun⟧: the feeling of having gotten a good deal\n- ⟦{誰|だれ}も→誰も：18610_daremo⟧{得|とく}をしない: nobody benefits\n\nSIMILAR WORDS:\n- ⟦{損|そん}をする→損をする：30214_sonwosuru⟧: to lose out — the direct opposite\n- {儲|もう}かる: to make money — specifically monetary profit, usually from business\n- ⟦{利益|りえき}を{得|え}る→利益を得る：30182_riekiwoeru⟧: to obtain a profit — formal, written register",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "30214_sonwosuru",
+      "reading": "そんをする",
+      "headword": "損をする",
+      "label": "to lose out"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30182_riekiwoeru",
+      "reading": "りえきをえる",
+      "headword": "利益を得る",
+      "label": "to obtain a profit"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -71,6 +87,6 @@
       "domain": []
     },
     "created": "2026-07-28T12:21:16Z",
-    "modified": "2026-07-28T12:21:16Z"
+    "modified": "2026-09-02T04:02:39Z"
   }
 }

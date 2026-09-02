@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "17096_awadatsu_ex1",
-      "japanese": "ビールが{泡立|あわだ}つ。",
+      "japanese": "⟦ビール→ビール：01015_biiru⟧⟦が→が：00051_ga⟧{泡立|あわだ}つ。",
       "english": "The beer foams up.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "17096_awadatsu_ex2",
-      "japanese": "せっけんがよく{泡立|あわだ}った。",
+      "japanese": "せっけん⟦が→が：00051_ga⟧⟦よく→よく：00601_yoku⟧{泡立|あわだ}った。",
       "english": "The soap lathered well.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "17096_awadatsu_ex3",
-      "japanese": "{卵白|らんぱく}を{泡立|あわだ}つまでしっかり{混|ま}ぜてください。",
+      "japanese": "⟦{卵白|らんぱく}→卵白：11975_ranpaku⟧⟦を→を：00422_wo⟧{泡立|あわだ}つ⟦まで→まで：00490_made⟧⟦しっかり→しっかり：01272_shikkari⟧⟦{混|ま}ぜて→混ぜる：02423_mazeru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please mix the egg whites thoroughly until they foam up.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,19 @@
       ]
     }
   ],
-  "notes": "USAGE:\nAn intransitive verb. The transitive counterpart is {泡立|あわだ}てる (to whip, to beat into foam). Commonly used in cooking and daily life contexts.\n\nCOMMON COLLOCATIONS:\n- ビールが{泡立|あわだ}つ (beer foams)\n- せっけんが{泡立|あわだ}つ (soap lathers)\n- {泡立|あわだ}つ{波|なみ} (foaming waves)\n\nSIMILAR WORDS:\n- {泡立|あわだ}てる: to whip, to beat — transitive partner\n- {沸|わ}く: to boil — specifically for boiling liquids, not foaming",
-  "cross_references": [],
+  "notes": "USAGE:\nAn intransitive verb. The transitive counterpart is ⟦{泡立|あわだ}てる→泡立てる：06419_awadateru⟧ (to whip, to beat into foam). Commonly used in cooking and daily life contexts.\n\nCOMMON COLLOCATIONS:\n- ⟦ビール→ビール：01015_biiru⟧⟦が→が：00051_ga⟧{泡立|あわだ}つ (beer foams)\n- せっけん⟦が→が：00051_ga⟧{泡立|あわだ}つ (soap lathers)\n- {泡立|あわだ}つ⟦{波|なみ}→波：00868_nami⟧ (foaming waves)\n\nSIMILAR WORDS:\n- ⟦{泡立|あわだ}てる→泡立てる：06419_awadateru⟧: to whip, to beat — transitive partner\n- ⟦{沸|わ}く→沸く：01122_waku⟧: to boil — specifically for boiling liquids, not foaming",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01122_waku",
+      "reading": "わく",
+      "headword": "{沸|わ}く",
+      "label": "to boil"
+    }
+  ],
   "metadata": {
     "created": "2026-03-16T00:38:48Z",
-    "modified": "2026-04-11T02:03:14Z",
+    "modified": "2026-09-02T04:01:47Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

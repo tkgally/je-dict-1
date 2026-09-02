@@ -15,41 +15,67 @@
   "examples": [
     {
       "id": "30046_joutaihoukoku_ex1",
-      "japanese": "{状態報告|じょうたいほうこく}を{受|う}ける。",
+      "japanese": "{状態報告|じょうたいほうこく}⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧。",
       "english": "Receive a status report.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "30046_joutaihoukoku_ex2",
-      "japanese": "{毎朝|まいあさ}システムの{状態報告|じょうたいほうこく}が{届|とど}く。",
+      "japanese": "⟦{毎朝|まいあさ}→毎朝：00966_maiasa⟧⟦システム→システム：08428_shisutemu⟧⟦の→の：09472_no⟧{状態報告|じょうたいほうこく}⟦が→が：00051_ga⟧⟦{届|とど}く→届く：00899_todoku⟧。",
       "english": "A status report on the system arrives every morning.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "30046_joutaihoukoku_ex3",
-      "japanese": "{会議|かいぎ}で{各|かく}チームが{現在|げんざい}の{状態報告|じょうたいほうこく}を{行|おこな}った。",
+      "japanese": "⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦で→で：00502_de⟧⟦{各|かく}→各〜：00449_kaku⟧⟦チーム→チーム：03858_chiimu⟧⟦が→が：00051_ga⟧⟦{現在|げんざい}→現在：01556_genzai⟧⟦の→の：09472_no⟧{状態報告|じょうたいほうこく}⟦を→を：00422_wo⟧⟦{行|おこな}った→行う：01238_okonau⟧。",
       "english": "At the meeting, each team gave a status report on the current situation.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Formed from {状態|じょうたい} (state, condition) + {報告|ほうこく} (report). Common in business and technical settings.\n\nCOMMON COLLOCATIONS:\n- {状態報告|じょうたいほうこく}を{行|おこな}う: to give a status report\n- システムの{状態報告|じょうたいほうこく}: system status report\n\nSIMILAR WORDS:\n- {進捗報告|しんちょくほうこく}: progress report — focuses on how far work has advanced\n- {近況報告|きんきょうほうこく}: update on recent circumstances — more personal",
+  "notes": "Formed from ⟦{状態|じょうたい}→状態：03345_joutai⟧ (state, condition) + ⟦{報告|ほうこく}→報告：03618_houkoku⟧ (report). Common in business and technical settings.\n\nCOMMON COLLOCATIONS:\n- {状態報告|じょうたいほうこく}⟦を→を：00422_wo⟧⟦{行|おこな}う→行う：01238_okonau⟧: to give a status report\n- ⟦システム→システム：08428_shisutemu⟧⟦の→の：09472_no⟧{状態報告|じょうたいほうこく}: system status report\n\nSIMILAR WORDS:\n- ⟦{進捗報告|しんちょくほうこく}→進捗報告：26881_shinchokuhoukoku⟧: progress report — focuses on how far work has advanced\n- ⟦{近況報告|きんきょうほうこく}→近況報告：21262_kinkyouhoukoku⟧: update on recent circumstances — more personal",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "26881_shinchokuhoukoku",
+      "reading": "しんちょくほうこく",
+      "headword": "{進捗報告|しんちょくほうこく}",
+      "label": "progress report"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21262_kinkyouhoukoku",
+      "reading": "きんきょうほうこく",
+      "headword": "{近況報告|きんきょうほうこく}",
+      "label": "update on recent circumstances"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["communication"],
+      "politeness": "plain",
+      "semantic": [
+        "communication"
+      ],
       "domain": []
     },
     "created": "2026-07-22T12:20:02Z",
-    "modified": "2026-07-22T12:20:02Z"
+    "modified": "2026-09-02T04:02:38Z"
   }
 }

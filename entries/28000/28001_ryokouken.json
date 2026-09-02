@@ -15,41 +15,61 @@
   "examples": [
     {
       "id": "28001_ryokouken_ex1",
-      "japanese": "{旅行券|りょこうけん}が{当|あ}たった。",
+      "japanese": "{旅行券|りょこうけん}⟦が→が：00051_ga⟧⟦{当|あ}たった→当たる：01860_ataru⟧。",
       "english": "I won a travel voucher.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28001_ryokouken_ex2",
-      "japanese": "{結婚|けっこん}のお{祝|いわ}いに{旅行券|りょこうけん}を{贈|おく}った。",
+      "japanese": "⟦{結婚|けっこん}→結婚：02514_kekkon⟧⟦の→の：09472_no⟧⟦お{祝|いわ}い→お祝い：01339_oiwai⟧⟦に→に：00314_ni⟧{旅行券|りょこうけん}⟦を→を：00422_wo⟧⟦{贈|おく}った→贈る：09862_okuru⟧。",
       "english": "I gave a travel voucher as a wedding gift.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28001_ryokouken_ex3",
-      "japanese": "{懸賞|けんしょう}の{一等|いっとう}は{十万円分|じゅうまんえんぶん}の{旅行券|りょこうけん}だった。",
+      "japanese": "{懸賞|けんしょう}⟦の→の：09472_no⟧⟦{一等|いっとう}→一等：28091_ittou⟧⟦は→は：00079_ha⟧{十万円分|じゅうまんえんぶん}⟦の→の：09472_no⟧{旅行券|りょこうけん}だった。",
       "english": "The first prize in the contest was a travel voucher worth 100,000 yen.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "COMMON COLLOCATIONS:\n- {旅行券|りょこうけん}を{贈|おく}る: to give a travel voucher\n- {旅行券|りょこうけん}が{当|あ}たる: to win a travel voucher\n- ペア{旅行券|りょこうけん}: a travel voucher for two\n\nSIMILAR WORDS:\n- {商品券|しょうひんけん}: gift certificate — for general goods, not specifically travel\n- {宿泊券|しゅくはくけん}: lodging voucher — covers only the stay, not transport",
+  "notes": "COMMON COLLOCATIONS:\n- {旅行券|りょこうけん}⟦を→を：00422_wo⟧⟦{贈|おく}る→贈る：09862_okuru⟧: to give a travel voucher\n- {旅行券|りょこうけん}⟦が→が：00051_ga⟧⟦{当|あ}たる→当たる：01860_ataru⟧: to win a travel voucher\n- ⟦ペア→ペア：11265_pea⟧{旅行券|りょこうけん}: a travel voucher for two\n\nSIMILAR WORDS:\n- ⟦{商品券|しょうひんけん}→商品券：22121_shouhinken⟧: gift certificate — for general goods, not specifically travel\n- {宿泊券|しゅくはくけん}: lodging voucher — covers only the stay, not transport",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22121_shouhinken",
+      "reading": "しょうひんけん",
+      "headword": "{商品券|しょうひんけん}",
+      "label": "gift certificate"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["travel", "money"],
+      "politeness": "plain",
+      "semantic": [
+        "travel",
+        "money"
+      ],
       "domain": []
     },
     "created": "2026-05-24T03:09:30Z",
-    "modified": "2026-05-24T03:09:30Z"
+    "modified": "2026-09-02T04:02:32Z"
   }
 }

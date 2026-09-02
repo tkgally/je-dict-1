@@ -15,42 +15,76 @@
   "examples": [
     {
       "id": "26567_tabegoro_ex1",
-      "japanese": "このバナナはちょうど{食|た}べ{頃|ごろ}だ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦バナナ→バナナ：01013_banana⟧⟦は→は：00079_ha⟧⟦ちょうど→ちょうど：02916_choudo⟧{食|た}べ{頃|ごろ}だ。",
       "english": "This banana is just ready to eat.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26567_tabegoro_ex2",
-      "japanese": "もう{少|すこ}し{置|お}いたら{食|た}べ{頃|ごろ}になるよ。",
+      "japanese": "⟦もう→もう：00602_mou⟧⟦{少|すこ}し→少し：00596_sukoshi⟧⟦{置|お}いたら→置く：01092_oku⟧{食|た}べ{頃|ごろ}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦よ→よ：09475_yo⟧。",
       "english": "If you leave it a bit longer, it will be ready to eat.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26567_tabegoro_ex3",
-      "japanese": "{桃|もも}は{柔|やわ}らかくなってきたら{食|た}べ{頃|ごろ}のサインだ。",
+      "japanese": "⟦{桃|もも}→桃：04382_momo⟧⟦は→は：00079_ha⟧⟦{柔|やわ}らかく→柔らかい：01096_yawarakai⟧⟦なって→なる：01970_naru⟧きたら{食|た}べ{頃|ごろ}⟦の→の：09472_no⟧⟦サイン→サイン：03846_sain⟧だ。",
       "english": "When peaches start to soften, that's a sign they're ready to eat.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of the verb stem {食|た}べ (to eat) and the suffix {頃|ごろ} (suitable time, peak). The suffix ～{頃|ごろ} attaches to verb stems to indicate the ideal time or condition for that action.\n\nRELATED ～{頃|ごろ} WORDS:\n- {見|み}{頃|ごろ}: at its best for viewing (flowers, scenery)\n- {飲|の}み{頃|ごろ}: at its best for drinking (wine, tea)\n- {読|よ}み{頃|ごろ}: good for reading; page count that's easy to finish\n- {買|か}い{頃|ごろ}: good time to buy; reasonably priced\n\nCOMMON COLLOCATIONS:\n- {食|た}べ{頃|ごろ}の{果物|くだもの}: fruit that is ripe and ready to eat\n- {食|た}べ{頃|ごろ}になる: to become ready to eat\n- ちょうど{食|た}べ{頃|ごろ}: just at the right time for eating\n\nSIMILAR WORDS:\n- {旬|しゅん}: in season — focuses on seasonal availability rather than individual ripeness\n- {熟|じゅく}した: ripe, mature — describes the state of the food itself",
-  "cross_references": [],
+  "notes": "Composed of the verb stem ⟦{食|た}べ→食べる：00396_taberu⟧ (to eat) and the suffix ⟦{頃|ごろ}→頃：00932_goro⟧ (suitable time, peak). The suffix ～⟦{頃|ごろ}→頃：00932_goro⟧ attaches to verb stems to indicate the ideal time or condition for that action.\n\nRELATED ～{頃|ごろ} WORDS:\n- ⟦{見|み}{頃|ごろ}→見頃：16868_migoro⟧: at its best for viewing (flowers, scenery)\n- ⟦{飲|の}み{頃|ごろ}→飲み頃：26569_nomigoro⟧: at its best for drinking (wine, tea)\n- {読|よ}み{頃|ごろ}: good for reading; page count that's easy to finish\n- {買|か}い{頃|ごろ}: good time to buy; reasonably priced\n\nCOMMON COLLOCATIONS:\n- {食|た}べ{頃|ごろ}⟦の→の：09472_no⟧⟦{果物|くだもの}→果物：00509_kudamono⟧: fruit that is ripe and ready to eat\n- {食|た}べ{頃|ごろ}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧: to become ready to eat\n- ⟦ちょうど→ちょうど：02916_choudo⟧{食|た}べ{頃|ごろ}: just at the right time for eating\n\nSIMILAR WORDS:\n- ⟦{旬|しゅん}→旬：12716_shun⟧: in season — focuses on seasonal availability rather than individual ripeness\n- ⟦{熟|じゅく}した→熟す：18384_jukusu⟧: ripe, mature — describes the state of the food itself",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "16868_migoro",
+      "reading": "みごろ",
+      "headword": "{見頃|みごろ}",
+      "label": "at its best for viewing"
+    },
+    {
+      "type": "related",
+      "target_id": "26569_nomigoro",
+      "reading": "のみごろ",
+      "headword": "{飲|の}み{頃|ごろ}",
+      "label": "at its best for drinking"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12716_shun",
+      "reading": "しゅん",
+      "headword": "{旬|しゅん}",
+      "label": "in season"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food"],
-      "domain": ["colloquial"]
+      "semantic": [
+        "food"
+      ],
+      "domain": [
+        "colloquial"
+      ]
     },
     "created": "2026-05-03T11:16:00Z",
-    "modified": "2026-05-03T11:16:00Z"
+    "modified": "2026-09-02T04:02:26Z"
   }
 }

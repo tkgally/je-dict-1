@@ -2,7 +2,7 @@
   "id": "18034_tousaku",
   "headword": "{盗作|とうさく}",
   "reading": "とうさく",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "plagiarism; piracy",
   "conjugation": {
     "type": "suru",
@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "18034_tousaku_ex1",
-      "japanese": "あの{小説|しょうせつ}は{盗作|とうさく}だと{言|い}われている。",
+      "japanese": "⟦あの→あの：00915_ano⟧⟦{小説|しょうせつ}→小説：01434_shousetsu⟧⟦は→は：00079_ha⟧{盗作|とうさく}だ⟦と→と：00512_to⟧⟦{言|い}われている→言う：00515_iu⟧。",
       "english": "That novel is said to be plagiarized.",
       "sense_numbers": [
         1
@@ -114,7 +114,7 @@
     },
     {
       "id": "18034_tousaku_ex2",
-      "japanese": "{盗作|とうさく}が{発覚|はっかく}して{賞|しょう}を{取|と}り{消|け}された。",
+      "japanese": "{盗作|とうさく}⟦が→が：00051_ga⟧⟦{発覚|はっかく}して→発覚する：15423_hakkakusuru⟧⟦{賞|しょう}→賞：03227_shou⟧⟦を→を：00422_wo⟧⟦{取|と}り{消|け}された→取り消す：04224_torikesu⟧。",
       "english": "The award was revoked after plagiarism was discovered.",
       "sense_numbers": [
         1
@@ -124,7 +124,7 @@
     },
     {
       "id": "18034_tousaku_ex3",
-      "japanese": "{他人|たにん}の{作品|さくひん}を{盗作|とうさく}することは{著作権|ちょさくけん}{侵害|しんがい}にあたる。",
+      "japanese": "⟦{他人|たにん}→他人：01459_tanin⟧⟦の→の：09472_no⟧⟦{作品|さくひん}→作品：02776_sakuhin⟧⟦を→を：00422_wo⟧{盗作|とうさく}⟦する→する：00392_suru⟧こと⟦は→は：00079_ha⟧⟦{著作権|ちょさくけん}{侵害|しんがい}→著作権侵害：25454_chosakukenshingai⟧⟦に→に：00314_ni⟧あたる。",
       "english": "Plagiarizing someone else's work constitutes copyright infringement.",
       "sense_numbers": [
         1
@@ -133,7 +133,7 @@
       "notes": null
     }
   ],
-  "notes": "{盗作|とうさく} refers to stealing another person's creative work and presenting it as one's own. It carries a strong negative connotation and is a serious accusation in both academic and professional contexts.\n\nCOMMON COLLOCATIONS:\n- {盗作|とうさく}{疑惑|ぎわく}: plagiarism allegations\n- {盗作|とうさく}{問題|もんだい}: plagiarism scandal\n- {盗作|とうさく}{騒動|そうどう}: plagiarism controversy\n- {盗作|とうさく}が{発覚|はっかく}する: plagiarism is discovered\n\nSIMILAR WORDS:\n- {剽窃|ひょうせつ}: a more academic/formal synonym for plagiarism\n- {模倣|もほう}: imitation — not necessarily dishonest\n- パクリ: casual/slang term for copying or ripping off",
+  "notes": "{盗作|とうさく} refers to stealing another person's creative work and presenting it as one's own. It carries a strong negative connotation and is a serious accusation in both academic and professional contexts.\n\nCOMMON COLLOCATIONS:\n- {盗作|とうさく}⟦{疑惑|ぎわく}→疑惑：13602_giwaku⟧: plagiarism allegations\n- {盗作|とうさく}⟦{問題|もんだい}→問題：00797_mondai⟧: plagiarism scandal\n- {盗作|とうさく}⟦{騒動|そうどう}→騒動：14656_soudou⟧: plagiarism controversy\n- {盗作|とうさく}⟦が→が：00051_ga⟧⟦{発覚|はっかく}する→発覚する：15423_hakkakusuru⟧: plagiarism is discovered\n\nSIMILAR WORDS:\n- ⟦{剽窃|ひょうせつ}→剽窃：23253_hyousetsu⟧: a more academic/formal synonym for plagiarism\n- ⟦{模倣|もほう}→模倣：15752_mohou⟧: imitation — not necessarily dishonest\n- パクリ: casual/slang term for copying or ripping off",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -150,7 +150,7 @@
       "verb_class": "suru"
     },
     "created": "2026-03-19T12:18:15Z",
-    "modified": "2026-07-22T00:20:00Z"
+    "modified": "2026-09-02T04:01:50Z"
   },
   "cross_references": [
     {
@@ -159,6 +159,20 @@
       "reading": "もほう",
       "headword": "{模倣|もほう}",
       "label": "imitation (not dishonest)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23253_hyousetsu",
+      "reading": "ひょうせつ",
+      "headword": "{剽窃|ひょうせつ}",
+      "label": "a more academic/formal synonym…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25454_chosakukenshingai",
+      "reading": "ちょさくけんしんがい",
+      "headword": "{著作権|ちょさくけん}{侵害|しんがい}",
+      "label": "copyright infringement"
     }
   ]
 }

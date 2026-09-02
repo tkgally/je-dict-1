@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22688_kokusaikyouryoku_ex1",
-      "japanese": "{国際協力|こくさいきょうりょく}が{必要|ひつよう}だ。",
+      "japanese": "{国際協力|こくさいきょうりょく}⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧だ。",
       "english": "International cooperation is necessary.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22688_kokusaikyouryoku_ex2",
-      "japanese": "{国際協力|こくさいきょうりょく}の{分野|ぶんや}で{働|はたら}きたい。",
+      "japanese": "{国際協力|こくさいきょうりょく}⟦の→の：09472_no⟧⟦{分野|ぶんや}→分野：03612_bunya⟧⟦で→で：00502_de⟧⟦{働|はたら}きたい→働く：00503_hataraku⟧。",
       "english": "I want to work in the field of international cooperation.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22688_kokusaikyouryoku_ex3",
-      "japanese": "{気候変動|きこうへんどう}に{対処|たいしょ}するには{国際協力|こくさいきょうりょく}が{欠|か}かせない。",
+      "japanese": "⟦{気候変動|きこうへんどう}→気候変動：04627_kikouhendou⟧⟦に→に：00314_ni⟧⟦{対処|たいしょ}する→対処する：20049_taishosuru⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{国際協力|こくさいきょうりょく}⟦が→が：00051_ga⟧⟦{欠|か}かせない→欠かす：10138_kakasu⟧。",
       "english": "International cooperation is indispensable for addressing climate change.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {国際|こくさい} (international) + {協力|きょうりょく} (cooperation). Frequently appears in news, government policy, and academic contexts. Japan's international cooperation is primarily channeled through JICA ({国際協力機構|こくさいきょうりょくきこう}, Japan International Cooperation Agency).\n\nCOMMON COLLOCATIONS:\n- {国際協力|こくさいきょうりょく}{機構|きこう}: international cooperation agency (JICA)\n- {国際協力|こくさいきょうりょく}{事業|じぎょう}: international cooperation projects\n- {国際協力|こくさいきょうりょく}を{推進|すいしん}する: to promote international cooperation\n- {国際協力|こくさいきょうりょく}に{貢献|こうけん}する: to contribute to international cooperation\n\nSIMILAR WORDS:\n- {国際交流|こくさいこうりゅう}: international exchange — focuses on cultural and people-to-people exchanges, while {国際協力|こくさいきょうりょく} emphasizes collaborative problem-solving between nations\n- {開発援助|かいはつえんじょ}: development aid — a specific form of {国際協力|こくさいきょうりょく} focused on helping developing countries",
+  "notes": "A compound of ⟦{国際|こくさい}→国際：01406_kokusai⟧ (international) + ⟦{協力|きょうりょく}→協力：00261_kyouryoku⟧ (cooperation). Frequently appears in news, government policy, and academic contexts. Japan's international cooperation is primarily channeled through JICA ({国際協力機構|こくさいきょうりょくきこう}, Japan International Cooperation Agency).\n\nCOMMON COLLOCATIONS:\n- {国際協力|こくさいきょうりょく}{機構|きこう}: international cooperation agency (JICA)\n- {国際協力|こくさいきょうりょく}⟦{事業|じぎょう}→事業：11421_jigyou⟧: international cooperation projects\n- {国際協力|こくさいきょうりょく}⟦を→を：00422_wo⟧⟦{推進|すいしん}する→推進する：17281_suishinsuru⟧: to promote international cooperation\n- {国際協力|こくさいきょうりょく}⟦に→に：00314_ni⟧⟦{貢献|こうけん}する→貢献する：21682_koukensuru⟧: to contribute to international cooperation\n\nSIMILAR WORDS:\n- ⟦{国際交流|こくさいこうりゅう}→国際交流：16532_kokusaikouryuu⟧: international exchange — focuses on cultural and people-to-people exchanges, while {国際協力|こくさいきょうりょく} emphasizes collaborative problem-solving between nations\n- {開発援助|かいはつえんじょ}: development aid — a specific form of {国際協力|こくさいきょうりょく} focused on helping developing countries",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16532_kokusaikouryuu",
+      "reading": "こくさいこうりゅう",
+      "headword": "{国際交流|こくさいこうりゅう}",
+      "label": "international exchange"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18890_jindoushien",
+      "reading": "じんどうしえん",
+      "headword": "{人道|じんどう}{支援|しえん}",
+      "label": "humanitarian aid"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23273_heiwaijikatsudou",
+      "reading": "へいわいじかつどう",
+      "headword": "{平和維持活動|へいわいじかつどう}",
+      "label": "peacekeeping operations"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,6 +84,6 @@
       "politeness": "plain"
     },
     "created": "2026-04-07T00:56:41Z",
-    "modified": "2026-08-01T06:41:09Z"
+    "modified": "2026-09-02T04:02:09Z"
   }
 }

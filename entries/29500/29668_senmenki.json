@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29668_senmenki_ex1",
-      "japanese": "{洗面器|せんめんき}に{水|みず}をためる。",
+      "japanese": "{洗面器|せんめんき}⟦に→に：00314_ni⟧⟦{水|みず}→水：02258_mizu⟧⟦を→を：00422_wo⟧ためる。",
       "english": "To fill the wash basin with water.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29668_senmenki_ex2",
-      "japanese": "{銭湯|せんとう}で{洗面器|せんめんき}を{借|か}りた。",
+      "japanese": "⟦{銭湯|せんとう}→銭湯：16032_sentou⟧⟦で→で：00502_de⟧{洗面器|せんめんき}⟦を→を：00422_wo⟧⟦{借|か}りた→借りる：00532_kariru⟧。",
       "english": "I borrowed a wash bowl at the public bath.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29668_senmenki_ex3",
-      "japanese": "{子供|こども}のころは{洗面器|せんめんき}にお{湯|ゆ}を{入|い}れて{髪|かみ}を{洗|あら}った。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧⟦の→の：09472_no⟧⟦ころ→〜ころ：03091_koro⟧⟦は→は：00079_ha⟧{洗面器|せんめんき}⟦に→に：00314_ni⟧⟦お{湯|ゆ}→お湯：02518_oyu⟧⟦を→を：00422_wo⟧⟦{入|い}れて→入れる：01098_ireru⟧⟦{髪|かみ}→髪：02196_kami⟧⟦を→を：00422_wo⟧⟦{洗|あら}った→洗う：00827_arau⟧。",
       "english": "As a child I would fill a wash basin with hot water to wash my hair.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "A portable plastic or metal bowl for holding wash water, most associated with public baths ({銭湯|せんとう}). Distinct from a fixed bathroom sink.\n\nCOMMON COLLOCATIONS:\n- {洗面器|せんめんき}に{水|みず}をためる: to fill the basin with water\n- {洗面器|せんめんき}にお{湯|ゆ}を{入|い}れる: to put hot water in the basin\n\nSIMILAR WORDS:\n- {洗面台|せんめんだい}: bathroom sink; vanity — the fixed washbasin unit, not the portable bowl\n- たらい: tub; washtub — larger, used for laundry or bathing a small child",
+  "notes": "A portable plastic or metal bowl for holding wash water, most associated with public baths (⟦{銭湯|せんとう}→銭湯：16032_sentou⟧). Distinct from a fixed bathroom sink.\n\nCOMMON COLLOCATIONS:\n- {洗面器|せんめんき}⟦に→に：00314_ni⟧⟦{水|みず}→水：02258_mizu⟧⟦を→を：00422_wo⟧ためる: to fill the basin with water\n- {洗面器|せんめんき}⟦に→に：00314_ni⟧⟦お{湯|ゆ}→お湯：02518_oyu⟧⟦を→を：00422_wo⟧⟦{入|い}れる→入れる：01098_ireru⟧: to put hot water in the basin\n\nSIMILAR WORDS:\n- ⟦{洗面台|せんめんだい}→洗面台：04988_senmendai⟧: bathroom sink; vanity — the fixed washbasin unit, not the portable bowl\n- たらい: tub; washtub — larger, used for laundry or bathing a small child",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04988_senmendai",
+      "reading": "せんめんだい",
+      "headword": "{洗面台|せんめんだい}",
+      "label": "bathroom sink"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +62,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "daily-life"
       ],
       "domain": []
     },
     "created": "2026-07-03T18:18:03Z",
-    "modified": "2026-07-03T18:18:03Z"
+    "modified": "2026-09-02T04:02:37Z"
   }
 }

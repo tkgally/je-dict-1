@@ -3,7 +3,7 @@
   "headword": "{割|わ}り{振|ふ}る",
   "reading": "わりふる",
   "romaji": "warifuru",
-  "part_of_speech": "godan verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to assign; to allocate; to distribute",
   "conjugation": {
     "type": "godan",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "20081_warifuru_ex1",
-      "japanese": "{仕事|しごと}を{割|わ}り{振|ふ}る。",
+      "japanese": "⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦を→を：00422_wo⟧{割|わ}り{振|ふ}る。",
       "english": "To assign tasks.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "20081_warifuru_ex2",
-      "japanese": "メンバーに{役割|やくわり}を{割|わ}り{振|ふ}った。",
+      "japanese": "⟦メンバー→メンバー：00275_menbaa⟧⟦に→に：00314_ni⟧⟦{役割|やくわり}→役割：03638_yakuwari⟧⟦を→を：00422_wo⟧{割|わ}り{振|ふ}った。",
       "english": "I assigned roles to the members.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "20081_warifuru_ex3",
-      "japanese": "{限|かぎ}られた{予算|よさん}を{各部署|かくぶしょ}に{公平|こうへい}に{割|わ}り{振|ふ}る{必要|ひつよう}がある。",
+      "japanese": "⟦{限|かぎ}られた→限る：02033_kagiru⟧⟦{予算|よさん}→予算：03663_yosan⟧⟦を→を：00422_wo⟧⟦{各部署|かくぶしょ}→各部署：29114_kakubusho⟧⟦に→に：00314_ni⟧⟦{公平|こうへい}→公平：01648_kouhei⟧⟦に→に：00314_ni⟧{割|わ}り{振|ふ}る⟦{必要|ひつよう}→必要：00846_hitsuyou⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "We need to allocate the limited budget fairly to each department.",
       "sense_numbers": [
         1
@@ -134,8 +134,31 @@
       "notes": null
     }
   ],
-  "notes": "A godan (う) verb. The noun form {割|わ}り{振|ふ}り (allocation, assignment) is also commonly used.\n\nTRANSITIVITY:\nTransitive. The thing being assigned is marked with を, and the recipient with に.\n\nCOMMON COLLOCATIONS:\n- {仕事|しごと}を{割|わ}り{振|ふ}る: to assign work\n- {役割|やくわり}を{割|わ}り{振|ふ}る: to assign roles\n- {予算|よさん}を{割|わ}り{振|ふ}る: to allocate a budget\n- {番号|ばんごう}を{割|わ}り{振|ふ}る: to assign numbers\n- {担当|たんとう}を{割|わ}り{振|ふ}る: to assign responsibilities\n\nSIMILAR WORDS:\n- {配分|はいぶん}する: to distribute, to apportion — more formal; used for resources, profits, and funds\n- {振|ふ}り{分|わ}ける: to divide up, to distribute — similar meaning but less common\n- {割|わ}り{当|あ}てる: to assign, to allot — very similar; slightly more formal",
+  "notes": "A godan (う) verb. The noun form {割|わ}り{振|ふ}り (allocation, assignment) is also commonly used.\n\nTRANSITIVITY:\nTransitive. The thing being assigned is marked with ⟦を→を：00422_wo⟧, and the recipient with ⟦に→に：00314_ni⟧.\n\nCOMMON COLLOCATIONS:\n- ⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦を→を：00422_wo⟧{割|わ}り{振|ふ}る: to assign work\n- ⟦{役割|やくわり}→役割：03638_yakuwari⟧⟦を→を：00422_wo⟧{割|わ}り{振|ふ}る: to assign roles\n- ⟦{予算|よさん}→予算：03663_yosan⟧⟦を→を：00422_wo⟧{割|わ}り{振|ふ}る: to allocate a budget\n- ⟦{番号|ばんごう}→番号：02939_bangou⟧⟦を→を：00422_wo⟧{割|わ}り{振|ふ}る: to assign numbers\n- ⟦{担当|たんとう}→担当：02567_tantou⟧⟦を→を：00422_wo⟧{割|わ}り{振|ふ}る: to assign responsibilities\n\nSIMILAR WORDS:\n- ⟦{配分|はいぶん}する→配分する：25541_haibunsuru⟧: to distribute, to apportion — more formal; used for resources, profits, and funds\n- ⟦{振|ふ}り{分|わ}ける→振り分ける：08218_furiwakeru⟧: to divide up, to distribute — similar meaning but less common\n- ⟦{割|わ}り{当|あ}てる→割り当てる：11873_wariateru⟧: to assign, to allot — very similar; slightly more formal",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25541_haibunsuru",
+      "reading": "はいぶんする",
+      "headword": "{配分|はいぶん}する",
+      "label": "to distribute, to apportion"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08218_furiwakeru",
+      "reading": "ふりわける",
+      "headword": "{振|ふ}り{分|わ}ける",
+      "label": "to divide up, to distribute"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11873_wariateru",
+      "reading": "わりあてる",
+      "headword": "{割|わ}り{当|あ}てる",
+      "label": "to assign, to allot"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -152,6 +175,6 @@
       "verb_class": "godan-ru"
     },
     "created": "2026-03-28T07:38:57Z",
-    "modified": "2026-04-10T06:37:10Z"
+    "modified": "2026-09-02T04:01:58Z"
   }
 }

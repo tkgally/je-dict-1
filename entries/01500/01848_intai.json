@@ -2,7 +2,7 @@
   "id": "01848_intai",
   "headword": "{引退|いんたい}",
   "reading": "いんたい",
-  "part_of_speech": "noun/suru verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "retirement",
   "conjugation": {
     "type": "suru",
@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "01848_intai_ex1",
-      "japanese": "⟦{来年|らいねん}→来年：00745_rainen⟧{引退|いんたい}する⟦{予定|よてい}→予定：00824_yotei⟧⟦だ→だ：09496_da⟧。",
+      "japanese": "⟦{来年|らいねん}→来年：00745_rainen⟧{引退|いんたい}⟦する→する：00392_suru⟧⟦{予定|よてい}→予定：00824_yotei⟧⟦だ→だ：09496_da⟧。",
       "english": "I plan to retire next year.",
       "notes": null,
       "has_audio": false,
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "{引退|いんたい} refers to retirement from a career or profession.\n\nTRANSITIVITY:\n- Type: {自動詞|じどうし} (intransitive)\n- No standard transitive pair\n- Pattern: {引退|いんたい}する\n\nCOMMON PATTERNS:\n- {引退|いんたい}する (to retire)\n- {引退|いんたい}を⟦{表明|ひょうめい}→表明：14052_hyoumei⟧する (announce retirement)\n- {引退|いんたい}⟦{試合|じあい}→試合：01601_shiai⟧ (retirement match/game)\n- {引退|いんたい}⟦{後|ご}→後：09580_ato⟧ (after retirement)\n\nSIMILAR WORDS:\n- {引退|いんたい}: retirement (from career/profession)\n- ⟦{退職|たいしょく}→退職：04559_taishoku⟧: leaving a job, retirement from work\n- ⟦{定年|ていねん}→定年：07500_teinen⟧: mandatory retirement age",
+  "notes": "{引退|いんたい} refers to retirement from a career or profession.\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n- No standard transitive pair\n- Pattern: {引退|いんたい}⟦する→する：00392_suru⟧\n\nCOMMON PATTERNS:\n- {引退|いんたい}⟦する→する：00392_suru⟧ (to retire)\n- {引退|いんたい}⟦を→を：00422_wo⟧⟦{表明|ひょうめい}→表明：14052_hyoumei⟧⟦する→する：00392_suru⟧ (announce retirement)\n- {引退|いんたい}⟦{試合|じあい}→試合：01601_shiai⟧ (retirement match/game)\n- {引退|いんたい}⟦{後|ご}→後：09580_ato⟧ (after retirement)\n\nSIMILAR WORDS:\n- {引退|いんたい}: retirement (from career/profession)\n- ⟦{退職|たいしょく}→退職：04559_taishoku⟧: leaving a job, retirement from work\n- ⟦{定年|ていねん}→定年：07500_teinen⟧: mandatory retirement age",
   "cross_references": [
     {
       "type": "synonym",
@@ -141,11 +141,46 @@
       "reading": "たいしょく",
       "headword": "{退職|たいしょく}",
       "label": "leaving a job"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07500_teinen",
+      "reading": "ていねん",
+      "headword": "{定年|ていねん}",
+      "label": "mandatory retirement age"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10144_jinin",
+      "reading": "じにん",
+      "headword": "{辞任|じにん}",
+      "label": "resignation (from a position)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20858_shirizoku",
+      "reading": "しりぞく",
+      "headword": "{退|しりぞ}く",
+      "label": "to retreat"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22030_taieki",
+      "reading": "たいえき",
+      "headword": "{退役|たいえき}",
+      "label": "retirement from military service"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25312_taijin",
+      "reading": "たいじん",
+      "headword": "{退陣|たいじん}",
+      "label": "resignation"
     }
   ],
   "metadata": {
     "created": "2026-01-09T12:30:00Z",
-    "modified": "2026-05-17T14:07:10Z",
+    "modified": "2026-09-02T04:01:00Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

@@ -3,7 +3,7 @@
   "headword": "{過剰摂取|かじょうせっしゅ}",
   "reading": "かじょうせっしゅ",
   "romaji": "kajousesshu",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "excessive intake; overdose",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21271_kajousesshu_ex1",
-      "japanese": "{塩分|えんぶん}の{過剰摂取|かじょうせっしゅ}に{注意|ちゅうい}する。",
+      "japanese": "⟦{塩分|えんぶん}→塩分：09945_enbun⟧⟦の→の：09472_no⟧{過剰摂取|かじょうせっしゅ}⟦に→に：00314_ni⟧⟦{注意|ちゅうい}→注意：01464_chuui⟧⟦する→する：00392_suru⟧。",
       "english": "To be careful about excessive salt intake.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21271_kajousesshu_ex2",
-      "japanese": "{糖分|とうぶん}の{過剰摂取|かじょうせっしゅ}は{肥満|ひまん}の{原因|げんいん}になる。",
+      "japanese": "⟦{糖分|とうぶん}→糖分：15847_toubun⟧⟦の→の：09472_no⟧{過剰摂取|かじょうせっしゅ}⟦は→は：00079_ha⟧⟦{肥満|ひまん}→肥満：13920_himan⟧⟦の→の：09472_no⟧⟦{原因|げんいん}→原因：01400_genin⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧。",
       "english": "Excessive sugar intake leads to obesity.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21271_kajousesshu_ex3",
-      "japanese": "サプリメントの{過剰摂取|かじょうせっしゅ}は{健康|けんこう}に{害|がい}を{及|およ}ぼすことがある。",
+      "japanese": "⟦サプリメント→サプリメント：10937_sapurimento⟧⟦の→の：09472_no⟧{過剰摂取|かじょうせっしゅ}⟦は→は：00079_ha⟧⟦{健康|けんこう}→健康：02706_kenkou⟧⟦に→に：00314_ni⟧⟦{害|がい}→害：02542_gai⟧⟦を→を：00422_wo⟧⟦{及|およ}ぼす→及ぼす：02028_oyobosu⟧こと⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "Excessive intake of supplements can harm your health.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {過剰|かじょう} (excessive, surplus) and {摂取|せっしゅ} (intake, ingestion). Commonly used in health, nutrition, and medical contexts. Can refer to food, nutrients, medication, or substances.\n\nCOMMON COLLOCATIONS:\n- {塩分|えんぶん}の{過剰摂取|かじょうせっしゅ}: excessive salt intake\n- {糖分|とうぶん}の{過剰摂取|かじょうせっしゅ}: excessive sugar intake\n- カロリーの{過剰摂取|かじょうせっしゅ}: excessive calorie intake\n- {薬|くすり}の{過剰摂取|かじょうせっしゅ}: drug overdose\n\nRELATED TERMS:\n- {摂取|せっしゅ}: intake, ingestion — the neutral base word\n- {過剰|かじょう}: excessive, surplus — also used in {過剰反応|かじょうはんのう} (overreaction)\n- {過量投与|かりょうとうよ}: overdosage — a medical term for administering too much medication",
+  "notes": "A compound of ⟦{過剰|かじょう}→過剰：04123_kajou⟧ (excessive, surplus) and ⟦{摂取|せっしゅ}→摂取：09322_sesshu⟧ (intake, ingestion). Commonly used in health, nutrition, and medical contexts. Can refer to food, nutrients, medication, or substances.\n\nCOMMON COLLOCATIONS:\n- ⟦{塩分|えんぶん}→塩分：09945_enbun⟧⟦の→の：09472_no⟧{過剰摂取|かじょうせっしゅ}: excessive salt intake\n- ⟦{糖分|とうぶん}→糖分：15847_toubun⟧⟦の→の：09472_no⟧{過剰摂取|かじょうせっしゅ}: excessive sugar intake\n- ⟦カロリー→カロリー：06109_karorii⟧⟦の→の：09472_no⟧{過剰摂取|かじょうせっしゅ}: excessive calorie intake\n- ⟦{薬|くすり}→薬：00793_kusuri⟧⟦の→の：09472_no⟧{過剰摂取|かじょうせっしゅ}: drug overdose\n\nRELATED WORDS:\n- ⟦{摂取|せっしゅ}→摂取：09322_sesshu⟧: intake, ingestion — the neutral base word\n- ⟦{過剰|かじょう}→過剰：04123_kajou⟧: excessive, surplus — also used in {過剰反応|かじょうはんのう} (overreaction)\n- {過量投与|かりょうとうよ}: overdosage — a medical term for administering too much medication",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "20581_chishiryou",
+      "reading": "ちしりょう",
+      "headword": "{致死量|ちしりょう}",
+      "label": "lethal dose"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25164_kajoushiyou",
+      "reading": "かじょうしよう",
+      "headword": "{過剰使用|かじょうしよう}",
+      "label": "overuse"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -64,7 +80,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-01T16:14:53Z",
-    "modified": "2026-04-01T16:14:53Z"
+    "modified": "2026-09-02T04:02:02Z"
   },
   "conjugation": {
     "type": "suru",

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22669_kikoubun_ex1",
-      "japanese": "{紀行文|きこうぶん}を{書|か}く。",
+      "japanese": "{紀行文|きこうぶん}⟦を→を：00422_wo⟧⟦{書|か}く→書く：00477_kaku⟧。",
       "english": "To write a travel essay.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22669_kikoubun_ex2",
-      "japanese": "{松尾|まつお}{芭蕉|ばしょう}の{紀行文|きこうぶん}は{日本|にほん}{文学|ぶんがく}の{名作|めいさく}だ。",
+      "japanese": "⟦{松尾|まつお}{芭蕉|ばしょう}→松尾芭蕉：30772_matsuobashou⟧⟦の→の：09472_no⟧{紀行文|きこうぶん}⟦は→は：00079_ha⟧⟦{日本|にほん}→日本：03876_nihon⟧⟦{文学|ぶんがく}→文学：01505_bungaku⟧⟦の→の：09472_no⟧⟦{名作|めいさく}→名作：11869_meisaku⟧だ。",
       "english": "Matsuo Basho's travel writings are masterpieces of Japanese literature.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22669_kikoubun_ex3",
-      "japanese": "{国語|こくご}の{授業|じゅぎょう}で{紀行文|きこうぶん}の{書|か}き{方|かた}を{学|まな}んだ。",
+      "japanese": "⟦{国語|こくご}→国語：02739_kokugo⟧⟦の→の：09472_no⟧⟦{授業|じゅぎょう}→授業：00781_jugyou⟧⟦で→で：00502_de⟧{紀行文|きこうぶん}⟦の→の：09472_no⟧⟦{書|か}き{方|かた}→書き方：13054_kakikata⟧⟦を→を：00422_wo⟧⟦{学|まな}んだ→学ぶ：01987_manabu⟧。",
       "english": "In Japanese language class, we learned how to write travel essays.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {紀行|きこう} (travel record) and {文|ぶん} (writing/essay). A literary genre with a long tradition in Japanese literature, from classical works like {奥|おく}の{細道|ほそみち} by {松尾|まつお}{芭蕉|ばしょう} to modern travel essays.\n\nCOMMON COLLOCATIONS:\n- {紀行文|きこうぶん}を{書|か}く: to write a travel essay\n- {紀行文|きこうぶん}{集|しゅう}: collection of travel essays\n- {紀行文|きこうぶん}{学|がく}: the study of travel writing\n\nSIMILAR WORDS:\n- {旅行記|りょこうき}: travel journal — more personal and record-like; less literary than {紀行文|きこうぶん}\n- {紀行|きこう}: travel record — shorter form, sometimes used interchangeably\n- {旅日記|たびにっき}: travel diary — day-by-day personal account of a journey",
+  "notes": "A compound of ⟦{紀行|きこう}→紀行：13823_kikou⟧ (travel record) and ⟦{文|ぶん}→文：03716_bun⟧ (writing/essay). A literary genre with a long tradition in Japanese literature, from classical works like ⟦{奥|おく}→奥：00980_oku⟧⟦の→の：09472_no⟧⟦{細道|ほそみち}→細道：23053_hosomichi⟧ by ⟦{松尾|まつお}{芭蕉|ばしょう}→松尾芭蕉：30772_matsuobashou⟧ to modern travel essays.\n\nCOMMON COLLOCATIONS:\n- {紀行文|きこうぶん}⟦を→を：00422_wo⟧⟦{書|か}く→書く：00477_kaku⟧: to write a travel essay\n- {紀行文|きこうぶん}{集|しゅう}: collection of travel essays\n- {紀行文|きこうぶん}{学|がく}: the study of travel writing\n\nSIMILAR WORDS:\n- ⟦{旅行記|りょこうき}→旅行記：22659_ryokouki⟧: travel journal — more personal and record-like; less literary than {紀行文|きこうぶん}\n- ⟦{紀行|きこう}→紀行：13823_kikou⟧: travel record — shorter form, sometimes used interchangeably\n- ⟦{旅日記|たびにっき}→旅日記：22691_tabinikki⟧: travel diary — day-by-day personal account of a journey",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22659_ryokouki",
+      "reading": "りょこうき",
+      "headword": "{旅行記|りょこうき}",
+      "label": "travel journal"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22691_tabinikki",
+      "reading": "たびにっき",
+      "headword": "{旅日記|たびにっき}",
+      "label": "travel diary"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -57,9 +73,9 @@
         "travel"
       ],
       "formality": "formal",
-      "politeness": null
+      "politeness": "plain"
     },
     "created": "2026-04-06T21:29:40Z",
-    "modified": "2026-07-30T15:38:57Z"
+    "modified": "2026-09-02T04:02:09Z"
   }
 }

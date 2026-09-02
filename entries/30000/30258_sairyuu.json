@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30258_sairyuu_ex1",
-      "japanese": "{林|はやし}の{中|なか}を{細流|さいりゅう}が{流|なが}れている。",
+      "japanese": "⟦{林|はやし}→林：01702_hayashi⟧⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧⟦を→を：00422_wo⟧{細流|さいりゅう}⟦が→が：00051_ga⟧⟦{流|なが}れている→流れる：01969_nagareru⟧。",
       "english": "A small stream runs through the woods.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30258_sairyuu_ex2",
-      "japanese": "{雨|あめ}のあと、{斜面|しゃめん}にいくつもの{細流|さいりゅう}ができた。",
+      "japanese": "⟦{雨|あめ}→雨：00583_ame⟧⟦の→の：09472_no⟧あと、⟦{斜面|しゃめん}→斜面：12870_shamen⟧⟦に→に：00314_ni⟧いくつ⟦も→も：00484_mo⟧⟦の→の：09472_no⟧{細流|さいりゅう}⟦が→が：00051_ga⟧⟦できた→できる：00557_dekiru⟧。",
       "english": "After the rain, several rivulets formed on the slope.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30258_sairyuu_ex3",
-      "japanese": "{山|やま}の{上|うえ}では{細流|さいりゅう}にすぎない{川|かわ}が、{下流|かりゅう}では{幅|はば}{百|ひゃく}メートルを{超|こ}える。",
+      "japanese": "⟦{山|やま}→山：02168_yama⟧⟦の→の：09472_no⟧⟦{上|うえ}→上：00682_ue⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧{細流|さいりゅう}⟦に→に：00314_ni⟧すぎない⟦{川|かわ}→川：02186_kawa⟧⟦が→が：00051_ga⟧、⟦{下流|かりゅう}→下流：15029_karyuu⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{幅|はば}→幅：03565_haba⟧⟦{百|ひゃく}→百：00780_hyaku⟧⟦メートル→メートル：02975_meetoru⟧⟦を→を：00422_wo⟧⟦{超|こ}える→超える：01942_koeru⟧。",
       "english": "The river, no more than a rivulet up in the mountains, is over a hundred meters wide downstream.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "{細|さい} (fine, narrow) + {流|りゅう} (flow, current). A written word; in speech people say {小|ちい}さな{川|かわ} or {小川|おがわ}.\n\nCOMMON COLLOCATIONS:\n- {細流|さいりゅう}が{流|なが}れる: a small stream flows\n- {細流|さいりゅう}をたどる: to follow a small stream\n- {山中|さんちゅう}の{細流|さいりゅう}: a mountain rivulet\n\nSIMILAR WORDS:\n- {小川|おがわ}: brook — the everyday word, warm and familiar\n- {渓流|けいりゅう}: mountain stream — a fast stream in a valley, associated with fishing\n- {支流|しりゅう}: tributary — defined by joining a larger river, regardless of size",
+  "notes": "{細|さい} (fine, narrow) + {流|りゅう} (flow, current). A written word; in speech people say ⟦{小|ちい}さな→小さな：02913_chiisana⟧⟦{川|かわ}→川：02186_kawa⟧ or ⟦{小川|おがわ}→小川：06695_ogawa⟧.\n\nCOMMON COLLOCATIONS:\n- {細流|さいりゅう}⟦が→が：00051_ga⟧⟦{流|なが}れる→流れる：01969_nagareru⟧: a small stream flows\n- {細流|さいりゅう}⟦を→を：00422_wo⟧たどる: to follow a small stream\n- {山中|さんちゅう}⟦の→の：09472_no⟧{細流|さいりゅう}: a mountain rivulet\n\nSIMILAR WORDS:\n- ⟦{小川|おがわ}→小川：06695_ogawa⟧: brook — the everyday word, warm and familiar\n- ⟦{渓流|けいりゅう}→渓流：15855_keiryuu⟧: mountain stream — a fast stream in a valley, associated with fishing\n- ⟦{支流|しりゅう}→支流：19624_shiryuu⟧: tributary — defined by joining a larger river, regardless of size",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06695_ogawa",
+      "reading": "おがわ",
+      "headword": "{小川|おがわ}",
+      "label": "brook"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15855_keiryuu",
+      "reading": "けいりゅう",
+      "headword": "{渓流|けいりゅう}",
+      "label": "mountain stream"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19624_shiryuu",
+      "reading": "しりゅう",
+      "headword": "{支流|しりゅう}",
+      "label": "tributary"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +76,7 @@
         "noun"
       ],
       "formality": "formal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "geography",
         "nature"
@@ -61,6 +84,6 @@
       "domain": []
     },
     "created": "2026-07-30T12:18:26Z",
-    "modified": "2026-07-30T12:18:26Z"
+    "modified": "2026-09-02T04:02:39Z"
   }
 }

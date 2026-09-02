@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "{住民|じゅうみん} refers to the people who live in a particular area, with an emphasis on their relationship to that community or local government.\n\nCOMMON COMPOUNDS:\n- ⟦{地域|ちいき}→地域：01461_chiiki⟧{住民|じゅうみん}: local residents\n- {住民|じゅうみん}⟦{登録|とうろく}→登録：05703_touroku⟧: resident registration\n- {住民|じゅうみん}⟦{税|ぜい}→税：03767_zei⟧: resident tax\n- {住民|じゅうみん}⟦{票|ひょう}→票：03582_hyou⟧: certificate of residence (official document)\n- {住民|じゅうみん}⟦{投票|とうひょう}→投票：03453_touhyou⟧: referendum, residents' vote\n\nSIMILAR WORDS:\n- {住民|じゅうみん}: residents (community/administrative focus)\n- ⟦{居住者|きょじゅうしゃ}→居住者：16923_kyojuusha⟧: resident, occupant (legal/formal)\n- ⟦{住人|じゅうにん}→住人：11611_juunin⟧: inhabitant (more general, literary)\n- ⟦{市民|しみん}→市民：01426_shimin⟧: citizen (emphasizes civic participation)",
+  "notes": "{住民|じゅうみん} refers to the people who live in a particular area, with an emphasis on their relationship to that community or local government.\n\nCOMPOUNDS:\n- ⟦{地域|ちいき}→地域：01461_chiiki⟧{住民|じゅうみん}: local residents\n- {住民|じゅうみん}⟦{登録|とうろく}→登録：05703_touroku⟧: resident registration\n- {住民|じゅうみん}⟦{税|ぜい}→税：03767_zei⟧: resident tax\n- {住民|じゅうみん}⟦{票|ひょう}→票：03582_hyou⟧: certificate of residence (official document)\n- {住民|じゅうみん}⟦{投票|とうひょう}→投票：03453_touhyou⟧: referendum, residents' vote\n\nSIMILAR WORDS:\n- {住民|じゅうみん}: residents (community/administrative focus)\n- ⟦{居住者|きょじゅうしゃ}→居住者：16923_kyojuusha⟧: resident, occupant (legal/formal)\n- ⟦{住人|じゅうにん}→住人：11611_juunin⟧: inhabitant (more general, literary)\n- ⟦{市民|しみん}→市民：01426_shimin⟧: citizen (emphasizes civic participation)",
   "cross_references": [
     {
       "type": "related",
@@ -78,11 +78,46 @@
       "headword": "{住人|じゅうにん}",
       "label": "inhabitant",
       "target_id": "11611_juunin"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16923_kyojuusha",
+      "reading": "きょじゅうしゃ",
+      "headword": "{居住者|きょじゅうしゃ}",
+      "label": "resident, occupant"
+    },
+    {
+      "type": "related",
+      "target_id": "13062_murabito",
+      "reading": "むらびと",
+      "headword": "{村人|むらびと}",
+      "label": "villager"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20199_jimotomin",
+      "reading": "じもとみん",
+      "headword": "{地元民|じもとみん}",
+      "label": "local resident"
+    },
+    {
+      "type": "related",
+      "target_id": "22347_sonmin",
+      "reading": "そんみん",
+      "headword": "{村民|そんみん}",
+      "label": "villagers"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22840_jinmin",
+      "reading": "じんみん",
+      "headword": "{人民|じんみん}",
+      "label": "the people"
     }
   ],
   "metadata": {
     "created": "2026-01-12T01:10:35Z",
-    "modified": "2026-05-24T20:11:38Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

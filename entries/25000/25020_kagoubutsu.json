@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25020_kagoubutsu_ex1",
-      "japanese": "{水|みず}は{化合物|かごうぶつ}です。",
+      "japanese": "⟦{水|みず}→水：02258_mizu⟧⟦は→は：00079_ha⟧{化合物|かごうぶつ}です。",
       "english": "Water is a chemical compound.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25020_kagoubutsu_ex2",
-      "japanese": "この{化合物|かごうぶつ}は{二|ふた}つの{元素|げんそ}からできている。",
+      "japanese": "⟦この→この：00962_kono⟧{化合物|かごうぶつ}⟦は→は：00079_ha⟧⟦{二|ふた}つ→二つ：02953_futatsu⟧⟦の→の：09472_no⟧⟦{元素|げんそ}→元素：09662_genso⟧⟦から→から：00504_kara⟧⟦できている→できる：00557_dekiru⟧。",
       "english": "This compound is made up of two elements.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25020_kagoubutsu_ex3",
-      "japanese": "{新|あたら}しい{化合物|かごうぶつ}を{合成|ごうせい}するために、{研究者|けんきゅうしゃ}たちは{何年|なんねん}も{実験|じっけん}を{続|つづ}けた。",
+      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧{化合物|かごうぶつ}⟦を→を：00422_wo⟧⟦{合成|ごうせい}→合成：12027_gousei⟧⟦する→する：00392_suru⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧、⟦{研究者|けんきゅうしゃ}→研究者：02573_kenkyuusha⟧たち⟦は→は：00079_ha⟧⟦{何年|なんねん}→何年：12737_nannen⟧⟦も→も：00484_mo⟧⟦{実験|じっけん}→実験：03273_jikken⟧⟦を→を：00422_wo⟧⟦{続|つづ}け→続く：00903_tsuzuku⟧た。",
       "english": "The researchers continued experimenting for years to synthesize a new compound.",
       "sense_numbers": [
         1
@@ -44,19 +44,58 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {化合|かごう} (chemical combination) + {物|ぶつ} (substance). A fundamental term in chemistry education, encountered from middle school science onward in Japan.\n\nCOMMON COLLOCATIONS:\n- {有機|ゆうき}{化合物|かごうぶつ}: organic compound\n- {無機|むき}{化合物|かごうぶつ}: inorganic compound\n- {化合物|かごうぶつ}を{合成|ごうせい}する: synthesize a compound\n- {化学|かがく}{化合物|かごうぶつ}: chemical compound\n\nSIMILAR WORDS:\n- {混合物|こんごうぶつ}: mixture — components are not chemically bonded and can be separated physically\n- {元素|げんそ}: element — a pure substance consisting of one type of atom\n- {分子|ぶんし}: molecule — the smallest unit of a compound that retains its chemical properties",
+  "notes": "Composed of {化合|かごう} (chemical combination) + ⟦{物|ぶつ}→〜物：28336_butsu⟧ (substance). A fundamental term in chemistry education, encountered from middle school science onward in Japan.\n\nCOMMON COLLOCATIONS:\n- ⟦{有機|ゆうき}→有機：03643_yuuki⟧{化合物|かごうぶつ}: organic compound\n- {無機|むき}{化合物|かごうぶつ}: inorganic compound\n- {化合物|かごうぶつ}⟦を→を：00422_wo⟧⟦{合成|ごうせい}→合成：12027_gousei⟧⟦する→する：00392_suru⟧: synthesize a compound\n- ⟦{化学|かがく}→化学：05336_kagaku_chem⟧{化合物|かごうぶつ}: chemical compound\n\nSIMILAR WORDS:\n- ⟦{混合物|こんごうぶつ}→混合物：21415_kongoubutsu⟧: mixture — components are not chemically bonded and can be separated physically\n- ⟦{元素|げんそ}→元素：09662_genso⟧: element — a pure substance consisting of one type of atom\n- ⟦{分子|ぶんし}→分子：11769_bunshi⟧: molecule — the smallest unit of a compound that retains its chemical properties",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21415_kongoubutsu",
+      "reading": "こんごうぶつ",
+      "headword": "{混合物|こんごうぶつ}",
+      "label": "mixture"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09662_genso",
+      "reading": "げんそ",
+      "headword": "{元素|げんそ}",
+      "label": "element"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11769_bunshi",
+      "reading": "ぶんし",
+      "headword": "{分子|ぶんし}",
+      "label": "molecule"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19856_kagakubusshitsu",
+      "reading": "かがくぶっしつ",
+      "headword": "{化学物質|かがくぶっしつ}",
+      "label": "chemical substance"
+    },
+    {
+      "type": "related",
+      "target_id": "23929_sankabutsu",
+      "reading": "さんかぶつ",
+      "headword": "{酸化物|さんかぶつ}",
+      "label": "oxide"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "science"
       ]
     },
     "created": "2026-04-22T11:23:16Z",
-    "modified": "2026-08-03T09:22:27Z"
+    "modified": "2026-09-02T04:02:20Z"
   }
 }

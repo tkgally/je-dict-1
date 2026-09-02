@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "09700_rasshuawaa_ex1",
-      "japanese": "ラッシュアワーを{避|さ}けて{出|で}かけた。",
+      "japanese": "ラッシュアワー⟦を→を：00422_wo⟧⟦{避|さ}けて→避ける：02109_sakeru⟧⟦{出|で}かけた→出かける：00833_dekakeru⟧。",
       "english": "I went out avoiding rush hour.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "09700_rasshuawaa_ex2",
-      "japanese": "ラッシュアワーの{電車|でんしゃ}は{混|こ}んでいる。",
+      "japanese": "ラッシュアワー⟦の→の：09472_no⟧⟦{電車|でんしゃ}→電車：00522_densha⟧⟦は→は：00079_ha⟧⟦{混|こ}んでいる→混む：02574_komu⟧。",
       "english": "Trains during rush hour are crowded.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "09700_rasshuawaa_ex3",
-      "japanese": "{朝|あさ}のラッシュアワーは7{時|じ}から9{時|じ}くらいがピークだ。",
+      "japanese": "⟦{朝|あさ}→朝：02277_asa⟧⟦の→の：09472_no⟧ラッシュアワー⟦は→は：00079_ha⟧7⟦{時|じ}→時：09869_ji⟧⟦から→から：00504_kara⟧9⟦{時|じ}→時：09869_ji⟧くらい⟦が→が：00051_ga⟧⟦ピーク→ピーク：11174_piiku⟧だ。",
       "english": "The morning rush hour peaks around 7 to 9 o'clock.",
       "notes": null,
       "has_audio": false,
@@ -43,10 +43,47 @@
       ]
     }
   ],
-  "notes": "ラッシュアワー refers to the peak commuting periods, especially on trains and roads. Japan's rush hours are notoriously intense, with packed trains in major cities.\n\nCOMMON COLLOCATIONS:\n- {朝|あさ}のラッシュアワー: morning rush hour\n- {夕方|ゆうがた}のラッシュアワー: evening rush hour\n- ラッシュアワーを{避|さ}ける: to avoid rush hour\n- ラッシュアワーの{電車|でんしゃ}: rush-hour train\n\nUSAGE:\n- Often shortened to ラッシュ in casual speech\n- {通勤|つうきん}ラッシュ (commuter rush) is a common synonym\n- Peak times are typically 7-9 AM and 5-7 PM\n\nRELATED TERMS:\n- {混雑|こんざつ}: congestion, crowding\n- {満員|まんいん}{電車|でんしゃ}: packed train\n- {時差|じさ}{出勤|しゅっきん}: staggered commuting (to avoid rush hour)",
+  "notes": "ラッシュアワー refers to the peak commuting periods, especially on trains and roads. Japan's rush hours are notoriously intense, with packed trains in major cities.\n\nCOMMON COLLOCATIONS:\n- ⟦{朝|あさ}→朝：02277_asa⟧⟦の→の：09472_no⟧ラッシュアワー: morning rush hour\n- ⟦{夕方|ゆうがた}→夕方：01010_yuugata⟧⟦の→の：09472_no⟧ラッシュアワー: evening rush hour\n- ラッシュアワー⟦を→を：00422_wo⟧⟦{避|さ}ける→避ける：02109_sakeru⟧: to avoid rush hour\n- ラッシュアワー⟦の→の：09472_no⟧⟦{電車|でんしゃ}→電車：00522_densha⟧: rush-hour train\n\nUSAGE:\n- Often shortened to ⟦ラッシュ→ラッシュ：11221_rasshu⟧ in casual speech\n- ⟦{通勤|つうきん}ラッシュ→通勤ラッシュ：08486_tsuukinrasshu⟧ (commuter rush) is a common synonym\n- Peak times are typically 7-9 AM and 5-7 PM\n\nRELATED WORDS:\n- ⟦{混雑|こんざつ}→混雑：02809_konzatsu⟧: congestion, crowding\n- ⟦{満員|まんいん}{電車|でんしゃ}→満員電車：08350_manindensha⟧: packed train\n- ⟦{時差|じさ}{出勤|しゅっきん}→時差出勤：08594_jisashukkin⟧: staggered commuting (to avoid rush hour)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "02809_konzatsu",
+      "reading": "こんざつ",
+      "headword": "{混雑|こんざつ}",
+      "label": "congestion, crowding"
+    },
+    {
+      "type": "related",
+      "target_id": "08350_manindensha",
+      "reading": "まんいんでんしゃ",
+      "headword": "{満員電車|まんいんでんしゃ}",
+      "label": "packed train"
+    },
+    {
+      "type": "related",
+      "target_id": "08594_jisashukkin",
+      "reading": "じさしゅっきん",
+      "headword": "{時差出勤|じさしゅっきん}",
+      "label": "staggered commuting"
+    },
+    {
+      "type": "related",
+      "target_id": "08486_tsuukinrasshu",
+      "reading": "つうきんらっしゅ",
+      "headword": "{通勤|つうきん}ラッシュ",
+      "label": "commuter rush"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22747_konzatsujikantai",
+      "reading": "こんざつじかんたい",
+      "headword": "{混雑時間帯|こんざつじかんたい}",
+      "label": "peak hours"
+    }
+  ],
   "metadata": {
     "created": "2026-02-03T06:51:34Z",
-    "modified": "2026-06-24T18:40:49Z",
+    "modified": "2026-09-02T04:01:19Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

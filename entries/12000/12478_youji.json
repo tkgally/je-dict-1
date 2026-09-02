@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "12478_youji_ex1",
-      "japanese": "{幼児|ようじ}{向|む}けの{絵本|えほん}を{買|か}った。",
+      "japanese": "{幼児|ようじ}{向|む}け⟦の→の：09472_no⟧⟦{絵本|えほん}→絵本：10429_ehon⟧⟦を→を：00422_wo⟧⟦{買|か}った→買う：00489_kau⟧。",
       "english": "I bought a picture book for young children.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12478_youji_ex2",
-      "japanese": "{幼児|ようじ}{教育|きょういく}の{重要性|じゅうようせい}が{注目|ちゅうもく}されている。",
+      "japanese": "{幼児|ようじ}{教育|きょういく}⟦の→の：09472_no⟧⟦{重要性|じゅうようせい}→重要性：04823_juuyousei⟧⟦が→が：00051_ga⟧⟦{注目|ちゅうもく}→注目：03483_chuumoku⟧⟦されている→する：00392_suru⟧。",
       "english": "The importance of early childhood education is getting attention.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12478_youji_ex3",
-      "japanese": "このプールには{幼児|ようじ}でも{安全|あんぜん}に{遊|あそ}べる{浅|あさ}いエリアがある。",
+      "japanese": "⟦この→この：00962_kono⟧⟦プール→プール：02958_puuru⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{幼児|ようじ}⟦で→で：00502_de⟧⟦も→も：00484_mo⟧⟦{安全|あんぜん}→安全：01131_anzen⟧⟦に→に：00314_ni⟧⟦{遊|あそ}べる→遊ぶ：00550_asobu⟧⟦{浅|あさ}い→浅い：01274_asai⟧⟦エリア→エリア：10726_eria⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "This pool has a shallow area where even toddlers can play safely.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nDistinguish from related age terms: {乳児|にゅうじ} (infant, under 1 year), {幼児|ようじ} (toddler/young child, roughly 1-6), {児童|じどう} (child, elementary school age). {幼児|ようじ} is a slightly formal or official term; in everyday conversation, {小|ちい}さい{子|こ} (small child) is more natural.\n\nCOMMON COLLOCATIONS:\n- {幼児|ようじ}{教育|きょういく}: early childhood education\n- {幼児|ようじ}{向|む}け: aimed at young children\n- {幼児|ようじ}{期|き}: early childhood period\n- {幼児|ようじ}{虐待|ぎゃくたい}: child abuse (of young children)",
+  "notes": "USAGE:\nDistinguish from related age terms: ⟦{乳児|にゅうじ}→乳児：11414_nyuuji⟧ (infant, under 1 year), {幼児|ようじ} (toddler/young child, roughly 1-6), ⟦{児童|じどう}→児童：03340_jidou⟧ (child, elementary school age). {幼児|ようじ} is a slightly formal or official term; in everyday conversation, ⟦{小|ちい}さい→小さい：00025_chiisai⟧⟦{子|こ}→子：09851_ko⟧ (small child) is more natural.\n\nCOMMON COLLOCATIONS:\n- {幼児|ようじ}{教育|きょういく}: early childhood education\n- {幼児|ようじ}{向|む}け: aimed at young children\n- {幼児|ようじ}{期|き}: early childhood period\n- {幼児|ようじ}⟦{虐待|ぎゃくたい}→虐待：14046_gyakutai⟧: child abuse (of young children)",
   "cross_references": [
     {
       "type": "related",
@@ -53,18 +59,43 @@
       "reading": "じどう",
       "headword": "{児童|じどう}",
       "label": "child (school age)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01329_akanbou",
+      "reading": "あかんぼう",
+      "headword": "赤ん坊",
+      "label": "baby"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27025_shouni",
+      "reading": "しょうに",
+      "headword": "{小児|しょうに}",
+      "label": "child"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27253_shuugakumae",
+      "reading": "しゅうがくまえ",
+      "headword": "{就学前|しゅうがくまえ}",
+      "label": "preschool age"
     }
   ],
   "metadata": {
     "created": "2026-02-21T10:32:45Z",
-    "modified": "2026-04-27T05:19:15Z",
+    "modified": "2026-09-02T04:01:29Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["person"]
+      "semantic": [
+        "person"
+      ]
     }
   }
 }

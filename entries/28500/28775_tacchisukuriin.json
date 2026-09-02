@@ -15,41 +15,67 @@
   "examples": [
     {
       "id": "28775_tacchisukuriin_ex1",
-      "japanese": "{画面|がめん}はタッチスクリーンになっている。",
+      "japanese": "⟦{画面|がめん}→画面：04406_gamen⟧⟦は→は：00079_ha⟧タッチスクリーンになっている。",
       "english": "The screen is a touchscreen.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28775_tacchisukuriin_ex2",
-      "japanese": "{券売機|けんばいき}のタッチスクリーンで{切符|きっぷ}を{買|か}った。",
+      "japanese": "⟦{券売機|けんばいき}→券売機：09553_kenbaiki⟧⟦の→の：09472_no⟧タッチスクリーン⟦で→で：00502_de⟧⟦{切符|きっぷ}→切符：00643_kippu⟧⟦を→を：00422_wo⟧⟦{買|か}った→買う：00489_kau⟧。",
       "english": "I bought a ticket on the ticket machine's touchscreen.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28775_tacchisukuriin_ex3",
-      "japanese": "{手袋|てぶくろ}をしているとタッチスクリーンが{反応|はんのう}しないことが{多|おお}い。",
+      "japanese": "⟦{手袋|てぶくろ}→手袋：01063_tebukuro⟧⟦を→を：00422_wo⟧⟦している→する：00392_suru⟧⟦と→と：00512_to⟧タッチスクリーン⟦が→が：00051_ga⟧⟦{反応|はんのう}しない→反応する：20204_hannousuru⟧こと⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "When you are wearing gloves, the touchscreen often doesn't respond.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "From English \"touch screen\". Common in everyday tech contexts: smartphones, tablets, ATMs, ticket machines, and restaurant order panels.\n\nCOMMON COLLOCATIONS:\n- タッチスクリーンを{操作|そうさ}する: to operate a touchscreen\n- タッチスクリーン{対応|たいおう}: touchscreen-compatible\n- タッチスクリーンが{反応|はんのう}する: the touchscreen responds\n\nSIMILAR WORDS:\n- タッチパネル: touch panel — near-synonym, often used interchangeably; タッチパネル is slightly more common in Japanese product specs\n- ディスプレイ: display — generic term for any screen, with or without touch input",
+  "notes": "From English \"touch screen\". Common in everyday tech contexts: smartphones, tablets, ATMs, ticket machines, and restaurant order panels.\n\nCOMMON COLLOCATIONS:\n- タッチスクリーン⟦を→を：00422_wo⟧⟦{操作|そうさ}する→操作する：18999_sousasuru⟧: to operate a touchscreen\n- タッチスクリーン⟦{対応|たいおう}→対応：02510_taiou⟧: touchscreen-compatible\n- タッチスクリーン⟦が→が：00051_ga⟧⟦{反応|はんのう}する→反応する：20204_hannousuru⟧: the touchscreen responds\n\nSIMILAR WORDS:\n- ⟦タッチパネル→タッチパネル：05226_tacchipaneru⟧: touch panel — near-synonym, often used interchangeably; ⟦タッチパネル→タッチパネル：05226_tacchipaneru⟧ is slightly more common in Japanese product specs\n- ⟦ディスプレイ→ディスプレイ：04891_disupurei⟧: display — generic term for any screen, with or without touch input",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05226_tacchipaneru",
+      "reading": "たっちぱねる",
+      "headword": "タッチパネル",
+      "label": "touch panel"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04891_disupurei",
+      "reading": "でぃすぷれい",
+      "headword": "ディスプレイ",
+      "label": "display"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["technology"],
+      "politeness": "plain",
+      "semantic": [
+        "technology"
+      ],
       "domain": []
     },
     "created": "2026-06-05T03:07:50Z",
-    "modified": "2026-06-05T03:07:50Z"
+    "modified": "2026-09-02T04:02:34Z"
   }
 }

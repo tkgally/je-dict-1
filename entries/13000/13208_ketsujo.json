@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "13208_ketsujo_ex1",
-      "japanese": "{責任感|せきにんかん}の{欠如|けつじょ}が{問題|もんだい}だ。",
+      "japanese": "⟦{責任感|せきにんかん}→責任感：20441_sekininkan⟧⟦の→の：09472_no⟧{欠如|けつじょ}⟦が→が：00051_ga⟧⟦{問題|もんだい}→問題：00797_mondai⟧だ。",
       "english": "The lack of a sense of responsibility is the problem.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "13208_ketsujo_ex2",
-      "japanese": "{危機|きき}{意識|いしき}が{欠如|けつじょ}している。",
+      "japanese": "⟦{危機|きき}→危機：11798_kiki⟧⟦{意識|いしき}→意識：01714_ishiki⟧⟦が→が：00051_ga⟧{欠如|けつじょ}⟦している→する：00392_suru⟧。",
       "english": "There is a lack of crisis awareness.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "13208_ketsujo_ex3",
-      "japanese": "{倫理観|りんりかん}の{欠如|けつじょ}した{行動|こうどう}が{社会的|しゃかいてき}な{批判|ひはん}を{浴|あ}びた。",
+      "japanese": "⟦{倫理観|りんりかん}→倫理観：23419_rinrikan⟧⟦の→の：09472_no⟧{欠如|けつじょ}⟦した→する：00392_suru⟧⟦{行動|こうどう}→行動：02728_koudou⟧⟦が→が：00051_ga⟧⟦{社会的|しゃかいてき}→社会的：04791_shakaiteki⟧な⟦{批判|ひはん}→批判：03580_hihan⟧⟦を→を：00422_wo⟧⟦{浴|あ}びた→浴びる：02844_abiru⟧。",
       "english": "The behavior lacking in ethics drew public criticism.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA formal, somewhat critical word. Used as a noun (Xの{欠如|けつじょ}) or as a suru verb ({欠如|けつじょ}する / {欠如|けつじょ}している). Almost always refers to the absence of abstract or intangible qualities — not physical objects. Often appears in criticism of individuals or organizations.\n\nCOMMON COLLOCATIONS:\n- {意識|いしき}の{欠如|けつじょ}: lack of awareness\n- {責任感|せきにんかん}の{欠如|けつじょ}: lack of responsibility\n- {配慮|はいりょ}の{欠如|けつじょ}: lack of consideration\n- {倫理観|りんりかん}の{欠如|けつじょ}: lack of ethics\n\nSIMILAR WORDS:\n- {不足|ふそく}: insufficiency, shortage (more general, can be physical)\n- {欠乏|けつぼう}: deficiency, want (stronger sense of deprivation, often physical)\n- {欠落|けつらく}: omission, gap (something that should be there is missing)",
+  "notes": "USAGE:\nA formal, somewhat critical word. Used as a noun (X⟦の→の：09472_no⟧{欠如|けつじょ}) or as a suru verb ({欠如|けつじょ}⟦する→する：00392_suru⟧ / {欠如|けつじょ}⟦している→する：00392_suru⟧). Almost always refers to the absence of abstract or intangible qualities — not physical objects. Often appears in criticism of individuals or organizations.\n\nCOMMON COLLOCATIONS:\n- ⟦{意識|いしき}→意識：01714_ishiki⟧⟦の→の：09472_no⟧{欠如|けつじょ}: lack of awareness\n- ⟦{責任感|せきにんかん}→責任感：20441_sekininkan⟧⟦の→の：09472_no⟧{欠如|けつじょ}: lack of responsibility\n- ⟦{配慮|はいりょ}→配慮：07700_hairyo⟧⟦の→の：09472_no⟧{欠如|けつじょ}: lack of consideration\n- ⟦{倫理観|りんりかん}→倫理観：23419_rinrikan⟧⟦の→の：09472_no⟧{欠如|けつじょ}: lack of ethics\n\nSIMILAR WORDS:\n- ⟦{不足|ふそく}→不足：03598_fusoku⟧: insufficiency, shortage (more general, can be physical)\n- ⟦{欠乏|けつぼう}→欠乏：15114_ketsubou⟧: deficiency, want (stronger sense of deprivation, often physical)\n- ⟦{欠落|けつらく}→欠落：21121_ketsuraku⟧: omission, gap (something that should be there is missing)",
   "cross_references": [
     {
       "type": "synonym",
@@ -142,11 +142,25 @@
       "reading": "ふそく",
       "headword": "{不足|ふそく}",
       "label": "shortage (more general)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15114_ketsubou",
+      "reading": "けつぼう",
+      "headword": "{欠乏|けつぼう}",
+      "label": "deficiency, want"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21121_ketsuraku",
+      "reading": "けつらく",
+      "headword": "{欠落|けつらく}",
+      "label": "omission, gap"
     }
   ],
   "metadata": {
     "created": "2026-02-24T06:16:31Z",
-    "modified": "2026-04-28T06:26:02Z",
+    "modified": "2026-09-02T04:01:32Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -159,7 +173,8 @@
       "semantic": [
         "general"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

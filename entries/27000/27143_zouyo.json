@@ -3,7 +3,7 @@
   "headword": "{贈与|ぞうよ}",
   "reading": "ぞうよ",
   "romaji": "zouyo",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "gift; donation; bestowal",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "27143_zouyo_ex1",
-      "japanese": "{財産|ざいさん}を{贈与|ぞうよ}する。",
+      "japanese": "⟦{財産|ざいさん}→財産：01635_zaisan⟧⟦を→を：00422_wo⟧{贈与|ぞうよ}⟦する→する：00392_suru⟧。",
       "english": "To gift property.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "27143_zouyo_ex2",
-      "japanese": "{贈与|ぞうよ}{税|ぜい}がかかる{場合|ばあい}がある。",
+      "japanese": "{贈与|ぞうよ}⟦{税|ぜい}→税：03767_zei⟧⟦が→が：00051_ga⟧⟦かかる→かかる：00711_kakaru⟧⟦{場合|ばあい}→場合：01704_baai⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There are cases where gift tax applies.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "27143_zouyo_ex3",
-      "japanese": "{親|おや}から{子|こ}への{不動産|ふどうさん}の{贈与|ぞうよ}には、{一定|いってい}の{手続|てつづ}きが{必要|ひつよう}だ。",
+      "japanese": "⟦{親|おや}→親：01357_oya⟧⟦から→から：00504_kara⟧⟦{子|こ}→子：09851_ko⟧⟦へ→へ：02473_he⟧⟦の→の：09472_no⟧⟦{不動産|ふどうさん}→不動産：06726_fudousan⟧⟦の→の：09472_no⟧{贈与|ぞうよ}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧、⟦{一定|いってい}→一定：01735_ittei⟧⟦の→の：09472_no⟧⟦{手続|てつづ}き→手続き：05453_tetsuzuki⟧⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧だ。",
       "english": "The gifting of real estate from parent to child requires certain procedures.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "A formal, legal term for giving assets or property to another person. In everyday Japanese, {プレゼント} or {贈|おく}り{物|もの} are used for casual gifts, while {贈与|ぞうよ} refers specifically to legal transfers of assets.\n\nCOMMON COLLOCATIONS:\n- {贈与|ぞうよ}{税|ぜい} — gift tax\n- {贈与|ぞうよ}{契約|けいやく} — gift contract\n- {財産|ざいさん}{贈与|ぞうよ} — property donation\n- {生前|せいぜん}{贈与|ぞうよ} — gift given during one's lifetime (before death)\n- {贈与|ぞうよ}を{受|う}ける — to receive a gift/donation\n\nSIMILAR WORDS:\n- {贈|おく}り{物|もの} — gift, present; everyday word for gifts given on occasions\n- プレゼント — present; casual, often for birthdays and holidays\n- {寄付|きふ} — donation; giving to organizations or causes, not between individuals\n- {遺贈|いぞう} — bequest; specifically a gift left in a will, given after death",
+  "notes": "A formal, legal term for giving assets or property to another person. In everyday Japanese, ⟦プレゼント→プレゼント：01791_purezento⟧ or ⟦{贈|おく}り{物|もの}→贈り物：01343_okurimono⟧ are used for casual gifts, while {贈与|ぞうよ} refers specifically to legal transfers of assets.\n\nCOMMON COLLOCATIONS:\n- {贈与|ぞうよ}⟦{税|ぜい}→税：03767_zei⟧ — gift tax\n- {贈与|ぞうよ}⟦{契約|けいやく}→契約：02698_keiyaku⟧ — gift contract\n- ⟦{財産|ざいさん}→財産：01635_zaisan⟧{贈与|ぞうよ} — property donation\n- ⟦{生前|せいぜん}→生前：16391_seizen⟧{贈与|ぞうよ} — gift given during one's lifetime (before death)\n- {贈与|ぞうよ}⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧ — to receive a gift/donation\n\nSIMILAR WORDS:\n- ⟦{贈|おく}り{物|もの}→贈り物：01343_okurimono⟧ — gift, present; everyday word for gifts given on occasions\n- ⟦プレゼント→プレゼント：01791_purezento⟧ — present; casual, often for birthdays and holidays\n- ⟦{寄付|きふ}→寄付：02584_kifu⟧ — donation; giving to organizations or causes, not between individuals\n- {遺贈|いぞう} — bequest; specifically a gift left in a will, given after death",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01343_okurimono",
+      "reading": "おくりもの",
+      "headword": "{贈|おく}り{物|もの}",
+      "label": "gift, present"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01791_purezento",
+      "reading": "ぷれぜんと",
+      "headword": "プレゼント",
+      "label": "present"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02584_kifu",
+      "reading": "きふ",
+      "headword": "{寄付|きふ}",
+      "label": "donation"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,10 +84,11 @@
       "domain": [
         "legal"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-05-07T13:09:43Z",
-    "modified": "2026-08-07T06:28:31Z"
+    "modified": "2026-09-02T04:02:29Z"
   },
   "conjugation": {
     "type": "suru",

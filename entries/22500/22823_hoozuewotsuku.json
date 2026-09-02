@@ -3,7 +3,7 @@
   "headword": "{頬杖|ほおづえ}をつく",
   "reading": "ほおづえをつく",
   "romaji": "hoozuewotsuku",
-  "part_of_speech": "expression",
+  "part_of_speech": "expression, verb (godan)",
   "gloss": "to rest one's chin on one's hand; to prop up one's cheek with one's hand",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22823_hoozuewotsuku_ex1",
-      "japanese": "{頬杖|ほおづえ}をついて{窓|まど}の{外|そと}を{見|み}ていた。",
+      "japanese": "{頬杖|ほおづえ}をついて⟦{窓|まど}→窓：02254_mado⟧⟦の→の：09472_no⟧⟦{外|そと}→外：00671_soto⟧⟦を→を：00422_wo⟧⟦{見|み}ていた→見る：00283_miru⟧。",
       "english": "I was gazing out the window, chin resting on my hand.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22823_hoozuewotsuku_ex2",
-      "japanese": "{授業中|じゅぎょうちゅう}に{頬杖|ほおづえ}をつくのは{行儀|ぎょうぎ}が{悪|わる}い。",
+      "japanese": "⟦{授業中|じゅぎょうちゅう}→授業中：20544_jugyouchuu⟧⟦に→に：00314_ni⟧{頬杖|ほおづえ}をつく⟦の→の：09472_no⟧⟦は→は：00079_ha⟧⟦{行儀|ぎょうぎ}→行儀：02662_gyougi⟧⟦が→が：00051_ga⟧⟦{悪|わる}い→悪い：00908_warui⟧。",
       "english": "Resting your chin on your hand during class is bad manners.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22823_hoozuewotsuku_ex3",
-      "japanese": "{彼女|かのじょ}は{頬杖|ほおづえ}をつきながら、ぼんやり{考|かんが}え{事|ごと}をしていた。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧{頬杖|ほおづえ}をつき⟦ながら→ながら：10530_nagara⟧、⟦ぼんやり→ぼんやり：03727_bonyari⟧{考|かんが}え{事|ごと}⟦を→を：00422_wo⟧⟦していた→する：00392_suru⟧。",
       "english": "She was lost in thought, chin propped up on her hand.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "A common pose where one rests the cheek or chin on the palm, with the elbow on a surface. The expression comes from {頬|ほお} (cheek) + {杖|つえ} (cane/support) + をつく (to place/lean on). Often describes boredom, daydreaming, or being lost in thought.\n\nCOMMON COLLOCATIONS:\n- {頬杖|ほおづえ}をつく: to rest chin on hand\n- {頬杖|ほおづえ}をつきながら: while resting chin on hand\n- {頬杖|ほおづえ}をついて: with chin resting on hand\n\nCULTURAL NOTE:\nIn Japanese culture, {頬杖|ほおづえ}をつく is generally considered poor posture, especially in formal settings, classrooms, and at the dining table. It can be seen as a sign of boredom, laziness, or lack of attention.\n\nRELATED TERMS:\n- {頬|ほお}: cheek\n- {杖|つえ}: cane; walking stick\n- {肘|ひじ}をつく: to lean on one's elbow",
+  "notes": "A common pose where one rests the cheek or chin on the palm, with the elbow on a surface. The expression comes from ⟦{頬|ほお}→頬：03717_hoo⟧ (cheek) + ⟦{杖|つえ}→杖：12862_tsue⟧ (cane/support) + ⟦を→を：00422_wo⟧つく (to place/lean on). Often describes boredom, daydreaming, or being lost in thought.\n\nCOMMON COLLOCATIONS:\n- {頬杖|ほおづえ}をつく: to rest chin on hand\n- {頬杖|ほおづえ}をつき⟦ながら→ながら：10530_nagara⟧: while resting chin on hand\n- {頬杖|ほおづえ}をついて: with chin resting on hand\n\nCULTURAL NOTE:\nIn Japanese culture, {頬杖|ほおづえ}をつく is generally considered poor posture, especially in formal settings, classrooms, and at the dining table. It can be seen as a sign of boredom, laziness, or lack of attention.\n\nRELATED WORDS:\n- ⟦{頬|ほお}→頬：03717_hoo⟧: cheek\n- ⟦{杖|つえ}→杖：12862_tsue⟧: cane; walking stick\n- ⟦{肘|ひじ}をつく→肘をつく：22275_hijiwotsuku⟧: to lean on one's elbow",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "03717_hoo",
+      "reading": "ほお",
+      "headword": "{頬|ほお}",
+      "label": "cheek"
+    },
+    {
+      "type": "related",
+      "target_id": "12862_tsue",
+      "reading": "つえ",
+      "headword": "{杖|つえ}",
+      "label": "cane"
+    },
+    {
+      "type": "related",
+      "target_id": "22275_hijiwotsuku",
+      "reading": "ひじをつく",
+      "headword": "{肘|ひじ}をつく",
+      "label": "to lean on one's elbow"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,6 +76,7 @@
         "expression",
         "verb-godan"
       ],
+      "politeness": "plain",
       "semantic": [
         "body-part",
         "culture"
@@ -60,7 +84,7 @@
       "verb_class": "godan-ku"
     },
     "created": "2026-04-07T17:09:48Z",
-    "modified": "2026-07-30T15:20:15Z"
+    "modified": "2026-09-02T04:02:09Z"
   },
   "conjugation": {
     "type": "godan",

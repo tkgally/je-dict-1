@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "USAGE: {老人|ろうじん} is a neutral term for elderly people. In more polite or formal contexts, ⟦{高齢者|こうれいしゃ}→高齢者：15649_koureisha⟧ (senior citizen) or お⟦{年寄|としよ}り→年寄り：03460_toshiyori⟧ (elderly person, polite) may be preferred.\n\nCOMMON PATTERNS:\n・{老人|ろうじん}⟦ホーム→ホーム：00113_hoomu⟧ (nursing home)\n・{老人|ろうじん}⟦{福祉|ふくし}→福祉：13748_fukushi⟧ (elderly welfare)\n・{老人|ろうじん}⟦{介護|かいご}→介護：04805_kaigo⟧ (elderly care)\n\nCONTRAST:\n・{老人|ろうじん} - neutral, somewhat clinical\n・お⟦{年寄|としよ}り→年寄り：03460_toshiyori⟧ - polite, softer\n・⟦{高齢者|こうれいしゃ}→高齢者：15649_koureisha⟧ - formal, administrative term",
+  "notes": "USAGE: {老人|ろうじん} is a neutral term for elderly people. In more polite or formal contexts, ⟦{高齢者|こうれいしゃ}→高齢者：15649_koureisha⟧ (senior citizen) or お⟦{年寄|としよ}り→年寄り：03460_toshiyori⟧ (elderly person, polite) may be preferred.\n\nCOMMON PATTERNS:\n- {老人|ろうじん}⟦ホーム→ホーム：00113_hoomu⟧ (nursing home)\n- {老人|ろうじん}⟦{福祉|ふくし}→福祉：13748_fukushi⟧ (elderly welfare)\n- {老人|ろうじん}⟦{介護|かいご}→介護：04805_kaigo⟧ (elderly care)\n\nSIMILAR WORDS:\n- {老人|ろうじん} - neutral, somewhat clinical\n- お⟦{年寄|としよ}り→年寄り：03460_toshiyori⟧ - polite, softer\n- ⟦{高齢者|こうれいしゃ}→高齢者：15649_koureisha⟧ - formal, administrative term",
   "cross_references": [
     {
       "type": "related",
@@ -71,11 +71,53 @@
       "headword": "{年寄|としよ}り",
       "label": "polite form",
       "target_id": "03460_toshiyori"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15649_koureisha",
+      "reading": "こうれいしゃ",
+      "headword": "{高齢者|こうれいしゃ}",
+      "label": "formal, administrative term"
+    },
+    {
+      "type": "related",
+      "target_id": "01842_oi",
+      "reading": "おい",
+      "headword": "{老|お}い",
+      "label": "old age, aging"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10432_nenpai",
+      "reading": "ねんぱい",
+      "headword": "{年配|ねんぱい}",
+      "label": "elderly, older"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15369_rouba",
+      "reading": "ろうば",
+      "headword": "{老婆|ろうば}",
+      "label": "old woman"
+    },
+    {
+      "type": "related",
+      "target_id": "15452_roufuufu",
+      "reading": "ろうふうふ",
+      "headword": "{老夫婦|ろうふうふ}",
+      "label": "elderly couple"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20642_ojiichan",
+      "reading": "おじいちゃん",
+      "headword": "おじいちゃん",
+      "label": "grandfather"
     }
   ],
   "metadata": {
     "created": "2026-01-12T13:34:27Z",
-    "modified": "2026-05-27T17:08:23Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

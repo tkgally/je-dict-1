@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "09670_ippoippo_ex1",
-      "japanese": "{一歩一歩|いっぽいっぽ}{進|すす}む。",
+      "japanese": "{一歩一歩|いっぽいっぽ}⟦{進|すす}む→進む：01225_susumu⟧。",
       "english": "I advance step by step.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "09670_ippoippo_ex2",
-      "japanese": "{日本語|にほんご}を{一歩一歩|いっぽいっぽ}{勉強|べんきょう}している。",
+      "japanese": "⟦{日本語|にほんご}→日本語：00614_nihongo⟧⟦を→を：00422_wo⟧{一歩一歩|いっぽいっぽ}⟦{勉強|べんきょう}している→勉強する：00527_benkyousuru⟧。",
       "english": "I'm studying Japanese one step at a time.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "09670_ippoippo_ex3",
-      "japanese": "{一歩一歩|いっぽいっぽ}{着実|ちゃくじつ}に{目標|もくひょう}に{近|ちか}づいている。",
+      "japanese": "{一歩一歩|いっぽいっぽ}⟦{着実|ちゃくじつ}→着実：07989_chakujitsu⟧⟦に→に：00314_ni⟧⟦{目標|もくひょう}→目標：03631_mokuhyou⟧⟦に→に：00314_ni⟧⟦{近|ちか}づいている→近づく：01958_chikazuku⟧。",
       "english": "I'm steadily getting closer to my goal, step by step.",
       "notes": null,
       "has_audio": false,
@@ -43,10 +43,10 @@
       ]
     }
   ],
-  "notes": "{一歩一歩|いっぽいっぽ} emphasizes deliberate, steady progress — taking things one step at a time without rushing. It carries a positive, encouraging tone.\n\nWORD FORMATION:\nReduplication of {一歩|いっぽ} (one step). This X+X pattern emphasizes repetition and steadiness.\n\nCOMMON PATTERNS:\n- {一歩一歩|いっぽいっぽ}{進|すす}む: to advance step by step\n- {一歩一歩|いっぽいっぽ}{着実|ちゃくじつ}に: steadily, step by step\n- {一歩一歩|いっぽいっぽ}{成長|せいちょう}する: to grow step by step\n\nSIMILAR EXPRESSIONS:\n- {少|すこ}しずつ: little by little (more neutral, less deliberate)\n- {徐々|じょじょ}に: gradually (more formal, emphasizes slow change)\n- {着実|ちゃくじつ}に: steadily (emphasizes reliability)\n- {一歩|いっぽ}ずつ: one step at a time (similar meaning, slightly less literary)",
+  "notes": "{一歩一歩|いっぽいっぽ} emphasizes deliberate, steady progress — taking things one step at a time without rushing. It carries a positive, encouraging tone.\n\nFORMS:\nReduplication of ⟦{一歩|いっぽ}→一歩：08890_ippo⟧ (one step). This X+X pattern emphasizes repetition and steadiness.\n\nCOMMON PATTERNS:\n- {一歩一歩|いっぽいっぽ}⟦{進|すす}む→進む：01225_susumu⟧: to advance step by step\n- {一歩一歩|いっぽいっぽ}⟦{着実|ちゃくじつ}→着実：07989_chakujitsu⟧⟦に→に：00314_ni⟧: steadily, step by step\n- {一歩一歩|いっぽいっぽ}⟦{成長|せいちょう}→成長：03290_seichou⟧⟦する→する：00392_suru⟧: to grow step by step\n\nSIMILAR WORDS:\n- ⟦{少|すこ}し→少し：00596_sukoshi⟧⟦ずつ→〜ずつ：03092_zutsu⟧: little by little (more neutral, less deliberate)\n- ⟦{徐々|じょじょ}→徐々：03082_jojo⟧⟦に→に：00314_ni⟧: gradually (more formal, emphasizes slow change)\n- ⟦{着実|ちゃくじつ}→着実：07989_chakujitsu⟧⟦に→に：00314_ni⟧: steadily (emphasizes reliability)\n- ⟦{一歩|いっぽ}→一歩：08890_ippo⟧⟦ずつ→〜ずつ：03092_zutsu⟧: one step at a time (similar meaning, slightly less literary)",
   "metadata": {
     "created": "2026-02-03T05:02:44Z",
-    "modified": "2026-04-23T06:13:56Z",
+    "modified": "2026-09-02T04:01:19Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -74,6 +74,34 @@
       "reading": "だいいっぽ",
       "headword": "{第一歩|だいいっぽ}",
       "label": "first step"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20047_sukoshizutsu",
+      "reading": "すこしずつ",
+      "headword": "{少|すこ}しずつ",
+      "label": "little by little"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04131_jojoni",
+      "reading": "じょじょに",
+      "headword": "{徐々|じょじょ}に",
+      "label": "gradually"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19888_chakujitsuni",
+      "reading": "ちゃくじつに",
+      "headword": "{着実|ちゃくじつ}に",
+      "label": "steadily"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19052_ippozutsu",
+      "reading": "いっぽずつ",
+      "headword": "{一歩|いっぽ}ずつ",
+      "label": "one step at a time"
     }
   ]
 }

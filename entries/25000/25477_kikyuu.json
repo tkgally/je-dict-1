@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25477_kikyuu_ex1",
-      "japanese": "{気球|ききゅう}に{乗|の}ってみたい。",
+      "japanese": "{気球|ききゅう}⟦に→に：00314_ni⟧⟦{乗|の}って→乗る：00511_noru⟧みたい。",
       "english": "I want to try riding in a hot-air balloon.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25477_kikyuu_ex2",
-      "japanese": "{朝|あさ}{早|はや}く{気球|ききゅう}が{空|そら}に{浮|う}かんでいた。",
+      "japanese": "⟦{朝|あさ}→朝：02277_asa⟧⟦{早|はや}く→早い：00514_hayai⟧{気球|ききゅう}⟦が→が：00051_ga⟧⟦{空|そら}→空：02216_sora⟧⟦に→に：00314_ni⟧⟦{浮|う}かんでいた→浮かぶ：03916_ukabu⟧。",
       "english": "A hot-air balloon was floating in the sky early in the morning.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25477_kikyuu_ex3",
-      "japanese": "{佐賀|さが}では{毎年|まいとし}{秋|あき}に{国際|こくさい}{気球|ききゅう}フェスタが{開|ひら}かれ、{世界中|せかいじゅう}から{選手|せんしゅ}が{集|あつ}まる。",
+      "japanese": "{佐賀|さが}⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{毎年|まいとし}→毎年：00731_maitoshi⟧⟦{秋|あき}→秋：02276_aki⟧⟦に→に：00314_ni⟧⟦{国際|こくさい}→国際：01406_kokusai⟧{気球|ききゅう}フェスタ⟦が→が：00051_ga⟧⟦{開|ひら}かれ→開く：01979_hiraku⟧、⟦{世界中|せかいじゅう}→世界中：10171_sekaijuu⟧⟦から→から：00504_kara⟧⟦{選手|せんしゅ}→選手：03823_senshu⟧⟦が→が：00051_ga⟧⟦{集|あつ}まる→集まる：01162_atsumaru⟧。",
       "english": "In Saga, an international balloon festival is held every autumn, attracting participants from around the world.",
       "sense_numbers": [
         1
@@ -44,20 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {気|き} (air; gas) and {球|きゅう} (sphere; ball). Refers specifically to large balloons designed for flight, not small party balloons ({風船|ふうせん}). The full term {熱気球|ねつききゅう} specifies a hot-air balloon, but {気球|ききゅう} alone usually implies this type.\n\nCOMMON COLLOCATIONS:\n- {気球|ききゅう}に{乗|の}る: to ride in a balloon\n- {熱気球|ねつききゅう}: hot-air balloon\n- {気球|ききゅう}が{飛|と}ぶ: a balloon flies\n- {気球|ききゅう}{体験|たいけん}: balloon ride experience\n- {気球|ききゅう}フェスタ: balloon festival\n\nSIMILAR WORDS:\n- {風船|ふうせん}: balloon — a small inflatable balloon for play or decoration\n- {飛行船|ひこうせん}: airship; blimp — a powered, steerable lighter-than-air craft\n\nCULTURAL NOTE:\nThe {佐賀|さが}インターナショナルバルーンフェスタ is one of Asia's largest hot-air balloon events, held annually in Saga Prefecture.",
+  "notes": "A compound of ⟦{気|き}→気：02199_ki⟧ (air; gas) and ⟦{球|きゅう}→球：28895_kyuu⟧ (sphere; ball). Refers specifically to large balloons designed for flight, not small party balloons (⟦{風船|ふうせん}→風船：14623_fuusen⟧). The full term {熱気球|ねつききゅう} specifies a hot-air balloon, but {気球|ききゅう} alone usually implies this type.\n\nCOMMON COLLOCATIONS:\n- {気球|ききゅう}⟦に→に：00314_ni⟧⟦{乗|の}る→乗る：00511_noru⟧: to ride in a balloon\n- {熱気球|ねつききゅう}: hot-air balloon\n- {気球|ききゅう}⟦が→が：00051_ga⟧⟦{飛|と}ぶ→飛ぶ：00759_tobu⟧: a balloon flies\n- {気球|ききゅう}⟦{体験|たいけん}→体験：11443_taiken⟧: balloon ride experience\n- {気球|ききゅう}フェスタ: balloon festival\n\nSIMILAR WORDS:\n- ⟦{風船|ふうせん}→風船：14623_fuusen⟧: balloon — a small inflatable balloon for play or decoration\n- {飛行船|ひこうせん}: airship; blimp — a powered, steerable lighter-than-air craft\n\nCULTURAL NOTE:\nThe {佐賀|さが}インターナショナルバルーンフェスタ is one of Asia's largest hot-air balloon events, held annually in Saga Prefecture.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14623_fuusen",
+      "reading": "ふうせん",
+      "headword": "{風船|ふうせん}",
+      "label": "balloon"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "transportation",
         "leisure"
       ]
     },
     "created": "2026-04-25T14:16:58Z",
-    "modified": "2026-08-04T12:59:53Z"
+    "modified": "2026-09-02T04:02:22Z"
   }
 }

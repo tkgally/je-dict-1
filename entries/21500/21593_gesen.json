@@ -3,7 +3,7 @@
   "headword": "{下船|げせん}",
   "reading": "げせん",
   "romaji": "gesen",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "disembarkation; getting off a ship",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21593_gesen_ex1",
-      "japanese": "{乗客|じょうきゃく}は{順番|じゅんばん}に{下船|げせん}した。",
+      "japanese": "⟦{乗客|じょうきゃく}→乗客：03284_joukyaku⟧⟦は→は：00079_ha⟧⟦{順番|じゅんばん}→順番：03283_junban⟧⟦に→に：00314_ni⟧{下船|げせん}⟦した→する：00392_suru⟧。",
       "english": "The passengers disembarked in order.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21593_gesen_ex2",
-      "japanese": "{港|みなと}に{着|つ}いたら{下船|げせん}の{準備|じゅんび}をしてください。",
+      "japanese": "⟦{港|みなと}→港：01512_minato⟧⟦に→に：00314_ni⟧⟦{着|つ}いたら→着く：00680_tsuku⟧{下船|げせん}⟦の→の：09472_no⟧⟦{準備|じゅんび}→準備：01431_junbi⟧⟦を→を：00422_wo⟧⟦して→する：00392_suru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "When we arrive at the port, please prepare to disembark.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21593_gesen_ex3",
-      "japanese": "クルーズ{船|せん}の{下船|げせん}{手続|てつづ}きに{時間|じかん}がかかったが、{無事|ぶじ}に{上陸|じょうりく}できた。",
+      "japanese": "クルーズ⟦{船|せん}→船：09875_sen⟧⟦の→の：09472_no⟧{下船|げせん}⟦{手続|てつづ}き→手続き：05453_tetsuzuki⟧⟦に→に：00314_ni⟧⟦{時間|じかん}→時間：00468_jikan⟧⟦が→が：00051_ga⟧⟦かかった→かかる：00711_kakaru⟧⟦が→が：00051_ga⟧、⟦{無事|ぶじ}→無事：01602_buji⟧⟦に→に：00314_ni⟧⟦{上陸|じょうりく}→上陸：20591_jouriku⟧⟦できた→できる：00557_dekiru⟧。",
       "english": "The disembarkation procedures for the cruise ship took a while, but we managed to get ashore safely.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {下|げ} (down, off) and {船|せん} (ship). The opposite of {乗船|じょうせん} (boarding a ship).\n\nCOMMON COLLOCATIONS:\n- {下船|げせん}する: to disembark\n- {下船|げせん}{手続|てつづ}き: disembarkation procedures\n- {下船|げせん}{許可|きょか}: permission to disembark\n- {下船|げせん}{時間|じかん}: disembarkation time\n\nSIMILAR WORDS:\n- {乗船|じょうせん}: boarding a ship — the opposite action\n- {上陸|じょうりく}: landing, going ashore — emphasizes stepping onto land\n- {下車|げしゃ}: getting off a vehicle (train, bus, car)\n- {降機|こうき}: deplaning, disembarking from an aircraft",
+  "notes": "Compound of {下|げ} (down, off) and ⟦{船|せん}→船：09875_sen⟧ (ship). The opposite of ⟦{乗船|じょうせん}→乗船：16793_jousen⟧ (boarding a ship).\n\nCOMMON COLLOCATIONS:\n- {下船|げせん}⟦する→する：00392_suru⟧: to disembark\n- {下船|げせん}⟦{手続|てつづ}き→手続き：05453_tetsuzuki⟧: disembarkation procedures\n- {下船|げせん}⟦{許可|きょか}→許可：00259_kyoka⟧: permission to disembark\n- {下船|げせん}⟦{時間|じかん}→時間：00468_jikan⟧: disembarkation time\n\nSIMILAR WORDS:\n- ⟦{乗船|じょうせん}→乗船：16793_jousen⟧: boarding a ship — the opposite action\n- ⟦{上陸|じょうりく}→上陸：20591_jouriku⟧: landing, going ashore — emphasizes stepping onto land\n- ⟦{下車|げしゃ}→下車：00068_gesha⟧: getting off a vehicle (train, bus, car)\n- ⟦{降機|こうき}→降機：29366_kouki⟧: deplaning, disembarking from an aircraft",
   "cross_references": [
     {
       "type": "antonym",
@@ -52,6 +52,34 @@
       "reading": "じょうせん",
       "headword": "{乗船|じょうせん}",
       "label": "boarding a ship"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20591_jouriku",
+      "reading": "じょうりく",
+      "headword": "{上陸|じょうりく}",
+      "label": "landing, going ashore"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00068_gesha",
+      "reading": "げしゃ",
+      "headword": "{下車|げしゃ}",
+      "label": "getting off a vehicle"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29366_kouki",
+      "reading": "こうき",
+      "headword": "{降機|こうき}",
+      "label": "deplaning, disembarking from an aircraft"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21396_geshasuru",
+      "reading": "げしゃする",
+      "headword": "{下車|げしゃ}する",
+      "label": "to get off (a vehicle)"
     }
   ],
   "schema_version": "2.0",
@@ -71,7 +99,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-02T17:28:00Z",
-    "modified": "2026-07-29T12:35:11Z"
+    "modified": "2026-09-02T04:02:04Z"
   },
   "conjugation": {
     "type": "suru",

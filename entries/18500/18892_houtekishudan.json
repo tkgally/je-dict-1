@@ -15,42 +15,69 @@
   "examples": [
     {
       "id": "18892_houtekishudan_ex1",
-      "japanese": "{法的|ほうてき}{手段|しゅだん}に{訴|うった}える。",
+      "japanese": "{法的|ほうてき}{手段|しゅだん}⟦に→に：00314_ni⟧⟦{訴|うった}える→訴える：01891_uttaeru⟧。",
       "english": "I will resort to legal action.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18892_houtekishudan_ex2",
-      "japanese": "{話|はな}し{合|あ}いで{解決|かいけつ}しなければ、{法的|ほうてき}{手段|しゅだん}を{取|と}るしかない。",
+      "japanese": "⟦{話|はな}し{合|あ}い→話し合い：14176_hanashiai⟧⟦で→で：00502_de⟧⟦{解決|かいけつ}しなければ→解決する：17191_kaiketsusuru⟧、{法的|ほうてき}{手段|しゅだん}⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧⟦しかない→〜しかない：30533_shikanai⟧。",
       "english": "If we can't resolve it through discussion, we have no choice but to take legal action.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18892_houtekishudan_ex3",
-      "japanese": "{誹謗|ひぼう}{中傷|ちゅうしょう}に{対|たい}して{法的|ほうてき}{手段|しゅだん}を{検討|けんとう}していると{発表|はっぴょう}した。",
+      "japanese": "⟦{誹謗|ひぼう}{中傷|ちゅうしょう}→誹謗中傷：16296_hibouchuushou⟧⟦に{対|たい}して→に対して：06800_nitaishite⟧{法的|ほうてき}{手段|しゅだん}⟦を→を：00422_wo⟧⟦{検討|けんとう}している→検討する：17455_kentousuru⟧⟦と→と：00512_to⟧⟦{発表|はっぴょう}した→発表する：25231_happyousuru⟧。",
       "english": "They announced that they are considering legal action against defamation.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nOften appears in news and public statements, especially when celebrities or companies threaten legal action against online harassment. The phrase {法的|ほうてき}{手段|しゅだん}に{訴|うった}える is a common fixed expression.\n\nCOMMON COLLOCATIONS:\n- {法的|ほうてき}{手段|しゅだん}に{訴|うった}える (to resort to legal action)\n- {法的|ほうてき}{手段|しゅだん}を{取|と}る (to take legal measures)\n- {法的|ほうてき}{手段|しゅだん}を{検討|けんとう}する (to consider legal action)\n- {法的|ほうてき}{手段|しゅだん}も{辞|じ}さない (not hesitate to take legal action)\n\nSIMILAR WORDS:\n- {訴訟|そしょう}: lawsuit — a specific legal action, more concrete\n- {法的|ほうてき}{措置|そち}: legal measures — essentially synonymous, slightly more formal",
-  "cross_references": [],
+  "notes": "USAGE:\nOften appears in news and public statements, especially when celebrities or companies threaten legal action against online harassment. The phrase {法的|ほうてき}{手段|しゅだん}⟦に→に：00314_ni⟧⟦{訴|うった}える→訴える：01891_uttaeru⟧ is a common fixed expression.\n\nCOMMON COLLOCATIONS:\n- {法的|ほうてき}{手段|しゅだん}⟦に→に：00314_ni⟧⟦{訴|うった}える→訴える：01891_uttaeru⟧ (to resort to legal action)\n- {法的|ほうてき}{手段|しゅだん}⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧ (to take legal measures)\n- {法的|ほうてき}{手段|しゅだん}⟦を→を：00422_wo⟧⟦{検討|けんとう}する→検討する：17455_kentousuru⟧ (to consider legal action)\n- {法的|ほうてき}{手段|しゅだん}⟦も→も：00484_mo⟧{辞|じ}さない (not hesitate to take legal action)\n\nSIMILAR WORDS:\n- ⟦{訴訟|そしょう}→訴訟：07642_soshou⟧: lawsuit — a specific legal action, more concrete\n- ⟦{法的|ほうてき}{措置|そち}→法的措置：24477_houtekisochi⟧: legal measures — essentially synonymous, slightly more formal",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07642_soshou",
+      "reading": "そしょう",
+      "headword": "{訴訟|そしょう}",
+      "label": "lawsuit"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24477_houtekisochi",
+      "reading": "ほうてきそち",
+      "headword": "{法的|ほうてき}{措置|そち}",
+      "label": "legal measures"
+    }
+  ],
   "metadata": {
     "created": "2026-03-23T06:25:24Z",
-    "modified": "2026-03-23T06:25:24Z",
+    "modified": "2026-09-02T04:01:53Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["legal"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "legal"
+      ]
     }
   }
 }

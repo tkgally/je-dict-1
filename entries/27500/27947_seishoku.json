@@ -15,41 +15,75 @@
   "examples": [
     {
       "id": "27947_seishoku_ex1",
-      "japanese": "{生物|せいぶつ}の{生殖|せいしょく}を{学|まな}ぶ。",
+      "japanese": "⟦{生物|せいぶつ}→生物：03295_seibutsu⟧⟦の→の：09472_no⟧{生殖|せいしょく}⟦を→を：00422_wo⟧⟦{学|まな}ぶ→学ぶ：01987_manabu⟧。",
       "english": "We study reproduction in living things.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27947_seishoku_ex2",
-      "japanese": "{植物|しょくぶつ}にもいろいろな{生殖|せいしょく}の{方法|ほうほう}がある。",
+      "japanese": "⟦{植物|しょくぶつ}→植物：03248_shokubutsu⟧⟦に→に：00314_ni⟧⟦も→も：00484_mo⟧いろいろな{生殖|せいしょく}⟦の→の：09472_no⟧⟦{方法|ほうほう}→方法：03621_houhou⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "Plants too have various methods of reproduction.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27947_seishoku_ex3",
-      "japanese": "{多|おお}くの{生物|せいぶつ}は、{子孫|しそん}を{残|のこ}すために{生殖|せいしょく}を{行|おこな}う。",
+      "japanese": "{多|おお}く⟦の→の：09472_no⟧⟦{生物|せいぶつ}→生物：03295_seibutsu⟧⟦は→は：00079_ha⟧、⟦{子孫|しそん}→子孫：00372_shison⟧⟦を→を：00422_wo⟧⟦{残|のこ}す→残す：01975_nokosu⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧{生殖|せいしょく}⟦を→を：00422_wo⟧⟦{行|おこな}う→行う：01238_okonau⟧。",
       "english": "Many organisms reproduce in order to leave offspring.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Compound of {生|せい} (life) + {殖|しょく} (to multiply, breed). A formal, scientific word; everyday speech tends to use {子|こ}どもを{産|う}む or {繁殖|はんしょく} for animals.\n\nCOMMON COLLOCATIONS:\n- {生殖|せいしょく}{器官|きかん}: reproductive organs\n- {生殖|せいしょく}{細胞|さいぼう}: reproductive cells; gametes\n- {生殖|せいしょく}{活動|かつどう}: reproductive activity\n\nSIMILAR WORDS:\n- {繁殖|はんしょく}: breeding — the multiplying of animals/plants in numbers\n- {出産|しゅっさん}: childbirth — specifically giving birth",
+  "notes": "Compound of {生|せい} (life) + {殖|しょく} (to multiply, breed). A formal, scientific word; everyday speech tends to use {子|こ}ども⟦を→を：00422_wo⟧⟦{産|う}む→産む：01899_umu⟧ or ⟦{繁殖|はんしょく}→繁殖：08671_hanshoku⟧ for animals.\n\nCOMMON COLLOCATIONS:\n- {生殖|せいしょく}⟦{器官|きかん}→器官：02685_kikan⟧: reproductive organs\n- {生殖|せいしょく}⟦{細胞|さいぼう}→細胞：05030_saibou⟧: reproductive cells; gametes\n- {生殖|せいしょく}⟦{活動|かつどう}→活動：00201_katsudou⟧: reproductive activity\n\nSIMILAR WORDS:\n- ⟦{繁殖|はんしょく}→繁殖：08671_hanshoku⟧: breeding — the multiplying of animals/plants in numbers\n- ⟦{出産|しゅっさん}→出産：11734_shussan⟧: childbirth — specifically giving birth",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08671_hanshoku",
+      "reading": "はんしょく",
+      "headword": "{繁殖|はんしょく}",
+      "label": "breeding"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11734_shussan",
+      "reading": "しゅっさん",
+      "headword": "{出産|しゅっさん}",
+      "label": "childbirth"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22929_koubi",
+      "reading": "こうび",
+      "headword": "{交尾|こうび}",
+      "label": "mating"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["science", "nature"],
+      "politeness": "plain",
+      "semantic": [
+        "science",
+        "nature"
+      ],
       "domain": []
     },
     "created": "2026-05-23T03:06:48Z",
-    "modified": "2026-05-23T03:06:48Z"
+    "modified": "2026-09-02T04:02:32Z"
   }
 }

@@ -24,7 +24,7 @@
     },
     {
       "id": "04488_teeburu_ex2",
-      "japanese": "テーブル⟦を→を：00422_wo⟧⟦{拭|ふ}いて→拭く：04261_fuku⟧⟦から→から：00504_kara⟧⟦{食事|しょくじ}→食事：02087_shokuji⟧⟦の→の：09472_no⟧⟦{準備|じゅんび}→準備：01431_junbi⟧⟦を→を：00422_wo⟧した。",
+      "japanese": "テーブル⟦を→を：00422_wo⟧⟦{拭|ふ}いて→拭く：04261_fuku⟧⟦から→から：00504_kara⟧⟦{食事|しょくじ}→食事：02087_shokuji⟧⟦の→の：09472_no⟧⟦{準備|じゅんび}→準備：01431_junbi⟧⟦を→を：00422_wo⟧⟦した→する：00392_suru⟧。",
       "english": "I wiped the table before preparing the meal.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
     },
     {
       "id": "04488_teeburu_ex4",
-      "japanese": "テーブル⟦の→の：09472_no⟧⟦{脚|あし}→脚：28733_ashi⟧⟦が→が：00051_ga⟧⟦{一|ひと}→一：noentry⟧つぐらぐらして⟦いる→いる：00495_iru⟧⟦ので→ので：09501_node⟧、⟦{直|なお}→直す：00869_naosu⟧さ⟦ない→ない：01118_nai⟧⟦と→と：00512_to⟧いけ⟦ない→ない：01118_nai⟧。",
+      "japanese": "テーブル⟦の→の：09472_no⟧⟦{脚|あし}→脚：28733_ashi⟧⟦が→が：00051_ga⟧⟦{一|ひと}→一：noentry⟧つ⟦ぐらぐらして→ぐらぐらする：26863_guragurasuru⟧⟦いる→いる：00495_iru⟧⟦ので→ので：09501_node⟧、⟦{直|なお}→直す：00869_naosu⟧さ⟦ない→ない：01118_nai⟧⟦と→と：00512_to⟧いけ⟦ない→ない：01118_nai⟧。",
       "english": "One of the table legs is wobbly, so I need to fix it.",
       "notes": null,
       "has_audio": false,
@@ -54,7 +54,7 @@
     },
     {
       "id": "04488_teeburu_ex5",
-      "japanese": "⟦{友達|ともだち}→友達：01478_tomodachi⟧⟦が→が：00051_ga⟧⟦{来|く}る→来る：00254_kuru⟧⟦ので→ので：09501_node⟧、テーブル⟦に→に：00314_ni⟧⟦{皿|さら}→皿：00883_sara⟧⟦と→と：00512_to⟧⟦コップ→コップ：00862_koppu⟧⟦を→を：00422_wo⟧⟦{並|なら}べて→並べる：01091_naraberu⟧⟦{準備|じゅんび}→準備：01431_junbi⟧した。",
+      "japanese": "⟦{友達|ともだち}→友達：01478_tomodachi⟧⟦が→が：00051_ga⟧⟦{来|く}る→来る：00254_kuru⟧⟦ので→ので：09501_node⟧、テーブル⟦に→に：00314_ni⟧⟦{皿|さら}→皿：00883_sara⟧⟦と→と：00512_to⟧⟦コップ→コップ：00862_koppu⟧⟦を→を：00422_wo⟧⟦{並|なら}べて→並べる：01091_naraberu⟧⟦{準備|じゅんび}→準備：01431_junbi⟧⟦した→する：00392_suru⟧。",
       "english": "Since friends were coming, I set plates and cups on the table to get ready.",
       "notes": null,
       "has_audio": false,
@@ -71,11 +71,39 @@
       "reading": "つくえ",
       "headword": "{机|つくえ}",
       "label": "desk (work/study)"
+    },
+    {
+      "type": "related",
+      "target_id": "01373_sofuaa",
+      "reading": "そふあー",
+      "headword": "ソファー",
+      "label": "sofa"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03246_shokutaku",
+      "reading": "しょくたく",
+      "headword": "{食卓|しょくたく}",
+      "label": "dining table"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18073_taku",
+      "reading": "たく",
+      "headword": "{卓|たく}",
+      "label": "table, desk"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18328_zataku",
+      "reading": "ざたく",
+      "headword": "{座卓|ざたく}",
+      "label": "low table (for sitting on the floor)"
     }
   ],
   "metadata": {
     "created": "2026-01-14T18:54:45Z",
-    "modified": "2026-08-16T03:20:35Z",
+    "modified": "2026-09-02T04:01:05Z",
     "ai_model": "claude-opus-4-5-20251101",
     "vocabulary_tier": "core",
     "tags": {

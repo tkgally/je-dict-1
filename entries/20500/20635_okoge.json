@@ -15,41 +15,74 @@
   "examples": [
     {
       "id": "20635_okoge_ex1",
-      "japanese": "お{焦|こ}げが{好|す}きです。",
+      "japanese": "お{焦|こ}げ⟦が→が：00051_ga⟧⟦{好|す}き→好き：02355_suki⟧です。",
       "english": "I like the crispy rice crust.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "20635_okoge_ex2",
-      "japanese": "{土鍋|どなべ}で{炊|た}くと{美味|おい}しいお{焦|こ}げができる。",
+      "japanese": "⟦{土鍋|どなべ}→土鍋：07949_donabe⟧⟦で→で：00502_de⟧⟦{炊|た}く→炊く：02127_taku⟧⟦と→と：00512_to⟧⟦{美味|おい}しい→美味しい：00740_oishii⟧お{焦|こ}げ⟦が→が：00051_ga⟧⟦できる→できる：00557_dekiru⟧。",
       "english": "When you cook rice in a clay pot, you get delicious scorched rice.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "20635_okoge_ex3",
-      "japanese": "お{焦|こ}げにお{茶|ちゃ}をかけて{食|た}べるのが{祖母|そぼ}の{楽|たの}しみだった。",
+      "japanese": "お{焦|こ}げ⟦に→に：00314_ni⟧⟦お{茶|ちゃ}→お茶：00576_ocha⟧⟦を→を：00422_wo⟧⟦かけて→かける：00854_kakeru⟧⟦{食|た}べる→食べる：00396_taberu⟧⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦{祖母|そぼ}→祖母：00813_sobo⟧⟦の→の：09472_no⟧⟦{楽|たの}しみ→楽しみ：01651_tanoshimi⟧だった。",
       "english": "Pouring tea over the scorched rice and eating it was my grandmother's little pleasure.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "The お is an honorific/beautifying prefix attached to {焦|こ}げ (burnt part), from the verb {焦|こ}げる (to scorch, to burn). Also written as おこげ in hiragana. The kanji form {御焦|おこ}げ is rarely used.\n\nCOMMON COLLOCATIONS:\n- お{焦|こ}げができる (for scorched rice to form)\n- お{焦|こ}げにお{湯|ゆ}をかける (to pour hot water over scorched rice)\n- {土鍋|どなべ}のお{焦|こ}げ (clay pot scorched rice)\n- パリパリのお{焦|こ}げ (crispy scorched rice)\n\nSIMILAR WORDS:\n- {焦|こ}げ — burnt part, scorch; the general term without the honorific prefix, can refer to any burnt food\n- {焦|こ}げ{目|め} — browned surface, grill marks; the intentional browning on food\n- {煎餅|せんべい} — rice cracker; a separate snack made from rice\n\nCULTURAL NOTE:\nIn traditional Japanese cooking with {釜|かま} (iron pots) or {土鍋|どなべ} (clay pots), お{焦|こ}げ was a natural byproduct. Many people consider it a treat. A classic way to enjoy it is お{焦|こ}げ{湯|ゆ} — pouring hot water or tea over the crispy rice to make a simple, comforting drink-food.",
-  "cross_references": [],
+  "notes": "The お is an honorific/beautifying prefix attached to {焦|こ}げ (burnt part), from the verb ⟦{焦|こ}げる→焦げる：05344_kogeru⟧ (to scorch, to burn). Also written as おこげ in hiragana. The kanji form {御焦|おこ}げ is rarely used.\n\nCOMMON COLLOCATIONS:\n- お{焦|こ}げ⟦が→が：00051_ga⟧⟦できる→できる：00557_dekiru⟧ (for scorched rice to form)\n- お{焦|こ}げ⟦に→に：00314_ni⟧⟦お{湯|ゆ}→お湯：02518_oyu⟧⟦を→を：00422_wo⟧⟦かける→かける：00854_kakeru⟧ (to pour hot water over scorched rice)\n- ⟦{土鍋|どなべ}→土鍋：07949_donabe⟧⟦の→の：09472_no⟧お{焦|こ}げ (clay pot scorched rice)\n- パリパリ⟦の→の：09472_no⟧お{焦|こ}げ (crispy scorched rice)\n\nSIMILAR WORDS:\n- {焦|こ}げ — burnt part, scorch; the general term without the honorific prefix, can refer to any burnt food\n- ⟦{焦|こ}げ{目|め}→焦げ目：08576_kogeme⟧ — browned surface, grill marks; the intentional browning on food\n- ⟦{煎餅|せんべい}→煎餅：04958_senbei⟧ — rice cracker; a separate snack made from rice\n\nCULTURAL NOTE:\nIn traditional Japanese cooking with ⟦{釜|かま}→釜：03880_kama⟧ (iron pots) or ⟦{土鍋|どなべ}→土鍋：07949_donabe⟧ (clay pots), お{焦|こ}げ was a natural byproduct. Many people consider it a treat. A classic way to enjoy it is お{焦|こ}げ{湯|ゆ} — pouring hot water or tea over the crispy rice to make a simple, comforting drink-food.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08576_kogeme",
+      "reading": "こげめ",
+      "headword": "{焦|こ}げ{目|め}",
+      "label": "browned surface, grill marks"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04958_senbei",
+      "reading": "せんべい",
+      "headword": "{煎餅|せんべい}",
+      "label": "rice cracker"
+    },
+    {
+      "type": "related",
+      "target_id": "05344_kogeru",
+      "reading": "こげる",
+      "headword": "{焦|こ}げる",
+      "label": "to burn"
+    }
+  ],
   "metadata": {
     "created": "2026-03-29T20:11:32Z",
-    "modified": "2026-03-29T20:11:32Z",
+    "modified": "2026-09-02T04:02:00Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food", "cooking"]
+      "semantic": [
+        "food",
+        "cooking"
+      ]
     }
   }
 }

@@ -15,42 +15,69 @@
   "examples": [
     {
       "id": "18136_seikotsuin_ex1",
-      "japanese": "{腰|こし}が{痛|いた}いので{整骨院|せいこついん}に{行|い}ってきた。",
+      "japanese": "⟦{腰|こし}→腰：02210_koshi⟧⟦が→が：00051_ga⟧⟦{痛|いた}い→痛い：01108_itai⟧⟦の→の：09472_no⟧で{整骨院|せいこついん}⟦に→に：00314_ni⟧⟦{行|い}って→行く：00119_iku⟧きた。",
       "english": "My lower back hurt, so I went to an osteopathic clinic.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18136_seikotsuin_ex2",
-      "japanese": "{駅前|えきまえ}に{新|あたら}しい{整骨院|せいこついん}がオープンした。",
+      "japanese": "⟦{駅前|えきまえ}→駅前：09593_ekimae⟧⟦に→に：00314_ni⟧⟦{新|あたら}しい→新しい：00506_atarashii⟧{整骨院|せいこついん}⟦が→が：00051_ga⟧⟦オープン→オープン：10831_oopun⟧⟦した→する：00392_suru⟧。",
       "english": "A new bonesetting clinic opened in front of the station.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18136_seikotsuin_ex3",
-      "japanese": "スポーツで{怪我|けが}をしたら、{病院|びょういん}だけでなく{整骨院|せいこついん}に{通|かよ}う{人|ひと}も{多|おお}い。",
+      "japanese": "⟦スポーツ→スポーツ：04740_supootsu⟧⟦で→で：00502_de⟧{怪我|けが}⟦を→を：00422_wo⟧⟦したら→する：00392_suru⟧、⟦{病院|びょういん}→病院：00577_byouin⟧⟦だけでなく→〜だけでなく：18373_dakedenaku⟧{整骨院|せいこついん}⟦に→に：00314_ni⟧⟦{通|かよ}う→通う：01217_kayou⟧⟦{人|ひと}→人：00476_hito⟧⟦も→も：00484_mo⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "When people get injured playing sports, many go not only to the hospital but also to a bonesetting clinic.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\n{整骨院|せいこついん} is also called {接骨院|せっこついん}. Both refer to the same type of clinic. They are distinct from {整体院|せいたいいん} (bodywork/chiropractic clinic), which is not covered by health insurance.\n\nCOMMON COLLOCATIONS:\n- {整骨院|せいこついん}に{通|かよ}う (to go regularly to a bonesetting clinic)\n- {整骨院|せいこついん}で{治療|ちりょう}を{受|う}ける (to receive treatment at a bonesetting clinic)\n\nSIMILAR WORDS:\n- {接骨院|せっこついん}: same meaning, alternative name\n- {整体院|せいたいいん}: bodywork/chiropractic clinic — not insurance-covered, different qualifications\n- {鍼灸院|しんきゅういん}: acupuncture and moxibustion clinic",
-  "cross_references": [],
+  "notes": "USAGE:\n{整骨院|せいこついん} is also called ⟦{接骨院|せっこついん}→接骨院：20981_sekkotsuin⟧. Both refer to the same type of clinic. They are distinct from ⟦{整体院|せいたいいん}→整体院：25767_seitaiin⟧ (bodywork/chiropractic clinic), which is not covered by health insurance.\n\nCOMMON COLLOCATIONS:\n- {整骨院|せいこついん}⟦に→に：00314_ni⟧⟦{通|かよ}う→通う：01217_kayou⟧ (to go regularly to a bonesetting clinic)\n- {整骨院|せいこついん}⟦で→で：00502_de⟧⟦{治療|ちりょう}→治療：03503_chiryou⟧⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧ (to receive treatment at a bonesetting clinic)\n\nSIMILAR WORDS:\n- ⟦{接骨院|せっこついん}→接骨院：20981_sekkotsuin⟧: same meaning, alternative name\n- ⟦{整体院|せいたいいん}→整体院：25767_seitaiin⟧: bodywork/chiropractic clinic — not insurance-covered, different qualifications\n- {鍼灸院|しんきゅういん}: acupuncture and moxibustion clinic",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20981_sekkotsuin",
+      "reading": "せっこついん",
+      "headword": "{接骨院|せっこついん}",
+      "label": "same meaning, alternative name"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25767_seitaiin",
+      "reading": "せいたいいん",
+      "headword": "{整体院|せいたいいん}",
+      "label": "bodywork/chiropractic clinic"
+    }
+  ],
   "metadata": {
     "created": "2026-03-20T06:44:16Z",
-    "modified": "2026-03-20T06:44:16Z",
+    "modified": "2026-09-02T04:01:51Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["building"],
-      "domain": ["medical"]
+      "semantic": [
+        "building"
+      ],
+      "domain": [
+        "medical"
+      ]
     }
   }
 }

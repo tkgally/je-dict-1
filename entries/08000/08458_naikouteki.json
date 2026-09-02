@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08458_naikouteki_ex1",
-      "japanese": "{私|わたし}は{内向的|ないこうてき}な{性格|せいかく}だ。",
+      "japanese": "⟦{私|わたし}→私：02988_watashi⟧⟦は→は：00079_ha⟧{内向的|ないこうてき}な⟦{性格|せいかく}→性格：03371_seikaku⟧だ。",
       "english": "I have an introverted personality.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "08458_naikouteki_ex2",
-      "japanese": "{内向的|ないこうてき}な{人|ひと}は{大人数|おおにんずう}の{集|あつ}まりで{疲|つか}れやすい。",
+      "japanese": "{内向的|ないこうてき}な⟦{人|ひと}→人：00476_hito⟧⟦は→は：00079_ha⟧⟦{大人数|おおにんずう}→大人数：22750_ooninzuu⟧⟦の→の：09472_no⟧⟦{集|あつ}まり→集まり：01689_atsumari⟧⟦で→で：00502_de⟧⟦{疲|つか}れ→疲れる：00901_tsukareru⟧やすい。",
       "english": "Introverted people tend to get tired at large gatherings.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "08458_naikouteki_ex3",
-      "japanese": "{内向的|ないこうてき}だからといって{人付|ひとづ}き{合|あ}いが{苦手|にがて}とは{限|かぎ}らない。",
+      "japanese": "{内向的|ないこうてき}だ⟦からといって→からといって：30623_karatoitte⟧⟦{人付|ひとづ}き{合|あ}い→人付き合い：15516_hitozukiai⟧⟦が→が：00051_ga⟧⟦{苦手|にがて}→苦手：03513_nigate⟧⟦と→と：00512_to⟧⟦は→は：00079_ha⟧⟦{限|かぎ}らない→限る：02033_kagiru⟧。",
       "english": "Being introverted doesn't necessarily mean you're bad at socializing.",
       "sense_numbers": [
         1
@@ -43,7 +43,7 @@
       "notes": null
     }
   ],
-  "notes": "COMPOUND:\n{内向|ないこう} (introversion) + {的|てき} (suffix: -like, -ish)\n\nPSYCHOLOGY:\nThis is a psychological term referring to how a person directs their attention and derives energy. {内向的|ないこうてき} people recharge through solitude and reflection.\n\nCONTRAST:\n{内向的|ないこうてき} (introverted) ↔ {外向的|がいこうてき} (extroverted)\n\nNOTE:\nUnlike common misconceptions, introversion is not the same as shyness or social anxiety. Many introverts are skilled socially but prefer deeper one-on-one connections.\n\nADVERBIAL FORM:\n{内向的|ないこうてき}に - in an introverted manner",
+  "notes": "COMPOUNDS:\n{内向|ないこう} (introversion) + ⟦{的|てき}→〜的：09839_teki⟧ (suffix: -like, -ish)\n\nPSYCHOLOGY:\nThis is a psychological term referring to how a person directs their attention and derives energy. {内向的|ないこうてき} people recharge through solitude and reflection.\n\nSIMILAR WORDS:\n{内向的|ないこうてき} (introverted) ↔ ⟦{外向的|がいこうてき}→外向的：08459_gaikouteki⟧ (extroverted)\n\nUSAGE:\nUnlike common misconceptions, introversion is not the same as shyness or social anxiety. Many introverts are skilled socially but prefer deeper one-on-one connections.\n\nFORMS:\n{内向的|ないこうてき}⟦に→に：00314_ni⟧ - in an introverted manner",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -51,13 +51,14 @@
         "adjective-na"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "personality",
         "cognition"
       ]
     },
     "created": "2026-01-27T03:47:32Z",
-    "modified": "2026-08-12T12:51:44Z"
+    "modified": "2026-09-02T04:01:15Z"
   },
   "cross_references": [
     {
@@ -73,6 +74,41 @@
       "reading": "しゃこうてき",
       "headword": "{社交的|しゃこうてき}",
       "label": "sociable"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06441_inkya",
+      "reading": "いんきゃ",
+      "headword": "{陰|いん}キャ",
+      "label": "introvert, loner (slang)"
+    },
+    {
+      "type": "related",
+      "target_id": "06461_komyushou",
+      "reading": "こみゅしょう",
+      "headword": "コミュ{障|しょう}",
+      "label": "socially awkward person, poor communicator (slang)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22817_insei",
+      "reading": "いんせい",
+      "headword": "{陰性|いんせい}",
+      "label": "negative (medical test result)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23779_shakousei",
+      "reading": "しゃこうせい",
+      "headword": "{社交性|しゃこうせい}",
+      "label": "sociability"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26799_uchimuki",
+      "reading": "うちむき",
+      "headword": "{内向|うちむ}き",
+      "label": "inward-looking"
     }
   ]
 }

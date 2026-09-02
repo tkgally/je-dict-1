@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "16865_samugari_ex1",
-      "japanese": "{私|わたし}は{寒|さむ}がりだ。",
+      "japanese": "⟦{私|わたし}→私：02988_watashi⟧⟦は→は：00079_ha⟧{寒|さむ}がりだ。",
       "english": "I'm sensitive to the cold.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "16865_samugari_ex2",
-      "japanese": "{寒|さむ}がりなので、{冬|ふゆ}はいつも{厚着|あつぎ}をしている。",
+      "japanese": "{寒|さむ}がりな⟦の→の：09472_no⟧で、⟦{冬|ふゆ}→冬：00623_fuyu⟧⟦は→は：00079_ha⟧⟦いつも→いつも：00599_itsumo⟧⟦{厚着|あつぎ}→厚着：15266_atsugi⟧⟦を→を：00422_wo⟧⟦している→する：00392_suru⟧。",
       "english": "Since I'm sensitive to the cold, I always dress warmly in winter.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "16865_samugari_ex3",
-      "japanese": "{寒|さむ}がりの{妻|つま}と{暑|あつ}がりの{夫|おっと}で、エアコンの{温度|おんど}がいつも{問題|もんだい}になる。",
+      "japanese": "{寒|さむ}がり⟦の→の：09472_no⟧⟦{妻|つま}→妻：01005_tsuma⟧⟦と→と：00512_to⟧{暑|あつ}⟦がり→ガリ：27408_gari⟧⟦の→の：09472_no⟧⟦{夫|おっと}→夫：00982_otto⟧で、⟦エアコン→エアコン：05282_eakon⟧⟦の→の：09472_no⟧⟦{温度|おんど}→温度：00333_ondo⟧⟦が→が：00051_ga⟧⟦いつも→いつも：00599_itsumo⟧⟦{問題|もんだい}→問題：00797_mondai⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧。",
       "english": "With a cold-sensitive wife and a heat-sensitive husband, the air conditioner temperature is always an issue.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "{寒|さむ}がり describes a person who feels the cold easily and tends to bundle up more than others.\n\nFORMATION:\nFrom {寒|さむ}い + がる (to show signs of) + nominal suffix. Functions as both a noun and na-adjective.\n\nCOMMON PATTERNS:\n- {寒|さむ}がりの{人|ひと}: a cold-sensitive person\n- {寒|さむ}がりな{性格|せいかく}: a cold-sensitive disposition\n- {寒|さむ}がりで{暑|あつ}がり: sensitive to both cold and heat\n\nRELATED がり WORDS:\n- {暑|あつ}がり: person sensitive to heat (counterpart)\n- {怖|こわ}がり: timid person, scaredy-cat\n- {恥|は}ずかしがり: shy person\n\nUSAGE:\nCommonly used to describe oneself: {私|わたし}は{寒|さむ}がりです. Not rude to use about others, as it describes a physical tendency rather than a character flaw.",
+  "notes": "{寒|さむ}がり describes a person who feels the cold easily and tends to bundle up more than others.\n\nFORMS:\nFrom ⟦{寒|さむ}い→寒い：00664_samui⟧ + ⟦がる→〜がる：03089_garu⟧ (to show signs of) + nominal suffix. Functions as both a noun and na-adjective.\n\nCOMMON PATTERNS:\n- {寒|さむ}がり⟦の→の：09472_no⟧⟦{人|ひと}→人：00476_hito⟧: a cold-sensitive person\n- {寒|さむ}がりな⟦{性格|せいかく}→性格：03371_seikaku⟧: a cold-sensitive disposition\n- {寒|さむ}がり⟦で→で：00502_de⟧{暑|あつ}⟦がり→ガリ：27408_gari⟧: sensitive to both cold and heat\n\nRELATED がり WORDS:\n- {暑|あつ}⟦がり→ガリ：27408_gari⟧: person sensitive to heat (counterpart)\n- {怖|こわ}⟦がり→ガリ：27408_gari⟧: timid person, scaredy-cat\n- {恥|は}ずかし⟦がり→ガリ：27408_gari⟧: shy person\n\nUSAGE:\nCommonly used to describe oneself: ⟦{私|わたし}→私：02988_watashi⟧⟦は→は：00079_ha⟧{寒|さむ}がりです. Not rude to use about others, as it describes a physical tendency rather than a character flaw.",
   "cross_references": [
     {
       "type": "antonym",
@@ -59,11 +59,32 @@
       "reading": "ひえしょう",
       "headword": "{冷|ひ}え{性|しょう}",
       "label": "medical condition, not temperament"
+    },
+    {
+      "type": "related",
+      "target_id": "08342_kowagari",
+      "reading": "こわがり",
+      "headword": "{怖|こわ}がり",
+      "label": "timid person, scaredy-cat"
+    },
+    {
+      "type": "related",
+      "target_id": "08720_hazukashigari",
+      "reading": "はずかしがり",
+      "headword": "{恥|は}ずかしがり",
+      "label": "shy person"
+    },
+    {
+      "type": "related",
+      "target_id": "19267_asekkaki",
+      "reading": "あせっかき",
+      "headword": "{汗|あせ}っかき",
+      "label": "heavy sweater"
     }
   ],
   "metadata": {
     "created": "2026-03-14T13:12:26Z",
-    "modified": "2026-05-08T08:12:00Z",
+    "modified": "2026-09-02T04:01:46Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

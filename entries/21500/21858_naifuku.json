@@ -3,8 +3,17 @@
   "id": "21858_naifuku",
   "headword": "{内服|ないふく}",
   "reading": "ないふく",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "taking medicine internally; oral administration",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15267_fukuyou",
+      "reading": "ふくよう",
+      "headword": "{服用|ふくよう}",
+      "label": "taking medicine"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -12,15 +21,17 @@
         "noun",
         "verb-suru"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "health"
       ],
       "verb_class": "suru"
     },
     "created": "2026-04-03T19:21:58Z",
-    "modified": "2026-07-29T12:35:11Z"
+    "modified": "2026-09-02T04:02:05Z"
   },
-  "notes": "A medical term composed of {内|ない} (internal) and {服|ふく} (take, ingest). Contrasts with {外用|がいよう} (external application) and {注射|ちゅうしゃ} (injection). Common in medical and pharmacy contexts.\n\nCOMMON COLLOCATIONS:\n- {内服薬|ないふくやく}: oral medication\n- {内服|ないふく}する: to take medicine orally\n- {内服|ないふく}{治療|ちりょう}: oral treatment\n- {内服|ないふく}{液|えき}: liquid oral medicine\n\nSIMILAR WORDS:\n- {服用|ふくよう}: taking medicine — more general and common; does not specify the route\n- {外用|がいよう}: external application — the counterpart for topical medicines\n- {経口|けいこう}: oral (route of administration) — more technical medical term",
+  "notes": "A medical term composed of ⟦{内|ない}→〜内：09853_nai⟧ (internal) and ⟦{服|ふく}→服：00695_fuku⟧ (take, ingest). Contrasts with {外用|がいよう} (external application) and ⟦{注射|ちゅうしゃ}→注射：01665_chuusha⟧ (injection). Common in medical and pharmacy contexts.\n\nCOMMON COLLOCATIONS:\n- ⟦{内服薬|ないふくやく}→内服薬：22643_naifukuyaku⟧: oral medication\n- {内服|ないふく}⟦する→する：00392_suru⟧: to take medicine orally\n- {内服|ないふく}⟦{治療|ちりょう}→治療：03503_chiryou⟧: oral treatment\n- {内服|ないふく}⟦{液|えき}→液：02270_eki⟧: liquid oral medicine\n\nSIMILAR WORDS:\n- ⟦{服用|ふくよう}→服用：15267_fukuyou⟧: taking medicine — more general and common; does not specify the route\n- {外用|がいよう}: external application — the counterpart for topical medicines\n- {経口|けいこう}: oral (route of administration) — more technical medical term",
   "conjugation": {
     "type": "suru",
     "forms": [
@@ -121,7 +132,7 @@
   "examples": [
     {
       "id": "21858_naifuku_ex1",
-      "japanese": "この{薬|くすり}は{内服|ないふく}してください。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{薬|くすり}→薬：00793_kusuri⟧⟦は→は：00079_ha⟧{内服|ないふく}⟦して→する：00392_suru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please take this medicine orally.",
       "sense_numbers": [
         1
@@ -131,7 +142,7 @@
     },
     {
       "id": "21858_naifuku_ex2",
-      "japanese": "{内服薬|ないふくやく}と{外用薬|がいようやく}を{処方|しょほう}された。",
+      "japanese": "⟦{内服薬|ないふくやく}→内服薬：22643_naifukuyaku⟧⟦と→と：00512_to⟧⟦{外用薬|がいようやく}→外用薬：24270_gaiyouyaku⟧⟦を→を：00422_wo⟧⟦{処方|しょほう}→処方：05976_shohou⟧⟦された→する：00392_suru⟧。",
       "english": "I was prescribed both oral and topical medications.",
       "sense_numbers": [
         1
@@ -141,7 +152,7 @@
     },
     {
       "id": "21858_naifuku_ex3",
-      "japanese": "{抗生物質|こうせいぶっしつ}を{一週間|いっしゅうかん}{内服|ないふく}することになった。",
+      "japanese": "⟦{抗生物質|こうせいぶっしつ}→抗生物質：11089_kouseibusshitsu⟧⟦を→を：00422_wo⟧⟦{一週間|いっしゅうかん}→一週間：10979_isshuukan⟧{内服|ないふく}⟦する→する：00392_suru⟧ことになった。",
       "english": "I was told to take antibiotics orally for one week.",
       "sense_numbers": [
         1

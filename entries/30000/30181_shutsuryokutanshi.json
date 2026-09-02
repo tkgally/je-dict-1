@@ -16,7 +16,7 @@
   "examples": [
     {
       "id": "30181_shutsuryokutanshi_ex1",
-      "japanese": "{出力端子|しゅつりょくたんし}にケーブルをつなぐ。",
+      "japanese": "{出力端子|しゅつりょくたんし}⟦に→に：00314_ni⟧⟦ケーブル→ケーブル：04432_keeburu⟧⟦を→を：00422_wo⟧つなぐ。",
       "english": "Connect the cable to the output terminal.",
       "sense_numbers": [
         1
@@ -26,7 +26,7 @@
     },
     {
       "id": "30181_shutsuryokutanshi_ex2",
-      "japanese": "この{機種|きしゅ}には{音声|おんせい}{出力端子|しゅつりょくたんし}が{二|ふた}つある。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{機種|きしゅ}→機種：13211_kishu⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{音声|おんせい}→音声：04445_onsei⟧{出力端子|しゅつりょくたんし}⟦が→が：00051_ga⟧⟦{二|ふた}つ→二つ：02953_futatsu⟧⟦ある→ある：00006_aru⟧。",
       "english": "This model has two audio output terminals.",
       "sense_numbers": [
         1
@@ -36,7 +36,7 @@
     },
     {
       "id": "30181_shutsuryokutanshi_ex3",
-      "japanese": "{音|おと}が{出|で}ないときは、{出力端子|しゅつりょくたんし}に{正|ただ}しく{差|さ}し{込|こ}まれているか{確|たし}かめてください。",
+      "japanese": "⟦{音|おと}→音：00743_oto⟧⟦が→が：00051_ga⟧⟦{出|で}ない→出る：00513_deru⟧とき⟦は→は：00079_ha⟧、{出力端子|しゅつりょくたんし}⟦に→に：00314_ni⟧⟦{正|ただ}しく→正しい：00893_tadashii⟧⟦{差|さ}し{込|こ}まれている→差し込む：04235_sashikomu⟧⟦か→か：09473_ka⟧⟦{確|たし}かめて→確かめる：01955_tashikameru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "If there is no sound, please check that the plug is properly inserted in the output terminal.",
       "sense_numbers": [
         1
@@ -45,7 +45,16 @@
       "notes": null
     }
   ],
-  "notes": "Formed from {出力|しゅつりょく} (output) plus {端子|たんし} (terminal, connector).\n\nCOMMON COLLOCATIONS:\n- {音声|おんせい}{出力端子|しゅつりょくたんし}: audio output terminal\n- {出力端子|しゅつりょくたんし}に{接続|せつぞく}する: to connect to the output terminal\n- {出力端子|しゅつりょくたんし}が{付|つ}いている: to be equipped with an output terminal\n\nSIMILAR WORDS:\n- {入力端子|にゅうりょくたんし}: input terminal — the direct counterpart\n- {差|さ}し{込|こ}み{口|くち}: socket, jack — plainer everyday wording\n- コネクタ: connector — the plug or fitting itself rather than the socket on the device",
+  "notes": "Formed from ⟦{出力|しゅつりょく}→出力：04771_shutsuryoku⟧ (output) plus ⟦{端子|たんし}→端子：30215_tanshi⟧ (terminal, connector).\n\nCOMMON COLLOCATIONS:\n- ⟦{音声|おんせい}→音声：04445_onsei⟧{出力端子|しゅつりょくたんし}: audio output terminal\n- {出力端子|しゅつりょくたんし}⟦に→に：00314_ni⟧⟦{接続|せつぞく}→接続：04367_setsuzoku⟧⟦する→する：00392_suru⟧: to connect to the output terminal\n- {出力端子|しゅつりょくたんし}⟦が→が：00051_ga⟧⟦{付|つ}いている→付く：01960_tsuku⟧: to be equipped with an output terminal\n\nSIMILAR WORDS:\n- ⟦{入力端子|にゅうりょくたんし}→入力端子：30186_nyuuryokutanshi⟧: input terminal — the direct counterpart\n- {差|さ}し{込|こ}み⟦{口|くち}→口：00560_kuchi⟧: socket, jack — plainer everyday wording\n- コネクタ: connector — the plug or fitting itself rather than the socket on the device",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "30186_nyuuryokutanshi",
+      "reading": "にゅうりょくたんし",
+      "headword": "入力端子",
+      "label": "input terminal"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +62,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "electronics"
       ],
@@ -62,6 +71,6 @@
       ]
     },
     "created": "2026-07-27T21:18:32Z",
-    "modified": "2026-07-27T21:18:32Z"
+    "modified": "2026-09-02T04:02:39Z"
   }
 }

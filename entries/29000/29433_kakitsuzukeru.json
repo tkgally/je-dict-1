@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29433_kakitsuzukeru_ex1",
-      "japanese": "{手紙|てがみ}を{書|か}き{続|つづ}ける。",
+      "japanese": "⟦{手紙|てがみ}→手紙：00675_tegami⟧⟦を→を：00422_wo⟧{書|か}き{続|つづ}ける。",
       "english": "to keep writing a letter.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29433_kakitsuzukeru_ex2",
-      "japanese": "{彼|かれ}は{朝|あさ}まで{小説|しょうせつ}を{書|か}き{続|つづ}けた。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{朝|あさ}→朝：02277_asa⟧⟦まで→まで：00490_made⟧⟦{小説|しょうせつ}→小説：01434_shousetsu⟧⟦を→を：00422_wo⟧{書|か}き{続|つづ}けた。",
       "english": "He kept writing his novel until morning.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29433_kakitsuzukeru_ex3",
-      "japanese": "どんなに{忙|いそが}しくても、{彼女|かのじょ}は{毎日|まいにち}{日記|にっき}を{書|か}き{続|つづ}けている。",
+      "japanese": "⟦どんな→どんな：02924_donna⟧⟦に→に：00314_ni⟧⟦{忙|いそが}しくて→忙しい：00591_isogashii⟧⟦も→も：00484_mo⟧、⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧⟦{毎日|まいにち}→毎日：00729_mainichi⟧⟦{日記|にっき}→日記：01486_nikki⟧⟦を→を：00422_wo⟧{書|か}き{続|つづ}けて⟦いる→いる：00495_iru⟧。",
       "english": "No matter how busy she is, she keeps writing in her diary every day.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "A compound verb: {書|か}く (to write) + {続|つづ}ける (to continue). Conjugates as an ichidan verb on the {続|つづ}ける ending.\n\nTRANSITIVITY:\n- Transitive; the thing written takes を: {手紙|てがみ}を{書|か}き{続|つづ}ける.\n\nCOMMON COLLOCATIONS:\n- {小説|しょうせつ}を{書|か}き{続|つづ}ける: to keep writing a novel\n- {何|なに}があっても{書|か}き{続|つづ}ける: to keep writing no matter what\n\nUSAGE:\n- The pattern verb stem + {続|つづ}ける attaches to many verbs to mean \"keep doing,\" e.g. {走|はし}り{続|つづ}ける (keep running), {言|い}い{続|つづ}ける (keep saying).",
+  "notes": "A compound verb: ⟦{書|か}く→書く：00477_kaku⟧ (to write) + ⟦{続|つづ}ける→続く：00903_tsuzuku⟧ (to continue). Conjugates as an ichidan verb on the ⟦{続|つづ}ける→続く：00903_tsuzuku⟧ ending.\n\nTRANSITIVITY:\n- Transitive; the thing written takes ⟦を→を：00422_wo⟧: ⟦{手紙|てがみ}→手紙：00675_tegami⟧⟦を→を：00422_wo⟧{書|か}き{続|つづ}ける.\n\nCOMMON COLLOCATIONS:\n- ⟦{小説|しょうせつ}→小説：01434_shousetsu⟧⟦を→を：00422_wo⟧{書|か}き{続|つづ}ける: to keep writing a novel\n- ⟦{何|なに}→何：00498_nani⟧⟦が→が：00051_ga⟧⟦あって→ある：00006_aru⟧⟦も→も：00484_mo⟧{書|か}き{続|つづ}ける: to keep writing no matter what\n\nUSAGE:\n- The pattern verb stem + ⟦{続|つづ}ける→続く：00903_tsuzuku⟧ attaches to many verbs to mean \"keep doing,\" e.g. ⟦{走|はし}り{続|つづ}ける→走り続ける：22070_hashiritsuzukeru⟧ (keep running), ⟦{言|い}い{続|つづ}ける→言い続ける：29059_iitsuzukeru⟧ (keep saying).",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,15 +53,16 @@
         "verb-ichidan"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "communication"
       ],
       "domain": [],
-      "verb_class": "ichidan"
+      "verb_class": "ichidan",
+      "transitivity": "transitive"
     },
     "created": "2026-06-23T09:24:58Z",
-    "modified": "2026-06-23T09:24:58Z"
+    "modified": "2026-09-02T04:02:36Z"
   },
   "cross_references": [
     {

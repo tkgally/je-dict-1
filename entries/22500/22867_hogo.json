@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22867_hogo_ex1",
-      "japanese": "この{文|ぶん}の{補語|ほご}はどれですか。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{文|ぶん}→文：03716_bun⟧⟦の→の：09472_no⟧{補語|ほご}⟦は→は：00079_ha⟧⟦どれ→どれ：00547_dore⟧です⟦か→か：09473_ka⟧。",
       "english": "Which is the complement in this sentence?",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22867_hogo_ex2",
-      "japanese": "{英語|えいご}では{主語|しゅご}と{補語|ほご}が{等|ひと}しい{関係|かんけい}にある。",
+      "japanese": "⟦{英語|えいご}→英語：02274_eigo⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{主語|しゅご}→主語：00377_shugo⟧⟦と→と：00512_to⟧{補語|ほご}⟦が→が：00051_ga⟧⟦{等|ひと}しい→等しい：03710_hitoshii⟧⟦{関係|かんけい}→関係：01298_kankei⟧⟦に→に：00314_ni⟧⟦ある→ある：00006_aru⟧。",
       "english": "In English, the subject and complement have an equal relationship.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22867_hogo_ex3",
-      "japanese": "{日本語|にほんご}{文法|ぶんぽう}では、{動詞|どうし}が{必要|ひつよう}とする{名詞句|めいしく}を{補語|ほご}と{呼|よ}ぶことがある。",
+      "japanese": "⟦{日本語|にほんご}→日本語：00614_nihongo⟧⟦{文法|ぶんぽう}→文法：01506_bunpou⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧、⟦{動詞|どうし}→動詞：03472_doushi⟧⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧⟦と→と：00512_to⟧⟦する→する：00392_suru⟧{名詞句|めいしく}⟦を→を：00422_wo⟧{補語|ほご}⟦と→と：00512_to⟧⟦{呼|よ}ぶ→呼ぶ：00766_yobu⟧こと⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "In Japanese grammar, noun phrases required by a verb are sometimes called complements.",
       "sense_numbers": [
         1
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {補|ほ} (supplement, complement) + {語|ご} (word, language). A technical term used in linguistics and grammar education.\n\nIn English grammar, a complement follows a linking verb (e.g., \"She is a teacher\" — \"a teacher\" is the complement). In Japanese linguistics, the term is used somewhat differently to refer to required arguments of a predicate.\n\nRELATED TERMS:\n- {主語|しゅご}: subject\n- {述語|じゅつご}: predicate\n- {目的語|もくてきご}: object\n- {修飾語|しゅうしょくご}: modifier\n\nNOTE:\nNot to be confused with the homophone {保護|ほご} (protection), which uses different kanji.",
+  "notes": "Composed of {補|ほ} (supplement, complement) + ⟦{語|ご}→〜語：09841_go⟧ (word, language). A technical term used in linguistics and grammar education.\n\nIn English grammar, a complement follows a linking verb (e.g., \"She is a teacher\" — \"a teacher\" is the complement). In Japanese linguistics, the term is used somewhat differently to refer to required arguments of a predicate.\n\nRELATED WORDS:\n- ⟦{主語|しゅご}→主語：00377_shugo⟧: subject\n- ⟦{述語|じゅつご}→述語：04274_jutsugo⟧: predicate\n- ⟦{目的語|もくてきご}→目的語：20479_mokutekigo⟧: object\n- ⟦{修飾語|しゅうしょくご}→修飾語：21309_shuushokugo⟧: modifier\n\nUSAGE:\nNot to be confused with the homophone ⟦{保護|ほご}→保護：03625_hogo⟧ (protection), which uses different kanji.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "00377_shugo",
+      "reading": "しゅご",
+      "headword": "{主語|しゅご}",
+      "label": "subject"
+    },
+    {
+      "type": "related",
+      "target_id": "04274_jutsugo",
+      "reading": "じゅつご",
+      "headword": "{述語|じゅつご}",
+      "label": "predicate"
+    },
+    {
+      "type": "related",
+      "target_id": "20479_mokutekigo",
+      "reading": "もくてきご",
+      "headword": "{目的語|もくてきご}",
+      "label": "object"
+    },
+    {
+      "type": "related",
+      "target_id": "21309_shuushokugo",
+      "reading": "しゅうしょくご",
+      "headword": "{修飾語|しゅうしょくご}",
+      "label": "modifier"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +89,6 @@
       ]
     },
     "created": "2026-04-07T19:16:05Z",
-    "modified": "2026-07-30T15:20:15Z"
+    "modified": "2026-09-02T04:02:10Z"
   }
 }

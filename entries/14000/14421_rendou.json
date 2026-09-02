@@ -3,7 +3,7 @@
   "id": "14421_rendou",
   "headword": "{連動|れんどう}",
   "reading": "れんどう",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "linkage; interlocking; being linked together",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "14421_rendou_ex1",
-      "japanese": "{株価|かぶか}と{為替|かわせ}は{連動|れんどう}している。",
+      "japanese": "⟦{株価|かぶか}→株価：05154_kabuka⟧⟦と→と：00512_to⟧⟦{為替|かわせ}→為替：04021_kawase⟧⟦は→は：00079_ha⟧{連動|れんどう}⟦している→する：00392_suru⟧。",
       "english": "Stock prices and exchange rates are linked.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "14421_rendou_ex2",
-      "japanese": "このシステムは{火災|かさい}{報知器|ほうちき}と{連動|れんどう}して{作動|さどう}する。",
+      "japanese": "⟦この→この：00962_kono⟧⟦システム→システム：08428_shisutemu⟧⟦は→は：00079_ha⟧⟦{火災|かさい}{報知器|ほうちき}→火災報知器：11510_kasaihouchiki⟧⟦と→と：00512_to⟧{連動|れんどう}⟦して→する：00392_suru⟧⟦{作動|さどう}→作動：11692_sadou⟧⟦する→する：00392_suru⟧。",
       "english": "This system operates in conjunction with the fire alarm.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "14421_rendou_ex3",
-      "japanese": "{原油|げんゆ}{価格|かかく}の{上昇|じょうしょう}に{連動|れんどう}して、ガソリン{代|だい}も{値上|ねあ}がりした。",
+      "japanese": "⟦{原油|げんゆ}→原油：21637_genyu⟧⟦{価格|かかく}→価格：00147_kakaku⟧⟦の→の：09472_no⟧⟦{上昇|じょうしょう}→上昇：11296_joushou⟧⟦に→に：00314_ni⟧{連動|れんどう}⟦して→する：00392_suru⟧、⟦ガソリン→ガソリン：01346_gasorin⟧⟦{代|だい}→〜代：28331_dai⟧⟦も→も：00484_mo⟧⟦{値上|ねあ}がり→値上がり：11538_neagari⟧⟦した→する：00392_suru⟧。",
       "english": "Gasoline prices also rose in tandem with the increase in crude oil prices.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "A compound of {連|れん} (linked, connected) and {動|どう} (movement). Functions as a noun and suru-verb.\n\nCOMMON COLLOCATIONS:\n- ～と{連動|れんどう}する (to be linked with ~)\n- ～に{連動|れんどう}して (in conjunction with ~)\n- {連動|れんどう}{型|がた} (interlocking type)\n- {価格|かかく}{連動|れんどう} (price linkage)\n\nUsed frequently in business and economics to describe correlated movements (e.g., prices, markets) and in technical contexts for mechanically or electronically linked systems.",
+  "notes": "A compound of {連|れん} (linked, connected) and {動|どう} (movement). Functions as a noun and suru-verb.\n\nCOMMON COLLOCATIONS:\n- ～⟦と→と：00512_to⟧{連動|れんどう}⟦する→する：00392_suru⟧ (to be linked with ~)\n- ～⟦に→に：00314_ni⟧{連動|れんどう}⟦して→する：00392_suru⟧ (in conjunction with ~)\n- {連動|れんどう}{型|がた} (interlocking type)\n- ⟦{価格|かかく}→価格：00147_kakaku⟧{連動|れんどう} (price linkage)\n\nUsed frequently in business and economics to describe correlated movements (e.g., prices, markets) and in technical contexts for mechanically or electronically linked systems.",
   "cross_references": [
     {
       "type": "synonym",
@@ -142,11 +142,18 @@
       "reading": "れんけい",
       "headword": "{連携|れんけい}",
       "label": "cooperation, coordination"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23676_seihirei",
+      "reading": "せいひれい",
+      "headword": "{正比例|せいひれい}",
+      "label": "direct proportion"
     }
   ],
   "metadata": {
     "created": "2026-03-01T09:28:51Z",
-    "modified": "2026-04-30T07:28:10Z",
+    "modified": "2026-09-02T04:01:37Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

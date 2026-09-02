@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22008_rakkabutsu_ex1",
-      "japanese": "{落下物|らっかぶつ}に{注意|ちゅうい}。",
+      "japanese": "{落下物|らっかぶつ}⟦に→に：00314_ni⟧⟦{注意|ちゅうい}→注意：01464_chuui⟧。",
       "english": "Caution: falling objects.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22008_rakkabutsu_ex2",
-      "japanese": "{高速道路|こうそくどうろ}に{落下物|らっかぶつ}があった。",
+      "japanese": "⟦{高速道路|こうそくどうろ}→高速道路：09242_kousokudouro⟧⟦に→に：00314_ni⟧{落下物|らっかぶつ}⟦が→が：00051_ga⟧⟦あった→ある：00006_aru⟧。",
       "english": "There was fallen debris on the highway.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22008_rakkabutsu_ex3",
-      "japanese": "{工事|こうじ}{現場|げんば}では{落下物|らっかぶつ}による{事故|じこ}を{防|ふせ}ぐため、ヘルメットの{着用|ちゃくよう}が{義務|ぎむ}づけられている。",
+      "japanese": "⟦{工事|こうじ}{現場|げんば}→工事現場：26202_koujigenba⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧{落下物|らっかぶつ}⟦による→による：28349_niyoru⟧⟦{事故|じこ}→事故：00851_jiko⟧⟦を→を：00422_wo⟧⟦{防|ふせ}ぐ→防ぐ：02409_fusegu⟧⟦ため→ため：01145_tame⟧、⟦ヘルメット→ヘルメット：11325_herumetto⟧⟦の→の：09472_no⟧⟦{着用|ちゃくよう}→着用：13693_chakuyou⟧⟦が→が：00051_ga⟧⟦{義務|ぎむ}→義務：02647_gimu⟧づけられて⟦いる→いる：00495_iru⟧。",
       "english": "At construction sites, wearing helmets is mandatory to prevent accidents from falling objects.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "Commonly seen on highway signs, construction site warnings, and safety notices. A compound of {落下|らっか} (falling) and {物|ぶつ} (object).\n\nCOMMON COLLOCATIONS:\n- {落下物|らっかぶつ}に{注意|ちゅうい}: caution for falling objects\n- {落下物|らっかぶつ}{事故|じこ}: falling object accident\n- {落下物|らっかぶつ}を{回避|かいひ}する: to avoid a falling object\n- {道路|どうろ}の{落下物|らっかぶつ}: debris on the road\n\nSIMILAR WORDS:\n- {落下|らっか}: falling; dropping — the act of falling itself\n- {落石|らくせき}: falling rocks; rockfall — specifically rocks falling on roads or mountainsides\n- {飛来物|ひらいぶつ}: flying object; airborne debris — objects carried by wind or an explosion",
+  "notes": "Commonly seen on highway signs, construction site warnings, and safety notices. A compound of ⟦{落下|らっか}→落下：14051_rakka⟧ (falling) and ⟦{物|ぶつ}→〜物：28336_butsu⟧ (object).\n\nCOMMON COLLOCATIONS:\n- {落下物|らっかぶつ}⟦に→に：00314_ni⟧⟦{注意|ちゅうい}→注意：01464_chuui⟧: caution for falling objects\n- {落下物|らっかぶつ}⟦{事故|じこ}→事故：00851_jiko⟧: falling object accident\n- {落下物|らっかぶつ}⟦を→を：00422_wo⟧⟦{回避|かいひ}する→回避する：17014_kaihisuru⟧: to avoid a falling object\n- ⟦{道路|どうろ}→道路：01481_douro⟧⟦の→の：09472_no⟧{落下物|らっかぶつ}: debris on the road\n\nSIMILAR WORDS:\n- ⟦{落下|らっか}→落下：14051_rakka⟧: falling; dropping — the act of falling itself\n- {落石|らくせき}: falling rocks; rockfall — specifically rocks falling on roads or mountainsides\n- {飛来物|ひらいぶつ}: flying object; airborne debris — objects carried by wind or an explosion",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24039_sanranbutsu",
+      "reading": "さんらんぶつ",
+      "headword": "{散乱物|さんらんぶつ}",
+      "label": "scattered objects"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +68,6 @@
       ]
     },
     "created": "2026-04-04T20:21:41Z",
-    "modified": "2026-04-10T08:28:27Z"
+    "modified": "2026-09-02T04:02:06Z"
   }
 }

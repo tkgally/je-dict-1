@@ -3,7 +3,7 @@
   "headword": "{発病|はつびょう}",
   "reading": "はつびょう",
   "romaji": "hatsubyou",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "onset of illness; falling ill",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "27015_hatsubyou_ex1",
-      "japanese": "{発病|はつびょう}から{三日|みっか}が{経|た}った。",
+      "japanese": "{発病|はつびょう}⟦から→から：00504_kara⟧⟦{三日|みっか}→三日：02969_mikka⟧⟦が→が：00051_ga⟧⟦{経|た}った→経つ：09892_tatsu⟧。",
       "english": "Three days have passed since the onset of illness.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "27015_hatsubyou_ex2",
-      "japanese": "{感染|かんせん}してから{発病|はつびょう}するまでの{期間|きかん}は{個人差|こじんさ}がある。",
+      "japanese": "⟦{感染|かんせん}して→感染する：26931_kansensuru⟧⟦から→から：00504_kara⟧{発病|はつびょう}⟦する→する：00392_suru⟧⟦まで→まで：00490_made⟧⟦の→の：09472_no⟧⟦{期間|きかん}→期間：00229_kikan⟧⟦は→は：00079_ha⟧⟦{個人差|こじんさ}→個人差：11654_kojinsa⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "The period from infection to onset of illness varies by individual.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "27015_hatsubyou_ex3",
-      "japanese": "{早期|そうき}に{発病|はつびょう}を{発見|はっけん}できれば、{治療|ちりょう}の{効果|こうか}が{高|たか}まる。",
+      "japanese": "⟦{早期|そうき}→早期：09568_souki⟧⟦に→に：00314_ni⟧{発病|はつびょう}⟦を→を：00422_wo⟧⟦{発見|はっけん}→発見：00085_hakken⟧⟦できれば→できる：00557_dekiru⟧、⟦{治療|ちりょう}→治療：03503_chiryou⟧⟦の→の：09472_no⟧⟦{効果|こうか}→効果：02726_kouka⟧⟦が→が：00051_ga⟧⟦{高|たか}まる→高まる：02066_takamaru⟧。",
       "english": "If the onset of illness can be detected early, treatment becomes more effective.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "Used in medical and health contexts to describe the moment a disease manifests. The word focuses on the transition from a healthy or latent state to having active symptoms, not on the overall experience of being sick.\n\nCOMMON COLLOCATIONS:\n- {発病|はつびょう}する: to develop an illness; to fall ill\n- {発病|はつびょう}{率|りつ}: incidence rate\n- {発病|はつびょう}リスク: risk of developing a disease\n- {発病|はつびょう}の{時期|じき}: time of onset\n- {発病|はつびょう}を{防|ふせ}ぐ: to prevent the onset of illness\n\nSIMILAR WORDS:\n- {発症|はっしょう}: onset of symptoms — very close in meaning but more clinical; emphasizes symptoms rather than the illness itself\n- {罹患|りかん}: contracting a disease — focuses on the fact of being affected, used in epidemiology\n- {病気|びょうき}になる: to get sick — everyday expression; less formal than {発病|はつびょう}",
+  "notes": "Used in medical and health contexts to describe the moment a disease manifests. The word focuses on the transition from a healthy or latent state to having active symptoms, not on the overall experience of being sick.\n\nCOMMON COLLOCATIONS:\n- {発病|はつびょう}⟦する→する：00392_suru⟧: to develop an illness; to fall ill\n- {発病|はつびょう}⟦{率|りつ}→率：03802_ritsu⟧: incidence rate\n- {発病|はつびょう}⟦リスク→リスク：06752_risuku⟧: risk of developing a disease\n- {発病|はつびょう}⟦の→の：09472_no⟧⟦{時期|じき}→時期：03269_jiki⟧: time of onset\n- {発病|はつびょう}⟦を→を：00422_wo⟧⟦{防|ふせ}ぐ→防ぐ：02409_fusegu⟧: to prevent the onset of illness\n\nSIMILAR WORDS:\n- ⟦{発症|はっしょう}→発症：09016_hasshou⟧: onset of symptoms — very close in meaning but more clinical; emphasizes symptoms rather than the illness itself\n- {罹患|りかん}: contracting a disease — focuses on the fact of being affected, used in epidemiology\n- ⟦{病気|びょうき}→病気：00771_byouki⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧: to get sick — everyday expression; less formal than {発病|はつびょう}",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09016_hasshou",
+      "reading": "はっしょう",
+      "headword": "{発症|はっしょう}",
+      "label": "onset of symptoms"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -65,7 +74,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-06T14:17:21Z",
-    "modified": "2026-05-06T14:17:21Z"
+    "modified": "2026-09-02T04:02:28Z"
   },
   "conjugation": {
     "type": "suru",

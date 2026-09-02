@@ -20,7 +20,7 @@
   "examples": [
     {
       "id": "23095_tanku_ex1",
-      "japanese": "ガソリンタンクが{空|から}だ。",
+      "japanese": "⟦ガソリン→ガソリン：01346_gasorin⟧タンク⟦が→が：00051_ga⟧⟦{空|から}→空：27640_kara⟧だ。",
       "english": "The gas tank is empty.",
       "sense_numbers": [
         1
@@ -30,7 +30,7 @@
     },
     {
       "id": "23095_tanku_ex2",
-      "japanese": "{水|みず}タンクに{水|みず}を{補充|ほじゅう}する。",
+      "japanese": "⟦{水|みず}→水：02258_mizu⟧タンク⟦に→に：00314_ni⟧⟦{水|みず}→水：02258_mizu⟧⟦を→を：00422_wo⟧⟦{補充|ほじゅう}する→補充する：25240_hojuusuru⟧。",
       "english": "To refill the water tank.",
       "sense_numbers": [
         1
@@ -40,7 +40,7 @@
     },
     {
       "id": "23095_tanku_ex3",
-      "japanese": "{屋上|おくじょう}にある{貯水|ちょすい}タンクの{点検|てんけん}が{必要|ひつよう}だ。",
+      "japanese": "⟦{屋上|おくじょう}→屋上：01341_okujou⟧⟦に→に：00314_ni⟧⟦ある→ある：00006_aru⟧⟦{貯水|ちょすい}→貯水：22604_chosui⟧タンク⟦の→の：09472_no⟧⟦{点検|てんけん}→点検：09765_tenken⟧⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧だ。",
       "english": "The water storage tank on the rooftop needs inspection.",
       "sense_numbers": [
         1
@@ -50,7 +50,7 @@
     },
     {
       "id": "23095_tanku_ex4",
-      "japanese": "タンクが{前進|ぜんしん}する。",
+      "japanese": "タンク⟦が→が：00051_ga⟧⟦{前進|ぜんしん}する→前進する：17339_zenshinsuru⟧。",
       "english": "The tank advances.",
       "sense_numbers": [
         2
@@ -60,7 +60,7 @@
     },
     {
       "id": "23095_tanku_ex5",
-      "japanese": "{戦車|せんしゃ}はタンクとも{呼|よ}ばれる。",
+      "japanese": "{戦車|せんしゃ}⟦は→は：00079_ha⟧タンク⟦と→と：00512_to⟧⟦も→も：00484_mo⟧⟦{呼|よ}ばれる→呼ぶ：00766_yobu⟧。",
       "english": "A tank is also called タンク.",
       "sense_numbers": [
         2
@@ -70,7 +70,7 @@
     },
     {
       "id": "23095_tanku_ex6",
-      "japanese": "{博物館|はくぶつかん}には{戦時中|せんじちゅう}のタンクが{展示|てんじ}されている。",
+      "japanese": "⟦{博物館|はくぶつかん}→博物館：01494_hakubutsukan⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{戦時中|せんじちゅう}→戦時中：28629_senjichuu⟧⟦の→の：09472_no⟧タンク⟦が→が：00051_ga⟧⟦{展示|てんじ}→展示：12401_tenji⟧⟦されている→する：00392_suru⟧。",
       "english": "Tanks from wartime are on display at the museum.",
       "sense_numbers": [
         2
@@ -79,8 +79,17 @@
       "notes": null
     }
   ],
-  "notes": "A loanword from English 'tank' with two main senses. The container sense (sense 1) is by far the more common usage in everyday Japanese. For the military vehicle (sense 2), the native word {戦車|せんしゃ} is more commonly used.\n\nCOMMON COLLOCATIONS:\n- ガソリンタンク: gas tank; fuel tank\n- {水|みず}タンク: water tank\n- {貯水|ちょすい}タンク: water storage tank\n- タンクローリー: tank truck; tanker\n- タンクトップ: tank top (clothing)\n\nSIMILAR WORDS:\n- {戦車|せんしゃ}: tank (military) — the more common Japanese word for the military vehicle\n- {容器|ようき}: container — general term for any container\n- {貯蔵庫|ちょぞうこ}: storage facility — larger-scale storage",
+  "notes": "A loanword from English 'tank' with two main senses. The container sense (sense 1) is by far the more common usage in everyday Japanese. For the military vehicle (sense 2), the native word {戦車|せんしゃ} is more commonly used.\n\nCOMMON COLLOCATIONS:\n- ⟦ガソリン→ガソリン：01346_gasorin⟧タンク: gas tank; fuel tank\n- ⟦{水|みず}→水：02258_mizu⟧タンク: water tank\n- ⟦{貯水|ちょすい}→貯水：22604_chosui⟧タンク: water storage tank\n- タンクローリー: tank truck; tanker\n- タンクトップ: tank top (clothing)\n\nSIMILAR WORDS:\n- {戦車|せんしゃ}: tank (military) — the more common Japanese word for the military vehicle\n- ⟦{容器|ようき}→容器：03656_youki⟧: container — general term for any container\n- {貯蔵庫|ちょぞうこ}: storage facility — larger-scale storage",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03656_youki",
+      "reading": "ようき",
+      "headword": "{容器|ようき}",
+      "label": "container"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -94,6 +103,6 @@
       ]
     },
     "created": "2026-04-08T18:33:44Z",
-    "modified": "2026-07-31T00:22:50Z"
+    "modified": "2026-09-02T04:02:11Z"
   }
 }

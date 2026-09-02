@@ -15,40 +15,79 @@
   "examples": [
     {
       "id": "15370_kacchuu_ex1",
-      "japanese": "{博物館|はくぶつかん}に{甲冑|かっちゅう}が{展示|てんじ}されている。",
+      "japanese": "⟦{博物館|はくぶつかん}→博物館：01494_hakubutsukan⟧⟦に→に：00314_ni⟧{甲冑|かっちゅう}⟦が→が：00051_ga⟧⟦{展示|てんじ}→展示：12401_tenji⟧⟦されている→する：00392_suru⟧。",
       "english": "A suit of armor is on display at the museum.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15370_kacchuu_ex2",
-      "japanese": "{武将|ぶしょう}が{甲冑|かっちゅう}を{身|み}にまとって{戦場|せんじょう}に{向|む}かった。",
+      "japanese": "⟦{武将|ぶしょう}→武将：13222_bushou⟧⟦が→が：00051_ga⟧{甲冑|かっちゅう}⟦を→を：00422_wo⟧⟦{身|み}→身：01764_mi⟧⟦に→に：00314_ni⟧まとって⟦{戦場|せんじょう}→戦場：12746_senjou⟧⟦に→に：00314_ni⟧⟦{向|む}かった→向かう：01186_mukau⟧。",
       "english": "The warrior donned his armor and headed to the battlefield.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15370_kacchuu_ex3",
-      "japanese": "{端午|たんご}の{節句|せっく}には{甲冑|かっちゅう}を{飾|かざ}る{家|いえ}もある。",
+      "japanese": "⟦{端午|たんご}の{節句|せっく}→端午の節句：16518_tangonosekku⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{甲冑|かっちゅう}⟦を→を：00422_wo⟧⟦{飾|かざ}る→飾る：01185_kazaru⟧⟦{家|いえ}→家：00612_ie⟧⟦も→も：00484_mo⟧⟦ある→ある：00006_aru⟧。",
       "english": "Some families display a suit of armor for Boys' Day.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE: {甲冑|かっちゅう} specifically refers to Japanese armor as a combined set of body protection ({甲|かぶと} or {鎧|よろい}) and helmet ({冑|かぶと}). It is commonly encountered in historical contexts, museum descriptions, and discussions of Japanese warrior culture.\n\nDuring {端午|たんご}の{節句|せっく} (Boys' Day, May 5th), miniature {甲冑|かっちゅう} are displayed in homes to wish boys health and strength.\n\nCOMMON COLLOCATIONS:\n- {甲冑|かっちゅう}を{身|み}にまとう: to don armor\n- {甲冑|かっちゅう}を{飾|かざ}る: to display armor\n- {甲冑|かっちゅう}{姿|すがた}: figure in armor\n\nSIMILAR WORDS:\n- {甲冑|かっちゅう}: full armor set (armor + helmet)\n- {鎧|よろい}: body armor (without helmet)\n- {兜|かぶと}: helmet",
-  "cross_references": [],
+  "notes": "USAGE: {甲冑|かっちゅう} specifically refers to Japanese armor as a combined set of body protection ({甲|かぶと} or ⟦{鎧|よろい}→鎧：14541_yoroi⟧) and helmet ({冑|かぶと}). It is commonly encountered in historical contexts, museum descriptions, and discussions of Japanese warrior culture.\n\nDuring ⟦{端午|たんご}の{節句|せっく}→端午の節句：16518_tangonosekku⟧ (Boys' Day, May 5th), miniature {甲冑|かっちゅう} are displayed in homes to wish boys health and strength.\n\nCOMMON COLLOCATIONS:\n- {甲冑|かっちゅう}⟦を→を：00422_wo⟧⟦{身|み}→身：01764_mi⟧⟦に→に：00314_ni⟧まとう: to don armor\n- {甲冑|かっちゅう}⟦を→を：00422_wo⟧⟦{飾|かざ}る→飾る：01185_kazaru⟧: to display armor\n- {甲冑|かっちゅう}⟦{姿|すがた}→姿：03363_sugata⟧: figure in armor\n\nSIMILAR WORDS:\n- {甲冑|かっちゅう}: full armor set (armor + helmet)\n- ⟦{鎧|よろい}→鎧：14541_yoroi⟧: body armor (without helmet)\n- ⟦{兜|かぶと}→兜：11625_kabuto⟧: helmet",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14541_yoroi",
+      "reading": "よろい",
+      "headword": "{鎧|よろい}",
+      "label": "body armor"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11625_kabuto",
+      "reading": "かぶと",
+      "headword": "{兜|かぶと}",
+      "label": "helmet"
+    },
+    {
+      "type": "related",
+      "target_id": "14659_bougu",
+      "reading": "ぼうぐ",
+      "headword": "{防具|ぼうぐ}",
+      "label": "protective gear"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24598_bugu",
+      "reading": "ぶぐ",
+      "headword": "{武具|ぶぐ}",
+      "label": "arms and armor"
+    }
+  ],
   "metadata": {
     "created": "2026-03-06T11:51:28Z",
-    "modified": "2026-03-06T11:51:28Z",
+    "modified": "2026-09-02T04:01:41Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

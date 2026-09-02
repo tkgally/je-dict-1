@@ -3,7 +3,7 @@
   "headword": "ロールプレイ",
   "reading": "ろーるぷれい",
   "romaji": "roorupurei",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "role play; role-playing",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24416_roorupurei_ex1",
-      "japanese": "ロールプレイで{練習|れんしゅう}する。",
+      "japanese": "ロールプレイ⟦で→で：00502_de⟧⟦{練習|れんしゅう}する→練習する：22991_renshuusuru⟧。",
       "english": "To practice through role play.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24416_roorupurei_ex2",
-      "japanese": "{接客|せっきゃく}のロールプレイを{行|おこな}った。",
+      "japanese": "⟦{接客|せっきゃく}→接客：12882_sekkyaku⟧⟦の→の：09472_no⟧ロールプレイ⟦を→を：00422_wo⟧⟦{行|おこな}った→行う：01238_okonau⟧。",
       "english": "We did a customer service role play.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24416_roorupurei_ex3",
-      "japanese": "{日本語|にほんご}{教室|きょうしつ}では{買|か}い{物|もの}の{場面|ばめん}を{想定|そうてい}したロールプレイがよく{行|おこな}われる。",
+      "japanese": "⟦{日本語|にほんご}→日本語：00614_nihongo⟧⟦{教室|きょうしつ}→教室：00794_kyoushitsu⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{買|か}い{物|もの}→買い物：00853_kaimono⟧⟦の→の：09472_no⟧⟦{場面|ばめん}→場面：03702_bamen⟧⟦を→を：00422_wo⟧⟦{想定|そうてい}した→想定する：19018_souteisuru⟧ロールプレイ⟦が→が：00051_ga⟧⟦よく→よく：00601_yoku⟧⟦{行|おこな}われる→行う：01238_okonau⟧。",
       "english": "In Japanese language classes, role plays simulating shopping situations are often conducted.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "A loanword from English \"role play.\" The longer form ロールプレイング is also used, especially in gaming contexts (ロールプレイングゲーム, commonly abbreviated RPG). In education and business, the shorter ロールプレイ is more common.\n\nCOMMON COLLOCATIONS:\n- ロールプレイをする: to do role play\n- ロールプレイで{練習|れんしゅう}する: to practice through role play\n- ロールプレイ{形式|けいしき}: role-play format\n- ロールプレイング: role-playing (longer form)\n- ロールプレイングゲーム (RPG): role-playing game\n\nSIMILAR WORDS:\n- {模擬|もぎ}{練習|れんしゅう}: mock practice, simulation drill — a native term for similar activities\n- シミュレーション: simulation — broader, not limited to acting out roles\n- {寸劇|すんげき}: skit — a short dramatic performance, more scripted than role play",
+  "notes": "A loanword from English \"role play.\" The longer form ロールプレイング is also used, especially in gaming contexts (ロールプレイングゲーム, commonly abbreviated RPG). In education and business, the shorter ロールプレイ is more common.\n\nCOMMON COLLOCATIONS:\n- ロールプレイ⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧: to do role play\n- ロールプレイ⟦で→で：00502_de⟧⟦{練習|れんしゅう}する→練習する：22991_renshuusuru⟧: to practice through role play\n- ロールプレイ⟦{形式|けいしき}→形式：00211_keishiki⟧: role-play format\n- ロールプレイング: role-playing (longer form)\n- ロールプレイングゲーム (RPG): role-playing game\n\nSIMILAR WORDS:\n- ⟦{模擬|もぎ}→模擬：19836_mogi⟧⟦{練習|れんしゅう}→練習：05323_renshuu⟧: mock practice, simulation drill — a native term for similar activities\n- ⟦シミュレーション→シミュレーション：10960_shimyureeshon⟧: simulation — broader, not limited to acting out roles\n- {寸劇|すんげき}: skit — a short dramatic performance, more scripted than role play",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "10960_shimyureeshon",
+      "reading": "しみゅれーしょん",
+      "headword": "シミュレーション",
+      "label": "simulation"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,7 +70,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-19T09:18:23Z",
-    "modified": "2026-04-19T09:18:23Z"
+    "modified": "2026-09-02T04:02:18Z"
   },
   "conjugation": {
     "type": "suru",

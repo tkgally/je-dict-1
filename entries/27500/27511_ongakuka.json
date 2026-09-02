@@ -15,41 +15,96 @@
   "examples": [
     {
       "id": "27511_ongakuka_ex1",
-      "japanese": "{彼|かれ}は{有名|ゆうめい}な{音楽家|おんがくか}だ。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{有名|ゆうめい}→有名：01106_yuumei⟧な{音楽家|おんがくか}だ。",
       "english": "He is a famous musician.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27511_ongakuka_ex2",
-      "japanese": "{将来|しょうらい}は{音楽家|おんがくか}になりたい。",
+      "japanese": "⟦{将来|しょうらい}→将来：01438_shourai⟧⟦は→は：00079_ha⟧{音楽家|おんがくか}⟦に→に：00314_ni⟧⟦なりたい→なる：01970_naru⟧。",
       "english": "I want to become a musician in the future.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27511_ongakuka_ex3",
-      "japanese": "その{音楽家|おんがくか}は{若|わか}い{頃|ころ}から{多|おお}くの{交響曲|こうきょうきょく}を{作曲|さっきょく}してきた。",
+      "japanese": "⟦その→その：00993_sono⟧{音楽家|おんがくか}⟦は→は：00079_ha⟧{若|わか}い{頃|ころ}⟦から→から：00504_kara⟧{多|おお}く⟦の→の：09472_no⟧⟦{交響曲|こうきょうきょく}→交響曲：18025_koukyoukyoku⟧⟦を→を：00422_wo⟧⟦{作曲|さっきょく}→作曲：02824_sakkyoku⟧してきた。",
       "english": "That musician has composed many symphonies since he was young.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {音楽|おんがく} (music) + {家|か} (specialist; \"-ist\"). Tends to imply a serious or professional pursuit, especially in classical music.\n\nCOMMON COLLOCATIONS:\n- {音楽家|おんがくか}になる: to become a musician\n- {若|わか}い{音楽家|おんがくか}: a young musician\n- プロの{音楽家|おんがくか}: professional musician\n\nSIMILAR WORDS:\n- ミュージシャン: musician — broader and more contemporary, includes pop/rock players\n- {演奏家|えんそうか}: performer; instrumentalist — focuses on playing rather than composing\n- {作曲家|さっきょくか}: composer — specifically a music writer",
+  "notes": "Composed of ⟦{音楽|おんがく}→音楽：00661_ongaku⟧ (music) + ⟦{家|か}→〜家：28339_ka⟧ (specialist; \"-ist\"). Tends to imply a serious or professional pursuit, especially in classical music.\n\nCOMMON COLLOCATIONS:\n- {音楽家|おんがくか}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧: to become a musician\n- {若|わか}い{音楽家|おんがくか}: a young musician\n- ⟦プロ→プロ：03871_puro⟧⟦の→の：09472_no⟧{音楽家|おんがくか}: professional musician\n\nSIMILAR WORDS:\n- ミュージシャン: musician — broader and more contemporary, includes pop/rock players\n- ⟦{演奏家|えんそうか}→演奏家：29184_ensouka⟧: performer; instrumentalist — focuses on playing rather than composing\n- {作曲家|さっきょくか}: composer — specifically a music writer",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "29184_ensouka",
+      "reading": "えんそうか",
+      "headword": "{演奏家|えんそうか}",
+      "label": "performer"
+    },
+    {
+      "type": "related",
+      "target_id": "03070_shousetsuka",
+      "reading": "しょうせつか",
+      "headword": "{小説家|しょうせつか}",
+      "label": "novelist, fiction writer"
+    },
+    {
+      "type": "related",
+      "target_id": "03088_senmonka",
+      "reading": "せんもんか",
+      "headword": "{専門家|せんもんか}",
+      "label": "specialist, expert"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14979_geijutsuka",
+      "reading": "げいじゅつか",
+      "headword": "{芸術家|げいじゅつか}",
+      "label": "artist"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23923_seigakuka",
+      "reading": "せいがくか",
+      "headword": "{声楽家|せいがくか}",
+      "label": "classical vocalist"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25426_ensousha",
+      "reading": "えんそうしゃ",
+      "headword": "{演奏者|えんそうしゃ}",
+      "label": "performer"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["occupation", "music"],
+      "politeness": "plain",
+      "semantic": [
+        "occupation",
+        "music"
+      ],
       "domain": []
     },
     "created": "2026-05-13T03:09:46Z",
-    "modified": "2026-05-13T03:09:46Z"
+    "modified": "2026-09-02T04:02:30Z"
   }
 }

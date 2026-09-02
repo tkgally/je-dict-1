@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25262_onjou_ex1",
-      "japanese": "{上司|じょうし}の{恩情|おんじょう}に{感謝|かんしゃ}している。",
+      "japanese": "⟦{上司|じょうし}→上司：03286_joushi⟧⟦の→の：09472_no⟧{恩情|おんじょう}⟦に→に：00314_ni⟧⟦{感謝|かんしゃ}している→感謝する：06055_kanshasuru⟧。",
       "english": "I'm grateful for my boss's kindness.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25262_onjou_ex2",
-      "japanese": "{恩情|おんじょう}をかけてもらった。",
+      "japanese": "{恩情|おんじょう}⟦を→を：00422_wo⟧⟦かけて→かける：00854_kakeru⟧⟦もらった→もらう：00520_morau⟧。",
       "english": "I was shown compassion.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25262_onjou_ex3",
-      "japanese": "{裁判官|さいばんかん}は{恩情|おんじょう}のある{判決|はんけつ}を{下|くだ}した。",
+      "japanese": "⟦{裁判官|さいばんかん}→裁判官：09562_saibankan⟧⟦は→は：00079_ha⟧{恩情|おんじょう}⟦の→の：09472_no⟧⟦ある→ある：00006_aru⟧⟦{判決|はんけつ}→判決：05906_hanketsu⟧⟦を→を：00422_wo⟧⟦{下|くだ}した→下す：12329_kudasu⟧。",
       "english": "The judge delivered a merciful verdict.",
       "sense_numbers": [
         1
@@ -45,7 +45,7 @@
     },
     {
       "id": "25262_onjou_ex4",
-      "japanese": "{先生|せんせい}の{恩情|おんじょう}がなければ、{今|いま}の{自分|じぶん}はなかっただろう。",
+      "japanese": "⟦{先生|せんせい}→先生：00609_sensei⟧⟦の→の：09472_no⟧{恩情|おんじょう}⟦が→が：00051_ga⟧⟦なければ→ない：01118_nai⟧、⟦{今|いま}→今：00945_ima⟧⟦の→の：09472_no⟧⟦{自分|じぶん}→自分：02887_jibun⟧⟦は→は：00079_ha⟧⟦なかった→ない：01118_nai⟧だろう。",
       "english": "Without my teacher's benevolence, I wouldn't be who I am today.",
       "sense_numbers": [
         1
@@ -54,20 +54,44 @@
       "notes": null
     }
   ],
-  "notes": "A formal word for kindness or mercy that flows from someone in a higher position to someone below. It carries a traditional, somewhat old-fashioned tone and is associated with hierarchical relationships such as lord-vassal, teacher-student, or judge-defendant.\n\nCOMMON COLLOCATIONS:\n- {恩情|おんじょう}をかける: to show compassion\n- {恩情|おんじょう}に{報|むく}いる: to repay someone's kindness\n- {恩情|おんじょう}のある{判決|はんけつ}: a merciful verdict\n- {恩情|おんじょう}に{甘|あま}える: to take advantage of someone's kindness\n\nSIMILAR WORDS:\n- {恩恵|おんけい}: a blessing or benefit received; focuses on the benefit itself rather than the feeling of compassion\n- {慈悲|じひ}: mercy or compassion; Buddhist overtones, more spiritual than {恩情|おんじょう}\n- {情|なさ}け: sympathy or pity; more emotional and personal, less formal\n- {温情|おんじょう}: warm-hearted consideration; written with different kanji ({温|おん}) but pronounced the same; the two are sometimes used interchangeably",
+  "notes": "A formal word for kindness or mercy that flows from someone in a higher position to someone below. It carries a traditional, somewhat old-fashioned tone and is associated with hierarchical relationships such as lord-vassal, teacher-student, or judge-defendant.\n\nCOMMON COLLOCATIONS:\n- {恩情|おんじょう}⟦を→を：00422_wo⟧⟦かける→かける：00854_kakeru⟧: to show compassion\n- {恩情|おんじょう}⟦に→に：00314_ni⟧⟦{報|むく}いる→報いる：12088_mukuiru⟧: to repay someone's kindness\n- {恩情|おんじょう}⟦の→の：09472_no⟧⟦ある→ある：00006_aru⟧⟦{判決|はんけつ}→判決：05906_hanketsu⟧: a merciful verdict\n- {恩情|おんじょう}⟦に→に：00314_ni⟧⟦{甘|あま}える→甘える：06624_amaeru⟧: to take advantage of someone's kindness\n\nSIMILAR WORDS:\n- ⟦{恩恵|おんけい}→恩恵：04115_onkei⟧: a blessing or benefit received; focuses on the benefit itself rather than the feeling of compassion\n- ⟦{慈悲|じひ}→慈悲：10889_jihi⟧: mercy or compassion; Buddhist overtones, more spiritual than {恩情|おんじょう}\n- ⟦{情|なさ}け→情け：06649_nasake⟧: sympathy or pity; more emotional and personal, less formal\n- {温情|おんじょう}: warm-hearted consideration; written with different kanji ({温|おん}) but pronounced the same; the two are sometimes used interchangeably",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04115_onkei",
+      "reading": "おんけい",
+      "headword": "{恩恵|おんけい}",
+      "label": "a blessing or benefit received"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10889_jihi",
+      "reading": "じひ",
+      "headword": "{慈悲|じひ}",
+      "label": "mercy or compassion"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06649_nasake",
+      "reading": "なさけ",
+      "headword": "{情|なさ}け",
+      "label": "sympathy or pity"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "emotion",
         "society"
       ]
     },
     "created": "2026-04-24T12:16:36Z",
-    "modified": "2026-08-04T12:59:53Z"
+    "modified": "2026-09-02T04:02:21Z"
   }
 }

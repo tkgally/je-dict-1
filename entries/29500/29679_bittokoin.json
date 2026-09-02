@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29679_bittokoin_ex1",
-      "japanese": "ビットコインの{価格|かかく}が{上|あ}がった。",
+      "japanese": "ビットコイン⟦の→の：09472_no⟧⟦{価格|かかく}→価格：00147_kakaku⟧⟦が→が：00051_ga⟧⟦{上|あ}がった→上がる：00615_agaru⟧。",
       "english": "The price of Bitcoin went up.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29679_bittokoin_ex2",
-      "japanese": "ビットコインで{支払|しはら}える{店|みせ}もある。",
+      "japanese": "ビットコイン⟦で→で：00502_de⟧⟦{支払|しはら}える→支払う：02116_shiharau⟧⟦{店|みせ}→店：00497_mise⟧⟦も→も：00484_mo⟧⟦ある→ある：00006_aru⟧。",
       "english": "There are shops where you can pay with Bitcoin.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29679_bittokoin_ex3",
-      "japanese": "ビットコインは{値動|ねうご}きが{激|はげ}しいので、{投資|とうし}には{注意|ちゅうい}が{必要|ひつよう}だ。",
+      "japanese": "ビットコイン⟦は→は：00079_ha⟧⟦{値動|ねうご}き→値動き：09403_neugoki⟧⟦が→が：00051_ga⟧⟦{激|はげ}しい→激しい：02348_hageshii⟧⟦の→の：09472_no⟧で、⟦{投資|とうし}→投資：04711_toushi⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{注意|ちゅうい}→注意：01464_chuui⟧⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧だ。",
       "english": "Bitcoin's price swings are wild, so you need to be careful about investing in it.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "The original cryptocurrency, launched in 2009. A representative {仮想通貨|かそうつうか}, often abbreviated BTC and treated as the benchmark of the crypto market.\n\nCOMMON COLLOCATIONS:\n- ビットコインを{買|か}う: to buy Bitcoin\n- ビットコインの{価格|かかく}: the price of Bitcoin\n- ビットコインで{決済|けっさい}する: to settle payment in Bitcoin\n\nSIMILAR WORDS:\n- {仮想通貨|かそうつうか}: cryptocurrency — the general category; Bitcoin is one instance\n- イーサリアム: Ethereum — the next best-known cryptocurrency",
+  "notes": "The original cryptocurrency, launched in 2009. A representative ⟦{仮想通貨|かそうつうか}→仮想通貨：06400_kasoutsuuka⟧, often abbreviated BTC and treated as the benchmark of the crypto market.\n\nCOMMON COLLOCATIONS:\n- ビットコイン⟦を→を：00422_wo⟧⟦{買|か}う→買う：00489_kau⟧: to buy Bitcoin\n- ビットコイン⟦の→の：09472_no⟧⟦{価格|かかく}→価格：00147_kakaku⟧: the price of Bitcoin\n- ビットコイン⟦で→で：00502_de⟧⟦{決済|けっさい}→決済：05466_kessai⟧⟦する→する：00392_suru⟧: to settle payment in Bitcoin\n\nSIMILAR WORDS:\n- ⟦{仮想通貨|かそうつうか}→仮想通貨：06400_kasoutsuuka⟧: cryptocurrency — the general category; Bitcoin is one instance\n- ⟦イーサリアム→イーサリアム：29680_iisariamu⟧: Ethereum — the next best-known cryptocurrency",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06400_kasoutsuuka",
+      "reading": "かそうつうか",
+      "headword": "{仮想通貨|かそうつうか}",
+      "label": "cryptocurrency"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29680_iisariamu",
+      "reading": "いーさりあむ",
+      "headword": "イーサリアム",
+      "label": "Ethereum"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +69,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "finance"
       ],
@@ -62,6 +78,6 @@
       ]
     },
     "created": "2026-07-04T12:17:32Z",
-    "modified": "2026-07-04T12:17:32Z"
+    "modified": "2026-09-02T04:02:37Z"
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "23035_shoudokuyaku_ex1",
-      "japanese": "{傷口|きずぐち}に{消毒薬|しょうどくやく}を{塗|ぬ}る。",
+      "japanese": "⟦{傷口|きずぐち}→傷口：09517_kizuguchi⟧⟦に→に：00314_ni⟧{消毒薬|しょうどくやく}⟦を→を：00422_wo⟧⟦{塗|ぬ}る→塗る：01174_nuru⟧。",
       "english": "To apply disinfectant to a wound.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "23035_shoudokuyaku_ex2",
-      "japanese": "{消毒薬|しょうどくやく}で{手|て}を{拭|ふ}いた。",
+      "japanese": "{消毒薬|しょうどくやく}⟦で→で：00502_de⟧⟦{手|て}→手：00569_te⟧⟦を→を：00422_wo⟧⟦{拭|ふ}いた→拭く：04261_fuku⟧。",
       "english": "I wiped my hands with disinfectant.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "23035_shoudokuyaku_ex3",
-      "japanese": "{救急箱|きゅうきゅうばこ}に{消毒薬|しょうどくやく}と{絆創膏|ばんそうこう}が{入|はい}っている。",
+      "japanese": "⟦{救急箱|きゅうきゅうばこ}→救急箱：19410_kyuukyuubako⟧⟦に→に：00314_ni⟧{消毒薬|しょうどくやく}⟦と→と：00512_to⟧⟦{絆創膏|ばんそうこう}→絆創膏：05386_bansoukou⟧⟦が→が：00051_ga⟧⟦{入|はい}っている→入る：00494_hairu⟧。",
       "english": "There is disinfectant and adhesive bandages in the first aid kit.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "A practical everyday word that became even more widely known during the COVID-19 pandemic. {消毒|しょうどく} means disinfection/sterilization and {薬|やく} means medicine/chemical agent.\n\nCOMMON COLLOCATIONS:\n- {消毒薬|しょうどくやく}を{塗|ぬ}る: to apply disinfectant\n- {消毒薬|しょうどくやく}で{拭|ふ}く: to wipe with disinfectant\n- {手指|しゅし}{消毒薬|しょうどくやく}: hand sanitizer\n- アルコール{消毒薬|しょうどくやく}: alcohol-based disinfectant\n\nRELATED TERMS:\n- {消毒液|しょうどくえき}: disinfectant solution — emphasizes the liquid form\n- {消毒|しょうどく}する: to disinfect, to sterilize\n- {除菌|じょきん}: sanitizing, germ removal — a less thorough process than {消毒|しょうどく}\n- {殺菌|さっきん}: sterilization — killing bacteria completely",
+  "notes": "A practical everyday word that became even more widely known during the COVID-19 pandemic. ⟦{消毒|しょうどく}→消毒：07591_shoudoku⟧ means disinfection/sterilization and {薬|やく} means medicine/chemical agent.\n\nCOMMON COLLOCATIONS:\n- {消毒薬|しょうどくやく}⟦を→を：00422_wo⟧⟦{塗|ぬ}る→塗る：01174_nuru⟧: to apply disinfectant\n- {消毒薬|しょうどくやく}⟦で→で：00502_de⟧⟦{拭|ふ}く→拭く：04261_fuku⟧: to wipe with disinfectant\n- {手指|しゅし}{消毒薬|しょうどくやく}: hand sanitizer\n- ⟦アルコール→アルコール：01771_arukooru⟧{消毒薬|しょうどくやく}: alcohol-based disinfectant\n\nRELATED WORDS:\n- {消毒液|しょうどくえき}: disinfectant solution — emphasizes the liquid form\n- ⟦{消毒|しょうどく}する→消毒する：17818_shoudokusuru⟧: to disinfect, to sterilize\n- ⟦{除菌|じょきん}→除菌：07789_jokin⟧: sanitizing, germ removal — a less thorough process than ⟦{消毒|しょうどく}→消毒：07591_shoudoku⟧\n- ⟦{殺菌|さっきん}→殺菌：09781_sakkin⟧: sterilization — killing bacteria completely",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "17818_shoudokusuru",
+      "reading": "しょうどくする",
+      "headword": "{消毒|しょうどく}する",
+      "label": "to disinfect, to sterilize"
+    },
+    {
+      "type": "related",
+      "target_id": "07789_jokin",
+      "reading": "じょきん",
+      "headword": "{除菌|じょきん}",
+      "label": "sanitizing, germ removal"
+    },
+    {
+      "type": "related",
+      "target_id": "09781_sakkin",
+      "reading": "さっきん",
+      "headword": "{殺菌|さっきん}",
+      "label": "sterilization"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +83,6 @@
       ]
     },
     "created": "2026-04-08T16:30:23Z",
-    "modified": "2026-04-10T08:28:27Z"
+    "modified": "2026-09-02T04:02:10Z"
   }
 }

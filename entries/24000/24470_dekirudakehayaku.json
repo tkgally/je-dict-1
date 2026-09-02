@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24470_dekirudakehayaku_ex1",
-      "japanese": "できるだけ{早|はや}く{来|き}てください。",
+      "japanese": "できるだけ{早|はや}く⟦{来|き}て→来る：00254_kuru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please come as soon as possible.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24470_dekirudakehayaku_ex2",
-      "japanese": "できるだけ{早|はや}く{返事|へんじ}をお{願|ねが}いします。",
+      "japanese": "できるだけ{早|はや}く⟦{返事|へんじ}→返事：00844_henji⟧⟦を→を：00422_wo⟧お{願|ねが}いします。",
       "english": "I would appreciate a reply as soon as possible.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24470_dekirudakehayaku_ex3",
-      "japanese": "{問題|もんだい}が{見|み}つかったら、できるだけ{早|はや}く{報告|ほうこく}してほしい。",
+      "japanese": "⟦{問題|もんだい}→問題：00797_mondai⟧⟦が→が：00051_ga⟧⟦{見|み}つかったら→見つかる：01173_mitsukaru⟧、できるだけ{早|はや}く⟦{報告|ほうこく}して→報告する：05644_houkokusuru⟧ほしい。",
       "english": "If you find a problem, I'd like you to report it as soon as possible.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Composed of できるだけ (as much as possible) + {早|はや}く (quickly). One of the most frequently used expressions for urgency in Japanese. Equivalent to English \"ASAP\" but without the acronym's abruptness.\n\nVARIATIONS:\n- できるだけ{早|はや}く: standard form\n- なるべく{早|はや}く: nearly synonymous, slightly more casual\n- できる{限|かぎ}り{早|はや}く: slightly more formal variant\n- {至急|しきゅう}: urgent (more formal and direct, used in business)\n\nUSAGE:\nIn business email, できるだけ{早|はや}く is polite enough for most situations. For greater formality, use できる{限|かぎ}り{早|はや}く or add お{願|ねが}いいたします. The pattern できるだけ + adjective/adverb works for other qualities too: できるだけ{安|やす}く (as cheaply as possible), できるだけ{静|しず}かに (as quietly as possible).\n\nSIMILAR WORDS:\n- なるべく{早|はや}く: as soon as possible (slightly softer tone)\n- {至急|しきゅう}: urgently (more commanding, business-like)\n- {大至急|だいしきゅう}: most urgently (very strong)",
+  "notes": "Composed of ⟦できるだけ→できるだけ：01289_dekirudake⟧ (as much as possible) + ⟦{早|はや}く→早い：00514_hayai⟧ (quickly). One of the most frequently used expressions for urgency in Japanese. Equivalent to English \"ASAP\" but without the acronym's abruptness.\n\nFORMS:\n- できるだけ{早|はや}く: standard form\n- ⟦なるべく→なるべく：01281_narubeku⟧⟦{早|はや}く→早い：00514_hayai⟧: nearly synonymous, slightly more casual\n- ⟦できる{限|かぎ}り→できる限り：10471_dekirukagiri⟧⟦{早|はや}く→早い：00514_hayai⟧: slightly more formal variant\n- ⟦{至急|しきゅう}→至急：03679_shikyuu⟧: urgent (more formal and direct, used in business)\n\nUSAGE:\nIn business email, できるだけ{早|はや}く is polite enough for most situations. For greater formality, use ⟦できる{限|かぎ}り→できる限り：10471_dekirukagiri⟧⟦{早|はや}く→早い：00514_hayai⟧ or add ⟦お{願|ねが}いいたします→お願いいたします：27603_onegaiitashimasu⟧. The pattern ⟦できるだけ→できるだけ：01289_dekirudake⟧ + adjective/adverb works for other qualities too: ⟦できるだけ→できるだけ：01289_dekirudake⟧⟦{安|やす}く→安い：00464_yasui⟧ (as cheaply as possible), ⟦できるだけ→できるだけ：01289_dekirudake⟧⟦{静|しず}か→静か：00755_shizuka⟧⟦に→に：00314_ni⟧ (as quietly as possible).\n\nSIMILAR WORDS:\n- ⟦なるべく→なるべく：01281_narubeku⟧⟦{早|はや}く→早い：00514_hayai⟧: as soon as possible (slightly softer tone)\n- ⟦{至急|しきゅう}→至急：03679_shikyuu⟧: urgently (more commanding, business-like)\n- {大至急|だいしきゅう}: most urgently (very strong)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03679_shikyuu",
+      "reading": "しきゅう",
+      "headword": "{至急|しきゅう}",
+      "label": "urgently"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16007_ikkokumohayaku",
+      "reading": "いっこくもはやく",
+      "headword": "{一刻|いっこく}も{早|はや}く",
+      "label": "as soon as possible"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,12 +69,13 @@
         "expression",
         "adverb"
       ],
+      "politeness": "plain",
       "semantic": [
         "time-general",
         "business"
       ]
     },
     "created": "2026-04-19T11:18:31Z",
-    "modified": "2026-08-02T18:32:34Z"
+    "modified": "2026-09-02T04:02:18Z"
   }
 }

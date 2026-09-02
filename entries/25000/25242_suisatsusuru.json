@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25242_suisatsusuru_ex1",
-      "japanese": "{事情|じじょう}はおおよそ{推察|すいさつ}できる。",
+      "japanese": "⟦{事情|じじょう}→事情：03272_jijou⟧⟦は→は：00079_ha⟧おおよそ{推察|すいさつ}できる。",
       "english": "I can more or less surmise the circumstances.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25242_suisatsusuru_ex2",
-      "japanese": "ご{心中|しんちゅう}お{察|さっ}しいたします。",
+      "japanese": "ご⟦{心中|しんちゅう}→心中：25870_shinchuu⟧お⟦{察|さっ}し→察し：12324_sasshi⟧⟦いたします→いたす：01314_itasu⟧。",
       "english": "I can imagine how you must feel.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25242_suisatsusuru_ex3",
-      "japanese": "{状況|じょうきょう}から{推察|すいさつ}すると、{犯人|はんにん}は{内部|ないぶ}の{人間|にんげん}だろう。",
+      "japanese": "⟦{状況|じょうきょう}→状況：01576_joukyou⟧⟦から→から：00504_kara⟧{推察|すいさつ}する⟦と→と：00512_to⟧、⟦{犯人|はんにん}→犯人：03572_hannin⟧⟦は→は：00079_ha⟧⟦{内部|ないぶ}→内部：05583_naibu⟧⟦の→の：09472_no⟧⟦{人間|にんげん}→人間：03523_ningen⟧だろう。",
       "english": "Judging from the circumstances, the culprit is probably an insider.",
       "sense_numbers": [
         1
@@ -45,7 +45,7 @@
     },
     {
       "id": "25242_suisatsusuru_ex4",
-      "japanese": "{彼|かれ}の{表情|ひょうじょう}から、{何|なに}か{悩|なや}みがあるのだと{推察|すいさつ}した。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧⟦{表情|ひょうじょう}→表情：03585_hyoujou⟧⟦から→から：00504_kara⟧、⟦{何|なに}か→何か：03873_nanika⟧⟦{悩|なや}み→悩み：06650_nayami⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧⟦の→の：09472_no⟧だ⟦と→と：00512_to⟧{推察|すいさつ}した。",
       "english": "From his expression, I inferred that he had something troubling him.",
       "sense_numbers": [
         1
@@ -54,8 +54,31 @@
       "notes": null
     }
   ],
-  "notes": "A formal word for drawing conclusions based on available evidence, observation, or empathetic understanding. Often used in writing or polite speech. The related form お{察|さっ}しする is a humble/polite expression used to show empathy.\n\nCOMMON COLLOCATIONS:\n- {事情|じじょう}を{推察|すいさつ}する: surmise the circumstances\n- {心中|しんちゅう}を{推察|すいさつ}する: imagine someone's feelings\n- {容易|ようい}に{推察|すいさつ}できる: easy to infer\n- {推察|すいさつ}の{域|いき}を{出|で}ない: remain in the realm of conjecture\n\nSIMILAR WORDS:\n- {推測|すいそく}する: to guess; to speculate — more neutral and analytical, while {推察|すいさつ} carries a nuance of empathetic understanding\n- {察|さっ}する: to sense; to guess — a more general and slightly informal term for perceiving or guessing something\n- {推理|すいり}する: to reason; to deduce — emphasizes logical deduction, as in detective work or problem-solving",
+  "notes": "A formal word for drawing conclusions based on available evidence, observation, or empathetic understanding. Often used in writing or polite speech. The related form お⟦{察|さっ}し→察し：12324_sasshi⟧⟦する→する：00392_suru⟧ is a humble/polite expression used to show empathy.\n\nCOMMON COLLOCATIONS:\n- ⟦{事情|じじょう}→事情：03272_jijou⟧⟦を→を：00422_wo⟧{推察|すいさつ}する: surmise the circumstances\n- ⟦{心中|しんちゅう}→心中：25870_shinchuu⟧⟦を→を：00422_wo⟧{推察|すいさつ}する: imagine someone's feelings\n- ⟦{容易|ようい}→容易：12316_youi⟧⟦に→に：00314_ni⟧{推察|すいさつ}できる: easy to infer\n- ⟦{推察|すいさつ}→推察：09442_suisatsu⟧⟦の→の：09472_no⟧{域|いき}⟦を→を：00422_wo⟧⟦{出|で}ない→出る：00513_deru⟧: remain in the realm of conjecture\n\nSIMILAR WORDS:\n- ⟦{推測|すいそく}する→推測する：17957_suisokusuru⟧: to guess; to speculate — more neutral and analytical, while ⟦{推察|すいさつ}→推察：09442_suisatsu⟧ carries a nuance of empathetic understanding\n- ⟦{察|さっ}する→察する：08053_sassuru⟧: to sense; to guess — a more general and slightly informal term for perceiving or guessing something\n- ⟦{推理|すいり}する→推理する：26848_suirisuru⟧: to reason; to deduce — emphasizes logical deduction, as in detective work or problem-solving",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17957_suisokusuru",
+      "reading": "すいそくする",
+      "headword": "{推測|すいそく}する",
+      "label": "to guess"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26848_suirisuru",
+      "reading": "すいりする",
+      "headword": "{推理|すいり}する",
+      "label": "to reason"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21920_suiryousuru",
+      "reading": "すいりょうする",
+      "headword": "{推量|すいりょう}する",
+      "label": "to conjecture"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -69,7 +92,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-24T11:31:50Z",
-    "modified": "2026-04-24T11:31:50Z"
+    "modified": "2026-09-02T04:02:21Z"
   },
   "conjugation": {
     "type": "suru",

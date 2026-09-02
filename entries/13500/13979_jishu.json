@@ -15,41 +15,60 @@
   "examples": [
     {
       "id": "13979_jishu_ex1",
-      "japanese": "{自主|じしゅ}{練習|れんしゅう}に{励|はげ}む。",
+      "japanese": "{自主|じしゅ}{練習|れんしゅう}⟦に→に：00314_ni⟧⟦{励|はげ}む→励む：11822_hagemu⟧。",
       "english": "To work hard at independent practice.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13979_jishu_ex2",
-      "japanese": "{会社|かいしゃ}は{製品|せいひん}の{自主|じしゅ}{回収|かいしゅう}を{決|き}めた。",
+      "japanese": "⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦は→は：00079_ha⟧⟦{製品|せいひん}→製品：01445_seihin⟧⟦の→の：09472_no⟧{自主|じしゅ}⟦{回収|かいしゅう}→回収：03019_kaishuu⟧⟦を→を：00422_wo⟧⟦{決|き}めた→決める：00858_kimeru⟧。",
       "english": "The company decided on a voluntary recall of the product.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13979_jishu_ex3",
-      "japanese": "{生徒|せいと}たちが{自主的|じしゅてき}に{校庭|こうてい}の{清掃|せいそう}{活動|かつどう}を{行|おこな}った。",
+      "japanese": "⟦{生徒|せいと}→生徒：01051_seito⟧たち⟦が→が：00051_ga⟧⟦{自主的|じしゅてき}→自主的：17149_jishuteki⟧⟦に→に：00314_ni⟧⟦{校庭|こうてい}→校庭：04147_koutei⟧⟦の→の：09472_no⟧⟦{清掃|せいそう}→清掃：04332_seisou⟧⟦{活動|かつどう}→活動：00201_katsudou⟧⟦を→を：00422_wo⟧⟦{行|おこな}った→行う：01238_okonau⟧。",
       "english": "The students voluntarily carried out a cleanup of the schoolyard.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nAlmost always used as a modifier: {自主|じしゅ}～ (noun compound) or {自主的|じしゅてき}に (adverbial). Implies initiative and self-motivation. In Japanese society, {自主|じしゅ} actions are generally viewed positively as showing maturity and responsibility.\n\nCOMMON COLLOCATIONS:\n- {自主|じしゅ}{練習|れんしゅう}: independent practice\n- {自主|じしゅ}{回収|かいしゅう}: voluntary recall\n- {自主|じしゅ}{規制|きせい}: voluntary regulation, self-censorship\n- {自主的|じしゅてき}に: voluntarily, on one's own initiative\n- {自主|じしゅ}{退職|たいしょく}: voluntary resignation\n- {自主|じしゅ}{制作|せいさく}: independent production",
-  "cross_references": [],
+  "notes": "USAGE:\nAlmost always used as a modifier: {自主|じしゅ}～ (noun compound) or ⟦{自主的|じしゅてき}→自主的：17149_jishuteki⟧⟦に→に：00314_ni⟧ (adverbial). Implies initiative and self-motivation. In Japanese society, {自主|じしゅ} actions are generally viewed positively as showing maturity and responsibility.\n\nCOMMON COLLOCATIONS:\n- {自主|じしゅ}{練習|れんしゅう}: independent practice\n- {自主|じしゅ}⟦{回収|かいしゅう}→回収：03019_kaishuu⟧: voluntary recall\n- {自主|じしゅ}⟦{規制|きせい}→規制：02598_kisei⟧: voluntary regulation, self-censorship\n- ⟦{自主的|じしゅてき}→自主的：17149_jishuteki⟧⟦に→に：00314_ni⟧: voluntarily, on one's own initiative\n- {自主|じしゅ}⟦{退職|たいしょく}→退職：04559_taishoku⟧: voluntary resignation\n- {自主|じしゅ}⟦{制作|せいさく}→制作：04320_seisaku⟧: independent production",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "29246_jihatsu",
+      "reading": "じはつ",
+      "headword": "{自発|じはつ}",
+      "label": "spontaneity"
+    }
+  ],
   "metadata": {
     "created": "2026-02-27T08:31:11Z",
-    "modified": "2026-02-27T08:31:11Z",
+    "modified": "2026-09-02T04:01:35Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-no"],
+      "pos": [
+        "noun",
+        "adjective-no"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["abstract"]
+      "semantic": [
+        "abstract"
+      ]
     }
   }
 }

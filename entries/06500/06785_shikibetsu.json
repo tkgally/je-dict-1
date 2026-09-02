@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{識別|しきべつ} means identification or distinction.\n\nCOLLOCATIONS:\n・{識別|しきべつ}⟦する→する：00392_suru⟧ - to identify, distinguish\n・{識別|しきべつ}⟦できる→できる：00557_dekiru⟧ - can identify\n・{識別|しきべつ}⟦{番号|ばんごう}→番号：02939_bangou⟧ - identification number\n・{識別|しきべつ}⟦コード→コード：00241_koodo⟧ - identification code\n\nCOMPOUNDS:\n・⟦{顔|かお}→顔：00558_kao⟧{識別|しきべつ} - facial recognition\n・⟦{音声|おんせい}→音声：04445_onsei⟧{識別|しきべつ} - voice recognition\n・⟦{指紋|しもん}→指紋：12728_shimon⟧{識別|しきべつ} - fingerprint identification\n\nRELATED:\n・⟦{区別|くべつ}→区別：01555_kubetsu⟧ - distinction, differentiation\n・⟦{認識|にんしき}→認識：05090_ninshiki⟧ - recognition, perception",
+  "notes": "{識別|しきべつ} means identification or distinction.\n\nCOMMON COLLOCATIONS:\n- {識別|しきべつ}⟦する→する：00392_suru⟧ - to identify, distinguish\n- {識別|しきべつ}⟦できる→できる：00557_dekiru⟧ - can identify\n- {識別|しきべつ}⟦{番号|ばんごう}→番号：02939_bangou⟧ - identification number\n- {識別|しきべつ}⟦コード→コード：00241_koodo⟧ - identification code\n\nCOMPOUNDS:\n- ⟦{顔|かお}→顔：00558_kao⟧{識別|しきべつ} - facial recognition\n- ⟦{音声|おんせい}→音声：04445_onsei⟧{識別|しきべつ} - voice recognition\n- ⟦{指紋|しもん}→指紋：12728_shimon⟧{識別|しきべつ} - fingerprint identification\n\nRELATED WORDS:\n- ⟦{区別|くべつ}→区別：01555_kubetsu⟧ - distinction, differentiation\n- ⟦{認識|にんしき}→認識：05090_ninshiki⟧ - recognition, perception",
   "cross_references": [
     {
       "type": "related",
@@ -58,11 +58,32 @@
       "headword": "{認識|にんしき}",
       "label": "recognition, perception",
       "target_id": "05090_ninshiki"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15349_hanbetsu",
+      "reading": "はんべつ",
+      "headword": "{判別|はんべつ}",
+      "label": "distinction"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24055_kanshiki",
+      "reading": "かんしき",
+      "headword": "{鑑識|かんしき}",
+      "label": "forensics"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26970_kubetsusuru",
+      "reading": "くべつする",
+      "headword": "{区別|くべつ}する",
+      "label": "to distinguish"
     }
   ],
   "metadata": {
     "created": "2026-01-18T06:56:58Z",
-    "modified": "2026-08-05T03:18:09Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

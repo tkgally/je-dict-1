@@ -15,39 +15,67 @@
   "examples": [
     {
       "id": "26344_tsukiwari_ex1",
-      "japanese": "{月割|つきわ}りで{支払|しはら}う。",
+      "japanese": "{月割|つきわ}り⟦で→で：00502_de⟧⟦{支払|しはら}う→支払う：02116_shiharau⟧。",
       "english": "To pay in monthly installments.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26344_tsukiwari_ex2",
-      "japanese": "{年会費|ねんかいひ}を{月割|つきわ}り{計算|けいさん}すると、{一|ひと}か{月|げつ}{千円|せんえん}になる。",
+      "japanese": "⟦{年会費|ねんかいひ}→年会費：06414_nenkaihi⟧⟦を→を：00422_wo⟧{月割|つきわ}り⟦{計算|けいさん}する→計算する：25526_keisansuru⟧⟦と→と：00512_to⟧、{一|ひと}か{月|げつ}⟦{千円|せんえん}→千円：08980_senen⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧。",
       "english": "If you prorate the annual membership fee monthly, it comes to 1,000 yen per month.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26344_tsukiwari_ex3",
-      "japanese": "{途中|とちゅう}{入会|にゅうかい}の{場合|ばあい}は、{月割|つきわ}りで{料金|りょうきん}を{精算|せいさん}いたします。",
+      "japanese": "⟦{途中|とちゅう}→途中：01684_tochuu⟧⟦{入会|にゅうかい}→入会：11671_nyuukai⟧⟦の→の：09472_no⟧⟦{場合|ばあい}→場合：01704_baai⟧⟦は→は：00079_ha⟧、{月割|つきわ}り⟦で→で：00502_de⟧⟦{料金|りょうきん}→料金：03797_ryoukin⟧⟦を→を：00422_wo⟧⟦{精算|せいさん}→精算：10899_seisan⟧⟦いたします→いたす：01314_itasu⟧。",
       "english": "In the case of mid-term enrollment, fees will be settled on a prorated monthly basis.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {月|つき} (month) and {割|わ}り (division, rate). Used in business, accounting, and subscription contexts to describe breaking annual or total amounts into monthly portions.\n\nCOMMON COLLOCATIONS:\n- {月割|つきわ}り{計算|けいさん}: monthly proration calculation\n- {月割|つきわ}りで{払|はら}う: to pay monthly\n- {月割|つきわ}り{料金|りょうきん}: prorated monthly fee\n- {月割|つきわ}り{額|がく}: monthly prorated amount\n\nSIMILAR WORDS:\n- {月払|つきばら}い: monthly payment — focuses on the act of paying monthly rather than the calculation\n- {分割払|ぶんかつばら}い: installment payment — more general; can be any interval\n- {日割|ひわ}り: daily proration — the same concept applied on a daily basis",
-  "cross_references": [],
+  "notes": "Composed of ⟦{月|つき}→月：02230_tsuki⟧ (month) and {割|わ}り (division, rate). Used in business, accounting, and subscription contexts to describe breaking annual or total amounts into monthly portions.\n\nCOMMON COLLOCATIONS:\n- {月割|つきわ}り⟦{計算|けいさん}→計算：02697_keisan⟧: monthly proration calculation\n- {月割|つきわ}り⟦で→で：00502_de⟧⟦{払|はら}う→払う：00535_harau⟧: to pay monthly\n- {月割|つきわ}り⟦{料金|りょうきん}→料金：03797_ryoukin⟧: prorated monthly fee\n- {月割|つきわ}り{額|がく}: monthly prorated amount\n\nSIMILAR WORDS:\n- {月払|つきばら}い: monthly payment — focuses on the act of paying monthly rather than the calculation\n- ⟦{分割払|ぶんかつばら}い→分割払い：17607_bunkatsubarai⟧: installment payment — more general; can be any interval\n- ⟦{日割|ひわ}り→日割り：18920_hiwari⟧: daily proration — the same concept applied on a daily basis",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17607_bunkatsubarai",
+      "reading": "ぶんかつばらい",
+      "headword": "{分割払|ぶんかつばら}い",
+      "label": "installment payment"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18920_hiwari",
+      "reading": "ひわり",
+      "headword": "{日割|ひわ}り",
+      "label": "daily proration"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["business", "finance"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "business",
+        "finance"
+      ]
     },
     "created": "2026-05-01T11:32:03Z",
-    "modified": "2026-05-01T11:32:03Z"
+    "modified": "2026-09-02T04:02:26Z"
   }
 }

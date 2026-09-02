@@ -3,7 +3,7 @@
   "id": "14143_kaishou",
   "headword": "{解消|かいしょう}",
   "reading": "かいしょう",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "elimination, dissolution, resolution",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "14143_kaishou_ex1",
-      "japanese": "ストレスを{解消|かいしょう}する。",
+      "japanese": "⟦ストレス→ストレス：03827_sutoresu⟧⟦を→を：00422_wo⟧{解消|かいしょう}⟦する→する：00392_suru⟧。",
       "english": "I relieve stress.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "14143_kaishou_ex2",
-      "japanese": "{婚約|こんやく}を{解消|かいしょう}することになった。",
+      "japanese": "⟦{婚約|こんやく}→婚約：02810_konyaku⟧⟦を→を：00422_wo⟧{解消|かいしょう}⟦する→する：00392_suru⟧ことになった。",
       "english": "We decided to break off the engagement.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "14143_kaishou_ex3",
-      "japanese": "{人手|ひとで}{不足|ぶそく}を{解消|かいしょう}するために、ロボットの{導入|どうにゅう}が{進|すす}んでいる。",
+      "japanese": "⟦{人手|ひとで}{不足|ぶそく}→人手不足：11436_hitodebusoku⟧⟦を→を：00422_wo⟧{解消|かいしょう}⟦する→する：00392_suru⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧、⟦ロボット→ロボット：06404_robotto⟧⟦の→の：09472_no⟧⟦{導入|どうにゅう}→導入：10127_dounyuu⟧⟦が→が：00051_ga⟧⟦{進|すす}んでいる→進む：01225_susumu⟧。",
       "english": "The introduction of robots is progressing in order to resolve the labor shortage.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{解消|かいしょう} means to eliminate or dissolve something undesirable. It is used both for abstract problems (stress, inequality, shortages) and for formal agreements (engagements, contracts). Compare with {解決|かいけつ} (solving a problem), which implies finding a solution, while {解消|かいしょう} emphasizes making something disappear entirely.\n\nCOMMON COLLOCATIONS:\n- ストレス{解消|かいしょう}: stress relief\n- {不満|ふまん}を{解消|かいしょう}する: to resolve dissatisfaction\n- {渋滞|じゅうたい}が{解消|かいしょう}される: traffic congestion clears up\n- {契約|けいやく}を{解消|かいしょう}する: to dissolve a contract\n- {格差|かくさ}を{解消|かいしょう}する: to eliminate disparity",
+  "notes": "USAGE:\n{解消|かいしょう} means to eliminate or dissolve something undesirable. It is used both for abstract problems (stress, inequality, shortages) and for formal agreements (engagements, contracts). Compare with ⟦{解決|かいけつ}→解決：00136_kaiketsu⟧ (solving a problem), which implies finding a solution, while {解消|かいしょう} emphasizes making something disappear entirely.\n\nCOMMON COLLOCATIONS:\n- ストレス{解消|かいしょう}: stress relief\n- ⟦{不満|ふまん}→不満：02497_fuman⟧⟦を→を：00422_wo⟧{解消|かいしょう}⟦する→する：00392_suru⟧: to resolve dissatisfaction\n- ⟦{渋滞|じゅうたい}→渋滞：03279_juutai⟧⟦が→が：00051_ga⟧{解消|かいしょう}⟦される→する：00392_suru⟧: traffic congestion clears up\n- ⟦{契約|けいやく}→契約：02698_keiyaku⟧⟦を→を：00422_wo⟧{解消|かいしょう}⟦する→する：00392_suru⟧: to dissolve a contract\n- ⟦{格差|かくさ}→格差：04839_kakusa⟧⟦を→を：00422_wo⟧{解消|かいしょう}⟦する→する：00392_suru⟧: to eliminate disparity",
   "cross_references": [
     {
       "type": "synonym",
@@ -142,11 +142,25 @@
       "reading": "かいけつ",
       "headword": "{解決|かいけつ}",
       "label": "solving, resolution"
+    },
+    {
+      "type": "related",
+      "target_id": "09132_hassan",
+      "reading": "はっさん",
+      "headword": "{発散|はっさん}",
+      "label": "emission, release"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19897_hyoukai",
+      "reading": "ひょうかい",
+      "headword": "{氷解|ひょうかい}",
+      "label": "clearing up, vanishing (of doubts)"
     }
   ],
   "metadata": {
     "created": "2026-02-28T01:21:25Z",
-    "modified": "2026-04-30T04:29:16Z",
+    "modified": "2026-09-02T04:01:36Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -159,7 +173,8 @@
       "semantic": [
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   },
   "prominent_see_also": [

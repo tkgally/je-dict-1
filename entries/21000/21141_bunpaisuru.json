@@ -3,7 +3,7 @@
   "headword": "{分配|ぶんぱい}する",
   "reading": "ぶんぱいする",
   "romaji": "bunpaisuru",
-  "part_of_speech": "verb",
+  "part_of_speech": "suru verb",
   "gloss": "to distribute; to allocate",
   "definitions": [
     {
@@ -17,7 +17,7 @@
   "examples": [
     {
       "id": "21141_bunpaisuru_ex1",
-      "japanese": "{利益|りえき}を{分配|ぶんぱい}する。",
+      "japanese": "⟦{利益|りえき}→利益：03673_rieki⟧⟦を→を：00422_wo⟧{分配|ぶんぱい}する。",
       "english": "To distribute the profits.",
       "sense_numbers": [
         1
@@ -27,7 +27,7 @@
     },
     {
       "id": "21141_bunpaisuru_ex2",
-      "japanese": "{食料|しょくりょう}を{公平|こうへい}に{分配|ぶんぱい}した。",
+      "japanese": "⟦{食料|しょくりょう}→食料：03250_shokuryou⟧⟦を→を：00422_wo⟧⟦{公平|こうへい}→公平：01648_kouhei⟧⟦に→に：00314_ni⟧{分配|ぶんぱい}した。",
       "english": "We distributed the food fairly.",
       "sense_numbers": [
         1
@@ -37,7 +37,7 @@
     },
     {
       "id": "21141_bunpaisuru_ex3",
-      "japanese": "{限|かぎ}られた{資源|しげん}をどのように{分配|ぶんぱい}するかが{大|おお}きな{課題|かだい}だ。",
+      "japanese": "⟦{限|かぎ}られた→限る：02033_kagiru⟧⟦{資源|しげん}→資源：03167_shigen⟧⟦を→を：00422_wo⟧⟦どのように→どのように：23674_donoyouni⟧{分配|ぶんぱい}する⟦か→か：09473_ka⟧⟦が→が：00051_ga⟧⟦{大|おお}きな→大きな：02849_ookina⟧⟦{課題|かだい}→課題：00132_kadai⟧だ。",
       "english": "How to distribute limited resources is a major challenge.",
       "sense_numbers": [
         1
@@ -46,8 +46,31 @@
       "notes": null
     }
   ],
-  "notes": "To divide and hand out shares of something to multiple recipients. Commonly used in economic, business, and organizational contexts for distributing profits, resources, or tasks.\n\nCOMMON COLLOCATIONS:\n- {利益|りえき}{分配|ぶんぱい}: profit distribution\n- {富|とみ}の{分配|ぶんぱい}: distribution of wealth\n- {均等|きんとう}に{分配|ぶんぱい}する: to distribute equally\n- {分配|ぶんぱい}{金|きん}: dividend; distributed funds\n\nSIMILAR WORDS:\n- {配分|はいぶん}する: to allot; to apportion — more formal, often used for budgets and resources\n- {配|くば}る: to hand out; to distribute — more everyday, physical distribution\n- {分割|ぶんかつ}する: to divide; to split — focuses on the act of dividing, not necessarily giving shares to others",
+  "notes": "To divide and hand out shares of something to multiple recipients. Commonly used in economic, business, and organizational contexts for distributing profits, resources, or tasks.\n\nCOMMON COLLOCATIONS:\n- ⟦{利益|りえき}→利益：03673_rieki⟧⟦{分配|ぶんぱい}→分配：11746_bunpai⟧: profit distribution\n- ⟦{富|とみ}→富：12321_tomi⟧⟦の→の：09472_no⟧⟦{分配|ぶんぱい}→分配：11746_bunpai⟧: distribution of wealth\n- ⟦{均等|きんとう}→均等：19459_kintou⟧⟦に→に：00314_ni⟧{分配|ぶんぱい}する: to distribute equally\n- ⟦{分配|ぶんぱい}→分配：11746_bunpai⟧{金|きん}: dividend; distributed funds\n\nSIMILAR WORDS:\n- ⟦{配分|はいぶん}する→配分する：25541_haibunsuru⟧: to allot; to apportion — more formal, often used for budgets and resources\n- ⟦{配|くば}る→配る：03921_kubaru⟧: to hand out; to distribute — more everyday, physical distribution\n- ⟦{分割|ぶんかつ}する→分割する：21140_bunkatsusuru⟧: to divide; to split — focuses on the act of dividing, not necessarily giving shares to others",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25541_haibunsuru",
+      "reading": "はいぶんする",
+      "headword": "{配分|はいぶん}する",
+      "label": "to allot"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03921_kubaru",
+      "reading": "くばる",
+      "headword": "{配|くば}る",
+      "label": "to hand out"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21140_bunkatsusuru",
+      "reading": "ぶんかつする",
+      "headword": "{分割|ぶんかつ}する",
+      "label": "to divide"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,10 +82,11 @@
       "semantic": [
         "economics"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-03-31T21:32:37Z",
-    "modified": "2026-07-29T00:22:41Z"
+    "modified": "2026-09-02T04:02:02Z"
   },
   "conjugation": {
     "type": "suru",

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22891_kasegigashira_ex1",
-      "japanese": "{彼|かれ}が{家族|かぞく}の{稼|かせ}ぎ{頭|がしら}だ。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦が→が：00051_ga⟧⟦{家族|かぞく}→家族：00552_kazoku⟧⟦の→の：09472_no⟧{稼|かせ}ぎ{頭|がしら}だ。",
       "english": "He is the family's primary breadwinner.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22891_kasegigashira_ex2",
-      "japanese": "この{商品|しょうひん}は{会社|かいしゃ}の{稼|かせ}ぎ{頭|がしら}だ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{商品|しょうひん}→商品：01436_shouhin⟧⟦は→は：00079_ha⟧⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦の→の：09472_no⟧{稼|かせ}ぎ{頭|がしら}だ。",
       "english": "This product is the company's biggest moneymaker.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22891_kasegigashira_ex3",
-      "japanese": "{稼|かせ}ぎ{頭|がしら}の{父|ちち}が{入院|にゅういん}して、{家計|かけい}が{苦|くる}しくなった。",
+      "japanese": "{稼|かせ}ぎ{頭|がしら}⟦の→の：09472_no⟧⟦{父|ちち}→父：00566_chichi⟧⟦が→が：00051_ga⟧⟦{入院|にゅういん}して→入院する：01849_nyuuinsuru⟧、⟦{家計|かけい}→家計：12287_kakei⟧⟦が→が：00051_ga⟧⟦{苦|くる}しく→苦しい：02636_kurushii⟧⟦なった→なる：01970_naru⟧。",
       "english": "When the primary earner, my father, was hospitalized, the household finances became tight.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "Refers to the person or thing that brings in the most income. Originally used for people, it is now also commonly applied to products, divisions, or businesses that generate the most revenue.\n\nCOMMON COLLOCATIONS:\n- {家族|かぞく}の{稼|かせ}ぎ{頭|がしら}: the family's breadwinner\n- {会社|かいしゃ}の{稼|かせ}ぎ{頭|がしら}: the company's top earner\n- {稼|かせ}ぎ{頭|がしら}を{失|うしな}う: to lose the primary earner\n\nSIMILAR WORDS:\n- {大黒柱|だいこくばしら}: pillar of the family — emphasizes the supporting role, not just income\n- {一家|いっか}の{主|あるじ}: head of household — focuses on authority, not earnings\n\nETYMOLOGY:\n{稼|かせ}ぎ (earning) + {頭|がしら} (head, leader). Literally \"the head earner.\"",
+  "notes": "Refers to the person or thing that brings in the most income. Originally used for people, it is now also commonly applied to products, divisions, or businesses that generate the most revenue.\n\nCOMMON COLLOCATIONS:\n- ⟦{家族|かぞく}→家族：00552_kazoku⟧⟦の→の：09472_no⟧{稼|かせ}ぎ{頭|がしら}: the family's breadwinner\n- ⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦の→の：09472_no⟧{稼|かせ}ぎ{頭|がしら}: the company's top earner\n- {稼|かせ}ぎ{頭|がしら}⟦を→を：00422_wo⟧⟦{失|うしな}う→失う：01887_ushinau⟧: to lose the primary earner\n\nSIMILAR WORDS:\n- ⟦{大黒柱|だいこくばしら}→大黒柱：18511_daikokubashira⟧: pillar of the family — emphasizes the supporting role, not just income\n- ⟦{一家|いっか}→一家：01723_ikka⟧⟦の→の：09472_no⟧⟦{主|あるじ}→主：19365_aruji⟧: head of household — focuses on authority, not earnings\n\nETYMOLOGY:\n⟦{稼|かせ}ぎ→稼ぎ：27765_kasegi⟧ (earning) + {頭|がしら} (head, leader). Literally \"the head earner.\"",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18511_daikokubashira",
+      "reading": "だいこくばしら",
+      "headword": "{大黒柱|だいこくばしら}",
+      "label": "pillar of the family"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +69,6 @@
       ]
     },
     "created": "2026-04-07T20:17:00Z",
-    "modified": "2026-04-10T08:28:27Z"
+    "modified": "2026-09-02T04:02:10Z"
   }
 }

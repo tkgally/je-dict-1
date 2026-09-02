@@ -15,41 +15,66 @@
   "examples": [
     {
       "id": "14966_gakuseishou_ex1",
-      "japanese": "{学生証|がくせいしょう}を{見|み}せてください。",
+      "japanese": "{学生証|がくせいしょう}⟦を→を：00422_wo⟧⟦{見|み}せて→見せる：01988_miseru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please show me your student ID.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14966_gakuseishou_ex2",
-      "japanese": "{学生証|がくせいしょう}があれば{割引|わりびき}が{受|う}けられる。",
+      "japanese": "{学生証|がくせいしょう}⟦が→が：00051_ga⟧⟦あれば→ある：00006_aru⟧⟦{割引|わりびき}→割引：01526_waribiki⟧⟦が→が：00051_ga⟧⟦{受|う}けられる→受ける：01215_ukeru⟧。",
       "english": "If you have a student ID, you can get a discount.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14966_gakuseishou_ex3",
-      "japanese": "{試験|しけん}の{時|とき}は{必|かなら}ず{学生証|がくせいしょう}を{持参|じさん}してください。",
+      "japanese": "⟦{試験|しけん}→試験：01422_shiken⟧⟦の→の：09472_no⟧{時|とき}⟦は→は：00079_ha⟧⟦{必|かなら}ず→必ず：01249_kanarazu⟧{学生証|がくせいしょう}⟦を→を：00422_wo⟧⟦{持参|じさん}して→持参する：21143_jisansuru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please make sure to bring your student ID when taking exams.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "A compound of {学生|がくせい} (student) and {証|しょう} (certificate, proof).\n\nIn Japan, {学生証|がくせいしょう} is essential for student discounts ({学割|がくわり}) on trains, museums, movies, and more. Students typically carry it at all times.\n\nSIMILAR WORDS:\n- {身分証明書|みぶんしょうめいしょ} is a general ID document\n- {社員証|しゃいんしょう} is an employee ID card\n\nCOMMON COLLOCATIONS:\n- {学生証|がくせいしょう}を{提示|ていじ}する (to present one's student ID)\n- {学生証|がくせいしょう}の{再発行|さいはっこう} (reissue of student ID)\n- {学生証|がくせいしょう}を{紛失|ふんしつ}する (to lose one's student ID)",
-  "cross_references": [],
+  "notes": "A compound of ⟦{学生|がくせい}→学生：00610_gakusei⟧ (student) and {証|しょう} (certificate, proof).\n\nIn Japan, {学生証|がくせいしょう} is essential for student discounts (⟦{学割|がくわり}→学割：18217_gakuwari⟧) on trains, museums, movies, and more. Students typically carry it at all times.\n\nSIMILAR WORDS:\n- ⟦{身分証明書|みぶんしょうめいしょ}→身分証明書：09809_mibunshoumeisho⟧ is a general ID document\n- ⟦{社員証|しゃいんしょう}→社員証：22652_shainshou⟧ is an employee ID card\n\nCOMMON COLLOCATIONS:\n- {学生証|がくせいしょう}⟦を→を：00422_wo⟧⟦{提示|ていじ}する→提示する：26842_teijisuru⟧ (to present one's student ID)\n- {学生証|がくせいしょう}⟦の→の：09472_no⟧⟦{再発行|さいはっこう}→再発行：18901_saihakkou⟧ (reissue of student ID)\n- {学生証|がくせいしょう}⟦を→を：00422_wo⟧⟦{紛失|ふんしつ}する→紛失する：18835_funshitsusuru⟧ (to lose one's student ID)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09809_mibunshoumeisho",
+      "reading": "みぶんしょうめいしょ",
+      "headword": "{身分|みぶん}{証明書|しょうめいしょ}",
+      "label": "is a general ID document"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22652_shainshou",
+      "reading": "しゃいんしょう",
+      "headword": "{社員証|しゃいんしょう}",
+      "label": "is an employee ID card"
+    }
+  ],
   "metadata": {
     "created": "2026-03-04T08:01:32Z",
-    "modified": "2026-03-04T08:01:32Z",
+    "modified": "2026-09-02T04:01:39Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["education"]
+      "semantic": [
+        "education"
+      ]
     }
   }
 }

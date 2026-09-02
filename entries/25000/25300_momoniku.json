@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25300_momoniku_ex1",
-      "japanese": "{鶏|とり}のもも{肉|にく}を{買|か}ってきた。",
+      "japanese": "{鶏|とり}⟦の→の：09472_no⟧もも{肉|にく}⟦を→を：00422_wo⟧⟦{買|か}って→買う：00489_kau⟧きた。",
       "english": "I bought some chicken thigh meat.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25300_momoniku_ex2",
-      "japanese": "もも{肉|にく}は{脂|あぶら}がのっていてジューシーだ。",
+      "japanese": "もも{肉|にく}⟦は→は：00079_ha⟧⟦{脂|あぶら}→脂：01916_abura⟧⟦が→が：00051_ga⟧のって⟦いて→いる：00495_iru⟧ジューシーだ。",
       "english": "Thigh meat is fatty and juicy.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25300_momoniku_ex3",
-      "japanese": "からあげには{胸肉|むねにく}よりもも{肉|にく}を{使|つか}った{方|ほう}がやわらかく{仕上|しあ}がる。",
+      "japanese": "からあげ⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{胸肉|むねにく}⟦より→より：09476_yori⟧もも{肉|にく}⟦を→を：00422_wo⟧⟦{使|つか}った→使う：00473_tsukau⟧⟦{方|ほう}→方：01139_hou⟧⟦が→が：00051_ga⟧やわらかく⟦{仕上|しあ}がる→仕上がる：11429_shiagaru⟧。",
       "english": "Karaage turns out more tender when you use thigh meat rather than breast meat.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Composed of もも (thigh) + {肉|にく} (meat). One of the most common meat cut terms in Japanese cooking and shopping. Can be written as {腿肉|ももにく} in kanji, but the hiragana-kanji mix is more common.\n\nCOMMON COLLOCATIONS:\n- {鶏|とり}もも{肉|にく}: chicken thigh meat\n- {牛|ぎゅう}もも{肉|にく}: beef round/thigh\n- {豚|ぶた}もも{肉|にく}: pork leg meat\n- もも{肉|にく}を{焼|や}く: to grill thigh meat\n- {骨|ほね}つきもも{肉|にく}: bone-in thigh meat\n\nSIMILAR WORDS:\n- {胸肉|むねにく}: breast meat — leaner and drier than thigh meat\n- {手羽先|てばさき}: chicken wing tip\n- {手羽元|てばもと}: chicken drumette\n- ささみ: chicken tender/fillet — the leanest part of the chicken",
+  "notes": "Composed of もも (thigh) + ⟦{肉|にく}→肉：02240_niku⟧ (meat). One of the most common meat cut terms in Japanese cooking and shopping. Can be written as {腿肉|ももにく} in kanji, but the hiragana-kanji mix is more common.\n\nCOMMON COLLOCATIONS:\n- {鶏|とり}もも{肉|にく}: chicken thigh meat\n- {牛|ぎゅう}もも{肉|にく}: beef round/thigh\n- {豚|ぶた}もも{肉|にく}: pork leg meat\n- もも{肉|にく}⟦を→を：00422_wo⟧⟦{焼|や}く→焼く：01123_yaku⟧: to grill thigh meat\n- {骨|ほね}つきもも{肉|にく}: bone-in thigh meat\n\nSIMILAR WORDS:\n- {胸肉|むねにく}: breast meat — leaner and drier than thigh meat\n- {手羽先|てばさき}: chicken wing tip\n- {手羽元|てばもと}: chicken drumette\n- ささみ: chicken tender/fillet — the leanest part of the chicken",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -52,12 +52,13 @@
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "food",
         "cooking"
       ]
     },
     "created": "2026-04-24T13:25:24Z",
-    "modified": "2026-04-24T13:25:24Z"
+    "modified": "2026-09-02T04:02:21Z"
   }
 }

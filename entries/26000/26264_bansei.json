@@ -25,7 +25,7 @@
     },
     {
       "id": "26264_bansei_ex2",
-      "japanese": "{彼|かれ}は{晩成|ばんせい}の{人|ひと}で、40{代|だい}で{初|はじ}めて{成功|せいこう}した。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{晩成|ばんせい}⟦の→の：09472_no⟧⟦{人|ひと}→人：00476_hito⟧で、40⟦{代|だい}→〜代：28331_dai⟧⟦で→で：00502_de⟧⟦{初|はじ}めて→初めて：02932_hajimete⟧⟦{成功|せいこう}した→成功する：21445_seikousuru⟧。",
       "english": "He was a late bloomer who first achieved success in his forties.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26264_bansei_ex3",
-      "japanese": "{大器|たいき}{晩成|ばんせい}という{言葉|ことば}を{信|しん}じて、{焦|あせ}らずに{努力|どりょく}を{続|つづ}けた。",
+      "japanese": "{大器|たいき}{晩成|ばんせい}⟦という→という：09577_toiu⟧⟦{言葉|ことば}→言葉：02880_kotoba⟧⟦を→を：00422_wo⟧⟦{信|しん}じて→信じる：01111_shinjiru⟧、⟦{焦|あせ}ら→焦る：04619_aseru⟧ず⟦に→に：00314_ni⟧⟦{努力|どりょく}→努力：03490_doryoku⟧⟦を→を：00422_wo⟧⟦{続|つづ}け→続く：00903_tsuzuku⟧た。",
       "english": "Believing in the saying that great talents mature late, I continued to work hard without rushing.",
       "sense_numbers": [
         1
@@ -44,12 +44,29 @@
       "notes": null
     }
   ],
-  "notes": "Almost exclusively used in the four-character idiom {大器|たいき}{晩成|ばんせい} (literally \"a great vessel takes long to complete\"), which means that truly talented people often take time to reach their full potential. The concept originates from the Tao Te Ching.\n\nCOMMON COLLOCATIONS:\n- {大器|たいき}{晩成|ばんせい}: great talents mature late (proverb)\n- {晩成|ばんせい}の{人|ひと}: a late bloomer\n- {晩成|ばんせい}{型|がた}: late-blooming type\n\nSIMILAR WORDS:\n- {早熟|そうじゅく}: precocious, early maturity (the opposite concept)\n- {大器|たいき}: a person of great potential (the subject who blooms late)\n\nCULTURAL NOTE:\nThe expression {大器|たいき}{晩成|ばんせい} is frequently used to encourage people who have not yet found success, reminding them that some of the greatest achievements come later in life. It is a common theme in graduation speeches and motivational contexts.",
-  "cross_references": [],
+  "notes": "Almost exclusively used in the four-character idiom {大器|たいき}{晩成|ばんせい} (literally \"a great vessel takes long to complete\"), which means that truly talented people often take time to reach their full potential. The concept originates from the Tao Te Ching.\n\nCOMMON COLLOCATIONS:\n- {大器|たいき}{晩成|ばんせい}: great talents mature late (proverb)\n- {晩成|ばんせい}⟦の→の：09472_no⟧⟦{人|ひと}→人：00476_hito⟧: a late bloomer\n- {晩成|ばんせい}{型|がた}: late-blooming type\n\nSIMILAR WORDS:\n- ⟦{早熟|そうじゅく}→早熟：25323_soujuku⟧: precocious, early maturity (the opposite concept)\n- ⟦{大器|たいき}→大器：29641_taiki⟧: a person of great potential (the subject who blooms late)\n\nCULTURAL NOTE:\nThe expression {大器|たいき}{晩成|ばんせい} is frequently used to encourage people who have not yet found success, reminding them that some of the greatest achievements come later in life. It is a common theme in graduation speeches and motivational contexts.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25323_soujuku",
+      "reading": "そうじゅく",
+      "headword": "{早熟|そうじゅく}",
+      "label": "precocious, early maturity"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29641_taiki",
+      "reading": "たいき",
+      "headword": "{大器|たいき}",
+      "label": "a person of great potential"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "time-general",
         "change"
@@ -59,6 +76,6 @@
       ]
     },
     "created": "2026-04-30T14:21:32Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T04:02:25Z"
   }
 }

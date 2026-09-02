@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "13336_gensoku_deceleration_ex1",
-      "japanese": "カーブの{手前|てまえ}で{減速|げんそく}した。",
+      "japanese": "⟦カーブ→カーブ：27529_kaabu⟧⟦の→の：09472_no⟧⟦{手前|てまえ}→手前：01001_temae⟧⟦で→で：00502_de⟧{減速|げんそく}⟦した→する：00392_suru⟧。",
       "english": "I slowed down before the curve.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "13336_gensoku_deceleration_ex2",
-      "japanese": "{経済|けいざい}{成長|せいちょう}が{減速|げんそく}している。",
+      "japanese": "⟦{経済|けいざい}{成長|せいちょう}→経済成長：20453_keizaiseichou⟧⟦が→が：00051_ga⟧{減速|げんそく}⟦している→する：00392_suru⟧。",
       "english": "Economic growth is slowing down.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "13336_gensoku_deceleration_ex3",
-      "japanese": "{工事|こうじ}{区間|くかん}では{車両|しゃりょう}の{減速|げんそく}が{義務|ぎむ}づけられている。",
+      "japanese": "⟦{工事|こうじ}→工事：00244_kouji⟧⟦{区間|くかん}→区間：18759_kukan⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{車両|しゃりょう}→車両：05297_sharyou⟧⟦の→の：09472_no⟧{減速|げんそく}⟦が→が：00051_ga⟧⟦{義務|ぎむ}→義務：02647_gimu⟧づけられて⟦いる→いる：00495_iru⟧。",
       "english": "Vehicles are required to slow down in construction zones.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nUsed for both physical deceleration (vehicles, machinery) and figurative slowdowns (economic growth, project progress). The opposite is {加速|かそく} (acceleration).\n\nNot to be confused with the homophone {原則|げんそく} (principle, general rule).\n\nCOMMON COLLOCATIONS:\n- {減速|げんそく}する: to decelerate, to slow down\n- {急|きゅう}{減速|げんそく}: sudden deceleration\n- {経済|けいざい}の{減速|げんそく}: economic slowdown\n- {減速|げんそく}{車線|しゃせん}: deceleration lane",
+  "notes": "USAGE:\nUsed for both physical deceleration (vehicles, machinery) and figurative slowdowns (economic growth, project progress). The opposite is ⟦{加速|かそく}→加速：00198_kasoku⟧ (acceleration).\n\nNot to be confused with the homophone ⟦{原則|げんそく}→原則：11801_gensoku⟧ (principle, general rule).\n\nCOMMON COLLOCATIONS:\n- {減速|げんそく}⟦する→する：00392_suru⟧: to decelerate, to slow down\n- {急|きゅう}{減速|げんそく}: sudden deceleration\n- ⟦{経済|けいざい}→経済：01394_keizai⟧⟦の→の：09472_no⟧{減速|げんそく}: economic slowdown\n- {減速|げんそく}⟦{車線|しゃせん}→車線：18949_shasen⟧: deceleration lane",
   "cross_references": [
     {
       "type": "antonym",
@@ -142,11 +142,46 @@
       "headword": "{加速|かそく}",
       "label": "acceleration",
       "target_id": "00198_kasoku"
+    },
+    {
+      "type": "related",
+      "target_id": "08000_donka",
+      "reading": "どんか",
+      "headword": "{鈍化|どんか}",
+      "label": "slowing down"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21050_shissoku",
+      "reading": "しっそく",
+      "headword": "{失速|しっそく}",
+      "label": "stall"
+    },
+    {
+      "type": "antonym",
+      "target_id": "21391_kasokusuru",
+      "reading": "かそくする",
+      "headword": "{加速|かそく}する",
+      "label": "to accelerate"
+    },
+    {
+      "type": "antonym",
+      "target_id": "22139_kasokudo",
+      "reading": "かそくど",
+      "headword": "{加速度|かそくど}",
+      "label": "acceleration"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27300_enjinbureeki",
+      "reading": "えんじんぶれーき",
+      "headword": "エンジンブレーキ",
+      "label": "engine braking"
     }
   ],
   "metadata": {
     "created": "2026-02-24T10:00:26Z",
-    "modified": "2026-07-09T15:31:23Z",
+    "modified": "2026-09-02T04:01:32Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

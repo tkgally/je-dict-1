@@ -3,7 +3,7 @@
   "headword": "{印字|いんじ}",
   "reading": "いんじ",
   "romaji": "inji",
-  "part_of_speech": "noun / suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "printing; imprinting characters",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "19720_inji_ex1",
-      "japanese": "レシートの{印字|いんじ}が{薄|うす}い。",
+      "japanese": "⟦レシート→レシート：05291_reshiito⟧⟦の→の：09472_no⟧{印字|いんじ}⟦が→が：00051_ga⟧⟦{薄|うす}い→薄い：00764_usui⟧。",
       "english": "The print on the receipt is faint.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "19720_inji_ex2",
-      "japanese": "ラベルに{商品名|しょうひんめい}を{印字|いんじ}する。",
+      "japanese": "⟦ラベル→ラベル：00348_raberu⟧⟦に→に：00314_ni⟧{商品名|しょうひんめい}⟦を→を：00422_wo⟧{印字|いんじ}⟦する→する：00392_suru⟧。",
       "english": "To print the product name on a label.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "19720_inji_ex3",
-      "japanese": "{感熱紙|かんねつし}のレシートは{時間|じかん}が{経|た}つと{印字|いんじ}が{消|き}えてしまうことがある。",
+      "japanese": "{感熱紙|かんねつし}⟦の→の：09472_no⟧⟦レシート→レシート：05291_reshiito⟧⟦は→は：00079_ha⟧⟦{時間|じかん}が{経|た}つ→時間が経つ：24138_jikangatatsu⟧⟦と→と：00512_to⟧{印字|いんじ}⟦が→が：00051_ga⟧⟦{消|き}えて→消える：02520_kieru⟧しまうこと⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "The print on thermal paper receipts can fade over time.",
       "sense_numbers": [
         1
@@ -134,8 +134,31 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {印|いん} (print, stamp) + {字|じ} (character, letter). Refers specifically to the printing of text characters, as opposed to images or graphics. Commonly used in business and manufacturing contexts for labels, receipts, and documents.\n\nCOMMON COLLOCATIONS:\n- {印字|いんじ}する — to print (characters)\n- {印字|いんじ}が{薄|うす}い — the print is faint\n- {印字|いんじ}{品質|ひんしつ} — print quality\n- {印字|いんじ}{速度|そくど} — print speed\n- {印字|いんじ}{面|めん} — printed surface\n\nSIMILAR WORDS:\n- {印刷|いんさつ} — printing; broader term covering all types of printing, including images and mass production\n- プリント — print; loanword used for printing in general\n- {刻印|こくいん} — engraving, stamping; physically pressing characters into a surface",
+  "notes": "Composed of {印|いん} (print, stamp) + ⟦{字|じ}→字：01606_ji⟧ (character, letter). Refers specifically to the printing of text characters, as opposed to images or graphics. Commonly used in business and manufacturing contexts for labels, receipts, and documents.\n\nCOMMON COLLOCATIONS:\n- {印字|いんじ}⟦する→する：00392_suru⟧ — to print (characters)\n- {印字|いんじ}⟦が→が：00051_ga⟧⟦{薄|うす}い→薄い：00764_usui⟧ — the print is faint\n- {印字|いんじ}⟦{品質|ひんしつ}→品質：09507_hinshitsu⟧ — print quality\n- {印字|いんじ}⟦{速度|そくど}→速度：03319_sokudo⟧ — print speed\n- {印字|いんじ}⟦{面|めん}→面：09933_men⟧ — printed surface\n\nSIMILAR WORDS:\n- ⟦{印刷|いんさつ}→印刷：01844_insatsu⟧ — printing; broader term covering all types of printing, including images and mass production\n- ⟦プリント→プリント：01539_purinto⟧ — print; loanword used for printing in general\n- ⟦{刻印|こくいん}→刻印：29469_kokuin⟧ — engraving, stamping; physically pressing characters into a surface",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01844_insatsu",
+      "reading": "いんさつ",
+      "headword": "{印刷|いんさつ}",
+      "label": "printing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01539_purinto",
+      "reading": "ぷりんと",
+      "headword": "プリント",
+      "label": "print"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29469_kokuin",
+      "reading": "こくいん",
+      "headword": "{刻印|こくいん}",
+      "label": "engraving, stamping"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -148,9 +171,10 @@
       "semantic": [
         "technology"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-03-26T14:33:28Z",
-    "modified": "2026-03-26T14:33:28Z"
+    "modified": "2026-09-02T04:01:57Z"
   }
 }

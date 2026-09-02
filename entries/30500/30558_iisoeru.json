@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30558_iisoeru_ex1",
-      "japanese": "{一言|ひとこと}{言|い}い{添|そ}えた。",
+      "japanese": "⟦{一言|ひとこと}→一言：03708_hitokoto⟧{言|い}い{添|そ}えた。",
       "english": "I added a word.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30558_iisoeru_ex2",
-      "japanese": "「{無理|むり}はしないで」と{母|はは}は{言|い}い{添|そ}えた。",
+      "japanese": "「⟦{無理|むり}→無理：01558_muri⟧はしないで」⟦と→と：00512_to⟧⟦{母|はは}→母：00549_haha⟧⟦は→は：00079_ha⟧{言|い}い{添|そ}えた。",
       "english": "\"Don't push yourself,\" my mother added.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30558_iisoeru_ex3",
-      "japanese": "{説明|せつめい}の{最後|さいご}に、{彼|かれ}は「あくまで{現時点|げんじてん}での{予定|よてい}です」と{言|い}い{添|そ}えた。",
+      "japanese": "⟦{説明|せつめい}→説明：01449_setsumei⟧⟦の→の：09472_no⟧⟦{最後|さいご}→最後：01413_saigo⟧⟦に→に：00314_ni⟧、⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧「⟦あくまで→あくまで：06713_akumade⟧⟦{現時点|げんじてん}→現時点：13556_genjiten⟧⟦で→で：00502_de⟧⟦の→の：09472_no⟧⟦{予定|よてい}→予定：00824_yotei⟧です」⟦と→と：00512_to⟧{言|い}い{添|そ}えた。",
       "english": "At the end of his explanation, he added, \"This is only the plan as of now.\"",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {言|い}う (to say) and {添|そ}える (to attach, to accompany). Slightly literary; very common in narration and news writing to introduce a speaker's closing remark.\n\nTRANSITIVITY:\n- Type: {他動詞|たどうし} (transitive)\n- Takes を for the words added, or a quoted remark with と\n\nCOMMON COLLOCATIONS:\n- {一言|ひとこと}{言|い}い{添|そ}える: to add a word\n- 〜と{言|い}い{添|そ}える: to add, \"~\"\n- {最後|さいご}に{言|い}い{添|そ}える: to add at the end\n\nSIMILAR WORDS:\n- {付|つ}け{加|くわ}える: to add — broader; works for information, conditions, or objects, not just speech\n- {付|つ}け{足|た}す: to tack on — plainer and more casual",
+  "notes": "A compound of ⟦{言|い}う→言う：00515_iu⟧ (to say) and ⟦{添|そ}える→添える：13315_soeru⟧ (to attach, to accompany). Slightly literary; very common in narration and news writing to introduce a speaker's closing remark.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- Takes ⟦を→を：00422_wo⟧ for the words added, or a quoted remark with ⟦と→と：00512_to⟧\n\nCOMMON COLLOCATIONS:\n- ⟦{一言|ひとこと}→一言：03708_hitokoto⟧{言|い}い{添|そ}える: to add a word\n- 〜⟦と→と：00512_to⟧{言|い}い{添|そ}える: to add, \"~\"\n- ⟦{最後|さいご}→最後：01413_saigo⟧⟦に→に：00314_ni⟧{言|い}い{添|そ}える: to add at the end\n\nSIMILAR WORDS:\n- ⟦{付|つ}け{加|くわ}える→付け加える：11520_tsukekuwaeru⟧: to add — broader; works for information, conditions, or objects, not just speech\n- ⟦{付|つ}け{足|た}す→付け足す：06863_tsuketasu⟧: to tack on — plainer and more casual",
   "cross_references": [
     {
       "type": "related",
@@ -57,6 +57,20 @@
       "target_id": "13315_soeru",
       "reading": "そえる",
       "headword": "{添|そ}える"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06863_tsuketasu",
+      "reading": "つけたす",
+      "headword": "{付|つ}け{足|た}す",
+      "label": "to tack on"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30546_iitasu",
+      "reading": "いいたす",
+      "headword": "{言|い}い{足|た}す",
+      "label": "to add (in speech)"
     }
   ],
   "schema_version": "2.0",
@@ -76,7 +90,7 @@
       "domain": []
     },
     "created": "2026-08-11T03:21:14Z",
-    "modified": "2026-08-11T03:21:14Z"
+    "modified": "2026-09-02T04:02:40Z"
   },
   "conjugation": {
     "type": "ichidan",

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "11131_burokkorii_ex1",
-      "japanese": "ブロッコリーを{茹|ゆ}でる。",
+      "japanese": "ブロッコリー⟦を→を：00422_wo⟧⟦{茹|ゆ}でる→茹でる：02324_yuderu⟧。",
       "english": "Boil the broccoli.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "11131_burokkorii_ex2",
-      "japanese": "ブロッコリーは{栄養|えいよう}が{豊富|ほうふ}な{野菜|やさい}だ。",
+      "japanese": "ブロッコリー⟦は→は：00079_ha⟧⟦{栄養|えいよう}→栄養：01882_eiyou⟧⟦が→が：00051_ga⟧⟦{豊富|ほうふ}→豊富：03620_houfu⟧な⟦{野菜|やさい}→野菜：02265_yasai⟧だ。",
       "english": "Broccoli is a nutritious vegetable.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "11131_burokkorii_ex3",
-      "japanese": "お{弁当|べんとう}の{彩|いろど}りにブロッコリーを{入|い}れることが{多|おお}い。",
+      "japanese": "⟦お{弁当|べんとう}→お弁当：02864_obentou⟧⟦の→の：09472_no⟧⟦{彩|いろど}り→彩り：12506_irodori⟧⟦に→に：00314_ni⟧ブロッコリー⟦を→を：00422_wo⟧⟦{入|い}れる→入れる：01098_ireru⟧こと⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "Broccoli is often added to bento boxes for color.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,19 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA staple vegetable in Japanese cooking. Common preparations include boiling, steaming, stir-frying, and adding to gratin or salads. It is a popular bento item because it adds green color.\n\nCOMMON COLLOCATIONS:\n- ブロッコリーを{茹|ゆ}でる (boil broccoli)\n- ブロッコリーの{房|ふさ} (broccoli floret)\n- ブロッコリーの{茎|くき} (broccoli stalk)\n- ブロッコリーの{胡麻和|ごまあ}え (broccoli with sesame dressing)\n\nETYMOLOGY:\nFrom English \"broccoli\" (ultimately from Italian).",
-  "cross_references": [],
+  "notes": "USAGE:\nA staple vegetable in Japanese cooking. Common preparations include boiling, steaming, stir-frying, and adding to gratin or salads. It is a popular bento item because it adds green color.\n\nCOMMON COLLOCATIONS:\n- ブロッコリー⟦を→を：00422_wo⟧⟦{茹|ゆ}でる→茹でる：02324_yuderu⟧ (boil broccoli)\n- ブロッコリー⟦の→の：09472_no⟧{房|ふさ} (broccoli floret)\n- ブロッコリー⟦の→の：09472_no⟧⟦{茎|くき}→茎：14119_kuki⟧ (broccoli stalk)\n- ブロッコリー⟦の→の：09472_no⟧{胡麻和|ごまあ}え (broccoli with sesame dressing)\n\nETYMOLOGY:\nFrom English \"broccoli\" (ultimately from Italian).",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25680_serori",
+      "reading": "せろり",
+      "headword": "セロリ",
+      "label": "celery"
+    }
+  ],
   "metadata": {
     "created": "2026-02-14T03:15:22Z",
-    "modified": "2026-07-13T21:19:15Z",
+    "modified": "2026-09-02T04:01:24Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

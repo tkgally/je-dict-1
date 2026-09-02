@@ -19,7 +19,7 @@
   "examples": [
     {
       "id": "10318_kudoi_ex1",
-      "japanese": "{説明|せつめい}がくどい。",
+      "japanese": "⟦{説明|せつめい}→説明：01449_setsumei⟧⟦が→が：00051_ga⟧くどい。",
       "english": "The explanation is long-winded.",
       "notes": null,
       "has_audio": false,
@@ -29,7 +29,7 @@
     },
     {
       "id": "10318_kudoi_ex2",
-      "japanese": "くどいようだが、もう{一度|いちど}{言|い}う。",
+      "japanese": "くどいようだ⟦が→が：00051_ga⟧、⟦もう{一度|いちど}→もう一度：02976_mouichido⟧⟦{言|い}う→言う：00515_iu⟧。",
       "english": "I know I'm repeating myself, but I'll say it once more.",
       "notes": null,
       "has_audio": false,
@@ -39,7 +39,7 @@
     },
     {
       "id": "10318_kudoi_ex3",
-      "japanese": "{同|おな}じことを{何度|なんど}も{言|い}われてくどいと{感|かん}じた。",
+      "japanese": "⟦{同|おな}じ→同じ：02857_onaji⟧こと⟦を→を：00422_wo⟧⟦{何度|なんど}→何度：17592_nando⟧⟦も→も：00484_mo⟧⟦{言|い}われて→言う：00515_iu⟧くどい⟦と→と：00512_to⟧⟦{感|かん}じた→感じる：02044_kanjiru⟧。",
       "english": "Being told the same thing over and over, I felt it was annoyingly repetitive.",
       "notes": null,
       "has_audio": false,
@@ -49,7 +49,7 @@
     },
     {
       "id": "10318_kudoi_ex4",
-      "japanese": "この{料理|りょうり}は{味|あじ}がくどい。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{料理|りょうり}→料理：01523_ryouri⟧⟦は→は：00079_ha⟧⟦{味|あじ}→味：00826_aji⟧⟦が→が：00051_ga⟧くどい。",
       "english": "This dish has a heavy taste.",
       "notes": null,
       "has_audio": false,
@@ -59,7 +59,7 @@
     },
     {
       "id": "10318_kudoi_ex5",
-      "japanese": "バターがくどくて{食|た}べられない。",
+      "japanese": "⟦バター→バター：04671_bataa⟧⟦が→が：00051_ga⟧くどくて⟦{食|た}べられない→食べる：00396_taberu⟧。",
       "english": "It's too rich with butter — I can't eat it.",
       "notes": null,
       "has_audio": false,
@@ -69,7 +69,7 @@
     },
     {
       "id": "10318_kudoi_ex6",
-      "japanese": "{年|とし}を{取|と}ると、くどい{味|あじ}の{料理|りょうり}が{苦手|にがて}になる。",
+      "japanese": "⟦{年|とし}→年：00486_toshi⟧⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧⟦と→と：00512_to⟧、くどい⟦{味|あじ}→味：00826_aji⟧⟦の→の：09472_no⟧⟦{料理|りょうり}→料理：01523_ryouri⟧⟦が→が：00051_ga⟧⟦{苦手|にがて}→苦手：03513_nigate⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧。",
       "english": "As you get older, heavy-tasting food becomes harder to handle.",
       "notes": null,
       "has_audio": false,
@@ -78,7 +78,7 @@
       ]
     }
   ],
-  "notes": "I-adjective. くどい → くどくない (negative) → くどく (adverbial) → くどかった (past).\n\nCOMMON PATTERNS:\n- くどいようだが: I know I'm being repetitive, but...\n- {味|あじ}がくどい: the taste is too rich/heavy\n- {色|いろ}がくどい: the colors are too garish/loud\n\nNUANCE: Always negative. In sense 1, it implies the speaker finds the repetition annoying. In sense 2, it suggests the taste or appearance is overwhelming and unpleasant, not refined.\n\nSIMILAR WORDS:\n- しつこい: persistent, pushy (people/behavior; also food)\n- こってり: rich, heavy (food — more neutral, can be positive)",
+  "notes": "I-adjective. くどい → くどく⟦ない→ない：01118_nai⟧ (negative) → くどく (adverbial) → くどかった (past).\n\nCOMMON PATTERNS:\n- くどいようだ⟦が→が：00051_ga⟧: I know I'm being repetitive, but...\n- ⟦{味|あじ}→味：00826_aji⟧⟦が→が：00051_ga⟧くどい: the taste is too rich/heavy\n- ⟦{色|いろ}→色：00849_iro⟧⟦が→が：00051_ga⟧くどい: the colors are too garish/loud\n\nNUANCE: Always negative. In sense 1, it implies the speaker finds the repetition annoying. In sense 2, it suggests the taste or appearance is overwhelming and unpleasant, not refined.\n\nSIMILAR WORDS:\n- ⟦しつこい→しつこい：06498_shitsukoi⟧: persistent, pushy (people/behavior; also food)\n- ⟦こってり→こってり：06681_kotteri⟧: rich, heavy (food — more neutral, can be positive)",
   "cross_references": [
     {
       "type": "synonym",
@@ -86,11 +86,39 @@
       "reading": "しつこい",
       "headword": "しつこい",
       "label": "persistent, insistent"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06681_kotteri",
+      "reading": "こってり",
+      "headword": "こってり",
+      "label": "rich, heavy (food"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18600_rikutsuppoi",
+      "reading": "りくつっぽい",
+      "headword": "{理屈|りくつ}っぽい",
+      "label": "argumentative"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19702_nechikkoi",
+      "reading": "ねちっこい",
+      "headword": "ねちっこい",
+      "label": "persistent"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30787_amattarui",
+      "reading": "あまったるい",
+      "headword": "{甘|あま}ったるい",
+      "label": "cloyingly sweet"
     }
   ],
   "metadata": {
     "created": "2026-02-06T00:35:55Z",
-    "modified": "2026-08-14T01:00:44Z",
+    "modified": "2026-09-02T04:01:20Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

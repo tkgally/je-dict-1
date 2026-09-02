@@ -15,41 +15,66 @@
   "examples": [
     {
       "id": "15414_gairoju_ex1",
-      "japanese": "{街路樹|がいろじゅ}の{葉|は}が{色|いろ}づいてきた。",
+      "japanese": "{街路樹|がいろじゅ}⟦の→の：09472_no⟧⟦{葉|は}→葉：02241_ha⟧⟦が→が：00051_ga⟧⟦{色|いろ}づいて→色づく：10074_irozuku⟧きた。",
       "english": "The leaves of the street trees have started changing color.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15414_gairoju_ex2",
-      "japanese": "この{通|とお}りの{街路樹|がいろじゅ}はイチョウです。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{通|とお}り→通り：01475_toori⟧⟦の→の：09472_no⟧{街路樹|がいろじゅ}⟦は→は：00079_ha⟧イチョウです。",
       "english": "The roadside trees on this street are ginkgo trees.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15414_gairoju_ex3",
-      "japanese": "{台風|たいふう}で{街路樹|がいろじゅ}が{何本|なんぼん}も{倒|たお}れて、{道路|どうろ}が{通行止|つうこうど}めになった。",
+      "japanese": "⟦{台風|たいふう}→台風：01455_taifuu⟧⟦で→で：00502_de⟧{街路樹|がいろじゅ}⟦が→が：00051_ga⟧{何本|なんぼん}⟦も→も：00484_mo⟧⟦{倒|たお}れて→倒れる：01160_taoreru⟧、⟦{道路|どうろ}→道路：01481_douro⟧⟦が→が：00051_ga⟧⟦{通行止|つうこうど}め→通行止め：19920_tsuukoudome⟧になった。",
       "english": "Several street trees were knocked down by the typhoon, and the road was closed to traffic.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\n{街路樹|がいろじゅ} refers specifically to trees planted along roads as part of urban planning. Common species used as street trees in Japan include イチョウ (ginkgo), {桜|さくら} (cherry), and ケヤキ (zelkova).\n\nCOMMON COLLOCATIONS:\n- {街路樹|がいろじゅ}の{並木|なみき} (row of street trees)\n- {街路樹|がいろじゅ}を{植|う}える (to plant street trees)\n- {街路樹|がいろじゅ}の{剪定|せんてい} (pruning of street trees)\n\nRELATED WORDS:\n- {並木道|なみきみち}: tree-lined road\n- {植樹|しょくじゅ}: tree planting\n- {緑地|りょくち}: green space",
-  "cross_references": [],
+  "notes": "USAGE:\n{街路樹|がいろじゅ} refers specifically to trees planted along roads as part of urban planning. Common species used as street trees in Japan include イチョウ (ginkgo), ⟦{桜|さくら}→桜：02212_sakura⟧ (cherry), and ケヤキ (zelkova).\n\nCOMMON COLLOCATIONS:\n- {街路樹|がいろじゅ}⟦の→の：09472_no⟧⟦{並木|なみき}→並木：00302_namiki⟧ (row of street trees)\n- {街路樹|がいろじゅ}⟦を→を：00422_wo⟧⟦{植|う}える→植える：01210_ueru⟧ (to plant street trees)\n- {街路樹|がいろじゅ}⟦の→の：09472_no⟧⟦{剪定|せんてい}→剪定：06327_sentei⟧ (pruning of street trees)\n\nRELATED WORDS:\n- ⟦{並木道|なみきみち}→並木道：17520_namikimichi⟧: tree-lined road\n- {植樹|しょくじゅ}: tree planting\n- ⟦{緑地|りょくち}→緑地：25977_ryokuchi⟧: green space",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "17520_namikimichi",
+      "reading": "なみきみち",
+      "headword": "{並木道|なみきみち}",
+      "label": "tree-lined road"
+    },
+    {
+      "type": "related",
+      "target_id": "25977_ryokuchi",
+      "reading": "りょくち",
+      "headword": "{緑地|りょくち}",
+      "label": "green space"
+    }
+  ],
   "metadata": {
     "created": "2026-03-06T13:42:51Z",
-    "modified": "2026-03-06T13:42:51Z",
+    "modified": "2026-09-02T04:01:41Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["nature"],
+      "semantic": [
+        "nature"
+      ],
       "domain": []
     }
   }

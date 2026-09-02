@@ -15,42 +15,76 @@
   "examples": [
     {
       "id": "16629_shotoukyouiku_ex1",
-      "japanese": "{初等教育|しょとうきょういく}は{六年間|ろくねんかん}だ。",
+      "japanese": "{初等教育|しょとうきょういく}⟦は→は：00079_ha⟧{六年間|ろくねんかん}だ。",
       "english": "Elementary education lasts six years.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16629_shotoukyouiku_ex2",
-      "japanese": "{初等教育|しょとうきょういく}の{充実|じゅうじつ}が{重要|じゅうよう}だ。",
+      "japanese": "{初等教育|しょとうきょういく}⟦の→の：09472_no⟧⟦{充実|じゅうじつ}→充実：04845_juujitsu⟧⟦が→が：00051_ga⟧⟦{重要|じゅうよう}→重要：01575_juuyou⟧だ。",
       "english": "Enriching elementary education is important.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16629_shotoukyouiku_ex3",
-      "japanese": "この{国|くに}では{初等教育|しょとうきょういく}の{普及率|ふきゅうりつ}がまだ{低|ひく}い。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{国|くに}→国：02204_kuni⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧{初等教育|しょとうきょういく}⟦の→の：09472_no⟧⟦{普及率|ふきゅうりつ}→普及率：27131_fukyuuritsu⟧⟦が→が：00051_ga⟧⟦まだ→まだ：00603_mada⟧⟦{低|ひく}い→低い：02947_hikui⟧。",
       "english": "In this country, the coverage rate of elementary education is still low.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{初等教育|しょとうきょういく} refers to the first stage of formal education — in Japan, the six years of {小学校|しょうがっこう} (elementary school, ages 6–12).\n\nUSAGE:\nA formal term used in educational policy, academic research, and official documents. In everyday conversation, {小学校|しょうがっこう}の{教育|きょういく} is more natural.\n\nJAPANESE EDUCATION LEVELS:\n- {初等教育|しょとうきょういく}: elementary education (6 years)\n- {中等教育|ちゅうとうきょういく}: secondary education ({中学校|ちゅうがっこう} 3 years + {高校|こうこう} 3 years)\n- {高等教育|こうとうきょういく}: higher education ({大学|だいがく}, etc.)\n\nRELATED:\n- {義務教育|ぎむきょういく}: compulsory education (covers elementary + middle school in Japan)\n- {就学|しゅうがく}: school enrollment",
-  "cross_references": [],
+  "notes": "{初等教育|しょとうきょういく} refers to the first stage of formal education — in Japan, the six years of ⟦{小学校|しょうがっこう}→小学校：01055_shougakkou⟧ (elementary school, ages 6–12).\n\nUSAGE:\nA formal term used in educational policy, academic research, and official documents. In everyday conversation, ⟦{小学校|しょうがっこう}→小学校：01055_shougakkou⟧⟦の→の：09472_no⟧⟦{教育|きょういく}→教育：01313_kyouiku⟧ is more natural.\n\nJAPANESE EDUCATION LEVELS:\n- {初等教育|しょとうきょういく}: elementary education (6 years)\n- ⟦{中等教育|ちゅうとうきょういく}→中等教育：23392_chuutoukyouiku⟧: secondary education (⟦{中学校|ちゅうがっこう}→中学校：01465_chuugakkou⟧ 3 years + ⟦{高校|こうこう}→高校：01083_koukou⟧ 3 years)\n- ⟦{高等教育|こうとうきょういく}→高等教育：19604_koutoukyouiku⟧: higher education (⟦{大学|だいがく}→大学：00608_daigaku⟧, etc.)\n\nRELATED WORDS:\n- ⟦{義務教育|ぎむきょういく}→義務教育：13964_gimukyouiku⟧: compulsory education (covers elementary + middle school in Japan)\n- ⟦{就学|しゅうがく}→就学：06963_shuugaku⟧: school enrollment",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "13964_gimukyouiku",
+      "reading": "ぎむきょういく",
+      "headword": "{義務教育|ぎむきょういく}",
+      "label": "compulsory education"
+    },
+    {
+      "type": "related",
+      "target_id": "06963_shuugaku",
+      "reading": "しゅうがく",
+      "headword": "{就学|しゅうがく}",
+      "label": "school enrollment"
+    },
+    {
+      "type": "related",
+      "target_id": "19604_koutoukyouiku",
+      "reading": "こうとうきょういく",
+      "headword": "{高等教育|こうとうきょういく}",
+      "label": "higher education"
+    }
+  ],
   "metadata": {
     "created": "2026-03-14T01:36:58Z",
-    "modified": "2026-03-26T19:36:44Z",
+    "modified": "2026-09-02T04:01:45Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "style": ["written"],
-      "semantic": ["education"]
+      "style": [
+        "written"
+      ],
+      "semantic": [
+        "education"
+      ]
     }
   }
 }

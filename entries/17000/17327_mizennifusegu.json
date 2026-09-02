@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "17327_mizennifusegu_ex1",
-      "japanese": "{事故|じこ}を{未然|みぜん}に{防|ふせ}ぐ。",
+      "japanese": "⟦{事故|じこ}→事故：00851_jiko⟧⟦を→を：00422_wo⟧{未然|みぜん}に{防|ふせ}ぐ。",
       "english": "To prevent an accident before it happens.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "17327_mizennifusegu_ex2",
-      "japanese": "{犯罪|はんざい}を{未然|みぜん}に{防|ふせ}ぐことが{大切|たいせつ}だ。",
+      "japanese": "⟦{犯罪|はんざい}→犯罪：03569_hanzai⟧⟦を→を：00422_wo⟧{未然|みぜん}に{防|ふせ}ぐこと⟦が→が：00051_ga⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧だ。",
       "english": "It is important to prevent crime before it occurs.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "17327_mizennifusegu_ex3",
-      "japanese": "{定期的|ていきてき}な{点検|てんけん}によって、{設備|せつび}の{故障|こしょう}を{未然|みぜん}に{防|ふせ}ぐことができる。",
+      "japanese": "⟦{定期的|ていきてき}→定期的：06173_teikiteki⟧な⟦{点検|てんけん}→点検：09765_tenken⟧⟦によって→によって：06801_niyotte⟧、⟦{設備|せつび}→設備：03301_setsubi⟧⟦の→の：09472_no⟧⟦{故障|こしょう}→故障：01405_koshou⟧⟦を→を：00422_wo⟧{未然|みぜん}に{防|ふせ}ぐこと⟦が→が：00051_ga⟧⟦できる→できる：00557_dekiru⟧。",
       "english": "Regular inspections can prevent equipment breakdowns before they happen.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{未然|みぜん} means \"before something happens\" (literally \"not yet so\") and {防|ふせ}ぐ means \"to prevent\" or \"to defend against.\" This is a common and important expression in formal contexts such as safety management, law enforcement, and risk management.\n\nCOMMON COLLOCATIONS:\n- {事故|じこ}を{未然|みぜん}に{防|ふせ}ぐ (to prevent accidents)\n- {犯罪|はんざい}を{未然|みぜん}に{防|ふせ}ぐ (to prevent crime)\n- {災害|さいがい}を{未然|みぜん}に{防|ふせ}ぐ (to prevent disasters)\n- {被害|ひがい}を{未然|みぜん}に{防|ふせ}ぐ (to prevent damage)\n\nSIMILAR WORDS:\n- {予防|よぼう}する: to prevent — more general term for prevention\n- {食|く}い{止|と}める: to hold back, to check — implies stopping something already in progress",
+  "notes": "USAGE:\n⟦{未然|みぜん}→未然：13084_mizen⟧ means \"before something happens\" (literally \"not yet so\") and ⟦{防|ふせ}ぐ→防ぐ：02409_fusegu⟧ means \"to prevent\" or \"to defend against.\" This is a common and important expression in formal contexts such as safety management, law enforcement, and risk management.\n\nCOMMON COLLOCATIONS:\n- ⟦{事故|じこ}→事故：00851_jiko⟧⟦を→を：00422_wo⟧{未然|みぜん}に{防|ふせ}ぐ (to prevent accidents)\n- ⟦{犯罪|はんざい}→犯罪：03569_hanzai⟧⟦を→を：00422_wo⟧{未然|みぜん}に{防|ふせ}ぐ (to prevent crime)\n- ⟦{災害|さいがい}→災害：09636_saigai⟧⟦を→を：00422_wo⟧{未然|みぜん}に{防|ふせ}ぐ (to prevent disasters)\n- ⟦{被害|ひがい}→被害：02572_higai⟧⟦を→を：00422_wo⟧{未然|みぜん}に{防|ふせ}ぐ (to prevent damage)\n\nSIMILAR WORDS:\n- ⟦{予防|よぼう}する→予防する：17341_yobousuru⟧: to prevent — more general term for prevention\n- ⟦{食|く}い{止|と}める→食い止める：06384_kuitomeru⟧: to hold back, to check — implies stopping something already in progress",
   "cross_references": [
     {
       "type": "synonym",
@@ -52,11 +52,25 @@
       "reading": "よぼうする",
       "headword": "{予防|よぼう}する",
       "label": "to prevent (general)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06384_kuitomeru",
+      "reading": "くいとめる",
+      "headword": "{食|く}い{止|と}める",
+      "label": "to hold back, to check"
+    },
+    {
+      "type": "related",
+      "target_id": "20419_saihatsuboushi",
+      "reading": "さいはつぼうし",
+      "headword": "{再発防止|さいはつぼうし}",
+      "label": "prevention of recurrence"
     }
   ],
   "metadata": {
     "created": "2026-03-17T06:02:49Z",
-    "modified": "2026-05-06T06:14:35Z",
+    "modified": "2026-09-02T04:01:48Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

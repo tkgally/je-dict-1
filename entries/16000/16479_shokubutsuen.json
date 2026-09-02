@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "16479_shokubutsuen_ex1",
-      "japanese": "{植物園|しょくぶつえん}に{行|い}く。",
+      "japanese": "{植物園|しょくぶつえん}⟦に→に：00314_ni⟧⟦{行|い}く→行く：00119_iku⟧。",
       "english": "To go to the botanical garden.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "16479_shokubutsuen_ex2",
-      "japanese": "{植物園|しょくぶつえん}で{珍|めずら}しい{花|はな}を{見|み}た。",
+      "japanese": "{植物園|しょくぶつえん}⟦で→で：00502_de⟧⟦{珍|めずら}しい→珍しい：01200_mezurashii⟧⟦{花|はな}→花：00523_hana⟧⟦を→を：00422_wo⟧⟦{見|み}た→見る：00283_miru⟧。",
       "english": "I saw rare flowers at the botanical garden.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "16479_shokubutsuen_ex3",
-      "japanese": "{春|はる}になると、{植物園|しょくぶつえん}には{色|いろ}とりどりの{花|はな}が{咲|さ}いて、{多|おお}くの{来園者|らいえんしゃ}で{賑|にぎ}わう。",
+      "japanese": "⟦{春|はる}→春：00627_haru⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦と→と：00512_to⟧、{植物園|しょくぶつえん}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{色|いろ}とりどり→色とりどり：10404_irotoridori⟧⟦の→の：09472_no⟧⟦{花|はな}→花：00523_hana⟧⟦が→が：00051_ga⟧⟦{咲|さ}いて→咲く：08150_saku⟧、{多|おお}く⟦の→の：09472_no⟧{来園者|らいえんしゃ}⟦で→で：00502_de⟧⟦{賑|にぎ}わう→賑わう：14235_nigiwau⟧。",
       "english": "When spring comes, the botanical garden is filled with colorful flowers and bustles with many visitors.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nJapan has many well-known botanical gardens, including the Koishikawa Botanical Garden in Tokyo and the Kyoto Botanical Garden. They often feature seasonal displays, greenhouses with tropical plants, and educational programs.\n\nCOMMON COLLOCATIONS:\n- {植物園|しょくぶつえん}を{散策|さんさく}する (to stroll through a botanical garden)\n- {植物園|しょくぶつえん}の{温室|おんしつ} (botanical garden greenhouse)\n\nSIMILAR WORDS:\n- {動物園|どうぶつえん}: zoo — a facility for displaying animals\n- {庭園|ていえん}: garden — a landscaped garden, usually artistic rather than scientific",
+  "notes": "USAGE:\nJapan has many well-known botanical gardens, including the Koishikawa Botanical Garden in Tokyo and the Kyoto Botanical Garden. They often feature seasonal displays, greenhouses with tropical plants, and educational programs.\n\nCOMMON COLLOCATIONS:\n- {植物園|しょくぶつえん}⟦を→を：00422_wo⟧⟦{散策|さんさく}→散策：07618_sansaku⟧⟦する→する：00392_suru⟧ (to stroll through a botanical garden)\n- {植物園|しょくぶつえん}⟦の→の：09472_no⟧⟦{温室|おんしつ}→温室：04116_onshitsu⟧ (botanical garden greenhouse)\n\nSIMILAR WORDS:\n- ⟦{動物園|どうぶつえん}→動物園：01686_doubutsuen⟧: zoo — a facility for displaying animals\n- ⟦{庭園|ていえん}→庭園：12452_teien⟧: garden — a landscaped garden, usually artistic rather than scientific",
   "cross_references": [
     {
       "type": "related",
@@ -52,11 +52,18 @@
       "reading": "どうぶつえん",
       "headword": "{動物園|どうぶつえん}",
       "label": "zoo"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12452_teien",
+      "reading": "ていえん",
+      "headword": "{庭園|ていえん}",
+      "label": "garden"
     }
   ],
   "metadata": {
     "created": "2026-03-13T02:07:23Z",
-    "modified": "2026-07-20T00:31:17Z",
+    "modified": "2026-09-02T04:01:45Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

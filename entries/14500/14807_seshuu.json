@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "14807_seshuu_ex1",
-      "japanese": "{世襲|せしゅう}{議員|ぎいん}が{増|ふ}えている。",
+      "japanese": "{世襲|せしゅう}⟦{議員|ぎいん}→議員：02660_giin⟧⟦が→が：00051_ga⟧⟦{増|ふ}えている→増える：01183_fueru⟧。",
       "english": "The number of hereditary politicians is increasing.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "14807_seshuu_ex2",
-      "japanese": "この{職業|しょくぎょう}は{代々|だいだい}{世襲|せしゅう}されてきた。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{職業|しょくぎょう}→職業：03245_shokugyou⟧⟦は→は：00079_ha⟧⟦{代々|だいだい}→代々：05899_daidai⟧{世襲|せしゅう}⟦されて→する：00392_suru⟧きた。",
       "english": "This occupation has been passed down through the generations.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "14807_seshuu_ex3",
-      "japanese": "{歌舞伎|かぶき}の{世界|せかい}では{芸名|げいめい}を{世襲|せしゅう}する{伝統|でんとう}がある。",
+      "japanese": "⟦{歌舞伎|かぶき}→歌舞伎：04455_kabuki⟧⟦の→の：09472_no⟧⟦{世界|せかい}→世界：01447_sekai⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{芸名|げいめい}→芸名：25284_geimei⟧⟦を→を：00422_wo⟧{世襲|せしゅう}⟦する→する：00392_suru⟧⟦{伝統|でんとう}→伝統：09585_dentou⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "In the world of kabuki, there is a tradition of inheriting stage names.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,19 @@
       ]
     }
   ],
-  "notes": "A topic that frequently appears in discussions about Japanese politics and traditional performing arts.\n\nCOMMON COLLOCATIONS:\n- {世襲|せしゅう}{議員|ぎいん} (hereditary politician)\n- {世襲|せしゅう}{制|せい} (hereditary system)\n- {世襲|せしゅう}{制度|せいど} (system of hereditary succession)\n- {地盤|じばん}を{世襲|せしゅう}する (to inherit a political base)\n\nUSAGE NOTE:\nIn Japanese politics, {世襲|せしゅう}{議員|ぎいん} refers to politicians who inherit their parent's constituency and political base. This is a prominent feature of Japanese politics that generates ongoing debate. In traditional arts like {歌舞伎|かぶき} and {能|のう}, hereditary succession of stage names and roles is an honored tradition.",
-  "cross_references": [],
+  "notes": "A topic that frequently appears in discussions about Japanese politics and traditional performing arts.\n\nCOMMON COLLOCATIONS:\n- {世襲|せしゅう}⟦{議員|ぎいん}→議員：02660_giin⟧ (hereditary politician)\n- {世襲|せしゅう}{制|せい} (hereditary system)\n- {世襲|せしゅう}⟦{制度|せいど}→制度：03291_seido⟧ (system of hereditary succession)\n- ⟦{地盤|じばん}→地盤：04035_jiban⟧⟦を→を：00422_wo⟧{世襲|せしゅう}⟦する→する：00392_suru⟧ (to inherit a political base)\n\nUSAGE:\nIn Japanese politics, {世襲|せしゅう}⟦{議員|ぎいん}→議員：02660_giin⟧ refers to politicians who inherit their parent's constituency and political base. This is a prominent feature of Japanese politics that generates ongoing debate. In traditional arts like ⟦{歌舞伎|かぶき}→歌舞伎：04455_kabuki⟧ and ⟦{能|のう}→能：01927_nou⟧, hereditary succession of stage names and roles is an honored tradition.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "22963_douzokukeiei",
+      "reading": "どうぞくけいえい",
+      "headword": "{同族経営|どうぞくけいえい}",
+      "label": "family management"
+    }
+  ],
   "metadata": {
     "created": "2026-03-03T12:55:11Z",
-    "modified": "2026-03-29T03:08:18Z",
+    "modified": "2026-09-02T04:01:38Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

@@ -2,7 +2,7 @@
   "id": "07574_kowagaru",
   "headword": "{怖|こわ}がる",
   "reading": "こわがる",
-  "part_of_speech": "godan verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to be afraid of; to fear",
   "conjugation": {
     "type": "godan",
@@ -112,7 +112,7 @@
   "examples": [
     {
       "id": "07574_kowagaru_ex1",
-      "japanese": "{犬|いぬ}を{怖|こわ}がる{子|こ}どもが{多|おお}い。",
+      "japanese": "⟦{犬|いぬ}→犬：00632_inu⟧⟦を→を：00422_wo⟧{怖|こわ}がる{子|こ}ども⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "Many children are afraid of dogs.",
       "has_audio": false,
       "sense_numbers": [
@@ -121,7 +121,7 @@
     },
     {
       "id": "07574_kowagaru_ex2",
-      "japanese": "{注射|ちゅうしゃ}を{怖|こわ}がらないで。",
+      "japanese": "⟦{注射|ちゅうしゃ}→注射：01665_chuusha⟧⟦を→を：00422_wo⟧{怖|こわ}がらないで。",
       "english": "Don't be afraid of the injection.",
       "has_audio": false,
       "sense_numbers": [
@@ -130,7 +130,7 @@
     },
     {
       "id": "07574_kowagaru_ex3",
-      "japanese": "{彼|かれ}は{何|なに}も{怖|こわ}がらない{性格|せいかく}だ。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{何|なに}も→何も：03874_nanimo⟧{怖|こわ}がらない⟦{性格|せいかく}→性格：03371_seikaku⟧だ。",
       "english": "He has a personality that fears nothing.",
       "has_audio": false,
       "sense_numbers": [
@@ -138,10 +138,33 @@
       ]
     }
   ],
-  "notes": "VERB TYPE:\n{他動詞|たどうし} (transitive verb)\n\nGodan verb ({五段動詞|ごだんどうし}) ending in る\n・{怖|こわ}がらない (negative)\n・{怖|こわ}がって (te-form)\n・{怖|こわ}がった (past)\n\nGRAMMAR NOTE:\nThis is the -がる form of the i-adjective {怖|こわ}い. The -がる suffix converts adjectives describing internal feelings into verbs that describe observable behavior.\n\n{怖|こわ}い vs {怖|こわ}がる:\n・{怖|こわ}い - (I am) scared, frightening\n・{怖|こわ}がる - to be afraid of, to show fear (observed behavior)\n\nCOMMON PATTERNS:\n・〜を{怖|こわ}がる - to be afraid of ~\n・{怖|こわ}がらせる - to frighten, to scare (causative)\n・{怖|こわ}がり - a scaredy-cat, timid person (noun form)\n\nRELATED -がる VERBS:\n・{欲|ほ}しがる - to want (from {欲|ほ}しい)\n・{恥|は}ずかしがる - to be shy (from {恥|は}ずかしい)\n・{寂|さび}しがる - to feel lonely (from {寂|さび}しい)",
+  "notes": "VERB TYPE:\n⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive verb)\n\nGodan verb ({五段動詞|ごだんどうし}) ending in る\n- {怖|こわ}がらない (negative)\n- {怖|こわ}がって (te-form)\n- {怖|こわ}がった (past)\n\nCOMMON PATTERNS:\nThis is the -⟦がる→〜がる：03089_garu⟧ form of the i-adjective ⟦{怖|こわ}い→怖い：00864_kowai⟧. The -⟦がる→〜がる：03089_garu⟧ suffix converts adjectives describing internal feelings into verbs that describe observable behavior.\n\n⟦{怖|こわ}い→怖い：00864_kowai⟧ vs {怖|こわ}がる:\n- ⟦{怖|こわ}い→怖い：00864_kowai⟧ - (I am) scared, frightening\n- {怖|こわ}がる - to be afraid of, to show fear (observed behavior)\n- 〜⟦を→を：00422_wo⟧{怖|こわ}がる - to be afraid of ~\n- {怖|こわ}がらせる - to frighten, to scare (causative)\n- {怖|こわ}がり - a scaredy-cat, timid person (noun form)\n\nRELATED -がる VERBS:\n- {欲|ほ}し⟦がる→〜がる：03089_garu⟧ - to want (from ⟦{欲|ほ}しい→欲しい：01107_hoshii⟧)\n- {恥|は}ずかし⟦がる→〜がる：03089_garu⟧ - to be shy (from ⟦{恥|は}ずかしい→恥ずかしい：00843_hazukashii⟧)\n- {寂|さび}し⟦がる→〜がる：03089_garu⟧ - to feel lonely (from ⟦{寂|さび}しい→寂しい：00880_sabishii⟧)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "07573_hoshigaru",
+      "reading": "ほしがる",
+      "headword": "{欲|ほ}しがる",
+      "label": "to want"
+    },
+    {
+      "type": "related",
+      "target_id": "07786_hazukashigaru",
+      "reading": "はずかしがる",
+      "headword": "{恥|は}ずかしがる",
+      "label": "to be shy"
+    },
+    {
+      "type": "related",
+      "target_id": "07787_sabishigaru",
+      "reading": "さびしがる",
+      "headword": "{寂|さび}しがる",
+      "label": "to feel lonely"
+    }
+  ],
   "metadata": {
     "created": "2026-01-20T10:31:31Z",
-    "modified": "2026-08-11T09:37:41Z",
+    "modified": "2026-09-02T04:01:11Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -150,6 +173,7 @@
       ],
       "transitivity": "transitive",
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "emotion"
       ],

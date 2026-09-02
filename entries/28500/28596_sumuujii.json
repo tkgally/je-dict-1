@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28596_sumuujii_ex1",
-      "japanese": "{朝食|ちょうしょく}にスムージーを{飲|の}む。",
+      "japanese": "⟦{朝食|ちょうしょく}→朝食：03122_choushoku⟧⟦に→に：00314_ni⟧スムージー⟦を→を：00422_wo⟧⟦{飲|の}む→飲む：00322_nomu⟧。",
       "english": "I drink a smoothie for breakfast.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28596_sumuujii_ex2",
-      "japanese": "バナナと{豆乳|とうにゅう}でスムージーを{作|つく}った。",
+      "japanese": "⟦バナナ→バナナ：01013_banana⟧⟦と→と：00512_to⟧⟦{豆乳|とうにゅう}→豆乳：14226_tounyuu⟧⟦で→で：00502_de⟧スムージー⟦を→を：00422_wo⟧⟦{作|つく}った→作る：00481_tsukuru⟧。",
       "english": "I made a smoothie with banana and soy milk.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28596_sumuujii_ex3",
-      "japanese": "{毎朝|まいあさ}{緑黄色|りょくおうしょく}{野菜|やさい}のスムージーを{飲|の}むようにしている。",
+      "japanese": "⟦{毎朝|まいあさ}→毎朝：00966_maiasa⟧{緑黄色|りょくおうしょく}⟦{野菜|やさい}→野菜：02265_yasai⟧⟦の→の：09472_no⟧スムージー⟦を→を：00422_wo⟧⟦{飲|の}む→飲む：00322_nomu⟧ようにして⟦いる→いる：00495_iru⟧。",
       "english": "I try to drink a green vegetable smoothie every morning.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "From English 'smoothie'. Often associated with health and beauty trends.\n\nCOMMON COLLOCATIONS:\n- スムージーを{作|つく}る: to make a smoothie\n- {野菜|やさい}スムージー: vegetable smoothie\n- グリーンスムージー: green smoothie (leafy-vegetable based)\n- スムージーボウル: smoothie bowl\n\nSIMILAR WORDS:\n- ジュース: juice — typically strained; thinner than a smoothie\n- ミキサー{ジュース}: blender drink — older term, now usually called スムージー when fruit-/veg-based",
+  "notes": "From English 'smoothie'. Often associated with health and beauty trends.\n\nCOMMON COLLOCATIONS:\n- スムージー⟦を→を：00422_wo⟧⟦{作|つく}る→作る：00481_tsukuru⟧: to make a smoothie\n- ⟦{野菜|やさい}→野菜：02265_yasai⟧スムージー: vegetable smoothie\n- グリーンスムージー: green smoothie (leafy-vegetable based)\n- スムージー⟦ボウル→ボウル：04483_bouru⟧: smoothie bowl\n\nSIMILAR WORDS:\n- ⟦ジュース→ジュース：01033_juusu⟧: juice — typically strained; thinner than a smoothie\n- ⟦ミキサー→ミキサー：04676_mikisaa⟧⟦ジュース→ジュース：01033_juusu⟧: blender drink — older term, now usually called スムージー when fruit-/veg-based",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01033_juusu",
+      "reading": "じゅーす",
+      "headword": "ジュース",
+      "label": "juice"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +62,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "food"
       ],
       "domain": []
     },
     "created": "2026-06-02T04:07:08Z",
-    "modified": "2026-08-08T18:34:17Z"
+    "modified": "2026-09-02T04:02:34Z"
   }
 }

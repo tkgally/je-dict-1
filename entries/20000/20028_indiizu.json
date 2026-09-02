@@ -15,40 +15,67 @@
   "examples": [
     {
       "id": "20028_indiizu_ex1",
-      "japanese": "インディーズバンドが{好|す}きだ。",
+      "japanese": "インディーズ⟦バンド→バンド：05508_bando⟧⟦が→が：00051_ga⟧⟦{好|す}き→好き：02355_suki⟧だ。",
       "english": "I like indie bands.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20028_indiizu_ex2",
-      "japanese": "インディーズから{活動|かつどう}を{始|はじ}めた。",
+      "japanese": "インディーズ⟦から→から：00504_kara⟧⟦{活動|かつどう}→活動：00201_katsudou⟧⟦を→を：00422_wo⟧⟦{始|はじ}めた→始める：00531_hajimeru⟧。",
       "english": "They started out as an indie act.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20028_indiizu_ex3",
-      "japanese": "あのバンドはインディーズ{時代|じだい}の{方|ほう}が{良|よ}い{曲|きょく}が{多|おお}かったと{言|い}われている。",
+      "japanese": "⟦あの→あの：00915_ano⟧⟦バンド→バンド：05508_bando⟧⟦は→は：00079_ha⟧インディーズ⟦{時代|じだい}→時代：01424_jidai⟧⟦の→の：09472_no⟧⟦{方|ほう}→方：01139_hou⟧⟦が→が：00051_ga⟧⟦{良|よ}い→良い：02350_yoi⟧⟦{曲|きょく}→曲：09881_kyoku⟧⟦が→が：00051_ga⟧⟦{多|おお}かった→多い：01127_ooi⟧⟦と→と：00512_to⟧⟦{言|い}われている→言う：00515_iu⟧。",
       "english": "It's said that band had better songs during their indie days.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "From English \"indies\" (short for \"independents\"). In Japanese, this word is used as both a noun and a modifier, most commonly in the music industry to distinguish independent artists from those on major labels.\n\nCOMMON COLLOCATIONS:\n- インディーズバンド: indie band\n- インディーズレーベル: indie label\n- インディーズ{映画|えいが}: indie film\n- インディーズゲーム: indie game\n- インディーズ{時代|じだい}: indie era/days (before signing with a major label)\n- インディーズデビュー: indie debut\n\nUSAGE:\nIn the Japanese music industry, the distinction between インディーズ and メジャー (major label) is significant. Many well-known bands started as インディーズ before being \"picked up\" by major labels. The term carries connotations of artistic freedom, grassroots appeal, and DIY spirit.\n\nSIMILAR WORDS:\n- メジャー: major (label) — the opposite of indie in the music industry\n- {自主制作|じしゅせいさく}: self-produced — a more formal Japanese equivalent, though less commonly used",
+  "notes": "From English \"indies\" (short for \"independents\"). In Japanese, this word is used as both a noun and a modifier, most commonly in the music industry to distinguish independent artists from those on major labels.\n\nCOMMON COLLOCATIONS:\n- インディーズ⟦バンド→バンド：05508_bando⟧: indie band\n- インディーズ⟦レーベル→レーベル：13633_reeberu⟧: indie label\n- インディーズ⟦{映画|えいが}→映画：02273_eiga⟧: indie film\n- インディーズ⟦ゲーム→ゲーム：03842_geemu⟧: indie game\n- インディーズ⟦{時代|じだい}→時代：01424_jidai⟧: indie era/days (before signing with a major label)\n- インディーズ⟦デビュー→デビュー：11016_debyuu⟧: indie debut\n\nUSAGE:\nIn the Japanese music industry, the distinction between インディーズ and ⟦メジャー→メジャー：11595_mejaa⟧ (major label) is significant. Many well-known bands started as インディーズ before being \"picked up\" by major labels. The term carries connotations of artistic freedom, grassroots appeal, and DIY spirit.\n\nSIMILAR WORDS:\n- ⟦メジャー→メジャー：11595_mejaa⟧: major (label) — the opposite of indie in the music industry\n- ⟦{自主制作|じしゅせいさく}→自主制作：26488_jishuseisaku⟧: self-produced — a more formal Japanese equivalent, though less commonly used",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "11595_mejaa",
+      "reading": "めじゃー",
+      "headword": "メジャー",
+      "label": "major"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26488_jishuseisaku",
+      "reading": "じしゅせいさく",
+      "headword": "{自主制作|じしゅせいさく}",
+      "label": "self-produced"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["music", "entertainment"]
+      "semantic": [
+        "music",
+        "entertainment"
+      ]
     },
     "created": "2026-03-28T05:27:10Z",
-    "modified": "2026-03-28T05:27:10Z"
+    "modified": "2026-09-02T04:01:58Z"
   }
 }

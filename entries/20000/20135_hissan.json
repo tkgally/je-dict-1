@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "20135_hissan_ex1",
-      "japanese": "{筆算|ひっさん}で{計算|けいさん}する。",
+      "japanese": "{筆算|ひっさん}⟦で→で：00502_de⟧⟦{計算|けいさん}する→計算する：25526_keisansuru⟧。",
       "english": "To calculate using written arithmetic.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "20135_hissan_ex2",
-      "japanese": "{小学校|しょうがっこう}で{筆算|ひっさん}のやり{方|かた}を{習|なら}った。",
+      "japanese": "⟦{小学校|しょうがっこう}→小学校：01055_shougakkou⟧⟦で→で：00502_de⟧{筆算|ひっさん}⟦の→の：09472_no⟧⟦やり{方|かた}→やり方：10532_yarikata⟧⟦を→を：00422_wo⟧⟦{習|なら}った→習う：00479_narau⟧。",
       "english": "I learned how to do written calculations in elementary school.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "20135_hissan_ex3",
-      "japanese": "この{問題|もんだい}は{暗算|あんざん}では{難|むずか}しいから、{筆算|ひっさん}でやろう。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{問題|もんだい}→問題：00797_mondai⟧⟦は→は：00079_ha⟧⟦{暗算|あんざん}→暗算：15852_anzan⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{難|むずか}しい→難しい：00517_muzukashii⟧⟦から→から：00504_kara⟧、{筆算|ひっさん}⟦で→で：00502_de⟧⟦やろう→やる：02980_yaru⟧。",
       "english": "This problem is too hard to do in my head, so let's work it out on paper.",
       "sense_numbers": [
         1
@@ -134,8 +134,38 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {筆|ひつ} (writing brush, pen) + {算|さん} (calculation). Refers to the standard method of writing out calculations vertically on paper.\n\nCOMMON COLLOCATIONS:\n- {筆算|ひっさん}で{計算|けいさん}する: to calculate on paper\n- {筆算|ひっさん}のやり{方|かた}: how to do written calculations\n- {掛|か}け{算|ざん}の{筆算|ひっさん}: long multiplication\n- {割|わ}り{算|ざん}の{筆算|ひっさん}: long division\n\nSIMILAR WORDS:\n- {暗算|あんざん}: mental arithmetic — calculating in one's head without writing anything down\n- {そろばん}: abacus — calculating with an abacus; a traditional Japanese skill\n- {計算|けいさん}: calculation — the general term for any form of calculation\n\nUSAGE:\n{筆算|ひっさん} is a core part of Japanese elementary math education. Students learn to perform addition, subtraction, multiplication, and division using the vertical written format. The term is most commonly heard in educational contexts.",
+  "notes": "Composed of {筆|ひつ} (writing brush, pen) + {算|さん} (calculation). Refers to the standard method of writing out calculations vertically on paper.\n\nCOMMON COLLOCATIONS:\n- {筆算|ひっさん}⟦で→で：00502_de⟧⟦{計算|けいさん}する→計算する：25526_keisansuru⟧: to calculate on paper\n- {筆算|ひっさん}⟦の→の：09472_no⟧⟦やり{方|かた}→やり方：10532_yarikata⟧: how to do written calculations\n- ⟦{掛|か}け{算|ざん}→掛け算：05334_kakezan⟧⟦の→の：09472_no⟧{筆算|ひっさん}: long multiplication\n- ⟦{割|わ}り{算|ざん}→割り算：05335_warizan⟧⟦の→の：09472_no⟧{筆算|ひっさん}: long division\n\nSIMILAR WORDS:\n- ⟦{暗算|あんざん}→暗算：15852_anzan⟧: mental arithmetic — calculating in one's head without writing anything down\n- そろばん: abacus — calculating with an abacus; a traditional Japanese skill\n- ⟦{計算|けいさん}→計算：02697_keisan⟧: calculation — the general term for any form of calculation\n\nUSAGE:\n{筆算|ひっさん} is a core part of Japanese elementary math education. Students learn to perform addition, subtraction, multiplication, and division using the vertical written format. The term is most commonly heard in educational contexts.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15852_anzan",
+      "reading": "あんざん",
+      "headword": "{暗算|あんざん}",
+      "label": "mental arithmetic"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04400_soroban",
+      "reading": "そろばん",
+      "headword": "{算盤|そろばん}",
+      "label": "abacus"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02697_keisan",
+      "reading": "けいさん",
+      "headword": "{計算|けいさん}",
+      "label": "calculation"
+    },
+    {
+      "type": "related",
+      "target_id": "05332_tashizan",
+      "reading": "たしざん",
+      "headword": "{足|た}し{算|ざん}",
+      "label": "addition"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -152,6 +182,6 @@
       "verb_class": "suru"
     },
     "created": "2026-03-28T14:18:31Z",
-    "modified": "2026-06-09T15:41:11Z"
+    "modified": "2026-09-02T04:01:58Z"
   }
 }

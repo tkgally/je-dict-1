@@ -15,40 +15,67 @@
   "examples": [
     {
       "id": "19118_kaibatsu_ex1",
-      "japanese": "{海抜|かいばつ}ゼロメートル{地帯|ちたい}。",
+      "japanese": "{海抜|かいばつ}ゼロメートル⟦{地帯|ちたい}→地帯：04057_chitai⟧。",
       "english": "A zone at sea level.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19118_kaibatsu_ex2",
-      "japanese": "この{町|まち}は{海抜|かいばつ}{約|やく}500メートルにある。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{町|まち}→町：00613_machi⟧⟦は→は：00079_ha⟧{海抜|かいばつ}⟦{約|やく}→約：09563_yaku⟧500⟦メートル→メートル：02975_meetoru⟧⟦に→に：00314_ni⟧⟦ある→ある：00006_aru⟧。",
       "english": "This town is at about 500 meters above sea level.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19118_kaibatsu_ex3",
-      "japanese": "{富士山|ふじさん}の{山頂|さんちょう}は{海抜|かいばつ}3,776メートルで、{日本|にほん}で{最|もっと}も{高|たか}い。",
+      "japanese": "⟦{富士山|ふじさん}→富士山：09514_fujisan⟧⟦の→の：09472_no⟧⟦{山頂|さんちょう}→山頂：09942_sanchou⟧⟦は→は：00079_ha⟧{海抜|かいばつ}3,776⟦メートル→メートル：02975_meetoru⟧で、⟦{日本|にほん}→日本：03876_nihon⟧⟦で→で：00502_de⟧⟦{最|もっと}も→最も：01736_mottomo⟧⟦{高|たか}い→高い：00500_takai⟧。",
       "english": "The summit of Mt. Fuji is 3,776 meters above sea level, the highest in Japan.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "WORD FORMATION:\n{海|かい} (sea) + {抜|ばつ} (above, exceeding). Literally \"above the sea.\"\n\nCOMMON PATTERNS:\n- {海抜|かいばつ}〜メートル: ... meters above sea level\n- {海抜|かいばつ}ゼロメートル{地帯|ちたい}: areas at or below sea level (flood risk zones)\n\nCONTRAST WITH {標高|ひょうこう}:\n- {海抜|かいばつ}: general term, commonly seen on signs and in everyday descriptions\n- {標高|ひょうこう}: more technical, preferred in geography, mountaineering, and scientific writing\n- Both measure height from sea level, but {標高|ひょうこう} is more precise in academic contexts\n\nCOMMON COLLOCATIONS:\n- {海抜|かいばつ}が{高|たか}い: high elevation\n- {海抜|かいばつ}が{低|ひく}い: low elevation\n- {海抜|かいばつ}{表示|ひょうじ}: elevation sign (often seen on utility poles in flood-prone areas)",
+  "notes": "FORMS:\n{海|かい} (sea) + {抜|ばつ} (above, exceeding). Literally \"above the sea.\"\n\nCOMMON PATTERNS:\n- {海抜|かいばつ}〜⟦メートル→メートル：02975_meetoru⟧: ... meters above sea level\n- {海抜|かいばつ}ゼロメートル⟦{地帯|ちたい}→地帯：04057_chitai⟧: areas at or below sea level (flood risk zones)\n\nCONTRAST WITH {標高|ひょうこう}:\n- {海抜|かいばつ}: general term, commonly seen on signs and in everyday descriptions\n- ⟦{標高|ひょうこう}→標高：13175_hyoukou⟧: more technical, preferred in geography, mountaineering, and scientific writing\n- Both measure height from sea level, but ⟦{標高|ひょうこう}→標高：13175_hyoukou⟧ is more precise in academic contexts\n\nCOMMON COLLOCATIONS:\n- {海抜|かいばつ}⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧: high elevation\n- {海抜|かいばつ}⟦が→が：00051_ga⟧⟦{低|ひく}い→低い：02947_hikui⟧: low elevation\n- {海抜|かいばつ}⟦{表示|ひょうじ}→表示：03143_hyouji⟧: elevation sign (often seen on utility poles in flood-prone areas)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13175_hyoukou",
+      "reading": "ひょうこう",
+      "headword": "{標高|ひょうこう}",
+      "label": "more technical, preferred in geography…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26439_kaisuimen",
+      "reading": "かいすいめん",
+      "headword": "{海水面|かいすいめん}",
+      "label": "sea level"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["geography", "size"]
+      "semantic": [
+        "geography",
+        "size"
+      ]
     },
     "created": "2026-03-24T09:59:58Z",
-    "modified": "2026-03-30T06:07:33Z"
+    "modified": "2026-09-02T04:01:54Z"
   }
 }

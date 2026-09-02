@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "17019_shakuchi_ex1",
-      "japanese": "{借地|しゃくち}に{家|いえ}を{建|た}てた。",
+      "japanese": "{借地|しゃくち}⟦に→に：00314_ni⟧⟦{家|いえ}→家：00612_ie⟧⟦を→を：00422_wo⟧⟦{建|た}てた→建てる：01189_tateru⟧。",
       "english": "I built a house on leased land.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "17019_shakuchi_ex2",
-      "japanese": "{借地|しゃくち}{料|りょう}が{毎年|まいとし}{値上|ねあ}がりしている。",
+      "japanese": "{借地|しゃくち}{料|りょう}⟦が→が：00051_ga⟧⟦{毎年|まいとし}→毎年：00731_maitoshi⟧⟦{値上|ねあ}がり→値上がり：11538_neagari⟧⟦している→する：00392_suru⟧。",
       "english": "The land lease fee increases every year.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "17019_shakuchi_ex3",
-      "japanese": "{借地|しゃくち}{権|けん}の{更新|こうしん}について、{地主|じぬし}と{交渉|こうしょう}しなければならない。",
+      "japanese": "{借地|しゃくち}{権|けん}⟦の→の：09472_no⟧⟦{更新|こうしん}→更新：04765_koushin⟧⟦について→〜について：03103_nitsuite⟧、⟦{地主|じぬし}→地主：12048_jinushi⟧⟦と→と：00512_to⟧⟦{交渉|こうしょう}→交渉：02727_koushou⟧し⟦なければならない→なければならない：27600_nakerebanaranai⟧。",
       "english": "I need to negotiate with the landowner about renewing the leasehold rights.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,19 @@
       ]
     }
   ],
-  "notes": "USAGE:\nAn important concept in Japanese real estate. Many older homes in Japan are built on {借地|しゃくち}, especially in urban areas. The {借地|しゃくち}{権|けん} (leasehold right) is a significant legal right in Japan.\n\nCOMMON COLLOCATIONS:\n- {借地|しゃくち}{権|けん} (leasehold right)\n- {借地|しゃくち}{料|りょう} (land lease fee)\n- {借地|しゃくち}{契約|けいやく} (land lease contract)\n- {借地|しゃくち}{人|にん} (land tenant)\n\nSIMILAR WORDS:\n- {借家|しゃくや}: rented house — the building itself rather than the land",
-  "cross_references": [],
+  "notes": "USAGE:\nAn important concept in Japanese real estate. Many older homes in Japan are built on {借地|しゃくち}, especially in urban areas. The {借地|しゃくち}{権|けん} (leasehold right) is a significant legal right in Japan.\n\nCOMMON COLLOCATIONS:\n- {借地|しゃくち}{権|けん} (leasehold right)\n- {借地|しゃくち}{料|りょう} (land lease fee)\n- {借地|しゃくち}⟦{契約|けいやく}→契約：02698_keiyaku⟧ (land lease contract)\n- {借地|しゃくち}⟦{人|にん}→〜人：00658_nin⟧ (land tenant)\n\nSIMILAR WORDS:\n- ⟦{借家|しゃくや}→借家：29494_shakuya⟧: rented house — the building itself rather than the land",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "29494_shakuya",
+      "reading": "しゃくや",
+      "headword": "{借家|しゃくや}",
+      "label": "rented house"
+    }
+  ],
   "metadata": {
     "created": "2026-03-15T05:53:16Z",
-    "modified": "2026-07-22T03:30:08Z",
+    "modified": "2026-09-02T04:01:47Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

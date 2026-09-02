@@ -15,41 +15,68 @@
   "examples": [
     {
       "id": "30011_kondakutaa_ex1",
-      "japanese": "コンダクターがタクトを{振|ふ}る。",
+      "japanese": "コンダクター⟦が→が：00051_ga⟧⟦タクト→タクト：23985_takuto⟧⟦を→を：00422_wo⟧⟦{振|ふ}る→振る：01983_furu⟧。",
       "english": "The conductor waves the baton.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "30011_kondakutaa_ex2",
-      "japanese": "{有名|ゆうめい}なコンダクターが{来日|らいにち}した。",
+      "japanese": "⟦{有名|ゆうめい}→有名：01106_yuumei⟧なコンダクター⟦が→が：00051_ga⟧⟦{来日|らいにち}→来日：13060_rainichi⟧⟦した→する：00392_suru⟧。",
       "english": "A famous conductor came to Japan.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "30011_kondakutaa_ex3",
-      "japanese": "コンダクターの{解釈|かいしゃく}で{曲|きょく}の{印象|いんしょう}は{大|おお}きく{変|か}わる。",
+      "japanese": "コンダクター⟦の→の：09472_no⟧⟦{解釈|かいしゃく}→解釈：02603_kaishaku⟧⟦で→で：00502_de⟧⟦{曲|きょく}→曲：09881_kyoku⟧⟦の→の：09472_no⟧⟦{印象|いんしょう}→印象：01846_inshou⟧⟦は→は：00079_ha⟧⟦{大|おお}きく→大きい：00335_ookii⟧⟦{変|か}わる→変わる：00714_kawaru⟧。",
       "english": "A piece's impression changes greatly with the conductor's interpretation.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "An English loanword for an orchestra or choir conductor. In everyday Japanese the native term {指揮者|しきしゃ} is far more common; コンダクター has a more formal or international flavor.\n\nSIMILAR WORDS:\n- {指揮者|しきしゃ}: conductor — the standard native term\n- マエストロ: maestro — an honorific for a distinguished conductor",
+  "notes": "An English loanword for an orchestra or choir conductor. In everyday Japanese the native term ⟦{指揮者|しきしゃ}→指揮者：06565_shikisha⟧ is far more common; コンダクター has a more formal or international flavor.\n\nSIMILAR WORDS:\n- ⟦{指揮者|しきしゃ}→指揮者：06565_shikisha⟧: conductor — the standard native term\n- ⟦マエストロ→マエストロ：30012_maesutoro⟧: maestro — an honorific for a distinguished conductor",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06565_shikisha",
+      "reading": "しきしゃ",
+      "headword": "{指揮者|しきしゃ}",
+      "label": "conductor"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30012_maesutoro",
+      "reading": "まえすとろ",
+      "headword": "マエストロ",
+      "label": "maestro"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": null,
-      "semantic": ["music", "occupation"],
+      "semantic": [
+        "music",
+        "occupation"
+      ],
       "domain": []
     },
     "created": "2026-07-21T00:17:50Z",
-    "modified": "2026-07-21T00:17:50Z"
+    "modified": "2026-09-02T04:02:38Z"
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "10526_muriyari_ex1",
-      "japanese": "{無理|むり}やり{食|た}べさせた。",
+      "japanese": "{無理|むり}やり⟦{食|た}べさせた→食べる：00396_taberu⟧。",
       "english": "I forced them to eat.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "10526_muriyari_ex2",
-      "japanese": "{無理|むり}やりドアを{開|あ}けた。",
+      "japanese": "{無理|むり}やり⟦ドア→ドア：00773_doa⟧⟦を→を：00422_wo⟧⟦{開|あ}けた→開ける：00563_akeru⟧。",
       "english": "I forced the door open.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "10526_muriyari_ex3",
-      "japanese": "{嫌|いや}がっているのに{無理|むり}やり{参加|さんか}させるのはよくない。",
+      "japanese": "⟦{嫌|いや}がっている→嫌がる：03041_iyagaru⟧⟦の→の：09472_no⟧⟦に→に：00314_ni⟧{無理|むり}やり⟦{参加|さんか}させる→参加する：25408_sankasuru⟧⟦の→の：09472_no⟧⟦は→は：00079_ha⟧⟦よくない→いい：00118_ii⟧。",
       "english": "It's not good to force someone to participate when they don't want to.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "WRITING:\nAlso written as {無理矢理|むりやり}. The hiragana-kanji mix {無理|むり}やり is more common in everyday writing.\n\nFORMATION:\n{無理|むり} (unreasonable) + やり (doing). Literally \"doing something unreasonable.\"\n\nNUANCE:\nAlways carries a negative connotation of using excessive force or ignoring resistance. Stronger than {強引|ごういん} (pushy).\n\nCOMMON COLLOCATIONS:\n- {無理|むり}やり{連|つ}れていく: to drag someone along\n- {無理|むり}やり{押|お}し{込|こ}む: to cram in forcefully\n- {無理|むり}やりやらせる: to force someone to do it\n- {無理|むり}やり{笑|わら}う: to force a smile",
+  "notes": "WRITING:\nAlso written as {無理矢理|むりやり}. The hiragana-kanji mix {無理|むり}やり is more common in everyday writing.\n\nFORMS:\n⟦{無理|むり}→無理：01558_muri⟧ (unreasonable) + ⟦やり→やる：02980_yaru⟧ (doing). Literally \"doing something unreasonable.\"\n\nUSAGE:\nAlways carries a negative connotation of using excessive force or ignoring resistance. Stronger than ⟦{強引|ごういん}→強引：04156_gouin⟧ (pushy).\n\nCOMMON COLLOCATIONS:\n- {無理|むり}やり⟦{連|つ}れていく→連れていく：23753_tsureteiku⟧: to drag someone along\n- {無理|むり}やり⟦{押|お}し{込|こ}む→押し込む：04237_oshikomu⟧: to cram in forcefully\n- {無理|むり}やり⟦やらせる→やる：02980_yaru⟧: to force someone to do it\n- {無理|むり}やり⟦{笑|わら}う→笑う：00685_warau⟧: to force a smile",
   "cross_references": [
     {
       "type": "related",
@@ -52,11 +52,25 @@
       "reading": "むり",
       "headword": "{無理|むり}",
       "label": "unreasonable"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04156_gouin",
+      "reading": "ごういん",
+      "headword": "{強引|ごういん}",
+      "label": "forcible, pushy, assertive"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29143_chikarazuku",
+      "reading": "ちからずく",
+      "headword": "{力|ちから}ずく",
+      "label": "by force"
     }
   ],
   "metadata": {
     "created": "2026-02-07T23:54:21Z",
-    "modified": "2026-07-12T18:20:07Z",
+    "modified": "2026-09-02T04:01:21Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

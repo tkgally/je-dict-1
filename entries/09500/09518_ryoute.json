@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "09518_ryoute_ex1",
-      "japanese": "{両手|りょうて}⟦で→で：00502_de⟧{持|も}つ。",
+      "japanese": "{両手|りょうて}⟦で→で：00502_de⟧⟦{持|も}つ→持つ：00478_motsu⟧。",
       "english": "To hold with both hands.",
       "has_audio": false,
       "sense_numbers": [
@@ -32,7 +32,7 @@
     },
     {
       "id": "09518_ryoute_ex3",
-      "japanese": "{両手|りょうて}⟦を→を：00422_wo⟧{上|あ}げる。",
+      "japanese": "{両手|りょうて}⟦を→を：00422_wo⟧⟦{上|あ}げる→上げる：02443_ageru⟧。",
       "english": "To raise both hands.",
       "has_audio": false,
       "sense_numbers": [
@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "notes": "{両手|りょうて} means both hands. It is a compound of {両|りょう} (both) + {手|て} (hand).\n\nCOMMON EXPRESSIONS:\n- {両手|りょうて}で{持|も}つ: to hold with both hands\n- {両手|りょうて}が{塞|ふさ}がる: both hands are full/occupied\n- {両手|りょうて}を{広|ひろ}げる: to spread both arms wide\n- {両手|りょうて}を{上|あ}げる: to raise both hands\n- {両手|りょうて}で{拍手|はくしゅ}する: to clap with both hands\n\nSIMILAR {両|りょう}〜 COMPOUNDS:\n- {片手|かたて}: one hand (opposite)\n- {両足|りょうあし}: both feet/legs\n- {両目|りょうめ}: both eyes\n- {両腕|りょううで}: both arms\n\nIDIOM:\n{両手|りょうて}に{花|はな}: literally \"flowers in both hands\" — being flanked by two attractive people or having two good things at once.",
+  "notes": "{両手|りょうて} means both hands. It is a compound of ⟦{両|りょう}→両：11182_ryou⟧ (both) + ⟦{手|て}→手：00569_te⟧ (hand).\n\nCOMMON EXPRESSIONS:\n- {両手|りょうて}⟦で→で：00502_de⟧⟦{持|も}つ→持つ：00478_motsu⟧: to hold with both hands\n- {両手|りょうて}⟦が→が：00051_ga⟧⟦{塞|ふさ}がる→塞がる：14872_fusagaru⟧: both hands are full/occupied\n- {両手|りょうて}⟦を→を：00422_wo⟧⟦{広|ひろ}げる→広げる：01981_hirogeru⟧: to spread both arms wide\n- {両手|りょうて}⟦を→を：00422_wo⟧⟦{上|あ}げる→上げる：02443_ageru⟧: to raise both hands\n- {両手|りょうて}⟦で→で：00502_de⟧⟦{拍手|はくしゅ}→拍手：03553_hakushu⟧⟦する→する：00392_suru⟧: to clap with both hands\n{両手|りょうて}⟦に→に：00314_ni⟧⟦{花|はな}→花：00523_hana⟧: literally \"flowers in both hands\" — being flanked by two attractive people or having two good things at once.\n\nSIMILAR {両|りょう}〜 COMPOUNDS:\n- ⟦{片手|かたて}→片手：13462_katate⟧: one hand (opposite)\n- ⟦{両足|りょうあし}→両足：28926_ryouashi⟧: both feet/legs\n- ⟦{両目|りょうめ}→両目：21275_ryoume⟧: both eyes\n- ⟦{両腕|りょううで}→両腕：19455_ryouude⟧: both arms",
   "prominent_see_also": [
     {
       "target_id": "13462_katate",
@@ -49,9 +49,39 @@
       "note": "one hand"
     }
   ],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "10438_migite",
+      "reading": "みぎて",
+      "headword": "{右手|みぎて}",
+      "label": "right hand"
+    },
+    {
+      "type": "related",
+      "target_id": "21275_ryoume",
+      "reading": "りょうめ",
+      "headword": "{両目|りょうめ}",
+      "label": "both eyes"
+    },
+    {
+      "type": "related",
+      "target_id": "25207_ryoumimi",
+      "reading": "りょうみみ",
+      "headword": "{両耳|りょうみみ}",
+      "label": "both ears"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28926_ryouashi",
+      "reading": "りょうあし",
+      "headword": "{両足|りょうあし}",
+      "label": "both feet"
+    }
+  ],
   "metadata": {
     "created": "2026-02-02T10:21:20Z",
-    "modified": "2026-04-29T04:08:17Z",
+    "modified": "2026-09-02T04:01:18Z",
     "ai_model": "claude-opus-4-5-20251101",
     "vocabulary_tier": "general",
     "tags": {

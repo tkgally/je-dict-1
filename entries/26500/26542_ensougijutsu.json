@@ -15,42 +15,60 @@
   "examples": [
     {
       "id": "26542_ensougijutsu_ex1",
-      "japanese": "この{演奏者|えんそうしゃ}は{演奏技術|えんそうぎじゅつ}が{高|たか}い。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{演奏者|えんそうしゃ}→演奏者：25426_ensousha⟧⟦は→は：00079_ha⟧{演奏技術|えんそうぎじゅつ}⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧。",
       "english": "This performer has a high level of playing technique.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26542_ensougijutsu_ex2",
-      "japanese": "{演奏技術|えんそうぎじゅつ}だけでなく{表現力|ひょうげんりょく}も{大切|たいせつ}だ。",
+      "japanese": "{演奏技術|えんそうぎじゅつ}⟦だけでなく→〜だけでなく：18373_dakedenaku⟧⟦{表現力|ひょうげんりょく}→表現力：21315_hyougenryoku⟧⟦も→も：00484_mo⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧だ。",
       "english": "Not only performance technique but also expressive ability is important.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26542_ensougijutsu_ex3",
-      "japanese": "{毎日|まいにち}の{練習|れんしゅう}を{続|つづ}けることで、{演奏技術|えんそうぎじゅつ}は{確実|かくじつ}に{向上|こうじょう}する。",
+      "japanese": "⟦{毎日|まいにち}→毎日：00729_mainichi⟧⟦の→の：09472_no⟧⟦{練習|れんしゅう}→練習：05323_renshuu⟧⟦を→を：00422_wo⟧⟦{続|つづ}ける→続く：00903_tsuzuku⟧ことで、{演奏技術|えんそうぎじゅつ}⟦は→は：00079_ha⟧⟦{確実|かくじつ}→確実：02538_kakujitsu⟧⟦に→に：00314_ni⟧⟦{向上|こうじょう}する→向上する：18997_koujousuru⟧。",
       "english": "By continuing to practice every day, your performance technique will steadily improve.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {演奏|えんそう} (musical performance) and {技術|ぎじゅつ} (technique, skill). Used in music education, reviews, and competitions to evaluate or discuss a performer's technical abilities. In Japanese music criticism, there is a traditional distinction between {演奏技術|えんそうぎじゅつ} (technical proficiency) and {音楽性|おんがくせい} (musicality), with the ideal being a balance of both.\n\nCOMMON COLLOCATIONS:\n- {演奏技術|えんそうぎじゅつ}を{磨|みが}く: to polish one's playing technique\n- {演奏技術|えんそうぎじゅつ}が{優|すぐ}れている: to have excellent technique\n- {演奏技術|えんそうぎじゅつ}の{向上|こうじょう}: improvement of performance skill\n- {高度|こうど}な{演奏技術|えんそうぎじゅつ}: advanced performance technique\n\nSIMILAR WORDS:\n- {演奏|えんそう}: musical performance — the act itself, not the skill level\n- {技巧|ぎこう}: virtuosity, artistry — emphasizes the artistic or virtuosic aspect of technique\n- {奏法|そうほう}: playing method — focuses on the specific way an instrument is played (bowing, fingering, etc.)",
-  "cross_references": [],
+  "notes": "Composed of ⟦{演奏|えんそう}→演奏：01896_ensou⟧ (musical performance) and ⟦{技術|ぎじゅつ}→技術：01389_gijutsu⟧ (technique, skill). Used in music education, reviews, and competitions to evaluate or discuss a performer's technical abilities. In Japanese music criticism, there is a traditional distinction between {演奏技術|えんそうぎじゅつ} (technical proficiency) and {音楽性|おんがくせい} (musicality), with the ideal being a balance of both.\n\nCOMMON COLLOCATIONS:\n- {演奏技術|えんそうぎじゅつ}⟦を→を：00422_wo⟧⟦{磨|みが}く→磨く：02427_migaku⟧: to polish one's playing technique\n- {演奏技術|えんそうぎじゅつ}⟦が→が：00051_ga⟧⟦{優|すぐ}れている→優れる：02119_sugureru⟧: to have excellent technique\n- {演奏技術|えんそうぎじゅつ}⟦の→の：09472_no⟧⟦{向上|こうじょう}→向上：02731_koujou⟧: improvement of performance skill\n- ⟦{高度|こうど}→高度：00243_koudo⟧な{演奏技術|えんそうぎじゅつ}: advanced performance technique\n\nSIMILAR WORDS:\n- ⟦{演奏|えんそう}→演奏：01896_ensou⟧: musical performance — the act itself, not the skill level\n- ⟦{技巧|ぎこう}→技巧：12779_gikou⟧: virtuosity, artistry — emphasizes the artistic or virtuosic aspect of technique\n- {奏法|そうほう}: playing method — focuses on the specific way an instrument is played (bowing, fingering, etc.)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12779_gikou",
+      "reading": "ぎこう",
+      "headword": "{技巧|ぎこう}",
+      "label": "virtuosity, artistry"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
+      "semantic": [
+        "general"
+      ],
       "domain": []
     },
     "created": "2026-05-02T15:28:30Z",
-    "modified": "2026-05-02T15:28:30Z"
+    "modified": "2026-09-02T04:02:26Z"
   }
 }

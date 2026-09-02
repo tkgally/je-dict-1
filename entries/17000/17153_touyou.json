@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "17153_touyou_ex1",
-      "japanese": "{若手|わかて}を{積極的|せっきょくてき}に{登用|とうよう}する。",
+      "japanese": "⟦{若手|わかて}→若手：13989_wakate⟧⟦を→を：00422_wo⟧⟦{積極的|せっきょくてき}→積極的：01585_sekkyokuteki⟧⟦に→に：00314_ni⟧{登用|とうよう}⟦する→する：00392_suru⟧。",
       "english": "To actively promote young talent.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "17153_touyou_ex2",
-      "japanese": "{女性|じょせい}の{管理職|かんりしょく}への{登用|とうよう}が{進|すす}んでいる。",
+      "japanese": "⟦{女性|じょせい}→女性：01617_josei⟧⟦の→の：09472_no⟧⟦{管理職|かんりしょく}→管理職：21834_kanrishoku⟧⟦へ→へ：02473_he⟧⟦の→の：09472_no⟧{登用|とうよう}⟦が→が：00051_ga⟧⟦{進|すす}んでいる→進む：01225_susumu⟧。",
       "english": "The appointment of women to management positions is progressing.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "17153_touyou_ex3",
-      "japanese": "{実力|じつりょく}{主義|しゅぎ}の{会社|かいしゃ}では、{年齢|ねんれい}に{関係|かんけい}なく{優秀|ゆうしゅう}な{人材|じんざい}が{登用|とうよう}される。",
+      "japanese": "⟦{実力|じつりょく}{主義|しゅぎ}→実力主義：17836_jitsuryokushugi⟧⟦の→の：09472_no⟧⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧、⟦{年齢|ねんれい}→年齢：01490_nenrei⟧⟦に→に：00314_ni⟧⟦{関係|かんけい}→関係：01298_kankei⟧⟦なく→ない：01118_nai⟧⟦{優秀|ゆうしゅう}→優秀：03646_yuushuu⟧な⟦{人材|じんざい}→人材：11426_jinzai⟧⟦が→が：00051_ga⟧{登用|とうよう}⟦される→する：00392_suru⟧。",
       "english": "In a meritocratic company, talented people are promoted regardless of age.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA compound of {登|とう} (ascend, rise) + {用|よう} (employ, use). Used as a suru verb ({登用|とうよう}する). Implies selecting people based on ability and giving them important roles. Common in business and political contexts.\n\nCOMMON COLLOCATIONS:\n- {人材|じんざい}の{登用|とうよう} (recruitment of talent)\n- {抜擢|ばってき}{登用|とうよう} (selection and appointment based on merit)\n- {登用|とうよう}{試験|しけん} (appointment examination)\n\nSIMILAR WORDS:\n- {抜擢|ばってき}: selection based on merit — implies choosing someone exceptional, often skipping over others\n- {昇進|しょうしん}: promotion — moving up in rank within an organization\n- {任命|にんめい}: appointment — officially assigning someone to a role",
+  "notes": "USAGE:\nA compound of {登|とう} (ascend, rise) + ⟦{用|よう}→〜用：09842_you⟧ (employ, use). Used as a suru verb ({登用|とうよう}⟦する→する：00392_suru⟧). Implies selecting people based on ability and giving them important roles. Common in business and political contexts.\n\nCOMMON COLLOCATIONS:\n- ⟦{人材|じんざい}→人材：11426_jinzai⟧⟦の→の：09472_no⟧{登用|とうよう} (recruitment of talent)\n- ⟦{抜擢|ばってき}→抜擢：07946_batteki⟧{登用|とうよう} (selection and appointment based on merit)\n- {登用|とうよう}⟦{試験|しけん}→試験：01422_shiken⟧ (appointment examination)\n\nSIMILAR WORDS:\n- ⟦{抜擢|ばってき}→抜擢：07946_batteki⟧: selection based on merit — implies choosing someone exceptional, often skipping over others\n- ⟦{昇進|しょうしん}→昇進：04553_shoushin⟧: promotion — moving up in rank within an organization\n- ⟦{任命|にんめい}→任命：09764_ninmei⟧: appointment — officially assigning someone to a role",
   "cross_references": [
     {
       "type": "synonym",
@@ -142,11 +142,32 @@
       "reading": "しょうしん",
       "headword": "{昇進|しょうしん}",
       "label": "promotion (moving up)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07946_batteki",
+      "reading": "ばってき",
+      "headword": "{抜擢|ばってき}",
+      "label": "selection based on merit"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09764_ninmei",
+      "reading": "にんめい",
+      "headword": "{任命|にんめい}",
+      "label": "appointment"
+    },
+    {
+      "type": "related",
+      "target_id": "21047_battekijinji",
+      "reading": "ばってきじんじ",
+      "headword": "{抜擢人事|ばってきじんじ}",
+      "label": "promotion based on merit"
     }
   ],
   "metadata": {
     "created": "2026-03-16T03:13:44Z",
-    "modified": "2026-05-05T10:11:30Z",
+    "modified": "2026-09-02T04:01:47Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -159,7 +180,8 @@
       "semantic": [
         "work"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

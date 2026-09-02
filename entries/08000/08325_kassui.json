@@ -14,30 +14,36 @@
   "examples": [
     {
       "id": "08325_kassui_ex1",
-      "japanese": "{渇水|かっすい}で{取水|しゅすい}{制限|せいげん}が{始|はじ}まった。",
+      "japanese": "{渇水|かっすい}⟦で→で：00502_de⟧{取水|しゅすい}⟦{制限|せいげん}→制限：03375_seigen⟧⟦が→が：00051_ga⟧⟦{始|はじ}まった→始まる：00841_hajimaru⟧。",
       "english": "Water intake restrictions have begun due to the water shortage.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "08325_kassui_ex2",
-      "japanese": "ダムの{水位|すいい}が{下|さ}がり、{渇水|かっすい}が{心配|しんぱい}されている。",
+      "japanese": "⟦ダム→ダム：00034_damu⟧⟦の→の：09472_no⟧⟦{水位|すいい}→水位：21569_suii⟧⟦が→が：00051_ga⟧⟦{下|さ}がり→下がる：01188_sagaru⟧、{渇水|かっすい}⟦が→が：00051_ga⟧⟦{心配|しんぱい}→心配：00811_shinpai⟧⟦されている→する：00392_suru⟧。",
       "english": "The dam's water level has dropped, and there are concerns about water shortage.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "08325_kassui_ex3",
-      "japanese": "{渇水|かっすい}{対策|たいさく}として{節水|せっすい}を{呼|よ}びかけている。",
+      "japanese": "{渇水|かっすい}⟦{対策|たいさく}→対策：02511_taisaku⟧⟦として→として：06802_toshite⟧⟦{節水|せっすい}→節水：07964_sessui⟧⟦を→を：00422_wo⟧⟦{呼|よ}びかけている→呼びかける：06480_yobikakeru⟧。",
       "english": "They are calling for water conservation as a drought countermeasure.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "FORMATION:\n{渇|かつ} (to dry up, thirsty) + {水|すい} (water) → water drying up\n\nCOMMON EXPRESSIONS:\n- {渇水|かっすい}{対策|たいさく} (drought countermeasures)\n- {渇水|かっすい}{期|き} (dry season, drought period)\n- {渇水|かっすい}{制限|せいげん} (water shortage restrictions)\n- {渇水|かっすい}{注意報|ちゅういほう} (water shortage advisory)\n\nRELATED TERMS:\n- {干|かん}ばつ/{旱魃|かんばつ} (drought - agricultural focus)\n- {水不足|みずぶそく} (water shortage - more casual)\n- {節水|せっすい} (water conservation)\n- {断水|だんすい} (water outage, water cut-off)\n\nCONTEXT:\n{渇水|かっすい} is commonly used in news reports about dam levels, municipal water supply issues, and drought conditions affecting water infrastructure.",
+  "notes": "FORMS:\n{渇|かつ} (to dry up, thirsty) + {水|すい} (water) → water drying up\n\nCOMMON EXPRESSIONS:\n- {渇水|かっすい}⟦{対策|たいさく}→対策：02511_taisaku⟧ (drought countermeasures)\n- {渇水|かっすい}{期|き} (dry season, drought period)\n- {渇水|かっすい}⟦{制限|せいげん}→制限：03375_seigen⟧ (water shortage restrictions)\n- {渇水|かっすい}⟦{注意報|ちゅういほう}→注意報：16464_chuuihou⟧ (water shortage advisory)\n\nRELATED WORDS:\n- ⟦{干|かん}ばつ→干ばつ：05122_kanbatsu⟧/{旱魃|かんばつ} (drought - agricultural focus)\n- ⟦{水不足|みずぶそく}→水不足：15397_mizubusoku⟧ (water shortage - more casual)\n- ⟦{節水|せっすい}→節水：07964_sessui⟧ (water conservation)\n- ⟦{断水|だんすい}→断水：04518_dansui⟧ (water outage, water cut-off)\n\nUSAGE:\n{渇水|かっすい} is commonly used in news reports about dam levels, municipal water supply issues, and drought conditions affecting water infrastructure.",
   "cross_references": [
     {
       "type": "synonym",
@@ -59,16 +65,44 @@
       "reading": "だんすい",
       "headword": "{断水|だんすい}",
       "label": "water outage"
+    },
+    {
+      "type": "related",
+      "target_id": "15397_mizubusoku",
+      "reading": "みずぶそく",
+      "headword": "{水不足|みずぶそく}",
+      "label": "water shortage"
+    },
+    {
+      "type": "related",
+      "target_id": "06189_hideri",
+      "reading": "ひでり",
+      "headword": "{日照|ひで}り",
+      "label": "drought"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23823_gensui",
+      "reading": "げんすい",
+      "headword": "{減水|げんすい}",
+      "label": "drop in water level"
     }
   ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "semantic": ["weather", "water", "infrastructure"]
+      "politeness": "plain",
+      "semantic": [
+        "weather",
+        "water",
+        "infrastructure"
+      ]
     },
     "created": "2026-01-25T23:17:45Z",
-    "modified": "2026-04-20T06:28:06Z"
+    "modified": "2026-09-02T04:01:14Z"
   }
 }

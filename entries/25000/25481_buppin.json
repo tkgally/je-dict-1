@@ -15,38 +15,72 @@
   "examples": [
     {
       "id": "25481_buppin_ex1",
-      "japanese": "{救援|きゅうえん}{物品|ぶっぴん}を{届|とど}ける。",
+      "japanese": "⟦{救援|きゅうえん}→救援：07864_kyuuen⟧{物品|ぶっぴん}⟦を→を：00422_wo⟧⟦{届|とど}ける→届ける：01248_todokeru⟧。",
       "english": "To deliver relief supplies.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "25481_buppin_ex2",
-      "japanese": "{会社|かいしゃ}の{物品|ぶっぴん}を{私的|してき}に{使用|しよう}してはいけない。",
+      "japanese": "⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦の→の：09472_no⟧{物品|ぶっぴん}⟦を→を：00422_wo⟧⟦{私的|してき}→私的：06350_shiteki⟧⟦に→に：00314_ni⟧⟦{使用|しよう}→使用：01637_shiyou⟧⟦して→する：00392_suru⟧⟦は→は：00079_ha⟧いけない。",
       "english": "You must not use company property for personal purposes.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "25481_buppin_ex3",
-      "japanese": "{被災地|ひさいち}に{食料|しょくりょう}や{衣類|いるい}などの{物品|ぶっぴん}を{送|おく}るボランティアに{参加|さんか}した。",
+      "japanese": "⟦{被災地|ひさいち}→被災地：27434_hisaichi⟧⟦に→に：00314_ni⟧⟦{食料|しょくりょう}→食料：03250_shokuryou⟧や⟦{衣類|いるい}→衣類：04680_irui⟧⟦など→〜など：03095_nado⟧⟦の→の：09472_no⟧{物品|ぶっぴん}⟦を→を：00422_wo⟧⟦{送|おく}る→送る：00742_okuru⟧⟦ボランティア→ボランティア：04834_borantia⟧⟦に→に：00314_ni⟧⟦{参加|さんか}した→参加する：25408_sankasuru⟧。",
       "english": "I participated in volunteer work sending supplies like food and clothing to the disaster-stricken area.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {物|ぶつ} (thing; object) and {品|ぴん} (article; item). A formal word used in official, administrative, and business contexts. In everyday conversation, {物|もの} or {品物|しなもの} is more natural.\n\nCOMMON COLLOCATIONS:\n- {救援|きゅうえん}{物品|ぶっぴん}: relief supplies\n- {支援|しえん}{物品|ぶっぴん}: support goods; aid supplies\n- {物品|ぶっぴん}{管理|かんり}: inventory management; property management\n- {物品|ぶっぴん}{購入|こうにゅう}: purchasing goods\n- {物品|ぶっぴん}{税|ぜい}: commodity tax\n\nSIMILAR WORDS:\n- {品物|しなもの}: goods; merchandise — everyday term for items, especially in shopping\n- {物|もの}: thing; object — the most general, everyday word\n- {商品|しょうひん}: merchandise; product — specifically items for sale\n- {備品|びひん}: equipment; fixtures — items belonging to an organization, kept for regular use",
+  "notes": "A compound of ⟦{物|ぶつ}→〜物：28336_butsu⟧ (thing; object) and {品|ぴん} (article; item). A formal word used in official, administrative, and business contexts. In everyday conversation, ⟦{物|もの}→物：02259_mono⟧ or ⟦{品物|しなもの}→品物：00886_shinamono⟧ is more natural.\n\nCOMMON COLLOCATIONS:\n- ⟦{救援|きゅうえん}→救援：07864_kyuuen⟧{物品|ぶっぴん}: relief supplies\n- ⟦{支援|しえん}→支援：07778_shien⟧{物品|ぶっぴん}: support goods; aid supplies\n- {物品|ぶっぴん}⟦{管理|かんり}→管理：00178_kanri⟧: inventory management; property management\n- {物品|ぶっぴん}⟦{購入|こうにゅう}→購入：03057_kounyuu⟧: purchasing goods\n- {物品|ぶっぴん}{税|ぜい}: commodity tax\n\nSIMILAR WORDS:\n- ⟦{品物|しなもの}→品物：00886_shinamono⟧: goods; merchandise — everyday term for items, especially in shopping\n- ⟦{物|もの}→物：02259_mono⟧: thing; object — the most general, everyday word\n- ⟦{商品|しょうひん}→商品：01436_shouhin⟧: merchandise; product — specifically items for sale\n- ⟦{備品|びひん}→備品：16253_bihin⟧: equipment; fixtures — items belonging to an organization, kept for regular use",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00886_shinamono",
+      "reading": "しなもの",
+      "headword": "{品物|しなもの}",
+      "label": "goods"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01436_shouhin",
+      "reading": "しょうひん",
+      "headword": "{商品|しょうひん}",
+      "label": "merchandise"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16253_bihin",
+      "reading": "びひん",
+      "headword": "{備品|びひん}",
+      "label": "equipment"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["business"]
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "business"
+      ]
     },
     "created": "2026-04-25T14:18:46Z",
-    "modified": "2026-04-25T14:18:46Z"
+    "modified": "2026-09-02T04:02:22Z"
   }
 }

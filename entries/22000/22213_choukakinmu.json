@@ -3,7 +3,7 @@
   "headword": "{超過勤務|ちょうかきんむ}",
   "reading": "ちょうかきんむ",
   "romaji": "choukakinmu",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "overtime work; work beyond regular hours",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22213_choukakinmu_ex1",
-      "japanese": "{超過勤務|ちょうかきんむ}が{多|おお}すぎる。",
+      "japanese": "{超過勤務|ちょうかきんむ}⟦が→が：00051_ga⟧{多|おお}すぎる。",
       "english": "There is too much overtime work.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22213_choukakinmu_ex2",
-      "japanese": "{超過勤務|ちょうかきんむ}{手当|てあて}は{正|ただ}しく{支払|しはら}われるべきだ。",
+      "japanese": "{超過勤務|ちょうかきんむ}{手当|てあて}⟦は→は：00079_ha⟧⟦{正|ただ}しく→正しい：00893_tadashii⟧⟦{支払|しはら}われる→支払う：02116_shiharau⟧べきだ。",
       "english": "Overtime pay should be paid properly.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22213_choukakinmu_ex3",
-      "japanese": "{月|つき}の{超過勤務|ちょうかきんむ}が{上限|じょうげん}を{超|こ}えないよう{管理|かんり}する{必要|ひつよう}がある。",
+      "japanese": "⟦{月|つき}→月：02230_tsuki⟧⟦の→の：09472_no⟧{超過勤務|ちょうかきんむ}⟦が→が：00051_ga⟧⟦{上限|じょうげん}→上限：11299_jougen⟧⟦を→を：00422_wo⟧⟦{超|こ}えない→超える：01942_koeru⟧よう⟦{管理|かんり}する→管理する：21910_kanrisuru⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "We need to manage things so that monthly overtime doesn't exceed the upper limit.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {超過|ちょうか} (excess, exceeding) + {勤務|きんむ} (duty, work). A formal, administrative term for overtime. In everyday conversation, {残業|ざんぎょう} is much more common.\n\nCOMMON COLLOCATIONS:\n- {超過勤務|ちょうかきんむ}{手当|てあて} — overtime pay/allowance\n- {超過勤務|ちょうかきんむ}{時間|じかん} — overtime hours\n- {超過勤務|ちょうかきんむ}{命令|めいれい} — overtime order (official directive to work overtime)\n- {超過勤務|ちょうかきんむ}の{削減|さくげん} — reduction of overtime\n\nSIMILAR WORDS:\n- {残業|ざんぎょう} — overtime (everyday term; far more commonly used in conversation)\n- {時間外|じかんがい}{労働|ろうどう} — work outside regular hours (legal/labor law term)\n- {勤務|きんむ} — work, duty (general term)\n\nREGISTER:\nPrimarily used in official, administrative, and legal contexts — government documents, labor regulations, and corporate HR materials. In everyday workplace conversation, {残業|ざんぎょう} is strongly preferred.",
+  "notes": "Composed of ⟦{超過|ちょうか}→超過：04523_chouka⟧ (excess, exceeding) + ⟦{勤務|きんむ}→勤務：04545_kinmu⟧ (duty, work). A formal, administrative term for overtime. In everyday conversation, ⟦{残業|ざんぎょう}→残業：01071_zangyou⟧ is much more common.\n\nCOMMON COLLOCATIONS:\n- {超過勤務|ちょうかきんむ}{手当|てあて} — overtime pay/allowance\n- {超過勤務|ちょうかきんむ}{時間|じかん} — overtime hours\n- {超過勤務|ちょうかきんむ}⟦{命令|めいれい}→命令：03754_meirei⟧ — overtime order (official directive to work overtime)\n- {超過勤務|ちょうかきんむ}⟦の→の：09472_no⟧⟦{削減|さくげん}→削減：11789_sakugen⟧ — reduction of overtime\n\nSIMILAR WORDS:\n- ⟦{残業|ざんぎょう}→残業：01071_zangyou⟧ — overtime (everyday term; far more commonly used in conversation)\n- ⟦{時間外|じかんがい}→時間外：26570_jikangai⟧⟦{労働|ろうどう}→労働：03785_roudou⟧ — work outside regular hours (legal/labor law term)\n- ⟦{勤務|きんむ}→勤務：04545_kinmu⟧ — work, duty (general term)\n\nREGISTER:\nPrimarily used in official, administrative, and legal contexts — government documents, labor regulations, and corporate HR materials. In everyday workplace conversation, ⟦{残業|ざんぎょう}→残業：01071_zangyou⟧ is strongly preferred.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01071_zangyou",
+      "reading": "ざんぎょう",
+      "headword": "{残業|ざんぎょう}",
+      "label": "overtime (everyday term"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -54,14 +63,14 @@
         "verb-suru"
       ],
       "formality": "formal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "work"
       ],
       "verb_class": "suru"
     },
     "created": "2026-04-05T14:19:38Z",
-    "modified": "2026-04-05T14:19:38Z"
+    "modified": "2026-09-02T04:02:07Z"
   },
   "conjugation": {
     "type": "suru",

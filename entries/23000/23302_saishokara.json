@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "23302_saishokara_ex1",
-      "japanese": "{最初|さいしょ}からやり{直|なお}す。",
+      "japanese": "{最初|さいしょ}から⟦やり{直|なお}す→やり直す：03172_yarinaosu⟧。",
       "english": "To start over from the beginning.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "23302_saishokara_ex2",
-      "japanese": "{私|わたし}は{最初|さいしょ}から{賛成|さんせい}でした。",
+      "japanese": "⟦{私|わたし}→私：02988_watashi⟧⟦は→は：00079_ha⟧{最初|さいしょ}から⟦{賛成|さんせい}→賛成：02829_sansei⟧でした。",
       "english": "I was in favor of it from the very start.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "23302_saishokara_ex3",
-      "japanese": "{彼|かれ}は{最初|さいしょ}からそのつもりだったらしい。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{最初|さいしょ}から⟦その→その：00993_sono⟧⟦つもり→つもり：01152_tsumori⟧だったらしい。",
       "english": "It seems he had that intention from the very beginning.",
       "sense_numbers": [
         1
@@ -45,7 +45,7 @@
     },
     {
       "id": "23302_saishokara_ex4",
-      "japanese": "{間違|まちが}えたので、{最初|さいしょ}から{書|か}き{直|なお}さなければならない。",
+      "japanese": "⟦{間違|まちが}えた→間違える：01109_machigaeru⟧⟦の→の：09472_no⟧で、{最初|さいしょ}から⟦{書|か}き{直|なお}さ→書き直す：04597_kakinaosu⟧⟦なければならない→なければならない：27600_nakerebanaranai⟧。",
       "english": "I made a mistake, so I have to rewrite it from the beginning.",
       "sense_numbers": [
         1
@@ -54,8 +54,31 @@
       "notes": null
     }
   ],
-  "notes": "A set phrase combining {最初|さいしょ} (the beginning, first) + から (from). Used to indicate that something has been true since the very beginning, or that an action is being restarted from the beginning.\n\nCOMMON COLLOCATIONS:\n- {最初|さいしょ}からやり{直|なお}す: to start over from the beginning\n- {最初|さいしょ}から{知|し}っていた: to have known from the start\n- {最初|さいしょ}から{無理|むり}: impossible from the start\n- {最初|さいしょ}からそのつもり: to have intended it from the beginning\n- {最初|さいしょ}から{最後|さいご}まで: from beginning to end\n\nSIMILAR WORDS:\n- {初|はじ}めから: from the beginning — nearly synonymous; slightly more casual/spoken\n- {一|いち}から: from scratch — emphasizes starting over completely, often without relying on any previous work\n- {最初|さいしょ}に: at first; initially — indicates a point in time, not a continuous state\n\nUSAGE:\nOften used emotionally to express that something was obvious or decided early on, as in {最初|さいしょ}からそう{言|い}ってよ (\"You should have said that from the start!\"). When paired with verbs like やり{直|なお}す, it means to redo from scratch.",
+  "notes": "A set phrase combining ⟦{最初|さいしょ}→最初：00882_saisho⟧ (the beginning, first) + ⟦から→から：00504_kara⟧ (from). Used to indicate that something has been true since the very beginning, or that an action is being restarted from the beginning.\n\nCOMMON COLLOCATIONS:\n- {最初|さいしょ}から⟦やり{直|なお}す→やり直す：03172_yarinaosu⟧: to start over from the beginning\n- {最初|さいしょ}から⟦{知|し}っていた→知る：00458_shiru⟧: to have known from the start\n- {最初|さいしょ}から⟦{無理|むり}→無理：01558_muri⟧: impossible from the start\n- {最初|さいしょ}から⟦その→その：00993_sono⟧⟦つもり→つもり：01152_tsumori⟧: to have intended it from the beginning\n- {最初|さいしょ}から⟦{最後|さいご}→最後：01413_saigo⟧⟦まで→まで：00490_made⟧: from beginning to end\n\nSIMILAR WORDS:\n- ⟦{初|はじ}め→初め：02931_hajime⟧⟦から→から：00504_kara⟧: from the beginning — nearly synonymous; slightly more casual/spoken\n- ⟦{一|いち}→一：00705_ichi⟧⟦から→から：00504_kara⟧: from scratch — emphasizes starting over completely, often without relying on any previous work\n- ⟦{最初|さいしょ}→最初：00882_saisho⟧⟦に→に：00314_ni⟧: at first; initially — indicates a point in time, not a continuous state\n\nUSAGE:\nOften used emotionally to express that something was obvious or decided early on, as in {最初|さいしょ}からそう⟦{言|い}って→言う：00515_iu⟧⟦よ→よ：09475_yo⟧ (\"You should have said that from the start!\"). When paired with verbs like ⟦やり{直|なお}す→やり直す：03172_yarinaosu⟧, it means to redo from scratch.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19788_hajimekara",
+      "reading": "はじめから",
+      "headword": "{初|はじ}めから",
+      "label": "from the beginning"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00882_saisho",
+      "reading": "さいしょ",
+      "headword": "{最初|さいしょ}",
+      "label": "at first"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23716_tochuukara",
+      "reading": "とちゅうから",
+      "headword": "{途中|とちゅう}から",
+      "label": "from partway through"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -69,6 +92,6 @@
       ]
     },
     "created": "2026-04-11T17:04:08Z",
-    "modified": "2026-07-31T18:20:34Z"
+    "modified": "2026-09-02T04:02:11Z"
   }
 }

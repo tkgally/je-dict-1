@@ -5,20 +5,44 @@
   "reading": "あつかいかた",
   "part_of_speech": "noun",
   "gloss": "how to handle; way of treating; manner of use",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07797_tsukaikata",
+      "reading": "つかいかた",
+      "headword": "{使|つか}い{方|かた}",
+      "label": "how to use"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09806_toriatsukai",
+      "reading": "とりあつかい",
+      "headword": "{取|と}り{扱|あつか}い",
+      "label": "handling, treatment"
+    },
+    {
+      "type": "related",
+      "target_id": "01862_atsukau",
+      "reading": "あつかう",
+      "headword": "{扱|あつか}う",
+      "label": "to handle, to deal with"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "action"
       ]
     },
     "created": "2026-04-03T21:28:59Z",
-    "modified": "2026-04-03T21:28:59Z"
+    "modified": "2026-09-02T04:02:05Z"
   },
-  "notes": "A versatile compound noun that can refer to handling physical objects (tools, machines), managing data or information, or treating people. Formed with the productive pattern of verb stem + {方|かた} (way of doing).\n\nCOMMON COLLOCATIONS:\n- {扱|あつか}い{方|かた}がうまい: to be good at handling\n- {扱|あつか}い{方|かた}を{間違|まちが}える: to mishandle\n- {扱|あつか}い{方|かた}を{知|し}る: to know how to handle\n- {扱|あつか}い{方|かた}が{荒|あら}い: to handle roughly\n- {扱|あつか}い{方|かた}に{困|こま}る: to be at a loss for how to deal with\n\nSIMILAR WORDS:\n- {使|つか}い{方|かた}: how to use — specifically about operating or using something\n- {対処法|たいしょほう}: coping method — focuses on dealing with problems or difficult situations\n- {取|と}り{扱|あつか}い: handling, treatment — a more formal synonym, often used in instructions and manuals\n\nETYMOLOGY:\nComposed of {扱|あつか}い (handling, from the verb {扱|あつか}う) + {方|かた} (way, method).",
+  "notes": "A versatile compound noun that can refer to handling physical objects (tools, machines), managing data or information, or treating people. Formed with the productive pattern of verb stem + ⟦{方|かた}→方：10665_kata⟧ (way of doing).\n\nCOMMON COLLOCATIONS:\n- {扱|あつか}い{方|かた}⟦が→が：00051_ga⟧⟦うまい→うまい：01279_umai⟧: to be good at handling\n- {扱|あつか}い{方|かた}⟦を→を：00422_wo⟧⟦{間違|まちが}える→間違える：01109_machigaeru⟧: to mishandle\n- {扱|あつか}い{方|かた}⟦を→を：00422_wo⟧⟦{知|し}る→知る：00458_shiru⟧: to know how to handle\n- {扱|あつか}い{方|かた}⟦が→が：00051_ga⟧⟦{荒|あら}い→荒い：00466_arai⟧: to handle roughly\n- {扱|あつか}い{方|かた}⟦に→に：00314_ni⟧⟦{困|こま}る→困る：00861_komaru⟧: to be at a loss for how to deal with\n\nSIMILAR WORDS:\n- ⟦{使|つか}い{方|かた}→使い方：07797_tsukaikata⟧: how to use — specifically about operating or using something\n- {対処法|たいしょほう}: coping method — focuses on dealing with problems or difficult situations\n- ⟦{取|と}り{扱|あつか}い→取り扱い：09806_toriatsukai⟧: handling, treatment — a more formal synonym, often used in instructions and manuals\n\nETYMOLOGY:\nComposed of ⟦{扱|あつか}い→扱い：12777_atsukai⟧ (handling, from the verb ⟦{扱|あつか}う→扱う：01862_atsukau⟧) + ⟦{方|かた}→方：10665_kata⟧ (way, method).",
   "definitions": [
     {
       "sense_number": 1,
@@ -29,7 +53,7 @@
   "examples": [
     {
       "id": "21915_atsukaikata_ex1",
-      "japanese": "この{機械|きかい}の{扱|あつか}い{方|かた}を{教|おし}えてください。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{機械|きかい}→機械：02366_kikai⟧⟦の→の：09472_no⟧{扱|あつか}い{方|かた}⟦を→を：00422_wo⟧⟦{教|おし}えて→教える：00526_oshieru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please teach me how to use this machine.",
       "sense_numbers": [
         1
@@ -39,7 +63,7 @@
     },
     {
       "id": "21915_atsukaikata_ex2",
-      "japanese": "{子供|こども}の{扱|あつか}い{方|かた}がうまい{人|ひと}だ。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧⟦の→の：09472_no⟧{扱|あつか}い{方|かた}⟦が→が：00051_ga⟧⟦うまい→うまい：01279_umai⟧⟦{人|ひと}→人：00476_hito⟧だ。",
       "english": "That person is good at handling children.",
       "sense_numbers": [
         1
@@ -49,7 +73,7 @@
     },
     {
       "id": "21915_atsukaikata_ex3",
-      "japanese": "データの{扱|あつか}い{方|かた}を{間違|まちが}えると{大|おお}きな{問題|もんだい}になる。",
+      "japanese": "⟦データ→データ：03944_deeta⟧⟦の→の：09472_no⟧{扱|あつか}い{方|かた}⟦を→を：00422_wo⟧⟦{間違|まちが}える→間違える：01109_machigaeru⟧⟦と→と：00512_to⟧⟦{大|おお}きな→大きな：02849_ookina⟧⟦{問題|もんだい}→問題：00797_mondai⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧。",
       "english": "If you mishandle data, it will become a big problem.",
       "sense_numbers": [
         1
@@ -59,7 +83,7 @@
     },
     {
       "id": "21915_atsukaikata_ex4",
-      "japanese": "{彼|かれ}は{部下|ぶか}の{扱|あつか}い{方|かた}が{荒|あら}いと{評判|ひょうばん}だ。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{部下|ぶか}→部下：06453_buka⟧⟦の→の：09472_no⟧{扱|あつか}い{方|かた}⟦が→が：00051_ga⟧⟦{荒|あら}い→荒い：00466_arai⟧⟦と→と：00512_to⟧⟦{評判|ひょうばん}→評判：03586_hyouban⟧だ。",
       "english": "He has a reputation for treating his subordinates roughly.",
       "sense_numbers": [
         1

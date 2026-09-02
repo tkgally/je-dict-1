@@ -15,41 +15,67 @@
   "examples": [
     {
       "id": "28107_jisho_ex1",
-      "japanese": "{広|ひろ}い{地所|じしょ}を{所有|しょゆう}している。",
+      "japanese": "⟦{広|ひろ}い→広い：00704_hiroi⟧{地所|じしょ}⟦を→を：00422_wo⟧⟦{所有|しょゆう}→所有：12752_shoyuu⟧⟦している→する：00392_suru⟧。",
       "english": "He owns a large plot of land.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28107_jisho_ex2",
-      "japanese": "その{地所|じしょ}は{先祖代々|せんぞだいだい}の{土地|とち}だ。",
+      "japanese": "⟦その→その：00993_sono⟧{地所|じしょ}⟦は→は：00079_ha⟧{先祖代々|せんぞだいだい}⟦の→の：09472_no⟧⟦{土地|とち}→土地：02226_tochi⟧だ。",
       "english": "That plot of land has been in the family for generations.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28107_jisho_ex3",
-      "japanese": "{会社|かいしゃ}は{駅前|えきまえ}の{地所|じしょ}を{買|か}い{取|と}って、{新|あたら}しいビルを{建|た}てた。",
+      "japanese": "⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦は→は：00079_ha⟧⟦{駅前|えきまえ}→駅前：09593_ekimae⟧⟦の→の：09472_no⟧{地所|じしょ}⟦を→を：00422_wo⟧⟦{買|か}い{取|と}って→買い取る：16704_kaitoru⟧、⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦ビル→ビル：01500_biru⟧⟦を→を：00422_wo⟧⟦{建|た}てた→建てる：01189_tateru⟧。",
       "english": "The company bought up a plot of land in front of the station and put up a new building.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A piece of land held as property — a lot, plot, or estate. Somewhat formal; emphasizes land as a possession or asset.\n\nCOMMON COLLOCATIONS:\n- {地所|じしょ}を{所有|しょゆう}する: to own a piece of land\n- {広|ひろ}い{地所|じしょ}: a large plot of land\n\nSIMILAR WORDS:\n- {土地|とち}: land — the everyday, general word\n- {敷地|しきち}: site; premises — land set aside for a specific building or use",
+  "notes": "A piece of land held as property — a lot, plot, or estate. Somewhat formal; emphasizes land as a possession or asset.\n\nCOMMON COLLOCATIONS:\n- {地所|じしょ}⟦を→を：00422_wo⟧⟦{所有|しょゆう}→所有：12752_shoyuu⟧⟦する→する：00392_suru⟧: to own a piece of land\n- ⟦{広|ひろ}い→広い：00704_hiroi⟧{地所|じしょ}: a large plot of land\n\nSIMILAR WORDS:\n- ⟦{土地|とち}→土地：02226_tochi⟧: land — the everyday, general word\n- ⟦{敷地|しきち}→敷地：00365_shikichi⟧: site; premises — land set aside for a specific building or use",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02226_tochi",
+      "reading": "とち",
+      "headword": "{土地|とち}",
+      "label": "land"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00365_shikichi",
+      "reading": "しきち",
+      "headword": "{敷地|しきち}",
+      "label": "site"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["geography"],
+      "semantic": [
+        "geography"
+      ],
       "domain": []
     },
     "created": "2026-05-25T04:08:01Z",
-    "modified": "2026-05-25T04:08:01Z"
+    "modified": "2026-09-02T04:02:32Z"
   }
 }

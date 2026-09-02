@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "17674_toppingu_ex1",
-      "japanese": "トッピングを{追加|ついか}する。",
+      "japanese": "トッピング⟦を→を：00422_wo⟧⟦{追加|ついか}する→追加する：19646_tsuikasuru⟧。",
       "english": "To add a topping.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "17674_toppingu_ex2",
-      "japanese": "ラーメンのトッピングは{煮|に}{卵|たまご}にした。",
+      "japanese": "⟦ラーメン→ラーメン：05181_raamen⟧⟦の→の：09472_no⟧トッピング⟦は→は：00079_ha⟧{煮|に}{卵|たまご}にした。",
       "english": "I chose a soft-boiled egg as my ramen topping.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "17674_toppingu_ex3",
-      "japanese": "このピザは{好|す}きなトッピングを{三|みっ}つまで{選|えら}べます。",
+      "japanese": "⟦この→この：00962_kono⟧⟦ピザ→ピザ：06769_piza⟧⟦は→は：00079_ha⟧⟦{好|す}き→好き：02355_suki⟧なトッピング⟦を→を：00422_wo⟧⟦{三|みっ}つ→三つ：02970_mittsu⟧⟦まで→まで：00490_made⟧⟦{選|えら}べます→選ぶ：00835_erabu⟧。",
       "english": "You can choose up to three toppings for this pizza.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,19 @@
       ]
     }
   ],
-  "notes": "From English \"topping.\" Widely used in restaurant contexts for additional ingredients placed on a dish.\n\nCOMMON COLLOCATIONS:\n- トッピングを{追加|ついか}する: to add a topping\n- トッピングメニュー: toppings menu\n- {無料|むりょう}トッピング: free topping\n- トッピング{全部|ぜんぶ}{乗|の}せ: all toppings loaded\n\nTYPICAL CONTEXTS:\n- ラーメン: {煮|に}{卵|たまご} (soft-boiled egg), チャーシュー (char siu), メンマ (bamboo shoots)\n- ピザ: チーズ、ペパロニ\n- アイスクリーム: チョコソース、ナッツ\n\nUSAGE:\nMany ramen shops have a separate トッピングメニュー. At some shops, you order toppings by {券売機|けんばいき} (ticket machine) along with your main dish.",
-  "cross_references": [],
+  "notes": "From English \"topping.\" Widely used in restaurant contexts for additional ingredients placed on a dish.\n\nCOMMON COLLOCATIONS:\n- トッピング⟦を→を：00422_wo⟧⟦{追加|ついか}する→追加する：19646_tsuikasuru⟧: to add a topping\n- トッピング⟦メニュー→メニュー：11166_menyuu⟧: toppings menu\n- ⟦{無料|むりょう}→無料：01662_muryou⟧トッピング: free topping\n- トッピング⟦{全部|ぜんぶ}→全部：02888_zenbu⟧{乗|の}せ: all toppings loaded\n\nUSAGE:\n- ⟦ラーメン→ラーメン：05181_raamen⟧: {煮|に}{卵|たまご} (soft-boiled egg), ⟦チャーシュー→チャーシュー：17670_chaashuu⟧ (char siu), ⟦メンマ→メンマ：11130_menma⟧ (bamboo shoots)\n- ⟦ピザ→ピザ：06769_piza⟧: ⟦チーズ→チーズ：00026_chiizu⟧、ペパロニ\n- ⟦アイスクリーム→アイスクリーム：03830_aisukuriimu⟧: チョコ⟦ソース→ソース：17673_soosu⟧、⟦ナッツ→ナッツ：11253_nattsu⟧\nMany ramen shops have a separate トッピング⟦メニュー→メニュー：11166_menyuu⟧. At some shops, you order toppings by ⟦{券売機|けんばいき}→券売機：09553_kenbaiki⟧ (ticket machine) along with your main dish.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "07857_gu",
+      "reading": "ぐ",
+      "headword": "{具|ぐ}",
+      "label": "ingredients"
+    }
+  ],
   "metadata": {
     "created": "2026-02-12T11:47:02Z",
-    "modified": "2026-03-30T04:48:32Z",
+    "modified": "2026-09-02T04:01:49Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

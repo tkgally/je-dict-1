@@ -15,40 +15,58 @@
   "examples": [
     {
       "id": "15365_reijou_ex1",
-      "japanese": "お{中元|ちゅうげん}の{礼状|れいじょう}を{書|か}いた。",
+      "japanese": "⟦お{中元|ちゅうげん}→お中元：06125_ochuugen⟧⟦の→の：09472_no⟧{礼状|れいじょう}⟦を→を：00422_wo⟧⟦{書|か}いた→書く：00477_kaku⟧。",
       "english": "I wrote a thank-you letter for the mid-year gift.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15365_reijou_ex2",
-      "japanese": "{面接|めんせつ}の{後|あと}、{礼状|れいじょう}を{送|おく}るのがマナーだ。",
+      "japanese": "⟦{面接|めんせつ}→面接：01100_mensetsu⟧⟦の→の：09472_no⟧⟦{後|あと}→後：09580_ato⟧、{礼状|れいじょう}⟦を→を：00422_wo⟧⟦{送|おく}る→送る：00742_okuru⟧⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦マナー→マナー：11139_manaa⟧だ。",
       "english": "It is good manners to send a thank-you letter after an interview.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15365_reijou_ex3",
-      "japanese": "{贈|おく}り{物|もの}が{届|とど}いたら、できるだけ{早|はや}く{礼状|れいじょう}を{出|だ}すようにしている。",
+      "japanese": "⟦{贈|おく}り{物|もの}→贈り物：01343_okurimono⟧⟦が→が：00051_ga⟧⟦{届|とど}いたら→届く：00899_todoku⟧、⟦できるだけ{早|はや}く→できるだけ早く：24470_dekirudakehayaku⟧{礼状|れいじょう}⟦を→を：00422_wo⟧⟦{出|だ}す→出す：01087_dasu⟧ようにして⟦いる→いる：00495_iru⟧。",
       "english": "When I receive a gift, I try to send a thank-you letter as soon as possible.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE: Sending a {礼状|れいじょう} is an important part of Japanese social customs. Common occasions include receiving seasonal gifts (お{中元|ちゅうげん}, お{歳暮|せいぼ}), attending weddings, after job interviews, and after receiving hospitality.\n\nCOMMON COLLOCATIONS:\n- {礼状|れいじょう}を{書|か}く: to write a thank-you letter\n- {礼状|れいじょう}を{送|おく}る / {出|だ}す: to send a thank-you letter\n- お{礼|れい}の{手紙|てがみ}: thank-you letter (more casual phrasing)\n\nSIMILAR WORDS:\n- {礼状|れいじょう}: formal thank-you letter\n- {挨拶状|あいさつじょう}: greeting card/letter (broader, includes seasonal greetings)\n- {年賀状|ねんがじょう}: New Year's card (specific type of seasonal letter)",
-  "cross_references": [],
+  "notes": "USAGE: Sending a {礼状|れいじょう} is an important part of Japanese social customs. Common occasions include receiving seasonal gifts (⟦お{中元|ちゅうげん}→お中元：06125_ochuugen⟧, ⟦お{歳暮|せいぼ}→お歳暮：06126_oseibo⟧), attending weddings, after job interviews, and after receiving hospitality.\n\nCOMMON COLLOCATIONS:\n- {礼状|れいじょう}⟦を→を：00422_wo⟧⟦{書|か}く→書く：00477_kaku⟧: to write a thank-you letter\n- {礼状|れいじょう}⟦を→を：00422_wo⟧⟦{送|おく}る→送る：00742_okuru⟧ / ⟦{出|だ}す→出す：01087_dasu⟧: to send a thank-you letter\n- ⟦お{礼|れい}→お礼：01359_orei⟧⟦の→の：09472_no⟧⟦{手紙|てがみ}→手紙：00675_tegami⟧: thank-you letter (more casual phrasing)\n\nSIMILAR WORDS:\n- {礼状|れいじょう}: formal thank-you letter\n- {挨拶状|あいさつじょう}: greeting card/letter (broader, includes seasonal greetings)\n- ⟦{年賀状|ねんがじょう}→年賀状：06227_nengajou⟧: New Year's card (specific type of seasonal letter)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06227_nengajou",
+      "reading": "ねんがじょう",
+      "headword": "{年賀状|ねんがじょう}",
+      "label": "New Year's card"
+    }
+  ],
   "metadata": {
     "created": "2026-03-06T11:49:34Z",
-    "modified": "2026-03-06T11:49:34Z",
+    "modified": "2026-09-02T04:01:41Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["communication"]
+      "semantic": [
+        "communication"
+      ]
     }
   }
 }

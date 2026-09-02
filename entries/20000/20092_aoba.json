@@ -15,40 +15,80 @@
   "examples": [
     {
       "id": "20092_aoba_ex1",
-      "japanese": "{青葉|あおば}が{美|うつく}しい。",
+      "japanese": "{青葉|あおば}⟦が→が：00051_ga⟧⟦{美|うつく}しい→美しい：01121_utsukushii⟧。",
       "english": "The green leaves are beautiful.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20092_aoba_ex2",
-      "japanese": "{木々|きぎ}の{青葉|あおば}が{風|かぜ}に{揺|ゆ}れている。",
+      "japanese": "⟦{木々|きぎ}→木々：04811_kigi⟧⟦の→の：09472_no⟧{青葉|あおば}⟦が→が：00051_ga⟧⟦{風|かぜ}→風：00641_kaze⟧⟦に→に：00314_ni⟧⟦{揺|ゆ}れている→揺れる：01161_yureru⟧。",
       "english": "The green leaves on the trees are swaying in the wind.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20092_aoba_ex3",
-      "japanese": "{五月|ごがつ}になると{山|やま}は{青葉|あおば}に{覆|おお}われて、{目|め}に{鮮|あざ}やかだ。",
+      "japanese": "⟦{五月|ごがつ}→五月：00625_gogatsu⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦と→と：00512_to⟧⟦{山|やま}→山：02168_yama⟧⟦は→は：00079_ha⟧{青葉|あおば}⟦に→に：00314_ni⟧⟦{覆|おお}われて→覆う：02020_oou⟧、⟦{目|め}→目：00525_me⟧⟦に→に：00314_ni⟧⟦{鮮|あざ}やか→鮮やか：05702_azayaka⟧だ。",
       "english": "In May, the mountains are covered with fresh green leaves, vivid to the eye.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Refers specifically to the fresh, vibrant green foliage of late spring and early summer. Composed of {青|あお} (green/blue) + {葉|ば} (leaf/leaves). A poetic and seasonal word strongly associated with May and June.\n\nCOMMON COLLOCATIONS:\n- {青葉|あおば}の{季節|きせつ}: the season of fresh green leaves\n- {青葉|あおば}が{茂|しげ}る: green leaves grow thick\n- {青葉|あおば}の{頃|ころ}: around the time of fresh green foliage\n- {目|め}に{青葉|あおば}: green leaves pleasing to the eye (from a famous haiku)\n\nCULTURAL CONTEXT:\nIn haiku, {青葉|あおば} is a {季語|きご} (seasonal word) for early summer. The famous phrase {目|め}に{青葉|あおば} {山|やま}ほととぎす {初鰹|はつがつお} by {山口素堂|やまぐちそどう} celebrates three seasonal pleasures: green leaves for the eyes, the cuckoo for the ears, and the first bonito for the palate.\n\nRELATED TERMS:\n- {新緑|しんりょく}: fresh greenery — similar meaning but more general; also a seasonal word for early summer\n- {若葉|わかば}: young leaves — emphasizes the newness of the leaves rather than their color\n- {紅葉|こうよう}: autumn foliage — the seasonal counterpart to {青葉|あおば}",
+  "notes": "Refers specifically to the fresh, vibrant green foliage of late spring and early summer. Composed of ⟦{青|あお}→青：02841_ao⟧ (green/blue) + {葉|ば} (leaf/leaves). A poetic and seasonal word strongly associated with May and June.\n\nCOMMON COLLOCATIONS:\n- {青葉|あおば}⟦の→の：09472_no⟧⟦{季節|きせつ}→季節：01304_kisetsu⟧: the season of fresh green leaves\n- {青葉|あおば}⟦が→が：00051_ga⟧⟦{茂|しげ}る→茂る：03924_shigeru⟧: green leaves grow thick\n- {青葉|あおば}⟦の→の：09472_no⟧{頃|ころ}: around the time of fresh green foliage\n- ⟦{目|め}→目：00525_me⟧⟦に→に：00314_ni⟧{青葉|あおば}: green leaves pleasing to the eye (from a famous haiku)\n\nCULTURAL NOTE:\nIn haiku, {青葉|あおば} is a ⟦{季語|きご}→季語：09561_kigo⟧ (seasonal word) for early summer. The famous phrase ⟦{目|め}→目：00525_me⟧⟦に→に：00314_ni⟧{青葉|あおば} {山|やま}ほととぎす {初鰹|はつがつお} by {山口素堂|やまぐちそどう} celebrates three seasonal pleasures: green leaves for the eyes, the cuckoo for the ears, and the first bonito for the palate.\n\nRELATED WORDS:\n- ⟦{新緑|しんりょく}→新緑：12724_shinryoku⟧: fresh greenery — similar meaning but more general; also a seasonal word for early summer\n- ⟦{若葉|わかば}→若葉：19659_wakaba⟧: young leaves — emphasizes the newness of the leaves rather than their color\n- ⟦{紅葉|こうよう}→紅葉：04151_kouyou⟧: autumn foliage — the seasonal counterpart to {青葉|あおば}",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "12724_shinryoku",
+      "reading": "しんりょく",
+      "headword": "{新緑|しんりょく}",
+      "label": "fresh greenery"
+    },
+    {
+      "type": "related",
+      "target_id": "19659_wakaba",
+      "reading": "わかば",
+      "headword": "{若葉|わかば}",
+      "label": "young leaves"
+    },
+    {
+      "type": "related",
+      "target_id": "04151_kouyou",
+      "reading": "こうよう",
+      "headword": "{紅葉|こうよう}",
+      "label": "autumn foliage"
+    },
+    {
+      "type": "related",
+      "target_id": "05388_happa",
+      "reading": "はっぱ",
+      "headword": "{葉|は}っぱ",
+      "label": "leaf"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["nature"]
+      "semantic": [
+        "nature"
+      ]
     },
     "created": "2026-03-28T12:51:51Z",
-    "modified": "2026-03-28T12:51:51Z"
+    "modified": "2026-09-02T04:01:58Z"
   }
 }

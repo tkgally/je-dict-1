@@ -54,7 +54,7 @@
     },
     {
       "id": "00275_menbaa_ex5",
-      "japanese": "⟦プロジェクト→プロジェクト：06764_purojekuto⟧⟦の→の：09472_no⟧メンバー⟦を→を：00422_wo⟧⟦{選|えら}ぶ→選ぶ：00835_erabu⟧⟦とき→時：02918_toki⟧⟦は→は：00079_ha⟧、⟦{経験|けいけん}→経験：01179_keiken⟧⟦だけ→だけ：03093_dake⟧でなく、⟦チームワーク→チームワーク：10995_chiimuwaaku⟧⟦も→も：00484_mo⟧⟦{大切|たいせつ}にしている→大切：01456_taisetsu⟧。",
+      "japanese": "⟦プロジェクト→プロジェクト：06764_purojekuto⟧⟦の→の：09472_no⟧メンバー⟦を→を：00422_wo⟧⟦{選|えら}ぶ→選ぶ：00835_erabu⟧⟦とき→時：02918_toki⟧⟦は→は：00079_ha⟧、⟦{経験|けいけん}→経験：01179_keiken⟧⟦だけ→だけ：03093_dake⟧で⟦なく→ない：01118_nai⟧、⟦チームワーク→チームワーク：10995_chiimuwaaku⟧⟦も→も：00484_mo⟧⟦{大切|たいせつ}にしている→大切：01456_taisetsu⟧。",
       "english": "When choosing project members, I value not only experience but also teamwork.",
       "notes": null,
       "has_audio": false,
@@ -63,11 +63,61 @@
       ]
     }
   ],
-  "notes": "メンバー (from English 'member') refers to a person who belongs to a group.\n\nCOMMON PATTERNS:\n- メンバー⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧: to become a member\n- メンバー⟦を→を：00422_wo⟧⟦{集|あつ}める→集める：01170_atsumeru⟧: to gather members\n- メンバー⟦に→に：00314_ni⟧⟦{加|くわ}わる→加わる：01940_kuwawaru⟧: to join as a member\n\nCOMMON EXPRESSIONS:\n- ⟦チーム→チーム：03858_chiimu⟧メンバー: team member\n- ⟦バンド→バンド：05508_bando⟧メンバー: band member\n- ⟦{正式|せいしき}→正式：03376_seishiki⟧メンバー: official member\n- ⟦{創設|そうせつ}→創設：11905_sousetsu⟧メンバー: founding member\n\nRELATED:\n- ⟦{会員|かいいん}→会員：02535_kaiin⟧: member (of an organization, more formal)\n- ⟦{部員|ぶいん}→部員：27409_buin⟧: club member\n- ⟦{一員|いちいん}→一員：08920_ichiin⟧: member, one of (formal)",
-  "cross_references": [],
+  "notes": "メンバー (from English 'member') refers to a person who belongs to a group.\n\nCOMMON PATTERNS:\n- メンバー⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧: to become a member\n- メンバー⟦を→を：00422_wo⟧⟦{集|あつ}める→集める：01170_atsumeru⟧: to gather members\n- メンバー⟦に→に：00314_ni⟧⟦{加|くわ}わる→加わる：01940_kuwawaru⟧: to join as a member\n\nCOMMON EXPRESSIONS:\n- ⟦チーム→チーム：03858_chiimu⟧メンバー: team member\n- ⟦バンド→バンド：05508_bando⟧メンバー: band member\n- ⟦{正式|せいしき}→正式：03376_seishiki⟧メンバー: official member\n- ⟦{創設|そうせつ}→創設：11905_sousetsu⟧メンバー: founding member\n\nRELATED WORDS:\n- ⟦{会員|かいいん}→会員：02535_kaiin⟧: member (of an organization, more formal)\n- ⟦{部員|ぶいん}→部員：27409_buin⟧: club member\n- ⟦{一員|いちいん}→一員：08920_ichiin⟧: member, one of (formal)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "02535_kaiin",
+      "reading": "かいいん",
+      "headword": "{会員|かいいん}",
+      "label": "member"
+    },
+    {
+      "type": "related",
+      "target_id": "27409_buin",
+      "reading": "ぶいん",
+      "headword": "{部員|ぶいん}",
+      "label": "club member"
+    },
+    {
+      "type": "related",
+      "target_id": "08920_ichiin",
+      "reading": "いちいん",
+      "headword": "{一員|いちいん}",
+      "label": "member, one of"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14671_kaobure",
+      "reading": "かおぶれ",
+      "headword": "{顔|かお}ぶれ",
+      "label": "lineup"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15240_kouseiin",
+      "reading": "こうせいいん",
+      "headword": "{構成員|こうせいいん}",
+      "label": "member"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26097_seiin",
+      "reading": "せいいん",
+      "headword": "{成員|せいいん}",
+      "label": "member"
+    },
+    {
+      "type": "related",
+      "target_id": "29792_chiimumenbaa",
+      "reading": "ちーむめんばー",
+      "headword": "チームメンバー",
+      "label": "team member"
+    }
+  ],
   "metadata": {
     "created": "2026-01-13T00:40:50Z",
-    "modified": "2026-08-08T09:25:02Z",
+    "modified": "2026-09-02T04:00:57Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

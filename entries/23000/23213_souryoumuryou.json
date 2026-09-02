@@ -15,41 +15,62 @@
   "examples": [
     {
       "id": "23213_souryoumuryou_ex1",
-      "japanese": "{送料無料|そうりょうむりょう}で{届|とど}けてくれる。",
+      "japanese": "{送料無料|そうりょうむりょう}⟦で→で：00502_de⟧⟦{届|とど}けて→届ける：01248_todokeru⟧⟦くれる→くれる：00724_kureru⟧。",
       "english": "They deliver it with free shipping.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "23213_souryoumuryou_ex2",
-      "japanese": "3,000{円以上|えんいじょう}で{送料無料|そうりょうむりょう}になる。",
+      "japanese": "3,000{円以上|えんいじょう}⟦で→で：00502_de⟧{送料無料|そうりょうむりょう}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧。",
       "english": "Orders over 3,000 yen qualify for free shipping.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "23213_souryoumuryou_ex3",
-      "japanese": "{送料無料|そうりょうむりょう}のキャンペーン{中|ちゅう}なので、まとめて{買|か}おうと{思|おも}う。",
+      "japanese": "{送料無料|そうりょうむりょう}⟦の→の：09472_no⟧⟦キャンペーン→キャンペーン：10809_kyanpeen⟧⟦{中|ちゅう}→〜中：09840_chuu⟧な⟦の→の：09472_no⟧で、⟦まとめて→まとめる：02424_matomeru⟧⟦{買|か}おう→買う：00489_kau⟧⟦と→と：00512_to⟧⟦{思|おも}う→思う：00492_omou⟧。",
       "english": "Since there's a free shipping campaign right now, I think I'll buy in bulk.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {送料|そうりょう} (shipping fee) and {無料|むりょう} (free of charge). One of the most commonly seen phrases in online shopping in Japan.\n\nCOMMON COLLOCATIONS:\n- {送料無料|そうりょうむりょう}キャンペーン: free shipping campaign\n- {送料無料|そうりょうむりょう}ライン: free shipping threshold\n- {全品|ぜんぴん}{送料無料|そうりょうむりょう}: free shipping on all items\n- {送料無料|そうりょうむりょう}{対象|たいしょう}: eligible for free shipping\n\nRELATED TERMS:\n- {送料|そうりょう}: shipping fee\n- {送料込|そうりょうこ}み: shipping included (in the price)\n- {送料別|そうりょうべつ}: shipping charged separately\n- {着払|ちゃくばら}い: cash on delivery (recipient pays shipping)",
+  "notes": "A compound of ⟦{送料|そうりょう}→送料：06128_souryou⟧ (shipping fee) and ⟦{無料|むりょう}→無料：01662_muryou⟧ (free of charge). One of the most commonly seen phrases in online shopping in Japan.\n\nCOMMON COLLOCATIONS:\n- {送料無料|そうりょうむりょう}⟦キャンペーン→キャンペーン：10809_kyanpeen⟧: free shipping campaign\n- {送料無料|そうりょうむりょう}ライン: free shipping threshold\n- ⟦{全品|ぜんぴん}→全品：26366_zenpin⟧{送料無料|そうりょうむりょう}: free shipping on all items\n- {送料無料|そうりょうむりょう}⟦{対象|たいしょう}→対象：03393_taishou⟧: eligible for free shipping\n\nRELATED WORDS:\n- ⟦{送料|そうりょう}→送料：06128_souryou⟧: shipping fee\n- {送料込|そうりょうこ}み: shipping included (in the price)\n- {送料別|そうりょうべつ}: shipping charged separately\n- ⟦{着払|ちゃくばら}い→着払い：07950_chakubarai⟧: cash on delivery (recipient pays shipping)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "07950_chakubarai",
+      "reading": "ちゃくばらい",
+      "headword": "{着払|ちゃくばら}い",
+      "label": "cash on delivery"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["business"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "business"
+      ]
     },
     "created": "2026-04-10T03:42:01Z",
-    "modified": "2026-04-10T03:42:01Z"
+    "modified": "2026-09-02T04:02:11Z"
   }
 }

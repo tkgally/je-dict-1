@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "10531_sayounara_ex1",
-      "japanese": "さようなら、お{元気|げんき}で。",
+      "japanese": "さようなら、お⟦{元気|げんき}→元気：00696_genki⟧で。",
       "english": "Goodbye, take care.",
       "has_audio": false,
       "notes": null,
@@ -24,7 +24,7 @@
     },
     {
       "id": "10531_sayounara_ex2",
-      "japanese": "{先生|せんせい}にさようならと{言|い}った。",
+      "japanese": "⟦{先生|せんせい}→先生：00609_sensei⟧⟦に→に：00314_ni⟧さようなら⟦と→と：00512_to⟧⟦{言|い}った→言う：00515_iu⟧。",
       "english": "I said goodbye to the teacher.",
       "has_audio": false,
       "notes": null,
@@ -34,7 +34,7 @@
     },
     {
       "id": "10531_sayounara_ex3",
-      "japanese": "{卒業式|そつぎょうしき}で{友達|ともだち}にさようならを{言|い}うのは{悲|かな}しかった。",
+      "japanese": "⟦{卒業式|そつぎょうしき}→卒業式：05584_sotsugyoushiki⟧⟦で→で：00502_de⟧⟦{友達|ともだち}→友達：01478_tomodachi⟧⟦に→に：00314_ni⟧さようなら⟦を→を：00422_wo⟧⟦{言|い}う→言う：00515_iu⟧⟦の→の：09472_no⟧⟦は→は：00079_ha⟧⟦{悲|かな}しかった→悲しい：00783_kanashii⟧。",
       "english": "It was sad to say goodbye to my friends at the graduation ceremony.",
       "has_audio": false,
       "notes": null,
@@ -43,11 +43,69 @@
       ]
     }
   ],
-  "notes": "さようなら is a farewell expression. It originally comes from the phrase さようならば (if that is the case), implying acceptance of parting.\n\nUSAGE:\n- Used when parting for a longer period or when uncertain about the next meeting\n- Common in school settings (students say it when leaving school)\n- Carries a sense of finality compared to casual farewells\n\nALTERNATIVE FAREWELLS:\n- じゃあね / じゃあ: casual (see you)\n- バイバイ: casual (bye-bye)\n- では / それでは: polite/formal (well then)\n- {失礼|しつれい}します: formal (excuse me, I'll take my leave)\n\nNOTE: Among adults, さようなら is less common in everyday conversation. じゃあ、また or お{疲|つか}れさまです are more typical.",
+  "notes": "さようなら is a farewell expression. It originally comes from the phrase さようならば (if that is the case), implying acceptance of parting.\n\nUSAGE:\n- Used when parting for a longer period or when uncertain about the next meeting\n- Common in school settings (students say it when leaving school)\n- Carries a sense of finality compared to casual farewells\n\nALTERNATIVE FAREWELLS:\n- ⟦じゃあ→じゃあ：02989_jaa⟧⟦ね→ね：09474_ne⟧ / ⟦じゃあ→じゃあ：02989_jaa⟧: casual (see you)\n- バイバイ: casual (bye-bye)\n- ⟦では→では：02945_deha⟧ / ⟦それ→それ：00994_sore⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧: polite/formal (well then)\n- {失礼|しつれい}します: formal (excuse me, I'll take my leave)\n\nNOTE: Among adults, さようなら is less common in everyday conversation. ⟦じゃあ→じゃあ：02989_jaa⟧、⟦また→また：00969_mata⟧ or お{疲|つか}れさまです are more typical.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05305_jaane",
+      "reading": "じゃあね",
+      "headword": "じゃあね",
+      "label": "casual"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02989_jaa",
+      "reading": "じゃあ",
+      "headword": "じゃあ",
+      "label": "casual"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04336_baibai",
+      "reading": "ばいばい",
+      "headword": "{売買|ばいばい}",
+      "label": "casual"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02945_deha",
+      "reading": "では",
+      "headword": "では",
+      "label": "polite/formal"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02944_soredeha",
+      "reading": "それでは",
+      "headword": "それでは",
+      "label": "polite/formal"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21922_shitsureishimasu",
+      "reading": "しつれいします",
+      "headword": "{失礼|しつれい}します",
+      "label": "formal"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05306_matane",
+      "reading": "またね",
+      "headword": "またね",
+      "label": "see you later"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22757_jaamata",
+      "reading": "じゃあまた",
+      "headword": "じゃあまた",
+      "label": "see you later"
+    }
+  ],
   "metadata": {
     "created": "2026-02-08T03:20:10Z",
-    "modified": "2026-08-14T09:51:20Z",
+    "modified": "2026-09-02T04:01:21Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

@@ -14,30 +14,36 @@
   "examples": [
     {
       "id": "11916_kagaisha_ex1",
-      "japanese": "{加害者|かがいしゃ}が{逮捕|たいほ}された。",
+      "japanese": "{加害者|かがいしゃ}⟦が→が：00051_ga⟧⟦{逮捕|たいほ}→逮捕：03397_taiho⟧⟦された→する：00392_suru⟧。",
       "english": "The perpetrator was arrested.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11916_kagaisha_ex2",
-      "japanese": "{加害者|かがいしゃ}と{被害者|ひがいしゃ}の{関係|かんけい}を{調|しら}べている。",
+      "japanese": "{加害者|かがいしゃ}⟦と→と：00512_to⟧⟦{被害者|ひがいしゃ}→被害者：14106_higaisha⟧⟦の→の：09472_no⟧⟦{関係|かんけい}→関係：01298_kankei⟧⟦を→を：00422_wo⟧⟦{調|しら}べている→調べる：01213_shiraberu⟧。",
       "english": "They are investigating the relationship between the perpetrator and the victim.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11916_kagaisha_ex3",
-      "japanese": "いじめの{加害者|かがいしゃ}にならないように{子|こ}どもに{教|おし}えることが{大切|たいせつ}だ。",
+      "japanese": "⟦いじめ→いじめ：09092_ijime⟧⟦の→の：09472_no⟧{加害者|かがいしゃ}⟦に→に：00314_ni⟧⟦ならない→なる：01970_naru⟧よう⟦に→に：00314_ni⟧{子|こ}ども⟦に→に：00314_ni⟧⟦{教|おし}える→教える：00526_oshieru⟧こと⟦が→が：00051_ga⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧だ。",
       "english": "It's important to teach children not to become bullying perpetrators.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{加害者|かがいしゃ} refers to the person who causes harm, injury, or damage to another. It is widely used in legal proceedings, news reports, and discussions about bullying, accidents, and crime.\n\nCOMMON PATTERNS:\n- {加害者|かがいしゃ}{側|がわ}: the perpetrator's side\n- {加害者|かがいしゃ}{意識|いしき}: awareness of being the offender\n- {加害者|かがいしゃ}と{被害者|ひがいしゃ}: perpetrator and victim\n- いじめの{加害者|かがいしゃ}: bullying perpetrator\n\nCOMPOSITION:\n{加|か} (inflict) + {害|がい} (harm) + {者|しゃ} (person). The opposite is {被害者|ひがいしゃ} (victim), which uses {被|ひ} (receive) instead of {加|か} (inflict).\n\nThe same {者|しゃ} pattern appears in many legal/social terms: {容疑者|ようぎしゃ} (suspect), {犯罪者|はんざいしゃ} (criminal).",
+  "notes": "{加害者|かがいしゃ} refers to the person who causes harm, injury, or damage to another. It is widely used in legal proceedings, news reports, and discussions about bullying, accidents, and crime.\n\nCOMMON PATTERNS:\n- {加害者|かがいしゃ}⟦{側|がわ}→〜側：03090_gawa⟧: the perpetrator's side\n- {加害者|かがいしゃ}⟦{意識|いしき}→意識：01714_ishiki⟧: awareness of being the offender\n- {加害者|かがいしゃ}⟦と→と：00512_to⟧⟦{被害者|ひがいしゃ}→被害者：14106_higaisha⟧: perpetrator and victim\n- ⟦いじめ→いじめ：09092_ijime⟧⟦の→の：09472_no⟧{加害者|かがいしゃ}: bullying perpetrator\n\nETYMOLOGY:\n{加|か} (inflict) + ⟦{害|がい}→害：02542_gai⟧ (harm) + ⟦{者|しゃ}→〜者：04662_sha⟧ (person). The opposite is ⟦{被害者|ひがいしゃ}→被害者：14106_higaisha⟧ (victim), which uses {被|ひ} (receive) instead of {加|か} (inflict).\n\nThe same ⟦{者|しゃ}→〜者：04662_sha⟧ pattern appears in many legal/social terms: ⟦{容疑者|ようぎしゃ}→容疑者：15039_yougisha⟧ (suspect), ⟦{犯罪者|はんざいしゃ}→犯罪者：19219_hanzaisha⟧ (criminal).",
   "cross_references": [
     {
       "type": "antonym",
@@ -49,16 +55,22 @@
   ],
   "metadata": {
     "created": "2026-02-18T14:15:49Z",
-    "modified": "2026-04-25T09:21:10Z",
+    "modified": "2026-09-02T04:01:26Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["person"],
-      "domain": ["legal"]
+      "semantic": [
+        "person"
+      ],
+      "domain": [
+        "legal"
+      ]
     }
   }
 }

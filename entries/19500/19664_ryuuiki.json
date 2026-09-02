@@ -15,40 +15,81 @@
   "examples": [
     {
       "id": "19664_ryuuiki_ex1",
-      "japanese": "{利根川|とねがわ}の{流域|りゅういき}は{広|ひろ}い。",
+      "japanese": "{利根川|とねがわ}⟦の→の：09472_no⟧{流域|りゅういき}⟦は→は：00079_ha⟧⟦{広|ひろ}い→広い：00704_hiroi⟧。",
       "english": "The Tone River basin is vast.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19664_ryuuiki_ex2",
-      "japanese": "{流域|りゅういき}の{住民|じゅうみん}に{避難|ひなん}{勧告|かんこく}が{出|で}た。",
+      "japanese": "{流域|りゅういき}⟦の→の：09472_no⟧⟦{住民|じゅうみん}→住民：03281_juumin⟧⟦に→に：00314_ni⟧⟦{避難|ひなん}{勧告|かんこく}→避難勧告：16642_hinankankoku⟧⟦が→が：00051_ga⟧⟦{出|で}た→出る：00513_deru⟧。",
       "english": "An evacuation advisory was issued to residents of the river basin.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19664_ryuuiki_ex3",
-      "japanese": "この{川|かわ}の{流域|りゅういき}には{多|おお}くの{農地|のうち}が{広|ひろ}がっており、{水|みず}の{管理|かんり}が{重要|じゅうよう}だ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{川|かわ}→川：02186_kawa⟧⟦の→の：09472_no⟧{流域|りゅういき}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{多|おお}く⟦の→の：09472_no⟧⟦{農地|のうち}→農地：14354_nouchi⟧⟦が→が：00051_ga⟧⟦{広|ひろ}がって→広がる：01980_hirogaru⟧おり、⟦{水|みず}→水：02258_mizu⟧⟦の→の：09472_no⟧⟦{管理|かんり}→管理：00178_kanri⟧⟦が→が：00051_ga⟧⟦{重要|じゅうよう}→重要：01575_juuyou⟧だ。",
       "english": "Many farmlands extend across this river's basin, making water management important.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {流|りゅう} (flow, current) and {域|いき} (area, zone). A geographic term commonly encountered in news about floods, water management, and environmental topics.\n\nUSAGE:\nFrequently appears in weather reports and disaster-related news, especially during the rainy season ({梅雨|つゆ}) and typhoon season. Often combined with specific river names: {利根川|とねがわ}{流域|りゅういき}, {信濃川|しなのがわ}{流域|りゅういき}.\n\nCOMMON COLLOCATIONS:\n- {流域|りゅういき}{面積|めんせき} — basin area\n- {流域|りゅういき}{住民|じゅうみん} — basin residents\n- {上|じょう}{流域|りゅういき} — upper basin\n- {下|か}{流域|りゅういき} — lower basin\n\nRELATED TERMS:\n- {上流|じょうりゅう} — upstream\n- {下流|かりゅう} — downstream\n- {水系|すいけい} — river system; the network of rivers and streams",
+  "notes": "A compound of {流|りゅう} (flow, current) and {域|いき} (area, zone). A geographic term commonly encountered in news about floods, water management, and environmental topics.\n\nUSAGE:\nFrequently appears in weather reports and disaster-related news, especially during the rainy season (⟦{梅雨|つゆ}→梅雨：02232_tsuyu⟧) and typhoon season. Often combined with specific river names: {利根川|とねがわ}{流域|りゅういき}, {信濃川|しなのがわ}{流域|りゅういき}.\n\nCOMMON COLLOCATIONS:\n- {流域|りゅういき}⟦{面積|めんせき}→面積：05330_menseki⟧ — basin area\n- {流域|りゅういき}⟦{住民|じゅうみん}→住民：03281_juumin⟧ — basin residents\n- {上|じょう}{流域|りゅういき} — upper basin\n- {下|か}{流域|りゅういき} — lower basin\n\nRELATED WORDS:\n- ⟦{上流|じょうりゅう}→上流：15028_jouryuu⟧ — upstream\n- ⟦{下流|かりゅう}→下流：15029_karyuu⟧ — downstream\n- ⟦{水系|すいけい}→水系：26296_suikei⟧ — river system; the network of rivers and streams",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "15028_jouryuu",
+      "reading": "じょうりゅう",
+      "headword": "{上流|じょうりゅう}",
+      "label": "upstream"
+    },
+    {
+      "type": "related",
+      "target_id": "15029_karyuu",
+      "reading": "かりゅう",
+      "headword": "{下流|かりゅう}",
+      "label": "downstream"
+    },
+    {
+      "type": "related",
+      "target_id": "26296_suikei",
+      "reading": "すいけい",
+      "headword": "{水系|すいけい}",
+      "label": "river system"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26896_suiiki",
+      "reading": "すいいき",
+      "headword": "{水域|すいいき}",
+      "label": "waters"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["geography", "nature"]
+      "semantic": [
+        "geography",
+        "nature"
+      ]
     },
     "created": "2026-03-26T11:43:57Z",
-    "modified": "2026-03-26T11:43:57Z"
+    "modified": "2026-09-02T04:01:56Z"
   }
 }

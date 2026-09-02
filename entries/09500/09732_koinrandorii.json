@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "09732_koinrandorii_ex1",
-      "japanese": "コインランドリーで{洗濯|せんたく}した。",
+      "japanese": "コインランドリー⟦で→で：00502_de⟧⟦{洗濯|せんたく}した→洗濯する：09656_sentakusuru⟧。",
       "english": "I did laundry at the laundromat.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "09732_koinrandorii_ex2",
-      "japanese": "{近|ちか}くにコインランドリーがあって{助|たす}かる。",
+      "japanese": "{近|ちか}く⟦に→に：00314_ni⟧コインランドリー⟦が→が：00051_ga⟧⟦あって→ある：00006_aru⟧⟦{助|たす}かる→助かる：01956_tasukaru⟧。",
       "english": "It's helpful that there's a laundromat nearby.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "09732_koinrandorii_ex3",
-      "japanese": "{布団|ふとん}を{洗|あら}うときはコインランドリーの{大型|おおがた}{洗濯機|せんたくき}を{使|つか}う。",
+      "japanese": "⟦{布団|ふとん}→布団：01720_futon⟧⟦を→を：00422_wo⟧⟦{洗|あら}う→洗う：00827_arau⟧とき⟦は→は：00079_ha⟧コインランドリー⟦の→の：09472_no⟧⟦{大型|おおがた}→大型：03016_oogata⟧⟦{洗濯機|せんたくき}→洗濯機：04969_sentakuki⟧⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧。",
       "english": "When washing futons, I use the large washing machines at the laundromat.",
       "notes": null,
       "has_audio": false,
@@ -43,10 +43,10 @@
       ]
     }
   ],
-  "notes": "コインランドリー is a combination of \"coin\" and \"laundry.\"\n\nCOMMON USES:\n- {洗濯物|せんたくもの}が{多|おお}いとき (when there's a lot of laundry)\n- {布団|ふとん}や{毛布|もうふ}の{洗濯|せんたく} (washing futons and blankets)\n- {乾燥機|かんそうき}だけ{使|つか}う (using only the dryer)\n\nFEATURES:\n- 24{時間|じかん}{営業|えいぎょう}: 24-hour operation (common)\n- {大型|おおがた}{洗濯機|せんたくき}: large washing machines\n- {乾燥機|かんそうき}: dryers\n\nRELATED TERMS:\n- クリーニング{店|てん}: dry cleaner\n- {洗濯機|せんたくき}: washing machine",
+  "notes": "コインランドリー is a combination of \"coin\" and \"laundry.\"\n\nCOMMON COLLOCATIONS:\n- ⟦{洗濯物|せんたくもの}→洗濯物：09533_sentakumono⟧⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧とき (when there's a lot of laundry)\n- ⟦{布団|ふとん}→布団：01720_futon⟧や⟦{毛布|もうふ}→毛布：03630_moufu⟧⟦の→の：09472_no⟧⟦{洗濯|せんたく}→洗濯：13283_sentaku⟧ (washing futons and blankets)\n- ⟦{乾燥機|かんそうき}→乾燥機：04672_kansouki⟧⟦だけ→〜だけ：03093_dake⟧⟦{使|つか}う→使う：00473_tsukau⟧ (using only the dryer)\n\nFEATURES:\n- 24⟦{時間|じかん}→時間：00468_jikan⟧⟦{営業|えいぎょう}→営業：01878_eigyou⟧: 24-hour operation (common)\n- ⟦{大型|おおがた}→大型：03016_oogata⟧⟦{洗濯機|せんたくき}→洗濯機：04969_sentakuki⟧: large washing machines\n- ⟦{乾燥機|かんそうき}→乾燥機：04672_kansouki⟧: dryers\n\nRELATED WORDS:\n- ⟦クリーニング{店|てん}→クリーニング店：09733_kuriininguten⟧: dry cleaner\n- ⟦{洗濯機|せんたくき}→洗濯機：04969_sentakuki⟧: washing machine",
   "metadata": {
     "created": "2026-02-03T07:19:34Z",
-    "modified": "2026-06-24T18:40:49Z",
+    "modified": "2026-09-02T04:01:19Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -75,6 +75,20 @@
       "reading": "くりーにんぐてん",
       "headword": "クリーニング{店|てん}",
       "label": "dry cleaner"
+    },
+    {
+      "type": "related",
+      "target_id": "04969_sentakuki",
+      "reading": "せんたくき",
+      "headword": "{洗濯機|せんたくき}",
+      "label": "washing machine"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26393_randoriiruumu",
+      "reading": "らんどりーるーむ",
+      "headword": "ランドリールーム",
+      "label": "laundry room"
     }
   ]
 }

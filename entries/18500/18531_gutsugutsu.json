@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "18531_gutsugutsu_ex1",
-      "japanese": "スープがぐつぐつ{煮|に}えている。",
+      "japanese": "⟦スープ→スープ：00395_suupu⟧⟦が→が：00051_ga⟧ぐつぐつ⟦{煮|に}えている→煮える：02382_nieru⟧。",
       "english": "The soup is simmering away.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "18531_gutsugutsu_ex2",
-      "japanese": "{鍋|なべ}がぐつぐつと{音|おと}を{立|た}てている。",
+      "japanese": "⟦{鍋|なべ}→鍋：01038_nabe⟧⟦が→が：00051_ga⟧ぐつぐつ⟦と→と：00512_to⟧⟦{音|おと}→音：00743_oto⟧⟦を→を：00422_wo⟧⟦{立|た}てている→立てる：01196_tateru⟧。",
       "english": "The pot is making bubbling sounds.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "18531_gutsugutsu_ex3",
-      "japanese": "カレーをぐつぐつと{弱火|よわび}で{煮込|にこ}んでいると、いい{香|かお}りがしてきた。",
+      "japanese": "⟦カレー→カレー：02898_karee⟧⟦を→を：00422_wo⟧ぐつぐつ⟦と→と：00512_to⟧⟦{弱火|よわび}→弱火：08168_yowabi⟧⟦で→で：00502_de⟧⟦{煮込|にこ}んでいる→煮込む：05822_nikomu⟧⟦と→と：00512_to⟧、⟦いい→いい：00118_ii⟧⟦{香|かお}り→香り：00189_kaori⟧がしてきた。",
       "english": "As I simmered the curry on low heat, a wonderful aroma wafted up.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "ぐつぐつ is an onomatopoeia for the sound and appearance of liquid simmering steadily in a pot.\n\nGRAMMAR:\nUsed with と (ぐつぐつと) or directly before a verb:\n- ぐつぐつと{煮|に}る: to simmer\n- ぐつぐつ{煮込|にこ}む: to stew, to simmer down\n\nCOMMON PATTERNS:\n- ぐつぐつ{煮|に}える: to be simmering\n- {鍋|なべ}がぐつぐつ{言|い}う: the pot is bubbling\n- ぐつぐつと{音|おと}を{立|た}てる: to make bubbling sounds\n\nRELATED COOKING ONOMATOPOEIA (from gentle to vigorous):\n- ことこと: gentle simmering (lighter, quieter)\n- ぐつぐつ: moderate, steady simmer\n- ふつふつ: just starting to bubble\n- ぐらぐら: rolling boil (vigorous, strong bubbling)\n\nぐつぐつ suggests sustained bubbling at medium heat — not as gentle as ことこと, but not as violent as ぐらぐら.",
+  "notes": "ぐつぐつ is an onomatopoeia for the sound and appearance of liquid simmering steadily in a pot.\n\nCOMMON PATTERNS:\nUsed with ⟦と→と：00512_to⟧ (ぐつぐつ⟦と→と：00512_to⟧) or directly before a verb:\n- ぐつぐつ⟦と→と：00512_to⟧⟦{煮|に}る→煮る：01971_niru⟧: to simmer\n- ぐつぐつ⟦{煮込|にこ}む→煮込む：05822_nikomu⟧: to stew, to simmer down\n- ぐつぐつ⟦{煮|に}える→煮える：02382_nieru⟧: to be simmering\n- ⟦{鍋|なべ}→鍋：01038_nabe⟧⟦が→が：00051_ga⟧ぐつぐつ⟦{言|い}う→言う：00515_iu⟧: the pot is bubbling\n- ぐつぐつ⟦と→と：00512_to⟧⟦{音|おと}→音：00743_oto⟧⟦を→を：00422_wo⟧⟦{立|た}てる→立てる：01196_tateru⟧: to make bubbling sounds\n\nRELATED COOKING ONOMATOPOEIA (from gentle to vigorous):\n- ことこと: gentle simmering (lighter, quieter)\n- ぐつぐつ: moderate, steady simmer\n- ふつふつ: just starting to bubble\n- ⟦ぐらぐら→ぐらぐら：16211_guragura⟧: rolling boil (vigorous, strong bubbling)\n\nぐつぐつ suggests sustained bubbling at medium heat — not as gentle as ことこと, but not as violent as ⟦ぐらぐら→ぐらぐら：16211_guragura⟧.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "16211_guragura",
+      "reading": "ぐらぐら",
+      "headword": "ぐらぐら",
+      "label": "rolling boil"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25029_pokopoko",
+      "reading": "ぽこぽこ",
+      "headword": "ぽこぽこ",
+      "label": "bubbling"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26081_pukupuku",
+      "reading": "ぷくぷく",
+      "headword": "ぷくぷく",
+      "label": "plump"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,6 +84,6 @@
       ]
     },
     "created": "2026-03-22T04:43:23Z",
-    "modified": "2026-06-08T02:21:06Z"
+    "modified": "2026-09-02T04:01:52Z"
   }
 }

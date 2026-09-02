@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21653_kuukiire_ex1",
-      "japanese": "{空気入|くうきい}れを{貸|か}してください。",
+      "japanese": "{空気入|くうきい}れ⟦を→を：00422_wo⟧⟦{貸|か}して→貸す：00537_kasu⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please lend me the air pump.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21653_kuukiire_ex2",
-      "japanese": "{自転車|じてんしゃ}のタイヤに{空気入|くうきい}れで{空気|くうき}を{入|い}れた。",
+      "japanese": "⟦{自転車|じてんしゃ}→自転車：00633_jitensha⟧⟦の→の：09472_no⟧⟦タイヤ→タイヤ：06330_taiya⟧⟦に→に：00314_ni⟧{空気入|くうきい}れ⟦で→で：00502_de⟧⟦{空気|くうき}→空気：01390_kuuki⟧⟦を→を：00422_wo⟧⟦{入|い}れた→入れる：01098_ireru⟧。",
       "english": "I pumped air into the bicycle tire with an air pump.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21653_kuukiire_ex3",
-      "japanese": "{学校|がっこう}の{体育倉庫|たいいくそうこ}にボール{用|よう}の{空気入|くうきい}れがある。",
+      "japanese": "⟦{学校|がっこう}→学校：00055_gakkou⟧⟦の→の：09472_no⟧{体育倉庫|たいいくそうこ}⟦に→に：00314_ni⟧⟦ボール→ボール：00017_booru⟧⟦{用|よう}→〜用：09842_you⟧⟦の→の：09472_no⟧{空気入|くうきい}れ⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There's a ball pump in the school gym storage room.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {空気|くうき} (air) + {入|い}れ (putting in), literally \"air inserter.\" A practical everyday word for the tool used to inflate tires and balls.\n\nCOMMON COLLOCATIONS:\n- {空気入|くうきい}れで{空気|くうき}を{入|い}れる: to pump air with an air pump\n- {自転車|じてんしゃ}の{空気入|くうきい}れ: bicycle pump\n- {手動|しゅどう}{空気入|くうきい}れ: manual air pump\n- {電動|でんどう}{空気入|くうきい}れ: electric air pump\n\nRELATED TERMS:\n- {空気|くうき}を{入|い}れる: to inflate, to pump air into\n- ポンプ: pump (general loanword)",
+  "notes": "Compound of ⟦{空気|くうき}→空気：01390_kuuki⟧ (air) + ⟦{入|い}れ→入れる：01098_ireru⟧ (putting in), literally \"air inserter.\" A practical everyday word for the tool used to inflate tires and balls.\n\nCOMMON COLLOCATIONS:\n- {空気入|くうきい}れ⟦で→で：00502_de⟧⟦{空気|くうき}→空気：01390_kuuki⟧⟦を→を：00422_wo⟧⟦{入|い}れる→入れる：01098_ireru⟧: to pump air with an air pump\n- ⟦{自転車|じてんしゃ}→自転車：00633_jitensha⟧⟦の→の：09472_no⟧{空気入|くうきい}れ: bicycle pump\n- ⟦{手動|しゅどう}→手動：12890_shudou⟧{空気入|くうきい}れ: manual air pump\n- ⟦{電動|でんどう}→電動：06412_dendou⟧{空気入|くうきい}れ: electric air pump\n\nRELATED WORDS:\n- ⟦{空気|くうき}→空気：01390_kuuki⟧⟦を→を：00422_wo⟧⟦{入|い}れる→入れる：01098_ireru⟧: to inflate, to pump air into\n- ⟦ポンプ→ポンプ：11594_ponpu⟧: pump (general loanword)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "11594_ponpu",
+      "reading": "ぽんぷ",
+      "headword": "ポンプ",
+      "label": "pump"
+    },
+    {
+      "type": "related",
+      "target_id": "27295_gomubooto",
+      "reading": "ごむぼーと",
+      "headword": "ゴムボート",
+      "label": "rubber dinghy"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +75,6 @@
       ]
     },
     "created": "2026-04-02T20:21:19Z",
-    "modified": "2026-07-29T12:35:11Z"
+    "modified": "2026-09-02T04:02:04Z"
   }
 }

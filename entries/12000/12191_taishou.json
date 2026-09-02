@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "12191_taishou_ex1",
-      "japanese": "{大賞|たいしょう}を{受賞|じゅしょう}した。",
+      "japanese": "{大賞|たいしょう}⟦を→を：00422_wo⟧⟦{受賞|じゅしょう}→受賞：11867_jushou⟧⟦した→する：00392_suru⟧。",
       "english": "She won the grand prize.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "12191_taishou_ex2",
-      "japanese": "この{作品|さくひん}がレコード{大賞|たいしょう}に{選|えら}ばれた。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{作品|さくひん}→作品：02776_sakuhin⟧⟦が→が：00051_ga⟧レコード{大賞|たいしょう}⟦に→に：00314_ni⟧⟦{選|えら}ばれた→選ぶ：00835_erabu⟧。",
       "english": "This work was chosen for the Japan Record Award.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "12191_taishou_ex3",
-      "japanese": "{全国|ぜんこく}から{千|せん}を{超|こ}える{応募|おうぼ}があり、{審査|しんさ}の{結果|けっか}、{彼|かれ}の{小説|しょうせつ}が{大賞|たいしょう}に{輝|かがや}いた。",
+      "japanese": "⟦{全国|ぜんこく}→全国：03311_zenkoku⟧⟦から→から：00504_kara⟧⟦{千|せん}→千：00809_sen⟧⟦を→を：00422_wo⟧⟦{超|こ}える→超える：01942_koeru⟧⟦{応募|おうぼ}→応募：03014_oubo⟧⟦が→が：00051_ga⟧⟦あり→ある：00006_aru⟧、⟦{審査|しんさ}→審査：08375_shinsa⟧⟦の→の：09472_no⟧⟦{結果|けっか}→結果：02486_kekka⟧、⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧⟦{小説|しょうせつ}→小説：01434_shousetsu⟧⟦が→が：00051_ga⟧{大賞|たいしょう}⟦に→に：00314_ni⟧⟦{輝|かがや}いた→輝く：02032_kagayaku⟧。",
       "english": "There were over a thousand entries from across the country, and after judging, his novel won the grand prize.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "{大賞|たいしょう} is the top prize in a competition or award ceremony.\n\nCOMMON COLLOCATIONS:\n- {大賞|たいしょう}を{受賞|じゅしょう}する: to win the grand prize\n- {大賞|たいしょう}に{輝|かがや}く: to be honored with the grand prize\n- {大賞|たいしょう}に{選|えら}ばれる: to be selected for the grand prize\n\nWELL-KNOWN AWARDS:\n- レコード{大賞|たいしょう}: Japan Record Award (music)\n- {芥川賞|あくたがわしょう}: Akutagawa Prize (literature; uses {賞|しょう} not {大賞|たいしょう})\n- {新語|しんご}・{流行語|りゅうこうご}{大賞|たいしょう}: Buzzword of the Year Award\n\nSIMILAR WORDS:\n- {賞|しょう}: prize, award (general)\n- {大賞|たいしょう}: the top/grand prize specifically\n- {最優秀賞|さいゆうしゅうしょう}: best excellence award (similar rank)",
+  "notes": "{大賞|たいしょう} is the top prize in a competition or award ceremony.\n\nCOMMON COLLOCATIONS:\n- {大賞|たいしょう}⟦を→を：00422_wo⟧⟦{受賞|じゅしょう}→受賞：11867_jushou⟧⟦する→する：00392_suru⟧: to win the grand prize\n- {大賞|たいしょう}⟦に→に：00314_ni⟧⟦{輝|かがや}く→輝く：02032_kagayaku⟧: to be honored with the grand prize\n- {大賞|たいしょう}⟦に→に：00314_ni⟧⟦{選|えら}ばれる→選ぶ：00835_erabu⟧: to be selected for the grand prize\n\nWELL-KNOWN AWARDS:\n- レコード{大賞|たいしょう}: Japan Record Award (music)\n- ⟦{芥川賞|あくたがわしょう}→芥川賞：15559_akutagawashou⟧: Akutagawa Prize (literature; uses ⟦{賞|しょう}→賞：03227_shou⟧ not {大賞|たいしょう})\n- ⟦{新語|しんご}→新語：21555_shingo⟧・⟦{流行語|りゅうこうご}→流行語：13307_ryuukougo⟧{大賞|たいしょう}: Buzzword of the Year Award\n\nSIMILAR WORDS:\n- ⟦{賞|しょう}→賞：03227_shou⟧: prize, award (general)\n- {大賞|たいしょう}: the top/grand prize specifically\n- ⟦{最優秀賞|さいゆうしゅうしょう}→最優秀賞：24271_saiyuushuushou⟧: best excellence award (similar rank)",
   "cross_references": [
     {
       "type": "related",
@@ -52,11 +52,39 @@
       "headword": "{賞|しょう}",
       "label": "prize, award",
       "target_id": "03227_shou"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24271_saiyuushuushou",
+      "reading": "さいゆうしゅうしょう",
+      "headword": "{最優秀賞|さいゆうしゅうしょう}",
+      "label": "best excellence award"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22098_shinjinshou",
+      "reading": "しんじんしょう",
+      "headword": "{新人賞|しんじんしょう}",
+      "label": "newcomer award"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22922_tokushou",
+      "reading": "とくしょう",
+      "headword": "{特賞|とくしょう}",
+      "label": "special prize"
+    },
+    {
+      "type": "related",
+      "target_id": "24528_yuushuusaku",
+      "reading": "ゆうしゅうさく",
+      "headword": "{優秀作|ゆうしゅうさく}",
+      "label": "excellent work"
     }
   ],
   "metadata": {
     "created": "2026-02-20T10:25:47Z",
-    "modified": "2026-04-26T07:25:09Z",
+    "modified": "2026-09-02T04:01:28Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

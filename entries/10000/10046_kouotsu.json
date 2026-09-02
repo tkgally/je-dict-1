@@ -29,7 +29,7 @@
     },
     {
       "id": "10046_kouotsu_ex2",
-      "japanese": "{二人|ふたり}の{実力|じつりょく}には{甲乙|こうおつ}がない。",
+      "japanese": "⟦{二人|ふたり}→二人：00622_futari⟧⟦の→の：09472_no⟧⟦{実力|じつりょく}→実力：03277_jitsuryoku⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{甲乙|こうおつ}⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧。",
       "english": "There's no difference in ability between the two.",
       "sense_numbers": [
         1
@@ -39,7 +39,7 @@
     },
     {
       "id": "10046_kouotsu_ex3",
-      "japanese": "{両案|りょうあん}は{甲乙|こうおつ}つけがたい{内容|ないよう}だ。",
+      "japanese": "{両案|りょうあん}⟦は→は：00079_ha⟧{甲乙|こうおつ}つけがたい⟦{内容|ないよう}→内容：01482_naiyou⟧だ。",
       "english": "Both proposals are of comparable quality.",
       "sense_numbers": [
         1
@@ -48,11 +48,26 @@
       "notes": null
     }
   ],
-  "notes": "{甲乙|こうおつ} has two distinct uses: comparing merit and contract designations.\n\nORIGIN:\n{甲|こう} and {乙|おつ} are the first two of the ten Heavenly Stems ({十干|じっかん}) from ancient Chinese ordinal systems.\n\nCOMMON EXPRESSION:\n{甲乙|こうおつ}つけがたい: hard to rank, equally good/bad\n\nIN CONTRACTS:\n- {甲|こう}: Party A (often the more powerful party)\n- {乙|おつ}: Party B\n- Sometimes extended: {丙|へい} (C), {丁|てい} (D)\n\nRELATED:\n- {優劣|ゆうれつ}: superiority and inferiority\n- {比較|ひかく}: comparison",
-  "cross_references": [],
+  "notes": "{甲乙|こうおつ} has two distinct uses: comparing merit and contract designations.\n\nETYMOLOGY:\n{甲|こう} and ⟦{乙|おつ}→乙：23000_otsu⟧ are the first two of the ten Heavenly Stems ({十干|じっかん}) from ancient Chinese ordinal systems.\n\nCOMMON EXPRESSIONS:\n{甲乙|こうおつ}つけがたい: hard to rank, equally good/bad\n\nIN CONTRACTS:\n- {甲|こう}: Party A (often the more powerful party)\n- ⟦{乙|おつ}→乙：23000_otsu⟧: Party B\n- Sometimes extended: ⟦{丙|へい}→丙：18072_hei⟧ (C), {丁|てい} (D)\n\nRELATED WORDS:\n- ⟦{優劣|ゆうれつ}→優劣：05567_yuuretsu⟧: superiority and inferiority\n- ⟦{比較|ひかく}→比較：03576_hikaku⟧: comparison",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "05567_yuuretsu",
+      "reading": "ゆうれつ",
+      "headword": "{優劣|ゆうれつ}",
+      "label": "superiority and inferiority"
+    },
+    {
+      "type": "related",
+      "target_id": "03576_hikaku",
+      "reading": "ひかく",
+      "headword": "{比較|ひかく}",
+      "label": "comparison"
+    }
+  ],
   "metadata": {
     "created": "2026-02-04T14:18:11Z",
-    "modified": "2026-06-12T12:41:12Z",
+    "modified": "2026-09-02T04:01:20Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

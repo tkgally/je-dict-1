@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "14418_sentakushi_ex1",
-      "japanese": "{選択肢|せんたくし}は{三|みっ}つある。",
+      "japanese": "{選択肢|せんたくし}⟦は→は：00079_ha⟧⟦{三|みっ}つ→三つ：02970_mittsu⟧⟦ある→ある：00006_aru⟧。",
       "english": "There are three options.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14418_sentakushi_ex2",
-      "japanese": "その{選択肢|せんたくし}は{最初|さいしょ}から{除外|じょがい}されていた。",
+      "japanese": "⟦その→その：00993_sono⟧{選択肢|せんたくし}⟦は→は：00079_ha⟧⟦{最初|さいしょ}→最初：00882_saisho⟧⟦から→から：00504_kara⟧⟦{除外|じょがい}→除外：16375_jogai⟧⟦されていた→する：00392_suru⟧。",
       "english": "That option had been excluded from the start.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14418_sentakushi_ex3",
-      "japanese": "{転職|てんしょく}も{一|ひと}つの{選択肢|せんたくし}として{考|かんが}えているが、まだ{決心|けっしん}がつかない。",
+      "japanese": "⟦{転職|てんしょく}→転職：04557_tenshoku⟧⟦も→も：00484_mo⟧⟦{一|ひと}つ→一つ：02948_hitotsu⟧⟦の→の：09472_no⟧{選択肢|せんたくし}⟦として→として：06802_toshite⟧⟦{考|かんが}えている→考える：00856_kangaeru⟧⟦が→が：00051_ga⟧、⟦まだ→まだ：00603_mada⟧⟦{決心|けっしん}→決心：02700_kesshin⟧⟦が→が：00051_ga⟧つかない。",
       "english": "I am considering changing jobs as one option, but I haven't made up my mind yet.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{選択肢|せんたくし} is a compound of {選択|せんたく} (selection, choice) and {肢|し} (branch, limb — here meaning a branch of choices).\n\nCOMMON COLLOCATIONS:\n- {選択肢|せんたくし}がある (there are options)\n- {選択肢|せんたくし}を{増|ふ}やす (to increase options)\n- {選択肢|せんたくし}を{狭|せば}める (to narrow options)\n- {選択肢|せんたくし}の{一|ひと}つ (one of the options)\n- {選択肢|せんたくし}から{選|えら}ぶ (to choose from options)\n\nOriginally a test/exam term for the individual answer choices in a multiple-choice question, but now widely used in everyday conversation and writing for any set of alternatives in a decision. Very common in business discussions, career planning, and life decisions.",
+  "notes": "{選択肢|せんたくし} is a compound of ⟦{選択|せんたく}→選択：03306_sentaku⟧ (selection, choice) and {肢|し} (branch, limb — here meaning a branch of choices).\n\nCOMMON COLLOCATIONS:\n- {選択肢|せんたくし}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧ (there are options)\n- {選択肢|せんたくし}⟦を→を：00422_wo⟧⟦{増|ふ}やす→増やす：02410_fuyasu⟧ (to increase options)\n- {選択肢|せんたくし}⟦を→を：00422_wo⟧⟦{狭|せば}める→狭める：07611_sebameru⟧ (to narrow options)\n- {選択肢|せんたくし}⟦の→の：09472_no⟧⟦{一|ひと}つ→一つ：02948_hitotsu⟧ (one of the options)\n- {選択肢|せんたくし}⟦から→から：00504_kara⟧⟦{選|えら}ぶ→選ぶ：00835_erabu⟧ (to choose from options)\n\nOriginally a test/exam term for the individual answer choices in a multiple-choice question, but now widely used in everyday conversation and writing for any set of alternatives in a decision. Very common in business discussions, career planning, and life decisions.",
   "cross_references": [
     {
       "type": "related",
@@ -57,15 +63,19 @@
   ],
   "metadata": {
     "created": "2026-03-01T09:12:54Z",
-    "modified": "2026-04-30T07:28:10Z",
+    "modified": "2026-09-02T04:01:37Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "transitivity": null,
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["abstract"]
+      "semantic": [
+        "abstract"
+      ]
     }
   }
 }

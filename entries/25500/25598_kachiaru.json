@@ -15,38 +15,65 @@
   "examples": [
     {
       "id": "25598_kachiaru_ex1",
-      "japanese": "{価値|かち}ある{体験|たいけん}だった。",
+      "japanese": "{価値|かち}ある⟦{体験|たいけん}→体験：11443_taiken⟧だった。",
       "english": "It was a valuable experience.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "25598_kachiaru_ex2",
-      "japanese": "{価値|かち}ある{情報|じょうほう}を{手|て}に{入|い}れた。",
+      "japanese": "{価値|かち}ある⟦{情報|じょうほう}→情報：03348_jouhou⟧⟦を→を：00422_wo⟧⟦{手|て}→手：00569_te⟧⟦に→に：00314_ni⟧⟦{入|い}れた→入れる：01098_ireru⟧。",
       "english": "I obtained valuable information.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "25598_kachiaru_ex3",
-      "japanese": "{時間|じかん}をかけてでも{読|よ}む{価値|かち}ある{本|ほん}を{紹介|しょうかい}したい。",
+      "japanese": "⟦{時間|じかん}→時間：00468_jikan⟧⟦を→を：00422_wo⟧⟦かけて→かける：00854_kakeru⟧で⟦も→も：00484_mo⟧⟦{読|よ}む→読む：00426_yomu⟧{価値|かち}ある{本|ほん}⟦を→を：00422_wo⟧⟦{紹介|しょうかい}→紹介：01432_shoukai⟧⟦したい→する：00392_suru⟧。",
       "english": "I want to recommend books that are worth reading even if they take time.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A pre-noun modifier combining {価値|かち} (value, worth) and ある (to exist). It functions as an attributive expression placed directly before a noun, meaning \"having value\" or \"worthwhile.\"\n\nThis pattern (noun + ある) is a classical Japanese construction that survives in modern written and somewhat formal spoken Japanese. Other examples include {意味|いみ}ある (meaningful) and {力|ちから}ある (powerful).\n\nCOMMON COLLOCATIONS:\n- {価値|かち}ある{体験|たいけん}: a valuable experience\n- {価値|かち}ある{情報|じょうほう}: valuable information\n- {価値|かち}ある{存在|そんざい}: a worthy existence\n- {読|よ}む{価値|かち}がある: worth reading\n\nSIMILAR WORDS:\n- {貴重|きちょう}な: precious, valuable — emphasizes rarity and preciousness\n- {有意義|ゆういぎ}な: meaningful, significant — emphasizes purposefulness\n- {価値|かち}がある: to have value — the predicative form (used at the end of a sentence rather than before a noun)",
+  "notes": "A pre-noun modifier combining ⟦{価値|かち}→価値：00131_kachi⟧ (value, worth) and ⟦ある→ある：00006_aru⟧ (to exist). It functions as an attributive expression placed directly before a noun, meaning \"having value\" or \"worthwhile.\"\n\nThis pattern (noun + ⟦ある→ある：00006_aru⟧) is a classical Japanese construction that survives in modern written and somewhat formal spoken Japanese. Other examples include ⟦{意味|いみ}→意味：01155_imi⟧⟦ある→ある：00006_aru⟧ (meaningful) and ⟦{力|ちから}→力：01661_chikara⟧⟦ある→ある：00006_aru⟧ (powerful).\n\nCOMMON COLLOCATIONS:\n- {価値|かち}ある⟦{体験|たいけん}→体験：11443_taiken⟧: a valuable experience\n- {価値|かち}ある⟦{情報|じょうほう}→情報：03348_jouhou⟧: valuable information\n- {価値|かち}ある⟦{存在|そんざい}→存在：03326_sonzai⟧: a worthy existence\n- ⟦{読|よ}む→読む：00426_yomu⟧⟦{価値|かち}→価値：00131_kachi⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧: worth reading\n\nSIMILAR WORDS:\n- ⟦{貴重|きちょう}→貴重：00223_kichou⟧な: precious, valuable — emphasizes rarity and preciousness\n- ⟦{有意義|ゆういぎ}→有意義：13020_yuuigi⟧な: meaningful, significant — emphasizes purposefulness\n- ⟦{価値|かち}→価値：00131_kachi⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧: to have value — the predicative form (used at the end of a sentence rather than before a noun)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15984_kichouna",
+      "reading": "きちょうな",
+      "headword": "{貴重|きちょう}な",
+      "label": "precious, valuable"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13020_yuuigi",
+      "reading": "ゆういぎ",
+      "headword": "{有意義|ゆういぎ}",
+      "label": "meaningful, significant"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["expression"],
-      "semantic": ["evaluation"]
+      "pos": [
+        "expression"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "evaluation"
+      ]
     },
     "created": "2026-04-26T12:34:39Z",
-    "modified": "2026-04-26T12:34:39Z"
+    "modified": "2026-09-02T04:02:23Z"
   }
 }

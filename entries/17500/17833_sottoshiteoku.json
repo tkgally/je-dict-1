@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "17833_sottoshiteoku_ex1",
-      "japanese": "{今|いま}はそっとしておいてあげよう。",
+      "japanese": "⟦{今|いま}→今：00945_ima⟧⟦は→は：00079_ha⟧そっとしておいて⟦あげよう→あげる：00546_ageru⟧。",
       "english": "Let's leave them alone for now.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "17833_sottoshiteoku_ex2",
-      "japanese": "{泣|な}いている{子|こ}をしばらくそっとしておいた。",
+      "japanese": "⟦{泣|な}いている→泣く：00655_naku⟧⟦{子|こ}→子：09851_ko⟧⟦を→を：00422_wo⟧⟦しばらく→しばらく：01267_shibaraku⟧そっとしておいた。",
       "english": "I left the crying child alone for a while.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "17833_sottoshiteoku_ex3",
-      "japanese": "{落|お}ち{込|こ}んでいるときは、{無理|むり}に{話|はな}しかけずにそっとしておくのが{一番|いちばん}だ。",
+      "japanese": "⟦{落|お}ち{込|こ}んでいる→落ち込む：05750_ochikomu⟧とき⟦は→は：00079_ha⟧、⟦{無理|むり}→無理：01558_muri⟧⟦に→に：00314_ni⟧⟦{話|はな}しかけ→話しかける：03134_hanashikakeru⟧ず⟦に→に：00314_ni⟧そっとしておく⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦{一番|いちばん}→一番：01140_ichiban⟧だ。",
       "english": "When someone is feeling down, it's best to leave them alone rather than forcing a conversation.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA gentle expression that implies considerate non-interference. The おく part indicates doing something in advance or letting a state continue. Often used with あげる to show consideration: そっとしておいてあげる.\n\nCOMMON PATTERNS:\n- そっとしておいて (please leave me/them alone)\n- そっとしておいてあげる (to leave someone alone — with care)\n- そっとしておくのが{一番|いちばん} (it's best to leave it alone)\n\nSIMILAR WORDS:\n- {放|ほう}っておく: to leave alone — more neutral or sometimes implies neglect\n- {構|かま}わない: to not bother with — can sound more dismissive\n- {見守|みまも}る: to watch over — implies staying nearby without interfering",
+  "notes": "USAGE:\nA gentle expression that implies considerate non-interference. The おく part indicates doing something in advance or letting a state continue. Often used with ⟦あげる→あげる：00546_ageru⟧ to show consideration: そっとしておいて⟦あげる→あげる：00546_ageru⟧.\n\nCOMMON PATTERNS:\n- そっとしておいて (please leave me/them alone)\n- そっとしておいて⟦あげる→あげる：00546_ageru⟧ (to leave someone alone — with care)\n- そっとしておく⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦{一番|いちばん}→一番：01140_ichiban⟧ (it's best to leave it alone)\n\nSIMILAR WORDS:\n- ⟦{放|ほう}っておく→放っておく：18382_houtteoku⟧: to leave alone — more neutral or sometimes implies neglect\n- {構|かま}わない: to not bother with — can sound more dismissive\n- ⟦{見守|みまも}る→見守る：04574_mimamoru⟧: to watch over — implies staying nearby without interfering",
   "cross_references": [
     {
       "type": "synonym",
@@ -59,11 +59,18 @@
       "reading": "みまもる",
       "headword": "{見守|みまも}る",
       "label": "watch over"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21314_kamawanai",
+      "reading": "かまわない",
+      "headword": "{構|かま}わない",
+      "label": "to not bother with"
     }
   ],
   "metadata": {
     "created": "2026-03-19T04:25:55Z",
-    "modified": "2026-07-24T21:50:29Z",
+    "modified": "2026-09-02T04:01:49Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "17824_jisedai_ex1",
-      "japanese": "{次世代|じせだい}の{技術|ぎじゅつ}に{期待|きたい}する。",
+      "japanese": "{次世代|じせだい}⟦の→の：09472_no⟧⟦{技術|ぎじゅつ}→技術：01389_gijutsu⟧⟦に→に：00314_ni⟧⟦{期待|きたい}する→期待する：06065_kitaisuru⟧。",
       "english": "To look forward to next-generation technology.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "17824_jisedai_ex2",
-      "japanese": "{次世代|じせだい}のリーダーを{育成|いくせい}することが{重要|じゅうよう}だ。",
+      "japanese": "{次世代|じせだい}⟦の→の：09472_no⟧⟦リーダー→リーダー：24312_riidaa⟧⟦を→を：00422_wo⟧⟦{育成|いくせい}→育成：13928_ikusei⟧⟦する→する：00392_suru⟧こと⟦が→が：00051_ga⟧⟦{重要|じゅうよう}→重要：01575_juuyou⟧だ。",
       "english": "It is important to develop the next generation of leaders.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "17824_jisedai_ex3",
-      "japanese": "この{会社|かいしゃ}は{次世代|じせだい}{通信|つうしん}の{研究|けんきゅう}{開発|かいはつ}に{多額|たがく}の{投資|とうし}をしている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦は→は：00079_ha⟧{次世代|じせだい}⟦{通信|つうしん}→通信：03514_tsuushin⟧⟦の→の：09472_no⟧⟦{研究|けんきゅう}→研究：01396_kenkyuu⟧⟦{開発|かいはつ}→開発：06746_kaihatsu⟧⟦に→に：00314_ni⟧⟦{多額|たがく}→多額：12309_tagaku⟧⟦の→の：09472_no⟧⟦{投資|とうし}→投資：04711_toushi⟧⟦を→を：00422_wo⟧⟦している→する：00392_suru⟧。",
       "english": "This company is investing heavily in next-generation communications research and development.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nMost commonly used as a modifier before a noun: {次世代|じせだい}の〜 or {次世代|じせだい}〜. Very common in technology, business, and education contexts.\n\nCOMMON COLLOCATIONS:\n- {次世代|じせだい}{技術|ぎじゅつ} (next-generation technology)\n- {次世代|じせだい}エネルギー (next-generation energy)\n- {次世代|じせだい}{通信|つうしん} (next-generation communications)\n- {次世代|じせだい}を{担|にな}う (to carry the next generation forward)\n\nSIMILAR WORDS:\n- {次|つぎ}の{世代|せだい}: the same meaning but as a phrase rather than a compound\n- {未来|みらい}: \"future\" — broader, not specifically about the next generation",
+  "notes": "USAGE:\nMost commonly used as a modifier before a noun: {次世代|じせだい}⟦の→の：09472_no⟧〜 or {次世代|じせだい}〜. Very common in technology, business, and education contexts.\n\nCOMMON COLLOCATIONS:\n- {次世代|じせだい}⟦{技術|ぎじゅつ}→技術：01389_gijutsu⟧ (next-generation technology)\n- {次世代|じせだい}⟦エネルギー→エネルギー：03834_enerugii⟧ (next-generation energy)\n- {次世代|じせだい}⟦{通信|つうしん}→通信：03514_tsuushin⟧ (next-generation communications)\n- {次世代|じせだい}⟦を→を：00422_wo⟧⟦{担|にな}う→担う：12787_ninau⟧ (to carry the next generation forward)\n\nSIMILAR WORDS:\n- ⟦{次|つぎ}→次：00819_tsugi⟧⟦の→の：09472_no⟧⟦{世代|せだい}→世代：05102_sedai⟧: the same meaning but as a phrase rather than a compound\n- ⟦{未来|みらい}→未来：03748_mirai⟧: \"future\" — broader, not specifically about the next generation",
   "cross_references": [
     {
       "type": "related",
@@ -52,11 +52,18 @@
       "reading": "せだい",
       "headword": "{世代|せだい}",
       "label": "generation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03748_mirai",
+      "reading": "みらい",
+      "headword": "{未来|みらい}",
+      "label": "\"future\""
     }
   ],
   "metadata": {
     "created": "2026-03-19T04:22:55Z",
-    "modified": "2026-05-07T08:09:41Z",
+    "modified": "2026-09-02T04:01:49Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

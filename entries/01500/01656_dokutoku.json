@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "01656_dokutoku_ex1",
-      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{独特|どくとく}⟦の→の：09472_no⟧⟦{スタイル|すたいる}→スタイル：03851_sutairu⟧⟦を→を：00422_wo⟧⟦{持|も}っています→持つ：00478_motsu⟧。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{独特|どくとく}⟦の→の：09472_no⟧⟦スタイル→スタイル：03851_sutairu⟧⟦を→を：00422_wo⟧⟦{持|も}っています→持つ：00478_motsu⟧。",
       "english": "He has a unique style.",
       "notes": null,
       "has_audio": false,
@@ -58,11 +58,39 @@
       "reading": "とくゆう",
       "headword": "{特有|とくゆう}",
       "label": "peculiar to, characteristic"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11393_yuniiku",
+      "reading": "ゆにーく",
+      "headword": "ユニーク",
+      "label": "unique"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14922_koseiteki",
+      "reading": "こせいてき",
+      "headword": "{個性的|こせいてき}",
+      "label": "unique"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20570_fuugawari",
+      "reading": "ふうがわり",
+      "headword": "{風変|ふうが}わり",
+      "label": "unusual"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23930_muhi",
+      "reading": "むひ",
+      "headword": "{無比|むひ}",
+      "label": "matchless"
     }
   ],
   "metadata": {
     "created": "2026-01-09T11:57:15Z",
-    "modified": "2026-05-16T15:08:42Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

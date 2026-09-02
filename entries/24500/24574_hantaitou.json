@@ -16,7 +16,7 @@
   "examples": [
     {
       "id": "24574_hantaitou_ex1",
-      "japanese": "{反対党|はんたいとう}が{法案|ほうあん}に{反対|はんたい}した。",
+      "japanese": "{反対党|はんたいとう}⟦が→が：00051_ga⟧⟦{法案|ほうあん}→法案：09758_houan⟧⟦に→に：00314_ni⟧⟦{反対|はんたい}した→反対する：05648_hantaisuru⟧。",
       "english": "The opposition party opposed the bill.",
       "sense_numbers": [
         1
@@ -26,7 +26,7 @@
     },
     {
       "id": "24574_hantaitou_ex2",
-      "japanese": "{反対党|はんたいとう}の{党首|とうしゅ}が{記者|きしゃ}{会見|かいけん}を{開|ひら}いた。",
+      "japanese": "{反対党|はんたいとう}⟦の→の：09472_no⟧⟦{党首|とうしゅ}→党首：17742_toushu⟧⟦が→が：00051_ga⟧⟦{記者|きしゃ}{会見|かいけん}→記者会見：19954_kishakaiken⟧⟦を→を：00422_wo⟧⟦{開|ひら}いた→開く：01979_hiraku⟧。",
       "english": "The leader of the opposition party held a press conference.",
       "sense_numbers": [
         1
@@ -36,7 +36,7 @@
     },
     {
       "id": "24574_hantaitou_ex3",
-      "japanese": "{反対党|はんたいとう}は{政府|せいふ}の{経済|けいざい}{政策|せいさく}を{厳|きび}しく{批判|ひはん}し、{代替案|だいたいあん}を{提示|ていじ}した。",
+      "japanese": "{反対党|はんたいとう}⟦は→は：00079_ha⟧⟦{政府|せいふ}→政府：03294_seifu⟧⟦の→の：09472_no⟧⟦{経済|けいざい}{政策|せいさく}→経済政策：21753_keizaiseisaku⟧⟦を→を：00422_wo⟧⟦{厳|きび}しく→厳しい：01125_kibishii⟧⟦{批判|ひはん}→批判：03580_hihan⟧し、{代替案|だいたいあん}⟦を→を：00422_wo⟧⟦{提示|ていじ}した→提示する：26842_teijisuru⟧。",
       "english": "The opposition party harshly criticized the government's economic policy and presented an alternative plan.",
       "sense_numbers": [
         1
@@ -45,11 +45,26 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {反対|はんたい} (opposition) and {党|とう} (party). Refers to any political party opposing the ruling party or coalition. In Japanese politics, the main opposition has shifted over the decades, but the term itself is neutral and applies generically.\n\nCOMMON COLLOCATIONS:\n- {反対党|はんたいとう}の{党首|とうしゅ}: opposition party leader\n- {反対党|はんたいとう}が{批判|ひはん}する: the opposition criticizes\n- {反対党|はんたいとう}の{主張|しゅちょう}: the opposition's claims\n- {反対党|はんたいとう}に{転|てん}じる: to become an opposition party\n\nSIMILAR WORDS:\n- {野党|やとう}: opposition party — the standard, more common term in political discourse\n- {与党|よとう}: ruling party — the party or coalition in power\n- {対立|たいりつ}{政党|せいとう}: rival party — emphasizes the confrontational relationship",
-  "cross_references": [],
+  "notes": "Composed of ⟦{反対|はんたい}→反対：01497_hantai⟧ (opposition) and {党|とう} (party). Refers to any political party opposing the ruling party or coalition. In Japanese politics, the main opposition has shifted over the decades, but the term itself is neutral and applies generically.\n\nCOMMON COLLOCATIONS:\n- {反対党|はんたいとう}⟦の→の：09472_no⟧⟦{党首|とうしゅ}→党首：17742_toushu⟧: opposition party leader\n- {反対党|はんたいとう}⟦が→が：00051_ga⟧⟦{批判|ひはん}する→批判する：21993_hihansuru⟧: the opposition criticizes\n- {反対党|はんたいとう}⟦の→の：09472_no⟧⟦{主張|しゅちょう}→主張：03220_shuchou⟧: the opposition's claims\n- {反対党|はんたいとう}⟦に→に：00314_ni⟧{転|てん}じる: to become an opposition party\n\nSIMILAR WORDS:\n- ⟦{野党|やとう}→野党：02438_yatou⟧: opposition party — the standard, more common term in political discourse\n- ⟦{与党|よとう}→与党：05241_yotou⟧: ruling party — the party or coalition in power\n- ⟦{対立|たいりつ}→対立：04500_tairitsu⟧⟦{政党|せいとう}→政党：04338_seitou⟧: rival party — emphasizes the confrontational relationship",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02438_yatou",
+      "reading": "やとう",
+      "headword": "{野党|やとう}",
+      "label": "opposition party"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05241_yotou",
+      "reading": "よとう",
+      "headword": "{与党|よとう}",
+      "label": "ruling party"
+    }
+  ],
   "metadata": {
     "created": "2026-04-19T15:18:49Z",
-    "modified": "2026-08-03T09:22:27Z",
+    "modified": "2026-09-02T04:02:18Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

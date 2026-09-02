@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "07768_gairyaku_ex1",
-      "japanese": "{概略|がいりゃく}を{説明|せつめい}する。",
+      "japanese": "{概略|がいりゃく}⟦を→を：00422_wo⟧⟦{説明|せつめい}する→説明する：05639_setsumeisuru⟧。",
       "english": "Explain the outline.",
       "has_audio": false,
       "sense_numbers": [
@@ -23,7 +23,7 @@
     },
     {
       "id": "07768_gairyaku_ex2",
-      "japanese": "プロジェクトの{概略|がいりゃく}を{教|おし}えてください。",
+      "japanese": "⟦プロジェクト→プロジェクト：06764_purojekuto⟧⟦の→の：09472_no⟧{概略|がいりゃく}⟦を→を：00422_wo⟧⟦{教|おし}えて→教える：00526_oshieru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please tell me the overview of the project.",
       "has_audio": false,
       "sense_numbers": [
@@ -32,7 +32,7 @@
     },
     {
       "id": "07768_gairyaku_ex3",
-      "japanese": "{概略|がいりゃく}だけでも{把握|はあく}しておきたい。",
+      "japanese": "{概略|がいりゃく}⟦だけ→〜だけ：03093_dake⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧⟦{把握|はあく}して→把握する：19628_haakusuru⟧おきたい。",
       "english": "I want to at least grasp the general outline.",
       "has_audio": false,
       "sense_numbers": [
@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "notes": "ETYMOLOGY:\n{概|がい} (general, approximate) + {略|りゃく} (abbreviation, summary)\n\nUSAGE:\nUsed in business and academic contexts when:\n・Giving a high-level overview\n・Summarizing complex topics\n・Providing initial explanations\n\nCOLLOCATIONS:\n・{概略|がいりゃく}を{述|の}べる - to state an outline\n・{概略|がいりゃく}{説明|せつめい} - summary explanation\n\nSIMILAR WORDS:\n・{概要|がいよう} - summary, overview\n・{大筋|おおすじ} - general outline",
+  "notes": "ETYMOLOGY:\n{概|がい} (general, approximate) + ⟦{略|りゃく}→略：21443_ryaku⟧ (abbreviation, summary)\n\nUSAGE:\nUsed in business and academic contexts when:\n- Giving a high-level overview\n- Summarizing complex topics\n- Providing initial explanations\n\nCOMMON COLLOCATIONS:\n- {概略|がいりゃく}⟦を→を：00422_wo⟧⟦{述|の}べる→述べる：02389_noberu⟧ - to state an outline\n- {概略|がいりゃく}⟦{説明|せつめい}→説明：01449_setsumei⟧ - summary explanation\n\nSIMILAR WORDS:\n- ⟦{概要|がいよう}→概要：06747_gaiyou⟧ - summary, overview\n- ⟦{大筋|おおすじ}→大筋：07287_oosuji⟧ - general outline",
   "cross_references": [
     {
       "type": "synonym",
@@ -48,11 +48,25 @@
       "reading": "がいよう",
       "headword": "{概要|がいよう}",
       "label": "summary, overview"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07287_oosuji",
+      "reading": "おおすじ",
+      "headword": "{大筋|おおすじ}",
+      "label": "general outline"
+    },
+    {
+      "type": "related",
+      "target_id": "08312_gaisan",
+      "reading": "がいさん",
+      "headword": "{概算|がいさん}",
+      "label": "rough estimate"
     }
   ],
   "metadata": {
     "created": "2026-01-21T01:02:32Z",
-    "modified": "2026-06-19T21:43:28Z",
+    "modified": "2026-09-02T04:01:12Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +74,7 @@
         "noun"
       ],
       "formality": "formal",
+      "politeness": "plain",
       "semantic": [
         "communication",
         "abstract"

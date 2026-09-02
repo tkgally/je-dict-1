@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22670_rouryoku_ex1",
-      "japanese": "{大|おお}きな{労力|ろうりょく}がかかる。",
+      "japanese": "⟦{大|おお}きな→大きな：02849_ookina⟧{労力|ろうりょく}⟦が→が：00051_ga⟧⟦かかる→かかる：00711_kakaru⟧。",
       "english": "It takes a great deal of effort.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22670_rouryoku_ex2",
-      "japanese": "この{作業|さぎょう}には{多|おお}くの{労力|ろうりょく}が{必要|ひつよう}だ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{作業|さぎょう}→作業：02775_sagyou⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{多|おお}く⟦の→の：09472_no⟧{労力|ろうりょく}⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧だ。",
       "english": "This task requires a lot of manpower.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22670_rouryoku_ex3",
-      "japanese": "{無駄|むだ}な{労力|ろうりょく}を{省|はぶ}いて{効率|こうりつ}よく{進|すす}めたい。",
+      "japanese": "⟦{無駄|むだ}→無駄：02512_muda⟧な{労力|ろうりょく}⟦を→を：00422_wo⟧⟦{省|はぶ}いて→省く：02398_habuku⟧⟦{効率|こうりつ}→効率：11794_kouritsu⟧⟦よく→よく：00601_yoku⟧⟦{進|すす}めたい→進める：01949_susumeru⟧。",
       "english": "I want to cut out unnecessary effort and proceed efficiently.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Refers to the effort or work put into accomplishing something, encompassing both physical labor and mental exertion. Often used when discussing whether a task is worth the time and energy invested.\n\nCOMMON COLLOCATIONS:\n- {労力|ろうりょく}をかける: to put in effort\n- {労力|ろうりょく}を{費|つい}やす: to expend effort\n- {労力|ろうりょく}を{省|はぶ}く: to save effort\n- {無駄|むだ}な{労力|ろうりょく}: wasted effort\n- {膨大|ぼうだい}な{労力|ろうりょく}: enormous effort\n\nSIMILAR WORDS:\n- {努力|どりょく}: effort — emphasizes personal determination and trying hard, while {労力|ろうりょく} focuses on the amount of work or resources required\n- {手間|てま}: time and trouble — focuses on the practical inconvenience or steps involved, often used for smaller tasks",
+  "notes": "Refers to the effort or work put into accomplishing something, encompassing both physical labor and mental exertion. Often used when discussing whether a task is worth the time and energy invested.\n\nCOMMON COLLOCATIONS:\n- {労力|ろうりょく}⟦を→を：00422_wo⟧⟦かける→かける：00854_kakeru⟧: to put in effort\n- {労力|ろうりょく}⟦を→を：00422_wo⟧⟦{費|つい}やす→費やす：10424_tsuiyasu⟧: to expend effort\n- {労力|ろうりょく}⟦を→を：00422_wo⟧⟦{省|はぶ}く→省く：02398_habuku⟧: to save effort\n- ⟦{無駄|むだ}→無駄：02512_muda⟧な{労力|ろうりょく}: wasted effort\n- ⟦{膨大|ぼうだい}→膨大：08997_boudai⟧な{労力|ろうりょく}: enormous effort\n\nSIMILAR WORDS:\n- ⟦{努力|どりょく}→努力：03490_doryoku⟧: effort — emphasizes personal determination and trying hard, while {労力|ろうりょく} focuses on the amount of work or resources required\n- ⟦{手間|てま}→手間：03554_tema⟧: time and trouble — focuses on the practical inconvenience or steps involved, often used for smaller tasks",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03490_doryoku",
+      "reading": "どりょく",
+      "headword": "{努力|どりょく}",
+      "label": "effort"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03554_tema",
+      "reading": "てま",
+      "headword": "{手間|てま}",
+      "label": "time and trouble"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +76,6 @@
       "politeness": "plain"
     },
     "created": "2026-04-07T00:49:46Z",
-    "modified": "2026-08-01T06:41:09Z"
+    "modified": "2026-09-02T04:02:09Z"
   }
 }

@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "13303_chiyu_ex1",
-      "japanese": "{傷|きず}が{完全|かんぜん}に{治癒|ちゆ}した。",
+      "japanese": "⟦{傷|きず}→傷：02201_kizu⟧⟦が→が：00051_ga⟧⟦{完全|かんぜん}→完全：01552_kanzen⟧⟦に→に：00314_ni⟧{治癒|ちゆ}⟦した→する：00392_suru⟧。",
       "english": "The wound has completely healed.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "13303_chiyu_ex2",
-      "japanese": "{治癒|ちゆ}までに{数|すう}か{月|げつ}かかる{見込|みこ}みです。",
+      "japanese": "{治癒|ちゆ}⟦まで→まで：00490_made⟧⟦に→に：00314_ni⟧⟦{数|すう}→数：03360_suu⟧か{月|げつ}⟦かかる→かかる：00711_kakaru⟧⟦{見込|みこ}み→見込み：06872_mikomi⟧です。",
       "english": "Recovery is expected to take several months.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "13303_chiyu_ex3",
-      "japanese": "{自然|しぜん}{治癒力|ちゆりょく}を{高|たか}めるために{睡眠|すいみん}をしっかり{取|と}りましょう。",
+      "japanese": "⟦{自然|しぜん}→自然：01423_shizen⟧{治癒力|ちゆりょく}⟦を→を：00422_wo⟧⟦{高|たか}める→高める：02065_takameru⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧⟦{睡眠|すいみん}→睡眠：03359_suimin⟧⟦を→を：00422_wo⟧⟦しっかり→しっかり：01272_shikkari⟧⟦{取|と}りましょう→取る：00565_toru⟧。",
       "english": "Let's get plenty of sleep to boost our natural healing ability.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA formal, often medical term. In everyday conversation, {治|なお}る (to heal, to get better) is more common. {治癒|ちゆ} is used in medical reports, health articles, and formal writing.\n\nThe compound {自然治癒力|しぜんちゆりょく} (natural healing power) is widely used in health contexts.\n\nCOMMON COLLOCATIONS:\n- {治癒|ちゆ}する: to heal, to be cured\n- {完全|かんぜん}{治癒|ちゆ}: complete recovery\n- {自然|しぜん}{治癒|ちゆ}: natural healing\n- {自然|しぜん}{治癒力|ちゆりょく}: natural healing ability\n- {治癒|ちゆ}{率|りつ}: cure rate",
+  "notes": "USAGE:\nA formal, often medical term. In everyday conversation, ⟦{治|なお}る→治る：19598_naoru⟧ (to heal, to get better) is more common. {治癒|ちゆ} is used in medical reports, health articles, and formal writing.\n\nThe compound {自然治癒力|しぜんちゆりょく} (natural healing power) is widely used in health contexts.\n\nCOMMON COLLOCATIONS:\n- {治癒|ちゆ}⟦する→する：00392_suru⟧: to heal, to be cured\n- ⟦{完全|かんぜん}→完全：01552_kanzen⟧{治癒|ちゆ}: complete recovery\n- ⟦{自然|しぜん}→自然：01423_shizen⟧{治癒|ちゆ}: natural healing\n- ⟦{自然|しぜん}→自然：01423_shizen⟧{治癒力|ちゆりょく}: natural healing ability\n- {治癒|ちゆ}⟦{率|りつ}→率：03802_ritsu⟧: cure rate",
   "cross_references": [
     {
       "type": "synonym",
@@ -142,11 +142,18 @@
       "reading": "なおる",
       "headword": "{治|なお}る",
       "label": "to heal (everyday)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26137_yugou",
+      "reading": "ゆごう",
+      "headword": "{癒合|ゆごう}",
+      "label": "healing"
     }
   ],
   "metadata": {
     "created": "2026-02-24T09:00:50Z",
-    "modified": "2026-04-28T08:04:59Z",
+    "modified": "2026-09-02T04:01:32Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

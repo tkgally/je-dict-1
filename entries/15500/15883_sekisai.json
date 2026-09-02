@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "15883_sekisai_ex1",
-      "japanese": "{積載量|せきさいりょう}を{超|こ}えてはいけない。",
+      "japanese": "{積載量|せきさいりょう}⟦を→を：00422_wo⟧⟦{超|こ}えて→超える：01942_koeru⟧⟦は→は：00079_ha⟧いけない。",
       "english": "You must not exceed the loading capacity.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "15883_sekisai_ex2",
-      "japanese": "このトラックの{最大積載量|さいだいせきさいりょう}は{五|ご}トンだ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦トラック→トラック：03863_torakku⟧⟦の→の：09472_no⟧{最大積載量|さいだいせきさいりょう}⟦は→は：00079_ha⟧⟦{五|ご}→五：00697_go⟧⟦トン→トン：00407_ton⟧だ。",
       "english": "The maximum loading capacity of this truck is five tons.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "15883_sekisai_ex3",
-      "japanese": "{積載量|せきさいりょう}オーバーで{走行|そうこう}すると{法律|ほうりつ}{違反|いはん}になる。",
+      "japanese": "{積載量|せきさいりょう}⟦オーバー→オーバー：01529_oobaa⟧⟦で→で：00502_de⟧⟦{走行|そうこう}→走行：14260_soukou⟧⟦する→する：00392_suru⟧⟦と→と：00512_to⟧⟦{法律|ほうりつ}→法律：01722_houritsu⟧⟦{違反|いはん}→違反：01824_ihan⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧。",
       "english": "Driving with cargo exceeding the loading limit is a legal violation.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,33 @@
       ]
     }
   ],
-  "notes": "{積載|せきさい} refers to loading cargo onto a vehicle or the cargo-carrying capacity of a vehicle. A formal/technical term used in transportation, logistics, and regulations.\n\nCOMPOSITION:\n{積|せき} (pile up, load) + {載|さい} (carry, load onto).\n\nCOMMON COLLOCATIONS:\n- {積載|せきさい}する: to load (cargo)\n- {積載量|せきさいりょう}: loading capacity\n- {最大|さいだい}{積載量|せきさいりょう}: maximum loading capacity\n- {積載|せきさい}{制限|せいげん}: loading limit\n- {積載|せきさい}{重量|じゅうりょう}: loaded weight\n- {積載|せきさい}{超過|ちょうか}: overloading\n\nUSAGE:\nMainly appears in technical, legal, and regulatory contexts. You will often see {最大|さいだい}{積載量|せきさいりょう} marked on commercial vehicles. Exceeding {積載|せきさい} limits is a traffic violation.\n\nSIMILAR WORDS:\n- {積|つ}む: to load (everyday verb)\n- {搭載|とうさい}: to mount, to equip (for equipment/technology)",
-  "cross_references": [],
+  "notes": "{積載|せきさい} refers to loading cargo onto a vehicle or the cargo-carrying capacity of a vehicle. A formal/technical term used in transportation, logistics, and regulations.\n\nETYMOLOGY:\n{積|せき} (pile up, load) + {載|さい} (carry, load onto).\n\nCOMMON COLLOCATIONS:\n- {積載|せきさい}⟦する→する：00392_suru⟧: to load (cargo)\n- {積載量|せきさいりょう}: loading capacity\n- ⟦{最大|さいだい}→最大：04827_saidai⟧{積載量|せきさいりょう}: maximum loading capacity\n- {積載|せきさい}⟦{制限|せいげん}→制限：03375_seigen⟧: loading limit\n- {積載|せきさい}⟦{重量|じゅうりょう}→重量：05475_juuryou⟧: loaded weight\n- {積載|せきさい}⟦{超過|ちょうか}→超過：04523_chouka⟧: overloading\n\nUSAGE:\nMainly appears in technical, legal, and regulatory contexts. You will often see ⟦{最大|さいだい}→最大：04827_saidai⟧{積載量|せきさいりょう} marked on commercial vehicles. Exceeding {積載|せきさい} limits is a traffic violation.\n\nSIMILAR WORDS:\n- ⟦{積|つ}む→積む：02294_tsumu⟧: to load (everyday verb)\n- ⟦{搭載|とうさい}→搭載：12789_tousai⟧: to mount, to equip (for equipment/technology)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02294_tsumu",
+      "reading": "つむ",
+      "headword": "{積|つ}む",
+      "label": "to load"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12789_tousai",
+      "reading": "とうさい",
+      "headword": "{搭載|とうさい}",
+      "label": "to mount, to equip"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24584_nizumi",
+      "reading": "にづみ",
+      "headword": "{荷積|にづ}み",
+      "label": "loading"
+    }
+  ],
   "metadata": {
     "created": "2026-03-08T13:21:32Z",
-    "modified": "2026-07-18T04:02:53Z",
+    "modified": "2026-09-02T04:01:42Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

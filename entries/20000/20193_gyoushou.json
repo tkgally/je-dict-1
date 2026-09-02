@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "20193_gyoushou_ex1",
-      "japanese": "{行商|ぎょうしょう}で{生計|せいけい}を{立|た}てる。",
+      "japanese": "{行商|ぎょうしょう}⟦で→で：00502_de⟧⟦{生計|せいけい}→生計：13524_seikei⟧⟦を→を：00422_wo⟧⟦{立|た}てる→立てる：01196_tateru⟧。",
       "english": "To make a living by peddling.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "20193_gyoushou_ex2",
-      "japanese": "{昔|むかし}は{魚|さかな}の{行商|ぎょうしょう}が{町|まち}を{回|まわ}っていた。",
+      "japanese": "⟦{昔|むかし}→昔：01515_mukashi⟧⟦は→は：00079_ha⟧⟦{魚|さかな}→魚：00499_sakana⟧⟦の→の：09472_no⟧{行商|ぎょうしょう}⟦が→が：00051_ga⟧⟦{町|まち}→町：00613_machi⟧⟦を→を：00422_wo⟧⟦{回|まわ}っていた→回る：01150_mawaru⟧。",
       "english": "In the old days, fish peddlers would go around town.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "20193_gyoushou_ex3",
-      "japanese": "{祖父|そふ}は{若|わか}い{頃|ころ}、リヤカーを{引|ひ}いて{野菜|やさい}の{行商|ぎょうしょう}をしていたそうだ。",
+      "japanese": "⟦{祖父|そふ}→祖父：01452_sofu⟧⟦は→は：00079_ha⟧{若|わか}い{頃|ころ}、リヤカー⟦を→を：00422_wo⟧⟦{引|ひ}いて→引く：01978_hiku⟧⟦{野菜|やさい}→野菜：02265_yasai⟧⟦の→の：09472_no⟧{行商|ぎょうしょう}⟦を→を：00422_wo⟧⟦していた→する：00392_suru⟧そうだ。",
       "english": "I heard my grandfather used to peddle vegetables pulling a cart when he was young.",
       "sense_numbers": [
         1
@@ -134,8 +134,17 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {行|ぎょう} (travel/go) + {商|しょう} (commerce/trade). Refers to the practice of selling goods by going from place to place, rather than from a fixed shop.\n\nCOMMON COLLOCATIONS:\n- {行商|ぎょうしょう}する: to peddle, to sell door-to-door\n- {行商|ぎょうしょう}{人|にん}: peddler, traveling salesperson\n- {行商|ぎょうしょう}に{出|で}る: to go out peddling\n\nSIMILAR WORDS:\n- {露店|ろてん}: street stall — a temporary booth set up in one place\n- {物売|ものう}り: vendor, seller — more general term\n\nCULTURAL NOTE:\nTraditional {行商|ぎょうしょう} was common in Japan before the spread of supermarkets. Fish, tofu, and vegetable peddlers would walk through neighborhoods. While rare today, some traveling vendors still operate in rural areas.",
+  "notes": "Composed of ⟦{行|ぎょう}→行：26669_gyou⟧ (travel/go) + ⟦{商|しょう}→商：26727_shou⟧ (commerce/trade). Refers to the practice of selling goods by going from place to place, rather than from a fixed shop.\n\nCOMMON COLLOCATIONS:\n- {行商|ぎょうしょう}⟦する→する：00392_suru⟧: to peddle, to sell door-to-door\n- {行商|ぎょうしょう}{人|にん}: peddler, traveling salesperson\n- {行商|ぎょうしょう}⟦に→に：00314_ni⟧⟦{出|で}る→出る：00513_deru⟧: to go out peddling\n\nSIMILAR WORDS:\n- ⟦{露店|ろてん}→露店：10106_roten⟧: street stall — a temporary booth set up in one place\n- {物売|ものう}り: vendor, seller — more general term\n\nCULTURAL NOTE:\nTraditional {行商|ぎょうしょう} was common in Japan before the spread of supermarkets. Fish, tofu, and vegetable peddlers would walk through neighborhoods. While rare today, some traveling vendors still operate in rural areas.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "10106_roten",
+      "reading": "ろてん",
+      "headword": "{露店|ろてん}",
+      "label": "street stall"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -151,6 +160,6 @@
       "verb_class": "suru"
     },
     "created": "2026-03-28T16:19:09Z",
-    "modified": "2026-03-28T16:19:09Z"
+    "modified": "2026-09-02T04:01:58Z"
   }
 }

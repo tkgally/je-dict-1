@@ -15,41 +15,67 @@
   "examples": [
     {
       "id": "28764_juushou_ex1",
-      "japanese": "{二重唱|にじゅうしょう}を{披露|ひろう}した。",
+      "japanese": "{二重唱|にじゅうしょう}⟦を→を：00422_wo⟧⟦{披露|ひろう}した→披露する：20927_hirousuru⟧。",
       "english": "They performed a duet.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28764_juushou_ex2",
-      "japanese": "{四重唱|しじゅうしょう}は{四人|よにん}の{歌|うた}{手|て}で{構成|こうせい}される。",
+      "japanese": "{四重唱|しじゅうしょう}⟦は→は：00079_ha⟧⟦{四人|よにん}→四人：30566_yonin⟧⟦の→の：09472_no⟧{歌|うた}{手|て}⟦で→で：00502_de⟧⟦{構成|こうせい}→構成：02729_kousei⟧⟦される→する：00392_suru⟧。",
       "english": "A vocal quartet is made up of four singers.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28764_juushou_ex3",
-      "japanese": "オペラの{重唱|じゅうしょう}は、{登場人物|とうじょうじんぶつ}の{心理|しんり}を{重|かさ}ね{合|あ}わせて{表現|ひょうげん}する。",
+      "japanese": "⟦オペラ→オペラ：28763_opera⟧⟦の→の：09472_no⟧{重唱|じゅうしょう}⟦は→は：00079_ha⟧、⟦{登場人物|とうじょうじんぶつ}→登場人物：16072_toujoujinbutsu⟧⟦の→の：09472_no⟧⟦{心理|しんり}→心理：03332_shinri⟧⟦を→を：00422_wo⟧{重|かさ}ね{合|あ}わせて⟦{表現|ひょうげん}→表現：03584_hyougen⟧⟦する→する：00392_suru⟧。",
       "english": "Vocal ensembles in opera layer the inner thoughts of the characters together.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Compound of {重|じゅう} (layer; multiple) + {唱|しょう} (singing). Number prefixes specify the size: {二重唱|にじゅうしょう} (duet), {三重唱|さんじゅうしょう} (trio), {四重唱|しじゅうしょう} (quartet).\n\nCOMMON COLLOCATIONS:\n- {二重唱|にじゅうしょう}: duet\n- {三重唱|さんじゅうしょう}: trio\n- {四重唱|しじゅうしょう}: quartet\n- {重唱|じゅうしょう}を{披露|ひろう}する: to perform an ensemble piece\n\nSIMILAR WORDS:\n- {合唱|がっしょう}: chorus; choral singing — multiple singers per part\n- {独唱|どくしょう}: solo singing — a single singer with accompaniment\n- {重奏|じゅうそう}: instrumental ensemble — same idea but with instruments (string quartet = {弦楽四重奏|げんがくしじゅうそう})",
+  "notes": "Compound of {重|じゅう} (layer; multiple) + {唱|しょう} (singing). Number prefixes specify the size: {二重唱|にじゅうしょう} (duet), {三重唱|さんじゅうしょう} (trio), {四重唱|しじゅうしょう} (quartet).\n\nCOMMON COLLOCATIONS:\n- {二重唱|にじゅうしょう}: duet\n- {三重唱|さんじゅうしょう}: trio\n- {四重唱|しじゅうしょう}: quartet\n- {重唱|じゅうしょう}⟦を→を：00422_wo⟧⟦{披露|ひろう}する→披露する：20927_hirousuru⟧: to perform an ensemble piece\n\nSIMILAR WORDS:\n- ⟦{合唱|がっしょう}→合唱：04900_gasshou⟧: chorus; choral singing — multiple singers per part\n- ⟦{独唱|どくしょう}→独唱：05232_dokushou⟧: solo singing — a single singer with accompaniment\n- {重奏|じゅうそう}: instrumental ensemble — same idea but with instruments (string quartet = {弦楽四重奏|げんがくしじゅうそう})",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04900_gasshou",
+      "reading": "がっしょう",
+      "headword": "{合唱|がっしょう}",
+      "label": "chorus"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05232_dokushou",
+      "reading": "どくしょう",
+      "headword": "{独唱|どくしょう}",
+      "label": "solo singing"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["music"],
+      "politeness": "plain",
+      "semantic": [
+        "music"
+      ],
       "domain": []
     },
     "created": "2026-06-05T02:07:15Z",
-    "modified": "2026-06-05T02:07:15Z"
+    "modified": "2026-09-02T04:02:34Z"
   }
 }

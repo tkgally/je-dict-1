@@ -14,42 +14,67 @@
   "examples": [
     {
       "id": "11917_retsuaku_ex1",
-      "japanese": "{労働|ろうどう}{環境|かんきょう}が{劣悪|れつあく}だ。",
+      "japanese": "⟦{労働|ろうどう}→労働：03785_roudou⟧⟦{環境|かんきょう}→環境：00174_kankyou⟧⟦が→が：00051_ga⟧{劣悪|れつあく}だ。",
       "english": "The working conditions are terrible.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11917_retsuaku_ex2",
-      "japanese": "{劣悪|れつあく}な{品質|ひんしつ}の{製品|せいひん}が{出回|でまわ}っている。",
+      "japanese": "{劣悪|れつあく}な⟦{品質|ひんしつ}→品質：09507_hinshitsu⟧⟦の→の：09472_no⟧⟦{製品|せいひん}→製品：01445_seihin⟧⟦が→が：00051_ga⟧⟦{出回|でまわ}っている→出回る：11736_demawaru⟧。",
       "english": "Inferior quality products are circulating in the market.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11917_retsuaku_ex3",
-      "japanese": "{衛生|えいせい}{状態|じょうたい}が{劣悪|れつあく}な{地域|ちいき}では{病気|びょうき}が{広|ひろ}がりやすい。",
+      "japanese": "⟦{衛生|えいせい}→衛生：14049_eisei⟧⟦{状態|じょうたい}→状態：03345_joutai⟧⟦が→が：00051_ga⟧{劣悪|れつあく}な⟦{地域|ちいき}→地域：01461_chiiki⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{病気|びょうき}→病気：00771_byouki⟧⟦が→が：00051_ga⟧⟦{広|ひろ}がり→広がる：01980_hirogaru⟧やすい。",
       "english": "Disease spreads easily in areas with terrible sanitary conditions.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "A strong, somewhat formal word typically used to criticize conditions or quality — especially in discussions of labor, living conditions, and product quality. Not typically used to describe people directly.\n\nCOMMON COLLOCATIONS:\n・{劣悪|れつあく}な{環境|かんきょう} (terrible environment)\n・{劣悪|れつあく}な{条件|じょうけん} (terrible conditions)\n・{劣悪|れつあく}な{品質|ひんしつ} (inferior quality)\n・{劣悪|れつあく}な{待遇|たいぐう} (terrible treatment)",
-  "cross_references": [],
+  "notes": "A strong, somewhat formal word typically used to criticize conditions or quality — especially in discussions of labor, living conditions, and product quality. Not typically used to describe people directly.\n\nCOMMON COLLOCATIONS:\n- {劣悪|れつあく}な⟦{環境|かんきょう}→環境：00174_kankyou⟧ (terrible environment)\n- {劣悪|れつあく}な⟦{条件|じょうけん}→条件：03285_jouken⟧ (terrible conditions)\n- {劣悪|れつあく}な⟦{品質|ひんしつ}→品質：09507_hinshitsu⟧ (inferior quality)\n- {劣悪|れつあく}な⟦{待遇|たいぐう}→待遇：12517_taiguu⟧ (terrible treatment)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20553_akushitsu",
+      "reading": "あくしつ",
+      "headword": "{悪質|あくしつ}",
+      "label": "malicious"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23685_teihinshitsu",
+      "reading": "ていひんしつ",
+      "headword": "{低品質|ていひんしつ}",
+      "label": "low quality"
+    }
+  ],
   "metadata": {
     "created": "2026-02-18T14:16:06Z",
-    "modified": "2026-02-18T14:16:06Z",
+    "modified": "2026-09-02T04:01:26Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
     "tags": {
-      "pos": ["adjective-na"],
+      "pos": [
+        "adjective-na"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["descriptive"]
+      "semantic": [
+        "descriptive"
+      ]
     }
   }
 }

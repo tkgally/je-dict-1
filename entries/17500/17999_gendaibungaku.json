@@ -15,42 +15,62 @@
   "examples": [
     {
       "id": "17999_gendaibungaku_ex1",
-      "japanese": "{現代|げんだい}{文学|ぶんがく}を{研究|けんきゅう}している。",
+      "japanese": "{現代|げんだい}{文学|ぶんがく}⟦を→を：00422_wo⟧⟦{研究|けんきゅう}→研究：01396_kenkyuu⟧⟦している→する：00392_suru⟧。",
       "english": "I am studying modern literature.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17999_gendaibungaku_ex2",
-      "japanese": "{村上|むらかみ}{春樹|はるき}は{日本|にほん}の{現代|げんだい}{文学|ぶんがく}を{代表|だいひょう}する{作家|さっか}だ。",
+      "japanese": "{村上|むらかみ}{春樹|はるき}⟦は→は：00079_ha⟧⟦{日本|にほん}→日本：03876_nihon⟧⟦の→の：09472_no⟧{現代|げんだい}{文学|ぶんがく}⟦を→を：00422_wo⟧⟦{代表|だいひょう}→代表：03419_daihyou⟧⟦する→する：00392_suru⟧⟦{作家|さっか}→作家：01414_sakka⟧だ。",
       "english": "Haruki Murakami is a representative author of modern Japanese literature.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17999_gendaibungaku_ex3",
-      "japanese": "{大学|だいがく}の{授業|じゅぎょう}で{現代|げんだい}{文学|ぶんがく}と{古典|こてん}{文学|ぶんがく}の{違|ちが}いについて{論|ろん}じた。",
+      "japanese": "⟦{大学|だいがく}→大学：00608_daigaku⟧⟦の→の：09472_no⟧⟦{授業|じゅぎょう}→授業：00781_jugyou⟧⟦で→で：00502_de⟧{現代|げんだい}{文学|ぶんがく}⟦と→と：00512_to⟧⟦{古典|こてん}{文学|ぶんがく}→古典文学：28231_kotenbungaku⟧⟦の→の：09472_no⟧⟦{違|ちが}い→違い：03432_chigai⟧⟦について→〜について：03103_nitsuite⟧⟦{論|ろん}じた→論ずる：28402_ronzuru⟧。",
       "english": "In a university class, we discussed the differences between modern and classical literature.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nIn Japanese literary studies, {現代|げんだい}{文学|ぶんがく} typically refers to post-WWII literature, while {近代|きんだい}{文学|ぶんがく} covers the Meiji through early Showa periods. The boundary is not always strict and varies by scholar.\n\nCOMMON COLLOCATIONS:\n- {現代|げんだい}{文学|ぶんがく}の{傑作|けっさく} (masterpiece of modern literature)\n- {日本|にほん}{現代|げんだい}{文学|ぶんがく} (modern Japanese literature)\n- {現代|げんだい}{文学|ぶんがく}{研究|けんきゅう} (modern literature studies)\n\nSIMILAR WORDS:\n- {近代|きんだい}{文学|ぶんがく}: modern literature (Meiji-early Showa) — an earlier period than {現代|げんだい}{文学|ぶんがく}\n- {古典|こてん}{文学|ぶんがく}: classical literature — pre-modern works",
-  "cross_references": [],
+  "notes": "USAGE:\nIn Japanese literary studies, {現代|げんだい}{文学|ぶんがく} typically refers to post-WWII literature, while ⟦{近代|きんだい}→近代：02663_kindai⟧⟦{文学|ぶんがく}→文学：01505_bungaku⟧ covers the Meiji through early Showa periods. The boundary is not always strict and varies by scholar.\n\nCOMMON COLLOCATIONS:\n- {現代|げんだい}{文学|ぶんがく}⟦の→の：09472_no⟧⟦{傑作|けっさく}→傑作：00217_kessaku⟧ (masterpiece of modern literature)\n- ⟦{日本|にほん}→日本：03876_nihon⟧{現代|げんだい}{文学|ぶんがく} (modern Japanese literature)\n- {現代|げんだい}{文学|ぶんがく}⟦{研究|けんきゅう}→研究：01396_kenkyuu⟧ (modern literature studies)\n\nSIMILAR WORDS:\n- ⟦{近代|きんだい}→近代：02663_kindai⟧⟦{文学|ぶんがく}→文学：01505_bungaku⟧: modern literature (Meiji-early Showa) — an earlier period than {現代|げんだい}{文学|ぶんがく}\n- ⟦{古典|こてん}{文学|ぶんがく}→古典文学：28231_kotenbungaku⟧: classical literature — pre-modern works",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "28231_kotenbungaku",
+      "reading": "こてんぶんがく",
+      "headword": "{古典文学|こてんぶんがく}",
+      "label": "classical literature"
+    }
+  ],
   "metadata": {
     "created": "2026-03-19T11:51:17Z",
-    "modified": "2026-03-19T11:51:17Z",
+    "modified": "2026-09-02T04:01:50Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["education"],
-      "domain": ["academic"]
+      "semantic": [
+        "education"
+      ],
+      "domain": [
+        "academic"
+      ]
     }
   }
 }

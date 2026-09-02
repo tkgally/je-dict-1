@@ -14,41 +14,59 @@
   "examples": [
     {
       "id": "09974_jukukoushi_ex1",
-      "japanese": "{塾講師|じゅくこうし}のアルバイトをする。",
+      "japanese": "{塾講師|じゅくこうし}⟦の→の：09472_no⟧⟦アルバイト→アルバイト：01528_arubaito⟧⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧。",
       "english": "I work part-time as a cram school teacher.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09974_jukukoushi_ex2",
-      "japanese": "{大学生|だいがくせい}のとき、{塾講師|じゅくこうし}をしていた。",
+      "japanese": "⟦{大学生|だいがくせい}→大学生：01653_daigakusei⟧⟦の→の：09472_no⟧とき、{塾講師|じゅくこうし}⟦を→を：00422_wo⟧⟦していた→する：00392_suru⟧。",
       "english": "When I was a university student, I worked as a cram school teacher.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09974_jukukoushi_ex3",
-      "japanese": "あの{塾講師|じゅくこうし}は{教|おし}え{方|かた}がうまいので{人気|にんき}がある。",
+      "japanese": "⟦あの→あの：00915_ano⟧{塾講師|じゅくこうし}⟦は→は：00079_ha⟧⟦{教|おし}え{方|かた}→教え方：28588_oshiekata⟧⟦が→が：00051_ga⟧⟦うまい→うまい：01279_umai⟧⟦の→の：09472_no⟧で⟦{人気|にんき}→人気：01488_ninki⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "That cram school teacher is popular because they're good at teaching.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{塾講師|じゅくこうし} is a compound of {塾|じゅく} (cram school) and {講師|こうし} (instructor). Refers to anyone who teaches at a juku, whether full-time professional or part-time student worker.\n\nCULTURAL CONTEXT:\n{塾|じゅく} are private supplementary schools where students study after regular school hours, often to prepare for entrance exams. Working as a {塾講師|じゅくこうし} is one of the most common part-time jobs for university students in Japan.\n\nCOMMON EXPRESSIONS:\n- {塾講師|じゅくこうし}のアルバイト: part-time juku teaching job\n- {塾講師|じゅくこうし}を{募集|ぼしゅう}する: to recruit juku teachers\n\nRELATED TERMS:\n- {家庭教師|かていきょうし}: private tutor (one-on-one, visits the home)\n- {予備校|よびこう}{講師|こうし}: prep school instructor (for university entrance)\n- {塾|じゅく}: cram school",
-  "cross_references": [],
+  "notes": "{塾講師|じゅくこうし} is a compound of ⟦{塾|じゅく}→塾：04702_juku⟧ (cram school) and ⟦{講師|こうし}→講師：00451_koushi⟧ (instructor). Refers to anyone who teaches at a juku, whether full-time professional or part-time student worker.\n\nCULTURAL NOTE:\n⟦{塾|じゅく}→塾：04702_juku⟧ are private supplementary schools where students study after regular school hours, often to prepare for entrance exams. Working as a {塾講師|じゅくこうし} is one of the most common part-time jobs for university students in Japan.\n\nCOMMON EXPRESSIONS:\n- {塾講師|じゅくこうし}⟦の→の：09472_no⟧⟦アルバイト→アルバイト：01528_arubaito⟧: part-time juku teaching job\n- {塾講師|じゅくこうし}⟦を→を：00422_wo⟧⟦{募集|ぼしゅう}→募集：03035_boshuu⟧⟦する→する：00392_suru⟧: to recruit juku teachers\n\nRELATED WORDS:\n- ⟦{家庭教師|かていきょうし}→家庭教師：09291_kateikyoushi⟧: private tutor (one-on-one, visits the home)\n- ⟦{予備校|よびこう}→予備校：04785_yobikou⟧⟦{講師|こうし}→講師：00451_koushi⟧: prep school instructor (for university entrance)\n- ⟦{塾|じゅく}→塾：04702_juku⟧: cram school",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "09291_kateikyoushi",
+      "reading": "かていきょうし",
+      "headword": "{家庭教師|かていきょうし}",
+      "label": "private tutor"
+    }
+  ],
   "metadata": {
     "created": "2026-02-04T12:04:41Z",
-    "modified": "2026-04-06T04:02:27Z",
+    "modified": "2026-09-02T04:01:19Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["occupation"]
+      "semantic": [
+        "occupation"
+      ]
     }
   }
 }

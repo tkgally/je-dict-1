@@ -16,7 +16,7 @@
   "examples": [
     {
       "id": "24192_himatsukansen_ex1",
-      "japanese": "{飛沫感染|ひまつかんせん}を{防|ふせ}ぐ。",
+      "japanese": "{飛沫感染|ひまつかんせん}⟦を→を：00422_wo⟧⟦{防|ふせ}ぐ→防ぐ：02409_fusegu⟧。",
       "english": "Prevent droplet infection.",
       "sense_numbers": [
         1
@@ -26,7 +26,7 @@
     },
     {
       "id": "24192_himatsukansen_ex2",
-      "japanese": "マスクは{飛沫感染|ひまつかんせん}の{予防|よぼう}に{有効|ゆうこう}です。",
+      "japanese": "⟦マスク→マスク：05075_masuku⟧⟦は→は：00079_ha⟧{飛沫感染|ひまつかんせん}⟦の→の：09472_no⟧⟦{予防|よぼう}→予防：03669_yobou⟧⟦に→に：00314_ni⟧⟦{有効|ゆうこう}→有効：03645_yuukou⟧です。",
       "english": "Masks are effective in preventing droplet infection.",
       "sense_numbers": [
         1
@@ -36,7 +36,7 @@
     },
     {
       "id": "24192_himatsukansen_ex3",
-      "japanese": "インフルエンザは{主|おも}に{飛沫感染|ひまつかんせん}で{広|ひろ}がる。",
+      "japanese": "⟦インフルエンザ→インフルエンザ：05384_infuruenza⟧⟦は→は：00079_ha⟧⟦{主|おも}に→主に：01607_omoni⟧{飛沫感染|ひまつかんせん}⟦で→で：00502_de⟧⟦{広|ひろ}がる→広がる：01980_hirogaru⟧。",
       "english": "Influenza spreads mainly through droplet transmission.",
       "sense_numbers": [
         1
@@ -46,7 +46,7 @@
     },
     {
       "id": "24192_himatsukansen_ex4",
-      "japanese": "{密閉|みっぺい}された{空間|くうかん}では{飛沫感染|ひまつかんせん}のリスクが{高|たか}まる。",
+      "japanese": "⟦{密閉|みっぺい}→密閉：19651_mippei⟧⟦された→する：00392_suru⟧⟦{空間|くうかん}→空間：13754_kuukan⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧{飛沫感染|ひまつかんせん}⟦の→の：09472_no⟧⟦リスク→リスク：06752_risuku⟧⟦が→が：00051_ga⟧⟦{高|たか}まる→高まる：02066_takamaru⟧。",
       "english": "The risk of droplet infection increases in enclosed spaces.",
       "sense_numbers": [
         1
@@ -55,16 +55,33 @@
       "notes": null
     }
   ],
-  "notes": "{飛沫|ひまつ} (droplets, spray) + {感染|かんせん} (infection). Refers to the spread of pathogens through tiny droplets expelled from the mouth or nose during coughing, sneezing, or speaking. Became widely known during the COVID-19 pandemic.\n\nCOMMON COLLOCATIONS:\n- {飛沫感染|ひまつかんせん}を{防|ふせ}ぐ: prevent droplet infection\n- {飛沫感染|ひまつかんせん}の{対策|たいさく}: measures against droplet transmission\n- {飛沫感染|ひまつかんせん}のリスク: risk of droplet infection\n- {飛沫感染|ひまつかんせん}{経路|けいろ}: droplet transmission route\n\nSIMILAR WORDS:\n- {空気感染|くうきかんせん}: airborne infection — transmitted via smaller particles that remain suspended longer\n- {接触感染|せっしょくかんせん}: contact infection — transmitted by touching contaminated surfaces\n\nUSAGE:\nDistinguished from {空気感染|くうきかんせん} in that droplets are larger and heavier, typically falling within about 2 meters. Preventive measures include wearing masks, maintaining distance, and ventilating rooms.",
-  "cross_references": [],
+  "notes": "⟦{飛沫|ひまつ}→飛沫：29069_himatsu⟧ (droplets, spray) + ⟦{感染|かんせん}→感染：05977_kansen⟧ (infection). Refers to the spread of pathogens through tiny droplets expelled from the mouth or nose during coughing, sneezing, or speaking. Became widely known during the COVID-19 pandemic.\n\nCOMMON COLLOCATIONS:\n- {飛沫感染|ひまつかんせん}⟦を→を：00422_wo⟧⟦{防|ふせ}ぐ→防ぐ：02409_fusegu⟧: prevent droplet infection\n- {飛沫感染|ひまつかんせん}⟦の→の：09472_no⟧⟦{対策|たいさく}→対策：02511_taisaku⟧: measures against droplet transmission\n- {飛沫感染|ひまつかんせん}⟦の→の：09472_no⟧⟦リスク→リスク：06752_risuku⟧: risk of droplet infection\n- {飛沫感染|ひまつかんせん}⟦{経路|けいろ}→経路：13796_keiro⟧: droplet transmission route\n\nSIMILAR WORDS:\n- ⟦{空気感染|くうきかんせん}→空気感染：25169_kuukikansen⟧: airborne infection — transmitted via smaller particles that remain suspended longer\n- ⟦{接触感染|せっしょくかんせん}→接触感染：25168_sesshokukansen⟧: contact infection — transmitted by touching contaminated surfaces\n\nUSAGE:\nDistinguished from ⟦{空気感染|くうきかんせん}→空気感染：25169_kuukikansen⟧ in that droplets are larger and heavier, typically falling within about 2 meters. Preventive measures include wearing masks, maintaining distance, and ventilating rooms.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25169_kuukikansen",
+      "reading": "くうきかんせん",
+      "headword": "{空気感染|くうきかんせん}",
+      "label": "airborne infection"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25168_sesshokukansen",
+      "reading": "せっしょくかんせん",
+      "headword": "{接触感染|せっしょくかんせん}",
+      "label": "contact infection"
+    }
+  ],
   "metadata": {
     "created": "2026-04-18T09:08:18Z",
-    "modified": "2026-08-02T18:32:34Z",
+    "modified": "2026-09-02T04:02:17Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "health"
       ]

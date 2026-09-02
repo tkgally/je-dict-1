@@ -24,7 +24,7 @@
     },
     {
       "id": "00365_shikichi_ex2",
-      "japanese": "⟦{学校|がっこう}→学校：00055_gakkou⟧⟦の→の：09472_no⟧{敷地内|しきちない}⟦は→は：00079_ha⟧⟦{禁煙|きんえん}→禁煙：02644_kinen⟧です。",
+      "japanese": "⟦{学校|がっこう}→学校：00055_gakkou⟧⟦の→の：09472_no⟧⟦{敷地内|しきちない}→敷地内：22038_shikichinai⟧⟦は→は：00079_ha⟧⟦{禁煙|きんえん}→禁煙：02644_kinen⟧です。",
       "english": "Smoking is prohibited on school grounds.",
       "has_audio": false,
       "sense_numbers": [
@@ -43,10 +43,10 @@
       "notes": null
     }
   ],
-  "notes": "{敷地|しきち} refers to a plot of land, especially one where a building is or will be located.\n\nCommon collocations:\n- {敷地|しきち}⟦{面積|めんせき}→面積：05330_menseki⟧ (site area)\n- {敷地内|しきちない} (on the premises, within the grounds)\n- {敷地|しきち}⟦{境界|きょうかい}→境界：12096_kyoukai⟧ (property boundary)\n- ⟦{広|ひろ}い→広い：00704_hiroi⟧{敷地|しきち} (spacious grounds)\n\nRelated words:\n- ⟦{土地|とち}→土地：02226_tochi⟧ (land - general term)\n- ⟦{用地|ようち}→用地：04088_youchi⟧ (site for a specific purpose)\n- ⟦{宅地|たくち}→宅地：21589_takuchi⟧ (residential land)",
+  "notes": "{敷地|しきち} refers to a plot of land, especially one where a building is or will be located.\n\nCommon collocations:\n- {敷地|しきち}⟦{面積|めんせき}→面積：05330_menseki⟧ (site area)\n- ⟦{敷地内|しきちない}→敷地内：22038_shikichinai⟧ (on the premises, within the grounds)\n- {敷地|しきち}⟦{境界|きょうかい}→境界：12096_kyoukai⟧ (property boundary)\n- ⟦{広|ひろ}い→広い：00704_hiroi⟧{敷地|しきち} (spacious grounds)\n\nRelated words:\n- ⟦{土地|とち}→土地：02226_tochi⟧ (land - general term)\n- ⟦{用地|ようち}→用地：04088_youchi⟧ (site for a specific purpose)\n- ⟦{宅地|たくち}→宅地：21589_takuchi⟧ (residential land)",
   "metadata": {
     "created": "2026-01-13T11:15:03Z",
-    "modified": "2026-07-31T09:22:34Z",
+    "modified": "2026-09-02T04:00:57Z",
     "ai_model": "opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -67,6 +67,27 @@
       "reading": "とち",
       "headword": "{土地|とち}",
       "label": "land (general)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11930_kukaku",
+      "reading": "くかく",
+      "headword": "{区画|くかく}",
+      "label": "block, section, lot, partition"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21589_takuchi",
+      "reading": "たくち",
+      "headword": "{宅地|たくち}",
+      "label": "residential land"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28107_jisho",
+      "reading": "じしょ",
+      "headword": "{地所|じしょ}",
+      "label": "plot of land"
     }
   ]
 }

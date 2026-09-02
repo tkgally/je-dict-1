@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "12395_yashiki_ex1",
-      "japanese": "{古|ふる}い{屋敷|やしき}が{残|のこ}っている。",
+      "japanese": "⟦{古|ふる}い→古い：00488_furui⟧{屋敷|やしき}⟦が→が：00051_ga⟧⟦{残|のこ}っている→残る：01187_nokoru⟧。",
       "english": "An old mansion remains standing.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12395_yashiki_ex2",
-      "japanese": "{武家|ぶけ}{屋敷|やしき}が{観光地|かんこうち}として{公開|こうかい}されている。",
+      "japanese": "⟦{武家|ぶけ}→武家：13242_buke⟧{屋敷|やしき}⟦が→が：00051_ga⟧⟦{観光地|かんこうち}→観光地：14163_kankouchi⟧⟦として→として：06802_toshite⟧⟦{公開|こうかい}→公開：11665_koukai⟧⟦されている→する：00392_suru⟧。",
       "english": "A samurai residence is open to the public as a tourist attraction.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12395_yashiki_ex3",
-      "japanese": "{丘|おか}の{上|うえ}に{建|た}つ{広大|こうだい}な{屋敷|やしき}には、{庭園|ていえん}も{蔵|くら}もあった。",
+      "japanese": "⟦{丘|おか}→丘：02183_oka⟧⟦の→の：09472_no⟧⟦{上|うえ}→上：00682_ue⟧⟦に→に：00314_ni⟧⟦{建|た}つ→建つ：12544_tatsu⟧⟦{広大|こうだい}→広大：11328_koudai⟧な{屋敷|やしき}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧、⟦{庭園|ていえん}→庭園：12452_teien⟧⟦も→も：00484_mo⟧⟦{蔵|くら}→蔵：13991_kura⟧⟦も→も：00484_mo⟧⟦あった→ある：00006_aru⟧。",
       "english": "The vast estate built on the hill had both a garden and a storehouse.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\n{屋敷|やしき} evokes a sense of size and historical importance. It is commonly associated with the residences of {武士|ぶし} (samurai) and {大名|だいみょう} (feudal lords) from the {江戸|えど}{時代|じだい}. In modern usage, it can describe any impressively large house.\n\nSIMILAR WORDS:\n- {邸宅|ていたく}: mansion, grand residence (more formal)\n- {豪邸|ごうてい}: magnificent mansion (emphasizes luxury)\n- {家|いえ}: house (general, neutral)\n\nCOMMON COLLOCATIONS:\n- {武家|ぶけ}{屋敷|やしき}: samurai residence\n- {大名|だいみょう}{屋敷|やしき}: daimyo estate\n- お{化|ば}け{屋敷|やしき}: haunted house\n- {屋敷|やしき}{跡|あと}: site of a former mansion",
+  "notes": "USAGE:\n{屋敷|やしき} evokes a sense of size and historical importance. It is commonly associated with the residences of ⟦{武士|ぶし}→武士：03989_bushi⟧ (samurai) and ⟦{大名|だいみょう}→大名：10378_daimyou⟧ (feudal lords) from the ⟦{江戸|えど}{時代|じだい}→江戸時代：20431_edojidai⟧. In modern usage, it can describe any impressively large house.\n\nSIMILAR WORDS:\n- ⟦{邸宅|ていたく}→邸宅：14434_teitaku⟧: mansion, grand residence (more formal)\n- ⟦{豪邸|ごうてい}→豪邸：18158_goutei⟧: magnificent mansion (emphasizes luxury)\n- ⟦{家|いえ}→家：00612_ie⟧: house (general, neutral)\n\nCOMMON COLLOCATIONS:\n- ⟦{武家|ぶけ}→武家：13242_buke⟧{屋敷|やしき}: samurai residence\n- ⟦{大名|だいみょう}→大名：10378_daimyou⟧{屋敷|やしき}: daimyo estate\n- お{化|ば}け{屋敷|やしき}: haunted house\n- {屋敷|やしき}{跡|あと}: site of a former mansion",
   "cross_references": [
     {
       "type": "synonym",
@@ -46,18 +52,57 @@
       "reading": "ていたく",
       "headword": "{邸宅|ていたく}",
       "label": "mansion (formal)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18158_goutei",
+      "reading": "ごうてい",
+      "headword": "{豪邸|ごうてい}",
+      "label": "magnificent mansion"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00612_ie",
+      "reading": "いえ",
+      "headword": "{家|いえ}",
+      "label": "house"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23029_tei",
+      "reading": "てい",
+      "headword": "{邸|てい}",
+      "label": "mansion"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24134_yakata",
+      "reading": "やかた",
+      "headword": "{館|やかた}",
+      "label": "mansion"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30736_youkan",
+      "reading": "ようかん",
+      "headword": "{洋館|ようかん}",
+      "label": "Western-style house (esp. a prewar one)"
     }
   ],
   "metadata": {
     "created": "2026-02-21T05:54:19Z",
-    "modified": "2026-04-26T10:06:49Z",
+    "modified": "2026-09-02T04:01:28Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["building"]
+      "semantic": [
+        "building"
+      ]
     }
   }
 }

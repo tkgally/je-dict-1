@@ -43,18 +43,39 @@
       ]
     }
   ],
-  "notes": "COMPOUND: ⟦{中心|ちゅうしん}→中心：01467_chuushin⟧ (center) + {地|ち} (place)\n\nSIMILAR TERMS:\n- ⟦{中心|ちゅうしん}→中心：01467_chuushin⟧ (center, core)\n- ⟦{都心|としん}→都心：04072_toshin⟧ (city center, downtown)\n- ⟦{繁華街|はんかがい}→繁華街：09392_hankagai⟧ (busy shopping district)\n- ⟦{中心部|ちゅうしんぶ}→中心部：23774_chuushinbu⟧ (central part)\n\nCOMMON PATTERNS:\n- 〜⟦の→の：09472_no⟧{中心地|ちゅうしんち} (the center of ~)\n- ⟦{商業|しょうぎょう}→商業：09940_shougyou⟧{中心地|ちゅうしんち} (commercial center)\n- ⟦{文化|ぶんか}→文化：01504_bunka⟧⟦の→の：09472_no⟧{中心地|ちゅうしんち} (cultural center)\n- ⟦{観光|かんこう}→観光：00173_kankou⟧⟦の→の：09472_no⟧{中心地|ちゅうしんち} (tourist center)",
+  "notes": "COMPOUND: ⟦{中心|ちゅうしん}→中心：01467_chuushin⟧ (center) + {地|ち} (place)\n\nSIMILAR WORDS:\n- ⟦{中心|ちゅうしん}→中心：01467_chuushin⟧ (center, core)\n- ⟦{都心|としん}→都心：04072_toshin⟧ (city center, downtown)\n- ⟦{繁華街|はんかがい}→繁華街：09392_hankagai⟧ (busy shopping district)\n- ⟦{中心部|ちゅうしんぶ}→中心部：23774_chuushinbu⟧ (central part)\n\nCOMMON PATTERNS:\n- 〜⟦の→の：09472_no⟧{中心地|ちゅうしんち} (the center of ~)\n- ⟦{商業|しょうぎょう}→商業：09940_shougyou⟧{中心地|ちゅうしんち} (commercial center)\n- ⟦{文化|ぶんか}→文化：01504_bunka⟧⟦の→の：09472_no⟧{中心地|ちゅうしんち} (cultural center)\n- ⟦{観光|かんこう}→観光：00173_kankou⟧⟦の→の：09472_no⟧{中心地|ちゅうしんち} (tourist center)",
   "cross_references": [
     {
       "type": "related",
       "reading": "ちゅうしん",
       "headword": "{中心|ちゅうしん}",
       "target_id": "01467_chuushin"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04072_toshin",
+      "reading": "としん",
+      "headword": "{都心|としん}",
+      "label": "city center, downtown"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09392_hankagai",
+      "reading": "はんかがい",
+      "headword": "{繁華街|はんかがい}",
+      "label": "busy shopping district"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23774_chuushinbu",
+      "reading": "ちゅうしんぶ",
+      "headword": "{中心部|ちゅうしんぶ}",
+      "label": "central part"
     }
   ],
   "metadata": {
     "created": "2026-01-11T12:36:24Z",
-    "modified": "2026-05-23T21:12:46Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

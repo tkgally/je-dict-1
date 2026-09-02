@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "10423_umidasu_ex1",
-      "japanese": "{新|あたら}しいアイデアを{生|う}み{出|だ}す。",
+      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦アイデア→アイデア：10161_aidea⟧⟦を→を：00422_wo⟧{生|う}み{出|だ}す。",
       "english": "To come up with a new idea.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "10423_umidasu_ex2",
-      "japanese": "この{工場|こうじょう}は{毎日|まいにち}{多|おお}くの{製品|せいひん}を{生|う}み{出|だ}している。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{工場|こうじょう}→工場：01082_koujou⟧⟦は→は：00079_ha⟧⟦{毎日|まいにち}→毎日：00729_mainichi⟧{多|おお}く⟦の→の：09472_no⟧⟦{製品|せいひん}→製品：01445_seihin⟧⟦を→を：00422_wo⟧{生|う}み{出|だ}して⟦いる→いる：00495_iru⟧。",
       "english": "This factory produces many products every day.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "10423_umidasu_ex3",
-      "japanese": "{努力|どりょく}が{素晴|すば}らしい{結果|けっか}を{生|う}み{出|だ}した。",
+      "japanese": "⟦{努力|どりょく}→努力：03490_doryoku⟧⟦が→が：00051_ga⟧⟦{素晴|すば}らしい→素晴らしい：01119_subarashii⟧⟦{結果|けっか}→結果：02486_kekka⟧⟦を→を：00422_wo⟧{生|う}み{出|だ}した。",
       "english": "Hard work produced wonderful results.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,26 @@
       ]
     }
   ],
-  "notes": "{生|う}み{出|だ}す combines {生|う}む (to give birth, to produce) and {出|だ}す (to put out).\n\nTRANSITIVITY:\n- Type: Transitive ({他動詞|たどうし})\n- Takes を particle: 〜を{生|う}み{出|だ}す\n\nCOMMON COLLOCATIONS:\n- アイデアを{生|う}み{出|だ}す: to generate ideas\n- {利益|りえき}を{生|う}み{出|だ}す: to generate profit\n- {価値|かち}を{生|う}み{出|だ}す: to create value\n- {作品|さくひん}を{生|う}み{出|だ}す: to produce works\n\nSIMILAR WORDS:\n- {生|う}み{出|だ}す: to create, produce (emphasizes bringing something new into being)\n- {作|つく}る: to make (general, broader use)\n- {創造|そうぞう}する: to create (formal, emphasizes originality)",
-  "cross_references": [],
+  "notes": "{生|う}み{出|だ}す combines ⟦{生|う}む→生む：29531_umu⟧ (to give birth, to produce) and ⟦{出|だ}す→出す：01087_dasu⟧ (to put out).\n\nTRANSITIVITY:\n- Type: Transitive (⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧)\n- Takes ⟦を→を：00422_wo⟧ particle: 〜⟦を→を：00422_wo⟧{生|う}み{出|だ}す\n\nCOMMON COLLOCATIONS:\n- ⟦アイデア→アイデア：10161_aidea⟧⟦を→を：00422_wo⟧{生|う}み{出|だ}す: to generate ideas\n- ⟦{利益|りえき}→利益：03673_rieki⟧⟦を→を：00422_wo⟧{生|う}み{出|だ}す: to generate profit\n- ⟦{価値|かち}→価値：00131_kachi⟧⟦を→を：00422_wo⟧{生|う}み{出|だ}す: to create value\n- ⟦{作品|さくひん}→作品：02776_sakuhin⟧⟦を→を：00422_wo⟧{生|う}み{出|だ}す: to produce works\n\nSIMILAR WORDS:\n- {生|う}み{出|だ}す: to create, produce (emphasizes bringing something new into being)\n- ⟦{作|つく}る→作る：00481_tsukuru⟧: to make (general, broader use)\n- ⟦{創造|そうぞう}する→創造する：29393_souzousuru⟧: to create (formal, emphasizes originality)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00481_tsukuru",
+      "reading": "つくる",
+      "headword": "{作|つく}る",
+      "label": "to make"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29393_souzousuru",
+      "reading": "そうぞうする",
+      "headword": "{創造|そうぞう}する",
+      "label": "to create"
+    }
+  ],
   "metadata": {
     "created": "2026-02-07T11:20:16Z",
-    "modified": "2026-03-29T03:07:35Z",
+    "modified": "2026-09-02T04:01:21Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

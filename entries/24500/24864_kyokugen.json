@@ -3,7 +3,7 @@
   "headword": "{局限|きょくげん}",
   "reading": "きょくげん",
   "romaji": "kyokugen",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "restriction; localization; confinement to a limited area",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24864_kyokugen_ex1",
-      "japanese": "{被害|ひがい}は{一部|いちぶ}の{地域|ちいき}に{局限|きょくげん}された。",
+      "japanese": "⟦{被害|ひがい}→被害：02572_higai⟧⟦は→は：00079_ha⟧⟦{一部|いちぶ}→一部：06783_ichibu⟧⟦の→の：09472_no⟧⟦{地域|ちいき}→地域：01461_chiiki⟧⟦に→に：00314_ni⟧{局限|きょくげん}⟦された→する：00392_suru⟧。",
       "english": "The damage was confined to a limited area.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24864_kyokugen_ex2",
-      "japanese": "{感染|かんせん}が{局限|きょくげん}されている{段階|だんかい}で{対策|たいさく}を{講|こう}じる{必要|ひつよう}がある。",
+      "japanese": "⟦{感染|かんせん}→感染：05977_kansen⟧⟦が→が：00051_ga⟧{局限|きょくげん}⟦されている→する：00392_suru⟧⟦{段階|だんかい}→段階：04515_dankai⟧⟦で→で：00502_de⟧⟦{対策|たいさく}→対策：02511_taisaku⟧⟦を→を：00422_wo⟧⟦{講|こう}じる→講じる：27841_koujiru⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "Measures need to be taken while the infection is still localized.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24864_kyokugen_ex3",
-      "japanese": "{議論|ぎろん}を{技術的|ぎじゅつてき}な{問題|もんだい}に{局限|きょくげん}せず、{社会的|しゃかいてき}な{影響|えいきょう}も{考|かんが}えるべきだ。",
+      "japanese": "⟦{議論|ぎろん}→議論：02650_giron⟧⟦を→を：00422_wo⟧⟦{技術的|ぎじゅつてき}→技術的：05682_gijutsuteki⟧な⟦{問題|もんだい}→問題：00797_mondai⟧⟦に→に：00314_ni⟧{局限|きょくげん}せず、⟦{社会的|しゃかいてき}→社会的：04791_shakaiteki⟧な⟦{影響|えいきょう}→影響：01877_eikyou⟧⟦も→も：00484_mo⟧⟦{考|かんが}える→考える：00856_kangaeru⟧べきだ。",
       "english": "We should not confine the discussion to technical issues but also consider the social impact.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {局|きょく} (bureau/limited area) + {限|げん} (limit). Functions both as a noun and as a する verb ({局限|きょくげん}する: to confine/restrict). Commonly encountered in medical, military, and academic writing.\n\nCOMMON COLLOCATIONS:\n- ～に{局限|きょくげん}される: to be confined to...\n- ～に{局限|きょくげん}する: to confine/restrict to...\n- {局限|きょくげん}された{範囲|はんい}: restricted range\n- {局限|きょくげん}{性|せい}: localized nature\n\nSIMILAR WORDS:\n- {極限|きょくげん}: extreme limit; utmost — same pronunciation but completely different meaning; refers to the ultimate boundary of capacity\n- {限定|げんてい}: limitation; restriction — more common in everyday use, often for products or offers\n- {制限|せいげん}: restriction; limitation — broader, used for rules and regulations",
+  "notes": "Composed of ⟦{局|きょく}→局：02687_kyoku⟧ (bureau/limited area) + {限|げん} (limit). Functions both as a noun and as a ⟦する→する：00392_suru⟧ verb ({局限|きょくげん}⟦する→する：00392_suru⟧: to confine/restrict). Commonly encountered in medical, military, and academic writing.\n\nCOMMON COLLOCATIONS:\n- ～⟦に→に：00314_ni⟧{局限|きょくげん}⟦される→する：00392_suru⟧: to be confined to...\n- ～⟦に→に：00314_ni⟧{局限|きょくげん}⟦する→する：00392_suru⟧: to confine/restrict to...\n- {局限|きょくげん}⟦された→する：00392_suru⟧⟦{範囲|はんい}→範囲：03567_hani⟧: restricted range\n- {局限|きょくげん}⟦{性|せい}→性：09880_sei⟧: localized nature\n\nSIMILAR WORDS:\n- ⟦{極限|きょくげん}→極限：13231_kyokugen⟧: extreme limit; utmost — same pronunciation but completely different meaning; refers to the ultimate boundary of capacity\n- ⟦{限定|げんてい}→限定：10997_gentei⟧: limitation; restriction — more common in everyday use, often for products or offers\n- ⟦{制限|せいげん}→制限：03375_seigen⟧: restriction; limitation — broader, used for rules and regulations",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "homophone",
+      "target_id": "13231_kyokugen",
+      "reading": "きょくげん",
+      "headword": "{極限|きょくげん}",
+      "label": "extreme limit"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10997_gentei",
+      "reading": "げんてい",
+      "headword": "{限定|げんてい}",
+      "label": "limitation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03375_seigen",
+      "reading": "せいげん",
+      "headword": "{制限|せいげん}",
+      "label": "restriction"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -65,7 +88,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-21T10:31:43Z",
-    "modified": "2026-04-21T10:31:43Z"
+    "modified": "2026-09-02T04:02:20Z"
   },
   "conjugation": {
     "type": "suru",

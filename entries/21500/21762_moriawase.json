@@ -14,48 +14,83 @@
   "examples": [
     {
       "id": "21762_moriawase_ex1",
-      "japanese": "{刺身|さしみ}の{盛|も}り{合|あ}わせをください。",
+      "japanese": "⟦{刺身|さしみ}→刺身：04023_sashimi⟧⟦の→の：09472_no⟧{盛|も}り{合|あ}わせ⟦を→を：00422_wo⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "I'd like the assorted sashimi platter, please.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21762_moriawase_ex2",
-      "japanese": "{前菜|ぜんさい}の{盛|も}り{合|あ}わせが{人気|にんき}メニューだ。",
+      "japanese": "⟦{前菜|ぜんさい}→前菜：04992_zensai⟧⟦の→の：09472_no⟧{盛|も}り{合|あ}わせ⟦が→が：00051_ga⟧⟦{人気|にんき}→人気：01488_ninki⟧⟦メニュー→メニュー：11166_menyuu⟧だ。",
       "english": "The assorted appetizer platter is a popular menu item.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21762_moriawase_ex3",
-      "japanese": "{天|てん}ぷらの{盛|も}り{合|あ}わせには{海老|えび}や{野菜|やさい}が{入|はい}っている。",
+      "japanese": "⟦{天|てん}ぷら→天ぷら：04948_tenpura⟧⟦の→の：09472_no⟧{盛|も}り{合|あ}わせ⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{海老|えび}→海老：02272_ebi⟧や⟦{野菜|やさい}→野菜：02265_yasai⟧⟦が→が：00051_ga⟧⟦{入|はい}っている→入る：00494_hairu⟧。",
       "english": "The assorted tempura platter includes shrimp and vegetables.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21762_moriawase_ex4",
-      "japanese": "チーズの{盛|も}り{合|あ}わせをワインと{一緒|いっしょ}に{注文|ちゅうもん}した。",
+      "japanese": "⟦チーズ→チーズ：00026_chiizu⟧⟦の→の：09472_no⟧{盛|も}り{合|あ}わせ⟦を→を：00422_wo⟧⟦ワイン→ワイン：01067_wain⟧⟦と→と：00512_to⟧⟦{一緒|いっしょ}→一緒：02848_issho⟧⟦に→に：00314_ni⟧⟦{注文|ちゅうもん}した→注文する：21390_chuumon⟧。",
       "english": "I ordered a cheese platter along with wine.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Derived from the verb {盛|も}り{合|あ}わせる (to arrange various items together on a plate). Extremely common on Japanese restaurant menus. The word implies that multiple varieties are artfully arranged on one dish.\n\nCOMMON COLLOCATIONS:\n- {刺身|さしみ}の{盛|も}り{合|あ}わせ: assorted sashimi platter\n- {焼|や}き{鳥|とり}の{盛|も}り{合|あ}わせ: assorted yakitori platter\n- {前菜|ぜんさい}の{盛|も}り{合|あ}わせ: assorted appetizers\n- {三種|さんしゅ}{盛|も}り{合|あ}わせ: three-item assortment\n\nCULTURAL NOTE:\nIn izakaya and Japanese restaurants, {盛|も}り{合|あ}わせ dishes are designed for sharing among a group. They are often one of the best-value ways to sample a restaurant's specialties. The presentation is important — items are arranged to be visually appealing.",
+  "notes": "Derived from the verb {盛|も}り{合|あ}わせる (to arrange various items together on a plate). Extremely common on Japanese restaurant menus. The word implies that multiple varieties are artfully arranged on one dish.\n\nCOMMON COLLOCATIONS:\n- ⟦{刺身|さしみ}→刺身：04023_sashimi⟧⟦の→の：09472_no⟧{盛|も}り{合|あ}わせ: assorted sashimi platter\n- ⟦{焼|や}き{鳥|とり}→焼き鳥：04952_yakitori⟧⟦の→の：09472_no⟧{盛|も}り{合|あ}わせ: assorted yakitori platter\n- ⟦{前菜|ぜんさい}→前菜：04992_zensai⟧⟦の→の：09472_no⟧{盛|も}り{合|あ}わせ: assorted appetizers\n- {三種|さんしゅ}{盛|も}り{合|あ}わせ: three-item assortment\n\nCULTURAL NOTE:\nIn izakaya and Japanese restaurants, {盛|も}り{合|あ}わせ dishes are designed for sharing among a group. They are often one of the best-value ways to sample a restaurant's specialties. The presentation is important — items are arranged to be visually appealing.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24036_morizara",
+      "reading": "もりざら",
+      "headword": "{盛|も}り{皿|ざら}",
+      "label": "serving plate"
+    },
+    {
+      "type": "related",
+      "target_id": "25026_sashimimori",
+      "reading": "さしみもり",
+      "headword": "{刺身盛|さしみも}り",
+      "label": "sashimi platter"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26642_sushimori",
+      "reading": "すしもり",
+      "headword": "{寿司盛|すしも}り",
+      "label": "sushi platter"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food"]
+      "semantic": [
+        "food"
+      ]
     },
     "created": "2026-04-03T16:09:07Z",
-    "modified": "2026-04-03T16:09:07Z"
+    "modified": "2026-09-02T04:02:05Z"
   }
 }

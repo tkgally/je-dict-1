@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "13005_yuushi_ex1",
-      "japanese": "{有志|ゆうし}を{募|つの}ってイベントを{企画|きかく}した。",
+      "japanese": "{有志|ゆうし}⟦を→を：00422_wo⟧⟦{募|つの}って→募る：10878_tsunoru⟧⟦イベント→イベント：09594_ibento⟧⟦を→を：00422_wo⟧⟦{企画|きかく}した→企画する：29396_kikakusuru⟧。",
       "english": "We recruited volunteers and planned an event.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13005_yuushi_ex2",
-      "japanese": "{社員|しゃいん}の{有志|ゆうし}が{清掃|せいそう}{活動|かつどう}を{行|おこな}った。",
+      "japanese": "⟦{社員|しゃいん}→社員：03065_shain⟧⟦の→の：09472_no⟧{有志|ゆうし}⟦が→が：00051_ga⟧⟦{清掃|せいそう}→清掃：04332_seisou⟧⟦{活動|かつどう}→活動：00201_katsudou⟧⟦を→を：00422_wo⟧⟦{行|おこな}った→行う：01238_okonau⟧。",
       "english": "Volunteer employees carried out a cleanup activity.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13005_yuushi_ex3",
-      "japanese": "{地域|ちいき}の{有志|ゆうし}が{集|あつ}まって、{子|こ}どもたちのための{学習|がくしゅう}{支援|しえん}プログラムを{立|た}ち{上|あ}げた。",
+      "japanese": "⟦{地域|ちいき}→地域：01461_chiiki⟧⟦の→の：09472_no⟧{有志|ゆうし}⟦が→が：00051_ga⟧⟦{集|あつ}まって→集まる：01162_atsumaru⟧、{子|こ}どもたち⟦の→の：09472_no⟧⟦ため→ため：01145_tame⟧⟦の→の：09472_no⟧⟦{学習|がくしゅう}→学習：02623_gakushuu⟧⟦{支援|しえん}→支援：07778_shien⟧⟦プログラム→プログラム：01540_puroguramu⟧⟦を→を：00422_wo⟧⟦{立|た}ち{上|あ}げた→立ち上げる：07892_tachiageru⟧。",
       "english": "Local volunteers came together and launched a learning support program for children.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nUsed to describe people who voluntarily participate in something. Often appears in the pattern {有志|ゆうし}を{募|つの}る (to recruit volunteers) or {有志|ゆうし}による (by volunteers). More formal than ボランティア and emphasizes shared purpose rather than unpaid labor.\n\nCOMMON COLLOCATIONS:\n- {有志|ゆうし}を{募|つの}る: to recruit volunteers\n- {有志|ゆうし}による: by volunteers, volunteer-run\n- {有志|ゆうし}が{集|あつ}まる: volunteers gather\n- {有志|ゆうし}の{会|かい}: a group of interested parties\n\nSIMILAR WORDS:\n- ボランティア: volunteer (loanword, broader)\n- {志願者|しがんしゃ}: volunteer, applicant (formal)",
+  "notes": "USAGE:\nUsed to describe people who voluntarily participate in something. Often appears in the pattern {有志|ゆうし}⟦を→を：00422_wo⟧⟦{募|つの}る→募る：10878_tsunoru⟧ (to recruit volunteers) or {有志|ゆうし}⟦による→による：28349_niyoru⟧ (by volunteers). More formal than ⟦ボランティア→ボランティア：04834_borantia⟧ and emphasizes shared purpose rather than unpaid labor.\n\nCOMMON COLLOCATIONS:\n- {有志|ゆうし}⟦を→を：00422_wo⟧⟦{募|つの}る→募る：10878_tsunoru⟧: to recruit volunteers\n- {有志|ゆうし}⟦による→による：28349_niyoru⟧: by volunteers, volunteer-run\n- {有志|ゆうし}⟦が→が：00051_ga⟧⟦{集|あつ}まる→集まる：01162_atsumaru⟧: volunteers gather\n- {有志|ゆうし}⟦の→の：09472_no⟧⟦{会|かい}→会：27493_kai⟧: a group of interested parties\n\nSIMILAR WORDS:\n- ⟦ボランティア→ボランティア：04834_borantia⟧: volunteer (loanword, broader)\n- ⟦{志願者|しがんしゃ}→志願者：20919_shigansha⟧: volunteer, applicant (formal)",
   "cross_references": [
     {
       "type": "homophone",
@@ -46,18 +52,36 @@
       "headword": "{融資|ゆうし}",
       "target_id": "04775_yuushi",
       "label": "financing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04834_borantia",
+      "reading": "ぼらんてぃあ",
+      "headword": "ボランティア",
+      "label": "volunteer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20919_shigansha",
+      "reading": "しがんしゃ",
+      "headword": "{志願者|しがんしゃ}",
+      "label": "volunteer, applicant"
     }
   ],
   "metadata": {
     "created": "2026-02-23T05:16:05Z",
-    "modified": "2026-02-23T05:16:05Z",
+    "modified": "2026-09-02T04:01:31Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["society"]
+      "semantic": [
+        "society"
+      ]
     }
   }
 }

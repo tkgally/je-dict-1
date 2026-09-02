@@ -15,38 +15,60 @@
   "examples": [
     {
       "id": "24757_youshokki_ex1",
-      "japanese": "{洋食器|ようしょっき}を{揃|そろ}えた。",
+      "japanese": "{洋食器|ようしょっき}⟦を→を：00422_wo⟧⟦{揃|そろ}えた→揃える：01952_soroeru⟧。",
       "english": "I got a set of Western tableware.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "24757_youshokki_ex2",
-      "japanese": "{結婚|けっこん}{祝|いわ}いに{洋食器|ようしょっき}のセットを{贈|おく}った。",
+      "japanese": "⟦{結婚|けっこん}{祝|いわ}い→結婚祝い：19656_kekkoniwai⟧⟦に→に：00314_ni⟧{洋食器|ようしょっき}⟦の→の：09472_no⟧⟦セット→セット：03853_setto⟧⟦を→を：00422_wo⟧⟦{贈|おく}った→贈る：09862_okuru⟧。",
       "english": "I gave a set of Western tableware as a wedding gift.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "24757_youshokki_ex3",
-      "japanese": "この{店|みせ}では{和食器|わしょっき}と{洋食器|ようしょっき}の{両方|りょうほう}を{取|と}り{扱|あつか}っているので、{食卓|しょくたく}のスタイルに{合|あ}わせて{選|えら}べる。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{店|みせ}→店：00497_mise⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{和食器|わしょっき}→和食器：26107_washokki⟧⟦と→と：00512_to⟧{洋食器|ようしょっき}⟦の→の：09472_no⟧⟦{両方|りょうほう}→両方：01750_ryouhou⟧⟦を→を：00422_wo⟧⟦{取|と}り{扱|あつか}っている→取り扱う：06162_toriatsukau⟧⟦の→の：09472_no⟧で、⟦{食卓|しょくたく}→食卓：03246_shokutaku⟧⟦の→の：09472_no⟧⟦スタイル→スタイル：03851_sutairu⟧⟦に→に：00314_ni⟧⟦{合|あ}わせて→合わせる：01872_awaseru⟧⟦{選|えら}べる→選ぶ：00835_erabu⟧。",
       "english": "This store carries both Japanese and Western tableware, so you can choose to match your dining style.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {洋|よう} (Western) and {食器|しょっき} (tableware). In Japan, both Western and Japanese tableware are commonly used in homes. {洋食器|ようしょっき} typically refers to flat plates, soup bowls, knives, forks, spoons, wine glasses, and similar items.\n\nWestern tableware sets are popular wedding gifts in Japan. Well-known brands include both imported European makers and Japanese manufacturers like Noritake.\n\nCOMMON COLLOCATIONS:\n- {洋食器|ようしょっき}のセット: Western tableware set\n- {洋食器|ようしょっき}{売|う}り{場|ば}: Western tableware section (in a department store)\n- {高級|こうきゅう}{洋食器|ようしょっき}: fine Western tableware\n\nSIMILAR WORDS:\n- {和食器|わしょっき}: Japanese tableware — bowls, chopsticks, small plates, and other traditional items\n- {食器|しょっき}: tableware, dishes — the general term covering all types",
+  "notes": "A compound of ⟦{洋|よう}→洋：28890_you⟧ (Western) and ⟦{食器|しょっき}→食器：04204_shokki⟧ (tableware). In Japan, both Western and Japanese tableware are commonly used in homes. {洋食器|ようしょっき} typically refers to flat plates, soup bowls, knives, forks, spoons, wine glasses, and similar items.\n\nWestern tableware sets are popular wedding gifts in Japan. Well-known brands include both imported European makers and Japanese manufacturers like Noritake.\n\nCOMMON COLLOCATIONS:\n- {洋食器|ようしょっき}⟦の→の：09472_no⟧⟦セット→セット：03853_setto⟧: Western tableware set\n- {洋食器|ようしょっき}⟦{売|う}り{場|ば}→売り場：01331_uriba⟧: Western tableware section (in a department store)\n- ⟦{高級|こうきゅう}→高級：08644_koukyuu⟧{洋食器|ようしょっき}: fine Western tableware\n\nSIMILAR WORDS:\n- ⟦{和食器|わしょっき}→和食器：26107_washokki⟧: Japanese tableware — bowls, chopsticks, small plates, and other traditional items\n- ⟦{食器|しょっき}→食器：04204_shokki⟧: tableware, dishes — the general term covering all types",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "26107_washokki",
+      "reading": "わしょっき",
+      "headword": "{和食器|わしょっき}",
+      "label": "Japanese tableware"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["daily-life", "food"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "daily-life",
+        "food"
+      ]
     },
     "created": "2026-04-20T14:34:40Z",
-    "modified": "2026-04-20T14:34:40Z"
+    "modified": "2026-09-02T04:02:19Z"
   }
 }

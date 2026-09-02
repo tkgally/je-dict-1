@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25848_kokyouwohanareru_ex1",
-      "japanese": "{十八歳|じゅうはっさい}で{故郷|こきょう}を{離|はな}れた。",
+      "japanese": "{十八歳|じゅうはっさい}⟦で→で：00502_de⟧{故郷|こきょう}を{離|はな}れた。",
       "english": "I left my hometown at age eighteen.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25848_kokyouwohanareru_ex2",
-      "japanese": "{大学|だいがく}{進学|しんがく}のために{故郷|こきょう}を{離|はな}れる{若者|わかもの}が{多|おお}い。",
+      "japanese": "⟦{大学|だいがく}→大学：00608_daigaku⟧⟦{進学|しんがく}→進学：03256_shingaku⟧⟦の→の：09472_no⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧{故郷|こきょう}を{離|はな}れる⟦{若者|わかもの}→若者：03037_wakamono⟧⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "Many young people leave their hometowns to attend university.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25848_kokyouwohanareru_ex3",
-      "japanese": "{故郷|こきょう}を{離|はな}れてもう{二十年|にじゅうねん}になるが、{時々|ときどき}{懐|なつ}かしくなる。",
+      "japanese": "{故郷|こきょう}を{離|はな}れて⟦もう→もう：00602_mou⟧{二十年|にじゅうねん}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦が→が：00051_ga⟧、⟦{時々|ときどき}→時々：00600_tokidoki⟧⟦{懐|なつ}かしく→懐かしい：02484_natsukashii⟧⟦なる→なる：01970_naru⟧。",
       "english": "It's been twenty years since I left my hometown, but I sometimes feel nostalgic.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "{故郷|こきょう} can also be read as ふるさと, which has a warmer, more nostalgic tone. The expression carries emotional significance in Japanese culture, where hometown connections ({地元|じもと}) remain important throughout life. Leaving one's hometown is a common theme in literature, songs, and coming-of-age narratives.\n\nIn Japan, many young people leave rural hometowns for cities like Tokyo or Osaka for education or work, making this expression relevant to discussions of rural depopulation ({過疎化|かそか}) and urban migration.\n\nCOMMON PATTERNS:\n- {故郷|こきょう}を{離|はな}れて〜{年|ねん}: ~ years since leaving one's hometown\n- {故郷|こきょう}を{離|はな}れて{暮|く}らす: to live away from one's hometown\n\nSIMILAR EXPRESSIONS:\n- {地元|じもと}を{出|で}る: to leave one's local area — more casual and less emotional\n- {実家|じっか}を{出|で}る: to leave one's parents' home — focuses on the physical household, not the region\n- {田舎|いなか}を{出|で}る: to leave the countryside — specifies rural origin",
+  "notes": "⟦{故郷|こきょう}→故郷：02733_kokyou⟧ can also be read as ふるさと, which has a warmer, more nostalgic tone. The expression carries emotional significance in Japanese culture, where hometown connections (⟦{地元|じもと}→地元：09941_jimoto⟧) remain important throughout life. Leaving one's hometown is a common theme in literature, songs, and coming-of-age narratives.\n\nIn Japan, many young people leave rural hometowns for cities like Tokyo or Osaka for education or work, making this expression relevant to discussions of rural depopulation (⟦{過疎化|かそか}→過疎化：05242_kasoka⟧) and urban migration.\n\nCOMMON PATTERNS:\n- {故郷|こきょう}を{離|はな}れて〜⟦{年|ねん}→年：09876_nen⟧: ~ years since leaving one's hometown\n- {故郷|こきょう}を{離|はな}れて⟦{暮|く}らす→暮らす：01937_kurasu⟧: to live away from one's hometown\n\nSIMILAR WORDS:\n- ⟦{地元|じもと}→地元：09941_jimoto⟧⟦を→を：00422_wo⟧⟦{出|で}る→出る：00513_deru⟧: to leave one's local area — more casual and less emotional\n- ⟦{実家|じっか}→実家：03076_jikka⟧⟦を→を：00422_wo⟧⟦{出|で}る→出る：00513_deru⟧: to leave one's parents' home — focuses on the physical household, not the region\n- ⟦{田舎|いなか}→田舎：01320_inaka⟧⟦を→を：00422_wo⟧⟦{出|で}る→出る：00513_deru⟧: to leave the countryside — specifies rural origin",
   "cross_references": [],
   "schema_version": "2.0",
   "metadata": {
@@ -53,12 +53,13 @@
       "pos": [
         "expression"
       ],
+      "politeness": "plain",
       "semantic": [
         "society",
         "daily-life"
       ]
     },
     "created": "2026-04-27T15:13:26Z",
-    "modified": "2026-08-04T21:27:04Z"
+    "modified": "2026-09-02T04:02:24Z"
   }
 }

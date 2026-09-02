@@ -14,54 +14,107 @@
   "examples": [
     {
       "id": "08166_sakamiti_ex1",
-      "japanese": "{坂道|さかみち}を{登|のぼ}る。",
+      "japanese": "{坂道|さかみち}⟦を→を：00422_wo⟧⟦{登|のぼ}る→登る：00660_noboru⟧。",
       "english": "To climb a slope.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "08166_sakamiti_ex2",
-      "japanese": "この{坂道|さかみち}は{急|きゅう}だ。",
+      "japanese": "⟦この→この：00962_kono⟧{坂道|さかみち}⟦は→は：00079_ha⟧⟦{急|きゅう}→急：13042_kyuu⟧だ。",
       "english": "This slope is steep.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "08166_sakamiti_ex3",
-      "japanese": "{自転車|じてんしゃ}で{坂道|さかみち}を{下|くだ}る。",
+      "japanese": "⟦{自転車|じてんしゃ}→自転車：00633_jitensha⟧⟦で→で：00502_de⟧{坂道|さかみち}⟦を→を：00422_wo⟧⟦{下|くだ}る→下る：03913_kudaru⟧。",
       "english": "To go down a hill by bicycle.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "08166_sakamiti_ex4",
-      "japanese": "{長|なが}い{坂道|さかみち}を{歩|ある}いて{疲|つか}れた。",
+      "japanese": "⟦{長|なが}い→長い：00491_nagai⟧{坂道|さかみち}⟦を→を：00422_wo⟧⟦{歩|ある}いて→歩く：00538_aruku⟧⟦{疲|つか}れた→疲れる：00901_tsukareru⟧。",
       "english": "I got tired from walking up the long hill.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "08166_sakamiti_ex5",
-      "japanese": "{学校|がっこう}までの{道|みち}には{坂道|さかみち}が{多|おお}い。",
+      "japanese": "⟦{学校|がっこう}→学校：00055_gakkou⟧⟦まで→まで：00490_made⟧⟦の→の：09472_no⟧⟦{道|みち}→道：00505_michi⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{坂道|さかみち}⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "There are many slopes on the way to school.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "COMMON PATTERNS:\n- {坂道|さかみち}を{登|のぼ}る (to climb a slope)\n- {坂道|さかみち}を{下|くだ}る / {下|お}りる (to go down a slope)\n- {急|きゅう}な{坂道|さかみち} (steep slope)\n- {緩|ゆる}やかな{坂道|さかみち} (gentle slope)\n\nRELATED WORDS:\n- {坂|さか} (slope, hill)\n- {上|のぼ}り{坂|ざか} (uphill slope)\n- {下|くだ}り{坂|ざか} (downhill slope)\n- {峠|とうげ} (mountain pass)\n\nNOTE:\nJapan has many famous named slopes ({坂|さか}), especially in Tokyo and other hilly cities.",
+  "notes": "COMMON PATTERNS:\n- {坂道|さかみち}⟦を→を：00422_wo⟧⟦{登|のぼ}る→登る：00660_noboru⟧ (to climb a slope)\n- {坂道|さかみち}⟦を→を：00422_wo⟧⟦{下|くだ}る→下る：03913_kudaru⟧ / {下|お}りる (to go down a slope)\n- ⟦{急|きゅう}→急：13042_kyuu⟧な{坂道|さかみち} (steep slope)\n- ⟦{緩|ゆる}やか→緩やか：13813_yuruyaka⟧な{坂道|さかみち} (gentle slope)\n\nRELATED WORDS:\n- ⟦{坂|さか}→坂：01415_saka⟧ (slope, hill)\n- ⟦{上|のぼ}り{坂|ざか}→上り坂：16376_noborizaka⟧ (uphill slope)\n- ⟦{下|くだ}り{坂|ざか}→下り坂：16377_kudarizaka⟧ (downhill slope)\n- ⟦{峠|とうげ}→峠：02227_touge⟧ (mountain pass)\n\nUSAGE:\nJapan has many famous named slopes (⟦{坂|さか}→坂：01415_saka⟧), especially in Tokyo and other hilly cities.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "16376_noborizaka",
+      "reading": "のぼりざか",
+      "headword": "{上|のぼ}り{坂|ざか}",
+      "label": "uphill slope"
+    },
+    {
+      "type": "related",
+      "target_id": "16377_kudarizaka",
+      "reading": "くだりざか",
+      "headword": "{下|くだ}り{坂|ざか}",
+      "label": "downhill slope"
+    },
+    {
+      "type": "related",
+      "target_id": "02227_touge",
+      "reading": "とうげ",
+      "headword": "{峠|とうげ}",
+      "label": "mountain pass"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22336_kyuuzaka",
+      "reading": "きゅうざか",
+      "headword": "{急坂|きゅうざか}",
+      "label": "steep slope"
+    },
+    {
+      "type": "related",
+      "target_id": "23600_tougemichi",
+      "reading": "とうげみち",
+      "headword": "{峠道|とうげみち}",
+      "label": "mountain pass road"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "semantic": ["terrain", "roads"]
+      "politeness": "plain",
+      "semantic": [
+        "terrain",
+        "roads"
+      ]
     },
     "created": "2026-01-25T07:33:27Z",
-    "modified": "2026-01-25T07:33:27Z"
+    "modified": "2026-09-02T04:01:14Z"
   }
 }

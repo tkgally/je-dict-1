@@ -2,7 +2,7 @@
   "id": "01388_kyousou",
   "headword": "{競争|きょうそう}",
   "reading": "きょうそう",
-  "part_of_speech": "noun (verbal)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "competition, contest",
   "conjugation": {
     "type": "suru",
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "{競争|きょうそう} means competition, contest, or rivalry—the act of striving against others for a goal.\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n- No standard transitive pair\n- Pattern: {競争|きょうそう}する\n\nVERBAL USE:\n{競争|きょうそう}⟦する→する：00392_suru⟧: to compete\n- ～と{競争|きょうそう}⟦する→する：00392_suru⟧: to compete with/against ~\n\nCOMMON EXPRESSIONS:\n- {競争|きょうそう}⟦に→に：00314_ni⟧⟦{勝|か}つ→勝つ：01199_katsu⟧: to win a competition\n- {競争|きょうそう}⟦に→に：00314_ni⟧⟦{負|ま}ける→負ける：01134_makeru⟧: to lose a competition\n- {競争|きょうそう}⟦が→が：00051_ga⟧⟦{激|はげ}しい→激しい：02348_hageshii⟧: competition is fierce\n- {競争|きょうそう}⟦{相手|あいて}→相手：01677_aite⟧: competitor, rival\n- {競争|きょうそう}⟦{社会|しゃかい}→社会：01427_shakai⟧: competitive society\n\nRELATED WORDS:\n- ⟦{競|きそ}う→競う：13767_kisou⟧: to compete (verb)\n- ⟦{競技|きょうぎ}→競技：02606_kyougi⟧: athletic competition, sport\n- ⟦{試合|しあい}→試合：01601_shiai⟧: match, game\n- ⟦ライバル→ライバル：11197_raibaru⟧: rival",
+  "notes": "{競争|きょうそう} means competition, contest, or rivalry—the act of striving against others for a goal.\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n- No standard transitive pair\n- Pattern: {競争|きょうそう}⟦する→する：00392_suru⟧\n\nVERBAL USE:\n{競争|きょうそう}⟦する→する：00392_suru⟧: to compete\n- ～⟦と→と：00512_to⟧{競争|きょうそう}⟦する→する：00392_suru⟧: to compete with/against ~\n\nCOMMON EXPRESSIONS:\n- {競争|きょうそう}⟦に→に：00314_ni⟧⟦{勝|か}つ→勝つ：01199_katsu⟧: to win a competition\n- {競争|きょうそう}⟦に→に：00314_ni⟧⟦{負|ま}ける→負ける：01134_makeru⟧: to lose a competition\n- {競争|きょうそう}⟦が→が：00051_ga⟧⟦{激|はげ}しい→激しい：02348_hageshii⟧: competition is fierce\n- {競争|きょうそう}⟦{相手|あいて}→相手：01677_aite⟧: competitor, rival\n- {競争|きょうそう}⟦{社会|しゃかい}→社会：01427_shakai⟧: competitive society\n\nRELATED WORDS:\n- ⟦{競|きそ}う→競う：13767_kisou⟧: to compete (verb)\n- ⟦{競技|きょうぎ}→競技：02606_kyougi⟧: athletic competition, sport\n- ⟦{試合|しあい}→試合：01601_shiai⟧: match, game\n- ⟦ライバル→ライバル：11197_raibaru⟧: rival",
   "cross_references": [
     {
       "type": "related",
@@ -141,11 +141,67 @@
       "reading": "しあい",
       "headword": "{試合|しあい}",
       "label": "match, game"
+    },
+    {
+      "type": "related",
+      "target_id": "13767_kisou",
+      "reading": "きそう",
+      "headword": "{競|きそ}う",
+      "label": "to compete"
+    },
+    {
+      "type": "related",
+      "target_id": "02606_kyougi",
+      "reading": "きょうぎ",
+      "headword": "{競技|きょうぎ}",
+      "label": "athletic competition, sport"
+    },
+    {
+      "type": "related",
+      "target_id": "11197_raibaru",
+      "reading": "らいばる",
+      "headword": "ライバル",
+      "label": "rival"
+    },
+    {
+      "type": "related",
+      "target_id": "01866_arasou",
+      "reading": "あらそう",
+      "headword": "{争|あらそ}う",
+      "label": "to compete, to argue"
+    },
+    {
+      "type": "related",
+      "target_id": "03843_kontesuto",
+      "reading": "こんてすと",
+      "headword": "コンテスト",
+      "label": "contest, competition"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11452_soudatsusen",
+      "reading": "そうだつせん",
+      "headword": "{争奪戦|そうだつせん}",
+      "label": "contest, battle, scramble"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12398_taikou",
+      "reading": "たいこう",
+      "headword": "{対抗|たいこう}",
+      "label": "opposition, rivalry, competing against"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17344_taikousuru",
+      "reading": "たいこうする",
+      "headword": "{対抗|たいこう}する",
+      "label": "to oppose"
     }
   ],
   "metadata": {
     "created": "2026-01-08T12:14:03Z",
-    "modified": "2026-05-15T14:08:18Z",
+    "modified": "2026-09-02T04:00:59Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

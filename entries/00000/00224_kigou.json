@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "TYPES OF SYMBOLS:\n・⟦{句読点|くとうてん}→句読点：08650_kutouten⟧ (punctuation marks)\n・⟦{数学|すうがく}→数学：01442_suugaku⟧{記号|きごう} (mathematical symbols: +, -, ×, ÷, =)\n・⟦{地図|ちず}→地図：02914_chizu⟧{記号|きごう} (map symbols)\n・⟦{音楽|おんがく}→音楽：00661_ongaku⟧{記号|きごう} (musical notation)\n・⟦{化学|かがく}→化学：05336_kagaku_chem⟧{記号|きごう} (chemical symbols: H, O, Na)\n\nCOMPUTING:\n・⟦{特殊|とくしゅ}→特殊：04566_tokushu⟧{記号|きごう} (special characters)\n・{記号|きごう}⟦を→を：00422_wo⟧⟦{入力|にゅうりょく}→入力：04769_nyuuryoku⟧する (to input symbols)\n\nSIMILAR WORDS:\n・⟦マーク→マーク：09478_maaku⟧ (mark — loanword)\n・⟦シンボル→シンボル：10948_shinboru⟧ (symbol — loanword)\n・⟦{符号|ふごう}→符号：00042_fugou⟧ (code, sign — technical)\n・⟦{印|しるし}→印：03254_shirushi⟧ (mark, sign — general)",
+  "notes": "TYPES OF SYMBOLS:\n- ⟦{句読点|くとうてん}→句読点：08650_kutouten⟧ (punctuation marks)\n- ⟦{数学|すうがく}→数学：01442_suugaku⟧{記号|きごう} (mathematical symbols: +, -, ×, ÷, =)\n- ⟦{地図|ちず}→地図：02914_chizu⟧{記号|きごう} (map symbols)\n- ⟦{音楽|おんがく}→音楽：00661_ongaku⟧{記号|きごう} (musical notation)\n- ⟦{化学|かがく}→化学：05336_kagaku_chem⟧{記号|きごう} (chemical symbols: H, O, Na)\n\nCOMPUTING:\n- ⟦{特殊|とくしゅ}→特殊：04566_tokushu⟧{記号|きごう} (special characters)\n- {記号|きごう}⟦を→を：00422_wo⟧⟦{入力|にゅうりょく}→入力：04769_nyuuryoku⟧⟦する→する：00392_suru⟧ (to input symbols)\n\nSIMILAR WORDS:\n- ⟦マーク→マーク：09478_maaku⟧ (mark — loanword)\n- ⟦シンボル→シンボル：10948_shinboru⟧ (symbol — loanword)\n- ⟦{符号|ふごう}→符号：00042_fugou⟧ (code, sign — technical)\n- ⟦{印|しるし}→印：03254_shirushi⟧ (mark, sign — general)",
   "cross_references": [
     {
       "type": "related",
@@ -51,11 +51,53 @@
       "headword": "{括弧|かっこ}",
       "target_id": "00151_kakko",
       "label": "parentheses, brackets"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09478_maaku",
+      "reading": "まーく",
+      "headword": "マーク",
+      "label": "mark"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10948_shinboru",
+      "reading": "しんぼる",
+      "headword": "シンボル",
+      "label": "symbol"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00042_fugou",
+      "reading": "ふごう",
+      "headword": "{符号|ふごう}",
+      "label": "code, sign"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03254_shirushi",
+      "reading": "しるし",
+      "headword": "{印|しるし}",
+      "label": "mark, sign"
+    },
+    {
+      "type": "related",
+      "target_id": "08413_hanrei",
+      "reading": "はんれい",
+      "headword": "{凡例|はんれい}",
+      "label": "explanatory notes"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27346_kutoufugou",
+      "reading": "くとうふごう",
+      "headword": "{句読符号|くとうふごう}",
+      "label": "punctuation marks (formal)"
     }
   ],
   "metadata": {
     "created": "2026-01-13T10:53:53Z",
-    "modified": "2026-08-13T21:29:55Z",
+    "modified": "2026-09-02T04:00:57Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

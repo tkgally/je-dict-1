@@ -3,7 +3,7 @@
   "id": "18284_taishutsu",
   "headword": "{退出|たいしゅつ}",
   "reading": "たいしゅつ",
-  "part_of_speech": "noun; noun (suru verb)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "leaving; withdrawal; exit",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "18284_taishutsu_ex1",
-      "japanese": "{会議|かいぎ}から{退出|たいしゅつ}する。",
+      "japanese": "⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦から→から：00504_kara⟧{退出|たいしゅつ}⟦する→する：00392_suru⟧。",
       "english": "I leave the meeting.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "18284_taishutsu_ex2",
-      "japanese": "{非常口|ひじょうぐち}から{速|すみ}やかに{退出|たいしゅつ}してください。",
+      "japanese": "⟦{非常口|ひじょうぐち}→非常口：07045_hijouguchi⟧⟦から→から：00504_kara⟧⟦{速|すみ}やか→速やか：15283_sumiyaka⟧⟦に→に：00314_ni⟧{退出|たいしゅつ}⟦して→する：00392_suru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please exit promptly through the emergency exit.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "18284_taishutsu_ex3",
-      "japanese": "オンライン{会議|かいぎ}が{終|お}わったら、{退出|たいしゅつ}ボタンを{押|お}してください。",
+      "japanese": "⟦オンライン{会議|かいぎ}→オンライン会議：06606_onrainkaigi⟧⟦が→が：00051_ga⟧⟦{終|お}わったら→終わる：00567_owaru⟧、{退出|たいしゅつ}⟦ボタン→ボタン：02963_botan⟧⟦を→を：00422_wo⟧⟦{押|お}して→押す：02854_osu⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "When the online meeting is over, please press the leave button.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nUsed with する to form a verb. More formal than {出|で}る and commonly appears in announcements, instructions, and digital interfaces (e.g., the \"leave meeting\" button in video conferencing).\n\nCOMMON COLLOCATIONS:\n- {退出|たいしゅつ}する (to leave, to exit)\n- {退出|たいしゅつ}ボタン (exit/leave button)\n- {途中|とちゅう}{退出|たいしゅつ} (leaving midway)\n- {強制|きょうせい}{退出|たいしゅつ} (forced exit)\n\nSIMILAR WORDS:\n- {退室|たいしつ}: leaving a room — specifically leaving a room\n- {退場|たいじょう}: exit (from a venue or stage) — used in theaters and sports\n- {退席|たいせき}: leaving one's seat — implies stepping away from a meeting or table",
+  "notes": "USAGE:\nUsed with ⟦する→する：00392_suru⟧ to form a verb. More formal than ⟦{出|で}る→出る：00513_deru⟧ and commonly appears in announcements, instructions, and digital interfaces (e.g., the \"leave meeting\" button in video conferencing).\n\nCOMMON COLLOCATIONS:\n- {退出|たいしゅつ}⟦する→する：00392_suru⟧ (to leave, to exit)\n- {退出|たいしゅつ}⟦ボタン→ボタン：02963_botan⟧ (exit/leave button)\n- ⟦{途中|とちゅう}→途中：01684_tochuu⟧{退出|たいしゅつ} (leaving midway)\n- ⟦{強制|きょうせい}→強制：12500_kyousei⟧{退出|たいしゅつ} (forced exit)\n\nSIMILAR WORDS:\n- {退室|たいしつ}: leaving a room — specifically leaving a room\n- ⟦{退場|たいじょう}→退場：14353_taijou⟧: exit (from a venue or stage) — used in theaters and sports\n- ⟦{退席|たいせき}→退席：17720_taiseki⟧: leaving one's seat — implies stepping away from a meeting or table",
   "cross_references": [
     {
       "type": "synonym",
@@ -142,11 +142,18 @@
       "reading": "たいじょう",
       "headword": "{退場|たいじょう}",
       "label": "exit (venue/stage)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17720_taiseki",
+      "reading": "たいせき",
+      "headword": "{退席|たいせき}",
+      "label": "leaving one's seat"
     }
   ],
   "metadata": {
     "created": "2026-03-21T01:15:18Z",
-    "modified": "2026-05-08T08:12:00Z",
+    "modified": "2026-09-02T04:01:51Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

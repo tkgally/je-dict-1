@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "19932_kongen_ex1",
-      "japanese": "{問題|もんだい}の{根源|こんげん}を{探|さぐ}る。",
+      "japanese": "⟦{問題|もんだい}→問題：00797_mondai⟧⟦の→の：09472_no⟧{根源|こんげん}⟦を→を：00422_wo⟧⟦{探|さぐ}る→探る：03923_saguru⟧。",
       "english": "To investigate the root of the problem.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "19932_kongen_ex2",
-      "japanese": "{悪|あく}の{根源|こんげん}を{断|た}たなければならない。",
+      "japanese": "⟦{悪|あく}→悪：10459_aku⟧⟦の→の：09472_no⟧{根源|こんげん}⟦を→を：00422_wo⟧⟦{断|た}た→断つ：27885_tatsu⟧⟦なければならない→なければならない：27600_nakerebanaranai⟧。",
       "english": "We must cut off the root of evil.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "19932_kongen_ex3",
-      "japanese": "{争|あらそ}いの{根源|こんげん}は、{資源|しげん}の{不足|ふそく}にあると{言|い}われている。",
+      "japanese": "⟦{争|あらそ}い→争い：09992_arasoi⟧⟦の→の：09472_no⟧{根源|こんげん}⟦は→は：00079_ha⟧、⟦{資源|しげん}→資源：03167_shigen⟧⟦の→の：09472_no⟧⟦{不足|ふそく}→不足：03598_fusoku⟧⟦に→に：00314_ni⟧⟦ある→ある：00006_aru⟧⟦と→と：00512_to⟧⟦{言|い}われている→言う：00515_iu⟧。",
       "english": "The root cause of conflict is said to lie in resource scarcity.",
       "sense_numbers": [
         1
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "A formal word that emphasizes the deepest, most fundamental level of causation or origin. Often used in philosophical, analytical, or problem-solving contexts.\n\nCOMMON COLLOCATIONS:\n- {根源|こんげん}を{探|さぐ}る: to seek the root cause\n- {根源|こんげん}を{断|た}つ: to eliminate the root cause\n- {根源|こんげん}にある: to lie at the root of\n- {根源的|こんげんてき}: fundamental, radical (adjective form)\n\nSIMILAR WORDS:\n- {原因|げんいん}: cause — more general and everyday\n- {根本|こんぽん}: root, foundation — very close in meaning, slightly less formal\n- {源|みなもと}: source — can be more concrete (source of a river, etc.)\n- {起源|きげん}: origin — focuses on when/where something began",
+  "notes": "A formal word that emphasizes the deepest, most fundamental level of causation or origin. Often used in philosophical, analytical, or problem-solving contexts.\n\nCOMMON COLLOCATIONS:\n- {根源|こんげん}⟦を→を：00422_wo⟧⟦{探|さぐ}る→探る：03923_saguru⟧: to seek the root cause\n- {根源|こんげん}⟦を→を：00422_wo⟧⟦{断|た}つ→断つ：27885_tatsu⟧: to eliminate the root cause\n- {根源|こんげん}⟦に→に：00314_ni⟧⟦ある→ある：00006_aru⟧: to lie at the root of\n- {根源的|こんげんてき}: fundamental, radical (adjective form)\n\nSIMILAR WORDS:\n- ⟦{原因|げんいん}→原因：01400_genin⟧: cause — more general and everyday\n- ⟦{根本|こんぽん}→根本：13107_konpon⟧: root, foundation — very close in meaning, slightly less formal\n- ⟦{源|みなもと}→源：27896_minamoto⟧: source — can be more concrete (source of a river, etc.)\n- ⟦{起源|きげん}→起源：17394_kigen⟧: origin — focuses on when/where something began",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01400_genin",
+      "reading": "げんいん",
+      "headword": "{原因|げんいん}",
+      "label": "cause"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13107_konpon",
+      "reading": "こんぽん",
+      "headword": "{根本|こんぽん}",
+      "label": "root, foundation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17394_kigen",
+      "reading": "きげん",
+      "headword": "{起源|きげん}",
+      "label": "origin"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11533_genkyou",
+      "reading": "げんきょう",
+      "headword": "{元凶|げんきょう}",
+      "label": "root cause, chief culprit, main offender"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,6 +92,6 @@
       ]
     },
     "created": "2026-03-27T06:03:49Z",
-    "modified": "2026-07-27T12:42:09Z"
+    "modified": "2026-09-02T04:01:57Z"
   }
 }

@@ -2,7 +2,7 @@
   "id": "20348_shutsujousuru",
   "headword": "{出場|しゅつじょう}する",
   "reading": "しゅつじょうする",
-  "part_of_speech": "noun, suru verb, intransitive",
+  "part_of_speech": "noun, suru verb (intransitive)",
   "gloss": "to participate; to compete; to enter (a competition)",
   "conjugation": {
     "type": "suru",
@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "20348_shutsujousuru_ex1",
-      "japanese": "オリンピックに{出場|しゅつじょう}する。",
+      "japanese": "⟦オリンピック→オリンピック：09899_orinpikku⟧⟦に→に：00314_ni⟧{出場|しゅつじょう}する。",
       "english": "To compete in the Olympics.",
       "sense_numbers": [
         1
@@ -114,7 +114,7 @@
     },
     {
       "id": "20348_shutsujousuru_ex2",
-      "japanese": "{今年|ことし}はマラソン{大会|たいかい}に{出場|しゅつじょう}するつもりだ。",
+      "japanese": "⟦{今年|ことし}→今年：00722_kotoshi⟧⟦は→は：00079_ha⟧⟦マラソン→マラソン：04732_marason⟧⟦{大会|たいかい}→大会：03386_taikai⟧⟦に→に：00314_ni⟧{出場|しゅつじょう}する⟦つもり→つもり：01152_tsumori⟧だ。",
       "english": "I plan to enter a marathon this year.",
       "sense_numbers": [
         1
@@ -124,7 +124,7 @@
     },
     {
       "id": "20348_shutsujousuru_ex3",
-      "japanese": "{怪我|けが}のため、{次|つぎ}の{試合|しあい}には{出場|しゅつじょう}できないかもしれない。",
+      "japanese": "{怪我|けが}⟦の→の：09472_no⟧⟦ため→ため：01145_tame⟧、⟦{次|つぎ}→次：00819_tsugi⟧⟦の→の：09472_no⟧⟦{試合|しあい}→試合：01601_shiai⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{出場|しゅつじょう}できない⟦かもしれない→かもしれない：00164_kamoshirenai⟧。",
       "english": "Due to an injury, I might not be able to compete in the next match.",
       "sense_numbers": [
         1
@@ -133,8 +133,24 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {出|しゅつ} (go out) + {場|じょう} (place, arena). Takes the particle に for the event: ～に{出場|しゅつじょう}する. The noun form {出場|しゅつじょう} is also very common.\n\nCOMMON COLLOCATIONS:\n- {大会|たいかい}に{出場|しゅつじょう}する: to enter a tournament\n- {試合|しあい}に{出場|しゅつじょう}する: to compete in a match\n- {出場|しゅつじょう}{資格|しかく}: qualification to participate\n- {出場|しゅつじょう}{選手|せんしゅ}: participating athlete\n- {出場|しゅつじょう}{停止|ていし}: suspension from competition\n\nSIMILAR WORDS:\n- {参加|さんか}する: to participate — broader, includes any kind of participation (meetings, events)\n- {出場|しゅつじょう}する: specifically for competitions and sporting events\n- {出演|しゅつえん}する: to appear, to perform — for shows, TV, stage performances",
+  "notes": "Composed of {出|しゅつ} (go out) + {場|じょう} (place, arena). Takes the particle ⟦に→に：00314_ni⟧ for the event: ～⟦に→に：00314_ni⟧{出場|しゅつじょう}する. The noun form ⟦{出場|しゅつじょう}→出場：03223_shutsujou⟧ is also very common.\n\nCOMMON COLLOCATIONS:\n- ⟦{大会|たいかい}→大会：03386_taikai⟧⟦に→に：00314_ni⟧{出場|しゅつじょう}する: to enter a tournament\n- ⟦{試合|しあい}→試合：01601_shiai⟧⟦に→に：00314_ni⟧{出場|しゅつじょう}する: to compete in a match\n- ⟦{出場|しゅつじょう}→出場：03223_shutsujou⟧⟦{資格|しかく}→資格：02834_shikaku⟧: qualification to participate\n- ⟦{出場|しゅつじょう}→出場：03223_shutsujou⟧⟦{選手|せんしゅ}→選手：03823_senshu⟧: participating athlete\n- ⟦{出場|しゅつじょう}→出場：03223_shutsujou⟧⟦{停止|ていし}→停止：04067_teishi⟧: suspension from competition\n\nSIMILAR WORDS:\n- ⟦{参加|さんか}する→参加する：25408_sankasuru⟧: to participate — broader, includes any kind of participation (meetings, events)\n- {出場|しゅつじょう}する: specifically for competitions and sporting events\n- ⟦{出演|しゅつえん}→出演：11732_shutsuen⟧⟦する→する：00392_suru⟧: to appear, to perform — for shows, TV, stage performances",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25408_sankasuru",
+      "reading": "さんかする",
+      "headword": "{参加|さんか}する",
+      "label": "to participate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11732_shutsuen",
+      "reading": "しゅつえん",
+      "headword": "{出演|しゅつえん}",
+      "label": "to appear, to perform"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -152,6 +168,6 @@
       "verb_class": "suru"
     },
     "created": "2026-03-28T21:19:42Z",
-    "modified": "2026-07-28T00:51:36Z"
+    "modified": "2026-09-02T04:01:59Z"
   }
 }

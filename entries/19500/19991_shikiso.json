@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "19991_shikiso_ex1",
-      "japanese": "{色素|しきそ}が{薄|うす}い。",
+      "japanese": "{色素|しきそ}⟦が→が：00051_ga⟧⟦{薄|うす}い→薄い：00764_usui⟧。",
       "english": "The pigmentation is light.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "19991_shikiso_ex2",
-      "japanese": "{紫外線|しがいせん}を{浴|あ}びると{色素|しきそ}が{沈着|ちんちゃく}する。",
+      "japanese": "⟦{紫外線|しがいせん}→紫外線：07375_shigaisen⟧⟦を→を：00422_wo⟧⟦{浴|あ}びる→浴びる：02844_abiru⟧⟦と→と：00512_to⟧{色素|しきそ}⟦が→が：00051_ga⟧⟦{沈着|ちんちゃく}→沈着：09171_chinchaku⟧⟦する→する：00392_suru⟧。",
       "english": "Exposure to UV rays causes pigmentation.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "19991_shikiso_ex3",
-      "japanese": "この{食品|しょくひん}には{人工|じんこう}{色素|しきそ}が{使|つか}われていないので{安心|あんしん}だ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{食品|しょくひん}→食品：03247_shokuhin⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{人工|じんこう}→人工：11573_jinkou⟧{色素|しきそ}⟦が→が：00051_ga⟧⟦{使|つか}われていない→使う：00473_tsukau⟧⟦の→の：09472_no⟧で⟦{安心|あんしん}→安心：01288_anshin⟧だ。",
       "english": "This food product doesn't use artificial coloring, so it's safe.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {色|しき} (color) and {素|そ} (element, substance). Used broadly in biology, medicine, food science, and cosmetics to refer to any substance responsible for color.\n\nCOMMON COLLOCATIONS:\n- {色素|しきそ}{沈着|ちんちゃく} — pigmentation (deposit of pigment in skin)\n- {人工|じんこう}{色素|しきそ} — artificial coloring\n- {天然|てんねん}{色素|しきそ} — natural pigment\n- {色素|しきそ}が{薄|うす}い — to have light pigmentation\n- メラニン{色素|しきそ} — melanin pigment\n\nRELATED TERMS:\n- {着色料|ちゃくしょくりょう} — coloring agent (for food/products)\n- {染料|せんりょう} — dye (for fabrics)\n- {顔料|がんりょう} — pigment (for paints and inks)",
+  "notes": "A compound of {色|しき} (color) and {素|そ} (element, substance). Used broadly in biology, medicine, food science, and cosmetics to refer to any substance responsible for color.\n\nCOMMON COLLOCATIONS:\n- {色素|しきそ}⟦{沈着|ちんちゃく}→沈着：09171_chinchaku⟧ — pigmentation (deposit of pigment in skin)\n- ⟦{人工|じんこう}→人工：11573_jinkou⟧{色素|しきそ} — artificial coloring\n- ⟦{天然|てんねん}→天然：03560_tennen⟧{色素|しきそ} — natural pigment\n- {色素|しきそ}⟦が→が：00051_ga⟧⟦{薄|うす}い→薄い：00764_usui⟧ — to have light pigmentation\n- メラニン{色素|しきそ} — melanin pigment\n\nRELATED WORDS:\n- ⟦{着色料|ちゃくしょくりょう}→着色料：19751_chakushokuryou⟧ — coloring agent (for food/products)\n- ⟦{染料|せんりょう}→染料：16341_senryou⟧ — dye (for fabrics)\n- ⟦{顔料|がんりょう}→顔料：19796_ganryou⟧ — pigment (for paints and inks)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "19751_chakushokuryou",
+      "reading": "ちゃくしょくりょう",
+      "headword": "{着色料|ちゃくしょくりょう}",
+      "label": "coloring agent"
+    },
+    {
+      "type": "related",
+      "target_id": "16341_senryou",
+      "reading": "せんりょう",
+      "headword": "{染料|せんりょう}",
+      "label": "dye"
+    },
+    {
+      "type": "related",
+      "target_id": "19796_ganryou",
+      "reading": "がんりょう",
+      "headword": "{顔料|がんりょう}",
+      "label": "pigment"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +82,6 @@
       ]
     },
     "created": "2026-03-28T04:34:49Z",
-    "modified": "2026-07-28T00:51:36Z"
+    "modified": "2026-09-02T04:01:58Z"
   }
 }

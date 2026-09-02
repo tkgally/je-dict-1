@@ -15,40 +15,66 @@
   "examples": [
     {
       "id": "24900_keikaten_ex1",
-      "japanese": "ここは{経過点|けいかてん}にすぎない。",
+      "japanese": "⟦ここ→ここ：00961_koko⟧⟦は→は：00079_ha⟧{経過点|けいかてん}⟦に→に：00314_ni⟧すぎない。",
       "english": "This is nothing more than a waypoint.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "24900_keikaten_ex2",
-      "japanese": "{今回|こんかい}の{試験|しけん}は{長|なが}い{道|みち}のりの{経過点|けいかてん}だ。",
+      "japanese": "⟦{今回|こんかい}→今回：01409_konkai⟧⟦の→の：09472_no⟧⟦{試験|しけん}→試験：01422_shiken⟧⟦は→は：00079_ha⟧⟦{長|なが}い→長い：00491_nagai⟧{道|みち}のり⟦の→の：09472_no⟧{経過点|けいかてん}だ。",
       "english": "This exam is just a milestone on a long journey.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "24900_keikaten_ex3",
-      "japanese": "{優勝|ゆうしょう}はゴールではなく、{次|つぎ}のステージへの{経過点|けいかてん}だと{監督|かんとく}は{語|かた}った。",
+      "japanese": "⟦{優勝|ゆうしょう}→優勝：03647_yuushou⟧⟦は→は：00079_ha⟧⟦ゴール→ゴール：03845_gooru⟧⟦ではなく→ではなく：09578_dehanaku⟧、⟦{次|つぎ}→次：00819_tsugi⟧⟦の→の：09472_no⟧⟦ステージ→ステージ：11047_suteeji⟧⟦へ→へ：02473_he⟧⟦の→の：09472_no⟧{経過点|けいかてん}だ⟦と→と：00512_to⟧⟦{監督|かんとく}→監督：00185_kantoku⟧⟦は→は：00079_ha⟧⟦{語|かた}った→語る：01930_kataru⟧。",
       "english": "The coach said that winning the championship is not the goal, but a waypoint to the next stage.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {経過|けいか} (passage; progress) + {点|てん} (point). Emphasizes that a particular achievement or location is part of a larger process rather than the final destination. Often used in motivational or analytical contexts.\n\nCOMMON COLLOCATIONS:\n- {経過点|けいかてん}にすぎない: to be merely a waypoint\n- {経過点|けいかてん}として: as an intermediate step\n- {重要|じゅうよう}な{経過点|けいかてん}: an important milestone\n\nSIMILAR WORDS:\n- {通過点|つうかてん}: passing point — very similar meaning; {通過点|つうかてん} is slightly more common and emphasizes passing through, while {経過点|けいかてん} emphasizes the time or process that has elapsed\n- マイルストーン: milestone — a loanword used especially in business and project management\n- {中間点|ちゅうかんてん}: midpoint — specifically refers to the middle of a process or distance, while {経過点|けいかてん} can be at any stage",
+  "notes": "Composed of ⟦{経過|けいか}→経過：05578_keika⟧ (passage; progress) + ⟦{点|てん}→点：01553_ten⟧ (point). Emphasizes that a particular achievement or location is part of a larger process rather than the final destination. Often used in motivational or analytical contexts.\n\nCOMMON COLLOCATIONS:\n- {経過点|けいかてん}⟦に→に：00314_ni⟧すぎない: to be merely a waypoint\n- {経過点|けいかてん}⟦として→として：06802_toshite⟧: as an intermediate step\n- ⟦{重要|じゅうよう}→重要：01575_juuyou⟧な{経過点|けいかてん}: an important milestone\n\nSIMILAR WORDS:\n- ⟦{通過点|つうかてん}→通過点：24887_tsuukaten⟧: passing point — very similar meaning; ⟦{通過点|つうかてん}→通過点：24887_tsuukaten⟧ is slightly more common and emphasizes passing through, while {経過点|けいかてん} emphasizes the time or process that has elapsed\n- マイルストーン: milestone — a loanword used especially in business and project management\n- ⟦{中間点|ちゅうかんてん}→中間点：26411_chuukanten⟧: midpoint — specifically refers to the middle of a process or distance, while {経過点|けいかてん} can be at any stage",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24887_tsuukaten",
+      "reading": "つうかてん",
+      "headword": "{通過点|つうかてん}",
+      "label": "passing point"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26411_chuukanten",
+      "reading": "ちゅうかんてん",
+      "headword": "{中間|ちゅうかん}{点|てん}",
+      "label": "midpoint"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["abstract"]
+      "semantic": [
+        "abstract"
+      ]
     },
     "created": "2026-04-21T12:11:29Z",
-    "modified": "2026-04-21T12:11:29Z"
+    "modified": "2026-09-02T04:02:20Z"
   }
 }

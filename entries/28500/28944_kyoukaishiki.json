@@ -15,41 +15,67 @@
   "examples": [
     {
       "id": "28944_kyoukaishiki_ex1",
-      "japanese": "{彼|かれ}らは{教会式|きょうかいしき}で{結婚|けっこん}した。",
+      "japanese": "⟦{彼|かれ}ら→彼ら：01802_karera⟧⟦は→は：00079_ha⟧{教会式|きょうかいしき}⟦で→で：00502_de⟧⟦{結婚|けっこん}→結婚：02514_kekkon⟧⟦した→する：00392_suru⟧。",
       "english": "They had a church wedding.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28944_kyoukaishiki_ex2",
-      "japanese": "{教会式|きょうかいしき}の{衣装|いしょう}はウェディングドレスが{定番|ていばん}だ。",
+      "japanese": "{教会式|きょうかいしき}⟦の→の：09472_no⟧⟦{衣装|いしょう}→衣装：14102_ishou⟧⟦は→は：00079_ha⟧⟦ウェディングドレス→ウェディングドレス：27343_wedingudoresu⟧⟦が→が：00051_ga⟧⟦{定番|ていばん}→定番：12265_teiban⟧だ。",
       "english": "A wedding dress is the standard attire for a church wedding.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28944_kyoukaishiki_ex3",
-      "japanese": "{日本|にほん}では{宗教|しゅうきょう}に{関係|かんけい}なく{教会式|きょうかいしき}を{選|えら}ぶカップルが{多|おお}い。",
+      "japanese": "⟦{日本|にほん}→日本：03876_nihon⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{宗教|しゅうきょう}→宗教：03208_shuukyou⟧⟦に→に：00314_ni⟧⟦{関係|かんけい}→関係：01298_kankei⟧⟦なく→ない：01118_nai⟧{教会式|きょうかいしき}⟦を→を：00422_wo⟧⟦{選|えら}ぶ→選ぶ：00835_erabu⟧⟦カップル→カップル：19414_kappuru⟧⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "In Japan, many couples choose a church wedding regardless of their religion.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Compound of {教会|きょうかい} (church) + {式|しき} (ceremony). In Japan this often refers to a Western-style chapel inside a wedding venue rather than an actual church congregation.\n\nCOMMON COLLOCATIONS:\n- {教会式|きょうかいしき}を{挙|あ}げる: to hold a church wedding\n- {教会式|きょうかいしき}の{誓|ちか}いの{言葉|ことば}: the vows of a church wedding\n- チャペル{式|しき}: chapel-style ceremony (near-synonym, often used by venues)\n\nSIMILAR WORDS:\n- {神前式|しんぜんしき}: Shinto wedding — performed at a shrine\n- {人前式|じんぜんしき}: secular wedding — non-religious, with guests as witnesses",
+  "notes": "Compound of ⟦{教会|きょうかい}→教会：01387_kyoukai⟧ (church) + {式|しき} (ceremony). In Japan this often refers to a Western-style chapel inside a wedding venue rather than an actual church congregation.\n\nCOMMON COLLOCATIONS:\n- {教会式|きょうかいしき}⟦を→を：00422_wo⟧⟦{挙|あ}げる→挙げる：27889_ageru⟧: to hold a church wedding\n- {教会式|きょうかいしき}⟦の→の：09472_no⟧⟦{誓|ちか}い→誓い：14178_chikai⟧⟦の→の：09472_no⟧⟦{言葉|ことば}→言葉：02880_kotoba⟧: the vows of a church wedding\n- チャペル{式|しき}: chapel-style ceremony (near-synonym, often used by venues)\n\nSIMILAR WORDS:\n- ⟦{神前式|しんぜんしき}→神前式：28943_shinzenshiki⟧: Shinto wedding — performed at a shrine\n- ⟦{人前式|じんぜんしき}→人前式：28945_jinzenshiki⟧: secular wedding — non-religious, with guests as witnesses",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "28943_shinzenshiki",
+      "reading": "しんぜんしき",
+      "headword": "{神前式|しんぜんしき}",
+      "label": "Shinto wedding"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28945_jinzenshiki",
+      "reading": "じんぜんしき",
+      "headword": "{人前式|じんぜんしき}",
+      "label": "secular wedding"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["culture"],
+      "semantic": [
+        "culture"
+      ],
       "domain": []
     },
     "created": "2026-06-07T04:09:10Z",
-    "modified": "2026-06-07T04:09:10Z"
+    "modified": "2026-09-02T04:02:35Z"
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30277_sonoyouna_ex1",
-      "japanese": "そのような{場合|ばあい}はご{連絡|れんらく}ください。",
+      "japanese": "そのような⟦{場合|ばあい}→場合：01704_baai⟧⟦は→は：00079_ha⟧ご⟦{連絡|れんらく}→連絡：01524_renraku⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please contact us in such a case.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "30277_sonoyouna_ex2",
-      "japanese": "そのような{話|はなし}は{聞|き}いたことがありません。",
+      "japanese": "そのような⟦{話|はなし}→話：01496_hanashi⟧⟦は→は：00079_ha⟧⟦{聞|き}いた→聞く：00483_kiku⟧こと⟦が→が：00051_ga⟧⟦ありません→ある：00006_aru⟧。",
       "english": "I have never heard such a thing.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "30277_sonoyouna_ex3",
-      "japanese": "そのような{事故|じこ}が{二度|にど}と{起|お}こらないよう、{安全|あんぜん}{対策|たいさく}を{見直|みなお}します。",
+      "japanese": "そのような⟦{事故|じこ}→事故：00851_jiko⟧⟦が→が：00051_ga⟧⟦{二度|にど}と→二度と：06482_nidoto⟧⟦{起|お}こらない→起こる：01910_okoru⟧よう、⟦{安全|あんぜん}→安全：01131_anzen⟧⟦{対策|たいさく}→対策：02511_taisaku⟧⟦を→を：00422_wo⟧⟦{見直|みなお}します→見直す：04579_minaosu⟧。",
       "english": "We will review our safety measures so that such an accident never happens again.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,23 @@
       ]
     }
   ],
-  "notes": "USAGE:\nAlways followed by a noun. Before a verb or adjective the adverbial form そのように is used instead: そのように{考|かんが}えています (I think along those lines).\n\nCOMMON COLLOCATIONS:\n- そのような{場合|ばあい}: in such a case\n- そのようなこと: such a thing\n- そのような{方|かた}: a person of that sort (polite)\n\nSIMILAR WORDS:\n- そんな: such, that kind of — the everyday spoken equivalent; そのような is one register higher\n- このような: this kind of — for things near the speaker or just introduced by the speaker\n- あのような: that kind of — for things distant from both speaker and listener",
+  "notes": "USAGE:\nAlways followed by a noun. Before a verb or adjective the adverbial form そのように is used instead: そのように⟦{考|かんが}えています→考える：00856_kangaeru⟧ (I think along those lines).\n\nCOMMON COLLOCATIONS:\n- そのような⟦{場合|ばあい}→場合：01704_baai⟧: in such a case\n- そのようなこと: such a thing\n- そのような⟦{方|かた}→方：10665_kata⟧: a person of that sort (polite)\n\nSIMILAR WORDS:\n- ⟦そんな→そんな：01645_sonna⟧: such, that kind of — the everyday spoken equivalent; そのような is one register higher\n- ⟦この→この：00962_kono⟧ような: this kind of — for things near the speaker or just introduced by the speaker\n- ⟦あの→あの：00915_ano⟧ような: that kind of — for things distant from both speaker and listener",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01645_sonna",
+      "reading": "そんな",
+      "headword": "そんな",
+      "label": "such, that kind of"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21789_soushita",
+      "reading": "そうした",
+      "headword": "そうした",
+      "label": "such"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +75,6 @@
       "domain": []
     },
     "created": "2026-07-31T06:19:07Z",
-    "modified": "2026-07-31T06:19:07Z"
+    "modified": "2026-09-02T04:02:39Z"
   }
 }

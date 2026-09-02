@@ -15,41 +15,75 @@
   "examples": [
     {
       "id": "28509_furuutisuto_ex1",
-      "japanese": "{彼女|かのじょ}はプロのフルーティストだ。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧⟦プロ→プロ：03871_puro⟧⟦の→の：09472_no⟧フルーティストだ。",
       "english": "She is a professional flutist.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28509_furuutisuto_ex2",
-      "japanese": "{有名|ゆうめい}なフルーティストの{演奏会|えんそうかい}に{行|い}った。",
+      "japanese": "⟦{有名|ゆうめい}→有名：01106_yuumei⟧なフルーティスト⟦の→の：09472_no⟧⟦{演奏会|えんそうかい}→演奏会：18026_ensoukai⟧⟦に→に：00314_ni⟧⟦{行|い}った→行く：00119_iku⟧。",
       "english": "I went to a famous flutist's concert.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28509_furuutisuto_ex3",
-      "japanese": "そのフルーティストは{交響楽団|こうきょうがくだん}の{首席|しゅせき}{奏者|そうしゃ}だ。",
+      "japanese": "⟦その→その：00993_sono⟧フルーティスト⟦は→は：00079_ha⟧⟦{交響楽団|こうきょうがくだん}→交響楽団：28508_koukyougakudan⟧⟦の→の：09472_no⟧⟦{首席|しゅせき}→首席：22104_shuseki⟧⟦{奏者|そうしゃ}→奏者：06964_sousha⟧だ。",
       "english": "That flutist is the principal player in the symphony orchestra.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Loanword from English \"flutist.\" Used mainly for serious or professional performers; a casual player is more likely described as フルートを{吹|ふ}く{人|ひと}.\n\nCOMMON COLLOCATIONS:\n- プロのフルーティスト: professional flutist\n- {首席|しゅせき}フルーティスト: principal flutist\n- {天才|てんさい}フルーティスト: prodigy flutist\n\nSIMILAR WORDS:\n- ギタリスト: guitarist\n- ピアニスト: pianist\n- バイオリニスト: violinist",
+  "notes": "Loanword from English \"flutist.\" Used mainly for serious or professional performers; a casual player is more likely described as ⟦フルート→フルート：04462_furuuto⟧⟦を→を：00422_wo⟧⟦{吹|ふ}く→吹く：02445_fuku⟧⟦{人|ひと}→人：00476_hito⟧.\n\nCOMMON COLLOCATIONS:\n- ⟦プロ→プロ：03871_puro⟧⟦の→の：09472_no⟧フルーティスト: professional flutist\n- ⟦{首席|しゅせき}→首席：22104_shuseki⟧フルーティスト: principal flutist\n- ⟦{天才|てんさい}→天才：09934_tensai⟧フルーティスト: prodigy flutist\n\nSIMILAR WORDS:\n- ⟦ギタリスト→ギタリスト：28502_gitarisuto⟧: guitarist\n- ⟦ピアニスト→ピアニスト：19413_pianisuto⟧: pianist\n- ⟦バイオリニスト→バイオリニスト：27286_baiorinisuto⟧: violinist",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "28502_gitarisuto",
+      "reading": "ぎたりすと",
+      "headword": "ギタリスト",
+      "label": "guitarist"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19413_pianisuto",
+      "reading": "ぴあにすと",
+      "headword": "ピアニスト",
+      "label": "pianist"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27286_baiorinisuto",
+      "reading": "ばいおりにすと",
+      "headword": "バイオリニスト",
+      "label": "violinist"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["occupation", "music"],
+      "politeness": "plain",
+      "semantic": [
+        "occupation",
+        "music"
+      ],
       "domain": []
     },
     "created": "2026-06-01T03:07:14Z",
-    "modified": "2026-06-01T03:07:14Z"
+    "modified": "2026-09-02T04:02:33Z"
   }
 }

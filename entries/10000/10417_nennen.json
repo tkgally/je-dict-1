@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "10417_nennen_ex1",
-      "japanese": "{年々|ねんねん}{暑|あつ}くなっている。",
+      "japanese": "{年々|ねんねん}⟦{暑|あつ}く→暑い：00619_atsui⟧⟦なっている→なる：01970_naru⟧。",
       "english": "It's getting hotter year after year.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "10417_nennen_ex2",
-      "japanese": "{年々|ねんねん}{人口|じんこう}が{減|へ}っている。",
+      "japanese": "{年々|ねんねん}⟦{人口|じんこう}→人口：01618_jinkou⟧⟦が→が：00051_ga⟧⟦{減|へ}っている→減る：01985_heru⟧。",
       "english": "The population is declining year by year.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "10417_nennen_ex3",
-      "japanese": "{技術|ぎじゅつ}は{年々|ねんねん}{進歩|しんぽ}して、{生活|せいかつ}が{便利|べんり}になっている。",
+      "japanese": "⟦{技術|ぎじゅつ}→技術：01389_gijutsu⟧⟦は→は：00079_ha⟧{年々|ねんねん}⟦{進歩|しんぽ}→進歩：03265_shinpo⟧⟦して→する：00392_suru⟧、⟦{生活|せいかつ}→生活：01443_seikatsu⟧⟦が→が：00051_ga⟧⟦{便利|べんり}→便利：00830_benri⟧になっている。",
       "english": "Technology is advancing year by year, making life more convenient.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "{年々|ねんねん} emphasizes gradual change over multiple years.\n\nCOMMON PATTERNS:\n- {年々|ねんねん}〜なる: to become ~ year after year\n- {年々|ねんねん}{増|ふ}える / {減|へ}る: to increase/decrease year by year\n- {年々|ねんねん}〜ている: continuing to ~ year after year\n\nSIMILAR WORDS:\n- {毎年|まいとし}: every year (neutral repetition, no implication of change)\n- {年々|ねんねん}: year by year (implies progressive change over time)",
+  "notes": "{年々|ねんねん} emphasizes gradual change over multiple years.\n\nCOMMON PATTERNS:\n- {年々|ねんねん}〜⟦なる→なる：01970_naru⟧: to become ~ year after year\n- {年々|ねんねん}⟦{増|ふ}える→増える：01183_fueru⟧ / ⟦{減|へ}る→減る：01985_heru⟧: to increase/decrease year by year\n- {年々|ねんねん}〜て⟦いる→いる：00495_iru⟧: continuing to ~ year after year\n\nSIMILAR WORDS:\n- ⟦{毎年|まいとし}→毎年：00731_maitoshi⟧: every year (neutral repetition, no implication of change)\n- {年々|ねんねん}: year by year (implies progressive change over time)",
   "cross_references": [
     {
       "type": "contrast",
@@ -52,11 +52,25 @@
       "reading": "まいとし",
       "headword": "{毎年|まいとし}",
       "label": "every year (standard)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04804_hibi",
+      "reading": "ひび",
+      "headword": "{日々|ひび}",
+      "label": "days, daily"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23039_toshigoto",
+      "reading": "としごと",
+      "headword": "{年毎|としごと}",
+      "label": "year by year"
     }
   ],
   "metadata": {
     "created": "2026-02-07T11:20:16Z",
-    "modified": "2026-04-24T06:24:12Z",
+    "modified": "2026-09-02T04:01:21Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

@@ -3,7 +3,7 @@
   "headword": "{煮出|にだ}す",
   "reading": "にだす",
   "romaji": "nidasu",
-  "part_of_speech": "verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to brew; to boil to extract (flavor)",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "27776_nidasu_ex1",
-      "japanese": "{昆布|こんぶ}でだしを{煮出|にだ}す。",
+      "japanese": "⟦{昆布|こんぶ}→昆布：04934_konbu⟧でだし⟦を→を：00422_wo⟧{煮出|にだ}す。",
       "english": "To boil kelp to make stock.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "27776_nidasu_ex2",
-      "japanese": "{麦茶|むぎちゃ}を{煮出|にだ}して{冷|ひ}やす。",
+      "japanese": "⟦{麦茶|むぎちゃ}→麦茶：16494_mugicha⟧⟦を→を：00422_wo⟧{煮出|にだ}して⟦{冷|ひ}やす→冷やす：02403_hiyasu⟧。",
       "english": "I brew barley tea by boiling and then chill it.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "27776_nidasu_ex3",
-      "japanese": "{薬草|やくそう}をじっくり{煮出|にだ}すと、{独特|どくとく}の{香|かお}りが{広|ひろ}がる。",
+      "japanese": "⟦{薬草|やくそう}→薬草：14033_yakusou⟧⟦を→を：00422_wo⟧⟦じっくり→じっくり：06252_jikkuri⟧{煮出|にだ}す⟦と→と：00512_to⟧、⟦{独特|どくとく}→独特：01656_dokutoku⟧⟦の→の：09472_no⟧⟦{香|かお}り→香り：00189_kaori⟧⟦が→が：00051_ga⟧⟦{広|ひろ}がる→広がる：01980_hirogaru⟧。",
       "english": "When you slowly boil the herbs, a distinctive aroma spreads.",
       "sense_numbers": [
         1
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "TRANSITIVITY: Transitive godan verb. Xを{煮出|にだ}す. Compound of {煮|に}る (to boil) + {出|だ}す (to bring out). The {出|だ}す here means drawing the flavor out of the ingredient.\n\nCOMMON COLLOCATIONS:\n- だしを{煮出|にだ}す: to boil out stock\n- お{茶|ちゃ}を{煮出|にだ}す: to brew tea by boiling\n\nSIMILAR WORDS:\n- {煮込|にこ}む: to stew; to simmer — cooking the ingredient itself slowly, not extracting from it\n- {抽出|ちゅうしゅつ}する: to extract — a formal, technical term, not limited to boiling",
+  "notes": "TRANSITIVITY: Transitive godan verb. X⟦を→を：00422_wo⟧{煮出|にだ}す. Compound of ⟦{煮|に}る→煮る：01971_niru⟧ (to boil) + ⟦{出|だ}す→出す：01087_dasu⟧ (to bring out). The ⟦{出|だ}す→出す：01087_dasu⟧ here means drawing the flavor out of the ingredient.\n\nCOMMON COLLOCATIONS:\n- だし⟦を→を：00422_wo⟧{煮出|にだ}す: to boil out stock\n- ⟦お{茶|ちゃ}→お茶：00576_ocha⟧⟦を→を：00422_wo⟧{煮出|にだ}す: to brew tea by boiling\n\nSIMILAR WORDS:\n- ⟦{煮込|にこ}む→煮込む：05822_nikomu⟧: to stew; to simmer — cooking the ingredient itself slowly, not extracting from it\n- ⟦{抽出|ちゅうしゅつ}する→抽出する：19627_chuushutsusuru⟧: to extract — a formal, technical term, not limited to boiling",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05822_nikomu",
+      "reading": "にこむ",
+      "headword": "{煮込|にこ}む",
+      "label": "to stew"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19627_chuushutsusuru",
+      "reading": "ちゅうしゅつする",
+      "headword": "{抽出|ちゅうしゅつ}する",
+      "label": "to extract"
+    },
+    {
+      "type": "related",
+      "target_id": "01971_niru",
+      "reading": "にる",
+      "headword": "{煮|に}る",
+      "label": "to boil, to simmer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27815_senjiru",
+      "reading": "せんじる",
+      "headword": "{煎|せん}じる",
+      "label": "to decoct"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -63,7 +93,7 @@
       "verb_class": "godan-su"
     },
     "created": "2026-05-18T04:14:41Z",
-    "modified": "2026-05-18T04:14:41Z"
+    "modified": "2026-09-02T04:02:31Z"
   },
   "conjugation": {
     "type": "godan",

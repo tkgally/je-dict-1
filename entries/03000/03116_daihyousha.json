@@ -63,18 +63,39 @@
       ]
     }
   ],
-  "notes": "COMPOUND: ⟦{代表|だいひょう}→代表：03419_daihyou⟧ (representation) + ⟦{者|しゃ}→〜者：04662_sha⟧ (person)\n\nSIMILAR TERMS:\n- ⟦{代表|だいひょう}→代表：03419_daihyou⟧ (representation, representative - can be noun or する verb)\n- ⟦{代理人|だいりにん}→代理人：18508_dairinin⟧ (agent, proxy)\n- ⟦{委員|いいん}→委員：01708_iin⟧ (committee member)\n- ⟦{議員|ぎいん}→議員：02660_giin⟧ (assembly member, legislator)\n\nUSAGE:\n- {代表者|だいひょうしゃ}⟦を→を：00422_wo⟧⟦{選|えら}ぶ→選ぶ：00835_erabu⟧ (choose a representative)\n- {代表者|だいひょうしゃ}⟦として→として：06802_toshite⟧ (as a representative)\n- {代表者|だいひょうしゃ}⟦{会議|かいぎ}→会議：00710_kaigi⟧ (representatives' meeting)",
+  "notes": "COMPOUND: ⟦{代表|だいひょう}→代表：03419_daihyou⟧ (representation) + ⟦{者|しゃ}→〜者：04662_sha⟧ (person)\n\nSIMILAR WORDS:\n- ⟦{代表|だいひょう}→代表：03419_daihyou⟧ (representation, representative - can be noun or ⟦する→する：00392_suru⟧ verb)\n- ⟦{代理人|だいりにん}→代理人：18508_dairinin⟧ (agent, proxy)\n- ⟦{委員|いいん}→委員：01708_iin⟧ (committee member)\n- ⟦{議員|ぎいん}→議員：02660_giin⟧ (assembly member, legislator)\n\nUSAGE:\n- {代表者|だいひょうしゃ}⟦を→を：00422_wo⟧⟦{選|えら}ぶ→選ぶ：00835_erabu⟧ (choose a representative)\n- {代表者|だいひょうしゃ}⟦として→として：06802_toshite⟧ (as a representative)\n- {代表者|だいひょうしゃ}⟦{会議|かいぎ}→会議：00710_kaigi⟧ (representatives' meeting)",
   "cross_references": [
     {
       "type": "related",
       "reading": "だいひょう",
       "headword": "{代表|だいひょう}",
       "target_id": "03419_daihyou"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18508_dairinin",
+      "reading": "だいりにん",
+      "headword": "{代理人|だいりにん}",
+      "label": "agent, proxy"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01708_iin",
+      "reading": "いいん",
+      "headword": "{委員|いいん}",
+      "label": "committee member"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02660_giin",
+      "reading": "ぎいん",
+      "headword": "{議員|ぎいん}",
+      "label": "assembly member, legislator"
     }
   ],
   "metadata": {
     "created": "2026-01-11T12:32:16Z",
-    "modified": "2026-05-23T21:12:46Z",
+    "modified": "2026-09-02T04:01:02Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

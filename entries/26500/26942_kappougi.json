@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26942_kappougi_ex1",
-      "japanese": "{割烹着|かっぽうぎ}を{着|き}て{料理|りょうり}する。",
+      "japanese": "{割烹着|かっぽうぎ}⟦を→を：00422_wo⟧⟦{着|き}て→着る：00541_kiru⟧⟦{料理|りょうり}→料理：01523_ryouri⟧⟦する→する：00392_suru⟧。",
       "english": "I cook wearing a cooking smock.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26942_kappougi_ex2",
-      "japanese": "{祖母|そぼ}はいつも{白|しろ}い{割烹着|かっぽうぎ}を{身|み}につけていた。",
+      "japanese": "⟦{祖母|そぼ}→祖母：00813_sobo⟧⟦は→は：00079_ha⟧⟦いつも→いつも：00599_itsumo⟧⟦{白|しろ}い→白い：00587_shiroi⟧{割烹着|かっぽうぎ}⟦を→を：00422_wo⟧⟦{身|み}→身：01764_mi⟧につけていた。",
       "english": "My grandmother always wore a white cooking smock.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26942_kappougi_ex3",
-      "japanese": "{割烹着|かっぽうぎ}は{袖|そで}まで{覆|おお}うので、{服|ふく}が{汚|よご}れる{心配|しんぱい}がない。",
+      "japanese": "{割烹着|かっぽうぎ}⟦は→は：00079_ha⟧⟦{袖|そで}→袖：02217_sode⟧⟦まで→まで：00490_made⟧⟦{覆|おお}う→覆う：02020_oou⟧⟦の→の：09472_no⟧で、⟦{服|ふく}→服：00695_fuku⟧⟦が→が：00051_ga⟧⟦{汚|よご}れる→汚れる：01293_yogoreru⟧⟦{心配|しんぱい}→心配：00811_shinpai⟧⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧。",
       "english": "A cooking smock covers all the way to the sleeves, so there's no worry about getting your clothes dirty.",
       "sense_numbers": [
         1
@@ -44,8 +44,23 @@
       "notes": null
     }
   ],
-  "notes": "A full-coverage garment with sleeves, traditionally white, worn over a kimono or regular clothing while cooking or cleaning. Distinguished from a standard apron (エプロン) by having sleeves and wrapping around the entire upper body.\n\nCOMMON COLLOCATIONS:\n- {割烹着|かっぽうぎ}を{着|き}る: to put on a cooking smock\n- {割烹着|かっぽうぎ}を{脱|ぬ}ぐ: to take off a cooking smock\n- {白|しろ}い{割烹着|かっぽうぎ}: white cooking smock\n\nCULTURAL NOTE:\nStrongly associated with the image of a traditional Japanese homemaker or grandmother. The garment became iconic when {割烹着|かっぽうぎ} was adopted as the uniform of women's volunteer organizations during and after WWII. Today it is less commonly worn in everyday life but remains culturally recognizable.\n\nSIMILAR WORDS:\n- エプロン: apron — Western-style, typically covers only the front and has no sleeves",
-  "cross_references": [],
+  "notes": "A full-coverage garment with sleeves, traditionally white, worn over a kimono or regular clothing while cooking or cleaning. Distinguished from a standard apron (⟦エプロン→エプロン：10725_epuron⟧) by having sleeves and wrapping around the entire upper body.\n\nCOMMON COLLOCATIONS:\n- {割烹着|かっぽうぎ}⟦を→を：00422_wo⟧⟦{着|き}る→着る：00541_kiru⟧: to put on a cooking smock\n- {割烹着|かっぽうぎ}⟦を→を：00422_wo⟧⟦{脱|ぬ}ぐ→脱ぐ：00518_nugu⟧: to take off a cooking smock\n- ⟦{白|しろ}い→白い：00587_shiroi⟧{割烹着|かっぽうぎ}: white cooking smock\n\nCULTURAL NOTE:\nStrongly associated with the image of a traditional Japanese homemaker or grandmother. The garment became iconic when {割烹着|かっぽうぎ} was adopted as the uniform of women's volunteer organizations during and after WWII. Today it is less commonly worn in everyday life but remains culturally recognizable.\n\nSIMILAR WORDS:\n- ⟦エプロン→エプロン：10725_epuron⟧: apron — Western-style, typically covers only the front and has no sleeves",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "10725_epuron",
+      "reading": "えぷろん",
+      "headword": "エプロン",
+      "label": "apron"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23128_maekake",
+      "reading": "まえかけ",
+      "headword": "{前掛|まえか}け",
+      "label": "apron (traditional Japanese style)"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -61,6 +76,6 @@
       "domain": []
     },
     "created": "2026-05-06T11:06:00Z",
-    "modified": "2026-05-06T11:06:00Z"
+    "modified": "2026-09-02T04:02:28Z"
   }
 }

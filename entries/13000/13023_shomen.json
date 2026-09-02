@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "13023_shomen_ex1",
-      "japanese": "{書面|しょめん}で{回答|かいとう}する。",
+      "japanese": "{書面|しょめん}⟦で→で：00502_de⟧⟦{回答|かいとう}する→回答する：18400_kaitousuru⟧。",
       "english": "To respond in writing.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13023_shomen_ex2",
-      "japanese": "{契約|けいやく}は{書面|しょめん}で{交|か}わす{必要|ひつよう}がある。",
+      "japanese": "⟦{契約|けいやく}→契約：02698_keiyaku⟧⟦は→は：00079_ha⟧{書面|しょめん}⟦で→で：00502_de⟧⟦{交|か}わす→交わす：19373_kawasu⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "Contracts need to be exchanged in writing.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13023_shomen_ex3",
-      "japanese": "{申|もう}し{込|こ}みの{際|さい}には{必|かなら}ず{書面|しょめん}による{同意|どうい}を{得|え}てください。",
+      "japanese": "⟦{申|もう}し{込|こ}み→申し込み：03161_moushikomi⟧⟦の→の：09472_no⟧⟦{際|さい}→際：02819_sai⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{必|かなら}ず→必ず：01249_kanarazu⟧{書面|しょめん}⟦による→による：28349_niyoru⟧⟦{同意|どうい}→同意：05092_doui⟧⟦を→を：00422_wo⟧⟦{得|え}て→得る：02014_eru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "When applying, please be sure to obtain written consent.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nA formal term used in legal, business, and official contexts. The key pattern {書面|しょめん}で means 'in writing' and contrasts with {口頭|こうとう}で (orally). Also used as a modifier: {書面|しょめん}による (by means of writing).\n\nCOMMON COLLOCATIONS:\n- {書面|しょめん}で{通知|つうち}する: to notify in writing\n- {書面|しょめん}による{同意|どうい}: written consent\n- {書面|しょめん}による{申請|しんせい}: written application\n- {書面|しょめん}を{提出|ていしゅつ}する: to submit a document",
+  "notes": "USAGE:\nA formal term used in legal, business, and official contexts. The key pattern {書面|しょめん}⟦で→で：00502_de⟧ means 'in writing' and contrasts with ⟦{口頭|こうとう}→口頭：11892_koutou⟧⟦で→で：00502_de⟧ (orally). Also used as a modifier: {書面|しょめん}⟦による→による：28349_niyoru⟧ (by means of writing).\n\nCOMMON COLLOCATIONS:\n- {書面|しょめん}⟦で→で：00502_de⟧⟦{通知|つうち}する→通知する：19645_tsuuchisuru⟧: to notify in writing\n- {書面|しょめん}⟦による→による：28349_niyoru⟧⟦{同意|どうい}→同意：05092_doui⟧: written consent\n- {書面|しょめん}⟦による→による：28349_niyoru⟧⟦{申請|しんせい}→申請：04207_shinsei⟧: written application\n- {書面|しょめん}⟦を→を：00422_wo⟧⟦{提出|ていしゅつ}する→提出する：19644_teishutsusuru⟧: to submit a document",
   "cross_references": [
     {
       "type": "antonym",
@@ -50,16 +56,25 @@
   ],
   "metadata": {
     "created": "2026-02-23T06:33:14Z",
-    "modified": "2026-04-28T04:13:10Z",
+    "modified": "2026-09-02T04:01:31Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "style": ["written"],
-      "domain": ["legal", "business"],
-      "semantic": ["communication"]
+      "style": [
+        "written"
+      ],
+      "domain": [
+        "legal",
+        "business"
+      ],
+      "semantic": [
+        "communication"
+      ]
     }
   }
 }

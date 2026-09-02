@@ -15,41 +15,60 @@
   "examples": [
     {
       "id": "27802_hosobosoto_ex1",
-      "japanese": "{細々|ほそぼそ}と{暮|く}らす。",
+      "japanese": "{細々|ほそぼそ}と⟦{暮|く}らす→暮らす：01937_kurasu⟧。",
       "english": "To live modestly.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27802_hosobosoto_ex2",
-      "japanese": "{店|みせ}を{細々|ほそぼそ}と{続|つづ}けている。",
+      "japanese": "⟦{店|みせ}→店：00497_mise⟧⟦を→を：00422_wo⟧{細々|ほそぼそ}と⟦{続|つづ}け→続く：00903_tsuzuku⟧て⟦いる→いる：00495_iru⟧。",
       "english": "We keep the shop going, just barely.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27802_hosobosoto_ex3",
-      "japanese": "{年金|ねんきん}だけで{細々|ほそぼそ}と{生活|せいかつ}している。",
+      "japanese": "⟦{年金|ねんきん}→年金：04695_nenkin⟧⟦だけ→〜だけ：03093_dake⟧⟦で→で：00502_de⟧{細々|ほそぼそ}と⟦{生活|せいかつ}している→生活する：01839_seikatsusuru⟧。",
       "english": "They scrape by on their pension alone.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Describes something continuing only on a small, barely-sustained scale. Often paired with {続|つづ}ける, {暮|く}らす, or {生活|せいかつ}する.\n\nNote the reading: as an adverb of 'barely' it is ほそぼそと; the same characters read こまごまと mean 'in fine detail.'\n\nCOMMON COLLOCATIONS:\n- {細々|ほそぼそ}と{暮|く}らす: to live a modest, hand-to-mouth life\n- {細々|ほそぼそ}と{続|つづ}ける: to keep something going on a small scale\n\nSIMILAR WORDS:\n- かろうじて: barely; only just — emphasizes a narrow margin, not an ongoing modest scale\n- つつましく: modestly; frugally — a positive nuance of restraint",
+  "notes": "Describes something continuing only on a small, barely-sustained scale. Often paired with ⟦{続|つづ}ける→続く：00903_tsuzuku⟧, ⟦{暮|く}らす→暮らす：01937_kurasu⟧, or ⟦{生活|せいかつ}する→生活する：01839_seikatsusuru⟧.\n\nNote the reading: as an adverb of 'barely' it is ほそぼそ⟦と→と：00512_to⟧; the same characters read こまごま⟦と→と：00512_to⟧ mean 'in fine detail.'\n\nCOMMON COLLOCATIONS:\n- {細々|ほそぼそ}と⟦{暮|く}らす→暮らす：01937_kurasu⟧: to live a modest, hand-to-mouth life\n- {細々|ほそぼそ}と⟦{続|つづ}ける→続く：00903_tsuzuku⟧: to keep something going on a small scale\n\nSIMILAR WORDS:\n- かろうじて: barely; only just — emphasizes a narrow margin, not an ongoing modest scale\n- つつましく: modestly; frugally — a positive nuance of restraint",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05721_karoujite",
+      "reading": "かろうじて",
+      "headword": "{辛|かろ}うじて",
+      "label": "barely"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adverb"],
+      "pos": [
+        "adverb"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["descriptive"],
+      "politeness": "plain",
+      "semantic": [
+        "descriptive"
+      ],
       "domain": []
     },
     "created": "2026-05-19T03:07:48Z",
-    "modified": "2026-05-19T03:07:48Z"
+    "modified": "2026-09-02T04:02:31Z"
   }
 }

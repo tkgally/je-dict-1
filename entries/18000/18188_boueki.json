@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "18188_boueki_ex1",
-      "japanese": "{防疫|ぼうえき}{対策|たいさく}が{強化|きょうか}された。",
+      "japanese": "{防疫|ぼうえき}⟦{対策|たいさく}→対策：02511_taisaku⟧⟦が→が：00051_ga⟧⟦{強化|きょうか}→強化：00260_kyouka⟧⟦された→する：00392_suru⟧。",
       "english": "Disease prevention measures were strengthened.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18188_boueki_ex2",
-      "japanese": "{空港|くうこう}での{防疫|ぼうえき}{体制|たいせい}が{見直|みなお}されている。",
+      "japanese": "⟦{空港|くうこう}→空港：00648_kuukou⟧⟦で→で：00502_de⟧⟦の→の：09472_no⟧{防疫|ぼうえき}⟦{体制|たいせい}→体制：04490_taisei⟧⟦が→が：00051_ga⟧⟦{見直|みなお}されている→見直す：04579_minaosu⟧。",
       "english": "The quarantine system at airports is being reviewed.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18188_boueki_ex3",
-      "japanese": "{鳥|とり}インフルエンザが{発生|はっせい}した{地域|ちいき}では、{防疫|ぼうえき}{作業|さぎょう}として{鶏|にわとり}の{殺処分|さつしょぶん}が{行|おこな}われた。",
+      "japanese": "⟦{鳥|とり}→鳥：00679_tori⟧⟦インフルエンザ→インフルエンザ：05384_infuruenza⟧⟦が→が：00051_ga⟧⟦{発生|はっせい}した→発生する：25529_hasseisuru⟧⟦{地域|ちいき}→地域：01461_chiiki⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧、{防疫|ぼうえき}⟦{作業|さぎょう}→作業：02775_sagyou⟧⟦として→として：06802_toshite⟧⟦{鶏|にわとり}→鶏：05202_niwatori⟧⟦の→の：09472_no⟧{殺処分|さつしょぶん}⟦が→が：00051_ga⟧⟦{行|おこな}われた→行う：01238_okonau⟧。",
       "english": "In the area where bird flu broke out, chickens were culled as part of disease control operations.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "CAUTION:\nDo not confuse with the homophone {貿易|ぼうえき} (trade/commerce). Both are read ぼうえき but written with different kanji and have completely unrelated meanings.\n\nUSAGE:\nA technical term that became much more familiar to the general public during the COVID-19 pandemic. Commonly seen in news about infectious disease outbreaks, animal diseases (bird flu, foot-and-mouth disease), and border control measures.\n\nCOMMON COLLOCATIONS:\n- {防疫|ぼうえき}{対策|たいさく} (disease prevention measures)\n- {防疫|ぼうえき}{体制|たいせい} (disease control system)\n- {防疫|ぼうえき}{作業|さぎょう} (quarantine/disease control operations)",
+  "notes": "WATCH OUT:\nDo not confuse with the homophone ⟦{貿易|ぼうえき}→貿易：01727_boueki⟧ (trade/commerce). Both are read ぼうえき but written with different kanji and have completely unrelated meanings.\n\nUSAGE:\nA technical term that became much more familiar to the general public during the COVID-19 pandemic. Commonly seen in news about infectious disease outbreaks, animal diseases (bird flu, foot-and-mouth disease), and border control measures.\n\nCOMMON COLLOCATIONS:\n- {防疫|ぼうえき}⟦{対策|たいさく}→対策：02511_taisaku⟧ (disease prevention measures)\n- {防疫|ぼうえき}⟦{体制|たいせい}→体制：04490_taisei⟧ (disease control system)\n- {防疫|ぼうえき}⟦{作業|さぎょう}→作業：02775_sagyou⟧ (quarantine/disease control operations)",
   "cross_references": [
     {
       "type": "homophone",
@@ -49,15 +55,21 @@
   ],
   "metadata": {
     "created": "2026-03-20T09:05:57Z",
-    "modified": "2026-03-20T09:05:57Z",
+    "modified": "2026-09-02T04:01:51Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["medical"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "medical"
+      ]
     }
   }
 }

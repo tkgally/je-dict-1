@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "18209_bakurosuru_ex1",
-      "japanese": "{不正|ふせい}が{暴露|ばくろ}された。",
+      "japanese": "⟦{不正|ふせい}→不正：01660_fusei⟧⟦が→が：00051_ga⟧{暴露|ばくろ}された。",
       "english": "The wrongdoing was exposed.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "18209_bakurosuru_ex2",
-      "japanese": "{元社員|もとしゃいん}が{会社|かいしゃ}の{内部|ないぶ}{情報|じょうほう}を{暴露|ばくろ}した。",
+      "japanese": "{元社員|もとしゃいん}⟦が→が：00051_ga⟧⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦の→の：09472_no⟧⟦{内部|ないぶ}{情報|じょうほう}→内部情報：27190_naibujouhou⟧⟦を→を：00422_wo⟧{暴露|ばくろ}した。",
       "english": "A former employee exposed the company's internal information.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "18209_bakurosuru_ex3",
-      "japanese": "ネットで{有名人|ゆうめいじん}の{私生活|しせいかつ}が{暴露|ばくろ}されることが{増|ふ}えている。",
+      "japanese": "⟦ネット→ネット：05279_netto⟧⟦で→で：00502_de⟧⟦{有名人|ゆうめいじん}→有名人：17812_yuumeijin⟧⟦の→の：09472_no⟧⟦{私生活|しせいかつ}→私生活：15112_shiseikatsu⟧⟦が→が：00051_ga⟧{暴露|ばくろ}されること⟦が→が：00051_ga⟧⟦{増|ふ}えている→増える：01183_fueru⟧。",
       "english": "Cases of celebrities' private lives being exposed online are increasing.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nAlso used as a noun: {暴露|ばくろ} (exposure, revelation). The compound {暴露|ばくろ}{本|ぼん} (exposé book) is a common collocation. Carries a stronger, more dramatic tone than {明|あ}かす or {公開|こうかい}する.\n\nCOMMON COLLOCATIONS:\n- {秘密|ひみつ}を{暴露|ばくろ}する (to expose a secret)\n- {不正|ふせい}を{暴露|ばくろ}する (to expose wrongdoing)\n- {暴露|ばくろ}{本|ぼん} (exposé; tell-all book)\n- {暴露|ばくろ}{記事|きじ} (exposé article)\n\nSIMILAR WORDS:\n- {明|あ}かす: to reveal, to disclose — more neutral; can be used for personal confessions\n- {告発|こくはつ}する: to accuse, to report — focuses on formally reporting wrongdoing, often to authorities",
+  "notes": "USAGE:\nAlso used as a noun: ⟦{暴露|ばくろ}→暴露：07630_bakuro⟧ (exposure, revelation). The compound ⟦{暴露|ばくろ}→暴露：07630_bakuro⟧{本|ぼん} (exposé book) is a common collocation. Carries a stronger, more dramatic tone than ⟦{明|あ}かす→明かす：12961_akasu⟧ or ⟦{公開|こうかい}→公開：11665_koukai⟧⟦する→する：00392_suru⟧.\n\nCOMMON COLLOCATIONS:\n- ⟦{秘密|ひみつ}→秘密：02504_himitsu⟧⟦を→を：00422_wo⟧{暴露|ばくろ}する (to expose a secret)\n- ⟦{不正|ふせい}→不正：01660_fusei⟧⟦を→を：00422_wo⟧{暴露|ばくろ}する (to expose wrongdoing)\n- ⟦{暴露|ばくろ}→暴露：07630_bakuro⟧{本|ぼん} (exposé; tell-all book)\n- ⟦{暴露|ばくろ}→暴露：07630_bakuro⟧⟦{記事|きじ}→記事：00227_kiji⟧ (exposé article)\n\nSIMILAR WORDS:\n- ⟦{明|あ}かす→明かす：12961_akasu⟧: to reveal, to disclose — more neutral; can be used for personal confessions\n- ⟦{告発|こくはつ}→告発：07999_kokuhatsu⟧⟦する→する：00392_suru⟧: to accuse, to report — focuses on formally reporting wrongdoing, often to authorities",
   "cross_references": [
     {
       "type": "synonym",
@@ -142,11 +142,25 @@
       "reading": "こくはつ",
       "headword": "{告発|こくはつ}",
       "label": "accusation, formal reporting"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12961_akasu",
+      "reading": "あかす",
+      "headword": "{明|あ}かす",
+      "label": "to reveal, to disclose"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17187_roteisuru",
+      "reading": "ろていする",
+      "headword": "{露呈|ろてい}する",
+      "label": "to be exposed"
     }
   ],
   "metadata": {
     "created": "2026-03-20T12:18:01Z",
-    "modified": "2026-05-08T07:08:06Z",
+    "modified": "2026-09-02T04:01:51Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

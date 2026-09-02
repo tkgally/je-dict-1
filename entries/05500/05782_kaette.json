@@ -32,7 +32,7 @@
     },
     {
       "id": "05782_kaette_ex3",
-      "japanese": "⟦{休|やす}んだ→休む：00606_yasumu⟧のに{却|かえ}って⟦{疲|つか}れた→疲れる：00901_tsukareru⟧。",
+      "japanese": "⟦{休|やす}んだ→休む：00606_yasumu⟧⟦の→の：09472_no⟧⟦に→に：00314_ni⟧{却|かえ}って⟦{疲|つか}れた→疲れる：00901_tsukareru⟧。",
       "english": "Even though I rested, I ended up more tired.",
       "has_audio": false,
       "sense_numbers": [
@@ -41,7 +41,7 @@
     },
     {
       "id": "05782_kaette_ex4",
-      "japanese": "⟦{説明|せつめい}→説明：01449_setsumei⟧したら{却|かえ}って⟦{混乱|こんらん}→混乱：02811_konran⟧させて⟦しまった→しまう：03064_shimau⟧。",
+      "japanese": "⟦{説明|せつめい}→説明：01449_setsumei⟧⟦したら→する：00392_suru⟧{却|かえ}って⟦{混乱|こんらん}→混乱：02811_konran⟧⟦させて→する：00392_suru⟧⟦しまった→しまう：03064_shimau⟧。",
       "english": "When I tried to explain, I ended up confusing them even more.",
       "has_audio": false,
       "sense_numbers": [
@@ -58,10 +58,26 @@
       ]
     }
   ],
-  "notes": "USAGE PATTERN:\n{却|かえ}って is used when:\n1. An action produces the opposite of its intended effect\n2. Something unexpected happens that goes against common sense\n3. A simpler or different approach turns out better\n\nCOMMON PATTERNS:\n- 〜したら{却|かえ}って〜: when I did ~, it actually ~\n- 〜の⟦{方|ほう}→〜方：01139_hou⟧が{却|かえ}って〜: actually, ~ is more ~\n- {却|かえ}って⟦{悪|わる}く→悪い：00908_warui⟧⟦なる→なる：01970_naru⟧: to become worse instead\n\nSIMILAR EXPRESSIONS:\n- ⟦むしろ→むしろ：02364_mushiro⟧: rather (neutral comparison)\n- ⟦{逆|ぎゃく}→逆：02649_gyaku⟧に: on the contrary",
+  "notes": "COMMON PATTERNS:\n{却|かえ}って is used when:\n1. An action produces the opposite of its intended effect\n2. Something unexpected happens that goes against common sense\n3. A simpler or different approach turns out better\n- 〜⟦したら→する：00392_suru⟧{却|かえ}って〜: when I did ~, it actually ~\n- 〜⟦の→の：09472_no⟧⟦{方|ほう}→〜方：01139_hou⟧⟦が→が：00051_ga⟧{却|かえ}って〜: actually, ~ is more ~\n- {却|かえ}って⟦{悪|わる}く→悪い：00908_warui⟧⟦なる→なる：01970_naru⟧: to become worse instead\n\nSIMILAR WORDS:\n- ⟦むしろ→むしろ：02364_mushiro⟧: rather (neutral comparison)\n- ⟦{逆|ぎゃく}→逆：02649_gyaku⟧⟦に→に：00314_ni⟧: on the contrary",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02364_mushiro",
+      "reading": "むしろ",
+      "headword": "むしろ",
+      "label": "rather"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08269_gyakuni",
+      "reading": "ぎゃくに",
+      "headword": "{逆|ぎゃく}に",
+      "label": "on the contrary"
+    }
+  ],
   "metadata": {
     "created": "2026-01-16T09:47:24Z",
-    "modified": "2026-06-08T14:06:50Z",
+    "modified": "2026-09-02T04:01:07Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

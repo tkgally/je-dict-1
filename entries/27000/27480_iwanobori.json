@@ -15,41 +15,61 @@
   "examples": [
     {
       "id": "27480_iwanobori_ex1",
-      "japanese": "{岩登|いわのぼ}りに{挑戦|ちょうせん}した。",
+      "japanese": "{岩登|いわのぼ}り⟦に→に：00314_ni⟧⟦{挑戦|ちょうせん}した→挑戦する：21602_chousensuru⟧。",
       "english": "I tried rock climbing.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27480_iwanobori_ex2",
-      "japanese": "{岩登|いわのぼ}りにはロープが{欠|か}かせない。",
+      "japanese": "{岩登|いわのぼ}り⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦ロープ→ロープ：27860_roopu⟧⟦が→が：00051_ga⟧⟦{欠|か}かせない→欠かす：10138_kakasu⟧。",
       "english": "Rope is essential for rock climbing.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27480_iwanobori_ex3",
-      "japanese": "{初心者|しょしんしゃ}は、まずインドアの{岩登|いわのぼ}りから{始|はじ}めるのがいい。",
+      "japanese": "⟦{初心者|しょしんしゃ}→初心者：10149_shoshinsha⟧⟦は→は：00079_ha⟧、⟦まず→まず：00796_mazu⟧インドア⟦の→の：09472_no⟧{岩登|いわのぼ}り⟦から→から：00504_kara⟧{始|はじ}める⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧。",
       "english": "Beginners should start with indoor rock climbing first.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Compound of {岩|いわ} (rock) + {登|のぼ}り (climbing, the nominalized form of {登|のぼ}る).\n\nCOMMON COLLOCATIONS:\n- {岩登|いわのぼ}りをする: to do rock climbing\n- {岩登|いわのぼ}りに{挑戦|ちょうせん}する: to try rock climbing\n- {岩登|いわのぼ}りの{道具|どうぐ}: rock climbing gear\n\nSIMILAR WORDS:\n- ロッククライミング: rock climbing — the katakana borrowing, often used for the modern sport\n- {山登|やまのぼ}り: mountain climbing — broader, includes hiking and trekking, not just rock\n- ボルダリング: bouldering — climbing without ropes on shorter rocks",
+  "notes": "Compound of ⟦{岩|いわ}→岩：00850_iwa⟧ (rock) + {登|のぼ}り (climbing, the nominalized form of ⟦{登|のぼ}る→登る：00660_noboru⟧).\n\nCOMMON COLLOCATIONS:\n- {岩登|いわのぼ}り⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧: to do rock climbing\n- {岩登|いわのぼ}り⟦に→に：00314_ni⟧⟦{挑戦|ちょうせん}する→挑戦する：21602_chousensuru⟧: to try rock climbing\n- {岩登|いわのぼ}り⟦の→の：09472_no⟧⟦{道具|どうぐ}→道具：01479_dougu⟧: rock climbing gear\n\nSIMILAR WORDS:\n- ⟦ロック→ロック：08116_rokku⟧クライミング: rock climbing — the katakana borrowing, often used for the modern sport\n- ⟦{山登|やまのぼ}り→山登り：03170_yamanobori⟧: mountain climbing — broader, includes hiking and trekking, not just rock\n- ボルダリング: bouldering — climbing without ropes on shorter rocks",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03170_yamanobori",
+      "reading": "やまのぼり",
+      "headword": "{山登|やまのぼ}り",
+      "label": "mountain climbing"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["sports", "nature"],
+      "politeness": "plain",
+      "semantic": [
+        "sports",
+        "nature"
+      ],
       "domain": []
     },
     "created": "2026-05-12T23:52:28Z",
-    "modified": "2026-05-12T23:52:28Z"
+    "modified": "2026-09-02T04:02:30Z"
   }
 }

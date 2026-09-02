@@ -14,40 +14,67 @@
   "examples": [
     {
       "id": "21318_tozansha_ex1",
-      "japanese": "{登山者|とざんしゃ}が{増|ふ}えている。",
+      "japanese": "{登山者|とざんしゃ}⟦が→が：00051_ga⟧⟦{増|ふ}えている→増える：01183_fueru⟧。",
       "english": "The number of mountain climbers is increasing.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21318_tozansha_ex2",
-      "japanese": "{多|おお}くの{登山者|とざんしゃ}が{山頂|さんちょう}を{目指|めざ}した。",
+      "japanese": "{多|おお}く⟦の→の：09472_no⟧{登山者|とざんしゃ}⟦が→が：00051_ga⟧⟦{山頂|さんちょう}→山頂：09942_sanchou⟧⟦を→を：00422_wo⟧⟦{目指|めざ}した→目指す：10528_mezasu⟧。",
       "english": "Many climbers aimed for the summit.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21318_tozansha_ex3",
-      "japanese": "{悪天候|あくてんこう}のため、{登山者|とざんしゃ}は{下山|げざん}するよう{指示|しじ}された。",
+      "japanese": "⟦{悪天候|あくてんこう}→悪天候：16184_akutenkou⟧⟦の→の：09472_no⟧⟦ため→ため：01145_tame⟧、{登山者|とざんしゃ}⟦は→は：00079_ha⟧⟦{下山|げざん}→下山：11300_gezan⟧⟦する→する：00392_suru⟧よう⟦{指示|しじ}→指示：09674_shiji⟧⟦された→する：00392_suru⟧。",
       "english": "Due to bad weather, the climbers were instructed to descend.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Compound of {登山|とざん} (mountain climbing) + {者|しゃ} (person). A straightforward and common term used in news, signs at trailheads, and general conversation about mountain activities.\n\nCOMMON COLLOCATIONS:\n- {登山者|とざんしゃ}{向|む}け: aimed at climbers\n- {登山者|とざんしゃ}{数|すう}: number of climbers\n- {登山者|とざんしゃ}カード: climber registration card\n- {遭難|そうなん}した{登山者|とざんしゃ}: stranded climber\n\nRELATED TERMS:\n- {登山|とざん}: mountain climbing\n- {登山家|とざんか}: mountaineer (professional or serious enthusiast)\n- {山歩|やまある}き: mountain walking, hiking (more casual)",
+  "notes": "Compound of ⟦{登山|とざん}→登山：03457_tozan⟧ (mountain climbing) + ⟦{者|しゃ}→〜者：04662_sha⟧ (person). A straightforward and common term used in news, signs at trailheads, and general conversation about mountain activities.\n\nCOMMON COLLOCATIONS:\n- {登山者|とざんしゃ}{向|む}け: aimed at climbers\n- {登山者|とざんしゃ}⟦{数|すう}→数：03360_suu⟧: number of climbers\n- {登山者|とざんしゃ}⟦カード→カード：03836_kaado⟧: climber registration card\n- ⟦{遭難|そうなん}→遭難：09510_sounan⟧⟦した→する：00392_suru⟧{登山者|とざんしゃ}: stranded climber\n\nRELATED WORDS:\n- ⟦{登山|とざん}→登山：03457_tozan⟧: mountain climbing\n- {登山家|とざんか}: mountaineer (professional or serious enthusiast)\n- ⟦{山歩|やまある}き→山歩き：21614_yamaaruki⟧: mountain walking, hiking (more casual)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "21614_yamaaruki",
+      "reading": "やまあるき",
+      "headword": "{山歩|やまある}き",
+      "label": "mountain walking, hiking"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23744_haikaa",
+      "reading": "はいかー",
+      "headword": "ハイカー",
+      "label": "hiker"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["person", "sports"]
+      "semantic": [
+        "person",
+        "sports"
+      ]
     },
     "created": "2026-04-02T00:58:15Z",
-    "modified": "2026-04-02T00:58:15Z"
+    "modified": "2026-09-02T04:02:03Z"
   }
 }

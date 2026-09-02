@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "29339_teion_ex1",
-      "japanese": "{低温|ていおん}で{保存|ほぞん}する。",
+      "japanese": "{低温|ていおん}⟦で→で：00502_de⟧⟦{保存|ほぞん}→保存：03626_hozon⟧⟦する→する：00392_suru⟧。",
       "english": "Store at a low temperature.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29339_teion_ex2",
-      "japanese": "この{材料|ざいりょう}は{低温|ていおん}に{弱|よわ}い。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{材料|ざいりょう}→材料：02831_zairyou⟧⟦は→は：00079_ha⟧{低温|ていおん}⟦に→に：00314_ni⟧⟦{弱|よわ}い→弱い：00825_yowai⟧。",
       "english": "This material is vulnerable to low temperatures.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29339_teion_ex3",
-      "japanese": "{低温|ていおん}{調理|ちょうり}は、{肉|にく}を{柔|やわ}らかく{仕上|しあ}げるのに{向|む}いている。",
+      "japanese": "{低温|ていおん}⟦{調理|ちょうり}→調理：07156_chouri⟧⟦は→は：00079_ha⟧、⟦{肉|にく}→肉：02240_niku⟧⟦を→を：00422_wo⟧⟦{柔|やわ}らかく→柔らかい：01096_yawarakai⟧⟦{仕上|しあ}げる→仕上げる：04664_shiageru⟧⟦の→の：09472_no⟧⟦に→に：00314_ni⟧⟦{向|む}いている→向く：02304_muku⟧。",
       "english": "Low-temperature cooking is well suited to making meat tender.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "The antonym of {高温|こうおん} (high temperature). Frequent in food storage, scientific, and weather contexts.\n\nCOMMON COLLOCATIONS:\n- {低温|ていおん}{保存|ほぞん}: low-temperature storage\n- {低温|ていおん}{調理|ちょうり}: low-temperature (sous-vide) cooking\n- {低温|ていおん}{注意|ちゅうい}: caution against low temperatures\n\nSIMILAR WORDS:\n- {高温|こうおん}: high temperature — the direct antonym\n- {冷|つめ}たい: cold — an adjective describing things that feel cold to the touch",
+  "notes": "The antonym of ⟦{高温|こうおん}→高温：14705_kouon⟧ (high temperature). Frequent in food storage, scientific, and weather contexts.\n\nCOMMON COLLOCATIONS:\n- {低温|ていおん}⟦{保存|ほぞん}→保存：03626_hozon⟧: low-temperature storage\n- {低温|ていおん}⟦{調理|ちょうり}→調理：07156_chouri⟧: low-temperature (sous-vide) cooking\n- {低温|ていおん}⟦{注意|ちゅうい}→注意：01464_chuui⟧: caution against low temperatures\n\nSIMILAR WORDS:\n- ⟦{高温|こうおん}→高温：14705_kouon⟧: high temperature — the direct antonym\n- ⟦{冷|つめ}たい→冷たい：00681_tsumetai⟧: cold — an adjective describing things that feel cold to the touch",
   "cross_references": [
     {
       "type": "antonym",
@@ -46,18 +52,43 @@
       "reading": "こうおん",
       "headword": "{高温|こうおん}",
       "label": "high temperature"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00681_tsumetai",
+      "reading": "つめたい",
+      "headword": "{冷|つめ}たい",
+      "label": "cold"
+    },
+    {
+      "type": "homophone",
+      "target_id": "18282_teion",
+      "reading": "ていおん",
+      "headword": "{低音|ていおん}",
+      "label": "bass"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26628_reion",
+      "reading": "れいおん",
+      "headword": "{冷温|れいおん}",
+      "label": "cold and warm"
     }
   ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["weather"],
+      "semantic": [
+        "weather"
+      ],
       "domain": []
     },
     "created": "2026-06-19T07:33:25Z",
-    "modified": "2026-06-19T07:33:25Z"
+    "modified": "2026-09-02T04:02:36Z"
   }
 }

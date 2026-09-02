@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "SIMILAR WORDS:\n・{父親|ちちおや}: Formal, objective term for 'father' used when discussing fathers in general or describing family relationships\n・⟦{父|ちち}→父：00566_chichi⟧: Humble term used to refer to one's own father when speaking to others\n・⟦お{父|とう}さん→お父さん：02855_otousan⟧: Polite/familiar term used to address one's father or refer to someone else's father\n・⟦パパ→パパ：01788_papa⟧: Casual, childish term for 'daddy'\n\nCOMMON PATTERNS:\n・{父親|ちちおや}⟦として→として：06802_toshite⟧ (as a father)\n・{父親|ちちおや}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧ (to become a father)\n・{父親|ちちおや}⟦らしい→らしい：09502_rashii⟧ (fatherly)",
+  "notes": "SIMILAR WORDS:\n- {父親|ちちおや}: Formal, objective term for 'father' used when discussing fathers in general or describing family relationships\n- ⟦{父|ちち}→父：00566_chichi⟧: Humble term used to refer to one's own father when speaking to others\n- ⟦お{父|とう}さん→お父さん：02855_otousan⟧: Polite/familiar term used to address one's father or refer to someone else's father\n- ⟦パパ→パパ：01788_papa⟧: Casual, childish term for 'daddy'\n\nCOMMON PATTERNS:\n- {父親|ちちおや}⟦として→として：06802_toshite⟧ (as a father)\n- {父親|ちちおや}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧ (to become a father)\n- {父親|ちちおや}⟦らしい→らしい：09502_rashii⟧ (fatherly)",
   "cross_references": [
     {
       "type": "antonym",
@@ -78,11 +78,46 @@
       "headword": "{父|ちち}",
       "label": "father (humble)",
       "target_id": "00566_chichi"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02855_otousan",
+      "reading": "おとうさん",
+      "headword": "お{父|とう}さん",
+      "label": "Polite/familiar term used to address…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01788_papa",
+      "reading": "ぱぱ",
+      "headword": "パパ",
+      "label": "Casual, childish term for 'daddy'"
+    },
+    {
+      "type": "related",
+      "target_id": "00806_ryoushin",
+      "reading": "りょうしん",
+      "headword": "{両親|りょうしん}",
+      "label": "parents"
+    },
+    {
+      "type": "related",
+      "target_id": "10249_oyaji",
+      "reading": "おやじ",
+      "headword": "おやじ",
+      "label": "father, old man"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29341_fusei",
+      "reading": "ふせい",
+      "headword": "{父性|ふせい}",
+      "label": "paternal instinct"
     }
   ],
   "metadata": {
     "created": "2026-01-12T09:17:00Z",
-    "modified": "2026-06-12T18:22:23Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "schema_version": "2.0",

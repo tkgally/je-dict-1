@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08045_sodaigomi_ex1",
-      "japanese": "{古|ふる}いソファを{粗大|そだい}ゴミに{出|だ}した。",
+      "japanese": "⟦{古|ふる}い→古い：00488_furui⟧⟦ソファ→ソファ：04485_sofa⟧⟦を→を：00422_wo⟧{粗大|そだい}ゴミ⟦に→に：00314_ni⟧⟦{出|だ}した→出す：01087_dasu⟧。",
       "english": "I disposed of the old sofa as bulky waste.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "08045_sodaigomi_ex2",
-      "japanese": "{粗大|そだい}ゴミは{予約|よやく}が{必要|ひつよう}だ。",
+      "japanese": "{粗大|そだい}ゴミ⟦は→は：00079_ha⟧⟦{予約|よやく}→予約：01522_yoyaku⟧⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧だ。",
       "english": "You need to make a reservation for bulky waste pickup.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "08045_sodaigomi_ex3",
-      "japanese": "{粗大|そだい}ゴミの{回収|かいしゅう}は{有料|ゆうりょう}です。",
+      "japanese": "{粗大|そだい}ゴミ⟦の→の：09472_no⟧⟦{回収|かいしゅう}→回収：03019_kaishuu⟧⟦は→は：00079_ha⟧⟦{有料|ゆうりょう}→有料：03178_yuuryou⟧です。",
       "english": "There is a fee for bulky garbage collection.",
       "sense_numbers": [
         1
@@ -43,7 +43,7 @@
       "notes": null
     }
   ],
-  "notes": "DISPOSAL PROCESS:\nIn Japan, bulky garbage typically requires:\n1. Advance reservation ({予約|よやく})\n2. Purchase of disposal tickets ({粗大|そだい}ゴミシール or {処理券|しょりけん})\n3. Placement at designated location on specified date\n\nEXAMPLES OF BULKY WASTE:\n- {家具|かぐ} (furniture)\n- {布団|ふとん} (futon)\n- {自転車|じてんしゃ} (bicycle)\n- {家電|かでん} (certain appliances)\n\nNOTE:\nSome appliances ({冷蔵庫|れいぞうこ}, {洗濯機|せんたくき}, エアコン, テレビ) require special disposal under the {家電|かでん}リサイクル{法|ほう} (Appliance Recycling Law).",
+  "notes": "DISPOSAL PROCESS:\nIn Japan, bulky garbage typically requires:\n1. Advance reservation (⟦{予約|よやく}→予約：01522_yoyaku⟧)\n2. Purchase of disposal tickets ({粗大|そだい}ゴミ⟦シール→シール：09597_shiiru⟧ or {処理券|しょりけん})\n3. Placement at designated location on specified date\n\nEXAMPLES OF BULKY WASTE:\n- ⟦{家具|かぐ}→家具：12314_kagu⟧ (furniture)\n- ⟦{布団|ふとん}→布団：01720_futon⟧ (futon)\n- ⟦{自転車|じてんしゃ}→自転車：00633_jitensha⟧ (bicycle)\n- ⟦{家電|かでん}→家電：04966_kaden⟧ (certain appliances)\n\nUSAGE:\nSome appliances (⟦{冷蔵庫|れいぞうこ}→冷蔵庫：01046_reizouko⟧, ⟦{洗濯機|せんたくき}→洗濯機：04969_sentakuki⟧, ⟦エアコン→エアコン：05282_eakon⟧, ⟦テレビ→テレビ：01536_terebi⟧) require special disposal under the ⟦{家電|かでん}→家電：04966_kaden⟧⟦リサイクル→リサイクル：04624_risaikuru⟧⟦{法|ほう}→法：13620_hou⟧ (Appliance Recycling Law).",
   "cross_references": [
     {
       "type": "contrast",
@@ -51,6 +51,27 @@
       "headword": "{生|なま}ゴミ",
       "label": "food waste; kitchen waste",
       "target_id": "08044_namagomi"
+    },
+    {
+      "type": "related",
+      "target_id": "03146_fuyouhin",
+      "reading": "ふようひん",
+      "headword": "{不用品|ふようひん}",
+      "label": "unwanted items, disused articles"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19230_funenbutsu",
+      "reading": "ふねんぶつ",
+      "headword": "{不燃物|ふねんぶつ}",
+      "label": "non-burnable waste"
+    },
+    {
+      "type": "related",
+      "target_id": "20482_haihin",
+      "reading": "はいひん",
+      "headword": "{廃品|はいひん}",
+      "label": "waste"
     }
   ],
   "metadata": {
@@ -60,12 +81,13 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "daily-life",
         "general"
       ]
     },
     "created": "2026-01-25T00:54:27Z",
-    "modified": "2026-08-11T09:37:41Z"
+    "modified": "2026-09-02T04:01:13Z"
   }
 }

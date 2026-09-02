@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "13299_hourei_ex1",
-      "japanese": "{法令|ほうれい}を{遵守|じゅんしゅ}する。",
+      "japanese": "{法令|ほうれい}⟦を→を：00422_wo⟧⟦{遵守|じゅんしゅ}する→遵守する：20157_junshusuru⟧。",
       "english": "To comply with laws and regulations.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13299_hourei_ex2",
-      "japanese": "{新|あたら}しい{法令|ほうれい}が{来月|らいげつ}から{施行|しこう}される。",
+      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧{法令|ほうれい}⟦が→が：00051_ga⟧⟦{来月|らいげつ}→来月：00744_raigetsu⟧⟦から→から：00504_kara⟧⟦{施行|しこう}→施行：06581_shikou⟧⟦される→する：00392_suru⟧。",
       "english": "A new ordinance will go into effect starting next month.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13299_hourei_ex3",
-      "japanese": "{関連|かんれん}{法令|ほうれい}をすべて{確認|かくにん}してから{手続|てつづ}きを{進|すす}めてください。",
+      "japanese": "⟦{関連|かんれん}→関連：00177_kanren⟧{法令|ほうれい}⟦を→を：00422_wo⟧すべて⟦{確認|かくにん}して→確認する：25332_kakuninsuru⟧⟦から→から：00504_kara⟧⟦{手続|てつづ}き→手続き：05453_tetsuzuki⟧⟦を→を：00422_wo⟧⟦{進|すす}めて→進める：01949_susumeru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please check all related laws and regulations before proceeding with the procedure.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nA formal, umbrella term covering all types of legal rules issued by government authorities. More inclusive than {法律|ほうりつ} (law enacted by the Diet), which refers specifically to statutes. {法令|ほうれい} includes statutes, orders, and regulations at all levels of government.\n\nCommonly seen in official documents, business compliance contexts, and news.\n\nCOMMON COLLOCATIONS:\n- {法令|ほうれい}{遵守|じゅんしゅ}: legal compliance\n- {法令|ほうれい}{違反|いはん}: violation of a law/regulation\n- {関連|かんれん}{法令|ほうれい}: related laws and regulations\n- {法令|ほうれい}を{改正|かいせい}する: to amend a law\n- {法令|ほうれい}に{基|もと}づく: based on law",
+  "notes": "USAGE:\nA formal, umbrella term covering all types of legal rules issued by government authorities. More inclusive than ⟦{法律|ほうりつ}→法律：01722_houritsu⟧ (law enacted by the Diet), which refers specifically to statutes. {法令|ほうれい} includes statutes, orders, and regulations at all levels of government.\n\nCommonly seen in official documents, business compliance contexts, and news.\n\nCOMMON COLLOCATIONS:\n- {法令|ほうれい}{遵守|じゅんしゅ}: legal compliance\n- {法令|ほうれい}⟦{違反|いはん}→違反：01824_ihan⟧: violation of a law/regulation\n- ⟦{関連|かんれん}→関連：00177_kanren⟧{法令|ほうれい}: related laws and regulations\n- {法令|ほうれい}⟦を→を：00422_wo⟧⟦{改正|かいせい}→改正：00446_kaisei⟧⟦する→する：00392_suru⟧: to amend a law\n- {法令|ほうれい}⟦に→に：00314_ni⟧⟦{基|もと}づく→基づく：02315_motozuku⟧: based on law",
   "cross_references": [
     {
       "type": "related",
@@ -46,19 +52,46 @@
       "reading": "ほうりつ",
       "headword": "{法律|ほうりつ}",
       "label": "law, statute"
+    },
+    {
+      "type": "related",
+      "target_id": "08255_jourei",
+      "reading": "じょうれい",
+      "headword": "{条例|じょうれい}",
+      "label": "ordinance"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16622_joubun",
+      "reading": "じょうぶん",
+      "headword": "{条文|じょうぶん}",
+      "label": "text of a law"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18119_kinrei",
+      "reading": "きんれい",
+      "headword": "{禁令|きんれい}",
+      "label": "prohibition"
     }
   ],
   "metadata": {
     "created": "2026-02-24T08:59:10Z",
-    "modified": "2026-04-28T08:04:59Z",
+    "modified": "2026-09-02T04:01:32Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["legal"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "legal"
+      ]
     }
   }
 }

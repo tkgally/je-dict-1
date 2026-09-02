@@ -2,7 +2,7 @@
   "id": "11895_toro",
   "headword": "{吐露|とろ}",
   "reading": "とろ",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "disclosure, confession of feelings",
   "conjugation": {
     "type": "suru",
@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "11895_toro_ex1",
-      "japanese": "{本音|ほんね}を{吐露|とろ}する。",
+      "japanese": "⟦{本音|ほんね}→本音：06620_honne⟧⟦を→を：00422_wo⟧{吐露|とろ}⟦する→する：00392_suru⟧。",
       "english": "Reveal one's true feelings.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "11895_toro_ex2",
-      "japanese": "{彼|かれ}は{長年|ながねん}の{苦悩|くのう}を{友人|ゆうじん}に{吐露|とろ}した。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{長年|ながねん}→長年：09684_naganen⟧⟦の→の：09472_no⟧⟦{苦悩|くのう}→苦悩：05517_kunou⟧⟦を→を：00422_wo⟧⟦{友人|ゆうじん}→友人：03649_yuujin⟧⟦に→に：00314_ni⟧{吐露|とろ}⟦した→する：00392_suru⟧。",
       "english": "He confessed his years of anguish to a friend.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "11895_toro_ex3",
-      "japanese": "インタビューの{中|なか}で、{選手|せんしゅ}は{引退|いんたい}への{複雑|ふくざつ}な{思|おも}いを{吐露|とろ}した。",
+      "japanese": "⟦インタビュー→インタビュー：03833_intabyuu⟧⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧⟦で→で：00502_de⟧、⟦{選手|せんしゅ}→選手：03823_senshu⟧⟦は→は：00079_ha⟧⟦{引退|いんたい}→引退：01848_intai⟧⟦へ→へ：02473_he⟧⟦の→の：09472_no⟧⟦{複雑|ふくざつ}→複雑：01115_fukuzatsu⟧な⟦{思|おも}い→思い：10248_omoi⟧⟦を→を：00422_wo⟧{吐露|とろ}⟦した→する：00392_suru⟧。",
       "english": "During the interview, the athlete revealed their complicated feelings about retirement.",
       "notes": null,
       "has_audio": false,
@@ -133,11 +133,19 @@
       ]
     }
   ],
-  "notes": "COMMON COLLOCATIONS:\n・{本音|ほんね}を{吐露|とろ}する (reveal one's true feelings)\n・{心情|しんじょう}を{吐露|とろ}する (disclose one's emotions)\n・{胸|むね}の{内|うち}を{吐露|とろ}する (reveal what is in one's heart)\n・{不満|ふまん}を{吐露|とろ}する (express one's dissatisfaction)\n\nA literary and somewhat formal word. The object is always something emotional or personal — feelings, frustrations, innermost thoughts. Common in news reporting, interviews, and literary prose.",
-  "cross_references": [],
+  "notes": "COMMON COLLOCATIONS:\n- ⟦{本音|ほんね}→本音：06620_honne⟧⟦を→を：00422_wo⟧{吐露|とろ}⟦する→する：00392_suru⟧ (reveal one's true feelings)\n- ⟦{心情|しんじょう}→心情：12700_shinjou⟧⟦を→を：00422_wo⟧{吐露|とろ}⟦する→する：00392_suru⟧ (disclose one's emotions)\n- ⟦{胸|むね}の{内|うち}→胸の内：21532_munenouchi⟧⟦を→を：00422_wo⟧{吐露|とろ}⟦する→する：00392_suru⟧ (reveal what is in one's heart)\n- ⟦{不満|ふまん}→不満：02497_fuman⟧⟦を→を：00422_wo⟧{吐露|とろ}⟦する→する：00392_suru⟧ (express one's dissatisfaction)\n\nA literary and somewhat formal word. The object is always something emotional or personal — feelings, frustrations, innermost thoughts. Common in news reporting, interviews, and literary prose.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20596_kougai",
+      "reading": "こうがい",
+      "headword": "{口外|こうがい}",
+      "label": "disclosing"
+    }
+  ],
   "metadata": {
     "created": "2026-02-18T14:03:54Z",
-    "modified": "2026-07-03T09:29:09Z",
+    "modified": "2026-09-02T04:01:26Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
@@ -155,7 +163,8 @@
         "emotion",
         "communication"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

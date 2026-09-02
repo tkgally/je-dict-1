@@ -3,7 +3,7 @@
   "id": "17515_gyouten",
   "headword": "{仰天|ぎょうてん}",
   "reading": "ぎょうてん",
-  "part_of_speech": "noun / verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "astonishment; being astounded",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "17515_gyouten_ex1",
-      "japanese": "その{知|し}らせに{仰天|ぎょうてん}した。",
+      "japanese": "⟦その→その：00993_sono⟧⟦{知|し}らせ→知らせ：03252_shirase⟧⟦に→に：00314_ni⟧{仰天|ぎょうてん}⟦した→する：00392_suru⟧。",
       "english": "I was astounded by the news.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "17515_gyouten_ex2",
-      "japanese": "{彼|かれ}の{発言|はつげん}に{周|まわ}りの{人|ひと}は{仰天|ぎょうてん}した。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧⟦{発言|はつげん}→発言：05099_hatsugen⟧⟦に→に：00314_ni⟧⟦{周|まわ}り→周り：01732_mawari⟧⟦の→の：09472_no⟧⟦{人|ひと}→人：00476_hito⟧⟦は→は：00079_ha⟧{仰天|ぎょうてん}⟦した→する：00392_suru⟧。",
       "english": "The people around him were astounded by his remark.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "17515_gyouten_ex3",
-      "japanese": "{値段|ねだん}を{聞|き}いて{仰天|ぎょうてん}するほど{高|たか}かった。",
+      "japanese": "⟦{値段|ねだん}→値段：00871_nedan⟧⟦を→を：00422_wo⟧⟦{聞|き}いて→聞く：00483_kiku⟧{仰天|ぎょうてん}⟦する→する：00392_suru⟧ほど⟦{高|たか}かった→高い：00500_takai⟧。",
       "english": "The price was so high that I was shocked when I heard it.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nUsed as a noun or with する to express extreme surprise or shock. The word literally means \"looking up at the sky\" ({仰|あお}ぐ + {天|てん}), evoking the image of someone so startled they throw their head back. Often appears in the pattern {仰天|ぎょうてん}する or ～に{仰天|ぎょうてん}する.\n\nCOMMON COLLOCATIONS:\n- {仰天|ぎょうてん}する (to be astounded)\n- {仰天|ぎょうてん}ニュース (shocking news)\n- ～に{仰天|ぎょうてん}する (to be astounded at ~)\n\nSIMILAR WORDS:\n- {驚|おどろ}く: to be surprised — more general and milder\n- びっくりする: to be startled — more colloquial\n- {唖然|あぜん}とする: to be dumbfounded — emphasizes speechlessness",
+  "notes": "USAGE:\nUsed as a noun or with ⟦する→する：00392_suru⟧ to express extreme surprise or shock. The word literally means \"looking up at the sky\" (⟦{仰|あお}ぐ→仰ぐ：11454_aogu⟧ + ⟦{天|てん}→天：28464_ten⟧), evoking the image of someone so startled they throw their head back. Often appears in the pattern {仰天|ぎょうてん}⟦する→する：00392_suru⟧ or ～⟦に→に：00314_ni⟧{仰天|ぎょうてん}⟦する→する：00392_suru⟧.\n\nCOMMON COLLOCATIONS:\n- {仰天|ぎょうてん}⟦する→する：00392_suru⟧ (to be astounded)\n- {仰天|ぎょうてん}⟦ニュース→ニュース：04437_nyuusu⟧ (shocking news)\n- ～⟦に→に：00314_ni⟧{仰天|ぎょうてん}⟦する→する：00392_suru⟧ (to be astounded at ~)\n\nSIMILAR WORDS:\n- ⟦{驚|おどろ}く→驚く：01255_odoroku⟧: to be surprised — more general and milder\n- ⟦びっくりする→びっくりする：01178_bikkurisuru⟧: to be startled — more colloquial\n- ⟦{唖然|あぜん}→唖然：09404_azen⟧⟦と→と：00512_to⟧⟦する→する：00392_suru⟧: to be dumbfounded — emphasizes speechlessness",
   "cross_references": [
     {
       "type": "synonym",
@@ -142,11 +142,25 @@
       "reading": "おどろく",
       "headword": "{驚|おどろ}く",
       "label": "to be surprised (general)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01178_bikkurisuru",
+      "reading": "びっくりする",
+      "headword": "びっくりする",
+      "label": "to be startled"
+    },
+    {
+      "type": "related",
+      "target_id": "08685_kyougaku",
+      "reading": "きょうがく",
+      "headword": "{驚愕|きょうがく}",
+      "label": "astonishment"
     }
   ],
   "metadata": {
     "created": "2026-03-18T07:57:32Z",
-    "modified": "2026-05-06T08:07:18Z",
+    "modified": "2026-09-02T04:01:48Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -162,7 +176,8 @@
       "style": [
         "written"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22292_kaitekisa_ex1",
-      "japanese": "{快適|かいてき}さを{求|もと}める。",
+      "japanese": "{快適|かいてき}さ⟦を→を：00422_wo⟧⟦{求|もと}める→求める：02316_motomeru⟧。",
       "english": "To seek comfort.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22292_kaitekisa_ex2",
-      "japanese": "このホテルは{快適|かいてき}さで{知|し}られている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦ホテル→ホテル：01027_hoteru⟧⟦は→は：00079_ha⟧{快適|かいてき}さ⟦で→で：00502_de⟧⟦{知|し}られている→知る：00458_shiru⟧。",
       "english": "This hotel is known for its comfort.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22292_kaitekisa_ex3",
-      "japanese": "{機能性|きのうせい}と{快適|かいてき}さを{両立|りょうりつ}させたデザインが{人気|にんき}だ。",
+      "japanese": "⟦{機能性|きのうせい}→機能性：25513_kinousei⟧⟦と→と：00512_to⟧{快適|かいてき}さ⟦を→を：00422_wo⟧⟦{両立|りょうりつ}→両立：11310_ryouritsu⟧⟦させた→する：00392_suru⟧⟦デザイン→デザイン：03860_dezain⟧⟦が→が：00051_ga⟧⟦{人気|にんき}→人気：01488_ninki⟧だ。",
       "english": "Designs that achieve both functionality and comfort are popular.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "Nominalization of {快適|かいてき} (comfortable, pleasant) using the suffix さ. Commonly used when discussing the degree or quality of comfort in living spaces, vehicles, clothing, and services.\n\nCOMMON COLLOCATIONS:\n- {快適|かいてき}さを{追求|ついきゅう}する: to pursue comfort\n- {快適|かいてき}さを{重視|じゅうし}する: to place importance on comfort\n- {快適|かいてき}さと{利便性|りべんせい}: comfort and convenience\n- {快適|かいてき}さが{違|ちが}う: the comfort level is different\n\nSIMILAR WORDS:\n- {心地|ここち}よさ: pleasantness, agreeableness — more subjective and sensory; emphasizes how something feels\n- {居心地|いごこち}: comfort of a place — specifically about how comfortable a place is to be in\n- {便利|べんり}さ: convenience — practical usefulness rather than physical comfort",
+  "notes": "Nominalization of ⟦{快適|かいてき}→快適：00140_kaiteki⟧ (comfortable, pleasant) using the suffix さ. Commonly used when discussing the degree or quality of comfort in living spaces, vehicles, clothing, and services.\n\nCOMMON COLLOCATIONS:\n- {快適|かいてき}さ⟦を→を：00422_wo⟧⟦{追求|ついきゅう}→追求：14401_tsuikyuu⟧⟦する→する：00392_suru⟧: to pursue comfort\n- {快適|かいてき}さ⟦を→を：00422_wo⟧⟦{重視|じゅうし}する→重視する：26832_juushisuru⟧: to place importance on comfort\n- {快適|かいてき}さ⟦と→と：00512_to⟧⟦{利便性|りべんせい}→利便性：10681_ribensei⟧: comfort and convenience\n- {快適|かいてき}さ⟦が→が：00051_ga⟧⟦{違|ちが}う→違う：01957_chigau⟧: the comfort level is different\n\nSIMILAR WORDS:\n- {心地|ここち}よさ: pleasantness, agreeableness — more subjective and sensory; emphasizes how something feels\n- ⟦{居心地|いごこち}→居心地：06634_igokochi⟧: comfort of a place — specifically about how comfortable a place is to be in\n- ⟦{便利|べんり}→便利：00830_benri⟧さ: convenience — practical usefulness rather than physical comfort",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06634_igokochi",
+      "reading": "いごこち",
+      "headword": "{居心地|いごこち}",
+      "label": "comfort of a place"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +68,6 @@
       ]
     },
     "created": "2026-04-05T17:03:27Z",
-    "modified": "2026-04-10T08:28:27Z"
+    "modified": "2026-09-02T04:02:07Z"
   }
 }

@@ -15,42 +15,74 @@
   "examples": [
     {
       "id": "26903_rangai_ex1",
-      "japanese": "{欄外|らんがい}にメモを{書|か}く。",
+      "japanese": "{欄外|らんがい}⟦に→に：00314_ni⟧⟦メモ→メモ：00274_memo⟧⟦を→を：00422_wo⟧⟦{書|か}く→書く：00477_kaku⟧。",
       "english": "Write a note in the margin.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26903_rangai_ex2",
-      "japanese": "{注釈|ちゅうしゃく}は{欄外|らんがい}に{記載|きさい}されている。",
+      "japanese": "⟦{注釈|ちゅうしゃく}→注釈：09766_chuushaku⟧⟦は→は：00079_ha⟧{欄外|らんがい}⟦に→に：00314_ni⟧⟦{記載|きさい}→記載：14169_kisai⟧⟦されている→する：00392_suru⟧。",
       "english": "The annotations are printed in the margin.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26903_rangai_ex3",
-      "japanese": "{申請書|しんせいしょ}の{欄外|らんがい}に{補足|ほそく}{説明|せつめい}を{加|くわ}えた。",
+      "japanese": "⟦{申請書|しんせいしょ}→申請書：07486_shinseisho⟧⟦の→の：09472_no⟧{欄外|らんがい}⟦に→に：00314_ni⟧⟦{補足|ほそく}→補足：08386_hosoku⟧⟦{説明|せつめい}→説明：01449_setsumei⟧⟦を→を：00422_wo⟧⟦{加|くわ}えた→加える：01941_kuwaeru⟧。",
       "english": "I added a supplementary note in the margin of the application form.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {欄|らん} (column, field, section) and {外|がい} (outside). Refers to any space outside the designated text area or form fields on a printed page or document.\n\nCOMMON COLLOCATIONS:\n- {欄外|らんがい}に{記入|きにゅう}する: to write in the margin\n- {欄外|らんがい}{注|ちゅう}: marginal note, footnote\n- {欄外|らんがい}{参照|さんしょう}: marginal reference\n- {欄外|らんがい}メモ: margin note\n\nSIMILAR WORDS:\n- {余白|よはく}: blank space, margin — refers to the white/empty space itself, whereas {欄外|らんがい} emphasizes being \"outside the designated area\"\n- {脚注|きゃくちゅう}: footnote — a specific type of annotation at the bottom of a page\n- {注釈|ちゅうしゃく}: annotation, commentary — the content of notes, regardless of where they appear",
-  "cross_references": [],
+  "notes": "A compound of ⟦{欄|らん}→欄：03901_ran⟧ (column, field, section) and ⟦{外|がい}→外〜：03948_gai⟧ (outside). Refers to any space outside the designated text area or form fields on a printed page or document.\n\nCOMMON COLLOCATIONS:\n- {欄外|らんがい}⟦に→に：00314_ni⟧⟦{記入|きにゅう}→記入：02624_kinyuu⟧⟦する→する：00392_suru⟧: to write in the margin\n- {欄外|らんがい}{注|ちゅう}: marginal note, footnote\n- {欄外|らんがい}⟦{参照|さんしょう}→参照：11866_sanshou⟧: marginal reference\n- {欄外|らんがい}⟦メモ→メモ：00274_memo⟧: margin note\n\nSIMILAR WORDS:\n- ⟦{余白|よはく}→余白：06838_yohaku⟧: blank space, margin — refers to the white/empty space itself, whereas {欄外|らんがい} emphasizes being \"outside the designated area\"\n- ⟦{脚注|きゃくちゅう}→脚注：06423_kyakuchuu⟧: footnote — a specific type of annotation at the bottom of a page\n- ⟦{注釈|ちゅうしゃく}→注釈：09766_chuushaku⟧: annotation, commentary — the content of notes, regardless of where they appear",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06838_yohaku",
+      "reading": "よはく",
+      "headword": "{余白|よはく}",
+      "label": "blank space, margin"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06423_kyakuchuu",
+      "reading": "きゃくちゅう",
+      "headword": "{脚注|きゃくちゅう}",
+      "label": "footnote"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09766_chuushaku",
+      "reading": "ちゅうしゃく",
+      "headword": "{注釈|ちゅうしゃく}",
+      "label": "annotation, commentary"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
+      "semantic": [
+        "general"
+      ],
       "domain": []
     },
     "created": "2026-05-05T15:11:55Z",
-    "modified": "2026-05-05T15:11:55Z"
+    "modified": "2026-09-02T04:02:28Z"
   }
 }

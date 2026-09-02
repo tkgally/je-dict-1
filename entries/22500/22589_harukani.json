@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22589_harukani_ex1",
-      "japanese": "こちらのほうがはるかに{安|やす}い。",
+      "japanese": "⟦こちら→こちら：00960_kochira⟧⟦の→の：09472_no⟧ほう⟦が→が：00051_ga⟧はるかに⟦{安|やす}い→安い：00464_yasui⟧。",
       "english": "This one is far cheaper.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22589_harukani_ex2",
-      "japanese": "{今年|ことし}の{夏|なつ}は{去年|きょねん}よりはるかに{暑|あつ}い。",
+      "japanese": "⟦{今年|ことし}→今年：00722_kotoshi⟧⟦の→の：09472_no⟧⟦{夏|なつ}→夏：02236_natsu⟧⟦は→は：00079_ha⟧⟦{去年|きょねん}→去年：00727_kyonen⟧⟦より→より：09476_yori⟧はるかに⟦{暑|あつ}い→暑い：00619_atsui⟧。",
       "english": "This summer is much hotter than last year.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22589_harukani_ex3",
-      "japanese": "{実際|じっさい}にやってみると、{想像|そうぞう}していたよりはるかに{難|むずか}しかった。",
+      "japanese": "⟦{実際|じっさい}→実際：02502_jissai⟧⟦に→に：00314_ni⟧⟦やって→やる：02980_yaru⟧みる⟦と→と：00512_to⟧、⟦{想像|そうぞう}していた→想像する：06060_souzousuru⟧⟦より→より：09476_yori⟧はるかに⟦{難|むずか}しかった→難しい：00517_muzukashii⟧。",
       "english": "When I actually tried it, it was far more difficult than I had imagined.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "An adverb used to emphasize a significant degree of difference in comparisons. It always modifies a comparative expression — typically an adjective or adverb used with より. It can also be written in kanji as {遥|はる}かに, though the hiragana form is more common in modern writing.\n\nCOMMON PATTERNS:\n- AはBよりはるかに〜: A is far more ~ than B\n- {想像|そうぞう}よりはるかに: far more than imagined\n- {予想|よそう}よりはるかに: far more than expected\n\nSIMILAR WORDS:\n- ずっと: much; by far — slightly more casual, used in the same comparative patterns\n- {遥|はる}か: far; distant — the base adjective form, used for spatial or temporal distance (e.g., はるか{昔|むかし} \"long, long ago\")\n- だいぶ: considerably — indicates a notable degree but weaker emphasis than はるかに",
+  "notes": "An adverb used to emphasize a significant degree of difference in comparisons. It always modifies a comparative expression — typically an adjective or adverb used with より. It can also be written in kanji as ⟦{遥|はる}か→遥か：10388_haruka⟧⟦に→に：00314_ni⟧, though the hiragana form is more common in modern writing.\n\nCOMMON PATTERNS:\n- A⟦は→は：00079_ha⟧B⟦より→より：09476_yori⟧はるかに〜: A is far more ~ than B\n- ⟦{想像|そうぞう}→想像：02489_souzou⟧⟦より→より：09476_yori⟧はるかに: far more than imagined\n- ⟦{予想|よそう}→予想：03664_yosou⟧⟦より→より：09476_yori⟧はるかに: far more than expected\n\nSIMILAR WORDS:\n- ⟦ずっと→ずっと：00912_zutto⟧: much; by far — slightly more casual, used in the same comparative patterns\n- ⟦{遥|はる}か→遥か：10388_haruka⟧: far; distant — the base adjective form, used for spatial or temporal distance (e.g., はるか⟦{昔|むかし}→昔：01515_mukashi⟧ \"long, long ago\")\n- だいぶ: considerably — indicates a notable degree but weaker emphasis than はるかに",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00912_zutto",
+      "reading": "ずっと",
+      "headword": "ずっと",
+      "label": "much"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10388_haruka",
+      "reading": "はるか",
+      "headword": "{遥|はる}か",
+      "label": "far"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01570_daibu",
+      "reading": "だいぶ",
+      "headword": "{大分|だいぶ}",
+      "label": "considerably"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +82,6 @@
       "politeness": "plain"
     },
     "created": "2026-04-06T19:12:22Z",
-    "modified": "2026-08-01T06:42:57Z"
+    "modified": "2026-09-02T04:02:08Z"
   }
 }

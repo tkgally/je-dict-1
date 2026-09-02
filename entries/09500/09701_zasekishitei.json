@@ -14,40 +14,74 @@
   "examples": [
     {
       "id": "09701_zasekishitei_ex1",
-      "japanese": "この{電車|でんしゃ}は{座席指定|ざせきしてい}です。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{電車|でんしゃ}→電車：00522_densha⟧⟦は→は：00079_ha⟧{座席指定|ざせきしてい}です。",
       "english": "This train has reserved seating.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09701_zasekishitei_ex2",
-      "japanese": "{座席指定|ざせきしてい}の{券|けん}を{買|か}った。",
+      "japanese": "{座席指定|ざせきしてい}⟦の→の：09472_no⟧⟦{券|けん}→券：02150_ken⟧⟦を→を：00422_wo⟧⟦{買|か}った→買う：00489_kau⟧。",
       "english": "I bought a reserved seat ticket.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09701_zasekishitei_ex3",
-      "japanese": "{映画館|えいがかん}は{全席|ぜんせき}{座席指定|ざせきしてい}になっているので、{事前|じぜん}に{予約|よやく}した{方|ほう}がいい。",
+      "japanese": "⟦{映画館|えいがかん}→映画館：01024_eigakan⟧⟦は→は：00079_ha⟧⟦{全席|ぜんせき}→全席：24363_zenseki⟧{座席指定|ざせきしてい}になっている⟦の→の：09472_no⟧で、⟦{事前|じぜん}→事前：07580_jizen⟧⟦に→に：00314_ni⟧⟦{予約|よやく}した→予約する：22989_yoyakusuru⟧⟦{方|ほう}→方：01139_hou⟧⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧。",
       "english": "The movie theater has all reserved seating, so it's better to book in advance.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{座席指定|ざせきしてい} means reserved seating as opposed to free seating.\n\nCOMMON COLLOCATIONS:\n- {座席指定|ざせきしてい}{券|けん} (reserved seat ticket)\n- {全席|ぜんせき}{座席指定|ざせきしてい} (all seats reserved)\n- {座席指定|ざせきしてい}{料金|りょうきん} (reserved seat fee)\n\nUSAGE NOTES:\n- Common on shinkansen, limited express trains, concerts, movies\n- Opposite of {自由席|じゆうせき} (non-reserved seating)\n\nRELATED TERMS:\n- {指定席|していせき}: reserved seat\n- {自由席|じゆうせき}: non-reserved seat",
+  "notes": "{座席指定|ざせきしてい} means reserved seating as opposed to free seating.\n\nCOMMON COLLOCATIONS:\n- {座席指定|ざせきしてい}{券|けん} (reserved seat ticket)\n- ⟦{全席|ぜんせき}→全席：24363_zenseki⟧{座席指定|ざせきしてい} (all seats reserved)\n- {座席指定|ざせきしてい}⟦{料金|りょうきん}→料金：03797_ryoukin⟧ (reserved seat fee)\n\nUSAGE:\n- Common on shinkansen, limited express trains, concerts, movies\n- Opposite of ⟦{自由席|じゆうせき}→自由席：07047_jiyuuseki⟧ (non-reserved seating)\n\nRELATED WORDS:\n- ⟦{指定席|していせき}→指定席：07046_shiteiseki⟧: reserved seat\n- ⟦{自由席|じゆうせき}→自由席：07047_jiyuuseki⟧: non-reserved seat",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "07046_shiteiseki",
+      "reading": "していせき",
+      "headword": "{指定席|していせき}",
+      "label": "reserved seat"
+    },
+    {
+      "type": "related",
+      "target_id": "07047_jiyuuseki",
+      "reading": "じゆうせき",
+      "headword": "{自由席|じゆうせき}",
+      "label": "non-reserved seat"
+    },
+    {
+      "type": "related",
+      "target_id": "25863_sekijun",
+      "reading": "せきじゅん",
+      "headword": "{席順|せきじゅん}",
+      "label": "seating order"
+    }
+  ],
   "metadata": {
     "created": "2026-02-03T06:51:53Z",
-    "modified": "2026-02-03T06:51:53Z",
+    "modified": "2026-09-02T04:01:19Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["transportation", "entertainment"]
+      "semantic": [
+        "transportation",
+        "entertainment"
+      ]
     }
   }
 }

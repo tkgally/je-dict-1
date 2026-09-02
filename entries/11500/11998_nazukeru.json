@@ -3,7 +3,7 @@
   "id": "11998_nazukeru",
   "headword": "{名付|なづ}ける",
   "reading": "なづける",
-  "part_of_speech": "ichidan verb",
+  "part_of_speech": "verb (ichidan)",
   "gloss": "to name; to give a name to",
   "conjugation": {
     "type": "ichidan",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "11998_nazukeru_ex1",
-      "japanese": "{赤|あか}ちゃんに{名前|なまえ}を{名付|なづ}ける。",
+      "japanese": "⟦{赤|あか}ちゃん→赤ちゃん：01282_akachan⟧⟦に→に：00314_ni⟧⟦{名前|なまえ}→名前：02234_namae⟧⟦を→を：00422_wo⟧{名付|なづ}ける。",
       "english": "To give a name to a baby.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "11998_nazukeru_ex2",
-      "japanese": "{父|ちち}が{娘|むすめ}を「さくら」と{名付|なづ}けた。",
+      "japanese": "⟦{父|ちち}→父：00566_chichi⟧⟦が→が：00051_ga⟧⟦{娘|むすめ}→娘：02263_musume⟧⟦を→を：00422_wo⟧「さくら」⟦と→と：00512_to⟧{名付|なづ}けた。",
       "english": "The father named his daughter 'Sakura.'",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "11998_nazukeru_ex3",
-      "japanese": "この{通|とお}りは、{昔|むかし}ここにあった{桜|さくら}の{木|き}にちなんで「さくら{通|どお}り」と{名付|なづ}けられた。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{通|とお}り→通り：01475_toori⟧⟦は→は：00079_ha⟧、⟦{昔|むかし}→昔：01515_mukashi⟧⟦ここ→ここ：00961_koko⟧にあった⟦{桜|さくら}→桜：02212_sakura⟧⟦の→の：09472_no⟧⟦{木|き}→木：00524_ki⟧⟦に→に：00314_ni⟧⟦ちなんで→ちなむ：10386_chinamu⟧「さくら{通|どお}り」⟦と→と：00512_to⟧{名付|なづ}けられた。",
       "english": "This street was named 'Sakura-dori' after the cherry trees that used to be here.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,19 @@
       ]
     }
   ],
-  "notes": "USAGE:\nOften used in the passive form {名付|なづ}けられた (was named). The pattern AをBと{名付|なづ}ける means \"to name A as B.\" Also written as {名|な}づける.\n\nIchidan verb ({一段動詞|いちだんどうし}).\n- Negative: {名付|なづ}けない\n- Polite: {名付|なづ}けます\n- Te-form: {名付|なづ}けて\n- Past: {名付|なづ}けた\n- Passive: {名付|なづ}けられる\n\nCOMMON COLLOCATIONS:\n- ～と{名付|なづ}ける: to name as ~\n- {名付|なづ}け{親|おや}: godparent; person who names something\n- ～にちなんで{名付|なづ}ける: to name after ~",
-  "cross_references": [],
+  "notes": "USAGE:\nOften used in the passive form {名付|なづ}けられた (was named). The pattern A⟦を→を：00422_wo⟧B⟦と→と：00512_to⟧{名付|なづ}ける means \"to name A as B.\" Also written as {名|な}づける.\n\nIchidan verb ({一段動詞|いちだんどうし}).\n- Negative: {名付|なづ}けない\n- Polite: {名付|なづ}けます\n- Te-form: {名付|なづ}けて\n- Past: {名付|なづ}けた\n- Passive: {名付|なづ}けられる\n\nCOMMON COLLOCATIONS:\n- ～⟦と→と：00512_to⟧{名付|なづ}ける: to name as ~\n- {名付|なづ}け⟦{親|おや}→親：01357_oya⟧: godparent; person who names something\n- ～⟦に→に：00314_ni⟧⟦ちなんで→ちなむ：10386_chinamu⟧{名付|なづ}ける: to name after ~",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20842_meiutsu",
+      "reading": "めいうつ",
+      "headword": "{銘打|めいう}つ",
+      "label": "to label as"
+    }
+  ],
   "metadata": {
     "created": "2026-02-19T11:43:22Z",
-    "modified": "2026-03-29T03:07:35Z",
+    "modified": "2026-09-02T04:01:27Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -150,7 +158,8 @@
       "semantic": [
         "language"
       ],
-      "verb_class": "ichidan"
+      "verb_class": "ichidan",
+      "transitivity": "transitive"
     }
   }
 }

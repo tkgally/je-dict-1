@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "16612_jufun_ex1",
-      "japanese": "{蜂|はち}が{花|はな}の{受粉|じゅふん}を{助|たす}ける。",
+      "japanese": "⟦{蜂|はち}→蜂：02242_hachi⟧⟦が→が：00051_ga⟧⟦{花|はな}→花：00523_hana⟧⟦の→の：09472_no⟧{受粉|じゅふん}⟦を→を：00422_wo⟧⟦{助|たす}ける→助ける：00895_tasukeru⟧。",
       "english": "Bees help with the pollination of flowers.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "16612_jufun_ex2",
-      "japanese": "{風|かぜ}による{受粉|じゅふん}を{風媒|ふうばい}という。",
+      "japanese": "⟦{風|かぜ}→風：00641_kaze⟧⟦による→による：28349_niyoru⟧{受粉|じゅふん}⟦を→を：00422_wo⟧{風媒|ふうばい}⟦という→という：09577_toiu⟧。",
       "english": "Pollination by wind is called wind pollination.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "16612_jufun_ex3",
-      "japanese": "{受粉|じゅふん}がうまくいかないと、{果実|かじつ}が{実|みの}らないことがある。",
+      "japanese": "{受粉|じゅふん}⟦が→が：00051_ga⟧⟦うまく→うまい：01279_umai⟧いかない⟦と→と：00512_to⟧、⟦{果実|かじつ}→果実：00146_kajitsu⟧⟦が→が：00051_ga⟧⟦{実|みの}らない→実る：00282_minoru⟧こと⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "If pollination doesn't go well, the fruit may not set.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,19 @@
       ]
     }
   ],
-  "notes": "{受粉|じゅふん} refers to the transfer of {花粉|かふん} (pollen) to the {雌|め}しべ (pistil) of a plant, enabling {受精|じゅせい} (fertilization). Used in biology, agriculture, and gardening contexts.\n\nETYMOLOGY:\n{受|じゅ} (receive) + {粉|ふん} (powder/pollen)\n\nTYPES:\n- {自家|じか}{受粉|じゅふん}: self-pollination\n- {他家|たか}{受粉|じゅふん}: cross-pollination\n- {人工|じんこう}{受粉|じゅふん}: artificial pollination\n- {風媒|ふうばい}{受粉|じゅふん}: wind pollination\n- {虫媒|ちゅうばい}{受粉|じゅふん}: insect pollination\n\nCOMMON PATTERNS:\n- {受粉|じゅふん}する: to pollinate / to be pollinated\n- {受粉|じゅふん}を{助|たす}ける: to assist pollination\n- {受粉|じゅふん}がうまくいく: pollination succeeds",
-  "cross_references": [],
+  "notes": "{受粉|じゅふん} refers to the transfer of ⟦{花粉|かふん}→花粉：04372_kafun⟧ (pollen) to the ⟦{雌|め}しべ→雌しべ：29508_meshibe⟧ (pistil) of a plant, enabling ⟦{受精|じゅせい}→受精：29502_jusei⟧ (fertilization). Used in biology, agriculture, and gardening contexts.\n\nETYMOLOGY:\n{受|じゅ} (receive) + {粉|ふん} (powder/pollen)\n\nTYPES:\n- ⟦{自家|じか}→自家：14071_jika⟧{受粉|じゅふん}: self-pollination\n- {他家|たか}{受粉|じゅふん}: cross-pollination\n- ⟦{人工|じんこう}→人工：11573_jinkou⟧{受粉|じゅふん}: artificial pollination\n- {風媒|ふうばい}{受粉|じゅふん}: wind pollination\n- {虫媒|ちゅうばい}{受粉|じゅふん}: insect pollination\n\nCOMMON PATTERNS:\n- {受粉|じゅふん}⟦する→する：00392_suru⟧: to pollinate / to be pollinated\n- {受粉|じゅふん}⟦を→を：00422_wo⟧⟦{助|たす}ける→助ける：00895_tasukeru⟧: to assist pollination\n- {受粉|じゅふん}⟦が→が：00051_ga⟧⟦うまく→うまい：01279_umai⟧いく: pollination succeeds",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "06514_mitsubachi",
+      "reading": "みつばち",
+      "headword": "{蜜蜂|みつばち}",
+      "label": "honeybee"
+    }
+  ],
   "metadata": {
     "created": "2026-03-14T01:36:58Z",
-    "modified": "2026-04-02T08:18:51Z",
+    "modified": "2026-09-02T04:01:45Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

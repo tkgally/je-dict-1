@@ -2,7 +2,7 @@
   "id": "16317_eiyaku",
   "headword": "{英訳|えいやく}",
   "reading": "えいやく",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "English translation",
   "conjugation": {
     "type": "suru",
@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "16317_eiyaku_ex1",
-      "japanese": "この{文|ぶん}を{英訳|えいやく}してください。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{文|ぶん}→文：03716_bun⟧⟦を→を：00422_wo⟧{英訳|えいやく}⟦して→する：00392_suru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please translate this sentence into English.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "16317_eiyaku_ex2",
-      "japanese": "{日本|にほん}の{小説|しょうせつ}の{英訳|えいやく}が{出版|しゅっぱん}された。",
+      "japanese": "⟦{日本|にほん}→日本：03876_nihon⟧⟦の→の：09472_no⟧⟦{小説|しょうせつ}→小説：01434_shousetsu⟧⟦の→の：09472_no⟧{英訳|えいやく}⟦が→が：00051_ga⟧⟦{出版|しゅっぱん}→出版：03222_shuppan⟧⟦された→する：00392_suru⟧。",
       "english": "An English translation of a Japanese novel was published.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "16317_eiyaku_ex3",
-      "japanese": "{専門|せんもん}{用語|ようご}を{英訳|えいやく}するのは{難|むずか}しい。",
+      "japanese": "⟦{専門|せんもん}{用語|ようご}→専門用語：22120_senmonyougo⟧⟦を→を：00422_wo⟧{英訳|えいやく}⟦する→する：00392_suru⟧⟦の→の：09472_no⟧⟦は→は：00079_ha⟧⟦{難|むずか}しい→難しい：00517_muzukashii⟧。",
       "english": "Translating technical terminology into English is difficult.",
       "notes": null,
       "has_audio": false,
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "RELATED TRANSLATION TERMS:\n- {和訳|わやく}: Japanese translation (translating into Japanese)\n- {翻訳|ほんやく}: translation (general term, any language pair)\n- {通訳|つうやく}: interpretation (spoken translation)\n- {直訳|ちょくやく}: literal translation\n- {意訳|いやく}: free/liberal translation\n\nUSAGE NOTES:\n{英訳|えいやく} specifically means translating into English. It can be used as a noun ({英訳|えいやく}を{読|よ}む, to read the English translation) or as a verb with する ({英訳|えいやく}する, to translate into English).",
+  "notes": "RELATED TRANSLATION TERMS:\n- ⟦{和訳|わやく}→和訳：17845_wayaku⟧: Japanese translation (translating into Japanese)\n- ⟦{翻訳|ほんやく}→翻訳：01725_honyaku⟧: translation (general term, any language pair)\n- ⟦{通訳|つうやく}→通訳：03516_tsuuyaku⟧: interpretation (spoken translation)\n- ⟦{直訳|ちょくやく}→直訳：13629_chokuyaku⟧: literal translation\n- ⟦{意訳|いやく}→意訳：17846_iyaku⟧: free/liberal translation\n\nUSAGE:\n{英訳|えいやく} specifically means translating into English. It can be used as a noun ({英訳|えいやく}⟦を→を：00422_wo⟧⟦{読|よ}む→読む：00426_yomu⟧, to read the English translation) or as a verb with ⟦する→する：00392_suru⟧ ({英訳|えいやく}⟦する→する：00392_suru⟧, to translate into English).",
   "cross_references": [
     {
       "type": "antonym",
@@ -141,11 +141,39 @@
       "reading": "わやく",
       "headword": "{和訳|わやく}",
       "label": "Japanese translation"
+    },
+    {
+      "type": "related",
+      "target_id": "01725_honyaku",
+      "reading": "ほんやく",
+      "headword": "{翻訳|ほんやく}",
+      "label": "translation"
+    },
+    {
+      "type": "related",
+      "target_id": "03516_tsuuyaku",
+      "reading": "つうやく",
+      "headword": "{通訳|つうやく}",
+      "label": "interpretation"
+    },
+    {
+      "type": "related",
+      "target_id": "13629_chokuyaku",
+      "reading": "ちょくやく",
+      "headword": "{直訳|ちょくやく}",
+      "label": "literal translation"
+    },
+    {
+      "type": "related",
+      "target_id": "17846_iyaku",
+      "reading": "いやく",
+      "headword": "{意訳|いやく}",
+      "label": "free/liberal translation"
     }
   ],
   "metadata": {
     "created": "2026-03-12T01:20:59Z",
-    "modified": "2026-05-03T08:15:02Z",
+    "modified": "2026-09-02T04:01:44Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

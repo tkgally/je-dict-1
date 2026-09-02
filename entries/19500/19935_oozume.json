@@ -15,40 +15,87 @@
   "examples": [
     {
       "id": "19935_oozume_ex1",
-      "japanese": "{交渉|こうしょう}は{大詰|おおづ}めを{迎|むか}えた。",
+      "japanese": "⟦{交渉|こうしょう}→交渉：02727_koushou⟧⟦は→は：00079_ha⟧{大詰|おおづ}め⟦を→を：00422_wo⟧⟦{迎|むか}えた→迎える：01193_mukaeru⟧。",
       "english": "The negotiations have reached their final stage.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19935_oozume_ex2",
-      "japanese": "{選挙戦|せんきょせん}もいよいよ{大詰|おおづ}めだ。",
+      "japanese": "{選挙戦|せんきょせん}⟦も→も：00484_mo⟧⟦いよいよ→いよいよ：06353_iyoiyo⟧{大詰|おおづ}めだ。",
       "english": "The election campaign is finally in its final phase.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19935_oozume_ex3",
-      "japanese": "プロジェクトが{大詰|おおづ}めを{迎|むか}えているので、{毎日|まいにち}{残業|ざんぎょう}している。",
+      "japanese": "⟦プロジェクト→プロジェクト：06764_purojekuto⟧⟦が→が：00051_ga⟧{大詰|おおづ}め⟦を→を：00422_wo⟧⟦{迎|むか}えている→迎える：01193_mukaeru⟧⟦の→の：09472_no⟧で、⟦{毎日|まいにち}→毎日：00729_mainichi⟧⟦{残業|ざんぎょう}→残業：01071_zangyou⟧⟦している→する：00392_suru⟧。",
       "english": "The project is in its final stage, so I'm working overtime every day.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Originally from kabuki theater, where {大詰|おおづ}め referred to the final act of a play. Now widely used for the concluding phase of any process or event. Almost always appears in the pattern {大詰|おおづ}めを{迎|むか}える (to reach the final stage).\n\nCOMMON COLLOCATIONS:\n- {大詰|おおづ}めを{迎|むか}える: to reach the final stage\n- {大詰|おおづ}めに{入|はい}る: to enter the final phase\n- いよいよ{大詰|おおづ}め: at last, the final stage\n\nSIMILAR WORDS:\n- {佳境|かきょう}: the best/most exciting part — focuses on the climactic interest\n- {最終段階|さいしゅうだんかい}: final stage — more formal/technical\n- クライマックス: climax — loanword, used for stories and events",
+  "notes": "Originally from kabuki theater, where {大詰|おおづ}め referred to the final act of a play. Now widely used for the concluding phase of any process or event. Almost always appears in the pattern {大詰|おおづ}め⟦を→を：00422_wo⟧⟦{迎|むか}える→迎える：01193_mukaeru⟧ (to reach the final stage).\n\nCOMMON COLLOCATIONS:\n- {大詰|おおづ}め⟦を→を：00422_wo⟧⟦{迎|むか}える→迎える：01193_mukaeru⟧: to reach the final stage\n- {大詰|おおづ}め⟦に→に：00314_ni⟧⟦{入|はい}る→入る：00494_hairu⟧: to enter the final phase\n- ⟦いよいよ→いよいよ：06353_iyoiyo⟧{大詰|おおづ}め: at last, the final stage\n\nSIMILAR WORDS:\n- ⟦{佳境|かきょう}→佳境：14984_kakyou⟧: the best/most exciting part — focuses on the climactic interest\n- ⟦{最終段階|さいしゅうだんかい}→最終段階：26088_saishuudankai⟧: final stage — more formal/technical\n- ⟦クライマックス→クライマックス：10874_kuraimakkusu⟧: climax — loanword, used for stories and events",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14984_kakyou",
+      "reading": "かきょう",
+      "headword": "{佳境|かきょう}",
+      "label": "the best/most exciting part"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26088_saishuudankai",
+      "reading": "さいしゅうだんかい",
+      "headword": "{最終段階|さいしゅうだんかい}",
+      "label": "final stage"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10874_kuraimakkusu",
+      "reading": "くらいまっくす",
+      "headword": "クライマックス",
+      "label": "climax"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20006_shuumaku",
+      "reading": "しゅうまく",
+      "headword": "{終幕|しゅうまく}",
+      "label": "final act"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30497_rasutosupaato",
+      "reading": "らすとすぱーと",
+      "headword": "ラストスパート",
+      "label": "final push"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["time-period"]
+      "semantic": [
+        "time-period"
+      ]
     },
     "created": "2026-03-27T06:09:33Z",
-    "modified": "2026-03-27T06:09:33Z"
+    "modified": "2026-09-02T04:01:57Z"
   }
 }

@@ -15,41 +15,73 @@
   "examples": [
     {
       "id": "14285_migawari_ex1",
-      "japanese": "{彼|かれ}は{友人|ゆうじん}の{身代|みが}わりになった。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{友人|ゆうじん}→友人：03649_yuujin⟧⟦の→の：09472_no⟧{身代|みが}わりになった。",
       "english": "He took his friend's place.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14285_migawari_ex2",
-      "japanese": "{身代|みが}わりの{人形|にんぎょう}を{置|お}いて{逃|に}げた。",
+      "japanese": "{身代|みが}わり⟦の→の：09472_no⟧⟦{人形|にんぎょう}→人形：01487_ningyou⟧⟦を→を：00422_wo⟧⟦{置|お}いて→置く：01092_oku⟧⟦{逃|に}げた→逃げる：01151_nigeru⟧。",
       "english": "He left a substitute doll and escaped.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14285_migawari_ex3",
-      "japanese": "{王子|おうじ}の{身代|みが}わりとして{処刑|しょけい}されそうになったが、{最後|さいご}に{真実|しんじつ}が{明|あき}らかになった。",
+      "japanese": "⟦{王子|おうじ}→王子：01904_ouji⟧⟦の→の：09472_no⟧{身代|みが}わり⟦として→として：06802_toshite⟧⟦{処刑|しょけい}→処刑：11757_shokei⟧⟦され→する：00392_suru⟧そうになった⟦が→が：00051_ga⟧、⟦{最後|さいご}→最後：01413_saigo⟧⟦に→に：00314_ni⟧⟦{真実|しんじつ}→真実：05316_shinjitsu⟧⟦が→が：00051_ga⟧⟦{明|あき}らか→明らか：02351_akiraka⟧になった。",
       "english": "He was about to be executed as a stand-in for the prince, but the truth came to light at the last moment.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "Compound of {身|み} (body, self) + {代|か}わり (substitute). Carries a dramatic nuance of self-sacrifice or deception.\n\nIn traditional Japanese culture, {身代|みが}わり{地蔵|じぞう} (substitute Jizo statues) are believed to take on illness or misfortune in place of a person. {身代|みが}わりのお{守|まも}り (protective charms) serve a similar function.\n\nCOMMON COLLOCATIONS:\n- {身代|みが}わりになる (to become a substitute)\n- {身代|みが}わりを{立|た}てる (to put up a stand-in)\n- {身代|みが}わり{地蔵|じぞう} (substitute Jizo statue)\n\nSIMILAR WORDS:\n- {代|か}わり: substitute, replacement (neutral, everyday)\n- {替|か}え{玉|だま}: body double, fake substitute (often implies deception)\n- {犠牲|ぎせい}: sacrifice (emphasizes the cost or loss)",
-  "cross_references": [],
+  "notes": "Compound of ⟦{身|み}→身：01764_mi⟧ (body, self) + ⟦{代|か}わり→代わり：01296_kawari⟧ (substitute). Carries a dramatic nuance of self-sacrifice or deception.\n\nIn traditional Japanese culture, {身代|みが}わり{地蔵|じぞう} (substitute Jizo statues) are believed to take on illness or misfortune in place of a person. {身代|みが}わり⟦の→の：09472_no⟧⟦お{守|まも}り→お守り：05955_omamori⟧ (protective charms) serve a similar function.\n\nCOMMON COLLOCATIONS:\n- {身代|みが}わり⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧ (to become a substitute)\n- {身代|みが}わり⟦を→を：00422_wo⟧⟦{立|た}てる→立てる：01196_tateru⟧ (to put up a stand-in)\n- {身代|みが}わり{地蔵|じぞう} (substitute Jizo statue)\n\nSIMILAR WORDS:\n- ⟦{代|か}わり→代わり：01296_kawari⟧: substitute, replacement (neutral, everyday)\n- ⟦{替|か}え{玉|だま}→替え玉：08309_kaedama⟧: body double, fake substitute (often implies deception)\n- ⟦{犠牲|ぎせい}→犠牲：14743_gisei⟧: sacrifice (emphasizes the cost or loss)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08309_kaedama",
+      "reading": "かえだま",
+      "headword": "{替|か}え{玉|だま}",
+      "label": "body double, fake substitute"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14743_gisei",
+      "reading": "ぎせい",
+      "headword": "{犠牲|ぎせい}",
+      "label": "sacrifice"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20132_daiyaku",
+      "reading": "だいやく",
+      "headword": "{代役|だいやく}",
+      "label": "stand-in"
+    }
+  ],
   "metadata": {
     "created": "2026-02-28T09:25:57Z",
-    "modified": "2026-07-15T09:17:48Z",
+    "modified": "2026-09-02T04:01:36Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

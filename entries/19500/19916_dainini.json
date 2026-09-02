@@ -14,41 +14,73 @@
   "examples": [
     {
       "id": "19916_dainini_ex1",
-      "japanese": "{第二|だいに}に、コストの{問題|もんだい}がある。",
+      "japanese": "{第二|だいに}に、⟦コスト→コスト：06666_kosuto⟧⟦の→の：09472_no⟧⟦{問題|もんだい}→問題：00797_mondai⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "Secondly, there is the issue of cost.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "19916_dainini_ex2",
-      "japanese": "{第一|だいいち}に{安全性|あんぜんせい}、{第二|だいに}に{効率性|こうりつせい}を{重視|じゅうし}する。",
+      "japanese": "⟦{第一|だいいち}に→第一に：19173_daiichini⟧⟦{安全性|あんぜんせい}→安全性：19384_anzensei⟧、{第二|だいに}に⟦{効率性|こうりつせい}→効率性：05573_kouritsusei⟧⟦を→を：00422_wo⟧⟦{重視|じゅうし}する→重視する：26832_juushisuru⟧。",
       "english": "We prioritize safety first and efficiency second.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "19916_dainini_ex3",
-      "japanese": "{反対|はんたい}する{理由|りゆう}は{三|みっ}つある。{第一|だいいち}に…、{第二|だいに}に…、{第三|だいさん}に…。",
+      "japanese": "⟦{反対|はんたい}する→反対する：05648_hantaisuru⟧⟦{理由|りゆう}→理由：01102_riyuu⟧⟦は→は：00079_ha⟧⟦{三|みっ}つ→三つ：02970_mittsu⟧⟦ある→ある：00006_aru⟧。⟦{第一|だいいち}に→第一に：19173_daiichini⟧…、{第二|だいに}に…、{第三|だいさん}⟦に→に：00314_ni⟧…。",
       "english": "There are three reasons for opposing it. First... second... third...",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "A formal enumeration marker used in structured arguments. Part of the series {第一|だいいち}に (firstly), {第二|だいに}に (secondly), {第三|だいさん}に (thirdly), and so on.\n\nCOMMON PATTERNS:\n- {第一|だいいち}に…、{第二|だいに}に…: firstly..., secondly...\n- {第二|だいに}の{理由|りゆう}は…: the second reason is...\n- {第二|だいに}に{挙|あ}げられるのは…: what can be cited second is...\n\nSIMILAR WORDS:\n- {次|つぎ}に: next — less formal; can be sequential rather than hierarchical\n- そして: and then — conversational connector\n- また: also, furthermore — adds without implying a numbered order\n- {二|ふた}つ{目|め}に: as the second item — slightly less formal alternative",
-  "cross_references": [],
+  "notes": "A formal enumeration marker used in structured arguments. Part of the series ⟦{第一|だいいち}に→第一に：19173_daiichini⟧ (firstly), {第二|だいに}に (secondly), {第三|だいさん}⟦に→に：00314_ni⟧ (thirdly), and so on.\n\nCOMMON PATTERNS:\n- ⟦{第一|だいいち}に→第一に：19173_daiichini⟧…、{第二|だいに}に…: firstly..., secondly...\n- {第二|だいに}⟦の→の：09472_no⟧⟦{理由|りゆう}→理由：01102_riyuu⟧⟦は→は：00079_ha⟧…: the second reason is...\n- {第二|だいに}に⟦{挙|あ}げられる→挙げる：27889_ageru⟧⟦の→の：09472_no⟧⟦は→は：00079_ha⟧…: what can be cited second is...\n\nSIMILAR WORDS:\n- ⟦{次|つぎ}→次：00819_tsugi⟧⟦に→に：00314_ni⟧: next — less formal; can be sequential rather than hierarchical\n- ⟦そして→そして：00997_soshite⟧: and then — conversational connector\n- ⟦また→また：00969_mata⟧: also, furthermore — adds without implying a numbered order\n- ⟦{二|ふた}つ{目|め}→二つ目：30351_futatsume⟧⟦に→に：00314_ni⟧: as the second item — slightly less formal alternative",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "30273_tsugini",
+      "reading": "つぎに",
+      "headword": "{次|つぎ}に",
+      "label": "next"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00969_mata",
+      "reading": "また",
+      "headword": "また",
+      "label": "also, furthermore"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30351_futatsume",
+      "reading": "ふたつめ",
+      "headword": "{二|ふた}つ{目|め}",
+      "label": "as the second item"
+    }
+  ],
   "metadata": {
     "created": "2026-03-27T05:37:40Z",
-    "modified": "2026-03-27T05:37:40Z",
+    "modified": "2026-09-02T04:01:57Z",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
     "tags": {
-      "pos": ["adverb"],
+      "pos": [
+        "adverb"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"],
+      "semantic": [
+        "general"
+      ],
       "domain": []
     }
   }

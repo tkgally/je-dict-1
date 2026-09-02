@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24084_zoukan_ex1",
-      "japanese": "{増刊|ぞうかん}{号|ごう}が{発売|はつばい}された。",
+      "japanese": "{増刊|ぞうかん}{号|ごう}⟦が→が：00051_ga⟧⟦{発売|はつばい}→発売：04315_hatsubai⟧⟦された→する：00392_suru⟧。",
       "english": "A special issue was released.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24084_zoukan_ex2",
-      "japanese": "その{雑誌|ざっし}の{増刊|ぞうかん}{号|ごう}は{毎年|まいとし}{夏|なつ}に{出|で}る。",
+      "japanese": "⟦その→その：00993_sono⟧⟦{雑誌|ざっし}→雑誌：00686_zasshi⟧⟦の→の：09472_no⟧{増刊|ぞうかん}{号|ごう}⟦は→は：00079_ha⟧⟦{毎年|まいとし}→毎年：00731_maitoshi⟧⟦{夏|なつ}→夏：02236_natsu⟧⟦に→に：00314_ni⟧⟦{出|で}る→出る：00513_deru⟧。",
       "english": "The special issue of that magazine comes out every summer.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24084_zoukan_ex3",
-      "japanese": "{人気|にんき}{作品|さくひん}の{特集|とくしゅう}を{組|く}んだ{増刊|ぞうかん}{号|ごう}はすぐに{売|う}り{切|き}れた。",
+      "japanese": "⟦{人気|にんき}→人気：01488_ninki⟧⟦{作品|さくひん}→作品：02776_sakuhin⟧⟦の→の：09472_no⟧⟦{特集|とくしゅう}→特集：13468_tokushuu⟧⟦を→を：00422_wo⟧⟦{組|く}んだ→組む：02050_kumu⟧{増刊|ぞうかん}{号|ごう}⟦は→は：00079_ha⟧⟦すぐ→すぐ：00814_sugu⟧⟦に→に：00314_ni⟧⟦{売|う}り{切|き}れた→売り切れる：03012_urikireru⟧。",
       "english": "The special issue featuring the popular series sold out quickly.",
       "sense_numbers": [
         1
@@ -44,19 +44,37 @@
       "notes": null
     }
   ],
-  "notes": "Literally \"additional publication\" — an extra issue published between regular editions of a magazine. Common in manga magazines and hobby publications, where {増刊|ぞうかん}{号|ごう} may feature special content, bonus chapters, or themed collections.\n\nCOMMON COLLOCATIONS:\n- {増刊|ぞうかん}{号|ごう}: special/extra issue\n- {臨時|りんじ}{増刊|ぞうかん}: special extra edition\n- {増刊|ぞうかん}{号|ごう}を{出|だ}す: to publish a special issue\n\nSIMILAR WORDS:\n- {別冊|べっさつ}: separate volume/supplement — a standalone publication spun off from a magazine\n- {臨時|りんじ}{号|ごう}: special/emergency edition — broader than {増刊|ぞうかん}, can apply to newspapers too\n- {特集|とくしゅう}: feature/special — a themed section within a regular issue",
+  "notes": "Literally \"additional publication\" — an extra issue published between regular editions of a magazine. Common in manga magazines and hobby publications, where {増刊|ぞうかん}{号|ごう} may feature special content, bonus chapters, or themed collections.\n\nCOMMON COLLOCATIONS:\n- {増刊|ぞうかん}{号|ごう}: special/extra issue\n- ⟦{臨時|りんじ}→臨時：04092_rinji⟧{増刊|ぞうかん}: special extra edition\n- {増刊|ぞうかん}{号|ごう}⟦を→を：00422_wo⟧⟦{出|だ}す→出す：01087_dasu⟧: to publish a special issue\n\nSIMILAR WORDS:\n- ⟦{別冊|べっさつ}→別冊：17146_bessatsu⟧: separate volume/supplement — a standalone publication spun off from a magazine\n- ⟦{臨時|りんじ}→臨時：04092_rinji⟧{号|ごう}: special/emergency edition — broader than {増刊|ぞうかん}, can apply to newspapers too\n- ⟦{特集|とくしゅう}→特集：13468_tokushuu⟧: feature/special — a themed section within a regular issue",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17146_bessatsu",
+      "reading": "べっさつ",
+      "headword": "{別冊|べっさつ}",
+      "label": "separate volume/supplement"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13468_tokushuu",
+      "reading": "とくしゅう",
+      "headword": "{特集|とくしゅう}",
+      "label": "feature/special"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "media"
       ]
     },
     "created": "2026-04-17T17:40:23Z",
-    "modified": "2026-08-02T18:32:34Z"
+    "modified": "2026-09-02T04:02:16Z"
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25621_nakagawarui_ex1",
-      "japanese": "あの{二人|ふたり}は{仲|なか}が{悪|わる}い。",
+      "japanese": "⟦あの→あの：00915_ano⟧⟦{二人|ふたり}→二人：00622_futari⟧⟦は→は：00079_ha⟧{仲|なか}が{悪|わる}い。",
       "english": "Those two don't get along.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25621_nakagawarui_ex2",
-      "japanese": "{兄弟|きょうだい}なのに{子供|こども}の{頃|ころ}から{仲|なか}が{悪|わる}かった。",
+      "japanese": "⟦{兄弟|きょうだい}→兄弟：00964_kyoudai⟧な⟦の→の：09472_no⟧⟦に→に：00314_ni⟧⟦{子供|こども}→子供：00554_kodomo⟧⟦の→の：09472_no⟧{頃|ころ}⟦から→から：00504_kara⟧{仲|なか}が{悪|わる}かった。",
       "english": "Even though they're siblings, they haven't gotten along since childhood.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25621_nakagawarui_ex3",
-      "japanese": "{隣|となり}の{部署|ぶしょ}とは{仲|なか}が{悪|わる}くて、{会議|かいぎ}のたびに{意見|いけん}が{対立|たいりつ}する。",
+      "japanese": "⟦{隣|となり}→隣：01003_tonari⟧⟦の→の：09472_no⟧⟦{部署|ぶしょ}→部署：08187_busho⟧⟦と→と：00512_to⟧⟦は→は：00079_ha⟧{仲|なか}が{悪|わる}くて、⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦の→の：09472_no⟧たび⟦に→に：00314_ni⟧⟦{意見|いけん}→意見：01303_iken⟧⟦が→が：00051_ga⟧⟦{対立|たいりつ}する→対立する：22172_tairitsusuru⟧。",
       "english": "We're on bad terms with the neighboring department, and opinions clash at every meeting.",
       "sense_numbers": [
         1
@@ -44,19 +44,50 @@
       "notes": null
     }
   ],
-  "notes": "The opposite of {仲|なか}がいい (to be on good terms). {仲|なか} refers to the quality of a relationship between people. This expression is used for any kind of interpersonal friction — between individuals, groups, organizations, or even countries.\n\nCOMMON COLLOCATIONS:\n- {仲|なか}が{悪|わる}くなる: to become estranged\n- {仲|なか}が{悪|わる}そう: they seem to not get along\n- {犬猿|けんえん}の{仲|なか}: like cats and dogs (lit. dog-monkey relationship)\n\nUSAGE:\nCan be used for both temporary conflicts and deep-seated animosity. The degree of the bad relationship depends on context. In formal contexts, {関係|かんけい}が{良|よ}くない or {折|お}り{合|あ}いが{悪|わる}い may be preferred.\n\nSIMILAR WORDS:\n- {不仲|ふなか}: discord, estrangement — a noun form meaning the same thing, slightly more formal\n- {険悪|けんあく}: hostile, strained — describes a more seriously deteriorated atmosphere\n- {仲|なか}がいい: on good terms — the direct antonym",
+  "notes": "The opposite of ⟦{仲|なか}→仲：09513_naka⟧⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧ (to be on good terms). ⟦{仲|なか}→仲：09513_naka⟧ refers to the quality of a relationship between people. This expression is used for any kind of interpersonal friction — between individuals, groups, organizations, or even countries.\n\nCOMMON COLLOCATIONS:\n- {仲|なか}が{悪|わる}く⟦なる→なる：01970_naru⟧: to become estranged\n- {仲|なか}が{悪|わる}そう: they seem to not get along\n- ⟦{犬猿|けんえん}の{仲|なか}→犬猿の仲：18789_kenennonaka⟧: like cats and dogs (lit. dog-monkey relationship)\n\nUSAGE:\nCan be used for both temporary conflicts and deep-seated animosity. The degree of the bad relationship depends on context. In formal contexts, ⟦{関係|かんけい}→関係：01298_kankei⟧⟦が→が：00051_ga⟧⟦{良|よ}くない→良い：02350_yoi⟧ or ⟦{折|お}り{合|あ}い→折り合い：09144_oriai⟧⟦が→が：00051_ga⟧⟦{悪|わる}い→悪い：00908_warui⟧ may be preferred.\n\nSIMILAR WORDS:\n- ⟦{不仲|ふなか}→不仲：15745_funaka⟧: discord, estrangement — a noun form meaning the same thing, slightly more formal\n- ⟦{険悪|けんあく}→険悪：20010_kenaku⟧: hostile, strained — describes a more seriously deteriorated atmosphere\n- ⟦{仲|なか}→仲：09513_naka⟧⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧: on good terms — the direct antonym",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15745_funaka",
+      "reading": "ふなか",
+      "headword": "{不仲|ふなか}",
+      "label": "discord, estrangement"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20010_kenaku",
+      "reading": "けんあく",
+      "headword": "{険悪|けんあく}",
+      "label": "hostile, strained"
+    },
+    {
+      "type": "related",
+      "target_id": "03127_nakanaori",
+      "reading": "なかなおり",
+      "headword": "{仲直|なかなお}り",
+      "label": "reconciliation, making up"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20668_nakagayoi",
+      "reading": "なかがよい",
+      "headword": "{仲|なか}が{良|よ}い",
+      "label": "to be on good terms"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "expression"
       ],
+      "politeness": "plain",
       "semantic": [
         "society"
       ]
     },
     "created": "2026-04-26T13:18:47Z",
-    "modified": "2026-08-04T21:28:28Z"
+    "modified": "2026-09-02T04:02:23Z"
   }
 }

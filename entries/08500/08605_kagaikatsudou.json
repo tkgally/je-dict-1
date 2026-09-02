@@ -14,38 +14,79 @@
   "examples": [
     {
       "id": "08605_kagaikatsudou_ex1",
-      "japanese": "{課外活動|かがいかつどう}に{参加|さんか}する。",
+      "japanese": "{課外活動|かがいかつどう}⟦に→に：00314_ni⟧⟦{参加|さんか}する→参加する：25408_sankasuru⟧。",
       "english": "Participate in extracurricular activities.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "08605_kagaikatsudou_ex2",
-      "japanese": "{課外活動|かがいかつどう}は{大学|だいがく}{入試|にゅうし}でも{評価|ひょうか}される。",
+      "japanese": "{課外活動|かがいかつどう}⟦は→は：00079_ha⟧⟦{大学|だいがく}→大学：00608_daigaku⟧⟦{入試|にゅうし}→入試：04705_nyuushi⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧⟦{評価|ひょうか}→評価：03583_hyouka⟧⟦される→する：00392_suru⟧。",
       "english": "Extracurricular activities are also evaluated in university entrance exams.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "08605_kagaikatsudou_ex3",
-      "japanese": "{放課後|ほうかご}は{課外活動|かがいかつどう}で{忙|いそが}しい。",
+      "japanese": "⟦{放課後|ほうかご}→放課後：12720_houkago⟧⟦は→は：00079_ha⟧{課外活動|かがいかつどう}⟦で→で：00502_de⟧⟦{忙|いそが}しい→忙しい：00591_isogashii⟧。",
       "english": "I'm busy with extracurricular activities after school.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "JAPANESE SCHOOL CULTURE:\n{課外活動|かがいかつどう} plays an important role in Japanese education and character development.\n\nTYPES OF {課外活動|かがいかつどう}:\n- {部活動|ぶかつどう} - club activities\n- {委員会活動|いいんかいかつどう} - committee activities\n- ボランティア{活動|かつどう} - volunteer work\n- {生徒会活動|せいとかいかつどう} - student council\n\nSYNONYMS:\n- {部活|ぶかつ} - club activities (informal)\n- クラブ{活動|かつどう} - club activities\n\nIMPORTANCE:\n- Develops teamwork and leadership\n- Valued in {内申書|ないしんしょ} (school recommendation)\n- Often considered in job hunting",
+  "notes": "JAPANESE SCHOOL CULTURE:\n{課外活動|かがいかつどう} plays an important role in Japanese education and character development.\n\nTYPES OF {課外活動|かがいかつどう}:\n- ⟦{部活動|ぶかつどう}→部活動：14539_bukatsudou⟧ - club activities\n- {委員会活動|いいんかいかつどう} - committee activities\n- ⟦ボランティア→ボランティア：04834_borantia⟧⟦{活動|かつどう}→活動：00201_katsudou⟧ - volunteer work\n- {生徒会活動|せいとかいかつどう} - student council\n\nSIMILAR WORDS:\n- ⟦{部活|ぶかつ}→部活：05377_bukatsu⟧ - club activities (informal)\n- ⟦クラブ→クラブ：10812_kurabu⟧⟦{活動|かつどう}→活動：00201_katsudou⟧ - club activities\n\nIMPORTANCE:\n- Develops teamwork and leadership\n- Valued in {内申書|ないしんしょ} (school recommendation)\n- Often considered in job hunting",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05377_bukatsu",
+      "reading": "ぶかつ",
+      "headword": "{部活|ぶかつ}",
+      "label": "club activities"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22022_yagaikatsudou",
+      "reading": "やがいかつどう",
+      "headword": "{野外活動|やがいかつどう}",
+      "label": "outdoor activities"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26712_shagaikatsudou",
+      "reading": "しゃがいかつどう",
+      "headword": "{社外活動|しゃがいかつどう}",
+      "label": "outside-company activities"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27672_kagaijugyou",
+      "reading": "かがいじゅぎょう",
+      "headword": "{課外授業|かがいじゅぎょう}",
+      "label": "extracurricular lesson"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "semantic": ["education"]
+      "politeness": "plain",
+      "semantic": [
+        "education"
+      ]
     },
     "created": "2026-01-27T12:31:57Z",
-    "modified": "2026-01-27T12:31:57Z"
+    "modified": "2026-09-02T04:01:15Z"
   }
 }

@@ -14,30 +14,36 @@
   "examples": [
     {
       "id": "08115_chero_ex1",
-      "japanese": "{子供|こども}の{頃|ころ}からチェロを{習|なら}っている。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧⟦の→の：09472_no⟧{頃|ころ}⟦から→から：00504_kara⟧チェロ⟦を→を：00422_wo⟧⟦{習|なら}っている→習う：00479_narau⟧。",
       "english": "I've been learning cello since childhood.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "08115_chero_ex2",
-      "japanese": "チェロの{低|ひく}い{音色|ねいろ}が{好|す}きだ。",
+      "japanese": "チェロ⟦の→の：09472_no⟧⟦{低|ひく}い→低い：02947_hikui⟧⟦{音色|ねいろ}→音色：07422_neiro⟧⟦が→が：00051_ga⟧⟦{好|す}き→好き：02355_suki⟧だ。",
       "english": "I like the deep tone of the cello.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "08115_chero_ex3",
-      "japanese": "バッハの{無伴奏|むばんそう}チェロ{組曲|くみきょく}は{名曲|めいきょく}として{知|し}られている。",
+      "japanese": "バッハ⟦の→の：09472_no⟧⟦{無伴奏|むばんそう}→無伴奏：30016_mubansou⟧チェロ{組曲|くみきょく}⟦は→は：00079_ha⟧⟦{名曲|めいきょく}→名曲：17476_meikyoku⟧⟦として→として：06802_toshite⟧⟦{知|し}られている→知る：00458_shiru⟧。",
       "english": "Bach's Cello Suites are known as masterpieces.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "USAGE:\nチェロ is a loanword from Italian \"violoncello.\" The formal Japanese term {大提琴|だいていきん} exists but is rarely used.\n\nIN ORCHESTRA:\nThe cello section sits at the front right of the orchestra, providing bass lines, harmony, and melodic passages. It's the second-largest standard string instrument after the double bass.\n\nRELATED TERMS:\n- バイオリン (violin)\n- ビオラ (viola)\n- コントラバス (double bass)\n- {弦楽器|げんがっき} (stringed instrument)",
+  "notes": "USAGE:\nチェロ is a loanword from Italian \"violoncello.\" The formal Japanese term {大提琴|だいていきん} exists but is rarely used.\n\nIN ORCHESTRA:\nThe cello section sits at the front right of the orchestra, providing bass lines, harmony, and melodic passages. It's the second-largest standard string instrument after the double bass.\n\nRELATED WORDS:\n- ⟦バイオリン→バイオリン：00009_baiorin⟧ (violin)\n- ⟦ビオラ→ビオラ：09489_biora⟧ (viola)\n- ⟦コントラバス→コントラバス：08149_kontorabasu⟧ (double bass)\n- ⟦{弦楽器|げんがっき}→弦楽器：07534_gengakki⟧ (stringed instrument)",
   "cross_references": [
     {
       "type": "related",
@@ -59,16 +65,30 @@
       "reading": "こんとらばす",
       "headword": "コントラバス",
       "label": "double bass"
+    },
+    {
+      "type": "related",
+      "target_id": "07534_gengakki",
+      "reading": "げんがっき",
+      "headword": "{弦楽器|げんがっき}",
+      "label": "stringed instrument"
     }
   ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "semantic": ["music", "instrument", "classical music"]
+      "politeness": "plain",
+      "semantic": [
+        "music",
+        "instrument",
+        "classical music"
+      ]
     },
     "created": "2026-01-25T05:16:50Z",
-    "modified": "2026-04-20T04:12:15Z"
+    "modified": "2026-09-02T04:01:14Z"
   }
 }

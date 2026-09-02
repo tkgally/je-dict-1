@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "COMPOSITION: {加湿|かしつ} (humidification) + {器|き} (device, appliance)\n・{加|か} - to add\n・{湿|しつ} - moisture, humidity\n・{器|き} - device, container\n\nTYPES OF HUMIDIFIERS:\n・{超音波式|ちょうおんぱしき} - ultrasonic type\n・{加熱式|かねつしき}/{スチーム{式|しき}} - steam type\n・{気化式|きかしき} - evaporative type\n・ハイブリッド{式|しき} - hybrid type\n\nRELATED APPLIANCES:\n・{除湿機|じょしつき} - dehumidifier (antonym function)\n・{空気清浄機|くうきせいじょうき} - air purifier\n・エアコン - air conditioner\n\nCOMMON COLLOCATIONS:\n・{加湿器|かしつき}をつける/かける - to turn on the humidifier\n・{加湿器|かしつき}を{切|き}る - to turn off the humidifier",
+  "notes": "COMPOSITION: ⟦{加湿|かしつ}→加湿：29748_kashitsu⟧ (humidification) + {器|き} (device, appliance)\n- {加|か} - to add\n- {湿|しつ} - moisture, humidity\n- {器|き} - device, container\n\nTYPES OF HUMIDIFIERS:\n- {超音波式|ちょうおんぱしき} - ultrasonic type\n- {加熱式|かねつしき}/⟦スチーム→スチーム：28797_suchiimu⟧{式|しき} - steam type\n- {気化式|きかしき} - evaporative type\n- ⟦ハイブリッド→ハイブリッド：11391_haiburiddo⟧{式|しき} - hybrid type\n\nRELATED APPLIANCES:\n- ⟦{除湿機|じょしつき}→除湿機：06492_joshitsuki⟧ - dehumidifier (antonym function)\n- ⟦{空気清浄機|くうきせいじょうき}→空気清浄機：06510_kuukiseijouki⟧ - air purifier\n- ⟦エアコン→エアコン：05282_eakon⟧ - air conditioner\n\nCOMMON COLLOCATIONS:\n- {加湿器|かしつき}⟦を→を：00422_wo⟧⟦つける→つける：00562_tsukeru⟧/かける - to turn on the humidifier\n- {加湿器|かしつき}⟦を→を：00422_wo⟧⟦{切|き}る→切る：02693_kiru⟧ - to turn off the humidifier",
   "cross_references": [
     {
       "type": "antonym",
@@ -71,11 +71,32 @@
       "headword": "{除湿機|じょしつき}",
       "label": "dehumidifier",
       "target_id": "06492_joshitsuki"
+    },
+    {
+      "type": "related",
+      "target_id": "06510_kuukiseijouki",
+      "reading": "くうきせいじょうき",
+      "headword": "{空気清浄機|くうきせいじょうき}",
+      "label": "air purifier"
+    },
+    {
+      "type": "related",
+      "target_id": "05282_eakon",
+      "reading": "えあこん",
+      "headword": "エアコン",
+      "label": "air conditioner"
+    },
+    {
+      "type": "related",
+      "target_id": "03181_shitsudo",
+      "reading": "しつど",
+      "headword": "{湿度|しつど}",
+      "label": "humidity"
     }
   ],
   "metadata": {
     "created": "2026-01-17T18:43:05Z",
-    "modified": "2026-07-15T06:21:14Z",
+    "modified": "2026-09-02T04:01:08Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

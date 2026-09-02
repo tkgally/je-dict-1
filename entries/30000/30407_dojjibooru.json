@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30407_dojjibooru_ex1",
-      "japanese": "{昼休|ひるやす}みにドッジボールをした。",
+      "japanese": "⟦{昼休|ひるやす}み→昼休み：01715_hiruyasumi⟧⟦に→に：00314_ni⟧ドッジボール⟦を→を：00422_wo⟧⟦した→する：00392_suru⟧。",
       "english": "We played dodgeball during the lunch break.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30407_dojjibooru_ex2",
-      "japanese": "ドッジボールでボールを{当|あ}てられて{外野|がいや}に{出|で}た。",
+      "japanese": "ドッジボール⟦で→で：00502_de⟧⟦ボール→ボール：00017_booru⟧⟦を→を：00422_wo⟧⟦{当|あ}てられて→当てる：01864_ateru⟧⟦{外野|がいや}→外野：09266_gaiya⟧⟦に→に：00314_ni⟧⟦{出|で}た→出る：00513_deru⟧。",
       "english": "I got hit by the ball in dodgeball and had to go to the outfield.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30407_dojjibooru_ex3",
-      "japanese": "{体育|たいいく}の{時間|じかん}にクラス{対抗|たいこう}のドッジボール{大会|たいかい}があり、{最後|さいご}まで{残|のこ}った。",
+      "japanese": "⟦{体育|たいいく}→体育：03384_taiiku⟧⟦の→の：09472_no⟧⟦{時間|じかん}→時間：00468_jikan⟧⟦に→に：00314_ni⟧⟦クラス→クラス：01084_kurasu⟧⟦{対抗|たいこう}→対抗：12398_taikou⟧⟦の→の：09472_no⟧ドッジボール⟦{大会|たいかい}→大会：03386_taikai⟧⟦が→が：00051_ga⟧⟦あり→ある：00006_aru⟧、⟦{最後|さいご}→最後：01413_saigo⟧⟦まで→まで：00490_made⟧⟦{残|のこ}った→残る：01187_nokoru⟧。",
       "english": "There was an inter-class dodgeball tournament during PE, and I survived until the end.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "Also written ドッチボール in casual writing. In the Japanese school version, players who are hit move to the {外野|がいや} (outfield) surrounding the opposing court and can return by hitting someone from there.\n\nCOMMON COLLOCATIONS:\n- ドッジボールをする: to play dodgeball\n- ドッジボール{大会|たいかい}: a dodgeball tournament\n- ボールを{当|あ}てる: to hit someone with the ball\n- ボールを{避|よ}ける: to dodge the ball\n\nSIMILAR WORDS:\n- {球技|きゅうぎ}: ball games — the category term used in PE\n- ドッジ{弾平|だんぺい}: a famous dodgeball manga that popularized the sport",
+  "notes": "Also written ドッチボール in casual writing. In the Japanese school version, players who are hit move to the ⟦{外野|がいや}→外野：09266_gaiya⟧ (outfield) surrounding the opposing court and can return by hitting someone from there.\n\nCOMMON COLLOCATIONS:\n- ドッジボール⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧: to play dodgeball\n- ドッジボール⟦{大会|たいかい}→大会：03386_taikai⟧: a dodgeball tournament\n- ⟦ボール→ボール：00017_booru⟧⟦を→を：00422_wo⟧⟦{当|あ}てる→当てる：01864_ateru⟧: to hit someone with the ball\n- ⟦ボール→ボール：00017_booru⟧⟦を→を：00422_wo⟧⟦{避|よ}ける→避ける：14848_yokeru⟧: to dodge the ball\n\nSIMILAR WORDS:\n- ⟦{球技|きゅうぎ}→球技：09279_kyuugi⟧: ball games — the category term used in PE\n- ドッジ{弾平|だんぺい}: a famous dodgeball manga that popularized the sport",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09279_kyuugi",
+      "reading": "きゅうぎ",
+      "headword": "{球技|きゅうぎ}",
+      "label": "ball games"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +69,6 @@
       "domain": []
     },
     "created": "2026-08-05T00:20:41Z",
-    "modified": "2026-08-05T00:20:41Z"
+    "modified": "2026-09-02T04:02:40Z"
   }
 }

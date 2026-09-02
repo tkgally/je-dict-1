@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "13265_omei_ex1",
-      "japanese": "{汚名|おめい}を{返上|へんじょう}したい。",
+      "japanese": "{汚名|おめい}⟦を→を：00422_wo⟧⟦{返上|へんじょう}→返上：14400_henjou⟧⟦したい→する：00392_suru⟧。",
       "english": "I want to redeem my reputation.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13265_omei_ex2",
-      "japanese": "{裏切|うらぎ}り{者|もの}という{汚名|おめい}を{着|き}せられた。",
+      "japanese": "⟦{裏切|うらぎ}り{者|もの}→裏切り者：25800_uragirimono⟧⟦という→という：09577_toiu⟧{汚名|おめい}⟦を→を：00422_wo⟧⟦{着|き}せられた→着せる：13684_kiseru⟧。",
       "english": "I was branded with the stigma of being a traitor.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13265_omei_ex3",
-      "japanese": "{彼|かれ}は{長年|ながねん}の{努力|どりょく}で{汚名|おめい}を{晴|は}らし、{再|ふたた}び{信頼|しんらい}を{取|と}り{戻|もど}した。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{長年|ながねん}→長年：09684_naganen⟧⟦の→の：09472_no⟧⟦{努力|どりょく}→努力：03490_doryoku⟧⟦で→で：00502_de⟧{汚名|おめい}⟦を→を：00422_wo⟧⟦{晴|は}らし→晴らす：10538_harasu⟧、⟦{再|ふたた}び→再び：03600_futatabi⟧⟦{信頼|しんらい}→信頼：03268_shinrai⟧⟦を→を：00422_wo⟧⟦{取|と}り{戻|もど}した→取り戻す：04223_torimodosu⟧。",
       "english": "Through years of effort, he cleared his name and regained trust.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\n{汚名|おめい} literally means \"dirty name\" and refers to a damaged reputation. It is almost always used with a small set of fixed collocations. The key distinction is between {汚名|おめい}を{返上|へんじょう}する (to redeem one's name through positive action) and {汚名|おめい}を{晴|は}らす (to clear one's name by disproving accusations).\n\nCOMMON COLLOCATIONS:\n- {汚名|おめい}を{返上|へんじょう}する: to redeem one's reputation (through achievement)\n- {汚名|おめい}を{晴|は}らす: to clear one's name\n- {汚名|おめい}を{着|き}せる: to brand someone with disgrace\n- {汚名|おめい}を{被|こうむ}る: to bear a stigma\n- {汚名|おめい}を{残|のこ}す: to leave a stain on one's name",
+  "notes": "USAGE:\n{汚名|おめい} literally means \"dirty name\" and refers to a damaged reputation. It is almost always used with a small set of fixed collocations. The key distinction is between {汚名|おめい}⟦を→を：00422_wo⟧⟦{返上|へんじょう}→返上：14400_henjou⟧⟦する→する：00392_suru⟧ (to redeem one's name through positive action) and {汚名|おめい}⟦を→を：00422_wo⟧⟦{晴|は}らす→晴らす：10538_harasu⟧ (to clear one's name by disproving accusations).\n\nCOMMON COLLOCATIONS:\n- {汚名|おめい}⟦を→を：00422_wo⟧⟦{返上|へんじょう}→返上：14400_henjou⟧⟦する→する：00392_suru⟧: to redeem one's reputation (through achievement)\n- {汚名|おめい}⟦を→を：00422_wo⟧⟦{晴|は}らす→晴らす：10538_harasu⟧: to clear one's name\n- {汚名|おめい}⟦を→を：00422_wo⟧⟦{着|き}せる→着せる：13684_kiseru⟧: to brand someone with disgrace\n- {汚名|おめい}⟦を→を：00422_wo⟧⟦{被|こうむ}る→被る：18070_koumuru⟧: to bear a stigma\n- {汚名|おめい}⟦を→を：00422_wo⟧⟦{残|のこ}す→残す：01975_nokosu⟧: to leave a stain on one's name",
   "cross_references": [
     {
       "type": "antonym",
@@ -46,18 +52,29 @@
       "reading": "めいよ",
       "headword": "{名誉|めいよ}",
       "label": "honor, prestige"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12698_akumei",
+      "reading": "あくめい",
+      "headword": "{悪名|あくめい}",
+      "label": "infamy, bad reputation"
     }
   ],
   "metadata": {
     "created": "2026-02-24T07:29:28Z",
-    "modified": "2026-04-28T08:04:59Z",
+    "modified": "2026-09-02T04:01:32Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

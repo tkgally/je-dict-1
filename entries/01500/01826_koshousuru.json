@@ -2,7 +2,7 @@
   "id": "01826_koshousuru",
   "headword": "{故障|こしょう}する",
   "reading": "こしょうする",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "breakdown, malfunction",
   "conjugation": {
     "type": "suru",
@@ -114,7 +114,7 @@
     },
     {
       "id": "01826_koshousuru_ex2",
-      "japanese": "⟦エレベーター→エレベーター：01340_erebeetaa⟧⟦が→が：00051_ga⟧{故障|こしょう}⟦{中|ちゅう}→〜中：09840_chuu⟧です。",
+      "japanese": "⟦エレベーター→エレベーター：01340_erebeetaa⟧⟦が→が：00051_ga⟧⟦{故障|こしょう}→故障：01405_koshou⟧⟦{中|ちゅう}→〜中：09840_chuu⟧です。",
       "english": "The elevator is out of order.",
       "notes": null,
       "has_audio": false,
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "{故障|こしょう} refers to mechanical or technical malfunctions. It's commonly used for vehicles, machines, and electronics.\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n- No standard transitive pair\n- Pattern: {故障|こしょう}⟦する→する：00392_suru⟧\n\nAS A NOUN:\n- {故障|こしょう}⟦が→が：00051_ga⟧⟦{起|お}きる→起きる：00521_okiru⟧: a breakdown occurs\n- {故障|こしょう}⟦の→の：09472_no⟧⟦{原因|げんいん}→原因：01400_genin⟧: cause of the breakdown\n- {故障|こしょう}⟦{中|ちゅう}→〜中：09840_chuu⟧: out of order (sign)\n\nAS A SURU VERB:\n- ⟦{車|くるま}→車：00516_kuruma⟧⟦が→が：00051_ga⟧{故障|こしょう}⟦する→する：00392_suru⟧: the car breaks down\n- ⟦エレベーター→エレベーター：01340_erebeetaa⟧⟦が→が：00051_ga⟧{故障|こしょう}した: the elevator broke down\n\nCOMMON COLLOCATIONS:\n- {故障|こしょう}⟦を→を：00422_wo⟧⟦{直|なお}す→直す：00869_naosu⟧/⟦{修理|しゅうり}する→修理：03214_shuuri⟧: to repair\n- {故障|こしょう}⟦で→で：00502_de⟧⟦{動|うご}かない→動く：00904_ugoku⟧: not working due to malfunction\n\nCOMPARE:\n- {故障|こしょう}: mechanical malfunction\n- ⟦{壊|こわ}れる→壊れる：00791_kowareru⟧: to break (general)\n- ⟦{不具合|ふぐあい}→不具合：06413_fuguai⟧: defect, bug (technical)",
+  "notes": "⟦{故障|こしょう}→故障：01405_koshou⟧ refers to mechanical or technical malfunctions. It's commonly used for vehicles, machines, and electronics.\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n- No standard transitive pair\n- Pattern: {故障|こしょう}⟦する→する：00392_suru⟧\n\nAS A NOUN:\n- ⟦{故障|こしょう}→故障：01405_koshou⟧⟦が→が：00051_ga⟧⟦{起|お}きる→起きる：00521_okiru⟧: a breakdown occurs\n- ⟦{故障|こしょう}→故障：01405_koshou⟧⟦の→の：09472_no⟧⟦{原因|げんいん}→原因：01400_genin⟧: cause of the breakdown\n- ⟦{故障|こしょう}→故障：01405_koshou⟧⟦{中|ちゅう}→〜中：09840_chuu⟧: out of order (sign)\n\nAS A SURU VERB:\n- ⟦{車|くるま}→車：00516_kuruma⟧⟦が→が：00051_ga⟧{故障|こしょう}⟦する→する：00392_suru⟧: the car breaks down\n- ⟦エレベーター→エレベーター：01340_erebeetaa⟧⟦が→が：00051_ga⟧{故障|こしょう}した: the elevator broke down\n\nCOMMON COLLOCATIONS:\n- ⟦{故障|こしょう}→故障：01405_koshou⟧⟦を→を：00422_wo⟧⟦{直|なお}す→直す：00869_naosu⟧/⟦{修理|しゅうり}する→修理：03214_shuuri⟧: to repair\n- ⟦{故障|こしょう}→故障：01405_koshou⟧⟦で→で：00502_de⟧⟦{動|うご}かない→動く：00904_ugoku⟧: not working due to malfunction\n\nSIMILAR WORDS:\n- ⟦{故障|こしょう}→故障：01405_koshou⟧: mechanical malfunction\n- ⟦{壊|こわ}れる→壊れる：00791_kowareru⟧: to break (general)\n- ⟦{不具合|ふぐあい}→不具合：06413_fuguai⟧: defect, bug (technical)",
   "cross_references": [
     {
       "type": "contrast",
@@ -141,11 +141,18 @@
       "reading": "こわれる",
       "headword": "{壊|こわ}れる",
       "label": "to break (general)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06413_fuguai",
+      "reading": "ふぐあい",
+      "headword": "{不具合|ふぐあい}",
+      "label": "defect, bug"
     }
   ],
   "metadata": {
     "created": "2026-01-09T12:34:19Z",
-    "modified": "2026-05-17T13:09:03Z",
+    "modified": "2026-09-02T04:01:00Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

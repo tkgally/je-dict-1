@@ -15,41 +15,59 @@
   "examples": [
     {
       "id": "18096_shanaihanba_ex1",
-      "japanese": "{車内|しゃない}{販売|はんばい}でコーヒーを{買|か}う。",
+      "japanese": "{車内|しゃない}{販売|はんばい}⟦で→で：00502_de⟧⟦コーヒー→コーヒー：00789_koohii⟧⟦を→を：00422_wo⟧⟦{買|か}う→買う：00489_kau⟧。",
       "english": "To buy coffee from the on-board trolley service.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18096_shanaihanba_ex2",
-      "japanese": "{新幹線|しんかんせん}の{車内|しゃない}{販売|はんばい}が{終了|しゅうりょう}した。",
+      "japanese": "⟦{新幹線|しんかんせん}→新幹線：01053_shinkansen⟧⟦の→の：09472_no⟧{車内|しゃない}{販売|はんばい}⟦が→が：00051_ga⟧⟦{終了|しゅうりょう}した→終了する：22990_shuuryousuru⟧。",
       "english": "The Shinkansen's trolley service has been discontinued.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18096_shanaihanba_ex3",
-      "japanese": "かつては{車内|しゃない}{販売|はんばい}で{弁当|べんとう}やお{土産|みやげ}を{買|か}うのが{列車|れっしゃ}{旅行|りょこう}の{楽|たの}しみだった。",
+      "japanese": "⟦かつて→かつて：10303_katsute⟧⟦は→は：00079_ha⟧{車内|しゃない}{販売|はんばい}⟦で→で：00502_de⟧⟦{弁当|べんとう}→弁当：01014_bentou⟧や⟦お{土産|みやげ}→お土産：01353_omiyage⟧⟦を→を：00422_wo⟧⟦{買|か}う→買う：00489_kau⟧⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦{列車|れっしゃ}→列車：01670_ressha⟧⟦{旅行|りょこう}→旅行：00748_ryokou⟧⟦の→の：09472_no⟧⟦{楽|たの}しみ→楽しみ：01651_tanoshimi⟧だった。",
       "english": "Buying boxed lunches and souvenirs from the trolley service used to be one of the pleasures of train travel.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nA familiar term for anyone who has traveled by Shinkansen. JR East ended regular trolley service on the Tokaido Shinkansen in 2023, making this increasingly a nostalgic term, though some routes still offer it.\n\nCOMMON COLLOCATIONS:\n- {車内|しゃない}{販売|はんばい}のワゴン (the on-board sales cart)\n- {車内|しゃない}{販売|はんばい}を{利用|りよう}する (to use the trolley service)\n- {車内|しゃない}{販売|はんばい}が{廃止|はいし}される (trolley service to be abolished)",
-  "cross_references": [],
+  "notes": "USAGE:\nA familiar term for anyone who has traveled by Shinkansen. JR East ended regular trolley service on the Tokaido Shinkansen in 2023, making this increasingly a nostalgic term, though some routes still offer it.\n\nCOMMON COLLOCATIONS:\n- {車内|しゃない}{販売|はんばい}⟦の→の：09472_no⟧ワゴン (the on-board sales cart)\n- {車内|しゃない}{販売|はんばい}⟦を→を：00422_wo⟧⟦{利用|りよう}する→利用する：21735_riyousuru⟧ (to use the trolley service)\n- {車内|しゃない}{販売|はんばい}⟦が→が：00051_ga⟧⟦{廃止|はいし}→廃止：12483_haishi⟧⟦される→する：00392_suru⟧ (trolley service to be abolished)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "23784_shokudousha",
+      "reading": "しょくどうしゃ",
+      "headword": "{食堂車|しょくどうしゃ}",
+      "label": "dining car (on a train)"
+    }
+  ],
   "metadata": {
     "created": "2026-03-20T02:40:57Z",
-    "modified": "2026-03-20T02:40:57Z",
+    "modified": "2026-09-02T04:01:50Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["transportation"]
+      "semantic": [
+        "transportation"
+      ]
     }
   }
 }

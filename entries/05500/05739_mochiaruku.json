@@ -114,7 +114,7 @@
     },
     {
       "id": "05739_mochiaruku_ex2",
-      "japanese": "⟦いつも→いつも：00599_itsumo⟧⟦スマホ→スマホ：04721_sumaho⟧⟦を→を：00422_wo⟧{持|も}ち{歩|ある}いている。",
+      "japanese": "⟦いつも→いつも：00599_itsumo⟧⟦スマホ→スマホ：04721_sumaho⟧⟦を→を：00422_wo⟧{持|も}ち{歩|ある}いて⟦いる→いる：00495_iru⟧。",
       "english": "I always carry my smartphone with me.",
       "notes": null,
       "has_audio": false,
@@ -153,11 +153,26 @@
       ]
     }
   ],
-  "notes": "{持|も}ち{歩|ある}く means to carry something around with you as you go about your daily activities.\n\nCOMPOUND VERB:\nFormed from ⟦{持|も}つ→持つ：00478_motsu⟧ (to hold) + ⟦{歩|ある}く→歩く：00538_aruku⟧ (to walk). The combination emphasizes carrying something habitually or while moving from place to place.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- Takes を particle: ⟦スマホ→スマホ：04721_sumaho⟧⟦を→を：00422_wo⟧{持|も}ち{歩|ある}く\n\nASPECT (ている):\n{持|も}ち{歩|ある}いている indicates a habitual practice of carrying something.\n\nCOMMON PATTERNS:\n- ⟦いつも→いつも：00599_itsumo⟧{持|も}ち{歩|ある}く: to always carry around\n- ⟦{現金|げんきん}→現金：02716_genkin⟧⟦を→を：00422_wo⟧{持|も}ち{歩|ある}く: to carry cash\n- ⟦{傘|かさ}→傘：00639_kasa⟧⟦を→を：00422_wo⟧{持|も}ち{歩|ある}く: to carry an umbrella\n- ⟦パスポート→パスポート：00341_pasupooto⟧⟦を→を：00422_wo⟧{持|も}ち{歩|ある}く: to carry a passport\n\nRELATED: ⟦{携帯|けいたい}する→携帯する：21144_keitaisuru⟧ is a more formal synonym meaning \"to carry/bring along.\"",
-  "cross_references": [],
+  "notes": "{持|も}ち{歩|ある}く means to carry something around with you as you go about your daily activities.\n\nCOMPOUND VERB:\nFormed from ⟦{持|も}つ→持つ：00478_motsu⟧ (to hold) + ⟦{歩|ある}く→歩く：00538_aruku⟧ (to walk). The combination emphasizes carrying something habitually or while moving from place to place.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- Takes ⟦を→を：00422_wo⟧ particle: ⟦スマホ→スマホ：04721_sumaho⟧⟦を→を：00422_wo⟧{持|も}ち{歩|ある}く\n\nASPECT (ている):\n{持|も}ち{歩|ある}いて⟦いる→いる：00495_iru⟧ indicates a habitual practice of carrying something.\n\nCOMMON PATTERNS:\n- ⟦いつも→いつも：00599_itsumo⟧{持|も}ち{歩|ある}く: to always carry around\n- ⟦{現金|げんきん}→現金：02716_genkin⟧⟦を→を：00422_wo⟧{持|も}ち{歩|ある}く: to carry cash\n- ⟦{傘|かさ}→傘：00639_kasa⟧⟦を→を：00422_wo⟧{持|も}ち{歩|ある}く: to carry an umbrella\n- ⟦パスポート→パスポート：00341_pasupooto⟧⟦を→を：00422_wo⟧{持|も}ち{歩|ある}く: to carry a passport\n\nRELATED: ⟦{携帯|けいたい}する→携帯する：21144_keitaisuru⟧ is a more formal synonym meaning \"to carry/bring along.\"",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19699_mochihakobu",
+      "reading": "もちはこぶ",
+      "headword": "{持|も}ち{運|はこ}ぶ",
+      "label": "to carry"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21144_keitaisuru",
+      "reading": "けいたいする",
+      "headword": "{携帯|けいたい}する",
+      "label": "to carry"
+    }
+  ],
   "metadata": {
     "created": "2026-01-16T08:43:51Z",
-    "modified": "2026-06-08T13:06:41Z",
+    "modified": "2026-09-02T04:01:07Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

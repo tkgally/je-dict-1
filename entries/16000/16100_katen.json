@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "16100_katen_ex1",
-      "japanese": "ボーナス{問題|もんだい}で{加点|かてん}される。",
+      "japanese": "⟦ボーナス→ボーナス：05878_boonasu⟧⟦{問題|もんだい}→問題：00797_mondai⟧⟦で→で：00502_de⟧{加点|かてん}⟦される→する：00392_suru⟧。",
       "english": "Extra points are added for the bonus question.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "16100_katen_ex2",
-      "japanese": "{出席率|しゅっせきりつ}が{高|たか}い{学生|がくせい}には{加点|かてん}がある。",
+      "japanese": "⟦{出席率|しゅっせきりつ}→出席率：16604_shussekiritsu⟧⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧⟦{学生|がくせい}→学生：00610_gakusei⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{加点|かてん}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "Students with high attendance get bonus points.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "16100_katen_ex3",
-      "japanese": "{面接|めんせつ}での{印象|いんしょう}が{良|よ}ければ、{採点|さいてん}に{加点|かてん}されることもある。",
+      "japanese": "⟦{面接|めんせつ}→面接：01100_mensetsu⟧⟦で→で：00502_de⟧⟦の→の：09472_no⟧⟦{印象|いんしょう}→印象：01846_inshou⟧⟦が→が：00051_ga⟧⟦{良|よ}ければ→良い：02350_yoi⟧、⟦{採点|さいてん}→採点：04160_saiten⟧⟦に→に：00314_ni⟧{加点|かてん}⟦される→する：00392_suru⟧こと⟦も→も：00484_mo⟧⟦ある→ある：00006_aru⟧。",
       "english": "If the impression during the interview is good, bonus points may be added to the score.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nUsed as a suru-verb ({加点|かてん}する). Common in education (grading, exams) and sports (scoring). The opposite is {減点|げんてん} (point deduction).\n\nCOMMON COLLOCATIONS:\n- {加点|かてん}する (to add points)\n- {加点|かてん}される (to have points added)\n- {加点|かてん}{方式|ほうしき} (additive scoring system)\n\nSIMILAR WORDS:\n- {減点|げんてん}: deduction of points — the opposite, subtracting points for errors\n- {得点|とくてん}: score, points earned — the total points one has obtained",
+  "notes": "USAGE:\nUsed as a suru-verb ({加点|かてん}⟦する→する：00392_suru⟧). Common in education (grading, exams) and sports (scoring). The opposite is ⟦{減点|げんてん}→減点：16413_genten⟧ (point deduction).\n\nCOMMON COLLOCATIONS:\n- {加点|かてん}⟦する→する：00392_suru⟧ (to add points)\n- {加点|かてん}⟦される→する：00392_suru⟧ (to have points added)\n- {加点|かてん}⟦{方式|ほうしき}→方式：05454_houshiki⟧ (additive scoring system)\n\nSIMILAR WORDS:\n- ⟦{減点|げんてん}→減点：16413_genten⟧: deduction of points — the opposite, subtracting points for errors\n- ⟦{得点|とくてん}→得点：04909_tokuten⟧: score, points earned — the total points one has obtained",
   "cross_references": [
     {
       "type": "antonym",
@@ -142,11 +142,18 @@
       "reading": "げんてん",
       "headword": "{減点|げんてん}",
       "label": "deducting points"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04909_tokuten",
+      "reading": "とくてん",
+      "headword": "{得点|とくてん}",
+      "label": "score, points earned"
     }
   ],
   "metadata": {
     "created": "2026-03-09T12:26:37Z",
-    "modified": "2026-05-03T05:08:01Z",
+    "modified": "2026-09-02T04:01:43Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

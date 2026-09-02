@@ -15,38 +15,66 @@
   "examples": [
     {
       "id": "24766_hanagami_ex1",
-      "japanese": "{鼻紙|はながみ}を{持|も}っていますか。",
+      "japanese": "{鼻紙|はながみ}⟦を→を：00422_wo⟧⟦{持|も}っています→持つ：00478_motsu⟧⟦か→か：09473_ka⟧。",
       "english": "Do you have a tissue?",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "24766_hanagami_ex2",
-      "japanese": "{風邪|かぜ}をひいて{鼻紙|はながみ}が{手放|てばな}せない。",
+      "japanese": "⟦{風邪|かぜ}→風邪：02188_kaze⟧⟦を→を：00422_wo⟧ひいて{鼻紙|はながみ}⟦が→が：00051_ga⟧⟦{手放|てばな}せない→手放す：05338_tebanasu⟧。",
       "english": "I have a cold and can't do without tissues.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "24766_hanagami_ex3",
-      "japanese": "{昔|むかし}は{和紙|わし}を{鼻紙|はながみ}として{使|つか}っていたが、{今|いま}はティッシュペーパーが{一般的|いっぱんてき}だ。",
+      "japanese": "⟦{昔|むかし}→昔：01515_mukashi⟧⟦は→は：00079_ha⟧⟦{和紙|わし}→和紙：02268_washi⟧⟦を→を：00422_wo⟧{鼻紙|はながみ}⟦として→として：06802_toshite⟧⟦{使|つか}っていた→使う：00473_tsukau⟧⟦が→が：00051_ga⟧、⟦{今|いま}→今：00945_ima⟧⟦は→は：00079_ha⟧⟦ティッシュペーパー→ティッシュペーパー：23909_tisshupeepaa⟧⟦が→が：00051_ga⟧⟦{一般的|いっぱんてき}→一般的：04784_ippanteki⟧だ。",
       "english": "In the old days, Japanese paper was used as tissue, but nowadays tissue paper is standard.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {鼻|はな} (nose) and {紙|かみ} (paper). This is the traditional Japanese word for tissue paper, predating the loanword ティッシュ.\n\nIn modern Japanese, ティッシュ or ティッシュペーパー has largely replaced {鼻紙|はながみ} in everyday conversation. However, {鼻紙|はながみ} is still understood and occasionally used, especially by older speakers. It also appears in historical contexts referring to the soft {和紙|わし} that was carried for personal use during the Edo period.\n\nCOMMON COLLOCATIONS:\n- {鼻紙|はながみ}で{鼻|はな}をかむ: to blow one's nose with a tissue\n- {鼻紙|はながみ}を{持|も}ち{歩|ある}く: to carry tissues with you\n\nSIMILAR WORDS:\n- ティッシュ: tissue — the common modern word\n- {懐紙|かいし}: pocket paper — decorative paper carried in the kimono front, used in tea ceremony\n- {ちり{紙|がみ}}: toilet paper, tissue — slightly old-fashioned term for soft paper",
+  "notes": "A compound of ⟦{鼻|はな}→鼻：02164_hana⟧ (nose) and ⟦{紙|かみ}→紙：00712_kami⟧ (paper). This is the traditional Japanese word for tissue paper, predating the loanword ⟦ティッシュ→ティッシュ：08816_tisshu⟧.\n\nIn modern Japanese, ⟦ティッシュ→ティッシュ：08816_tisshu⟧ or ⟦ティッシュペーパー→ティッシュペーパー：23909_tisshupeepaa⟧ has largely replaced {鼻紙|はながみ} in everyday conversation. However, {鼻紙|はながみ} is still understood and occasionally used, especially by older speakers. It also appears in historical contexts referring to the soft ⟦{和紙|わし}→和紙：02268_washi⟧ that was carried for personal use during the Edo period.\n\nCOMMON COLLOCATIONS:\n- {鼻紙|はながみ}⟦で→で：00502_de⟧⟦{鼻|はな}をかむ→鼻をかむ：20073_hanawokamu⟧: to blow one's nose with a tissue\n- {鼻紙|はながみ}⟦を→を：00422_wo⟧⟦{持|も}ち{歩|ある}く→持ち歩く：05739_mochiaruku⟧: to carry tissues with you\n\nSIMILAR WORDS:\n- ⟦ティッシュ→ティッシュ：08816_tisshu⟧: tissue — the common modern word\n- {懐紙|かいし}: pocket paper — decorative paper carried in the kimono front, used in tea ceremony\n- ちり{紙|がみ}: toilet paper, tissue — slightly old-fashioned term for soft paper",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08816_tisshu",
+      "reading": "てぃっしゅ",
+      "headword": "ティッシュ",
+      "label": "tissue"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23909_tisshupeepaa",
+      "reading": "てぃっしゅぺーぱー",
+      "headword": "ティッシュペーパー",
+      "label": "tissue paper"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["daily-life"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "daily-life"
+      ]
     },
     "created": "2026-04-20T14:38:37Z",
-    "modified": "2026-04-20T14:38:37Z"
+    "modified": "2026-09-02T04:02:19Z"
   }
 }

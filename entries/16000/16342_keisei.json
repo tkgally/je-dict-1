@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "16342_keisei_ex1",
-      "japanese": "{形勢|けいせい}が{逆転|ぎゃくてん}した。",
+      "japanese": "{形勢|けいせい}⟦が→が：00051_ga⟧⟦{逆転|ぎゃくてん}→逆転：06839_gyakuten⟧⟦した→する：00392_suru⟧。",
       "english": "The tide has turned.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "16342_keisei_ex2",
-      "japanese": "{形勢|けいせい}{不利|ふり}と{見|み}て{撤退|てったい}した。",
+      "japanese": "{形勢|けいせい}⟦{不利|ふり}→不利：03603_furi⟧⟦と→と：00512_to⟧⟦{見|み}て→見る：00283_miru⟧⟦{撤退|てったい}した→撤退する：25360_tettaisuru⟧。",
       "english": "Seeing that the situation was unfavorable, they retreated.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "16342_keisei_ex3",
-      "japanese": "{後半|こうはん}に{入|はい}って{形勢|けいせい}が{大|おお}きく{変|か}わった。",
+      "japanese": "⟦{後半|こうはん}→後半：12555_kouhan⟧⟦に→に：00314_ni⟧⟦{入|はい}って→入る：00494_hairu⟧{形勢|けいせい}⟦が→が：00051_ga⟧⟦{大|おお}きく→大きい：00335_ookii⟧⟦{変|か}わった→変わる：00714_kawaru⟧。",
       "english": "The situation changed dramatically in the second half.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "COMMON COLLOCATIONS:\n- {形勢|けいせい}{逆転|ぎゃくてん}: reversal of the situation, turning the tables\n- {形勢|けいせい}{不利|ふり}: unfavorable situation, being at a disadvantage\n- {形勢|けいせい}{有利|ゆうり}: favorable situation, having the advantage\n- {形勢|けいせい}を{見|み}る: to assess the situation\n\nSIMILAR WORDS:\n- {情勢|じょうせい}: situation, state of affairs (broader; used for political/social conditions)\n- {戦況|せんきょう}: war situation, state of the battle\n- {局面|きょくめん}: phase, aspect (of a situation or game)\n\nNOTE:\nDo not confuse with the homophone {形成|けいせい} (formation, forming).",
+  "notes": "COMMON COLLOCATIONS:\n- {形勢|けいせい}⟦{逆転|ぎゃくてん}→逆転：06839_gyakuten⟧: reversal of the situation, turning the tables\n- {形勢|けいせい}⟦{不利|ふり}→不利：03603_furi⟧: unfavorable situation, being at a disadvantage\n- {形勢|けいせい}⟦{有利|ゆうり}→有利：03651_yuuri⟧: favorable situation, having the advantage\n- {形勢|けいせい}⟦を→を：00422_wo⟧⟦{見|み}る→見る：00283_miru⟧: to assess the situation\n\nSIMILAR WORDS:\n- ⟦{情勢|じょうせい}→情勢：12739_jousei⟧: situation, state of affairs (broader; used for political/social conditions)\n- ⟦{戦況|せんきょう}→戦況：21291_senkyou⟧: war situation, state of the battle\n- ⟦{局面|きょくめん}→局面：05777_kyokumen⟧: phase, aspect (of a situation or game)\n\nUSAGE:\nDo not confuse with the homophone ⟦{形成|けいせい}→形成：12541_keisei⟧ (formation, forming).",
   "cross_references": [
     {
       "type": "synonym",
@@ -51,11 +51,39 @@
       "reading": "じょうせい",
       "headword": "{情勢|じょうせい}",
       "label": "broader, political/social"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21291_senkyou",
+      "reading": "せんきょう",
+      "headword": "{戦況|せんきょう}",
+      "label": "war situation, state of the battle"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05777_kyokumen",
+      "reading": "きょくめん",
+      "headword": "{局面|きょくめん}",
+      "label": "phase, aspect"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16328_yuusei",
+      "reading": "ゆうせい",
+      "headword": "{優勢|ゆうせい}",
+      "label": "superiority, dominance, advantage"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18285_kumoyuki",
+      "reading": "くもゆき",
+      "headword": "{雲行|くもゆ}き",
+      "label": "look of the sky"
     }
   ],
   "metadata": {
     "created": "2026-03-12T01:29:06Z",
-    "modified": "2026-05-03T09:07:48Z",
+    "modified": "2026-09-02T04:01:44Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

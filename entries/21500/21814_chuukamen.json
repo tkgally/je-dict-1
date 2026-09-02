@@ -15,40 +15,80 @@
   "examples": [
     {
       "id": "21814_chuukamen_ex1",
-      "japanese": "{中華麺|ちゅうかめん}を{茹|ゆ}でる。",
+      "japanese": "{中華麺|ちゅうかめん}⟦を→を：00422_wo⟧⟦{茹|ゆ}でる→茹でる：02324_yuderu⟧。",
       "english": "To boil Chinese-style noodles.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21814_chuukamen_ex2",
-      "japanese": "ラーメンには{中華麺|ちゅうかめん}が{使|つか}われる。",
+      "japanese": "⟦ラーメン→ラーメン：05181_raamen⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{中華麺|ちゅうかめん}⟦が→が：00051_ga⟧⟦{使|つか}われる→使う：00473_tsukau⟧。",
       "english": "Chinese-style noodles are used in ramen.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21814_chuukamen_ex3",
-      "japanese": "スーパーで{中華麺|ちゅうかめん}を{買|か}って、{家|いえ}で{焼|や}きそばを{作|つく}った。",
+      "japanese": "⟦スーパー→スーパー：01061_suupaa⟧⟦で→で：00502_de⟧{中華麺|ちゅうかめん}⟦を→を：00422_wo⟧⟦{買|か}って→買う：00489_kau⟧、⟦{家|いえ}→家：00612_ie⟧⟦で→で：00502_de⟧⟦{焼|や}きそば→焼きそば：13405_yakisoba⟧⟦を→を：00422_wo⟧⟦{作|つく}った→作る：00481_tsukuru⟧。",
       "english": "I bought Chinese-style noodles at the supermarket and made yakisoba at home.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {中華|ちゅうか} (Chinese cuisine) and {麺|めん} (noodles). These noodles are distinguished from {蕎麦|そば} (buckwheat noodles) and うどん (thick wheat noodles) by the use of {鹹水|かんすい} (kansui, alkaline water), which gives them a yellow tint and chewy texture.\n\nCOMMON COLLOCATIONS:\n- {中華麺|ちゅうかめん}を{茹|ゆ}でる: to boil Chinese noodles\n- {生|なま}{中華麺|ちゅうかめん}: fresh Chinese noodles\n- {乾燥|かんそう}{中華麺|ちゅうかめん}: dried Chinese noodles\n- {太|ふと}{麺|めん}/{細|ほそ}{麺|めん}: thick noodles / thin noodles\n\nRELATED TERMS:\n- ラーメン: ramen — the most common dish made with {中華麺|ちゅうかめん}\n- {焼|や}きそば: fried noodles — another popular dish using these noodles\n- うどん: udon — thick wheat noodles without kansui\n- {蕎麦|そば}: soba — buckwheat noodles",
+  "notes": "A compound of ⟦{中華|ちゅうか}→中華：11322_chuuka⟧ (Chinese cuisine) and ⟦{麺|めん}→麺：14644_men⟧ (noodles). These noodles are distinguished from ⟦{蕎麦|そば}→蕎麦：14329_soba⟧ (buckwheat noodles) and ⟦うどん→うどん：05182_udon⟧ (thick wheat noodles) by the use of {鹹水|かんすい} (kansui, alkaline water), which gives them a yellow tint and chewy texture.\n\nCOMMON COLLOCATIONS:\n- {中華麺|ちゅうかめん}⟦を→を：00422_wo⟧⟦{茹|ゆ}でる→茹でる：02324_yuderu⟧: to boil Chinese noodles\n- {生|なま}{中華麺|ちゅうかめん}: fresh Chinese noodles\n- ⟦{乾燥|かんそう}→乾燥：00184_kansou⟧{中華麺|ちゅうかめん}: dried Chinese noodles\n- {太|ふと}⟦{麺|めん}→麺：14644_men⟧/{細|ほそ}⟦{麺|めん}→麺：14644_men⟧: thick noodles / thin noodles\n\nRELATED WORDS:\n- ⟦ラーメン→ラーメン：05181_raamen⟧: ramen — the most common dish made with {中華麺|ちゅうかめん}\n- ⟦{焼|や}きそば→焼きそば：13405_yakisoba⟧: fried noodles — another popular dish using these noodles\n- ⟦うどん→うどん：05182_udon⟧: udon — thick wheat noodles without kansui\n- ⟦{蕎麦|そば}→蕎麦：14329_soba⟧: soba — buckwheat noodles",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "05181_raamen",
+      "reading": "らーめん",
+      "headword": "ラーメン",
+      "label": "ramen"
+    },
+    {
+      "type": "related",
+      "target_id": "13405_yakisoba",
+      "reading": "やきそば",
+      "headword": "{焼|や}きそば",
+      "label": "fried noodles"
+    },
+    {
+      "type": "related",
+      "target_id": "05182_udon",
+      "reading": "うどん",
+      "headword": "うどん",
+      "label": "udon"
+    },
+    {
+      "type": "related",
+      "target_id": "14329_soba",
+      "reading": "そば",
+      "headword": "{蕎麦|そば}",
+      "label": "soba"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food"]
+      "semantic": [
+        "food"
+      ]
     },
     "created": "2026-04-03T18:24:35Z",
-    "modified": "2026-04-03T18:24:35Z"
+    "modified": "2026-09-02T04:02:05Z"
   }
 }

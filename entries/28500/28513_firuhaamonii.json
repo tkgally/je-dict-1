@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28513_firuhaamonii_ex1",
-      "japanese": "{東京|とうきょう}フィルハーモニーの{演奏会|えんそうかい}に{行|い}った。",
+      "japanese": "⟦{東京|とうきょう}→東京：09564_toukyou⟧フィルハーモニー⟦の→の：09472_no⟧⟦{演奏会|えんそうかい}→演奏会：18026_ensoukai⟧⟦に→に：00314_ni⟧⟦{行|い}った→行く：00119_iku⟧。",
       "english": "I went to a Tokyo Philharmonic concert.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28513_firuhaamonii_ex2",
-      "japanese": "ベルリン・フィルハーモニーは{世界|せかい}{最高|さいこう}{峰|ほう}のオーケストラだ。",
+      "japanese": "ベルリン・フィルハーモニー⟦は→は：00079_ha⟧⟦{世界|せかい}→世界：01447_sekai⟧⟦{最高|さいこう}→最高：02637_saikou⟧{峰|ほう}⟦の→の：09472_no⟧⟦オーケストラ→オーケストラ：04466_ookesutora⟧だ。",
       "english": "The Berlin Philharmonic is one of the world's top orchestras.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28513_firuhaamonii_ex3",
-      "japanese": "{彼|かれ}はフィルハーモニーの{首席|しゅせき}{指揮|しき}{者|しゃ}に{就任|しゅうにん}した。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧フィルハーモニー⟦の→の：09472_no⟧⟦{首席|しゅせき}→首席：22104_shuseki⟧⟦{指揮|しき}{者|しゃ}→指揮者：06565_shikisha⟧⟦に→に：00314_ni⟧⟦{就任|しゅうにん}→就任：12368_shuunin⟧⟦した→する：00392_suru⟧。",
       "english": "He was appointed principal conductor of the philharmonic.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Loanword from German \"Philharmonie\" (philharmonic society/orchestra). Found almost exclusively in proper names of orchestras; rarely used as a standalone common noun.\n\nCOMMON COLLOCATIONS:\n- {東京|とうきょう}フィルハーモニー{交響楽団|こうきょうがくだん}: Tokyo Philharmonic Orchestra\n- ベルリン・フィルハーモニー: Berlin Philharmonic\n- フィル: shortened form used in casual reference\n\nSIMILAR WORDS:\n- オーケストラ: orchestra — generic term\n- {交響楽団|こうきょうがくだん}: symphony orchestra — formal Japanese equivalent",
+  "notes": "Loanword from German \"Philharmonie\" (philharmonic society/orchestra). Found almost exclusively in proper names of orchestras; rarely used as a standalone common noun.\n\nCOMMON COLLOCATIONS:\n- ⟦{東京|とうきょう}→東京：09564_toukyou⟧フィルハーモニー⟦{交響楽団|こうきょうがくだん}→交響楽団：28508_koukyougakudan⟧: Tokyo Philharmonic Orchestra\n- ベルリン・フィルハーモニー: Berlin Philharmonic\n- フィル: shortened form used in casual reference\n\nSIMILAR WORDS:\n- ⟦オーケストラ→オーケストラ：04466_ookesutora⟧: orchestra — generic term\n- ⟦{交響楽団|こうきょうがくだん}→交響楽団：28508_koukyougakudan⟧: symphony orchestra — formal Japanese equivalent",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04466_ookesutora",
+      "reading": "おーけすとら",
+      "headword": "オーケストラ",
+      "label": "orchestra"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28508_koukyougakudan",
+      "reading": "こうきょうがくだん",
+      "headword": "{交響楽団|こうきょうがくだん}",
+      "label": "symphony orchestra"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +69,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "music",
         "society"
@@ -61,6 +77,6 @@
       "domain": []
     },
     "created": "2026-06-01T03:07:14Z",
-    "modified": "2026-08-08T18:34:17Z"
+    "modified": "2026-09-02T04:02:33Z"
   }
 }

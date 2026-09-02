@@ -3,7 +3,7 @@
   "headword": "{悲嘆|ひたん}",
   "reading": "ひたん",
   "romaji": "hitan",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "grief; sorrow; lamentation",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21435_hitan_ex1",
-      "japanese": "{悲嘆|ひたん}に{暮|く}れる。",
+      "japanese": "{悲嘆|ひたん}⟦に→に：00314_ni⟧{暮|く}れる。",
       "english": "To be overwhelmed with grief.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21435_hitan_ex2",
-      "japanese": "{彼女|かのじょ}は{夫|おっと}の{死|し}を{深|ふか}く{悲嘆|ひたん}した。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧⟦{夫|おっと}→夫：00982_otto⟧⟦の→の：09472_no⟧⟦{死|し}→死：13248_shi⟧⟦を→を：00422_wo⟧⟦{深|ふか}く→深い：01211_fukai⟧{悲嘆|ひたん}⟦した→する：00392_suru⟧。",
       "english": "She grieved deeply over her husband's death.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21435_hitan_ex3",
-      "japanese": "{突然|とつぜん}の{事故|じこ}で{息子|むすこ}を{失|うしな}った{母親|ははおや}は、{深|ふか}い{悲嘆|ひたん}の{中|なか}にいた。",
+      "japanese": "⟦{突然|とつぜん}→突然：00409_totsuzen⟧⟦の→の：09472_no⟧⟦{事故|じこ}→事故：00851_jiko⟧⟦で→で：00502_de⟧⟦{息子|むすこ}→息子：00799_musuko⟧⟦を→を：00422_wo⟧⟦{失|うしな}った→失う：01887_ushinau⟧⟦{母親|ははおや}→母親：03564_hahaoya⟧⟦は→は：00079_ha⟧、⟦{深|ふか}い→深い：01211_fukai⟧{悲嘆|ひたん}⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧にいた。",
       "english": "The mother who lost her son in a sudden accident was in deep grief.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {悲|ひ} (sad) and {嘆|たん} (to sigh, to lament). More literary and formal than {悲|かな}しみ. The verb form is {悲嘆|ひたん}する. Often used in written language, news, and formal contexts.\n\nCOMMON COLLOCATIONS:\n- {悲嘆|ひたん}に{暮|く}れる: to be consumed by grief\n- {悲嘆|ひたん}に{沈|しず}む: to sink into sorrow\n- {深|ふか}い{悲嘆|ひたん}: deep grief\n- {悲嘆|ひたん}の{涙|なみだ}: tears of grief\n\nSIMILAR WORDS:\n- {悲|かな}しみ: sadness — the everyday word for sadness, broader and less intense\n- {哀悼|あいとう}: mourning, condolence — specifically grief expressed for the dead\n- {嘆|なげ}き: lamentation, grief — somewhat literary but less formal than {悲嘆|ひたん}",
+  "notes": "A compound of {悲|ひ} (sad) and {嘆|たん} (to sigh, to lament). More literary and formal than ⟦{悲|かな}しみ→悲しみ：05404_kanashimi⟧. The verb form is {悲嘆|ひたん}⟦する→する：00392_suru⟧. Often used in written language, news, and formal contexts.\n\nCOMMON COLLOCATIONS:\n- {悲嘆|ひたん}⟦に→に：00314_ni⟧{暮|く}れる: to be consumed by grief\n- {悲嘆|ひたん}⟦に→に：00314_ni⟧⟦{沈|しず}む→沈む：02061_shizumu⟧: to sink into sorrow\n- ⟦{深|ふか}い→深い：01211_fukai⟧{悲嘆|ひたん}: deep grief\n- {悲嘆|ひたん}⟦の→の：09472_no⟧⟦{涙|なみだ}→涙：02235_namida⟧: tears of grief\n\nSIMILAR WORDS:\n- ⟦{悲|かな}しみ→悲しみ：05404_kanashimi⟧: sadness — the everyday word for sadness, broader and less intense\n- ⟦{哀悼|あいとう}→哀悼：15556_aitou⟧: mourning, condolence — specifically grief expressed for the dead\n- {嘆|なげ}き: lamentation, grief — somewhat literary but less formal than {悲嘆|ひたん}",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05404_kanashimi",
+      "reading": "かなしみ",
+      "headword": "{悲|かな}しみ",
+      "label": "sadness"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15556_aitou",
+      "reading": "あいとう",
+      "headword": "{哀悼|あいとう}",
+      "label": "mourning, condolence"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,7 +77,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-02T03:23:05Z",
-    "modified": "2026-04-02T03:23:05Z"
+    "modified": "2026-09-02T04:02:03Z"
   },
   "conjugation": {
     "type": "suru",

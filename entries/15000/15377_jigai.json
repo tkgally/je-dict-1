@@ -3,7 +3,7 @@
   "id": "15377_jigai",
   "headword": "{自害|じがい}",
   "reading": "じがい",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "suicide (historical/literary)",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "15377_jigai_ex1",
-      "japanese": "{城|しろ}が{落|お}ちる{前|まえ}に{自害|じがい}した。",
+      "japanese": "⟦{城|しろ}→城：03255_shiro⟧⟦が→が：00051_ga⟧⟦{落|お}ちる→落ちる：01242_ochiru⟧⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧{自害|じがい}⟦した→する：00392_suru⟧。",
       "english": "He took his own life before the castle fell.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "15377_jigai_ex2",
-      "japanese": "{敗北|はいぼく}を{悟|さと}った{武将|ぶしょう}は{自害|じがい}を{選|えら}んだ。",
+      "japanese": "⟦{敗北|はいぼく}→敗北：12872_haiboku⟧⟦を→を：00422_wo⟧⟦{悟|さと}った→悟る：12601_satoru⟧⟦{武将|ぶしょう}→武将：13222_bushou⟧⟦は→は：00079_ha⟧{自害|じがい}⟦を→を：00422_wo⟧⟦{選|えら}んだ→選ぶ：00835_erabu⟧。",
       "english": "The warlord, realizing defeat was inevitable, chose to take his own life.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "15377_jigai_ex3",
-      "japanese": "{歴史|れきし}{小説|しょうせつ}では、{追|お}い{詰|つ}められた{武士|ぶし}が{自害|じがい}する{場面|ばめん}がしばしば{描|えが}かれる。",
+      "japanese": "⟦{歴史|れきし}→歴史：02267_rekishi⟧⟦{小説|しょうせつ}→小説：01434_shousetsu⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧、⟦{追|お}い{詰|つ}められた→追い詰める：14311_oitsumeru⟧⟦{武士|ぶし}→武士：03989_bushi⟧⟦が→が：00051_ga⟧{自害|じがい}⟦する→する：00392_suru⟧⟦{場面|ばめん}→場面：03702_bamen⟧⟦が→が：00051_ga⟧⟦しばしば→しばしば：02365_shibashiba⟧⟦{描|えが}かれる→描く：02013_egaku⟧。",
       "english": "In historical novels, scenes of cornered samurai taking their own lives are frequently depicted.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE: {自害|じがい} is primarily found in historical writing, period dramas, and literary contexts. In modern everyday Japanese, {自殺|じさつ} is the standard term for suicide.\n\nThe word carries connotations of the samurai code of honor and is often used when describing warriors who chose death over capture or disgrace.\n\nCOMMON COLLOCATIONS:\n- {自害|じがい}する: to take one's own life\n- {自害|じがい}を{遂|と}げる: to carry out suicide\n- {自害|じがい}を{選|えら}ぶ: to choose suicide\n\nSIMILAR WORDS:\n- {自害|じがい}: suicide (historical/literary, often honorable)\n- {切腹|せっぷく}: ritual disembowelment (specific method)\n- {自殺|じさつ}: suicide (modern, standard term)\n- {自死|じし}: suicide (euphemistic, compassionate framing)",
+  "notes": "USAGE: {自害|じがい} is primarily found in historical writing, period dramas, and literary contexts. In modern everyday Japanese, ⟦{自殺|じさつ}→自殺：03336_jisatsu⟧ is the standard term for suicide.\n\nThe word carries connotations of the samurai code of honor and is often used when describing warriors who chose death over capture or disgrace.\n\nCOMMON COLLOCATIONS:\n- {自害|じがい}⟦する→する：00392_suru⟧: to take one's own life\n- {自害|じがい}⟦を→を：00422_wo⟧⟦{遂|と}げる→遂げる：14323_togeru⟧: to carry out suicide\n- {自害|じがい}⟦を→を：00422_wo⟧⟦{選|えら}ぶ→選ぶ：00835_erabu⟧: to choose suicide\n\nSIMILAR WORDS:\n- {自害|じがい}: suicide (historical/literary, often honorable)\n- ⟦{切腹|せっぷく}→切腹：11775_seppuku⟧: ritual disembowelment (specific method)\n- ⟦{自殺|じさつ}→自殺：03336_jisatsu⟧: suicide (modern, standard term)\n- ⟦{自死|じし}→自死：15360_jishi⟧: suicide (euphemistic, compassionate framing)",
   "cross_references": [
     {
       "type": "synonym",
@@ -149,11 +149,18 @@
       "reading": "じし",
       "headword": "{自死|じし}",
       "label": "suicide (euphemistic)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11775_seppuku",
+      "reading": "せっぷく",
+      "headword": "{切腹|せっぷく}",
+      "label": "ritual disembowelment"
     }
   ],
   "metadata": {
     "created": "2026-03-06T11:54:04Z",
-    "modified": "2026-05-01T06:14:09Z",
+    "modified": "2026-09-02T04:01:41Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
@@ -168,7 +175,8 @@
       "style": [
         "literary"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

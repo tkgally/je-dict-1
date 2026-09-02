@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "13244_bujutsu_ex1",
-      "japanese": "{武術|ぶじゅつ}の{稽古|けいこ}をする。",
+      "japanese": "{武術|ぶじゅつ}⟦の→の：09472_no⟧⟦{稽古|けいこ}→稽古：00210_keiko⟧⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧。",
       "english": "To practice martial arts.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "13244_bujutsu_ex2",
-      "japanese": "{彼|かれ}は{幼|おさな}い{頃|ころ}から{武術|ぶじゅつ}を{学|まな}んでいる。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{幼|おさな}い→幼い：02337_osanai⟧{頃|ころ}⟦から→から：00504_kara⟧{武術|ぶじゅつ}⟦を→を：00422_wo⟧⟦{学|まな}んでいる→学ぶ：01987_manabu⟧。",
       "english": "He has been studying martial arts since he was young.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "13244_bujutsu_ex3",
-      "japanese": "{日本|にほん}の{伝統的|でんとうてき}な{武術|ぶじゅつ}は{海外|かいがい}でも{高|たか}い{人気|にんき}を{集|あつ}めており、{多|おお}くの{外国人|がいこくじん}が{学|まな}びに{来|く}る。",
+      "japanese": "⟦{日本|にほん}→日本：03876_nihon⟧⟦の→の：09472_no⟧⟦{伝統的|でんとうてき}→伝統的：04802_dentouteki⟧な{武術|ぶじゅつ}⟦は→は：00079_ha⟧⟦{海外|かいがい}→海外：00134_kaigai⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧⟦{高|たか}い→高い：00500_takai⟧⟦{人気|にんき}→人気：01488_ninki⟧⟦を→を：00422_wo⟧⟦{集|あつ}めて→集める：01170_atsumeru⟧おり、{多|おお}く⟦の→の：09472_no⟧⟦{外国人|がいこくじん}→外国人：02869_gaikokujin⟧⟦が→が：00051_ga⟧⟦{学|まな}び→学ぶ：01987_manabu⟧⟦に→に：00314_ni⟧⟦{来|く}る→来る：00254_kuru⟧。",
       "english": "Traditional Japanese martial arts are highly popular overseas, and many foreigners come to study them.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "SIMILAR WORDS:\n{武道|ぶどう} emphasizes the spiritual and philosophical 'way' ({道|みち}) of martial training (e.g., {柔道|じゅうどう}, {剣道|けんどう}). {武術|ぶじゅつ} emphasizes practical fighting techniques ({術|じゅつ} = technique). {武芸|ぶげい} emphasizes martial skills as a cultured accomplishment.\n\nCOMMON COLLOCATIONS:\n- {武術|ぶじゅつ}の{稽古|けいこ}: martial arts practice\n- {武術|ぶじゅつ}を{習|なら}う: to learn martial arts\n- {武術|ぶじゅつ}{大会|たいかい}: martial arts tournament\n- {古|こ}{武術|ぶじゅつ}: classical martial arts (kōbujutsu)",
+  "notes": "SIMILAR WORDS:\n⟦{武道|ぶどう}→武道：09640_budou⟧ emphasizes the spiritual and philosophical 'way' (⟦{道|みち}→道：00505_michi⟧) of martial training (e.g., ⟦{柔道|じゅうどう}→柔道：01612_juudou⟧, ⟦{剣道|けんどう}→剣道：04452_kendou⟧). {武術|ぶじゅつ} emphasizes practical fighting techniques (⟦{術|じゅつ}→術：14265_jutsu⟧ = technique). ⟦{武芸|ぶげい}→武芸：13243_bugei⟧ emphasizes martial skills as a cultured accomplishment.\n\nCOMMON COLLOCATIONS:\n- {武術|ぶじゅつ}⟦の→の：09472_no⟧⟦{稽古|けいこ}→稽古：00210_keiko⟧: martial arts practice\n- {武術|ぶじゅつ}⟦を→を：00422_wo⟧⟦{習|なら}う→習う：00479_narau⟧: to learn martial arts\n- {武術|ぶじゅつ}⟦{大会|たいかい}→大会：03386_taikai⟧: martial arts tournament\n- {古|こ}{武術|ぶじゅつ}: classical martial arts (kōbujutsu)",
   "cross_references": [
     {
       "type": "synonym",
@@ -59,11 +59,53 @@
       "reading": "ぶどう",
       "headword": "{武道|ぶどう}",
       "label": "martial way (spiritual)"
+    },
+    {
+      "type": "related",
+      "target_id": "09246_kakutougi",
+      "reading": "かくとうぎ",
+      "headword": "{格闘技|かくとうぎ}",
+      "label": "martial arts, combat sports, fighting sports"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18323_goshinjutsu",
+      "reading": "ごしんじゅつ",
+      "headword": "{護身術|ごしんじゅつ}",
+      "label": "self-defense (art/technique)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20194_kenjutsu",
+      "reading": "けんじゅつ",
+      "headword": "{剣術|けんじゅつ}",
+      "label": "swordsmanship"
+    },
+    {
+      "type": "related",
+      "target_id": "20990_juujutsu",
+      "reading": "じゅうじゅつ",
+      "headword": "{柔術|じゅうじゅつ}",
+      "label": "jujutsu"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23872_kenpou",
+      "reading": "けんぽう",
+      "headword": "{拳法|けんぽう}",
+      "label": "Chinese-style martial arts"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24563_heihou",
+      "reading": "へいほう",
+      "headword": "{兵法|へいほう}",
+      "label": "military strategy"
     }
   ],
   "metadata": {
     "created": "2026-02-24T06:48:02Z",
-    "modified": "2026-07-09T00:44:29Z",
+    "modified": "2026-09-02T04:01:32Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

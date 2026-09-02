@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08263_fudebako_ex1",
-      "japanese": "{筆箱|ふでばこ}に{鉛筆|えんぴつ}を{入|い}れる。",
+      "japanese": "{筆箱|ふでばこ}⟦に→に：00314_ni⟧⟦{鉛筆|えんぴつ}→鉛筆：00694_enpitsu⟧⟦を→を：00422_wo⟧⟦{入|い}れる→入れる：01098_ireru⟧。",
       "english": "To put a pencil in the pencil case.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "08263_fudebako_ex2",
-      "japanese": "{新|あたら}しい{筆箱|ふでばこ}を{買|か}った。",
+      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧{筆箱|ふでばこ}⟦を→を：00422_wo⟧⟦{買|か}った→買う：00489_kau⟧。",
       "english": "I bought a new pencil case.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "08263_fudebako_ex3",
-      "japanese": "{筆箱|ふでばこ}を{忘|わす}れてきた。",
+      "japanese": "{筆箱|ふでばこ}⟦を→を：00422_wo⟧⟦{忘|わす}れて→忘れる：00474_wasureru⟧きた。",
       "english": "I forgot my pencil case.",
       "sense_numbers": [
         1
@@ -43,7 +43,37 @@
       "notes": null
     }
   ],
-  "notes": "COMPOSITION:\n{筆|ふで} (writing brush/pen) + {箱|はこ} (box)\n\nTYPES:\n- {缶|かん}{筆箱|ふでばこ} (metal pencil case - common with children)\n- {布製|ぬのせい}{筆箱|ふでばこ} (fabric pencil case)\n- ポーチ{型|がた} (pouch-style)\n\nALTERNATIVE TERM:\nペンケース (pen case) is also commonly used, especially by older students and adults.\n\nSCHOOL SUPPLY:\nEssential item for Japanese students. Elementary school students often use hard plastic or metal cases, while older students prefer soft pouches.\n\nTYPICAL CONTENTS:\n- {鉛筆|えんぴつ} (pencil)\n- {消|け}しゴム (eraser)\n- {定規|じょうぎ} (ruler)\n- シャープペンシル (mechanical pencil)\n- ボールペン (ballpoint pen)\n\nRELATED:\n- {文房具|ぶんぼうぐ} (stationery)\n- ペンケース (pen case)\n- {道具箱|どうぐばこ} (tool box)",
+  "notes": "ETYMOLOGY:\n⟦{筆|ふで}→筆：03601_fude⟧ (writing brush/pen) + ⟦{箱|はこ}→箱：02162_hako⟧ (box)\n\nTYPES:\n- ⟦{缶|かん}→缶：01076_kan⟧{筆箱|ふでばこ} (metal pencil case - common with children)\n- {布製|ぬのせい}{筆箱|ふでばこ} (fabric pencil case)\n- ⟦ポーチ→ポーチ：09488_poochi⟧{型|がた} (pouch-style)\n\nALTERNATIVE TERM:\nペンケース (pen case) is also commonly used, especially by older students and adults.\n\nSCHOOL SUPPLY:\nEssential item for Japanese students. Elementary school students often use hard plastic or metal cases, while older students prefer soft pouches.\n\nTYPICAL CONTENTS:\n- ⟦{鉛筆|えんぴつ}→鉛筆：00694_enpitsu⟧ (pencil)\n- ⟦{消|け}しゴム→消しゴム：00716_keshigomu⟧ (eraser)\n- ⟦{定規|じょうぎ}→定規：04280_jougi⟧ (ruler)\n- ⟦シャープペンシル→シャープペンシル：23768_shaapupenshiru⟧ (mechanical pencil)\n- ⟦ボールペン→ボールペン：00691_boorupen⟧ (ballpoint pen)\n\nRELATED WORDS:\n- ⟦{文房具|ぶんぼうぐ}→文房具：12869_bunbougu⟧ (stationery)\n- ペンケース (pen case)\n- ⟦{道具箱|どうぐばこ}→道具箱：14913_dougubako⟧ (tool box)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "12869_bunbougu",
+      "reading": "ぶんぼうぐ",
+      "headword": "{文房具|ぶんぼうぐ}",
+      "label": "stationery"
+    },
+    {
+      "type": "related",
+      "target_id": "14913_dougubako",
+      "reading": "どうぐばこ",
+      "headword": "{道具箱|どうぐばこ}",
+      "label": "tool box"
+    },
+    {
+      "type": "related",
+      "target_id": "00738_nooto",
+      "reading": "のーと",
+      "headword": "ノート",
+      "label": "notebook"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25908_komonoire",
+      "reading": "こものいれ",
+      "headword": "{小物|こもの}{入|い}れ",
+      "label": "small accessory case"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -51,6 +81,7 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "tool",
         "education",
@@ -58,6 +89,6 @@
       ]
     },
     "created": "2026-01-25T09:58:37Z",
-    "modified": "2026-08-11T21:34:29Z"
+    "modified": "2026-09-02T04:01:14Z"
   }
 }

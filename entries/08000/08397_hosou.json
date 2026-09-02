@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "08397_hosou_ex1",
-      "japanese": "{道路|どうろ}の{舗装|ほそう}{工事|こうじ}が{始|はじ}まった。",
+      "japanese": "⟦{道路|どうろ}→道路：01481_douro⟧⟦の→の：09472_no⟧{舗装|ほそう}⟦{工事|こうじ}→工事：00244_kouji⟧⟦が→が：00051_ga⟧⟦{始|はじ}まった→始まる：00841_hajimaru⟧。",
       "english": "Road paving work has begun.",
       "sense_numbers": [
         1
@@ -114,7 +114,7 @@
     },
     {
       "id": "08397_hosou_ex2",
-      "japanese": "この{道|みち}はまだ{舗装|ほそう}されていない。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{道|みち}→道：00505_michi⟧⟦は→は：00079_ha⟧⟦まだ→まだ：00603_mada⟧{舗装|ほそう}⟦されていない→する：00392_suru⟧。",
       "english": "This road hasn't been paved yet.",
       "sense_numbers": [
         1
@@ -124,7 +124,7 @@
     },
     {
       "id": "08397_hosou_ex3",
-      "japanese": "{舗装|ほそう}が{傷|いた}んでいるので{補修|ほしゅう}が{必要|ひつよう}だ。",
+      "japanese": "{舗装|ほそう}⟦が→が：00051_ga⟧⟦{傷|いた}んでいる→傷む：10061_itamu⟧⟦の→の：09472_no⟧で⟦{補修|ほしゅう}→補修：15054_hoshuu⟧⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧だ。",
       "english": "The pavement is damaged, so repairs are needed.",
       "sense_numbers": [
         1
@@ -133,7 +133,7 @@
       "notes": null
     }
   ],
-  "notes": "FORMATION:\n{舗|ほ} (pave, spread) + {装|そう} (equip, dress) → equipping with pavement\n\nVERB FORM:\n{舗装|ほそう}する (to pave)\n\nCOMPOUNDS:\n- {舗装|ほそう}{道路|どうろ} (paved road)\n- {舗装|ほそう}{工事|こうじ} (paving work)\n- アスファルト{舗装|ほそう} (asphalt paving)\n- コンクリート{舗装|ほそう} (concrete paving)\n\nCONTRAST:\n- {舗装|ほそう}{道路|どうろ} (paved road)\n- {未舗装|みほそう}{道路|どうろ} (unpaved road)\n- {砂利道|じゃりみち} (gravel road)\n\nRELATED WORDS:\n- {石畳|いしだたみ} (cobblestone pavement)\n- {路面|ろめん} (road surface)",
+  "notes": "FORMS:\n{舗|ほ} (pave, spread) + {装|そう} (equip, dress) → equipping with pavement\n{舗装|ほそう}⟦する→する：00392_suru⟧ (to pave)\n\nCOMPOUNDS:\n- {舗装|ほそう}{道路|どうろ} (paved road)\n- {舗装|ほそう}⟦{工事|こうじ}→工事：00244_kouji⟧ (paving work)\n- ⟦アスファルト→アスファルト：10736_asufaruto⟧{舗装|ほそう} (asphalt paving)\n- ⟦コンクリート→コンクリート：10858_konkuriito⟧{舗装|ほそう} (concrete paving)\n\nSIMILAR WORDS:\n- {舗装|ほそう}{道路|どうろ} (paved road)\n- {未舗装|みほそう}{道路|どうろ} (unpaved road)\n- ⟦{砂利道|じゃりみち}→砂利道：16083_jarimichi⟧ (gravel road)\n\nRELATED WORDS:\n- ⟦{石畳|いしだたみ}→石畳：08398_ishidatami⟧ (cobblestone pavement)\n- ⟦{路面|ろめん}→路面：16490_romen⟧ (road surface)",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -142,13 +142,14 @@
         "verb-suru"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "building"
       ],
       "verb_class": "suru"
     },
     "created": "2026-01-26T05:21:17Z",
-    "modified": "2026-08-12T12:50:50Z"
+    "modified": "2026-09-02T04:01:15Z"
   },
   "cross_references": [
     {
@@ -157,6 +158,27 @@
       "reading": "いしだたみ",
       "headword": "{石畳|いしだたみ}",
       "label": "cobblestone pavement"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16083_jarimichi",
+      "reading": "じゃりみち",
+      "headword": "{砂利|じゃり}{道|みち}",
+      "label": "gravel road"
+    },
+    {
+      "type": "related",
+      "target_id": "16490_romen",
+      "reading": "ろめん",
+      "headword": "{路面|ろめん}",
+      "label": "road surface"
+    },
+    {
+      "type": "related",
+      "target_id": "10736_asufaruto",
+      "reading": "あすふぁると",
+      "headword": "アスファルト",
+      "label": "asphalt, pavement"
     }
   ]
 }

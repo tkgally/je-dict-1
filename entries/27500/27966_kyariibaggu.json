@@ -15,41 +15,67 @@
   "examples": [
     {
       "id": "27966_kyariibaggu_ex1",
-      "japanese": "キャリーバッグを{引|ひ}いて{歩|ある}く。",
+      "japanese": "キャリーバッグ⟦を→を：00422_wo⟧⟦{引|ひ}いて→引く：01978_hiku⟧⟦{歩|ある}く→歩く：00538_aruku⟧。",
       "english": "I walk pulling a wheeled bag.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27966_kyariibaggu_ex2",
-      "japanese": "{機内|きない}{持|も}ち{込|こ}み{用|よう}のキャリーバッグを{買|か}った。",
+      "japanese": "⟦{機内|きない}{持|も}ち{込|こ}み→機内持ち込み：10204_kinaimochikomi⟧⟦{用|よう}→〜用：09842_you⟧⟦の→の：09472_no⟧キャリーバッグ⟦を→を：00422_wo⟧⟦{買|か}った→買う：00489_kau⟧。",
       "english": "I bought a carry-on wheeled bag for taking into the cabin.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27966_kyariibaggu_ex3",
-      "japanese": "{階段|かいだん}ではキャリーバッグを{持|も}ち{上|あ}げなければならず、{重|おも}くて{大変|たいへん}だった。",
+      "japanese": "⟦{階段|かいだん}→階段：00782_kaidan⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧キャリーバッグ⟦を→を：00422_wo⟧⟦{持|も}ち{上|あ}げなければ→持ち上げる：02313_mochiageru⟧⟦なら→なる：01970_naru⟧ず、⟦{重|おも}くて→重い：00804_omoi⟧⟦{大変|たいへん}→大変：00594_taihen⟧だった。",
       "english": "On the stairs I had to lift the wheeled bag, and it was heavy and tough.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A bag with wheels and a pull-out handle. Used for travel luggage and also for soft pet carriers with wheels.\n\nSIMILAR WORDS:\n- スーツケース: suitcase — a hard-shell traveling case; many also have wheels, and the words overlap\n- キャリーケース: carry case — near-synonym, often used for the hard-shell wheeled type\n- {旅行|りょこう}カバン: travel bag — general term for any bag used when traveling",
+  "notes": "A bag with wheels and a pull-out handle. Used for travel luggage and also for soft pet carriers with wheels.\n\nSIMILAR WORDS:\n- ⟦スーツケース→スーツケース：01781_suutsukeesu⟧: suitcase — a hard-shell traveling case; many also have wheels, and the words overlap\n- キャリー⟦ケース→ケース：03841_keesu⟧: carry case — near-synonym, often used for the hard-shell wheeled type\n- ⟦{旅行|りょこう}→旅行：00748_ryokou⟧カバン: travel bag — general term for any bag used when traveling",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01781_suutsukeesu",
+      "reading": "すーつけーす",
+      "headword": "スーツケース",
+      "label": "suitcase"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25736_ryokoukaban",
+      "reading": "りょこうかばん",
+      "headword": "{旅行鞄|りょこうかばん}",
+      "label": "travel bag"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["tool"],
+      "semantic": [
+        "tool"
+      ],
       "domain": []
     },
     "created": "2026-05-23T04:06:38Z",
-    "modified": "2026-05-23T04:06:38Z"
+    "modified": "2026-09-02T04:02:32Z"
   }
 }

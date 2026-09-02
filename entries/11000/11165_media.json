@@ -15,41 +15,80 @@
   "examples": [
     {
       "id": "11165_media_ex1",
-      "japanese": "メディアで{報道|ほうどう}された。",
+      "japanese": "メディア⟦で→で：00502_de⟧⟦{報道|ほうどう}→報道：04438_houdou⟧⟦された→する：00392_suru⟧。",
       "english": "It was reported in the media.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11165_media_ex2",
-      "japanese": "メディアの{情報|じょうほう}をうのみにしてはいけない。",
+      "japanese": "メディア⟦の→の：09472_no⟧⟦{情報|じょうほう}→情報：03348_jouhou⟧⟦を→を：00422_wo⟧うのみにして⟦は→は：00079_ha⟧いけない。",
       "english": "You shouldn't blindly believe what the media says.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11165_media_ex3",
-      "japanese": "SNSの{登場|とうじょう}で、{個人|こじん}が{自分|じぶん}のメディアを{持|も}てる{時代|じだい}になった。",
+      "japanese": "SNS⟦の→の：09472_no⟧⟦{登場|とうじょう}→登場：13625_toujou⟧⟦で→で：00502_de⟧、⟦{個人|こじん}→個人：02758_kojin⟧⟦が→が：00051_ga⟧⟦{自分|じぶん}→自分：02887_jibun⟧⟦の→の：09472_no⟧メディア⟦を→を：00422_wo⟧⟦{持|も}てる→持つ：00478_motsu⟧⟦{時代|じだい}→時代：01424_jidai⟧になった。",
       "english": "With the arrival of social media, we're in an era where individuals can have their own media platforms.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nメディア is used broadly in Japanese to refer to mass media (TV, newspapers, radio) as well as newer digital media. It is frequently used in discussions about news, information literacy, and public opinion.\n\nCOMMON COLLOCATIONS:\n- マスメディア: mass media\n- ソーシャルメディア: social media\n- メディア{報道|ほうどう}: media coverage\n- メディアリテラシー: media literacy\n- メディア{露出|ろしゅつ}: media exposure\n- メディア{関係者|かんけいしゃ}: media personnel",
-  "cross_references": [],
+  "notes": "USAGE:\nメディア is used broadly in Japanese to refer to mass media (TV, newspapers, radio) as well as newer digital media. It is frequently used in discussions about news, information literacy, and public opinion.\n\nCOMMON COLLOCATIONS:\n- マスメディア: mass media\n- ソーシャルメディア: social media\n- メディア⟦{報道|ほうどう}→報道：04438_houdou⟧: media coverage\n- メディアリテラシー: media literacy\n- メディア⟦{露出|ろしゅつ}→露出：08077_roshutsu⟧: media exposure\n- メディア⟦{関係者|かんけいしゃ}→関係者：16441_kankeisha⟧: media personnel",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "03872_masukomi",
+      "reading": "ますこみ",
+      "headword": "マスコミ",
+      "label": "mass media"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16660_koukokubaitai",
+      "reading": "こうこくばいたい",
+      "headword": "{広告媒体|こうこくばいたい}",
+      "label": "advertising medium"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23234_dentatsushudan",
+      "reading": "でんたつしゅだん",
+      "headword": "{伝達手段|でんたつしゅだん}",
+      "label": "means of communication"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23400_kiokubaitai",
+      "reading": "きおくばいたい",
+      "headword": "{記憶媒体|きおくばいたい}",
+      "label": "storage medium (for data)"
+    }
+  ],
   "metadata": {
     "created": "2026-02-14T05:15:09Z",
-    "modified": "2026-02-14T05:15:09Z",
+    "modified": "2026-09-02T04:01:24Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["communication"]
+      "semantic": [
+        "communication"
+      ]
     }
   }
 }

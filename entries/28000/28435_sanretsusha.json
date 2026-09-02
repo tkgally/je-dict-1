@@ -9,13 +9,13 @@
     {
       "sense_number": 1,
       "gloss": "attendee; guest (at a ceremony such as a wedding or funeral)",
-      "explanation": "A person present at a formal ceremony such as a wedding, funeral, or memorial. Used in formal contexts; the everyday word for a guest is {ゲスト} or {お{客|きゃく}さん}."
+      "explanation": "A person present at a formal ceremony such as a wedding, funeral, or memorial. Used in formal contexts; the everyday word for a guest is ゲスト or お{客|きゃく}さん."
     }
   ],
   "examples": [
     {
       "id": "28435_sanretsusha_ex1",
-      "japanese": "{結婚式|けっこんしき}の{参列者|さんれつしゃ}は{百人|ひゃくにん}いた。",
+      "japanese": "⟦{結婚式|けっこんしき}→結婚式：05493_kekkonshiki⟧⟦の→の：09472_no⟧{参列者|さんれつしゃ}⟦は→は：00079_ha⟧⟦{百人|ひゃくにん}→百人：10985_hyakunin⟧⟦いた→いる：00495_iru⟧。",
       "english": "There were a hundred guests at the wedding.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28435_sanretsusha_ex2",
-      "japanese": "{葬儀|そうぎ}の{参列者|さんれつしゃ}に{挨拶|あいさつ}をした。",
+      "japanese": "⟦{葬儀|そうぎ}→葬儀：15337_sougi⟧⟦の→の：09472_no⟧{参列者|さんれつしゃ}⟦に→に：00314_ni⟧⟦{挨拶|あいさつ}→挨拶：02505_aisatsu⟧⟦を→を：00422_wo⟧⟦した→する：00392_suru⟧。",
       "english": "I greeted the attendees of the funeral.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28435_sanretsusha_ex3",
-      "japanese": "{式|しき}の{後|あと}、{新郎新婦|しんろうしんぷ}は{参列者|さんれつしゃ}{一人一人|ひとりひとり}にお{礼|れい}を{伝|つた}えた。",
+      "japanese": "{式|しき}⟦の→の：09472_no⟧⟦{後|あと}→後：09580_ato⟧、⟦{新郎新婦|しんろうしんぷ}→新郎新婦：28965_shinroushinpu⟧⟦は→は：00079_ha⟧{参列者|さんれつしゃ}⟦{一人一人|ひとりひとり}→一人一人：03711_hitorihitori⟧⟦に→に：00314_ni⟧⟦お{礼|れい}→お礼：01359_orei⟧⟦を→を：00422_wo⟧⟦{伝|つた}えた→伝える：01220_tsutaeru⟧。",
       "english": "After the ceremony, the bride and groom thanked each guest one by one.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {参列|さんれつ} (attendance at a ceremony) + 〜{者|しゃ} (person). Refers specifically to those attending a formal ceremony, not just any gathering.\n\nCOMMON COLLOCATIONS:\n- {結婚式|けっこんしき}の{参列者|さんれつしゃ}: wedding guests\n- {葬儀|そうぎ}の{参列者|さんれつしゃ}: funeral attendees\n- {参列者|さんれつしゃ}{名簿|めいぼ}: list of attendees\n- {参列者|さんれつしゃ}{全員|ぜんいん}: all the attendees\n\nSIMILAR WORDS:\n- {出席者|しゅっせきしゃ}: attendee — broader; used for meetings, classes, conferences\n- {来賓|らいひん}: invited guest of honor — VIPs at formal events\n- {会葬者|かいそうしゃ}: funeral attendee — more specific to funerals only",
+  "notes": "Composed of ⟦{参列|さんれつ}→参列：11888_sanretsu⟧ (attendance at a ceremony) + 〜⟦{者|しゃ}→〜者：04662_sha⟧ (person). Refers specifically to those attending a formal ceremony, not just any gathering.\n\nCOMMON COLLOCATIONS:\n- ⟦{結婚式|けっこんしき}→結婚式：05493_kekkonshiki⟧⟦の→の：09472_no⟧{参列者|さんれつしゃ}: wedding guests\n- ⟦{葬儀|そうぎ}→葬儀：15337_sougi⟧⟦の→の：09472_no⟧{参列者|さんれつしゃ}: funeral attendees\n- {参列者|さんれつしゃ}⟦{名簿|めいぼ}→名簿：11870_meibo⟧: list of attendees\n- {参列者|さんれつしゃ}⟦{全員|ぜんいん}→全員：03310_zenin⟧: all the attendees\n\nSIMILAR WORDS:\n- ⟦{出席者|しゅっせきしゃ}→出席者：20975_shussekisha⟧: attendee — broader; used for meetings, classes, conferences\n- ⟦{来賓|らいひん}→来賓：28580_raihin⟧: invited guest of honor — VIPs at formal events\n- {会葬者|かいそうしゃ}: funeral attendee — more specific to funerals only",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20975_shussekisha",
+      "reading": "しゅっせきしゃ",
+      "headword": "{出席者|しゅっせきしゃ}",
+      "label": "attendee"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28580_raihin",
+      "reading": "らいひん",
+      "headword": "{来賓|らいひん}",
+      "label": "invited guest of honor"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +69,7 @@
         "noun"
       ],
       "formality": "formal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "person",
         "culture"
@@ -61,6 +77,6 @@
       "domain": []
     },
     "created": "2026-05-31T02:08:49Z",
-    "modified": "2026-08-08T18:34:17Z"
+    "modified": "2026-09-02T04:02:33Z"
   }
 }

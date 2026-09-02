@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29746_danberu_ex1",
-      "japanese": "ダンベルを{持|も}ち{上|あ}げる。",
+      "japanese": "ダンベル⟦を→を：00422_wo⟧⟦{持|も}ち{上|あ}げる→持ち上げる：02313_mochiageru⟧。",
       "english": "to lift a dumbbell.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29746_danberu_ex2",
-      "japanese": "{毎日|まいにち}ダンベルで{筋|きん}トレをする。",
+      "japanese": "⟦{毎日|まいにち}→毎日：00729_mainichi⟧ダンベル⟦で→で：00502_de⟧⟦{筋|きん}トレ→筋トレ：04915_kintore⟧⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧。",
       "english": "I do strength training with dumbbells every day.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29746_danberu_ex3",
-      "japanese": "{軽|かる}いダンベルから{始|はじ}めて、{少|すこ}しずつ{重|おも}くしていく。",
+      "japanese": "⟦{軽|かる}い→軽い：00785_karui⟧ダンベル⟦から→から：00504_kara⟧⟦{始|はじ}めて→始める：00531_hajimeru⟧、⟦{少|すこ}し→少し：00596_sukoshi⟧⟦ずつ→〜ずつ：03092_zutsu⟧⟦{重|おも}く→重い：00804_omoi⟧⟦して→する：00392_suru⟧いく。",
       "english": "Start with light dumbbells and gradually make them heavier.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "A loanword from English \"dumbbell,\" the short hand-held weight used for strength training. Sold in fixed or adjustable weights.\n\nCOMMON COLLOCATIONS:\n- ダンベルを{持|も}ち{上|あ}げる: to lift a dumbbell\n- ダンベル{体操|たいそう}: dumbbell exercises\n- {可変|かへん}ダンベル: adjustable dumbbell\n\nSIMILAR WORDS:\n- バーベル: barbell — the long, two-handed version\n- {鉄|てつ}アレイ: dumbbell — traditional native term for the same thing",
+  "notes": "A loanword from English \"dumbbell,\" the short hand-held weight used for strength training. Sold in fixed or adjustable weights.\n\nCOMMON COLLOCATIONS:\n- ダンベル⟦を→を：00422_wo⟧⟦{持|も}ち{上|あ}げる→持ち上げる：02313_mochiageru⟧: to lift a dumbbell\n- ダンベル⟦{体操|たいそう}→体操：04493_taisou⟧: dumbbell exercises\n- ⟦{可変|かへん}→可変：21087_kahen⟧ダンベル: adjustable dumbbell\n\nSIMILAR WORDS:\n- ⟦バーベル→バーベル：29747_baaberu⟧: barbell — the long, two-handed version\n- ⟦{鉄|てつ}アレイ→鉄アレイ：29749_tetsuarei⟧: dumbbell — traditional native term for the same thing",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "29747_baaberu",
+      "reading": "ばーべる",
+      "headword": "バーベル",
+      "label": "barbell"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29749_tetsuarei",
+      "reading": "てつあれい",
+      "headword": "{鉄|てつ}アレイ",
+      "label": "dumbbell"
+    },
+    {
+      "type": "related",
+      "target_id": "27330_benchipuresu",
+      "reading": "べんちぷれす",
+      "headword": "ベンチプレス",
+      "label": "bench press (weight training)"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +76,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "sports"
       ],
       "domain": []
     },
     "created": "2026-07-09T21:19:28Z",
-    "modified": "2026-07-09T21:19:28Z"
+    "modified": "2026-09-02T04:02:37Z"
   }
 }

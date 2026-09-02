@@ -15,42 +15,69 @@
   "examples": [
     {
       "id": "14279_gojun_ex1",
-      "japanese": "{日本語|にほんご}の{語順|ごじゅん}は{英語|えいご}と{違|ちが}う。",
+      "japanese": "⟦{日本語|にほんご}→日本語：00614_nihongo⟧⟦の→の：09472_no⟧{語順|ごじゅん}⟦は→は：00079_ha⟧⟦{英語|えいご}→英語：02274_eigo⟧⟦と→と：00512_to⟧⟦{違|ちが}う→違う：01957_chigau⟧。",
       "english": "Japanese word order is different from English.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14279_gojun_ex2",
-      "japanese": "{語順|ごじゅん}を{間違|まちが}えると{意味|いみ}が{変|か}わることがある。",
+      "japanese": "{語順|ごじゅん}⟦を→を：00422_wo⟧⟦{間違|まちが}える→間違える：01109_machigaeru⟧⟦と→と：00512_to⟧⟦{意味|いみ}→意味：01155_imi⟧⟦が→が：00051_ga⟧⟦{変|か}わる→変わる：00714_kawaru⟧こと⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "If you get the word order wrong, the meaning can change.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14279_gojun_ex3",
-      "japanese": "{日本語|にほんご}は{主語|しゅご}・{目的語|もくてきご}・{動詞|どうし}という{語順|ごじゅん}が{基本|きほん}だが、{助詞|じょし}があるので{比較的|ひかくてき}{自由|じゆう}に{並|なら}び{替|か}えられる。",
+      "japanese": "⟦{日本語|にほんご}→日本語：00614_nihongo⟧⟦は→は：00079_ha⟧⟦{主語|しゅご}→主語：00377_shugo⟧・⟦{目的語|もくてきご}→目的語：20479_mokutekigo⟧・⟦{動詞|どうし}→動詞：03472_doushi⟧⟦という→という：09577_toiu⟧{語順|ごじゅん}⟦が→が：00051_ga⟧⟦{基本|きほん}→基本：00226_kihon⟧だ⟦が→が：00051_ga⟧、⟦{助詞|じょし}→助詞：03351_joshi⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧⟦の→の：09472_no⟧で⟦{比較的|ひかくてき}→比較的：06172_hikakuteki⟧⟦{自由|じゆう}→自由：01148_jiyuu⟧⟦に→に：00314_ni⟧{並|なら}び{替|か}えられる。",
       "english": "Japanese has a basic subject-object-verb word order, but because it uses particles, words can be rearranged relatively freely.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "Compound of {語|ご} (word) + {順|じゅん} (order). Frequently encountered in language textbooks and linguistic discussions.\n\nJapanese is classified as an SOV (subject-object-verb) language, contrasting with English SVO order. However, Japanese {語順|ごじゅん} is relatively flexible because grammatical relationships are marked by particles rather than position.\n\nCOMMON COLLOCATIONS:\n- {語順|ごじゅん}が{違|ちが}う (word order is different)\n- {語順|ごじゅん}を{変|か}える (to change word order)\n- {基本|きほん}の{語順|ごじゅん} (basic word order)\n- {自由|じゆう}な{語順|ごじゅん} (flexible word order)\n\nRELATED WORDS:\n- {文法|ぶんぽう}: grammar\n- {構文|こうぶん}: sentence structure, syntax",
-  "cross_references": [],
+  "notes": "Compound of ⟦{語|ご}→〜語：09841_go⟧ (word) + ⟦{順|じゅん}→順：03342_jun⟧ (order). Frequently encountered in language textbooks and linguistic discussions.\n\nJapanese is classified as an SOV (subject-object-verb) language, contrasting with English SVO order. However, Japanese {語順|ごじゅん} is relatively flexible because grammatical relationships are marked by particles rather than position.\n\nCOMMON COLLOCATIONS:\n- {語順|ごじゅん}⟦が→が：00051_ga⟧⟦{違|ちが}う→違う：01957_chigau⟧ (word order is different)\n- {語順|ごじゅん}⟦を→を：00422_wo⟧⟦{変|か}える→変える：01089_kaeru⟧ (to change word order)\n- ⟦{基本|きほん}→基本：00226_kihon⟧⟦の→の：09472_no⟧{語順|ごじゅん} (basic word order)\n- ⟦{自由|じゆう}→自由：01148_jiyuu⟧な{語順|ごじゅん} (flexible word order)\n\nRELATED WORDS:\n- ⟦{文法|ぶんぽう}→文法：01506_bunpou⟧: grammar\n- ⟦{構文|こうぶん}→構文：26934_koubun⟧: sentence structure, syntax",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "01506_bunpou",
+      "reading": "ぶんぽう",
+      "headword": "{文法|ぶんぽう}",
+      "label": "grammar"
+    },
+    {
+      "type": "related",
+      "target_id": "26934_koubun",
+      "reading": "こうぶん",
+      "headword": "{構文|こうぶん}",
+      "label": "sentence structure, syntax"
+    }
+  ],
   "metadata": {
     "created": "2026-02-28T09:23:36Z",
-    "modified": "2026-02-28T09:23:36Z",
+    "modified": "2026-09-02T04:01:36Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["education"],
-      "domain": ["academic"]
+      "semantic": [
+        "education"
+      ],
+      "domain": [
+        "academic"
+      ]
     }
   }
 }

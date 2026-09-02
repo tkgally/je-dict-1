@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "15702_kuubo_ex1",
-      "japanese": "{空母|くうぼ}から{戦闘機|せんとうき}が{発進|はっしん}した。",
+      "japanese": "{空母|くうぼ}⟦から→から：00504_kara⟧⟦{戦闘機|せんとうき}→戦闘機：23287_sentouki⟧⟦が→が：00051_ga⟧⟦{発進|はっしん}した→発進する：21033_hasshinsuru⟧。",
       "english": "Fighter jets launched from the aircraft carrier.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15702_kuubo_ex2",
-      "japanese": "{空母|くうぼ}は{海軍|かいぐん}の{主力|しゅりょく}だ。",
+      "japanese": "{空母|くうぼ}⟦は→は：00079_ha⟧⟦{海軍|かいぐん}→海軍：13289_kaigun⟧⟦の→の：09472_no⟧⟦{主力|しゅりょく}→主力：11480_shuryoku⟧だ。",
       "english": "Aircraft carriers are the mainstay of the navy.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15702_kuubo_ex3",
-      "japanese": "{新型|しんがた}の{空母|くうぼ}が{太平洋|たいへいよう}に{配備|はいび}されたというニュースが{流|なが}れた。",
+      "japanese": "⟦{新型|しんがた}→新型：19411_shingata⟧⟦の→の：09472_no⟧{空母|くうぼ}⟦が→が：00051_ga⟧⟦{太平洋|たいへいよう}→太平洋：09680_taiheiyou⟧⟦に→に：00314_ni⟧⟦{配備|はいび}→配備：25292_haibi⟧⟦された→する：00392_suru⟧⟦という→という：09577_toiu⟧⟦ニュース→ニュース：04437_nyuusu⟧⟦が→が：00051_ga⟧⟦{流|なが}れた→流れる：01969_nagareru⟧。",
       "english": "News broke that a new aircraft carrier had been deployed to the Pacific.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "ETYMOLOGY:\nAbbreviation of {航空母艦|こうくうぼかん} (aviation mother ship). The full form is still used in formal or historical contexts, but {空母|くうぼ} is the standard everyday term.\n\nCOMMON COLLOCATIONS:\n- {原子力|げんしりょく}{空母|くうぼ} (nuclear aircraft carrier)\n- {空母|くうぼ}{打撃群|だげきぐん} (carrier strike group)\n- {空母|くうぼ}を{建造|けんぞう}する (to build an aircraft carrier)\n\nSIMILAR WORDS:\n- {航空母艦|こうくうぼかん}: aircraft carrier (full, formal term)\n- {護衛艦|ごえいかん}: escort ship, destroyer (Japan's Maritime Self-Defense Force term)",
+  "notes": "ETYMOLOGY:\nAbbreviation of ⟦{航空母艦|こうくうぼかん}→航空母艦：23965_koukuubokan⟧ (aviation mother ship). The full form is still used in formal or historical contexts, but {空母|くうぼ} is the standard everyday term.\n\nCOMMON COLLOCATIONS:\n- ⟦{原子力|げんしりょく}→原子力：06433_genshiryoku⟧{空母|くうぼ} (nuclear aircraft carrier)\n- {空母|くうぼ}{打撃群|だげきぐん} (carrier strike group)\n- {空母|くうぼ}⟦を→を：00422_wo⟧⟦{建造|けんぞう}→建造：22998_kenzou⟧⟦する→する：00392_suru⟧ (to build an aircraft carrier)\n\nSIMILAR WORDS:\n- ⟦{航空母艦|こうくうぼかん}→航空母艦：23965_koukuubokan⟧: aircraft carrier (full, formal term)\n- ⟦{護衛艦|ごえいかん}→護衛艦：18332_goeikan⟧: escort ship, destroyer (Japan's Maritime Self-Defense Force term)",
   "cross_references": [
     {
       "type": "related",
@@ -46,18 +52,50 @@
       "reading": "ぐんかん",
       "headword": "{軍艦|ぐんかん}",
       "label": "warship"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23965_koukuubokan",
+      "reading": "こうくうぼかん",
+      "headword": "{航空母艦|こうくうぼかん}",
+      "label": "aircraft carrier"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18332_goeikan",
+      "reading": "ごえいかん",
+      "headword": "{護衛艦|ごえいかん}",
+      "label": "escort ship, destroyer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26766_junyoukan",
+      "reading": "じゅんようかん",
+      "headword": "{巡洋艦|じゅんようかん}",
+      "label": "cruiser (warship)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28035_kansaiki",
+      "reading": "かんさいき",
+      "headword": "艦載機",
+      "label": "carrier-based aircraft"
     }
   ],
   "metadata": {
     "created": "2026-03-08T07:40:38Z",
-    "modified": "2026-05-01T10:15:30Z",
+    "modified": "2026-09-02T04:01:42Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["military"]
+      "semantic": [
+        "military"
+      ]
     }
   }
 }

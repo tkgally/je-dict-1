@@ -15,41 +15,73 @@
   "examples": [
     {
       "id": "10583_orimono_ex1",
-      "japanese": "{美|うつく}しい{織物|おりもの}。",
+      "japanese": "⟦{美|うつく}しい→美しい：01121_utsukushii⟧{織物|おりもの}。",
       "english": "A beautiful textile.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10583_orimono_ex2",
-      "japanese": "この{地域|ちいき}は{織物|おりもの}の{産地|さんち}として{知|し}られている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{地域|ちいき}→地域：01461_chiiki⟧⟦は→は：00079_ha⟧{織物|おりもの}⟦の→の：09472_no⟧⟦{産地|さんち}→産地：04031_sanchi⟧⟦として→として：06802_toshite⟧⟦{知|し}られている→知る：00458_shiru⟧。",
       "english": "This region is known as a textile production area.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10583_orimono_ex3",
-      "japanese": "{伝統的|でんとうてき}な{織物|おりもの}の{技術|ぎじゅつ}を{次|つぎ}の{世代|せだい}に{伝|つた}えたい。",
+      "japanese": "⟦{伝統的|でんとうてき}→伝統的：04802_dentouteki⟧な{織物|おりもの}⟦の→の：09472_no⟧⟦{技術|ぎじゅつ}→技術：01389_gijutsu⟧⟦を→を：00422_wo⟧⟦{次|つぎ}→次：00819_tsugi⟧⟦の→の：09472_no⟧⟦{世代|せだい}→世代：05102_sedai⟧⟦に→に：00314_ni⟧⟦{伝|つた}えたい→伝える：01220_tsutaeru⟧。",
       "english": "I want to pass down traditional weaving techniques to the next generation.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nRefers broadly to any woven fabric, but often carries connotations of traditional or artisanal craftsmanship. Japan has many famous regional textiles.\n\nCOMMON COLLOCATIONS:\n- {絹|きぬ}の{織物|おりもの}: silk textile\n- {織物|おりもの}の{産地|さんち}: textile production area\n- {織物|おりもの}{工場|こうじょう}: textile factory\n- {伝統|でんとう}{織物|おりもの}: traditional textile\n\nCULTURAL NOTE:\nJapan has many renowned regional textiles, such as {西陣織|にしじんおり} from Kyoto and {大島紬|おおしまつむぎ} from Kagoshima, which are used for high-quality kimono fabric.",
-  "cross_references": [],
+  "notes": "USAGE:\nRefers broadly to any woven fabric, but often carries connotations of traditional or artisanal craftsmanship. Japan has many famous regional textiles.\n\nCOMMON COLLOCATIONS:\n- ⟦{絹|きぬ}→絹：01383_kinu⟧⟦の→の：09472_no⟧{織物|おりもの}: silk textile\n- {織物|おりもの}⟦の→の：09472_no⟧⟦{産地|さんち}→産地：04031_sanchi⟧: textile production area\n- {織物|おりもの}⟦{工場|こうじょう}→工場：01082_koujou⟧: textile factory\n- ⟦{伝統|でんとう}→伝統：09585_dentou⟧{織物|おりもの}: traditional textile\n\nCULTURAL NOTE:\nJapan has many renowned regional textiles, such as {西陣織|にしじんおり} from Kyoto and {大島紬|おおしまつむぎ} from Kagoshima, which are used for high-quality kimono fabric.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20097_nunoji",
+      "reading": "ぬのじ",
+      "headword": "{布地|ぬのじ}",
+      "label": "fabric"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24596_tanmono",
+      "reading": "たんもの",
+      "headword": "{反物|たんもの}",
+      "label": "bolt of cloth"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28792_fushokufu",
+      "reading": "ふしょくふ",
+      "headword": "{不織布|ふしょくふ}",
+      "label": "non-woven fabric"
+    }
+  ],
   "metadata": {
     "created": "2026-02-08T05:27:45Z",
-    "modified": "2026-02-08T05:27:45Z",
+    "modified": "2026-09-02T04:01:21Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["clothing"]
+      "semantic": [
+        "clothing"
+      ]
     }
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "15298_kunshu_ex1",
-      "japanese": "その{国|くに}は{君主|くんしゅ}が{治|おさ}めている。",
+      "japanese": "⟦その→その：00993_sono⟧⟦{国|くに}→国：02204_kuni⟧⟦は→は：00079_ha⟧{君主|くんしゅ}⟦が→が：00051_ga⟧⟦{治|おさ}めている→治める：02462_osameru⟧。",
       "english": "That country is ruled by a monarch.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "15298_kunshu_ex2",
-      "japanese": "{日本|にほん}は{立憲|りっけん}{君主制|くんしゅせい}の{国|くに}です。",
+      "japanese": "⟦{日本|にほん}→日本：03876_nihon⟧⟦は→は：00079_ha⟧{立憲|りっけん}⟦{君主制|くんしゅせい}→君主制：21776_kunshusei⟧⟦の→の：09472_no⟧⟦{国|くに}→国：02204_kuni⟧です。",
       "english": "Japan is a constitutional monarchy.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "15298_kunshu_ex3",
-      "japanese": "{歴史|れきし}の{授業|じゅぎょう}で、ヨーロッパの{君主|くんしゅ}たちがどのように{権力|けんりょく}を{握|にぎ}ったかを{学|まな}んだ。",
+      "japanese": "⟦{歴史|れきし}→歴史：02267_rekishi⟧⟦の→の：09472_no⟧⟦{授業|じゅぎょう}→授業：00781_jugyou⟧⟦で→で：00502_de⟧、⟦ヨーロッパ→ヨーロッパ：00427_yooroppa⟧⟦の→の：09472_no⟧{君主|くんしゅ}たち⟦が→が：00051_ga⟧⟦どのように→どのように：23674_donoyouni⟧⟦{権力|けんりょく}→権力：10020_kenryoku⟧⟦を→を：00422_wo⟧⟦{握|にぎ}った→握る：02383_nigiru⟧⟦か→か：09473_ka⟧⟦を→を：00422_wo⟧⟦{学|まな}んだ→学ぶ：01987_manabu⟧。",
       "english": "In history class, we learned how European monarchs came to hold power.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{君主|くんしゅ} is a formal word for a hereditary ruler. It is used in political, historical, and academic contexts.\n\nCOMMON COLLOCATIONS:\n- {君主制|くんしゅせい} (monarchy)\n- {立憲|りっけん}{君主制|くんしゅせい} (constitutional monarchy)\n- {絶対|ぜったい}{君主制|くんしゅせい} (absolute monarchy)\n- {君主|くんしゅ}{国|こく} (monarchical state)\n\nSIMILAR WORDS:\n{王|おう} (king) refers specifically to a king. {君主|くんしゅ} is broader and includes emperors, queens, and other hereditary rulers. {元首|げんしゅ} (head of state) is even broader and includes presidents.",
+  "notes": "USAGE:\n{君主|くんしゅ} is a formal word for a hereditary ruler. It is used in political, historical, and academic contexts.\n\nCOMMON COLLOCATIONS:\n- ⟦{君主制|くんしゅせい}→君主制：21776_kunshusei⟧ (monarchy)\n- {立憲|りっけん}⟦{君主制|くんしゅせい}→君主制：21776_kunshusei⟧ (constitutional monarchy)\n- ⟦{絶対|ぜったい}→絶対：00435_zettai⟧⟦{君主制|くんしゅせい}→君主制：21776_kunshusei⟧ (absolute monarchy)\n- {君主|くんしゅ}{国|こく} (monarchical state)\n\nSIMILAR WORDS:\n⟦{王|おう}→王：19353_ou⟧ (king) refers specifically to a king. {君主|くんしゅ} is broader and includes emperors, queens, and other hereditary rulers. {元首|げんしゅ} (head of state) is even broader and includes presidents.",
   "cross_references": [
     {
       "type": "related",
@@ -52,11 +52,25 @@
       "headword": "{王室|おうしつ}",
       "label": "royal family",
       "target_id": "15297_oushitsu"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19353_ou",
+      "reading": "おう",
+      "headword": "{王|おう}",
+      "label": "king"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23032_touchisha",
+      "reading": "とうちしゃ",
+      "headword": "{統治者|とうちしゃ}",
+      "label": "ruler"
     }
   ],
   "metadata": {
     "created": "2026-03-06T08:51:33Z",
-    "modified": "2026-07-16T07:06:35Z",
+    "modified": "2026-09-02T04:01:40Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

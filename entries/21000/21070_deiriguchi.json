@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21070_deiriguchi_ex1",
-      "japanese": "{出入|でい}り{口|ぐち}をふさがないでください。",
+      "japanese": "{出入|でい}り{口|ぐち}⟦を→を：00422_wo⟧ふさがないで⟦ください→ください：02899_kudasai⟧。",
       "english": "Please don't block the doorway.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21070_deiriguchi_ex2",
-      "japanese": "{非常|ひじょう}{出入|でい}り{口|ぐち}はどこですか。",
+      "japanese": "⟦{非常|ひじょう}→非常：01598_hijou⟧{出入|でい}り{口|ぐち}⟦は→は：00079_ha⟧⟦どこ→どこ：00539_doko⟧です⟦か→か：09473_ka⟧。",
       "english": "Where is the emergency exit?",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21070_deiriguchi_ex3",
-      "japanese": "この{建物|たてもの}の{出入|でい}り{口|ぐち}は{一|ひと}つしかないので、{混雑|こんざつ}しやすい。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{建物|たてもの}→建物：01458_tatemono⟧⟦の→の：09472_no⟧{出入|でい}り{口|ぐち}⟦は→は：00079_ha⟧⟦{一|ひと}つ→一つ：02948_hitotsu⟧⟦しかない→〜しかない：30533_shikanai⟧⟦の→の：09472_no⟧で、⟦{混雑|こんざつ}→混雑：02809_konzatsu⟧しやすい。",
       "english": "This building has only one entrance/exit, so it tends to get crowded.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {出入|でい}り (going in and out) + {口|ぐち} (opening, entrance). Refers to a single point that serves as both entrance and exit, or more generally to any doorway or access point.\n\nCOMMON COLLOCATIONS:\n- {出入|でい}り{口|ぐち}をふさぐ: to block the doorway\n- {出入|でい}り{口|ぐち}{付近|ふきん}: near the entrance/exit\n- {非常|ひじょう}{出入|でい}り{口|ぐち}: emergency entrance/exit\n- {出入|でい}り{口|ぐち}に{立|た}つ: to stand at the doorway\n\nRELATED TERMS:\n- {入口|いりぐち}: entrance (entry only)\n- {出口|でぐち}: exit (exit only)\n- {出入|でい}り{口|ぐち}: serves as both entrance and exit\n- {通用口|つうようぐち}: service entrance, staff entrance",
+  "notes": "A compound of ⟦{出入|でい}り→出入り：06609_deiri⟧ (going in and out) + {口|ぐち} (opening, entrance). Refers to a single point that serves as both entrance and exit, or more generally to any doorway or access point.\n\nCOMMON COLLOCATIONS:\n- {出入|でい}り{口|ぐち}⟦を→を：00422_wo⟧ふさぐ: to block the doorway\n- {出入|でい}り{口|ぐち}⟦{付近|ふきん}→付近：00044_fukin⟧: near the entrance/exit\n- ⟦{非常|ひじょう}→非常：01598_hijou⟧{出入|でい}り{口|ぐち}: emergency entrance/exit\n- {出入|でい}り{口|ぐち}⟦に→に：00314_ni⟧⟦{立|た}つ→立つ：00758_tatsu⟧: to stand at the doorway\n\nRELATED WORDS:\n- {入口|いりぐち}: entrance (entry only)\n- ⟦{出口|でぐち}→出口：02508_deguchi⟧: exit (exit only)\n- {出入|でい}り{口|ぐち}: serves as both entrance and exit\n- ⟦{通用口|つうようぐち}→通用口：20472_tsuuyouguchi⟧: service entrance, staff entrance",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "02508_deguchi",
+      "reading": "でぐち",
+      "headword": "{出口|でぐち}",
+      "label": "exit"
+    },
+    {
+      "type": "related",
+      "target_id": "20472_tsuuyouguchi",
+      "reading": "つうようぐち",
+      "headword": "{通用口|つうようぐち}",
+      "label": "service entrance, staff entrance"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +75,6 @@
       ]
     },
     "created": "2026-03-31T16:25:42Z",
-    "modified": "2026-07-29T00:22:41Z"
+    "modified": "2026-09-02T04:02:02Z"
   }
 }

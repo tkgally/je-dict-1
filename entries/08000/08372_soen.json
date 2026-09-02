@@ -2,7 +2,7 @@
   "id": "08372_soen",
   "headword": "{疎遠|そえん}",
   "reading": "そえん",
-  "part_of_speech": "noun, na-adjective",
+  "part_of_speech": "na-adjective, noun",
   "gloss": "estranged; distant; infrequent contact",
   "definitions": [
     {
@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08372_soen_ex1",
-      "japanese": "{兄|あに}とは{疎遠|そえん}になった。",
+      "japanese": "⟦{兄|あに}→兄：00570_ani⟧⟦と→と：00512_to⟧⟦は→は：00079_ha⟧{疎遠|そえん}になった。",
       "english": "I've become estranged from my older brother.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "08372_soen_ex2",
-      "japanese": "{疎遠|そえん}になっていた{友人|ゆうじん}から{連絡|れんらく}があった。",
+      "japanese": "{疎遠|そえん}になっていた⟦{友人|ゆうじん}→友人：03649_yuujin⟧⟦から→から：00504_kara⟧⟦{連絡|れんらく}→連絡：01524_renraku⟧⟦が→が：00051_ga⟧⟦あった→ある：00006_aru⟧。",
       "english": "I got a call from a friend I'd lost touch with.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "08372_soen_ex3",
-      "japanese": "{引|ひ}っ{越|こ}してから{親戚|しんせき}とは{疎遠|そえん}になりがちだ。",
+      "japanese": "⟦{引|ひ}っ{越|こ}して→引っ越す：01171_hikkosu⟧⟦から→から：00504_kara⟧⟦{親戚|しんせき}→親戚：03260_shinseki⟧⟦と→と：00512_to⟧⟦は→は：00079_ha⟧{疎遠|そえん}⟦に→に：00314_ni⟧⟦なり→なる：01970_naru⟧がちだ。",
       "english": "Since moving, I tend to lose touch with relatives.",
       "sense_numbers": [
         1
@@ -43,7 +43,7 @@
       "notes": null
     }
   ],
-  "notes": "FORMATION:\n{疎|そ} (distant, sparse) + {遠|えん} (far) → distant and far\n\nGRAMMAR:\n{疎遠|そえん}になる (to become estranged)\n{疎遠|そえん}な{関係|かんけい} (an estranged relationship)\n\nRELATED WORDS:\n- {絶縁|ぜつえん} (breaking ties completely - stronger)\n- {疎|うと}い (estranged, unfamiliar)\n- {親|した}しい (close, intimate - opposite)\n- {遠|とお}ざかる (to grow distant)\n\nDISTINCTION:\n{疎遠|そえん} implies a gradual drifting apart, often without active hostility. {絶縁|ぜつえん} implies a deliberate cutting of ties, often due to conflict.",
+  "notes": "FORMS:\n{疎|そ} (distant, sparse) + {遠|えん} (far) → distant and far\n\nCOMMON PATTERNS:\n{疎遠|そえん}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧ (to become estranged)\n{疎遠|そえん}な⟦{関係|かんけい}→関係：01298_kankei⟧ (an estranged relationship)\n\nRELATED WORDS:\n- ⟦{絶縁|ぜつえん}→絶縁：08374_zetsuen⟧ (breaking ties completely - stronger)\n- ⟦{疎|うと}い→疎い：07842_utoi⟧ (estranged, unfamiliar)\n- ⟦{親|した}しい→親しい：02345_shitashii⟧ (close, intimate - opposite)\n- ⟦{遠|とお}ざかる→遠ざかる：14379_toozakaru⟧ (to grow distant)\n\nSIMILAR WORDS:\n{疎遠|そえん} implies a gradual drifting apart, often without active hostility. ⟦{絶縁|ぜつえん}→絶縁：08374_zetsuen⟧ implies a deliberate cutting of ties, often due to conflict.",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -52,13 +52,14 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "family",
         "society"
       ]
     },
     "created": "2026-01-26T04:46:09Z",
-    "modified": "2026-08-12T12:50:50Z"
+    "modified": "2026-09-02T04:01:14Z"
   },
   "cross_references": [
     {
@@ -67,6 +68,27 @@
       "reading": "ぜつえん",
       "headword": "{絶縁|ぜつえん}",
       "label": "breaking off ties (stronger)"
+    },
+    {
+      "type": "related",
+      "target_id": "07842_utoi",
+      "reading": "うとい",
+      "headword": "{疎|うと}い",
+      "label": "estranged, unfamiliar"
+    },
+    {
+      "type": "related",
+      "target_id": "02345_shitashii",
+      "reading": "したしい",
+      "headword": "{親|した}しい",
+      "label": "close, intimate"
+    },
+    {
+      "type": "related",
+      "target_id": "14379_toozakaru",
+      "reading": "とおざかる",
+      "headword": "{遠|とお}ざかる",
+      "label": "to grow distant"
     }
   ]
 }

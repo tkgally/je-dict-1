@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "20324_hougai_ex1",
-      "japanese": "{法外|ほうがい}な{値段|ねだん}だ。",
+      "japanese": "{法外|ほうがい}な⟦{値段|ねだん}→値段：00871_nedan⟧だ。",
       "english": "That's an outrageous price.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "20324_hougai_ex2",
-      "japanese": "{法外|ほうがい}な{料金|りょうきん}を{請求|せいきゅう}された。",
+      "japanese": "{法外|ほうがい}な⟦{料金|りょうきん}→料金：03797_ryoukin⟧⟦を→を：00422_wo⟧⟦{請求|せいきゅう}→請求：03374_seikyuu⟧⟦された→する：00392_suru⟧。",
       "english": "I was charged an exorbitant fee.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "20324_hougai_ex3",
-      "japanese": "あの{店|みせ}は{観光客|かんこうきゃく}に{法外|ほうがい}な{金額|きんがく}を{吹|ふ}っかけることで{有名|ゆうめい}だ。",
+      "japanese": "⟦あの→あの：00915_ano⟧⟦{店|みせ}→店：00497_mise⟧⟦は→は：00079_ha⟧⟦{観光客|かんこうきゃく}→観光客：03022_kankoukyaku⟧⟦に→に：00314_ni⟧{法外|ほうがい}な⟦{金額|きんがく}→金額：02665_kingaku⟧⟦を→を：00422_wo⟧{吹|ふ}っかけること⟦で→で：00502_de⟧⟦{有名|ゆうめい}→有名：01106_yuumei⟧だ。",
       "english": "That shop is famous for ripping off tourists with exorbitant prices.",
       "sense_numbers": [
         1
@@ -43,8 +43,38 @@
       "notes": null
     }
   ],
-  "notes": "A な-adjective literally meaning 'outside the law' ({法|ほう} law + {外|がい} outside), suggesting something that exceeds the bounds of what is acceptable. Despite the literal meaning, it is not a legal term — it describes extremes in everyday contexts, especially regarding money.\n\nCOMMON COLLOCATIONS:\n- {法外|ほうがい}な{値段|ねだん}: outrageous price\n- {法外|ほうがい}な{料金|りょうきん}: exorbitant fee\n- {法外|ほうがい}な{要求|ようきゅう}: unreasonable demand\n- {法外|ほうがい}な{利息|りそく}: exorbitant interest\n\nSIMILAR WORDS:\n- {高額|こうがく}: high amount — neutral, factual description of a large sum\n- {不当|ふとう}: unjust, unfair — broader meaning, not limited to excessive amounts\n- {途方|とほう}もない: extraordinary, incredible — can be positive or negative",
+  "notes": "A な-adjective literally meaning 'outside the law' (⟦{法|ほう}→法：13620_hou⟧ law + ⟦{外|がい}→外〜：03948_gai⟧ outside), suggesting something that exceeds the bounds of what is acceptable. Despite the literal meaning, it is not a legal term — it describes extremes in everyday contexts, especially regarding money.\n\nCOMMON COLLOCATIONS:\n- {法外|ほうがい}な⟦{値段|ねだん}→値段：00871_nedan⟧: outrageous price\n- {法外|ほうがい}な⟦{料金|りょうきん}→料金：03797_ryoukin⟧: exorbitant fee\n- {法外|ほうがい}な⟦{要求|ようきゅう}→要求：03658_youkyuu⟧: unreasonable demand\n- {法外|ほうがい}な⟦{利息|りそく}→利息：05469_risoku⟧: exorbitant interest\n\nSIMILAR WORDS:\n- ⟦{高額|こうがく}→高額：14704_kougaku⟧: high amount — neutral, factual description of a large sum\n- ⟦{不当|ふとう}→不当：11319_futou⟧: unjust, unfair — broader meaning, not limited to excessive amounts\n- ⟦{途方|とほう}もない→途方もない：19113_tohoumonai⟧: extraordinary, incredible — can be positive or negative",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14704_kougaku",
+      "reading": "こうがく",
+      "headword": "{高額|こうがく}",
+      "label": "high amount"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11319_futou",
+      "reading": "ふとう",
+      "headword": "{不当|ふとう}",
+      "label": "unjust, unfair"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19113_tohoumonai",
+      "reading": "とほうもない",
+      "headword": "{途方|とほう}もない",
+      "label": "extraordinary, incredible"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23166_gekitaka",
+      "reading": "げきたか",
+      "headword": "{激高|げきたか}",
+      "label": "extremely expensive"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +89,6 @@
       ]
     },
     "created": "2026-03-28T21:11:23Z",
-    "modified": "2026-07-28T00:51:36Z"
+    "modified": "2026-09-02T04:01:59Z"
   }
 }

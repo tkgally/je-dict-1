@@ -15,41 +15,60 @@
   "examples": [
     {
       "id": "29629_piasuana_ex1",
-      "japanese": "ピアス{穴|あな}を{開|あ}ける。",
+      "japanese": "ピアス{穴|あな}⟦を→を：00422_wo⟧⟦{開|あ}ける→開ける：00563_akeru⟧。",
       "english": "To make a piercing hole.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29629_piasuana_ex2",
-      "japanese": "ピアス{穴|あな}が{塞|ふさ}がってしまった。",
+      "japanese": "ピアス{穴|あな}⟦が→が：00051_ga⟧⟦{塞|ふさ}がって→塞がる：14872_fusagaru⟧しまった。",
       "english": "The piercing hole has closed up.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29629_piasuana_ex3",
-      "japanese": "{長|なが}い{間|あいだ}ピアスをしないと、ピアス{穴|あな}が{塞|ふさ}がることがある。",
+      "japanese": "⟦{長|なが}い→長い：00491_nagai⟧⟦{間|あいだ}→間：00914_aida⟧⟦ピアス→ピアス：04685_piasu⟧⟦を→を：00422_wo⟧⟦しない→する：00392_suru⟧⟦と→と：00512_to⟧、ピアス{穴|あな}⟦が→が：00051_ga⟧⟦{塞|ふさ}がる→塞がる：14872_fusagaru⟧こと⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "If you don't wear earrings for a long time, the piercing hole can close up.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "USAGE: ピアス{穴|あな} is the hole for pierced jewelry, combining {ピアス} (pierced earring) with {穴|あな} (hole). Note that {ピアス} in Japanese refers specifically to *pierced* accessories, unlike clip-on {イヤリング}.\n\nCOMMON COLLOCATIONS:\n- ピアス{穴|あな}を{開|あ}ける: to get a piercing (make the hole)\n- ピアス{穴|あな}が{塞|ふさ}がる: for the piercing hole to close\n\nSIMILAR WORDS:\n- {ピアス}: pierced earring — the jewelry itself\n- {イヤリング}: clip-on earring — the non-pierced type",
+  "notes": "USAGE: ピアス{穴|あな} is the hole for pierced jewelry, combining ⟦ピアス→ピアス：04685_piasu⟧ (pierced earring) with ⟦{穴|あな}→穴：01691_ana⟧ (hole). Note that ⟦ピアス→ピアス：04685_piasu⟧ in Japanese refers specifically to *pierced* accessories, unlike clip-on ⟦イヤリング→イヤリング：04684_iyaringu⟧.\n\nCOMMON COLLOCATIONS:\n- ピアス{穴|あな}⟦を→を：00422_wo⟧⟦{開|あ}ける→開ける：00563_akeru⟧: to get a piercing (make the hole)\n- ピアス{穴|あな}⟦が→が：00051_ga⟧⟦{塞|ふさ}がる→塞がる：14872_fusagaru⟧: for the piercing hole to close\n\nSIMILAR WORDS:\n- ⟦ピアス→ピアス：04685_piasu⟧: pierced earring — the jewelry itself\n- ⟦イヤリング→イヤリング：04684_iyaringu⟧: clip-on earring — the non-pierced type",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04684_iyaringu",
+      "reading": "いやりんぐ",
+      "headword": "イヤリング",
+      "label": "clip-on earring"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["daily-life"],
+      "politeness": "plain",
+      "semantic": [
+        "daily-life"
+      ],
       "domain": []
     },
     "created": "2026-07-01T18:18:59Z",
-    "modified": "2026-07-01T18:18:59Z"
+    "modified": "2026-09-02T04:02:37Z"
   }
 }

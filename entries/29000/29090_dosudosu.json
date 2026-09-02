@@ -15,41 +15,76 @@
   "examples": [
     {
       "id": "29090_dosudosu_ex1",
-      "japanese": "{廊下|ろうか}をどすどすと{歩|ある}いている。",
+      "japanese": "⟦{廊下|ろうか}→廊下：05005_rouka⟧⟦を→を：00422_wo⟧どすどす⟦と→と：00512_to⟧⟦{歩|ある}いている→歩く：00538_aruku⟧。",
       "english": "Someone is walking down the hallway with heavy thumping steps.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29090_dosudosu_ex2",
-      "japanese": "{体|からだ}の{大|おお}きな{男|おとこ}がどすどすと{階段|かいだん}を{降|お}りてきた。",
+      "japanese": "⟦{体|からだ}→体：00784_karada⟧⟦の→の：09472_no⟧⟦{大|おお}きな→大きな：02849_ookina⟧⟦{男|おとこ}→男：00561_otoko⟧⟦が→が：00051_ga⟧どすどす⟦と→と：00512_to⟧⟦{階段|かいだん}→階段：00782_kaidan⟧⟦を→を：00422_wo⟧⟦{降|お}りて→降りる：00568_oriru⟧きた。",
       "english": "A large man came stomping down the stairs.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29090_dosudosu_ex3",
-      "japanese": "{上|うえ}の{階|かい}から{誰|だれ}かがどすどすと{走|はし}り{回|まわ}る{音|おと}が{聞|き}こえてきた。",
+      "japanese": "⟦{上|うえ}→上：00682_ue⟧⟦の→の：09472_no⟧⟦{階|かい}→階：01034_kai⟧⟦から→から：00504_kara⟧⟦{誰|だれ}か→誰か：02912_dareka⟧⟦が→が：00051_ga⟧どすどす⟦と→と：00512_to⟧⟦{走|はし}り{回|まわ}る→走り回る：04608_hashirimawaru⟧⟦{音|おと}→音：00743_oto⟧⟦が→が：00051_ga⟧⟦{聞|き}こえて→聞こえる：01229_kikoeru⟧きた。",
       "english": "I could hear someone running around with heavy thumping footsteps from the floor above.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "An onomatopoeia for heavy, thudding footsteps. The sound conveys weight and often implies someone walking carelessly or with force.\n\nGRAMMAR:\nTypically used with と before a motion verb:\n- どすどすと{歩|ある}く: to walk with heavy thumping steps\n- どすどすと{走|はし}る: to run with heavy footsteps\n\nRELATED MOVEMENT ONOMATOPOEIA:\n- ずかずか: walking in without hesitation or rudely barging in\n- のしのし: slow, heavy waddling walk\n- てくてく: steady walking (neutral, not heavy)",
+  "notes": "An onomatopoeia for heavy, thudding footsteps. The sound conveys weight and often implies someone walking carelessly or with force.\n\nCOMMON PATTERNS:\nTypically used with ⟦と→と：00512_to⟧ before a motion verb:\n- どすどす⟦と→と：00512_to⟧⟦{歩|ある}く→歩く：00538_aruku⟧: to walk with heavy thumping steps\n- どすどす⟦と→と：00512_to⟧⟦{走|はし}る→走る：00519_hashiru⟧: to run with heavy footsteps\n\nRELATED MOVEMENT ONOMATOPOEIA:\n- ずかずか: walking in without hesitation or rudely barging in\n- のしのし: slow, heavy waddling walk\n- ⟦てくてく→てくてく：05838_tekuteku⟧: steady walking (neutral, not heavy)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "05838_tekuteku",
+      "reading": "てくてく",
+      "headword": "てくてく",
+      "label": "steady walking"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29082_dotadota",
+      "reading": "どたどた",
+      "headword": "どたどた",
+      "label": "with heavy clumsy footsteps"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29118_dokadoka",
+      "reading": "どかどか",
+      "headword": "どかどか",
+      "label": "stomping heavily"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adverb", "onomatopoeia"],
+      "pos": [
+        "adverb",
+        "onomatopoeia"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["onomatopoeia", "movement"],
+      "politeness": "plain",
+      "semantic": [
+        "onomatopoeia",
+        "movement"
+      ],
       "domain": []
     },
     "created": "2026-06-10T12:32:18Z",
-    "modified": "2026-06-10T12:32:18Z"
+    "modified": "2026-09-02T04:02:35Z"
   }
 }

@@ -15,41 +15,59 @@
   "examples": [
     {
       "id": "15072_raireki_ex1",
-      "japanese": "この{建物|たてもの}の{来歴|らいれき}を{調|しら}べた。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{建物|たてもの}→建物：01458_tatemono⟧⟦の→の：09472_no⟧{来歴|らいれき}⟦を→を：00422_wo⟧⟦{調|しら}べた→調べる：01213_shiraberu⟧。",
       "english": "I researched the history of this building.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15072_raireki_ex2",
-      "japanese": "{美術品|びじゅつひん}の{来歴|らいれき}が{明|あき}らかになった。",
+      "japanese": "⟦{美術品|びじゅつひん}→美術品：28549_bijutsuhin⟧⟦の→の：09472_no⟧{来歴|らいれき}⟦が→が：00051_ga⟧⟦{明|あき}らか→明らか：02351_akiraka⟧になった。",
       "english": "The provenance of the artwork was established.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15072_raireki_ex3",
-      "japanese": "{彼|かれ}は{複雑|ふくざつ}な{来歴|らいれき}を{持|も}つ{人物|じんぶつ}で、{波乱万丈|はらんばんじょう}の{人生|じんせい}を{送|おく}ってきた。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{複雑|ふくざつ}→複雑：01115_fukuzatsu⟧な{来歴|らいれき}⟦を→を：00422_wo⟧⟦{持|も}つ→持つ：00478_motsu⟧⟦{人物|じんぶつ}→人物：03356_jinbutsu⟧⟦で→で：00502_de⟧、⟦{波乱万丈|はらんばんじょう}→波乱万丈：06378_haranbanjou⟧⟦の→の：09472_no⟧⟦{人生|じんせい}→人生：03355_jinsei⟧⟦を→を：00422_wo⟧⟦{送|おく}って→送る：00742_okuru⟧きた。",
       "english": "He is a person with a complex background who has led an eventful life.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\n{来歴|らいれき} is a somewhat formal word used when tracing the background or provenance of something. It is commonly used in art, antiques, and historical research.\n\nCOMMON COLLOCATIONS:\n- {来歴|らいれき}を{調|しら}べる (to investigate the history/provenance)\n- {来歴|らいれき}が{不明|ふめい} (of unknown provenance)\n- {来歴|らいれき}のある (with a notable history)\n- {来歴|らいれき}を{持|も}つ (to have a history/background)\n\nSIMILAR WORDS:\n{経歴|けいれき} focuses on a person's career history or professional background. {由来|ゆらい} refers to the origin or etymology of a word, name, or custom. {来歴|らいれき} is broader, covering the entire chain of history leading to the present state.",
-  "cross_references": [],
+  "notes": "USAGE:\n{来歴|らいれき} is a somewhat formal word used when tracing the background or provenance of something. It is commonly used in art, antiques, and historical research.\n\nCOMMON COLLOCATIONS:\n- {来歴|らいれき}⟦を→を：00422_wo⟧⟦{調|しら}べる→調べる：01213_shiraberu⟧ (to investigate the history/provenance)\n- {来歴|らいれき}⟦が→が：00051_ga⟧⟦{不明|ふめい}→不明：11352_fumei⟧ (of unknown provenance)\n- {来歴|らいれき}⟦の→の：09472_no⟧⟦ある→ある：00006_aru⟧ (with a notable history)\n- {来歴|らいれき}⟦を→を：00422_wo⟧⟦{持|も}つ→持つ：00478_motsu⟧ (to have a history/background)\n\nSIMILAR WORDS:\n⟦{経歴|けいれき}→経歴：13795_keireki⟧ focuses on a person's career history or professional background. ⟦{由来|ゆらい}→由来：05451_yurai⟧ refers to the origin or etymology of a word, name, or custom. {来歴|らいれき} is broader, covering the entire chain of history leading to the present state.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13567_yuisho",
+      "reading": "ゆいしょ",
+      "headword": "{由緒|ゆいしょ}",
+      "label": "history, lineage, pedigree"
+    }
+  ],
   "metadata": {
     "created": "2026-03-05T06:27:59Z",
-    "modified": "2026-03-05T06:27:59Z",
+    "modified": "2026-09-02T04:01:39Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

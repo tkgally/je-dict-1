@@ -3,7 +3,7 @@
   "headword": "{再婚|さいこん}",
   "reading": "さいこん",
   "romaji": "saikon",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "remarriage; second marriage",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22805_saikon_ex1",
-      "japanese": "{母|はは}が{再婚|さいこん}した。",
+      "japanese": "⟦{母|はは}→母：00549_haha⟧⟦が→が：00051_ga⟧{再婚|さいこん}⟦した→する：00392_suru⟧。",
       "english": "My mother remarried.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22805_saikon_ex2",
-      "japanese": "{再婚|さいこん}を{考|かんが}えている。",
+      "japanese": "{再婚|さいこん}⟦を→を：00422_wo⟧⟦{考|かんが}えている→考える：00856_kangaeru⟧。",
       "english": "I'm thinking about remarrying.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22805_saikon_ex3",
-      "japanese": "{彼女|かのじょ}は{離婚|りこん}してから{三|さん}{年後|ねんご}に{再婚|さいこん}した。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧⟦{離婚|りこん}して→離婚する：21333_rikonsuru⟧⟦から→から：00504_kara⟧⟦{三|さん}→三：00749_san⟧{年後|ねんご}⟦に→に：00314_ni⟧{再婚|さいこん}⟦した→する：00392_suru⟧。",
       "english": "She remarried three years after her divorce.",
       "sense_numbers": [
         1
@@ -45,7 +45,7 @@
     },
     {
       "id": "22805_saikon_ex4",
-      "japanese": "{子|こ}どもがいると{再婚|さいこん}は{簡単|かんたん}ではない。",
+      "japanese": "{子|こ}ども⟦が→が：00051_ga⟧⟦いる→いる：00495_iru⟧⟦と→と：00512_to⟧{再婚|さいこん}⟦は→は：00079_ha⟧⟦{簡単|かんたん}→簡単：00713_kantan⟧で⟦は→は：00079_ha⟧⟦ない→ない：01118_nai⟧。",
       "english": "Remarriage is not easy when you have children.",
       "sense_numbers": [
         1
@@ -54,8 +54,45 @@
       "notes": null
     }
   ],
-  "notes": "Refers to marrying again after a divorce or the death of a spouse. Unlike {初婚|しょこん} (first marriage), {再婚|さいこん} implies a previous marriage has ended.\n\nCOMMON COLLOCATIONS:\n- {再婚|さいこん}する: to remarry\n- {再婚|さいこん}{相手|あいて}: a remarriage partner\n- {再婚|さいこん}{禁止|きんし}{期間|きかん}: waiting period before remarriage\n- {再婚|さいこん}{家庭|かてい}: a blended family\n\nRELATED TERMS:\n- {初婚|しょこん}: first marriage\n- {離婚|りこん}: divorce\n- {結婚|けっこん}: marriage\n- {連|つ}れ{子|こ}: a child from a previous marriage",
+  "notes": "Refers to marrying again after a divorce or the death of a spouse. Unlike ⟦{初婚|しょこん}→初婚：25564_shokon⟧ (first marriage), {再婚|さいこん} implies a previous marriage has ended.\n\nCOMMON COLLOCATIONS:\n- {再婚|さいこん}⟦する→する：00392_suru⟧: to remarry\n- {再婚|さいこん}{相手|あいて}: a remarriage partner\n- {再婚|さいこん}⟦{禁止|きんし}→禁止：02643_kinshi⟧⟦{期間|きかん}→期間：00229_kikan⟧: waiting period before remarriage\n- {再婚|さいこん}⟦{家庭|かてい}→家庭：12315_katei⟧: a blended family\n\nRELATED WORDS:\n- ⟦{初婚|しょこん}→初婚：25564_shokon⟧: first marriage\n- ⟦{離婚|りこん}→離婚：02530_rikon⟧: divorce\n- ⟦{結婚|けっこん}→結婚：02514_kekkon⟧: marriage\n- ⟦{連|つ}れ{子|こ}→連れ子：10100_tsureko⟧: a child from a previous marriage",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "25564_shokon",
+      "reading": "しょこん",
+      "headword": "{初婚|しょこん}",
+      "label": "first marriage"
+    },
+    {
+      "type": "related",
+      "target_id": "02530_rikon",
+      "reading": "りこん",
+      "headword": "{離婚|りこん}",
+      "label": "divorce"
+    },
+    {
+      "type": "related",
+      "target_id": "02514_kekkon",
+      "reading": "けっこん",
+      "headword": "{結婚|けっこん}",
+      "label": "marriage"
+    },
+    {
+      "type": "related",
+      "target_id": "10100_tsureko",
+      "reading": "つれこ",
+      "headword": "{連|つ}れ{子|こ}",
+      "label": "a child from a previous marriage"
+    },
+    {
+      "type": "related",
+      "target_id": "27329_batsuni",
+      "reading": "ばつに",
+      "headword": "バツニ",
+      "label": "divorced twice (slang)"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -63,11 +100,17 @@
         "noun",
         "verb-suru"
       ],
-      "semantic": ["family", "society"],
-      "verb_class": "suru"
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "family",
+        "society"
+      ],
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     },
     "created": "2026-04-07T17:03:36Z",
-    "modified": "2026-07-31T00:22:30Z"
+    "modified": "2026-09-02T04:02:09Z"
   },
   "conjugation": {
     "type": "suru",

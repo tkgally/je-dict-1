@@ -3,7 +3,7 @@
   "headword": "{最優秀|さいゆうしゅう}",
   "reading": "さいゆうしゅう",
   "romaji": "saiyuushuu",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "best; most excellent; top",
   "definitions": [
     {
@@ -15,41 +15,61 @@
   "examples": [
     {
       "id": "28237_saiyuushuu_ex1",
-      "japanese": "{最優秀|さいゆうしゅう}{賞|しょう}を{受賞|じゅしょう}した。",
+      "japanese": "{最優秀|さいゆうしゅう}{賞|しょう}⟦を→を：00422_wo⟧⟦{受賞|じゅしょう}→受賞：11867_jushou⟧⟦した→する：00392_suru⟧。",
       "english": "I won the grand prize.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28237_saiyuushuu_ex2",
-      "japanese": "{彼|かれ}は{最優秀|さいゆうしゅう}{選手|せんしゅ}に{選|えら}ばれた。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{最優秀|さいゆうしゅう}⟦{選手|せんしゅ}→選手：03823_senshu⟧⟦に→に：00314_ni⟧⟦{選|えら}ばれた→選ぶ：00835_erabu⟧。",
       "english": "He was chosen as the most valuable player.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28237_saiyuushuu_ex3",
-      "japanese": "その{映画|えいが}は{映画祭|えいがさい}で{最優秀|さいゆうしゅう}{作品|さくひん}{賞|しょう}を{獲得|かくとく}した。",
+      "japanese": "⟦その→その：00993_sono⟧⟦{映画|えいが}→映画：02273_eiga⟧⟦は→は：00079_ha⟧⟦{映画祭|えいがさい}→映画祭：30642_eigasai⟧⟦で→で：00502_de⟧{最優秀|さいゆうしゅう}⟦{作品|さくひん}→作品：02776_sakuhin⟧⟦{賞|しょう}→賞：03227_shou⟧⟦を→を：00422_wo⟧⟦{獲得|かくとく}→獲得：05624_kakutoku⟧⟦した→する：00392_suru⟧。",
       "english": "That film won the award for best picture at the film festival.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {最|さい} (most) + {優秀|ゆうしゅう} (excellent, superior). Used attributively, typically in award and ranking names.\n\nCOMMON COLLOCATIONS:\n- {最優秀|さいゆうしゅう}{賞|しょう}: grand prize; best award\n- {最優秀|さいゆうしゅう}{選手|せんしゅ}: most valuable player (MVP)\n- {最優秀|さいゆうしゅう}{作品|さくひん}{賞|しょう}: best picture / best work award\n\nSIMILAR WORDS:\n- {優秀|ゆうしゅう}: excellent — the base adjective without the superlative {最|さい}\n- {最高|さいこう}: best; highest — broader and more colloquial; can describe feelings and experiences, not just formal rankings",
+  "notes": "Composed of ⟦{最|さい}→最〜：03954_sai⟧ (most) + ⟦{優秀|ゆうしゅう}→優秀：03646_yuushuu⟧ (excellent, superior). Used attributively, typically in award and ranking names.\n\nCOMMON COLLOCATIONS:\n- {最優秀|さいゆうしゅう}{賞|しょう}: grand prize; best award\n- {最優秀|さいゆうしゅう}⟦{選手|せんしゅ}→選手：03823_senshu⟧: most valuable player (MVP)\n- {最優秀|さいゆうしゅう}⟦{作品|さくひん}→作品：02776_sakuhin⟧⟦{賞|しょう}→賞：03227_shou⟧: best picture / best work award\n\nSIMILAR WORDS:\n- ⟦{優秀|ゆうしゅう}→優秀：03646_yuushuu⟧: excellent — the base adjective without the superlative ⟦{最|さい}→最〜：03954_sai⟧\n- ⟦{最高|さいこう}→最高：02637_saikou⟧: best; highest — broader and more colloquial; can describe feelings and experiences, not just formal rankings",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02637_saikou",
+      "reading": "さいこう",
+      "headword": "{最高|さいこう}",
+      "label": "best"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-no"],
+      "pos": [
+        "noun",
+        "adjective-no"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
+      "semantic": [
+        "general"
+      ],
       "domain": []
     },
     "created": "2026-05-27T04:08:18Z",
-    "modified": "2026-05-27T04:08:18Z"
+    "modified": "2026-09-02T04:02:33Z"
   }
 }

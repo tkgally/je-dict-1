@@ -3,7 +3,7 @@
   "headword": "{常駐|じょうちゅう}",
   "reading": "じょうちゅう",
   "romaji": "jouchuu",
-  "part_of_speech": "noun; noun (する)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "permanent stationing; being stationed at a location",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21124_jouchuu_ex1",
-      "japanese": "{警備員|けいびいん}が{常駐|じょうちゅう}している。",
+      "japanese": "⟦{警備員|けいびいん}→警備員：09867_keibiin⟧⟦が→が：00051_ga⟧{常駐|じょうちゅう}⟦している→する：00392_suru⟧。",
       "english": "A security guard is stationed there at all times.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21124_jouchuu_ex2",
-      "japanese": "このビルには{医師|いし}が{常駐|じょうちゅう}している。",
+      "japanese": "⟦この→この：00962_kono⟧⟦ビル→ビル：01500_biru⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{医師|いし}→医師：11851_ishi⟧⟦が→が：00051_ga⟧{常駐|じょうちゅう}⟦している→する：00392_suru⟧。",
       "english": "A doctor is permanently stationed in this building.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21124_jouchuu_ex3",
-      "japanese": "{客先|きゃくさき}に{常駐|じょうちゅう}するエンジニアを{募集|ぼしゅう}しています。",
+      "japanese": "{客先|きゃくさき}⟦に→に：00314_ni⟧{常駐|じょうちゅう}⟦する→する：00392_suru⟧⟦エンジニア→エンジニア：05059_enjinia⟧⟦を→を：00422_wo⟧⟦{募集|ぼしゅう}→募集：03035_boshuu⟧⟦しています→する：00392_suru⟧。",
       "english": "We are recruiting engineers to be stationed on-site at client locations.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Describes being permanently assigned to or always present at a specific location. Common in business (on-site engineers), security (posted guards), medical (resident doctors), and IT (resident software) contexts.\n\nCOMMON COLLOCATIONS:\n- {常駐|じょうちゅう}する: to be stationed at, to be permanently present\n- {常駐|じょうちゅう}スタッフ: permanently stationed staff\n- {常駐|じょうちゅう}{警備|けいび}: permanent security presence\n- {客先|きゃくさき}{常駐|じょうちゅう}: being stationed at a client's office\n- {常駐|じょうちゅう}ソフト: resident software (TSR)\n\nUSAGE:\nIn the IT industry, {客先|きゃくさき}{常駐|じょうちゅう} (being stationed at the client's office) is a very common work arrangement, especially for contract engineers and consultants.\n\nSIMILAR WORDS:\n- {駐在|ちゅうざい}: being stationed (abroad or at a post) — often used for diplomatic or overseas assignments\n- {滞在|たいざい}: staying at a place — temporary stay, not necessarily work-related\n- {配置|はいち}: deployment, placement — the act of assigning someone to a position",
+  "notes": "Describes being permanently assigned to or always present at a specific location. Common in business (on-site engineers), security (posted guards), medical (resident doctors), and IT (resident software) contexts.\n\nCOMMON COLLOCATIONS:\n- {常駐|じょうちゅう}⟦する→する：00392_suru⟧: to be stationed at, to be permanently present\n- {常駐|じょうちゅう}⟦スタッフ→スタッフ：11046_sutaffu⟧: permanently stationed staff\n- {常駐|じょうちゅう}⟦{警備|けいび}→警備：00208_keibi⟧: permanent security presence\n- {客先|きゃくさき}{常駐|じょうちゅう}: being stationed at a client's office\n- {常駐|じょうちゅう}⟦ソフト→ソフト：01532_sofuto⟧: resident software (TSR)\n\nUSAGE:\nIn the IT industry, {客先|きゃくさき}{常駐|じょうちゅう} (being stationed at the client's office) is a very common work arrangement, especially for contract engineers and consultants.\n\nSIMILAR WORDS:\n- ⟦{駐在|ちゅうざい}→駐在：18181_chuuzai⟧: being stationed (abroad or at a post) — often used for diplomatic or overseas assignments\n- ⟦{滞在|たいざい}→滞在：03390_taizai⟧: staying at a place — temporary stay, not necessarily work-related\n- ⟦{配置|はいち}→配置：14409_haichi⟧: deployment, placement — the act of assigning someone to a position",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -62,7 +62,7 @@
       "verb_class": "suru"
     },
     "created": "2026-03-31T20:20:50Z",
-    "modified": "2026-05-08T07:08:06Z"
+    "modified": "2026-09-02T04:02:02Z"
   },
   "cross_references": [
     {
@@ -71,6 +71,27 @@
       "reading": "ちゅうざい",
       "headword": "{駐在|ちゅうざい}",
       "label": "being posted (abroad)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03390_taizai",
+      "reading": "たいざい",
+      "headword": "{滞在|たいざい}",
+      "label": "staying at a place"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14409_haichi",
+      "reading": "はいち",
+      "headword": "{配置|はいち}",
+      "label": "deployment, placement"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24901_joujuu",
+      "reading": "じょうじゅう",
+      "headword": "{常住|じょうじゅう}",
+      "label": "permanent residence"
     }
   ],
   "conjugation": {

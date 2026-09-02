@@ -3,7 +3,7 @@
   "id": "13618_hiroukonpai",
   "headword": "{疲労困憊|ひろうこんぱい}",
   "reading": "ひろうこんぱい",
-  "part_of_speech": "noun; verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "total exhaustion; utter fatigue",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "13618_hiroukonpai_ex1",
-      "japanese": "{疲労困憊|ひろうこんぱい}で{動|うご}けない。",
+      "japanese": "{疲労困憊|ひろうこんぱい}⟦で→で：00502_de⟧⟦{動|うご}けない→動く：00904_ugoku⟧。",
       "english": "I'm so exhausted I can't move.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "13618_hiroukonpai_ex2",
-      "japanese": "{三日間|みっかかん}{寝|ね}ずに{働|はたら}いて、{疲労困憊|ひろうこんぱい}の{状態|じょうたい}だった。",
+      "japanese": "{三日間|みっかかん}⟦{寝|ね}→寝る：00470_neru⟧ず⟦に→に：00314_ni⟧⟦{働|はたら}いて→働く：00503_hataraku⟧、{疲労困憊|ひろうこんぱい}⟦の→の：09472_no⟧⟦{状態|じょうたい}→状態：03345_joutai⟧だった。",
       "english": "After working three days without sleep, I was in a state of total exhaustion.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "13618_hiroukonpai_ex3",
-      "japanese": "マラソンを{走|はし}り{終|お}えた{選手|せんしゅ}たちは{疲労困憊|ひろうこんぱい}しながらも、{笑顔|えがお}でゴールした。",
+      "japanese": "⟦マラソン→マラソン：04732_marason⟧⟦を→を：00422_wo⟧⟦{走|はし}り→走る：00519_hashiru⟧⟦{終|お}えた→終える：02019_oeru⟧⟦{選手|せんしゅ}→選手：03823_senshu⟧たち⟦は→は：00079_ha⟧{疲労困憊|ひろうこんぱい}し⟦ながら→ながら：10530_nagara⟧⟦も→も：00484_mo⟧、⟦{笑顔|えがお}→笑顔：01884_egao⟧⟦で→で：00502_de⟧⟦ゴール→ゴール：03845_gooru⟧⟦した→する：00392_suru⟧。",
       "english": "The runners who finished the marathon crossed the goal line smiling despite their utter exhaustion.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA {四字熟語|よじじゅくご} (four-character compound). Can be used as a noun or with する. {疲労|ひろう} means fatigue; {困憊|こんぱい} means exhaustion/being worn out. Together they emphasize extreme, total exhaustion.\n\nNUANCE:\nStronger than {疲|つか}れた (tired) or even {疲労|ひろう} (fatigue) alone. Implies being completely drained of energy. Somewhat literary but commonly used when describing extreme tiredness.\n\nCOMMON COLLOCATIONS:\n- {疲労困憊|ひろうこんぱい}の{状態|じょうたい}: state of total exhaustion\n- {疲労困憊|ひろうこんぱい}する: to be utterly exhausted\n- {疲労困憊|ひろうこんぱい}で{倒|たお}れる: to collapse from exhaustion",
+  "notes": "USAGE:\nA ⟦{四字熟語|よじじゅくご}→四字熟語：15663_yojijukugo⟧ (four-character compound). Can be used as a noun or with ⟦する→する：00392_suru⟧. ⟦{疲労|ひろう}→疲労：13603_hirou⟧ means fatigue; ⟦{困憊|こんぱい}→困憊：29849_konpai⟧ means exhaustion/being worn out. Together they emphasize extreme, total exhaustion.\nStronger than ⟦{疲|つか}れた→疲れる：00901_tsukareru⟧ (tired) or even ⟦{疲労|ひろう}→疲労：13603_hirou⟧ (fatigue) alone. Implies being completely drained of energy. Somewhat literary but commonly used when describing extreme tiredness.\n\nCOMMON COLLOCATIONS:\n- {疲労困憊|ひろうこんぱい}⟦の→の：09472_no⟧⟦{状態|じょうたい}→状態：03345_joutai⟧: state of total exhaustion\n- {疲労困憊|ひろうこんぱい}⟦する→する：00392_suru⟧: to be utterly exhausted\n- {疲労困憊|ひろうこんぱい}⟦で→で：00502_de⟧⟦{倒|たお}れる→倒れる：01160_taoreru⟧: to collapse from exhaustion",
   "cross_references": [
     {
       "type": "related",
@@ -146,7 +146,7 @@
   ],
   "metadata": {
     "created": "2026-02-26T10:33:42Z",
-    "modified": "2026-04-29T06:03:13Z",
+    "modified": "2026-09-02T04:01:34Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -162,7 +162,8 @@
       "style": [
         "literary"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

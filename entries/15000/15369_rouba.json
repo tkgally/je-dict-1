@@ -15,41 +15,68 @@
   "examples": [
     {
       "id": "15369_rouba_ex1",
-      "japanese": "{老婆|ろうば}が{道端|みちばた}に{座|すわ}っていた。",
+      "japanese": "{老婆|ろうば}⟦が→が：00051_ga⟧⟦{道端|みちばた}→道端：28126_michibata⟧⟦に→に：00314_ni⟧⟦{座|すわ}っていた→座る：00757_suwaru⟧。",
       "english": "An old woman was sitting by the roadside.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15369_rouba_ex2",
-      "japanese": "{昔話|むかしばなし}に{出|で}てくる{老婆|ろうば}は{不思議|ふしぎ}な{力|ちから}を{持|も}っていることが{多|おお}い。",
+      "japanese": "⟦{昔話|むかしばなし}→昔話：12718_mukashibanashi⟧⟦に→に：00314_ni⟧⟦{出|で}てくる→出てくる：29121_detekuru⟧{老婆|ろうば}⟦は→は：00079_ha⟧⟦{不思議|ふしぎ}→不思議：02358_fushigi⟧な⟦{力|ちから}→力：01661_chikara⟧⟦を→を：00422_wo⟧⟦{持|も}っている→持つ：00478_motsu⟧こと⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "Old women in folk tales often possess mysterious powers.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15369_rouba_ex3",
-      "japanese": "{腰|こし}の{曲|ま}がった{老婆|ろうば}が{杖|つえ}をつきながらゆっくり{歩|ある}いていた。",
+      "japanese": "⟦{腰|こし}→腰：02210_koshi⟧⟦の→の：09472_no⟧⟦{曲|ま}がった→曲がる：00649_magaru⟧{老婆|ろうば}⟦が→が：00051_ga⟧⟦{杖|つえ}→杖：12862_tsue⟧⟦を→を：00422_wo⟧つき⟦ながら→ながら：10530_nagara⟧⟦ゆっくり→ゆっくり：00910_yukkuri⟧⟦{歩|ある}いていた→歩く：00538_aruku⟧。",
       "english": "A stooped old woman was walking slowly, leaning on a cane.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE: {老婆|ろうば} is a literary or descriptive term. It is not considered polite to use it when speaking directly to or about a specific elderly person you know — use お{婆|ばあ}さん or {年配|ねんぱい}の{女性|じょせい} instead.\n\nThe compound {老婆心|ろうばしん} means \"excessive concern\" or \"well-meaning meddlesomeness\" (literally \"old woman's heart\"), and is used as a humble way of excusing unsolicited advice.\n\nCOMMON COLLOCATIONS:\n- {老婆心|ろうばしん}: well-meaning meddlesomeness\n- {老婆心|ろうばしん}ながら: if I may be so presumptuous (humble)\n\nSIMILAR WORDS:\n- {老婆|ろうば}: old woman (literary/descriptive)\n- お{婆|ばあ}さん: grandmother; old woman (polite, everyday)\n- {老女|ろうじょ}: elderly woman (formal/written)\n- {老人|ろうじん}: elderly person (gender-neutral)",
-  "cross_references": [],
+  "notes": "USAGE: {老婆|ろうば} is a literary or descriptive term. It is not considered polite to use it when speaking directly to or about a specific elderly person you know — use お{婆|ばあ}さん or ⟦{年配|ねんぱい}→年配：10432_nenpai⟧⟦の→の：09472_no⟧⟦{女性|じょせい}→女性：01617_josei⟧ instead.\n\nThe compound ⟦{老婆心|ろうばしん}→老婆心：21691_roubashin⟧ means \"excessive concern\" or \"well-meaning meddlesomeness\" (literally \"old woman's heart\"), and is used as a humble way of excusing unsolicited advice.\n\nCOMMON COLLOCATIONS:\n- ⟦{老婆心|ろうばしん}→老婆心：21691_roubashin⟧: well-meaning meddlesomeness\n- ⟦{老婆心|ろうばしん}→老婆心：21691_roubashin⟧⟦ながら→ながら：10530_nagara⟧: if I may be so presumptuous (humble)\n\nSIMILAR WORDS:\n- {老婆|ろうば}: old woman (literary/descriptive)\n- お{婆|ばあ}さん: grandmother; old woman (polite, everyday)\n- ⟦{老女|ろうじょ}→老女：14017_roujo⟧: elderly woman (formal/written)\n- ⟦{老人|ろうじん}→老人：03784_roujin⟧: elderly person (gender-neutral)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14017_roujo",
+      "reading": "ろうじょ",
+      "headword": "{老女|ろうじょ}",
+      "label": "elderly woman"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03784_roujin",
+      "reading": "ろうじん",
+      "headword": "{老人|ろうじん}",
+      "label": "elderly person"
+    }
+  ],
   "metadata": {
     "created": "2026-03-06T11:51:05Z",
-    "modified": "2026-03-06T11:51:05Z",
+    "modified": "2026-09-02T04:01:41Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["person"],
-      "style": ["literary"]
+      "semantic": [
+        "person"
+      ],
+      "style": [
+        "literary"
+      ]
     }
   }
 }

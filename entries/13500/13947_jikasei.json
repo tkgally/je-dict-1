@@ -3,7 +3,7 @@
   "id": "13947_jikasei",
   "headword": "{自家製|じかせい}",
   "reading": "じかせい",
-  "part_of_speech": "noun, adjective-no",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "homemade, house-made",
   "definitions": [
     {
@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "13947_jikasei_ex1",
-      "japanese": "{自家製|じかせい}のパンを{焼|や}いた。",
+      "japanese": "{自家製|じかせい}⟦の→の：09472_no⟧⟦パン→パン：00553_pan⟧⟦を→を：00422_wo⟧⟦{焼|や}いた→焼く：01123_yaku⟧。",
       "english": "I baked homemade bread.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13947_jikasei_ex2",
-      "japanese": "このレストランは{自家製|じかせい}パスタが{自慢|じまん}だ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦レストラン→レストラン：01048_resutoran⟧⟦は→は：00079_ha⟧{自家製|じかせい}⟦パスタ→パスタ：06768_pasuta⟧⟦が→が：00051_ga⟧⟦{自慢|じまん}→自慢：03278_jiman⟧だ。",
       "english": "This restaurant takes pride in its house-made pasta.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13947_jikasei_ex3",
-      "japanese": "{祖母|そぼ}が{毎年|まいとし}{自家製|じかせい}の{梅干|うめぼ}しを{漬|つ}けてくれる。",
+      "japanese": "⟦{祖母|そぼ}→祖母：00813_sobo⟧⟦が→が：00051_ga⟧⟦{毎年|まいとし}→毎年：00731_maitoshi⟧{自家製|じかせい}⟦の→の：09472_no⟧⟦{梅干|うめぼ}し→梅干し：13110_umeboshi⟧⟦を→を：00422_wo⟧⟦{漬|つ}けて→漬ける：09861_tsukeru⟧⟦くれる→くれる：00724_kureru⟧。",
       "english": "My grandmother makes homemade pickled plums for us every year.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nUsed as a noun modifier with の: {自家製|じかせい}の + noun. Very common on restaurant menus and product labels. Conveys a sense of quality and care compared to mass-produced alternatives.\n\nCompared to {手作|てづく}り (handmade), {自家製|じかせい} emphasizes that something was made in-house or at home (the location), while {手作|てづく}り emphasizes that it was crafted by hand (the method).\n\nCOMMON COLLOCATIONS:\n- {自家製|じかせい}パン: homemade bread\n- {自家製|じかせい}ソース: house-made sauce\n- {自家製|じかせい}の{味噌|みそ}: homemade miso\n- {自家製|じかせい}{麺|めん}: house-made noodles",
+  "notes": "USAGE:\nUsed as a noun modifier with ⟦の→の：09472_no⟧: {自家製|じかせい}⟦の→の：09472_no⟧ + noun. Very common on restaurant menus and product labels. Conveys a sense of quality and care compared to mass-produced alternatives.\n\nCompared to ⟦{手作|てづく}り→手作り：08300_tezukuri⟧ (handmade), {自家製|じかせい} emphasizes that something was made in-house or at home (the location), while ⟦{手作|てづく}り→手作り：08300_tezukuri⟧ emphasizes that it was crafted by hand (the method).\n\nCOMMON COLLOCATIONS:\n- {自家製|じかせい}⟦パン→パン：00553_pan⟧: homemade bread\n- {自家製|じかせい}⟦ソース→ソース：17673_soosu⟧: house-made sauce\n- {自家製|じかせい}⟦の→の：09472_no⟧⟦{味噌|みそ}→味噌：01037_miso⟧: homemade miso\n- {自家製|じかせい}{麺|めん}: house-made noodles",
   "cross_references": [
     {
       "type": "contrast",
@@ -46,18 +52,37 @@
       "reading": "てづくり",
       "headword": "{手作|てづく}り",
       "label": "handmade (method emphasis)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12891_tesei",
+      "reading": "てせい",
+      "headword": "{手製|てせい}",
+      "label": "handmade, homemade"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13936_jimae",
+      "reading": "じまえ",
+      "headword": "{自前|じまえ}",
+      "label": "one's own"
     }
   ],
   "metadata": {
     "created": "2026-02-27T07:47:28Z",
-    "modified": "2026-02-27T07:47:28Z",
+    "modified": "2026-09-02T04:01:35Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-no"],
+      "pos": [
+        "noun",
+        "adjective-no"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food"]
+      "semantic": [
+        "food"
+      ]
     }
   }
 }

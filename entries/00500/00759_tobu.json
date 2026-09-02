@@ -109,7 +109,7 @@
   "examples": [
     {
       "id": "00759_tobu_ex1",
-      "japanese": "⟦{鳥|とり}→鳥：00679_tori⟧⟦が→が：00051_ga⟧⟦{空|そら}→空：02216_sora⟧⟦を→を：00422_wo⟧{飛|と}んでいます。",
+      "japanese": "⟦{鳥|とり}→鳥：00679_tori⟧⟦が→が：00051_ga⟧⟦{空|そら}→空：02216_sora⟧⟦を→を：00422_wo⟧{飛|と}んで⟦います→いる：00495_iru⟧。",
       "english": "A bird is flying in the sky.",
       "notes": null,
       "has_audio": false,
@@ -149,7 +149,7 @@
     },
     {
       "id": "00759_tobu_ex5",
-      "japanese": "⟦この→この：00962_kono⟧⟦{飛行機|ひこうき}→飛行機：00629_hikouki⟧⟦は→は：00079_ha⟧⟦{東京|とうきょう}→東京：09564_toukyou⟧⟦から→から：00504_kara⟧⟦{大阪|おおさか}→大阪：09779_oosaka⟧⟦まで→まで：00490_made⟧{飛|と}びます。{一|いち}⟦{時間|じかん}→時間：00468_jikan⟧⟦ぐらい→ぐらい：02900_gurai⟧かかります。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{飛行機|ひこうき}→飛行機：00629_hikouki⟧⟦は→は：00079_ha⟧⟦{東京|とうきょう}→東京：09564_toukyou⟧⟦から→から：00504_kara⟧⟦{大阪|おおさか}→大阪：09779_oosaka⟧⟦まで→まで：00490_made⟧{飛|と}びます。⟦{一|いち}→一：00705_ichi⟧⟦{時間|じかん}→時間：00468_jikan⟧⟦ぐらい→ぐらい：02900_gurai⟧⟦かかります→かかる：00711_kakaru⟧。",
       "english": "This airplane flies from Tokyo to Osaka. It takes about one hour.",
       "notes": null,
       "has_audio": false,
@@ -208,7 +208,7 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive). No pair verb. Pattern: X⟦が→が：00051_ga⟧{飛|と}ぶ (X flies/jumps).\n\nASPECT: ている indicates ongoing action. {飛|と}んでいる = 'is flying' (progressive).\n\nCOMMON PATTERNS:\n・⟦{空|そら}→空：02216_sora⟧⟦を→を：00422_wo⟧{飛|と}ぶ (fly through the sky)\n・⟦{鳥|とり}→鳥：00679_tori⟧⟦が→が：00051_ga⟧{飛|と}ぶ (a bird flies)\n・⟦{飛|と}び{上|あ}がる→飛び上がる：06345_tobiagaru⟧ (jump up)\n・⟦{飛|と}び{込|こ}む→飛び込む：04614_tobikomu⟧ (jump/dive in)\n\nORTHOGRAPHY: sense 1 (fly) is always written {飛|と}ぶ. For sense 2 (jump/leap), the precise kanji is ⟦{跳|と}ぶ→跳ぶ：19597_tobu⟧, which contains the {足|あし} radical; {飛|と}ぶ is nevertheless common for jumping in everyday writing. Both are read とぶ and conjugate identically, so the reading never tells you which is meant.\n\nRelated: ⟦{飛行機|ひこうき}→飛行機：00629_hikouki⟧ (airplane). Godan verb - past: {飛|と}んだ.",
+  "notes": "TRANSITIVITY: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive). No pair verb. Pattern: X⟦が→が：00051_ga⟧{飛|と}ぶ (X flies/jumps).\n\nASPECT: て⟦いる→いる：00495_iru⟧ indicates ongoing action. {飛|と}んで⟦いる→いる：00495_iru⟧ = 'is flying' (progressive).\n\nCOMMON PATTERNS:\n- ⟦{空|そら}→空：02216_sora⟧⟦を→を：00422_wo⟧{飛|と}ぶ (fly through the sky)\n- ⟦{鳥|とり}→鳥：00679_tori⟧⟦が→が：00051_ga⟧{飛|と}ぶ (a bird flies)\n- ⟦{飛|と}び{上|あ}がる→飛び上がる：06345_tobiagaru⟧ (jump up)\n- ⟦{飛|と}び{込|こ}む→飛び込む：04614_tobikomu⟧ (jump/dive in)\n\nORTHOGRAPHY: sense 1 (fly) is always written {飛|と}ぶ. For sense 2 (jump/leap), the precise kanji is ⟦{跳|と}ぶ→跳ぶ：19597_tobu⟧, which contains the ⟦{足|あし}→足：00575_ashi⟧ radical; {飛|と}ぶ is nevertheless common for jumping in everyday writing. Both are read とぶ and conjugate identically, so the reading never tells you which is meant.\n\nRelated: ⟦{飛行機|ひこうき}→飛行機：00629_hikouki⟧ (airplane). Godan verb - past: {飛|と}んだ.",
   "prominent_see_also": [
     {
       "target_id": "02373_tobasu",
@@ -224,11 +224,18 @@
       "reading": "とぶ",
       "headword": "{跳|と}ぶ",
       "label": "to jump, to leap (legs)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19322_tobitatsu",
+      "reading": "とびたつ",
+      "headword": "{飛|と}び{立|た}つ",
+      "label": "to take off"
     }
   ],
   "metadata": {
     "created": "2026-01-07T12:39:34Z",
-    "modified": "2026-07-31T03:20:15Z",
+    "modified": "2026-09-02T04:00:58Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

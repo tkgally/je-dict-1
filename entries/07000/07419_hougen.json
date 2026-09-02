@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "07419_hougen_ex1",
-      "japanese": "{彼女|かのじょ}は{関西|かんさい}{方言|ほうげん}を{話|はな}す。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧⟦{関西|かんさい}→関西：00179_kansai⟧{方言|ほうげん}⟦を→を：00422_wo⟧⟦{話|はな}す→話す：00467_hanasu⟧。",
       "english": "She speaks the Kansai dialect.",
       "has_audio": false,
       "sense_numbers": [
@@ -23,7 +23,7 @@
     },
     {
       "id": "07419_hougen_ex2",
-      "japanese": "この{言葉|ことば}は{東北|とうほく}{地方|ちほう}の{方言|ほうげん}です。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{言葉|ことば}→言葉：02880_kotoba⟧⟦は→は：00079_ha⟧⟦{東北|とうほく}→東北：27542_touhoku⟧⟦{地方|ちほう}→地方：02369_chihou⟧⟦の→の：09472_no⟧{方言|ほうげん}です。",
       "english": "This word is from the Tohoku dialect.",
       "has_audio": false,
       "sense_numbers": [
@@ -32,7 +32,7 @@
     },
     {
       "id": "07419_hougen_ex3",
-      "japanese": "{方言|ほうげん}には{地域|ちいき}の{文化|ぶんか}が{反映|はんえい}されている。",
+      "japanese": "{方言|ほうげん}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{地域|ちいき}→地域：01461_chiiki⟧⟦の→の：09472_no⟧⟦{文化|ぶんか}→文化：01504_bunka⟧⟦が→が：00051_ga⟧⟦{反映|はんえい}→反映：04327_hanei⟧⟦されている→する：00392_suru⟧。",
       "english": "Dialects reflect the culture of their regions.",
       "has_audio": false,
       "sense_numbers": [
@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "notes": "JAPANESE DIALECTS:\nJapan has many regional dialects, broadly categorized as:\n\n・{関西弁|かんさいべん} - Kansai dialect (Osaka, Kyoto area)\n・{東北弁|とうほくべん} - Tohoku dialect (northeastern Japan)\n・{九州弁|きゅうしゅうべん} - Kyushu dialect\n・{北海道弁|ほっかいどうべん} - Hokkaido dialect\n・{沖縄方言|おきなわほうげん} - Okinawan dialects\n\nCOMMON COLLOCATIONS:\n・{方言|ほうげん}を{話|はな}す - to speak a dialect\n・{方言|ほうげん}が{出|で}る - dialect comes out (unintentionally)\n・{方言|ほうげん}が{強|つよ}い - to have a strong dialect\n・お{国|くに}{言葉|ことば} - regional speech (more casual/affectionate term)\n\nRELATED VOCABULARY:\n・{標準語|ひょうじゅんご} - standard language\n・{訛|なま}り - accent, dialect influence\n・{共通語|きょうつうご} - common language\n・{土地|とち}{言葉|ことば} - local speech\n\nCULTURAL NOTE:\nDialects are increasingly valued as cultural heritage. Many people use dialect with family and friends while speaking {標準語|ひょうじゅんご} in formal settings.\n\nREGISTER:\nNeutral. Standard term for academic and everyday use.",
+  "notes": "JAPANESE DIALECTS:\nJapan has many regional dialects, broadly categorized as:\n\n- ⟦{関西弁|かんさいべん}→関西弁：17855_kansaiben⟧ - Kansai dialect (Osaka, Kyoto area)\n- {東北弁|とうほくべん} - Tohoku dialect (northeastern Japan)\n- {九州弁|きゅうしゅうべん} - Kyushu dialect\n- {北海道弁|ほっかいどうべん} - Hokkaido dialect\n- {沖縄方言|おきなわほうげん} - Okinawan dialects\n\nCOMMON COLLOCATIONS:\n- {方言|ほうげん}⟦を→を：00422_wo⟧⟦{話|はな}す→話す：00467_hanasu⟧ - to speak a dialect\n- {方言|ほうげん}⟦が→が：00051_ga⟧⟦{出|で}る→出る：00513_deru⟧ - dialect comes out (unintentionally)\n- {方言|ほうげん}⟦が→が：00051_ga⟧⟦{強|つよ}い→強い：00820_tsuyoi⟧ - to have a strong dialect\n- お{国|くに}{言葉|ことば} - regional speech (more casual/affectionate term)\n\nRELATED WORDS:\n- ⟦{標準語|ひょうじゅんご}→標準語：07421_hyoujungo⟧ - standard language\n- ⟦{訛|なま}り→訛り：07420_namari⟧ - accent, dialect influence\n- ⟦{共通語|きょうつうご}→共通語：16600_kyoutsuugo⟧ - common language\n- ⟦{土地|とち}→土地：02226_tochi⟧⟦{言葉|ことば}→言葉：02880_kotoba⟧ - local speech\n\nCULTURAL NOTE:\nDialects are increasingly valued as cultural heritage. Many people use dialect with family and friends while speaking ⟦{標準語|ひょうじゅんご}→標準語：07421_hyoujungo⟧ in formal settings.\n\nREGISTER:\nNeutral. Standard term for academic and everyday use.",
   "cross_references": [
     {
       "type": "related",
@@ -55,11 +55,46 @@
       "headword": "{訛|なま}り",
       "label": "accent",
       "target_id": "07420_namari"
+    },
+    {
+      "type": "related",
+      "target_id": "16600_kyoutsuugo",
+      "reading": "きょうつうご",
+      "headword": "{共通語|きょうつうご}",
+      "label": "common language"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20589_zokugo",
+      "reading": "ぞくご",
+      "headword": "{俗語|ぞくご}",
+      "label": "slang"
+    },
+    {
+      "type": "related",
+      "target_id": "22853_kantouben",
+      "reading": "かんとうべん",
+      "headword": "{関東弁|かんとうべん}",
+      "label": "Kanto dialect"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24355_kyoutoben",
+      "reading": "きょうとべん",
+      "headword": "{京都弁|きょうとべん}",
+      "label": "Kyoto dialect"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24356_oosakaben",
+      "reading": "おおさかべん",
+      "headword": "{大阪弁|おおさかべん}",
+      "label": "Osaka dialect"
     }
   ],
   "metadata": {
     "created": "2026-01-19T08:12:20Z",
-    "modified": "2026-08-10T18:32:12Z",
+    "modified": "2026-09-02T04:01:11Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

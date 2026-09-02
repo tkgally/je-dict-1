@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "11535_koshitsu_ex1",
-      "japanese": "{個室|こしつ}を{予約|よやく}する。",
+      "japanese": "{個室|こしつ}⟦を→を：00422_wo⟧⟦{予約|よやく}する→予約する：22989_yoyakusuru⟧。",
       "english": "Reserve a private room.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "11535_koshitsu_ex2",
-      "japanese": "この{居酒屋|いざかや}には{個室|こしつ}がある。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{居酒屋|いざかや}→居酒屋：09635_izakaya⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{個室|こしつ}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "This izakaya has private rooms.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "11535_koshitsu_ex3",
-      "japanese": "{入院|にゅういん}するなら{大部屋|おおべや}より{個室|こしつ}のほうが{落|お}ち{着|つ}く。",
+      "japanese": "⟦{入院|にゅういん}する→入院する：01849_nyuuinsuru⟧なら⟦{大部屋|おおべや}→大部屋：28441_oobeya⟧⟦より→より：09476_yori⟧{個室|こしつ}⟦の→の：09472_no⟧ほう⟦が→が：00051_ga⟧⟦{落|お}ち{着|つ}く→落ち着く：04670_ochitsuku⟧。",
       "english": "If I'm hospitalized, I'd feel more at ease in a private room than a shared ward.",
       "notes": null,
       "has_audio": false,
@@ -43,11 +43,26 @@
       ]
     }
   ],
-  "notes": "In Japanese restaurants, {個室|こしつ} are popular for business dinners, dates, and group gatherings where privacy is desired. In hospitals, {個室|こしつ} typically cost more than shared wards ({大部屋|おおべや}).\n\nCOMMON COLLOCATIONS:\n・{個室|こしつ}を{予約|よやく}する (reserve a private room)\n・{完全|かんぜん}{個室|こしつ} (fully private room)\n・{個室|こしつ}{料金|りょうきん} (private room charge)\n・{個室|こしつ}ダイニング (private dining room)",
-  "cross_references": [],
+  "notes": "In Japanese restaurants, {個室|こしつ} are popular for business dinners, dates, and group gatherings where privacy is desired. In hospitals, {個室|こしつ} typically cost more than shared wards (⟦{大部屋|おおべや}→大部屋：28441_oobeya⟧).\n\nCOMMON COLLOCATIONS:\n- {個室|こしつ}⟦を→を：00422_wo⟧⟦{予約|よやく}する→予約する：22989_yoyakusuru⟧ (reserve a private room)\n- ⟦{完全|かんぜん}→完全：01552_kanzen⟧{個室|こしつ} (fully private room)\n- {個室|こしつ}⟦{料金|りょうきん}→料金：03797_ryoukin⟧ (private room charge)\n- {個室|こしつ}ダイニング (private dining room)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18515_misshitsu",
+      "reading": "みっしつ",
+      "headword": "{密室|みっしつ}",
+      "label": "locked room"
+    },
+    {
+      "type": "antonym",
+      "target_id": "28441_oobeya",
+      "reading": "おおべや",
+      "headword": "{大部屋|おおべや}",
+      "label": "large room"
+    }
+  ],
   "metadata": {
     "created": "2026-02-17T02:56:25Z",
-    "modified": "2026-07-01T09:49:53Z",
+    "modified": "2026-09-02T04:01:25Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",

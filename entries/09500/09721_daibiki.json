@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "09721_daibiki_ex1",
-      "japanese": "{代引|だいび}きで{注文|ちゅうもん}した。",
+      "japanese": "{代引|だいび}き⟦で→で：00502_de⟧⟦{注文|ちゅうもん}した→注文する：21390_chuumon⟧。",
       "english": "I ordered with cash on delivery.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "09721_daibiki_ex2",
-      "japanese": "{代引|だいび}きは{手数料|てすうりょう}がかかります。",
+      "japanese": "{代引|だいび}き⟦は→は：00079_ha⟧⟦{手数料|てすうりょう}→手数料：05423_tesuuryou⟧⟦が→が：00051_ga⟧⟦かかります→かかる：00711_kakaru⟧。",
       "english": "There is a fee for cash on delivery.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "09721_daibiki_ex3",
-      "japanese": "クレジットカードがない{場合|ばあい}は{代引|だいび}きが{便利|べんり}だ。",
+      "japanese": "⟦クレジットカード→クレジットカード：06968_kurejittokaado⟧⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧⟦{場合|ばあい}→場合：01704_baai⟧⟦は→は：00079_ha⟧{代引|だいび}き⟦が→が：00051_ga⟧⟦{便利|べんり}→便利：00830_benri⟧だ。",
       "english": "Cash on delivery is convenient when you don't have a credit card.",
       "notes": null,
       "has_audio": false,
@@ -43,10 +43,19 @@
       ]
     }
   ],
-  "notes": "Short for {代金引換|だいきんひきかえ} (exchange of goods for payment). The buyer pays the delivery person upon receiving the package.\n\nCOMMON COLLOCATIONS:\n- {代引|だいび}きで{払|はら}う: to pay by COD\n- {代引|だいび}き{手数料|てすうりょう}: COD handling fee\n- {代引|だいび}き{可能|かのう}: COD available\n- {代引|だいび}きで{注文|ちゅうもん}する: to order with COD payment\n\nNOTE:\n{代引|だいび}き usually involves a {手数料|てすうりょう} (handling fee) of a few hundred yen, added on top of the purchase price.\n\nOTHER PAYMENT METHODS:\n- {着払|ちゃくばら}い: collect delivery (recipient pays shipping only — different from {代引|だいび}き)\n- {前払|まえばら}い: prepayment\n- {後払|あとばら}い: deferred/delayed payment\n- クレジットカード{払|ばら}い: credit card payment",
+  "notes": "Short for ⟦{代金引換|だいきんひきかえ}→代金引換：28163_daikinhikikae⟧ (exchange of goods for payment). The buyer pays the delivery person upon receiving the package.\n\nCOMMON COLLOCATIONS:\n- {代引|だいび}き⟦で→で：00502_de⟧⟦{払|はら}う→払う：00535_harau⟧: to pay by COD\n- {代引|だいび}き{手数料|てすうりょう}: COD handling fee\n- {代引|だいび}き⟦{可能|かのう}→可能：00175_kanou⟧: COD available\n- {代引|だいび}き⟦で→で：00502_de⟧⟦{注文|ちゅうもん}する→注文する：21390_chuumon⟧: to order with COD payment\n\nUSAGE:\n{代引|だいび}き usually involves a ⟦{手数料|てすうりょう}→手数料：05423_tesuuryou⟧ (handling fee) of a few hundred yen, added on top of the purchase price.\n\nOTHER PAYMENT METHODS:\n- ⟦{着払|ちゃくばら}い→着払い：07950_chakubarai⟧: collect delivery (recipient pays shipping only — different from {代引|だいび}き)\n- ⟦{前払|まえばら}い→前払い：15782_maebarai⟧: prepayment\n- ⟦{後払|あとばら}い→後払い：17771_atobarai⟧: deferred/delayed payment\n- ⟦クレジットカード→クレジットカード：06968_kurejittokaado⟧⟦{払|ばら}い→払い：09655_barai⟧: credit card payment",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07950_chakubarai",
+      "reading": "ちゃくばらい",
+      "headword": "{着払|ちゃくばら}い",
+      "label": "collect on delivery"
+    }
+  ],
   "metadata": {
     "created": "2026-02-03T07:17:27Z",
-    "modified": "2026-06-24T18:40:49Z",
+    "modified": "2026-09-02T04:01:19Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

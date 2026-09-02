@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22307_mushigashi_ex1",
-      "japanese": "{蒸|む}し{菓子|がし}を{作|つく}る。",
+      "japanese": "{蒸|む}し{菓子|がし}⟦を→を：00422_wo⟧⟦{作|つく}る→作る：00481_tsukuru⟧。",
       "english": "To make steamed sweets.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22307_mushigashi_ex2",
-      "japanese": "{秋|あき}は{蒸|む}し{菓子|がし}がおいしい{季節|きせつ}だ。",
+      "japanese": "⟦{秋|あき}→秋：02276_aki⟧⟦は→は：00079_ha⟧{蒸|む}し{菓子|がし}⟦が→が：00051_ga⟧おいしい⟦{季節|きせつ}→季節：01304_kisetsu⟧だ。",
       "english": "Autumn is the season when steamed sweets are delicious.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22307_mushigashi_ex3",
-      "japanese": "{和菓子屋|わがしや}で{栗|くり}{蒸|む}し{羊羹|ようかん}などの{蒸|む}し{菓子|がし}を{買|か}った。",
+      "japanese": "{和菓子屋|わがしや}⟦で→で：00502_de⟧⟦{栗|くり}→栗：04387_kuri⟧⟦{蒸|む}し→蒸す：02307_musu⟧⟦{羊羹|ようかん}→羊羹：05002_youkan⟧⟦など→〜など：03095_nado⟧⟦の→の：09472_no⟧{蒸|む}し{菓子|がし}⟦を→を：00422_wo⟧⟦{買|か}った→買う：00489_kau⟧。",
       "english": "I bought steamed sweets like chestnut steamed yōkan at the Japanese confectionery shop.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {蒸|む}す (to steam) and {菓子|かし} (confection), where かし becomes がし by rendaku. One of the main categories of {和菓子|わがし} (Japanese sweets), alongside {焼|や}き{菓子|がし} (baked sweets) and {生菓子|なまがし} (fresh sweets).\n\nEXAMPLES OF {蒸|む}し{菓子|がし}:\n- {饅頭|まんじゅう}: steamed bun with sweet filling\n- {蒸|む}し{羊羹|ようかん}: steamed yōkan (jelly)\n- {薯蕷饅頭|じょうよまんじゅう}: steamed bun made with yam dough\n- ういろう: uirō (steamed rice-flour cake)\n\nSIMILAR WORDS:\n- {焼|や}き{菓子|がし}: baked confection — sweets made by baking rather than steaming\n- {干菓子|ひがし}: dry confection — pressed or dried sweets with very low moisture\n- {生菓子|なまがし}: fresh confection — moist sweets with high water content, eaten fresh",
+  "notes": "Compound of ⟦{蒸|む}す→蒸す：02307_musu⟧ (to steam) and ⟦{菓子|かし}→菓子：00191_kashi⟧ (confection), where かし becomes がし by rendaku. One of the main categories of ⟦{和菓子|わがし}→和菓子：04962_wagashi⟧ (Japanese sweets), alongside ⟦{焼|や}き{菓子|がし}→焼き菓子：15806_yakigashi⟧ (baked sweets) and ⟦{生菓子|なまがし}→生菓子：27039_namagashi⟧ (fresh sweets).\n\nEXAMPLES OF {蒸|む}し{菓子|がし}:\n- ⟦{饅頭|まんじゅう}→饅頭：05000_manjuu⟧: steamed bun with sweet filling\n- ⟦{蒸|む}し→蒸す：02307_musu⟧⟦{羊羹|ようかん}→羊羹：05002_youkan⟧: steamed yōkan (jelly)\n- {薯蕷饅頭|じょうよまんじゅう}: steamed bun made with yam dough\n- ういろう: uirō (steamed rice-flour cake)\n\nSIMILAR WORDS:\n- ⟦{焼|や}き{菓子|がし}→焼き菓子：15806_yakigashi⟧: baked confection — sweets made by baking rather than steaming\n- {干菓子|ひがし}: dry confection — pressed or dried sweets with very low moisture\n- ⟦{生菓子|なまがし}→生菓子：27039_namagashi⟧: fresh confection — moist sweets with high water content, eaten fresh",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15806_yakigashi",
+      "reading": "やきがし",
+      "headword": "{焼|や}き{菓子|がし}",
+      "label": "baked confection"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27039_namagashi",
+      "reading": "なまがし",
+      "headword": "{生菓子|なまがし}",
+      "label": "fresh confection"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +76,6 @@
       ]
     },
     "created": "2026-04-05T17:03:27Z",
-    "modified": "2026-04-10T08:28:27Z"
+    "modified": "2026-09-02T04:02:07Z"
   }
 }

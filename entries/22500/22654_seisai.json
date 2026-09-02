@@ -3,7 +3,7 @@
   "headword": "{精細|せいさい}",
   "reading": "せいさい",
   "romaji": "seisai",
-  "part_of_speech": "adjective",
+  "part_of_speech": "na-adjective",
   "gloss": "detailed; fine; minute",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22654_seisai_ex1",
-      "japanese": "{精細|せいさい}な{描写|びょうしゃ}。",
+      "japanese": "{精細|せいさい}な⟦{描写|びょうしゃ}→描写：05516_byousha⟧。",
       "english": "A detailed depiction.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22654_seisai_ex2",
-      "japanese": "この{画面|がめん}は{非常|ひじょう}に{精細|せいさい}で{美|うつく}しい。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{画面|がめん}→画面：04406_gamen⟧⟦は→は：00079_ha⟧⟦{非常|ひじょう}→非常：01598_hijou⟧⟦に→に：00314_ni⟧{精細|せいさい}で⟦{美|うつく}しい→美しい：01121_utsukushii⟧。",
       "english": "This screen is extremely fine-detailed and beautiful.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22654_seisai_ex3",
-      "japanese": "{職人|しょくにん}が{精細|せいさい}な{技術|ぎじゅつ}で{一|ひと}つ{一|ひと}つ{手作|てづく}りしている。",
+      "japanese": "⟦{職人|しょくにん}→職人：09868_shokunin⟧⟦が→が：00051_ga⟧{精細|せいさい}な⟦{技術|ぎじゅつ}→技術：01389_gijutsu⟧⟦で→で：00502_de⟧⟦{一|ひと}つ{一|ひと}つ→一つ一つ：27163_hitotsuhitotsu⟧⟦{手作|てづく}り→手作り：08300_tezukuri⟧⟦している→する：00392_suru⟧。",
       "english": "Craftsmen make each piece by hand with meticulous technique.",
       "sense_numbers": [
         1
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {精|せい} (fine/refined) and {細|さい} (detailed/minute). Functions as a na-adjective, modifying nouns with な. Very commonly seen in technical contexts relating to display resolution.\n\nCOMMON COLLOCATIONS:\n- {精細|せいさい}な{描写|びょうしゃ}: detailed depiction\n- {精細|せいさい}な{画像|がぞう}: high-resolution image\n- {高|こう}{精細|せいさい}: high-definition, high-resolution\n- {精細|せいさい}な{作業|さぎょう}: meticulous work\n\nSIMILAR WORDS:\n- {緻密|ちみつ}: meticulous, elaborate — emphasizes thoroughness and careful planning\n- {繊細|せんさい}: delicate, sensitive — can describe personality or aesthetics; broader usage\n- {詳細|しょうさい}: detailed (information) — used for written/verbal details rather than visual fineness\n- {制裁|せいさい}: sanctions, punishment — a homophone with unrelated meaning",
+  "notes": "A compound of {精|せい} (fine/refined) and {細|さい} (detailed/minute). Functions as a na-adjective, modifying nouns with な. Very commonly seen in technical contexts relating to display resolution.\n\nCOMMON COLLOCATIONS:\n- {精細|せいさい}な⟦{描写|びょうしゃ}→描写：05516_byousha⟧: detailed depiction\n- {精細|せいさい}な⟦{画像|がぞう}→画像：13549_gazou⟧: high-resolution image\n- ⟦{高|こう}→高〜：03951_kou⟧{精細|せいさい}: high-definition, high-resolution\n- {精細|せいさい}な⟦{作業|さぎょう}→作業：02775_sagyou⟧: meticulous work\n\nSIMILAR WORDS:\n- ⟦{緻密|ちみつ}→緻密：07915_chimitsu⟧: meticulous, elaborate — emphasizes thoroughness and careful planning\n- ⟦{繊細|せんさい}→繊細：07607_sensai⟧: delicate, sensitive — can describe personality or aesthetics; broader usage\n- ⟦{詳細|しょうさい}→詳細：02523_shousai⟧: detailed (information) — used for written/verbal details rather than visual fineness\n- ⟦{制裁|せいさい}→制裁：11846_seisai⟧: sanctions, punishment — a homophone with unrelated meaning",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07915_chimitsu",
+      "reading": "ちみつ",
+      "headword": "{緻密|ちみつ}",
+      "label": "meticulous, elaborate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07607_sensai",
+      "reading": "せんさい",
+      "headword": "{繊細|せんさい}",
+      "label": "delicate, sensitive"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02523_shousai",
+      "reading": "しょうさい",
+      "headword": "{詳細|しょうさい}",
+      "label": "detailed"
+    },
+    {
+      "type": "homophone",
+      "target_id": "11846_seisai",
+      "reading": "せいさい",
+      "headword": "{制裁|せいさい}",
+      "label": "sanctions, punishment"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -56,9 +86,9 @@
         "descriptive"
       ],
       "formality": "formal",
-      "politeness": null
+      "politeness": "plain"
     },
     "created": "2026-04-06T21:25:06Z",
-    "modified": "2026-07-30T15:38:57Z"
+    "modified": "2026-09-02T04:02:09Z"
   }
 }

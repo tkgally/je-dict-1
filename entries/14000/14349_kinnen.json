@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "14349_kinnen_ex1",
-      "japanese": "{近年|きんねん}、{観光客|かんこうきゃく}が{増|ふ}えている。",
+      "japanese": "{近年|きんねん}、⟦{観光客|かんこうきゃく}→観光客：03022_kankoukyaku⟧⟦が→が：00051_ga⟧⟦{増|ふ}えている→増える：01183_fueru⟧。",
       "english": "In recent years, the number of tourists has been increasing.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14349_kinnen_ex2",
-      "japanese": "{近年|きんねん}の{技術|ぎじゅつ}{革新|かくしん}は{目覚|めざ}ましい。",
+      "japanese": "{近年|きんねん}⟦の→の：09472_no⟧⟦{技術|ぎじゅつ}{革新|かくしん}→技術革新：12892_gijutsukakushin⟧⟦は→は：00079_ha⟧⟦{目覚|めざ}ましい→目覚ましい：13628_mezamashii⟧。",
       "english": "Technological innovation in recent years has been remarkable.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14349_kinnen_ex3",
-      "japanese": "{近年|きんねん}、{異常気象|いじょうきしょう}による{被害|ひがい}が{世界各地|せかいかくち}で{深刻|しんこく}になっている。",
+      "japanese": "{近年|きんねん}、⟦{異常気象|いじょうきしょう}→異常気象：18874_ijoukishou⟧⟦による→による：28349_niyoru⟧⟦{被害|ひがい}→被害：02572_higai⟧⟦が→が：00051_ga⟧⟦{世界各地|せかいかくち}→世界各地：24526_sekaikakuchi⟧⟦で→で：00502_de⟧⟦{深刻|しんこく}→深刻：01567_shinkoku⟧になっている。",
       "english": "In recent years, damage from extreme weather has become severe in various parts of the world.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "Compound of {近|きん} (near, recent) + {年|ねん} (year). Typically refers to a span of roughly 5-10 years. More formal than {最近|さいきん}, which can mean \"recently\" on any timescale.\n\nCOMMON COLLOCATIONS:\n- {近年|きんねん}の{傾向|けいこう} (recent trends)\n- {近年|きんねん}まれに{見|み}る (rarely seen in recent years)\n- {近年|きんねん}{急増|きゅうぞう}している (rapidly increasing in recent years)\n\nUSAGE NOTE:\nOften appears at the beginning of sentences to set a temporal frame. Primarily a written or formal-speech word. In casual conversation, {最近|さいきん} or ここ{数年|すうねん} are preferred.",
+  "notes": "Compound of {近|きん} (near, recent) + ⟦{年|ねん}→年：09876_nen⟧ (year). Typically refers to a span of roughly 5-10 years. More formal than ⟦{最近|さいきん}→最近：00881_saikin⟧, which can mean \"recently\" on any timescale.\n\nCOMMON COLLOCATIONS:\n- {近年|きんねん}⟦の→の：09472_no⟧⟦{傾向|けいこう}→傾向：02695_keikou⟧ (recent trends)\n- {近年|きんねん}まれ⟦に→に：00314_ni⟧⟦{見|み}る→見る：00283_miru⟧ (rarely seen in recent years)\n- {近年|きんねん}⟦{急増|きゅうぞう}している→急増する：26999_kyuuzousuru⟧ (rapidly increasing in recent years)\n\nUSAGE:\nOften appears at the beginning of sentences to set a temporal frame. Primarily a written or formal-speech word. In casual conversation, ⟦{最近|さいきん}→最近：00881_saikin⟧ or ⟦ここ→ここ：00961_koko⟧⟦{数年|すうねん}→数年：28206_suunen⟧ are preferred.",
   "cross_references": [
     {
       "type": "contrast",
@@ -46,19 +52,33 @@
       "reading": "さいきん",
       "headword": "{最近|さいきん}",
       "label": "recently (any timescale)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12965_sakkon",
+      "reading": "さっこん",
+      "headword": "{昨今|さっこん}",
+      "label": "nowadays, these days, recently"
     }
   ],
   "metadata": {
     "created": "2026-02-28T12:16:53Z",
-    "modified": "2026-02-28T12:16:53Z",
+    "modified": "2026-09-02T04:01:37Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adverb"],
+      "pos": [
+        "noun",
+        "adverb"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["time-general"],
-      "style": ["written"]
+      "semantic": [
+        "time-general"
+      ],
+      "style": [
+        "written"
+      ]
     }
   }
 }

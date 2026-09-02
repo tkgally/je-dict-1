@@ -3,7 +3,7 @@
   "id": "15293_rikou",
   "headword": "{履行|りこう}",
   "reading": "りこう",
-  "part_of_speech": "noun / noun (する verb)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "fulfillment; execution; performance (of a duty or contract)",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "15293_rikou_ex1",
-      "japanese": "{契約|けいやく}を{履行|りこう}する。",
+      "japanese": "⟦{契約|けいやく}→契約：02698_keiyaku⟧⟦を→を：00422_wo⟧{履行|りこう}⟦する→する：00392_suru⟧。",
       "english": "To fulfill a contract.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "15293_rikou_ex2",
-      "japanese": "{約束|やくそく}の{履行|りこう}を{求|もと}められた。",
+      "japanese": "⟦{約束|やくそく}→約束：01517_yakusoku⟧⟦の→の：09472_no⟧{履行|りこう}⟦を→を：00422_wo⟧⟦{求|もと}められた→求める：02316_motomeru⟧。",
       "english": "I was asked to carry out my promise.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "15293_rikou_ex3",
-      "japanese": "{政府|せいふ}は{国際|こくさい}{条約|じょうやく}の{履行|りこう}に{向|む}けて{具体的|ぐたいてき}な{措置|そち}を{講|こう}じた。",
+      "japanese": "⟦{政府|せいふ}→政府：03294_seifu⟧⟦は→は：00079_ha⟧⟦{国際|こくさい}→国際：01406_kokusai⟧⟦{条約|じょうやく}→条約：04912_jouyaku⟧⟦の→の：09472_no⟧{履行|りこう}⟦に→に：00314_ni⟧⟦{向|む}けて→向ける：02306_mukeru⟧⟦{具体的|ぐたいてき}→具体的：04781_gutaiteki⟧な⟦{措置|そち}→措置：05519_sochi⟧⟦を→を：00422_wo⟧⟦{講|こう}じた→講じる：27841_koujiru⟧。",
       "english": "The government took concrete measures toward fulfilling the international treaty.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,19 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{履行|りこう} is a formal, written word primarily used in legal, business, and political contexts. It refers specifically to carrying out obligations, contracts, or duties.\n\nCOMMON COLLOCATIONS:\n- {契約|けいやく}を{履行|りこう}する (to fulfill a contract)\n- {義務|ぎむ}を{履行|りこう}する (to perform a duty)\n- {条約|じょうやく}の{履行|りこう} (fulfillment of a treaty)\n- {債務|さいむ}{履行|りこう} (performance of a debt obligation)\n\nSIMILAR WORDS:\n{実行|じっこう} (execution) is broader and more general. {履行|りこう} specifically implies fulfilling something one is obligated or committed to do.",
-  "cross_references": [],
+  "notes": "USAGE:\n{履行|りこう} is a formal, written word primarily used in legal, business, and political contexts. It refers specifically to carrying out obligations, contracts, or duties.\n\nCOMMON COLLOCATIONS:\n- ⟦{契約|けいやく}→契約：02698_keiyaku⟧⟦を→を：00422_wo⟧{履行|りこう}⟦する→する：00392_suru⟧ (to fulfill a contract)\n- ⟦{義務|ぎむ}→義務：02647_gimu⟧⟦を→を：00422_wo⟧{履行|りこう}⟦する→する：00392_suru⟧ (to perform a duty)\n- ⟦{条約|じょうやく}→条約：04912_jouyaku⟧⟦の→の：09472_no⟧{履行|りこう} (fulfillment of a treaty)\n- ⟦{債務|さいむ}→債務：06578_saimu⟧{履行|りこう} (performance of a debt obligation)\n\nSIMILAR WORDS:\n⟦{実行|じっこう}→実行：03274_jikkou⟧ (execution) is broader and more general. {履行|りこう} specifically implies fulfilling something one is obligated or committed to do.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03274_jikkou",
+      "reading": "じっこう",
+      "headword": "{実行|じっこう}",
+      "label": "execution"
+    }
+  ],
   "metadata": {
     "created": "2026-03-06T08:51:33Z",
-    "modified": "2026-03-29T03:08:18Z",
+    "modified": "2026-09-02T04:01:40Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -155,7 +163,8 @@
       "semantic": [
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

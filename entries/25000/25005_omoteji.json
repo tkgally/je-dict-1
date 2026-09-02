@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25005_omoteji_ex1",
-      "japanese": "{表地|おもてじ}はシルク{100|ひゃく}%です。",
+      "japanese": "{表地|おもてじ}⟦は→は：00079_ha⟧⟦シルク→シルク：28530_shiruku⟧{100|ひゃく}%です。",
       "english": "The outer fabric is 100% silk.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25005_omoteji_ex2",
-      "japanese": "このコートの{表地|おもてじ}はウールで、{裏地|うらじ}はポリエステルだ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦コート→コート：01358_kooto⟧⟦の→の：09472_no⟧{表地|おもてじ}⟦は→は：00079_ha⟧⟦ウール→ウール：27712_uuru⟧⟦で→で：00502_de⟧、⟦{裏地|うらじ}→裏地：07101_uraji⟧⟦は→は：00079_ha⟧⟦ポリエステル→ポリエステル：26376_poriesuteru⟧だ。",
       "english": "This coat's outer fabric is wool and its lining is polyester.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25005_omoteji_ex3",
-      "japanese": "{洗濯|せんたく}する{前|まえ}に{表地|おもてじ}と{裏地|うらじ}の{素材|そざい}を{確認|かくにん}して、それぞれに{合|あ}った{方法|ほうほう}で{手入|てい}れをしてください。",
+      "japanese": "⟦{洗濯|せんたく}する→洗濯する：09656_sentakusuru⟧⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧{表地|おもてじ}⟦と→と：00512_to⟧⟦{裏地|うらじ}→裏地：07101_uraji⟧⟦の→の：09472_no⟧⟦{素材|そざい}→素材：09492_sozai⟧⟦を→を：00422_wo⟧⟦{確認|かくにん}して→確認する：25332_kakuninsuru⟧、⟦それぞれ→それぞれ：01453_sorezore⟧⟦に→に：00314_ni⟧⟦{合|あ}った→合う：10466_au⟧⟦{方法|ほうほう}→方法：03621_houhou⟧⟦で→で：00502_de⟧⟦{手入|てい}れ→手入れ：07178_teire⟧⟦を→を：00422_wo⟧⟦して→する：00392_suru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Before washing, check the materials of the outer fabric and lining, and care for each one using the appropriate method.",
       "sense_numbers": [
         1
@@ -44,19 +44,51 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {表|おもて} (surface, front) and {地|じ} (fabric, cloth). Found on clothing labels and in sewing, tailoring, and fashion contexts. The reading uses the kun'yomi おもて for {表|おもて} and the on'yomi じ for {地|じ}.\n\nCOMMON COLLOCATIONS:\n- {表地|おもてじ}と{裏地|うらじ}: outer fabric and lining\n- {表地|おもてじ}の{素材|そざい}: material of the outer fabric\n- {表地|おもてじ}: ウール / シルク / {綿|めん}: outer fabric: wool / silk / cotton\n\nSIMILAR WORDS:\n- {裏地|うらじ}: lining fabric — the inner layer of a garment, the direct counterpart to {表地|おもてじ}\n- {生地|きじ}: fabric; cloth; material — a general term for any textile, not specific to the outer layer\n- {芯地|しんじ}: interfacing; interlining — stiff fabric placed between outer and inner layers to add structure",
+  "notes": "A compound of ⟦{表|おもて}→表：01355_omote⟧ (surface, front) and {地|じ} (fabric, cloth). Found on clothing labels and in sewing, tailoring, and fashion contexts. The reading uses the kun'yomi おもて for ⟦{表|おもて}→表：01355_omote⟧ and the on'yomi じ for {地|じ}.\n\nCOMMON COLLOCATIONS:\n- {表地|おもてじ}⟦と→と：00512_to⟧⟦{裏地|うらじ}→裏地：07101_uraji⟧: outer fabric and lining\n- {表地|おもてじ}⟦の→の：09472_no⟧⟦{素材|そざい}→素材：09492_sozai⟧: material of the outer fabric\n- {表地|おもてじ}: ⟦ウール→ウール：27712_uuru⟧ / ⟦シルク→シルク：28530_shiruku⟧ / ⟦{綿|めん}→綿：03807_men⟧: outer fabric: wool / silk / cotton\n\nSIMILAR WORDS:\n- ⟦{裏地|うらじ}→裏地：07101_uraji⟧: lining fabric — the inner layer of a garment, the direct counterpart to {表地|おもてじ}\n- ⟦{生地|きじ}→生地：02631_kiji⟧: fabric; cloth; material — a general term for any textile, not specific to the outer layer\n- ⟦{芯地|しんじ}→芯地：26746_shinji⟧: interfacing; interlining — stiff fabric placed between outer and inner layers to add structure",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07101_uraji",
+      "reading": "うらじ",
+      "headword": "{裏地|うらじ}",
+      "label": "lining fabric"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02631_kiji",
+      "reading": "きじ",
+      "headword": "{生地|きじ}",
+      "label": "fabric"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26746_shinji",
+      "reading": "しんじ",
+      "headword": "{芯地|しんじ}",
+      "label": "interfacing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25006_uranuno",
+      "reading": "うらぬの",
+      "headword": "{裏布|うらぬの}",
+      "label": "lining cloth"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "clothing"
       ]
     },
     "created": "2026-04-22T10:16:07Z",
-    "modified": "2026-08-03T09:22:27Z"
+    "modified": "2026-09-02T04:02:20Z"
   }
 }

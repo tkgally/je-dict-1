@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "16846_nakigoe_ex1",
-      "japanese": "{犬|いぬ}の{鳴|な}き{声|ごえ}が{聞|き}こえる。",
+      "japanese": "⟦{犬|いぬ}→犬：00632_inu⟧⟦の→の：09472_no⟧{鳴|な}き{声|ごえ}⟦が→が：00051_ga⟧⟦{聞|き}こえる→聞こえる：01229_kikoeru⟧。",
       "english": "I can hear a dog barking.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "16846_nakigoe_ex2",
-      "japanese": "{夜|よる}になると{虫|むし}の{鳴|な}き{声|ごえ}が{響|ひび}く。",
+      "japanese": "⟦{夜|よる}→夜：00487_yoru⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦と→と：00512_to⟧⟦{虫|むし}→虫：02262_mushi⟧⟦の→の：09472_no⟧{鳴|な}き{声|ごえ}⟦が→が：00051_ga⟧⟦{響|ひび}く→響く：00099_hibiku⟧。",
       "english": "At night, the chirping of insects echoes.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "16846_nakigoe_ex3",
-      "japanese": "{動物園|どうぶつえん}では{色々|いろいろ}な{動物|どうぶつ}の{鳴|な}き{声|ごえ}を{間近|まぢか}で{聞|き}くことができる。",
+      "japanese": "⟦{動物園|どうぶつえん}→動物園：01686_doubutsuen⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{色々|いろいろ}→色々：02352_iroiro⟧な⟦{動物|どうぶつ}→動物：01480_doubutsu⟧⟦の→の：09472_no⟧{鳴|な}き{声|ごえ}⟦を→を：00422_wo⟧⟦{間近|まぢか}→間近：14527_majika⟧で⟦{聞|き}く→聞く：00483_kiku⟧こと⟦が→が：00051_ga⟧⟦できる→できる：00557_dekiru⟧。",
       "english": "At the zoo, you can hear various animal cries up close.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,19 @@
       ]
     }
   ],
-  "notes": "USAGE:\nUsed for sounds made by animals, birds, and insects. Not used for human voices (that would be {泣|な}き{声|ごえ}, meaning crying voice, using a different kanji for なき).\n\nNOTE ON KANJI:\n{鳴|な}く (animal sounds) vs. {泣|な}く (human crying). The kanji {鳴|な} is specifically for animal vocalizations.\n\nCOMMON COLLOCATIONS:\n- {鳴|な}き{声|ごえ}が{聞|き}こえる (to hear animal cries)\n- {鳥|とり}の{鳴|な}き{声|ごえ} (birdsong)\n- {虫|むし}の{鳴|な}き{声|ごえ} (chirping of insects)",
-  "cross_references": [],
+  "notes": "USAGE:\nUsed for sounds made by animals, birds, and insects. Not used for human voices (that would be {泣|な}き{声|ごえ}, meaning crying voice, using a different kanji for なき).\n\nNOTE ON KANJI:\n⟦{鳴|な}く→鳴く：04388_naku⟧ (animal sounds) vs. ⟦{泣|な}く→泣く：00655_naku⟧ (human crying). The kanji {鳴|な} is specifically for animal vocalizations.\n\nCOMMON COLLOCATIONS:\n- {鳴|な}き{声|ごえ}⟦が→が：00051_ga⟧⟦{聞|き}こえる→聞こえる：01229_kikoeru⟧ (to hear animal cries)\n- ⟦{鳥|とり}→鳥：00679_tori⟧⟦の→の：09472_no⟧{鳴|な}き{声|ごえ} (birdsong)\n- ⟦{虫|むし}→虫：02262_mushi⟧⟦の→の：09472_no⟧{鳴|な}き{声|ごえ} (chirping of insects)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25297_torinosaezuri",
+      "reading": "とりのさえずり",
+      "headword": "{鳥|とり}のさえずり",
+      "label": "birdsong"
+    }
+  ],
   "metadata": {
     "created": "2026-03-14T13:06:25Z",
-    "modified": "2026-07-21T06:41:24Z",
+    "modified": "2026-09-02T04:01:46Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

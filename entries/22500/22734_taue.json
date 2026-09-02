@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22734_taue_ex1",
-      "japanese": "{田植|たう}えの{季節|きせつ}になった。",
+      "japanese": "{田植|たう}え⟦の→の：09472_no⟧⟦{季節|きせつ}→季節：01304_kisetsu⟧になった。",
       "english": "It's become the rice-planting season.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22734_taue_ex2",
-      "japanese": "{子|こ}どもたちが{田植|たう}えを{体験|たいけん}した。",
+      "japanese": "{子|こ}どもたち⟦が→が：00051_ga⟧{田植|たう}え⟦を→を：00422_wo⟧⟦{体験|たいけん}した→体験する：09858_taikensuru⟧。",
       "english": "The children experienced rice planting.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22734_taue_ex3",
-      "japanese": "{今年|ことし}は{天候不順|てんこうふじゅん}で{田植|たう}えが{遅|おく}れている{地域|ちいき}もある。",
+      "japanese": "⟦{今年|ことし}→今年：00722_kotoshi⟧⟦は→は：00079_ha⟧{天候不順|てんこうふじゅん}で{田植|たう}え⟦が→が：00051_ga⟧⟦{遅|おく}れている→遅れる：00741_okureru⟧⟦{地域|ちいき}→地域：01461_chiiki⟧⟦も→も：00484_mo⟧⟦ある→ある：00006_aru⟧。",
       "english": "This year, there are regions where rice planting has been delayed due to bad weather.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Refers specifically to the transplanting of rice seedlings ({苗|なえ}) into a flooded paddy field ({田|た}んぼ). Traditionally done by hand, now largely mechanized with rice-planting machines ({田植|たう}え{機|き}). The rice-planting season is typically May to June in most of Japan and is closely tied to seasonal awareness in Japanese culture.\n\nCOMMON COLLOCATIONS:\n- {田植|たう}え{機|き}: rice-planting machine\n- {田植|たう}えの{時期|じき}: rice-planting season\n- {田植|たう}えをする: to plant rice\n- {手|て}{植|う}え: hand-planting (of rice)\n\nCULTURAL NOTES:\n{田植|たう}え has traditionally been accompanied by rituals and festivals. {御田植祭|おたうえまつり} (rice-planting festivals) are still held at many shrines. School field trips to rice paddies for {田植|たう}え{体験|たいけん} (rice-planting experience) are common in Japanese elementary education.",
+  "notes": "Refers specifically to the transplanting of rice seedlings (⟦{苗|なえ}→苗：05489_nae⟧) into a flooded paddy field (⟦{田|た}んぼ→田んぼ：00402_tanbo⟧). Traditionally done by hand, now largely mechanized with rice-planting machines ({田植|たう}え{機|き}). The rice-planting season is typically May to June in most of Japan and is closely tied to seasonal awareness in Japanese culture.\n\nCOMMON COLLOCATIONS:\n- {田植|たう}え{機|き}: rice-planting machine\n- {田植|たう}え⟦の→の：09472_no⟧⟦{時期|じき}→時期：03269_jiki⟧: rice-planting season\n- {田植|たう}え⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧: to plant rice\n- {手|て}{植|う}え: hand-planting (of rice)\n\nCULTURAL NOTE:\n{田植|たう}え has traditionally been accompanied by rituals and festivals. {御田植祭|おたうえまつり} (rice-planting festivals) are still held at many shrines. School field trips to rice paddies for {田植|たう}え⟦{体験|たいけん}→体験：11443_taiken⟧ (rice-planting experience) are common in Japanese elementary education.",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -60,7 +60,7 @@
       "politeness": "plain"
     },
     "created": "2026-04-07T14:11:01Z",
-    "modified": "2026-07-26T15:19:51Z"
+    "modified": "2026-09-02T04:02:09Z"
   },
   "cross_references": [
     {
@@ -69,6 +69,41 @@
       "headword": "{稲刈|いねか}り",
       "label": "rice harvesting (autumn)",
       "target_id": "05933_inekari"
+    },
+    {
+      "type": "related",
+      "target_id": "09494_inasaku",
+      "reading": "いなさく",
+      "headword": "{稲作|いなさく}",
+      "label": "rice cultivation, rice farming"
+    },
+    {
+      "type": "related",
+      "target_id": "14511_nousagyou",
+      "reading": "のうさぎょう",
+      "headword": "{農作業|のうさぎょう}",
+      "label": "farm work"
+    },
+    {
+      "type": "related",
+      "target_id": "21341_uetsuke",
+      "reading": "うえつけ",
+      "headword": "{植|う}え{付|つ}け",
+      "label": "planting"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23457_sakuzuke",
+      "reading": "さくづけ",
+      "headword": "{作付|さくづ}け",
+      "label": "planting crops"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26458_hashuki",
+      "reading": "はしゅき",
+      "headword": "{播種期|はしゅき}",
+      "label": "sowing season"
     }
   ]
 }

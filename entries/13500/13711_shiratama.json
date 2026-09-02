@@ -15,41 +15,59 @@
   "examples": [
     {
       "id": "13711_shiratama_ex1",
-      "japanese": "{白玉|しらたま}を{作|つく}る。",
+      "japanese": "{白玉|しらたま}⟦を→を：00422_wo⟧⟦{作|つく}る→作る：00481_tsukuru⟧。",
       "english": "To make shiratama dumplings.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13711_shiratama_ex2",
-      "japanese": "あんみつに{白玉|しらたま}をのせて{食|た}べた。",
+      "japanese": "⟦あんみつ→あんみつ：20653_anmitsu⟧⟦に→に：00314_ni⟧{白玉|しらたま}⟦を→を：00422_wo⟧のせて⟦{食|た}べた→食べる：00396_taberu⟧。",
       "english": "I ate anmitsu with shiratama dumplings on top.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13711_shiratama_ex3",
-      "japanese": "{白玉|しらたま}はもちもちした{食感|しょっかん}が{人気|にんき}で、{和|わ}スイーツによく{使|つか}われる。",
+      "japanese": "{白玉|しらたま}⟦は→は：00079_ha⟧⟦もちもち→もちもち：05260_mochimochi⟧⟦した→する：00392_suru⟧⟦{食感|しょっかん}→食感：06636_shokkan⟧⟦が→が：00051_ga⟧⟦{人気|にんき}→人気：01488_ninki⟧⟦で→で：00502_de⟧、{和|わ}⟦スイーツ→スイーツ：27370_suiitsu⟧⟦に→に：00314_ni⟧⟦よく→よく：00601_yoku⟧⟦{使|つか}われる→使う：00473_tsukau⟧。",
       "english": "Shiratama dumplings are popular for their chewy texture and are often used in Japanese-style sweets.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nMade by kneading {白玉粉|しらたまこ} (glutinous rice flour) with water, rolling into small balls, and boiling until they float. They are served as toppings in various Japanese desserts.\n\nCOMMON COLLOCATIONS:\n- {白玉|しらたま}{粉|こ}: shiratamako, glutinous rice flour\n- {白玉|しらたま}{団子|だんご}: shiratama dumplings\n- {白玉|しらたま}あんみつ: anmitsu with shiratama\n- {白玉|しらたま}ぜんざい: sweet red bean soup with shiratama\n\nCULTURE:\nA staple ingredient in {和菓子|わがし} (Japanese confections). Easy to make at home — a common activity for families and cooking classes.",
-  "cross_references": [],
+  "notes": "USAGE:\nMade by kneading ⟦{白玉粉|しらたまこ}→白玉粉：24188_shiratamako⟧ (glutinous rice flour) with water, rolling into small balls, and boiling until they float. They are served as toppings in various Japanese desserts.\n\nCOMMON COLLOCATIONS:\n- {白玉|しらたま}{粉|こ}: shiratamako, glutinous rice flour\n- {白玉|しらたま}⟦{団子|だんご}→団子：04959_dango⟧: shiratama dumplings\n- {白玉|しらたま}⟦あんみつ→あんみつ：20653_anmitsu⟧: anmitsu with shiratama\n- {白玉|しらたま}⟦ぜんざい→ぜんざい：20244_zenzai⟧: sweet red bean soup with shiratama\n\nCULTURAL NOTE:\nA staple ingredient in ⟦{和菓子|わがし}→和菓子：04962_wagashi⟧ (Japanese confections). Easy to make at home — a common activity for families and cooking classes.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "23451_omochi",
+      "reading": "おもち",
+      "headword": "お{餅|もち}",
+      "label": "rice cake"
+    }
+  ],
   "metadata": {
     "created": "2026-02-26T13:34:15Z",
-    "modified": "2026-07-15T09:17:48Z",
+    "modified": "2026-09-02T04:01:34Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food"]
+      "semantic": [
+        "food"
+      ]
     }
   }
 }

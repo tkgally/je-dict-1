@@ -14,30 +14,36 @@
   "examples": [
     {
       "id": "09875_sen_ex1",
-      "japanese": "{貨物|かもつ}{船|せん}が{港|みなと}に{入|はい}った。",
+      "japanese": "⟦{貨物|かもつ}{船|せん}→貨物船：22204_kamotsusen⟧⟦が→が：00051_ga⟧⟦{港|みなと}→港：01512_minato⟧⟦に→に：00314_ni⟧⟦{入|はい}った→入る：00494_hairu⟧。",
       "english": "A cargo ship entered the port.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09875_sen_ex2",
-      "japanese": "{漁|りょう}{船|せん}が{朝早|あさはや}く{出港|しゅっこう}した。",
+      "japanese": "{漁|りょう}{船|せん}⟦が→が：00051_ga⟧{朝早|あさはや}く⟦{出港|しゅっこう}→出港：11764_shukkou⟧⟦した→する：00392_suru⟧。",
       "english": "The fishing boat departed early in the morning.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09875_sen_ex3",
-      "japanese": "{客|きゃく}{船|せん}で{世界|せかい}を{旅|たび}する。",
+      "japanese": "⟦{客|きゃく}{船|せん}→客船：16792_kyakusen⟧⟦で→で：00502_de⟧⟦{世界|せかい}→世界：01447_sekai⟧⟦を→を：00422_wo⟧⟦{旅|たび}→旅：03407_tabi⟧⟦する→する：00392_suru⟧。",
       "english": "I travel the world by passenger ship.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{船|せん} is a suffix used in compound words related to ships and vessels.\n\nCOMMON COMPOUNDS:\n\nBy function:\n- {貨物|かもつ}{船|せん}: cargo ship, freighter\n- {客|きゃく}{船|せん}: passenger ship\n- {漁|りょう}{船|せん}: fishing boat\n- {軍|ぐん}{船|せん}: warship\n\nBy size/type:\n- {大型|おおがた}{船|せん}: large vessel\n- {小型|こがた}{船|せん}: small boat\n- {帆|はん}{船|せん}: sailing ship\n\nOther compounds:\n- {船|せん}{長|ちょう}: captain\n- {船|せん}{員|いん}: crew member\n- {乗|じょう}{船|せん}: boarding a ship\n\nNOTE:\nAs a standalone word, {船|ふね} is used to mean \"boat\" or \"ship.\" The reading {船|せん} appears primarily in compound words.",
+  "notes": "{船|せん} is a suffix used in compound words related to ships and vessels.\n\nCOMPOUNDS:\n\nBy function:\n- ⟦{貨物|かもつ}{船|せん}→貨物船：22204_kamotsusen⟧: cargo ship, freighter\n- ⟦{客|きゃく}{船|せん}→客船：16792_kyakusen⟧: passenger ship\n- {漁|りょう}{船|せん}: fishing boat\n- {軍|ぐん}{船|せん}: warship\n\nBy size/type:\n- ⟦{大型|おおがた}→大型：03016_oogata⟧{船|せん}: large vessel\n- ⟦{小型|こがた}→小型：12460_kogata⟧{船|せん}: small boat\n- ⟦{帆|はん}{船|せん}→帆船：22530_hansen⟧: sailing ship\n\nOther compounds:\n- ⟦{船|せん}{長|ちょう}→船長：18291_senchou⟧: captain\n- ⟦{船|せん}{員|いん}→船員：22495_senin⟧: crew member\n- ⟦{乗|じょう}{船|せん}→乗船：16793_jousen⟧: boarding a ship\n\nUSAGE:\nAs a standalone word, ⟦{船|ふね}→船：00775_fune⟧ is used to mean \"boat\" or \"ship.\" The reading {船|せん} appears primarily in compound words.",
   "cross_references": [
     {
       "type": "related",
@@ -50,12 +56,16 @@
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["suffix"],
+      "pos": [
+        "suffix"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["transportation"]
+      "semantic": [
+        "transportation"
+      ]
     },
     "created": "2026-02-04T03:55:03Z",
-    "modified": "2026-02-04T03:55:03Z"
+    "modified": "2026-09-02T04:01:19Z"
   }
 }

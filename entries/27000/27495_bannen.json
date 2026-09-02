@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "27495_bannen_ex1",
-      "japanese": "{晩年|ばんねん}は{故郷|こきょう}で{過|す}ごした。",
+      "japanese": "{晩年|ばんねん}⟦は→は：00079_ha⟧⟦{故郷|こきょう}→故郷：02733_kokyou⟧⟦で→で：00502_de⟧⟦{過|す}ごした→過ごす：02062_sugosu⟧。",
       "english": "He spent his later years in his hometown.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "27495_bannen_ex2",
-      "japanese": "その{画家|がか}の{晩年|ばんねん}の{作品|さくひん}が{展示|てんじ}されている。",
+      "japanese": "⟦その→その：00993_sono⟧⟦{画家|がか}→画家：02583_gaka⟧⟦の→の：09472_no⟧{晩年|ばんねん}⟦の→の：09472_no⟧⟦{作品|さくひん}→作品：02776_sakuhin⟧⟦が→が：00051_ga⟧⟦{展示|てんじ}→展示：12401_tenji⟧⟦されている→する：00392_suru⟧。",
       "english": "The painter's late-period works are on display.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "27495_bannen_ex3",
-      "japanese": "{祖父|そふ}は{晩年|ばんねん}になって{書道|しょどう}を{始|はじ}め、{毎日|まいにち}{筆|ふで}を{握|にぎ}っていた。",
+      "japanese": "⟦{祖父|そふ}→祖父：01452_sofu⟧⟦は→は：00079_ha⟧{晩年|ばんねん}になって⟦{書道|しょどう}→書道：04178_shodou⟧⟦を→を：00422_wo⟧{始|はじ}め、⟦{毎日|まいにち}→毎日：00729_mainichi⟧⟦{筆|ふで}→筆：03601_fude⟧⟦を→を：00422_wo⟧⟦{握|にぎ}っていた→握る：02383_nigiru⟧。",
       "english": "In his later years my grandfather took up calligraphy and held a brush every day.",
       "sense_numbers": [
         1
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "Refers specifically to the last stage of a life, not just \"old age\" in general. Usually used about someone already deceased or about the final phase of a long career.\n\nCOMMON COLLOCATIONS:\n- {晩年|ばんねん}を{過|す}ごす: to spend one's later years\n- {晩年|ばんねん}の{作品|さくひん}: late-period work\n- {幸|しあわ}せな{晩年|ばんねん}: a happy old age\n- {晩年|ばんねん}に{至|いた}って: in one's final years\n\nSIMILAR WORDS:\n- {老後|ろうご}: post-retirement years — the time after leaving work; used about the living, especially about one's own future\n- {余生|よせい}: the rest of one's life — what remains after a major life event, with a hint of \"leftover\" time",
+  "notes": "Refers specifically to the last stage of a life, not just \"old age\" in general. Usually used about someone already deceased or about the final phase of a long career.\n\nCOMMON COLLOCATIONS:\n- {晩年|ばんねん}⟦を→を：00422_wo⟧⟦{過|す}ごす→過ごす：02062_sugosu⟧: to spend one's later years\n- {晩年|ばんねん}⟦の→の：09472_no⟧⟦{作品|さくひん}→作品：02776_sakuhin⟧: late-period work\n- {幸|しあわ}せな{晩年|ばんねん}: a happy old age\n- {晩年|ばんねん}⟦に→に：00314_ni⟧⟦{至|いた}って→至る：02009_itaru⟧: in one's final years\n\nSIMILAR WORDS:\n- ⟦{老後|ろうご}→老後：15131_rougo⟧: post-retirement years — the time after leaving work; used about the living, especially about one's own future\n- ⟦{余生|よせい}→余生：20239_yosei⟧: the rest of one's life — what remains after a major life event, with a hint of \"leftover\" time",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15131_rougo",
+      "reading": "ろうご",
+      "headword": "{老後|ろうご}",
+      "label": "post-retirement years"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20239_yosei",
+      "reading": "よせい",
+      "headword": "{余生|よせい}",
+      "label": "the rest of one's life"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23970_rounenki",
+      "reading": "ろうねんき",
+      "headword": "{老年期|ろうねんき}",
+      "label": "old age"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29085_rourei",
+      "reading": "ろうれい",
+      "headword": "{老齢|ろうれい}",
+      "label": "old age"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +83,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "time-general"
       ],
       "domain": []
     },
     "created": "2026-05-13T03:04:29Z",
-    "modified": "2026-08-07T15:50:37Z"
+    "modified": "2026-09-02T04:02:30Z"
   }
 }

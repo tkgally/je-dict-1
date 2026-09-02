@@ -15,41 +15,62 @@
   "examples": [
     {
       "id": "27754_hasatsuon_ex1",
-      "japanese": "「つ」の{子音|しいん}は{破擦|はさつ}{音|おん}だ。",
+      "japanese": "「つ」⟦の→の：09472_no⟧⟦{子音|しいん}→子音：18405_shiin⟧⟦は→は：00079_ha⟧{破擦|はさつ}{音|おん}だ。",
       "english": "The consonant in tsu is an affricate.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27754_hasatsuon_ex2",
-      "japanese": "{日本語|にほんご}にはいくつかの{破擦|はさつ}{音|おん}がある。",
+      "japanese": "⟦{日本語|にほんご}→日本語：00614_nihongo⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧いくつ⟦か→か：09473_ka⟧⟦の→の：09472_no⟧{破擦|はさつ}{音|おん}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "Japanese has several affricates.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27754_hasatsuon_ex3",
-      "japanese": "「ち」や「つ」の{音|おと}は、{破裂音|はれつおん}と{摩擦音|まさつおん}の{両方|りょうほう}の{性質|せいしつ}を{持|も}つ{破擦|はさつ}{音|おん}だ。",
+      "japanese": "「ち」や「つ」⟦の→の：09472_no⟧⟦{音|おと}→音：00743_oto⟧⟦は→は：00079_ha⟧、{破裂音|はれつおん}⟦と→と：00512_to⟧⟦{摩擦音|まさつおん}→摩擦音：23274_masatsuon⟧⟦の→の：09472_no⟧⟦{両方|りょうほう}→両方：01750_ryouhou⟧⟦の→の：09472_no⟧⟦{性質|せいしつ}→性質：01638_seishitsu⟧⟦を→を：00422_wo⟧⟦{持|も}つ→持つ：00478_motsu⟧{破擦|はさつ}{音|おん}だ。",
       "english": "The sounds chi and tsu are affricates that have the qualities of both a stop and a fricative.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {破|は} (burst) + {擦|さつ} (rub) + {音|おん} (sound). A phonetics term for a consonant that combines a stop and a fricative.\n\nRELATED TERMS:\n- {破裂音|はれつおん}: stop; plosive — a sound made by a sudden release of blocked air\n- {摩擦音|まさつおん}: fricative — a sound made by friction of air through a narrow gap\n\nNOTE:\nAn affricate starts like a {破裂音|はれつおん} and ends like a {摩擦音|まさつおん}; Japanese examples include the initial sounds of つ and ち.",
+  "notes": "Composed of {破|は} (burst) + {擦|さつ} (rub) + {音|おん} (sound). A phonetics term for a consonant that combines a stop and a fricative.\n\nRELATED WORDS:\n- {破裂音|はれつおん}: stop; plosive — a sound made by a sudden release of blocked air\n- ⟦{摩擦音|まさつおん}→摩擦音：23274_masatsuon⟧: fricative — a sound made by friction of air through a narrow gap\n\nUSAGE:\nAn affricate starts like a {破裂音|はれつおん} and ends like a ⟦{摩擦音|まさつおん}→摩擦音：23274_masatsuon⟧; Japanese examples include the initial sounds of つ and ち.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "23274_masatsuon",
+      "reading": "まさつおん",
+      "headword": "{摩擦音|まさつおん}",
+      "label": "fricative"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["academic"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "academic"
+      ]
     },
     "created": "2026-05-18T03:04:42Z",
-    "modified": "2026-05-18T03:04:42Z"
+    "modified": "2026-09-02T04:02:31Z"
   }
 }

@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "USAGE: {老眼|ろうがん} is a natural age-related condition affecting nearly everyone eventually. It's distinct from other vision problems.\n\nCOMMON COLLOCATIONS:\n・{老眼|ろうがん}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧ (to develop presbyopia)\n・{老眼|ろうがん}⟦が→が：00051_ga⟧⟦{進|すす}む→進む：01225_susumu⟧ (presbyopia progresses)\n・⟦{老眼鏡|ろうがんきょう}→老眼鏡：19227_rougankyou⟧ (reading glasses)\n・{老眼|ろうがん}⟦{用|よう}→用：09842_you⟧⟦レンズ→レンズ：07808_renzu⟧ (lenses for presbyopia)\n\nOTHER VISION CONDITIONS:\n・⟦{近視|きんし}→近視：02683_kinshi⟧ - nearsightedness (myopia)\n・⟦{遠視|えんし}→遠視：07105_enshi⟧ - farsightedness (hyperopia) - not age-related\n・⟦{乱視|らんし}→乱視：06370_ranshi⟧ - astigmatism\n\nNOTE ON TERMINOLOGY: {老眼|ろうがん} is sometimes translated as \"farsightedness,\" but technically it's presbyopia (aging-related), while ⟦{遠視|えんし}→遠視：07105_enshi⟧ is hyperopia (can occur at any age).",
+  "notes": "USAGE: {老眼|ろうがん} is a natural age-related condition affecting nearly everyone eventually. It's distinct from other vision problems.\n\nCOMMON COLLOCATIONS:\n- {老眼|ろうがん}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧ (to develop presbyopia)\n- {老眼|ろうがん}⟦が→が：00051_ga⟧⟦{進|すす}む→進む：01225_susumu⟧ (presbyopia progresses)\n- ⟦{老眼鏡|ろうがんきょう}→老眼鏡：19227_rougankyou⟧ (reading glasses)\n- {老眼|ろうがん}⟦{用|よう}→用：09842_you⟧⟦レンズ→レンズ：07808_renzu⟧ (lenses for presbyopia)\n\nOTHER VISION CONDITIONS:\n- ⟦{近視|きんし}→近視：02683_kinshi⟧ - nearsightedness (myopia)\n- ⟦{遠視|えんし}→遠視：07105_enshi⟧ - farsightedness (hyperopia) - not age-related\n- ⟦{乱視|らんし}→乱視：06370_ranshi⟧ - astigmatism\n\nNOTE ON TERMINOLOGY: {老眼|ろうがん} is sometimes translated as \"farsightedness,\" but technically it's presbyopia (aging-related), while ⟦{遠視|えんし}→遠視：07105_enshi⟧ is hyperopia (can occur at any age).",
   "cross_references": [
     {
       "type": "related",
@@ -51,11 +51,25 @@
       "headword": "{乱視|らんし}",
       "label": "astigmatism",
       "target_id": "06370_ranshi"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02683_kinshi",
+      "reading": "きんし",
+      "headword": "{近視|きんし}",
+      "label": "nearsightedness, myopia"
+    },
+    {
+      "type": "related",
+      "target_id": "23294_shiryokukyousei",
+      "reading": "しりょくきょうせい",
+      "headword": "{視力矯正|しりょくきょうせい}",
+      "label": "vision correction"
     }
   ],
   "metadata": {
     "created": "2026-01-17T11:32:37Z",
-    "modified": "2026-07-02T00:24:15Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

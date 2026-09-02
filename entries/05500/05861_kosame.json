@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{小雨|こさめ} means light rain or drizzle - gentle rainfall that doesn't require shelter or heavy rain gear.\n\nRAIN INTENSITY SCALE:\n- ⟦{霧雨|きりさめ}→霧雨：07684_kirisame⟧: fine mist, very light drizzle\n- {小雨|こさめ}: light rain, drizzle\n- ⟦{雨|あめ}→雨：00583_ame⟧: rain (general)\n- ⟦{大雨|おおあめ}→大雨：03015_ooame⟧: heavy rain\n- ⟦{豪雨|ごうう}→豪雨：05860_gouu⟧: torrential rain, downpour\n\nCOMMON EXPRESSIONS:\n- {小雨|こさめ}が⟦{降|ふ}る→降る：00839_furu⟧: to drizzle\n- {小雨|こさめ}⟦{程度|ていど}→程度：01468_teido⟧: just light rain (used to indicate something will proceed despite rain)\n- {小雨|こさめ}⟦{決行|けっこう}→決行：02794_kekkou⟧: will proceed even in light rain (event announcements)\n\nWEATHER FORECAST USAGE:\n{小雨|こさめ} appears frequently in forecasts. {小雨|こさめ}⟦なら→なら：09575_nara⟧⟦{傘|かさ}→傘：00639_kasa⟧⟦は→は：00079_ha⟧⟦いらない→いらない：28406_iranai⟧ is a common sentiment (no umbrella needed for drizzle).",
+  "notes": "{小雨|こさめ} means light rain or drizzle - gentle rainfall that doesn't require shelter or heavy rain gear.\n\nRAIN INTENSITY SCALE:\n- ⟦{霧雨|きりさめ}→霧雨：07684_kirisame⟧: fine mist, very light drizzle\n- {小雨|こさめ}: light rain, drizzle\n- ⟦{雨|あめ}→雨：00583_ame⟧: rain (general)\n- ⟦{大雨|おおあめ}→大雨：03015_ooame⟧: heavy rain\n- ⟦{豪雨|ごうう}→豪雨：05860_gouu⟧: torrential rain, downpour\n\nCOMMON EXPRESSIONS:\n- {小雨|こさめ}⟦が→が：00051_ga⟧⟦{降|ふ}る→降る：00839_furu⟧: to drizzle\n- {小雨|こさめ}⟦{程度|ていど}→程度：01468_teido⟧: just light rain (used to indicate something will proceed despite rain)\n- {小雨|こさめ}⟦{決行|けっこう}→決行：02794_kekkou⟧: will proceed even in light rain (event announcements)\n\nWEATHER FORECAST USAGE:\n{小雨|こさめ} appears frequently in forecasts. {小雨|こさめ}⟦なら→なら：09575_nara⟧⟦{傘|かさ}→傘：00639_kasa⟧⟦は→は：00079_ha⟧⟦いらない→いらない：28406_iranai⟧ is a common sentiment (no umbrella needed for drizzle).",
   "cross_references": [
     {
       "type": "contrast",
@@ -58,11 +58,25 @@
       "reading": "おおあめ",
       "headword": "{大雨|おおあめ}",
       "label": "heavy rain"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20234_honburi",
+      "reading": "ほんぶり",
+      "headword": "{本降|ほんぶ}り",
+      "label": "steady rain"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25345_amamoyou",
+      "reading": "あまもよう",
+      "headword": "{雨模様|あまもよう}",
+      "label": "signs of rain"
     }
   ],
   "metadata": {
     "created": "2026-01-16T13:54:41Z",
-    "modified": "2026-06-08T18:04:59Z",
+    "modified": "2026-09-02T04:01:07Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

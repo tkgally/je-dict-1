@@ -2,7 +2,7 @@
   "id": "04186_sakusei",
   "headword": "{作成|さくせい}",
   "reading": "さくせい",
-  "part_of_speech": "noun, suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "creation, preparation",
   "conjugation": {
     "type": "suru",
@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "04186_sakusei_ex1",
-      "japanese": "⟦{報告書|ほうこくしょ}→報告書：06744_houkokusho⟧⟦を→を：00422_wo⟧{作成|さくせい}して⟦ください→ください：02899_kudasai⟧。",
+      "japanese": "⟦{報告書|ほうこくしょ}→報告書：06744_houkokusho⟧⟦を→を：00422_wo⟧{作成|さくせい}⟦して→する：00392_suru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please prepare the report.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "04186_sakusei_ex2",
-      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦{計画|けいかく}→計画：01172_keikaku⟧⟦を→を：00422_wo⟧{作成|さくせい}している。",
+      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦{計画|けいかく}→計画：01172_keikaku⟧⟦を→を：00422_wo⟧{作成|さくせい}⟦している→する：00392_suru⟧。",
       "english": "I'm creating a new plan.",
       "notes": null,
       "has_audio": false,
@@ -133,10 +133,40 @@
       ]
     }
   ],
-  "notes": "HOMOPHONE DISTINCTION:\n・{作成|さくせい} - creating documents, plans, software (intangible products)\n・⟦{作製|さくせい}→作製：04187_sakusei⟧ - manufacturing physical objects\n\nCOMMON COLLOCATIONS:\n・⟦{書類|しょるい}→書類：01103_shorui⟧⟦を→を：00422_wo⟧{作成|さくせい}⟦する→する：00392_suru⟧ (to prepare documents)\n・⟦{計画|けいかく}→計画：01172_keikaku⟧⟦を→を：00422_wo⟧{作成|さくせい}⟦する→する：00392_suru⟧ (to create a plan)\n・⟦{資料|しりょう}→資料：04166_shiryou⟧⟦を→を：00422_wo⟧{作成|さくせい}⟦する→する：00392_suru⟧ (to prepare materials)\n・⟦ファイル→ファイル：05280_fairu⟧⟦を→を：00422_wo⟧{作成|さくせい}⟦する→する：00392_suru⟧ (to create a file)\n\nSIMILAR WORDS:\n・⟦{制作|せいさく}→制作：04320_seisaku⟧ - production (of creative works)\n・⟦{製作|せいさく}→製作：04322_seisaku⟧ - production, manufacturing",
+  "notes": "HOMOPHONE DISTINCTION:\n- {作成|さくせい} - creating documents, plans, software (intangible products)\n- ⟦{作製|さくせい}→作製：04187_sakusei⟧ - manufacturing physical objects\n\nCOMMON COLLOCATIONS:\n- ⟦{書類|しょるい}→書類：01103_shorui⟧⟦を→を：00422_wo⟧{作成|さくせい}⟦する→する：00392_suru⟧ (to prepare documents)\n- ⟦{計画|けいかく}→計画：01172_keikaku⟧⟦を→を：00422_wo⟧{作成|さくせい}⟦する→する：00392_suru⟧ (to create a plan)\n- ⟦{資料|しりょう}→資料：04166_shiryou⟧⟦を→を：00422_wo⟧{作成|さくせい}⟦する→する：00392_suru⟧ (to prepare materials)\n- ⟦ファイル→ファイル：05280_fairu⟧⟦を→を：00422_wo⟧{作成|さくせい}⟦する→する：00392_suru⟧ (to create a file)\n\nSIMILAR WORDS:\n- ⟦{制作|せいさく}→制作：04320_seisaku⟧ - production (of creative works)\n- ⟦{製作|せいさく}→製作：04322_seisaku⟧ - production, manufacturing",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04320_seisaku",
+      "reading": "せいさく",
+      "headword": "{制作|せいさく}",
+      "label": "production"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04322_seisaku",
+      "reading": "せいさく",
+      "headword": "{製作|せいさく}",
+      "label": "production, manufacturing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01444_seisan",
+      "reading": "せいさん",
+      "headword": "{生産|せいさん}",
+      "label": "production, manufacturing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23809_sakuzu",
+      "reading": "さくず",
+      "headword": "{作図|さくず}",
+      "label": "drawing a figure"
+    }
+  ],
   "metadata": {
     "created": "2026-01-13T13:58:45Z",
-    "modified": "2026-06-10T17:34:32Z",
+    "modified": "2026-09-02T04:01:04Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -149,7 +179,8 @@
       "semantic": [
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   },
   "prominent_see_also": [

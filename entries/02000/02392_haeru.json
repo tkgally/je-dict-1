@@ -2,7 +2,7 @@
   "id": "02392_haeru",
   "headword": "{生|は}える",
   "reading": "はえる",
-  "part_of_speech": "ichidan verb",
+  "part_of_speech": "verb (ichidan)",
   "gloss": "to grow, to sprout",
   "conjugation": {
     "type": "ichidan",
@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "02392_haeru_ex1",
-      "japanese": "⟦{草|くさ}→草：02206_kusa⟧⟦が→が：00051_ga⟧{生|は}えている。",
+      "japanese": "⟦{草|くさ}→草：02206_kusa⟧⟦が→が：00051_ga⟧{生|は}えて⟦いる→いる：00495_iru⟧。",
       "english": "Grass is growing.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
     },
     {
       "id": "02392_haeru_ex4",
-      "japanese": "⟦{庭|にわ}→庭：02239_niwa⟧⟦に→に：00314_ni⟧⟦{雑草|ざっそう}→雑草：04996_zassou⟧⟦が→が：00051_ga⟧⟦たくさん→たくさん：00597_takusan⟧{生|は}えている。",
+      "japanese": "⟦{庭|にわ}→庭：02239_niwa⟧⟦に→に：00314_ni⟧⟦{雑草|ざっそう}→雑草：04996_zassou⟧⟦が→が：00051_ga⟧⟦たくさん→たくさん：00597_takusan⟧{生|は}えて⟦いる→いる：00495_iru⟧。",
       "english": "A lot of weeds are growing in the garden.",
       "notes": null,
       "has_audio": false,
@@ -153,7 +153,7 @@
       ]
     }
   ],
-  "notes": "{生|は}える means for something to grow or sprout naturally.\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n- Pair: ⟦{生|は}やす→生やす：02399_hayasu⟧ (transitive - to grow, let grow)\n\nWHAT CAN {生|は}える:\n- ⟦{草|くさ}→草：02206_kusa⟧⟦が→が：00051_ga⟧{生|は}える: grass grows\n- ⟦{歯|は}→歯：00778_ha⟧⟦が→が：00051_ga⟧{生|は}える: teeth come in\n- ⟦{髭|ひげ}→ひげ：01332_hige⟧⟦が→が：00051_ga⟧{生|は}える: beard grows\n- ⟦{髪|かみ}→髪：02196_kami⟧⟦が→が：00051_ga⟧{生|は}える: hair grows\n- ⟦カビ→カビ：07055_kabi⟧⟦が→が：00051_ga⟧{生|は}える: mold grows\n\nCOMMON PATTERNS:\n- 〜⟦が→が：00051_ga⟧{生|は}えている: ~ is growing (state)\n- 〜⟦が→が：00051_ga⟧{生|は}えてきた: ~ has started to grow\n\nHOMOPHONE DISTINCTION:\n- {生|は}える: to grow (plants, hair, teeth)\n- ⟦{映|は}える→映える：02393_haeru⟧: to look good, to stand out",
+  "notes": "{生|は}える means for something to grow or sprout naturally.\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n- Pair: ⟦{生|は}やす→生やす：02399_hayasu⟧ (transitive - to grow, let grow)\n\nWHAT CAN {生|は}える:\n- ⟦{草|くさ}→草：02206_kusa⟧⟦が→が：00051_ga⟧{生|は}える: grass grows\n- ⟦{歯|は}→歯：00778_ha⟧⟦が→が：00051_ga⟧{生|は}える: teeth come in\n- ⟦{髭|ひげ}→ひげ：01332_hige⟧⟦が→が：00051_ga⟧{生|は}える: beard grows\n- ⟦{髪|かみ}→髪：02196_kami⟧⟦が→が：00051_ga⟧{生|は}える: hair grows\n- ⟦カビ→カビ：07055_kabi⟧⟦が→が：00051_ga⟧{生|は}える: mold grows\n\nCOMMON PATTERNS:\n- 〜⟦が→が：00051_ga⟧{生|は}えて⟦いる→いる：00495_iru⟧: ~ is growing (state)\n- 〜⟦が→が：00051_ga⟧{生|は}えてきた: ~ has started to grow\n\nHOMOPHONE DISTINCTION:\n- {生|は}える: to grow (plants, hair, teeth)\n- ⟦{映|は}える→映える：02393_haeru⟧: to look good, to stand out",
   "cross_references": [
     {
       "type": "pair",
@@ -168,11 +168,25 @@
       "reading": "はえる",
       "headword": "{映|は}える",
       "label": "to look good, stand out (different kanji)"
+    },
+    {
+      "type": "related",
+      "target_id": "03924_shigeru",
+      "reading": "しげる",
+      "headword": "{茂|しげ}る",
+      "label": "to grow thick, to be overgrown"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22515_oishigeru",
+      "reading": "おいしげる",
+      "headword": "{生|お}い{茂|しげ}る",
+      "label": "to grow thickly"
     }
   ],
   "metadata": {
     "created": "2026-01-09T08:55:27Z",
-    "modified": "2026-05-20T16:14:24Z",
+    "modified": "2026-09-02T04:01:01Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "core",
     "tags": {

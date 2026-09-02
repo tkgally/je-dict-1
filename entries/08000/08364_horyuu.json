@@ -109,7 +109,7 @@
   "examples": [
     {
       "id": "08364_horyuu_ex1",
-      "japanese": "{回答|かいとう}は{保留|ほりゅう}させてください。",
+      "japanese": "⟦{回答|かいとう}→回答：00142_kaitou⟧⟦は→は：00079_ha⟧{保留|ほりゅう}⟦させて→する：00392_suru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please let me defer my answer.",
       "sense_numbers": [
         1
@@ -119,7 +119,7 @@
     },
     {
       "id": "08364_horyuu_ex2",
-      "japanese": "その{案件|あんけん}は{保留|ほりゅう}{中|ちゅう}です。",
+      "japanese": "⟦その→その：00993_sono⟧⟦{案件|あんけん}→案件：13109_anken⟧⟦は→は：00079_ha⟧{保留|ほりゅう}{中|ちゅう}です。",
       "english": "That matter is currently on hold.",
       "sense_numbers": [
         1
@@ -129,7 +129,7 @@
     },
     {
       "id": "08364_horyuu_ex3",
-      "japanese": "{判断|はんだん}を{保留|ほりゅう}にして、もう{少|すこ}し{情報|じょうほう}を{集|あつ}めましょう。",
+      "japanese": "⟦{判断|はんだん}→判断：03571_handan⟧⟦を→を：00422_wo⟧{保留|ほりゅう}にして、⟦もう→もう：00602_mou⟧⟦{少|すこ}し→少し：00596_sukoshi⟧⟦{情報|じょうほう}→情報：03348_jouhou⟧⟦を→を：00422_wo⟧⟦{集|あつ}めましょう→集める：01170_atsumeru⟧。",
       "english": "Let's defer the decision and gather a bit more information.",
       "sense_numbers": [
         1
@@ -139,7 +139,7 @@
     },
     {
       "id": "08364_horyuu_ex4",
-      "japanese": "{保留|ほりゅう}{音|おん}が{長|なが}くて{疲|つか}れた。",
+      "japanese": "{保留|ほりゅう}{音|おん}⟦が→が：00051_ga⟧⟦{長|なが}くて→長い：00491_nagai⟧⟦{疲|つか}れた→疲れる：00901_tsukareru⟧。",
       "english": "The hold music went on so long I got tired.",
       "sense_numbers": [
         2
@@ -149,7 +149,7 @@
     },
     {
       "id": "08364_horyuu_ex5",
-      "japanese": "{電話|でんわ}を{保留|ほりゅう}にしたまま{忘|わす}れていた。",
+      "japanese": "⟦{電話|でんわ}→電話：01471_denwa⟧⟦を→を：00422_wo⟧{保留|ほりゅう}にしたまま⟦{忘|わす}れていた→忘れる：00474_wasureru⟧。",
       "english": "I left the call on hold and forgot about it.",
       "sense_numbers": [
         2
@@ -159,7 +159,7 @@
     },
     {
       "id": "08364_horyuu_ex6",
-      "japanese": "{少々|しょうしょう}お{待|ま}ちください、{保留|ほりゅう}にいたします。",
+      "japanese": "⟦{少々|しょうしょう}→少々：03232_shoushou⟧お⟦{待|ま}ち→待つ：00469_matsu⟧⟦ください→ください：02899_kudasai⟧、{保留|ほりゅう}⟦に→に：00314_ni⟧⟦いたします→いたす：01314_itasu⟧。",
       "english": "Please wait a moment, I'll put you on hold.",
       "sense_numbers": [
         2
@@ -168,7 +168,23 @@
       "notes": null
     }
   ],
-  "notes": "FORMATION:\n{保|ほ} (preserve, keep) + {留|りゅう} (stay, remain) → keep in place\n\nVERB FORM:\n{保留|ほりゅう}する (to put on hold, to defer)\n\nRELATED COMPOUNDS:\n- {保留|ほりゅう}{中|ちゅう} (on hold, pending)\n- {保留|ほりゅう}{音|おん} (hold music)\n- {判断|はんだん}{保留|ほりゅう} (deferring judgment)\n- {留保|りゅうほ} (reservation, withholding - similar meaning)\n\nBUSINESS USAGE:\nCommonly used in business contexts when decisions need more time or information. {検討中|けんとうちゅう} (under consideration) is similar but implies active review, while {保留|ほりゅう} suggests simply waiting.",
+  "notes": "FORMS:\n{保|ほ} (preserve, keep) + {留|りゅう} (stay, remain) → keep in place\n{保留|ほりゅう}⟦する→する：00392_suru⟧ (to put on hold, to defer)\n\nCOMPOUNDS:\n- {保留|ほりゅう}{中|ちゅう} (on hold, pending)\n- {保留|ほりゅう}{音|おん} (hold music)\n- ⟦{判断|はんだん}→判断：03571_handan⟧{保留|ほりゅう} (deferring judgment)\n- {留保|りゅうほ} (reservation, withholding - similar meaning)\n\nBUSINESS USAGE:\nCommonly used in business contexts when decisions need more time or information. ⟦{検討中|けんとうちゅう}→検討中：08718_kentouchuu⟧ (under consideration) is similar but implies active review, while {保留|ほりゅう} suggests simply waiting.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14985_mitei",
+      "reading": "みてい",
+      "headword": "{未定|みてい}",
+      "label": "undecided"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25293_mishori",
+      "reading": "みしょり",
+      "headword": "{未処理|みしょり}",
+      "label": "unprocessed"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -177,6 +193,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "business",
         "communication",
@@ -185,6 +202,6 @@
       "verb_class": "suru"
     },
     "created": "2026-01-26T04:46:09Z",
-    "modified": "2026-08-12T12:50:50Z"
+    "modified": "2026-09-02T04:01:14Z"
   }
 }

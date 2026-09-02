@@ -15,41 +15,94 @@
   "examples": [
     {
       "id": "10832_kiiwaado_ex1",
-      "japanese": "キーワードで{検索|けんさく}する。",
+      "japanese": "キーワード⟦で→で：00502_de⟧⟦{検索|けんさく}→検索：04729_kensaku⟧⟦する→する：00392_suru⟧。",
       "english": "To search by keyword.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10832_kiiwaado_ex2",
-      "japanese": "この{記事|きじ}のキーワードは「{持続|じぞく}{可能|かのう}」だ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{記事|きじ}→記事：00227_kiji⟧⟦の→の：09472_no⟧キーワード⟦は→は：00079_ha⟧「⟦{持続|じぞく}{可能|かのう}→持続可能：04637_jizokukanou⟧」だ。",
       "english": "The keyword of this article is 'sustainable.'",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10832_kiiwaado_ex3",
-      "japanese": "{面接|めんせつ}では「チームワーク」をキーワードにアピールした。",
+      "japanese": "⟦{面接|めんせつ}→面接：01100_mensetsu⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧「⟦チームワーク→チームワーク：10995_chiimuwaaku⟧」⟦を→を：00422_wo⟧キーワード⟦に→に：00314_ni⟧⟦アピール→アピール：10701_apiiru⟧⟦した→する：00392_suru⟧。",
       "english": "In the interview, I used 'teamwork' as a keyword to make my appeal.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "From English \"keyword.\" Used in two main contexts: digital (search terms, SEO) and general discussion (identifying the central idea or theme of a topic).\n\nCOMMON PATTERNS:\n- キーワードで{検索|けんさく}する (to search by keyword)\n- キーワードを{入力|にゅうりょく}する (to enter a keyword)\n- キーワードは〜だ (the keyword/key concept is ~)\n- 〜をキーワードに (with ~ as the keyword/theme)\n\nCOMMON COMPOUNDS:\n- キーワード{検索|けんさく}: keyword search\n- {関連|かんれん}キーワード: related keywords\n- {検索|けんさく}キーワード: search keyword/query\n\nSIMILAR WORDS:\n- {鍵|かぎ}: key (physical or metaphorical — {鍵|かぎ}となる{言葉|ことば})\n- ポイント: point, key element (more general)\n- {要点|ようてん}: main point, gist (formal, for summaries)",
-  "cross_references": [],
+  "notes": "From English \"keyword.\" Used in two main contexts: digital (search terms, SEO) and general discussion (identifying the central idea or theme of a topic).\n\nCOMMON PATTERNS:\n- キーワード⟦で→で：00502_de⟧⟦{検索|けんさく}→検索：04729_kensaku⟧⟦する→する：00392_suru⟧ (to search by keyword)\n- キーワード⟦を→を：00422_wo⟧⟦{入力|にゅうりょく}する→入力する：28127_nyuuryokusuru⟧ (to enter a keyword)\n- キーワード⟦は→は：00079_ha⟧〜だ (the keyword/key concept is ~)\n- 〜⟦を→を：00422_wo⟧キーワード⟦に→に：00314_ni⟧ (with ~ as the keyword/theme)\n\nCOMPOUNDS:\n- キーワード⟦{検索|けんさく}→検索：04729_kensaku⟧: keyword search\n- ⟦{関連|かんれん}→関連：00177_kanren⟧キーワード: related keywords\n- ⟦{検索|けんさく}→検索：04729_kensaku⟧キーワード: search keyword/query\n\nSIMILAR WORDS:\n- ⟦{鍵|かぎ}→鍵：02189_kagi⟧: key (physical or metaphorical — ⟦{鍵|かぎ}→鍵：02189_kagi⟧⟦と→と：00512_to⟧⟦なる→なる：01970_naru⟧⟦{言葉|ことば}→言葉：02880_kotoba⟧)\n- ⟦ポイント→ポイント：11283_pointo⟧: point, key element (more general)\n- ⟦{要点|ようてん}→要点：01668_youten⟧: main point, gist (formal, for summaries)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02189_kagi",
+      "reading": "かぎ",
+      "headword": "{鍵|かぎ}",
+      "label": "key (physical or metaphorical"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11283_pointo",
+      "reading": "ぽいんと",
+      "headword": "ポイント",
+      "label": "point, key element"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01668_youten",
+      "reading": "ようてん",
+      "headword": "{要点|ようてん}",
+      "label": "main point, gist"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26277_kagigo",
+      "reading": "かぎご",
+      "headword": "{鍵語|かぎご}",
+      "label": "keyword"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29322_juuyougo",
+      "reading": "じゅうようご",
+      "headword": "{重要語|じゅうようご}",
+      "label": "key word"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30063_sakuingo",
+      "reading": "さくいんご",
+      "headword": "{索引語|さくいんご}",
+      "label": "index term"
+    }
+  ],
   "metadata": {
     "created": "2026-02-10T08:34:26Z",
-    "modified": "2026-03-31T01:51:57Z",
+    "modified": "2026-09-02T04:01:22Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

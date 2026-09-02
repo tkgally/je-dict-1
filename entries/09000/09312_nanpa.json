@@ -2,7 +2,7 @@
   "id": "09312_nanpa",
   "headword": "ナンパ",
   "reading": "なんぱ",
-  "part_of_speech": "noun / suru verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "to hit on; to pick up; flirting",
   "conjugation": {
     "type": "suru",
@@ -109,7 +109,7 @@
   "examples": [
     {
       "id": "09312_nanpa_ex1",
-      "japanese": "ナンパされた。",
+      "japanese": "ナンパ⟦された→する：00392_suru⟧。",
       "english": "I got hit on.",
       "has_audio": false,
       "sense_numbers": [
@@ -118,7 +118,7 @@
     },
     {
       "id": "09312_nanpa_ex2",
-      "japanese": "{渋谷|しぶや}でナンパする。",
+      "japanese": "⟦{渋谷|しぶや}→渋谷：30632_shibuya⟧⟦で→で：00502_de⟧ナンパ⟦する→する：00392_suru⟧。",
       "english": "To pick up people in Shibuya.",
       "has_audio": false,
       "sense_numbers": [
@@ -127,7 +127,7 @@
     },
     {
       "id": "09312_nanpa_ex3",
-      "japanese": "ナンパには{気|き}をつけて。",
+      "japanese": "ナンパ⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{気|き}をつけて。",
       "english": "Be careful of people trying to pick you up.",
       "has_audio": false,
       "sense_numbers": [
@@ -136,7 +136,7 @@
     },
     {
       "id": "09312_nanpa_ex4",
-      "japanese": "{彼|かれ}はナンパだ。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧ナンパだ。",
       "english": "He's a flirt.",
       "has_audio": false,
       "sense_numbers": [
@@ -145,7 +145,7 @@
     },
     {
       "id": "09312_nanpa_ex5",
-      "japanese": "ナンパ{師|し}にはなりたくない。",
+      "japanese": "ナンパ{師|し}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦なりたくない→なる：01970_naru⟧。",
       "english": "I don't want to become a pickup artist.",
       "has_audio": false,
       "sense_numbers": [
@@ -154,7 +154,7 @@
     },
     {
       "id": "09312_nanpa_ex6",
-      "japanese": "ナンパな{男|おとこ}は{信用|しんよう}できない。",
+      "japanese": "ナンパな⟦{男|おとこ}→男：00561_otoko⟧⟦は→は：00079_ha⟧⟦{信用|しんよう}できない→信用する：25371_shinyousuru⟧。",
       "english": "I can't trust guys who are always hitting on people.",
       "has_audio": false,
       "sense_numbers": [
@@ -162,10 +162,19 @@
       ]
     }
   ],
-  "notes": "ナンパ refers to the act of approaching strangers in public places (streets, bars, etc.) to try to start a romantic or sexual interaction. Also describes a person who frequently does this.\n\nETYMOLOGY:\nFrom {軟派|なんぱ}, originally meaning a \"soft faction\" in politics, later applied to frivolous or romantic pursuits.\n\nREGISTER:\nCasual/colloquial. Often carries negative connotations — being called ナンパ{師|し} is not a compliment. The passive form ナンパされる is very common in conversation.\n\nCOMMON PATTERNS:\n- ナンパする: to hit on someone\n- ナンパされる: to get hit on\n- ナンパ{師|し}: pickup artist\n- {逆|ぎゃく}ナン: when women approach men (reverse nanpa)\n- ナンパな{男|おとこ}: a flirtatious/frivolous guy",
+  "notes": "ナンパ refers to the act of approaching strangers in public places (streets, bars, etc.) to try to start a romantic or sexual interaction. Also describes a person who frequently does this.\n\nETYMOLOGY:\nFrom {軟派|なんぱ}, originally meaning a \"soft faction\" in politics, later applied to frivolous or romantic pursuits.\n\nREGISTER:\nCasual/colloquial. Often carries negative connotations — being called ナンパ{師|し} is not a compliment. The passive form ナンパ⟦される→する：00392_suru⟧ is very common in conversation.\n\nCOMMON PATTERNS:\n- ナンパ⟦する→する：00392_suru⟧: to hit on someone\n- ナンパ⟦される→する：00392_suru⟧: to get hit on\n- ナンパ{師|し}: pickup artist\n- ⟦{逆|ぎゃく}ナン→逆ナン：23648_gyakunan⟧: when women approach men (reverse nanpa)\n- ナンパな⟦{男|おとこ}→男：00561_otoko⟧: a flirtatious/frivolous guy",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23648_gyakunan",
+      "reading": "ぎゃくなん",
+      "headword": "{逆|ぎゃく}ナン",
+      "label": "a woman picking up a man (for a date or hookup)"
+    }
+  ],
   "metadata": {
     "created": "2026-02-01T07:11:10Z",
-    "modified": "2026-08-12T21:25:53Z",
+    "modified": "2026-09-02T04:01:18Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
@@ -181,7 +190,8 @@
         "society",
         "communication"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

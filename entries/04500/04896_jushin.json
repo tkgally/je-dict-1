@@ -2,7 +2,7 @@
   "id": "04896_jushin",
   "headword": "{受信|じゅしん}",
   "reading": "じゅしん",
-  "part_of_speech": "noun, suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "reception",
   "conjugation": {
     "type": "suru",
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "{受信|じゅしん} means receiving signals, messages, or broadcasts. Composed of {受|じゅ} (receive) + {信|しん} (message/signal).\n\nCOMMON EXPRESSIONS:\n- {受信|じゅしん}⟦する→する：00392_suru⟧: to receive\n- {受信|じゅしん}⟦ボックス→ボックス：30522_bokkusu⟧/{受信|じゅしん}⟦トレイ→トレイ：noentry⟧: inbox\n- {受信|じゅしん}⟦{拒否|きょひ}→拒否：08242_kyohi⟧: blocking (messages), rejection of reception\n- ⟦{電波|でんぱ}→電波：04070_denpa⟧{受信|じゅしん}: signal reception\n\nTECHNICAL TERMS:\n- {受信|じゅしん}⟦{機|き}→〜機：09843_ki⟧: receiver (device)\n- {受信|じゅしん}⟦{感度|かんど}→感度：17860_kando⟧: reception sensitivity\n- {受信|じゅしん}⟦{状態|じょうたい}→状態：03345_joutai⟧: reception status/quality\n- {受信|じゅしん}⟦{料|りょう}→料：28172_ryou⟧: reception fee (e.g., NHK TV fee)\n\nOPPOSITE:\n- ⟦{発信|はっしん}→発信：04895_hasshin⟧: transmission, sending",
+  "notes": "{受信|じゅしん} means receiving signals, messages, or broadcasts. Composed of {受|じゅ} (receive) + {信|しん} (message/signal).\n\nCOMMON EXPRESSIONS:\n- {受信|じゅしん}⟦する→する：00392_suru⟧: to receive\n- {受信|じゅしん}⟦ボックス→ボックス：30522_bokkusu⟧/{受信|じゅしん}⟦トレイ→トレイ：noentry⟧: inbox\n- {受信|じゅしん}⟦{拒否|きょひ}→拒否：08242_kyohi⟧: blocking (messages), rejection of reception\n- ⟦{電波|でんぱ}→電波：04070_denpa⟧{受信|じゅしん}: signal reception\n\nTECHNICAL TERMS:\n- {受信|じゅしん}⟦{機|き}→〜機：09843_ki⟧: receiver (device)\n- {受信|じゅしん}⟦{感度|かんど}→感度：17860_kando⟧: reception sensitivity\n- {受信|じゅしん}⟦{状態|じょうたい}→状態：03345_joutai⟧: reception status/quality\n- {受信|じゅしん}⟦{料|りょう}→料：28172_ryou⟧: reception fee (e.g., NHK TV fee)\n\nSIMILAR WORDS:\n- ⟦{発信|はっしん}→発信：04895_hasshin⟧: transmission, sending",
   "cross_references": [
     {
       "type": "antonym",
@@ -148,11 +148,18 @@
       "reading": "そうしん",
       "headword": "{送信|そうしん}",
       "label": "sending"
+    },
+    {
+      "type": "related",
+      "target_id": "01377_fuakkusu",
+      "reading": "ふあっくす",
+      "headword": "ファックス",
+      "label": "fax"
     }
   ],
   "metadata": {
     "created": "2026-01-16T00:35:11Z",
-    "modified": "2026-08-16T03:20:35Z",
+    "modified": "2026-09-02T04:00:52Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -165,7 +172,8 @@
       "semantic": [
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   },
   "prominent_see_also": [

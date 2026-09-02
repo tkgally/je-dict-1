@@ -3,7 +3,7 @@
   "headword": "{待|ま}ち{伏|ぶ}せ",
   "reading": "まちぶせ",
   "romaji": "machibuse",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "ambush; lying in wait",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "23116_machibuse_ex1",
-      "japanese": "{敵|てき}に{待|ま}ち{伏|ぶ}せされた。",
+      "japanese": "⟦{敵|てき}→敵：03546_teki⟧⟦に→に：00314_ni⟧{待|ま}ち{伏|ぶ}せ⟦された→する：00392_suru⟧。",
       "english": "We were ambushed by the enemy.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "23116_machibuse_ex2",
-      "japanese": "{警察|けいさつ}が{犯人|はんにん}を{待|ま}ち{伏|ぶ}せした。",
+      "japanese": "⟦{警察|けいさつ}→警察：01393_keisatsu⟧⟦が→が：00051_ga⟧⟦{犯人|はんにん}→犯人：03572_hannin⟧⟦を→を：00422_wo⟧{待|ま}ち{伏|ぶ}せ⟦した→する：00392_suru⟧。",
       "english": "The police lay in wait for the criminal.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "23116_machibuse_ex3",
-      "japanese": "{帰|かえ}り{道|みち}で{待|ま}ち{伏|ぶ}せしていた{友人|ゆうじん}に{驚|おどろ}かされた。",
+      "japanese": "⟦{帰|かえ}り{道|みち}→帰り道：12447_kaerimichi⟧⟦で→で：00502_de⟧{待|ま}ち{伏|ぶ}せ⟦していた→する：00392_suru⟧⟦{友人|ゆうじん}→友人：03649_yuujin⟧⟦に→に：00314_ni⟧⟦{驚|おどろ}かされた→驚かす：01918_odorokasu⟧。",
       "english": "I was startled by a friend who had been lying in wait for me on the way home.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {待|ま}ち (waiting) and {伏|ぶ}せ (lying face down, hiding). Literally \"waiting while hiding.\" Can be used as a noun or with する to form a verb ({待|ま}ち{伏|ぶ}せする).\n\nCOMMON COLLOCATIONS:\n- {待|ま}ち{伏|ぶ}せする: to ambush, to lie in wait\n- {待|ま}ち{伏|ぶ}せに{遭|あ}う: to be ambushed\n- {待|ま}ち{伏|ぶ}せ{攻撃|こうげき}: ambush attack\n\nSIMILAR WORDS:\n- {奇襲|きしゅう}: surprise attack — a military term emphasizing the sudden, unexpected nature of the attack\n- {伏兵|ふくへい}: hidden troops, dark horse — soldiers lying in ambush, or figuratively an unexpected competitor\n- {不意打|ふいう}ち: surprise attack, catching off guard — emphasis on the target being unprepared",
+  "notes": "Composed of ⟦{待|ま}ち→待つ：00469_matsu⟧ (waiting) and {伏|ぶ}せ (lying face down, hiding). Literally \"waiting while hiding.\" Can be used as a noun or with ⟦する→する：00392_suru⟧ to form a verb ({待|ま}ち{伏|ぶ}せ⟦する→する：00392_suru⟧).\n\nCOMMON COLLOCATIONS:\n- {待|ま}ち{伏|ぶ}せ⟦する→する：00392_suru⟧: to ambush, to lie in wait\n- {待|ま}ち{伏|ぶ}せ⟦に→に：00314_ni⟧⟦{遭|あ}う→遭う：09500_au⟧: to be ambushed\n- {待|ま}ち{伏|ぶ}せ⟦{攻撃|こうげき}→攻撃：02748_kougeki⟧: ambush attack\n\nSIMILAR WORDS:\n- ⟦{奇襲|きしゅう}→奇襲：12193_kishuu⟧: surprise attack — a military term emphasizing the sudden, unexpected nature of the attack\n- ⟦{伏兵|ふくへい}→伏兵：21099_fukuhei⟧: hidden troops, dark horse — soldiers lying in ambush, or figuratively an unexpected competitor\n- ⟦{不意打|ふいう}ち→不意打ち：16416_fuiuchi⟧: surprise attack, catching off guard — emphasis on the target being unprepared",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12193_kishuu",
+      "reading": "きしゅう",
+      "headword": "{奇襲|きしゅう}",
+      "label": "surprise attack"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21099_fukuhei",
+      "reading": "ふくへい",
+      "headword": "{伏兵|ふくへい}",
+      "label": "hidden troops, dark horse"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16416_fuiuchi",
+      "reading": "ふいうち",
+      "headword": "{不意打|ふいう}ち",
+      "label": "surprise attack, catching off guard"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,7 +85,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-08T19:21:00Z",
-    "modified": "2026-07-31T18:20:34Z"
+    "modified": "2026-09-02T04:02:11Z"
   },
   "conjugation": {
     "type": "suru",

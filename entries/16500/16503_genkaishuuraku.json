@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "16503_genkaishuuraku_ex1",
-      "japanese": "この{地域|ちいき}には{限界集落|げんかいしゅうらく}が{増|ふ}えている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{地域|ちいき}→地域：01461_chiiki⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{限界集落|げんかいしゅうらく}⟦が→が：00051_ga⟧⟦{増|ふ}えている→増える：01183_fueru⟧。",
       "english": "The number of dying villages is increasing in this area.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "16503_genkaishuuraku_ex2",
-      "japanese": "{限界集落|げんかいしゅうらく}の{再生|さいせい}に{取|と}り{組|く}む{若者|わかもの}がいる。",
+      "japanese": "{限界集落|げんかいしゅうらく}⟦の→の：09472_no⟧⟦{再生|さいせい}→再生：04442_saisei⟧⟦に→に：00314_ni⟧⟦{取|と}り{組|く}む→取り組む：04225_torikumu⟧⟦{若者|わかもの}→若者：03037_wakamono⟧⟦が→が：00051_ga⟧⟦いる→いる：00495_iru⟧。",
       "english": "There are young people working to revitalize dying villages.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "16503_genkaishuuraku_ex3",
-      "japanese": "{人口|じんこう}{減少|げんしょう}と{高齢化|こうれいか}が{進|すす}み、{全国|ぜんこく}で{限界集落|げんかいしゅうらく}の{数|かず}は{年々|ねんねん}{増加|ぞうか}している。",
+      "japanese": "⟦{人口|じんこう}{減少|げんしょう}→人口減少：24385_jinkougenshou⟧⟦と→と：00512_to⟧⟦{高齢化|こうれいか}→高齢化：04808_koureika⟧⟦が→が：00051_ga⟧⟦{進|すす}み→進む：01225_susumu⟧、⟦{全国|ぜんこく}→全国：03311_zenkoku⟧⟦で→で：00502_de⟧{限界集落|げんかいしゅうらく}⟦の→の：09472_no⟧⟦{数|かず}→数：00204_kazu⟧⟦は→は：00079_ha⟧⟦{年々|ねんねん}→年々：10417_nennen⟧⟦{増加|ぞうか}→増加：03329_zouka⟧⟦している→する：00392_suru⟧。",
       "english": "With declining population and advancing aging, the number of marginal villages across Japan is increasing year by year.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "CULTURE:\nA term coined by sociologist Ohno Akira in 1991. Reflects a major social issue in Japan where rural depopulation has left many mountain and island communities on the verge of extinction. Government programs exist to support these communities through migration incentives and remote work promotion.\n\nCOMMON COLLOCATIONS:\n- {限界集落|げんかいしゅうらく}の{再生|さいせい} (revitalization of a marginal village)\n- {限界集落|げんかいしゅうらく}の{問題|もんだい} (the problem of dying villages)\n- {限界集落|げんかいしゅうらく}に{移住|いじゅう}する (to relocate to a marginal village)",
+  "notes": "CULTURAL NOTE:\nA term coined by sociologist Ohno Akira in 1991. Reflects a major social issue in Japan where rural depopulation has left many mountain and island communities on the verge of extinction. Government programs exist to support these communities through migration incentives and remote work promotion.\n\nCOMMON COLLOCATIONS:\n- {限界集落|げんかいしゅうらく}⟦の→の：09472_no⟧⟦{再生|さいせい}→再生：04442_saisei⟧ (revitalization of a marginal village)\n- {限界集落|げんかいしゅうらく}⟦の→の：09472_no⟧⟦{問題|もんだい}→問題：00797_mondai⟧ (the problem of dying villages)\n- {限界集落|げんかいしゅうらく}⟦に→に：00314_ni⟧⟦{移住|いじゅう}する→移住する：17190_ijuusuru⟧ (to relocate to a marginal village)",
   "cross_references": [
     {
       "type": "related",
@@ -52,11 +52,25 @@
       "reading": "かそ",
       "headword": "{過疎|かそ}",
       "label": "depopulation"
+    },
+    {
+      "type": "related",
+      "target_id": "05242_kasoka",
+      "reading": "かそか",
+      "headword": "{過疎化|かそか}",
+      "label": "depopulation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23021_kasochi",
+      "reading": "かそち",
+      "headword": "{過疎地|かそち}",
+      "label": "depopulated area"
     }
   ],
   "metadata": {
     "created": "2026-03-13T03:49:38Z",
-    "modified": "2026-07-20T00:31:17Z",
+    "modified": "2026-09-02T04:01:45Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

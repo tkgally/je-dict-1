@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "18292_kurozatou_ex1",
-      "japanese": "{沖縄|おきなわ}の{黒砂糖|くろざとう}はおいしい。",
+      "japanese": "⟦{沖縄|おきなわ}→沖縄：11009_okinawa⟧⟦の→の：09472_no⟧{黒砂糖|くろざとう}⟦は→は：00079_ha⟧おいしい。",
       "english": "Okinawan brown sugar is delicious.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "18292_kurozatou_ex2",
-      "japanese": "{黒砂糖|くろざとう}を{使|つか}ったお{菓子|かし}が{人気|にんき}だ。",
+      "japanese": "{黒砂糖|くろざとう}⟦を→を：00422_wo⟧⟦{使|つか}った→使う：00473_tsukau⟧⟦お{菓子|かし}→お菓子：02852_okashi⟧⟦が→が：00051_ga⟧⟦{人気|にんき}→人気：01488_ninki⟧だ。",
       "english": "Sweets made with brown sugar are popular.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "18292_kurozatou_ex3",
-      "japanese": "コーヒーに{白砂糖|しろざとう}ではなく{黒砂糖|くろざとう}を{入|い}れると、コクのある{味|あじ}になる。",
+      "japanese": "⟦コーヒー→コーヒー：00789_koohii⟧⟦に→に：00314_ni⟧⟦{白砂糖|しろざとう}→白砂糖：26404_shirozatou⟧⟦ではなく→ではなく：09578_dehanaku⟧{黒砂糖|くろざとう}⟦を→を：00422_wo⟧⟦{入|い}れる→入れる：01098_ireru⟧⟦と→と：00512_to⟧、⟦コク→コク：20672_koku⟧⟦の→の：09472_no⟧⟦ある→ある：00006_aru⟧⟦{味|あじ}→味：00826_aji⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧。",
       "english": "If you put brown sugar instead of white sugar in your coffee, it gives it a richer flavor.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA compound of {黒|くろ} (black/dark) + {砂糖|さとう} (sugar). Also shortened to {黒糖|こくとう}. Okinawan {黒砂糖|くろざとう} is a well-known regional product and is used in many traditional sweets and drinks.\n\nCOMMON COLLOCATIONS:\n- {黒砂糖|くろざとう}を{使|つか}う (to use brown sugar)\n- {沖縄|おきなわ}{産|さん}の{黒砂糖|くろざとう} (Okinawan brown sugar)\n- {黒砂糖|くろざとう}{味|あじ} (brown sugar flavor)\n\nSIMILAR WORDS:\n- {白砂糖|しろざとう}: white sugar — refined sugar\n- {黒糖|こくとう}: brown sugar — a shorter, more common alternative name\n- {角砂糖|かくざとう}: sugar cube — a different form of sugar",
+  "notes": "USAGE:\nA compound of ⟦{黒|くろ}→黒：02205_kuro⟧ (black/dark) + ⟦{砂糖|さとう}→砂糖：00884_satou⟧ (sugar). Also shortened to ⟦{黒糖|こくとう}→黒糖：19618_kokutou⟧. Okinawan {黒砂糖|くろざとう} is a well-known regional product and is used in many traditional sweets and drinks.\n\nCOMMON COLLOCATIONS:\n- {黒砂糖|くろざとう}⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧ (to use brown sugar)\n- ⟦{沖縄|おきなわ}→沖縄：11009_okinawa⟧{産|さん}⟦の→の：09472_no⟧{黒砂糖|くろざとう} (Okinawan brown sugar)\n- {黒砂糖|くろざとう}⟦{味|あじ}→味：00826_aji⟧ (brown sugar flavor)\n\nSIMILAR WORDS:\n- ⟦{白砂糖|しろざとう}→白砂糖：26404_shirozatou⟧: white sugar — refined sugar\n- ⟦{黒糖|こくとう}→黒糖：19618_kokutou⟧: brown sugar — a shorter, more common alternative name\n- ⟦{角砂糖|かくざとう}→角砂糖：18293_kakuzatou⟧: sugar cube — a different form of sugar",
   "cross_references": [
     {
       "type": "related",
@@ -52,11 +52,39 @@
       "reading": "かくざとう",
       "headword": "{角砂糖|かくざとう}",
       "label": "sugar cube"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26404_shirozatou",
+      "reading": "しろざとう",
+      "headword": "{白砂糖|しろざとう}",
+      "label": "white sugar"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22930_koorizatou",
+      "reading": "こおりざとう",
+      "headword": "{氷砂糖|こおりざとう}",
+      "label": "rock sugar"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24332_kuromitsu",
+      "reading": "くろみつ",
+      "headword": "{黒蜜|くろみつ}",
+      "label": "black sugar syrup"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29769_tensaitou",
+      "reading": "てんさいとう",
+      "headword": "甜菜糖",
+      "label": "beet sugar"
     }
   ],
   "metadata": {
     "created": "2026-03-21T01:18:15Z",
-    "modified": "2026-05-08T08:12:00Z",
+    "modified": "2026-09-02T04:01:51Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

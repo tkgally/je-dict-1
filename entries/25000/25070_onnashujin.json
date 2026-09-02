@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25070_onnashujin_ex1",
-      "japanese": "{女主人|おんなしゅじん}が{出迎|でむか}えてくれた。",
+      "japanese": "{女主人|おんなしゅじん}⟦が→が：00051_ga⟧⟦{出迎|でむか}えて→出迎える：04633_demukaeru⟧⟦くれた→くれる：00724_kureru⟧。",
       "english": "The mistress of the house came out to greet us.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25070_onnashujin_ex2",
-      "japanese": "その{旅館|りょかん}の{女主人|おんなしゅじん}はとても{親切|しんせつ}だった。",
+      "japanese": "⟦その→その：00993_sono⟧⟦{旅館|りょかん}→旅館：01049_ryokan⟧⟦の→の：09472_no⟧{女主人|おんなしゅじん}⟦は→は：00079_ha⟧⟦とても→とても：00593_totemo⟧⟦{親切|しんせつ}→親切：01144_shinsetsu⟧だった。",
       "english": "The female proprietor of the inn was very kind.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25070_onnashujin_ex3",
-      "japanese": "{女主人|おんなしゅじん}が{自|みずか}ら{料理|りょうり}を{運|はこ}んできて、{一品|いっぴん}ずつ{丁寧|ていねい}に{説明|せつめい}してくれた。",
+      "japanese": "{女主人|おんなしゅじん}⟦が→が：00051_ga⟧⟦{自|みずか}ら→自ら：00287_mizukara⟧⟦{料理|りょうり}→料理：01523_ryouri⟧⟦を→を：00422_wo⟧⟦{運|はこ}んで→運ぶ：01088_hakobu⟧きて、⟦{一品|いっぴん}→一品：08919_ippin⟧⟦ずつ→〜ずつ：03092_zutsu⟧⟦{丁寧|ていねい}→丁寧：00896_teinei⟧⟦に→に：00314_ni⟧⟦{説明|せつめい}して→説明する：05639_setsumeisuru⟧⟦くれた→くれる：00724_kureru⟧。",
       "english": "The female proprietor personally brought the dishes and explained each one carefully.",
       "sense_numbers": [
         1
@@ -44,20 +44,37 @@
       "notes": null
     }
   ],
-  "notes": "Used when specifically identifying the owner or head of an establishment or household as a woman. Common in literary contexts and when describing traditional Japanese businesses like {旅館|りょかん} (Japanese inns) or {料亭|りょうてい} (high-end Japanese restaurants).\n\nCOMMON COLLOCATIONS:\n- {旅館|りょかん}の{女主人|おんなしゅじん}: the female proprietor of an inn\n- {店|みせ}の{女主人|おんなしゅじん}: the female shop owner\n- {女主人|おんなしゅじん}が{切|き}り{盛|も}りする: for the female proprietor to run (a business)\n\nSIMILAR WORDS:\n- {女将|おかみ}: proprietress of a traditional inn or restaurant — more specific to the hospitality industry and carries connotations of traditional Japanese service\n- {主人|しゅじん}: master, proprietor — typically refers to a male owner or husband\n- {亭主|ていしゅ}: husband, master of the house — informal, can also mean male innkeeper",
+  "notes": "Used when specifically identifying the owner or head of an establishment or household as a woman. Common in literary contexts and when describing traditional Japanese businesses like ⟦{旅館|りょかん}→旅館：01049_ryokan⟧ (Japanese inns) or ⟦{料亭|りょうてい}→料亭：21710_ryoutei⟧ (high-end Japanese restaurants).\n\nCOMMON COLLOCATIONS:\n- ⟦{旅館|りょかん}→旅館：01049_ryokan⟧⟦の→の：09472_no⟧{女主人|おんなしゅじん}: the female proprietor of an inn\n- ⟦{店|みせ}→店：00497_mise⟧⟦の→の：09472_no⟧{女主人|おんなしゅじん}: the female shop owner\n- {女主人|おんなしゅじん}⟦が→が：00051_ga⟧⟦{切|き}り{盛|も}り→切り盛り：18640_kirimori⟧⟦する→する：00392_suru⟧: for the female proprietor to run (a business)\n\nSIMILAR WORDS:\n- ⟦{女将|おかみ}→女将：12210_okami⟧: proprietress of a traditional inn or restaurant — more specific to the hospitality industry and carries connotations of traditional Japanese service\n- ⟦{主人|しゅじん}→主人：00987_shujin⟧: master, proprietor — typically refers to a male owner or husband\n- ⟦{亭主|ていしゅ}→亭主：11470_teishu⟧: husband, master of the house — informal, can also mean male innkeeper",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12210_okami",
+      "reading": "おかみ",
+      "headword": "{女将|おかみ}",
+      "label": "proprietress of a traditional inn…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11470_teishu",
+      "reading": "ていしゅ",
+      "headword": "{亭主|ていしゅ}",
+      "label": "husband, master of the house"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "person",
         "business"
       ]
     },
     "created": "2026-04-22T13:17:34Z",
-    "modified": "2026-08-03T21:48:00Z"
+    "modified": "2026-09-02T04:02:21Z"
   }
 }

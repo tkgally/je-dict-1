@@ -15,40 +15,65 @@
   "examples": [
     {
       "id": "10456_remon_ex1",
-      "japanese": "レモンを{絞|しぼ}る。",
+      "japanese": "レモン⟦を→を：00422_wo⟧⟦{絞|しぼ}る→絞る：03926_shiboru⟧。",
       "english": "To squeeze a lemon.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10456_remon_ex2",
-      "japanese": "{紅茶|こうちゃ}にレモンを{入|い}れた。",
+      "japanese": "⟦{紅茶|こうちゃ}→紅茶：02878_koucha⟧⟦に→に：00314_ni⟧レモン⟦を→を：00422_wo⟧⟦{入|い}れた→入れる：01098_ireru⟧。",
       "english": "I put lemon in my tea.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10456_remon_ex3",
-      "japanese": "{揚|あ}げ{物|もの}にレモンをかけると、さっぱりして{美味|おい}しい。",
+      "japanese": "⟦{揚|あ}げ{物|もの}→揚げ物：04975_agemono⟧⟦に→に：00314_ni⟧レモン⟦を→を：00422_wo⟧⟦かける→かける：00854_kakeru⟧⟦と→と：00512_to⟧、⟦さっぱりして→さっぱりする：26802_sapparisuru⟧⟦{美味|おい}しい→美味しい：00740_oishii⟧。",
       "english": "Squeezing lemon over fried food makes it taste refreshing and delicious.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "レモン is a loanword from English \"lemon,\" referring to both the fruit and the flavor.\n\nCOMMON COLLOCATIONS:\n- レモンを{絞|しぼ}る: to squeeze a lemon\n- レモン{汁|じる}: lemon juice\n- レモンティー: lemon tea\n- レモンサワー: lemon sour (a hugely popular Japanese highball-style drink)\n- {揚|あ}げ{物|もの}にレモンをかける: to squeeze lemon over fried food\n\nCOMMON COMPOUNDS:\n- レモン{味|あじ}: lemon flavor\n- レモン{色|いろ}: lemon yellow\n- {国産|こくさん}レモン: domestically grown lemon\n\nCULTURE:\nSqueezing lemon over shared {唐揚|からあ}げ (fried chicken) without asking first is a famously controversial social topic in Japan — some people love it and some hate it. レモンサワー has become one of the most popular alcoholic drinks in Japan.",
-  "cross_references": [],
+  "notes": "レモン is a loanword from English \"lemon,\" referring to both the fruit and the flavor.\n\nCOMMON COLLOCATIONS:\n- レモン⟦を→を：00422_wo⟧⟦{絞|しぼ}る→絞る：03926_shiboru⟧: to squeeze a lemon\n- レモン{汁|じる}: lemon juice\n- レモンティー: lemon tea\n- レモンサワー: lemon sour (a hugely popular Japanese highball-style drink)\n- ⟦{揚|あ}げ{物|もの}→揚げ物：04975_agemono⟧⟦に→に：00314_ni⟧レモン⟦を→を：00422_wo⟧⟦かける→かける：00854_kakeru⟧: to squeeze lemon over fried food\n\nCOMPOUNDS:\n- レモン⟦{味|あじ}→味：00826_aji⟧: lemon flavor\n- レモン⟦{色|いろ}→色：00849_iro⟧: lemon yellow\n- ⟦{国産|こくさん}→国産：12017_kokusan⟧レモン: domestically grown lemon\n\nCULTURAL NOTE:\nSqueezing lemon over shared ⟦{唐揚|からあ}げ→唐揚げ：04949_karaage⟧ (fried chicken) without asking first is a famously controversial social topic in Japan — some people love it and some hate it. レモンサワー has become one of the most popular alcoholic drinks in Japan.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20306_kabosu",
+      "reading": "かぼす",
+      "headword": "かぼす",
+      "label": "kabosu"
+    },
+    {
+      "type": "related",
+      "target_id": "20789_gureepufuruutsu",
+      "reading": "ぐれーぷふるーつ",
+      "headword": "グレープフルーツ",
+      "label": "grapefruit"
+    }
+  ],
   "metadata": {
     "created": "2026-02-07T11:20:16Z",
-    "modified": "2026-03-25T04:08:57Z",
+    "modified": "2026-09-02T04:01:21Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food"]
+      "semantic": [
+        "food"
+      ]
     }
   }
 }

@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "09601_dokugaku_ex1",
-      "japanese": "{日本語|にほんご}を{独学|どくがく}で{学|まな}んだ。",
+      "japanese": "⟦{日本語|にほんご}→日本語：00614_nihongo⟧⟦を→を：00422_wo⟧{独学|どくがく}⟦で→で：00502_de⟧⟦{学|まな}んだ→学ぶ：01987_manabu⟧。",
       "english": "I learned Japanese through self-study.",
       "has_audio": false,
       "sense_numbers": [
@@ -114,7 +114,7 @@
     },
     {
       "id": "09601_dokugaku_ex2",
-      "japanese": "{独学|どくがく}でプログラミングを{身|み}につけた。",
+      "japanese": "{独学|どくがく}⟦で→で：00502_de⟧⟦プログラミング→プログラミング：06099_puroguramingu⟧⟦を→を：00422_wo⟧⟦{身|み}→身：01764_mi⟧につけた。",
       "english": "I acquired programming skills through self-teaching.",
       "has_audio": false,
       "sense_numbers": [
@@ -124,7 +124,7 @@
     },
     {
       "id": "09601_dokugaku_ex3",
-      "japanese": "{独学|どくがく}には{強|つよ}い{意志|いし}と{継続力|けいぞくりょく}が{必要|ひつよう}だ。",
+      "japanese": "{独学|どくがく}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{強|つよ}い→強い：00820_tsuyoi⟧⟦{意志|いし}→意志：01712_ishi⟧⟦と→と：00512_to⟧{継続力|けいぞくりょく}⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧だ。",
       "english": "Self-study requires strong willpower and persistence.",
       "has_audio": false,
       "sense_numbers": [
@@ -133,11 +133,26 @@
       "notes": null
     }
   ],
-  "notes": "{独学|どくがく} refers to studying independently without a teacher or formal instruction.\n\nCOMMON PATTERNS:\n- {独学|どくがく}で〜を{学|まな}ぶ: to learn ~ through self-study\n- {独学|どくがく}で{身|み}につける: to acquire through self-teaching\n- {独学|どくがく}する: to self-study (as a verb with する)\n\nUSAGE NOTE:\nOften used to describe learning languages, instruments, programming, or other skills outside of formal education. Can imply dedication and effort.",
-  "cross_references": [],
+  "notes": "{独学|どくがく} refers to studying independently without a teacher or formal instruction.\n\nCOMMON PATTERNS:\n- {独学|どくがく}で〜⟦を→を：00422_wo⟧⟦{学|まな}ぶ→学ぶ：01987_manabu⟧: to learn ~ through self-study\n- {独学|どくがく}⟦で→で：00502_de⟧⟦{身|み}につける→身につける：03158_minitsukeru⟧: to acquire through self-teaching\n- {独学|どくがく}⟦する→する：00392_suru⟧: to self-study (as a verb with ⟦する→する：00392_suru⟧)\n\nUSAGE:\nOften used to describe learning languages, instruments, programming, or other skills outside of formal education. Can imply dedication and effort.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21560_dokushuu",
+      "reading": "どくしゅう",
+      "headword": "{独習|どくしゅう}",
+      "label": "self-study"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26517_jitakugakushuu",
+      "reading": "じたくがくしゅう",
+      "headword": "{自宅|じたく}{学習|がくしゅう}",
+      "label": "home study"
+    }
+  ],
   "metadata": {
     "created": "2026-02-03T02:32:39Z",
-    "modified": "2026-03-29T03:05:07Z",
+    "modified": "2026-09-02T04:01:18Z",
     "ai_model": "opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "27535_chari_ex1",
-      "japanese": "チャリで{駅|えき}まで{行|い}く。",
+      "japanese": "チャリ⟦で→で：00502_de⟧⟦{駅|えき}→駅：02180_eki⟧⟦まで→まで：00490_made⟧⟦{行|い}く→行く：00119_iku⟧。",
       "english": "I'll bike to the station.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27535_chari_ex2",
-      "japanese": "{雨|あめ}が{降|ふ}ってきたから、チャリは{置|お}いて{歩|ある}いて{帰|かえ}った。",
+      "japanese": "⟦{雨|あめ}→雨：00583_ame⟧⟦が→が：00051_ga⟧⟦{降|ふ}って→降る：00839_furu⟧きた⟦から→から：00504_kara⟧、チャリ⟦は→は：00079_ha⟧⟦{置|お}いて→置く：01092_oku⟧⟦{歩|ある}いて→歩く：00538_aruku⟧⟦{帰|かえ}った→帰る：00508_kaeru⟧。",
       "english": "It started raining, so I left the bike and walked home.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27535_chari_ex3",
-      "japanese": "{大学|だいがく}の{駐輪場|ちゅうりんじょう}にはチャリがたくさん{並|なら}んでいる。",
+      "japanese": "⟦{大学|だいがく}→大学：00608_daigaku⟧⟦の→の：09472_no⟧⟦{駐輪場|ちゅうりんじょう}→駐輪場：09240_chuurinjou⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧チャリ⟦が→が：00051_ga⟧⟦たくさん→たくさん：00597_takusan⟧⟦{並|なら}んでいる→並ぶ：00605_narabu⟧。",
       "english": "The university's bike racks are lined with lots of bicycles.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Casual abbreviation of {自転車|じてんしゃ}. Common in spoken Japanese, text messages, and casual writing; not used in formal speech or business contexts.\n\nCOMMON COLLOCATIONS:\n- チャリで{行|い}く: to go by bike\n- チャリに{乗|の}る: to ride a bike\n- チャリ{通|つう}: commuting by bike\n- {電動|でんどう}チャリ: electric bicycle (casual for {電動自転車|でんどうじてんしゃ})\n\nREGISTER:\nFamiliar / casual. Use {自転車|じてんしゃ} in formal speech, news, official documents, or with people you've just met.\n\nSIMILAR WORDS:\n- {自転車|じてんしゃ}: bicycle — neutral / standard term\n- ママチャリ: 'mama-bike' — utility bicycle with a basket; specific subtype",
+  "notes": "Casual abbreviation of ⟦{自転車|じてんしゃ}→自転車：00633_jitensha⟧. Common in spoken Japanese, text messages, and casual writing; not used in formal speech or business contexts.\n\nCOMMON COLLOCATIONS:\n- チャリ⟦で→で：00502_de⟧⟦{行|い}く→行く：00119_iku⟧: to go by bike\n- チャリ⟦に→に：00314_ni⟧⟦{乗|の}る→乗る：00511_noru⟧: to ride a bike\n- チャリ{通|つう}: commuting by bike\n- ⟦{電動|でんどう}→電動：06412_dendou⟧チャリ: electric bicycle (casual for ⟦{電動自転車|でんどうじてんしゃ}→電動自転車：16534_dendoujitensha⟧)\n\nREGISTER:\nFamiliar / casual. Use ⟦{自転車|じてんしゃ}→自転車：00633_jitensha⟧ in formal speech, news, official documents, or with people you've just met.\n\nSIMILAR WORDS:\n- ⟦{自転車|じてんしゃ}→自転車：00633_jitensha⟧: bicycle — neutral / standard term\n- ママチャリ: 'mama-bike' — utility bicycle with a basket; specific subtype",
   "cross_references": [
     {
       "type": "related",
@@ -46,19 +52,30 @@
       "reading": "ままちゃり",
       "headword": "ママチャリ",
       "label": "utility bicycle (specific type)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00633_jitensha",
+      "reading": "じてんしゃ",
+      "headword": "{自転車|じてんしゃ}",
+      "label": "bicycle"
     }
   ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "informal",
-      "politeness": null,
-      "semantic": ["transportation"],
+      "politeness": "plain",
+      "semantic": [
+        "transportation"
+      ],
       "domain": []
     },
     "created": "2026-05-13T04:09:53Z",
-    "modified": "2026-05-13T04:09:53Z"
+    "modified": "2026-09-02T04:02:31Z"
   }
 }

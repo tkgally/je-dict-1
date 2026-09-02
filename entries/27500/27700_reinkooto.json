@@ -15,40 +15,59 @@
   "examples": [
     {
       "id": "27700_reinkooto_ex1",
-      "japanese": "{雨|あめ}なのでレインコートを{着|き}た。",
+      "japanese": "⟦{雨|あめ}→雨：00583_ame⟧な⟦の→の：09472_no⟧でレインコート⟦を→を：00422_wo⟧⟦{着|き}た→着る：00541_kiru⟧。",
       "english": "It's raining, so I put on a raincoat.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27700_reinkooto_ex2",
-      "japanese": "{子|こ}どもに{黄色|きいろ}いレインコートを{買|か}ってあげた。",
+      "japanese": "{子|こ}ども⟦に→に：00314_ni⟧⟦{黄色|きいろ}い→黄色い：00959_kiiroi⟧レインコート⟦を→を：00422_wo⟧⟦{買|か}って→買う：00489_kau⟧⟦あげた→あげる：00546_ageru⟧。",
       "english": "I bought my child a yellow raincoat.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27700_reinkooto_ex3",
-      "japanese": "{自転車|じてんしゃ}に{乗|の}るときは{傘|かさ}よりレインコートのほうが{安全|あんぜん}だ。",
+      "japanese": "⟦{自転車|じてんしゃ}→自転車：00633_jitensha⟧⟦に→に：00314_ni⟧⟦{乗|の}る→乗る：00511_noru⟧とき⟦は→は：00079_ha⟧⟦{傘|かさ}→傘：00639_kasa⟧⟦より→より：09476_yori⟧レインコート⟦の→の：09472_no⟧ほう⟦が→が：00051_ga⟧⟦{安全|あんぜん}→安全：01131_anzen⟧だ。",
       "english": "When riding a bicycle, a raincoat is safer than an umbrella.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A waterproof coat for rainy weather. Used especially by cyclists and children, for whom holding an umbrella is impractical.\n\nCOMMON COLLOCATIONS:\n- レインコートを{着|き}る: to put on a raincoat\n- {折|お}りたたみのレインコート: a foldable raincoat\n\nSIMILAR WORDS:\n- {合羽|かっぱ}: rain cape — a more traditional word, often for sturdier or work raincoats\n- ポンチョ: poncho — a hooded cape-style rain cover with no sleeves",
+  "notes": "A waterproof coat for rainy weather. Used especially by cyclists and children, for whom holding an umbrella is impractical.\n\nCOMMON COLLOCATIONS:\n- レインコート⟦を→を：00422_wo⟧⟦{着|き}る→着る：00541_kiru⟧: to put on a raincoat\n- ⟦{折|お}りたたみ→折りたたみ：11332_oritatami⟧⟦の→の：09472_no⟧レインコート: a foldable raincoat\n\nSIMILAR WORDS:\n- ⟦{合羽|かっぱ}→合羽：23048_kappa⟧: rain cape — a more traditional word, often for sturdier or work raincoats\n- ポンチョ: poncho — a hooded cape-style rain cover with no sleeves",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23048_kappa",
+      "reading": "かっぱ",
+      "headword": "{合羽|かっぱ}",
+      "label": "rain cape"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["clothing"]
+      "semantic": [
+        "clothing"
+      ]
     },
     "created": "2026-05-17T03:10:36Z",
-    "modified": "2026-05-17T03:10:36Z"
+    "modified": "2026-09-02T04:02:31Z"
   }
 }

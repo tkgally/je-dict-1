@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "10488_hanahada_ex1",
-      "japanese": "{甚|はなは}だ{遺憾|いかん}です。",
+      "japanese": "{甚|はなは}だ⟦{遺憾|いかん}→遺憾：06817_ikan⟧です。",
       "english": "I deeply regret it.",
       "notes": "Very formal expression",
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "10488_hanahada_ex2",
-      "japanese": "{甚|はなは}だ{失礼|しつれい}ですが、お{名前|なまえ}は？",
+      "japanese": "{甚|はなは}だ⟦{失礼|しつれい}→失礼：01247_shitsurei⟧です⟦が→が：00051_ga⟧、⟦お{名前|なまえ}→お名前：22188_onamae⟧⟦は→は：00079_ha⟧？",
       "english": "I'm terribly sorry to ask, but what is your name?",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "10488_hanahada_ex3",
-      "japanese": "この{問題|もんだい}について、{甚|はなは}だ{不十分|ふじゅうぶん}な{対応|たいおう}だと{言|い}わざるを{得|え}ない。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{問題|もんだい}→問題：00797_mondai⟧⟦について→〜について：03103_nitsuite⟧、{甚|はなは}だ⟦{不十分|ふじゅうぶん}→不十分：05616_fujuubun⟧な⟦{対応|たいおう}→対応：02510_taiou⟧だ⟦と→と：00512_to⟧⟦{言|い}わざる→言う：00515_iu⟧⟦を→を：00422_wo⟧⟦{得|え}ない→得る：02014_eru⟧。",
       "english": "I must say that the response to this issue is extremely inadequate.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "{甚|はなは}だ is a formal, literary intensifier. It is common in official statements, formal letters, and written Japanese.\n\nCOMMON COLLOCATIONS:\n- {甚|はなは}だ{遺憾|いかん}: deeply regrettable (very formal)\n- {甚|はなは}だしい: extreme, excessive (adjective form)\n- {甚|はなは}だ{失礼|しつれい}: terribly rude\n- {甚|はなは}だ{不本意|ふほんい}: highly unintended\n\nSIMILAR WORDS:\n- とても: very (neutral, everyday)\n- {非常|ひじょう}に: extremely (formal but common)\n- {極|きわ}めて: extremely (formal)\n- {甚|はなは}だ is more literary and formal than all of these.",
+  "notes": "{甚|はなは}だ is a formal, literary intensifier. It is common in official statements, formal letters, and written Japanese.\n\nCOMMON COLLOCATIONS:\n- {甚|はなは}だ⟦{遺憾|いかん}→遺憾：06817_ikan⟧: deeply regrettable (very formal)\n- {甚|はなは}だしい: extreme, excessive (adjective form)\n- {甚|はなは}だ⟦{失礼|しつれい}→失礼：01247_shitsurei⟧: terribly rude\n- {甚|はなは}だ⟦{不本意|ふほんい}→不本意：11363_fuhoni⟧: highly unintended\n\nSIMILAR WORDS:\n- ⟦とても→とても：00593_totemo⟧: very (neutral, everyday)\n- ⟦{非常|ひじょう}→非常：01598_hijou⟧⟦に→に：00314_ni⟧: extremely (formal but common)\n- {極|きわ}めて: extremely (formal)\n- {甚|はなは}だ is more literary and formal than all of these.",
   "prominent_see_also": [
     {
       "target_id": "13520_hanahadashii",
@@ -53,10 +53,32 @@
       "note": "adjective form"
     }
   ],
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00593_totemo",
+      "reading": "とても",
+      "headword": "とても",
+      "label": "very"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01223_hijouni",
+      "reading": "ひじょうに",
+      "headword": "{非常|ひじょう}に",
+      "label": "extremely"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05529_kiwamete",
+      "reading": "きわめて",
+      "headword": "{極|きわ}めて",
+      "label": "extremely"
+    }
+  ],
   "metadata": {
     "created": "2026-02-07T21:20:27Z",
-    "modified": "2026-06-27T03:38:18Z",
+    "modified": "2026-09-02T04:01:21Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

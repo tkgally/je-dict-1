@@ -25,7 +25,7 @@
     },
     {
       "id": "30594_zuboshi_ex2",
-      "japanese": "{図星|ずぼし}を{指|さ}されて{何|なに}も{言|い}えなかった。",
+      "japanese": "{図星|ずぼし}⟦を→を：00422_wo⟧⟦{指|さ}されて→指す：02056_sasu⟧⟦{何|なに}も→何も：03874_nanimo⟧⟦{言|い}えなかった→言う：00515_iu⟧。",
       "english": "They hit the nail on the head and I couldn't say a thing.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30594_zuboshi_ex3",
-      "japanese": "{黙|だま}ってしまったところを{見|み}ると、どうやら{図星|ずぼし}だったらしい。",
+      "japanese": "⟦{黙|だま}って→黙る：02287_damaru⟧しまった⟦ところ→ところ：01137_tokoro⟧⟦を→を：00422_wo⟧⟦{見|み}る→見る：00283_miru⟧⟦と→と：00512_to⟧、⟦どう→どう：00543_dou⟧やら{図星|ずぼし}だったらしい。",
       "english": "Judging by how she went quiet, it seems I'd guessed right.",
       "sense_numbers": [
         1
@@ -45,7 +45,7 @@
     },
     {
       "id": "30594_zuboshi_ex4",
-      "japanese": "{疲|つか}れているのではないかと{言|い}われて、{図星|ずぼし}だったので{苦笑|くしょう}いした。",
+      "japanese": "⟦{疲|つか}れている→疲れる：00901_tsukareru⟧⟦の→の：09472_no⟧⟦ではないか→ではないか：30627_dehanaika⟧⟦と→と：00512_to⟧⟦{言|い}われて→言う：00515_iu⟧、{図星|ずぼし}だった⟦の→の：09472_no⟧で{苦笑|くしょう}い⟦した→する：00392_suru⟧。",
       "english": "When they asked if I was tired, they were exactly right, so I gave a wry smile.",
       "sense_numbers": [
         1
@@ -54,8 +54,24 @@
       "notes": null
     }
   ],
-  "notes": "COMMON EXPRESSIONS:\n- {図星|ずぼし}だ: that's exactly right (usually said of someone else's guess about you)\n- {図星|ずぼし}を{指|さ}す: to hit the nail on the head\n- {図星|ずぼし}を{指|さ}される: to be seen right through\n\nUSAGE:\nThe word carries a sense of being caught out, so it usually appears where the truth was inconvenient — an evasion detected, a feeling one was hiding. Saying {図星|ずぼし}だ about oneself is a light-hearted admission. From archery: the {図星|ずぼし} was the mark at the center of the target.\n\nSIMILAR WORDS:\n- その{通|とお}り: exactly so — plain agreement, with none of the caught-out nuance\n- {当|あ}たり: a hit, correct — used for quizzes and guesses generally, without the sense of exposure",
+  "notes": "COMMON EXPRESSIONS:\n- {図星|ずぼし}だ: that's exactly right (usually said of someone else's guess about you)\n- {図星|ずぼし}⟦を→を：00422_wo⟧⟦{指|さ}す→指す：02056_sasu⟧: to hit the nail on the head\n- {図星|ずぼし}⟦を→を：00422_wo⟧⟦{指|さ}される→指す：02056_sasu⟧: to be seen right through\n\nUSAGE:\nThe word carries a sense of being caught out, so it usually appears where the truth was inconvenient — an evasion detected, a feeling one was hiding. Saying {図星|ずぼし}だ about oneself is a light-hearted admission. From archery: the {図星|ずぼし} was the mark at the center of the target.\n\nSIMILAR WORDS:\n- ⟦その{通|とお}り→その通り：22252_sonotoori⟧: exactly so — plain agreement, with none of the caught-out nuance\n- ⟦{当|あ}たり→当たり：01919_atari⟧: a hit, correct — used for quizzes and guesses generally, without the sense of exposure",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22252_sonotoori",
+      "reading": "そのとおり",
+      "headword": "その{通|とお}り",
+      "label": "exactly so"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01919_atari",
+      "reading": "あたり",
+      "headword": "{当|あ}たり",
+      "label": "a hit, correct"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -63,7 +79,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "communication",
         "idiom"
@@ -71,6 +87,6 @@
       "domain": []
     },
     "created": "2026-08-12T03:18:15Z",
-    "modified": "2026-08-12T03:18:15Z"
+    "modified": "2026-09-02T04:02:40Z"
   }
 }

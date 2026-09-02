@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30317_gikouha_ex1",
-      "japanese": "{彼|かれ}は{技巧派|ぎこうは}の{投手|とうしゅ}だ。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{技巧派|ぎこうは}⟦の→の：09472_no⟧⟦{投手|とうしゅ}→投手：06563_toushu⟧だ。",
       "english": "He is a finesse pitcher.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30317_gikouha_ex2",
-      "japanese": "{速球派|そっきゅうは}より{技巧派|ぎこうは}のほうが{選手生命|せんしゅせいめい}が{長|なが}いと{言|い}われる。",
+      "japanese": "⟦{速球派|そっきゅうは}→速球派：30318_sokkyuuha⟧⟦より→より：09476_yori⟧{技巧派|ぎこうは}⟦の→の：09472_no⟧ほう⟦が→が：00051_ga⟧{選手生命|せんしゅせいめい}⟦が→が：00051_ga⟧⟦{長|なが}い→長い：00491_nagai⟧⟦と→と：00512_to⟧⟦{言|い}われる→言う：00515_iu⟧。",
       "english": "Finesse pitchers are said to have longer careers than power pitchers.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30317_gikouha_ex3",
-      "japanese": "{技巧派|ぎこうは}のピアニストとして{知|し}られているが、{表現|ひょうげん}の{深|ふか}さでも{評価|ひょうか}が{高|たか}い。",
+      "japanese": "{技巧派|ぎこうは}⟦の→の：09472_no⟧⟦ピアニスト→ピアニスト：19413_pianisuto⟧⟦として→として：06802_toshite⟧⟦{知|し}られている→知る：00458_shiru⟧⟦が→が：00051_ga⟧、⟦{表現|ひょうげん}→表現：03584_hyougen⟧⟦の→の：09472_no⟧⟦{深|ふか}さ→深さ：05328_fukasa⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧⟦{評価|ひょうか}→評価：03583_hyouka⟧⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧。",
       "english": "He is known as a technically refined pianist, but he is also highly regarded for the depth of his expression.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "From {技巧|ぎこう} (technique, craftsmanship) + {派|は} (school, type). The suffix {派|は} forms many such labels for a performer's style or a person's leanings.\n\nCOMMON COLLOCATIONS:\n- {技巧派|ぎこうは}{投手|とうしゅ}: finesse pitcher\n- {技巧派|ぎこうは}に{転向|てんこう}する: to switch to a finesse style\n\nSIMILAR WORDS:\n- {速球派|そっきゅうは}: power pitcher — the usual contrast in baseball\n- {本格派|ほんかくは}: orthodox, the real article — praises authenticity rather than technique\n- {実力派|じつりょくは}: genuinely talented performer — stresses ability over popularity",
+  "notes": "From ⟦{技巧|ぎこう}→技巧：12779_gikou⟧ (technique, craftsmanship) + ⟦{派|は}→派：28356_ha⟧ (school, type). The suffix ⟦{派|は}→派：28356_ha⟧ forms many such labels for a performer's style or a person's leanings.\n\nCOMMON COLLOCATIONS:\n- {技巧派|ぎこうは}⟦{投手|とうしゅ}→投手：06563_toushu⟧: finesse pitcher\n- {技巧派|ぎこうは}⟦に→に：00314_ni⟧⟦{転向|てんこう}→転向：19314_tenkou⟧⟦する→する：00392_suru⟧: to switch to a finesse style\n\nSIMILAR WORDS:\n- ⟦{速球派|そっきゅうは}→速球派：30318_sokkyuuha⟧: power pitcher — the usual contrast in baseball\n- ⟦{本格派|ほんかくは}→本格派：30319_honkakuha⟧: orthodox, the real article — praises authenticity rather than technique\n- ⟦{実力派|じつりょくは}→実力派：30320_jitsuryokuha⟧: genuinely talented performer — stresses ability over popularity",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "30318_sokkyuuha",
+      "reading": "そっきゅうは",
+      "headword": "{速球派|そっきゅうは}",
+      "label": "power pitcher"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30319_honkakuha",
+      "reading": "ほんかくは",
+      "headword": "{本格派|ほんかくは}",
+      "label": "orthodox, the real article"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30320_jitsuryokuha",
+      "reading": "じつりょくは",
+      "headword": "{実力派|じつりょくは}",
+      "label": "genuinely talented performer"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +76,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "sports",
         "person"
@@ -61,6 +84,6 @@
       "domain": []
     },
     "created": "2026-08-01T15:24:22Z",
-    "modified": "2026-08-01T15:24:22Z"
+    "modified": "2026-09-02T04:02:39Z"
   }
 }

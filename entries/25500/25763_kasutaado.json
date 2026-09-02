@@ -15,39 +15,59 @@
   "examples": [
     {
       "id": "25763_kasutaado_ex1",
-      "japanese": "カスタードクリームを{作|つく}る。",
+      "japanese": "カスタードクリーム⟦を→を：00422_wo⟧⟦{作|つく}る→作る：00481_tsukuru⟧。",
       "english": "To make custard cream.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "25763_kasutaado_ex2",
-      "japanese": "このシュークリームはカスタードがたっぷり{入|はい}っている。",
+      "japanese": "⟦この→この：00962_kono⟧シュー⟦クリーム→クリーム：00253_kuriimu⟧⟦は→は：00079_ha⟧カスタード⟦が→が：00051_ga⟧⟦たっぷり→たっぷり：03404_tappuri⟧⟦{入|はい}っている→入る：00494_hairu⟧。",
       "english": "This cream puff is packed with custard.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "25763_kasutaado_ex3",
-      "japanese": "カスタードプリンは{子供|こども}から{大人|おとな}まで{幅広|はばひろ}く{人気|にんき}がある。",
+      "japanese": "カスタードプリン⟦は→は：00079_ha⟧⟦{子供|こども}→子供：00554_kodomo⟧⟦から→から：00504_kara⟧⟦{大人|おとな}→大人：02856_otona⟧⟦まで→まで：00490_made⟧⟦{幅広|はばひろ}く→幅広い：11326_habahiroi⟧⟦{人気|にんき}→人気：01488_ninki⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "Custard pudding is popular with people of all ages, from children to adults.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "From English \"custard.\" In Japanese, カスタード most often appears as part of compound words like カスタードクリーム (custard cream) rather than on its own. Japanese bakeries and convenience stores feature many custard-filled products.\n\nCOMMON COLLOCATIONS:\n- カスタードクリーム: custard cream (filling)\n- カスタードプリン: custard pudding (crème caramel)\n- カスタードパイ: custard pie\n- カスタード{入|い}り: custard-filled\n\nRELATED TERMS:\n- シュークリーム: cream puff (from French chou à la crème)\n- プリン: pudding (usually custard pudding in Japan)\n- {卵|たまご}{焼|や}きプリン: baked egg pudding",
-  "cross_references": [],
+  "notes": "From English \"custard.\" In Japanese, カスタード most often appears as part of compound words like カスタードクリーム (custard cream) rather than on its own. Japanese bakeries and convenience stores feature many custard-filled products.\n\nCOMMON COLLOCATIONS:\n- カスタードクリーム: custard cream (filling)\n- カスタードプリン: custard pudding (crème caramel)\n- カスタードパイ: custard pie\n- カスタード{入|い}り: custard-filled\n\nRELATED WORDS:\n- シュー⟦クリーム→クリーム：00253_kuriimu⟧: cream puff (from French chou à la crème)\n- ⟦プリン→プリン：11123_purin⟧: pudding (usually custard pudding in Japan)\n- ⟦{卵|たまご}{焼|や}き→卵焼き：10367_tamagoyaki⟧⟦プリン→プリン：11123_purin⟧: baked egg pudding",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "11123_purin",
+      "reading": "ぷりん",
+      "headword": "プリン",
+      "label": "pudding"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["food"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "food"
+      ]
     },
     "created": "2026-04-27T12:17:23Z",
-    "modified": "2026-04-27T12:17:23Z"
+    "modified": "2026-09-02T04:02:23Z"
   }
 }

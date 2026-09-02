@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28324_denjiba_ex1",
-      "japanese": "{電磁場|でんじば}を{計測|けいそく}した。",
+      "japanese": "{電磁場|でんじば}⟦を→を：00422_wo⟧⟦{計測|けいそく}→計測：14189_keisoku⟧⟦した→する：00392_suru⟧。",
       "english": "We measured the electromagnetic field.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28324_denjiba_ex2",
-      "japanese": "{電磁場|でんじば}は{電場|でんば}と{磁場|じば}から{成|な}り{立|た}つ。",
+      "japanese": "{電磁場|でんじば}⟦は→は：00079_ha⟧{電場|でんば}⟦と→と：00512_to⟧⟦{磁場|じば}→磁場：17899_jiba⟧⟦から→から：00504_kara⟧⟦{成|な}り{立|た}つ→成り立つ：07921_naritatsu⟧。",
       "english": "An electromagnetic field consists of an electric field and a magnetic field.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28324_denjiba_ex3",
-      "japanese": "マクスウェル{方程式|ほうていしき}は{電磁場|でんじば}の{振|ふる}る{舞|ま}いを{記述|きじゅつ}する。",
+      "japanese": "マクスウェル⟦{方程式|ほうていしき}→方程式：04795_houteishiki⟧⟦は→は：00079_ha⟧{電磁場|でんじば}⟦の→の：09472_no⟧{振|ふる}る{舞|ま}い⟦を→を：00422_wo⟧⟦{記述|きじゅつ}する→記述する：17347_kijutsusuru⟧。",
       "english": "Maxwell's equations describe the behavior of the electromagnetic field.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {電磁|でんじ} (electromagnetic) + {場|ば} (field). The {場|ば} element is the standard physics term for a field.\n\nCOMMON COLLOCATIONS:\n- {電磁場|でんじば}の{強|つよ}さ: strength of an electromagnetic field\n- {電磁場|でんじば}を{発生|はっせい}させる: to generate an electromagnetic field\n- {電磁場|でんじば}{理論|りろん}: electromagnetic field theory\n\nSIMILAR WORDS:\n- {電場|でんば}: electric field — only the electric component\n- {磁場|じば}: magnetic field — only the magnetic component\n- {重力場|じゅうりょくば}: gravitational field — the gravity analogue\n- {電磁波|でんじは}: electromagnetic wave — propagating disturbance of the field",
+  "notes": "Compound of {電磁|でんじ} (electromagnetic) + ⟦{場|ば}→場：03699_ba⟧ (field). The ⟦{場|ば}→場：03699_ba⟧ element is the standard physics term for a field.\n\nCOMMON COLLOCATIONS:\n- {電磁場|でんじば}⟦の→の：09472_no⟧⟦{強|つよ}さ→強さ：25692_tsuyosa⟧: strength of an electromagnetic field\n- {電磁場|でんじば}⟦を→を：00422_wo⟧⟦{発生|はっせい}させる→発生する：25529_hasseisuru⟧: to generate an electromagnetic field\n- {電磁場|でんじば}⟦{理論|りろん}→理論：04708_riron⟧: electromagnetic field theory\n\nSIMILAR WORDS:\n- {電場|でんば}: electric field — only the electric component\n- ⟦{磁場|じば}→磁場：17899_jiba⟧: magnetic field — only the magnetic component\n- ⟦{重力場|じゅうりょくば}→重力場：28325_juuryokuba⟧: gravitational field — the gravity analogue\n- ⟦{電磁波|でんじは}→電磁波：17900_denjiha⟧: electromagnetic wave — propagating disturbance of the field",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "28325_juuryokuba",
+      "reading": "じゅうりょくば",
+      "headword": "{重力場|じゅうりょくば}",
+      "label": "gravitational field"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17900_denjiha",
+      "reading": "でんじは",
+      "headword": "{電磁波|でんじは}",
+      "label": "electromagnetic wave"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +69,7 @@
         "noun"
       ],
       "formality": "formal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "science"
       ],
@@ -62,6 +78,6 @@
       ]
     },
     "created": "2026-05-29T02:13:31Z",
-    "modified": "2026-05-29T02:13:31Z"
+    "modified": "2026-09-02T04:02:33Z"
   }
 }

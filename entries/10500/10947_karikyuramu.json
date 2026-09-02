@@ -15,42 +15,111 @@
   "examples": [
     {
       "id": "10947_karikyuramu_ex1",
-      "japanese": "カリキュラムを{見直|みなお}す。",
+      "japanese": "カリキュラム⟦を→を：00422_wo⟧⟦{見直|みなお}す→見直す：04579_minaosu⟧。",
       "english": "To review the curriculum.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10947_karikyuramu_ex2",
-      "japanese": "{新|あたら}しいカリキュラムが{導入|どうにゅう}された。",
+      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧カリキュラム⟦が→が：00051_ga⟧⟦{導入|どうにゅう}→導入：10127_dounyuu⟧⟦された→する：00392_suru⟧。",
       "english": "A new curriculum was introduced.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10947_karikyuramu_ex3",
-      "japanese": "この{大学|だいがく}のカリキュラムには{実習|じっしゅう}が{多|おお}く{含|ふく}まれている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{大学|だいがく}→大学：00608_daigaku⟧⟦の→の：09472_no⟧カリキュラム⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{実習|じっしゅう}→実習：03077_jisshuu⟧⟦が→が：00051_ga⟧⟦{多|おお}く→多い：01127_ooi⟧⟦{含|ふく}まれている→含む：01982_fukumu⟧。",
       "english": "This university's curriculum includes a lot of practical training.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "COMMON COLLOCATIONS:\n- カリキュラムを{組|く}む: to design/structure a curriculum\n- カリキュラムを{見直|みなお}す: to review/revise the curriculum\n- カリキュラムに{沿|そ}って: along the curriculum, following the curriculum\n- {教育|きょういく}カリキュラム: educational curriculum\n\nSIMILAR WORDS:\n- {教育|きょういく}{課程|かてい}: educational course/program (more formal, native Japanese)\n- {学習|がくしゅう}{指導|しどう}{要領|ようりょう}: national curriculum guidelines (official term in Japan's education system)",
-  "cross_references": [],
+  "notes": "COMMON COLLOCATIONS:\n- カリキュラム⟦を→を：00422_wo⟧⟦{組|く}む→組む：02050_kumu⟧: to design/structure a curriculum\n- カリキュラム⟦を→を：00422_wo⟧⟦{見直|みなお}す→見直す：04579_minaosu⟧: to review/revise the curriculum\n- カリキュラム⟦に→に：00314_ni⟧⟦{沿|そ}って→沿う：13279_sou⟧: along the curriculum, following the curriculum\n- ⟦{教育|きょういく}→教育：01313_kyouiku⟧カリキュラム: educational curriculum\n\nSIMILAR WORDS:\n- ⟦{教育|きょういく}{課程|かてい}→教育課程：23560_kyouikukatei⟧: educational course/program (more formal, native Japanese)\n- ⟦{学習|がくしゅう}{指導|しどう}{要領|ようりょう}→学習指導要領：26215_gakushuushidouyouryou⟧: national curriculum guidelines (official term in Japan's education system)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23560_kyouikukatei",
+      "reading": "きょういくかてい",
+      "headword": "{教育|きょういく}{課程|かてい}",
+      "label": "educational course/program"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26215_gakushuushidouyouryou",
+      "reading": "がくしゅうしどうようりょう",
+      "headword": "{学習指導要領|がくしゅうしどうようりょう}",
+      "label": "national curriculum guidelines"
+    },
+    {
+      "type": "related",
+      "target_id": "08552_jikanwari",
+      "reading": "じかんわり",
+      "headword": "{時間割|じかんわり}",
+      "label": "class schedule"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16670_shidouan",
+      "reading": "しどうあん",
+      "headword": "{指導案|しどうあん}",
+      "label": "lesson plan"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24023_jugyoukeikaku",
+      "reading": "じゅぎょうけいかく",
+      "headword": "{授業計画|じゅぎょうけいかく}",
+      "label": "lesson plan"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24688_kyoukakatei",
+      "reading": "きょうかかてい",
+      "headword": "{教科課程|きょうかかてい}",
+      "label": "curriculum"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26171_kyouan",
+      "reading": "きょうあん",
+      "headword": "{教案|きょうあん}",
+      "label": "lesson plan"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26607_jugyouan",
+      "reading": "じゅぎょうあん",
+      "headword": "{授業案|じゅぎょうあん}",
+      "label": "lesson plan"
+    }
+  ],
   "metadata": {
     "created": "2026-02-11T19:11:53Z",
-    "modified": "2026-02-11T19:11:53Z",
+    "modified": "2026-09-02T04:01:23Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["education"],
-      "domain": ["academic"]
+      "semantic": [
+        "education"
+      ],
+      "domain": [
+        "academic"
+      ]
     }
   }
 }

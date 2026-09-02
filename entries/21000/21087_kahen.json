@@ -15,40 +15,66 @@
   "examples": [
     {
       "id": "21087_kahen_ex1",
-      "japanese": "{可変|かへん}{速度|そくど}のモーター。",
+      "japanese": "{可変|かへん}⟦{速度|そくど}→速度：03319_sokudo⟧⟦の→の：09472_no⟧⟦モーター→モーター：23127_mootaa⟧。",
       "english": "A variable-speed motor.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21087_kahen_ex2",
-      "japanese": "{角度|かくど}が{可変|かへん}のスタンドを{使|つか}っている。",
+      "japanese": "⟦{角度|かくど}→角度：00156_kakudo⟧⟦が→が：00051_ga⟧{可変|かへん}⟦の→の：09472_no⟧⟦スタンド→スタンド：00394_sutando⟧⟦を→を：00422_wo⟧⟦{使|つか}っている→使う：00473_tsukau⟧。",
       "english": "I'm using a stand with an adjustable angle.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21087_kahen_ex3",
-      "japanese": "この{椅子|いす}は{高|たか}さが{可変|かへん}なので、{子供|こども}から{大人|おとな}まで{使|つか}える。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{椅子|いす}→椅子：00706_isu⟧⟦は→は：00079_ha⟧⟦{高|たか}さ→高さ：05327_takasa⟧⟦が→が：00051_ga⟧{可変|かへん}な⟦の→の：09472_no⟧で、⟦{子供|こども}→子供：00554_kodomo⟧⟦から→から：00504_kara⟧⟦{大人|おとな}→大人：02856_otona⟧⟦まで→まで：00490_made⟧⟦{使|つか}える→使う：00473_tsukau⟧。",
       "english": "This chair has adjustable height, so it can be used by both children and adults.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A technical modifier meaning \"variable\" or \"adjustable.\" Most commonly appears before another noun to describe something that can be changed or modified. Contrasts with {固定|こてい} (fixed).\n\nCOMMON COLLOCATIONS:\n- {可変|かへん}{速度|そくど}: variable speed\n- {可変|かへん}{抵抗|ていこう}: variable resistor\n- {可変|かへん}{長|ちょう}: variable length\n- {可変|かへん}{翼|つばさ}: variable-geometry wing (swing wing)\n\nSIMILAR WORDS:\n- {固定|こてい}: fixed, stationary — the direct opposite; something that cannot be changed\n- {調節|ちょうせつ}{可能|かのう}: adjustable — a more explanatory way to say the same thing; more common in everyday speech\n- {変動|へんどう}: fluctuation, variation — describes natural or market-driven changes rather than user-adjustable settings\n\nETYMOLOGY:\n{可|か} (possible) + {変|へん} (change) — \"able to be changed.\"",
+  "notes": "A technical modifier meaning \"variable\" or \"adjustable.\" Most commonly appears before another noun to describe something that can be changed or modified. Contrasts with ⟦{固定|こてい}→固定：10996_kotei⟧ (fixed).\n\nCOMMON COLLOCATIONS:\n- {可変|かへん}⟦{速度|そくど}→速度：03319_sokudo⟧: variable speed\n- {可変|かへん}⟦{抵抗|ていこう}→抵抗：03540_teikou⟧: variable resistor\n- {可変|かへん}⟦{長|ちょう}→〜長：04665_chou⟧: variable length\n- {可変|かへん}⟦{翼|つばさ}→翼：03528_tsubasa⟧: variable-geometry wing (swing wing)\n\nSIMILAR WORDS:\n- ⟦{固定|こてい}→固定：10996_kotei⟧: fixed, stationary — the direct opposite; something that cannot be changed\n- ⟦{調節|ちょうせつ}→調節：17947_chousetsu⟧⟦{可能|かのう}→可能：00175_kanou⟧: adjustable — a more explanatory way to say the same thing; more common in everyday speech\n- ⟦{変動|へんどう}→変動：09936_hendou⟧: fluctuation, variation — describes natural or market-driven changes rather than user-adjustable settings\n\nETYMOLOGY:\n{可|か} (possible) + ⟦{変|へん}→変：01124_hen⟧ (change) — \"able to be changed.\"",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "10996_kotei",
+      "reading": "こてい",
+      "headword": "{固定|こてい}",
+      "label": "fixed, stationary"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09936_hendou",
+      "reading": "へんどう",
+      "headword": "{変動|へんどう}",
+      "label": "fluctuation, variation"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["technology"]
+      "semantic": [
+        "technology"
+      ]
     },
     "created": "2026-03-31T17:14:05Z",
-    "modified": "2026-03-31T17:14:05Z"
+    "modified": "2026-09-02T04:02:02Z"
   }
 }

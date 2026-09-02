@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "13327_ryuushutsu_ex1",
-      "japanese": "{個人|こじん}{情報|じょうほう}が{流出|りゅうしゅつ}した。",
+      "japanese": "⟦{個人|こじん}{情報|じょうほう}→個人情報：18842_kojinjouhou⟧⟦が→が：00051_ga⟧{流出|りゅうしゅつ}⟦した→する：00392_suru⟧。",
       "english": "Personal information was leaked.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "13327_ryuushutsu_ex2",
-      "japanese": "{若者|わかもの}の{都市|とし}への{流出|りゅうしゅつ}が{地方|ちほう}の{問題|もんだい}だ。",
+      "japanese": "⟦{若者|わかもの}→若者：03037_wakamono⟧⟦の→の：09472_no⟧⟦{都市|とし}→都市：01477_toshi⟧⟦へ→へ：02473_he⟧⟦の→の：09472_no⟧{流出|りゅうしゅつ}⟦が→が：00051_ga⟧⟦{地方|ちほう}→地方：02369_chihou⟧⟦の→の：09472_no⟧⟦{問題|もんだい}→問題：00797_mondai⟧だ。",
       "english": "The exodus of young people to cities is a problem for rural areas.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "13327_ryuushutsu_ex3",
-      "japanese": "{工場|こうじょう}から{有害|ゆうがい}な{物質|ぶっしつ}が{川|かわ}に{流出|りゅうしゅつ}するのを{防|ふせ}がなければならない。",
+      "japanese": "⟦{工場|こうじょう}→工場：01082_koujou⟧⟦から→から：00504_kara⟧⟦{有害|ゆうがい}→有害：13002_yuugai⟧な⟦{物質|ぶっしつ}→物質：03608_busshitsu⟧⟦が→が：00051_ga⟧⟦{川|かわ}→川：02186_kawa⟧⟦に→に：00314_ni⟧{流出|りゅうしゅつ}⟦する→する：00392_suru⟧⟦の→の：09472_no⟧⟦を→を：00422_wo⟧⟦{防|ふせ}が→防ぐ：02409_fusegu⟧⟦なければならない→なければならない：27600_nakerebanaranai⟧。",
       "english": "We must prevent harmful substances from flowing out of the factory into the river.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA formal term frequently used in news reporting. Particularly common in contexts of data breaches ({情報|じょうほう}{流出|りゅうしゅつ}), population movement ({人口|じんこう}{流出|りゅうしゅつ}), and environmental incidents ({油|あぶら}の{流出|りゅうしゅつ} — oil spill). The opposite is {流入|りゅうにゅう} (inflow).\n\nCOMMON COLLOCATIONS:\n- {情報|じょうほう}{流出|りゅうしゅつ}: information leak\n- {人口|じんこう}{流出|りゅうしゅつ}: population drain\n- {資金|しきん}の{流出|りゅうしゅつ}: capital outflow\n- {流出|りゅうしゅつ}を{防|ふせ}ぐ: to prevent a leak/outflow",
+  "notes": "USAGE:\nA formal term frequently used in news reporting. Particularly common in contexts of data breaches ({情報|じょうほう}{流出|りゅうしゅつ}), population movement (⟦{人口|じんこう}→人口：01618_jinkou⟧{流出|りゅうしゅつ}), and environmental incidents (⟦{油|あぶら}→油：01693_abura⟧⟦の→の：09472_no⟧{流出|りゅうしゅつ} — oil spill). The opposite is ⟦{流入|りゅうにゅう}→流入：13326_ryuunyuu⟧ (inflow).\n\nCOMMON COLLOCATIONS:\n- {情報|じょうほう}{流出|りゅうしゅつ}: information leak\n- ⟦{人口|じんこう}→人口：01618_jinkou⟧{流出|りゅうしゅつ}: population drain\n- ⟦{資金|しきん}→資金：09937_shikin⟧⟦の→の：09472_no⟧{流出|りゅうしゅつ}: capital outflow\n- {流出|りゅうしゅつ}⟦を→を：00422_wo⟧⟦{防|ふせ}ぐ→防ぐ：02409_fusegu⟧: to prevent a leak/outflow",
   "cross_references": [
     {
       "type": "antonym",
@@ -142,11 +142,25 @@
       "headword": "{流入|りゅうにゅう}",
       "label": "inflow",
       "target_id": "13326_ryuunyuu"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18287_funshutsu",
+      "reading": "ふんしゅつ",
+      "headword": "{噴出|ふんしゅつ}",
+      "label": "eruption"
+    },
+    {
+      "type": "antonym",
+      "target_id": "21384_ryuunyuu",
+      "reading": "りゅうにゅう",
+      "headword": "{流入|りゅうにゅう}する",
+      "label": "to flow in"
     }
   ],
   "metadata": {
     "created": "2026-02-24T10:00:26Z",
-    "modified": "2026-07-09T15:31:23Z",
+    "modified": "2026-09-02T04:01:32Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -160,7 +174,8 @@
         "movement",
         "economics"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

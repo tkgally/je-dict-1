@@ -15,41 +15,73 @@
   "examples": [
     {
       "id": "12952_hidori_ex1",
-      "japanese": "{結婚式|けっこんしき}の{日取|ひど}りを{決|き}めた。",
+      "japanese": "⟦{結婚式|けっこんしき}→結婚式：05493_kekkonshiki⟧⟦の→の：09472_no⟧{日取|ひど}り⟦を→を：00422_wo⟧⟦{決|き}めた→決める：00858_kimeru⟧。",
       "english": "We decided on the date for the wedding ceremony.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12952_hidori_ex2",
-      "japanese": "{引|ひ}っ{越|こ}しの{日取|ひど}りはもう{決|き}まりましたか。",
+      "japanese": "{引|ひ}っ{越|こ}し⟦の→の：09472_no⟧{日取|ひど}り⟦は→は：00079_ha⟧⟦もう→もう：00602_mou⟧⟦{決|き}まりました→決まる：01233_kimaru⟧⟦か→か：09473_ka⟧。",
       "english": "Have you decided on the date for your move yet?",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12952_hidori_ex3",
-      "japanese": "{両家|りょうけ}で{相談|そうだん}して、{式|しき}の{日取|ひど}りを{決|き}めることになった。",
+      "japanese": "{両家|りょうけ}⟦で→で：00502_de⟧⟦{相談|そうだん}して→相談する：01845_soudansuru⟧、{式|しき}⟦の→の：09472_no⟧{日取|ひど}り⟦を→を：00422_wo⟧⟦{決|き}める→決める：00858_kimeru⟧ことになった。",
       "english": "It was decided that both families would discuss and set the date for the ceremony.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nAlmost always used with {決|き}める (to decide) or {決|き}まる (to be decided). Implies a formal or significant event — not used for casual plans like meeting a friend. Common for weddings, funerals, ceremonies, and official events.\n\nCOMMON COLLOCATIONS:\n- {日取|ひど}りを{決|き}める: to fix a date\n- {日取|ひど}りが{決|き}まる: the date is decided\n- {式|しき}の{日取|ひど}り: the date for a ceremony\n\nSIMILAR WORDS:\n- {日程|にってい}: schedule, itinerary (broader scope)\n- {日付|ひづけ}: date (on a calendar, a document)\n- スケジュール: schedule (general planning)",
-  "cross_references": [],
+  "notes": "USAGE:\nAlmost always used with ⟦{決|き}める→決める：00858_kimeru⟧ (to decide) or ⟦{決|き}まる→決まる：01233_kimaru⟧ (to be decided). Implies a formal or significant event — not used for casual plans like meeting a friend. Common for weddings, funerals, ceremonies, and official events.\n\nCOMMON COLLOCATIONS:\n- {日取|ひど}り⟦を→を：00422_wo⟧⟦{決|き}める→決める：00858_kimeru⟧: to fix a date\n- {日取|ひど}り⟦が→が：00051_ga⟧⟦{決|き}まる→決まる：01233_kimaru⟧: the date is decided\n- {式|しき}⟦の→の：09472_no⟧{日取|ひど}り: the date for a ceremony\n\nSIMILAR WORDS:\n- ⟦{日程|にってい}→日程：04289_nittei⟧: schedule, itinerary (broader scope)\n- ⟦{日付|ひづけ}→日付：03706_hizuke⟧: date (on a calendar, a document)\n- ⟦スケジュール→スケジュール：03850_sukejuuru⟧: schedule (general planning)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04289_nittei",
+      "reading": "にってい",
+      "headword": "{日程|にってい}",
+      "label": "schedule, itinerary"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03706_hizuke",
+      "reading": "ひづけ",
+      "headword": "{日付|ひづけ}",
+      "label": "date"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03850_sukejuuru",
+      "reading": "すけじゅーる",
+      "headword": "スケジュール",
+      "label": "schedule"
+    }
+  ],
   "metadata": {
     "created": "2026-02-22T23:37:25Z",
-    "modified": "2026-02-22T23:37:25Z",
+    "modified": "2026-09-02T04:01:31Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["time-general"]
+      "semantic": [
+        "time-general"
+      ]
     }
   }
 }

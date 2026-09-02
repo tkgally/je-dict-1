@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "17612_higaeri_ex1",
-      "japanese": "{日帰|ひがえ}りで{温泉|おんせん}に{行|い}った。",
+      "japanese": "{日帰|ひがえ}り⟦で→で：00502_de⟧⟦{温泉|おんせん}→温泉：04117_onsen⟧⟦に→に：00314_ni⟧⟦{行|い}った→行く：00119_iku⟧。",
       "english": "I went to the hot springs on a day trip.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "17612_higaeri_ex2",
-      "japanese": "{東京|とうきょう}から{京都|きょうと}は{日帰|ひがえ}りできる。",
+      "japanese": "⟦{東京|とうきょう}→東京：09564_toukyou⟧⟦から→から：00504_kara⟧⟦{京都|きょうと}→京都：09484_kyouto⟧⟦は→は：00079_ha⟧{日帰|ひがえ}り⟦できる→できる：00557_dekiru⟧。",
       "english": "You can do a day trip from Tokyo to Kyoto.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "17612_higaeri_ex3",
-      "japanese": "{日帰|ひがえ}り{旅行|りょこう}のプランを{立|た}てた。",
+      "japanese": "{日帰|ひがえ}り{旅行|りょこう}⟦の→の：09472_no⟧⟦プラン→プラン：00345_puran⟧⟦を→を：00422_wo⟧⟦{立|た}てた→立てる：01196_tateru⟧。",
       "english": "I made a plan for a day trip.",
       "sense_numbers": [
         1
@@ -43,7 +43,23 @@
       "notes": null
     }
   ],
-  "notes": "FORMATION:\n{日|ひ} (day) + {帰|かえ}り (returning) → returning the same day\n\nCOMMON COLLOCATIONS:\n- {日帰|ひがえ}り{旅行|りょこう} (day trip)\n- {日帰|ひがえ}り{温泉|おんせん} (day-trip hot springs)\n- {日帰|ひがえ}り{出張|しゅっちょう} (same-day business trip)\n- {日帰|ひがえ}りツアー (day tour)\n\nUSAGE:\nOften used with で: {日帰|ひがえ}りで{行|い}く (to go on a day trip)\n\nRELATED WORDS:\n- {泊|とま}りがけ (overnight stay)\n- {一泊|いっぱく}{二日|ふつか} (one night, two days)\n- {弾丸|だんがん}ツアー (whirlwind tour)",
+  "notes": "FORMS:\n⟦{日|ひ}→日：02249_hi⟧ (day) + ⟦{帰|かえ}り→帰り：01275_kaeri⟧ (returning) → returning the same day\n\nCOMMON COLLOCATIONS:\n- {日帰|ひがえ}り{旅行|りょこう} (day trip)\n- {日帰|ひがえ}り⟦{温泉|おんせん}→温泉：04117_onsen⟧ (day-trip hot springs)\n- {日帰|ひがえ}り{出張|しゅっちょう} (same-day business trip)\n- {日帰|ひがえ}り⟦ツアー→ツアー：08285_tsuaa⟧ (day tour)\n\nUSAGE:\nOften used with で: {日帰|ひがえ}り⟦で→で：00502_de⟧⟦{行|い}く→行く：00119_iku⟧ (to go on a day trip)\n\nRELATED WORDS:\n- {泊|とま}りがけ (overnight stay)\n- ⟦{一泊|いっぱく}{二日|ふつか}→一泊二日：26883_ippakufutsuka⟧ (one night, two days)\n- ⟦{弾丸|だんがん}→弾丸：12502_dangan⟧⟦ツアー→ツアー：08285_tsuaa⟧ (whirlwind tour)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "26883_ippakufutsuka",
+      "reading": "いっぱくふつか",
+      "headword": "{一泊二日|いっぱくふつか}",
+      "label": "one night, two days"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08716_tomarigake",
+      "reading": "とまりがけ",
+      "headword": "{泊|と}まりがけ",
+      "label": "overnight stay"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -51,12 +67,13 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "travel",
         "time-general"
       ]
     },
     "created": "2026-01-26T13:58:14Z",
-    "modified": "2026-07-24T07:00:08Z"
+    "modified": "2026-09-02T04:01:49Z"
   }
 }

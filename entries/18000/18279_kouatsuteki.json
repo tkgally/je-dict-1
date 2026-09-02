@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "18279_kouatsuteki_ex1",
-      "japanese": "{上司|じょうし}の{態度|たいど}が{高圧的|こうあつてき}だ。",
+      "japanese": "⟦{上司|じょうし}→上司：03286_joushi⟧⟦の→の：09472_no⟧⟦{態度|たいど}→態度：03396_taido⟧⟦が→が：00051_ga⟧{高圧的|こうあつてき}だ。",
       "english": "My boss's attitude is overbearing.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "18279_kouatsuteki_ex2",
-      "japanese": "{高圧的|こうあつてき}な{言|い}い{方|かた}はやめてほしい。",
+      "japanese": "{高圧的|こうあつてき}な⟦{言|い}い{方|かた}→言い方：14165_iikata⟧はやめてほしい。",
       "english": "I wish you'd stop speaking in such a domineering way.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "18279_kouatsuteki_ex3",
-      "japanese": "{高圧的|こうあつてき}な{交渉|こうしょう}の{仕方|しかた}では、{相手|あいて}の{信頼|しんらい}を{得|え}ることはできない。",
+      "japanese": "{高圧的|こうあつてき}な⟦{交渉|こうしょう}→交渉：02727_koushou⟧⟦の→の：09472_no⟧⟦{仕方|しかた}→仕方：01603_shikata⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧、⟦{相手|あいて}→相手：01677_aite⟧⟦の→の：09472_no⟧⟦{信頼|しんらい}→信頼：03268_shinrai⟧⟦を→を：00422_wo⟧⟦{得|え}る→得る：02014_eru⟧こと⟦は→は：00079_ha⟧⟦できない→できる：00557_dekiru⟧。",
       "english": "You cannot earn the other party's trust through a high-handed negotiation style.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,47 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA na-adjective from {高圧|こうあつ} (high pressure) + {的|てき}. Always carries a negative connotation — it implies the person is using force or intimidation rather than reason. Often describes superiors, authority figures, or negotiation styles.\n\nCOMMON COLLOCATIONS:\n- {高圧的|こうあつてき}な{態度|たいど} (an overbearing attitude)\n- {高圧的|こうあつてき}な{言動|げんどう} (domineering words and actions)\n- {高圧的|こうあつてき}に{出|で}る (to take a forceful stance)\n\nSIMILAR WORDS:\n- {威圧的|いあつてき}: intimidating — emphasizes the feeling of being threatened\n- {横暴|おうぼう}: tyrannical — stronger, implies abuse of power",
-  "cross_references": [],
+  "notes": "USAGE:\nA na-adjective from ⟦{高圧|こうあつ}→高圧：21094_kouatsu⟧ (high pressure) + ⟦{的|てき}→〜的：09839_teki⟧. Always carries a negative connotation — it implies the person is using force or intimidation rather than reason. Often describes superiors, authority figures, or negotiation styles.\n\nCOMMON COLLOCATIONS:\n- {高圧的|こうあつてき}な⟦{態度|たいど}→態度：03396_taido⟧ (an overbearing attitude)\n- {高圧的|こうあつてき}な⟦{言動|げんどう}→言動：14147_gendou⟧ (domineering words and actions)\n- {高圧的|こうあつてき}⟦に→に：00314_ni⟧⟦{出|で}る→出る：00513_deru⟧ (to take a forceful stance)\n\nSIMILAR WORDS:\n- ⟦{威圧的|いあつてき}→威圧的：06373_iatsuteki⟧: intimidating — emphasizes the feeling of being threatened\n- ⟦{横暴|おうぼう}→横暴：07988_oubou⟧: tyrannical — stronger, implies abuse of power",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06373_iatsuteki",
+      "reading": "いあつてき",
+      "headword": "{威圧的|いあつてき}",
+      "label": "intimidating"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07988_oubou",
+      "reading": "おうぼう",
+      "headword": "{横暴|おうぼう}",
+      "label": "tyrannical"
+    },
+    {
+      "type": "related",
+      "target_id": "07317_ouhei",
+      "reading": "おうへい",
+      "headword": "{横柄|おうへい}",
+      "label": "arrogant"
+    },
+    {
+      "type": "related",
+      "target_id": "09165_iatsu",
+      "reading": "いあつ",
+      "headword": "{威圧|いあつ}",
+      "label": "coercion, intimidation, pressure"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29640_kyouatsuteki",
+      "reading": "きょうあつてき",
+      "headword": "{強圧的|きょうあつてき}",
+      "label": "coercive"
+    }
+  ],
   "metadata": {
     "created": "2026-03-21T01:13:17Z",
-    "modified": "2026-03-21T01:13:17Z",
+    "modified": "2026-09-02T04:01:51Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

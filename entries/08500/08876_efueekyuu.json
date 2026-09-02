@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08876_efueekyuu_ex1",
-      "japanese": "FAQを{確認|かくにん}する。",
+      "japanese": "FAQ⟦を→を：00422_wo⟧⟦{確認|かくにん}する→確認する：25332_kakuninsuru⟧。",
       "english": "I check the FAQ.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "08876_efueekyuu_ex2",
-      "japanese": "FAQに{答|こた}えが{載|の}っていた。",
+      "japanese": "FAQ⟦に→に：00314_ni⟧⟦{答|こた}え→答え：00790_kotae⟧⟦が→が：00051_ga⟧⟦{載|の}っていた→載る：27882_noru⟧。",
       "english": "The answer was in the FAQ.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "08876_efueekyuu_ex3",
-      "japanese": "{質問|しつもん}する{前|まえ}にFAQページをご{覧|らん}ください。",
+      "japanese": "⟦{質問|しつもん}する→質問する：05637_shitsumonsuru⟧⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧FAQ⟦ページ→ページ：02961_peeji⟧⟦を→を：00422_wo⟧⟦ご{覧|らん}→ご覧：01408_goran⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please check the FAQ page before asking questions.",
       "notes": null,
       "has_audio": false,
@@ -43,11 +43,26 @@
       ]
     }
   ],
-  "notes": "FAQ stands for Frequently Asked Questions. Pronounced エフエーキュー in Japanese. Found on websites, product manuals, and customer service pages.\n\nJAPANESE EQUIVALENT:\nThe native equivalent is よくある{質問|しつもん}, which is more accessible to general audiences. FAQ tends to appear on tech-oriented or international-facing sites, while よくある{質問|しつもん} is preferred on Japanese consumer sites.\n\nCOMMON COLLOCATIONS:\n- FAQページ: FAQ page\n- FAQを{確認|かくにん}する: to check the FAQ\n- FAQを{読|よ}む: to read the FAQ\n- FAQに{追加|ついか}する: to add to the FAQ\n\nRELATED TERMS:\n- よくある{質問|しつもん}: frequently asked questions (native equivalent)\n- Q&A（キューアンドエー）: questions and answers\n- {問|と}い{合|あ}わせ: inquiries, contact",
-  "cross_references": [],
+  "notes": "FAQ stands for Frequently Asked Questions. Pronounced エフエーキュー in Japanese. Found on websites, product manuals, and customer service pages.\n\nJAPANESE EQUIVALENT:\nThe native equivalent is ⟦よくある{質問|しつもん}→よくある質問：17498_yokuarushitsumon⟧, which is more accessible to general audiences. FAQ tends to appear on tech-oriented or international-facing sites, while ⟦よくある{質問|しつもん}→よくある質問：17498_yokuarushitsumon⟧ is preferred on Japanese consumer sites.\n\nCOMMON COLLOCATIONS:\n- FAQ⟦ページ→ページ：02961_peeji⟧: FAQ page\n- FAQ⟦を→を：00422_wo⟧⟦{確認|かくにん}する→確認する：25332_kakuninsuru⟧: to check the FAQ\n- FAQ⟦を→を：00422_wo⟧⟦{読|よ}む→読む：00426_yomu⟧: to read the FAQ\n- FAQ⟦に→に：00314_ni⟧⟦{追加|ついか}する→追加する：19646_tsuikasuru⟧: to add to the FAQ\n\nRELATED WORDS:\n- ⟦よくある{質問|しつもん}→よくある質問：17498_yokuarushitsumon⟧: frequently asked questions (native equivalent)\n- Q&A（キューアンドエー）: questions and answers\n- ⟦{問|と}い{合|あ}わせ→問い合わせ：06131_toiawase⟧: inquiries, contact",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "17498_yokuarushitsumon",
+      "reading": "よくあるしつもん",
+      "headword": "よくある{質問|しつもん}",
+      "label": "frequently asked questions"
+    },
+    {
+      "type": "related",
+      "target_id": "06131_toiawase",
+      "reading": "といあわせ",
+      "headword": "{問|と}い{合|あ}わせ",
+      "label": "inquiries, contact"
+    }
+  ],
   "metadata": {
     "created": "2026-01-29T02:45:35Z",
-    "modified": "2026-08-12T21:25:53Z",
+    "modified": "2026-09-02T04:01:16Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

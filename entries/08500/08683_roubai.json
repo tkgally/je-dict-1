@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "08683_roubai_ex1",
-      "japanese": "{突然|とつぜん}の{質問|しつもん}に{狼狽|ろうばい}した。",
+      "japanese": "⟦{突然|とつぜん}→突然：00409_totsuzen⟧⟦の→の：09472_no⟧⟦{質問|しつもん}→質問：00888_shitsumon⟧⟦に→に：00314_ni⟧{狼狽|ろうばい}⟦した→する：00392_suru⟧。",
       "english": "I was flustered by the sudden question.",
       "sense_numbers": [
         1
@@ -114,7 +114,7 @@
     },
     {
       "id": "08683_roubai_ex2",
-      "japanese": "{狼狽|ろうばい}して{何|なに}を{言|い}っているか{分|わ}からなくなった。",
+      "japanese": "{狼狽|ろうばい}⟦して→する：00392_suru⟧⟦{何|なに}→何：00498_nani⟧⟦を→を：00422_wo⟧⟦{言|い}っている→言う：00515_iu⟧⟦か→か：09473_ka⟧⟦{分|わ}からなく→分かる：00463_wakaru⟧⟦なった→なる：01970_naru⟧。",
       "english": "I became so flustered that I didn't know what I was saying.",
       "sense_numbers": [
         1
@@ -124,7 +124,7 @@
     },
     {
       "id": "08683_roubai_ex3",
-      "japanese": "{彼|かれ}の{狼狽|ろうばい}ぶりを{見|み}て{何|なに}かあったと{察|さっ}した。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧{狼狽|ろうばい}⟦ぶり→〜ぶり：28358_buri⟧⟦を→を：00422_wo⟧⟦{見|み}て→見る：00283_miru⟧⟦{何|なに}か→何か：03873_nanika⟧⟦あった→ある：00006_aru⟧⟦と→と：00512_to⟧⟦{察|さっ}した→察する：08053_sassuru⟧。",
       "english": "Seeing how flustered he was, I sensed something had happened.",
       "sense_numbers": [
         1
@@ -133,7 +133,44 @@
       "notes": null
     }
   ],
-  "notes": "VERB FORM:\n{狼狽|ろうばい}する - to be flustered, to panic\n\nETYMOLOGY:\nFrom Chinese. {狼|ろう} (wolf) and {狽|ばい} (legendary wolf-like creature) were said to be inseparable. When apart, both would panic - hence the meaning of confusion.\n\nRELATED TERMS:\n- {慌|あわ}てる - to panic, to be flustered (more common)\n- {動揺|どうよう}する - to be shaken, disturbed\n- うろたえる - to be confused, lose composure\n\nNUANCE:\n{狼狽|ろうばい} is more literary and formal than {慌|あわ}てる.",
+  "notes": "FORMS:\n{狼狽|ろうばい}⟦する→する：00392_suru⟧ - to be flustered, to panic\n\nETYMOLOGY:\nFrom Chinese. {狼|ろう} (wolf) and {狽|ばい} (legendary wolf-like creature) were said to be inseparable. When apart, both would panic - hence the meaning of confusion.\n\nRELATED WORDS:\n- ⟦{慌|あわ}てる→慌てる：01874_awateru⟧ - to panic, to be flustered (more common)\n- ⟦{動揺|どうよう}する→動揺する：25352_douyousuru⟧ - to be shaken, disturbed\n- ⟦うろたえる→うろたえる：21630_urotaeru⟧ - to be confused, lose composure\n\nUSAGE:\n{狼狽|ろうばい} is more literary and formal than ⟦{慌|あわ}てる→慌てる：01874_awateru⟧.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "01874_awateru",
+      "reading": "あわてる",
+      "headword": "{慌|あわ}てる",
+      "label": "to panic, to be flustered"
+    },
+    {
+      "type": "related",
+      "target_id": "25352_douyousuru",
+      "reading": "どうようする",
+      "headword": "{動揺|どうよう}する",
+      "label": "to be shaken, disturbed"
+    },
+    {
+      "type": "related",
+      "target_id": "21630_urotaeru",
+      "reading": "うろたえる",
+      "headword": "うろたえる",
+      "label": "to be confused, lose composure"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03482_douyou",
+      "reading": "どうよう",
+      "headword": "{動揺|どうよう}",
+      "label": "agitation, disturbance"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19275_ukiashidatsu",
+      "reading": "うきあしだつ",
+      "headword": "{浮|う}き{足|あし}{立|だ}つ",
+      "label": "to get restless"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -142,12 +179,13 @@
         "verb-suru"
       ],
       "formality": "formal",
+      "politeness": "plain",
       "semantic": [
         "emotion"
       ],
       "verb_class": "suru"
     },
     "created": "2026-01-27T23:50:36Z",
-    "modified": "2026-06-23T01:38:10Z"
+    "modified": "2026-09-02T04:01:16Z"
   }
 }

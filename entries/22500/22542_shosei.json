@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22542_shosei_ex1",
-      "japanese": "{処世|しょせい}{術|じゅつ}を{身|み}につける。",
+      "japanese": "{処世|しょせい}{術|じゅつ}⟦を→を：00422_wo⟧⟦{身|み}につける→身につける：03158_minitsukeru⟧。",
       "english": "To acquire the art of getting along in the world.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22542_shosei_ex2",
-      "japanese": "{彼女|かのじょ}は{処世|しょせい}がうまい{人|ひと}だ。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧{処世|しょせい}⟦が→が：00051_ga⟧⟦うまい→うまい：01279_umai⟧⟦{人|ひと}→人：00476_hito⟧だ。",
       "english": "She is a person who is good at navigating social life.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22542_shosei_ex3",
-      "japanese": "{父|ちち}はよく{処世|しょせい}{訓|くん}として「{敵|てき}を{作|つく}るな」と{言|い}っていた。",
+      "japanese": "⟦{父|ちち}→父：00566_chichi⟧⟦は→は：00079_ha⟧⟦よく→よく：00601_yoku⟧{処世|しょせい}{訓|くん}⟦として→として：06802_toshite⟧「⟦{敵|てき}→敵：03546_teki⟧⟦を→を：00422_wo⟧⟦{作|つく}る→作る：00481_tsukuru⟧な」⟦と→と：00512_to⟧⟦{言|い}っていた→言う：00515_iu⟧。",
       "english": "My father often used to say 'don't make enemies' as his advice for getting along in the world.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {処|しょ} (deal with, manage) + {世|せい} (the world, society). Most commonly encountered in the compound {処世|しょせい}{術|じゅつ} (the art of getting along in the world). The concept emphasizes practical social wisdom — knowing how to deal with people, when to compromise, and how to avoid unnecessary conflict.\n\nCOMMON COLLOCATIONS:\n- {処世|しょせい}{術|じゅつ}: art of worldly wisdom, social skills\n- {処世|しょせい}{訓|くん}: maxim for living, life advice\n- {処世|しょせい}がうまい: good at social navigation\n\nSIMILAR WORDS:\n- {世渡|よわた}り: getting by in life — a more everyday term for the same concept\n- {社交|しゃこう}{術|じゅつ}: social skills — specifically about interpersonal communication\n- {人付|ひとづ}き{合|あ}い: social relations — dealings with other people in general",
+  "notes": "Composed of {処|しょ} (deal with, manage) + {世|せい} (the world, society). Most commonly encountered in the compound {処世|しょせい}{術|じゅつ} (the art of getting along in the world). The concept emphasizes practical social wisdom — knowing how to deal with people, when to compromise, and how to avoid unnecessary conflict.\n\nCOMMON COLLOCATIONS:\n- {処世|しょせい}{術|じゅつ}: art of worldly wisdom, social skills\n- {処世|しょせい}{訓|くん}: maxim for living, life advice\n- {処世|しょせい}⟦が→が：00051_ga⟧⟦うまい→うまい：01279_umai⟧: good at social navigation\n\nSIMILAR WORDS:\n- ⟦{世渡|よわた}り→世渡り：07736_yowatari⟧: getting by in life — a more everyday term for the same concept\n- ⟦{社交|しゃこう}→社交：13742_shakou⟧⟦{術|じゅつ}→術：14265_jutsu⟧: social skills — specifically about interpersonal communication\n- ⟦{人付|ひとづ}き{合|あ}い→人付き合い：15516_hitozukiai⟧: social relations — dealings with other people in general",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07736_yowatari",
+      "reading": "よわたり",
+      "headword": "{世渡|よわた}り",
+      "label": "getting by in life"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15516_hitozukiai",
+      "reading": "ひとづきあい",
+      "headword": "{人付|ひとづ}き{合|あ}い",
+      "label": "social relations"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24443_seko",
+      "reading": "せこ",
+      "headword": "{世故|せこ}",
+      "label": "worldly wisdom"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +82,6 @@
       ]
     },
     "created": "2026-04-06T17:31:34Z",
-    "modified": "2026-04-10T08:28:27Z"
+    "modified": "2026-09-02T04:02:08Z"
   }
 }

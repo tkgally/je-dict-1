@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "18158_goutei_ex1",
-      "japanese": "{丘|おか}の{上|うえ}に{豪邸|ごうてい}が{建|た}っている。",
+      "japanese": "⟦{丘|おか}→丘：02183_oka⟧⟦の→の：09472_no⟧⟦{上|うえ}→上：00682_ue⟧⟦に→に：00314_ni⟧{豪邸|ごうてい}⟦が→が：00051_ga⟧⟦{建|た}っている→建つ：12544_tatsu⟧。",
       "english": "A mansion stands on top of the hill.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18158_goutei_ex2",
-      "japanese": "{有名|ゆうめい}な{俳優|はいゆう}が{豪邸|ごうてい}を{購入|こうにゅう}したらしい。",
+      "japanese": "⟦{有名|ゆうめい}→有名：01106_yuumei⟧な⟦{俳優|はいゆう}→俳優：03547_haiyuu⟧⟦が→が：00051_ga⟧{豪邸|ごうてい}⟦を→を：00422_wo⟧⟦{購入|こうにゅう}→購入：03057_kounyuu⟧⟦した→する：00392_suru⟧らしい。",
       "english": "Apparently a famous actor bought a mansion.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18158_goutei_ex3",
-      "japanese": "プールつきの{豪邸|ごうてい}に{住|す}むのが{子供|こども}の{頃|ころ}からの{夢|ゆめ}だった。",
+      "japanese": "⟦プール→プール：02958_puuru⟧つき⟦の→の：09472_no⟧{豪邸|ごうてい}⟦に→に：00314_ni⟧⟦{住|す}む→住む：00673_sumu⟧⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦{子供|こども}→子供：00554_kodomo⟧⟦の→の：09472_no⟧{頃|ころ}⟦から→から：00504_kara⟧⟦の→の：09472_no⟧⟦{夢|ゆめ}→夢：01519_yume⟧だった。",
       "english": "Living in a mansion with a pool has been my dream since I was a child.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nAlways implies wealth and luxury. Often appears in celebrity gossip, real estate features, and lifestyle media. Unlike {大|おお}きい{家|いえ} which simply describes size, {豪邸|ごうてい} conveys impressiveness and opulence.\n\nCOMMON COLLOCATIONS:\n- {豪邸|ごうてい}を{構|かま}える (to set up a grand residence)\n- {豪邸|ごうてい}{暮|ぐ}らし (life in a mansion)\n- {億|おく}ション{並|な}みの{豪邸|ごうてい} (a mansion rivaling a luxury condo)\n\nSIMILAR WORDS:\n- {邸宅|ていたく}: stately residence — formal, slightly more neutral; used in real estate and legal contexts\n- {屋敷|やしき}: estate — often implies a large property with grounds, can be old or traditional",
+  "notes": "USAGE:\nAlways implies wealth and luxury. Often appears in celebrity gossip, real estate features, and lifestyle media. Unlike ⟦{大|おお}きい→大きい：00335_ookii⟧⟦{家|いえ}→家：00612_ie⟧ which simply describes size, {豪邸|ごうてい} conveys impressiveness and opulence.\n\nCOMMON COLLOCATIONS:\n- {豪邸|ごうてい}⟦を→を：00422_wo⟧⟦{構|かま}える→構える：09567_kamaeru⟧ (to set up a grand residence)\n- {豪邸|ごうてい}{暮|ぐ}らし (life in a mansion)\n- {億|おく}ション{並|な}み⟦の→の：09472_no⟧{豪邸|ごうてい} (a mansion rivaling a luxury condo)\n\nSIMILAR WORDS:\n- ⟦{邸宅|ていたく}→邸宅：14434_teitaku⟧: stately residence — formal, slightly more neutral; used in real estate and legal contexts\n- ⟦{屋敷|やしき}→屋敷：12395_yashiki⟧: estate — often implies a large property with grounds, can be old or traditional",
   "cross_references": [
     {
       "type": "synonym",
@@ -53,18 +59,29 @@
       "reading": "やしき",
       "headword": "{屋敷|やしき}",
       "label": "estate, traditional"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26193_oyashiki",
+      "reading": "おやしき",
+      "headword": "お{屋敷|やしき}",
+      "label": "mansion"
     }
   ],
   "metadata": {
     "created": "2026-03-20T08:53:42Z",
-    "modified": "2026-05-08T06:14:38Z",
+    "modified": "2026-09-02T04:01:51Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["building"]
+      "semantic": [
+        "building"
+      ]
     }
   }
 }

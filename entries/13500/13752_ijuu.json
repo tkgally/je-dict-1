@@ -3,7 +3,7 @@
   "id": "13752_ijuu",
   "headword": "{移住|いじゅう}",
   "reading": "いじゅう",
-  "part_of_speech": "noun / suru verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "migration, relocation, immigration",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "13752_ijuu_ex1",
-      "japanese": "{海外|かいがい}に{移住|いじゅう}する。",
+      "japanese": "⟦{海外|かいがい}→海外：00134_kaigai⟧⟦に→に：00314_ni⟧{移住|いじゅう}⟦する→する：00392_suru⟧。",
       "english": "To emigrate overseas.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "13752_ijuu_ex2",
-      "japanese": "{定年後|ていねんご}、{田舎|いなか}に{移住|いじゅう}する{人|ひと}が{増|ふ}えている。",
+      "japanese": "{定年後|ていねんご}、⟦{田舎|いなか}→田舎：01320_inaka⟧⟦に→に：00314_ni⟧{移住|いじゅう}⟦する→する：00392_suru⟧⟦{人|ひと}→人：00476_hito⟧⟦が→が：00051_ga⟧⟦{増|ふ}えている→増える：01183_fueru⟧。",
       "english": "More and more people are relocating to the countryside after retirement.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "13752_ijuu_ex3",
-      "japanese": "{地方|ちほう}{自治体|じちたい}が{移住|いじゅう}{希望者|きぼうしゃ}に{向|む}けた{支援|しえん}{制度|せいど}を{整|ととの}えている。",
+      "japanese": "⟦{地方|ちほう}{自治体|じちたい}→地方自治体：19063_chihoujichitai⟧⟦が→が：00051_ga⟧{移住|いじゅう}⟦{希望者|きぼうしゃ}→希望者：03050_kibousha⟧⟦に→に：00314_ni⟧⟦{向|む}けた→向ける：02306_mukeru⟧⟦{支援|しえん}→支援：07778_shien⟧⟦{制度|せいど}→制度：03291_seido⟧⟦を→を：00422_wo⟧⟦{整|ととの}えている→整える：04259_totonoeru⟧。",
       "english": "Local governments are putting together support programs for people who want to relocate.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nCovers both international migration (emigration/immigration) and domestic relocation. In recent years, {移住|いじゅう} has been commonly used in Japan to refer to urban residents moving to rural areas, a trend encouraged by local governments.\n\nCOMMON COLLOCATIONS:\n- {海外|かいがい}{移住|いじゅう}: emigration overseas\n- {地方|ちほう}{移住|いじゅう}: relocation to the countryside\n- {移住|いじゅう}{先|さき}: destination of relocation\n- {移住|いじゅう}{者|しゃ}: immigrant, settler\n- {移住|いじゅう}{支援|しえん}: relocation support",
+  "notes": "USAGE:\nCovers both international migration (emigration/immigration) and domestic relocation. In recent years, {移住|いじゅう} has been commonly used in Japan to refer to urban residents moving to rural areas, a trend encouraged by local governments.\n\nCOMMON COLLOCATIONS:\n- {海外|かいがい}{移住|いじゅう}: emigration overseas\n- ⟦{地方|ちほう}→地方：02369_chihou⟧{移住|いじゅう}: relocation to the countryside\n- {移住|いじゅう}⟦{先|さき}→先：02883_saki⟧: destination of relocation\n- {移住|いじゅう}{者|しゃ}: immigrant, settler\n- {移住|いじゅう}⟦{支援|しえん}→支援：07778_shien⟧: relocation support",
   "cross_references": [
     {
       "type": "related",
@@ -142,11 +142,25 @@
       "headword": "{移転|いてん}",
       "label": "relocation (business/legal)",
       "target_id": "04000_iten"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19958_inakagurashi",
+      "reading": "いなかぐらし",
+      "headword": "{田舎暮|いなかぐ}らし",
+      "label": "country living"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24752_nyuushoku",
+      "reading": "にゅうしょく",
+      "headword": "{入植|にゅうしょく}",
+      "label": "settlement"
     }
   ],
   "metadata": {
     "created": "2026-02-26T14:25:20Z",
-    "modified": "2026-04-07T10:12:38Z",
+    "modified": "2026-09-02T04:01:34Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

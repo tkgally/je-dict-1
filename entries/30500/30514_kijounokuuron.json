@@ -3,7 +3,7 @@
   "headword": "机上の空論",
   "reading": "きじょうのくうろん",
   "romaji": "kijounokuuron",
-  "part_of_speech": "expression",
+  "part_of_speech": "expression, noun",
   "gloss": "armchair theory; impractical plan; pipe dream",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30514_kijounokuuron_ex1",
-      "japanese": "それは{机上|きじょう}の{空論|くうろん}だ。",
+      "japanese": "⟦それ→それ：00994_sore⟧⟦は→は：00079_ha⟧{机上|きじょう}の{空論|くうろん}だ。",
       "english": "That is just armchair theory.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30514_kijounokuuron_ex2",
-      "japanese": "{現場|げんば}を{知|し}らない{人|ひと}の{机上|きじょう}の{空論|くうろん}に{過|す}ぎない。",
+      "japanese": "⟦{現場|げんば}→現場：02723_genba⟧⟦を→を：00422_wo⟧⟦{知|し}らない→知る：00458_shiru⟧⟦{人|ひと}→人：00476_hito⟧⟦の→の：09472_no⟧{机上|きじょう}の{空論|くうろん}⟦に→に：00314_ni⟧⟦{過|す}ぎない→過ぎる：01219_sugiru⟧。",
       "english": "It is nothing more than armchair theorizing by someone who does not know the front line.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30514_kijounokuuron_ex3",
-      "japanese": "{予算|よさん}も{人手|ひとで}も{考|かんが}えていない{計画|けいかく}は、{机上|きじょう}の{空論|くうろん}に{終|お}わるだろう。",
+      "japanese": "⟦{予算|よさん}→予算：03663_yosan⟧⟦も→も：00484_mo⟧⟦{人手|ひとで}→人手：25438_hitode⟧⟦も→も：00484_mo⟧⟦{考|かんが}えていない→考える：00856_kangaeru⟧⟦{計画|けいかく}→計画：01172_keikaku⟧⟦は→は：00079_ha⟧、{机上|きじょう}の{空論|くうろん}⟦に→に：00314_ni⟧{終|お}わるだろう。",
       "english": "A plan that considers neither budget nor staffing will end up as an impractical theory.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "Literally \"empty argument on the desk\" — {机上|きじょう} (on the desk) + {空論|くうろん} (empty theory). The image is of a plan drawn up at a desk by someone who has never been to the site.\n\nCOMMON COLLOCATIONS:\n- {机上|きじょう}の{空論|くうろん}だ: that is armchair theory\n- {机上|きじょう}の{空論|くうろん}に{過|す}ぎない: to be nothing but armchair theory\n- {机上|きじょう}の{空論|くうろん}に{終|お}わる: to end up as an impractical idea\n\nUSAGE:\nThis is a blunt criticism. Directed at a superior or a client it will sound rude, so softer phrasings such as {現実的|げんじつてき}ではない (not realistic) are usually chosen in polite settings.",
+  "notes": "Literally \"empty argument on the desk\" — {机上|きじょう} (on the desk) + {空論|くうろん} (empty theory). The image is of a plan drawn up at a desk by someone who has never been to the site.\n\nCOMMON COLLOCATIONS:\n- {机上|きじょう}の{空論|くうろん}だ: that is armchair theory\n- {机上|きじょう}の{空論|くうろん}⟦に→に：00314_ni⟧⟦{過|す}ぎない→過ぎる：01219_sugiru⟧: to be nothing but armchair theory\n- {机上|きじょう}の{空論|くうろん}⟦に→に：00314_ni⟧{終|お}わる: to end up as an impractical idea\n\nUSAGE:\nThis is a blunt criticism. Directed at a superior or a client it will sound rude, so softer phrasings such as ⟦{現実的|げんじつてき}→現実的：04794_genjitsuteki⟧で⟦は→は：00079_ha⟧⟦ない→ない：01118_nai⟧ (not realistic) are usually chosen in polite settings.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "30500_risouron",
+      "reading": "りそうろん",
+      "headword": "{理想論|りそうろん}",
+      "label": "idealistic argument"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -54,7 +63,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "idiom",
         "cognition"
@@ -62,6 +71,6 @@
       "domain": []
     },
     "created": "2026-08-09T03:19:08Z",
-    "modified": "2026-08-09T03:19:08Z"
+    "modified": "2026-09-02T04:02:40Z"
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "20261_meatarashii_ex1",
-      "japanese": "{目新|めあたら}しいデザインだ。",
+      "japanese": "{目新|めあたら}しい⟦デザイン→デザイン：03860_dezain⟧だ。",
       "english": "That's a fresh design.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "20261_meatarashii_ex2",
-      "japanese": "この{店|みせ}には{目新|めあたら}しい{商品|しょうひん}がたくさんある。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{店|みせ}→店：00497_mise⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{目新|めあたら}しい⟦{商品|しょうひん}→商品：01436_shouhin⟧⟦が→が：00051_ga⟧⟦たくさん→たくさん：00597_takusan⟧⟦ある→ある：00006_aru⟧。",
       "english": "This shop has lots of novel products.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "20261_meatarashii_ex3",
-      "japanese": "{特|とく}に{目新|めあたら}しいことはないが、{安定|あんてい}した{内容|ないよう}だった。",
+      "japanese": "⟦{特|とく}に→特に：01260_tokuni⟧{目新|めあたら}しいこと⟦は→は：00079_ha⟧⟦ない→ない：01118_nai⟧⟦が→が：00051_ga⟧、⟦{安定|あんてい}→安定：01703_antei⟧⟦した→する：00392_suru⟧⟦{内容|ないよう}→内容：01482_naiyou⟧だった。",
       "english": "There was nothing particularly novel, but the content was solid.",
       "sense_numbers": [
         1
@@ -45,7 +45,7 @@
     },
     {
       "id": "20261_meatarashii_ex4",
-      "japanese": "{海外|かいがい}から{来|き}た{観光客|かんこうきゃく}には、すべてが{目新|めあたら}しく{映|うつ}るだろう。",
+      "japanese": "⟦{海外|かいがい}→海外：00134_kaigai⟧⟦から→から：00504_kara⟧⟦{来|き}た→来る：00254_kuru⟧⟦{観光客|かんこうきゃく}→観光客：03022_kankoukyaku⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧、すべて⟦が→が：00051_ga⟧{目新|めあたら}しく⟦{映|うつ}る→映る：12964_utsuru⟧だろう。",
       "english": "To tourists from abroad, everything must seem fresh and new.",
       "sense_numbers": [
         1
@@ -54,8 +54,24 @@
       "notes": null
     }
   ],
-  "notes": "Literally \"new to the eyes\" — describes something that strikes the observer as novel or unfamiliar. The focus is on the subjective impression of novelty rather than whether something is objectively new.\n\nUSAGE:\nOften used in negative constructions like {目新|めあたら}しいことはない (\"nothing new/novel\") to express that something is unremarkable or lacks originality. Can be used both positively (fresh, exciting) and neutrally.\n\nCOMMON COLLOCATIONS:\n- {目新|めあたら}しい{商品|しょうひん} — novel product\n- {目新|めあたら}しいアイデア — fresh idea\n- {目新|めあたら}しさがない — lacks novelty\n- {特|とく}に{目新|めあたら}しいことはない — nothing particularly new\n\nSIMILAR WORDS:\n- {新|あたら}しい — new (general, objective newness)\n- {斬新|ざんしん} — innovative, cutting-edge (stronger, more positive)\n- {珍|めずら}しい — rare, unusual (emphasizes rarity rather than novelty)",
+  "notes": "Literally \"new to the eyes\" — describes something that strikes the observer as novel or unfamiliar. The focus is on the subjective impression of novelty rather than whether something is objectively new.\n\nUSAGE:\nOften used in negative constructions like {目新|めあたら}しいこと⟦は→は：00079_ha⟧⟦ない→ない：01118_nai⟧ (\"nothing new/novel\") to express that something is unremarkable or lacks originality. Can be used both positively (fresh, exciting) and neutrally.\n\nCOMMON COLLOCATIONS:\n- {目新|めあたら}しい⟦{商品|しょうひん}→商品：01436_shouhin⟧ — novel product\n- {目新|めあたら}しい⟦アイデア→アイデア：10161_aidea⟧ — fresh idea\n- {目新|めあたら}しさ⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧ — lacks novelty\n- ⟦{特|とく}に→特に：01260_tokuni⟧{目新|めあたら}しいこと⟦は→は：00079_ha⟧⟦ない→ない：01118_nai⟧ — nothing particularly new\n\nSIMILAR WORDS:\n- ⟦{新|あたら}しい→新しい：00506_atarashii⟧ — new (general, objective newness)\n- ⟦{斬新|ざんしん}→斬新：09069_zanshin⟧ — innovative, cutting-edge (stronger, more positive)\n- ⟦{珍|めずら}しい→珍しい：01200_mezurashii⟧ — rare, unusual (emphasizes rarity rather than novelty)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09069_zanshin",
+      "reading": "ざんしん",
+      "headword": "{斬新|ざんしん}",
+      "label": "innovative, cutting-edge"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01200_mezurashii",
+      "reading": "めずらしい",
+      "headword": "{珍|めずら}しい",
+      "label": "rare, unusual"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -70,7 +86,7 @@
       ]
     },
     "created": "2026-03-28T19:13:02Z",
-    "modified": "2026-03-28T19:13:02Z"
+    "modified": "2026-09-02T04:01:59Z"
   },
   "conjugation": {
     "type": "i-adjective",

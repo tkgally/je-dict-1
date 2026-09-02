@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "14456_hougaku_ex1",
-      "japanese": "{邦楽|ほうがく}を{習|なら}う。",
+      "japanese": "{邦楽|ほうがく}⟦を→を：00422_wo⟧⟦{習|なら}う→習う：00479_narau⟧。",
       "english": "To study Japanese music.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "14456_hougaku_ex2",
-      "japanese": "{大学|だいがく}の{邦楽|ほうがく}サークルで{琴|こと}を{弾|ひ}いている。",
+      "japanese": "⟦{大学|だいがく}→大学：00608_daigaku⟧⟦の→の：09472_no⟧{邦楽|ほうがく}⟦サークル→サークル：10933_saakuru⟧⟦で→で：00502_de⟧⟦{琴|こと}→琴：02152_koto⟧⟦を→を：00422_wo⟧⟦{弾|ひ}いている→弾く：02444_hiku⟧。",
       "english": "I play the koto in my university's Japanese music club.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "14456_hougaku_ex3",
-      "japanese": "この{音楽祭|おんがくさい}では、{邦楽|ほうがく}と{洋楽|ようがく}の{両方|りょうほう}を{楽|たの}しむことができる。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{音楽祭|おんがくさい}→音楽祭：30660_ongakusai⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧、{邦楽|ほうがく}⟦と→と：00512_to⟧⟦{洋楽|ようがく}→洋楽：18619_yougaku⟧⟦の→の：09472_no⟧⟦{両方|りょうほう}→両方：01750_ryouhou⟧⟦を→を：00422_wo⟧⟦{楽|たの}しむ→楽しむ：01203_tanoshimu⟧こと⟦が→が：00051_ga⟧⟦できる→できる：00557_dekiru⟧。",
       "english": "At this music festival, you can enjoy both Japanese and Western music.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "USAGE:\n{邦楽|ほうがく} primarily refers to traditional Japanese music genres such as {雅楽|ががく} (court music), {能楽|のうがく} (Noh music), {長唄|ながうた} (a shamisen vocal genre), and {箏曲|そうきょく} (koto music). In some contexts, it may also include modern Japanese popular music (J-pop), though the traditional meaning is more common.\n\nCONTRAST:\n- {邦楽|ほうがく}: Japanese music\n- {洋楽|ようがく}: Western music\n\nCOMMON COLLOCATIONS:\n- {邦楽|ほうがく}{器|き} (traditional Japanese musical instrument)\n- {邦楽|ほうがく}{演奏|えんそう} (performance of Japanese music)\n- {邦楽|ほうがく}サークル (Japanese music club)\n\nNOTE ON HOMOPHONES:\nDo not confuse with {方角|ほうがく} (direction, compass bearing), which shares the same reading.",
+  "notes": "USAGE:\n{邦楽|ほうがく} primarily refers to traditional Japanese music genres such as ⟦{雅楽|ががく}→雅楽：27354_gagaku⟧ (court music), ⟦{能楽|のうがく}→能楽：14065_nougaku⟧ (Noh music), ⟦{長唄|ながうた}→長唄：28511_nagauta⟧ (a shamisen vocal genre), and {箏曲|そうきょく} (koto music). In some contexts, it may also include modern Japanese popular music (J-pop), though the traditional meaning is more common.\n\nSIMILAR WORDS:\n- {邦楽|ほうがく}: Japanese music\n- ⟦{洋楽|ようがく}→洋楽：18619_yougaku⟧: Western music\n\nCOMMON COLLOCATIONS:\n- {邦楽|ほうがく}{器|き} (traditional Japanese musical instrument)\n- {邦楽|ほうがく}⟦{演奏|えんそう}→演奏：01896_ensou⟧ (performance of Japanese music)\n- {邦楽|ほうがく}⟦サークル→サークル：10933_saakuru⟧ (Japanese music club)\n\nNOTE ON HOMOPHONES:\nDo not confuse with ⟦{方角|ほうがく}→方角：08447_hougaku⟧ (direction, compass bearing), which shares the same reading.",
   "cross_references": [
     {
       "type": "antonym",
@@ -52,11 +52,18 @@
       "reading": "ようがく",
       "headword": "{洋楽|ようがく}",
       "label": "Western music"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27354_gagaku",
+      "reading": "ががく",
+      "headword": "{雅楽|ががく}",
+      "label": "gagaku"
     }
   ],
   "metadata": {
     "created": "2026-03-01T09:57:24Z",
-    "modified": "2026-04-30T07:28:10Z",
+    "modified": "2026-09-02T04:01:37Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "00209_keido_ex1",
-      "japanese": "{日本|にほん}は{経度|けいど}135{度|ど}を{標準|ひょうじゅん}{時|じ}の{子午線|しごせん}に{採用|さいよう}している。",
+      "japanese": "⟦{日本|にほん}→日本：03876_nihon⟧⟦は→は：00079_ha⟧{経度|けいど}135⟦{度|ど}→〜度：09845_do⟧⟦を→を：00422_wo⟧⟦{標準|ひょうじゅん}{時|じ}→標準時：18871_hyoujunji⟧⟦の→の：09472_no⟧⟦{子午線|しごせん}→子午線：26054_shigosen⟧⟦に→に：00314_ni⟧⟦{採用|さいよう}→採用：04563_saiyou⟧⟦している→する：00392_suru⟧。",
       "english": "Japan uses 135 degrees longitude as the standard meridian.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "GEOGRAPHY:\n・⟦{東経|とうけい}→東経：10004_toukei⟧ (east longitude)\n・⟦{西経|せいけい}→西経：26196_seikei⟧ (west longitude)\n・{経度|けいど}0⟦{度|ど}→度：09845_do⟧ (0 degrees longitude - prime meridian)\n・⟦{本初|ほんしょ}{子午線|しごせん}→本初子午線：noentry⟧ (prime meridian - Greenwich)\n\nPAIR WORD:\n・⟦{緯度|いど}→緯度：03978_ido⟧ (latitude)\n\nEXPRESSIONS:\n・{経度|けいど}⟦と→と：00512_to⟧⟦{緯度|いど}→緯度：03978_ido⟧ (longitude and latitude)\n・⟦{経緯|けいい}→経緯：02782_keii⟧ (longitude and latitude - abbreviated form; also means 'circumstances')\n\nHISTORY: The measurement of longitude was a significant challenge in navigation history. Japan adopted the international standard with the prime meridian at Greenwich in 1886.\n\nNOTE: Japan spans from approximately 122°E to 154°E longitude.",
+  "notes": "GEOGRAPHY:\n- ⟦{東経|とうけい}→東経：10004_toukei⟧ (east longitude)\n- ⟦{西経|せいけい}→西経：26196_seikei⟧ (west longitude)\n- {経度|けいど}0⟦{度|ど}→度：09845_do⟧ (0 degrees longitude - prime meridian)\n- ⟦{本初|ほんしょ}{子午線|しごせん}→本初子午線：noentry⟧ (prime meridian - Greenwich)\n\nPAIR WORD:\n- ⟦{緯度|いど}→緯度：03978_ido⟧ (latitude)\n\nCOMMON EXPRESSIONS:\n- {経度|けいど}⟦と→と：00512_to⟧⟦{緯度|いど}→緯度：03978_ido⟧ (longitude and latitude)\n- ⟦{経緯|けいい}→経緯：02782_keii⟧ (longitude and latitude - abbreviated form; also means 'circumstances')\n\nHISTORY: The measurement of longitude was a significant challenge in navigation history. Japan adopted the international standard with the prime meridian at Greenwich in 1886.\n\nNOTE: Japan spans from approximately 122°E to 154°E longitude.",
   "prominent_see_also": [
     {
       "target_id": "03978_ido",
@@ -52,10 +52,39 @@
       "note": "latitude"
     }
   ],
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "10004_toukei",
+      "reading": "とうけい",
+      "headword": "{東経|とうけい}",
+      "label": "east longitude"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26002_keisen",
+      "reading": "けいせん",
+      "headword": "{経線|けいせん}",
+      "label": "meridian"
+    },
+    {
+      "type": "related",
+      "target_id": "26196_seikei",
+      "reading": "せいけい",
+      "headword": "{西経|せいけい}",
+      "label": "west longitude"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28323_henkousen",
+      "reading": "へんこうせん",
+      "headword": "{変更線|へんこうせん}",
+      "label": "International Date Line"
+    }
+  ],
   "metadata": {
     "created": "2026-01-13T10:53:53Z",
-    "modified": "2026-06-12T12:41:12Z",
+    "modified": "2026-09-02T04:00:57Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

@@ -15,41 +15,76 @@
   "examples": [
     {
       "id": "27197_teikikaigi_ex1",
-      "japanese": "{毎週|まいしゅう}{月曜日|げつようび}に{定期会議|ていきかいぎ}がある。",
+      "japanese": "⟦{毎週|まいしゅう}→毎週：00730_maishuu⟧⟦{月曜日|げつようび}→月曜日：00624_getsuyoubi⟧⟦に→に：00314_ni⟧{定期会議|ていきかいぎ}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There is a regular meeting every Monday.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27197_teikikaigi_ex2",
-      "japanese": "{今月|こんげつ}の{定期会議|ていきかいぎ}は{来週|らいしゅう}に{延期|えんき}された。",
+      "japanese": "⟦{今月|こんげつ}→今月：00720_kongetsu⟧⟦の→の：09472_no⟧{定期会議|ていきかいぎ}⟦は→は：00079_ha⟧⟦{来週|らいしゅう}→来週：00746_raishuu⟧⟦に→に：00314_ni⟧⟦{延期|えんき}→延期：01888_enki⟧⟦された→する：00392_suru⟧。",
       "english": "This month's regular meeting was postponed to next week.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27197_teikikaigi_ex3",
-      "japanese": "{部署間|ぶしょかん}の{定期会議|ていきかいぎ}を{通|つう}じて、{情報共有|じょうほうきょうゆう}と{連携|れんけい}を{強化|きょうか}している。",
+      "japanese": "{部署間|ぶしょかん}⟦の→の：09472_no⟧{定期会議|ていきかいぎ}⟦を→を：00422_wo⟧⟦{通|つう}じて→通じる：02289_tsuujiru⟧、⟦{情報共有|じょうほうきょうゆう}→情報共有：25347_jouhoukyouyuu⟧⟦と→と：00512_to⟧⟦{連携|れんけい}→連携：05094_renkei⟧⟦を→を：00422_wo⟧⟦{強化|きょうか}している→強化する：25344_kyoukasuru⟧。",
       "english": "Through regular inter-departmental meetings, we are strengthening information sharing and coordination.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {定期|ていき} (regular, periodic) + {会議|かいぎ} (meeting, conference). Standard workplace vocabulary for scheduled recurring meetings, in contrast to {臨時会議|りんじかいぎ} (ad hoc/emergency meetings).\n\nCOMMON COLLOCATIONS:\n- {定期会議|ていきかいぎ}を{開|ひら}く: to hold a regular meeting\n- {定期会議|ていきかいぎ}に{出席|しゅっせき}する: to attend a regular meeting\n- {月例|げつれい}{定期会議|ていきかいぎ}: monthly regular meeting\n- {定期会議|ていきかいぎ}の{議題|ぎだい}: agenda for the regular meeting\n\nSIMILAR WORDS:\n- {臨時会議|りんじかいぎ}: emergency/extraordinary meeting (unscheduled, called for urgent matters)\n- {定例会|ていれいかい}: regular meeting (shorter synonym, commonly used in local government and organizations)\n- {朝礼|ちょうれい}: morning assembly (brief daily gathering in Japanese companies)",
+  "notes": "A compound of ⟦{定期|ていき}→定期：03538_teiki⟧ (regular, periodic) + ⟦{会議|かいぎ}→会議：00710_kaigi⟧ (meeting, conference). Standard workplace vocabulary for scheduled recurring meetings, in contrast to ⟦{臨時会議|りんじかいぎ}→臨時会議：27192_rinjikaigi⟧ (ad hoc/emergency meetings).\n\nCOMMON COLLOCATIONS:\n- {定期会議|ていきかいぎ}⟦を→を：00422_wo⟧⟦{開|ひら}く→開く：01979_hiraku⟧: to hold a regular meeting\n- {定期会議|ていきかいぎ}⟦に→に：00314_ni⟧⟦{出席|しゅっせき}する→出席する：01830_shussekisuru⟧: to attend a regular meeting\n- ⟦{月例|げつれい}→月例：14940_getsurei⟧{定期会議|ていきかいぎ}: monthly regular meeting\n- {定期会議|ていきかいぎ}⟦の→の：09472_no⟧⟦{議題|ぎだい}→議題：11330_gidai⟧: agenda for the regular meeting\n\nSIMILAR WORDS:\n- ⟦{臨時会議|りんじかいぎ}→臨時会議：27192_rinjikaigi⟧: emergency/extraordinary meeting (unscheduled, called for urgent matters)\n- ⟦{定例会|ていれいかい}→定例会：17068_teireikai⟧: regular meeting (shorter synonym, commonly used in local government and organizations)\n- ⟦{朝礼|ちょうれい}→朝礼：16381_chourei⟧: morning assembly (brief daily gathering in Japanese companies)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "27192_rinjikaigi",
+      "reading": "りんじかいぎ",
+      "headword": "{臨時会議|りんじかいぎ}",
+      "label": "emergency/extraordinary meeting"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17068_teireikai",
+      "reading": "ていれいかい",
+      "headword": "{定例会|ていれいかい}",
+      "label": "regular meeting"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16381_chourei",
+      "reading": "ちょうれい",
+      "headword": "{朝礼|ちょうれい}",
+      "label": "morning assembly"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["work"],
-      "domain": ["business"]
+      "semantic": [
+        "work"
+      ],
+      "domain": [
+        "business"
+      ]
     },
     "created": "2026-05-07T15:23:27Z",
-    "modified": "2026-05-07T15:23:27Z"
+    "modified": "2026-09-02T04:02:29Z"
   }
 }

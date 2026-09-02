@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08278_jouro_ex1",
-      "japanese": "じょうろで{花|はな}に{水|みず}をやる。",
+      "japanese": "じょうろ⟦で→で：00502_de⟧⟦{花|はな}→花：00523_hana⟧⟦に→に：00314_ni⟧⟦{水|みず}→水：02258_mizu⟧⟦を→を：00422_wo⟧⟦やる→やる：02980_yaru⟧。",
       "english": "To water the flowers with a watering can.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "08278_jouro_ex2",
-      "japanese": "じょうろに{水|みず}を{入|い}れてきて。",
+      "japanese": "じょうろ⟦に→に：00314_ni⟧⟦{水|みず}→水：02258_mizu⟧⟦を→を：00422_wo⟧⟦{入|い}れて→入れる：01098_ireru⟧きて。",
       "english": "Go fill up the watering can.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "08278_jouro_ex3",
-      "japanese": "{子供|こども}が{小|ちい}さなじょうろで{植物|しょくぶつ}の{世話|せわ}をしている。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧⟦が→が：00051_ga⟧⟦{小|ちい}さな→小さな：02913_chiisana⟧じょうろ⟦で→で：00502_de⟧⟦{植物|しょくぶつ}→植物：03248_shokubutsu⟧⟦の→の：09472_no⟧⟦{世話|せわ}→世話：02088_sewa⟧⟦を→を：00422_wo⟧⟦している→する：00392_suru⟧。",
       "english": "The child is caring for plants with a small watering can.",
       "sense_numbers": [
         1
@@ -43,7 +43,37 @@
       "notes": null
     }
   ],
-  "notes": "A watering can with a spout used for plants. Usually written in hiragana.\n\nETYMOLOGY:\nFrom Portuguese \"jorro\" (spout/jet of water), introduced during the {江戸|えど}{時代|じだい}. Can also be written with the ateji {如雨露|じょうろ}, though hiragana is standard.\n\nCOMMON COLLOCATIONS:\n- じょうろで{水|みず}をやる: to water with a watering can\n- じょうろで{水|みず}をあげる: to water with a watering can (polite)\n- じょうろに{水|みず}を{入|い}れる: to fill the watering can\n\nRELATED TERMS:\n- {水|みず}やり: watering (plants)\n- ホース: garden hose\n- スプレー: spray bottle\n- {植木鉢|うえきばち}: flowerpot",
+  "notes": "A watering can with a spout used for plants. Usually written in hiragana.\n\nETYMOLOGY:\nFrom Portuguese \"jorro\" (spout/jet of water), introduced during the ⟦{江戸|えど}{時代|じだい}→江戸時代：20431_edojidai⟧. Can also be written with the ateji {如雨露|じょうろ}, though hiragana is standard.\n\nCOMMON COLLOCATIONS:\n- じょうろ⟦で→で：00502_de⟧⟦{水|みず}→水：02258_mizu⟧⟦を→を：00422_wo⟧⟦やる→やる：02980_yaru⟧: to water with a watering can\n- じょうろ⟦で→で：00502_de⟧⟦{水|みず}→水：02258_mizu⟧⟦を→を：00422_wo⟧⟦あげる→あげる：00546_ageru⟧: to water with a watering can (polite)\n- じょうろ⟦に→に：00314_ni⟧⟦{水|みず}→水：02258_mizu⟧⟦を→を：00422_wo⟧⟦{入|い}れる→入れる：01098_ireru⟧: to fill the watering can\n\nRELATED WORDS:\n- ⟦{水|みず}やり→水やり：06328_mizuyari⟧: watering (plants)\n- ⟦ホース→ホース：25876_hoosu⟧: garden hose\n- ⟦スプレー→スプレー：11581_supuree⟧: spray bottle\n- ⟦{植木鉢|うえきばち}→植木鉢：06329_uekibachi⟧: flowerpot",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "06328_mizuyari",
+      "reading": "みずやり",
+      "headword": "{水|みず}やり",
+      "label": "watering"
+    },
+    {
+      "type": "related",
+      "target_id": "25876_hoosu",
+      "reading": "ほーす",
+      "headword": "ホース",
+      "label": "garden hose"
+    },
+    {
+      "type": "related",
+      "target_id": "11581_supuree",
+      "reading": "すぷれー",
+      "headword": "スプレー",
+      "label": "spray bottle"
+    },
+    {
+      "type": "related",
+      "target_id": "06329_uekibachi",
+      "reading": "うえきばち",
+      "headword": "{植木鉢|うえきばち}",
+      "label": "flowerpot"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -51,12 +81,13 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "gardening",
         "daily-life"
       ]
     },
     "created": "2026-01-25T11:39:36Z",
-    "modified": "2026-08-11T21:34:29Z"
+    "modified": "2026-09-02T04:01:14Z"
   }
 }

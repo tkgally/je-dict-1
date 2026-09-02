@@ -15,41 +15,59 @@
   "examples": [
     {
       "id": "18087_moushiwakegozaimasen_ex1",
-      "japanese": "{大変|たいへん}{申|もう}し{訳|わけ}ございません。",
+      "japanese": "⟦{大変|たいへん}→大変：00594_taihen⟧{申|もう}し{訳|わけ}ございません。",
       "english": "I am terribly sorry.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18087_moushiwakegozaimasen_ex2",
-      "japanese": "お{待|ま}たせしてしまい、{申|もう}し{訳|わけ}ございません。",
+      "japanese": "⟦お{待|ま}たせ→お待たせ：27262_omatase⟧⟦して→する：00392_suru⟧しまい、{申|もう}し{訳|わけ}ございません。",
       "english": "I am sorry to have kept you waiting.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18087_moushiwakegozaimasen_ex3",
-      "japanese": "ご{迷惑|めいわく}をおかけして{誠|まこと}に{申|もう}し{訳|わけ}ございません。{今後|こんご}このようなことがないよう{十分|じゅうぶん}{注意|ちゅうい}いたします。",
+      "japanese": "⟦ご{迷惑|めいわく}→ご迷惑：28069_gomeiwaku⟧⟦を→を：00422_wo⟧おかけ⟦して→する：00392_suru⟧⟦{誠|まこと}→誠：27623_makoto⟧⟦に→に：00314_ni⟧{申|もう}し{訳|わけ}ございません。⟦{今後|こんご}→今後：02808_kongo⟧⟦この→この：00962_kono⟧ようなこと⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧よう⟦{十分|じゅうぶん}→十分：01614_juubun⟧⟦{注意|ちゅうい}→注意：01464_chuui⟧⟦いたします→いたす：01314_itasu⟧。",
       "english": "I sincerely apologize for the inconvenience. I will take every care to ensure this does not happen again.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nThe most formal standard apology in modern Japanese. Used extensively in business, customer service, and formal correspondence. Often accompanied by a deep bow.\n\nFORMALITY SCALE:\n- すみません (casual-polite)\n- {申|もう}し{訳|わけ}ありません (formal)\n- {申|もう}し{訳|わけ}ございません (very formal)\n\nCOMMON PATTERNS:\n- {大変|たいへん}{申|もう}し{訳|わけ}ございません (I am terribly sorry)\n- {誠|まこと}に{申|もう}し{訳|わけ}ございません (I sincerely apologize)\n- {申|もう}し{訳|わけ}ございませんが… (I'm sorry, but…) — used to make polite requests",
-  "cross_references": [],
+  "notes": "USAGE:\nThe most formal standard apology in modern Japanese. Used extensively in business, customer service, and formal correspondence. Often accompanied by a deep bow.\n\nFORMALITY SCALE:\n- すみません (casual-polite)\n- ⟦{申|もう}し{訳|わけ}ありません→申し訳ありません：21409_moushiwakearimasen⟧ (formal)\n- {申|もう}し{訳|わけ}ございません (very formal)\n\nCOMMON PATTERNS:\n- ⟦{大変|たいへん}→大変：00594_taihen⟧{申|もう}し{訳|わけ}ございません (I am terribly sorry)\n- ⟦{誠|まこと}→誠：27623_makoto⟧⟦に→に：00314_ni⟧{申|もう}し{訳|わけ}ございません (I sincerely apologize)\n- {申|もう}し{訳|わけ}ございません⟦が→が：00051_ga⟧… (I'm sorry, but…) — used to make polite requests",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "17552_osoreirimasu",
+      "reading": "おそれいります",
+      "headword": "{恐|おそ}れ{入|い}ります",
+      "label": "I'm sorry to trouble you"
+    }
+  ],
   "metadata": {
     "created": "2026-03-20T02:37:49Z",
-    "modified": "2026-03-20T02:37:49Z",
+    "modified": "2026-09-02T04:01:50Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["expression"],
+      "pos": [
+        "expression"
+      ],
       "formality": "formal",
       "politeness": "polite",
-      "semantic": ["greeting"]
+      "semantic": [
+        "greeting"
+      ]
     }
   }
 }

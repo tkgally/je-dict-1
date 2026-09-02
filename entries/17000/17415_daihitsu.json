@@ -3,7 +3,7 @@
   "id": "17415_daihitsu",
   "headword": "{代筆|だいひつ}",
   "reading": "だいひつ",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "writing on behalf of another",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "17415_daihitsu_ex1",
-      "japanese": "{母|はは}に{手紙|てがみ}を{代筆|だいひつ}した。",
+      "japanese": "⟦{母|はは}→母：00549_haha⟧⟦に→に：00314_ni⟧⟦{手紙|てがみ}→手紙：00675_tegami⟧⟦を→を：00422_wo⟧{代筆|だいひつ}⟦した→する：00392_suru⟧。",
       "english": "I wrote a letter on behalf of my mother.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "17415_daihitsu_ex2",
-      "japanese": "{怪我|けが}で{右手|みぎて}が{使|つか}えないので、{友人|ゆうじん}に{代筆|だいひつ}を{頼|たの}んだ。",
+      "japanese": "{怪我|けが}⟦で→で：00502_de⟧⟦{右手|みぎて}→右手：10438_migite⟧⟦が→が：00051_ga⟧⟦{使|つか}えない→使う：00473_tsukau⟧⟦の→の：09472_no⟧で、⟦{友人|ゆうじん}→友人：03649_yuujin⟧⟦に→に：00314_ni⟧{代筆|だいひつ}⟦を→を：00422_wo⟧⟦{頼|たの}んだ→頼む：01104_tanomu⟧。",
       "english": "Since I couldn't use my right hand due to an injury, I asked a friend to write for me.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "17415_daihitsu_ex3",
-      "japanese": "この{小説|しょうせつ}は{有名|ゆうめい}な{作家|さっか}の{名前|なまえ}で{出|で}たが、{実|じつ}は{代筆|だいひつ}だったらしい。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{小説|しょうせつ}→小説：01434_shousetsu⟧⟦は→は：00079_ha⟧⟦{有名|ゆうめい}→有名：01106_yuumei⟧な⟦{作家|さっか}→作家：01414_sakka⟧⟦の→の：09472_no⟧⟦{名前|なまえ}→名前：02234_namae⟧⟦で→で：00502_de⟧⟦{出|で}た→出る：00513_deru⟧⟦が→が：00051_ga⟧、⟦{実|じつ}→実：28344_jitsu⟧⟦は→は：00079_ha⟧{代筆|だいひつ}だったらしい。",
       "english": "This novel came out under a famous author's name, but apparently it was ghostwritten.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,26 @@
       ]
     }
   ],
-  "notes": "USAGE:\nCovers both practical situations (writing for someone who is injured or illiterate) and professional ghostwriting. Can be used as a noun or with する.\n\nCOMMON COLLOCATIONS:\n- {代筆|だいひつ}する (to write on behalf of)\n- {代筆|だいひつ}を{頼|たの}む (to ask someone to write for you)\n- {代筆|だいひつ}{者|しゃ} (ghostwriter, scribe)\n\nSIMILAR WORDS:\n- ゴーストライター: ghostwriter — specifically for professional authorship\n- {代書|だいしょ}: writing official documents on behalf of another (more formal/legal)",
-  "cross_references": [],
+  "notes": "USAGE:\nCovers both practical situations (writing for someone who is injured or illiterate) and professional ghostwriting. Can be used as a noun or with ⟦する→する：00392_suru⟧.\n\nCOMMON COLLOCATIONS:\n- {代筆|だいひつ}⟦する→する：00392_suru⟧ (to write on behalf of)\n- {代筆|だいひつ}⟦を→を：00422_wo⟧⟦{頼|たの}む→頼む：01104_tanomu⟧ (to ask someone to write for you)\n- {代筆|だいひつ}⟦{者|しゃ}→〜者：04662_sha⟧ (ghostwriter, scribe)\n\nSIMILAR WORDS:\n- ⟦ゴーストライター→ゴーストライター：27525_goosutoraitaa⟧: ghostwriter — specifically for professional authorship\n- ⟦{代書|だいしょ}→代書：18563_daisho⟧: writing official documents on behalf of another (more formal/legal)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "27525_goosutoraitaa",
+      "reading": "ごーすとらいたー",
+      "headword": "ゴーストライター",
+      "label": "ghostwriter"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18563_daisho",
+      "reading": "だいしょ",
+      "headword": "{代書|だいしょ}",
+      "label": "writing official documents on behalf…"
+    }
+  ],
   "metadata": {
     "created": "2026-03-17T23:15:57Z",
-    "modified": "2026-07-23T19:02:37Z",
+    "modified": "2026-09-02T04:01:48Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -151,7 +166,8 @@
       "semantic": [
         "communication"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

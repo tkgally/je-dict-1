@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "20487_shinkinkousoku_ex1",
-      "japanese": "{父|ちち}は{心筋梗塞|しんきんこうそく}で{倒|たお}れた。",
+      "japanese": "⟦{父|ちち}→父：00566_chichi⟧⟦は→は：00079_ha⟧{心筋梗塞|しんきんこうそく}⟦で→で：00502_de⟧⟦{倒|たお}れた→倒れる：01160_taoreru⟧。",
       "english": "My father collapsed from a heart attack.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "20487_shinkinkousoku_ex2",
-      "japanese": "{心筋梗塞|しんきんこうそく}の{症状|しょうじょう}には{胸|むね}の{痛|いた}みがある。",
+      "japanese": "{心筋梗塞|しんきんこうそく}⟦の→の：09472_no⟧⟦{症状|しょうじょう}→症状：03234_shoujou⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{胸|むね}→胸：00972_mune⟧⟦の→の：09472_no⟧⟦{痛|いた}み→痛み：01795_itami⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "Symptoms of a heart attack include chest pain.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "20487_shinkinkousoku_ex3",
-      "japanese": "{喫煙|きつえん}や{高血圧|こうけつあつ}は{心筋梗塞|しんきんこうそく}のリスクを{高|たか}める。",
+      "japanese": "⟦{喫煙|きつえん}→喫煙：17580_kitsuen⟧や⟦{高血圧|こうけつあつ}→高血圧：04415_kouketsuatsu⟧⟦は→は：00079_ha⟧{心筋梗塞|しんきんこうそく}⟦の→の：09472_no⟧⟦リスク→リスク：06752_risuku⟧⟦を→を：00422_wo⟧⟦{高|たか}める→高める：02065_takameru⟧。",
       "english": "Smoking and high blood pressure increase the risk of heart attack.",
       "sense_numbers": [
         1
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "A medical compound of {心筋|しんきん} (cardiac muscle, myocardium) + {梗塞|こうそく} (infarction, blockage). A critical medical term that Japanese learners may encounter in news, health discussions, and daily life.\n\nCOMMON COLLOCATIONS:\n- {急性|きゅうせい}{心筋梗塞|しんきんこうそく}: acute myocardial infarction\n- {心筋梗塞|しんきんこうそく}を{起|お}こす: to have a heart attack\n- {心筋梗塞|しんきんこうそく}で{亡|な}くなる: to die of a heart attack\n- {心筋梗塞|しんきんこうそく}の{予防|よぼう}: prevention of heart attacks\n\nRELATED WORDS:\n- {脳梗塞|のうこうそく}: cerebral infarction, stroke — blockage of blood flow to the brain\n- {狭心症|きょうしんしょう}: angina — chest pain caused by reduced blood flow to the heart, a warning sign\n- {心臓発作|しんぞうほっさ}: heart attack — a more colloquial equivalent using {発作|ほっさ} (attack, seizure)",
+  "notes": "A medical compound of {心筋|しんきん} (cardiac muscle, myocardium) + ⟦{梗塞|こうそく}→梗塞：24638_kousoku⟧ (infarction, blockage). A critical medical term that Japanese learners may encounter in news, health discussions, and daily life.\n\nCOMMON COLLOCATIONS:\n- ⟦{急性|きゅうせい}→急性：09015_kyuusei⟧{心筋梗塞|しんきんこうそく}: acute myocardial infarction\n- {心筋梗塞|しんきんこうそく}⟦を→を：00422_wo⟧⟦{起|お}こす→起こす：01234_okosu⟧: to have a heart attack\n- {心筋梗塞|しんきんこうそく}⟦で→で：00502_de⟧⟦{亡|な}くなる→亡くなる：02639_nakunaru⟧: to die of a heart attack\n- {心筋梗塞|しんきんこうそく}⟦の→の：09472_no⟧⟦{予防|よぼう}→予防：03669_yobou⟧: prevention of heart attacks\n\nRELATED WORDS:\n- {脳梗塞|のうこうそく}: cerebral infarction, stroke — blockage of blood flow to the brain\n- ⟦{狭心症|きょうしんしょう}→狭心症：28547_kyoushinshou⟧: angina — chest pain caused by reduced blood flow to the heart, a warning sign\n- {心臓発作|しんぞうほっさ}: heart attack — a more colloquial equivalent using ⟦{発作|ほっさ}→発作：15023_hossa⟧ (attack, seizure)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "28547_kyoushinshou",
+      "reading": "きょうしんしょう",
+      "headword": "{狭心症|きょうしんしょう}",
+      "label": "angina"
+    },
+    {
+      "type": "related",
+      "target_id": "24512_doumyakukouka",
+      "reading": "どうみゃくこうか",
+      "headword": "{動脈硬化|どうみゃくこうか}",
+      "label": "arteriosclerosis"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28546_shinfuzen",
+      "reading": "しんふぜん",
+      "headword": "{心不全|しんふぜん}",
+      "label": "heart failure"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28642_benmakushou",
+      "reading": "べんまくしょう",
+      "headword": "{弁膜症|べんまくしょう}",
+      "label": "valvular heart disease"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +89,6 @@
       ]
     },
     "created": "2026-03-29T15:24:07Z",
-    "modified": "2026-07-28T09:35:50Z"
+    "modified": "2026-09-02T04:01:59Z"
   }
 }

@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "19296_souki_ex1",
-      "japanese": "{過去|かこ}の{記憶|きおく}を{想起|そうき}する。",
+      "japanese": "⟦{過去|かこ}→過去：00152_kako⟧⟦の→の：09472_no⟧⟦{記憶|きおく}→記憶：00234_kioku⟧⟦を→を：00422_wo⟧{想起|そうき}⟦する→する：00392_suru⟧。",
       "english": "To recall past memories.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "19296_souki_ex2",
-      "japanese": "その{曲|きょく}を{聞|き}くと{学生|がくせい}{時代|じだい}を{想起|そうき}させられる。",
+      "japanese": "⟦その→その：00993_sono⟧⟦{曲|きょく}→曲：09881_kyoku⟧⟦を→を：00422_wo⟧⟦{聞|き}く→聞く：00483_kiku⟧⟦と→と：00512_to⟧⟦{学生|がくせい}→学生：00610_gakusei⟧⟦{時代|じだい}→時代：01424_jidai⟧⟦を→を：00422_wo⟧{想起|そうき}⟦させられる→する：00392_suru⟧。",
       "english": "Hearing that song makes me recall my student days.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "19296_souki_ex3",
-      "japanese": "{証人|しょうにん}は{事件|じけん}{当日|とうじつ}の{状況|じょうきょう}を{想起|そうき}するよう{求|もと}められた。",
+      "japanese": "⟦{証人|しょうにん}→証人：18845_shounin⟧⟦は→は：00079_ha⟧⟦{事件|じけん}→事件：01568_jiken⟧⟦{当日|とうじつ}→当日：04558_toujitsu⟧⟦の→の：09472_no⟧⟦{状況|じょうきょう}→状況：01576_joukyou⟧⟦を→を：00422_wo⟧{想起|そうき}⟦する→する：00392_suru⟧よう⟦{求|もと}められた→求める：02316_motomeru⟧。",
       "english": "The witness was asked to recall the circumstances on the day of the incident.",
       "sense_numbers": [
         1
@@ -134,8 +134,38 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {想|そう} (think, imagine) + {起|き} (arise). A formal word primarily used in writing. In everyday speech, {思|おも}い{出|だ}す is far more common.\n\nCOMMON COLLOCATIONS:\n- {想起|そうき}する — to recall, to recollect (する verb)\n- {想起|そうき}させる — to remind someone of, to evoke\n- {記憶|きおく}の{想起|そうき} — memory recall\n- {想起|そうき}{訓練|くんれん} — recall training\n\nSIMILAR WORDS:\n- {思|おも}い{出|だ}す — to remember, to recall (everyday word)\n- {回想|かいそう} — reminiscence, looking back (slightly literary)\n- {追憶|ついおく} — reminiscence, recollection (literary/poetic)\n- {連想|れんそう} — association (thinking of one thing from another)",
+  "notes": "Compound of {想|そう} (think, imagine) + {起|き} (arise). A formal word primarily used in writing. In everyday speech, ⟦{思|おも}い{出|だ}す→思い出す：01258_omoidasu⟧ is far more common.\n\nCOMMON COLLOCATIONS:\n- {想起|そうき}⟦する→する：00392_suru⟧ — to recall, to recollect (⟦する→する：00392_suru⟧ verb)\n- {想起|そうき}⟦させる→する：00392_suru⟧ — to remind someone of, to evoke\n- ⟦{記憶|きおく}→記憶：00234_kioku⟧⟦の→の：09472_no⟧{想起|そうき} — memory recall\n- {想起|そうき}⟦{訓練|くんれん}→訓練：02673_kunren⟧ — recall training\n\nSIMILAR WORDS:\n- ⟦{思|おも}い{出|だ}す→思い出す：01258_omoidasu⟧ — to remember, to recall (everyday word)\n- ⟦{回想|かいそう}→回想：11839_kaisou⟧ — reminiscence, looking back (slightly literary)\n- ⟦{追憶|ついおく}→追憶：15687_tsuioku⟧ — reminiscence, recollection (literary/poetic)\n- ⟦{連想|れんそう}→連想：03782_rensou⟧ — association (thinking of one thing from another)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01258_omoidasu",
+      "reading": "おもいだす",
+      "headword": "{思|おも}い{出|だ}す",
+      "label": "to remember, to recall"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11839_kaisou",
+      "reading": "かいそう",
+      "headword": "{回想|かいそう}",
+      "label": "reminiscence, looking back"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15687_tsuioku",
+      "reading": "ついおく",
+      "headword": "{追憶|ついおく}",
+      "label": "reminiscence, recollection"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03782_rensou",
+      "reading": "れんそう",
+      "headword": "{連想|れんそう}",
+      "label": "association"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -148,9 +178,10 @@
       "semantic": [
         "cognition"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-03-25T04:48:30Z",
-    "modified": "2026-03-25T04:48:30Z"
+    "modified": "2026-09-02T04:01:55Z"
   }
 }

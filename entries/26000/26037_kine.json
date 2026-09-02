@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26037_kine_ex1",
-      "japanese": "{杵|きね}で{餅|もち}をつく。",
+      "japanese": "{杵|きね}⟦で→で：00502_de⟧⟦{餅|もち}→餅：03900_mochi⟧⟦を→を：00422_wo⟧つく。",
       "english": "To pound mochi with a mallet.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26037_kine_ex2",
-      "japanese": "{子供|こども}たちが{重|おも}い{杵|きね}を{持|も}ち{上|あ}げた。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧たち⟦が→が：00051_ga⟧⟦{重|おも}い→重い：00804_omoi⟧{杵|きね}⟦を→を：00422_wo⟧⟦{持|も}ち{上|あ}げた→持ち上げる：02313_mochiageru⟧。",
       "english": "The children lifted the heavy mallet.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26037_kine_ex3",
-      "japanese": "{正月|しょうがつ}の{餅|もち}つきでは、{臼|うす}と{杵|きね}を{使|つか}って{餅|もち}をつくのが{伝統|でんとう}だ。",
+      "japanese": "⟦{正月|しょうがつ}→正月：01433_shougatsu⟧⟦の→の：09472_no⟧⟦{餅|もち}つき→餅つき：14676_mochitsuki⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧、⟦{臼|うす}→臼：26038_usu⟧⟦と→と：00512_to⟧{杵|きね}⟦を→を：00422_wo⟧⟦{使|つか}って→使う：00473_tsukau⟧⟦{餅|もち}→餅：03900_mochi⟧⟦を→を：00422_wo⟧つく⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦{伝統|でんとう}→伝統：09585_dentou⟧だ。",
       "english": "For New Year's mochi pounding, using a mortar and mallet to pound mochi is the tradition.",
       "sense_numbers": [
         1
@@ -44,19 +44,21 @@
       "notes": null
     }
   ],
-  "notes": "A heavy wooden mallet, typically made from a hard wood like keyaki ({欅|けやき}, zelkova). Used in {餅|もち}つき (mochi pounding), where one person swings the {杵|きね} and another turns the {餅|もち} in the {臼|うす} (mortar) between strikes. This rhythmic teamwork is a beloved tradition at New Year's events and community festivals.\n\nCOMMON COLLOCATIONS:\n- {杵|きね}で{餅|もち}をつく: to pound mochi with a mallet\n- {杵|きね}を{振|ふ}り{上|あ}げる: to raise the mallet high\n- {臼|うす}と{杵|きね}: mortar and mallet (always paired)\n\nCULTURAL NOTE:\nThe image of a rabbit pounding mochi with a {杵|きね} on the moon ({月|つき}のうさぎ) is a well-known Japanese folk motif. {餅|もち}つき events are common at temples, community centers, and schools around New Year's.\n\nRELATED TERMS:\n- {臼|うす}: the stone or wooden mortar used as a pair with the {杵|きね}\n- {餅|もち}つき: mochi pounding event",
+  "notes": "A heavy wooden mallet, typically made from a hard wood like keyaki (⟦{欅|けやき}→欅：27424_keyaki⟧, zelkova). Used in ⟦{餅|もち}つき→餅つき：14676_mochitsuki⟧ (mochi pounding), where one person swings the {杵|きね} and another turns the ⟦{餅|もち}→餅：03900_mochi⟧ in the ⟦{臼|うす}→臼：26038_usu⟧ (mortar) between strikes. This rhythmic teamwork is a beloved tradition at New Year's events and community festivals.\n\nCOMMON COLLOCATIONS:\n- {杵|きね}⟦で→で：00502_de⟧⟦{餅|もち}→餅：03900_mochi⟧⟦を→を：00422_wo⟧つく: to pound mochi with a mallet\n- {杵|きね}⟦を→を：00422_wo⟧{振|ふ}り{上|あ}げる: to raise the mallet high\n- ⟦{臼|うす}→臼：26038_usu⟧⟦と→と：00512_to⟧{杵|きね}: mortar and mallet (always paired)\n\nCULTURAL NOTE:\nThe image of a rabbit pounding mochi with a {杵|きね} on the moon (⟦{月|つき}→月：02230_tsuki⟧のうさぎ) is a well-known Japanese folk motif. ⟦{餅|もち}つき→餅つき：14676_mochitsuki⟧ events are common at temples, community centers, and schools around New Year's.\n\nRELATED WORDS:\n- ⟦{臼|うす}→臼：26038_usu⟧: the stone or wooden mortar used as a pair with the {杵|きね}\n- ⟦{餅|もち}つき→餅つき：14676_mochitsuki⟧: mochi pounding event",
   "metadata": {
     "tags": {
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "tool"
       ]
     },
     "vocabulary_tier": "general",
     "created": "2026-04-29T11:12:50Z",
-    "modified": "2026-04-29T11:12:50Z"
+    "modified": "2026-09-02T04:02:24Z"
   },
   "cross_references": [
     {
@@ -64,6 +66,13 @@
       "type": "related",
       "reading": "うす",
       "label": "paired tool for mochi pounding"
+    },
+    {
+      "type": "related",
+      "target_id": "14676_mochitsuki",
+      "reading": "もちつき",
+      "headword": "{餅|もち}つき",
+      "label": "mochi pounding event"
     }
   ]
 }

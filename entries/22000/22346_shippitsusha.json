@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22346_shippitsusha_ex1",
-      "japanese": "この{記事|きじ}の{執筆者|しっぴつしゃ}は{不明|ふめい}だ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{記事|きじ}→記事：00227_kiji⟧⟦の→の：09472_no⟧{執筆者|しっぴつしゃ}⟦は→は：00079_ha⟧⟦{不明|ふめい}→不明：11352_fumei⟧だ。",
       "english": "The author of this article is unknown.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22346_shippitsusha_ex2",
-      "japanese": "{執筆者|しっぴつしゃ}の{名前|なまえ}が{論文|ろんぶん}の{末尾|まつび}に{記載|きさい}されている。",
+      "japanese": "{執筆者|しっぴつしゃ}⟦の→の：09472_no⟧⟦{名前|なまえ}→名前：02234_namae⟧⟦が→が：00051_ga⟧⟦{論文|ろんぶん}→論文：03787_ronbun⟧⟦の→の：09472_no⟧⟦{末尾|まつび}→末尾：13065_matsubi⟧⟦に→に：00314_ni⟧⟦{記載|きさい}→記載：14169_kisai⟧⟦されている→する：00392_suru⟧。",
       "english": "The author's name is listed at the end of the paper.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22346_shippitsusha_ex3",
-      "japanese": "この{辞書|じしょ}は{百人|ひゃくにん}を{超|こ}える{執筆者|しっぴつしゃ}の{協力|きょうりょく}によって{完成|かんせい}した。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{辞書|じしょ}→辞書：04707_jisho⟧⟦は→は：00079_ha⟧⟦{百人|ひゃくにん}→百人：10985_hyakunin⟧⟦を→を：00422_wo⟧⟦{超|こ}える→超える：01942_koeru⟧{執筆者|しっぴつしゃ}⟦の→の：09472_no⟧⟦{協力|きょうりょく}→協力：00261_kyouryoku⟧⟦によって→によって：06801_niyotte⟧⟦{完成|かんせい}した→完成する：25528_kanseisuru⟧。",
       "english": "This dictionary was completed through the cooperation of over a hundred contributors.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "A formal term for the writer or author of a specific piece of writing. More specific than {作家|さっか} (novelist/writer as a profession) because it emphasizes the act of writing a particular work.\n\nCOMMON COLLOCATIONS:\n- {執筆者|しっぴつしゃ}{一覧|いちらん}: list of contributors\n- {執筆者|しっぴつしゃ}{紹介|しょうかい}: author introduction\n- {執筆者|しっぴつしゃ}{募集|ぼしゅう}: call for writers/contributors\n\nSIMILAR WORDS:\n- {著者|ちょしゃ}: author — emphasizes ownership of the work (used on book covers)\n- {作家|さっか}: writer, novelist — refers to writing as a profession\n- {筆者|ひっしゃ}: writer — used within a text to refer to oneself (the present writer)\n\nFORMATION:\n{執筆|しっぴつ} (writing, composing) + {者|しゃ} (person)",
+  "notes": "A formal term for the writer or author of a specific piece of writing. More specific than ⟦{作家|さっか}→作家：01414_sakka⟧ (novelist/writer as a profession) because it emphasizes the act of writing a particular work.\n\nCOMMON COLLOCATIONS:\n- {執筆者|しっぴつしゃ}⟦{一覧|いちらん}→一覧：17694_ichiran⟧: list of contributors\n- {執筆者|しっぴつしゃ}⟦{紹介|しょうかい}→紹介：01432_shoukai⟧: author introduction\n- {執筆者|しっぴつしゃ}⟦{募集|ぼしゅう}→募集：03035_boshuu⟧: call for writers/contributors\n\nSIMILAR WORDS:\n- ⟦{著者|ちょしゃ}→著者：03501_chosha⟧: author — emphasizes ownership of the work (used on book covers)\n- ⟦{作家|さっか}→作家：01414_sakka⟧: writer, novelist — refers to writing as a profession\n- ⟦{筆者|ひっしゃ}→筆者：04348_hissha⟧: writer — used within a text to refer to oneself (the present writer)\n\nFORMS:\n⟦{執筆|しっぴつ}→執筆：04194_shippitsu⟧ (writing, composing) + ⟦{者|しゃ}→〜者：04662_sha⟧ (person)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03501_chosha",
+      "reading": "ちょしゃ",
+      "headword": "{著者|ちょしゃ}",
+      "label": "author"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01414_sakka",
+      "reading": "さっか",
+      "headword": "{作家|さっか}",
+      "label": "writer, novelist"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22699_kikousha",
+      "reading": "きこうしゃ",
+      "headword": "{寄稿者|きこうしゃ}",
+      "label": "contributor"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +82,6 @@
       ]
     },
     "created": "2026-04-05T19:20:19Z",
-    "modified": "2026-04-10T08:28:27Z"
+    "modified": "2026-09-02T04:02:07Z"
   }
 }

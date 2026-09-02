@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "27589_yuuchoginkou_ex1",
-      "japanese": "ゆうちょ{銀行|ぎんこう}に{口座|こうざ}を{開|ひら}いた。",
+      "japanese": "ゆうちょ{銀行|ぎんこう}⟦に→に：00314_ni⟧⟦{口座|こうざ}→口座：05419_kouza⟧⟦を→を：00422_wo⟧⟦{開|ひら}いた→開く：01979_hiraku⟧。",
       "english": "I opened an account at Japan Post Bank.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "27589_yuuchoginkou_ex2",
-      "japanese": "{近|ちか}くの{郵便局|ゆうびんきょく}でゆうちょ{銀行|ぎんこう}のATMが{使|つか}える。",
+      "japanese": "{近|ちか}く⟦の→の：09472_no⟧⟦{郵便局|ゆうびんきょく}→郵便局：00579_yuubinkyoku⟧⟦で→で：00502_de⟧ゆうちょ{銀行|ぎんこう}⟦の→の：09472_no⟧ATM⟦が→が：00051_ga⟧⟦{使|つか}える→使う：00473_tsukau⟧。",
       "english": "You can use Japan Post Bank ATMs at the nearby post office.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "27589_yuuchoginkou_ex3",
-      "japanese": "{家賃|やちん}はゆうちょ{銀行|ぎんこう}の{口座|こうざ}から{自動的|じどうてき}に{引|ひ}き{落|お}とされる。",
+      "japanese": "⟦{家賃|やちん}→家賃：03639_yachin⟧⟦は→は：00079_ha⟧ゆうちょ{銀行|ぎんこう}⟦の→の：09472_no⟧⟦{口座|こうざ}→口座：05419_kouza⟧⟦から→から：00504_kara⟧⟦{自動的|じどうてき}→自動的：25589_jidouteki⟧⟦に→に：00314_ni⟧⟦{引|ひ}き{落|お}とされる→引き落とす：23710_hikiotosu⟧。",
       "english": "The rent is automatically debited from my Japan Post Bank account.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Spun off from the postal savings system in 2007 when Japan Post was privatized. The {郵便貯金|ゆうびんちょきん} (postal savings) it replaced is still a familiar term among older speakers.\n\nCOMMON COLLOCATIONS:\n- ゆうちょ{銀行|ぎんこう}の{口座|こうざ}: Japan Post Bank account\n- ゆうちょATM: Japan Post Bank ATM\n- ゆうちょ{銀行|ぎんこう}に{振|ふ}り{込|こ}む: to transfer to a Japan Post Bank account\n\nNOTE:\nWidely used because every post office across the country also functions as a branch counter. The {記号|きごう}-{番号|ばんごう} (5-digit symbol + 8-digit number) format of its accounts differs from ordinary bank account numbers and sometimes needs to be converted for transfers from other banks.",
+  "notes": "Spun off from the postal savings system in 2007 when Japan Post was privatized. The {郵便貯金|ゆうびんちょきん} (postal savings) it replaced is still a familiar term among older speakers.\n\nCOMMON COLLOCATIONS:\n- ゆうちょ{銀行|ぎんこう}⟦の→の：09472_no⟧⟦{口座|こうざ}→口座：05419_kouza⟧: Japan Post Bank account\n- ゆうちょATM: Japan Post Bank ATM\n- ゆうちょ{銀行|ぎんこう}⟦に→に：00314_ni⟧⟦{振|ふ}り{込|こ}む→振り込む：10992_furikomu⟧: to transfer to a Japan Post Bank account\n\nUSAGE:\nWidely used because every post office across the country also functions as a branch counter. The ⟦{記号|きごう}→記号：00224_kigou⟧-⟦{番号|ばんごう}→番号：02939_bangou⟧ (5-digit symbol + 8-digit number) format of its accounts differs from ordinary bank account numbers and sometimes needs to be converted for transfers from other banks.",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,7 +53,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "money",
         "finance",
@@ -64,6 +64,6 @@
       ]
     },
     "created": "2026-05-14T04:05:39Z",
-    "modified": "2026-08-07T16:10:18Z"
+    "modified": "2026-09-02T04:02:31Z"
   }
 }

@@ -20,7 +20,7 @@
   "examples": [
     {
       "id": "25144_kakochou_ex1",
-      "japanese": "お{寺|てら}で{過去帳|かこちょう}を{調|しら}べた。",
+      "japanese": "⟦お{寺|てら}→お寺：23515_otera⟧⟦で→で：00502_de⟧{過去帳|かこちょう}⟦を→を：00422_wo⟧⟦{調|しら}べた→調べる：01213_shiraberu⟧。",
       "english": "I checked the death register at the temple.",
       "sense_numbers": [
         1
@@ -30,7 +30,7 @@
     },
     {
       "id": "25144_kakochou_ex2",
-      "japanese": "{先祖|せんぞ}の{命日|めいにち}を{知|し}るために{過去帳|かこちょう}を{開|ひら}いた。",
+      "japanese": "⟦{先祖|せんぞ}→先祖：04040_senzo⟧⟦の→の：09472_no⟧⟦{命日|めいにち}→命日：17539_meinichi⟧⟦を→を：00422_wo⟧⟦{知|し}る→知る：00458_shiru⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧{過去帳|かこちょう}⟦を→を：00422_wo⟧⟦{開|ひら}いた→開く：01979_hiraku⟧。",
       "english": "I opened the family memorial record to find out the anniversary of my ancestor's death.",
       "sense_numbers": [
         1
@@ -40,7 +40,7 @@
     },
     {
       "id": "25144_kakochou_ex3",
-      "japanese": "この{過去帳|かこちょう}には{江戸時代|えどじだい}から{続|つづ}く{一族|いちぞく}の{記録|きろく}が{残|のこ}されている。",
+      "japanese": "⟦この→この：00962_kono⟧{過去帳|かこちょう}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{江戸時代|えどじだい}→江戸時代：20431_edojidai⟧⟦から→から：00504_kara⟧⟦{続|つづ}く→続く：00903_tsuzuku⟧⟦{一族|いちぞく}→一族：11229_ichizoku⟧⟦の→の：09472_no⟧⟦{記録|きろく}→記録：02490_kiroku⟧⟦が→が：00051_ga⟧⟦{残|のこ}されている→残す：01975_nokosu⟧。",
       "english": "This death register preserves records of the clan dating back to the Edo period.",
       "sense_numbers": [
         1
@@ -50,7 +50,7 @@
     },
     {
       "id": "25144_kakochou_ex4",
-      "japanese": "あの{会社|かいしゃ}はもう{過去帳|かこちょう}に{入|い}れてもいい。",
+      "japanese": "⟦あの→あの：00915_ano⟧⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦は→は：00079_ha⟧⟦もう→もう：00602_mou⟧{過去帳|かこちょう}⟦に→に：00314_ni⟧⟦{入|い}れて→入れる：01098_ireru⟧⟦も→も：00484_mo⟧⟦いい→いい：00118_ii⟧。",
       "english": "That company can be written off as a thing of the past.",
       "sense_numbers": [
         2
@@ -60,7 +60,7 @@
     },
     {
       "id": "25144_kakochou_ex5",
-      "japanese": "かつての{人気|にんき}{歌手|かしゅ}も、{今|いま}ではすっかり{過去帳|かこちょう}に{載|の}った{存在|そんざい}だ。",
+      "japanese": "⟦かつて→かつて：10303_katsute⟧⟦の→の：09472_no⟧⟦{人気|にんき}→人気：01488_ninki⟧⟦{歌手|かしゅ}→歌手：00197_kashu⟧⟦も→も：00484_mo⟧、⟦{今|いま}→今：00945_ima⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦すっかり→すっかり：01270_sukkari⟧{過去帳|かこちょう}⟦に→に：00314_ni⟧⟦{載|の}った→載る：27882_noru⟧⟦{存在|そんざい}→存在：03326_sonzai⟧だ。",
       "english": "The once-popular singer has now become a completely forgotten figure.",
       "sense_numbers": [
         2
@@ -70,7 +70,7 @@
     },
     {
       "id": "25144_kakochou_ex6",
-      "japanese": "あの{技術|ぎじゅつ}は{時代|じだい}の{流|なが}れとともに{過去帳|かこちょう}{入|い}りしてしまった。",
+      "japanese": "⟦あの→あの：00915_ano⟧⟦{技術|ぎじゅつ}→技術：01389_gijutsu⟧⟦は→は：00079_ha⟧⟦{時代|じだい}→時代：01424_jidai⟧⟦の→の：09472_no⟧⟦{流|なが}れ→流れ：03504_nagare⟧⟦とともに→とともに：30485_totomoni⟧{過去帳|かこちょう}{入|い}り⟦して→する：00392_suru⟧しまった。",
       "english": "That technology has been consigned to history along with the passage of time.",
       "sense_numbers": [
         2
@@ -79,20 +79,31 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {過去|かこ} (past, the dead) and {帳|ちょう} (notebook, register). Originally a Buddhist term for the register of the dead kept at temples, recording {戒名|かいみょう} (posthumous Buddhist names), dates of death, and secular names.\n\nThese records are important historical documents for tracing family lineage and are consulted during Buddhist memorial services ({法事|ほうじ}). In its figurative sense, {過去帳|かこちょう}に{入|い}る means to become obsolete or forgotten.\n\nCOMMON COLLOCATIONS:\n- {過去帳|かこちょう}を{調|しら}べる: to check the death register\n- {過去帳|かこちょう}に{記|しる}す: to record in the death register\n- {過去帳|かこちょう}に{入|い}る: to become a thing of the past\n- {過去帳|かこちょう}{入|い}り: being relegated to the past\n\nSIMILAR WORDS:\n- {位牌|いはい}: memorial tablet — a physical tablet placed on the Buddhist altar for the deceased\n- {家系図|かけいず}: family tree — a chart showing family lineage, not specifically for the deceased\n- {戒名|かいみょう}: posthumous Buddhist name — the name given to the deceased, recorded in the {過去帳|かこちょう}",
+  "notes": "A compound of ⟦{過去|かこ}→過去：00152_kako⟧ (past, the dead) and ⟦{帳|ちょう}→帳：10012_chou⟧ (notebook, register). Originally a Buddhist term for the register of the dead kept at temples, recording {戒名|かいみょう} (posthumous Buddhist names), dates of death, and secular names.\n\nThese records are important historical documents for tracing family lineage and are consulted during Buddhist memorial services (⟦{法事|ほうじ}→法事：05634_houji⟧). In its figurative sense, {過去帳|かこちょう}⟦に→に：00314_ni⟧{入|い}る means to become obsolete or forgotten.\n\nCOMMON COLLOCATIONS:\n- {過去帳|かこちょう}⟦を→を：00422_wo⟧⟦{調|しら}べる→調べる：01213_shiraberu⟧: to check the death register\n- {過去帳|かこちょう}⟦に→に：00314_ni⟧⟦{記|しる}す→記す：14238_shirusu⟧: to record in the death register\n- {過去帳|かこちょう}⟦に→に：00314_ni⟧{入|い}る: to become a thing of the past\n- {過去帳|かこちょう}{入|い}り: being relegated to the past\n\nSIMILAR WORDS:\n- ⟦{位牌|いはい}→位牌：07132_ihai⟧: memorial tablet — a physical tablet placed on the Buddhist altar for the deceased\n- {家系図|かけいず}: family tree — a chart showing family lineage, not specifically for the deceased\n- {戒名|かいみょう}: posthumous Buddhist name — the name given to the deceased, recorded in the {過去帳|かこちょう}",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07132_ihai",
+      "reading": "いはい",
+      "headword": "{位牌|いはい}",
+      "label": "memorial tablet"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "religion",
         "culture"
       ]
     },
     "created": "2026-04-23T12:25:30Z",
-    "modified": "2026-08-04T12:59:53Z"
+    "modified": "2026-09-02T04:02:21Z"
   }
 }

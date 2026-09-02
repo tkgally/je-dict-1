@@ -3,7 +3,7 @@
   "headword": "マウンティング",
   "reading": "まうんてぃんぐ",
   "romaji": "mauntingu",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "one-upmanship; asserting dominance",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22111_mauntingu_ex1",
-      "japanese": "それはマウンティングだよ。",
+      "japanese": "⟦それ→それ：00994_sore⟧⟦は→は：00079_ha⟧マウンティングだ⟦よ→よ：09475_yo⟧。",
       "english": "That's just one-upmanship.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22111_mauntingu_ex2",
-      "japanese": "SNSでマウンティングする{人|ひと}が{多|おお}い。",
+      "japanese": "SNS⟦で→で：00502_de⟧マウンティング⟦する→する：00392_suru⟧⟦{人|ひと}→人：00476_hito⟧⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "There are a lot of people who try to one-up others on social media.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22111_mauntingu_ex3",
-      "japanese": "{自分|じぶん}の{子供|こども}の{成績|せいせき}を{自慢|じまん}するのは、ただのマウンティングにしか{聞|き}こえない。",
+      "japanese": "⟦{自分|じぶん}→自分：02887_jibun⟧⟦の→の：09472_no⟧⟦{子供|こども}→子供：00554_kodomo⟧⟦の→の：09472_no⟧⟦{成績|せいせき}→成績：03379_seiseki⟧⟦を→を：00422_wo⟧⟦{自慢|じまん}→自慢：03278_jiman⟧⟦する→する：00392_suru⟧⟦の→の：09472_no⟧⟦は→は：00079_ha⟧、⟦ただ→ただ：01613_tada⟧⟦の→の：09472_no⟧マウンティング⟦に→に：00314_ni⟧しか⟦{聞|き}こえない→聞こえる：01229_kikoeru⟧。",
       "english": "Bragging about your child's grades just sounds like one-upmanship.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Originally from animal behavior terminology (mounting to establish dominance), this loanword gained wide currency in Japanese from around 2015 as a buzzword describing competitive social behavior among humans. It is now commonly used in casual conversation, social media, and pop psychology.\n\nThe abbreviated form マウント is also very common, especially in the phrase マウントを{取|と}る (to assert dominance).\n\nCOMMON COLLOCATIONS:\n- マウンティングする: to engage in one-upmanship\n- マウントを{取|と}る: to assert dominance, to one-up someone\n- マウンティング{女子|じょし}: women who one-up each other\n- {無意識|むいしき}のマウンティング: unconscious one-upmanship\n\nSIMILAR WORDS:\n- {自慢|じまん}: boasting — straightforward bragging, while マウンティング implies a competitive dynamic\n- マウント: mount — shortened form used in the same way\n- {見栄|みえ}を{張|は}る: to put on airs — trying to look better than one is, but without the competitive element",
+  "notes": "Originally from animal behavior terminology (mounting to establish dominance), this loanword gained wide currency in Japanese from around 2015 as a buzzword describing competitive social behavior among humans. It is now commonly used in casual conversation, social media, and pop psychology.\n\nThe abbreviated form ⟦マウント→マウント：05983_maunto⟧ is also very common, especially in the phrase ⟦マウントを{取|と}る→マウントを取る：23480_mauntowotoru⟧ (to assert dominance).\n\nCOMMON COLLOCATIONS:\n- マウンティング⟦する→する：00392_suru⟧: to engage in one-upmanship\n- ⟦マウントを{取|と}る→マウントを取る：23480_mauntowotoru⟧: to assert dominance, to one-up someone\n- マウンティング⟦{女子|じょし}→女子：03350_joshi⟧: women who one-up each other\n- ⟦{無意識|むいしき}→無意識：05813_muishiki⟧⟦の→の：09472_no⟧マウンティング: unconscious one-upmanship\n\nSIMILAR WORDS:\n- ⟦{自慢|じまん}→自慢：03278_jiman⟧: boasting — straightforward bragging, while マウンティング implies a competitive dynamic\n- ⟦マウント→マウント：05983_maunto⟧: mount — shortened form used in the same way\n- ⟦{見栄|みえ}を{張|は}る→見栄を張る：15322_miewoharu⟧: to put on airs — trying to look better than one is, but without the competitive element",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03278_jiman",
+      "reading": "じまん",
+      "headword": "{自慢|じまん}",
+      "label": "boasting"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05983_maunto",
+      "reading": "まうんと",
+      "headword": "マウント",
+      "label": "mount"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15322_miewoharu",
+      "reading": "みえをはる",
+      "headword": "{見栄|みえ}を{張|は}る",
+      "label": "to put on airs"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,7 +84,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-05T02:21:17Z",
-    "modified": "2026-07-30T03:35:34Z"
+    "modified": "2026-09-02T04:02:06Z"
   },
   "conjugation": {
     "type": "suru",

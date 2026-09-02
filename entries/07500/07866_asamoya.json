@@ -14,39 +14,94 @@
   "examples": [
     {
       "id": "07866_asamoya_ex1",
-      "japanese": "{朝靄|あさもや}が{立|た}ち{込|こ}めている。",
+      "japanese": "{朝靄|あさもや}⟦が→が：00051_ga⟧{立|た}ち{込|こ}めて⟦いる→いる：00495_iru⟧。",
       "english": "The morning mist is settling in.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "07866_asamoya_ex2",
-      "japanese": "{朝靄|あさもや}の{中|なか}を{散歩|さんぽ}した。",
+      "japanese": "{朝靄|あさもや}⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧⟦を→を：00422_wo⟧⟦{散歩|さんぽ}した→散歩する：26840_sanposuru⟧。",
       "english": "I took a walk through the morning mist.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "07866_asamoya_ex3",
-      "japanese": "{山|やま}から{昇|のぼ}る{朝日|あさひ}が{朝靄|あさもや}を{照|て}らして{幻想的|げんそうてき}だった。",
+      "japanese": "⟦{山|やま}→山：02168_yama⟧⟦から→から：00504_kara⟧⟦{昇|のぼ}る→昇る：12960_noboru⟧⟦{朝日|あさひ}→朝日：23495_asahi⟧⟦が→が：00051_ga⟧{朝靄|あさもや}⟦を→を：00422_wo⟧⟦{照|て}らして→照らす：04669_terasu⟧⟦{幻想的|げんそうてき}→幻想的：25756_gensouteki⟧だった。",
       "english": "The morning sun rising from the mountain illuminated the mist, creating a fantastic scene.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "{朝靄|あさもや} is a poetic word for morning mist, often used in literary or atmospheric descriptions.\n\nCOMPOSITION:\n- {朝|あさ}: Morning\n- {靄|もや}: Mist, haze\n\nRELATED WEATHER TERMS:\n- {霧|きり} (fog - thicker than {靄|もや})\n- {靄|もや} (mist, haze - thinner than fog)\n- {霞|かすみ} (haze - often spring-related)\n- {朝霧|あさぎり} (morning fog - denser than {朝靄|あさもや})\n\nLITERARY USAGE:\n{朝靄|あさもや} evokes a sense of quiet beauty and is commonly used in:\n- Nature descriptions\n- Poetry and prose\n- Travel writing about rural Japan\n\nCOMMON COLLOCATIONS:\n- {朝靄|あさもや}が{立|た}つ (morning mist rises)\n- {朝靄|あさもや}が{晴|は}れる (morning mist clears)\n- {朝靄|あさもや}に{包|つつ}まれる (to be enveloped in morning mist)\n\nREGISTER: Literary/poetic. Used in descriptive or artistic contexts.",
+  "notes": "{朝靄|あさもや} is a poetic word for morning mist, often used in literary or atmospheric descriptions.\n\nETYMOLOGY:\n- ⟦{朝|あさ}→朝：02277_asa⟧: Morning\n- ⟦{靄|もや}→靄：06506_moya⟧: Mist, haze\n\nRELATED WEATHER TERMS:\n- ⟦{霧|きり}→霧：02200_kiri⟧ (fog - thicker than ⟦{靄|もや}→靄：06506_moya⟧)\n- ⟦{靄|もや}→靄：06506_moya⟧ (mist, haze - thinner than fog)\n- ⟦{霞|かすみ}→霞：05042_kasumi⟧ (haze - often spring-related)\n- ⟦{朝霧|あさぎり}→朝霧：21348_asagiri⟧ (morning fog - denser than {朝靄|あさもや})\n\nLITERARY USAGE:\n{朝靄|あさもや} evokes a sense of quiet beauty and is commonly used in:\n- Nature descriptions\n- Poetry and prose\n- Travel writing about rural Japan\n\nCOMMON COLLOCATIONS:\n- {朝靄|あさもや}⟦が→が：00051_ga⟧⟦{立|た}つ→立つ：00758_tatsu⟧ (morning mist rises)\n- {朝靄|あさもや}⟦が→が：00051_ga⟧⟦{晴|は}れる→晴れる：00701_hareru⟧ (morning mist clears)\n- {朝靄|あさもや}⟦に→に：00314_ni⟧⟦{包|つつ}まれる→包む：01226_tsutsumu⟧ (to be enveloped in morning mist)\n\nREGISTER: Literary/poetic. Used in descriptive or artistic contexts.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "02200_kiri",
+      "reading": "きり",
+      "headword": "{霧|きり}",
+      "label": "fog"
+    },
+    {
+      "type": "related",
+      "target_id": "05042_kasumi",
+      "reading": "かすみ",
+      "headword": "{霞|かすみ}",
+      "label": "haze"
+    },
+    {
+      "type": "related",
+      "target_id": "21348_asagiri",
+      "reading": "あさぎり",
+      "headword": "{朝霧|あさぎり}",
+      "label": "morning fog"
+    },
+    {
+      "type": "related",
+      "target_id": "07378_noumu",
+      "reading": "のうむ",
+      "headword": "{濃霧|のうむ}",
+      "label": "dense fog"
+    },
+    {
+      "type": "related",
+      "target_id": "08012_asatsuyu",
+      "reading": "あさつゆ",
+      "headword": "{朝露|あさつゆ}",
+      "label": "morning dew"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21349_yuumoya",
+      "reading": "ゆうもや",
+      "headword": "{夕靄|ゆうもや}",
+      "label": "evening haze"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["weather", "nature"]
+      "semantic": [
+        "weather",
+        "nature"
+      ]
     },
     "created": "2026-01-21T13:22:38Z",
-    "modified": "2026-01-21T13:22:38Z"
+    "modified": "2026-09-02T04:01:13Z"
   }
 }

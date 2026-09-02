@@ -15,41 +15,83 @@
   "examples": [
     {
       "id": "27208_techigai_ex1",
-      "japanese": "{手違|てちが}いで{荷物|にもつ}が{届|とど}かなかった。",
+      "japanese": "{手違|てちが}い⟦で→で：00502_de⟧⟦{荷物|にもつ}→荷物：00737_nimotsu⟧⟦が→が：00051_ga⟧⟦{届|とど}かなかった→届く：00899_todoku⟧。",
       "english": "Due to a mix-up, the package didn't arrive.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27208_techigai_ex2",
-      "japanese": "{予約|よやく}に{手違|てちが}いがあったようです。",
+      "japanese": "⟦{予約|よやく}→予約：01522_yoyaku⟧⟦に→に：00314_ni⟧{手違|てちが}い⟦が→が：00051_ga⟧⟦あった→ある：00006_aru⟧ようです。",
       "english": "It seems there was a mistake with the reservation.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27208_techigai_ex3",
-      "japanese": "{事務|じむ}{手続|てつづ}きの{手違|てちが}いで、{書類|しょるい}が{二重|にじゅう}に{発行|はっこう}されてしまった。",
+      "japanese": "⟦{事務|じむ}→事務：11418_jimu⟧⟦{手続|てつづ}き→手続き：05453_tetsuzuki⟧⟦の→の：09472_no⟧{手違|てちが}いで、⟦{書類|しょるい}→書類：01103_shorui⟧⟦が→が：00051_ga⟧⟦{二重|にじゅう}→二重：16893_nijuu⟧⟦に→に：00314_ni⟧⟦{発行|はっこう}→発行：03693_hakkou⟧⟦されて→する：00392_suru⟧しまった。",
       "english": "Due to an administrative error, the documents were issued twice.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A polite, blame-deflecting word for mistakes — commonly used in customer service, business, and formal apologies. By attributing the problem to a \"procedural error\" rather than personal negligence, it softens responsibility. Composed of {手|て} (hand/process) + {違|ちが}い (difference/error).\n\nCOMMON COLLOCATIONS:\n- {手違|てちが}いがある: there is a mistake\n- {手違|てちが}いで: due to a mistake/error\n- {手違|てちが}いが{生|しょう}じる: a mistake occurs\n- {事務的|じむてき}な{手違|てちが}い: an administrative error\n- {手違|てちが}いをお{詫|わ}びする: to apologize for a mistake\n\nSIMILAR WORDS:\n- {間違|まちが}い: mistake; error — the most general word for mistakes of any kind\n- {行|い}き{違|ちが}い: miscommunication; crossing paths — emphasizes two parties failing to connect properly\n- {勘違|かんちが}い: misunderstanding — a mistake in one's understanding or assumption\n- ミス: mistake — a casual loanword for errors, especially at work",
+  "notes": "A polite, blame-deflecting word for mistakes — commonly used in customer service, business, and formal apologies. By attributing the problem to a \"procedural error\" rather than personal negligence, it softens responsibility. Composed of ⟦{手|て}→手：00569_te⟧ (hand/process) + ⟦{違|ちが}い→違い：03432_chigai⟧ (difference/error).\n\nCOMMON COLLOCATIONS:\n- {手違|てちが}い⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧: there is a mistake\n- {手違|てちが}い⟦で→で：00502_de⟧: due to a mistake/error\n- {手違|てちが}い⟦が→が：00051_ga⟧⟦{生|しょう}じる→生じる：02118_shoujiru⟧: a mistake occurs\n- {事務的|じむてき}な{手違|てちが}い: an administrative error\n- {手違|てちが}い⟦を→を：00422_wo⟧⟦お{詫|わ}びする→お詫びする：28881_owabisuru⟧: to apologize for a mistake\n\nSIMILAR WORDS:\n- ⟦{間違|まちが}い→間違い：03733_machigai⟧: mistake; error — the most general word for mistakes of any kind\n- ⟦{行|い}き{違|ちが}い→行き違い：09985_ikichigai⟧: miscommunication; crossing paths — emphasizes two parties failing to connect properly\n- ⟦{勘違|かんちが}い→勘違い：17609_kanchigai⟧: misunderstanding — a mistake in one's understanding or assumption\n- ⟦ミス→ミス：00285_misu⟧: mistake — a casual loanword for errors, especially at work",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03733_machigai",
+      "reading": "まちがい",
+      "headword": "{間違|まちが}い",
+      "label": "mistake"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09985_ikichigai",
+      "reading": "いきちがい",
+      "headword": "{行|い}き{違|ちが}い",
+      "label": "miscommunication"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17609_kanchigai",
+      "reading": "かんちがい",
+      "headword": "{勘違|かんちが}い",
+      "label": "misunderstanding"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00285_misu",
+      "reading": "みす",
+      "headword": "ミス",
+      "label": "mistake"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["business"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "business"
+      ]
     },
     "created": "2026-05-07T16:12:35Z",
-    "modified": "2026-05-07T16:12:35Z"
+    "modified": "2026-09-02T04:02:29Z"
   }
 }

@@ -3,7 +3,7 @@
   "headword": "やせ{細|ほそ}る",
   "reading": "やせほそる",
   "romaji": "yasehosoru",
-  "part_of_speech": "verb-godan",
+  "part_of_speech": "verb (godan)",
   "gloss": "to become emaciated; to waste away; to grow thin",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22522_yasehosoru_ex1",
-      "japanese": "{病気|びょうき}でやせ{細|ほそ}ってしまった。",
+      "japanese": "⟦{病気|びょうき}→病気：00771_byouki⟧⟦で→で：00502_de⟧やせ{細|ほそ}ってしまった。",
       "english": "I wasted away from illness.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22522_yasehosoru_ex2",
-      "japanese": "やせ{細|ほそ}った{猫|ねこ}が{道端|みちばた}にいた。",
+      "japanese": "やせ{細|ほそ}った⟦{猫|ねこ}→猫：02237_neko⟧⟦が→が：00051_ga⟧⟦{道端|みちばた}→道端：28126_michibata⟧にいた。",
       "english": "An emaciated cat was by the roadside.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22522_yasehosoru_ex3",
-      "japanese": "{入院|にゅういん}{中|ちゅう}にすっかりやせ{細|ほそ}って、{退院|たいいん}{後|ご}は{服|ふく}がぶかぶかになっていた。",
+      "japanese": "⟦{入院|にゅういん}→入院：02091_nyuuin⟧⟦{中|ちゅう}→〜中：09840_chuu⟧⟦に→に：00314_ni⟧⟦すっかり→すっかり：01270_sukkari⟧やせ{細|ほそ}って、⟦{退院|たいいん}→退院：02090_taiin⟧⟦{後|ご}→後：30157_go⟧⟦は→は：00079_ha⟧⟦{服|ふく}→服：00695_fuku⟧⟦が→が：00051_ga⟧⟦ぶかぶか→ぶかぶか：20573_bukabuka⟧になっていた。",
       "english": "During the hospital stay, I wasted away so much that after discharge my clothes were baggy.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "An emphatic compound verb formed from やせる (to lose weight) and {細|ほそ}る (to become thin). It conveys a more extreme, pitiable state of thinness than やせる alone — not simply being slim, but being unhealthily thin. Often used sympathetically to describe someone who has suffered.\n\nCOMMON COLLOCATIONS:\n- やせ{細|ほそ}った{体|からだ}: an emaciated body\n- やせ{細|ほそ}った{腕|うで}: thin, wasted arms\n- すっかりやせ{細|ほそ}る: to waste away completely\n- みるみるやせ{細|ほそ}る: to waste away visibly\n\nSIMILAR WORDS:\n- やせる: to lose weight; to become thin — the standard, neutral verb for getting thinner\n- {痩|や}せこける: to be gaunt; to be skin and bones — even more extreme than やせ{細|ほそ}る\n- げっそりする: to become haggard — an onomatopoeic expression emphasizing a drawn, hollow-cheeked appearance",
+  "notes": "An emphatic compound verb formed from やせる (to lose weight) and {細|ほそ}る (to become thin). It conveys a more extreme, pitiable state of thinness than やせる alone — not simply being slim, but being unhealthily thin. Often used sympathetically to describe someone who has suffered.\n\nCOMMON COLLOCATIONS:\n- やせ{細|ほそ}った⟦{体|からだ}→体：00784_karada⟧: an emaciated body\n- やせ{細|ほそ}った⟦{腕|うで}→腕：01006_ude⟧: thin, wasted arms\n- ⟦すっかり→すっかり：01270_sukkari⟧やせ{細|ほそ}る: to waste away completely\n- ⟦みるみる→みるみる：21458_mirumiru⟧やせ{細|ほそ}る: to waste away visibly\n\nSIMILAR WORDS:\n- やせる: to lose weight; to become thin — the standard, neutral verb for getting thinner\n- ⟦{痩|や}せこける→痩せこける：22637_yasekokeru⟧: to be gaunt; to be skin and bones — even more extreme than やせ{細|ほそ}る\n- げっそり⟦する→する：00392_suru⟧: to become haggard — an onomatopoeic expression emphasizing a drawn, hollow-cheeked appearance",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01146_yaseru",
+      "reading": "やせる",
+      "headword": "{痩|や}せる",
+      "label": "to lose weight"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22637_yasekokeru",
+      "reading": "やせこける",
+      "headword": "{痩|や}せこける",
+      "label": "to be gaunt"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -58,10 +74,11 @@
       "domain": [],
       "formality": "neutral",
       "politeness": "plain",
-      "verb_class": "godan-ru"
+      "verb_class": "godan-ru",
+      "transitivity": "intransitive"
     },
     "created": "2026-04-06T16:59:39Z",
-    "modified": "2026-08-01T06:41:09Z"
+    "modified": "2026-09-02T04:02:08Z"
   },
   "conjugation": {
     "type": "godan",

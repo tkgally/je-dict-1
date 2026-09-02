@@ -14,38 +14,58 @@
   "examples": [
     {
       "id": "24771_shukubamachi_ex1",
-      "japanese": "ここはかつての{宿場町|しゅくばまち}だ。",
+      "japanese": "⟦ここ→ここ：00961_koko⟧⟦は→は：00079_ha⟧⟦かつて→かつて：10303_katsute⟧⟦の→の：09472_no⟧{宿場町|しゅくばまち}だ。",
       "english": "This was once a post town.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "24771_shukubamachi_ex2",
-      "japanese": "{旧|きゅう}{宿場町|しゅくばまち}の{町並|まちな}みが{残|のこ}っている。",
+      "japanese": "⟦{旧|きゅう}→旧：19346_kyuu⟧{宿場町|しゅくばまち}⟦の→の：09472_no⟧⟦{町並|まちな}み→町並み：10435_machinami⟧⟦が→が：00051_ga⟧⟦{残|のこ}っている→残る：01187_nokoru⟧。",
       "english": "The old streetscape of the former post town remains.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "24771_shukubamachi_ex3",
-      "japanese": "{江戸|えど}{時代|じだい}には{東海道|とうかいどう}に{多|おお}くの{宿場町|しゅくばまち}があった。",
+      "japanese": "⟦{江戸|えど}{時代|じだい}→江戸時代：20431_edojidai⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{東海道|とうかいどう}⟦に→に：00314_ni⟧{多|おお}く⟦の→の：09472_no⟧{宿場町|しゅくばまち}⟦が→が：00051_ga⟧⟦あった→ある：00006_aru⟧。",
       "english": "In the Edo period, there were many post towns along the Tokaido highway.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "A historical term for towns that grew up around official resting stations ({宿場|しゅくば}) on the major highways ({街道|かいどう}) during the Edo period. These towns provided lodging ({旅籠|はたご}), food, and other services to travelers.\n\nCOMMON COLLOCATIONS:\n- {旧|きゅう}{宿場町|しゅくばまち}: former post town\n- {宿場町|しゅくばまち}の{面影|おもかげ}: traces of a post town's past\n- {宿場町|しゅくばまち}を{歩|ある}く: to walk through a post town\n\nCULTURAL CONTEXT:\nMany former post towns survive as tourist destinations today, preserving Edo-period architecture and atmosphere. Famous examples include Tsumago and Magome on the Nakasendo highway. The term appears frequently in travel guides and historical documentaries.",
+  "notes": "A historical term for towns that grew up around official resting stations (⟦{宿場|しゅくば}→宿場：14942_shukuba⟧) on the major highways (⟦{街道|かいどう}→街道：14040_kaidou⟧) during the Edo period. These towns provided lodging ({旅籠|はたご}), food, and other services to travelers.\n\nCOMMON COLLOCATIONS:\n- ⟦{旧|きゅう}→旧：19346_kyuu⟧{宿場町|しゅくばまち}: former post town\n- {宿場町|しゅくばまち}⟦の→の：09472_no⟧⟦{面影|おもかげ}→面影：06631_omokage⟧: traces of a post town's past\n- {宿場町|しゅくばまち}⟦を→を：00422_wo⟧⟦{歩|ある}く→歩く：00538_aruku⟧: to walk through a post town\n\nCULTURAL NOTE:\nMany former post towns survive as tourist destinations today, preserving Edo-period architecture and atmosphere. Famous examples include Tsumago and Magome on the Nakasendo highway. The term appears frequently in travel guides and historical documentaries.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "22535_monzenmachi",
+      "reading": "もんぜんまち",
+      "headword": "{門前町|もんぜんまち}",
+      "label": "temple town"
+    }
+  ],
   "metadata": {
     "created": "2026-04-20T15:22:26Z",
-    "modified": "2026-04-20T15:22:26Z",
+    "modified": "2026-09-02T04:02:19Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["geography", "culture"]
+      "semantic": [
+        "geography",
+        "culture"
+      ]
     }
   }
 }

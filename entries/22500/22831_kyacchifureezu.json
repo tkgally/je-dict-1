@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22831_kyacchifureezu_ex1",
-      "japanese": "いいキャッチフレーズが{思|おも}いつかない。",
+      "japanese": "⟦いい→いい：00118_ii⟧キャッチフレーズ⟦が→が：00051_ga⟧{思|おも}いつかない。",
       "english": "I can't think of a good catchphrase.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22831_kyacchifureezu_ex2",
-      "japanese": "この{商品|しょうひん}のキャッチフレーズを{考|かんが}えてください。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{商品|しょうひん}→商品：01436_shouhin⟧⟦の→の：09472_no⟧キャッチフレーズ⟦を→を：00422_wo⟧⟦{考|かんが}えて→考える：00856_kangaeru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please come up with a catchphrase for this product.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22831_kyacchifureezu_ex3",
-      "japanese": "{彼|かれ}の{選挙|せんきょ}のキャッチフレーズは{多|おお}くの{有権者|ゆうけんしゃ}の{心|こころ}をつかんだ。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧⟦{選挙|せんきょ}→選挙：03303_senkyo⟧⟦の→の：09472_no⟧キャッチフレーズ⟦は→は：00079_ha⟧{多|おお}く⟦の→の：09472_no⟧⟦{有権者|ゆうけんしゃ}→有権者：13021_yuukensha⟧⟦の→の：09472_no⟧⟦{心|こころ}→心：01321_kokoro⟧⟦を→を：00422_wo⟧つかんだ。",
       "english": "His election slogan captured the hearts of many voters.",
       "sense_numbers": [
         1
@@ -44,20 +44,44 @@
       "notes": null
     }
   ],
-  "notes": "A short, memorable phrase used in advertising, marketing, or to represent a person, company, or product. Borrowed from English \"catchphrase\" but used more broadly in Japanese, covering what English might call a slogan, tagline, or motto.\n\nCOMMON COLLOCATIONS:\n- キャッチフレーズを{考|かんが}える: to think up a catchphrase\n- キャッチフレーズを{付|つ}ける: to attach a catchphrase\n- {企業|きぎょう}のキャッチフレーズ: a company's slogan\n- {選挙|せんきょ}のキャッチフレーズ: an election slogan\n\nUSAGE:\nIn Japanese, キャッチフレーズ is sometimes shortened to キャッチ in casual contexts. It is used more broadly than the English \"catchphrase\" — it can refer to advertising slogans, book taglines, and personal mottos.\n\nRELATED TERMS:\n- {標語|ひょうご}: motto; slogan — more formal, often for safety or educational campaigns\n- キャッチコピー: advertising copy; tagline (wasei-eigo)\n- {合言葉|あいことば}: password; watchword; shared motto",
+  "notes": "A short, memorable phrase used in advertising, marketing, or to represent a person, company, or product. Borrowed from English \"catchphrase\" but used more broadly in Japanese, covering what English might call a slogan, tagline, or motto.\n\nCOMMON COLLOCATIONS:\n- キャッチフレーズ⟦を→を：00422_wo⟧⟦{考|かんが}える→考える：00856_kangaeru⟧: to think up a catchphrase\n- キャッチフレーズ⟦を→を：00422_wo⟧⟦{付|つ}ける→付ける：00761_tsukeru⟧: to attach a catchphrase\n- ⟦{企業|きぎょう}→企業：00225_kigyou⟧⟦の→の：09472_no⟧キャッチフレーズ: a company's slogan\n- ⟦{選挙|せんきょ}→選挙：03303_senkyo⟧⟦の→の：09472_no⟧キャッチフレーズ: an election slogan\n\nUSAGE:\nIn Japanese, キャッチフレーズ is sometimes shortened to ⟦キャッチ→キャッチ：10873_kyacchi⟧ in casual contexts. It is used more broadly than the English \"catchphrase\" — it can refer to advertising slogans, book taglines, and personal mottos.\n\nRELATED WORDS:\n- ⟦{標語|ひょうご}→標語：17822_hyougo⟧: motto; slogan — more formal, often for safety or educational campaigns\n- ⟦キャッチコピー→キャッチコピー：10797_kyacchikopii⟧: advertising copy; tagline (wasei-eigo)\n- ⟦{合言葉|あいことば}→合言葉：11953_aikotoba⟧: password; watchword; shared motto",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "17822_hyougo",
+      "reading": "ひょうご",
+      "headword": "{標語|ひょうご}",
+      "label": "motto"
+    },
+    {
+      "type": "related",
+      "target_id": "10797_kyacchikopii",
+      "reading": "きゃっちこぴー",
+      "headword": "キャッチコピー",
+      "label": "advertising copy"
+    },
+    {
+      "type": "related",
+      "target_id": "11953_aikotoba",
+      "reading": "あいことば",
+      "headword": "{合言葉|あいことば}",
+      "label": "password"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "business",
         "language"
       ]
     },
     "created": "2026-04-07T17:12:24Z",
-    "modified": "2026-04-07T17:12:24Z"
+    "modified": "2026-09-02T04:02:09Z"
   }
 }

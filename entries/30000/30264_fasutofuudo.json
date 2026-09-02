@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30264_fasutofuudo_ex1",
-      "japanese": "{昼|ひる}はファストフードで{済|す}ませた。",
+      "japanese": "⟦{昼|ひる}→昼：00540_hiru⟧⟦は→は：00079_ha⟧ファストフード⟦で→で：00502_de⟧⟦{済|す}ませた→済む：01950_sumu⟧。",
       "english": "I made do with fast food for lunch.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "30264_fasutofuudo_ex2",
-      "japanese": "{駅前|えきまえ}にファストフードの{店|みせ}が{三軒|さんげん}ある。",
+      "japanese": "⟦{駅前|えきまえ}→駅前：09593_ekimae⟧⟦に→に：00314_ni⟧ファストフード⟦の→の：09472_no⟧⟦{店|みせ}→店：00497_mise⟧⟦が→が：00051_ga⟧{三軒|さんげん}⟦ある→ある：00006_aru⟧。",
       "english": "There are three fast-food places in front of the station.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "30264_fasutofuudo_ex3",
-      "japanese": "{忙|いそが}しい{日|ひ}が{続|つづ}くと、どうしてもファストフードに{頼|たよ}りがちになってしまう。",
+      "japanese": "⟦{忙|いそが}しい→忙しい：00591_isogashii⟧⟦{日|ひ}→日：02249_hi⟧⟦が→が：00051_ga⟧⟦{続|つづ}く→続く：00903_tsuzuku⟧⟦と→と：00512_to⟧、⟦どうしても→どうしても：03476_doushitemo⟧ファストフード⟦に→に：00314_ni⟧⟦{頼|たよ}り→頼る：02069_tayoru⟧がちになってしまう。",
       "english": "When busy days continue, I inevitably end up relying on fast food.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,30 @@
       ]
     }
   ],
-  "notes": "Both ファストフード and ファーストフード are current; ファストフード is the form preferred by newspapers and industry bodies, while ファーストフード remains common in speech.\n\nCOMMON COLLOCATIONS:\n- ファストフード{店|てん}: a fast-food restaurant\n- ファストフードで{済|す}ませる: to make do with fast food\n- ファストフード{業界|ぎょうかい}: the fast-food industry\n\nSIMILAR WORDS:\n- {外食|がいしょく}: eating out — any restaurant meal, with no implication of speed or cheapness\n- {軽食|けいしょく}: a light meal, snack — describes portion size rather than the style of service",
+  "notes": "Both ファストフード and ファースト⟦フード→フード：28535_fuudo⟧ are current; ファストフード is the form preferred by newspapers and industry bodies, while ファースト⟦フード→フード：28535_fuudo⟧ remains common in speech.\n\nCOMMON COLLOCATIONS:\n- ファストフード⟦{店|てん}→店：10011_ten⟧: a fast-food restaurant\n- ファストフード⟦で→で：00502_de⟧⟦{済|す}ませる→済ませる：02121_sumaseru⟧: to make do with fast food\n- ファストフード⟦{業界|ぎょうかい}→業界：13129_gyoukai⟧: the fast-food industry\n\nSIMILAR WORDS:\n- ⟦{外食|がいしょく}→外食：03024_gaishoku⟧: eating out — any restaurant meal, with no implication of speed or cheapness\n- ⟦{軽食|けいしょく}→軽食：15709_keishoku⟧: a light meal, snack — describes portion size rather than the style of service",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03024_gaishoku",
+      "reading": "がいしょく",
+      "headword": "{外食|がいしょく}",
+      "label": "eating out"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15709_keishoku",
+      "reading": "けいしょく",
+      "headword": "{軽食|けいしょく}",
+      "label": "a light meal, snack"
+    },
+    {
+      "type": "related",
+      "target_id": "27305_chiizubaagaa",
+      "reading": "ちーずばーがー",
+      "headword": "チーズバーガー",
+      "label": "cheeseburger"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +82,6 @@
       "domain": []
     },
     "created": "2026-07-31T06:19:07Z",
-    "modified": "2026-07-31T06:19:07Z"
+    "modified": "2026-09-02T04:02:39Z"
   }
 }

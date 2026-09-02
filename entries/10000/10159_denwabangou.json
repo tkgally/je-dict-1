@@ -14,40 +14,65 @@
   "examples": [
     {
       "id": "10159_denwabangou_ex1",
-      "japanese": "{電話番号|でんわばんごう}を{教|おし}えてください。",
+      "japanese": "{電話番号|でんわばんごう}⟦を→を：00422_wo⟧⟦{教|おし}えて→教える：00526_oshieru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please tell me your phone number.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10159_denwabangou_ex2",
-      "japanese": "{電話番号|でんわばんごう}を{間違|まちが}えた。",
+      "japanese": "{電話番号|でんわばんごう}⟦を→を：00422_wo⟧⟦{間違|まちが}えた→間違える：01109_machigaeru⟧。",
       "english": "I dialed the wrong number.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10159_denwabangou_ex3",
-      "japanese": "{彼女|かのじょ}の{電話番号|でんわばんごう}をメモした。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦の→の：09472_no⟧{電話番号|でんわばんごう}⟦を→を：00422_wo⟧⟦メモした→メモする：25501_memosuru⟧。",
       "english": "I wrote down her phone number.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{電話番号|でんわばんごう} is a compound of {電話|でんわ} (telephone) + {番号|ばんごう} (number).\n\nCOMMON COLLOCATIONS:\n- {電話番号|でんわばんごう}を{教|おし}える: to give someone a phone number\n- {電話番号|でんわばんごう}を{聞|き}く: to ask for a phone number\n- {電話番号|でんわばんごう}を{間違|まちが}える: to dial the wrong number\n- {電話番号|でんわばんごう}を{登録|とうろく}する: to register a phone number\n\nTYPES:\n- {携帯|けいたい}（{電話|でんわ}）{番号|ばんごう}: mobile phone number\n- {固定|こてい}{電話|でんわ}{番号|ばんごう}: landline number\n- フリーダイヤル: toll-free number\n\nJAPANESE PHONE NUMBERS:\nJapanese phone numbers typically start with an area code (e.g., 03 for Tokyo, 06 for Osaka). Mobile numbers start with 080, 090, or 070. Numbers are read digit by digit.",
-  "cross_references": [],
+  "notes": "{電話番号|でんわばんごう} is a compound of ⟦{電話|でんわ}→電話：01471_denwa⟧ (telephone) + ⟦{番号|ばんごう}→番号：02939_bangou⟧ (number).\n\nCOMMON COLLOCATIONS:\n- {電話番号|でんわばんごう}⟦を→を：00422_wo⟧⟦{教|おし}える→教える：00526_oshieru⟧: to give someone a phone number\n- {電話番号|でんわばんごう}⟦を→を：00422_wo⟧⟦{聞|き}く→聞く：00483_kiku⟧: to ask for a phone number\n- {電話番号|でんわばんごう}⟦を→を：00422_wo⟧⟦{間違|まちが}える→間違える：01109_machigaeru⟧: to dial the wrong number\n- {電話番号|でんわばんごう}⟦を→を：00422_wo⟧⟦{登録|とうろく}する→登録する：25227_tourokusuru⟧: to register a phone number\n\nTYPES:\n- ⟦{携帯|けいたい}→携帯：00715_keitai⟧（⟦{電話|でんわ}→電話：01471_denwa⟧）⟦{番号|ばんごう}→番号：02939_bangou⟧: mobile phone number\n- ⟦{固定|こてい}→固定：10996_kotei⟧{電話|でんわ}{番号|ばんごう}: landline number\n- ⟦フリー→フリー：11001_furii⟧⟦ダイヤル→ダイヤル：28313_daiyaru⟧: toll-free number\n\nJAPANESE PHONE NUMBERS:\nJapanese phone numbers typically start with an area code (e.g., 03 for Tokyo, 06 for Osaka). Mobile numbers start with 080, 090, or 070. Numbers are read digit by digit.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "20420_keitaibangou",
+      "reading": "けいたいばんごう",
+      "headword": "{携帯番号|けいたいばんごう}",
+      "label": "mobile phone number"
+    },
+    {
+      "type": "related",
+      "target_id": "20953_shigaikyokuban",
+      "reading": "しがいきょくばん",
+      "headword": "{市外局番|しがいきょくばん}",
+      "label": "area code"
+    }
+  ],
   "metadata": {
     "created": "2026-02-05T11:49:02Z",
-    "modified": "2026-03-25T04:08:57Z",
+    "modified": "2026-09-02T04:01:20Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

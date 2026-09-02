@@ -15,40 +15,73 @@
   "examples": [
     {
       "id": "19980_kiseifuku_ex1",
-      "japanese": "{既製服|きせいふく}を{買|か}う。",
+      "japanese": "{既製服|きせいふく}⟦を→を：00422_wo⟧⟦{買|か}う→買う：00489_kau⟧。",
       "english": "To buy ready-made clothing.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19980_kiseifuku_ex2",
-      "japanese": "この{店|みせ}は{既製服|きせいふく}しか{扱|あつか}っていない。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{店|みせ}→店：00497_mise⟧⟦は→は：00079_ha⟧{既製服|きせいふく}しか⟦{扱|あつか}っていない→扱う：01862_atsukau⟧。",
       "english": "This store only carries ready-made clothing.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19980_kiseifuku_ex3",
-      "japanese": "{既製服|きせいふく}だと{自分|じぶん}の{体|からだ}にぴったり{合|あ}わないことがある。",
+      "japanese": "{既製服|きせいふく}だ⟦と→と：00512_to⟧⟦{自分|じぶん}→自分：02887_jibun⟧⟦の→の：09472_no⟧⟦{体|からだ}→体：00784_karada⟧⟦に→に：00314_ni⟧⟦ぴったり→ぴったり：02362_pittari⟧⟦{合|あ}わない→合う：10466_au⟧こと⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "With ready-made clothing, it sometimes doesn't fit your body perfectly.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {既製|きせい} (ready-made, prefabricated) and {服|ふく} (clothing). Refers to mass-produced clothing sold in standard sizes, contrasted with custom-tailored garments.\n\nCOMMON COLLOCATIONS:\n- {既製服|きせいふく}を{買|か}う — to buy ready-made clothes\n- {既製服|きせいふく}のサイズ — ready-made clothing size\n- {既製服|きせいふく}メーカー — ready-made clothing manufacturer\n\nSIMILAR WORDS:\n- {注文服|ちゅうもんふく} — custom-made clothing; made to order\n- {仕立|した}て — tailoring; custom sewing\n- {既製品|きせいひん} — ready-made products (broader term, not limited to clothing)",
+  "notes": "A compound of {既製|きせい} (ready-made, prefabricated) and ⟦{服|ふく}→服：00695_fuku⟧ (clothing). Refers to mass-produced clothing sold in standard sizes, contrasted with custom-tailored garments.\n\nCOMMON COLLOCATIONS:\n- {既製服|きせいふく}⟦を→を：00422_wo⟧⟦{買|か}う→買う：00489_kau⟧ — to buy ready-made clothes\n- {既製服|きせいふく}⟦の→の：09472_no⟧⟦サイズ→サイズ：01363_saizu⟧ — ready-made clothing size\n- {既製服|きせいふく}⟦メーカー→メーカー：11158_meekaa⟧ — ready-made clothing manufacturer\n\nSIMILAR WORDS:\n- ⟦{注文服|ちゅうもんふく}→注文服：20888_chuumonfuku⟧ — custom-made clothing; made to order\n- ⟦{仕立|した}て→仕立て：11645_shitate⟧ — tailoring; custom sewing\n- ⟦{既製品|きせいひん}→既製品：08304_kiseihin⟧ — ready-made products (broader term, not limited to clothing)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20888_chuumonfuku",
+      "reading": "ちゅうもんふく",
+      "headword": "{注文服|ちゅうもんふく}",
+      "label": "custom-made clothing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11645_shitate",
+      "reading": "したて",
+      "headword": "{仕立|した}て",
+      "label": "tailoring"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08304_kiseihin",
+      "reading": "きせいひん",
+      "headword": "{既製品|きせいひん}",
+      "label": "ready-made products"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["clothing"]
+      "semantic": [
+        "clothing"
+      ]
     },
     "created": "2026-03-28T04:34:49Z",
-    "modified": "2026-07-23T12:19:07Z"
+    "modified": "2026-09-02T04:01:57Z"
   }
 }

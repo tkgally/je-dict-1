@@ -3,7 +3,7 @@
   "headword": "{交|ま}ぜる",
   "reading": "まぜる",
   "romaji": "mazeru",
-  "part_of_speech": "verb-ichidan",
+  "part_of_speech": "verb (ichidan)",
   "gloss": "to mix in; to add (people, distinguishable items)",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28480_mazeru_ex1",
-      "japanese": "{私|わたし}も{交|ま}ぜてください。",
+      "japanese": "⟦{私|わたし}→私：02988_watashi⟧⟦も→も：00484_mo⟧{交|ま}ぜて⟦ください→ください：02899_kudasai⟧。",
       "english": "Please let me join in too.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28480_mazeru_ex2",
-      "japanese": "{冗談|じょうだん}を{交|ま}ぜて{話|はな}した。",
+      "japanese": "⟦{冗談|じょうだん}→冗談：03347_joudan⟧⟦を→を：00422_wo⟧{交|ま}ぜて⟦{話|はな}した→話す：00467_hanasu⟧。",
       "english": "I spoke with jokes mixed in.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28480_mazeru_ex3",
-      "japanese": "{英語|えいご}を{少|すこ}し{交|ま}ぜながら{話|はな}すと、{子供|こども}たちが{興味|きょうみ}を{示|しめ}した。",
+      "japanese": "⟦{英語|えいご}→英語：02274_eigo⟧⟦を→を：00422_wo⟧⟦{少|すこ}し→少し：00596_sukoshi⟧{交|ま}ぜ⟦ながら→ながら：10530_nagara⟧⟦{話|はな}す→話す：00467_hanasu⟧⟦と→と：00512_to⟧、⟦{子供|こども}→子供：00554_kodomo⟧たち⟦が→が：00051_ga⟧⟦{興味|きょうみ}→興味：01316_kyoumi⟧⟦を→を：00422_wo⟧⟦{示|しめ}した→示す：01948_shimesu⟧。",
       "english": "When I spoke with a bit of English mixed in, the children showed interest.",
       "sense_numbers": [
         1
@@ -44,8 +44,25 @@
       "notes": null
     }
   ],
-  "notes": "Kanji variant of {混|ま}ぜる. The {交|まじ}わる kanji ('to cross, to associate') is preferred when adding or including something that remains distinguishable — especially people joining an activity, or visibly distinct elements (jokes, foreign words).\n\nTRANSITIVITY:\n- Type: transitive\n- Pair: {交|ま}ざる (intransitive — to mingle, be mixed in)\n\nPARTICLE PATTERNS:\n- AをBに{交|ま}ぜる: to mix A into B\n- 〜を{交|ま}ぜて + verb: doing the action while incorporating ~\n\nCOMMON COLLOCATIONS:\n- {仲間|なかま}に{交|ま}ぜる: to let (someone) into the group\n- {冗談|じょうだん}を{交|ま}ぜる: to mix in jokes\n- {英語|えいご}を{交|ま}ぜて{話|はな}す: to speak mixing in English\n\nWHEN TO USE WHICH KANJI:\n- {混|ま}ぜる: stirring substances together into a homogeneous mixture\n- {交|ま}ぜる: including distinguishable items or letting someone join in\nThe two are often interchangeable, and {混|ま}ぜる is the more common spelling overall.",
+  "notes": "Kanji variant of ⟦{混|ま}ぜる→混ぜる：02423_mazeru⟧. The ⟦{交|まじ}わる→交わる：18379_majiwaru⟧ kanji ('to cross, to associate') is preferred when adding or including something that remains distinguishable — especially people joining an activity, or visibly distinct elements (jokes, foreign words).\n\nTRANSITIVITY:\n- Type: transitive\n- Pair: ⟦{交|ま}ざる→交ざる：28479_mazaru⟧ (intransitive — to mingle, be mixed in)\n\nCOMMON PATTERNS:\n- A⟦を→を：00422_wo⟧B⟦に→に：00314_ni⟧{交|ま}ぜる: to mix A into B\n- 〜⟦を→を：00422_wo⟧{交|ま}ぜて + verb: doing the action while incorporating ~\n\nCOMMON COLLOCATIONS:\n- ⟦{仲間|なかま}→仲間：03498_nakama⟧⟦に→に：00314_ni⟧{交|ま}ぜる: to let (someone) into the group\n- ⟦{冗談|じょうだん}→冗談：03347_joudan⟧⟦を→を：00422_wo⟧{交|ま}ぜる: to mix in jokes\n- ⟦{英語|えいご}→英語：02274_eigo⟧⟦を→を：00422_wo⟧{交|ま}ぜて⟦{話|はな}す→話す：00467_hanasu⟧: to speak mixing in English\n\nWHEN TO USE WHICH KANJI:\n- ⟦{混|ま}ぜる→混ぜる：02423_mazeru⟧: stirring substances together into a homogeneous mixture\n- {交|ま}ぜる: including distinguishable items or letting someone join in\nThe two are often interchangeable, and ⟦{混|ま}ぜる→混ぜる：02423_mazeru⟧ is the more common spelling overall.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "homophone",
+      "target_id": "02423_mazeru",
+      "reading": "まぜる",
+      "headword": "{混|ま}ぜる",
+      "label": "to mix, to stir"
+    }
+  ],
+  "prominent_see_also": [
+    {
+      "target_id": "28479_mazaru",
+      "reading": "まざる",
+      "headword": "{交|ま}ざる",
+      "note": "intransitive"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,7 +79,7 @@
       "domain": []
     },
     "created": "2026-05-31T04:10:13Z",
-    "modified": "2026-05-31T04:10:13Z"
+    "modified": "2026-09-02T04:02:33Z"
   },
   "conjugation": {
     "type": "ichidan",

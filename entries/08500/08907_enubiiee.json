@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08907_enubiiee_ex1",
-      "japanese": "NBAの{試合|しあい}を{見|み}る。",
+      "japanese": "NBA⟦の→の：09472_no⟧⟦{試合|しあい}→試合：01601_shiai⟧⟦を→を：00422_wo⟧⟦{見|み}る→見る：00283_miru⟧。",
       "english": "I watch an NBA game.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "08907_enubiiee_ex2",
-      "japanese": "{彼|かれ}の{夢|ゆめ}はNBA{選手|せんしゅ}になることだ。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧⟦{夢|ゆめ}→夢：01519_yume⟧⟦は→は：00079_ha⟧NBA⟦{選手|せんしゅ}→選手：03823_senshu⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧ことだ。",
       "english": "His dream is to become an NBA player.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "08907_enubiiee_ex3",
-      "japanese": "NBAファイナルは{毎年|まいとし}6{月|がつ}に{開催|かいさい}される。",
+      "japanese": "NBAファイナル⟦は→は：00079_ha⟧⟦{毎年|まいとし}→毎年：00731_maitoshi⟧6⟦{月|がつ}→月：30418_gatsu⟧⟦に→に：00314_ni⟧⟦{開催|かいさい}される→開催する：10441_kaisaisuru⟧。",
       "english": "The NBA Finals are held every year in June.",
       "notes": null,
       "has_audio": false,
@@ -43,11 +43,26 @@
       ]
     }
   ],
-  "notes": "NBA stands for \"National Basketball Association,\" the top professional basketball league in North America. In Japanese, read as えぬびーえー.\n\nCOMMON COLLOCATIONS:\n- NBA{選手|せんしゅ} (NBA player)\n- NBAファイナル (NBA Finals)\n- NBAドラフト (NBA Draft)\n- NBA{公式|こうしき} (official NBA)\n- NBAオールスター (NBA All-Star)\n\nPRONUNCIATION:\nLike most English-origin acronyms in Japanese, each letter is pronounced individually using the Japanese reading of the English letter names: エヌ・ビー・エー.\n\nCULTURAL NOTE:\nThe NBA has grown in popularity in Japan, especially with Japanese players like {八村|はちむら}{塁|るい} and {渡邊|わたなべ}{雄太|ゆうた} playing in the league. NBA{中継|ちゅうけい} (NBA broadcasts) are available on Japanese streaming services.\n\nRELATED TERMS:\n- バスケ/バスケットボール: basketball\n- Bリーグ: Japan's professional basketball league",
-  "cross_references": [],
+  "notes": "NBA stands for \"National Basketball Association,\" the top professional basketball league in North America. In Japanese, read as えぬびーえー.\n\nCOMMON COLLOCATIONS:\n- NBA⟦{選手|せんしゅ}→選手：03823_senshu⟧ (NBA player)\n- NBAファイナル (NBA Finals)\n- NBA⟦ドラフト→ドラフト：30282_dorafuto⟧ (NBA Draft)\n- NBA⟦{公式|こうしき}→公式：04167_koushiki⟧ (official NBA)\n- NBAオールスター (NBA All-Star)\n\nPRONUNCIATION:\nLike most English-origin acronyms in Japanese, each letter is pronounced individually using the Japanese reading of the English letter names: エヌ・ビー・エー.\n\nCULTURAL NOTE:\nThe NBA has grown in popularity in Japan, especially with Japanese players like {八村|はちむら}{塁|るい} and {渡邊|わたなべ}{雄太|ゆうた} playing in the league. NBA⟦{中継|ちゅうけい}→中継：11306_chuukei⟧ (NBA broadcasts) are available on Japanese streaming services.\n\nRELATED WORDS:\n- ⟦バスケ→バスケ：06773_basuke⟧/⟦バスケットボール→バスケットボール：04724_basukettobooru⟧: basketball\n- B⟦リーグ→リーグ：11600_riigu⟧: Japan's professional basketball league",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "06773_basuke",
+      "reading": "ばすけ",
+      "headword": "バスケ",
+      "label": "basketball"
+    },
+    {
+      "type": "related",
+      "target_id": "04724_basukettobooru",
+      "reading": "ばすけっとぼーる",
+      "headword": "バスケットボール",
+      "label": "basketball"
+    }
+  ],
   "metadata": {
     "created": "2026-01-29T03:35:10Z",
-    "modified": "2026-08-12T21:25:53Z",
+    "modified": "2026-09-02T04:01:16Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

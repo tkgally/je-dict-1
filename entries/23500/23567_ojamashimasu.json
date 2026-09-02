@@ -25,7 +25,7 @@
     },
     {
       "id": "23567_ojamashimasu_ex2",
-      "japanese": "どうぞ、お{邪魔|じゃま}します。",
+      "japanese": "⟦どうぞ→どうぞ：02920_douzo⟧、お{邪魔|じゃま}します。",
       "english": "Thank you — pardon my intrusion.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "23567_ojamashimasu_ex3",
-      "japanese": "{玄関|げんかん}で「お{邪魔|じゃま}します」と{言|い}って{家|いえ}に{入|はい}った。",
+      "japanese": "⟦{玄関|げんかん}→玄関：05003_genkan⟧⟦で→で：00502_de⟧「お{邪魔|じゃま}します」⟦と→と：00512_to⟧⟦{言|い}って→言う：00515_iu⟧⟦{家|いえ}→家：00612_ie⟧⟦に→に：00314_ni⟧⟦{入|はい}った→入る：00494_hairu⟧。",
       "english": "I said 'pardon my intrusion' at the entryway and went into the house.",
       "sense_numbers": [
         1
@@ -45,7 +45,7 @@
     },
     {
       "id": "23567_ojamashimasu_ex4",
-      "japanese": "{少|すこ}しだけお{邪魔|じゃま}します。{相談|そうだん}したいことがあって。",
+      "japanese": "⟦{少|すこ}し→少し：00596_sukoshi⟧⟦だけ→〜だけ：03093_dake⟧お{邪魔|じゃま}します。⟦{相談|そうだん}→相談：02089_soudan⟧⟦したい→する：00392_suru⟧こと⟦が→が：00051_ga⟧⟦あって→ある：00006_aru⟧。",
       "english": "Sorry to bother you for a moment — there's something I wanted to talk about.",
       "sense_numbers": [
         1
@@ -54,8 +54,24 @@
       "notes": null
     }
   ],
-  "notes": "Formed from お + {邪魔|じゃま} ('hindrance, bother') + します (polite する). The expression is said as the speaker enters or begins to occupy the listener's space — it is not an apology after the fact.\n\nUSAGE:\n- Standard greeting said when stepping into someone's home, usually at the genkan (entryway) after removing shoes.\n- Also used when entering a coworker's office, a teacher's room, or any space where you are a guest.\n- Can be used metaphorically when interrupting someone's work or conversation ('sorry to interrupt').\n\nCOMMON COLLOCATIONS:\n- {失礼|しつれい}します、お{邪魔|じゃま}します: excuse me, pardon the intrusion (combined greeting)\n- ちょっとお{邪魔|じゃま}します: may I come in for a moment? / sorry to bother you briefly\n- それでは、お{邪魔|じゃま}します: well then, pardon the intrusion\n\nRELATED EXPRESSIONS:\n- お{邪魔|じゃま}しました: said when leaving (past tense; thanks for having me)\n- {失礼|しつれい}します: excuse me — similar function, but more general (used when entering offices, starting phone calls, etc.)\n- ごめんください: hello? / is anyone home? (called out at the door before entering)\n\nCULTURAL NOTE:\n- Skipping this phrase when entering a Japanese home is considered impolite. Even close family visitors typically say it. The host often replies with どうぞ ('please, come in') or いらっしゃい ('welcome').",
+  "notes": "Formed from お + ⟦{邪魔|じゃま}→邪魔：01610_jama⟧ ('hindrance, bother') + ⟦します→する：00392_suru⟧ (polite ⟦する→する：00392_suru⟧). The expression is said as the speaker enters or begins to occupy the listener's space — it is not an apology after the fact.\n\nUSAGE:\n- Standard greeting said when stepping into someone's home, usually at the genkan (entryway) after removing shoes.\n- Also used when entering a coworker's office, a teacher's room, or any space where you are a guest.\n- Can be used metaphorically when interrupting someone's work or conversation ('sorry to interrupt').\n\nCOMMON COLLOCATIONS:\n- {失礼|しつれい}します、お{邪魔|じゃま}します: excuse me, pardon the intrusion (combined greeting)\n- ⟦ちょっと→ちょっと：00595_chotto⟧お{邪魔|じゃま}します: may I come in for a moment? / sorry to bother you briefly\n- ⟦それ→それ：00994_sore⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧、お{邪魔|じゃま}します: well then, pardon the intrusion\n\nRELATED WORDS:\n- お{邪魔|じゃま}しました: said when leaving (past tense; thanks for having me)\n- {失礼|しつれい}します: excuse me — similar function, but more general (used when entering offices, starting phone calls, etc.)\n- ごめん⟦ください→ください：02899_kudasai⟧: hello? / is anyone home? (called out at the door before entering)\n\nCULTURAL NOTE:\n- Skipping this phrase when entering a Japanese home is considered impolite. Even close family visitors typically say it. The host often replies with ⟦どうぞ→どうぞ：02920_douzo⟧ ('please, come in') or ⟦いらっしゃい→いらっしゃる：01295_irassharu⟧ ('welcome').",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "23568_ojamashimashita",
+      "reading": "おじゃましました",
+      "headword": "お{邪魔|じゃま}しました",
+      "label": "said when leaving (past tense"
+    },
+    {
+      "type": "related",
+      "target_id": "21922_shitsureishimasu",
+      "reading": "しつれいします",
+      "headword": "{失礼|しつれい}します",
+      "label": "excuse me"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -70,6 +86,6 @@
       ]
     },
     "created": "2026-04-12T17:11:04Z",
-    "modified": "2026-08-01T21:36:06Z"
+    "modified": "2026-09-02T04:02:13Z"
   }
 }

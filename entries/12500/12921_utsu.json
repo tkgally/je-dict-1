@@ -3,7 +3,7 @@
   "id": "12921_utsu",
   "headword": "{撃|う}つ",
   "reading": "うつ",
-  "part_of_speech": "godan verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to shoot, to fire",
   "conjugation": {
     "type": "godan",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "12921_utsu_ex1",
-      "japanese": "{銃|じゅう}を{撃|う}った。",
+      "japanese": "⟦{銃|じゅう}→銃：10463_juu⟧⟦を→を：00422_wo⟧{撃|う}った。",
       "english": "I fired a gun.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "12921_utsu_ex2",
-      "japanese": "{敵|てき}の{飛行機|ひこうき}を{撃|う}ち{落|お}とした。",
+      "japanese": "⟦{敵|てき}→敵：03546_teki⟧⟦の→の：09472_no⟧⟦{飛行機|ひこうき}→飛行機：00629_hikouki⟧⟦を→を：00422_wo⟧{撃|う}ち{落|お}とした。",
       "english": "They shot down the enemy plane.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "12921_utsu_ex3",
-      "japanese": "{猟師|りょうし}は{山|やま}で{鹿|しか}を{撃|う}つために{出|で}かけた。",
+      "japanese": "⟦{猟師|りょうし}→猟師：19613_ryoushi⟧⟦は→は：00079_ha⟧⟦{山|やま}→山：02168_yama⟧⟦で→で：00502_de⟧⟦{鹿|しか}→鹿：04347_shika⟧⟦を→を：00422_wo⟧{撃|う}つ⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧⟦{出|で}かけた→出かける：00833_dekakeru⟧。",
       "english": "The hunter went out to the mountains to shoot deer.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nSpecifically refers to shooting with firearms or projectile weapons. Written with {撃|う}つ to distinguish from the more general {打|う}つ (to hit, to strike). Both are read うつ but have different meanings and kanji.\n\nCOMMON COLLOCATIONS:\n- {銃|じゅう}を{撃|う}つ: to fire a gun\n- {弾|たま}を{撃|う}つ: to fire a bullet\n- {撃|う}ち{落|お}とす: to shoot down\n- {撃|う}ち{殺|ころ}す: to shoot dead\n- {撃|う}ち{抜|ぬ}く: to shoot through\n\nKANJI NOTE:\n{撃|う}つ specifically uses the kanji {撃|げき} (attack, strike), distinguishing it from {打|う}つ (to hit/strike with hands or tools).",
+  "notes": "USAGE:\nSpecifically refers to shooting with firearms or projectile weapons. Written with {撃|う}つ to distinguish from the more general ⟦{打|う}つ→打つ：01221_utsu⟧ (to hit, to strike). Both are read うつ but have different meanings and kanji.\n\nCOMMON COLLOCATIONS:\n- ⟦{銃|じゅう}→銃：10463_juu⟧⟦を→を：00422_wo⟧{撃|う}つ: to fire a gun\n- ⟦{弾|たま}→弾：28121_tama⟧⟦を→を：00422_wo⟧{撃|う}つ: to fire a bullet\n- {撃|う}ち{落|お}とす: to shoot down\n- {撃|う}ち{殺|ころ}す: to shoot dead\n- {撃|う}ち{抜|ぬ}く: to shoot through\n\nWRITING:\n{撃|う}つ specifically uses the kanji {撃|げき} (attack, strike), distinguishing it from ⟦{打|う}つ→打つ：01221_utsu⟧ (to hit/strike with hands or tools).",
   "cross_references": [
     {
       "type": "homophone",
@@ -142,11 +142,25 @@
       "headword": "{打|う}つ",
       "target_id": "01221_utsu",
       "label": "to hit, to strike"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21027_hasshasuru",
+      "reading": "はっしゃする",
+      "headword": "{発射|はっしゃ}する",
+      "label": "to fire"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26220_shuutosuru",
+      "reading": "しゅーとする",
+      "headword": "シュートする",
+      "label": "to shoot (in sports)"
     }
   ],
   "metadata": {
     "created": "2026-02-22T22:56:58Z",
-    "modified": "2026-03-29T03:07:35Z",
+    "modified": "2026-09-02T04:01:31Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

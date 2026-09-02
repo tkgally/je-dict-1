@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "16637_tansanwari_ex1",
-      "japanese": "ウイスキーの{炭酸割|たんさんわ}りをください。",
+      "japanese": "⟦ウイスキー→ウイスキー：00412_uisukii⟧⟦の→の：09472_no⟧{炭酸割|たんさんわ}り⟦を→を：00422_wo⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "A whisky and soda, please.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "16637_tansanwari_ex2",
-      "japanese": "{焼酎|しょうちゅう}の{炭酸割|たんさんわ}りが{人気|にんき}だ。",
+      "japanese": "⟦{焼酎|しょうちゅう}→焼酎：19874_shouchuu⟧⟦の→の：09472_no⟧{炭酸割|たんさんわ}り⟦が→が：00051_ga⟧⟦{人気|にんき}→人気：01488_ninki⟧だ。",
       "english": "Shochu mixed with soda water is popular.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "16637_tansanwari_ex3",
-      "japanese": "{梅酒|うめしゅ}を{炭酸割|たんさんわ}りにすると{飲|の}みやすい。",
+      "japanese": "⟦{梅酒|うめしゅ}→梅酒：16869_umeshu⟧⟦を→を：00422_wo⟧{炭酸割|たんさんわ}り⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧⟦と→と：00512_to⟧⟦{飲|の}みやすい→飲みやすい：21767_nomiyasui⟧。",
       "english": "Plum wine is easy to drink when mixed with soda water.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nThe suffix {割|わ}り means 'diluted with' and is used with various mixers: {水割|みずわ}り (with water), {湯割|ゆわ}り (with hot water), {炭酸割|たんさんわ}り (with soda). Very common when ordering drinks at izakaya and bars.\n\nCOMMON COLLOCATIONS:\n- {焼酎|しょうちゅう}の{炭酸割|たんさんわ}り (shochu highball)\n- {梅酒|うめしゅ}の{炭酸割|たんさんわ}り (plum wine soda)\n- {炭酸割|たんさんわ}りにする (to mix with soda)\n\nRELATED:\n- {水割|みずわ}り: mixed with water\n- {湯割|ゆわ}り: mixed with hot water\n- ハイボール: highball (whisky and soda)",
+  "notes": "USAGE:\nThe suffix {割|わ}り means 'diluted with' and is used with various mixers: ⟦{水割|みずわ}り→水割り：16023_mizuwari⟧ (with water), ⟦{湯割|ゆわ}り→湯割り：28908_yuwari⟧ (with hot water), {炭酸割|たんさんわ}り (with soda). Very common when ordering drinks at izakaya and bars.\n\nCOMMON COLLOCATIONS:\n- ⟦{焼酎|しょうちゅう}→焼酎：19874_shouchuu⟧⟦の→の：09472_no⟧{炭酸割|たんさんわ}り (shochu highball)\n- ⟦{梅酒|うめしゅ}→梅酒：16869_umeshu⟧⟦の→の：09472_no⟧{炭酸割|たんさんわ}り (plum wine soda)\n- {炭酸割|たんさんわ}り⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧ (to mix with soda)\n\nRELATED WORDS:\n- ⟦{水割|みずわ}り→水割り：16023_mizuwari⟧: mixed with water\n- ⟦{湯割|ゆわ}り→湯割り：28908_yuwari⟧: mixed with hot water\n- ⟦ハイボール→ハイボール：27604_haibooru⟧: highball (whisky and soda)",
   "cross_references": [
     {
       "type": "related",
@@ -52,11 +52,25 @@
       "reading": "みずわり",
       "headword": "{水割|みずわ}り",
       "label": "mixed with water"
+    },
+    {
+      "type": "related",
+      "target_id": "28908_yuwari",
+      "reading": "ゆわり",
+      "headword": "{湯割|ゆわ}り",
+      "label": "mixed with hot water"
+    },
+    {
+      "type": "related",
+      "target_id": "27604_haibooru",
+      "reading": "はいぼーる",
+      "headword": "ハイボール",
+      "label": "highball"
     }
   ],
   "metadata": {
     "created": "2026-03-14T01:36:58Z",
-    "modified": "2026-05-04T08:25:28Z",
+    "modified": "2026-09-02T04:01:45Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

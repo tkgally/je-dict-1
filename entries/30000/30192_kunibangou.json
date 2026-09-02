@@ -16,7 +16,7 @@
   "examples": [
     {
       "id": "30192_kunibangou_ex1",
-      "japanese": "{日本|にほん}の{国番号|くにばんごう}は81だ。",
+      "japanese": "⟦{日本|にほん}→日本：03876_nihon⟧⟦の→の：09472_no⟧{国番号|くにばんごう}⟦は→は：00079_ha⟧81だ。",
       "english": "Japan's country code is 81.",
       "sense_numbers": [
         1
@@ -26,7 +26,7 @@
     },
     {
       "id": "30192_kunibangou_ex2",
-      "japanese": "{国番号|くにばんごう}をつけて{電話|でんわ}をかけてください。",
+      "japanese": "{国番号|くにばんごう}⟦を→を：00422_wo⟧⟦つけて→つける：00562_tsukeru⟧⟦{電話|でんわ}→電話：01471_denwa⟧⟦を→を：00422_wo⟧⟦かけて→かける：00854_kakeru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please dial with the country code included.",
       "sense_numbers": [
         1
@@ -36,7 +36,7 @@
     },
     {
       "id": "30192_kunibangou_ex3",
-      "japanese": "{国際電話|こくさいでんわ}をかけるときは、{最初|さいしょ}に{国番号|くにばんごう}を{入力|にゅうりょく}する{必要|ひつよう}がある。",
+      "japanese": "{国際電話|こくさいでんわ}⟦を→を：00422_wo⟧⟦かける→かける：00854_kakeru⟧とき⟦は→は：00079_ha⟧、⟦{最初|さいしょ}→最初：00882_saisho⟧⟦に→に：00314_ni⟧{国番号|くにばんごう}⟦を→を：00422_wo⟧⟦{入力|にゅうりょく}する→入力する：28127_nyuuryokusuru⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "When making an international call, you need to enter the country code first.",
       "sense_numbers": [
         1
@@ -46,7 +46,7 @@
     },
     {
       "id": "30192_kunibangou_ex4",
-      "japanese": "{携帯|けいたい}{番号|ばんごう}の{最初|さいしょ}のゼロは、{国番号|くにばんごう}をつける{場合|ばあい}は{省|はぶ}く。",
+      "japanese": "⟦{携帯|けいたい}{番号|ばんごう}→携帯番号：20420_keitaibangou⟧⟦の→の：09472_no⟧⟦{最初|さいしょ}→最初：00882_saisho⟧⟦の→の：09472_no⟧⟦ゼロ→ゼロ：01011_zero⟧⟦は→は：00079_ha⟧、{国番号|くにばんごう}⟦を→を：00422_wo⟧⟦つける→つける：00562_tsukeru⟧⟦{場合|ばあい}→場合：01704_baai⟧⟦は→は：00079_ha⟧⟦{省|はぶ}く→省く：02398_habuku⟧。",
       "english": "The leading zero of a mobile number is dropped when the country code is added.",
       "sense_numbers": [
         1
@@ -55,7 +55,16 @@
       "notes": null
     }
   ],
-  "notes": "The first element takes the kun'yomi くに, not the on'yomi こく — a reading trap, since most compounds written with {国|こく} use こく.\n\nCOMMON COLLOCATIONS:\n- {国番号|くにばんごう}をつける: to add the country code\n- {国番号|くにばんごう}から{始|はじ}まる: to begin with the country code\n- {日本|にほん}の{国番号|くにばんごう}: Japan's country code\n\nSIMILAR WORDS:\n- {市外局番|しがいきょくばん}: area code — the domestic prefix for a region\n- {郵便番号|ゆうびんばんごう}: postal code — the same {番号|ばんごう} pattern for addresses",
+  "notes": "The first element takes the kun'yomi くに, not the on'yomi ⟦こく→コク：20672_koku⟧ — a reading trap, since most compounds written with {国|こく} use ⟦こく→コク：20672_koku⟧.\n\nCOMMON COLLOCATIONS:\n- {国番号|くにばんごう}⟦を→を：00422_wo⟧⟦つける→つける：00562_tsukeru⟧: to add the country code\n- {国番号|くにばんごう}⟦から→から：00504_kara⟧⟦{始|はじ}まる→始まる：00841_hajimaru⟧: to begin with the country code\n- ⟦{日本|にほん}→日本：03876_nihon⟧⟦の→の：09472_no⟧{国番号|くにばんごう}: Japan's country code\n\nSIMILAR WORDS:\n- ⟦{市外局番|しがいきょくばん}→市外局番：20953_shigaikyokuban⟧: area code — the domestic prefix for a region\n- {郵便番号|ゆうびんばんごう}: postal code — the same ⟦{番号|ばんごう}→番号：02939_bangou⟧ pattern for addresses",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20953_shigaikyokuban",
+      "reading": "しがいきょくばん",
+      "headword": "{市外局番|しがいきょくばん}",
+      "label": "area code"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -63,7 +72,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "communication",
         "number"
@@ -71,6 +80,6 @@
       "domain": []
     },
     "created": "2026-07-28T12:21:16Z",
-    "modified": "2026-07-28T12:21:16Z"
+    "modified": "2026-09-02T04:02:39Z"
   }
 }

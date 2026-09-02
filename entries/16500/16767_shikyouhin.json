@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "16767_shikyouhin_ex1",
-      "japanese": "{試供品|しきょうひん}をもらった。",
+      "japanese": "{試供品|しきょうひん}⟦を→を：00422_wo⟧⟦もらった→もらう：00520_morau⟧。",
       "english": "I received a free sample.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "16767_shikyouhin_ex2",
-      "japanese": "{新|あたら}しいシャンプーの{試供品|しきょうひん}が{付|つ}いていた。",
+      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦シャンプー→シャンプー：04507_shanpuu⟧⟦の→の：09472_no⟧{試供品|しきょうひん}⟦が→が：00051_ga⟧⟦{付|つ}いていた→付く：01960_tsuku⟧。",
       "english": "A free sample of a new shampoo was included.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "16767_shikyouhin_ex3",
-      "japanese": "{化粧品|けしょうひん}カウンターで{試供品|しきょうひん}を{配|くば}っていたので、いくつかもらってきた。",
+      "japanese": "⟦{化粧品|けしょうひん}→化粧品：05119_keshouhin⟧⟦カウンター→カウンター：10816_kauntaa⟧⟦で→で：00502_de⟧{試供品|しきょうひん}⟦を→を：00422_wo⟧⟦{配|くば}っていた→配る：03921_kubaru⟧⟦の→の：09472_no⟧で、いくつ⟦か→か：09473_ka⟧⟦もらって→もらう：00520_morau⟧きた。",
       "english": "They were handing out free samples at the cosmetics counter, so I got a few.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nCommon in marketing and retail contexts. {試供品|しきょうひん} are often small-sized versions of products, especially cosmetics, food, and beverages.\n\nCOMMON COLLOCATIONS:\n- {試供品|しきょうひん}を{配|くば}る (to hand out samples)\n- {試供品|しきょうひん}をもらう (to receive a sample)\n- {試供品|しきょうひん}{付|つ}き (comes with a sample)\n\nSIMILAR WORDS:\n- サンプル: sample — the loanword equivalent, also commonly used\n- {見本|みほん}: sample, specimen — used more broadly for display samples",
+  "notes": "USAGE:\nCommon in marketing and retail contexts. {試供品|しきょうひん} are often small-sized versions of products, especially cosmetics, food, and beverages.\n\nCOMMON COLLOCATIONS:\n- {試供品|しきょうひん}⟦を→を：00422_wo⟧⟦{配|くば}る→配る：03921_kubaru⟧ (to hand out samples)\n- {試供品|しきょうひん}⟦を→を：00422_wo⟧⟦もらう→もらう：00520_morau⟧ (to receive a sample)\n- {試供品|しきょうひん}⟦{付|つ}き→付き：26333_tsuki⟧ (comes with a sample)\n\nSIMILAR WORDS:\n- ⟦サンプル→サンプル：10939_sanpuru⟧: sample — the loanword equivalent, also commonly used\n- ⟦{見本|みほん}→見本：00279_mihon⟧: sample, specimen — used more broadly for display samples",
   "cross_references": [
     {
       "type": "related",
@@ -52,11 +52,18 @@
       "reading": "みほん",
       "headword": "{見本|みほん}",
       "label": "sample, specimen"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10939_sanpuru",
+      "reading": "さんぷる",
+      "headword": "サンプル",
+      "label": "sample"
     }
   ],
   "metadata": {
     "created": "2026-03-14T06:28:39Z",
-    "modified": "2026-05-04T10:11:42Z",
+    "modified": "2026-09-02T04:01:46Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

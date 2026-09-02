@@ -14,38 +14,59 @@
   "examples": [
     {
       "id": "08215_iigakari_ex1",
-      "japanese": "それは{言|い}い{掛|が}かりだ。",
+      "japanese": "⟦それ→それ：00994_sore⟧⟦は→は：00079_ha⟧{言|い}い{掛|が}かりだ。",
       "english": "That's a baseless accusation.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "08215_iigakari_ex2",
-      "japanese": "{言|い}い{掛|が}かりをつけられて{困|こま}った。",
+      "japanese": "{言|い}い{掛|が}かり⟦を→を：00422_wo⟧つけられて⟦{困|こま}った→困る：00861_komaru⟧。",
       "english": "I was troubled by someone picking a fight with me.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "08215_iigakari_ex3",
-      "japanese": "{酔|よ}っ{払|ぱら}いに{言|い}い{掛|が}かりをつけられた。",
+      "japanese": "⟦{酔|よ}っ{払|ぱら}い→酔っ払い：09429_yopparai⟧⟦に→に：00314_ni⟧{言|い}い{掛|が}かり⟦を→を：00422_wo⟧つけられた。",
       "english": "A drunk person started an argument with me over nothing.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "{言|い}い{掛|が}かり refers to an unreasonable or fabricated accusation, often made as a pretext to start a confrontation or find fault.\n\nCOMMON PATTERNS:\n- {言|い}い{掛|が}かりをつける: to make a baseless accusation, to pick a fight\n- {言|い}い{掛|が}かりをつけられる: to be falsely accused\n- {言|い}い{掛|が}かりをつけてくる: to come at someone with unfounded complaints\n\nNUANCE:\nAlways implies the complaint has no legitimate basis — the accuser is either looking for trouble or making excuses. Common in situations involving {酔|よ}っ{払|ぱら}い (drunks), unreasonable customers, or bullying.\n\nSIMILAR EXPRESSIONS:\n- {因縁|いんねん}をつける: to pick a quarrel (more intimidating)\n- {難癖|なんくせ}をつける: to find fault, nitpick (persistent criticism)\n- {八|や}つ{当|あ}たりする: to take frustrations out on someone",
+  "notes": "{言|い}い{掛|が}かり refers to an unreasonable or fabricated accusation, often made as a pretext to start a confrontation or find fault.\n\nCOMMON PATTERNS:\n- {言|い}い{掛|が}かり⟦を→を：00422_wo⟧⟦つける→つける：00562_tsukeru⟧: to make a baseless accusation, to pick a fight\n- {言|い}い{掛|が}かり⟦を→を：00422_wo⟧⟦つけられる→つける：00562_tsukeru⟧: to be falsely accused\n- {言|い}い{掛|が}かり⟦を→を：00422_wo⟧⟦つけて→つける：00562_tsukeru⟧くる: to come at someone with unfounded complaints\n\nUSAGE:\nAlways implies the complaint has no legitimate basis — the accuser is either looking for trouble or making excuses. Common in situations involving ⟦{酔|よ}っ{払|ぱら}い→酔っ払い：09429_yopparai⟧ (drunks), unreasonable customers, or bullying.\n\nSIMILAR WORDS:\n- ⟦{因縁|いんねん}→因縁：07460_innen⟧⟦を→を：00422_wo⟧⟦つける→つける：00562_tsukeru⟧: to pick a quarrel (more intimidating)\n- ⟦{難癖|なんくせ}→難癖：15237_nankuse⟧⟦を→を：00422_wo⟧⟦つける→つける：00562_tsukeru⟧: to find fault, nitpick (persistent criticism)\n- ⟦{八|や}つ{当|あ}たり→八つ当たり：08362_yatsuatari⟧⟦する→する：00392_suru⟧: to take frustrations out on someone",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08362_yatsuatari",
+      "reading": "やつあたり",
+      "headword": "{八|や}つ{当|あ}たり",
+      "label": "to take frustrations out on someone"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "semantic": ["conflict", "communication"]
+      "politeness": "plain",
+      "semantic": [
+        "conflict",
+        "communication"
+      ]
     },
     "created": "2026-01-25T08:29:05Z",
-    "modified": "2026-04-02T08:18:51Z"
+    "modified": "2026-09-02T04:01:14Z"
   }
 }

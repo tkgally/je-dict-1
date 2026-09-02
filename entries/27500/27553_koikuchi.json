@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "27553_koikuchi_ex1",
-      "japanese": "{濃口|こいくち}{醤油|しょうゆ}を{使|つか}う。",
+      "japanese": "{濃口|こいくち}{醤油|しょうゆ}⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧。",
       "english": "I use dark soy sauce.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "27553_koikuchi_ex2",
-      "japanese": "{関東|かんとう}では{濃口|こいくち}が{一般的|いっぱんてき}だ。",
+      "japanese": "⟦{関東|かんとう}→関東：00186_kantou⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧{濃口|こいくち}⟦が→が：00051_ga⟧⟦{一般的|いっぱんてき}→一般的：04784_ippanteki⟧だ。",
       "english": "Dark soy sauce is standard in the Kanto region.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "27553_koikuchi_ex3",
-      "japanese": "{煮物|にもの}には{濃口|こいくち}{醤油|しょうゆ}の{方|ほう}が{色|いろ}も{味|あじ}もよく{出|で}る。",
+      "japanese": "⟦{煮物|にもの}→煮物：04971_nimono⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{濃口|こいくち}{醤油|しょうゆ}⟦の→の：09472_no⟧⟦{方|ほう}→方：01139_hou⟧⟦が→が：00051_ga⟧⟦{色|いろ}→色：00849_iro⟧⟦も→も：00484_mo⟧⟦{味|あじ}→味：00826_aji⟧⟦も→も：00484_mo⟧⟦よく→よく：00601_yoku⟧⟦{出|で}る→出る：00513_deru⟧。",
       "english": "For simmered dishes, dark soy sauce brings out better color and flavor.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {濃|こ}い (strong, thick) + {口|くち} (mouth, flavor). Almost always used in the fixed expression {濃口|こいくち}{醤油|しょうゆ}, referring to the most common type of Japanese soy sauce. Predominant in eastern Japan ({関東|かんとう}).\n\nCOMMON COLLOCATIONS:\n- {濃口|こいくち}{醤油|しょうゆ}: dark soy sauce\n- {濃口|こいくち}を{使|つか}う: to use dark soy sauce\n- {濃口|こいくち}{仕立|した}て: prepared with dark soy sauce\n\nSIMILAR WORDS:\n- {薄口|うすくち}: light soy sauce — lighter in color but actually saltier; common in {関西|かんさい}\n- たまり{醤油|じょうゆ}: tamari soy sauce — thicker, wheat-free or low-wheat\n- {白醤油|しろじょうゆ}: white soy sauce — very pale, mild flavor",
+  "notes": "Compound of ⟦{濃|こ}い→濃い：02344_koi⟧ (strong, thick) + ⟦{口|くち}→口：00560_kuchi⟧ (mouth, flavor). Almost always used in the fixed expression {濃口|こいくち}{醤油|しょうゆ}, referring to the most common type of Japanese soy sauce. Predominant in eastern Japan (⟦{関東|かんとう}→関東：00186_kantou⟧).\n\nCOMMON COLLOCATIONS:\n- {濃口|こいくち}{醤油|しょうゆ}: dark soy sauce\n- {濃口|こいくち}⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧: to use dark soy sauce\n- {濃口|こいくち}⟦{仕立|した}て→仕立て：11645_shitate⟧: prepared with dark soy sauce\n\nSIMILAR WORDS:\n- ⟦{薄口|うすくち}→薄口：27554_usukuchi⟧: light soy sauce — lighter in color but actually saltier; common in ⟦{関西|かんさい}→関西：00179_kansai⟧\n- ⟦たまり{醤油|じょうゆ}→たまり醤油：27593_tamarijouyu⟧: tamari soy sauce — thicker, wheat-free or low-wheat\n- {白醤油|しろじょうゆ}: white soy sauce — very pale, mild flavor",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "27554_usukuchi",
+      "reading": "うすくち",
+      "headword": "{薄口|うすくち}",
+      "label": "light soy sauce"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27593_tamarijouyu",
+      "reading": "たまりじょうゆ",
+      "headword": "たまり{醤油|じょうゆ}",
+      "label": "tamari soy sauce"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +69,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "food",
         "cooking"
@@ -61,6 +77,6 @@
       "domain": []
     },
     "created": "2026-05-14T01:41:20Z",
-    "modified": "2026-08-07T16:10:18Z"
+    "modified": "2026-09-02T04:02:31Z"
   }
 }

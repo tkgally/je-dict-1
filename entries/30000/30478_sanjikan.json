@@ -15,41 +15,67 @@
   "examples": [
     {
       "id": "30478_sanjikan_ex1",
-      "japanese": "{三時間|さんじかん}{寝|ね}た。",
+      "japanese": "{三時間|さんじかん}⟦{寝|ね}た→寝る：00470_neru⟧。",
       "english": "I slept for three hours.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "30478_sanjikan_ex2",
-      "japanese": "この{映画|えいが}は{三時間|さんじかん}{近|ちか}くある。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{映画|えいが}→映画：02273_eiga⟧⟦は→は：00079_ha⟧{三時間|さんじかん}{近|ちか}く⟦ある→ある：00006_aru⟧。",
       "english": "This film is nearly three hours long.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "30478_sanjikan_ex3",
-      "japanese": "{渋滞|じゅうたい}のせいで、{空港|くうこう}まで{三時間|さんじかん}もかかってしまった。",
+      "japanese": "⟦{渋滞|じゅうたい}→渋滞：03279_juutai⟧⟦の→の：09472_no⟧せい⟦で→で：00502_de⟧、⟦{空港|くうこう}→空港：00648_kuukou⟧⟦まで→まで：00490_made⟧{三時間|さんじかん}⟦も→も：00484_mo⟧⟦かかって→かかる：00711_kakaru⟧しまった。",
       "english": "Because of the traffic jam, it took a full three hours to get to the airport.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "{三|さん} (three) + {時間|じかん} (hour, duration). No sound change: さんじかん, not さんじっかん.\n\nDURATION VS. TIME POINT:\n- {三時間|さんじかん}: a duration of three hours\n- {三時|さんじ}: three o'clock (the time point)\n\nCOMMON COLLOCATIONS:\n- {三時間|さんじかん}かかる: to take three hours\n- {三時間|さんじかん}{以内|いない}: within three hours\n- {三時間|さんじかん}{半|はん}: three and a half hours\n- {三時間|さんじかん}{待|ま}つ: to wait three hours\n\nRELATED:\n- {一時間|いちじかん}: one hour\n- {二時間|にじかん}: two hours",
+  "notes": "⟦{三|さん}→三：00749_san⟧ (three) + ⟦{時間|じかん}→時間：00468_jikan⟧ (hour, duration). No sound change: さんじかん, not さんじっかん.\n\nDURATION VS. TIME POINT:\n- {三時間|さんじかん}: a duration of three hours\n- ⟦{三時|さんじ}→三時：10983_sanji⟧: three o'clock (the time point)\n\nCOMMON COLLOCATIONS:\n- {三時間|さんじかん}⟦かかる→かかる：00711_kakaru⟧: to take three hours\n- {三時間|さんじかん}⟦{以内|いない}→以内：01317_inai⟧: within three hours\n- {三時間|さんじかん}⟦{半|はん}→半：10460_han⟧: three and a half hours\n- {三時間|さんじかん}⟦{待|ま}つ→待つ：00469_matsu⟧: to wait three hours\n\nRELATED WORDS:\n- ⟦{一時間|いちじかん}→一時間：00941_ichijikan⟧: one hour\n- ⟦{二時間|にじかん}→二時間：27637_nijikan⟧: two hours",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "00941_ichijikan",
+      "reading": "いちじかん",
+      "headword": "{一時間|いちじかん}",
+      "label": "one hour"
+    },
+    {
+      "type": "related",
+      "target_id": "27637_nijikan",
+      "reading": "にじかん",
+      "headword": "{二時間|にじかん}",
+      "label": "two hours"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["time-general"],
+      "politeness": "plain",
+      "semantic": [
+        "time-general"
+      ],
       "domain": []
     },
     "created": "2026-08-07T18:18:04Z",
-    "modified": "2026-08-07T18:18:04Z"
+    "modified": "2026-09-02T04:02:40Z"
   }
 }

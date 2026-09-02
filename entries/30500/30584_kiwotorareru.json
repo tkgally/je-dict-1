@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30584_kiwotorareru_ex1",
-      "japanese": "スマホに{気|き}を{取|と}られていた。",
+      "japanese": "⟦スマホ→スマホ：04721_sumaho⟧⟦に→に：00314_ni⟧{気|き}を{取|と}られて⟦いた→いる：00495_iru⟧。",
       "english": "My attention was on my phone.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30584_kiwotorareru_ex2",
-      "japanese": "{話|はなし}に{気|き}を{取|と}られて{駅|えき}を{乗|の}り{過|す}ごした。",
+      "japanese": "⟦{話|はなし}→話：01496_hanashi⟧⟦に→に：00314_ni⟧{気|き}を{取|と}られて⟦{駅|えき}→駅：02180_eki⟧⟦を→を：00422_wo⟧⟦{乗|の}り{過|す}ごした→乗り過ごす：07928_norisugosu⟧。",
       "english": "I was caught up in the conversation and rode past my station.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30584_kiwotorareru_ex3",
-      "japanese": "{窓|まど}の{外|そと}に{気|き}を{取|と}られて、{先生|せんせい}の{説明|せつめい}を{聞|き}いていなかった。",
+      "japanese": "⟦{窓|まど}→窓：02254_mado⟧⟦の→の：09472_no⟧⟦{外|そと}→外：00671_soto⟧⟦に→に：00314_ni⟧{気|き}を{取|と}られて、⟦{先生|せんせい}→先生：00609_sensei⟧⟦の→の：09472_no⟧⟦{説明|せつめい}→説明：01449_setsumei⟧⟦を→を：00422_wo⟧⟦{聞|き}いていなかった→聞く：00483_kiku⟧。",
       "english": "My attention was outside the window, so I wasn't listening to the teacher's explanation.",
       "sense_numbers": [
         1
@@ -45,7 +45,7 @@
     },
     {
       "id": "30584_kiwotorareru_ex4",
-      "japanese": "{子|こ}どもに{気|き}を{取|と}られているうちに、なべの{水|みず}が{吹|ふ}きこぼれてしまった。",
+      "japanese": "{子|こ}ども⟦に→に：00314_ni⟧{気|き}を{取|と}られて⟦いる→いる：00495_iru⟧うち⟦に→に：00314_ni⟧、なべ⟦の→の：09472_no⟧⟦{水|みず}→水：02258_mizu⟧⟦が→が：00051_ga⟧{吹|ふ}きこぼれてしまった。",
       "english": "While my attention was on the children, the pot boiled over.",
       "sense_numbers": [
         1
@@ -54,8 +54,24 @@
       "notes": null
     }
   ],
-  "notes": "STRUCTURE: {気|き} (attention) + を + {取|と}られる (passive of {取|と}る, to take). The passive is fixed — {気|き}を{取|と}る is not used in this sense.\n\nCOMMON PATTERNS:\n- 〜に{気|き}を{取|と}られる: to have one's attention taken by ~\n- 〜に{気|き}を{取|と}られて…しまう: to be distracted by ~ and end up doing (something unintended)\n- {気|き}を{取|と}られているうちに: while one's attention was elsewhere\n\nSIMILAR WORDS:\n- {気|き}が{散|ち}る: to be distracted — attention scatters generally, with no single cause named\n- ぼんやりする: to be absent-minded — attention is on nothing at all, rather than pulled elsewhere",
+  "notes": "STRUCTURE: ⟦{気|き}→気：02199_ki⟧ (attention) + ⟦を→を：00422_wo⟧ + ⟦{取|と}られる→取る：00565_toru⟧ (passive of ⟦{取|と}る→取る：00565_toru⟧, to take). The passive is fixed — ⟦{気|き}→気：02199_ki⟧⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧ is not used in this sense.\n\nCOMMON PATTERNS:\n- 〜⟦に→に：00314_ni⟧{気|き}を{取|と}られる: to have one's attention taken by ~\n- 〜⟦に→に：00314_ni⟧{気|き}を{取|と}られて…しまう: to be distracted by ~ and end up doing (something unintended)\n- {気|き}を{取|と}られて⟦いる→いる：00495_iru⟧うち⟦に→に：00314_ni⟧: while one's attention was elsewhere\n\nSIMILAR WORDS:\n- ⟦{気|き}が{散|ち}る→気が散る：06883_kigachiru⟧: to be distracted — attention scatters generally, with no single cause named\n- ⟦ぼんやりする→ぼんやりする：21687_bonyarisuru⟧: to be absent-minded — attention is on nothing at all, rather than pulled elsewhere",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06883_kigachiru",
+      "reading": "きがちる",
+      "headword": "{気|き}が{散|ち}る",
+      "label": "to be distracted"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21687_bonyarisuru",
+      "reading": "ぼんやりする",
+      "headword": "ぼんやりする",
+      "label": "to be absent-minded"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -71,6 +87,6 @@
       "domain": []
     },
     "created": "2026-08-12T03:18:15Z",
-    "modified": "2026-08-12T03:18:15Z"
+    "modified": "2026-09-02T04:02:40Z"
   }
 }

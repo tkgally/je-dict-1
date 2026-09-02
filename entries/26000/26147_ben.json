@@ -15,39 +15,79 @@
   "examples": [
     {
       "id": "26147_ben_ex1",
-      "japanese": "{便|べん}の{色|いろ}がおかしい。",
+      "japanese": "{便|べん}⟦の→の：09472_no⟧⟦{色|いろ}→色：00849_iro⟧⟦が→が：00051_ga⟧⟦おかしい→おかしい：00875_okashii⟧。",
       "english": "The color of my stool is unusual.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26147_ben_ex2",
-      "japanese": "{赤|あか}ちゃんの{便|べん}の{状態|じょうたい}を{毎日|まいにち}チェックしている。",
+      "japanese": "⟦{赤|あか}ちゃん→赤ちゃん：01282_akachan⟧⟦の→の：09472_no⟧{便|べん}⟦の→の：09472_no⟧⟦{状態|じょうたい}→状態：03345_joutai⟧⟦を→を：00422_wo⟧⟦{毎日|まいにち}→毎日：00729_mainichi⟧⟦チェックしている→チェックする：04916_chekkusuru⟧。",
       "english": "I check the condition of the baby's stool every day.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26147_ben_ex3",
-      "japanese": "{健康診断|けんこうしんだん}で{便|べん}を{採取|さいしゅ}して{提出|ていしゅつ}してください。",
+      "japanese": "⟦{健康診断|けんこうしんだん}→健康診断：05979_kenkoushindan⟧⟦で→で：00502_de⟧{便|べん}⟦を→を：00422_wo⟧⟦{採取|さいしゅ}→採取：12901_saishu⟧⟦して→する：00392_suru⟧⟦{提出|ていしゅつ}して→提出する：19644_teishutsusuru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please collect and submit a stool sample for the health checkup.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "The standard neutral/medical term for feces and bowel movements. In medical contexts this is by far the most common word. In everyday conversation, people often use the more casual {うんち} (for children or casual talk) or {大便|だいべん} (more formal/clinical).\n\nNote that the kanji {便|べん} also has the reading びん meaning \"mail; flight; service\" (as in {郵便|ゆうびん} or {便|びん}), which is a separate word.\n\nCOMMON COLLOCATIONS:\n- {便秘|べんぴ}: constipation\n- {軟便|なんべん}: soft stool\n- {硬便|こうべん}: hard stool\n- {血便|けつべん}: bloody stool\n- {便意|べんい}: urge to defecate\n- {便|べん}を{出|だ}す: to have a bowel movement\n- {便|べん}の{検査|けんさ}: stool test\n\nSIMILAR WORDS:\n- {大便|だいべん}: feces — more formal, explicitly distinguishes from urine ({小便|しょうべん})\n- うんち: poop — childish or casual term\n- {排便|はいべん}: defecation — the formal act itself",
-  "cross_references": [],
+  "notes": "The standard neutral/medical term for feces and bowel movements. In medical contexts this is by far the most common word. In everyday conversation, people often use the more casual ⟦うんち→うんち：09084_unchi⟧ (for children or casual talk) or ⟦{大便|だいべん}→大便：24207_daiben⟧ (more formal/clinical).\n\nNote that the kanji {便|べん} also has the reading びん meaning \"mail; flight; service\" (as in ⟦{郵便|ゆうびん}→郵便：03803_yuubin⟧ or ⟦{便|びん}→便：28160_bin⟧), which is a separate word.\n\nCOMMON COLLOCATIONS:\n- ⟦{便秘|べんぴ}→便秘：05383_benpi⟧: constipation\n- {軟便|なんべん}: soft stool\n- {硬便|こうべん}: hard stool\n- {血便|けつべん}: bloody stool\n- {便意|べんい}: urge to defecate\n- {便|べん}⟦を→を：00422_wo⟧⟦{出|だ}す→出す：01087_dasu⟧: to have a bowel movement\n- {便|べん}⟦の→の：09472_no⟧⟦{検査|けんさ}→検査：02707_kensa⟧: stool test\n\nSIMILAR WORDS:\n- ⟦{大便|だいべん}→大便：24207_daiben⟧: feces — more formal, explicitly distinguishes from urine (⟦{小便|しょうべん}→小便：28713_shouben⟧)\n- ⟦うんち→うんち：09084_unchi⟧: poop — childish or casual term\n- ⟦{排便|はいべん}→排便：26322_haiben⟧: defecation — the formal act itself",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09084_unchi",
+      "reading": "うんち",
+      "headword": "うんち",
+      "label": "poop"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23867_unko",
+      "reading": "うんこ",
+      "headword": "うんこ",
+      "label": "poop"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24450_fun",
+      "reading": "ふん",
+      "headword": "{糞|ふん}",
+      "label": "dung"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28832_otsuuji",
+      "reading": "おつうじ",
+      "headword": "お{通|つう}じ",
+      "label": "bowel movement (polite/euphemistic)"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["health"]
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "health"
+      ]
     },
     "created": "2026-04-29T15:26:28Z",
-    "modified": "2026-04-29T15:26:28Z"
+    "modified": "2026-09-02T04:02:25Z"
   }
 }

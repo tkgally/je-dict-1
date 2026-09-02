@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21209_mukashinajimi_ex1",
-      "japanese": "{彼|かれ}とは{昔馴染|むかしなじ}みだ。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦と→と：00512_to⟧⟦は→は：00079_ha⟧{昔馴染|むかしなじ}みだ。",
       "english": "He and I are old friends.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21209_mukashinajimi_ex2",
-      "japanese": "{昔馴染|むかしなじ}みの{店|みせ}に{久|ひさ}しぶりに{行|い}った。",
+      "japanese": "{昔馴染|むかしなじ}み⟦の→の：09472_no⟧⟦{店|みせ}→店：00497_mise⟧⟦に→に：00314_ni⟧⟦{久|ひさ}しぶり→久しぶり：01711_hisashiburi⟧⟦に→に：00314_ni⟧⟦{行|い}った→行く：00119_iku⟧。",
       "english": "I went to a shop I've known for ages after a long time.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21209_mukashinajimi_ex3",
-      "japanese": "{同窓会|どうそうかい}で{昔馴染|むかしなじ}みに{再会|さいかい}して、{懐|なつ}かしい{話|はなし}に{花|はな}が{咲|さ}いた。",
+      "japanese": "⟦{同窓会|どうそうかい}→同窓会：15875_dousoukai⟧⟦で→で：00502_de⟧{昔馴染|むかしなじ}み⟦に→に：00314_ni⟧⟦{再会|さいかい}→再会：11667_saikai⟧⟦して→する：00392_suru⟧、⟦{懐|なつ}かしい→懐かしい：02484_natsukashii⟧⟦{話|はなし}→話：01496_hanashi⟧⟦に→に：00314_ni⟧⟦{花|はな}→花：00523_hana⟧⟦が→が：00051_ga⟧⟦{咲|さ}いた→咲く：08150_saku⟧。",
       "english": "I reunited with old friends at a class reunion, and we blossomed into nostalgic conversation.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {昔|むかし} (the past, long ago) + {馴染|なじ}み (familiarity, acquaintance). Can refer to people, places, or shops that one has known for a long time.\n\nCOMMON COLLOCATIONS:\n- {昔馴染|むかしなじ}みの{友人|ゆうじん}: an old friend from way back\n- {昔馴染|むかしなじ}みの{店|みせ}: a shop one has frequented for years\n- {昔馴染|むかしなじ}みに{再会|さいかい}する: to reunite with an old acquaintance\n\nSIMILAR WORDS:\n- {幼馴染|おさななじ}み: childhood friend — specifically someone known since early childhood; stronger implication of having grown up together\n- {旧友|きゅうゆう}: old friend — more formal and literary\n- {知|し}り{合|あ}い: acquaintance — neutral, without the nostalgic or long-standing nuance\n\nNUANCE:\nCarries a warm, nostalgic tone. Unlike {幼馴染|おさななじ}み}, which specifically refers to childhood, {昔馴染|むかしなじ}み can refer to any long-standing connection from the past.",
+  "notes": "Composed of ⟦{昔|むかし}→昔：01515_mukashi⟧ (the past, long ago) + ⟦{馴染|なじ}み→馴染み：07304_najimi⟧ (familiarity, acquaintance). Can refer to people, places, or shops that one has known for a long time.\n\nCOMMON COLLOCATIONS:\n- {昔馴染|むかしなじ}み⟦の→の：09472_no⟧⟦{友人|ゆうじん}→友人：03649_yuujin⟧: an old friend from way back\n- {昔馴染|むかしなじ}み⟦の→の：09472_no⟧⟦{店|みせ}→店：00497_mise⟧: a shop one has frequented for years\n- {昔馴染|むかしなじ}み⟦に→に：00314_ni⟧⟦{再会|さいかい}→再会：11667_saikai⟧⟦する→する：00392_suru⟧: to reunite with an old acquaintance\n\nSIMILAR WORDS:\n- {幼馴染|おさななじ}み: childhood friend — specifically someone known since early childhood; stronger implication of having grown up together\n- ⟦{旧友|きゅうゆう}→旧友：17475_kyuuyuu⟧: old friend — more formal and literary\n- ⟦{知|し}り{合|あ}い→知り合い：03253_shiriai⟧: acquaintance — neutral, without the nostalgic or long-standing nuance\n\nUSAGE:\nCarries a warm, nostalgic tone. Unlike {幼馴染|おさななじ}み}, which specifically refers to childhood, {昔馴染|むかしなじ}み can refer to any long-standing connection from the past.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17475_kyuuyuu",
+      "reading": "きゅうゆう",
+      "headword": "{旧友|きゅうゆう}",
+      "label": "old friend"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03253_shiriai",
+      "reading": "しりあい",
+      "headword": "{知|し}り{合|あ}い",
+      "label": "acquaintance"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +76,6 @@
       ]
     },
     "created": "2026-04-01T14:16:10Z",
-    "modified": "2026-07-29T00:22:41Z"
+    "modified": "2026-09-02T04:02:02Z"
   }
 }

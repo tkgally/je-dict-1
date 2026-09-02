@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "11083_torihikisaki_ex1",
-      "japanese": "{取引先|とりひきさき}に{連絡|れんらく}する。",
+      "japanese": "{取引先|とりひきさき}⟦に→に：00314_ni⟧⟦{連絡|れんらく}する→連絡する：20202_renrakusuru⟧。",
       "english": "I'll contact the business partner.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "11083_torihikisaki_ex2",
-      "japanese": "{取引先|とりひきさき}との{会議|かいぎ}が{午後|ごご}にある。",
+      "japanese": "{取引先|とりひきさき}⟦と→と：00512_to⟧⟦の→の：09472_no⟧⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦が→が：00051_ga⟧⟦{午後|ごご}→午後：00544_gogo⟧⟦に→に：00314_ni⟧⟦ある→ある：00006_aru⟧。",
       "english": "There's a meeting with a client company this afternoon.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "11083_torihikisaki_ex3",
-      "japanese": "{新|あたら}しい{取引先|とりひきさき}を{開拓|かいたく}するために{営業|えいぎょう}{活動|かつどう}を{強化|きょうか}している。",
+      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧{取引先|とりひきさき}⟦を→を：00422_wo⟧⟦{開拓|かいたく}→開拓：09954_kaitaku⟧⟦する→する：00392_suru⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧⟦{営業|えいぎょう}→営業：01878_eigyou⟧⟦{活動|かつどう}→活動：00201_katsudou⟧⟦を→を：00422_wo⟧⟦{強化|きょうか}している→強化する：25344_kyoukasuru⟧。",
       "english": "We're strengthening our sales activities to develop new business partners.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "STRUCTURE:\nCompound of {取引|とりひき} (business transaction) + {先|さき} (destination/party). The {先|さき} suffix is common in business vocabulary to indicate the other party: {連絡先|れんらくさき} (contact), {届|とど}け{先|さき} (delivery destination), {仕入|しい}れ{先|さき} (supplier).\n\nUSAGE:\nA core business vocabulary word. Used in workplace conversations, emails, and reports. {取引先|とりひきさき} is broader than \"client\" — it encompasses any company you do business with, whether they buy from you or you buy from them.\n\nCOMMON COLLOCATIONS:\n- {取引先|とりひきさき}を{訪問|ほうもん}する: to visit a business partner\n- {取引先|とりひきさき}との{関係|かんけい}: relationship with a business partner\n- {主要|しゅよう}{取引先|とりひきさき}: major business partner\n- {取引先|とりひきさき}を{開拓|かいたく}する: to develop new business partners",
+  "notes": "COMMON PATTERNS:\nCompound of ⟦{取引|とりひき}→取引：04700_torihiki⟧ (business transaction) + ⟦{先|さき}→先：02883_saki⟧ (destination/party). The ⟦{先|さき}→先：02883_saki⟧ suffix is common in business vocabulary to indicate the other party: ⟦{連絡先|れんらくさき}→連絡先：03191_renrakusaki⟧ (contact), {届|とど}け{先|さき} (delivery destination), ⟦{仕入|しい}れ→仕入れ：07431_shiire⟧⟦{先|さき}→先：02883_saki⟧ (supplier).\n\nUSAGE:\nA core business vocabulary word. Used in workplace conversations, emails, and reports. {取引先|とりひきさき} is broader than \"client\" — it encompasses any company you do business with, whether they buy from you or you buy from them.\n\nCOMMON COLLOCATIONS:\n- {取引先|とりひきさき}⟦を→を：00422_wo⟧⟦{訪問|ほうもん}する→訪問する：26836_houmonsuru⟧: to visit a business partner\n- {取引先|とりひきさき}⟦と→と：00512_to⟧⟦の→の：09472_no⟧⟦{関係|かんけい}→関係：01298_kankei⟧: relationship with a business partner\n- ⟦{主要|しゅよう}→主要：01649_shuyou⟧{取引先|とりひきさき}: major business partner\n- {取引先|とりひきさき}⟦を→を：00422_wo⟧⟦{開拓|かいたく}→開拓：09954_kaitaku⟧⟦する→する：00392_suru⟧: to develop new business partners",
   "cross_references": [
     {
       "type": "related",
@@ -52,11 +52,60 @@
       "reading": "とりひき",
       "headword": "{取引|とりひき}",
       "label": "business transaction"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19977_shiiresaki",
+      "reading": "しいれさき",
+      "headword": "{仕入先|しいれさき}",
+      "label": "supplier"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20241_senpou",
+      "reading": "せんぽう",
+      "headword": "{先方|せんぽう}",
+      "label": "the other party"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21791_tokuisaki",
+      "reading": "とくいさき",
+      "headword": "{得意先|とくいさき}",
+      "label": "customer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23693_teikeisaki",
+      "reading": "ていけいさき",
+      "headword": "{提携先|ていけいさき}",
+      "label": "business partner"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24328_keiyakusaki",
+      "reading": "けいやくさき",
+      "headword": "{契約先|けいやくさき}",
+      "label": "contract partner"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29870_choutatsusaki",
+      "reading": "ちょうたつさき",
+      "headword": "調達先",
+      "label": "supplier"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30335_uketorisaki",
+      "reading": "うけとりさき",
+      "headword": "{受取先|うけとりさき}",
+      "label": "recipient"
     }
   ],
   "metadata": {
     "created": "2026-02-13T05:17:28Z",
-    "modified": "2026-04-25T04:12:08Z",
+    "modified": "2026-09-02T04:01:23Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

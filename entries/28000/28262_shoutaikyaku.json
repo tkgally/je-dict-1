@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28262_shoutaikyaku_ex1",
-      "japanese": "{招待客|しょうたいきゃく}を{迎|むか}える。",
+      "japanese": "{招待客|しょうたいきゃく}⟦を→を：00422_wo⟧⟦{迎|むか}える→迎える：01193_mukaeru⟧。",
       "english": "To receive the invited guests.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28262_shoutaikyaku_ex2",
-      "japanese": "{結婚式|けっこんしき}の{招待客|しょうたいきゃく}は{百人|ひゃくにん}を{超|こ}えた。",
+      "japanese": "⟦{結婚式|けっこんしき}→結婚式：05493_kekkonshiki⟧⟦の→の：09472_no⟧{招待客|しょうたいきゃく}⟦は→は：00079_ha⟧⟦{百人|ひゃくにん}→百人：10985_hyakunin⟧⟦を→を：00422_wo⟧⟦{超|こ}えた→超える：01942_koeru⟧。",
       "english": "The wedding's invited guests numbered over a hundred.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28262_shoutaikyaku_ex3",
-      "japanese": "{開店|かいてん}イベントには、{特別|とくべつ}な{招待客|しょうたいきゃく}だけが{入場|にゅうじょう}できた。",
+      "japanese": "⟦{開店|かいてん}→開店：14569_kaiten⟧⟦イベント→イベント：09594_ibento⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧、⟦{特別|とくべつ}→特別：01120_tokubetsu⟧な{招待客|しょうたいきゃく}⟦だけ→〜だけ：03093_dake⟧⟦が→が：00051_ga⟧⟦{入場|にゅうじょう}→入場：03521_nyuujou⟧⟦できた→できる：00557_dekiru⟧。",
       "english": "Only special invited guests could enter the opening event.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {招待|しょうたい} (invitation) + {客|きゃく} (guest, customer). Specifically a guest who attends by invitation, distinguishing them from ordinary paying customers.\n\nCOMMON COLLOCATIONS:\n- {招待客|しょうたいきゃく}を{迎|むか}える: welcome the invited guests\n- {招待客|しょうたいきゃく}リスト: guest list\n- {招待客|しょうたいきゃく}のみ: invited guests only",
+  "notes": "Compound of ⟦{招待|しょうたい}→招待：01435_shoutai⟧ (invitation) + ⟦{客|きゃく}→客：00865_kyaku⟧ (guest, customer). Specifically a guest who attends by invitation, distinguishing them from ordinary paying customers.\n\nCOMMON COLLOCATIONS:\n- {招待客|しょうたいきゃく}⟦を→を：00422_wo⟧⟦{迎|むか}える→迎える：01193_mukaeru⟧: welcome the invited guests\n- {招待客|しょうたいきゃく}⟦リスト→リスト：09786_risuto⟧: guest list\n- {招待客|しょうたいきゃく}⟦のみ→のみ：06546_nomi⟧: invited guests only",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "10849_gesuto",
+      "reading": "げすと",
+      "headword": "ゲスト",
+      "label": "guest"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28580_raihin",
+      "reading": "らいひん",
+      "headword": "{来賓|らいひん}",
+      "label": "guest of honor"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,12 +69,12 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "person"
       ]
     },
     "created": "2026-05-28T02:09:06Z",
-    "modified": "2026-08-08T03:27:39Z"
+    "modified": "2026-09-02T04:02:33Z"
   }
 }

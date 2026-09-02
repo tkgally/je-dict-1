@@ -28,7 +28,7 @@
     },
     {
       "id": "00399_tadashi_ex2",
-      "japanese": "⟦{明日|あした}→明日：00501_ashita⟧⟦{届|とど}けます→届ける：01248_todokeru⟧。{但|ただ}し、⟦{天候|てんこう}→天候：03558_tenkou⟧によっては⟦{遅|おく}れる→遅れる：00741_okureru⟧⟦こと→こと：01164_koto⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
+      "japanese": "⟦{明日|あした}→明日：00501_ashita⟧⟦{届|とど}けます→届ける：01248_todokeru⟧。{但|ただ}し、⟦{天候|てんこう}→天候：03558_tenkou⟧⟦によって→によって：06801_niyotte⟧⟦は→は：00079_ha⟧⟦{遅|おく}れる→遅れる：00741_okureru⟧⟦こと→こと：01164_koto⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "We will deliver tomorrow. However, there may be delays depending on the weather.",
       "has_audio": false,
       "sense_numbers": [
@@ -86,7 +86,7 @@
     },
     {
       "id": "00399_tadashi_ex8",
-      "japanese": "⟦{返品|へんぴん}→返品：05465_henpin⟧⟦{可能|かのう}→可能：00175_kanou⟧。{但|ただ}し、⟦{未開封|みかいふう}→未開封：10677_mikaifuu⟧⟦の→の：09472_no⟧⟦{場合|ばあい}→場合：01704_baai⟧のみ。",
+      "japanese": "⟦{返品|へんぴん}→返品：05465_henpin⟧⟦{可能|かのう}→可能：00175_kanou⟧。{但|ただ}し、⟦{未開封|みかいふう}→未開封：10677_mikaifuu⟧⟦の→の：09472_no⟧⟦{場合|ばあい}→場合：01704_baai⟧⟦のみ→のみ：06546_nomi⟧。",
       "english": "Returns possible. On condition that items are unopened.",
       "notes": null,
       "has_audio": false,
@@ -96,7 +96,7 @@
     },
     {
       "id": "00399_tadashi_ex9",
-      "japanese": "⟦{割引|わりびき}→割引：01526_waribiki⟧⟦{適用|てきよう}→適用：03442_tekiyou⟧。{但|ただ}し、⟦{一人|ひとり}→一人：00630_hitori⟧一{点|てん}⟦{限|かぎ}り→限り：00133_kagiri⟧。",
+      "japanese": "⟦{割引|わりびき}→割引：01526_waribiki⟧⟦{適用|てきよう}→適用：03442_tekiyou⟧。{但|ただ}し、⟦{一人|ひとり}→一人：00630_hitori⟧一⟦{点|てん}→点：01553_ten⟧⟦{限|かぎ}り→限り：00133_kagiri⟧。",
       "english": "Discount applies. Provided that it's one per person.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
       ]
     }
   ],
-  "notes": "{但|ただ}し is a conjunction used to introduce exceptions, conditions, or contrasting information.\n\nUSAGE:\n{但|ただ}し typically appears at the beginning of a new sentence to add a condition or exception to the previous statement. It's common in written notices, rules, and formal announcements.\n\nCOMMON PATTERNS:\n- ～です。{但|ただ}し、～ (~ However, ~)\n- ⟦{但|ただ}し{書|が}き→但し書き：15306_tadashigaki⟧ (proviso, caveat - written exception)\n\nSIMILAR WORDS:\n- {但|ただ}し vs. ⟦しかし→しかし：00986_shikashi⟧: しかし is a general \"however\" for contrast; {但|ただ}し specifically introduces conditions or exceptions.\n- {但|ただ}し vs. ⟦ただ→ただ：01613_tada⟧: ただ (just, only, but) is more casual; {但|ただ}し is more formal.\n- {但|ただ}し vs. ⟦もっとも→もっとも：01736_mottomo⟧: もっとも (although, but then) introduces a secondary consideration; {但|ただ}し states a clear condition.\n\nRegister: Formal. Very common in written documents, rules, contracts, and official notices. Less common in casual conversation.",
+  "notes": "{但|ただ}し is a conjunction used to introduce exceptions, conditions, or contrasting information.\n\nUSAGE:\n{但|ただ}し typically appears at the beginning of a new sentence to add a condition or exception to the previous statement. It's common in written notices, rules, and formal announcements.\n\nCOMMON PATTERNS:\n- ～です。{但|ただ}し、～ (~ However, ~)\n- ⟦{但|ただ}し{書|が}き→但し書き：15306_tadashigaki⟧ (proviso, caveat - written exception)\n\nSIMILAR WORDS:\n- {但|ただ}し vs. ⟦しかし→しかし：00986_shikashi⟧: ⟦しかし→しかし：00986_shikashi⟧ is a general \"however\" for contrast; {但|ただ}し specifically introduces conditions or exceptions.\n- {但|ただ}し vs. ⟦ただ→ただ：01613_tada⟧: ⟦ただ→ただ：01613_tada⟧ (just, only, but) is more casual; {但|ただ}し is more formal.\n- {但|ただ}し vs. ⟦もっとも→もっとも：01736_mottomo⟧: もっとも (although, but then) introduces a secondary consideration; {但|ただ}し states a clear condition.\n\nRegister: Formal. Very common in written documents, rules, contracts, and official notices. Less common in casual conversation.",
   "cross_references": [
     {
       "type": "related",
@@ -130,11 +130,39 @@
       "headword": "ただ",
       "label": "just, only, but",
       "target_id": "01613_tada"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06282_tohaie",
+      "reading": "とはいえ",
+      "headword": "とはいえ",
+      "label": "although, having said that, that being said"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19871_dakeredomo",
+      "reading": "だけれども",
+      "headword": "だけれども",
+      "label": "although"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21788_mottomo",
+      "reading": "もっとも",
+      "headword": "もっとも",
+      "label": "however"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27340_dakedomo",
+      "reading": "だけども",
+      "headword": "だけども",
+      "label": "but"
     }
   ],
   "metadata": {
     "created": "2026-01-13T06:25:33Z",
-    "modified": "2026-05-11T13:23:23Z",
+    "modified": "2026-09-02T04:00:57Z",
     "vocabulary_tier": "core",
     "tags": {
       "pos": [

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "19198_jouhourouei_ex1",
-      "japanese": "{情報漏洩|じょうほうろうえい}が{発覚|はっかく}した。",
+      "japanese": "{情報漏洩|じょうほうろうえい}⟦が→が：00051_ga⟧⟦{発覚|はっかく}した→発覚する：15423_hakkakusuru⟧。",
       "english": "An information leak was discovered.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "19198_jouhourouei_ex2",
-      "japanese": "{顧客|こきゃく}の{情報漏洩|じょうほうろうえい}を{防|ふせ}ぐため、{社内|しゃない}の{セキュリティ}{体制|たいせい}を{強化|きょうか}した。",
+      "japanese": "⟦{顧客|こきゃく}→顧客：08632_kokyaku⟧⟦の→の：09472_no⟧{情報漏洩|じょうほうろうえい}⟦を→を：00422_wo⟧⟦{防|ふせ}ぐ→防ぐ：02409_fusegu⟧⟦ため→ため：01145_tame⟧、⟦{社内|しゃない}→社内：13731_shanai⟧⟦の→の：09472_no⟧⟦セキュリティ→セキュリティ：04867_sekyuriti⟧⟦{体制|たいせい}→体制：04490_taisei⟧⟦を→を：00422_wo⟧⟦{強化|きょうか}した→強化する：25344_kyoukasuru⟧。",
       "english": "To prevent customer information leaks, we strengthened the company's security framework.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "19198_jouhourouei_ex3",
-      "japanese": "{社員|しゃいん}の{不注意|ふちゅうい}による{情報漏洩|じょうほうろうえい}で{会社|かいしゃ}は{大|おお}きな{損害|そんがい}を{被|こうむ}った。",
+      "japanese": "⟦{社員|しゃいん}→社員：03065_shain⟧⟦の→の：09472_no⟧⟦{不注意|ふちゅうい}→不注意：15111_fuchuui⟧⟦による→による：28349_niyoru⟧{情報漏洩|じょうほうろうえい}⟦で→で：00502_de⟧⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦は→は：00079_ha⟧⟦{大|おお}きな→大きな：02849_ookina⟧⟦{損害|そんがい}→損害：02615_songai⟧⟦を→を：00422_wo⟧⟦{被|こうむ}った→被る：18070_koumuru⟧。",
       "english": "The company suffered major losses from an information leak caused by an employee's carelessness.",
       "sense_numbers": [
         1
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {情報|じょうほう} (information) + {漏洩|ろうえい} (leaking, disclosure). A frequently used term in news and business. Common collocations: {情報漏洩|じょうほうろうえい}を{防|ふせ}ぐ (to prevent an information leak), {情報漏洩|じょうほうろうえい}{事件|じけん} (data breach incident), {情報漏洩|じょうほうろうえい}{対策|たいさく} (data leak prevention measures). Japan's {個人情報保護法|こじんじょうほうほごほう} (Act on Protection of Personal Information) sets strict requirements for handling personal data. {漏洩|ろうえい} can also be read {漏泄|ろうせつ}, though {ろうえい} is the standard reading.",
+  "notes": "Composed of ⟦{情報|じょうほう}→情報：03348_jouhou⟧ (information) + ⟦{漏洩|ろうえい}→漏洩：09150_rouei⟧ (leaking, disclosure). A frequently used term in news and business. Common collocations: {情報漏洩|じょうほうろうえい}⟦を→を：00422_wo⟧⟦{防|ふせ}ぐ→防ぐ：02409_fusegu⟧ (to prevent an information leak), {情報漏洩|じょうほうろうえい}⟦{事件|じけん}→事件：01568_jiken⟧ (data breach incident), {情報漏洩|じょうほうろうえい}⟦{対策|たいさく}→対策：02511_taisaku⟧ (data leak prevention measures). Japan's {個人情報保護法|こじんじょうほうほごほう} (Act on Protection of Personal Information) sets strict requirements for handling personal data. ⟦{漏洩|ろうえい}→漏洩：09150_rouei⟧ can also be read {漏泄|ろうせつ}, though ろうえい is the standard reading.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "02435_moreru",
+      "reading": "もれる",
+      "headword": "{漏|も}れる",
+      "label": "to leak"
+    },
+    {
+      "type": "related",
+      "target_id": "18842_kojinjouhou",
+      "reading": "こじんじょうほう",
+      "headword": "{個人情報|こじんじょうほう}",
+      "label": "personal information"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23565_kimitsuhoji",
+      "reading": "きみつほじ",
+      "headword": "{機密|きみつ}{保持|ほじ}",
+      "label": "confidentiality"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28491_kojinjouhouryuushutsu",
+      "reading": "こじんじょうほうりゅうしゅつ",
+      "headword": "{個人情報流出|こじんじょうほうりゅうしゅつ}",
+      "label": "personal data leak"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -63,6 +93,6 @@
       ]
     },
     "created": "2026-03-24T14:00:04Z",
-    "modified": "2026-06-12T12:41:12Z"
+    "modified": "2026-09-02T04:01:55Z"
   }
 }

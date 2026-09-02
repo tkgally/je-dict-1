@@ -15,40 +15,67 @@
   "examples": [
     {
       "id": "21815_sudachi_ex1",
-      "japanese": "{焼|や}き{魚|ざかな}にすだちを{搾|しぼ}る。",
+      "japanese": "⟦{焼|や}き{魚|ざかな}→焼き魚：13406_yakizakana⟧⟦に→に：00314_ni⟧すだち⟦を→を：00422_wo⟧⟦{搾|しぼ}る→搾る：18724_shiboru⟧。",
       "english": "To squeeze sudachi over grilled fish.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21815_sudachi_ex2",
-      "japanese": "すだちの{香|かお}りがさわやかだ。",
+      "japanese": "すだち⟦の→の：09472_no⟧⟦{香|かお}り→香り：00189_kaori⟧⟦が→が：00051_ga⟧さわやかだ。",
       "english": "The fragrance of sudachi is refreshing.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21815_sudachi_ex3",
-      "japanese": "{徳島県|とくしまけん}はすだちの{生産量|せいさんりょう}が{日本一|にほんいち}で、{地元|じもと}では{様々|さまざま}な{料理|りょうり}に{使|つか}われる。",
+      "japanese": "{徳島県|とくしまけん}⟦は→は：00079_ha⟧すだち⟦の→の：09472_no⟧{生産量|せいさんりょう}⟦が→が：00051_ga⟧{日本一|にほんいち}⟦で→で：00502_de⟧、⟦{地元|じもと}→地元：09941_jimoto⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{様々|さまざま}→様々：01559_samazama⟧な⟦{料理|りょうり}→料理：01523_ryouri⟧⟦に→に：00314_ni⟧⟦{使|つか}われる→使う：00473_tsukau⟧。",
       "english": "Tokushima Prefecture has the highest sudachi production in Japan, and locally it is used in a variety of dishes.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Written in kanji as {酢橘|すだち}, though hiragana or katakana (スダチ) is more common. A signature citrus of {徳島県|とくしまけん} (Tokushima Prefecture), where over 90% of Japan's sudachi is produced. It is harvested while still green and unripe, prized for its sharp acidity and distinctive aroma.\n\nCOMMON COLLOCATIONS:\n- すだちを{搾|しぼ}る: to squeeze sudachi\n- すだちを{添|そ}える: to serve with sudachi\n- すだちの{果汁|かじゅう}: sudachi juice\n- すだち{酢|ず}: sudachi vinegar\n\nSIMILAR WORDS:\n- {柚子|ゆず}: yuzu — a larger, more aromatic citrus used for its zest and juice\n- かぼす: kabosu — a similar green citrus from {大分県|おおいたけん}, slightly larger and milder than sudachi\n- ライム: lime — a Western citrus with a similar sour flavor profile\n\nCULTURAL NOTE:\nSudachi, {柚子|ゆず}, and かぼす are sometimes called {香酸|こうさん}かんきつ (aromatic sour citrus) as a group. They are not eaten on their own but used as flavor accents.",
+  "notes": "Written in kanji as {酢橘|すだち}, though hiragana or katakana (スダチ) is more common. A signature citrus of {徳島県|とくしまけん} (Tokushima Prefecture), where over 90% of Japan's sudachi is produced. It is harvested while still green and unripe, prized for its sharp acidity and distinctive aroma.\n\nCOMMON COLLOCATIONS:\n- すだち⟦を→を：00422_wo⟧⟦{搾|しぼ}る→搾る：18724_shiboru⟧: to squeeze sudachi\n- すだち⟦を→を：00422_wo⟧⟦{添|そ}える→添える：13315_soeru⟧: to serve with sudachi\n- すだち⟦の→の：09472_no⟧⟦{果汁|かじゅう}→果汁：15335_kajuu⟧: sudachi juice\n- すだち{酢|ず}: sudachi vinegar\n\nSIMILAR WORDS:\n- ⟦{柚子|ゆず}→柚子：13102_yuzu⟧: yuzu — a larger, more aromatic citrus used for its zest and juice\n- ⟦かぼす→かぼす：20306_kabosu⟧: kabosu — a similar green citrus from {大分県|おおいたけん}, slightly larger and milder than sudachi\n- ライム: lime — a Western citrus with a similar sour flavor profile\n\nCULTURAL NOTE:\nSudachi, ⟦{柚子|ゆず}→柚子：13102_yuzu⟧, and ⟦かぼす→かぼす：20306_kabosu⟧ are sometimes called {香酸|こうさん}かんきつ (aromatic sour citrus) as a group. They are not eaten on their own but used as flavor accents.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13102_yuzu",
+      "reading": "ゆず",
+      "headword": "{柚子|ゆず}",
+      "label": "yuzu"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20306_kabosu",
+      "reading": "かぼす",
+      "headword": "かぼす",
+      "label": "kabosu"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food", "nature"]
+      "semantic": [
+        "food",
+        "nature"
+      ]
     },
     "created": "2026-04-03T18:24:55Z",
-    "modified": "2026-04-03T18:24:55Z"
+    "modified": "2026-09-02T04:02:05Z"
   }
 }

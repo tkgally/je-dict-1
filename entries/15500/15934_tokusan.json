@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "15934_tokusan_ex1",
-      "japanese": "この{地域|ちいき}の{特産|とくさん}はりんごです。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{地域|ちいき}→地域：01461_chiiki⟧⟦の→の：09472_no⟧{特産|とくさん}⟦は→は：00079_ha⟧⟦りんご→りんご：02269_ringo⟧です。",
       "english": "The local specialty of this area is apples.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15934_tokusan_ex2",
-      "japanese": "{駅|えき}で{特産|とくさん}{品|ひん}をおみやげに{買|か}った。",
+      "japanese": "⟦{駅|えき}→駅：02180_eki⟧⟦で→で：00502_de⟧{特産|とくさん}{品|ひん}⟦を→を：00422_wo⟧おみやげ⟦に→に：00314_ni⟧⟦{買|か}った→買う：00489_kau⟧。",
       "english": "I bought local specialty products as souvenirs at the station.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15934_tokusan_ex3",
-      "japanese": "{北海道|ほっかいどう}は{乳製品|にゅうせいひん}や{海産物|かいさんぶつ}など、{特産|とくさん}{品|ひん}が{豊富|ほうふ}なことで{知|し}られている。",
+      "japanese": "⟦{北海道|ほっかいどう}→北海道：11010_hokkaidou⟧⟦は→は：00079_ha⟧⟦{乳製品|にゅうせいひん}→乳製品：05882_nyuuseihin⟧や⟦{海産物|かいさんぶつ}→海産物：13394_kaisanbutsu⟧⟦など→〜など：03095_nado⟧、{特産|とくさん}{品|ひん}⟦が→が：00051_ga⟧⟦{豊富|ほうふ}→豊富：03620_houfu⟧なこと⟦で→で：00502_de⟧⟦{知|し}られている→知る：00458_shiru⟧。",
       "english": "Hokkaido is known for being rich in local specialties such as dairy products and seafood.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\n{特産|とくさん} is almost always used with {品|ひん} as {特産品|とくさんひん} (specialty product) or as a modifier ({特産|とくさん}の〜). It is closely tied to Japanese regional identity, tourism, and gift-giving culture.\n\nCOMMON COLLOCATIONS:\n- {特産|とくさん}{品|ひん} (specialty product)\n- {特産|とくさん}{物|もの} (local specialty goods)\n- {地元|じもと}の{特産|とくさん} (local specialty)\n- 〜の{特産|とくさん} (specialty of ~)\n\nSIMILAR WORDS:\n{名産|めいさん} is very similar and often interchangeable, though {名産|めいさん} emphasizes fame or reputation, while {特産|とくさん} emphasizes uniqueness to the region.",
+  "notes": "USAGE:\n{特産|とくさん} is almost always used with ⟦{品|ひん}→品：03712_hin⟧ as ⟦{特産品|とくさんひん}→特産品：13483_tokusanhin⟧ (specialty product) or as a modifier ({特産|とくさん}⟦の→の：09472_no⟧〜). It is closely tied to Japanese regional identity, tourism, and gift-giving culture.\n\nCOMMON COLLOCATIONS:\n- {特産|とくさん}{品|ひん} (specialty product)\n- {特産|とくさん}⟦{物|もの}→物：02259_mono⟧ (local specialty goods)\n- ⟦{地元|じもと}→地元：09941_jimoto⟧⟦の→の：09472_no⟧{特産|とくさん} (local specialty)\n- 〜⟦の→の：09472_no⟧{特産|とくさん} (specialty of ~)\n\nSIMILAR WORDS:\n⟦{名産|めいさん}→名産：21548_meisan⟧ is very similar and often interchangeable, though ⟦{名産|めいさん}→名産：21548_meisan⟧ emphasizes fame or reputation, while {特産|とくさん} emphasizes uniqueness to the region.",
   "cross_references": [
     {
       "type": "synonym",
@@ -50,14 +56,18 @@
   ],
   "metadata": {
     "created": "2026-03-09T00:39:48Z",
-    "modified": "2026-05-02T08:18:57Z",
+    "modified": "2026-09-02T04:01:43Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

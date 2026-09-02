@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26620_dendou_ex1",
-      "japanese": "{銅|どう}は{電導|でんどう}{率|りつ}が{高|たか}い。",
+      "japanese": "⟦{銅|どう}→銅：19443_dou⟧⟦は→は：00079_ha⟧{電導|でんどう}⟦{率|りつ}→率：03802_ritsu⟧⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧。",
       "english": "Copper has high electrical conductivity.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26620_dendou_ex2",
-      "japanese": "この{素材|そざい}は{電導|でんどう}{性|せい}に{優|すぐ}れている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{素材|そざい}→素材：09492_sozai⟧⟦は→は：00079_ha⟧{電導|でんどう}⟦{性|せい}→性：09880_sei⟧⟦に→に：00314_ni⟧⟦{優|すぐ}れている→優れる：02119_sugureru⟧。",
       "english": "This material has excellent electrical conductivity.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26620_dendou_ex3",
-      "japanese": "{超|ちょう}{電導|でんどう}とは、{特定|とくてい}の{温度|おんど}{以下|いか}で{電気|でんき}{抵抗|ていこう}がゼロになる{現象|げんしょう}のことである。",
+      "japanese": "{超|ちょう}{電導|でんどう}⟦と→と：00512_to⟧⟦は→は：00079_ha⟧、⟦{特定|とくてい}→特定：04275_tokutei⟧⟦の→の：09472_no⟧⟦{温度|おんど}→温度：00333_ondo⟧⟦{以下|いか}→以下：01294_ika⟧⟦で→で：00502_de⟧⟦{電気|でんき}{抵抗|ていこう}→電気抵抗：25186_denkiteikou⟧⟦が→が：00051_ga⟧⟦ゼロ→ゼロ：01011_zero⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦{現象|げんしょう}→現象：02718_genshou⟧⟦の→の：09472_no⟧こと⟦である→である：09855_dearu⟧。",
       "english": "Superconductivity is the phenomenon in which electrical resistance drops to zero below a certain temperature.",
       "sense_numbers": [
         1
@@ -44,20 +44,22 @@
       "notes": null
     }
   ],
-  "notes": "A physics term composed of {電|でん} (electricity) and {導|どう} (conduct/guide). Often interchangeable with {伝導|でんどう} in the context of electrical conduction, though {伝導|でんどう} can also refer to heat conduction.\n\nCOMMON COLLOCATIONS:\n- {電導|でんどう}{性|せい}: electrical conductivity\n- {電導|でんどう}{率|りつ}: conductivity rate\n- {超|ちょう}{電導|でんどう}: superconductivity\n- {電導|でんどう}{体|たい}: conductor (of electricity)\n\nSIMILAR WORDS:\n- {伝導|でんどう}: conduction (broader term, includes heat and electrical conduction)\n- {導電|どうでん}: electrical conduction (alternate word order, same meaning)\n- {通電|つうでん}: passing of electrical current (focus on the act of sending current through)\n\nUSAGE:\nThe compound {超|ちょう}{電導|でんどう} (superconductivity) is one of the most commonly encountered uses of this word. In scientific contexts, {電導|でんどう} specifically refers to electrical conduction, while {伝導|でんどう} is the broader physical concept.",
+  "notes": "A physics term composed of {電|でん} (electricity) and {導|どう} (conduct/guide). Often interchangeable with ⟦{伝導|でんどう}→伝導：24991_dendou⟧ in the context of electrical conduction, though ⟦{伝導|でんどう}→伝導：24991_dendou⟧ can also refer to heat conduction.\n\nCOMMON COLLOCATIONS:\n- {電導|でんどう}⟦{性|せい}→性：09880_sei⟧: electrical conductivity\n- {電導|でんどう}⟦{率|りつ}→率：03802_ritsu⟧: conductivity rate\n- {超|ちょう}{電導|でんどう}: superconductivity\n- {電導|でんどう}⟦{体|たい}→体：09872_tai⟧: conductor (of electricity)\n\nSIMILAR WORDS:\n- ⟦{伝導|でんどう}→伝導：24991_dendou⟧: conduction (broader term, includes heat and electrical conduction)\n- ⟦{導電|どうでん}→導電：30048_douden⟧: electrical conduction (alternate word order, same meaning)\n- ⟦{通電|つうでん}→通電：30050_tsuuden⟧: passing of electrical current (focus on the act of sending current through)\n\nUSAGE:\nThe compound {超|ちょう}{電導|でんどう} (superconductivity) is one of the most commonly encountered uses of this word. In scientific contexts, {電導|でんどう} specifically refers to electrical conduction, while ⟦{伝導|でんどう}→伝導：24991_dendou⟧ is the broader physical concept.",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "science"
       ]
     },
     "schema_version": "2.0",
     "created": "2026-05-03T00:00:00Z",
-    "modified": "2026-08-06T00:43:53Z"
+    "modified": "2026-09-02T04:02:27Z"
   },
   "cross_references": [
     {
@@ -65,6 +67,20 @@
       "target_id": "24991_dendou",
       "reading": "でんどう",
       "label": "{伝導|でんどう}"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30048_douden",
+      "reading": "どうでん",
+      "headword": "導電",
+      "label": "electrical conduction"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30050_tsuuden",
+      "reading": "つうでん",
+      "headword": "{通電|つうでん}",
+      "label": "passing of electrical current"
     }
   ]
 }

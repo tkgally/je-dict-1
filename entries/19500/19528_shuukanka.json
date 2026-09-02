@@ -3,7 +3,7 @@
   "headword": "{習慣化|しゅうかんか}",
   "reading": "しゅうかんか",
   "romaji": "shuukanka",
-  "part_of_speech": "noun / verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "making into a habit; habituation",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "19528_shuukanka_ex1",
-      "japanese": "{運動|うんどう}を{習慣化|しゅうかんか}したい。",
+      "japanese": "⟦{運動|うんどう}→運動：00821_undou⟧⟦を→を：00422_wo⟧{習慣化|しゅうかんか}⟦したい→する：00392_suru⟧。",
       "english": "I want to make exercise a habit.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "19528_shuukanka_ex2",
-      "japanese": "{毎朝|まいあさ}の{散歩|さんぽ}が{習慣化|しゅうかんか}してきた。",
+      "japanese": "⟦{毎朝|まいあさ}→毎朝：00966_maiasa⟧⟦の→の：09472_no⟧⟦{散歩|さんぽ}→散歩：02885_sanpo⟧⟦が→が：00051_ga⟧{習慣化|しゅうかんか}してきた。",
       "english": "My morning walks have become a habit.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "19528_shuukanka_ex3",
-      "japanese": "{新|あたら}しい{行動|こうどう}を{習慣化|しゅうかんか}するには、{少|すく}なくとも{三週間|さんしゅうかん}は{続|つづ}ける{必要|ひつよう}がある。",
+      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦{行動|こうどう}→行動：02728_koudou⟧⟦を→を：00422_wo⟧{習慣化|しゅうかんか}⟦する→する：00392_suru⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧、⟦{少|すく}なく→少ない：01136_sukunai⟧とも{三週間|さんしゅうかん}⟦は→は：00079_ha⟧⟦{続|つづ}ける→続く：00903_tsuzuku⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "To make a new behavior a habit, you need to keep it up for at least three weeks.",
       "sense_numbers": [
         1
@@ -134,8 +134,24 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {習慣|しゅうかん} (habit) + {化|か} (transformation suffix, '-ization'). A popular topic in self-improvement and productivity literature in Japan.\n\nCOMMON COLLOCATIONS:\n- {習慣化|しゅうかんか}する — to make into a habit; to become habitual\n- {習慣化|しゅうかんか}のコツ — tips for forming habits\n- {習慣化|しゅうかんか}に{成功|せいこう}する — to succeed in forming a habit\n- {早起|はやお}きを{習慣化|しゅうかんか}する — to make early rising a habit\n\nRELATED TERMS:\n- {習慣|しゅうかん} — habit, custom\n- {日課|にっか} — daily routine; refers to the established routine itself\n- {癖|くせ} — habit (often unconscious or negative); unlike {習慣化|しゅうかんか}, not deliberately formed\n- ルーティン — routine (loanword); increasingly common, especially in sports contexts",
+  "notes": "Composed of ⟦{習慣|しゅうかん}→習慣：01429_shuukan⟧ (habit) + ⟦{化|か}→〜化：28335_ka⟧ (transformation suffix, '-ization'). A popular topic in self-improvement and productivity literature in Japan.\n\nCOMMON COLLOCATIONS:\n- {習慣化|しゅうかんか}⟦する→する：00392_suru⟧ — to make into a habit; to become habitual\n- {習慣化|しゅうかんか}⟦の→の：09472_no⟧⟦コツ→コツ：06658_kotsu⟧ — tips for forming habits\n- {習慣化|しゅうかんか}⟦に→に：00314_ni⟧⟦{成功|せいこう}する→成功する：21445_seikousuru⟧ — to succeed in forming a habit\n- ⟦{早起|はやお}き→早起き：02477_hayaoki⟧⟦を→を：00422_wo⟧{習慣化|しゅうかんか}⟦する→する：00392_suru⟧ — to make early rising a habit\n\nRELATED WORDS:\n- ⟦{習慣|しゅうかん}→習慣：01429_shuukan⟧ — habit, custom\n- ⟦{日課|にっか}→日課：00317_nikka⟧ — daily routine; refers to the established routine itself\n- ⟦{癖|くせ}→癖：03814_kuse⟧ — habit (often unconscious or negative); unlike {習慣化|しゅうかんか}, not deliberately formed\n- ルーティン — routine (loanword); increasingly common, especially in sports contexts",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "00317_nikka",
+      "reading": "にっか",
+      "headword": "{日課|にっか}",
+      "label": "daily routine"
+    },
+    {
+      "type": "related",
+      "target_id": "03814_kuse",
+      "reading": "くせ",
+      "headword": "{癖|くせ}",
+      "label": "habit"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -147,9 +163,12 @@
       "verb_class": "suru",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["change", "daily-life"]
+      "semantic": [
+        "change",
+        "daily-life"
+      ]
     },
     "created": "2026-03-26T04:17:46Z",
-    "modified": "2026-07-26T21:32:58Z"
+    "modified": "2026-09-02T04:01:56Z"
   }
 }

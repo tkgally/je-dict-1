@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "19149_nyuuseki_ex1",
-      "japanese": "{昨日|きのう}{入籍|にゅうせき}しました。",
+      "japanese": "⟦{昨日|きのう}→昨日：00859_kinou⟧{入籍|にゅうせき}⟦しました→する：00392_suru⟧。",
       "english": "We registered our marriage yesterday.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "19149_nyuuseki_ex2",
-      "japanese": "{結婚式|けっこんしき}の{前|まえ}に{入籍|にゅうせき}を{済|す}ませた。",
+      "japanese": "⟦{結婚式|けっこんしき}→結婚式：05493_kekkonshiki⟧⟦の→の：09472_no⟧⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧{入籍|にゅうせき}⟦を→を：00422_wo⟧⟦{済|す}ませた→済む：01950_sumu⟧。",
       "english": "We completed the marriage registration before the wedding ceremony.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "19149_nyuuseki_ex3",
-      "japanese": "{二人|ふたり}の{記念日|きねんび}に{合|あ}わせて{入籍|にゅうせき}する{予定|よてい}です。",
+      "japanese": "⟦{二人|ふたり}→二人：00622_futari⟧⟦の→の：09472_no⟧⟦{記念日|きねんび}→記念日：05585_kinenbi⟧⟦に→に：00314_ni⟧⟦{合|あ}わせて→合わせる：01872_awaseru⟧{入籍|にゅうせき}⟦する→する：00392_suru⟧⟦{予定|よてい}→予定：00824_yotei⟧です。",
       "english": "We plan to register our marriage on our anniversary.",
       "sense_numbers": [
         1
@@ -134,8 +134,17 @@
       "notes": null
     }
   ],
-  "notes": "Literally means 'entering the family register' ({戸籍|こせき}). In Japan, a marriage becomes legally valid when the {婚姻届|こんいんとどけ} (marriage registration form) is submitted to the {役所|やくしょ} (government office), not when a ceremony is held. Common collocations: {入籍|にゅうせき}する (to register a marriage), {入籍届|にゅうせきとどけ} (registration form), {入籍日|にゅうせきび} (registration date). Many couples choose a meaningful date for {入籍|にゅうせき}, such as a holiday or anniversary. Often used with する as a verb.",
+  "notes": "Literally means 'entering the family register' (⟦{戸籍|こせき}→戸籍：12695_koseki⟧). In Japan, a marriage becomes legally valid when the ⟦{婚姻届|こんいんとどけ}→婚姻届：22413_konintodoke⟧ (marriage registration form) is submitted to the ⟦{役所|やくしょ}→役所：06455_yakusho⟧ (government office), not when a ceremony is held. Common collocations: {入籍|にゅうせき}⟦する→する：00392_suru⟧ (to register a marriage), {入籍届|にゅうせきとどけ} (registration form), {入籍日|にゅうせきび} (registration date). Many couples choose a meaningful date for {入籍|にゅうせき}, such as a holiday or anniversary. Often used with ⟦する→する：00392_suru⟧ as a verb.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "22413_konintodoke",
+      "reading": "こんいんとどけ",
+      "headword": "{婚姻届|こんいんとどけ}",
+      "label": "marriage registration form"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -151,6 +160,6 @@
       "verb_class": "suru"
     },
     "created": "2026-03-24T11:21:31Z",
-    "modified": "2026-03-24T11:21:31Z"
+    "modified": "2026-09-02T04:01:54Z"
   }
 }

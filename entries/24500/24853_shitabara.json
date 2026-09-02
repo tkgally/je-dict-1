@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24853_shitabara_ex1",
-      "japanese": "{下腹|したばら}が{痛|いた}い。",
+      "japanese": "{下腹|したばら}⟦が→が：00051_ga⟧⟦{痛|いた}い→痛い：01108_itai⟧。",
       "english": "My lower abdomen hurts.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24853_shitabara_ex2",
-      "japanese": "{下腹|したばら}が{出|で}てきたのでダイエットを{始|はじ}めた。",
+      "japanese": "{下腹|したばら}⟦が→が：00051_ga⟧⟦{出|で}て→出る：00513_deru⟧きた⟦の→の：09472_no⟧で⟦ダイエット→ダイエット：17678_daietto⟧⟦を→を：00422_wo⟧⟦{始|はじ}めた→始める：00531_hajimeru⟧。",
       "english": "My lower belly started sticking out, so I started a diet.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24853_shitabara_ex3",
-      "japanese": "{下腹|したばら}を{引|ひ}き{締|し}めるエクササイズを{毎日|まいにち}{続|つづ}けている。",
+      "japanese": "{下腹|したばら}⟦を→を：00422_wo⟧⟦{引|ひ}き{締|し}める→引き締める：15264_hikishimeru⟧⟦エクササイズ→エクササイズ：29745_ekusasaizu⟧⟦を→を：00422_wo⟧⟦{毎日|まいにち}→毎日：00729_mainichi⟧⟦{続|つづ}け→続く：00903_tsuzuku⟧て⟦いる→いる：00495_iru⟧。",
       "english": "I've been doing exercises to tighten my lower abdomen every day.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {下|した} (lower) + {腹|ばら} (belly/abdomen). The reading したばら uses rendaku (sequential voicing) on {腹|はら}.\n\nCOMMON COLLOCATIONS:\n- {下腹|したばら}が{痛|いた}い: lower abdomen hurts\n- {下腹|したばら}が{出|で}る: lower belly protrudes\n- {下腹|したばら}を{引|ひ}き{締|し}める: to tighten the lower abdomen\n- {下腹|したばら}{部|ぶ}: lower abdominal area (medical)\n\nSIMILAR WORDS:\n- {下腹部|かふくぶ}: lower abdomen — the medical/formal equivalent; read with on'yomi\n- {腹|はら}/{お腹|おなか}: belly/stomach — the whole abdomen, not specifically the lower part\n- {上腹|うわばら}/{上腹部|じょうふくぶ}: upper abdomen — the area above the navel",
+  "notes": "Composed of ⟦{下|した}→下：00670_shita⟧ (lower) + {腹|ばら} (belly/abdomen). The reading ⟦した→する：00392_suru⟧ばら uses rendaku (sequential voicing) on ⟦{腹|はら}→腹：02165_hara⟧.\n\nCOMMON COLLOCATIONS:\n- {下腹|したばら}⟦が→が：00051_ga⟧⟦{痛|いた}い→痛い：01108_itai⟧: lower abdomen hurts\n- {下腹|したばら}⟦が→が：00051_ga⟧⟦{出|で}る→出る：00513_deru⟧: lower belly protrudes\n- {下腹|したばら}⟦を→を：00422_wo⟧⟦{引|ひ}き{締|し}める→引き締める：15264_hikishimeru⟧: to tighten the lower abdomen\n- {下腹|したばら}{部|ぶ}: lower abdominal area (medical)\n\nSIMILAR WORDS:\n- {下腹部|かふくぶ}: lower abdomen — the medical/formal equivalent; read with on'yomi\n- ⟦{腹|はら}→腹：02165_hara⟧/⟦お{腹|なか}→お腹：00805_onaka⟧: belly/stomach — the whole abdomen, not specifically the lower part\n- {上腹|うわばら}/{上腹部|じょうふくぶ}: upper abdomen — the area above the navel",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00805_onaka",
+      "reading": "おなか",
+      "headword": "お{腹|なか}",
+      "label": "belly/stomach"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +68,6 @@
       ]
     },
     "created": "2026-04-21T10:26:56Z",
-    "modified": "2026-06-16T12:23:55Z"
+    "modified": "2026-09-02T04:02:20Z"
   }
 }

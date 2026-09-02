@@ -3,7 +3,7 @@
   "headword": "{時間指定|じかんしてい}",
   "reading": "じかんしてい",
   "romaji": "jikanshitei",
-  "part_of_speech": "noun, verb (する)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "time designation; scheduled delivery time",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "19854_jikanshitei_ex1",
-      "japanese": "{時間指定|じかんしてい}で{届|とど}けてもらった。",
+      "japanese": "{時間指定|じかんしてい}⟦で→で：00502_de⟧⟦{届|とど}けて→届ける：01248_todokeru⟧⟦もらった→もらう：00520_morau⟧。",
       "english": "I had it delivered at a specified time.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "19854_jikanshitei_ex2",
-      "japanese": "{配達|はいたつ}の{時間指定|じかんしてい}は{午前中|ごぜんちゅう}にした。",
+      "japanese": "⟦{配達|はいたつ}→配達：00084_haitatsu⟧⟦の→の：09472_no⟧{時間指定|じかんしてい}⟦は→は：00079_ha⟧⟦{午前中|ごぜんちゅう}→午前中：11495_gozenchuu⟧にした。",
       "english": "I set the delivery time slot for the morning.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "19854_jikanshitei_ex3",
-      "japanese": "{時間指定|じかんしてい}ができない{地域|ちいき}もありますので、ご{了承|りょうしょう}ください。",
+      "japanese": "{時間指定|じかんしてい}⟦が→が：00051_ga⟧⟦できない→できる：00557_dekiru⟧⟦{地域|ちいき}→地域：01461_chiiki⟧⟦も→も：00484_mo⟧⟦あります→ある：00006_aru⟧⟦の→の：09472_no⟧で、ご⟦{了承|りょうしょう}→了承：11415_ryoushou⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please understand that there are areas where time-slot delivery is not available.",
       "sense_numbers": [
         1
@@ -134,8 +134,24 @@
       "notes": null
     }
   ],
-  "notes": "Most commonly encountered in the context of package delivery in Japan. Major carriers like ヤマト{運輸|うんゆ} and {佐川急便|さがわきゅうびん} offer time-slot delivery as a standard service, typically in 2-hour windows.\n\nCOMMON COLLOCATIONS:\n- {時間指定|じかんしてい}{配達|はいたつ} — time-slot delivery\n- {時間指定|じかんしてい}する — to specify a time\n- {時間指定|じかんしてい}{不可|ふか} — time designation not available\n- {時間指定|じかんしてい}{便|びん} — scheduled delivery service\n\nRELATED TERMS:\n- {日時指定|にちじしてい} — date and time designation\n- {再配達|さいはいたつ} — redelivery\n- {置|お}き{配|はい} — contactless delivery (leave at door)",
+  "notes": "Most commonly encountered in the context of package delivery in Japan. Major carriers like ヤマト{運輸|うんゆ} and {佐川急便|さがわきゅうびん} offer time-slot delivery as a standard service, typically in 2-hour windows.\n\nCOMMON COLLOCATIONS:\n- {時間指定|じかんしてい}⟦{配達|はいたつ}→配達：00084_haitatsu⟧ — time-slot delivery\n- {時間指定|じかんしてい}⟦する→する：00392_suru⟧ — to specify a time\n- {時間指定|じかんしてい}⟦{不可|ふか}→不可：01922_fuka⟧ — time designation not available\n- {時間指定|じかんしてい}⟦{便|びん}→便：28160_bin⟧ — scheduled delivery service\n\nRELATED WORDS:\n- {日時指定|にちじしてい} — date and time designation\n- ⟦{再配達|さいはいたつ}→再配達：09690_saihaitatsu⟧ — redelivery\n- ⟦{置|お}き{配|はい}→置き配：09720_okihai⟧ — contactless delivery (leave at door)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "09690_saihaitatsu",
+      "reading": "さいはいたつ",
+      "headword": "{再配達|さいはいたつ}",
+      "label": "redelivery"
+    },
+    {
+      "type": "related",
+      "target_id": "09720_okihai",
+      "reading": "おきはい",
+      "headword": "{置|お}き{配|はい}",
+      "label": "contactless delivery"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -151,6 +167,6 @@
       "verb_class": "suru"
     },
     "created": "2026-03-27T03:27:30Z",
-    "modified": "2026-03-27T03:27:30Z"
+    "modified": "2026-09-02T04:01:57Z"
   }
 }

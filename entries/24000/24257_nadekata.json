@@ -15,40 +15,59 @@
   "examples": [
     {
       "id": "24257_nadekata_ex1",
-      "japanese": "{彼女|かのじょ}は{撫|な}で{肩|かた}だ。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧{撫|な}で{肩|かた}だ。",
       "english": "She has sloping shoulders.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "24257_nadekata_ex2",
-      "japanese": "{撫|な}で{肩|かた}だとリュックがずり{落|お}ちやすい。",
+      "japanese": "{撫|な}で{肩|かた}だ⟦と→と：00512_to⟧⟦リュック→リュック：04541_ryukku⟧⟦が→が：00051_ga⟧ずり{落|お}ちやすい。",
       "english": "With sloping shoulders, backpack straps tend to slip off.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "24257_nadekata_ex3",
-      "japanese": "{着物|きもの}は{撫|な}で{肩|かた}の{人|ひと}のほうが{似合|にあ}うと{言|い}われている。",
+      "japanese": "⟦{着物|きもの}→着物：01309_kimono⟧⟦は→は：00079_ha⟧{撫|な}で{肩|かた}⟦の→の：09472_no⟧⟦{人|ひと}→人：00476_hito⟧⟦の→の：09472_no⟧ほう⟦が→が：00051_ga⟧⟦{似合|にあ}う→似合う：02134_niau⟧⟦と→と：00512_to⟧⟦{言|い}われている→言う：00515_iu⟧。",
       "english": "It's said that kimono look better on people with sloping shoulders.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Compound of {撫|な}で (stem of {撫|な}でる, 'to stroke; to pet') and {肩|かた} ('shoulder'). The image is of a shoulder line that curves gently downward as if stroked. In traditional Japanese culture, {撫|な}で{肩|かた} was considered the ideal shoulder shape for women, as it suited kimono silhouettes beautifully.\n\nUSAGE:\n- Used as a body-type descriptor, not as a compliment or insult\n- Practical concern: people with {撫|な}で{肩|かた} often have difficulty keeping bag straps in place\n- Relevant in kimono fitting — {撫|な}で{肩|かた} creates the smooth, flowing lines that kimono are designed for\n\nCOMMON COLLOCATIONS:\n- {撫|な}で{肩|かた}の{人|ひと}: a person with sloping shoulders\n- {撫|な}で{肩|かた}で{困|こま}る: to have trouble because of sloping shoulders\n- {撫|な}で{肩|かた}に{似合|にあ}う{服|ふく}: clothes that suit sloping shoulders\n\nSIMILAR WORDS:\n- {怒|いか}り{肩|がた}: square shoulders; angular shoulders — the opposite; shoulders that jut out horizontally, giving a broad, angular silhouette\n- {肩幅|かたはば}: shoulder width — measures the horizontal span of the shoulders rather than the angle",
+  "notes": "Compound of {撫|な}で (stem of ⟦{撫|な}でる→撫でる：04411_naderu⟧, 'to stroke; to pet') and ⟦{肩|かた}→肩：02192_kata⟧ ('shoulder'). The image is of a shoulder line that curves gently downward as if stroked. In traditional Japanese culture, {撫|な}で{肩|かた} was considered the ideal shoulder shape for women, as it suited kimono silhouettes beautifully.\n\nUSAGE:\n- Used as a body-type descriptor, not as a compliment or insult\n- Practical concern: people with {撫|な}で{肩|かた} often have difficulty keeping bag straps in place\n- Relevant in kimono fitting — {撫|な}で{肩|かた} creates the smooth, flowing lines that kimono are designed for\n\nCOMMON COLLOCATIONS:\n- {撫|な}で{肩|かた}⟦の→の：09472_no⟧⟦{人|ひと}→人：00476_hito⟧: a person with sloping shoulders\n- {撫|な}で{肩|かた}⟦で→で：00502_de⟧⟦{困|こま}る→困る：00861_komaru⟧: to have trouble because of sloping shoulders\n- {撫|な}で{肩|かた}⟦に→に：00314_ni⟧⟦{似合|にあ}う→似合う：02134_niau⟧⟦{服|ふく}→服：00695_fuku⟧: clothes that suit sloping shoulders\n\nSIMILAR WORDS:\n- {怒|いか}り{肩|がた}: square shoulders; angular shoulders — the opposite; shoulders that jut out horizontally, giving a broad, angular silhouette\n- ⟦{肩幅|かたはば}→肩幅：27827_katahaba⟧: shoulder width — measures the horizontal span of the shoulders rather than the angle",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "27827_katahaba",
+      "reading": "かたはば",
+      "headword": "{肩幅|かたはば}",
+      "label": "shoulder width"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["body-part"]
+      "semantic": [
+        "body-part"
+      ]
     },
     "created": "2026-04-18T11:27:35Z",
-    "modified": "2026-04-18T11:27:35Z"
+    "modified": "2026-09-02T04:02:17Z"
   }
 }

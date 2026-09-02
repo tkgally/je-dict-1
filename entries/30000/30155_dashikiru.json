@@ -3,7 +3,7 @@
   "headword": "{出|だ}し{切|き}る",
   "reading": "だしきる",
   "romaji": "dashikiru",
-  "part_of_speech": "verb-godan",
+  "part_of_speech": "verb (godan)",
   "gloss": "to give everything one has; to use up completely",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30155_dashikiru_ex1",
-      "japanese": "{力|ちから}を{出|だ}し{切|き}った。",
+      "japanese": "⟦{力|ちから}→力：01661_chikara⟧⟦を→を：00422_wo⟧{出|だ}し{切|き}った。",
       "english": "I gave everything I had.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30155_dashikiru_ex2",
-      "japanese": "{練習|れんしゅう}の{成果|せいか}を{出|だ}し{切|き}れなかった。",
+      "japanese": "⟦{練習|れんしゅう}→練習：05323_renshuu⟧⟦の→の：09472_no⟧⟦{成果|せいか}→成果：06745_seika⟧⟦を→を：00422_wo⟧⟦{出|だ}し→出す：01087_dasu⟧⟦{切|き}れなかった→切れる：01936_kireru⟧。",
       "english": "I couldn't fully bring out the results of my practice.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30155_dashikiru_ex3",
-      "japanese": "{最後|さいご}の{試合|しあい}で{実力|じつりょく}を{出|だ}し{切|き}れたので、{負|ま}けても{悔|く}いはない。",
+      "japanese": "⟦{最後|さいご}→最後：01413_saigo⟧⟦の→の：09472_no⟧⟦{試合|しあい}→試合：01601_shiai⟧⟦で→で：00502_de⟧⟦{実力|じつりょく}→実力：03277_jitsuryoku⟧⟦を→を：00422_wo⟧⟦{出|だ}し→出す：01087_dasu⟧⟦{切|き}れた→切れる：01936_kireru⟧⟦の→の：09472_no⟧で、⟦{負|ま}けて→負ける：01134_makeru⟧⟦も→も：00484_mo⟧⟦{悔|く}い→悔い：06648_kui⟧⟦は→は：00079_ha⟧⟦ない→ない：01118_nai⟧。",
       "english": "I was able to give my full ability in the final match, so I have no regrets even though I lost.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "{出|だ}す (to put out) + {切|き}る (the compound-verb suffix meaning to do completely). The {切|き}る ending is what supplies the sense of exhausting the supply.\n\nCOMMON COLLOCATIONS:\n- {力|ちから}を{出|だ}し{切|き}る: to give all one's strength\n- {実力|じつりょく}を{出|だ}し{切|き}る: to show one's full ability\n- {全|すべ}てを{出|だ}し{切|き}る: to give absolutely everything\n\nUSAGE:\nThe potential negative {出|だ}し{切|き}れない (couldn't give it all) is very common after a disappointing performance.\n\nSIMILAR WORDS:\n- {使|つか}い{切|き}る: to use up — of supplies and money rather than effort\n- {やり切|き}る: to see through to the end — emphasizes finishing the task, not exhausting oneself",
+  "notes": "⟦{出|だ}す→出す：01087_dasu⟧ (to put out) + ⟦{切|き}る→切る：02693_kiru⟧ (the compound-verb suffix meaning to do completely). The ⟦{切|き}る→切る：02693_kiru⟧ ending is what supplies the sense of exhausting the supply.\n\nCOMMON COLLOCATIONS:\n- ⟦{力|ちから}→力：01661_chikara⟧⟦を→を：00422_wo⟧{出|だ}し{切|き}る: to give all one's strength\n- ⟦{実力|じつりょく}→実力：03277_jitsuryoku⟧⟦を→を：00422_wo⟧{出|だ}し{切|き}る: to show one's full ability\n- ⟦{全|すべ}て→全て：03822_subete⟧⟦を→を：00422_wo⟧{出|だ}し{切|き}る: to give absolutely everything\n\nUSAGE:\nThe potential negative ⟦{出|だ}し→出す：01087_dasu⟧⟦{切|き}れない→切れる：01936_kireru⟧ (couldn't give it all) is very common after a disappointing performance.\n\nSIMILAR WORDS:\n- ⟦{使|つか}い{切|き}る→使い切る：11518_tsukaikiru⟧: to use up — of supplies and money rather than effort\n- {やり切|き}る: to see through to the end — emphasizes finishing the task, not exhausting oneself",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11518_tsukaikiru",
+      "reading": "つかいきる",
+      "headword": "{使|つか}い{切|き}る",
+      "label": "to use up"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,16 +62,17 @@
         "verb-godan"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "action",
         "sports"
       ],
       "domain": [],
-      "verb_class": "godan-ru"
+      "verb_class": "godan-ru",
+      "transitivity": "transitive"
     },
     "created": "2026-07-27T03:18:27Z",
-    "modified": "2026-07-27T03:18:27Z"
+    "modified": "2026-09-02T04:02:38Z"
   },
   "conjugation": {
     "type": "godan",

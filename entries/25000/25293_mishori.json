@@ -3,7 +3,7 @@
   "headword": "{未処理|みしょり}",
   "reading": "みしょり",
   "romaji": "mishori",
-  "part_of_speech": "noun, adjective-no",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "unprocessed; untreated; unresolved",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25293_mishori_ex1",
-      "japanese": "{未処理|みしょり}の{書類|しょるい}がたまっている。",
+      "japanese": "{未処理|みしょり}⟦の→の：09472_no⟧⟦{書類|しょるい}→書類：01103_shorui⟧⟦が→が：00051_ga⟧たまって⟦いる→いる：00495_iru⟧。",
       "english": "Unprocessed paperwork has piled up.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25293_mishori_ex2",
-      "japanese": "{未処理|みしょり}の{排水|はいすい}を{川|かわ}に{流|なが}してはいけない。",
+      "japanese": "{未処理|みしょり}⟦の→の：09472_no⟧⟦{排水|はいすい}→排水：11104_haisui⟧⟦を→を：00422_wo⟧⟦{川|かわ}→川：02186_kawa⟧⟦に→に：00314_ni⟧⟦{流|なが}して→流す：01968_nagasu⟧⟦は→は：00079_ha⟧いけない。",
       "english": "You must not discharge untreated wastewater into the river.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25293_mishori_ex3",
-      "japanese": "{未処理|みしょり}の{案件|あんけん}が{三十件|さんじゅっけん}も{残|のこ}っているので、{今日中|きょうじゅう}に{片付|かたづ}けたい。",
+      "japanese": "{未処理|みしょり}⟦の→の：09472_no⟧⟦{案件|あんけん}→案件：13109_anken⟧⟦が→が：00051_ga⟧{三十件|さんじゅっけん}⟦も→も：00484_mo⟧⟦{残|のこ}っている→残る：01187_nokoru⟧⟦の→の：09472_no⟧で、⟦{今日中|きょうじゅう}→今日中：19382_kyoujuu⟧⟦に→に：00314_ni⟧⟦{片付|かたづ}けたい→片付ける：01192_katazukeru⟧。",
       "english": "There are thirty unresolved cases remaining, so I want to get them done by today.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {未|み} (not yet) + {処理|しょり} (processing, treatment). The prefix {未|み} is productive and indicates something has not yet been done: {未完成|みかんせい} (unfinished), {未確認|みかくにん} (unconfirmed), {未解決|みかいけつ} (unsolved).\n\nCOMMON COLLOCATIONS:\n- {未処理|みしょり}の{書類|しょるい}: unprocessed documents\n- {未処理|みしょり}のデータ: raw/unprocessed data\n- {未処理|みしょり}{排水|はいすい}: untreated wastewater\n- {未処理|みしょり}{案件|あんけん}: unresolved cases\n- {未処理|みしょり}のまま{放置|ほうち}する: to leave unprocessed\n\nSIMILAR WORDS:\n- {未解決|みかいけつ}: unsolved, unresolved — specifically for problems or cases that haven't been solved\n- {処理済|しょりず}み: processed, handled — the opposite state, indicating completion\n- {保留|ほりゅう}: pending, on hold — deliberately put aside for later decision",
+  "notes": "Composed of ⟦{未|み}→未〜：00277_mi⟧ (not yet) + ⟦{処理|しょり}→処理：03251_shori⟧ (processing, treatment). The prefix ⟦{未|み}→未〜：00277_mi⟧ is productive and indicates something has not yet been done: ⟦{未完成|みかんせい}→未完成：13066_mikansei⟧ (unfinished), ⟦{未確認|みかくにん}→未確認：22493_mikakunin⟧ (unconfirmed), ⟦{未解決|みかいけつ}→未解決：17292_mikaiketsu⟧ (unsolved).\n\nCOMMON COLLOCATIONS:\n- {未処理|みしょり}⟦の→の：09472_no⟧⟦{書類|しょるい}→書類：01103_shorui⟧: unprocessed documents\n- {未処理|みしょり}⟦の→の：09472_no⟧⟦データ→データ：03944_deeta⟧: raw/unprocessed data\n- {未処理|みしょり}⟦{排水|はいすい}→排水：11104_haisui⟧: untreated wastewater\n- {未処理|みしょり}⟦{案件|あんけん}→案件：13109_anken⟧: unresolved cases\n- {未処理|みしょり}⟦の→の：09472_no⟧まま⟦{放置|ほうち}する→放置する：25382_houchisuru⟧: to leave unprocessed\n\nSIMILAR WORDS:\n- ⟦{未解決|みかいけつ}→未解決：17292_mikaiketsu⟧: unsolved, unresolved — specifically for problems or cases that haven't been solved\n- {処理済|しょりず}み: processed, handled — the opposite state, indicating completion\n- ⟦{保留|ほりゅう}→保留：08364_horyuu⟧: pending, on hold — deliberately put aside for later decision",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17292_mikaiketsu",
+      "reading": "みかいけつ",
+      "headword": "{未解決|みかいけつ}",
+      "label": "unsolved, unresolved"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08364_horyuu",
+      "reading": "ほりゅう",
+      "headword": "{保留|ほりゅう}",
+      "label": "pending, on hold"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,12 +69,14 @@
         "noun",
         "adjective-no"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "work",
         "abstract"
       ]
     },
     "created": "2026-04-24T13:21:44Z",
-    "modified": "2026-04-24T13:21:44Z"
+    "modified": "2026-09-02T04:02:21Z"
   }
 }

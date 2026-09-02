@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "08505_tabenareru_ex1",
-      "japanese": "{納豆|なっとう}は{食|た}べ{慣|な}れると{美味|おい}しい。",
+      "japanese": "⟦{納豆|なっとう}→納豆：04930_nattou⟧⟦は→は：00079_ha⟧{食|た}べ{慣|な}れる⟦と→と：00512_to⟧⟦{美味|おい}しい→美味しい：00740_oishii⟧。",
       "english": "Natto is delicious once you get used to eating it.",
       "sense_numbers": [
         1
@@ -114,7 +114,7 @@
     },
     {
       "id": "08505_tabenareru_ex2",
-      "japanese": "{日本|にほん}の{食|しょく}べ{物|もの}に{食|た}べ{慣|な}れた。",
+      "japanese": "⟦{日本|にほん}→日本：03876_nihon⟧⟦の→の：09472_no⟧{食|しょく}べ{物|もの}⟦に→に：00314_ni⟧{食|た}べ{慣|な}れた。",
       "english": "I've gotten used to eating Japanese food.",
       "sense_numbers": [
         1
@@ -124,7 +124,7 @@
     },
     {
       "id": "08505_tabenareru_ex3",
-      "japanese": "{辛|から}いものは{食|た}べ{慣|な}れていないので{苦手|にがて}だ。",
+      "japanese": "⟦{辛|から}い→辛い：00638_karai⟧もの⟦は→は：00079_ha⟧{食|た}べ{慣|な}れて⟦いない→いる：00495_iru⟧⟦の→の：09472_no⟧で⟦{苦手|にがて}→苦手：03513_nigate⟧だ。",
       "english": "I'm not used to eating spicy food, so I don't handle it well.",
       "sense_numbers": [
         1
@@ -133,7 +133,16 @@
       "notes": null
     }
   ],
-  "notes": "COMPOUND VERB:\n{食|た}べる (to eat) + {慣|な}れる (to become accustomed)\n\nPATTERN:\n~{慣|な}れる compound verbs (become used to ~):\n- {聞|き}き{慣|な}れる - become used to hearing\n- {住|す}み{慣|な}れる - become used to living\n- {見慣|みな}れる - become used to seeing\n- {使|つか}い{慣|な}れる - become used to using\n\nRELATED:\n- {慣|な}れる - to get used to\n- {慣|な}れ{親|した}しむ - to become familiar with",
+  "notes": "COMPOUND VERB:\n⟦{食|た}べる→食べる：00396_taberu⟧ (to eat) + ⟦{慣|な}れる→慣れる：00870_nareru⟧ (to become accustomed)\n\nCOMMON PATTERNS:\n~⟦{慣|な}れる→慣れる：00870_nareru⟧ compound verbs (become used to ~):\n- ⟦{聞|き}き{慣|な}れる→聞き慣れる：17602_kikinareru⟧ - become used to hearing\n- ⟦{住|す}み{慣|な}れる→住み慣れる：08506_suminareru⟧ - become used to living\n- ⟦{見慣|みな}れる→見慣れる：07953_minareru⟧ - become used to seeing\n- ⟦{使|つか}い{慣|な}れる→使い慣れる：07877_tsukainareru⟧ - become used to using\n\nRELATED WORDS:\n- ⟦{慣|な}れる→慣れる：00870_nareru⟧ - to get used to\n- ⟦{慣|な}れ{親|した}しむ→慣れ親しむ：18696_nareshitashimu⟧ - to become familiar with",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "18696_nareshitashimu",
+      "reading": "なれしたしむ",
+      "headword": "{慣|な}れ{親|した}しむ",
+      "label": "to become familiar with"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -142,6 +151,7 @@
       ],
       "transitivity": "intransitive",
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "food",
         "daily-life"
@@ -149,6 +159,6 @@
       "verb_class": "ichidan"
     },
     "created": "2026-01-27T08:12:28Z",
-    "modified": "2026-06-22T12:50:00Z"
+    "modified": "2026-09-02T04:01:15Z"
   }
 }

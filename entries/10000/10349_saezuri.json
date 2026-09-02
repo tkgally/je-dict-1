@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "10349_saezuri_ex1",
-      "japanese": "{鳥|とり}のさえずりが{聞|き}こえる。",
+      "japanese": "⟦{鳥|とり}→鳥：00679_tori⟧⟦の→の：09472_no⟧さえずり⟦が→が：00051_ga⟧⟦{聞|き}こえる→聞こえる：01229_kikoeru⟧。",
       "english": "I can hear birds chirping.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "10349_saezuri_ex2",
-      "japanese": "{朝|あさ}、{小鳥|ことり}のさえずりで{目|め}が{覚|さ}めた。",
+      "japanese": "⟦{朝|あさ}→朝：02277_asa⟧、⟦{小鳥|ことり}→小鳥：01590_kotori⟧⟦の→の：09472_no⟧さえずり⟦で→で：00502_de⟧⟦{目|め}→目：00525_me⟧⟦が→が：00051_ga⟧⟦{覚|さ}めた→覚める：02058_sameru⟧。",
       "english": "I was woken up by the chirping of small birds in the morning.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "10349_saezuri_ex3",
-      "japanese": "{森|もり}の{中|なか}を{歩|ある}いていると、あちこちから{美|うつく}しいさえずりが{響|ひび}いてきた。",
+      "japanese": "⟦{森|もり}→森：02260_mori⟧⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧⟦を→を：00422_wo⟧⟦{歩|ある}いている→歩く：00538_aruku⟧⟦と→と：00512_to⟧、⟦あちこち→あちこち：01687_achikochi⟧⟦から→から：00504_kara⟧⟦{美|うつく}しい→美しい：01121_utsukushii⟧さえずり⟦が→が：00051_ga⟧⟦{響|ひび}いて→響く：00099_hibiku⟧きた。",
       "english": "As I walked through the forest, beautiful birdsong echoed from all around.",
       "notes": null,
       "has_audio": false,
@@ -44,17 +44,26 @@
       ]
     }
   ],
-  "notes": "Noun form of the verb さえずる (to chirp, to twitter).\n\nCOMMON COLLOCATIONS:\n- {鳥|とり}のさえずり: birdsong\n- {小鳥|ことり}のさえずり: chirping of small birds\n- さえずりが{聞|き}こえる: to hear birdsong\n- {美|うつく}しいさえずり: beautiful birdsong\n\nUSAGE: A somewhat literary and aesthetic word. In everyday speech, {鳥|とり}の{鳴|な}き{声|ごえ} (bird's cry/call) is more common. さえずり specifically refers to the melodic singing of songbirds, not harsh cries like those of crows.",
-  "cross_references": [],
+  "notes": "Noun form of the verb ⟦さえずる→さえずる：07364_saezuru⟧ (to chirp, to twitter).\n\nCOMMON COLLOCATIONS:\n- ⟦{鳥|とり}→鳥：00679_tori⟧⟦の→の：09472_no⟧さえずり: birdsong\n- ⟦{小鳥|ことり}→小鳥：01590_kotori⟧⟦の→の：09472_no⟧さえずり: chirping of small birds\n- さえずり⟦が→が：00051_ga⟧⟦{聞|き}こえる→聞こえる：01229_kikoeru⟧: to hear birdsong\n- ⟦{美|うつく}しい→美しい：01121_utsukushii⟧さえずり: beautiful birdsong\n\nUSAGE: A somewhat literary and aesthetic word. In everyday speech, ⟦{鳥|とり}→鳥：00679_tori⟧⟦の→の：09472_no⟧⟦{鳴|な}き{声|ごえ}→鳴き声：16846_nakigoe⟧ (bird's cry/call) is more common. さえずり specifically refers to the melodic singing of songbirds, not harsh cries like those of crows.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "07364_saezuru",
+      "reading": "さえずる",
+      "headword": "さえずる",
+      "label": "to chirp"
+    }
+  ],
   "metadata": {
     "created": "2026-02-07T06:48:21Z",
-    "modified": "2026-08-14T01:00:44Z",
+    "modified": "2026-09-02T04:01:20Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "style": [
         "literary"
       ],

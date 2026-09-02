@@ -15,39 +15,59 @@
   "examples": [
     {
       "id": "26417_enkabutsu_ex1",
-      "japanese": "{食塩|しょくえん}は{塩化|えんか}ナトリウムという{塩化物|えんかぶつ}だ。",
+      "japanese": "⟦{食塩|しょくえん}→食塩：14675_shokuen⟧⟦は→は：00079_ha⟧{塩化|えんか}ナトリウム⟦という→という：09577_toiu⟧{塩化物|えんかぶつ}だ。",
       "english": "Table salt is a chloride called sodium chloride.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26417_enkabutsu_ex2",
-      "japanese": "{水道水|すいどうすい}には{微量|びりょう}の{塩化物|えんかぶつ}が{含|ふく}まれている。",
+      "japanese": "⟦{水道水|すいどうすい}→水道水：25349_suidousui⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{微量|びりょう}→微量：12604_biryou⟧⟦の→の：09472_no⟧{塩化物|えんかぶつ}⟦が→が：00051_ga⟧⟦{含|ふく}まれている→含む：01982_fukumu⟧。",
       "english": "Tap water contains trace amounts of chlorides.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26417_enkabutsu_ex3",
-      "japanese": "{塩化物|えんかぶつ}イオンの{濃度|のうど}が{高|たか}いと、{金属|きんぞく}の{腐食|ふしょく}が{進|すす}みやすくなる。",
+      "japanese": "{塩化物|えんかぶつ}イオン⟦の→の：09472_no⟧⟦{濃度|のうど}→濃度：00325_noudo⟧⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧⟦と→と：00512_to⟧、⟦{金属|きんぞく}→金属：02645_kinzoku⟧⟦の→の：09472_no⟧⟦{腐食|ふしょく}→腐食：08020_fushoku⟧⟦が→が：00051_ga⟧⟦{進|すす}み→進む：01225_susumu⟧やすく⟦なる→なる：01970_naru⟧。",
       "english": "When the concentration of chloride ions is high, corrosion of metals accelerates.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {塩化|えんか} (chlorination; chloride of) and {物|ぶつ} (substance). The word {塩|えん} here refers to \"salt\" in the chemical sense (a compound formed from an acid and a base), not just table salt.\n\nCOMMON COLLOCATIONS:\n- {塩化|えんか}ナトリウム: sodium chloride (table salt)\n- {塩化|えんか}カルシウム: calcium chloride (used as a de-icer)\n- {塩化物|えんかぶつ}イオン: chloride ion\n- {塩化物|えんかぶつ}{濃度|のうど}: chloride concentration\n\nSIMILAR WORDS:\n- {塩素|えんそ}: chlorine — the element itself, a greenish gas\n- {塩酸|えんさん}: hydrochloric acid — an acid containing chlorine\n- {塩類|えんるい}: salts — a broader term for chemical salts in general",
-  "cross_references": [],
+  "notes": "A compound of {塩化|えんか} (chlorination; chloride of) and ⟦{物|ぶつ}→〜物：28336_butsu⟧ (substance). The word {塩|えん} here refers to \"salt\" in the chemical sense (a compound formed from an acid and a base), not just table salt.\n\nCOMMON COLLOCATIONS:\n- {塩化|えんか}ナトリウム: sodium chloride (table salt)\n- {塩化|えんか}⟦カルシウム→カルシウム：10963_karushiumu⟧: calcium chloride (used as a de-icer)\n- {塩化物|えんかぶつ}イオン: chloride ion\n- {塩化物|えんかぶつ}⟦{濃度|のうど}→濃度：00325_noudo⟧: chloride concentration\n\nSIMILAR WORDS:\n- ⟦{塩素|えんそ}→塩素：12143_enso⟧: chlorine — the element itself, a greenish gas\n- {塩酸|えんさん}: hydrochloric acid — an acid containing chlorine\n- {塩類|えんるい}: salts — a broader term for chemical salts in general",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12143_enso",
+      "reading": "えんそ",
+      "headword": "{塩素|えんそ}",
+      "label": "chlorine"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["science"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "science"
+      ]
     },
     "created": "2026-05-01T15:35:50Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T04:02:26Z"
   }
 }

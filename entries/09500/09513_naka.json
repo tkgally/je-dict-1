@@ -32,7 +32,7 @@
     },
     {
       "id": "09513_naka_ex3",
-      "japanese": "⟦あの→あの：00915_ano⟧{夫妻|ふさい}⟦は→は：00079_ha⟧{仲|なか}⟦が→が：00051_ga⟧⟦{良|よ}さそう→良い：02350_yoi⟧⟦だ→だ：09496_da⟧。",
+      "japanese": "⟦あの→あの：00915_ano⟧⟦{夫妻|ふさい}→夫妻：00047_fusai⟧⟦は→は：00079_ha⟧{仲|なか}⟦が→が：00051_ga⟧⟦{良|よ}さそう→良い：02350_yoi⟧⟦だ→だ：09496_da⟧。",
       "english": "That couple seems to get along well.",
       "has_audio": false,
       "sense_numbers": [
@@ -40,10 +40,19 @@
       ]
     }
   ],
-  "notes": "{仲|なか} refers to the relationship or terms between people.\n\nCOMMON EXPRESSIONS:\n- {仲|なか}がいい: to be on good terms\n- {仲|なか}が{悪|わる}い: to be on bad terms\n- {仲|なか}が{良|よ}さそう: to seem to get along\n- {仲|なか}{良|よ}く: on friendly terms, amicably\n- {仲|なか}{直|なお}り: reconciliation\n\nCOMPOUNDS:\n- {仲間|なかま}: companion, friend\n- {仲介|ちゅうかい}: mediation\n\nNOTE: Different from {中|なか} (inside, middle).",
+  "notes": "{仲|なか} refers to the relationship or terms between people.\n\nCOMMON EXPRESSIONS:\n- {仲|なか}⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧: to be on good terms\n- ⟦{仲|なか}が{悪|わる}い→仲が悪い：25621_nakagawarui⟧: to be on bad terms\n- {仲|なか}⟦が→が：00051_ga⟧{良|よ}さそう: to seem to get along\n- ⟦{仲|なか}{良|よ}く→仲良い：29434_nakayoi⟧: on friendly terms, amicably\n- ⟦{仲|なか}{直|なお}り→仲直り：03127_nakanaori⟧: reconciliation\n\nCOMPOUNDS:\n- ⟦{仲間|なかま}→仲間：03498_nakama⟧: companion, friend\n- ⟦{仲介|ちゅうかい}→仲介：09718_chuukai⟧: mediation\n\nNOTE: Different from ⟦{中|なか}→中：00654_naka⟧ (inside, middle).",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19442_aidagara",
+      "reading": "あいだがら",
+      "headword": "{間柄|あいだがら}",
+      "label": "relationship, terms (between people)"
+    }
+  ],
   "metadata": {
     "created": "2026-02-02T10:21:20Z",
-    "modified": "2026-02-02T10:21:20Z",
+    "modified": "2026-09-02T04:01:18Z",
     "ai_model": "claude-opus-4-5-20251101",
     "vocabulary_tier": "general",
     "tags": {

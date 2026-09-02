@@ -23,7 +23,7 @@
     },
     {
       "id": "09490_nanban_ex2",
-      "japanese": "{電話|でんわ}{番号|ばんごう}⟦は→は：00079_ha⟧{何番|なんばん}です⟦か→か：09473_ka⟧。",
+      "japanese": "⟦{電話|でんわ}{番号|ばんごう}→電話番号：10159_denwabangou⟧⟦は→は：00079_ha⟧{何番|なんばん}です⟦か→か：09473_ka⟧。",
       "english": "What is your phone number?",
       "has_audio": false,
       "sense_numbers": [
@@ -32,7 +32,7 @@
     },
     {
       "id": "09490_nanban_ex3",
-      "japanese": "{何番|なんばん}⟦の→の：09472_no⟧バス⟦に→に：00314_ni⟧{乗|の}る⟦の→の：09472_no⟧？",
+      "japanese": "{何番|なんばん}⟦の→の：09472_no⟧⟦バス→バス：00769_basu⟧⟦に→に：00314_ni⟧⟦{乗|の}る→乗る：00511_noru⟧⟦の→の：09472_no⟧？",
       "english": "Which bus number are you taking?",
       "has_audio": false,
       "sense_numbers": [
@@ -40,10 +40,26 @@
       ]
     }
   ],
-  "notes": "{何番|なんばん} is a question word asking \"what number\" or \"which number.\" Composed of {何|なん} (what) + {番|ばん} (number/turn).\n\nCOMMON EXPRESSIONS:\n- {何番|なんばん}ですか: What number is it?\n- {何番|なんばん}{線|せん}: which line/platform (train)\n- {何番|なんばん}{目|め}: which one in order (ordinal)\n- {何番|なんばん}のバス: which bus number\n\nPRACTICAL USES:\n- {電話|でんわ}{番号|ばんごう}は{何番|なんばん}ですか: What is your phone number?\n- {部屋|へや}は{何番|なんばん}ですか: What room number?\n- {何番|なんばん}{窓口|まどぐち}に{行|い}けばいいですか: Which counter should I go to?\n\nRELATED WORDS:\n- {番号|ばんごう}: number (formal, serial)\n- {番地|ばんち}: address lot number\n- {何号|なんごう}: what number (used with {号|ごう} counter, e.g., rooms, train cars)",
+  "notes": "{何番|なんばん} is a question word asking \"what number\" or \"which number.\" Composed of ⟦{何|なん}→何〜：03100_nan⟧ (what) + ⟦{番|ばん}→番：09873_ban⟧ (number/turn).\n\nCOMMON EXPRESSIONS:\n- {何番|なんばん}です⟦か→か：09473_ka⟧: What number is it?\n- {何番|なんばん}{線|せん}: which line/platform (train)\n- {何番|なんばん}{目|め}: which one in order (ordinal)\n- {何番|なんばん}⟦の→の：09472_no⟧⟦バス→バス：00769_basu⟧: which bus number\n\nPRACTICAL USES:\n- ⟦{電話|でんわ}{番号|ばんごう}→電話番号：10159_denwabangou⟧⟦は→は：00079_ha⟧{何番|なんばん}です⟦か→か：09473_ka⟧: What is your phone number?\n- ⟦{部屋|へや}→部屋：00507_heya⟧⟦は→は：00079_ha⟧{何番|なんばん}です⟦か→か：09473_ka⟧: What room number?\n- {何番|なんばん}⟦{窓口|まどぐち}→窓口：03154_madoguchi⟧⟦に→に：00314_ni⟧⟦{行|い}けば→行く：00119_iku⟧⟦いい→いい：00118_ii⟧です⟦か→か：09473_ka⟧: Which counter should I go to?\n\nRELATED WORDS:\n- ⟦{番号|ばんごう}→番号：02939_bangou⟧: number (formal, serial)\n- ⟦{番地|ばんち}→番地：00010_banchi⟧: address lot number\n- {何号|なんごう}: what number (used with {号|ごう} counter, e.g., rooms, train cars)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "02939_bangou",
+      "reading": "ばんごう",
+      "headword": "{番号|ばんごう}",
+      "label": "number"
+    },
+    {
+      "type": "related",
+      "target_id": "00010_banchi",
+      "reading": "ばんち",
+      "headword": "{番地|ばんち}",
+      "label": "address lot number"
+    }
+  ],
   "metadata": {
     "created": "2026-02-02T07:47:12Z",
-    "modified": "2026-03-25T06:54:04Z",
+    "modified": "2026-09-02T04:01:18Z",
     "ai_model": "claude-opus-4-5-20251101",
     "vocabulary_tier": "general",
     "tags": {

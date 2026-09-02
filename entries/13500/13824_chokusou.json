@@ -3,7 +3,7 @@
   "id": "13824_chokusou",
   "headword": "{直送|ちょくそう}",
   "reading": "ちょくそう",
-  "part_of_speech": "noun / verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "direct delivery, direct shipping",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "13824_chokusou_ex1",
-      "japanese": "{産地|さんち}{直送|ちょくそう}の{野菜|やさい}を{買|か}う。",
+      "japanese": "{産地|さんち}{直送|ちょくそう}⟦の→の：09472_no⟧⟦{野菜|やさい}→野菜：02265_yasai⟧⟦を→を：00422_wo⟧⟦{買|か}う→買う：00489_kau⟧。",
       "english": "Buy vegetables shipped directly from the farm.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "13824_chokusou_ex2",
-      "japanese": "{工場|こうじょう}から{店舗|てんぽ}に{直送|ちょくそう}するので、{新鮮|しんせん}なまま{届|とど}く。",
+      "japanese": "⟦{工場|こうじょう}→工場：01082_koujou⟧⟦から→から：00504_kara⟧⟦{店舗|てんぽ}→店舗：12481_tenpo⟧⟦に→に：00314_ni⟧{直送|ちょくそう}⟦する→する：00392_suru⟧⟦の→の：09472_no⟧で、⟦{新鮮|しんせん}→新鮮：03261_shinsen⟧なまま⟦{届|とど}く→届く：00899_todoku⟧。",
       "english": "Since it's shipped directly from the factory to the store, it arrives fresh.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "13824_chokusou_ex3",
-      "japanese": "{北海道|ほっかいどう}の{漁港|ぎょこう}から{直送|ちょくそう}された{海鮮|かいせん}が、この{店|みせ}の{売|う}りだ。",
+      "japanese": "⟦{北海道|ほっかいどう}→北海道：11010_hokkaidou⟧⟦の→の：09472_no⟧⟦{漁港|ぎょこう}→漁港：20623_gyokou⟧⟦から→から：00504_kara⟧{直送|ちょくそう}⟦された→する：00392_suru⟧⟦{海鮮|かいせん}→海鮮：05881_kaisen⟧⟦が→が：00051_ga⟧、⟦この→この：00962_kono⟧⟦{店|みせ}→店：00497_mise⟧⟦の→の：09472_no⟧⟦{売|う}り→売り：12159_uri⟧だ。",
       "english": "Seafood shipped directly from Hokkaido fishing ports is this restaurant's selling point.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,11 @@
       ]
     }
   ],
-  "notes": "USAGE:\nVery commonly seen in the compound {産地|さんち}{直送|ちょくそう} (direct from the producer), which is a major selling point for food products in Japan. Often appears on restaurant menus and in advertising to emphasize freshness.\n\nGRAMMAR:\nFunctions as both a noun and a する verb: {直送|ちょくそう}する (to ship directly).\n\nCOMMON COLLOCATIONS:\n- {産地|さんち}{直送|ちょくそう}: direct from the producer\n- {工場|こうじょう}{直送|ちょくそう}: direct from the factory\n- {漁港|ぎょこう}{直送|ちょくそう}: direct from the fishing port\n- {直送|ちょくそう}{便|びん}: direct shipment",
+  "notes": "USAGE:\nVery commonly seen in the compound {産地|さんち}{直送|ちょくそう} (direct from the producer), which is a major selling point for food products in Japan. Often appears on restaurant menus and in advertising to emphasize freshness.\n\nCOMMON PATTERNS:\nFunctions as both a noun and a ⟦する→する：00392_suru⟧ verb: {直送|ちょくそう}⟦する→する：00392_suru⟧ (to ship directly).\n\nCOMMON COLLOCATIONS:\n- {産地|さんち}{直送|ちょくそう}: direct from the producer\n- ⟦{工場|こうじょう}→工場：01082_koujou⟧{直送|ちょくそう}: direct from the factory\n- ⟦{漁港|ぎょこう}→漁港：20623_gyokou⟧{直送|ちょくそう}: direct from the fishing port\n- {直送|ちょくそう}⟦{便|びん}→便：28160_bin⟧: direct shipment",
   "cross_references": [],
   "metadata": {
     "created": "2026-02-27T05:06:34Z",
-    "modified": "2026-03-29T03:07:35Z",
+    "modified": "2026-09-02T04:01:34Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -154,7 +154,8 @@
       "domain": [
         "business"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

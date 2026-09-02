@@ -15,41 +15,84 @@
   "examples": [
     {
       "id": "30455_kouchisho_ex1",
-      "japanese": "{容疑者|ようぎしゃ}は{拘置所|こうちしょ}にいる。",
+      "japanese": "⟦{容疑者|ようぎしゃ}→容疑者：15039_yougisha⟧⟦は→は：00079_ha⟧{拘置所|こうちしょ}⟦に→に：00314_ni⟧⟦いる→いる：00495_iru⟧。",
       "english": "The suspect is in the detention house.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "30455_kouchisho_ex2",
-      "japanese": "{弁護士|べんごし}が{拘置所|こうちしょ}を{訪|おとず}れた。",
+      "japanese": "⟦{弁護士|べんごし}→弁護士：03150_bengoshi⟧⟦が→が：00051_ga⟧{拘置所|こうちしょ}⟦を→を：00422_wo⟧⟦{訪|おとず}れた→訪れる：07678_otozureru⟧。",
       "english": "The lawyer visited the detention house.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "30455_kouchisho_ex3",
-      "japanese": "{判決|はんけつ}が{出|で}るまで、{被告|ひこく}は{拘置所|こうちしょ}に{収容|しゅうよう}されていた。",
+      "japanese": "⟦{判決|はんけつ}→判決：05906_hanketsu⟧⟦が→が：00051_ga⟧⟦{出|で}る→出る：00513_deru⟧⟦まで→まで：00490_made⟧、⟦{被告|ひこく}→被告：11080_hikoku⟧⟦は→は：00079_ha⟧{拘置所|こうちしょ}⟦に→に：00314_ni⟧⟦{収容|しゅうよう}→収容：11800_shuuyou⟧⟦されていた→する：00392_suru⟧。",
       "english": "The defendant was held in the detention house until the verdict came down.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {拘置|こうち} (detention) + {所|しょ} (place). Holds people whose cases are still before the courts, so the people in it have not been convicted.\n\nCOMMON COLLOCATIONS:\n- {拘置所|こうちしょ}に{入|はい}る: to be put in a detention house\n- {拘置所|こうちしょ}に{収容|しゅうよう}される: to be held in a detention house\n- {東京|とうきょう}{拘置所|こうちしょ}: the Tokyo Detention House\n- {拘置所|こうちしょ}を{出|で}る: to leave the detention house\n\nSIMILAR WORDS:\n- {刑務所|けいむしょ}: prison — for people already serving a sentence\n- {留置場|りゅうちじょう}: police holding cell — attached to a police station, for the first days after arrest",
+  "notes": "Composed of {拘置|こうち} (detention) + ⟦{所|しょ}→〜所：09844_sho⟧ (place). Holds people whose cases are still before the courts, so the people in it have not been convicted.\n\nCOMMON COLLOCATIONS:\n- {拘置所|こうちしょ}⟦に→に：00314_ni⟧⟦{入|はい}る→入る：00494_hairu⟧: to be put in a detention house\n- {拘置所|こうちしょ}⟦に→に：00314_ni⟧⟦{収容|しゅうよう}→収容：11800_shuuyou⟧⟦される→する：00392_suru⟧: to be held in a detention house\n- ⟦{東京|とうきょう}→東京：09564_toukyou⟧{拘置所|こうちしょ}: the Tokyo Detention House\n- {拘置所|こうちしょ}⟦を→を：00422_wo⟧⟦{出|で}る→出る：00513_deru⟧: to leave the detention house\n\nSIMILAR WORDS:\n- ⟦{刑務所|けいむしょ}→刑務所：19074_keimusho⟧: prison — for people already serving a sentence\n- ⟦{留置場|りゅうちじょう}→留置場：30444_ryuuchijou⟧: police holding cell — attached to a police station, for the first days after arrest",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19074_keimusho",
+      "reading": "けいむしょ",
+      "headword": "{刑務所|けいむしょ}",
+      "label": "prison"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30444_ryuuchijou",
+      "reading": "りゅうちじょう",
+      "headword": "{留置場|りゅうちじょう}",
+      "label": "police holding cell"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15716_kangoku",
+      "reading": "かんごく",
+      "headword": "{監獄|かんごく}",
+      "label": "prison"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22753_shuuyoujo",
+      "reading": "しゅうようじょ",
+      "headword": "{収容所|しゅうようじょ}",
+      "label": "detention center"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["law", "building"],
-      "domain": ["legal"]
+      "politeness": "plain",
+      "semantic": [
+        "law",
+        "building"
+      ],
+      "domain": [
+        "legal"
+      ]
     },
     "created": "2026-08-07T00:23:55Z",
-    "modified": "2026-08-07T00:23:55Z"
+    "modified": "2026-09-02T04:02:40Z"
   }
 }

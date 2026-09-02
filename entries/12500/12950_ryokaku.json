@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "12950_ryokaku_ex1",
-      "japanese": "{旅客|りょかく}が{搭乗|とうじょう}を{待|ま}っている。",
+      "japanese": "{旅客|りょかく}⟦が→が：00051_ga⟧⟦{搭乗|とうじょう}→搭乗：06200_toujou⟧⟦を→を：00422_wo⟧⟦{待|ま}っている→待つ：00469_matsu⟧。",
       "english": "The passengers are waiting to board.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "12950_ryokaku_ex2",
-      "japanese": "この{路線|ろせん}の{旅客|りょかく}{数|すう}は{年々|ねんねん}{増|ふ}えている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{路線|ろせん}→路線：11341_rosen⟧⟦の→の：09472_no⟧{旅客|りょかく}⟦{数|すう}→数：03360_suu⟧⟦は→は：00079_ha⟧⟦{年々|ねんねん}→年々：10417_nennen⟧⟦{増|ふ}えている→増える：01183_fueru⟧。",
       "english": "The number of passengers on this route is increasing year by year.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "12950_ryokaku_ex3",
-      "japanese": "{旅客|りょかく}ターミナルの{改修|かいしゅう}{工事|こうじ}が{来月|らいげつ}から{始|はじ}まる{予定|よてい}だ。",
+      "japanese": "{旅客|りょかく}⟦ターミナル→ターミナル：11037_taaminaru⟧⟦の→の：09472_no⟧⟦{改修|かいしゅう}→改修：12924_kaishuu⟧⟦{工事|こうじ}→工事：00244_kouji⟧⟦が→が：00051_ga⟧⟦{来月|らいげつ}→来月：00744_raigetsu⟧⟦から→から：00504_kara⟧⟦{始|はじ}まる→始まる：00841_hajimaru⟧⟦{予定|よてい}→予定：00824_yotei⟧だ。",
       "english": "Renovation work on the passenger terminal is scheduled to begin next month.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA formal, written-register word used mainly in transportation contexts. Everyday conversation would use {乗客|じょうきゃく} (passenger) or {お{客|きゃく}さん} instead. Often appears as a compound modifier.\n\nCOMMON COLLOCATIONS:\n- {旅客機|りょかくき}: passenger aircraft\n- {旅客|りょかく}ターミナル: passenger terminal\n- {旅客船|りょかくせん}: passenger ship\n- {旅客|りょかく}{数|すう}: number of passengers\n\nSIMILAR WORDS:\n- {乗客|じょうきゃく}: passenger (general, everyday)\n- {旅行者|りょこうしゃ}: traveler (person on a trip)\n- {搭乗者|とうじょうしゃ}: person boarding (aircraft)",
+  "notes": "USAGE:\nA formal, written-register word used mainly in transportation contexts. Everyday conversation would use ⟦{乗客|じょうきゃく}→乗客：03284_joukyaku⟧ (passenger) or ⟦お{客|きゃく}さん→お客さん：10253_okyakusan⟧ instead. Often appears as a compound modifier.\n\nCOMMON COLLOCATIONS:\n- ⟦{旅客機|りょかくき}→旅客機：17838_ryokakuki⟧: passenger aircraft\n- {旅客|りょかく}⟦ターミナル→ターミナル：11037_taaminaru⟧: passenger terminal\n- {旅客船|りょかくせん}: passenger ship\n- {旅客|りょかく}⟦{数|すう}→数：03360_suu⟧: number of passengers\n\nSIMILAR WORDS:\n- ⟦{乗客|じょうきゃく}→乗客：03284_joukyaku⟧: passenger (general, everyday)\n- ⟦{旅行者|りょこうしゃ}→旅行者：22927_ryokousha⟧: traveler (person on a trip)\n- ⟦{搭乗者|とうじょうしゃ}→搭乗者：24612_toujousha⟧: person boarding (aircraft)",
   "cross_references": [
     {
       "type": "related",
@@ -52,11 +52,32 @@
       "reading": "たび",
       "headword": "{旅|たび}",
       "label": "trip, travel"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03284_joukyaku",
+      "reading": "じょうきゃく",
+      "headword": "{乗客|じょうきゃく}",
+      "label": "passenger"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22927_ryokousha",
+      "reading": "りょこうしゃ",
+      "headword": "{旅行者|りょこうしゃ}",
+      "label": "traveler"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24612_toujousha",
+      "reading": "とうじょうしゃ",
+      "headword": "{搭乗者|とうじょうしゃ}",
+      "label": "person boarding"
     }
   ],
   "metadata": {
     "created": "2026-02-22T23:36:36Z",
-    "modified": "2026-04-27T10:17:30Z",
+    "modified": "2026-09-02T04:01:31Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

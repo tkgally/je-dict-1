@@ -3,7 +3,7 @@
   "headword": "{執筆|しっぴつ}する",
   "reading": "しっぴつする",
   "romaji": "shippitsusuru",
-  "part_of_speech": "verb (suru)",
+  "part_of_speech": "suru verb",
   "gloss": "to write; to author; to pen",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25397_shippitsusuru_ex1",
-      "japanese": "{小説|しょうせつ}を{執筆|しっぴつ}する。",
+      "japanese": "⟦{小説|しょうせつ}→小説：01434_shousetsu⟧⟦を→を：00422_wo⟧{執筆|しっぴつ}する。",
       "english": "To write a novel.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25397_shippitsusuru_ex2",
-      "japanese": "{彼女|かのじょ}は{現在|げんざい}、{新|あたら}しい{論文|ろんぶん}を{執筆|しっぴつ}{中|ちゅう}だ。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧⟦{現在|げんざい}→現在：01556_genzai⟧、⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦{論文|ろんぶん}→論文：03787_ronbun⟧⟦を→を：00422_wo⟧⟦{執筆|しっぴつ}→執筆：04194_shippitsu⟧⟦{中|ちゅう}→〜中：09840_chuu⟧だ。",
       "english": "She is currently writing a new academic paper.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25397_shippitsusuru_ex3",
-      "japanese": "この{教科書|きょうかしょ}は{大学|だいがく}の{教授|きょうじゅ}たちが{共同|きょうどう}で{執筆|しっぴつ}したものだ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{教科書|きょうかしょ}→教科書：01085_kyoukasho⟧⟦は→は：00079_ha⟧⟦{大学|だいがく}→大学：00608_daigaku⟧⟦の→の：09472_no⟧⟦{教授|きょうじゅ}→教授：02589_kyouju⟧たち⟦が→が：00051_ga⟧⟦{共同|きょうどう}→共同：02591_kyoudou⟧⟦で→で：00502_de⟧{執筆|しっぴつ}したものだ。",
       "english": "This textbook was co-authored by university professors.",
       "sense_numbers": [
         1
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "A formal word for writing that implies authorship of substantial works. Not used for casual writing like notes, text messages, or shopping lists.\n\nCOMMON COLLOCATIONS:\n- {執筆|しっぴつ}{中|ちゅう}: currently writing, in the process of writing\n- {執筆|しっぴつ}{活動|かつどう}: writing activities\n- {執筆|しっぴつ}{者|しゃ}: writer, author\n- {共同|きょうどう}{執筆|しっぴつ}: co-authoring\n- {執筆|しっぴつ}{依頼|いらい}: writing commission/request\n\nSIMILAR WORDS:\n- {書|か}く: to write — the most general and everyday word for writing, applicable to anything from notes to novels\n- {著|あらわ}す: to author, to publish — emphasizes the act of producing a published work, while {執筆|しっぴつ} focuses on the process of writing itself\n- {記|しる}す: to write down, to record — focuses on documenting or recording information, rather than creative or scholarly composition",
+  "notes": "A formal word for writing that implies authorship of substantial works. Not used for casual writing like notes, text messages, or shopping lists.\n\nCOMMON COLLOCATIONS:\n- ⟦{執筆|しっぴつ}→執筆：04194_shippitsu⟧⟦{中|ちゅう}→〜中：09840_chuu⟧: currently writing, in the process of writing\n- ⟦{執筆|しっぴつ}→執筆：04194_shippitsu⟧⟦{活動|かつどう}→活動：00201_katsudou⟧: writing activities\n- ⟦{執筆|しっぴつ}{者|しゃ}→執筆者：22346_shippitsusha⟧: writer, author\n- ⟦{共同|きょうどう}→共同：02591_kyoudou⟧⟦{執筆|しっぴつ}→執筆：04194_shippitsu⟧: co-authoring\n- ⟦{執筆|しっぴつ}→執筆：04194_shippitsu⟧⟦{依頼|いらい}→依頼：02594_irai⟧: writing commission/request\n\nSIMILAR WORDS:\n- ⟦{書|か}く→書く：00477_kaku⟧: to write — the most general and everyday word for writing, applicable to anything from notes to novels\n- ⟦{著|あらわ}す→著す：02279_arawasu⟧: to author, to publish — emphasizes the act of producing a published work, while ⟦{執筆|しっぴつ}→執筆：04194_shippitsu⟧ focuses on the process of writing itself\n- ⟦{記|しる}す→記す：14238_shirusu⟧: to write down, to record — focuses on documenting or recording information, rather than creative or scholarly composition",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00477_kaku",
+      "reading": "かく",
+      "headword": "{書|か}く",
+      "label": "to write"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02279_arawasu",
+      "reading": "あらわす",
+      "headword": "{著|あらわ}す",
+      "label": "to author, to publish"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14238_shirusu",
+      "reading": "しるす",
+      "headword": "{記|しる}す",
+      "label": "to write down, to record"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22272_kakihajimeru",
+      "reading": "かきはじめる",
+      "headword": "{書|か}き{始|はじ}める",
+      "label": "to begin writing"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -64,7 +94,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-25T11:18:26Z",
-    "modified": "2026-04-25T11:18:26Z"
+    "modified": "2026-09-02T04:02:22Z"
   },
   "conjugation": {
     "type": "suru",

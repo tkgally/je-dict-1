@@ -15,41 +15,67 @@
   "examples": [
     {
       "id": "27570_hashikko_ex1",
-      "japanese": "パンの{端|はし}っこが{好|す}きだ。",
+      "japanese": "⟦パン→パン：00553_pan⟧⟦の→の：09472_no⟧{端|はし}っこ⟦が→が：00051_ga⟧⟦{好|す}き→好き：02355_suki⟧だ。",
       "english": "I love the end pieces of the bread.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27570_hashikko_ex2",
-      "japanese": "{机|つくえ}の{端|はし}っこに{鍵|かぎ}を{置|お}いておいた。",
+      "japanese": "⟦{机|つくえ}→机：00762_tsukue⟧⟦の→の：09472_no⟧{端|はし}っこ⟦に→に：00314_ni⟧⟦{鍵|かぎ}→鍵：02189_kagi⟧⟦を→を：00422_wo⟧⟦{置|お}いて→置く：01092_oku⟧おいた。",
       "english": "I left the key on the edge of the desk.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27570_hashikko_ex3",
-      "japanese": "{子供|こども}たちはソファの{端|はし}っこに{座|すわ}って{絵本|えほん}を{読|よ}んでいた。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧たち⟦は→は：00079_ha⟧⟦ソファ→ソファ：04485_sofa⟧⟦の→の：09472_no⟧{端|はし}っこ⟦に→に：00314_ni⟧⟦{座|すわ}って→座る：00757_suwaru⟧⟦{絵本|えほん}→絵本：10429_ehon⟧⟦を→を：00422_wo⟧⟦{読|よ}んでいた→読む：00426_yomu⟧。",
       "english": "The children were sitting at the edge of the sofa reading a picture book.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Casual variant of {端|はし} formed with the diminutive/familiar suffix っこ. It carries a friendlier, more concrete feel — useful in speech but generally not in formal writing.\n\nCOMMON COLLOCATIONS:\n- {机|つくえ}の{端|はし}っこ: the edge of the desk\n- パンの{端|はし}っこ: the end (heel) of a loaf of bread\n- {端|はし}っこに{座|すわ}る: to sit at the edge\n- {端|はし}っこを{切|き}る: to cut off the end\n\nSIMILAR WORDS:\n- {端|はし}: edge; end (neutral, all-purpose)\n- {隅|すみ}: corner (interior corner of a room or space)\n- {先|さき}: tip; point (the very end, often pointed)",
+  "notes": "Casual variant of ⟦{端|はし}→端：00936_hashi⟧ formed with the diminutive/familiar suffix っこ. It carries a friendlier, more concrete feel — useful in speech but generally not in formal writing.\n\nCOMMON COLLOCATIONS:\n- ⟦{机|つくえ}→机：00762_tsukue⟧⟦の→の：09472_no⟧{端|はし}っこ: the edge of the desk\n- ⟦パン→パン：00553_pan⟧⟦の→の：09472_no⟧{端|はし}っこ: the end (heel) of a loaf of bread\n- {端|はし}っこ⟦に→に：00314_ni⟧⟦{座|すわ}る→座る：00757_suwaru⟧: to sit at the edge\n- {端|はし}っこ⟦を→を：00422_wo⟧⟦{切|き}る→切る：02693_kiru⟧: to cut off the end\n\nSIMILAR WORDS:\n- ⟦{端|はし}→端：00936_hashi⟧: edge; end (neutral, all-purpose)\n- ⟦{隅|すみ}→隅：01625_sumi⟧: corner (interior corner of a room or space)\n- ⟦{先|さき}→先：02883_saki⟧: tip; point (the very end, often pointed)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01625_sumi",
+      "reading": "すみ",
+      "headword": "{隅|すみ}",
+      "label": "corner"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02883_saki",
+      "reading": "さき",
+      "headword": "{先|さき}",
+      "label": "tip"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "informal",
-      "politeness": null,
-      "semantic": ["location"],
+      "politeness": "plain",
+      "semantic": [
+        "location"
+      ],
       "domain": []
     },
     "created": "2026-05-14T03:13:32Z",
-    "modified": "2026-05-14T03:13:32Z"
+    "modified": "2026-09-02T04:02:31Z"
   }
 }

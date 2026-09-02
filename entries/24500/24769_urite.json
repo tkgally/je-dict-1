@@ -14,38 +14,57 @@
   "examples": [
     {
       "id": "24769_urite_ex1",
-      "japanese": "{売|う}り{手|て}が{見|み}つからない。",
+      "japanese": "{売|う}り{手|て}⟦が→が：00051_ga⟧⟦{見|み}つからない→見つかる：01173_mitsukaru⟧。",
       "english": "I can't find a seller.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "24769_urite_ex2",
-      "japanese": "{売|う}り{手|て}{市場|しじょう}では{価格|かかく}が{上|あ}がる。",
+      "japanese": "{売|う}り{手|て}{市場|しじょう}⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{価格|かかく}→価格：00147_kakaku⟧⟦が→が：00051_ga⟧⟦{上|あ}がる→上がる：00615_agaru⟧。",
       "english": "Prices rise in a seller's market.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "24769_urite_ex3",
-      "japanese": "この{取引|とりひき}では{売|う}り{手|て}と{買|か}い{手|て}の{双方|そうほう}が{合意|ごうい}した。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{取引|とりひき}→取引：04700_torihiki⟧で⟦は→は：00079_ha⟧{売|う}り{手|て}⟦と→と：00512_to⟧⟦{買|か}い{手|て}→買い手：24770_kaite⟧⟦の→の：09472_no⟧⟦{双方|そうほう}→双方：11859_souhou⟧⟦が→が：00051_ga⟧⟦{合意|ごうい}→合意：05093_goui⟧⟦した→する：00392_suru⟧。",
       "english": "In this transaction, both the seller and buyer agreed.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "Refers to the selling party in a transaction, contrasting with {買|か}い{手|て} (buyer). Often used in economics and business contexts.\n\nCOMMON COLLOCATIONS:\n- {売|う}り{手|て}{市場|しじょう}: seller's market (where demand exceeds supply)\n- {売|う}り{手|て}{側|がわ}: the seller's side\n- {売|う}り{手|て}{責任|せきにん}: seller's liability\n\nSIMILAR WORDS:\n- {販売者|はんばいしゃ}: seller (formal, legal term)\n- {売主|うりぬし}: seller (real estate, legal contexts)\n- {業者|ぎょうしゃ}: dealer, trader (professional connotation)",
+  "notes": "Refers to the selling party in a transaction, contrasting with ⟦{買|か}い{手|て}→買い手：24770_kaite⟧ (buyer). Often used in economics and business contexts.\n\nCOMMON COLLOCATIONS:\n- {売|う}り{手|て}{市場|しじょう}: seller's market (where demand exceeds supply)\n- {売|う}り{手|て}⟦{側|がわ}→〜側：03090_gawa⟧: the seller's side\n- {売|う}り{手|て}⟦{責任|せきにん}→責任：03298_sekinin⟧: seller's liability\n\nSIMILAR WORDS:\n- {販売者|はんばいしゃ}: seller (formal, legal term)\n- {売主|うりぬし}: seller (real estate, legal contexts)\n- ⟦{業者|ぎょうしゃ}→業者：13130_gyousha⟧: dealer, trader (professional connotation)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13130_gyousha",
+      "reading": "ぎょうしゃ",
+      "headword": "{業者|ぎょうしゃ}",
+      "label": "dealer, trader"
+    }
+  ],
   "metadata": {
     "created": "2026-04-20T15:21:31Z",
-    "modified": "2026-04-20T15:21:31Z",
+    "modified": "2026-09-02T04:02:19Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["business"]
+      "semantic": [
+        "business"
+      ]
     }
   }
 }

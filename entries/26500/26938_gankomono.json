@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26938_gankomono_ex1",
-      "japanese": "{父|ちち}は{頑固者|がんこもの}だ。",
+      "japanese": "⟦{父|ちち}→父：00566_chichi⟧⟦は→は：00079_ha⟧{頑固者|がんこもの}だ。",
       "english": "My father is a stubborn person.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26938_gankomono_ex2",
-      "japanese": "あの{職人|しょくにん}は{頑固者|がんこもの}で、{自分|じぶん}のやり{方|かた}を{変|か}えない。",
+      "japanese": "⟦あの→あの：00915_ano⟧⟦{職人|しょくにん}→職人：09868_shokunin⟧⟦は→は：00079_ha⟧{頑固者|がんこもの}で、⟦{自分|じぶん}→自分：02887_jibun⟧⟦の→の：09472_no⟧⟦やり{方|かた}→やり方：10532_yarikata⟧⟦を→を：00422_wo⟧⟦{変|か}えない→変える：01089_kaeru⟧。",
       "english": "That craftsman is stubborn and won't change his way of doing things.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26938_gankomono_ex3",
-      "japanese": "{祖父|そふ}は{頑固者|がんこもの}だが、{家族|かぞく}のことを{誰|だれ}よりも{大切|たいせつ}に{思|おも}っている。",
+      "japanese": "⟦{祖父|そふ}→祖父：01452_sofu⟧⟦は→は：00079_ha⟧{頑固者|がんこもの}だ⟦が→が：00051_ga⟧、⟦{家族|かぞく}→家族：00552_kazoku⟧⟦の→の：09472_no⟧こと⟦を→を：00422_wo⟧⟦{誰|だれ}→誰：00534_dare⟧⟦より→より：09476_yori⟧⟦も→も：00484_mo⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧⟦に→に：00314_ni⟧⟦{思|おも}っている→思う：00492_omou⟧。",
       "english": "My grandfather is stubborn, but he cares about his family more than anyone.",
       "sense_numbers": [
         1
@@ -44,8 +44,23 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {頑固|がんこ} (stubborn) and {者|もの} (person). Often used to describe older men, particularly fathers and grandfathers, and carries a mix of criticism and affection. In the context of craftsmen and artisans, being a {頑固者|がんこもの} can be positive, implying uncompromising dedication to quality.\n\nCOMMON COLLOCATIONS:\n- {頑固者|がんこもの}の{親父|おやじ}: a stubborn old man (father)\n- {筋金入|すじがねい}りの{頑固者|がんこもの}: a thoroughly stubborn person\n- {昔|むかし}ながらの{頑固者|がんこもの}: an old-fashioned stubborn person\n\nSIMILAR WORDS:\n- {意地|いじ}っ{張|ぱ}り: obstinate person — more colloquial; implies stubbornness driven by pride or spite\n- {頑固|がんこ}な{人|ひと}: stubborn person — the adjective form; more neutral than the compound {頑固者|がんこもの}\n- {強情|ごうじょう}な{人|ひと}: obstinate person — emphasizes willful refusal to yield",
-  "cross_references": [],
+  "notes": "A compound of ⟦{頑固|がんこ}→頑固：06643_ganko⟧ (stubborn) and ⟦{者|もの}→者：12734_mono⟧ (person). Often used to describe older men, particularly fathers and grandfathers, and carries a mix of criticism and affection. In the context of craftsmen and artisans, being a {頑固者|がんこもの} can be positive, implying uncompromising dedication to quality.\n\nCOMMON COLLOCATIONS:\n- {頑固者|がんこもの}⟦の→の：09472_no⟧{親父|おやじ}: a stubborn old man (father)\n- {筋金入|すじがねい}り⟦の→の：09472_no⟧{頑固者|がんこもの}: a thoroughly stubborn person\n- ⟦{昔|むかし}ながら→昔ながら：26817_mukashinagara⟧⟦の→の：09472_no⟧{頑固者|がんこもの}: an old-fashioned stubborn person\n\nSIMILAR WORDS:\n- ⟦{意地|いじ}っ{張|ぱ}り→意地っ張り：18869_ijippari⟧: obstinate person — more colloquial; implies stubbornness driven by pride or spite\n- ⟦{頑固|がんこ}→頑固：06643_ganko⟧な⟦{人|ひと}→人：00476_hito⟧: stubborn person — the adjective form; more neutral than the compound {頑固者|がんこもの}\n- ⟦{強情|ごうじょう}→強情：18243_goujou⟧な⟦{人|ひと}→人：00476_hito⟧: obstinate person — emphasizes willful refusal to yield",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18869_ijippari",
+      "reading": "いじっぱり",
+      "headword": "{意地|いじ}っ{張|ぱ}り",
+      "label": "obstinate person"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26937_hinikuya",
+      "reading": "ひにくや",
+      "headword": "{皮肉屋|ひにくや}",
+      "label": "cynic"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -61,6 +76,6 @@
       "domain": []
     },
     "created": "2026-05-05T16:21:42Z",
-    "modified": "2026-08-06T12:44:19Z"
+    "modified": "2026-09-02T04:02:28Z"
   }
 }

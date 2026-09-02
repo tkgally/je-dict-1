@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21447_shikoku_ex1",
-      "japanese": "{四国|しこく}には{四|よっ}つの{県|けん}がある。",
+      "japanese": "{四国|しこく}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{四|よっ}つ→四つ：03039_yottsu⟧⟦の→の：09472_no⟧⟦{県|けん}→県：02151_ken⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "Shikoku has four prefectures.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21447_shikoku_ex2",
-      "japanese": "{来年|らいねん}の{夏|なつ}に{四国|しこく}を{一周|いっしゅう}する{旅行|りょこう}を{計画|けいかく}している。",
+      "japanese": "⟦{来年|らいねん}→来年：00745_rainen⟧⟦の→の：09472_no⟧⟦{夏|なつ}→夏：02236_natsu⟧⟦に→に：00314_ni⟧{四国|しこく}⟦を→を：00422_wo⟧⟦{一周|いっしゅう}→一周：08917_isshuu⟧⟦する→する：00392_suru⟧⟦{旅行|りょこう}→旅行：00748_ryokou⟧⟦を→を：00422_wo⟧⟦{計画|けいかく}している→計画する：20998_keikakusuru⟧。",
       "english": "I'm planning a trip around Shikoku next summer.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21447_shikoku_ex3",
-      "japanese": "{四国|しこく}は{瀬戸内海|せとないかい}を{挟|はさ}んで{本州|ほんしゅう}と{向|む}かい{合|あ}っており、{橋|はし}やフェリーで{渡|わた}ることができる。",
+      "japanese": "{四国|しこく}⟦は→は：00079_ha⟧⟦{瀬戸内海|せとないかい}→瀬戸内海：30793_setonaikai⟧⟦を→を：00422_wo⟧⟦{挟|はさ}んで→挟む：00091_hasamu⟧⟦{本州|ほんしゅう}→本州：18528_honshuu⟧⟦と→と：00512_to⟧⟦{向|む}かい{合|あ}って→向かい合う：23708_mukaiau⟧おり、⟦{橋|はし}→橋：02163_hashi⟧や⟦フェリー→フェリー：11168_ferii⟧⟦で→で：00502_de⟧⟦{渡|わた}る→渡る：02441_wataru⟧こと⟦が→が：00051_ga⟧⟦できる→できる：00557_dekiru⟧。",
       "english": "Shikoku faces Honshu across the Seto Inland Sea and can be reached by bridge or ferry.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "The name literally means \"four countries/provinces\" ({四|し} = four, {国|こく} = country/province), referring to the four historical provinces: {阿波|あわ} (Tokushima), {讃岐|さぬき} (Kagawa), {伊予|いよ} (Ehime), and {土佐|とさ} (Kochi).\n\nCULTURAL NOTE:\n{四国|しこく} is famous for the {八十八|はちじゅうはち}ヶ{所|しょ}{巡|めぐ}り (88 Temple Pilgrimage), a 1,200-kilometer walking route visiting 88 Buddhist temples associated with the monk {空海|くうかい} ({弘法大師|こうぼうだいし}). This pilgrimage attracts thousands of walkers ({遍路|へんろ}) each year.\n\nCOMMON COLLOCATIONS:\n- {四国|しこく}{地方|ちほう}: Shikoku region\n- {四国|しこく}{遍路|へんろ}: Shikoku pilgrimage\n- {四国|しこく}{八十八|はちじゅうはち}ヶ{所|しょ}: the 88 temples of Shikoku\n- {瀬戸大橋|せとおおはし}: Seto Ohashi Bridge (connecting Shikoku to Honshu)",
+  "notes": "The name literally means \"four countries/provinces\" ({四|し} = four, {国|こく} = country/province), referring to the four historical provinces: {阿波|あわ} (Tokushima), {讃岐|さぬき} (Kagawa), {伊予|いよ} (Ehime), and {土佐|とさ} (Kochi).\n\nCULTURAL NOTE:\n{四国|しこく} is famous for the {八十八|はちじゅうはち}ヶ{所|しょ}⟦{巡|めぐ}り→巡る：03930_meguru⟧ (88 Temple Pilgrimage), a 1,200-kilometer walking route visiting 88 Buddhist temples associated with the monk {空海|くうかい} ({弘法大師|こうぼうだいし}). This pilgrimage attracts thousands of walkers ({遍路|へんろ}) each year.\n\nCOMMON COLLOCATIONS:\n- {四国|しこく}⟦{地方|ちほう}→地方：02369_chihou⟧: Shikoku region\n- {四国|しこく}{遍路|へんろ}: Shikoku pilgrimage\n- {四国|しこく}{八十八|はちじゅうはち}ヶ{所|しょ}: the 88 temples of Shikoku\n- {瀬戸大橋|せとおおはし}: Seto Ohashi Bridge (connecting Shikoku to Honshu)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15647_kyuushuu",
+      "reading": "きゅうしゅう",
+      "headword": "{九州|きゅうしゅう}",
+      "label": "Kyushu"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,6 +70,6 @@
       ]
     },
     "created": "2026-04-02T03:27:22Z",
-    "modified": "2026-08-11T04:24:46Z"
+    "modified": "2026-09-02T04:02:03Z"
   }
 }

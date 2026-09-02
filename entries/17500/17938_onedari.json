@@ -3,7 +3,7 @@
   "id": "17938_onedari",
   "headword": "おねだり",
   "reading": "おねだり",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "begging; coaxing; wheedling",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "17938_onedari_ex1",
-      "japanese": "{子|こ}どもにおねだりされた。",
+      "japanese": "{子|こ}ども⟦に→に：00314_ni⟧おねだり⟦された→する：00392_suru⟧。",
       "english": "My child begged me for something.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "17938_onedari_ex2",
-      "japanese": "{誕生日|たんじょうび}プレゼントをおねだりする。",
+      "japanese": "⟦{誕生日|たんじょうび}→誕生日：02910_tanjoubi⟧⟦プレゼント→プレゼント：01791_purezento⟧⟦を→を：00422_wo⟧おねだり⟦する→する：00392_suru⟧。",
       "english": "To coax someone for a birthday present.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "17938_onedari_ex3",
-      "japanese": "{娘|むすめ}が「あれ{買|か}って」とおねだりするので、つい{買|か}ってしまった。",
+      "japanese": "⟦{娘|むすめ}→娘：02263_musume⟧⟦が→が：00051_ga⟧「⟦あれ→あれ：00916_are⟧⟦{買|か}って→買う：00489_kau⟧」⟦と→と：00512_to⟧おねだり⟦する→する：00392_suru⟧⟦の→の：09472_no⟧で、つい⟦{買|か}って→買う：00489_kau⟧しまった。",
       "english": "My daughter kept begging 'buy me that,' so I ended up buying it for her.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nThe お prefix gives a softer, more polite feel. The base word is {強請|ねだ}り. Often used for children's requests, but can also describe coy or playful requests between adults (e.g., asking a partner for a gift). The nuance is lighter and cuter than せがむ.\n\nCOMMON COLLOCATIONS:\n- おねだりする (to beg, to coax)\n- おねだりされる (to be begged)\n- プレゼントをおねだりする (to beg for a present)\n\nSIMILAR WORDS:\n- せがむ: to pester, to badger — more persistent and potentially annoying\n- {頼|たの}む: to ask, to request — neutral, straightforward request",
+  "notes": "USAGE:\nThe お prefix gives a softer, more polite feel. The base word is {強請|ねだ}り. Often used for children's requests, but can also describe coy or playful requests between adults (e.g., asking a partner for a gift). The nuance is lighter and cuter than ⟦せがむ→せがむ：17931_segamu⟧.\n\nCOMMON COLLOCATIONS:\n- おねだり⟦する→する：00392_suru⟧ (to beg, to coax)\n- おねだり⟦される→する：00392_suru⟧ (to be begged)\n- ⟦プレゼント→プレゼント：01791_purezento⟧⟦を→を：00422_wo⟧おねだり⟦する→する：00392_suru⟧ (to beg for a present)\n\nSIMILAR WORDS:\n- ⟦せがむ→せがむ：17931_segamu⟧: to pester, to badger — more persistent and potentially annoying\n- ⟦{頼|たの}む→頼む：01104_tanomu⟧: to ask, to request — neutral, straightforward request",
   "cross_references": [
     {
       "type": "synonym",
@@ -142,11 +142,18 @@
       "reading": "せがむ",
       "headword": "せがむ",
       "label": "to pester (stronger)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01104_tanomu",
+      "reading": "たのむ",
+      "headword": "{頼|たの}む",
+      "label": "to ask, to request"
     }
   ],
   "metadata": {
     "created": "2026-03-19T09:17:51Z",
-    "modified": "2026-05-07T10:07:56Z",
+    "modified": "2026-09-02T04:01:50Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

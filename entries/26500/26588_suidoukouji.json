@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26588_suidoukouji_ex1",
-      "japanese": "{水道工事|すいどうこうじ}のため{断水|だんすい}します。",
+      "japanese": "{水道工事|すいどうこうじ}⟦の→の：09472_no⟧⟦ため→ため：01145_tame⟧⟦{断水|だんすい}→断水：04518_dansui⟧⟦します→する：00392_suru⟧。",
       "english": "Water will be shut off due to plumbing work.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26588_suidoukouji_ex2",
-      "japanese": "{台所|だいどころ}の{水漏|みずも}れを{直|なお}すために{水道工事|すいどうこうじ}{業者|ぎょうしゃ}を{呼|よ}んだ。",
+      "japanese": "⟦{台所|だいどころ}→台所：01021_daidokoro⟧⟦の→の：09472_no⟧⟦{水漏|みずも}れ→水漏れ：07936_mizumore⟧⟦を→を：00422_wo⟧{直|なお}す⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧{水道工事|すいどうこうじ}⟦{業者|ぎょうしゃ}→業者：13130_gyousha⟧⟦を→を：00422_wo⟧⟦{呼|よ}んだ→呼ぶ：00766_yobu⟧。",
       "english": "I called a plumber to fix the kitchen leak.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26588_suidoukouji_ex3",
-      "japanese": "{道路|どうろ}で{水道工事|すいどうこうじ}が{行|おこな}われているため、{片側|かたがわ}{通行|つうこう}になっている。",
+      "japanese": "⟦{道路|どうろ}→道路：01481_douro⟧⟦で→で：00502_de⟧{水道工事|すいどうこうじ}⟦が→が：00051_ga⟧⟦{行|おこな}われている→行う：01238_okonau⟧⟦ため→ため：01145_tame⟧、⟦{片側|かたがわ}→片側：20150_katagawa⟧⟦{通行|つうこう}→通行：03436_tsuukou⟧になっている。",
       "english": "Traffic is restricted to one lane because waterworks construction is being carried out on the road.",
       "sense_numbers": [
         1
@@ -44,8 +44,23 @@
       "notes": null
     }
   ],
-  "notes": "Combines {水道|すいどう} (water supply, plumbing) and {工事|こうじ} (construction work). A very practical term encountered in daily life — on road signs, apartment notices, and municipal announcements. The phrase {水道工事|すいどうこうじ}のため{断水|だんすい} (\"water shut off for plumbing work\") is especially common.\n\nCOMMON COLLOCATIONS:\n- {水道工事|すいどうこうじ}{業者|ぎょうしゃ}: plumbing contractor\n- {水道工事|すいどうこうじ}{中|ちゅう}: plumbing work in progress\n- {水道工事|すいどうこうじ}の{見積|みつ}もり: plumbing work estimate\n- {水道工事|すいどうこうじ}のため{断水|だんすい}: water shutoff for plumbing work\n\nRELATED TERMS:\n- {水道管|すいどうかん}: water pipe — the pipes being worked on\n- {配管|はいかん}{工事|こうじ}: piping work — a broader term covering all pipe installation\n- {下水道|げすいどう}{工事|こうじ}: sewer construction — specifically for drainage systems",
-  "cross_references": [],
+  "notes": "Combines ⟦{水道|すいどう}→水道：01058_suidou⟧ (water supply, plumbing) and ⟦{工事|こうじ}→工事：00244_kouji⟧ (construction work). A very practical term encountered in daily life — on road signs, apartment notices, and municipal announcements. The phrase {水道工事|すいどうこうじ}⟦の→の：09472_no⟧⟦ため→ため：01145_tame⟧⟦{断水|だんすい}→断水：04518_dansui⟧ (\"water shut off for plumbing work\") is especially common.\n\nCOMMON COLLOCATIONS:\n- {水道工事|すいどうこうじ}⟦{業者|ぎょうしゃ}→業者：13130_gyousha⟧: plumbing contractor\n- {水道工事|すいどうこうじ}{中|ちゅう}: plumbing work in progress\n- {水道工事|すいどうこうじ}⟦の→の：09472_no⟧⟦{見積|みつ}もり→見積もり：05153_mitsumori⟧: plumbing work estimate\n- {水道工事|すいどうこうじ}⟦の→の：09472_no⟧⟦ため→ため：01145_tame⟧⟦{断水|だんすい}→断水：04518_dansui⟧: water shutoff for plumbing work\n\nRELATED WORDS:\n- ⟦{水道管|すいどうかん}→水道管：08094_suidoukan⟧: water pipe — the pipes being worked on\n- ⟦{配管|はいかん}→配管：07495_haikan⟧⟦{工事|こうじ}→工事：00244_kouji⟧: piping work — a broader term covering all pipe installation\n- ⟦{下水道|げすいどう}→下水道：09632_gesuidou⟧⟦{工事|こうじ}→工事：00244_kouji⟧: sewer construction — specifically for drainage systems",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "08094_suidoukan",
+      "reading": "すいどうかん",
+      "headword": "{水道管|すいどうかん}",
+      "label": "water pipe"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21295_suidouya",
+      "reading": "すいどうや",
+      "headword": "{水道屋|すいどうや}",
+      "label": "plumber"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -60,6 +75,6 @@
       ]
     },
     "created": "2026-05-03T12:34:18Z",
-    "modified": "2026-05-03T12:34:18Z"
+    "modified": "2026-09-02T04:02:27Z"
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "17445_hatsukoi_ex1",
-      "japanese": "{初恋|はつこい}は{小学校|しょうがっこう}の{時|とき}だった。",
+      "japanese": "{初恋|はつこい}⟦は→は：00079_ha⟧⟦{小学校|しょうがっこう}→小学校：01055_shougakkou⟧⟦の→の：09472_no⟧{時|とき}だった。",
       "english": "My first love was in elementary school.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "17445_hatsukoi_ex2",
-      "japanese": "{初恋|はつこい}の{相手|あいて}は{同|おな}じクラスの{女|おんな}の{子|こ}だった。",
+      "japanese": "{初恋|はつこい}⟦の→の：09472_no⟧⟦{相手|あいて}→相手：01677_aite⟧⟦は→は：00079_ha⟧⟦{同|おな}じ→同じ：02857_onaji⟧⟦クラス→クラス：01084_kurasu⟧⟦の→の：09472_no⟧⟦{女|おんな}の{子|こ}→女の子：02865_onnanoko⟧だった。",
       "english": "My first love was a girl in the same class.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "17445_hatsukoi_ex3",
-      "japanese": "{大人|おとな}になっても{初恋|はつこい}の{思|おも}い{出|で}は{忘|わす}れられない。",
+      "japanese": "⟦{大人|おとな}→大人：02856_otona⟧になって⟦も→も：00484_mo⟧{初恋|はつこい}⟦の→の：09472_no⟧⟦{思|おも}い{出|で}→思い出：00331_omoide⟧⟦は→は：00079_ha⟧⟦{忘|わす}れられない→忘れる：00474_wasureru⟧。",
       "english": "Even as an adult, I can't forget the memories of my first love.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA universally understood and emotionally resonant concept in Japanese culture. Frequently appears in song lyrics, novels, and films. The word always implies a sweet, nostalgic feeling.\n\nCOMMON COLLOCATIONS:\n- {初恋|はつこい}の{人|ひと} (one's first love — the person)\n- {初恋|はつこい}の{相手|あいて} (the object of one's first love)\n- {初恋|はつこい}の{思|おも}い{出|で} (memories of first love)\n- {初恋|はつこい}が{実|みの}る (first love bears fruit — it works out)",
+  "notes": "USAGE:\nA universally understood and emotionally resonant concept in Japanese culture. Frequently appears in song lyrics, novels, and films. The word always implies a sweet, nostalgic feeling.\n\nCOMMON COLLOCATIONS:\n- {初恋|はつこい}⟦の→の：09472_no⟧⟦{人|ひと}→人：00476_hito⟧ (one's first love — the person)\n- {初恋|はつこい}⟦の→の：09472_no⟧⟦{相手|あいて}→相手：01677_aite⟧ (the object of one's first love)\n- {初恋|はつこい}⟦の→の：09472_no⟧⟦{思|おも}い{出|で}→思い出：00331_omoide⟧ (memories of first love)\n- {初恋|はつこい}⟦が→が：00051_ga⟧⟦{実|みの}る→実る：00282_minoru⟧ (first love bears fruit — it works out)",
   "cross_references": [
     {
       "type": "related",
@@ -52,11 +52,18 @@
       "reading": "こい",
       "headword": "{恋|こい}",
       "label": "romantic love"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25311_junai",
+      "reading": "じゅんあい",
+      "headword": "{純愛|じゅんあい}",
+      "label": "pure love"
     }
   ],
   "metadata": {
     "created": "2026-03-18T01:59:23Z",
-    "modified": "2026-05-06T07:07:17Z",
+    "modified": "2026-09-02T04:01:48Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

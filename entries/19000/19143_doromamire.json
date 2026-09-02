@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "19143_doromamire_ex1",
-      "japanese": "{子|こ}どもたちが{泥|どろ}まみれで{帰|かえ}ってきた。",
+      "japanese": "{子|こ}どもたち⟦が→が：00051_ga⟧{泥|どろ}まみれ⟦で→で：00502_de⟧⟦{帰|かえ}って→帰る：00508_kaeru⟧きた。",
       "english": "The children came home covered in mud.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "19143_doromamire_ex2",
-      "japanese": "{泥|どろ}まみれの{服|ふく}を{洗濯|せんたく}する。",
+      "japanese": "{泥|どろ}まみれ⟦の→の：09472_no⟧⟦{服|ふく}→服：00695_fuku⟧⟦を→を：00422_wo⟧⟦{洗濯|せんたく}する→洗濯する：09656_sentakusuru⟧。",
       "english": "To wash mud-caked clothes.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "19143_doromamire_ex3",
-      "japanese": "{雨|あめ}の{中|なか}でサッカーをして、{全身|ぜんしん}{泥|どろ}まみれになった。",
+      "japanese": "⟦{雨|あめ}→雨：00583_ame⟧⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧⟦で→で：00502_de⟧⟦サッカー→サッカー：04726_sakkaa⟧⟦を→を：00422_wo⟧⟦して→する：00392_suru⟧、⟦{全身|ぜんしん}→全身：03313_zenshin⟧{泥|どろ}まみれになった。",
       "english": "We played soccer in the rain and got completely covered in mud.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "{泥|どろ}まみれ means covered or smeared with mud. Uses the suffix まみれ, which means \"covered in\" and attaches to nouns.\n\nGRAMMAR:\n- {泥|どろ}まみれの + noun: mud-caked ~\n- {泥|どろ}まみれになる: to get covered in mud\n- {泥|どろ}まみれだ: to be covered in mud\n\nTHE まみれ SUFFIX:\nAlways implies being covered in something unpleasant or messy — never used for positive things.\n- {血|ち}まみれ: covered in blood\n- {汗|あせ}まみれ: drenched in sweat\n- {埃|ほこり}まみれ: covered in dust\n- {借金|しゃっきん}まみれ: buried in debt (figurative)\n\nSIMILAR EXPRESSIONS:\n- 〜だらけ: full of, covered with (similar but broader — can be used with countable items like {間違|まちが}いだらけ \"full of mistakes\")\n- まみれ emphasizes being smeared/coated in something; だらけ emphasizes abundance",
+  "notes": "{泥|どろ}まみれ means covered or smeared with mud. Uses the suffix まみれ, which means \"covered in\" and attaches to nouns.\n\nCOMMON PATTERNS:\n- {泥|どろ}まみれ⟦の→の：09472_no⟧ + noun: mud-caked ~\n- {泥|どろ}まみれ⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧: to get covered in mud\n- {泥|どろ}まみれだ: to be covered in mud\n\nTHE まみれ SUFFIX:\nAlways implies being covered in something unpleasant or messy — never used for positive things.\n- ⟦{血|ち}まみれ→血まみれ：14201_chimamire⟧: covered in blood\n- ⟦{汗|あせ}まみれ→汗まみれ：22902_asemamire⟧: drenched in sweat\n- ⟦{埃|ほこり}まみれ→埃まみれ：27264_hokorimamire⟧: covered in dust\n- ⟦{借金|しゃっきん}→借金：03203_shakkin⟧まみれ: buried in debt (figurative)\n\nSIMILAR WORDS:\n- 〜⟦だらけ→〜だらけ：18372_darake⟧: full of, covered with (similar but broader — can be used with countable items like ⟦{間違|まちが}い→間違い：03733_machigai⟧⟦だらけ→〜だらけ：18372_darake⟧ \"full of mistakes\")\n- まみれ emphasizes being smeared/coated in something; ⟦だらけ→〜だらけ：18372_darake⟧ emphasizes abundance",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18566_tsuchimamire",
+      "reading": "つちまみれ",
+      "headword": "{土|つち}まみれ",
+      "label": "covered in dirt"
+    },
+    {
+      "type": "related",
+      "target_id": "22902_asemamire",
+      "reading": "あせまみれ",
+      "headword": "{汗|あせ}まみれ",
+      "label": "soaked in sweat"
+    },
+    {
+      "type": "related",
+      "target_id": "25087_sunamamire",
+      "reading": "すなまみれ",
+      "headword": "{砂|すな}まみれ",
+      "label": "covered in sand"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,6 +84,6 @@
       ]
     },
     "created": "2026-03-24T10:07:18Z",
-    "modified": "2026-03-28T07:51:23Z"
+    "modified": "2026-09-02T04:01:54Z"
   }
 }

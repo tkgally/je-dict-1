@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08426_komyuniti_ex1",
-      "japanese": "{地域|ちいき}コミュニティに{参加|さんか}する。",
+      "japanese": "⟦{地域|ちいき}→地域：01461_chiiki⟧コミュニティ⟦に→に：00314_ni⟧⟦{参加|さんか}する→参加する：25408_sankasuru⟧。",
       "english": "To participate in the local community.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "08426_komyuniti_ex2",
-      "japanese": "オンラインコミュニティで{情報|じょうほう}を{共有|きょうゆう}する。",
+      "japanese": "⟦オンライン→オンライン：05278_onrain⟧コミュニティ⟦で→で：00502_de⟧⟦{情報|じょうほう}→情報：03348_jouhou⟧⟦を→を：00422_wo⟧⟦{共有|きょうゆう}する→共有する：19639_kyouyuusuru⟧。",
       "english": "To share information in an online community.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "08426_komyuniti_ex3",
-      "japanese": "このコミュニティは{活発|かっぱつ}に{活動|かつどう}している。",
+      "japanese": "⟦この→この：00962_kono⟧コミュニティ⟦は→は：00079_ha⟧⟦{活発|かっぱつ}→活発：13272_kappatsu⟧⟦に→に：00314_ni⟧⟦{活動|かつどう}→活動：00201_katsudou⟧⟦している→する：00392_suru⟧。",
       "english": "This community is actively engaged.",
       "sense_numbers": [
         1
@@ -43,7 +43,16 @@
       "notes": null
     }
   ],
-  "notes": "コミュニティ is borrowed from English \"community,\" used for groups of people with shared interests, locations, or goals.\n\nCOMMON COMPOUNDS:\n- コミュニティセンター: community center\n- オンラインコミュニティ: online community\n- {地域|ちいき}コミュニティ: local/regional community\n- コミュニティバス: community bus (local bus route)\n\nUSAGE:\nUsed in both traditional senses (neighborhood communities) and modern digital contexts (online forums, social media groups). Very common in discussions about social life, urban planning, and internet culture.\n\nSIMILAR WORDS:\n- {共同体|きょうどうたい}: community (formal, traditional)\n- {地域|ちいき}{社会|しゃかい}: local community/society\n- コミュニティー: alternate spelling (longer vowel)",
+  "notes": "コミュニティ is borrowed from English \"community,\" used for groups of people with shared interests, locations, or goals.\n\nCOMPOUNDS:\n- コミュニティセンター: community center\n- ⟦オンライン→オンライン：05278_onrain⟧コミュニティ: online community\n- ⟦{地域|ちいき}→地域：01461_chiiki⟧コミュニティ: local/regional community\n- コミュニティバス: community bus (local bus route)\n\nUSAGE:\nUsed in both traditional senses (neighborhood communities) and modern digital contexts (online forums, social media groups). Very common in discussions about social life, urban planning, and internet culture.\n\nSIMILAR WORDS:\n- ⟦{共同体|きょうどうたい}→共同体：11748_kyoudoutai⟧: community (formal, traditional)\n- ⟦{地域|ちいき}→地域：01461_chiiki⟧⟦{社会|しゃかい}→社会：01427_shakai⟧: local community/society\n- コミュニティー: alternate spelling (longer vowel)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11748_kyoudoutai",
+      "reading": "きょうどうたい",
+      "headword": "{共同体|きょうどうたい}",
+      "label": "community"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -51,12 +60,13 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "society"
       ],
       "loanword": "English"
     },
     "created": "2026-01-27T00:58:00Z",
-    "modified": "2026-08-12T12:51:44Z"
+    "modified": "2026-09-02T04:01:15Z"
   }
 }

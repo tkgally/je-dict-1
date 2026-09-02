@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "27128_keirekisho_ex1",
-      "japanese": "{経歴書|けいれきしょ}を{提出|ていしゅつ}してください。",
+      "japanese": "{経歴書|けいれきしょ}⟦を→を：00422_wo⟧⟦{提出|ていしゅつ}して→提出する：19644_teishutsusuru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please submit your resume.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "27128_keirekisho_ex2",
-      "japanese": "{転職|てんしょく}のために{経歴書|けいれきしょ}を{書|か}き{直|なお}した。",
+      "japanese": "⟦{転職|てんしょく}→転職：04557_tenshoku⟧⟦の→の：09472_no⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧{経歴書|けいれきしょ}⟦を→を：00422_wo⟧⟦{書|か}き{直|なお}した→書き直す：04597_kakinaosu⟧。",
       "english": "I rewrote my resume for a job change.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "27128_keirekisho_ex3",
-      "japanese": "{履歴書|りれきしょ}と{職務|しょくむ}{経歴書|けいれきしょ}の{両方|りょうほう}を{用意|ようい}する{必要|ひつよう}がある。",
+      "japanese": "⟦{履歴書|りれきしょ}→履歴書：04691_rirekisho⟧⟦と→と：00512_to⟧⟦{職務|しょくむ}→職務：13908_shokumu⟧{経歴書|けいれきしょ}⟦の→の：09472_no⟧⟦{両方|りょうほう}→両方：01750_ryouhou⟧⟦を→を：00422_wo⟧⟦{用意|ようい}する→用意する：22428_youisuru⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "You need to prepare both a personal history form and a career history document.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "A document summarizing one's professional career and qualifications. In Japanese job applications, {職務経歴書|しょくむけいれきしょ} (detailed work history) is typically submitted alongside the {履歴書|りれきしょ} (standardized personal data form). While {履歴書|りれきしょ} follows a fixed format, {経歴書|けいれきしょ} is more flexible and focuses on work experience and achievements.\n\nCOMMON COLLOCATIONS:\n- {職務|しょくむ}{経歴書|けいれきしょ}: detailed work history (the full formal name)\n- {経歴書|けいれきしょ}を{作成|さくせい}する: to prepare a resume\n- {経歴書|けいれきしょ}を{送|おく}る: to send a resume\n\nSIMILAR WORDS:\n- {履歴書|りれきしょ}: personal history form — standardized form with photo, basic info, education, and work history\n- {職務経歴書|しょくむけいれきしょ}: detailed work experience document — the full formal term emphasizing job duties",
+  "notes": "A document summarizing one's professional career and qualifications. In Japanese job applications, ⟦{職務経歴書|しょくむけいれきしょ}→職務経歴書：08724_shokumukeirekisho⟧ (detailed work history) is typically submitted alongside the ⟦{履歴書|りれきしょ}→履歴書：04691_rirekisho⟧ (standardized personal data form). While ⟦{履歴書|りれきしょ}→履歴書：04691_rirekisho⟧ follows a fixed format, {経歴書|けいれきしょ} is more flexible and focuses on work experience and achievements.\n\nCOMMON COLLOCATIONS:\n- ⟦{職務|しょくむ}→職務：13908_shokumu⟧{経歴書|けいれきしょ}: detailed work history (the full formal name)\n- {経歴書|けいれきしょ}⟦を→を：00422_wo⟧⟦{作成|さくせい}する→作成する：25378_sakuseisuru⟧: to prepare a resume\n- {経歴書|けいれきしょ}⟦を→を：00422_wo⟧⟦{送|おく}る→送る：00742_okuru⟧: to send a resume\n\nSIMILAR WORDS:\n- ⟦{履歴書|りれきしょ}→履歴書：04691_rirekisho⟧: personal history form — standardized form with photo, basic info, education, and work history\n- ⟦{職務経歴書|しょくむけいれきしょ}→職務経歴書：08724_shokumukeirekisho⟧: detailed work experience document — the full formal term emphasizing job duties",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04691_rirekisho",
+      "reading": "りれきしょ",
+      "headword": "{履歴書|りれきしょ}",
+      "label": "personal history form"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +69,6 @@
       ]
     },
     "created": "2026-05-07T12:16:46Z",
-    "modified": "2026-05-07T12:16:46Z"
+    "modified": "2026-09-02T04:02:29Z"
   }
 }

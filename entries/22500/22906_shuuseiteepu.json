@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22906_shuuseiteepu_ex1",
-      "japanese": "{修正|しゅうせい}テープで{間違|まちが}いを{消|け}した。",
+      "japanese": "{修正|しゅうせい}テープ⟦で→で：00502_de⟧⟦{間違|まちが}い→間違い：03733_machigai⟧⟦を→を：00422_wo⟧⟦{消|け}した→消す：00528_kesu⟧。",
       "english": "I covered the mistake with correction tape.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22906_shuuseiteepu_ex2",
-      "japanese": "{修正|しゅうせい}テープを{貸|か}してくれない？",
+      "japanese": "{修正|しゅうせい}テープ⟦を→を：00422_wo⟧⟦{貸|か}して→貸す：00537_kasu⟧⟦くれない→くれる：00724_kureru⟧？",
       "english": "Could you lend me your correction tape?",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22906_shuuseiteepu_ex3",
-      "japanese": "{修正液|しゅうせいえき}より{修正|しゅうせい}テープのほうが{乾|かわ}くのを{待|ま}たなくていいので{便利|べんり}だ。",
+      "japanese": "{修正液|しゅうせいえき}⟦より→より：09476_yori⟧{修正|しゅうせい}テープ⟦の→の：09472_no⟧ほう⟦が→が：00051_ga⟧⟦{乾|かわ}く→乾く：00786_kawaku⟧⟦の→の：09472_no⟧⟦を→を：00422_wo⟧⟦{待|ま}たなくて→待つ：00469_matsu⟧⟦いい→いい：00118_ii⟧⟦の→の：09472_no⟧で⟦{便利|べんり}→便利：00830_benri⟧だ。",
       "english": "Correction tape is more convenient than correction fluid because you don't have to wait for it to dry.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "A common stationery item found in virtually every Japanese office and school. Japan is known for producing high-quality correction tape, with brands like Tombow's MONO being particularly popular.\n\nCOMMON COLLOCATIONS:\n- {修正|しゅうせい}テープを{使|つか}う: to use correction tape\n- {修正|しゅうせい}テープの{詰|つ}め{替|か}え: correction tape refill\n- {修正|しゅうせい}テープで{直|なお}す: to fix with correction tape\n\nRELATED TERMS:\n- {修正液|しゅうせいえき}: correction fluid, white-out — liquid version that needs drying time\n- {修正|しゅうせい}ペン: correction pen — pen-shaped applicator for correction fluid\n- {消|け}しゴム: eraser — for pencil marks only\n\nCULTURAL NOTE:\nCorrection tape is extremely popular in Japan. Many varieties exist, from ultra-slim types for small text to extra-wide types for larger corrections. Refillable models are also common.",
+  "notes": "A common stationery item found in virtually every Japanese office and school. Japan is known for producing high-quality correction tape, with brands like Tombow's MONO being particularly popular.\n\nCOMMON COLLOCATIONS:\n- {修正|しゅうせい}テープ⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧: to use correction tape\n- {修正|しゅうせい}テープ⟦の→の：09472_no⟧{詰|つ}め{替|か}え: correction tape refill\n- {修正|しゅうせい}テープ⟦で→で：00502_de⟧{直|なお}す: to fix with correction tape\n\nRELATED WORDS:\n- {修正液|しゅうせいえき}: correction fluid, white-out — liquid version that needs drying time\n- ⟦{修正|しゅうせい}→修正：03210_shuusei⟧⟦ペン→ペン：02960_pen⟧: correction pen — pen-shaped applicator for correction fluid\n- ⟦{消|け}しゴム→消しゴム：00716_keshigomu⟧: eraser — for pencil marks only\n\nCULTURAL NOTE:\nCorrection tape is extremely popular in Japan. Many varieties exist, from ultra-slim types for small text to extra-wide types for larger corrections. Refillable models are also common.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "00716_keshigomu",
+      "reading": "けしごむ",
+      "headword": "{消|け}しゴム",
+      "label": "eraser"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +68,6 @@
       ]
     },
     "created": "2026-04-07T20:17:00Z",
-    "modified": "2026-04-10T08:28:27Z"
+    "modified": "2026-09-02T04:02:10Z"
   }
 }

@@ -3,7 +3,7 @@
   "headword": "{問題提起|もんだいていき}",
   "reading": "もんだいていき",
   "romaji": "mondaiteiki",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "raising an issue; posing a question; problematization",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25962_mondaiteiki_ex1",
-      "japanese": "{重要|じゅうよう}な{問題提起|もんだいていき}だ。",
+      "japanese": "⟦{重要|じゅうよう}→重要：01575_juuyou⟧な{問題提起|もんだいていき}だ。",
       "english": "That's an important point to raise.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25962_mondaiteiki_ex2",
-      "japanese": "この{映画|えいが}は{社会|しゃかい}に{対|たい}する{問題提起|もんだいていき}になっている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{映画|えいが}→映画：02273_eiga⟧⟦は→は：00079_ha⟧⟦{社会|しゃかい}→社会：01427_shakai⟧⟦に→に：00314_ni⟧⟦{対|たい}する→対する：02126_taisuru⟧{問題提起|もんだいていき}になっている。",
       "english": "This film raises questions about society.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25962_mondaiteiki_ex3",
-      "japanese": "{環境問題|かんきょうもんだい}について{問題提起|もんだいていき}を{行|おこな}い、{議論|ぎろん}のきっかけを{作|つく}った。",
+      "japanese": "⟦{環境問題|かんきょうもんだい}→環境問題：10136_kankyoumondai⟧⟦について→〜について：03103_nitsuite⟧{問題提起|もんだいていき}⟦を→を：00422_wo⟧⟦{行|おこな}い→行う：01238_okonau⟧、⟦{議論|ぎろん}→議論：02650_giron⟧⟦の→の：09472_no⟧⟦きっかけ→きっかけ：10309_kikkake⟧⟦を→を：00422_wo⟧⟦{作|つく}った→作る：00481_tsukuru⟧。",
       "english": "They raised environmental issues and created an opportunity for discussion.",
       "sense_numbers": [
         1
@@ -44,8 +44,23 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {問題|もんだい} (problem; issue) and {提起|ていき} (raising; bringing up). Frequently used with する to form a verb meaning \"to raise an issue.\" The word carries a positive or neutral connotation — it implies that the person is contributing to awareness or discussion rather than merely complaining.\n\nCOMMON COLLOCATIONS:\n- {問題提起|もんだいていき}をする: to raise an issue\n- {問題提起|もんだいていき}を{行|おこな}う: to raise an issue (formal)\n- {問題提起|もんだいていき}{的|てき}な: thought-provoking\n- {鋭|するど}い{問題提起|もんだいていき}: a sharp or incisive point\n\nSIMILAR WORDS:\n- {提言|ていげん}: proposal; recommendation — goes beyond identifying a problem to suggest a solution\n- {指摘|してき}: pointing out — more neutral, simply noting something without necessarily framing it as an issue for debate",
-  "cross_references": [],
+  "notes": "A compound of ⟦{問題|もんだい}→問題：00797_mondai⟧ (problem; issue) and ⟦{提起|ていき}→提起：24053_teiki⟧ (raising; bringing up). Frequently used with ⟦する→する：00392_suru⟧ to form a verb meaning \"to raise an issue.\" The word carries a positive or neutral connotation — it implies that the person is contributing to awareness or discussion rather than merely complaining.\n\nCOMMON COLLOCATIONS:\n- {問題提起|もんだいていき}⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧: to raise an issue\n- {問題提起|もんだいていき}⟦を→を：00422_wo⟧⟦{行|おこな}う→行う：01238_okonau⟧: to raise an issue (formal)\n- {問題提起|もんだいていき}⟦{的|てき}→〜的：09839_teki⟧な: thought-provoking\n- ⟦{鋭|するど}い→鋭い：02347_surudoi⟧{問題提起|もんだいていき}: a sharp or incisive point\n\nSIMILAR WORDS:\n- ⟦{提言|ていげん}→提言：17132_teigen⟧: proposal; recommendation — goes beyond identifying a problem to suggest a solution\n- ⟦{指摘|してき}→指摘：05630_shiteki⟧: pointing out — more neutral, simply noting something without necessarily framing it as an issue for debate",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17132_teigen",
+      "reading": "ていげん",
+      "headword": "{提言|ていげん}",
+      "label": "proposal"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05630_shiteki",
+      "reading": "してき",
+      "headword": "{指摘|してき}",
+      "label": "pointing out"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -54,6 +69,7 @@
         "noun",
         "verb-suru"
       ],
+      "politeness": "plain",
       "semantic": [
         "communication",
         "society"
@@ -61,7 +77,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-28T14:08:51Z",
-    "modified": "2026-04-28T14:08:51Z"
+    "modified": "2026-09-02T04:02:24Z"
   },
   "conjugation": {
     "type": "suru",

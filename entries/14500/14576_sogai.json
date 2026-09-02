@@ -3,7 +3,7 @@
   "id": "14576_sogai",
   "headword": "{阻害|そがい}",
   "reading": "そがい",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "obstruction; hindrance; inhibition",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "14576_sogai_ex1",
-      "japanese": "{成長|せいちょう}を{阻害|そがい}する{要因|よういん}がある。",
+      "japanese": "⟦{成長|せいちょう}→成長：03290_seichou⟧⟦を→を：00422_wo⟧{阻害|そがい}⟦する→する：00392_suru⟧⟦{要因|よういん}→要因：05581_youin⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There are factors that hinder growth.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "14576_sogai_ex2",
-      "japanese": "{騒音|そうおん}が{集中力|しゅうちゅうりょく}を{阻害|そがい}している。",
+      "japanese": "⟦{騒音|そうおん}→騒音：03315_souon⟧⟦が→が：00051_ga⟧⟦{集中力|しゅうちゅうりょく}→集中力：17614_shuuchuuryoku⟧⟦を→を：00422_wo⟧{阻害|そがい}⟦している→する：00392_suru⟧。",
       "english": "The noise is impairing my concentration.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "14576_sogai_ex3",
-      "japanese": "{過度|かど}な{規制|きせい}は{経済|けいざい}{発展|はってん}を{阻害|そがい}するおそれがある。",
+      "japanese": "⟦{過度|かど}→過度：14377_kado⟧な⟦{規制|きせい}→規制：02598_kisei⟧⟦は→は：00079_ha⟧⟦{経済|けいざい}→経済：01394_keizai⟧⟦{発展|はってん}→発展：03561_hatten⟧⟦を→を：00422_wo⟧{阻害|そがい}⟦する→する：00392_suru⟧おそれ⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "Excessive regulation may obstruct economic development.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{阻害|そがい} is a formal word used in written language, news, academic papers, and official reports. In medicine and biochemistry, it means \"inhibition\" (e.g., enzyme inhibition).\n\nCOMMON COLLOCATIONS:\n- {成長|せいちょう}を{阻害|そがい}する (to hinder growth)\n- {発展|はってん}を{阻害|そがい}する (to obstruct development)\n- {阻害|そがい}{要因|よういん} (obstructing factor)\n- {阻害|そがい}{剤|ざい} (inhibitor — medical/chemical term)\n\nSIMILAR WORDS:\n- {阻害|そがい}: obstruction (formal; blocking progress or processes)\n- {疎外|そがい}: alienation, exclusion (homophone, different kanji — being socially excluded)\n- {妨害|ぼうがい}: interference, obstruction (deliberately getting in the way)\n- {障害|しょうがい}: obstacle, disability (a thing that blocks)",
+  "notes": "USAGE:\n{阻害|そがい} is a formal word used in written language, news, academic papers, and official reports. In medicine and biochemistry, it means \"inhibition\" (e.g., enzyme inhibition).\n\nCOMMON COLLOCATIONS:\n- ⟦{成長|せいちょう}→成長：03290_seichou⟧⟦を→を：00422_wo⟧{阻害|そがい}⟦する→する：00392_suru⟧ (to hinder growth)\n- ⟦{発展|はってん}→発展：03561_hatten⟧⟦を→を：00422_wo⟧{阻害|そがい}⟦する→する：00392_suru⟧ (to obstruct development)\n- {阻害|そがい}⟦{要因|よういん}→要因：05581_youin⟧ (obstructing factor)\n- {阻害|そがい}{剤|ざい} (inhibitor — medical/chemical term)\n\nSIMILAR WORDS:\n- {阻害|そがい}: obstruction (formal; blocking progress or processes)\n- ⟦{疎外|そがい}→疎外：13553_sogai⟧: alienation, exclusion (homophone, different kanji — being socially excluded)\n- ⟦{妨害|ぼうがい}→妨害：07632_bougai⟧: interference, obstruction (deliberately getting in the way)\n- ⟦{障害|しょうがい}→障害：03228_shougai⟧: obstacle, disability (a thing that blocks)",
   "prominent_see_also": [
     {
       "target_id": "13553_sogai",
@@ -150,11 +150,18 @@
       "reading": "ぼうがい",
       "headword": "{妨害|ぼうがい}",
       "label": "interference, obstruction"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03228_shougai",
+      "reading": "しょうがい",
+      "headword": "{障害|しょうがい}",
+      "label": "obstacle, disability"
     }
   ],
   "metadata": {
     "created": "2026-03-02T07:43:10Z",
-    "modified": "2026-04-30T09:17:48Z",
+    "modified": "2026-09-02T04:01:37Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -167,7 +174,8 @@
       "semantic": [
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

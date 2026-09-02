@@ -15,40 +15,67 @@
   "examples": [
     {
       "id": "27078_uketorishou_ex1",
-      "japanese": "{受取証|うけとりしょう}をください。",
+      "japanese": "{受取証|うけとりしょう}⟦を→を：00422_wo⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please give me a receipt.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27078_uketorishou_ex2",
-      "japanese": "{荷物|にもつ}を{受|う}け{取|と}ったら{受取証|うけとりしょう}にサインしてください。",
+      "japanese": "⟦{荷物|にもつ}→荷物：00737_nimotsu⟧⟦を→を：00422_wo⟧⟦{受|う}け{取|と}ったら→受け取る：01883_uketoru⟧{受取証|うけとりしょう}⟦に→に：00314_ni⟧⟦サインして→サインする：09864_sainsuru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please sign the receipt when you receive the package.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27078_uketorishou_ex3",
-      "japanese": "{確定申告|かくていしんこく}のために{医療費|いりょうひ}の{受取証|うけとりしょう}を{保管|ほかん}しておいたほうがいい。",
+      "japanese": "⟦{確定申告|かくていしんこく}→確定申告：04902_kakuteishinkoku⟧⟦の→の：09472_no⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧⟦{医療費|いりょうひ}→医療費：24692_iryouhi⟧⟦の→の：09472_no⟧{受取証|うけとりしょう}⟦を→を：00422_wo⟧⟦{保管|ほかん}して→保管する：25536_hokansuru⟧おいた⟦ほうがいい→ほうがいい：10078_hougaii⟧。",
       "english": "You should keep your medical expense receipts for your tax return.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Formed from {受取|うけとり} (receipt, receiving) + {証|しょう} (proof, certificate). A formal term for a receipt that proves something was received. In everyday shopping, レシート (register receipt) or {領収書|りょうしゅうしょ} (formal receipt) are far more common. {受取証|うけとりしょう} is used specifically when acknowledging receipt of deliveries, documents, or payments in official contexts.\n\nCOMMON COLLOCATIONS:\n- {受取証|うけとりしょう}にサインする: to sign a receipt\n- {受取証|うけとりしょう}を{発行|はっこう}する: to issue a receipt\n- {受取証|うけとりしょう}を{保管|ほかん}する: to keep/store a receipt\n- {受取証|うけとりしょう}を{提出|ていしゅつ}する: to submit a receipt\n\nSIMILAR WORDS:\n- {領収書|りょうしゅうしょ}: receipt — the most common formal receipt for payments, especially for business expense claims\n- レシート: receipt — the slip printed at a cash register; casual everyday term\n- {受領書|じゅりょうしょ}: receipt of goods/documents — synonym, slightly more formal and official",
+  "notes": "Formed from ⟦{受取|うけとり}→受取：04100_uketori⟧ (receipt, receiving) + {証|しょう} (proof, certificate). A formal term for a receipt that proves something was received. In everyday shopping, ⟦レシート→レシート：05291_reshiito⟧ (register receipt) or ⟦{領収書|りょうしゅうしょ}→領収書：04697_ryoushuusho⟧ (formal receipt) are far more common. {受取証|うけとりしょう} is used specifically when acknowledging receipt of deliveries, documents, or payments in official contexts.\n\nCOMMON COLLOCATIONS:\n- {受取証|うけとりしょう}⟦に→に：00314_ni⟧⟦サインする→サインする：09864_sainsuru⟧: to sign a receipt\n- {受取証|うけとりしょう}⟦を→を：00422_wo⟧⟦{発行|はっこう}する→発行する：19236_hakkousuru⟧: to issue a receipt\n- {受取証|うけとりしょう}⟦を→を：00422_wo⟧⟦{保管|ほかん}する→保管する：25536_hokansuru⟧: to keep/store a receipt\n- {受取証|うけとりしょう}⟦を→を：00422_wo⟧⟦{提出|ていしゅつ}する→提出する：19644_teishutsusuru⟧: to submit a receipt\n\nSIMILAR WORDS:\n- ⟦{領収書|りょうしゅうしょ}→領収書：04697_ryoushuusho⟧: receipt — the most common formal receipt for payments, especially for business expense claims\n- ⟦レシート→レシート：05291_reshiito⟧: receipt — the slip printed at a cash register; casual everyday term\n- {受領書|じゅりょうしょ}: receipt of goods/documents — synonym, slightly more formal and official",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04697_ryoushuusho",
+      "reading": "りょうしゅうしょ",
+      "headword": "{領収書|りょうしゅうしょ}",
+      "label": "receipt"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05291_reshiito",
+      "reading": "れしーと",
+      "headword": "レシート",
+      "label": "receipt"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["business", "daily-life"]
+      "semantic": [
+        "business",
+        "daily-life"
+      ]
     },
     "created": "2026-05-06T16:10:45Z",
-    "modified": "2026-05-06T16:10:45Z"
+    "modified": "2026-09-02T04:02:29Z"
   }
 }

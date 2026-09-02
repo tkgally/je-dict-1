@@ -3,7 +3,7 @@
   "headword": "{世間知|せけんし}らず",
   "reading": "せけんしらず",
   "romaji": "sekenshirazu",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, na-adjective",
   "gloss": "naive; unworldly; inexperienced in the ways of the world",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22674_sekenshirazu_ex1",
-      "japanese": "あの{人|ひと}は{世間知|せけんし}らずだ。",
+      "japanese": "⟦あの{人|ひと}→あの人：25922_anohito⟧⟦は→は：00079_ha⟧{世間知|せけんし}らずだ。",
       "english": "That person is naive about the ways of the world.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22674_sekenshirazu_ex2",
-      "japanese": "{世間知|せけんし}らずと{言|い}われても{仕方|しかた}がない。",
+      "japanese": "{世間知|せけんし}らず⟦と→と：00512_to⟧⟦{言|い}われて→言う：00515_iu⟧⟦も→も：00484_mo⟧⟦{仕方|しかた}→仕方：01603_shikata⟧⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧。",
       "english": "It can't be helped if people call you naive.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22674_sekenshirazu_ex3",
-      "japanese": "{若|わか}いころは{世間知|せけんし}らずで、いろいろ{失敗|しっぱい}した。",
+      "japanese": "{若|わか}い⟦ころ→〜ころ：03091_koro⟧⟦は→は：00079_ha⟧{世間知|せけんし}らずで、いろいろ⟦{失敗|しっぱい}→失敗：01636_shippai⟧⟦した→する：00392_suru⟧。",
       "english": "When I was young, I was naive about the world and made many mistakes.",
       "sense_numbers": [
         1
@@ -44,8 +44,45 @@
       "notes": null
     }
   ],
-  "notes": "Combines {世間|せけん} (the world, society) with {知|し}らず (not knowing). Functions both as a noun describing such a person and as a na-adjective-like descriptor. Carries a mildly critical tone, implying someone is out of touch with reality or social expectations.\n\nCOMMON COLLOCATIONS:\n- {世間知|せけんし}らずな{人|ひと}: a naive person\n- {世間知|せけんし}らずだと{思|おも}われる: to be seen as unworldly\n- {世間知|せけんし}らずのお{嬢|じょう}さん: a sheltered young lady\n\nSIMILAR WORDS:\n- {箱入|はこい}り{娘|むすめ}: sheltered daughter — specifically refers to a young woman raised in a protective environment, while {世間知|せけんし}らず applies to anyone regardless of gender\n- {青二才|あおにさい}: greenhorn — implies youthful inexperience with a more dismissive tone, while {世間知|せけんし}らず focuses on lack of social awareness",
+  "notes": "Combines ⟦{世間|せけん}→世間：03299_seken⟧ (the world, society) with ⟦{知|し}ら→知る：00458_shiru⟧ず (not knowing). Functions both as a noun describing such a person and as a na-adjective-like descriptor. Carries a mildly critical tone, implying someone is out of touch with reality or social expectations.\n\nCOMMON COLLOCATIONS:\n- {世間知|せけんし}らずな⟦{人|ひと}→人：00476_hito⟧: a naive person\n- {世間知|せけんし}らずだ⟦と→と：00512_to⟧⟦{思|おも}われる→思う：00492_omou⟧: to be seen as unworldly\n- {世間知|せけんし}らず⟦の→の：09472_no⟧⟦お{嬢|じょう}さん→お嬢さん：01566_ojousan⟧: a sheltered young lady\n\nSIMILAR WORDS:\n- ⟦{箱入|はこい}り→箱入り：22842_hakoiri⟧⟦{娘|むすめ}→娘：02263_musume⟧: sheltered daughter — specifically refers to a young woman raised in a protective environment, while {世間知|せけんし}らず applies to anyone regardless of gender\n- ⟦{青二才|あおにさい}→青二才：22682_aonisai⟧: greenhorn — implies youthful inexperience with a more dismissive tone, while {世間知|せけんし}らず focuses on lack of social awareness",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22682_aonisai",
+      "reading": "あおにさい",
+      "headword": "{青二才|あおにさい}",
+      "label": "greenhorn"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22570_kuroushirazu",
+      "reading": "くろうしらず",
+      "headword": "{苦労知|くろうし}らず",
+      "label": "carefree"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22842_hakoiri",
+      "reading": "はこいり",
+      "headword": "{箱入|はこい}り",
+      "label": "boxed"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27207_ohitoyoshi",
+      "reading": "おひとよし",
+      "headword": "お{人好|ひとよ}し",
+      "label": "good-natured person"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27677_ukiyobanare",
+      "reading": "うきよばなれ",
+      "headword": "{浮世|うきよ}{離|ばな}れ",
+      "label": "being unworldly"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,6 +98,6 @@
       "politeness": "plain"
     },
     "created": "2026-04-07T00:51:34Z",
-    "modified": "2026-08-01T06:41:09Z"
+    "modified": "2026-09-02T04:02:09Z"
   }
 }

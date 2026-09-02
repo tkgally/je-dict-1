@@ -15,41 +15,66 @@
   "examples": [
     {
       "id": "20607_kijin_ex1",
-      "japanese": "あの{教授|きょうじゅ}は{奇人|きじん}で{有名|ゆうめい}だ。",
+      "japanese": "⟦あの→あの：00915_ano⟧⟦{教授|きょうじゅ}→教授：02589_kyouju⟧⟦は→は：00079_ha⟧{奇人|きじん}⟦で→で：00502_de⟧⟦{有名|ゆうめい}→有名：01106_yuumei⟧だ。",
       "english": "That professor is famous for being an eccentric.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "20607_kijin_ex2",
-      "japanese": "{彼|かれ}は{奇人|きじん}だが、{仕事|しごと}の{腕|うで}は{確|たし}かだ。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{奇人|きじん}だ⟦が→が：00051_ga⟧、⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦の→の：09472_no⟧⟦{腕|うで}→腕：01006_ude⟧⟦は→は：00079_ha⟧⟦{確|たし}か→確か：00894_tashika⟧だ。",
       "english": "He's an oddball, but his work skills are solid.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "20607_kijin_ex3",
-      "japanese": "{町|まち}には{昔|むかし}から{奇人|きじん}{変人|へんじん}と{呼|よ}ばれる{人物|じんぶつ}が{何人|なんにん}かいた。",
+      "japanese": "⟦{町|まち}→町：00613_machi⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{昔|むかし}→昔：01515_mukashi⟧⟦から→から：00504_kara⟧{奇人|きじん}⟦{変人|へんじん}→変人：12111_henjin⟧⟦と→と：00512_to⟧⟦{呼|よ}ばれる→呼ぶ：00766_yobu⟧⟦{人物|じんぶつ}→人物：03356_jinbutsu⟧⟦が→が：00051_ga⟧⟦{何人|なんにん}→何人：17593_nannin⟧かいた。",
       "english": "The town has always had a few people who were called eccentrics and oddballs.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "Composed of {奇|き} (strange, unusual) + {人|じん} (person). Often used as part of the set phrase {奇人|きじん}{変人|へんじん} (eccentrics and oddballs), which is a common four-character expression.\n\nCOMMON COLLOCATIONS:\n- {奇人|きじん}{変人|へんじん} (eccentrics and oddballs — often used as a pair)\n- {奇人|きじん}と{呼|よ}ばれる (to be called an eccentric)\n- {奇人|きじん}で{有名|ゆうめい} (famous as an eccentric)\n\nSIMILAR WORDS:\n- {変人|へんじん} — weirdo, odd person (slightly more negative than {奇人|きじん})\n- {変|へん}わり{者|もの} — unconventional person, nonconformist (milder, can be positive)\n- {風変|ふうが}わり — peculiar, eccentric (na-adjective describing the quality itself)",
-  "cross_references": [],
+  "notes": "Composed of {奇|き} (strange, unusual) + ⟦{人|じん}→〜人：09849_jin⟧ (person). Often used as part of the set phrase {奇人|きじん}⟦{変人|へんじん}→変人：12111_henjin⟧ (eccentrics and oddballs), which is a common four-character expression.\n\nCOMMON COLLOCATIONS:\n- {奇人|きじん}⟦{変人|へんじん}→変人：12111_henjin⟧ (eccentrics and oddballs — often used as a pair)\n- {奇人|きじん}⟦と→と：00512_to⟧⟦{呼|よ}ばれる→呼ぶ：00766_yobu⟧ (to be called an eccentric)\n- {奇人|きじん}⟦で→で：00502_de⟧⟦{有名|ゆうめい}→有名：01106_yuumei⟧ (famous as an eccentric)\n\nSIMILAR WORDS:\n- ⟦{変人|へんじん}→変人：12111_henjin⟧ — weirdo, odd person (slightly more negative than {奇人|きじん})\n- {変|へん}わり{者|もの} — unconventional person, nonconformist (milder, can be positive)\n- ⟦{風変|ふうが}わり→風変わり：20570_fuugawari⟧ — peculiar, eccentric (na-adjective describing the quality itself)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12111_henjin",
+      "reading": "へんじん",
+      "headword": "{変人|へんじん}",
+      "label": "weirdo, odd person"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20570_fuugawari",
+      "reading": "ふうがわり",
+      "headword": "{風変|ふうが}わり",
+      "label": "peculiar, eccentric"
+    }
+  ],
   "metadata": {
     "created": "2026-03-29T19:24:45Z",
-    "modified": "2026-03-29T19:24:45Z",
+    "modified": "2026-09-02T04:02:00Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["person"]
+      "semantic": [
+        "person"
+      ]
     }
   }
 }

@@ -14,40 +14,72 @@
   "examples": [
     {
       "id": "10162_medaru_ex1",
-      "japanese": "{金|きん}メダルを{取|と}った。",
+      "japanese": "{金|きん}メダル⟦を→を：00422_wo⟧⟦{取|と}った→取る：00565_toru⟧。",
       "english": "I won a gold medal.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10162_medaru_ex2",
-      "japanese": "オリンピックでメダルを{獲得|かくとく}した。",
+      "japanese": "⟦オリンピック→オリンピック：09899_orinpikku⟧⟦で→で：00502_de⟧メダル⟦を→を：00422_wo⟧⟦{獲得|かくとく}→獲得：05624_kakutoku⟧⟦した→する：00392_suru⟧。",
       "english": "I won a medal at the Olympics.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10162_medaru_ex3",
-      "japanese": "{選手|せんしゅ}はメダルを{首|くび}にかけて{喜|よろこ}んでいた。",
+      "japanese": "⟦{選手|せんしゅ}→選手：03823_senshu⟧⟦は→は：00079_ha⟧メダル⟦を→を：00422_wo⟧⟦{首|くび}→首：00792_kubi⟧⟦にかけて→〜にかけて：30530_nikakete⟧⟦{喜|よろこ}んでいた→喜ぶ：01169_yorokobu⟧。",
       "english": "The athlete was happy with the medal hanging around her neck.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "メダル is a loanword from English \"medal.\" Most commonly associated with Olympic and sports competitions.\n\nTYPES:\n- {金|きん}メダル: gold medal\n- {銀|ぎん}メダル: silver medal\n- {銅|どう}メダル: bronze medal\n\nCOMMON COLLOCATIONS:\n- メダルを{取|と}る: to win a medal (casual)\n- メダルを{獲得|かくとく}する: to win a medal (formal, news)\n- メダルを{目指|めざ}す: to aim for a medal\n- メダルを{首|くび}にかける: to hang a medal around one's neck\n- メダルラッシュ: a medal rush (winning many medals)\n- メダリスト: medalist\n\nUSAGE:\nUsed primarily for sports awards. For military or civic honors, {勲章|くんしょう} is more common. メダル can also refer to commemorative medals ({記念|きねん}メダル).",
-  "cross_references": [],
+  "notes": "メダル is a loanword from English \"medal.\" Most commonly associated with Olympic and sports competitions.\n\nTYPES:\n- {金|きん}メダル: gold medal\n- ⟦{銀|ぎん}→銀：02651_gin⟧メダル: silver medal\n- ⟦{銅|どう}→銅：19443_dou⟧メダル: bronze medal\n\nCOMMON COLLOCATIONS:\n- メダル⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧: to win a medal (casual)\n- メダル⟦を→を：00422_wo⟧⟦{獲得|かくとく}→獲得：05624_kakutoku⟧⟦する→する：00392_suru⟧: to win a medal (formal, news)\n- メダル⟦を→を：00422_wo⟧⟦{目指|めざ}す→目指す：10528_mezasu⟧: to aim for a medal\n- メダル⟦を→を：00422_wo⟧⟦{首|くび}→首：00792_kubi⟧⟦に→に：00314_ni⟧⟦かける→かける：00854_kakeru⟧: to hang a medal around one's neck\n- メダル⟦ラッシュ→ラッシュ：11221_rasshu⟧: a medal rush (winning many medals)\n- ⟦メダリスト→メダリスト：24415_medarisuto⟧: medalist\n\nUSAGE:\nUsed primarily for sports awards. For military or civic honors, ⟦{勲章|くんしょう}→勲章：21244_kunshou⟧ is more common. メダル can also refer to commemorative medals (⟦{記念|きねん}→記念：00232_kinen⟧メダル).",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "19240_hyoushoudai",
+      "reading": "ひょうしょうだい",
+      "headword": "{表彰台|ひょうしょうだい}",
+      "label": "victory podium"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21244_kunshou",
+      "reading": "くんしょう",
+      "headword": "{勲章|くんしょう}",
+      "label": "decoration"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24415_medarisuto",
+      "reading": "めだりすと",
+      "headword": "メダリスト",
+      "label": "medalist"
+    }
+  ],
   "metadata": {
     "created": "2026-02-05T11:49:02Z",
-    "modified": "2026-03-25T04:08:57Z",
+    "modified": "2026-09-02T04:01:20Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

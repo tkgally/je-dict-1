@@ -15,41 +15,75 @@
   "examples": [
     {
       "id": "27930_handotaoru_ex1",
-      "japanese": "ハンドタオルを{忘|わす}れた。",
+      "japanese": "ハンドタオル⟦を→を：00422_wo⟧⟦{忘|わす}れた→忘れる：00474_wasureru⟧。",
       "english": "I forgot my hand towel.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27930_handotaoru_ex2",
-      "japanese": "かばんにハンドタオルを{入|い}れておく。",
+      "japanese": "⟦かばん→かばん：00637_kaban⟧⟦に→に：00314_ni⟧ハンドタオル⟦を→を：00422_wo⟧⟦{入|い}れて→入れる：01098_ireru⟧おく。",
       "english": "I keep a hand towel in my bag.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27930_handotaoru_ex3",
-      "japanese": "{日本|にほん}のトイレには{紙|かみ}がないことが{多|おお}いので、ハンドタオルが{欠|か}かせない。",
+      "japanese": "⟦{日本|にほん}→日本：03876_nihon⟧⟦の→の：09472_no⟧⟦トイレ→トイレ：00818_toire⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{紙|かみ}→紙：00712_kami⟧⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧こと⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧⟦の→の：09472_no⟧で、ハンドタオル⟦が→が：00051_ga⟧⟦{欠|か}かせない→欠かす：10138_kakasu⟧。",
       "english": "Japanese restrooms often have no paper, so a hand towel is essential.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "From English \"hand towel.\" Carrying a personal hand towel (or {手|て}ぬぐい-style cloth) is a common habit in Japan because many public restrooms provide no way to dry the hands.\n\nSIMILAR WORDS:\n- タオル: towel — the general term; a hand towel is a small one\n- バスタオル: bath towel — a large towel for after bathing\n- ハンカチ: handkerchief — thinner cloth, also used to dry hands",
+  "notes": "From English \"hand towel.\" Carrying a personal hand towel (or {手|て}ぬぐい-style cloth) is a common habit in Japan because many public restrooms provide no way to dry the hands.\n\nSIMILAR WORDS:\n- ⟦タオル→タオル：01533_taoru⟧: towel — the general term; a hand towel is a small one\n- ⟦バスタオル→バスタオル：04511_basutaoru⟧: bath towel — a large towel for after bathing\n- ⟦ハンカチ→ハンカチ：02937_hankachi⟧: handkerchief — thinner cloth, also used to dry hands",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "01533_taoru",
+      "reading": "たおる",
+      "headword": "タオル",
+      "label": "towel"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04511_basutaoru",
+      "reading": "ばすたおる",
+      "headword": "バスタオル",
+      "label": "bath towel"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02937_hankachi",
+      "reading": "はんかち",
+      "headword": "ハンカチ",
+      "label": "handkerchief"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["daily-life", "tool"],
+      "politeness": "plain",
+      "semantic": [
+        "daily-life",
+        "tool"
+      ],
       "domain": []
     },
     "created": "2026-05-23T03:06:48Z",
-    "modified": "2026-05-23T03:06:48Z"
+    "modified": "2026-09-02T04:02:32Z"
   }
 }

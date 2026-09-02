@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "19847_zushi_ex1",
-      "japanese": "{結果|けっか}を{図示|ずし}する。",
+      "japanese": "⟦{結果|けっか}→結果：02486_kekka⟧⟦を→を：00422_wo⟧{図示|ずし}⟦する→する：00392_suru⟧。",
       "english": "To illustrate the results in a diagram.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "19847_zushi_ex2",
-      "japanese": "{関係|かんけい}を{図示|ずし}すると{分|わ}かりやすい。",
+      "japanese": "⟦{関係|かんけい}→関係：01298_kankei⟧⟦を→を：00422_wo⟧{図示|ずし}⟦する→する：00392_suru⟧⟦と→と：00512_to⟧⟦{分|わ}かり→分かる：00463_wakaru⟧やすい。",
       "english": "It's easier to understand when you illustrate the relationships in a diagram.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "19847_zushi_ex3",
-      "japanese": "{下|した}の{図|ず}に{図示|ずし}したように、データは{三|みっ}つのグループに{分|わ}かれる。",
+      "japanese": "⟦{下|した}→下：00670_shita⟧⟦の→の：09472_no⟧⟦{図|ず}→図：03368_zu⟧⟦に→に：00314_ni⟧{図示|ずし}⟦した→する：00392_suru⟧よう⟦に→に：00314_ni⟧、⟦データ→データ：03944_deeta⟧⟦は→は：00079_ha⟧⟦{三|みっ}つ→三つ：02970_mittsu⟧⟦の→の：09472_no⟧⟦グループ→グループ：03840_guruupu⟧⟦に→に：00314_ni⟧⟦{分|わ}かれる→分かれる：10976_wakareru⟧。",
       "english": "As illustrated in the diagram below, the data is divided into three groups.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,26 @@
       ]
     }
   ],
-  "notes": "A formal, technical word used in academic papers, textbooks, and presentations. Functions as a suru verb ({図示|ずし}する).\n\nCOMMON COLLOCATIONS:\n- {図示|ずし}する — to illustrate, to show in a diagram\n- {図示|ずし}したように — as illustrated\n- {図示|ずし}した{結果|けっか} — the illustrated results\n\nUSAGE:\nPrimarily found in written academic and technical contexts. When authors want to reference a visual representation in a paper or report, they use {図示|ずし}する. In everyday language, {図|ず}で{示|しめ}す (to show with a diagram) is more natural.\n\nSIMILAR WORDS:\n- {図解|ずかい} — illustrated explanation (the diagram itself, or the act of explaining with diagrams)\n- {表示|ひょうじ} — display, indication (broader, includes digital displays)",
-  "cross_references": [],
+  "notes": "A formal, technical word used in academic papers, textbooks, and presentations. Functions as a suru verb ({図示|ずし}⟦する→する：00392_suru⟧).\n\nCOMMON COLLOCATIONS:\n- {図示|ずし}⟦する→する：00392_suru⟧ — to illustrate, to show in a diagram\n- {図示|ずし}⟦した→する：00392_suru⟧よう⟦に→に：00314_ni⟧ — as illustrated\n- {図示|ずし}⟦した→する：00392_suru⟧⟦{結果|けっか}→結果：02486_kekka⟧ — the illustrated results\n\nUSAGE:\nPrimarily found in written academic and technical contexts. When authors want to reference a visual representation in a paper or report, they use {図示|ずし}⟦する→する：00392_suru⟧. In everyday language, ⟦{図|ず}→図：03368_zu⟧⟦で→で：00502_de⟧⟦{示|しめ}す→示す：01948_shimesu⟧ (to show with a diagram) is more natural.\n\nSIMILAR WORDS:\n- ⟦{図解|ずかい}→図解：18235_zukai⟧ — illustrated explanation (the diagram itself, or the act of explaining with diagrams)\n- ⟦{表示|ひょうじ}→表示：03143_hyouji⟧ — display, indication (broader, includes digital displays)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18235_zukai",
+      "reading": "ずかい",
+      "headword": "{図解|ずかい}",
+      "label": "illustrated explanation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03143_hyouji",
+      "reading": "ひょうじ",
+      "headword": "{表示|ひょうじ}",
+      "label": "display, indication"
+    }
+  ],
   "metadata": {
     "created": "2026-03-27T02:15:58Z",
-    "modified": "2026-07-27T12:42:09Z",
+    "modified": "2026-09-02T04:01:57Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -151,7 +166,8 @@
       "semantic": [
         "education"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

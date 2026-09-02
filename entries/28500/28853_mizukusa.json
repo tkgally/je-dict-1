@@ -15,41 +15,74 @@
   "examples": [
     {
       "id": "28853_mizukusa_ex1",
-      "japanese": "{池|いけ}に{水草|みずくさ}が{生|は}えている。",
+      "japanese": "⟦{池|いけ}→池：00848_ike⟧⟦に→に：00314_ni⟧{水草|みずくさ}⟦が→が：00051_ga⟧⟦{生|は}えている→生える：02392_haeru⟧。",
       "english": "Aquatic plants are growing in the pond.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28853_mizukusa_ex2",
-      "japanese": "{水槽|すいそう}に{水草|みずくさ}を{入|い}れると{魚|さかな}が{落|お}ち{着|つ}く。",
+      "japanese": "⟦{水槽|すいそう}→水槽：09956_suisou⟧⟦に→に：00314_ni⟧{水草|みずくさ}⟦を→を：00422_wo⟧⟦{入|い}れる→入れる：01098_ireru⟧⟦と→と：00512_to⟧⟦{魚|さかな}→魚：00499_sakana⟧⟦が→が：00051_ga⟧⟦{落|お}ち{着|つ}く→落ち着く：04670_ochitsuku⟧。",
       "english": "Putting water plants in the tank helps the fish settle.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28853_mizukusa_ex3",
-      "japanese": "{水草|みずくさ}は{酸素|さんそ}を{供給|きょうきゅう}し、{水質|すいしつ}を{保|たも}つ{役割|やくわり}も{果|は}たす。",
+      "japanese": "{水草|みずくさ}⟦は→は：00079_ha⟧⟦{酸素|さんそ}→酸素：02830_sanso⟧⟦を→を：00422_wo⟧⟦{供給|きょうきゅう}→供給：02599_kyoukyuu⟧し、⟦{水質|すいしつ}→水質：22420_suishitsu⟧⟦を→を：00422_wo⟧⟦{保|たも}つ→保つ：10134_tamotsu⟧⟦{役割|やくわり}→役割：03638_yakuwari⟧⟦も→も：00484_mo⟧⟦{果|は}たす→果たす：10060_hatasu⟧。",
       "english": "Water plants supply oxygen and also play a role in maintaining water quality.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Compound of {水|みず} (water) + {草|くさ} (grass, plant). A general term covering anything from pond weeds to ornamental aquarium plants.\n\nCOMMON COLLOCATIONS:\n- {水草|みずくさ}が{生|は}える: water plants grow\n- {水草|みずくさ}を{植|う}える: to plant water plants\n- {水草|みずくさ}{水槽|すいそう}: planted aquarium\n\nSIMILAR WORDS:\n- {水|みず}{生|せい}{植物|しょくぶつ}: aquatic plant — technical/scientific term\n- {藻|も}: algae; seaweed — generally simpler organisms than {水草|みずくさ}\n- {海藻|かいそう}: seaweed — specifically marine, not freshwater",
+  "notes": "Compound of ⟦{水|みず}→水：02258_mizu⟧ (water) + ⟦{草|くさ}→草：02206_kusa⟧ (grass, plant). A general term covering anything from pond weeds to ornamental aquarium plants.\n\nCOMMON COLLOCATIONS:\n- {水草|みずくさ}⟦が→が：00051_ga⟧⟦{生|は}える→生える：02392_haeru⟧: water plants grow\n- {水草|みずくさ}⟦を→を：00422_wo⟧⟦{植|う}える→植える：01210_ueru⟧: to plant water plants\n- {水草|みずくさ}⟦{水槽|すいそう}→水槽：09956_suisou⟧: planted aquarium\n\nSIMILAR WORDS:\n- {水|みず}{生|せい}⟦{植物|しょくぶつ}→植物：03248_shokubutsu⟧: aquatic plant — technical/scientific term\n- ⟦{藻|も}→藻：14821_mo⟧: algae; seaweed — generally simpler organisms than {水草|みずくさ}\n- ⟦{海藻|かいそう}→海藻：06750_kaisou⟧: seaweed — specifically marine, not freshwater",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14821_mo",
+      "reading": "も",
+      "headword": "{藻|も}",
+      "label": "algae"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06750_kaisou",
+      "reading": "かいそう",
+      "headword": "{海藻|かいそう}",
+      "label": "seaweed"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22025_sourui",
+      "reading": "そうるい",
+      "headword": "{藻類|そうるい}",
+      "label": "algae"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["nature"],
+      "politeness": "plain",
+      "semantic": [
+        "nature"
+      ],
       "domain": []
     },
     "created": "2026-06-06T03:11:29Z",
-    "modified": "2026-06-06T03:11:29Z"
+    "modified": "2026-09-02T04:02:35Z"
   }
 }

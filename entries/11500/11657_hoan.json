@@ -15,40 +15,65 @@
   "examples": [
     {
       "id": "11657_hoan_ex1",
-      "japanese": "{空港|くうこう}の{保安|ほあん}{検査|けんさ}を{受|う}ける。",
+      "japanese": "⟦{空港|くうこう}→空港：00648_kuukou⟧⟦の→の：09472_no⟧{保安|ほあん}⟦{検査|けんさ}→検査：02707_kensa⟧⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧。",
       "english": "Go through airport security screening.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11657_hoan_ex2",
-      "japanese": "{保安|ほあん}{要員|よういん}が{建物|たてもの}を{巡回|じゅんかい}している。",
+      "japanese": "{保安|ほあん}{要員|よういん}⟦が→が：00051_ga⟧⟦{建物|たてもの}→建物：01458_tatemono⟧⟦を→を：00422_wo⟧⟦{巡回|じゅんかい}→巡回：12407_junkai⟧⟦している→する：00392_suru⟧。",
       "english": "Security personnel are patrolling the building.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11657_hoan_ex3",
-      "japanese": "{海上|かいじょう}{保安|ほあん}{庁|ちょう}は{日本|にほん}の{海|うみ}の{安全|あんぜん}を{守|まも}る{機関|きかん}だ。",
+      "japanese": "{海上|かいじょう}{保安|ほあん}{庁|ちょう}⟦は→は：00079_ha⟧⟦{日本|にほん}→日本：03876_nihon⟧⟦の→の：09472_no⟧⟦{海|うみ}→海：00556_umi⟧⟦の→の：09472_no⟧⟦{安全|あんぜん}→安全：01131_anzen⟧⟦を→を：00422_wo⟧⟦{守|まも}る→守る：01986_mamoru⟧⟦{機関|きかん}→機関：02630_kikan⟧だ。",
       "english": "The Japan Coast Guard is the agency that protects the safety of Japan's waters.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "COMMON COLLOCATIONS:\n・{保安|ほあん}{検査|けんさ} (security screening/inspection)\n・{保安|ほあん}{要員|よういん} (security personnel)\n・{保安|ほあん}{官|かん} (security officer)\n・{海上|かいじょう}{保安|ほあん}{庁|ちょう} (Japan Coast Guard)\n・{保安|ほあん}{基準|きじゅん} (safety standards)\n・{保安|ほあん}{林|りん} (protection forest — forestry term)\n\nCOMPARISON:\n・セキュリティ: security (loanword, used broadly for digital and physical security)\n・{警備|けいび}: guarding, security operations\n・{保安|ほあん}: safety and security maintenance, often institutional or governmental",
-  "cross_references": [],
+  "notes": "COMMON COLLOCATIONS:\n- {保安|ほあん}⟦{検査|けんさ}→検査：02707_kensa⟧ (security screening/inspection)\n- {保安|ほあん}{要員|よういん} (security personnel)\n- {保安|ほあん}{官|かん} (security officer)\n- {海上|かいじょう}{保安|ほあん}{庁|ちょう} (Japan Coast Guard)\n- {保安|ほあん}⟦{基準|きじゅん}→基準：00228_kijun⟧ (safety standards)\n- {保安|ほあん}{林|りん} (protection forest — forestry term)\n\nSIMILAR WORDS:\n- ⟦セキュリティ→セキュリティ：04867_sekyuriti⟧: security (loanword, used broadly for digital and physical security)\n- ⟦{警備|けいび}→警備：00208_keibi⟧: guarding, security operations\n- {保安|ほあん}: safety and security maintenance, often institutional or governmental",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04867_sekyuriti",
+      "reading": "せきゅりてぃ",
+      "headword": "セキュリティ",
+      "label": "security"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00208_keibi",
+      "reading": "けいび",
+      "headword": "{警備|けいび}",
+      "label": "guarding, security operations"
+    }
+  ],
   "metadata": {
     "created": "2026-02-17T18:41:59Z",
-    "modified": "2026-02-17T18:41:59Z",
+    "modified": "2026-09-02T04:01:25Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

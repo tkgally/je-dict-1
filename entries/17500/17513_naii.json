@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "17513_naii_ex1",
-      "japanese": "{上司|じょうし}の{内意|ないい}を{探|さぐ}る。",
+      "japanese": "⟦{上司|じょうし}→上司：03286_joushi⟧⟦の→の：09472_no⟧{内意|ないい}⟦を→を：00422_wo⟧⟦{探|さぐ}る→探る：03923_saguru⟧。",
       "english": "To probe the boss's real intentions.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "17513_naii_ex2",
-      "japanese": "{内意|ないい}を{確認|かくにん}してから{正式|せいしき}に{提案|ていあん}する。",
+      "japanese": "{内意|ないい}⟦を→を：00422_wo⟧⟦{確認|かくにん}して→確認する：25332_kakuninsuru⟧⟦から→から：00504_kara⟧⟦{正式|せいしき}→正式：03376_seishiki⟧⟦に→に：00314_ni⟧⟦{提案|ていあん}する→提案する：06057_teiansuru⟧。",
       "english": "I'll confirm their private intentions before making a formal proposal.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "17513_naii_ex3",
-      "japanese": "{社長|しゃちょう}の{内意|ないい}を{受|う}けて、{人事異動|じんじいどう}の{準備|じゅんび}が{進|すす}められた。",
+      "japanese": "⟦{社長|しゃちょう}→社長：01428_shachou⟧⟦の→の：09472_no⟧{内意|ないい}⟦を→を：00422_wo⟧⟦{受|う}けて→受ける：01215_ukeru⟧、⟦{人事異動|じんじいどう}→人事異動：18627_jinjiidou⟧⟦の→の：09472_no⟧⟦{準備|じゅんび}→準備：01431_junbi⟧⟦が→が：00051_ga⟧⟦{進|すす}められた→進める：01949_susumeru⟧。",
       "english": "Following the company president's private wishes, preparations for personnel changes were advanced.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA formal word used in business and political contexts. {内|ない} means \"inner\" and {意|い} means \"intention.\" Refers to wishes or opinions that have not been made official or public. Often used when describing behind-the-scenes decision-making.\n\nCOMMON COLLOCATIONS:\n- {内意|ないい}を{探|さぐ}る (to probe someone's real intentions)\n- {内意|ないい}を{確認|かくにん}する (to confirm private intentions)\n- {内意|ないい}を{受|う}ける (to receive someone's private wishes)\n\nSIMILAR WORDS:\n- {本音|ほんね}: true feelings — more colloquial and broader in scope\n- {真意|しんい}: true intention — focuses on the genuine meaning behind words or actions\n- {意向|いこう}: intention, inclination — can be public or private",
+  "notes": "USAGE:\nA formal word used in business and political contexts. ⟦{内|ない}→〜内：09853_nai⟧ means \"inner\" and ⟦{意|い}→意：30489_i⟧ means \"intention.\" Refers to wishes or opinions that have not been made official or public. Often used when describing behind-the-scenes decision-making.\n\nCOMMON COLLOCATIONS:\n- {内意|ないい}⟦を→を：00422_wo⟧⟦{探|さぐ}る→探る：03923_saguru⟧ (to probe someone's real intentions)\n- {内意|ないい}⟦を→を：00422_wo⟧⟦{確認|かくにん}する→確認する：25332_kakuninsuru⟧ (to confirm private intentions)\n- {内意|ないい}⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧ (to receive someone's private wishes)\n\nSIMILAR WORDS:\n- ⟦{本音|ほんね}→本音：06620_honne⟧: true feelings — more colloquial and broader in scope\n- ⟦{真意|しんい}→真意：13699_shini⟧: true intention — focuses on the genuine meaning behind words or actions\n- ⟦{意向|いこう}→意向：12624_ikou⟧: intention, inclination — can be public or private",
   "cross_references": [
     {
       "type": "synonym",
@@ -52,11 +52,25 @@
       "reading": "ほんね",
       "headword": "{本音|ほんね}",
       "label": "true feelings (colloquial)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13699_shini",
+      "reading": "しんい",
+      "headword": "{真意|しんい}",
+      "label": "true intention"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12624_ikou",
+      "reading": "いこう",
+      "headword": "{意向|いこう}",
+      "label": "intention, inclination"
     }
   ],
   "metadata": {
     "created": "2026-03-18T04:36:49Z",
-    "modified": "2026-05-06T08:07:18Z",
+    "modified": "2026-09-02T04:01:48Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

@@ -3,7 +3,7 @@
   "headword": "{静止|せいし}する",
   "reading": "せいしする",
   "romaji": "seishisuru",
-  "part_of_speech": "verb-suru",
+  "part_of_speech": "suru verb",
   "gloss": "to stand still; to remain motionless",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26796_seishisuru_ex1",
-      "japanese": "{彼|かれ}はその{場|ば}に{静止|せいし}した。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦その→その：00993_sono⟧⟦{場|ば}→場：03699_ba⟧⟦に→に：00314_ni⟧{静止|せいし}した。",
       "english": "He stood still on the spot.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26796_seishisuru_ex2",
-      "japanese": "{時間|じかん}が{静止|せいし}したかのように{感|かん}じた。",
+      "japanese": "⟦{時間|じかん}→時間：00468_jikan⟧⟦が→が：00051_ga⟧{静止|せいし}した⟦か→か：09473_ka⟧⟦のように→のように：30291_noyouni⟧⟦{感|かん}じた→感じる：02044_kanjiru⟧。",
       "english": "It felt as if time had stood still.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26796_seishisuru_ex3",
-      "japanese": "{人工衛星|じんこうえいせい}が{地球|ちきゅう}の{上空|じょうくう}で{静止|せいし}しているように{見|み}える{軌道|きどう}を{静止軌道|せいしきどう}という。",
+      "japanese": "⟦{人工衛星|じんこうえいせい}→人工衛星：11715_jinkoueisei⟧⟦が→が：00051_ga⟧⟦{地球|ちきゅう}→地球：03461_chikyuu⟧⟦の→の：09472_no⟧⟦{上空|じょうくう}→上空：03080_joukuu⟧⟦で→で：00502_de⟧{静止|せいし}して⟦いる→いる：00495_iru⟧よう⟦に→に：00314_ni⟧⟦{見|み}える→見える：01165_mieru⟧⟦{軌道|きどう}→軌道：06360_kidou⟧⟦を→を：00422_wo⟧⟦{静止軌道|せいしきどう}→静止軌道：29619_seishikidou⟧⟦という→という：09577_toiu⟧。",
       "english": "An orbit where a satellite appears to remain stationary above the Earth is called a geostationary orbit.",
       "sense_numbers": [
         1
@@ -44,8 +44,30 @@
       "notes": null
     }
   ],
-  "notes": "Emphasizes complete absence of movement. Often used in scientific, technical, or literary contexts. The noun form {静止|せいし} is common in compound words.\n\nCOMMON COLLOCATIONS:\n- {静止|せいし}{画像|がぞう}: still image\n- {静止|せいし}{軌道|きどう}: geostationary orbit\n- {静止|せいし}{状態|じょうたい}: stationary state\n- {静止|せいし}{衛星|えいせい}: geostationary satellite\n- ぴたりと{静止|せいし}する: to come to a dead stop\n\nSIMILAR WORDS:\n- {止|と}まる: to stop — everyday word; can refer to stopping movement or functioning\n- {停止|ていし}する: to halt; to cease operation — often for machines, systems, or deliberate stopping\n- じっとする: to stay still — colloquial; often used as a command to children or animals",
-  "cross_references": [],
+  "notes": "Emphasizes complete absence of movement. Often used in scientific, technical, or literary contexts. The noun form ⟦{静止|せいし}→静止：15849_seishi⟧ is common in compound words.\n\nCOMMON COLLOCATIONS:\n- ⟦{静止|せいし}→静止：15849_seishi⟧⟦{画像|がぞう}→画像：13549_gazou⟧: still image\n- ⟦{静止|せいし}{軌道|きどう}→静止軌道：29619_seishikidou⟧: geostationary orbit\n- ⟦{静止|せいし}→静止：15849_seishi⟧⟦{状態|じょうたい}→状態：03345_joutai⟧: stationary state\n- ⟦{静止|せいし}{衛星|えいせい}→静止衛星：29862_seishieisei⟧: geostationary satellite\n- ⟦ぴたり→ぴたり：22253_pitari⟧⟦と→と：00512_to⟧{静止|せいし}する: to come to a dead stop\n\nSIMILAR WORDS:\n- ⟦{止|と}まる→止まる：00555_tomaru⟧: to stop — everyday word; can refer to stopping movement or functioning\n- ⟦{停止|ていし}する→停止する：20992_teishisuru⟧: to halt; to cease operation — often for machines, systems, or deliberate stopping\n- ⟦じっとする→じっとする：25342_jittosuru⟧: to stay still — colloquial; often used as a command to children or animals",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00555_tomaru",
+      "reading": "とまる",
+      "headword": "{止|と}まる",
+      "label": "to stop"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20992_teishisuru",
+      "reading": "ていしする",
+      "headword": "{停止|ていし}する",
+      "label": "to halt"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25342_jittosuru",
+      "reading": "じっとする",
+      "headword": "じっとする",
+      "label": "to stay still"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -59,10 +81,11 @@
         "movement"
       ],
       "domain": [],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     },
     "created": "2026-05-05T11:10:46Z",
-    "modified": "2026-08-06T12:46:55Z"
+    "modified": "2026-09-02T04:02:27Z"
   },
   "conjugation": {
     "type": "suru",

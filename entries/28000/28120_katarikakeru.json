@@ -3,7 +3,7 @@
   "headword": "{語|かた}りかける",
   "reading": "かたりかける",
   "romaji": "katarikakeru",
-  "part_of_speech": "verb-ichidan",
+  "part_of_speech": "verb (ichidan)",
   "gloss": "to speak to; to address; to talk to",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28120_katarikakeru_ex1",
-      "japanese": "{子|こ}どもに{優|やさ}しく{語|かた}りかける。",
+      "japanese": "{子|こ}ども⟦に→に：00314_ni⟧⟦{優|やさ}しく→優しい：02640_yasashii⟧{語|かた}りかける。",
       "english": "I speak gently to the child.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28120_katarikakeru_ex2",
-      "japanese": "{彼女|かのじょ}は{赤|あか}ちゃんに{語|かた}りかけた。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧⟦{赤|あか}ちゃん→赤ちゃん：01282_akachan⟧⟦に→に：00314_ni⟧{語|かた}りかけた。",
       "english": "She talked to the baby.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28120_katarikakeru_ex3",
-      "japanese": "この{映画|えいが}は、{観|み}る{人|ひと}の{心|こころ}に{静|しず}かに{語|かた}りかけてくる。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{映画|えいが}→映画：02273_eiga⟧⟦は→は：00079_ha⟧、⟦{観|み}る→観る：22793_miru⟧⟦{人|ひと}→人：00476_hito⟧⟦の→の：09472_no⟧⟦{心|こころ}→心：01321_kokoro⟧⟦に→に：00314_ni⟧⟦{静|しず}か→静か：00755_shizuka⟧⟦に→に：00314_ni⟧{語|かた}りかけてくる。",
       "english": "This film speaks quietly to the heart of the viewer.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "{語|かた}りかける is a compound verb ({語|かた}る + かける) meaning to speak to or address someone, usually with warmth or care. The listener is marked with に. The かける ending adds the sense of an action directed outward toward someone.\n\nCOMMON COLLOCATIONS:\n- {優|やさ}しく{語|かた}りかける: to speak gently to\n- {心|こころ}に{語|かた}りかける: to speak to the heart (move emotionally)\n\nSIMILAR WORDS:\n- {話|はな}しかける: to speak to; to strike up a conversation — more neutral and everyday\n- {語|かた}る: to tell; to narrate — to recount or relate at length",
+  "notes": "{語|かた}りかける is a compound verb (⟦{語|かた}る→語る：01930_kataru⟧ + かける) meaning to speak to or address someone, usually with warmth or care. The listener is marked with ⟦に→に：00314_ni⟧. The かける ending adds the sense of an action directed outward toward someone.\n\nCOMMON COLLOCATIONS:\n- ⟦{優|やさ}しく→優しい：02640_yasashii⟧{語|かた}りかける: to speak gently to\n- ⟦{心|こころ}→心：01321_kokoro⟧⟦に→に：00314_ni⟧{語|かた}りかける: to speak to the heart (move emotionally)\n\nSIMILAR WORDS:\n- ⟦{話|はな}しかける→話しかける：03134_hanashikakeru⟧: to speak to; to strike up a conversation — more neutral and everyday\n- ⟦{語|かた}る→語る：01930_kataru⟧: to tell; to narrate — to recount or relate at length",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03134_hanashikakeru",
+      "reading": "はなしかける",
+      "headword": "{話|はな}しかける",
+      "label": "to speak to"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01930_kataru",
+      "reading": "かたる",
+      "headword": "{語|かた}る",
+      "label": "to tell"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,7 +78,7 @@
       "domain": []
     },
     "created": "2026-05-26T02:06:25Z",
-    "modified": "2026-05-26T02:06:25Z"
+    "modified": "2026-09-02T04:02:32Z"
   },
   "conjugation": {
     "type": "ichidan",

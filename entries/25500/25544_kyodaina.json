@@ -3,7 +3,7 @@
   "headword": "{巨大|きょだい}な",
   "reading": "きょだいな",
   "romaji": "kyodaina",
-  "part_of_speech": "adjective (na)",
+  "part_of_speech": "na-adjective",
   "gloss": "huge; gigantic; enormous",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25544_kyodaina_ex1",
-      "japanese": "{巨大|きょだい}な{建物|たてもの}が{見|み}える。",
+      "japanese": "{巨大|きょだい}な⟦{建物|たてもの}→建物：01458_tatemono⟧⟦が→が：00051_ga⟧⟦{見|み}える→見える：01165_mieru⟧。",
       "english": "I can see a huge building.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25544_kyodaina_ex2",
-      "japanese": "{巨大|きょだい}な{台風|たいふう}が{接近|せっきん}している。",
+      "japanese": "{巨大|きょだい}な⟦{台風|たいふう}→台風：01455_taifuu⟧⟦が→が：00051_ga⟧⟦{接近|せっきん}している→接近する：25362_sekkinsuru⟧。",
       "english": "A massive typhoon is approaching.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25544_kyodaina_ex3",
-      "japanese": "インターネットは{社会|しゃかい}に{巨大|きょだい}な{影響|えいきょう}を{与|あた}えた。",
+      "japanese": "⟦インターネット→インターネット：04723_intaanetto⟧⟦は→は：00079_ha⟧⟦{社会|しゃかい}→社会：01427_shakai⟧⟦に→に：00314_ni⟧{巨大|きょだい}な⟦{影響|えいきょう}→影響：01877_eikyou⟧⟦を→を：00422_wo⟧⟦{与|あた}えた→与える：01821_ataeru⟧。",
       "english": "The Internet has had an enormous impact on society.",
       "sense_numbers": [
         1
@@ -44,8 +44,37 @@
       "notes": null
     }
   ],
-  "notes": "{巨大|きょだい}な emphasizes extreme, impressive size — something that dwarfs normal scale. It can describe physical objects (buildings, animals, structures) and abstract things (influence, organizations, problems). The word has a stronger impact than simply {大|おお}きい.\n\nCOMMON COLLOCATIONS:\n- {巨大|きょだい}な{企業|きぎょう}: giant corporation\n- {巨大|きょだい}な{市場|しじょう}: huge market\n- {巨大|きょだい}な{地震|じしん}: massive earthquake\n- {巨大|きょだい}な{力|ちから}: enormous power\n- {巨大|きょだい}{化|か}する: to grow enormous\n\nSIMILAR WORDS:\n- {大|おお}きい: big; large — neutral, everyday word for size without the extreme emphasis\n- {膨大|ぼうだい}な: vast; enormous — typically used for quantities, amounts, and data rather than physical size\n- {莫大|ばくだい}な: immense; enormous — primarily used for money and abstract quantities\n- {壮大|そうだい}な: grand; magnificent — adds a nuance of grandeur and impressiveness",
-  "cross_references": [],
+  "notes": "{巨大|きょだい}な emphasizes extreme, impressive size — something that dwarfs normal scale. It can describe physical objects (buildings, animals, structures) and abstract things (influence, organizations, problems). The word has a stronger impact than simply ⟦{大|おお}きい→大きい：00335_ookii⟧.\n\nCOMMON COLLOCATIONS:\n- {巨大|きょだい}な⟦{企業|きぎょう}→企業：00225_kigyou⟧: giant corporation\n- {巨大|きょだい}な⟦{市場|しじょう}→市場：09685_shijou⟧: huge market\n- {巨大|きょだい}な⟦{地震|じしん}→地震：01608_jishin⟧: massive earthquake\n- {巨大|きょだい}な⟦{力|ちから}→力：01661_chikara⟧: enormous power\n- ⟦{巨大|きょだい}{化|か}→巨大化：26010_kyodaika⟧⟦する→する：00392_suru⟧: to grow enormous\n\nSIMILAR WORDS:\n- ⟦{大|おお}きい→大きい：00335_ookii⟧: big; large — neutral, everyday word for size without the extreme emphasis\n- ⟦{膨大|ぼうだい}→膨大：08997_boudai⟧な: vast; enormous — typically used for quantities, amounts, and data rather than physical size\n- ⟦{莫大|ばくだい}→莫大：03700_bakudai⟧な: immense; enormous — primarily used for money and abstract quantities\n- ⟦{壮大|そうだい}→壮大：10900_soudai⟧な: grand; magnificent — adds a nuance of grandeur and impressiveness",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00335_ookii",
+      "reading": "おおきい",
+      "headword": "{大|おお}きい",
+      "label": "big"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08997_boudai",
+      "reading": "ぼうだい",
+      "headword": "{膨大|ぼうだい}",
+      "label": "vast"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03700_bakudai",
+      "reading": "ばくだい",
+      "headword": "{莫大|ばくだい}",
+      "label": "immense"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10900_soudai",
+      "reading": "そうだい",
+      "headword": "{壮大|そうだい}",
+      "label": "grand"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,12 +82,14 @@
       "pos": [
         "adjective-na"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "size",
         "descriptive"
       ]
     },
     "created": "2026-04-25T16:18:58Z",
-    "modified": "2026-08-04T12:59:53Z"
+    "modified": "2026-09-02T04:02:22Z"
   }
 }

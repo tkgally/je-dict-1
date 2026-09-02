@@ -2,7 +2,7 @@
   "id": "02889_souji",
   "headword": "{掃除|そうじ}",
   "reading": "そうじ",
-  "part_of_speech": "noun / suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "cleaning, sweeping",
   "conjugation": {
     "type": "suru",
@@ -161,11 +161,39 @@
       "reading": "せいそう",
       "headword": "{清掃|せいそう}",
       "label": "cleaning (formal/professional)"
+    },
+    {
+      "type": "related",
+      "target_id": "08708_mizumaki",
+      "reading": "みずまき",
+      "headword": "{水|みず}{撒|ま}き",
+      "label": "watering"
+    },
+    {
+      "type": "related",
+      "target_id": "10260_seisouchuu",
+      "reading": "せいそうちゅう",
+      "headword": "{清掃中|せいそうちゅう}",
+      "label": "cleaning in progress"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20153_seitonsuru",
+      "reading": "せいとんする",
+      "headword": "{整頓|せいとん}する",
+      "label": "to tidy up"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26814_atokatazuke",
+      "reading": "あとかたづけ",
+      "headword": "{後片付|あとかたづ}け",
+      "label": "cleanup"
     }
   ],
   "metadata": {
     "created": "2026-01-11T09:35:00Z",
-    "modified": "2026-08-08T09:25:02Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

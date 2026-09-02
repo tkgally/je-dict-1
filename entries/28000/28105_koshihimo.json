@@ -15,41 +15,60 @@
   "examples": [
     {
       "id": "28105_koshihimo_ex1",
-      "japanese": "{着物|きもの}を{腰紐|こしひも}で{留|と}めた。",
+      "japanese": "⟦{着物|きもの}→着物：01309_kimono⟧⟦を→を：00422_wo⟧{腰紐|こしひも}⟦で→で：00502_de⟧⟦{留|と}めた→留める：10053_tomeru⟧。",
       "english": "I secured the kimono with a waist cord.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28105_koshihimo_ex2",
-      "japanese": "{腰紐|こしひも}をきつく{結|むす}びすぎた。",
+      "japanese": "{腰紐|こしひも}⟦を→を：00422_wo⟧⟦きつく→きつい：02342_kitsui⟧⟦{結|むす}び→結ぶ：02308_musubu⟧すぎた。",
       "english": "I tied the waist cord too tightly.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28105_koshihimo_ex3",
-      "japanese": "{着付|きつ}けでは{何本|なんぼん}もの{腰紐|こしひも}を{使|つか}って{形|かたち}を{整|ととの}える。",
+      "japanese": "{着付|きつ}けで⟦は→は：00079_ha⟧{何本|なんぼん}⟦も→も：00484_mo⟧⟦の→の：09472_no⟧{腰紐|こしひも}⟦を→を：00422_wo⟧⟦{使|つか}って→使う：00473_tsukau⟧⟦{形|かたち}→形：02193_katachi⟧⟦を→を：00422_wo⟧⟦{整|ととの}える→整える：04259_totonoeru⟧。",
       "english": "When dressing in kimono, several waist cords are used to shape the garment.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A thin cloth cord tied at the waist, used mainly when putting on a kimono to hold the layers in place before the {帯|おび} (sash) is added.\n\nCOMMON COLLOCATIONS:\n- {腰紐|こしひも}を{結|むす}ぶ: to tie a waist cord\n- {着付|きつ}けに{腰紐|こしひも}を{使|つか}う: to use waist cords when dressing in kimono\n\nSIMILAR WORDS:\n- {帯|おび}: the wide decorative kimono sash worn over everything\n- {伊達|だて}{締|じ}め: a wider supporting band used in kimono dressing",
+  "notes": "A thin cloth cord tied at the waist, used mainly when putting on a kimono to hold the layers in place before the ⟦{帯|おび}→帯：02610_obi⟧ (sash) is added.\n\nCOMMON COLLOCATIONS:\n- {腰紐|こしひも}⟦を→を：00422_wo⟧⟦{結|むす}ぶ→結ぶ：02308_musubu⟧: to tie a waist cord\n- {着付|きつ}け⟦に→に：00314_ni⟧{腰紐|こしひも}⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧: to use waist cords when dressing in kimono\n\nSIMILAR WORDS:\n- ⟦{帯|おび}→帯：02610_obi⟧: the wide decorative kimono sash worn over everything\n- {伊達|だて}{締|じ}め: a wider supporting band used in kimono dressing",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02610_obi",
+      "reading": "おび",
+      "headword": "{帯|おび}",
+      "label": "the wide decorative kimono sash worn…"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["clothing"],
+      "semantic": [
+        "clothing"
+      ],
       "domain": []
     },
     "created": "2026-05-25T04:08:01Z",
-    "modified": "2026-05-25T04:08:01Z"
+    "modified": "2026-09-02T04:02:32Z"
   }
 }

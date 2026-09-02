@@ -15,40 +15,67 @@
   "examples": [
     {
       "id": "19967_furisode_ex1",
-      "japanese": "{成人式|せいじんしき}に{振袖|ふりそで}を{着|き}る。",
+      "japanese": "⟦{成人式|せいじんしき}→成人式：05494_seijinshiki⟧⟦に→に：00314_ni⟧{振袖|ふりそで}⟦を→を：00422_wo⟧⟦{着|き}る→着る：00541_kiru⟧。",
       "english": "To wear a furisode at the Coming of Age ceremony.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19967_furisode_ex2",
-      "japanese": "{祖母|そぼ}の{振袖|ふりそで}を{受|う}け{継|つ}いだ。",
+      "japanese": "⟦{祖母|そぼ}→祖母：00813_sobo⟧⟦の→の：09472_no⟧{振袖|ふりそで}⟦を→を：00422_wo⟧⟦{受|う}け{継|つ}いだ→受け継ぐ：06700_uketsugu⟧。",
       "english": "I inherited my grandmother's furisode.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19967_furisode_ex3",
-      "japanese": "{振袖|ふりそで}のレンタルは{予約|よやく}が{早|はや}いほど{良|よ}い{柄|がら}が{選|えら}べる。",
+      "japanese": "{振袖|ふりそで}⟦の→の：09472_no⟧⟦レンタル→レンタル：11194_rentaru⟧⟦は→は：00079_ha⟧⟦{予約|よやく}→予約：01522_yoyaku⟧⟦が→が：00051_ga⟧⟦{早|はや}い→早い：00514_hayai⟧ほど⟦{良|よ}い→良い：02350_yoi⟧⟦{柄|がら}→柄：02609_gara⟧⟦が→が：00051_ga⟧⟦{選|えら}べる→選ぶ：00835_erabu⟧。",
       "english": "The earlier you book a furisode rental, the better the patterns you can choose from.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {振|ふ}る (to swing, wave) + {袖|そで} (sleeve). The name refers to the long, swinging sleeves that can reach 100-115 cm in length. The most formal type of kimono for young unmarried women.\n\nTYPES BY SLEEVE LENGTH:\n- {大振袖|おおふりそで}: the longest sleeves (~115 cm), most formal\n- {中振袖|ちゅうふりそで}: medium-length sleeves (~100 cm)\n- {小振袖|こふりそで}: shorter sleeves (~75 cm), less formal\n\nCOMMON COLLOCATIONS:\n- {振袖|ふりそで}を{着|き}る: to wear a furisode\n- {振袖|ふりそで}のレンタル: furisode rental\n- {振袖|ふりそで}{姿|すがた}: the appearance of someone in a furisode\n\nCULTURAL NOTE:\nMost commonly worn at {成人式|せいじんしき} (Coming of Age Day, January), where twenty-year-old women celebrate adulthood. Also worn by young women attending weddings as guests. After marriage, women traditionally switch to {留袖|とめそで} (short-sleeved formal kimono). Many families rent rather than purchase {振袖|ふりそで} due to the high cost.",
+  "notes": "Composed of ⟦{振|ふ}る→振る：01983_furu⟧ (to swing, wave) + ⟦{袖|そで}→袖：02217_sode⟧ (sleeve). The name refers to the long, swinging sleeves that can reach 100-115 cm in length. The most formal type of kimono for young unmarried women.\n\nTYPES BY SLEEVE LENGTH:\n- {大振袖|おおふりそで}: the longest sleeves (~115 cm), most formal\n- {中振袖|ちゅうふりそで}: medium-length sleeves (~100 cm)\n- {小振袖|こふりそで}: shorter sleeves (~75 cm), less formal\n\nCOMMON COLLOCATIONS:\n- {振袖|ふりそで}⟦を→を：00422_wo⟧⟦{着|き}る→着る：00541_kiru⟧: to wear a furisode\n- {振袖|ふりそで}⟦の→の：09472_no⟧⟦レンタル→レンタル：11194_rentaru⟧: furisode rental\n- {振袖|ふりそで}⟦{姿|すがた}→姿：03363_sugata⟧: the appearance of someone in a furisode\n\nCULTURAL NOTE:\nMost commonly worn at ⟦{成人式|せいじんしき}→成人式：05494_seijinshiki⟧ (Coming of Age Day, January), where twenty-year-old women celebrate adulthood. Also worn by young women attending weddings as guests. After marriage, women traditionally switch to ⟦{留袖|とめそで}→留袖：27624_tomesode⟧ (short-sleeved formal kimono). Many families rent rather than purchase {振袖|ふりそで} due to the high cost.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "27624_tomesode",
+      "reading": "とめそで",
+      "headword": "{留袖|とめそで}",
+      "label": "tomesode"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29520_kurotomesode",
+      "reading": "くろとめそで",
+      "headword": "{黒留袖|くろとめそで}",
+      "label": "black formal kimono (for married women)"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["clothing", "culture"]
+      "semantic": [
+        "clothing",
+        "culture"
+      ]
     },
     "created": "2026-03-27T07:21:44Z",
-    "modified": "2026-03-27T07:21:44Z"
+    "modified": "2026-09-02T04:01:57Z"
   }
 }

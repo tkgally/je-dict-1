@@ -3,7 +3,7 @@
   "id": "14409_haichi",
   "headword": "{配置|はいち}",
   "reading": "はいち",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "placement; arrangement; positioning; deployment",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "14409_haichi_ex1",
-      "japanese": "{家具|かぐ}の{配置|はいち}を{変|か}えた。",
+      "japanese": "⟦{家具|かぐ}→家具：12314_kagu⟧⟦の→の：09472_no⟧{配置|はいち}⟦を→を：00422_wo⟧⟦{変|か}えた→変える：01089_kaeru⟧。",
       "english": "I rearranged the furniture.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "14409_haichi_ex2",
-      "japanese": "{警備員|けいびいん}を{各|かく}{出口|でぐち}に{配置|はいち}した。",
+      "japanese": "⟦{警備員|けいびいん}→警備員：09867_keibiin⟧⟦を→を：00422_wo⟧⟦{各|かく}→各〜：00449_kaku⟧⟦{出口|でぐち}→出口：02508_deguchi⟧⟦に→に：00314_ni⟧{配置|はいち}⟦した→する：00392_suru⟧。",
       "english": "Security guards were stationed at each exit.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "14409_haichi_ex3",
-      "japanese": "{効率|こうりつ}を{上|あ}げるために、オフィスの{机|つくえ}の{配置|はいち}を{見直|みなお}すことにした。",
+      "japanese": "⟦{効率|こうりつ}→効率：11794_kouritsu⟧⟦を→を：00422_wo⟧⟦{上|あ}げる→上げる：02443_ageru⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧、⟦オフィス→オフィス：00327_ofisu⟧⟦の→の：09472_no⟧⟦{机|つくえ}→机：00762_tsukue⟧⟦の→の：09472_no⟧{配置|はいち}⟦を→を：00422_wo⟧⟦{見直|みなお}す→見直す：04579_minaosu⟧ことにした。",
       "english": "We decided to review the desk arrangement in the office to improve efficiency.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "{配置|はいち} is a noun that can function as a suru verb ({配置|はいち}する). It emphasizes deliberate, planned placement.\n\nPARTICLE PATTERNS:\n- [thing/person]を{配置|はいち}する (to place/deploy something)\n- [thing]の{配置|はいち} (the arrangement of something)\n\nCOMMON COLLOCATIONS:\n- {人員|じんいん}{配置|はいち} (personnel deployment)\n- {配置|はいち}{転換|てんかん} (redeployment, reassignment)\n- {配置|はいち}{図|ず} (layout diagram)\n- {配置|はいち}を{変|か}える (change the arrangement)\n\n{配置|はいち}{転換|てんかん} (redeployment) is a common workplace term for reassigning employees to different positions or departments within the same organization.",
+  "notes": "{配置|はいち} is a noun that can function as a suru verb ({配置|はいち}⟦する→する：00392_suru⟧). It emphasizes deliberate, planned placement.\n\nCOMMON PATTERNS:\n- [thing/person]⟦を→を：00422_wo⟧{配置|はいち}⟦する→する：00392_suru⟧ (to place/deploy something)\n- [thing]⟦の→の：09472_no⟧{配置|はいち} (the arrangement of something)\n\nCOMMON COLLOCATIONS:\n- {人員|じんいん}{配置|はいち} (personnel deployment)\n- {配置|はいち}{転換|てんかん} (redeployment, reassignment)\n- {配置|はいち}⟦{図|ず}→図：03368_zu⟧ (layout diagram)\n- {配置|はいち}⟦を→を：00422_wo⟧⟦{変|か}える→変える：01089_kaeru⟧ (change the arrangement)\n\n{配置|はいち}{転換|てんかん} (redeployment) is a common workplace term for reassigning employees to different positions or departments within the same organization.",
   "cross_references": [
     {
       "type": "contrast",
@@ -142,11 +142,39 @@
       "reading": "はいれつ",
       "headword": "{配列|はいれつ}",
       "label": "ordered sequence"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21124_jouchuu",
+      "reading": "じょうちゅう",
+      "headword": "{常駐|じょうちゅう}",
+      "label": "permanent stationing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24685_ichikankei",
+      "reading": "いちかんけい",
+      "headword": "{位置関係|いちかんけい}",
+      "label": "relative position"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25292_haibi",
+      "reading": "はいび",
+      "headword": "{配備|はいび}",
+      "label": "deployment"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26726_kiyouhou",
+      "reading": "きようほう",
+      "headword": "{起用法|きようほう}",
+      "label": "method of personnel selection"
     }
   ],
   "metadata": {
     "created": "2026-03-01T09:09:08Z",
-    "modified": "2026-04-30T07:28:10Z",
+    "modified": "2026-09-02T04:01:37Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

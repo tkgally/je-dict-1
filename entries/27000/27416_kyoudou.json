@@ -3,7 +3,7 @@
   "headword": "{協同|きょうどう}",
   "reading": "きょうどう",
   "romaji": "kyoudou",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "cooperation; joint effort; collaboration",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "27416_kyoudou_ex1",
-      "japanese": "{地域|ちいき}の{農業|のうぎょう}{協同|きょうどう}{組合|くみあい}に{入|はい}った。",
+      "japanese": "⟦{地域|ちいき}→地域：01461_chiiki⟧⟦の→の：09472_no⟧{農業|のうぎょう}{協同|きょうどう}{組合|くみあい}⟦に→に：00314_ni⟧⟦{入|はい}った→入る：00494_hairu⟧。",
       "english": "I joined the local agricultural cooperative.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "27416_kyoudou_ex2",
-      "japanese": "{二|ふた}つの{会社|かいしゃ}が{協同|きょうどう}して{新製品|しんせいひん}を{開発|かいはつ}した。",
+      "japanese": "⟦{二|ふた}つ→二つ：02953_futatsu⟧⟦の→の：09472_no⟧⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦が→が：00051_ga⟧{協同|きょうどう}⟦して→する：00392_suru⟧⟦{新製品|しんせいひん}→新製品：18629_shinseihin⟧⟦を→を：00422_wo⟧⟦{開発|かいはつ}→開発：06746_kaihatsu⟧⟦した→する：00392_suru⟧。",
       "english": "Two companies cooperated to develop a new product.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "27416_kyoudou_ex3",
-      "japanese": "{住民|じゅうみん}と{行政|ぎょうせい}の{協同|きょうどう}によって{町|まち}おこしが{進|すす}められている。",
+      "japanese": "⟦{住民|じゅうみん}→住民：03281_juumin⟧⟦と→と：00512_to⟧⟦{行政|ぎょうせい}→行政：14122_gyousei⟧⟦の→の：09472_no⟧{協同|きょうどう}⟦によって→によって：06801_niyotte⟧⟦{町|まち}おこし→町おこし：13570_machiokoshi⟧⟦が→が：00051_ga⟧⟦{進|すす}められている→進める：01949_susumeru⟧。",
       "english": "Town revitalization is being advanced through cooperation between residents and the local government.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Often confused with {共同|きょうどう} (same reading). {協同|きょうどう} stresses cooperating toward a shared goal with coordinated effort, while {共同|きょうどう} stresses simply doing or owning something together. {協同|きょうどう} is much more common in formal organizational names.\n\nCOMMON COLLOCATIONS:\n- {協同|きょうどう}{組合|くみあい}: cooperative (organization)\n- {農業|のうぎょう}{協同|きょうどう}{組合|くみあい} ({農協|のうきょう}): agricultural cooperative\n- {生活|せいかつ}{協同|きょうどう}{組合|くみあい} ({生協|せいきょう}): consumer cooperative\n- {協同|きょうどう}{作業|さぎょう}: joint/cooperative work\n- {協同|きょうどう}する: to cooperate; to work together\n\nSIMILAR WORDS:\n- {共同|きょうどう}: joint; shared — focuses on sharing or doing together; more common overall\n- {協力|きょうりょく}: cooperation — emphasizes giving help; broadest of the three\n- {連携|れんけい}: coordination; collaboration — emphasizes linkage between parties",
+  "notes": "Often confused with ⟦{共同|きょうどう}→共同：02591_kyoudou⟧ (same reading). {協同|きょうどう} stresses cooperating toward a shared goal with coordinated effort, while ⟦{共同|きょうどう}→共同：02591_kyoudou⟧ stresses simply doing or owning something together. {協同|きょうどう} is much more common in formal organizational names.\n\nCOMMON COLLOCATIONS:\n- {協同|きょうどう}{組合|くみあい}: cooperative (organization)\n- {農業|のうぎょう}{協同|きょうどう}{組合|くみあい} (⟦{農協|のうきょう}→農協：27727_noukyou⟧): agricultural cooperative\n- {生活|せいかつ}{協同|きょうどう}{組合|くみあい} (⟦{生協|せいきょう}→生協：13577_seikyou⟧): consumer cooperative\n- {協同|きょうどう}⟦{作業|さぎょう}→作業：02775_sagyou⟧: joint/cooperative work\n- {協同|きょうどう}⟦する→する：00392_suru⟧: to cooperate; to work together\n\nSIMILAR WORDS:\n- ⟦{共同|きょうどう}→共同：02591_kyoudou⟧: joint; shared — focuses on sharing or doing together; more common overall\n- ⟦{協力|きょうりょく}→協力：00261_kyouryoku⟧: cooperation — emphasizes giving help; broadest of the three\n- ⟦{連携|れんけい}→連携：05094_renkei⟧: coordination; collaboration — emphasizes linkage between parties",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "homophone",
+      "target_id": "02591_kyoudou",
+      "reading": "きょうどう",
+      "headword": "{共同|きょうどう}",
+      "label": "joint"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00261_kyouryoku",
+      "reading": "きょうりょく",
+      "headword": "{協力|きょうりょく}",
+      "label": "cooperation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05094_renkei",
+      "reading": "れんけい",
+      "headword": "{連携|れんけい}",
+      "label": "coordination"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -54,7 +77,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "business",
         "society"
@@ -63,7 +86,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-11T07:40:10Z",
-    "modified": "2026-05-11T07:40:10Z"
+    "modified": "2026-09-02T04:02:30Z"
   },
   "conjugation": {
     "type": "suru",

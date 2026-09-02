@@ -3,7 +3,7 @@
   "id": "14904_tainin",
   "headword": "{退任|たいにん}",
   "reading": "たいにん",
-  "part_of_speech": "noun / verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "leaving office; stepping down",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "14904_tainin_ex1",
-      "japanese": "{社長|しゃちょう}が{退任|たいにん}した。",
+      "japanese": "⟦{社長|しゃちょう}→社長：01428_shachou⟧⟦が→が：00051_ga⟧{退任|たいにん}⟦した→する：00392_suru⟧。",
       "english": "The company president stepped down.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "14904_tainin_ex2",
-      "japanese": "{取締役|とりしまりやく}を{退任|たいにん}する{意向|いこう}を{示|しめ}した。",
+      "japanese": "⟦{取締役|とりしまりやく}→取締役：12124_torishimariyaku⟧⟦を→を：00422_wo⟧{退任|たいにん}⟦する→する：00392_suru⟧⟦{意向|いこう}→意向：12624_ikou⟧⟦を→を：00422_wo⟧⟦{示|しめ}した→示す：01948_shimesu⟧。",
       "english": "He indicated his intention to step down as a board member.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "14904_tainin_ex3",
-      "japanese": "{前任者|ぜんにんしゃ}の{退任|たいにん}に{伴|ともな}い、{新|あたら}しい{委員長|いいんちょう}が{選出|せんしゅつ}された。",
+      "japanese": "⟦{前任者|ぜんにんしゃ}→前任者：19225_zenninsha⟧⟦の→の：09472_no⟧{退任|たいにん}⟦に{伴|ともな}い→に伴い：06804_nitomonai⟧、⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦{委員長|いいんちょう}→委員長：19385_iinchou⟧⟦が→が：00051_ga⟧⟦{選出|せんしゅつ}→選出：14448_senshutsu⟧⟦された→する：00392_suru⟧。",
       "english": "Following the predecessor's departure from office, a new committee chair was elected.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{退任|たいにん} is used primarily in business and government contexts for people leaving formal positions. It implies an orderly, often planned departure and is neutral in tone — it does not suggest whether the departure was voluntary or forced.\n\nCOMMON COLLOCATIONS:\n- {退任|たいにん}する (to leave office)\n- {退任|たいにん}を{表明|ひょうめい}する (to announce one's departure)\n- {退任|たいにん}{挨拶|あいさつ} (farewell address upon leaving office)\n- {退任|たいにん}に{伴|ともな}い (accompanying the departure)\n\nSIMILAR WORDS:\n- {退任|たいにん}: leaving a position (neutral, formal)\n- {辞任|じにん}: resignation (implies personal decision, often taking responsibility)\n- {退職|たいしょく}: retirement from employment (leaving a job entirely)\n- {解任|かいにん}: dismissal from a position (forced removal)",
+  "notes": "USAGE:\n{退任|たいにん} is used primarily in business and government contexts for people leaving formal positions. It implies an orderly, often planned departure and is neutral in tone — it does not suggest whether the departure was voluntary or forced.\n\nCOMMON COLLOCATIONS:\n- {退任|たいにん}⟦する→する：00392_suru⟧ (to leave office)\n- {退任|たいにん}⟦を→を：00422_wo⟧⟦{表明|ひょうめい}→表明：14052_hyoumei⟧⟦する→する：00392_suru⟧ (to announce one's departure)\n- {退任|たいにん}⟦{挨拶|あいさつ}→挨拶：02505_aisatsu⟧ (farewell address upon leaving office)\n- {退任|たいにん}⟦に{伴|ともな}い→に伴い：06804_nitomonai⟧ (accompanying the departure)\n\nSIMILAR WORDS:\n- {退任|たいにん}: leaving a position (neutral, formal)\n- ⟦{辞任|じにん}→辞任：10144_jinin⟧: resignation (implies personal decision, often taking responsibility)\n- ⟦{退職|たいしょく}→退職：04559_taishoku⟧: retirement from employment (leaving a job entirely)\n- ⟦{解任|かいにん}→解任：17173_kainin⟧: dismissal from a position (forced removal)",
   "cross_references": [
     {
       "type": "synonym",
@@ -149,11 +149,25 @@
       "reading": "ちゃくにん",
       "headword": "{着任|ちゃくにん}",
       "label": "taking up a post"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04559_taishoku",
+      "reading": "たいしょく",
+      "headword": "{退職|たいしょく}",
+      "label": "retirement from employment"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17173_kainin",
+      "reading": "かいにん",
+      "headword": "{解任|かいにん}",
+      "label": "dismissal from a position"
     }
   ],
   "metadata": {
     "created": "2026-03-04T05:50:52Z",
-    "modified": "2026-05-01T04:26:51Z",
+    "modified": "2026-09-02T04:01:39Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

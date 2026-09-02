@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "12020_gacchi_ex1",
-      "japanese": "{意見|いけん}が{合致|がっち}する。",
+      "japanese": "⟦{意見|いけん}→意見：01303_iken⟧⟦が→が：00051_ga⟧{合致|がっち}⟦する→する：00392_suru⟧。",
       "english": "Opinions are in agreement.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "12020_gacchi_ex2",
-      "japanese": "{証言|しょうげん}と{証拠|しょうこ}が{合致|がっち}した。",
+      "japanese": "⟦{証言|しょうげん}→証言：11088_shougen⟧⟦と→と：00512_to⟧⟦{証拠|しょうこ}→証拠：10575_shouko⟧⟦が→が：00051_ga⟧{合致|がっち}⟦した→する：00392_suru⟧。",
       "english": "The testimony matched the evidence.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "12020_gacchi_ex3",
-      "japanese": "{両社|りょうしゃ}の{方針|ほうしん}が{合致|がっち}したため、{業務提携|ぎょうむていけい}が{実現|じつげん}した。",
+      "japanese": "{両社|りょうしゃ}⟦の→の：09472_no⟧⟦{方針|ほうしん}→方針：04871_houshin⟧⟦が→が：00051_ga⟧{合致|がっち}⟦した→する：00392_suru⟧⟦ため→ため：01145_tame⟧、⟦{業務提携|ぎょうむていけい}→業務提携：22907_gyoumuteikei⟧⟦が→が：00051_ga⟧⟦{実現|じつげん}→実現：03276_jitsugen⟧⟦した→する：00392_suru⟧。",
       "english": "Because the two companies' policies were in accord, the business partnership was realized.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA formal word commonly used in business, legal, and analytical contexts. The pattern ～と{合致|がっち}する means \"to be in agreement with ~\" or \"to match ~.\" More formal than {一致|いっち} (agreement, match).\n\nCOMMON COLLOCATIONS:\n- {意見|いけん}が{合致|がっち}する: for opinions to agree\n- {条件|じょうけん}に{合致|がっち}する: to meet the conditions\n- ～と{合致|がっち}する: to be consistent with ~\n- {利害|りがい}が{合致|がっち}する: for interests to align",
+  "notes": "USAGE:\nA formal word commonly used in business, legal, and analytical contexts. The pattern ～⟦と→と：00512_to⟧{合致|がっち}⟦する→する：00392_suru⟧ means \"to be in agreement with ~\" or \"to match ~.\" More formal than ⟦{一致|いっち}→一致：01733_icchi⟧ (agreement, match).\n\nCOMMON COLLOCATIONS:\n- ⟦{意見|いけん}→意見：01303_iken⟧⟦が→が：00051_ga⟧{合致|がっち}⟦する→する：00392_suru⟧: for opinions to agree\n- ⟦{条件|じょうけん}→条件：03285_jouken⟧⟦に→に：00314_ni⟧{合致|がっち}⟦する→する：00392_suru⟧: to meet the conditions\n- ～⟦と→と：00512_to⟧{合致|がっち}⟦する→する：00392_suru⟧: to be consistent with ~\n- ⟦{利害|りがい}→利害：04091_rigai⟧⟦が→が：00051_ga⟧{合致|がっち}⟦する→する：00392_suru⟧: for interests to align",
   "cross_references": [
     {
       "type": "synonym",
@@ -142,11 +142,18 @@
       "reading": "いっち",
       "headword": "{一致|いっち}",
       "label": "agreement (general)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20897_tekigou",
+      "reading": "てきごう",
+      "headword": "{適合|てきごう}",
+      "label": "conformity"
     }
   ],
   "metadata": {
     "created": "2026-02-19T11:50:35Z",
-    "modified": "2026-04-25T10:12:38Z",
+    "modified": "2026-09-02T04:01:27Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

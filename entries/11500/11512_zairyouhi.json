@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "11512_zairyouhi_ex1",
-      "japanese": "{材料費|ざいりょうひ}は{自己負担|じこふたん}です。",
+      "japanese": "{材料費|ざいりょうひ}⟦は→は：00079_ha⟧⟦{自己負担|じこふたん}→自己負担：20462_jikofutan⟧です。",
       "english": "The material costs are self-paid.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "11512_zairyouhi_ex2",
-      "japanese": "{材料費|ざいりょうひ}が{高|たか}くなったので{値上|ねあ}げした。",
+      "japanese": "{材料費|ざいりょうひ}⟦が→が：00051_ga⟧⟦{高|たか}く→高い：00500_takai⟧⟦なった→なる：01970_naru⟧⟦の→の：09472_no⟧で⟦{値上|ねあ}げした→値上げする：22504_neagesuru⟧。",
       "english": "We raised prices because material costs went up.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "11512_zairyouhi_ex3",
-      "japanese": "この{料理|りょうり}{教室|きょうしつ}は{参加費|さんかひ}{無料|むりょう}だが、{材料費|ざいりょうひ}として{千円|せんえん}かかる。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{料理|りょうり}{教室|きょうしつ}→料理教室：23301_ryourikyoushitsu⟧⟦は→は：00079_ha⟧⟦{参加費|さんかひ}→参加費：11059_sankahi⟧⟦{無料|むりょう}→無料：01662_muryou⟧だ⟦が→が：00051_ga⟧、{材料費|ざいりょうひ}⟦として→として：06802_toshite⟧⟦{千円|せんえん}→千円：08980_senen⟧⟦かかる→かかる：00711_kakaru⟧。",
       "english": "This cooking class is free to join, but costs 1,000 yen for materials.",
       "notes": null,
       "has_audio": false,
@@ -43,11 +43,47 @@
       ]
     }
   ],
-  "notes": "The cost of raw materials or supplies, commonly seen in cooking classes, craft workshops, construction, and manufacturing.\n\nFORMATION:\nCompound of {材料|ざいりょう} (materials) + {費|ひ} (cost/expense).\n\nCOMMON PATTERNS:\n- {材料費|ざいりょうひ}がかかる: materials cost money\n- {材料費|ざいりょうひ}{込|こ}み: materials included (in the price)\n- {材料費|ざいりょうひ}{別|べつ}: materials charged separately\n- {材料費|ざいりょうひ}を{抑|おさ}える: to keep material costs down\n\nRELATED COST TERMS:\n- {人件費|じんけんひ}: labor costs\n- {光熱費|こうねつひ}: utility costs\n- {交通費|こうつうひ}: transportation costs\n- {経費|けいひ}: expenses (general business term)",
-  "cross_references": [],
+  "notes": "The cost of raw materials or supplies, commonly seen in cooking classes, craft workshops, construction, and manufacturing.\n\nFORMS:\nCompound of ⟦{材料|ざいりょう}→材料：02831_zairyou⟧ (materials) + ⟦{費|ひ}→費：09877_hi⟧ (cost/expense).\n\nCOMMON PATTERNS:\n- {材料費|ざいりょうひ}⟦が→が：00051_ga⟧⟦かかる→かかる：00711_kakaru⟧: materials cost money\n- {材料費|ざいりょうひ}⟦{込|こ}み→込み：28615_komi⟧: materials included (in the price)\n- {材料費|ざいりょうひ}⟦{別|べつ}→別：01216_betsu⟧: materials charged separately\n- {材料費|ざいりょうひ}⟦を→を：00422_wo⟧⟦{抑|おさ}える→抑える：12806_osaeru⟧: to keep material costs down\n\nRELATED COST TERMS:\n- ⟦{人件費|じんけんひ}→人件費：20616_jinkenhi⟧: labor costs\n- ⟦{光熱費|こうねつひ}→光熱費：08244_kounetsuhi⟧: utility costs\n- ⟦{交通費|こうつうひ}→交通費：03056_koutsuuhi⟧: transportation costs\n- ⟦{経費|けいひ}→経費：04696_keihi⟧: expenses (general business term)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "20616_jinkenhi",
+      "reading": "じんけんひ",
+      "headword": "{人件費|じんけんひ}",
+      "label": "labor costs"
+    },
+    {
+      "type": "related",
+      "target_id": "08244_kounetsuhi",
+      "reading": "こうねつひ",
+      "headword": "{光熱費|こうねつひ}",
+      "label": "utility costs"
+    },
+    {
+      "type": "related",
+      "target_id": "03056_koutsuuhi",
+      "reading": "こうつうひ",
+      "headword": "{交通費|こうつうひ}",
+      "label": "transportation costs"
+    },
+    {
+      "type": "related",
+      "target_id": "04696_keihi",
+      "reading": "けいひ",
+      "headword": "{経費|けいひ}",
+      "label": "expenses"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26161_buhindai",
+      "reading": "ぶひんだい",
+      "headword": "{部品代|ぶひんだい}",
+      "label": "parts cost"
+    }
+  ],
   "metadata": {
     "created": "2026-02-17T01:54:44Z",
-    "modified": "2026-08-15T21:21:01Z",
+    "modified": "2026-09-02T04:01:25Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",

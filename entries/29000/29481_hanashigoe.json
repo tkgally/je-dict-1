@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29481_hanashigoe_ex1",
-      "japanese": "{隣|となり}から{話|はな}し{声|ごえ}が{聞|き}こえる。",
+      "japanese": "⟦{隣|となり}→隣：01003_tonari⟧⟦から→から：00504_kara⟧{話|はな}し{声|ごえ}⟦が→が：00051_ga⟧⟦{聞|き}こえる→聞こえる：01229_kikoeru⟧。",
       "english": "I can hear voices from next door.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29481_hanashigoe_ex2",
-      "japanese": "{彼女|かのじょ}の{話|はな}し{声|ごえ}は{優|やさ}しい。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦の→の：09472_no⟧{話|はな}し{声|ごえ}⟦は→は：00079_ha⟧{優|やさ}しい。",
       "english": "Her speaking voice is gentle.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29481_hanashigoe_ex3",
-      "japanese": "{夜遅|よるおそ}く、{廊下|ろうか}で{小|ちい}さな{話|はな}し{声|ごえ}がした。",
+      "japanese": "{夜遅|よるおそ}く、⟦{廊下|ろうか}→廊下：05005_rouka⟧⟦で→で：00502_de⟧⟦{小|ちい}さな→小さな：02913_chiisana⟧{話|はな}し{声|ごえ}がした。",
       "english": "Late at night, there were faint voices in the hallway.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "Refers both to the quality of a person's conversational voice and to the sound of talking that one overhears.\n\nCOMMON COLLOCATIONS:\n- {話|はな}し{声|ごえ}が{聞|き}こえる: to hear voices\n- {話|はな}し{声|ごえ}が{大|おお}きい: to have a loud speaking voice\n- {小|ちい}さな{話|はな}し{声|ごえ}: faint/quiet voices\n\nSIMILAR WORDS:\n- {歌声|うたごえ}: singing voice — the voice when singing rather than talking\n- {声|こえ}: voice — the general word, without the specific sense of conversation",
+  "notes": "Refers both to the quality of a person's conversational voice and to the sound of talking that one overhears.\n\nCOMMON COLLOCATIONS:\n- {話|はな}し{声|ごえ}⟦が→が：00051_ga⟧⟦{聞|き}こえる→聞こえる：01229_kikoeru⟧: to hear voices\n- {話|はな}し{声|ごえ}⟦が→が：00051_ga⟧⟦{大|おお}きい→大きい：00335_ookii⟧: to have a loud speaking voice\n- ⟦{小|ちい}さな→小さな：02913_chiisana⟧{話|はな}し{声|ごえ}: faint/quiet voices\n\nSIMILAR WORDS:\n- ⟦{歌声|うたごえ}→歌声：20116_utagoe⟧: singing voice — the voice when singing rather than talking\n- ⟦{声|こえ}→声：02207_koe⟧: voice — the general word, without the specific sense of conversation",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20116_utagoe",
+      "reading": "うたごえ",
+      "headword": "{歌声|うたごえ}",
+      "label": "singing voice"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +62,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "communication"
       ],
       "domain": []
     },
     "created": "2026-06-25T18:22:26Z",
-    "modified": "2026-06-25T18:22:26Z"
+    "modified": "2026-09-02T04:02:37Z"
   }
 }

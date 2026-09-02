@@ -78,10 +78,40 @@
       ]
     }
   ],
-  "notes": "USAGE: {幾分|いくぶん} is a slightly formal adverb indicating a moderate degree. It's softer than ⟦{少|すこ}し→少し：00596_sukoshi⟧ and more formal.\n\nPOSITION: Usually appears before the word it modifies.\n\nREGISTER: Slightly formal; more common in written language.\n\nSIMILAR WORDS:\n・⟦{少|すこ}し→少し：00596_sukoshi⟧ - a little (more casual, common)\n・⟦やや→やや：03642_yaya⟧ - slightly (similar formality)\n・⟦{多少|たしょう}→多少：01647_tashou⟧ - more or less, somewhat\n・⟦いくらか→いくらか：21790_ikuraka⟧ - somewhat (similar meaning)",
+  "notes": "USAGE: {幾分|いくぶん} is a slightly formal adverb indicating a moderate degree. It's softer than ⟦{少|すこ}し→少し：00596_sukoshi⟧ and more formal.\n\nPOSITION: Usually appears before the word it modifies.\n\nREGISTER: Slightly formal; more common in written language.\n\nSIMILAR WORDS:\n- ⟦{少|すこ}し→少し：00596_sukoshi⟧ - a little (more casual, common)\n- ⟦やや→やや：03642_yaya⟧ - slightly (similar formality)\n- ⟦{多少|たしょう}→多少：01647_tashou⟧ - more or less, somewhat\n- ⟦いくらか→いくらか：21790_ikuraka⟧ - somewhat (similar meaning)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00596_sukoshi",
+      "reading": "すこし",
+      "headword": "{少|すこ}し",
+      "label": "a little"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03642_yaya",
+      "reading": "やや",
+      "headword": "やや",
+      "label": "slightly"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01647_tashou",
+      "reading": "たしょう",
+      "headword": "{多少|たしょう}",
+      "label": "more or less, somewhat"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21790_ikuraka",
+      "reading": "いくらか",
+      "headword": "いくらか",
+      "label": "somewhat"
+    }
+  ],
   "metadata": {
     "created": "2026-01-13T12:42:08Z",
-    "modified": "2026-05-29T16:30:23Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

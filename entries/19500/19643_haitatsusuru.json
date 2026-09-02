@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "19643_haitatsusuru_ex1",
-      "japanese": "{荷物|にもつ}を{配達|はいたつ}する。",
+      "japanese": "⟦{荷物|にもつ}→荷物：00737_nimotsu⟧⟦を→を：00422_wo⟧{配達|はいたつ}する。",
       "english": "To deliver a package.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "19643_haitatsusuru_ex2",
-      "japanese": "{新聞|しんぶん}は{毎朝|まいあさ}{配達|はいたつ}される。",
+      "japanese": "⟦{新聞|しんぶん}→新聞：01440_shinbun⟧⟦は→は：00079_ha⟧⟦{毎朝|まいあさ}→毎朝：00966_maiasa⟧{配達|はいたつ}される。",
       "english": "The newspaper is delivered every morning.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "19643_haitatsusuru_ex3",
-      "japanese": "{注文|ちゅうもん}した{料理|りょうり}が30{分|ぷん}で{配達|はいたつ}された。",
+      "japanese": "⟦{注文|ちゅうもん}した→注文する：21390_chuumon⟧⟦{料理|りょうり}→料理：01523_ryouri⟧⟦が→が：00051_ga⟧30{分|ぷん}⟦で→で：00502_de⟧{配達|はいたつ}された。",
       "english": "The food I ordered was delivered in 30 minutes.",
       "sense_numbers": [
         1
@@ -134,11 +134,33 @@
       "notes": null
     }
   ],
-  "notes": "A practical everyday word that has become even more common with the rise of food delivery services and online shopping.\n\nCOMMON COLLOCATIONS:\n- {配達|はいたつ}{員|いん}: delivery person\n- {配達|はいたつ}{日|び}: delivery date\n- {配達|はいたつ}{時間|じかん}: delivery time\n- {配達|はいたつ}{先|さき}: delivery destination\n- {宅配|たくはい}{便|びん}: home delivery service\n- {配達|はいたつ}{証明|しょうめい}: proof of delivery\n\nSIMILAR WORDS:\n- {届|とど}ける: to deliver — native Japanese verb, more general, also used for submitting documents\n- {配達|はいたつ}する: to deliver — specifically refers to the delivery of goods to a destination as a service\n- {配送|はいそう}する: to ship, to dispatch — focuses on the shipping/logistics process rather than the final handoff",
-  "cross_references": [],
+  "notes": "A practical everyday word that has become even more common with the rise of food delivery services and online shopping.\n\nCOMMON COLLOCATIONS:\n- ⟦{配達|はいたつ}{員|いん}→配達員：20275_haitatsuin⟧: delivery person\n- ⟦{配達|はいたつ}→配達：00084_haitatsu⟧{日|び}: delivery date\n- ⟦{配達|はいたつ}{時間|じかん}→配達時間：25162_haitatsujikan⟧: delivery time\n- ⟦{配達|はいたつ}{先|さき}→配達先：27129_haitatsusaki⟧: delivery destination\n- ⟦{宅配|たくはい}{便|びん}→宅配便：09534_takuhaibin⟧: home delivery service\n- ⟦{配達|はいたつ}{証明|しょうめい}→配達証明：25813_haitatsushoumei⟧: proof of delivery\n\nSIMILAR WORDS:\n- ⟦{届|とど}ける→届ける：01248_todokeru⟧: to deliver — native Japanese verb, more general, also used for submitting documents\n- {配達|はいたつ}する: to deliver — specifically refers to the delivery of goods to a destination as a service\n- ⟦{配送|はいそう}する→配送する：21738_haisousuru⟧: to ship, to dispatch — focuses on the shipping/logistics process rather than the final handoff",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01248_todokeru",
+      "reading": "とどける",
+      "headword": "{届|とど}ける",
+      "label": "to deliver"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21738_haisousuru",
+      "reading": "はいそうする",
+      "headword": "{配送|はいそう}する",
+      "label": "to ship, to dispatch"
+    },
+    {
+      "type": "related",
+      "target_id": "03921_kubaru",
+      "reading": "くばる",
+      "headword": "{配|くば}る",
+      "label": "to distribute, to hand out, to deliver"
+    }
+  ],
   "metadata": {
     "created": "2026-03-26T09:38:39Z",
-    "modified": "2026-03-29T03:08:58Z",
+    "modified": "2026-09-02T04:01:56Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

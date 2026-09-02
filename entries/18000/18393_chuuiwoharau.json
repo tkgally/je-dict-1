@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "18393_chuuiwoharau_ex1",
-      "japanese": "{細部|さいぶ}にも{注意|ちゅうい}を{払|はら}う。",
+      "japanese": "⟦{細部|さいぶ}→細部：20562_saibu⟧⟦に→に：00314_ni⟧⟦も→も：00484_mo⟧{注意|ちゅうい}を{払|はら}う。",
       "english": "To pay attention to details.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "18393_chuuiwoharau_ex2",
-      "japanese": "{健康|けんこう}にもっと{注意|ちゅうい}を{払|はら}うべきだ。",
+      "japanese": "⟦{健康|けんこう}→健康：02706_kenkou⟧⟦に→に：00314_ni⟧⟦もっと→もっと：00798_motto⟧{注意|ちゅうい}を{払|はら}うべきだ。",
       "english": "You should pay more attention to your health.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "18393_chuuiwoharau_ex3",
-      "japanese": "{個人|こじん}{情報|じょうほう}の{取|と}り{扱|あつか}いには{十分|じゅうぶん}な{注意|ちゅうい}を{払|はら}う{必要|ひつよう}がある。",
+      "japanese": "⟦{個人|こじん}{情報|じょうほう}→個人情報：18842_kojinjouhou⟧⟦の→の：09472_no⟧⟦{取|と}り{扱|あつか}い→取り扱い：09806_toriatsukai⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{十分|じゅうぶん}→十分：01614_juubun⟧な{注意|ちゅうい}を{払|はら}う⟦{必要|ひつよう}→必要：00846_hitsuyou⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "Sufficient care must be taken in handling personal information.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "PATTERN:\n～に{注意|ちゅうい}を{払|はら}う (to pay attention to ~)\n\nCOMMON COLLOCATIONS:\n- {十分|じゅうぶん}な{注意|ちゅうい}を{払|はら}う (to pay sufficient attention)\n- {細心|さいしん}の{注意|ちゅうい}を{払|はら}う (to pay the closest attention; to exercise utmost care)\n- {注意|ちゅうい}を{払|はら}う{必要|ひつよう}がある (it is necessary to pay attention)\n\nSIMILAR WORDS:\n- {気|き}をつける: To be careful — more casual and common in everyday speech.\n- {注意|ちゅうい}する: To be careful, to warn — simpler and broader. {注意|ちゅうい}を{払|はら}う is more deliberate and formal.\n- {用心|ようじん}する: To be cautious, to take precautions — focuses on preventive measures against danger.",
+  "notes": "COMMON PATTERNS:\n～⟦に→に：00314_ni⟧{注意|ちゅうい}を{払|はら}う (to pay attention to ~)\n\nCOMMON COLLOCATIONS:\n- ⟦{十分|じゅうぶん}→十分：01614_juubun⟧な{注意|ちゅうい}を{払|はら}う (to pay sufficient attention)\n- {細心|さいしん}⟦の→の：09472_no⟧{注意|ちゅうい}を{払|はら}う (to pay the closest attention; to exercise utmost care)\n- {注意|ちゅうい}を{払|はら}う⟦{必要|ひつよう}→必要：00846_hitsuyou⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧ (it is necessary to pay attention)\n\nSIMILAR WORDS:\n- ⟦{気|き}をつける→気をつける：09771_kiwotsukeru⟧: To be careful — more casual and common in everyday speech.\n- ⟦{注意|ちゅうい}→注意：01464_chuui⟧⟦する→する：00392_suru⟧: To be careful, to warn — simpler and broader. {注意|ちゅうい}を{払|はら}う is more deliberate and formal.\n- ⟦{用心|ようじん}→用心：03659_youjin⟧⟦する→する：00392_suru⟧: To be cautious, to take precautions — focuses on preventive measures against danger.",
   "cross_references": [
     {
       "type": "synonym",
@@ -66,11 +66,25 @@
       "reading": "ようじん",
       "headword": "{用心|ようじん}",
       "label": "caution, precaution"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24199_chuuiwomukeru",
+      "reading": "ちゅういをむける",
+      "headword": "{注意|ちゅうい}を{向|む}ける",
+      "label": "to pay attention to"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26559_kiwokubaru",
+      "reading": "きをくばる",
+      "headword": "{気|き}を{配|くば}る",
+      "label": "to pay attention"
     }
   ],
   "metadata": {
     "created": "2026-03-21T11:00:44Z",
-    "modified": "2026-05-08T10:08:08Z",
+    "modified": "2026-09-02T04:01:52Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

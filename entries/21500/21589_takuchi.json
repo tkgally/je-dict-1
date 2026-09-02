@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21589_takuchi_ex1",
-      "japanese": "{宅地|たくち}を{購入|こうにゅう}した。",
+      "japanese": "{宅地|たくち}⟦を→を：00422_wo⟧⟦{購入|こうにゅう}→購入：03057_kounyuu⟧⟦した→する：00392_suru⟧。",
       "english": "I purchased a residential lot.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21589_takuchi_ex2",
-      "japanese": "この{辺|あた}りは{農地|のうち}から{宅地|たくち}に{変|か}わった。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{辺|あた}り→辺り：01770_atari⟧⟦は→は：00079_ha⟧⟦{農地|のうち}→農地：14354_nouchi⟧⟦から→から：00504_kara⟧{宅地|たくち}⟦に→に：00314_ni⟧⟦{変|か}わった→変わる：00714_kawaru⟧。",
       "english": "This area changed from farmland to residential land.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21589_takuchi_ex3",
-      "japanese": "{駅|えき}に{近|ちか}い{宅地|たくち}は{価格|かかく}が{高|たか}いが、{利便性|りべんせい}は{抜群|ばつぐん}だ。",
+      "japanese": "⟦{駅|えき}→駅：02180_eki⟧⟦に→に：00314_ni⟧⟦{近|ちか}い→近い：00530_chikai⟧{宅地|たくち}⟦は→は：00079_ha⟧⟦{価格|かかく}→価格：00147_kakaku⟧⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧⟦が→が：00051_ga⟧、⟦{利便性|りべんせい}→利便性：10681_ribensei⟧⟦は→は：00079_ha⟧⟦{抜群|ばつぐん}→抜群：12783_batsugun⟧だ。",
       "english": "Residential land near the station is expensive, but the convenience is outstanding.",
       "sense_numbers": [
         1
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {宅|たく} (house, residence) and {地|ち} (land). A key term in Japanese real estate and land use. Japan distinguishes land categories for taxation and zoning purposes, with {宅地|たくち} being the designation for housing land.\n\nCOMMON COLLOCATIONS:\n- {宅地|たくち}{開発|かいはつ}: residential land development\n- {宅地|たくち}{造成|ぞうせい}: land preparation for housing\n- {宅地|たくち}を{購入|こうにゅう}する: to purchase a residential lot\n- {宅地|たくち}{建物|たてもの}{取引|とりひき}{業|ぎょう}: real estate transaction business\n\nSIMILAR WORDS:\n- {敷地|しきち}: site, grounds — the land on which a building stands\n- {用地|ようち}: land for a specific purpose — general term for designated land\n- {農地|のうち}: farmland — agricultural land, as opposed to residential\n- {更地|さらち}: vacant lot — land with no buildings on it",
+  "notes": "Compound of ⟦{宅|たく}→宅：12302_taku⟧ (house, residence) and {地|ち} (land). A key term in Japanese real estate and land use. Japan distinguishes land categories for taxation and zoning purposes, with {宅地|たくち} being the designation for housing land.\n\nCOMMON COLLOCATIONS:\n- {宅地|たくち}⟦{開発|かいはつ}→開発：06746_kaihatsu⟧: residential land development\n- {宅地|たくち}⟦{造成|ぞうせい}→造成：16756_zousei⟧: land preparation for housing\n- {宅地|たくち}⟦を→を：00422_wo⟧⟦{購入|こうにゅう}→購入：03057_kounyuu⟧⟦する→する：00392_suru⟧: to purchase a residential lot\n- {宅地|たくち}{建物|たてもの}{取引|とりひき}{業|ぎょう}: real estate transaction business\n\nSIMILAR WORDS:\n- ⟦{敷地|しきち}→敷地：00365_shikichi⟧: site, grounds — the land on which a building stands\n- {用地|ようち}: land for a specific purpose — general term for designated land\n- ⟦{農地|のうち}→農地：14354_nouchi⟧: farmland — agricultural land, as opposed to residential\n- ⟦{更地|さらち}→更地：17562_sarachi⟧: vacant lot — land with no buildings on it",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00365_shikichi",
+      "reading": "しきち",
+      "headword": "{敷地|しきち}",
+      "label": "site, grounds"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14354_nouchi",
+      "reading": "のうち",
+      "headword": "{農地|のうち}",
+      "label": "farmland"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17562_sarachi",
+      "reading": "さらち",
+      "headword": "{更地|さらち}",
+      "label": "vacant lot"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18567_bunjouchi",
+      "reading": "ぶんじょうち",
+      "headword": "{分譲地|ぶんじょうち}",
+      "label": "land sold in lots"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +89,6 @@
       ]
     },
     "created": "2026-04-02T17:26:44Z",
-    "modified": "2026-07-29T12:35:11Z"
+    "modified": "2026-09-02T04:02:04Z"
   }
 }

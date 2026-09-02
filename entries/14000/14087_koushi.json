@@ -3,7 +3,7 @@
   "id": "14087_koushi",
   "headword": "{行使|こうし}",
   "reading": "こうし",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "exercise (of a right or power); use",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "14087_koushi_ex1",
-      "japanese": "{拒否権|きょひけん}を{行使|こうし}する。",
+      "japanese": "{拒否権|きょひけん}⟦を→を：00422_wo⟧{行使|こうし}⟦する→する：00392_suru⟧。",
       "english": "To exercise the right of veto.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "14087_koushi_ex2",
-      "japanese": "{警察|けいさつ}は{必要|ひつよう}に{応|おう}じて{実力|じつりょく}を{行使|こうし}することができる。",
+      "japanese": "⟦{警察|けいさつ}→警察：01393_keisatsu⟧⟦は→は：00079_ha⟧⟦{必要|ひつよう}に{応|おう}じて→必要に応じて：22822_hitsuyounioujite⟧⟦{実力|じつりょく}→実力：03277_jitsuryoku⟧⟦を→を：00422_wo⟧{行使|こうし}⟦する→する：00392_suru⟧こと⟦が→が：00051_ga⟧⟦できる→できる：00557_dekiru⟧。",
       "english": "The police can use force as necessary.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "14087_koushi_ex3",
-      "japanese": "{武力|ぶりょく}の{行使|こうし}は{最後|さいご}の{手段|しゅだん}であり、あらゆる{外交|がいこう}{努力|どりょく}を{尽|つ}くした{上|うえ}でなければならない。",
+      "japanese": "⟦{武力|ぶりょく}→武力：13221_buryoku⟧⟦の→の：09472_no⟧{行使|こうし}⟦は→は：00079_ha⟧⟦{最後|さいご}→最後：01413_saigo⟧⟦の→の：09472_no⟧⟦{手段|しゅだん}→手段：03219_shudan⟧で⟦あり→ある：00006_aru⟧、⟦あらゆる→あらゆる：03824_arayuru⟧⟦{外交|がいこう}→外交：02627_gaikou⟧⟦{努力|どりょく}→努力：03490_doryoku⟧⟦を→を：00422_wo⟧⟦{尽|つ}くした→尽くす：02077_tsukusu⟧⟦{上|うえ}→上：00682_ue⟧で⟦なければならない→なければならない：27600_nakerebanaranai⟧。",
       "english": "The use of military force must be a last resort, employed only after all diplomatic efforts have been exhausted.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,11 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA formal term most commonly seen in legal, political, and diplomatic discourse. The object of {行使|こうし} is typically a right ({権利|けんり}), power ({権力|けんりょく}), or force ({武力|ぶりょく}/{実力|じつりょく}). Not used for casual, everyday actions.\n\nCOMMON COLLOCATIONS:\n- {権利|けんり}を{行使|こうし}する: to exercise a right\n- {拒否権|きょひけん}を{行使|こうし}する: to exercise veto power\n- {武力|ぶりょく}{行使|こうし}: use of military force\n- {実力|じつりょく}{行使|こうし}: use of force, direct action\n- {投票権|とうひょうけん}の{行使|こうし}: exercising one's right to vote",
+  "notes": "USAGE:\nA formal term most commonly seen in legal, political, and diplomatic discourse. The object of {行使|こうし} is typically a right (⟦{権利|けんり}→権利：02711_kenri⟧), power (⟦{権力|けんりょく}→権力：10020_kenryoku⟧), or force (⟦{武力|ぶりょく}→武力：13221_buryoku⟧/⟦{実力|じつりょく}→実力：03277_jitsuryoku⟧). Not used for casual, everyday actions.\n\nCOMMON COLLOCATIONS:\n- ⟦{権利|けんり}→権利：02711_kenri⟧⟦を→を：00422_wo⟧{行使|こうし}⟦する→する：00392_suru⟧: to exercise a right\n- {拒否権|きょひけん}⟦を→を：00422_wo⟧{行使|こうし}⟦する→する：00392_suru⟧: to exercise veto power\n- ⟦{武力|ぶりょく}→武力：13221_buryoku⟧{行使|こうし}: use of military force\n- ⟦{実力|じつりょく}→実力：03277_jitsuryoku⟧{行使|こうし}: use of force, direct action\n- ⟦{投票権|とうひょうけん}→投票権：27950_touhyouken⟧⟦の→の：09472_no⟧{行使|こうし}: exercising one's right to vote",
   "cross_references": [],
   "metadata": {
     "created": "2026-02-27T23:15:37Z",
-    "modified": "2026-03-29T03:08:18Z",
+    "modified": "2026-09-02T04:01:35Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -154,7 +154,8 @@
       "domain": [
         "legal"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

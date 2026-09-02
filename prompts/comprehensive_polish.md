@@ -1,227 +1,132 @@
-# Comprehensive Polish
+# Comprehensive Polish (the Routine's `polish` mode)
 
-The **default ongoing-improvement task** for je-dict-1. Each session walks through a small batch of dictionary entries and applies a tiered checklist that unifies the work previously split across the targeted `polish_*` prompts (furigana, examples, inline links, cross-references, semantic labels, transitivity, aspect, expand-short-notes). It also surfaces words and patterns for follow-up so that long-term improvements accumulate over time.
+The default ongoing-improvement task for je-dict-1. Each run reads a batch of
+entries and does the work only judgment can do: fix what is wrong, add the one
+thing a learner needs, trim what is padding, and set the tags. Everything
+mechanical (inline links, cross-references named in the notes, header and
+bullet normalization) is done by scripts at wrap-up, so do not spend the
+budget on it.
 
-This prompt is designed to be run repeatedly on a schedule. Each invocation picks up where the last one left off.
+This prompt runs as `prompts/routine2.md`'s `polish` mode. Run standalone only
+in an interactive session; the pre-flight, self-check, and merge steps are in
+routine2.md and are not repeated here.
 
-## Pre-flight: sweep stranded PRs
+## Budget
 
-**Run this as the first step of every session, before you read any entry files or do any other work.** (When this prompt runs as the Routine's `polish` mode, the sweep already happened in `routine2.md` §0 — skip it here.)
+- Target **25–40 entries** per run. Finish the content work by about 55 percent
+  of the context window; the mechanical pass, self-check, indexes, and merge
+  need the rest.
+- Take stock every ten entries. Wrap up early if tool output is truncating.
+- Open a neighbour only to add a back-link or to check a claim about it; do not
+  polish the neighbour. Every neighbour you open goes into the self-check list.
+- If an entry needs a rewrite bigger than a few minutes (wrong part of speech,
+  conflated words, senses that belong to different entries), make the quick
+  fixes, log it as `[entry]` in `polishing/observations.md`, and move on.
 
-Perform the stranded-PR sweep **via MCP**, as described in `CLAUDE.md` → "Sweep stranded PRs via MCP": list open `claude/*` PRs (`mcp__github__list_pull_requests`), and for each, take the maximum entry ID among the `entries/.../NNNNN_*.json` files it touches (`mcp__github__pull_request_read` `method: "get_files"`); if that maximum is strictly less than `polishing/tasks/comprehensive/progress.txt`'s `next:` value, the PR is superseded — comment (`mcp__github__add_issue_comment`) and close it (`mcp__github__update_pull_request` `state: "closed"`). PRs that don't touch entries, or that include any entry at or above the cursor, are left untouched.
+## Entry selection: two lanes
 
-This makes the Routine self-healing: if a previous session ended before reaching the merge step, its now-obsolete PR gets cleaned up when the next session starts. Checking is cheap (~1 MCP call per open PR).
-
-**Do not run `pipeline/sweep-stranded-prs.py`** — direct GitHub REST returns HTTP 403 in the Routine/web environment, so the script is a no-op there (it now exits cleanly with a pointer to this MCP procedure). It still works in interactive sessions where a real token + direct REST are available.
-
-## Per-session budget
-
-This prompt **errs on the side of doing more, not less**. Past sessions have stopped at 12% context use, leaving most of the available capacity unused.
-
-- **Target: keep polishing until you've used roughly 60% of your context window**, then start wrapping up. A typical session should process **20–25 entries**, not 3–5. If you've finished 10 entries and context still feels light, keep going.
-- **Why 60% and not higher**: the wrap-up phase (build, push, PR creation, up-to-~8-minute MCP CI-poll wait, merge call) consumes a meaningful slice of context, and review-fix-up rounds after opening the PR can eat more. Stranded PRs from previous Routine runs were caused by sessions running out of budget mid-merge. Leaving ~40% headroom is what makes the merge step reliable.
-- **Stop earlier than 60% if** tool outputs are getting truncated, you've read several large files, or you've already done a round of post-PR fix-ups. Better to wrap up with one fewer entry than to leave a stranded PR.
-- **Take stock every 5 entries.** Briefly note (to yourself) how full context feels and decide: continue at full pace, slow down, or wrap up. Default to wrapping up if you're already past 50%.
-- **Hard cap: 25 entries per session.** Wrap up cleanly at 25 even if context is still light.
-- **No recursion when checking back-links.** Visit direct neighbors only (entries listed in `cross_references` and `prominent_see_also`). Do **not** follow the neighbors' own links.
-- **Don't restructure entries that need major work.** If an entry is broken in a way that would consume a large chunk of the session (wrong POS, fundamentally misclassified, conflated lemmata), make any quick tier-1 fixes, log it as `[entry]` in `polishing/observations.md`, and move on.
-
-## Entry selection
-
-1. Read `polishing/tasks/comprehensive/progress.txt` for the `next:` value.
-2. Process entries sequentially from that ID. If a numeric ID has no entry file, advance to the next existing one. (Use `ls entries/{range}/` to find existing IDs.)
-3. At session end, update `progress.txt` to point to the entry **after** the last one you processed.
-
-This produces a steady forward sweep through the dictionary. When the sweep wraps around (years from now), we'll add a recency check; for now, sequential is fine.
+1. **Priority lane** (about half the budget). `polishing/priority/notes.txt`
+   ranks entries by substantive need: never modified since creation, verbs
+   without transitivity, notes that name words without cross-referencing them,
+   missing register tags, unresolved reviewer flags, thin or bloated notes.
+   Start at the line in `polishing/tasks/comprehensive/priority-cursor.txt`
+   (create it with `line: 1` if missing); skip IDs with no file and entries
+   modified in the last 30 days. If the priority file is older than 14 days,
+   regenerate it at wrap-up with `make priorities` and reset the cursor to
+   `line: 1`.
+2. **Frontier lane** (the rest). Sequential from `params.start_id` (or the
+   `next:` value in `polishing/tasks/comprehensive/progress.txt`); skip IDs
+   with no file. At wrap-up set `next:` to the ID after the last one you read.
 
 ## Per-entry checklist
 
-For each entry, work through the three tiers below. **Do all of tier 1**, do as much of tier 2 as time allows (prioritizing the highest-impact items for that specific entry), and do tier 3 only if the entry is otherwise in good shape.
+Read the whole entry first. Then, in this order:
 
-### Tier 1 — required for every entry
+### 1. Correctness (always)
 
-These items must be true for every entry you touch. Most are mechanical; the inline link work is semi-mechanical (the lookups are mechanical but word-boundary and homograph disambiguation require judgment).
+- Headword, reading, romaji, and every gloss are right; the definitions match
+  the examples; each example's English says what the Japanese says.
+- Every factual, grammatical, and usage claim in the notes is true. This is
+  where past errors were found (a reversed 内回り/外回り, "ものの attaches only to
+  the past tense"). If you are not sure a claim is true, remove or soften it;
+  do not leave a confident sentence you cannot vouch for.
+- Furigana is present and correct on every kanji in headword, examples, and
+  notes (`python3 build/verify_furigana.py <id>`).
+- Tags reflect the word: `semantic` from the closed list in
+  `build/validate_tags.py` (never leave a sole `general` when a concrete tag
+  fits), `formality`, `politeness`, `transitivity` on every verb,
+  `verb_class`. Never invent a tag.
+- Cross-references and `prominent_see_also` point at the right entries with
+  the right type (`cross-reference-entry` skill). Transitivity pairs and
+  N/Nする pairs go in `prominent_see_also`, both directions.
 
-- [ ] **Schema valid**: `python3 build/validate.py --id <entry_id>`
-- [ ] **Furigana complete** in headword, examples, AND notes: `python3 build/verify_furigana.py <entry_id>`
-- [ ] **Reading is hiragana only** (long-vowel ー allowed)
-- [ ] **Romaji matches the full reading**, no internal underscores beyond schema's allowance
-- [ ] **All `cross_references` and `prominent_see_also` point to existing entries**
-- [ ] **Examples have valid `sense_numbers`**
-- [ ] **No obvious typos** in headword, reading, gloss, or English translations of examples
-- [ ] **FULL inline link coverage on every Japanese word in examples AND notes** — see the dedicated section below. This is the most labor-intensive tier-1 requirement and the main reason a comprehensive polish session is heavier than a targeted polish session.
+### 2. What a learner needs (add only if missing)
 
-If you fix any tier-1 issue, run `python3 build/get_timestamp.py` and update the entry's `modified` timestamp before saving.
+Ask: what would an intermediate learner get wrong with this word? Add exactly
+that, in the section where it belongs:
 
-#### Full inline link coverage (REQUIRED)
+- the near-synonym or contrast that matters (SIMILAR WORDS), with the rule
+  that separates them, not a list;
+- the pitfall (WATCH OUT): a homophone trap, a false friend, a register
+  mismatch, a collocation that does not transfer from English;
+- for verbs: transitivity and pair (TRANSITIVITY) and, when non-obvious, what
+  ている means with this verb (ASPECT (ている));
+- for particles and grammar words: the distinct functions with a pattern each
+  (FUNCTIONS, COMMON PATTERNS);
+- collocations only if the entry has fewer than three (COMMON COLLOCATIONS).
 
-**Goal**: every Japanese word in every example sentence AND every Japanese phrase inside the notes field has either a valid inline link or a `noentry` marker. No naked Japanese words anywhere except the headword itself.
+Section headers must come from `build/data/note_headers.json` (the canonical
+list is in the `vocabulary-notes` skill). Do not add a section the word does
+not need.
 
-**Format** (from `.claude/skills/inline-word-links/SKILL.md`):
-```
-⟦{surface|reading}→baseform：entry_id⟧      # word with an entry
-⟦{surface|reading}→baseform：noentry⟧       # word without an entry
-```
+### 3. Trim (always)
 
-**What to link**:
+- Delete sentences that restate the gloss, repeat another section, or say
+  nothing ("often used in literary contexts"). Delete a SIMILAR WORDS bullet
+  that lists the entry itself.
+- Notes ceiling: 1,200 characters for a single-sense entry, 2,000 for a
+  multi-sense entry. A polish pass may not grow notes by more than 300
+  characters unless it is adding a missing required section; if the entry is
+  over the ceiling, cut before adding.
+- Do not add a new sense unless the examples show a distinct meaning; do not
+  split one meaning into two senses.
+- Examples: at least 3 per sense (5 for basic and core), short to long, natural,
+  each containing the headword. Replace a weak example rather than adding a
+  fourth. New Japanese text gets furigana; do not hand-link it.
 
-- **Every content word**: nouns, verbs, adjectives, adverbs
-- **Every particle** that has its own entry (は, が, を, に, で, と, から, まで, の, へ, よ, ね, etc.)
-- **Every demonstrative, pronoun, and connective**
-- **Words inside notes** — collocations, related forms, contrast pairs, fixed phrases. Treat any natural-language Japanese in the notes the same as example sentences.
+### 4. Timestamp
 
-**What NOT to link**:
+If you changed anything: `python3 build/get_timestamp.py` → `metadata.modified`.
+Then `python3 build/validate.py --id <id>`.
 
-- The headword of the entry itself, when it appears unconjugated in its own examples or notes (no self-references)
-- Pure punctuation (`。、？！「」『』…`)
-- Pattern placeholders (`〜`, `…`, etc.) — but the surrounding Japanese in a pattern like `〜に対して` should still be linked
-- Numerals written in arabic digits; counter words attached to them should still be linked
+## Capture as you go
 
-**Workflow**:
+- A word used in an example or note that has no entry: add it as a candidate
+  with the source (`python3 build/manage_candidates.py add "語" "ご" "gloss; seen
+  in entry NNNNN"`). Do not write `noentry` markers by hand.
+- Systemic observations → `polishing/observations.md` with the usual tags
+  (`[pattern] [wiki] [article] [tooling] [skill] [entry]`).
 
-1. Use `build/word_id_lookup.json` to look up entry IDs by reading or headword. Open it once per session and grep / search it as you go — re-reading per word is wasteful.
-2. For homographs (e.g., きく → 聞く / 効く), pick the entry whose gloss matches the contextual meaning.
-3. For conjugated forms, link to the dictionary form (`食べました→食べる：00396_taberu`).
-4. For words not in the dictionary: mark `noentry` AND add to `candidate_words.json` (see "Words missing entries" below). Do not skip — every word must end up either linked or marked.
-5. Existing entries may already have partial linking; your job is to complete it. Do NOT remove correct links someone else added.
+## Wrap-up (standalone runs; Routine runs follow routine2.md §3–§7)
 
-**For new examples you add or new notes you write**: include full link coverage from the start, not as an afterthought.
-
-**Validation after editing**:
-
-```bash
-python3 build/validate.py --id <entry_id> 2>&1 | grep -i "word link"
-```
-
-This catches malformed links and IDs that don't resolve.
-
-### Tier 2 — should-do (judgment, high-leverage)
-
-- [ ] **Example count meets the tier minimum**: 3 per sense for general, 5 per sense for basic/core. Add examples if short.
-- [ ] **Examples follow tier-appropriate vocabulary restrictions** (see `.claude/skills/example-sentences/SKILL.md`)
-- [ ] **Examples progress short → long**
-- [ ] **Notes are well-formed** per `.claude/skills/vocabulary-notes/SKILL.md` — clear sections, no redundancy, no English-only fluff for a Japanese learner's dictionary, no Japanese explanatory prose
-- [ ] **Verb-specific** (when applicable): transitivity tag set; transitivity pair linked in `cross_references` if one exists; aspect/ている behavior documented in notes if non-obvious
-- [ ] **Na-adjective specific** (when applicable): notes describe -na vs -ni vs predicate forms
-- [ ] **Tags accurate**: `semantic`, `formality`, `politeness` reflect the word's actual character (not template defaults)
-- [ ] **Cross-references include obvious neighbors**: synonyms, antonyms, transitivity pairs, register variants. Use one of the types the schema actually accepts — `pair` (transitivity pairs), `synonym`, `antonym`, `related`, `contrast`, `see_also`, `keigo` (register/politeness variants), `homophone` — per the `cross-reference-entry` skill. The authoritative list lives in `build/constants.py`; `transitivity_pair` and `formality_variant` are **not** valid and will fail schema validation.
-- [ ] **Back-link symmetry on direct neighbors**: for each entry referenced in `cross_references` and `prominent_see_also`, open the neighbor and confirm a back-link exists when one is appropriate. Add it if missing. Update the neighbor's `modified` timestamp. **Do NOT polish the neighbor further. Do NOT recurse.**
-
-### Tier 3 — nice-to-have (style, polish)
-
-- [ ] Example sentences sound natural and demonstrative; rewrite weak ones
-- [ ] Notes appropriately long for entry complexity (expand if too thin, trim if redundant)
-- [ ] When rewriting examples or notes, ensure the new content also has full inline link coverage (this is enforced as part of tier 1 — full coverage is required for the entry as a whole regardless of which tier added the text)
-
-## Long-term tracking
-
-While polishing, capture things that go beyond the current entry. These are how the dictionary improves at a higher level over time.
-
-### Words missing entries
-
-When you encounter a word in an example or note that doesn't have an entry yet, add it to candidates immediately:
-
-```bash
-python3 build/manage_candidates.py add "word" "reading" "brief gloss; seen in entry XXXXX"
-```
-
-Words found this way are the **highest-priority candidates** for new-entry sessions — they create internal completeness in the dictionary's vocabulary. Mention "seen in entry XXXXX" in the note so new-entry sessions know the source.
-
-### Systemic patterns and longer-horizon ideas
-
-Append observations to `polishing/observations.md` using the tag conventions documented at the top of that file:
-
-- `[pattern]` — systemic issue across entries
-- `[wiki]` or `[wiki:page-name]` — knowledge-base content
-- `[article]` — possible expository article topic
-- `[tooling]` — script or tool improvement idea
-- `[skill]` — skill update needed
-- `[entry]` — entry that needs more work than this session has budget for
-
-The daily wiki-maintenance session harvests this file.
-
-### Wiki consultation
-
-Before starting, glance at `planning/wiki/index.md` for any wiki page relevant to the entries you're about to polish (e.g., transitivity, loanwords, a semantic field). Read the relevant page only if it's directly applicable. **Don't read the whole wiki.**
-
-## Session-end workflow
-
-**Single-build rule.** Run `make build` exactly once per session. If you spot a wrong inline link, wrong homograph entry ID, or any other error after the build has completed, do NOT fix it in this session — append a one-line `[entry]` note to `polishing/observations.md` (e.g., `[entry] 00329 oginau: 合う link points to 09500_au, should be 10466_au`) and continue to the push / PR / merge sequence on the SHA you already built. Fix-up commits are the single biggest cause of stranded PRs: they force a second `make build` (which floods the session with `docs/` diff output), a second push, and a second CI wait, and the merge call usually doesn't survive the resulting context burn.
-
-1. **Update `polishing/tasks/comprehensive/progress.txt`** with the next entry ID:
-   ```
-   next: XXXXX
-   ```
-2. **Write a session log** to `polishing/sessions/comprehensive_{YYYY-MM-DD}_{NNN}.md` (use the next available NNN — check `ls polishing/sessions/comprehensive_* 2>/dev/null`):
-   ```
-   ## Session: Comprehensive Polish
-   Date: YYYY-MM-DD
-   Entries processed: 12345 through 12372 (24 entries)
-
-   ### Per-entry changes
-   - 12345 (word): tier-1 fixes (furigana on note, full inline link coverage in examples and notes); expanded notes; added cross-ref to 67890
-   - 12346 (word): added inline links throughout notes (8 new links, 2 noentry); added 2 examples with full link coverage; back-link added on 11111
-   - 12347 (word): completed inline link coverage in notes; tier-1 only (entry was otherwise clean)
-   - ... (one bullet per entry)
-
-   ### Candidates added
-   - "新しい単語" (あたらしいたんご): seen in 12345 examples
-   - ... (each candidate added when a noentry marker was used)
-
-   ### Observations logged
-   - [pattern] ...
-   - [wiki] ...
-
-   ### Next entry
-   12373
-   ```
-3. **Append to `polishing/observations.md`** if you have observations (use the template in that file).
-4. **Run the full build**:
-   ```bash
-   make build
-   ```
-   This validates entries, updates indexes, and rebuilds the static site.
-5. **Commit and push** to the session's feature branch. Stage everything including build artifacts (`git add -A`), commit with a clear message, then `git push -u origin <branch>`. The PR must contain both source changes and rebuilt site files (`docs/`, `entries_index.json`, `build/word_id_lookup.json`, `kanji/`).
-
-6. **Create the PR, wait for CI, then merge it yourself.** This is the step that previously broke the hourly Routine — sessions created PRs but the merge never happened, so progress on `main` never advanced and subsequent sessions redid the same range. **Do not stop after creating the PR.** The full sequence (details in `CLAUDE.md` → "End-of-session PR and merge workflow"):
-
-   **Atomic-tail rule.** After `git push`, the rest of the session is exactly: `mcp__github__create_pull_request` → poll `mcp__github__pull_request_read` (`method: "get_check_runs"`) until green, spacing polls with a backgrounded `sleep 30` → `mcp__github__merge_pull_request` with `merge_method: "squash"`. Do not interleave any other tool. If you find yourself wanting to read an entry file, edit one, or re-run a build script between push and merge, stop — log the concern and proceed to merge instead.
-
-   **Routine / unattended (default — `gh` is not authorized):**
-   1. Call `mcp__github__create_pull_request` (`owner: "tkgally"`, `repo: "je-dict-1"`, `head: "<your branch>"`, `base: "main"`, plus title and body). Note the PR number from the response URL.
-   2. **Wait for CI by polling check-runs over MCP** (`pipeline/wait-for-pr-checks.sh` returns HTTP 403 in this environment — do not use it; full loop in `CLAUDE.md` → "MCP path" step 5). Call `mcp__github__pull_request_read` with `method: "get_check_runs"` (**not** `get_status`, which is blind to Actions checks and always reads `pending` here). Classify: *green* = `total_count >= 1` and every run `completed` with `conclusion` `success`/`neutral`/`skipped`; *failed* = any other completed conclusion; *pending* = otherwise. While pending, wait with a backgrounded `sleep 30` (Bash `run_in_background: true`, since foreground `sleep` is disabled) and re-poll, up to ~16 times (~8 min — CI often takes 3–6 min just to start, then ~60 s).
-   3. **Merge** based on the result:
-      - **green**: call `mcp__github__merge_pull_request` with `merge_method: "squash"`. The session is now done.
-      - **failed**: leave the PR open, add a brief sentence to the session log naming the failed check, and stop. The curator will investigate.
-      - **still pending at the cap**: leave the PR open and stop; the next run's §0a rescue merges it once green.
-   4. **Do not** `git checkout main`, **do not** delete the feature branch — the session is running on that branch, and the repo's "Automatically delete head branches" setting handles remote cleanup once the merge fires.
-
-   Do not call `mcp__github__enable_pr_auto_merge` — it requires the PR to already be in a "clean" mergeable state, which is not true immediately after pushing, so it usually rejects. Wait + merge is the reliable path.
-
-   **Interactive (only when `gh` is on PATH):** use the `gh` path documented in `CLAUDE.md` (`gh pr create` → `gh pr checks --watch --fail-fast` → `gh pr merge --squash` → checkout-main cleanup).
+1. Mechanical pass on the changed IDs: `normalize_notes.py`, `auto_link.py`,
+   `harvest_crossrefs.py` with `--ids … --apply`, then `validate.py --id` for each.
+2. Update both cursors.
+3. Session log `polishing/sessions/comprehensive_{YYYY-MM-DD}_{NNN}.md`: range,
+   one bullet per entry (what was wrong, what was added, what was cut),
+   candidates added, observations, next cursor values.
+4. `make index`, commit, push, PR, CI, merge (CLAUDE.md → "End-of-session PR
+   and merge workflow"). The site builds itself after the merge.
 
 ## Useful commands
 
 ```bash
-python3 build/get_timestamp.py             # Run before saving each modified entry
-python3 build/verify_furigana.py <id>      # Single-entry furigana check
-python3 build/validate.py --id <id>        # Single-entry schema/tag check
+python3 build/verify_furigana.py <id>
+python3 build/validate.py --id <id>
 python3 build/check_duplicate.py "word" "reading"
 python3 build/manage_candidates.py add "word" "reading" "gloss; seen in NNNNN"
-python3 build/get_entry_path.py <reading> <id>
-make build                                 # End-of-session full build
+python3 build/get_timestamp.py
+python3 build/auto_link.py --ids <id,id> --apply
+python3 build/harvest_crossrefs.py --ids <id,id> --apply
+python3 build/normalize_notes.py --ids <id,id> --apply
 ```
-
-## What this prompt replaces
-
-- `polish_furigana_completeness.md`
-- `polish_furigana_correctness.md` (do as part of tier 1 reviews; multi-model review remains separate)
-- `polish_example_sentences.md`
-- `polish_add_inline_links.md`
-- `add_cross-references.md`
-- `polish_semantic_labels.md`
-- `polish_verb_transitivity.md`
-- `polish_aspect_notes.md`
-- `expand-short-notes.md`
-
-The targeted prompts above remain in the repository for occasional special-purpose sweeps, but comprehensive polish is now the default ongoing improvement task. The new-entries workflow (`prompts/newentries.md`) is unchanged but should now prefer candidates marked with "seen in entry XXXXX" in their notes.

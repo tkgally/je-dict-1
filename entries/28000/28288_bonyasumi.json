@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28288_bonyasumi_ex1",
-      "japanese": "{盆休|ぼんやす}みは{実家|じっか}に{帰|かえ}る。",
+      "japanese": "{盆休|ぼんやす}み⟦は→は：00079_ha⟧⟦{実家|じっか}→実家：03076_jikka⟧⟦に→に：00314_ni⟧⟦{帰|かえ}る→帰る：00508_kaeru⟧。",
       "english": "I go back to my parents' home for Obon.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28288_bonyasumi_ex2",
-      "japanese": "{今年|ことし}の{盆休|ぼんやす}みは{一週間|いっしゅうかん}ある。",
+      "japanese": "⟦{今年|ことし}→今年：00722_kotoshi⟧⟦の→の：09472_no⟧{盆休|ぼんやす}み⟦は→は：00079_ha⟧⟦{一週間|いっしゅうかん}→一週間：10979_isshuukan⟧⟦ある→ある：00006_aru⟧。",
       "english": "This year we have a week off for Obon.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28288_bonyasumi_ex3",
-      "japanese": "{盆休|ぼんやす}みの{時期|じき}は{帰省|きせい}{ラッシュ|らっしゅ}で{新幹線|しんかんせん}も{高速道路|こうそくどうろ}も{大|おお}{混雑|こんざつ}する。",
+      "japanese": "{盆休|ぼんやす}み⟦の→の：09472_no⟧⟦{時期|じき}→時期：03269_jiki⟧⟦は→は：00079_ha⟧⟦{帰省|きせい}ラッシュ→帰省ラッシュ：15594_kiseirasshu⟧⟦で→で：00502_de⟧⟦{新幹線|しんかんせん}→新幹線：01053_shinkansen⟧⟦も→も：00484_mo⟧⟦{高速道路|こうそくどうろ}→高速道路：09242_kousokudouro⟧⟦も→も：00484_mo⟧{大|おお}⟦{混雑|こんざつ}する→混雑する：25387_konzatsusuru⟧。",
       "english": "During the Obon holiday period, both the Shinkansen and the expressways get extremely crowded with returning travelers.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {盆|ぼん} (the Bon festival) + {休|やす}み (rest, holiday). Centers on August 13–16 in most of Japan.\n\nCOMMON COLLOCATIONS:\n- {盆休|ぼんやす}みに{入|はい}る: to begin the Obon holiday\n- {盆休|ぼんやす}み{中|ちゅう}: during the Obon holidays\n- {盆休|ぼんやす}みの{帰省|きせい}: returning home for Obon\n- {盆休|ぼんやす}み{明|あ}け: just after the Obon holidays\n\nCULTURAL CONTEXT:\nUnlike {正月|しょうがつ} (New Year) and ゴールデンウィーク (Golden Week), {盆休|ぼんやす}み is not a legally mandated holiday — its length varies by company, usually 3 to 7 days. Despite this, it is one of Japan's three major travel periods, with massive congestion on highways and bullet trains.\n\nSIMILAR WORDS:\n- お{盆|ぼん}: the Obon festival itself — the religious observance rather than the work holiday\n- {夏|なつ}{休|やす}み: summer vacation — broader, especially used for school summer break",
+  "notes": "Compound of ⟦{盆|ぼん}→盆：03897_bon⟧ (the Bon festival) + ⟦{休|やす}み→休み：02266_yasumi⟧ (rest, holiday). Centers on August 13–16 in most of Japan.\n\nCOMMON COLLOCATIONS:\n- {盆休|ぼんやす}み⟦に→に：00314_ni⟧⟦{入|はい}る→入る：00494_hairu⟧: to begin the Obon holiday\n- {盆休|ぼんやす}み⟦{中|ちゅう}→〜中：09840_chuu⟧: during the Obon holidays\n- {盆休|ぼんやす}み⟦の→の：09472_no⟧⟦{帰省|きせい}→帰省：12419_kisei⟧: returning home for Obon\n- {盆休|ぼんやす}み⟦{明|あ}け→明け：13157_ake⟧: just after the Obon holidays\n\nCULTURAL NOTE:\nUnlike ⟦{正月|しょうがつ}→正月：01433_shougatsu⟧ (New Year) and ⟦ゴールデンウィーク→ゴールデンウィーク：22760_goorudenwiiku⟧ (Golden Week), {盆休|ぼんやす}み is not a legally mandated holiday — its length varies by company, usually 3 to 7 days. Despite this, it is one of Japan's three major travel periods, with massive congestion on highways and bullet trains.\n\nSIMILAR WORDS:\n- ⟦お{盆|ぼん}→お盆：05587_obon⟧: the Obon festival itself — the religious observance rather than the work holiday\n- ⟦{夏|なつ}{休|やす}み→夏休み：02925_natsuyasumi⟧: summer vacation — broader, especially used for school summer break",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05587_obon",
+      "reading": "おぼん",
+      "headword": "お{盆|ぼん}",
+      "label": "the Obon festival itself"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02925_natsuyasumi",
+      "reading": "なつやすみ",
+      "headword": "{夏休|なつやす}み",
+      "label": "summer vacation"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +69,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "culture"
       ],
       "domain": []
     },
     "created": "2026-05-28T03:07:22Z",
-    "modified": "2026-08-08T03:27:39Z"
+    "modified": "2026-09-02T04:02:33Z"
   }
 }

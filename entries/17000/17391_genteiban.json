@@ -15,41 +15,74 @@
   "examples": [
     {
       "id": "17391_genteiban_ex1",
-      "japanese": "{限定版|げんていばん}はすぐ{売|う}り{切|き}れた。",
+      "japanese": "{限定版|げんていばん}⟦は→は：00079_ha⟧⟦すぐ→すぐ：00814_sugu⟧⟦{売|う}り{切|き}れた→売り切れる：03012_urikireru⟧。",
       "english": "The limited edition sold out immediately.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17391_genteiban_ex2",
-      "japanese": "このゲームの{限定版|げんていばん}には{特典|とくてん}が{付|つ}いている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦ゲーム→ゲーム：03842_geemu⟧⟦の→の：09472_no⟧{限定版|げんていばん}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{特典|とくてん}→特典：13469_tokuten⟧⟦が→が：00051_ga⟧⟦{付|つ}いている→付く：01960_tsuku⟧。",
       "english": "The limited edition of this game comes with bonus items.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17391_genteiban_ex3",
-      "japanese": "{限定版|げんていばん}は{通常版|つうじょうばん}より{値段|ねだん}が{高|たか}いが、コレクターには{人気|にんき}がある。",
+      "japanese": "{限定版|げんていばん}⟦は→は：00079_ha⟧{通常版|つうじょうばん}⟦より→より：09476_yori⟧⟦{値段|ねだん}→値段：00871_nedan⟧⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧⟦が→が：00051_ga⟧、⟦コレクター→コレクター：20000_korekutaa⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{人気|にんき}→人気：01488_ninki⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "Limited editions are more expensive than regular editions, but they are popular with collectors.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nA compound of {限定|げんてい} (limited) and {版|ばん} (edition). Used across many product categories — games, books, DVDs, figures, and more.\n\nCOMMON COLLOCATIONS:\n- {数量|すうりょう}{限定版|げんていばん} (quantity-limited edition)\n- {初回|しょかい}{限定版|げんていばん} (first-run limited edition)\n- {限定版|げんていばん}を{予約|よやく}する (to preorder the limited edition)\n\nSIMILAR WORDS:\n- {通常版|つうじょうばん}: regular edition — the standard version, as opposed to {限定版|げんていばん}\n- {改訂版|かいていばん}: revised edition — an updated version of a publication",
-  "cross_references": [],
+  "notes": "USAGE:\nA compound of ⟦{限定|げんてい}→限定：10997_gentei⟧ (limited) and {版|ばん} (edition). Used across many product categories — games, books, DVDs, figures, and more.\n\nCOMMON COLLOCATIONS:\n- ⟦{数量|すうりょう}→数量：05473_suuryou⟧{限定版|げんていばん} (quantity-limited edition)\n- ⟦{初回|しょかい}→初回：11780_shokai⟧{限定版|げんていばん} (first-run limited edition)\n- {限定版|げんていばん}⟦を→を：00422_wo⟧⟦{予約|よやく}する→予約する：22989_yoyakusuru⟧ (to preorder the limited edition)\n\nSIMILAR WORDS:\n- {通常版|つうじょうばん}: regular edition — the standard version, as opposed to {限定版|げんていばん}\n- ⟦{改訂版|かいていばん}→改訂版：17716_kaiteiban⟧: revised edition — an updated version of a publication",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17716_kaiteiban",
+      "reading": "かいていばん",
+      "headword": "{改訂版|かいていばん}",
+      "label": "revised edition"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24333_tokubetsuban",
+      "reading": "とくべつばん",
+      "headword": "{特別版|とくべつばん}",
+      "label": "special edition"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24861_goukaban",
+      "reading": "ごうかばん",
+      "headword": "{豪華版|ごうかばん}",
+      "label": "deluxe edition"
+    }
+  ],
   "metadata": {
     "created": "2026-03-17T10:34:13Z",
-    "modified": "2026-03-17T10:34:13Z",
+    "modified": "2026-09-02T04:01:48Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["shopping", "entertainment"]
+      "semantic": [
+        "shopping",
+        "entertainment"
+      ]
     }
   }
 }

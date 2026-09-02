@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08694_oorunaito_ex1",
-      "japanese": "オールナイトで{映画|えいが}を{見|み}た。",
+      "japanese": "オールナイト⟦で→で：00502_de⟧⟦{映画|えいが}→映画：02273_eiga⟧⟦を→を：00422_wo⟧⟦{見|み}た→見る：00283_miru⟧。",
       "english": "I watched movies all night.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "08694_oorunaito_ex2",
-      "japanese": "カラオケでオールナイトをした。",
+      "japanese": "⟦カラオケ→カラオケ：05080_karaoke⟧⟦で→で：00502_de⟧オールナイト⟦を→を：00422_wo⟧⟦した→する：00392_suru⟧。",
       "english": "We did an all-night session at karaoke.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "08694_oorunaito_ex3",
-      "japanese": "オールナイトの{上映会|じょうえいかい}に{参加|さんか}した。",
+      "japanese": "オールナイト⟦の→の：09472_no⟧{上映会|じょうえいかい}⟦に→に：00314_ni⟧⟦{参加|さんか}した→参加する：25408_sankasuru⟧。",
       "english": "I participated in an all-night screening event.",
       "sense_numbers": [
         1
@@ -43,7 +43,23 @@
       "notes": null
     }
   ],
-  "notes": "LOANWORD:\nFrom English \"all night\"\n\nCOMMON USES:\n- オールナイト{営業|えいぎょう} - all-night business operation\n- オールナイト{上映|じょうえい} - all-night movie screening\n- オールナイトで - all night (adverbial use)\n\nCULTURE:\nAll-night events are popular in Japan, especially:\n- カラオケ (karaoke) - many karaoke establishments offer all-night packages\n- ネットカフェ (internet cafes) - popular for overnight stays\n- {映画館|えいがかん} (movie theaters) - special all-night screening events\n\nRELATED:\n- {徹夜|てつや} - staying up all night (native Japanese word)\n- {夜通|よどお}し - all through the night",
+  "notes": "LOANWORD:\nFrom English \"all night\"\n\nCOMMON COLLOCATIONS:\n- オールナイト⟦{営業|えいぎょう}→営業：01878_eigyou⟧ - all-night business operation\n- オールナイト⟦{上映|じょうえい}→上映：08380_jouei⟧ - all-night movie screening\n- オールナイト⟦で→で：00502_de⟧ - all night (adverbial use)\n\nCULTURAL NOTE:\nAll-night events are popular in Japan, especially:\n- ⟦カラオケ→カラオケ：05080_karaoke⟧ (karaoke) - many karaoke establishments offer all-night packages\n- ⟦ネットカフェ→ネットカフェ：30266_nettokafe⟧ (internet cafes) - popular for overnight stays\n- ⟦{映画館|えいがかん}→映画館：01024_eigakan⟧ (movie theaters) - special all-night screening events\n\nRELATED WORDS:\n- ⟦{徹夜|てつや}→徹夜：03552_tetsuya⟧ - staying up all night (native Japanese word)\n- ⟦{夜通|よどお}し→夜通し：12169_yodooshi⟧ - all through the night",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "03552_tetsuya",
+      "reading": "てつや",
+      "headword": "{徹夜|てつや}",
+      "label": "staying up all night"
+    },
+    {
+      "type": "related",
+      "target_id": "12169_yodooshi",
+      "reading": "よどおし",
+      "headword": "{夜通|よどお}し",
+      "label": "all through the night"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -51,6 +67,7 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "time-general",
         "entertainment"
@@ -58,6 +75,6 @@
       "loanword": true
     },
     "created": "2026-01-28T02:43:42Z",
-    "modified": "2026-06-23T01:38:10Z"
+    "modified": "2026-09-02T04:01:16Z"
   }
 }

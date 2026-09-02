@@ -3,7 +3,7 @@
   "headword": "{速読|そくどく}",
   "reading": "そくどく",
   "romaji": "sokudoku",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "speed reading",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22402_sokudoku_ex1",
-      "japanese": "{速読|そくどく}の{練習|れんしゅう}をする。",
+      "japanese": "{速読|そくどく}⟦の→の：09472_no⟧⟦{練習|れんしゅう}→練習：05323_renshuu⟧⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧。",
       "english": "To practice speed reading.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22402_sokudoku_ex2",
-      "japanese": "{速読|そくどく}{術|じゅつ}を{身|み}につけたい。",
+      "japanese": "{速読|そくどく}⟦{術|じゅつ}→術：14265_jutsu⟧⟦を→を：00422_wo⟧⟦{身|み}→身：01764_mi⟧につけたい。",
       "english": "I want to learn speed reading techniques.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22402_sokudoku_ex3",
-      "japanese": "{速読|そくどく}ができれば、{限|かぎ}られた{時間|じかん}でもっと{多|おお}くの{本|ほん}が{読|よ}めるのに。",
+      "japanese": "{速読|そくどく}⟦が→が：00051_ga⟧⟦できれば→できる：00557_dekiru⟧、⟦{限|かぎ}られた→限る：02033_kagiru⟧⟦{時間|じかん}→時間：00468_jikan⟧⟦で→で：00502_de⟧⟦もっと→もっと：00798_motto⟧{多|おお}く⟦の→の：09472_no⟧{本|ほん}⟦が→が：00051_ga⟧⟦{読|よ}める→読む：00426_yomu⟧⟦の→の：09472_no⟧⟦に→に：00314_ni⟧。",
       "english": "If I could speed-read, I could read more books in limited time.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {速|そく} (fast/speed) and {読|どく} (reading). Refers to techniques for reading faster than normal while maintaining comprehension. Speed reading courses and books are popular in Japan, often marketed to students and businesspeople.\n\nCOMMON COLLOCATIONS:\n- {速読|そくどく}{術|じゅつ}: speed reading technique\n- {速読|そくどく}{法|ほう}: speed reading method\n- {速読|そくどく}の{訓練|くんれん}: speed reading training\n- {速読|そくどく}する: to speed-read\n\nSIMILAR WORDS:\n- {多読|たどく}: extensive reading — reading a large volume of material, not necessarily fast\n- {精読|せいどく}: careful/close reading — reading slowly and thoroughly, the opposite approach\n- {音読|おんどく}: reading aloud — reading text out loud\n- {黙読|もくどく}: silent reading — reading without vocalizing",
+  "notes": "Composed of {速|そく} (fast/speed) and {読|どく} (reading). Refers to techniques for reading faster than normal while maintaining comprehension. Speed reading courses and books are popular in Japan, often marketed to students and businesspeople.\n\nCOMMON COLLOCATIONS:\n- {速読|そくどく}⟦{術|じゅつ}→術：14265_jutsu⟧: speed reading technique\n- {速読|そくどく}⟦{法|ほう}→法：13620_hou⟧: speed reading method\n- {速読|そくどく}⟦の→の：09472_no⟧⟦{訓練|くんれん}→訓練：02673_kunren⟧: speed reading training\n- {速読|そくどく}⟦する→する：00392_suru⟧: to speed-read\n\nSIMILAR WORDS:\n- ⟦{多読|たどく}→多読：15981_tadoku⟧: extensive reading — reading a large volume of material, not necessarily fast\n- ⟦{精読|せいどく}→精読：15982_seidoku⟧: careful/close reading — reading slowly and thoroughly, the opposite approach\n- ⟦{音読|おんどく}→音読：15825_ondoku⟧: reading aloud — reading text out loud\n- ⟦{黙読|もくどく}→黙読：16385_mokudoku⟧: silent reading — reading without vocalizing",
   "cross_references": [
     {
       "type": "antonym",
@@ -52,6 +52,62 @@
       "reading": "じゅくどく",
       "headword": "{熟読|じゅくどく}",
       "label": "careful reading"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15981_tadoku",
+      "reading": "たどく",
+      "headword": "{多読|たどく}",
+      "label": "extensive reading"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15982_seidoku",
+      "reading": "せいどく",
+      "headword": "{精読|せいどく}",
+      "label": "careful/close reading"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15825_ondoku",
+      "reading": "おんどく",
+      "headword": "{音読|おんどく}",
+      "label": "reading aloud"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16385_mokudoku",
+      "reading": "もくどく",
+      "headword": "{黙読|もくどく}",
+      "label": "silent reading"
+    },
+    {
+      "type": "related",
+      "target_id": "03484_dokusho",
+      "reading": "どくしょ",
+      "headword": "{読書|どくしょ}",
+      "label": "reading (books)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19800_tsuudoku",
+      "reading": "つうどく",
+      "headword": "{通読|つうどく}",
+      "label": "reading through"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19900_tsuudokusuru",
+      "reading": "つうどくする",
+      "headword": "{通読|つうどく}する",
+      "label": "to read through, to read from beginning to end"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21428_nagashiyomi",
+      "reading": "ながしよみ",
+      "headword": "{流|なが}し{読|よ}み",
+      "label": "skimming"
     }
   ],
   "schema_version": "2.0",
@@ -71,7 +127,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-05T21:08:10Z",
-    "modified": "2026-05-06T09:07:22Z"
+    "modified": "2026-09-02T04:02:08Z"
   },
   "conjugation": {
     "type": "suru",

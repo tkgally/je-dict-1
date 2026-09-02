@@ -3,7 +3,7 @@
   "headword": "{国有|こくゆう}",
   "reading": "こくゆう",
   "romaji": "kokuyuu",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "state-owned; nationally owned; government-owned",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28390_kokuyuu_ex1",
-      "japanese": "ここは{国有地|こくゆうち}です。",
+      "japanese": "⟦ここ→ここ：00961_koko⟧⟦は→は：00079_ha⟧⟦{国有地|こくゆうち}→国有地：29463_kokuyuuchi⟧です。",
       "english": "This is state-owned land.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28390_kokuyuu_ex2",
-      "japanese": "{昔|むかし}、{鉄道|てつどう}は{国有|こくゆう}だった。",
+      "japanese": "⟦{昔|むかし}→昔：01515_mukashi⟧、⟦{鉄道|てつどう}→鉄道：03550_tetsudou⟧⟦は→は：00079_ha⟧{国有|こくゆう}だった。",
       "english": "In the past, the railways were nationally owned.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28390_kokuyuu_ex3",
-      "japanese": "{経営|けいえい}{難|なん}に{陥|おちい}った{銀行|ぎんこう}が{一時|いちじ}{国有|こくゆう}{化|か}された。",
+      "japanese": "⟦{経営|けいえい}→経営：02740_keiei⟧⟦{難|なん}→難：00452_nan⟧⟦に→に：00314_ni⟧⟦{陥|おちい}った→陥る：14537_ochiiru⟧⟦{銀行|ぎんこう}→銀行：00578_ginkou⟧⟦が→が：00051_ga⟧⟦{一時|いちじ}→一時：01799_ichiji⟧{国有|こくゆう}{化|か}⟦された→する：00392_suru⟧。",
       "english": "A bank that fell into financial trouble was temporarily nationalized.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {国|こく} (nation) + {有|ゆう} (possession). Frequently appears in fixed compounds rather than as a standalone modifier.\n\nCOMMON COMPOUNDS:\n- {国有地|こくゆうち}: state-owned land\n- {国有林|こくゆうりん}: national forest\n- {国有|こくゆう}{鉄道|てつどう}: state-owned railway (historical: JNR before privatization)\n- {国有|こくゆう}{化|か}: nationalization\n- {国有|こくゆう}{財産|ざいさん}: state property\n\nSIMILAR WORDS:\n- {公有|こうゆう}: publicly owned — broader, includes municipal and prefectural ownership\n- {私有|しゆう}: privately owned — direct opposite\n- {民営|みんえい}: privately operated — used for businesses, vs. {国営|こくえい} (state-operated)",
+  "notes": "Compound of {国|こく} (nation) + {有|ゆう} (possession). Frequently appears in fixed compounds rather than as a standalone modifier.\n\nCOMPOUNDS:\n- ⟦{国有地|こくゆうち}→国有地：29463_kokuyuuchi⟧: state-owned land\n- {国有林|こくゆうりん}: national forest\n- {国有|こくゆう}{鉄道|てつどう}: state-owned railway (historical: JNR before privatization)\n- {国有|こくゆう}{化|か}: nationalization\n- {国有|こくゆう}⟦{財産|ざいさん}→財産：01635_zaisan⟧: state property\n\nSIMILAR WORDS:\n- ⟦{公有|こうゆう}→公有：21178_kouyuu⟧: publicly owned — broader, includes municipal and prefectural ownership\n- ⟦{私有|しゆう}→私有：19205_shiyuu⟧: privately owned — direct opposite\n- {民営|みんえい}: privately operated — used for businesses, vs. {国営|こくえい} (state-operated)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21178_kouyuu",
+      "reading": "こうゆう",
+      "headword": "{公有|こうゆう}",
+      "label": "publicly owned"
+    },
+    {
+      "type": "antonym",
+      "target_id": "19205_shiyuu",
+      "reading": "しゆう",
+      "headword": "{私有|しゆう}",
+      "label": "privately owned"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -54,7 +70,7 @@
         "adjective-no"
       ],
       "formality": "formal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "politics",
         "economics"
@@ -62,6 +78,6 @@
       "domain": []
     },
     "created": "2026-05-30T03:12:26Z",
-    "modified": "2026-08-08T18:34:17Z"
+    "modified": "2026-09-02T04:02:33Z"
   }
 }

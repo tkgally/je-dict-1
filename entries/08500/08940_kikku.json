@@ -109,7 +109,7 @@
   "examples": [
     {
       "id": "08940_kikku_ex1",
-      "japanese": "{強|つよ}いキックを{放|はな}つ。",
+      "japanese": "⟦{強|つよ}い→強い：00820_tsuyoi⟧キック⟦を→を：00422_wo⟧⟦{放|はな}つ→放つ：10062_hanatsu⟧。",
       "english": "I deliver a powerful kick.",
       "notes": null,
       "has_audio": false,
@@ -119,7 +119,7 @@
     },
     {
       "id": "08940_kikku_ex2",
-      "japanese": "フリーキックから{得点|とくてん}した。",
+      "japanese": "フリーキック⟦から→から：00504_kara⟧⟦{得点|とくてん}した→得点する：25548_tokutensuru⟧。",
       "english": "We scored from a free kick.",
       "notes": null,
       "has_audio": false,
@@ -129,7 +129,7 @@
     },
     {
       "id": "08940_kikku_ex3",
-      "japanese": "キックボクシングを{習|なら}っている。",
+      "japanese": "キックボクシング⟦を→を：00422_wo⟧⟦{習|なら}っている→習う：00479_narau⟧。",
       "english": "I'm learning kickboxing.",
       "notes": null,
       "has_audio": false,
@@ -139,7 +139,7 @@
     },
     {
       "id": "08940_kikku_ex4",
-      "japanese": "キックオフミーティング。",
+      "japanese": "キックオフ⟦ミーティング→ミーティング：05506_miitingu⟧。",
       "english": "A kickoff meeting.",
       "notes": null,
       "has_audio": false,
@@ -149,7 +149,7 @@
     },
     {
       "id": "08940_kikku_ex5",
-      "japanese": "カフェインでキックを{入|い}れる。",
+      "japanese": "⟦カフェイン→カフェイン：27911_kafein⟧⟦で→で：00502_de⟧キック⟦を→を：00422_wo⟧⟦{入|い}れる→入れる：01098_ireru⟧。",
       "english": "I get a kick from caffeine.",
       "notes": null,
       "has_audio": false,
@@ -159,7 +159,7 @@
     },
     {
       "id": "08940_kikku_ex6",
-      "japanese": "プロジェクトのキックオフは{来週|らいしゅう}だ。",
+      "japanese": "⟦プロジェクト→プロジェクト：06764_purojekuto⟧⟦の→の：09472_no⟧キックオフ⟦は→は：00079_ha⟧⟦{来週|らいしゅう}→来週：00746_raishuu⟧だ。",
       "english": "The project kickoff is next week.",
       "notes": null,
       "has_audio": false,
@@ -168,11 +168,19 @@
       ]
     }
   ],
-  "notes": "キック means a kick — striking with the foot. Used in both sports and figuratively in business contexts.\n\nSPORTS COLLOCATIONS:\n- フリーキック: free kick\n- ペナルティキック / PK: penalty kick\n- コーナーキック: corner kick\n- キックオフ: kickoff (start of match)\n- キックボクシング: kickboxing\n- キックする: to kick\n\nBUSINESS/FIGURATIVE USAGE:\n- キックオフミーティング: kickoff meeting (project launch meeting)\n- キックバック: kickback (rebate; sometimes implies illicit payments)\n\nVERB USAGE:\nUsed as a suru verb: キックする (to kick). In casual speech, {蹴|け}る is the native Japanese word for \"to kick.\"\n\nCONTRAST:\n- キック: kick (loanword, common in sports terminology)\n- {蹴|け}る: to kick (native Japanese, everyday use)",
-  "cross_references": [],
+  "notes": "キック means a kick — striking with the foot. Used in both sports and figuratively in business contexts.\n\nSPORTS COLLOCATIONS:\n- フリーキック: free kick\n- ペナルティキック / PK: penalty kick\n- コーナーキック: corner kick\n- キックオフ: kickoff (start of match)\n- キックボクシング: kickboxing\n- キック⟦する→する：00392_suru⟧: to kick\n\nBUSINESS/FIGURATIVE USAGE:\n- キックオフ⟦ミーティング→ミーティング：05506_miitingu⟧: kickoff meeting (project launch meeting)\n- キックバック: kickback (rebate; sometimes implies illicit payments)\n\nVERB USAGE:\nUsed as a suru verb: キック⟦する→する：00392_suru⟧ (to kick). In casual speech, ⟦{蹴|け}る→蹴る：02054_keru⟧ is the native Japanese word for \"to kick.\"\n\nSIMILAR WORDS:\n- キック: kick (loanword, common in sports terminology)\n- ⟦{蹴|け}る→蹴る：02054_keru⟧: to kick (native Japanese, everyday use)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02054_keru",
+      "reading": "ける",
+      "headword": "{蹴|け}る",
+      "label": "to kick"
+    }
+  ],
   "metadata": {
     "created": "2026-01-29T06:12:15Z",
-    "modified": "2026-04-05T11:45:12Z",
+    "modified": "2026-09-02T04:01:16Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

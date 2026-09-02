@@ -3,7 +3,7 @@
   "headword": "{再刊|さいかん}",
   "reading": "さいかん",
   "romaji": "saikan",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "republication; reissue",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26003_saikan_ex1",
-      "japanese": "{絶版|ぜっぱん}になった{本|ほん}が{再刊|さいかん}された。",
+      "japanese": "{絶版|ぜっぱん}になった{本|ほん}⟦が→が：00051_ga⟧{再刊|さいかん}⟦された→する：00392_suru⟧。",
       "english": "The out-of-print book was republished.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26003_saikan_ex2",
-      "japanese": "{読者|どくしゃ}の{要望|ようぼう}に{応|こた}えて{再刊|さいかん}が{決定|けってい}した。",
+      "japanese": "⟦{読者|どくしゃ}→読者：16554_dokusha⟧⟦の→の：09472_no⟧⟦{要望|ようぼう}→要望：14111_youbou⟧⟦に→に：00314_ni⟧⟦{応|こた}えて→応える：09893_kotaeru⟧{再刊|さいかん}⟦が→が：00051_ga⟧⟦{決定|けってい}した→決定する：21022_ketteisuru⟧。",
       "english": "In response to reader demand, republication was decided.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26003_saikan_ex3",
-      "japanese": "{戦前|せんぜん}に{廃刊|はいかん}となった{雑誌|ざっし}が、{新|あたら}しい{編集部|へんしゅうぶ}のもとで{再刊|さいかん}されることになった。",
+      "japanese": "⟦{戦前|せんぜん}→戦前：12852_senzen⟧⟦に→に：00314_ni⟧{廃刊|はいかん}⟦と→と：00512_to⟧⟦なった→なる：01970_naru⟧⟦{雑誌|ざっし}→雑誌：00686_zasshi⟧⟦が→が：00051_ga⟧、⟦{新|あたら}しい→新しい：00506_atarashii⟧{編集部|へんしゅうぶ}⟦の→の：09472_no⟧もと⟦で→で：00502_de⟧{再刊|さいかん}⟦される→する：00392_suru⟧ことになった。",
       "english": "The magazine, which ceased publication before the war, is to be reissued under a new editorial team.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {再|さい} (again) and {刊|かん} (publish, print). Used in the publishing industry for works that return to availability after a period of being unavailable. This can apply to books that went out of print, magazines that ceased publication, or periodicals that were discontinued and later revived.\n\nCOMMON COLLOCATIONS:\n- {再刊|さいかん}する: to republish\n- {再刊|さいかん}が{決|き}まる: republication is decided\n- {再刊|さいかん}を{望|のぞ}む: to hope for republication\n- {再刊|さいかん}{記念|きねん}: republication commemoration\n\nSIMILAR WORDS:\n- {復刊|ふっかん}: revival of a publication — very similar, but often implies stronger demand or cultural significance behind the revival\n- {重版|じゅうはん}: additional printing — a reprint of a book still in print due to demand; not the same as republication\n- {増刷|ぞうさつ}: additional printing run — essentially the same as {重版|じゅうはん}\n- {絶版|ぜっぱん}: out of print — the condition that precedes {再刊|さいかん}\n- {廃刊|はいかん}: cessation of publication — permanent discontinuation of a periodical",
+  "notes": "Composed of ⟦{再|さい}→再〜：03953_sai⟧ (again) and {刊|かん} (publish, print). Used in the publishing industry for works that return to availability after a period of being unavailable. This can apply to books that went out of print, magazines that ceased publication, or periodicals that were discontinued and later revived.\n\nCOMMON COLLOCATIONS:\n- {再刊|さいかん}⟦する→する：00392_suru⟧: to republish\n- {再刊|さいかん}⟦が→が：00051_ga⟧⟦{決|き}まる→決まる：01233_kimaru⟧: republication is decided\n- {再刊|さいかん}⟦を→を：00422_wo⟧⟦{望|のぞ}む→望む：01976_nozomu⟧: to hope for republication\n- {再刊|さいかん}⟦{記念|きねん}→記念：00232_kinen⟧: republication commemoration\n\nSIMILAR WORDS:\n- {復刊|ふっかん}: revival of a publication — very similar, but often implies stronger demand or cultural significance behind the revival\n- {重版|じゅうはん}: additional printing — a reprint of a book still in print due to demand; not the same as republication\n- {増刷|ぞうさつ}: additional printing run — essentially the same as {重版|じゅうはん}\n- {絶版|ぜっぱん}: out of print — the condition that precedes {再刊|さいかん}\n- {廃刊|はいかん}: cessation of publication — permanent discontinuation of a periodical",
   "cross_references": [],
   "schema_version": "2.0",
   "metadata": {
@@ -54,13 +54,15 @@
         "noun",
         "verb-suru"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "media"
       ],
       "verb_class": "suru"
     },
     "created": "2026-04-28T15:36:40Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T04:02:24Z"
   },
   "conjugation": {
     "type": "suru",

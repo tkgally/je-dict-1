@@ -15,40 +15,80 @@
   "examples": [
     {
       "id": "21054_satooya_ex1",
-      "japanese": "{里親|さとおや}を{募集|ぼしゅう}しています。",
+      "japanese": "{里親|さとおや}⟦を→を：00422_wo⟧⟦{募集|ぼしゅう}→募集：03035_boshuu⟧⟦しています→する：00392_suru⟧。",
       "english": "We are looking for foster parents.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21054_satooya_ex2",
-      "japanese": "{彼女|かのじょ}は{里親|さとおや}として{三人|さんにん}の{子|こ}どもを{育|そだ}てた。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧{里親|さとおや}⟦として→として：06802_toshite⟧⟦{三人|さんにん}→三人：10978_sannin⟧⟦の→の：09472_no⟧{子|こ}ども⟦を→を：00422_wo⟧⟦{育|そだ}てた→育てる：01235_sodateru⟧。",
       "english": "She raised three children as a foster parent.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21054_satooya_ex3",
-      "japanese": "{保護|ほご}された{猫|ねこ}の{里親|さとおや}になってくれる{方|かた}を{探|さが}しています。",
+      "japanese": "⟦{保護|ほご}→保護：03625_hogo⟧⟦された→する：00392_suru⟧⟦{猫|ねこ}→猫：02237_neko⟧⟦の→の：09472_no⟧{里親|さとおや}になって⟦くれる→くれる：00724_kureru⟧⟦{方|かた}→方：10665_kata⟧⟦を→を：00422_wo⟧⟦{探|さが}しています→探す：00493_sagasu⟧。",
       "english": "We are looking for someone to adopt a rescued cat.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Literally 'village parent' — historically, children were sometimes sent to live with families in other villages. Today the term is used in both formal child welfare contexts and very commonly for pet adoption.\n\nCOMMON COLLOCATIONS:\n- {里親|さとおや}になる: to become a foster parent / to adopt (a pet)\n- {里親|さとおや}を{募集|ぼしゅう}する: to recruit foster parents / adopters\n- {里親|さとおや}{制度|せいど}: foster care system\n- {里親|さとおや}{探|さが}し: looking for an adopter (especially for pets)\n\nPET ADOPTION:\nIn modern Japanese, {里親|さとおや} is extremely commonly used for finding homes for rescued or unwanted animals. {里親|さとおや}{募集|ぼしゅう} (looking for adopters) is a standard phrase on pet adoption websites.\n\nRELATED TERMS:\n- {養親|ようしん}: adoptive parent — legal adoption (more formal)\n- {里子|さとご}: foster child\n- {養子|ようし}: adopted child — formal legal adoption",
+  "notes": "Literally 'village parent' — historically, children were sometimes sent to live with families in other villages. Today the term is used in both formal child welfare contexts and very commonly for pet adoption.\n\nCOMMON COLLOCATIONS:\n- {里親|さとおや}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧: to become a foster parent / to adopt (a pet)\n- {里親|さとおや}⟦を→を：00422_wo⟧⟦{募集|ぼしゅう}→募集：03035_boshuu⟧⟦する→する：00392_suru⟧: to recruit foster parents / adopters\n- {里親|さとおや}⟦{制度|せいど}→制度：03291_seido⟧: foster care system\n- {里親|さとおや}⟦{探|さが}し→探す：00493_sagasu⟧: looking for an adopter (especially for pets)\n\nPET ADOPTION:\nIn modern Japanese, {里親|さとおや} is extremely commonly used for finding homes for rescued or unwanted animals. {里親|さとおや}⟦{募集|ぼしゅう}→募集：03035_boshuu⟧ (looking for adopters) is a standard phrase on pet adoption websites.\n\nRELATED WORDS:\n- ⟦{養親|ようしん}→養親：16814_youshin⟧: adoptive parent — legal adoption (more formal)\n- {里子|さとご}: foster child\n- ⟦{養子|ようし}→養子：14626_youshi⟧: adopted child — formal legal adoption",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "16814_youshin",
+      "reading": "ようしん",
+      "headword": "{養親|ようしん}",
+      "label": "adoptive parent"
+    },
+    {
+      "type": "related",
+      "target_id": "14626_youshi",
+      "reading": "ようし",
+      "headword": "{養子|ようし}",
+      "label": "adopted child"
+    },
+    {
+      "type": "related",
+      "target_id": "21446_youfubo",
+      "reading": "ようふぼ",
+      "headword": "{養父母|ようふぼ}",
+      "label": "adoptive parents"
+    },
+    {
+      "type": "related",
+      "target_id": "26960_nyuujiin",
+      "reading": "にゅうじいん",
+      "headword": "{乳児院|にゅうじいん}",
+      "label": "infant home"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["family"]
+      "semantic": [
+        "family"
+      ]
     },
     "created": "2026-03-31T16:19:12Z",
-    "modified": "2026-03-31T16:19:12Z"
+    "modified": "2026-09-02T04:02:02Z"
   }
 }

@@ -2,7 +2,7 @@
   "id": "04895_hasshin",
   "headword": "{発信|はっしん}",
   "reading": "はっしん",
-  "part_of_speech": "noun, suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "transmission",
   "conjugation": {
     "type": "suru",
@@ -139,7 +139,7 @@
     },
     {
       "id": "04895_hasshin_ex4",
-      "japanese": "⟦{緊急|きんきゅう}→緊急：11327_kinkyuu⟧⟦{地震|じしん}→地震：01608_jishin⟧⟦{速報|そくほう}→速報：14319_sokuhou⟧⟦が→が：00051_ga⟧{発信|はっしん}された。",
+      "japanese": "⟦{緊急|きんきゅう}→緊急：11327_kinkyuu⟧⟦{地震|じしん}→地震：01608_jishin⟧⟦{速報|そくほう}→速報：14319_sokuhou⟧⟦が→が：00051_ga⟧{発信|はっしん}⟦された→する：00392_suru⟧。",
       "english": "An emergency earthquake alert was transmitted.",
       "notes": null,
       "has_audio": false,
@@ -168,7 +168,7 @@
       ]
     }
   ],
-  "notes": "{発信|はっしん} means transmission or sending, used in telecommunications, messaging, and media.\n\nGRAMMAR:\nUsed as a noun or ⟦する→する：00392_suru⟧ verb ({発信|はっしん}⟦する→する：00392_suru⟧ = to transmit/send).\n\nCOMMON EXPRESSIONS:\n- {発信|はっしん}⟦する→する：00392_suru⟧: to send, to transmit\n- {発信|はっしん}⟦{元|もと}→元：03878_moto⟧: source, sender\n- {発信|はっしん}⟦{者|しゃ}→〜者：04662_sha⟧: sender, transmitter\n- ⟦{情報|じょうほう}→情報：03348_jouhou⟧{発信|はっしん}: information dissemination\n- ⟦SNS→SNS：05601_esuenuesu⟧⟦で→で：00502_de⟧{発信|はっしん}⟦する→する：00392_suru⟧: to post on social media\n\nCONTRAST:\n- {発信|はっしん}: sending, transmission\n- ⟦{受信|じゅしん}→受信：04896_jushin⟧: receiving, reception\n\nETYMOLOGY:\n{発|はつ} (emit) + {信|しん} (message/signal)",
+  "notes": "{発信|はっしん} means transmission or sending, used in telecommunications, messaging, and media.\n\nCOMMON PATTERNS:\nUsed as a noun or ⟦する→する：00392_suru⟧ verb ({発信|はっしん}⟦する→する：00392_suru⟧ = to transmit/send).\n\nCOMMON EXPRESSIONS:\n- {発信|はっしん}⟦する→する：00392_suru⟧: to send, to transmit\n- {発信|はっしん}⟦{元|もと}→元：03878_moto⟧: source, sender\n- {発信|はっしん}⟦{者|しゃ}→〜者：04662_sha⟧: sender, transmitter\n- ⟦{情報|じょうほう}→情報：03348_jouhou⟧{発信|はっしん}: information dissemination\n- ⟦SNS→SNS：05601_esuenuesu⟧⟦で→で：00502_de⟧{発信|はっしん}⟦する→する：00392_suru⟧: to post on social media\n\nSIMILAR WORDS:\n- {発信|はっしん}: sending, transmission\n- ⟦{受信|じゅしん}→受信：04896_jushin⟧: receiving, reception\n\nETYMOLOGY:\n⟦{発|はつ}→〜発：04026_hatsu⟧ (emit) + {信|しん} (message/signal)",
   "cross_references": [
     {
       "type": "antonym",
@@ -176,11 +176,25 @@
       "headword": "{受信|じゅしん}",
       "label": "reception",
       "target_id": "04896_jushin"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25231_happyousuru",
+      "reading": "はっぴょうする",
+      "headword": "{発表|はっぴょう}する",
+      "label": "to announce"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26780_soushinsuru",
+      "reading": "そうしんする",
+      "headword": "{送信|そうしん}する",
+      "label": "to send"
     }
   ],
   "metadata": {
     "created": "2026-01-16T00:35:11Z",
-    "modified": "2026-06-14T03:51:41Z",
+    "modified": "2026-09-02T04:01:05Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -193,7 +207,8 @@
       "semantic": [
         "communication"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

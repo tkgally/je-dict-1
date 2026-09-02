@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "23932_kyokuu_ex1",
-      "japanese": "{彼|かれ}は{極右|きょくう}の{政治家|せいじか}だ。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{極右|きょくう}⟦の→の：09472_no⟧⟦{政治家|せいじか}→政治家：03084_seijika⟧だ。",
       "english": "He is a far-right politician.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "23932_kyokuu_ex2",
-      "japanese": "{選挙|せんきょ}で{極右|きょくう}{政党|せいとう}が{票|ひょう}を{伸|の}ばした。",
+      "japanese": "⟦{選挙|せんきょ}→選挙：03303_senkyo⟧⟦で→で：00502_de⟧{極右|きょくう}⟦{政党|せいとう}→政党：04338_seitou⟧⟦が→が：00051_ga⟧⟦{票|ひょう}→票：03582_hyou⟧⟦を→を：00422_wo⟧⟦{伸|の}ばした→伸ばす：01973_nobasu⟧。",
       "english": "A far-right party gained votes in the election.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "23932_kyokuu_ex3",
-      "japanese": "ヨーロッパでは{近年|きんねん}、{極右|きょくう}{勢力|せいりょく}の{台頭|たいとう}が{懸念|けねん}されている。",
+      "japanese": "⟦ヨーロッパ→ヨーロッパ：00427_yooroppa⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{近年|きんねん}→近年：14349_kinnen⟧、{極右|きょくう}⟦{勢力|せいりょく}→勢力：11812_seiryoku⟧⟦の→の：09472_no⟧⟦{台頭|たいとう}→台頭：07595_taitou⟧⟦が→が：00051_ga⟧⟦{懸念|けねん}→懸念：05622_kenen⟧⟦されている→する：00392_suru⟧。",
       "english": "In Europe there has been growing concern in recent years about the rise of far-right forces.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Literally \"extreme right,\" from {極|きょく} (extreme, pole) and {右|う} (right). The word is neutral in form but almost always critical in context — speakers who use it are typically distancing themselves from the groups they describe. In Japanese political discourse it is sometimes also used for hardline nationalist or street-activist groups.\n\nCOMMON COLLOCATIONS:\n- {極右|きょくう}{政党|せいとう}: far-right political party\n- {極右|きょくう}{勢力|せいりょく}: far-right forces\n- {極右|きょくう}{思想|しそう}: far-right ideology\n- {極右|きょくう}の{台頭|たいとう}: the rise of the far right\n- {極右|きょくう}と{呼|よ}ばれる: to be called far-right\n\nRELATED TERMS:\n- {極左|きょくさ}: far left — direct antonym\n- {右翼|うよく}: right wing — broader term covering the full right of the spectrum\n- {保守|ほしゅ}: conservative — the mainstream right\n- ネオナチ: neo-Nazi — a specific variety of far-right group",
+  "notes": "Literally \"extreme right,\" from ⟦{極|きょく}→極：13150_kyoku⟧ (extreme, pole) and {右|う} (right). The word is neutral in form but almost always critical in context — speakers who use it are typically distancing themselves from the groups they describe. In Japanese political discourse it is sometimes also used for hardline nationalist or street-activist groups.\n\nCOMMON COLLOCATIONS:\n- {極右|きょくう}⟦{政党|せいとう}→政党：04338_seitou⟧: far-right political party\n- {極右|きょくう}⟦{勢力|せいりょく}→勢力：11812_seiryoku⟧: far-right forces\n- {極右|きょくう}⟦{思想|しそう}→思想：03173_shisou⟧: far-right ideology\n- {極右|きょくう}⟦の→の：09472_no⟧⟦{台頭|たいとう}→台頭：07595_taitou⟧: the rise of the far right\n- {極右|きょくう}⟦と→と：00512_to⟧⟦{呼|よ}ばれる→呼ぶ：00766_yobu⟧: to be called far-right\n\nRELATED WORDS:\n- ⟦{極左|きょくさ}→極左：23933_kyokusa⟧: far left — direct antonym\n- ⟦{右翼|うよく}→右翼：12071_uyoku⟧: right wing — broader term covering the full right of the spectrum\n- ⟦{保守|ほしゅ}→保守：19090_hoshu⟧: conservative — the mainstream right\n- ネオナチ: neo-Nazi — a specific variety of far-right group",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "23933_kyokusa",
+      "reading": "きょくさ",
+      "headword": "{極左|きょくさ}",
+      "label": "far left"
+    },
+    {
+      "type": "related",
+      "target_id": "12071_uyoku",
+      "reading": "うよく",
+      "headword": "{右翼|うよく}",
+      "label": "right wing"
+    },
+    {
+      "type": "related",
+      "target_id": "19090_hoshu",
+      "reading": "ほしゅ",
+      "headword": "{保守|ほしゅ}",
+      "label": "conservative"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +82,6 @@
       ]
     },
     "created": "2026-04-15T14:03:17Z",
-    "modified": "2026-08-02T18:32:34Z"
+    "modified": "2026-09-02T04:02:15Z"
   }
 }

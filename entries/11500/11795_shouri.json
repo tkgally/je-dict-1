@@ -2,7 +2,7 @@
   "id": "11795_shouri",
   "headword": "{勝利|しょうり}",
   "reading": "しょうり",
-  "part_of_speech": "noun / suru verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "victory; triumph",
   "conjugation": {
     "type": "suru",
@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "11795_shouri_ex1",
-      "japanese": "チームが{勝利|しょうり}した。",
+      "japanese": "⟦チーム→チーム：03858_chiimu⟧⟦が→が：00051_ga⟧{勝利|しょうり}⟦した→する：00392_suru⟧。",
       "english": "The team won.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "11795_shouri_ex2",
-      "japanese": "{選挙|せんきょ}での{勝利|しょうり}を{祝|いわ}った。",
+      "japanese": "⟦{選挙|せんきょ}→選挙：03303_senkyo⟧⟦で→で：00502_de⟧⟦の→の：09472_no⟧{勝利|しょうり}⟦を→を：00422_wo⟧⟦{祝|いわ}った→祝う：01881_iwau⟧。",
       "english": "They celebrated the election victory.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "11795_shouri_ex3",
-      "japanese": "{延長戦|えんちょうせん}の{末|すえ}、{日本|にほん}チームは{劇的|げきてき}な{勝利|しょうり}を{収|おさ}めた。",
+      "japanese": "⟦{延長戦|えんちょうせん}→延長戦：06540_enchousen⟧⟦の→の：09472_no⟧⟦{末|すえ}→末：03362_sue⟧、⟦{日本|にほん}→日本：03876_nihon⟧⟦チーム→チーム：03858_chiimu⟧⟦は→は：00079_ha⟧⟦{劇的|げきてき}→劇的：06830_gekiteki⟧な{勝利|しょうり}⟦を→を：00422_wo⟧⟦{収|おさ}めた→収める：02022_osameru⟧。",
       "english": "After extra time, the Japanese team achieved a dramatic victory.",
       "notes": null,
       "has_audio": false,
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "WORD FORMATION:\n{勝|しょう} (win) + {利|り} (benefit, advantage)\n\nREGISTER:\nA formal word for winning, commonly used in sports reporting, politics, military contexts, and elections. In casual speech, {勝|か}つ (to win) or {勝|か}ち (a win) is more natural.\n\nCOMMON COLLOCATIONS:\n- {勝利|しょうり}を{収|おさ}める: to achieve/secure a victory\n- {勝利|しょうり}を{祝|いわ}う: to celebrate a victory\n- {圧倒的|あっとうてき}な{勝利|しょうり}: an overwhelming victory\n- {歴史的|れきしてき}{勝利|しょうり}: a historic victory\n- {逆転|ぎゃくてん}{勝利|しょうり}: come-from-behind victory\n\nCONTRAST:\n- {勝利|しょうり}: victory (formal, noun)\n- {敗北|はいぼく}: defeat (formal, the antonym)\n- {勝|か}ち: a win (casual)\n- {負|ま}け: a loss (casual)",
+  "notes": "FORMS:\n{勝|しょう} (win) + ⟦{利|り}→利：29142_ri⟧ (benefit, advantage)\n\nREGISTER:\nA formal word for winning, commonly used in sports reporting, politics, military contexts, and elections. In casual speech, ⟦{勝|か}つ→勝つ：01199_katsu⟧ (to win) or ⟦{勝|か}ち→勝ち：02540_kachi⟧ (a win) is more natural.\n\nCOMMON COLLOCATIONS:\n- {勝利|しょうり}⟦を→を：00422_wo⟧⟦{収|おさ}める→収める：02022_osameru⟧: to achieve/secure a victory\n- {勝利|しょうり}⟦を→を：00422_wo⟧⟦{祝|いわ}う→祝う：01881_iwau⟧: to celebrate a victory\n- ⟦{圧倒的|あっとうてき}→圧倒的：05853_attouteki⟧な{勝利|しょうり}: an overwhelming victory\n- ⟦{歴史的|れきしてき}→歴史的：05671_rekishiteki⟧{勝利|しょうり}: a historic victory\n- ⟦{逆転|ぎゃくてん}→逆転：06839_gyakuten⟧{勝利|しょうり}: come-from-behind victory\n\nSIMILAR WORDS:\n- {勝利|しょうり}: victory (formal, noun)\n- ⟦{敗北|はいぼく}→敗北：12872_haiboku⟧: defeat (formal, the antonym)\n- ⟦{勝|か}ち→勝ち：02540_kachi⟧: a win (casual)\n- ⟦{負|ま}け→負け：02569_make⟧: a loss (casual)",
   "cross_references": [
     {
       "type": "antonym",
@@ -148,11 +148,39 @@
       "headword": "{逆転|ぎゃくてん}",
       "label": "reversal, comeback",
       "type": "related"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02540_kachi",
+      "reading": "かち",
+      "headword": "{勝|か}ち",
+      "label": "a win"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02569_make",
+      "reading": "まけ",
+      "headword": "{負|ま}け",
+      "label": "a loss"
+    },
+    {
+      "type": "related",
+      "target_id": "08237_kaishou",
+      "reading": "かいしょう",
+      "headword": "{快勝|かいしょう}",
+      "label": "easy victory"
+    },
+    {
+      "type": "antonym",
+      "target_id": "21683_haibokusuru",
+      "reading": "はいぼくする",
+      "headword": "{敗北|はいぼく}する",
+      "label": "to be defeated"
     }
   ],
   "metadata": {
     "created": "2026-02-18T06:08:50Z",
-    "modified": "2026-08-15T21:25:25Z",
+    "modified": "2026-09-02T04:01:26Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",

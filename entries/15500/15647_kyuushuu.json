@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "15647_kyuushuu_ex1",
-      "japanese": "{来月|らいげつ}{九州|きゅうしゅう}に{旅行|りょこう}する。",
+      "japanese": "⟦{来月|らいげつ}→来月：00744_raigetsu⟧{九州|きゅうしゅう}⟦に→に：00314_ni⟧⟦{旅行|りょこう}→旅行：00748_ryokou⟧⟦する→する：00392_suru⟧。",
       "english": "I'm traveling to Kyushu next month.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "15647_kyuushuu_ex2",
-      "japanese": "{九州|きゅうしゅう}は{温泉|おんせん}が{多|おお}いことで{有名|ゆうめい}だ。",
+      "japanese": "{九州|きゅうしゅう}⟦は→は：00079_ha⟧⟦{温泉|おんせん}→温泉：04117_onsen⟧⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧こと⟦で→で：00502_de⟧⟦{有名|ゆうめい}→有名：01106_yuumei⟧だ。",
       "english": "Kyushu is famous for its many hot springs.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "15647_kyuushuu_ex3",
-      "japanese": "{九州|きゅうしゅう}には{活火山|かっかざん}が{多|おお}く、{阿蘇山|あそさん}は{世界|せかい}{最大級|さいだいきゅう}のカルデラを{持|も}つ。",
+      "japanese": "{九州|きゅうしゅう}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{活火山|かっかざん}→活火山：15901_kakkazan⟧⟦が→が：00051_ga⟧⟦{多|おお}く→多い：01127_ooi⟧、{阿蘇山|あそさん}⟦は→は：00079_ha⟧⟦{世界|せかい}→世界：01447_sekai⟧⟦{最大級|さいだいきゅう}→最大級：21467_saidaikyuu⟧⟦の→の：09472_no⟧カルデラ⟦を→を：00422_wo⟧⟦{持|も}つ→持つ：00478_motsu⟧。",
       "english": "Kyushu has many active volcanoes, and Mount Aso has one of the largest calderas in the world.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,40 @@
       ]
     }
   ],
-  "notes": "USAGE:\nThe name literally means \"nine provinces\" ({九|きゅう}{州|しゅう}), referring to the historical provinces that made up the island. Today it comprises seven prefectures. Okinawa is sometimes included in the broader {九州|きゅうしゅう} region for administrative purposes.\n\nCOMMON COLLOCATIONS:\n- {九州|きゅうしゅう}{地方|ちほう} (the Kyushu region)\n- {九州|きゅうしゅう}{新幹線|しんかんせん} (the Kyushu Shinkansen)\n- {北|きた}{九州|きゅうしゅう} (Kitakyushu, northern Kyushu)\n- {九州|きゅうしゅう}{大学|だいがく} (Kyushu University)\n\nSIMILAR WORDS:\n- {本州|ほんしゅう}: Honshu (the largest main island)\n- {四国|しこく}: Shikoku (the smallest main island)\n- {北海道|ほっかいどう}: Hokkaido (the northernmost main island)",
-  "cross_references": [],
+  "notes": "USAGE:\nThe name literally means \"nine provinces\" ({九|きゅう}{州|しゅう}), referring to the historical provinces that made up the island. Today it comprises seven prefectures. Okinawa is sometimes included in the broader {九州|きゅうしゅう} region for administrative purposes.\n\nCOMMON COLLOCATIONS:\n- {九州|きゅうしゅう}⟦{地方|ちほう}→地方：02369_chihou⟧ (the Kyushu region)\n- {九州|きゅうしゅう}{新幹線|しんかんせん} (the Kyushu Shinkansen)\n- {北|きた}{九州|きゅうしゅう} (Kitakyushu, northern Kyushu)\n- {九州|きゅうしゅう}{大学|だいがく} (Kyushu University)\n\nSIMILAR WORDS:\n- ⟦{本州|ほんしゅう}→本州：18528_honshuu⟧: Honshu (the largest main island)\n- ⟦{四国|しこく}→四国：21447_shikoku⟧: Shikoku (the smallest main island)\n- ⟦{北海道|ほっかいどう}→北海道：11010_hokkaidou⟧: Hokkaido (the northernmost main island)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18528_honshuu",
+      "reading": "ほんしゅう",
+      "headword": "{本州|ほんしゅう}",
+      "label": "Honshu"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21447_shikoku",
+      "reading": "しこく",
+      "headword": "{四国|しこく}",
+      "label": "Shikoku"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11010_hokkaidou",
+      "reading": "ほっかいどう",
+      "headword": "{北海道|ほっかいどう}",
+      "label": "Hokkaido"
+    },
+    {
+      "type": "related",
+      "target_id": "27538_nishinihon",
+      "reading": "にしにほん",
+      "headword": "{西日本|にしにほん}",
+      "label": "western Japan"
+    }
+  ],
   "metadata": {
     "created": "2026-03-07T13:43:42Z",
-    "modified": "2026-08-11T04:24:46Z",
+    "modified": "2026-09-02T04:01:42Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

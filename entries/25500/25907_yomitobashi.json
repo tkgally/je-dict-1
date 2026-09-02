@@ -15,39 +15,74 @@
   "examples": [
     {
       "id": "25907_yomitobashi_ex1",
-      "japanese": "{規約|きやく}は{読|よ}み{飛|と}ばしがちだ。",
+      "japanese": "⟦{規約|きやく}→規約：14184_kiyaku⟧⟦は→は：00079_ha⟧{読|よ}み{飛|と}ばしがちだ。",
       "english": "People tend to skim over the terms of service.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "25907_yomitobashi_ex2",
-      "japanese": "{読|よ}み{飛|と}ばしをすると{大事|だいじ}な{情報|じょうほう}を{見落|みお}とす。",
+      "japanese": "{読|よ}み{飛|と}ばし⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧⟦と→と：00512_to⟧⟦{大事|だいじ}→大事：01253_daiji⟧な⟦{情報|じょうほう}→情報：03348_jouhou⟧⟦を→を：00422_wo⟧⟦{見落|みお}とす→見落とす：04578_miotosu⟧。",
       "english": "If you skim, you'll miss important information.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "25907_yomitobashi_ex3",
-      "japanese": "{長|なが}い{小説|しょうせつ}を{読|よ}むとき、{退屈|たいくつ}な{場面|ばめん}は{読|よ}み{飛|と}ばしをしてしまうことがある。",
+      "japanese": "⟦{長|なが}い→長い：00491_nagai⟧⟦{小説|しょうせつ}→小説：01434_shousetsu⟧⟦を→を：00422_wo⟧⟦{読|よ}む→読む：00426_yomu⟧とき、⟦{退屈|たいくつ}→退屈：03389_taikutsu⟧な⟦{場面|ばめん}→場面：03702_bamen⟧⟦は→は：00079_ha⟧{読|よ}み{飛|と}ばし⟦を→を：00422_wo⟧⟦して→する：00392_suru⟧しまうこと⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "When reading a long novel, I sometimes end up skipping over the boring scenes.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "The noun form of the verb {読|よ}み{飛|と}ばす (to skim; to skip while reading). Describes the action of deliberately not reading parts of a text, whether out of impatience, disinterest, or efficiency.\n\nCOMMON COLLOCATIONS:\n- {読|よ}み{飛|と}ばしをする: to do skimming; to skip parts\n- {読|よ}み{飛|と}ばしがちだ: tend to skim over\n- {読|よ}み{飛|と}ばし{禁止|きんし}: no skipping (instruction)\n\nSIMILAR WORDS:\n- {斜|なな}め{読|よ}み: skimming; reading diagonally — implies scanning quickly for key points rather than skipping entirely\n- {飛|と}ばし{読|よ}み: skip-reading — same meaning, reversed word order; less common\n- {速読|そくどく}: speed reading — a technique for reading quickly while maintaining comprehension",
-  "cross_references": [],
+  "notes": "The noun form of the verb ⟦{読|よ}み{飛|と}ばす→読み飛ばす：06850_yomitobasu⟧ (to skim; to skip while reading). Describes the action of deliberately not reading parts of a text, whether out of impatience, disinterest, or efficiency.\n\nCOMMON COLLOCATIONS:\n- {読|よ}み{飛|と}ばし⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧: to do skimming; to skip parts\n- {読|よ}み{飛|と}ばしがちだ: tend to skim over\n- {読|よ}み{飛|と}ばし⟦{禁止|きんし}→禁止：02643_kinshi⟧: no skipping (instruction)\n\nSIMILAR WORDS:\n- ⟦{斜|なな}め{読|よ}み→斜め読み：22744_nanameyomi⟧: skimming; reading diagonally — implies scanning quickly for key points rather than skipping entirely\n- ⟦{飛|と}ばし{読|よ}み→飛ばし読み：22841_tobashiyomi⟧: skip-reading — same meaning, reversed word order; less common\n- ⟦{速読|そくどく}→速読：22402_sokudoku⟧: speed reading — a technique for reading quickly while maintaining comprehension",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22744_nanameyomi",
+      "reading": "ななめよみ",
+      "headword": "{斜|なな}め{読|よ}み",
+      "label": "skimming"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22841_tobashiyomi",
+      "reading": "とばしよみ",
+      "headword": "{飛|と}ばし{読|よ}み",
+      "label": "skip-reading"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22402_sokudoku",
+      "reading": "そくどく",
+      "headword": "{速読|そくどく}",
+      "label": "speed reading"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["cognition", "action"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "cognition",
+        "action"
+      ]
     },
     "created": "2026-04-28T12:19:50Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T04:02:24Z"
   }
 }

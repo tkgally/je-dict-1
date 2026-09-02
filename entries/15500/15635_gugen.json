@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "15635_gugen_ex1",
-      "japanese": "{理想|りそう}を{具現|ぐげん}する。",
+      "japanese": "⟦{理想|りそう}→理想：03676_risou⟧⟦を→を：00422_wo⟧{具現|ぐげん}⟦する→する：00392_suru⟧。",
       "english": "Realize an ideal.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "15635_gugen_ex2",
-      "japanese": "このデザインは{自然|しぜん}との{共生|きょうせい}を{具現|ぐげん}したものだ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦デザイン→デザイン：03860_dezain⟧⟦は→は：00079_ha⟧⟦{自然|しぜん}→自然：01423_shizen⟧⟦と→と：00512_to⟧⟦の→の：09472_no⟧⟦{共生|きょうせい}→共生：11688_kyousei⟧⟦を→を：00422_wo⟧{具現|ぐげん}⟦した→する：00392_suru⟧ものだ。",
       "english": "This design is an embodiment of coexistence with nature.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "15635_gugen_ex3",
-      "japanese": "{彼|かれ}の{作品|さくひん}は{平和|へいわ}への{願|ねが}いを{具現|ぐげん}しており、{多|おお}くの{人|ひと}の{心|こころ}を{動|うご}かした。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧⟦{作品|さくひん}→作品：02776_sakuhin⟧⟦は→は：00079_ha⟧⟦{平和|へいわ}→平和：01507_heiwa⟧⟦へ→へ：02473_he⟧⟦の→の：09472_no⟧⟦{願|ねが}い→願い：03529_negai⟧⟦を→を：00422_wo⟧{具現|ぐげん}⟦して→する：00392_suru⟧おり、{多|おお}く⟦の→の：09472_no⟧⟦{人|ひと}→人：00476_hito⟧⟦の→の：09472_no⟧⟦{心|こころ}→心：01321_kokoro⟧⟦を→を：00422_wo⟧⟦{動|うご}かした→動かす：01885_ugokasu⟧。",
       "english": "His work embodies a wish for peace and has moved many people.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,33 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{具現|ぐげん} is a formal, literary word. It is often used with する to form a verb meaning \"to embody\" or \"to realize in concrete form.\" The related form {具現化|ぐげんか} (making concrete, materialization) is also common.\n\nCOMMON COLLOCATIONS:\n- {具現|ぐげん}する (to embody, to realize)\n- {具現化|ぐげんか}する (to materialize, to make concrete)\n- {理想|りそう}の{具現|ぐげん} (embodiment of an ideal)\n\nSIMILAR WORDS:\n- {体現|たいげん}: embodiment (through one's own body or actions)\n- {実現|じつげん}: realization, achievement (more general and common)\n- {具体化|ぐたいか}: making concrete (less literary)",
-  "cross_references": [],
+  "notes": "USAGE:\n{具現|ぐげん} is a formal, literary word. It is often used with ⟦する→する：00392_suru⟧ to form a verb meaning \"to embody\" or \"to realize in concrete form.\" The related form ⟦{具現化|ぐげんか}→具現化：15226_gugenka⟧ (making concrete, materialization) is also common.\n\nCOMMON COLLOCATIONS:\n- {具現|ぐげん}⟦する→する：00392_suru⟧ (to embody, to realize)\n- ⟦{具現化|ぐげんか}→具現化：15226_gugenka⟧⟦する→する：00392_suru⟧ (to materialize, to make concrete)\n- ⟦{理想|りそう}→理想：03676_risou⟧⟦の→の：09472_no⟧{具現|ぐげん} (embodiment of an ideal)\n\nSIMILAR WORDS:\n- ⟦{体現|たいげん}→体現：11633_taigen⟧: embodiment (through one's own body or actions)\n- ⟦{実現|じつげん}→実現：03276_jitsugen⟧: realization, achievement (more general and common)\n- ⟦{具体化|ぐたいか}→具体化：20775_gutaika⟧: making concrete (less literary)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11633_taigen",
+      "reading": "たいげん",
+      "headword": "{体現|たいげん}",
+      "label": "embodiment"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03276_jitsugen",
+      "reading": "じつげん",
+      "headword": "{実現|じつげん}",
+      "label": "realization, achievement"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20775_gutaika",
+      "reading": "ぐたいか",
+      "headword": "{具体化|ぐたいか}",
+      "label": "making concrete"
+    }
+  ],
   "metadata": {
     "created": "2026-03-07T13:43:42Z",
-    "modified": "2026-03-29T03:08:43Z",
+    "modified": "2026-09-02T04:01:41Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -151,7 +173,8 @@
       "semantic": [
         "abstract"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

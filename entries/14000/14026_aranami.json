@@ -15,41 +15,73 @@
   "examples": [
     {
       "id": "14026_aranami_ex1",
-      "japanese": "{荒波|あらなみ}が{岩|いわ}に{打|う}ちつける。",
+      "japanese": "{荒波|あらなみ}⟦が→が：00051_ga⟧⟦{岩|いわ}→岩：00850_iwa⟧⟦に→に：00314_ni⟧⟦{打|う}ちつける→打ちつける：16631_uchitsukeru⟧。",
       "english": "Rough waves crash against the rocks.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14026_aranami_ex2",
-      "japanese": "{小|ちい}さな{船|ふね}が{荒波|あらなみ}の{中|なか}を{進|すす}んでいった。",
+      "japanese": "⟦{小|ちい}さな→小さな：02913_chiisana⟧⟦{船|ふね}→船：00775_fune⟧⟦が→が：00051_ga⟧{荒波|あらなみ}⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧⟦を→を：00422_wo⟧⟦{進|すす}んで→進む：01225_susumu⟧いった。",
       "english": "A small boat pushed forward through the rough seas.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14026_aranami_ex3",
-      "japanese": "{社会|しゃかい}の{荒波|あらなみ}にもまれながら、{彼女|かのじょ}は{強|つよ}く{生|い}きてきた。",
+      "japanese": "⟦{社会|しゃかい}→社会：01427_shakai⟧⟦の→の：09472_no⟧{荒波|あらなみ}⟦に→に：00314_ni⟧もまれ⟦ながら→ながら：10530_nagara⟧、⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧⟦{強|つよ}く→強い：00820_tsuyoi⟧⟦{生|い}きて→生きる：01184_ikiru⟧きた。",
       "english": "Tossed about by the rough waves of society, she has lived with strength.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "A compound of {荒|あら} (rough, wild) and {波|なみ} (wave).\n\nCOMMON COLLOCATIONS:\n- {荒波|あらなみ}にもまれる (be tossed about by rough waves; go through hardships)\n- {荒波|あらなみ}を{乗|の}り{越|こ}える (overcome rough seas/adversity)\n- {荒波|あらなみ}が{打|う}ちつける (rough waves crash against)\n- {社会|しゃかい}の{荒波|あらなみ} (the rough waves of society)\n\nThe figurative use is very common: {荒波|あらなみ}にもまれる describes being tested by life's hardships, and {人生|じんせい}の{荒波|あらなみ} means the trials and tribulations of life. This metaphorical extension gives the word a literary, somewhat poetic quality.",
-  "cross_references": [],
+  "notes": "A compound of {荒|あら} (rough, wild) and ⟦{波|なみ}→波：00868_nami⟧ (wave).\n\nCOMMON COLLOCATIONS:\n- {荒波|あらなみ}⟦に→に：00314_ni⟧もまれる (be tossed about by rough waves; go through hardships)\n- {荒波|あらなみ}⟦を→を：00422_wo⟧⟦{乗|の}り{越|こ}える→乗り越える：04620_norikoeru⟧ (overcome rough seas/adversity)\n- {荒波|あらなみ}⟦が→が：00051_ga⟧⟦{打|う}ちつける→打ちつける：16631_uchitsukeru⟧ (rough waves crash against)\n- ⟦{社会|しゃかい}→社会：01427_shakai⟧⟦の→の：09472_no⟧{荒波|あらなみ} (the rough waves of society)\n\nThe figurative use is very common: {荒波|あらなみ}⟦に→に：00314_ni⟧もまれる describes being tested by life's hardships, and ⟦{人生|じんせい}→人生：03355_jinsei⟧⟦の→の：09472_no⟧{荒波|あらなみ} means the trials and tribulations of life. This metaphorical extension gives the word a literary, somewhat poetic quality.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "19938_takanami",
+      "reading": "たかなみ",
+      "headword": "{高波|たかなみ}",
+      "label": "high waves"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25004_fuurou",
+      "reading": "ふうろう",
+      "headword": "{風浪|ふうろう}",
+      "label": "wind-driven waves"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25415_oonami",
+      "reading": "おおなみ",
+      "headword": "{大波|おおなみ}",
+      "label": "big wave"
+    }
+  ],
   "metadata": {
     "created": "2026-02-27T09:50:14Z",
-    "modified": "2026-02-27T09:50:14Z",
+    "modified": "2026-09-02T04:01:35Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["weather"]
+      "semantic": [
+        "weather"
+      ]
     }
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25765_zenshuuchuu_ex1",
-      "japanese": "{全集中|ぜんしゅうちゅう}で{取|と}り{組|く}む。",
+      "japanese": "{全集中|ぜんしゅうちゅう}⟦で→で：00502_de⟧⟦{取|と}り{組|く}む→取り組む：04225_torikumu⟧。",
       "english": "To work on something with full concentration.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25765_zenshuuchuu_ex2",
-      "japanese": "{試験|しけん}{前|まえ}は{全集中|ぜんしゅうちゅう}で{勉強|べんきょう}している。",
+      "japanese": "⟦{試験|しけん}→試験：01422_shiken⟧⟦{前|まえ}→前：02255_mae⟧⟦は→は：00079_ha⟧{全集中|ぜんしゅうちゅう}⟦で→で：00502_de⟧⟦{勉強|べんきょう}している→勉強する：00527_benkyousuru⟧。",
       "english": "Before the exam, I'm studying with total focus.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25765_zenshuuchuu_ex3",
-      "japanese": "{締|し}め{切|き}りが{近|ちか}いので、{今日|きょう}は{全集中|ぜんしゅうちゅう}で{仕事|しごと}を{片付|かたづ}けよう。",
+      "japanese": "⟦{締|し}め{切|き}り→締め切り：04162_shimekiri⟧⟦が→が：00051_ga⟧⟦{近|ちか}い→近い：00530_chikai⟧⟦の→の：09472_no⟧で、⟦{今日|きょう}→今日：00496_kyou⟧⟦は→は：00079_ha⟧{全集中|ぜんしゅうちゅう}⟦で→で：00502_de⟧⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦を→を：00422_wo⟧⟦{片付|かたづ}けよう→片付ける：01192_katazukeru⟧。",
       "english": "The deadline is close, so let's power through work with full concentration today.",
       "sense_numbers": [
         1
@@ -44,8 +44,30 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {全|ぜん} (all; total) and {集中|しゅうちゅう} (concentration). While the word existed before, it became a widely recognized buzzword after the anime {鬼滅|きめつ}の{刃|やいば} (Demon Slayer), where {全集中|ぜんしゅうちゅう}の{呼吸|こきゅう} (Total Concentration Breathing) is a central combat technique. It is now casually used in everyday contexts to mean giving something one's undivided attention.\n\nCOMMON COLLOCATIONS:\n- {全集中|ぜんしゅうちゅう}で{取|と}り{組|く}む: to tackle with full focus\n- {全集中|ぜんしゅうちゅう}の{呼吸|こきゅう}: Total Concentration Breathing (Demon Slayer reference)\n- {全集中|ぜんしゅうちゅう}モード: full concentration mode\n\nSIMILAR WORDS:\n- {集中力|しゅうちゅうりょく}: concentration; ability to focus — refers to the capacity itself rather than the state\n- {一心不乱|いっしんふらん}: wholeheartedly; single-mindedly — a classical four-character compound with a similar meaning\n- {没頭|ぼっとう}: immersion; absorption — emphasizes being deeply absorbed in an activity",
-  "cross_references": [],
+  "notes": "A compound of ⟦{全|ぜん}→全〜：28337_zen⟧ (all; total) and ⟦{集中|しゅうちゅう}→集中：03212_shuuchuu⟧ (concentration). While the word existed before, it became a widely recognized buzzword after the anime {鬼滅|きめつ}⟦の→の：09472_no⟧⟦{刃|やいば}→刃：19342_yaiba⟧ (Demon Slayer), where {全集中|ぜんしゅうちゅう}⟦の→の：09472_no⟧⟦{呼吸|こきゅう}→呼吸：02754_kokyuu⟧ (Total Concentration Breathing) is a central combat technique. It is now casually used in everyday contexts to mean giving something one's undivided attention.\n\nCOMMON COLLOCATIONS:\n- {全集中|ぜんしゅうちゅう}⟦で→で：00502_de⟧⟦{取|と}り{組|く}む→取り組む：04225_torikumu⟧: to tackle with full focus\n- {全集中|ぜんしゅうちゅう}⟦の→の：09472_no⟧⟦{呼吸|こきゅう}→呼吸：02754_kokyuu⟧: Total Concentration Breathing (Demon Slayer reference)\n- {全集中|ぜんしゅうちゅう}⟦モード→モード：11596_moodo⟧: full concentration mode\n\nSIMILAR WORDS:\n- ⟦{集中力|しゅうちゅうりょく}→集中力：17614_shuuchuuryoku⟧: concentration; ability to focus — refers to the capacity itself rather than the state\n- ⟦{一心不乱|いっしんふらん}→一心不乱：05692_isshinfuran⟧: wholeheartedly; single-mindedly — a classical four-character compound with a similar meaning\n- ⟦{没頭|ぼっとう}→没頭：07625_bottou⟧: immersion; absorption — emphasizes being deeply absorbed in an activity",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17614_shuuchuuryoku",
+      "reading": "しゅうちゅうりょく",
+      "headword": "{集中力|しゅうちゅうりょく}",
+      "label": "concentration"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05692_isshinfuran",
+      "reading": "いっしんふらん",
+      "headword": "{一心不乱|いっしんふらん}",
+      "label": "wholeheartedly"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07625_bottou",
+      "reading": "ぼっとう",
+      "headword": "{没頭|ぼっとう}",
+      "label": "immersion"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,11 +75,12 @@
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "cognition"
       ]
     },
     "created": "2026-04-27T12:18:00Z",
-    "modified": "2026-08-04T21:28:28Z"
+    "modified": "2026-09-02T04:02:23Z"
   }
 }

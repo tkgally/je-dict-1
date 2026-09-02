@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "20647_meiryou_ex1",
-      "japanese": "{発音|はつおん}が{明瞭|めいりょう}だ。",
+      "japanese": "⟦{発音|はつおん}→発音：01698_hatsuon⟧⟦が→が：00051_ga⟧{明瞭|めいりょう}だ。",
       "english": "The pronunciation is clear.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "20647_meiryou_ex2",
-      "japanese": "{明瞭|めいりょう}な{説明|せつめい}で{分|わ}かりやすかった。",
+      "japanese": "{明瞭|めいりょう}な⟦{説明|せつめい}→説明：01449_setsumei⟧⟦で→で：00502_de⟧⟦{分|わ}かり→分かる：00463_wakaru⟧やすかった。",
       "english": "The clear explanation was easy to understand.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "20647_meiryou_ex3",
-      "japanese": "{証拠|しょうこ}が{明瞭|めいりょう}であるにもかかわらず、{容疑者|ようぎしゃ}は{否認|ひにん}し{続|つづ}けた。",
+      "japanese": "⟦{証拠|しょうこ}→証拠：10575_shouko⟧⟦が→が：00051_ga⟧{明瞭|めいりょう}⟦である→である：09855_dearu⟧にもかかわらず、⟦{容疑者|ようぎしゃ}→容疑者：15039_yougisha⟧⟦は→は：00079_ha⟧⟦{否認|ひにん}→否認：11961_hinin⟧し⟦{続|つづ}け→続く：00903_tsuzuku⟧た。",
       "english": "Despite the evidence being clear, the suspect continued to deny it.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Describes clarity in perception or understanding. Used for things that are distinctly visible, audible, or comprehensible. Has a somewhat formal, written tone compared to everyday words like {はっきり}.\n\nCOMMON COLLOCATIONS:\n- {明瞭|めいりょう}な{発音|はつおん}: clear pronunciation\n- {明瞭|めいりょう}な{説明|せつめい}: clear explanation\n- {明瞭|めいりょう}な{意識|いしき}: clear consciousness\n- {簡潔|かんけつ}{明瞭|めいりょう}: concise and clear\n- {不明瞭|ふめいりょう}: unclear, indistinct\n\nSIMILAR WORDS:\n- {明確|めいかく}: definite, clear-cut — emphasizes precision and definiteness rather than perceptibility\n- はっきり: clearly, distinctly — more colloquial and versatile; used in everyday speech\n- {鮮明|せんめい}: vivid, clear — emphasizes sharpness, often used for images and memories",
+  "notes": "Describes clarity in perception or understanding. Used for things that are distinctly visible, audible, or comprehensible. Has a somewhat formal, written tone compared to everyday words like ⟦はっきり→はっきり：01228_hakkiri⟧.\n\nCOMMON COLLOCATIONS:\n- {明瞭|めいりょう}な⟦{発音|はつおん}→発音：01698_hatsuon⟧: clear pronunciation\n- {明瞭|めいりょう}な⟦{説明|せつめい}→説明：01449_setsumei⟧: clear explanation\n- {明瞭|めいりょう}な⟦{意識|いしき}→意識：01714_ishiki⟧: clear consciousness\n- ⟦{簡潔|かんけつ}→簡潔：05621_kanketsu⟧{明瞭|めいりょう}: concise and clear\n- ⟦{不明瞭|ふめいりょう}→不明瞭：08060_fumeiryou⟧: unclear, indistinct\n\nSIMILAR WORDS:\n- ⟦{明確|めいかく}→明確：01664_meikaku⟧: definite, clear-cut — emphasizes precision and definiteness rather than perceptibility\n- ⟦はっきり→はっきり：01228_hakkiri⟧: clearly, distinctly — more colloquial and versatile; used in everyday speech\n- ⟦{鮮明|せんめい}→鮮明：14686_senmei⟧: vivid, clear — emphasizes sharpness, often used for images and memories",
   "cross_references": [
     {
       "type": "antonym",
@@ -52,6 +52,34 @@
       "headword": "{不明瞭|ふめいりょう}",
       "label": "unclear; indistinct",
       "target_id": "08060_fumeiryou"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01664_meikaku",
+      "reading": "めいかく",
+      "headword": "{明確|めいかく}",
+      "label": "definite, clear-cut"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14686_senmei",
+      "reading": "せんめい",
+      "headword": "{鮮明|せんめい}",
+      "label": "vivid, clear"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15352_meikai",
+      "reading": "めいかい",
+      "headword": "{明快|めいかい}",
+      "label": "clear"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18850_kanmei",
+      "reading": "かんめい",
+      "headword": "{簡明|かんめい}",
+      "label": "concise and clear"
     }
   ],
   "schema_version": "2.0",
@@ -68,6 +96,6 @@
       ]
     },
     "created": "2026-03-29T21:19:57Z",
-    "modified": "2026-07-28T09:34:52Z"
+    "modified": "2026-09-02T04:02:00Z"
   }
 }

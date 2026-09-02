@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "05769_kamei_ex1",
-      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦{国|くに}→国：02204_kuni⟧⟦が→が：00051_ga⟧EU⟦に→に：00314_ni⟧{加盟|かめい}した。",
+      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦{国|くに}→国：02204_kuni⟧⟦が→が：00051_ga⟧EU⟦に→に：00314_ni⟧{加盟|かめい}⟦した→する：00392_suru⟧。",
       "english": "A new country joined the EU.",
       "has_audio": false,
       "sense_numbers": [
@@ -130,7 +130,7 @@
       ]
     }
   ],
-  "notes": "{加盟|かめい} refers to formally joining an organization, alliance, or agreement as a member. Used for countries joining international bodies, stores joining franchises, companies joining associations, etc.\n\nCOMMON COLLOCATIONS:\n- {加盟|かめい}⟦{国|こく}→国：02204_kuni⟧: member nation\n- {加盟|かめい}⟦{店|てん}→店：10011_ten⟧: member/affiliated store\n- {加盟|かめい}⟦{企業|きぎょう}→企業：00225_kigyou⟧: member company\n- {加盟|かめい}⟦を→を：00422_wo⟧⟦{申|もう}し{込|こ}む→申し込む：02311_moushikomu⟧: to apply for membership\n\nCONTRAST:\n- ⟦{脱退|だったい}→脱退：05770_dattai⟧: withdrawal (from an organization)\n- ⟦{離脱|りだつ}→離脱：14583_ridatsu⟧: withdrawal, secession (often political)\n\nSIMILAR WORDS:\n- ⟦{参加|さんか}→参加：02498_sanka⟧: participation (broader, less formal commitment)\n- ⟦{入会|にゅうかい}→入会：11671_nyuukai⟧: joining (a club/society, typically smaller scale)\n- {加盟|かめい} implies formal, institutional membership",
+  "notes": "{加盟|かめい} refers to formally joining an organization, alliance, or agreement as a member. Used for countries joining international bodies, stores joining franchises, companies joining associations, etc.\n\nCOMMON COLLOCATIONS:\n- {加盟|かめい}⟦{国|こく}→国：02204_kuni⟧: member nation\n- {加盟|かめい}⟦{店|てん}→店：10011_ten⟧: member/affiliated store\n- {加盟|かめい}⟦{企業|きぎょう}→企業：00225_kigyou⟧: member company\n- {加盟|かめい}⟦を→を：00422_wo⟧⟦{申|もう}し{込|こ}む→申し込む：02311_moushikomu⟧: to apply for membership\n\nSIMILAR WORDS:\n- ⟦{脱退|だったい}→脱退：05770_dattai⟧: withdrawal (from an organization)\n- ⟦{離脱|りだつ}→離脱：14583_ridatsu⟧: withdrawal, secession (often political)\n- ⟦{参加|さんか}→参加：02498_sanka⟧: participation (broader, less formal commitment)\n- ⟦{入会|にゅうかい}→入会：11671_nyuukai⟧: joining (a club/society, typically smaller scale)\n- {加盟|かめい} implies formal, institutional membership",
   "cross_references": [
     {
       "type": "antonym",
@@ -152,11 +152,25 @@
       "reading": "にゅうかい",
       "headword": "{入会|にゅうかい}",
       "label": "joining (a club)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14583_ridatsu",
+      "reading": "りだつ",
+      "headword": "{離脱|りだつ}",
+      "label": "withdrawal, secession"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02498_sanka",
+      "reading": "さんか",
+      "headword": "{参加|さんか}",
+      "label": "participation"
     }
   ],
   "metadata": {
     "created": "2026-01-16T09:46:13Z",
-    "modified": "2026-06-08T14:06:50Z",
+    "modified": "2026-09-02T04:01:07Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

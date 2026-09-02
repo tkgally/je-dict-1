@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08351_tsurikawa_ex1",
-      "japanese": "{吊|つ}り{革|かわ}につかまって{立|た}っていた。",
+      "japanese": "{吊|つ}り{革|かわ}⟦に→に：00314_ni⟧つかまって⟦{立|た}っていた→立つ：00758_tatsu⟧。",
       "english": "I was standing while holding onto the strap.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "08351_tsurikawa_ex2",
-      "japanese": "{電車|でんしゃ}が{揺|ゆ}れたので、{吊|つ}り{革|かわ}をしっかり{握|にぎ}った。",
+      "japanese": "⟦{電車|でんしゃ}→電車：00522_densha⟧⟦が→が：00051_ga⟧⟦{揺|ゆ}れた→揺れる：01161_yureru⟧⟦の→の：09472_no⟧で、{吊|つ}り{革|かわ}⟦を→を：00422_wo⟧⟦しっかり→しっかり：01272_shikkari⟧⟦{握|にぎ}った→握る：02383_nigiru⟧。",
       "english": "The train shook, so I gripped the strap tightly.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "08351_tsurikawa_ex3",
-      "japanese": "{背|せ}が{低|ひく}くて{吊|つ}り{革|かわ}に{手|て}が{届|とど}かない。",
+      "japanese": "⟦{背|せ}→背：02907_se⟧⟦が→が：00051_ga⟧⟦{低|ひく}くて→低い：02947_hikui⟧{吊|つ}り{革|かわ}⟦に→に：00314_ni⟧⟦{手|て}→手：00569_te⟧⟦が→が：00051_ga⟧⟦{届|とど}かない→届く：00899_todoku⟧。",
       "english": "I'm too short to reach the hanging strap.",
       "sense_numbers": [
         1
@@ -43,7 +43,7 @@
       "notes": null
     }
   ],
-  "notes": "FORMATION:\n{吊|つ}る (to hang) + {革|かわ} (leather) → hanging leather\n\nHistorically, these straps were made of leather, hence the name. Modern ones are often made of plastic or synthetic materials.\n\nVARIATIONS:\n- Triangle-shaped ({三角形|さんかくけい}) - traditional style\n- Ring-shaped ({輪|わ}っか{型|がた}) - common on newer trains\n- Priority seat straps - often a different color\n\nADVERTISING:\n{吊|つ}り{革|かわ}{広告|こうこく} (strap advertising) refers to advertisements placed on or near the straps, a common form of train advertising in Japan.\n\nRELATED TERMS:\n- {手|て}すり (handrail)\n- {立|た}ち{客|きゃく} (standing passenger)\n- {座席|ざせき} (seat)",
+  "notes": "FORMS:\n{吊|つ}る (to hang) + ⟦{革|かわ}→革：19310_kawa⟧ (leather) → hanging leather\n\nHistorically, these straps were made of leather, hence the name. Modern ones are often made of plastic or synthetic materials.\n- Triangle-shaped (⟦{三角形|さんかくけい}→三角形：05436_sankakukei⟧) - traditional style\n- Ring-shaped ({輪|わ}っか{型|がた}) - common on newer trains\n- Priority seat straps - often a different color\n\nADVERTISING:\n{吊|つ}り{革|かわ}⟦{広告|こうこく}→広告：02747_koukoku⟧ (strap advertising) refers to advertisements placed on or near the straps, a common form of train advertising in Japan.\n\nRELATED WORDS:\n- ⟦{手|て}すり→手すり：12754_tesuri⟧ (handrail)\n- ⟦{立|た}ち→立つ：00758_tatsu⟧⟦{客|きゃく}→客：00865_kyaku⟧ (standing passenger)\n- ⟦{座席|ざせき}→座席：02832_zaseki⟧ (seat)",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -51,13 +51,14 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "transportation",
         "daily-life"
       ]
     },
     "created": "2026-01-26T04:23:59Z",
-    "modified": "2026-08-12T12:50:50Z"
+    "modified": "2026-09-02T04:01:14Z"
   },
   "cross_references": [
     {
@@ -66,6 +67,27 @@
       "reading": "まんいんでんしゃ",
       "headword": "{満員電車|まんいんでんしゃ}",
       "label": "packed train"
+    },
+    {
+      "type": "related",
+      "target_id": "12754_tesuri",
+      "reading": "てすり",
+      "headword": "{手|て}すり",
+      "label": "handrail"
+    },
+    {
+      "type": "related",
+      "target_id": "02832_zaseki",
+      "reading": "ざせき",
+      "headword": "{座席|ざせき}",
+      "label": "seat"
+    },
+    {
+      "type": "related",
+      "target_id": "08568_tsuukindensha",
+      "reading": "つうきんでんしゃ",
+      "headword": "{通勤電車|つうきんでんしゃ}",
+      "label": "commuter train"
     }
   ]
 }

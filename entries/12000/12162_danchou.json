@@ -15,41 +15,59 @@
   "examples": [
     {
       "id": "12162_danchou_ex1",
-      "japanese": "{団長|だんちょう}が{挨拶|あいさつ}をする。",
+      "japanese": "{団長|だんちょう}⟦が→が：00051_ga⟧⟦{挨拶|あいさつ}→挨拶：02505_aisatsu⟧⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧。",
       "english": "The group leader gives a greeting.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12162_danchou_ex2",
-      "japanese": "{彼|かれ}は{応援団|おうえんだん}の{団長|だんちょう}を{務|つと}めている。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{応援団|おうえんだん}→応援団：26792_ouendan⟧⟦の→の：09472_no⟧{団長|だんちょう}⟦を→を：00422_wo⟧⟦{務|つと}めている→務める：10446_tsutomeru⟧。",
       "english": "He serves as the leader of the cheer squad.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12162_danchou_ex3",
-      "japanese": "{使節団|しせつだん}の{団長|だんちょう}として{海外|かいがい}を{訪問|ほうもん}し、{各国|かっこく}の{代表|だいひょう}と{会談|かいだん}した。",
+      "japanese": "{使節団|しせつだん}⟦の→の：09472_no⟧{団長|だんちょう}⟦として→として：06802_toshite⟧⟦{海外|かいがい}→海外：00134_kaigai⟧⟦を→を：00422_wo⟧⟦{訪問|ほうもん}→訪問：03622_houmon⟧し、⟦{各国|かっこく}→各国：12055_kakkoku⟧⟦の→の：09472_no⟧⟦{代表|だいひょう}→代表：03419_daihyou⟧⟦と→と：00512_to⟧⟦{会談|かいだん}→会談：11542_kaidan⟧⟦した→する：00392_suru⟧。",
       "english": "As the head of the delegation, he visited overseas and held talks with representatives from various countries.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nUsed for the leader of any organized group ({団|だん}). Common examples include {応援団|おうえんだん}{長|ちょう} (cheer squad leader), {使節団|しせつだん}{長|ちょう} (delegation head), {楽団|がくだん}{長|ちょう} (orchestra/band leader), and {劇団|げきだん}{長|ちょう} (theater troupe leader).\n\nWORD FORMATION:\n{団|だん} (group) + {長|ちょう} (leader/chief). The same {長|ちょう} suffix appears in many leadership titles: {社長|しゃちょう}, {部長|ぶちょう}, {課長|かちょう}, etc.\n\nCOMMON COLLOCATIONS:\n- {団長|だんちょう}を{務|つと}める: to serve as group leader\n- {団長|だんちょう}に{就任|しゅうにん}する: to assume the role of group leader\n- {団長|だんちょう}として: as the group leader",
-  "cross_references": [],
+  "notes": "USAGE:\nUsed for the leader of any organized group (⟦{団|だん}→〜団：04663_dan⟧). Common examples include ⟦{応援団|おうえんだん}→応援団：26792_ouendan⟧⟦{長|ちょう}→〜長：04665_chou⟧ (cheer squad leader), {使節団|しせつだん}⟦{長|ちょう}→〜長：04665_chou⟧ (delegation head), ⟦{楽団|がくだん}→楽団：13181_gakudan⟧⟦{長|ちょう}→〜長：04665_chou⟧ (orchestra/band leader), and ⟦{劇団|げきだん}→劇団：20045_gekidan⟧⟦{長|ちょう}→〜長：04665_chou⟧ (theater troupe leader).\n\nFORMS:\n⟦{団|だん}→〜団：04663_dan⟧ (group) + {長|ちょう} (leader/chief). The same {長|ちょう} suffix appears in many leadership titles: ⟦{社長|しゃちょう}→社長：01428_shachou⟧, ⟦{部長|ぶちょう}→部長：01017_buchou⟧, ⟦{課長|かちょう}→課長：01075_kachou⟧, etc.\n\nCOMMON COLLOCATIONS:\n- {団長|だんちょう}⟦を→を：00422_wo⟧⟦{務|つと}める→務める：10446_tsutomeru⟧: to serve as group leader\n- {団長|だんちょう}⟦に→に：00314_ni⟧⟦{就任|しゅうにん}→就任：12368_shuunin⟧⟦する→する：00392_suru⟧: to assume the role of group leader\n- {団長|だんちょう}⟦として→として：06802_toshite⟧: as the group leader",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "04663_dan",
+      "reading": "だん",
+      "headword": "〜{団|だん}",
+      "label": "group"
+    }
+  ],
   "metadata": {
     "created": "2026-02-20T09:54:20Z",
-    "modified": "2026-02-20T09:54:20Z",
+    "modified": "2026-09-02T04:01:27Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["person"]
+      "semantic": [
+        "person"
+      ]
     }
   }
 }

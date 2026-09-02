@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "27523_raigakki_ex1",
-      "japanese": "{来学期|らいがっき}は{忙|いそが}しくなりそうだ。",
+      "japanese": "{来学期|らいがっき}⟦は→は：00079_ha⟧⟦{忙|いそが}しく→忙しい：00591_isogashii⟧⟦なり→なる：01970_naru⟧そうだ。",
       "english": "Next semester looks like it'll be busy.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "27523_raigakki_ex2",
-      "japanese": "{来学期|らいがっき}は{中国語|ちゅうごくご}を{取|と}るつもりだ。",
+      "japanese": "{来学期|らいがっき}⟦は→は：00079_ha⟧⟦{中国語|ちゅうごくご}→中国語：10966_chuugokugo⟧⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧⟦つもり→つもり：01152_tsumori⟧だ。",
       "english": "I plan to take Chinese next semester.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "27523_raigakki_ex3",
-      "japanese": "{先生|せんせい}は{来学期|らいがっき}も{同|おな}じ{授業|じゅぎょう}を{担当|たんとう}するらしい。",
+      "japanese": "⟦{先生|せんせい}→先生：00609_sensei⟧⟦は→は：00079_ha⟧{来学期|らいがっき}⟦も→も：00484_mo⟧⟦{同|おな}じ→同じ：02857_onaji⟧⟦{授業|じゅぎょう}→授業：00781_jugyou⟧⟦を→を：00422_wo⟧⟦{担当|たんとう}→担当：02567_tantou⟧⟦する→する：00392_suru⟧らしい。",
       "english": "The teacher will apparently be in charge of the same class next semester too.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {来|らい} (coming, next) + {学期|がっき} (academic term). Pattern matches {来週|らいしゅう} (next week), {来月|らいげつ} (next month), {来年|らいねん} (next year).\n\nCOMMON COLLOCATIONS:\n- {来学期|らいがっき}の{授業|じゅぎょう}: next semester's classes\n- {来学期|らいがっき}{始|はじ}まる: next semester begins\n- {来学期|らいがっき}に{向|む}けて: in preparation for next semester\n\nRELATED TERMS:\n- {今学期|こんがっき}: this semester\n- {前学期|ぜんがっき}: last (previous) semester\n- {新学期|しんがっき}: new term (often the start of a school year)",
+  "notes": "Compound of {来|らい} (coming, next) + ⟦{学期|がっき}→学期：01073_gakki⟧ (academic term). Pattern matches ⟦{来週|らいしゅう}→来週：00746_raishuu⟧ (next week), ⟦{来月|らいげつ}→来月：00744_raigetsu⟧ (next month), ⟦{来年|らいねん}→来年：00745_rainen⟧ (next year).\n\nCOMMON COLLOCATIONS:\n- {来学期|らいがっき}⟦の→の：09472_no⟧⟦{授業|じゅぎょう}→授業：00781_jugyou⟧: next semester's classes\n- {来学期|らいがっき}⟦{始|はじ}まる→始まる：00841_hajimaru⟧: next semester begins\n- {来学期|らいがっき}⟦に→に：00314_ni⟧⟦{向|む}けて→向ける：02306_mukeru⟧: in preparation for next semester\n\nRELATED WORDS:\n- {今学期|こんがっき}: this semester\n- {前学期|ぜんがっき}: last (previous) semester\n- ⟦{新学期|しんがっき}→新学期：16070_shingakki⟧: new term (often the start of a school year)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "16070_shingakki",
+      "reading": "しんがっき",
+      "headword": "{新学期|しんがっき}",
+      "label": "new term"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +62,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "education",
         "time-general"
@@ -61,6 +70,6 @@
       "domain": []
     },
     "created": "2026-05-13T04:05:52Z",
-    "modified": "2026-08-07T15:50:37Z"
+    "modified": "2026-09-02T04:02:30Z"
   }
 }

@@ -34,7 +34,7 @@
     },
     {
       "id": "05882_nyuuseihin_ex3",
-      "japanese": "{乳製品|にゅうせいひん}⟦コーナー→コーナー：10865_koonaa⟧⟦で→で：00502_de⟧⟦{ヨーグルト|よーぐると}→ヨーグルト：11133_yooguruto⟧⟦を→を：00422_wo⟧⟦{買|か}った→買う：00489_kau⟧。",
+      "japanese": "{乳製品|にゅうせいひん}⟦コーナー→コーナー：10865_koonaa⟧⟦で→で：00502_de⟧⟦ヨーグルト→ヨーグルト：11133_yooguruto⟧⟦を→を：00422_wo⟧⟦{買|か}った→買う：00489_kau⟧。",
       "english": "I bought yogurt in the dairy section.",
       "notes": null,
       "has_audio": false,
@@ -43,11 +43,47 @@
       ]
     }
   ],
-  "notes": "{乳製品|にゅうせいひん} is the general term for dairy products.\n\nWORD FORMATION:\n⟦{乳|にゅう}→乳：28296_nyuu⟧ (milk) + ⟦{製品|せいひん}→製品：01445_seihin⟧ (product)\n\nCOMMON DAIRY PRODUCTS:\n- ⟦{牛乳|ぎゅうにゅう}→牛乳：00777_gyuunyuu⟧: milk\n- ⟦チーズ→チーズ：00026_chiizu⟧: cheese\n- ⟦バター→バター：04671_bataa⟧: butter\n- ⟦ヨーグルト→ヨーグルト：11133_yooguruto⟧: yogurt\n- ⟦{生|なま}クリーム→生クリーム：15884_namakuriimu⟧: fresh cream\n- ⟦アイスクリーム→アイスクリーム：03830_aisukuriimu⟧: ice cream\n\nCOMMON EXPRESSIONS:\n- {乳製品|にゅうせいひん}⟦アレルギー→アレルギー：04645_arerugii⟧: dairy allergy\n- {乳製品|にゅうせいひん}⟦コーナー→コーナー：10865_koonaa⟧: dairy section (in stores)\n- {乳製品|にゅうせいひん}⟦を→を：00422_wo⟧⟦{控|ひか}える→控える：10054_hikaeru⟧: to limit dairy intake\n\nRELATED:\n- ⟦{乳糖|にゅうとう}→乳糖：29033_nyuutou⟧: lactose\n- ⟦{乳糖不耐症|にゅうとうふたいしょう}→乳糖不耐症：29131_nyuutoufutaishou⟧: lactose intolerance",
-  "cross_references": [],
+  "notes": "{乳製品|にゅうせいひん} is the general term for dairy products.\n\nFORMS:\n⟦{乳|にゅう}→乳：28296_nyuu⟧ (milk) + ⟦{製品|せいひん}→製品：01445_seihin⟧ (product)\n\nCOMMON DAIRY PRODUCTS:\n- ⟦{牛乳|ぎゅうにゅう}→牛乳：00777_gyuunyuu⟧: milk\n- ⟦チーズ→チーズ：00026_chiizu⟧: cheese\n- ⟦バター→バター：04671_bataa⟧: butter\n- ⟦ヨーグルト→ヨーグルト：11133_yooguruto⟧: yogurt\n- ⟦{生|なま}クリーム→生クリーム：15884_namakuriimu⟧: fresh cream\n- ⟦アイスクリーム→アイスクリーム：03830_aisukuriimu⟧: ice cream\n\nCOMMON EXPRESSIONS:\n- {乳製品|にゅうせいひん}⟦アレルギー→アレルギー：04645_arerugii⟧: dairy allergy\n- {乳製品|にゅうせいひん}⟦コーナー→コーナー：10865_koonaa⟧: dairy section (in stores)\n- {乳製品|にゅうせいひん}⟦を→を：00422_wo⟧⟦{控|ひか}える→控える：10054_hikaeru⟧: to limit dairy intake\n\nRELATED WORDS:\n- ⟦{乳糖|にゅうとう}→乳糖：29033_nyuutou⟧: lactose\n- ⟦{乳糖不耐症|にゅうとうふたいしょう}→乳糖不耐症：29131_nyuutoufutaishou⟧: lactose intolerance",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "29033_nyuutou",
+      "reading": "にゅうとう",
+      "headword": "{乳糖|にゅうとう}",
+      "label": "lactose"
+    },
+    {
+      "type": "related",
+      "target_id": "29131_nyuutoufutaishou",
+      "reading": "にゅうとうふたいしょう",
+      "headword": "{乳糖不耐症|にゅうとうふたいしょう}",
+      "label": "lactose intolerance"
+    },
+    {
+      "type": "related",
+      "target_id": "00777_gyuunyuu",
+      "reading": "ぎゅうにゅう",
+      "headword": "{牛乳|ぎゅうにゅう}",
+      "label": "milk"
+    },
+    {
+      "type": "related",
+      "target_id": "04671_bataa",
+      "reading": "ばたー",
+      "headword": "バター",
+      "label": "butter"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24372_seinyuu",
+      "reading": "せいにゅう",
+      "headword": "{生乳|せいにゅう}",
+      "label": "raw milk"
+    }
+  ],
   "metadata": {
     "created": "2026-01-16T14:03:17Z",
-    "modified": "2026-08-25T00:21:26Z",
+    "modified": "2026-09-02T03:02:30Z",
     "schema_version": "2.0",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",

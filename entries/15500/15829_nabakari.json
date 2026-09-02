@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "15829_nabakari_ex1",
-      "japanese": "{名|な}ばかりの{管理職|かんりしょく}だ。",
+      "japanese": "{名|な}ばかり⟦の→の：09472_no⟧⟦{管理職|かんりしょく}→管理職：21834_kanrishoku⟧だ。",
       "english": "He's a manager in name only.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "15829_nabakari_ex2",
-      "japanese": "ここは{名|な}ばかりの{高級|こうきゅう}レストランで、{料理|りょうり}は{普通|ふつう}だった。",
+      "japanese": "⟦ここ→ここ：00961_koko⟧⟦は→は：00079_ha⟧{名|な}ばかり⟦の→の：09472_no⟧⟦{高級|こうきゅう}→高級：08644_koukyuu⟧⟦レストラン→レストラン：01048_resutoran⟧⟦で→で：00502_de⟧、⟦{料理|りょうり}→料理：01523_ryouri⟧⟦は→は：00079_ha⟧⟦{普通|ふつう}→普通：01502_futsuu⟧だった。",
       "english": "This is a supposedly high-end restaurant in name only; the food was ordinary.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "15829_nabakari_ex3",
-      "japanese": "{名|な}ばかりの{改革|かいかく}では{国民|こくみん}の{信頼|しんらい}は{得|え}られない。",
+      "japanese": "{名|な}ばかり⟦の→の：09472_no⟧⟦{改革|かいかく}→改革：04815_kaikaku⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{国民|こくみん}→国民：02757_kokumin⟧⟦の→の：09472_no⟧⟦{信頼|しんらい}→信頼：03268_shinrai⟧⟦は→は：00079_ha⟧⟦{得|え}られない→得る：02014_eru⟧。",
       "english": "Reforms in name only will not win the trust of the people.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,19 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{名|な}ばかり modifies nouns with の: {名|な}ばかりの{社長|しゃちょう} (a president in name only). It is a critical expression implying that the reality does not match the label. The word is a compound of {名|な} (name) + ばかり (only/just).\n\nCOMMON COLLOCATIONS:\n- {名|な}ばかりの{社長|しゃちょう} (president in name only)\n- {名|な}ばかりの{専門家|せんもんか} (expert in name only)\n- {名|な}ばかりの{自由|じゆう} (freedom in name only)\n\nSIMILAR WORDS:\n{形|かたち}だけの means 'only for show' or 'only in form' and is close in meaning. {有名無実|ゆうめいむじつ} is a four-character idiom meaning 'in name but not in reality.' {名|な}ばかり is the most commonly used in everyday speech.",
-  "cross_references": [],
+  "notes": "USAGE:\n{名|な}ばかり modifies nouns with ⟦の→の：09472_no⟧: {名|な}ばかり⟦の→の：09472_no⟧⟦{社長|しゃちょう}→社長：01428_shachou⟧ (a president in name only). It is a critical expression implying that the reality does not match the label. The word is a compound of ⟦{名|な}→名：03496_na⟧ (name) + ⟦ばかり→〜ばかり：02006_bakari⟧ (only/just).\n\nCOMMON COLLOCATIONS:\n- {名|な}ばかり⟦の→の：09472_no⟧⟦{社長|しゃちょう}→社長：01428_shachou⟧ (president in name only)\n- {名|な}ばかり⟦の→の：09472_no⟧⟦{専門家|せんもんか}→専門家：03088_senmonka⟧ (expert in name only)\n- {名|な}ばかり⟦の→の：09472_no⟧⟦{自由|じゆう}→自由：01148_jiyuu⟧ (freedom in name only)\n\nSIMILAR WORDS:\n⟦{形|かたち}→形：02193_katachi⟧⟦だけ→〜だけ：03093_dake⟧⟦の→の：09472_no⟧ means 'only for show' or 'only in form' and is close in meaning. ⟦{有名無実|ゆうめいむじつ}→有名無実：06459_yuumeimujitsu⟧ is a four-character idiom meaning 'in name but not in reality.' {名|な}ばかり is the most commonly used in everyday speech.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16475_kazarimono",
+      "reading": "かざりもの",
+      "headword": "{飾|かざ}り{物|もの}",
+      "label": "ornament"
+    }
+  ],
   "metadata": {
     "created": "2026-03-08T10:16:07Z",
-    "modified": "2026-03-08T10:16:07Z",
+    "modified": "2026-09-02T04:01:42Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

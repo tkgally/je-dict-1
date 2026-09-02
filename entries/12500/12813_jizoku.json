@@ -3,7 +3,7 @@
   "id": "12813_jizoku",
   "headword": "{持続|じぞく}",
   "reading": "じぞく",
-  "part_of_speech": "noun / suru verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "continuation; persistence; sustainability",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "12813_jizoku_ex1",
-      "japanese": "{努力|どりょく}を{持続|じぞく}する。",
+      "japanese": "⟦{努力|どりょく}→努力：03490_doryoku⟧⟦を→を：00422_wo⟧{持続|じぞく}⟦する→する：00392_suru⟧。",
       "english": "To sustain one's efforts.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "12813_jizoku_ex2",
-      "japanese": "この{薬|くすり}の{効果|こうか}は{約|やく}6{時間|じかん}{持続|じぞく}する。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{薬|くすり}→薬：00793_kusuri⟧⟦の→の：09472_no⟧⟦{効果|こうか}→効果：02726_kouka⟧⟦は→は：00079_ha⟧⟦{約|やく}→約：09563_yaku⟧6⟦{時間|じかん}→時間：00468_jikan⟧{持続|じぞく}⟦する→する：00392_suru⟧。",
       "english": "The effect of this medicine lasts about six hours.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "12813_jizoku_ex3",
-      "japanese": "{持続|じぞく}{可能|かのう}な{社会|しゃかい}を{実現|じつげん}するために、{一人一人|ひとりひとり}の{行動|こうどう}が{大切|たいせつ}だ。",
+      "japanese": "{持続|じぞく}⟦{可能|かのう}→可能：00175_kanou⟧な⟦{社会|しゃかい}→社会：01427_shakai⟧⟦を→を：00422_wo⟧⟦{実現|じつげん}→実現：03276_jitsugen⟧⟦する→する：00392_suru⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧、⟦{一人一人|ひとりひとり}→一人一人：03711_hitorihitori⟧⟦の→の：09472_no⟧⟦{行動|こうどう}→行動：02728_koudou⟧⟦が→が：00051_ga⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧だ。",
       "english": "Individual actions are important to realize a sustainable society.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{持続|じぞく} emphasizes maintaining something over time. It is used both as a noun and as a suru verb. The compound {持続|じぞく}{可能|かのう} (\"sustainable\") has become very common in discussions of environmental and social policy.\n\nCOMMON COLLOCATIONS:\n- {持続|じぞく}{可能|かのう}: sustainable\n- {持続|じぞく}{力|りょく}: endurance, staying power\n- {持続|じぞく}{的|てき}: continuous, sustained\n- {効果|こうか}が{持続|じぞく}する: the effect lasts\n- {成長|せいちょう}を{持続|じぞく}する: to sustain growth",
+  "notes": "USAGE:\n{持続|じぞく} emphasizes maintaining something over time. It is used both as a noun and as a suru verb. The compound {持続|じぞく}⟦{可能|かのう}→可能：00175_kanou⟧ (\"sustainable\") has become very common in discussions of environmental and social policy.\n\nCOMMON COLLOCATIONS:\n- {持続|じぞく}⟦{可能|かのう}→可能：00175_kanou⟧: sustainable\n- {持続|じぞく}{力|りょく}: endurance, staying power\n- {持続|じぞく}{的|てき}: continuous, sustained\n- ⟦{効果|こうか}→効果：02726_kouka⟧⟦が→が：00051_ga⟧{持続|じぞく}⟦する→する：00392_suru⟧: the effect lasts\n- ⟦{成長|せいちょう}→成長：03290_seichou⟧⟦を→を：00422_wo⟧{持続|じぞく}⟦する→する：00392_suru⟧: to sustain growth",
   "cross_references": [
     {
       "type": "synonym",
@@ -142,11 +142,18 @@
       "reading": "けいぞく",
       "headword": "{継続|けいぞく}",
       "label": "continuing, carrying on"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22835_eizoku",
+      "reading": "えいぞく",
+      "headword": "{永続|えいぞく}",
+      "label": "permanence"
     }
   ],
   "metadata": {
     "created": "2026-02-22T11:07:21Z",
-    "modified": "2026-04-27T09:13:01Z",
+    "modified": "2026-09-02T04:01:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -159,7 +166,8 @@
       "semantic": [
         "time-general"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "both"
     }
   }
 }

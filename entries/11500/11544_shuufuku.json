@@ -2,7 +2,7 @@
   "id": "11544_shuufuku",
   "headword": "{修復|しゅうふく}",
   "reading": "しゅうふく",
-  "part_of_speech": "noun / verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "restoration, repair, mending",
   "conjugation": {
     "type": "suru",
@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "11544_shuufuku_ex1",
-      "japanese": "{関係|かんけい}を{修復|しゅうふく}する。",
+      "japanese": "⟦{関係|かんけい}→関係：01298_kankei⟧⟦を→を：00422_wo⟧{修復|しゅうふく}⟦する→する：00392_suru⟧。",
       "english": "Repair the relationship.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "11544_shuufuku_ex2",
-      "japanese": "{壊|こわ}れた{橋|はし}の{修復|しゅうふく}{工事|こうじ}が{始|はじ}まった。",
+      "japanese": "⟦{壊|こわ}れた→壊れる：00791_kowareru⟧⟦{橋|はし}→橋：02163_hashi⟧⟦の→の：09472_no⟧{修復|しゅうふく}⟦{工事|こうじ}→工事：00244_kouji⟧⟦が→が：00051_ga⟧⟦{始|はじ}まった→始まる：00841_hajimaru⟧。",
       "english": "Repair work on the damaged bridge has begun.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "11544_shuufuku_ex3",
-      "japanese": "{国宝|こくほう}の{絵画|かいが}を{修復|しゅうふく}するには{高度|こうど}な{技術|ぎじゅつ}と{長|なが}い{時間|じかん}が{必要|ひつよう}だ。",
+      "japanese": "⟦{国宝|こくほう}→国宝：09642_kokuhou⟧⟦の→の：09472_no⟧⟦{絵画|かいが}→絵画：02597_kaiga⟧⟦を→を：00422_wo⟧{修復|しゅうふく}⟦する→する：00392_suru⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{高度|こうど}→高度：00243_koudo⟧な⟦{技術|ぎじゅつ}→技術：01389_gijutsu⟧⟦と→と：00512_to⟧⟦{長|なが}い→長い：00491_nagai⟧⟦{時間|じかん}→時間：00468_jikan⟧⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧だ。",
       "english": "Restoring a national treasure painting requires advanced skills and a long time.",
       "notes": null,
       "has_audio": false,
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "Can be used for both physical repairs (buildings, artwork, infrastructure) and figurative restoration (relationships, trust, reputation). Compared to {修理|しゅうり} (repair), {修復|しゅうふく} implies restoring something closer to its original state and is often used for more significant or delicate work.\n\nCOMMON COLLOCATIONS:\n・{修復|しゅうふく}{工事|こうじ} (repair/restoration work)\n・{関係|かんけい}を{修復|しゅうふく}する (mend a relationship)\n・{修復|しゅうふく}{不可能|ふかのう} (beyond repair)\n・{文化財|ぶんかざい}の{修復|しゅうふく} (restoration of cultural property)",
+  "notes": "Can be used for both physical repairs (buildings, artwork, infrastructure) and figurative restoration (relationships, trust, reputation). Compared to ⟦{修理|しゅうり}→修理：03214_shuuri⟧ (repair), {修復|しゅうふく} implies restoring something closer to its original state and is often used for more significant or delicate work.\n\nCOMMON COLLOCATIONS:\n- {修復|しゅうふく}⟦{工事|こうじ}→工事：00244_kouji⟧ (repair/restoration work)\n- ⟦{関係|かんけい}→関係：01298_kankei⟧⟦を→を：00422_wo⟧{修復|しゅうふく}⟦する→する：00392_suru⟧ (mend a relationship)\n- {修復|しゅうふく}⟦{不可能|ふかのう}→不可能：03144_fukanou⟧ (beyond repair)\n- ⟦{文化財|ぶんかざい}→文化財：12932_bunkazai⟧⟦の→の：09472_no⟧{修復|しゅうふく} (restoration of cultural property)",
   "cross_references": [
     {
       "type": "synonym",
@@ -148,11 +148,18 @@
       "reading": "ふくげん",
       "headword": "{復元|ふくげん}",
       "label": "restoration, reconstruction"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07521_fukkyuu",
+      "reading": "ふっきゅう",
+      "headword": "{復旧|ふっきゅう}",
+      "label": "recovery"
     }
   ],
   "metadata": {
     "created": "2026-02-17T02:59:50Z",
-    "modified": "2026-07-01T09:49:53Z",
+    "modified": "2026-09-02T04:01:25Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
@@ -166,7 +173,8 @@
       "semantic": [
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

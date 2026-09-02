@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21495_yamikumoni_ex1",
-      "japanese": "やみくもに{走|はし}り{出|だ}した。",
+      "japanese": "やみくもに⟦{走|はし}り{出|だ}した→走り出す：06679_hashiridasu⟧。",
       "english": "I broke into a blind run.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21495_yamikumoni_ex2",
-      "japanese": "やみくもに{努力|どりょく}しても{結果|けっか}は{出|で}ない。",
+      "japanese": "やみくもに⟦{努力|どりょく}して→努力する：20201_doryokusuru⟧⟦も→も：00484_mo⟧⟦{結果|けっか}→結果：02486_kekka⟧⟦は→は：00079_ha⟧⟦{出|で}ない→出る：00513_deru⟧。",
       "english": "Effort without direction won't produce results.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21495_yamikumoni_ex3",
-      "japanese": "{情報|じょうほう}を{集|あつ}めずにやみくもに{行動|こうどう}すると、かえって{状況|じょうきょう}を{悪化|あっか}させることがある。",
+      "japanese": "⟦{情報|じょうほう}→情報：03348_jouhou⟧⟦を→を：00422_wo⟧⟦{集|あつ}め→集める：01170_atsumeru⟧ず⟦に→に：00314_ni⟧やみくもに⟦{行動|こうどう}→行動：02728_koudou⟧⟦する→する：00392_suru⟧⟦と→と：00512_to⟧、かえって⟦{状況|じょうきょう}→状況：01576_joukyou⟧⟦を→を：00422_wo⟧⟦{悪化|あっか}させる→悪化する：18844_akkasuru⟧こと⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "Acting recklessly without gathering information can actually make the situation worse.",
       "sense_numbers": [
         1
@@ -44,7 +44,16 @@
       "notes": null
     }
   ],
-  "notes": "An adverb meaning to act without plan, thought, or direction — blindly and recklessly. Written in kanji as {闇雲|やみくも}に, combining {闇|やみ} (darkness) and {雲|くも} (cloud), evoking the image of groping blindly through dark clouds.\n\nUSAGE:\n- Almost always used with a negative implication — acting this way is unwise\n- Modifies action verbs: やみくもに + verb\n- The na-adjective form やみくもな is also used: やみくもな{行動|こうどう} (reckless action)\n\nCOMMON COLLOCATIONS:\n- やみくもに{突|つ}き{進|すす}む: to charge ahead blindly\n- やみくもに{信|しん}じる: to believe blindly\n- やみくもに{努力|どりょく}する: to make blind effort\n- やみくもな{行動|こうどう}: reckless behavior\n\nSIMILAR WORDS:\n- むやみに: recklessly, thoughtlessly — very similar; slightly less vivid\n- めちゃくちゃに: in a completely disorderly way — more extreme and chaotic\n- がむしゃらに: desperately, single-mindedly — implies determined effort rather than aimlessness\n- {盲目的|もうもくてき}に: blindly — more formal; often used for beliefs or loyalty",
+  "notes": "An adverb meaning to act without plan, thought, or direction — blindly and recklessly. Written in kanji as {闇雲|やみくも}⟦に→に：00314_ni⟧, combining ⟦{闇|やみ}→闇：14528_yami⟧ (darkness) and ⟦{雲|くも}→雲：02202_kumo⟧ (cloud), evoking the image of groping blindly through dark clouds.\n\nUSAGE:\n- Almost always used with a negative implication — acting this way is unwise\n- Modifies action verbs: やみくもに + verb\n- The na-adjective form やみくもな is also used: やみくもな⟦{行動|こうどう}→行動：02728_koudou⟧ (reckless action)\n\nCOMMON COLLOCATIONS:\n- やみくもに⟦{突|つ}き{進|すす}む→突き進む：07266_tsukisusumu⟧: to charge ahead blindly\n- やみくもに⟦{信|しん}じる→信じる：01111_shinjiru⟧: to believe blindly\n- やみくもに⟦{努力|どりょく}する→努力する：20201_doryokusuru⟧: to make blind effort\n- やみくもな⟦{行動|こうどう}→行動：02728_koudou⟧: reckless behavior\n\nSIMILAR WORDS:\n- ⟦むやみ→むやみ：20555_muyami⟧⟦に→に：00314_ni⟧: recklessly, thoughtlessly — very similar; slightly less vivid\n- ⟦めちゃくちゃ→めちゃくちゃ：05178_mechakucha⟧⟦に→に：00314_ni⟧: in a completely disorderly way — more extreme and chaotic\n- がむしゃら⟦に→に：00314_ni⟧: desperately, single-mindedly — implies determined effort rather than aimlessness\n- {盲目的|もうもくてき}⟦に→に：00314_ni⟧: blindly — more formal; often used for beliefs or loyalty",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05731_muyamini",
+      "reading": "むやみに",
+      "headword": "{無闇|むやみ}に",
+      "label": "recklessly, thoughtlessly"
+    }
+  ],
   "metadata": {
     "entry_id": "21495_yamikumoni",
     "schema_version": "2.0",
@@ -55,12 +64,13 @@
       "pos": [
         "adverb"
       ],
+      "politeness": "plain",
       "semantic": [
         "descriptive"
       ],
       "register": [],
       "usage": []
     },
-    "modified": "2026-07-29T12:35:11Z"
+    "modified": "2026-09-02T04:02:03Z"
   }
 }

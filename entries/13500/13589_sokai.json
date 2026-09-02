@@ -3,7 +3,7 @@
   "id": "13589_sokai",
   "headword": "{疎開|そかい}",
   "reading": "そかい",
-  "part_of_speech": "noun; verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "evacuation, dispersal",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "13589_sokai_ex1",
-      "japanese": "{子|こ}どもたちは{田舎|いなか}に{疎開|そかい}した。",
+      "japanese": "{子|こ}どもたち⟦は→は：00079_ha⟧⟦{田舎|いなか}→田舎：01320_inaka⟧⟦に→に：00314_ni⟧{疎開|そかい}⟦した→する：00392_suru⟧。",
       "english": "The children were evacuated to the countryside.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "13589_sokai_ex2",
-      "japanese": "{戦争中|せんそうちゅう}、{多|おお}くの{学校|がっこう}が{集団|しゅうだん}{疎開|そかい}を{行|おこな}った。",
+      "japanese": "{戦争中|せんそうちゅう}、{多|おお}く⟦の→の：09472_no⟧⟦{学校|がっこう}→学校：00055_gakkou⟧⟦が→が：00051_ga⟧⟦{集団|しゅうだん}→集団：03211_shuudan⟧{疎開|そかい}⟦を→を：00422_wo⟧⟦{行|おこな}った→行う：01238_okonau⟧。",
       "english": "During the war, many schools carried out group evacuations.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "13589_sokai_ex3",
-      "japanese": "{祖母|そぼ}は{戦時中|せんじちゅう}の{疎開|そかい}{先|さき}での{生活|せいかつ}について、よく{話|はなし}をしてくれた。",
+      "japanese": "⟦{祖母|そぼ}→祖母：00813_sobo⟧⟦は→は：00079_ha⟧⟦{戦時中|せんじちゅう}→戦時中：28629_senjichuu⟧⟦の→の：09472_no⟧{疎開|そかい}{先|さき}⟦で→で：00502_de⟧⟦の→の：09472_no⟧⟦{生活|せいかつ}→生活：01443_seikatsu⟧⟦について→〜について：03103_nitsuite⟧、⟦よく→よく：00601_yoku⟧⟦{話|はなし}→話：01496_hanashi⟧⟦を→を：00422_wo⟧⟦して→する：00392_suru⟧⟦くれた→くれる：00724_kureru⟧。",
       "english": "My grandmother often told me about her life at the place where she was evacuated during the war.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "HISTORICAL CONTEXT:\nDuring World War II, as Japanese cities came under air raids, the government organized mass evacuations ({疎開|そかい}) of civilians, especially children, to rural areas. {学童疎開|がくどうそかい} (schoolchild evacuation) is one of the most well-known aspects of wartime Japan, frequently depicted in literature and film.\n\nAlso functions as a する verb: {疎開|そかい}する (to evacuate, to be evacuated).\n\nSIMILAR WORDS:\n- {避難|ひなん}: evacuation/taking refuge — broader term used for any emergency\n- {疎開|そかい}: specifically wartime dispersal of population or assets\n\nCOMMON COLLOCATIONS:\n- {疎開|そかい}する: to evacuate\n- {疎開|そかい}{先|さき}: evacuation destination\n- {集団|しゅうだん}{疎開|そかい}: group evacuation\n- {学童|がくどう}{疎開|そかい}: schoolchild evacuation",
+  "notes": "ETYMOLOGY:\nDuring World War II, as Japanese cities came under air raids, the government organized mass evacuations ({疎開|そかい}) of civilians, especially children, to rural areas. {学童疎開|がくどうそかい} (schoolchild evacuation) is one of the most well-known aspects of wartime Japan, frequently depicted in literature and film.\n\nAlso functions as a ⟦する→する：00392_suru⟧ verb: {疎開|そかい}⟦する→する：00392_suru⟧ (to evacuate, to be evacuated).\n\nSIMILAR WORDS:\n- ⟦{避難|ひなん}→避難：07908_hinan⟧: evacuation/taking refuge — broader term used for any emergency\n- {疎開|そかい}: specifically wartime dispersal of population or assets\n\nCOMMON COLLOCATIONS:\n- {疎開|そかい}⟦する→する：00392_suru⟧: to evacuate\n- {疎開|そかい}{先|さき}: evacuation destination\n- ⟦{集団|しゅうだん}→集団：03211_shuudan⟧{疎開|そかい}: group evacuation\n- ⟦{学童|がくどう}→学童：20652_gakudou⟧{疎開|そかい}: schoolchild evacuation",
   "cross_references": [
     {
       "type": "contrast",
@@ -142,11 +142,18 @@
       "reading": "ひなん",
       "headword": "{避難|ひなん}",
       "label": "evacuation (general)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26827_hinansuru",
+      "reading": "ひなんする",
+      "headword": "{避難|ひなん}する",
+      "label": "to evacuate"
     }
   ],
   "metadata": {
     "created": "2026-02-26T09:48:55Z",
-    "modified": "2026-04-29T05:15:51Z",
+    "modified": "2026-09-02T04:01:33Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

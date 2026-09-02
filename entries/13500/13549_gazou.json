@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "13549_gazou_ex1",
-      "japanese": "この{画像|がぞう}はきれいだ。",
+      "japanese": "⟦この→この：00962_kono⟧{画像|がぞう}⟦は→は：00079_ha⟧⟦きれい→きれい：00717_kirei⟧だ。",
       "english": "This image is beautiful.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "13549_gazou_ex2",
-      "japanese": "{画像|がぞう}をクリックして{拡大|かくだい}してください。",
+      "japanese": "{画像|がぞう}⟦を→を：00422_wo⟧⟦クリックして→クリックする：24722_kurikkusuru⟧⟦{拡大|かくだい}→拡大：02553_kakudai⟧⟦して→する：00392_suru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please click on the image to enlarge it.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "13549_gazou_ex3",
-      "japanese": "SNSにアップロードする{前|まえ}に、{画像|がぞう}のサイズを{確認|かくにん}した{方|ほう}がいい。",
+      "japanese": "SNS⟦に→に：00314_ni⟧⟦アップロード→アップロード：04760_appuroodo⟧⟦する→する：00392_suru⟧⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧、{画像|がぞう}⟦の→の：09472_no⟧⟦サイズ→サイズ：01363_saizu⟧⟦を→を：00422_wo⟧⟦{確認|かくにん}した→確認する：25332_kakuninsuru⟧⟦{方|ほう}→方：01139_hou⟧⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧。",
       "english": "You should check the image size before uploading it to social media.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{画像|がぞう} is the standard word for images in digital and print contexts. It covers photographs, illustrations, screenshots, and any visual file.\n\nCOMMON COLLOCATIONS:\n- {画像|がぞう}を{保存|ほぞん}する (save an image)\n- {画像|がぞう}を{編集|へんしゅう}する (edit an image)\n- {画像|がぞう}を{検索|けんさく}する (search for images)\n- {画像|がぞう}{処理|しょり} (image processing)\n- {高画質|こうがしつ}の{画像|がぞう} (high-quality image)\n\nSIMILAR WORDS:\n- {写真|しゃしん}: photograph (specifically photos taken with a camera)\n- {映像|えいぞう}: video, footage (moving images)\n- {絵|え}: drawing, painting (hand-created images)",
+  "notes": "USAGE:\n{画像|がぞう} is the standard word for images in digital and print contexts. It covers photographs, illustrations, screenshots, and any visual file.\n\nCOMMON COLLOCATIONS:\n- {画像|がぞう}⟦を→を：00422_wo⟧⟦{保存|ほぞん}→保存：03626_hozon⟧⟦する→する：00392_suru⟧ (save an image)\n- {画像|がぞう}⟦を→を：00422_wo⟧⟦{編集|へんしゅう}する→編集する：21991_henshuusuru⟧ (edit an image)\n- {画像|がぞう}⟦を→を：00422_wo⟧⟦{検索|けんさく}→検索：04729_kensaku⟧⟦する→する：00392_suru⟧ (search for images)\n- {画像|がぞう}⟦{処理|しょり}→処理：03251_shori⟧ (image processing)\n- ⟦{高画質|こうがしつ}→高画質：23668_kougashitsu⟧⟦の→の：09472_no⟧{画像|がぞう} (high-quality image)\n\nSIMILAR WORDS:\n- ⟦{写真|しゃしん}→写真：00753_shashin⟧: photograph (specifically photos taken with a camera)\n- ⟦{映像|えいぞう}→映像：04444_eizou⟧: video, footage (moving images)\n- ⟦{絵|え}→絵：02613_e⟧: drawing, painting (hand-created images)",
   "cross_references": [
     {
       "type": "related",
@@ -59,11 +59,25 @@
       "headword": "{映像|えいぞう}",
       "label": "video, footage",
       "target_id": "04444_eizou"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02613_e",
+      "reading": "え",
+      "headword": "{絵|え}",
+      "label": "drawing, painting"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28437_sukuriinshotto",
+      "reading": "すくりーんしょっと",
+      "headword": "スクリーンショット",
+      "label": "screenshot"
     }
   ],
   "metadata": {
     "created": "2026-02-25T14:23:52Z",
-    "modified": "2026-03-29T10:42:23Z",
+    "modified": "2026-09-02T04:01:33Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

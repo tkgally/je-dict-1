@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08321_otoshibuta_ex1",
-      "japanese": "{落|お}とし{蓋|ぶた}をして{弱火|よわび}で{煮|に}る。",
+      "japanese": "{落|お}とし{蓋|ぶた}⟦を→を：00422_wo⟧⟦して→する：00392_suru⟧⟦{弱火|よわび}→弱火：08168_yowabi⟧⟦で→で：00502_de⟧⟦{煮|に}る→煮る：01971_niru⟧。",
       "english": "Cover with a drop lid and simmer over low heat.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "08321_otoshibuta_ex2",
-      "japanese": "{落|お}とし{蓋|ぶた}がないときはアルミホイルで{代用|だいよう}できる。",
+      "japanese": "{落|お}とし{蓋|ぶた}⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧とき⟦は→は：00079_ha⟧アルミホイル⟦で→で：00502_de⟧⟦{代用|だいよう}→代用：16439_daiyou⟧⟦できる→できる：00557_dekiru⟧。",
       "english": "If you don't have a drop lid, aluminum foil can be used as a substitute.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "08321_otoshibuta_ex3",
-      "japanese": "{煮物|にもの}には{落|お}とし{蓋|ぶた}が{欠|か}かせない。",
+      "japanese": "⟦{煮物|にもの}→煮物：04971_nimono⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{落|お}とし{蓋|ぶた}⟦が→が：00051_ga⟧⟦{欠|か}かせない→欠かす：10138_kakasu⟧。",
       "english": "A drop lid is essential for simmered dishes.",
       "sense_numbers": [
         1
@@ -43,7 +43,7 @@
       "notes": null
     }
   ],
-  "notes": "FORMATION:\n{落|お}とす (to drop) + {蓋|ふた} (lid) → lid that drops onto food\n\nPURPOSE:\n{落|お}とし{蓋|ぶた} serves several functions in Japanese cooking:\n- Keeps ingredients submerged in cooking liquid\n- Distributes heat evenly\n- Prevents ingredients from breaking apart\n- Allows steam to escape while retaining moisture\n\nMATERIALS:\nTraditionally made of:\n- {木|き} (wood) - especially cypress\n- Modern alternatives: silicone, stainless steel\n- Substitutes: aluminum foil, parchment paper\n\nCOMMON DISHES:\n{落|お}とし{蓋|ぶた} is commonly used for:\n- {煮物|にもの} (simmered dishes)\n- {肉|にく}じゃが (meat and potatoes)\n- {煮魚|にざかな} (simmered fish)\n- {角煮|かくに} (braised pork belly)\n\nUSAGE:\n{落|お}とし{蓋|ぶた}をする (to place a drop lid)",
+  "notes": "FORMS:\n⟦{落|お}とす→落とす：01246_otosu⟧ (to drop) + ⟦{蓋|ふた}→蓋：03896_futa⟧ (lid) → lid that drops onto food\n\nPURPOSE:\n{落|お}とし{蓋|ぶた} serves several functions in Japanese cooking:\n- Keeps ingredients submerged in cooking liquid\n- Distributes heat evenly\n- Prevents ingredients from breaking apart\n- Allows steam to escape while retaining moisture\n\nMATERIALS:\nTraditionally made of:\n- ⟦{木|き}→木：00524_ki⟧ (wood) - especially cypress\n- Modern alternatives: silicone, stainless steel\n- Substitutes: aluminum foil, parchment paper\n\nCOMMON DISHES:\n{落|お}とし{蓋|ぶた} is commonly used for:\n- ⟦{煮物|にもの}→煮物：04971_nimono⟧ (simmered dishes)\n- ⟦{肉|にく}じゃが→肉じゃが：17620_nikujaga⟧ (meat and potatoes)\n- ⟦{煮魚|にざかな}→煮魚：16484_nizakana⟧ (simmered fish)\n- {角煮|かくに} (braised pork belly)\n\nUSAGE:\n{落|お}とし{蓋|ぶた}⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧ (to place a drop lid)",
   "cross_references": [
     {
       "type": "related",
@@ -51,6 +51,13 @@
       "reading": "にもの",
       "headword": "{煮物|にもの}",
       "label": "simmered dishes"
+    },
+    {
+      "type": "related",
+      "target_id": "20379_nabebuta",
+      "reading": "なべぶた",
+      "headword": "{鍋蓋|なべぶた}",
+      "label": "pot lid"
     }
   ],
   "metadata": {
@@ -60,12 +67,13 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "cooking",
         "tool"
       ]
     },
     "created": "2026-01-25T23:16:11Z",
-    "modified": "2026-08-11T21:41:41Z"
+    "modified": "2026-09-02T04:01:14Z"
   }
 }

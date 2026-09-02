@@ -14,40 +14,94 @@
   "examples": [
     {
       "id": "09928_tenimotsu_ex1",
-      "japanese": "{手荷物|てにもつ}は{一|ひと}つまでです。",
+      "japanese": "{手荷物|てにもつ}⟦は→は：00079_ha⟧⟦{一|ひと}つ→一つ：02948_hitotsu⟧⟦まで→まで：00490_made⟧です。",
       "english": "You can have only one piece of carry-on luggage.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09928_tenimotsu_ex2",
-      "japanese": "{手荷物|てにもつ}{検査|けんさ}を{受|う}けてください。",
+      "japanese": "{手荷物|てにもつ}⟦{検査|けんさ}→検査：02707_kensa⟧⟦を→を：00422_wo⟧⟦{受|う}けて→受ける：01215_ukeru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please go through the baggage inspection.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09928_tenimotsu_ex3",
-      "japanese": "{手荷物|てにもつ}は{座席|ざせき}の{下|した}か{上|うえ}の{棚|たな}に{収納|しゅうのう}してください。",
+      "japanese": "{手荷物|てにもつ}⟦は→は：00079_ha⟧⟦{座席|ざせき}→座席：02832_zaseki⟧⟦の→の：09472_no⟧⟦{下|した}→下：00670_shita⟧⟦か→か：09473_ka⟧⟦{上|うえ}→上：00682_ue⟧⟦の→の：09472_no⟧⟦{棚|たな}→棚：01650_tana⟧⟦に→に：00314_ni⟧⟦{収納|しゅうのう}→収納：07497_shuunou⟧⟦して→する：00392_suru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please store your hand luggage under your seat or in the overhead bin.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "A common travel term used at airports and train stations.\n\nCOMMON COLLOCATIONS:\n- {手荷物|てにもつ}{検査|けんさ} (baggage inspection/security check)\n- {手荷物|てにもつ}{預|あず}かり{所|じょ} (baggage storage/left luggage)\n- {手荷物|てにもつ}{制限|せいげん} (carry-on restrictions)\n- {手荷物|てにもつ}を{持|も}ち{込|こ}む (to bring carry-on luggage)\n\nRELATED TERMS:\n- {預|あず}け{荷物|にもつ}: checked baggage\n- {機内|きない}{持|も}ち{込|こ}み: carry-on (for flights)\n- {荷物|にもつ}: luggage, baggage",
+  "notes": "A common travel term used at airports and train stations.\n\nCOMMON COLLOCATIONS:\n- {手荷物|てにもつ}⟦{検査|けんさ}→検査：02707_kensa⟧ (baggage inspection/security check)\n- {手荷物|てにもつ}⟦{預|あず}かり{所|じょ}→預かり所：24116_azukarijo⟧ (baggage storage/left luggage)\n- {手荷物|てにもつ}⟦{制限|せいげん}→制限：03375_seigen⟧ (carry-on restrictions)\n- {手荷物|てにもつ}⟦を→を：00422_wo⟧⟦{持|も}ち{込|こ}む→持ち込む：04226_mochikomu⟧ (to bring carry-on luggage)\n\nRELATED WORDS:\n- ⟦{預|あず}け{荷物|にもつ}→預け荷物：10203_azukenimotsu⟧: checked baggage\n- ⟦{機内|きない}{持|も}ち{込|こ}み→機内持ち込み：10204_kinaimochikomi⟧: carry-on (for flights)\n- ⟦{荷物|にもつ}→荷物：00737_nimotsu⟧: luggage, baggage",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "10203_azukenimotsu",
+      "reading": "あずけにもつ",
+      "headword": "{預|あず}け{荷物|にもつ}",
+      "label": "checked baggage"
+    },
+    {
+      "type": "related",
+      "target_id": "10204_kinaimochikomi",
+      "reading": "きないもちこみ",
+      "headword": "{機内持|きないも}ち{込|こ}み",
+      "label": "carry-on"
+    },
+    {
+      "type": "related",
+      "target_id": "10195_amidana",
+      "reading": "あみだな",
+      "headword": "{網棚|あみだな}",
+      "label": "luggage rack, overhead rack"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20346_shojihin",
+      "reading": "しょじひん",
+      "headword": "{所持品|しょじひん}",
+      "label": "personal belongings"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20690_azukeirenimotsu",
+      "reading": "あずけいれにもつ",
+      "headword": "{預|あず}け{入|い}れ{荷物|にもつ}",
+      "label": "checked baggage"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24930_keitaihin",
+      "reading": "けいたいひん",
+      "headword": "{携帯品|けいたいひん}",
+      "label": "personal belongings"
+    }
+  ],
   "metadata": {
     "created": "2026-02-04T06:17:12Z",
-    "modified": "2026-02-04T06:17:12Z",
+    "modified": "2026-09-02T04:01:19Z",
     "ai_model": "claude-opus-4-5-20251101",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["travel"]
+      "semantic": [
+        "travel"
+      ]
     }
   }
 }

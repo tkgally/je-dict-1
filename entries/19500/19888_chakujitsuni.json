@@ -14,41 +14,87 @@
   "examples": [
     {
       "id": "19888_chakujitsuni_ex1",
-      "japanese": "{着実|ちゃくじつ}に{進|すす}む。",
+      "japanese": "{着実|ちゃくじつ}に⟦{進|すす}む→進む：01225_susumu⟧。",
       "english": "To make steady progress.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "19888_chakujitsuni_ex2",
-      "japanese": "{売|う}り{上|あ}げが{着実|ちゃくじつ}に{伸|の}びている。",
+      "japanese": "{売|う}り{上|あ}げ⟦が→が：00051_ga⟧{着実|ちゃくじつ}に⟦{伸|の}びている→伸びる：01974_nobiru⟧。",
       "english": "Sales are growing steadily.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "19888_chakujitsuni_ex3",
-      "japanese": "{彼|かれ}は{着実|ちゃくじつ}に{経験|けいけん}を{積|つ}み{重|かさ}ねてきた。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{着実|ちゃくじつ}に⟦{経験|けいけん}→経験：01179_keiken⟧⟦を→を：00422_wo⟧⟦{積|つ}み{重|かさ}ねて→積み重ねる：06235_tsumikasaneru⟧きた。",
       "english": "He has steadily accumulated experience over time.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "Describes progress or action that is solid, reliable, and consistent rather than flashy or rapid. The underlying adjective {着実|ちゃくじつ} means 'steady, sound, reliable.'\n\nCOMMON COLLOCATIONS:\n- {着実|ちゃくじつ}に{進|すす}む: to make steady progress\n- {着実|ちゃくじつ}に{成長|せいちょう}する: to grow steadily\n- {着実|ちゃくじつ}に{力|ちから}をつける: to steadily build strength\n- {着実|ちゃくじつ}に{実績|じっせき}を{上|あ}げる: to steadily produce results\n\nSIMILAR WORDS:\n- {確実|かくじつ}に: certainly, reliably — emphasizes certainty of outcome rather than steady process\n- {順調|じゅんちょう}に: smoothly — emphasizes lack of problems rather than solidity of each step\n- {地道|じみち}に: diligently, painstakingly — emphasizes patient, unglamorous effort",
-  "cross_references": [],
+  "notes": "Describes progress or action that is solid, reliable, and consistent rather than flashy or rapid. The underlying adjective ⟦{着実|ちゃくじつ}→着実：07989_chakujitsu⟧ means 'steady, sound, reliable.'\n\nCOMMON COLLOCATIONS:\n- {着実|ちゃくじつ}に⟦{進|すす}む→進む：01225_susumu⟧: to make steady progress\n- {着実|ちゃくじつ}に⟦{成長|せいちょう}→成長：03290_seichou⟧⟦する→する：00392_suru⟧: to grow steadily\n- {着実|ちゃくじつ}に⟦{力|ちから}→力：01661_chikara⟧⟦を→を：00422_wo⟧⟦つける→つける：00562_tsukeru⟧: to steadily build strength\n- {着実|ちゃくじつ}に⟦{実績|じっせき}→実績：04214_jisseki⟧⟦を→を：00422_wo⟧⟦{上|あ}げる→上げる：02443_ageru⟧: to steadily produce results\n\nSIMILAR WORDS:\n- ⟦{確実|かくじつ}→確実：02538_kakujitsu⟧⟦に→に：00314_ni⟧: certainly, reliably — emphasizes certainty of outcome rather than steady process\n- ⟦{順調|じゅんちょう}→順調：03282_junchou⟧⟦に→に：00314_ni⟧: smoothly — emphasizes lack of problems rather than solidity of each step\n- ⟦{地道|じみち}→地道：15599_jimichi⟧⟦に→に：00314_ni⟧: diligently, painstakingly — emphasizes patient, unglamorous effort",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02538_kakujitsu",
+      "reading": "かくじつ",
+      "headword": "{確実|かくじつ}",
+      "label": "certainly, reliably"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03282_junchou",
+      "reading": "じゅんちょう",
+      "headword": "{順調|じゅんちょう}",
+      "label": "smoothly"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15599_jimichi",
+      "reading": "じみち",
+      "headword": "{地道|じみち}",
+      "label": "diligently, painstakingly"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09670_ippoippo",
+      "reading": "いっぽいっぽ",
+      "headword": "{一歩一歩|いっぽいっぽ}",
+      "label": "step by step"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19052_ippozutsu",
+      "reading": "いっぽずつ",
+      "headword": "{一歩|いっぽ}ずつ",
+      "label": "step by step"
+    }
+  ],
   "metadata": {
     "created": "2026-03-27T05:27:29Z",
-    "modified": "2026-03-27T05:27:29Z",
+    "modified": "2026-09-02T04:01:57Z",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
     "tags": {
-      "pos": ["adverb"],
+      "pos": [
+        "adverb"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
+      "semantic": [
+        "general"
+      ],
       "domain": []
     }
   }

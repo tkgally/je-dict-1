@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "12102_kaki_ex1",
-      "japanese": "{夏季|かき}{休暇|きゅうか}は{八月|はちがつ}だ。",
+      "japanese": "{夏季|かき}{休暇|きゅうか}⟦は→は：00079_ha⟧⟦{八月|はちがつ}→八月：00626_hachigatsu⟧だ。",
       "english": "Summer vacation is in August.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12102_kaki_ex2",
-      "japanese": "{夏季|かき}オリンピックは{四年|よねん}に{一度|いちど}{開催|かいさい}される。",
+      "japanese": "{夏季|かき}⟦オリンピック→オリンピック：09899_orinpikku⟧⟦は→は：00079_ha⟧{四年|よねん}⟦に→に：00314_ni⟧⟦{一度|いちど}→一度：01312_ichido⟧⟦{開催|かいさい}される→開催する：10441_kaisaisuru⟧。",
       "english": "The Summer Olympics are held once every four years.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12102_kaki_ex3",
-      "japanese": "この{地域|ちいき}では{夏季|かき}の{気温|きおん}が{四十度|よんじゅうど}を{超|こ}えることも{珍|めずら}しくない。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{地域|ちいき}→地域：01461_chiiki⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧{夏季|かき}⟦の→の：09472_no⟧⟦{気温|きおん}→気温：00235_kion⟧⟦が→が：00051_ga⟧{四十度|よんじゅうど}⟦を→を：00422_wo⟧⟦{超|こ}える→超える：01942_koeru⟧こと⟦も→も：00484_mo⟧⟦{珍|めずら}しくない→珍しい：01200_mezurashii⟧。",
       "english": "In this region, it is not uncommon for summer temperatures to exceed 40 degrees.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nA formal compound used in institutional and official contexts. In everyday speech, {夏|なつ} (summer) is far more common. {夏季|かき} appears in fixed compounds and formal descriptions.\n\nCOMMON COLLOCATIONS:\n- {夏季|かき}{休暇|きゅうか}: summer vacation (formal)\n- {夏季|かき}オリンピック: Summer Olympics\n- {夏季|かき}{講習|こうしゅう}: summer course/training\n- {夏季|かき}{限定|げんてい}: summer-only, summer limited edition\n- {夏季|かき}{営業|えいぎょう}{時間|じかん}: summer business hours\n\nSIMILAR WORDS:\n{夏季|かき} is the formal term for the summer period. {夏|なつ} is the everyday word for summer. The counterpart is {冬季|とうき} (winter season).",
+  "notes": "USAGE:\nA formal compound used in institutional and official contexts. In everyday speech, ⟦{夏|なつ}→夏：02236_natsu⟧ (summer) is far more common. {夏季|かき} appears in fixed compounds and formal descriptions.\n\nCOMMON COLLOCATIONS:\n- {夏季|かき}{休暇|きゅうか}: summer vacation (formal)\n- {夏季|かき}⟦オリンピック→オリンピック：09899_orinpikku⟧: Summer Olympics\n- {夏季|かき}{講習|こうしゅう}: summer course/training\n- {夏季|かき}⟦{限定|げんてい}→限定：10997_gentei⟧: summer-only, summer limited edition\n- {夏季|かき}⟦{営業|えいぎょう}{時間|じかん}→営業時間：18476_eigyoujikan⟧: summer business hours\n\nSIMILAR WORDS:\n{夏季|かき} is the formal term for the summer period. ⟦{夏|なつ}→夏：02236_natsu⟧ is the everyday word for summer. The counterpart is ⟦{冬季|とうき}→冬季：11755_touki⟧ (winter season).",
   "cross_references": [
     {
       "type": "antonym",
@@ -46,18 +52,29 @@
       "reading": "とうき",
       "headword": "{冬季|とうき}",
       "label": "winter season"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28060_natsuba",
+      "reading": "なつば",
+      "headword": "{夏場|なつば}",
+      "label": "summertime"
     }
   ],
   "metadata": {
     "created": "2026-02-20T04:58:31Z",
-    "modified": "2026-04-26T06:29:08Z",
+    "modified": "2026-09-02T04:01:27Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["time-season"]
+      "semantic": [
+        "time-season"
+      ]
     }
   }
 }

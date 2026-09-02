@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "18469_eisaikyouiku_ex1",
-      "japanese": "{幼|おさな}い{頃|ころ}から{英才教育|えいさいきょういく}を{受|う}けた。",
+      "japanese": "⟦{幼|おさな}い→幼い：02337_osanai⟧{頃|ころ}⟦から→から：00504_kara⟧{英才教育|えいさいきょういく}⟦を→を：00422_wo⟧⟦{受|う}けた→受ける：01215_ukeru⟧。",
       "english": "I received gifted education from a young age.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "18469_eisaikyouiku_ex2",
-      "japanese": "ピアノの{英才教育|えいさいきょういく}で{育|そだ}った{演奏家|えんそうか}だ。",
+      "japanese": "⟦ピアノ→ピアノ：01376_piano⟧⟦の→の：09472_no⟧{英才教育|えいさいきょういく}⟦で→で：00502_de⟧⟦{育|そだ}った→育つ：01951_sodatsu⟧⟦{演奏家|えんそうか}→演奏家：29184_ensouka⟧だ。",
       "english": "She is a performer raised with elite piano education.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "18469_eisaikyouiku_ex3",
-      "japanese": "{英才教育|えいさいきょういく}には{賛否両論|さんぴりょうろん}があり、{子|こ}どもへの{負担|ふたん}を{心配|しんぱい}する{声|こえ}もある。",
+      "japanese": "{英才教育|えいさいきょういく}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{賛否両論|さんぴりょうろん}⟦が→が：00051_ga⟧⟦あり→ある：00006_aru⟧、{子|こ}ども⟦へ→へ：02473_he⟧⟦の→の：09472_no⟧⟦{負担|ふたん}→負担：09752_futan⟧⟦を→を：00422_wo⟧⟦{心配|しんぱい}する→心配する：06066_shinpaisuru⟧⟦{声|こえ}→声：02207_koe⟧⟦も→も：00484_mo⟧⟦ある→ある：00006_aru⟧。",
       "english": "There are pros and cons to elite education, and some voices express concern about the burden on children.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "{英才教育|えいさいきょういく} combines {英才|えいさい} (gifted person, genius) and {教育|きょういく} (education). It is often used when parents invest heavily in a child's training from an early age, whether in academics, music, sports, or other fields.\n\nCOMMON COLLOCATIONS:\n- {英才教育|えいさいきょういく}を{受|う}ける — to receive gifted/elite education\n- {英才教育|えいさいきょういく}を{施|ほどこ}す — to provide gifted education\n- {英才教育|えいさいきょういく}で{育|そだ}つ — to be raised with elite education\n\nRELATED WORDS:\n- {早期教育|そうききょういく} — early childhood education\n- {才能|さいのう} — talent, ability\n- {天才|てんさい} — genius",
+  "notes": "{英才教育|えいさいきょういく} combines {英才|えいさい} (gifted person, genius) and ⟦{教育|きょういく}→教育：01313_kyouiku⟧ (education). It is often used when parents invest heavily in a child's training from an early age, whether in academics, music, sports, or other fields.\n\nCOMMON COLLOCATIONS:\n- {英才教育|えいさいきょういく}⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧ — to receive gifted/elite education\n- {英才教育|えいさいきょういく}⟦を→を：00422_wo⟧⟦{施|ほどこ}す→施す：12985_hodokosu⟧ — to provide gifted education\n- {英才教育|えいさいきょういく}⟦で→で：00502_de⟧⟦{育|そだ}つ→育つ：01951_sodatsu⟧ — to be raised with elite education\n\nRELATED WORDS:\n- {早期教育|そうききょういく} — early childhood education\n- ⟦{才能|さいのう}→才能：02772_sainou⟧ — talent, ability\n- ⟦{天才|てんさい}→天才：09934_tensai⟧ — genius",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "02772_sainou",
+      "reading": "さいのう",
+      "headword": "{才能|さいのう}",
+      "label": "talent, ability"
+    },
+    {
+      "type": "related",
+      "target_id": "09934_tensai",
+      "reading": "てんさい",
+      "headword": "{天才|てんさい}",
+      "label": "genius"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +75,6 @@
       ]
     },
     "created": "2026-03-22T02:37:26Z",
-    "modified": "2026-05-08T10:08:08Z"
+    "modified": "2026-09-02T04:01:52Z"
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30222_maebaraikin_ex1",
-      "japanese": "{前払金|まえばらいきん}を{支払|しはら}った。",
+      "japanese": "{前払金|まえばらいきん}⟦を→を：00422_wo⟧⟦{支払|しはら}った→支払う：02116_shiharau⟧。",
       "english": "We paid the advance payment.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30222_maebaraikin_ex2",
-      "japanese": "{契約時|けいやくじ}に{前払金|まえばらいきん}が{必要|ひつよう}です。",
+      "japanese": "{契約時|けいやくじ}⟦に→に：00314_ni⟧{前払金|まえばらいきん}⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧です。",
       "english": "An advance payment is required when the contract is signed.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30222_maebaraikin_ex3",
-      "japanese": "{工事|こうじ}の{前払金|まえばらいきん}は{総額|そうがく}の{三割|さんわり}と{決|き}まっている。",
+      "japanese": "⟦{工事|こうじ}→工事：00244_kouji⟧⟦の→の：09472_no⟧{前払金|まえばらいきん}⟦は→は：00079_ha⟧⟦{総額|そうがく}→総額：05472_sougaku⟧⟦の→の：09472_no⟧{三割|さんわり}⟦と→と：00512_to⟧⟦{決|き}まっている→決まる：01233_kimaru⟧。",
       "english": "The advance payment for the construction work is set at 30% of the total.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "An accounting and business term for money paid ahead of delivery. It is the money itself, not the practice of paying early.\n\nCOMMON COLLOCATIONS:\n- {前払金|まえばらいきん}を{支払|しはら}う: to pay an advance\n- {前払金|まえばらいきん}を{受|う}け{取|と}る: to receive an advance\n- {前払金|まえばらいきん}の{返還|へんかん}: return of an advance payment\n\nSIMILAR WORDS:\n- {前払|まえばら}い: advance payment — the act or arrangement of paying early\n- {内金|うちきん}: part payment — a portion of the price paid first, with the balance to follow\n- {手付金|てつけきん}: deposit — secures a contract and may be forfeited if the buyer backs out",
+  "notes": "An accounting and business term for money paid ahead of delivery. It is the money itself, not the practice of paying early.\n\nCOMMON COLLOCATIONS:\n- {前払金|まえばらいきん}⟦を→を：00422_wo⟧⟦{支払|しはら}う→支払う：02116_shiharau⟧: to pay an advance\n- {前払金|まえばらいきん}⟦を→を：00422_wo⟧⟦{受|う}け{取|と}る→受け取る：01883_uketoru⟧: to receive an advance\n- {前払金|まえばらいきん}⟦の→の：09472_no⟧⟦{返還|へんかん}→返還：14357_henkan⟧: return of an advance payment\n\nSIMILAR WORDS:\n- ⟦{前払|まえばら}い→前払い：15782_maebarai⟧: advance payment — the act or arrangement of paying early\n- ⟦{内金|うちきん}→内金：30223_uchikin⟧: part payment — a portion of the price paid first, with the balance to follow\n- ⟦{手付金|てつけきん}→手付金：29465_tetsukekin⟧: deposit — secures a contract and may be forfeited if the buyer backs out",
   "cross_references": [
     {
       "type": "related",
@@ -63,6 +63,20 @@
       "target_id": "29465_tetsukekin",
       "reading": "てつけきん",
       "headword": "{手付金|てつけきん}"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30206_maeukekin",
+      "reading": "まえうけきん",
+      "headword": "前受金",
+      "label": "advance payment received"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30243_karibaraikin",
+      "reading": "かりばらいきん",
+      "headword": "{仮払金|かりばらいきん}",
+      "label": "advance payment"
     }
   ],
   "schema_version": "2.0",
@@ -73,7 +87,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "finance",
         "money"
@@ -83,6 +97,6 @@
       ]
     },
     "created": "2026-07-29T18:17:31Z",
-    "modified": "2026-07-29T18:17:31Z"
+    "modified": "2026-09-02T04:02:39Z"
   }
 }

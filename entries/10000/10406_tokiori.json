@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "10406_tokiori_ex1",
-      "japanese": "{時折|ときおり}{雨|あめ}が{降|ふ}る。",
+      "japanese": "{時折|ときおり}⟦{雨|あめ}→雨：00583_ame⟧⟦が→が：00051_ga⟧⟦{降|ふ}る→降る：00839_furu⟧。",
       "english": "It rains from time to time.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "10406_tokiori_ex2",
-      "japanese": "{時折|ときおり}{昔|むかし}のことを{思|おも}い{出|だ}す。",
+      "japanese": "{時折|ときおり}⟦{昔|むかし}→昔：01515_mukashi⟧⟦の→の：09472_no⟧こと⟦を→を：00422_wo⟧⟦{思|おも}い{出|だ}す→思い出す：01258_omoidasu⟧。",
       "english": "I occasionally recall things from the past.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "10406_tokiori_ex3",
-      "japanese": "{窓|まど}の{外|そと}では、{時折|ときおり}{強|つよ}い{風|かぜ}が{木々|きぎ}を{揺|ゆ}らしていた。",
+      "japanese": "⟦{窓|まど}→窓：02254_mado⟧⟦の→の：09472_no⟧⟦{外|そと}→外：00671_soto⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧、{時折|ときおり}⟦{強|つよ}い→強い：00820_tsuyoi⟧⟦{風|かぜ}→風：00641_kaze⟧⟦が→が：00051_ga⟧⟦{木々|きぎ}→木々：04811_kigi⟧⟦を→を：00422_wo⟧⟦{揺|ゆ}らしていた→揺らす：02479_yurasu⟧。",
       "english": "Outside the window, a strong wind was shaking the trees from time to time.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "{時折|ときおり} is a slightly literary synonym of {時々|ときどき}. It is preferred in written Japanese and formal narration.\n\nCOMMON PATTERNS:\n- {時折|ときおり} + verb: occasionally ~\n- {時折|ときおり}{見|み}せる〜: ~ that one shows from time to time\n\nSIMILAR WORDS:\n- {時々|ときどき}: sometimes (most common, casual and neutral)\n- {時折|ときおり}: occasionally (slightly literary)\n- たまに: once in a while (casual, lower frequency)\n- {折|おり}に{触|ふ}れて: on occasion (formal)\n\nUSAGE: {時折|ときおり} suggests a somewhat irregular, unpredictable pattern. It often appears in descriptive writing, conveying an atmospheric quality.",
+  "notes": "{時折|ときおり} is a slightly literary synonym of ⟦{時々|ときどき}→時々：00600_tokidoki⟧. It is preferred in written Japanese and formal narration.\n\nCOMMON PATTERNS:\n- {時折|ときおり} + verb: occasionally ~\n- {時折|ときおり}⟦{見|み}せる→見せる：01988_miseru⟧〜: ~ that one shows from time to time\n\nSIMILAR WORDS:\n- ⟦{時々|ときどき}→時々：00600_tokidoki⟧: sometimes (most common, casual and neutral)\n- {時折|ときおり}: occasionally (slightly literary)\n- ⟦たまに→たまに：01276_tamani⟧: once in a while (casual, lower frequency)\n- ⟦{折|おり}に{触|ふ}れて→折に触れて：19487_orinifurete⟧: on occasion (formal)\n\nUSAGE: {時折|ときおり} suggests a somewhat irregular, unpredictable pattern. It often appears in descriptive writing, conveying an atmospheric quality.",
   "cross_references": [
     {
       "type": "synonym",
@@ -52,11 +52,25 @@
       "reading": "ときどき",
       "headword": "{時々|ときどき}",
       "label": "sometimes (everyday)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01276_tamani",
+      "reading": "たまに",
+      "headword": "たまに",
+      "label": "once in a while"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19487_orinifurete",
+      "reading": "おりにふれて",
+      "headword": "{折|おり}に{触|ふ}れて",
+      "label": "on occasion"
     }
   ],
   "metadata": {
     "created": "2026-02-07T10:28:08Z",
-    "modified": "2026-04-24T06:24:12Z",
+    "modified": "2026-09-02T04:01:21Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

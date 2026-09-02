@@ -20,7 +20,7 @@
   "examples": [
     {
       "id": "25700_gaijin_ex1",
-      "japanese": "あの{人|ひと}は{外人|がいじん}だ。",
+      "japanese": "⟦あの{人|ひと}→あの人：25922_anohito⟧⟦は→は：00079_ha⟧{外人|がいじん}だ。",
       "english": "That person is a foreigner.",
       "sense_numbers": [
         1
@@ -30,7 +30,7 @@
     },
     {
       "id": "25700_gaijin_ex2",
-      "japanese": "この{街|まち}には{外人|がいじん}が{多|おお}く{住|す}んでいる。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{街|まち}→街：17306_machi⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{外人|がいじん}⟦が→が：00051_ga⟧⟦{多|おお}く→多い：01127_ooi⟧⟦{住|す}んでいる→住む：00673_sumu⟧。",
       "english": "Many foreigners live in this town.",
       "sense_numbers": [
         1
@@ -40,7 +40,7 @@
     },
     {
       "id": "25700_gaijin_ex3",
-      "japanese": "{日本|にほん}に{長|なが}く{住|す}んでいても、{外人|がいじん}{扱|あつか}いされることがある。",
+      "japanese": "⟦{日本|にほん}→日本：03876_nihon⟧⟦に→に：00314_ni⟧⟦{長|なが}く→長い：00491_nagai⟧⟦{住|す}んでいて→住む：00673_sumu⟧⟦も→も：00484_mo⟧、{外人|がいじん}⟦{扱|あつか}い→扱い：12777_atsukai⟧⟦される→する：00392_suru⟧こと⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "Even after living in Japan for a long time, you can sometimes be treated as a foreigner.",
       "sense_numbers": [
         1
@@ -50,7 +50,7 @@
     },
     {
       "id": "25700_gaijin_ex4",
-      "japanese": "あの{業界|ぎょうかい}では{外人|がいじん}だよ。",
+      "japanese": "⟦あの→あの：00915_ano⟧⟦{業界|ぎょうかい}→業界：13129_gyoukai⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧{外人|がいじん}だ⟦よ→よ：09475_yo⟧。",
       "english": "I'm an outsider in that industry.",
       "sense_numbers": [
         2
@@ -60,7 +60,7 @@
     },
     {
       "id": "25700_gaijin_ex5",
-      "japanese": "{地元|じもと}の{人|ひと}から{見|み}れば、{私|わたし}たちは{外人|がいじん}だ。",
+      "japanese": "⟦{地元|じもと}→地元：09941_jimoto⟧⟦の→の：09472_no⟧⟦{人|ひと}→人：00476_hito⟧⟦から→から：00504_kara⟧⟦{見|み}れば→見る：00283_miru⟧、⟦{私|わたし}たち→私たち：28351_watashitachi⟧⟦は→は：00079_ha⟧{外人|がいじん}だ。",
       "english": "From the locals' point of view, we are outsiders.",
       "sense_numbers": [
         2
@@ -70,7 +70,7 @@
     },
     {
       "id": "25700_gaijin_ex6",
-      "japanese": "{政治|せいじ}の{世界|せかい}では{外人|がいじん}なので、{詳|くわ}しいことはわからない。",
+      "japanese": "⟦{政治|せいじ}→政治：01629_seiji⟧⟦の→の：09472_no⟧⟦{世界|せかい}→世界：01447_sekai⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧{外人|がいじん}な⟦の→の：09472_no⟧で、⟦{詳|くわ}しい→詳しい：02483_kuwashii⟧こと⟦は→は：00079_ha⟧わからない。",
       "english": "I'm an outsider to the world of politics, so I don't know the details.",
       "sense_numbers": [
         2
@@ -79,13 +79,27 @@
       "notes": null
     }
   ],
-  "notes": "{外|がい} (outside) + {人|じん} (person). Shortened form of {外国人|がいこくじん}. Very commonly used in everyday speech but can carry a distancing or othering nuance that some find insensitive. In formal writing and official contexts, {外国人|がいこくじん} is always preferred.\n\nUSAGE:\nWhile not inherently a slur, {外人|がいじん} is perceived by many non-Japanese residents as exclusionary. The word tends to draw a sharp line between Japanese and non-Japanese and can feel reductive. Awareness of this nuance has grown, and many Japanese speakers now prefer {外国人|がいこくじん} or {外国|がいこく}の{方|かた} in polite contexts.\n\nCOMMON COLLOCATIONS:\n- {外人|がいじん}{扱|あつか}い — being treated as a foreigner\n- {外人|がいじん}{選手|せんしゅ} — foreign player (in sports)\n- {外人|がいじん}{部隊|ぶたい} — foreign legion\n\nSIMILAR WORDS:\n- {外国人|がいこくじん} — foreigner — the standard, neutral term\n- {異邦人|いほうじん} — stranger from a foreign land — literary and poetic\n- {外来者|がいらいしゃ} — outsider; person from outside — formal, often used for visitors",
+  "notes": "⟦{外|がい}→外〜：03948_gai⟧ (outside) + ⟦{人|じん}→〜人：09849_jin⟧ (person). Shortened form of ⟦{外国人|がいこくじん}→外国人：02869_gaikokujin⟧. Very commonly used in everyday speech but can carry a distancing or othering nuance that some find insensitive. In formal writing and official contexts, ⟦{外国人|がいこくじん}→外国人：02869_gaikokujin⟧ is always preferred.\n\nUSAGE:\nWhile not inherently a slur, {外人|がいじん} is perceived by many non-Japanese residents as exclusionary. The word tends to draw a sharp line between Japanese and non-Japanese and can feel reductive. Awareness of this nuance has grown, and many Japanese speakers now prefer ⟦{外国人|がいこくじん}→外国人：02869_gaikokujin⟧ or ⟦{外国|がいこく}→外国：02868_gaikoku⟧⟦の→の：09472_no⟧⟦{方|かた}→方：10665_kata⟧ in polite contexts.\n\nCOMMON COLLOCATIONS:\n- {外人|がいじん}⟦{扱|あつか}い→扱い：12777_atsukai⟧ — being treated as a foreigner\n- {外人|がいじん}⟦{選手|せんしゅ}→選手：03823_senshu⟧ — foreign player (in sports)\n- {外人|がいじん}⟦{部隊|ぶたい}→部隊：28119_butai⟧ — foreign legion\n\nSIMILAR WORDS:\n- ⟦{外国人|がいこくじん}→外国人：02869_gaikokujin⟧ — foreigner — the standard, neutral term\n- ⟦{異邦人|いほうじん}→異邦人：24100_ihoujin⟧ — stranger from a foreign land — literary and poetic\n- {外来者|がいらいしゃ} — outsider; person from outside — formal, often used for visitors",
   "cross_references": [
     {
       "type": "related",
       "reading": "がいこくじん",
       "description": "{外国人|がいこくじん} — foreigner (formal)",
       "target_id": "02869_gaikokujin"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24100_ihoujin",
+      "reading": "いほうじん",
+      "headword": "{異邦人|いほうじん}",
+      "label": "stranger from a foreign land"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26672_ikokujin",
+      "reading": "いこくじん",
+      "headword": "{異国人|いこくじん}",
+      "label": "foreigner"
     }
   ],
   "schema_version": "2.0",
@@ -95,6 +109,7 @@
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "person"
       ],
@@ -103,6 +118,6 @@
       ]
     },
     "created": "2026-04-26T16:27:14Z",
-    "modified": "2026-08-04T21:28:28Z"
+    "modified": "2026-09-02T04:02:23Z"
   }
 }

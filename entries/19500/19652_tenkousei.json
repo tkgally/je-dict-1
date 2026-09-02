@@ -15,40 +15,80 @@
   "examples": [
     {
       "id": "19652_tenkousei_ex1",
-      "japanese": "{転校生|てんこうせい}が{来|き}た。",
+      "japanese": "{転校生|てんこうせい}⟦が→が：00051_ga⟧⟦{来|き}た→来る：00254_kuru⟧。",
       "english": "A transfer student arrived.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19652_tenkousei_ex2",
-      "japanese": "クラスに{新|あたら}しい{転校生|てんこうせい}が{紹介|しょうかい}された。",
+      "japanese": "⟦クラス→クラス：01084_kurasu⟧⟦に→に：00314_ni⟧⟦{新|あたら}しい→新しい：00506_atarashii⟧{転校生|てんこうせい}⟦が→が：00051_ga⟧⟦{紹介|しょうかい}→紹介：01432_shoukai⟧⟦された→する：00392_suru⟧。",
       "english": "A new transfer student was introduced to the class.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19652_tenkousei_ex3",
-      "japanese": "{転校生|てんこうせい}はなかなか{新|あたら}しい{学校|がっこう}に{馴染|なじ}めなかった。",
+      "japanese": "{転校生|てんこうせい}⟦は→は：00079_ha⟧⟦なかなか→なかなか：01547_nakanaka⟧⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦{学校|がっこう}→学校：00055_gakkou⟧⟦に→に：00314_ni⟧⟦{馴染|なじ}めなかった→馴染む：14631_najimu⟧。",
       "english": "The transfer student had difficulty fitting in at the new school.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {転校|てんこう} (school transfer) + {生|せい} (student). Transfer students are a staple character type in Japanese fiction, often appearing as mysterious or exciting newcomers who disrupt the class dynamic.\n\nCOMMON COLLOCATIONS:\n- {転校生|てんこうせい}が{来|く}る: a transfer student comes/arrives\n- {転校生|てんこうせい}を{迎|むか}える: to welcome a transfer student\n- {転校|てんこう}する: to transfer schools\n- {転校|てんこう}{手続|てつづ}き: transfer procedures\n\nRELATED TERMS:\n- {転入生|てんにゅうせい}: incoming transfer student (more formal)\n- {編入生|へんにゅうせい}: student admitted mid-year (college level)\n- {留学生|りゅうがくせい}: international student",
-  "cross_references": [],
+  "notes": "Composed of ⟦{転校|てんこう}→転校：03444_tenkou⟧ (school transfer) + {生|せい} (student). Transfer students are a staple character type in Japanese fiction, often appearing as mysterious or exciting newcomers who disrupt the class dynamic.\n\nCOMMON COLLOCATIONS:\n- {転校生|てんこうせい}⟦が→が：00051_ga⟧⟦{来|く}る→来る：00254_kuru⟧: a transfer student comes/arrives\n- {転校生|てんこうせい}⟦を→を：00422_wo⟧⟦{迎|むか}える→迎える：01193_mukaeru⟧: to welcome a transfer student\n- ⟦{転校|てんこう}する→転校する：25400_tenkousuru⟧: to transfer schools\n- ⟦{転校|てんこう}→転校：03444_tenkou⟧⟦{手続|てつづ}き→手続き：05453_tetsuzuki⟧: transfer procedures\n\nRELATED WORDS:\n- ⟦{転入生|てんにゅうせい}→転入生：25867_tennyuusei⟧: incoming transfer student (more formal)\n- ⟦{編入生|へんにゅうせい}→編入生：22044_hennyuusei⟧: student admitted mid-year (college level)\n- ⟦{留学生|りゅうがくせい}→留学生：02986_ryuugakusei⟧: international student",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "25867_tennyuusei",
+      "reading": "てんにゅうせい",
+      "headword": "{転入生|てんにゅうせい}",
+      "label": "incoming transfer student"
+    },
+    {
+      "type": "related",
+      "target_id": "22044_hennyuusei",
+      "reading": "へんにゅうせい",
+      "headword": "{編入生|へんにゅうせい}",
+      "label": "student admitted mid-year"
+    },
+    {
+      "type": "related",
+      "target_id": "02986_ryuugakusei",
+      "reading": "りゅうがくせい",
+      "headword": "{留学生|りゅうがくせい}",
+      "label": "international student"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26292_tenkousaki",
+      "reading": "てんこうさき",
+      "headword": "{転校先|てんこうさき}",
+      "label": "new school (after transfer)"
+    }
+  ],
   "metadata": {
     "created": "2026-03-26T09:41:28Z",
-    "modified": "2026-03-26T09:41:28Z",
+    "modified": "2026-09-02T04:01:56Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["education", "person"]
+      "semantic": [
+        "education",
+        "person"
+      ]
     }
   }
 }

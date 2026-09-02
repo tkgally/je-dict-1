@@ -133,18 +133,46 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: {他動詞|たどうし} (transitive). Pattern: X⟦を→を：00422_wo⟧{訪|たず}ねる (visit X).\n\nASPECT: ている indicates ongoing or completed action. {訪|たず}ねている = 'is visiting.'\n\nCOMMON PATTERNS:\n・⟦{人|ひと}→人：00476_hito⟧⟦を→を：00422_wo⟧{訪|たず}ねる (visit a person)\n・⟦{場所|ばしょ}→場所：00829_basho⟧⟦を→を：00422_wo⟧{訪|たず}ねる (visit a place)\n・{訪|たず}ねて⟦{来|く}る→来る：00254_kuru⟧ (come to visit)\n・{訪|たず}ねて⟦{行|い}く→行く：00119_iku⟧ (go to visit)\n\nHOMOPHONE: Don't confuse with ⟦{尋|たず}ねる→尋ねる：01175_tazuneru⟧ (to ask/inquire), which has the same reading but different kanji and meaning.\n・{訪|たず}ねる ({訪|たず}): to visit\n・⟦{尋|たず}ねる→尋ねる：01175_tazuneru⟧ ({尋|たず}): to ask, inquire\n\nSYNONYMS:\n・⟦{訪問|ほうもん}する→訪問する：03622_houmon⟧: to visit (more formal)\n・⟦{伺|うかが}う→伺う：01273_ukagau⟧: to visit (humble)\n\nREGISTER: Neutral to slightly formal.",
+  "notes": "TRANSITIVITY: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive). Pattern: X⟦を→を：00422_wo⟧{訪|たず}ねる (visit X).\n\nASPECT: て⟦いる→いる：00495_iru⟧ indicates ongoing or completed action. {訪|たず}ねて⟦いる→いる：00495_iru⟧ = 'is visiting.'\n\nCOMMON PATTERNS:\n- ⟦{人|ひと}→人：00476_hito⟧⟦を→を：00422_wo⟧{訪|たず}ねる (visit a person)\n- ⟦{場所|ばしょ}→場所：00829_basho⟧⟦を→を：00422_wo⟧{訪|たず}ねる (visit a place)\n- {訪|たず}ねて⟦{来|く}る→来る：00254_kuru⟧ (come to visit)\n- {訪|たず}ねて⟦{行|い}く→行く：00119_iku⟧ (go to visit)\n\nHOMOPHONE: Don't confuse with ⟦{尋|たず}ねる→尋ねる：01175_tazuneru⟧ (to ask/inquire), which has the same reading but different kanji and meaning.\n- {訪|たず}ねる ({訪|たず}): to visit\n- ⟦{尋|たず}ねる→尋ねる：01175_tazuneru⟧ ({尋|たず}): to ask, inquire\n\nSIMILAR WORDS:\n- ⟦{訪問|ほうもん}する→訪問する：03622_houmon⟧: to visit (more formal)\n- ⟦{伺|うかが}う→伺う：01273_ukagau⟧: to visit (humble)\n\nREGISTER: Neutral to slightly formal.",
   "cross_references": [
     {
       "type": "see_also",
       "reading": "たずねる",
       "headword": "{尋|たず}ねる",
       "target_id": "01175_tazuneru"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03622_houmon",
+      "reading": "ほうもん",
+      "headword": "{訪問|ほうもん}",
+      "label": "to visit"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01273_ukagau",
+      "reading": "うかがう",
+      "headword": "うかがう",
+      "label": "to visit"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04638_tachiyoru",
+      "reading": "たちよる",
+      "headword": "{立|た}ち{寄|よ}る",
+      "label": "to stop by, to drop in, to visit briefly"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26836_houmonsuru",
+      "reading": "ほうもんする",
+      "headword": "{訪問|ほうもん}する",
+      "label": "to visit"
     }
   ],
   "metadata": {
     "created": "2026-01-08T12:41:45Z",
-    "modified": "2026-05-14T16:10:07Z",
+    "modified": "2026-09-02T04:00:59Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

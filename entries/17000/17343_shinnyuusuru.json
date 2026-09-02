@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "17343_shinnyuusuru_ex1",
-      "japanese": "{泥棒|どろぼう}が{家|いえ}に{侵入|しんにゅう}した。",
+      "japanese": "⟦{泥棒|どろぼう}→泥棒：01688_dorobou⟧⟦が→が：00051_ga⟧⟦{家|いえ}→家：00612_ie⟧⟦に→に：00314_ni⟧{侵入|しんにゅう}した。",
       "english": "A burglar broke into the house.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "17343_shinnyuusuru_ex2",
-      "japanese": "{不審者|ふしんしゃ}が{敷地内|しきちない}に{侵入|しんにゅう}した。",
+      "japanese": "⟦{不審者|ふしんしゃ}→不審者：11348_fushinsha⟧⟦が→が：00051_ga⟧⟦{敷地内|しきちない}→敷地内：22038_shikichinai⟧⟦に→に：00314_ni⟧{侵入|しんにゅう}した。",
       "english": "A suspicious person intruded onto the premises.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "17343_shinnyuusuru_ex3",
-      "japanese": "ウイルスが{体内|たいない}に{侵入|しんにゅう}すると、{免疫|めんえき}システムが{働|はたら}き{始|はじ}める。",
+      "japanese": "⟦ウイルス→ウイルス：05223_uirusu⟧⟦が→が：00051_ga⟧⟦{体内|たいない}→体内：11556_tainai⟧⟦に→に：00314_ni⟧{侵入|しんにゅう}する⟦と→と：00512_to⟧、⟦{免疫|めんえき}→免疫：05032_meneki⟧⟦システム→システム：08428_shisutemu⟧⟦が→が：00051_ga⟧⟦{働|はたら}き→働く：00503_hataraku⟧{始|はじ}める。",
       "english": "When a virus enters the body, the immune system starts to work.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,40 @@
       ]
     }
   ],
-  "notes": "USAGE:\nImplies unauthorized or forceful entry. Used in news reports about break-ins, military invasions, and biological contexts (viruses, bacteria). The noun form {侵入|しんにゅう} is equally common.\n\nCOMMON COLLOCATIONS:\n- {不法|ふほう}{侵入|しんにゅう} (illegal entry, trespassing)\n- {住居|じゅうきょ}{侵入|しんにゅう} (home invasion)\n- {侵入|しんにゅう}{者|しゃ} (intruder)\n- {領空|りょうくう}{侵入|しんにゅう} (airspace violation)\n\nSIMILAR WORDS:\n- {入|はい}り{込|こ}む: to enter, to get in — neutral, no implication of force\n- {押|お}し{入|い}る: to force one's way in — emphasizes physical force",
-  "cross_references": [],
+  "notes": "USAGE:\nImplies unauthorized or forceful entry. Used in news reports about break-ins, military invasions, and biological contexts (viruses, bacteria). The noun form ⟦{侵入|しんにゅう}→侵入：11440_shinnyuu⟧ is equally common.\n\nCOMMON COLLOCATIONS:\n- ⟦{不法|ふほう}{侵入|しんにゅう}→不法侵入：17433_fuhoushinnyuu⟧ (illegal entry, trespassing)\n- ⟦{住居|じゅうきょ}→住居：11612_juukyo⟧⟦{侵入|しんにゅう}→侵入：11440_shinnyuu⟧ (home invasion)\n- ⟦{侵入|しんにゅう}{者|しゃ}→侵入者：19521_shinnyuusha⟧ (intruder)\n- ⟦{領空|りょうくう}→領空：16510_ryoukuu⟧⟦{侵入|しんにゅう}→侵入：11440_shinnyuu⟧ (airspace violation)\n\nSIMILAR WORDS:\n- ⟦{入|はい}り{込|こ}む→入り込む：04629_hairikomu⟧: to enter, to get in — neutral, no implication of force\n- ⟦{押|お}し{入|い}る→押し入る：06760_oshiiru⟧: to force one's way in — emphasizes physical force",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04629_hairikomu",
+      "reading": "はいりこむ",
+      "headword": "{入|はい}り{込|こ}む",
+      "label": "to enter, to get in"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06760_oshiiru",
+      "reading": "おしいる",
+      "headword": "{押|お}し{入|い}る",
+      "label": "to force one's way in"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20994_sennyuusuru",
+      "reading": "せんにゅうする",
+      "headword": "{潜入|せんにゅう}する",
+      "label": "to infiltrate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26367_tachiiru",
+      "reading": "たちいる",
+      "headword": "{立|た}ち{入|い}る",
+      "label": "to enter"
+    }
+  ],
   "metadata": {
     "created": "2026-03-17T08:13:45Z",
-    "modified": "2026-03-29T03:08:18Z",
+    "modified": "2026-09-02T04:01:48Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

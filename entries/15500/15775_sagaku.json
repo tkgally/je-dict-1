@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "15775_sagaku_ex1",
-      "japanese": "{差額|さがく}を{払|はら}ってください。",
+      "japanese": "{差額|さがく}⟦を→を：00422_wo⟧⟦{払|はら}って→払う：00535_harau⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please pay the difference.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "15775_sagaku_ex2",
-      "japanese": "{定価|ていか}とセール{価格|かかく}の{差額|さがく}は{三千円|さんぜんえん}だった。",
+      "japanese": "⟦{定価|ていか}→定価：04066_teika⟧⟦と→と：00512_to⟧⟦セール→セール：07780_seeru⟧⟦{価格|かかく}→価格：00147_kakaku⟧⟦の→の：09472_no⟧{差額|さがく}⟦は→は：00079_ha⟧{三千円|さんぜんえん}だった。",
       "english": "The difference between the list price and the sale price was 3,000 yen.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "15775_sagaku_ex3",
-      "japanese": "{商品|しょうひん}を{交換|こうかん}する{場合|ばあい}、{差額|さがく}が{発生|はっせい}することがあります。",
+      "japanese": "⟦{商品|しょうひん}→商品：01436_shouhin⟧⟦を→を：00422_wo⟧⟦{交換|こうかん}→交換：02746_koukan⟧⟦する→する：00392_suru⟧⟦{場合|ばあい}→場合：01704_baai⟧、{差額|さがく}⟦が→が：00051_ga⟧⟦{発生|はっせい}する→発生する：25529_hasseisuru⟧こと⟦が→が：00051_ga⟧⟦あります→ある：00006_aru⟧。",
       "english": "When exchanging a product, there may be a price difference.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{差額|さがく} is used when comparing two specific monetary amounts or quantities. It is common in retail, accounting, and everyday transactions.\n\nCOMMON COLLOCATIONS:\n- {差額|さがく}を{払|はら}う (pay the difference)\n- {差額|さがく}を{請求|せいきゅう}する (charge the difference)\n- {差額|さがく}が{出|で}る (a difference arises)\n- {差額|さがく}ベッド (hospital room with extra charge)\n\nSIMILAR WORDS:\n{差|さ} is a general word for difference and can be used beyond monetary contexts. {残高|ざんだか} means \"balance\" in the sense of remaining funds in an account, not a price gap.",
+  "notes": "USAGE:\n{差額|さがく} is used when comparing two specific monetary amounts or quantities. It is common in retail, accounting, and everyday transactions.\n\nCOMMON COLLOCATIONS:\n- {差額|さがく}⟦を→を：00422_wo⟧⟦{払|はら}う→払う：00535_harau⟧ (pay the difference)\n- {差額|さがく}⟦を→を：00422_wo⟧⟦{請求|せいきゅう}する→請求する：26988_seikyuusuru⟧ (charge the difference)\n- {差額|さがく}⟦が→が：00051_ga⟧⟦{出|で}る→出る：00513_deru⟧ (a difference arises)\n- {差額|さがく}⟦ベッド→ベッド：04501_beddo⟧ (hospital room with extra charge)\n\nSIMILAR WORDS:\n⟦{差|さ}→差：02771_sa⟧ is a general word for difference and can be used beyond monetary contexts. ⟦{残高|ざんだか}→残高：05422_zandaka⟧ means \"balance\" in the sense of remaining funds in an account, not a price gap.",
   "cross_references": [
     {
       "type": "related",
@@ -52,11 +52,18 @@
       "reading": "さ",
       "headword": "{差|さ}",
       "label": "difference; general"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20756_zangaku",
+      "reading": "ざんがく",
+      "headword": "{残額|ざんがく}",
+      "label": "remaining balance"
     }
   ],
   "metadata": {
     "created": "2026-03-08T09:41:12Z",
-    "modified": "2026-05-02T05:13:00Z",
+    "modified": "2026-09-02T04:01:42Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "18672_kishaku_ex1",
-      "japanese": "{水|みず}で{希釈|きしゃく}する。",
+      "japanese": "⟦{水|みず}→水：02258_mizu⟧⟦で→で：00502_de⟧{希釈|きしゃく}⟦する→する：00392_suru⟧。",
       "english": "To dilute with water.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "18672_kishaku_ex2",
-      "japanese": "この{洗剤|せんざい}は10{倍|ばい}に{希釈|きしゃく}して{使|つか}ってください。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{洗剤|せんざい}→洗剤：03304_senzai⟧⟦は→は：00079_ha⟧10⟦{倍|ばい}→倍：01492_bai⟧⟦に→に：00314_ni⟧{希釈|きしゃく}⟦して→する：00392_suru⟧⟦{使|つか}って→使う：00473_tsukau⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please dilute this detergent to ten times its volume before use.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "18672_kishaku_ex3",
-      "japanese": "{希釈|きしゃく}{倍率|ばいりつ}を{間違|まちが}えると{効果|こうか}がなくなるので{注意|ちゅうい}が{必要|ひつよう}だ。",
+      "japanese": "{希釈|きしゃく}⟦{倍率|ばいりつ}→倍率：15067_bairitsu⟧⟦を→を：00422_wo⟧⟦{間違|まちが}える→間違える：01109_machigaeru⟧⟦と→と：00512_to⟧⟦{効果|こうか}→効果：02726_kouka⟧⟦が→が：00051_ga⟧なくなる⟦の→の：09472_no⟧で⟦{注意|ちゅうい}→注意：01464_chuui⟧⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧だ。",
       "english": "If you get the dilution ratio wrong, it loses its effectiveness, so be careful.",
       "sense_numbers": [
         1
@@ -134,8 +134,38 @@
       "notes": null
     }
   ],
-  "notes": "{希釈|きしゃく} means dilution — reducing the concentration of a substance by adding more of something else (usually water or solvent).\n\nUSAGE:\n- Functions as a する verb and as a noun.\n- A technical term that appears constantly on product labels for cleaning products, agricultural chemicals, beverages, and pharmaceuticals.\n- Composed of {希|き} (rare, sparse) + {釈|しゃく} (to dissolve, to dilute).\n\nCOMMON PATTERNS:\n- {水|みず}で{希釈|きしゃく}する: to dilute with water\n- {希釈|きしゃく}{倍率|ばいりつ}: dilution ratio (e.g., 100{倍|ばい}に{希釈|きしゃく}する — dilute 100-fold)\n- {希釈|きしゃく}{液|えき}: a diluted solution\n- {希釈|きしゃく}して{使用|しよう}する: to use after dilution (a standard label instruction)\n- {希釈|きしゃく}{倍数|ばいすう}: dilution factor\n\nSIMILAR VERBS:\n- {濃縮|のうしゅく}: concentration (the opposite process).\n- {薄|うす}める: to dilute, to thin out (the everyday verb; less technical).\n- {溶|と}かす: to dissolve (related but refers to dissolving a solid).",
+  "notes": "{希釈|きしゃく} means dilution — reducing the concentration of a substance by adding more of something else (usually water or solvent).\n\nUSAGE:\n- Functions as a ⟦する→する：00392_suru⟧ verb and as a noun.\n- A technical term that appears constantly on product labels for cleaning products, agricultural chemicals, beverages, and pharmaceuticals.\n- Composed of {希|き} (rare, sparse) + {釈|しゃく} (to dissolve, to dilute).\n\nCOMMON PATTERNS:\n- ⟦{水|みず}→水：02258_mizu⟧⟦で→で：00502_de⟧{希釈|きしゃく}⟦する→する：00392_suru⟧: to dilute with water\n- {希釈|きしゃく}⟦{倍率|ばいりつ}→倍率：15067_bairitsu⟧: dilution ratio (e.g., 100⟦{倍|ばい}→倍：01492_bai⟧⟦に→に：00314_ni⟧{希釈|きしゃく}⟦する→する：00392_suru⟧ — dilute 100-fold)\n- {希釈|きしゃく}⟦{液|えき}→液：02270_eki⟧: a diluted solution\n- {希釈|きしゃく}⟦して→する：00392_suru⟧⟦{使用|しよう}→使用：01637_shiyou⟧⟦する→する：00392_suru⟧: to use after dilution (a standard label instruction)\n- {希釈|きしゃく}⟦{倍数|ばいすう}→倍数：20737_baisuu⟧: dilution factor\n\nSIMILAR WORDS:\n- ⟦{濃縮|のうしゅく}→濃縮：13374_noushuku⟧: concentration (the opposite process).\n- ⟦{薄|うす}める→薄める：10055_usumeru⟧: to dilute, to thin out (the everyday verb; less technical).\n- ⟦{溶|と}かす→溶かす：08264_tokasu⟧: to dissolve (related but refers to dissolving a solid).",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13374_noushuku",
+      "reading": "のうしゅく",
+      "headword": "{濃縮|のうしゅく}",
+      "label": "concentration (the opposite process)."
+    },
+    {
+      "type": "contrast",
+      "target_id": "10055_usumeru",
+      "reading": "うすめる",
+      "headword": "{薄|うす}める",
+      "label": "to dilute, to thin out (the everyday…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08264_tokasu",
+      "reading": "とかす",
+      "headword": "{溶|と}かす",
+      "label": "to dissolve (related but refers…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24921_kasui",
+      "reading": "かすい",
+      "headword": "{加水|かすい}",
+      "label": "adding water"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -154,6 +184,6 @@
       "verb_class": "suru"
     },
     "created": "2026-03-22T11:50:30Z",
-    "modified": "2026-04-10T13:28:57Z"
+    "modified": "2026-09-02T04:01:53Z"
   }
 }

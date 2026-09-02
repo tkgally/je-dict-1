@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21161_dousou_ex1",
-      "japanese": "{彼|かれ}とは{高校|こうこう}の{同窓|どうそう}だ。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦と→と：00512_to⟧⟦は→は：00079_ha⟧⟦{高校|こうこう}→高校：01083_koukou⟧⟦の→の：09472_no⟧{同窓|どうそう}だ。",
       "english": "He and I are high school classmates.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21161_dousou_ex2",
-      "japanese": "{同窓会|どうそうかい}に{出席|しゅっせき}した。",
+      "japanese": "⟦{同窓会|どうそうかい}→同窓会：15875_dousoukai⟧⟦に→に：00314_ni⟧⟦{出席|しゅっせき}した→出席する：01830_shussekisuru⟧。",
       "english": "I attended the alumni reunion.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21161_dousou_ex3",
-      "japanese": "{同窓|どうそう}の{友人|ゆうじん}から{久|ひさ}しぶりに{連絡|れんらく}があり、{懐|なつ}かしい{話|はなし}で{盛|も}り{上|あ}がった。",
+      "japanese": "{同窓|どうそう}⟦の→の：09472_no⟧⟦{友人|ゆうじん}→友人：03649_yuujin⟧⟦から→から：00504_kara⟧⟦{久|ひさ}しぶり→久しぶり：01711_hisashiburi⟧⟦に→に：00314_ni⟧⟦{連絡|れんらく}→連絡：01524_renraku⟧⟦が→が：00051_ga⟧⟦あり→ある：00006_aru⟧、⟦{懐|なつ}かしい→懐かしい：02484_natsukashii⟧⟦{話|はなし}→話：01496_hanashi⟧⟦で→で：00502_de⟧⟦{盛|も}り{上|あ}がった→盛り上がる：06344_moriagaru⟧。",
       "english": "I heard from a school friend after a long time, and we had a great time reminiscing.",
       "sense_numbers": [
         1
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "Literally \"same window\" ({同|どう} same + {窓|そう} window), referring to students who studied at the same place. Most commonly encountered in the compound {同窓会|どうそうかい} (alumni reunion, class reunion), which is an important social tradition in Japan.\n\nCOMMON COLLOCATIONS:\n- {同窓会|どうそうかい}: alumni reunion; class reunion\n- {同窓生|どうそうせい}: fellow alumnus; classmate\n- {同窓|どうそう}{名簿|めいぼ}: alumni directory\n\nSIMILAR WORDS:\n- {同級生|どうきゅうせい}: classmate — specifically someone in the same grade/year\n- {同期|どうき}: colleague from the same entering class — common in companies and organizations\n- {先輩|せんぱい}/{後輩|こうはい}: senior/junior — based on year, not just same school",
+  "notes": "Literally \"same window\" (⟦{同|どう}→同〜：03962_dou⟧ same + {窓|そう} window), referring to students who studied at the same place. Most commonly encountered in the compound ⟦{同窓会|どうそうかい}→同窓会：15875_dousoukai⟧ (alumni reunion, class reunion), which is an important social tradition in Japan.\n\nCOMMON COLLOCATIONS:\n- ⟦{同窓会|どうそうかい}→同窓会：15875_dousoukai⟧: alumni reunion; class reunion\n- ⟦{同窓生|どうそうせい}→同窓生：21773_dousousei⟧: fellow alumnus; classmate\n- {同窓|どうそう}⟦{名簿|めいぼ}→名簿：11870_meibo⟧: alumni directory\n\nSIMILAR WORDS:\n- ⟦{同級生|どうきゅうせい}→同級生：03032_doukyuusei⟧: classmate — specifically someone in the same grade/year\n- ⟦{同期|どうき}→同期：12029_douki⟧: colleague from the same entering class — common in companies and organizations\n- ⟦{先輩|せんぱい}→先輩：01451_senpai⟧/⟦{後輩|こうはい}→後輩：02501_kouhai⟧: senior/junior — based on year, not just same school",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03032_doukyuusei",
+      "reading": "どうきゅうせい",
+      "headword": "{同級生|どうきゅうせい}",
+      "label": "classmate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12029_douki",
+      "reading": "どうき",
+      "headword": "{同期|どうき}",
+      "label": "colleague from the same entering class"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01451_senpai",
+      "reading": "せんぱい",
+      "headword": "{先輩|せんぱい}",
+      "label": "senior/junior"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02501_kouhai",
+      "reading": "こうはい",
+      "headword": "{後輩|こうはい}",
+      "label": "senior/junior"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +90,6 @@
       ]
     },
     "created": "2026-03-31T21:39:39Z",
-    "modified": "2026-07-29T00:22:41Z"
+    "modified": "2026-09-02T04:02:02Z"
   }
 }

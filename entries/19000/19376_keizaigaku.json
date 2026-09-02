@@ -15,24 +15,30 @@
   "examples": [
     {
       "id": "19376_keizaigaku_ex1",
-      "japanese": "{大学|だいがく}で{経済学|けいざいがく}を{学|まな}んでいる。",
+      "japanese": "⟦{大学|だいがく}→大学：00608_daigaku⟧⟦で→で：00502_de⟧{経済学|けいざいがく}⟦を→を：00422_wo⟧⟦{学|まな}んでいる→学ぶ：01987_manabu⟧。",
       "english": "I'm studying economics at university.",
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "19376_keizaigaku_ex2",
-      "japanese": "{経済学|けいざいがく}の{授業|じゅぎょう}は{難|むずか}しいが{面白|おもしろ}い。",
+      "japanese": "{経済学|けいざいがく}⟦の→の：09472_no⟧⟦{授業|じゅぎょう}→授業：00781_jugyou⟧⟦は→は：00079_ha⟧⟦{難|むずか}しい→難しい：00517_muzukashii⟧⟦が→が：00051_ga⟧⟦{面白|おもしろ}い→面白い：00589_omoshiroi⟧。",
       "english": "The economics classes are difficult but interesting.",
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "19376_keizaigaku_ex3",
-      "japanese": "{彼女|かのじょ}は{経済学|けいざいがく}の{博士号|はくしごう}を{持|も}っている。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧{経済学|けいざいがく}⟦の→の：09472_no⟧⟦{博士号|はくしごう}→博士号：16350_hakushigou⟧⟦を→を：00422_wo⟧⟦{持|も}っている→持つ：00478_motsu⟧。",
       "english": "She has a PhD in economics.",
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "The academic discipline that studies how societies produce, distribute, and consume goods and services. Unlike {経済|けいざい} alone, which can refer to the economy in general, {経済学|けいざいがく} specifically denotes the scholarly field.\n\nSTRUCTURE:\n{経済|けいざい} (economy) + {学|がく} (study/discipline). The ～{学|がく} suffix is used to form academic discipline names.\n\nRELATED ACADEMIC FIELDS:\n- {政治学|せいじがく} — political science\n- {社会学|しゃかいがく} — sociology\n- {経営学|けいえいがく} — business administration\n\nRELATED WORDS:\n- {経済|けいざい} — economy; economics (in everyday sense)\n- {経済学部|けいざいがくぶ} — faculty/department of economics",
+  "notes": "The academic discipline that studies how societies produce, distribute, and consume goods and services. Unlike ⟦{経済|けいざい}→経済：01394_keizai⟧ alone, which can refer to the economy in general, {経済学|けいざいがく} specifically denotes the scholarly field.\n\nCOMMON PATTERNS:\n⟦{経済|けいざい}→経済：01394_keizai⟧ (economy) + ⟦{学|がく}→〜学：09846_gaku⟧ (study/discipline). The ～⟦{学|がく}→〜学：09846_gaku⟧ suffix is used to form academic discipline names.\n\nRELATED ACADEMIC FIELDS:\n- {政治学|せいじがく} — political science\n- ⟦{社会学|しゃかいがく}→社会学：23843_shakaigaku⟧ — sociology\n- ⟦{経営学|けいえいがく}→経営学：10174_keieigaku⟧ — business administration\n\nRELATED WORDS:\n- ⟦{経済|けいざい}→経済：01394_keizai⟧ — economy; economics (in everyday sense)\n- ⟦{経済学部|けいざいがくぶ}→経済学部：24491_keizaigakubu⟧ — faculty/department of economics",
   "cross_references": [
     {
       "type": "contrast",
@@ -40,19 +46,33 @@
       "reading": "けいえいがく",
       "headword": "{経営学|けいえいがく}",
       "label": "business administration (organizational)"
+    },
+    {
+      "type": "related",
+      "target_id": "23843_shakaigaku",
+      "reading": "しゃかいがく",
+      "headword": "{社会学|しゃかいがく}",
+      "label": "sociology"
     }
   ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["economics", "education"],
-      "domain": ["academic"]
+      "semantic": [
+        "economics",
+        "education"
+      ],
+      "domain": [
+        "academic"
+      ]
     },
     "created": "2026-03-25T12:57:22Z",
-    "modified": "2026-07-26T21:32:58Z"
+    "modified": "2026-09-02T04:01:55Z"
   }
 }

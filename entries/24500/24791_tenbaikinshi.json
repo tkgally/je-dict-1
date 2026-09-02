@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24791_tenbaikinshi_ex1",
-      "japanese": "このチケットは{転売|てんばい}{禁止|きんし}です。",
+      "japanese": "⟦この→この：00962_kono⟧⟦チケット→チケット：11014_chiketto⟧⟦は→は：00079_ha⟧{転売|てんばい}{禁止|きんし}です。",
       "english": "Resale of this ticket is prohibited.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24791_tenbaikinshi_ex2",
-      "japanese": "{転売|てんばい}{禁止|きんし}の{法律|ほうりつ}が{施行|しこう}された。",
+      "japanese": "{転売|てんばい}{禁止|きんし}⟦の→の：09472_no⟧⟦{法律|ほうりつ}→法律：01722_houritsu⟧⟦が→が：00051_ga⟧⟦{施行|しこう}→施行：06581_shikou⟧⟦された→する：00392_suru⟧。",
       "english": "A law prohibiting resale was enacted.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24791_tenbaikinshi_ex3",
-      "japanese": "{人気|にんき}コンサートのチケットが{高額|こうがく}{転売|てんばい}される{問題|もんだい}を{受|う}け、{転売|てんばい}{禁止|きんし}{対策|たいさく}が{強化|きょうか}された。",
+      "japanese": "⟦{人気|にんき}→人気：01488_ninki⟧⟦コンサート→コンサート：01360_konsaato⟧⟦の→の：09472_no⟧⟦チケット→チケット：11014_chiketto⟧⟦が→が：00051_ga⟧⟦{高額|こうがく}→高額：14704_kougaku⟧⟦{転売|てんばい}される→転売する：26847_tenbaisuru⟧⟦{問題|もんだい}→問題：00797_mondai⟧⟦を→を：00422_wo⟧⟦{受|う}け→受ける：01215_ukeru⟧、{転売|てんばい}{禁止|きんし}⟦{対策|たいさく}→対策：02511_taisaku⟧⟦が→が：00051_ga⟧⟦{強化|きょうか}→強化：00260_kyouka⟧⟦された→する：00392_suru⟧。",
       "english": "In response to the problem of popular concert tickets being resold at inflated prices, anti-resale measures were strengthened.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {転売|てんばい} (resale) and {禁止|きんし} (prohibition). Extremely common in modern Japan, appearing on tickets, product packaging, and event websites. The issue of scalping ({転売|てんばい}{屋|や} — scalper) became prominent enough that Japan enacted a specific anti-scalping law for entertainment tickets in 2019.\n\nCOMMON COLLOCATIONS:\n- {転売|てんばい}{禁止|きんし}{対策|たいさく} — anti-resale measures\n- {転売|てんばい}{禁止|きんし}{法|ほう} — anti-resale law\n- {高額|こうがく}{転売|てんばい} — resale at an inflated price\n- {転売|てんばい}{目的|もくてき}の{購入|こうにゅう} — purchasing for the purpose of resale\n\nSIMILAR WORDS:\n- {転売|てんばい} — resale (the act itself)\n- ダフ{行為|こうい} — scalping (older term, from ダフ{屋|や})\n- {不正|ふせい}{転売|てんばい} — illegal resale",
+  "notes": "A compound of ⟦{転売|てんばい}→転売：10558_tenbai⟧ (resale) and ⟦{禁止|きんし}→禁止：02643_kinshi⟧ (prohibition). Extremely common in modern Japan, appearing on tickets, product packaging, and event websites. The issue of scalping (⟦{転売|てんばい}{屋|や}→転売屋：24325_tenbaiya⟧ — scalper) became prominent enough that Japan enacted a specific anti-scalping law for entertainment tickets in 2019.\n\nCOMMON COLLOCATIONS:\n- {転売|てんばい}{禁止|きんし}⟦{対策|たいさく}→対策：02511_taisaku⟧ — anti-resale measures\n- {転売|てんばい}{禁止|きんし}{法|ほう} — anti-resale law\n- ⟦{高額|こうがく}→高額：14704_kougaku⟧⟦{転売|てんばい}→転売：10558_tenbai⟧ — resale at an inflated price\n- ⟦{転売|てんばい}→転売：10558_tenbai⟧⟦{目的|もくてき}→目的：02433_mokuteki⟧⟦の→の：09472_no⟧⟦{購入|こうにゅう}→購入：03057_kounyuu⟧ — purchasing for the purpose of resale\n\nSIMILAR WORDS:\n- ⟦{転売|てんばい}→転売：10558_tenbai⟧ — resale (the act itself)\n- ダフ⟦{行為|こうい}→行為：10021_koui⟧ — scalping (older term, from ダフ{屋|や})\n- ⟦{不正|ふせい}→不正：01660_fusei⟧⟦{転売|てんばい}→転売：10558_tenbai⟧ — illegal resale",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -52,6 +52,8 @@
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "business",
         "law"
@@ -59,6 +61,6 @@
       "usage": []
     },
     "created": "2026-04-20T16:17:15Z",
-    "modified": "2026-08-03T09:22:27Z"
+    "modified": "2026-09-02T04:02:19Z"
   }
 }

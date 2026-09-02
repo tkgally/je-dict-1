@@ -15,40 +15,74 @@
   "examples": [
     {
       "id": "20899_yushi_ex1",
-      "japanese": "{油脂|ゆし}を{控|ひか}える。",
+      "japanese": "{油脂|ゆし}⟦を→を：00422_wo⟧⟦{控|ひか}える→控える：10054_hikaeru⟧。",
       "english": "To cut back on fats and oils.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20899_yushi_ex2",
-      "japanese": "{動物性|どうぶつせい}{油脂|ゆし}と{植物性|しょくぶつせい}{油脂|ゆし}がある。",
+      "japanese": "{動物性|どうぶつせい}{油脂|ゆし}⟦と→と：00512_to⟧{植物性|しょくぶつせい}{油脂|ゆし}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There are animal fats and vegetable oils.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20899_yushi_ex3",
-      "japanese": "この{食品|しょくひん}には{油脂|ゆし}{分|ぶん}が{多|おお}く{含|ふく}まれている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{食品|しょくひん}→食品：03247_shokuhin⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{油脂|ゆし}⟦{分|ぶん}→分：26216_bun⟧⟦が→が：00051_ga⟧⟦{多|おお}く→多い：01127_ooi⟧⟦{含|ふく}まれている→含む：01982_fukumu⟧。",
       "english": "This food contains a high amount of fat.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {油|ゆ} (oil, liquid fat) + {脂|し} (fat, solid fat). This is the umbrella term covering both liquid oils ({油|あぶら}) and solid fats ({脂|あぶら}). Commonly found on food labels, in cooking discussions, and in scientific contexts.\n\nCOMMON COLLOCATIONS:\n- {動物性|どうぶつせい}{油脂|ゆし}: animal fat\n- {植物性|しょくぶつせい}{油脂|ゆし}: vegetable oil\n- {油脂|ゆし}{分|ぶん}: fat content\n- {油脂|ゆし}を{含|ふく}む: to contain fat/oil\n\nSIMILAR WORDS:\n- {脂肪|しぼう}: fat — used for body fat or dietary fat in general\n- {油|あぶら}: oil — the everyday word for cooking oil or oily substances\n- {脂|あぶら}: grease, fat — refers to solid/animal fat specifically",
+  "notes": "Composed of {油|ゆ} (oil, liquid fat) + {脂|し} (fat, solid fat). This is the umbrella term covering both liquid oils (⟦{油|あぶら}→油：01693_abura⟧) and solid fats (⟦{脂|あぶら}→脂：01916_abura⟧). Commonly found on food labels, in cooking discussions, and in scientific contexts.\n\nCOMMON COLLOCATIONS:\n- {動物性|どうぶつせい}{油脂|ゆし}: animal fat\n- {植物性|しょくぶつせい}{油脂|ゆし}: vegetable oil\n- {油脂|ゆし}⟦{分|ぶん}→分：26216_bun⟧: fat content\n- {油脂|ゆし}⟦を→を：00422_wo⟧⟦{含|ふく}む→含む：01982_fukumu⟧: to contain fat/oil\n\nSIMILAR WORDS:\n- ⟦{脂肪|しぼう}→脂肪：03199_shibou⟧: fat — used for body fat or dietary fat in general\n- ⟦{油|あぶら}→油：01693_abura⟧: oil — the everyday word for cooking oil or oily substances\n- ⟦{脂|あぶら}→脂：01916_abura⟧: grease, fat — refers to solid/animal fat specifically",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03199_shibou",
+      "reading": "しぼう",
+      "headword": "{脂肪|しぼう}",
+      "label": "fat"
+    },
+    {
+      "type": "related",
+      "target_id": "23797_shibousan",
+      "reading": "しぼうさん",
+      "headword": "{脂肪酸|しぼうさん}",
+      "label": "fatty acid"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25118_yubun",
+      "reading": "ゆぶん",
+      "headword": "{油分|ゆぶん}",
+      "label": "oil content"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food", "science"]
+      "semantic": [
+        "food",
+        "science"
+      ]
     },
     "created": "2026-03-30T20:11:03Z",
-    "modified": "2026-03-30T20:11:03Z"
+    "modified": "2026-09-02T04:02:01Z"
   }
 }

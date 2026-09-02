@@ -15,41 +15,67 @@
   "examples": [
     {
       "id": "27448_imoutosan_ex1",
-      "japanese": "{妹|いもうと}さんはお{元気|げんき}ですか。",
+      "japanese": "{妹|いもうと}さん⟦は→は：00079_ha⟧お⟦{元気|げんき}→元気：00696_genki⟧です⟦か→か：09473_ka⟧。",
       "english": "Is your younger sister well?",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27448_imoutosan_ex2",
-      "japanese": "{妹|いもうと}さんは{今|いま}、{大学生|だいがくせい}ですか。",
+      "japanese": "{妹|いもうと}さん⟦は→は：00079_ha⟧⟦{今|いま}→今：00945_ima⟧、⟦{大学生|だいがくせい}→大学生：01653_daigakusei⟧です⟦か→か：09473_ka⟧。",
       "english": "Is your younger sister a university student now?",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27448_imoutosan_ex3",
-      "japanese": "{妹|いもうと}さんが{結婚|けっこん}されると{聞|き}いて、とても{嬉|うれ}しく{思|おも}いました。",
+      "japanese": "{妹|いもうと}さん⟦が→が：00051_ga⟧⟦{結婚|けっこん}→結婚：02514_kekkon⟧⟦される→する：00392_suru⟧⟦と→と：00512_to⟧⟦{聞|き}いて→聞く：00483_kiku⟧、⟦とても→とても：00593_totemo⟧⟦{嬉|うれ}しく→嬉しい：00822_ureshii⟧⟦{思|おも}いました→思う：00492_omou⟧。",
       "english": "I was very glad to hear that your younger sister is getting married.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Polite reference form for someone else's younger sister — {妹|いもうと} + the honorific suffix さん. Do not use for one's own younger sister when speaking to outsiders.\n\nUSAGE:\n- Used when talking about the listener's or a third party's younger sister\n- For one's own younger sister (to outsiders): {妹|いもうと}\n- Within the family, older siblings call a younger sister by name, not by {妹|いもうと}さん\n\nCOMMON COLLOCATIONS:\n- {妹|いもうと}さんはおいくつですか: How old is your younger sister?\n- {妹|いもうと}さんによろしく: Say hi to your younger sister\n- {妹|いもうと}さんとよく{似|に}ている: looks a lot like your younger sister\n\nRELATED WORDS:\n- {妹|いもうと}: one's own younger sister (humble; for outsiders)\n- お{姉|ねえ}さん: older sister (polite)\n- {弟|おとうと}さん: someone else's younger brother (parallel form)",
+  "notes": "Polite reference form for someone else's younger sister — ⟦{妹|いもうと}→妹：00573_imouto⟧ + the honorific suffix さん. Do not use for one's own younger sister when speaking to outsiders.\n\nUSAGE:\n- Used when talking about the listener's or a third party's younger sister\n- For one's own younger sister (to outsiders): ⟦{妹|いもうと}→妹：00573_imouto⟧\n- Within the family, older siblings call a younger sister by name, not by {妹|いもうと}さん\n\nCOMMON COLLOCATIONS:\n- {妹|いもうと}さん⟦は→は：00079_ha⟧⟦おいくつ→おいくつ：28149_oikutsu⟧です⟦か→か：09473_ka⟧: How old is your younger sister?\n- {妹|いもうと}さん⟦に→に：00314_ni⟧⟦よろしく→よろしく：01070_yoroshiku⟧: Say hi to your younger sister\n- {妹|いもうと}さん⟦と→と：00512_to⟧⟦よく→よく：00601_yoku⟧⟦{似|に}ている→似る：01159_niru⟧: looks a lot like your younger sister\n\nRELATED WORDS:\n- ⟦{妹|いもうと}→妹：00573_imouto⟧: one's own younger sister (humble; for outsiders)\n- ⟦お{姉|ねえ}さん→お姉さん：02859_oneesan⟧: older sister (polite)\n- ⟦{弟|おとうと}さん→弟さん：27447_otoutosan⟧: someone else's younger brother (parallel form)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "02859_oneesan",
+      "reading": "おねえさん",
+      "headword": "お{姉|ねえ}さん",
+      "label": "older sister"
+    },
+    {
+      "type": "related",
+      "target_id": "27447_otoutosan",
+      "reading": "おとうとさん",
+      "headword": "{弟|おとうと}さん",
+      "label": "someone else's younger brother"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "polite",
-      "semantic": ["family"],
+      "semantic": [
+        "family"
+      ],
       "domain": []
     },
     "created": "2026-05-12T03:04:54Z",
-    "modified": "2026-05-12T03:04:54Z"
+    "modified": "2026-09-02T04:02:30Z"
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "16590_jikanme_ex1",
-      "japanese": "{一|いち}{時間目|じかんめ}は{数学|すうがく}だ。",
+      "japanese": "⟦{一|いち}→一：00705_ichi⟧{時間目|じかんめ}⟦は→は：00079_ha⟧⟦{数学|すうがく}→数学：01442_suugaku⟧だ。",
       "english": "First period is math.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "16590_jikanme_ex2",
-      "japanese": "{三|さん}{時間目|じかんめ}の{授業|じゅぎょう}に{遅|おく}れた。",
+      "japanese": "⟦{三|さん}→三：00749_san⟧{時間目|じかんめ}⟦の→の：09472_no⟧⟦{授業|じゅぎょう}→授業：00781_jugyou⟧⟦に→に：00314_ni⟧⟦{遅|おく}れた→遅れる：00741_okureru⟧。",
       "english": "I was late for the third-period class.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "16590_jikanme_ex3",
-      "japanese": "{今日|きょう}は{六|ろく}{時間目|じかんめ}まであるから、{帰|かえ}りが{遅|おそ}くなる。",
+      "japanese": "⟦{今日|きょう}→今日：00496_kyou⟧⟦は→は：00079_ha⟧⟦{六|ろく}→六：00747_roku⟧{時間目|じかんめ}⟦まで→まで：00490_made⟧⟦ある→ある：00006_aru⟧⟦から→から：00504_kara⟧、⟦{帰|かえ}り→帰り：01275_kaeri⟧⟦が→が：00051_ga⟧⟦{遅|おそ}く→遅い：00533_osoi⟧⟦なる→なる：01970_naru⟧。",
       "english": "Today there are classes up to sixth period, so I'll be home late.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,19 @@
       ]
     }
   ],
-  "notes": "A suffix attached to numbers to indicate ordinal class periods in a school day. Japanese schools typically have 5-6 periods ({時限|じげん}) per day.\n\nCOUNTING:\n- {一|いち}{時間目|じかんめ}: first period\n- {二|に}{時間目|じかんめ}: second period\n- {三|さん}{時間目|じかんめ}: third period\n- {何|なん}{時間目|じかんめ}: which period?\n\nCOMMON PATTERNS:\n- {一|いち}{時間目|じかんめ}は{国語|こくご}だ: first period is Japanese language\n- {六|ろく}{時間目|じかんめ}まである: there are classes up to sixth period\n\nCONTRAST:\n- {時間目|じかんめ}: used in elementary through high school for class periods\n- {時限|じげん}: also means \"period\" (more formal; used in university timetables)\n- {限目|げんめ}: abbreviated form of {時限目|じげんめ}, e.g., {一|いち}{限目|げんめ} (first period, college usage)",
-  "cross_references": [],
+  "notes": "A suffix attached to numbers to indicate ordinal class periods in a school day. Japanese schools typically have 5-6 periods (⟦{時限|じげん}→時限：13098_jigen⟧) per day.\n\nCOUNTING PATTERNS:\n- ⟦{一|いち}→一：00705_ichi⟧{時間目|じかんめ}: first period\n- ⟦{二|に}→二：00736_ni⟧{時間目|じかんめ}: second period\n- ⟦{三|さん}→三：00749_san⟧{時間目|じかんめ}: third period\n- {何|なん}{時間目|じかんめ}: which period?\n\nCOMMON PATTERNS:\n- ⟦{一|いち}→一：00705_ichi⟧{時間目|じかんめ}⟦は→は：00079_ha⟧⟦{国語|こくご}→国語：02739_kokugo⟧だ: first period is Japanese language\n- ⟦{六|ろく}→六：00747_roku⟧{時間目|じかんめ}⟦まで→まで：00490_made⟧⟦ある→ある：00006_aru⟧: there are classes up to sixth period\n\nSIMILAR WORDS:\n- {時間目|じかんめ}: used in elementary through high school for class periods\n- ⟦{時限|じげん}→時限：13098_jigen⟧: also means \"period\" (more formal; used in university timetables)\n- {限目|げんめ}: abbreviated form of {時限目|じげんめ}, e.g., ⟦{一|いち}→一：00705_ichi⟧{限目|げんめ} (first period, college usage)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13098_jigen",
+      "reading": "じげん",
+      "headword": "{時限|じげん}",
+      "label": "also means \"period\" (more formal"
+    }
+  ],
   "metadata": {
     "created": "2026-03-14T01:36:58Z",
-    "modified": "2026-07-20T00:31:17Z",
+    "modified": "2026-09-02T04:01:45Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

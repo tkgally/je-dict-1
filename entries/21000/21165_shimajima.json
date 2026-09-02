@@ -15,40 +15,73 @@
   "examples": [
     {
       "id": "21165_shimajima_ex1",
-      "japanese": "{南|みなみ}の{島々|しまじま}を{巡|めぐ}った。",
+      "japanese": "⟦{南|みなみ}→南：00652_minami⟧⟦の→の：09472_no⟧{島々|しまじま}⟦を→を：00422_wo⟧⟦{巡|めぐ}った→巡る：03930_meguru⟧。",
       "english": "I toured the southern islands.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21165_shimajima_ex2",
-      "japanese": "{瀬戸内海|せとないかい}にはたくさんの{島々|しまじま}がある。",
+      "japanese": "⟦{瀬戸内海|せとないかい}→瀬戸内海：30793_setonaikai⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦たくさん→たくさん：00597_takusan⟧⟦の→の：09472_no⟧{島々|しまじま}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There are many islands in the Seto Inland Sea.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21165_shimajima_ex3",
-      "japanese": "{日本|にほん}は{大小|だいしょう}さまざまな{島々|しまじま}から{成|な}る{島国|しまぐに}だ。",
+      "japanese": "⟦{日本|にほん}→日本：03876_nihon⟧⟦は→は：00079_ha⟧⟦{大小|だいしょう}→大小：05557_daishou⟧さまざまな{島々|しまじま}⟦から→から：00504_kara⟧{成|な}る⟦{島国|しまぐに}→島国：12339_shimaguni⟧だ。",
       "english": "Japan is an island nation made up of various large and small islands.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Formed by reduplication of {島|しま} (island), with the second しま becoming じま through rendaku (sequential voicing). This is a common Japanese word-formation pattern where repeating a noun creates a plural or collective meaning (e.g., {人々|ひとびと} people, {山々|やまやま} mountains, {国々|くにぐに} countries).\n\nCOMMON COLLOCATIONS:\n- {南国|なんごく}の{島々|しまじま}: tropical islands\n- {離島|りとう}の{島々|しまじま}: remote islands\n- {島々|しまじま}を{巡|めぐ}る: to tour the islands\n\nRELATED WORDS:\n- {島|しま}: island — the singular form\n- {諸島|しょとう}: islands; archipelago — more formal, used in geographic names\n- {列島|れっとう}: archipelago; island chain — a chain of islands in a line",
+  "notes": "Formed by reduplication of ⟦{島|しま}→島：00885_shima⟧ (island), with the second しま becoming じま through rendaku (sequential voicing). This is a common Japanese word-formation pattern where repeating a noun creates a plural or collective meaning (e.g., ⟦{人々|ひとびと}→人々：03141_hitobito⟧ people, ⟦{山々|やまやま}→山々：04809_yamayama⟧ mountains, ⟦{国々|くにぐに}→国々：04806_kuniguni⟧ countries).\n\nCOMMON COLLOCATIONS:\n- {南国|なんごく}⟦の→の：09472_no⟧{島々|しまじま}: tropical islands\n- ⟦{離島|りとう}→離島：14597_ritou⟧⟦の→の：09472_no⟧{島々|しまじま}: remote islands\n- {島々|しまじま}⟦を→を：00422_wo⟧⟦{巡|めぐ}る→巡る：03930_meguru⟧: to tour the islands\n\nRELATED WORDS:\n- ⟦{島|しま}→島：00885_shima⟧: island — the singular form\n- ⟦{諸島|しょとう}→諸島：14343_shotou⟧: islands; archipelago — more formal, used in geographic names\n- ⟦{列島|れっとう}→列島：11739_rettou⟧: archipelago; island chain — a chain of islands in a line",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "14343_shotou",
+      "reading": "しょとう",
+      "headword": "{諸島|しょとう}",
+      "label": "islands"
+    },
+    {
+      "type": "related",
+      "target_id": "11739_rettou",
+      "reading": "れっとう",
+      "headword": "{列島|れっとう}",
+      "label": "archipelago"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05499_guntou",
+      "reading": "ぐんとう",
+      "headword": "{群島|ぐんとう}",
+      "label": "archipelago"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["geography"]
+      "semantic": [
+        "geography"
+      ]
     },
     "created": "2026-03-31T21:41:01Z",
-    "modified": "2026-03-31T21:41:01Z"
+    "modified": "2026-09-02T04:02:02Z"
   }
 }

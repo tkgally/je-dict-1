@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21100_choumen_ex1",
-      "japanese": "{帳面|ちょうめん}に{記録|きろく}をつける。",
+      "japanese": "{帳面|ちょうめん}⟦に→に：00314_ni⟧⟦{記録|きろく}→記録：02490_kiroku⟧⟦を→を：00422_wo⟧⟦つける→つける：00562_tsukeru⟧。",
       "english": "To keep records in a notebook.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21100_choumen_ex2",
-      "japanese": "{祖母|そぼ}は{家計|かけい}の{帳面|ちょうめん}を{毎日|まいにち}つけていた。",
+      "japanese": "⟦{祖母|そぼ}→祖母：00813_sobo⟧⟦は→は：00079_ha⟧⟦{家計|かけい}→家計：12287_kakei⟧⟦の→の：09472_no⟧{帳面|ちょうめん}⟦を→を：00422_wo⟧⟦{毎日|まいにち}→毎日：00729_mainichi⟧⟦つけていた→つける：00562_tsukeru⟧。",
       "english": "My grandmother kept household account books every day.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21100_choumen_ex3",
-      "japanese": "{古|ふる}い{帳面|ちょうめん}を{整理|せいり}していたら、{昔|むかし}の{記録|きろく}が{出|で}てきた。",
+      "japanese": "⟦{古|ふる}い→古い：00488_furui⟧{帳面|ちょうめん}⟦を→を：00422_wo⟧⟦{整理|せいり}して→整理する：21729_seirisuru⟧⟦いたら→いる：00495_iru⟧、⟦{昔|むかし}→昔：01515_mukashi⟧⟦の→の：09472_no⟧⟦{記録|きろく}→記録：02490_kiroku⟧⟦が→が：00051_ga⟧⟦{出|で}て→出る：00513_deru⟧きた。",
       "english": "While organizing old account books, records from long ago came up.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "A somewhat old-fashioned word for a notebook or ledger. In modern Japanese, {ノート} is more commonly used for general notebooks. However, {帳面|ちょうめん} remains important as part of the very common word {几帳面|きちょうめん} (meticulous, precise).\n\nCOMMON COLLOCATIONS:\n- {帳面|ちょうめん}をつける: to keep records in a book\n- {家計|かけい}{帳面|ちょうめん}: household account book\n- {帳面|ちょうめん}を{開|ひら}く: to open a ledger\n\nRELATED WORDS:\n- {几帳面|きちょうめん}: meticulous, methodical, precise — a very common na-adjective derived from this word (originally from the neat pleats of a {几帳|きちょう}, a folding screen)\n- {帳簿|ちょうぼ}: account book, ledger — the standard modern term for financial records\n- {通帳|つうちょう}: passbook, bankbook — uses the same {帳|ちょう} character\n\nETYMOLOGY:\n{帳|ちょう} (register, ledger) + {面|めん} (surface, page).",
+  "notes": "A somewhat old-fashioned word for a notebook or ledger. In modern Japanese, ⟦ノート→ノート：00738_nooto⟧ is more commonly used for general notebooks. However, {帳面|ちょうめん} remains important as part of the very common word ⟦{几帳面|きちょうめん}→几帳面：06868_kichoumen⟧ (meticulous, precise).\n\nCOMMON COLLOCATIONS:\n- {帳面|ちょうめん}⟦を→を：00422_wo⟧⟦つける→つける：00562_tsukeru⟧: to keep records in a book\n- ⟦{家計|かけい}→家計：12287_kakei⟧{帳面|ちょうめん}: household account book\n- {帳面|ちょうめん}⟦を→を：00422_wo⟧⟦{開|ひら}く→開く：01979_hiraku⟧: to open a ledger\n\nRELATED WORDS:\n- ⟦{几帳面|きちょうめん}→几帳面：06868_kichoumen⟧: meticulous, methodical, precise — a very common na-adjective derived from this word (originally from the neat pleats of a ⟦{几帳|きちょう}→几帳：30597_kichou⟧, a folding screen)\n- ⟦{帳簿|ちょうぼ}→帳簿：07961_choubo⟧: account book, ledger — the standard modern term for financial records\n- ⟦{通帳|つうちょう}→通帳：09924_tsuuchou⟧: passbook, bankbook — uses the same ⟦{帳|ちょう}→帳：10012_chou⟧ character\n\nETYMOLOGY:\n⟦{帳|ちょう}→帳：10012_chou⟧ (register, ledger) + ⟦{面|めん}→面：09933_men⟧ (surface, page).",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "07961_choubo",
+      "reading": "ちょうぼ",
+      "headword": "{帳簿|ちょうぼ}",
+      "label": "account book, ledger"
+    },
+    {
+      "type": "related",
+      "target_id": "09924_tsuuchou",
+      "reading": "つうちょう",
+      "headword": "{通帳|つうちょう}",
+      "label": "passbook, bankbook"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +75,6 @@
       ]
     },
     "created": "2026-03-31T17:18:30Z",
-    "modified": "2026-07-29T00:22:41Z"
+    "modified": "2026-09-02T04:02:02Z"
   }
 }

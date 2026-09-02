@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "04364_miki_ex1",
-      "japanese": "この⟦{木|き}→木：00524_ki⟧⟦は→は：00079_ha⟧{幹|みき}⟦が→が：00051_ga⟧⟦{太|ふと}い→太い：02955_futoi⟧。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{木|き}→木：00524_ki⟧⟦は→は：00079_ha⟧{幹|みき}⟦が→が：00051_ga⟧⟦{太|ふと}い→太い：02955_futoi⟧。",
       "english": "This tree has a thick trunk.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{幹|みき} refers to tree trunks.\n\nCommon expressions:\n- ⟦{木|き}→木：00524_ki⟧の{幹|みき} (tree trunk)\n- {幹|みき}⟦が→が：00051_ga⟧⟦{太|ふと}い→太い：02955_futoi⟧ (has a thick trunk)\n- {幹|みき}⟦を→を：00422_wo⟧⟦{切|き}る→切る：02693_kiru⟧ (to cut the trunk)\n\nRelated parts of trees:\n- ⟦{枝|えだ}→枝：02181_eda⟧ (branch)\n- ⟦{根|ね}→根：03525_ne⟧ (root)\n- ⟦{葉|は}→葉：02241_ha⟧ (leaf)\n- ⟦{樹皮|じゅひ}→樹皮：noentry⟧ (bark)\n\nNote:\n{幹|みき} is distinct from the on'yomi {幹|かん} used in compound words like ⟦{幹線|かんせん}→幹線：15069_kansen⟧ (main line), ⟦{幹部|かんぶ}→幹部：06875_kanbu⟧ (executive), and ⟦{幹事|かんじ}→幹事：16378_kanji⟧ (organizer).",
+  "notes": "{幹|みき} refers to tree trunks.\n\nCommon expressions:\n- ⟦{木|き}→木：00524_ki⟧⟦の→の：09472_no⟧{幹|みき} (tree trunk)\n- {幹|みき}⟦が→が：00051_ga⟧⟦{太|ふと}い→太い：02955_futoi⟧ (has a thick trunk)\n- {幹|みき}⟦を→を：00422_wo⟧⟦{切|き}る→切る：02693_kiru⟧ (to cut the trunk)\n\nRelated parts of trees:\n- ⟦{枝|えだ}→枝：02181_eda⟧ (branch)\n- ⟦{根|ね}→根：03525_ne⟧ (root)\n- ⟦{葉|は}→葉：02241_ha⟧ (leaf)\n- ⟦{樹皮|じゅひ}→樹皮：noentry⟧ (bark)\n\nNote:\n{幹|みき} is distinct from the on'yomi {幹|かん} used in compound words like ⟦{幹線|かんせん}→幹線：15069_kansen⟧ (main line), ⟦{幹部|かんぶ}→幹部：06875_kanbu⟧ (executive), and ⟦{幹事|かんじ}→幹事：16378_kanji⟧ (organizer).",
   "cross_references": [
     {
       "type": "related",
@@ -58,11 +58,25 @@
       "reading": "ね",
       "headword": "{根|ね}",
       "label": "root"
+    },
+    {
+      "type": "related",
+      "target_id": "02241_ha",
+      "reading": "は",
+      "headword": "{葉|は}",
+      "label": "leaf, leaves"
+    },
+    {
+      "type": "related",
+      "target_id": "14119_kuki",
+      "reading": "くき",
+      "headword": "{茎|くき}",
+      "label": "stem, stalk"
     }
   ],
   "metadata": {
     "created": "2026-01-14T11:02:41Z",
-    "modified": "2026-05-31T13:37:00Z",
+    "modified": "2026-09-02T04:01:04Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29017_boudokumasuku_ex1",
-      "japanese": "{防毒|ぼうどく}マスクを{着用|ちゃくよう}してください。",
+      "japanese": "{防毒|ぼうどく}マスク⟦を→を：00422_wo⟧⟦{着用|ちゃくよう}して→着用する：26849_chakuyousuru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please wear a gas mask.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29017_boudokumasuku_ex2",
-      "japanese": "{化学|かがく}{工場|こうじょう}では{防毒|ぼうどく}マスクが{必要|ひつよう}な{場所|ばしょ}がある。",
+      "japanese": "⟦{化学|かがく}→化学：05336_kagaku_chem⟧⟦{工場|こうじょう}→工場：01082_koujou⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧{防毒|ぼうどく}マスク⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧な⟦{場所|ばしょ}→場所：00829_basho⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There are places in chemical plants where gas masks are required.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29017_boudokumasuku_ex3",
-      "japanese": "{有毒|ゆうどく}ガスが{漏|も}れたため、{消防隊員|しょうぼうたいいん}は{防毒|ぼうどく}マスクをつけて{現場|げんば}に{入|はい}った。",
+      "japanese": "⟦{有毒|ゆうどく}→有毒：23801_yuudoku⟧⟦ガス→ガス：01344_gasu⟧⟦が→が：00051_ga⟧⟦{漏|も}れた→漏れる：02435_moreru⟧⟦ため→ため：01145_tame⟧、⟦{消防隊員|しょうぼうたいいん}→消防隊員：29793_shouboutaiin⟧⟦は→は：00079_ha⟧{防毒|ぼうどく}マスク⟦を→を：00422_wo⟧⟦つけて→つける：00562_tsukeru⟧⟦{現場|げんば}→現場：02723_genba⟧⟦に→に：00314_ni⟧⟦{入|はい}った→入る：00494_hairu⟧。",
       "english": "Because toxic gas was leaking, the firefighters entered the scene wearing gas masks.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {防毒|ぼうどく} (poison prevention) + マスク (mask). Distinct from common surgical masks ({マスク} alone or {不織布|ふしょくふ}マスク), which filter only particulates.\n\nCOMMON COLLOCATIONS:\n- {防毒|ぼうどく}マスクを{着用|ちゃくよう}する: to wear a gas mask\n- {防毒|ぼうどく}マスクをつける: to put on a gas mask\n- {防毒|ぼうどく}マスクの{装着|そうちゃく}: putting on/fitting of a gas mask\n- {防毒|ぼうどく}マスクの{交換|こうかん}フィルター: replacement filter for a gas mask\n\nSIMILAR WORDS:\n- {酸素|さんそ}マスク: oxygen mask — supplies oxygen, doesn't filter\n- {防塵|ぼうじん}マスク: dust mask — filters dust but not gases\n- ガスマスク: gas mask — loanword equivalent, more colloquial",
+  "notes": "Compound of {防毒|ぼうどく} (poison prevention) + ⟦マスク→マスク：05075_masuku⟧ (mask). Distinct from common surgical masks (⟦マスク→マスク：05075_masuku⟧ alone or ⟦{不織布|ふしょくふ}→不織布：28792_fushokufu⟧⟦マスク→マスク：05075_masuku⟧), which filter only particulates.\n\nCOMMON COLLOCATIONS:\n- {防毒|ぼうどく}マスク⟦を→を：00422_wo⟧⟦{着用|ちゃくよう}する→着用する：26849_chakuyousuru⟧: to wear a gas mask\n- {防毒|ぼうどく}マスク⟦を→を：00422_wo⟧⟦つける→つける：00562_tsukeru⟧: to put on a gas mask\n- {防毒|ぼうどく}マスク⟦の→の：09472_no⟧⟦{装着|そうちゃく}→装着：20613_souchaku⟧: putting on/fitting of a gas mask\n- {防毒|ぼうどく}マスク⟦の→の：09472_no⟧⟦{交換|こうかん}→交換：02746_koukan⟧⟦フィルター→フィルター：21847_firutaa⟧: replacement filter for a gas mask\n\nSIMILAR WORDS:\n- ⟦{酸素|さんそ}→酸素：02830_sanso⟧⟦マスク→マスク：05075_masuku⟧: oxygen mask — supplies oxygen, doesn't filter\n- ⟦{防塵|ぼうじん}→防塵：24005_boujin⟧⟦マスク→マスク：05075_masuku⟧: dust mask — filters dust but not gases\n- ガスマスク: gas mask — loanword equivalent, more colloquial",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,7 +53,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "health",
         "tool"
@@ -61,6 +61,6 @@
       "domain": []
     },
     "created": "2026-06-08T08:29:10Z",
-    "modified": "2026-08-09T06:33:11Z"
+    "modified": "2026-09-02T04:02:35Z"
   }
 }

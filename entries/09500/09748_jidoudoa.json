@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "09748_jidoudoa_ex1",
-      "japanese": "{自動|じどう}ドアが{開|ひら}かない。",
+      "japanese": "{自動|じどう}ドア⟦が→が：00051_ga⟧⟦{開|ひら}かない→開く：01979_hiraku⟧。",
       "english": "The automatic door won't open.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "09748_jidoudoa_ex2",
-      "japanese": "コンビニの{自動|じどう}ドアは{便利|べんり}だ。",
+      "japanese": "⟦コンビニ→コンビニ：01081_konbini⟧⟦の→の：09472_no⟧{自動|じどう}ドア⟦は→は：00079_ha⟧⟦{便利|べんり}→便利：00830_benri⟧だ。",
       "english": "The automatic doors at convenience stores are convenient.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "09748_jidoudoa_ex3",
-      "japanese": "{自動|じどう}ドアの{前|まえ}に{立|た}っても{反応|はんのう}しないことがある。",
+      "japanese": "{自動|じどう}ドア⟦の→の：09472_no⟧⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧⟦{立|た}って→立つ：00758_tatsu⟧⟦も→も：00484_mo⟧⟦{反応|はんのう}しない→反応する：20204_hannousuru⟧こと⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "Sometimes the automatic door doesn't react even when you stand in front of it.",
       "notes": null,
       "has_audio": false,
@@ -43,10 +43,10 @@
       ]
     }
   ],
-  "notes": "{自動|じどう}ドア is ubiquitous in Japan, found in most commercial buildings.\n\nCOMMON LOCATIONS:\n- コンビニ: convenience stores\n- スーパー: supermarkets\n- デパート: department stores\n- {駅|えき}: train stations\n- {病院|びょういん}: hospitals\n\nSIGNS:\n- {自動|じどう}ドア ({注意|ちゅうい}): Automatic door (caution)\n- {押|お}すな: Don't push\n\nRELATED TERMS:\n- {手動|しゅどう}ドア: manual door\n- {回転|かいてん}ドア: revolving door\n- センサー: sensor",
+  "notes": "{自動|じどう}ドア is ubiquitous in Japan, found in most commercial buildings.\n\nCOMMON LOCATIONS:\n- ⟦コンビニ→コンビニ：01081_konbini⟧: convenience stores\n- ⟦スーパー→スーパー：01061_suupaa⟧: supermarkets\n- ⟦デパート→デパート：01022_depaato⟧: department stores\n- ⟦{駅|えき}→駅：02180_eki⟧: train stations\n- ⟦{病院|びょういん}→病院：00577_byouin⟧: hospitals\n\nSIGNS:\n- {自動|じどう}ドア (⟦{注意|ちゅうい}→注意：01464_chuui⟧): Automatic door (caution)\n- ⟦{押|お}す→押す：02854_osu⟧な: Don't push\n\nRELATED WORDS:\n- ⟦{手動|しゅどう}→手動：12890_shudou⟧⟦ドア→ドア：00773_doa⟧: manual door\n- ⟦{回転|かいてん}ドア→回転ドア：21182_kaitendoa⟧: revolving door\n- ⟦センサー→センサー：29781_sensaa⟧: sensor",
   "metadata": {
     "created": "2026-02-03T07:22:33Z",
-    "modified": "2026-06-25T09:42:48Z",
+    "modified": "2026-09-02T04:01:19Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -75,6 +75,20 @@
       "reading": "じどう",
       "headword": "{自動|じどう}",
       "label": "automatic"
+    },
+    {
+      "type": "related",
+      "target_id": "21182_kaitendoa",
+      "reading": "かいてんどあ",
+      "headword": "{回転|かいてん}ドア",
+      "label": "revolving door"
+    },
+    {
+      "type": "related",
+      "target_id": "29781_sensaa",
+      "reading": "せんさー",
+      "headword": "センサー",
+      "label": "sensor"
     }
   ]
 }

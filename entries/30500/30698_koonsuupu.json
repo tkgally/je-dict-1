@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30698_koonsuupu_ex1",
-      "japanese": "コーンスープを{飲|の}んだ。",
+      "japanese": "コーンスープ⟦を→を：00422_wo⟧⟦{飲|の}んだ→飲む：00322_nomu⟧。",
       "english": "I had some corn soup.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30698_koonsuupu_ex2",
-      "japanese": "{寒|さむ}い{日|ひ}はコーンスープが{恋|こい}しくなる。",
+      "japanese": "⟦{寒|さむ}い→寒い：00664_samui⟧⟦{日|ひ}→日：02249_hi⟧⟦は→は：00079_ha⟧コーンスープ⟦が→が：00051_ga⟧⟦{恋|こい}しく→恋しい：03055_koishii⟧⟦なる→なる：01970_naru⟧。",
       "english": "On cold days I start craving corn soup.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30698_koonsuupu_ex3",
-      "japanese": "セットのスープはコーンスープとオニオンスープから{選|えら}べます。",
+      "japanese": "⟦セット→セット：03853_setto⟧⟦の→の：09472_no⟧⟦スープ→スープ：00395_suupu⟧⟦は→は：00079_ha⟧コーンスープ⟦と→と：00512_to⟧オニオン⟦スープ→スープ：00395_suupu⟧⟦から→から：00504_kara⟧⟦{選|えら}べます→選ぶ：00835_erabu⟧。",
       "english": "For the set you can choose between corn soup and onion soup.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "From English \"corn soup.\" Japanese uses スープを{飲|の}む (literally \"drink soup\"), not {食|た}べる.\n\nCOMMON COLLOCATIONS:\n- コーンスープを{飲|の}む: to have corn soup\n- インスタントのコーンスープ: instant corn soup\n- コーンポタージュ: corn potage — the thick, creamy style, and the usual vending-machine version\n- {粒入|つぶい}りコーンスープ: corn soup with whole kernels in it\n\nSIMILAR WORDS:\n- ポタージュ: potage — any thick, puréed soup; コーンスープ is the best-known example\n- コンソメ: consommé — the clear, thin counterpart",
+  "notes": "From English \"corn soup.\" Japanese uses ⟦スープ→スープ：00395_suupu⟧⟦を→を：00422_wo⟧⟦{飲|の}む→飲む：00322_nomu⟧ (literally \"drink soup\"), not ⟦{食|た}べる→食べる：00396_taberu⟧.\n\nCOMMON COLLOCATIONS:\n- コーンスープ⟦を→を：00422_wo⟧⟦{飲|の}む→飲む：00322_nomu⟧: to have corn soup\n- ⟦インスタント→インスタント：10719_insutanto⟧⟦の→の：09472_no⟧コーンスープ: instant corn soup\n- ⟦コーン→コーン：28894_koon⟧⟦ポタージュ→ポタージュ：30699_potaaju⟧: corn potage — the thick, creamy style, and the usual vending-machine version\n- {粒入|つぶい}りコーンスープ: corn soup with whole kernels in it\n\nSIMILAR WORDS:\n- ⟦ポタージュ→ポタージュ：30699_potaaju⟧: potage — any thick, puréed soup; コーンスープ is the best-known example\n- ⟦コンソメ→コンソメ：30717_konsome⟧: consommé — the clear, thin counterpart",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "30699_potaaju",
+      "reading": "ぽたーじゅ",
+      "headword": "ポタージュ",
+      "label": "potage"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30717_konsome",
+      "reading": "こんそめ",
+      "headword": "コンソメ",
+      "label": "consommé"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +69,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "food"
       ],
       "domain": []
     },
     "created": "2026-08-20T02:40:41Z",
-    "modified": "2026-08-20T02:40:41Z"
+    "modified": "2026-09-02T04:02:41Z"
   }
 }

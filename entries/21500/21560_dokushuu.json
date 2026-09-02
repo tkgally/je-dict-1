@@ -3,7 +3,7 @@
   "headword": "{独習|どくしゅう}",
   "reading": "どくしゅう",
   "romaji": "dokushuu",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "self-study; self-instruction; teaching oneself",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21560_dokushuu_ex1",
-      "japanese": "ピアノを{独習|どくしゅう}する。",
+      "japanese": "⟦ピアノ→ピアノ：01376_piano⟧⟦を→を：00422_wo⟧{独習|どくしゅう}⟦する→する：00392_suru⟧。",
       "english": "To teach oneself piano.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21560_dokushuu_ex2",
-      "japanese": "{独習|どくしゅう}でフランス{語|ご}を{身|み}につけた。",
+      "japanese": "{独習|どくしゅう}⟦で→で：00502_de⟧⟦フランス{語|ご}→フランス語：24509_furansugo⟧⟦を→を：00422_wo⟧⟦{身|み}→身：01764_mi⟧につけた。",
       "english": "I learned French through self-study.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21560_dokushuu_ex3",
-      "japanese": "この{教材|きょうざい}は{独習|どくしゅう}に{向|む}いているので、{初心者|しょしんしゃ}でも{安心|あんしん}して{使|つか}える。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{教材|きょうざい}→教材：12878_kyouzai⟧⟦は→は：00079_ha⟧{独習|どくしゅう}⟦に→に：00314_ni⟧⟦{向|む}いている→向く：02304_muku⟧⟦の→の：09472_no⟧で、⟦{初心者|しょしんしゃ}→初心者：10149_shoshinsha⟧で⟦も→も：00484_mo⟧⟦{安心|あんしん}して→安心する：06067_anshinsuru⟧⟦{使|つか}える→使う：00473_tsukau⟧。",
       "english": "This textbook is suited for self-study, so even beginners can use it with confidence.",
       "sense_numbers": [
         1
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {独|どく} (alone, self) and {習|しゅう} (learn, study). Emphasizes learning without a teacher.\n\nCOMMON COLLOCATIONS:\n- {独習|どくしゅう}で{学|まな}ぶ: to learn through self-study\n- {独習|どくしゅう}に{向|む}いている: suited for self-study\n- {独習|どくしゅう}{書|しょ}: self-study book\n- {独習|どくしゅう}テキスト: self-study textbook\n- {独習|どくしゅう}で{身|み}につける: to acquire through self-study\n\nSIMILAR WORDS:\n- {独学|どくがく}: self-teaching — very close synonym, slightly more common in conversation\n- {独習|どくしゅう}: self-study — slightly more formal, often used in book titles\n- {自習|じしゅう}: self-study — studying on one's own, often during a designated study period at school\n- {予習|よしゅう}: preparation — studying material before class\n- {復習|ふくしゅう}: review — going over material after class",
+  "notes": "Composed of {独|どく} (alone, self) and {習|しゅう} (learn, study). Emphasizes learning without a teacher.\n\nCOMMON COLLOCATIONS:\n- {独習|どくしゅう}⟦で→で：00502_de⟧⟦{学|まな}ぶ→学ぶ：01987_manabu⟧: to learn through self-study\n- {独習|どくしゅう}⟦に→に：00314_ni⟧⟦{向|む}いている→向く：02304_muku⟧: suited for self-study\n- {独習|どくしゅう}⟦{書|しょ}→〜書：28467_sho⟧: self-study book\n- {独習|どくしゅう}⟦テキスト→テキスト：01469_tekisuto⟧: self-study textbook\n- {独習|どくしゅう}⟦で→で：00502_de⟧⟦{身|み}につける→身につける：03158_minitsukeru⟧: to acquire through self-study\n\nSIMILAR WORDS:\n- ⟦{独学|どくがく}→独学：09601_dokugaku⟧: self-teaching — very close synonym, slightly more common in conversation\n- {独習|どくしゅう}: self-study — slightly more formal, often used in book titles\n- ⟦{自習|じしゅう}→自習：04212_jishuu⟧: self-study — studying on one's own, often during a designated study period at school\n- ⟦{予習|よしゅう}→予習：01748_yoshuu⟧: preparation — studying material before class\n- ⟦{復習|ふくしゅう}→復習：01718_fukushuu⟧: review — going over material after class",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09601_dokugaku",
+      "reading": "どくがく",
+      "headword": "{独学|どくがく}",
+      "label": "self-teaching"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04212_jishuu",
+      "reading": "じしゅう",
+      "headword": "{自習|じしゅう}",
+      "label": "self-study"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01748_yoshuu",
+      "reading": "よしゅう",
+      "headword": "{予習|よしゅう}",
+      "label": "preparation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01718_fukushuu",
+      "reading": "ふくしゅう",
+      "headword": "{復習|ふくしゅう}",
+      "label": "review"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -58,10 +88,11 @@
       "semantic": [
         "education"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-04-02T16:17:24Z",
-    "modified": "2026-04-02T16:17:24Z"
+    "modified": "2026-09-02T04:02:04Z"
   },
   "conjugation": {
     "type": "suru",

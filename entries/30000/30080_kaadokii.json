@@ -15,41 +15,60 @@
   "examples": [
     {
       "id": "30080_kaadokii_ex1",
-      "japanese": "カードキーで{部屋|へや}に{入|はい}る。",
+      "japanese": "カードキー⟦で→で：00502_de⟧⟦{部屋|へや}→部屋：00507_heya⟧⟦に→に：00314_ni⟧⟦{入|はい}る→入る：00494_hairu⟧。",
       "english": "to enter the room with a key card.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "30080_kaadokii_ex2",
-      "japanese": "カードキーを{忘|わす}れて{部屋|へや}に{入|はい}れなくなった。",
+      "japanese": "カードキー⟦を→を：00422_wo⟧⟦{忘|わす}れて→忘れる：00474_wasureru⟧⟦{部屋|へや}→部屋：00507_heya⟧⟦に→に：00314_ni⟧⟦{入|はい}れ→入る：00494_hairu⟧なくなった。",
       "english": "I forgot my key card and couldn't get into the room.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "30080_kaadokii_ex3",
-      "japanese": "このマンションはオートロックで、{出入|でい}りにはカードキーが{必要|ひつよう}だ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦マンション→マンション：01035_manshon⟧⟦は→は：00079_ha⟧⟦オートロック→オートロック：09829_ootorokku⟧⟦で→で：00502_de⟧、⟦{出入|でい}り→出入り：06609_deiri⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧カードキー⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧だ。",
       "english": "This apartment building has an auto-lock, and you need a key card to go in and out.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A card that functions as a key, typically for hotel rooms, offices, or auto-locked apartment buildings.\n\nCOMMON COLLOCATIONS:\n- カードキーをかざす: to hold up the key card (to a reader)\n- カードキーを{差|さ}し{込|こ}む: to insert the key card\n- カードキーを{再発行|さいはっこう}する: to reissue a key card\n\nSIMILAR WORDS:\n- キーカード: card key — an interchangeable variant order of the same two elements\n- {鍵|かぎ}: key — the general word, including physical metal keys",
+  "notes": "A card that functions as a key, typically for hotel rooms, offices, or auto-locked apartment buildings.\n\nCOMMON COLLOCATIONS:\n- カードキー⟦を→を：00422_wo⟧⟦かざす→かざす：28115_kazasu⟧: to hold up the key card (to a reader)\n- カードキー⟦を→を：00422_wo⟧⟦{差|さ}し{込|こ}む→差し込む：04235_sashikomu⟧: to insert the key card\n- カードキー⟦を→を：00422_wo⟧⟦{再発行|さいはっこう}する→再発行する：21951_saihakkousuru⟧: to reissue a key card\n\nSIMILAR WORDS:\n- キーカード: card key — an interchangeable variant order of the same two elements\n- ⟦{鍵|かぎ}→鍵：02189_kagi⟧: key — the general word, including physical metal keys",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02189_kagi",
+      "reading": "かぎ",
+      "headword": "{鍵|かぎ}",
+      "label": "key"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["tool"],
+      "politeness": "plain",
+      "semantic": [
+        "tool"
+      ],
       "domain": []
     },
     "created": "2026-07-24T12:17:31Z",
-    "modified": "2026-07-24T12:17:31Z"
+    "modified": "2026-09-02T04:02:38Z"
   }
 }

@@ -15,41 +15,60 @@
   "examples": [
     {
       "id": "14716_kishi_ex1",
-      "japanese": "{騎士|きし}が{剣|けん}を{抜|ぬ}いた。",
+      "japanese": "{騎士|きし}⟦が→が：00051_ga⟧⟦{剣|けん}→剣：11819_ken⟧⟦を→を：00422_wo⟧⟦{抜|ぬ}いた→抜く：02384_nuku⟧。",
       "english": "The knight drew his sword.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14716_kishi_ex2",
-      "japanese": "{中世|ちゅうせい}ヨーロッパの{騎士|きし}は{名誉|めいよ}を{重|おも}んじた。",
+      "japanese": "⟦{中世|ちゅうせい}→中世：05524_chuusei⟧⟦ヨーロッパ→ヨーロッパ：00427_yooroppa⟧⟦の→の：09472_no⟧{騎士|きし}⟦は→は：00079_ha⟧⟦{名誉|めいよ}→名誉：10568_meiyo⟧⟦を→を：00422_wo⟧⟦{重|おも}んじた→重んじる：14445_omonjiru⟧。",
       "english": "Medieval European knights valued honor.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14716_kishi_ex3",
-      "japanese": "この{物語|ものがたり}の{主人公|しゅじんこう}は、{王国|おうこく}を{守|まも}るために{旅|たび}に{出|で}る{若|わか}い{騎士|きし}だ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{物語|ものがたり}→物語：03634_monogatari⟧⟦の→の：09472_no⟧⟦{主人公|しゅじんこう}→主人公：11404_shujinkou⟧⟦は→は：00079_ha⟧、⟦{王国|おうこく}→王国：15857_oukoku⟧⟦を→を：00422_wo⟧⟦{守|まも}る→守る：01986_mamoru⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧⟦{旅|たび}→旅：03407_tabi⟧⟦に→に：00314_ni⟧⟦{出|で}る→出る：00513_deru⟧{若|わか}い{騎士|きし}だ。",
       "english": "The protagonist of this story is a young knight who sets out on a journey to defend the kingdom.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "Compound of {騎|き} (riding/mounted) + {士|し} (warrior/person of rank).\n\nCOMMON COLLOCATIONS:\n- {騎士|きし}{団|だん} (order of knights; knightly order)\n- {騎士|きし}{道|どう} (chivalry)\n- {聖|せい}{騎士|きし} (holy knight, paladin)\n- {暗黒|あんこく}{騎士|きし} (dark knight)\n- {騎士|きし}{道|どう}{精神|せいしん} (spirit of chivalry)\n\nUSAGE NOTES:\nUsed primarily for Western knights. For Japanese mounted warriors, {騎馬武者|きばむしゃ} is used instead. Very common in fantasy literature, anime, manga, and video games, where it often forms part of character class names.",
-  "cross_references": [],
+  "notes": "Compound of {騎|き} (riding/mounted) + ⟦{士|し}→〜士：28352_shi⟧ (warrior/person of rank).\n\nCOMMON COLLOCATIONS:\n- {騎士|きし}{団|だん} (order of knights; knightly order)\n- {騎士|きし}{道|どう} (chivalry)\n- {聖|せい}{騎士|きし} (holy knight, paladin)\n- ⟦{暗黒|あんこく}→暗黒：12997_ankoku⟧{騎士|きし} (dark knight)\n- {騎士|きし}{道|どう}⟦{精神|せいしん}→精神：03377_seishin⟧ (spirit of chivalry)\n\nUSAGE:\nUsed primarily for Western knights. For Japanese mounted warriors, {騎馬武者|きばむしゃ} is used instead. Very common in fantasy literature, anime, manga, and video games, where it often forms part of character class names.",
+  "cross_references": [
+    {
+      "type": "homophone",
+      "target_id": "27809_kishi",
+      "reading": "きし",
+      "headword": "{棋士|きし}",
+      "label": "professional shogi or go player"
+    }
+  ],
   "metadata": {
     "created": "2026-03-03T09:10:41Z",
-    "modified": "2026-03-03T09:10:41Z",
+    "modified": "2026-09-02T04:01:38Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["person", "occupation"]
+      "semantic": [
+        "person",
+        "occupation"
+      ]
     }
   }
 }

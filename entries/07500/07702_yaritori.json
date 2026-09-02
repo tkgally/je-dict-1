@@ -2,7 +2,7 @@
   "id": "07702_yaritori",
   "headword": "やり{取|と}り",
   "reading": "やりとり",
-  "part_of_speech": "noun, suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "exchange; interaction; correspondence",
   "conjugation": {
     "type": "suru",
@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "07702_yaritori_ex1",
-      "japanese": "メールのやり{取|と}りが{続|つづ}いている。",
+      "japanese": "⟦メール→メール：04435_meeru⟧⟦の→の：09472_no⟧やり{取|と}り⟦が→が：00051_ga⟧⟦{続|つづ}いている→続く：00903_tsuzuku⟧。",
       "english": "We've been exchanging emails.",
       "has_audio": false,
       "sense_numbers": [
@@ -113,7 +113,7 @@
     },
     {
       "id": "07702_yaritori_ex2",
-      "japanese": "{彼|かれ}とのやり{取|と}りは{楽|たの}しい。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦と→と：00512_to⟧⟦の→の：09472_no⟧やり{取|と}り⟦は→は：00079_ha⟧⟦{楽|たの}しい→楽しい：00817_tanoshii⟧。",
       "english": "Interacting with him is enjoyable.",
       "has_audio": false,
       "sense_numbers": [
@@ -122,7 +122,7 @@
     },
     {
       "id": "07702_yaritori_ex3",
-      "japanese": "{担当者|たんとうしゃ}とやり{取|と}りして{確認|かくにん}します。",
+      "japanese": "⟦{担当者|たんとうしゃ}→担当者：09676_tantousha⟧⟦と→と：00512_to⟧やり{取|と}り⟦して→する：00392_suru⟧⟦{確認|かくにん}します→確認する：25332_kakuninsuru⟧。",
       "english": "I'll check by corresponding with the person in charge.",
       "has_audio": false,
       "sense_numbers": [
@@ -130,10 +130,54 @@
       ]
     }
   ],
-  "notes": "ETYMOLOGY:\nやり (giving) + {取|と}り (receiving) - the back-and-forth of giving and receiving\n\nALTERNATE WRITING:\nAlso written as やりとり (all hiragana) or {遣|や}り{取|と}り\n\nCOMMON COLLOCATIONS:\n・メールのやり{取|と}り - email exchange\n・やり{取|と}りを{続|つづ}ける - to continue exchanging\n・やり{取|と}りをする - to exchange, to interact\n\nRELATED:\n・{交換|こうかん} - exchange (more formal)\n・{会話|かいわ} - conversation\n・{連絡|れんらく} - contact, communication",
+  "notes": "ETYMOLOGY:\n⟦やり→やる：02980_yaru⟧ (giving) + ⟦{取|と}り→取る：00565_toru⟧ (receiving) - the back-and-forth of giving and receiving\n\nALTERNATE WRITING:\nAlso written as やりとり (all hiragana) or {遣|や}り{取|と}り\n\nCOMMON COLLOCATIONS:\n- ⟦メール→メール：04435_meeru⟧⟦の→の：09472_no⟧やり{取|と}り - email exchange\n- やり{取|と}り⟦を→を：00422_wo⟧⟦{続|つづ}ける→続く：00903_tsuzuku⟧ - to continue exchanging\n- やり{取|と}り⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧ - to exchange, to interact\n\nRELATED WORDS:\n- ⟦{交換|こうかん}→交換：02746_koukan⟧ - exchange (more formal)\n- ⟦{会話|かいわ}→会話：01271_kaiwa⟧ - conversation\n- ⟦{連絡|れんらく}→連絡：01524_renraku⟧ - contact, communication",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "02746_koukan",
+      "reading": "こうかん",
+      "headword": "{交換|こうかん}",
+      "label": "exchange"
+    },
+    {
+      "type": "related",
+      "target_id": "01271_kaiwa",
+      "reading": "かいわ",
+      "headword": "{会話|かいわ}",
+      "label": "conversation"
+    },
+    {
+      "type": "related",
+      "target_id": "01524_renraku",
+      "reading": "れんらく",
+      "headword": "{連絡|れんらく}",
+      "label": "contact, communication"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12618_oushuu",
+      "reading": "おうしゅう",
+      "headword": "{応酬|おうしゅう}",
+      "label": "exchange (of words, blows)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28014_juju",
+      "reading": "じゅじゅ",
+      "headword": "授受",
+      "label": "giving and receiving"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28500_kakeai",
+      "reading": "かけあい",
+      "headword": "{掛|か}け{合|あ}い",
+      "label": "banter"
+    }
+  ],
   "metadata": {
     "created": "2026-01-20T23:30:51Z",
-    "modified": "2026-03-29T03:05:07Z",
+    "modified": "2026-09-02T04:01:12Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -142,6 +186,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "communication"
       ],

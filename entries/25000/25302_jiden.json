@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25302_jiden_ex1",
-      "japanese": "{彼女|かのじょ}は{自伝|じでん}を{書|か}いた。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧{自伝|じでん}⟦を→を：00422_wo⟧⟦{書|か}いた→書く：00477_kaku⟧。",
       "english": "She wrote an autobiography.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25302_jiden_ex2",
-      "japanese": "その{政治家|せいじか}の{自伝|じでん}がベストセラーになった。",
+      "japanese": "⟦その→その：00993_sono⟧⟦{政治家|せいじか}→政治家：03084_seijika⟧⟦の→の：09472_no⟧{自伝|じでん}⟦が→が：00051_ga⟧⟦ベストセラー→ベストセラー：11289_besutoseraa⟧になった。",
       "english": "That politician's autobiography became a bestseller.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25302_jiden_ex3",
-      "japanese": "{引退後|いんたいご}に{自伝|じでん}を{出版|しゅっぱん}する{有名人|ゆうめいじん}は{多|おお}い。",
+      "japanese": "{引退後|いんたいご}⟦に→に：00314_ni⟧{自伝|じでん}⟦を→を：00422_wo⟧⟦{出版|しゅっぱん}→出版：03222_shuppan⟧⟦する→する：00392_suru⟧⟦{有名人|ゆうめいじん}→有名人：17812_yuumeijin⟧⟦は→は：00079_ha⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "Many celebrities publish autobiographies after retiring.",
       "sense_numbers": [
         1
@@ -44,14 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "A written account of one's own life. Composed of {自|じ} (self) and {伝|でん} (biography). Unlike a memoir, which may focus on select episodes, a {自伝|じでん} typically covers the author's entire life chronologically.\n\nCOMMON COLLOCATIONS:\n- {自伝|じでん}を{書|か}く: write an autobiography\n- {自伝|じでん}を{出版|しゅっぱん}する: publish an autobiography\n- {自伝|じでん}{的|てき}{小説|しょうせつ}: autobiographical novel\n\nSIMILAR WORDS:\n- {伝記|でんき}: biography — written by someone else about the subject\n- {回顧録|かいころく}: memoir — may cover only part of one's life\n- {評伝|ひょうでん}: critical biography — includes evaluation and analysis",
+  "notes": "A written account of one's own life. Composed of {自|じ} (self) and {伝|でん} (biography). Unlike a memoir, which may focus on select episodes, a {自伝|じでん} typically covers the author's entire life chronologically.\n\nCOMMON COLLOCATIONS:\n- {自伝|じでん}⟦を→を：00422_wo⟧⟦{書|か}く→書く：00477_kaku⟧: write an autobiography\n- {自伝|じでん}⟦を→を：00422_wo⟧⟦{出版|しゅっぱん}→出版：03222_shuppan⟧⟦する→する：00392_suru⟧: publish an autobiography\n- {自伝|じでん}⟦{的|てき}→〜的：09839_teki⟧⟦{小説|しょうせつ}→小説：01434_shousetsu⟧: autobiographical novel\n\nSIMILAR WORDS:\n- ⟦{伝記|でんき}→伝記：04069_denki⟧: biography — written by someone else about the subject\n- {回顧録|かいころく}: memoir — may cover only part of one's life\n- ⟦{評伝|ひょうでん}→評伝：25611_hyouden⟧: critical biography — includes evaluation and analysis",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04069_denki",
+      "reading": "でんき",
+      "headword": "{伝記|でんき}",
+      "label": "biography"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25611_hyouden",
+      "reading": "ひょうでん",
+      "headword": "{評伝|ひょうでん}",
+      "label": "critical biography"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "culture"
       ],
@@ -60,6 +77,6 @@
       ]
     },
     "created": "2026-04-24T14:19:56Z",
-    "modified": "2026-04-24T14:19:56Z"
+    "modified": "2026-09-02T04:02:21Z"
   }
 }

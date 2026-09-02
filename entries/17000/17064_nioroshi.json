@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "17064_nioroshi_ex1",
-      "japanese": "トラックの{荷下|にお}ろしを{手伝|てつだ}った。",
+      "japanese": "⟦トラック→トラック：03863_torakku⟧⟦の→の：09472_no⟧{荷下|にお}ろし⟦を→を：00422_wo⟧⟦{手伝|てつだ}った→手伝う：00898_tetsudau⟧。",
       "english": "I helped with unloading the truck.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17064_nioroshi_ex2",
-      "japanese": "{荷下|にお}ろしは{裏口|うらぐち}から{行|おこな}ってください。",
+      "japanese": "{荷下|にお}ろし⟦は→は：00079_ha⟧⟦{裏口|うらぐち}→裏口：04101_uraguchi⟧⟦から→から：00504_kara⟧⟦{行|おこな}って→行う：01238_okonau⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please do the unloading from the back entrance.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17064_nioroshi_ex3",
-      "japanese": "{大量|たいりょう}の{荷物|にもつ}の{荷下|にお}ろしがあるので、{人手|ひとで}が{足|た}りない。",
+      "japanese": "⟦{大量|たいりょう}→大量：03112_tairyou⟧⟦の→の：09472_no⟧⟦{荷物|にもつ}→荷物：00737_nimotsu⟧⟦の→の：09472_no⟧{荷下|にお}ろし⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧⟦の→の：09472_no⟧で、⟦{人手|ひとで}→人手：25438_hitode⟧⟦が→が：00051_ga⟧⟦{足|た}りない→足りる：01209_tariru⟧。",
       "english": "We don't have enough people because there's a large volume of cargo to unload.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nUsed in logistics, delivery, and warehouse contexts. Also appears on signs at commercial buildings indicating unloading zones.\n\nCOMMON COLLOCATIONS:\n- {荷下|にお}ろし{作業|さぎょう} (unloading work)\n- {荷下|にお}ろし{場|ば} (unloading area)\n- {荷下|にお}ろしをする (to unload)\n\nSIMILAR WORDS:\n- {荷積|にづ}み: loading cargo — the opposite action\n- {搬入|はんにゅう}: carrying in — bringing goods into a building, broader than just unloading from a vehicle",
+  "notes": "USAGE:\nUsed in logistics, delivery, and warehouse contexts. Also appears on signs at commercial buildings indicating unloading zones.\n\nCOMMON COLLOCATIONS:\n- {荷下|にお}ろし⟦{作業|さぎょう}→作業：02775_sagyou⟧ (unloading work)\n- {荷下|にお}ろし⟦{場|ば}→場：03699_ba⟧ (unloading area)\n- {荷下|にお}ろし⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧ (to unload)\n\nSIMILAR WORDS:\n- ⟦{荷積|にづ}み→荷積み：24584_nizumi⟧: loading cargo — the opposite action\n- ⟦{搬入|はんにゅう}→搬入：16523_hannyuu⟧: carrying in — bringing goods into a building, broader than just unloading from a vehicle",
   "cross_references": [
     {
       "type": "antonym",
@@ -46,18 +52,37 @@
       "reading": "にづみ",
       "headword": "{荷積|にづ}み",
       "label": "loading cargo"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16523_hannyuu",
+      "reading": "はんにゅう",
+      "headword": "{搬入|はんにゅう}",
+      "label": "carrying in"
+    },
+    {
+      "type": "related",
+      "target_id": "09801_tsumioroshi",
+      "reading": "つみおろし",
+      "headword": "{積|つ}み{下|お}ろし",
+      "label": "loading and unloading"
     }
   ],
   "metadata": {
     "created": "2026-03-15T09:48:00Z",
-    "modified": "2026-05-05T08:12:51Z",
+    "modified": "2026-09-02T04:01:47Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["work", "transportation"]
+      "semantic": [
+        "work",
+        "transportation"
+      ]
     }
   }
 }

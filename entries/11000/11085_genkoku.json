@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "11085_genkoku_ex1",
-      "japanese": "{原告|げんこく}が{証拠|しょうこ}を{提出|ていしゅつ}した。",
+      "japanese": "{原告|げんこく}⟦が→が：00051_ga⟧⟦{証拠|しょうこ}→証拠：10575_shouko⟧⟦を→を：00422_wo⟧⟦{提出|ていしゅつ}した→提出する：19644_teishutsusuru⟧。",
       "english": "The plaintiff submitted evidence.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "11085_genkoku_ex2",
-      "japanese": "{原告|げんこく}の{主張|しゅちょう}は{裁判所|さいばんしょ}に{認|みと}められた。",
+      "japanese": "{原告|げんこく}⟦の→の：09472_no⟧⟦{主張|しゅちょう}→主張：03220_shuchou⟧⟦は→は：00079_ha⟧⟦{裁判所|さいばんしょ}→裁判所：09665_saibansho⟧⟦に→に：00314_ni⟧⟦{認|みと}められた→認める：02429_mitomeru⟧。",
       "english": "The plaintiff's claims were accepted by the court.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "11085_genkoku_ex3",
-      "japanese": "{原告|げんこく}と{被告|ひこく}の{双方|そうほう}が{弁護士|べんごし}を{通|つう}じて{和解|わかい}に{応|おう}じた。",
+      "japanese": "{原告|げんこく}⟦と→と：00512_to⟧⟦{被告|ひこく}→被告：11080_hikoku⟧⟦の→の：09472_no⟧⟦{双方|そうほう}→双方：11859_souhou⟧⟦が→が：00051_ga⟧⟦{弁護士|べんごし}→弁護士：03150_bengoshi⟧⟦を→を：00422_wo⟧⟦{通|つう}じて→通じる：02289_tsuujiru⟧⟦{和解|わかい}→和解：10578_wakai⟧⟦に→に：00314_ni⟧⟦{応|おう}じた→応じる：02018_oujiru⟧。",
       "english": "Both the plaintiff and the defendant agreed to a settlement through their lawyers.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{原告|げんこく} refers specifically to the person or party who files a lawsuit in civil court. In criminal cases, the prosecution is handled by the {検察|けんさつ} (prosecutor), not a {原告|げんこく}.\n\nCOMMON COLLOCATIONS:\n- {原告|げんこく}{側|がわ} (plaintiff's side)\n- {原告|げんこく}{代理人|だいりにん} (plaintiff's attorney/representative)\n- {原告|げんこく}が{訴|うった}える (the plaintiff files suit)\n\nRELATED TERMS:\n- {被告|ひこく} (defendant — the opposing party)\n- {原告|げんこく}{適格|てきかく} (standing to sue)",
+  "notes": "USAGE:\n{原告|げんこく} refers specifically to the person or party who files a lawsuit in civil court. In criminal cases, the prosecution is handled by the ⟦{検察|けんさつ}→検察：11086_kensatsu⟧ (prosecutor), not a {原告|げんこく}.\n\nCOMMON COLLOCATIONS:\n- {原告|げんこく}⟦{側|がわ}→〜側：03090_gawa⟧ (plaintiff's side)\n- {原告|げんこく}⟦{代理人|だいりにん}→代理人：18508_dairinin⟧ (plaintiff's attorney/representative)\n- {原告|げんこく}⟦が→が：00051_ga⟧⟦{訴|うった}える→訴える：01891_uttaeru⟧ (the plaintiff files suit)\n\nRELATED WORDS:\n- ⟦{被告|ひこく}→被告：11080_hikoku⟧ (defendant — the opposing party)\n- {原告|げんこく}{適格|てきかく} (standing to sue)",
   "cross_references": [
     {
       "type": "antonym",
@@ -52,11 +52,25 @@
       "headword": "{被告|ひこく}",
       "label": "defendant",
       "target_id": "11080_hikoku"
+    },
+    {
+      "type": "related",
+      "target_id": "02773_saiban",
+      "reading": "さいばん",
+      "headword": "{裁判|さいばん}",
+      "label": "trial, judgment, court case"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20130_hikokunin",
+      "reading": "ひこくにん",
+      "headword": "{被告人|ひこくにん}",
+      "label": "defendant"
     }
   ],
   "metadata": {
     "created": "2026-02-13T12:38:59Z",
-    "modified": "2026-04-11T02:03:14Z",
+    "modified": "2026-09-02T04:01:23Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

@@ -53,7 +53,7 @@
       ]
     }
   ],
-  "notes": "{才能|さいのう} refers to natural talent or ability.\n\nCOMMON PATTERNS:\n- {才能|さいのう}がある (to have talent)\n- {才能|さいのう}を⟦{発揮|はっき}する→発揮：00086_hakki⟧ (to display one's talent)\n- {才能|さいのう}を⟦{伸|の}ばす→伸ばす：01973_nobasu⟧ (to develop one's talent)\n- {才能|さいのう}を⟦{活|い}かす→活かす：10422_ikasu⟧ (to make use of one's talent)\n- {才能|さいのう}に⟦{恵|めぐ}まれる→恵まれる：12619_megumareru⟧ (to be blessed with talent)\n\nDESCRIPTIVE USES:\n- {才能|さいのう}⟦{豊|ゆた}かな→豊か：03654_yutaka⟧ (talented, gifted)\n- ⟦{天賦|てんぷ}→天賦：07376_tenpu⟧の{才能|さいのう} (natural-born talent)\n- ⟦{隠|かく}れた→隠れる：02035_kakureru⟧{才能|さいのう} (hidden talent)\n\nSIMILAR WORDS:\n- {才能|さいのう}: talent (natural ability)\n- ⟦{能力|のうりょく}→能力：03541_nouryoku⟧: ability (general capability)\n- ⟦{素質|そしつ}→素質：04046_soshitsu⟧: aptitude, disposition",
+  "notes": "{才能|さいのう} refers to natural talent or ability.\n\nCOMMON PATTERNS:\n- {才能|さいのう}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧ (to have talent)\n- {才能|さいのう}⟦を→を：00422_wo⟧⟦{発揮|はっき}する→発揮：00086_hakki⟧ (to display one's talent)\n- {才能|さいのう}⟦を→を：00422_wo⟧⟦{伸|の}ばす→伸ばす：01973_nobasu⟧ (to develop one's talent)\n- {才能|さいのう}⟦を→を：00422_wo⟧⟦{活|い}かす→活かす：10422_ikasu⟧ (to make use of one's talent)\n- {才能|さいのう}⟦に→に：00314_ni⟧⟦{恵|めぐ}まれる→恵まれる：12619_megumareru⟧ (to be blessed with talent)\n\nDESCRIPTIVE USES:\n- {才能|さいのう}⟦{豊|ゆた}かな→豊か：03654_yutaka⟧ (talented, gifted)\n- ⟦{天賦|てんぷ}→天賦：07376_tenpu⟧⟦の→の：09472_no⟧{才能|さいのう} (natural-born talent)\n- ⟦{隠|かく}れた→隠れる：02035_kakureru⟧{才能|さいのう} (hidden talent)\n\nSIMILAR WORDS:\n- {才能|さいのう}: talent (natural ability)\n- ⟦{能力|のうりょく}→能力：03541_nouryoku⟧: ability (general capability)\n- ⟦{素質|そしつ}→素質：04046_soshitsu⟧: aptitude, disposition",
   "cross_references": [
     {
       "type": "synonym",
@@ -61,11 +61,53 @@
       "reading": "のうりょく",
       "headword": "{能力|のうりょく}",
       "label": "ability (general)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04046_soshitsu",
+      "reading": "そしつ",
+      "headword": "{素質|そしつ}",
+      "label": "aptitude, disposition"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07554_shishitsu",
+      "reading": "ししつ",
+      "headword": "{資質|ししつ}",
+      "label": "nature"
+    },
+    {
+      "type": "related",
+      "target_id": "18469_eisaikyouiku",
+      "reading": "えいさいきょういく",
+      "headword": "{英才教育|えいさいきょういく}",
+      "label": "education for gifted children"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23367_tensei",
+      "reading": "てんせい",
+      "headword": "{天性|てんせい}",
+      "label": "innate nature"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25479_kiryou",
+      "reading": "きりょう",
+      "headword": "{器量|きりょう}",
+      "label": "looks"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27095_saikaku",
+      "reading": "さいかく",
+      "headword": "{才覚|さいかく}",
+      "label": "resourcefulness"
     }
   ],
   "metadata": {
     "created": "2026-01-11T08:02:45Z",
-    "modified": "2026-07-29T21:21:40Z",
+    "modified": "2026-09-02T04:01:02Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

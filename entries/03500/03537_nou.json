@@ -59,7 +59,7 @@
     },
     {
       "id": "03537_nou_ex5",
-      "japanese": "⟦この→この：00962_kono⟧チーム⟦の→の：09472_no⟧⟦{頭脳|ずのう}→頭脳：00438_zunou⟧⟦は→は：00079_ha⟧⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦だ→だ：09496_da⟧。",
+      "japanese": "⟦この→この：00962_kono⟧⟦チーム→チーム：03858_chiimu⟧⟦の→の：09472_no⟧⟦{頭脳|ずのう}→頭脳：00438_zunou⟧⟦は→は：00079_ha⟧⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦だ→だ：09496_da⟧。",
       "english": "She is the brains of this team.",
       "notes": null,
       "has_audio": false,
@@ -78,7 +78,7 @@
       ]
     }
   ],
-  "notes": "USAGE: {脳|のう} is used in medical, scientific, and everyday contexts referring to the brain and mental capacity.\n\nCOMMON COMPOUNDS:\n・{脳|のう}⟦{外科|げか}→外科：03983_geka⟧ (neurosurgery)\n・{脳|のう}⟦{神経|しんけい}→神経：03257_shinkei⟧ (cranial nerves, neurology)\n・⟦{脳|のう}{卒中|そっちゅう}→脳卒中：04647_nousocchuu⟧ (stroke)\n・{脳|のう}⟦{細胞|さいぼう}→細胞：05030_saibou⟧ (brain cells)\n・{脳|のう}トレ (brain training - abbr.)\n・{大脳|だいのう} (cerebrum)\n・{小脳|しょうのう} (cerebellum)\n・⟦{頭脳|ずのう}→頭脳：00438_zunou⟧ (brain, intellect)\n・⟦{洗脳|せんのう}→洗脳：16826_sennou⟧ (brainwashing)\n・⟦{首脳|しゅのう}→首脳：15631_shunou⟧ (head, leader)\n\nRELATED BODY PARTS:\n・⟦{頭|あたま}→頭：00574_atama⟧ - head\n・⟦{心|こころ}→心：01321_kokoro⟧ - mind, heart\n・⟦{神経|しんけい}→神経：03257_shinkei⟧ - nerves",
+  "notes": "USAGE: {脳|のう} is used in medical, scientific, and everyday contexts referring to the brain and mental capacity.\n\nCOMPOUNDS:\n- {脳|のう}⟦{外科|げか}→外科：03983_geka⟧ (neurosurgery)\n- {脳|のう}⟦{神経|しんけい}→神経：03257_shinkei⟧ (cranial nerves, neurology)\n- ⟦{脳|のう}{卒中|そっちゅう}→脳卒中：04647_nousocchuu⟧ (stroke)\n- {脳|のう}⟦{細胞|さいぼう}→細胞：05030_saibou⟧ (brain cells)\n- {脳|のう}トレ (brain training - abbr.)\n- {大脳|だいのう} (cerebrum)\n- {小脳|しょうのう} (cerebellum)\n- ⟦{頭脳|ずのう}→頭脳：00438_zunou⟧ (brain, intellect)\n- ⟦{洗脳|せんのう}→洗脳：16826_sennou⟧ (brainwashing)\n- ⟦{首脳|しゅのう}→首脳：15631_shunou⟧ (head, leader)\n\nRELATED BODY PARTS:\n- ⟦{頭|あたま}→頭：00574_atama⟧ - head\n- ⟦{心|こころ}→心：01321_kokoro⟧ - mind, heart\n- ⟦{神経|しんけい}→神経：03257_shinkei⟧ - nerves",
   "cross_references": [
     {
       "type": "related",
@@ -93,11 +93,39 @@
       "headword": "{頭脳|ずのう}",
       "label": "brain, intellect",
       "target_id": "00438_zunou"
+    },
+    {
+      "type": "related",
+      "target_id": "01321_kokoro",
+      "reading": "こころ",
+      "headword": "{心|こころ}",
+      "label": "mind, heart"
+    },
+    {
+      "type": "related",
+      "target_id": "03257_shinkei",
+      "reading": "しんけい",
+      "headword": "{神経|しんけい}",
+      "label": "nerves"
+    },
+    {
+      "type": "related",
+      "target_id": "23223_chuusuushinkei",
+      "reading": "ちゅうすうしんけい",
+      "headword": "{中枢神経|ちゅうすうしんけい}",
+      "label": "central nervous system"
+    },
+    {
+      "type": "related",
+      "target_id": "23704_shinkeikei",
+      "reading": "しんけいけい",
+      "headword": "{神経系|しんけいけい}",
+      "label": "nervous system"
     }
   ],
   "metadata": {
     "created": "2026-01-12T11:08:00Z",
-    "modified": "2026-06-12T18:28:11Z",
+    "modified": "2026-09-02T04:01:03Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

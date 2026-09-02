@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "12408_miko_ex1",
-      "japanese": "{巫女|みこ}が{舞|まい}を{奉納|ほうのう}する。",
+      "japanese": "{巫女|みこ}⟦が→が：00051_ga⟧{舞|まい}⟦を→を：00422_wo⟧⟦{奉納|ほうのう}→奉納：12200_hounou⟧⟦する→する：00392_suru⟧。",
       "english": "The shrine maiden performs a ceremonial dance.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12408_miko_ex2",
-      "japanese": "お{正月|しょうがつ}には{巫女|みこ}がお{守|まも}りを{売|う}っている。",
+      "japanese": "⟦お{正月|しょうがつ}→お正月：05586_oshougatsu⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{巫女|みこ}⟦が→が：00051_ga⟧⟦お{守|まも}り→お守り：05955_omamori⟧⟦を→を：00422_wo⟧⟦{売|う}っている→売る：00906_uru⟧。",
       "english": "At New Year's, shrine maidens sell protective charms.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12408_miko_ex3",
-      "japanese": "{彼女|かのじょ}は{大学生|だいがくせい}の{頃|ころ}、{地元|じもと}の{神社|じんじゃ}で{巫女|みこ}のアルバイトをしていた。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧⟦{大学生|だいがくせい}→大学生：01653_daigakusei⟧⟦の→の：09472_no⟧{頃|ころ}、⟦{地元|じもと}→地元：09941_jimoto⟧⟦の→の：09472_no⟧⟦{神社|じんじゃ}→神社：01620_jinja⟧⟦で→で：00502_de⟧{巫女|みこ}⟦の→の：09472_no⟧⟦アルバイト→アルバイト：01528_arubaito⟧⟦を→を：00422_wo⟧⟦していた→する：00392_suru⟧。",
       "english": "When she was a university student, she worked part-time as a shrine maiden at a local shrine.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\n{巫女|みこ} serve at Shinto shrines and are recognizable by their traditional outfit of a {白衣|はくい} (white robe top) and {緋袴|ひばかま} (scarlet hakama trousers). Their duties include performing {神楽|かぐら} (sacred dances), assisting the {神主|かんぬし} (priest) during rituals, and selling {御守|おまもり} (protective charms) and {御札|おふだ} (talismans). Many modern {巫女|みこ} are part-time workers, especially during busy periods like {初詣|はつもうで} (first shrine visit of the year).\n\nCOMMON COLLOCATIONS:\n- {巫女|みこ}{装束|しょうぞく}: shrine maiden outfit\n- {巫女|みこ}{舞|まい}: shrine maiden dance\n- {巫女|みこ}のアルバイト: part-time shrine maiden work",
+  "notes": "USAGE:\n{巫女|みこ} serve at Shinto shrines and are recognizable by their traditional outfit of a {白衣|はくい} (white robe top) and {緋袴|ひばかま} (scarlet hakama trousers). Their duties include performing ⟦{神楽|かぐら}→神楽：14078_kagura⟧ (sacred dances), assisting the ⟦{神主|かんぬし}→神主：16732_kannushi⟧ (priest) during rituals, and selling {御守|おまもり} (protective charms) and {御札|おふだ} (talismans). Many modern {巫女|みこ} are part-time workers, especially during busy periods like ⟦{初詣|はつもうで}→初詣：05804_hatsumoude⟧ (first shrine visit of the year).\n\nCOMMON COLLOCATIONS:\n- {巫女|みこ}⟦{装束|しょうぞく}→装束：14048_shouzoku⟧: shrine maiden outfit\n- {巫女|みこ}{舞|まい}: shrine maiden dance\n- {巫女|みこ}⟦の→の：09472_no⟧⟦アルバイト→アルバイト：01528_arubaito⟧: part-time shrine maiden work",
   "cross_references": [
     {
       "type": "related",
@@ -53,18 +59,37 @@
       "reading": "かんぬし",
       "headword": "{神主|かんぬし}",
       "label": "shrine priest"
+    },
+    {
+      "type": "related",
+      "target_id": "09586_shintou",
+      "reading": "しんとう",
+      "headword": "{神道|しんとう}",
+      "label": "Shinto"
+    },
+    {
+      "type": "related",
+      "target_id": "24980_negi",
+      "reading": "ねぎ",
+      "headword": "{禰宜|ねぎ}",
+      "label": "senior Shinto priest"
     }
   ],
   "metadata": {
     "created": "2026-02-21T06:12:01Z",
-    "modified": "2026-04-27T04:29:29Z",
+    "modified": "2026-09-02T04:01:28Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["religion", "person"]
+      "semantic": [
+        "religion",
+        "person"
+      ]
     }
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "14464_norainu_ex1",
-      "japanese": "{野良犬|のらいぬ}に{近|ちか}づくな。",
+      "japanese": "{野良犬|のらいぬ}⟦に→に：00314_ni⟧⟦{近|ちか}づく→近づく：01958_chikazuku⟧な。",
       "english": "Don't go near stray dogs.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "14464_norainu_ex2",
-      "japanese": "{公園|こうえん}で{野良犬|のらいぬ}を{見|み}かけて{保健所|ほけんじょ}に{連絡|れんらく}した。",
+      "japanese": "⟦{公園|こうえん}→公園：00581_kouen⟧⟦で→で：00502_de⟧{野良犬|のらいぬ}⟦を→を：00422_wo⟧⟦{見|み}かけて→見かける：01644_mikakeru⟧{保健所|ほけんじょ}⟦に→に：00314_ni⟧⟦{連絡|れんらく}した→連絡する：20202_renrakusuru⟧。",
       "english": "I spotted a stray dog in the park and contacted the public health center.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "14464_norainu_ex3",
-      "japanese": "{昔|むかし}は{野良犬|のらいぬ}がたくさんいたが、{今|いま}ではほとんど{見|み}かけなくなった。",
+      "japanese": "⟦{昔|むかし}→昔：01515_mukashi⟧⟦は→は：00079_ha⟧{野良犬|のらいぬ}⟦が→が：00051_ga⟧⟦たくさん→たくさん：00597_takusan⟧⟦いた→いる：00495_iru⟧⟦が→が：00051_ga⟧、⟦{今|いま}→今：00945_ima⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦ほとんど→ほとんど：00847_hotondo⟧⟦{見|み}かけなく→見かける：01644_mikakeru⟧⟦なった→なる：01970_naru⟧。",
       "english": "There used to be many stray dogs, but nowadays you hardly ever see them.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "USAGE:\n{野良|のら} means \"stray\" or \"feral\" and combines with animal names: {野良犬|のらいぬ} (stray dog), {野良猫|のらねこ} (stray cat). {野良|のら} alone originally means \"field\" or \"open land\" and also appears in {野良仕事|のらしごと} (farm work).\n\nCOMMON COLLOCATIONS:\n- {野良犬|のらいぬ}を{保護|ほご}する (to rescue a stray dog)\n- {野良犬|のらいぬ}に{噛|か}まれる (to be bitten by a stray dog)\n\nCULTURAL NOTE:\nStray dogs have become rare in modern Japan due to strict animal control laws and active efforts by {保健所|ほけんじょ} (public health centers). In contrast, {野良猫|のらねこ} (stray cats) are still commonly seen.",
+  "notes": "USAGE:\n{野良|のら} means \"stray\" or \"feral\" and combines with animal names: {野良犬|のらいぬ} (stray dog), ⟦{野良猫|のらねこ}→野良猫：14440_noraneko⟧ (stray cat). {野良|のら} alone originally means \"field\" or \"open land\" and also appears in {野良仕事|のらしごと} (farm work).\n\nCOMMON COLLOCATIONS:\n- {野良犬|のらいぬ}⟦を→を：00422_wo⟧⟦{保護|ほご}する→保護する：25374_hogosuru⟧ (to rescue a stray dog)\n- {野良犬|のらいぬ}⟦に→に：00314_ni⟧⟦{噛|か}まれる→噛む：01205_kamu⟧ (to be bitten by a stray dog)\n\nCULTURAL NOTE:\nStray dogs have become rare in modern Japan due to strict animal control laws and active efforts by {保健所|ほけんじょ} (public health centers). In contrast, ⟦{野良猫|のらねこ}→野良猫：14440_noraneko⟧ (stray cats) are still commonly seen.",
   "cross_references": [
     {
       "type": "related",
@@ -59,11 +59,25 @@
       "reading": "のらねこ",
       "headword": "{野良猫|のらねこ}",
       "label": "stray cat"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24115_mayoiinu",
+      "reading": "まよいいぬ",
+      "headword": "{迷|まよ}い{犬|いぬ}",
+      "label": "lost dog"
+    },
+    {
+      "type": "related",
+      "target_id": "24573_suteinu",
+      "reading": "すていぬ",
+      "headword": "{捨|す}て{犬|いぬ}",
+      "label": "abandoned dog"
     }
   ],
   "metadata": {
     "created": "2026-03-01T10:00:53Z",
-    "modified": "2026-04-30T07:28:10Z",
+    "modified": "2026-09-02T04:01:37Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

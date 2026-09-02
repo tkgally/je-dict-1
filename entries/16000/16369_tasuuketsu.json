@@ -15,41 +15,80 @@
   "examples": [
     {
       "id": "16369_tasuuketsu_ex1",
-      "japanese": "{多数決|たすうけつ}で{決|き}めよう。",
+      "japanese": "{多数決|たすうけつ}⟦で→で：00502_de⟧⟦{決|き}めよう→決める：00858_kimeru⟧。",
       "english": "Let's decide by majority vote.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16369_tasuuketsu_ex2",
-      "japanese": "{多数決|たすうけつ}の{結果|けっか}、{旅行先|りょこうさき}はハワイに{決|き}まった。",
+      "japanese": "{多数決|たすうけつ}⟦の→の：09472_no⟧⟦{結果|けっか}→結果：02486_kekka⟧、⟦{旅行先|りょこうさき}→旅行先：28195_ryokousaki⟧⟦は→は：00079_ha⟧ハワイ⟦に→に：00314_ni⟧⟦{決|き}まった→決まる：01233_kimaru⟧。",
       "english": "As a result of the majority vote, Hawaii was chosen as the travel destination.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16369_tasuuketsu_ex3",
-      "japanese": "{多数決|たすうけつ}が{必|かなら}ずしも{正|ただ}しい{結論|けつろん}を{導|みちび}くとは{限|かぎ}らない。",
+      "japanese": "{多数決|たすうけつ}⟦が→が：00051_ga⟧⟦{必|かなら}ず→必ず：01249_kanarazu⟧しも⟦{正|ただ}しい→正しい：00893_tadashii⟧⟦{結論|けつろん}→結論：02704_ketsuron⟧⟦を→を：00422_wo⟧⟦{導|みちび}く→導く：12361_michibiku⟧⟦と→と：00512_to⟧⟦は→は：00079_ha⟧⟦{限|かぎ}らない→限る：02033_kagiru⟧。",
       "english": "A majority vote doesn't necessarily lead to the right conclusion.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{多数決|たすうけつ} is composed of {多数|たすう} (majority) and {決|けつ} (decision). It refers specifically to the principle or method of deciding by majority.\n\nCOMMON COLLOCATIONS:\n- {多数決|たすうけつ}で{決|き}める (to decide by majority vote)\n- {多数決|たすうけつ}を{取|と}る (to take a vote)\n- {多数決|たすうけつ}の{原理|げんり} (the principle of majority rule)\n\nSIMILAR WORDS:\n- {投票|とうひょう}: voting, balloting — the act of casting a vote (broader than majority rule)\n- {挙手|きょしゅ}: raising hands — a common method for conducting a {多数決|たすうけつ}\n- {全会一致|ぜんかいいっち}: unanimous decision — the opposite approach, requiring all to agree",
-  "cross_references": [],
+  "notes": "{多数決|たすうけつ} is composed of ⟦{多数|たすう}→多数：05612_tasuu⟧ (majority) and {決|けつ} (decision). It refers specifically to the principle or method of deciding by majority.\n\nCOMMON COLLOCATIONS:\n- {多数決|たすうけつ}⟦で→で：00502_de⟧⟦{決|き}める→決める：00858_kimeru⟧ (to decide by majority vote)\n- {多数決|たすうけつ}⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧ (to take a vote)\n- {多数決|たすうけつ}⟦の→の：09472_no⟧⟦{原理|げんり}→原理：00066_genri⟧ (the principle of majority rule)\n\nSIMILAR WORDS:\n- ⟦{投票|とうひょう}→投票：03453_touhyou⟧: voting, balloting — the act of casting a vote (broader than majority rule)\n- ⟦{挙手|きょしゅ}→挙手：16852_kyoshu⟧: raising hands — a common method for conducting a {多数決|たすうけつ}\n- ⟦{全会一致|ぜんかいいっち}→全会一致：09760_zenkaiicchi⟧: unanimous decision — the opposite approach, requiring all to agree",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03453_touhyou",
+      "reading": "とうひょう",
+      "headword": "{投票|とうひょう}",
+      "label": "voting, balloting"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16852_kyoshu",
+      "reading": "きょしゅ",
+      "headword": "{挙手|きょしゅ}",
+      "label": "raising hands"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09760_zenkaiicchi",
+      "reading": "ぜんかいいっち",
+      "headword": "{全会一致|ぜんかいいっち}",
+      "label": "unanimous decision"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05611_shousuu",
+      "reading": "しょうすう",
+      "headword": "{少数|しょうすう}",
+      "label": "minority"
+    }
+  ],
   "metadata": {
     "created": "2026-03-12T02:36:18Z",
-    "modified": "2026-03-12T02:36:18Z",
+    "modified": "2026-09-02T04:01:44Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

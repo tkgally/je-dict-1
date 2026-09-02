@@ -16,7 +16,7 @@
   "examples": [
     {
       "id": "24554_fuusoku_ex1",
-      "japanese": "{風速|ふうそく}{30|さんじゅう}メートルの{強風|きょうふう}だ。",
+      "japanese": "{風速|ふうそく}{30|さんじゅう}⟦メートル→メートル：02975_meetoru⟧⟦の→の：09472_no⟧⟦{強風|きょうふう}→強風：15269_kyoufuu⟧だ。",
       "english": "It's a strong wind with a speed of 30 meters per second.",
       "sense_numbers": [
         1
@@ -26,7 +26,7 @@
     },
     {
       "id": "24554_fuusoku_ex2",
-      "japanese": "{最大|さいだい}{瞬間|しゅんかん}{風速|ふうそく}を{記録|きろく}した。",
+      "japanese": "⟦{最大|さいだい}→最大：04827_saidai⟧⟦{瞬間|しゅんかん}→瞬間：03226_shunkan⟧{風速|ふうそく}⟦を→を：00422_wo⟧⟦{記録|きろく}した→記録する：25341_kirokusuru⟧。",
       "english": "The maximum instantaneous wind speed was recorded.",
       "sense_numbers": [
         1
@@ -36,7 +36,7 @@
     },
     {
       "id": "24554_fuusoku_ex3",
-      "japanese": "{台風|たいふう}の{接近|せっきん}で{風速|ふうそく}が{急激|きゅうげき}に{上|あ}がり、{外出|がいしゅつ}が{危険|きけん}になった。",
+      "japanese": "⟦{台風|たいふう}→台風：01455_taifuu⟧⟦の→の：09472_no⟧⟦{接近|せっきん}→接近：04365_sekkin⟧⟦で→で：00502_de⟧{風速|ふうそく}⟦が→が：00051_ga⟧⟦{急激|きゅうげき}→急激：02633_kyuugeki⟧⟦に→に：00314_ni⟧⟦{上|あ}がり→上がる：00615_agaru⟧、⟦{外出|がいしゅつ}→外出：02543_gaishutsu⟧⟦が→が：00051_ga⟧⟦{危険|きけん}→危険：01141_kiken⟧になった。",
       "english": "With the typhoon approaching, the wind speed rose sharply and going outside became dangerous.",
       "sense_numbers": [
         1
@@ -45,11 +45,26 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {風|ふう} (wind) and {速|そく} (speed). Frequently heard in weather reports and typhoon coverage. In Japan, wind speed is measured in meters per second (m/s), unlike some countries that use kilometers per hour.\n\nCOMMON COLLOCATIONS:\n- {最大|さいだい}{風速|ふうそく}: maximum wind speed\n- {最大|さいだい}{瞬間|しゅんかん}{風速|ふうそく}: maximum instantaneous wind speed\n- {平均|へいきん}{風速|ふうそく}: average wind speed\n- {風速|ふうそく}〜メートル: wind speed of ~ meters per second\n- {風速|ふうそく}{計|けい}: anemometer\n\nWEATHER CONTEXT:\nJapanese weather reports classify wind strength by {風速|ふうそく}:\n- {強風|きょうふう}: strong wind (15 m/s or more)\n- {暴風|ぼうふう}: violent wind (25 m/s or more)\n- {猛烈|もうれつ}な{風|かぜ}: extreme wind (35 m/s or more)",
-  "cross_references": [],
+  "notes": "Compound of {風|ふう} (wind) and {速|そく} (speed). Frequently heard in weather reports and typhoon coverage. In Japan, wind speed is measured in meters per second (m/s), unlike some countries that use kilometers per hour.\n\nCOMMON COLLOCATIONS:\n- ⟦{最大|さいだい}→最大：04827_saidai⟧{風速|ふうそく}: maximum wind speed\n- ⟦{最大|さいだい}→最大：04827_saidai⟧⟦{瞬間|しゅんかん}→瞬間：03226_shunkan⟧{風速|ふうそく}: maximum instantaneous wind speed\n- ⟦{平均|へいきん}→平均：03614_heikin⟧{風速|ふうそく}: average wind speed\n- {風速|ふうそく}〜⟦メートル→メートル：02975_meetoru⟧: wind speed of ~ meters per second\n- {風速|ふうそく}⟦{計|けい}→計：02691_kei⟧: anemometer\n\nWEATHER CONTEXT:\nJapanese weather reports classify wind strength by {風速|ふうそく}:\n- ⟦{強風|きょうふう}→強風：15269_kyoufuu⟧: strong wind (15 m/s or more)\n- ⟦{暴風|ぼうふう}→暴風：07951_boufuu⟧: violent wind (25 m/s or more)\n- ⟦{猛烈|もうれつ}→猛烈：13490_mouretsu⟧な⟦{風|かぜ}→風：00641_kaze⟧: extreme wind (35 m/s or more)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16679_byousoku",
+      "reading": "びょうそく",
+      "headword": "{秒速|びょうそく}",
+      "label": "speed per second"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23107_fuukou",
+      "reading": "ふうこう",
+      "headword": "{風向|ふうこう}",
+      "label": "wind direction"
+    }
+  ],
   "metadata": {
     "created": "2026-04-19T14:18:11Z",
-    "modified": "2026-08-03T09:22:27Z",
+    "modified": "2026-09-02T04:02:18Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

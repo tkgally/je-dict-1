@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "09666_saibanchou_ex1",
-      "japanese": "{裁判長|さいばんちょう}が{判決|はんけつ}を{言|い}い{渡|わた}した。",
+      "japanese": "{裁判長|さいばんちょう}⟦が→が：00051_ga⟧⟦{判決|はんけつ}→判決：05906_hanketsu⟧⟦を→を：00422_wo⟧⟦{言|い}い{渡|わた}した→言い渡す：07002_iiwatasu⟧。",
       "english": "The presiding judge delivered the verdict.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "09666_saibanchou_ex2",
-      "japanese": "{裁判長|さいばんちょう}、{異議|いぎ}があります。",
+      "japanese": "{裁判長|さいばんちょう}、⟦{異議|いぎ}→異議：13552_igi⟧⟦が→が：00051_ga⟧⟦あります→ある：00006_aru⟧。",
       "english": "Your Honor, I have an objection.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "09666_saibanchou_ex3",
-      "japanese": "{裁判長|さいばんちょう}が{開廷|かいてい}を{宣言|せんげん}した。",
+      "japanese": "{裁判長|さいばんちょう}⟦が→が：00051_ga⟧{開廷|かいてい}⟦を→を：00422_wo⟧⟦{宣言|せんげん}した→宣言する：21680_sengensuru⟧。",
       "english": "The presiding judge declared the court in session.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{裁判長|さいばんちょう} is the presiding judge who leads court proceedings. Composed of {裁判|さいばん} (trial, judgment) + {長|ちょう} (chief, head).\n\nROLE:\nThe {裁判長|さいばんちょう} manages the trial, maintains courtroom order, questions witnesses, and delivers the verdict. In Japan's three-judge panel system ({合議制|ごうぎせい}), the {裁判長|さいばんちょう} leads the other two judges.\n\nUSAGE:\nIn court, lawyers address the judge as {裁判長|さいばんちょう} (\"Your Honor\"). The phrase {裁判長|さいばんちょう}、{異議|いぎ}があります (\"Your Honor, I object\") is well-known from courtroom dramas.\n\nSIMILAR WORDS:\n- {裁判官|さいばんかん}: judge (general term for any judge)\n- {判事|はんじ}: judge (formal title in the court system)\n- {裁判所|さいばんしょ}: court, courthouse\n- {検察官|けんさつかん}: prosecutor\n- {弁護士|べんごし}: lawyer, attorney",
+  "notes": "{裁判長|さいばんちょう} is the presiding judge who leads court proceedings. Composed of ⟦{裁判|さいばん}→裁判：02773_saiban⟧ (trial, judgment) + {長|ちょう} (chief, head).\n\nFUNCTIONS:\nThe {裁判長|さいばんちょう} manages the trial, maintains courtroom order, questions witnesses, and delivers the verdict. In Japan's three-judge panel system ({合議制|ごうぎせい}), the {裁判長|さいばんちょう} leads the other two judges.\n\nUSAGE:\nIn court, lawyers address the judge as {裁判長|さいばんちょう} (\"Your Honor\"). The phrase {裁判長|さいばんちょう}、⟦{異議|いぎ}→異議：13552_igi⟧⟦が→が：00051_ga⟧⟦あります→ある：00006_aru⟧ (\"Your Honor, I object\") is well-known from courtroom dramas.\n\nSIMILAR WORDS:\n- ⟦{裁判官|さいばんかん}→裁判官：09562_saibankan⟧: judge (general term for any judge)\n- ⟦{判事|はんじ}→判事：00088_hanji⟧: judge (formal title in the court system)\n- ⟦{裁判所|さいばんしょ}→裁判所：09665_saibansho⟧: court, courthouse\n- ⟦{検察官|けんさつかん}→検察官：09664_kensatsukan⟧: prosecutor\n- ⟦{弁護士|べんごし}→弁護士：03150_bengoshi⟧: lawyer, attorney",
   "cross_references": [
     {
       "type": "related",
@@ -56,11 +56,32 @@
       "reading": "さいばんしょ",
       "target_id": "09665_saibansho",
       "headword": "{裁判所|さいばんしょ}"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00088_hanji",
+      "reading": "はんじ",
+      "headword": "{判事|はんじ}",
+      "label": "judge"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09664_kensatsukan",
+      "reading": "けんさつかん",
+      "headword": "{検察官|けんさつかん}",
+      "label": "prosecutor"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03150_bengoshi",
+      "reading": "べんごし",
+      "headword": "{弁護士|べんごし}",
+      "label": "lawyer, attorney"
     }
   ],
   "metadata": {
     "created": "2026-02-03T05:02:44Z",
-    "modified": "2026-03-27T14:29:18Z",
+    "modified": "2026-09-02T04:01:19Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

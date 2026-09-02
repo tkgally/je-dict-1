@@ -3,7 +3,7 @@
   "headword": "{機械的|きかいてき}",
   "reading": "きかいてき",
   "romaji": "kikaiteki",
-  "part_of_speech": "adjective-na",
+  "part_of_speech": "na-adjective",
   "gloss": "mechanical; automatic; perfunctory",
   "definitions": [
     {
@@ -15,41 +15,61 @@
   "examples": [
     {
       "id": "27864_kikaiteki_ex1",
-      "japanese": "{機械的|きかいてき}な{作業|さぎょう}。",
+      "japanese": "{機械的|きかいてき}な⟦{作業|さぎょう}→作業：02775_sagyou⟧。",
       "english": "mechanical work.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27864_kikaiteki_ex2",
-      "japanese": "{質問|しつもん}に{機械的|きかいてき}に{答|こた}える。",
+      "japanese": "⟦{質問|しつもん}→質問：00888_shitsumon⟧⟦に→に：00314_ni⟧{機械的|きかいてき}⟦に→に：00314_ni⟧⟦{答|こた}える→答える：01099_kotaeru⟧。",
       "english": "to answer questions mechanically.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27864_kikaiteki_ex3",
-      "japanese": "{毎日|まいにち}{同|おな}じことを{機械的|きかいてき}に{繰|く}り{返|かえ}していると、{仕事|しごと}への{興味|きょうみ}を{失|うしな}ってしまう。",
+      "japanese": "⟦{毎日|まいにち}→毎日：00729_mainichi⟧⟦{同|おな}じ→同じ：02857_onaji⟧こと⟦を→を：00422_wo⟧{機械的|きかいてき}⟦に→に：00314_ni⟧⟦{繰|く}り{返|かえ}している→繰り返す：02051_kurikaesu⟧⟦と→と：00512_to⟧、⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦へ→へ：02473_he⟧⟦の→の：09472_no⟧⟦{興味|きょうみ}→興味：01316_kyoumi⟧⟦を→を：00422_wo⟧⟦{失|うしな}って→失う：01887_ushinau⟧しまう。",
       "english": "If you mechanically repeat the same things every day, you end up losing interest in your work.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A な-adjective formed from {機械|きかい} (machine) + {的|てき}. Most often used figuratively for behavior that is automatic and devoid of thought or emotion.\n\nCOMMON COLLOCATIONS:\n- {機械的|きかいてき}に{処理|しょり}する: to process mechanically\n- {機械的|きかいてき}な{反応|はんのう}: a mechanical (unfeeling) reaction\n- {機械的|きかいてき}な{動|うご}き: machine-like movement\n\nSIMILAR WORDS:\n- {自動的|じどうてき}: automatic — neutral; describes processes that happen by themselves, without the negative 'unfeeling' nuance\n- {事務的|じむてき}: businesslike; impersonal — emphasizes coldness in dealing with people",
+  "notes": "A な-adjective formed from ⟦{機械|きかい}→機械：02366_kikai⟧ (machine) + ⟦{的|てき}→〜的：09839_teki⟧. Most often used figuratively for behavior that is automatic and devoid of thought or emotion.\n\nCOMMON COLLOCATIONS:\n- {機械的|きかいてき}⟦に→に：00314_ni⟧⟦{処理|しょり}する→処理する：25531_shorisuru⟧: to process mechanically\n- {機械的|きかいてき}な⟦{反応|はんのう}→反応：04812_hannou⟧: a mechanical (unfeeling) reaction\n- {機械的|きかいてき}な⟦{動|うご}き→動き：11926_ugoki⟧: machine-like movement\n\nSIMILAR WORDS:\n- ⟦{自動的|じどうてき}→自動的：25589_jidouteki⟧: automatic — neutral; describes processes that happen by themselves, without the negative 'unfeeling' nuance\n- {事務的|じむてき}: businesslike; impersonal — emphasizes coldness in dealing with people",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25589_jidouteki",
+      "reading": "じどうてき",
+      "headword": "{自動的|じどうてき}",
+      "label": "automatic"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-na"],
+      "pos": [
+        "adjective-na"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["descriptive", "cognition"],
+      "politeness": "plain",
+      "semantic": [
+        "descriptive",
+        "cognition"
+      ],
       "domain": []
     },
     "created": "2026-05-21T04:04:20Z",
-    "modified": "2026-05-21T04:04:20Z"
+    "modified": "2026-09-02T04:02:32Z"
   }
 }

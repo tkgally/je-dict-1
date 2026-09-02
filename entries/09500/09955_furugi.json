@@ -14,30 +14,36 @@
   "examples": [
     {
       "id": "09955_furugi_ex1",
-      "japanese": "{古着|ふるぎ}を{買|か}う。",
+      "japanese": "{古着|ふるぎ}⟦を→を：00422_wo⟧⟦{買|か}う→買う：00489_kau⟧。",
       "english": "To buy used clothing.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09955_furugi_ex2",
-      "japanese": "フリーマーケットで{古着|ふるぎ}を{売|う}る。",
+      "japanese": "⟦フリーマーケット→フリーマーケット：09804_furiimaaketto⟧⟦で→で：00502_de⟧{古着|ふるぎ}⟦を→を：00422_wo⟧⟦{売|う}る→売る：00906_uru⟧。",
       "english": "To sell used clothes at a flea market.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09955_furugi_ex3",
-      "japanese": "{古着|ふるぎ}{屋|や}で{掘|ほ}り{出|だ}し{物|もの}を{見|み}つけた。",
+      "japanese": "{古着|ふるぎ}⟦{屋|や}→〜屋：03096_ya⟧⟦で→で：00502_de⟧⟦{掘|ほ}り{出|だ}し{物|もの}→掘り出し物：14746_horidashimono⟧⟦を→を：00422_wo⟧⟦{見|み}つけた→見つける：01180_mitsukeru⟧。",
       "english": "I found a bargain at the secondhand clothing store.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{古着|ふるぎ} refers to secondhand or used clothing. It is neutral in tone — it does not imply the clothing is worn out or low quality.\n\nWORD FORMATION:\n{古|ふる} (old, used) + {着|ぎ} (clothing, from {着|き}る \"to wear\"). Note the rendaku: {着|き} becomes {着|ぎ}.\n\nCOMMON COLLOCATIONS:\n- {古着|ふるぎ}{屋|や}: secondhand clothing store\n- {古着|ふるぎ}を{買|か}う: to buy used clothes\n- {古着|ふるぎ}を{売|う}る: to sell used clothes\n\nCULTURAL NOTE:\n{古着|ふるぎ} shopping is popular in Japan, especially among younger people. Famous areas include {下北沢|しもきたざわ} in {東京|とうきょう} and {堀江|ほりえ} in {大阪|おおさか}. The term covers both affordable thrift items and curated vintage fashion.\n\nSIMILAR:\n- {中古|ちゅうこ}: secondhand (for goods in general, not clothing-specific)\n- {古本|ふるほん}: used books (same {古|ふる}～ pattern)",
+  "notes": "{古着|ふるぎ} refers to secondhand or used clothing. It is neutral in tone — it does not imply the clothing is worn out or low quality.\n\nFORMS:\n{古|ふる} (old, used) + {着|ぎ} (clothing, from ⟦{着|き}る→着る：00541_kiru⟧ \"to wear\"). Note the rendaku: {着|き} becomes {着|ぎ}.\n\nCOMMON COLLOCATIONS:\n- {古着|ふるぎ}⟦{屋|や}→〜屋：03096_ya⟧: secondhand clothing store\n- {古着|ふるぎ}⟦を→を：00422_wo⟧⟦{買|か}う→買う：00489_kau⟧: to buy used clothes\n- {古着|ふるぎ}⟦を→を：00422_wo⟧⟦{売|う}る→売る：00906_uru⟧: to sell used clothes\n\nCULTURAL NOTE:\n{古着|ふるぎ} shopping is popular in Japan, especially among younger people. Famous areas include {下北沢|しもきたざわ} in ⟦{東京|とうきょう}→東京：09564_toukyou⟧ and {堀江|ほりえ} in ⟦{大阪|おおさか}→大阪：09779_oosaka⟧. The term covers both affordable thrift items and curated vintage fashion.\n\nSIMILAR:\n- ⟦{中古|ちゅうこ}→中古：03479_chuuko⟧: secondhand (for goods in general, not clothing-specific)\n- ⟦{古本|ふるほん}→古本：14745_furuhon⟧: used books (same ⟦{古|ふる}→古〜：03966_furu⟧～ pattern)",
   "cross_references": [
     {
       "type": "related",
@@ -45,18 +51,36 @@
       "reading": "ちゅうこ",
       "headword": "{中古|ちゅうこ}",
       "label": "secondhand (general)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14745_furuhon",
+      "reading": "ふるほん",
+      "headword": "{古本|ふるほん}",
+      "label": "used books"
+    },
+    {
+      "type": "related",
+      "target_id": "09804_furiimaaketto",
+      "reading": "ふりーまーけっと",
+      "headword": "フリーマーケット",
+      "label": "flea market"
     }
   ],
   "metadata": {
     "created": "2026-02-04T10:52:33Z",
-    "modified": "2026-04-23T08:17:03Z",
+    "modified": "2026-09-02T04:01:19Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["clothing"]
+      "semantic": [
+        "clothing"
+      ]
     }
   }
 }

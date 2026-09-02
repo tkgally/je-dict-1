@@ -15,41 +15,62 @@
   "examples": [
     {
       "id": "28078_koukokudairiten_ex1",
-      "japanese": "{広告|こうこく}{代理店|だいりてん}に{勤|つと}めている。",
+      "japanese": "{広告|こうこく}{代理店|だいりてん}⟦に→に：00314_ni⟧⟦{勤|つと}めている→勤める：00902_tsutomeru⟧。",
       "english": "I work at an advertising agency.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28078_koukokudairiten_ex2",
-      "japanese": "その{宣伝|せんでん}は{広告|こうこく}{代理店|だいりてん}に{任|まか}せた。",
+      "japanese": "⟦その→その：00993_sono⟧⟦{宣伝|せんでん}→宣伝：03307_senden⟧⟦は→は：00079_ha⟧{広告|こうこく}{代理店|だいりてん}⟦に→に：00314_ni⟧⟦{任|まか}せた→任せる：02417_makaseru⟧。",
       "english": "We left that promotion to an ad agency.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28078_koukokudairiten_ex3",
-      "japanese": "{大手|おおて}の{広告|こうこく}{代理店|だいりてん}が、その{企業|きぎょう}の{新|あたら}しいキャンペーンを{手|て}がけている。",
+      "japanese": "⟦{大手|おおて}→大手：12171_oote⟧⟦の→の：09472_no⟧{広告|こうこく}{代理店|だいりてん}⟦が→が：00051_ga⟧、⟦その→その：00993_sono⟧⟦{企業|きぎょう}→企業：00225_kigyou⟧⟦の→の：09472_no⟧⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦キャンペーン→キャンペーン：10809_kyanpeen⟧⟦を→を：00422_wo⟧⟦{手|て}がけている→手がける：12753_tegakeru⟧。",
       "english": "A major advertising agency is handling that company's new campaign.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Compound of {広告|こうこく} (advertisement) + {代理店|だいりてん} (agency, a business acting on another's behalf). It plans campaigns and brokers ad placements for client companies.\n\nCOMMON COLLOCATIONS:\n- {大手|おおて}{広告|こうこく}{代理店|だいりてん}: major advertising agency\n- {広告|こうこく}{代理店|だいりてん}に{依頼|いらい}する: to commission an ad agency\n\nSIMILAR WORDS:\n- {広告|こうこく}{会社|がいしゃ}: advertising company — nearly synonymous, slightly more general\n- PR{会社|がいしゃ}: PR firm — focuses on public relations rather than paid ads",
+  "notes": "Compound of ⟦{広告|こうこく}→広告：02747_koukoku⟧ (advertisement) + ⟦{代理店|だいりてん}→代理店：21690_dairiten⟧ (agency, a business acting on another's behalf). It plans campaigns and brokers ad placements for client companies.\n\nCOMMON COLLOCATIONS:\n- ⟦{大手|おおて}→大手：12171_oote⟧{広告|こうこく}{代理店|だいりてん}: major advertising agency\n- {広告|こうこく}{代理店|だいりてん}⟦に→に：00314_ni⟧⟦{依頼|いらい}する→依頼する：21376_irai⟧: to commission an ad agency\n\nSIMILAR WORDS:\n- ⟦{広告|こうこく}→広告：02747_koukoku⟧{会社|がいしゃ}: advertising company — nearly synonymous, slightly more general\n- PR{会社|がいしゃ}: PR firm — focuses on public relations rather than paid ads",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "25701_koukokunushi",
+      "reading": "こうこくぬし",
+      "headword": "{広告主|こうこくぬし}",
+      "label": "advertiser"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["business"],
-      "domain": ["business"]
+      "politeness": "plain",
+      "semantic": [
+        "business"
+      ],
+      "domain": [
+        "business"
+      ]
     },
     "created": "2026-05-25T03:05:12Z",
-    "modified": "2026-05-25T03:05:12Z"
+    "modified": "2026-09-02T04:02:32Z"
   }
 }

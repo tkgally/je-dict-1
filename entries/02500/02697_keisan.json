@@ -2,7 +2,7 @@
   "id": "02697_keisan",
   "headword": "{計算|けいさん}",
   "reading": "けいさん",
-  "part_of_speech": "noun / suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "calculation, computation",
   "conjugation": {
     "type": "suru",
@@ -169,10 +169,67 @@
     }
   ],
   "notes": "{計算|けいさん} has two main uses: (1) mathematical calculation, and (2) strategic thinking or taking something into account when planning.\n\nCOMMON PATTERNS:\n- {計算|けいさん}⟦する→する：00392_suru⟧: to calculate\n- {計算|けいさん}⟦に→に：00314_ni⟧⟦{入|い}れる→入れる：01098_ireru⟧: to take into account, to factor in\n- {計算|けいさん}⟦が→が：00051_ga⟧⟦{合|あ}う→合う：10466_au⟧: the numbers add up\n- {計算|けいさん}⟦を→を：00422_wo⟧⟦{間違|まちが}える→間違える：01109_machigaeru⟧: to make a calculation error\n- {計算|けいさん}⟦{高|だか}い→高い：00500_takai⟧: calculating, scheming (describes a person who acts strategically for personal gain)\n\nCOMPOUNDS:\n- ⟦{計算|けいさん}{機|き}→計算機：17831_keisanki⟧: calculator\n- ⟦{暗算|あんざん}→暗算：15852_anzan⟧: mental calculation\n- ⟦{誤算|ごさん}→誤算：08679_gosan⟧: miscalculation\n- ⟦{計算|けいさん}{式|しき}→計算式：27948_keisanshiki⟧: mathematical formula/expression\n\nThe figurative sense appears in expressions like {計算|けいさん}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧ (there is calculation behind something) and {計算|けいさん}⟦{高|だか}い→高い：00500_takai⟧⟦{人|ひと}→人：00476_hito⟧ (a calculating person), both carrying a somewhat negative nuance of self-interested scheming.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02582_kanjou",
+      "reading": "かんじょう",
+      "headword": "{勘定|かんじょう}",
+      "label": "bill, check"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04170_sansuu",
+      "reading": "さんすう",
+      "headword": "{算数|さんすう}",
+      "label": "arithmetic, math (elementary)"
+    },
+    {
+      "type": "related",
+      "target_id": "05332_tashizan",
+      "reading": "たしざん",
+      "headword": "{足|た}し{算|ざん}",
+      "label": "addition"
+    },
+    {
+      "type": "related",
+      "target_id": "05333_hikizan",
+      "reading": "ひきざん",
+      "headword": "{引|ひ}き{算|ざん}",
+      "label": "subtraction"
+    },
+    {
+      "type": "related",
+      "target_id": "07992_kansan",
+      "reading": "かんさん",
+      "headword": "{換算|かんさん}",
+      "label": "conversion"
+    },
+    {
+      "type": "related",
+      "target_id": "08326_shisan",
+      "reading": "しさん",
+      "headword": "{試算|しさん}",
+      "label": "trial calculation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15350_sanshutsu",
+      "reading": "さんしゅつ",
+      "headword": "{算出|さんしゅつ}",
+      "label": "calculation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20135_hissan",
+      "reading": "ひっさん",
+      "headword": "{筆算|ひっさん}",
+      "label": "written calculation"
+    }
+  ],
   "metadata": {
     "created": "2026-01-11T07:25:00Z",
-    "modified": "2026-08-12T06:28:28Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

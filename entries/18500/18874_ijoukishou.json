@@ -15,41 +15,73 @@
   "examples": [
     {
       "id": "18874_ijoukishou_ex1",
-      "japanese": "{今年|ことし}は{異常|いじょう}{気象|きしょう}が{多|おお}い。",
+      "japanese": "⟦{今年|ことし}→今年：00722_kotoshi⟧⟦は→は：00079_ha⟧{異常|いじょう}{気象|きしょう}⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "There has been a lot of extreme weather this year.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18874_ijoukishou_ex2",
-      "japanese": "{異常|いじょう}{気象|きしょう}の{原因|げんいん}は{温暖|おんだん}{化|か}だと{言|い}われている。",
+      "japanese": "{異常|いじょう}{気象|きしょう}⟦の→の：09472_no⟧⟦{原因|げんいん}→原因：01400_genin⟧⟦は→は：00079_ha⟧⟦{温暖|おんだん}{化|か}→温暖化：04622_ondanka⟧だ⟦と→と：00512_to⟧⟦{言|い}われている→言う：00515_iu⟧。",
       "english": "It is said that global warming is the cause of extreme weather.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18874_ijoukishou_ex3",
-      "japanese": "{異常|いじょう}{気象|きしょう}による{農作物|のうさくぶつ}への{被害|ひがい}が{深刻|しんこく}になっている。",
+      "japanese": "{異常|いじょう}{気象|きしょう}⟦による→による：28349_niyoru⟧⟦{農作物|のうさくぶつ}→農作物：15271_nousakubutsu⟧⟦へ→へ：02473_he⟧⟦の→の：09472_no⟧⟦{被害|ひがい}→被害：02572_higai⟧⟦が→が：00051_ga⟧⟦{深刻|しんこく}→深刻：01567_shinkoku⟧になっている。",
       "english": "Damage to crops from extreme weather is becoming serious.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nA frequently used term in news broadcasts and newspaper articles. Japan experiences various forms of extreme weather including {猛暑|もうしょ} (intense heat), {豪雨|ごうう} (heavy rain), and {大雪|おおゆき} (heavy snow).\n\nCOMMON COLLOCATIONS:\n- {異常|いじょう}{気象|きしょう}が{続|つづ}く (extreme weather continues)\n- {異常|いじょう}{気象|きしょう}による{被害|ひがい} (damage from extreme weather)\n- {異常|いじょう}{気象|きしょう}の{原因|げんいん} (cause of abnormal weather)\n- {異常|いじょう}{気象|きしょう}が{増|ふ}えている (extreme weather is increasing)\n\nSIMILAR WORDS:\n- {天災|てんさい}: natural disaster — a broader term including earthquakes and tsunamis\n- {気候|きこう}{変動|へんどう}: climate change — refers to long-term trends, not individual events",
-  "cross_references": [],
+  "notes": "USAGE:\nA frequently used term in news broadcasts and newspaper articles. Japan experiences various forms of extreme weather including ⟦{猛暑|もうしょ}→猛暑：08311_mousho⟧ (intense heat), ⟦{豪雨|ごうう}→豪雨：05860_gouu⟧ (heavy rain), and ⟦{大雪|おおゆき}→大雪：03017_ooyuki⟧ (heavy snow).\n\nCOMMON COLLOCATIONS:\n- {異常|いじょう}{気象|きしょう}⟦が→が：00051_ga⟧⟦{続|つづ}く→続く：00903_tsuzuku⟧ (extreme weather continues)\n- {異常|いじょう}{気象|きしょう}⟦による→による：28349_niyoru⟧⟦{被害|ひがい}→被害：02572_higai⟧ (damage from extreme weather)\n- {異常|いじょう}{気象|きしょう}⟦の→の：09472_no⟧⟦{原因|げんいん}→原因：01400_genin⟧ (cause of abnormal weather)\n- {異常|いじょう}{気象|きしょう}⟦が→が：00051_ga⟧⟦{増|ふ}えている→増える：01183_fueru⟧ (extreme weather is increasing)\n\nSIMILAR WORDS:\n- ⟦{天災|てんさい}→天災：29302_tensai⟧: natural disaster — a broader term including earthquakes and tsunamis\n- ⟦{気候|きこう}{変動|へんどう}→気候変動：04627_kikouhendou⟧: climate change — refers to long-term trends, not individual events",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "29302_tensai",
+      "reading": "てんさい",
+      "headword": "{天災|てんさい}",
+      "label": "natural disaster"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04627_kikouhendou",
+      "reading": "きこうへんどう",
+      "headword": "{気候変動|きこうへんどう}",
+      "label": "climate change"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23642_danpa",
+      "reading": "だんぱ",
+      "headword": "{暖波|だんぱ}",
+      "label": "warm spell"
+    }
+  ],
   "metadata": {
     "created": "2026-03-23T06:18:02Z",
-    "modified": "2026-03-23T06:18:02Z",
+    "modified": "2026-09-02T04:01:53Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["weather"]
+      "semantic": [
+        "weather"
+      ]
     }
   }
 }

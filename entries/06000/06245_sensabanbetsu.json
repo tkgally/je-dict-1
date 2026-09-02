@@ -2,7 +2,7 @@
   "id": "06245_sensabanbetsu",
   "headword": "{千差万別|せんさばんべつ}",
   "reading": "せんさばんべつ",
-  "part_of_speech": "noun (four-character idiom)",
+  "part_of_speech": "noun, expression",
   "gloss": "great variety; wide diversity",
   "definitions": [
     {
@@ -23,7 +23,7 @@
     },
     {
       "id": "06245_sensabanbetsu_ex2",
-      "japanese": "⟦{意見|いけん}→意見：01303_iken⟧⟦は→は：00079_ha⟧{千差万別|せんさばんべつ}で、⟦{一致|いっち}→一致：01733_icchi⟧⟦を→を：00422_wo⟧⟦{見|み}なかった→見る：00283_miru⟧。",
+      "japanese": "⟦{意見|いけん}→意見：01303_iken⟧⟦は→は：00079_ha⟧{千差万別|せんさばんべつ}⟦で→で：00502_de⟧、⟦{一致|いっち}→一致：01733_icchi⟧⟦を→を：00422_wo⟧⟦{見|み}なかった→見る：00283_miru⟧。",
       "english": "Opinions varied widely and no consensus was reached.",
       "has_audio": false,
       "sense_numbers": [
@@ -32,7 +32,7 @@
     },
     {
       "id": "06245_sensabanbetsu_ex3",
-      "japanese": "⟦{花|はな}→花：00523_hana⟧⟦の→の：09472_no⟧⟦{種類|しゅるい}→種類：01560_shurui⟧⟦は→は：00079_ha⟧{千差万別|せんさばんべつ}である。",
+      "japanese": "⟦{花|はな}→花：00523_hana⟧⟦の→の：09472_no⟧⟦{種類|しゅるい}→種類：01560_shurui⟧⟦は→は：00079_ha⟧{千差万別|せんさばんべつ}⟦である→である：09855_dearu⟧。",
       "english": "There is a great variety of flower species.",
       "has_audio": false,
       "sense_numbers": [
@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "notes": "FOUR-CHARACTER IDIOM (⟦{四字熟語|よじじゅくご}→四字熟語：15663_yojijukugo⟧):\n{千差|せんさ} (a thousand differences) + {万別|ばんべつ} (ten thousand distinctions)\n\nCOMPONENTS:\n- {千|せん}: thousand\n- {差|さ}: difference\n- {万|まん}/{ばん}: ten thousand\n- {別|べつ}: distinction, separate\n\nLITERAL MEANING:\n\"A thousand differences and ten thousand distinctions\" - emphasizing vast diversity.\n\nUSAGE PATTERNS:\n・{千差万別|せんさばんべつ}だ/である (is infinitely varied)\n・{千差万別|せんさばんべつ}⟦の→の：09472_no⟧～ (various kinds of ~)\n・{千差万別|せんさばんべつ}で (being diverse...)\n\nSIMILAR EXPRESSIONS:\n・⟦{多種多様|たしゅたよう}→多種多様：15329_tashutayou⟧: many kinds, diverse (more common, similar meaning)\n・⟦{十人十色|じゅうにんといろ}→十人十色：04770_juunintoiro⟧: ten people, ten colors (emphasizes individual differences)\n・⟦{様々|さまざま}→様々：01559_samazama⟧: various (simpler expression)",
+  "notes": "FOUR-CHARACTER IDIOM (⟦{四字熟語|よじじゅくご}→四字熟語：15663_yojijukugo⟧):\n{千差|せんさ} (a thousand differences) + {万別|ばんべつ} (ten thousand distinctions)\n\nETYMOLOGY:\n- ⟦{千|せん}→千：00809_sen⟧: thousand\n- ⟦{差|さ}→差：02771_sa⟧: difference\n- ⟦{万|まん}→万：00795_man⟧/ばん: ten thousand\n- ⟦{別|べつ}→別：01216_betsu⟧: distinction, separate\n\"A thousand differences and ten thousand distinctions\" - emphasizing vast diversity.\n\nCOMMON PATTERNS:\n- {千差万別|せんさばんべつ}だ/⟦である→である：09855_dearu⟧ (is infinitely varied)\n- {千差万別|せんさばんべつ}⟦の→の：09472_no⟧～ (various kinds of ~)\n- {千差万別|せんさばんべつ}⟦で→で：00502_de⟧ (being diverse...)\n\nSIMILAR WORDS:\n- ⟦{多種多様|たしゅたよう}→多種多様：15329_tashutayou⟧: many kinds, diverse (more common, similar meaning)\n- ⟦{十人十色|じゅうにんといろ}→十人十色：04770_juunintoiro⟧: ten people, ten colors (emphasizes individual differences)\n- ⟦{様々|さまざま}→様々：01559_samazama⟧: various (simpler expression)",
   "cross_references": [
     {
       "type": "synonym",
@@ -48,11 +48,25 @@
       "headword": "{多種多様|たしゅたよう}",
       "label": "diverse",
       "target_id": "15329_tashutayou"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04770_juunintoiro",
+      "reading": "じゅうにんといろ",
+      "headword": "{十人十色|じゅうにんといろ}",
+      "label": "ten people, ten colors"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01559_samazama",
+      "reading": "さまざま",
+      "headword": "{様々|さまざま}",
+      "label": "various"
     }
   ],
   "metadata": {
     "created": "2026-01-17T06:48:21Z",
-    "modified": "2026-06-23T03:23:23Z",
+    "modified": "2026-09-02T04:01:08Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

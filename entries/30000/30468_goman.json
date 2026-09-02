@@ -15,41 +15,52 @@
   "examples": [
     {
       "id": "30468_goman_ex1",
-      "japanese": "{五万|ごまん}{円|えん}かかった。",
+      "japanese": "{五万|ごまん}⟦{円|えん}→円：00774_en⟧⟦かかった→かかる：00711_kakaru⟧。",
       "english": "It cost fifty thousand yen.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "30468_goman_ex2",
-      "japanese": "コンサートには{五万|ごまん}{人|にん}が{集|あつ}まった。",
+      "japanese": "⟦コンサート→コンサート：01360_konsaato⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{五万|ごまん}⟦{人|にん}→〜人：00658_nin⟧⟦が→が：00051_ga⟧⟦{集|あつ}まった→集まる：01162_atsumaru⟧。",
       "english": "Fifty thousand people gathered for the concert.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "30468_goman_ex3",
-      "japanese": "{引|ひ}っ{越|こ}しの{費用|ひよう}は{五万|ごまん}{円|えん}ほどだと{言|い}われたが、{実際|じっさい}にはもっとかかった。",
+      "japanese": "{引|ひ}っ{越|こ}し⟦の→の：09472_no⟧⟦{費用|ひよう}→費用：03588_hiyou⟧⟦は→は：00079_ha⟧{五万|ごまん}⟦{円|えん}→円：00774_en⟧ほどだ⟦と→と：00512_to⟧⟦{言|い}われた→言う：00515_iu⟧⟦が→が：00051_ga⟧、⟦{実際|じっさい}→実際：02502_jissai⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦もっと→もっと：00798_motto⟧⟦かかった→かかる：00711_kakaru⟧。",
       "english": "I was told the moving costs would be about fifty thousand yen, but it actually came to more.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Formed as {五|ご} × {万|まん}, with no sound change.\n\nCOMMON EXPRESSIONS:\n- {五万|ごまん}{円|えん}: fifty thousand yen\n- {五万|ごまん}{人|にん}: fifty thousand people\n- {五万|ごまん}{部|ぶ}: fifty thousand copies\n\nIDIOM:\nごまんとある means \"there are heaps of them\" — an idiomatic exaggeration rather than a real count, and it is written in kana. そんな{話|はなし}はごまんとある \"stories like that are a dime a dozen\".",
+  "notes": "Formed as ⟦{五|ご}→五：00697_go⟧ × ⟦{万|まん}→万：00795_man⟧, with no sound change.\n\nCOMMON EXPRESSIONS:\n- {五万|ごまん}⟦{円|えん}→円：00774_en⟧: fifty thousand yen\n- {五万|ごまん}⟦{人|にん}→〜人：00658_nin⟧: fifty thousand people\n- {五万|ごまん}⟦{部|ぶ}→〜部：00440_bu⟧: fifty thousand copies\nごまんと⟦ある→ある：00006_aru⟧ means \"there are heaps of them\" — an idiomatic exaggeration rather than a real count, and it is written in kana. ⟦そんな→そんな：01645_sonna⟧⟦{話|はなし}→話：01496_hanashi⟧⟦は→は：00079_ha⟧ごまんと⟦ある→ある：00006_aru⟧ \"stories like that are a dime a dozen\".",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["number"],
+      "pos": [
+        "number"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["number", "quantity"],
+      "semantic": [
+        "number",
+        "quantity"
+      ],
       "domain": []
     },
     "created": "2026-08-07T00:23:55Z",
-    "modified": "2026-08-07T00:23:55Z"
+    "modified": "2026-09-02T04:02:40Z"
   }
 }

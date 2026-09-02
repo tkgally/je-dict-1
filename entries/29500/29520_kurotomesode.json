@@ -15,41 +15,60 @@
   "examples": [
     {
       "id": "29520_kurotomesode_ex1",
-      "japanese": "{母|はは}は{黒留袖|くろとめそで}を{着|き}た。",
+      "japanese": "⟦{母|はは}→母：00549_haha⟧⟦は→は：00079_ha⟧{黒留袖|くろとめそで}⟦を→を：00422_wo⟧⟦{着|き}た→着る：00541_kiru⟧。",
       "english": "My mother wore a black formal kimono.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29520_kurotomesode_ex2",
-      "japanese": "{結婚式|けっこんしき}では{両家|りょうけ}の{母親|ははおや}が{黒留袖|くろとめそで}を{着|き}る。",
+      "japanese": "⟦{結婚式|けっこんしき}→結婚式：05493_kekkonshiki⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧{両家|りょうけ}⟦の→の：09472_no⟧⟦{母親|ははおや}→母親：03564_hahaoya⟧⟦が→が：00051_ga⟧{黒留袖|くろとめそで}⟦を→を：00422_wo⟧⟦{着|き}る→着る：00541_kiru⟧。",
       "english": "At a wedding, the mothers of both families wear black formal kimono.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29520_kurotomesode_ex3",
-      "japanese": "{黒留袖|くろとめそで}は{既婚女性|きこんじょせい}の{第一礼装|だいいちれいそう}とされている。",
+      "japanese": "{黒留袖|くろとめそで}⟦は→は：00079_ha⟧{既婚女性|きこんじょせい}⟦の→の：09472_no⟧{第一礼装|だいいちれいそう}⟦と→と：00512_to⟧⟦されている→する：00392_suru⟧。",
       "english": "The black formal kimono is regarded as the highest formal dress for married women.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A type of {留袖|とめそで}, the formal kimono for married women. The black ground bears five family crests, marking it as the most formal grade. The colored counterpart worn by unmarried women or as slightly less formal wear is the {色留袖|いろとめそで}.\n\nCOMMON COLLOCATIONS:\n- {黒留袖|くろとめそで}を{着|き}る: to wear a black formal kimono\n- {五|いつ}つ{紋|もん}の{黒留袖|くろとめそで}: a black formal kimono with five crests\n\nSIMILAR WORDS:\n- {色留袖|いろとめそで}: colored formal kimono — same cut but a colored ground, slightly less formal\n- {振袖|ふりそで}: long-sleeved kimono — the formal kimono for unmarried women",
+  "notes": "A type of ⟦{留袖|とめそで}→留袖：27624_tomesode⟧, the formal kimono for married women. The black ground bears five family crests, marking it as the most formal grade. The colored counterpart worn by unmarried women or as slightly less formal wear is the {色留袖|いろとめそで}.\n\nCOMMON COLLOCATIONS:\n- {黒留袖|くろとめそで}⟦を→を：00422_wo⟧⟦{着|き}る→着る：00541_kiru⟧: to wear a black formal kimono\n- ⟦{五|いつ}つ→五つ：02892_itsutsu⟧⟦{紋|もん}→紋：13863_mon⟧⟦の→の：09472_no⟧{黒留袖|くろとめそで}: a black formal kimono with five crests\n\nSIMILAR WORDS:\n- {色留袖|いろとめそで}: colored formal kimono — same cut but a colored ground, slightly less formal\n- ⟦{振袖|ふりそで}→振袖：19967_furisode⟧: long-sleeved kimono — the formal kimono for unmarried women",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19967_furisode",
+      "reading": "ふりそで",
+      "headword": "{振袖|ふりそで}",
+      "label": "long-sleeved kimono"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["clothing"],
+      "politeness": "plain",
+      "semantic": [
+        "clothing"
+      ],
       "domain": []
     },
     "created": "2026-06-27T18:18:39Z",
-    "modified": "2026-06-27T18:18:39Z"
+    "modified": "2026-09-02T04:02:37Z"
   }
 }

@@ -15,41 +15,69 @@
   "examples": [
     {
       "id": "30097_onatsu_ex1",
-      "japanese": "この{曲|きょく}は{音圧|おんあつ}が{高|たか}い。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{曲|きょく}→曲：09881_kyoku⟧⟦は→は：00079_ha⟧{音圧|おんあつ}⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧。",
       "english": "This track has high sound pressure.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "30097_onatsu_ex2",
-      "japanese": "スピーカーの{音圧|おんあつ}を{調整|ちょうせい}する。",
+      "japanese": "⟦スピーカー→スピーカー：04420_supiikaa⟧⟦の→の：09472_no⟧{音圧|おんあつ}⟦を→を：00422_wo⟧⟦{調整|ちょうせい}する→調整する：10442_chouseisuru⟧。",
       "english": "To adjust the sound pressure of the speakers.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "30097_onatsu_ex3",
-      "japanese": "ライブでは{低音|ていおん}の{音圧|おんあつ}が{体|からだ}に{響|ひび}いた。",
+      "japanese": "⟦ライブ→ライブ：05412_raibu⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{低音|ていおん}→低音：18282_teion⟧⟦の→の：09472_no⟧{音圧|おんあつ}⟦が→が：00051_ga⟧⟦{体|からだ}→体：00784_karada⟧⟦に→に：00314_ni⟧⟦{響|ひび}いた→響く：00099_hibiku⟧。",
       "english": "At the live show, the sound pressure of the bass resonated through my body.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A term from acoustics for the pressure of a sound wave, but also used loosely by music and audio fans for how forceful or punchy a sound feels.\n\nCOMMON COLLOCATIONS:\n- {音圧|おんあつ}レベル: sound pressure level (SPL)\n- {音圧|おんあつ}が{高|たか}い: to have strong sound pressure\n\nSIMILAR WORDS:\n- {音量|おんりょう}: volume — the loudness setting or overall level\n- {音響|おんきょう}: acoustics; sound — the broader field of how sound behaves",
+  "notes": "A term from acoustics for the pressure of a sound wave, but also used loosely by music and audio fans for how forceful or punchy a sound feels.\n\nCOMMON COLLOCATIONS:\n- {音圧|おんあつ}⟦レベル→レベル：00352_reberu⟧: sound pressure level (SPL)\n- {音圧|おんあつ}⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧: to have strong sound pressure\n\nSIMILAR WORDS:\n- ⟦{音量|おんりょう}→音量：10009_onryou⟧: volume — the loudness setting or overall level\n- ⟦{音響|おんきょう}→音響：16316_onkyou⟧: acoustics; sound — the broader field of how sound behaves",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "10009_onryou",
+      "reading": "おんりょう",
+      "headword": "{音量|おんりょう}",
+      "label": "volume"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16316_onkyou",
+      "reading": "おんきょう",
+      "headword": "{音響|おんきょう}",
+      "label": "acoustics"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["science"],
-      "domain": ["technical"]
+      "politeness": "plain",
+      "semantic": [
+        "science"
+      ],
+      "domain": [
+        "technical"
+      ]
     },
     "created": "2026-07-25T03:20:29Z",
-    "modified": "2026-07-25T03:20:29Z"
+    "modified": "2026-09-02T04:02:38Z"
   }
 }

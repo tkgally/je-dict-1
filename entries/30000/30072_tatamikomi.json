@@ -15,41 +15,69 @@
   "examples": [
     {
       "id": "30072_tatamikomi_ex1",
-      "japanese": "{画像|がぞう}{認識|にんしき}では{畳|たた}み{込|こ}みが{使|つか}われる。",
+      "japanese": "⟦{画像|がぞう}{認識|にんしき}→画像認識：25950_gazouninshiki⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧{畳|たた}み{込|こ}み⟦が→が：00051_ga⟧⟦{使|つか}われる→使う：00473_tsukau⟧。",
       "english": "Convolution is used in image recognition.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "30072_tatamikomi_ex2",
-      "japanese": "{畳|たた}み{込|こ}みによって{特徴|とくちょう}を{抽出|ちゅうしゅつ}する。",
+      "japanese": "{畳|たた}み{込|こ}み⟦によって→によって：06801_niyotte⟧⟦{特徴|とくちょう}→特徴：03456_tokuchou⟧⟦を→を：00422_wo⟧⟦{抽出|ちゅうしゅつ}する→抽出する：19627_chuushutsusuru⟧。",
       "english": "Features are extracted by convolution.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "30072_tatamikomi_ex3",
-      "japanese": "{畳|たた}み{込|こ}みニューラルネットワークは{画像|がぞう}{処理|しょり}に{強|つよ}い。",
+      "japanese": "{畳|たた}み{込|こ}み⟦ニューラルネットワーク→ニューラルネットワーク：30073_nyuurarunettowaaku⟧⟦は→は：00079_ha⟧⟦{画像|がぞう}→画像：13549_gazou⟧⟦{処理|しょり}→処理：03251_shori⟧⟦に→に：00314_ni⟧⟦{強|つよ}い→強い：00820_tsuyoi⟧。",
       "english": "Convolutional neural networks are strong at image processing.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "The noun form of {畳|たた}み{込|こ}む (to fold in). In mathematics and signal processing it is an operation that blends two functions; in machine learning it is the core operation of a {畳|たた}み{込|こ}みニューラルネットワーク (convolutional neural network, CNN), which slides small filters over an image to detect features.\n\nCOMMON COLLOCATIONS:\n- {畳|たた}み{込|こ}み{層|そう}: convolutional layer\n- {畳|たた}み{込|こ}み{演算|えんざん}: convolution operation\n\nSIMILAR WORDS:\n- フィルター: filter — the small weight matrix that a convolution applies\n- {行列|ぎょうれつ}: matrix — the mathematical structure convolutions operate on",
+  "notes": "The noun form of {畳|たた}み{込|こ}む (to fold in). In mathematics and signal processing it is an operation that blends two functions; in machine learning it is the core operation of a {畳|たた}み{込|こ}み⟦ニューラルネットワーク→ニューラルネットワーク：30073_nyuurarunettowaaku⟧ (convolutional neural network, CNN), which slides small filters over an image to detect features.\n\nCOMMON COLLOCATIONS:\n- {畳|たた}み{込|こ}み⟦{層|そう}→層：12441_sou⟧: convolutional layer\n- {畳|たた}み{込|こ}み⟦{演算|えんざん}→演算：05150_enzan⟧: convolution operation\n\nSIMILAR WORDS:\n- ⟦フィルター→フィルター：21847_firutaa⟧: filter — the small weight matrix that a convolution applies\n- ⟦{行列|ぎょうれつ}→行列：09699_gyouretsu⟧: matrix — the mathematical structure convolutions operate on",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21847_firutaa",
+      "reading": "ふぃるたー",
+      "headword": "フィルター",
+      "label": "filter"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09699_gyouretsu",
+      "reading": "ぎょうれつ",
+      "headword": "{行列|ぎょうれつ}",
+      "label": "matrix"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["technology"],
-      "domain": ["technical"]
+      "politeness": "plain",
+      "semantic": [
+        "technology"
+      ],
+      "domain": [
+        "technical"
+      ]
     },
     "created": "2026-07-23T21:21:47Z",
-    "modified": "2026-07-23T21:21:47Z"
+    "modified": "2026-09-02T04:02:38Z"
   }
 }

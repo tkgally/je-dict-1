@@ -2,7 +2,7 @@
   "id": "02402_hipparu",
   "headword": "{引|ひ}っ{張|ぱ}る",
   "reading": "ひっぱる",
-  "part_of_speech": "godan verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to pull, to drag",
   "conjugation": {
     "type": "godan",
@@ -244,7 +244,7 @@
     },
     {
       "id": "02402_hipparu_ex14",
-      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦を→を：00422_wo⟧{引|ひ}っ{張|ぱ}り{込|こ}んだ。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦を→を：00422_wo⟧{引|ひ}っ{張|ぱ}り⟦{込|こ}んだ→込む：00719_komu⟧。",
       "english": "I dragged him into it.",
       "notes": null,
       "has_audio": false,
@@ -263,7 +263,7 @@
       ]
     }
   ],
-  "notes": "INTENSITY:\n{引|ひ}っ{張|ぱ}る is more emphatic and forceful than ⟦{引|ひ}く→引く：01978_hiku⟧. The っ{張|ぱ}る pattern adds intensity.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- No standard intransitive pair\n- Pattern: [noun]⟦を→を：00422_wo⟧{引|ひ}っ{張|ぱ}る\n\nCOMPOUND VERB FORMATION:\n⟦{引|ひ}く→引く：01978_hiku⟧ + っ + ⟦{張|は}る→張る：12583_haru⟧ = emphatic pulling action\n\nCOMMON EXPRESSIONS:\n- ⟦{足|あし}→足：00575_ashi⟧⟦を→を：00422_wo⟧{引|ひ}っ{張|ぱ}る: to hold someone back, to be a burden\n- ⟦{引|ひ}っ{張|ぱ}りだこ→引っ張りだこ：21393_hipparidako⟧: very much in demand (lit. \"pulled octopus\")\n- ⟦チーム→チーム：03858_chiimu⟧⟦を→を：00422_wo⟧{引|ひ}っ{張|ぱ}る: to lead a team\n\nRELATED COMPOUNDS:\n- {引|ひ}っ{張|ぱ}り⟦{込|こ}む→込む：00719_komu⟧: to drag into\n- {引|ひ}っ{張|ぱ}り⟦{出|だ}す→出す：01087_dasu⟧: to pull out, to drag out",
+  "notes": "INTENSITY:\n{引|ひ}っ{張|ぱ}る is more emphatic and forceful than ⟦{引|ひ}く→引く：01978_hiku⟧. The っ{張|ぱ}る pattern adds intensity.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- No standard intransitive pair\n- Pattern: [noun]⟦を→を：00422_wo⟧{引|ひ}っ{張|ぱ}る\n\nCOMPOUND VERB FORMATION:\n⟦{引|ひ}く→引く：01978_hiku⟧ + っ + ⟦{張|は}る→張る：12583_haru⟧ = emphatic pulling action\n\nCOMMON EXPRESSIONS:\n- ⟦{足|あし}→足：00575_ashi⟧⟦を→を：00422_wo⟧{引|ひ}っ{張|ぱ}る: to hold someone back, to be a burden\n- ⟦{引|ひ}っ{張|ぱ}りだこ→引っ張りだこ：21393_hipparidako⟧: very much in demand (lit. \"pulled octopus\")\n- ⟦チーム→チーム：03858_chiimu⟧⟦を→を：00422_wo⟧{引|ひ}っ{張|ぱ}る: to lead a team\n\nCOMPOUNDS:\n- {引|ひ}っ{張|ぱ}り⟦{込|こ}む→込む：00719_komu⟧: to drag into\n- {引|ひ}っ{張|ぱ}り⟦{出|だ}す→出す：01087_dasu⟧: to pull out, to drag out",
   "cross_references": [
     {
       "type": "related",
@@ -271,11 +271,18 @@
       "reading": "ひく",
       "headword": "{引|ひ}く",
       "label": "to pull"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26451_eikou",
+      "reading": "えいこう",
+      "headword": "{曳航|えいこう}",
+      "label": "towing"
     }
   ],
   "metadata": {
     "created": "2026-01-09T08:55:27Z",
-    "modified": "2026-08-12T06:27:51Z",
+    "modified": "2026-09-02T04:01:01Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

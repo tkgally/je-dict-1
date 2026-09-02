@@ -14,50 +14,73 @@
   "examples": [
     {
       "id": "10038_harugasumi_ex1",
-      "japanese": "{春霞|はるがすみ}がかかる。",
+      "japanese": "{春霞|はるがすみ}⟦が→が：00051_ga⟧⟦かかる→かかる：00711_kakaru⟧。",
       "english": "Spring haze settles in.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "10038_harugasumi_ex2",
-      "japanese": "{春霞|はるがすみ}の{中|なか}に{山|やま}が{見|み}える。",
+      "japanese": "{春霞|はるがすみ}⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧⟦に→に：00314_ni⟧⟦{山|やま}→山：02168_yama⟧⟦が→が：00051_ga⟧⟦{見|み}える→見える：01165_mieru⟧。",
       "english": "The mountains can be seen through the spring haze.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "10038_harugasumi_ex3",
-      "japanese": "{春霞|はるがすみ}で{遠|とお}くの{景色|けしき}がぼんやりしている。",
+      "japanese": "{春霞|はるがすみ}⟦で→で：00502_de⟧{遠|とお}く⟦の→の：09472_no⟧⟦{景色|けしき}→景色：01395_keshiki⟧⟦が→が：00051_ga⟧⟦ぼんやりしている→ぼんやりする：21687_bonyarisuru⟧。",
       "english": "The distant scenery is hazy due to the spring mist.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "10038_harugasumi_ex4",
-      "japanese": "{春霞|はるがすみ}のたなびく{野原|のはら}を{歩|ある}いた。",
+      "japanese": "{春霞|はるがすみ}⟦の→の：09472_no⟧たなびく⟦{野原|のはら}→野原：14417_nohara⟧⟦を→を：00422_wo⟧⟦{歩|ある}いた→歩く：00538_aruku⟧。",
       "english": "I walked through the fields where spring haze drifted.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "{春霞|はるがすみ} is the haze characteristic of spring.\n\nSEASONAL WORD:\nIt's a {季語|きご} (seasonal word) for spring in haiku and traditional poetry.\n\nPOETIC SIGNIFICANCE:\nSpring haze symbolizes the gentle, dreamy quality of spring in Japanese aesthetics. It softens the landscape and creates an atmosphere of peaceful beauty.\n\nREGISTER:\nPoetic and literary.\n\nRELATED:\n- {霞|かすみ}: haze, mist\n- {朧|おぼろ}: hazy, dim\n- {霧|きり}: fog",
-  "cross_references": [],
+  "notes": "{春霞|はるがすみ} is the haze characteristic of spring.\n\nSEASONAL WORD:\nIt's a ⟦{季語|きご}→季語：09561_kigo⟧ (seasonal word) for spring in haiku and traditional poetry.\n\nPOETIC SIGNIFICANCE:\nSpring haze symbolizes the gentle, dreamy quality of spring in Japanese aesthetics. It softens the landscape and creates an atmosphere of peaceful beauty.\n\nREGISTER:\nPoetic and literary.\n\nRELATED WORDS:\n- ⟦{霞|かすみ}→霞：05042_kasumi⟧: haze, mist\n- {朧|おぼろ}: hazy, dim\n- ⟦{霧|きり}→霧：02200_kiri⟧: fog",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "02200_kiri",
+      "reading": "きり",
+      "headword": "{霧|きり}",
+      "label": "fog"
+    }
+  ],
   "metadata": {
     "created": "2026-02-04T14:18:11Z",
-    "modified": "2026-02-04T14:18:11Z",
+    "modified": "2026-09-02T04:01:19Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["nature", "weather"],
-      "style": ["literary"]
+      "semantic": [
+        "nature",
+        "weather"
+      ],
+      "style": [
+        "literary"
+      ]
     }
   }
 }

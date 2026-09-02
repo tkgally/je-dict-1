@@ -15,40 +15,66 @@
   "examples": [
     {
       "id": "19705_ryakuzu_ex1",
-      "japanese": "{略図|りゃくず}を{描|か}く。",
+      "japanese": "{略図|りゃくず}⟦を→を：00422_wo⟧⟦{描|か}く→描く：28436_kaku⟧。",
       "english": "To draw a rough sketch.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19705_ryakuzu_ex2",
-      "japanese": "{道順|みちじゅん}の{略図|りゃくず}をメモに{書|か}いた。",
+      "japanese": "⟦{道順|みちじゅん}→道順：19280_michijun⟧⟦の→の：09472_no⟧{略図|りゃくず}⟦を→を：00422_wo⟧⟦メモ→メモ：00274_memo⟧⟦に→に：00314_ni⟧⟦{書|か}いた→書く：00477_kaku⟧。",
       "english": "I drew a rough map of the directions on a note.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19705_ryakuzu_ex3",
-      "japanese": "{報告書|ほうこくしょ}には{建物|たてもの}の{配置|はいち}を{示|しめ}す{略図|りゃくず}が{添付|てんぷ}されていた。",
+      "japanese": "⟦{報告書|ほうこくしょ}→報告書：06744_houkokusho⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{建物|たてもの}→建物：01458_tatemono⟧⟦の→の：09472_no⟧⟦{配置|はいち}→配置：14409_haichi⟧⟦を→を：00422_wo⟧⟦{示|しめ}す→示す：01948_shimesu⟧{略図|りゃくず}⟦が→が：00051_ga⟧⟦{添付|てんぷ}→添付：07376_tenpu⟧⟦されていた→する：00392_suru⟧。",
       "english": "A simplified diagram showing the building layout was attached to the report.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {略|りゃく} (abbreviation, simplification) + {図|ず} (diagram, drawing). A {略図|りゃくず} shows only the essential elements and omits details, unlike a detailed blueprint or technical drawing.\n\nCOMMON COLLOCATIONS:\n- {略図|りゃくず}を{描|か}く — to draw a rough sketch\n- {略図|りゃくず}を{示|しめ}す — to show a simplified diagram\n- {配置|はいち}{略図|りゃくず} — simplified layout diagram\n- {周辺|しゅうへん}{略図|りゃくず} — rough area map\n\nSIMILAR WORDS:\n- {見取|みと}り{図|ず} — floor plan, sketch map; often specifically a plan view of a room or building\n- {概略図|がいりゃくず} — schematic diagram; more technical term\n- スケッチ — sketch; loanword, can refer to artistic sketches as well",
+  "notes": "Composed of ⟦{略|りゃく}→略：21443_ryaku⟧ (abbreviation, simplification) + ⟦{図|ず}→図：03368_zu⟧ (diagram, drawing). A {略図|りゃくず} shows only the essential elements and omits details, unlike a detailed blueprint or technical drawing.\n\nCOMMON COLLOCATIONS:\n- {略図|りゃくず}⟦を→を：00422_wo⟧⟦{描|か}く→描く：28436_kaku⟧ — to draw a rough sketch\n- {略図|りゃくず}⟦を→を：00422_wo⟧⟦{示|しめ}す→示す：01948_shimesu⟧ — to show a simplified diagram\n- ⟦{配置|はいち}→配置：14409_haichi⟧{略図|りゃくず} — simplified layout diagram\n- ⟦{周辺|しゅうへん}→周辺：09896_shuuhen⟧{略図|りゃくず} — rough area map\n\nSIMILAR WORDS:\n- ⟦{見取|みと}り{図|ず}→見取り図：14836_mitorizu⟧ — floor plan, sketch map; often specifically a plan view of a room or building\n- {概略図|がいりゃくず} — schematic diagram; more technical term\n- ⟦スケッチ→スケッチ：22554_sukecchi⟧ — sketch; loanword, can refer to artistic sketches as well",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14836_mitorizu",
+      "reading": "みとりず",
+      "headword": "{見取|みと}り{図|ず}",
+      "label": "floor plan, sketch map"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22554_sukecchi",
+      "reading": "すけっち",
+      "headword": "スケッチ",
+      "label": "sketch"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["art"]
+      "semantic": [
+        "art"
+      ]
     },
     "created": "2026-03-26T14:26:55Z",
-    "modified": "2026-03-26T14:26:55Z"
+    "modified": "2026-09-02T04:01:56Z"
   }
 }

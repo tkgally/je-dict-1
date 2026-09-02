@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21622_suujikan_ex1",
-      "japanese": "{数時間|すうじかん}{待|ま}った。",
+      "japanese": "{数時間|すうじかん}⟦{待|ま}った→待つ：00469_matsu⟧。",
       "english": "I waited for several hours.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21622_suujikan_ex2",
-      "japanese": "{手術|しゅじゅつ}は{数時間|すうじかん}かかる{見込|みこ}みだ。",
+      "japanese": "⟦{手術|しゅじゅつ}→手術：03218_shujutsu⟧⟦は→は：00079_ha⟧{数時間|すうじかん}⟦かかる→かかる：00711_kakaru⟧⟦{見込|みこ}み→見込み：06872_mikomi⟧だ。",
       "english": "The surgery is expected to take several hours.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21622_suujikan_ex3",
-      "japanese": "{停電|ていでん}で{数時間|すうじかん}にわたって{電気|でんき}が{使|つか}えなかった。",
+      "japanese": "⟦{停電|ていでん}→停電：03544_teiden⟧⟦で→で：00502_de⟧{数時間|すうじかん}⟦に→に：00314_ni⟧わたって⟦{電気|でんき}→電気：09780_denki⟧⟦が→が：00051_ga⟧⟦{使|つか}えなかった→使う：00473_tsukau⟧。",
       "english": "Due to the power outage, electricity was unavailable for several hours.",
       "sense_numbers": [
         1
@@ -44,8 +44,45 @@
       "notes": null
     }
   ],
-  "notes": "A common time expression using the prefix {数|すう} (several) with the time counter {時間|じかん} (hours).\n\nRELATED TIME EXPRESSIONS:\n- {数分|すうふん}: several minutes\n- {数日|すうじつ}: several days\n- {数週間|すうしゅうかん}: several weeks\n- {数ヶ月|すうかげつ}: several months\n- {数年|すうねん}: several years\n\nCOMMON COLLOCATIONS:\n- {数時間|すうじかん}{後|ご}: several hours later\n- {数時間|すうじかん}{前|まえ}: several hours ago\n- {数時間|すうじかん}おきに: every few hours\n- {数時間|すうじかん}にわたって: for several hours (duration)\n\nSIMILAR WORDS:\n- {何時間|なんじかん}か: some hours — slightly more vague\n- {二、三時間|にさんじかん}: two or three hours — narrower range",
+  "notes": "A common time expression using the prefix ⟦{数|すう}→数：03360_suu⟧ (several) with the time counter ⟦{時間|じかん}→時間：00468_jikan⟧ (hours).\n\nRELATED TIME EXPRESSIONS:\n- ⟦{数分|すうふん}→数分：21623_suufun⟧: several minutes\n- ⟦{数日|すうじつ}→数日：20517_suujitsu⟧: several days\n- ⟦{数週間|すうしゅうかん}→数週間：21615_suushuukan⟧: several weeks\n- {数ヶ月|すうかげつ}: several months\n- ⟦{数年|すうねん}→数年：28206_suunen⟧: several years\n\nCOMMON COLLOCATIONS:\n- {数時間|すうじかん}⟦{後|ご}→後：30157_go⟧: several hours later\n- {数時間|すうじかん}⟦{前|まえ}→前：02255_mae⟧: several hours ago\n- {数時間|すうじかん}おき⟦に→に：00314_ni⟧: every few hours\n- {数時間|すうじかん}⟦に→に：00314_ni⟧わたって: for several hours (duration)\n\nSIMILAR WORDS:\n- ⟦{何時間|なんじかん}→何時間：30372_nanjikan⟧⟦か→か：09473_ka⟧: some hours — slightly more vague\n- {二、三時間|にさんじかん}: two or three hours — narrower range",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "21623_suufun",
+      "reading": "すうふん",
+      "headword": "{数分|すうふん}",
+      "label": "several minutes"
+    },
+    {
+      "type": "related",
+      "target_id": "20517_suujitsu",
+      "reading": "すうじつ",
+      "headword": "{数日|すうじつ}",
+      "label": "several days"
+    },
+    {
+      "type": "related",
+      "target_id": "21615_suushuukan",
+      "reading": "すうしゅうかん",
+      "headword": "{数週間|すうしゅうかん}",
+      "label": "several weeks"
+    },
+    {
+      "type": "related",
+      "target_id": "28206_suunen",
+      "reading": "すうねん",
+      "headword": "{数年|すうねん}",
+      "label": "several years"
+    },
+    {
+      "type": "related",
+      "target_id": "29820_suukai",
+      "reading": "すうかい",
+      "headword": "{数回|すうかい}",
+      "label": "several times"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +96,6 @@
       ]
     },
     "created": "2026-04-02T18:17:06Z",
-    "modified": "2026-07-29T12:35:11Z"
+    "modified": "2026-09-02T04:02:04Z"
   }
 }

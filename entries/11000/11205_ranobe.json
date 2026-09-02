@@ -15,41 +15,66 @@
   "examples": [
     {
       "id": "11205_ranobe_ex1",
-      "japanese": "ラノベを{読|よ}む。",
+      "japanese": "ラノベ⟦を→を：00422_wo⟧⟦{読|よ}む→読む：00426_yomu⟧。",
       "english": "I read light novels.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "11205_ranobe_ex2",
-      "japanese": "このラノベはアニメ{化|か}された。",
+      "japanese": "⟦この→この：00962_kono⟧ラノベ⟦は→は：00079_ha⟧⟦アニメ{化|か}→アニメ化：23065_animeka⟧⟦された→する：00392_suru⟧。",
       "english": "This light novel was adapted into an anime.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "11205_ranobe_ex3",
-      "japanese": "{最近|さいきん}のラノベは{異世界|いせかい}ものが{多|おお}い。",
+      "japanese": "⟦{最近|さいきん}→最近：00881_saikin⟧⟦の→の：09472_no⟧ラノベ⟦は→は：00079_ha⟧⟦{異世界|いせかい}→異世界：18438_isekai⟧もの⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "Recent light novels often feature isekai (other-world) settings.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "ラノベ is a widely used abbreviation of ライトノベル (light novel). It refers to a genre of Japanese fiction aimed primarily at a young-adult audience, characterized by accessible prose and anime-style cover illustrations.\n\nCOMMON COLLOCATIONS:\n- ラノベを{読|よ}む: to read a light novel\n- ラノベ{原作|げんさく}: based on a light novel\n- ラノベ{作家|さっか}: light novel author\n\nRELATED TERMS:\n- ライトノベル: full form\n- {漫画|まんが}: manga\n- アニメ{化|か}: anime adaptation",
-  "cross_references": [],
+  "notes": "ラノベ is a widely used abbreviation of ⟦ライト→ライト：13631_raito⟧ノベル (light novel). It refers to a genre of Japanese fiction aimed primarily at a young-adult audience, characterized by accessible prose and anime-style cover illustrations.\n\nCOMMON COLLOCATIONS:\n- ラノベ⟦を→を：00422_wo⟧⟦{読|よ}む→読む：00426_yomu⟧: to read a light novel\n- ラノベ⟦{原作|げんさく}→原作：11827_gensaku⟧: based on a light novel\n- ラノベ⟦{作家|さっか}→作家：01414_sakka⟧: light novel author\n\nRELATED WORDS:\n- ⟦ライト→ライト：13631_raito⟧ノベル: full form\n- ⟦{漫画|まんが}→漫画：01511_manga⟧: manga\n- ⟦アニメ{化|か}→アニメ化：23065_animeka⟧: anime adaptation",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "01511_manga",
+      "reading": "まんが",
+      "headword": "{漫画|まんが}",
+      "label": "manga"
+    },
+    {
+      "type": "related",
+      "target_id": "23065_animeka",
+      "reading": "あにめか",
+      "headword": "アニメ{化|か}",
+      "label": "anime adaptation"
+    }
+  ],
   "metadata": {
     "created": "2026-02-15T02:43:51Z",
-    "modified": "2026-02-15T02:43:51Z",
+    "modified": "2026-09-02T04:01:24Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "informal",
       "politeness": "plain",
-      "semantic": ["leisure"]
+      "semantic": [
+        "leisure"
+      ]
     }
   }
 }

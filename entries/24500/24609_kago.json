@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24609_kago_ex1",
-      "japanese": "{殿様|とのさま}が{駕籠|かご}に{乗|の}って{城|しろ}を{出|で}た。",
+      "japanese": "⟦{殿様|とのさま}→殿様：10455_tonosama⟧⟦が→が：00051_ga⟧{駕籠|かご}⟦に→に：00314_ni⟧⟦{乗|の}って→乗る：00511_noru⟧⟦{城|しろ}→城：03255_shiro⟧⟦を→を：00422_wo⟧⟦{出|で}た→出る：00513_deru⟧。",
       "english": "The lord left the castle riding in a palanquin.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24609_kago_ex2",
-      "japanese": "{江戸時代|えどじだい}には{駕籠|かご}が{主|おも}な{交通手段|こうつうしゅだん}の{一|ひと}つだった。",
+      "japanese": "⟦{江戸時代|えどじだい}→江戸時代：20431_edojidai⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{駕籠|かご}⟦が→が：00051_ga⟧⟦{主|おも}な→主な：21018_omona⟧{交通手段|こうつうしゅだん}⟦の→の：09472_no⟧⟦{一|ひと}つ→一つ：02948_hitotsu⟧だった。",
       "english": "During the Edo period, palanquins were one of the main means of transportation.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24609_kago_ex3",
-      "japanese": "{時代劇|じだいげき}では、{武家|ぶけ}の{女性|じょせい}が{駕籠|かご}に{乗|の}って{嫁入|よめい}りする{場面|ばめん}がよく{描|えが}かれる。",
+      "japanese": "⟦{時代劇|じだいげき}→時代劇：12968_jidaigeki⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧、⟦{武家|ぶけ}→武家：13242_buke⟧⟦の→の：09472_no⟧⟦{女性|じょせい}→女性：01617_josei⟧⟦が→が：00051_ga⟧{駕籠|かご}⟦に→に：00314_ni⟧⟦{乗|の}って→乗る：00511_noru⟧{嫁入|よめい}り⟦する→する：00392_suru⟧⟦{場面|ばめん}→場面：03702_bamen⟧⟦が→が：00051_ga⟧⟦よく→よく：00601_yoku⟧⟦{描|えが}かれる→描く：02013_egaku⟧。",
       "english": "In period dramas, scenes of samurai women riding in palanquins for their wedding procession are often depicted.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "A traditional Japanese means of transportation in which a person sits inside a cabin mounted on poles, carried by two or more bearers ({駕籠|かご}{掻|か}き). Used primarily during the Edo period by the nobility, samurai class, and wealthy merchants. Different from {籠|かご} (basket/cage), which shares the same reading.\n\nCOMMON COLLOCATIONS:\n- {駕籠|かご}に{乗|の}る: to ride in a palanquin\n- {駕籠|かご}を{担|かつ}ぐ: to carry a palanquin\n- {駕籠|かご}{掻|か}き: palanquin bearer\n- お{駕籠|かご}: palanquin (polite)\n\nSIMILAR WORDS:\n- {籠|かご}: basket, cage — same reading, different meaning\n- {御輿|みこし}: portable shrine — carried on poles, but for religious festivals\n- {人力車|じんりきしゃ}: rickshaw — later form of human-powered transport",
+  "notes": "A traditional Japanese means of transportation in which a person sits inside a cabin mounted on poles, carried by two or more bearers ({駕籠|かご}{掻|か}き). Used primarily during the Edo period by the nobility, samurai class, and wealthy merchants. Different from ⟦{籠|かご}→籠：02577_kago⟧ (basket/cage), which shares the same reading.\n\nCOMMON COLLOCATIONS:\n- {駕籠|かご}⟦に→に：00314_ni⟧⟦{乗|の}る→乗る：00511_noru⟧: to ride in a palanquin\n- {駕籠|かご}⟦を→を：00422_wo⟧⟦{担|かつ}ぐ→担ぐ：03917_katsugu⟧: to carry a palanquin\n- {駕籠|かご}{掻|か}き: palanquin bearer\n- お{駕籠|かご}: palanquin (polite)\n\nSIMILAR WORDS:\n- ⟦{籠|かご}→籠：02577_kago⟧: basket, cage — same reading, different meaning\n- {御輿|みこし}: portable shrine — carried on poles, but for religious festivals\n- ⟦{人力車|じんりきしゃ}→人力車：11472_jinrikisha⟧: rickshaw — later form of human-powered transport",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11472_jinrikisha",
+      "reading": "じんりきしゃ",
+      "headword": "{人力車|じんりきしゃ}",
+      "label": "rickshaw"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,6 +71,6 @@
       ]
     },
     "created": "2026-04-19T16:32:53Z",
-    "modified": "2026-04-19T16:32:53Z"
+    "modified": "2026-09-02T04:02:19Z"
   }
 }

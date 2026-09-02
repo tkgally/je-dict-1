@@ -119,7 +119,7 @@
     },
     {
       "id": "01213_shiraberu_ex2",
-      "japanese": "⟦{警察|けいさつ}→警察：01393_keisatsu⟧⟦が→が：00051_ga⟧⟦{事件|じけん}→事件：01568_jiken⟧⟦を→を：00422_wo⟧{調|しら}べている。",
+      "japanese": "⟦{警察|けいさつ}→警察：01393_keisatsu⟧⟦が→が：00051_ga⟧⟦{事件|じけん}→事件：01568_jiken⟧⟦を→を：00422_wo⟧{調|しら}べて⟦いる→いる：00495_iru⟧。",
       "english": "The police are investigating the case.",
       "notes": null,
       "has_audio": false,
@@ -168,7 +168,7 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive). Pattern: X⟦を→を：00422_wo⟧{調|しら}べる (investigate/look up X).\n\nASPECT: ている indicates ongoing action. {調|しら}べて⟦いる→いる：00495_iru⟧ = 'is investigating/looking up.'\n\nCOMMON PATTERNS:\n・⟦{辞書|じしょ}→辞書：04707_jisho⟧⟦で→で：00502_de⟧{調|しら}べる (look up in a dictionary)\n・⟦ネット→ネット：05279_netto⟧⟦で→で：00502_de⟧{調|しら}べる (search online)\n・⟦{原因|げんいん}→原因：01400_genin⟧⟦を→を：00422_wo⟧{調|しら}べる (investigate the cause)\n・⟦よく→よく：00601_yoku⟧{調|しら}べる (examine carefully)\n・{調|しら}べて⟦みる→見る：00283_miru⟧ (try looking up)\n\nUSAGE CONTEXTS:\n・Academic research\n・Police investigations\n・Looking things up in dictionaries/online\n・Checking facts\n\nRELATED:\n・⟦{調査|ちょうさ}→調査：03489_chousa⟧ (investigation, survey—noun, more formal)\n・⟦{検索|けんさく}→検索：04729_kensaku⟧ (search—especially computer searches)",
+  "notes": "TRANSITIVITY: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive). Pattern: X⟦を→を：00422_wo⟧{調|しら}べる (investigate/look up X).\n\nASPECT: て⟦いる→いる：00495_iru⟧ indicates ongoing action. {調|しら}べて⟦いる→いる：00495_iru⟧ = 'is investigating/looking up.'\n\nCOMMON PATTERNS:\n- ⟦{辞書|じしょ}→辞書：04707_jisho⟧⟦で→で：00502_de⟧{調|しら}べる (look up in a dictionary)\n- ⟦ネット→ネット：05279_netto⟧⟦で→で：00502_de⟧{調|しら}べる (search online)\n- ⟦{原因|げんいん}→原因：01400_genin⟧⟦を→を：00422_wo⟧{調|しら}べる (investigate the cause)\n- ⟦よく→よく：00601_yoku⟧{調|しら}べる (examine carefully)\n- {調|しら}べて⟦みる→見る：00283_miru⟧ (try looking up)\n\nUSAGE:\n- Academic research\n- Police investigations\n- Looking things up in dictionaries/online\n- Checking facts\n\nRELATED WORDS:\n- ⟦{調査|ちょうさ}→調査：03489_chousa⟧ (investigation, survey—noun, more formal)\n- ⟦{検索|けんさく}→検索：04729_kensaku⟧ (search—especially computer searches)",
   "cross_references": [
     {
       "type": "synonym",
@@ -176,11 +176,32 @@
       "reading": "けんさく",
       "headword": "{検索|けんさく}",
       "label": "search (digital)"
+    },
+    {
+      "type": "related",
+      "target_id": "03489_chousa",
+      "reading": "ちょうさ",
+      "headword": "{調査|ちょうさ}",
+      "label": "investigation, survey—noun, more formal"
+    },
+    {
+      "type": "related",
+      "target_id": "04916_chekkusuru",
+      "reading": "ちぇっくする",
+      "headword": "チェックする",
+      "label": "to check"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25338_bunsekisuru",
+      "reading": "ぶんせきする",
+      "headword": "{分析|ぶんせき}する",
+      "label": "to analyze"
     }
   ],
   "metadata": {
     "created": "2026-01-08T12:55:51Z",
-    "modified": "2026-05-14T18:11:23Z",
+    "modified": "2026-09-02T04:00:59Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

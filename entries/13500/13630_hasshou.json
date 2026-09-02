@@ -3,7 +3,7 @@
   "id": "13630_hasshou",
   "headword": "{発祥|はっしょう}",
   "reading": "はっしょう",
-  "part_of_speech": "noun; verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "origin; birthplace",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "13630_hasshou_ex1",
-      "japanese": "ここはラーメンの{発祥|はっしょう}の{地|ち}だ。",
+      "japanese": "⟦ここ→ここ：00961_koko⟧⟦は→は：00079_ha⟧⟦ラーメン→ラーメン：05181_raamen⟧⟦の→の：09472_no⟧{発祥|はっしょう}⟦の→の：09472_no⟧{地|ち}だ。",
       "english": "This is the birthplace of ramen.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "13630_hasshou_ex2",
-      "japanese": "{柔道|じゅうどう}は{日本|にほん}{発祥|はっしょう}の{武道|ぶどう}だ。",
+      "japanese": "⟦{柔道|じゅうどう}→柔道：01612_juudou⟧⟦は→は：00079_ha⟧⟦{日本|にほん}→日本：03876_nihon⟧{発祥|はっしょう}⟦の→の：09472_no⟧⟦{武道|ぶどう}→武道：09640_budou⟧だ。",
       "english": "Judo is a martial art that originated in Japan.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "13630_hasshou_ex3",
-      "japanese": "この{祭|まつ}りの{発祥|はっしょう}は{江戸|えど}{時代|じだい}にまで{遡|さかのぼ}ると{言|い}われている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{祭|まつ}り→祭り：03735_matsuri⟧⟦の→の：09472_no⟧{発祥|はっしょう}⟦は→は：00079_ha⟧⟦{江戸|えど}{時代|じだい}→江戸時代：20431_edojidai⟧⟦に→に：00314_ni⟧⟦まで→まで：00490_made⟧⟦{遡|さかのぼ}る→遡る：04003_sakanoboru⟧⟦と→と：00512_to⟧⟦{言|い}われている→言う：00515_iu⟧。",
       "english": "The origin of this festival is said to date back to the Edo period.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nMost commonly appears in the pattern {発祥|はっしょう}の{地|ち} (place of origin, birthplace). Can also be used with する: {発祥|はっしょう}する (to originate).\n\nNUANCE:\nCarries a sense of historical or cultural significance. Not used for trivial beginnings — use {始|はじ}まり or {起源|きげん} for more general \"origins.\"\n\nCOMMON COLLOCATIONS:\n- {発祥|はっしょう}の{地|ち}: birthplace, place of origin\n- {発祥|はっしょう}の{国|くに}: country of origin\n- ～{発祥|はっしょう}: originating from ~\n- {文化|ぶんか}の{発祥|はっしょう}: the origin of a culture\n- {発祥|はっしょう}に{遡|さかのぼ}る: to trace back to the origins",
+  "notes": "USAGE:\nMost commonly appears in the pattern {発祥|はっしょう}⟦の→の：09472_no⟧{地|ち} (place of origin, birthplace). Can also be used with ⟦する→する：00392_suru⟧: {発祥|はっしょう}⟦する→する：00392_suru⟧ (to originate).\nCarries a sense of historical or cultural significance. Not used for trivial beginnings — use ⟦{始|はじ}まり→始まり：02474_hajimari⟧ or ⟦{起源|きげん}→起源：17394_kigen⟧ for more general \"origins.\"\n\nCOMMON COLLOCATIONS:\n- {発祥|はっしょう}⟦の→の：09472_no⟧{地|ち}: birthplace, place of origin\n- {発祥|はっしょう}⟦の→の：09472_no⟧⟦{国|くに}→国：02204_kuni⟧: country of origin\n- ～{発祥|はっしょう}: originating from ~\n- ⟦{文化|ぶんか}→文化：01504_bunka⟧⟦の→の：09472_no⟧{発祥|はっしょう}: the origin of a culture\n- {発祥|はっしょう}⟦に→に：00314_ni⟧⟦{遡|さかのぼ}る→遡る：04003_sakanoboru⟧: to trace back to the origins",
   "cross_references": [
     {
       "type": "synonym",
@@ -142,11 +142,18 @@
       "reading": "きげん",
       "headword": "{起源|きげん}",
       "label": "origin (general)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11534_ganso",
+      "reading": "がんそ",
+      "headword": "{元祖|がんそ}",
+      "label": "originator, founder, pioneer"
     }
   ],
   "metadata": {
     "created": "2026-02-26T10:38:19Z",
-    "modified": "2026-04-29T06:03:13Z",
+    "modified": "2026-09-02T04:01:34Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

@@ -15,40 +15,87 @@
   "examples": [
     {
       "id": "20195_bokuchiku_ex1",
-      "japanese": "{牧畜|ぼくちく}が{盛|さか}んな{地域|ちいき}だ。",
+      "japanese": "{牧畜|ぼくちく}⟦が→が：00051_ga⟧⟦{盛|さか}ん→盛ん：01239_sakan⟧な⟦{地域|ちいき}→地域：01461_chiiki⟧だ。",
       "english": "It's a region where livestock farming thrives.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20195_bokuchiku_ex2",
-      "japanese": "{北海道|ほっかいどう}は{牧畜|ぼくちく}に{適|てき}した{広大|こうだい}な{土地|とち}がある。",
+      "japanese": "⟦{北海道|ほっかいどう}→北海道：11010_hokkaidou⟧⟦は→は：00079_ha⟧{牧畜|ぼくちく}⟦に→に：00314_ni⟧⟦{適|てき}した→適する：02297_tekisuru⟧⟦{広大|こうだい}→広大：11328_koudai⟧な⟦{土地|とち}→土地：02226_tochi⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "Hokkaido has vast land suited for livestock farming.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20195_bokuchiku_ex3",
-      "japanese": "この{国|くに}の{経済|けいざい}は{牧畜|ぼくちく}と{農業|のうぎょう}に{大|おお}きく{依存|いぞん}している。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{国|くに}→国：02204_kuni⟧⟦の→の：09472_no⟧⟦{経済|けいざい}→経済：01394_keizai⟧⟦は→は：00079_ha⟧{牧畜|ぼくちく}⟦と→と：00512_to⟧⟦{農業|のうぎょう}→農業：01491_nougyou⟧⟦に→に：00314_ni⟧⟦{大|おお}きく→大きい：00335_ookii⟧⟦{依存|いぞん}している→依存する：20026_izonsuru⟧。",
       "english": "This country's economy depends heavily on livestock farming and agriculture.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {牧|ぼく} (grazing/pasture) + {畜|ちく} (livestock/domestic animals). Refers to the industry and practice of raising animals.\n\nCOMMON COLLOCATIONS:\n- {牧畜|ぼくちく}{業|ぎょう}: the livestock industry\n- {牧畜|ぼくちく}{民|みん}: pastoral people, herders\n- {牧畜|ぼくちく}が{盛|さか}ん: thriving livestock farming\n- {遊牧|ゆうぼく}: nomadic herding\n\nSIMILAR WORDS:\n- {畜産|ちくさん}: animal husbandry — often used interchangeably, but slightly more focused on production/industry\n- {酪農|らくのう}: dairy farming — specifically raising dairy cattle\n- {農業|のうぎょう}: agriculture — crop farming (broader and distinct from animal farming)\n\nCULTURAL NOTE:\n{牧畜|ぼくちく} is particularly associated with {北海道|ほっかいどう}, where the wide open spaces support cattle and horse ranching on a scale not possible in most of Japan.",
+  "notes": "Composed of {牧|ぼく} (grazing/pasture) + {畜|ちく} (livestock/domestic animals). Refers to the industry and practice of raising animals.\n\nCOMMON COLLOCATIONS:\n- {牧畜|ぼくちく}{業|ぎょう}: the livestock industry\n- {牧畜|ぼくちく}{民|みん}: pastoral people, herders\n- {牧畜|ぼくちく}⟦が→が：00051_ga⟧⟦{盛|さか}ん→盛ん：01239_sakan⟧: thriving livestock farming\n- {遊牧|ゆうぼく}: nomadic herding\n\nSIMILAR WORDS:\n- ⟦{畜産|ちくさん}→畜産：16090_chikusan⟧: animal husbandry — often used interchangeably, but slightly more focused on production/industry\n- ⟦{酪農|らくのう}→酪農：06104_rakunou⟧: dairy farming — specifically raising dairy cattle\n- ⟦{農業|のうぎょう}→農業：01491_nougyou⟧: agriculture — crop farming (broader and distinct from animal farming)\n\nCULTURAL NOTE:\n{牧畜|ぼくちく} is particularly associated with ⟦{北海道|ほっかいどう}→北海道：11010_hokkaidou⟧, where the wide open spaces support cattle and horse ranching on a scale not possible in most of Japan.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16090_chikusan",
+      "reading": "ちくさん",
+      "headword": "{畜産|ちくさん}",
+      "label": "animal husbandry"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06104_rakunou",
+      "reading": "らくのう",
+      "headword": "{酪農|らくのう}",
+      "label": "dairy farming"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01491_nougyou",
+      "reading": "のうぎょう",
+      "headword": "{農業|のうぎょう}",
+      "label": "agriculture"
+    },
+    {
+      "type": "related",
+      "target_id": "06103_bokujou",
+      "reading": "ぼくじょう",
+      "headword": "{牧場|ぼくじょう}",
+      "label": "ranch, pasture, farm"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20606_houboku",
+      "reading": "ほうぼく",
+      "headword": "{放牧|ほうぼく}",
+      "label": "grazing"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["agriculture"]
+      "semantic": [
+        "agriculture"
+      ]
     },
     "created": "2026-03-28T16:19:49Z",
-    "modified": "2026-03-28T16:19:49Z"
+    "modified": "2026-09-02T04:01:58Z"
   }
 }

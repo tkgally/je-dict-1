@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "16849_koutsugou_ex1",
-      "japanese": "{好都合|こうつごう}なことに、{雨|あめ}が{止|や}んだ。",
+      "japanese": "{好都合|こうつごう}なこと⟦に→に：00314_ni⟧、⟦{雨|あめ}→雨：00583_ame⟧⟦が→が：00051_ga⟧⟦{止|や}んだ→止む：01153_yamu⟧。",
       "english": "Conveniently, the rain stopped.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "16849_koutsugou_ex2",
-      "japanese": "あなたに{好都合|こうつごう}な{日|ひ}を{教|おし}えてください。",
+      "japanese": "⟦あなた→あなた：02565_anata⟧⟦に→に：00314_ni⟧{好都合|こうつごう}な⟦{日|ひ}→日：02249_hi⟧⟦を→を：00422_wo⟧⟦{教|おし}えて→教える：00526_oshieru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please tell me a day that's convenient for you.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "16849_koutsugou_ex3",
-      "japanese": "{自分|じぶん}に{好都合|こうつごう}な{情報|じょうほう}だけを{選|えら}んで{信|しん}じるのは{危険|きけん}だ。",
+      "japanese": "⟦{自分|じぶん}→自分：02887_jibun⟧⟦に→に：00314_ni⟧{好都合|こうつごう}な⟦{情報|じょうほう}→情報：03348_jouhou⟧⟦だけ→〜だけ：03093_dake⟧⟦を→を：00422_wo⟧⟦{選|えら}んで→選ぶ：00835_erabu⟧⟦{信|しん}じる→信じる：01111_shinjiru⟧⟦の→の：09472_no⟧⟦は→は：00079_ha⟧⟦{危険|きけん}→危険：01141_kiken⟧だ。",
       "english": "It's dangerous to only believe information that's favorable to yourself.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "{好都合|こうつごう} describes a situation that works out favorably or conveniently. The kanji combine {好|こう} (good) + {都合|つごう} (circumstances).\n\nTWO NUANCES:\n1. Positive: things conveniently working out well ({好都合|こうつごう}なことに{雨|あめ}が{止|や}んだ})\n2. Critical: self-serving selection of facts ({自分|じぶん}に{好都合|こうつごう}な{情報|じょうほう}だけ{信|しん}じる)\n\nCOMMON PATTERNS:\n- {好都合|こうつごう}な{日|ひ}: a convenient day\n- {好都合|こうつごう}なことに: conveniently, fortunately\n- {自分|じぶん}に{好都合|こうつごう}な: convenient for oneself\n- {好都合|こうつごう}な{条件|じょうけん}: favorable conditions\n\nCONTRAST:\n- {不都合|ふつごう}: inconvenient, problematic (antonym)\n- {都合|つごう}がいい: convenient (more casual expression with similar meaning)",
+  "notes": "{好都合|こうつごう} describes a situation that works out favorably or conveniently. The kanji combine {好|こう} (good) + ⟦{都合|つごう}→都合：01672_tsugou⟧ (circumstances).\n\nTWO NUANCES:\n1. Positive: things conveniently working out well ({好都合|こうつごう}なこと⟦に→に：00314_ni⟧⟦{雨|あめ}→雨：00583_ame⟧⟦が→が：00051_ga⟧⟦{止|や}んだ→止む：01153_yamu⟧})\n2. Critical: self-serving selection of facts (⟦{自分|じぶん}→自分：02887_jibun⟧⟦に→に：00314_ni⟧{好都合|こうつごう}な⟦{情報|じょうほう}→情報：03348_jouhou⟧⟦だけ→〜だけ：03093_dake⟧⟦{信|しん}じる→信じる：01111_shinjiru⟧)\n\nCOMMON PATTERNS:\n- {好都合|こうつごう}な⟦{日|ひ}→日：02249_hi⟧: a convenient day\n- {好都合|こうつごう}なこと⟦に→に：00314_ni⟧: conveniently, fortunately\n- ⟦{自分|じぶん}→自分：02887_jibun⟧⟦に→に：00314_ni⟧{好都合|こうつごう}な: convenient for oneself\n- {好都合|こうつごう}な⟦{条件|じょうけん}→条件：03285_jouken⟧: favorable conditions\n\nSIMILAR WORDS:\n- ⟦{不都合|ふつごう}→不都合：19876_futsugou⟧: inconvenient, problematic (antonym)\n- ⟦{都合|つごう}がいい→都合がいい：22997_tsugougaii⟧: convenient (more casual expression with similar meaning)",
   "cross_references": [
     {
       "type": "antonym",
@@ -59,11 +59,25 @@
       "reading": "つごう",
       "headword": "{都合|つごう}",
       "label": "convenience"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22997_tsugougaii",
+      "reading": "つごうがいい",
+      "headword": "{都合|つごう}がいい",
+      "label": "convenient"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23135_tsugouyoku",
+      "reading": "つごうよく",
+      "headword": "{都合|つごう}よく",
+      "label": "conveniently"
     }
   ],
   "metadata": {
     "created": "2026-03-14T13:07:32Z",
-    "modified": "2026-05-05T05:04:25Z",
+    "modified": "2026-09-02T04:01:46Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

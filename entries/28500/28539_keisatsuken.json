@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28539_keisatsuken_ex1",
-      "japanese": "{警察犬|けいさつけん}が{出動|しゅつどう}した。",
+      "japanese": "{警察犬|けいさつけん}⟦が→が：00051_ga⟧⟦{出動|しゅつどう}→出動：28803_shutsudou⟧⟦した→する：00392_suru⟧。",
       "english": "A police dog was deployed.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28539_keisatsuken_ex2",
-      "japanese": "{警察犬|けいさつけん}が{犯人|はんにん}の{臭|にお}いを{追|お}っている。",
+      "japanese": "{警察犬|けいさつけん}⟦が→が：00051_ga⟧⟦{犯人|はんにん}→犯人：03572_hannin⟧⟦の→の：09472_no⟧{臭|にお}い⟦を→を：00422_wo⟧⟦{追|お}っている→追う：02016_ou⟧。",
       "english": "The police dog is following the suspect's scent.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28539_keisatsuken_ex3",
-      "japanese": "{山|やま}で{遭難|そうなん}した{登山者|とざんしゃ}を、{警察犬|けいさつけん}が{無事|ぶじ}に{発見|はっけん}した。",
+      "japanese": "⟦{山|やま}→山：02168_yama⟧⟦で→で：00502_de⟧⟦{遭難|そうなん}→遭難：09510_sounan⟧⟦した→する：00392_suru⟧⟦{登山者|とざんしゃ}→登山者：21318_tozansha⟧⟦を→を：00422_wo⟧、{警察犬|けいさつけん}⟦が→が：00051_ga⟧⟦{無事|ぶじ}→無事：01602_buji⟧⟦に→に：00314_ni⟧⟦{発見|はっけん}した→発見する：26929_hakkensuru⟧。",
       "english": "The police dog safely located the hiker who had gone missing on the mountain.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {警察|けいさつ} (police) + {犬|けん} (dog, on'yomi). Common breeds used in Japan include German shepherds and Labrador retrievers.\n\nCOMMON COLLOCATIONS:\n- {警察犬|けいさつけん}を{出動|しゅつどう}させる: to deploy a police dog\n- {警察犬|けいさつけん}が{臭|にお}いを{追|お}う: for a police dog to follow a scent\n- {警察犬|けいさつけん}の{訓練|くんれん}: police-dog training\n\nSIMILAR WORDS:\n- {盲導犬|もうどうけん}: guide dog (for the blind)\n- {麻薬|まやく}{探知|たんち}{犬|けん}: drug-detection dog — a more specialized term for one role of {警察犬|けいさつけん}\n- {救助|きゅうじょ}{犬|けん}: rescue dog — searches for survivors after disasters, often working alongside police",
+  "notes": "Compound of ⟦{警察|けいさつ}→警察：01393_keisatsu⟧ (police) + {犬|けん} (dog, on'yomi). Common breeds used in Japan include German shepherds and Labrador retrievers.\n\nCOMMON COLLOCATIONS:\n- {警察犬|けいさつけん}⟦を→を：00422_wo⟧⟦{出動|しゅつどう}→出動：28803_shutsudou⟧⟦させる→する：00392_suru⟧: to deploy a police dog\n- {警察犬|けいさつけん}⟦が→が：00051_ga⟧{臭|にお}い⟦を→を：00422_wo⟧⟦{追|お}う→追う：02016_ou⟧: for a police dog to follow a scent\n- {警察犬|けいさつけん}⟦の→の：09472_no⟧⟦{訓練|くんれん}→訓練：02673_kunren⟧: police-dog training\n\nSIMILAR WORDS:\n- ⟦{盲導犬|もうどうけん}→盲導犬：24240_moudouken⟧: guide dog (for the blind)\n- ⟦{麻薬|まやく}→麻薬：18796_mayaku⟧⟦{探知|たんち}→探知：20796_tanchi⟧{犬|けん}: drug-detection dog — a more specialized term for one role of {警察犬|けいさつけん}\n- ⟦{救助|きゅうじょ}→救助：02588_kyuujo⟧{犬|けん}: rescue dog — searches for survivors after disasters, often working alongside police",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24240_moudouken",
+      "reading": "もうどうけん",
+      "headword": "{盲導犬|もうどうけん}",
+      "label": "guide dog"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22378_banken",
+      "reading": "ばんけん",
+      "headword": "{番犬|ばんけん}",
+      "label": "guard dog"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +69,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "society",
         "animal-general"
@@ -61,6 +77,6 @@
       "domain": []
     },
     "created": "2026-06-01T04:07:37Z",
-    "modified": "2026-08-08T18:34:17Z"
+    "modified": "2026-09-02T04:02:34Z"
   }
 }

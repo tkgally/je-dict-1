@@ -3,7 +3,7 @@
   "headword": "{配分|はいぶん}する",
   "reading": "はいぶんする",
   "romaji": "haibunsuru",
-  "part_of_speech": "verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "to allot; to distribute; to allocate",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25541_haibunsuru_ex1",
-      "japanese": "{予算|よさん}を{配分|はいぶん}する。",
+      "japanese": "⟦{予算|よさん}→予算：03663_yosan⟧⟦を→を：00422_wo⟧{配分|はいぶん}する。",
       "english": "We allocate the budget.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25541_haibunsuru_ex2",
-      "japanese": "{利益|りえき}を{公平|こうへい}に{配分|はいぶん}する{方法|ほうほう}を{考|かんが}える。",
+      "japanese": "⟦{利益|りえき}→利益：03673_rieki⟧⟦を→を：00422_wo⟧⟦{公平|こうへい}→公平：01648_kouhei⟧⟦に→に：00314_ni⟧{配分|はいぶん}する⟦{方法|ほうほう}→方法：03621_houhou⟧⟦を→を：00422_wo⟧⟦{考|かんが}える→考える：00856_kangaeru⟧。",
       "english": "We think about how to distribute the profits fairly.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25541_haibunsuru_ex3",
-      "japanese": "{限|かぎ}られた{資源|しげん}をどう{配分|はいぶん}するかが{課題|かだい}だ。",
+      "japanese": "⟦{限|かぎ}られた→限る：02033_kagiru⟧⟦{資源|しげん}→資源：03167_shigen⟧⟦を→を：00422_wo⟧⟦どう→どう：00543_dou⟧{配分|はいぶん}する⟦か→か：09473_ka⟧⟦が→が：00051_ga⟧⟦{課題|かだい}→課題：00132_kadai⟧だ。",
       "english": "How to allocate limited resources is the challenge.",
       "sense_numbers": [
         1
@@ -44,8 +44,44 @@
       "notes": null
     }
   ],
-  "notes": "{配分|はいぶん}する means to divide up and assign shares of something — typically money, resources, time, or work. It implies a deliberate, planned distribution rather than casual sharing.\n\nCOMMON COLLOCATIONS:\n- {予算|よさん}を{配分|はいぶん}する: to allocate a budget\n- {資源|しげん}を{配分|はいぶん}する: to allocate resources\n- {利益|りえき}を{配分|はいぶん}する: to distribute profits\n- {配分|はいぶん}{比率|ひりつ}: allocation ratio\n- {適正|てきせい}な{配分|はいぶん}: appropriate allocation\n\nSIMILAR WORDS:\n- {分配|ぶんぱい}する: to distribute; to share out — very close synonym, but slightly more emphasis on the act of dividing and handing out\n- {割|わ}り{当|あ}てる: to assign; to allot — more specific, often used for assigning roles, tasks, or specific portions\n- {配布|はいふ}する: to distribute; to hand out — used for distributing printed materials or items to people",
-  "cross_references": [],
+  "notes": "{配分|はいぶん}する means to divide up and assign shares of something — typically money, resources, time, or work. It implies a deliberate, planned distribution rather than casual sharing.\n\nCOMMON COLLOCATIONS:\n- ⟦{予算|よさん}→予算：03663_yosan⟧⟦を→を：00422_wo⟧{配分|はいぶん}する: to allocate a budget\n- ⟦{資源|しげん}→資源：03167_shigen⟧⟦を→を：00422_wo⟧{配分|はいぶん}する: to allocate resources\n- ⟦{利益|りえき}→利益：03673_rieki⟧⟦を→を：00422_wo⟧{配分|はいぶん}する: to distribute profits\n- ⟦{配分|はいぶん}→配分：14495_haibun⟧⟦{比率|ひりつ}→比率：06727_hiritsu⟧: allocation ratio\n- ⟦{適正|てきせい}→適正：09686_tekisei⟧な⟦{配分|はいぶん}→配分：14495_haibun⟧: appropriate allocation\n\nSIMILAR WORDS:\n- ⟦{分配|ぶんぱい}する→分配する：21141_bunpaisuru⟧: to distribute; to share out — very close synonym, but slightly more emphasis on the act of dividing and handing out\n- ⟦{割|わ}り{当|あ}てる→割り当てる：11873_wariateru⟧: to assign; to allot — more specific, often used for assigning roles, tasks, or specific portions\n- ⟦{配布|はいふ}→配布：14410_haifu⟧⟦する→する：00392_suru⟧: to distribute; to hand out — used for distributing printed materials or items to people",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21141_bunpaisuru",
+      "reading": "ぶんぱいする",
+      "headword": "{分配|ぶんぱい}する",
+      "label": "to distribute"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11873_wariateru",
+      "reading": "わりあてる",
+      "headword": "{割|わ}り{当|あ}てる",
+      "label": "to assign"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14410_haifu",
+      "reading": "はいふ",
+      "headword": "{配布|はいふ}",
+      "label": "to distribute"
+    },
+    {
+      "type": "related",
+      "target_id": "08218_furiwakeru",
+      "reading": "ふりわける",
+      "headword": "{振|ふ}り{分|わ}ける",
+      "label": "to divide up"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20081_warifuru",
+      "reading": "わりふる",
+      "headword": "{割|わ}り{振|ふ}る",
+      "label": "to assign"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -54,6 +90,7 @@
         "noun",
         "verb-suru"
       ],
+      "politeness": "plain",
       "semantic": [
         "action",
         "economics"
@@ -62,7 +99,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-25T16:17:33Z",
-    "modified": "2026-04-25T16:17:33Z"
+    "modified": "2026-09-02T04:02:22Z"
   },
   "conjugation": {
     "type": "suru",

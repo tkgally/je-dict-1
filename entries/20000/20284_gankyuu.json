@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "20284_gankyuu_ex1",
-      "japanese": "{眼球|がんきゅう}を{動|うご}かす。",
+      "japanese": "{眼球|がんきゅう}⟦を→を：00422_wo⟧⟦{動|うご}かす→動かす：01885_ugokasu⟧。",
       "english": "To move one's eyeballs.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "20284_gankyuu_ex2",
-      "japanese": "{眼球|がんきゅう}の{構造|こうぞう}について{学|まな}んだ。",
+      "japanese": "{眼球|がんきゅう}⟦の→の：09472_no⟧⟦{構造|こうぞう}→構造：02730_kouzou⟧⟦について→〜について：03103_nitsuite⟧⟦{学|まな}んだ→学ぶ：01987_manabu⟧。",
       "english": "I learned about the structure of the eyeball.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "20284_gankyuu_ex3",
-      "japanese": "パソコンを{長時間|ちょうじかん}{使|つか}うと、{眼球|がんきゅう}が{乾|かわ}きやすくなる。",
+      "japanese": "⟦パソコン→パソコン：01538_pasokon⟧⟦を→を：00422_wo⟧⟦{長時間|ちょうじかん}→長時間：10165_choujikan⟧⟦{使|つか}う→使う：00473_tsukau⟧⟦と→と：00512_to⟧、{眼球|がんきゅう}⟦が→が：00051_ga⟧⟦{乾|かわ}き→乾く：00786_kawaku⟧やすく⟦なる→なる：01970_naru⟧。",
       "english": "Using a computer for long periods makes the eyeballs prone to drying out.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {眼|がん} (eye) + {球|きゅう} (ball, sphere). The standard term for the physical eyeball.\n\nUSAGE:\nUsed in both medical/scientific contexts and everyday language. More clinical than {目|め} (eye), which is the everyday word. {眼球|がんきゅう} specifically refers to the physical globe of the eye, while {目|め} can refer to the eye, eyesight, or vision more broadly.\n\nCOMMON COLLOCATIONS:\n- {眼球|がんきゅう}{運動|うんどう} — eye movement\n- {眼球|がんきゅう}が{乾|かわ}く — eyeballs dry out\n- {眼球|がんきゅう}の{表面|ひょうめん} — surface of the eyeball\n- {眼球|がんきゅう}を{動|うご}かす — to move one's eyeballs\n\nSIMILAR WORDS:\n- {目|め} — eye (everyday, broader usage)\n- {目玉|めだま} — eyeball (more colloquial; also means \"highlight\" or \"featured item\")\n- {瞳|ひとみ} — pupil, eye (poetic, often used for the iris/pupil area)",
+  "notes": "Compound of {眼|がん} (eye) + ⟦{球|きゅう}→球：28895_kyuu⟧ (ball, sphere). The standard term for the physical eyeball.\n\nUSAGE:\nUsed in both medical/scientific contexts and everyday language. More clinical than ⟦{目|め}→目：00525_me⟧ (eye), which is the everyday word. {眼球|がんきゅう} specifically refers to the physical globe of the eye, while ⟦{目|め}→目：00525_me⟧ can refer to the eye, eyesight, or vision more broadly.\n\nCOMMON COLLOCATIONS:\n- {眼球|がんきゅう}⟦{運動|うんどう}→運動：00821_undou⟧ — eye movement\n- {眼球|がんきゅう}⟦が→が：00051_ga⟧⟦{乾|かわ}く→乾く：00786_kawaku⟧ — eyeballs dry out\n- {眼球|がんきゅう}⟦の→の：09472_no⟧⟦{表面|ひょうめん}→表面：03587_hyoumen⟧ — surface of the eyeball\n- {眼球|がんきゅう}⟦を→を：00422_wo⟧⟦{動|うご}かす→動かす：01885_ugokasu⟧ — to move one's eyeballs\n\nSIMILAR WORDS:\n- ⟦{目|め}→目：00525_me⟧ — eye (everyday, broader usage)\n- ⟦{目玉|めだま}→目玉：13649_medama⟧ — eyeball (more colloquial; also means \"highlight\" or \"featured item\")\n- ⟦{瞳|ひとみ}→瞳：02252_hitomi⟧ — pupil, eye (poetic, often used for the iris/pupil area)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00525_me",
+      "reading": "め",
+      "headword": "{目|め}",
+      "label": "eye"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13649_medama",
+      "reading": "めだま",
+      "headword": "{目玉|めだま}",
+      "label": "eyeball (more colloquial"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02252_hitomi",
+      "reading": "ひとみ",
+      "headword": "{瞳|ひとみ}",
+      "label": "pupil, eye"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +83,6 @@
       ]
     },
     "created": "2026-03-28T19:22:15Z",
-    "modified": "2026-07-28T00:51:36Z"
+    "modified": "2026-09-02T04:01:59Z"
   }
 }

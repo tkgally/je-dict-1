@@ -3,7 +3,7 @@
   "headword": "{飽|あ}き{飽|あ}き",
   "reading": "あきあき",
   "romaji": "akiaki",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "being fed up; being sick and tired (of)",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "27968_akiaki_ex1",
-      "japanese": "この{仕事|しごと}には{飽|あ}き{飽|あ}きした。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{飽|あ}き{飽|あ}き⟦した→する：00392_suru⟧。",
       "english": "I'm sick and tired of this job.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "27968_akiaki_ex2",
-      "japanese": "{毎日|まいにち}{同|おな}じメニューで{飽|あ}き{飽|あ}きしている。",
+      "japanese": "⟦{毎日|まいにち}→毎日：00729_mainichi⟧⟦{同|おな}じ→同じ：02857_onaji⟧⟦メニュー→メニュー：11166_menyuu⟧⟦で→で：00502_de⟧{飽|あ}き{飽|あ}き⟦している→する：00392_suru⟧。",
       "english": "I'm fed up with the same menu every day.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "27968_akiaki_ex3",
-      "japanese": "{彼|かれ}の{自慢話|じまんばなし}にはみんな{飽|あ}き{飽|あ}きしているようだ。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧⟦{自慢話|じまんばなし}→自慢話：29001_jimanbanashi⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦みんな→みんな：02972_minna⟧{飽|あ}き{飽|あ}き⟦している→する：00392_suru⟧ようだ。",
       "english": "Everyone seems to be sick and tired of his bragging.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "An emphatic, reduplicated form of {飽|あ}きる expressing strong, exasperated boredom — much stronger than simply being a little bored. Almost always used with する: {飽|あ}き{飽|あ}きする.\n\nUSAGE:\n- The thing one is fed up with takes に: Xに{飽|あ}き{飽|あ}きする.\n- {飽|あ}き{飽|あ}きだ also occurs as a predicate: もう{飽|あ}き{飽|あ}きだ (I've had more than enough).\n\nSIMILAR WORDS:\n- {飽|あ}きる: to grow tired of — the plain verb, neutral and less emphatic\n- うんざり: fed up, disgusted — close in meaning, emphasizing exasperation",
+  "notes": "An emphatic, reduplicated form of ⟦{飽|あ}きる→飽きる：01815_akiru⟧ expressing strong, exasperated boredom — much stronger than simply being a little bored. Almost always used with ⟦する→する：00392_suru⟧: {飽|あ}き{飽|あ}き⟦する→する：00392_suru⟧.\n\nUSAGE:\n- The thing one is fed up with takes ⟦に→に：00314_ni⟧: X⟦に→に：00314_ni⟧{飽|あ}き{飽|あ}き⟦する→する：00392_suru⟧.\n- {飽|あ}き{飽|あ}きだ also occurs as a predicate: ⟦もう→もう：00602_mou⟧{飽|あ}き{飽|あ}きだ (I've had more than enough).\n\nSIMILAR WORDS:\n- ⟦{飽|あ}きる→飽きる：01815_akiru⟧: to grow tired of — the plain verb, neutral and less emphatic\n- ⟦うんざり→うんざり：04829_unzari⟧: fed up, disgusted — close in meaning, emphasizing exasperation",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01815_akiru",
+      "reading": "あきる",
+      "headword": "{飽|あ}きる",
+      "label": "to grow tired of"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04829_unzari",
+      "reading": "うんざり",
+      "headword": "うんざり",
+      "label": "fed up, disgusted"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20665_unzarisuru",
+      "reading": "うんざりする",
+      "headword": "うんざりする",
+      "label": "to be fed up"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,7 +85,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-23T04:06:38Z",
-    "modified": "2026-05-23T04:06:38Z"
+    "modified": "2026-09-02T04:02:32Z"
   },
   "conjugation": {
     "type": "suru",

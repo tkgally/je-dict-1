@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21587_seishinka_ex1",
-      "japanese": "{精神科|せいしんか}を{受診|じゅしん}した。",
+      "japanese": "{精神科|せいしんか}⟦を→を：00422_wo⟧⟦{受診|じゅしん}→受診：11890_jushin⟧⟦した→する：00392_suru⟧。",
       "english": "I visited the psychiatry department.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21587_seishinka_ex2",
-      "japanese": "{精神科|せいしんか}の{先生|せんせい}に{相談|そうだん}してみたらどうですか。",
+      "japanese": "{精神科|せいしんか}⟦の→の：09472_no⟧⟦{先生|せんせい}→先生：00609_sensei⟧⟦に→に：00314_ni⟧⟦{相談|そうだん}して→相談する：01845_soudansuru⟧みたら⟦どう→どう：00543_dou⟧です⟦か→か：09473_ka⟧。",
       "english": "How about consulting a psychiatrist?",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21587_seishinka_ex3",
-      "japanese": "{最近|さいきん}は{精神科|せいしんか}に{通|かよ}うことへの{抵抗感|ていこうかん}が{減|へ}ってきている。",
+      "japanese": "⟦{最近|さいきん}→最近：00881_saikin⟧⟦は→は：00079_ha⟧{精神科|せいしんか}⟦に→に：00314_ni⟧⟦{通|かよ}う→通う：01217_kayou⟧こと⟦へ→へ：02473_he⟧⟦の→の：09472_no⟧⟦{抵抗感|ていこうかん}→抵抗感：19364_teikoukan⟧⟦が→が：00051_ga⟧⟦{減|へ}って→減る：01985_heru⟧きて⟦いる→いる：00495_iru⟧。",
       "english": "Recently, the reluctance toward visiting a psychiatrist has been decreasing.",
       "sense_numbers": [
         1
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {精神|せいしん} (mind, spirit) and {科|か} (department, specialty). The standard term for the psychiatry department in Japanese hospitals and clinics.\n\nCOMMON COLLOCATIONS:\n- {精神科|せいしんか}を{受診|じゅしん}する: to visit a psychiatrist\n- {精神科|せいしんか}に{通|かよ}う: to attend psychiatric treatment regularly\n- {精神科|せいしんか}{医|い}: psychiatrist\n- {精神科|せいしんか}{病院|びょういん}: psychiatric hospital\n\nSIMILAR WORDS:\n- {心療|しんりょう}{内科|ないか}: psychosomatic medicine department — treats physical symptoms caused by psychological factors; often perceived as less stigmatized\n- {神経|しんけい}{科|か}: neurology department — treats neurological conditions (not psychiatric ones)\n- カウンセリング: counseling — talk therapy, not necessarily medical\n\nNOTE:\nIn Japan, some clinics use the name {心療|しんりょう}{内科|ないか} (psychosomatic medicine) instead of {精神科|せいしんか} to reduce the stigma associated with psychiatric care. Both departments may treat similar conditions like depression and anxiety.",
+  "notes": "Compound of ⟦{精神|せいしん}→精神：03377_seishin⟧ (mind, spirit) and {科|か} (department, specialty). The standard term for the psychiatry department in Japanese hospitals and clinics.\n\nCOMMON COLLOCATIONS:\n- {精神科|せいしんか}⟦を→を：00422_wo⟧⟦{受診|じゅしん}→受診：11890_jushin⟧⟦する→する：00392_suru⟧: to visit a psychiatrist\n- {精神科|せいしんか}⟦に→に：00314_ni⟧⟦{通|かよ}う→通う：01217_kayou⟧: to attend psychiatric treatment regularly\n- {精神科|せいしんか}{医|い}: psychiatrist\n- {精神科|せいしんか}⟦{病院|びょういん}→病院：00577_byouin⟧: psychiatric hospital\n\nSIMILAR WORDS:\n- ⟦{心療|しんりょう}{内科|ないか}→心療内科：30654_shinryounaika⟧: psychosomatic medicine department — treats physical symptoms caused by psychological factors; often perceived as less stigmatized\n- ⟦{神経|しんけい}{科|か}→神経科：28050_shinkeika⟧: neurology department — treats neurological conditions (not psychiatric ones)\n- ⟦カウンセリング→カウンセリング：10946_kaunseringu⟧: counseling — talk therapy, not necessarily medical\n\nUSAGE:\nIn Japan, some clinics use the name ⟦{心療|しんりょう}{内科|ないか}→心療内科：30654_shinryounaika⟧ (psychosomatic medicine) instead of {精神科|せいしんか} to reduce the stigma associated with psychiatric care. Both departments may treat similar conditions like depression and anxiety.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "30654_shinryounaika",
+      "reading": "しんりょうないか",
+      "headword": "{心療内科|しんりょうないか}",
+      "label": "psychosomatic medicine department"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28050_shinkeika",
+      "reading": "しんけいか",
+      "headword": "{神経科|しんけいか}",
+      "label": "neurology department"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10946_kaunseringu",
+      "reading": "かうんせりんぐ",
+      "headword": "カウンセリング",
+      "label": "counseling"
+    },
+    {
+      "type": "related",
+      "target_id": "18441_seishinshikkan",
+      "reading": "せいしんしっかん",
+      "headword": "{精神疾患|せいしんしっかん}",
+      "label": "mental illness"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +89,6 @@
       ]
     },
     "created": "2026-04-02T17:26:05Z",
-    "modified": "2026-07-29T12:35:11Z"
+    "modified": "2026-09-02T04:02:04Z"
   }
 }

@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "13803_ricchi_ex1",
-      "japanese": "{立地|りっち}が{良|よ}いマンションだ。",
+      "japanese": "{立地|りっち}⟦が→が：00051_ga⟧⟦{良|よ}い→良い：02350_yoi⟧⟦マンション→マンション：01035_manshon⟧だ。",
       "english": "It's an apartment with a good location.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "13803_ricchi_ex2",
-      "japanese": "{駅前|えきまえ}の{立地|りっち}を{活|い}かした{店舗|てんぽ}{展開|てんかい}をしている。",
+      "japanese": "⟦{駅前|えきまえ}→駅前：09593_ekimae⟧⟦の→の：09472_no⟧{立地|りっち}⟦を→を：00422_wo⟧⟦{活|い}かした→活かす：10422_ikasu⟧⟦{店舗|てんぽ}{展開|てんかい}→店舗展開：30574_tenpotenkai⟧⟦を→を：00422_wo⟧⟦している→する：00392_suru⟧。",
       "english": "They are expanding their stores, taking advantage of locations in front of stations.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "13803_ricchi_ex3",
-      "japanese": "{工場|こうじょう}の{立地|りっち}{条件|じょうけん}として、{交通|こうつう}の{便|べん}と{水源|すいげん}が{重要|じゅうよう}だ。",
+      "japanese": "⟦{工場|こうじょう}→工場：01082_koujou⟧⟦の→の：09472_no⟧{立地|りっち}⟦{条件|じょうけん}→条件：03285_jouken⟧⟦として→として：06802_toshite⟧、⟦{交通|こうつう}→交通：01584_koutsuu⟧⟦の→の：09472_no⟧⟦{便|べん}→便：26147_ben⟧⟦と→と：00512_to⟧⟦{水源|すいげん}→水源：09255_suigen⟧⟦が→が：00051_ga⟧⟦{重要|じゅうよう}→重要：01575_juuyou⟧だ。",
       "english": "Transportation access and water sources are important location requirements for factories.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,33 @@
       ]
     }
   ],
-  "notes": "USAGE:\nPrimarily used in real estate, business, and urban planning contexts. Often appears with {条件|じょうけん} (conditions) to discuss what makes a location suitable. Can also function as a suru verb: {立地|りっち}する (to be located/situated).\n\nCOMMON COLLOCATIONS:\n- {立地|りっち}が{良|よ}い: good location\n- {立地|りっち}{条件|じょうけん}: location requirements\n- {立地|りっち}を{活|い}かす: to take advantage of a location\n- {好|こう}{立地|りっち}: prime location\n\nSIMILAR WORDS:\n{場所|ばしょ} (place) is a general word for any location. {立地|りっち} specifically evaluates a location's strategic value for business, residence, or development.",
-  "cross_references": [],
+  "notes": "USAGE:\nPrimarily used in real estate, business, and urban planning contexts. Often appears with ⟦{条件|じょうけん}→条件：03285_jouken⟧ (conditions) to discuss what makes a location suitable. Can also function as a suru verb: {立地|りっち}⟦する→する：00392_suru⟧ (to be located/situated).\n\nCOMMON COLLOCATIONS:\n- {立地|りっち}⟦が→が：00051_ga⟧⟦{良|よ}い→良い：02350_yoi⟧: good location\n- {立地|りっち}⟦{条件|じょうけん}→条件：03285_jouken⟧: location requirements\n- {立地|りっち}⟦を→を：00422_wo⟧⟦{活|い}かす→活かす：10422_ikasu⟧: to take advantage of a location\n- {好|こう}{立地|りっち}: prime location\n\nSIMILAR WORDS:\n⟦{場所|ばしょ}→場所：00829_basho⟧ (place) is a general word for any location. {立地|りっち} specifically evaluates a location's strategic value for business, residence, or development.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00829_basho",
+      "reading": "ばしょ",
+      "headword": "{場所|ばしょ}",
+      "label": "place"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23972_shuuhenkankyou",
+      "reading": "しゅうへんかんきょう",
+      "headword": "{周辺|しゅうへん}{環境|かんきょう}",
+      "label": "surrounding environment"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24685_ichikankei",
+      "reading": "いちかんけい",
+      "headword": "{位置関係|いちかんけい}",
+      "label": "relative position"
+    }
+  ],
   "metadata": {
     "created": "2026-02-27T04:15:12Z",
-    "modified": "2026-03-29T03:07:35Z",
+    "modified": "2026-09-02T04:01:34Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

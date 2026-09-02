@@ -3,7 +3,7 @@
   "headword": "クリーン",
   "reading": "くりーん",
   "romaji": "kuriin",
-  "part_of_speech": "adjective",
+  "part_of_speech": "na-adjective",
   "gloss": "clean; pure; wholesome",
   "definitions": [
     {
@@ -15,41 +15,60 @@
   "examples": [
     {
       "id": "29734_kuriin_ex1",
-      "japanese": "クリーンな{電気|でんき}を{使|つか}う。",
+      "japanese": "クリーンな⟦{電気|でんき}→電気：09780_denki⟧⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧。",
       "english": "Use clean electricity.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29734_kuriin_ex2",
-      "japanese": "{部屋|へや}をクリーンに{保|たも}つ。",
+      "japanese": "⟦{部屋|へや}→部屋：00507_heya⟧⟦を→を：00422_wo⟧クリーン⟦に→に：00314_ni⟧⟦{保|たも}つ→保つ：10134_tamotsu⟧。",
       "english": "Keep the room clean.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29734_kuriin_ex3",
-      "japanese": "{太陽光|たいようこう}や{風力|ふうりょく}はクリーンなエネルギーとして{注目|ちゅうもく}されている。",
+      "japanese": "⟦{太陽光|たいようこう}→太陽光：06209_taiyoukou⟧や⟦{風力|ふうりょく}→風力：06432_fuuryoku⟧⟦は→は：00079_ha⟧クリーンな⟦エネルギー→エネルギー：03834_enerugii⟧⟦として→として：06802_toshite⟧⟦{注目|ちゅうもく}→注目：03483_chuumoku⟧⟦されている→する：00392_suru⟧。",
       "english": "Solar and wind power are drawing attention as clean energy.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A loanword from English \"clean,\" used as a na-adjective. Beyond the literal \"not dirty\" sense, it very often means \"non-polluting\" (of energy) or \"honest, free of corruption\" (of politics or conduct).\n\nCOMMON COLLOCATIONS:\n- クリーンなエネルギー: clean energy\n- クリーンな{政治|せいじ}: clean, corruption-free politics\n- クリーンなイメージ: a clean, wholesome image\n\nSIMILAR WORDS:\n- {清潔|せいけつ}な: clean, hygienic — a native word for literal cleanliness; クリーン adds the figurative \"non-polluting\" and \"honest\" senses",
+  "notes": "A loanword from English \"clean,\" used as a na-adjective. Beyond the literal \"not dirty\" sense, it very often means \"non-polluting\" (of energy) or \"honest, free of corruption\" (of politics or conduct).\n\nCOMMON COLLOCATIONS:\n- クリーンな⟦エネルギー→エネルギー：03834_enerugii⟧: clean energy\n- クリーンな⟦{政治|せいじ}→政治：01629_seiji⟧: clean, corruption-free politics\n- クリーンな⟦イメージ→イメージ：03832_imeeji⟧: a clean, wholesome image\n\nSIMILAR WORDS:\n- ⟦{清潔|せいけつ}→清潔：01583_seiketsu⟧な: clean, hygienic — a native word for literal cleanliness; クリーン adds the figurative \"non-polluting\" and \"honest\" senses",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01583_seiketsu",
+      "reading": "せいけつ",
+      "headword": "{清潔|せいけつ}",
+      "label": "clean, hygienic"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-na"],
+      "pos": [
+        "adjective-na"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["descriptive"],
+      "politeness": "plain",
+      "semantic": [
+        "descriptive"
+      ],
       "domain": []
     },
     "created": "2026-07-09T03:19:05Z",
-    "modified": "2026-07-09T03:19:05Z"
+    "modified": "2026-09-02T04:02:37Z"
   }
 }

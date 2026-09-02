@@ -3,7 +3,7 @@
   "headword": "{変身|へんしん}する",
   "reading": "へんしんする",
   "romaji": "henshinsuru",
-  "part_of_speech": "verb (suru)",
+  "part_of_speech": "suru verb",
   "gloss": "to transform; to change form; to disguise oneself",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25383_henshinsuru_ex1",
-      "japanese": "ヒーローに{変身|へんしん}する。",
+      "japanese": "⟦ヒーロー→ヒーロー：11262_hiiroo⟧⟦に→に：00314_ni⟧{変身|へんしん}する。",
       "english": "To transform into a hero.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25383_henshinsuru_ex2",
-      "japanese": "{彼女|かのじょ}は{化粧|けしょう}で{別人|べつじん}に{変身|へんしん}した。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧⟦{化粧|けしょう}→化粧：02699_keshou⟧⟦で→で：00502_de⟧⟦{別人|べつじん}→別人：11877_betsujin⟧⟦に→に：00314_ni⟧{変身|へんしん}した。",
       "english": "She transformed into a different person with makeup.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25383_henshinsuru_ex3",
-      "japanese": "{静|しず}かだった{商店街|しょうてんがい}が、イベントのおかげで{活気|かっき}ある{通|とお}りに{変身|へんしん}した。",
+      "japanese": "⟦{静|しず}か→静か：00755_shizuka⟧だった⟦{商店街|しょうてんがい}→商店街：09391_shoutengai⟧⟦が→が：00051_ga⟧、⟦イベント→イベント：09594_ibento⟧⟦の→の：09472_no⟧⟦おかげ→おかげ：01362_okage⟧⟦で→で：00502_de⟧⟦{活気|かっき}→活気：02554_kakki⟧⟦ある→ある：00006_aru⟧⟦{通|とお}り→通り：01475_toori⟧⟦に→に：00314_ni⟧{変身|へんしん}した。",
       "english": "The quiet shopping street transformed into a lively thoroughfare thanks to the event.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Implies a dramatic, often visual transformation rather than a gradual change. Strongly associated with tokusatsu (live-action special effects) shows like Kamen Rider, where the hero's catchphrase is {変身|へんしん}! In everyday use, describes striking makeovers or dramatic changes in character or atmosphere.\n\nCOMMON COLLOCATIONS:\n- {大|おお}{変身|へんしん}: dramatic transformation\n- {変身|へんしん}シーン: transformation scene\n- {変身|へんしん}ポーズ: transformation pose\n- {華麗|かれい}な{変身|へんしん}: glamorous transformation\n\nSIMILAR WORDS:\n- {変化|へんか}する: to change — more general and gradual, without the dramatic or visual connotation of {変身|へんしん}\n- {変装|へんそう}する: to disguise oneself — focuses specifically on changing one's outward appearance to conceal identity, while {変身|へんしん} implies becoming something different entirely",
+  "notes": "Implies a dramatic, often visual transformation rather than a gradual change. Strongly associated with tokusatsu (live-action special effects) shows like Kamen Rider, where the hero's catchphrase is ⟦{変身|へんしん}→変身：12099_henshin⟧! In everyday use, describes striking makeovers or dramatic changes in character or atmosphere.\n\nCOMMON COLLOCATIONS:\n- {大|おお}⟦{変身|へんしん}→変身：12099_henshin⟧: dramatic transformation\n- ⟦{変身|へんしん}→変身：12099_henshin⟧⟦シーン→シーン：08914_shiin⟧: transformation scene\n- ⟦{変身|へんしん}→変身：12099_henshin⟧⟦ポーズ→ポーズ：11268_poozu⟧: transformation pose\n- ⟦{華麗|かれい}→華麗：09199_karei⟧な⟦{変身|へんしん}→変身：12099_henshin⟧: glamorous transformation\n\nSIMILAR WORDS:\n- ⟦{変化|へんか}する→変化する：20997_henkasuru⟧: to change — more general and gradual, without the dramatic or visual connotation of ⟦{変身|へんしん}→変身：12099_henshin⟧\n- ⟦{変装|へんそう}する→変装する：25542_hensousuru⟧: to disguise oneself — focuses specifically on changing one's outward appearance to conceal identity, while ⟦{変身|へんしん}→変身：12099_henshin⟧ implies becoming something different entirely",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20997_henkasuru",
+      "reading": "へんかする",
+      "headword": "{変化|へんか}する",
+      "label": "to change"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25542_hensousuru",
+      "reading": "へんそうする",
+      "headword": "{変装|へんそう}する",
+      "label": "to disguise oneself"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11849_bakeru",
+      "reading": "ばける",
+      "headword": "{化|ば}ける",
+      "label": "to transform, to disguise oneself, to take the form of"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,7 +84,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-25T11:13:24Z",
-    "modified": "2026-04-25T11:13:24Z"
+    "modified": "2026-09-02T04:02:22Z"
   },
   "conjugation": {
     "type": "suru",

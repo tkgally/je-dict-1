@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22012_biryuushi_ex1",
-      "japanese": "{空気|くうき}{中|ちゅう}の{微粒子|びりゅうし}を{測定|そくてい}する。",
+      "japanese": "⟦{空気|くうき}→空気：01390_kuuki⟧⟦{中|ちゅう}→〜中：09840_chuu⟧⟦の→の：09472_no⟧{微粒子|びりゅうし}⟦を→を：00422_wo⟧⟦{測定|そくてい}→測定：04398_sokutei⟧⟦する→する：00392_suru⟧。",
       "english": "To measure fine particles in the air.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22012_biryuushi_ex2",
-      "japanese": "マスクは{微粒子|びりゅうし}の{侵入|しんにゅう}を{防|ふせ}ぐ。",
+      "japanese": "⟦マスク→マスク：05075_masuku⟧⟦は→は：00079_ha⟧{微粒子|びりゅうし}⟦の→の：09472_no⟧⟦{侵入|しんにゅう}→侵入：11440_shinnyuu⟧⟦を→を：00422_wo⟧⟦{防|ふせ}ぐ→防ぐ：02409_fusegu⟧。",
       "english": "Masks prevent the entry of fine particles.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22012_biryuushi_ex3",
-      "japanese": "{工場|こうじょう}から{排出|はいしゅつ}される{微粒子|びりゅうし}が{健康|けんこう}に{悪影響|あくえいきょう}を{及|およ}ぼすことが{研究|けんきゅう}で{明|あき}らかになった。",
+      "japanese": "⟦{工場|こうじょう}→工場：01082_koujou⟧⟦から→から：00504_kara⟧⟦{排出|はいしゅつ}される→排出する：25377_haishutsusuru⟧{微粒子|びりゅうし}⟦が→が：00051_ga⟧⟦{健康|けんこう}→健康：02706_kenkou⟧⟦に→に：00314_ni⟧⟦{悪影響|あくえいきょう}→悪影響：16840_akueikyou⟧⟦を→を：00422_wo⟧⟦{及|およ}ぼす→及ぼす：02028_oyobosu⟧こと⟦が→が：00051_ga⟧⟦{研究|けんきゅう}→研究：01396_kenkyuu⟧⟦で→で：00502_de⟧⟦{明|あき}らか→明らか：02351_akiraka⟧になった。",
       "english": "Research has revealed that fine particles emitted from factories have adverse effects on health.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {微|び} (fine; minute) and {粒子|りゅうし} (particle). Commonly encountered in discussions about air quality, pollution, and scientific research.\n\nCOMMON COLLOCATIONS:\n- {微粒子|びりゅうし}を{含|ふく}む: to contain fine particles\n- {微粒子|びりゅうし}を{除去|じょきょ}する: to remove fine particles\n- {大気|たいき}{中|ちゅう}の{微粒子|びりゅうし}: airborne fine particles\n- {微粒子|びりゅうし}{状|じょう}: in the form of fine particles\n\nSIMILAR WORDS:\n- {粒子|りゅうし}: particle — general term for particles of any size\n- PM2.5: particulate matter 2.5 — specific measure of fine airborne particles 2.5 micrometers or smaller\n- {粉塵|ふんじん}: dust; particulate matter — airborne dust and debris, especially in industrial settings\n- {花粉|かふん}: pollen — a specific type of airborne particle causing allergies",
+  "notes": "A compound of {微|び} (fine; minute) and ⟦{粒子|りゅうし}→粒子：14970_ryuushi⟧ (particle). Commonly encountered in discussions about air quality, pollution, and scientific research.\n\nCOMMON COLLOCATIONS:\n- {微粒子|びりゅうし}⟦を→を：00422_wo⟧⟦{含|ふく}む→含む：01982_fukumu⟧: to contain fine particles\n- {微粒子|びりゅうし}⟦を→を：00422_wo⟧⟦{除去|じょきょ}する→除去する：22368_jokyosuru⟧: to remove fine particles\n- ⟦{大気|たいき}→大気：03388_taiki⟧⟦{中|ちゅう}→〜中：09840_chuu⟧⟦の→の：09472_no⟧{微粒子|びりゅうし}: airborne fine particles\n- {微粒子|びりゅうし}⟦{状|じょう}→状：09878_jou⟧: in the form of fine particles\n\nSIMILAR WORDS:\n- ⟦{粒子|りゅうし}→粒子：14970_ryuushi⟧: particle — general term for particles of any size\n- PM2.5: particulate matter 2.5 — specific measure of fine airborne particles 2.5 micrometers or smaller\n- {粉塵|ふんじん}: dust; particulate matter — airborne dust and debris, especially in industrial settings\n- ⟦{花粉|かふん}→花粉：04372_kafun⟧: pollen — a specific type of airborne particle causing allergies",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04372_kafun",
+      "reading": "かふん",
+      "headword": "{花粉|かふん}",
+      "label": "pollen"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22218_funjin",
+      "reading": "ふんじん",
+      "headword": "{粉|ふん}じん",
+      "label": "dust"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +76,6 @@
       ]
     },
     "created": "2026-04-04T20:23:08Z",
-    "modified": "2026-07-30T03:35:34Z"
+    "modified": "2026-09-02T04:02:06Z"
   }
 }

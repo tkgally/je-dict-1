@@ -15,40 +15,66 @@
   "examples": [
     {
       "id": "19302_betsuryoukin_ex1",
-      "japanese": "ドリンクは{別料金|べつりょうきん}です。",
+      "japanese": "⟦ドリンク→ドリンク：23507_dorinku⟧⟦は→は：00079_ha⟧{別料金|べつりょうきん}です。",
       "english": "Drinks are charged separately.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19302_betsuryoukin_ex2",
-      "japanese": "Wi-Fiは{別料金|べつりょうきん}がかかります。",
+      "japanese": "Wi-Fi⟦は→は：00079_ha⟧{別料金|べつりょうきん}⟦が→が：00051_ga⟧⟦かかります→かかる：00711_kakaru⟧。",
       "english": "Wi-Fi costs extra.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19302_betsuryoukin_ex3",
-      "japanese": "{朝食|ちょうしょく}はプランに{含|ふく}まれていないので、{別料金|べつりょうきん}になります。",
+      "japanese": "⟦{朝食|ちょうしょく}→朝食：03122_choushoku⟧⟦は→は：00079_ha⟧⟦プラン→プラン：00345_puran⟧⟦に→に：00314_ni⟧⟦{含|ふく}まれていない→含む：01982_fukumu⟧⟦の→の：09472_no⟧で、{別料金|べつりょうきん}⟦に→に：00314_ni⟧⟦なります→なる：01970_naru⟧。",
       "english": "Breakfast is not included in the plan, so there will be an additional charge.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A practical term frequently seen on menus, hotel listings, and service descriptions. Indicates that something costs extra beyond the standard price.\n\nCOMMON COLLOCATIONS:\n- {別料金|べつりょうきん}がかかる — an extra charge applies\n- {別料金|べつりょうきん}になる — to be charged separately\n- {別料金|べつりょうきん}で — for an additional fee\n\nSIMILAR WORDS:\n- {追加料金|ついかりょうきん}: additional charge — very similar, but emphasizes that something is being added on top\n- {有料|ゆうりょう}: paid, not free — states that something costs money, without specifying that it is separate from another charge",
+  "notes": "A practical term frequently seen on menus, hotel listings, and service descriptions. Indicates that something costs extra beyond the standard price.\n\nCOMMON COLLOCATIONS:\n- {別料金|べつりょうきん}⟦が→が：00051_ga⟧⟦かかる→かかる：00711_kakaru⟧ — an extra charge applies\n- {別料金|べつりょうきん}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧ — to be charged separately\n- {別料金|べつりょうきん}⟦で→で：00502_de⟧ — for an additional fee\n\nSIMILAR WORDS:\n- ⟦{追加料金|ついかりょうきん}→追加料金：22313_tsuikaryoukin⟧: additional charge — very similar, but emphasizes that something is being added on top\n- ⟦{有料|ゆうりょう}→有料：03178_yuuryou⟧: paid, not free — states that something costs money, without specifying that it is separate from another charge",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22313_tsuikaryoukin",
+      "reading": "ついかりょうきん",
+      "headword": "{追加|ついか}{料金|りょうきん}",
+      "label": "additional charge"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03178_yuuryou",
+      "reading": "ゆうりょう",
+      "headword": "{有料|ゆうりょう}",
+      "label": "paid, not free"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["money"]
+      "semantic": [
+        "money"
+      ]
     },
     "created": "2026-03-25T06:05:43Z",
-    "modified": "2026-03-25T06:05:43Z"
+    "modified": "2026-09-02T04:01:55Z"
   }
 }

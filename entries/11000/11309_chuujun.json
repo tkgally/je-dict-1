@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "11309_chuujun_ex1",
-      "japanese": "3{月|がつ}{中旬|ちゅうじゅん}に{届|とど}く{予定|よてい}です。",
+      "japanese": "3⟦{月|がつ}→月：30418_gatsu⟧{中旬|ちゅうじゅん}⟦に→に：00314_ni⟧⟦{届|とど}く→届く：00899_todoku⟧⟦{予定|よてい}→予定：00824_yotei⟧です。",
       "english": "It's expected to arrive in mid-March.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "11309_chuujun_ex2",
-      "japanese": "{桜|さくら}は4{月|がつ}{中旬|ちゅうじゅん}に{満開|まんかい}になる。",
+      "japanese": "⟦{桜|さくら}→桜：02212_sakura⟧⟦は→は：00079_ha⟧4⟦{月|がつ}→月：30418_gatsu⟧{中旬|ちゅうじゅん}⟦に→に：00314_ni⟧⟦{満開|まんかい}→満開：13319_mankai⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧。",
       "english": "The cherry blossoms reach full bloom around mid-April.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "11309_chuujun_ex3",
-      "japanese": "{来月|らいげつ}{中旬|ちゅうじゅん}までに{報告書|ほうこくしょ}を{提出|ていしゅつ}してください。",
+      "japanese": "⟦{来月|らいげつ}→来月：00744_raigetsu⟧{中旬|ちゅうじゅん}⟦まで→まで：00490_made⟧⟦に→に：00314_ni⟧⟦{報告書|ほうこくしょ}→報告書：06744_houkokusho⟧⟦を→を：00422_wo⟧⟦{提出|ていしゅつ}して→提出する：19644_teishutsusuru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please submit the report by the middle of next month.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "Japanese divides each month into three ten-day periods:\n\n- {上旬|じょうじゅん} (first ten days, roughly 1st-10th)\n- {中旬|ちゅうじゅん} (middle ten days, roughly 11th-20th)\n- {下旬|げじゅん} (last ten days, roughly 21st-end)\n\nCOMMON PATTERNS:\n- ～{月|がつ}{中旬|ちゅうじゅん} (mid-[month])\n- {中旬|ちゅうじゅん}ごろ (around mid-month)\n- {中旬|ちゅうじゅん}から{下旬|げじゅん}にかけて (from mid to late month)\n\nThis system is commonly used in weather forecasts, delivery estimates, event planning, and seasonal descriptions.",
+  "notes": "Japanese divides each month into three ten-day periods:\n\n- ⟦{上旬|じょうじゅん}→上旬：17767_joujun⟧ (first ten days, roughly 1st-10th)\n- {中旬|ちゅうじゅん} (middle ten days, roughly 11th-20th)\n- ⟦{下旬|げじゅん}→下旬：00062_gejun⟧ (last ten days, roughly 21st-end)\n\nCOMMON PATTERNS:\n- ～⟦{月|がつ}→月：30418_gatsu⟧{中旬|ちゅうじゅん} (mid-[month])\n- {中旬|ちゅうじゅん}ごろ (around mid-month)\n- {中旬|ちゅうじゅん}⟦から→から：00504_kara⟧⟦{下旬|げじゅん}→下旬：00062_gejun⟧⟦にかけて→〜にかけて：30530_nikakete⟧ (from mid to late month)\n\nThis system is commonly used in weather forecasts, delivery estimates, event planning, and seasonal descriptions.",
   "cross_references": [
     {
       "type": "related",
@@ -73,11 +73,18 @@
       "reading": "なかば",
       "headword": "{半|なか}ば",
       "label": "mid-month (everyday equivalent)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27355_tsukinakaba",
+      "reading": "つきなかば",
+      "headword": "{月|つき}{半|なか}ば",
+      "label": "middle of the month"
     }
   ],
   "metadata": {
     "created": "2026-02-15T22:39:42Z",
-    "modified": "2026-08-14T03:24:03Z",
+    "modified": "2026-09-02T04:01:24Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

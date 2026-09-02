@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "17404_heisha_ex1",
-      "japanese": "{弊社|へいしゃ}の{製品|せいひん}をご{利用|りよう}いただきありがとうございます。",
+      "japanese": "{弊社|へいしゃ}⟦の→の：09472_no⟧⟦{製品|せいひん}→製品：01445_seihin⟧⟦を→を：00422_wo⟧ご⟦{利用|りよう}→利用：01752_riyou⟧⟦いただき→いただく：01326_itadaku⟧⟦ありがとうございます→ありがとうございます：09886_arigatougozaimasu⟧。",
       "english": "Thank you for using our company's products.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "17404_heisha_ex2",
-      "japanese": "{弊社|へいしゃ}では{来月|らいげつ}から{新|あたら}しいサービスを{開始|かいし}いたします。",
+      "japanese": "{弊社|へいしゃ}⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{来月|らいげつ}→来月：00744_raigetsu⟧⟦から→から：00504_kara⟧⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦サービス→サービス：01531_saabisu⟧⟦を→を：00422_wo⟧⟦{開始|かいし}→開始：02537_kaishi⟧⟦いたします→いたす：01314_itasu⟧。",
       "english": "Our company will begin a new service starting next month.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "17404_heisha_ex3",
-      "japanese": "ご{不明|ふめい}な{点|てん}がございましたら、{弊社|へいしゃ}までお{問|と}い{合|あ}わせください。",
+      "japanese": "ご⟦{不明|ふめい}→不明：11352_fumei⟧な⟦{点|てん}→点：01553_ten⟧⟦が→が：00051_ga⟧⟦ございましたら→ございます：01300_gozaimasu⟧、{弊社|へいしゃ}⟦まで→まで：00490_made⟧お⟦{問|と}い{合|あ}わせ→問い合わせる：17737_toiawaseru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "If you have any questions, please contact our company.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA humble ({謙譲語|けんじょうご}) term used exclusively in business contexts when referring to one's own company to outsiders. Essential in business emails, letters, and formal meetings. Never used for someone else's company.\n\nSIMILAR WORDS:\n- {当社|とうしゃ}: our company — neutral/formal, used in internal documents or press releases. Less humble than {弊社|へいしゃ}\n- {御社|おんしゃ}: your company — the honorific counterpart, used when addressing someone else's company in writing\n- {貴社|きしゃ}: your company — honorific, used in formal writing (more formal than {御社|おんしゃ})\n\nCOMMON COLLOCATIONS:\n- {弊社|へいしゃ}の{製品|せいひん} (our company's products)\n- {弊社|へいしゃ}では (at our company)\n- {弊社|へいしゃ}まで (to our company)",
+  "notes": "USAGE:\nA humble (⟦{謙譲語|けんじょうご}→謙譲語：15869_kenjougo⟧) term used exclusively in business contexts when referring to one's own company to outsiders. Essential in business emails, letters, and formal meetings. Never used for someone else's company.\n\nSIMILAR WORDS:\n- ⟦{当社|とうしゃ}→当社：22449_tousha⟧: our company — neutral/formal, used in internal documents or press releases. Less humble than {弊社|へいしゃ}\n- ⟦{御社|おんしゃ}→御社：17179_onsha⟧: your company — the honorific counterpart, used when addressing someone else's company in writing\n- ⟦{貴社|きしゃ}→貴社：15664_kisha⟧: your company — honorific, used in formal writing (more formal than ⟦{御社|おんしゃ}→御社：17179_onsha⟧)\n\nCOMMON COLLOCATIONS:\n- {弊社|へいしゃ}⟦の→の：09472_no⟧⟦{製品|せいひん}→製品：01445_seihin⟧ (our company's products)\n- {弊社|へいしゃ}⟦で→で：00502_de⟧⟦は→は：00079_ha⟧ (at our company)\n- {弊社|へいしゃ}⟦まで→まで：00490_made⟧ (to our company)",
   "cross_references": [
     {
       "type": "keigo",
@@ -52,11 +52,53 @@
       "reading": "おんしゃ",
       "headword": "{御社|おんしゃ}",
       "label": "honorific"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15664_kisha",
+      "reading": "きしゃ",
+      "headword": "{貴社|きしゃ}",
+      "label": "your company"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12613_touhou",
+      "reading": "とうほう",
+      "headword": "{当方|とうほう}",
+      "label": "we, our side, this party"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14070_jisha",
+      "reading": "じしゃ",
+      "headword": "{自社|じしゃ}",
+      "label": "one's own company"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20354_watashidomo",
+      "reading": "わたしども",
+      "headword": "{私|わたし}{共|ども}",
+      "label": "we"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22787_watakushidomo",
+      "reading": "わたくしども",
+      "headword": "{私|わたくし}ども",
+      "label": "we"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24279_shousha",
+      "reading": "しょうしゃ",
+      "headword": "{小社|しょうしゃ}",
+      "label": "our company (humble)"
     }
   ],
   "metadata": {
     "created": "2026-03-17T10:34:13Z",
-    "modified": "2026-07-23T19:02:37Z",
+    "modified": "2026-09-02T04:01:48Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

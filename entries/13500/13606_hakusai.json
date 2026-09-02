@@ -15,41 +15,60 @@
   "examples": [
     {
       "id": "13606_hakusai_ex1",
-      "japanese": "{鍋|なべ}に{白菜|はくさい}を{入|い}れた。",
+      "japanese": "⟦{鍋|なべ}→鍋：01038_nabe⟧⟦に→に：00314_ni⟧{白菜|はくさい}⟦を→を：00422_wo⟧⟦{入|い}れた→入れる：01098_ireru⟧。",
       "english": "I put Chinese cabbage in the hot pot.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13606_hakusai_ex2",
-      "japanese": "{冬|ふゆ}は{白菜|はくさい}が{甘|あま}くなって{美味|おい}しい。",
+      "japanese": "⟦{冬|ふゆ}→冬：00623_fuyu⟧⟦は→は：00079_ha⟧{白菜|はくさい}⟦が→が：00051_ga⟧⟦{甘|あま}く→甘い：00617_amai⟧⟦なって→なる：01970_naru⟧⟦{美味|おい}しい→美味しい：00740_oishii⟧。",
       "english": "In winter, Chinese cabbage becomes sweet and delicious.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13606_hakusai_ex3",
-      "japanese": "{白菜|はくさい}と{豚肉|ぶたにく}のミルフィーユ{鍋|なべ}は、{材料|ざいりょう}を{交互|こうご}に{重|かさ}ねるだけで{簡単|かんたん}に{作|つく}れる{人気|にんき}レシピだ。",
+      "japanese": "{白菜|はくさい}⟦と→と：00512_to⟧⟦{豚肉|ぶたにく}→豚肉：02956_butaniku⟧⟦の→の：09472_no⟧ミルフィーユ⟦{鍋|なべ}→鍋：01038_nabe⟧⟦は→は：00079_ha⟧、⟦{材料|ざいりょう}→材料：02831_zairyou⟧⟦を→を：00422_wo⟧⟦{交互|こうご}→交互：16076_kougo⟧⟦に→に：00314_ni⟧⟦{重|かさ}ねる→重ねる：02039_kasaneru⟧⟦だけ→〜だけ：03093_dake⟧⟦で→で：00502_de⟧⟦{簡単|かんたん}→簡単：00713_kantan⟧⟦に→に：00314_ni⟧⟦{作|つく}れる→作る：00481_tsukuru⟧⟦{人気|にんき}→人気：01488_ninki⟧⟦レシピ→レシピ：07157_reshipi⟧だ。",
       "english": "Mille-feuille hot pot with Chinese cabbage and pork is a popular recipe that can be made easily by just layering the ingredients alternately.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nOne of the most common vegetables in Japanese home cooking, especially during the colder months. {白菜|はくさい} is the quintessential {鍋|なべ} (hot pot) ingredient and is also widely used for {漬物|つけもの} (pickles). The Korean equivalent, kimchi ({キムチ}), also uses this vegetable.\n\nETYMOLOGY:\nLiterally \"white vegetable\" — {白|はく} (white) + {菜|さい} (vegetable). Named for the white stems and pale inner leaves.\n\nCOMMON COLLOCATIONS:\n- {白菜|はくさい}の{漬物|つけもの}: Chinese cabbage pickles\n- {白菜|はくさい}{鍋|なべ}: Chinese cabbage hot pot\n- {白菜|はくさい}を{切|き}る: cut Chinese cabbage\n- {白菜|はくさい}キムチ: Chinese cabbage kimchi",
-  "cross_references": [],
+  "notes": "USAGE:\nOne of the most common vegetables in Japanese home cooking, especially during the colder months. {白菜|はくさい} is the quintessential ⟦{鍋|なべ}→鍋：01038_nabe⟧ (hot pot) ingredient and is also widely used for ⟦{漬物|つけもの}→漬物：04938_tsukemono⟧ (pickles). The Korean equivalent, kimchi (⟦キムチ→キムチ：10838_kimuchi⟧), also uses this vegetable.\n\nETYMOLOGY:\nLiterally \"white vegetable\" — {白|はく} (white) + {菜|さい} (vegetable). Named for the white stems and pale inner leaves.\n\nCOMMON COLLOCATIONS:\n- {白菜|はくさい}⟦の→の：09472_no⟧⟦{漬物|つけもの}→漬物：04938_tsukemono⟧: Chinese cabbage pickles\n- {白菜|はくさい}⟦{鍋|なべ}→鍋：01038_nabe⟧: Chinese cabbage hot pot\n- {白菜|はくさい}⟦を→を：00422_wo⟧⟦{切|き}る→切る：02693_kiru⟧: cut Chinese cabbage\n- {白菜|はくさい}⟦キムチ→キムチ：10838_kimuchi⟧: Chinese cabbage kimchi",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "19785_aburana",
+      "reading": "あぶらな",
+      "headword": "{油菜|あぶらな}",
+      "label": "rapeseed"
+    }
+  ],
   "metadata": {
     "created": "2026-02-26T09:55:31Z",
-    "modified": "2026-02-26T09:55:31Z",
+    "modified": "2026-09-02T04:01:33Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food", "plant-general"]
+      "semantic": [
+        "food",
+        "plant-general"
+      ]
     }
   }
 }

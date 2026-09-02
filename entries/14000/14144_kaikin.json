@@ -3,7 +3,7 @@
   "id": "14144_kaikin",
   "headword": "{解禁|かいきん}",
   "reading": "かいきん",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "lifting a ban, opening (of a season)",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "14144_kaikin_ex1",
-      "japanese": "{鮎|あゆ}{釣|つ}りが{解禁|かいきん}された。",
+      "japanese": "{鮎|あゆ}⟦{釣|つ}り→釣り：03439_tsuri⟧⟦が→が：00051_ga⟧{解禁|かいきん}⟦された→する：00392_suru⟧。",
       "english": "Sweetfish fishing season has opened.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "14144_kaikin_ex2",
-      "japanese": "{新曲|しんきょく}の{情報|じょうほう}が{解禁|かいきん}になった。",
+      "japanese": "⟦{新曲|しんきょく}→新曲：12983_shinkyoku⟧⟦の→の：09472_no⟧⟦{情報|じょうほう}→情報：03348_jouhou⟧⟦が→が：00051_ga⟧{解禁|かいきん}になった。",
       "english": "Information about the new song has been released.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "14144_kaikin_ex3",
-      "japanese": "ボジョレー・ヌーボーの{解禁|かいきん}{日|び}は{毎年|まいとし}11{月|がつ}の{第|だい}3{木曜日|もくようび}だ。",
+      "japanese": "ボジョレー・ヌーボー⟦の→の：09472_no⟧{解禁|かいきん}{日|び}⟦は→は：00079_ha⟧⟦{毎年|まいとし}→毎年：00731_maitoshi⟧11⟦{月|がつ}→月：30418_gatsu⟧⟦の→の：09472_no⟧⟦{第|だい}→第〜：03960_dai⟧3⟦{木曜日|もくようび}→木曜日：00653_mokuyoubi⟧だ。",
       "english": "The release date for Beaujolais Nouveau is the third Thursday of November every year.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{解禁|かいきん} originally referred to the official lifting of a legal ban, particularly the opening of fishing or hunting seasons. In modern usage, it is widely used in entertainment and media for the release or unveiling of information, products, or content — similar to English \"embargo lifted\" or \"now available.\" The opposite is {禁止|きんし} (prohibition).\n\nCOMMON COLLOCATIONS:\n- {解禁|かいきん}する: to lift a ban\n- {解禁|かいきん}になる: a ban is lifted\n- {解禁|かいきん}{日|び}: release date, opening day\n- {情報|じょうほう}{解禁|かいきん}: information release/embargo lift\n- {漁|りょう}{解禁|かいきん}: opening of fishing season",
+  "notes": "USAGE:\n{解禁|かいきん} originally referred to the official lifting of a legal ban, particularly the opening of fishing or hunting seasons. In modern usage, it is widely used in entertainment and media for the release or unveiling of information, products, or content — similar to English \"embargo lifted\" or \"now available.\" The opposite is ⟦{禁止|きんし}→禁止：02643_kinshi⟧ (prohibition).\n\nCOMMON COLLOCATIONS:\n- {解禁|かいきん}⟦する→する：00392_suru⟧: to lift a ban\n- {解禁|かいきん}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧: a ban is lifted\n- {解禁|かいきん}{日|び}: release date, opening day\n- ⟦{情報|じょうほう}→情報：03348_jouhou⟧{解禁|かいきん}: information release/embargo lift\n- {漁|りょう}{解禁|かいきん}: opening of fishing season",
   "cross_references": [
     {
       "type": "antonym",
@@ -142,11 +142,18 @@
       "reading": "きんし",
       "headword": "{禁止|きんし}",
       "label": "prohibition"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24885_kinshikaijo",
+      "reading": "きんしかいじょ",
+      "headword": "{禁止解除|きんしかいじょ}",
+      "label": "lifting a ban"
     }
   ],
   "metadata": {
     "created": "2026-02-28T01:21:46Z",
-    "modified": "2026-04-30T04:29:16Z",
+    "modified": "2026-09-02T04:01:36Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

@@ -2,7 +2,7 @@
   "id": "10034_kuntou",
   "headword": "{薫陶|くんとう}",
   "reading": "くんとう",
-  "part_of_speech": "noun, suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "education, influence, cultivation",
   "conjugation": {
     "type": "suru",
@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "10034_kuntou_ex1",
-      "japanese": "{師|し}の{薫陶|くんとう}を{受|う}ける。",
+      "japanese": "{師|し}⟦の→の：09472_no⟧{薫陶|くんとう}⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧。",
       "english": "To receive guidance from one's teacher.",
       "sense_numbers": [
         1
@@ -114,7 +114,7 @@
     },
     {
       "id": "10034_kuntou_ex2",
-      "japanese": "{長年|ながねん}の{薫陶|くんとう}が{実|みの}った。",
+      "japanese": "⟦{長年|ながねん}→長年：09684_naganen⟧⟦の→の：09472_no⟧{薫陶|くんとう}⟦が→が：00051_ga⟧⟦{実|みの}った→実る：00282_minoru⟧。",
       "english": "Years of cultivation have borne fruit.",
       "sense_numbers": [
         1
@@ -124,7 +124,7 @@
     },
     {
       "id": "10034_kuntou_ex3",
-      "japanese": "{彼|かれ}は{先代|せんだい}{社長|しゃちょう}の{薫陶|くんとう}を{受|う}けて{育|そだ}った。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{先代|せんだい}→先代：14793_sendai⟧⟦{社長|しゃちょう}→社長：01428_shachou⟧⟦の→の：09472_no⟧{薫陶|くんとう}⟦を→を：00422_wo⟧⟦{受|う}けて→受ける：01215_ukeru⟧⟦{育|そだ}った→育つ：01951_sodatsu⟧。",
       "english": "He was raised under the guidance of the former president.",
       "sense_numbers": [
         1
@@ -134,7 +134,7 @@
     },
     {
       "id": "10034_kuntou_ex4",
-      "japanese": "{若手|わかて}を{薫陶|くんとう}して{後継者|こうけいしゃ}を{育|そだ}てる。",
+      "japanese": "⟦{若手|わかて}→若手：13989_wakate⟧⟦を→を：00422_wo⟧{薫陶|くんとう}⟦して→する：00392_suru⟧⟦{後継者|こうけいしゃ}→後継者：12592_koukeisha⟧⟦を→を：00422_wo⟧⟦{育|そだ}てる→育てる：01235_sodateru⟧。",
       "english": "To nurture young people and develop successors.",
       "sense_numbers": [
         1
@@ -143,11 +143,33 @@
       "notes": null
     }
   ],
-  "notes": "{薫陶|くんとう} refers to moral education through personal influence.\n\nETYMOLOGY:\nFrom {薫|くん} (fragrance, to perfume) and {陶|とう} (pottery, to mold). The word evokes the image of gradually shaping someone's character like a potter shapes clay while imbuing it with fragrance.\n\nUSAGE:\n- {薫陶|くんとう}する: to educate, to cultivate (suru-verb)\n- {薫陶|くんとう}を{受|う}ける: to receive guidance/cultivation\n- 〜の{薫陶|くんとう}を{受|う}けて: under the influence/guidance of\n\nREGISTER:\nFormal and literary; often used in formal speeches or writing about mentorship.\n\nRELATED:\n- {教育|きょういく}: education (more general)\n- {指導|しどう}: instruction, guidance\n- {感化|かんか}: influence, inspiration",
-  "cross_references": [],
+  "notes": "{薫陶|くんとう} refers to moral education through personal influence.\n\nETYMOLOGY:\nFrom {薫|くん} (fragrance, to perfume) and {陶|とう} (pottery, to mold). The word evokes the image of gradually shaping someone's character like a potter shapes clay while imbuing it with fragrance.\n\nUSAGE:\n- {薫陶|くんとう}⟦する→する：00392_suru⟧: to educate, to cultivate (suru-verb)\n- {薫陶|くんとう}⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧: to receive guidance/cultivation\n- 〜⟦の→の：09472_no⟧{薫陶|くんとう}⟦を→を：00422_wo⟧⟦{受|う}けて→受ける：01215_ukeru⟧: under the influence/guidance of\n\nREGISTER:\nFormal and literary; often used in formal speeches or writing about mentorship.\n\nRELATED WORDS:\n- ⟦{教育|きょういく}→教育：01313_kyouiku⟧: education (more general)\n- ⟦{指導|しどう}→指導：03190_shidou⟧: instruction, guidance\n- ⟦{感化|かんか}→感化：16098_kanka⟧: influence, inspiration",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "01313_kyouiku",
+      "reading": "きょういく",
+      "headword": "{教育|きょういく}",
+      "label": "education"
+    },
+    {
+      "type": "related",
+      "target_id": "03190_shidou",
+      "reading": "しどう",
+      "headword": "{指導|しどう}",
+      "label": "instruction, guidance"
+    },
+    {
+      "type": "related",
+      "target_id": "16098_kanka",
+      "reading": "かんか",
+      "headword": "{感化|かんか}",
+      "label": "influence, inspiration"
+    }
+  ],
   "metadata": {
     "created": "2026-02-04T14:18:11Z",
-    "modified": "2026-03-29T03:07:35Z",
+    "modified": "2026-09-02T04:01:19Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -161,7 +183,8 @@
         "education",
         "interpersonal"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

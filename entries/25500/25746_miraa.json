@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25746_miraa_ex1",
-      "japanese": "ミラーで{顔|かお}を{確認|かくにん}した。",
+      "japanese": "ミラー⟦で→で：00502_de⟧⟦{顔|かお}→顔：00558_kao⟧⟦を→を：00422_wo⟧⟦{確認|かくにん}した→確認する：25332_kakuninsuru⟧。",
       "english": "I checked my face in the mirror.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25746_miraa_ex2",
-      "japanese": "{車|くるま}のサイドミラーが{割|わ}れてしまった。",
+      "japanese": "⟦{車|くるま}→車：00516_kuruma⟧⟦の→の：09472_no⟧サイドミラー⟦が→が：00051_ga⟧⟦{割|わ}れて→割れる：00907_wareru⟧しまった。",
       "english": "The car's side mirror cracked.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25746_miraa_ex3",
-      "japanese": "{駐車場|ちゅうしゃじょう}の{曲|ま}がり{角|かど}にカーブミラーが{設置|せっち}されていて、{見通|みとお}しの{悪|わる}い{場所|ばしょ}でも{安全|あんぜん}に{通|とお}れる。",
+      "japanese": "⟦{駐車場|ちゅうしゃじょう}→駐車場：01667_chuushajou⟧⟦の→の：09472_no⟧⟦{曲|ま}がり{角|かど}→曲がり角：09386_magarikado⟧⟦に→に：00314_ni⟧カーブミラー⟦が→が：00051_ga⟧⟦{設置|せっち}→設置：09750_secchi⟧⟦されていて→する：00392_suru⟧、⟦{見通|みとお}し→見通し：10566_mitooshi⟧⟦の→の：09472_no⟧⟦{悪|わる}い→悪い：00908_warui⟧⟦{場所|ばしょ}→場所：00829_basho⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧⟦{安全|あんぜん}→安全：01131_anzen⟧⟦に→に：00314_ni⟧⟦{通|とお}れる→通る：01243_tooru⟧。",
       "english": "A convex mirror is installed at the curve in the parking lot, so you can pass safely even in spots with poor visibility.",
       "sense_numbers": [
         1
@@ -44,20 +44,45 @@
       "notes": null
     }
   ],
-  "notes": "From English \"mirror.\" In Japanese, ミラー is used particularly for functional or technical mirrors (vehicle mirrors, security mirrors, dental mirrors), while {鏡|かがみ} is the native word used for dressing mirrors, bathroom mirrors, and the concept of mirrors in general.\n\nCOMMON COLLOCATIONS:\n- サイドミラー: side mirror (car)\n- ルームミラー: rearview mirror (car interior)\n- カーブミラー: convex road mirror\n- ドアミラー: door mirror (car)\n- ミラーレス: mirrorless (camera)\n\nSIMILAR WORDS:\n- {鏡|かがみ}: mirror — the native Japanese word; used for personal mirrors, bathroom mirrors, and figurative meanings\n- {姿見|すがたみ}: full-length mirror — a tall mirror for checking one's whole outfit",
+  "notes": "From English \"mirror.\" In Japanese, ミラー is used particularly for functional or technical mirrors (vehicle mirrors, security mirrors, dental mirrors), while ⟦{鏡|かがみ}→鏡：02190_kagami⟧ is the native word used for dressing mirrors, bathroom mirrors, and the concept of mirrors in general.\n\nCOMMON COLLOCATIONS:\n- サイドミラー: side mirror (car)\n- ルームミラー: rearview mirror (car interior)\n- カーブミラー: convex road mirror\n- ドアミラー: door mirror (car)\n- ミラーレス: mirrorless (camera)\n\nSIMILAR WORDS:\n- ⟦{鏡|かがみ}→鏡：02190_kagami⟧: mirror — the native Japanese word; used for personal mirrors, bathroom mirrors, and figurative meanings\n- ⟦{姿見|すがたみ}→姿見：15876_sugatami⟧: full-length mirror — a tall mirror for checking one's whole outfit",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02190_kagami",
+      "reading": "かがみ",
+      "headword": "{鏡|かがみ}",
+      "label": "mirror"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15876_sugatami",
+      "reading": "すがたみ",
+      "headword": "{姿見|すがたみ}",
+      "label": "full-length mirror"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25614_kyoumen",
+      "reading": "きょうめん",
+      "headword": "{鏡面|きょうめん}",
+      "label": "mirror surface"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "daily-life",
         "transportation"
       ]
     },
     "created": "2026-04-27T11:20:28Z",
-    "modified": "2026-08-04T21:24:38Z"
+    "modified": "2026-09-02T04:02:23Z"
   }
 }

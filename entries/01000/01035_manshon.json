@@ -63,11 +63,68 @@
       ]
     }
   ],
-  "notes": "マンション is a 'false friend' from English 'mansion.' In Japan, it refers to a reinforced concrete apartment/condominium building, NOT a large house.\n\nCONTRAST WITH ⟦アパート→アパート：01012_apaato⟧:\n- マンション: concrete construction, higher quality, often owned\n- ⟦アパート→アパート：01012_apaato⟧: wooden/lighter construction, usually rented, smaller\n\nCOMMON EXPRESSIONS:\n- マンション⟦を→を：00422_wo⟧⟦{買|か}う→買う：00489_kau⟧: to buy a condo\n- マンション⟦に→に：00314_ni⟧⟦{住|す}む→住む：00673_sumu⟧: to live in a condo\n- ⟦{分譲|ぶんじょう}→分譲：06577_bunjou⟧マンション: condo for sale\n- ⟦{賃貸|ちんたい}→賃貸：06081_chintai⟧マンション: rental condo\n- ⟦タワーマンション→タワーマンション：28914_tawaamanshon⟧: high-rise condo (often abbreviated as タワマン)\n\nRELATED TERMS:\n- ⟦{管理費|かんりひ}→管理費：06575_kanrihi⟧: management fee\n- ⟦{修繕|しゅうぜん}→修繕：06569_shuuzen⟧⟦{積立金|つみたてきん}→積立金：28915_tsumitatekin⟧: repair reserve fund\n- ⟦{築|ちく}→築：noentry⟧~⟦{年|ねん}→年：09876_nen⟧: ~ years since construction\n\nNOTE:\nIn English-speaking countries, this would be called an 'apartment' or 'condominium,' not a 'mansion.'",
-  "cross_references": [],
+  "notes": "マンション is a 'false friend' from English 'mansion.' In Japan, it refers to a reinforced concrete apartment/condominium building, NOT a large house.\n\nCONTRAST WITH ⟦アパート→アパート：01012_apaato⟧:\n- マンション: concrete construction, higher quality, often owned\n- ⟦アパート→アパート：01012_apaato⟧: wooden/lighter construction, usually rented, smaller\n\nCOMMON EXPRESSIONS:\n- マンション⟦を→を：00422_wo⟧⟦{買|か}う→買う：00489_kau⟧: to buy a condo\n- マンション⟦に→に：00314_ni⟧⟦{住|す}む→住む：00673_sumu⟧: to live in a condo\n- ⟦{分譲|ぶんじょう}→分譲：06577_bunjou⟧マンション: condo for sale\n- ⟦{賃貸|ちんたい}→賃貸：06081_chintai⟧マンション: rental condo\n- ⟦タワーマンション→タワーマンション：28914_tawaamanshon⟧: high-rise condo (often abbreviated as タワマン)\n\nRELATED WORDS:\n- ⟦{管理費|かんりひ}→管理費：06575_kanrihi⟧: management fee\n- ⟦{修繕|しゅうぜん}→修繕：06569_shuuzen⟧⟦{積立金|つみたてきん}→積立金：28915_tsumitatekin⟧: repair reserve fund\n- ⟦{築|ちく}→築：noentry⟧~⟦{年|ねん}→年：09876_nen⟧: ~ years since construction\n\nUSAGE:\nIn English-speaking countries, this would be called an 'apartment' or 'condominium,' not a 'mansion.'",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01012_apaato",
+      "reading": "あぱーと",
+      "headword": "アパート",
+      "label": "wooden/lighter construction, usually…"
+    },
+    {
+      "type": "related",
+      "target_id": "06575_kanrihi",
+      "reading": "かんりひ",
+      "headword": "{管理費|かんりひ}",
+      "label": "management fee"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00612_ie",
+      "reading": "いえ",
+      "headword": "{家|いえ}",
+      "label": "house, home"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01500_biru",
+      "reading": "びる",
+      "headword": "ビル",
+      "label": "building"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06743_bukken",
+      "reading": "ぶっけん",
+      "headword": "{物件|ぶっけん}",
+      "label": "property"
+    },
+    {
+      "type": "related",
+      "target_id": "09716_shuugoujuutaku",
+      "reading": "しゅうごうじゅうたく",
+      "headword": "{集合住宅|しゅうごうじゅうたく}",
+      "label": "apartment building"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19687_ikkodate",
+      "reading": "いっこだて",
+      "headword": "{一戸建|いっこだ}て",
+      "label": "detached house"
+    },
+    {
+      "type": "related",
+      "target_id": "27323_maihoomu",
+      "reading": "まいほーむ",
+      "headword": "マイホーム",
+      "label": "one's own home (especially a privately owned house)"
+    }
+  ],
   "metadata": {
     "created": "2026-01-07T12:44:57Z",
-    "modified": "2026-08-09T12:26:58Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

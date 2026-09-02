@@ -3,7 +3,7 @@
   "id": "14260_soukou",
   "headword": "{走行|そうこう}",
   "reading": "そうこう",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "running; traveling (of a vehicle)",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "14260_soukou_ex1",
-      "japanese": "{走行|そうこう}{距離|きょり}を{確認|かくにん}する。",
+      "japanese": "{走行|そうこう}{距離|きょり}⟦を→を：00422_wo⟧⟦{確認|かくにん}する→確認する：25332_kakuninsuru⟧。",
       "english": "To check the mileage.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "14260_soukou_ex2",
-      "japanese": "{高速|こうそく}{道路|どうろ}を{時速|じそく}100キロで{走行|そうこう}する。",
+      "japanese": "⟦{高速|こうそく}{道路|どうろ}→高速道路：09242_kousokudouro⟧⟦を→を：00422_wo⟧⟦{時速|じそく}→時速：00128_jisoku⟧100⟦キロ→キロ：01350_kiro⟧⟦で→で：00502_de⟧{走行|そうこう}⟦する→する：00392_suru⟧。",
       "english": "To drive at 100 km/h on the expressway.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "14260_soukou_ex3",
-      "japanese": "この{車|くるま}は{走行|そうこう}{距離|きょり}が10{万|まん}キロを{超|こ}えているが、まだまだ{元気|げんき}に{走|はし}る。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{車|くるま}→車：00516_kuruma⟧⟦は→は：00079_ha⟧{走行|そうこう}{距離|きょり}⟦が→が：00051_ga⟧10{万|まん}⟦キロ→キロ：01350_kiro⟧⟦を→を：00422_wo⟧⟦{超|こ}えている→超える：01942_koeru⟧⟦が→が：00051_ga⟧、⟦まだまだ→まだまだ：10505_madamada⟧⟦{元気|げんき}→元気：00696_genki⟧⟦に→に：00314_ni⟧⟦{走|はし}る→走る：00519_hashiru⟧。",
       "english": "This car has over 100,000 kilometers on it, but it still runs well.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,19 @@
       ]
     }
   ],
-  "notes": "{走行|そうこう} refers specifically to the movement of vehicles, not people. It is commonly seen on car dashboards, in driving manuals, and in traffic-related contexts.\n\nCOMMON COLLOCATIONS:\n- {走行|そうこう}{距離|きょり} (mileage, distance traveled)\n- {走行|そうこう}{中|ちゅう} (while driving/in motion)\n- {走行|そうこう}{速度|そくど} (driving speed)\n- {走行|そうこう}{車線|しゃせん} (driving lane)\n- {自動|じどう}{走行|そうこう} (autonomous driving)\n\nWHEN NOT USED:\n{走行|そうこう} is not used for people running on foot. Use {走|はし}る or ランニング for that.",
-  "cross_references": [],
+  "notes": "{走行|そうこう} refers specifically to the movement of vehicles, not people. It is commonly seen on car dashboards, in driving manuals, and in traffic-related contexts.\n\nCOMMON COLLOCATIONS:\n- {走行|そうこう}{距離|きょり} (mileage, distance traveled)\n- {走行|そうこう}{中|ちゅう} (while driving/in motion)\n- {走行|そうこう}⟦{速度|そくど}→速度：03319_sokudo⟧ (driving speed)\n- {走行|そうこう}{車線|しゃせん} (driving lane)\n- ⟦{自動|じどう}→自動：03339_jidou⟧{走行|そうこう} (autonomous driving)\n\nWHEN NOT USED:\n{走行|そうこう} is not used for people running on foot. Use ⟦{走|はし}る→走る：00519_hashiru⟧ or ⟦ランニング→ランニング：08018_ranningu⟧ for that.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22404_kassou",
+      "reading": "かっそう",
+      "headword": "{滑走|かっそう}",
+      "label": "gliding"
+    }
+  ],
   "metadata": {
     "created": "2026-02-28T08:00:02Z",
-    "modified": "2026-03-29T03:08:18Z",
+    "modified": "2026-09-02T04:01:36Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

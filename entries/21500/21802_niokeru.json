@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21802_niokeru_ex1",
-      "japanese": "{日本|にほん}における{教育|きょういく}{制度|せいど}について{調|しら}べた。",
+      "japanese": "⟦{日本|にほん}→日本：03876_nihon⟧における⟦{教育|きょういく}→教育：01313_kyouiku⟧⟦{制度|せいど}→制度：03291_seido⟧⟦について→〜について：03103_nitsuite⟧⟦{調|しら}べた→調べる：01213_shiraberu⟧。",
       "english": "I researched the education system in Japan.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21802_niokeru_ex2",
-      "japanese": "{現代|げんだい}{社会|しゃかい}における{技術|ぎじゅつ}の{役割|やくわり}は{大|おお}きい。",
+      "japanese": "⟦{現代|げんだい}{社会|しゃかい}→現代社会：11501_gendaishakai⟧における⟦{技術|ぎじゅつ}→技術：01389_gijutsu⟧⟦の→の：09472_no⟧⟦{役割|やくわり}→役割：03638_yakuwari⟧⟦は→は：00079_ha⟧⟦{大|おお}きい→大きい：00335_ookii⟧。",
       "english": "The role of technology in modern society is significant.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21802_niokeru_ex3",
-      "japanese": "この{研究|けんきゅう}は、{医療|いりょう}における{人工知能|じんこうちのう}の{活用|かつよう}{可能性|かのうせい}を{探|さぐ}るものである。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{研究|けんきゅう}→研究：01396_kenkyuu⟧⟦は→は：00079_ha⟧、⟦{医療|いりょう}→医療：01836_iryou⟧における⟦{人工知能|じんこうちのう}→人工知能：04878_jinkouchinou⟧⟦の→の：09472_no⟧⟦{活用|かつよう}→活用：02620_katsuyou⟧⟦{可能性|かのうせい}→可能性：04818_kanousei⟧⟦を→を：00422_wo⟧⟦{探|さぐ}る→探る：03923_saguru⟧もの⟦である→である：09855_dearu⟧。",
       "english": "This research explores the potential for utilizing artificial intelligence in healthcare.",
       "sense_numbers": [
         1
@@ -44,7 +44,23 @@
       "notes": null
     }
   ],
-  "notes": "A formal expression derived from the particle に + おける (a form of おく, to place). Functions as a relative clause modifier meaning \"in\" or \"regarding,\" used to specify the context, location, or domain of what follows.\n\nUSAGE:\n- Modifies a following noun: A における B = \"B in/at A\"\n- When ending a clause (not modifying a noun), the form is において: A において (in A)\n- Much more formal than で or に alone\n- Very common in academic writing, news articles, formal speeches, and legal documents\n- Not natural in casual conversation\n\nCOMMON COLLOCATIONS:\n- {社会|しゃかい}における: in society\n- {歴史|れきし}における: in history\n- {日本|にほん}における: in Japan\n- {教育|きょういく}における: in education\n- {職場|しょくば}における: in the workplace\n\nSIMILAR WORDS:\n- で: at, in — the casual/neutral equivalent for indicating location or context\n- において: in, at — the sentence-ending form of the same expression (not modifying a noun)\n- にて: at, in — formal but slightly less stiff than における; common in announcements\n- に{関|かん}する: regarding, concerning — focuses on the topic rather than the context",
+  "notes": "A formal expression derived from the particle ⟦に→に：00314_ni⟧ + おける (a form of おく, to place). Functions as a relative clause modifier meaning \"in\" or \"regarding,\" used to specify the context, location, or domain of what follows.\n\nUSAGE:\n- Modifies a following noun: A における B = \"B in/at A\"\n- When ending a clause (not modifying a noun), the form is ⟦において→において：06799_nioite⟧: A ⟦において→において：06799_nioite⟧ (in A)\n- Much more formal than で or ⟦に→に：00314_ni⟧ alone\n- Very common in academic writing, news articles, formal speeches, and legal documents\n- Not natural in casual conversation\n\nCOMMON COLLOCATIONS:\n- ⟦{社会|しゃかい}→社会：01427_shakai⟧における: in society\n- ⟦{歴史|れきし}→歴史：02267_rekishi⟧における: in history\n- ⟦{日本|にほん}→日本：03876_nihon⟧における: in Japan\n- ⟦{教育|きょういく}→教育：01313_kyouiku⟧における: in education\n- ⟦{職場|しょくば}→職場：04164_shokuba⟧における: in the workplace\n\nSIMILAR WORDS:\n- で: at, in — the casual/neutral equivalent for indicating location or context\n- ⟦において→において：06799_nioite⟧: in, at — the sentence-ending form of the same expression (not modifying a noun)\n- ⟦にて→〜にて：21803_nite⟧: at, in — formal but slightly less stiff than における; common in announcements\n- ⟦に→に：00314_ni⟧⟦{関|かん}する→関する：02045_kansuru⟧: regarding, concerning — focuses on the topic rather than the context",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06799_nioite",
+      "reading": "において",
+      "headword": "において",
+      "label": "in, at"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21803_nite",
+      "reading": "にて",
+      "headword": "〜にて",
+      "label": "at, in"
+    }
+  ],
   "metadata": {
     "entry_id": "21802_niokeru",
     "schema_version": "2.0",
@@ -55,6 +71,7 @@
       "pos": [
         "expression"
       ],
+      "politeness": "plain",
       "semantic": [
         "grammatical"
       ],
@@ -63,6 +80,6 @@
       ],
       "usage": []
     },
-    "modified": "2026-07-29T12:35:11Z"
+    "modified": "2026-09-02T04:02:05Z"
   }
 }

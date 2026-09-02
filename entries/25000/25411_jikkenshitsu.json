@@ -15,41 +15,70 @@
   "examples": [
     {
       "id": "25411_jikkenshitsu_ex1",
-      "japanese": "{実験室|じっけんしつ}に{入|はい}る。",
+      "japanese": "{実験室|じっけんしつ}⟦に→に：00314_ni⟧⟦{入|はい}る→入る：00494_hairu⟧。",
       "english": "I enter the laboratory.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "25411_jikkenshitsu_ex2",
-      "japanese": "{化学|かがく}の{実験室|じっけんしつ}は{三階|さんがい}にあります。",
+      "japanese": "⟦{化学|かがく}→化学：05336_kagaku_chem⟧⟦の→の：09472_no⟧{実験室|じっけんしつ}⟦は→は：00079_ha⟧⟦{三階|さんがい}→三階：27617_sangai⟧⟦に→に：00314_ni⟧⟦あります→ある：00006_aru⟧。",
       "english": "The chemistry lab is on the third floor.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "25411_jikkenshitsu_ex3",
-      "japanese": "{学生|がくせい}たちは{実験室|じっけんしつ}で{新|あたら}しい{薬品|やくひん}の{効果|こうか}を{調|しら}べている。",
+      "japanese": "⟦{学生|がくせい}→学生：00610_gakusei⟧たち⟦は→は：00079_ha⟧{実験室|じっけんしつ}⟦で→で：00502_de⟧⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦{薬品|やくひん}→薬品：11055_yakuhin⟧⟦の→の：09472_no⟧⟦{効果|こうか}→効果：02726_kouka⟧⟦を→を：00422_wo⟧⟦{調|しら}べている→調べる：01213_shiraberu⟧。",
       "english": "The students are testing the effects of a new chemical in the laboratory.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "{実験室|じっけんしつ} refers to a room specifically designed for scientific experiments. It is composed of {実験|じっけん} (experiment) + {室|しつ} (room).\n\nCOMMON COLLOCATIONS:\n- {実験室|じっけんしつ}で{実験|じっけん}する: conduct an experiment in the lab\n- {実験室|じっけんしつ}の{設備|せつび}: laboratory equipment\n- {化学|かがく}{実験室|じっけんしつ}: chemistry laboratory\n- {実験室|じっけんしつ}を{使|つか}う: use the laboratory\n\nSIMILAR WORDS:\n- {研究室|けんきゅうしつ}: research lab; professor's office — often refers to an academic lab or a professor's personal office at a university\n- ラボ: lab — informal loanword abbreviation, common in casual and business settings\n- {研究所|けんきゅうじょ}: research institute — a larger facility or organization, not just a single room",
+  "notes": "{実験室|じっけんしつ} refers to a room specifically designed for scientific experiments. It is composed of ⟦{実験|じっけん}→実験：03273_jikken⟧ (experiment) + ⟦{室|しつ}→室：09946_shitsu⟧ (room).\n\nCOMMON COLLOCATIONS:\n- {実験室|じっけんしつ}⟦で→で：00502_de⟧⟦{実験|じっけん}→実験：03273_jikken⟧⟦する→する：00392_suru⟧: conduct an experiment in the lab\n- {実験室|じっけんしつ}⟦の→の：09472_no⟧⟦{設備|せつび}→設備：03301_setsubi⟧: laboratory equipment\n- ⟦{化学|かがく}→化学：05336_kagaku_chem⟧{実験室|じっけんしつ}: chemistry laboratory\n- {実験室|じっけんしつ}⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧: use the laboratory\n\nSIMILAR WORDS:\n- ⟦{研究室|けんきゅうしつ}→研究室：01397_kenkyuushitsu⟧: research lab; professor's office — often refers to an academic lab or a professor's personal office at a university\n- ラボ: lab — informal loanword abbreviation, common in casual and business settings\n- ⟦{研究所|けんきゅうじょ}→研究所：19075_kenkyuujo⟧: research institute — a larger facility or organization, not just a single room",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01397_kenkyuushitsu",
+      "reading": "けんきゅうしつ",
+      "headword": "{研究室|けんきゅうしつ}",
+      "label": "research lab"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19075_kenkyuujo",
+      "reading": "けんきゅうじょ",
+      "headword": "{研究所|けんきゅうじょ}",
+      "label": "research institute"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["building", "education"],
-      "domain": ["academic"]
+      "semantic": [
+        "building",
+        "education"
+      ],
+      "domain": [
+        "academic"
+      ]
     },
     "created": "2026-04-25T12:32:11Z",
-    "modified": "2026-04-25T12:32:11Z"
+    "modified": "2026-09-02T04:02:22Z"
   }
 }

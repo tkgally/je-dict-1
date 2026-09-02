@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "16473_nodogoshi_ex1",
-      "japanese": "{喉越|のどご}しがいいビールだ。",
+      "japanese": "{喉越|のどご}し⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧⟦ビール→ビール：01015_biiru⟧だ。",
       "english": "This beer goes down smoothly.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "16473_nodogoshi_ex2",
-      "japanese": "この{蕎麦|そば}は{喉越|のどご}しがよくておいしい。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{蕎麦|そば}→蕎麦：14329_soba⟧⟦は→は：00079_ha⟧{喉越|のどご}し⟦が→が：00051_ga⟧⟦よくて→いい：00118_ii⟧おいしい。",
       "english": "These soba noodles have a great texture going down and taste delicious.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "16473_nodogoshi_ex3",
-      "japanese": "{冷|つめ}たいビールの{喉越|のどご}しは、{暑|あつ}い{日|ひ}には{格別|かくべつ}だ。",
+      "japanese": "⟦{冷|つめ}たい→冷たい：00681_tsumetai⟧⟦ビール→ビール：01015_biiru⟧⟦の→の：09472_no⟧{喉越|のどご}し⟦は→は：00079_ha⟧、⟦{暑|あつ}い→暑い：00619_atsui⟧⟦{日|ひ}→日：02249_hi⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{格別|かくべつ}→格別：00154_kakubetsu⟧だ。",
       "english": "The refreshing feel of cold beer going down your throat is something special on a hot day.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nEspecially common in beer advertising and food reviews. {喉越|のどご}しがいい is a high compliment for beer, noodles, and similar items where smoothness matters. The word captures a distinctly Japanese concept of food appreciation that focuses on the swallowing sensation.\n\nCOMMON COLLOCATIONS:\n- {喉越|のどご}しがいい (goes down smoothly)\n- {喉越|のどご}しがよい (pleasant going down)\n- {喉越|のどご}しのよさ (smoothness, drinkability)\n- {喉越|のどご}しを{楽|たの}しむ (to enjoy the feel going down)\n\nSIMILAR WORDS:\n- {口当|くちあ}たり: mouthfeel — the sensation of food or drink in the mouth, before swallowing\n- {飲|の}みごたえ: satisfying to drink — emphasizes the fulfillment from drinking something",
+  "notes": "USAGE:\nEspecially common in beer advertising and food reviews. {喉越|のどご}し⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧ is a high compliment for beer, noodles, and similar items where smoothness matters. The word captures a distinctly Japanese concept of food appreciation that focuses on the swallowing sensation.\n\nCOMMON COLLOCATIONS:\n- {喉越|のどご}し⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧ (goes down smoothly)\n- {喉越|のどご}し⟦が→が：00051_ga⟧よい (pleasant going down)\n- {喉越|のどご}し⟦のよ→のよ：30249_noyo⟧さ (smoothness, drinkability)\n- {喉越|のどご}し⟦を→を：00422_wo⟧⟦{楽|たの}しむ→楽しむ：01203_tanoshimu⟧ (to enjoy the feel going down)\n\nSIMILAR WORDS:\n- ⟦{口当|くちあ}たり→口当たり：21546_kuchiatari⟧: mouthfeel — the sensation of food or drink in the mouth, before swallowing\n- ⟦{飲|の}みごたえ→飲みごたえ：08085_nomigotae⟧: satisfying to drink — emphasizes the fulfillment from drinking something",
   "cross_references": [
     {
       "type": "contrast",
@@ -52,11 +52,25 @@
       "reading": "くちあたり",
       "headword": "{口当|くちあ}たり",
       "label": "mouthfeel (before swallowing)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08085_nomigotae",
+      "reading": "のみごたえ",
+      "headword": "{飲|の}みごたえ",
+      "label": "satisfying to drink"
+    },
+    {
+      "type": "related",
+      "target_id": "07919_shitazawari",
+      "reading": "したざわり",
+      "headword": "{舌触|したざわ}り",
+      "label": "texture (in mouth)"
     }
   ],
   "metadata": {
     "created": "2026-03-13T02:05:15Z",
-    "modified": "2026-07-20T00:31:17Z",
+    "modified": "2026-09-02T04:01:45Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

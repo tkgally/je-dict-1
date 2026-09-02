@@ -15,41 +15,67 @@
   "examples": [
     {
       "id": "30002_miyamakuwagata_ex1",
-      "japanese": "ミヤマクワガタは{涼|すず}しい{山|やま}に{住|す}んでいる。",
+      "japanese": "ミヤマクワガタ⟦は→は：00079_ha⟧⟦{涼|すず}しい→涼しい：00674_suzushii⟧⟦{山|やま}→山：02168_yama⟧⟦に→に：00314_ni⟧⟦{住|す}んでいる→住む：00673_sumu⟧。",
       "english": "The deep-mountain stag beetle lives in cool mountains.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "30002_miyamakuwagata_ex2",
-      "japanese": "ミヤマクワガタの{頭|あたま}には{出|で}っ{張|ぱ}りがある。",
+      "japanese": "ミヤマクワガタ⟦の→の：09472_no⟧⟦{頭|あたま}→頭：00574_atama⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{出|で}っ{張|ぱ}り⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "The deep-mountain stag beetle has flanges on its head.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "30002_miyamakuwagata_ex3",
-      "japanese": "{標高|ひょうこう}の{高|たか}い{場所|ばしょ}でミヤマクワガタを{採集|さいしゅう}した。",
+      "japanese": "⟦{標高|ひょうこう}→標高：13175_hyoukou⟧⟦の→の：09472_no⟧⟦{高|たか}い→高い：00500_takai⟧⟦{場所|ばしょ}→場所：00829_basho⟧⟦で→で：00502_de⟧ミヤマクワガタ⟦を→を：00422_wo⟧⟦{採集|さいしゅう}→採集：00355_saishuu⟧⟦した→する：00392_suru⟧。",
       "english": "I collected a deep-mountain stag beetle at a high altitude.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A stag beetle of cooler, higher-elevation forests — {深山|みやま} means 'deep mountains.' The male is distinguished by the ear-like flanges at the back of its head.\n\nSIMILAR WORDS:\n- オオクワガタ: giant stag beetle — a lowland species with a glossy black body\n- ノコギリクワガタ: sawtooth stag beetle — long, curved, saw-like jaws",
+  "notes": "A stag beetle of cooler, higher-elevation forests — {深山|みやま} means 'deep mountains.' The male is distinguished by the ear-like flanges at the back of its head.\n\nSIMILAR WORDS:\n- ⟦オオクワガタ→オオクワガタ：30000_ookuwagata⟧: giant stag beetle — a lowland species with a glossy black body\n- ⟦ノコギリクワガタ→ノコギリクワガタ：30001_nokogirikuwagata⟧: sawtooth stag beetle — long, curved, saw-like jaws",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "30000_ookuwagata",
+      "reading": "おおくわがた",
+      "headword": "オオクワガタ",
+      "label": "giant stag beetle"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30001_nokogirikuwagata",
+      "reading": "のこぎりくわがた",
+      "headword": "ノコギリクワガタ",
+      "label": "sawtooth stag beetle"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["animal-insect"],
+      "politeness": "plain",
+      "semantic": [
+        "animal-insect"
+      ],
       "domain": []
     },
     "created": "2026-07-21T00:17:50Z",
-    "modified": "2026-07-21T00:17:50Z"
+    "modified": "2026-09-02T04:02:38Z"
   }
 }

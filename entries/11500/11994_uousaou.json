@@ -2,7 +2,7 @@
   "id": "11994_uousaou",
   "headword": "{右往左往|うおうさおう}",
   "reading": "うおうさおう",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "running about in confusion; being in a panic",
   "conjugation": {
     "type": "suru",
@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "11994_uousaou_ex1",
-      "japanese": "{地震|じしん}で{人々|ひとびと}が{右往左往|うおうさおう}した。",
+      "japanese": "⟦{地震|じしん}→地震：01608_jishin⟧⟦で→で：00502_de⟧⟦{人々|ひとびと}→人々：03141_hitobito⟧⟦が→が：00051_ga⟧{右往左往|うおうさおう}⟦した→する：00392_suru⟧。",
       "english": "People ran about in confusion because of the earthquake.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "11994_uousaou_ex2",
-      "japanese": "{突然|とつぜん}の{停電|ていでん}で{社員|しゃいん}たちが{右往左往|うおうさおう}していた。",
+      "japanese": "⟦{突然|とつぜん}→突然：00409_totsuzen⟧⟦の→の：09472_no⟧⟦{停電|ていでん}→停電：03544_teiden⟧⟦で→で：00502_de⟧⟦{社員|しゃいん}→社員：03065_shain⟧たち⟦が→が：00051_ga⟧{右往左往|うおうさおう}⟦していた→する：00392_suru⟧。",
       "english": "The employees were running around in confusion due to the sudden power outage.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "11994_uousaou_ex3",
-      "japanese": "{予定|よてい}が{急|きゅう}に{変|か}わって{右往左往|うおうさおう}するのではなく、{落|お}ち{着|つ}いて{対応|たいおう}しよう。",
+      "japanese": "⟦{予定|よてい}→予定：00824_yotei⟧⟦が→が：00051_ga⟧⟦{急|きゅう}→急：13042_kyuu⟧⟦に→に：00314_ni⟧⟦{変|か}わって→変わる：00714_kawaru⟧{右往左往|うおうさおう}⟦する→する：00392_suru⟧⟦の→の：09472_no⟧⟦ではなく→ではなく：09578_dehanaku⟧、⟦{落|お}ち{着|つ}いて→落ち着く：04670_ochitsuku⟧⟦{対応|たいおう}→対応：02510_taiou⟧⟦しよう→する：00392_suru⟧。",
       "english": "Instead of panicking when plans suddenly change, let's respond calmly.",
       "notes": null,
       "has_audio": false,
@@ -133,11 +133,19 @@
       ]
     }
   ],
-  "notes": "COMMON COLLOCATIONS:\n・{右往左往|うおうさおう}する (run about in confusion)\n・{右往左往|うおうさおう}している (be in a panic)\n\nUSAGE NOTES:\nA four-character compound ({四字熟語|よじじゅくご}) composed of {右|う} (right) + {往|おう} (go) + {左|さ} (left) + {往|おう} (go). Vividly describes the chaotic scene of people going right and left without direction. Always implies a lack of composure or clear thinking, often triggered by an unexpected event. Similar in meaning to うろうろする and おろおろする, but {右往左往|うおうさおう} is more literary and emphasizes the collective confusion of a group.",
-  "cross_references": [],
+  "notes": "COMMON COLLOCATIONS:\n- {右往左往|うおうさおう}⟦する→する：00392_suru⟧ (run about in confusion)\n- {右往左往|うおうさおう}⟦している→する：00392_suru⟧ (be in a panic)\n\nUSAGE:\nA four-character compound (⟦{四字熟語|よじじゅくご}→四字熟語：15663_yojijukugo⟧) composed of {右|う} (right) + {往|おう} (go) + {左|さ} (left) + {往|おう} (go). Vividly describes the chaotic scene of people going right and left without direction. Always implies a lack of composure or clear thinking, often triggered by an unexpected event. Similar in meaning to ⟦うろうろ→うろうろ：05168_urouro⟧⟦する→する：00392_suru⟧ and ⟦おろおろ→おろおろ：05369_orooro⟧⟦する→する：00392_suru⟧, but {右往左往|うおうさおう} is more literary and emphasizes the collective confusion of a group.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07441_meisou",
+      "reading": "めいそう",
+      "headword": "{迷走|めいそう}",
+      "label": "straying"
+    }
+  ],
   "metadata": {
     "created": "2026-02-19T11:20:39Z",
-    "modified": "2026-03-29T03:07:35Z",
+    "modified": "2026-09-02T04:01:27Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",

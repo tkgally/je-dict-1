@@ -15,41 +15,73 @@
   "examples": [
     {
       "id": "21194_moukan_ex1",
-      "japanese": "{今年|ことし}の{冬|ふゆ}は{猛寒|もうかん}だ。",
+      "japanese": "⟦{今年|ことし}→今年：00722_kotoshi⟧⟦の→の：09472_no⟧⟦{冬|ふゆ}→冬：00623_fuyu⟧⟦は→は：00079_ha⟧{猛寒|もうかん}だ。",
       "english": "This winter is bitterly cold.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "21194_moukan_ex2",
-      "japanese": "{猛寒|もうかん}の{中|なか}を{歩|ある}いて{帰|かえ}った。",
+      "japanese": "{猛寒|もうかん}⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧⟦を→を：00422_wo⟧⟦{歩|ある}いて→歩く：00538_aruku⟧⟦{帰|かえ}った→帰る：00508_kaeru⟧。",
       "english": "I walked home in the bitter cold.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "21194_moukan_ex3",
-      "japanese": "{猛寒|もうかん}が{続|つづ}き、{水道管|すいどうかん}が{凍結|とうけつ}する{被害|ひがい}が{相次|あいつ}いだ。",
+      "japanese": "{猛寒|もうかん}⟦が→が：00051_ga⟧⟦{続|つづ}き→続く：00903_tsuzuku⟧、⟦{水道管|すいどうかん}→水道管：08094_suidoukan⟧⟦が→が：00051_ga⟧⟦{凍結|とうけつ}→凍結：09613_touketsu⟧⟦する→する：00392_suru⟧⟦{被害|ひがい}→被害：02572_higai⟧⟦が→が：00051_ga⟧⟦{相次|あいつ}いだ→相次ぐ：14869_aitsugu⟧。",
       "english": "The severe cold continued, and there were one incident after another of water pipes freezing.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{猛|もう} means 'fierce' or 'intense,' and {寒|かん} means 'cold.' {猛寒|もうかん} describes cold weather that is exceptionally severe, going beyond the usual winter chill. It is used in weather reports, news, and everyday conversation during extreme cold snaps.\n\nCOMMON COLLOCATIONS:\n- {猛寒|もうかん}が{続|つづ}く (severe cold continues)\n- {猛寒|もうかん}の{中|なか} (in the bitter cold)\n- {猛寒|もうかん}に{見舞|みま}われる (to be hit by severe cold)\n\nSIMILAR WORDS:\n- {厳寒|げんかん} — severe cold (more formal and literary; often used in written weather descriptions)\n- {極寒|ごっかん} — extreme cold (the strongest degree; used for Arctic-level conditions)\n- {猛暑|もうしょ} — extreme heat (the summer counterpart, using the same {猛|もう} prefix)",
-  "cross_references": [],
+  "notes": "{猛|もう} means 'fierce' or 'intense,' and {寒|かん} means 'cold.' {猛寒|もうかん} describes cold weather that is exceptionally severe, going beyond the usual winter chill. It is used in weather reports, news, and everyday conversation during extreme cold snaps.\n\nCOMMON COLLOCATIONS:\n- {猛寒|もうかん}⟦が→が：00051_ga⟧⟦{続|つづ}く→続く：00903_tsuzuku⟧ (severe cold continues)\n- {猛寒|もうかん}⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧ (in the bitter cold)\n- {猛寒|もうかん}⟦に→に：00314_ni⟧⟦{見舞|みま}われる→見舞う：14133_mimau⟧ (to be hit by severe cold)\n\nSIMILAR WORDS:\n- ⟦{厳寒|げんかん}→厳寒：20655_genkan⟧ — severe cold (more formal and literary; often used in written weather descriptions)\n- ⟦{極寒|ごっかん}→極寒：21345_gokkan⟧ — extreme cold (the strongest degree; used for Arctic-level conditions)\n- ⟦{猛暑|もうしょ}→猛暑：08311_mousho⟧ — extreme heat (the summer counterpart, using the same {猛|もう} prefix)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20655_genkan",
+      "reading": "げんかん",
+      "headword": "{厳寒|げんかん}",
+      "label": "severe cold (more formal and literary"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21345_gokkan",
+      "reading": "ごっかん",
+      "headword": "{極寒|ごっかん}",
+      "label": "extreme cold (the strongest degree"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08311_mousho",
+      "reading": "もうしょ",
+      "headword": "{猛暑|もうしょ}",
+      "label": "extreme heat"
+    }
+  ],
   "metadata": {
     "created": "2026-03-31T22:22:11Z",
-    "modified": "2026-03-31T22:22:11Z",
+    "modified": "2026-09-02T04:02:02Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["nature"]
+      "semantic": [
+        "nature"
+      ]
     }
   }
 }

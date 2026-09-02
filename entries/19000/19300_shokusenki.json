@@ -15,40 +15,66 @@
   "examples": [
     {
       "id": "19300_shokusenki_ex1",
-      "japanese": "{食洗機|しょくせんき}に{入|い}れる。",
+      "japanese": "{食洗機|しょくせんき}⟦に→に：00314_ni⟧⟦{入|い}れる→入れる：01098_ireru⟧。",
       "english": "To put in the dishwasher.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19300_shokusenki_ex2",
-      "japanese": "うちの{食洗機|しょくせんき}は{静|しず}かで{便利|べんり}だ。",
+      "japanese": "うち⟦の→の：09472_no⟧{食洗機|しょくせんき}⟦は→は：00079_ha⟧⟦{静|しず}か→静か：00755_shizuka⟧で⟦{便利|べんり}→便利：00830_benri⟧だ。",
       "english": "Our dishwasher is quiet and convenient.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19300_shokusenki_ex3",
-      "japanese": "{新|あたら}しいキッチンには{食洗機|しょくせんき}が{備|そな}え{付|つ}けてある。",
+      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦キッチン→キッチン：10815_kicchin⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{食洗機|しょくせんき}⟦が→が：00051_ga⟧{備|そな}え{付|つ}けて⟦ある→ある：00006_aru⟧。",
       "english": "The new kitchen has a built-in dishwasher.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Abbreviation of {食器洗|しょっきあら}い{機|き} (dish-washing machine). This shortened form is the most common way to refer to a dishwasher in everyday conversation.\n\nCOMMON COLLOCATIONS:\n- {食洗機|しょくせんき}{対応|たいおう} — dishwasher-safe\n- {食洗機|しょくせんき}に{入|い}れる — to load the dishwasher\n- {食洗機|しょくせんき}を{回|まわ}す — to run the dishwasher\n- {食洗機|しょくせんき}{用|よう}{洗剤|せんざい} — dishwasher detergent\n- ビルトイン{食洗機|しょくせんき} — built-in dishwasher\n\nUSAGE:\nWhile traditionally less common in Japanese homes than in Western countries, dishwashers have become increasingly popular. Product labels and instructions often use {食洗機|しょくせんき}{対応|たいおう} to indicate an item is dishwasher-safe.",
+  "notes": "Abbreviation of ⟦{食器洗|しょっきあら}い{機|き}→食器洗い機：04673_shokkiaraiki⟧ (dish-washing machine). This shortened form is the most common way to refer to a dishwasher in everyday conversation.\n\nCOMMON COLLOCATIONS:\n- {食洗機|しょくせんき}⟦{対応|たいおう}→対応：02510_taiou⟧ — dishwasher-safe\n- {食洗機|しょくせんき}⟦に→に：00314_ni⟧⟦{入|い}れる→入れる：01098_ireru⟧ — to load the dishwasher\n- {食洗機|しょくせんき}⟦を→を：00422_wo⟧⟦{回|まわ}す→回す：01158_mawasu⟧ — to run the dishwasher\n- {食洗機|しょくせんき}⟦{用|よう}→〜用：09842_you⟧⟦{洗剤|せんざい}→洗剤：03304_senzai⟧ — dishwasher detergent\n- ビルトイン{食洗機|しょくせんき} — built-in dishwasher\n\nUSAGE:\nWhile traditionally less common in Japanese homes than in Western countries, dishwashers have become increasingly popular. Product labels and instructions often use {食洗機|しょくせんき}⟦{対応|たいおう}→対応：02510_taiou⟧ to indicate an item is dishwasher-safe.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04673_shokkiaraiki",
+      "reading": "しょっきあらいき",
+      "headword": "{食器洗|しょっきあら}い{機|き}",
+      "label": "dishwasher"
+    },
+    {
+      "type": "related",
+      "target_id": "08171_araimono",
+      "reading": "あらいもの",
+      "headword": "{洗|あら}い{物|もの}",
+      "label": "dishes to wash"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["tool"]
+      "semantic": [
+        "tool"
+      ]
     },
     "created": "2026-03-25T06:04:58Z",
-    "modified": "2026-07-26T21:31:07Z"
+    "modified": "2026-09-02T04:01:55Z"
   }
 }

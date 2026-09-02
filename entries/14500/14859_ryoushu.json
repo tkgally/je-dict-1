@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "14859_ryoushu_ex1",
-      "japanese": "この{城|しろ}の{領主|りょうしゅ}は{武田氏|たけだし}だった。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{城|しろ}→城：03255_shiro⟧⟦の→の：09472_no⟧{領主|りょうしゅ}⟦は→は：00079_ha⟧{武田氏|たけだし}だった。",
       "english": "The lord of this castle was from the Takeda clan.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14859_ryoushu_ex2",
-      "japanese": "{領主|りょうしゅ}は{農民|のうみん}から{年貢|ねんぐ}を{集|あつ}めた。",
+      "japanese": "{領主|りょうしゅ}⟦は→は：00079_ha⟧⟦{農民|のうみん}→農民：03759_noumin⟧⟦から→から：00504_kara⟧⟦{年貢|ねんぐ}→年貢：16287_nengu⟧⟦を→を：00422_wo⟧⟦{集|あつ}めた→集める：01170_atsumeru⟧。",
       "english": "The feudal lord collected annual tribute from the farmers.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14859_ryoushu_ex3",
-      "japanese": "{戦国時代|せんごくじだい}には、{各地|かくち}の{領主|りょうしゅ}が{勢力|せいりょく}を{争|あらそ}い、{戦|いくさ}が{絶|た}えなかった。",
+      "japanese": "⟦{戦国時代|せんごくじだい}→戦国時代：19200_sengokujidai⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧、⟦{各地|かくち}→各地：00155_kakuchi⟧⟦の→の：09472_no⟧{領主|りょうしゅ}⟦が→が：00051_ga⟧⟦{勢力|せいりょく}→勢力：11812_seiryoku⟧⟦を→を：00422_wo⟧⟦{争|あらそ}い→争う：01866_arasou⟧、⟦{戦|いくさ}→戦：28574_ikusa⟧⟦が→が：00051_ga⟧⟦{絶|た}えなかった→絶える：13814_taeru⟧。",
       "english": "During the Warring States period, local lords competed for power and battles were constant.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE NOTES:\n{領主|りょうしゅ} is primarily a historical term used when discussing feudal systems in Japan and Europe.\n\nSIMILAR WORDS:\n- {大名|だいみょう} — a feudal lord of the Edo period, specifically a daimyo with land yielding at least 10,000 koku of rice\n- {殿様|とのさま} — lord (respectful/familiar term, also used figuratively)\n- {藩主|はんしゅ} — lord of a han (domain) in the Edo period\n- {地主|じぬし} — landowner (modern, not feudal)\n\n{領主|りょうしゅ} is more general than {大名|だいみょう} and can refer to lords of any era or country.\n\nCOMMON COLLOCATIONS:\n- {領主|りょうしゅ}の{館|やかた} (the lord's manor)\n- {領主|りょうしゅ}が{治|おさ}める (the lord governs)\n- {領主|りょうしゅ}に{仕|つか}える (serve a lord)",
+  "notes": "USAGE:\n{領主|りょうしゅ} is primarily a historical term used when discussing feudal systems in Japan and Europe.\n\nSIMILAR WORDS:\n- ⟦{大名|だいみょう}→大名：10378_daimyou⟧ — a feudal lord of the Edo period, specifically a daimyo with land yielding at least 10,000 koku of rice\n- ⟦{殿様|とのさま}→殿様：10455_tonosama⟧ — lord (respectful/familiar term, also used figuratively)\n- ⟦{藩主|はんしゅ}→藩主：26186_hanshu⟧ — lord of a han (domain) in the Edo period\n- ⟦{地主|じぬし}→地主：12048_jinushi⟧ — landowner (modern, not feudal)\n\n{領主|りょうしゅ} is more general than ⟦{大名|だいみょう}→大名：10378_daimyou⟧ and can refer to lords of any era or country.\n\nCOMMON COLLOCATIONS:\n- {領主|りょうしゅ}⟦の→の：09472_no⟧⟦{館|やかた}→館：24134_yakata⟧ (the lord's manor)\n- {領主|りょうしゅ}⟦が→が：00051_ga⟧⟦{治|おさ}める→治める：02462_osameru⟧ (the lord governs)\n- {領主|りょうしゅ}⟦に→に：00314_ni⟧⟦{仕|つか}える→仕える：11547_tsukaeru⟧ (serve a lord)",
   "cross_references": [
     {
       "type": "related",
@@ -46,18 +52,50 @@
       "reading": "りょうち",
       "headword": "{領地|りょうち}",
       "label": "territory; domain"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10378_daimyou",
+      "reading": "だいみょう",
+      "headword": "{大名|だいみょう}",
+      "label": "a feudal lord of the Edo period…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10455_tonosama",
+      "reading": "とのさま",
+      "headword": "{殿様|とのさま}",
+      "label": "lord"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26186_hanshu",
+      "reading": "はんしゅ",
+      "headword": "{藩主|はんしゅ}",
+      "label": "lord of a han (domain) in the Edo period"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12048_jinushi",
+      "reading": "じぬし",
+      "headword": "{地主|じぬし}",
+      "label": "landowner"
     }
   ],
   "metadata": {
     "created": "2026-03-04T04:36:43Z",
-    "modified": "2026-05-01T04:26:51Z",
+    "modified": "2026-09-02T04:01:39Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["person"]
+      "semantic": [
+        "person"
+      ]
     }
   }
 }

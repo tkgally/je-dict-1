@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08690_suiminbusoku_ex1",
-      "japanese": "{睡眠不足|すいみんぶそく}で{頭|あたま}が{痛|いた}い。",
+      "japanese": "{睡眠不足|すいみんぶそく}⟦で→で：00502_de⟧⟦{頭|あたま}→頭：00574_atama⟧⟦が→が：00051_ga⟧⟦{痛|いた}い→痛い：01108_itai⟧。",
       "english": "I have a headache from lack of sleep.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "08690_suiminbusoku_ex2",
-      "japanese": "{睡眠不足|すいみんぶそく}が{続|つづ}くと、{体調|たいちょう}を{崩|くず}しやすくなる。",
+      "japanese": "{睡眠不足|すいみんぶそく}⟦が→が：00051_ga⟧⟦{続|つづ}く→続く：00903_tsuzuku⟧⟦と→と：00512_to⟧、⟦{体調|たいちょう}→体調：04644_taichou⟧⟦を→を：00422_wo⟧⟦{崩|くず}し→崩す：03919_kuzusu⟧やすく⟦なる→なる：01970_naru⟧。",
       "english": "If sleep deprivation continues, you become prone to falling ill.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "08690_suiminbusoku_ex3",
-      "japanese": "{彼|かれ}は{慢性的|まんせいてき}な{睡眠不足|すいみんぶそく}に{悩|なや}まされている。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{慢性的|まんせいてき}な{睡眠不足|すいみんぶそく}⟦に→に：00314_ni⟧⟦{悩|なや}まされている→悩ます：12602_nayamasu⟧。",
       "english": "He suffers from chronic sleep deprivation.",
       "sense_numbers": [
         1
@@ -43,7 +43,7 @@
       "notes": null
     }
   ],
-  "notes": "COMPOUND:\n{睡眠|すいみん} (sleep) + {不足|ぶそく} (insufficiency/shortage)\n\nCOMMON COLLOCATIONS:\n- {睡眠不足|すいみんぶそく}を{解消|かいしょう}する - to remedy sleep deprivation\n- {睡眠不足|すいみんぶそく}が{続|つづ}く - sleep deprivation continues\n- {慢性的|まんせいてき}な{睡眠不足|すいみんぶそく} - chronic sleep deprivation\n\nHEALTH EFFECTS:\nProlonged sleep deprivation can lead to:\n- {集中力|しゅうちゅうりょく}の{低下|ていか} (decreased concentration)\n- {免疫力|めんえきりょく}の{低下|ていか} (weakened immune system)\n- {生活習慣病|せいかつしゅうかんびょう}のリスク{増加|ぞうか} (increased risk of lifestyle diseases)\n\nRELATED:\n- {寝不足|ねぶそく} - more casual way to say \"lack of sleep\"\n- {不眠症|ふみんしょう} - insomnia (medical condition)",
+  "notes": "COMPOUNDS:\n⟦{睡眠|すいみん}→睡眠：03359_suimin⟧ (sleep) + {不足|ぶそく} (insufficiency/shortage)\n\nCOMMON COLLOCATIONS:\n- {睡眠不足|すいみんぶそく}⟦を→を：00422_wo⟧⟦{解消|かいしょう}する→解消する：21324_kaishousuru⟧ - to remedy sleep deprivation\n- {睡眠不足|すいみんぶそく}⟦が→が：00051_ga⟧⟦{続|つづ}く→続く：00903_tsuzuku⟧ - sleep deprivation continues\n- {慢性的|まんせいてき}な{睡眠不足|すいみんぶそく} - chronic sleep deprivation\n\nHEALTH EFFECTS:\nProlonged sleep deprivation can lead to:\n- ⟦{集中力|しゅうちゅうりょく}→集中力：17614_shuuchuuryoku⟧⟦の→の：09472_no⟧⟦{低下|ていか}→低下：04065_teika⟧ (decreased concentration)\n- ⟦{免疫力|めんえきりょく}→免疫力：08599_menekiryoku⟧⟦の→の：09472_no⟧⟦{低下|ていか}→低下：04065_teika⟧ (weakened immune system)\n- ⟦{生活習慣病|せいかつしゅうかんびょう}→生活習慣病：08620_seikatsushuukanbyou⟧⟦の→の：09472_no⟧⟦リスク→リスク：06752_risuku⟧⟦{増加|ぞうか}→増加：03329_zouka⟧ (increased risk of lifestyle diseases)\n\nRELATED WORDS:\n- ⟦{寝不足|ねぶそく}→寝不足：07692_nebusoku⟧ - more casual way to say \"lack of sleep\"\n- ⟦{不眠症|ふみんしょう}→不眠症：05024_fuminshou⟧ - insomnia (medical condition)",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -51,13 +51,14 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "health",
         "daily-life"
       ]
     },
     "created": "2026-01-28T02:41:58Z",
-    "modified": "2026-06-23T01:38:10Z"
+    "modified": "2026-09-02T04:01:16Z"
   },
   "cross_references": [
     {
@@ -72,6 +73,20 @@
       "target_id": "11078_fumin",
       "reading": "ふみん",
       "headword": "{不眠|ふみん}",
+      "label": "insomnia"
+    },
+    {
+      "type": "related",
+      "target_id": "07692_nebusoku",
+      "reading": "ねぶそく",
+      "headword": "{寝不足|ねぶそく}",
+      "label": "more casual way to say \"lack of sleep\""
+    },
+    {
+      "type": "related",
+      "target_id": "05024_fuminshou",
+      "reading": "ふみんしょう",
+      "headword": "{不眠症|ふみんしょう}",
       "label": "insomnia"
     }
   ]

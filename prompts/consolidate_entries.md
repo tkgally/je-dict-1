@@ -1,5 +1,11 @@
 # Consolidate Dictionary Entries
 
+> **Note (2026-09-02):** this prompt predates the current process. Where it says `make build` or
+> to commit `docs/`, run `make index` instead — the site is built by GitHub Actions after the merge
+> and `docs/` is no longer tracked. Where it says to place inline links or `noentry` markers by hand,
+> run `python3 build/auto_link.py --ids <ids> --apply` instead and add missing words as candidates.
+> The scheduled Routine is `prompts/routine2.md`; see `enhancement/assessment-2026-09-02.md`.
+
 Review the dictionary for entries that should be merged and candidates that should be removed as variants of existing entries. This is a **semantic task** — the detection script finds candidates deterministically, but you must judge each case using your knowledge of Japanese.
 
 ## Load the Skill

@@ -15,41 +15,68 @@
   "examples": [
     {
       "id": "27719_kiito_ex1",
-      "japanese": "{生糸|きいと}は{蚕|かいこ}から{作|つく}られる。",
+      "japanese": "{生糸|きいと}⟦は→は：00079_ha⟧⟦{蚕|かいこ}→蚕：21218_kaiko⟧⟦から→から：00504_kara⟧⟦{作|つく}られる→作る：00481_tsukuru⟧。",
       "english": "Raw silk is made from silkworms.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27719_kiito_ex2",
-      "japanese": "この{町|まち}は{昔|むかし}{生糸|きいと}の{生産|せいさん}で{栄|さか}えた。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{町|まち}→町：00613_machi⟧⟦は→は：00079_ha⟧⟦{昔|むかし}→昔：01515_mukashi⟧{生糸|きいと}⟦の→の：09472_no⟧⟦{生産|せいさん}→生産：01444_seisan⟧⟦で→で：00502_de⟧⟦{栄|さか}えた→栄える：13104_sakaeru⟧。",
       "english": "This town once prospered from raw silk production.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27719_kiito_ex3",
-      "japanese": "{明治|めいじ}{時代|じだい}、{生糸|きいと}は{日本|にほん}の{重要|じゅうよう}な{輸出品|ゆしゅつひん}だった。",
+      "japanese": "⟦{明治|めいじ}{時代|じだい}→明治時代：28080_meijijidai⟧、{生糸|きいと}⟦は→は：00079_ha⟧⟦{日本|にほん}→日本：03876_nihon⟧⟦の→の：09472_no⟧⟦{重要|じゅうよう}→重要：01575_juuyou⟧な{輸出品|ゆしゅつひん}だった。",
       "english": "In the Meiji era, raw silk was an important Japanese export.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {生|き} (raw, unprocessed) + {糸|いと} (thread). Raw silk is reeled from cocoons and later refined into the finished silk used for fabric.\n\nCOMMON COLLOCATIONS:\n- {生糸|きいと}の{生産|せいさん}: raw silk production\n- {生糸|きいと}を{輸出|ゆしゅつ}する: to export raw silk\n- {生糸|きいと}の{値段|ねだん}: the price of raw silk\n\nNOTE:\nRaw silk was a major export driving Japan's modernization in the Meiji era. Related words: {養蚕|ようさん} (silkworm raising) and {絹|きぬ} (silk fabric).",
+  "notes": "Composed of {生|き} (raw, unprocessed) + ⟦{糸|いと}→糸：01315_ito⟧ (thread). Raw silk is reeled from cocoons and later refined into the finished silk used for fabric.\n\nCOMMON COLLOCATIONS:\n- {生糸|きいと}⟦の→の：09472_no⟧⟦{生産|せいさん}→生産：01444_seisan⟧: raw silk production\n- {生糸|きいと}⟦を→を：00422_wo⟧⟦{輸出|ゆしゅつ}する→輸出する：01855_yushutsusuru⟧: to export raw silk\n- {生糸|きいと}⟦の→の：09472_no⟧⟦{値段|ねだん}→値段：00871_nedan⟧: the price of raw silk\n\nUSAGE:\nRaw silk was a major export driving Japan's modernization in the Meiji era. Related words: ⟦{養蚕|ようさん}→養蚕：27720_yousan⟧ (silkworm raising) and ⟦{絹|きぬ}→絹：01383_kinu⟧ (silk fabric).",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "21218_kaiko",
+      "reading": "かいこ",
+      "headword": "{蚕|かいこ}",
+      "label": "silkworm"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26461_kenshi",
+      "reading": "けんし",
+      "headword": "{繭糸|けんし}",
+      "label": "silk thread"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["clothing", "materials"],
+      "politeness": "plain",
+      "semantic": [
+        "clothing",
+        "materials"
+      ],
       "domain": []
     },
     "created": "2026-05-17T04:06:49Z",
-    "modified": "2026-05-17T04:06:49Z"
+    "modified": "2026-09-02T04:02:31Z"
   }
 }

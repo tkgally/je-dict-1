@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25738_hangaarakku_ex1",
-      "japanese": "ハンガーラックにコートを{掛|か}けた。",
+      "japanese": "ハンガーラック⟦に→に：00314_ni⟧⟦コート→コート：01358_kooto⟧⟦を→を：00422_wo⟧{掛|か}けた。",
       "english": "I hung the coat on the clothes rack.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25738_hangaarakku_ex2",
-      "japanese": "{玄関|げんかん}にハンガーラックを{置|お}いている。",
+      "japanese": "⟦{玄関|げんかん}→玄関：05003_genkan⟧⟦に→に：00314_ni⟧ハンガーラック⟦を→を：00422_wo⟧⟦{置|お}いている→置く：01092_oku⟧。",
       "english": "I have a clothes rack in the entryway.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25738_hangaarakku_ex3",
-      "japanese": "{部屋|へや}が{狭|せま}いので、クローゼットの{代|か}わりにハンガーラックを{使|つか}って{服|ふく}を{収納|しゅうのう}している。",
+      "japanese": "⟦{部屋|へや}→部屋：00507_heya⟧⟦が→が：00051_ga⟧⟦{狭|せま}い→狭い：00750_semai⟧⟦の→の：09472_no⟧で、⟦クローゼット→クローゼット：04491_kuroozetto⟧⟦の→の：09472_no⟧⟦{代|か}わり→代わり：01296_kawari⟧⟦に→に：00314_ni⟧ハンガーラック⟦を→を：00422_wo⟧⟦{使|つか}って→使う：00473_tsukau⟧⟦{服|ふく}→服：00695_fuku⟧⟦を→を：00422_wo⟧⟦{収納|しゅうのう}→収納：07497_shuunou⟧⟦している→する：00392_suru⟧。",
       "english": "Since my room is small, I use a clothes rack instead of a closet to store my clothes.",
       "sense_numbers": [
         1
@@ -44,20 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "A Japanese-English compound from \"hanger\" + \"rack.\" Very common in Japanese homes, especially in small apartments where closet space is limited. Also found in clothing stores for displaying merchandise.\n\nCOMMON COLLOCATIONS:\n- ハンガーラックに{掛|か}ける: to hang on the clothes rack\n- ハンガーラックを{置|お}く: to place a clothes rack\n- {折|お}りたたみハンガーラック: foldable clothes rack\n- キャスター{付|つ}きハンガーラック: clothes rack with casters\n\nSIMILAR WORDS:\n- コートハンガー: coat hanger stand — specifically for coats and jackets near the entrance\n- {洋服|ようふく}かけ: clothes hanger/hook — a wall-mounted or door-mounted hook for hanging clothes\n- {物干|ものほ}し: drying rack — for hanging laundry to dry, not for storage",
+  "notes": "A Japanese-English compound from \"hanger\" + \"rack.\" Very common in Japanese homes, especially in small apartments where closet space is limited. Also found in clothing stores for displaying merchandise.\n\nCOMMON COLLOCATIONS:\n- ハンガーラック⟦に→に：00314_ni⟧{掛|か}ける: to hang on the clothes rack\n- ハンガーラック⟦を→を：00422_wo⟧⟦{置|お}く→置く：01092_oku⟧: to place a clothes rack\n- ⟦{折|お}りたたみ→折りたたみ：11332_oritatami⟧ハンガーラック: foldable clothes rack\n- ⟦キャスター→キャスター：27958_kyasutaa⟧⟦{付|つ}き→付き：26333_tsuki⟧ハンガーラック: clothes rack with casters\n\nSIMILAR WORDS:\n- ⟦コート→コート：01358_kooto⟧⟦ハンガー→ハンガー：08275_hangaa⟧: coat hanger stand — specifically for coats and jackets near the entrance\n- ⟦{洋服|ようふく}→洋服：05014_youfuku⟧かけ: clothes hanger/hook — a wall-mounted or door-mounted hook for hanging clothes\n- ⟦{物干|ものほ}し→物干し：07094_monohoshi⟧: drying rack — for hanging laundry to dry, not for storage",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07094_monohoshi",
+      "reading": "ものほし",
+      "headword": "{物干|ものほ}し",
+      "label": "drying rack"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "furniture",
         "clothing"
       ]
     },
     "created": "2026-04-27T11:17:21Z",
-    "modified": "2026-08-04T21:28:28Z"
+    "modified": "2026-09-02T04:02:23Z"
   }
 }

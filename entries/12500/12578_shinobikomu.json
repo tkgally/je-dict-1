@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "12578_shinobikomu_ex1",
-      "japanese": "{泥棒|どろぼう}が{家|いえ}に{忍|しの}び{込|こ}んだ。",
+      "japanese": "⟦{泥棒|どろぼう}→泥棒：01688_dorobou⟧⟦が→が：00051_ga⟧⟦{家|いえ}→家：00612_ie⟧⟦に→に：00314_ni⟧{忍|しの}び{込|こ}んだ。",
       "english": "A thief snuck into the house.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "12578_shinobikomu_ex2",
-      "japanese": "{猫|ねこ}がいつの{間|ま}にか{部屋|へや}に{忍|しの}び{込|こ}んでいた。",
+      "japanese": "⟦{猫|ねこ}→猫：02237_neko⟧⟦が→が：00051_ga⟧⟦いつの{間|ま}にか→いつの間にか：01812_itsunomanika⟧⟦{部屋|へや}→部屋：00507_heya⟧⟦に→に：00314_ni⟧{忍|しの}び{込|こ}んで⟦いた→いる：00495_iru⟧。",
       "english": "A cat had slipped into the room without anyone noticing.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "12578_shinobikomu_ex3",
-      "japanese": "{夜中|よなか}にこっそり{学校|がっこう}の{校舎|こうしゃ}に{忍|しの}び{込|こ}んだことがある。",
+      "japanese": "⟦{夜中|よなか}→夜中：01008_yonaka⟧⟦に→に：00314_ni⟧⟦こっそり→こっそり：05890_kossori⟧⟦{学校|がっこう}→学校：00055_gakkou⟧⟦の→の：09472_no⟧⟦{校舎|こうしゃ}→校舎：02801_kousha⟧⟦に→に：00314_ni⟧{忍|しの}び{込|こ}んだこと⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "I once snuck into the school building in the middle of the night.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,47 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA compound verb combining {忍|しの}ぶ (to endure; to hide) and {込|こ}む (to go in deeply). Emphasizes stealth and secrecy. Common in crime reporting, mystery fiction, and everyday stories about entering somewhere covertly.\n\nGRAMMAR:\nGodan verb ending in む. Takes に to mark the destination: Xに{忍|しの}び{込|こ}む.\n\nCOMMON COLLOCATIONS:\n- {家|いえ}に{忍|しの}び{込|こ}む: to sneak into a house\n- {部屋|へや}に{忍|しの}び{込|こ}む: to steal into a room\n- こっそり{忍|しの}び{込|こ}む: to sneak in secretly\n- {夜中|よなか}に{忍|しの}び{込|こ}む: to sneak in at night",
-  "cross_references": [],
+  "notes": "USAGE:\nA compound verb combining ⟦{忍|しの}ぶ→忍ぶ：16953_shinobu⟧ (to endure; to hide) and ⟦{込|こ}む→込む：00719_komu⟧ (to go in deeply). Emphasizes stealth and secrecy. Common in crime reporting, mystery fiction, and everyday stories about entering somewhere covertly.\n\nCOMMON PATTERNS:\nGodan verb ending in む. Takes ⟦に→に：00314_ni⟧ to mark the destination: X⟦に→に：00314_ni⟧{忍|しの}び{込|こ}む.\n\nCOMMON COLLOCATIONS:\n- ⟦{家|いえ}→家：00612_ie⟧⟦に→に：00314_ni⟧{忍|しの}び{込|こ}む: to sneak into a house\n- ⟦{部屋|へや}→部屋：00507_heya⟧⟦に→に：00314_ni⟧{忍|しの}び{込|こ}む: to steal into a room\n- ⟦こっそり→こっそり：05890_kossori⟧{忍|しの}び{込|こ}む: to sneak in secretly\n- ⟦{夜中|よなか}→夜中：01008_yonaka⟧⟦に→に：00314_ni⟧{忍|しの}び{込|こ}む: to sneak in at night",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13389_sennyuu",
+      "reading": "せんにゅう",
+      "headword": "{潜入|せんにゅう}",
+      "label": "infiltration, sneaking in"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20994_sennyuusuru",
+      "reading": "せんにゅうする",
+      "headword": "{潜入|せんにゅう}する",
+      "label": "to infiltrate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23177_haikomu",
+      "reading": "はいこむ",
+      "headword": "{這|は}い{込|こ}む",
+      "label": "to crawl into"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26062_nukekomu",
+      "reading": "ぬけこむ",
+      "headword": "{抜|ぬ}け{込|こ}む",
+      "label": "to slip into"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26961_magirekomu",
+      "reading": "まぎれこむ",
+      "headword": "{紛|まぎ}れ{込|こ}む",
+      "label": "to slip into"
+    }
+  ],
   "metadata": {
     "created": "2026-02-21T13:30:53Z",
-    "modified": "2026-03-29T03:07:35Z",
+    "modified": "2026-09-02T04:01:29Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

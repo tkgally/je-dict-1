@@ -114,7 +114,7 @@
   "examples": [
     {
       "id": "06972_fumikomu_ex1",
-      "japanese": "⟦{敵|てき}→敵：03546_teki⟧⟦の→の：09472_no⟧⟦{陣地|じんち}→陣地：noentry⟧⟦に→に：00314_ni⟧{踏|ふ}み{込|こ}んだ。",
+      "japanese": "⟦{敵|てき}→敵：03546_teki⟧⟦の→の：09472_no⟧⟦{陣地|じんち}→陣地：30721_jinchi⟧⟦に→に：00314_ni⟧{踏|ふ}み{込|こ}んだ。",
       "english": "I stepped into enemy territory.",
       "notes": null,
       "has_audio": false,
@@ -154,7 +154,7 @@
     },
     {
       "id": "06972_fumikomu_ex5",
-      "japanese": "⟦{捜査官|そうさかん}→捜査官：noentry⟧⟦が→が：00051_ga⟧⟦{事務所|じむしょ}→事務所：01032_jimusho⟧⟦に→に：00314_ni⟧{踏|ふ}み{込|こ}んで⟦{証拠|しょうこ}→証拠：10575_shouko⟧⟦を→を：00422_wo⟧⟦{押|お}さえた→押さえる：02021_osaeru⟧。",
+      "japanese": "⟦{捜査官|そうさかん}→捜査官：30722_sousakan⟧⟦が→が：00051_ga⟧⟦{事務所|じむしょ}→事務所：01032_jimusho⟧⟦に→に：00314_ni⟧{踏|ふ}み{込|こ}んで⟦{証拠|しょうこ}→証拠：10575_shouko⟧⟦を→を：00422_wo⟧⟦{押|お}さえた→押さえる：02021_osaeru⟧。",
       "english": "Investigators raided the office and seized evidence.",
       "notes": null,
       "has_audio": false,
@@ -203,7 +203,7 @@
       ]
     }
   ],
-  "notes": "・{踏|ふ}み{込|こ}む → {踏|ふ}み{込|こ}まない (negative)\n・{踏|ふ}み{込|こ}む → {踏|ふ}み{込|こ}んで (te-form)\n・{踏|ふ}み{込|こ}む → {踏|ふ}み{込|こ}んだ (past)\n\nFORMATION:\nCompound verb: ⟦{踏|ふ}む→踏む：01197_fumu⟧ (to step on) + ⟦{込|こ}む→込む：00719_komu⟧ (into)\n\nThe ～⟦{込|こ}む→込む：00719_komu⟧ pattern indicates entering into or going deeply into something.\n\nCOLLOCATIONS:\n・⟦{家宅|かたく}→家宅：noentry⟧⟦に→に：00314_ni⟧{踏|ふ}み{込|こ}む - to raid a house\n・⟦プライバシー→プライバシー：06806_puraibashii⟧⟦に→に：00314_ni⟧{踏|ふ}み{込|こ}む - to intrude on someone's privacy\n・⟦{核心|かくしん}→核心：13105_kakushin⟧⟦に→に：00314_ni⟧{踏|ふ}み{込|こ}む - to get to the heart of the matter\n・⟦{一歩|いっぽ}→一歩：08890_ippo⟧{踏|ふ}み{込|こ}む - to take a step further",
+  "notes": "- {踏|ふ}み{込|こ}む → {踏|ふ}み{込|こ}まない (negative)\n- {踏|ふ}み{込|こ}む → {踏|ふ}み{込|こ}んで (te-form)\n- {踏|ふ}み{込|こ}む → {踏|ふ}み{込|こ}んだ (past)\n\nFORMS:\nCompound verb: ⟦{踏|ふ}む→踏む：01197_fumu⟧ (to step on) + ⟦{込|こ}む→込む：00719_komu⟧ (into)\n\nThe ～⟦{込|こ}む→込む：00719_komu⟧ pattern indicates entering into or going deeply into something.\n\nCOMMON COLLOCATIONS:\n- ⟦{家宅|かたく}→家宅：30723_kataku⟧⟦に→に：00314_ni⟧{踏|ふ}み{込|こ}む - to raid a house\n- ⟦プライバシー→プライバシー：06806_puraibashii⟧⟦に→に：00314_ni⟧{踏|ふ}み{込|こ}む - to intrude on someone's privacy\n- ⟦{核心|かくしん}→核心：13105_kakushin⟧⟦に→に：00314_ni⟧{踏|ふ}み{込|こ}む - to get to the heart of the matter\n- ⟦{一歩|いっぽ}→一歩：08890_ippo⟧{踏|ふ}み{込|こ}む - to take a step further",
   "cross_references": [
     {
       "type": "related",
@@ -211,11 +211,25 @@
       "headword": "{踏|ふ}む",
       "label": "to step on",
       "target_id": "01197_fumu"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14283_fumidasu",
+      "reading": "ふみだす",
+      "headword": "{踏|ふ}み{出|だ}す",
+      "label": "to step forward"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26367_tachiiru",
+      "reading": "たちいる",
+      "headword": "{立|た}ち{入|い}る",
+      "label": "to enter"
     }
   ],
   "metadata": {
     "created": "2026-01-18T13:10:21Z",
-    "modified": "2026-08-20T12:24:43Z",
+    "modified": "2026-09-02T04:05:40Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

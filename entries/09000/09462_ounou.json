@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "09462_ounou_ex1",
-      "japanese": "{懊悩|おうのう}する{日々|ひび}が{続|つづ}いた。",
+      "japanese": "{懊悩|おうのう}⟦する→する：00392_suru⟧⟦{日々|ひび}→日々：04804_hibi⟧⟦が→が：00051_ga⟧⟦{続|つづ}いた→続く：00903_tsuzuku⟧。",
       "english": "Days of anguish continued.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "09462_ounou_ex2",
-      "japanese": "{彼|かれ}は{選択|せんたく}に{懊悩|おうのう}していた。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{選択|せんたく}→選択：03306_sentaku⟧⟦に→に：00314_ni⟧{懊悩|おうのう}⟦していた→する：00392_suru⟧。",
       "english": "He was agonizing over the choice.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "09462_ounou_ex3",
-      "japanese": "{懊悩|おうのう}の{末|すえ}、{決断|けつだん}を{下|くだ}した。",
+      "japanese": "{懊悩|おうのう}⟦の→の：09472_no⟧⟦{末|すえ}→末：03362_sue⟧、⟦{決断|けつだん}→決断：13250_ketsudan⟧⟦を→を：00422_wo⟧⟦{下|くだ}した→下す：12329_kudasu⟧。",
       "english": "After much anguish, I made my decision.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
     },
     {
       "id": "09462_ounou_ex4",
-      "japanese": "{作家|さっか}としての{懊悩|おうのう}が{作品|さくひん}に{現|あらわ}れている。",
+      "japanese": "⟦{作家|さっか}→作家：01414_sakka⟧⟦として→として：06802_toshite⟧⟦の→の：09472_no⟧{懊悩|おうのう}⟦が→が：00051_ga⟧⟦{作品|さくひん}→作品：02776_sakuhin⟧⟦に→に：00314_ni⟧⟦{現|あらわ}れている→現れる：01870_arawareru⟧。",
       "english": "The anguish of being a writer is reflected in the work.",
       "notes": null,
       "has_audio": false,
@@ -143,10 +143,10 @@
       ]
     }
   ],
-  "notes": "{懊悩|おうのう} describes deep, prolonged mental suffering - more literary and intense than simple worry or concern.\n\nUsage:\n- {懊悩|おうのう}する (to agonize, be in anguish)\n- {懊悩|おうのう}の{末|すえ} (after much anguish)\n- {懊悩|おうのう}に{苛|さいな}まれる (to be tormented by anguish)\n\nCharacteristics:\n- Literary/formal word\n- Implies prolonged suffering, not momentary distress\n- Often used in serious contexts (moral dilemmas, life decisions, creative struggles)\n\nRelated words:\n- {苦悩|くのう}: suffering, distress (more common)\n- {煩悶|はんもん}: anguish, agony (similar)\n- {悶々|もんもん}とする: to be troubled, tormented",
+  "notes": "{懊悩|おうのう} describes deep, prolonged mental suffering - more literary and intense than simple worry or concern.\n\nUsage:\n- {懊悩|おうのう}⟦する→する：00392_suru⟧ (to agonize, be in anguish)\n- {懊悩|おうのう}⟦の→の：09472_no⟧⟦{末|すえ}→末：03362_sue⟧ (after much anguish)\n- {懊悩|おうのう}⟦に→に：00314_ni⟧⟦{苛|さいな}まれる→苛む：28648_sainamu⟧ (to be tormented by anguish)\n\nCharacteristics:\n- Literary/formal word\n- Implies prolonged suffering, not momentary distress\n- Often used in serious contexts (moral dilemmas, life decisions, creative struggles)\n\nRelated words:\n- ⟦{苦悩|くのう}→苦悩：05517_kunou⟧: suffering, distress (more common)\n- {煩悶|はんもん}: anguish, agony (similar)\n- {悶々|もんもん}⟦と→と：00512_to⟧⟦する→する：00392_suru⟧: to be troubled, tormented",
   "metadata": {
     "created": "2026-02-01T15:18:05Z",
-    "modified": "2026-04-22T08:43:07Z",
+    "modified": "2026-09-02T04:01:18Z",
     "ai_model": "opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -155,7 +155,7 @@
         "verb-suru"
       ],
       "formality": "formal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "emotion"
       ],
@@ -173,6 +173,13 @@
       "reading": "くのう",
       "headword": "{苦悩|くのう}",
       "label": "anguish, suffering"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28929_kumon",
+      "reading": "くもん",
+      "headword": "{苦悶|くもん}",
+      "label": "agony"
     }
   ]
 }

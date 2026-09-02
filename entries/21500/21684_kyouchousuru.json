@@ -3,7 +3,7 @@
   "headword": "{強調|きょうちょう}する",
   "reading": "きょうちょうする",
   "romaji": "kyouchousuru",
-  "part_of_speech": "verb",
+  "part_of_speech": "suru verb",
   "gloss": "to emphasize; to stress; to highlight",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21684_kyouchousuru_ex1",
-      "japanese": "{安全|あんぜん}の{重要性|じゅうようせい}を{強調|きょうちょう}する。",
+      "japanese": "⟦{安全|あんぜん}→安全：01131_anzen⟧⟦の→の：09472_no⟧⟦{重要性|じゅうようせい}→重要性：04823_juuyousei⟧⟦を→を：00422_wo⟧{強調|きょうちょう}する。",
       "english": "To emphasize the importance of safety.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21684_kyouchousuru_ex2",
-      "japanese": "{先生|せんせい}はこの{点|てん}を{特|とく}に{強調|きょうちょう}した。",
+      "japanese": "⟦{先生|せんせい}→先生：00609_sensei⟧⟦は→は：00079_ha⟧⟦この→この：00962_kono⟧⟦{点|てん}→点：01553_ten⟧⟦を→を：00422_wo⟧⟦{特|とく}に→特に：01260_tokuni⟧{強調|きょうちょう}した。",
       "english": "The teacher particularly stressed this point.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21684_kyouchousuru_ex3",
-      "japanese": "{大臣|だいじん}は{記者|きしゃ}{会見|かいけん}で{経済|けいざい}{対策|たいさく}の{必要性|ひつようせい}を{繰|く}り{返|かえ}し{強調|きょうちょう}した。",
+      "japanese": "⟦{大臣|だいじん}→大臣：03417_daijin⟧⟦は→は：00079_ha⟧⟦{記者|きしゃ}{会見|かいけん}→記者会見：19954_kishakaiken⟧⟦で→で：00502_de⟧⟦{経済|けいざい}→経済：01394_keizai⟧⟦{対策|たいさく}→対策：02511_taisaku⟧⟦の→の：09472_no⟧⟦{必要性|ひつようせい}→必要性：04821_hitsuyousei⟧⟦を→を：00422_wo⟧⟦{繰|く}り{返|かえ}し→繰り返す：02051_kurikaesu⟧{強調|きょうちょう}した。",
       "english": "The minister repeatedly emphasized the need for economic measures at the press conference.",
       "sense_numbers": [
         1
@@ -44,8 +44,45 @@
       "notes": null
     }
   ],
-  "notes": "A very common word in both formal and informal contexts. Can refer to verbal emphasis (stressing a point) or visual emphasis (making text bold, using colors).\n\nCOMMON COLLOCATIONS:\n- {強調|きょうちょう}{表示|ひょうじ}: highlighting (on screen)\n- {強調|きょうちょう}{色|しょく}: highlight color\n- ～を{強調|きょうちょう}する: to emphasize ~\n- {特|とく}に{強調|きょうちょう}する: to particularly emphasize\n\nSIMILAR WORDS:\n- {重視|じゅうし}する: to attach importance to (focus on valuing, not communicating)\n- {主張|しゅちょう}する: to assert, claim (stronger, implies arguing a position)\n- {訴|うった}える: to appeal to (emotional persuasion)",
+  "notes": "A very common word in both formal and informal contexts. Can refer to verbal emphasis (stressing a point) or visual emphasis (making text bold, using colors).\n\nCOMMON COLLOCATIONS:\n- ⟦{強調|きょうちょう}→強調：02600_kyouchou⟧⟦{表示|ひょうじ}→表示：03143_hyouji⟧: highlighting (on screen)\n- ⟦{強調|きょうちょう}→強調：02600_kyouchou⟧{色|しょく}: highlight color\n- ～⟦を→を：00422_wo⟧{強調|きょうちょう}する: to emphasize ~\n- ⟦{特|とく}に→特に：01260_tokuni⟧{強調|きょうちょう}する: to particularly emphasize\n\nSIMILAR WORDS:\n- ⟦{重視|じゅうし}する→重視する：26832_juushisuru⟧: to attach importance to (focus on valuing, not communicating)\n- ⟦{主張|しゅちょう}する→主張する：25380_shuchousuru⟧: to assert, claim (stronger, implies arguing a position)\n- ⟦{訴|うった}える→訴える：01891_uttaeru⟧: to appeal to (emotional persuasion)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "26832_juushisuru",
+      "reading": "じゅうしする",
+      "headword": "{重視|じゅうし}する",
+      "label": "to attach importance to"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25380_shuchousuru",
+      "reading": "しゅちょうする",
+      "headword": "{主張|しゅちょう}する",
+      "label": "to assert, claim"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01891_uttaeru",
+      "reading": "うったえる",
+      "headword": "{訴|うった}える",
+      "label": "to appeal to"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18071_kiwadataseru",
+      "reading": "きわだたせる",
+      "headword": "{際立|きわだ}たせる",
+      "label": "to make stand out, to highlight, to accentuate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18940_rikisetsu",
+      "reading": "りきせつ",
+      "headword": "{力説|りきせつ}",
+      "label": "emphasizing"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -57,10 +94,11 @@
       "semantic": [
         "communication"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-04-02T21:21:29Z",
-    "modified": "2026-04-02T21:21:29Z"
+    "modified": "2026-09-02T04:02:04Z"
   },
   "conjugation": {
     "type": "suru",

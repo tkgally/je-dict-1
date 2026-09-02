@@ -114,7 +114,7 @@
     },
     {
       "id": "09094_onesho_ex2",
-      "japanese": "{子供|こども}がまたおねしょをした。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧⟦が→が：00051_ga⟧⟦また→また：00969_mata⟧おねしょ⟦を→を：00422_wo⟧⟦した→する：00392_suru⟧。",
       "english": "The child wet the bed again.",
       "sense_numbers": [
         1
@@ -124,7 +124,7 @@
     },
     {
       "id": "09094_onesho_ex3",
-      "japanese": "おねしょは{成長|せいちょう}とともに{自然|しぜん}に{治|なお}る。",
+      "japanese": "おねしょ⟦は→は：00079_ha⟧⟦{成長|せいちょう}→成長：03290_seichou⟧⟦とともに→とともに：30485_totomoni⟧⟦{自然|しぜん}→自然：01423_shizen⟧⟦に→に：00314_ni⟧⟦{治|なお}る→治る：19598_naoru⟧。",
       "english": "Bedwetting naturally stops as children grow.",
       "sense_numbers": [
         1
@@ -133,7 +133,7 @@
       "notes": null
     }
   ],
-  "notes": "KANJI: Can be written as お{寝小|ねしょ}.\n\nWORD FORMATION: From お (honorific prefix) + {寝|ね} (sleep) + しょ (from おしっこ/{小便|しょうべん}).\n\nUSAGE: Functions as a noun and as a する verb (おねしょする).\n\nCOMMON EXPRESSIONS:\n- おねしょをする (to wet the bed)\n- おねしょ{布団|ふとん} (bedwetting futon - one that got wet)\n\nRELATED WORDS: おもらし (wetting oneself while awake).\n\nMEDICAL TERM: {夜尿症|やにょうしょう} is the medical term for persistent bedwetting.",
+  "notes": "KANJI: Can be written as お{寝小|ねしょ}.\n\nWORD FORMATION: From お (honorific prefix) + {寝|ね} (sleep) + しょ (from ⟦おしっこ→おしっこ：09083_oshikko⟧/⟦{小便|しょうべん}→小便：28713_shouben⟧).\n\nUSAGE: Functions as a noun and as a ⟦する→する：00392_suru⟧ verb (おねしょ⟦する→する：00392_suru⟧).\n\nCOMMON EXPRESSIONS:\n- おねしょ⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧ (to wet the bed)\n- おねしょ⟦{布団|ふとん}→布団：01720_futon⟧ (bedwetting futon - one that got wet)\n\nRELATED WORDS: ⟦おもらし→おもらし：09093_omorashi⟧ (wetting oneself while awake).\n\nMEDICAL TERM: ⟦{夜尿症|やにょうしょう}→夜尿症：27749_yanyoushou⟧ is the medical term for persistent bedwetting.",
   "cross_references": [
     {
       "type": "related",
@@ -141,11 +141,25 @@
       "reading": "おもらし",
       "headword": "おもらし",
       "label": "wetting (daytime)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26650_neshouben",
+      "reading": "ねしょうべん",
+      "headword": "{寝小便|ねしょうべん}",
+      "label": "bedwetting"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27749_yanyoushou",
+      "reading": "やにょうしょう",
+      "headword": "{夜尿|やにょう}{症|しょう}",
+      "label": "bedwetting"
     }
   ],
   "metadata": {
     "created": "2026-01-31T04:25:12Z",
-    "modified": "2026-08-12T21:25:53Z",
+    "modified": "2026-09-02T04:01:17Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

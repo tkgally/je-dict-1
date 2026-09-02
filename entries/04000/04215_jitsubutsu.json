@@ -63,10 +63,47 @@
       ]
     }
   ],
-  "notes": "COMMON PATTERNS:\n・{実物|じつぶつ}⟦を→を：00422_wo⟧⟦{見|み}る→見る：00283_miru⟧ (to see the actual thing)\n・{実物|じつぶつ}⟦の→の：09472_no⟧⟦{方|ほう}→方：01139_hou⟧⟦が→が：00051_ga⟧〜 (the real one is more ~)\n・{実物|じつぶつ}⟦{大|だい}→大：noentry⟧ (life-size, actual size)\n\nOPPOSITE CONCEPTS:\n・⟦{写真|しゃしん}→写真：00753_shashin⟧ (photo)\n・⟦{模型|もけい}→模型：07079_mokei⟧ (model)\n・⟦レプリカ→レプリカ：28446_repurika⟧ (replica)\n・⟦{複製|ふくせい}→複製：17528_fukusei⟧ (reproduction)\n\nFOR PEOPLE:\n{実物|じつぶつ} can also refer to a person in real life vs. their photo or media appearance.\n⟦{例|れい}→例：09932_rei⟧: ⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{実物|じつぶつ}⟦の→の：09472_no⟧⟦{方|ほう}→方：01139_hou⟧⟦が→が：00051_ga⟧⟦かっこいい→かっこいい：09378_kakkoii⟧。(He's more handsome in person.)",
+  "notes": "COMMON PATTERNS:\n- {実物|じつぶつ}⟦を→を：00422_wo⟧⟦{見|み}る→見る：00283_miru⟧ (to see the actual thing)\n- {実物|じつぶつ}⟦の→の：09472_no⟧⟦{方|ほう}→方：01139_hou⟧⟦が→が：00051_ga⟧〜 (the real one is more ~)\n- {実物|じつぶつ}⟦{大|だい}→大：noentry⟧ (life-size, actual size)\n\nOPPOSITE CONCEPTS:\n- ⟦{写真|しゃしん}→写真：00753_shashin⟧ (photo)\n- ⟦{模型|もけい}→模型：07079_mokei⟧ (model)\n- ⟦レプリカ→レプリカ：28446_repurika⟧ (replica)\n- ⟦{複製|ふくせい}→複製：17528_fukusei⟧ (reproduction)\n\nFOR PEOPLE:\n{実物|じつぶつ} can also refer to a person in real life vs. their photo or media appearance.\n⟦{例|れい}→例：09932_rei⟧: ⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{実物|じつぶつ}⟦の→の：09472_no⟧⟦{方|ほう}→方：01139_hou⟧⟦が→が：00051_ga⟧⟦かっこいい→かっこいい：09378_kakkoii⟧。(He's more handsome in person.)",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "00753_shashin",
+      "reading": "しゃしん",
+      "headword": "{写真|しゃしん}",
+      "label": "photo"
+    },
+    {
+      "type": "antonym",
+      "target_id": "07079_mokei",
+      "reading": "もけい",
+      "headword": "{模型|もけい}",
+      "label": "model"
+    },
+    {
+      "type": "antonym",
+      "target_id": "28446_repurika",
+      "reading": "れぷりか",
+      "headword": "レプリカ",
+      "label": "replica"
+    },
+    {
+      "type": "antonym",
+      "target_id": "17528_fukusei",
+      "reading": "ふくせい",
+      "headword": "{複製|ふくせい}",
+      "label": "reproduction"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13557_genbutsu",
+      "reading": "げんぶつ",
+      "headword": "{現物|げんぶつ}",
+      "label": "the real thing, actual goods"
+    }
+  ],
   "metadata": {
     "created": "2026-01-13T13:58:45Z",
-    "modified": "2026-08-08T09:25:02Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

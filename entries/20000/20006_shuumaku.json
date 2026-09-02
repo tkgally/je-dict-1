@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "20006_shuumaku_ex1",
-      "japanese": "{物語|ものがたり}は{終幕|しゅうまく}を{迎|むか}えた。",
+      "japanese": "⟦{物語|ものがたり}→物語：03634_monogatari⟧⟦は→は：00079_ha⟧{終幕|しゅうまく}⟦を→を：00422_wo⟧⟦{迎|むか}えた→迎える：01193_mukaeru⟧。",
       "english": "The story reached its conclusion.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "20006_shuumaku_ex2",
-      "japanese": "{終幕|しゅうまく}で{主人公|しゅじんこう}が{死|し}ぬ{場面|ばめん}は{観客|かんきゃく}を{泣|な}かせた。",
+      "japanese": "{終幕|しゅうまく}⟦で→で：00502_de⟧⟦{主人公|しゅじんこう}→主人公：11404_shujinkou⟧⟦が→が：00051_ga⟧⟦{死|し}ぬ→死ぬ：00669_shinu⟧⟦{場面|ばめん}→場面：03702_bamen⟧⟦は→は：00079_ha⟧⟦{観客|かんきゃく}→観客：02556_kankyaku⟧⟦を→を：00422_wo⟧⟦{泣|な}かせた→泣く：00655_naku⟧。",
       "english": "The scene where the protagonist dies in the final act moved the audience to tears.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "20006_shuumaku_ex3",
-      "japanese": "{長|なが}く{続|つづ}いた{交渉|こうしょう}も、ようやく{終幕|しゅうまく}を{迎|むか}えようとしている。",
+      "japanese": "⟦{長|なが}く→長い：00491_nagai⟧⟦{続|つづ}いた→続く：00903_tsuzuku⟧⟦{交渉|こうしょう}→交渉：02727_koushou⟧⟦も→も：00484_mo⟧、ようやく{終幕|しゅうまく}⟦を→を：00422_wo⟧⟦{迎|むか}えよう→迎える：01193_mukaeru⟧⟦として→として：06802_toshite⟧⟦いる→いる：00495_iru⟧。",
       "english": "The long-running negotiations are finally approaching their conclusion.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {終|しゅう} (end) and {幕|まく} (curtain, act). Originally a theater term for the final act of a play, now commonly used figuratively for the conclusion of any extended event or situation.\n\nUSAGE:\nThe phrase {終幕|しゅうまく}を{迎|むか}える (to reach the final act/conclusion) is the most common pattern. Has a dramatic, literary tone compared to plain words like {終|お}わり.\n\nCOMMON COLLOCATIONS:\n- {終幕|しゅうまく}を{迎|むか}える — to reach the finale\n- {終幕|しゅうまく}を{飾|かざ}る — to grace the finale\n- {大|だい}{団円|だんえん}の{終幕|しゅうまく} — a happy ending\n\nSIMILAR WORDS:\n- {開幕|かいまく} — opening (act), beginning (opposite)\n- {幕切|まくぎ}れ — end of an act, conclusion (more sudden nuance)\n- {大詰|おおづ}め — climax, final stage\n- フィナーレ — finale (loanword)",
+  "notes": "A compound of {終|しゅう} (end) and ⟦{幕|まく}→幕：12518_maku⟧ (curtain, act). Originally a theater term for the final act of a play, now commonly used figuratively for the conclusion of any extended event or situation.\n\nUSAGE:\nThe phrase {終幕|しゅうまく}⟦を→を：00422_wo⟧⟦{迎|むか}える→迎える：01193_mukaeru⟧ (to reach the final act/conclusion) is the most common pattern. Has a dramatic, literary tone compared to plain words like ⟦{終|お}わり→終わり：01361_owari⟧.\n\nCOMMON COLLOCATIONS:\n- {終幕|しゅうまく}⟦を→を：00422_wo⟧⟦{迎|むか}える→迎える：01193_mukaeru⟧ — to reach the finale\n- {終幕|しゅうまく}⟦を→を：00422_wo⟧⟦{飾|かざ}る→飾る：01185_kazaru⟧ — to grace the finale\n- {大|だい}{団円|だんえん}⟦の→の：09472_no⟧{終幕|しゅうまく} — a happy ending\n\nSIMILAR WORDS:\n- ⟦{開幕|かいまく}→開幕：08174_kaimaku⟧ — opening (act), beginning (opposite)\n- ⟦{幕切|まくぎ}れ→幕切れ：15238_makugire⟧ — end of an act, conclusion (more sudden nuance)\n- ⟦{大詰|おおづ}め→大詰め：19935_oozume⟧ — climax, final stage\n- フィナーレ — finale (loanword)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "08174_kaimaku",
+      "reading": "かいまく",
+      "headword": "{開幕|かいまく}",
+      "label": "opening (act), beginning"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15238_makugire",
+      "reading": "まくぎれ",
+      "headword": "{幕切|まくぎ}れ",
+      "label": "end of an act, conclusion"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19935_oozume",
+      "reading": "おおづめ",
+      "headword": "{大詰|おおづ}め",
+      "label": "climax, final stage"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +83,6 @@
       ]
     },
     "created": "2026-03-28T04:34:49Z",
-    "modified": "2026-07-28T00:51:36Z"
+    "modified": "2026-09-02T04:01:58Z"
   }
 }

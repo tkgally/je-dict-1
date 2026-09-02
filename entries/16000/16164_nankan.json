@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "16164_nankan_ex1",
-      "japanese": "{最大|さいだい}の{難関|なんかん}を{突破|とっぱ}した。",
+      "japanese": "⟦{最大|さいだい}→最大：04827_saidai⟧⟦の→の：09472_no⟧{難関|なんかん}⟦を→を：00422_wo⟧⟦{突破|とっぱ}した→突破する：25363_toppasuru⟧。",
       "english": "We broke through the biggest hurdle.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "16164_nankan_ex2",
-      "japanese": "{難関|なんかん}{大学|だいがく}に{合格|ごうかく}するのは{簡単|かんたん}ではない。",
+      "japanese": "{難関|なんかん}{大学|だいがく}⟦に→に：00314_ni⟧⟦{合格|ごうかく}する→合格する：27949_goukakusuru⟧⟦の→の：09472_no⟧⟦は→は：00079_ha⟧⟦{簡単|かんたん}→簡単：00713_kantan⟧で⟦は→は：00079_ha⟧⟦ない→ない：01118_nai⟧。",
       "english": "Getting into a prestigious university is not easy.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "16164_nankan_ex3",
-      "japanese": "{面接|めんせつ}{試験|しけん}が{最後|さいご}の{難関|なんかん}だったが、なんとか{乗|の}り{越|こ}えた。",
+      "japanese": "⟦{面接|めんせつ}→面接：01100_mensetsu⟧⟦{試験|しけん}→試験：01422_shiken⟧⟦が→が：00051_ga⟧⟦{最後|さいご}→最後：01413_saigo⟧⟦の→の：09472_no⟧{難関|なんかん}だった⟦が→が：00051_ga⟧、なん⟦と→と：00512_to⟧⟦か→か：09473_ka⟧⟦{乗|の}り{越|こ}えた→乗り越える：04620_norikoeru⟧。",
       "english": "The interview was the final hurdle, but I managed to get through it.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{難関|なんかん} is frequently used as a modifier: {難関|なんかん}{大学|だいがく} (prestigious/competitive university), {難関|なんかん}{試験|しけん} (difficult exam), {難関|なんかん}{資格|しかく} (difficult qualification). It implies something that requires considerable effort to overcome.\n\nCOMMON COLLOCATIONS:\n- {難関|なんかん}を{突破|とっぱ}する (to break through a barrier)\n- {難関|なんかん}を{乗|の}り{越|こ}える (to overcome a hurdle)\n- {難関|なんかん}{大学|だいがく} (competitive/elite university)\n- {難関|なんかん}{試験|しけん} (difficult exam)",
+  "notes": "USAGE:\n{難関|なんかん} is frequently used as a modifier: {難関|なんかん}{大学|だいがく} (prestigious/competitive university), {難関|なんかん}⟦{試験|しけん}→試験：01422_shiken⟧ (difficult exam), {難関|なんかん}⟦{資格|しかく}→資格：02834_shikaku⟧ (difficult qualification). It implies something that requires considerable effort to overcome.\n\nCOMMON COLLOCATIONS:\n- {難関|なんかん}⟦を→を：00422_wo⟧⟦{突破|とっぱ}する→突破する：25363_toppasuru⟧ (to break through a barrier)\n- {難関|なんかん}⟦を→を：00422_wo⟧⟦{乗|の}り{越|こ}える→乗り越える：04620_norikoeru⟧ (to overcome a hurdle)\n- {難関|なんかん}{大学|だいがく} (competitive/elite university)\n- {難関|なんかん}⟦{試験|しけん}→試験：01422_shiken⟧ (difficult exam)",
   "cross_references": [
     {
       "type": "synonym",
@@ -52,11 +52,25 @@
       "reading": "かんもん",
       "headword": "{関門|かんもん}",
       "label": "gate; checkpoint"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01410_konnan",
+      "reading": "こんなん",
+      "headword": "{困難|こんなん}",
+      "label": "difficulty, hardship"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14605_nansho",
+      "reading": "なんしょ",
+      "headword": "{難所|なんしょ}",
+      "label": "difficult spot"
     }
   ],
   "metadata": {
     "created": "2026-03-11T00:56:21Z",
-    "modified": "2026-07-18T12:31:39Z",
+    "modified": "2026-09-02T04:01:44Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

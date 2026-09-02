@@ -3,7 +3,7 @@
   "headword": "{着弾|ちゃくだん}",
   "reading": "ちゃくだん",
   "romaji": "chakudan",
-  "part_of_speech": "noun (with suru verb)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "impact of a projectile",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24807_chakudan_ex1",
-      "japanese": "{着弾|ちゃくだん}{地点|ちてん}を{確認|かくにん}する。",
+      "japanese": "{着弾|ちゃくだん}⟦{地点|ちてん}→地点：04058_chiten⟧⟦を→を：00422_wo⟧⟦{確認|かくにん}する→確認する：25332_kakuninsuru⟧。",
       "english": "Confirm the point of impact.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24807_chakudan_ex2",
-      "japanese": "ミサイルの{着弾|ちゃくだん}が{確認|かくにん}された。",
+      "japanese": "⟦ミサイル→ミサイル：26959_misairu⟧⟦の→の：09472_no⟧{着弾|ちゃくだん}⟦が→が：00051_ga⟧⟦{確認|かくにん}→確認：00158_kakunin⟧⟦された→する：00392_suru⟧。",
       "english": "The missile's impact was confirmed.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24807_chakudan_ex3",
-      "japanese": "{砲弾|ほうだん}の{着弾|ちゃくだん}による{衝撃|しょうげき}で{建物|たてもの}が{崩|くず}れた。",
+      "japanese": "⟦{砲弾|ほうだん}→砲弾：19172_houdan⟧⟦の→の：09472_no⟧{着弾|ちゃくだん}⟦による→による：28349_niyoru⟧⟦{衝撃|しょうげき}→衝撃：08678_shougeki⟧⟦で→で：00502_de⟧⟦{建物|たてもの}→建物：01458_tatemono⟧⟦が→が：00051_ga⟧⟦{崩|くず}れた→崩れる：04248_kuzureru⟧。",
       "english": "The building collapsed from the impact of the artillery shell.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "A military term composed of {着|ちゃく} (arrival/landing) and {弾|だん} (bullet/shell). Frequently encountered in news reporting about missile tests, armed conflicts, and military operations.\n\nCOMMON COLLOCATIONS:\n- {着弾|ちゃくだん}{地点|ちてん} — point of impact\n- {着弾|ちゃくだん}が{確認|かくにん}される — impact is confirmed\n- {着弾|ちゃくだん}{予想|よそう}{地域|ちいき} — projected impact zone\n- {着弾|ちゃくだん}{精度|せいど} — accuracy of impact\n\nSIMILAR WORDS:\n- {被弾|ひだん} — being hit by a projectile (from the target's perspective)\n- {命中|めいちゅう} — direct hit (emphasizes accuracy)\n- {発射|はっしゃ} — launch; firing (the opposite event — sending the projectile)",
+  "notes": "A military term composed of ⟦{着|ちゃく}→着：27655_chaku⟧ (arrival/landing) and {弾|だん} (bullet/shell). Frequently encountered in news reporting about missile tests, armed conflicts, and military operations.\n\nCOMMON COLLOCATIONS:\n- {着弾|ちゃくだん}⟦{地点|ちてん}→地点：04058_chiten⟧ — point of impact\n- {着弾|ちゃくだん}⟦が→が：00051_ga⟧⟦{確認|かくにん}される→確認する：25332_kakuninsuru⟧ — impact is confirmed\n- {着弾|ちゃくだん}⟦{予想|よそう}→予想：03664_yosou⟧⟦{地域|ちいき}→地域：01461_chiiki⟧ — projected impact zone\n- {着弾|ちゃくだん}⟦{精度|せいど}→精度：13787_seido⟧ — accuracy of impact\n\nSIMILAR WORDS:\n- {被弾|ひだん} — being hit by a projectile (from the target's perspective)\n- ⟦{命中|めいちゅう}→命中：18487_meichuu⟧ — direct hit (emphasizes accuracy)\n- ⟦{発射|はっしゃ}→発射：03695_hassha⟧ — launch; firing (the opposite event — sending the projectile)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18487_meichuu",
+      "reading": "めいちゅう",
+      "headword": "{命中|めいちゅう}",
+      "label": "direct hit"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03695_hassha",
+      "reading": "はっしゃ",
+      "headword": "{発射|はっしゃ}",
+      "label": "launch"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,6 +69,8 @@
         "noun",
         "verb-suru"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "military"
       ],
@@ -62,7 +80,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-20T16:25:37Z",
-    "modified": "2026-04-20T16:25:37Z"
+    "modified": "2026-09-02T04:02:19Z"
   },
   "conjugation": {
     "type": "suru",

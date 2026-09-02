@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "18483_kigasusumanai_ex1",
-      "japanese": "あまり{気|き}が{進|すす}まない。",
+      "japanese": "⟦あまり→あまり：00604_amari⟧{気|き}が{進|すす}まない。",
       "english": "I'm not really feeling up to it.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "18483_kigasusumanai_ex2",
-      "japanese": "{飲|の}み{会|かい}に{誘|さそ}われたが、{気|き}が{進|すす}まなかった。",
+      "japanese": "⟦{飲|の}み{会|かい}→飲み会：09371_nomikai⟧⟦に→に：00314_ni⟧⟦{誘|さそ}われた→誘う：01947_sasou⟧⟦が→が：00051_ga⟧、{気|き}が{進|すす}まなかった。",
       "english": "I was invited to a drinking party, but I wasn't in the mood.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "18483_kigasusumanai_ex3",
-      "japanese": "{正直|しょうじき}に{言|い}うと、その{仕事|しごと}を{引|ひ}き{受|う}けるのは{気|き}が{進|すす}まないんです。",
+      "japanese": "⟦{正直|しょうじき}→正直：01562_shoujiki⟧⟦に→に：00314_ni⟧⟦{言|い}う→言う：00515_iu⟧⟦と→と：00512_to⟧、⟦その→その：00993_sono⟧⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦を→を：00422_wo⟧⟦{引|ひ}き{受|う}ける→引き受ける：03140_hikiukeru⟧⟦の→の：09472_no⟧⟦は→は：00079_ha⟧{気|き}が{進|すす}まないんです。",
       "english": "To be honest, I'm reluctant to take on that job.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "One of many {気|き} expressions in Japanese. Always used in the negative — the positive form {気|き}が{進|すす}む is very rare.\n\nUSAGE:\nA softer, more polite way to express reluctance than directly refusing. Useful when you want to decline without giving a firm \"no.\"\n\nCOMMON PATTERNS:\n- あまり{気|き}が{進|すす}まない (I'm not really feeling up to it)\n- {気|き}が{進|すす}まないけど (I'm reluctant, but...)\n- {正直|しょうじき}{気|き}が{進|すす}まない (to be honest, I'm not keen)\n\nSIMILAR EXPRESSIONS:\n- {気|き}が{乗|の}らない: not in the mood (close synonym)\n- {乗|の}り{気|き}じゃない: not keen on it (more casual)\n- やる{気|き}がある: to be willing/motivated (positive counterpart)",
+  "notes": "One of many ⟦{気|き}→気：02199_ki⟧ expressions in Japanese. Always used in the negative — the positive form ⟦{気|き}→気：02199_ki⟧⟦が→が：00051_ga⟧⟦{進|すす}む→進む：01225_susumu⟧ is very rare.\n\nUSAGE:\nA softer, more polite way to express reluctance than directly refusing. Useful when you want to decline without giving a firm \"no.\"\n\nCOMMON PATTERNS:\n- ⟦あまり→あまり：00604_amari⟧{気|き}が{進|すす}まない (I'm not really feeling up to it)\n- {気|き}が{進|すす}まない⟦けど→けど：09477_kedo⟧ (I'm reluctant, but...)\n- ⟦{正直|しょうじき}→正直：01562_shoujiki⟧{気|き}が{進|すす}まない (to be honest, I'm not keen)\n\nSIMILAR WORDS:\n- ⟦{気|き}→気：02199_ki⟧⟦が→が：00051_ga⟧⟦{乗|の}らない→乗る：00511_noru⟧: not in the mood (close synonym)\n- {乗|の}り{気|き}⟦じゃない→じゃない：28483_janai⟧: not keen on it (more casual)\n- ⟦やる{気|き}→やる気：05089_yaruki⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧: to be willing/motivated (positive counterpart)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "19541_kigaraku",
+      "reading": "きがらく",
+      "headword": "{気|き}が{楽|らく}",
+      "label": "at ease"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +68,6 @@
       ]
     },
     "created": "2026-03-22T03:10:18Z",
-    "modified": "2026-05-08T10:08:08Z"
+    "modified": "2026-09-02T04:01:52Z"
   }
 }

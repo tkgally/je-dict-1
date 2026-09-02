@@ -43,11 +43,40 @@
       ]
     }
   ],
-  "notes": "ALTERNATE TERMS:\n・ドアミラー (door mirror - mounted on door)\n・フェンダーミラー (fender mirror - mounted on fender, traditional style)\n・⟦{外側|そとがわ}→外側：05450_sotogawa⟧ミラー (outer mirror)\n\nRELATED MIRRORS:\n・バックミラー/ルームミラー (rearview mirror - inside)\n・⟦{死角|しかく}→死角：15684_shikaku⟧ (blind spot)\n\nMIRROR FEATURES:\n・⟦{電動|でんどう}→電動：06412_dendou⟧ミラー (power mirrors)\n・⟦{格納式|かくのうしき}→格納式：noentry⟧ミラー (retractable mirrors)\n・ヒーター⟦{付|つ}き→付く：01960_tsuku⟧ミラー (heated mirrors)\n\nCOLLOCATIONS:\n・サイドミラー⟦を→を：00422_wo⟧⟦{見|み}る→見る：00283_miru⟧ (to look at the side mirror)\n・サイドミラー⟦を→を：00422_wo⟧⟦{調整|ちょうせい}→調整：14839_chousei⟧⟦する→する：00392_suru⟧ (to adjust the side mirror)\n・サイドミラー⟦を→を：00422_wo⟧⟦たたむ→畳む：02073_tatamu⟧/⟦{格納|かくのう}→格納：noentry⟧⟦する→する：00392_suru⟧ (to fold in the side mirror)\n・サイドミラー⟦が→が：00051_ga⟧⟦{曇|くも}る→曇る：00723_kumoru⟧ (side mirror fogs up)",
-  "cross_references": [],
+  "notes": "ALTERNATE TERMS:\n- ⟦ドアミラー→ドアミラー：26365_doamiraa⟧ (door mirror - mounted on door)\n- フェンダー⟦ミラー→ミラー：25746_miraa⟧ (fender mirror - mounted on fender, traditional style)\n- ⟦{外側|そとがわ}→外側：05450_sotogawa⟧⟦ミラー→ミラー：25746_miraa⟧ (outer mirror)\n\nRELATED MIRRORS:\n- ⟦バックミラー→バックミラー：07333_bakkumiraa⟧/ルーム⟦ミラー→ミラー：25746_miraa⟧ (rearview mirror - inside)\n- ⟦{死角|しかく}→死角：15684_shikaku⟧ (blind spot)\n\nMIRROR FEATURES:\n- ⟦{電動|でんどう}→電動：06412_dendou⟧⟦ミラー→ミラー：25746_miraa⟧ (power mirrors)\n- ⟦{格納式|かくのうしき}→格納式：noentry⟧⟦ミラー→ミラー：25746_miraa⟧ (retractable mirrors)\n- ⟦ヒーター→ヒーター：05283_hiitaa⟧⟦{付|つ}き→付く：01960_tsuku⟧⟦ミラー→ミラー：25746_miraa⟧ (heated mirrors)\n\nCOMMON COLLOCATIONS:\n- サイドミラー⟦を→を：00422_wo⟧⟦{見|み}る→見る：00283_miru⟧ (to look at the side mirror)\n- サイドミラー⟦を→を：00422_wo⟧⟦{調整|ちょうせい}→調整：14839_chousei⟧⟦する→する：00392_suru⟧ (to adjust the side mirror)\n- サイドミラー⟦を→を：00422_wo⟧⟦たたむ→畳む：02073_tatamu⟧/⟦{格納|かくのう}→格納：noentry⟧⟦する→する：00392_suru⟧ (to fold in the side mirror)\n- サイドミラー⟦が→が：00051_ga⟧⟦{曇|くも}る→曇る：00723_kumoru⟧ (side mirror fogs up)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "07333_bakkumiraa",
+      "reading": "ばっくみらー",
+      "headword": "バックミラー",
+      "label": "rearview mirror"
+    },
+    {
+      "type": "related",
+      "target_id": "15684_shikaku",
+      "reading": "しかく",
+      "headword": "{死角|しかく}",
+      "label": "blind spot"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25689_furontogarasu",
+      "reading": "ふろんとがらす",
+      "headword": "フロントガラス",
+      "label": "windshield"
+    },
+    {
+      "type": "related",
+      "target_id": "26365_doamiraa",
+      "reading": "どあみらー",
+      "headword": "ドアミラー",
+      "label": "side mirror"
+    }
+  ],
   "metadata": {
     "created": "2026-01-17T23:54:42Z",
-    "modified": "2026-07-19T21:21:58Z",
+    "modified": "2026-09-02T04:01:08Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

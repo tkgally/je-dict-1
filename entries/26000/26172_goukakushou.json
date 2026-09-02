@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26172_goukakushou_ex1",
-      "japanese": "{合格証|ごうかくしょう}が{届|とど}いた。",
+      "japanese": "{合格証|ごうかくしょう}⟦が→が：00051_ga⟧⟦{届|とど}いた→届く：00899_todoku⟧。",
       "english": "The passing certificate arrived.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26172_goukakushou_ex2",
-      "japanese": "{試験|しけん}に{受|う}かって{合格証|ごうかくしょう}をもらった。",
+      "japanese": "⟦{試験|しけん}→試験：01422_shiken⟧⟦に→に：00314_ni⟧⟦{受|う}かって→受かる：19367_ukaru⟧{合格証|ごうかくしょう}⟦を→を：00422_wo⟧⟦もらった→もらう：00520_morau⟧。",
       "english": "I passed the exam and received a certificate.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26172_goukakushou_ex3",
-      "japanese": "{合格証|ごうかくしょう}の{再発行|さいはっこう}には{手数料|てすうりょう}がかかります。",
+      "japanese": "{合格証|ごうかくしょう}⟦の→の：09472_no⟧⟦{再発行|さいはっこう}→再発行：18901_saihakkou⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{手数料|てすうりょう}→手数料：05423_tesuuryou⟧⟦が→が：00051_ga⟧⟦かかります→かかる：00711_kakaru⟧。",
       "english": "There is a fee for reissuing the passing certificate.",
       "sense_numbers": [
         1
@@ -44,8 +44,23 @@
       "notes": null
     }
   ],
-  "notes": "A {合格証|ごうかくしょう} is an official certificate proving that someone has successfully passed an examination or met a standard. It is commonly issued for qualification exams such as {漢字検定|かんじけんてい} or {日本語能力試験|にほんごのうりょくしけん}.\n\nCOMMON COLLOCATIONS:\n- {合格証書|ごうかくしょうしょ} — formal certificate of passing (longer, more official form)\n- {合格証明書|ごうかくしょうめいしょ} — certificate proving one has passed\n- {合格証|ごうかくしょう}を{提示|ていじ}する — to present a passing certificate\n- {合格証|ごうかくしょう}を{紛失|ふんしつ}する — to lose a passing certificate\n\nSIMILAR WORDS:\n- {修了証|しゅうりょうしょう} — certificate of completion (for finishing a course, not necessarily passing an exam)\n- {免許証|めんきょしょう} — license (authorizes the holder to do something, such as drive)\n- {資格証|しかくしょう} — qualification certificate",
-  "cross_references": [],
+  "notes": "A {合格証|ごうかくしょう} is an official certificate proving that someone has successfully passed an examination or met a standard. It is commonly issued for qualification exams such as {漢字検定|かんじけんてい} or {日本語能力試験|にほんごのうりょくしけん}.\n\nCOMMON COLLOCATIONS:\n- {合格証書|ごうかくしょうしょ} — formal certificate of passing (longer, more official form)\n- {合格証明書|ごうかくしょうめいしょ} — certificate proving one has passed\n- {合格証|ごうかくしょう}⟦を→を：00422_wo⟧⟦{提示|ていじ}する→提示する：26842_teijisuru⟧ — to present a passing certificate\n- {合格証|ごうかくしょう}⟦を→を：00422_wo⟧⟦{紛失|ふんしつ}する→紛失する：18835_funshitsusuru⟧ — to lose a passing certificate\n\nSIMILAR WORDS:\n- {修了証|しゅうりょうしょう} — certificate of completion (for finishing a course, not necessarily passing an exam)\n- ⟦{免許証|めんきょしょう}→免許証：03160_menkyoshou⟧ — license (authorizes the holder to do something, such as drive)\n- ⟦{資格証|しかくしょう}→資格証：26034_shikakushou⟧ — qualification certificate",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03160_menkyoshou",
+      "reading": "めんきょしょう",
+      "headword": "{免許証|めんきょしょう}",
+      "label": "license"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26034_shikakushou",
+      "reading": "しかくしょう",
+      "headword": "{資格証|しかくしょう}",
+      "label": "qualification certificate"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,12 +68,13 @@
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "education",
         "communication"
       ]
     },
     "created": "2026-04-29T16:29:28Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T04:02:25Z"
   }
 }

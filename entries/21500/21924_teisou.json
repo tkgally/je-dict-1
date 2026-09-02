@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21924_teisou_ex1",
-      "japanese": "{低層|ていそう}マンションに{住|す}む。",
+      "japanese": "{低層|ていそう}⟦マンション→マンション：01035_manshon⟧⟦に→に：00314_ni⟧⟦{住|す}む→住む：00673_sumu⟧。",
       "english": "To live in a low-rise apartment building.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21924_teisou_ex2",
-      "japanese": "この{地域|ちいき}は{低層|ていそう}{住宅|じゅうたく}が{多|おお}い。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{地域|ちいき}→地域：01461_chiiki⟧⟦は→は：00079_ha⟧{低層|ていそう}⟦{住宅|じゅうたく}→住宅：03280_juutaku⟧⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "This area has many low-rise houses.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21924_teisou_ex3",
-      "japanese": "{低層|ていそう}{階|かい}のオフィスは{日当|ひあ}たりが{悪|わる}いことがある。",
+      "japanese": "{低層|ていそう}⟦{階|かい}→階：01034_kai⟧⟦の→の：09472_no⟧⟦オフィス→オフィス：00327_ofisu⟧⟦は→は：00079_ha⟧⟦{日当|ひあ}たり→日当たり：07498_hiatari⟧⟦が→が：00051_ga⟧⟦{悪|わる}い→悪い：00908_warui⟧こと⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "Offices on lower floors can sometimes have poor sunlight.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Refers to buildings or structures that are low in height, typically three stories or fewer. Often contrasted with {中層|ちゅうそう} (mid-rise) and {高層|こうそう} (high-rise).\n\nCOMMON COLLOCATIONS:\n- {低層|ていそう}ビル: low-rise building\n- {低層|ていそう}マンション: low-rise apartment building\n- {低層|ていそう}{住宅|じゅうたく}: low-rise housing\n- {低層|ていそう}{階|かい}: lower floors\n\nSIMILAR WORDS:\n- {高層|こうそう}: high-rise — the opposite, referring to tall buildings\n- {中層|ちゅうそう}: mid-rise — between low-rise and high-rise\n\nNOTE:\nIn Japanese urban planning, {低層|ていそう}{住居|じゅうきょ}{専用|せんよう}{地域|ちいき} (exclusively low-rise residential zone) is a common zoning designation that restricts building height.",
+  "notes": "Refers to buildings or structures that are low in height, typically three stories or fewer. Often contrasted with {中層|ちゅうそう} (mid-rise) and ⟦{高層|こうそう}→高層：04145_kousou⟧ (high-rise).\n\nCOMMON COLLOCATIONS:\n- {低層|ていそう}⟦ビル→ビル：01500_biru⟧: low-rise building\n- {低層|ていそう}⟦マンション→マンション：01035_manshon⟧: low-rise apartment building\n- {低層|ていそう}⟦{住宅|じゅうたく}→住宅：03280_juutaku⟧: low-rise housing\n- {低層|ていそう}⟦{階|かい}→階：01034_kai⟧: lower floors\n\nSIMILAR WORDS:\n- ⟦{高層|こうそう}→高層：04145_kousou⟧: high-rise — the opposite, referring to tall buildings\n- {中層|ちゅうそう}: mid-rise — between low-rise and high-rise\n\nUSAGE:\nIn Japanese urban planning, {低層|ていそう}⟦{住居|じゅうきょ}→住居：11612_juukyo⟧⟦{専用|せんよう}→専用：12385_senyou⟧⟦{地域|ちいき}→地域：01461_chiiki⟧ (exclusively low-rise residential zone) is a common zoning designation that restricts building height.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "04145_kousou",
+      "reading": "こうそう",
+      "headword": "{高層|こうそう}",
+      "label": "high-rise"
+    },
+    {
+      "type": "related",
+      "target_id": "26197_choukousou",
+      "reading": "ちょうこうそう",
+      "headword": "{超高層|ちょうこうそう}",
+      "label": "super high-rise"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +75,6 @@
       ]
     },
     "created": "2026-04-03T22:06:17Z",
-    "modified": "2026-07-30T03:35:34Z"
+    "modified": "2026-09-02T04:02:05Z"
   }
 }

@@ -3,7 +3,7 @@
   "headword": "{捕|と}る",
   "reading": "とる",
   "romaji": "toru",
-  "part_of_speech": "verb-godan",
+  "part_of_speech": "verb (godan)",
   "gloss": "to catch; to capture; to seize",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28715_toru_ex1",
-      "japanese": "{虫|むし}を{捕|と}る。",
+      "japanese": "⟦{虫|むし}→虫：02262_mushi⟧⟦を→を：00422_wo⟧{捕|と}る。",
       "english": "I catch insects.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28715_toru_ex2",
-      "japanese": "{川|かわ}で{魚|さかな}を{捕|と}った。",
+      "japanese": "⟦{川|かわ}→川：02186_kawa⟧⟦で→で：00502_de⟧⟦{魚|さかな}→魚：00499_sakana⟧⟦を→を：00422_wo⟧{捕|と}った。",
       "english": "I caught fish in the river.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28715_toru_ex3",
-      "japanese": "{警察|けいさつ}は{何時間|なんじかん}もかけて{犯人|はんにん}を{捕|と}らえた。",
+      "japanese": "⟦{警察|けいさつ}→警察：01393_keisatsu⟧⟦は→は：00079_ha⟧⟦{何時間|なんじかん}→何時間：30372_nanjikan⟧⟦も→も：00484_mo⟧⟦かけて→かける：00854_kakeru⟧⟦{犯人|はんにん}→犯人：03572_hannin⟧⟦を→を：00422_wo⟧{捕|と}らえた。",
       "english": "The police took several hours to apprehend the suspect.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Transitive godan verb ({五段|ごだん}, ら-row stem). One of several とる verbs distinguished mainly by kanji choice — {捕|と}る specifically means catching a moving target (animals, criminals).\n\nTRANSITIVITY:\n- Transitive: Xを{捕|と}る\n- No common intransitive pair; {捕|と}まる (to be caught) is the related intransitive.\n\nCOMMON COLLOCATIONS:\n- {魚|さかな}を{捕|と}る: to catch fish\n- {虫|むし}を{捕|と}る: to catch insects\n- {犯人|はんにん}を{捕|と}る: to catch a criminal\n- {鼠|ねずみ}を{捕|と}る: to catch mice (often said of cats)\n\nKANJI DISTINCTIONS (とる homophones):\n- {取|と}る: to take, to pick up — most general, default choice\n- {捕|と}る: to catch, to capture — moving prey or criminals (this entry)\n- {採|と}る: to gather, to adopt — collecting samples, harvesting, hiring\n- {撮|と}る: to take (a photo) — only for photos and video\n\nSIMILAR WORDS:\n- {捕|つか}まえる: to catch; to apprehend — emphasizes the act of grabbing hold; often interchangeable with {捕|と}る but more vivid\n- {捕獲|ほかく}する: to capture (formal) — used for wildlife management, escapees, etc.",
+  "notes": "Transitive godan verb (⟦{五段|ごだん}→五段：28275_godan⟧, ら-row stem). One of several とる verbs distinguished mainly by kanji choice — {捕|と}る specifically means catching a moving target (animals, criminals).\n\nTRANSITIVITY:\n- Transitive: X⟦を→を：00422_wo⟧{捕|と}る\n- No common intransitive pair; {捕|と}まる (to be caught) is the related intransitive.\n\nCOMMON COLLOCATIONS:\n- ⟦{魚|さかな}→魚：00499_sakana⟧⟦を→を：00422_wo⟧{捕|と}る: to catch fish\n- ⟦{虫|むし}→虫：02262_mushi⟧⟦を→を：00422_wo⟧{捕|と}る: to catch insects\n- ⟦{犯人|はんにん}→犯人：03572_hannin⟧⟦を→を：00422_wo⟧{捕|と}る: to catch a criminal\n- ⟦{鼠|ねずみ}→鼠：02238_nezumi⟧⟦を→を：00422_wo⟧{捕|と}る: to catch mice (often said of cats)\n\nKANJI DISTINCTIONS (とる homophones):\n- ⟦{取|と}る→取る：00565_toru⟧: to take, to pick up — most general, default choice\n- {捕|と}る: to catch, to capture — moving prey or criminals (this entry)\n- ⟦{採|と}る→採る：20862_toru⟧: to gather, to adopt — collecting samples, harvesting, hiring\n- ⟦{撮|と}る→撮る：00760_toru⟧: to take (a photo) — only for photos and video\n\nSIMILAR WORDS:\n- ⟦{捕|つか}まえる→捕まえる：01214_tsukamaeru⟧: to catch; to apprehend — emphasizes the act of grabbing hold; often interchangeable with {捕|と}る but more vivid\n- ⟦{捕獲|ほかく}→捕獲：12881_hokaku⟧⟦する→する：00392_suru⟧: to capture (formal) — used for wildlife management, escapees, etc.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01214_tsukamaeru",
+      "reading": "つかまえる",
+      "headword": "{捕|つか}まえる",
+      "label": "to catch"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12881_hokaku",
+      "reading": "ほかく",
+      "headword": "{捕獲|ほかく}",
+      "label": "to capture"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,7 +78,7 @@
       "verb_class": "godan-ru"
     },
     "created": "2026-06-04T03:15:12Z",
-    "modified": "2026-06-04T03:15:12Z"
+    "modified": "2026-09-02T04:02:34Z"
   },
   "conjugation": {
     "type": "godan",

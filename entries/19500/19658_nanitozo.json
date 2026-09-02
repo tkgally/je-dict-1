@@ -15,40 +15,59 @@
   "examples": [
     {
       "id": "19658_nanitozo_ex1",
-      "japanese": "{何卒|なにとぞ}よろしくお{願|ねが}いいたします。",
+      "japanese": "{何卒|なにとぞ}⟦よろしく→よろしく：01070_yoroshiku⟧⟦お{願|ねが}いいたします→お願いいたします：27603_onegaiitashimasu⟧。",
       "english": "I humbly ask for your kind consideration.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19658_nanitozo_ex2",
-      "japanese": "{何卒|なにとぞ}ご{了承|りょうしょう}ください。",
+      "japanese": "{何卒|なにとぞ}ご⟦{了承|りょうしょう}→了承：11415_ryoushou⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please kindly understand.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19658_nanitozo_ex3",
-      "japanese": "ご{不便|ふべん}をおかけしますが、{何卒|なにとぞ}ご{理解|りかい}のほどお{願|ねが}い{申|もう}し{上|あ}げます。",
+      "japanese": "ご⟦{不便|ふべん}→不便：01501_fuben⟧⟦を→を：00422_wo⟧おかけ⟦します→する：00392_suru⟧⟦が→が：00051_ga⟧、{何卒|なにとぞ}ご⟦{理解|りかい}→理解：03674_rikai⟧⟦の→の：09472_no⟧ほど⟦お{願|ねが}い→お願い：10299_onegai⟧⟦{申|もう}し{上|あ}げます→申し上げる：01734_moushiageru⟧。",
       "english": "We apologize for the inconvenience and kindly ask for your understanding.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "An archaic compound of {何|なに} (what) and とぞ (an emphatic classical particle combination). Despite its old origins, it remains very common in modern formal Japanese, especially in business.\n\nUSAGE:\nUsed almost exclusively in formal written and spoken contexts — business emails, official announcements, and polite customer-facing communication. It elevates the formality of a request beyond どうぞ or どうか. Rarely used in casual conversation.\n\nCOMMON COLLOCATIONS:\n- {何卒|なにとぞ}よろしくお{願|ねが}いいたします — standard closing for formal requests\n- {何卒|なにとぞ}ご{了承|りょうしょう}ください — please kindly understand/accept\n- {何卒|なにとぞ}ご{容赦|ようしゃ}ください — please kindly forgive/excuse\n- {何卒|なにとぞ}ご{確認|かくにん}ください — please kindly confirm\n\nSIMILAR WORDS:\n- どうぞ — please; general polite usage, much less formal\n- どうか — please; earnest personal requests, less formal than {何卒|なにとぞ}\n- くれぐれも — sincerely, earnestly; emphasizes the speaker's strong wish",
+  "notes": "An archaic compound of ⟦{何|なに}→何：00498_nani⟧ (what) and ⟦と→と：00512_to⟧ぞ (an emphatic classical particle combination). Despite its old origins, it remains very common in modern formal Japanese, especially in business.\n\nUSAGE:\nUsed almost exclusively in formal written and spoken contexts — business emails, official announcements, and polite customer-facing communication. It elevates the formality of a request beyond ⟦どうぞ→どうぞ：02920_douzo⟧ or ⟦どう→どう：00543_dou⟧⟦か→か：09473_ka⟧. Rarely used in casual conversation.\n\nCOMMON COLLOCATIONS:\n- {何卒|なにとぞ}⟦よろしく→よろしく：01070_yoroshiku⟧⟦お{願|ねが}いいたします→お願いいたします：27603_onegaiitashimasu⟧ — standard closing for formal requests\n- {何卒|なにとぞ}ご⟦{了承|りょうしょう}→了承：11415_ryoushou⟧⟦ください→ください：02899_kudasai⟧ — please kindly understand/accept\n- {何卒|なにとぞ}⟦ご{容赦|ようしゃ}→ご容赦：06969_goyousha⟧⟦ください→ください：02899_kudasai⟧ — please kindly forgive/excuse\n- {何卒|なにとぞ}⟦ご{確認|かくにん}→ご確認：23544_gokakunin⟧⟦ください→ください：02899_kudasai⟧ — please kindly confirm\n\nSIMILAR WORDS:\n- ⟦どうぞ→どうぞ：02920_douzo⟧ — please; general polite usage, much less formal\n- ⟦どう→どう：00543_dou⟧⟦か→か：09473_ka⟧ — please; earnest personal requests, less formal than {何卒|なにとぞ}\n- くれぐれ⟦も→も：00484_mo⟧ — sincerely, earnestly; emphasizes the speaker's strong wish",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02920_douzo",
+      "reading": "どうぞ",
+      "headword": "どうぞ",
+      "label": "please"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adverb"],
+      "pos": [
+        "adverb"
+      ],
       "formality": "formal",
       "politeness": "polite",
-      "semantic": ["communication"]
+      "semantic": [
+        "communication"
+      ]
     },
     "created": "2026-03-26T11:41:59Z",
-    "modified": "2026-03-26T11:41:59Z"
+    "modified": "2026-09-02T04:01:56Z"
   }
 }

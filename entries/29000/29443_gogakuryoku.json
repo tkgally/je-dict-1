@@ -15,41 +15,74 @@
   "examples": [
     {
       "id": "29443_gogakuryoku_ex1",
-      "japanese": "{語学力|ごがくりょく}を{磨|みが}く。",
+      "japanese": "{語学力|ごがくりょく}⟦を→を：00422_wo⟧⟦{磨|みが}く→磨く：02427_migaku⟧。",
       "english": "to polish one's language skills.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29443_gogakuryoku_ex2",
-      "japanese": "この{仕事|しごと}には{高|たか}い{語学力|ごがくりょく}が{必要|ひつよう}だ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{高|たか}い→高い：00500_takai⟧{語学力|ごがくりょく}⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧だ。",
       "english": "This job requires strong language ability.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29443_gogakuryoku_ex3",
-      "japanese": "{留学|りゅうがく}を{通|つう}じて{語学力|ごがくりょく}を{大|おお}きく{伸|の}ばすことができた。",
+      "japanese": "⟦{留学|りゅうがく}→留学：03677_ryuugaku⟧⟦を→を：00422_wo⟧⟦{通|つう}じて→通じる：02289_tsuujiru⟧{語学力|ごがくりょく}⟦を→を：00422_wo⟧⟦{大|おお}きく→大きい：00335_ookii⟧⟦{伸|の}ばす→伸ばす：01973_nobasu⟧こと⟦が→が：00051_ga⟧⟦できた→できる：00557_dekiru⟧。",
       "english": "Through studying abroad, I was able to greatly improve my language skills.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Refers to the skill itself, not the act of studying. Frequently appears in job postings and study-abroad contexts.\n\nCOMMON COLLOCATIONS:\n- {語学力|ごがくりょく}を{磨|みが}く: to polish one's language skills\n- {語学力|ごがくりょく}を{身|み}につける: to acquire language ability\n- {語学力|ごがくりょく}を{活|い}かす: to make use of one's language ability\n- {語学力|ごがくりょく}が{高|たか}い: to have strong language ability\n- {語学力|ごがくりょく}{不足|ぶそく}: lack of language ability\n\nSIMILAR WORDS:\n- {語学|ごがく}: language study — the activity or subject of learning languages\n- {語学力|ごがくりょく}: the resulting ability or proficiency itself",
+  "notes": "Refers to the skill itself, not the act of studying. Frequently appears in job postings and study-abroad contexts.\n\nCOMMON COLLOCATIONS:\n- {語学力|ごがくりょく}⟦を→を：00422_wo⟧⟦{磨|みが}く→磨く：02427_migaku⟧: to polish one's language skills\n- {語学力|ごがくりょく}⟦を→を：00422_wo⟧⟦{身|み}につける→身につける：03158_minitsukeru⟧: to acquire language ability\n- {語学力|ごがくりょく}⟦を→を：00422_wo⟧⟦{活|い}かす→活かす：10422_ikasu⟧: to make use of one's language ability\n- {語学力|ごがくりょく}⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧: to have strong language ability\n- {語学力|ごがくりょく}{不足|ぶそく}: lack of language ability\n\nSIMILAR WORDS:\n- ⟦{語学|ごがく}→語学：02770_gogaku⟧: language study — the activity or subject of learning languages\n- {語学力|ごがくりょく}: the resulting ability or proficiency itself",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23778_kaiwaryoku",
+      "reading": "かいわりょく",
+      "headword": "{会話力|かいわりょく}",
+      "label": "conversational ability"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23938_gengonouryoku",
+      "reading": "げんごのうりょく",
+      "headword": "{言語能力|げんごのうりょく}",
+      "label": "language ability"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28017_kokugoryoku",
+      "reading": "こくごりょく",
+      "headword": "国語力",
+      "label": "Japanese language ability"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["language"],
+      "politeness": "plain",
+      "semantic": [
+        "language"
+      ],
       "domain": []
     },
     "created": "2026-06-24T00:19:16Z",
-    "modified": "2026-06-24T00:19:16Z"
+    "modified": "2026-09-02T04:02:36Z"
   }
 }

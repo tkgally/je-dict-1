@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "16636_shakuyanin_ex1",
-      "japanese": "{借家人|しゃくやにん}の{権利|けんり}は{法律|ほうりつ}で{守|まも}られている。",
+      "japanese": "{借家人|しゃくやにん}⟦の→の：09472_no⟧⟦{権利|けんり}→権利：02711_kenri⟧⟦は→は：00079_ha⟧⟦{法律|ほうりつ}→法律：01722_houritsu⟧⟦で→で：00502_de⟧⟦{守|まも}られている→守る：01986_mamoru⟧。",
       "english": "Tenants' rights are protected by law.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "16636_shakuyanin_ex2",
-      "japanese": "{新|あたら}しい{借家人|しゃくやにん}が{入居|にゅうきょ}した。",
+      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧{借家人|しゃくやにん}⟦が→が：00051_ga⟧⟦{入居|にゅうきょ}→入居：08630_nyuukyo⟧⟦した→する：00392_suru⟧。",
       "english": "A new tenant moved in.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "16636_shakuyanin_ex3",
-      "japanese": "{大家|おおや}と{借家人|しゃくやにん}の{間|あいだ}でトラブルが{起|お}きた。",
+      "japanese": "⟦{大家|おおや}→大家：01907_ooya⟧⟦と→と：00512_to⟧{借家人|しゃくやにん}⟦の→の：09472_no⟧⟦{間|あいだ}→間：00914_aida⟧⟦で→で：00502_de⟧⟦トラブル→トラブル：07061_toraburu⟧⟦が→が：00051_ga⟧⟦{起|お}きた→起きる：00521_okiru⟧。",
       "english": "A dispute arose between the landlord and the tenant.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "{借家人|しゃくやにん} is a formal legal term for a person who rents a house or apartment. Compound of {借家|しゃくや} (rented house) + {人|にん} (person).\n\nCOMMON COLLOCATIONS:\n- {借家人|しゃくやにん}の{権利|けんり}: tenant's rights\n- {借家人|しゃくやにん}{保護|ほご}: tenant protection\n- {借家人|しゃくやにん}{賠償|ばいしょう}{責任|せきにん}{保険|ほけん}: tenant liability insurance\n\nSIMILAR WORDS:\n- {借主|かりぬし}: borrower, tenant (less formal, more common in conversation)\n- {入居者|にゅうきょしゃ}: occupant, resident (neutral)\n- {店子|たなこ}: tenant (older/literary term)\n- {大家|おおや}: landlord (antonym)\n\nREGISTER:\nFormal and legal. In everyday conversation, {借主|かりぬし} or {入居者|にゅうきょしゃ} is more natural. {借家人|しゃくやにん} appears primarily in legal documents, contracts, and real estate discussions.",
+  "notes": "{借家人|しゃくやにん} is a formal legal term for a person who rents a house or apartment. Compound of ⟦{借家|しゃくや}→借家：29494_shakuya⟧ (rented house) + ⟦{人|にん}→〜人：00658_nin⟧ (person).\n\nCOMMON COLLOCATIONS:\n- {借家人|しゃくやにん}⟦の→の：09472_no⟧⟦{権利|けんり}→権利：02711_kenri⟧: tenant's rights\n- {借家人|しゃくやにん}⟦{保護|ほご}→保護：03625_hogo⟧: tenant protection\n- {借家人|しゃくやにん}⟦{賠償|ばいしょう}→賠償：07641_baishou⟧⟦{責任|せきにん}→責任：03298_sekinin⟧⟦{保険|ほけん}→保険：01509_hoken⟧: tenant liability insurance\n\nSIMILAR WORDS:\n- {借主|かりぬし}: borrower, tenant (less formal, more common in conversation)\n- ⟦{入居者|にゅうきょしゃ}→入居者：20979_nyuukyosha⟧: occupant, resident (neutral)\n- {店子|たなこ}: tenant (older/literary term)\n- ⟦{大家|おおや}→大家：01907_ooya⟧: landlord (antonym)\n\nREGISTER:\nFormal and legal. In everyday conversation, {借主|かりぬし} or ⟦{入居者|にゅうきょしゃ}→入居者：20979_nyuukyosha⟧ is more natural. {借家人|しゃくやにん} appears primarily in legal documents, contracts, and real estate discussions.",
   "cross_references": [
     {
       "type": "antonym",
@@ -52,11 +52,18 @@
       "reading": "おおや",
       "headword": "{大家|おおや}",
       "label": "landlord"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20979_nyuukyosha",
+      "reading": "にゅうきょしゃ",
+      "headword": "{入居者|にゅうきょしゃ}",
+      "label": "occupant, resident"
     }
   ],
   "metadata": {
     "created": "2026-03-14T01:36:58Z",
-    "modified": "2026-07-20T13:24:52Z",
+    "modified": "2026-09-02T04:01:45Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

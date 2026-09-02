@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "07816_gaadeningu_ex1",
-      "japanese": "ガーデニングが{趣味|しゅみ}です。",
+      "japanese": "ガーデニング⟦が→が：00051_ga⟧⟦{趣味|しゅみ}→趣味：00889_shumi⟧です。",
       "english": "Gardening is my hobby.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "07816_gaadeningu_ex2",
-      "japanese": "{週末|しゅうまつ}はガーデニングをして{過|す}ごす。",
+      "japanese": "⟦{週末|しゅうまつ}→週末：03030_shuumatsu⟧⟦は→は：00079_ha⟧ガーデニング⟦を→を：00422_wo⟧⟦して→する：00392_suru⟧⟦{過|す}ごす→過ごす：02062_sugosu⟧。",
       "english": "I spend my weekends gardening.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "07816_gaadeningu_ex3",
-      "japanese": "ベランダでガーデニングを{楽|たの}しんでいる。",
+      "japanese": "⟦ベランダ→ベランダ：05072_beranda⟧⟦で→で：00502_de⟧ガーデニング⟦を→を：00422_wo⟧⟦{楽|たの}しんでいる→楽しむ：01203_tanoshimu⟧。",
       "english": "I enjoy gardening on my balcony.",
       "sense_numbers": [
         1
@@ -43,7 +43,37 @@
       "notes": null
     }
   ],
-  "notes": "ガーデニング is a loanword from English \"gardening,\" used specifically for recreational or hobby gardening, often with an emphasis on decorative plants and flowers.\n\nGARDENING IN JAPAN:\n- ベランダガーデニング (balcony gardening) - popular in apartments\n- コンテナガーデニング (container gardening)\n- {家庭菜園|かていさいえん} (vegetable gardening - native term)\n\nCOMMON COLLOCATIONS:\n- ガーデニング{用品|ようひん} (gardening supplies)\n- ガーデニングショップ (gardening shop)\n- ガーデニング{初心者|しょしんしゃ} (gardening beginner)\n\nDISTINCTION:\n- ガーデニング: focuses on ornamental plants, flowers, hobby aspect\n- {園芸|えんげい}: broader term for horticulture/gardening (includes professional)\n- {家庭菜園|かていさいえん}: specifically vegetable gardening\n\nPOPULAR PLANTS:\n- バラ (roses), ハーブ (herbs), {多肉植物|たにくしょくぶつ} (succulents), {観葉植物|かんようしょくぶつ} (foliage plants)\n\nREGISTER: Neutral. Common hobby vocabulary.",
+  "notes": "ガーデニング is a loanword from English \"gardening,\" used specifically for recreational or hobby gardening, often with an emphasis on decorative plants and flowers.\n\nGARDENING IN JAPAN:\n- ⟦ベランダ→ベランダ：05072_beranda⟧ガーデニング (balcony gardening) - popular in apartments\n- ⟦コンテナ→コンテナ：09805_kontena⟧ガーデニング (container gardening)\n- ⟦{家庭菜園|かていさいえん}→家庭菜園：07085_kateisaien⟧ (vegetable gardening - native term)\n\nCOMMON COLLOCATIONS:\n- ガーデニング⟦{用品|ようひん}→用品：13526_youhin⟧ (gardening supplies)\n- ガーデニング⟦ショップ→ショップ：08913_shoppu⟧ (gardening shop)\n- ガーデニング⟦{初心者|しょしんしゃ}→初心者：10149_shoshinsha⟧ (gardening beginner)\n\nSIMILAR WORDS:\n- ガーデニング: focuses on ornamental plants, flowers, hobby aspect\n- ⟦{園芸|えんげい}→園芸：04105_engei⟧: broader term for horticulture/gardening (includes professional)\n- ⟦{家庭菜園|かていさいえん}→家庭菜園：07085_kateisaien⟧: specifically vegetable gardening\n\nPOPULAR PLANTS:\n- バラ (roses), ⟦ハーブ→ハーブ：11246_haabu⟧ (herbs), ⟦{多肉植物|たにくしょくぶつ}→多肉植物：28903_tanikushokubutsu⟧ (succulents), ⟦{観葉植物|かんようしょくぶつ}→観葉植物：19239_kanyoushokubutsu⟧ (foliage plants)\n\nREGISTER: Neutral. Common hobby vocabulary.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04105_engei",
+      "reading": "えんげい",
+      "headword": "{園芸|えんげい}",
+      "label": "broader term for horticulture/gardening"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07085_kateisaien",
+      "reading": "かていさいえん",
+      "headword": "{家庭菜園|かていさいえん}",
+      "label": "specifically vegetable gardening"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20710_niwashigoto",
+      "reading": "にわしごと",
+      "headword": "{庭仕事|にわしごと}",
+      "label": "garden work"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22814_niwaijiri",
+      "reading": "にわいじり",
+      "headword": "{庭|にわ}いじり",
+      "label": "puttering in the garden"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -58,6 +88,6 @@
       ]
     },
     "created": "2026-01-21T06:45:04Z",
-    "modified": "2026-08-11T09:37:41Z"
+    "modified": "2026-09-02T04:01:12Z"
   }
 }

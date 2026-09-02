@@ -3,7 +3,7 @@
   "headword": "{変装|へんそう}する",
   "reading": "へんそうする",
   "romaji": "hensousuru",
-  "part_of_speech": "verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "to disguise oneself; to dress up as",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25542_hensousuru_ex1",
-      "japanese": "{警察官|けいさつかん}に{変装|へんそう}する。",
+      "japanese": "⟦{警察官|けいさつかん}→警察官：05056_keisatsukan⟧⟦に→に：00314_ni⟧{変装|へんそう}する。",
       "english": "He disguises himself as a police officer.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25542_hensousuru_ex2",
-      "japanese": "{有名人|ゆうめいじん}は{変装|へんそう}して{街|まち}を{歩|ある}くことがある。",
+      "japanese": "⟦{有名人|ゆうめいじん}→有名人：17812_yuumeijin⟧⟦は→は：00079_ha⟧{変装|へんそう}して⟦{街|まち}→街：17306_machi⟧⟦を→を：00422_wo⟧⟦{歩|ある}く→歩く：00538_aruku⟧こと⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "Celebrities sometimes walk around town in disguise.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25542_hensousuru_ex3",
-      "japanese": "{犯人|はんにん}はサングラスとかつらで{変装|へんそう}して{逃|に}げたらしい。",
+      "japanese": "⟦{犯人|はんにん}→犯人：03572_hannin⟧⟦は→は：00079_ha⟧⟦サングラス→サングラス：04535_sangurasu⟧⟦と→と：00512_to⟧かつら⟦で→で：00502_de⟧{変装|へんそう}して⟦{逃|に}げた→逃げる：01151_nigeru⟧らしい。",
       "english": "Apparently, the criminal disguised himself with sunglasses and a wig and fled.",
       "sense_numbers": [
         1
@@ -44,8 +44,37 @@
       "notes": null
     }
   ],
-  "notes": "{変装|へんそう}する means to alter one's outward appearance to avoid being recognized or to pretend to be someone else. Unlike {仮装|かそう}する, which is used for costume parties and Halloween, {変装|へんそう}する implies the intent to conceal identity.\n\nCOMMON COLLOCATIONS:\n- ～に{変装|へんそう}する: to disguise oneself as ~\n- {変装|へんそう}を{見破|みやぶ}る: to see through a disguise\n- {変装|へんそう}を{解|と}く: to remove a disguise\n- {変装|へんそう}{用|よう}の{衣装|いしょう}: disguise outfit\n\nSIMILAR WORDS:\n- {仮装|かそう}する: to dress up in costume — for fun or events like Halloween, without the intent to deceive\n- {扮装|ふんそう}する: to dress up as a character — theatrical, for acting or performances\n- {化|ば}ける: to transform; to disguise — informal, also used for supernatural shape-shifting in folklore",
-  "cross_references": [],
+  "notes": "{変装|へんそう}する means to alter one's outward appearance to avoid being recognized or to pretend to be someone else. Unlike ⟦{仮装|かそう}する→仮装する：25384_kasousuru⟧, which is used for costume parties and Halloween, {変装|へんそう}する implies the intent to conceal identity.\n\nCOMMON COLLOCATIONS:\n- ～⟦に→に：00314_ni⟧{変装|へんそう}する: to disguise oneself as ~\n- ⟦{変装|へんそう}→変装：12098_hensou⟧⟦を→を：00422_wo⟧⟦{見破|みやぶ}る→見破る：18726_miyaburu⟧: to see through a disguise\n- ⟦{変装|へんそう}→変装：12098_hensou⟧⟦を→を：00422_wo⟧⟦{解|と}く→解く：02301_toku⟧: to remove a disguise\n- ⟦{変装|へんそう}→変装：12098_hensou⟧⟦{用|よう}→〜用：09842_you⟧⟦の→の：09472_no⟧⟦{衣装|いしょう}→衣装：14102_ishou⟧: disguise outfit\n\nSIMILAR WORDS:\n- ⟦{仮装|かそう}する→仮装する：25384_kasousuru⟧: to dress up in costume — for fun or events like Halloween, without the intent to deceive\n- {扮装|ふんそう}⟦する→する：00392_suru⟧: to dress up as a character — theatrical, for acting or performances\n- ⟦{化|ば}ける→化ける：11849_bakeru⟧: to transform; to disguise — informal, also used for supernatural shape-shifting in folklore",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25384_kasousuru",
+      "reading": "かそうする",
+      "headword": "{仮装|かそう}する",
+      "label": "to dress up in costume"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11849_bakeru",
+      "reading": "ばける",
+      "headword": "{化|ば}ける",
+      "label": "to transform"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12776_funsuru",
+      "reading": "ふんする",
+      "headword": "{扮|ふん}する",
+      "label": "to disguise oneself as, to play the role of"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25383_henshinsuru",
+      "reading": "へんしんする",
+      "headword": "{変身|へんしん}する",
+      "label": "to transform"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -54,6 +83,7 @@
         "noun",
         "verb-suru"
       ],
+      "politeness": "plain",
       "semantic": [
         "action",
         "appearance"
@@ -62,7 +92,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-25T16:18:08Z",
-    "modified": "2026-04-25T16:18:08Z"
+    "modified": "2026-09-02T04:02:22Z"
   },
   "conjugation": {
     "type": "suru",

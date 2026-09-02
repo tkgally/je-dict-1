@@ -3,7 +3,7 @@
   "headword": "{連想|れんそう}する",
   "reading": "れんそうする",
   "romaji": "rensousuru",
-  "part_of_speech": "verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "to associate; to be reminded of; to think of by association",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22433_rensousuru_ex1",
-      "japanese": "{桜|さくら}から{日本|にほん}を{連想|れんそう}する。",
+      "japanese": "⟦{桜|さくら}→桜：02212_sakura⟧⟦から→から：00504_kara⟧⟦{日本|にほん}→日本：03876_nihon⟧⟦を→を：00422_wo⟧{連想|れんそう}する。",
       "english": "Cherry blossoms make me think of Japan.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22433_rensousuru_ex2",
-      "japanese": "この{曲|きょく}を{聞|き}くと、{学生|がくせい}{時代|じだい}を{連想|れんそう}する。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{曲|きょく}→曲：09881_kyoku⟧⟦を→を：00422_wo⟧⟦{聞|き}く→聞く：00483_kiku⟧⟦と→と：00512_to⟧、⟦{学生|がくせい}→学生：00610_gakusei⟧⟦{時代|じだい}→時代：01424_jidai⟧⟦を→を：00422_wo⟧{連想|れんそう}する。",
       "english": "When I hear this song, it reminds me of my student days.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22433_rensousuru_ex3",
-      "japanese": "{赤|あか}い{色|いろ}は{情熱|じょうねつ}や{危険|きけん}を{連想|れんそう}させることが{多|おお}い。",
+      "japanese": "⟦{赤|あか}い→赤い：00585_akai⟧⟦{色|いろ}→色：00849_iro⟧⟦は→は：00079_ha⟧⟦{情熱|じょうねつ}→情熱：05087_jounetsu⟧や⟦{危険|きけん}→危険：01141_kiken⟧⟦を→を：00422_wo⟧{連想|れんそう}させること⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "The color red often makes people think of passion or danger.",
       "sense_numbers": [
         1
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "Describes the mental process of one thing leading to thoughts of another. Common in discussions about symbols, colors, brands, and cultural associations.\n\nCOMMON COLLOCATIONS:\n- {連想|れんそう}ゲーム: word association game\n- {連想|れんそう}させる: to make someone think of; to evoke\n- {連想|れんそう}される: to be associated with\n- {自由|じゆう}{連想|れんそう}: free association (psychology)\n\nSIMILAR WORDS:\n- {思|おも}い{出|だ}す: to remember / to recall — directly remembering something from the past\n- {想像|そうぞう}する: to imagine — creating a mental image, not necessarily triggered by association\n- {思|おも}い{浮|う}かべる: to think of / to bring to mind — actively calling something to mind\n\nUSAGE:\nThe causative form {連想|れんそう}させる (to make someone associate / to evoke) is very frequently used, especially when discussing what impressions something gives. For example, {高級感|こうきゅうかん}を{連想|れんそう}させるデザイン (a design that evokes a sense of luxury).",
+  "notes": "Describes the mental process of one thing leading to thoughts of another. Common in discussions about symbols, colors, brands, and cultural associations.\n\nCOMMON COLLOCATIONS:\n- ⟦{連想|れんそう}→連想：03782_rensou⟧⟦ゲーム→ゲーム：03842_geemu⟧: word association game\n- {連想|れんそう}させる: to make someone think of; to evoke\n- {連想|れんそう}される: to be associated with\n- ⟦{自由|じゆう}→自由：01148_jiyuu⟧⟦{連想|れんそう}→連想：03782_rensou⟧: free association (psychology)\n\nSIMILAR WORDS:\n- ⟦{思|おも}い{出|だ}す→思い出す：01258_omoidasu⟧: to remember / to recall — directly remembering something from the past\n- ⟦{想像|そうぞう}する→想像する：06060_souzousuru⟧: to imagine — creating a mental image, not necessarily triggered by association\n- ⟦{思|おも}い{浮|う}かべる→思い浮かべる：06980_omoiukaberu⟧: to think of / to bring to mind — actively calling something to mind\n\nUSAGE:\nThe causative form {連想|れんそう}させる (to make someone associate / to evoke) is very frequently used, especially when discussing what impressions something gives. For example, {高級感|こうきゅうかん}⟦を→を：00422_wo⟧{連想|れんそう}させる⟦デザイン→デザイン：03860_dezain⟧ (a design that evokes a sense of luxury).",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01258_omoidasu",
+      "reading": "おもいだす",
+      "headword": "{思|おも}い{出|だ}す",
+      "label": "to remember / to recall"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06060_souzousuru",
+      "reading": "そうぞうする",
+      "headword": "{想像|そうぞう}する",
+      "label": "to imagine"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06980_omoiukaberu",
+      "reading": "おもいうかべる",
+      "headword": "{思|おも}い{浮|う}かべる",
+      "label": "to think of / to bring to mind"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20991_imeejisuru",
+      "reading": "いめーじする",
+      "headword": "イメージする",
+      "label": "to imagine"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -58,10 +88,11 @@
       "semantic": [
         "cognition"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-04-06T10:39:15Z",
-    "modified": "2026-07-30T03:35:34Z"
+    "modified": "2026-09-02T04:02:08Z"
   },
   "conjugation": {
     "type": "suru",

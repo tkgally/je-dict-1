@@ -1,5 +1,11 @@
 # Daily Workflow Guide
 
+> **Note (2026-09-02):** this prompt predates the current process. Where it says `make build` or
+> to commit `docs/`, run `make index` instead — the site is built by GitHub Actions after the merge
+> and `docs/` is no longer tracked. Where it says to place inline links or `noentry` markers by hand,
+> run `python3 build/auto_link.py --ids <ids> --apply` instead and add missing words as candidates.
+> The scheduled Routine is `prompts/routine2.md`; see `enhancement/assessment-2026-09-02.md`.
+
 How to use the je-dict-1 pipeline for routine dictionary maintenance.
 
 ## Prerequisites
@@ -323,7 +329,7 @@ git log --oneline --since="7 days ago"
 
 # Check for entries with potential issues
 python3 build/find_missing_furigana.py
-python3 build/check_tag_consistency.py
+python3 build/validate_tags.py
 
 # Rebuild the site to verify rendering
 make build

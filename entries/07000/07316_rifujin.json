@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "07316_rifujin_ex1",
-      "japanese": "{理不尽|りふじん}な{要求|ようきゅう}に{困|こま}っている。",
+      "japanese": "{理不尽|りふじん}な⟦{要求|ようきゅう}→要求：03658_youkyuu⟧⟦に→に：00314_ni⟧⟦{困|こま}っている→困る：00861_komaru⟧。",
       "english": "I'm troubled by unreasonable demands.",
       "has_audio": false,
       "sense_numbers": [
@@ -23,7 +23,7 @@
     },
     {
       "id": "07316_rifujin_ex2",
-      "japanese": "なぜ{私|わたし}だけ{怒|おこ}られるのか{理不尽|りふじん}だ。",
+      "japanese": "⟦なぜ→なぜ：01484_naze⟧⟦{私|わたし}→私：02988_watashi⟧⟦だけ→〜だけ：03093_dake⟧⟦{怒|おこ}られる→怒る：00876_okoru⟧⟦の→の：09472_no⟧⟦か→か：09473_ka⟧{理不尽|りふじん}だ。",
       "english": "It's unfair that only I get scolded.",
       "has_audio": false,
       "sense_numbers": [
@@ -32,7 +32,7 @@
     },
     {
       "id": "07316_rifujin_ex3",
-      "japanese": "{理不尽|りふじん}な{扱|あつか}いに{抗議|こうぎ}した。",
+      "japanese": "{理不尽|りふじん}な⟦{扱|あつか}い→扱い：12777_atsukai⟧⟦に→に：00314_ni⟧⟦{抗議|こうぎ}した→抗議する：26923_kougisuru⟧。",
       "english": "I protested the unfair treatment.",
       "has_audio": false,
       "sense_numbers": [
@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "notes": "WORD FORMATION:\n{理|り} (reason) + {不尽|ふじん} (not exhaustive, lacking) → lacking reason = unreasonable\n\nFORMS:\n・{理不尽|りふじん}な{要求|ようきゅう} - unreasonable demand\n・{理不尽|りふじん}な{扱|あつか}い - unfair treatment\n・{理不尽|りふじん}さ (noun) - unreasonableness\n\nNUANCE:\n{理不尽|りふじん} expresses strong feelings about something that violates basic fairness or logic. Often used when someone feels wronged or sees injustice.\n\nRELATED WORDS:\n・{不条理|ふじょうり} - absurd, irrational\n・{無理|むり} - unreasonable (less formal)\n・{横暴|おうぼう} - tyrannical, overbearing",
+  "notes": "FORMS:\n{理|り} (reason) + {不尽|ふじん} (not exhaustive, lacking) → lacking reason = unreasonable\n- {理不尽|りふじん}な⟦{要求|ようきゅう}→要求：03658_youkyuu⟧ - unreasonable demand\n- {理不尽|りふじん}な⟦{扱|あつか}い→扱い：12777_atsukai⟧ - unfair treatment\n- {理不尽|りふじん}さ (noun) - unreasonableness\n\nUSAGE:\n{理不尽|りふじん} expresses strong feelings about something that violates basic fairness or logic. Often used when someone feels wronged or sees injustice.\n\nRELATED WORDS:\n- ⟦{不条理|ふじょうり}→不条理：16409_fujouri⟧ - absurd, irrational\n- ⟦{無理|むり}→無理：01558_muri⟧ - unreasonable (less formal)\n- ⟦{横暴|おうぼう}→横暴：07988_oubou⟧ - tyrannical, overbearing",
   "cross_references": [
     {
       "type": "related",
@@ -48,11 +48,60 @@
       "headword": "{横柄|おうへい}",
       "label": "arrogant",
       "target_id": "07317_ouhei"
+    },
+    {
+      "type": "related",
+      "target_id": "16409_fujouri",
+      "reading": "ふじょうり",
+      "headword": "{不条理|ふじょうり}",
+      "label": "absurd, irrational"
+    },
+    {
+      "type": "related",
+      "target_id": "01558_muri",
+      "reading": "むり",
+      "headword": "{無理|むり}",
+      "label": "unreasonable"
+    },
+    {
+      "type": "related",
+      "target_id": "07988_oubou",
+      "reading": "おうぼう",
+      "headword": "{横暴|おうぼう}",
+      "label": "tyrannical, overbearing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16851_fukouhei",
+      "reading": "ふこうへい",
+      "headword": "{不公平|ふこうへい}",
+      "label": "unfair"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23564_higouri",
+      "reading": "ひごうり",
+      "headword": "{非合理|ひごうり}",
+      "label": "irrationality"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23816_higouriteki",
+      "reading": "ひごうりてき",
+      "headword": "{非合理的|ひごうりてき}",
+      "label": "irrational"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30788_imifumei",
+      "reading": "いみふめい",
+      "headword": "{意味不明|いみふめい}",
+      "label": "incomprehensible"
     }
   ],
   "metadata": {
     "created": "2026-01-19T04:12:13Z",
-    "modified": "2026-01-24T14:24:36Z",
+    "modified": "2026-09-02T04:01:10Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

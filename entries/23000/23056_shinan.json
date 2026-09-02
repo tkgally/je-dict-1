@@ -3,7 +3,7 @@
   "headword": "{指南|しなん}",
   "reading": "しなん",
   "romaji": "shinan",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "instruction; guidance; coaching",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "23056_shinan_ex1",
-      "japanese": "{剣道|けんどう}を{指南|しなん}する。",
+      "japanese": "⟦{剣道|けんどう}→剣道：04452_kendou⟧⟦を→を：00422_wo⟧{指南|しなん}⟦する→する：00392_suru⟧。",
       "english": "To teach kendo.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "23056_shinan_ex2",
-      "japanese": "{師匠|ししょう}から{直接|ちょくせつ}{指南|しなん}を{受|う}けた。",
+      "japanese": "⟦{師匠|ししょう}→師匠：12421_shishou⟧⟦から→から：00504_kara⟧⟦{直接|ちょくせつ}→直接：03499_chokusetsu⟧{指南|しなん}⟦を→を：00422_wo⟧⟦{受|う}けた→受ける：01215_ukeru⟧。",
       "english": "I received direct instruction from the master.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "23056_shinan_ex3",
-      "japanese": "{茶道|さどう}の{指南|しなん}{役|やく}として、{初心者|しょしんしゃ}に{作法|さほう}を{教|おし}えている。",
+      "japanese": "⟦{茶道|さどう}→茶道：04451_sadou⟧⟦の→の：09472_no⟧{指南|しなん}{役|やく}⟦として→として：06802_toshite⟧、⟦{初心者|しょしんしゃ}→初心者：10149_shoshinsha⟧⟦に→に：00314_ni⟧⟦{作法|さほう}→作法：02825_sahou⟧⟦を→を：00422_wo⟧⟦{教|おし}えている→教える：00526_oshieru⟧。",
       "english": "As a tea ceremony instructor, I teach etiquette to beginners.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Originally derived from the Chinese compass ({指南|しなん}{車|しゃ}), which points south — metaphorically meaning 'to show the correct direction.' The word has a classical, somewhat elevated tone.\n\nCOMMON COLLOCATIONS:\n- {指南|しなん}する: to instruct, to coach\n- {指南|しなん}を{受|う}ける: to receive instruction\n- {指南|しなん}{役|やく}: instructor, coaching role\n- {指南|しなん}{書|しょ}: instruction manual, guidebook\n\nSIMILAR WORDS:\n- {指導|しどう}: guidance, leadership — the standard modern term for instruction; broader in scope\n- {教授|きょうじゅ}: teaching — formal instruction, especially academic\n- コーチング: coaching — modern loanword for coaching methodology\n- {師範|しはん}: master instructor — a title for someone qualified to teach traditional arts",
+  "notes": "Originally derived from the Chinese compass ({指南|しなん}{車|しゃ}), which points south — metaphorically meaning 'to show the correct direction.' The word has a classical, somewhat elevated tone.\n\nCOMMON COLLOCATIONS:\n- {指南|しなん}⟦する→する：00392_suru⟧: to instruct, to coach\n- {指南|しなん}⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧: to receive instruction\n- {指南|しなん}{役|やく}: instructor, coaching role\n- {指南|しなん}{書|しょ}: instruction manual, guidebook\n\nSIMILAR WORDS:\n- ⟦{指導|しどう}→指導：03190_shidou⟧: guidance, leadership — the standard modern term for instruction; broader in scope\n- ⟦{教授|きょうじゅ}→教授：02589_kyouju⟧: teaching — formal instruction, especially academic\n- コーチング: coaching — modern loanword for coaching methodology\n- ⟦{師範|しはん}→師範：20595_shihan⟧: master instructor — a title for someone qualified to teach traditional arts",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03190_shidou",
+      "reading": "しどう",
+      "headword": "{指導|しどう}",
+      "label": "guidance, leadership"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02589_kyouju",
+      "reading": "きょうじゅ",
+      "headword": "{教授|きょうじゅ}",
+      "label": "teaching"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20595_shihan",
+      "reading": "しはん",
+      "headword": "{師範|しはん}",
+      "label": "master instructor"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -58,10 +81,11 @@
       "semantic": [
         "education"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-04-08T17:28:53Z",
-    "modified": "2026-04-08T17:28:53Z"
+    "modified": "2026-09-02T04:02:10Z"
   },
   "conjugation": {
     "type": "suru",

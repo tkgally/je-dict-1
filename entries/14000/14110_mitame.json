@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "14110_mitame_ex1",
-      "japanese": "{見|み}た{目|め}は{若|わか}い。",
+      "japanese": "{見|み}た{目|め}⟦は→は：00079_ha⟧{若|わか}い。",
       "english": "He looks young.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14110_mitame_ex2",
-      "japanese": "{見|み}た{目|め}と{味|あじ}は{必|かなら}ずしも{一致|いっち}しない。",
+      "japanese": "{見|み}た{目|め}⟦と→と：00512_to⟧⟦{味|あじ}→味：00826_aji⟧⟦は→は：00079_ha⟧⟦{必|かなら}ず→必ず：01249_kanarazu⟧しも⟦{一致|いっち}しない→一致する：19648_icchisuru⟧。",
       "english": "Appearance and taste don't always match.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14110_mitame_ex3",
-      "japanese": "{見|み}た{目|め}はシンプルだが、{実|じつ}は{高度|こうど}な{技術|ぎじゅつ}が{使|つか}われている{製品|せいひん}だ。",
+      "japanese": "{見|み}た{目|め}⟦は→は：00079_ha⟧⟦シンプル→シンプル：10943_shinpuru⟧だ⟦が→が：00051_ga⟧、⟦{実|じつ}→実：28344_jitsu⟧⟦は→は：00079_ha⟧⟦{高度|こうど}→高度：00243_koudo⟧な⟦{技術|ぎじゅつ}→技術：01389_gijutsu⟧⟦が→が：00051_ga⟧⟦{使|つか}われている→使う：00473_tsukau⟧⟦{製品|せいひん}→製品：01445_seihin⟧だ。",
       "english": "It looks simple, but it is actually a product that uses advanced technology.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE NOTE:\n{見|み}た{目|め} literally means \"the way something is seen\" and is very common in everyday conversation. It frequently appears in contrast structures: {見|み}た{目|め}は〜だが{実|じつ}は〜 (it looks like ~ but actually ~).\n\nCOMMON COLLOCATIONS:\n- {見|み}た{目|め}がいい (good-looking)\n- {見|み}た{目|め}で{判断|はんだん}する (judge by appearance)\n- {見|み}た{目|め}に{騙|だま}される (be deceived by appearances)\n- {見|み}た{目|め}より{若|わか}い (younger than one looks)\n- {見|み}た{目|め}を{気|き}にする (care about one's appearance)\n\nSIMILAR WORDS:\n- {外見|がいけん}: outward appearance (more formal)\n- {容姿|ようし}: physical appearance, looks (specifically about a person's body and face)\n- ルックス: looks (loanword, casual, often about attractiveness)",
+  "notes": "USAGE:\n{見|み}た{目|め} literally means \"the way something is seen\" and is very common in everyday conversation. It frequently appears in contrast structures: {見|み}た{目|め}⟦は→は：00079_ha⟧〜だ⟦が→が：00051_ga⟧⟦{実|じつ}→実：28344_jitsu⟧⟦は→は：00079_ha⟧〜 (it looks like ~ but actually ~).\n\nCOMMON COLLOCATIONS:\n- {見|み}た{目|め}⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧ (good-looking)\n- {見|み}た{目|め}⟦で→で：00502_de⟧⟦{判断|はんだん}する→判断する：06062_handansuru⟧ (judge by appearance)\n- {見|み}た{目|め}⟦に→に：00314_ni⟧⟦{騙|だま}される→騙す：02286_damasu⟧ (be deceived by appearances)\n- {見|み}た{目|め}⟦より→より：09476_yori⟧{若|わか}い (younger than one looks)\n- {見|み}た{目|め}⟦を→を：00422_wo⟧⟦{気|き}にする→気にする：03026_kinisuru⟧ (care about one's appearance)\n\nSIMILAR WORDS:\n- ⟦{外見|がいけん}→外見：12114_gaiken⟧: outward appearance (more formal)\n- ⟦{容姿|ようし}→容姿：12293_youshi⟧: physical appearance, looks (specifically about a person's body and face)\n- ルックス: looks (loanword, casual, often about attractiveness)",
   "cross_references": [
     {
       "type": "synonym",
@@ -53,18 +59,50 @@
       "reading": "ようし",
       "headword": "{容姿|ようし}",
       "label": "physical looks"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01800_kakkou",
+      "reading": "かっこう",
+      "headword": "{格好|かっこう}",
+      "label": "appearance, shape"
+    },
+    {
+      "type": "related",
+      "target_id": "08214_mikake",
+      "reading": "みかけ",
+      "headword": "{見掛|みか}け",
+      "label": "appearance"
+    },
+    {
+      "type": "related",
+      "target_id": "09044_mibae",
+      "reading": "みばえ",
+      "headword": "{見栄|みば}え",
+      "label": "appearance"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26652_gaikanteki",
+      "reading": "がいかんてき",
+      "headword": "{外観的|がいかんてき}",
+      "label": "external"
     }
   ],
   "metadata": {
     "created": "2026-02-28T00:52:05Z",
-    "modified": "2026-04-30T04:29:16Z",
+    "modified": "2026-09-02T04:01:36Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["descriptive"]
+      "semantic": [
+        "descriptive"
+      ]
     }
   }
 }

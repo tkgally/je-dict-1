@@ -3,7 +3,7 @@
   "headword": "{媒酌|ばいしゃく}",
   "reading": "ばいしゃく",
   "romaji": "baishaku",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "matchmaking; go-between (for marriage)",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "27036_baishaku_ex1",
-      "japanese": "{上司|じょうし}に{媒酌|ばいしゃく}を{頼|たの}んだ。",
+      "japanese": "⟦{上司|じょうし}→上司：03286_joushi⟧⟦に→に：00314_ni⟧{媒酌|ばいしゃく}⟦を→を：00422_wo⟧⟦{頼|たの}んだ→頼む：01104_tanomu⟧。",
       "english": "I asked my boss to serve as matchmaker.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "27036_baishaku_ex2",
-      "japanese": "{媒酌人|ばいしゃくにん}が{両家|りょうけ}を{引|ひ}き{合|あ}わせた。",
+      "japanese": "⟦{媒酌人|ばいしゃくにん}→媒酌人：26257_baishakunin⟧⟦が→が：00051_ga⟧{両家|りょうけ}⟦を→を：00422_wo⟧{引|ひ}き{合|あ}わせた。",
       "english": "The matchmaker introduced the two families to each other.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "27036_baishaku_ex3",
-      "japanese": "{最近|さいきん}は{媒酌人|ばいしゃくにん}を{立|た}てない{結婚式|けっこんしき}が{増|ふ}えている。",
+      "japanese": "⟦{最近|さいきん}→最近：00881_saikin⟧⟦は→は：00079_ha⟧⟦{媒酌人|ばいしゃくにん}→媒酌人：26257_baishakunin⟧⟦を→を：00422_wo⟧⟦{立|た}てない→立てる：01196_tateru⟧⟦{結婚式|けっこんしき}→結婚式：05493_kekkonshiki⟧⟦が→が：00051_ga⟧⟦{増|ふ}えている→増える：01183_fueru⟧。",
       "english": "Recently, weddings without a formal matchmaker have been increasing.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "A formal term from traditional Japanese marriage customs. The {媒酌人|ばいしゃくにん} (matchmaker/go-between) was historically a respected married couple who introduced the bride and groom, helped negotiate between families, and presided over the wedding ceremony. While {見合|みあ}い (arranged marriage meetings) still occur, the formal role of {媒酌人|ばいしゃくにん} has become much less common in modern Japan.\n\nCOMMON COLLOCATIONS:\n- {媒酌人|ばいしゃくにん}: matchmaker; go-between\n- {媒酌|ばいしゃく}を{務|つと}める: to serve as matchmaker\n- {媒酌|ばいしゃく}を{頼|たの}む: to ask someone to be matchmaker\n- {媒酌人|ばいしゃくにん}を{立|た}てる: to have a formal matchmaker\n\nSIMILAR WORDS:\n- {仲人|なこうど}: matchmaker; go-between — more commonly used in everyday language; largely interchangeable\n- {見合|みあ}い: arranged meeting for marriage — the meeting itself, not the matchmaking role\n- お{見合|みあ}い: arranged marriage meeting (polite form)",
+  "notes": "A formal term from traditional Japanese marriage customs. The ⟦{媒酌人|ばいしゃくにん}→媒酌人：26257_baishakunin⟧ (matchmaker/go-between) was historically a respected married couple who introduced the bride and groom, helped negotiate between families, and presided over the wedding ceremony. While ⟦{見合|みあ}い→見合い：14159_miai⟧ (arranged marriage meetings) still occur, the formal role of ⟦{媒酌人|ばいしゃくにん}→媒酌人：26257_baishakunin⟧ has become much less common in modern Japan.\n\nCOMMON COLLOCATIONS:\n- ⟦{媒酌人|ばいしゃくにん}→媒酌人：26257_baishakunin⟧: matchmaker; go-between\n- {媒酌|ばいしゃく}⟦を→を：00422_wo⟧⟦{務|つと}める→務める：10446_tsutomeru⟧: to serve as matchmaker\n- {媒酌|ばいしゃく}⟦を→を：00422_wo⟧⟦{頼|たの}む→頼む：01104_tanomu⟧: to ask someone to be matchmaker\n- ⟦{媒酌人|ばいしゃくにん}→媒酌人：26257_baishakunin⟧⟦を→を：00422_wo⟧⟦{立|た}てる→立てる：01196_tateru⟧: to have a formal matchmaker\n\nSIMILAR WORDS:\n- ⟦{仲人|なこうど}→仲人：16691_nakoudo⟧: matchmaker; go-between — more commonly used in everyday language; largely interchangeable\n- ⟦{見合|みあ}い→見合い：14159_miai⟧: arranged meeting for marriage — the meeting itself, not the matchmaking role\n- ⟦お{見合|みあ}い→お見合い：05642_omiai⟧: arranged marriage meeting (polite form)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16691_nakoudo",
+      "reading": "なこうど",
+      "headword": "{仲人|なこうど}",
+      "label": "matchmaker"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14159_miai",
+      "reading": "みあい",
+      "headword": "{見合|みあ}い",
+      "label": "arranged meeting for marriage"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05642_omiai",
+      "reading": "おみあい",
+      "headword": "お{見合|みあ}い",
+      "label": "arranged marriage meeting"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -63,7 +86,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-06T14:26:21Z",
-    "modified": "2026-08-07T06:31:23Z"
+    "modified": "2026-09-02T04:02:28Z"
   },
   "conjugation": {
     "type": "suru",

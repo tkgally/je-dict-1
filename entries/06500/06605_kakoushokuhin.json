@@ -40,10 +40,10 @@
       ]
     }
   ],
-  "notes": "EXAMPLES OF PROCESSED FOODS:\n・⟦{缶詰|かんづめ}→缶詰：00187_kanzume⟧ (canned goods)\n・⟦{冷凍|れいとう}{食品|しょくひん}→冷凍食品：06075_reitoushokuhin⟧ (frozen foods)\n・⟦インスタント→インスタント：10719_insutanto⟧⟦{食品|しょくひん}→食品：03247_shokuhin⟧ (instant foods)\n・⟦レトルト→レトルト：10258_retoruto⟧⟦{食品|しょくひん}→食品：03247_shokuhin⟧ (retort pouch foods)\n・⟦{惣菜|そうざい}→惣菜：05827_souzai⟧ (prepared side dishes)\n\nCONTRAST:\n・⟦{生鮮|せいせん}{食品|しょくひん}→生鮮食品：06232_seisenshokuhin⟧ (fresh foods - produce, meat, fish)\n・⟦{自然|しぜん}→自然：01423_shizen⟧⟦{食品|しょくひん}→食品：03247_shokuhin⟧ (natural foods)\n・⟦{無添加|むてんか}→無添加：19283_mutenka⟧⟦{食品|しょくひん}→食品：03247_shokuhin⟧ (additive-free foods)\n\nRELATED TERMS:\n・⟦{保存料|ほぞんりょう}→保存料：06593_hozonryou⟧ (preservatives)\n・⟦{添加物|てんかぶつ}→添加物：06479_tenkabutsu⟧ (additives)\n・⟦{賞味|しょうみ}{期限|きげん}→賞味期限：06076_shoumikigen⟧ (best-by date)",
+  "notes": "EXAMPLES OF PROCESSED FOODS:\n- ⟦{缶詰|かんづめ}→缶詰：00187_kanzume⟧ (canned goods)\n- ⟦{冷凍|れいとう}{食品|しょくひん}→冷凍食品：06075_reitoushokuhin⟧ (frozen foods)\n- ⟦インスタント→インスタント：10719_insutanto⟧⟦{食品|しょくひん}→食品：03247_shokuhin⟧ (instant foods)\n- ⟦レトルト→レトルト：10258_retoruto⟧⟦{食品|しょくひん}→食品：03247_shokuhin⟧ (retort pouch foods)\n- ⟦{惣菜|そうざい}→惣菜：05827_souzai⟧ (prepared side dishes)\n\nSIMILAR WORDS:\n- ⟦{生鮮|せいせん}{食品|しょくひん}→生鮮食品：06232_seisenshokuhin⟧ (fresh foods - produce, meat, fish)\n- ⟦{自然|しぜん}→自然：01423_shizen⟧⟦{食品|しょくひん}→食品：03247_shokuhin⟧ (natural foods)\n- ⟦{無添加|むてんか}→無添加：19283_mutenka⟧⟦{食品|しょくひん}→食品：03247_shokuhin⟧ (additive-free foods)\n\nRELATED WORDS:\n- ⟦{保存料|ほぞんりょう}→保存料：06593_hozonryou⟧ (preservatives)\n- ⟦{添加物|てんかぶつ}→添加物：06479_tenkabutsu⟧ (additives)\n- ⟦{賞味|しょうみ}{期限|きげん}→賞味期限：06076_shoumikigen⟧ (best-by date)",
   "metadata": {
     "created": "2026-01-18T01:12:12Z",
-    "modified": "2026-07-23T15:24:07Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -64,6 +64,34 @@
       "reading": "せいせんしょくひん",
       "headword": "{生鮮食品|せいせんしょくひん}",
       "label": "fresh food"
+    },
+    {
+      "type": "related",
+      "target_id": "06593_hozonryou",
+      "reading": "ほぞんりょう",
+      "headword": "{保存料|ほぞんりょう}",
+      "label": "preservatives"
+    },
+    {
+      "type": "related",
+      "target_id": "06479_tenkabutsu",
+      "reading": "てんかぶつ",
+      "headword": "{添加物|てんかぶつ}",
+      "label": "additives"
+    },
+    {
+      "type": "related",
+      "target_id": "06076_shoumikigen",
+      "reading": "しょうみきげん",
+      "headword": "{賞味期限|しょうみきげん}",
+      "label": "best-by date"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16489_kakouhin",
+      "reading": "かこうひん",
+      "headword": "{加工品|かこうひん}",
+      "label": "processed goods"
     }
   ]
 }

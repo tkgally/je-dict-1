@@ -15,31 +15,53 @@
   "examples": [
     {
       "id": "22800_rinshokuka_ex1",
-      "japanese": "あの{人|ひと}は{有名|ゆうめい}な{吝嗇家|りんしょくか}だ。",
+      "japanese": "⟦あの{人|ひと}→あの人：25922_anohito⟧⟦は→は：00079_ha⟧⟦{有名|ゆうめい}→有名：01106_yuumei⟧な{吝嗇家|りんしょくか}だ。",
       "english": "That person is a well-known miser.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "22800_rinshokuka_ex2",
-      "japanese": "{吝嗇家|りんしょくか}の{彼|かれ}が{寄付|きふ}するなんて{珍|めずら}しい。",
+      "japanese": "{吝嗇家|りんしょくか}⟦の→の：09472_no⟧⟦{彼|かれ}→彼：01292_kare⟧⟦が→が：00051_ga⟧⟦{寄付|きふ}する→寄付する：20661_kifusuru⟧⟦なんて→なんて：06918_nante⟧⟦{珍|めずら}しい→珍しい：01200_mezurashii⟧。",
       "english": "It's unusual for a miser like him to make a donation.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "22800_rinshokuka_ex3",
-      "japanese": "{世界的|せかいてき}な{大金持|おおがねも}ちなのに{吝嗇家|りんしょくか}として{知|し}られていた。",
+      "japanese": "⟦{世界的|せかいてき}→世界的：20935_sekaiteki⟧な⟦{大金持|おおがねも}ち→大金持ち：23072_ooganemochi⟧な⟦の→の：09472_no⟧⟦に→に：00314_ni⟧{吝嗇家|りんしょくか}⟦として→として：06802_toshite⟧⟦{知|し}られていた→知る：00458_shiru⟧。",
       "english": "Despite being a global billionaire, he was known as a miser.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A literary or formal word for a miser. Composed of {吝嗇|りんしょく} (miserliness, stinginess) + {家|か} (person who is characterized by). The kanji {吝|りん} and {嗇|しょく} both carry meanings related to stinginess. While understood by most Japanese adults, it has a literary or slightly old-fashioned feel.\n\nCOMMON COLLOCATIONS:\n- {大|おお}{吝嗇家|りんしょくか}: a great miser\n- {吝嗇家|りんしょくか}で{有名|ゆうめい}: famous for being stingy\n\nSIMILAR WORDS:\n- けち: stingy, cheap — the most common colloquial word for stinginess\n- けちん{坊|ぼう}: cheapskate — informal, slightly playful\n- {守銭奴|しゅせんど}: miser (literally \"slave to money\") — literary and strongly negative\n- {倹約家|けんやくか}: frugal person — positive connotation, implying wise money management\n\nREGISTER:\n{吝嗇家|りんしょくか} is literary and somewhat formal. In everyday speech, けち or けちな{人|ひと} is far more common.",
+  "notes": "A literary or formal word for a miser. Composed of ⟦{吝嗇|りんしょく}→吝嗇：25002_rinshoku⟧ (miserliness, stinginess) + ⟦{家|か}→〜家：28339_ka⟧ (person who is characterized by). The kanji {吝|りん} and {嗇|しょく} both carry meanings related to stinginess. While understood by most Japanese adults, it has a literary or slightly old-fashioned feel.\n\nCOMMON COLLOCATIONS:\n- {大|おお}{吝嗇家|りんしょくか}: a great miser\n- {吝嗇家|りんしょくか}⟦で→で：00502_de⟧⟦{有名|ゆうめい}→有名：01106_yuumei⟧: famous for being stingy\n\nSIMILAR WORDS:\n- ⟦けち→けち：02792_kechi⟧: stingy, cheap — the most common colloquial word for stinginess\n- けちん{坊|ぼう}: cheapskate — informal, slightly playful\n- {守銭奴|しゅせんど}: miser (literally \"slave to money\") — literary and strongly negative\n- ⟦{倹約家|けんやくか}→倹約家：23288_kenyakuka⟧: frugal person — positive connotation, implying wise money management\n\nREGISTER:\n{吝嗇家|りんしょくか} is literary and somewhat formal. In everyday speech, ⟦けち→けち：02792_kechi⟧ or ⟦けち→けち：02792_kechi⟧な⟦{人|ひと}→人：00476_hito⟧ is far more common.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02792_kechi",
+      "reading": "けち",
+      "headword": "けち",
+      "label": "stingy, cheap"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23288_kenyakuka",
+      "reading": "けんやくか",
+      "headword": "{倹約家|けんやくか}",
+      "label": "frugal person"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -54,6 +76,6 @@
       "politeness": "plain"
     },
     "created": "2026-04-07T16:46:03Z",
-    "modified": "2026-04-07T16:46:03Z"
+    "modified": "2026-09-02T04:02:09Z"
   }
 }

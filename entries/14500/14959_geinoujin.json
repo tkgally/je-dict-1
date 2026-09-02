@@ -15,41 +15,88 @@
   "examples": [
     {
       "id": "14959_geinoujin_ex1",
-      "japanese": "あの{芸能人|げいのうじん}は{人気|にんき}がある。",
+      "japanese": "⟦あの→あの：00915_ano⟧{芸能人|げいのうじん}⟦は→は：00079_ha⟧⟦{人気|にんき}→人気：01488_ninki⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "That celebrity is popular.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14959_geinoujin_ex2",
-      "japanese": "{芸能人|げいのうじん}の{私生活|しせいかつ}は{週刊誌|しゅうかんし}でよく{取|と}り{上|あ}げられる。",
+      "japanese": "{芸能人|げいのうじん}⟦の→の：09472_no⟧⟦{私生活|しせいかつ}→私生活：15112_shiseikatsu⟧⟦は→は：00079_ha⟧⟦{週刊誌|しゅうかんし}→週刊誌：11179_shuukanshi⟧⟦で→で：00502_de⟧⟦よく→よく：00601_yoku⟧⟦{取|と}り{上|あ}げられる→取り上げる：02375_toriageru⟧。",
       "english": "Celebrities' private lives are often covered by tabloid magazines.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14959_geinoujin_ex3",
-      "japanese": "{子供|こども}の{頃|ころ}から{芸能人|げいのうじん}に{憧|あこが}れて、{高校卒業|こうこうそつぎょう}と{同時|どうじ}に{芸能事務所|げいのうじむしょ}に{入|はい}った。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧⟦の→の：09472_no⟧{頃|ころ}⟦から→から：00504_kara⟧{芸能人|げいのうじん}⟦に→に：00314_ni⟧⟦{憧|あこが}れて→憧れる：05302_akogareru⟧、{高校卒業|こうこうそつぎょう}⟦と→と：00512_to⟧⟦{同時|どうじ}→同時：01592_douji⟧⟦に→に：00314_ni⟧{芸能事務所|げいのうじむしょ}⟦に→に：00314_ni⟧⟦{入|はい}った→入る：00494_hairu⟧。",
       "english": "Having admired entertainers since childhood, I joined a talent agency right after graduating high school.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "A catch-all term for people in the entertainment industry. Unlike English 'celebrity,' which emphasizes fame, {芸能人|げいのうじん} emphasizes the profession of entertaining.\n\nCOMMON COLLOCATIONS:\n- {芸能人|げいのうじん}になる (to become a celebrity)\n- {人気|にんき}{芸能人|げいのうじん} (popular celebrity)\n- {芸能人|げいのうじん}の{私生活|しせいかつ} (celebrity's private life)\n- {芸能事務所|げいのうじむしょ} (talent agency)\n\nSIMILAR WORDS:\n- タレント focuses on TV personalities specifically\n- {有名人|ゆうめいじん} means 'famous person' regardless of profession\n- {俳優|はいゆう} is specifically an actor",
-  "cross_references": [],
+  "notes": "A catch-all term for people in the entertainment industry. Unlike English 'celebrity,' which emphasizes fame, {芸能人|げいのうじん} emphasizes the profession of entertaining.\n\nCOMMON COLLOCATIONS:\n- {芸能人|げいのうじん}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧ (to become a celebrity)\n- ⟦{人気|にんき}→人気：01488_ninki⟧{芸能人|げいのうじん} (popular celebrity)\n- {芸能人|げいのうじん}⟦の→の：09472_no⟧⟦{私生活|しせいかつ}→私生活：15112_shiseikatsu⟧ (celebrity's private life)\n- {芸能事務所|げいのうじむしょ} (talent agency)\n\nSIMILAR WORDS:\n- ⟦タレント→タレント：25367_tarento⟧ focuses on TV personalities specifically\n- ⟦{有名人|ゆうめいじん}→有名人：17812_yuumeijin⟧ means 'famous person' regardless of profession\n- ⟦{俳優|はいゆう}→俳優：03547_haiyuu⟧ is specifically an actor",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25367_tarento",
+      "reading": "たれんと",
+      "headword": "タレント",
+      "label": "focuses on TV personalities specifically"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17812_yuumeijin",
+      "reading": "ゆうめいじん",
+      "headword": "{有名人|ゆうめいじん}",
+      "label": "means 'famous person' regardless…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03547_haiyuu",
+      "reading": "はいゆう",
+      "headword": "{俳優|はいゆう}",
+      "label": "is specifically an actor"
+    },
+    {
+      "type": "related",
+      "target_id": "00393_sutaa",
+      "reading": "すたー",
+      "headword": "スター",
+      "label": "star (celebrity)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23055_chomeijin",
+      "reading": "ちょめいじん",
+      "headword": "{著名人|ちょめいじん}",
+      "label": "celebrity"
+    }
+  ],
   "metadata": {
     "created": "2026-03-04T07:58:20Z",
-    "modified": "2026-03-04T07:58:20Z",
+    "modified": "2026-09-02T04:01:39Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["person", "leisure"]
+      "semantic": [
+        "person",
+        "leisure"
+      ]
     }
   }
 }

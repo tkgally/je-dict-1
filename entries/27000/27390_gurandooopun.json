@@ -3,7 +3,7 @@
   "headword": "グランドオープン",
   "reading": "ぐらんどおーぷん",
   "romaji": "gurandooopun",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "grand opening",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "27390_gurandooopun_ex1",
-      "japanese": "{来月|らいげつ}グランドオープンする。",
+      "japanese": "⟦{来月|らいげつ}→来月：00744_raigetsu⟧グランドオープン⟦する→する：00392_suru⟧。",
       "english": "It's having its grand opening next month.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "27390_gurandooopun_ex2",
-      "japanese": "グランドオープン{記念|きねん}のセールが{開催中|かいさいちゅう}だ。",
+      "japanese": "グランドオープン⟦{記念|きねん}→記念：00232_kinen⟧⟦の→の：09472_no⟧⟦セール→セール：07780_seeru⟧⟦が→が：00051_ga⟧{開催中|かいさいちゅう}だ。",
       "english": "A grand opening commemorative sale is going on.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "27390_gurandooopun_ex3",
-      "japanese": "プレオープンを{経|へ}て、{来月一日|らいげつついたち}にグランドオープンを{迎|むか}える{予定|よてい}だ。",
+      "japanese": "プレ⟦オープン→オープン：10831_oopun⟧⟦を→を：00422_wo⟧⟦{経|へ}て→経る：13876_heru⟧、{来月一日|らいげつついたち}⟦に→に：00314_ni⟧グランドオープン⟦を→を：00422_wo⟧⟦{迎|むか}える→迎える：01193_mukaeru⟧⟦{予定|よてい}→予定：00824_yotei⟧だ。",
       "english": "After a soft opening, it is scheduled to have its grand opening on the first of next month.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Wasei-eigo from \"grand\" + \"open.\" Used as a noun (and with する) to mark the official, full-scale opening of a store, mall, or facility. Distinguished from プレオープン (a soft/preview opening for testing operations).\n\nCOMMON COLLOCATIONS:\n- グランドオープンする: to have a grand opening\n- グランドオープンを{迎|むか}える: to reach the grand opening\n- グランドオープン{記念|きねん}セール: grand opening sale\n- グランドオープン{日|び}: grand opening day\n\nSIMILAR WORDS:\n- プレオープン: soft opening; preview opening — limited operation before the grand opening, often invitation-only\n- {開店|かいてん}: opening of a shop — native term; everyday register, doesn't carry the same promotional sense\n- {新装開店|しんそうかいてん}: grand reopening after renovation",
+  "notes": "Wasei-eigo from \"grand\" + \"open.\" Used as a noun (and with ⟦する→する：00392_suru⟧) to mark the official, full-scale opening of a store, mall, or facility. Distinguished from プレ⟦オープン→オープン：10831_oopun⟧ (a soft/preview opening for testing operations).\n\nCOMMON COLLOCATIONS:\n- グランドオープン⟦する→する：00392_suru⟧: to have a grand opening\n- グランドオープン⟦を→を：00422_wo⟧⟦{迎|むか}える→迎える：01193_mukaeru⟧: to reach the grand opening\n- グランドオープン⟦{記念|きねん}→記念：00232_kinen⟧⟦セール→セール：07780_seeru⟧: grand opening sale\n- グランドオープン{日|び}: grand opening day\n\nSIMILAR WORDS:\n- プレ⟦オープン→オープン：10831_oopun⟧: soft opening; preview opening — limited operation before the grand opening, often invitation-only\n- ⟦{開店|かいてん}→開店：14569_kaiten⟧: opening of a shop — native term; everyday register, doesn't carry the same promotional sense\n- ⟦{新装開店|しんそうかいてん}→新装開店：29977_shinsoukaiten⟧: grand reopening after renovation",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14569_kaiten",
+      "reading": "かいてん",
+      "headword": "{開店|かいてん}",
+      "label": "opening of a shop"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29977_shinsoukaiten",
+      "reading": "しんそうかいてん",
+      "headword": "{新装開店|しんそうかいてん}",
+      "label": "grand reopening after renovation"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -54,7 +70,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "business",
         "event"
@@ -65,7 +81,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-11T07:02:41Z",
-    "modified": "2026-08-07T16:10:18Z"
+    "modified": "2026-09-02T04:02:30Z"
   },
   "conjugation": {
     "type": "suru",

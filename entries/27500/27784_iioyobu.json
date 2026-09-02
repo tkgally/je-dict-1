@@ -3,7 +3,7 @@
   "headword": "{言|い}い{及|およ}ぶ",
   "reading": "いいおよぶ",
   "romaji": "iioyobu",
-  "part_of_speech": "verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to mention; to go so far as to refer to",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "27784_iioyobu_ex1",
-      "japanese": "{話|はなし}が{将来|しょうらい}のことに{言|い}い{及|およ}んだ。",
+      "japanese": "⟦{話|はなし}→話：01496_hanashi⟧⟦が→が：00051_ga⟧⟦{将来|しょうらい}→将来：01438_shourai⟧⟦の→の：09472_no⟧こと⟦に→に：00314_ni⟧{言|い}い{及|およ}んだ。",
       "english": "The conversation came to touch on the future.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "27784_iioyobu_ex2",
-      "japanese": "{彼|かれ}は{他人|たにん}の{私生活|しせいかつ}にまで{言|い}い{及|およ}んだ。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{他人|たにん}→他人：01459_tanin⟧⟦の→の：09472_no⟧⟦{私生活|しせいかつ}→私生活：15112_shiseikatsu⟧⟦に→に：00314_ni⟧⟦まで→まで：00490_made⟧{言|い}い{及|およ}んだ。",
       "english": "He went so far as to comment on others' private lives.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "27784_iioyobu_ex3",
-      "japanese": "{報告書|ほうこくしょ}は{原因|げんいん}だけでなく{今後|こんご}の{対策|たいさく}にも{言|い}い{及|およ}んでいる。",
+      "japanese": "⟦{報告書|ほうこくしょ}→報告書：06744_houkokusho⟧⟦は→は：00079_ha⟧⟦{原因|げんいん}→原因：01400_genin⟧⟦だけでなく→〜だけでなく：18373_dakedenaku⟧⟦{今後|こんご}→今後：02808_kongo⟧⟦の→の：09472_no⟧⟦{対策|たいさく}→対策：02511_taisaku⟧⟦に→に：00314_ni⟧⟦も→も：00484_mo⟧{言|い}い{及|およ}んで⟦いる→いる：00495_iru⟧。",
       "english": "The report refers not only to the cause but also to future countermeasures.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "TRANSITIVITY: Intransitive godan verb. Xに{言|い}い{及|およ}ぶ. Compound of {言|い}う (to say) + {及|およ}ぶ (to reach, to extend). Describes a discussion reaching or extending to a topic.\n\nCOMMON COLLOCATIONS:\n- {話|はなし}が〜に{言|い}い{及|およ}ぶ: for the talk to come around to ~\n- 〜にまで{言|い}い{及|およ}ぶ: to go so far as to mention ~\n\nSIMILAR WORDS:\n- {触|ふ}れる: to touch on — a lighter, brief mention; {言|い}い{及|およ}ぶ implies the talk extends there\n- {言及|げんきゅう}する: to refer to — a more formal する verb with the same kanji",
+  "notes": "TRANSITIVITY: Intransitive godan verb. X⟦に→に：00314_ni⟧{言|い}い{及|およ}ぶ. Compound of ⟦{言|い}う→言う：00515_iu⟧ (to say) + ⟦{及|およ}ぶ→及ぶ：01921_oyobu⟧ (to reach, to extend). Describes a discussion reaching or extending to a topic.\n\nCOMMON COLLOCATIONS:\n- ⟦{話|はなし}→話：01496_hanashi⟧が〜⟦に→に：00314_ni⟧{言|い}い{及|およ}ぶ: for the talk to come around to ~\n- 〜⟦に→に：00314_ni⟧⟦まで→まで：00490_made⟧{言|い}い{及|およ}ぶ: to go so far as to mention ~\n\nSIMILAR WORDS:\n- ⟦{触|ふ}れる→触れる：01984_fureru⟧: to touch on — a lighter, brief mention; {言|い}い{及|およ}ぶ implies the talk extends there\n- ⟦{言及|げんきゅう}→言及：10894_genkyuu⟧⟦する→する：00392_suru⟧: to refer to — a more formal ⟦する→する：00392_suru⟧ verb with the same kanji",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01984_fureru",
+      "reading": "ふれる",
+      "headword": "{触|ふ}れる",
+      "label": "to touch on"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10894_genkyuu",
+      "reading": "げんきゅう",
+      "headword": "{言及|げんきゅう}",
+      "label": "to refer to"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,7 +78,7 @@
       "verb_class": "godan-bu"
     },
     "created": "2026-05-18T04:14:41Z",
-    "modified": "2026-05-18T04:14:41Z"
+    "modified": "2026-09-02T04:02:31Z"
   },
   "conjugation": {
     "type": "godan",

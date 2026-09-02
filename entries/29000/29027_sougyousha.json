@@ -16,39 +16,73 @@
   "examples": [
     {
       "id": "29027_sougyousha_ex1",
-      "japanese": "{会社|かいしゃ}の{創業者|そうぎょうしゃ}。",
+      "japanese": "⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦の→の：09472_no⟧{創業者|そうぎょうしゃ}。",
       "english": "The company's founder.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29027_sougyousha_ex2",
-      "japanese": "{創業者|そうぎょうしゃ}の{精神|せいしん}を{受|う}け{継|つ}ぐ。",
+      "japanese": "{創業者|そうぎょうしゃ}⟦の→の：09472_no⟧⟦{精神|せいしん}→精神：03377_seishin⟧⟦を→を：00422_wo⟧⟦{受|う}け{継|つ}ぐ→受け継ぐ：06700_uketsugu⟧。",
       "english": "To carry on the founder's spirit.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29027_sougyousha_ex3",
-      "japanese": "この{老舗|しにせ}の{創業者|そうぎょうしゃ}は{江戸時代|えどじだい}にさかのぼる{家系|かけい}の{出身|しゅっしん}だそうだ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{老舗|しにせ}→老舗：16152_shinise⟧⟦の→の：09472_no⟧{創業者|そうぎょうしゃ}⟦は→は：00079_ha⟧⟦{江戸時代|えどじだい}→江戸時代：20431_edojidai⟧⟦に→に：00314_ni⟧さかのぼる⟦{家系|かけい}→家系：10130_kakei⟧⟦の→の：09472_no⟧⟦{出身|しゅっしん}→出身：03221_shusshin⟧だそうだ。",
       "english": "I hear that the founder of this long-established shop comes from a lineage going back to the Edo period.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Compound of {創業|そうぎょう} (founding a business) + {者|しゃ} (person). Refers specifically to the person who started a business, not just any executive.\n\nRELATED WORDS:\n- {創業|そうぎょう}: founding a business; starting a company\n- {設立者|せつりつしゃ}: founder (legal sense, person who formally established an organization)\n- {起業家|きぎょうか}: entrepreneur (broader term)\n- {経営者|けいえいしゃ}: business owner; manager (current operator, may not be the original founder)",
+  "notes": "Compound of ⟦{創業|そうぎょう}→創業：11792_sougyou⟧ (founding a business) + ⟦{者|しゃ}→〜者：04662_sha⟧ (person). Refers specifically to the person who started a business, not just any executive.\n\nRELATED WORDS:\n- ⟦{創業|そうぎょう}→創業：11792_sougyou⟧: founding a business; starting a company\n- {設立者|せつりつしゃ}: founder (legal sense, person who formally established an organization)\n- ⟦{起業家|きぎょうか}→起業家：14262_kigyouka⟧: entrepreneur (broader term)\n- ⟦{経営者|けいえいしゃ}→経営者：16188_keieisha⟧: business owner; manager (current operator, may not be the original founder)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "14262_kigyouka",
+      "reading": "きぎょうか",
+      "headword": "{起業家|きぎょうか}",
+      "label": "entrepreneur"
+    },
+    {
+      "type": "related",
+      "target_id": "16188_keieisha",
+      "reading": "けいえいしゃ",
+      "headword": "{経営者|けいえいしゃ}",
+      "label": "business owner"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27181_soushisha",
+      "reading": "そうししゃ",
+      "headword": "{創始者|そうししゃ}",
+      "label": "founder"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["work", "person"]
+      "semantic": [
+        "work",
+        "person"
+      ]
     },
     "created": "2026-06-09T06:01:05Z",
-    "modified": "2026-06-09T06:01:05Z"
+    "modified": "2026-09-02T04:02:35Z"
   }
 }

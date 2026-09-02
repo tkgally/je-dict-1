@@ -15,42 +15,67 @@
   "examples": [
     {
       "id": "14442_kinketsu_ex1",
-      "japanese": "{今月|こんげつ}は{金欠|きんけつ}だ。",
+      "japanese": "⟦{今月|こんげつ}→今月：00720_kongetsu⟧⟦は→は：00079_ha⟧{金欠|きんけつ}だ。",
       "english": "I'm broke this month.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14442_kinketsu_ex2",
-      "japanese": "{旅行|りょこう}の{後|あと}でずっと{金欠|きんけつ}{状態|じょうたい}が{続|つづ}いている。",
+      "japanese": "⟦{旅行|りょこう}→旅行：00748_ryokou⟧⟦の→の：09472_no⟧⟦{後|あと}→後：09580_ato⟧⟦で→で：00502_de⟧⟦ずっと→ずっと：00912_zutto⟧{金欠|きんけつ}⟦{状態|じょうたい}→状態：03345_joutai⟧⟦が→が：00051_ga⟧⟦{続|つづ}いている→続く：00903_tsuzuku⟧。",
       "english": "I've been broke ever since the trip.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14442_kinketsu_ex3",
-      "japanese": "{給料日|きゅうりょうび}{前|まえ}はいつも{金欠|きんけつ}で、{外食|がいしょく}を{控|ひか}えている。",
+      "japanese": "⟦{給料日|きゅうりょうび}→給料日：27561_kyuuryoubi⟧⟦{前|まえ}→前：02255_mae⟧⟦は→は：00079_ha⟧⟦いつも→いつも：00599_itsumo⟧{金欠|きんけつ}⟦で→で：00502_de⟧、⟦{外食|がいしょく}→外食：03024_gaishoku⟧⟦を→を：00422_wo⟧⟦{控|ひか}えている→控える：10054_hikaeru⟧。",
       "english": "I'm always short of money before payday, so I cut back on eating out.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "An abbreviation of {金欠病|きんけつびょう} (literally \"money-deficiency disease\"). A compound of {金|きん} (money, gold) and {欠|けつ} (lack, shortage). The humorous original form likens being broke to having an illness.\n\nCOMMON COLLOCATIONS:\n- {金欠|きんけつ}だ (to be broke)\n- {金欠|きんけつ}{状態|じょうたい} (state of being broke)\n- {金欠|きんけつ}{病|びょう} (the \"disease\" of being broke — humorous full form)\n- ずっと{金欠|きんけつ} (perpetually broke)\n\nA casual, colloquial expression. Not appropriate for formal or business contexts. Describes a temporary personal financial shortage rather than serious poverty. Commonly heard among students and young adults.",
-  "cross_references": [],
+  "notes": "An abbreviation of {金欠病|きんけつびょう} (literally \"money-deficiency disease\"). A compound of {金|きん} (money, gold) and {欠|けつ} (lack, shortage). The humorous original form likens being broke to having an illness.\n\nCOMMON COLLOCATIONS:\n- {金欠|きんけつ}だ (to be broke)\n- {金欠|きんけつ}⟦{状態|じょうたい}→状態：03345_joutai⟧ (state of being broke)\n- {金欠|きんけつ}{病|びょう} (the \"disease\" of being broke — humorous full form)\n- ⟦ずっと→ずっと：00912_zutto⟧{金欠|きんけつ} (perpetually broke)\n\nA casual, colloquial expression. Not appropriate for formal or business contexts. Describes a temporary personal financial shortage rather than serious poverty. Commonly heard among students and young adults.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19466_binbou",
+      "reading": "びんぼう",
+      "headword": "{貧乏|びんぼう}",
+      "label": "poor"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20625_muichimon",
+      "reading": "むいちもん",
+      "headword": "{無一文|むいちもん}",
+      "label": "penniless"
+    }
+  ],
   "metadata": {
     "created": "2026-03-01T09:37:20Z",
-    "modified": "2026-03-01T09:37:20Z",
+    "modified": "2026-09-02T04:01:37Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "transitivity": null,
       "formality": "informal",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

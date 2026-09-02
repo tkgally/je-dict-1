@@ -3,8 +3,24 @@
   "id": "21856_kaii",
   "headword": "{怪異|かいい}",
   "reading": "かいい",
-  "part_of_speech": "noun, adjective-na",
+  "part_of_speech": "noun, na-adjective",
   "gloss": "mysterious; supernatural; uncanny phenomenon",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02358_fushigi",
+      "reading": "ふしぎ",
+      "headword": "{不思議|ふしぎ}",
+      "label": "mysterious, strange"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12222_youkai",
+      "reading": "ようかい",
+      "headword": "{妖怪|ようかい}",
+      "label": "supernatural creature, monster"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -12,15 +28,17 @@
         "noun",
         "adjective-na"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "abstract",
         "culture"
       ]
     },
     "created": "2026-04-03T19:21:58Z",
-    "modified": "2026-07-29T12:35:11Z"
+    "modified": "2026-09-02T04:02:05Z"
   },
-  "notes": "Used for mysterious or supernatural phenomena, especially in the context of Japanese folklore, ghost stories, and horror fiction. As a noun, it refers to the phenomenon itself; as a na-adjective, it describes something as eerie or uncanny.\n\nCOMMON COLLOCATIONS:\n- {怪異|かいい}な{現象|げんしょう}: mysterious phenomenon\n- {怪異|かいい}{譚|たん}: tale of the supernatural\n- {怪異|かいい}が{起|お}きる: a supernatural event occurs\n- {怪異|かいい}な{雰囲気|ふんいき}: eerie atmosphere\n\nCULTURAL NOTE:\nJapanese literature has a rich tradition of {怪異|かいい} stories, from classical works like {今昔|こんじゃく}{物語|ものがたり} to modern horror fiction. The concept overlaps with {妖怪|ようかい} (supernatural creatures) but is broader, encompassing any unexplainable phenomenon.\n\nSIMILAR WORDS:\n- {不思議|ふしぎ}: mysterious, strange — more everyday and neutral, less eerie\n- {妖怪|ようかい}: supernatural creature, monster — specifically refers to creatures, not phenomena\n- {奇怪|きかい}: bizarre, strange — emphasizes oddness and absurdity",
+  "notes": "Used for mysterious or supernatural phenomena, especially in the context of Japanese folklore, ghost stories, and horror fiction. As a noun, it refers to the phenomenon itself; as a na-adjective, it describes something as eerie or uncanny.\n\nCOMMON COLLOCATIONS:\n- {怪異|かいい}な⟦{現象|げんしょう}→現象：02718_genshou⟧: mysterious phenomenon\n- {怪異|かいい}{譚|たん}: tale of the supernatural\n- {怪異|かいい}⟦が→が：00051_ga⟧⟦{起|お}きる→起きる：00521_okiru⟧: a supernatural event occurs\n- {怪異|かいい}な⟦{雰囲気|ふんいき}→雰囲気：03604_funiki⟧: eerie atmosphere\n\nCULTURAL NOTE:\nJapanese literature has a rich tradition of {怪異|かいい} stories, from classical works like ⟦{今昔|こんじゃく}→今昔：20364_konjaku⟧⟦{物語|ものがたり}→物語：03634_monogatari⟧ to modern horror fiction. The concept overlaps with ⟦{妖怪|ようかい}→妖怪：12222_youkai⟧ (supernatural creatures) but is broader, encompassing any unexplainable phenomenon.\n\nSIMILAR WORDS:\n- ⟦{不思議|ふしぎ}→不思議：02358_fushigi⟧: mysterious, strange — more everyday and neutral, less eerie\n- ⟦{妖怪|ようかい}→妖怪：12222_youkai⟧: supernatural creature, monster — specifically refers to creatures, not phenomena\n- {奇怪|きかい}: bizarre, strange — emphasizes oddness and absurdity",
   "definitions": [
     {
       "sense_number": 1,
@@ -31,7 +49,7 @@
   "examples": [
     {
       "id": "21856_kaii_ex1",
-      "japanese": "{怪異|かいい}な{出来事|できごと}が{起|お}きた。",
+      "japanese": "{怪異|かいい}な⟦{出来事|できごと}→出来事：03446_dekigoto⟧⟦が→が：00051_ga⟧⟦{起|お}きた→起きる：00521_okiru⟧。",
       "english": "A mysterious event occurred.",
       "sense_numbers": [
         1
@@ -41,7 +59,7 @@
     },
     {
       "id": "21856_kaii_ex2",
-      "japanese": "この{屋敷|やしき}では{昔|むかし}から{怪異|かいい}が{報告|ほうこく}されている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{屋敷|やしき}→屋敷：12395_yashiki⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{昔|むかし}→昔：01515_mukashi⟧⟦から→から：00504_kara⟧{怪異|かいい}⟦が→が：00051_ga⟧⟦{報告|ほうこく}→報告：03618_houkoku⟧⟦されている→する：00392_suru⟧。",
       "english": "Supernatural occurrences have been reported at this mansion since long ago.",
       "sense_numbers": [
         1
@@ -51,7 +69,7 @@
     },
     {
       "id": "21856_kaii_ex3",
-      "japanese": "{日本|にほん}の{民話|みんわ}には{様々|さまざま}な{怪異|かいい}が{登場|とうじょう}する。",
+      "japanese": "⟦{日本|にほん}→日本：03876_nihon⟧⟦の→の：09472_no⟧⟦{民話|みんわ}→民話：20558_minwa⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{様々|さまざま}→様々：01559_samazama⟧な{怪異|かいい}⟦が→が：00051_ga⟧⟦{登場|とうじょう}→登場：13625_toujou⟧⟦する→する：00392_suru⟧。",
       "english": "Various supernatural phenomena appear in Japanese folk tales.",
       "sense_numbers": [
         1

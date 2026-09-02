@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30380_tsukaiyasui_ex1",
-      "japanese": "このアプリは{使|つか}いやすい。",
+      "japanese": "⟦この→この：00962_kono⟧⟦アプリ→アプリ：04722_apuri⟧⟦は→は：00079_ha⟧{使|つか}いやすい。",
       "english": "This app is easy to use.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30380_tsukaiyasui_ex2",
-      "japanese": "{使|つか}いやすい{道具|どうぐ}を{選|えら}んだ。",
+      "japanese": "{使|つか}いやすい⟦{道具|どうぐ}→道具：01479_dougu⟧⟦を→を：00422_wo⟧⟦{選|えら}んだ→選ぶ：00835_erabu⟧。",
       "english": "I chose tools that are easy to use.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30380_tsukaiyasui_ex3",
-      "japanese": "{新|あたら}しいサイトは{前|まえ}より{使|つか}いやすくなったと{評判|ひょうばん}だ。",
+      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦サイト→サイト：05603_saito⟧⟦は→は：00079_ha⟧⟦{前|まえ}→前：02255_mae⟧⟦より→より：09476_yori⟧{使|つか}いやすく⟦なった→なる：01970_naru⟧⟦と→と：00512_to⟧⟦{評判|ひょうばん}→評判：03586_hyouban⟧だ。",
       "english": "People say the new site has become easier to use than before.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "COMMON COLLOCATIONS:\n- {使|つか}いやすい{道具|どうぐ}: an easy-to-use tool\n- {使|つか}いやすさ: usability (noun form)\n- {使|つか}いやすくなる: to become easier to use\n- {使|つか}いやすいように{並|なら}べる: to arrange things for easy use\n\nSIMILAR WORDS:\n- {使|つか}いにくい: hard to use — the direct opposite\n- {便利|べんり}: convenient — about overall usefulness, not about ease of operation\n- {分|わ}かりやすい: easy to understand — about comprehension rather than handling",
+  "notes": "COMMON COLLOCATIONS:\n- {使|つか}いやすい⟦{道具|どうぐ}→道具：01479_dougu⟧: an easy-to-use tool\n- {使|つか}いやすさ: usability (noun form)\n- {使|つか}いやすく⟦なる→なる：01970_naru⟧: to become easier to use\n- {使|つか}いやすいよう⟦に→に：00314_ni⟧⟦{並|なら}べる→並べる：01091_naraberu⟧: to arrange things for easy use\n\nSIMILAR WORDS:\n- ⟦{使|つか}いにくい→使いにくい：30397_tsukainikui⟧: hard to use — the direct opposite\n- ⟦{便利|べんり}→便利：00830_benri⟧: convenient — about overall usefulness, not about ease of operation\n- ⟦{分|わ}かり→分かる：00463_wakaru⟧やすい: easy to understand — about comprehension rather than handling",
   "cross_references": [
     {
       "type": "antonym",
@@ -63,6 +63,13 @@
       "reading": "べんり",
       "headword": "{便利|べんり}",
       "label": "convenient"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09582_wakariyasui",
+      "reading": "わかりやすい",
+      "headword": "わかりやすい",
+      "label": "easy to understand, clear"
     }
   ],
   "schema_version": "2.0",
@@ -80,7 +87,7 @@
       "domain": []
     },
     "created": "2026-08-04T06:26:08Z",
-    "modified": "2026-08-04T18:18:49Z"
+    "modified": "2026-09-02T04:02:40Z"
   },
   "conjugation": {
     "type": "i-adjective",

@@ -3,7 +3,7 @@
   "headword": "{入植|にゅうしょく}",
   "reading": "にゅうしょく",
   "romaji": "nyuushoku",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "settlement; colonization",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24752_nyuushoku_ex1",
-      "japanese": "{北海道|ほっかいどう}に{入植|にゅうしょく}した。",
+      "japanese": "⟦{北海道|ほっかいどう}→北海道：11010_hokkaidou⟧⟦に→に：00314_ni⟧{入植|にゅうしょく}⟦した→する：00392_suru⟧。",
       "english": "They settled in Hokkaido.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24752_nyuushoku_ex2",
-      "japanese": "{明治|めいじ}{時代|じだい}に{多|おお}くの{人々|ひとびと}が{北海道|ほっかいどう}に{入植|にゅうしょく}した。",
+      "japanese": "⟦{明治|めいじ}{時代|じだい}→明治時代：28080_meijijidai⟧⟦に→に：00314_ni⟧{多|おお}く⟦の→の：09472_no⟧⟦{人々|ひとびと}→人々：03141_hitobito⟧⟦が→が：00051_ga⟧⟦{北海道|ほっかいどう}→北海道：11010_hokkaidou⟧⟦に→に：00314_ni⟧{入植|にゅうしょく}⟦した→する：00392_suru⟧。",
       "english": "Many people settled in Hokkaido during the Meiji era.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24752_nyuushoku_ex3",
-      "japanese": "{戦後|せんご}、{政府|せいふ}の{政策|せいさく}により{満州|まんしゅう}からの{引揚者|ひきあげしゃ}が{各地|かくち}の{開拓地|かいたくち}に{入植|にゅうしょく}した。",
+      "japanese": "⟦{戦後|せんご}→戦後：12853_sengo⟧、⟦{政府|せいふ}→政府：03294_seifu⟧⟦の→の：09472_no⟧⟦{政策|せいさく}→政策：10070_seisaku⟧⟦に→に：00314_ni⟧⟦より→より：09476_yori⟧{満州|まんしゅう}⟦から→から：00504_kara⟧⟦の→の：09472_no⟧{引揚者|ひきあげしゃ}⟦が→が：00051_ga⟧⟦{各地|かくち}→各地：00155_kakuchi⟧⟦の→の：09472_no⟧{開拓地|かいたくち}⟦に→に：00314_ni⟧{入植|にゅうしょく}⟦した→する：00392_suru⟧。",
       "english": "After the war, returnees from Manchuria settled in pioneer lands across the country under government policy.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {入|にゅう} (to enter) and {植|しょく} (to plant, colonize). Refers to the act of settling in a new area, typically for agricultural development.\n\nHistorically important in Japan, especially regarding the settlement of Hokkaido during the Meiji era, Japanese emigration to Manchuria and other territories in the early 20th century, and postwar agricultural resettlement programs.\n\nAlso used in international contexts to describe colonization and settlement of territories.\n\nCOMMON COLLOCATIONS:\n- {入植|にゅうしょく}{者|しゃ}: settler, colonist\n- {入植|にゅうしょく}{地|ち}: settlement, colony\n- {入植|にゅうしょく}{事業|じぎょう}: colonization project\n- {入植|にゅうしょく}を{開始|かいし}する: to begin settlement\n\nSIMILAR WORDS:\n- {開拓|かいたく}: pioneering, reclamation — emphasizes the act of developing undeveloped land\n- {植民|しょくみん}: colonization — stronger political and imperial connotations\n- {移住|いじゅう}: migration, relocation — broader term for moving to a new place to live",
+  "notes": "A compound of {入|にゅう} (to enter) and {植|しょく} (to plant, colonize). Refers to the act of settling in a new area, typically for agricultural development.\n\nHistorically important in Japan, especially regarding the settlement of Hokkaido during the Meiji era, Japanese emigration to Manchuria and other territories in the early 20th century, and postwar agricultural resettlement programs.\n\nAlso used in international contexts to describe colonization and settlement of territories.\n\nCOMMON COLLOCATIONS:\n- {入植|にゅうしょく}{者|しゃ}: settler, colonist\n- {入植|にゅうしょく}{地|ち}: settlement, colony\n- {入植|にゅうしょく}⟦{事業|じぎょう}→事業：11421_jigyou⟧: colonization project\n- {入植|にゅうしょく}⟦を→を：00422_wo⟧⟦{開始|かいし}する→開始する：26826_kaishisuru⟧: to begin settlement\n\nSIMILAR WORDS:\n- ⟦{開拓|かいたく}→開拓：09954_kaitaku⟧: pioneering, reclamation — emphasizes the act of developing undeveloped land\n- {植民|しょくみん}: colonization — stronger political and imperial connotations\n- ⟦{移住|いじゅう}→移住：13752_ijuu⟧: migration, relocation — broader term for moving to a new place to live",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09954_kaitaku",
+      "reading": "かいたく",
+      "headword": "{開拓|かいたく}",
+      "label": "pioneering, reclamation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13752_ijuu",
+      "reading": "いじゅう",
+      "headword": "{移住|いじゅう}",
+      "label": "migration, relocation"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,6 +69,8 @@
         "noun",
         "verb-suru"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "history",
         "society"
@@ -60,7 +78,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-20T14:32:39Z",
-    "modified": "2026-04-20T14:32:39Z"
+    "modified": "2026-09-02T04:02:19Z"
   },
   "conjugation": {
     "type": "suru",

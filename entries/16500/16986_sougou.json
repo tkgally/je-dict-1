@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "16986_sougou_ex1",
-      "japanese": "{総合|そうごう}{的|てき}に{判断|はんだん}する。",
+      "japanese": "{総合|そうごう}{的|てき}⟦に→に：00314_ni⟧⟦{判断|はんだん}する→判断する：06062_handansuru⟧。",
       "english": "To judge comprehensively.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16986_sougou_ex2",
-      "japanese": "{総合|そうごう}{病院|びょういん}で{検査|けんさ}を{受|う}けた。",
+      "japanese": "{総合|そうごう}⟦{病院|びょういん}→病院：00577_byouin⟧⟦で→で：00502_de⟧⟦{検査|けんさ}→検査：02707_kensa⟧⟦を→を：00422_wo⟧⟦{受|う}けた→受ける：01215_ukeru⟧。",
       "english": "I had an examination at a general hospital.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16986_sougou_ex3",
-      "japanese": "すべての{意見|いけん}を{総合|そうごう}して、{最終|さいしゅう}{的|てき}な{結論|けつろん}を{出|だ}した。",
+      "japanese": "すべて⟦の→の：09472_no⟧⟦{意見|いけん}→意見：01303_iken⟧⟦を→を：00422_wo⟧{総合|そうごう}⟦して→する：00392_suru⟧、⟦{最終|さいしゅう}{的|てき}→最終的：13013_saishuuteki⟧な⟦{結論|けつろん}→結論：02704_ketsuron⟧⟦を→を：00422_wo⟧⟦{出|だ}した→出す：01087_dasu⟧。",
       "english": "We synthesized all opinions and reached a final conclusion.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nVery commonly used as a prefix meaning \"comprehensive\" or \"general\" in compound words. Often paired with {的|てき} to form the adjectival expression {総合|そうごう}{的|てき} (comprehensive, overall).\n\nCOMMON COLLOCATIONS:\n- {総合|そうごう}{病院|びょういん} (general hospital)\n- {総合|そうごう}{大学|だいがく} (comprehensive university)\n- {総合|そうごう}{的|てき}に (comprehensively, overall)\n- {総合|そうごう}{評価|ひょうか} (overall evaluation)\n\nSIMILAR WORDS:\n- {統合|とうごう}: integration — bringing separate things into one system, whereas {総合|そうごう} emphasizes bringing together diverse elements for an overall view",
+  "notes": "USAGE:\nVery commonly used as a prefix meaning \"comprehensive\" or \"general\" in compound words. Often paired with ⟦{的|てき}→〜的：09839_teki⟧ to form the adjectival expression {総合|そうごう}{的|てき} (comprehensive, overall).\n\nCOMMON COLLOCATIONS:\n- {総合|そうごう}⟦{病院|びょういん}→病院：00577_byouin⟧ (general hospital)\n- {総合|そうごう}{大学|だいがく} (comprehensive university)\n- {総合|そうごう}{的|てき}⟦に→に：00314_ni⟧ (comprehensively, overall)\n- {総合|そうごう}{評価|ひょうか} (overall evaluation)\n\nSIMILAR WORDS:\n- ⟦{統合|とうごう}→統合：09615_tougou⟧: integration — bringing separate things into one system, whereas {総合|そうごう} emphasizes bringing together diverse elements for an overall view",
   "cross_references": [
     {
       "type": "contrast",
@@ -46,18 +52,29 @@
       "reading": "とうごう",
       "headword": "{統合|とうごう}",
       "label": "integration into one system"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04383_zenpan",
+      "reading": "ぜんぱん",
+      "headword": "{全般|ぜんぱん}",
+      "label": "whole, general, overall"
     }
   ],
   "metadata": {
     "created": "2026-03-15T05:53:16Z",
-    "modified": "2026-05-05T06:07:12Z",
+    "modified": "2026-09-02T04:01:46Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["abstract"]
+      "semantic": [
+        "abstract"
+      ]
     }
   }
 }

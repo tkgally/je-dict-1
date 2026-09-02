@@ -3,7 +3,7 @@
   "id": "17300_housousuru",
   "headword": "{包装|ほうそう}する",
   "reading": "ほうそうする",
-  "part_of_speech": "verb-suru",
+  "part_of_speech": "suru verb",
   "gloss": "to wrap; to package",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "17300_housousuru_ex1",
-      "japanese": "プレゼントを{包装|ほうそう}してもらった。",
+      "japanese": "⟦プレゼント→プレゼント：01791_purezento⟧⟦を→を：00422_wo⟧{包装|ほうそう}して⟦もらった→もらう：00520_morau⟧。",
       "english": "I had the present gift-wrapped.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "17300_housousuru_ex2",
-      "japanese": "{商品|しょうひん}をきれいに{包装|ほうそう}してください。",
+      "japanese": "⟦{商品|しょうひん}→商品：01436_shouhin⟧⟦を→を：00422_wo⟧⟦きれい→きれい：00717_kirei⟧⟦に→に：00314_ni⟧{包装|ほうそう}して⟦ください→ください：02899_kudasai⟧。",
       "english": "Please wrap the item nicely.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "17300_housousuru_ex3",
-      "japanese": "{環境|かんきょう}に{配慮|はいりょ}して、{過剰|かじょう}な{包装|ほうそう}を{減|へ}らす{動|うご}きが{広|ひろ}がっている。",
+      "japanese": "⟦{環境|かんきょう}→環境：00174_kankyou⟧⟦に→に：00314_ni⟧⟦{配慮|はいりょ}して→配慮する：26831_hairyosuru⟧、⟦{過剰|かじょう}→過剰：04123_kajou⟧な⟦{包装|ほうそう}→包装：11932_housou⟧⟦を→を：00422_wo⟧⟦{減|へ}らす→減らす：02414_herasu⟧⟦{動|うご}き→動き：11926_ugoki⟧⟦が→が：00051_ga⟧⟦{広|ひろ}がっている→広がる：01980_hirogaru⟧。",
       "english": "Out of consideration for the environment, the movement to reduce excessive packaging is spreading.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nVery common in shopping contexts. In Japanese stores, staff will often ask if an item is a gift and offer to {包装|ほうそう} it. The noun form {包装|ほうそう} is used independently to mean 'packaging' or 'wrapping.'\n\nCOMMON COLLOCATIONS:\n- {包装|ほうそう}{紙|し} (wrapping paper)\n- {個別|こべつ}{包装|ほうそう} (individually wrapped)\n- {過剰|かじょう}{包装|ほうそう} (excessive packaging)\n- ギフト{包装|ほうそう} (gift wrapping)\n- {包装|ほうそう}を{開|あ}ける (open the packaging)\n\nSIMILAR WORDS:\n- {包|つつ}む: to wrap — the native Japanese verb; broader usage including wrapping in cloth, blankets, etc.\n- ラッピングする: to gift-wrap — loanword used specifically for decorative gift wrapping",
+  "notes": "USAGE:\nVery common in shopping contexts. In Japanese stores, staff will often ask if an item is a gift and offer to ⟦{包装|ほうそう}→包装：11932_housou⟧ it. The noun form ⟦{包装|ほうそう}→包装：11932_housou⟧ is used independently to mean 'packaging' or 'wrapping.'\n\nCOMMON COLLOCATIONS:\n- ⟦{包装|ほうそう}{紙|し}→包装紙：11506_housoushi⟧ (wrapping paper)\n- ⟦{個別|こべつ}→個別：11566_kobetsu⟧⟦{包装|ほうそう}→包装：11932_housou⟧ (individually wrapped)\n- ⟦{過剰|かじょう}→過剰：04123_kajou⟧⟦{包装|ほうそう}→包装：11932_housou⟧ (excessive packaging)\n- ⟦ギフト→ギフト：10824_gifuto⟧⟦{包装|ほうそう}→包装：11932_housou⟧ (gift wrapping)\n- ⟦{包装|ほうそう}→包装：11932_housou⟧⟦を→を：00422_wo⟧⟦{開|あ}ける→開ける：00563_akeru⟧ (open the packaging)\n\nSIMILAR WORDS:\n- ⟦{包|つつ}む→包む：01226_tsutsumu⟧: to wrap — the native Japanese verb; broader usage including wrapping in cloth, blankets, etc.\n- ⟦ラッピング→ラッピング：08317_rappingu⟧⟦する→する：00392_suru⟧: to gift-wrap — loanword used specifically for decorative gift wrapping",
   "cross_references": [
     {
       "type": "synonym",
@@ -142,11 +142,18 @@
       "reading": "つつむ",
       "headword": "{包|つつ}む",
       "label": "to wrap (general)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21997_hakozumesuru",
+      "reading": "はこづめする",
+      "headword": "{箱詰|はこづ}めする",
+      "label": "to pack in a box"
     }
   ],
   "metadata": {
     "created": "2026-03-17T04:39:15Z",
-    "modified": "2026-05-06T06:14:35Z",
+    "modified": "2026-09-02T04:01:47Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

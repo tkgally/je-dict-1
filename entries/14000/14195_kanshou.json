@@ -3,7 +3,7 @@
   "id": "14195_kanshou",
   "headword": "{観賞|かんしょう}",
   "reading": "かんしょう",
-  "part_of_speech": "noun, suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "appreciation, viewing for enjoyment",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "14195_kanshou_ex1",
-      "japanese": "{桜|さくら}を{観賞|かんしょう}する。",
+      "japanese": "⟦{桜|さくら}→桜：02212_sakura⟧⟦を→を：00422_wo⟧{観賞|かんしょう}⟦する→する：00392_suru⟧。",
       "english": "To enjoy viewing the cherry blossoms.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "14195_kanshou_ex2",
-      "japanese": "{観賞|かんしょう}{用|よう}の{熱帯魚|ねったいぎょ}を{飼|か}っている。",
+      "japanese": "{観賞|かんしょう}⟦{用|よう}→〜用：09842_you⟧⟦の→の：09472_no⟧⟦{熱帯魚|ねったいぎょ}→熱帯魚：19146_nettaigyo⟧⟦を→を：00422_wo⟧⟦{飼|か}っている→飼う：08151_kau⟧。",
       "english": "I keep tropical fish for ornamental purposes.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "14195_kanshou_ex3",
-      "japanese": "{庭園|ていえん}の{紅葉|こうよう}を{観賞|かんしょう}しながら{抹茶|まっちゃ}をいただいた。",
+      "japanese": "⟦{庭園|ていえん}→庭園：12452_teien⟧⟦の→の：09472_no⟧⟦{紅葉|こうよう}→紅葉：04151_kouyou⟧⟦を→を：00422_wo⟧{観賞|かんしょう}し⟦ながら→ながら：10530_nagara⟧⟦{抹茶|まっちゃ}→抹茶：10574_maccha⟧⟦を→を：00422_wo⟧⟦いただいた→いただく：01326_itadaku⟧。",
       "english": "I had matcha while admiring the autumn leaves in the garden.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "COMMON COLLOCATIONS:\n- {観賞|かんしょう}{用|よう}: for ornamental/viewing purposes\n- {観賞|かんしょう}{魚|ぎょ}: ornamental fish\n- {観賞|かんしょう}{植物|しょくぶつ}: ornamental plants\n- {花|はな}を{観賞|かんしょう}する: to admire flowers\n\nSIMILAR WORDS:\n- {鑑賞|かんしょう}: appreciation of art, music, film, or literature (written with {鑑|かん} meaning 'discern/judge')\n- {観賞|かんしょう}: appreciation of natural beauty — flowers, fish, scenery (written with {観|かん} meaning 'observe/view')\n\nThe distinction between {観賞|かんしょう} and {鑑賞|かんしょう} is important:\n- {映画|えいが}{鑑賞|かんしょう}: film appreciation ({鑑|かん} for art)\n- {観賞|かんしょう}{魚|ぎょ}: ornamental fish ({観|かん} for nature)",
+  "notes": "COMMON COLLOCATIONS:\n- {観賞|かんしょう}⟦{用|よう}→〜用：09842_you⟧: for ornamental/viewing purposes\n- {観賞|かんしょう}{魚|ぎょ}: ornamental fish\n- {観賞|かんしょう}⟦{植物|しょくぶつ}→植物：03248_shokubutsu⟧: ornamental plants\n- ⟦{花|はな}→花：00523_hana⟧⟦を→を：00422_wo⟧{観賞|かんしょう}⟦する→する：00392_suru⟧: to admire flowers\n\nSIMILAR WORDS:\n- ⟦{鑑賞|かんしょう}→鑑賞：14516_kanshou⟧: appreciation of art, music, film, or literature (written with {鑑|かん} meaning 'discern/judge')\n- {観賞|かんしょう}: appreciation of natural beauty — flowers, fish, scenery (written with {観|かん} meaning 'observe/view')\n\nThe distinction between {観賞|かんしょう} and ⟦{鑑賞|かんしょう}→鑑賞：14516_kanshou⟧ is important:\n- ⟦{映画|えいが}→映画：02273_eiga⟧⟦{鑑賞|かんしょう}→鑑賞：14516_kanshou⟧: film appreciation ({鑑|かん} for art)\n- {観賞|かんしょう}{魚|ぎょ}: ornamental fish ({観|かん} for nature)",
   "prominent_see_also": [
     {
       "target_id": "14516_kanshou",
@@ -143,10 +143,18 @@
       "note": "appreciation, art (鑑賞)"
     }
   ],
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "20537_geijutsukanshou",
+      "reading": "げいじゅつかんしょう",
+      "headword": "{芸術鑑賞|げいじゅつかんしょう}",
+      "label": "art appreciation"
+    }
+  ],
   "metadata": {
     "created": "2026-02-28T02:19:08Z",
-    "modified": "2026-04-30T05:18:10Z",
+    "modified": "2026-09-02T04:01:36Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -159,7 +167,8 @@
       "semantic": [
         "leisure"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

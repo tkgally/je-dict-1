@@ -16,40 +16,75 @@
   "examples": [
     {
       "id": "29373_shogen_ex1",
-      "japanese": "{緒言|しょげん}を{読|よ}む。",
+      "japanese": "{緒言|しょげん}⟦を→を：00422_wo⟧⟦{読|よ}む→読む：00426_yomu⟧。",
       "english": "To read the preface.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29373_shogen_ex2",
-      "japanese": "{著者|ちょしゃ}は{緒言|しょげん}で{研究|けんきゅう}の{目的|もくてき}を{述|の}べている。",
+      "japanese": "⟦{著者|ちょしゃ}→著者：03501_chosha⟧⟦は→は：00079_ha⟧{緒言|しょげん}⟦で→で：00502_de⟧⟦{研究|けんきゅう}→研究：01396_kenkyuu⟧⟦の→の：09472_no⟧⟦{目的|もくてき}→目的：02433_mokuteki⟧⟦を→を：00422_wo⟧⟦{述|の}べている→述べる：02389_noberu⟧。",
       "english": "The author states the purpose of the research in the preface.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29373_shogen_ex3",
-      "japanese": "{専門書|せんもんしょ}の{緒言|しょげん}には、その{分野|ぶんや}の{背景|はいけい}がまとめられていることが{多|おお}い。",
+      "japanese": "{専門書|せんもんしょ}⟦の→の：09472_no⟧{緒言|しょげん}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧、⟦その→その：00993_sono⟧⟦{分野|ぶんや}→分野：03612_bunya⟧⟦の→の：09472_no⟧⟦{背景|はいけい}→背景：28348_haikei⟧⟦が→が：00051_ga⟧⟦まとめられている→まとめる：02424_matomeru⟧こと⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "The preface of a specialist book often summarizes the background of the field.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A formal, written-language word used chiefly in academic books and papers. Also read {ちょげん}. In everyday writing {まえがき} or {はじめに} are far more common.\n\nSIMILAR WORDS:\n- {序文|じょぶん}: preface — a near-synonym; {緒言|しょげん} sounds more academic.\n- まえがき: foreword — the plain, everyday equivalent.\n- あとがき: afterword — the closing counterpart placed at the end.",
+  "notes": "A formal, written-language word used chiefly in academic books and papers. Also read ちょげん. In everyday writing まえがき or はじめ⟦に→に：00314_ni⟧ are far more common.\n\nSIMILAR WORDS:\n- ⟦{序文|じょぶん}→序文：06205_jobun⟧: preface — a near-synonym; {緒言|しょげん} sounds more academic.\n- まえがき: foreword — the plain, everyday equivalent.\n- ⟦あとがき→あとがき：21507_atogaki⟧: afterword — the closing counterpart placed at the end.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06205_jobun",
+      "reading": "じょぶん",
+      "headword": "{序文|じょぶん}",
+      "label": "preface"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17127_maegaki",
+      "reading": "まえがき",
+      "headword": "{前書|まえが}き",
+      "label": "foreword"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21507_atogaki",
+      "reading": "あとがき",
+      "headword": "あとがき",
+      "label": "afterword"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
-      "politeness": null,
-      "semantic": ["language"],
-      "domain": ["academic"]
+      "politeness": "plain",
+      "semantic": [
+        "language"
+      ],
+      "domain": [
+        "academic"
+      ]
     },
     "created": "2026-06-20T18:18:01Z",
-    "modified": "2026-06-20T18:18:01Z"
+    "modified": "2026-09-02T04:02:36Z"
   }
 }

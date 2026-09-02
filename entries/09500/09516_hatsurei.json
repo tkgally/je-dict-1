@@ -2,7 +2,7 @@
   "id": "09516_hatsurei",
   "headword": "{発令|はつれい}",
   "reading": "はつれい",
-  "part_of_speech": "noun / suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "issuance (of an order/warning)",
   "conjugation": {
     "type": "suru",
@@ -113,7 +113,7 @@
     },
     {
       "id": "09516_hatsurei_ex2",
-      "japanese": "{避難|ひなん}{命令|めいれい}⟦を→を：00422_wo⟧{発令|はつれい}⟦する→する：00392_suru⟧。",
+      "japanese": "⟦{避難|ひなん}→避難：07908_hinan⟧⟦{命令|めいれい}→命令：03754_meirei⟧⟦を→を：00422_wo⟧{発令|はつれい}⟦する→する：00392_suru⟧。",
       "english": "To issue an evacuation order.",
       "has_audio": false,
       "sense_numbers": [
@@ -130,10 +130,10 @@
       ]
     }
   ],
-  "notes": "Used for the official issuance of orders, warnings, and directives by authorities. Carries a formal, authoritative tone.\n\nCOMMON COLLOCATIONS:\n- {警報|けいほう}を{発令|はつれい}する: to issue a warning\n- {命令|めいれい}を{発令|はつれい}する: to issue an order\n- {避難|ひなん}{勧告|かんこく}が{発令|はつれい}される: an evacuation advisory is issued\n- {緊急|きんきゅう}{事態|じたい}{宣言|せんげん}を{発令|はつれい}する: to declare a state of emergency\n\nCOMMON CONTEXTS:\n- {災害|さいがい} (natural disasters) — weather warnings, evacuation orders\n- {軍事|ぐんじ} (military) — orders, mobilization\n- {行政|ぎょうせい} (government) — official directives, personnel transfers\n\nRELATED TERMS:\n- {発表|はっぴょう}: announcement (more general, less authoritative)\n- {公布|こうふ}: promulgation (of laws)\n- {通達|つうたつ}: official notice/circular",
+  "notes": "Used for the official issuance of orders, warnings, and directives by authorities. Carries a formal, authoritative tone.\n\nCOMMON COLLOCATIONS:\n- ⟦{警報|けいほう}→警報：09515_keihou⟧⟦を→を：00422_wo⟧{発令|はつれい}⟦する→する：00392_suru⟧: to issue a warning\n- ⟦{命令|めいれい}→命令：03754_meirei⟧⟦を→を：00422_wo⟧{発令|はつれい}⟦する→する：00392_suru⟧: to issue an order\n- ⟦{避難|ひなん}{勧告|かんこく}→避難勧告：16642_hinankankoku⟧⟦が→が：00051_ga⟧{発令|はつれい}⟦される→する：00392_suru⟧: an evacuation advisory is issued\n- ⟦{緊急|きんきゅう}{事態|じたい}→緊急事態：16936_kinkyuujitai⟧⟦{宣言|せんげん}→宣言：12284_sengen⟧⟦を→を：00422_wo⟧{発令|はつれい}⟦する→する：00392_suru⟧: to declare a state of emergency\n\nUSAGE:\n- ⟦{災害|さいがい}→災害：09636_saigai⟧ (natural disasters) — weather warnings, evacuation orders\n- ⟦{軍事|ぐんじ}→軍事：14392_gunji⟧ (military) — orders, mobilization\n- ⟦{行政|ぎょうせい}→行政：14122_gyousei⟧ (government) — official directives, personnel transfers\n\nRELATED WORDS:\n- ⟦{発表|はっぴょう}→発表：03562_happyou⟧: announcement (more general, less authoritative)\n- ⟦{公布|こうふ}→公布：08394_koufu⟧: promulgation (of laws)\n- ⟦{通達|つうたつ}→通達：22238_tsuutatsu⟧: official notice/circular",
   "metadata": {
     "created": "2026-02-02T10:21:20Z",
-    "modified": "2026-04-22T08:43:07Z",
+    "modified": "2026-09-02T04:01:18Z",
     "ai_model": "claude-opus-4-5-20251101",
     "vocabulary_tier": "general",
     "tags": {
@@ -156,6 +156,27 @@
       "reading": "けいほう",
       "headword": "{警報|けいほう}",
       "label": "warning, alert"
+    },
+    {
+      "type": "related",
+      "target_id": "03562_happyou",
+      "reading": "はっぴょう",
+      "headword": "{発表|はっぴょう}",
+      "label": "announcement"
+    },
+    {
+      "type": "related",
+      "target_id": "08394_koufu",
+      "reading": "こうふ",
+      "headword": "{公布|こうふ}",
+      "label": "promulgation"
+    },
+    {
+      "type": "related",
+      "target_id": "22238_tsuutatsu",
+      "reading": "つうたつ",
+      "headword": "{通達|つうたつ}",
+      "label": "official notice/circular"
     }
   ]
 }

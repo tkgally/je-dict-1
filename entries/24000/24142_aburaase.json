@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24142_aburaase_ex1",
-      "japanese": "{脂汗|あぶらあせ}が{出|で}た。",
+      "japanese": "{脂汗|あぶらあせ}⟦が→が：00051_ga⟧⟦{出|で}た→出る：00513_deru⟧。",
       "english": "I broke out in a cold sweat.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24142_aburaase_ex2",
-      "japanese": "{痛|いた}みで{額|ひたい}に{脂汗|あぶらあせ}がにじんだ。",
+      "japanese": "⟦{痛|いた}み→痛み：01795_itami⟧⟦で→で：00502_de⟧⟦{額|ひたい}→額：03579_hitai⟧⟦に→に：00314_ni⟧{脂汗|あぶらあせ}⟦が→が：00051_ga⟧にじんだ。",
       "english": "A clammy sweat broke out on my forehead from the pain.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24142_aburaase_ex3",
-      "japanese": "{彼|かれ}は{脂汗|あぶらあせ}をかきながら、{必死|ひっし}に{言|い}い{訳|わけ}を{考|かんが}えていた。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{脂汗|あぶらあせ}⟦を→を：00422_wo⟧かき⟦ながら→ながら：10530_nagara⟧、⟦{必死|ひっし}→必死：03705_hisshi⟧⟦に→に：00314_ni⟧⟦{言|い}い{訳|わけ}→言い訳：04653_iiwake⟧⟦を→を：00422_wo⟧⟦{考|かんが}えていた→考える：00856_kangaeru⟧。",
       "english": "He was sweating nervously as he desperately tried to think of an excuse.",
       "sense_numbers": [
         1
@@ -45,7 +45,7 @@
     },
     {
       "id": "24142_aburaase_ex4",
-      "japanese": "{面接|めんせつ}の{前|まえ}に{脂汗|あぶらあせ}が{止|と}まらなかった。",
+      "japanese": "⟦{面接|めんせつ}→面接：01100_mensetsu⟧⟦の→の：09472_no⟧⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧{脂汗|あぶらあせ}⟦が→が：00051_ga⟧⟦{止|と}まらなかった→止まる：00555_tomaru⟧。",
       "english": "I couldn't stop the cold sweat before the interview.",
       "sense_numbers": [
         1
@@ -54,8 +54,31 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {脂|あぶら} (oil, grease) and {汗|あせ} (sweat). The name reflects the sticky, oily texture of this type of perspiration, which differs noticeably from the watery sweat produced by heat or exercise.\n\nThe word carries strong connotations of physical or psychological distress. It appears frequently in fiction to convey a character's suffering, fear, or extreme tension.\n\nCOMMON COLLOCATIONS:\n- {脂汗|あぶらあせ}をかく: to break out in a cold sweat\n- {脂汗|あぶらあせ}が{出|で}る: cold sweat comes out\n- {脂汗|あぶらあせ}がにじむ: cold sweat seeps out\n- {脂汗|あぶらあせ}が{流|なが}れる: cold sweat streams down\n\nSIMILAR WORDS:\n- {冷|ひ}や{汗|あせ}: cold sweat — more commonly used in everyday speech for nervousness or close calls; {脂汗|あぶらあせ} emphasizes the physical, visceral quality of the sweat\n- {寝汗|ねあせ}: night sweat — perspiration during sleep, neutral in tone\n- {大汗|おおあせ}: profuse sweating — emphasizes quantity rather than the greasy quality",
+  "notes": "A compound of ⟦{脂|あぶら}→脂：01916_abura⟧ (oil, grease) and ⟦{汗|あせ}→汗：02173_ase⟧ (sweat). The name reflects the sticky, oily texture of this type of perspiration, which differs noticeably from the watery sweat produced by heat or exercise.\n\nThe word carries strong connotations of physical or psychological distress. It appears frequently in fiction to convey a character's suffering, fear, or extreme tension.\n\nCOMMON COLLOCATIONS:\n- {脂汗|あぶらあせ}⟦を→を：00422_wo⟧かく: to break out in a cold sweat\n- {脂汗|あぶらあせ}⟦が→が：00051_ga⟧⟦{出|で}る→出る：00513_deru⟧: cold sweat comes out\n- {脂汗|あぶらあせ}⟦が→が：00051_ga⟧にじむ: cold sweat seeps out\n- {脂汗|あぶらあせ}⟦が→が：00051_ga⟧⟦{流|なが}れる→流れる：01969_nagareru⟧: cold sweat streams down\n\nSIMILAR WORDS:\n- ⟦{冷|ひ}や{汗|あせ}→冷や汗：19109_hiyaase⟧: cold sweat — more commonly used in everyday speech for nervousness or close calls; {脂汗|あぶらあせ} emphasizes the physical, visceral quality of the sweat\n- ⟦{寝汗|ねあせ}→寝汗：08194_nease⟧: night sweat — perspiration during sleep, neutral in tone\n- {大汗|おおあせ}: profuse sweating — emphasizes quantity rather than the greasy quality",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19109_hiyaase",
+      "reading": "ひやあせ",
+      "headword": "{冷|ひ}や{汗|あせ}",
+      "label": "cold sweat"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08194_nease",
+      "reading": "ねあせ",
+      "headword": "{寝汗|ねあせ}",
+      "label": "night sweat"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22403_reikan",
+      "reading": "れいかん",
+      "headword": "{冷汗|れいかん}",
+      "label": "cold sweat"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -70,6 +93,6 @@
       ]
     },
     "created": "2026-04-17T20:06:33Z",
-    "modified": "2026-08-02T18:32:34Z"
+    "modified": "2026-09-02T04:02:17Z"
   }
 }

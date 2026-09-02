@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "10768_tekotoha_ex1",
-      "japanese": "てことは、{来|こ}ないってこと？",
+      "japanese": "てことは、⟦{来|こ}ない→来る：00254_kuru⟧⟦って→って：29146_tte⟧こと？",
       "english": "So that means you're not coming?",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "10768_tekotoha_ex2",
-      "japanese": "てことは、もう{終|お}わったんだね。",
+      "japanese": "てことは、⟦もう→もう：00602_mou⟧⟦{終|お}わった→終わる：00567_owaru⟧んだ⟦ね→ね：09474_ne⟧。",
       "english": "So that means it's already over, huh.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "10768_tekotoha_ex3",
-      "japanese": "{彼|かれ}が{辞|や}めたってことは、{新|あたら}しい{人|ひと}を{探|さが}さないといけないってことだ。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦が→が：00051_ga⟧{辞|や}めたってことは、⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦{人|ひと}→人：00476_hito⟧⟦を→を：00422_wo⟧⟦{探|さが}さない→探す：00493_sagasu⟧⟦と→と：00512_to⟧いけない⟦って→って：29146_tte⟧ことだ。",
       "english": "The fact that he quit means we need to find someone new.",
       "notes": "Full form ってことは also shown here",
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "てことは is a very casual contraction used to draw a logical conclusion from what was just said. It means \"so that means...\" or \"in other words...\"\n\nCONTRACTION CHAIN:\n- ということは (formal/written)\n- ってことは (casual spoken)\n- てことは (very casual spoken)\n\nCOMMON PATTERNS:\n- てことは、〜ってこと？ (so that means ~, right?)\n- てことは、〜だね (so that means ~, huh)\n- てことは、〜わけだ (so in other words, ~)\n\nUSAGE:\nAlways sentence-initial or clause-initial. The speaker takes information just heard and draws a conclusion or asks for confirmation. Very common in everyday conversation.\n\nREGISTER:\nInformal/casual speech only. In formal situations, use the full form ということは. In writing, ということは or ってことは is preferred.\n\nSIMILAR EXPRESSIONS:\n- つまり: in other words, that is to say (neutral register)\n- ということは: so that means (formal equivalent)\n- じゃあ: then, in that case (more casual, less logical inference)",
+  "notes": "てことは is a very casual contraction used to draw a logical conclusion from what was just said. It means \"so that means...\" or \"in other words...\"\n\nCONTRACTION CHAIN:\n- ⟦ということは→ということは：30686_toiukotoha⟧ (formal/written)\n- ってことは (casual spoken)\n- てことは (very casual spoken)\n\nCOMMON PATTERNS:\n- てことは、〜⟦って→って：29146_tte⟧こと？ (so that means ~, right?)\n- てことは、〜だ⟦ね→ね：09474_ne⟧ (so that means ~, huh)\n- てことは、〜わけだ (so in other words, ~)\n\nUSAGE:\nAlways sentence-initial or clause-initial. The speaker takes information just heard and draws a conclusion or asks for confirmation. Very common in everyday conversation.\n\nREGISTER:\nInformal/casual speech only. In formal situations, use the full form ⟦ということは→ということは：30686_toiukotoha⟧. In writing, ⟦ということは→ということは：30686_toiukotoha⟧ or ってことは is preferred.\n\nSIMILAR WORDS:\n- ⟦つまり→つまり：03530_tsumari⟧: in other words, that is to say (neutral register)\n- ⟦ということは→ということは：30686_toiukotoha⟧: so that means (formal equivalent)\n- ⟦じゃあ→じゃあ：02989_jaa⟧: then, in that case (more casual, less logical inference)",
   "cross_references": [
     {
       "type": "related",
@@ -52,11 +52,32 @@
       "headword": "ということで",
       "label": "related transitional expression",
       "target_id": "10762_toiukotode"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03530_tsumari",
+      "reading": "つまり",
+      "headword": "つまり",
+      "label": "in other words, that is to say"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30686_toiukotoha",
+      "reading": "ということは",
+      "headword": "ということは",
+      "label": "so that means"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02989_jaa",
+      "reading": "じゃあ",
+      "headword": "じゃあ",
+      "label": "then, in that case"
     }
   ],
   "metadata": {
     "created": "2026-02-10T00:31:25Z",
-    "modified": "2026-06-28T03:46:26Z",
+    "modified": "2026-09-02T04:01:22Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

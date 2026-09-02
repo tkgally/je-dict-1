@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25482_shinpaku_ex1",
-      "japanese": "{心拍|しんぱく}{数|すう}を{測|はか}る。",
+      "japanese": "{心拍|しんぱく}{数|すう}⟦を→を：00422_wo⟧⟦{測|はか}る→測る：01977_hakaru⟧。",
       "english": "To measure one's heart rate.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25482_shinpaku_ex2",
-      "japanese": "{運動|うんどう}すると{心拍|しんぱく}が{上|あ}がる。",
+      "japanese": "⟦{運動|うんどう}→運動：00821_undou⟧⟦する→する：00392_suru⟧⟦と→と：00512_to⟧{心拍|しんぱく}⟦が→が：00051_ga⟧⟦{上|あ}がる→上がる：00615_agaru⟧。",
       "english": "Your heart rate goes up when you exercise.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25482_shinpaku_ex3",
-      "japanese": "スマートウォッチで{心拍|しんぱく}{数|すう}を{常|つね}にモニターして、{健康|けんこう}{管理|かんり}に{役立|やくだ}てている。",
+      "japanese": "⟦スマートウォッチ→スマートウォッチ：28554_sumaatowocchi⟧⟦で→で：00502_de⟧{心拍|しんぱく}{数|すう}⟦を→を：00422_wo⟧⟦{常|つね}→常：28958_tsune⟧⟦に→に：00314_ni⟧⟦モニター→モニター：05105_monitaa⟧⟦して→する：00392_suru⟧、⟦{健康|けんこう}{管理|かんり}→健康管理：21662_kenkoukanri⟧⟦に→に：00314_ni⟧⟦{役立|やくだ}てている→役立てる：12550_yakudateru⟧。",
       "english": "I constantly monitor my heart rate with a smartwatch and use it for health management.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {心|しん} (heart) and {拍|はく} (beat; clap). The compound {心拍数|しんぱくすう} (heart rate, literally \"heartbeat number\") is very commonly used in both medical and fitness contexts. With the popularity of wearable fitness devices, this word has become increasingly common in everyday conversation.\n\nCOMMON COLLOCATIONS:\n- {心拍|しんぱく}{数|すう}: heart rate (beats per minute)\n- {心拍|しんぱく}が{上|あ}がる: heart rate increases\n- {心拍|しんぱく}が{下|さ}がる: heart rate decreases\n- {心拍|しんぱく}モニター: heart rate monitor\n- {安静時|あんせいじ}{心拍|しんぱく}{数|すう}: resting heart rate\n\nSIMILAR WORDS:\n- {脈拍|みゃくはく}: pulse — the pulse felt at arteries (wrist, neck); a closely related but slightly different medical term\n- {鼓動|こどう}: heartbeat; pounding — more literary and emotional; the felt sensation of the heart beating\n- {動悸|どうき}: palpitations — an abnormally strong or fast heartbeat, often a symptom",
+  "notes": "A compound of {心|しん} (heart) and ⟦{拍|はく}→拍：30066_haku⟧ (beat; clap). The compound {心拍数|しんぱくすう} (heart rate, literally \"heartbeat number\") is very commonly used in both medical and fitness contexts. With the popularity of wearable fitness devices, this word has become increasingly common in everyday conversation.\n\nCOMMON COLLOCATIONS:\n- {心拍|しんぱく}{数|すう}: heart rate (beats per minute)\n- {心拍|しんぱく}⟦が→が：00051_ga⟧⟦{上|あ}がる→上がる：00615_agaru⟧: heart rate increases\n- {心拍|しんぱく}⟦が→が：00051_ga⟧⟦{下|さ}がる→下がる：01188_sagaru⟧: heart rate decreases\n- {心拍|しんぱく}⟦モニター→モニター：05105_monitaa⟧: heart rate monitor\n- {安静時|あんせいじ}{心拍|しんぱく}{数|すう}: resting heart rate\n\nSIMILAR WORDS:\n- ⟦{脈拍|みゃくはく}→脈拍：17839_myakuhaku⟧: pulse — the pulse felt at arteries (wrist, neck); a closely related but slightly different medical term\n- ⟦{鼓動|こどう}→鼓動：19609_kodou⟧: heartbeat; pounding — more literary and emotional; the felt sensation of the heart beating\n- ⟦{動悸|どうき}→動悸：06299_douki⟧: palpitations — an abnormally strong or fast heartbeat, often a symptom",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -52,13 +52,14 @@
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "body-internal",
         "health"
       ]
     },
     "created": "2026-04-25T14:19:07Z",
-    "modified": "2026-08-04T12:59:53Z"
+    "modified": "2026-09-02T04:02:22Z"
   },
   "cross_references": [
     {
@@ -67,6 +68,20 @@
       "reading": "みゃくはく",
       "headword": "{脈拍|みゃくはく}",
       "label": "pulse"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19609_kodou",
+      "reading": "こどう",
+      "headword": "{鼓動|こどう}",
+      "label": "heartbeat"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06299_douki",
+      "reading": "どうき",
+      "headword": "{動悸|どうき}",
+      "label": "palpitations"
     }
   ]
 }

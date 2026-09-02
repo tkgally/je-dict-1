@@ -16,7 +16,7 @@
   "examples": [
     {
       "id": "24438_shinrei_ex1",
-      "japanese": "この{山|やま}には{神霊|しんれい}が{宿|やど}ると{言|い}われている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{山|やま}→山：02168_yama⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{神霊|しんれい}⟦が→が：00051_ga⟧⟦{宿|やど}る→宿る：12351_yadoru⟧⟦と→と：00512_to⟧⟦{言|い}われている→言う：00515_iu⟧。",
       "english": "It is said that a divine spirit dwells in this mountain.",
       "sense_numbers": [
         1
@@ -26,7 +26,7 @@
     },
     {
       "id": "24438_shinrei_ex2",
-      "japanese": "{神霊|しんれい}を{祀|まつ}る{儀式|ぎしき}が{行|おこな}われた。",
+      "japanese": "{神霊|しんれい}⟦を→を：00422_wo⟧{祀|まつ}る⟦{儀式|ぎしき}→儀式：00071_gishiki⟧⟦が→が：00051_ga⟧⟦{行|おこな}われた→行う：01238_okonau⟧。",
       "english": "A ceremony to enshrine the divine spirit was held.",
       "sense_numbers": [
         1
@@ -36,7 +36,7 @@
     },
     {
       "id": "24438_shinrei_ex3",
-      "japanese": "{古来|こらい}より{日本人|にほんじん}は{自然|しぜん}の{中|なか}に{神霊|しんれい}の{存在|そんざい}を{感|かん}じてきた。",
+      "japanese": "⟦{古来|こらい}→古来：10168_korai⟧⟦より→より：09476_yori⟧⟦{日本人|にほんじん}→日本人：10112_nihonjin⟧⟦は→は：00079_ha⟧⟦{自然|しぜん}→自然：01423_shizen⟧⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧⟦に→に：00314_ni⟧{神霊|しんれい}⟦の→の：09472_no⟧⟦{存在|そんざい}→存在：03326_sonzai⟧⟦を→を：00422_wo⟧⟦{感|かん}じて→感じる：02044_kanjiru⟧きた。",
       "english": "Since ancient times, the Japanese have sensed the presence of divine spirits in nature.",
       "sense_numbers": [
         1
@@ -45,19 +45,36 @@
       "notes": null
     }
   ],
-  "notes": "Refers to the spirit of a god or sacred being in Japanese religious tradition (both Shinto and Buddhism). Distinguished from ghosts of the dead — this specifically denotes a spirit of divine or holy nature. Commonly encountered in texts about shrines, temples, and Japanese spirituality.\n\nCOMMON COLLOCATIONS:\n- {神霊|しんれい}を{祀|まつ}る: to enshrine a divine spirit\n- {神霊|しんれい}が{宿|やど}る: a divine spirit dwells (in a place)\n- {神霊|しんれい}{崇拝|すうはい}: worship of divine spirits\n\nSIMILAR WORDS:\n- {心霊|しんれい}: psychic/supernatural — same pronunciation but refers to ghosts and paranormal phenomena rather than divine beings\n- {御霊|みたま}: spirit of the deceased — honorific term for the soul of a dead person, often used at shrines\n- {精霊|せいれい}: spirit/fairy — nature spirits or spirits of the dead (in Buddhist context, the Obon spirits)\n- {神|かみ}: god/deity — the deity itself rather than its spiritual essence",
+  "notes": "Refers to the spirit of a god or sacred being in Japanese religious tradition (both Shinto and Buddhism). Distinguished from ghosts of the dead — this specifically denotes a spirit of divine or holy nature. Commonly encountered in texts about shrines, temples, and Japanese spirituality.\n\nCOMMON COLLOCATIONS:\n- {神霊|しんれい}⟦を→を：00422_wo⟧{祀|まつ}る: to enshrine a divine spirit\n- {神霊|しんれい}⟦が→が：00051_ga⟧⟦{宿|やど}る→宿る：12351_yadoru⟧: a divine spirit dwells (in a place)\n- {神霊|しんれい}⟦{崇拝|すうはい}→崇拝：10032_suuhai⟧: worship of divine spirits\n\nSIMILAR WORDS:\n- ⟦{心霊|しんれい}→心霊：12764_shinrei⟧: psychic/supernatural — same pronunciation but refers to ghosts and paranormal phenomena rather than divine beings\n- {御霊|みたま}: spirit of the deceased — honorific term for the soul of a dead person, often used at shrines\n- ⟦{精霊|せいれい}→精霊：13820_seirei⟧: spirit/fairy — nature spirits or spirits of the dead (in Buddhist context, the Obon spirits)\n- ⟦{神|かみ}→神：02147_kami⟧: god/deity — the deity itself rather than its spiritual essence",
+  "cross_references": [
+    {
+      "type": "homophone",
+      "target_id": "12764_shinrei",
+      "reading": "しんれい",
+      "headword": "{心霊|しんれい}",
+      "label": "psychic/supernatural"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13820_seirei",
+      "reading": "せいれい",
+      "headword": "{精霊|せいれい}",
+      "label": "spirit/fairy"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
       "semantic": [
         "religion",
         "culture"
       ]
     },
     "created": "2026-04-19T10:09:33Z",
-    "modified": "2026-04-19T10:09:33Z"
+    "modified": "2026-09-02T04:02:18Z"
   }
 }

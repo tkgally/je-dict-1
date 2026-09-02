@@ -15,41 +15,67 @@
   "examples": [
     {
       "id": "28873_kakushi_ex1",
-      "japanese": "{各紙|かくし}が{報道|ほうどう}した。",
+      "japanese": "{各紙|かくし}⟦が→が：00051_ga⟧⟦{報道|ほうどう}→報道：04438_houdou⟧⟦した→する：00392_suru⟧。",
       "english": "Each of the newspapers reported it.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28873_kakushi_ex2",
-      "japanese": "{事件|じけん}は{各紙|かくし}の{一面|いちめん}を{飾|かざ}った。",
+      "japanese": "⟦{事件|じけん}→事件：01568_jiken⟧⟦は→は：00079_ha⟧{各紙|かくし}⟦の→の：09472_no⟧⟦{一面|いちめん}→一面：11184_ichimen⟧⟦を→を：00422_wo⟧⟦{飾|かざ}った→飾る：01185_kazaru⟧。",
       "english": "The incident made the front page of every paper.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28873_kakushi_ex3",
-      "japanese": "{社説|しゃせつ}を{比|くら}べると、{各紙|かくし}の{立場|たちば}の{違|ちが}いがよくわかる。",
+      "japanese": "⟦{社説|しゃせつ}→社説：04197_shasetsu⟧⟦を→を：00422_wo⟧⟦{比|くら}べる→比べる：01237_kuraberu⟧⟦と→と：00512_to⟧、{各紙|かくし}⟦の→の：09472_no⟧⟦{立場|たちば}→立場：03403_tachiba⟧⟦の→の：09472_no⟧⟦{違|ちが}い→違い：03432_chigai⟧⟦が→が：00051_ga⟧⟦よく→よく：00601_yoku⟧わかる。",
       "english": "Comparing the editorials, you can clearly see the difference in each paper's stance.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A formal compound: {各|かく} (each) + {紙|し} (here meaning newspaper, an abbreviation of {新聞|しんぶん}). Appears mostly in news, commentary, and writing about media.\n\nCOMMON COLLOCATIONS:\n- {各紙|かくし}が{報|ほう}じる: each paper reports\n- {各紙|かくし}の{社説|しゃせつ}: editorials of the various papers\n- {全国|ぜんこく}{各紙|かくし}: all the national papers\n\nSIMILAR WORDS:\n- {各社|かくしゃ}: each company — broader; covers any kind of company (TV networks, publishers, etc.)\n- {新聞各社|しんぶんかくしゃ}: each newspaper company — refers to the publishers; {各紙|かくし} refers to the papers themselves\n- マスコミ: mass media — much broader and informal",
+  "notes": "A formal compound: ⟦{各|かく}→各〜：00449_kaku⟧ (each) + {紙|し} (here meaning newspaper, an abbreviation of ⟦{新聞|しんぶん}→新聞：01440_shinbun⟧). Appears mostly in news, commentary, and writing about media.\n\nCOMMON COLLOCATIONS:\n- {各紙|かくし}⟦が→が：00051_ga⟧⟦{報|ほう}じる→報じる：17193_houjiru⟧: each paper reports\n- {各紙|かくし}⟦の→の：09472_no⟧⟦{社説|しゃせつ}→社説：04197_shasetsu⟧: editorials of the various papers\n- ⟦{全国|ぜんこく}→全国：03311_zenkoku⟧{各紙|かくし}: all the national papers\n\nSIMILAR WORDS:\n- ⟦{各社|かくしゃ}→各社：11057_kakusha⟧: each company — broader; covers any kind of company (TV networks, publishers, etc.)\n- {新聞各社|しんぶんかくしゃ}: each newspaper company — refers to the publishers; {各紙|かくし} refers to the papers themselves\n- ⟦マスコミ→マスコミ：03872_masukomi⟧: mass media — much broader and informal",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11057_kakusha",
+      "reading": "かくしゃ",
+      "headword": "{各社|かくしゃ}",
+      "label": "each company"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03872_masukomi",
+      "reading": "ますこみ",
+      "headword": "マスコミ",
+      "label": "mass media"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
-      "politeness": null,
-      "semantic": ["media"],
+      "politeness": "plain",
+      "semantic": [
+        "media"
+      ],
       "domain": []
     },
     "created": "2026-06-06T04:04:02Z",
-    "modified": "2026-06-06T04:04:02Z"
+    "modified": "2026-09-02T04:02:35Z"
   }
 }

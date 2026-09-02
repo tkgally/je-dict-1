@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08953_ichibanboshi_ex1",
-      "japanese": "{一番星|いちばんぼし}が{見|み}えた。",
+      "japanese": "{一番星|いちばんぼし}⟦が→が：00051_ga⟧⟦{見|み}えた→見える：01165_mieru⟧。",
       "english": "I saw the first star (of the evening).",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "08953_ichibanboshi_ex2",
-      "japanese": "{一番星|いちばんぼし}に{願|ねが}いをかける。",
+      "japanese": "{一番星|いちばんぼし}⟦に→に：00314_ni⟧⟦{願|ねが}い→願い：03529_negai⟧⟦を→を：00422_wo⟧⟦かける→かける：00854_kakeru⟧。",
       "english": "I make a wish upon the first star.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "08953_ichibanboshi_ex3",
-      "japanese": "{日|ひ}が{暮|く}れて{一番星|いちばんぼし}が{輝|かがや}き{始|はじ}めた。",
+      "japanese": "⟦{日|ひ}→日：02249_hi⟧⟦が→が：00051_ga⟧{暮|く}れて{一番星|いちばんぼし}⟦が→が：00051_ga⟧⟦{輝|かがや}き→輝く：02032_kagayaku⟧⟦{始|はじ}めた→始める：00531_hajimeru⟧。",
       "english": "The sun set and the first star began to shine.",
       "notes": null,
       "has_audio": false,
@@ -43,11 +43,19 @@
       ]
     }
   ],
-  "notes": "{一番星|いちばんぼし} is a poetic term for the first star visible at dusk.\n\nASTRONOMY:\nThe {一番星|いちばんぼし} is usually {金星|きんせい} (Venus) when it appears as the {宵|よい}の{明星|みょうじょう} (evening star).\n\nCULTURAL NOTE:\nIn Japanese folklore, making a wish upon the first star is similar to the Western \"wish upon a star\" tradition. The phrase 「{一番星|いちばんぼし}{見|み}つけた」 (I found the first star) is often said by children excited to spot it.\n\nRELATED:\n- {宵|よい}の{明星|みょうじょう}: evening star (Venus)\n- {明|あ}けの{明星|みょうじょう}: morning star (Venus)",
-  "cross_references": [],
+  "notes": "{一番星|いちばんぼし} is a poetic term for the first star visible at dusk.\n\nASTRONOMY:\nThe {一番星|いちばんぼし} is usually ⟦{金星|きんせい}→金星：15896_kinsei⟧ (Venus) when it appears as the ⟦{宵|よい}の{明星|みょうじょう}→宵の明星：20968_yoinomyoujou⟧ (evening star).\n\nCULTURAL NOTE:\nIn Japanese folklore, making a wish upon the first star is similar to the Western \"wish upon a star\" tradition. The phrase 「{一番星|いちばんぼし}⟦{見|み}つけた→見つける：01180_mitsukeru⟧」 (I found the first star) is often said by children excited to spot it.\n\nRELATED WORDS:\n- ⟦{宵|よい}の{明星|みょうじょう}→宵の明星：20968_yoinomyoujou⟧: evening star (Venus)\n- ⟦{明|あ}け→明け：13157_ake⟧⟦の→の：09472_no⟧{明星|みょうじょう}: morning star (Venus)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "20968_yoinomyoujou",
+      "reading": "よいのみょうじょう",
+      "headword": "{宵|よい}の{明星|みょうじょう}",
+      "label": "evening star"
+    }
+  ],
   "metadata": {
     "created": "2026-01-29T06:14:56Z",
-    "modified": "2026-01-29T06:14:56Z",
+    "modified": "2026-09-02T04:01:16Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

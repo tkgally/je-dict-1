@@ -19,7 +19,7 @@
   "examples": [
     {
       "id": "09983_ashikase_ex1",
-      "japanese": "{囚人|しゅうじん}は{足枷|あしかせ}をはめられた。",
+      "japanese": "⟦{囚人|しゅうじん}→囚人：20680_shuujin⟧⟦は→は：00079_ha⟧{足枷|あしかせ}⟦を→を：00422_wo⟧はめられた。",
       "english": "The prisoner was put in leg irons.",
       "notes": null,
       "has_audio": false,
@@ -29,7 +29,7 @@
     },
     {
       "id": "09983_ashikase_ex2",
-      "japanese": "{昔|むかし}の{奴隷|どれい}は{足枷|あしかせ}をつけられていた。",
+      "japanese": "⟦{昔|むかし}→昔：01515_mukashi⟧⟦の→の：09472_no⟧{奴隷|どれい}⟦は→は：00079_ha⟧{足枷|あしかせ}⟦を→を：00422_wo⟧つけられて⟦いた→いる：00495_iru⟧。",
       "english": "Slaves in the past were made to wear shackles.",
       "notes": null,
       "has_audio": false,
@@ -39,7 +39,7 @@
     },
     {
       "id": "09983_ashikase_ex3",
-      "japanese": "{足枷|あしかせ}がはずれて{自由|じゆう}になった。",
+      "japanese": "{足枷|あしかせ}⟦が→が：00051_ga⟧はずれて⟦{自由|じゆう}→自由：01148_jiyuu⟧になった。",
       "english": "The shackles came off and I became free.",
       "notes": null,
       "has_audio": false,
@@ -49,7 +49,7 @@
     },
     {
       "id": "09983_ashikase_ex4",
-      "japanese": "{借金|しゃっきん}が{足枷|あしかせ}になっている。",
+      "japanese": "⟦{借金|しゃっきん}→借金：03203_shakkin⟧⟦が→が：00051_ga⟧{足枷|あしかせ}になっている。",
       "english": "Debt has become a hindrance.",
       "notes": null,
       "has_audio": false,
@@ -59,7 +59,7 @@
     },
     {
       "id": "09983_ashikase_ex5",
-      "japanese": "{古|ふる}い{慣習|かんしゅう}が{改革|かいかく}の{足枷|あしかせ}になっている。",
+      "japanese": "⟦{古|ふる}い→古い：00488_furui⟧⟦{慣習|かんしゅう}→慣習：05523_kanshuu⟧⟦が→が：00051_ga⟧⟦{改革|かいかく}→改革：04815_kaikaku⟧⟦の→の：09472_no⟧{足枷|あしかせ}になっている。",
       "english": "Old customs are hindering reform.",
       "notes": null,
       "has_audio": false,
@@ -69,7 +69,7 @@
     },
     {
       "id": "09983_ashikase_ex6",
-      "japanese": "{過去|かこ}の{失敗|しっぱい}を{足枷|あしかせ}にせず、{前|まえ}に{進|すす}もう。",
+      "japanese": "⟦{過去|かこ}→過去：00152_kako⟧⟦の→の：09472_no⟧⟦{失敗|しっぱい}→失敗：01636_shippai⟧⟦を→を：00422_wo⟧{足枷|あしかせ}にせず、⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧⟦{進|すす}もう→進む：01225_susumu⟧。",
       "english": "Let's not let past failures hold us back and move forward.",
       "notes": null,
       "has_audio": false,
@@ -78,11 +78,19 @@
       ]
     }
   ],
-  "notes": "{足枷|あしかせ} can be literal (physical restraints) or figurative (obstacles).\n\nWRITING:\nMay also be written as {足かせ} or {足鎖|あしかせ}.\n\nCOMMON PATTERNS:\n- {足枷|あしかせ}になる: to become a hindrance\n- {足枷|あしかせ}をはめる: to put on shackles; to impose restrictions\n- {足枷|あしかせ}がはずれる: for shackles to come off; to be freed from restrictions\n\nRELATED EXPRESSIONS:\n- {手枷|てかせ}: handcuffs, hand shackles\n- {足|あし}を{引|ひ}っ{張|ぱ}る: to hold someone back",
-  "cross_references": [],
+  "notes": "{足枷|あしかせ} can be literal (physical restraints) or figurative (obstacles).\n\nWRITING:\nMay also be written as {足かせ} or {足鎖|あしかせ}.\n\nCOMMON PATTERNS:\n- {足枷|あしかせ}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧: to become a hindrance\n- {足枷|あしかせ}⟦を→を：00422_wo⟧はめる: to put on shackles; to impose restrictions\n- {足枷|あしかせ}⟦が→が：00051_ga⟧はずれる: for shackles to come off; to be freed from restrictions\n\nRELATED WORDS:\n- {手枷|てかせ}: handcuffs, hand shackles\n- ⟦{足|あし}を{引|ひ}っ{張|ぱ}る→足を引っ張る：06906_ashiwohipparu⟧: to hold someone back",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "06906_ashiwohipparu",
+      "reading": "あしをひっぱる",
+      "headword": "{足|あし}を{引|ひ}っ{張|ぱ}る",
+      "label": "to hold someone back"
+    }
+  ],
   "metadata": {
     "created": "2026-02-04T12:07:56Z",
-    "modified": "2026-02-04T12:07:56Z",
+    "modified": "2026-09-02T04:01:19Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

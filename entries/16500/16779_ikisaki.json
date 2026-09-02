@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "16779_ikisaki_ex1",
-      "japanese": "{行|い}き{先|さき}はどこですか。",
+      "japanese": "{行|い}き{先|さき}⟦は→は：00079_ha⟧⟦どこ→どこ：00539_doko⟧です⟦か→か：09473_ka⟧。",
       "english": "Where are you headed?",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "16779_ikisaki_ex2",
-      "japanese": "タクシーに{乗|の}って{行|い}き{先|さき}を{伝|つた}えた。",
+      "japanese": "⟦タクシー→タクシー：00816_takushii⟧⟦に→に：00314_ni⟧⟦{乗|の}って→乗る：00511_noru⟧{行|い}き{先|さき}⟦を→を：00422_wo⟧⟦{伝|つた}えた→伝える：01220_tsutaeru⟧。",
       "english": "I got in a taxi and told the driver my destination.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "16779_ikisaki_ex3",
-      "japanese": "{行|い}き{先|さき}が{決|き}まったら、{早|はや}めにホテルを{予約|よやく}したほうがいい。",
+      "japanese": "{行|い}き{先|さき}⟦が→が：00051_ga⟧⟦{決|き}まったら→決まる：01233_kimaru⟧、⟦{早|はや}め→早め：11176_hayame⟧⟦に→に：00314_ni⟧⟦ホテル→ホテル：01027_hoteru⟧⟦を→を：00422_wo⟧⟦{予約|よやく}した→予約する：22989_yoyakusuru⟧⟦ほうがいい→ほうがいい：10078_hougaii⟧。",
       "english": "Once you decide on your destination, it's better to book a hotel early.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nThis word reads いきさき, not ゆきさき. The reading ゆきさき is a separate word with a slightly more formal nuance.\n\nCOMMON COLLOCATIONS:\n- {行|い}き{先|さき}を{決|き}める (to decide on a destination)\n- {行|い}き{先|さき}を{告|つ}げる (to announce one's destination)\n- {行|い}き{先|さき}が{分|わ}からない (not knowing where one is going)\n\nSIMILAR WORDS:\n- {目的地|もくてきち}: destination — more formal, emphasizes the purpose of travel\n- {行|ゆ}き{先|さき}: same kanji but more formal reading, often used in written contexts",
+  "notes": "USAGE:\nThis word reads いきさき, not ゆきさき. The reading ゆきさき is a separate word with a slightly more formal nuance.\n\nCOMMON COLLOCATIONS:\n- {行|い}き{先|さき}⟦を→を：00422_wo⟧⟦{決|き}める→決める：00858_kimeru⟧ (to decide on a destination)\n- {行|い}き{先|さき}⟦を→を：00422_wo⟧⟦{告|つ}げる→告げる：11808_tsugeru⟧ (to announce one's destination)\n- {行|い}き{先|さき}⟦が→が：00051_ga⟧⟦{分|わ}からない→分かる：00463_wakaru⟧ (not knowing where one is going)\n\nSIMILAR WORDS:\n- ⟦{目的地|もくてきち}→目的地：09996_mokutekichi⟧: destination — more formal, emphasizes the purpose of travel\n- {行|ゆ}き{先|さき}: same kanji but more formal reading, often used in written contexts",
   "cross_references": [
     {
       "type": "related",
@@ -52,11 +52,46 @@
       "headword": "{行|ゆ}き{先|さき}",
       "target_id": "03180_yukisaki",
       "label": "formal reading"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09996_mokutekichi",
+      "reading": "もくてきち",
+      "headword": "{目的地|もくてきち}",
+      "label": "destination"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12949_tabisaki",
+      "reading": "たびさき",
+      "headword": "{旅先|たびさき}",
+      "label": "travel destination, place one is visiting"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25065_tokousaki",
+      "reading": "とこうさき",
+      "headword": "{渡航先|とこうさき}",
+      "label": "destination (abroad)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28195_ryokousaki",
+      "reading": "りょこうさき",
+      "headword": "{旅行先|りょこうさき}",
+      "label": "travel destination"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28308_kaerisaki",
+      "reading": "かえりさき",
+      "headword": "{帰|かえ}り{先|さき}",
+      "label": "place one returns to"
     }
   ],
   "metadata": {
     "created": "2026-03-14T10:32:03Z",
-    "modified": "2026-07-19T06:19:17Z",
+    "modified": "2026-09-02T04:01:46Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

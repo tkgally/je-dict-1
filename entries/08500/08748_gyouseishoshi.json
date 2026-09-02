@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08748_gyouseishoshi_ex1",
-      "japanese": "{行政|ぎょうせい}{書士|しょし}にビザの{申請|しんせい}を{頼|たの}んだ。",
+      "japanese": "{行政|ぎょうせい}{書士|しょし}⟦に→に：00314_ni⟧⟦ビザ→ビザ：08283_biza⟧⟦の→の：09472_no⟧⟦{申請|しんせい}→申請：04207_shinsei⟧⟦を→を：00422_wo⟧⟦{頼|たの}んだ→頼む：01104_tanomu⟧。",
       "english": "I asked an administrative scrivener to apply for a visa.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "08748_gyouseishoshi_ex2",
-      "japanese": "{行政|ぎょうせい}{書士|しょし}は{許認可|きょにんか}{申請|しんせい}を{代行|だいこう}する。",
+      "japanese": "{行政|ぎょうせい}{書士|しょし}⟦は→は：00079_ha⟧⟦{許認可|きょにんか}→許認可：21859_kyoninka⟧⟦{申請|しんせい}→申請：04207_shinsei⟧⟦を→を：00422_wo⟧⟦{代行|だいこう}→代行：11433_daikou⟧⟦する→する：00392_suru⟧。",
       "english": "Administrative scriveners handle permit applications on behalf of clients.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "08748_gyouseishoshi_ex3",
-      "japanese": "{行政|ぎょうせい}{書士|しょし}に{相談|そうだん}して{書類|しょるい}を{準備|じゅんび}した。",
+      "japanese": "{行政|ぎょうせい}{書士|しょし}⟦に→に：00314_ni⟧⟦{相談|そうだん}して→相談する：01845_soudansuru⟧⟦{書類|しょるい}→書類：01103_shorui⟧⟦を→を：00422_wo⟧⟦{準備|じゅんび}した→準備する：22427_junbisuru⟧。",
       "english": "I consulted with an administrative scrivener to prepare the documents.",
       "sense_numbers": [
         1
@@ -43,7 +43,7 @@
       "notes": null
     }
   ],
-  "notes": "SCOPE OF WORK:\n- {許認可|きょにんか}{申請|しんせい} - permit and license applications\n- {在留|ざいりゅう}{資格|しかく}{申請|しんせい} - visa/residence status applications\n- {建設業|けんせつぎょう}{許可|きょか} - construction business permits\n- {自動車|じどうしゃ}{登録|とうろく} - vehicle registration\n- {契約書|けいやくしょ}{作成|さくせい} - contract drafting\n\nCONTRAST WITH {司法|しほう}{書士|しょし}:\n- {行政|ぎょうせい}{書士|しょし} - handles applications to administrative agencies\n- {司法|しほう}{書士|しょし} - handles registrations with legal affairs bureaus\n\nJAPAN-SPECIFIC:\nLike {司法|しほう}{書士|しょし}, this profession is unique to Japan's legal system.",
+  "notes": "SCOPE OF WORK:\n- ⟦{許認可|きょにんか}→許認可：21859_kyoninka⟧⟦{申請|しんせい}→申請：04207_shinsei⟧ - permit and license applications\n- ⟦{在留|ざいりゅう}{資格|しかく}→在留資格：18891_zairyuushikaku⟧⟦{申請|しんせい}→申請：04207_shinsei⟧ - visa/residence status applications\n- {建設業|けんせつぎょう}⟦{許可|きょか}→許可：00259_kyoka⟧ - construction business permits\n- ⟦{自動車|じどうしゃ}→自動車：02886_jidousha⟧⟦{登録|とうろく}→登録：05703_touroku⟧ - vehicle registration\n- ⟦{契約書|けいやくしょ}→契約書：06416_keiyakusho⟧⟦{作成|さくせい}→作成：04186_sakusei⟧ - contract drafting\n\nCONTRAST WITH {司法|しほう}{書士|しょし}:\n- {行政|ぎょうせい}{書士|しょし} - handles applications to administrative agencies\n- ⟦{司法|しほう}{書士|しょし}→司法書士：08747_shihoushoshi⟧ - handles registrations with legal affairs bureaus\n\nJAPAN-SPECIFIC:\nLike ⟦{司法|しほう}{書士|しょし}→司法書士：08747_shihoushoshi⟧, this profession is unique to Japan's legal system.",
   "cross_references": [
     {
       "type": "contrast",
@@ -58,6 +58,13 @@
       "reading": "べんごし",
       "headword": "{弁護士|べんごし}",
       "label": "lawyer"
+    },
+    {
+      "type": "related",
+      "target_id": "06571_zeirishi",
+      "reading": "ぜいりし",
+      "headword": "{税理士|ぜいりし}",
+      "label": "tax accountant"
     }
   ],
   "metadata": {
@@ -67,12 +74,13 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "law",
         "occupation"
       ]
     },
     "created": "2026-01-28T03:36:53Z",
-    "modified": "2026-06-23T01:38:10Z"
+    "modified": "2026-09-02T04:01:16Z"
   }
 }

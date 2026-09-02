@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22007_shiragazome_ex1",
-      "japanese": "{白髪染|しらがぞ}めを{買|か}った。",
+      "japanese": "{白髪染|しらがぞ}め⟦を→を：00422_wo⟧⟦{買|か}った→買う：00489_kau⟧。",
       "english": "I bought gray hair dye.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22007_shiragazome_ex2",
-      "japanese": "{母|はは}は{月|つき}に{一度|いちど}{白髪染|しらがぞ}めをしている。",
+      "japanese": "⟦{母|はは}→母：00549_haha⟧⟦は→は：00079_ha⟧⟦{月|つき}→月：02230_tsuki⟧⟦に→に：00314_ni⟧⟦{一度|いちど}→一度：01312_ichido⟧{白髪染|しらがぞ}め⟦を→を：00422_wo⟧⟦している→する：00392_suru⟧。",
       "english": "My mother dyes her gray hair once a month.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22007_shiragazome_ex3",
-      "japanese": "{市販|しはん}の{白髪染|しらがぞ}めは{種類|しゅるい}が{多|おお}くて、どれを{選|えら}べばいいか{迷|まよ}う。",
+      "japanese": "⟦{市販|しはん}→市販：12424_shihan⟧⟦の→の：09472_no⟧{白髪染|しらがぞ}め⟦は→は：00079_ha⟧⟦{種類|しゅるい}→種類：01560_shurui⟧⟦が→が：00051_ga⟧⟦{多|おお}くて→多い：01127_ooi⟧、⟦どれ→どれ：00547_dore⟧⟦を→を：00422_wo⟧⟦{選|えら}べば→選ぶ：00835_erabu⟧⟦いい→いい：00118_ii⟧⟦か→か：09473_ka⟧⟦{迷|まよ}う→迷う：02426_mayou⟧。",
       "english": "There are so many types of commercial gray hair dye that it's hard to choose.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {白髪|しらが} (gray/white hair) and {染|そ}め (dyeing). Refers specifically to products and the act of dyeing gray hair, as opposed to fashion hair coloring done by younger people.\n\nCOMMON COLLOCATIONS:\n- {白髪染|しらがぞ}めをする: to dye one's gray hair\n- {市販|しはん}の{白髪染|しらがぞ}め: commercial gray hair dye\n- {白髪染|しらがぞ}めトリートメント: gray hair coloring treatment\n- {自宅|じたく}で{白髪染|しらがぞ}め: at-home gray hair dyeing\n\nSIMILAR WORDS:\n- ヘアカラー: hair color — general term for hair dyeing, including fashion colors\n- {毛染|けぞ}め: hair dyeing — a general term for dyeing hair of any color\n- {白髪|しらが}: gray/white hair — the hair itself, not the dyeing process",
+  "notes": "A compound of ⟦{白髪|しらが}→白髪：00369_shiraga⟧ (gray/white hair) and {染|そ}め (dyeing). Refers specifically to products and the act of dyeing gray hair, as opposed to fashion hair coloring done by younger people.\n\nCOMMON COLLOCATIONS:\n- {白髪染|しらがぞ}め⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧: to dye one's gray hair\n- ⟦{市販|しはん}→市販：12424_shihan⟧⟦の→の：09472_no⟧{白髪染|しらがぞ}め: commercial gray hair dye\n- {白髪染|しらがぞ}め⟦トリートメント→トリートメント：29565_toriitomento⟧: gray hair coloring treatment\n- ⟦{自宅|じたく}→自宅：00129_jitaku⟧⟦で→で：00502_de⟧{白髪染|しらがぞ}め: at-home gray hair dyeing\n\nSIMILAR WORDS:\n- ⟦ヘアカラー→ヘアカラー：27079_heakaraa⟧: hair color — general term for hair dyeing, including fashion colors\n- {毛染|けぞ}め: hair dyeing — a general term for dyeing hair of any color\n- ⟦{白髪|しらが}→白髪：00369_shiraga⟧: gray/white hair — the hair itself, not the dyeing process",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "27079_heakaraa",
+      "reading": "へあからー",
+      "headword": "ヘアカラー",
+      "label": "hair color"
+    },
+    {
+      "type": "related",
+      "target_id": "22636_wakashiraga",
+      "reading": "わかしらが",
+      "headword": "{若白髪|わかしらが}",
+      "label": "premature gray hair"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +76,6 @@
       ]
     },
     "created": "2026-04-04T20:21:19Z",
-    "modified": "2026-04-10T08:28:27Z"
+    "modified": "2026-09-02T04:02:06Z"
   }
 }

@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "09684_naganen_ex1",
-      "japanese": "{長年|ながねん}の{夢|ゆめ}が{叶|かな}った。",
+      "japanese": "{長年|ながねん}⟦の→の：09472_no⟧⟦{夢|ゆめ}→夢：01519_yume⟧⟦が→が：00051_ga⟧⟦{叶|かな}った→叶う：05303_kanau⟧。",
       "english": "My long-held dream came true.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "09684_naganen_ex2",
-      "japanese": "{長年|ながねん}{使|つか}っている{道具|どうぐ}だ。",
+      "japanese": "{長年|ながねん}⟦{使|つか}っている→使う：00473_tsukau⟧⟦{道具|どうぐ}→道具：01479_dougu⟧だ。",
       "english": "It's a tool I've been using for many years.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "09684_naganen_ex3",
-      "japanese": "{長年|ながねん}の{経験|けいけん}が{役|やく}に{立|た}った。",
+      "japanese": "{長年|ながねん}⟦の→の：09472_no⟧⟦{経験|けいけん}→経験：01179_keiken⟧⟦が→が：00051_ga⟧⟦{役|やく}に{立|た}った→役に立つ：01130_yakunitatsu⟧。",
       "english": "Years of experience proved useful.",
       "notes": null,
       "has_audio": false,
@@ -43,10 +43,26 @@
       ]
     }
   ],
-  "notes": "{長年|ながねん} means \"for many years\" or \"over a long period of years.\" Emphasizes the accumulated duration.\n\nCOMMON COLLOCATIONS:\n- {長年|ながねん}の{夢|ゆめ}: a long-held dream\n- {長年|ながねん}の{経験|けいけん}: many years of experience\n- {長年|ながねん}にわたって: over many years\n- {長年|ながねん}{住|す}んでいる: having lived somewhere for many years\n- {長年|ながねん}の{努力|どりょく}: years of effort\n\nUSAGE:\nCan function as both a noun ({長年|ながねん}の + noun) and an adverb ({長年|ながねん} + verb). Implies dedication, persistence, or gradual accumulation.\n\nSIMILAR WORDS:\n- {何年|なんねん}も: for many years (more casual)\n- {永年|えいねん}: long years (formal, often in awards: {永年|えいねん}{勤続|きんぞく} long service)",
+  "notes": "{長年|ながねん} means \"for many years\" or \"over a long period of years.\" Emphasizes the accumulated duration.\n\nCOMMON COLLOCATIONS:\n- {長年|ながねん}⟦の→の：09472_no⟧⟦{夢|ゆめ}→夢：01519_yume⟧: a long-held dream\n- {長年|ながねん}⟦の→の：09472_no⟧⟦{経験|けいけん}→経験：01179_keiken⟧: many years of experience\n- {長年|ながねん}⟦に→に：00314_ni⟧わたって: over many years\n- {長年|ながねん}⟦{住|す}んでいる→住む：00673_sumu⟧: having lived somewhere for many years\n- {長年|ながねん}⟦の→の：09472_no⟧⟦{努力|どりょく}→努力：03490_doryoku⟧: years of effort\n\nUSAGE:\nCan function as both a noun ({長年|ながねん}⟦の→の：09472_no⟧ + noun) and an adverb ({長年|ながねん} + verb). Implies dedication, persistence, or gradual accumulation.\n\nSIMILAR WORDS:\n- ⟦{何年|なんねん}→何年：12737_nannen⟧⟦も→も：00484_mo⟧: for many years (more casual)\n- ⟦{永年|えいねん}→永年：29698_einen⟧: long years (formal, often in awards: ⟦{永年|えいねん}→永年：29698_einen⟧⟦{勤続|きんぞく}→勤続：20016_kinzoku⟧ long service)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "29698_einen",
+      "reading": "えいねん",
+      "headword": "{永年|えいねん}",
+      "label": "long years (formal, often in awards"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25696_choukikan",
+      "reading": "ちょうきかん",
+      "headword": "{長期間|ちょうきかん}",
+      "label": "long period of time"
+    }
+  ],
   "metadata": {
     "created": "2026-02-03T05:02:44Z",
-    "modified": "2026-03-28T03:50:18Z",
+    "modified": "2026-09-02T04:01:19Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "06094_kansetsuteki_ex1",
-      "japanese": "{間接的|かんせつてき}に⟦{影響|えいきょう}→影響：01877_eikyou⟧⟦を→を：00422_wo⟧⟦{与|あた}える→与える：01821_ataeru⟧。",
+      "japanese": "{間接的|かんせつてき}⟦に→に：00314_ni⟧⟦{影響|えいきょう}→影響：01877_eikyou⟧⟦を→を：00422_wo⟧⟦{与|あた}える→与える：01821_ataeru⟧。",
       "english": "To have an indirect influence.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "06094_kansetsuteki_ex3",
-      "japanese": "⟦その→その：00993_sono⟧⟦{事故|じこ}→事故：00851_jiko⟧⟦は→は：00079_ha⟧{間接的|かんせつてき}に⟦{私|わたし}→私：02988_watashi⟧⟦に→に：00314_ni⟧⟦も→も：00484_mo⟧⟦{関係|かんけい}→関係：01298_kankei⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
+      "japanese": "⟦その→その：00993_sono⟧⟦{事故|じこ}→事故：00851_jiko⟧⟦は→は：00079_ha⟧{間接的|かんせつてき}⟦に→に：00314_ni⟧⟦{私|わたし}→私：02988_watashi⟧⟦に→に：00314_ni⟧⟦も→も：00484_mo⟧⟦{関係|かんけい}→関係：01298_kankei⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "That accident is indirectly related to me as well.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "FORMS:\n・Adverbial: {間接的|かんせつてき}に (indirectly)\n・Related adverb: ⟦{間接|かんせつ}→間接：00180_kansetsu⟧ (indirectly) - less common than {間接的|かんせつてき}に\n\nCOMMON PATTERNS:\n・{間接的|かんせつてき}な⟦{原因|げんいん}→原因：01400_genin⟧/⟦{影響|えいきょう}→影響：01877_eikyou⟧ (indirect cause/influence)\n・{間接的|かんせつてき}な⟦{表現|ひょうげん}→表現：03584_hyougen⟧ (indirect expression)\n・{間接的|かんせつてき}に⟦{関係|かんけい}する→関係：01298_kankei⟧ (be indirectly related)\n\nCultural note: Japanese communication often favors indirect expressions ({間接的|かんせつてき}な⟦{表現|ひょうげん}→表現：03584_hyougen⟧) to maintain harmony and avoid confrontation.",
+  "notes": "FORMS:\n- Adverbial: {間接的|かんせつてき}⟦に→に：00314_ni⟧ (indirectly)\n- Related adverb: ⟦{間接|かんせつ}→間接：00180_kansetsu⟧ (indirectly) - less common than {間接的|かんせつてき}⟦に→に：00314_ni⟧\n\nCOMMON PATTERNS:\n- {間接的|かんせつてき}な⟦{原因|げんいん}→原因：01400_genin⟧/⟦{影響|えいきょう}→影響：01877_eikyou⟧ (indirect cause/influence)\n- {間接的|かんせつてき}な⟦{表現|ひょうげん}→表現：03584_hyougen⟧ (indirect expression)\n- {間接的|かんせつてき}⟦に→に：00314_ni⟧⟦{関係|かんけい}する→関係：01298_kankei⟧ (be indirectly related)\n\nCultural note: Japanese communication often favors indirect expressions ({間接的|かんせつてき}な⟦{表現|ひょうげん}→表現：03584_hyougen⟧) to maintain harmony and avoid confrontation.",
   "cross_references": [
     {
       "type": "antonym",
@@ -51,11 +51,25 @@
       "headword": "{直接的|ちょくせつてき}",
       "label": "direct",
       "target_id": "06093_chokusetsuteki"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23812_haseiteki",
+      "reading": "はせいてき",
+      "headword": "{派生的|はせいてき}",
+      "label": "derivative"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25578_enkyokuni",
+      "reading": "えんきょくに",
+      "headword": "{婉曲|えんきょく}に",
+      "label": "indirectly"
     }
   ],
   "metadata": {
     "created": "2026-01-17T03:13:44Z",
-    "modified": "2026-06-12T15:35:56Z",
+    "modified": "2026-09-02T04:01:08Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

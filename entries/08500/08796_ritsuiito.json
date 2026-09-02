@@ -2,7 +2,7 @@
   "id": "08796_ritsuiito",
   "headword": "リツイート",
   "reading": "りついーと",
-  "part_of_speech": "noun, suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "retweet",
   "conjugation": {
     "type": "suru",
@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "08796_ritsuiito_ex1",
-      "japanese": "この{投稿|とうこう}をリツイートした。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{投稿|とうこう}→投稿：04733_toukou⟧⟦を→を：00422_wo⟧リツイート⟦した→する：00392_suru⟧。",
       "english": "I retweeted this post.",
       "sense_numbers": [
         1
@@ -114,7 +114,7 @@
     },
     {
       "id": "08796_ritsuiito_ex2",
-      "japanese": "リツイートが1{万|まん}{件|けん}を{超|こ}えた。",
+      "japanese": "リツイート⟦が→が：00051_ga⟧1{万|まん}⟦{件|けん}→件：11720_ken⟧⟦を→を：00422_wo⟧⟦{超|こ}えた→超える：01942_koeru⟧。",
       "english": "The retweets exceeded 10,000.",
       "sense_numbers": [
         1
@@ -124,7 +124,7 @@
     },
     {
       "id": "08796_ritsuiito_ex3",
-      "japanese": "{有名人|ゆうめいじん}にリツイートされて{嬉|うれ}しかった。",
+      "japanese": "⟦{有名人|ゆうめいじん}→有名人：17812_yuumeijin⟧⟦に→に：00314_ni⟧リツイート⟦されて→する：00392_suru⟧⟦{嬉|うれ}しかった→嬉しい：00822_ureshii⟧。",
       "english": "I was happy to be retweeted by a celebrity.",
       "sense_numbers": [
         1
@@ -133,7 +133,51 @@
       "notes": null
     }
   ],
-  "notes": "SOCIAL MEDIA TERM:\nリツイート originated from Twitter (now X) and refers to sharing someone else's tweet with your followers.\n\nABBREVIATION:\n- RT (アールティー) - common abbreviation for retweet\n\nTYPES:\n- リツイート - simple retweet (sharing as-is)\n- {引用|いんよう}リツイート - quote retweet (adding your own comment)\n\nRELATED TERMS:\n- リポスト - repost (more general term, also used on X)\n- シェア - share\n- いいね - like\n- フォロワー - follower\n\nUSAGE NOTE:\nX (formerly Twitter) officially renamed \"Retweet\" to \"Repost\" in 2023, but both terms are still used in Japanese.",
+  "notes": "SOCIAL MEDIA TERM:\nリツイート originated from Twitter (now X) and refers to sharing someone else's tweet with your followers.\n\nFORMS:\n- RT (アール⟦ティー→ティー：30405_tii⟧) - common abbreviation for retweet\n\nTYPES:\n- リツイート - simple retweet (sharing as-is)\n- ⟦{引用|いんよう}→引用：01850_inyou⟧リツイート - quote retweet (adding your own comment)\n\nRELATED WORDS:\n- ⟦リポスト→リポスト：08615_riposuto⟧ - repost (more general term, also used on X)\n- ⟦シェア→シェア：07882_shea⟧ - share\n- ⟦いい→いい：00118_ii⟧⟦ね→ね：09474_ne⟧ - like\n- ⟦フォロワー→フォロワー：05866_forowaa⟧ - follower\n\nUSAGE:\nX (formerly Twitter) officially renamed \"Retweet\" to \"Repost\" in 2023, but both terms are still used in Japanese.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "08615_riposuto",
+      "reading": "りぽすと",
+      "headword": "リポスト",
+      "label": "repost"
+    },
+    {
+      "type": "related",
+      "target_id": "07882_shea",
+      "reading": "しぇあ",
+      "headword": "シェア",
+      "label": "share"
+    },
+    {
+      "type": "related",
+      "target_id": "05866_forowaa",
+      "reading": "ふぉろわー",
+      "headword": "フォロワー",
+      "label": "follower"
+    },
+    {
+      "type": "related",
+      "target_id": "05901_ripurai",
+      "reading": "りぷらい",
+      "headword": "リプライ",
+      "label": "reply (social media)"
+    },
+    {
+      "type": "related",
+      "target_id": "06440_taimurain",
+      "reading": "たいむらいん",
+      "headword": "タイムライン",
+      "label": "timeline, feed (social media)"
+    },
+    {
+      "type": "related",
+      "target_id": "27082_tsuiitosuru",
+      "reading": "ついーとする",
+      "headword": "ツイートする",
+      "label": "to tweet"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -154,6 +198,6 @@
       "verb_class": "suru"
     },
     "created": "2026-01-28T11:27:48Z",
-    "modified": "2026-08-12T12:52:42Z"
+    "modified": "2026-09-02T04:01:16Z"
   }
 }

@@ -15,41 +15,73 @@
   "examples": [
     {
       "id": "15144_tsukihajime_ex1",
-      "japanese": "{月|つき}{初|はじ}めに{会議|かいぎ}がある。",
+      "japanese": "{月|つき}{初|はじ}め⟦に→に：00314_ni⟧⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There's a meeting at the beginning of the month.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15144_tsukihajime_ex2",
-      "japanese": "{家賃|やちん}は{毎月|まいつき}{月|つき}{初|はじ}めに{払|はら}います。",
+      "japanese": "⟦{家賃|やちん}→家賃：03639_yachin⟧⟦は→は：00079_ha⟧⟦{毎月|まいつき}→毎月：00732_maitsuki⟧{月|つき}{初|はじ}め⟦に→に：00314_ni⟧⟦{払|はら}います→払う：00535_harau⟧。",
       "english": "I pay rent at the beginning of each month.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15144_tsukihajime_ex3",
-      "japanese": "{月|つき}{初|はじ}めから{新|あたら}しいプロジェクトが{始|はじ}まるので、{準備|じゅんび}しておいてください。",
+      "japanese": "{月|つき}{初|はじ}め⟦から→から：00504_kara⟧⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦プロジェクト→プロジェクト：06764_purojekuto⟧⟦が→が：00051_ga⟧⟦{始|はじ}まる→始まる：00841_hajimaru⟧⟦の→の：09472_no⟧で、⟦{準備|じゅんび}して→準備する：22427_junbisuru⟧おいて⟦ください→ください：02899_kudasai⟧。",
       "english": "A new project starts at the beginning of the month, so please prepare.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{月|つき}{初|はじ}め refers to the first few days of a calendar month, typically the first through fifth.\n\nUSAGE:\nOften used with particles に or から when specifying timing: {月|つき}{初|はじ}めに (at the beginning of the month), {月|つき}{初|はじ}めから (from the beginning of the month).\n\nCOMMON COLLOCATIONS:\n- {月|つき}{初|はじ}めに{届|とど}く: to arrive at the beginning of the month\n- {月|つき}{初|はじ}めに{払|はら}う: to pay at the beginning of the month\n- {来月|らいげつ}の{月|つき}{初|はじ}め: the beginning of next month\n\nRELATED TIME EXPRESSIONS:\n- {月|つき}{末|すえ}: end of the month\n- {月|つき}{半|なか}ば: middle of the month\n- {月頭|げっとう}: beginning of the month (more formal, business-oriented)\n- {上旬|じょうじゅん}: first third of the month (days 1-10)",
-  "cross_references": [],
+  "notes": "{月|つき}{初|はじ}め refers to the first few days of a calendar month, typically the first through fifth.\n\nUSAGE:\nOften used with particles ⟦に→に：00314_ni⟧ or ⟦から→から：00504_kara⟧ when specifying timing: {月|つき}{初|はじ}め⟦に→に：00314_ni⟧ (at the beginning of the month), {月|つき}{初|はじ}め⟦から→から：00504_kara⟧ (from the beginning of the month).\n\nCOMMON COLLOCATIONS:\n- {月|つき}{初|はじ}め⟦に→に：00314_ni⟧⟦{届|とど}く→届く：00899_todoku⟧: to arrive at the beginning of the month\n- {月|つき}{初|はじ}め⟦に→に：00314_ni⟧⟦{払|はら}う→払う：00535_harau⟧: to pay at the beginning of the month\n- ⟦{来月|らいげつ}→来月：00744_raigetsu⟧⟦の→の：09472_no⟧{月|つき}{初|はじ}め: the beginning of next month\n\nRELATED TIME EXPRESSIONS:\n- {月|つき}{末|すえ}: end of the month\n- ⟦{月|つき}{半|なか}ば→月半ば：27355_tsukinakaba⟧: middle of the month\n- ⟦{月頭|げっとう}→月頭：15161_gettou⟧: beginning of the month (more formal, business-oriented)\n- ⟦{上旬|じょうじゅん}→上旬：17767_joujun⟧: first third of the month (days 1-10)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "27355_tsukinakaba",
+      "reading": "つきなかば",
+      "headword": "{月|つき}{半|なか}ば",
+      "label": "middle of the month"
+    },
+    {
+      "type": "related",
+      "target_id": "15161_gettou",
+      "reading": "げっとう",
+      "headword": "{月頭|げっとう}",
+      "label": "beginning of the month"
+    },
+    {
+      "type": "related",
+      "target_id": "17767_joujun",
+      "reading": "じょうじゅん",
+      "headword": "{上旬|じょうじゅん}",
+      "label": "first third of the month"
+    }
+  ],
   "metadata": {
     "created": "2026-03-05T08:36:13Z",
-    "modified": "2026-03-31T09:28:45Z",
+    "modified": "2026-09-02T04:01:40Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["time-month"]
+      "semantic": [
+        "time-month"
+      ]
     }
   }
 }

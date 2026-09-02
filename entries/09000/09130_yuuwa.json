@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "09130_yuuwa_ex1",
-      "japanese": "{民族|みんぞく}{融和|ゆうわ}",
+      "japanese": "⟦{民族|みんぞく}→民族：13229_minzoku⟧{融和|ゆうわ}",
       "english": "ethnic harmony",
       "sense_numbers": [
         1
@@ -114,7 +114,7 @@
     },
     {
       "id": "09130_yuuwa_ex2",
-      "japanese": "{両派|りょうは}の{融和|ゆうわ}を{図|はか}る。",
+      "japanese": "{両派|りょうは}⟦の→の：09472_no⟧{融和|ゆうわ}⟦を→を：00422_wo⟧⟦{図|はか}る→図る：12006_hakaru⟧。",
       "english": "To seek reconciliation between the two factions.",
       "sense_numbers": [
         1
@@ -124,7 +124,7 @@
     },
     {
       "id": "09130_yuuwa_ex3",
-      "japanese": "この{地域|ちいき}では、{様々|さまざま}な{文化|ぶんか}が{融和|ゆうわ}して{独自|どくじ}の{伝統|でんとう}が{生|う}まれた。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{地域|ちいき}→地域：01461_chiiki⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧、⟦{様々|さまざま}→様々：01559_samazama⟧な⟦{文化|ぶんか}→文化：01504_bunka⟧⟦が→が：00051_ga⟧{融和|ゆうわ}⟦して→する：00392_suru⟧⟦{独自|どくじ}→独自：05614_dokuji⟧⟦の→の：09472_no⟧⟦{伝統|でんとう}→伝統：09585_dentou⟧⟦が→が：00051_ga⟧⟦{生|う}まれた→生まれる：00905_umareru⟧。",
       "english": "In this region, various cultures blended together to create unique traditions.",
       "sense_numbers": [
         1
@@ -133,7 +133,7 @@
       "notes": null
     }
   ],
-  "notes": "USAGE: {融和|ゆうわ} emphasizes harmonious blending or integration, often used in social, political, or cultural contexts. Can describe both the process and the state of harmony.\n\nCOMMON COLLOCATIONS:\n- {融和|ゆうわ}を{図|はか}る (to seek harmony/reconciliation)\n- {融和|ゆうわ}{政策|せいさく} (policy of integration)\n- {民族|みんぞく}/{人種|じんしゅ}{融和|ゆうわ} (ethnic/racial harmony)\n- {融和|ゆうわ}する (to blend, reconcile)\n\nRELATED WORDS:\n- {調和|ちょうわ} (harmony - more general)\n- {和解|わかい} (reconciliation - resolving a specific conflict)\n- {融合|ゆうごう} (fusion - more emphasis on merging)",
+  "notes": "USAGE: {融和|ゆうわ} emphasizes harmonious blending or integration, often used in social, political, or cultural contexts. Can describe both the process and the state of harmony.\n\nCOMMON COLLOCATIONS:\n- {融和|ゆうわ}⟦を→を：00422_wo⟧⟦{図|はか}る→図る：12006_hakaru⟧ (to seek harmony/reconciliation)\n- {融和|ゆうわ}⟦{政策|せいさく}→政策：10070_seisaku⟧ (policy of integration)\n- ⟦{民族|みんぞく}→民族：13229_minzoku⟧/⟦{人種|じんしゅ}→人種：03354_jinshu⟧{融和|ゆうわ} (ethnic/racial harmony)\n- {融和|ゆうわ}⟦する→する：00392_suru⟧ (to blend, reconcile)\n\nRELATED WORDS:\n- ⟦{調和|ちょうわ}→調和：05216_chouwa⟧ (harmony - more general)\n- ⟦{和解|わかい}→和解：10578_wakai⟧ (reconciliation - resolving a specific conflict)\n- ⟦{融合|ゆうごう}→融合：14036_yuugou⟧ (fusion - more emphasis on merging)",
   "cross_references": [
     {
       "type": "synonym",
@@ -148,11 +148,25 @@
       "reading": "あつれき",
       "headword": "{軋轢|あつれき}",
       "label": "friction, discord"
+    },
+    {
+      "type": "related",
+      "target_id": "10578_wakai",
+      "reading": "わかい",
+      "headword": "{和解|わかい}",
+      "label": "reconciliation"
+    },
+    {
+      "type": "related",
+      "target_id": "14036_yuugou",
+      "reading": "ゆうごう",
+      "headword": "{融合|ゆうごう}",
+      "label": "fusion"
     }
   ],
   "metadata": {
     "created": "2026-01-31T10:50:15Z",
-    "modified": "2026-04-22T07:28:30Z",
+    "modified": "2026-09-02T04:01:17Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

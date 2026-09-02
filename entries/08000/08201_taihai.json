@@ -2,7 +2,7 @@
   "id": "08201_taihai",
   "headword": "{大敗|たいはい}",
   "reading": "たいはい",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "crushing defeat; heavy defeat",
   "conjugation": {
     "type": "suru",
@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "08201_taihai_ex1",
-      "japanese": "チームは{大敗|たいはい}を{喫|きっ}した。",
+      "japanese": "⟦チーム→チーム：03858_chiimu⟧⟦は→は：00079_ha⟧{大敗|たいはい}⟦を→を：00422_wo⟧⟦{喫|きっ}した→喫する：29124_kissuru⟧。",
       "english": "The team suffered a crushing defeat.",
       "sense_numbers": [
         1
@@ -114,7 +114,7 @@
     },
     {
       "id": "08201_taihai_ex2",
-      "japanese": "{選挙|せんきょ}で{大敗|たいはい}して{党首|とうしゅ}が{辞任|じにん}した。",
+      "japanese": "⟦{選挙|せんきょ}→選挙：03303_senkyo⟧⟦で→で：00502_de⟧{大敗|たいはい}⟦して→する：00392_suru⟧⟦{党首|とうしゅ}→党首：17742_toushu⟧⟦が→が：00051_ga⟧⟦{辞任|じにん}→辞任：10144_jinin⟧⟦した→する：00392_suru⟧。",
       "english": "After a heavy defeat in the election, the party leader resigned.",
       "sense_numbers": [
         1
@@ -124,7 +124,7 @@
     },
     {
       "id": "08201_taihai_ex3",
-      "japanese": "10{対|たい}0で{大敗|たいはい}した。",
+      "japanese": "10⟦{対|たい}→対：03382_tai⟧0⟦で→で：00502_de⟧{大敗|たいはい}⟦した→する：00392_suru⟧。",
       "english": "We were crushed 10-0.",
       "sense_numbers": [
         1
@@ -133,7 +133,7 @@
       "notes": null
     }
   ],
-  "notes": "USAGE:\n- {大敗|たいはい}を{喫|きっ}する (to suffer a crushing defeat)\n- {大敗|たいはい}する (to be heavily defeated)\n- {大敗|たいはい}を{味|あじ}わう (to taste a crushing defeat)\n\nCONTEXT:\nCommonly used in sports, elections, and business contexts. Implies not just losing but losing badly.\n\nRELATED:\n- {惨敗|ざんぱい} (disastrous defeat - even stronger)\n- {完敗|かんぱい} (complete defeat)\n- {敗北|はいぼく} (defeat - general)\n- {大勝|たいしょう} (landslide victory - antonym)",
+  "notes": "USAGE:\n- {大敗|たいはい}⟦を→を：00422_wo⟧⟦{喫|きっ}する→喫する：29124_kissuru⟧ (to suffer a crushing defeat)\n- {大敗|たいはい}⟦する→する：00392_suru⟧ (to be heavily defeated)\n- {大敗|たいはい}⟦を→を：00422_wo⟧⟦{味|あじ}わう→味わう：04405_ajiwau⟧ (to taste a crushing defeat)\nCommonly used in sports, elections, and business contexts. Implies not just losing but losing badly.\n\nRELATED WORDS:\n- ⟦{惨敗|ざんぱい}→惨敗：08236_zanpai⟧ (disastrous defeat - even stronger)\n- ⟦{完敗|かんぱい}→完敗：15654_kanpai⟧ (complete defeat)\n- ⟦{敗北|はいぼく}→敗北：12872_haiboku⟧ (defeat - general)\n- {大勝|たいしょう} (landslide victory - antonym)",
   "cross_references": [
     {
       "type": "synonym",
@@ -148,6 +148,20 @@
       "reading": "かいしょう",
       "headword": "{快勝|かいしょう}",
       "label": "easy victory"
+    },
+    {
+      "type": "related",
+      "target_id": "15654_kanpai",
+      "reading": "かんぱい",
+      "headword": "{完敗|かんぱい}",
+      "label": "complete defeat"
+    },
+    {
+      "type": "related",
+      "target_id": "12872_haiboku",
+      "reading": "はいぼく",
+      "headword": "{敗北|はいぼく}",
+      "label": "defeat"
     }
   ],
   "metadata": {
@@ -158,6 +172,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "sports",
         "competition"
@@ -165,6 +180,6 @@
       "verb_class": "suru"
     },
     "created": "2026-01-25T08:05:03Z",
-    "modified": "2026-04-20T05:05:12Z"
+    "modified": "2026-09-02T04:01:14Z"
   }
 }

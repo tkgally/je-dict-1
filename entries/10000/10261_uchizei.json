@@ -14,30 +14,36 @@
   "examples": [
     {
       "id": "10261_uchizei_ex1",
-      "japanese": "{価格|かかく}は{内税|うちぜい}です。",
+      "japanese": "⟦{価格|かかく}→価格：00147_kakaku⟧⟦は→は：00079_ha⟧{内税|うちぜい}です。",
       "english": "The price is tax-inclusive.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10261_uchizei_ex2",
-      "japanese": "{内税|うちぜい}{表示|ひょうじ}なので{分|わ}かりやすい。",
+      "japanese": "{内税|うちぜい}⟦{表示|ひょうじ}→表示：03143_hyouji⟧な⟦の→の：09472_no⟧で⟦{分|わ}かり→分かる：00463_wakaru⟧やすい。",
       "english": "The tax-inclusive display makes it easy to understand.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10261_uchizei_ex3",
-      "japanese": "このお{店|みせ}は{内税|うちぜい}と{外税|そとぜい}が{混在|こんざい}している。",
+      "japanese": "⟦この→この：00962_kono⟧⟦お{店|みせ}→お店：21164_omise⟧⟦は→は：00079_ha⟧{内税|うちぜい}⟦と→と：00512_to⟧⟦{外税|そとぜい}→外税：10262_sotozei⟧⟦が→が：00051_ga⟧⟦{混在|こんざい}→混在：13352_konzai⟧⟦している→する：00392_suru⟧。",
       "english": "This store has both tax-inclusive and tax-exclusive prices.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{内税|うちぜい} refers to a pricing method where the displayed price already includes {消費税|しょうひぜい} (consumption tax). This is what shoppers actually pay at the register.\n\nCONTRAST:\n- {内税|うちぜい}/{税込|ぜいこみ}: tax-inclusive (what you see is what you pay)\n- {外税|そとぜい}/{税抜|ぜいぬき}: tax-exclusive (tax added at checkout)\n\nCOMMON EXPRESSIONS:\n- {内税|うちぜい}{表示|ひょうじ}: tax-inclusive price display\n- {税込|ぜいこみ}{価格|かかく}: tax-included price\n- {総額表示|そうがくひょうじ}: total amount display (official term)\n\nJAPAN CONTEXT:\nSince April 2021, Japan requires businesses to display {総額表示|そうがくひょうじ} (total price including tax) as the primary price. Before this, many stores showed {外税|そとぜい} (tax-exclusive) prices, which confused shoppers.\n\nNOTE:\n{税込|ぜいこみ} (tax-included) is used more often than {内税|うちぜい} in everyday speech and on price tags.",
+  "notes": "{内税|うちぜい} refers to a pricing method where the displayed price already includes ⟦{消費税|しょうひぜい}→消費税：04803_shouhizei⟧ (consumption tax). This is what shoppers actually pay at the register.\n\nSIMILAR WORDS:\n- {内税|うちぜい}/⟦{税込|ぜいこみ}→税込：09559_zeikomi⟧: tax-inclusive (what you see is what you pay)\n- ⟦{外税|そとぜい}→外税：10262_sotozei⟧/⟦{税抜|ぜいぬき}→税抜：09560_zeinuki⟧: tax-exclusive (tax added at checkout)\n\nCOMMON EXPRESSIONS:\n- {内税|うちぜい}⟦{表示|ひょうじ}→表示：03143_hyouji⟧: tax-inclusive price display\n- ⟦{税込|ぜいこみ}→税込：09559_zeikomi⟧⟦{価格|かかく}→価格：00147_kakaku⟧: tax-included price\n- ⟦{総額表示|そうがくひょうじ}→総額表示：24007_sougakuhyouji⟧: total amount display (official term)\n\nJAPAN CONTEXT:\nSince April 2021, Japan requires businesses to display ⟦{総額表示|そうがくひょうじ}→総額表示：24007_sougakuhyouji⟧ (total price including tax) as the primary price. Before this, many stores showed ⟦{外税|そとぜい}→外税：10262_sotozei⟧ (tax-exclusive) prices, which confused shoppers.\n\nUSAGE:\n⟦{税込|ぜいこみ}→税込：09559_zeikomi⟧ (tax-included) is used more often than {内税|うちぜい} in everyday speech and on price tags.",
   "cross_references": [
     {
       "type": "antonym",
@@ -45,17 +51,35 @@
       "reading": "そとぜい",
       "headword": "{外税|そとぜい}",
       "label": "tax-exclusive price"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09559_zeikomi",
+      "reading": "ぜいこみ",
+      "headword": "{税込|ぜいこみ}",
+      "label": "tax-inclusive"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09560_zeinuki",
+      "reading": "ぜいぬき",
+      "headword": "{税抜|ぜいぬき}",
+      "label": "tax-exclusive"
     }
   ],
   "metadata": {
     "created": "2026-02-05T15:05:31Z",
-    "modified": "2026-04-24T05:32:11Z",
+    "modified": "2026-09-02T04:01:20Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["business"]
+      "semantic": [
+        "business"
+      ]
     }
   }
 }

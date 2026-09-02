@@ -3,7 +3,7 @@
   "headword": "かき{分|わ}ける",
   "reading": "かきわける",
   "romaji": "kakiwakeru",
-  "part_of_speech": "verb-ichidan",
+  "part_of_speech": "verb (ichidan)",
   "gloss": "to push through; to part (a crowd)",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28182_kakiwakeru_ex1",
-      "japanese": "{人|ひと}ごみをかき{分|わ}けて{進|すす}んだ。",
+      "japanese": "{人|ひと}ごみ⟦を→を：00422_wo⟧かき{分|わ}けて⟦{進|すす}んだ→進む：01225_susumu⟧。",
       "english": "I pushed through the crowd and moved forward.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28182_kakiwakeru_ex2",
-      "japanese": "{草|くさ}をかき{分|わ}けて{道|みち}を{探|さが}した。",
+      "japanese": "⟦{草|くさ}→草：02206_kusa⟧⟦を→を：00422_wo⟧かき{分|わ}けて⟦{道|みち}→道：00505_michi⟧⟦を→を：00422_wo⟧⟦{探|さが}した→探す：00493_sagasu⟧。",
       "english": "I parted the grass and searched for the path.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28182_kakiwakeru_ex3",
-      "japanese": "{記者|きしゃ}たちは{群衆|ぐんしゅう}をかき{分|わ}けて{選手|せんしゅ}に{近|ちか}づこうとした。",
+      "japanese": "⟦{記者|きしゃ}→記者：14170_kisha⟧たち⟦は→は：00079_ha⟧⟦{群衆|ぐんしゅう}→群衆：14930_gunshuu⟧⟦を→を：00422_wo⟧かき{分|わ}けて⟦{選手|せんしゅ}→選手：03823_senshu⟧⟦に→に：00314_ni⟧⟦{近|ちか}づこう→近づく：01958_chikazuku⟧とした。",
       "english": "The reporters tried to push through the crowd to get close to the player.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Compound of かく (to rake, to sweep) + {分|わ}ける (to divide). Transitive ({他動詞|たどうし}): the thing pushed aside is marked with を.\n\nPARTICLE PATTERNS:\n- {人|ひと}ごみをかき{分|わ}ける: to push through a crowd\n- {草木|くさき}をかき{分|わ}ける: to part the vegetation\n\nCOMMON PATTERNS:\n- かき{分|わ}けて{進|すす}む: to push one's way forward\n- かき{分|わ}けて{通|とお}る: to force one's way through\n\nSIMILAR WORDS:\n- {押|お}しのける: to shove aside — pushes a single obstacle out of the way, more forceful\n- {掻|か}き{回|まわ}す: to stir up; to churn — the かく element, but mixing rather than parting",
+  "notes": "Compound of かく (to rake, to sweep) + ⟦{分|わ}ける→分ける：02333_wakeru⟧ (to divide). Transitive (⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧): the thing pushed aside is marked with ⟦を→を：00422_wo⟧.\n\nCOMMON PATTERNS:\n- {人|ひと}ごみ⟦を→を：00422_wo⟧かき{分|わ}ける: to push through a crowd\n- ⟦{草木|くさき}→草木：14089_kusaki⟧⟦を→を：00422_wo⟧かき{分|わ}ける: to part the vegetation\n- かき{分|わ}けて⟦{進|すす}む→進む：01225_susumu⟧: to push one's way forward\n- かき{分|わ}けて⟦{通|とお}る→通る：01243_tooru⟧: to force one's way through\n\nSIMILAR WORDS:\n- ⟦{押|お}しのける→押しのける：15778_oshinokeru⟧: to shove aside — pushes a single obstacle out of the way, more forceful\n- ⟦{掻|か}き{回|まわ}す→掻き回す：09915_kakimawasu⟧: to stir up; to churn — the かく element, but mixing rather than parting",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15778_oshinokeru",
+      "reading": "おしのける",
+      "headword": "{押|お}しのける",
+      "label": "to shove aside"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09915_kakimawasu",
+      "reading": "かきまわす",
+      "headword": "{掻|か}き{回|まわ}す",
+      "label": "to stir up"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,7 +77,7 @@
       "verb_class": "ichidan"
     },
     "created": "2026-05-27T02:07:43Z",
-    "modified": "2026-05-27T02:07:43Z"
+    "modified": "2026-09-02T04:02:32Z"
   },
   "conjugation": {
     "type": "ichidan",

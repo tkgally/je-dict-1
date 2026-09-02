@@ -3,7 +3,7 @@
   "headword": "{薄明|うすあか}るい",
   "reading": "うすあかるい",
   "romaji": "usuakarui",
-  "part_of_speech": "adjective",
+  "part_of_speech": "i-adjective",
   "gloss": "dimly lit; faintly bright",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25600_usuakarui_ex1",
-      "japanese": "{薄明|うすあか}るい{部屋|へや}で{目|め}が{覚|さ}めた。",
+      "japanese": "{薄明|うすあか}るい⟦{部屋|へや}→部屋：00507_heya⟧⟦で→で：00502_de⟧⟦{目|め}→目：00525_me⟧⟦が→が：00051_ga⟧⟦{覚|さ}めた→覚める：02058_sameru⟧。",
       "english": "I woke up in a dimly lit room.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25600_usuakarui_ex2",
-      "japanese": "カーテンの{隙間|すきま}から{薄明|うすあか}るい{光|ひかり}が{差|さ}し{込|こ}んでいた。",
+      "japanese": "⟦カーテン→カーテン：01342_kaaten⟧⟦の→の：09472_no⟧⟦{隙間|すきま}→隙間：00389_sukima⟧⟦から→から：00504_kara⟧{薄明|うすあか}るい⟦{光|ひかり}→光：01707_hikari⟧⟦が→が：00051_ga⟧⟦{差|さ}し{込|こ}んでいた→差し込む：04235_sashikomu⟧。",
       "english": "A faint light was filtering through the gap in the curtains.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25600_usuakarui_ex3",
-      "japanese": "{夜明|よあ}け{前|まえ}の{薄明|うすあか}るい{空|そら}を{見上|みあ}げながら、{静|しず}かに{散歩|さんぽ}した。",
+      "japanese": "⟦{夜明|よあ}け→夜明け：03655_yoake⟧⟦{前|まえ}→前：02255_mae⟧⟦の→の：09472_no⟧{薄明|うすあか}るい⟦{空|そら}→空：02216_sora⟧⟦を→を：00422_wo⟧⟦{見上|みあ}げ→見上げる：04567_miageru⟧⟦ながら→ながら：10530_nagara⟧、⟦{静|しず}か→静か：00755_shizuka⟧⟦に→に：00314_ni⟧⟦{散歩|さんぽ}した→散歩する：26840_sanposuru⟧。",
       "english": "I took a quiet walk while looking up at the faintly bright sky before dawn.",
       "sense_numbers": [
         1
@@ -44,21 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "A compound i-adjective from {薄|うす} (thin, faint) and {明|あか}るい (bright). Describes the quality of soft, faint light — the kind found at dawn, dusk, or in rooms with indirect lighting. It evokes an atmospheric, often peaceful mood.\n\nThis word is commonly used in literary descriptions and everyday conversation about lighting conditions.\n\nCOMMON COLLOCATIONS:\n- {薄明|うすあか}るい{部屋|へや}: a dimly lit room\n- {薄明|うすあか}るい{空|そら}: a faintly bright sky\n- {薄明|うすあか}るい{光|ひかり}: a faint light\n- {薄明|うすあか}るい{廊下|ろうか}: a dimly lit hallway\n\nSIMILAR WORDS:\n- {薄暗|うすぐら}い: dim, dusky — emphasizes darkness rather than light; the opposite perspective\n- {仄|ほの}かな: faint, subtle — more literary, applies to light, warmth, or feelings\n- {明|あか}るい: bright — the base adjective without the diminishing prefix",
+  "notes": "A compound i-adjective from {薄|うす} (thin, faint) and ⟦{明|あか}るい→明るい：00616_akarui⟧ (bright). Describes the quality of soft, faint light — the kind found at dawn, dusk, or in rooms with indirect lighting. It evokes an atmospheric, often peaceful mood.\n\nThis word is commonly used in literary descriptions and everyday conversation about lighting conditions.\n\nCOMMON COLLOCATIONS:\n- {薄明|うすあか}るい⟦{部屋|へや}→部屋：00507_heya⟧: a dimly lit room\n- {薄明|うすあか}るい⟦{空|そら}→空：02216_sora⟧: a faintly bright sky\n- {薄明|うすあか}るい⟦{光|ひかり}→光：01707_hikari⟧: a faint light\n- {薄明|うすあか}るい⟦{廊下|ろうか}→廊下：05005_rouka⟧: a dimly lit hallway\n\nSIMILAR WORDS:\n- ⟦{薄暗|うすぐら}い→薄暗い：09122_usugurai⟧: dim, dusky — emphasizes darkness rather than light; the opposite perspective\n- {仄|ほの}かな: faint, subtle — more literary, applies to light, warmth, or feelings\n- ⟦{明|あか}るい→明るい：00616_akarui⟧: bright — the base adjective without the diminishing prefix",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09122_usugurai",
+      "reading": "うすぐらい",
+      "headword": "{薄暗|うすぐら}い",
+      "label": "dim, dusky"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "adjective-i"
       ],
+      "politeness": "plain",
       "semantic": [
         "nature",
         "descriptive"
       ]
     },
     "created": "2026-04-26T12:35:31Z",
-    "modified": "2026-08-04T12:59:53Z"
+    "modified": "2026-09-02T04:02:23Z"
   },
   "conjugation": {
     "type": "i-adjective",

@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "notes": "{遺伝子|いでんし} refers to genes. {遺伝|いでん} means 'heredity' and {子|し} means 'factor/element.'\n\nGENETICS VOCABULARY:\n- ⟦DNA→DNA：08764_diienuee⟧ (ディーエヌエー): DNA\n- {遺伝子|いでんし}⟦{情報|じょうほう}→情報：03348_jouhou⟧: genetic information\n- {遺伝子|いでんし}⟦{配列|はいれつ}→配列：14447_hairetsu⟧: gene sequence\n- {遺伝子|いでんし}⟦{変異|へんい}→変異：12116_heni⟧: genetic mutation\n- ⟦ゲノム→ゲノム：noentry⟧: genome\n\nCOMMON EXPRESSIONS:\n- {遺伝子|いでんし}⟦{検査|けんさ}→検査：02707_kensa⟧: genetic testing\n- {遺伝子|いでんし}⟦{治療|ちりょう}→治療：03503_chiryou⟧: gene therapy\n- {遺伝子|いでんし}⟦{組|く}み{換|か}え→組み換え：noentry⟧: genetic modification\n- {遺伝子|いでんし}⟦レベル→レベル：00352_reberu⟧: at the gene level\n\nRELATED WORDS:\n- ⟦{遺伝|いでん}→遺伝：10137_iden⟧: heredity\n- ⟦{染色体|せんしょくたい}→染色体：05243_senshokutai⟧: chromosome\n- ⟦{細胞|さいぼう}→細胞：05030_saibou⟧: cell",
+  "notes": "{遺伝子|いでんし} refers to genes. ⟦{遺伝|いでん}→遺伝：10137_iden⟧ means 'heredity' and {子|し} means 'factor/element.'\n\nGENETICS VOCABULARY:\n- ⟦DNA→DNA：08764_diienuee⟧ (ディーエヌエー): DNA\n- {遺伝子|いでんし}⟦{情報|じょうほう}→情報：03348_jouhou⟧: genetic information\n- {遺伝子|いでんし}⟦{配列|はいれつ}→配列：14447_hairetsu⟧: gene sequence\n- {遺伝子|いでんし}⟦{変異|へんい}→変異：12116_heni⟧: genetic mutation\n- ⟦ゲノム→ゲノム：noentry⟧: genome\n\nCOMMON EXPRESSIONS:\n- {遺伝子|いでんし}⟦{検査|けんさ}→検査：02707_kensa⟧: genetic testing\n- {遺伝子|いでんし}⟦{治療|ちりょう}→治療：03503_chiryou⟧: gene therapy\n- {遺伝子|いでんし}⟦{組|く}み{換|か}え→組み換え：noentry⟧: genetic modification\n- {遺伝子|いでんし}⟦レベル→レベル：00352_reberu⟧: at the gene level\n\nRELATED WORDS:\n- ⟦{遺伝|いでん}→遺伝：10137_iden⟧: heredity\n- ⟦{染色体|せんしょくたい}→染色体：05243_senshokutai⟧: chromosome\n- ⟦{細胞|さいぼう}→細胞：05030_saibou⟧: cell",
   "cross_references": [
     {
       "type": "related",
@@ -48,11 +48,32 @@
       "reading": "さいぼう",
       "headword": "{細胞|さいぼう}",
       "label": "cell"
+    },
+    {
+      "type": "related",
+      "target_id": "05243_senshokutai",
+      "reading": "せんしょくたい",
+      "headword": "{染色体|せんしょくたい}",
+      "label": "chromosome"
+    },
+    {
+      "type": "related",
+      "target_id": "26331_kakusan",
+      "reading": "かくさん",
+      "headword": "{核酸|かくさん}",
+      "label": "nucleic acid"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26494_idenjouhou",
+      "reading": "いでんじょうほう",
+      "headword": "{遺伝情報|いでんじょうほう}",
+      "label": "genetic information"
     }
   ],
   "metadata": {
     "created": "2026-01-14T10:37:17Z",
-    "modified": "2026-06-03T20:10:13Z",
+    "modified": "2026-09-02T04:01:06Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

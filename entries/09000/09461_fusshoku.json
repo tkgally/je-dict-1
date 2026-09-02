@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "09461_fusshoku_ex1",
-      "japanese": "{不安|ふあん}を{払拭|ふっしょく}する。",
+      "japanese": "⟦{不安|ふあん}→不安：00836_fuan⟧⟦を→を：00422_wo⟧{払拭|ふっしょく}⟦する→する：00392_suru⟧。",
       "english": "To dispel anxiety.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "09461_fusshoku_ex2",
-      "japanese": "{悪|わる}いイメージを{払拭|ふっしょく}したい。",
+      "japanese": "⟦{悪|わる}い→悪い：00908_warui⟧⟦イメージ→イメージ：03832_imeeji⟧⟦を→を：00422_wo⟧{払拭|ふっしょく}⟦したい→する：00392_suru⟧。",
       "english": "I want to erase the bad image.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "09461_fusshoku_ex3",
-      "japanese": "{疑惑|ぎわく}を{払拭|ふっしょく}できなかった。",
+      "japanese": "⟦{疑惑|ぎわく}→疑惑：13602_giwaku⟧⟦を→を：00422_wo⟧{払拭|ふっしょく}⟦できなかった→できる：00557_dekiru⟧。",
       "english": "The suspicion could not be dispelled.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
     },
     {
       "id": "09461_fusshoku_ex4",
-      "japanese": "{過去|かこ}の{汚名|おめい}を{払拭|ふっしょく}するために{努力|どりょく}している。",
+      "japanese": "⟦{過去|かこ}→過去：00152_kako⟧⟦の→の：09472_no⟧⟦{汚名|おめい}→汚名：13265_omei⟧⟦を→を：00422_wo⟧{払拭|ふっしょく}⟦する→する：00392_suru⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧⟦{努力|どりょく}している→努力する：20201_doryokusuru⟧。",
       "english": "I am working hard to wipe away the disgrace of the past.",
       "notes": null,
       "has_audio": false,
@@ -143,10 +143,26 @@
       ]
     }
   ],
-  "notes": "{払拭|ふっしょく} literally means \"to sweep and wipe,\" creating an image of thoroughly cleaning away something unwanted.\n\nUsage:\n- {払拭|ふっしょく}する (to wipe away, dispel)\n- {払拭|ふっしょく}される (to be dispelled)\n- {払拭|ふっしょく}できない (cannot be dispelled)\n\nCommonly used with:\n- {不安|ふあん} (anxiety, worry)\n- {疑惑|ぎわく}/{疑念|ぎねん} (suspicion, doubt)\n- イメージ (image)\n- {汚名|おめい} (disgrace, bad reputation)\n- {懸念|けねん} (concern)\n\nRelated words:\n- {一掃|いっそう}する: to sweep away, clean up\n- {解消|かいしょう}する: to resolve, dissolve\n- {晴|は}らす: to clear away",
+  "notes": "{払拭|ふっしょく} literally means \"to sweep and wipe,\" creating an image of thoroughly cleaning away something unwanted.\n\nUsage:\n- {払拭|ふっしょく}⟦する→する：00392_suru⟧ (to wipe away, dispel)\n- {払拭|ふっしょく}⟦される→する：00392_suru⟧ (to be dispelled)\n- {払拭|ふっしょく}⟦できない→できる：00557_dekiru⟧ (cannot be dispelled)\n\nCommonly used with:\n- ⟦{不安|ふあん}→不安：00836_fuan⟧ (anxiety, worry)\n- ⟦{疑惑|ぎわく}→疑惑：13602_giwaku⟧/⟦{疑念|ぎねん}→疑念：17971_ginen⟧ (suspicion, doubt)\n- ⟦イメージ→イメージ：03832_imeeji⟧ (image)\n- ⟦{汚名|おめい}→汚名：13265_omei⟧ (disgrace, bad reputation)\n- ⟦{懸念|けねん}→懸念：05622_kenen⟧ (concern)\n\nRelated words:\n- ⟦{一掃|いっそう}→一掃：14901_issou⟧⟦する→する：00392_suru⟧: to sweep away, clean up\n- ⟦{解消|かいしょう}する→解消する：21324_kaishousuru⟧: to resolve, dissolve\n- ⟦{晴|は}らす→晴らす：10538_harasu⟧: to clear away",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19897_hyoukai",
+      "reading": "ひょうかい",
+      "headword": "{氷解|ひょうかい}",
+      "label": "clearing up, vanishing (of doubts)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22363_fukikesu",
+      "reading": "ふきけす",
+      "headword": "{拭|ふ}き{消|け}す",
+      "label": "to wipe away"
+    }
+  ],
   "metadata": {
     "created": "2026-02-01T15:17:44Z",
-    "modified": "2026-03-29T03:05:07Z",
+    "modified": "2026-09-02T04:01:18Z",
     "ai_model": "opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -155,7 +171,7 @@
         "verb-suru"
       ],
       "formality": "formal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "action",
         "abstract"
@@ -164,7 +180,8 @@
         "written",
         "spoken"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

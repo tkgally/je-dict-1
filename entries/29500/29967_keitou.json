@@ -15,41 +15,60 @@
   "examples": [
     {
       "id": "29967_keitou_ex1",
-      "japanese": "{継|けい}{投|とう}で{逃|に}げ{切|き}る。",
+      "japanese": "{継|けい}{投|とう}⟦で→で：00502_de⟧⟦{逃|に}げ→逃げる：01151_nigeru⟧⟦{切|き}る→切る：02693_kiru⟧。",
       "english": "To hold on to the win with relay pitching.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29967_keitou_ex2",
-      "japanese": "{監督|かんとく}は{早|はや}めの{継|けい}{投|とう}を{決断|けつだん}した。",
+      "japanese": "⟦{監督|かんとく}→監督：00185_kantoku⟧⟦は→は：00079_ha⟧⟦{早|はや}め→早め：11176_hayame⟧⟦の→の：09472_no⟧{継|けい}{投|とう}⟦を→を：00422_wo⟧⟦{決断|けつだん}→決断：13250_ketsudan⟧⟦した→する：00392_suru⟧。",
       "english": "The manager decided to go to the bullpen early.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29967_keitou_ex3",
-      "japanese": "{三人|さんにん}の{投手|とうしゅ}の{継|けい}{投|とう}で{相手|あいて}{打線|だせん}を{抑|おさ}えた。",
+      "japanese": "⟦{三人|さんにん}→三人：10978_sannin⟧⟦の→の：09472_no⟧⟦{投手|とうしゅ}→投手：06563_toushu⟧⟦の→の：09472_no⟧{継|けい}{投|とう}⟦で→で：00502_de⟧⟦{相手|あいて}→相手：01677_aite⟧⟦{打線|だせん}→打線：30021_dasen⟧⟦を→を：00422_wo⟧⟦{抑|おさ}えた→抑える：12806_osaeru⟧。",
       "english": "They shut down the opposing lineup with a relay of three pitchers.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A baseball term. Frequently used as {継|けい}{投|とう}する ('to bring in relievers') and in the phrase {継|けい}{投|とう}{策|さく} ('bullpen strategy').\n\nCOMMON COLLOCATIONS:\n- {継|けい}{投|とう}する: to relay pitchers; to change pitchers\n- {継|けい}{投|とう}{策|さく}: relief-pitching strategy\n- {継|けい}{投|とう}が{当|あ}たる: the pitching change pays off\n\nSIMILAR WORDS:\n- {完投|かんとう}: complete game — one pitcher throwing the entire game, the opposite approach",
+  "notes": "A baseball term. Frequently used as {継|けい}{投|とう}⟦する→する：00392_suru⟧ ('to bring in relievers') and in the phrase {継|けい}{投|とう}⟦{策|さく}→策：09997_saku⟧ ('bullpen strategy').\n\nCOMMON COLLOCATIONS:\n- {継|けい}{投|とう}⟦する→する：00392_suru⟧: to relay pitchers; to change pitchers\n- {継|けい}{投|とう}⟦{策|さく}→策：09997_saku⟧: relief-pitching strategy\n- {継|けい}{投|とう}⟦が→が：00051_ga⟧⟦{当|あ}たる→当たる：01860_ataru⟧: the pitching change pays off\n\nSIMILAR WORDS:\n- ⟦{完投|かんとう}→完投：24619_kantou⟧: complete game — one pitcher throwing the entire game, the opposite approach",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24619_kantou",
+      "reading": "かんとう",
+      "headword": "{完投|かんとう}",
+      "label": "complete game"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["sports"],
+      "semantic": [
+        "sports"
+      ],
       "domain": []
     },
     "created": "2026-07-19T18:17:15Z",
-    "modified": "2026-07-19T18:17:15Z"
+    "modified": "2026-09-02T04:02:38Z"
   }
 }

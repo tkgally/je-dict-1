@@ -3,7 +3,7 @@
   "headword": "{減圧|げんあつ}",
   "reading": "げんあつ",
   "romaji": "genatsu",
-  "part_of_speech": "noun (する verb)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "decompression; pressure reduction",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24095_genatsu_ex1",
-      "japanese": "{減圧|げんあつ}{弁|べん}を{開|あ}けてください。",
+      "japanese": "{減圧|げんあつ}{弁|べん}⟦を→を：00422_wo⟧⟦{開|あ}けて→開ける：00563_akeru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please open the pressure relief valve.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24095_genatsu_ex2",
-      "japanese": "ダイバーは{減圧|げんあつ}{症|しょう}にならないように{注意|ちゅうい}する。",
+      "japanese": "⟦ダイバー→ダイバー：28769_daibaa⟧⟦は→は：00079_ha⟧{減圧|げんあつ}{症|しょう}⟦に→に：00314_ni⟧⟦ならない→なる：01970_naru⟧よう⟦に→に：00314_ni⟧⟦{注意|ちゅうい}→注意：01464_chuui⟧⟦する→する：00392_suru⟧。",
       "english": "Divers take care not to get decompression sickness.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24095_genatsu_ex3",
-      "japanese": "{減圧|げんあつ}{蒸留|じょうりゅう}は{低|ひく}い{温度|おんど}で{物質|ぶっしつ}を{分離|ぶんり}できる{方法|ほうほう}だ。",
+      "japanese": "{減圧|げんあつ}{蒸留|じょうりゅう}⟦は→は：00079_ha⟧⟦{低|ひく}い→低い：02947_hikui⟧⟦{温度|おんど}→温度：00333_ondo⟧⟦で→で：00502_de⟧⟦{物質|ぶっしつ}→物質：03608_busshitsu⟧⟦を→を：00422_wo⟧⟦{分離|ぶんり}できる→分離する：22369_bunrisuru⟧⟦{方法|ほうほう}→方法：03621_houhou⟧だ。",
       "english": "Vacuum distillation is a method that can separate substances at low temperatures.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "A technical term used in engineering, diving, and industrial processes. The most widely known usage is {減圧|げんあつ}{症|しょう} (decompression sickness / \"the bends\"), a condition affecting divers who ascend too quickly.\n\nCOMMON COLLOCATIONS:\n- {減圧|げんあつ}{症|しょう}: decompression sickness (the bends)\n- {減圧|げんあつ}{弁|べん}: pressure relief valve\n- {減圧|げんあつ}{蒸留|じょうりゅう}: vacuum distillation\n- {減圧|げんあつ}{室|しつ}: decompression chamber\n\nSIMILAR WORDS:\n- {加圧|かあつ}: pressurization — the opposite, increasing pressure\n- {圧縮|あっしゅく}: compression — compressing something into a smaller volume\n- {気圧|きあつ}: atmospheric pressure — the pressure of the surrounding air",
+  "notes": "A technical term used in engineering, diving, and industrial processes. The most widely known usage is {減圧|げんあつ}{症|しょう} (decompression sickness / \"the bends\"), a condition affecting divers who ascend too quickly.\n\nCOMMON COLLOCATIONS:\n- {減圧|げんあつ}{症|しょう}: decompression sickness (the bends)\n- {減圧|げんあつ}{弁|べん}: pressure relief valve\n- {減圧|げんあつ}{蒸留|じょうりゅう}: vacuum distillation\n- {減圧|げんあつ}⟦{室|しつ}→室：09946_shitsu⟧: decompression chamber\n\nSIMILAR WORDS:\n- ⟦{加圧|かあつ}→加圧：16628_kaatsu⟧: pressurization — the opposite, increasing pressure\n- ⟦{圧縮|あっしゅく}→圧縮：04884_asshuku⟧: compression — compressing something into a smaller volume\n- ⟦{気圧|きあつ}→気圧：00219_kiatsu⟧: atmospheric pressure — the pressure of the surrounding air",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,6 +53,8 @@
         "noun",
         "verb-suru"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "science",
         "business"
@@ -60,7 +62,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-17T17:44:51Z",
-    "modified": "2026-08-02T18:32:34Z"
+    "modified": "2026-09-02T04:02:16Z"
   },
   "conjugation": {
     "type": "suru",
@@ -159,6 +161,20 @@
       "reading": "かあつ",
       "headword": "{加圧|かあつ}",
       "label": "pressurization"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04884_asshuku",
+      "reading": "あっしゅく",
+      "headword": "{圧縮|あっしゅく}",
+      "label": "compression"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00219_kiatsu",
+      "reading": "きあつ",
+      "headword": "{気圧|きあつ}",
+      "label": "atmospheric pressure"
     }
   ]
 }

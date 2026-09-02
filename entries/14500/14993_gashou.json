@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "14993_gashou_ex1",
-      "japanese": "{年賀状|ねんがじょう}に「{賀正|がしょう}」と{書|か}いた。",
+      "japanese": "⟦{年賀状|ねんがじょう}→年賀状：06227_nengajou⟧⟦に→に：00314_ni⟧「{賀正|がしょう}」⟦と→と：00512_to⟧⟦{書|か}いた→書く：00477_kaku⟧。",
       "english": "I wrote 'Happy New Year' on the New Year's card.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "14993_gashou_ex2",
-      "japanese": "{会社|かいしゃ}の{入|い}り{口|ぐち}に「{賀正|がしょう}」の{飾|かざ}りが{出|で}ていた。",
+      "japanese": "⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦の→の：09472_no⟧⟦{入|い}り{口|ぐち}→入り口：02507_iriguchi⟧⟦に→に：00314_ni⟧「{賀正|がしょう}」⟦の→の：09472_no⟧⟦{飾|かざ}り→飾り：02539_kazari⟧⟦が→が：00051_ga⟧⟦{出|で}ていた→出る：00513_deru⟧。",
       "english": "A New Year's decoration saying 'Happy New Year' was displayed at the company entrance.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "14993_gashou_ex3",
-      "japanese": "「{賀正|がしょう}」は{目上|めうえ}の{人|ひと}への{年賀状|ねんがじょう}には{使|つか}わない{方|ほう}がいい。",
+      "japanese": "「{賀正|がしょう}」⟦は→は：00079_ha⟧⟦{目上|めうえ}→目上：03804_meue⟧⟦の→の：09472_no⟧⟦{人|ひと}→人：00476_hito⟧⟦へ→へ：02473_he⟧⟦の→の：09472_no⟧⟦{年賀状|ねんがじょう}→年賀状：06227_nengajou⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{使|つか}わない→使う：00473_tsukau⟧⟦{方|ほう}→方：01139_hou⟧⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧。",
       "english": "It's better not to use 'gashou' on New Year's cards to people of higher status.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,33 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{賀正|がしょう} is a two-character New Year's greeting commonly printed on {年賀状|ねんがじょう} (New Year's cards) and seasonal decorations. It is considered a somewhat casual abbreviated form.\n\nIMPORTANT: Two-character greetings like {賀正|がしょう} are traditionally seen as abbreviated and therefore less formal. When writing to superiors or elders, four-character greetings such as {謹賀新年|きんがしんねん} are preferred.\n\nCOMMON COLLOCATIONS:\n- {賀正|がしょう}の{飾|かざ}り (New Year's greeting decoration)\n- {年賀状|ねんがじょう}に{賀正|がしょう}と{書|か}く (write 'gashou' on a New Year's card)\n\nRELATED WORDS:\n- {謹賀新年|きんがしんねん}: respectful New Year's greeting (formal, four characters)\n- {迎春|げいしゅん}: welcoming the new year\n- {年賀状|ねんがじょう}: New Year's postcard",
-  "cross_references": [],
+  "notes": "USAGE:\n{賀正|がしょう} is a two-character New Year's greeting commonly printed on ⟦{年賀状|ねんがじょう}→年賀状：06227_nengajou⟧ (New Year's cards) and seasonal decorations. It is considered a somewhat casual abbreviated form.\n\nIMPORTANT: Two-character greetings like {賀正|がしょう} are traditionally seen as abbreviated and therefore less formal. When writing to superiors or elders, four-character greetings such as ⟦{謹賀新年|きんがしんねん}→謹賀新年：17279_kingashinnen⟧ are preferred.\n\nCOMMON COLLOCATIONS:\n- {賀正|がしょう}⟦の→の：09472_no⟧⟦{飾|かざ}り→飾り：02539_kazari⟧ (New Year's greeting decoration)\n- ⟦{年賀状|ねんがじょう}→年賀状：06227_nengajou⟧⟦に→に：00314_ni⟧{賀正|がしょう}⟦と→と：00512_to⟧⟦{書|か}く→書く：00477_kaku⟧ (write 'gashou' on a New Year's card)\n\nRELATED WORDS:\n- ⟦{謹賀新年|きんがしんねん}→謹賀新年：17279_kingashinnen⟧: respectful New Year's greeting (formal, four characters)\n- ⟦{迎春|げいしゅん}→迎春：14994_geishun⟧: welcoming the new year\n- ⟦{年賀状|ねんがじょう}→年賀状：06227_nengajou⟧: New Year's postcard",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "17279_kingashinnen",
+      "reading": "きんがしんねん",
+      "headword": "{謹賀新年|きんがしんねん}",
+      "label": "respectful New Year's greeting"
+    },
+    {
+      "type": "related",
+      "target_id": "14994_geishun",
+      "reading": "げいしゅん",
+      "headword": "{迎春|げいしゅん}",
+      "label": "welcoming the new year"
+    },
+    {
+      "type": "related",
+      "target_id": "06227_nengajou",
+      "reading": "ねんがじょう",
+      "headword": "{年賀状|ねんがじょう}",
+      "label": "New Year's postcard"
+    }
+  ],
   "metadata": {
     "created": "2026-03-04T11:07:49Z",
-    "modified": "2026-03-04T11:07:49Z",
+    "modified": "2026-09-02T04:01:39Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

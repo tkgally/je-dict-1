@@ -15,40 +15,66 @@
   "examples": [
     {
       "id": "20489_soragoto_ex1",
-      "japanese": "あれは{空言|そらごと}にすぎない。",
+      "japanese": "⟦あれ→あれ：00916_are⟧⟦は→は：00079_ha⟧{空言|そらごと}⟦に→に：00314_ni⟧すぎない。",
       "english": "That is nothing but empty words.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20489_soragoto_ex2",
-      "japanese": "{彼|かれ}の{約束|やくそく}は{空言|そらごと}だった。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧⟦{約束|やくそく}→約束：01517_yakusoku⟧⟦は→は：00079_ha⟧{空言|そらごと}だった。",
       "english": "His promise was a falsehood.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20489_soragoto_ex3",
-      "japanese": "いくら{美|うつく}しい{言葉|ことば}を{並|なら}べても、{行動|こうどう}が{伴|ともな}わなければ{空言|そらごと}に{終|お}わる。",
+      "japanese": "いくら⟦{美|うつく}しい→美しい：01121_utsukushii⟧⟦{言葉|ことば}→言葉：02880_kotoba⟧⟦を→を：00422_wo⟧⟦{並|なら}べて→並べる：01091_naraberu⟧⟦も→も：00484_mo⟧、⟦{行動|こうどう}→行動：02728_koudou⟧⟦が→が：00051_ga⟧⟦{伴|ともな}わなければ→伴う：10389_tomonau⟧{空言|そらごと}⟦に→に：00314_ni⟧{終|お}わる。",
       "english": "No matter how many fine words you line up, without action they end up as empty talk.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {空|そら} (empty, sky — here meaning 'empty' or 'hollow') + {言|ごと} (words, saying). A somewhat literary or elevated word for a lie or empty talk.\n\nCOMMON COLLOCATIONS:\n- {空言|そらごと}を{言|い}う: to tell lies, to speak empty words\n- {空言|そらごと}にすぎない: to be nothing but empty words\n- {空言|そらごと}に{終|お}わる: to end up as mere words\n\nREGISTER:\nThis word has a literary, somewhat classical feel. In everyday conversation, {嘘|うそ} (lie) or {口先|くちさき}だけ (lip service) are more common. {空言|そらごと} tends to appear in written language, formal speech, or proverbs.\n\nSIMILAR WORDS:\n- {嘘|うそ}: lie — the most common everyday word for an untruth\n- {虚言|きょげん}: falsehood, fabrication — a more formal synonym\n- {戯言|たわごと}: nonsense, idle talk — emphasizes absurdity rather than deception",
+  "notes": "A compound of ⟦{空|そら}→空：02216_sora⟧ (empty, sky — here meaning 'empty' or 'hollow') + {言|ごと} (words, saying). A somewhat literary or elevated word for a lie or empty talk.\n\nCOMMON COLLOCATIONS:\n- {空言|そらごと}⟦を→を：00422_wo⟧⟦{言|い}う→言う：00515_iu⟧: to tell lies, to speak empty words\n- {空言|そらごと}⟦に→に：00314_ni⟧すぎない: to be nothing but empty words\n- {空言|そらごと}⟦に→に：00314_ni⟧{終|お}わる: to end up as mere words\n\nREGISTER:\nThis word has a literary, somewhat classical feel. In everyday conversation, ⟦{嘘|うそ}→嘘：01796_uso⟧ (lie) or ⟦{口先|くちさき}→口先：16728_kuchisaki⟧⟦だけ→〜だけ：03093_dake⟧ (lip service) are more common. {空言|そらごと} tends to appear in written language, formal speech, or proverbs.\n\nSIMILAR WORDS:\n- ⟦{嘘|うそ}→嘘：01796_uso⟧: lie — the most common everyday word for an untruth\n- ⟦{虚言|きょげん}→虚言：21520_kyogen⟧: falsehood, fabrication — a more formal synonym\n- {戯言|たわごと}: nonsense, idle talk — emphasizes absurdity rather than deception",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01796_uso",
+      "reading": "うそ",
+      "headword": "{嘘|うそ}",
+      "label": "lie"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21520_kyogen",
+      "reading": "きょげん",
+      "headword": "{虚言|きょげん}",
+      "label": "falsehood, fabrication"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["language"]
+      "semantic": [
+        "language"
+      ]
     },
     "created": "2026-03-29T15:24:49Z",
-    "modified": "2026-03-29T15:24:49Z"
+    "modified": "2026-09-02T04:01:59Z"
   }
 }

@@ -15,41 +15,70 @@
   "examples": [
     {
       "id": "19238_keiryouka_ex1",
-      "japanese": "{車体|しゃたい}の{軽量化|けいりょうか}を{図|はか}る。",
+      "japanese": "⟦{車体|しゃたい}→車体：17213_shatai⟧⟦の→の：09472_no⟧{軽量化|けいりょうか}⟦を→を：00422_wo⟧⟦{図|はか}る→図る：12006_hakaru⟧。",
       "english": "To aim for weight reduction of the car body.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19238_keiryouka_ex2",
-      "japanese": "{新素材|しんそざい}を{使|つか}って{軽量化|けいりょうか}に{成功|せいこう}した。",
+      "japanese": "{新素材|しんそざい}⟦を→を：00422_wo⟧⟦{使|つか}って→使う：00473_tsukau⟧{軽量化|けいりょうか}⟦に→に：00314_ni⟧⟦{成功|せいこう}した→成功する：21445_seikousuru⟧。",
       "english": "They succeeded in reducing weight by using new materials.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19238_keiryouka_ex3",
-      "japanese": "スマートフォンの{軽量化|けいりょうか}と{薄型化|うすがたか}が{進|すす}んでいる。",
+      "japanese": "⟦スマートフォン→スマートフォン：04434_sumaatofon⟧⟦の→の：09472_no⟧{軽量化|けいりょうか}⟦と→と：00512_to⟧⟦{薄型化|うすがたか}→薄型化：26533_usugataka⟧⟦が→が：00051_ga⟧⟦{進|すす}んでいる→進む：01225_susumu⟧。",
       "english": "Smartphones are becoming lighter and thinner.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {軽量|けいりょう} (lightweight) + {化|か} (transformation/-ification). Can be used as a する verb: {軽量化|けいりょうか}する (to reduce weight).\n\nCOMMON COLLOCATIONS:\n- {軽量化|けいりょうか}を{図|はか}る: to aim for weight reduction\n- {軽量化|けいりょうか}に{成功|せいこう}する: to succeed in reducing weight\n- {軽量化|けいりょうか}を{実現|じつげん}する: to achieve weight reduction\n- {大幅|おおはば}な{軽量化|けいりょうか}: significant weight reduction\n\nDOMAIN:\nFrequently used in manufacturing, automotive, aerospace, and electronics industries when discussing product design goals.\n\nRELATED 〜{化|か} TERMS:\n- {小型化|こがたか}: miniaturization\n- {高速化|こうそくか}: speed increase\n- {薄型化|うすがたか}: making thinner",
+  "notes": "Composed of ⟦{軽量|けいりょう}→軽量：19124_keiryou⟧ (lightweight) + ⟦{化|か}→〜化：28335_ka⟧ (transformation/-ification). Can be used as a ⟦する→する：00392_suru⟧ verb: {軽量化|けいりょうか}⟦する→する：00392_suru⟧ (to reduce weight).\n\nCOMMON COLLOCATIONS:\n- {軽量化|けいりょうか}⟦を→を：00422_wo⟧⟦{図|はか}る→図る：12006_hakaru⟧: to aim for weight reduction\n- {軽量化|けいりょうか}⟦に→に：00314_ni⟧⟦{成功|せいこう}する→成功する：21445_seikousuru⟧: to succeed in reducing weight\n- {軽量化|けいりょうか}⟦を→を：00422_wo⟧⟦{実現|じつげん}→実現：03276_jitsugen⟧⟦する→する：00392_suru⟧: to achieve weight reduction\n- ⟦{大幅|おおはば}→大幅：12170_oohaba⟧な{軽量化|けいりょうか}: significant weight reduction\n\nDOMAIN:\nFrequently used in manufacturing, automotive, aerospace, and electronics industries when discussing product design goals.\n\nRELATED 〜{化|か} TERMS:\n- ⟦{小型化|こがたか}→小型化：20750_kogataka⟧: miniaturization\n- {高速化|こうそくか}: speed increase\n- ⟦{薄型化|うすがたか}→薄型化：26533_usugataka⟧: making thinner",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "20750_kogataka",
+      "reading": "こがたか",
+      "headword": "{小型化|こがたか}",
+      "label": "miniaturization"
+    },
+    {
+      "type": "related",
+      "target_id": "26533_usugataka",
+      "reading": "うすがたか",
+      "headword": "{薄型化|うすがたか}",
+      "label": "making thinner"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "domain": ["technical"],
-      "semantic": ["technology", "change"]
+      "domain": [
+        "technical"
+      ],
+      "semantic": [
+        "technology",
+        "change"
+      ]
     },
     "created": "2026-03-25T01:39:20Z",
-    "modified": "2026-07-26T21:31:07Z"
+    "modified": "2026-09-02T04:01:55Z"
   }
 }

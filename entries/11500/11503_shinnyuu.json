@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "11503_shinnyuu_ex1",
-      "japanese": "{新入|しんにゅう}{社員|しゃいん}の{研修|けんしゅう}が{始|はじ}まった。",
+      "japanese": "{新入|しんにゅう}{社員|しゃいん}⟦の→の：09472_no⟧⟦{研修|けんしゅう}→研修：05322_kenshuu⟧⟦が→が：00051_ga⟧⟦{始|はじ}まった→始まる：00841_hajimaru⟧。",
       "english": "The training for new employees has started.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "11503_shinnyuu_ex2",
-      "japanese": "{新入|しんにゅう}{生|せい}を{歓迎|かんげい}するパーティーを{開|ひら}いた。",
+      "japanese": "{新入|しんにゅう}{生|せい}⟦を→を：00422_wo⟧⟦{歓迎|かんげい}する→歓迎する：26997_kangeisuru⟧⟦パーティー→パーティー：02946_paatii⟧⟦を→を：00422_wo⟧⟦{開|ひら}いた→開く：01979_hiraku⟧。",
       "english": "We held a party to welcome the new students.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "11503_shinnyuu_ex3",
-      "japanese": "{今年|ことし}の{新入|しんにゅう}{部員|ぶいん}は{去年|きょねん}より{多|おお}く、{活気|かっき}がある。",
+      "japanese": "⟦{今年|ことし}→今年：00722_kotoshi⟧⟦の→の：09472_no⟧{新入|しんにゅう}⟦{部員|ぶいん}→部員：27409_buin⟧⟦は→は：00079_ha⟧⟦{去年|きょねん}→去年：00727_kyonen⟧⟦より→より：09476_yori⟧⟦{多|おお}く→多い：01127_ooi⟧、⟦{活気|かっき}→活気：02554_kakki⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "This year's new club members are more numerous than last year, and there's a lot of energy.",
       "notes": null,
       "has_audio": false,
@@ -43,11 +43,26 @@
       ]
     }
   ],
-  "notes": "{新入|しんにゅう} means newly entering or newly joined. It is used almost exclusively as a prefix modifying another noun — it rarely stands alone.\n\nCOMMON COMPOUNDS:\n- {新入|しんにゅう}{社員|しゃいん}: new employee (often abbreviated {新入|しんにゅう}{社員|しゃいん} → {新社員|しんしゃいん})\n- {新入|しんにゅう}{生|せい}: new student (entering a school)\n- {新入|しんにゅう}{部員|ぶいん}: new club member\n- {新入|しんにゅう}{会員|かいいん}: new member (of an organization)\n\nCONTRAST:\n- {新入|しんにゅう}: newly joined (prefix, always modifies a noun)\n- {新人|しんじん}: newcomer, rookie (can stand alone as a noun)\n- {入社|にゅうしゃ}: joining a company (the act itself)\n\nSEASONAL CONTEXT:\nIn Japan, the school and fiscal year begin in April. {新入|しんにゅう}{生|せい} and {新入|しんにゅう}{社員|しゃいん} are most commonly heard in spring.",
-  "cross_references": [],
+  "notes": "{新入|しんにゅう} means newly entering or newly joined. It is used almost exclusively as a prefix modifying another noun — it rarely stands alone.\n\nCOMPOUNDS:\n- {新入|しんにゅう}{社員|しゃいん}: new employee (often abbreviated {新入|しんにゅう}{社員|しゃいん} → {新社員|しんしゃいん})\n- {新入|しんにゅう}{生|せい}: new student (entering a school)\n- {新入|しんにゅう}⟦{部員|ぶいん}→部員：27409_buin⟧: new club member\n- {新入|しんにゅう}⟦{会員|かいいん}→会員：02535_kaiin⟧: new member (of an organization)\n\nSIMILAR WORDS:\n- {新入|しんにゅう}: newly joined (prefix, always modifies a noun)\n- ⟦{新人|しんじん}→新人：02500_shinjin⟧: newcomer, rookie (can stand alone as a noun)\n- ⟦{入社|にゅうしゃ}→入社：03131_nyuusha⟧: joining a company (the act itself)\n\nSEASONAL CONTEXT:\nIn Japan, the school and fiscal year begin in April. {新入|しんにゅう}{生|せい} and {新入|しんにゅう}{社員|しゃいん} are most commonly heard in spring.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02500_shinjin",
+      "reading": "しんじん",
+      "headword": "{新人|しんじん}",
+      "label": "newcomer, rookie"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03131_nyuusha",
+      "reading": "にゅうしゃ",
+      "headword": "{入社|にゅうしゃ}",
+      "label": "joining a company"
+    }
+  ],
   "metadata": {
     "created": "2026-02-17T01:54:44Z",
-    "modified": "2026-03-25T09:40:20Z",
+    "modified": "2026-09-02T04:01:25Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",

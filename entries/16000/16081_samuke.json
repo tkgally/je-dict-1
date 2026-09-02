@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "16081_samuke_ex1",
-      "japanese": "{寒気|さむけ}がする。",
+      "japanese": "{寒気|さむけ}⟦が→が：00051_ga⟧⟦する→する：00392_suru⟧。",
       "english": "I feel a chill.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "16081_samuke_ex2",
-      "japanese": "{熱|ねつ}が{出|で}る{前|まえ}に{寒気|さむけ}を{感|かん}じた。",
+      "japanese": "⟦{熱|ねつ}→熱：01690_netsu⟧⟦が→が：00051_ga⟧⟦{出|で}る→出る：00513_deru⟧⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧{寒気|さむけ}⟦を→を：00422_wo⟧⟦{感|かん}じた→感じる：02044_kanjiru⟧。",
       "english": "I felt chills before the fever started.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "16081_samuke_ex3",
-      "japanese": "あの{怖|こわ}い{話|はなし}を{聞|き}いて、{背筋|せすじ}に{寒気|さむけ}が{走|はし}った。",
+      "japanese": "⟦あの→あの：00915_ano⟧⟦{怖|こわ}い→怖い：00864_kowai⟧⟦{話|はなし}→話：01496_hanashi⟧⟦を→を：00422_wo⟧⟦{聞|き}いて→聞く：00483_kiku⟧、⟦{背筋|せすじ}→背筋：13931_sesuji⟧⟦に→に：00314_ni⟧{寒気|さむけ}⟦が→が：00051_ga⟧⟦{走|はし}った→走る：00519_hashiru⟧。",
       "english": "A chill ran down my spine when I heard that scary story.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "READING:\nThe same kanji {寒気|かんき} read as かんき means cold air or cold weather, which is a different word. This entry covers the さむけ reading only.\n\nCOMMON COLLOCATIONS:\n- {寒気|さむけ}がする (to feel a chill)\n- {寒気|さむけ}を{感|かん}じる (to sense chills)\n- {背筋|せすじ}に{寒気|さむけ}が{走|はし}る (a chill runs down one's spine)\n\nSIMILAR WORDS:\n- {悪寒|おかん}: chills (from illness) — more medical, specifically refers to fever-related chills\n- {鳥肌|とりはだ}: goosebumps — the physical skin reaction from cold or fear",
+  "notes": "PRONUNCIATION:\nThe same kanji {寒気|かんき} read as かんき means cold air or cold weather, which is a different word. This entry covers the さむけ reading only.\n\nCOMMON COLLOCATIONS:\n- {寒気|さむけ}⟦が→が：00051_ga⟧⟦する→する：00392_suru⟧ (to feel a chill)\n- {寒気|さむけ}⟦を→を：00422_wo⟧⟦{感|かん}じる→感じる：02044_kanjiru⟧ (to sense chills)\n- ⟦{背筋|せすじ}→背筋：13931_sesuji⟧⟦に→に：00314_ni⟧{寒気|さむけ}⟦が→が：00051_ga⟧⟦{走|はし}る→走る：00519_hashiru⟧ (a chill runs down one's spine)\n\nSIMILAR WORDS:\n- ⟦{悪寒|おかん}→悪寒：12670_okan⟧: chills (from illness) — more medical, specifically refers to fever-related chills\n- ⟦{鳥肌|とりはだ}→鳥肌：08544_torihada⟧: goosebumps — the physical skin reaction from cold or fear",
   "prominent_see_also": [
     {
       "target_id": "12433_kanki",
@@ -60,11 +60,25 @@
       "reading": "おかん",
       "headword": "{悪寒|おかん}",
       "label": "chills (medical, fever)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08544_torihada",
+      "reading": "とりはだ",
+      "headword": "{鳥肌|とりはだ}",
+      "label": "goosebumps"
+    },
+    {
+      "type": "related",
+      "target_id": "08485_yuzame",
+      "reading": "ゆざめ",
+      "headword": "{湯冷|ゆざ}め",
+      "label": "catching cold after a bath"
     }
   ],
   "metadata": {
     "created": "2026-03-09T12:20:05Z",
-    "modified": "2026-07-18T12:31:39Z",
+    "modified": "2026-09-02T04:01:43Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

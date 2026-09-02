@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08530_ousetsuma_ex1",
-      "japanese": "お{客|きゃく}さんを{応接間|おうせつま}に{通|とお}した。",
+      "japanese": "⟦お{客|きゃく}さん→お客さん：10253_okyakusan⟧⟦を→を：00422_wo⟧{応接間|おうせつま}⟦に→に：00314_ni⟧⟦{通|とお}した→通す：02300_toosu⟧。",
       "english": "I showed the guest to the reception room.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "08530_ousetsuma_ex2",
-      "japanese": "{応接間|おうせつま}でお{茶|ちゃ}を{出|だ}した。",
+      "japanese": "{応接間|おうせつま}⟦で→で：00502_de⟧⟦お{茶|ちゃ}→お茶：00576_ocha⟧⟦を→を：00422_wo⟧⟦{出|だ}した→出す：01087_dasu⟧。",
       "english": "I served tea in the parlor.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "08530_ousetsuma_ex3",
-      "japanese": "{立派|りっぱ}な{応接間|おうせつま}のある{家|いえ}だ。",
+      "japanese": "⟦{立派|りっぱ}→立派：01093_rippa⟧な{応接間|おうせつま}⟦の→の：09472_no⟧⟦ある→ある：00006_aru⟧⟦{家|いえ}→家：00612_ie⟧だ。",
       "english": "It's a house with a fine reception room.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
     },
     {
       "id": "08530_ousetsuma_ex4",
-      "japanese": "{応接間|おうせつま}には{革張|かわば}りのソファがある。",
+      "japanese": "{応接間|おうせつま}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{革張|かわば}り⟦の→の：09472_no⟧⟦ソファ→ソファ：04485_sofa⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There's a leather sofa in the drawing room.",
       "sense_numbers": [
         1
@@ -53,7 +53,51 @@
       "notes": null
     }
   ],
-  "notes": "{応接間|おうせつま} is a formal room for receiving and entertaining guests, distinct from everyday living spaces.\n\nWORD FORMATION:\n{応接|おうせつ} (reception, receiving guests) + {間|ま} (room)\n\nUSAGE:\nMore common in older, larger, or Western-style ({洋風|ようふう}) Japanese homes. Modern apartments rarely have a dedicated {応接間|おうせつま}. In offices, the equivalent room is called an {応接室|おうせつしつ}.\n\nCOMMON COLLOCATIONS:\n- {応接間|おうせつま}に{通|とお}す: to show someone to the reception room\n- {応接|おうせつ}セット: reception room furniture set (sofa + chairs + table)\n- {応接室|おうせつしつ}: reception room (in offices/businesses)\n\nRELATED ROOM VOCABULARY:\n- {居間|いま}: living room (traditional Japanese term)\n- リビング: living room (modern, casual)\n- {客間|きゃくま}: guest room (Japanese-style, with tatami)\n- {和室|わしつ}: Japanese-style room\n- {洋間|ようま}: Western-style room",
+  "notes": "{応接間|おうせつま} is a formal room for receiving and entertaining guests, distinct from everyday living spaces.\n\nFORMS:\n⟦{応接|おうせつ}→応接：04109_ousetsu⟧ (reception, receiving guests) + {間|ま} (room)\n\nUSAGE:\nMore common in older, larger, or Western-style (⟦{洋風|ようふう}→洋風：13282_youfuu⟧) Japanese homes. Modern apartments rarely have a dedicated {応接間|おうせつま}. In offices, the equivalent room is called an ⟦{応接室|おうせつしつ}→応接室：20242_ousetsushitsu⟧.\n\nCOMMON COLLOCATIONS:\n- {応接間|おうせつま}⟦に→に：00314_ni⟧⟦{通|とお}す→通す：02300_toosu⟧: to show someone to the reception room\n- ⟦{応接|おうせつ}→応接：04109_ousetsu⟧⟦セット→セット：03853_setto⟧: reception room furniture set (sofa + chairs + table)\n- ⟦{応接室|おうせつしつ}→応接室：20242_ousetsushitsu⟧: reception room (in offices/businesses)\n\nRELATED ROOM VOCABULARY:\n- ⟦{居間|いま}→居間：01745_ima⟧: living room (traditional Japanese term)\n- ⟦リビング→リビング：11198_ribingu⟧: living room (modern, casual)\n- ⟦{客間|きゃくま}→客間：00257_kyakuma⟧: guest room (Japanese-style, with tatami)\n- ⟦{和室|わしつ}→和室：10437_washitsu⟧: Japanese-style room\n- ⟦{洋間|ようま}→洋間：16339_youma⟧: Western-style room",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "01745_ima",
+      "reading": "いま",
+      "headword": "{居間|いま}",
+      "label": "living room"
+    },
+    {
+      "type": "related",
+      "target_id": "11198_ribingu",
+      "reading": "りびんぐ",
+      "headword": "リビング",
+      "label": "living room"
+    },
+    {
+      "type": "related",
+      "target_id": "00257_kyakuma",
+      "reading": "きゃくま",
+      "headword": "{客間|きゃくま}",
+      "label": "guest room"
+    },
+    {
+      "type": "related",
+      "target_id": "10437_washitsu",
+      "reading": "わしつ",
+      "headword": "{和室|わしつ}",
+      "label": "Japanese-style room"
+    },
+    {
+      "type": "related",
+      "target_id": "16339_youma",
+      "reading": "ようま",
+      "headword": "{洋間|ようま}",
+      "label": "Western-style room"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20242_ousetsushitsu",
+      "reading": "おうせつしつ",
+      "headword": "{応接室|おうせつしつ}",
+      "label": "reception room"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,11 +105,12 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "building"
       ]
     },
     "created": "2026-01-27T10:33:10Z",
-    "modified": "2026-06-22T12:50:00Z"
+    "modified": "2026-09-02T04:01:15Z"
   }
 }

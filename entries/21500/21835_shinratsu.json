@@ -3,8 +3,17 @@
   "id": "21835_shinratsu",
   "headword": "{辛辣|しんらつ}",
   "reading": "しんらつ",
-  "part_of_speech": "adjective-na, noun",
+  "part_of_speech": "na-adjective, noun",
   "gloss": "harsh; scathing; biting",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01125_kibishii",
+      "reading": "きびしい",
+      "headword": "{厳|きび}しい",
+      "label": "strict, harsh"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -12,15 +21,16 @@
         "adjective-na",
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "language",
         "communication"
       ]
     },
     "created": "2026-04-03T19:21:58Z",
-    "modified": "2026-04-03T19:21:58Z"
+    "modified": "2026-09-02T04:02:05Z"
   },
-  "notes": "Describes speech, writing, or criticism that is extremely sharp and cutting. Stronger than {厳|きび}しい, it implies a deliberate, piercing quality. Often used in literary or journalistic contexts.\n\nCOMMON COLLOCATIONS:\n- {辛辣|しんらつ}な{批判|ひはん}: scathing criticism\n- {辛辣|しんらつ}な{意見|いけん}: harsh opinion\n- {辛辣|しんらつ}な{言葉|ことば}: biting words\n- {辛辣|しんらつ}な{皮肉|ひにく}: biting sarcasm\n- {辛辣|しんらつ}なコメント: harsh comment\n\nSIMILAR WORDS:\n- {厳|きび}しい: strict, harsh — broader in usage and less literary\n- {痛烈|つうれつ}: devastating, severe — similar intensity but emphasizes the impact on the target\n- {手厳|てきび}しい: severe, tough — more conversational than {辛辣|しんらつ}",
+  "notes": "Describes speech, writing, or criticism that is extremely sharp and cutting. Stronger than ⟦{厳|きび}しい→厳しい：01125_kibishii⟧, it implies a deliberate, piercing quality. Often used in literary or journalistic contexts.\n\nCOMMON COLLOCATIONS:\n- {辛辣|しんらつ}な⟦{批判|ひはん}→批判：03580_hihan⟧: scathing criticism\n- {辛辣|しんらつ}な⟦{意見|いけん}→意見：01303_iken⟧: harsh opinion\n- {辛辣|しんらつ}な⟦{言葉|ことば}→言葉：02880_kotoba⟧: biting words\n- {辛辣|しんらつ}な⟦{皮肉|ひにく}→皮肉：00103_hiniku⟧: biting sarcasm\n- {辛辣|しんらつ}な⟦コメント→コメント：06956_komento⟧: harsh comment\n\nSIMILAR WORDS:\n- ⟦{厳|きび}しい→厳しい：01125_kibishii⟧: strict, harsh — broader in usage and less literary\n- {痛烈|つうれつ}: devastating, severe — similar intensity but emphasizes the impact on the target\n- {手厳|てきび}しい: severe, tough — more conversational than {辛辣|しんらつ}",
   "definitions": [
     {
       "sense_number": 1,
@@ -31,7 +41,7 @@
   "examples": [
     {
       "id": "21835_shinratsu_ex1",
-      "japanese": "{辛辣|しんらつ}な{意見|いけん}だ。",
+      "japanese": "{辛辣|しんらつ}な⟦{意見|いけん}→意見：01303_iken⟧だ。",
       "english": "That's a harsh opinion.",
       "sense_numbers": [
         1
@@ -41,7 +51,7 @@
     },
     {
       "id": "21835_shinratsu_ex2",
-      "japanese": "{彼女|かのじょ}は{辛辣|しんらつ}な{批評|ひひょう}で{知|し}られている。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧{辛辣|しんらつ}な⟦{批評|ひひょう}→批評：03581_hihyou⟧⟦で→で：00502_de⟧⟦{知|し}られている→知る：00458_shiru⟧。",
       "english": "She is known for her scathing criticism.",
       "sense_numbers": [
         1
@@ -51,7 +61,7 @@
     },
     {
       "id": "21835_shinratsu_ex3",
-      "japanese": "{記者|きしゃ}が{政府|せいふ}の{対応|たいおう}を{辛辣|しんらつ}に{批判|ひはん}した。",
+      "japanese": "⟦{記者|きしゃ}→記者：14170_kisha⟧⟦が→が：00051_ga⟧⟦{政府|せいふ}→政府：03294_seifu⟧⟦の→の：09472_no⟧⟦{対応|たいおう}→対応：02510_taiou⟧⟦を→を：00422_wo⟧{辛辣|しんらつ}⟦に→に：00314_ni⟧⟦{批判|ひはん}した→批判する：21993_hihansuru⟧。",
       "english": "The journalist harshly criticized the government's response.",
       "sense_numbers": [
         1
@@ -61,7 +71,7 @@
     },
     {
       "id": "21835_shinratsu_ex4",
-      "japanese": "あの{映画|えいが}のレビューは{辛辣|しんらつ}なコメントであふれていた。",
+      "japanese": "⟦あの→あの：00915_ano⟧⟦{映画|えいが}→映画：02273_eiga⟧⟦の→の：09472_no⟧⟦レビュー→レビュー：11193_rebyuu⟧⟦は→は：00079_ha⟧{辛辣|しんらつ}な⟦コメント→コメント：06956_komento⟧⟦で→で：00502_de⟧あふれて⟦いた→いる：00495_iru⟧。",
       "english": "The reviews for that movie were full of scathing comments.",
       "sense_numbers": [
         1

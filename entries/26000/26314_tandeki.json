@@ -3,7 +3,7 @@
   "headword": "{耽溺|たんでき}",
   "reading": "たんでき",
   "romaji": "tandeki",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "indulgence; addiction; being absorbed in",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26314_tandeki_ex1",
-      "japanese": "{酒|さけ}に{耽溺|たんでき}する。",
+      "japanese": "⟦{酒|さけ}→酒：02211_sake⟧⟦に→に：00314_ni⟧{耽溺|たんでき}⟦する→する：00392_suru⟧。",
       "english": "To be addicted to alcohol.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26314_tandeki_ex2",
-      "japanese": "{快楽|かいらく}への{耽溺|たんでき}は{身|み}を{滅|ほろ}ぼす。",
+      "japanese": "⟦{快楽|かいらく}→快楽：27770_kairaku⟧⟦へ→へ：02473_he⟧⟦の→の：09472_no⟧{耽溺|たんでき}⟦は→は：00079_ha⟧⟦{身|み}→身：01764_mi⟧⟦を→を：00422_wo⟧⟦{滅|ほろ}ぼす→滅ぼす：13332_horobosu⟧。",
       "english": "Indulgence in pleasure leads to one's ruin.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26314_tandeki_ex3",
-      "japanese": "{彼|かれ}は{若|わか}い{頃|ころ}ギャンブルに{耽溺|たんでき}し、{多額|たがく}の{借金|しゃっきん}を{抱|かか}えることになった。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{若|わか}い{頃|ころ}⟦ギャンブル→ギャンブル：10811_gyanburu⟧⟦に→に：00314_ni⟧{耽溺|たんでき}し、⟦{多額|たがく}→多額：12309_tagaku⟧⟦の→の：09472_no⟧⟦{借金|しゃっきん}→借金：03203_shakkin⟧⟦を→を：00422_wo⟧⟦{抱|かか}える→抱える：02031_kakaeru⟧ことになった。",
       "english": "In his youth he was addicted to gambling and ended up with a huge amount of debt.",
       "sense_numbers": [
         1
@@ -44,8 +44,30 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {耽|たん} (indulge, be absorbed in) and {溺|でき} (drown, be infatuated). The two characters together paint a vivid picture of drowning in indulgence. This is a literary, somewhat formal word that appears in essays, novels, and cultural criticism rather than casual conversation.\n\nCOMMON COLLOCATIONS:\n- {酒|さけ}に{耽溺|たんでき}する: to be addicted to alcohol\n- {快楽|かいらく}に{耽溺|たんでき}する: to indulge in pleasure\n- {耽溺|たんでき}{的|てき}な{生活|せいかつ}: a dissipated lifestyle\n- ギャンブルに{耽溺|たんでき}する: to be addicted to gambling\n\nSIMILAR WORDS:\n- {中毒|ちゅうどく}: addiction — more clinical and modern; used for substance addiction and figurative \"addictions\"\n- {溺|おぼ}れる: to drown in; to be infatuated with — more colloquial and versatile\n- {耽|ふけ}る: to be absorbed in; to indulge in — can be neutral or positive, unlike {耽溺|たんでき} which is almost always negative\n- {依存|いぞん}: dependence; addiction — the standard modern term for clinical addiction",
-  "cross_references": [],
+  "notes": "Composed of {耽|たん} (indulge, be absorbed in) and {溺|でき} (drown, be infatuated). The two characters together paint a vivid picture of drowning in indulgence. This is a literary, somewhat formal word that appears in essays, novels, and cultural criticism rather than casual conversation.\n\nCOMMON COLLOCATIONS:\n- ⟦{酒|さけ}→酒：02211_sake⟧⟦に→に：00314_ni⟧{耽溺|たんでき}⟦する→する：00392_suru⟧: to be addicted to alcohol\n- ⟦{快楽|かいらく}→快楽：27770_kairaku⟧⟦に→に：00314_ni⟧{耽溺|たんでき}⟦する→する：00392_suru⟧: to indulge in pleasure\n- {耽溺|たんでき}⟦{的|てき}→〜的：09839_teki⟧な⟦{生活|せいかつ}→生活：01443_seikatsu⟧: a dissipated lifestyle\n- ⟦ギャンブル→ギャンブル：10811_gyanburu⟧⟦に→に：00314_ni⟧{耽溺|たんでき}⟦する→する：00392_suru⟧: to be addicted to gambling\n\nSIMILAR WORDS:\n- ⟦{中毒|ちゅうどく}→中毒：16558_chuudoku⟧: addiction — more clinical and modern; used for substance addiction and figurative \"addictions\"\n- ⟦{溺|おぼ}れる→溺れる：02026_oboreru⟧: to drown in; to be infatuated with — more colloquial and versatile\n- {耽|ふけ}る: to be absorbed in; to indulge in — can be neutral or positive, unlike {耽溺|たんでき} which is almost always negative\n- ⟦{依存|いぞん}→依存：11441_izon⟧: dependence; addiction — the standard modern term for clinical addiction",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16558_chuudoku",
+      "reading": "ちゅうどく",
+      "headword": "{中毒|ちゅうどく}",
+      "label": "addiction"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02026_oboreru",
+      "reading": "おぼれる",
+      "headword": "{溺|おぼ}れる",
+      "label": "to drown in"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11441_izon",
+      "reading": "いぞん",
+      "headword": "{依存|いぞん}",
+      "label": "dependence"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -54,6 +76,7 @@
         "noun",
         "verb-suru"
       ],
+      "politeness": "plain",
       "semantic": [
         "emotion",
         "health"
@@ -61,7 +84,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-30T16:20:33Z",
-    "modified": "2026-04-30T16:20:33Z"
+    "modified": "2026-09-02T04:02:25Z"
   },
   "conjugation": {
     "type": "suru",

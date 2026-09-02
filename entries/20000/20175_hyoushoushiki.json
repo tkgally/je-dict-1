@@ -15,40 +15,80 @@
   "examples": [
     {
       "id": "20175_hyoushoushiki_ex1",
-      "japanese": "{表彰式|ひょうしょうしき}に{出席|しゅっせき}する。",
+      "japanese": "{表彰式|ひょうしょうしき}⟦に→に：00314_ni⟧⟦{出席|しゅっせき}する→出席する：01830_shussekisuru⟧。",
       "english": "To attend an award ceremony.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20175_hyoushoushiki_ex2",
-      "japanese": "{表彰式|ひょうしょうしき}で{金|きん}メダルを{授与|じゅよ}された。",
+      "japanese": "{表彰式|ひょうしょうしき}⟦で→で：00502_de⟧⟦{金|きん}メダル→金メダル：20781_kinmedaru⟧⟦を→を：00422_wo⟧⟦{授与|じゅよ}→授与：12900_juyo⟧⟦された→する：00392_suru⟧。",
       "english": "A gold medal was awarded at the ceremony.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20175_hyoushoushiki_ex3",
-      "japanese": "{大会|たいかい}の{最後|さいご}に{表彰式|ひょうしょうしき}が{行|おこな}われ、{優勝者|ゆうしょうしゃ}にトロフィーが{贈|おく}られた。",
+      "japanese": "⟦{大会|たいかい}→大会：03386_taikai⟧⟦の→の：09472_no⟧⟦{最後|さいご}→最後：01413_saigo⟧⟦に→に：00314_ni⟧{表彰式|ひょうしょうしき}⟦が→が：00051_ga⟧⟦{行|おこな}われ→行う：01238_okonau⟧、⟦{優勝者|ゆうしょうしゃ}→優勝者：21822_yuushousha⟧⟦に→に：00314_ni⟧トロフィー⟦が→が：00051_ga⟧⟦{贈|おく}られた→贈る：09862_okuru⟧。",
       "english": "An award ceremony was held at the end of the tournament, and the champion was presented with a trophy.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {表彰|ひょうしょう} (commendation, public recognition) and {式|しき} (ceremony). {表彰|ひょうしょう} itself combines {表|ひょう} (express, show) and {彰|しょう} (make clear, praise).\n\nCOMMON COLLOCATIONS:\n- {表彰式|ひょうしょうしき}を{行|おこな}う — to hold an award ceremony\n- {表彰式|ひょうしょうしき}に{出席|しゅっせき}する — to attend an award ceremony\n- {表彰|ひょうしょう}{台|だい} — award podium\n- {表彰状|ひょうしょうじょう} — certificate of commendation\n\nSIMILAR WORDS:\n- {授賞式|じゅしょうしき} — prize-giving ceremony (specifically for prizes)\n- {卒業式|そつぎょうしき} — graduation ceremony\n- {式典|しきてん} — ceremony (more general, formal)",
+  "notes": "A compound of ⟦{表彰|ひょうしょう}→表彰：17400_hyoushou⟧ (commendation, public recognition) and {式|しき} (ceremony). ⟦{表彰|ひょうしょう}→表彰：17400_hyoushou⟧ itself combines ⟦{表|ひょう}→表：19354_hyou⟧ (express, show) and {彰|しょう} (make clear, praise).\n\nCOMMON COLLOCATIONS:\n- {表彰式|ひょうしょうしき}⟦を→を：00422_wo⟧⟦{行|おこな}う→行う：01238_okonau⟧ — to hold an award ceremony\n- {表彰式|ひょうしょうしき}⟦に→に：00314_ni⟧⟦{出席|しゅっせき}する→出席する：01830_shussekisuru⟧ — to attend an award ceremony\n- ⟦{表彰|ひょうしょう}{台|だい}→表彰台：19240_hyoushoudai⟧ — award podium\n- ⟦{表彰状|ひょうしょうじょう}→表彰状：30676_hyoushoujou⟧ — certificate of commendation\n\nSIMILAR WORDS:\n- {授賞式|じゅしょうしき} — prize-giving ceremony (specifically for prizes)\n- ⟦{卒業式|そつぎょうしき}→卒業式：05584_sotsugyoushiki⟧ — graduation ceremony\n- ⟦{式典|しきてん}→式典：09526_shikiten⟧ — ceremony (more general, formal)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05584_sotsugyoushiki",
+      "reading": "そつぎょうしき",
+      "headword": "{卒業式|そつぎょうしき}",
+      "label": "graduation ceremony"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09526_shikiten",
+      "reading": "しきてん",
+      "headword": "{式典|しきてん}",
+      "label": "ceremony"
+    },
+    {
+      "type": "related",
+      "target_id": "19240_hyoushoudai",
+      "reading": "ひょうしょうだい",
+      "headword": "{表彰台|ひょうしょうだい}",
+      "label": "victory podium"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24267_jushoushiki",
+      "reading": "じゅしょうしき",
+      "headword": "{受賞式|じゅしょうしき}",
+      "label": "award ceremony"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["event"]
+      "semantic": [
+        "event"
+      ]
     },
     "created": "2026-03-28T15:12:49Z",
-    "modified": "2026-03-28T15:12:49Z"
+    "modified": "2026-09-02T04:01:58Z"
   }
 }

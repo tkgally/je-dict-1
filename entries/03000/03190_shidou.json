@@ -2,7 +2,7 @@
   "id": "03190_shidou",
   "headword": "{指導|しどう}",
   "reading": "しどう",
-  "part_of_speech": "noun, suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "guidance, leadership, coaching",
   "conjugation": {
     "type": "suru",
@@ -169,10 +169,67 @@
     }
   ],
   "notes": "{指導|しどう} refers to guidance, instruction, or leadership, typically in educational or professional contexts.\n\nCOMMON PATTERNS:\n- {指導|しどう}⟦する→する：00392_suru⟧ (to guide, to instruct)\n- {指導|しどう}⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧ (to receive guidance)\n- {指導|しどう}⟦に→に：00314_ni⟧⟦{当|あ}たる→当たる：01860_ataru⟧ (to be in charge of instruction)\n- 〜⟦の→の：09472_no⟧{指導|しどう}⟦の→の：09472_no⟧⟦もとで→元：03878_moto⟧ (under the guidance of ~)\n\nCOMMON COLLOCATIONS:\n- {指導|しどう}⟦{者|しゃ}→〜者：04662_sha⟧ (leader, instructor)\n- {指導|しどう}⟦{教員|きょういん}→教員：12942_kyouin⟧ (supervising teacher)\n- {指導|しどう}{力|りょく} (leadership ability)\n- ⟦{技術|ぎじゅつ}→技術：01389_gijutsu⟧{指導|しどう} (technical guidance)\n- ⟦{生活|せいかつ}→生活：01443_seikatsu⟧{指導|しどう} (lifestyle guidance/counseling)\n\nSIMILAR WORDS:\n- {指導|しどう}: guidance, instruction (broader, includes teaching and leading)\n- ⟦{教育|きょういく}→教育：01313_kyouiku⟧: education (formal teaching)\n- ⟦リーダーシップ→リーダーシップ：09596_riidaashippu⟧: leadership (general leadership quality)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01313_kyouiku",
+      "reading": "きょういく",
+      "headword": "{教育|きょういく}",
+      "label": "education"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09596_riidaashippu",
+      "reading": "りーだーしっぷ",
+      "headword": "リーダーシップ",
+      "label": "leadership"
+    },
+    {
+      "type": "related",
+      "target_id": "10034_kuntou",
+      "reading": "くんとう",
+      "headword": "{薫陶|くんとう}",
+      "label": "education, influence, cultivation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11406_shudou",
+      "reading": "しゅどう",
+      "headword": "{主導|しゅどう}",
+      "label": "leadership, taking the lead"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15660_tehodoki",
+      "reading": "てほどき",
+      "headword": "{手|て}ほどき",
+      "label": "initiation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18613_oshiemichibiku",
+      "reading": "おしえみちびく",
+      "headword": "{教|おし}え{導|みちび}く",
+      "label": "to teach and guide"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21986_kantokusuru",
+      "reading": "かんとくする",
+      "headword": "{監督|かんとく}する",
+      "label": "to supervise"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22653_sendou",
+      "reading": "せんどう",
+      "headword": "{先導|せんどう}",
+      "label": "guidance"
+    }
+  ],
   "metadata": {
     "created": "2026-01-11T13:40:30Z",
-    "modified": "2026-05-24T13:38:45Z",
+    "modified": "2026-09-02T04:00:52Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -189,7 +246,8 @@
         "education",
         "work"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

@@ -15,38 +15,73 @@
   "examples": [
     {
       "id": "24509_furansugo_ex1",
-      "japanese": "フランス{語|ご}を{習|なら}っている。",
+      "japanese": "フランス{語|ご}⟦を→を：00422_wo⟧⟦{習|なら}っている→習う：00479_narau⟧。",
       "english": "I'm learning French.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "24509_furansugo_ex2",
-      "japanese": "{大学|だいがく}で{第二外国語|だいにがいこくご}としてフランス{語|ご}を{選|えら}んだ。",
+      "japanese": "⟦{大学|だいがく}→大学：00608_daigaku⟧⟦で→で：00502_de⟧{第二外国語|だいにがいこくご}⟦として→として：06802_toshite⟧フランス{語|ご}⟦を→を：00422_wo⟧⟦{選|えら}んだ→選ぶ：00835_erabu⟧。",
       "english": "I chose French as my second foreign language at university.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "24509_furansugo_ex3",
-      "japanese": "フランス{語|ご}は{発音|はつおん}が{難|むずか}しいと{言|い}われているが、{文法|ぶんぽう}は{英語|えいご}と{共通点|きょうつうてん}が{多|おお}い。",
+      "japanese": "フランス{語|ご}⟦は→は：00079_ha⟧⟦{発音|はつおん}→発音：01698_hatsuon⟧⟦が→が：00051_ga⟧⟦{難|むずか}しい→難しい：00517_muzukashii⟧⟦と→と：00512_to⟧⟦{言|い}われている→言う：00515_iu⟧⟦が→が：00051_ga⟧、⟦{文法|ぶんぽう}→文法：01506_bunpou⟧⟦は→は：00079_ha⟧⟦{英語|えいご}→英語：02274_eigo⟧⟦と→と：00512_to⟧⟦{共通点|きょうつうてん}→共通点：03051_kyoutsuuten⟧⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "French is said to have difficult pronunciation, but its grammar has many points in common with English.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Follows the standard pattern for language names in Japanese: country/region name + {語|ご}. French is one of the most popular second foreign languages studied at Japanese universities, alongside German and Chinese.\n\nCOMMON COLLOCATIONS:\n- フランス{語|ご}を{話|はな}す: to speak French\n- フランス{語|ご}を{勉強|べんきょう}する: to study French\n- フランス{語|ご}の{授業|じゅぎょう}: French class\n- フランス{語|ご}{圏|けん}: Francophone area\n- フランス{語|ご}{検定|けんてい}: French proficiency test (commonly called {仏検|ふつけん})\n\nSIMILAR WORDS:\n- {仏語|ふつご}: French language (abbreviated form, used in academic and formal contexts)\n- {英語|えいご}: English language\n- {独語|どくご}: German language",
+  "notes": "Follows the standard pattern for language names in Japanese: country/region name + ⟦{語|ご}→〜語：09841_go⟧. French is one of the most popular second foreign languages studied at Japanese universities, alongside German and Chinese.\n\nCOMMON COLLOCATIONS:\n- フランス{語|ご}⟦を→を：00422_wo⟧⟦{話|はな}す→話す：00467_hanasu⟧: to speak French\n- フランス{語|ご}⟦を→を：00422_wo⟧⟦{勉強|べんきょう}する→勉強する：00527_benkyousuru⟧: to study French\n- フランス{語|ご}⟦の→の：09472_no⟧⟦{授業|じゅぎょう}→授業：00781_jugyou⟧: French class\n- フランス{語|ご}⟦{圏|けん}→圏：21183_ken⟧: Francophone area\n- フランス{語|ご}⟦{検定|けんてい}→検定：13131_kentei⟧: French proficiency test (commonly called {仏検|ふつけん})\n\nSIMILAR WORDS:\n- {仏語|ふつご}: French language (abbreviated form, used in academic and formal contexts)\n- ⟦{英語|えいご}→英語：02274_eigo⟧: English language\n- {独語|どくご}: German language",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02274_eigo",
+      "reading": "えいご",
+      "headword": "{英語|えいご}",
+      "label": "English language"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25980_supeingo",
+      "reading": "すぺいんご",
+      "headword": "スペイン{語|ご}",
+      "label": "Spanish language"
+    },
+    {
+      "type": "related",
+      "target_id": "28074_doitsugo",
+      "reading": "どいつご",
+      "headword": "ドイツ{語|ご}",
+      "label": "German"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["language", "education"]
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "language",
+        "education"
+      ]
     },
     "created": "2026-04-19T13:04:21Z",
-    "modified": "2026-04-19T13:04:21Z"
+    "modified": "2026-09-02T04:02:18Z"
   }
 }

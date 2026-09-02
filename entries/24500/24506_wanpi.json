@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24506_wanpi_ex1",
-      "japanese": "{新|あたら}しいワンピを{買|か}った。",
+      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧ワンピ⟦を→を：00422_wo⟧⟦{買|か}った→買う：00489_kau⟧。",
       "english": "I bought a new dress.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24506_wanpi_ex2",
-      "japanese": "{今日|きょう}は{花柄|はながら}のワンピにした。",
+      "japanese": "⟦{今日|きょう}→今日：00496_kyou⟧⟦は→は：00079_ha⟧⟦{花柄|はながら}→花柄：26238_hanagara⟧⟦の→の：09472_no⟧ワンピにした。",
       "english": "I went with a floral dress today.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24506_wanpi_ex3",
-      "japanese": "デートだからかわいいワンピを{着|き}て{行|い}こうと{思|おも}う。",
+      "japanese": "⟦デート→デート：03861_deeto⟧だ⟦から→から：00504_kara⟧⟦かわいい→かわいい：00857_kawaii⟧ワンピ⟦を→を：00422_wo⟧⟦{着|き}て→着る：00541_kiru⟧⟦{行|い}こう→行く：00119_iku⟧⟦と→と：00512_to⟧⟦{思|おも}う→思う：00492_omou⟧。",
       "english": "Since it's a date, I'm thinking of wearing a cute dress.",
       "sense_numbers": [
         1
@@ -44,19 +44,36 @@
       "notes": null
     }
   ],
-  "notes": "A clipped form of ワンピース (one-piece), itself a Japanese-English word that refers specifically to dresses. In English, \"one-piece\" typically means a swimsuit, but in Japanese fashion, ワンピース and its abbreviation ワンピ always refer to dresses.\n\nThis abbreviation is casual and used mainly among young women in everyday conversation and fashion contexts. The full form ワンピース is used in more neutral or written contexts.\n\nCOMMON COLLOCATIONS:\n- ワンピを{着|き}る: to wear a dress\n- {夏|なつ}ワンピ: summer dress\n- {花柄|はながら}ワンピ: floral dress\n- ワンピコーデ: dress outfit/coordination\n\nRELATED TERMS:\n- ワンピース: one-piece; dress (full form)\n- ドレス: dress (loanword; often implies more formal attire)\n- スカート: skirt",
+  "notes": "A clipped form of ワンピース (one-piece), itself a Japanese-English word that refers specifically to dresses. In English, \"one-piece\" typically means a swimsuit, but in Japanese fashion, ワンピース and its abbreviation ワンピ always refer to dresses.\n\nThis abbreviation is casual and used mainly among young women in everyday conversation and fashion contexts. The full form ワンピース is used in more neutral or written contexts.\n\nCOMMON COLLOCATIONS:\n- ワンピ⟦を→を：00422_wo⟧⟦{着|き}る→着る：00541_kiru⟧: to wear a dress\n- ⟦{夏|なつ}→夏：02236_natsu⟧ワンピ: summer dress\n- ⟦{花柄|はながら}→花柄：26238_hanagara⟧ワンピ: floral dress\n- ワンピ⟦コーデ→コーデ：17567_koode⟧: dress outfit/coordination\n\nRELATED WORDS:\n- ワンピース: one-piece; dress (full form)\n- ⟦ドレス→ドレス：00037_doresu⟧: dress (loanword; often implies more formal attire)\n- ⟦スカート→スカート：01060_sukaato⟧: skirt",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "00037_doresu",
+      "reading": "どれす",
+      "headword": "ドレス",
+      "label": "dress (loanword"
+    },
+    {
+      "type": "related",
+      "target_id": "01060_sukaato",
+      "reading": "すかーと",
+      "headword": "スカート",
+      "label": "skirt"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "clothing"
       ]
     },
     "created": "2026-04-19T12:38:08Z",
-    "modified": "2026-08-03T09:22:27Z"
+    "modified": "2026-09-02T04:02:18Z"
   }
 }

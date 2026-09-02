@@ -15,31 +15,53 @@
   "examples": [
     {
       "id": "21531_appakukan_ex1",
-      "japanese": "この{部屋|へや}は{圧迫感|あっぱくかん}がある。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{部屋|へや}→部屋：00507_heya⟧⟦は→は：00079_ha⟧{圧迫感|あっぱくかん}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "This room feels oppressive.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21531_appakukan_ex2",
-      "japanese": "{天井|てんじょう}が{低|ひく}くて{圧迫感|あっぱくかん}を{感|かん}じる。",
+      "japanese": "⟦{天井|てんじょう}→天井：05008_tenjou⟧⟦が→が：00051_ga⟧⟦{低|ひく}くて→低い：02947_hikui⟧{圧迫感|あっぱくかん}⟦を→を：00422_wo⟧⟦{感|かん}じる→感じる：02044_kanjiru⟧。",
       "english": "The ceiling is low and it feels confining.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21531_appakukan_ex3",
-      "japanese": "{白|しろ}い{壁|かべ}にすると{圧迫感|あっぱくかん}が{軽減|けいげん}される。",
+      "japanese": "⟦{白|しろ}い→白い：00587_shiroi⟧⟦{壁|かべ}→壁：01290_kabe⟧⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧⟦と→と：00512_to⟧{圧迫感|あっぱくかん}⟦が→が：00051_ga⟧⟦{軽減|けいげん}される→軽減する：25372_keigensuru⟧。",
       "english": "Using white walls reduces the feeling of being closed in.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Compound of {圧迫|あっぱく} (pressure, oppression) + {感|かん} (feeling, sense). Frequently used in interior design and architecture discussions when evaluating how spaces feel.\n\nCOMMON COLLOCATIONS:\n- {圧迫感|あっぱくかん}がある: to feel oppressive/confining\n- {圧迫感|あっぱくかん}を{感|かん}じる: to feel a sense of pressure\n- {圧迫感|あっぱくかん}が{少|すく}ない: not very imposing\n- {圧迫感|あっぱくかん}を{軽減|けいげん}する: to reduce the oppressive feeling\n- {圧迫感|あっぱくかん}のない: free from pressure, open-feeling\n\nCONTEXTS:\n- Interior design: describing rooms, furniture, and layouts\n- Medical: chest tightness or pressure symptoms\n- Interpersonal: the imposing presence of a person\n\nRELATED TERMS:\n- {圧迫|あっぱく}: pressure, oppression — the base noun without the \"feeling\" nuance\n- {開放感|かいほうかん}: sense of openness — the opposite sensation\n- {閉塞感|へいそくかん}: feeling of being blocked/stagnant — more psychological",
+  "notes": "Compound of ⟦{圧迫|あっぱく}→圧迫：12013_appaku⟧ (pressure, oppression) + ⟦{感|かん}→〜感：28578_kan⟧ (feeling, sense). Frequently used in interior design and architecture discussions when evaluating how spaces feel.\n\nCOMMON COLLOCATIONS:\n- {圧迫感|あっぱくかん}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧: to feel oppressive/confining\n- {圧迫感|あっぱくかん}⟦を→を：00422_wo⟧⟦{感|かん}じる→感じる：02044_kanjiru⟧: to feel a sense of pressure\n- {圧迫感|あっぱくかん}⟦が→が：00051_ga⟧⟦{少|すく}ない→少ない：01136_sukunai⟧: not very imposing\n- {圧迫感|あっぱくかん}⟦を→を：00422_wo⟧⟦{軽減|けいげん}する→軽減する：25372_keigensuru⟧: to reduce the oppressive feeling\n- {圧迫感|あっぱくかん}⟦の→の：09472_no⟧⟦ない→ない：01118_nai⟧: free from pressure, open-feeling\n\nUSAGE:\n- Interior design: describing rooms, furniture, and layouts\n- Medical: chest tightness or pressure symptoms\n- Interpersonal: the imposing presence of a person\n\nRELATED WORDS:\n- ⟦{圧迫|あっぱく}→圧迫：12013_appaku⟧: pressure, oppression — the base noun without the \"feeling\" nuance\n- ⟦{開放感|かいほうかん}→開放感：16233_kaihoukan⟧: sense of openness — the opposite sensation\n- ⟦{閉塞感|へいそくかん}→閉塞感：18836_heisokukan⟧: feeling of being blocked/stagnant — more psychological",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "16233_kaihoukan",
+      "reading": "かいほうかん",
+      "headword": "{開放感|かいほうかん}",
+      "label": "sense of openness"
+    },
+    {
+      "type": "related",
+      "target_id": "18836_heisokukan",
+      "reading": "へいそくかん",
+      "headword": "{閉塞感|へいそくかん}",
+      "label": "feeling of being blocked/stagnant"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -54,6 +76,6 @@
       ]
     },
     "created": "2026-04-02T15:22:52Z",
-    "modified": "2026-04-02T15:22:52Z"
+    "modified": "2026-09-02T04:02:04Z"
   }
 }

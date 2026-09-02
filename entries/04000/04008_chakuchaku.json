@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "PATTERN: {着々|ちゃくちゃく}と + verb (usually ⟦{進|すす}む→進む：01225_susumu⟧)\n\nNUANCE: Implies reliable, methodical progress - neither too fast nor too slow. Often used positively to describe projects or preparations.\n\nCOMMON COLLOCATIONS:\n・{着々|ちゃくちゃく}と⟦{進|すす}む→進む：01225_susumu⟧ (to progress steadily)\n・{着々|ちゃくちゃく}と⟦{準備|じゅんび}→準備：01431_junbi⟧⟦する→する：00392_suru⟧ (to prepare steadily)\n・{着々|ちゃくちゃく}と⟦{力|ちから}→力：01661_chikara⟧⟦を→を：00422_wo⟧⟦つける→付ける：00761_tsukeru⟧ (to steadily gain strength)\n\nSIMILAR EXPRESSIONS:\n・⟦{徐々|じょじょ}に→徐々に：04131_jojoni⟧ (gradually - slower pace)\n・⟦{順調|じゅんちょう}→順調：03282_junchou⟧に (smoothly - emphasizes no problems)\n・⟦{確実|かくじつ}→確実：02538_kakujitsu⟧に (certainly, reliably)",
+  "notes": "PATTERN: {着々|ちゃくちゃく}⟦と→と：00512_to⟧ + verb (usually ⟦{進|すす}む→進む：01225_susumu⟧)\n\nNUANCE: Implies reliable, methodical progress - neither too fast nor too slow. Often used positively to describe projects or preparations.\n\nCOMMON COLLOCATIONS:\n- {着々|ちゃくちゃく}⟦と→と：00512_to⟧⟦{進|すす}む→進む：01225_susumu⟧ (to progress steadily)\n- {着々|ちゃくちゃく}⟦と→と：00512_to⟧⟦{準備|じゅんび}→準備：01431_junbi⟧⟦する→する：00392_suru⟧ (to prepare steadily)\n- {着々|ちゃくちゃく}⟦と→と：00512_to⟧⟦{力|ちから}→力：01661_chikara⟧⟦を→を：00422_wo⟧⟦つける→付ける：00761_tsukeru⟧ (to steadily gain strength)\n\nSIMILAR WORDS:\n- ⟦{徐々|じょじょ}に→徐々に：04131_jojoni⟧ (gradually - slower pace)\n- ⟦{順調|じゅんちょう}→順調：03282_junchou⟧⟦に→に：00314_ni⟧ (smoothly - emphasizes no problems)\n- ⟦{確実|かくじつ}→確実：02538_kakujitsu⟧⟦に→に：00314_ni⟧ (certainly, reliably)",
   "cross_references": [
     {
       "type": "related",
@@ -51,11 +51,25 @@
       "headword": "{徐々|じょじょ}に",
       "label": "gradually",
       "target_id": "04131_jojoni"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03282_junchou",
+      "reading": "じゅんちょう",
+      "headword": "{順調|じゅんちょう}",
+      "label": "smoothly"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02538_kakujitsu",
+      "reading": "かくじつ",
+      "headword": "{確実|かくじつ}",
+      "label": "certainly, reliably"
     }
   ],
   "metadata": {
     "created": "2026-01-13T07:50:37Z",
-    "modified": "2026-05-28T17:10:48Z",
+    "modified": "2026-09-02T04:01:04Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

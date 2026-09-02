@@ -54,7 +54,7 @@
     },
     {
       "id": "01772_ayamari_ex5",
-      "japanese": "⟦{同|おな}じ→同じ：02857_onaji⟧{誤|あやま}り⟦を→を：00422_wo⟧⟦{繰|く}り{返|かえ}さないように→繰り返す：02051_kurikaesu⟧、⟦{原因|げんいん}→原因：01400_genin⟧⟦を→を：00422_wo⟧しっかり⟦{調|しら}べた→調べる：01213_shiraberu⟧。",
+      "japanese": "⟦{同|おな}じ→同じ：02857_onaji⟧{誤|あやま}り⟦を→を：00422_wo⟧⟦{繰|く}り{返|かえ}さないように→繰り返す：02051_kurikaesu⟧、⟦{原因|げんいん}→原因：01400_genin⟧⟦を→を：00422_wo⟧⟦しっかり→しっかり：01272_shikkari⟧⟦{調|しら}べた→調べる：01213_shiraberu⟧。",
       "english": "To avoid repeating the same mistake, I thoroughly investigated the cause.",
       "notes": null,
       "has_audio": false,
@@ -71,11 +71,60 @@
       "reading": "まちがい",
       "headword": "{間違|まちが}い",
       "label": "mistake (everyday)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00285_misu",
+      "reading": "みす",
+      "headword": "ミス",
+      "label": "mistake (loanword, casual"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14376_ayamachi",
+      "reading": "あやまち",
+      "headword": "{過|あやま}ち",
+      "label": "mistake, fault"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00194_kashitsu",
+      "reading": "かしつ",
+      "headword": "{過失|かしつ}",
+      "label": "error"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02769_gokai",
+      "reading": "ごかい",
+      "headword": "{誤解|ごかい}",
+      "label": "misunderstanding, misconception"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15641_fuseikaku",
+      "reading": "ふせいかく",
+      "headword": "{不正確|ふせいかく}",
+      "label": "inaccurate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18929_fuseikai",
+      "reading": "ふせいかい",
+      "headword": "{不正解|ふせいかい}",
+      "label": "incorrect answer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27142_sakugo",
+      "reading": "さくご",
+      "headword": "{錯誤|さくご}",
+      "label": "error"
     }
   ],
   "metadata": {
     "created": "2026-01-09T12:15:00Z",
-    "modified": "2026-05-16T22:11:50Z",
+    "modified": "2026-09-02T04:01:00Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "core",
     "tags": {

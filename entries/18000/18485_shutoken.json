@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "18485_shutoken_ex1",
-      "japanese": "{首都圏|しゅとけん}に{住|す}んでいる。",
+      "japanese": "{首都圏|しゅとけん}⟦に→に：00314_ni⟧⟦{住|す}んでいる→住む：00673_sumu⟧。",
       "english": "I live in the Tokyo metropolitan area.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "18485_shutoken_ex2",
-      "japanese": "{首都圏|しゅとけん}の{電車|でんしゃ}は{朝|あさ}のラッシュがひどい。",
+      "japanese": "{首都圏|しゅとけん}⟦の→の：09472_no⟧⟦{電車|でんしゃ}→電車：00522_densha⟧⟦は→は：00079_ha⟧⟦{朝|あさ}→朝：02277_asa⟧⟦の→の：09472_no⟧⟦ラッシュ→ラッシュ：11221_rasshu⟧⟦が→が：00051_ga⟧⟦ひどい→ひどい：01097_hidoi⟧。",
       "english": "The morning rush on trains in the greater Tokyo area is terrible.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "18485_shutoken_ex3",
-      "japanese": "{台風|たいふう}の{影響|えいきょう}で{首都圏|しゅとけん}の{交通機関|こうつうきかん}が{大幅|おおはば}に{乱|みだ}れた。",
+      "japanese": "⟦{台風|たいふう}→台風：01455_taifuu⟧⟦の→の：09472_no⟧⟦{影響|えいきょう}→影響：01877_eikyou⟧⟦で→で：00502_de⟧{首都圏|しゅとけん}⟦の→の：09472_no⟧⟦{交通機関|こうつうきかん}→交通機関：21264_koutsuukikan⟧⟦が→が：00051_ga⟧⟦{大幅|おおはば}→大幅：12170_oohaba⟧⟦に→に：00314_ni⟧⟦{乱|みだ}れた→乱れる：09506_midareru⟧。",
       "english": "Transportation in the Tokyo metropolitan area was severely disrupted due to the typhoon.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "Frequently appears in news and weather forecasts. The formal definition under the Capital Region Development Act includes Tokyo and seven surrounding prefectures. In everyday use, it often refers more narrowly to Tokyo and the three adjacent prefectures ({神奈川|かながわ}, {埼玉|さいたま}, {千葉|ちば}). Related terms: {関東|かんとう} (the Kanto region, a broader geographical term), {都心|としん} (central Tokyo), {近畿圏|きんきけん} (Kinki/Kansai metropolitan area).",
+  "notes": "Frequently appears in news and weather forecasts. The formal definition under the Capital Region Development Act includes Tokyo and seven surrounding prefectures. In everyday use, it often refers more narrowly to Tokyo and the three adjacent prefectures ({神奈川|かながわ}, {埼玉|さいたま}, {千葉|ちば}). Related terms: ⟦{関東|かんとう}→関東：00186_kantou⟧ (the Kanto region, a broader geographical term), ⟦{都心|としん}→都心：04072_toshin⟧ (central Tokyo), {近畿圏|きんきけん} (Kinki/Kansai metropolitan area).",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23665_nijuusanku",
+      "reading": "にじゅうさんく",
+      "headword": "{二十三区|にじゅうさんく}",
+      "label": "the 23 (special) wards of Tokyo"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +68,6 @@
       ]
     },
     "created": "2026-03-22T03:10:55Z",
-    "modified": "2026-05-08T10:08:08Z"
+    "modified": "2026-09-02T04:01:52Z"
   }
 }

@@ -14,30 +14,36 @@
   "examples": [
     {
       "id": "10532_yarikata_ex1",
-      "japanese": "やり{方|かた}を{教|おし}えてください。",
+      "japanese": "やり{方|かた}⟦を→を：00422_wo⟧⟦{教|おし}えて→教える：00526_oshieru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please teach me how to do it.",
       "has_audio": false,
       "notes": null,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10532_yarikata_ex2",
-      "japanese": "この{機械|きかい}のやり{方|かた}が{分|わ}からない。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{機械|きかい}→機械：02366_kikai⟧⟦の→の：09472_no⟧やり{方|かた}⟦が→が：00051_ga⟧⟦{分|わ}からない→分かる：00463_wakaru⟧。",
       "english": "I don't understand how to use this machine.",
       "has_audio": false,
       "notes": null,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10532_yarikata_ex3",
-      "japanese": "{古|ふる}いやり{方|かた}を{変|か}えて、{新|あたら}しい{方法|ほうほう}を{試|ため}してみよう。",
+      "japanese": "⟦{古|ふる}い→古い：00488_furui⟧やり{方|かた}⟦を→を：00422_wo⟧⟦{変|か}えて→変える：01089_kaeru⟧、⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦{方法|ほうほう}→方法：03621_houhou⟧⟦を→を：00422_wo⟧⟦{試|ため}して→試す：02130_tamesu⟧みよう。",
       "english": "Let's change the old way of doing things and try a new method.",
       "has_audio": false,
       "notes": null,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "やり{方|かた} is formed from やる (to do) + {方|かた} (way). It is one of the most common ~{方|かた} compounds.\n\nSIMILAR WORDS:\n- {方法|ほうほう}: method (more formal, written)\n- {仕方|しかた}: way of doing (slightly more formal)\n- やり{方|かた}: way of doing (casual, everyday)\n\nCOMMON PATTERNS:\n- やり{方|かた}が{分|わ}からない (don't know how to do it)\n- やり{方|かた}を{変|か}える (change the way of doing things)\n- やり{方|かた}を{覚|おぼ}える (learn how to do something)",
+  "notes": "やり{方|かた} is formed from ⟦やる→やる：02980_yaru⟧ (to do) + ⟦{方|かた}→方：10665_kata⟧ (way). It is one of the most common ~⟦{方|かた}→方：10665_kata⟧ compounds.\n\nSIMILAR WORDS:\n- ⟦{方法|ほうほう}→方法：03621_houhou⟧: method (more formal, written)\n- ⟦{仕方|しかた}→仕方：01603_shikata⟧: way of doing (slightly more formal)\n- やり{方|かた}: way of doing (casual, everyday)\n\nCOMMON PATTERNS:\n- やり{方|かた}⟦が→が：00051_ga⟧⟦{分|わ}からない→分かる：00463_wakaru⟧ (don't know how to do it)\n- やり{方|かた}⟦を→を：00422_wo⟧⟦{変|か}える→変える：01089_kaeru⟧ (change the way of doing things)\n- やり{方|かた}⟦を→を：00422_wo⟧⟦{覚|おぼ}える→覚える：00739_oboeru⟧ (learn how to do something)",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -53,17 +59,42 @@
       "reading": "しかた",
       "headword": "{仕方|しかた}",
       "label": "slightly formal"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03219_shudan",
+      "reading": "しゅだん",
+      "headword": "{手段|しゅだん}",
+      "label": "means, way, measure"
+    },
+    {
+      "type": "related",
+      "target_id": "08081_susumekata",
+      "reading": "すすめかた",
+      "headword": "{進|すす}め{方|かた}",
+      "label": "way of proceeding"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13364_ryuugi",
+      "reading": "りゅうぎ",
+      "headword": "{流儀|りゅうぎ}",
+      "label": "style, manner, way of doing things"
     }
   ],
   "metadata": {
     "created": "2026-02-08T03:20:10Z",
-    "modified": "2026-04-24T08:14:20Z",
+    "modified": "2026-09-02T04:01:21Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

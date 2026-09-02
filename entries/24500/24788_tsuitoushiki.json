@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24788_tsuitoushiki_ex1",
-      "japanese": "{追悼式|ついとうしき}に{出席|しゅっせき}する。",
+      "japanese": "{追悼式|ついとうしき}⟦に→に：00314_ni⟧⟦{出席|しゅっせき}する→出席する：01830_shussekisuru⟧。",
       "english": "Attend a memorial service.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24788_tsuitoushiki_ex2",
-      "japanese": "{犠牲者|ぎせいしゃ}のための{追悼式|ついとうしき}が{行|おこな}われた。",
+      "japanese": "⟦{犠牲者|ぎせいしゃ}→犠牲者：18769_giseisha⟧⟦の→の：09472_no⟧⟦ため→ため：01145_tame⟧⟦の→の：09472_no⟧{追悼式|ついとうしき}⟦が→が：00051_ga⟧⟦{行|おこな}われた→行う：01238_okonau⟧。",
       "english": "A memorial service was held for the victims.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24788_tsuitoushiki_ex3",
-      "japanese": "{震災|しんさい}から{十年|じゅうねん}を{迎|むか}え、{各地|かくち}で{追悼式|ついとうしき}が{開|ひら}かれた。",
+      "japanese": "⟦{震災|しんさい}→震災：14610_shinsai⟧⟦から→から：00504_kara⟧{十年|じゅうねん}⟦を→を：00422_wo⟧⟦{迎|むか}え→迎える：01193_mukaeru⟧、⟦{各地|かくち}→各地：00155_kakuchi⟧⟦で→で：00502_de⟧{追悼式|ついとうしき}⟦が→が：00051_ga⟧⟦{開|ひら}かれた→開く：01979_hiraku⟧。",
       "english": "On the tenth anniversary of the earthquake, memorial services were held in various locations.",
       "sense_numbers": [
         1
@@ -44,14 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "A formal ceremony to mourn and honor someone who has died, often held on anniversaries of a person's death or of disasters. Distinct from a funeral ({葬儀|そうぎ}), which takes place shortly after death — a {追悼式|ついとうしき} can be held at any later date.\n\nCOMMON COLLOCATIONS:\n- {追悼式|ついとうしき}を{行|おこな}う — to hold a memorial service\n- {追悼式|ついとうしき}に{参列|さんれつ}する — to attend a memorial service\n- {合同|ごうどう}{追悼式|ついとうしき} — joint memorial service\n\nSIMILAR WORDS:\n- {追悼|ついとう} — mourning; remembrance (the act itself, without {式|しき})\n- {慰霊祭|いれいさい} — memorial rite (often for war dead or spirits)\n- {法事|ほうじ} — Buddhist memorial service (family-centered, on specific anniversaries)",
+  "notes": "A formal ceremony to mourn and honor someone who has died, often held on anniversaries of a person's death or of disasters. Distinct from a funeral (⟦{葬儀|そうぎ}→葬儀：15337_sougi⟧), which takes place shortly after death — a {追悼式|ついとうしき} can be held at any later date.\n\nCOMMON COLLOCATIONS:\n- {追悼式|ついとうしき}⟦を→を：00422_wo⟧⟦{行|おこな}う→行う：01238_okonau⟧ — to hold a memorial service\n- {追悼式|ついとうしき}⟦に→に：00314_ni⟧⟦{参列|さんれつ}→参列：11888_sanretsu⟧⟦する→する：00392_suru⟧ — to attend a memorial service\n- ⟦{合同|ごうどう}→合同：04185_goudou⟧{追悼式|ついとうしき} — joint memorial service\n\nSIMILAR WORDS:\n- ⟦{追悼|ついとう}→追悼：14312_tsuitou⟧ — mourning; remembrance (the act itself, without {式|しき})\n- ⟦{慰霊祭|いれいさい}→慰霊祭：27133_ireisai⟧ — memorial rite (often for war dead or spirits)\n- ⟦{法事|ほうじ}→法事：05634_houji⟧ — Buddhist memorial service (family-centered, on specific anniversaries)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "27133_ireisai",
+      "reading": "いれいさい",
+      "headword": "{慰霊祭|いれいさい}",
+      "label": "memorial rite"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05634_houji",
+      "reading": "ほうじ",
+      "headword": "{法事|ほうじ}",
+      "label": "Buddhist memorial service"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "culture",
         "society"
@@ -61,6 +78,6 @@
       ]
     },
     "created": "2026-04-20T16:15:44Z",
-    "modified": "2026-08-03T09:30:08Z"
+    "modified": "2026-09-02T04:02:19Z"
   }
 }

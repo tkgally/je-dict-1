@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "30693_taibunsuu_ex1",
-      "japanese": "{答|こた}えを{帯分数|たいぶんすう}で{書|か}く。",
+      "japanese": "⟦{答|こた}え→答え：00790_kotae⟧⟦を→を：00422_wo⟧{帯分数|たいぶんすう}⟦で→で：00502_de⟧⟦{書|か}く→書く：00477_kaku⟧。",
       "english": "Write the answer as a mixed number.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "30693_taibunsuu_ex2",
-      "japanese": "{帯分数|たいぶんすう}のほうが{大|おお}きさが{分|わ}かりやすい。",
+      "japanese": "{帯分数|たいぶんすう}⟦の→の：09472_no⟧ほう⟦が→が：00051_ga⟧⟦{大|おお}きさ→大きさ：10969_ookisa⟧⟦が→が：00051_ga⟧⟦{分|わ}かり→分かる：00463_wakaru⟧やすい。",
       "english": "It's easier to grasp the size when it's written as a mixed number.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "30693_taibunsuu_ex3",
-      "japanese": "{帯分数|たいぶんすう}は{整数|せいすう}の{部分|ぶぶん}と{真分数|しんぶんすう}の{部分|ぶぶん}に{分|わ}けて{考|かんが}えると{計算|けいさん}しやすい。",
+      "japanese": "{帯分数|たいぶんすう}⟦は→は：00079_ha⟧⟦{整数|せいすう}→整数：04328_seisuu⟧⟦の→の：09472_no⟧⟦{部分|ぶぶん}→部分：03715_bubun⟧⟦と→と：00512_to⟧⟦{真分数|しんぶんすう}→真分数：30691_shinbunsuu⟧⟦の→の：09472_no⟧⟦{部分|ぶぶん}→部分：03715_bubun⟧⟦に→に：00314_ni⟧⟦{分|わ}けて→分ける：02333_wakeru⟧⟦{考|かんが}える→考える：00856_kangaeru⟧⟦と→と：00512_to⟧⟦{計算|けいさん}→計算：02697_keisan⟧しやすい。",
       "english": "Mixed numbers are easier to calculate with if you think of them as a whole-number part and a proper-fraction part.",
       "sense_numbers": [
         1
@@ -43,8 +43,31 @@
       "notes": null
     }
   ],
-  "notes": "{帯|たい} (to wear, to carry alongside) + {分数|ぶんすう} (fraction): a fraction carrying a whole number with it.\n\nCOMMON COLLOCATIONS:\n- {帯分数|たいぶんすう}に{直|なお}す: to convert into a mixed number\n- {帯分数|たいぶんすう}で{表|あらわ}す: to express as a mixed number\n\nSIMILAR WORDS:\n- {仮分数|かぶんすう}: improper fraction — the same value written with a single numerator and denominator\n- {真分数|しんぶんすう}: proper fraction — the fractional part of a mixed number\n- {整数|せいすう}: whole number, integer — the part written to the left",
+  "notes": "⟦{帯|たい}→〜帯：30366_tai⟧ (to wear, to carry alongside) + ⟦{分数|ぶんすう}→分数：06952_bunsuu⟧ (fraction): a fraction carrying a whole number with it.\n\nCOMMON COLLOCATIONS:\n- {帯分数|たいぶんすう}⟦に→に：00314_ni⟧{直|なお}す: to convert into a mixed number\n- {帯分数|たいぶんすう}⟦で→で：00502_de⟧⟦{表|あらわ}す→表す：01868_arawasu⟧: to express as a mixed number\n\nSIMILAR WORDS:\n- ⟦{仮分数|かぶんすう}→仮分数：30692_kabunsuu⟧: improper fraction — the same value written with a single numerator and denominator\n- ⟦{真分数|しんぶんすう}→真分数：30691_shinbunsuu⟧: proper fraction — the fractional part of a mixed number\n- ⟦{整数|せいすう}→整数：04328_seisuu⟧: whole number, integer — the part written to the left",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "30692_kabunsuu",
+      "reading": "かぶんすう",
+      "headword": "{仮分数|かぶんすう}",
+      "label": "improper fraction"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30691_shinbunsuu",
+      "reading": "しんぶんすう",
+      "headword": "{真分数|しんぶんすう}",
+      "label": "proper fraction"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04328_seisuu",
+      "reading": "せいすう",
+      "headword": "{整数|せいすう}",
+      "label": "whole number, integer"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -52,7 +75,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "number",
         "education"
@@ -62,6 +85,6 @@
       ]
     },
     "created": "2026-08-16T06:19:38Z",
-    "modified": "2026-08-16T06:19:38Z"
+    "modified": "2026-09-02T04:02:41Z"
   }
 }

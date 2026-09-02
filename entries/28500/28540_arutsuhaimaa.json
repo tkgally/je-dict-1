@@ -15,41 +15,69 @@
   "examples": [
     {
       "id": "28540_arutsuhaimaa_ex1",
-      "japanese": "アルツハイマーと{診断|しんだん}された。",
+      "japanese": "アルツハイマー⟦と→と：00512_to⟧⟦{診断|しんだん}→診断：04209_shindan⟧⟦された→する：00392_suru⟧。",
       "english": "He was diagnosed with Alzheimer's.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28540_arutsuhaimaa_ex2",
-      "japanese": "{祖母|そぼ}はアルツハイマー{病|びょう}を{患|わずら}っている。",
+      "japanese": "⟦{祖母|そぼ}→祖母：00813_sobo⟧⟦は→は：00079_ha⟧アルツハイマー{病|びょう}⟦を→を：00422_wo⟧⟦{患|わずら}っている→患う：27883_wazurau⟧。",
       "english": "My grandmother is suffering from Alzheimer's disease.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28540_arutsuhaimaa_ex3",
-      "japanese": "アルツハイマーの{新|あたら}しい{治療薬|ちりょうやく}が{承認|しょうにん}されたというニュースを{読|よ}んだ。",
+      "japanese": "アルツハイマー⟦の→の：09472_no⟧⟦{新|あたら}しい→新しい：00506_atarashii⟧{治療薬|ちりょうやく}⟦が→が：00051_ga⟧⟦{承認|しょうにん}→承認：03237_shounin⟧⟦された→する：00392_suru⟧⟦という→という：09577_toiu⟧⟦ニュース→ニュース：04437_nyuusu⟧⟦を→を：00422_wo⟧⟦{読|よ}んだ→読む：00426_yomu⟧。",
       "english": "I read the news that a new treatment for Alzheimer's has been approved.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "From the name of German psychiatrist Alois Alzheimer. The full medical term is アルツハイマー{病|びょう} or アルツハイマー{型|がた}{認知症|にんちしょう} (\"Alzheimer's-type dementia\"); shortening to just アルツハイマー is common in everyday speech.\n\nCOMMON COLLOCATIONS:\n- アルツハイマー{病|びょう}: Alzheimer's disease\n- アルツハイマー{型|がた}{認知症|にんちしょう}: Alzheimer's-type dementia\n- アルツハイマーと{診断|しんだん}される: to be diagnosed with Alzheimer's\n- アルツハイマーの{治療|ちりょう}: treatment for Alzheimer's\n\nSIMILAR WORDS:\n- {認知症|にんちしょう}: dementia — the broader category; Alzheimer's is the most common type\n- {物忘|ものわす}れ: forgetfulness — everyday word; not a medical term and not interchangeable",
+  "notes": "From the name of German psychiatrist Alois Alzheimer. The full medical term is アルツハイマー{病|びょう} or アルツハイマー{型|がた}⟦{認知症|にんちしょう}→認知症：04419_ninchishou⟧ (\"Alzheimer's-type dementia\"); shortening to just アルツハイマー is common in everyday speech.\n\nCOMMON COLLOCATIONS:\n- アルツハイマー{病|びょう}: Alzheimer's disease\n- アルツハイマー{型|がた}⟦{認知症|にんちしょう}→認知症：04419_ninchishou⟧: Alzheimer's-type dementia\n- アルツハイマー⟦と→と：00512_to⟧⟦{診断|しんだん}→診断：04209_shindan⟧⟦される→する：00392_suru⟧: to be diagnosed with Alzheimer's\n- アルツハイマー⟦の→の：09472_no⟧⟦{治療|ちりょう}→治療：03503_chiryou⟧: treatment for Alzheimer's\n\nSIMILAR WORDS:\n- ⟦{認知症|にんちしょう}→認知症：04419_ninchishou⟧: dementia — the broader category; Alzheimer's is the most common type\n- ⟦{物忘|ものわす}れ→物忘れ：17610_monowasure⟧: forgetfulness — everyday word; not a medical term and not interchangeable",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04419_ninchishou",
+      "reading": "にんちしょう",
+      "headword": "{認知症|にんちしょう}",
+      "label": "dementia"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17610_monowasure",
+      "reading": "ものわすれ",
+      "headword": "{物忘|ものわす}れ",
+      "label": "forgetfulness"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["health"],
-      "domain": ["medical"]
+      "politeness": "plain",
+      "semantic": [
+        "health"
+      ],
+      "domain": [
+        "medical"
+      ]
     },
     "created": "2026-06-01T04:07:37Z",
-    "modified": "2026-06-01T04:07:37Z"
+    "modified": "2026-09-02T04:02:34Z"
   }
 }

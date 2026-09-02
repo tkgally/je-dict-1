@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25258_katakurushii_ex1",
-      "japanese": "{堅苦|かたくる}しい{挨拶|あいさつ}はやめよう。",
+      "japanese": "{堅苦|かたくる}しい⟦{挨拶|あいさつ}→挨拶：02505_aisatsu⟧はやめよう。",
       "english": "Let's skip the stiff formalities.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25258_katakurushii_ex2",
-      "japanese": "そんな{堅苦|かたくる}しいことを{言|い}わないで。",
+      "japanese": "⟦そんな→そんな：01645_sonna⟧{堅苦|かたくる}しいこと⟦を→を：00422_wo⟧⟦{言|い}わないで→言う：00515_iu⟧。",
       "english": "Don't be so uptight about it.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25258_katakurushii_ex3",
-      "japanese": "{堅苦|かたくる}しい{雰囲気|ふんいき}の{会議|かいぎ}だった。",
+      "japanese": "{堅苦|かたくる}しい⟦{雰囲気|ふんいき}→雰囲気：03604_funiki⟧⟦の→の：09472_no⟧⟦{会議|かいぎ}→会議：00710_kaigi⟧だった。",
       "english": "It was a stuffy, formal meeting.",
       "sense_numbers": [
         1
@@ -45,7 +45,7 @@
     },
     {
       "id": "25258_katakurushii_ex4",
-      "japanese": "{堅苦|かたくる}しくない、{気楽|きらく}な{食事会|しょくじかい}にしましょう。",
+      "japanese": "{堅苦|かたくる}しく⟦ない→ない：01118_nai⟧、⟦{気楽|きらく}→気楽：07159_kiraku⟧な⟦{食事会|しょくじかい}→食事会：23547_shokujikai⟧にしましょう。",
       "english": "Let's make it a relaxed, informal dinner party.",
       "sense_numbers": [
         1
@@ -54,7 +54,7 @@
       "notes": null
     }
   ],
-  "notes": "An i-adjective describing excessive formality that makes people feel stiff and uncomfortable. It criticizes formality as being more than what the situation calls for.\n\nCOMMON COLLOCATIONS:\n- {堅苦|かたくる}しい{挨拶|あいさつ}: stiff, formal greetings\n- {堅苦|かたくる}しい{話|はなし}: stiff talk / formal speech\n- {堅苦|かたくる}しい{雰囲気|ふんいき}: a stuffy atmosphere\n- {堅苦|かたくる}しくない: informal, relaxed\n\nSIMILAR WORDS:\n- {硬|かた}い: stiff or rigid; can describe personality but also has physical and neutral uses\n- {真面目|まじめ}すぎる: too serious; focuses on personality rather than atmosphere\n- {格式張|かくしきば}る: to stand on ceremony; describes deliberately maintaining formal protocol\n- フォーマルな: formal; neutral loanword without the negative connotation\n\nUSAGE:\nOften used when someone wants to lighten the mood or encourage others to relax, as in {堅苦|かたくる}しいことは{抜|ぬ}きにして (setting aside the formalities).",
+  "notes": "An i-adjective describing excessive formality that makes people feel stiff and uncomfortable. It criticizes formality as being more than what the situation calls for.\n\nCOMMON COLLOCATIONS:\n- {堅苦|かたくる}しい⟦{挨拶|あいさつ}→挨拶：02505_aisatsu⟧: stiff, formal greetings\n- {堅苦|かたくる}しい⟦{話|はなし}→話：01496_hanashi⟧: stiff talk / formal speech\n- {堅苦|かたくる}しい⟦{雰囲気|ふんいき}→雰囲気：03604_funiki⟧: a stuffy atmosphere\n- {堅苦|かたくる}しく⟦ない→ない：01118_nai⟧: informal, relaxed\n\nSIMILAR WORDS:\n- ⟦{硬|かた}い→硬い：01116_katai⟧: stiff or rigid; can describe personality but also has physical and neutral uses\n- ⟦{真面目|まじめ}→真面目：01206_majime⟧すぎる: too serious; focuses on personality rather than atmosphere\n- ⟦{格式張|かくしきば}る→格式張る：26878_kakushikibaru⟧: to stand on ceremony; describes deliberately maintaining formal protocol\n- ⟦フォーマル→フォーマル：11294_foomaru⟧な: formal; neutral loanword without the negative connotation\n\nUSAGE:\nOften used when someone wants to lighten the mood or encourage others to relax, as in {堅苦|かたくる}しいこと⟦は→は：00079_ha⟧⟦{抜|ぬ}き→抜き：23505_nuki⟧にして (setting aside the formalities).",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -62,13 +62,14 @@
       "pos": [
         "adjective-i"
       ],
+      "politeness": "plain",
       "semantic": [
         "descriptive",
         "communication"
       ]
     },
     "created": "2026-04-24T12:14:46Z",
-    "modified": "2026-08-11T06:31:23Z"
+    "modified": "2026-09-02T04:02:21Z"
   },
   "conjugation": {
     "type": "i-adjective",
@@ -112,6 +113,27 @@
       "headword": "{気軽|きがる}",
       "label": "casual, lighthearted",
       "target_id": "06865_kigaru"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01116_katai",
+      "reading": "かたい",
+      "headword": "{硬|かた}い",
+      "label": "stiff or rigid"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26878_kakushikibaru",
+      "reading": "かくしきばる",
+      "headword": "{格式張|かくしきば}る",
+      "label": "to stand on ceremony"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22518_kakubaru",
+      "reading": "かくばる",
+      "headword": "{角張|かくば}る",
+      "label": "to be angular"
     }
   ]
 }

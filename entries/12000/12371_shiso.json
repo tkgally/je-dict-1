@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "12371_shiso_ex1",
-      "japanese": "{柔道|じゅうどう}の{始祖|しそ}は{誰|だれ}ですか。",
+      "japanese": "⟦{柔道|じゅうどう}→柔道：01612_juudou⟧⟦の→の：09472_no⟧{始祖|しそ}⟦は→は：00079_ha⟧⟦{誰|だれ}→誰：00534_dare⟧です⟦か→か：09473_ka⟧。",
       "english": "Who is the founder of judo?",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12371_shiso_ex2",
-      "japanese": "{彼|かれ}はこの{流派|りゅうは}の{始祖|しそ}とされている。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦この→この：00962_kono⟧⟦{流派|りゅうは}→流派：13365_ryuuha⟧⟦の→の：09472_no⟧{始祖|しそ}⟦と→と：00512_to⟧⟦されている→する：00392_suru⟧。",
       "english": "He is regarded as the founder of this school.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12371_shiso_ex3",
-      "japanese": "{始祖鳥|しそちょう}は{鳥類|ちょうるい}の{始祖|しそ}と{考|かんが}えられていたが、{現在|げんざい}では{異|こと}なる{見解|けんかい}もある。",
+      "japanese": "{始祖鳥|しそちょう}⟦は→は：00079_ha⟧⟦{鳥類|ちょうるい}→鳥類：04927_chourui⟧⟦の→の：09472_no⟧{始祖|しそ}⟦と→と：00512_to⟧⟦{考|かんが}えられていた→考える：00856_kangaeru⟧⟦が→が：00051_ga⟧、⟦{現在|げんざい}→現在：01556_genzai⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{異|こと}なる→異なる：02101_kotonaru⟧⟦{見解|けんかい}→見解：02743_kenkai⟧⟦も→も：00484_mo⟧⟦ある→ある：00006_aru⟧。",
       "english": "Archaeopteryx was thought to be the progenitor of birds, but there are different views now.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\n{始祖|しそ} is a formal, literary word used to describe the very first originator of something. It is more elevated than {創始者|そうししゃ} (founder) and implies historical or cultural significance.\n\nSIMILAR WORDS:\n- {創始者|そうししゃ}: founder, originator (more general and modern)\n- {開祖|かいそ}: founder of a religious sect or martial arts school\n- {祖先|そせん}: ancestor (refers to one's family lineage rather than the origin of a discipline)\n\nCOMMON COLLOCATIONS:\n- ～の{始祖|しそ}: the founder of ~\n- {始祖|しそ}とされる: to be regarded as the founder\n- {始祖鳥|しそちょう}: Archaeopteryx (literally \"ancestor bird\")",
+  "notes": "USAGE:\n{始祖|しそ} is a formal, literary word used to describe the very first originator of something. It is more elevated than ⟦{創始者|そうししゃ}→創始者：27181_soushisha⟧ (founder) and implies historical or cultural significance.\n\nSIMILAR WORDS:\n- ⟦{創始者|そうししゃ}→創始者：27181_soushisha⟧: founder, originator (more general and modern)\n- {開祖|かいそ}: founder of a religious sect or martial arts school\n- ⟦{祖先|そせん}→祖先：04047_sosen⟧: ancestor (refers to one's family lineage rather than the origin of a discipline)\n\nCOMMON COLLOCATIONS:\n- ～⟦の→の：09472_no⟧{始祖|しそ}: the founder of ~\n- {始祖|しそ}⟦と→と：00512_to⟧⟦される→する：00392_suru⟧: to be regarded as the founder\n- {始祖鳥|しそちょう}: Archaeopteryx (literally \"ancestor bird\")",
   "cross_references": [
     {
       "type": "related",
@@ -46,19 +52,32 @@
       "reading": "そせん",
       "headword": "{祖先|そせん}",
       "label": "ancestor"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27181_soushisha",
+      "reading": "そうししゃ",
+      "headword": "{創始者|そうししゃ}",
+      "label": "founder, originator"
     }
   ],
   "metadata": {
     "created": "2026-02-21T05:43:26Z",
-    "modified": "2026-04-26T10:06:49Z",
+    "modified": "2026-09-02T04:01:28Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"],
-      "style": ["written"]
+      "semantic": [
+        "general"
+      ],
+      "style": [
+        "written"
+      ]
     }
   }
 }

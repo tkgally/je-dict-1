@@ -16,7 +16,7 @@
   "examples": [
     {
       "id": "29707_janaika_ex1",
-      "japanese": "いいじゃないか。",
+      "japanese": "⟦いい→いい：00118_ii⟧じゃないか。",
       "english": "That's fine, isn't it?",
       "sense_numbers": [
         1
@@ -26,7 +26,7 @@
     },
     {
       "id": "29707_janaika_ex2",
-      "japanese": "{君|きみ}にもできるじゃないか。",
+      "japanese": "⟦{君|きみ}→君：01384_kimi⟧⟦に→に：00314_ni⟧⟦も→も：00484_mo⟧⟦できる→できる：00557_dekiru⟧じゃないか。",
       "english": "You can do it too, can't you?",
       "sense_numbers": [
         1
@@ -36,7 +36,7 @@
     },
     {
       "id": "29707_janaika_ex3",
-      "japanese": "もう{時間|じかん}がないじゃないか、{早|はや}く{行|い}こう。",
+      "japanese": "⟦もう→もう：00602_mou⟧⟦{時間|じかん}→時間：00468_jikan⟧⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧じゃないか、⟦{早|はや}く→早い：00514_hayai⟧⟦{行|い}こう→行く：00119_iku⟧。",
       "english": "We're out of time, aren't we? Let's hurry.",
       "sense_numbers": [
         1
@@ -45,7 +45,7 @@
       "notes": null
     }
   ],
-  "notes": "A casual tag-question ending contracted from ではないか. It attaches to plain forms and invites agreement (\"..., right?\") or gently insists on something the speaker sees as obvious. With rising or exclamatory intonation it can also mark a sudden discovery (\"Why, you can do it!\").\n\nCOMMON PATTERNS:\n- いいじゃないか: that's fine, isn't it?\n- できるじゃないか: you can do it, can't you!\n- {言|い}ったじゃないか: I told you, didn't I?\n\nSIMILAR WORDS:\n- じゃん: more clipped, breezy casual equivalent (Kanto/Tokyo)\n- ではないか: the full, more formal or literary form\n- ね: softer; simply seeks confirmation without the insistent nuance",
+  "notes": "A casual tag-question ending contracted from ⟦では→では：02945_deha⟧⟦ない→ない：01118_nai⟧⟦か→か：09473_ka⟧. It attaches to plain forms and invites agreement (\"..., right?\") or gently insists on something the speaker sees as obvious. With rising or exclamatory intonation it can also mark a sudden discovery (\"Why, you can do it!\").\n\nCOMMON PATTERNS:\n- ⟦いい→いい：00118_ii⟧じゃないか: that's fine, isn't it?\n- ⟦できる→できる：00557_dekiru⟧じゃないか: you can do it, can't you!\n- ⟦{言|い}った→言う：00515_iu⟧じゃないか: I told you, didn't I?\n\nSIMILAR WORDS:\n- ⟦じゃん→じゃん：05432_jan⟧: more clipped, breezy casual equivalent (Kanto/Tokyo)\n- ⟦では→では：02945_deha⟧⟦ない→ない：01118_nai⟧⟦か→か：09473_ka⟧: the full, more formal or literary form\n- ⟦ね→ね：09474_ne⟧: softer; simply seeks confirmation without the insistent nuance",
   "cross_references": [
     {
       "type": "related",
@@ -53,11 +53,32 @@
       "reading": "じゃん",
       "headword": "じゃん",
       "label": "casual contraction of じゃないか"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30627_dehanaika",
+      "reading": "ではないか",
+      "headword": "ではないか",
+      "label": "the full, more formal or literary form"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29708_yan",
+      "reading": "やん",
+      "headword": "やん",
+      "label": "isn't it?"
+    },
+    {
+      "type": "related",
+      "target_id": "29887_janka",
+      "reading": "じゃんか",
+      "headword": "じゃんか",
+      "label": "isn't it?"
     }
   ],
   "metadata": {
     "created": "2026-07-06T21:18:51Z",
-    "modified": "2026-08-30T12:18:09Z",
+    "modified": "2026-09-02T04:02:37Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08065_taimuseeru_ex1",
-      "japanese": "タイムセールが{始|はじ}まった。",
+      "japanese": "タイムセール⟦が→が：00051_ga⟧⟦{始|はじ}まった→始まる：00841_hajimaru⟧。",
       "english": "The time-limited sale has started.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "08065_taimuseeru_ex2",
-      "japanese": "{夕方|ゆうがた}のタイムセールで{弁当|べんとう}が{半額|はんがく}になる。",
+      "japanese": "⟦{夕方|ゆうがた}→夕方：01010_yuugata⟧⟦の→の：09472_no⟧タイムセール⟦で→で：00502_de⟧⟦{弁当|べんとう}→弁当：01014_bentou⟧⟦が→が：00051_ga⟧⟦{半額|はんがく}→半額：09546_hangaku⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧。",
       "english": "Bento boxes are half price during the evening time sale.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "08065_taimuseeru_ex3",
-      "japanese": "Amazon のタイムセールで{欲|ほ}しかったものを{安|やす}く{買|か}えた。",
+      "japanese": "Amazon ⟦の→の：09472_no⟧タイムセール⟦で→で：00502_de⟧⟦{欲|ほ}しかった→欲しい：01107_hoshii⟧もの⟦を→を：00422_wo⟧⟦{安|やす}く→安い：00464_yasui⟧⟦{買|か}えた→買う：00489_kau⟧。",
       "english": "I was able to buy what I wanted cheaply during Amazon's flash sale.",
       "sense_numbers": [
         1
@@ -43,7 +43,7 @@
       "notes": null
     }
   ],
-  "notes": "タイムセール is a wasei-eigo (Japanese-coined English) term for limited-time sales promotions.\n\nCOMMON CONTEXTS:\n- Supermarkets: Evening タイムセール on {弁当|べんとう}, {惣菜|そうざい}, and {刺身|さしみ} before closing\n- Online shopping: Amazon, {楽天|らくてん} flash sales lasting a few hours\n- Department stores: Seasonal clearance events\n\nCOMMON EXPRESSIONS:\n- タイムセールが{始|はじ}まる: the flash sale starts\n- タイムセールで{買|か}う: to buy during a flash sale\n- タイムセール{中|ちゅう}: during the sale period\n\nRELATED TERMS:\n- {特売|とくばい}: special sale (general)\n- {半額|はんがく}セール: half-price sale\n- {閉店|へいてん}セール: closing sale\n- ゲリラセール: unannounced flash sale",
+  "notes": "タイムセール is a wasei-eigo (Japanese-coined English) term for limited-time sales promotions.\n\nUSAGE:\n- Supermarkets: Evening タイムセール on ⟦{弁当|べんとう}→弁当：01014_bentou⟧, ⟦{惣菜|そうざい}→惣菜：05827_souzai⟧, and ⟦{刺身|さしみ}→刺身：04023_sashimi⟧ before closing\n- Online shopping: Amazon, {楽天|らくてん} flash sales lasting a few hours\n- Department stores: Seasonal clearance events\n\nCOMMON EXPRESSIONS:\n- タイムセール⟦が→が：00051_ga⟧⟦{始|はじ}まる→始まる：00841_hajimaru⟧: the flash sale starts\n- タイムセール⟦で→で：00502_de⟧⟦{買|か}う→買う：00489_kau⟧: to buy during a flash sale\n- タイムセール⟦{中|ちゅう}→〜中：09840_chuu⟧: during the sale period\n\nRELATED WORDS:\n- ⟦{特売|とくばい}→特売：04277_tokubai⟧: special sale (general)\n- ⟦{半額|はんがく}→半額：09546_hangaku⟧⟦セール→セール：07780_seeru⟧: half-price sale\n- ⟦{閉店|へいてん}→閉店：09698_heiten⟧⟦セール→セール：07780_seeru⟧: closing sale\n- ゲリラ⟦セール→セール：07780_seeru⟧: unannounced flash sale",
   "cross_references": [
     {
       "type": "related",
@@ -51,6 +51,13 @@
       "headword": "{目玉商品|めだましょうひん}",
       "label": "featured item; loss leader",
       "target_id": "08064_medamashouhin"
+    },
+    {
+      "type": "related",
+      "target_id": "04277_tokubai",
+      "reading": "とくばい",
+      "headword": "{特売|とくばい}",
+      "label": "special sale"
     }
   ],
   "metadata": {
@@ -60,12 +67,13 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "shopping",
         "business"
       ]
     },
     "created": "2026-01-25T01:21:54Z",
-    "modified": "2026-08-11T09:37:41Z"
+    "modified": "2026-09-02T04:01:13Z"
   }
 }

@@ -15,41 +15,67 @@
   "examples": [
     {
       "id": "30775_mukouki_ex1",
-      "japanese": "{彼|かれ}は{向|む}こう{気|き}が{強|つよ}い。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{向|む}こう{気|き}⟦が→が：00051_ga⟧⟦{強|つよ}い→強い：00820_tsuyoi⟧。",
       "english": "He is a scrappy sort who never backs down.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "30775_mukouki_ex2",
-      "japanese": "{若|わか}いころは{向|む}こう{気|き}ばかり{強|つよ}かった。",
+      "japanese": "{若|わか}い⟦ころ→〜ころ：03091_koro⟧⟦は→は：00079_ha⟧{向|む}こう{気|き}⟦ばかり→〜ばかり：02006_bakari⟧⟦{強|つよ}かった→強い：00820_tsuyoi⟧。",
       "english": "When I was young I was all fight and no sense.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "30775_mukouki_ex3",
-      "japanese": "{向|む}こう{気|き}の{強|つよ}さだけで{勝|か}てるほど{甘|あま}い{世界|せかい}ではない。",
+      "japanese": "{向|む}こう{気|き}⟦の→の：09472_no⟧⟦{強|つよ}さ→強さ：25692_tsuyosa⟧⟦だけ→〜だけ：03093_dake⟧⟦で→で：00502_de⟧⟦{勝|か}てる→勝つ：01199_katsu⟧ほど⟦{甘|あま}い→甘い：00617_amai⟧⟦{世界|せかい}→世界：01447_sekai⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦ない→ない：01118_nai⟧。",
       "english": "This is not a world where sheer combativeness alone is enough to win.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Almost always appears with {強|つよ}い — the bare noun is rarely used on its own. The evaluation is mixed: admiring of the courage, wary of the lack of judgment.\n\nCOMMON COLLOCATIONS:\n- {向|む}こう{気|き}が{強|つよ}い: to be plucky; to never back down\n- {向|む}こう{気|き}の{強|つよ}い{性格|せいかく}: a combative temperament\n- {向|む}こう{気|き}だけは{人一倍|ひといちばい}: to have more fight in one than anybody\n\nSIMILAR WORDS:\n- {負|ま}けん{気|き}: competitive spirit — hating to lose, without the sense of squaring up to an opponent\n- {気|き}が{強|つよ}い: strong-willed — general assertiveness, not tied to confrontation\n- {血気|けっき}: hot-bloodedness — more literary, emphasizes youthful impetuousness",
+  "notes": "Almost always appears with ⟦{強|つよ}い→強い：00820_tsuyoi⟧ — the bare noun is rarely used on its own. The evaluation is mixed: admiring of the courage, wary of the lack of judgment.\n\nCOMMON COLLOCATIONS:\n- {向|む}こう{気|き}⟦が→が：00051_ga⟧⟦{強|つよ}い→強い：00820_tsuyoi⟧: to be plucky; to never back down\n- {向|む}こう{気|き}⟦の→の：09472_no⟧⟦{強|つよ}い→強い：00820_tsuyoi⟧⟦{性格|せいかく}→性格：03371_seikaku⟧: a combative temperament\n- {向|む}こう{気|き}⟦だけ→〜だけ：03093_dake⟧⟦は→は：00079_ha⟧{人一倍|ひといちばい}: to have more fight in one than anybody\n\nSIMILAR WORDS:\n- ⟦{負|ま}けん{気|き}→負けん気：30763_makenki⟧: competitive spirit — hating to lose, without the sense of squaring up to an opponent\n- ⟦{気|き}が{強|つよ}い→気が強い：30270_kigatsuyoi⟧: strong-willed — general assertiveness, not tied to confrontation\n- {血気|けっき}: hot-bloodedness — more literary, emphasizes youthful impetuousness",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "30763_makenki",
+      "reading": "まけんき",
+      "headword": "{負|ま}けん{気|き}",
+      "label": "competitive spirit"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30270_kigatsuyoi",
+      "reading": "きがつよい",
+      "headword": "{気|き}が{強|つよ}い",
+      "label": "strong-willed"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["personality"],
+      "politeness": "plain",
+      "semantic": [
+        "personality"
+      ],
       "domain": []
     },
     "created": "2026-08-31T12:32:00Z",
-    "modified": "2026-08-31T12:32:00Z"
+    "modified": "2026-09-02T04:02:41Z"
   }
 }

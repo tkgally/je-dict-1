@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "11086_kensatsu_ex1",
-      "japanese": "{検察|けんさつ}が{捜査|そうさ}を{開始|かいし}した。",
+      "japanese": "{検察|けんさつ}⟦が→が：00051_ga⟧⟦{捜査|そうさ}→捜査：03688_sousa⟧⟦を→を：00422_wo⟧⟦{開始|かいし}した→開始する：26826_kaishisuru⟧。",
       "english": "The prosecution launched an investigation.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "11086_kensatsu_ex2",
-      "japanese": "{検察|けんさつ}は{容疑者|ようぎしゃ}を{起訴|きそ}する{方針|ほうしん}だ。",
+      "japanese": "{検察|けんさつ}⟦は→は：00079_ha⟧⟦{容疑者|ようぎしゃ}→容疑者：15039_yougisha⟧⟦を→を：00422_wo⟧⟦{起訴|きそ}する→起訴する：09863_kisosuru⟧⟦{方針|ほうしん}→方針：04871_houshin⟧だ。",
       "english": "The prosecution plans to indict the suspect.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "11086_kensatsu_ex3",
-      "japanese": "{検察|けんさつ}{側|がわ}の{証人|しょうにん}が{法廷|ほうてい}で{証言|しょうげん}した。",
+      "japanese": "{検察|けんさつ}⟦{側|がわ}→〜側：03090_gawa⟧⟦の→の：09472_no⟧⟦{証人|しょうにん}→証人：18845_shounin⟧⟦が→が：00051_ga⟧⟦{法廷|ほうてい}→法廷：15113_houtei⟧⟦で→で：00502_de⟧⟦{証言|しょうげん}→証言：11088_shougen⟧⟦した→する：00392_suru⟧。",
       "english": "A witness for the prosecution testified in court.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{検察|けんさつ} can refer to both the prosecution as an institution and the act of prosecuting. In Japan, prosecutors ({検察官|けんさつかん} or {検事|けんじ}) belong to the {検察庁|けんさつちょう} (Public Prosecutors Office).\n\nCOMMON COLLOCATIONS:\n- {検察|けんさつ}{側|がわ} (the prosecution side)\n- {検察|けんさつ}{官|かん} (prosecutor)\n- {検察|けんさつ}{庁|ちょう} (Public Prosecutors Office)\n- {検察|けんさつ}{審査会|しんさかい} (Prosecution Review Commission)\n\nRELATED TERMS:\n- {検事|けんじ} (public prosecutor — the individual)\n- {弁護|べんご} (defense)",
+  "notes": "USAGE:\n{検察|けんさつ} can refer to both the prosecution as an institution and the act of prosecuting. In Japan, prosecutors (⟦{検察官|けんさつかん}→検察官：09664_kensatsukan⟧ or ⟦{検事|けんじ}→検事：20788_kenji⟧) belong to the {検察庁|けんさつちょう} (Public Prosecutors Office).\n\nCOMMON COLLOCATIONS:\n- {検察|けんさつ}⟦{側|がわ}→〜側：03090_gawa⟧ (the prosecution side)\n- {検察|けんさつ}{官|かん} (prosecutor)\n- {検察|けんさつ}{庁|ちょう} (Public Prosecutors Office)\n- {検察|けんさつ}{審査会|しんさかい} (Prosecution Review Commission)\n\nRELATED WORDS:\n- ⟦{検事|けんじ}→検事：20788_kenji⟧ (public prosecutor — the individual)\n- ⟦{弁護|べんご}→弁護：10579_bengo⟧ (defense)",
   "cross_references": [
     {
       "type": "related",
@@ -66,11 +66,39 @@
       "reading": "げんこく",
       "headword": "{原告|げんこく}",
       "label": "plaintiff"
+    },
+    {
+      "type": "related",
+      "target_id": "20788_kenji",
+      "reading": "けんじ",
+      "headword": "{検事|けんじ}",
+      "label": "public prosecutor"
+    },
+    {
+      "type": "related",
+      "target_id": "10579_bengo",
+      "reading": "べんご",
+      "headword": "{弁護|べんご}",
+      "label": "defense"
+    },
+    {
+      "type": "related",
+      "target_id": "09863_kisosuru",
+      "reading": "きそする",
+      "headword": "{起訴|きそ}する",
+      "label": "to indict, to prosecute"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18898_sousatoukyoku",
+      "reading": "そうさとうきょく",
+      "headword": "{捜査|そうさ}{当局|とうきょく}",
+      "label": "investigative authorities"
     }
   ],
   "metadata": {
     "created": "2026-02-13T12:38:59Z",
-    "modified": "2026-04-25T04:12:08Z",
+    "modified": "2026-09-02T04:01:23Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

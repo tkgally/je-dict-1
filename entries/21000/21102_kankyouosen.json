@@ -15,40 +15,74 @@
   "examples": [
     {
       "id": "21102_kankyouosen_ex1",
-      "japanese": "{環境汚染|かんきょうおせん}が{深刻|しんこく}だ。",
+      "japanese": "{環境汚染|かんきょうおせん}⟦が→が：00051_ga⟧⟦{深刻|しんこく}→深刻：01567_shinkoku⟧だ。",
       "english": "Environmental pollution is serious.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21102_kankyouosen_ex2",
-      "japanese": "{工場|こうじょう}からの{排水|はいすい}が{環境汚染|かんきょうおせん}を{引|ひ}き{起|お}こした。",
+      "japanese": "⟦{工場|こうじょう}→工場：01082_koujou⟧⟦から→から：00504_kara⟧⟦の→の：09472_no⟧⟦{排水|はいすい}→排水：11104_haisui⟧⟦が→が：00051_ga⟧{環境汚染|かんきょうおせん}⟦を→を：00422_wo⟧⟦{引|ひ}き{起|お}こした→引き起こす：06165_hikiokosu⟧。",
       "english": "Wastewater from the factory caused environmental pollution.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21102_kankyouosen_ex3",
-      "japanese": "{環境汚染|かんきょうおせん}を{防|ふせ}ぐために、{一人一人|ひとりひとり}の{意識|いしき}が{大切|たいせつ}だ。",
+      "japanese": "{環境汚染|かんきょうおせん}⟦を→を：00422_wo⟧⟦{防|ふせ}ぐ→防ぐ：02409_fusegu⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧、⟦{一人一人|ひとりひとり}→一人一人：03711_hitorihitori⟧⟦の→の：09472_no⟧⟦{意識|いしき}→意識：01714_ishiki⟧⟦が→が：00051_ga⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧だ。",
       "english": "To prevent environmental pollution, each person's awareness is important.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound noun combining {環境|かんきょう} (environment) and {汚染|おせん} (pollution/contamination). Frequently used in news, education, and policy discussions about ecological issues.\n\nCOMMON COLLOCATIONS:\n- {環境汚染|かんきょうおせん}を{防|ふせ}ぐ: to prevent environmental pollution\n- {環境汚染|かんきょうおせん}が{進|すす}む: environmental pollution advances\n- {環境汚染|かんきょうおせん}{問題|もんだい}: environmental pollution problems\n- {環境汚染|かんきょうおせん}{物質|ぶっしつ}: environmental pollutants\n\nTYPES:\n- {大気|たいき}{汚染|おせん}: air pollution\n- {水質|すいしつ}{汚染|おせん}: water pollution\n- {土壌|どじょう}{汚染|おせん}: soil contamination\n- {海洋|かいよう}{汚染|おせん}: ocean pollution\n\nSIMILAR WORDS:\n- {公害|こうがい}: pollution, environmental hazard — often refers specifically to industrial pollution and its health effects on communities; historically associated with Japan's major pollution incidents\n- {汚染|おせん}: pollution, contamination — the base word, used more broadly",
+  "notes": "A compound noun combining ⟦{環境|かんきょう}→環境：00174_kankyou⟧ (environment) and ⟦{汚染|おせん}→汚染：02595_osen⟧ (pollution/contamination). Frequently used in news, education, and policy discussions about ecological issues.\n\nCOMMON COLLOCATIONS:\n- {環境汚染|かんきょうおせん}⟦を→を：00422_wo⟧⟦{防|ふせ}ぐ→防ぐ：02409_fusegu⟧: to prevent environmental pollution\n- {環境汚染|かんきょうおせん}⟦が→が：00051_ga⟧⟦{進|すす}む→進む：01225_susumu⟧: environmental pollution advances\n- {環境汚染|かんきょうおせん}⟦{問題|もんだい}→問題：00797_mondai⟧: environmental pollution problems\n- {環境汚染|かんきょうおせん}⟦{物質|ぶっしつ}→物質：03608_busshitsu⟧: environmental pollutants\n\nTYPES:\n- ⟦{大気|たいき}{汚染|おせん}→大気汚染：09254_taikiosen⟧: air pollution\n- ⟦{水質|すいしつ}{汚染|おせん}→水質汚染：09283_suishitsuosen⟧: water pollution\n- ⟦{土壌|どじょう}{汚染|おせん}→土壌汚染：09284_dojouosen⟧: soil contamination\n- ⟦{海洋|かいよう}→海洋：00143_kaiyou⟧⟦{汚染|おせん}→汚染：02595_osen⟧: ocean pollution\n\nSIMILAR WORDS:\n- ⟦{公害|こうがい}→公害：14944_kougai⟧: pollution, environmental hazard — often refers specifically to industrial pollution and its health effects on communities; historically associated with Japan's major pollution incidents\n- ⟦{汚染|おせん}→汚染：02595_osen⟧: pollution, contamination — the base word, used more broadly",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14944_kougai",
+      "reading": "こうがい",
+      "headword": "{公害|こうがい}",
+      "label": "pollution, environmental hazard"
+    },
+    {
+      "type": "related",
+      "target_id": "10136_kankyoumondai",
+      "reading": "かんきょうもんだい",
+      "headword": "{環境問題|かんきょうもんだい}",
+      "label": "environmental issues"
+    },
+    {
+      "type": "related",
+      "target_id": "18416_osenbusshitsu",
+      "reading": "おせんぶっしつ",
+      "headword": "{汚染物質|おせんぶっしつ}",
+      "label": "pollutant"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["nature", "society"]
+      "semantic": [
+        "nature",
+        "society"
+      ]
     },
     "created": "2026-03-31T17:19:16Z",
-    "modified": "2026-03-31T17:19:16Z"
+    "modified": "2026-09-02T04:02:02Z"
   }
 }

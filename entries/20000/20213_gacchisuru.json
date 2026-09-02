@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "20213_gacchisuru_ex1",
-      "japanese": "{意見|いけん}が{合致|がっち}した。",
+      "japanese": "⟦{意見|いけん}→意見：01303_iken⟧⟦が→が：00051_ga⟧{合致|がっち}した。",
       "english": "Our opinions were in accord.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "20213_gacchisuru_ex2",
-      "japanese": "{条件|じょうけん}に{合致|がっち}する{候補者|こうほしゃ}を{探|さが}している。",
+      "japanese": "⟦{条件|じょうけん}→条件：03285_jouken⟧⟦に→に：00314_ni⟧{合致|がっち}する⟦{候補者|こうほしゃ}→候補者：20439_kouhosha⟧⟦を→を：00422_wo⟧⟦{探|さが}している→探す：00493_sagasu⟧。",
       "english": "We are looking for candidates who match the requirements.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "20213_gacchisuru_ex3",
-      "japanese": "{調査|ちょうさ}{結果|けっか}は{事前|じぜん}の{予測|よそく}とほぼ{合致|がっち}しており、{仮説|かせつ}が{正|ただ}しかったことが{確認|かくにん}された。",
+      "japanese": "⟦{調査|ちょうさ}→調査：03489_chousa⟧⟦{結果|けっか}→結果：02486_kekka⟧⟦は→は：00079_ha⟧⟦{事前|じぜん}→事前：07580_jizen⟧⟦の→の：09472_no⟧⟦{予測|よそく}→予測：03665_yosoku⟧⟦と→と：00512_to⟧⟦ほぼ→ほぼ：00109_hobo⟧{合致|がっち}しており、⟦{仮説|かせつ}→仮説：04786_kasetsu⟧⟦が→が：00051_ga⟧⟦{正|ただ}しかった→正しい：00893_tadashii⟧こと⟦が→が：00051_ga⟧⟦{確認|かくにん}→確認：00158_kakunin⟧⟦された→する：00392_suru⟧。",
       "english": "The survey results largely coincided with the prior predictions, confirming that the hypothesis was correct.",
       "sense_numbers": [
         1
@@ -134,8 +134,38 @@
       "notes": null
     }
   ],
-  "notes": "A formal word used when two things correspond or align. Common in academic, legal, and business writing. In everyday conversation, {合|あ}う or {一致|いっち}する are more natural.\n\nCOMMON COLLOCATIONS:\n- {意見|いけん}が{合致|がっち}する: opinions agree\n- {条件|じょうけん}に{合致|がっち}する: to match conditions\n- {方針|ほうしん}と{合致|がっち}する: to be in line with policy\n- {目的|もくてき}に{合致|がっち}する: to match the objective\n- {基準|きじゅん}に{合致|がっち}する: to meet standards\n\nSIMILAR WORDS:\n- {一致|いっち}する: to match, to agree — more common, nearly synonymous\n- {合|あ}う: to match, to fit — everyday word\n- {該当|がいとう}する: to correspond to, to apply — focuses on meeting criteria\n- {適合|てきごう}する: to conform to — more technical, often for standards compliance",
+  "notes": "A formal word used when two things correspond or align. Common in academic, legal, and business writing. In everyday conversation, ⟦{合|あ}う→合う：10466_au⟧ or ⟦{一致|いっち}する→一致する：19648_icchisuru⟧ are more natural.\n\nCOMMON COLLOCATIONS:\n- ⟦{意見|いけん}→意見：01303_iken⟧⟦が→が：00051_ga⟧{合致|がっち}する: opinions agree\n- ⟦{条件|じょうけん}→条件：03285_jouken⟧⟦に→に：00314_ni⟧{合致|がっち}する: to match conditions\n- ⟦{方針|ほうしん}→方針：04871_houshin⟧⟦と→と：00512_to⟧{合致|がっち}する: to be in line with policy\n- ⟦{目的|もくてき}→目的：02433_mokuteki⟧⟦に→に：00314_ni⟧{合致|がっち}する: to match the objective\n- ⟦{基準|きじゅん}→基準：00228_kijun⟧⟦に→に：00314_ni⟧{合致|がっち}する: to meet standards\n\nSIMILAR WORDS:\n- ⟦{一致|いっち}する→一致する：19648_icchisuru⟧: to match, to agree — more common, nearly synonymous\n- ⟦{合|あ}う→合う：10466_au⟧: to match, to fit — everyday word\n- ⟦{該当|がいとう}する→該当する：29179_gaitousuru⟧: to correspond to, to apply — focuses on meeting criteria\n- ⟦{適合|てきごう}する→適合する：25549_tekigousuru⟧: to conform to — more technical, often for standards compliance",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19648_icchisuru",
+      "reading": "いっちする",
+      "headword": "{一致|いっち}する",
+      "label": "to match, to agree"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10466_au",
+      "reading": "あう",
+      "headword": "{合|あ}う",
+      "label": "to match, to fit"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29179_gaitousuru",
+      "reading": "がいとうする",
+      "headword": "{該当|がいとう}する",
+      "label": "to correspond to, to apply"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25549_tekigousuru",
+      "reading": "てきごうする",
+      "headword": "{適合|てきごう}する",
+      "label": "to conform to"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -151,6 +181,6 @@
       "verb_class": "suru"
     },
     "created": "2026-03-28T17:11:18Z",
-    "modified": "2026-03-28T17:11:18Z"
+    "modified": "2026-09-02T04:01:58Z"
   }
 }

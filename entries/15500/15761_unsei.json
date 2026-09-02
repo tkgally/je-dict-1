@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "15761_unsei_ex1",
-      "japanese": "{今日|きょう}の{運勢|うんせい}を{占|うらな}う。",
+      "japanese": "⟦{今日|きょう}→今日：00496_kyou⟧⟦の→の：09472_no⟧{運勢|うんせい}⟦を→を：00422_wo⟧⟦{占|うらな}う→占う：01905_uranau⟧。",
       "english": "I check today's fortune.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "15761_unsei_ex2",
-      "japanese": "{今年|ことし}は{運勢|うんせい}がいいと{言|い}われた。",
+      "japanese": "⟦{今年|ことし}→今年：00722_kotoshi⟧⟦は→は：00079_ha⟧{運勢|うんせい}⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧⟦と→と：00512_to⟧⟦{言|い}われた→言う：00515_iu⟧。",
       "english": "I was told that my fortune is good this year.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "15761_unsei_ex3",
-      "japanese": "{朝|あさ}のテレビ{番組|ばんぐみ}で{星座|せいざ}{別|べつ}の{運勢|うんせい}ランキングを{見|み}るのが{日課|にっか}だ。",
+      "japanese": "⟦{朝|あさ}→朝：02277_asa⟧⟦の→の：09472_no⟧⟦テレビ→テレビ：01536_terebi⟧⟦{番組|ばんぐみ}→番組：01705_bangumi⟧⟦で→で：00502_de⟧⟦{星座|せいざ}→星座：06313_seiza⟧⟦{別|べつ}→別：01216_betsu⟧⟦の→の：09472_no⟧{運勢|うんせい}⟦ランキング→ランキング：11195_rankingu⟧⟦を→を：00422_wo⟧⟦{見|み}る→見る：00283_miru⟧⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦{日課|にっか}→日課：00317_nikka⟧だ。",
       "english": "It's my daily routine to watch the zodiac fortune ranking on the morning TV show.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{運勢|うんせい} is most commonly encountered in horoscope and fortune-telling contexts. Morning TV shows in Japan often feature {今日|きょう}の{運勢|うんせい} segments ranked by zodiac sign.\n\nCOMMON COLLOCATIONS:\n- {今日|きょう}の{運勢|うんせい} (today's fortune)\n- {運勢|うんせい}を{占|うらな}う (tell one's fortune)\n- {運勢|うんせい}がいい / {悪|わる}い (good/bad fortune)\n- {運勢|うんせい}ランキング (fortune ranking)\n- {総合|そうごう}{運勢|うんせい} (overall fortune)\n\nSIMILAR WORDS:\n{運|うん} is a simpler, everyday word for \"luck.\" {運命|うんめい} means \"fate\" or \"destiny\" and is more serious and philosophical. {運気|うんき} means \"luck\" or \"fortune\" and is close in meaning but is often used in {風水|ふうすい} (feng shui) contexts.",
+  "notes": "USAGE:\n{運勢|うんせい} is most commonly encountered in horoscope and fortune-telling contexts. Morning TV shows in Japan often feature ⟦{今日|きょう}→今日：00496_kyou⟧⟦の→の：09472_no⟧{運勢|うんせい} segments ranked by zodiac sign.\n\nCOMMON COLLOCATIONS:\n- ⟦{今日|きょう}→今日：00496_kyou⟧⟦の→の：09472_no⟧{運勢|うんせい} (today's fortune)\n- {運勢|うんせい}⟦を→を：00422_wo⟧⟦{占|うらな}う→占う：01905_uranau⟧ (tell one's fortune)\n- {運勢|うんせい}⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧ / ⟦{悪|わる}い→悪い：00908_warui⟧ (good/bad fortune)\n- {運勢|うんせい}⟦ランキング→ランキング：11195_rankingu⟧ (fortune ranking)\n- ⟦{総合|そうごう}→総合：16986_sougou⟧{運勢|うんせい} (overall fortune)\n\nSIMILAR WORDS:\n⟦{運|うん}→運：02143_un⟧ is a simpler, everyday word for \"luck.\" ⟦{運命|うんめい}→運命：06879_unmei⟧ means \"fate\" or \"destiny\" and is more serious and philosophical. {運気|うんき} means \"luck\" or \"fortune\" and is close in meaning but is often used in ⟦{風水|ふうすい}→風水：14695_fuusui⟧ (feng shui) contexts.",
   "cross_references": [
     {
       "type": "related",
@@ -59,11 +59,18 @@
       "reading": "うんめい",
       "headword": "{運命|うんめい}",
       "label": "fate; destiny; weightier"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27787_tesou",
+      "reading": "てそう",
+      "headword": "{手相|てそう}",
+      "label": "palm lines"
     }
   ],
   "metadata": {
     "created": "2026-03-08T09:15:28Z",
-    "modified": "2026-05-02T05:13:00Z",
+    "modified": "2026-09-02T04:01:42Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "15285_untenmenkyo_ex1",
-      "japanese": "{運転免許|うんてんめんきょ}を{取|と}りたい。",
+      "japanese": "{運転免許|うんてんめんきょ}⟦を→を：00422_wo⟧⟦{取|と}りたい→取る：00565_toru⟧。",
       "english": "I want to get a driver's license.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "15285_untenmenkyo_ex2",
-      "japanese": "{運転免許|うんてんめんきょ}の{更新|こうしん}を{忘|わす}れていた。",
+      "japanese": "{運転免許|うんてんめんきょ}⟦の→の：09472_no⟧⟦{更新|こうしん}→更新：04765_koushin⟧⟦を→を：00422_wo⟧⟦{忘|わす}れていた→忘れる：00474_wasureru⟧。",
       "english": "I forgot to renew my driver's license.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "15285_untenmenkyo_ex3",
-      "japanese": "{高齢者|こうれいしゃ}の{運転免許|うんてんめんきょ}{返納|へんのう}が{社会的|しゃかいてき}な{課題|かだい}になっている。",
+      "japanese": "⟦{高齢者|こうれいしゃ}→高齢者：15649_koureisha⟧⟦の→の：09472_no⟧{運転免許|うんてんめんきょ}{返納|へんのう}⟦が→が：00051_ga⟧⟦{社会的|しゃかいてき}→社会的：04791_shakaiteki⟧な⟦{課題|かだい}→課題：00132_kadai⟧になっている。",
       "english": "The voluntary surrender of driver's licenses by elderly people has become a social issue.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nOften shortened to {免許|めんきょ} in casual conversation. The physical card is called {運転免許証|うんてんめんきょしょう}. In Japan, a driver's license is commonly used as photo ID.\n\nCOMMON COLLOCATIONS:\n- {運転免許|うんてんめんきょ}を{取|と}る (to get a driver's license)\n- {運転免許|うんてんめんきょ}の{更新|こうしん} (license renewal)\n- {運転免許|うんてんめんきょ}{試験|しけん} (driving test)\n- {運転免許|うんてんめんきょ}の{返納|へんのう} (voluntary surrender of a license)\n- {運転免許証|うんてんめんきょしょう} (driver's license card)\n\nSIMILAR WORDS:\n- {運転免許|うんてんめんきょ}: driver's license (full formal term)\n- {免許|めんきょ}: license (abbreviated form, also used for other licenses)\n- {免許証|めんきょしょう}: license card (the physical document)",
+  "notes": "USAGE:\nOften shortened to ⟦{免許|めんきょ}→免許：03808_menkyo⟧ in casual conversation. The physical card is called ⟦{運転免許証|うんてんめんきょしょう}→運転免許証：25263_untenmenkyoshou⟧. In Japan, a driver's license is commonly used as photo ID.\n\nCOMMON COLLOCATIONS:\n- {運転免許|うんてんめんきょ}⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧ (to get a driver's license)\n- {運転免許|うんてんめんきょ}⟦の→の：09472_no⟧⟦{更新|こうしん}→更新：04765_koushin⟧ (license renewal)\n- {運転免許|うんてんめんきょ}⟦{試験|しけん}→試験：01422_shiken⟧ (driving test)\n- {運転免許|うんてんめんきょ}⟦の→の：09472_no⟧{返納|へんのう} (voluntary surrender of a license)\n- ⟦{運転免許証|うんてんめんきょしょう}→運転免許証：25263_untenmenkyoshou⟧ (driver's license card)\n\nSIMILAR WORDS:\n- {運転免許|うんてんめんきょ}: driver's license (full formal term)\n- ⟦{免許|めんきょ}→免許：03808_menkyo⟧: license (abbreviated form, also used for other licenses)\n- ⟦{免許証|めんきょしょう}→免許証：03160_menkyoshou⟧: license card (the physical document)",
   "cross_references": [
     {
       "type": "related",
@@ -52,11 +52,18 @@
       "reading": "めんきょ",
       "headword": "{免許|めんきょ}",
       "label": "license"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03160_menkyoshou",
+      "reading": "めんきょしょう",
+      "headword": "{免許証|めんきょしょう}",
+      "label": "license card"
     }
   ],
   "metadata": {
     "created": "2026-03-06T08:17:18Z",
-    "modified": "2026-07-16T07:06:35Z",
+    "modified": "2026-09-02T04:01:40Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

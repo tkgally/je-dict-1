@@ -15,40 +15,59 @@
   "examples": [
     {
       "id": "19168_shikiishi_ex1",
-      "japanese": "{庭|にわ}に{敷石|しきいし}を{並|なら}べる。",
+      "japanese": "⟦{庭|にわ}→庭：02239_niwa⟧⟦に→に：00314_ni⟧{敷石|しきいし}⟦を→を：00422_wo⟧⟦{並|なら}べる→並べる：01091_naraberu⟧。",
       "english": "To lay paving stones in the garden.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19168_shikiishi_ex2",
-      "japanese": "{雨|あめ}で{敷石|しきいし}が{濡|ぬ}れて{滑|すべ}りやすい。",
+      "japanese": "⟦{雨|あめ}→雨：00583_ame⟧⟦で→で：00502_de⟧{敷石|しきいし}⟦が→が：00051_ga⟧⟦{濡|ぬ}れて→濡れる：00800_nureru⟧⟦{滑|すべ}りやすい→滑りやすい：27611_suberiyasui⟧。",
       "english": "The paving stones are wet from the rain and slippery.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19168_shikiishi_ex3",
-      "japanese": "{古|ふる}い{神社|じんじゃ}の{参道|さんどう}には{苔|こけ}の{生|は}えた{敷石|しきいし}が{続|つづ}いている。",
+      "japanese": "⟦{古|ふる}い→古い：00488_furui⟧⟦{神社|じんじゃ}→神社：01620_jinja⟧⟦の→の：09472_no⟧⟦{参道|さんどう}→参道：11980_sandou⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{苔|こけ}→苔：04991_koke⟧⟦の→の：09472_no⟧⟦{生|は}えた→生える：02392_haeru⟧{敷石|しきいし}⟦が→が：00051_ga⟧⟦{続|つづ}いている→続く：00903_tsuzuku⟧。",
       "english": "Moss-covered paving stones line the approach to the old shrine.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {敷|し}く (to lay, to spread) + {石|いし} (stone). Common collocations: {敷石|しきいし}を{敷|し}く (to lay paving stones), {敷石|しきいし}の{道|みち} (a stone-paved path). Found in traditional Japanese gardens, shrine approaches ({参道|さんどう}), and historical districts. Related: {石畳|いしだたみ} (stone pavement — a broader term for stone-paved surfaces), {飛|と}び{石|いし} (stepping stones placed at intervals).",
+  "notes": "Composed of ⟦{敷|し}く→敷く：00366_shiku⟧ (to lay, to spread) + ⟦{石|いし}→石：02177_ishi⟧ (stone). Common collocations: {敷石|しきいし}⟦を→を：00422_wo⟧⟦{敷|し}く→敷く：00366_shiku⟧ (to lay paving stones), {敷石|しきいし}⟦の→の：09472_no⟧⟦{道|みち}→道：00505_michi⟧ (a stone-paved path). Found in traditional Japanese gardens, shrine approaches (⟦{参道|さんどう}→参道：11980_sandou⟧), and historical districts. Related: ⟦{石畳|いしだたみ}→石畳：08398_ishidatami⟧ (stone pavement — a broader term for stone-paved surfaces), ⟦{飛|と}び{石|いし}→飛び石：29881_tobiishi⟧ (stepping stones placed at intervals).",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "08398_ishidatami",
+      "reading": "いしだたみ",
+      "headword": "{石畳|いしだたみ}",
+      "label": "cobblestone pavement"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     },
     "created": "2026-03-24T11:29:38Z",
-    "modified": "2026-03-24T11:29:38Z"
+    "modified": "2026-09-02T04:01:55Z"
   }
 }

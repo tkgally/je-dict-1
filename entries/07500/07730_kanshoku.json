@@ -2,7 +2,7 @@
   "id": "07730_kanshoku",
   "headword": "{間食|かんしょく}",
   "reading": "かんしょく",
-  "part_of_speech": "noun, suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "snacking; eating between meals",
   "conjugation": {
     "type": "suru",
@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "07730_kanshoku_ex1",
-      "japanese": "{間食|かんしょく}を{控|ひか}えている。",
+      "japanese": "{間食|かんしょく}⟦を→を：00422_wo⟧⟦{控|ひか}えている→控える：10054_hikaeru⟧。",
       "english": "I'm cutting back on snacking.",
       "has_audio": false,
       "sense_numbers": [
@@ -113,7 +113,7 @@
     },
     {
       "id": "07730_kanshoku_ex2",
-      "japanese": "ダイエット{中|ちゅう}は{間食|かんしょく}を{避|さ}けた{方|ほう}がいい。",
+      "japanese": "⟦ダイエット→ダイエット：17678_daietto⟧⟦{中|ちゅう}→〜中：09840_chuu⟧⟦は→は：00079_ha⟧{間食|かんしょく}⟦を→を：00422_wo⟧⟦{避|さ}けた→避ける：02109_sakeru⟧⟦{方|ほう}→方：01139_hou⟧⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧。",
       "english": "It's better to avoid snacking while dieting.",
       "has_audio": false,
       "sense_numbers": [
@@ -122,7 +122,7 @@
     },
     {
       "id": "07730_kanshoku_ex3",
-      "japanese": "3{時|じ}の{間食|かんしょく}にお{菓子|かし}を{食|た}べた。",
+      "japanese": "3⟦{時|じ}→時：09869_ji⟧⟦の→の：09472_no⟧{間食|かんしょく}⟦に→に：00314_ni⟧⟦お{菓子|かし}→お菓子：02852_okashi⟧⟦を→を：00422_wo⟧⟦{食|た}べた→食べる：00396_taberu⟧。",
       "english": "I ate some sweets as an afternoon snack.",
       "has_audio": false,
       "sense_numbers": [
@@ -130,10 +130,10 @@
       ]
     }
   ],
-  "notes": "ETYMOLOGY:\n{間|かん} (between, interval) + {食|しょく} (eating) - eating during intervals between meals.\n\nUSAGE:\nOften discussed in health and diet contexts. In Japanese culture, 3{時|じ}のおやつ (3 o'clock snack time) is traditional, especially for children.\n\nCOLLOCATIONS:\n・{間食|かんしょく}をする - to snack\n・{間食|かんしょく}を{控|ひか}える - to cut back on snacking\n・{間食|かんしょく}を{止|や}める - to stop snacking\n\nRELATED:\n・おやつ - snack (more casual)\n・{偏食|へんしょく} - picky eating\n・{暴飲暴食|ぼういんぼうしょく} - binge eating and drinking",
+  "notes": "ETYMOLOGY:\n⟦{間|かん}→〜間：28469_kan⟧ (between, interval) + {食|しょく} (eating) - eating during intervals between meals.\n\nUSAGE:\nOften discussed in health and diet contexts. In Japanese culture, 3⟦{時|じ}→時：09869_ji⟧⟦の→の：09472_no⟧⟦おやつ→おやつ：17921_oyatsu⟧ (3 o'clock snack time) is traditional, especially for children.\n\nCOMMON COLLOCATIONS:\n- {間食|かんしょく}⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧ - to snack\n- {間食|かんしょく}⟦を→を：00422_wo⟧⟦{控|ひか}える→控える：10054_hikaeru⟧ - to cut back on snacking\n- {間食|かんしょく}⟦を→を：00422_wo⟧⟦{止|や}める→止む：01153_yamu⟧ - to stop snacking\n\nRELATED WORDS:\n- ⟦おやつ→おやつ：17921_oyatsu⟧ - snack (more casual)\n- ⟦{偏食|へんしょく}→偏食：07729_henshoku⟧ - picky eating\n- ⟦{暴飲暴食|ぼういんぼうしょく}→暴飲暴食：08061_bouinboushoku⟧ - binge eating and drinking",
   "metadata": {
     "created": "2026-01-21T00:26:01Z",
-    "modified": "2026-04-19T08:16:10Z",
+    "modified": "2026-09-02T04:01:12Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -142,6 +142,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "food",
         "health"
@@ -173,6 +174,13 @@
       "reading": "ぼういんぼうしょく",
       "headword": "{暴飲暴食|ぼういんぼうしょく}",
       "label": "binge eating/drinking"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27527_sunakku",
+      "reading": "すなっく",
+      "headword": "スナック",
+      "label": "snack"
     }
   ]
 }

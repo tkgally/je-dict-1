@@ -2,7 +2,7 @@
   "id": "11661_jiniteki",
   "headword": "{人為的|じんいてき}",
   "reading": "じんいてき",
-  "part_of_speech": "adjective (na)",
+  "part_of_speech": "na-adjective",
   "gloss": "artificial, man-made",
   "schema_version": "2.0",
   "definitions": [
@@ -15,40 +15,58 @@
   "examples": [
     {
       "id": "11661_jin_iteki_ex1",
-      "japanese": "これは{人為的|じんいてき}なミスだ。",
+      "japanese": "⟦これ→これ：00963_kore⟧⟦は→は：00079_ha⟧{人為的|じんいてき}な⟦ミス→ミス：00285_misu⟧だ。",
       "english": "This is a human error.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11661_jin_iteki_ex2",
-      "japanese": "{火災|かさい}の{原因|げんいん}は{人為的|じんいてき}なものだった。",
+      "japanese": "⟦{火災|かさい}→火災：02561_kasai⟧⟦の→の：09472_no⟧⟦{原因|げんいん}→原因：01400_genin⟧⟦は→は：00079_ha⟧{人為的|じんいてき}なものだった。",
       "english": "The cause of the fire was man-made.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11661_jin_iteki_ex3",
-      "japanese": "{人為的|じんいてき}な{環境|かんきょう}{破壊|はかい}が{生態系|せいたいけい}に{深刻|しんこく}な{影響|えいきょう}を{与|あた}えている。",
+      "japanese": "{人為的|じんいてき}な⟦{環境|かんきょう}{破壊|はかい}→環境破壊：15957_kankyouhakai⟧⟦が→が：00051_ga⟧⟦{生態系|せいたいけい}→生態系：04626_seitaikei⟧⟦に→に：00314_ni⟧⟦{深刻|しんこく}→深刻：01567_shinkoku⟧な⟦{影響|えいきょう}→影響：01877_eikyou⟧⟦を→を：00422_wo⟧⟦{与|あた}えている→与える：01821_ataeru⟧。",
       "english": "Man-made environmental destruction is having a serious impact on ecosystems.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "Used to contrast human-caused events with natural ones. Common in discussions about disasters, environmental issues, and errors.\n\nCOMMON COLLOCATIONS:\n・{人為的|じんいてき}なミス (human error)\n・{人為的|じんいてき}な{原因|げんいん} (human-caused cause)\n・{人為的|じんいてき}な{操作|そうさ} (human manipulation)\n・{人為的|じんいてき}な{環境|かんきょう}{破壊|はかい} (man-made environmental destruction)\n\nFORMS:\n・{人為的|じんいてき}な + noun (modifier)\n・{人為的|じんいてき}に + verb (adverbial: artificially, deliberately)",
-  "cross_references": [],
+  "notes": "Used to contrast human-caused events with natural ones. Common in discussions about disasters, environmental issues, and errors.\n\nCOMMON COLLOCATIONS:\n- {人為的|じんいてき}な⟦ミス→ミス：00285_misu⟧ (human error)\n- {人為的|じんいてき}な⟦{原因|げんいん}→原因：01400_genin⟧ (human-caused cause)\n- {人為的|じんいてき}な⟦{操作|そうさ}→操作：03316_sousa⟧ (human manipulation)\n- {人為的|じんいてき}な⟦{環境|かんきょう}{破壊|はかい}→環境破壊：15957_kankyouhakai⟧ (man-made environmental destruction)\n\nFORMS:\n- {人為的|じんいてき}な + noun (modifier)\n- {人為的|じんいてき}⟦に→に：00314_ni⟧ + verb (adverbial: artificially, deliberately)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "29312_jinsai",
+      "reading": "じんさい",
+      "headword": "{人災|じんさい}",
+      "label": "man-made disaster"
+    }
+  ],
   "metadata": {
     "created": "2026-02-17T18:43:45Z",
-    "modified": "2026-02-17T18:43:45Z",
+    "modified": "2026-09-02T04:01:25Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-na"],
+      "pos": [
+        "adjective-na"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["descriptive"]
+      "semantic": [
+        "descriptive"
+      ]
     }
   }
 }

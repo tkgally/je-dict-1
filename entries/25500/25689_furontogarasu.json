@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25689_furontogarasu_ex1",
-      "japanese": "フロントガラスが{汚|よご}れている。",
+      "japanese": "フロントガラス⟦が→が：00051_ga⟧⟦{汚|よご}れている→汚れる：01293_yogoreru⟧。",
       "english": "The windshield is dirty.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25689_furontogarasu_ex2",
-      "japanese": "フロントガラスにひびが{入|はい}った。",
+      "japanese": "フロントガラス⟦に→に：00314_ni⟧ひび⟦が→が：00051_ga⟧⟦{入|はい}った→入る：00494_hairu⟧。",
       "english": "A crack formed in the windshield.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25689_furontogarasu_ex3",
-      "japanese": "{冬|ふゆ}の{朝|あさ}はフロントガラスが{凍|こお}るので、{出発|しゅっぱつ}{前|まえ}にエンジンをかけて{暖|あたた}めておく。",
+      "japanese": "⟦{冬|ふゆ}→冬：00623_fuyu⟧⟦の→の：09472_no⟧⟦{朝|あさ}→朝：02277_asa⟧⟦は→は：00079_ha⟧フロントガラス⟦が→が：00051_ga⟧⟦{凍|こお}る→凍る：02100_kooru⟧⟦の→の：09472_no⟧で、⟦{出発|しゅっぱつ}→出発：02085_shuppatsu⟧⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧⟦エンジン→エンジン：03835_enjin⟧⟦を→を：00422_wo⟧⟦かけて→かける：00854_kakeru⟧⟦{暖|あたた}めて→暖める：01858_atatameru⟧おく。",
       "english": "The windshield freezes on winter mornings, so I start the engine beforehand to warm it up.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "A Japanese-English hybrid compound (wasei-eigo) of フロント (front) and ガラス (glass, from Dutch \"glas\"). The standard everyday term in Japanese, while English uses \"windshield\" (American) or \"windscreen\" (British).\n\nCOMMON COLLOCATIONS:\n- フロントガラスが{割|わ}れる: the windshield breaks\n- フロントガラスにひびが{入|はい}る: the windshield cracks\n- フロントガラスが{曇|くも}る: the windshield fogs up\n- フロントガラスを{拭|ふ}く: to wipe the windshield\n\nSIMILAR WORDS:\n- リアガラス: rear window, back glass — the glass at the back of the vehicle\n- ワイパー: wiper — the device that cleans the windshield\n- サイドミラー: side mirror — another external car component loanword",
+  "notes": "A Japanese-English hybrid compound (wasei-eigo) of ⟦フロント→フロント：01378_furonto⟧ (front) and ⟦ガラス→ガラス：01777_garasu⟧ (glass, from Dutch \"glas\"). The standard everyday term in Japanese, while English uses \"windshield\" (American) or \"windscreen\" (British).\n\nCOMMON COLLOCATIONS:\n- フロントガラス⟦が→が：00051_ga⟧⟦{割|わ}れる→割れる：00907_wareru⟧: the windshield breaks\n- フロントガラス⟦に→に：00314_ni⟧ひび⟦が→が：00051_ga⟧⟦{入|はい}る→入る：00494_hairu⟧: the windshield cracks\n- フロントガラス⟦が→が：00051_ga⟧⟦{曇|くも}る→曇る：00723_kumoru⟧: the windshield fogs up\n- フロントガラス⟦を→を：00422_wo⟧⟦{拭|ふ}く→拭く：04261_fuku⟧: to wipe the windshield\n\nSIMILAR WORDS:\n- リアガラス: rear window, back glass — the glass at the back of the vehicle\n- ⟦ワイパー→ワイパー：07334_waipaa⟧: wiper — the device that cleans the windshield\n- ⟦サイドミラー→サイドミラー：06552_saidomiraa⟧: side mirror — another external car component loanword",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07334_waipaa",
+      "reading": "わいぱー",
+      "headword": "ワイパー",
+      "label": "wiper"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06552_saidomiraa",
+      "reading": "さいどみらー",
+      "headword": "サイドミラー",
+      "label": "side mirror"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,6 +78,6 @@
       ]
     },
     "created": "2026-04-26T15:20:45Z",
-    "modified": "2026-08-04T21:28:28Z"
+    "modified": "2026-09-02T04:02:23Z"
   }
 }

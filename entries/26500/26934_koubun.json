@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26934_koubun_ex1",
-      "japanese": "{日本語|にほんご}の{構文|こうぶん}を{学|まな}ぶ。",
+      "japanese": "⟦{日本語|にほんご}→日本語：00614_nihongo⟧⟦の→の：09472_no⟧{構文|こうぶん}⟦を→を：00422_wo⟧⟦{学|まな}ぶ→学ぶ：01987_manabu⟧。",
       "english": "To study Japanese sentence structure.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26934_koubun_ex2",
-      "japanese": "この{構文|こうぶん}はプログラミングでよく{使|つか}われる。",
+      "japanese": "⟦この→この：00962_kono⟧{構文|こうぶん}⟦は→は：00079_ha⟧⟦プログラミング→プログラミング：06099_puroguramingu⟧⟦で→で：00502_de⟧⟦よく→よく：00601_yoku⟧⟦{使|つか}われる→使う：00473_tsukau⟧。",
       "english": "This syntax is commonly used in programming.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26934_koubun_ex3",
-      "japanese": "{複雑|ふくざつ}な{構文|こうぶん}の{文|ぶん}は、{読|よ}み{手|て}にとって{理解|りかい}しにくいことがある。",
+      "japanese": "⟦{複雑|ふくざつ}→複雑：01115_fukuzatsu⟧な{構文|こうぶん}⟦の→の：09472_no⟧⟦{文|ぶん}→文：03716_bun⟧⟦は→は：00079_ha⟧、{読|よ}み{手|て}⟦にとって→にとって：06803_nitotte⟧⟦{理解|りかい}→理解：03674_rikai⟧しにくいこと⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "Sentences with complex syntax can be difficult for readers to understand.",
       "sense_numbers": [
         1
@@ -44,8 +44,30 @@
       "notes": null
     }
   ],
-  "notes": "Used in both natural language linguistics and computer programming. In linguistics, it refers to how words combine to form grammatically correct sentences. In programming, it refers to the rules governing how code must be written.\n\nCOMMON COLLOCATIONS:\n- {構文|こうぶん}{解析|かいせき}: syntactic analysis; parsing\n- {構文|こうぶん}エラー: syntax error\n- {構文|こうぶん}{規則|きそく}: syntactic rules\n- {基本|きほん}{構文|こうぶん}: basic syntax\n- {複雑|ふくざつ}な{構文|こうぶん}: complex syntax\n\nSIMILAR WORDS:\n- {文法|ぶんぽう}: grammar — broader term covering all grammatical rules including morphology, not just word order\n- {文型|ぶんけい}: sentence pattern — specific patterns taught in language classes (e.g., AはBです)\n- {語順|ごじゅん}: word order — specifically about the order in which words appear in a sentence",
-  "cross_references": [],
+  "notes": "Used in both natural language linguistics and computer programming. In linguistics, it refers to how words combine to form grammatically correct sentences. In programming, it refers to the rules governing how code must be written.\n\nCOMMON COLLOCATIONS:\n- {構文|こうぶん}⟦{解析|かいせき}→解析：16075_kaiseki⟧: syntactic analysis; parsing\n- {構文|こうぶん}⟦エラー→エラー：08429_eraa⟧: syntax error\n- {構文|こうぶん}⟦{規則|きそく}→規則：01382_kisoku⟧: syntactic rules\n- ⟦{基本|きほん}→基本：00226_kihon⟧{構文|こうぶん}: basic syntax\n- ⟦{複雑|ふくざつ}→複雑：01115_fukuzatsu⟧な{構文|こうぶん}: complex syntax\n\nSIMILAR WORDS:\n- ⟦{文法|ぶんぽう}→文法：01506_bunpou⟧: grammar — broader term covering all grammatical rules including morphology, not just word order\n- ⟦{文型|ぶんけい}→文型：27004_bunkei⟧: sentence pattern — specific patterns taught in language classes (e.g., A⟦は→は：00079_ha⟧Bです)\n- ⟦{語順|ごじゅん}→語順：14279_gojun⟧: word order — specifically about the order in which words appear in a sentence",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01506_bunpou",
+      "reading": "ぶんぽう",
+      "headword": "{文法|ぶんぽう}",
+      "label": "grammar"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27004_bunkei",
+      "reading": "ぶんけい",
+      "headword": "{文型|ぶんけい}",
+      "label": "sentence pattern"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14279_gojun",
+      "reading": "ごじゅん",
+      "headword": "{語順|ごじゅん}",
+      "label": "word order"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -63,6 +85,6 @@
       ]
     },
     "created": "2026-05-05T16:19:53Z",
-    "modified": "2026-05-05T16:19:53Z"
+    "modified": "2026-09-02T04:02:28Z"
   }
 }

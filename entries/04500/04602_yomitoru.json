@@ -2,7 +2,7 @@
   "id": "04602_yomitoru",
   "headword": "{読|よ}み{取|と}る",
   "reading": "よみとる",
-  "part_of_speech": "godan verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to read and understand, to interpret, to scan",
   "conjugation": {
     "type": "godan",
@@ -208,11 +208,26 @@
       ]
     }
   ],
-  "notes": "{読|よ}み{取|と}る is a transitive verb (⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧) meaning to read and comprehend or to scan.\n\nCOMPOUND STRUCTURE:\n- ⟦{読|よ}む→読む：00426_yomu⟧ (to read) + ⟦{取|と}る→取る：00565_toru⟧ (to take) → to take in what one reads\n\nASPECT (ている):\n{読|よ}み{取|と}っている indicates an ongoing process of interpreting or scanning.\n\nCOMMON PATTERNS:\n- ⟦{意図|いと}→意図：12625_ito⟧⟦を→を：00422_wo⟧{読|よ}み{取|と}る (read someone's intention)\n- ⟦{行間|ぎょうかん}→行間：07324_gyoukan⟧⟦を→を：00422_wo⟧{読|よ}み{取|と}る (read between the lines)\n- ⟦{空気|くうき}→空気：01390_kuuki⟧⟦を→を：00422_wo⟧{読|よ}み{取|と}る (read the room/atmosphere)\n- ⟦バーコード→バーコード：10282_baakoodo⟧⟦を→を：00422_wo⟧{読|よ}み{取|と}る (scan a barcode)\n- ⟦QRコード→QRコード：06403_kyuuaarukoodo⟧⟦を→を：00422_wo⟧{読|よ}み{取|と}る (scan a QR code)\n\nRELATED WORDS:\n- ⟦{読|よ}み{取|と}り→読み取り：08714_yomitori⟧: reading, scanning; 読み取り機 = scanner\n\nTECHNICAL USAGE:\nIn the digital context, {読|よ}み{取|と}る is the standard verb for scanning barcodes, QR codes, IC cards, etc.",
-  "cross_references": [],
+  "notes": "{読|よ}み{取|と}る is a transitive verb (⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧) meaning to read and comprehend or to scan.\n\nETYMOLOGY:\n- ⟦{読|よ}む→読む：00426_yomu⟧ (to read) + ⟦{取|と}る→取る：00565_toru⟧ (to take) → to take in what one reads\n\nASPECT (ている):\n{読|よ}み{取|と}って⟦いる→いる：00495_iru⟧ indicates an ongoing process of interpreting or scanning.\n\nCOMMON PATTERNS:\n- ⟦{意図|いと}→意図：12625_ito⟧⟦を→を：00422_wo⟧{読|よ}み{取|と}る (read someone's intention)\n- ⟦{行間|ぎょうかん}→行間：07324_gyoukan⟧⟦を→を：00422_wo⟧{読|よ}み{取|と}る (read between the lines)\n- ⟦{空気|くうき}→空気：01390_kuuki⟧⟦を→を：00422_wo⟧{読|よ}み{取|と}る (read the room/atmosphere)\n- ⟦バーコード→バーコード：10282_baakoodo⟧⟦を→を：00422_wo⟧{読|よ}み{取|と}る (scan a barcode)\n- ⟦QRコード→QRコード：06403_kyuuaarukoodo⟧⟦を→を：00422_wo⟧{読|よ}み{取|と}る (scan a QR code)\n\nRELATED WORDS:\n- ⟦{読|よ}み{取|と}り→読み取り：08714_yomitori⟧: reading, scanning; 読み取り機 = scanner\n\nTECHNICAL USAGE:\nIn the digital context, {読|よ}み{取|と}る is the standard verb for scanning barcodes, QR codes, IC cards, etc.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "08714_yomitori",
+      "reading": "よみとり",
+      "headword": "{読|よ}み{取|と}り",
+      "label": "reading, scanning"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25269_kumitoru",
+      "reading": "くみとる",
+      "headword": "{汲|く}み{取|と}る",
+      "label": "to scoop up"
+    }
+  ],
   "metadata": {
     "created": "2026-01-14T03:52:00Z",
-    "modified": "2026-06-10T17:34:32Z",
+    "modified": "2026-09-02T04:01:05Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

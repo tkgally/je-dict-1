@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "23105_aomurasaki_ex1",
-      "japanese": "{空|そら}が{青紫|あおむらさき}に{染|そ}まった。",
+      "japanese": "⟦{空|そら}→空：02216_sora⟧⟦が→が：00051_ga⟧{青紫|あおむらさき}⟦に→に：00314_ni⟧⟦{染|そ}まった→染まる：04254_somaru⟧。",
       "english": "The sky was dyed blue-purple.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "23105_aomurasaki_ex2",
-      "japanese": "{青紫|あおむらさき}の{紫陽花|あじさい}が{咲|さ}いている。",
+      "japanese": "{青紫|あおむらさき}⟦の→の：09472_no⟧⟦{紫陽花|あじさい}→紫陽花：04997_ajisai⟧⟦が→が：00051_ga⟧⟦{咲|さ}いている→咲く：08150_saku⟧。",
       "english": "Blue-purple hydrangeas are blooming.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "23105_aomurasaki_ex3",
-      "japanese": "{夕暮|ゆうぐ}れの{空|そら}が{青紫|あおむらさき}から{濃紺|のうこん}に{変|か}わっていく{様子|ようす}が{美|うつく}しかった。",
+      "japanese": "⟦{夕暮|ゆうぐ}れ→夕暮れ：07682_yuugure⟧⟦の→の：09472_no⟧⟦{空|そら}→空：02216_sora⟧⟦が→が：00051_ga⟧{青紫|あおむらさき}⟦から→から：00504_kara⟧⟦{濃紺|のうこん}→濃紺：15616_noukon⟧⟦に→に：00314_ni⟧⟦{変|か}わって→変わる：00714_kawaru⟧いく⟦{様子|ようす}→様子：01521_yousu⟧⟦が→が：00051_ga⟧⟦{美|うつく}しかった→美しい：01121_utsukushii⟧。",
       "english": "It was beautiful watching the evening sky change from blue-purple to dark navy.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "A compound color name combining {青|あお} (blue) and {紫|むらさき} (purple). This is a common pattern in Japanese for naming intermediate colors. The color sits between blue and purple on the spectrum.\n\nCOMMON COLLOCATIONS:\n- {青紫|あおむらさき}の{花|はな}: blue-purple flowers\n- {青紫|あおむらさき}に{染|そ}まる: to be dyed blue-purple\n- {青紫|あおむらさき}{色|いろ}: blue-purple color\n\nRELATED TERMS:\n- {紫|むらさき}: purple — one of the component colors\n- {青|あお}: blue — the other component color\n- {赤紫|あかむらさき}: red-purple; magenta — the opposite blend, leaning toward red\n- {藍|あい}: indigo — a deep blue-violet dye and color with historical significance in Japan",
+  "notes": "A compound color name combining ⟦{青|あお}→青：02841_ao⟧ (blue) and ⟦{紫|むらさき}→紫：00297_murasaki⟧ (purple). This is a common pattern in Japanese for naming intermediate colors. The color sits between blue and purple on the spectrum.\n\nCOMMON COLLOCATIONS:\n- {青紫|あおむらさき}⟦の→の：09472_no⟧⟦{花|はな}→花：00523_hana⟧: blue-purple flowers\n- {青紫|あおむらさき}⟦に→に：00314_ni⟧⟦{染|そ}まる→染まる：04254_somaru⟧: to be dyed blue-purple\n- {青紫|あおむらさき}⟦{色|いろ}→色：00849_iro⟧: blue-purple color\n\nRELATED WORDS:\n- ⟦{紫|むらさき}→紫：00297_murasaki⟧: purple — one of the component colors\n- ⟦{青|あお}→青：02841_ao⟧: blue — the other component color\n- {赤紫|あかむらさき}: red-purple; magenta — the opposite blend, leaning toward red\n- ⟦{藍|あい}→藍：20100_ai⟧: indigo — a deep blue-violet dye and color with historical significance in Japan",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "20100_ai",
+      "reading": "あい",
+      "headword": "{藍|あい}",
+      "label": "indigo"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +68,6 @@
       ]
     },
     "created": "2026-04-08T18:37:15Z",
-    "modified": "2026-04-10T08:28:27Z"
+    "modified": "2026-09-02T04:02:11Z"
   }
 }

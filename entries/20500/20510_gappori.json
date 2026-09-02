@@ -15,40 +15,74 @@
   "examples": [
     {
       "id": "20510_gappori_ex1",
-      "japanese": "がっぽり{稼|かせ}いだ。",
+      "japanese": "がっぽり⟦{稼|かせ}いだ→稼ぐ：02040_kasegu⟧。",
       "english": "I raked in a lot of money.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20510_gappori_ex2",
-      "japanese": "ボーナスをがっぽりもらった。",
+      "japanese": "⟦ボーナス→ボーナス：05878_boonasu⟧⟦を→を：00422_wo⟧がっぽり⟦もらった→もらう：00520_morau⟧。",
       "english": "I got a hefty bonus.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20510_gappori_ex3",
-      "japanese": "あの{会社|かいしゃ}は{不動産|ふどうさん}でがっぽり{儲|もう}けて、{急成長|きゅうせいちょう}した。",
+      "japanese": "⟦あの→あの：00915_ano⟧⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦は→は：00079_ha⟧⟦{不動産|ふどうさん}→不動産：06726_fudousan⟧⟦で→で：00502_de⟧がっぽり⟦{儲|もう}けて→儲ける：20583_moukeru⟧、⟦{急成長|きゅうせいちょう}→急成長：15841_kyuuseichou⟧⟦した→する：00392_suru⟧。",
       "english": "That company made a killing in real estate and grew rapidly.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A colloquial adverb used almost exclusively in the context of money — earning, profiting, or taking large sums. Has a vivid, expressive quality and can carry a slightly envious or critical undertone depending on context.\n\nCOMMON COLLOCATIONS:\n- がっぽり{稼|かせ}ぐ: to earn a lot\n- がっぽり{儲|もう}ける: to make a killing (profit)\n- がっぽりもらう: to receive a large amount\n- がっぽり{取|と}る: to take a large cut\n\nSIMILAR WORDS:\n- たんまり: a lot (of money) — similar informal nuance, slightly older-sounding\n- ごっそり: the whole lot — emphasis on taking everything, not just money\n- どっさり: in heaps — emphasizes quantity of physical things, not specifically money\n- たっぷり: plenty — neutral, not limited to money contexts\n\nREGISTER:\nInformal and colloquial. Not used in formal writing or polite speech. Common in casual conversation, especially when talking about others' earnings with a mix of admiration and jealousy.",
+  "notes": "A colloquial adverb used almost exclusively in the context of money — earning, profiting, or taking large sums. Has a vivid, expressive quality and can carry a slightly envious or critical undertone depending on context.\n\nCOMMON COLLOCATIONS:\n- がっぽり⟦{稼|かせ}ぐ→稼ぐ：02040_kasegu⟧: to earn a lot\n- がっぽり⟦{儲|もう}ける→儲ける：20583_moukeru⟧: to make a killing (profit)\n- がっぽり⟦もらう→もらう：00520_morau⟧: to receive a large amount\n- がっぽり⟦{取|と}る→取る：00565_toru⟧: to take a large cut\n\nSIMILAR WORDS:\n- たんまり: a lot (of money) — similar informal nuance, slightly older-sounding\n- ⟦ごっそり→ごっそり：10336_gossori⟧: the whole lot — emphasis on taking everything, not just money\n- ⟦どっさり→どっさり：20501_dossari⟧: in heaps — emphasizes quantity of physical things, not specifically money\n- ⟦たっぷり→たっぷり：03404_tappuri⟧: plenty — neutral, not limited to money contexts\n\nREGISTER:\nInformal and colloquial. Not used in formal writing or polite speech. Common in casual conversation, especially when talking about others' earnings with a mix of admiration and jealousy.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "10336_gossori",
+      "reading": "ごっそり",
+      "headword": "ごっそり",
+      "label": "the whole lot"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20501_dossari",
+      "reading": "どっさり",
+      "headword": "どっさり",
+      "label": "in heaps"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03404_tappuri",
+      "reading": "たっぷり",
+      "headword": "たっぷり",
+      "label": "plenty"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adverb"],
+      "pos": [
+        "adverb"
+      ],
       "formality": "informal",
       "politeness": "plain",
-      "semantic": ["money", "onomatopoeia"]
+      "semantic": [
+        "money",
+        "onomatopoeia"
+      ]
     },
     "created": "2026-03-29T16:23:05Z",
-    "modified": "2026-03-29T16:23:05Z"
+    "modified": "2026-09-02T04:01:59Z"
   }
 }

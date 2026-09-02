@@ -3,7 +3,7 @@
   "headword": "{押|お}し{止|と}める",
   "reading": "おしとめる",
   "romaji": "oshitomeru",
-  "part_of_speech": "verb",
+  "part_of_speech": "verb (ichidan)",
   "gloss": "to hold back; to stop by force",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29660_oshitomeru_ex1",
-      "japanese": "{相手|あいて}を{押|お}し{止|と}める。",
+      "japanese": "⟦{相手|あいて}→相手：01677_aite⟧⟦を→を：00422_wo⟧{押|お}し{止|と}める。",
       "english": "To hold the other person back.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29660_oshitomeru_ex2",
-      "japanese": "{飛|と}び{出|だ}そうとする{子供|こども}を{押|お}し{止|と}めた。",
+      "japanese": "⟦{飛|と}び{出|だ}そう→飛び出す：02374_tobidasu⟧⟦と→と：00512_to⟧⟦する→する：00392_suru⟧⟦{子供|こども}→子供：00554_kodomo⟧⟦を→を：00422_wo⟧{押|お}し{止|と}めた。",
       "english": "I held back the child who was about to dash out.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29660_oshitomeru_ex3",
-      "japanese": "{警備員|けいびいん}が{群衆|ぐんしゅう}を{門|もん}の{前|まえ}で{押|お}し{止|と}めた。",
+      "japanese": "⟦{警備員|けいびいん}→警備員：09867_keibiin⟧⟦が→が：00051_ga⟧⟦{群衆|ぐんしゅう}→群衆：14930_gunshuu⟧⟦を→を：00422_wo⟧⟦{門|もん}→門：14603_mon⟧⟦の→の：09472_no⟧⟦{前|まえ}→前：02255_mae⟧⟦で→で：00502_de⟧{押|お}し{止|と}めた。",
       "english": "The guards held the crowd back in front of the gate.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "TRANSITIVITY: Transitive ichidan verb. Xを{押|お}し{止|と}める. A compound of {押|お}す (to push) and {止|と}める (to stop), so it implies stopping something by pushing against it or holding it in place.\n\nCOMMON COLLOCATIONS:\n- {群衆|ぐんしゅう}を{押|お}し{止|と}める: to hold back a crowd\n- {勢|いきお}いを{押|お}し{止|と}める: to check the momentum of something\n\nSIMILAR WORDS:\n- {食|く}い{止|と}める: to check; to hold in check — stresses preventing spread or worsening, often figurative\n- {引|ひ}き{止|と}める: to hold back; to detain — stops someone from leaving, often by persuasion",
+  "notes": "TRANSITIVITY: Transitive ichidan verb. X⟦を→を：00422_wo⟧{押|お}し{止|と}める. A compound of ⟦{押|お}す→押す：02854_osu⟧ (to push) and ⟦{止|と}める→止める：00678_tomeru⟧ (to stop), so it implies stopping something by pushing against it or holding it in place.\n\nCOMMON COLLOCATIONS:\n- ⟦{群衆|ぐんしゅう}→群衆：14930_gunshuu⟧⟦を→を：00422_wo⟧{押|お}し{止|と}める: to hold back a crowd\n- ⟦{勢|いきお}い→勢い：01782_ikioi⟧⟦を→を：00422_wo⟧{押|お}し{止|と}める: to check the momentum of something\n\nSIMILAR WORDS:\n- ⟦{食|く}い{止|と}める→食い止める：06384_kuitomeru⟧: to check; to hold in check — stresses preventing spread or worsening, often figurative\n- ⟦{引|ひ}き{止|と}める→引き止める：06166_hikitomeru⟧: to hold back; to detain — stops someone from leaving, often by persuasion",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06384_kuitomeru",
+      "reading": "くいとめる",
+      "headword": "{食|く}い{止|と}める",
+      "label": "to check"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06166_hikitomeru",
+      "reading": "ひきとめる",
+      "headword": "{引|ひ}き{止|と}める",
+      "label": "to hold back"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,7 +78,7 @@
       "verb_class": "ichidan"
     },
     "created": "2026-07-03T18:18:03Z",
-    "modified": "2026-07-03T18:18:03Z"
+    "modified": "2026-09-02T04:02:37Z"
   },
   "conjugation": {
     "type": "ichidan",

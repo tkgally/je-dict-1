@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "19569_naniwatomoare_ex1",
-      "japanese": "{何|なに}はともあれ、{無事|ぶじ}でよかった。",
+      "japanese": "{何|なに}はともあれ、⟦{無事|ぶじ}→無事：01602_buji⟧⟦で→で：00502_de⟧⟦よかった→いい：00118_ii⟧。",
       "english": "At any rate, I'm glad you're safe.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "19569_naniwatomoare_ex2",
-      "japanese": "{何|なに}はともあれ、まず{乾杯|かんぱい}しよう。",
+      "japanese": "{何|なに}はともあれ、⟦まず→まず：00796_mazu⟧⟦{乾杯|かんぱい}→乾杯：00176_kanpai⟧⟦しよう→する：00392_suru⟧。",
       "english": "Anyway, let's have a toast first.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "19569_naniwatomoare_ex3",
-      "japanese": "{問題|もんだい}はいろいろあるが、{何|なに}はともあれ{試験|しけん}に{合格|ごうかく}できたのだから{喜|よろこ}ぶべきだ。",
+      "japanese": "⟦{問題|もんだい}→問題：00797_mondai⟧⟦は→は：00079_ha⟧いろいろ⟦ある→ある：00006_aru⟧⟦が→が：00051_ga⟧、{何|なに}はともあれ⟦{試験|しけん}→試験：01422_shiken⟧⟦に→に：00314_ni⟧⟦{合格|ごうかく}→合格：02816_goukaku⟧⟦できた→できる：00557_dekiru⟧⟦の→の：09472_no⟧だ⟦から→から：00504_kara⟧⟦{喜|よろこ}ぶ→喜ぶ：01169_yorokobu⟧べきだ。",
       "english": "There are various problems, but in any case, I passed the exam, so I should be happy.",
       "sense_numbers": [
         1
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "An idiomatic expression meaning \"setting everything else aside.\" Literally {何|なに}は (as for whatever) + ともあれ (be that as it may). Used to redirect attention to what the speaker considers the most important point, often after acknowledging complications.\n\nUSAGE:\nTypically appears at the beginning of a sentence or clause. It has a slightly formal, composed tone and is common in both spoken and written Japanese. Often introduces a positive conclusion after discussing difficulties.\n\nCOMMON COLLOCATIONS:\n- {何|なに}はともあれ、まず〜 — first of all, let's...\n- {何|なに}はともあれ、{無事|ぶじ}で〜 — at any rate, safely...\n- {何|なに}はともあれ、よかった — anyway, I'm glad\n\nSIMILAR WORDS:\n- とにかく — anyway, anyhow; more casual, broader usage\n- いずれにせよ — in any case; more formal, often used in writing\n- ともかく — at any rate; similar to とにかく, slightly more formal\n- とりあえず — for now, for the time being; focuses on immediacy rather than prioritization",
+  "notes": "An idiomatic expression meaning \"setting everything else aside.\" Literally ⟦{何|なに}→何：00498_nani⟧⟦は→は：00079_ha⟧ (as for whatever) + ⟦ともあれ→ともあれ：07337_tomoare⟧ (be that as it may). Used to redirect attention to what the speaker considers the most important point, often after acknowledging complications.\n\nUSAGE:\nTypically appears at the beginning of a sentence or clause. It has a slightly formal, composed tone and is common in both spoken and written Japanese. Often introduces a positive conclusion after discussing difficulties.\n\nCOMMON COLLOCATIONS:\n- {何|なに}はともあれ、⟦まず→まず：00796_mazu⟧〜 — first of all, let's...\n- {何|なに}はともあれ、⟦{無事|ぶじ}→無事：01602_buji⟧で〜 — at any rate, safely...\n- {何|なに}はともあれ、⟦よかった→いい：00118_ii⟧ — anyway, I'm glad\n\nSIMILAR WORDS:\n- ⟦とにかく→とにかく：03464_tonikaku⟧ — anyway, anyhow; more casual, broader usage\n- ⟦いずれにせよ→いずれにせよ：06779_izureniseyo⟧ — in any case; more formal, often used in writing\n- ⟦ともかく→ともかく：06780_tomokaku⟧ — at any rate; similar to ⟦とにかく→とにかく：03464_tonikaku⟧, slightly more formal\n- ⟦とりあえず→とりあえず：05209_toriaezu⟧ — for now, for the time being; focuses on immediacy rather than prioritization",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03464_tonikaku",
+      "reading": "とにかく",
+      "headword": "とにかく",
+      "label": "anyway, anyhow"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06779_izureniseyo",
+      "reading": "いずれにせよ",
+      "headword": "いずれにせよ",
+      "label": "in any case"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06780_tomokaku",
+      "reading": "ともかく",
+      "headword": "ともかく",
+      "label": "at any rate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05209_toriaezu",
+      "reading": "とりあえず",
+      "headword": "とりあえず",
+      "label": "for now, for the time being"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +90,6 @@
       ]
     },
     "created": "2026-03-26T05:18:34Z",
-    "modified": "2026-07-26T21:31:07Z"
+    "modified": "2026-09-02T04:01:56Z"
   }
 }

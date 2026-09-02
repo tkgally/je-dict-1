@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "07726_tobacchiri_ex1",
-      "japanese": "とばっちりを{受|う}けた。",
+      "japanese": "とばっちり⟦を→を：00422_wo⟧⟦{受|う}けた→受ける：01215_ukeru⟧。",
       "english": "I got caught up in it.",
       "has_audio": false,
       "sense_numbers": [
@@ -23,7 +23,7 @@
     },
     {
       "id": "07726_tobacchiri_ex2",
-      "japanese": "{上司|じょうし}の{機嫌|きげん}が{悪|わる}くて、とばっちりを{食|く}らった。",
+      "japanese": "⟦{上司|じょうし}→上司：03286_joushi⟧⟦の→の：09472_no⟧⟦{機嫌|きげん}→機嫌：02367_kigen⟧⟦が→が：00051_ga⟧⟦{悪|わる}くて→悪い：00908_warui⟧、とばっちり⟦を→を：00422_wo⟧{食|く}らった。",
       "english": "My boss was in a bad mood and I got caught in the crossfire.",
       "has_audio": false,
       "sense_numbers": [
@@ -32,7 +32,7 @@
     },
     {
       "id": "07726_tobacchiri_ex3",
-      "japanese": "{友達|ともだち}の{喧嘩|けんか}のとばっちりで{怒|おこ}られた。",
+      "japanese": "⟦{友達|ともだち}→友達：01478_tomodachi⟧⟦の→の：09472_no⟧⟦{喧嘩|けんか}→喧嘩：02996_kenka⟧⟦の→の：09472_no⟧とばっちり⟦で→で：00502_de⟧⟦{怒|おこ}られた→怒る：00876_okoru⟧。",
       "english": "I got scolded as collateral damage from my friends' fight.",
       "has_audio": false,
       "sense_numbers": [
@@ -40,10 +40,19 @@
       ]
     }
   ],
-  "notes": "ETYMOLOGY:\nRelated to {飛|と}ぶ (to fly) and ちる (to scatter) - originally referring to water splashing on a bystander. Now used metaphorically.\n\nUSAGE:\nDescribes being an innocent victim who suffers due to:\n・Others' conflicts or mistakes\n・Bad timing or being in the wrong place\n・Chain reactions of negative events\n\nCOLLOCATIONS:\n・とばっちりを{受|う}ける - to receive collateral damage\n・とばっちりを{食|く}らう - to get caught up in (stronger)\n・とばっちりが{来|く}る - collateral damage comes\n\nREGISTER:\nCasual, spoken Japanese. Often used humorously or with mild complaint.",
+  "notes": "ETYMOLOGY:\nRelated to ⟦{飛|と}ぶ→飛ぶ：00759_tobu⟧ (to fly) and ちる (to scatter) - originally referring to water splashing on a bystander. Now used metaphorically.\n\nUSAGE:\nDescribes being an innocent victim who suffers due to:\n- Others' conflicts or mistakes\n- Bad timing or being in the wrong place\n- Chain reactions of negative events\n\nCOMMON COLLOCATIONS:\n- とばっちり⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧ - to receive collateral damage\n- とばっちり⟦を→を：00422_wo⟧{食|く}らう - to get caught up in (stronger)\n- とばっちり⟦が→が：00051_ga⟧⟦{来|く}る→来る：00254_kuru⟧ - collateral damage comes\n\nREGISTER:\nCasual, spoken Japanese. Often used humorously or with mild complaint.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07464_makizoe",
+      "reading": "まきぞえ",
+      "headword": "{巻|ま}き{添|ぞ}え",
+      "label": "getting caught up in"
+    }
+  ],
   "metadata": {
     "created": "2026-01-21T00:25:02Z",
-    "modified": "2026-06-19T21:43:28Z",
+    "modified": "2026-09-02T04:01:12Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -51,6 +60,7 @@
         "noun"
       ],
       "formality": "informal",
+      "politeness": "plain",
       "semantic": [
         "general"
       ]

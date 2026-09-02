@@ -3,7 +3,7 @@
   "headword": "{包囲|ほうい}",
   "reading": "ほうい",
   "romaji": "houi",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "encirclement; siege; surrounding",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22408_houi_ex1",
-      "japanese": "{敵|てき}を{包囲|ほうい}する。",
+      "japanese": "⟦{敵|てき}→敵：03546_teki⟧⟦を→を：00422_wo⟧{包囲|ほうい}⟦する→する：00392_suru⟧。",
       "english": "To surround the enemy.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22408_houi_ex2",
-      "japanese": "{警察|けいさつ}が{建物|たてもの}を{包囲|ほうい}した。",
+      "japanese": "⟦{警察|けいさつ}→警察：01393_keisatsu⟧⟦が→が：00051_ga⟧⟦{建物|たてもの}→建物：01458_tatemono⟧⟦を→を：00422_wo⟧{包囲|ほうい}⟦した→する：00392_suru⟧。",
       "english": "The police surrounded the building.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22408_houi_ex3",
-      "japanese": "{城|しろ}は{三方|さんぽう}から{包囲|ほうい}され、{食料|しょくりょう}の{補給|ほきゅう}も{断|た}たれた。",
+      "japanese": "⟦{城|しろ}→城：03255_shiro⟧⟦は→は：00079_ha⟧{三方|さんぽう}⟦から→から：00504_kara⟧{包囲|ほうい}⟦され→する：00392_suru⟧、⟦{食料|しょくりょう}→食料：03250_shokuryou⟧⟦の→の：09472_no⟧⟦{補給|ほきゅう}→補給：14055_hokyuu⟧⟦も→も：00484_mo⟧⟦{断|た}たれた→断つ：27885_tatsu⟧。",
       "english": "The castle was besieged from three sides, and food supplies were also cut off.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {包|ほう} (wrap/enclose) and {囲|い} (surround). Describes the tactical or physical act of surrounding something. Common in military history, news reports about police operations, and figurative expressions about being cornered.\n\nCOMMON COLLOCATIONS:\n- {包囲|ほうい}する: to surround, to besiege\n- {包囲|ほうい}{網|もう}: encirclement net, cordon\n- {包囲|ほうい}を{突破|とっぱ}する: to break through an encirclement\n- {包囲|ほうい}{攻撃|こうげき}: siege attack\n- {包囲|ほうい}される: to be surrounded\n\nSIMILAR WORDS:\n- {囲|かこ}む: to surround — the everyday verb for surrounding\n- {取|と}り{囲|かこ}む: to surround / to encircle — emphasizes closing in from all sides\n- {封鎖|ふうさ}: blockade — focuses on blocking access rather than surrounding\n\nNOTE ON HOMOPHONES:\nDo not confuse with {方位|ほうい} (compass direction/bearing), which has the same reading.",
+  "notes": "Composed of {包|ほう} (wrap/enclose) and {囲|い} (surround). Describes the tactical or physical act of surrounding something. Common in military history, news reports about police operations, and figurative expressions about being cornered.\n\nCOMMON COLLOCATIONS:\n- {包囲|ほうい}⟦する→する：00392_suru⟧: to surround, to besiege\n- {包囲|ほうい}{網|もう}: encirclement net, cordon\n- {包囲|ほうい}⟦を→を：00422_wo⟧⟦{突破|とっぱ}する→突破する：25363_toppasuru⟧: to break through an encirclement\n- {包囲|ほうい}⟦{攻撃|こうげき}→攻撃：02748_kougeki⟧: siege attack\n- {包囲|ほうい}⟦される→する：00392_suru⟧: to be surrounded\n\nSIMILAR WORDS:\n- ⟦{囲|かこ}む→囲む：02037_kakomu⟧: to surround — the everyday verb for surrounding\n- ⟦{取|と}り{囲|かこ}む→取り囲む：20925_torikakomu⟧: to surround / to encircle — emphasizes closing in from all sides\n- ⟦{封鎖|ふうさ}→封鎖：18846_fuusa⟧: blockade — focuses on blocking access rather than surrounding\n\nNOTE ON HOMOPHONES:\nDo not confuse with ⟦{方位|ほうい}→方位：13047_houi⟧ (compass direction/bearing), which has the same reading.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02037_kakomu",
+      "reading": "かこむ",
+      "headword": "{囲|かこ}む",
+      "label": "to surround"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20925_torikakomu",
+      "reading": "とりかこむ",
+      "headword": "{取|と}り{囲|かこ}む",
+      "label": "to surround / to encircle"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18846_fuusa",
+      "reading": "ふうさ",
+      "headword": "{封鎖|ふうさ}",
+      "label": "blockade"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,10 +82,11 @@
         "military",
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-04-05T21:08:10Z",
-    "modified": "2026-06-15T07:56:51Z"
+    "modified": "2026-09-02T04:02:08Z"
   },
   "conjugation": {
     "type": "suru",

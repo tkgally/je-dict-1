@@ -3,7 +3,7 @@
   "headword": "ざらつく",
   "reading": "ざらつく",
   "romaji": "zaratsuku",
-  "part_of_speech": "verb-godan",
+  "part_of_speech": "verb (godan)",
   "gloss": "to feel rough; to be coarse to the touch",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "27093_zaratsuku_ex1",
-      "japanese": "{肌|はだ}がざらつく。",
+      "japanese": "⟦{肌|はだ}→肌：02243_hada⟧⟦が→が：00051_ga⟧ざらつく。",
       "english": "My skin feels rough.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "27093_zaratsuku_ex2",
-      "japanese": "{乾燥|かんそう}すると{手|て}がざらついてくる。",
+      "japanese": "⟦{乾燥|かんそう}→乾燥：00184_kansou⟧⟦する→する：00392_suru⟧⟦と→と：00512_to⟧⟦{手|て}→手：00569_te⟧⟦が→が：00051_ga⟧ざらついてくる。",
       "english": "When it gets dry, my hands start to feel rough.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "27093_zaratsuku_ex3",
-      "japanese": "このタオルは{洗|あら}いすぎてざらついた{手触|てざわ}りになってしまった。",
+      "japanese": "⟦この→この：00962_kono⟧⟦タオル→タオル：01533_taoru⟧⟦は→は：00079_ha⟧⟦{洗|あら}い→洗う：00827_arau⟧すぎてざらついた⟦{手触|てざわ}り→手触り：12758_tezawari⟧になってしまった。",
       "english": "This towel has been washed so many times that it has a rough feel to it.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "A verb derived from the onomatopoeia ざらざら (rough, gritty texture). Very commonly used when talking about skin care, fabric quality, and surface textures.\n\nCOMMON COLLOCATIONS:\n- {肌|はだ}がざらつく: skin feels rough\n- {手触|てざわ}りがざらつく: the texture feels rough\n- {表面|ひょうめん}がざらつく: the surface is rough\n- ざらついた{感触|かんしょく}: a rough feeling/sensation\n\nRELATED WORDS:\n- ざらざら: rough; gritty (onomatopoeia) — the base mimetic word\n- すべすべ: smooth; silky — the opposite texture\n- かさつく: to be dry and rough (skin) — focuses on dryness rather than texture\n- ごわつく: to feel stiff and rough (fabric) — implies thicker, stiffer roughness\n\nGRAMMAR:\nGodan verb conjugating with く. The て-form is ざらついて. Often used in the ている form to describe an ongoing state: ざらついている (is rough).",
+  "notes": "A verb derived from the onomatopoeia ⟦ざらざら→ざらざら：05174_zarazara⟧ (rough, gritty texture). Very commonly used when talking about skin care, fabric quality, and surface textures.\n\nCOMMON COLLOCATIONS:\n- ⟦{肌|はだ}→肌：02243_hada⟧⟦が→が：00051_ga⟧ざらつく: skin feels rough\n- ⟦{手触|てざわ}り→手触り：12758_tezawari⟧⟦が→が：00051_ga⟧ざらつく: the texture feels rough\n- ⟦{表面|ひょうめん}→表面：03587_hyoumen⟧⟦が→が：00051_ga⟧ざらつく: the surface is rough\n- ざらついた⟦{感触|かんしょく}→感触：12743_kanshoku⟧: a rough feeling/sensation\n\nRELATED WORDS:\n- ⟦ざらざら→ざらざら：05174_zarazara⟧: rough; gritty (onomatopoeia) — the base mimetic word\n- ⟦すべすべ→すべすべ：05163_subesube⟧: smooth; silky — the opposite texture\n- かさつく: to be dry and rough (skin) — focuses on dryness rather than texture\n- ごわつく: to feel stiff and rough (fabric) — implies thicker, stiffer roughness\n\nCOMMON PATTERNS:\nGodan verb conjugating with く. The て-form is ざらついて. Often used in the て⟦いる→いる：00495_iru⟧ form to describe an ongoing state: ざらついて⟦いる→いる：00495_iru⟧ (is rough).",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "05174_zarazara",
+      "reading": "ざらざら",
+      "headword": "ざらざら",
+      "label": "rough"
+    },
+    {
+      "type": "related",
+      "target_id": "05163_subesube",
+      "reading": "すべすべ",
+      "headword": "すべすべ",
+      "label": "smooth"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,7 +77,7 @@
       "verb_class": "godan-ku"
     },
     "created": "2026-05-07T11:13:46Z",
-    "modified": "2026-05-07T11:13:46Z"
+    "modified": "2026-09-02T04:02:29Z"
   },
   "conjugation": {
     "type": "godan",

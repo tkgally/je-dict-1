@@ -3,7 +3,7 @@
   "headword": "{口頭|こうとう}{発表|はっぴょう}",
   "reading": "こうとうはっぴょう",
   "romaji": "koutouhappyou",
-  "part_of_speech": "noun (する verb)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "oral presentation",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24471_koutouhappyou_ex1",
-      "japanese": "{来週|らいしゅう}の{口頭|こうとう}{発表|はっぴょう}の{準備|じゅんび}をしている。",
+      "japanese": "⟦{来週|らいしゅう}→来週：00746_raishuu⟧⟦の→の：09472_no⟧{口頭|こうとう}{発表|はっぴょう}⟦の→の：09472_no⟧⟦{準備|じゅんび}→準備：01431_junbi⟧⟦を→を：00422_wo⟧⟦している→する：00392_suru⟧。",
       "english": "I'm preparing for next week's oral presentation.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24471_koutouhappyou_ex2",
-      "japanese": "{学会|がっかい}で{口頭|こうとう}{発表|はっぴょう}を{行|おこな}った。",
+      "japanese": "⟦{学会|がっかい}→学会：04139_gakkai⟧⟦で→で：00502_de⟧{口頭|こうとう}{発表|はっぴょう}⟦を→を：00422_wo⟧⟦{行|おこな}った→行う：01238_okonau⟧。",
       "english": "I gave an oral presentation at the academic conference.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24471_koutouhappyou_ex3",
-      "japanese": "{口頭|こうとう}{発表|はっぴょう}の{時間|じかん}は{一人|ひとり}{十五分|じゅうごふん}で、その{後|あと}{五分間|ごふんかん}の{質疑|しつぎ}{応答|おうとう}がある。",
+      "japanese": "{口頭|こうとう}{発表|はっぴょう}⟦の→の：09472_no⟧⟦{時間|じかん}→時間：00468_jikan⟧⟦は→は：00079_ha⟧⟦{一人|ひとり}→一人：00630_hitori⟧{十五分|じゅうごふん}⟦で→で：00502_de⟧、⟦その→その：00993_sono⟧⟦{後|あと}→後：09580_ato⟧{五分間|ごふんかん}⟦の→の：09472_no⟧⟦{質疑|しつぎ}{応答|おうとう}→質疑応答：16289_shitsugioutou⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "Each oral presentation is 15 minutes long, followed by a 5-minute Q&A session.",
       "sense_numbers": [
         1
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {口頭|こうとう} (oral, verbal) + {発表|はっぴょう} (presentation, announcement). Refers specifically to presentations delivered by speaking, as opposed to written reports or poster presentations.\n\nCOMMON COLLOCATIONS:\n- {口頭|こうとう}{発表|はっぴょう}を{行|おこな}う: to give an oral presentation\n- {口頭|こうとう}{発表|はっぴょう}の{準備|じゅんび}: preparation for an oral presentation\n- {口頭|こうとう}{発表|はっぴょう}{審査|しんさ}: oral presentation evaluation\n\nSIMILAR WORDS:\n- プレゼンテーション: presentation (loanword, broader usage, common in business)\n- {研究|けんきゅう}{発表|はっぴょう}: research presentation (content-focused rather than format)\n- ポスター{発表|はっぴょう}: poster presentation (format contrast)\n- スピーチ: speech (more general, not necessarily academic)",
+  "notes": "Composed of ⟦{口頭|こうとう}→口頭：11892_koutou⟧ (oral, verbal) + ⟦{発表|はっぴょう}→発表：03562_happyou⟧ (presentation, announcement). Refers specifically to presentations delivered by speaking, as opposed to written reports or poster presentations.\n\nCOMMON COLLOCATIONS:\n- {口頭|こうとう}{発表|はっぴょう}⟦を→を：00422_wo⟧⟦{行|おこな}う→行う：01238_okonau⟧: to give an oral presentation\n- {口頭|こうとう}{発表|はっぴょう}⟦の→の：09472_no⟧⟦{準備|じゅんび}→準備：01431_junbi⟧: preparation for an oral presentation\n- {口頭|こうとう}{発表|はっぴょう}⟦{審査|しんさ}→審査：08375_shinsa⟧: oral presentation evaluation\n\nSIMILAR WORDS:\n- ⟦プレゼンテーション→プレゼンテーション：29053_purezenteeshon⟧: presentation (loanword, broader usage, common in business)\n- ⟦{研究|けんきゅう}{発表|はっぴょう}→研究発表：24674_kenkyuuhappyou⟧: research presentation (content-focused rather than format)\n- ⟦ポスター→ポスター：09598_posutaa⟧⟦{発表|はっぴょう}→発表：03562_happyou⟧: poster presentation (format contrast)\n- ⟦スピーチ→スピーチ：03852_supiichi⟧: speech (more general, not necessarily academic)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "29053_purezenteeshon",
+      "reading": "ぷれぜんてーしょん",
+      "headword": "プレゼンテーション",
+      "label": "presentation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24674_kenkyuuhappyou",
+      "reading": "けんきゅうはっぴょう",
+      "headword": "{研究発表|けんきゅうはっぴょう}",
+      "label": "research presentation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03852_supiichi",
+      "reading": "すぴーち",
+      "headword": "スピーチ",
+      "label": "speech"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22152_koutoushiken",
+      "reading": "こうとうしけん",
+      "headword": "{口頭|こうとう}{試験|しけん}",
+      "label": "oral examination"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,6 +83,7 @@
         "noun",
         "verb-suru"
       ],
+      "politeness": "plain",
       "semantic": [
         "education",
         "business"
@@ -60,7 +91,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-19T11:18:56Z",
-    "modified": "2026-04-19T11:18:56Z"
+    "modified": "2026-09-02T04:02:18Z"
   },
   "conjugation": {
     "type": "suru",

@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "19632_sokushinsuru_ex1",
-      "japanese": "{健康|けんこう}を{促進|そくしん}する。",
+      "japanese": "⟦{健康|けんこう}→健康：02706_kenkou⟧⟦を→を：00422_wo⟧{促進|そくしん}する。",
       "english": "To promote health.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "19632_sokushinsuru_ex2",
-      "japanese": "{経済|けいざい}{成長|せいちょう}を{促進|そくしん}する{政策|せいさく}。",
+      "japanese": "⟦{経済|けいざい}{成長|せいちょう}→経済成長：20453_keizaiseichou⟧⟦を→を：00422_wo⟧{促進|そくしん}する⟦{政策|せいさく}→政策：10070_seisaku⟧。",
       "english": "A policy that promotes economic growth.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "19632_sokushinsuru_ex3",
-      "japanese": "{政府|せいふ}は{国際|こくさい}{交流|こうりゅう}の{促進|そくしん}に{力|ちから}を{入|い}れている。",
+      "japanese": "⟦{政府|せいふ}→政府：03294_seifu⟧⟦は→は：00079_ha⟧⟦{国際|こくさい}{交流|こうりゅう}→国際交流：16532_kokusaikouryuu⟧⟦の→の：09472_no⟧⟦{促進|そくしん}→促進：05632_sokushin⟧⟦に→に：00314_ni⟧⟦{力|ちから}→力：01661_chikara⟧⟦を→を：00422_wo⟧⟦{入|い}れている→入れる：01098_ireru⟧。",
       "english": "The government is putting effort into promoting international exchange.",
       "sense_numbers": [
         1
@@ -134,7 +134,7 @@
       "notes": null
     }
   ],
-  "notes": "A formal word commonly seen in policy documents, news, and business contexts. The noun form {促進|そくしん} is often used as a modifier.\n\nCOMMON COLLOCATIONS:\n- {販売|はんばい}{促進|そくしん}: sales promotion\n- {健康|けんこう}{促進|そくしん}: health promotion\n- {成長|せいちょう}を{促進|そくしん}する: to promote growth\n- {理解|りかい}を{促進|そくしん}する: to promote understanding\n- {促進|そくしん}{策|さく}: promotional measure\n\nSIMILAR WORDS:\n- {推進|すいしん}する: to propel, to drive forward — implies actively leading and driving a project or initiative\n- {促進|そくしん}する: to promote, to accelerate — implies helping an existing process move faster",
+  "notes": "A formal word commonly seen in policy documents, news, and business contexts. The noun form ⟦{促進|そくしん}→促進：05632_sokushin⟧ is often used as a modifier.\n\nCOMMON COLLOCATIONS:\n- ⟦{販売|はんばい}{促進|そくしん}→販売促進：27077_hanbaisokushin⟧: sales promotion\n- ⟦{健康|けんこう}→健康：02706_kenkou⟧⟦{促進|そくしん}→促進：05632_sokushin⟧: health promotion\n- ⟦{成長|せいちょう}→成長：03290_seichou⟧⟦を→を：00422_wo⟧{促進|そくしん}する: to promote growth\n- ⟦{理解|りかい}→理解：03674_rikai⟧⟦を→を：00422_wo⟧{促進|そくしん}する: to promote understanding\n- ⟦{促進|そくしん}→促進：05632_sokushin⟧⟦{策|さく}→策：09997_saku⟧: promotional measure\n\nSIMILAR WORDS:\n- ⟦{推進|すいしん}する→推進する：17281_suishinsuru⟧: to propel, to drive forward — implies actively leading and driving a project or initiative\n- {促進|そくしん}する: to promote, to accelerate — implies helping an existing process move faster",
   "cross_references": [
     {
       "type": "synonym",
@@ -142,11 +142,25 @@
       "reading": "すいしんする",
       "headword": "{推進|すいしん}する",
       "label": "to drive forward"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21374_kasoku",
+      "reading": "かそく",
+      "headword": "{加速|かそく}する",
+      "label": "to accelerate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21391_kasokusuru",
+      "reading": "かそくする",
+      "headword": "{加速|かそく}する",
+      "label": "to accelerate"
     }
   ],
   "metadata": {
     "created": "2026-03-26T09:35:25Z",
-    "modified": "2026-05-06T06:14:35Z",
+    "modified": "2026-09-02T04:01:56Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
@@ -157,7 +171,8 @@
       "semantic": [
         "change"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

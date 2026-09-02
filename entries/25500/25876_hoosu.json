@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25876_hoosu_ex1",
-      "japanese": "ホースで{庭|にわ}に{水|みず}をまいた。",
+      "japanese": "ホース⟦で→で：00502_de⟧⟦{庭|にわ}→庭：02239_niwa⟧⟦に→に：00314_ni⟧⟦{水|みず}→水：02258_mizu⟧⟦を→を：00422_wo⟧まいた。",
       "english": "I watered the garden with a hose.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25876_hoosu_ex2",
-      "japanese": "ホースから{水|みず}が{漏|も}れている。",
+      "japanese": "ホース⟦から→から：00504_kara⟧⟦{水|みず}→水：02258_mizu⟧⟦が→が：00051_ga⟧⟦{漏|も}れている→漏れる：02435_moreru⟧。",
       "english": "Water is leaking from the hose.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25876_hoosu_ex3",
-      "japanese": "{消防士|しょうぼうし}がホースで{火|ひ}を{消|け}した。",
+      "japanese": "⟦{消防士|しょうぼうし}→消防士：05057_shouboushi⟧⟦が→が：00051_ga⟧ホース⟦で→で：00502_de⟧⟦{火|ひ}→火：02248_hi⟧⟦を→を：00422_wo⟧⟦{消|け}した→消す：00528_kesu⟧。",
       "english": "The firefighters put out the fire with a hose.",
       "sense_numbers": [
         1
@@ -45,7 +45,7 @@
     },
     {
       "id": "25876_hoosu_ex4",
-      "japanese": "{洗車|せんしゃ}するためにホースを{蛇口|じゃぐち}につないだ。",
+      "japanese": "{洗車|せんしゃ}⟦する→する：00392_suru⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧ホース⟦を→を：00422_wo⟧⟦{蛇口|じゃぐち}→蛇口：04218_jaguchi⟧⟦に→に：00314_ni⟧つないだ。",
       "english": "I connected the hose to the faucet to wash the car.",
       "sense_numbers": [
         1
@@ -54,8 +54,37 @@
       "notes": null
     }
   ],
-  "notes": "From English \"hose.\" A common loanword used in everyday contexts for garden hoses, fire hoses, and industrial tubing.\n\nCOMMON COLLOCATIONS:\n- ホースで{水|みず}をまく: spray water with a hose\n- ホースをつなぐ: connect a hose\n- ホースを{巻|ま}く: coil up a hose\n- {消防|しょうぼう}ホース: fire hose\n- {散水|さんすい}ホース: sprinkler hose\n- ホースリール: hose reel\n\nSIMILAR WORDS:\n- {管|くだ}/{管|かん}: pipe, tube (rigid)\n- チューブ: tube (softer, smaller — also used for toothpaste tubes, inner tubes)",
-  "cross_references": [],
+  "notes": "From English \"hose.\" A common loanword used in everyday contexts for garden hoses, fire hoses, and industrial tubing.\n\nCOMMON COLLOCATIONS:\n- ホース⟦で→で：00502_de⟧⟦{水|みず}→水：02258_mizu⟧⟦を→を：00422_wo⟧まく: spray water with a hose\n- ホース⟦を→を：00422_wo⟧つなぐ: connect a hose\n- ホース⟦を→を：00422_wo⟧⟦{巻|ま}く→巻く：02418_maku⟧: coil up a hose\n- ⟦{消防|しょうぼう}→消防：03241_shoubou⟧ホース: fire hose\n- {散水|さんすい}ホース: sprinkler hose\n- ホースリール: hose reel\n\nSIMILAR WORDS:\n- ⟦{管|くだ}→管：02679_kuda⟧/⟦{管|かん}→管：09749_kan⟧: pipe, tube (rigid)\n- ⟦チューブ→チューブ：11586_chuubu⟧: tube (softer, smaller — also used for toothpaste tubes, inner tubes)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02679_kuda",
+      "reading": "くだ",
+      "headword": "{管|くだ}",
+      "label": "pipe, tube"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09749_kan",
+      "reading": "かん",
+      "headword": "{管|かん}",
+      "label": "pipe, tube"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11586_chuubu",
+      "reading": "ちゅーぶ",
+      "headword": "チューブ",
+      "label": "tube (softer, smaller"
+    },
+    {
+      "type": "related",
+      "target_id": "08278_jouro",
+      "reading": "じょうろ",
+      "headword": "じょうろ",
+      "label": "watering can"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -63,12 +92,14 @@
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "tool",
         "daily-life"
       ]
     },
     "created": "2026-04-27T16:21:44Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T04:02:24Z"
   }
 }

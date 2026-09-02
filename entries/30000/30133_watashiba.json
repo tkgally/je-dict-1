@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30133_watashiba_ex1",
-      "japanese": "{渡|わた}し{場|ば}で{船|ふね}を{待|ま}つ。",
+      "japanese": "{渡|わた}し{場|ば}⟦で→で：00502_de⟧⟦{船|ふね}→船：00775_fune⟧⟦を→を：00422_wo⟧⟦{待|ま}つ→待つ：00469_matsu⟧。",
       "english": "To wait for the boat at the ferry landing.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30133_watashiba_ex2",
-      "japanese": "{昔|むかし}、この{川|かわ}には{渡|わた}し{場|ば}があった。",
+      "japanese": "⟦{昔|むかし}→昔：01515_mukashi⟧、⟦この→この：00962_kono⟧⟦{川|かわ}→川：02186_kawa⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{渡|わた}し{場|ば}⟦が→が：00051_ga⟧⟦あった→ある：00006_aru⟧。",
       "english": "Long ago there was a ferry crossing on this river.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30133_watashiba_ex3",
-      "japanese": "{橋|はし}ができる{前|まえ}は、{村|むら}の{人|ひと}たちは{渡|わた}し{場|ば}から{舟|ふね}に{乗|の}って{対岸|たいがん}へ{渡|わた}っていた。",
+      "japanese": "⟦{橋|はし}→橋：02163_hashi⟧⟦が→が：00051_ga⟧⟦できる→できる：00557_dekiru⟧⟦{前|まえ}→前：02255_mae⟧⟦は→は：00079_ha⟧、⟦{村|むら}→村：02261_mura⟧⟦の→の：09472_no⟧⟦{人|ひと}→人：00476_hito⟧たち⟦は→は：00079_ha⟧{渡|わた}し{場|ば}⟦から→から：00504_kara⟧⟦{舟|ふね}→舟：23868_fune⟧⟦に→に：00314_ni⟧⟦{乗|の}って→乗る：00511_noru⟧⟦{対岸|たいがん}→対岸：17100_taigan⟧⟦へ→へ：02473_he⟧⟦{渡|わた}っていた→渡る：02441_wataru⟧。",
       "english": "Before the bridge was built, the villagers boarded boats at the ferry landing and crossed to the far bank.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "From {渡|わた}す (to carry across) + {場|ば} (place). Many Japanese place names preserve old crossings, and the word appears frequently in historical fiction and local history.\n\nCOMMON COLLOCATIONS:\n- {渡|わた}し{場|ば}に{着|つ}く: to reach the ferry landing\n- {渡|わた}し{場|ば}の{跡|あと}: the site of a former ferry crossing\n- {渡|わた}し{船|ぶね}: a ferry boat\n\nSIMILAR WORDS:\n- {船着|ふなつ}き{場|ば}: boat landing, dock — any place boats tie up, not necessarily a crossing\n- {港|みなと}: harbor, port — much larger, for shipping rather than a short crossing",
+  "notes": "From ⟦{渡|わた}す→渡す：02442_watasu⟧ (to carry across) + ⟦{場|ば}→場：03699_ba⟧ (place). Many Japanese place names preserve old crossings, and the word appears frequently in historical fiction and local history.\n\nCOMMON COLLOCATIONS:\n- {渡|わた}し{場|ば}⟦に→に：00314_ni⟧⟦{着|つ}く→着く：00680_tsuku⟧: to reach the ferry landing\n- {渡|わた}し{場|ば}⟦の→の：09472_no⟧⟦{跡|あと}→跡：02174_ato⟧: the site of a former ferry crossing\n- {渡|わた}し{船|ぶね}: a ferry boat\n\nSIMILAR WORDS:\n- ⟦{船着|ふなつ}き{場|ば}→船着き場：21296_funatsukiba⟧: boat landing, dock — any place boats tie up, not necessarily a crossing\n- ⟦{港|みなと}→港：01512_minato⟧: harbor, port — much larger, for shipping rather than a short crossing",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21296_funatsukiba",
+      "reading": "ふなつきば",
+      "headword": "{船着|ふなつ}き{場|ば}",
+      "label": "boat landing, dock"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01512_minato",
+      "reading": "みなと",
+      "headword": "{港|みなと}",
+      "label": "harbor, port"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +69,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "transportation",
         "geography"
@@ -61,6 +77,6 @@
       "domain": []
     },
     "created": "2026-07-26T12:19:17Z",
-    "modified": "2026-07-26T12:19:17Z"
+    "modified": "2026-09-02T04:02:38Z"
   }
 }

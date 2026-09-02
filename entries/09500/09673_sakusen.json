@@ -19,7 +19,7 @@
   "examples": [
     {
       "id": "09673_sakusen_ex1",
-      "japanese": "{作戦|さくせん}を{立|た}てる。",
+      "japanese": "{作戦|さくせん}⟦を→を：00422_wo⟧⟦{立|た}てる→立てる：01196_tateru⟧。",
       "english": "To devise a strategy.",
       "notes": null,
       "has_audio": false,
@@ -29,7 +29,7 @@
     },
     {
       "id": "09673_sakusen_ex2",
-      "japanese": "この{作戦|さくせん}で{勝|か}てる。",
+      "japanese": "⟦この→この：00962_kono⟧{作戦|さくせん}⟦で→で：00502_de⟧⟦{勝|か}てる→勝つ：01199_katsu⟧。",
       "english": "We can win with this strategy.",
       "notes": null,
       "has_audio": false,
@@ -39,7 +39,7 @@
     },
     {
       "id": "09673_sakusen_ex3",
-      "japanese": "{作戦|さくせん}が{失敗|しっぱい}した。",
+      "japanese": "{作戦|さくせん}⟦が→が：00051_ga⟧⟦{失敗|しっぱい}→失敗：01636_shippai⟧⟦した→する：00392_suru⟧。",
       "english": "The operation failed.",
       "notes": null,
       "has_audio": false,
@@ -49,10 +49,10 @@
       ]
     }
   ],
-  "notes": "Composed of {作|さく} (make) + {戦|せん} (battle). Originally a military term, now widely used for strategies in everyday life, sports, and business.\n\nCOMMON COLLOCATIONS:\n- {作戦|さくせん}を{立|た}てる: to devise a strategy\n- {作戦|さくせん}を{練|ね}る: to work out a strategy carefully\n- {作戦|さくせん}を{実行|じっこう}する: to carry out a plan\n- {作戦|さくせん}{会議|かいぎ}: strategy meeting\n- {作戦|さくせん}{本部|ほんぶ}: operations headquarters\n- {作戦|さくせん}{失敗|しっぱい}: failed strategy/operation\n\nUSAGE:\nIn casual contexts, {作戦|さくせん} is used playfully for personal schemes or approaches: ダイエット{作戦|さくせん} (diet strategy), {節約|せつやく}{作戦|さくせん} (savings plan). This gives a lighthearted, game-like tone.\n\nSIMILAR WORDS:\n- {戦略|せんりゃく}: strategy (broader, long-term)\n- {戦術|せんじゅつ}: tactics (specific methods)\n- {計画|けいかく}: plan (neutral, no military connotation)",
+  "notes": "Composed of ⟦{作|さく}→作：27430_saku⟧ (make) + ⟦{戦|せん}→〜戦：28346_sen⟧ (battle). Originally a military term, now widely used for strategies in everyday life, sports, and business.\n\nCOMMON COLLOCATIONS:\n- {作戦|さくせん}⟦を→を：00422_wo⟧⟦{立|た}てる→立てる：01196_tateru⟧: to devise a strategy\n- {作戦|さくせん}⟦を→を：00422_wo⟧⟦{練|ね}る→練る：09751_neru⟧: to work out a strategy carefully\n- {作戦|さくせん}⟦を→を：00422_wo⟧⟦{実行|じっこう}する→実行する：22146_jikkousuru⟧: to carry out a plan\n- {作戦|さくせん}⟦{会議|かいぎ}→会議：00710_kaigi⟧: strategy meeting\n- {作戦|さくせん}⟦{本部|ほんぶ}→本部：00112_honbu⟧: operations headquarters\n- {作戦|さくせん}⟦{失敗|しっぱい}→失敗：01636_shippai⟧: failed strategy/operation\n\nUSAGE:\nIn casual contexts, {作戦|さくせん} is used playfully for personal schemes or approaches: ⟦ダイエット→ダイエット：17678_daietto⟧{作戦|さくせん} (diet strategy), ⟦{節約|せつやく}→節約：03302_setsuyaku⟧{作戦|さくせん} (savings plan). This gives a lighthearted, game-like tone.\n\nSIMILAR WORDS:\n- ⟦{戦略|せんりゃく}→戦略：04869_senryaku⟧: strategy (broader, long-term)\n- ⟦{戦術|せんじゅつ}→戦術：12748_senjutsu⟧: tactics (specific methods)\n- ⟦{計画|けいかく}→計画：01172_keikaku⟧: plan (neutral, no military connotation)",
   "metadata": {
     "created": "2026-02-03T05:02:44Z",
-    "modified": "2026-04-23T06:13:56Z",
+    "modified": "2026-09-02T04:01:19Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -73,6 +73,27 @@
       "reading": "せんりゃく",
       "headword": "{戦略|せんりゃく}",
       "label": "strategy (long-term)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12748_senjutsu",
+      "reading": "せんじゅつ",
+      "headword": "{戦術|せんじゅつ}",
+      "label": "tactics"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01172_keikaku",
+      "reading": "けいかく",
+      "headword": "{計画|けいかく}",
+      "label": "plan"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25480_hisaku",
+      "reading": "ひさく",
+      "headword": "{秘策|ひさく}",
+      "label": "secret plan"
     }
   ]
 }

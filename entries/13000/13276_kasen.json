@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "13276_kasen_ex1",
-      "japanese": "{河川|かせん}の{水位|すいい}が{上昇|じょうしょう}している。",
+      "japanese": "{河川|かせん}⟦の→の：09472_no⟧⟦{水位|すいい}→水位：21569_suii⟧⟦が→が：00051_ga⟧⟦{上昇|じょうしょう}している→上昇する：21681_joushousuru⟧。",
       "english": "The river's water level is rising.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "13276_kasen_ex2",
-      "japanese": "{河川|かせん}{敷|じき}でバーベキューをする{人|ひと}が{増|ふ}えている。",
+      "japanese": "{河川|かせん}{敷|じき}⟦で→で：00502_de⟧⟦バーベキュー→バーベキュー：27519_baabekyuu⟧⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧⟦{人|ひと}→人：00476_hito⟧⟦が→が：00051_ga⟧⟦{増|ふ}えている→増える：01183_fueru⟧。",
       "english": "More people are having barbecues on the riverbank.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "13276_kasen_ex3",
-      "japanese": "{大雨|おおあめ}による{河川|かせん}の{氾濫|はんらん}を{防|ふせ}ぐため、{堤防|ていぼう}の{整備|せいび}が{急|いそ}がれている。",
+      "japanese": "⟦{大雨|おおあめ}→大雨：03015_ooame⟧⟦による→による：28349_niyoru⟧{河川|かせん}⟦の→の：09472_no⟧⟦{氾濫|はんらん}→氾濫：09256_hanran⟧⟦を→を：00422_wo⟧⟦{防|ふせ}ぐ→防ぐ：02409_fusegu⟧⟦ため→ため：01145_tame⟧、⟦{堤防|ていぼう}→堤防：19409_teibou⟧⟦の→の：09472_no⟧⟦{整備|せいび}→整備：04037_seibi⟧⟦が→が：00051_ga⟧⟦{急|いそ}がれている→急ぐ：01191_isogu⟧。",
       "english": "Improvements to embankments are being expedited to prevent river flooding due to heavy rain.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{河川|かせん} is the formal/administrative term for rivers. In everyday speech, {川|かわ} (river) is used. {河川|かせん} appears in news, government documents, and technical contexts. The compound combines {河|か} (large river) and {川|せん} (river/stream), so it covers waterways of all sizes.\n\nCOMMON COLLOCATIONS:\n- {河川|かせん}{敷|じき}: riverbed, riverside open space\n- {河川|かせん}の{氾濫|はんらん}: river flooding\n- {河川|かせん}{管理|かんり}: river management\n- {河川|かせん}{工事|こうじ}: river construction/maintenance work\n- {一級|いっきゅう}{河川|かせん}: class-1 river (managed by national government)",
+  "notes": "USAGE:\n{河川|かせん} is the formal/administrative term for rivers. In everyday speech, ⟦{川|かわ}→川：02186_kawa⟧ (river) is used. {河川|かせん} appears in news, government documents, and technical contexts. The compound combines {河|か} (large river) and {川|せん} (river/stream), so it covers waterways of all sizes.\n\nCOMMON COLLOCATIONS:\n- {河川|かせん}{敷|じき}: riverbed, riverside open space\n- {河川|かせん}⟦の→の：09472_no⟧⟦{氾濫|はんらん}→氾濫：09256_hanran⟧: river flooding\n- {河川|かせん}⟦{管理|かんり}→管理：00178_kanri⟧: river management\n- {河川|かせん}⟦{工事|こうじ}→工事：00244_kouji⟧: river construction/maintenance work\n- {一級|いっきゅう}{河川|かせん}: class-1 river (managed by national government)",
   "cross_references": [
     {
       "type": "synonym",
@@ -52,11 +52,32 @@
       "reading": "かわ",
       "headword": "{川|かわ}",
       "label": "river (everyday)"
+    },
+    {
+      "type": "related",
+      "target_id": "19919_kakou",
+      "reading": "かこう",
+      "headword": "{河口|かこう}",
+      "label": "mouth of a river"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21750_suiryuu",
+      "reading": "すいりゅう",
+      "headword": "{水流|すいりゅう}",
+      "label": "water current"
+    },
+    {
+      "type": "homophone",
+      "target_id": "24627_kasen",
+      "reading": "かせん",
+      "headword": "{寡占|かせん}",
+      "label": "oligopoly"
     }
   ],
   "metadata": {
     "created": "2026-02-24T07:33:51Z",
-    "modified": "2026-07-09T00:44:29Z",
+    "modified": "2026-09-02T04:01:32Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

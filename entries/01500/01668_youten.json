@@ -44,10 +44,60 @@
     }
   ],
   "notes": "{要点|ようてん} refers to the main points or essentials.\n\nCOMMON PATTERNS:\n- {要点|ようてん}⟦を→を：00422_wo⟧⟦まとめる→まとめる：02424_matomeru⟧ (summarize the main points)\n- {要点|ようてん}⟦を→を：00422_wo⟧⟦{押|お}さえる→押さえる：02021_osaeru⟧ (grasp the key points)\n- {要点|ようてん}⟦を→を：00422_wo⟧⟦{整理|せいり}→整理：03297_seiri⟧⟦する→する：00392_suru⟧ (organize the main points)\n- {要点|ようてん}⟦{筆記|ひっき}→筆記：00101_hikki⟧ (note-taking of key points)\n\nSIMILAR WORDS:\n- ⟦ポイント→ポイント：11283_pointo⟧: point (loanword, casual)\n- {要点|ようてん}: main point (formal)\n- ⟦{概要|がいよう}→概要：06747_gaiyou⟧: summary, outline\n- ⟦{要旨|ようし}→要旨：04087_youshi⟧: gist, summary (written)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11283_pointo",
+      "reading": "ぽいんと",
+      "headword": "ポイント",
+      "label": "point"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06747_gaiyou",
+      "reading": "がいよう",
+      "headword": "{概要|がいよう}",
+      "label": "summary, outline"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04087_youshi",
+      "reading": "ようし",
+      "headword": "{要旨|ようし}",
+      "label": "gist, summary"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10832_kiiwaado",
+      "reading": "きーわーど",
+      "headword": "キーワード",
+      "label": "keyword"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21049_ronten",
+      "reading": "ろんてん",
+      "headword": "{論点|ろんてん}",
+      "label": "point of argument"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21085_honsuji",
+      "reading": "ほんすじ",
+      "headword": "{本筋|ほんすじ}",
+      "label": "main plot"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29413_kosshi",
+      "reading": "こっし",
+      "headword": "{骨子|こっし}",
+      "label": "gist"
+    }
+  ],
   "metadata": {
     "created": "2026-01-09T11:57:15Z",
-    "modified": "2026-05-16T15:20:00Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

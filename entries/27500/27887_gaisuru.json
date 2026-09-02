@@ -3,7 +3,7 @@
   "headword": "害する",
   "reading": "がいする",
   "romaji": "gaisuru",
-  "part_of_speech": "verb",
+  "part_of_speech": "suru verb",
   "gloss": "to harm; to injure; to damage",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "27887_gaisuru_ex1",
-      "japanese": "{健康|けんこう}を{害|がい}する。",
+      "japanese": "⟦{健康|けんこう}→健康：02706_kenkou⟧⟦を→を：00422_wo⟧{害|がい}する。",
       "english": "It harms your health.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "27887_gaisuru_ex2",
-      "japanese": "そんな{言|い}い{方|かた}では{相手|あいて}の{気分|きぶん}を{害|がい}する。",
+      "japanese": "⟦そんな→そんな：01645_sonna⟧⟦{言|い}い{方|かた}→言い方：14165_iikata⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{相手|あいて}→相手：01677_aite⟧⟦の→の：09472_no⟧⟦{気分|きぶん}→気分：01306_kibun⟧⟦を→を：00422_wo⟧{害|がい}する。",
       "english": "Putting it that way will offend the other person.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "27887_gaisuru_ex3",
-      "japanese": "{過度|かど}の{飲酒|いんしゅ}は{健康|けんこう}を{害|がい}するおそれがある。",
+      "japanese": "⟦{過度|かど}→過度：14377_kado⟧⟦の→の：09472_no⟧⟦{飲酒|いんしゅ}→飲酒：08635_inshu⟧⟦は→は：00079_ha⟧⟦{健康|けんこう}→健康：02706_kenkou⟧⟦を→を：00422_wo⟧{害|がい}するおそれ⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "Excessive drinking can damage your health.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "TRANSITIVITY:\n- Transitive ({他動詞|たどうし}); what is harmed is marked with を.\n- Pattern: [thing]を{害|がい}する\n\nCOMMON COLLOCATIONS:\n- {健康|けんこう}を{害|がい}する: to damage one's health\n- {気分|きぶん}を{害|がい}する: to offend; to put in a bad mood\n- {感情|かんじょう}を{害|がい}する: to hurt someone's feelings\n- {利益|りえき}を{害|がい}する: to harm someone's interests\n\nREGISTER: Formal and somewhat literary; in casual speech {傷|きず}つける (to hurt) or {悪|わる}くする is more common.",
+  "notes": "TRANSITIVITY:\n- Transitive (⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧); what is harmed is marked with ⟦を→を：00422_wo⟧.\n- Pattern: [thing]⟦を→を：00422_wo⟧{害|がい}する\n\nCOMMON COLLOCATIONS:\n- ⟦{健康|けんこう}→健康：02706_kenkou⟧⟦を→を：00422_wo⟧{害|がい}する: to damage one's health\n- ⟦{気分|きぶん}→気分：01306_kibun⟧⟦を→を：00422_wo⟧{害|がい}する: to offend; to put in a bad mood\n- ⟦{感情|かんじょう}→感情：00171_kanjou⟧⟦を→を：00422_wo⟧{害|がい}する: to hurt someone's feelings\n- ⟦{利益|りえき}→利益：03673_rieki⟧⟦を→を：00422_wo⟧{害|がい}する: to harm someone's interests\n\nREGISTER: Formal and somewhat literary; in casual speech ⟦{傷|きず}つける→傷つける：01935_kizutsukeru⟧ (to hurt) or ⟦{悪|わる}く→悪い：00908_warui⟧⟦する→する：00392_suru⟧ is more common.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19589_sawaru",
+      "reading": "さわる",
+      "headword": "{障|さわ}る",
+      "label": "to hinder"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,7 +71,7 @@
       "domain": []
     },
     "created": "2026-05-22T03:04:31Z",
-    "modified": "2026-05-22T03:04:31Z"
+    "modified": "2026-09-02T04:02:32Z"
   },
   "conjugation": {
     "type": "suru",

@@ -2,7 +2,7 @@
   "id": "05837_shittori",
   "headword": "しっとり",
   "reading": "しっとり",
-  "part_of_speech": "adverb, verb (suru)",
+  "part_of_speech": "adverb, suru verb",
   "gloss": "moist, damp, subdued",
   "conjugation": {
     "type": "suru",
@@ -208,7 +208,7 @@
       ]
     }
   ],
-  "notes": "ONOMATOPOEIA:\nCan describe pleasant moisture (skin, food) or a calm, elegant atmosphere. Generally has positive connotations.\n\nUSAGE:\n- しっとり⟦する→する：00392_suru⟧: to be moist/subdued\n- しっとり⟦した→する：00392_suru⟧～: moist/subdued ~ (adjective use)\n- しっとり⟦と→と：00512_to⟧: moistly, calmly (adverb with と)\n\nCOMMON CONTEXTS (MOISTURE):\n- しっとり⟦した→する：00392_suru⟧⟦{肌|はだ}→肌：02243_hada⟧: moist skin\n- しっとり⟦した→する：00392_suru⟧⟦{髪|かみ}→髪：02196_kami⟧: silky, moisturized hair\n- しっとり⟦した→する：00392_suru⟧⟦ケーキ→ケーキ：01356_keeki⟧: moist cake\n\nCOMMON CONTEXTS (ATMOSPHERE):\n- しっとり⟦した→する：00392_suru⟧⟦{雰囲気|ふんいき}→雰囲気：03604_funiki⟧: subdued atmosphere\n- しっとり⟦した→する：00392_suru⟧⟦{音楽|おんがく}→音楽：00661_ongaku⟧: mellow music\n\nCONTRAST:\n- ⟦じめじめ→じめじめ：05789_jimejime⟧: unpleasantly damp (negative)\n- ⟦ぱさぱさ→ぱさぱさ：04835_pasapasa⟧: dry, lacking moisture (opposite)\n- ⟦さらさら→さらさら：05255_sarasara⟧: smooth, silky (for hair)",
+  "notes": "ONOMATOPOEIA:\nCan describe pleasant moisture (skin, food) or a calm, elegant atmosphere. Generally has positive connotations.\n\nUSAGE:\n- しっとり⟦する→する：00392_suru⟧: to be moist/subdued\n- しっとり⟦した→する：00392_suru⟧～: moist/subdued ~ (adjective use)\n- しっとり⟦と→と：00512_to⟧: moistly, calmly (adverb with ⟦と→と：00512_to⟧)\n\nCOMMON CONTEXTS (MOISTURE):\n- しっとり⟦した→する：00392_suru⟧⟦{肌|はだ}→肌：02243_hada⟧: moist skin\n- しっとり⟦した→する：00392_suru⟧⟦{髪|かみ}→髪：02196_kami⟧: silky, moisturized hair\n- しっとり⟦した→する：00392_suru⟧⟦ケーキ→ケーキ：01356_keeki⟧: moist cake\n\nCOMMON CONTEXTS (ATMOSPHERE):\n- しっとり⟦した→する：00392_suru⟧⟦{雰囲気|ふんいき}→雰囲気：03604_funiki⟧: subdued atmosphere\n- しっとり⟦した→する：00392_suru⟧⟦{音楽|おんがく}→音楽：00661_ongaku⟧: mellow music\n\nSIMILAR WORDS:\n- ⟦じめじめ→じめじめ：05789_jimejime⟧: unpleasantly damp (negative)\n- ⟦ぱさぱさ→ぱさぱさ：04835_pasapasa⟧: dry, lacking moisture (opposite)\n- ⟦さらさら→さらさら：05255_sarasara⟧: smooth, silky (for hair)",
   "cross_references": [
     {
       "type": "contrast",
@@ -230,11 +230,18 @@
       "headword": "さらさら",
       "label": "smooth, silky",
       "target_id": "05255_sarasara"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16368_kasakasa",
+      "reading": "かさかさ",
+      "headword": "カサカサ",
+      "label": "dry and rough"
     }
   ],
   "metadata": {
     "created": "2026-01-16T13:45:39Z",
-    "modified": "2026-07-30T00:17:41Z",
+    "modified": "2026-09-02T04:01:07Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
@@ -248,7 +255,8 @@
         "onomatopoeia",
         "descriptive"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

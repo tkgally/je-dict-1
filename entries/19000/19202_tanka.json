@@ -3,7 +3,7 @@
   "headword": "{炭化|たんか}",
   "reading": "たんか",
   "romaji": "tanka",
-  "part_of_speech": "noun / suru verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "carbonization; charring",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "19202_tanka_ex1",
-      "japanese": "{木材|もくざい}が{炭化|たんか}した。",
+      "japanese": "⟦{木材|もくざい}→木材：13017_mokuzai⟧⟦が→が：00051_ga⟧{炭化|たんか}⟦した→する：00392_suru⟧。",
       "english": "The wood became charred.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "19202_tanka_ex2",
-      "japanese": "{火事|かじ}で{柱|はしら}が{炭化|たんか}していた。",
+      "japanese": "⟦{火事|かじ}→火事：01283_kaji⟧⟦で→で：00502_de⟧⟦{柱|はしら}→柱：05009_hashira⟧⟦が→が：00051_ga⟧{炭化|たんか}⟦していた→する：00392_suru⟧。",
       "english": "The pillars were charred from the fire.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "19202_tanka_ex3",
-      "japanese": "{炭化|たんか}ケイ{素|そ}は{非常|ひじょう}に{硬|かた}い{素材|そざい}として{工業|こうぎょう}で{使|つか}われている。",
+      "japanese": "{炭化|たんか}ケイ{素|そ}⟦は→は：00079_ha⟧⟦{非常|ひじょう}→非常：01598_hijou⟧⟦に→に：00314_ni⟧⟦{硬|かた}い→硬い：01116_katai⟧⟦{素材|そざい}→素材：09492_sozai⟧⟦として→として：06802_toshite⟧⟦{工業|こうぎょう}→工業：01402_kougyou⟧⟦で→で：00502_de⟧⟦{使|つか}われている→使う：00473_tsukau⟧。",
       "english": "Silicon carbide is used in industry as an extremely hard material.",
       "sense_numbers": [
         1
@@ -134,7 +134,7 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {炭|たん} (charcoal, carbon) + {化|か} (change, transform). Common collocations: {炭化|たんか}する (to carbonize/char), {炭化|たんか}{水素|すいそ} (hydrocarbon), {炭化|たんか}ケイ{素|そ} (silicon carbide). In fire investigation, the degree of {炭化|たんか} helps determine the fire's origin and intensity. In archaeology, {炭化|たんか}した{米|こめ} (carbonized rice) or {種子|しゅし} (seeds) provide important evidence. Not to be confused with homophones {単価|たんか} (unit price), {短歌|たんか} (tanka poem), or {担架|たんか} (stretcher).",
+  "notes": "Composed of {炭|たん} (charcoal, carbon) + ⟦{化|か}→〜化：28335_ka⟧ (change, transform). Common collocations: {炭化|たんか}⟦する→する：00392_suru⟧ (to carbonize/char), {炭化|たんか}⟦{水素|すいそ}→水素：00387_suiso⟧ (hydrocarbon), {炭化|たんか}ケイ{素|そ} (silicon carbide). In fire investigation, the degree of {炭化|たんか} helps determine the fire's origin and intensity. In archaeology, {炭化|たんか}⟦した→する：00392_suru⟧⟦{米|こめ}→米：01323_kome⟧ (carbonized rice) or ⟦{種子|しゅし}→種子：17135_shushi⟧ (seeds) provide important evidence. Not to be confused with homophones ⟦{単価|たんか}→単価：05471_tanka⟧ (unit price), ⟦{短歌|たんか}→短歌：15358_tanka⟧ (tanka poem), or ⟦{担架|たんか}→担架：18518_tanka⟧ (stretcher).",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -145,13 +145,15 @@
       ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["science"],
+      "semantic": [
+        "science"
+      ],
       "domain": [
         "technical"
       ],
       "verb_class": "suru"
     },
     "created": "2026-03-24T14:01:50Z",
-    "modified": "2026-07-26T21:32:58Z"
+    "modified": "2026-09-02T04:01:55Z"
   }
 }

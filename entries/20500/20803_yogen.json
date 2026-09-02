@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "20803_yogen_ex1",
-      "japanese": "その{予言|よげん}は{当|あ}たった。",
+      "japanese": "⟦その→その：00993_sono⟧{予言|よげん}⟦は→は：00079_ha⟧⟦{当|あ}たった→当たる：01860_ataru⟧。",
       "english": "That prediction came true.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "20803_yogen_ex2",
-      "japanese": "{彼|かれ}は{未来|みらい}を{予言|よげん}した。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{未来|みらい}→未来：03748_mirai⟧⟦を→を：00422_wo⟧{予言|よげん}⟦した→する：00392_suru⟧。",
       "english": "He prophesied the future.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "20803_yogen_ex3",
-      "japanese": "{古代|こだい}の{予言|よげん}が{現実|げんじつ}になるとは{誰|だれ}も{思|おも}わなかった。",
+      "japanese": "⟦{古代|こだい}→古代：05324_kodai⟧⟦の→の：09472_no⟧{予言|よげん}⟦が→が：00051_ga⟧⟦{現実|げんじつ}→現実：02720_genjitsu⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦と→と：00512_to⟧⟦は→は：00079_ha⟧⟦{誰|だれ}も→誰も：18610_daremo⟧⟦{思|おも}わなかった→思う：00492_omou⟧。",
       "english": "Nobody thought the ancient prophecy would come true.",
       "sense_numbers": [
         1
@@ -43,8 +43,37 @@
       "notes": null
     }
   ],
-  "notes": "Refers to foretelling future events, whether through supernatural means (prophecy) or rational analysis (prediction). The word carries more weight than a simple guess.\n\nCOMMON COLLOCATIONS:\n- {予言|よげん}が{当|あ}たる: a prediction comes true\n- {予言|よげん}が{外|はず}れる: a prediction proves wrong\n- {予言|よげん}を{信|しん}じる: to believe a prophecy\n- {予言|よげん}どおり: as predicted/prophesied\n\nSIMILAR WORDS:\n- {予測|よそく}: forecast — more scientific and data-driven\n- {予想|よそう}: expectation — more informal, everyday guessing\n- {預言|よげん}: divine prophecy — specifically religious revelation (same pronunciation, different kanji)",
-  "cross_references": [],
+  "notes": "Refers to foretelling future events, whether through supernatural means (prophecy) or rational analysis (prediction). The word carries more weight than a simple guess.\n\nCOMMON COLLOCATIONS:\n- {予言|よげん}⟦が→が：00051_ga⟧⟦{当|あ}たる→当たる：01860_ataru⟧: a prediction comes true\n- {予言|よげん}⟦が→が：00051_ga⟧⟦{外|はず}れる→外れる：02395_hazureru⟧: a prediction proves wrong\n- {予言|よげん}⟦を→を：00422_wo⟧⟦{信|しん}じる→信じる：01111_shinjiru⟧: to believe a prophecy\n- {予言|よげん}⟦どおり→どおり：09884_doori⟧: as predicted/prophesied\n\nSIMILAR WORDS:\n- ⟦{予測|よそく}→予測：03665_yosoku⟧: forecast — more scientific and data-driven\n- ⟦{予想|よそう}→予想：03664_yosou⟧: expectation — more informal, everyday guessing\n- {預言|よげん}: divine prophecy — specifically religious revelation (same pronunciation, different kanji)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03665_yosoku",
+      "reading": "よそく",
+      "headword": "{予測|よそく}",
+      "label": "forecast"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03664_yosou",
+      "reading": "よそう",
+      "headword": "{予想|よそう}",
+      "label": "expectation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19829_yochi",
+      "reading": "よち",
+      "headword": "{予知|よち}",
+      "label": "foreknowledge, prediction"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22983_shintaku",
+      "reading": "しんたく",
+      "headword": "{神託|しんたく}",
+      "label": "oracle"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -63,7 +92,7 @@
       "verb_class": "suru"
     },
     "created": "2026-03-30T17:09:22Z",
-    "modified": "2026-03-30T17:09:22Z"
+    "modified": "2026-09-02T04:02:01Z"
   },
   "conjugation": {
     "type": "suru",

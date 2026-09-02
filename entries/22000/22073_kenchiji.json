@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22073_kenchiji_ex1",
-      "japanese": "{新|あたら}しい{県知事|けんちじ}が{選|えら}ばれた。",
+      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧{県知事|けんちじ}⟦が→が：00051_ga⟧⟦{選|えら}ばれた→選ぶ：00835_erabu⟧。",
       "english": "A new prefectural governor was elected.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22073_kenchiji_ex2",
-      "japanese": "{県知事|けんちじ}が{記者|きしゃ}{会見|かいけん}を{開|ひら}いた。",
+      "japanese": "{県知事|けんちじ}⟦が→が：00051_ga⟧⟦{記者|きしゃ}{会見|かいけん}→記者会見：19954_kishakaiken⟧⟦を→を：00422_wo⟧⟦{開|ひら}いた→開く：01979_hiraku⟧。",
       "english": "The prefectural governor held a press conference.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22073_kenchiji_ex3",
-      "japanese": "{県知事|けんちじ}{選挙|せんきょ}は{来月|らいげつ}に{行|おこな}われる{予定|よてい}で、{三人|さんにん}の{候補者|こうほしゃ}が{立候補|りっこうほ}している。",
+      "japanese": "{県知事|けんちじ}{選挙|せんきょ}⟦は→は：00079_ha⟧⟦{来月|らいげつ}→来月：00744_raigetsu⟧⟦に→に：00314_ni⟧⟦{行|おこな}われる→行う：01238_okonau⟧⟦{予定|よてい}→予定：00824_yotei⟧⟦で→で：00502_de⟧、⟦{三人|さんにん}→三人：10978_sannin⟧⟦の→の：09472_no⟧⟦{候補者|こうほしゃ}→候補者：20439_kouhosha⟧⟦が→が：00051_ga⟧⟦{立候補|りっこうほ}→立候補：13778_rikkouho⟧⟦している→する：00392_suru⟧。",
       "english": "The gubernatorial election is scheduled for next month, with three candidates running.",
       "sense_numbers": [
         1
@@ -44,20 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "The governor of a Japanese prefecture ({県|けん}). Japan has 47 prefectures, of which 43 are {県|けん}. The remaining four use different designations: {都|と} (Tokyo), {道|どう} (Hokkaido), and {府|ふ} (Osaka and Kyoto). Their governors are called {都知事|とちじ}, {道知事|どうちじ}, and {府知事|ふちじ} respectively.\n\nCOMMON COLLOCATIONS:\n- {県知事|けんちじ}{選挙|せんきょ}: gubernatorial election\n- {県知事|けんちじ}を{務|つと}める: to serve as prefectural governor\n- {現|げん}{県知事|けんちじ}: the current prefectural governor\n\nRELATED TERMS:\n- {知事|ちじ} — governor (general term for any prefectural-level governor)\n- {都知事|とちじ} — governor of Tokyo\n- {市長|しちょう} — city mayor\n- {首長|しゅちょう} — head of a local government (general term)",
+  "notes": "The governor of a Japanese prefecture (⟦{県|けん}→県：02151_ken⟧). Japan has 47 prefectures, of which 43 are ⟦{県|けん}→県：02151_ken⟧. The remaining four use different designations: {都|と} (Tokyo), {道|どう} (Hokkaido), and ⟦{府|ふ}→府：09870_fu⟧ (Osaka and Kyoto). Their governors are called {都知事|とちじ}, {道知事|どうちじ}, and {府知事|ふちじ} respectively.\n\nCOMMON COLLOCATIONS:\n- {県知事|けんちじ}{選挙|せんきょ}: gubernatorial election\n- {県知事|けんちじ}⟦を→を：00422_wo⟧⟦{務|つと}める→務める：10446_tsutomeru⟧: to serve as prefectural governor\n- ⟦{現|げん}→現〜：03950_gen⟧{県知事|けんちじ}: the current prefectural governor\n\nRELATED WORDS:\n- ⟦{知事|ちじ}→知事：03467_chiji⟧ — governor (general term for any prefectural-level governor)\n- {都知事|とちじ} — governor of Tokyo\n- ⟦{市長|しちょう}→市長：12472_shichou⟧ — city mayor\n- {首長|しゅちょう} — head of a local government (general term)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "12472_shichou",
+      "reading": "しちょう",
+      "headword": "{市長|しちょう}",
+      "label": "city mayor"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "politics"
       ],
       "usage_context": []
     },
     "created": "2026-04-04T22:19:57Z",
-    "modified": "2026-07-30T03:35:34Z"
+    "modified": "2026-09-02T04:02:06Z"
   }
 }

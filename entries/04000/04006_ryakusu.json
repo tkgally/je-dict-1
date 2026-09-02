@@ -129,7 +129,7 @@
     },
     {
       "id": "04006_ryakusu_ex3",
-      "japanese": "⟦{以下|いか}→以下：01294_ika⟧、{略|りゃく}。",
+      "japanese": "⟦{以下|いか}→以下：01294_ika⟧、⟦{略|りゃく}→略：21443_ryaku⟧。",
       "english": "The rest is omitted.",
       "notes": "Common in formal writing",
       "has_audio": false,
@@ -139,7 +139,7 @@
     },
     {
       "id": "04006_ryakusu_ex4",
-      "japanese": "「スマートフォン」⟦を→を：00422_wo⟧「スマホ」⟦と→と：00512_to⟧{略|りゃく}す⟦こと→こと：01164_koto⟧⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
+      "japanese": "「⟦スマートフォン→スマートフォン：04434_sumaatofon⟧」⟦を→を：00422_wo⟧「⟦スマホ→スマホ：04721_sumaho⟧」⟦と→と：00512_to⟧{略|りゃく}す⟦こと→こと：01164_koto⟧⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "'Smartphone' is often abbreviated to 'sumaho'.",
       "notes": null,
       "has_audio": false,
@@ -168,7 +168,7 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive). Pattern: Xを{略|りゃく}す.\n\nALTERNATE FORM: {略|りゃく}する (する-verb form) is also common.\n\nCOMMON EXPRESSIONS:\n・⟦{以下|いか}→以下：01294_ika⟧{略|りゃく} (the rest is omitted)\n・⟦{中|なか}→中：00654_naka⟧{略|りゃく} (middle portion omitted)\n・⟦{前|まえ}→前：02255_mae⟧{略|りゃく} (opening omitted - in letters)\n・⟦{後|あと}→後：09580_ato⟧{略|りゃく} (remainder omitted)\n\nRELATED:\n・⟦{略語|りゃくご}→略語：21705_ryakugo⟧ (abbreviation)\n・⟦{略称|りゃくしょう}→略称：13562_ryakushou⟧ (abbreviated name)\n・⟦{省略|しょうりゃく}→省略：03244_shouryaku⟧ (omission, abbreviation)",
+  "notes": "TRANSITIVITY: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive). Pattern: X⟦を→を：00422_wo⟧{略|りゃく}す.\n\nALTERNATE FORM: {略|りゃく}する (⟦する→する：00392_suru⟧-verb form) is also common.\n\nCOMMON EXPRESSIONS:\n- ⟦{以下|いか}→以下：01294_ika⟧{略|りゃく} (the rest is omitted)\n- ⟦{中|なか}→中：00654_naka⟧{略|りゃく} (middle portion omitted)\n- ⟦{前|まえ}→前：02255_mae⟧{略|りゃく} (opening omitted - in letters)\n- ⟦{後|あと}→後：09580_ato⟧{略|りゃく} (remainder omitted)\n\nRELATED WORDS:\n- ⟦{略語|りゃくご}→略語：21705_ryakugo⟧ (abbreviation)\n- ⟦{略称|りゃくしょう}→略称：13562_ryakushou⟧ (abbreviated name)\n- ⟦{省略|しょうりゃく}→省略：03244_shouryaku⟧ (omission, abbreviation)",
   "cross_references": [
     {
       "type": "related",
@@ -176,11 +176,25 @@
       "headword": "{省略|しょうりゃく}",
       "label": "omission",
       "target_id": "03244_shouryaku"
+    },
+    {
+      "type": "related",
+      "target_id": "21705_ryakugo",
+      "reading": "りゃくご",
+      "headword": "{略語|りゃくご}",
+      "label": "abbreviation"
+    },
+    {
+      "type": "related",
+      "target_id": "13562_ryakushou",
+      "reading": "りゃくしょう",
+      "headword": "{略称|りゃくしょう}",
+      "label": "abbreviated name"
     }
   ],
   "metadata": {
     "created": "2026-01-13T07:50:37Z",
-    "modified": "2026-08-14T18:20:10Z",
+    "modified": "2026-09-02T04:01:04Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

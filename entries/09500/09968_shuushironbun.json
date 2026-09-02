@@ -14,30 +14,36 @@
   "examples": [
     {
       "id": "09968_shuushironbun_ex1",
-      "japanese": "{修士論文|しゅうしろんぶん}を{書|か}いている。",
+      "japanese": "{修士論文|しゅうしろんぶん}⟦を→を：00422_wo⟧⟦{書|か}いている→書く：00477_kaku⟧。",
       "english": "I'm writing my master's thesis.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09968_shuushironbun_ex2",
-      "japanese": "{来月|らいげつ}、{修士論文|しゅうしろんぶん}を{提出|ていしゅつ}しなければならない。",
+      "japanese": "⟦{来月|らいげつ}→来月：00744_raigetsu⟧、{修士論文|しゅうしろんぶん}⟦を→を：00422_wo⟧⟦{提出|ていしゅつ}→提出：03542_teishutsu⟧し⟦なければならない→なければならない：27600_nakerebanaranai⟧。",
       "english": "I have to submit my master's thesis next month.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09968_shuushironbun_ex3",
-      "japanese": "{修士論文|しゅうしろんぶん}の{審査|しんさ}に{合格|ごうかく}して、{無事|ぶじ}に{卒業|そつぎょう}できた。",
+      "japanese": "{修士論文|しゅうしろんぶん}⟦の→の：09472_no⟧⟦{審査|しんさ}→審査：08375_shinsa⟧⟦に→に：00314_ni⟧⟦{合格|ごうかく}して→合格する：27949_goukakusuru⟧、⟦{無事|ぶじ}→無事：01602_buji⟧⟦に→に：00314_ni⟧⟦{卒業|そつぎょう}→卒業：01643_sotsugyou⟧⟦できた→できる：00557_dekiru⟧。",
       "english": "I passed the review of my master's thesis and was able to graduate successfully.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{修士論文|しゅうしろんぶん} is a compound of {修士|しゅうし} (master's degree) and {論文|ろんぶん} (thesis, paper).\n\nABBREVIATION:\n{修論|しゅうろん} is the common abbreviation.\n\nRELATED TERMS:\n- {博士論文|はくしろんぶん}: doctoral dissertation\n- {卒業論文|そつぎょうろんぶん}: undergraduate thesis\n- {学位論文|がくいろんぶん}: degree thesis (general term)\n\nCOMMON EXPRESSIONS:\n- {修士論文|しゅうしろんぶん}を{書|か}く: to write a master's thesis\n- {修士論文|しゅうしろんぶん}を{提出|ていしゅつ}する: to submit a master's thesis\n- {修士論文|しゅうしろんぶん}の{審査|しんさ}: thesis review/defense",
+  "notes": "{修士論文|しゅうしろんぶん} is a compound of ⟦{修士|しゅうし}→修士：11098_shuushi⟧ (master's degree) and ⟦{論文|ろんぶん}→論文：03787_ronbun⟧ (thesis, paper).\n\nFORMS:\n{修論|しゅうろん} is the common abbreviation.\n\nRELATED WORDS:\n- ⟦{博士論文|はくしろんぶん}→博士論文：09969_hakushironbun⟧: doctoral dissertation\n- ⟦{卒業論文|そつぎょうろんぶん}→卒業論文：09259_sotsugyouronbun⟧: undergraduate thesis\n- ⟦{学位論文|がくいろんぶん}→学位論文：26492_gakuironbun⟧: degree thesis (general term)\n\nCOMMON EXPRESSIONS:\n- {修士論文|しゅうしろんぶん}⟦を→を：00422_wo⟧⟦{書|か}く→書く：00477_kaku⟧: to write a master's thesis\n- {修士論文|しゅうしろんぶん}⟦を→を：00422_wo⟧⟦{提出|ていしゅつ}する→提出する：19644_teishutsusuru⟧: to submit a master's thesis\n- {修士論文|しゅうしろんぶん}⟦の→の：09472_no⟧⟦{審査|しんさ}→審査：08375_shinsa⟧: thesis review/defense",
   "cross_references": [
     {
       "type": "related",
@@ -45,18 +51,43 @@
       "reading": "はくしろんぶん",
       "headword": "{博士論文|はくしろんぶん}",
       "label": "doctoral dissertation"
+    },
+    {
+      "type": "related",
+      "target_id": "09259_sotsugyouronbun",
+      "reading": "そつぎょうろんぶん",
+      "headword": "{卒業論文|そつぎょうろんぶん}",
+      "label": "undergraduate thesis"
+    },
+    {
+      "type": "related",
+      "target_id": "26492_gakuironbun",
+      "reading": "がくいろんぶん",
+      "headword": "{学位論文|がくいろんぶん}",
+      "label": "degree thesis"
+    },
+    {
+      "type": "related",
+      "target_id": "16597_shuushigou",
+      "reading": "しゅうしごう",
+      "headword": "{修士号|しゅうしごう}",
+      "label": "master's degree"
     }
   ],
   "metadata": {
     "created": "2026-02-04T12:02:30Z",
-    "modified": "2026-04-23T08:17:03Z",
+    "modified": "2026-09-02T04:01:19Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["education"]
+      "semantic": [
+        "education"
+      ]
     }
   }
 }

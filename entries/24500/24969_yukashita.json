@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24969_yukashita_ex1",
-      "japanese": "{床下|ゆかした}に{猫|ねこ}が{入|はい}り{込|こ}んだ。",
+      "japanese": "{床下|ゆかした}⟦に→に：00314_ni⟧⟦{猫|ねこ}→猫：02237_neko⟧⟦が→が：00051_ga⟧⟦{入|はい}り{込|こ}んだ→入り込む：04629_hairikomu⟧。",
       "english": "A cat got in under the floor.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24969_yukashita_ex2",
-      "japanese": "{床下|ゆかした}の{換気|かんき}が{悪|わる}いと{湿気|しっけ}がたまる。",
+      "japanese": "{床下|ゆかした}⟦の→の：09472_no⟧⟦{換気|かんき}→換気：00172_kanki⟧⟦が→が：00051_ga⟧⟦{悪|わる}い→悪い：00908_warui⟧⟦と→と：00512_to⟧⟦{湿気|しっけ}→湿気：03177_shikke⟧⟦が→が：00051_ga⟧たまる。",
       "english": "If the ventilation under the floor is poor, moisture accumulates.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24969_yukashita_ex3",
-      "japanese": "{業者|ぎょうしゃ}に{床下|ゆかした}を{点検|てんけん}してもらったところ、シロアリの{被害|ひがい}が{見|み}つかった。",
+      "japanese": "⟦{業者|ぎょうしゃ}→業者：13130_gyousha⟧⟦に→に：00314_ni⟧{床下|ゆかした}⟦を→を：00422_wo⟧⟦{点検|てんけん}→点検：09765_tenken⟧⟦して→する：00392_suru⟧⟦もらった→もらう：00520_morau⟧⟦ところ→ところ：01137_tokoro⟧、⟦シロアリ→シロアリ：29728_shiroari⟧⟦の→の：09472_no⟧⟦{被害|ひがい}→被害：02572_higai⟧⟦が→が：00051_ga⟧⟦{見|み}つかった→見つかる：01173_mitsukaru⟧。",
       "english": "When I had a professional inspect the crawl space, they found termite damage.",
       "sense_numbers": [
         1
@@ -44,19 +44,37 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {床|ゆか} (floor) and {下|した} (under/below). Traditional Japanese houses are often built with raised floors, creating a space underneath for air circulation. This design helps manage Japan's humid climate but also makes homes vulnerable to termites and moisture damage.\n\nThe {床下|ゆかした} is a frequent topic in home maintenance conversations, as it needs regular inspection for moisture, pests, and structural integrity. Door-to-door scammers in Japan sometimes use fake {床下|ゆかした} inspections as a pretext to sell unnecessary services to elderly homeowners.\n\nCOMMON COLLOCATIONS:\n- {床下|ゆかした}{換気|かんき}: underfloor ventilation\n- {床下|ゆかした}{収納|しゅうのう}: underfloor storage\n- {床下|ゆかした}{点検|てんけん}: underfloor inspection\n- {床下|ゆかした}{浸水|しんすい}: flooding under the floor\n\nRELATED TERMS:\n- {床上|ゆかうえ}: above the floor level\n- {床上浸水|ゆかうえしんすい}: flooding above floor level (a disaster assessment category)\n- {床下浸水|ゆかしたしんすい}: flooding below floor level",
+  "notes": "A compound of ⟦{床|ゆか}→床：03652_yuka⟧ (floor) and ⟦{下|した}→下：00670_shita⟧ (under/below). Traditional Japanese houses are often built with raised floors, creating a space underneath for air circulation. This design helps manage Japan's humid climate but also makes homes vulnerable to termites and moisture damage.\n\nThe {床下|ゆかした} is a frequent topic in home maintenance conversations, as it needs regular inspection for moisture, pests, and structural integrity. Door-to-door scammers in Japan sometimes use fake {床下|ゆかした} inspections as a pretext to sell unnecessary services to elderly homeowners.\n\nCOMMON COLLOCATIONS:\n- {床下|ゆかした}⟦{換気|かんき}→換気：00172_kanki⟧: underfloor ventilation\n- {床下|ゆかした}⟦{収納|しゅうのう}→収納：07497_shuunou⟧: underfloor storage\n- {床下|ゆかした}⟦{点検|てんけん}→点検：09765_tenken⟧: underfloor inspection\n- {床下|ゆかした}{浸水|しんすい}: flooding under the floor\n\nRELATED WORDS:\n- {床上|ゆかうえ}: above the floor level\n- ⟦{床上浸水|ゆかうえしんすい}→床上浸水：23615_yukaueshinsui⟧: flooding above floor level (a disaster assessment category)\n- ⟦{床下浸水|ゆかしたしんすい}→床下浸水：23614_yukashitashinsui⟧: flooding below floor level",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "23615_yukaueshinsui",
+      "reading": "ゆかうえしんすい",
+      "headword": "{床上浸水|ゆかうえしんすい}",
+      "label": "flooding above floor level"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23106_tenjouura",
+      "reading": "てんじょううら",
+      "headword": "{天井裏|てんじょううら}",
+      "label": "attic"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "building"
       ]
     },
     "created": "2026-04-22T09:17:36Z",
-    "modified": "2026-08-03T09:22:27Z"
+    "modified": "2026-09-02T04:02:20Z"
   }
 }

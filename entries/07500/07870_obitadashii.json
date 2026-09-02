@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "07870_obitadashii_ex1",
-      "japanese": "{夥|おびただ}しい{数|かず}の{星|ほし}が{見|み}えた。",
+      "japanese": "{夥|おびただ}しい⟦{数|かず}→数：00204_kazu⟧⟦の→の：09472_no⟧⟦{星|ほし}→星：01510_hoshi⟧⟦が→が：00051_ga⟧⟦{見|み}えた→見える：01165_mieru⟧。",
       "english": "A vast number of stars were visible.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "07870_obitadashii_ex2",
-      "japanese": "{事故|じこ}{現場|げんば}には{夥|おびただ}しい{量|りょう}の{血|ち}があった。",
+      "japanese": "⟦{事故|じこ}→事故：00851_jiko⟧⟦{現場|げんば}→現場：02723_genba⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{夥|おびただ}しい⟦{量|りょう}→量：03799_ryou⟧⟦の→の：09472_no⟧⟦{血|ち}→血：01659_chi⟧⟦が→が：00051_ga⟧⟦あった→ある：00006_aru⟧。",
       "english": "There was an immense amount of blood at the accident scene.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "07870_obitadashii_ex3",
-      "japanese": "{図書館|としょかん}には{夥|おびただ}しい{蔵書|ぞうしょ}がある。",
+      "japanese": "⟦{図書館|としょかん}→図書館：00580_toshokan⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{夥|おびただ}しい⟦{蔵書|ぞうしょ}→蔵書：15479_zousho⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "The library has a vast collection of books.",
       "sense_numbers": [
         1
@@ -43,7 +43,37 @@
       "notes": null
     }
   ],
-  "notes": "{夥|おびただ}しい describes an overwhelmingly large quantity.\n\nUSAGE PATTERNS:\n- {夥|おびただ}しい{数|かず}の～ (a vast number of ~)\n- {夥|おびただ}しい{量|りょう}の～ (an immense amount of ~)\n- {夥|おびただ}しい{被害|ひがい} (enormous damage)\n\nNUANCE:\n- Literary and formal in tone\n- Emphasizes quantity that is beyond normal expectations\n- Often used in dramatic or emphatic contexts\n- Can describe both positive (stars, books) and negative (blood, casualties) quantities\n\nRELATED TERMS:\n- {膨大|ぼうだい} (enormous, vast)\n- {莫大|ばくだい} (enormous - often for money/cost)\n- {無数|むすう} (countless)\n- たくさん (many - casual)\n\nKANJI NOTE:\nThe kanji {夥|おびただ}しい is relatively uncommon; the word is often written in hiragana.\n\nREGISTER: Formal/literary. Common in written Japanese and news.",
+  "notes": "{夥|おびただ}しい describes an overwhelmingly large quantity.\n\nCOMMON PATTERNS:\n- {夥|おびただ}しい⟦{数|かず}→数：00204_kazu⟧⟦の→の：09472_no⟧～ (a vast number of ~)\n- {夥|おびただ}しい⟦{量|りょう}→量：03799_ryou⟧⟦の→の：09472_no⟧～ (an immense amount of ~)\n- {夥|おびただ}しい⟦{被害|ひがい}→被害：02572_higai⟧ (enormous damage)\n\nUSAGE:\n- Literary and formal in tone\n- Emphasizes quantity that is beyond normal expectations\n- Often used in dramatic or emphatic contexts\n- Can describe both positive (stars, books) and negative (blood, casualties) quantities\n\nRELATED WORDS:\n- ⟦{膨大|ぼうだい}→膨大：08997_boudai⟧ (enormous, vast)\n- ⟦{莫大|ばくだい}→莫大：03700_bakudai⟧ (enormous - often for money/cost)\n- ⟦{無数|むすう}→無数：00300_musuu⟧ (countless)\n- ⟦たくさん→たくさん：00597_takusan⟧ (many - casual)\n\nWRITING:\nThe kanji {夥|おびただ}しい is relatively uncommon; the word is often written in hiragana.\n\nREGISTER: Formal/literary. Common in written Japanese and news.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "08997_boudai",
+      "reading": "ぼうだい",
+      "headword": "{膨大|ぼうだい}",
+      "label": "enormous, vast"
+    },
+    {
+      "type": "related",
+      "target_id": "03700_bakudai",
+      "reading": "ばくだい",
+      "headword": "{莫大|ばくだい}",
+      "label": "enormous"
+    },
+    {
+      "type": "related",
+      "target_id": "00300_musuu",
+      "reading": "むすう",
+      "headword": "{無数|むすう}",
+      "label": "countless"
+    },
+    {
+      "type": "related",
+      "target_id": "00597_takusan",
+      "reading": "たくさん",
+      "headword": "たくさん",
+      "label": "many"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -57,7 +87,7 @@
       ]
     },
     "created": "2026-01-21T13:22:38Z",
-    "modified": "2026-01-21T13:22:38Z"
+    "modified": "2026-09-02T04:01:13Z"
   },
   "conjugation": {
     "type": "i-adjective",

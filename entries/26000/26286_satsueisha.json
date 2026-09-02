@@ -15,41 +15,74 @@
   "examples": [
     {
       "id": "26286_satsueisha_ex1",
-      "japanese": "{撮影者|さつえいしゃ}の{名前|なまえ}を{記載|きさい}してください。",
+      "japanese": "{撮影者|さつえいしゃ}⟦の→の：09472_no⟧⟦{名前|なまえ}→名前：02234_namae⟧⟦を→を：00422_wo⟧⟦{記載|きさい}→記載：14169_kisai⟧⟦して→する：00392_suru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please include the photographer's name.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26286_satsueisha_ex2",
-      "japanese": "この{写真|しゃしん}の{撮影者|さつえいしゃ}は{不明|ふめい}です。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{写真|しゃしん}→写真：00753_shashin⟧⟦の→の：09472_no⟧{撮影者|さつえいしゃ}⟦は→は：00079_ha⟧⟦{不明|ふめい}→不明：11352_fumei⟧です。",
       "english": "The photographer of this picture is unknown.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26286_satsueisha_ex3",
-      "japanese": "{動画|どうが}の{撮影者|さつえいしゃ}がSNSに{投稿|とうこう}したことで、その{映像|えいぞう}は{一気|いっき}に{拡散|かくさん}した。",
+      "japanese": "⟦{動画|どうが}→動画：04443_douga⟧⟦の→の：09472_no⟧{撮影者|さつえいしゃ}⟦が→が：00051_ga⟧SNS⟦に→に：00314_ni⟧⟦{投稿|とうこう}した→投稿する：18994_toukousuru⟧ことで、⟦その→その：00993_sono⟧⟦{映像|えいぞう}→映像：04444_eizou⟧⟦は→は：00079_ha⟧⟦{一気|いっき}→一気：08891_ikki⟧⟦に→に：00314_ni⟧⟦{拡散|かくさん}した→拡散する：18995_kakusansuru⟧。",
       "english": "The person who filmed the video posted it on social media, and the footage quickly went viral.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {撮影|さつえい} (photography; filming) + {者|しゃ} (person). This word emphasizes the role of taking photos or video, not necessarily as a profession. It is commonly used in captions, credits, legal contexts, and when discussing who created a particular image or footage.\n\nCOMMON COLLOCATIONS:\n- {撮影者|さつえいしゃ}{不明|ふめい}: photographer unknown\n- {撮影者|さつえいしゃ}の{許可|きょか}: permission from the photographer\n- {撮影者|さつえいしゃ}の{著作権|ちょさくけん}: the photographer's copyright\n- {撮影者|さつえいしゃ}{本人|ほんにん}: the photographer themselves\n\nSIMILAR WORDS:\n- カメラマン: cameraman — more common in spoken Japanese for a professional photographer or videographer\n- フォトグラファー: photographer — loanword used especially in fashion and art contexts\n- {写真家|しゃしんか}: photographer — implies a serious or professional photographer, especially one who does artistic work",
-  "cross_references": [],
+  "notes": "Composed of ⟦{撮影|さつえい}→撮影：04175_satsuei⟧ (photography; filming) + ⟦{者|しゃ}→〜者：04662_sha⟧ (person). This word emphasizes the role of taking photos or video, not necessarily as a profession. It is commonly used in captions, credits, legal contexts, and when discussing who created a particular image or footage.\n\nCOMMON COLLOCATIONS:\n- {撮影者|さつえいしゃ}⟦{不明|ふめい}→不明：11352_fumei⟧: photographer unknown\n- {撮影者|さつえいしゃ}⟦の→の：09472_no⟧⟦{許可|きょか}→許可：00259_kyoka⟧: permission from the photographer\n- {撮影者|さつえいしゃ}⟦の→の：09472_no⟧⟦{著作権|ちょさくけん}→著作権：14022_chosakuken⟧: the photographer's copyright\n- {撮影者|さつえいしゃ}⟦{本人|ほんにん}→本人：03627_honnin⟧: the photographer themselves\n\nSIMILAR WORDS:\n- ⟦カメラマン→カメラマン：28387_kameraman⟧: cameraman — more common in spoken Japanese for a professional photographer or videographer\n- ⟦フォトグラファー→フォトグラファー：28946_fotogurafaa⟧: photographer — loanword used especially in fashion and art contexts\n- ⟦{写真家|しゃしんか}→写真家：05501_shashinka⟧: photographer — implies a serious or professional photographer, especially one who does artistic work",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "28387_kameraman",
+      "reading": "かめらまん",
+      "headword": "カメラマン",
+      "label": "cameraman"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28946_fotogurafaa",
+      "reading": "ふぉとぐらふぁー",
+      "headword": "フォトグラファー",
+      "label": "photographer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05501_shashinka",
+      "reading": "しゃしんか",
+      "headword": "{写真家|しゃしんか}",
+      "label": "photographer"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["person", "occupation"]
+      "semantic": [
+        "person",
+        "occupation"
+      ]
     },
     "created": "2026-04-30T15:22:27Z",
-    "modified": "2026-04-30T15:22:27Z"
+    "modified": "2026-09-02T04:02:25Z"
   }
 }

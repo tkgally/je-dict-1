@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "18340_ichou_ex1",
-      "japanese": "{曲|きょく}を{移調|いちょう}する。",
+      "japanese": "⟦{曲|きょく}→曲：09881_kyoku⟧⟦を→を：00422_wo⟧{移調|いちょう}⟦する→する：00392_suru⟧。",
       "english": "To transpose a piece of music.",
       "sense_numbers": [
         1
@@ -114,7 +114,7 @@
     },
     {
       "id": "18340_ichou_ex2",
-      "japanese": "{歌|うた}いやすいように{半音|はんおん}{下|さ}げて{移調|いちょう}した。",
+      "japanese": "⟦{歌|うた}い→歌う：00684_utau⟧やすいよう⟦に→に：00314_ni⟧{半音|はんおん}⟦{下|さ}げて→下げる：00807_sageru⟧{移調|いちょう}⟦した→する：00392_suru⟧。",
       "english": "I transposed it down a half step to make it easier to sing.",
       "sense_numbers": [
         1
@@ -124,7 +124,7 @@
     },
     {
       "id": "18340_ichou_ex3",
-      "japanese": "クラリネットは{移調|いちょう}{楽器|がっき}なので、{実音|じつおん}と{記譜|きふ}が{異|こと}なる。",
+      "japanese": "⟦クラリネット→クラリネット：08138_kurarinetto⟧⟦は→は：00079_ha⟧{移調|いちょう}⟦{楽器|がっき}→楽器：13159_gakki⟧な⟦の→の：09472_no⟧で、{実音|じつおん}⟦と→と：00512_to⟧{記譜|きふ}⟦が→が：00051_ga⟧⟦{異|こと}なる→異なる：02101_kotonaru⟧。",
       "english": "The clarinet is a transposing instrument, so the actual pitch differs from the written notation.",
       "sense_numbers": [
         1
@@ -133,7 +133,7 @@
       "notes": null
     }
   ],
-  "notes": "{移調|いちょう} is a music theory term meaning to shift a piece of music to a different key while keeping all the intervals between notes the same.\n\nCOMMON PATTERNS:\n- {移調|いちょう}する: to transpose\n- {移調|いちょう}{楽器|がっき}: transposing instrument (e.g., clarinet, trumpet — instruments whose written notes differ from their sounding pitch)\n- {半音|はんおん}{上|あ}げて{移調|いちょう}する: transpose up a half step\n- {半音|はんおん}{下|さ}げて{移調|いちょう}する: transpose down a half step\n\nHOMOPHONES:\nSeveral common words share the reading いちょう:\n- {胃腸|いちょう}: stomach and intestines\n- {銀杏|いちょう}: ginkgo tree\n- {市長|しちょう}: mayor (different reading but sometimes confused)\n\nREGISTER:\nTechnical. Used in music education, performance, and music theory discussions.",
+  "notes": "{移調|いちょう} is a music theory term meaning to shift a piece of music to a different key while keeping all the intervals between notes the same.\n\nCOMMON PATTERNS:\n- {移調|いちょう}⟦する→する：00392_suru⟧: to transpose\n- {移調|いちょう}⟦{楽器|がっき}→楽器：13159_gakki⟧: transposing instrument (e.g., clarinet, trumpet — instruments whose written notes differ from their sounding pitch)\n- {半音|はんおん}⟦{上|あ}げて→上げる：02443_ageru⟧{移調|いちょう}⟦する→する：00392_suru⟧: transpose up a half step\n- {半音|はんおん}⟦{下|さ}げて→下げる：00807_sageru⟧{移調|いちょう}⟦する→する：00392_suru⟧: transpose down a half step\n\nWATCH OUT:\nSeveral common words share the reading いちょう:\n- ⟦{胃腸|いちょう}→胃腸：15503_ichou⟧: stomach and intestines\n- ⟦{銀杏|いちょう}→銀杏：04379_ichou⟧: ginkgo tree\n- ⟦{市長|しちょう}→市長：12472_shichou⟧: mayor (different reading but sometimes confused)\n\nREGISTER:\nTechnical. Used in music education, performance, and music theory discussions.",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -147,9 +147,10 @@
       "semantic": [
         "general"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-03-21T09:55:08Z",
-    "modified": "2026-03-27T11:50:44Z"
+    "modified": "2026-09-02T04:01:51Z"
   }
 }

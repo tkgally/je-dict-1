@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24694_anbun_ex1",
-      "japanese": "{費用|ひよう}を{按分|あんぶん}する。",
+      "japanese": "⟦{費用|ひよう}→費用：03588_hiyou⟧⟦を→を：00422_wo⟧{按分|あんぶん}⟦する→する：00392_suru⟧。",
       "english": "To prorate the costs.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24694_anbun_ex2",
-      "japanese": "{家賃|やちん}は{使用面積|しようめんせき}に{応|おう}じて{按分|あんぶん}される。",
+      "japanese": "⟦{家賃|やちん}→家賃：03639_yachin⟧⟦は→は：00079_ha⟧{使用面積|しようめんせき}⟦に→に：00314_ni⟧⟦{応|おう}じて→応じる：02018_oujiru⟧{按分|あんぶん}⟦される→する：00392_suru⟧。",
       "english": "The rent is apportioned according to the floor area used.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24694_anbun_ex3",
-      "japanese": "{自宅|じたく}を{仕事|しごと}にも{使|つか}っている{場合|ばあい}、{光熱費|こうねつひ}を{按分|あんぶん}して{経費|けいひ}に{計上|けいじょう}できる。",
+      "japanese": "⟦{自宅|じたく}→自宅：00129_jitaku⟧⟦を→を：00422_wo⟧⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦に→に：00314_ni⟧⟦も→も：00484_mo⟧⟦{使|つか}っている→使う：00473_tsukau⟧⟦{場合|ばあい}→場合：01704_baai⟧、⟦{光熱費|こうねつひ}→光熱費：08244_kounetsuhi⟧⟦を→を：00422_wo⟧{按分|あんぶん}⟦して→する：00392_suru⟧⟦{経費|けいひ}→経費：04696_keihi⟧⟦に→に：00314_ni⟧⟦{計上|けいじょう}→計上：08006_keijou⟧⟦できる→できる：00557_dekiru⟧。",
       "english": "If you also use your home for work, you can prorate utility costs and claim them as business expenses.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "A practical term frequently encountered in accounting, tax filing, and shared-cost situations. The word implies a fair, mathematically proportional split rather than an equal division.\n\nCOMMON COLLOCATIONS:\n- {按分|あんぶん}{比率|ひりつ}: apportionment ratio\n- {按分|あんぶん}{計算|けいさん}: prorating calculation\n- {経費|けいひ}を{按分|あんぶん}する: to prorate expenses\n- {面積|めんせき}{按分|あんぶん}: area-based apportionment\n- {按分|あんぶん}{票|ひょう}: apportioned votes (in elections)\n\nKANJI NOTE:\nAlso written as {案分|あんぶん} with a different first character. Both spellings are widely used, though {按分|あんぶん} is more common in tax and accounting contexts.\n\nSIMILAR WORDS:\n- {配分|はいぶん}: distribution, allocation — dividing something among parties, but not necessarily proportionally\n- {分配|ぶんぱい}: distribution, sharing — general term for dividing and giving out\n- {割|わ}り{勘|かん}: splitting the bill — specifically for dividing a restaurant or bar bill equally",
+  "notes": "A practical term frequently encountered in accounting, tax filing, and shared-cost situations. The word implies a fair, mathematically proportional split rather than an equal division.\n\nCOMMON COLLOCATIONS:\n- {按分|あんぶん}⟦{比率|ひりつ}→比率：06727_hiritsu⟧: apportionment ratio\n- {按分|あんぶん}⟦{計算|けいさん}→計算：02697_keisan⟧: prorating calculation\n- ⟦{経費|けいひ}→経費：04696_keihi⟧⟦を→を：00422_wo⟧{按分|あんぶん}⟦する→する：00392_suru⟧: to prorate expenses\n- ⟦{面積|めんせき}→面積：05330_menseki⟧{按分|あんぶん}: area-based apportionment\n- {按分|あんぶん}{票|ひょう}: apportioned votes (in elections)\n\nWRITING:\nAlso written as {案分|あんぶん} with a different first character. Both spellings are widely used, though {按分|あんぶん} is more common in tax and accounting contexts.\n\nSIMILAR WORDS:\n- ⟦{配分|はいぶん}→配分：14495_haibun⟧: distribution, allocation — dividing something among parties, but not necessarily proportionally\n- ⟦{分配|ぶんぱい}→分配：11746_bunpai⟧: distribution, sharing — general term for dividing and giving out\n- ⟦{割|わ}り{勘|かん}→割り勘：08156_warikan⟧: splitting the bill — specifically for dividing a restaurant or bar bill equally",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14495_haibun",
+      "reading": "はいぶん",
+      "headword": "{配分|はいぶん}",
+      "label": "distribution, allocation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11746_bunpai",
+      "reading": "ぶんぱい",
+      "headword": "{分配|ぶんぱい}",
+      "label": "distribution, sharing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08156_warikan",
+      "reading": "わりかん",
+      "headword": "{割|わ}り{勘|かん}",
+      "label": "splitting the bill"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -66,7 +89,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-20T12:10:14Z",
-    "modified": "2026-04-20T12:10:14Z"
+    "modified": "2026-09-02T04:02:19Z"
   },
   "conjugation": {
     "type": "suru",

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29796_touhon_ex1",
-      "japanese": "{戸籍|こせき}{謄本|とうほん}が{必要|ひつよう}だ。",
+      "japanese": "{戸籍|こせき}{謄本|とうほん}⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧だ。",
       "english": "I need a copy of the family register.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29796_touhon_ex2",
-      "japanese": "{役所|やくしょ}で{謄本|とうほん}を{取|と}ってきた。",
+      "japanese": "⟦{役所|やくしょ}→役所：06455_yakusho⟧⟦で→で：00502_de⟧{謄本|とうほん}⟦を→を：00422_wo⟧⟦{取|と}って→取る：00565_toru⟧きた。",
       "english": "I got a certified copy at the government office.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29796_touhon_ex3",
-      "japanese": "{相続|そうぞく}の{手続|てつづ}きには、{戸籍|こせき}{謄本|とうほん}の{提出|ていしゅつ}が{求|もと}められる。",
+      "japanese": "⟦{相続|そうぞく}→相続：03690_souzoku⟧⟦の→の：09472_no⟧⟦{手続|てつづ}き→手続き：05453_tetsuzuki⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧、{戸籍|こせき}{謄本|とうほん}⟦の→の：09472_no⟧⟦{提出|ていしゅつ}→提出：03542_teishutsu⟧⟦が→が：00051_ga⟧⟦{求|もと}められる→求める：02316_motomeru⟧。",
       "english": "For inheritance procedures, submission of a copy of the family register is required.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "A {謄本|とうほん} reproduces an entire register; a {抄本|しょうほん} extracts only the part relating to one person. Rarely used alone — it almost always appears in compounds.\n\nCOMMON COLLOCATIONS:\n- {戸籍|こせき}{謄本|とうほん}: certified copy of a family register\n- {登記|とうき}{謄本|とうほん}: certified copy of a property register\n- {謄本|とうほん}を{取|と}る: to obtain a certified copy\n\nSIMILAR WORDS:\n- {抄本|しょうほん}: abstract copy — reproduces only the relevant portion of a register.\n- {写|うつ}し: copy — the everyday word for a duplicate, without the official register nuance.",
+  "notes": "A {謄本|とうほん} reproduces an entire register; a ⟦{抄本|しょうほん}→抄本：29804_shouhon⟧ extracts only the part relating to one person. Rarely used alone — it almost always appears in compounds.\n\nCOMMON COLLOCATIONS:\n- {戸籍|こせき}{謄本|とうほん}: certified copy of a family register\n- ⟦{登記|とうき}→登記：19798_touki⟧{謄本|とうほん}: certified copy of a property register\n- {謄本|とうほん}⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧: to obtain a certified copy\n\nSIMILAR WORDS:\n- ⟦{抄本|しょうほん}→抄本：29804_shouhon⟧: abstract copy — reproduces only the relevant portion of a register.\n- ⟦{写|うつ}し→写し：22466_utsushi⟧: copy — the everyday word for a duplicate, without the official register nuance.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "29804_shouhon",
+      "reading": "しょうほん",
+      "headword": "{抄本|しょうほん}",
+      "label": "abstract copy"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22466_utsushi",
+      "reading": "うつし",
+      "headword": "{写|うつ}し",
+      "label": "copy"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26453_seihon",
+      "reading": "せいほん",
+      "headword": "{正本|せいほん}",
+      "label": "original copy"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +76,7 @@
         "noun"
       ],
       "formality": "formal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "law"
       ],
@@ -62,6 +85,6 @@
       ]
     },
     "created": "2026-07-12T21:19:59Z",
-    "modified": "2026-07-12T21:19:59Z"
+    "modified": "2026-09-02T04:02:38Z"
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "14545_ibutsu_ex1",
-      "japanese": "{遺跡|いせき}から{遺物|いぶつ}が{発見|はっけん}された。",
+      "japanese": "⟦{遺跡|いせき}→遺跡：09527_iseki⟧⟦から→から：00504_kara⟧{遺物|いぶつ}⟦が→が：00051_ga⟧⟦{発見|はっけん}→発見：00085_hakken⟧⟦された→する：00392_suru⟧。",
       "english": "Artifacts were discovered at the ruins.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "14545_ibutsu_ex2",
-      "japanese": "この{土器|どき}は{縄文時代|じょうもんじだい}の{遺物|いぶつ}だ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{土器|どき}→土器：09658_doki⟧⟦は→は：00079_ha⟧⟦{縄文時代|じょうもんじだい}→縄文時代：18895_joumonjidai⟧⟦の→の：09472_no⟧{遺物|いぶつ}だ。",
       "english": "This pottery is a relic from the Jomon period.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "14545_ibutsu_ex3",
-      "japanese": "あの{制度|せいど}は{封建時代|ほうけんじだい}の{遺物|いぶつ}にすぎないという{批判|ひはん}もある。",
+      "japanese": "⟦あの→あの：00915_ano⟧⟦{制度|せいど}→制度：03291_seido⟧⟦は→は：00079_ha⟧{封建時代|ほうけんじだい}⟦の→の：09472_no⟧{遺物|いぶつ}⟦に→に：00314_ni⟧すぎない⟦という→という：09577_toiu⟧⟦{批判|ひはん}→批判：03580_hihan⟧⟦も→も：00484_mo⟧⟦ある→ある：00006_aru⟧。",
       "english": "There is also criticism that the system is nothing more than a relic of the feudal era.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,33 @@
       ]
     }
   ],
-  "notes": "Used both literally for archaeological finds and figuratively for outdated systems or ideas that linger from a bygone era.\n\nCOMMON COLLOCATIONS:\n- {出土|しゅつど}{遺物|いぶつ} (excavated artifact)\n- {歴史的|れきしてき}{遺物|いぶつ} (historical relic)\n- ～{時代|じだい}の{遺物|いぶつ} (relic of the ~ era)\n\nDo not confuse with {異物|いぶつ} (foreign body/substance), which has the same reading but different kanji and meaning.",
-  "cross_references": [],
+  "notes": "Used both literally for archaeological finds and figuratively for outdated systems or ideas that linger from a bygone era.\n\nCOMMON COLLOCATIONS:\n- ⟦{出土|しゅつど}→出土：11760_shutsudo⟧{遺物|いぶつ} (excavated artifact)\n- ⟦{歴史的|れきしてき}→歴史的：05671_rekishiteki⟧{遺物|いぶつ} (historical relic)\n- ～⟦{時代|じだい}→時代：01424_jidai⟧⟦の→の：09472_no⟧{遺物|いぶつ} (relic of the ~ era)\n\nDo not confuse with ⟦{異物|いぶつ}→異物：13706_ibutsu⟧ (foreign body/substance), which has the same reading but different kanji and meaning.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "09527_iseki",
+      "reading": "いせき",
+      "headword": "{遺跡|いせき}",
+      "label": "ruins, historic site, remains"
+    },
+    {
+      "type": "related",
+      "target_id": "09657_koukogakusha",
+      "reading": "こうこがくしゃ",
+      "headword": "{考古学者|こうこがくしゃ}",
+      "label": "archaeologist"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26455_ison",
+      "reading": "いそん",
+      "headword": "{遺存|いそん}",
+      "label": "survival"
+    }
+  ],
   "metadata": {
     "created": "2026-03-02T06:27:25Z",
-    "modified": "2026-03-02T06:27:25Z",
+    "modified": "2026-09-02T04:01:37Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

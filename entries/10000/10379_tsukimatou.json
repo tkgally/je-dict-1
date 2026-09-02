@@ -110,7 +110,7 @@
   "examples": [
     {
       "id": "10379_tsukimatou_ex1",
-      "japanese": "{知|し}らない{人|ひと}に{付|つ}きまとわれた。",
+      "japanese": "⟦{知|し}らない→知る：00458_shiru⟧⟦{人|ひと}→人：00476_hito⟧⟦に→に：00314_ni⟧{付|つ}きまとわれた。",
       "english": "I was followed around by a stranger.",
       "notes": null,
       "has_audio": false,
@@ -120,7 +120,7 @@
     },
     {
       "id": "10379_tsukimatou_ex2",
-      "japanese": "しつこく{付|つ}きまとう{男|おとこ}に{困|こま}っている。",
+      "japanese": "⟦しつこく→しつこい：06498_shitsukoi⟧{付|つ}きまとう⟦{男|おとこ}→男：00561_otoko⟧⟦に→に：00314_ni⟧⟦{困|こま}っている→困る：00861_komaru⟧。",
       "english": "I'm troubled by a man who persistently follows me around.",
       "notes": null,
       "has_audio": false,
@@ -130,7 +130,7 @@
     },
     {
       "id": "10379_tsukimatou_ex3",
-      "japanese": "{子犬|こいぬ}が{飼|か}い{主|ぬし}に{付|つ}きまとって{離|はな}れない。",
+      "japanese": "⟦{子犬|こいぬ}→子犬：19393_koinu⟧⟦が→が：00051_ga⟧⟦{飼|か}い{主|ぬし}→飼い主：15281_kainushi⟧⟦に→に：00314_ni⟧{付|つ}きまとって⟦{離|はな}れない→離れる：02397_hanareru⟧。",
       "english": "The puppy follows its owner around and won't leave.",
       "notes": null,
       "has_audio": false,
@@ -140,7 +140,7 @@
     },
     {
       "id": "10379_tsukimatou_ex4",
-      "japanese": "{不安|ふあん}が{付|つ}きまとう。",
+      "japanese": "⟦{不安|ふあん}→不安：00836_fuan⟧⟦が→が：00051_ga⟧{付|つ}きまとう。",
       "english": "Anxiety clings to me.",
       "notes": null,
       "has_audio": false,
@@ -150,7 +150,7 @@
     },
     {
       "id": "10379_tsukimatou_ex5",
-      "japanese": "{失敗|しっぱい}の{記憶|きおく}がいつまでも{付|つ}きまとった。",
+      "japanese": "⟦{失敗|しっぱい}→失敗：01636_shippai⟧⟦の→の：09472_no⟧⟦{記憶|きおく}→記憶：00234_kioku⟧⟦が→が：00051_ga⟧⟦いつ→いつ：00536_itsu⟧⟦まで→まで：00490_made⟧⟦も→も：00484_mo⟧{付|つ}きまとった。",
       "english": "The memory of failure haunted me endlessly.",
       "notes": null,
       "has_audio": false,
@@ -160,7 +160,7 @@
     },
     {
       "id": "10379_tsukimatou_ex6",
-      "japanese": "あの{事件|じけん}の{噂|うわさ}が{彼|かれ}にずっと{付|つ}きまとって、{新|あたら}しい{生活|せいかつ}を{始|はじ}められなかった。",
+      "japanese": "⟦あの→あの：00915_ano⟧⟦{事件|じけん}→事件：01568_jiken⟧⟦の→の：09472_no⟧⟦{噂|うわさ}→噂：01871_uwasa⟧⟦が→が：00051_ga⟧⟦{彼|かれ}→彼：01292_kare⟧⟦に→に：00314_ni⟧⟦ずっと→ずっと：00912_zutto⟧{付|つ}きまとって、⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦{生活|せいかつ}→生活：01443_seikatsu⟧⟦を→を：00422_wo⟧{始|はじ}められなかった。",
       "english": "Rumors about that incident clung to him, and he couldn't start a new life.",
       "notes": null,
       "has_audio": false,
@@ -169,11 +169,11 @@
       ]
     }
   ],
-  "notes": "COMMON COLLOCATIONS:\n- しつこく{付|つ}きまとう: to pester, to follow persistently\n- {不安|ふあん}が{付|つ}きまとう: anxiety clings\n- {噂|うわさ}が{付|つ}きまとう: rumors follow someone\n\nUSAGE: Almost always carries a negative connotation of something unwanted. In sense 1 (physical following), it can describe stalking behavior. In sense 2 (abstract clinging), the subject is typically something negative.",
+  "notes": "COMMON COLLOCATIONS:\n- ⟦しつこく→しつこい：06498_shitsukoi⟧{付|つ}きまとう: to pester, to follow persistently\n- ⟦{不安|ふあん}→不安：00836_fuan⟧⟦が→が：00051_ga⟧{付|つ}きまとう: anxiety clings\n- ⟦{噂|うわさ}→噂：01871_uwasa⟧⟦が→が：00051_ga⟧{付|つ}きまとう: rumors follow someone\n\nUSAGE: Almost always carries a negative connotation of something unwanted. In sense 1 (physical following), it can describe stalking behavior. In sense 2 (abstract clinging), the subject is typically something negative.",
   "cross_references": [],
   "metadata": {
     "created": "2026-02-07T08:30:48Z",
-    "modified": "2026-08-14T01:00:44Z",
+    "modified": "2026-09-02T04:01:21Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
@@ -182,6 +182,7 @@
       "transitivity": "intransitive",
       "verb_class": "godan-u",
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "movement",
         "emotion"

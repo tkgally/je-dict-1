@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24878_choutaikoku_ex1",
-      "japanese": "アメリカは{超大国|ちょうたいこく}と{呼|よ}ばれている。",
+      "japanese": "⟦アメリカ→アメリカ：01769_amerika⟧⟦は→は：00079_ha⟧{超大国|ちょうたいこく}⟦と→と：00512_to⟧⟦{呼|よ}ばれている→呼ぶ：00766_yobu⟧。",
       "english": "America is called a superpower.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24878_choutaikoku_ex2",
-      "japanese": "{冷戦|れいせん}{時代|じだい}は{二|ふた}つの{超大国|ちょうたいこく}が{対立|たいりつ}していた。",
+      "japanese": "{冷戦|れいせん}⟦{時代|じだい}→時代：01424_jidai⟧⟦は→は：00079_ha⟧⟦{二|ふた}つ→二つ：02953_futatsu⟧⟦の→の：09472_no⟧{超大国|ちょうたいこく}⟦が→が：00051_ga⟧⟦{対立|たいりつ}していた→対立する：22172_tairitsusuru⟧。",
       "english": "During the Cold War, two superpowers stood in opposition.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24878_choutaikoku_ex3",
-      "japanese": "{超大国|ちょうたいこく}の{外交|がいこう}{政策|せいさく}は{世界|せかい}{経済|けいざい}に{大|おお}きな{影響|えいきょう}を{与|あた}える。",
+      "japanese": "{超大国|ちょうたいこく}⟦の→の：09472_no⟧⟦{外交|がいこう}→外交：02627_gaikou⟧⟦{政策|せいさく}→政策：10070_seisaku⟧⟦は→は：00079_ha⟧⟦{世界|せかい}→世界：01447_sekai⟧⟦{経済|けいざい}→経済：01394_keizai⟧⟦に→に：00314_ni⟧⟦{大|おお}きな→大きな：02849_ookina⟧⟦{影響|えいきょう}を{与|あた}える→影響を与える：26072_eikyouwoataeru⟧。",
       "english": "The foreign policy of a superpower has a great impact on the world economy.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {超|ちょう} (super-; ultra-) + {大国|たいこく} (major power; great nation). A political science term that entered common usage through news and education.\n\nCOMMON COLLOCATIONS:\n- {唯一|ゆいいつ}の{超大国|ちょうたいこく}: the sole superpower\n- {軍事|ぐんじ}{超大国|ちょうたいこく}: military superpower\n- {超大国|ちょうたいこく}の{覇権|はけん}: superpower hegemony\n- {超大国|ちょうたいこく}{間|かん}の{対立|たいりつ}: rivalry between superpowers\n\nSIMILAR WORDS:\n- {大国|たいこく}: great power; major nation — a powerful country, but not necessarily at the highest level\n- {強国|きょうこく}: powerful nation — emphasizes strength, especially military\n- {先進国|せんしんこく}: developed country — focuses on economic/technological development, not political power\n- {覇権|はけん}{国|こく}: hegemonic state — emphasizes dominance and control over others",
+  "notes": "Compound of ⟦{超|ちょう}→超〜：28619_chou⟧ (super-; ultra-) + ⟦{大国|たいこく}→大国：12218_taikoku⟧ (major power; great nation). A political science term that entered common usage through news and education.\n\nCOMMON COLLOCATIONS:\n- ⟦{唯一|ゆいいつ}→唯一：01666_yuiitsu⟧⟦の→の：09472_no⟧{超大国|ちょうたいこく}: the sole superpower\n- ⟦{軍事|ぐんじ}→軍事：14392_gunji⟧{超大国|ちょうたいこく}: military superpower\n- {超大国|ちょうたいこく}⟦の→の：09472_no⟧⟦{覇権|はけん}→覇権：14113_haken⟧: superpower hegemony\n- {超大国|ちょうたいこく}⟦{間|かん}→〜間：28469_kan⟧⟦の→の：09472_no⟧⟦{対立|たいりつ}→対立：04500_tairitsu⟧: rivalry between superpowers\n\nSIMILAR WORDS:\n- ⟦{大国|たいこく}→大国：12218_taikoku⟧: great power; major nation — a powerful country, but not necessarily at the highest level\n- ⟦{強国|きょうこく}→強国：15224_kyoukoku⟧: powerful nation — emphasizes strength, especially military\n- ⟦{先進国|せんしんこく}→先進国：11624_senshinkoku⟧: developed country — focuses on economic/technological development, not political power\n- ⟦{覇権|はけん}→覇権：14113_haken⟧{国|こく}: hegemonic state — emphasizes dominance and control over others",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15224_kyoukoku",
+      "reading": "きょうこく",
+      "headword": "{強国|きょうこく}",
+      "label": "powerful nation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11624_senshinkoku",
+      "reading": "せんしんこく",
+      "headword": "{先進国|せんしんこく}",
+      "label": "developed country"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25160_kyoudaikoku",
+      "reading": "きょうだいこく",
+      "headword": "{強大国|きょうだいこく}",
+      "label": "powerful nation"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +83,6 @@
       ]
     },
     "created": "2026-04-21T11:21:58Z",
-    "modified": "2026-08-03T09:22:27Z"
+    "modified": "2026-09-02T04:02:20Z"
   }
 }

@@ -3,7 +3,7 @@
   "headword": "{印刷|いんさつ}する",
   "reading": "いんさつする",
   "romaji": "insatsusuru",
-  "part_of_speech": "verb",
+  "part_of_speech": "suru verb",
   "gloss": "to print",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21677_insatsusuru_ex1",
-      "japanese": "この{書類|しょるい}を{印刷|いんさつ}してください。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{書類|しょるい}→書類：01103_shorui⟧⟦を→を：00422_wo⟧{印刷|いんさつ}して⟦ください→ください：02899_kudasai⟧。",
       "english": "Please print this document.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21677_insatsusuru_ex2",
-      "japanese": "{両面|りょうめん}{印刷|いんさつ}すると{紙|かみ}の{節約|せつやく}になる。",
+      "japanese": "{両面|りょうめん}{印刷|いんさつ}する⟦と→と：00512_to⟧⟦{紙|かみ}→紙：00712_kami⟧⟦の→の：09472_no⟧⟦{節約|せつやく}→節約：03302_setsuyaku⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧。",
       "english": "Printing on both sides saves paper.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21677_insatsusuru_ex3",
-      "japanese": "{会議|かいぎ}の{資料|しりょう}を{十部|じゅうぶ}{印刷|いんさつ}しておいてもらえますか。",
+      "japanese": "⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦の→の：09472_no⟧⟦{資料|しりょう}→資料：04166_shiryou⟧⟦を→を：00422_wo⟧{十部|じゅうぶ}{印刷|いんさつ}しておいて⟦もらえます→もらう：00520_morau⟧⟦か→か：09473_ka⟧。",
       "english": "Could you print ten copies of the meeting materials?",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "The standard word for printing documents, photos, books, etc. Uses する to form the verb from the noun {印刷|いんさつ}.\n\nCOMMON COLLOCATIONS:\n- {印刷|いんさつ}{物|ぶつ}: printed matter\n- {印刷|いんさつ}{機|き}: printing machine, press\n- カラー{印刷|いんさつ}: color printing\n- {両面|りょうめん}{印刷|いんさつ}: double-sided printing\n\nRELATED TERMS:\n- プリントする: to print (more casual, often for home/office printing)\n- {出版|しゅっぱん}する: to publish (broader, includes editing and distribution)\n- コピーする: to copy/photocopy",
+  "notes": "The standard word for printing documents, photos, books, etc. Uses ⟦する→する：00392_suru⟧ to form the verb from the noun ⟦{印刷|いんさつ}→印刷：01844_insatsu⟧.\n\nCOMMON COLLOCATIONS:\n- ⟦{印刷|いんさつ}{物|ぶつ}→印刷物：24581_insatsubutsu⟧: printed matter\n- ⟦{印刷|いんさつ}{機|き}→印刷機：24838_insatsuki⟧: printing machine, press\n- ⟦カラー→カラー：10820_karaa⟧⟦{印刷|いんさつ}→印刷：01844_insatsu⟧: color printing\n- ⟦{両面|りょうめん}{印刷|いんさつ}→両面印刷：08136_ryoumeninsatsu⟧: double-sided printing\n\nRELATED WORDS:\n- ⟦プリント→プリント：01539_purinto⟧⟦する→する：00392_suru⟧: to print (more casual, often for home/office printing)\n- ⟦{出版|しゅっぱん}→出版：03222_shuppan⟧⟦する→する：00392_suru⟧: to publish (broader, includes editing and distribution)\n- ⟦コピーする→コピーする：02941_kopiisuru⟧: to copy/photocopy",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "03222_shuppan",
+      "reading": "しゅっぱん",
+      "headword": "{出版|しゅっぱん}",
+      "label": "to publish"
+    },
+    {
+      "type": "related",
+      "target_id": "02941_kopiisuru",
+      "reading": "こぴーする",
+      "headword": "コピーする",
+      "label": "to copy/photocopy"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21387_shutsuryoku",
+      "reading": "しゅつりょく",
+      "headword": "{出力|しゅつりょく}する",
+      "label": "to output"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -58,10 +81,11 @@
         "technology",
         "work"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-04-02T21:19:21Z",
-    "modified": "2026-04-02T21:19:21Z"
+    "modified": "2026-09-02T04:02:04Z"
   },
   "conjugation": {
     "type": "suru",

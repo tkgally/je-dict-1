@@ -15,41 +15,74 @@
   "examples": [
     {
       "id": "29836_nyuukazai_ex1",
-      "japanese": "{乳化剤|にゅうかざい}を{加|くわ}える。",
+      "japanese": "{乳化剤|にゅうかざい}⟦を→を：00422_wo⟧⟦{加|くわ}える→加える：01941_kuwaeru⟧。",
       "english": "Add an emulsifier.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29836_nyuukazai_ex2",
-      "japanese": "このパンには{乳化剤|にゅうかざい}が{入|はい}っている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦パン→パン：00553_pan⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{乳化剤|にゅうかざい}⟦が→が：00051_ga⟧⟦{入|はい}っている→入る：00494_hairu⟧。",
       "english": "This bread contains an emulsifier.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29836_nyuukazai_ex3",
-      "japanese": "{原材料名|げんざいりょうめい}に{乳化剤|にゅうかざい}と{書|か}かれている。",
+      "japanese": "⟦{原材料名|げんざいりょうめい}→原材料名：29838_genzairyoumei⟧⟦に→に：00314_ni⟧{乳化剤|にゅうかざい}⟦と→と：00512_to⟧⟦{書|か}かれている→書く：00477_kaku⟧。",
       "english": "The ingredients list shows \"emulsifier\".",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "{乳化|にゅうか} (emulsification) + {剤|ざい} (agent, preparation). Keeps oil and water from separating in processed foods and cosmetics.\n\nRELATED ADDITIVES:\n- {酸化防止剤|さんかぼうしざい}: antioxidant\n- {保存料|ほぞんりょう}: preservative\n- {着色料|ちゃくしょくりょう}: coloring agent",
+  "notes": "{乳化|にゅうか} (emulsification) + ⟦{剤|ざい}→〜剤：30790_zai⟧ (agent, preparation). Keeps oil and water from separating in processed foods and cosmetics.\n\nRELATED ADDITIVES:\n- ⟦{酸化防止剤|さんかぼうしざい}→酸化防止剤：29837_sankaboushizai⟧: antioxidant\n- ⟦{保存料|ほぞんりょう}→保存料：06593_hozonryou⟧: preservative\n- ⟦{着色料|ちゃくしょくりょう}→着色料：19751_chakushokuryou⟧: coloring agent",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "29837_sankaboushizai",
+      "reading": "さんかぼうしざい",
+      "headword": "{酸化防止剤|さんかぼうしざい}",
+      "label": "antioxidant"
+    },
+    {
+      "type": "related",
+      "target_id": "06593_hozonryou",
+      "reading": "ほぞんりょう",
+      "headword": "{保存料|ほぞんりょう}",
+      "label": "preservative"
+    },
+    {
+      "type": "related",
+      "target_id": "19751_chakushokuryou",
+      "reading": "ちゃくしょくりょう",
+      "headword": "{着色料|ちゃくしょくりょう}",
+      "label": "coloring agent"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["food"],
+      "politeness": "plain",
+      "semantic": [
+        "food"
+      ],
       "domain": []
     },
     "created": "2026-07-14T06:18:33Z",
-    "modified": "2026-07-14T06:18:33Z"
+    "modified": "2026-09-02T04:02:38Z"
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "20436_manmennoemi_ex1",
-      "japanese": "{彼女|かのじょ}は{満面|まんめん}の{笑|え}みを{浮|う}かべた。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧{満面|まんめん}の{笑|え}み⟦を→を：00422_wo⟧⟦{浮|う}かべた→浮かべる：13314_ukaberu⟧。",
       "english": "She broke into a beaming smile.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "20436_manmennoemi_ex2",
-      "japanese": "{合格|ごうかく}{発表|はっぴょう}の{後|あと}、{満面|まんめん}の{笑|え}みで{写真|しゃしん}を{撮|と}った。",
+      "japanese": "⟦{合格|ごうかく}→合格：02816_goukaku⟧⟦{発表|はっぴょう}→発表：03562_happyou⟧⟦の→の：09472_no⟧⟦{後|あと}→後：09580_ato⟧、{満面|まんめん}の{笑|え}み⟦で→で：00502_de⟧⟦{写真|しゃしん}→写真：00753_shashin⟧⟦を→を：00422_wo⟧⟦{撮|と}った→撮る：00760_toru⟧。",
       "english": "After the acceptance announcement, we took a photo with beaming smiles.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "20436_manmennoemi_ex3",
-      "japanese": "{優勝|ゆうしょう}トロフィーを{受|う}け{取|と}った{選手|せんしゅ}は、{満面|まんめん}の{笑|え}みでカメラに{向|む}かった。",
+      "japanese": "⟦{優勝|ゆうしょう}→優勝：03647_yuushou⟧トロフィー⟦を→を：00422_wo⟧⟦{受|う}け{取|と}った→受け取る：01883_uketoru⟧⟦{選手|せんしゅ}→選手：03823_senshu⟧⟦は→は：00079_ha⟧、{満面|まんめん}の{笑|え}み⟦で→で：00502_de⟧⟦カメラ→カメラ：04417_kamera⟧⟦に→に：00314_ni⟧⟦{向|む}かった→向かう：01186_mukau⟧。",
       "english": "The player who received the championship trophy faced the cameras with a radiant smile.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "{満面|まんめん} means \"the entire face\" and {笑|え}み means \"smile.\" Together, this expression describes a smile so broad that it fills the entire face — a genuinely joyful expression.\n\nUSAGE:\nAlmost always appears with the verb {浮|う}かべる (to show/display on one's face) or で (with). Used in both written and spoken Japanese, often in narration or descriptions of emotional moments.\n\nCOMMON COLLOCATIONS:\n- {満面|まんめん}の{笑|え}みを{浮|う}かべる — to break into a beaming smile\n- {満面|まんめん}の{笑|え}みで{迎|むか}える — to greet with a broad smile\n- {満面|まんめん}の{笑顔|えがお} — a beaming face (variant with {笑顔|えがお})\n\nSIMILAR WORDS:\n- {笑顔|えがお} — smiling face (general, everyday)\n- {微笑|びしょう}み — a gentle smile (quieter, more restrained)\n- にっこり — with a smile (onomatopoeia, friendly)",
+  "notes": "⟦{満面|まんめん}→満面：27881_manmen⟧ means \"the entire face\" and ⟦{笑|え}み→笑み：13768_emi⟧ means \"smile.\" Together, this expression describes a smile so broad that it fills the entire face — a genuinely joyful expression.\n\nUSAGE:\nAlmost always appears with the verb ⟦{浮|う}かべる→浮かべる：13314_ukaberu⟧ (to show/display on one's face) or で (with). Used in both written and spoken Japanese, often in narration or descriptions of emotional moments.\n\nCOMMON COLLOCATIONS:\n- {満面|まんめん}の{笑|え}み⟦を→を：00422_wo⟧⟦{浮|う}かべる→浮かべる：13314_ukaberu⟧ — to break into a beaming smile\n- {満面|まんめん}の{笑|え}み⟦で→で：00502_de⟧⟦{迎|むか}える→迎える：01193_mukaeru⟧ — to greet with a broad smile\n- ⟦{満面|まんめん}→満面：27881_manmen⟧⟦の→の：09472_no⟧⟦{笑顔|えがお}→笑顔：01884_egao⟧ — a beaming face (variant with ⟦{笑顔|えがお}→笑顔：01884_egao⟧)\n\nSIMILAR WORDS:\n- ⟦{笑顔|えがお}→笑顔：01884_egao⟧ — smiling face (general, everyday)\n- {微笑|びしょう}み — a gentle smile (quieter, more restrained)\n- ⟦にっこり→にっこり：03517_nikkori⟧ — with a smile (onomatopoeia, friendly)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01884_egao",
+      "reading": "えがお",
+      "headword": "{笑顔|えがお}",
+      "label": "smiling face"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03517_nikkori",
+      "reading": "にっこり",
+      "headword": "にっこり",
+      "label": "with a smile"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +76,6 @@
       ]
     },
     "created": "2026-03-29T14:06:53Z",
-    "modified": "2026-07-28T00:51:36Z"
+    "modified": "2026-09-02T04:01:59Z"
   }
 }

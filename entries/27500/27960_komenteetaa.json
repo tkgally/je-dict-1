@@ -15,41 +15,81 @@
   "examples": [
     {
       "id": "27960_komenteetaa_ex1",
-      "japanese": "コメンテーターが{意見|いけん}を{述|の}べた。",
+      "japanese": "コメンテーター⟦が→が：00051_ga⟧⟦{意見|いけん}→意見：01303_iken⟧⟦を→を：00422_wo⟧⟦{述|の}べた→述べる：02389_noberu⟧。",
       "english": "The commentator gave an opinion.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27960_komenteetaa_ex2",
-      "japanese": "{番組|ばんぐみ}には{毎週|まいしゅう}{違|ちが}うコメンテーターが{出演|しゅつえん}する。",
+      "japanese": "⟦{番組|ばんぐみ}→番組：01705_bangumi⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{毎週|まいしゅう}→毎週：00730_maishuu⟧⟦{違|ちが}う→違う：01957_chigau⟧コメンテーター⟦が→が：00051_ga⟧⟦{出演|しゅつえん}→出演：11732_shutsuen⟧⟦する→する：00392_suru⟧。",
       "english": "A different commentator appears on the program each week.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27960_komenteetaa_ex3",
-      "japanese": "{経済|けいざい}{専門|せんもん}のコメンテーターが{今回|こんかい}のニュースを{分|わ}かりやすく{解説|かいせつ}した。",
+      "japanese": "⟦{経済|けいざい}→経済：01394_keizai⟧⟦{専門|せんもん}→専門：01251_senmon⟧⟦の→の：09472_no⟧コメンテーター⟦が→が：00051_ga⟧⟦{今回|こんかい}→今回：01409_konkai⟧⟦の→の：09472_no⟧⟦ニュース→ニュース：04437_nyuusu⟧⟦を→を：00422_wo⟧⟦{分|わ}かり→分かる：00463_wakaru⟧やすく⟦{解説|かいせつ}した→解説する：17850_kaisetsusuru⟧。",
       "english": "A commentator specializing in economics explained this news in an easy-to-understand way.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A regular or guest panelist on news and variety programs (especially morning 'wide shows') who reacts to topics and offers commentary. Often a specialist, journalist, or well-known personality.\n\nSIMILAR WORDS:\n- キャスター: anchor — hosts the program and directs the discussion\n- {解説者|かいせつしゃ}: analyst, expert commentator — emphasizes specialist explanation, common in sports and news",
+  "notes": "A regular or guest panelist on news and variety programs (especially morning 'wide shows') who reacts to topics and offers commentary. Often a specialist, journalist, or well-known personality.\n\nSIMILAR WORDS:\n- ⟦キャスター→キャスター：27958_kyasutaa⟧: anchor — hosts the program and directs the discussion\n- ⟦{解説者|かいせつしゃ}→解説者：09688_kaisetsusha⟧: analyst, expert commentator — emphasizes specialist explanation, common in sports and news",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "27958_kyasutaa",
+      "reading": "きゃすたー",
+      "headword": "キャスター",
+      "label": "anchor"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09688_kaisetsusha",
+      "reading": "かいせつしゃ",
+      "headword": "{解説者|かいせつしゃ}",
+      "label": "analyst, expert commentator"
+    },
+    {
+      "type": "related",
+      "target_id": "01765_anaunsaa",
+      "reading": "あなうんさー",
+      "headword": "アナウンサー",
+      "label": "announcer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23805_ronkyaku",
+      "reading": "ろんきゃく",
+      "headword": "{論客|ろんきゃく}",
+      "label": "pundit"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["occupation"],
+      "semantic": [
+        "occupation"
+      ],
       "domain": []
     },
     "created": "2026-05-23T04:06:38Z",
-    "modified": "2026-05-23T04:06:38Z"
+    "modified": "2026-09-02T04:02:32Z"
   }
 }

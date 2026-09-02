@@ -15,38 +15,73 @@
   "examples": [
     {
       "id": "25609_hakumei_ex1",
-      "japanese": "{薄明|はくめい}の{中|なか}を{歩|ある}く。",
+      "japanese": "{薄明|はくめい}⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧⟦を→を：00422_wo⟧⟦{歩|ある}く→歩く：00538_aruku⟧。",
       "english": "To walk in the twilight.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "25609_hakumei_ex2",
-      "japanese": "{薄明|はくめい}の{空|そら}が{美|うつく}しかった。",
+      "japanese": "{薄明|はくめい}⟦の→の：09472_no⟧⟦{空|そら}→空：02216_sora⟧⟦が→が：00051_ga⟧⟦{美|うつく}しかった→美しい：01121_utsukushii⟧。",
       "english": "The twilight sky was beautiful.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "25609_hakumei_ex3",
-      "japanese": "{夜明|よあ}け{前|まえ}の{薄明|はくめい}の{時間帯|じかんたい}は、{鳥|とり}たちが{一斉|いっせい}に{鳴|な}き{始|はじ}める。",
+      "japanese": "⟦{夜明|よあ}け→夜明け：03655_yoake⟧⟦{前|まえ}→前：02255_mae⟧⟦の→の：09472_no⟧{薄明|はくめい}⟦の→の：09472_no⟧⟦{時間帯|じかんたい}→時間帯：12971_jikantai⟧⟦は→は：00079_ha⟧、⟦{鳥|とり}→鳥：00679_tori⟧たち⟦が→が：00051_ga⟧⟦{一斉|いっせい}→一斉：01726_issei⟧⟦に→に：00314_ni⟧⟦{鳴|な}き→鳴く：04388_naku⟧{始|はじ}める。",
       "english": "In the twilight hours before dawn, the birds all begin singing at once.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {薄|はく} (thin, faint) and {明|めい} (light, brightness). A literary and somewhat formal word for the soft light of dawn or dusk. It has a poetic, atmospheric quality and is often used in literature, photography, and descriptions of nature.\n\nIn astronomy, {薄明|はくめい} is also a technical term for twilight — the period when the sun is below the horizon but its light is still scattered in the atmosphere.\n\nCOMMON COLLOCATIONS:\n- {薄明|はくめい}の{空|そら}: twilight sky\n- {薄明|はくめい}の{中|なか}: in the twilight\n- {薄明|はくめい}の{光|ひかり}: twilight light\n- {朝|あさ}の{薄明|はくめい}: morning twilight\n\nSIMILAR WORDS:\n- たそがれ: twilight (especially dusk) — more poetic and literary; from {黄昏|たそがれ}\n- {夕暮|ゆうぐ}れ: evening twilight, dusk — more everyday and specific to evening\n- {明|あ}け{方|がた}: dawn, daybreak — the time just before sunrise\n- {薄明|うすあか}るい: dimly lit — the adjective describing the quality of faint light",
+  "notes": "A compound of {薄|はく} (thin, faint) and {明|めい} (light, brightness). A literary and somewhat formal word for the soft light of dawn or dusk. It has a poetic, atmospheric quality and is often used in literature, photography, and descriptions of nature.\n\nIn astronomy, {薄明|はくめい} is also a technical term for twilight — the period when the sun is below the horizon but its light is still scattered in the atmosphere.\n\nCOMMON COLLOCATIONS:\n- {薄明|はくめい}⟦の→の：09472_no⟧⟦{空|そら}→空：02216_sora⟧: twilight sky\n- {薄明|はくめい}⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧: in the twilight\n- {薄明|はくめい}⟦の→の：09472_no⟧⟦{光|ひかり}→光：01707_hikari⟧: twilight light\n- ⟦{朝|あさ}→朝：02277_asa⟧⟦の→の：09472_no⟧{薄明|はくめい}: morning twilight\n\nSIMILAR WORDS:\n- たそがれ: twilight (especially dusk) — more poetic and literary; from ⟦{黄昏|たそがれ}→黄昏：05046_tasogare⟧\n- ⟦{夕暮|ゆうぐ}れ→夕暮れ：07682_yuugure⟧: evening twilight, dusk — more everyday and specific to evening\n- ⟦{明|あ}け{方|がた}→明け方：17595_akegata⟧: dawn, daybreak — the time just before sunrise\n- {薄明|うすあか}るい: dimly lit — the adjective describing the quality of faint light",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05046_tasogare",
+      "reading": "たそがれ",
+      "headword": "{黄昏|たそがれ}",
+      "label": "twilight"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07682_yuugure",
+      "reading": "ゆうぐれ",
+      "headword": "{夕暮|ゆうぐ}れ",
+      "label": "evening twilight, dusk"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17595_akegata",
+      "reading": "あけがた",
+      "headword": "{明|あ}け{方|がた}",
+      "label": "dawn, daybreak"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["nature", "time"]
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "nature",
+        "time"
+      ]
     },
     "created": "2026-04-26T12:39:06Z",
-    "modified": "2026-04-26T12:39:06Z"
+    "modified": "2026-09-02T04:02:23Z"
   }
 }

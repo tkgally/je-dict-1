@@ -15,40 +15,95 @@
   "examples": [
     {
       "id": "22927_ryokousha_ex1",
-      "japanese": "{外国人|がいこくじん}{旅行者|りょこうしゃ}が{増|ふ}えている。",
+      "japanese": "⟦{外国人|がいこくじん}→外国人：02869_gaikokujin⟧{旅行者|りょこうしゃ}⟦が→が：00051_ga⟧⟦{増|ふ}えている→増える：01183_fueru⟧。",
       "english": "The number of foreign travelers is increasing.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "22927_ryokousha_ex2",
-      "japanese": "{旅行者|りょこうしゃ}{向|む}けのガイドブックを{買|か}った。",
+      "japanese": "{旅行者|りょこうしゃ}{向|む}け⟦の→の：09472_no⟧ガイドブック⟦を→を：00422_wo⟧⟦{買|か}った→買う：00489_kau⟧。",
       "english": "I bought a guidebook aimed at travelers.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "22927_ryokousha_ex3",
-      "japanese": "この{地域|ちいき}では{旅行者|りょこうしゃ}に{対|たい}するマナーの{啓発|けいはつ}{活動|かつどう}が{行|おこな}われている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{地域|ちいき}→地域：01461_chiiki⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧{旅行者|りょこうしゃ}⟦に→に：00314_ni⟧⟦{対|たい}する→対する：02126_taisuru⟧⟦マナー→マナー：11139_manaa⟧⟦の→の：09472_no⟧{啓発|けいはつ}⟦{活動|かつどう}→活動：00201_katsudou⟧⟦が→が：00051_ga⟧⟦{行|おこな}われている→行う：01238_okonau⟧。",
       "english": "In this area, awareness campaigns about manners for travelers are being carried out.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {旅行|りょこう} (travel, trip) and {者|しゃ} (person). The standard term for a person who is traveling. Neutral in register and widely used in news, signage, tourism materials, and everyday conversation.\n\nCOMMON COLLOCATIONS:\n- {外国人|がいこくじん}{旅行者|りょこうしゃ}: foreign traveler/tourist\n- {旅行者|りょこうしゃ}{保険|ほけん}: travel insurance\n- {旅行者|りょこうしゃ}{向|む}け: aimed at travelers\n- {個人|こじん}{旅行者|りょこうしゃ}: independent traveler\n\nSIMILAR WORDS:\n- {観光客|かんこうきゃく}: tourist — specifically someone sightseeing; more focused on leisure tourism\n- {旅人|たびびと}: traveler — more literary and poetic; evokes a wanderer or journeyer\n- ツーリスト: tourist — the English loanword, casual\n- {訪問者|ほうもんしゃ}: visitor — broader; includes business visitors and anyone visiting a place",
+  "notes": "Composed of ⟦{旅行|りょこう}→旅行：00748_ryokou⟧ (travel, trip) and ⟦{者|しゃ}→〜者：04662_sha⟧ (person). The standard term for a person who is traveling. Neutral in register and widely used in news, signage, tourism materials, and everyday conversation.\n\nCOMMON COLLOCATIONS:\n- ⟦{外国人|がいこくじん}→外国人：02869_gaikokujin⟧{旅行者|りょこうしゃ}: foreign traveler/tourist\n- {旅行者|りょこうしゃ}⟦{保険|ほけん}→保険：01509_hoken⟧: travel insurance\n- {旅行者|りょこうしゃ}{向|む}け: aimed at travelers\n- ⟦{個人|こじん}→個人：02758_kojin⟧{旅行者|りょこうしゃ}: independent traveler\n\nSIMILAR WORDS:\n- ⟦{観光客|かんこうきゃく}→観光客：03022_kankoukyaku⟧: tourist — specifically someone sightseeing; more focused on leisure tourism\n- ⟦{旅人|たびびと}→旅人：12725_tabibito⟧: traveler — more literary and poetic; evokes a wanderer or journeyer\n- ツーリスト: tourist — the English loanword, casual\n- ⟦{訪問者|ほうもんしゃ}→訪問者：20148_houmonsha⟧: visitor — broader; includes business visitors and anyone visiting a place",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03022_kankoukyaku",
+      "reading": "かんこうきゃく",
+      "headword": "{観光客|かんこうきゃく}",
+      "label": "tourist"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12725_tabibito",
+      "reading": "たびびと",
+      "headword": "{旅人|たびびと}",
+      "label": "traveler"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20148_houmonsha",
+      "reading": "ほうもんしゃ",
+      "headword": "{訪問者|ほうもんしゃ}",
+      "label": "visitor"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12950_ryokaku",
+      "reading": "りょかく",
+      "headword": "{旅客|りょかく}",
+      "label": "passenger, traveler"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25762_ryokoukyaku",
+      "reading": "りょこうきゃく",
+      "headword": "{旅行客|りょこうきゃく}",
+      "label": "traveler"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30252_taizaisha",
+      "reading": "たいざいしゃ",
+      "headword": "{滞在者|たいざいしゃ}",
+      "label": "person staying"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["travel", "person"],
+      "pos": [
+        "noun"
+      ],
+      "semantic": [
+        "travel",
+        "person"
+      ],
       "formality": "neutral",
       "politeness": "plain"
     },
     "created": "2026-04-07T21:09:31Z",
-    "modified": "2026-07-31T00:25:02Z"
+    "modified": "2026-09-02T04:02:10Z"
   }
 }

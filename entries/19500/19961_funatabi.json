@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "19961_funatabi_ex1",
-      "japanese": "{船旅|ふなたび}を{楽|たの}しむ。",
+      "japanese": "{船旅|ふなたび}⟦を→を：00422_wo⟧⟦{楽|たの}しむ→楽しむ：01203_tanoshimu⟧。",
       "english": "To enjoy a boat trip.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "19961_funatabi_ex2",
-      "japanese": "{瀬戸内海|せとないかい}を{船旅|ふなたび}で{巡|めぐ}った。",
+      "japanese": "⟦{瀬戸内海|せとないかい}→瀬戸内海：30793_setonaikai⟧⟦を→を：00422_wo⟧{船旅|ふなたび}⟦で→で：00502_de⟧⟦{巡|めぐ}った→巡る：03930_meguru⟧。",
       "english": "I toured the Seto Inland Sea by boat.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "19961_funatabi_ex3",
-      "japanese": "{飛行機|ひこうき}より{時間|じかん}はかかるが、{船旅|ふなたび}にはのんびりした{魅力|みりょく}がある。",
+      "japanese": "⟦{飛行機|ひこうき}→飛行機：00629_hikouki⟧⟦より→より：09476_yori⟧⟦{時間|じかん}→時間：00468_jikan⟧⟦は→は：00079_ha⟧⟦かかる→かかる：00711_kakaru⟧⟦が→が：00051_ga⟧、{船旅|ふなたび}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦のんびり→のんびり：01596_nonbiri⟧⟦した→する：00392_suru⟧⟦{魅力|みりょく}→魅力：03749_miryoku⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "It takes longer than flying, but boat travel has a relaxing charm.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {船|ふな} (boat, ship) + {旅|たび} (travel, journey). The reading {船|ふな} uses the native Japanese (kun'yomi) reading, as is common in compound nouns with {旅|たび}.\n\nCOMMON COLLOCATIONS:\n- {船旅|ふなたび}を{楽|たの}しむ: to enjoy a boat trip\n- {船旅|ふなたび}に{出|で}る: to set out on a voyage\n- {世界|せかい}{一周|いっしゅう}の{船旅|ふなたび}: around-the-world cruise\n- {豪華|ごうか}な{船旅|ふなたび}: luxury cruise\n\nSIMILAR WORDS:\n- クルーズ: cruise (loanword; typically implies luxury)\n- {航海|こうかい}: voyage, navigation (more formal/technical; emphasizes the sailing itself)\n- {渡航|とこう}: overseas travel (by any means, not just ship)",
+  "notes": "Composed of {船|ふな} (boat, ship) + ⟦{旅|たび}→旅：03407_tabi⟧ (travel, journey). The reading {船|ふな} uses the native Japanese (kun'yomi) reading, as is common in compound nouns with ⟦{旅|たび}→旅：03407_tabi⟧.\n\nCOMMON COLLOCATIONS:\n- {船旅|ふなたび}⟦を→を：00422_wo⟧⟦{楽|たの}しむ→楽しむ：01203_tanoshimu⟧: to enjoy a boat trip\n- {船旅|ふなたび}⟦に→に：00314_ni⟧⟦{出|で}る→出る：00513_deru⟧: to set out on a voyage\n- ⟦{世界|せかい}{一周|いっしゅう}→世界一周：29922_sekaiisshuu⟧⟦の→の：09472_no⟧{船旅|ふなたび}: around-the-world cruise\n- ⟦{豪華|ごうか}→豪華：02815_gouka⟧な{船旅|ふなたび}: luxury cruise\n\nSIMILAR WORDS:\n- クルーズ: cruise (loanword; typically implies luxury)\n- ⟦{航海|こうかい}→航海：02797_koukai⟧: voyage, navigation (more formal/technical; emphasizes the sailing itself)\n- ⟦{渡航|とこう}→渡航：17919_tokou⟧: overseas travel (by any means, not just ship)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02797_koukai",
+      "reading": "こうかい",
+      "headword": "{航海|こうかい}",
+      "label": "voyage, navigation (more…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17919_tokou",
+      "reading": "とこう",
+      "headword": "{渡航|とこう}",
+      "label": "overseas travel"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +75,6 @@
       ]
     },
     "created": "2026-03-27T07:19:17Z",
-    "modified": "2026-07-28T01:08:41Z"
+    "modified": "2026-09-02T04:01:57Z"
   }
 }

@@ -15,41 +15,67 @@
   "examples": [
     {
       "id": "15626_chakunan_ex1",
-      "japanese": "{嫡男|ちゃくなん}が{家督|かとく}を{継|つ}いだ。",
+      "japanese": "{嫡男|ちゃくなん}⟦が→が：00051_ga⟧{家督|かとく}⟦を→を：00422_wo⟧⟦{継|つ}いだ→継ぐ：02292_tsugu⟧。",
       "english": "The legitimate son inherited the family headship.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15626_chakunan_ex2",
-      "japanese": "{殿様|とのさま}の{嫡男|ちゃくなん}は{幼|おさな}くして{亡|な}くなった。",
+      "japanese": "⟦{殿様|とのさま}→殿様：10455_tonosama⟧⟦の→の：09472_no⟧{嫡男|ちゃくなん}⟦は→は：00079_ha⟧⟦{幼|おさな}く→幼い：02337_osanai⟧⟦して→する：00392_suru⟧⟦{亡|な}くなった→亡くなる：02639_nakunaru⟧。",
       "english": "The lord's legitimate heir died at a young age.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15626_chakunan_ex3",
-      "japanese": "{嫡男|ちゃくなん}ではなく{次男|じなん}が{藩主|はんしゅ}になるのは{異例|いれい}のことだった。",
+      "japanese": "{嫡男|ちゃくなん}⟦ではなく→ではなく：09578_dehanaku⟧⟦{次男|じなん}→次男：13210_jinan⟧⟦が→が：00051_ga⟧⟦{藩主|はんしゅ}→藩主：26186_hanshu⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦の→の：09472_no⟧⟦は→は：00079_ha⟧⟦{異例|いれい}→異例：13564_irei⟧⟦の→の：09472_no⟧ことだった。",
       "english": "It was unusual for the second son rather than the legitimate heir to become the domain lord.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\n{嫡男|ちゃくなん} is primarily a historical term associated with the Japanese feudal system, where the eldest son of the principal wife had the right of succession. It appears frequently in historical dramas, period novels, and discussions of samurai lineage.\n\nCOMMON COLLOCATIONS:\n- {嫡男|ちゃくなん}が{家督|かとく}を{継|つ}ぐ (the heir inherits the headship)\n- {嫡男|ちゃくなん}として{生|う}まれる (to be born as the legitimate heir)\n\nSIMILAR WORDS:\n- {長男|ちょうなん}: eldest son (modern, general usage)\n- {嫡子|ちゃくし}: legitimate child (includes daughters)\n- {跡継|あとつ}ぎ: successor, heir (general term)",
-  "cross_references": [],
+  "notes": "USAGE:\n{嫡男|ちゃくなん} is primarily a historical term associated with the Japanese feudal system, where the eldest son of the principal wife had the right of succession. It appears frequently in historical dramas, period novels, and discussions of samurai lineage.\n\nCOMMON COLLOCATIONS:\n- {嫡男|ちゃくなん}⟦が→が：00051_ga⟧{家督|かとく}⟦を→を：00422_wo⟧⟦{継|つ}ぐ→継ぐ：02292_tsugu⟧ (the heir inherits the headship)\n- {嫡男|ちゃくなん}⟦として→として：06802_toshite⟧⟦{生|う}まれる→生まれる：00905_umareru⟧ (to be born as the legitimate heir)\n\nSIMILAR WORDS:\n- ⟦{長男|ちょうなん}→長男：14519_chounan⟧: eldest son (modern, general usage)\n- {嫡子|ちゃくし}: legitimate child (includes daughters)\n- ⟦{跡継|あとつ}ぎ→跡継ぎ：14299_atotsugi⟧: successor, heir (general term)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14519_chounan",
+      "reading": "ちょうなん",
+      "headword": "{長男|ちょうなん}",
+      "label": "eldest son"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14299_atotsugi",
+      "reading": "あとつぎ",
+      "headword": "{跡継|あとつ}ぎ",
+      "label": "successor, heir"
+    }
+  ],
   "metadata": {
     "created": "2026-03-07T13:43:42Z",
-    "modified": "2026-03-07T13:43:42Z",
+    "modified": "2026-09-02T04:01:41Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["history", "family"]
+      "semantic": [
+        "history",
+        "family"
+      ]
     }
   }
 }

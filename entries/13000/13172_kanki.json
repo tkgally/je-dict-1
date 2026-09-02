@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "13172_kanki_ex1",
-      "japanese": "{歓喜|かんき}の{声|こえ}が{上|あ}がった。",
+      "japanese": "{歓喜|かんき}⟦の→の：09472_no⟧⟦{声|こえ}→声：02207_koe⟧⟦が→が：00051_ga⟧⟦{上|あ}がった→上がる：00615_agaru⟧。",
       "english": "Shouts of joy went up.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "13172_kanki_ex2",
-      "japanese": "{優勝|ゆうしょう}が{決|き}まり、チームは{歓喜|かんき}に{包|つつ}まれた。",
+      "japanese": "⟦{優勝|ゆうしょう}→優勝：03647_yuushou⟧⟦が→が：00051_ga⟧⟦{決|き}まり→決まる：01233_kimaru⟧、⟦チーム→チーム：03858_chiimu⟧⟦は→は：00079_ha⟧{歓喜|かんき}⟦に→に：00314_ni⟧⟦{包|つつ}まれた→包む：01226_tsutsumu⟧。",
       "english": "With the championship decided, the team was enveloped in joy.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "13172_kanki_ex3",
-      "japanese": "{長年|ながねん}の{努力|どりょく}が{実|みの}り、{彼|かれ}は{歓喜|かんき}の{涙|なみだ}を{流|なが}した。",
+      "japanese": "⟦{長年|ながねん}→長年：09684_naganen⟧⟦の→の：09472_no⟧⟦{努力|どりょく}→努力：03490_doryoku⟧⟦が→が：00051_ga⟧⟦{実|みの}り→実る：00282_minoru⟧、⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{歓喜|かんき}⟦の→の：09472_no⟧⟦{涙|なみだ}→涙：02235_namida⟧⟦を→を：00422_wo⟧⟦{流|なが}した→流す：01968_nagasu⟧。",
       "english": "His years of effort bore fruit, and he shed tears of joy.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "ETYMOLOGY:\n{歓|かん} (joy, pleasure) + {喜|き} (rejoice, delight). Both characters express happiness, creating an emphatic compound.\n\nUSAGE:\nA literary and elevated word for joy. {歓喜|かんき}する means \"to rejoice greatly.\" Often used in news reporting for sports victories, election results, and similar dramatic moments. Beethoven's \"Ode to Joy\" is known in Japanese as {歓喜|かんき}の{歌|うた}.\n\nCOMMON COLLOCATIONS:\n- {歓喜|かんき}の{声|こえ}: shouts of joy\n- {歓喜|かんき}の{涙|なみだ}: tears of joy\n- {歓喜|かんき}に{包|つつ}まれる: to be enveloped in joy\n- {歓喜|かんき}に{沸|わ}く: to erupt in joy\n- {歓喜|かんき}する: to rejoice\n\nSIMILAR WORDS:\n- {喜|よろこ}び: joy, happiness (everyday, general)\n- {歓声|かんせい}: cheers, shouts of joy (the sound itself)",
+  "notes": "ETYMOLOGY:\n{歓|かん} (joy, pleasure) + {喜|き} (rejoice, delight). Both characters express happiness, creating an emphatic compound.\n\nUSAGE:\nA literary and elevated word for joy. {歓喜|かんき}⟦する→する：00392_suru⟧ means \"to rejoice greatly.\" Often used in news reporting for sports victories, election results, and similar dramatic moments. Beethoven's \"Ode to Joy\" is known in Japanese as {歓喜|かんき}⟦の→の：09472_no⟧⟦{歌|うた}→歌：02179_uta⟧.\n\nCOMMON COLLOCATIONS:\n- {歓喜|かんき}⟦の→の：09472_no⟧⟦{声|こえ}→声：02207_koe⟧: shouts of joy\n- {歓喜|かんき}⟦の→の：09472_no⟧⟦{涙|なみだ}→涙：02235_namida⟧: tears of joy\n- {歓喜|かんき}⟦に→に：00314_ni⟧⟦{包|つつ}まれる→包む：01226_tsutsumu⟧: to be enveloped in joy\n- {歓喜|かんき}⟦に→に：00314_ni⟧⟦{沸|わ}く→沸く：01122_waku⟧: to erupt in joy\n- {歓喜|かんき}⟦する→する：00392_suru⟧: to rejoice\n\nSIMILAR WORDS:\n- ⟦{喜|よろこ}び→喜び：03672_yorokobi⟧: joy, happiness (everyday, general)\n- ⟦{歓声|かんせい}→歓声：02686_kansei⟧: cheers, shouts of joy (the sound itself)",
   "cross_references": [
     {
       "type": "synonym",
@@ -142,11 +142,32 @@
       "reading": "よろこび",
       "headword": "{喜|よろこ}び",
       "label": "joy (everyday)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02686_kansei",
+      "reading": "かんせい",
+      "headword": "{歓声|かんせい}",
+      "label": "cheers, shouts of joy"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24560_kietsu",
+      "reading": "きえつ",
+      "headword": "{喜悦|きえつ}",
+      "label": "joy"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28880_ooyorokobi",
+      "reading": "おおよろこび",
+      "headword": "{大喜|おおよろこ}び",
+      "label": "great joy"
     }
   ],
   "metadata": {
     "created": "2026-02-23T12:21:36Z",
-    "modified": "2026-04-28T05:17:26Z",
+    "modified": "2026-09-02T04:01:32Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

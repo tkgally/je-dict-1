@@ -15,41 +15,60 @@
   "examples": [
     {
       "id": "21191_wataire_ex1",
-      "japanese": "{冬|ふゆ}になると{綿入|わたい}れを{着|き}る。",
+      "japanese": "⟦{冬|ふゆ}→冬：00623_fuyu⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦と→と：00512_to⟧{綿入|わたい}れ⟦を→を：00422_wo⟧⟦{着|き}る→着る：00541_kiru⟧。",
       "english": "I wear a padded coat when winter comes.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "21191_wataire_ex2",
-      "japanese": "{祖母|そぼ}が{手作|てづく}りの{綿入|わたい}れをくれた。",
+      "japanese": "⟦{祖母|そぼ}→祖母：00813_sobo⟧⟦が→が：00051_ga⟧⟦{手作|てづく}り→手作り：08300_tezukuri⟧⟦の→の：09472_no⟧{綿入|わたい}れ⟦を→を：00422_wo⟧⟦くれた→くれる：00724_kureru⟧。",
       "english": "My grandmother gave me a handmade padded garment.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "21191_wataire_ex3",
-      "japanese": "{昔|むかし}の{人|ひと}は{綿入|わたい}れの{半纏|はんてん}を{着|き}て{寒|さむ}さをしのいだ。",
+      "japanese": "⟦{昔|むかし}→昔：01515_mukashi⟧⟦の→の：09472_no⟧⟦{人|ひと}→人：00476_hito⟧⟦は→は：00079_ha⟧{綿入|わたい}れ⟦の→の：09472_no⟧{半纏|はんてん}⟦を→を：00422_wo⟧⟦{着|き}て→着る：00541_kiru⟧⟦{寒|さむ}さ→寒さ：12336_samusa⟧⟦を→を：00422_wo⟧しのいだ。",
       "english": "In the old days, people wore padded hanten jackets to endure the cold.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{綿|わた} means 'cotton' or 'cotton wadding,' and {入|い}れ means 'putting in' or 'insertion.' {綿入|わたい}れ refers to any garment that has cotton batting layered inside for insulation. Historically, this was the primary form of winter clothing in Japan before modern insulated fabrics.\n\nCOMMON COLLOCATIONS:\n- {綿入|わたい}れの{半纏|はんてん} (padded hanten jacket)\n- {綿入|わたい}れの{着物|きもの} (padded kimono)\n- {綿入|わたい}れを{着|き}る (to wear a padded garment)\n\nCULTURAL NOTE:\nBefore modern heating and synthetic insulation, {綿入|わたい}れ garments were essential for surviving Japanese winters. The {半纏|はんてん} (a short padded jacket) is still worn at home in winter by some people. The word evokes a sense of traditional, cozy winter life.\n\nSIMILAR WORDS:\n- {半纏|はんてん} — hanten (a specific type of short padded jacket)\n- {丹前|たんぜん} — padded dressing gown (thicker, worn over other clothes at home or at hot spring inns)\n- ダウンジャケット — down jacket (modern equivalent using down feathers for insulation)",
-  "cross_references": [],
+  "notes": "⟦{綿|わた}→綿：00421_wata⟧ means 'cotton' or 'cotton wadding,' and ⟦{入|い}れ→入れる：01098_ireru⟧ means 'putting in' or 'insertion.' {綿入|わたい}れ refers to any garment that has cotton batting layered inside for insulation. Historically, this was the primary form of winter clothing in Japan before modern insulated fabrics.\n\nCOMMON COLLOCATIONS:\n- {綿入|わたい}れ⟦の→の：09472_no⟧{半纏|はんてん} (padded hanten jacket)\n- {綿入|わたい}れ⟦の→の：09472_no⟧⟦{着物|きもの}→着物：01309_kimono⟧ (padded kimono)\n- {綿入|わたい}れ⟦を→を：00422_wo⟧⟦{着|き}る→着る：00541_kiru⟧ (to wear a padded garment)\n\nCULTURAL NOTE:\nBefore modern heating and synthetic insulation, {綿入|わたい}れ garments were essential for surviving Japanese winters. The {半纏|はんてん} (a short padded jacket) is still worn at home in winter by some people. The word evokes a sense of traditional, cozy winter life.\n\nSIMILAR WORDS:\n- {半纏|はんてん} — hanten (a specific type of short padded jacket)\n- {丹前|たんぜん} — padded dressing gown (thicker, worn over other clothes at home or at hot spring inns)\n- ⟦ダウンジャケット→ダウンジャケット：27310_daunjaketto⟧ — down jacket (modern equivalent using down feathers for insulation)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "27310_daunjaketto",
+      "reading": "だうんじゃけっと",
+      "headword": "ダウンジャケット",
+      "label": "down jacket"
+    }
+  ],
   "metadata": {
     "created": "2026-03-31T22:21:09Z",
-    "modified": "2026-03-31T22:21:09Z",
+    "modified": "2026-09-02T04:02:02Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["daily-life", "culture"]
+      "semantic": [
+        "daily-life",
+        "culture"
+      ]
     }
   }
 }

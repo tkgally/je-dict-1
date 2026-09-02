@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "13308_asazuke_ex1",
-      "japanese": "きゅうりの{浅漬|あさづ}けを{作|つく}った。",
+      "japanese": "きゅうり⟦の→の：09472_no⟧{浅漬|あさづ}け⟦を→を：00422_wo⟧⟦{作|つく}った→作る：00481_tsukuru⟧。",
       "english": "I made lightly pickled cucumbers.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "13308_asazuke_ex2",
-      "japanese": "{浅漬|あさづ}けは{簡単|かんたん}に{作|つく}れるので{毎日|まいにち}の{食卓|しょくたく}にぴったりだ。",
+      "japanese": "{浅漬|あさづ}け⟦は→は：00079_ha⟧⟦{簡単|かんたん}→簡単：00713_kantan⟧⟦に→に：00314_ni⟧⟦{作|つく}れる→作る：00481_tsukuru⟧⟦の→の：09472_no⟧で⟦{毎日|まいにち}→毎日：00729_mainichi⟧⟦の→の：09472_no⟧⟦{食卓|しょくたく}→食卓：03246_shokutaku⟧⟦に→に：00314_ni⟧⟦ぴったり→ぴったり：02362_pittari⟧だ。",
       "english": "Quick pickles are easy to make, so they're perfect for everyday meals.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "13308_asazuke_ex3",
-      "japanese": "{白菜|はくさい}の{浅漬|あさづ}けにゆずの{皮|かわ}を{入|い}れると{香|かお}りがよくなる。",
+      "japanese": "⟦{白菜|はくさい}→白菜：13606_hakusai⟧⟦の→の：09472_no⟧{浅漬|あさづ}け⟦に→に：00314_ni⟧ゆず⟦の→の：09472_no⟧⟦{皮|かわ}→皮：02187_kawa⟧⟦を→を：00422_wo⟧⟦{入|い}れる→入れる：01098_ireru⟧⟦と→と：00512_to⟧⟦{香|かお}り→香り：00189_kaori⟧⟦が→が：00051_ga⟧⟦よく→よく：00601_yoku⟧⟦なる→なる：01970_naru⟧。",
       "english": "Adding yuzu peel to lightly pickled napa cabbage gives it a nice aroma.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA type of {漬物|つけもの} (pickles) characterized by short pickling time and light seasoning. Unlike deeply fermented pickles such as {沢庵|たくあん} or {糠漬|ぬかづ}け, {浅漬|あさづ}け preserves the vegetable's fresh color and crunch. Common vegetables used include {白菜|はくさい} (napa cabbage), きゅうり (cucumber), {茄子|なす} (eggplant), and {大根|だいこん} (daikon).\n\nThe name literally means \"shallow/light pickling,\" contrasting with {古漬|ふるづ}け (long-fermented pickles).\n\nCOMMON COLLOCATIONS:\n- きゅうりの{浅漬|あさづ}け: lightly pickled cucumber\n- {白菜|はくさい}の{浅漬|あさづ}け: lightly pickled napa cabbage\n- {浅漬|あさづ}けの{素|もと}: quick pickle seasoning mix\n- {浅漬|あさづ}けを{作|つく}る: to make quick pickles",
+  "notes": "USAGE:\nA type of ⟦{漬物|つけもの}→漬物：04938_tsukemono⟧ (pickles) characterized by short pickling time and light seasoning. Unlike deeply fermented pickles such as ⟦{沢庵|たくあん}→沢庵：13302_takuan⟧ or ⟦{糠漬|ぬかづ}け→糠漬け：17712_nukazuke⟧, {浅漬|あさづ}け preserves the vegetable's fresh color and crunch. Common vegetables used include ⟦{白菜|はくさい}→白菜：13606_hakusai⟧ (napa cabbage), きゅうり (cucumber), {茄子|なす} (eggplant), and ⟦{大根|だいこん}→大根：05186_daikon⟧ (daikon).\n\nThe name literally means \"shallow/light pickling,\" contrasting with {古漬|ふるづ}け (long-fermented pickles).\n\nCOMMON COLLOCATIONS:\n- きゅうり⟦の→の：09472_no⟧{浅漬|あさづ}け: lightly pickled cucumber\n- ⟦{白菜|はくさい}→白菜：13606_hakusai⟧⟦の→の：09472_no⟧{浅漬|あさづ}け: lightly pickled napa cabbage\n- {浅漬|あさづ}け⟦の→の：09472_no⟧⟦{素|もと}→素：28734_moto⟧: quick pickle seasoning mix\n- {浅漬|あさづ}け⟦を→を：00422_wo⟧⟦{作|つく}る→作る：00481_tsukuru⟧: to make quick pickles",
   "cross_references": [
     {
       "type": "related",
@@ -52,11 +52,18 @@
       "headword": "{沢庵|たくあん}",
       "label": "pickled daikon",
       "target_id": "13302_takuan"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25616_ichiyazuke",
+      "reading": "いちやづけ",
+      "headword": "{一夜漬|いちやづ}け",
+      "label": "overnight pickling"
     }
   ],
   "metadata": {
     "created": "2026-02-24T09:02:50Z",
-    "modified": "2026-03-29T10:42:23Z",
+    "modified": "2026-09-02T04:01:32Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

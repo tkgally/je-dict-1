@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24724_kaminapukin_ex1",
-      "japanese": "{紙|かみ}ナプキンを{取|と}ってください。",
+      "japanese": "{紙|かみ}ナプキン⟦を→を：00422_wo⟧⟦{取|と}って→取る：00565_toru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please pass me a paper napkin.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24724_kaminapukin_ex2",
-      "japanese": "テーブルの{上|うえ}に{紙|かみ}ナプキンが{置|お}いてある。",
+      "japanese": "⟦テーブル→テーブル：04488_teeburu⟧⟦の→の：09472_no⟧⟦{上|うえ}→上：00682_ue⟧⟦に→に：00314_ni⟧{紙|かみ}ナプキン⟦が→が：00051_ga⟧⟦{置|お}いてある→置く：01092_oku⟧。",
       "english": "There are paper napkins on the table.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24724_kaminapukin_ex3",
-      "japanese": "{子|こ}どもが{飲|の}み{物|もの}をこぼしたので、{紙|かみ}ナプキンで{拭|ふ}いた。",
+      "japanese": "{子|こ}ども⟦が→が：00051_ga⟧⟦{飲|の}み{物|もの}→飲み物：02929_nomimono⟧⟦を→を：00422_wo⟧⟦こぼした→こぼす：02104_kobosu⟧⟦の→の：09472_no⟧で、{紙|かみ}ナプキン⟦で→で：00502_de⟧⟦{拭|ふ}いた→拭く：04261_fuku⟧。",
       "english": "The child spilled their drink, so I wiped it up with a paper napkin.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {紙|かみ} (paper) and ナプキン (napkin, from English). In Japan, restaurants often provide おしぼり (wet towels) instead of paper napkins, so {紙|かみ}ナプキン is more associated with Western-style restaurants and fast-food chains.\n\nCOMMON COLLOCATIONS:\n- {紙|かみ}ナプキンで{拭|ふ}く: to wipe with a paper napkin\n- {紙|かみ}ナプキンを{広|ひろ}げる: to unfold a paper napkin\n- {紙|かみ}ナプキンホルダー: napkin holder/dispenser\n\nSIMILAR WORDS:\n- ナプキン: napkin — the base word; in Japanese, also commonly refers to sanitary napkins\n- おしぼり: wet towel — provided at Japanese restaurants for hand-wiping\n- ティッシュ: tissue paper — for the nose or general-purpose wiping",
+  "notes": "A compound of ⟦{紙|かみ}→紙：00712_kami⟧ (paper) and ⟦ナプキン→ナプキン：10257_napukin⟧ (napkin, from English). In Japan, restaurants often provide ⟦おしぼり→おしぼり：09726_oshibori⟧ (wet towels) instead of paper napkins, so {紙|かみ}ナプキン is more associated with Western-style restaurants and fast-food chains.\n\nCOMMON COLLOCATIONS:\n- {紙|かみ}ナプキン⟦で→で：00502_de⟧⟦{拭|ふ}く→拭く：04261_fuku⟧: to wipe with a paper napkin\n- {紙|かみ}ナプキン⟦を→を：00422_wo⟧⟦{広|ひろ}げる→広げる：01981_hirogeru⟧: to unfold a paper napkin\n- {紙|かみ}ナプキンホルダー: napkin holder/dispenser\n\nSIMILAR WORDS:\n- ⟦ナプキン→ナプキン：10257_napukin⟧: napkin — the base word; in Japanese, also commonly refers to sanitary napkins\n- ⟦おしぼり→おしぼり：09726_oshibori⟧: wet towel — provided at Japanese restaurants for hand-wiping\n- ⟦ティッシュ→ティッシュ：08816_tisshu⟧: tissue paper — for the nose or general-purpose wiping",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09726_oshibori",
+      "reading": "おしぼり",
+      "headword": "おしぼり",
+      "label": "wet towel"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08816_tisshu",
+      "reading": "てぃっしゅ",
+      "headword": "ティッシュ",
+      "label": "tissue paper"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27486_teeburunapukin",
+      "reading": "てーぶるなぷきん",
+      "headword": "テーブルナプキン",
+      "label": "table napkin"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -63,6 +86,6 @@
       ]
     },
     "created": "2026-04-20T13:12:33Z",
-    "modified": "2026-08-03T09:22:27Z"
+    "modified": "2026-09-02T04:02:19Z"
   }
 }

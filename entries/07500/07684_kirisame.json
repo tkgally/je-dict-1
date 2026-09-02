@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "07684_kirisame_ex1",
-      "japanese": "{霧雨|きりさめ}が{降|ふ}っている。",
+      "japanese": "{霧雨|きりさめ}⟦が→が：00051_ga⟧⟦{降|ふ}っている→降る：00839_furu⟧。",
       "english": "It's drizzling.",
       "has_audio": false,
       "sense_numbers": [
@@ -23,7 +23,7 @@
     },
     {
       "id": "07684_kirisame_ex2",
-      "japanese": "{霧雨|きりさめ}で{服|ふく}がしっとり{濡|ぬ}れた。",
+      "japanese": "{霧雨|きりさめ}⟦で→で：00502_de⟧⟦{服|ふく}→服：00695_fuku⟧⟦が→が：00051_ga⟧⟦しっとり→しっとり：05837_shittori⟧⟦{濡|ぬ}れた→濡れる：00800_nureru⟧。",
       "english": "My clothes got damp from the drizzle.",
       "has_audio": false,
       "sense_numbers": [
@@ -32,7 +32,7 @@
     },
     {
       "id": "07684_kirisame_ex3",
-      "japanese": "{傘|かさ}をさすほどでもない{霧雨|きりさめ}だった。",
+      "japanese": "⟦{傘|かさ}→傘：00639_kasa⟧⟦を→を：00422_wo⟧さすほどで⟦も→も：00484_mo⟧⟦ない→ない：01118_nai⟧{霧雨|きりさめ}だった。",
       "english": "It was a light drizzle, not enough to need an umbrella.",
       "has_audio": false,
       "sense_numbers": [
@@ -40,10 +40,19 @@
       ]
     }
   ],
-  "notes": "{霧雨|きりさめ} is very fine, mist-like rain — lighter than {小雨|こさめ} (light rain). The droplets are so fine they almost float in the air rather than clearly falling.\n\nETYMOLOGY:\n{霧|きり} (mist, fog) + {雨|さめ} (rain) — literally \"mist-rain.\" The reading さめ is a combining form of あめ.\n\nCOMMON COLLOCATIONS:\n- {霧雨|きりさめ}が{降|ふ}る: drizzle falls\n- {霧雨|きりさめ}に{濡|ぬ}れる: to get wet from drizzle\n- {霧雨|きりさめ}が{続|つづ}く: drizzle continues\n\nRAIN VOCABULARY (light → heavy):\n- {霧雨|きりさめ}: misty drizzle (finest)\n- {小雨|こさめ}: light rain\n- {雨|あめ}: rain\n- {大雨|おおあめ}: heavy rain\n- {土砂降|どしゃぶ}り: downpour\n- {豪雨|ごうう}: torrential rain\n\nUSAGE:\nOften described as rain so light you may not need an {傘|かさ} (umbrella), though it still gets you damp over time.",
+  "notes": "{霧雨|きりさめ} is very fine, mist-like rain — lighter than ⟦{小雨|こさめ}→小雨：05861_kosame⟧ (light rain). The droplets are so fine they almost float in the air rather than clearly falling.\n\nETYMOLOGY:\n⟦{霧|きり}→霧：02200_kiri⟧ (mist, fog) + {雨|さめ} (rain) — literally \"mist-rain.\" The reading さめ is a combining form of あめ.\n\nCOMMON COLLOCATIONS:\n- {霧雨|きりさめ}⟦が→が：00051_ga⟧⟦{降|ふ}る→降る：00839_furu⟧: drizzle falls\n- {霧雨|きりさめ}⟦に→に：00314_ni⟧⟦{濡|ぬ}れる→濡れる：00800_nureru⟧: to get wet from drizzle\n- {霧雨|きりさめ}⟦が→が：00051_ga⟧⟦{続|つづ}く→続く：00903_tsuzuku⟧: drizzle continues\n\nRAIN VOCABULARY (light → heavy):\n- {霧雨|きりさめ}: misty drizzle (finest)\n- ⟦{小雨|こさめ}→小雨：05861_kosame⟧: light rain\n- ⟦{雨|あめ}→雨：00583_ame⟧: rain\n- ⟦{大雨|おおあめ}→大雨：03015_ooame⟧: heavy rain\n- ⟦{土砂降|どしゃぶ}り→土砂降り：07680_doshaburi⟧: downpour\n- ⟦{豪雨|ごうう}→豪雨：05860_gouu⟧: torrential rain\n\nUSAGE:\nOften described as rain so light you may not need an ⟦{傘|かさ}→傘：00639_kasa⟧ (umbrella), though it still gets you damp over time.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20234_honburi",
+      "reading": "ほんぶり",
+      "headword": "{本降|ほんぶ}り",
+      "label": "steady rain"
+    }
+  ],
   "metadata": {
     "created": "2026-01-20T23:30:51Z",
-    "modified": "2026-06-16T12:23:55Z",
+    "modified": "2026-09-02T04:01:12Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -51,6 +60,7 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "weather",
         "nature"

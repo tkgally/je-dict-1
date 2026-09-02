@@ -15,40 +15,65 @@
   "examples": [
     {
       "id": "16207_taikaku_ex1",
-      "japanese": "{体格|たいかく}がいい。",
+      "japanese": "{体格|たいかく}⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧。",
       "english": "He has a good build.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16207_taikaku_ex2",
-      "japanese": "{柔道|じゅうどう}の{選手|せんしゅ}はみんな{体格|たいかく}がいい。",
+      "japanese": "⟦{柔道|じゅうどう}→柔道：01612_juudou⟧⟦の→の：09472_no⟧⟦{選手|せんしゅ}→選手：03823_senshu⟧⟦は→は：00079_ha⟧⟦みんな→みんな：02972_minna⟧{体格|たいかく}⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧。",
       "english": "Judo athletes all have sturdy physiques.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16207_taikaku_ex3",
-      "japanese": "{体格|たいかく}の{差|さ}がありすぎて、{試合|しあい}にならなかった。",
+      "japanese": "{体格|たいかく}⟦の→の：09472_no⟧⟦{差|さ}→差：02771_sa⟧⟦が→が：00051_ga⟧⟦あり→ある：00006_aru⟧すぎて、⟦{試合|しあい}→試合：01601_shiai⟧⟦に→に：00314_ni⟧⟦ならなかった→なる：01970_naru⟧。",
       "english": "The difference in build was so great that it wasn't even a match.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\n{体格|たいかく} refers to a person's overall physical build, focusing on size and frame rather than fitness or health. The phrase {体格|たいかく}がいい means \"well-built\" or \"having a sturdy frame.\"\n\nCOMMON COLLOCATIONS:\n- {体格|たいかく}がいい: well-built, having a good physique\n- {体格|たいかく}{検査|けんさ}: physical examination\n- {体格|たいかく}の{差|さ}: difference in build\n- がっしりした{体格|たいかく}: a solid, muscular build\n\nSIMILAR WORDS:\n{体型|たいけい} focuses on body shape (slim, round, etc.), while {体格|たいかく} focuses on overall size and frame (large, sturdy, etc.).\n\nWORD FORMATION:\n{体|たい} (body) + {格|かく} (frame, structure).",
-  "cross_references": [],
+  "notes": "USAGE:\n{体格|たいかく} refers to a person's overall physical build, focusing on size and frame rather than fitness or health. The phrase {体格|たいかく}⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧ means \"well-built\" or \"having a sturdy frame.\"\n\nCOMMON COLLOCATIONS:\n- {体格|たいかく}⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧: well-built, having a good physique\n- {体格|たいかく}⟦{検査|けんさ}→検査：02707_kensa⟧: physical examination\n- {体格|たいかく}⟦の→の：09472_no⟧⟦{差|さ}→差：02771_sa⟧: difference in build\n- ⟦がっしり→がっしり：19940_gasshiri⟧⟦した→する：00392_suru⟧{体格|たいかく}: a solid, muscular build\n\nSIMILAR WORDS:\n⟦{体型|たいけい}→体型：16561_taikei⟧ focuses on body shape (slim, round, etc.), while {体格|たいかく} focuses on overall size and frame (large, sturdy, etc.).\n\nFORMS:\n⟦{体|たい}→体：09872_tai⟧ (body) + ⟦{格|かく}→格：13147_kaku⟧ (frame, structure).",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23086_taichou",
+      "reading": "たいちょう",
+      "headword": "{体長|たいちょう}",
+      "label": "body length"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27827_katahaba",
+      "reading": "かたはば",
+      "headword": "{肩幅|かたはば}",
+      "label": "shoulder width"
+    }
+  ],
   "metadata": {
     "created": "2026-03-11T04:34:55Z",
-    "modified": "2026-03-11T04:34:55Z",
+    "modified": "2026-09-02T04:01:44Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["body"]
+      "semantic": [
+        "body"
+      ]
     }
   }
 }

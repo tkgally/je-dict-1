@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "20966_houbutsusen_ex1",
-      "japanese": "{放物線|ほうぶつせん}を{描|えが}く。",
+      "japanese": "{放物線|ほうぶつせん}⟦を→を：00422_wo⟧⟦{描|えが}く→描く：02013_egaku⟧。",
       "english": "To trace a parabola.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "20966_houbutsusen_ex2",
-      "japanese": "ボールは{美|うつく}しい{放物線|ほうぶつせん}を{描|えが}いてスタンドに{入|はい}った。",
+      "japanese": "⟦ボール→ボール：00017_booru⟧⟦は→は：00079_ha⟧⟦{美|うつく}しい→美しい：01121_utsukushii⟧{放物線|ほうぶつせん}⟦を→を：00422_wo⟧⟦{描|えが}いて→描く：02013_egaku⟧⟦スタンド→スタンド：00394_sutando⟧⟦に→に：00314_ni⟧⟦{入|はい}った→入る：00494_hairu⟧。",
       "english": "The ball traced a beautiful arc into the stands.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "20966_houbutsusen_ex3",
-      "japanese": "{数学|すうがく}で{放物線|ほうぶつせん}の{方程式|ほうていしき}を{習|なら}った。",
+      "japanese": "⟦{数学|すうがく}→数学：01442_suugaku⟧⟦で→で：00502_de⟧{放物線|ほうぶつせん}⟦の→の：09472_no⟧⟦{方程式|ほうていしき}→方程式：04795_houteishiki⟧⟦を→を：00422_wo⟧⟦{習|なら}った→習う：00479_narau⟧。",
       "english": "I learned the equation of a parabola in math class.",
       "sense_numbers": [
         1
@@ -43,8 +43,17 @@
       "notes": null
     }
   ],
-  "notes": "Literally 'thrown-object line,' reflecting the parabolic path of a projectile. Commonly used both in mathematical contexts and figuratively in sports commentary to describe the arc of a ball.\n\nCOMMON COLLOCATIONS:\n- {放物線|ほうぶつせん}を{描|えが}く: to trace a parabola, to arc\n- {放物線|ほうぶつせん}の{頂点|ちょうてん}: vertex of a parabola\n- {放物線|ほうぶつせん}の{方程式|ほうていしき}: equation of a parabola\n\nRELATED TERMS:\n- {双曲線|そうきょくせん}: hyperbola\n- {楕円|だえん}: ellipse\n- {二次関数|にじかんすう}: quadratic function — the function that produces a parabola\n- {弧|こ}: arc — a curved line segment",
+  "notes": "Literally 'thrown-object line,' reflecting the parabolic path of a projectile. Commonly used both in mathematical contexts and figuratively in sports commentary to describe the arc of a ball.\n\nCOMMON COLLOCATIONS:\n- {放物線|ほうぶつせん}⟦を→を：00422_wo⟧⟦{描|えが}く→描く：02013_egaku⟧: to trace a parabola, to arc\n- {放物線|ほうぶつせん}⟦の→の：09472_no⟧⟦{頂点|ちょうてん}→頂点：05448_chouten⟧: vertex of a parabola\n- {放物線|ほうぶつせん}⟦の→の：09472_no⟧⟦{方程式|ほうていしき}→方程式：04795_houteishiki⟧: equation of a parabola\n\nRELATED WORDS:\n- {双曲線|そうきょくせん}: hyperbola\n- ⟦{楕円|だえん}→楕円：04052_daen⟧: ellipse\n- {二次関数|にじかんすう}: quadratic function — the function that produces a parabola\n- {弧|こ}: arc — a curved line segment",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "04052_daen",
+      "reading": "だえん",
+      "headword": "{楕円|だえん}",
+      "label": "ellipse"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -58,6 +67,6 @@
       ]
     },
     "created": "2026-03-30T22:25:40Z",
-    "modified": "2026-07-28T09:35:50Z"
+    "modified": "2026-09-02T04:02:01Z"
   }
 }

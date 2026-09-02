@@ -15,41 +15,74 @@
   "examples": [
     {
       "id": "29838_genzairyoumei_ex1",
-      "japanese": "{原材料名|げんざいりょうめい}を{確認|かくにん}する。",
+      "japanese": "{原材料名|げんざいりょうめい}⟦を→を：00422_wo⟧⟦{確認|かくにん}する→確認する：25332_kakuninsuru⟧。",
       "english": "Check the ingredients list.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29838_genzairyoumei_ex2",
-      "japanese": "アレルギーがあるので{原材料名|げんざいりょうめい}をよく{読|よ}む。",
+      "japanese": "⟦アレルギー→アレルギー：04645_arerugii⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧⟦の→の：09472_no⟧で{原材料名|げんざいりょうめい}⟦を→を：00422_wo⟧⟦よく→よく：00601_yoku⟧⟦{読|よ}む→読む：00426_yomu⟧。",
       "english": "I have allergies, so I read the ingredients carefully.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29838_genzairyoumei_ex3",
-      "japanese": "{原材料名|げんざいりょうめい}は{使用|しよう}した{量|りょう}の{多|おお}い{順|じゅん}に{書|か}かれている。",
+      "japanese": "{原材料名|げんざいりょうめい}⟦は→は：00079_ha⟧⟦{使用|しよう}→使用：01637_shiyou⟧⟦した→する：00392_suru⟧⟦{量|りょう}→量：03799_ryou⟧⟦の→の：09472_no⟧⟦{多|おお}い→多い：01127_ooi⟧⟦{順|じゅん}→順：03342_jun⟧⟦に→に：00314_ni⟧⟦{書|か}かれている→書く：00477_kaku⟧。",
       "english": "Ingredients are listed in order from the largest quantity used.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "{原材料|げんざいりょう} (raw materials, ingredients) + {名|めい} (name). The standard label heading under which ingredients are listed by descending weight.\n\nRELATED LABEL TERMS:\n- {賞味期限|しょうみきげん}: best-before date\n- {消費期限|しょうひきげん}: use-by date\n- {添加物|てんかぶつ}: additives",
+  "notes": "⟦{原材料|げんざいりょう}→原材料：18966_genzairyou⟧ (raw materials, ingredients) + {名|めい} (name). The standard label heading under which ingredients are listed by descending weight.\n\nRELATED LABEL TERMS:\n- ⟦{賞味期限|しょうみきげん}→賞味期限：06076_shoumikigen⟧: best-before date\n- ⟦{消費期限|しょうひきげん}→消費期限：06077_shouhikigen⟧: use-by date\n- ⟦{添加物|てんかぶつ}→添加物：06479_tenkabutsu⟧: additives",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "06076_shoumikigen",
+      "reading": "しょうみきげん",
+      "headword": "{賞味期限|しょうみきげん}",
+      "label": "best-before date"
+    },
+    {
+      "type": "related",
+      "target_id": "06077_shouhikigen",
+      "reading": "しょうひきげん",
+      "headword": "{消費期限|しょうひきげん}",
+      "label": "use-by date"
+    },
+    {
+      "type": "related",
+      "target_id": "06479_tenkabutsu",
+      "reading": "てんかぶつ",
+      "headword": "{添加物|てんかぶつ}",
+      "label": "additives"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["food"],
+      "politeness": "plain",
+      "semantic": [
+        "food"
+      ],
       "domain": []
     },
     "created": "2026-07-14T06:18:33Z",
-    "modified": "2026-07-14T06:18:33Z"
+    "modified": "2026-09-02T04:02:38Z"
   }
 }

@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "05908_kyakka_ex1",
-      "japanese": "⟦{申請|しんせい}→申請：04207_shinsei⟧⟦が→が：00051_ga⟧{却下|きゃっか}された。",
+      "japanese": "⟦{申請|しんせい}→申請：04207_shinsei⟧⟦が→が：00051_ga⟧{却下|きゃっか}⟦された→する：00392_suru⟧。",
       "english": "The application was rejected.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "05908_kyakka_ex2",
-      "japanese": "⟦{裁判所|さいばんしょ}→裁判所：09665_saibansho⟧⟦は→は：00079_ha⟧⟦{訴|うった}え→訴える：01891_uttaeru⟧⟦を→を：00422_wo⟧{却下|きゃっか}した。",
+      "japanese": "⟦{裁判所|さいばんしょ}→裁判所：09665_saibansho⟧⟦は→は：00079_ha⟧⟦{訴|うった}え→訴える：01891_uttaeru⟧⟦を→を：00422_wo⟧{却下|きゃっか}⟦した→する：00392_suru⟧。",
       "english": "The court dismissed the lawsuit.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "05908_kyakka_ex3",
-      "japanese": "⟦{提案|ていあん}→提案：03536_teian⟧⟦は→は：00079_ha⟧⟦{即座|そくざ}→即座：11861_sokuza⟧⟦に→に：00314_ni⟧{却下|きゃっか}された。",
+      "japanese": "⟦{提案|ていあん}→提案：03536_teian⟧⟦は→は：00079_ha⟧⟦{即座|そくざ}→即座：11861_sokuza⟧⟦に→に：00314_ni⟧{却下|きゃっか}⟦された→する：00392_suru⟧。",
       "english": "The proposal was immediately rejected.",
       "notes": null,
       "has_audio": false,
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "{却下|きゃっか} means to formally reject or dismiss a request, proposal, or legal claim. It implies an authority figure or body making the decision.\n\nCOMMON COLLOCATIONS:\n- ⟦{申請|しんせい}→申請：04207_shinsei⟧⟦を→を：00422_wo⟧{却下|きゃっか}する: to reject an application\n- ⟦{提案|ていあん}→提案：03536_teian⟧⟦を→を：00422_wo⟧{却下|きゃっか}する: to reject a proposal\n- ⟦{訴|うった}え→訴える：01891_uttaeru⟧⟦を→を：00422_wo⟧{却下|きゃっか}する: to dismiss a lawsuit\n- ⟦{即座|そくざ}→即座：11861_sokuza⟧⟦に→に：00314_ni⟧{却下|きゃっか}する: to reject immediately\n\nSIMILAR WORDS:\n- ⟦{拒否|きょひ}→拒否：08242_kyohi⟧: refusal (broader; can be used for personal refusals)\n- ⟦{棄却|ききゃく}→棄却：05965_kikyaku⟧: dismissal (legal term, more technical; used for court rulings)\n- {不承認|ふしょうにん}: disapproval (bureaucratic, less forceful)\n- ⟦{承認|しょうにん}→承認：03237_shounin⟧: approval (opposite)\n\nREGISTER:\nFormal. Primary domains are legal proceedings, bureaucratic processes, and business decisions. In casual speech, {却下|きゃっか}！ is sometimes used humorously to flatly reject someone's idea or suggestion.",
+  "notes": "{却下|きゃっか} means to formally reject or dismiss a request, proposal, or legal claim. It implies an authority figure or body making the decision.\n\nCOMMON COLLOCATIONS:\n- ⟦{申請|しんせい}→申請：04207_shinsei⟧⟦を→を：00422_wo⟧{却下|きゃっか}⟦する→する：00392_suru⟧: to reject an application\n- ⟦{提案|ていあん}→提案：03536_teian⟧⟦を→を：00422_wo⟧{却下|きゃっか}⟦する→する：00392_suru⟧: to reject a proposal\n- ⟦{訴|うった}え→訴える：01891_uttaeru⟧⟦を→を：00422_wo⟧{却下|きゃっか}⟦する→する：00392_suru⟧: to dismiss a lawsuit\n- ⟦{即座|そくざ}→即座：11861_sokuza⟧⟦に→に：00314_ni⟧{却下|きゃっか}⟦する→する：00392_suru⟧: to reject immediately\n\nSIMILAR WORDS:\n- ⟦{拒否|きょひ}→拒否：08242_kyohi⟧: refusal (broader; can be used for personal refusals)\n- ⟦{棄却|ききゃく}→棄却：05965_kikyaku⟧: dismissal (legal term, more technical; used for court rulings)\n- {不承認|ふしょうにん}: disapproval (bureaucratic, less forceful)\n- ⟦{承認|しょうにん}→承認：03237_shounin⟧: approval (opposite)\n\nREGISTER:\nFormal. Primary domains are legal proceedings, bureaucratic processes, and business decisions. In casual speech, {却下|きゃっか}！ is sometimes used humorously to flatly reject someone's idea or suggestion.",
   "cross_references": [
     {
       "type": "antonym",
@@ -155,11 +155,53 @@
       "reading": "ききゃく",
       "headword": "{棄却|ききゃく}",
       "label": "dismissal (legal)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08396_hiketsu",
+      "reading": "ひけつ",
+      "headword": "{否決|ひけつ}",
+      "label": "rejection"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12788_kyozetsu",
+      "reading": "きょぜつ",
+      "headword": "{拒絶|きょぜつ}",
+      "label": "rejection, refusal, repudiation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19526_kyozetsusuru",
+      "reading": "きょぜつする",
+      "headword": "{拒絶|きょぜつ}する",
+      "label": "to refuse"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19588_shirizokeru",
+      "reading": "しりぞける",
+      "headword": "{退|しりぞ}ける",
+      "label": "to repel"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21331_kyohisuru",
+      "reading": "きょひする",
+      "headword": "{拒否|きょひ}する",
+      "label": "to refuse"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30336_fukyoka",
+      "reading": "ふきょか",
+      "headword": "{不許可|ふきょか}",
+      "label": "denial of permission"
     }
   ],
   "metadata": {
     "created": "2026-01-16T14:51:32Z",
-    "modified": "2026-06-08T20:20:00Z",
+    "modified": "2026-09-02T04:01:07Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

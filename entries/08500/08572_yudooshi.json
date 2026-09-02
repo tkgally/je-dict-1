@@ -14,38 +14,66 @@
   "examples": [
     {
       "id": "08572_yudooshi_ex1",
-      "japanese": "{刺身|さしみ}を{湯通|ゆどお}しする。",
+      "japanese": "⟦{刺身|さしみ}→刺身：04023_sashimi⟧⟦を→を：00422_wo⟧{湯通|ゆどお}し⟦する→する：00392_suru⟧。",
       "english": "Blanch the sashimi.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "08572_yudooshi_ex2",
-      "japanese": "{肉|にく}を{湯通|ゆどお}しして{臭|くさ}みを{取|と}る。",
+      "japanese": "⟦{肉|にく}→肉：02240_niku⟧⟦を→を：00422_wo⟧{湯通|ゆどお}し⟦して→する：00392_suru⟧{臭|くさ}み⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧。",
       "english": "Blanch the meat to remove the smell.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "08572_yudooshi_ex3",
-      "japanese": "{豆腐|とうふ}は{湯通|ゆどお}ししておくと{崩|くず}れにくい。",
+      "japanese": "⟦{豆腐|とうふ}→豆腐：04928_toufu⟧⟦は→は：00079_ha⟧{湯通|ゆどお}し⟦して→する：00392_suru⟧おく⟦と→と：00512_to⟧⟦{崩|くず}れ→崩れる：04248_kuzureru⟧にくい。",
       "english": "If you blanch tofu beforehand, it's less likely to fall apart.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "COOKING TECHNIQUE:\n{湯通|ゆどお}し involves briefly dipping ingredients in boiling water. The name comes from {湯|ゆ} (hot water) + {通|とお}す (to pass through).\n\nPURPOSES:\n- Remove fishy or meaty odors\n- Remove excess oil or fat\n- Soften texture slightly\n- Set color in vegetables\n- Firm up delicate ingredients like tofu\n\nCOMMON USES:\n- {刺身|さしみ}の{湯通|ゆどお}し - blanching sashimi (creates \"tataki\" texture)\n- {肉|にく}の{湯通|ゆどお}し - removing impurities from meat before cooking\n- {野菜|やさい}の{湯通|ゆどお}し - brightening vegetable colors\n\nSIMILAR TECHNIQUES:\n- {茹|ゆ}でる - to boil (longer cooking time)\n- {下茹|したゆ}で - parboiling (slightly longer than {湯通|ゆどお}し)\n- {霜降|しもふ}り - same technique for meat/fish",
+  "notes": "COOKING TECHNIQUE:\n{湯通|ゆどお}し involves briefly dipping ingredients in boiling water. The name comes from ⟦{湯|ゆ}→湯：01740_yu⟧ (hot water) + ⟦{通|とお}す→通す：02300_toosu⟧ (to pass through).\n\nPURPOSES:\n- Remove fishy or meaty odors\n- Remove excess oil or fat\n- Soften texture slightly\n- Set color in vegetables\n- Firm up delicate ingredients like tofu\n\nCOMMON COLLOCATIONS:\n- ⟦{刺身|さしみ}→刺身：04023_sashimi⟧⟦の→の：09472_no⟧{湯通|ゆどお}し - blanching sashimi (creates \"tataki\" texture)\n- ⟦{肉|にく}→肉：02240_niku⟧⟦の→の：09472_no⟧{湯通|ゆどお}し - removing impurities from meat before cooking\n- ⟦{野菜|やさい}→野菜：02265_yasai⟧⟦の→の：09472_no⟧{湯通|ゆどお}し - brightening vegetable colors\n\nSIMILAR TECHNIQUES:\n- ⟦{茹|ゆ}でる→茹でる：02324_yuderu⟧ - to boil (longer cooking time)\n- {下茹|したゆ}で - parboiling (slightly longer than {湯通|ゆどお}し)\n- ⟦{霜降|しもふ}り→霜降り：18934_shimofuri⟧ - same technique for meat/fish",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02324_yuderu",
+      "reading": "ゆでる",
+      "headword": "{茹|ゆ}でる",
+      "label": "to boil"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18934_shimofuri",
+      "reading": "しもふり",
+      "headword": "{霜降|しもふ}り",
+      "label": "same technique for meat/fish"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "semantic": ["cooking", "food"]
+      "politeness": "plain",
+      "semantic": [
+        "cooking",
+        "food"
+      ]
     },
     "created": "2026-01-27T11:45:00Z",
-    "modified": "2026-01-27T11:45:00Z"
+    "modified": "2026-09-02T04:01:15Z"
   }
 }

@@ -15,40 +15,88 @@
   "examples": [
     {
       "id": "19570_byougentai_ex1",
-      "japanese": "{新|あたら}しい{病原体|びょうげんたい}が{発見|はっけん}された。",
+      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧{病原体|びょうげんたい}⟦が→が：00051_ga⟧⟦{発見|はっけん}→発見：00085_hakken⟧⟦された→する：00392_suru⟧。",
       "english": "A new pathogen was discovered.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19570_byougentai_ex2",
-      "japanese": "この{病原体|びょうげんたい}は{空気|くうき}{感染|かんせん}する。",
+      "japanese": "⟦この→この：00962_kono⟧{病原体|びょうげんたい}⟦は→は：00079_ha⟧⟦{空気|くうき}{感染|かんせん}→空気感染：25169_kuukikansen⟧⟦する→する：00392_suru⟧。",
       "english": "This pathogen is transmitted through the air.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19570_byougentai_ex3",
-      "japanese": "{手洗|てあら}いやマスクは、{病原体|びょうげんたい}の{感染|かんせん}を{防|ふせ}ぐための{基本的|きほんてき}な{対策|たいさく}だ。",
+      "japanese": "⟦{手洗|てあら}い→手洗い：12761_tearai⟧や⟦マスク→マスク：05075_masuku⟧⟦は→は：00079_ha⟧、{病原体|びょうげんたい}⟦の→の：09472_no⟧⟦{感染|かんせん}→感染：05977_kansen⟧⟦を→を：00422_wo⟧⟦{防|ふせ}ぐ→防ぐ：02409_fusegu⟧⟦ため→ため：01145_tame⟧⟦の→の：09472_no⟧⟦{基本的|きほんてき}→基本的：04787_kihonteki⟧な⟦{対策|たいさく}→対策：02511_taisaku⟧だ。",
       "english": "Handwashing and masks are basic measures to prevent the spread of pathogens.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {病原|びょうげん} (cause of disease) + {体|たい} (body, entity). A formal scientific term that became much more widely known through news coverage of infectious disease outbreaks.\n\nCOMMON COLLOCATIONS:\n- {病原体|びょうげんたい}を{特定|とくてい}する — to identify a pathogen\n- {病原体|びょうげんたい}の{感染|かんせん} — infection by a pathogen\n- {未知|みち}の{病原体|びょうげんたい} — an unknown pathogen\n- {病原体|びょうげんたい}を{排除|はいじょ}する — to eliminate a pathogen\n\nRELATED TERMS:\n- ウイルス — virus\n- {細菌|さいきん} — bacteria\n- {寄生虫|きせいちゅう} — parasite\n- {感染症|かんせんしょう} — infectious disease\n- {免疫|めんえき} — immunity",
+  "notes": "Composed of {病原|びょうげん} (cause of disease) + ⟦{体|たい}→体：09872_tai⟧ (body, entity). A formal scientific term that became much more widely known through news coverage of infectious disease outbreaks.\n\nCOMMON COLLOCATIONS:\n- {病原体|びょうげんたい}⟦を→を：00422_wo⟧⟦{特定|とくてい}する→特定する：19642_tokuteisuru⟧ — to identify a pathogen\n- {病原体|びょうげんたい}⟦の→の：09472_no⟧⟦{感染|かんせん}→感染：05977_kansen⟧ — infection by a pathogen\n- ⟦{未知|みち}→未知：13014_michi⟧⟦の→の：09472_no⟧{病原体|びょうげんたい} — an unknown pathogen\n- {病原体|びょうげんたい}⟦を→を：00422_wo⟧⟦{排除|はいじょ}→排除：07631_haijo⟧⟦する→する：00392_suru⟧ — to eliminate a pathogen\n\nRELATED WORDS:\n- ⟦ウイルス→ウイルス：05223_uirusu⟧ — virus\n- ⟦{細菌|さいきん}→細菌：13791_saikin⟧ — bacteria\n- {寄生虫|きせいちゅう} — parasite\n- ⟦{感染症|かんせんしょう}→感染症：15681_kansenshou⟧ — infectious disease\n- ⟦{免疫|めんえき}→免疫：05032_meneki⟧ — immunity",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "05223_uirusu",
+      "reading": "ういるす",
+      "headword": "ウイルス",
+      "label": "virus"
+    },
+    {
+      "type": "related",
+      "target_id": "13791_saikin",
+      "reading": "さいきん",
+      "headword": "{細菌|さいきん}",
+      "label": "bacteria"
+    },
+    {
+      "type": "related",
+      "target_id": "15681_kansenshou",
+      "reading": "かんせんしょう",
+      "headword": "{感染症|かんせんしょう}",
+      "label": "infectious disease"
+    },
+    {
+      "type": "related",
+      "target_id": "05032_meneki",
+      "reading": "めんえき",
+      "headword": "{免疫|めんえき}",
+      "label": "immunity"
+    },
+    {
+      "type": "related",
+      "target_id": "22355_byougenkin",
+      "reading": "びょうげんきん",
+      "headword": "{病原菌|びょうげんきん}",
+      "label": "pathogenic bacteria"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["health", "science"]
+      "semantic": [
+        "health",
+        "science"
+      ]
     },
     "created": "2026-03-26T05:18:56Z",
-    "modified": "2026-03-26T05:18:56Z"
+    "modified": "2026-09-02T04:01:56Z"
   }
 }

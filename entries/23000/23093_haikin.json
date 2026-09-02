@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "23093_haikin_ex1",
-      "japanese": "{背筋|はいきん}を{鍛|きた}える。",
+      "japanese": "{背筋|はいきん}⟦を→を：00422_wo⟧⟦{鍛|きた}える→鍛える：12326_kitaeru⟧。",
       "english": "To train one's back muscles.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "23093_haikin_ex2",
-      "japanese": "{腹筋|ふっきん}と{背筋|はいきん}をバランスよく{鍛|きた}えよう。",
+      "japanese": "⟦{腹筋|ふっきん}→腹筋：15891_fukkin⟧⟦と→と：00512_to⟧{背筋|はいきん}⟦を→を：00422_wo⟧⟦バランス→バランス：03870_baransu⟧⟦よく→よく：00601_yoku⟧⟦{鍛|きた}えよう→鍛える：12326_kitaeru⟧。",
       "english": "Let's train the abdominal and back muscles in a balanced way.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "23093_haikin_ex3",
-      "japanese": "{背筋|はいきん}が{弱|よわ}いと{姿勢|しせい}が{悪|わる}くなりやすい。",
+      "japanese": "{背筋|はいきん}⟦が→が：00051_ga⟧⟦{弱|よわ}い→弱い：00825_yowai⟧⟦と→と：00512_to⟧⟦{姿勢|しせい}→姿勢：00371_shisei⟧⟦が→が：00051_ga⟧⟦{悪|わる}く→悪い：00908_warui⟧⟦なり→なる：01970_naru⟧やすい。",
       "english": "If your back muscles are weak, you tend to have poor posture.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {背|はい} (back) and {筋|きん} (muscle). Read as はいきん, this word refers specifically to the muscles of the back. Not to be confused with the same kanji read as せすじ, which means 'spine' or 'posture.'\n\nCOMMON COLLOCATIONS:\n- {背筋|はいきん}を{鍛|きた}える: to train/strengthen back muscles\n- {背筋|はいきん}トレーニング: back muscle training\n- {背筋|はいきん}{運動|うんどう}: back exercises\n- {背筋|はいきん}が{弱|よわ}い: to have weak back muscles\n\nSIMILAR WORDS:\n- {背筋|せすじ}: spine; posture — same kanji but different reading and meaning; refers to the line of the back or straightening one's posture\n- {腹筋|ふっきん}: abdominal muscles — often paired with {背筋|はいきん} in exercise contexts\n- {筋肉|きんにく}: muscle — general term for muscles\n- {広背筋|こうはいきん}: latissimus dorsi — a specific back muscle",
+  "notes": "A compound of {背|はい} (back) and {筋|きん} (muscle). Read as はいきん, this word refers specifically to the muscles of the back. Not to be confused with the same kanji read as せすじ, which means 'spine' or 'posture.'\n\nCOMMON COLLOCATIONS:\n- {背筋|はいきん}⟦を→を：00422_wo⟧⟦{鍛|きた}える→鍛える：12326_kitaeru⟧: to train/strengthen back muscles\n- {背筋|はいきん}⟦トレーニング→トレーニング：00408_toreeningu⟧: back muscle training\n- {背筋|はいきん}⟦{運動|うんどう}→運動：00821_undou⟧: back exercises\n- {背筋|はいきん}⟦が→が：00051_ga⟧⟦{弱|よわ}い→弱い：00825_yowai⟧: to have weak back muscles\n\nSIMILAR WORDS:\n- {背筋|せすじ}: spine; posture — same kanji but different reading and meaning; refers to the line of the back or straightening one's posture\n- ⟦{腹筋|ふっきん}→腹筋：15891_fukkin⟧: abdominal muscles — often paired with {背筋|はいきん} in exercise contexts\n- ⟦{筋肉|きんにく}→筋肉：02646_kinniku⟧: muscle — general term for muscles\n- {広背筋|こうはいきん}: latissimus dorsi — a specific back muscle",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15891_fukkin",
+      "reading": "ふっきん",
+      "headword": "{腹筋|ふっきん}",
+      "label": "abdominal muscles"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02646_kinniku",
+      "reading": "きんにく",
+      "headword": "{筋肉|きんにく}",
+      "label": "muscle"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23250_udetatefuse",
+      "reading": "うでたてふせ",
+      "headword": "{腕立|うでた}て{伏|ふ}せ",
+      "label": "push-up"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +82,6 @@
       ]
     },
     "created": "2026-04-08T18:33:01Z",
-    "modified": "2026-07-31T00:29:23Z"
+    "modified": "2026-09-02T04:02:11Z"
   }
 }

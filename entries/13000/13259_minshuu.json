@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "13259_minshuu_ex1",
-      "japanese": "{民衆|みんしゅう}の{声|こえ}に{耳|みみ}を{傾|かたむ}ける。",
+      "japanese": "{民衆|みんしゅう}⟦の→の：09472_no⟧⟦{声|こえ}→声：02207_koe⟧⟦に→に：00314_ni⟧⟦{耳|みみ}を{傾|かたむ}ける→耳を傾ける：06903_mimiwokatamukeru⟧。",
       "english": "To listen to the voice of the people.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13259_minshuu_ex2",
-      "japanese": "{民衆|みんしゅう}が{立|た}ち{上|あ}がり、{革命|かくめい}が{始|はじ}まった。",
+      "japanese": "{民衆|みんしゅう}⟦が→が：00051_ga⟧⟦{立|た}ち{上|あ}がり→立ち上がる：02128_tachiagaru⟧、⟦{革命|かくめい}→革命：05968_kakumei⟧⟦が→が：00051_ga⟧⟦{始|はじ}まった→始まる：00841_hajimaru⟧。",
       "english": "The masses rose up and the revolution began.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13259_minshuu_ex3",
-      "japanese": "{歴史|れきし}は{権力者|けんりょくしゃ}だけでなく、{名|な}もなき{民衆|みんしゅう}の{営|いとな}みによって{作|つく}られてきた。",
+      "japanese": "⟦{歴史|れきし}→歴史：02267_rekishi⟧⟦は→は：00079_ha⟧⟦{権力者|けんりょくしゃ}→権力者：17021_kenryokusha⟧⟦だけでなく→〜だけでなく：18373_dakedenaku⟧、⟦{名|な}もなき→名もなき：21945_namonaki⟧{民衆|みんしゅう}⟦の→の：09472_no⟧⟦{営|いとな}み→営み：11904_itonami⟧⟦によって→によって：06801_niyotte⟧⟦{作|つく}られて→作る：00481_tsukuru⟧きた。",
       "english": "History has been shaped not only by those in power but also by the efforts of nameless common people.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\n{民衆|みんしゅう} views people as a collective social force, often in opposition to authority. Compare with {国民|こくみん} (the people of a nation, citizens), which is a more neutral, legal/political term, and {市民|しみん} (citizens, civilians), which emphasizes civic participation. {民衆|みんしゅう} has a more dramatic, sometimes literary tone and is common in historical narratives.\n\nCOMMON COLLOCATIONS:\n- {民衆|みんしゅう}の{声|こえ}: the voice of the people\n- {民衆|みんしゅう}{蜂起|ほうき}: popular uprising\n- {民衆|みんしゅう}を{率|ひき}いる: to lead the masses\n- {民衆|みんしゅう}の{支持|しじ}: popular support",
+  "notes": "USAGE:\n{民衆|みんしゅう} views people as a collective social force, often in opposition to authority. Compare with ⟦{国民|こくみん}→国民：02757_kokumin⟧ (the people of a nation, citizens), which is a more neutral, legal/political term, and ⟦{市民|しみん}→市民：01426_shimin⟧ (citizens, civilians), which emphasizes civic participation. {民衆|みんしゅう} has a more dramatic, sometimes literary tone and is common in historical narratives.\n\nCOMMON COLLOCATIONS:\n- {民衆|みんしゅう}⟦の→の：09472_no⟧⟦{声|こえ}→声：02207_koe⟧: the voice of the people\n- {民衆|みんしゅう}{蜂起|ほうき}: popular uprising\n- {民衆|みんしゅう}⟦を→を：00422_wo⟧⟦{率|ひき}いる→率いる：10879_hikiiru⟧: to lead the masses\n- {民衆|みんしゅう}⟦の→の：09472_no⟧⟦{支持|しじ}→支持：12933_shiji⟧: popular support",
   "cross_references": [
     {
       "type": "synonym",
@@ -46,18 +52,29 @@
       "reading": "たいしゅう",
       "headword": "{大衆|たいしゅう}",
       "label": "the masses"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22840_jinmin",
+      "reading": "じんみん",
+      "headword": "{人民|じんみん}",
+      "label": "the people"
     }
   ],
   "metadata": {
     "created": "2026-02-24T07:27:18Z",
-    "modified": "2026-02-24T07:27:18Z",
+    "modified": "2026-09-02T04:01:32Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["person"]
+      "semantic": [
+        "person"
+      ]
     }
   }
 }

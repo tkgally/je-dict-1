@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22644_kaigofukushishi_ex1",
-      "japanese": "{介護福祉士|かいごふくしし}の{資格|しかく}を{取|と}った。",
+      "japanese": "{介護福祉士|かいごふくしし}⟦の→の：09472_no⟧⟦{資格|しかく}→資格：02834_shikaku⟧⟦を→を：00422_wo⟧⟦{取|と}った→取る：00565_toru⟧。",
       "english": "I obtained the certified care worker qualification.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22644_kaigofukushishi_ex2",
-      "japanese": "{介護福祉士|かいごふくしし}は{高齢者|こうれいしゃ}の{生活|せいかつ}を{支援|しえん}する。",
+      "japanese": "{介護福祉士|かいごふくしし}⟦は→は：00079_ha⟧⟦{高齢者|こうれいしゃ}→高齢者：15649_koureisha⟧⟦の→の：09472_no⟧⟦{生活|せいかつ}→生活：01443_seikatsu⟧⟦を→を：00422_wo⟧⟦{支援|しえん}する→支援する：25534_shiensuru⟧。",
       "english": "Certified care workers support the daily lives of the elderly.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22644_kaigofukushishi_ex3",
-      "japanese": "{高齢化|こうれいか}{社会|しゃかい}の{中|なか}で{介護福祉士|かいごふくしし}の{需要|じゅよう}が{高|たか}まっている。",
+      "japanese": "⟦{高齢化|こうれいか}→高齢化：04808_koureika⟧⟦{社会|しゃかい}→社会：01427_shakai⟧⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧⟦で→で：00502_de⟧{介護福祉士|かいごふくしし}⟦の→の：09472_no⟧⟦{需要|じゅよう}→需要：02616_juyou⟧⟦が→が：00051_ga⟧⟦{高|たか}まっている→高まる：02066_takamaru⟧。",
       "english": "In an aging society, the demand for certified care workers is growing.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {介護|かいご} (nursing care), {福祉|ふくし} (welfare), and {士|し} (professional, specialist). This is a national qualification in Japan established by the {社会福祉士及|しゃかいふくししおよ}び{介護福祉士法|かいごふくししほう} (Social Worker and Care Worker Act). Holders provide hands-on care including bathing, eating, and mobility assistance.\n\nCOMMON COLLOCATIONS:\n- {介護福祉士|かいごふくしし}の{資格|しかく}: certified care worker qualification\n- {介護福祉士|かいごふくしし}{試験|しけん}: care worker certification exam\n- {介護福祉士|かいごふくしし}として{働|はたら}く: to work as a certified care worker\n\nCULTURAL NOTE:\nWith Japan's rapidly aging population, {介護福祉士|かいごふくしし} is one of the most in-demand professional qualifications. Japan has also begun accepting foreign care workers under special visa programs to address labor shortages in this field.\n\nRELATED TERMS:\n- {社会福祉士|しゃかいふくしし}: certified social worker — focuses on counseling and coordination rather than physical care\n- {介護士|かいごし}: care worker — informal term, not necessarily nationally certified\n- ケアマネージャー: care manager — coordinates care plans",
+  "notes": "Composed of ⟦{介護|かいご}→介護：04805_kaigo⟧ (nursing care), ⟦{福祉|ふくし}→福祉：13748_fukushi⟧ (welfare), and ⟦{士|し}→〜士：28352_shi⟧ (professional, specialist). This is a national qualification in Japan established by the {社会福祉士及|しゃかいふくししおよ}び{介護福祉士法|かいごふくししほう} (Social Worker and Care Worker Act). Holders provide hands-on care including bathing, eating, and mobility assistance.\n\nCOMMON COLLOCATIONS:\n- {介護福祉士|かいごふくしし}⟦の→の：09472_no⟧⟦{資格|しかく}→資格：02834_shikaku⟧: certified care worker qualification\n- {介護福祉士|かいごふくしし}⟦{試験|しけん}→試験：01422_shiken⟧: care worker certification exam\n- {介護福祉士|かいごふくしし}⟦として→として：06802_toshite⟧⟦{働|はたら}く→働く：00503_hataraku⟧: to work as a certified care worker\n\nCULTURAL NOTE:\nWith Japan's rapidly aging population, {介護福祉士|かいごふくしし} is one of the most in-demand professional qualifications. Japan has also begun accepting foreign care workers under special visa programs to address labor shortages in this field.\n\nRELATED WORDS:\n- {社会福祉士|しゃかいふくしし}: certified social worker — focuses on counseling and coordination rather than physical care\n- ⟦{介護士|かいごし}→介護士：20025_kaigoshi⟧: care worker — informal term, not necessarily nationally certified\n- ⟦ケア→ケア：10848_kea⟧⟦マネージャー→マネージャー：29755_maneejaa⟧: care manager — coordinates care plans",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "20025_kaigoshi",
+      "reading": "かいごし",
+      "headword": "{介護士|かいごし}",
+      "label": "care worker"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +69,6 @@
       "politeness": "plain"
     },
     "created": "2026-04-06T20:31:56Z",
-    "modified": "2026-07-30T15:38:57Z"
+    "modified": "2026-09-02T04:02:09Z"
   }
 }

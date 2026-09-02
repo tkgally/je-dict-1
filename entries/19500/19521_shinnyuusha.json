@@ -15,40 +15,67 @@
   "examples": [
     {
       "id": "19521_shinnyuusha_ex1",
-      "japanese": "{侵入者|しんにゅうしゃ}が{捕|つか}まった。",
+      "japanese": "{侵入者|しんにゅうしゃ}⟦が→が：00051_ga⟧⟦{捕|つか}まった→捕まる：01959_tsukamaru⟧。",
       "english": "The intruder was caught.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19521_shinnyuusha_ex2",
-      "japanese": "セキュリティカメラに{侵入者|しんにゅうしゃ}が{映|うつ}っていた。",
+      "japanese": "⟦セキュリティ→セキュリティ：04867_sekyuriti⟧⟦カメラ→カメラ：04417_kamera⟧⟦に→に：00314_ni⟧{侵入者|しんにゅうしゃ}⟦が→が：00051_ga⟧⟦{映|うつ}っていた→映る：12964_utsuru⟧。",
       "english": "An intruder was captured on the security camera.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19521_shinnyuusha_ex3",
-      "japanese": "{夜中|よなか}に{侵入者|しんにゅうしゃ}が{庭|にわ}に{入|はい}ってきたので、すぐに{警察|けいさつ}に{通報|つうほう}した。",
+      "japanese": "⟦{夜中|よなか}→夜中：01008_yonaka⟧⟦に→に：00314_ni⟧{侵入者|しんにゅうしゃ}⟦が→が：00051_ga⟧⟦{庭|にわ}→庭：02239_niwa⟧⟦に→に：00314_ni⟧⟦{入|はい}って→入る：00494_hairu⟧きた⟦の→の：09472_no⟧で、⟦すぐ→すぐ：00814_sugu⟧⟦に→に：00314_ni⟧⟦{警察|けいさつ}→警察：01393_keisatsu⟧⟦に→に：00314_ni⟧⟦{通報|つうほう}→通報：14318_tsuuhou⟧⟦した→する：00392_suru⟧。",
       "english": "An intruder came into the yard in the middle of the night, so I immediately called the police.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {侵入|しんにゅう} (intrusion, trespassing) + {者|しゃ} (person). The word carries a clear negative connotation — the person is somewhere they should not be.\n\nCOMMON COLLOCATIONS:\n- {侵入者|しんにゅうしゃ}を{捕|つか}まえる — to catch an intruder\n- {侵入者|しんにゅうしゃ}を{検知|けんち}する — to detect an intruder\n- {不法|ふほう}{侵入者|しんにゅうしゃ} — illegal trespasser\n\nRELATED TERMS:\n- {侵入|しんにゅう} — intrusion, trespassing (the act itself)\n- {不審者|ふしんしゃ} — suspicious person; broader term, not necessarily someone who has already entered\n- {泥棒|どろぼう} — thief, burglar; implies intent to steal",
+  "notes": "Composed of ⟦{侵入|しんにゅう}→侵入：11440_shinnyuu⟧ (intrusion, trespassing) + ⟦{者|しゃ}→〜者：04662_sha⟧ (person). The word carries a clear negative connotation — the person is somewhere they should not be.\n\nCOMMON COLLOCATIONS:\n- {侵入者|しんにゅうしゃ}⟦を→を：00422_wo⟧⟦{捕|つか}まえる→捕まえる：01214_tsukamaeru⟧ — to catch an intruder\n- {侵入者|しんにゅうしゃ}⟦を→を：00422_wo⟧⟦{検知|けんち}→検知：18762_kenchi⟧⟦する→する：00392_suru⟧ — to detect an intruder\n- ⟦{不法|ふほう}→不法：11361_fuhou⟧{侵入者|しんにゅうしゃ} — illegal trespasser\n\nRELATED WORDS:\n- ⟦{侵入|しんにゅう}→侵入：11440_shinnyuu⟧ — intrusion, trespassing (the act itself)\n- ⟦{不審者|ふしんしゃ}→不審者：11348_fushinsha⟧ — suspicious person; broader term, not necessarily someone who has already entered\n- ⟦{泥棒|どろぼう}→泥棒：01688_dorobou⟧ — thief, burglar; implies intent to steal",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "11348_fushinsha",
+      "reading": "ふしんしゃ",
+      "headword": "{不審者|ふしんしゃ}",
+      "label": "suspicious person"
+    },
+    {
+      "type": "related",
+      "target_id": "01688_dorobou",
+      "reading": "どろぼう",
+      "headword": "{泥棒|どろぼう}",
+      "label": "thief, burglar"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["person", "law"]
+      "semantic": [
+        "person",
+        "law"
+      ]
     },
     "created": "2026-03-26T04:15:35Z",
-    "modified": "2026-07-26T21:46:52Z"
+    "modified": "2026-09-02T04:01:56Z"
   }
 }

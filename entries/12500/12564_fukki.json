@@ -3,7 +3,7 @@
   "id": "12564_fukki",
   "headword": "{復帰|ふっき}",
   "reading": "ふっき",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "return, comeback, reinstatement",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "12564_fukki_ex1",
-      "japanese": "{来月|らいげつ}{職場|しょくば}に{復帰|ふっき}する。",
+      "japanese": "⟦{来月|らいげつ}→来月：00744_raigetsu⟧⟦{職場|しょくば}→職場：04164_shokuba⟧⟦に→に：00314_ni⟧{復帰|ふっき}⟦する→する：00392_suru⟧。",
       "english": "I'm returning to the workplace next month.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "12564_fukki_ex2",
-      "japanese": "{怪我|けが}から{復帰|ふっき}した{選手|せんしゅ}がゴールを{決|き}めた。",
+      "japanese": "{怪我|けが}⟦から→から：00504_kara⟧{復帰|ふっき}⟦した→する：00392_suru⟧⟦{選手|せんしゅ}→選手：03823_senshu⟧⟦が→が：00051_ga⟧⟦ゴール→ゴール：03845_gooru⟧⟦を→を：00422_wo⟧⟦{決|き}めた→決める：00858_kimeru⟧。",
       "english": "The player who returned from injury scored a goal.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "12564_fukki_ex3",
-      "japanese": "{育児|いくじ}{休暇|きゅうか}からの{復帰|ふっき}を{支援|しえん}する{制度|せいど}が{整|ととの}ってきた。",
+      "japanese": "⟦{育児|いくじ}{休暇|きゅうか}→育児休暇：07143_ikujikyuuka⟧⟦から→から：00504_kara⟧⟦の→の：09472_no⟧{復帰|ふっき}⟦を→を：00422_wo⟧⟦{支援|しえん}する→支援する：25534_shiensuru⟧⟦{制度|せいど}→制度：03291_seido⟧⟦が→が：00051_ga⟧⟦{整|ととの}って→整う：03935_totonou⟧きた。",
       "english": "Systems to support return from parental leave have been put in place.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nCommon in workplace, sports, and political contexts. The pattern Xに{復帰|ふっき}する (to return to X) or Xから{復帰|ふっき}する (to return from X) are both frequently used. Historically significant in {沖縄|おきなわ}{返還|へんかん}・{復帰|ふっき} (the reversion of Okinawa to Japan in 1972).\n\nCOMMON COLLOCATIONS:\n- {職場|しょくば}{復帰|ふっき}: return to the workplace\n- {現役|げんえき}{復帰|ふっき}: return to active duty/competition\n- {社会|しゃかい}{復帰|ふっき}: reintegration into society\n- {戦列|せんれつ}{復帰|ふっき}: return to the lineup (sports)",
+  "notes": "USAGE:\nCommon in workplace, sports, and political contexts. The pattern X⟦に→に：00314_ni⟧{復帰|ふっき}⟦する→する：00392_suru⟧ (to return to X) or X⟦から→から：00504_kara⟧{復帰|ふっき}⟦する→する：00392_suru⟧ (to return from X) are both frequently used. Historically significant in ⟦{沖縄|おきなわ}→沖縄：11009_okinawa⟧⟦{返還|へんかん}→返還：14357_henkan⟧・{復帰|ふっき} (the reversion of Okinawa to Japan in 1972).\n\nCOMMON COLLOCATIONS:\n- {職場|しょくば}{復帰|ふっき}: return to the workplace\n- ⟦{現役|げんえき}→現役：21782_geneki⟧{復帰|ふっき}: return to active duty/competition\n- ⟦{社会|しゃかい}→社会：01427_shakai⟧{復帰|ふっき}: reintegration into society\n- {戦列|せんれつ}{復帰|ふっき}: return to the lineup (sports)",
   "cross_references": [
     {
       "type": "synonym",
@@ -142,11 +142,25 @@
       "reading": "ふっかつ",
       "headword": "{復活|ふっかつ}",
       "label": "revival, resurrection"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26713_saishuunin",
+      "reading": "さいしゅうにん",
+      "headword": "{再就任|さいしゅうにん}",
+      "label": "reappointment"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26733_fukutai",
+      "reading": "ふくたい",
+      "headword": "{復隊|ふくたい}",
+      "label": "returning to one's unit"
     }
   ],
   "metadata": {
     "created": "2026-02-21T13:25:21Z",
-    "modified": "2026-08-16T21:41:29Z",
+    "modified": "2026-09-02T04:01:29Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

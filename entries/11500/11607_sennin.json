@@ -14,42 +14,60 @@
   "examples": [
     {
       "id": "11607_sennin_ex1",
-      "japanese": "{山|やま}に{仙人|せんにん}が{住|す}んでいる。",
+      "japanese": "⟦{山|やま}→山：02168_yama⟧⟦に→に：00314_ni⟧{仙人|せんにん}⟦が→が：00051_ga⟧⟦{住|す}んでいる→住む：00673_sumu⟧。",
       "english": "A hermit lives in the mountains.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11607_sennin_ex2",
-      "japanese": "{仙人|せんにん}のような{暮|く}らしに{憧|あこが}れる。",
+      "japanese": "{仙人|せんにん}⟦の→の：09472_no⟧ような⟦{暮|く}らし→暮らし：02670_kurashi⟧⟦に→に：00314_ni⟧⟦{憧|あこが}れる→憧れる：05302_akogareru⟧。",
       "english": "I long for a hermit-like lifestyle.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11607_sennin_ex3",
-      "japanese": "{昔話|むかしばなし}に{出|で}てくる{仙人|せんにん}は{空|そら}を{飛|と}んだり{術|じゅつ}を{使|つか}ったりする。",
+      "japanese": "⟦{昔話|むかしばなし}→昔話：12718_mukashibanashi⟧⟦に→に：00314_ni⟧⟦{出|で}てくる→出てくる：29121_detekuru⟧{仙人|せんにん}⟦は→は：00079_ha⟧⟦{空|そら}→空：02216_sora⟧⟦を→を：00422_wo⟧⟦{飛|と}ん→飛ぶ：00759_tobu⟧だり⟦{術|じゅつ}→術：14265_jutsu⟧⟦を→を：00422_wo⟧⟦{使|つか}っ→使う：00473_tsukau⟧たり⟦する→する：00392_suru⟧。",
       "english": "The sages that appear in old tales can fly through the sky and use magical arts.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "Rooted in Chinese Taoist mythology ({道教|どうきょう}), where {仙人|せんにん} are beings who have transcended mortality through spiritual cultivation. The concept was absorbed into Japanese folklore and appears frequently in legends, anime, and manga.\n\nIn casual usage, {仙人|せんにん} can describe someone who lives a reclusive, otherworldly lifestyle, detached from worldly concerns.\n\nCOMMON COLLOCATIONS:\n・{仙人|せんにん}のような{生活|せいかつ} — a hermit-like life\n・{仙人|せんにん}{修行|しゅぎょう} — ascetic training to become an immortal\n・{仙人|せんにん}{掌|しょう} — name of a type of cactus (lit. \"immortal's palm\")",
-  "cross_references": [],
+  "notes": "Rooted in Chinese Taoist mythology ({道教|どうきょう}), where {仙人|せんにん} are beings who have transcended mortality through spiritual cultivation. The concept was absorbed into Japanese folklore and appears frequently in legends, anime, and manga.\n\nIn casual usage, {仙人|せんにん} can describe someone who lives a reclusive, otherworldly lifestyle, detached from worldly concerns.\n\nCOMMON COLLOCATIONS:\n- {仙人|せんにん}⟦の→の：09472_no⟧ような⟦{生活|せいかつ}→生活：01443_seikatsu⟧ — a hermit-like life\n- {仙人|せんにん}⟦{修行|しゅぎょう}→修行：05522_shugyou⟧ — ascetic training to become an immortal\n- {仙人|せんにん}{掌|しょう} — name of a type of cactus (lit. \"immortal's palm\")",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17371_yosutebito",
+      "reading": "よすてびと",
+      "headword": "{世捨|よす}て{人|びと}",
+      "label": "hermit"
+    }
+  ],
   "metadata": {
     "created": "2026-02-17T14:34:25Z",
-    "modified": "2026-02-17T14:34:25Z",
+    "modified": "2026-09-02T04:01:25Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["person"]
+      "semantic": [
+        "person"
+      ]
     }
   }
 }

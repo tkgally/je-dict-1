@@ -15,41 +15,61 @@
   "examples": [
     {
       "id": "27829_youshu_ex1",
-      "japanese": "{父|ちち}は{洋酒|ようしゅ}が{好|す}きだ。",
+      "japanese": "⟦{父|ちち}→父：00566_chichi⟧⟦は→は：00079_ha⟧{洋酒|ようしゅ}⟦が→が：00051_ga⟧⟦{好|す}き→好き：02355_suki⟧だ。",
       "english": "My father likes Western liquor.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27829_youshu_ex2",
-      "japanese": "その{店|みせ}は{珍|めずら}しい{洋酒|ようしゅ}をそろえている。",
+      "japanese": "⟦その→その：00993_sono⟧⟦{店|みせ}→店：00497_mise⟧⟦は→は：00079_ha⟧⟦{珍|めずら}しい→珍しい：01200_mezurashii⟧{洋酒|ようしゅ}⟦を→を：00422_wo⟧そろえて⟦いる→いる：00495_iru⟧。",
       "english": "That shop stocks rare Western liquors.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27829_youshu_ex3",
-      "japanese": "{贈|おく}り{物|もの}として、{有名|ゆうめい}な{銘柄|めいがら}の{洋酒|ようしゅ}を{一本|いっぽん}{選|えら}んだ。",
+      "japanese": "⟦{贈|おく}り{物|もの}→贈り物：01343_okurimono⟧⟦として→として：06802_toshite⟧、⟦{有名|ゆうめい}→有名：01106_yuumei⟧な⟦{銘柄|めいがら}→銘柄：14500_meigara⟧⟦の→の：09472_no⟧{洋酒|ようしゅ}⟦を→を：00422_wo⟧⟦{一本|いっぽん}→一本：08888_ippon⟧⟦{選|えら}んだ→選ぶ：00835_erabu⟧。",
       "english": "As a gift, I picked out a bottle of a famous brand of Western liquor.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A collective term for Western-style alcoholic drinks — whisky, wine, brandy, liqueurs, and so on — contrasted with {日本酒|にほんしゅ} and other traditional Japanese drinks.\n\nCOMMON COLLOCATIONS:\n- {洋酒|ようしゅ}を{飲|の}む: to drink Western liquor\n- {洋酒|ようしゅ}{売|う}り{場|ば}: the liquor section (of a store)\n- {高級|こうきゅう}{洋酒|ようしゅ}: premium imported spirits\n\nSIMILAR WORDS:\n- {和酒|わしゅ}: Japanese alcoholic drinks — the contrasting category\n- {地酒|じざけ}: local sake — sake brewed by a regional brewery",
+  "notes": "A collective term for Western-style alcoholic drinks — whisky, wine, brandy, liqueurs, and so on — contrasted with ⟦{日本酒|にほんしゅ}→日本酒：12954_nihonshu⟧ and other traditional Japanese drinks.\n\nCOMMON COLLOCATIONS:\n- {洋酒|ようしゅ}⟦を→を：00422_wo⟧⟦{飲|の}む→飲む：00322_nomu⟧: to drink Western liquor\n- {洋酒|ようしゅ}⟦{売|う}り{場|ば}→売り場：01331_uriba⟧: the liquor section (of a store)\n- ⟦{高級|こうきゅう}→高級：08644_koukyuu⟧{洋酒|ようしゅ}: premium imported spirits\n\nSIMILAR WORDS:\n- {和酒|わしゅ}: Japanese alcoholic drinks — the contrasting category\n- ⟦{地酒|じざけ}→地酒：18761_jizake⟧: local sake — sake brewed by a regional brewery",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18761_jizake",
+      "reading": "じざけ",
+      "headword": "{地酒|じざけ}",
+      "label": "local sake"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["food", "leisure"],
+      "politeness": "plain",
+      "semantic": [
+        "food",
+        "leisure"
+      ],
       "domain": []
     },
     "created": "2026-05-19T04:03:25Z",
-    "modified": "2026-05-19T04:03:25Z"
+    "modified": "2026-09-02T04:02:31Z"
   }
 }

@@ -43,11 +43,33 @@
       ]
     }
   ],
-  "notes": "USAGE: {農薬|のうやく} is a general term for all agricultural chemicals, including pesticides, herbicides, and fungicides.\n\nCOMMON PATTERNS:\n- {農薬|のうやく}⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧ (to use pesticides)\n- {農薬|のうやく}⟦を→を：00422_wo⟧⟦{撒|ま}く→撒く：12711_maku⟧ (to spray pesticides)\n- ⟦{無|む}→無：17750_mu⟧{農薬|のうやく} (pesticide-free)\n- {減|げん}{農薬|のうやく} (reduced pesticides)\n\nCOMMON COMPOUNDS:\n- {農薬|のうやく}⟦{散布|さんぷ}→散布：21064_sanpu⟧ (pesticide spraying)\n- ⟦{残留|ざんりゅう}→残留：18406_zanryuu⟧{農薬|のうやく} (pesticide residue)\n- ⟦{有機|ゆうき}→有機：03643_yuuki⟧{農薬|のうやく} (organic pesticides)\n\nNOTE: Consumer awareness about {農薬|のうやく} has increased, leading to growth in organic (⟦{有機|ゆうき}→有機：03643_yuuki⟧) and pesticide-free (⟦{無|む}→無：17750_mu⟧{農薬|のうやく}) produce.",
-  "cross_references": [],
+  "notes": "USAGE: {農薬|のうやく} is a general term for all agricultural chemicals, including pesticides, herbicides, and fungicides.\n\nCOMMON PATTERNS:\n- {農薬|のうやく}⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧ (to use pesticides)\n- {農薬|のうやく}⟦を→を：00422_wo⟧⟦{撒|ま}く→撒く：12711_maku⟧ (to spray pesticides)\n- ⟦{無|む}→無：17750_mu⟧{農薬|のうやく} (pesticide-free)\n- {減|げん}{農薬|のうやく} (reduced pesticides)\n\nCOMPOUNDS:\n- {農薬|のうやく}⟦{散布|さんぷ}→散布：21064_sanpu⟧ (pesticide spraying)\n- ⟦{残留|ざんりゅう}→残留：18406_zanryuu⟧{農薬|のうやく} (pesticide residue)\n- ⟦{有機|ゆうき}→有機：03643_yuuki⟧{農薬|のうやく} (organic pesticides)\n\nNOTE: Consumer awareness about {農薬|のうやく} has increased, leading to growth in organic (⟦{有機|ゆうき}→有機：03643_yuuki⟧) and pesticide-free (⟦{無|む}→無：17750_mu⟧{農薬|のうやく}) produce.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "06430_gaichuu",
+      "reading": "がいちゅう",
+      "headword": "{害虫|がいちゅう}",
+      "label": "pest, harmful insect"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24124_josouzai",
+      "reading": "じょそうざい",
+      "headword": "{除草剤|じょそうざい}",
+      "label": "herbicide"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29950_boujozai",
+      "reading": "ぼうじょざい",
+      "headword": "{防除剤|ぼうじょざい}",
+      "label": "pest-control agent"
+    }
+  ],
   "metadata": {
     "created": "2026-01-14T00:58:16Z",
-    "modified": "2026-05-30T18:11:57Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

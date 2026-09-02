@@ -14,43 +14,71 @@
   "examples": [
     {
       "id": "11881_betto_ex1",
-      "japanese": "{送料|そうりょう}は{別途|べっと}かかります。",
+      "japanese": "⟦{送料|そうりょう}→送料：06128_souryou⟧⟦は→は：00079_ha⟧{別途|べっと}⟦かかります→かかる：00711_kakaru⟧。",
       "english": "Shipping costs are charged separately.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11881_betto_ex2",
-      "japanese": "{詳細|しょうさい}は{別途|べっと}ご{連絡|れんらく}いたします。",
+      "japanese": "⟦{詳細|しょうさい}→詳細：02523_shousai⟧⟦は→は：00079_ha⟧{別途|べっと}ご⟦{連絡|れんらく}→連絡：01524_renraku⟧⟦いたします→いたす：01314_itasu⟧。",
       "english": "We will contact you separately with the details.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11881_betto_ex3",
-      "japanese": "{宿泊費|しゅくはくひ}のほかに、{食事代|しょくじだい}が{別途|べっと}{必要|ひつよう}になります。",
+      "japanese": "⟦{宿泊費|しゅくはくひ}→宿泊費：25963_shukuhakuhi⟧⟦の→の：09472_no⟧ほか⟦に→に：00314_ni⟧、{食事代|しょくじだい}⟦が→が：00051_ga⟧{別途|べっと}⟦{必要|ひつよう}→必要：00846_hitsuyou⟧⟦に→に：00314_ni⟧⟦なります→なる：01970_naru⟧。",
       "english": "In addition to the accommodation fee, meal charges are required separately.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{別途|べっと} indicates that something is handled, charged, or communicated separately from the main matter. It is a formal word used overwhelmingly in business and commercial contexts.\n\nCOMMON COLLOCATIONS:\n- {別途|べっと}{料金|りょうきん}: separate charge\n- {別途|べっと}{費用|ひよう}: additional cost\n- {別途|べっと}ご{連絡|れんらく}: separate notification\n- {別途|べっと}{購入|こうにゅう}: purchased separately\n- {別途|べっと}{手続|てつづ}き: separate procedure\n\nUSAGE:\nVery common in price lists, contracts, invoices, and official communications. Often seen in the pattern {別途|べっと}〜がかかる (a separate ... is charged) or {別途|べっと}〜が{必要|ひつよう} (separately ... is needed).\n\nSIMILAR WORDS:\n- {別|べつ}に: separately (casual, everyday)\n- {別個|べっこ}に: individually, separately (formal)",
-  "cross_references": [],
+  "notes": "{別途|べっと} indicates that something is handled, charged, or communicated separately from the main matter. It is a formal word used overwhelmingly in business and commercial contexts.\n\nCOMMON COLLOCATIONS:\n- {別途|べっと}⟦{料金|りょうきん}→料金：03797_ryoukin⟧: separate charge\n- {別途|べっと}⟦{費用|ひよう}→費用：03588_hiyou⟧: additional cost\n- {別途|べっと}ご⟦{連絡|れんらく}→連絡：01524_renraku⟧: separate notification\n- {別途|べっと}⟦{購入|こうにゅう}→購入：03057_kounyuu⟧: purchased separately\n- {別途|べっと}⟦{手続|てつづ}き→手続き：05453_tetsuzuki⟧: separate procedure\n\nUSAGE:\nVery common in price lists, contracts, invoices, and official communications. Often seen in the pattern {別途|べっと}〜⟦が→が：00051_ga⟧⟦かかる→かかる：00711_kakaru⟧ (a separate ... is charged) or {別途|べっと}〜⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧ (separately ... is needed).\n\nSIMILAR WORDS:\n- ⟦{別|べつ}→別：01216_betsu⟧⟦に→に：00314_ni⟧: separately (casual, everyday)\n- ⟦{別個|べっこ}→別個：18408_bekko⟧⟦に→に：00314_ni⟧: individually, separately (formal)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01132_betsuni",
+      "reading": "べつに",
+      "headword": "{別|べつ}に",
+      "label": "separately"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18408_bekko",
+      "reading": "べっこ",
+      "headword": "{別個|べっこ}",
+      "label": "individually, separately"
+    }
+  ],
   "metadata": {
     "created": "2026-02-18T13:59:45Z",
-    "modified": "2026-03-28T03:50:18Z",
+    "modified": "2026-09-02T04:01:26Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
     "tags": {
-      "pos": ["adverb", "noun"],
+      "pos": [
+        "adverb",
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "domain": ["business"],
-      "semantic": ["abstract"]
+      "domain": [
+        "business"
+      ],
+      "semantic": [
+        "abstract"
+      ]
     }
   }
 }

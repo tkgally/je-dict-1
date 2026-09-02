@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26953_deinei_ex1",
-      "japanese": "{泥濘|でいねい}に{足|あし}を{取|と}られた。",
+      "japanese": "{泥濘|でいねい}⟦に→に：00314_ni⟧⟦{足|あし}→足：00575_ashi⟧⟦を→を：00422_wo⟧⟦{取|と}られた→取る：00565_toru⟧。",
       "english": "My feet got stuck in the mud.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26953_deinei_ex2",
-      "japanese": "{大雨|おおあめ}の{後|あと}、{道|みち}は{泥濘|でいねい}と{化|か}した。",
+      "japanese": "⟦{大雨|おおあめ}→大雨：03015_ooame⟧⟦の→の：09472_no⟧⟦{後|あと}→後：09580_ato⟧、⟦{道|みち}→道：00505_michi⟧⟦は→は：00079_ha⟧{泥濘|でいねい}⟦と→と：00512_to⟧⟦{化|か}した→化す：29802_kasu⟧。",
       "english": "After the heavy rain, the road turned into a quagmire.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26953_deinei_ex3",
-      "japanese": "{兵士|へいし}たちは{泥濘|でいねい}の{中|なか}を{進|すす}み{続|つづ}けなければならなかった。",
+      "japanese": "⟦{兵士|へいし}→兵士：11680_heishi⟧たち⟦は→は：00079_ha⟧{泥濘|でいねい}⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧⟦を→を：00422_wo⟧⟦{進|すす}み→進む：01225_susumu⟧⟦{続|つづ}け→続く：00903_tsuzuku⟧なければ⟦ならなかった→なる：01970_naru⟧。",
       "english": "The soldiers had to keep advancing through the mire.",
       "sense_numbers": [
         1
@@ -44,8 +44,16 @@
       "notes": null
     }
   ],
-  "notes": "A literary or formal term for muddy, waterlogged ground. The kanji {泥|でい} means mud and {濘|ねい} means muddy or miry. In everyday speech, ぬかるみ is far more common for the same meaning.\n\nThis word is most often encountered in written Japanese — novels, essays, historical accounts, and news reports about natural disasters. It carries a heavier, more vivid tone than the colloquial ぬかるみ.\n\nCOMMON COLLOCATIONS:\n- {泥濘|でいねい}の{道|みち}: muddy road\n- {泥濘|でいねい}に{足|あし}を{取|と}られる: to get one's feet stuck in mud\n- {泥濘|でいねい}と{化|か}す: to turn into a quagmire\n- {泥濘|でいねい}の{中|なか}を{歩|ある}く: to walk through mud\n\nSIMILAR WORDS:\n- ぬかるみ: mud, muddy place — the everyday word for the same concept\n- {泥|どろ}: mud — the basic, general word\n- ぬかるむ: to become muddy — the verb form",
-  "cross_references": [],
+  "notes": "A literary or formal term for muddy, waterlogged ground. The kanji {泥|でい} means mud and {濘|ねい} means muddy or miry. In everyday speech, ⟦ぬかるみ→ぬかるみ：16209_nukarumi⟧ is far more common for the same meaning.\n\nThis word is most often encountered in written Japanese — novels, essays, historical accounts, and news reports about natural disasters. It carries a heavier, more vivid tone than the colloquial ⟦ぬかるみ→ぬかるみ：16209_nukarumi⟧.\n\nCOMMON COLLOCATIONS:\n- {泥濘|でいねい}⟦の→の：09472_no⟧⟦{道|みち}→道：00505_michi⟧: muddy road\n- {泥濘|でいねい}⟦に→に：00314_ni⟧⟦{足|あし}→足：00575_ashi⟧⟦を→を：00422_wo⟧⟦{取|と}られる→取る：00565_toru⟧: to get one's feet stuck in mud\n- {泥濘|でいねい}⟦と→と：00512_to⟧⟦{化|か}す→化す：29802_kasu⟧: to turn into a quagmire\n- {泥濘|でいねい}⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧⟦を→を：00422_wo⟧⟦{歩|ある}く→歩く：00538_aruku⟧: to walk through mud\n\nSIMILAR WORDS:\n- ⟦ぬかるみ→ぬかるみ：16209_nukarumi⟧: mud, muddy place — the everyday word for the same concept\n- ⟦{泥|どろ}→泥：03492_doro⟧: mud — the basic, general word\n- ⟦ぬかるむ→ぬかるむ：26941_nukarumu⟧: to become muddy — the verb form",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16209_nukarumi",
+      "reading": "ぬかるみ",
+      "headword": "ぬかるみ",
+      "label": "mud, muddy place"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -61,6 +69,6 @@
       "domain": []
     },
     "created": "2026-05-06T11:10:26Z",
-    "modified": "2026-05-06T11:10:26Z"
+    "modified": "2026-09-02T04:02:28Z"
   }
 }

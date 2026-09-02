@@ -3,7 +3,7 @@
   "id": "13468_tokushuu",
   "headword": "{特集|とくしゅう}",
   "reading": "とくしゅう",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "special feature, special issue",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "13468_tokushuu_ex1",
-      "japanese": "{今月|こんげつ}の{特集|とくしゅう}はダイエットだ。",
+      "japanese": "⟦{今月|こんげつ}→今月：00720_kongetsu⟧⟦の→の：09472_no⟧{特集|とくしゅう}⟦は→は：00079_ha⟧⟦ダイエット→ダイエット：17678_daietto⟧だ。",
       "english": "This month's special feature is about dieting.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "13468_tokushuu_ex2",
-      "japanese": "テレビで{桜|さくら}の{名所|めいしょ}を{特集|とくしゅう}していた。",
+      "japanese": "⟦テレビ→テレビ：01536_terebi⟧⟦で→で：00502_de⟧⟦{桜|さくら}→桜：02212_sakura⟧⟦の→の：09472_no⟧⟦{名所|めいしょ}→名所：08164_meisho⟧⟦を→を：00422_wo⟧{特集|とくしゅう}⟦していた→する：00392_suru⟧。",
       "english": "They were running a special feature on famous cherry blossom spots on TV.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "13468_tokushuu_ex3",
-      "japanese": "あの{雑誌|ざっし}の{旅行|りょこう}{特集|とくしゅう}を{読|よ}んで、{沖縄|おきなわ}に{行|い}きたくなった。",
+      "japanese": "⟦あの→あの：00915_ano⟧⟦{雑誌|ざっし}→雑誌：00686_zasshi⟧⟦の→の：09472_no⟧⟦{旅行|りょこう}→旅行：00748_ryokou⟧{特集|とくしゅう}⟦を→を：00422_wo⟧⟦{読|よ}んで→読む：00426_yomu⟧、⟦{沖縄|おきなわ}→沖縄：11009_okinawa⟧⟦に→に：00314_ni⟧⟦{行|い}きたく→行く：00119_iku⟧⟦なった→なる：01970_naru⟧。",
       "english": "After reading that magazine's travel special, I wanted to go to Okinawa.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,19 @@
       ]
     }
   ],
-  "notes": "USAGE:\nVery common in media contexts. Used as a noun ({特集|とくしゅう}{記事|きじ} — special feature article) or with する ({特集|とくしゅう}する — to feature, to run a special on). Japanese magazines frequently run themed {特集|とくしゅう} issues, and news programs use the word for in-depth segments.\n\nCOMMON COLLOCATIONS:\n- {特集|とくしゅう}{記事|きじ}: feature article\n- {特集|とくしゅう}{番組|ばんぐみ}: special feature program\n- {特集|とくしゅう}{号|ごう}: special issue (of a magazine)\n- {特集|とくしゅう}を{組|く}む: to put together a special feature",
-  "cross_references": [],
+  "notes": "USAGE:\nVery common in media contexts. Used as a noun ({特集|とくしゅう}⟦{記事|きじ}→記事：00227_kiji⟧ — special feature article) or with ⟦する→する：00392_suru⟧ ({特集|とくしゅう}⟦する→する：00392_suru⟧ — to feature, to run a special on). Japanese magazines frequently run themed {特集|とくしゅう} issues, and news programs use the word for in-depth segments.\n\nCOMMON COLLOCATIONS:\n- {特集|とくしゅう}⟦{記事|きじ}→記事：00227_kiji⟧: feature article\n- {特集|とくしゅう}{番組|ばんぐみ}: special feature program\n- {特集|とくしゅう}{号|ごう}: special issue (of a magazine)\n- {特集|とくしゅう}⟦を→を：00422_wo⟧⟦{組|く}む→組む：02050_kumu⟧: to put together a special feature",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24084_zoukan",
+      "reading": "ぞうかん",
+      "headword": "{増刊|ぞうかん}",
+      "label": "special issue"
+    }
+  ],
   "metadata": {
     "created": "2026-02-24T13:29:04Z",
-    "modified": "2026-07-10T04:36:00Z",
+    "modified": "2026-09-02T04:01:33Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -151,7 +159,8 @@
       "semantic": [
         "media"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

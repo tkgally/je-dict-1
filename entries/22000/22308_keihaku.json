@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22308_keihaku_ex1",
-      "japanese": "{謹啓|きんけい}…{敬白|けいはく}。",
+      "japanese": "⟦{謹啓|きんけい}→謹啓：22309_kinkei⟧…{敬白|けいはく}。",
       "english": "Dear Sir/Madam ... Respectfully yours.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22308_keihaku_ex2",
-      "japanese": "{手紙|てがみ}の{最後|さいご}に{敬白|けいはく}と{書|か}いた。",
+      "japanese": "⟦{手紙|てがみ}→手紙：00675_tegami⟧⟦の→の：09472_no⟧⟦{最後|さいご}→最後：01413_saigo⟧⟦に→に：00314_ni⟧{敬白|けいはく}⟦と→と：00512_to⟧⟦{書|か}いた→書く：00477_kaku⟧。",
       "english": "I wrote 'respectfully yours' at the end of the letter.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22308_keihaku_ex3",
-      "japanese": "{式典|しきてん}の{招待状|しょうたいじょう}は{謹啓|きんけい}で{始|はじ}まり{敬白|けいはく}で{結|むす}ぶのが{正式|せいしき}だ。",
+      "japanese": "⟦{式典|しきてん}→式典：09526_shikiten⟧⟦の→の：09472_no⟧⟦{招待状|しょうたいじょう}→招待状：14769_shoutaijou⟧⟦は→は：00079_ha⟧⟦{謹啓|きんけい}→謹啓：22309_kinkei⟧⟦で→で：00502_de⟧⟦{始|はじ}まり→始まる：00841_hajimaru⟧{敬白|けいはく}⟦で→で：00502_de⟧⟦{結|むす}ぶ→結ぶ：02308_musubu⟧⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦{正式|せいしき}→正式：03376_seishiki⟧だ。",
       "english": "The formal way to write a ceremony invitation is to begin with 'respectfully' and close with 'sincerely yours.'",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "A highly formal letter-closing phrase meaning \"I state this with respect.\" Always paired with the opening {謹啓|きんけい}. Used in ceremonial correspondence such as wedding invitations, formal notices, and official letters.\n\nLETTER OPENING/CLOSING PAIRS (by formality):\n- {前略|ぜんりゃく} / {草々|そうそう}: informal (skipping formalities)\n- {拝啓|はいけい} / {敬具|けいぐ}: standard formal\n- {謹啓|きんけい} / {敬白|けいはく}: highly formal\n\nSIMILAR WORDS:\n- {敬具|けいぐ}: sincerely — the standard formal letter closing, paired with {拝啓|はいけい}; less formal than {敬白|けいはく}\n- {草々|そうそう}: in haste — a casual closing paired with {前略|ぜんりゃく}\n- {謹啓|きんけい}: respectfully (opening) — the corresponding opening to {敬白|けいはく}",
+  "notes": "A highly formal letter-closing phrase meaning \"I state this with respect.\" Always paired with the opening ⟦{謹啓|きんけい}→謹啓：22309_kinkei⟧. Used in ceremonial correspondence such as wedding invitations, formal notices, and official letters.\n\nLETTER OPENING/CLOSING PAIRS (by formality):\n- {前略|ぜんりゃく} / {草々|そうそう}: informal (skipping formalities)\n- ⟦{拝啓|はいけい}→拝啓：12790_haikei⟧ / ⟦{敬具|けいぐ}→敬具：12977_keigu⟧: standard formal\n- ⟦{謹啓|きんけい}→謹啓：22309_kinkei⟧ / {敬白|けいはく}: highly formal\n\nSIMILAR WORDS:\n- ⟦{敬具|けいぐ}→敬具：12977_keigu⟧: sincerely — the standard formal letter closing, paired with ⟦{拝啓|はいけい}→拝啓：12790_haikei⟧; less formal than {敬白|けいはく}\n- {草々|そうそう}: in haste — a casual closing paired with {前略|ぜんりゃく}\n- ⟦{謹啓|きんけい}→謹啓：22309_kinkei⟧: respectfully (opening) — the corresponding opening to {敬白|けいはく}",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12977_keigu",
+      "reading": "けいぐ",
+      "headword": "{敬具|けいぐ}",
+      "label": "sincerely"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22309_kinkei",
+      "reading": "きんけい",
+      "headword": "{謹啓|きんけい}",
+      "label": "respectfully"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +75,6 @@
       ]
     },
     "created": "2026-04-05T17:03:27Z",
-    "modified": "2026-04-10T08:28:27Z"
+    "modified": "2026-09-02T04:02:07Z"
   }
 }

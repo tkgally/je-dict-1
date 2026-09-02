@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "09060_ikigomi_ex1",
-      "japanese": "{意気込|いきご}みを{語|かた}る。",
+      "japanese": "{意気込|いきご}み⟦を→を：00422_wo⟧⟦{語|かた}る→語る：01930_kataru⟧。",
       "english": "To express one's enthusiasm.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "09060_ikigomi_ex2",
-      "japanese": "{新入社員|しんにゅうしゃいん}たちの{意気込|いきご}みが{伝|つた}わってきた。",
+      "japanese": "⟦{新入社員|しんにゅうしゃいん}→新入社員：15536_shinnyuushain⟧たち⟦の→の：09472_no⟧{意気込|いきご}み⟦が→が：00051_ga⟧⟦{伝|つた}わって→伝わる：01961_tsutawaru⟧きた。",
       "english": "The eagerness of the new employees came through.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "09060_ikigomi_ex3",
-      "japanese": "{意気込|いきご}みは{十分|じゅうぶん}だが、{経験|けいけん}が{足|た}りない。",
+      "japanese": "{意気込|いきご}み⟦は→は：00079_ha⟧⟦{十分|じゅうぶん}→十分：01614_juubun⟧だ⟦が→が：00051_ga⟧、⟦{経験|けいけん}→経験：01179_keiken⟧⟦が→が：00051_ga⟧⟦{足|た}りない→足りる：01209_tariru⟧。",
       "english": "The enthusiasm is there, but the experience is lacking.",
       "notes": null,
       "has_audio": false,
@@ -43,11 +43,47 @@
       ]
     }
   ],
-  "notes": "{意気込|いきご}み describes enthusiastic readiness to act.\n\nWORD FORMATION:\nNominalization of {意気込|いきご}む (to be eager, to be enthusiastic).\n\nCOMMON COLLOCATIONS:\n- {意気込|いきご}みを{語|かた}る: to express one's enthusiasm\n- {意気込|いきご}みを{見|み}せる: to show one's eagerness\n- {意気込|いきご}みが{伝|つた}わる: eagerness comes through\n- {意気込|いきご}みは{十分|じゅうぶん}: plenty of enthusiasm\n\nUSAGE NOTE:\nOften used in contexts like interviews, speeches, or when someone is starting something new and wants to express their determination.\n\nRELATED WORDS:\n- {気概|きがい}: mettle, guts (more about inner strength)\n- {やる{気|き}}: motivation\n- {熱意|ねつい}: passion, zeal",
-  "cross_references": [],
+  "notes": "{意気込|いきご}み describes enthusiastic readiness to act.\n\nFORMS:\nNominalization of {意気込|いきご}む (to be eager, to be enthusiastic).\n\nCOMMON COLLOCATIONS:\n- {意気込|いきご}み⟦を→を：00422_wo⟧⟦{語|かた}る→語る：01930_kataru⟧: to express one's enthusiasm\n- {意気込|いきご}み⟦を→を：00422_wo⟧⟦{見|み}せる→見せる：01988_miseru⟧: to show one's eagerness\n- {意気込|いきご}み⟦が→が：00051_ga⟧⟦{伝|つた}わる→伝わる：01961_tsutawaru⟧: eagerness comes through\n- {意気込|いきご}み⟦は→は：00079_ha⟧⟦{十分|じゅうぶん}→十分：01614_juubun⟧: plenty of enthusiasm\n\nUSAGE:\nOften used in contexts like interviews, speeches, or when someone is starting something new and wants to express their determination.\n\nRELATED WORDS:\n- ⟦{気概|きがい}→気概：09059_kigai⟧: mettle, guts (more about inner strength)\n- ⟦やる{気|き}→やる気：05089_yaruki⟧: motivation\n- ⟦{熱意|ねつい}→熱意：05088_netsui⟧: passion, zeal",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "09059_kigai",
+      "reading": "きがい",
+      "headword": "{気概|きがい}",
+      "label": "mettle, guts"
+    },
+    {
+      "type": "related",
+      "target_id": "05089_yaruki",
+      "reading": "やるき",
+      "headword": "やる{気|き}",
+      "label": "motivation"
+    },
+    {
+      "type": "related",
+      "target_id": "05088_netsui",
+      "reading": "ねつい",
+      "headword": "{熱意|ねつい}",
+      "label": "passion, zeal"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19824_shiki",
+      "reading": "しき",
+      "headword": "{士気|しき}",
+      "label": "morale, fighting spirit"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20395_kokoroiki",
+      "reading": "こころいき",
+      "headword": "{心意気|こころいき}",
+      "label": "spirit"
+    }
+  ],
   "metadata": {
     "created": "2026-01-31T02:19:06Z",
-    "modified": "2026-08-12T21:25:53Z",
+    "modified": "2026-09-02T04:01:17Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

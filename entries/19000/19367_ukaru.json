@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "19367_ukaru_ex1",
-      "japanese": "{試験|しけん}に{受|う}かった。",
+      "japanese": "⟦{試験|しけん}→試験：01422_shiken⟧⟦に→に：00314_ni⟧{受|う}かった。",
       "english": "I passed the exam.",
       "sense_numbers": [
         1
@@ -113,7 +113,7 @@
     },
     {
       "id": "19367_ukaru_ex2",
-      "japanese": "{大学|だいがく}に{受|う}かるために{毎日|まいにち}{勉強|べんきょう}している。",
+      "japanese": "⟦{大学|だいがく}→大学：00608_daigaku⟧⟦に→に：00314_ni⟧{受|う}かる⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧⟦{毎日|まいにち}→毎日：00729_mainichi⟧⟦{勉強|べんきょう}している→勉強する：00527_benkyousuru⟧。",
       "english": "I'm studying every day to get into university.",
       "sense_numbers": [
         1
@@ -121,15 +121,24 @@
     },
     {
       "id": "19367_ukaru_ex3",
-      "japanese": "{運転|うんてん}{免許|めんきょ}の{試験|しけん}に{一発|いっぱつ}で{受|う}かるのは{難|むずか}しい。",
+      "japanese": "⟦{運転|うんてん}{免許|めんきょ}→運転免許：15285_untenmenkyo⟧⟦の→の：09472_no⟧⟦{試験|しけん}→試験：01422_shiken⟧⟦に→に：00314_ni⟧⟦{一発|いっぱつ}→一発：08895_ippatsu⟧⟦で→で：00502_de⟧{受|う}かる⟦の→の：09472_no⟧⟦は→は：00079_ha⟧⟦{難|むずか}しい→難しい：00517_muzukashii⟧。",
       "english": "It's hard to pass the driver's license exam on the first try.",
       "sense_numbers": [
         1
       ]
     }
   ],
-  "notes": "{受|う}かる is an intransitive result verb — you do not actively \"do\" passing; rather, the result of passing happens to you. This contrasts with {受|う}ける, which describes the action of taking a test.\n\nUSAGE:\n- The exam or institution passed is marked with に: {試験|しけん}に{受|う}かる, {大学|だいがく}に{受|う}かる\n- The opposite is {落|お}ちる (to fail an exam)\n\nCONTRAST WITH {受|う}ける:\n- {受|う}ける means \"to take\" an exam (the action)\n- {受|う}かる means \"to pass\" an exam (the result)\n- {試験|しけん}を{受|う}ける = to take an exam\n- {試験|しけん}に{受|う}かる = to pass an exam\n\nCOMMON COLLOCATIONS:\n- {試験|しけん}に{受|う}かる — to pass an exam\n- {大学|だいがく}に{受|う}かる — to get into university\n- {面接|めんせつ}に{受|う}かる — to pass an interview\n- {一発|いっぱつ}で{受|う}かる — to pass on the first try",
+  "notes": "{受|う}かる is an intransitive result verb — you do not actively \"do\" passing; rather, the result of passing happens to you. This contrasts with ⟦{受|う}ける→受ける：01215_ukeru⟧, which describes the action of taking a test.\n\nUSAGE:\n- The exam or institution passed is marked with ⟦に→に：00314_ni⟧: ⟦{試験|しけん}→試験：01422_shiken⟧⟦に→に：00314_ni⟧{受|う}かる, ⟦{大学|だいがく}→大学：00608_daigaku⟧⟦に→に：00314_ni⟧{受|う}かる\n- The opposite is ⟦{落|お}ちる→落ちる：01242_ochiru⟧ (to fail an exam)\n\nCONTRAST WITH {受|う}ける:\n- ⟦{受|う}ける→受ける：01215_ukeru⟧ means \"to take\" an exam (the action)\n- {受|う}かる means \"to pass\" an exam (the result)\n- ⟦{試験|しけん}→試験：01422_shiken⟧⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧ = to take an exam\n- ⟦{試験|しけん}→試験：01422_shiken⟧⟦に→に：00314_ni⟧{受|う}かる = to pass an exam\n\nCOMMON COLLOCATIONS:\n- ⟦{試験|しけん}→試験：01422_shiken⟧⟦に→に：00314_ni⟧{受|う}かる — to pass an exam\n- ⟦{大学|だいがく}→大学：00608_daigaku⟧⟦に→に：00314_ni⟧{受|う}かる — to get into university\n- ⟦{面接|めんせつ}→面接：01100_mensetsu⟧⟦に→に：00314_ni⟧{受|う}かる — to pass an interview\n- ⟦{一発|いっぱつ}→一発：08895_ippatsu⟧⟦で→で：00502_de⟧{受|う}かる — to pass on the first try",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "27949_goukakusuru",
+      "reading": "ごうかくする",
+      "headword": "{合格|ごうかく}する",
+      "label": "to pass (an exam)"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -145,6 +154,6 @@
       "verb_class": "godan-ru"
     },
     "created": "2026-03-25T12:57:22Z",
-    "modified": "2026-03-25T12:57:22Z"
+    "modified": "2026-09-02T04:01:55Z"
   }
 }

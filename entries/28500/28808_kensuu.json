@@ -15,41 +15,75 @@
   "examples": [
     {
       "id": "28808_kensuu_ex1",
-      "japanese": "{事故|じこ}の{件数|けんすう}が{減|へ}った。",
+      "japanese": "⟦{事故|じこ}→事故：00851_jiko⟧⟦の→の：09472_no⟧{件数|けんすう}⟦が→が：00051_ga⟧⟦{減|へ}った→減る：01985_heru⟧。",
       "english": "The number of accidents decreased.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28808_kensuu_ex2",
-      "japanese": "{今月|こんげつ}の{注文件数|ちゅうもんけんすう}を{確認|かくにん}した。",
+      "japanese": "⟦{今月|こんげつ}→今月：00720_kongetsu⟧⟦の→の：09472_no⟧{注文件数|ちゅうもんけんすう}⟦を→を：00422_wo⟧⟦{確認|かくにん}した→確認する：25332_kakuninsuru⟧。",
       "english": "I checked this month's order count.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28808_kensuu_ex3",
-      "japanese": "{救急車|きゅうきゅうしゃ}の{出動件数|しゅつどうけんすう}は{年々|ねんねん}{増加|ぞうか}している。",
+      "japanese": "⟦{救急車|きゅうきゅうしゃ}→救急車：05077_kyuukyuusha⟧⟦の→の：09472_no⟧{出動件数|しゅつどうけんすう}⟦は→は：00079_ha⟧⟦{年々|ねんねん}→年々：10417_nennen⟧⟦{増加|ぞうか}→増加：03329_zouka⟧⟦している→する：00392_suru⟧。",
       "english": "The number of ambulance dispatches is increasing year by year.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Compound of {件|けん} (case, matter) + {数|すう} (number). Commonly attaches to nouns to form statistical terms like {注文件数|ちゅうもんけんすう} (order count) and {問|と}い{合|あ}わせ{件数|けんすう} (number of inquiries).\n\nCOMMON COLLOCATIONS:\n- {件数|けんすう}が{増|ふ}える / {減|へ}る: the number of cases increases / decreases\n- {件数|けんすう}を{集計|しゅうけい}する: to tally the number of cases\n- {問|と}い{合|あ}わせ{件数|けんすう}: number of inquiries\n- {相談件数|そうだんけんすう}: number of consultations\n- {出動件数|しゅつどうけんすう}: number of dispatches\n\nSIMILAR WORDS:\n- {回数|かいすう}: number of times — for repeated events ({利用回数|りようかいすう} 'number of uses')\n- {数量|すうりょう}: quantity — for amounts of physical goods or stock\n- {人数|にんずう}: number of people",
+  "notes": "Compound of ⟦{件|けん}→件：11720_ken⟧ (case, matter) + ⟦{数|すう}→数：03360_suu⟧ (number). Commonly attaches to nouns to form statistical terms like {注文件数|ちゅうもんけんすう} (order count) and ⟦{問|と}い{合|あ}わせ→問い合わせ：06131_toiawase⟧{件数|けんすう} (number of inquiries).\n\nCOMMON COLLOCATIONS:\n- {件数|けんすう}⟦が→が：00051_ga⟧⟦{増|ふ}える→増える：01183_fueru⟧ / ⟦{減|へ}る→減る：01985_heru⟧: the number of cases increases / decreases\n- {件数|けんすう}⟦を→を：00422_wo⟧⟦{集計|しゅうけい}→集計：14598_shuukei⟧⟦する→する：00392_suru⟧: to tally the number of cases\n- ⟦{問|と}い{合|あ}わせ→問い合わせ：06131_toiawase⟧{件数|けんすう}: number of inquiries\n- {相談件数|そうだんけんすう}: number of consultations\n- {出動件数|しゅつどうけんすう}: number of dispatches\n\nSIMILAR WORDS:\n- ⟦{回数|かいすう}→回数：00139_kaisuu⟧: number of times — for repeated events ({利用回数|りようかいすう} 'number of uses')\n- ⟦{数量|すうりょう}→数量：05473_suuryou⟧: quantity — for amounts of physical goods or stock\n- ⟦{人数|にんずう}→人数：03132_ninzuu⟧: number of people",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00139_kaisuu",
+      "reading": "かいすう",
+      "headword": "{回数|かいすう}",
+      "label": "number of times"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05473_suuryou",
+      "reading": "すうりょう",
+      "headword": "{数量|すうりょう}",
+      "label": "quantity"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03132_ninzuu",
+      "reading": "にんずう",
+      "headword": "{人数|にんずう}",
+      "label": "number of people"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["quantity", "business"],
+      "politeness": "plain",
+      "semantic": [
+        "quantity",
+        "business"
+      ],
       "domain": []
     },
     "created": "2026-06-05T04:08:23Z",
-    "modified": "2026-06-05T04:08:23Z"
+    "modified": "2026-09-02T04:02:35Z"
   }
 }

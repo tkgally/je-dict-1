@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "17896_tan_ex1",
-      "japanese": "{痰|たん}が{絡|から}んで{声|こえ}が{出|で}にくい。",
+      "japanese": "{痰|たん}⟦が→が：00051_ga⟧⟦{絡|から}んで→絡む：04366_karamu⟧⟦{声|こえ}→声：02207_koe⟧⟦が→が：00051_ga⟧⟦{出|で}→出る：00513_deru⟧にくい。",
       "english": "Phlegm is stuck in my throat and it's hard to speak.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17896_tan_ex2",
-      "japanese": "{風邪|かぜ}をひいて{痰|たん}が{出|で}る。",
+      "japanese": "⟦{風邪|かぜ}→風邪：02188_kaze⟧⟦を→を：00422_wo⟧ひいて{痰|たん}⟦が→が：00051_ga⟧⟦{出|で}る→出る：00513_deru⟧。",
       "english": "I have a cold and am coughing up phlegm.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17896_tan_ex3",
-      "japanese": "{黄色|きいろ}い{痰|たん}が{出|で}る{場合|ばあい}は{細菌|さいきん}{感染|かんせん}の{可能性|かのうせい}がある。",
+      "japanese": "⟦{黄色|きいろ}い→黄色い：00959_kiiroi⟧{痰|たん}⟦が→が：00051_ga⟧⟦{出|で}る→出る：00513_deru⟧⟦{場合|ばあい}→場合：01704_baai⟧⟦は→は：00079_ha⟧⟦{細菌|さいきん}→細菌：13791_saikin⟧⟦{感染|かんせん}→感染：05977_kansen⟧⟦の→の：09472_no⟧⟦{可能性|かのうせい}→可能性：04818_kanousei⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "If yellow phlegm is produced, there may be a bacterial infection.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nA common word when describing cold and respiratory symptoms at a doctor's visit. Useful to know for medical consultations in Japan.\n\nCOMMON COLLOCATIONS:\n- {痰|たん}が{出|で}る (to produce phlegm)\n- {痰|たん}が{絡|から}む (to have phlegm stuck in one's throat)\n- {痰|たん}を{切|き}る (to clear phlegm)\n- {痰|たん}が{絡|から}んだ{咳|せき} (a phlegmy cough)\n\nRELATED WORDS:\n- {咳|せき}: cough\n- {鼻水|はなみず}: runny nose",
+  "notes": "USAGE:\nA common word when describing cold and respiratory symptoms at a doctor's visit. Useful to know for medical consultations in Japan.\n\nCOMMON COLLOCATIONS:\n- {痰|たん}⟦が→が：00051_ga⟧⟦{出|で}る→出る：00513_deru⟧ (to produce phlegm)\n- {痰|たん}⟦が→が：00051_ga⟧⟦{絡|から}む→絡む：04366_karamu⟧ (to have phlegm stuck in one's throat)\n- {痰|たん}⟦を→を：00422_wo⟧⟦{切|き}る→切る：02693_kiru⟧ (to clear phlegm)\n- {痰|たん}⟦が→が：00051_ga⟧⟦{絡|から}んだ→絡む：04366_karamu⟧⟦{咳|せき}→咳：12007_seki⟧ (a phlegmy cough)\n\nRELATED WORDS:\n- ⟦{咳|せき}→咳：12007_seki⟧: cough\n- ⟦{鼻水|はなみず}→鼻水：04430_hanamizu⟧: runny nose",
   "cross_references": [
     {
       "type": "related",
@@ -57,15 +63,21 @@
   ],
   "metadata": {
     "created": "2026-03-19T08:30:19Z",
-    "modified": "2026-05-07T09:10:12Z",
+    "modified": "2026-09-02T04:01:50Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["body-internal"],
-      "domain": ["medical"]
+      "semantic": [
+        "body-internal"
+      ],
+      "domain": [
+        "medical"
+      ]
     }
   }
 }

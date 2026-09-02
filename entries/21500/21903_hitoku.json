@@ -3,8 +3,31 @@
   "id": "21903_hitoku",
   "headword": "{秘匿|ひとく}",
   "reading": "ひとく",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "concealment; keeping secret; hiding",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07627_inpei",
+      "reading": "いんぺい",
+      "headword": "{隠蔽|いんぺい}",
+      "label": "cover-up"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13179_kimitsu",
+      "reading": "きみつ",
+      "headword": "{機密|きみつ}",
+      "label": "classified, confidential"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02034_kakusu",
+      "reading": "かくす",
+      "headword": "{隠|かく}す",
+      "label": "to hide"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -12,16 +35,18 @@
         "noun",
         "verb-suru"
       ],
+      "politeness": "plain",
       "semantic": [
         "law",
         "communication"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-04-03T21:24:35Z",
-    "modified": "2026-04-03T21:24:35Z"
+    "modified": "2026-09-02T04:02:05Z"
   },
-  "notes": "A formal term for deliberately hiding or concealing information. Frequently appears in legal, journalistic, and corporate governance contexts. Often implies wrongdoing when information that should be disclosed is hidden, but can also describe legitimate confidentiality measures.\n\nCOMMON COLLOCATIONS:\n- {証拠|しょうこ}を{秘匿|ひとく}する: to conceal evidence\n- {情報|じょうほう}の{秘匿|ひとく}: concealment of information\n- {秘匿|ひとく}{義務|ぎむ}: duty of confidentiality\n- {秘匿|ひとく}{性|せい}: secrecy, confidentiality\n- {事実|じじつ}を{秘匿|ひとく}する: to conceal facts\n\nSIMILAR WORDS:\n- {隠蔽|いんぺい}: cover-up — strongly implies wrongful concealment with intent to deceive\n- {機密|きみつ}: classified, confidential — refers to the classified status of information itself\n- {隠|かく}す: to hide — the everyday general word; can be used for anything from physical hiding to secrets\n\nREGISTER:\nFormal. Common in legal documents, news reports, and official communications.",
+  "notes": "A formal term for deliberately hiding or concealing information. Frequently appears in legal, journalistic, and corporate governance contexts. Often implies wrongdoing when information that should be disclosed is hidden, but can also describe legitimate confidentiality measures.\n\nCOMMON COLLOCATIONS:\n- ⟦{証拠|しょうこ}→証拠：10575_shouko⟧⟦を→を：00422_wo⟧{秘匿|ひとく}⟦する→する：00392_suru⟧: to conceal evidence\n- ⟦{情報|じょうほう}→情報：03348_jouhou⟧⟦の→の：09472_no⟧{秘匿|ひとく}: concealment of information\n- {秘匿|ひとく}⟦{義務|ぎむ}→義務：02647_gimu⟧: duty of confidentiality\n- {秘匿|ひとく}{性|せい}: secrecy, confidentiality\n- ⟦{事実|じじつ}→事実：03271_jijitsu⟧⟦を→を：00422_wo⟧{秘匿|ひとく}⟦する→する：00392_suru⟧: to conceal facts\n\nSIMILAR WORDS:\n- ⟦{隠蔽|いんぺい}→隠蔽：07627_inpei⟧: cover-up — strongly implies wrongful concealment with intent to deceive\n- ⟦{機密|きみつ}→機密：13179_kimitsu⟧: classified, confidential — refers to the classified status of information itself\n- ⟦{隠|かく}す→隠す：02034_kakusu⟧: to hide — the everyday general word; can be used for anything from physical hiding to secrets\n\nREGISTER:\nFormal. Common in legal documents, news reports, and official communications.",
   "conjugation": {
     "type": "suru",
     "forms": [
@@ -122,7 +147,7 @@
   "examples": [
     {
       "id": "21903_hitoku_ex1",
-      "japanese": "{証拠|しょうこ}を{秘匿|ひとく}する。",
+      "japanese": "⟦{証拠|しょうこ}→証拠：10575_shouko⟧⟦を→を：00422_wo⟧{秘匿|ひとく}⟦する→する：00392_suru⟧。",
       "english": "To conceal evidence.",
       "sense_numbers": [
         1
@@ -132,7 +157,7 @@
     },
     {
       "id": "21903_hitoku_ex2",
-      "japanese": "{個人|こじん}{情報|じょうほう}の{秘匿|ひとく}は{重要|じゅうよう}だ。",
+      "japanese": "⟦{個人|こじん}{情報|じょうほう}→個人情報：18842_kojinjouhou⟧⟦の→の：09472_no⟧{秘匿|ひとく}⟦は→は：00079_ha⟧⟦{重要|じゅうよう}→重要：01575_juuyou⟧だ。",
       "english": "The concealment of personal information is important.",
       "sense_numbers": [
         1
@@ -142,7 +167,7 @@
     },
     {
       "id": "21903_hitoku_ex3",
-      "japanese": "{企業|きぎょう}が{不祥事|ふしょうじ}を{秘匿|ひとく}していたことが{発覚|はっかく}した。",
+      "japanese": "⟦{企業|きぎょう}→企業：00225_kigyou⟧⟦が→が：00051_ga⟧⟦{不祥事|ふしょうじ}→不祥事：14981_fushouji⟧⟦を→を：00422_wo⟧{秘匿|ひとく}⟦していた→する：00392_suru⟧こと⟦が→が：00051_ga⟧⟦{発覚|はっかく}した→発覚する：15423_hakkakusuru⟧。",
       "english": "It was discovered that the company had been concealing a scandal.",
       "sense_numbers": [
         1
@@ -152,7 +177,7 @@
     },
     {
       "id": "21903_hitoku_ex4",
-      "japanese": "{情報|じょうほう}{秘匿|ひとく}の{義務|ぎむ}に{違反|いはん}した{場合|ばあい}、{厳|きび}しい{処分|しょぶん}を{受|う}ける。",
+      "japanese": "⟦{情報|じょうほう}→情報：03348_jouhou⟧{秘匿|ひとく}⟦の→の：09472_no⟧⟦{義務|ぎむ}→義務：02647_gimu⟧⟦に→に：00314_ni⟧⟦{違反|いはん}→違反：01824_ihan⟧⟦した→する：00392_suru⟧⟦{場合|ばあい}→場合：01704_baai⟧、⟦{厳|きび}しい→厳しい：01125_kibishii⟧⟦{処分|しょぶん}→処分：05520_shobun⟧⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧。",
       "english": "If you violate the obligation to keep information secret, you will face severe punishment.",
       "sense_numbers": [
         1

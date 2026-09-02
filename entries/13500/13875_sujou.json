@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "13875_sujou_ex1",
-      "japanese": "{素性|すじょう}の{知|し}れない{人物|じんぶつ}だ。",
+      "japanese": "{素性|すじょう}⟦の→の：09472_no⟧⟦{知|し}れない→知る：00458_shiru⟧⟦{人物|じんぶつ}→人物：03356_jinbutsu⟧だ。",
       "english": "He's a person of unknown background.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13875_sujou_ex2",
-      "japanese": "{彼女|かのじょ}は{自分|じぶん}の{素性|すじょう}を{隠|かく}していた。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧⟦{自分|じぶん}→自分：02887_jibun⟧⟦の→の：09472_no⟧{素性|すじょう}⟦を→を：00422_wo⟧⟦{隠|かく}していた→隠す：02034_kakusu⟧。",
       "english": "She was hiding her true identity.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13875_sujou_ex3",
-      "japanese": "この{絵画|かいが}の{素性|すじょう}を{調|しら}べたら、{有名|ゆうめい}な{画家|がか}の{作品|さくひん}だとわかった。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{絵画|かいが}→絵画：02597_kaiga⟧⟦の→の：09472_no⟧{素性|すじょう}⟦を→を：00422_wo⟧⟦{調|しら}べたら→調べる：01213_shiraberu⟧、⟦{有名|ゆうめい}→有名：01106_yuumei⟧な⟦{画家|がか}→画家：02583_gaka⟧⟦の→の：09472_no⟧⟦{作品|さくひん}→作品：02776_sakuhin⟧だ⟦と→と：00512_to⟧わかった。",
       "english": "When I investigated the origin of this painting, I found it was a work by a famous artist.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nOften appears in contexts where someone's identity or background is unknown, suspicious, or being investigated. The collocation {素性|すじょう}の{知|し}れない (of unknown origin/background) is very common. Can also be written as {素姓|すじょう}.\n\nSIMILAR WORDS:\n- {身元|みもと}: identity (for identification purposes)\n- {出自|しゅつじ}: birth, origin, extraction (more formal)\n- {経歴|けいれき}: career history, background (professional)\n\nCOMMON COLLOCATIONS:\n- {素性|すじょう}の{知|し}れない: of unknown background\n- {素性|すじょう}を{明|あ}かす: reveal one's identity\n- {素性|すじょう}を{隠|かく}す: hide one's identity\n- {素性|すじょう}を{調|しら}べる: investigate someone's background",
+  "notes": "USAGE:\nOften appears in contexts where someone's identity or background is unknown, suspicious, or being investigated. The collocation {素性|すじょう}⟦の→の：09472_no⟧⟦{知|し}れない→知る：00458_shiru⟧ (of unknown origin/background) is very common. Can also be written as {素姓|すじょう}.\n\nSIMILAR WORDS:\n- ⟦{身元|みもと}→身元：15710_mimoto⟧: identity (for identification purposes)\n- ⟦{出自|しゅつじ}→出自：20751_shutsuji⟧: birth, origin, extraction (more formal)\n- ⟦{経歴|けいれき}→経歴：13795_keireki⟧: career history, background (professional)\n\nCOMMON COLLOCATIONS:\n- {素性|すじょう}⟦の→の：09472_no⟧⟦{知|し}れない→知る：00458_shiru⟧: of unknown background\n- {素性|すじょう}⟦を→を：00422_wo⟧⟦{明|あ}かす→明かす：12961_akasu⟧: reveal one's identity\n- {素性|すじょう}⟦を→を：00422_wo⟧⟦{隠|かく}す→隠す：02034_kakusu⟧: hide one's identity\n- {素性|すじょう}⟦を→を：00422_wo⟧⟦{調|しら}べる→調べる：01213_shiraberu⟧: investigate someone's background",
   "cross_references": [
     {
       "type": "synonym",
@@ -46,18 +52,36 @@
       "reading": "みもと",
       "headword": "{身元|みもと}",
       "label": "identity (identification)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20751_shutsuji",
+      "reading": "しゅつじ",
+      "headword": "{出自|しゅつじ}",
+      "label": "birth, origin, extraction"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13795_keireki",
+      "reading": "けいれき",
+      "headword": "{経歴|けいれき}",
+      "label": "career history, background"
     }
   ],
   "metadata": {
     "created": "2026-02-27T05:51:09Z",
-    "modified": "2026-04-29T09:23:58Z",
+    "modified": "2026-09-02T04:01:35Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

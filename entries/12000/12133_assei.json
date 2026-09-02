@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "12133_assei_ex1",
-      "japanese": "{圧政|あっせい}に{苦|くる}しむ{民衆|みんしゅう}。",
+      "japanese": "{圧政|あっせい}⟦に→に：00314_ni⟧⟦{苦|くる}しむ→苦しむ：01938_kurushimu⟧⟦{民衆|みんしゅう}→民衆：13259_minshuu⟧。",
       "english": "People suffering under tyranny.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "12133_assei_ex2",
-      "japanese": "{圧政|あっせい}に{対|たい}する{反乱|はんらん}が{起|お}きた。",
+      "japanese": "{圧政|あっせい}⟦に→に：00314_ni⟧⟦{対|たい}する→対する：02126_taisuru⟧⟦{反乱|はんらん}→反乱：11860_hanran⟧⟦が→が：00051_ga⟧⟦{起|お}きた→起きる：00521_okiru⟧。",
       "english": "A rebellion against the oppressive rule broke out.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "12133_assei_ex3",
-      "japanese": "{長年|ながねん}の{圧政|あっせい}から{解放|かいほう}された{国民|こくみん}は、{自由|じゆう}を{手|て}に{入|い}れて{喜|よろこ}んだ。",
+      "japanese": "⟦{長年|ながねん}→長年：09684_naganen⟧⟦の→の：09472_no⟧{圧政|あっせい}⟦から→から：00504_kara⟧⟦{解放|かいほう}→解放：00135_kaihou⟧⟦された→する：00392_suru⟧⟦{国民|こくみん}→国民：02757_kokumin⟧⟦は→は：00079_ha⟧、⟦{自由|じゆう}→自由：01148_jiyuu⟧⟦を→を：00422_wo⟧⟦{手|て}→手：00569_te⟧⟦に→に：00314_ni⟧⟦{入|い}れて→入れる：01098_ireru⟧⟦{喜|よろこ}んだ→喜ぶ：01169_yorokobu⟧。",
       "english": "The people, freed from years of tyrannical rule, rejoiced at having gained their freedom.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{圧政|あっせい} is a formal, literary word often found in historical and political writing. It combines {圧|あつ} (pressure, oppression) with {政|せい} (government, rule).\n\nCOMMON COLLOCATIONS:\n- {圧政|あっせい}に{苦|くる}しむ: to suffer under tyranny\n- {圧政|あっせい}に{立|た}ち{向|む}かう: to stand up against oppression\n- {圧政|あっせい}から{解放|かいほう}される: to be freed from tyranny\n- {圧政|あっせい}を{敷|し}く: to impose oppressive rule",
+  "notes": "USAGE:\n{圧政|あっせい} is a formal, literary word often found in historical and political writing. It combines {圧|あつ} (pressure, oppression) with {政|せい} (government, rule).\n\nCOMMON COLLOCATIONS:\n- {圧政|あっせい}⟦に→に：00314_ni⟧⟦{苦|くる}しむ→苦しむ：01938_kurushimu⟧: to suffer under tyranny\n- {圧政|あっせい}⟦に→に：00314_ni⟧⟦{立|た}ち{向|む}かう→立ち向かう：06981_tachimukau⟧: to stand up against oppression\n- {圧政|あっせい}⟦から→から：00504_kara⟧⟦{解放|かいほう}される→解放する：22170_kaihousuru⟧: to be freed from tyranny\n- {圧政|あっせい}⟦を→を：00422_wo⟧⟦{敷|し}く→敷く：00366_shiku⟧: to impose oppressive rule",
   "cross_references": [
     {
       "type": "related",
@@ -59,11 +59,39 @@
       "headword": "{圧力|あつりょく}",
       "label": "pressure",
       "target_id": "12014_atsuryoku"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18827_kyouken",
+      "reading": "きょうけん",
+      "headword": "{強権|きょうけん}",
+      "label": "authoritative power"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24165_bousei",
+      "reading": "ぼうせい",
+      "headword": "{暴政|ぼうせい}",
+      "label": "tyranny"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24187_kasei",
+      "reading": "かせい",
+      "headword": "{苛政|かせい}",
+      "label": "harsh government"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26580_gyakusei",
+      "reading": "ぎゃくせい",
+      "headword": "{虐政|ぎゃくせい}",
+      "label": "tyranny"
     }
   ],
   "metadata": {
     "created": "2026-02-20T08:56:31Z",
-    "modified": "2026-08-16T12:31:26Z",
+    "modified": "2026-09-02T04:01:27Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

@@ -29,7 +29,7 @@
     },
     {
       "id": "05373_shikushiku_ex2",
-      "japanese": "しくしくと⟦{涙|なみだ}→涙：02235_namida⟧⟦を→を：00422_wo⟧⟦{流|なが}す→流す：01968_nagasu⟧。",
+      "japanese": "しくしく⟦と→と：00512_to⟧⟦{涙|なみだ}→涙：02235_namida⟧⟦を→を：00422_wo⟧⟦{流|なが}す→流す：01968_nagasu⟧。",
       "english": "To shed tears while whimpering.",
       "notes": null,
       "has_audio": false,
@@ -59,7 +59,7 @@
     },
     {
       "id": "05373_shikushiku_ex5",
-      "japanese": "しくしくと⟦{胃|い}→胃：01706_i⟧⟦が→が：00051_ga⟧⟦{痛|いた}む→痛む：03008_itamu⟧。",
+      "japanese": "しくしく⟦と→と：00512_to⟧⟦{胃|い}→胃：01706_i⟧⟦が→が：00051_ga⟧⟦{痛|いた}む→痛む：03008_itamu⟧。",
       "english": "I have a dull ache in my stomach.",
       "notes": null,
       "has_audio": false,
@@ -78,7 +78,7 @@
       ]
     }
   ],
-  "notes": "しくしく is a ⟦{擬態語|ぎたいご}→擬態語：22468_gitaigo⟧/⟦{擬音語|ぎおんご}→擬音語：22536_giongo⟧ (mimetic/onomatopoeic word) with two distinct meanings.\n\nSENSE 1 — SOBBING:\nDescribes quiet, suppressed crying — not loud wailing but soft whimpering.\n- しくしく⟦{泣|な}く→泣く：00655_naku⟧: to sob, to whimper\n- しくしくと⟦{涙|なみだ}→涙：02235_namida⟧⟦を→を：00422_wo⟧⟦{流|なが}す→流す：01968_nagasu⟧: to shed tears while sobbing\n\nSENSE 2 — DULL ACHE:\nDescribes a mild, persistent, nagging pain, especially in the stomach.\n- ⟦{胃|い}→胃：01706_i⟧⟦が→が：00051_ga⟧しくしく⟦{痛|いた}む→痛む：03008_itamu⟧: to have a dull stomachache\n- ⟦お{腹|なか}→お腹：00805_onaka⟧⟦が→が：00051_ga⟧しくしく⟦{痛|いた}い→痛い：01108_itai⟧: to have a nagging stomachache\n\nSIMILAR CRYING WORDS (intensity scale):\n- しくしく: quiet sobbing (soft, suppressed)\n- ⟦めそめそ→めそめそ：05772_mesomeso⟧: weeping weakly (slightly pathetic nuance)\n- えんえん: crying continuously\n- ⟦わんわん→わんわん：05428_wanwan⟧: bawling loudly\n- ⟦{号泣|ごうきゅう}する→号泣する：15038_goukyuu⟧: to wail, to cry one's eyes out",
+  "notes": "しくしく is a ⟦{擬態語|ぎたいご}→擬態語：22468_gitaigo⟧/⟦{擬音語|ぎおんご}→擬音語：22536_giongo⟧ (mimetic/onomatopoeic word) with two distinct meanings.\n\nSENSE 1 — SOBBING:\nDescribes quiet, suppressed crying — not loud wailing but soft whimpering.\n- しくしく⟦{泣|な}く→泣く：00655_naku⟧: to sob, to whimper\n- しくしく⟦と→と：00512_to⟧⟦{涙|なみだ}→涙：02235_namida⟧⟦を→を：00422_wo⟧⟦{流|なが}す→流す：01968_nagasu⟧: to shed tears while sobbing\n\nSENSE 2 — DULL ACHE:\nDescribes a mild, persistent, nagging pain, especially in the stomach.\n- ⟦{胃|い}→胃：01706_i⟧⟦が→が：00051_ga⟧しくしく⟦{痛|いた}む→痛む：03008_itamu⟧: to have a dull stomachache\n- ⟦お{腹|なか}→お腹：00805_onaka⟧⟦が→が：00051_ga⟧しくしく⟦{痛|いた}い→痛い：01108_itai⟧: to have a nagging stomachache\n\nSIMILAR CRYING WORDS (intensity scale):\n- しくしく: quiet sobbing (soft, suppressed)\n- ⟦めそめそ→めそめそ：05772_mesomeso⟧: weeping weakly (slightly pathetic nuance)\n- えんえん: crying continuously\n- ⟦わんわん→わんわん：05428_wanwan⟧: bawling loudly\n- ⟦{号泣|ごうきゅう}する→号泣する：15038_goukyuu⟧: to wail, to cry one's eyes out",
   "cross_references": [
     {
       "type": "related",
@@ -100,11 +100,25 @@
       "reading": "ごうきゅう",
       "headword": "{号泣|ごうきゅう}",
       "label": "wailing, crying out"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05896_enen",
+      "reading": "えんえん",
+      "headword": "{延々|えんえん}",
+      "label": "crying continuously"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07125_kirikiri",
+      "reading": "きりきり",
+      "headword": "きりきり",
+      "label": "sharp pain"
     }
   ],
   "metadata": {
     "created": "2026-01-16T05:48:20Z",
-    "modified": "2026-06-08T02:21:06Z",
+    "modified": "2026-09-02T04:01:06Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

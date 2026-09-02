@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "23947_haizai_ex1",
-      "japanese": "{廃材|はいざい}で{棚|たな}を{作|つく}った。",
+      "japanese": "{廃材|はいざい}⟦で→で：00502_de⟧⟦{棚|たな}→棚：01650_tana⟧⟦を→を：00422_wo⟧⟦{作|つく}った→作る：00481_tsukuru⟧。",
       "english": "I made a shelf out of scrap wood.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "23947_haizai_ex2",
-      "japanese": "{解体|かいたい}{現場|げんば}の{廃材|はいざい}をリサイクルする。",
+      "japanese": "⟦{解体|かいたい}→解体：06223_kaitai⟧⟦{現場|げんば}→現場：02723_genba⟧⟦の→の：09472_no⟧{廃材|はいざい}⟦を→を：00422_wo⟧⟦リサイクル→リサイクル：04624_risaikuru⟧⟦する→する：00392_suru⟧。",
       "english": "We recycle waste material from demolition sites.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "23947_haizai_ex3",
-      "japanese": "{家具工房|かぐこうぼう}では{廃材|はいざい}を{利用|りよう}して、{環境|かんきょう}に{優|やさ}しい{椅子|いす}やテーブルを{製作|せいさく}している。",
+      "japanese": "{家具工房|かぐこうぼう}⟦で→で：00502_de⟧⟦は→は：00079_ha⟧{廃材|はいざい}⟦を→を：00422_wo⟧⟦{利用|りよう}して→利用する：21735_riyousuru⟧、⟦{環境|かんきょう}→環境：00174_kankyou⟧⟦に→に：00314_ni⟧{優|やさ}しい⟦{椅子|いす}→椅子：00706_isu⟧や⟦テーブル→テーブル：04488_teeburu⟧⟦を→を：00422_wo⟧⟦{製作|せいさく}→製作：04322_seisaku⟧⟦している→する：00392_suru⟧。",
       "english": "The furniture workshop uses scrap material to produce environmentally friendly chairs and tables.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {廃|はい} ('discarded; obsolete') and {材|ざい} ('material; lumber'). Most typical referent is leftover or demolished wood, but the word also extends to discarded metal, concrete, pallets, and other construction byproducts.\n\nUSAGE:\n- Appears frequently in contexts of construction, demolition, carpentry, and environmental discussion (recycling, zero-waste, upcycling).\n- Does not carry a strong negative image — projects that reuse {廃材|はいざい} are often praised as eco-friendly or creative.\n- Usually treated as an uncountable mass noun, similar to 'scrap wood' in English.\n\nCOMMON COLLOCATIONS:\n- {廃材|はいざい}{利用|りよう}: reuse of scrap material\n- {廃材|はいざい}{処理|しょり}: waste material disposal; scrap processing\n- {廃材|はいざい}を{活用|かつよう}する: to make use of scrap material\n- {建築|けんちく}{廃材|はいざい}: construction waste\n- {木|もく}{廃材|はいざい}: scrap wood\n\nSIMILAR WORDS:\n- {廃棄物|はいきぶつ}: waste; refuse — broader term covering all kinds of waste, including household trash.\n- {端材|はざい}: offcut; end scrap — small leftover pieces from cutting lumber, typically fresh from a workshop rather than from demolition.\n- {古材|こざい}: old lumber; reclaimed wood — salvaged wood valued for its aged character, often used in design.\n- スクラップ: scrap (loanword) — most often used for metal scrap.",
+  "notes": "Compound of {廃|はい} ('discarded; obsolete') and ⟦{材|ざい}→〜材：28347_zai⟧ ('material; lumber'). Most typical referent is leftover or demolished wood, but the word also extends to discarded metal, concrete, pallets, and other construction byproducts.\n\nUSAGE:\n- Appears frequently in contexts of construction, demolition, carpentry, and environmental discussion (recycling, zero-waste, upcycling).\n- Does not carry a strong negative image — projects that reuse {廃材|はいざい} are often praised as eco-friendly or creative.\n- Usually treated as an uncountable mass noun, similar to 'scrap wood' in English.\n\nCOMMON COLLOCATIONS:\n- {廃材|はいざい}⟦{利用|りよう}→利用：01752_riyou⟧: reuse of scrap material\n- {廃材|はいざい}⟦{処理|しょり}→処理：03251_shori⟧: waste material disposal; scrap processing\n- {廃材|はいざい}⟦を→を：00422_wo⟧⟦{活用|かつよう}する→活用する：21424_katsuyousuru⟧: to make use of scrap material\n- ⟦{建築|けんちく}→建築：02709_kenchiku⟧{廃材|はいざい}: construction waste\n- {木|もく}{廃材|はいざい}: scrap wood\n\nSIMILAR WORDS:\n- ⟦{廃棄物|はいきぶつ}→廃棄物：04634_haikibutsu⟧: waste; refuse — broader term covering all kinds of waste, including household trash.\n- {端材|はざい}: offcut; end scrap — small leftover pieces from cutting lumber, typically fresh from a workshop rather than from demolition.\n- {古材|こざい}: old lumber; reclaimed wood — salvaged wood valued for its aged character, often used in design.\n- ⟦スクラップ→スクラップ：12832_sukurappu⟧: scrap (loanword) — most often used for metal scrap.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04634_haikibutsu",
+      "reading": "はいきぶつ",
+      "headword": "{廃棄物|はいきぶつ}",
+      "label": "waste"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12832_sukurappu",
+      "reading": "すくらっぷ",
+      "headword": "スクラップ",
+      "label": "scrap"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +75,6 @@
       ]
     },
     "created": "2026-04-15T15:57:49Z",
-    "modified": "2026-08-02T18:32:34Z"
+    "modified": "2026-09-02T04:02:15Z"
   }
 }

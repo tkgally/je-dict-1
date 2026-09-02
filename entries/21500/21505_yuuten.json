@@ -15,40 +15,80 @@
   "examples": [
     {
       "id": "21505_yuuten_ex1",
-      "japanese": "{氷|こおり}の{融点|ゆうてん}は{零度|れいど}だ。",
+      "japanese": "⟦{氷|こおり}→氷：02753_koori⟧⟦の→の：09472_no⟧{融点|ゆうてん}⟦は→は：00079_ha⟧⟦{零度|れいど}→零度：27531_reido⟧だ。",
       "english": "The melting point of ice is zero degrees.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21505_yuuten_ex2",
-      "japanese": "{金属|きんぞく}によって{融点|ゆうてん}は{大|おお}きく{異|こと}なる。",
+      "japanese": "⟦{金属|きんぞく}→金属：02645_kinzoku⟧⟦によって→によって：06801_niyotte⟧{融点|ゆうてん}⟦は→は：00079_ha⟧⟦{大|おお}きく→大きい：00335_ookii⟧⟦{異|こと}なる→異なる：02101_kotonaru⟧。",
       "english": "Melting points vary greatly depending on the metal.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21505_yuuten_ex3",
-      "japanese": "この{物質|ぶっしつ}は{融点|ゆうてん}が{非常|ひじょう}に{高|たか}いため、{特殊|とくしゅ}な{炉|ろ}が{必要|ひつよう}だ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{物質|ぶっしつ}→物質：03608_busshitsu⟧⟦は→は：00079_ha⟧{融点|ゆうてん}⟦が→が：00051_ga⟧⟦{非常|ひじょう}→非常：01598_hijou⟧⟦に→に：00314_ni⟧⟦{高|たか}い→高い：00500_takai⟧⟦ため→ため：01145_tame⟧、⟦{特殊|とくしゅ}→特殊：04566_tokushu⟧な⟦{炉|ろ}→炉：13588_ro⟧⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧だ。",
       "english": "Because this substance has a very high melting point, a special furnace is required.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A scientific term used in chemistry and physics for the temperature at which a solid becomes liquid. Composed of {融|ゆう} (melting) + {点|てん} (point).\n\nCOMMON COLLOCATIONS:\n- {融点|ゆうてん}が{高|たか}い: to have a high melting point\n- {融点|ゆうてん}が{低|ひく}い: to have a low melting point\n- {融点|ゆうてん}に{達|たっ}する: to reach the melting point\n- {融点|ゆうてん}を{測定|そくてい}する: to measure the melting point\n\nRELATED TERMS:\n- {沸点|ふってん}: boiling point\n- {凝固点|ぎょうこてん}: freezing point\n- {融解|ゆうかい}: melting, fusion",
+  "notes": "A scientific term used in chemistry and physics for the temperature at which a solid becomes liquid. Composed of {融|ゆう} (melting) + ⟦{点|てん}→点：01553_ten⟧ (point).\n\nCOMMON COLLOCATIONS:\n- {融点|ゆうてん}⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧: to have a high melting point\n- {融点|ゆうてん}⟦が→が：00051_ga⟧⟦{低|ひく}い→低い：02947_hikui⟧: to have a low melting point\n- {融点|ゆうてん}⟦に→に：00314_ni⟧⟦{達|たっ}する→達する：02129_tassuru⟧: to reach the melting point\n- {融点|ゆうてん}⟦を→を：00422_wo⟧⟦{測定|そくてい}→測定：04398_sokutei⟧⟦する→する：00392_suru⟧: to measure the melting point\n\nRELATED WORDS:\n- ⟦{沸点|ふってん}→沸点：25307_futten⟧: boiling point\n- ⟦{凝固点|ぎょうこてん}→凝固点：26289_gyoukoten⟧: freezing point\n- ⟦{融解|ゆうかい}→融解：08404_yuukai⟧: melting, fusion",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "25307_futten",
+      "reading": "ふってん",
+      "headword": "{沸点|ふってん}",
+      "label": "boiling point"
+    },
+    {
+      "type": "related",
+      "target_id": "26289_gyoukoten",
+      "reading": "ぎょうこてん",
+      "headword": "{凝固点|ぎょうこてん}",
+      "label": "freezing point"
+    },
+    {
+      "type": "related",
+      "target_id": "08404_yuukai",
+      "reading": "ゆうかい",
+      "headword": "{融解|ゆうかい}",
+      "label": "melting, fusion"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26303_yuukaiten",
+      "reading": "ゆうかいてん",
+      "headword": "{融解点|ゆうかいてん}",
+      "label": "melting point"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["science"]
+      "semantic": [
+        "science"
+      ]
     },
     "created": "2026-04-02T14:08:09Z",
-    "modified": "2026-04-02T14:08:09Z"
+    "modified": "2026-09-02T04:02:03Z"
   }
 }

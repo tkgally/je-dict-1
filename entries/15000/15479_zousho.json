@@ -15,40 +15,58 @@
   "examples": [
     {
       "id": "15479_zousho_ex1",
-      "japanese": "{蔵書|ぞうしょ}が{千冊|せんさつ}を{超|こ}えた。",
+      "japanese": "{蔵書|ぞうしょ}⟦が→が：00051_ga⟧{千冊|せんさつ}⟦を→を：00422_wo⟧⟦{超|こ}えた→超える：01942_koeru⟧。",
       "english": "My book collection exceeded a thousand volumes.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15479_zousho_ex2",
-      "japanese": "この{図書館|としょかん}の{蔵書|ぞうしょ}は{充実|じゅうじつ}している。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{図書館|としょかん}→図書館：00580_toshokan⟧⟦の→の：09472_no⟧{蔵書|ぞうしょ}⟦は→は：00079_ha⟧⟦{充実|じゅうじつ}→充実：04845_juujitsu⟧⟦している→する：00392_suru⟧。",
       "english": "This library's collection is extensive.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15479_zousho_ex3",
-      "japanese": "{祖父|そふ}の{蔵書|ぞうしょ}の{中|なか}から{貴重|きちょう}な{初版本|しょはんぼん}が{見|み}つかった。",
+      "japanese": "⟦{祖父|そふ}→祖父：01452_sofu⟧⟦の→の：09472_no⟧{蔵書|ぞうしょ}⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧⟦から→から：00504_kara⟧⟦{貴重|きちょう}→貴重：00223_kichou⟧な{初版本|しょはんぼん}⟦が→が：00051_ga⟧⟦{見|み}つかった→見つかる：01173_mitsukaru⟧。",
       "english": "A valuable first edition was found among my grandfather's book collection.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "FORMATION:\n{蔵|ぞう} (to store, storehouse) + {書|しょ} (book, writing).\n\nUSAGE:\nUsed for personal or institutional book collections. A slightly formal word, common in library contexts and when discussing large collections.\n\nCOMMON COLLOCATIONS:\n- {蔵書|ぞうしょ}{数|すう} (number of books in a collection)\n- {蔵書|ぞうしょ}{検索|けんさく} (book catalog search)\n- {蔵書|ぞうしょ}を{整理|せいり}する (to organize one's book collection)\n- {蔵書|ぞうしょ}{印|いん} (bookplate, ex libris)",
-  "cross_references": [],
+  "notes": "FORMS:\n{蔵|ぞう} (to store, storehouse) + ⟦{書|しょ}→〜書：28467_sho⟧ (book, writing).\n\nUSAGE:\nUsed for personal or institutional book collections. A slightly formal word, common in library contexts and when discussing large collections.\n\nCOMMON COLLOCATIONS:\n- {蔵書|ぞうしょ}⟦{数|すう}→数：03360_suu⟧ (number of books in a collection)\n- {蔵書|ぞうしょ}⟦{検索|けんさく}→検索：04729_kensaku⟧ (book catalog search)\n- {蔵書|ぞうしょ}⟦を→を：00422_wo⟧⟦{整理|せいり}する→整理する：21729_seirisuru⟧ (to organize one's book collection)\n- {蔵書|ぞうしょ}{印|いん} (bookplate, ex libris)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "18437_bunko",
+      "reading": "ぶんこ",
+      "headword": "{文庫|ぶんこ}",
+      "label": "paperback pocket edition"
+    }
+  ],
   "metadata": {
     "created": "2026-03-07T08:56:52Z",
-    "modified": "2026-03-07T08:56:52Z",
+    "modified": "2026-09-02T04:01:41Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["education"]
+      "semantic": [
+        "education"
+      ]
     }
   }
 }

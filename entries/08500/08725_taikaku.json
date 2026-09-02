@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08725_taikaku_ex1",
-      "japanese": "{正方形|せいほうけい}の{対角|たいかく}{線|せん}を{引|ひ}く。",
+      "japanese": "⟦{正方形|せいほうけい}→正方形：05438_seihoukei⟧⟦の→の：09472_no⟧{対角|たいかく}{線|せん}⟦を→を：00422_wo⟧⟦{引|ひ}く→引く：01978_hiku⟧。",
       "english": "Draw a diagonal line on a square.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "08725_taikaku_ex2",
-      "japanese": "{対角|たいかく}にあるコーナーに{移動|いどう}する。",
+      "japanese": "{対角|たいかく}⟦に→に：00314_ni⟧⟦ある→ある：00006_aru⟧⟦コーナー→コーナー：10865_koonaa⟧⟦に→に：00314_ni⟧⟦{移動|いどう}する→移動する：22430_idousuru⟧。",
       "english": "Move to the diagonally opposite corner.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "08725_taikaku_ex3",
-      "japanese": "{平行四辺形|へいこうしへんけい}の{対角|たいかく}は{等|ひと}しい。",
+      "japanese": "⟦{平行四辺形|へいこうしへんけい}→平行四辺形：23382_heikoushihenkei⟧⟦の→の：09472_no⟧{対角|たいかく}⟦は→は：00079_ha⟧⟦{等|ひと}しい→等しい：03710_hitoshii⟧。",
       "english": "The opposite angles of a parallelogram are equal.",
       "sense_numbers": [
         1
@@ -43,7 +43,23 @@
       "notes": null
     }
   ],
-  "notes": "A geometry term referring to opposite corners/angles of a shape, or the diagonal line connecting them.\n\nWORD FORMATION:\n{対|たい} (opposite/facing) + {角|かく} (angle/corner)\n\nKEY COMPOUNDS:\n- {対角線|たいかくせん}: diagonal line (connecting opposite corners)\n- {対角|たいかく}にある: located diagonally opposite\n\nRELATED GEOMETRY TERMS:\n- {対辺|たいへん}: opposite side\n- {隣|となり}{角|かく}: adjacent angle\n- {正方形|せいほうけい}: square\n- {長方形|ちょうほうけい}: rectangle\n\nUSAGE:\nPrimarily used in mathematics education and technical contexts. Also used outside geometry to describe something located diagonally across — for example, {交差点|こうさてん}の{対角|たいかく} (diagonally across the intersection).",
+  "notes": "A geometry term referring to opposite corners/angles of a shape, or the diagonal line connecting them.\n\nFORMS:\n⟦{対|たい}→対：03382_tai⟧ (opposite/facing) + {角|かく} (angle/corner)\n\nCOMPOUNDS:\n- ⟦{対角線|たいかくせん}→対角線：08121_taikakusen⟧: diagonal line (connecting opposite corners)\n- {対角|たいかく}⟦に→に：00314_ni⟧⟦ある→ある：00006_aru⟧: located diagonally opposite\n\nRELATED GEOMETRY TERMS:\n- {対辺|たいへん}: opposite side\n- ⟦{隣|となり}→隣：01003_tonari⟧{角|かく}: adjacent angle\n- ⟦{正方形|せいほうけい}→正方形：05438_seihoukei⟧: square\n- ⟦{長方形|ちょうほうけい}→長方形：05439_chouhoukei⟧: rectangle\n\nUSAGE:\nPrimarily used in mathematics education and technical contexts. Also used outside geometry to describe something located diagonally across — for example, ⟦{交差点|こうさてん}→交差点：01404_kousaten⟧⟦の→の：09472_no⟧{対角|たいかく} (diagonally across the intersection).",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "05438_seihoukei",
+      "reading": "せいほうけい",
+      "headword": "{正方形|せいほうけい}",
+      "label": "square"
+    },
+    {
+      "type": "related",
+      "target_id": "05439_chouhoukei",
+      "reading": "ちょうほうけい",
+      "headword": "{長方形|ちょうほうけい}",
+      "label": "rectangle"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -51,12 +67,13 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "number",
         "science"
       ]
     },
     "created": "2026-01-28T03:31:43Z",
-    "modified": "2026-08-12T12:52:42Z"
+    "modified": "2026-09-02T04:01:16Z"
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "12009_donguri_ex1",
-      "japanese": "{団栗|どんぐり}を{拾|ひろ}う。",
+      "japanese": "{団栗|どんぐり}⟦を→を：00422_wo⟧⟦{拾|ひろ}う→拾う：00845_hirou⟧。",
       "english": "To pick up acorns.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "12009_donguri_ex2",
-      "japanese": "{子|こ}どもが{公園|こうえん}で{団栗|どんぐり}を{集|あつ}めている。",
+      "japanese": "{子|こ}ども⟦が→が：00051_ga⟧⟦{公園|こうえん}→公園：00581_kouen⟧⟦で→で：00502_de⟧{団栗|どんぐり}⟦を→を：00422_wo⟧⟦{集|あつ}めている→集める：01170_atsumeru⟧。",
       "english": "The children are collecting acorns in the park.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "12009_donguri_ex3",
-      "japanese": "{秋|あき}になると{山道|やまみち}にたくさんの{団栗|どんぐり}が{落|お}ちている。",
+      "japanese": "⟦{秋|あき}→秋：02276_aki⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦と→と：00512_to⟧⟦{山道|やまみち}→山道：12406_yamamichi⟧⟦に→に：00314_ni⟧⟦たくさん→たくさん：00597_takusan⟧⟦の→の：09472_no⟧{団栗|どんぐり}⟦が→が：00051_ga⟧⟦{落|お}ちている→落ちる：01242_ochiru⟧。",
       "english": "In autumn, many acorns lie scattered on the mountain paths.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,19 @@
       ]
     }
   ],
-  "notes": "IDIOM:\n{団栗|どんぐり}の{背比|せくら}べ literally means \"height comparison among acorns\" — used to describe people or things that are all much the same with no clear winner. Similar to English \"much of a muchness.\"\n\nUSAGE:\nUsually written in hiragana as どんぐり. The kanji {団栗|どんぐり} is rarely used in everyday writing.\n\nCOMMON COLLOCATIONS:\n- {団栗|どんぐり}を{拾|ひろ}う: to pick up acorns\n- {団栗|どんぐり}の{背比|せくら}べ: all much the same, no standout\n- {団栗|どんぐり}{拾|ひろ}い: acorn gathering",
-  "cross_references": [],
+  "notes": "COMMON EXPRESSIONS:\n{団栗|どんぐり}⟦の→の：09472_no⟧{背比|せくら}べ literally means \"height comparison among acorns\" — used to describe people or things that are all much the same with no clear winner. Similar to English \"much of a muchness.\"\n\nUSAGE:\nUsually written in hiragana as どんぐり. The kanji {団栗|どんぐり} is rarely used in everyday writing.\n\nCOMMON COLLOCATIONS:\n- {団栗|どんぐり}⟦を→を：00422_wo⟧⟦{拾|ひろ}う→拾う：00845_hirou⟧: to pick up acorns\n- {団栗|どんぐり}⟦の→の：09472_no⟧{背比|せくら}べ: all much the same, no standout\n- {団栗|どんぐり}{拾|ひろ}い: acorn gathering",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "28720_matsubokkuri",
+      "reading": "まつぼっくり",
+      "headword": "{松|まつ}ぼっくり",
+      "label": "pine cone"
+    }
+  ],
   "metadata": {
     "created": "2026-02-19T11:47:05Z",
-    "modified": "2026-02-19T11:47:05Z",
+    "modified": "2026-09-02T04:01:27Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

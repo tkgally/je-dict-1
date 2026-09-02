@@ -15,41 +15,69 @@
   "examples": [
     {
       "id": "28646_defureeshon_ex1",
-      "japanese": "{長期|ちょうき}のデフレーションが{続|つづ}いた。",
+      "japanese": "⟦{長期|ちょうき}→長期：03487_chouki⟧⟦の→の：09472_no⟧デフレーション⟦が→が：00051_ga⟧⟦{続|つづ}いた→続く：00903_tsuzuku⟧。",
       "english": "A long period of deflation continued.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28646_defureeshon_ex2",
-      "japanese": "デフレーションは{経済|けいざい}{成長|せいちょう}を{妨|さまた}げる。",
+      "japanese": "デフレーション⟦は→は：00079_ha⟧⟦{経済|けいざい}{成長|せいちょう}→経済成長：20453_keizaiseichou⟧⟦を→を：00422_wo⟧⟦{妨|さまた}げる→妨げる：12223_samatageru⟧。",
       "english": "Deflation hinders economic growth.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28646_defureeshon_ex3",
-      "japanese": "{日本|にほん}は{長|なが}い{間|あいだ}デフレーションからの{脱却|だっきゃく}を{目指|めざ}してきた。",
+      "japanese": "⟦{日本|にほん}→日本：03876_nihon⟧⟦は→は：00079_ha⟧⟦{長|なが}い→長い：00491_nagai⟧⟦{間|あいだ}→間：00914_aida⟧デフレーション⟦から→から：00504_kara⟧⟦の→の：09472_no⟧⟦{脱却|だっきゃく}→脱却：13944_dakkyaku⟧⟦を→を：00422_wo⟧⟦{目指|めざ}して→目指す：10528_mezasu⟧きた。",
       "english": "Japan has long aimed to escape from deflation.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Loanword from English \"deflation.\" The clipped form デフレ is dominant in everyday use; the full form signals formal economic register.\n\nCOMMON COLLOCATIONS:\n- デフレーションからの{脱却|だっきゃく}: escaping deflation\n- デフレーション{圧力|あつりょく}: deflationary pressure\n- デフレーション{経済|けいざい}: deflationary economy\n\nSIMILAR WORDS:\n- デフレ: deflation — clipped colloquial form, much more common\n- インフレーション: inflation — opposite phenomenon\n- ディスインフレ: disinflation — a slowing of inflation, not actual price decline",
+  "notes": "Loanword from English \"deflation.\" The clipped form ⟦デフレ→デフレ：04850_defure⟧ is dominant in everyday use; the full form signals formal economic register.\n\nCOMMON COLLOCATIONS:\n- デフレーション⟦から→から：00504_kara⟧⟦の→の：09472_no⟧⟦{脱却|だっきゃく}→脱却：13944_dakkyaku⟧: escaping deflation\n- デフレーション⟦{圧力|あつりょく}→圧力：12014_atsuryoku⟧: deflationary pressure\n- デフレーション⟦{経済|けいざい}→経済：01394_keizai⟧: deflationary economy\n\nSIMILAR WORDS:\n- ⟦デフレ→デフレ：04850_defure⟧: deflation — clipped colloquial form, much more common\n- ⟦インフレーション→インフレーション：25047_infureeshon⟧: inflation — opposite phenomenon\n- ディスインフレ: disinflation — a slowing of inflation, not actual price decline",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "04850_defure",
+      "reading": "でふれ",
+      "headword": "デフレ",
+      "label": "deflation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25047_infureeshon",
+      "reading": "いんふれーしょん",
+      "headword": "インフレーション",
+      "label": "inflation"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["business"],
-      "domain": ["business"]
+      "politeness": "plain",
+      "semantic": [
+        "business"
+      ],
+      "domain": [
+        "business"
+      ]
     },
     "created": "2026-06-03T03:15:09Z",
-    "modified": "2026-06-03T03:15:09Z"
+    "modified": "2026-09-02T04:02:34Z"
   }
 }

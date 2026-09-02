@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "15727_fukakujitsu_ex1",
-      "japanese": "{情報|じょうほう}は{不確実|ふかくじつ}だ。",
+      "japanese": "⟦{情報|じょうほう}→情報：03348_jouhou⟧⟦は→は：00079_ha⟧{不確実|ふかくじつ}だ。",
       "english": "The information is unreliable.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15727_fukakujitsu_ex2",
-      "japanese": "{不確実|ふかくじつ}な{時代|じだい}に{備|そな}えて{貯金|ちょきん}をしている。",
+      "japanese": "{不確実|ふかくじつ}な⟦{時代|じだい}→時代：01424_jidai⟧⟦に→に：00314_ni⟧⟦{備|そな}えて→備える：02125_sonaeru⟧⟦{貯金|ちょきん}→貯金：03497_chokin⟧⟦を→を：00422_wo⟧⟦している→する：00392_suru⟧。",
       "english": "I'm saving money in preparation for uncertain times.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15727_fukakujitsu_ex3",
-      "japanese": "{不確実|ふかくじつ}な{情報|じょうほう}に{基|もと}づいて{判断|はんだん}するのは{危険|きけん}だ。",
+      "japanese": "{不確実|ふかくじつ}な⟦{情報|じょうほう}→情報：03348_jouhou⟧⟦に→に：00314_ni⟧⟦{基|もと}づいて→基づく：02315_motozuku⟧⟦{判断|はんだん}する→判断する：06062_handansuru⟧⟦の→の：09472_no⟧⟦は→は：00079_ha⟧⟦{危険|きけん}→危険：01141_kiken⟧だ。",
       "english": "It is dangerous to make judgments based on unreliable information.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nUsed as a na-adjective ({不確実|ふかくじつ}な) and as a noun ({不確実|ふかくじつ}{性|せい} — uncertainty). Common in business, economics, and academic writing.\n\nCOMMON COLLOCATIONS:\n- {不確実|ふかくじつ}{性|せい} (uncertainty)\n- {不確実|ふかくじつ}な{情報|じょうほう} (unreliable information)\n- {不確実|ふかくじつ}な{時代|じだい} (uncertain times)\n- {不確実|ふかくじつ}{要素|ようそ} (element of uncertainty)\n\nSIMILAR WORDS:\n{不|ふ}{確|たし}か is a more everyday word for \"uncertain\" or \"vague,\" while {不確実|ふかくじつ} is more formal and analytical.",
+  "notes": "USAGE:\nUsed as a na-adjective ({不確実|ふかくじつ}な) and as a noun ({不確実|ふかくじつ}{性|せい} — uncertainty). Common in business, economics, and academic writing.\n\nCOMMON COLLOCATIONS:\n- {不確実|ふかくじつ}{性|せい} (uncertainty)\n- {不確実|ふかくじつ}な⟦{情報|じょうほう}→情報：03348_jouhou⟧ (unreliable information)\n- {不確実|ふかくじつ}な⟦{時代|じだい}→時代：01424_jidai⟧ (uncertain times)\n- {不確実|ふかくじつ}⟦{要素|ようそ}→要素：03661_youso⟧ (element of uncertainty)\n\nSIMILAR WORDS:\n⟦{不|ふ}{確|たし}か→不確か：11362_futashika⟧ is a more everyday word for \"uncertain\" or \"vague,\" while {不確実|ふかくじつ} is more formal and analytical.",
   "cross_references": [
     {
       "type": "antonym",
@@ -46,18 +52,29 @@
       "reading": "かくじつ",
       "headword": "{確実|かくじつ}",
       "label": "certain, reliable"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28052_mizumono",
+      "reading": "みずもの",
+      "headword": "{水物|みずもの}",
+      "label": "matter of chance"
     }
   ],
   "metadata": {
     "created": "2026-03-08T08:51:41Z",
-    "modified": "2026-07-16T12:18:52Z",
+    "modified": "2026-09-02T04:01:42Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-na"],
+      "pos": [
+        "adjective-na"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["abstract"]
+      "semantic": [
+        "abstract"
+      ]
     }
   }
 }

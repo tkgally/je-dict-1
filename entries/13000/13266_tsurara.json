@@ -15,41 +15,66 @@
   "examples": [
     {
       "id": "13266_tsurara_ex1",
-      "japanese": "{軒先|のきさき}に{氷柱|つらら}が{下|さ}がっている。",
+      "japanese": "⟦{軒先|のきさき}→軒先：08402_nokisaki⟧⟦に→に：00314_ni⟧{氷柱|つらら}⟦が→が：00051_ga⟧⟦{下|さ}がっている→下がる：01188_sagaru⟧。",
       "english": "Icicles are hanging from the eaves.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13266_tsurara_ex2",
-      "japanese": "{子供|こども}たちが{氷柱|つらら}を{折|お}って{遊|あそ}んでいた。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧たち⟦が→が：00051_ga⟧{氷柱|つらら}⟦を→を：00422_wo⟧⟦{折|お}って→折る：01263_oru⟧⟦{遊|あそ}んでいた→遊ぶ：00550_asobu⟧。",
       "english": "The children were playing by breaking off icicles.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13266_tsurara_ex3",
-      "japanese": "{厳|きび}しい{寒|さむ}さが{続|つづ}き、{滝|たき}が{凍|こお}って{巨大|きょだい}な{氷柱|つらら}になっていた。",
+      "japanese": "⟦{厳|きび}しい→厳しい：01125_kibishii⟧⟦{寒|さむ}さ→寒さ：12336_samusa⟧⟦が→が：00051_ga⟧⟦{続|つづ}き→続く：00903_tsuzuku⟧、⟦{滝|たき}→滝：02219_taki⟧⟦が→が：00051_ga⟧⟦{凍|こお}って→凍る：02100_kooru⟧⟦{巨大|きょだい}→巨大：02586_kyodai⟧な{氷柱|つらら}になっていた。",
       "english": "The severe cold continued, and the waterfall had frozen into an enormous icicle.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "READING NOTE:\nThe kanji {氷柱|つらら} literally means \"ice pillar,\" but the native Japanese reading つらら is an irregular (ateji-style) reading. The word can also be read ひょうちゅう in scientific or formal contexts, where it means \"ice pillar\" or \"ice column\" more broadly.\n\nUSAGE:\nA seasonal word ({季語|きご}) associated with winter in haiku. {氷柱|つらら} evokes the beauty and severity of winter in Japanese literature and culture.\n\nCOMMON COLLOCATIONS:\n- {氷柱|つらら}が{下|さ}がる: icicles hang down\n- {氷柱|つらら}が{溶|と}ける: icicles melt\n- {氷柱|つらら}が{落|お}ちる: icicles fall",
-  "cross_references": [],
+  "notes": "PRONUNCIATION:\nThe kanji {氷柱|つらら} literally means \"ice pillar,\" but the native Japanese reading つらら is an irregular (ateji-style) reading. The word can also be read ひょうちゅう in scientific or formal contexts, where it means \"ice pillar\" or \"ice column\" more broadly.\n\nUSAGE:\nA seasonal word (⟦{季語|きご}→季語：09561_kigo⟧) associated with winter in haiku. {氷柱|つらら} evokes the beauty and severity of winter in Japanese literature and culture.\n\nCOMMON COLLOCATIONS:\n- {氷柱|つらら}⟦が→が：00051_ga⟧⟦{下|さ}がる→下がる：01188_sagaru⟧: icicles hang down\n- {氷柱|つらら}⟦が→が：00051_ga⟧⟦{溶|と}ける→溶ける：02302_tokeru⟧: icicles melt\n- {氷柱|つらら}⟦が→が：00051_ga⟧⟦{落|お}ちる→落ちる：01242_ochiru⟧: icicles fall",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "08560_shimobashira",
+      "reading": "しもばしら",
+      "headword": "{霜柱|しもばしら}",
+      "label": "frost pillars"
+    },
+    {
+      "type": "related",
+      "target_id": "21273_juhyou",
+      "reading": "じゅひょう",
+      "headword": "{樹氷|じゅひょう}",
+      "label": "rime ice"
+    }
+  ],
   "metadata": {
     "created": "2026-02-24T07:29:50Z",
-    "modified": "2026-02-24T07:29:50Z",
+    "modified": "2026-09-02T04:01:32Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["weather"]
+      "semantic": [
+        "weather"
+      ]
     }
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22546_fushu_ex1",
-      "japanese": "{足|あし}に{浮腫|ふしゅ}が{出|で}ている。",
+      "japanese": "⟦{足|あし}→足：00575_ashi⟧⟦に→に：00314_ni⟧{浮腫|ふしゅ}⟦が→が：00051_ga⟧⟦{出|で}ている→出る：00513_deru⟧。",
       "english": "There is swelling in the legs.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22546_fushu_ex2",
-      "japanese": "{浮腫|ふしゅ}の{原因|げんいん}を{調|しら}べるために{検査|けんさ}を{受|う}けた。",
+      "japanese": "{浮腫|ふしゅ}⟦の→の：09472_no⟧⟦{原因|げんいん}→原因：01400_genin⟧⟦を→を：00422_wo⟧⟦{調|しら}べる→調べる：01213_shiraberu⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧⟦{検査|けんさ}→検査：02707_kensa⟧⟦を→を：00422_wo⟧⟦{受|う}けた→受ける：01215_ukeru⟧。",
       "english": "I underwent tests to determine the cause of the edema.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22546_fushu_ex3",
-      "japanese": "{長時間|ちょうじかん}の{立|た}ち{仕事|しごと}で{夕方|ゆうがた}になると{足|あし}に{浮腫|ふしゅ}が{生|しょう}じやすい。",
+      "japanese": "⟦{長時間|ちょうじかん}→長時間：10165_choujikan⟧⟦の→の：09472_no⟧{立|た}ち{仕事|しごと}⟦で→で：00502_de⟧⟦{夕方|ゆうがた}→夕方：01010_yuugata⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦と→と：00512_to⟧⟦{足|あし}→足：00575_ashi⟧⟦に→に：00314_ni⟧{浮腫|ふしゅ}⟦が→が：00051_ga⟧⟦{生|しょう}じ→生じる：02118_shoujiru⟧やすい。",
       "english": "Standing for long hours at work tends to cause swelling in the legs by evening.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "The medical/formal term for edema or swelling. Composed of {浮|ふ} (float, swell) + {腫|しゅ} (swelling, tumor). In everyday speech, people more commonly say むくみ. The word {浮腫|ふしゅ} is primarily used in medical settings and health-related writing.\n\nCOMMON COLLOCATIONS:\n- {浮腫|ふしゅ}が{出|で}る: to develop edema\n- {浮腫|ふしゅ}が{引|ひ}く: for swelling to go down\n- {下肢|かし}{浮腫|ふしゅ}: lower limb edema\n- {肺|はい}{浮腫|ふしゅ}: pulmonary edema\n\nSIMILAR WORDS:\n- むくみ: swelling — the everyday word for puffiness or swelling\n- {腫|は}れ: swelling — general swelling from injury, inflammation, or insect bites\n- {水腫|すいしゅ}: hydropsy — a more technical term for fluid accumulation",
+  "notes": "The medical/formal term for edema or swelling. Composed of {浮|ふ} (float, swell) + {腫|しゅ} (swelling, tumor). In everyday speech, people more commonly say ⟦むくみ→むくみ：07277_mukumi⟧. The word {浮腫|ふしゅ} is primarily used in medical settings and health-related writing.\n\nCOMMON COLLOCATIONS:\n- {浮腫|ふしゅ}⟦が→が：00051_ga⟧⟦{出|で}る→出る：00513_deru⟧: to develop edema\n- {浮腫|ふしゅ}⟦が→が：00051_ga⟧⟦{引|ひ}く→引く：01978_hiku⟧: for swelling to go down\n- {下肢|かし}{浮腫|ふしゅ}: lower limb edema\n- ⟦{肺|はい}→肺：12334_hai⟧{浮腫|ふしゅ}: pulmonary edema\n\nSIMILAR WORDS:\n- ⟦むくみ→むくみ：07277_mukumi⟧: swelling — the everyday word for puffiness or swelling\n- {腫|は}れ: swelling — general swelling from injury, inflammation, or insect bites\n- {水腫|すいしゅ}: hydropsy — a more technical term for fluid accumulation",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07277_mukumi",
+      "reading": "むくみ",
+      "headword": "むくみ",
+      "label": "swelling"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +68,6 @@
       ]
     },
     "created": "2026-04-06T17:33:05Z",
-    "modified": "2026-07-30T15:20:15Z"
+    "modified": "2026-09-02T04:02:08Z"
   }
 }

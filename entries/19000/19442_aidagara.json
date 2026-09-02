@@ -14,50 +14,77 @@
   "examples": [
     {
       "id": "19442_aidagara_ex1",
-      "japanese": "{親|した}しい{間柄|あいだがら}だ。",
+      "japanese": "⟦{親|した}しい→親しい：02345_shitashii⟧{間柄|あいだがら}だ。",
       "english": "We are on close terms.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "19442_aidagara_ex2",
-      "japanese": "{二人|ふたり}はどんな{間柄|あいだがら}ですか。",
+      "japanese": "⟦{二人|ふたり}→二人：00622_futari⟧⟦は→は：00079_ha⟧⟦どんな→どんな：02924_donna⟧{間柄|あいだがら}です⟦か→か：09473_ka⟧。",
       "english": "What kind of relationship do those two have?",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "19442_aidagara_ex3",
-      "japanese": "{何|なん}でも{言|い}い{合|あ}える{間柄|あいだがら}になりたい。",
+      "japanese": "⟦{何|なん}→何〜：03100_nan⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧⟦{言|い}い{合|あ}える→言い合う：21474_iiau⟧{間柄|あいだがら}⟦に→に：00314_ni⟧⟦なりたい→なる：01970_naru⟧。",
       "english": "I want to be on terms where we can say anything to each other.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "19442_aidagara_ex4",
-      "japanese": "{上司|じょうし}と{部下|ぶか}という{間柄|あいだがら}を{超|こ}えて、{信頼|しんらい}し{合|あ}っている。",
+      "japanese": "⟦{上司|じょうし}→上司：03286_joushi⟧⟦と→と：00512_to⟧⟦{部下|ぶか}→部下：06453_buka⟧⟦という→という：09577_toiu⟧{間柄|あいだがら}⟦を→を：00422_wo⟧⟦{超|こ}えて→超える：01942_koeru⟧、⟦{信頼|しんらい}→信頼：03268_shinrai⟧し⟦{合|あ}っている→合う：10466_au⟧。",
       "english": "They trust each other beyond the boss-subordinate relationship.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{間柄|あいだがら} describes the nature or quality of a relationship between people.\n\nCOMMON COLLOCATIONS:\n- {親|した}しい{間柄|あいだがら} (close relationship)\n- どんな{間柄|あいだがら} (what kind of relationship)\n- {間柄|あいだがら}を{超|こ}えて (beyond the relationship)\n\nSIMILAR WORDS:\n- {関係|かんけい}: broader term for \"relationship\" including non-personal contexts\n- {間柄|あいだがら}: specifically about interpersonal relationships and their quality\n- {仲|なか}: focuses on how well people get along ({仲|なか}がいい = on good terms)",
-  "cross_references": [],
+  "notes": "{間柄|あいだがら} describes the nature or quality of a relationship between people.\n\nCOMMON COLLOCATIONS:\n- ⟦{親|した}しい→親しい：02345_shitashii⟧{間柄|あいだがら} (close relationship)\n- ⟦どんな→どんな：02924_donna⟧{間柄|あいだがら} (what kind of relationship)\n- {間柄|あいだがら}⟦を→を：00422_wo⟧⟦{超|こ}えて→超える：01942_koeru⟧ (beyond the relationship)\n\nSIMILAR WORDS:\n- ⟦{関係|かんけい}→関係：01298_kankei⟧: broader term for \"relationship\" including non-personal contexts\n- {間柄|あいだがら}: specifically about interpersonal relationships and their quality\n- ⟦{仲|なか}→仲：09513_naka⟧: focuses on how well people get along (⟦{仲|なか}→仲：09513_naka⟧⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧ = on good terms)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01298_kankei",
+      "reading": "かんけい",
+      "headword": "{関係|かんけい}",
+      "label": "broader term for \"relationship\"…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09513_naka",
+      "reading": "なか",
+      "headword": "{仲|なか}",
+      "label": "focuses on how well people get along"
+    }
+  ],
   "metadata": {
     "created": "2026-03-25T14:41:30Z",
-    "modified": "2026-03-25T14:41:30Z",
+    "modified": "2026-09-02T04:01:56Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

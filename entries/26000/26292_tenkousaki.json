@@ -15,41 +15,59 @@
   "examples": [
     {
       "id": "26292_tenkousaki_ex1",
-      "japanese": "{転校先|てんこうさき}はもう{決|き}まった？",
+      "japanese": "{転校先|てんこうさき}⟦は→は：00079_ha⟧⟦もう→もう：00602_mou⟧⟦{決|き}まった→決まる：01233_kimaru⟧？",
       "english": "Have you decided on your new school yet?",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26292_tenkousaki_ex2",
-      "japanese": "{転校先|てんこうさき}の{学校|がっこう}で{友達|ともだち}ができるか{心配|しんぱい}だ。",
+      "japanese": "{転校先|てんこうさき}⟦の→の：09472_no⟧⟦{学校|がっこう}→学校：00055_gakkou⟧⟦で→で：00502_de⟧⟦{友達|ともだち}→友達：01478_tomodachi⟧⟦が→が：00051_ga⟧⟦できる→できる：00557_dekiru⟧⟦か→か：09473_ka⟧⟦{心配|しんぱい}→心配：00811_shinpai⟧だ。",
       "english": "I'm worried about whether I'll make friends at my new school.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26292_tenkousaki_ex3",
-      "japanese": "{父|ちち}の{転勤|てんきん}で{引|ひ}っ{越|こ}すことになり、{転校先|てんこうさき}を{探|さが}すのに{苦労|くろう}した。",
+      "japanese": "⟦{父|ちち}→父：00566_chichi⟧⟦の→の：09472_no⟧⟦{転勤|てんきん}→転勤：04555_tenkin⟧⟦で→で：00502_de⟧⟦{引|ひ}っ{越|こ}す→引っ越す：01171_hikkosu⟧こと⟦に→に：00314_ni⟧⟦なり→なる：01970_naru⟧、{転校先|てんこうさき}⟦を→を：00422_wo⟧⟦{探|さが}す→探す：00493_sagasu⟧⟦の→の：09472_no⟧⟦に→に：00314_ni⟧⟦{苦労|くろう}した→苦労する：25357_kurousuru⟧。",
       "english": "Due to my father's job transfer we had to move, and it was a struggle finding a new school.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {転校|てんこう} (school transfer) + {先|さき} (destination). The suffix {先|さき} is commonly used to indicate where something is directed: {引越|ひっこ}し{先|さき} (place one moves to), {就職先|しゅうしょくさき} (place of employment), {旅行先|りょこうさき} (travel destination).\n\nCOMMON COLLOCATIONS:\n- {転校先|てんこうさき}の{学校|がっこう}: the new school\n- {転校先|てんこうさき}が{決|き}まる: the new school is decided\n- {転校先|てんこうさき}を{探|さが}す: to look for a new school\n- {転校先|てんこうさき}で{慣|な}れる: to get used to the new school\n\nSIMILAR WORDS:\n- {転校|てんこう}: school transfer — the act of transferring itself\n- {転入先|てんにゅうさき}: place of enrollment — more formal/administrative term for the receiving school\n- {転校生|てんこうせい}: transfer student — the student who transfers",
-  "cross_references": [],
+  "notes": "Composed of ⟦{転校|てんこう}→転校：03444_tenkou⟧ (school transfer) + ⟦{先|さき}→先：02883_saki⟧ (destination). The suffix ⟦{先|さき}→先：02883_saki⟧ is commonly used to indicate where something is directed: ⟦{引越|ひっこ}し→引越し：03704_hikkoshi⟧⟦{先|さき}→先：02883_saki⟧ (place one moves to), {就職先|しゅうしょくさき} (place of employment), ⟦{旅行先|りょこうさき}→旅行先：28195_ryokousaki⟧ (travel destination).\n\nCOMMON COLLOCATIONS:\n- {転校先|てんこうさき}⟦の→の：09472_no⟧⟦{学校|がっこう}→学校：00055_gakkou⟧: the new school\n- {転校先|てんこうさき}⟦が→が：00051_ga⟧⟦{決|き}まる→決まる：01233_kimaru⟧: the new school is decided\n- {転校先|てんこうさき}⟦を→を：00422_wo⟧⟦{探|さが}す→探す：00493_sagasu⟧: to look for a new school\n- {転校先|てんこうさき}⟦で→で：00502_de⟧⟦{慣|な}れる→慣れる：00870_nareru⟧: to get used to the new school\n\nSIMILAR WORDS:\n- ⟦{転校|てんこう}→転校：03444_tenkou⟧: school transfer — the act of transferring itself\n- {転入先|てんにゅうさき}: place of enrollment — more formal/administrative term for the receiving school\n- ⟦{転校生|てんこうせい}→転校生：19652_tenkousei⟧: transfer student — the student who transfers",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19652_tenkousei",
+      "reading": "てんこうせい",
+      "headword": "{転校生|てんこうせい}",
+      "label": "transfer student"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["education"]
+      "semantic": [
+        "education"
+      ]
     },
     "created": "2026-04-30T15:25:36Z",
-    "modified": "2026-04-30T15:25:36Z"
+    "modified": "2026-09-02T04:02:25Z"
   }
 }

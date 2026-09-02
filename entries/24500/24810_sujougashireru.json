@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24810_sujougashireru_ex1",
-      "japanese": "{素性|すじょう}が{知|し}れない{人物|じんぶつ}だ。",
+      "japanese": "{素性|すじょう}が{知|し}れない⟦{人物|じんぶつ}→人物：03356_jinbutsu⟧だ。",
       "english": "That person's background is unknown.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24810_sujougashireru_ex2",
-      "japanese": "{調|しら}べていくうちに、{犯人|はんにん}の{素性|すじょう}が{知|し}れてきた。",
+      "japanese": "⟦{調|しら}べて→調べる：01213_shiraberu⟧いくうち⟦に→に：00314_ni⟧、⟦{犯人|はんにん}→犯人：03572_hannin⟧⟦の→の：09472_no⟧{素性|すじょう}が{知|し}れてきた。",
       "english": "As the investigation progressed, the criminal's true identity came to light.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24810_sujougashireru_ex3",
-      "japanese": "そんなことを{言|い}うと、{素性|すじょう}が{知|し}れるよ。",
+      "japanese": "⟦そんな→そんな：01645_sonna⟧こと⟦を→を：00422_wo⟧⟦{言|い}う→言う：00515_iu⟧⟦と→と：00512_to⟧、{素性|すじょう}が{知|し}れる⟦よ→よ：09475_yo⟧。",
       "english": "If you say things like that, people will see what kind of person you really are.",
       "sense_numbers": [
         1
@@ -44,20 +44,44 @@
       "notes": null
     }
   ],
-  "notes": "{素性|すじょう} means a person's true background, lineage, or origins — often implying something hidden or not immediately apparent. The expression {素性|すじょう}が{知|し}れる means that this hidden background becomes visible, often carrying a negative or critical implication.\n\nCOMMON COLLOCATIONS:\n- {素性|すじょう}が{知|し}れない — of unknown background\n- {素性|すじょう}が{知|し}れてくる — one's background comes to light\n- {素性|すじょう}の{知|し}れた{人|ひと} — a person of known background (trustworthy)\n- {素性|すじょう}を{隠|かく}す — to hide one's background\n\nUSAGE:\nThe negative form {素性|すじょう}が{知|し}れない is extremely common, describing someone whose origins or character are suspicious or unverifiable. The positive form {素性|すじょう}の{知|し}れた implies reliability and trustworthiness.\n\nSIMILAR WORDS:\n- {正体|しょうたい} — true identity (often of someone or something disguised)\n- {身元|みもと} — identity; personal details (more factual/administrative)\n- {出自|しゅつじ} — one's birth or origins (formal, literary)",
+  "notes": "⟦{素性|すじょう}→素性：13875_sujou⟧ means a person's true background, lineage, or origins — often implying something hidden or not immediately apparent. The expression {素性|すじょう}が{知|し}れる means that this hidden background becomes visible, often carrying a negative or critical implication.\n\nCOMMON COLLOCATIONS:\n- {素性|すじょう}が{知|し}れない — of unknown background\n- {素性|すじょう}が{知|し}れてくる — one's background comes to light\n- ⟦{素性|すじょう}→素性：13875_sujou⟧⟦の→の：09472_no⟧⟦{知|し}れ→知る：00458_shiru⟧た⟦{人|ひと}→人：00476_hito⟧ — a person of known background (trustworthy)\n- ⟦{素性|すじょう}→素性：13875_sujou⟧⟦を→を：00422_wo⟧⟦{隠|かく}す→隠す：02034_kakusu⟧ — to hide one's background\n\nUSAGE:\nThe negative form {素性|すじょう}が{知|し}れない is extremely common, describing someone whose origins or character are suspicious or unverifiable. The positive form ⟦{素性|すじょう}→素性：13875_sujou⟧⟦の→の：09472_no⟧⟦{知|し}れ→知る：00458_shiru⟧た implies reliability and trustworthiness.\n\nSIMILAR WORDS:\n- ⟦{正体|しょうたい}→正体：13190_shoutai⟧ — true identity (often of someone or something disguised)\n- ⟦{身元|みもと}→身元：15710_mimoto⟧ — identity; personal details (more factual/administrative)\n- ⟦{出自|しゅつじ}→出自：20751_shutsuji⟧ — one's birth or origins (formal, literary)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13190_shoutai",
+      "reading": "しょうたい",
+      "headword": "{正体|しょうたい}",
+      "label": "true identity"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15710_mimoto",
+      "reading": "みもと",
+      "headword": "{身元|みもと}",
+      "label": "identity"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20751_shutsuji",
+      "reading": "しゅつじ",
+      "headword": "{出自|しゅつじ}",
+      "label": "one's birth or origins"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "expression"
       ],
+      "politeness": "plain",
       "semantic": [
         "communication"
       ],
       "usage": []
     },
     "created": "2026-04-20T16:27:17Z",
-    "modified": "2026-04-20T16:27:17Z"
+    "modified": "2026-09-02T04:02:19Z"
   }
 }

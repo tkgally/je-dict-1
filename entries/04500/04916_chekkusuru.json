@@ -198,10 +198,33 @@
       ]
     }
   ],
-  "notes": "チェックする is a common loanword verb from English 'check'. The noun form チェック can be used independently.\n\nCOMMON PATTERNS:\n- ⟦メール→メール：04435_meeru⟧⟦を→を：00422_wo⟧チェックする (check email)\n- ⟦スケジュール→スケジュール：03850_sukejuuru⟧⟦を→を：00422_wo⟧チェックする (check schedule)\n- ⟦{在庫|ざいこ}→在庫：04701_zaiko⟧⟦を→を：00422_wo⟧チェックする (check inventory)\n- ⟦チェック→チェック：03000_chekku⟧⟦を→を：00422_wo⟧⟦{入|い}れる→入れる：01098_ireru⟧ (put a checkmark)\n\nRELATED WORDS:\n- ⟦{確認|かくにん}→確認：00158_kakunin⟧⟦する→する：00392_suru⟧ (confirm, verify - more formal)\n- ⟦{点検|てんけん}→点検：09765_tenken⟧⟦する→する：00392_suru⟧ (inspect - more thorough)\n- ⟦{調|しら}べる→調べる：01213_shiraberu⟧ (examine, investigate)",
+  "notes": "チェックする is a common loanword verb from English 'check'. The noun form ⟦チェック→チェック：03000_chekku⟧ can be used independently.\n\nCOMMON PATTERNS:\n- ⟦メール→メール：04435_meeru⟧⟦を→を：00422_wo⟧チェックする (check email)\n- ⟦スケジュール→スケジュール：03850_sukejuuru⟧⟦を→を：00422_wo⟧チェックする (check schedule)\n- ⟦{在庫|ざいこ}→在庫：04701_zaiko⟧⟦を→を：00422_wo⟧チェックする (check inventory)\n- ⟦チェック→チェック：03000_chekku⟧⟦を→を：00422_wo⟧⟦{入|い}れる→入れる：01098_ireru⟧ (put a checkmark)\n\nRELATED WORDS:\n- ⟦{確認|かくにん}→確認：00158_kakunin⟧⟦する→する：00392_suru⟧ (confirm, verify - more formal)\n- ⟦{点検|てんけん}→点検：09765_tenken⟧⟦する→する：00392_suru⟧ (inspect - more thorough)\n- ⟦{調|しら}べる→調べる：01213_shiraberu⟧ (examine, investigate)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "25332_kakuninsuru",
+      "reading": "かくにんする",
+      "headword": "{確認|かくにん}する",
+      "label": "confirm, verify"
+    },
+    {
+      "type": "related",
+      "target_id": "09765_tenken",
+      "reading": "てんけん",
+      "headword": "{点検|てんけん}",
+      "label": "inspect"
+    },
+    {
+      "type": "related",
+      "target_id": "01213_shiraberu",
+      "reading": "しらべる",
+      "headword": "{調|しら}べる",
+      "label": "examine, investigate"
+    }
+  ],
   "metadata": {
     "created": "2026-01-14T08:55:55Z",
-    "modified": "2026-06-03T14:07:35Z",
+    "modified": "2026-09-02T04:01:05Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
@@ -213,7 +236,8 @@
       "semantic": [
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   },
   "prominent_see_also": [

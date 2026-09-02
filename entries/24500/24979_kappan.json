@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24979_kappan_ex1",
-      "japanese": "この{本|ほん}は{活版|かっぱん}{印刷|いんさつ}で{刷|す}られている。",
+      "japanese": "⟦この→この：00962_kono⟧{本|ほん}⟦は→は：00079_ha⟧{活版|かっぱん}⟦{印刷|いんさつ}→印刷：01844_insatsu⟧⟦で→で：00502_de⟧{刷|す}られて⟦いる→いる：00495_iru⟧。",
       "english": "This book was printed using letterpress.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24979_kappan_ex2",
-      "japanese": "{活版|かっぱん}{印刷|いんさつ}の{名刺|めいし}は{独特|どくとく}の{風合|ふうあ}いがある。",
+      "japanese": "{活版|かっぱん}⟦{印刷|いんさつ}→印刷：01844_insatsu⟧⟦の→の：09472_no⟧⟦{名刺|めいし}→名刺：01090_meishi⟧⟦は→は：00079_ha⟧⟦{独特|どくとく}→独特：01656_dokutoku⟧⟦の→の：09472_no⟧{風合|ふうあ}い⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "Letterpress-printed business cards have a distinctive texture.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24979_kappan_ex3",
-      "japanese": "{活版|かっぱん}{印刷|いんさつ}は{明治時代|めいじじだい}に{日本|にほん}で{広|ひろ}く{普及|ふきゅう}したが、{現在|げんざい}では{趣味|しゅみ}やアートとして{再評価|さいひょうか}されている。",
+      "japanese": "{活版|かっぱん}⟦{印刷|いんさつ}→印刷：01844_insatsu⟧⟦は→は：00079_ha⟧⟦{明治時代|めいじじだい}→明治時代：28080_meijijidai⟧⟦に→に：00314_ni⟧⟦{日本|にほん}→日本：03876_nihon⟧⟦で→で：00502_de⟧⟦{広|ひろ}く→広い：00704_hiroi⟧⟦{普及|ふきゅう}した→普及する：22182_fukyuusuru⟧⟦が→が：00051_ga⟧、⟦{現在|げんざい}→現在：01556_genzai⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{趣味|しゅみ}→趣味：00889_shumi⟧や⟦アート→アート：10713_aato⟧⟦として→として：06802_toshite⟧⟦{再評価|さいひょうか}→再評価：28226_saihyouka⟧⟦されている→する：00392_suru⟧。",
       "english": "Letterpress printing became widespread in Japan during the Meiji era, and today it is being reevaluated as a hobby and art form.",
       "sense_numbers": [
         1
@@ -44,14 +44,39 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {活|かつ} (movable/living) and {版|ぱん} (printing plate/block). The word is short for {活字版|かつじばん} (movable type printing plate). This technology was revolutionary for mass-producing printed text.\n\nAlthough largely replaced by offset printing and digital methods for commercial use, letterpress has experienced a revival as a craft. Workshops offering {活版|かっぱん}{印刷|いんさつ} experiences are popular in Japan, and many stationery enthusiasts seek out letterpress-printed postcards and business cards for their tactile quality — the slight indentation left by the type on paper.\n\nCOMMON COLLOCATIONS:\n- {活版|かっぱん}{印刷|いんさつ}: letterpress printing\n- {活版|かっぱん}{印刷機|いんさつき}: letterpress printing press\n- {活版|かっぱん}{印刷所|いんさつじょ}: letterpress printing shop\n\nRELATED TERMS:\n- {活字|かつじ}: movable type; printed text\n- {版画|はんが}: woodblock print\n- {印刷|いんさつ}: printing",
+  "notes": "A compound of {活|かつ} (movable/living) and {版|ぱん} (printing plate/block). The word is short for {活字版|かつじばん} (movable type printing plate). This technology was revolutionary for mass-producing printed text.\n\nAlthough largely replaced by offset printing and digital methods for commercial use, letterpress has experienced a revival as a craft. Workshops offering {活版|かっぱん}⟦{印刷|いんさつ}→印刷：01844_insatsu⟧ experiences are popular in Japan, and many stationery enthusiasts seek out letterpress-printed postcards and business cards for their tactile quality — the slight indentation left by the type on paper.\n\nCOMMON COLLOCATIONS:\n- {活版|かっぱん}⟦{印刷|いんさつ}→印刷：01844_insatsu⟧: letterpress printing\n- {活版|かっぱん}⟦{印刷機|いんさつき}→印刷機：24838_insatsuki⟧: letterpress printing press\n- {活版|かっぱん}⟦{印刷所|いんさつじょ}→印刷所：23882_insatsujo⟧: letterpress printing shop\n\nRELATED WORDS:\n- ⟦{活字|かつじ}→活字：00202_katsuji⟧: movable type; printed text\n- ⟦{版画|はんが}→版画：10582_hanga⟧: woodblock print\n- ⟦{印刷|いんさつ}→印刷：01844_insatsu⟧: printing",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "00202_katsuji",
+      "reading": "かつじ",
+      "headword": "{活字|かつじ}",
+      "label": "movable type"
+    },
+    {
+      "type": "related",
+      "target_id": "10582_hanga",
+      "reading": "はんが",
+      "headword": "{版画|はんが}",
+      "label": "woodblock print"
+    },
+    {
+      "type": "related",
+      "target_id": "01844_insatsu",
+      "reading": "いんさつ",
+      "headword": "{印刷|いんさつ}",
+      "label": "printing"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "art",
         "culture",
@@ -59,6 +84,6 @@
       ]
     },
     "created": "2026-04-22T09:22:11Z",
-    "modified": "2026-08-03T09:22:27Z"
+    "modified": "2026-09-02T04:02:20Z"
   }
 }

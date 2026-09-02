@@ -15,41 +15,62 @@
   "examples": [
     {
       "id": "27747_daekisen_ex1",
-      "japanese": "{唾液|だえき}{腺|せん}から{唾液|だえき}が{出|で}る。",
+      "japanese": "{唾液|だえき}{腺|せん}⟦から→から：00504_kara⟧⟦{唾液|だえき}→唾液：15943_daeki⟧⟦が→が：00051_ga⟧⟦{出|で}る→出る：00513_deru⟧。",
       "english": "Saliva comes out of the salivary glands.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27747_daekisen_ex2",
-      "japanese": "{梅干|うめぼ}しを{見|み}ると{唾液|だえき}{腺|せん}が{刺激|しげき}される。",
+      "japanese": "⟦{梅干|うめぼ}し→梅干し：13110_umeboshi⟧⟦を→を：00422_wo⟧⟦{見|み}る→見る：00283_miru⟧⟦と→と：00512_to⟧{唾液|だえき}{腺|せん}⟦が→が：00051_ga⟧⟦{刺激|しげき}される→刺激する：20205_shigekisuru⟧。",
       "english": "Seeing a pickled plum stimulates the salivary glands.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27747_daekisen_ex3",
-      "japanese": "{唾液|だえき}{腺|せん}が{炎症|えんしょう}を{起|お}こすと、{食事|しょくじ}のときに{痛|いた}みを{感|かん}じる。",
+      "japanese": "{唾液|だえき}{腺|せん}⟦が→が：00051_ga⟧⟦{炎症|えんしょう}→炎症：05978_enshou⟧⟦を→を：00422_wo⟧⟦{起|お}こす→起こす：01234_okosu⟧⟦と→と：00512_to⟧、⟦{食事|しょくじ}→食事：02087_shokuji⟧⟦の→の：09472_no⟧とき⟦に→に：00314_ni⟧⟦{痛|いた}み→痛み：01795_itami⟧⟦を→を：00422_wo⟧⟦{感|かん}じる→感じる：02044_kanjiru⟧。",
       "english": "When the salivary glands become inflamed, you feel pain while eating.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {唾液|だえき} (saliva) + {腺|せん} (gland). An anatomy term for the glands that secrete saliva into the mouth.\n\nUSAGE:\n- {唾液|だえき}{腺|せん}が{刺激|しげき}される: the salivary glands are stimulated\n- {唾液|だえき}{腺|せん}の{炎症|えんしょう}: inflammation of the salivary glands\n\nRELATED TERMS:\n- {唾液|だえき}: saliva\n- {分泌|ぶんぴつ}: secretion — the process by which a gland releases a substance",
+  "notes": "Composed of ⟦{唾液|だえき}→唾液：15943_daeki⟧ (saliva) + ⟦{腺|せん}→腺：17997_sen⟧ (gland). An anatomy term for the glands that secrete saliva into the mouth.\n\nUSAGE:\n- {唾液|だえき}{腺|せん}⟦が→が：00051_ga⟧⟦{刺激|しげき}される→刺激する：20205_shigekisuru⟧: the salivary glands are stimulated\n- {唾液|だえき}{腺|せん}⟦の→の：09472_no⟧⟦{炎症|えんしょう}→炎症：05978_enshou⟧: inflammation of the salivary glands\n\nRELATED WORDS:\n- ⟦{唾液|だえき}→唾液：15943_daeki⟧: saliva\n- ⟦{分泌|ぶんぴつ}→分泌：25492_bunpitsu⟧: secretion — the process by which a gland releases a substance",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "25492_bunpitsu",
+      "reading": "ぶんぴつ",
+      "headword": "{分泌|ぶんぴつ}",
+      "label": "secretion"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["body-internal"],
-      "domain": ["medical"]
+      "semantic": [
+        "body-internal"
+      ],
+      "domain": [
+        "medical"
+      ]
     },
     "created": "2026-05-18T03:04:42Z",
-    "modified": "2026-05-18T03:04:42Z"
+    "modified": "2026-09-02T04:02:31Z"
   }
 }

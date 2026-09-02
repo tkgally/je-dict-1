@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "15762_souan_ex1",
-      "japanese": "{法案|ほうあん}の{草案|そうあん}が{提出|ていしゅつ}された。",
+      "japanese": "⟦{法案|ほうあん}→法案：09758_houan⟧⟦の→の：09472_no⟧{草案|そうあん}⟦が→が：00051_ga⟧⟦{提出|ていしゅつ}→提出：03542_teishutsu⟧⟦された→する：00392_suru⟧。",
       "english": "A draft of the bill was submitted.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "15762_souan_ex2",
-      "japanese": "{委員会|いいんかい}で{草案|そうあん}を{検討|けんとう}する。",
+      "japanese": "⟦{委員会|いいんかい}→委員会：12234_iinkai⟧⟦で→で：00502_de⟧{草案|そうあん}⟦を→を：00422_wo⟧⟦{検討|けんとう}する→検討する：17455_kentousuru⟧。",
       "english": "The committee will review the draft.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "15762_souan_ex3",
-      "japanese": "{憲法|けんぽう}{改正|かいせい}の{草案|そうあん}をめぐって{激|はげ}しい{議論|ぎろん}が{交|か}わされた。",
+      "japanese": "⟦{憲法|けんぽう}→憲法：02744_kenpou⟧⟦{改正|かいせい}→改正：00446_kaisei⟧⟦の→の：09472_no⟧{草案|そうあん}をめぐって⟦{激|はげ}しい→激しい：02348_hageshii⟧⟦{議論|ぎろん}→議論：02650_giron⟧⟦が→が：00051_ga⟧⟦{交|か}わされた→交わす：19373_kawasu⟧。",
       "english": "Heated debate was exchanged over the draft constitutional amendment.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{草案|そうあん} is a formal word most commonly used in political, legal, and bureaucratic contexts. It implies a document that is still subject to review and revision before being finalized.\n\nCOMMON COLLOCATIONS:\n- {草案|そうあん}を{作成|さくせい}する (prepare a draft)\n- {草案|そうあん}を{提出|ていしゅつ}する (submit a draft)\n- {草案|そうあん}を{検討|けんとう}する (review a draft)\n- {草案|そうあん}をまとめる (put together a draft)\n- {憲法|けんぽう}{草案|そうあん} (constitutional draft)\n\nSIMILAR WORDS:\n{下書|したが}き means \"rough draft\" and is used more generally for any written draft. {原案|げんあん} means \"original plan\" or \"original draft\" and suggests the first version of a proposal. {素案|そあん} is a very preliminary draft or outline.",
+  "notes": "USAGE:\n{草案|そうあん} is a formal word most commonly used in political, legal, and bureaucratic contexts. It implies a document that is still subject to review and revision before being finalized.\n\nCOMMON COLLOCATIONS:\n- {草案|そうあん}⟦を→を：00422_wo⟧⟦{作成|さくせい}する→作成する：25378_sakuseisuru⟧ (prepare a draft)\n- {草案|そうあん}⟦を→を：00422_wo⟧⟦{提出|ていしゅつ}する→提出する：19644_teishutsusuru⟧ (submit a draft)\n- {草案|そうあん}⟦を→を：00422_wo⟧⟦{検討|けんとう}する→検討する：17455_kentousuru⟧ (review a draft)\n- {草案|そうあん}⟦を→を：00422_wo⟧⟦まとめる→まとめる：02424_matomeru⟧ (put together a draft)\n- ⟦{憲法|けんぽう}→憲法：02744_kenpou⟧{草案|そうあん} (constitutional draft)\n\nSIMILAR WORDS:\n⟦{下書|したが}き→下書き：06836_shitagaki⟧ means \"rough draft\" and is used more generally for any written draft. ⟦{原案|げんあん}→原案：11978_genan⟧ means \"original plan\" or \"original draft\" and suggests the first version of a proposal. ⟦{素案|そあん}→素案：22971_soan⟧ is a very preliminary draft or outline.",
   "cross_references": [
     {
       "type": "related",
@@ -66,11 +66,25 @@
       "reading": "げんあん",
       "headword": "{原案|げんあん}",
       "label": "original draft/plan"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22971_soan",
+      "reading": "そあん",
+      "headword": "{素案|そあん}",
+      "label": "rough draft"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30282_dorafuto",
+      "reading": "どらふと",
+      "headword": "ドラフト",
+      "label": "draft"
     }
   ],
   "metadata": {
     "created": "2026-03-08T09:15:48Z",
-    "modified": "2026-05-02T05:13:00Z",
+    "modified": "2026-09-02T04:01:42Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29112_kokekokkoo_ex1",
-      "japanese": "{朝|あさ}、{鶏|にわとり}がコケコッコーと{鳴|な}いた。",
+      "japanese": "⟦{朝|あさ}→朝：02277_asa⟧、⟦{鶏|にわとり}→鶏：05202_niwatori⟧⟦が→が：00051_ga⟧コケコッコー⟦と→と：00512_to⟧⟦{鳴|な}いた→鳴く：04388_naku⟧。",
       "english": "In the morning, the rooster crowed cock-a-doodle-doo.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29112_kokekokkoo_ex2",
-      "japanese": "コケコッコーという{声|こえ}で{目|め}が{覚|さ}めた。",
+      "japanese": "コケコッコー⟦という→という：09577_toiu⟧⟦{声|こえ}→声：02207_koe⟧⟦で→で：00502_de⟧⟦{目|め}→目：00525_me⟧⟦が→が：00051_ga⟧⟦{覚|さ}めた→覚める：02058_sameru⟧。",
       "english": "I woke up to the sound of a rooster crowing.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29112_kokekokkoo_ex3",
-      "japanese": "{田舎|いなか}に{泊|と}まったら、{夜明|よあ}け{前|まえ}からコケコッコーと{鳴|な}く{声|こえ}が{聞|き}こえてきた。",
+      "japanese": "⟦{田舎|いなか}→田舎：01320_inaka⟧⟦に→に：00314_ni⟧⟦{泊|と}まったら→泊まる：10445_tomaru⟧、⟦{夜明|よあ}け→夜明け：03655_yoake⟧⟦{前|まえ}→前：02255_mae⟧⟦から→から：00504_kara⟧コケコッコー⟦と→と：00512_to⟧⟦{鳴|な}く→鳴く：04388_naku⟧⟦{声|こえ}→声：02207_koe⟧⟦が→が：00051_ga⟧⟦{聞|き}こえて→聞こえる：01229_kikoeru⟧きた。",
       "english": "When I stayed in the countryside, I could hear the rooster crowing even before dawn.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "The standard Japanese onomatopoeia for a rooster's crow, equivalent to English \"cock-a-doodle-doo\". Used with the verb {鳴|な}く (the verb for animal sounds).\n\nCOMMON PATTERNS:\n- コケコッコーと{鳴|な}く: to crow cock-a-doodle-doo\n- コケコッコーという{声|こえ}: the sound of crowing\n\nOTHER BIRD SOUNDS:\n- ぴよぴよ: baby chick chirping\n- チュンチュン: sparrow chirping\n- カーカー: crow cawing",
+  "notes": "The standard Japanese onomatopoeia for a rooster's crow, equivalent to English \"cock-a-doodle-doo\". Used with the verb ⟦{鳴|な}く→鳴く：04388_naku⟧ (the verb for animal sounds).\n\nCOMMON PATTERNS:\n- コケコッコー⟦と→と：00512_to⟧⟦{鳴|な}く→鳴く：04388_naku⟧: to crow cock-a-doodle-doo\n- コケコッコー⟦という→という：09577_toiu⟧⟦{声|こえ}→声：02207_koe⟧: the sound of crowing\n\nOTHER BIRD SOUNDS:\n- ⟦ぴよぴよ→ぴよぴよ：05994_piyopiyo⟧: baby chick chirping\n- ⟦チュンチュン→チュンチュン：29101_chunchun⟧: sparrow chirping\n- ⟦カーカー→カーカー：29113_kaakaa⟧: crow cawing",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "29101_chunchun",
+      "reading": "ちゅんちゅん",
+      "headword": "チュンチュン",
+      "label": "chirp-chirp"
+    },
+    {
+      "type": "related",
+      "target_id": "29102_hoohokekyo",
+      "reading": "ほーほけきょ",
+      "headword": "ホーホケキョ",
+      "label": "hōhokekyo (bush warbler's call)"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +69,7 @@
         "onomatopoeia"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "onomatopoeia",
         "animal-bird"
@@ -61,6 +77,6 @@
       "domain": []
     },
     "created": "2026-06-10T19:37:38Z",
-    "modified": "2026-08-09T06:34:34Z"
+    "modified": "2026-09-02T04:02:36Z"
   }
 }

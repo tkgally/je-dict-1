@@ -3,7 +3,7 @@
   "id": "15608_dakkan",
   "headword": "{奪還|だっかん}",
   "reading": "だっかん",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "recapture; recovery; taking back",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "15608_dakkan_ex1",
-      "japanese": "{領土|りょうど}を{奪還|だっかん}する。",
+      "japanese": "⟦{領土|りょうど}→領土：15711_ryoudo⟧⟦を→を：00422_wo⟧{奪還|だっかん}⟦する→する：00392_suru⟧。",
       "english": "To recapture territory.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "15608_dakkan_ex2",
-      "japanese": "チームは{首位|しゅい}の{座|ざ}を{奪還|だっかん}した。",
+      "japanese": "⟦チーム→チーム：03858_chiimu⟧⟦は→は：00079_ha⟧⟦{首位|しゅい}→首位：14677_shui⟧⟦の→の：09472_no⟧⟦{座|ざ}→座：28170_za⟧⟦を→を：00422_wo⟧{奪還|だっかん}⟦した→する：00392_suru⟧。",
       "english": "The team reclaimed the top spot.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "15608_dakkan_ex3",
-      "japanese": "{人質|ひとじち}{奪還|だっかん}のための{作戦|さくせん}が{実行|じっこう}された。",
+      "japanese": "⟦{人質|ひとじち}→人質：09678_hitojichi⟧{奪還|だっかん}⟦の→の：09472_no⟧⟦ため→ため：01145_tame⟧⟦の→の：09472_no⟧⟦{作戦|さくせん}→作戦：09673_sakusen⟧⟦が→が：00051_ga⟧⟦{実行|じっこう}→実行：03274_jikkou⟧⟦された→する：00392_suru⟧。",
       "english": "An operation to recover the hostages was carried out.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{奪還|だっかん} implies forceful recovery of something important that was lost or taken. It is stronger and more dramatic than {回復|かいふく} (recovery) or {取|と}り{戻|もど}す (to get back).\n\nCOMMON COLLOCATIONS:\n- {領土|りょうど}を{奪還|だっかん}する (to recapture territory)\n- {政権|せいけん}を{奪還|だっかん}する (to retake political power)\n- {奪還|だっかん}{作戦|さくせん} (recovery operation)\n- タイトルを{奪還|だっかん}する (to reclaim a title)\n\nSIMILAR WORDS:\n{取|と}り{戻|もど}す is more general and everyday, while {奪還|だっかん} implies something was wrongfully taken and is being recovered through determined effort or force.",
+  "notes": "USAGE:\n{奪還|だっかん} implies forceful recovery of something important that was lost or taken. It is stronger and more dramatic than ⟦{回復|かいふく}→回復：03812_kaifuku⟧ (recovery) or ⟦{取|と}り{戻|もど}す→取り戻す：04223_torimodosu⟧ (to get back).\n\nCOMMON COLLOCATIONS:\n- ⟦{領土|りょうど}→領土：15711_ryoudo⟧⟦を→を：00422_wo⟧{奪還|だっかん}⟦する→する：00392_suru⟧ (to recapture territory)\n- ⟦{政権|せいけん}→政権：12883_seiken⟧⟦を→を：00422_wo⟧{奪還|だっかん}⟦する→する：00392_suru⟧ (to retake political power)\n- {奪還|だっかん}⟦{作戦|さくせん}→作戦：09673_sakusen⟧ (recovery operation)\n- ⟦タイトル→タイトル：03855_taitoru⟧⟦を→を：00422_wo⟧{奪還|だっかん}⟦する→する：00392_suru⟧ (to reclaim a title)\n\nSIMILAR WORDS:\n⟦{取|と}り{戻|もど}す→取り戻す：04223_torimodosu⟧ is more general and everyday, while {奪還|だっかん} implies something was wrongfully taken and is being recovered through determined effort or force.",
   "cross_references": [
     {
       "type": "contrast",
@@ -146,7 +146,7 @@
   ],
   "metadata": {
     "created": "2026-03-07T13:08:17Z",
-    "modified": "2026-05-01T08:11:13Z",
+    "modified": "2026-09-02T04:01:41Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -159,7 +159,8 @@
       "semantic": [
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

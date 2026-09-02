@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25579_gakuto_ex1",
-      "japanese": "{学徒|がくと}{動員|どういん}で{多|おお}くの{若者|わかもの}が{戦場|せんじょう}に{送|おく}られた。",
+      "japanese": "{学徒|がくと}⟦{動員|どういん}→動員：11927_douin⟧⟦で→で：00502_de⟧{多|おお}く⟦の→の：09472_no⟧⟦{若者|わかもの}→若者：03037_wakamono⟧⟦が→が：00051_ga⟧⟦{戦場|せんじょう}→戦場：12746_senjou⟧⟦に→に：00314_ni⟧⟦{送|おく}られた→送る：00742_okuru⟧。",
       "english": "Many young people were sent to the battlefield through student mobilization.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25579_gakuto_ex2",
-      "japanese": "{彼|かれ}は{法学|ほうがく}の{学徒|がくと}として{研鑽|けんさん}を{積|つ}んだ。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{法学|ほうがく}→法学：28413_hougaku⟧⟦の→の：09472_no⟧{学徒|がくと}⟦として→として：06802_toshite⟧⟦{研鑽|けんさん}→研鑽：15484_kensan⟧⟦を→を：00422_wo⟧⟦{積|つ}んだ→積む：02294_tsumu⟧。",
       "english": "He trained diligently as a student of law.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25579_gakuto_ex3",
-      "japanese": "{若|わか}き{学徒|がくと}たちが{新|あたら}しい{時代|じだい}の{学問|がくもん}を{切|き}り{開|ひら}いていった。",
+      "japanese": "{若|わか}き{学徒|がくと}たち⟦が→が：00051_ga⟧⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦{時代|じだい}→時代：01424_jidai⟧⟦の→の：09472_no⟧⟦{学問|がくもん}→学問：02604_gakumon⟧⟦を→を：00422_wo⟧⟦{切|き}り{開|ひら}いて→切り開く：05745_kirihiraku⟧いった。",
       "english": "Young scholars pioneered new fields of study for a new era.",
       "sense_numbers": [
         1
@@ -44,8 +44,30 @@
       "notes": null
     }
   ],
-  "notes": "A formal and somewhat literary word for students or scholars. Most strongly associated with the historical term {学徒|がくと}{動員|どういん} (student mobilization), which refers to the conscription of university students into military service during World War II.\n\nCOMMON COLLOCATIONS:\n- {学徒|がくと}{動員|どういん}: student mobilization (WWII term)\n- {学徒|がくと}{出陣|しゅつじん}: students going off to war\n- {法学|ほうがく}の{学徒|がくと}: student of law\n\nHISTORICAL NOTE:\n{学徒|がくと}{動員|どういん} (1943-1945) was a wartime policy that drafted university and higher school students into factories and eventually into combat. It remains a significant topic in Japanese war history and is frequently referenced in historical discussions and memorials.\n\nSIMILAR WORDS:\n- {学生|がくせい}: student — the standard modern word for a student\n- {生徒|せいと}: pupil, student — used mainly for secondary school students\n- {学者|がくしゃ}: scholar — an established academic or researcher",
-  "cross_references": [],
+  "notes": "A formal and somewhat literary word for students or scholars. Most strongly associated with the historical term {学徒|がくと}⟦{動員|どういん}→動員：11927_douin⟧ (student mobilization), which refers to the conscription of university students into military service during World War II.\n\nCOMMON COLLOCATIONS:\n- {学徒|がくと}⟦{動員|どういん}→動員：11927_douin⟧: student mobilization (WWII term)\n- {学徒|がくと}⟦{出陣|しゅつじん}→出陣：19165_shutsujin⟧: students going off to war\n- ⟦{法学|ほうがく}→法学：28413_hougaku⟧⟦の→の：09472_no⟧{学徒|がくと}: student of law\n\nETYMOLOGY:\n{学徒|がくと}⟦{動員|どういん}→動員：11927_douin⟧ (1943-1945) was a wartime policy that drafted university and higher school students into factories and eventually into combat. It remains a significant topic in Japanese war history and is frequently referenced in historical discussions and memorials.\n\nSIMILAR WORDS:\n- ⟦{学生|がくせい}→学生：00610_gakusei⟧: student — the standard modern word for a student\n- ⟦{生徒|せいと}→生徒：01051_seito⟧: pupil, student — used mainly for secondary school students\n- ⟦{学者|がくしゃ}→学者：02544_gakusha⟧: scholar — an established academic or researcher",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00610_gakusei",
+      "reading": "がくせい",
+      "headword": "{学生|がくせい}",
+      "label": "student"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01051_seito",
+      "reading": "せいと",
+      "headword": "{生徒|せいと}",
+      "label": "pupil, student"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02544_gakusha",
+      "reading": "がくしゃ",
+      "headword": "{学者|がくしゃ}",
+      "label": "scholar"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,12 +75,13 @@
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "education",
         "history"
       ]
     },
     "created": "2026-04-26T11:24:10Z",
-    "modified": "2026-06-15T07:59:16Z"
+    "modified": "2026-09-02T04:02:23Z"
   }
 }

@@ -182,11 +182,32 @@
       "headword": "はらはら",
       "label": "anxiously; fluttering down",
       "target_id": "05268_harahara"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05266_bikubiku",
+      "reading": "びくびく",
+      "headword": "びくびく",
+      "label": "nervous, scared"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05123_ukiuki",
+      "reading": "うきうき",
+      "headword": "{浮|う}き{浮|う}き",
+      "label": "cheerfully, excitedly"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20601_atafuta",
+      "reading": "あたふた",
+      "headword": "あたふた",
+      "label": "in a fluster"
     }
   ],
   "metadata": {
     "created": "2026-01-16T05:20:28Z",
-    "modified": "2026-07-30T00:17:41Z",
+    "modified": "2026-09-02T04:00:52Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
@@ -200,7 +221,8 @@
         "action",
         "descriptive"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

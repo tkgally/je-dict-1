@@ -15,41 +15,67 @@
   "examples": [
     {
       "id": "28759_kawara_ex1",
-      "japanese": "{河原|かわら}で{遊|あそ}んだ。",
+      "japanese": "{河原|かわら}⟦で→で：00502_de⟧⟦{遊|あそ}んだ→遊ぶ：00550_asobu⟧。",
       "english": "I played down by the river.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28759_kawara_ex2",
-      "japanese": "{夏|なつ}には{河原|かわら}でバーベキューをする。",
+      "japanese": "⟦{夏|なつ}→夏：02236_natsu⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{河原|かわら}⟦で→で：00502_de⟧⟦バーベキュー→バーベキュー：27519_baabekyuu⟧⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧。",
       "english": "In summer we do barbecues on the riverbed.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28759_kawara_ex3",
-      "japanese": "{河原|かわら}にはごろごろと{大|おお}きな{石|いし}が{転|ころ}がっていた。",
+      "japanese": "{河原|かわら}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦ごろごろ→ごろごろ：05176_gorogoro⟧⟦と→と：00512_to⟧⟦{大|おお}きな→大きな：02849_ookina⟧⟦{石|いし}→石：02177_ishi⟧⟦が→が：00051_ga⟧⟦{転|ころ}がっていた→転がる：02571_korogaru⟧。",
       "english": "Big rocks were scattered all over the riverbed.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Written {河原|かわら} or {川原|かわら}; both readings are かわら and refer to the same thing. Distinct from the homophone {瓦|かわら} (roof tile).\n\nCOMMON COLLOCATIONS:\n- {河原|かわら}の{石|いし}: stones on the riverbed\n- {河原|かわら}で{遊|あそ}ぶ: to play by the river\n- {河原|かわら}で{花火|はなび}をする: to set off fireworks at the riverbed\n- {河原|かわら}{沿|ぞ}い: along the riverbed\n\nSIMILAR WORDS:\n- {川岸|かわぎし}: riverbank — the edge/border of the river, not the dry stony zone\n- {河川敷|かせんしき}: river floodplain — formal/administrative term for the same area",
+  "notes": "Written {河原|かわら} or {川原|かわら}; both readings are かわら and refer to the same thing. Distinct from the homophone ⟦{瓦|かわら}→瓦：03902_kawara⟧ (roof tile).\n\nCOMMON COLLOCATIONS:\n- {河原|かわら}⟦の→の：09472_no⟧⟦{石|いし}→石：02177_ishi⟧: stones on the riverbed\n- {河原|かわら}⟦で→で：00502_de⟧⟦{遊|あそ}ぶ→遊ぶ：00550_asobu⟧: to play by the river\n- {河原|かわら}⟦で→で：00502_de⟧⟦{花火|はなび}→花火：00087_hanabi⟧⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧: to set off fireworks at the riverbed\n- {河原|かわら}{沿|ぞ}い: along the riverbed\n\nSIMILAR WORDS:\n- ⟦{川岸|かわぎし}→川岸：24545_kawagishi⟧: riverbank — the edge/border of the river, not the dry stony zone\n- ⟦{河川敷|かせんしき}→河川敷：24122_kasenshiki⟧: river floodplain — formal/administrative term for the same area",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24545_kawagishi",
+      "reading": "かわぎし",
+      "headword": "{川岸|かわぎし}",
+      "label": "riverbank"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24122_kasenshiki",
+      "reading": "かせんしき",
+      "headword": "{河川敷|かせんしき}",
+      "label": "river floodplain"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["nature"],
+      "politeness": "plain",
+      "semantic": [
+        "nature"
+      ],
       "domain": []
     },
     "created": "2026-06-05T02:07:15Z",
-    "modified": "2026-06-05T02:07:15Z"
+    "modified": "2026-09-02T04:02:34Z"
   }
 }

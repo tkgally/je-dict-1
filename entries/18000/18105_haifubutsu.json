@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "18105_haifubutsu_ex1",
-      "japanese": "{配布物|はいふぶつ}を{確認|かくにん}する。",
+      "japanese": "{配布物|はいふぶつ}⟦を→を：00422_wo⟧⟦{確認|かくにん}する→確認する：25332_kakuninsuru⟧。",
       "english": "To check the handouts.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18105_haifubutsu_ex2",
-      "japanese": "{授業|じゅぎょう}の{配布物|はいふぶつ}をなくしてしまった。",
+      "japanese": "⟦{授業|じゅぎょう}→授業：00781_jugyou⟧⟦の→の：09472_no⟧{配布物|はいふぶつ}⟦を→を：00422_wo⟧なくしてしまった。",
       "english": "I lost the handouts from class.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18105_haifubutsu_ex3",
-      "japanese": "{会議|かいぎ}の{配布物|はいふぶつ}は{事前|じぜん}にメールで{送|おく}りますので、{各自|かくじ}{印刷|いんさつ}してお{持|も}ちください。",
+      "japanese": "⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦の→の：09472_no⟧{配布物|はいふぶつ}⟦は→は：00079_ha⟧⟦{事前|じぜん}→事前：07580_jizen⟧⟦に→に：00314_ni⟧⟦メール→メール：04435_meeru⟧⟦で→で：00502_de⟧⟦{送|おく}ります→送る：00742_okuru⟧⟦の→の：09472_no⟧で、⟦{各自|かくじ}→各自：00157_kakuji⟧⟦{印刷|いんさつ}して→印刷する：21677_insatsusuru⟧お⟦{持|も}ち→持つ：00478_motsu⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "The meeting handouts will be sent by email in advance, so please print them out and bring them with you.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nCommon in school, university, and business meeting contexts. Can refer to physical printouts or digital documents shared with participants.\n\nCOMMON COLLOCATIONS:\n- {配布物|はいふぶつ}を{配|くば}る (to distribute handouts)\n- {配布物|はいふぶつ}を{受|う}け{取|と}る (to receive handouts)\n- {授業|じゅぎょう}の{配布物|はいふぶつ} (class handouts)\n\nSIMILAR WORDS:\n- プリント: printout/handout — more casual, commonly used by students\n- {資料|しりょう}: materials/documents — broader term that includes handouts but also reference materials",
+  "notes": "USAGE:\nCommon in school, university, and business meeting contexts. Can refer to physical printouts or digital documents shared with participants.\n\nCOMMON COLLOCATIONS:\n- {配布物|はいふぶつ}⟦を→を：00422_wo⟧⟦{配|くば}る→配る：03921_kubaru⟧ (to distribute handouts)\n- {配布物|はいふぶつ}⟦を→を：00422_wo⟧⟦{受|う}け{取|と}る→受け取る：01883_uketoru⟧ (to receive handouts)\n- ⟦{授業|じゅぎょう}→授業：00781_jugyou⟧⟦の→の：09472_no⟧{配布物|はいふぶつ} (class handouts)\n\nSIMILAR WORDS:\n- ⟦プリント→プリント：01539_purinto⟧: printout/handout — more casual, commonly used by students\n- ⟦{資料|しりょう}→資料：04166_shiryou⟧: materials/documents — broader term that includes handouts but also reference materials",
   "cross_references": [
     {
       "type": "synonym",
@@ -46,18 +52,36 @@
       "reading": "しりょう",
       "headword": "{資料|しりょう}",
       "label": "materials, documents (broader)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01539_purinto",
+      "reading": "ぷりんと",
+      "headword": "プリント",
+      "label": "printout/handout"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24581_insatsubutsu",
+      "reading": "いんさつぶつ",
+      "headword": "{印刷物|いんさつぶつ}",
+      "label": "printed matter"
     }
   ],
   "metadata": {
     "created": "2026-03-20T02:43:37Z",
-    "modified": "2026-05-08T05:05:08Z",
+    "modified": "2026-09-02T04:01:50Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["education"]
+      "semantic": [
+        "education"
+      ]
     }
   }
 }

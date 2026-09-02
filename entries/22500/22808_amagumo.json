@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22808_amagumo_ex1",
-      "japanese": "{雨雲|あまぐも}が{広|ひろ}がっている。",
+      "japanese": "{雨雲|あまぐも}⟦が→が：00051_ga⟧⟦{広|ひろ}がっている→広がる：01980_hirogaru⟧。",
       "english": "Rain clouds are spreading.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22808_amagumo_ex2",
-      "japanese": "{雨雲|あまぐも}が{近|ちか}づいてきた。",
+      "japanese": "{雨雲|あまぐも}⟦が→が：00051_ga⟧⟦{近|ちか}づいて→近づく：01958_chikazuku⟧きた。",
       "english": "Rain clouds are approaching.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22808_amagumo_ex3",
-      "japanese": "{天気|てんき}{予報|よほう}によると、{午後|ごご}から{雨雲|あまぐも}が{出|で}るらしい。",
+      "japanese": "⟦{天気|てんき}{予報|よほう}→天気予報：01678_tenkiyohou⟧⟦によると→〜によると：03104_niyoruto⟧、⟦{午後|ごご}→午後：00544_gogo⟧⟦から→から：00504_kara⟧{雨雲|あまぐも}⟦が→が：00051_ga⟧⟦{出|で}る→出る：00513_deru⟧らしい。",
       "english": "According to the weather forecast, rain clouds will appear from the afternoon.",
       "sense_numbers": [
         1
@@ -44,20 +44,45 @@
       "notes": null
     }
   ],
-  "notes": "Dark, heavy clouds that bring rain. A compound of {雨|あめ} (rain) and {雲|くも} (cloud), with {雲|くも} voiced to ぐも through rendaku.\n\nCOMMON COLLOCATIONS:\n- {雨雲|あまぐも}が{広|ひろ}がる: rain clouds spread\n- {雨雲|あまぐも}が{近|ちか}づく: rain clouds approach\n- {雨雲|あまぐも}レーダー: rain cloud radar (a popular weather app feature)\n- {厚|あつ}い{雨雲|あまぐも}: thick rain clouds\n\nRELATED TERMS:\n- {入道雲|にゅうどうぐも}: cumulonimbus cloud; towering thundercloud\n- {曇|くも}り: cloudy weather\n- {雷雲|らいうん}: thundercloud",
+  "notes": "Dark, heavy clouds that bring rain. A compound of ⟦{雨|あめ}→雨：00583_ame⟧ (rain) and ⟦{雲|くも}→雲：02202_kumo⟧ (cloud), with ⟦{雲|くも}→雲：02202_kumo⟧ voiced to ぐも through rendaku.\n\nCOMMON COLLOCATIONS:\n- {雨雲|あまぐも}⟦が→が：00051_ga⟧⟦{広|ひろ}がる→広がる：01980_hirogaru⟧: rain clouds spread\n- {雨雲|あまぐも}⟦が→が：00051_ga⟧⟦{近|ちか}づく→近づく：01958_chikazuku⟧: rain clouds approach\n- {雨雲|あまぐも}⟦レーダー→レーダー：11708_reedaa⟧: rain cloud radar (a popular weather app feature)\n- ⟦{厚|あつ}い→厚い：00690_atsui⟧{雨雲|あまぐも}: thick rain clouds\n\nRELATED WORDS:\n- ⟦{入道雲|にゅうどうぐも}→入道雲：10085_nyuudougumo⟧: cumulonimbus cloud; towering thundercloud\n- ⟦{曇|くも}り→曇り：02875_kumori⟧: cloudy weather\n- ⟦{雷雲|らいうん}→雷雲：27189_raiun⟧: thundercloud",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "10085_nyuudougumo",
+      "reading": "にゅうどうぐも",
+      "headword": "{入道雲|にゅうどうぐも}",
+      "label": "cumulonimbus cloud"
+    },
+    {
+      "type": "related",
+      "target_id": "02875_kumori",
+      "reading": "くもり",
+      "headword": "{曇|くも}り",
+      "label": "cloudy weather"
+    },
+    {
+      "type": "related",
+      "target_id": "27189_raiun",
+      "reading": "らいうん",
+      "headword": "{雷雲|らいうん}",
+      "label": "thundercloud"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "nature",
         "weather"
       ]
     },
     "created": "2026-04-07T17:04:47Z",
-    "modified": "2026-04-07T17:04:47Z"
+    "modified": "2026-09-02T04:02:09Z"
   }
 }

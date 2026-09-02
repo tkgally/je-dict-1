@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "09562_saibankan_ex1",
-      "japanese": "{裁判官|さいばんかん}が{判決|はんけつ}を{言|い}い{渡|わた}した。",
+      "japanese": "{裁判官|さいばんかん}⟦が→が：00051_ga⟧⟦{判決|はんけつ}→判決：05906_hanketsu⟧⟦を→を：00422_wo⟧⟦{言|い}い{渡|わた}した→言い渡す：07002_iiwatasu⟧。",
       "english": "The judge delivered the verdict.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "09562_saibankan_ex2",
-      "japanese": "{彼女|かのじょ}は{裁判官|さいばんかん}になりたい。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧{裁判官|さいばんかん}⟦に→に：00314_ni⟧⟦なりたい→なる：01970_naru⟧。",
       "english": "She wants to become a judge.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "09562_saibankan_ex3",
-      "japanese": "{裁判官|さいばんかん}は{中立|ちゅうりつ}でなければならない。",
+      "japanese": "{裁判官|さいばんかん}⟦は→は：00079_ha⟧⟦{中立|ちゅうりつ}→中立：11324_chuuritsu⟧で⟦なければならない→なければならない：27600_nakerebanaranai⟧。",
       "english": "A judge must be impartial.",
       "notes": null,
       "has_audio": false,
@@ -43,15 +43,7 @@
       ]
     }
   ],
-  "notes": "{裁判官|さいばんかん} is the standard term for a judge in a court of law, formed from {裁判|さいばん} (trial) + {官|かん} (official).\n\nCOMMON COLLOCATIONS:\n- {裁判官|さいばんかん}になる: to become a judge\n- {裁判官|さいばんかん}が{判決|はんけつ}を{下|くだ}す: the judge delivers a verdict\n- {裁判官|さいばんかん}が{言|い}い{渡|わた}す: the judge pronounces\n\nCOURTROOM ROLES:\n- {裁判官|さいばんかん}/{判事|はんじ}: judge\n- {裁判長|さいばんちょう}: presiding judge\n- {弁護士|べんごし}: lawyer/attorney\n- {検察官|けんさつかん}: prosecutor\n- {被告人|ひこくにん}: defendant\n\nNOTE:\n{判事|はんじ} is a more formal synonym. In Japan, judges are career professionals who pass the {司法試験|しほうしけん} (bar exam) and complete training at the {司法研修所|しほうけんしゅうじょ}.",
-  "cross_references": [
-    {
-      "type": "related",
-      "reading": "はんじ",
-      "target_id": "00088_hanji",
-      "headword": "{判事|はんじ}"
-    }
-  ],
+  "notes": "{裁判官|さいばんかん} is the standard term for a judge in a court of law, formed from ⟦{裁判|さいばん}→裁判：02773_saiban⟧ (trial) + {官|かん} (official).\n\nCOMMON COLLOCATIONS:\n- {裁判官|さいばんかん}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧: to become a judge\n- {裁判官|さいばんかん}⟦が→が：00051_ga⟧⟦{判決|はんけつ}→判決：05906_hanketsu⟧⟦を→を：00422_wo⟧⟦{下|くだ}す→下す：12329_kudasu⟧: the judge delivers a verdict\n- {裁判官|さいばんかん}⟦が→が：00051_ga⟧⟦{言|い}い{渡|わた}す→言い渡す：07002_iiwatasu⟧: the judge pronounces\n\nCOURTROOM ROLES:\n- {裁判官|さいばんかん}/⟦{判事|はんじ}→判事：00088_hanji⟧: judge\n- ⟦{裁判長|さいばんちょう}→裁判長：09666_saibanchou⟧: presiding judge\n- ⟦{弁護士|べんごし}→弁護士：03150_bengoshi⟧: lawyer/attorney\n- ⟦{検察官|けんさつかん}→検察官：09664_kensatsukan⟧: prosecutor\n- ⟦{被告人|ひこくにん}→被告人：20130_hikokunin⟧: defendant\n\nUSAGE:\n⟦{判事|はんじ}→判事：00088_hanji⟧ is a more formal synonym. In Japan, judges are career professionals who pass the {司法試験|しほうしけん} (bar exam) and complete training at the {司法研修所|しほうけんしゅうじょ}.",
   "cross_references": [
     {
       "type": "related",
@@ -59,11 +51,32 @@
       "reading": "さいばん",
       "headword": "{裁判|さいばん}",
       "label": "trial, court case"
+    },
+    {
+      "type": "related",
+      "target_id": "02112_sabaku",
+      "reading": "さばく",
+      "headword": "{裁|さば}く",
+      "label": "to judge, to handle, to deal with"
+    },
+    {
+      "type": "related",
+      "target_id": "03150_bengoshi",
+      "reading": "べんごし",
+      "headword": "{弁護士|べんごし}",
+      "label": "lawyer, attorney"
+    },
+    {
+      "type": "related",
+      "target_id": "20788_kenji",
+      "reading": "けんじ",
+      "headword": "{検事|けんじ}",
+      "label": "public prosecutor"
     }
   ],
   "metadata": {
     "created": "2026-02-03T00:29:56Z",
-    "modified": "2026-04-23T05:18:28Z",
+    "modified": "2026-09-02T04:01:18Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

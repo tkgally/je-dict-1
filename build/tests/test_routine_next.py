@@ -35,18 +35,19 @@ def fresh_state():
 
 
 def neutral_signals():
-    # candidate_count above the low threshold (80) but below the restock
-    # threshold (150) -> no nudges triggered and the candidates mode is
-    # active; open_backlog_items > 0 so systemic-fix is active.
+    # candidate_count above the low threshold (40) but below the restock
+    # threshold (100) -> no nudges triggered and the candidates mode is
+    # active; open_backlog_items > 0 so systemic-fix is active; wiki not
+    # triggered (no unharvested observations).
     return {
-        "candidate_count": 120,
+        "candidate_count": 80,
         "seen_in_entry_count": 0,
         "max_entry_id": 29000,
         "comprehensive_next": 5936,
         "cross_model_review_next": 1,
         "unharvested_observations": 0,
-        "reviewed_entries": 10,
         "open_backlog_items": 5,
+        "days_since_wiki": 30.0,
     }
 
 
@@ -92,7 +93,8 @@ class TestScheduler(unittest.TestCase):
                 abs(realized - norm[m]), 0.04,
                 f"{m}: realized {realized:.3f} vs target {norm[m]:.3f}",
             )
-            self.assertGreater(tally.get(m, 0), 0)
+            if norm[m] > 0:  # trigger-only modes (wiki) never rotate
+                self.assertGreater(tally.get(m, 0), 0)
 
     def test_removed_mode_never_selected(self):
         cfg = base_config(enabled=["polish", "accuracy-review", "new-entries", "wiki"])
@@ -105,7 +107,7 @@ class TestScheduler(unittest.TestCase):
         sig["open_backlog_items"] = 0
         tally, _ = simulate(cfg, sig, remaining=5.0, n=2000)
         self.assertNotIn("systemic-fix", tally)
-        for m in ("polish", "new-entries", "wiki"):
+        for m in ("polish", "new-entries", "accuracy-review"):
             self.assertGreater(tally.get(m, 0), 0)
 
     def test_systemic_fix_runs_when_backlog_present(self):
@@ -132,14 +134,17 @@ class TestScheduler(unittest.TestCase):
         cfg = base_config()
         tally, _ = simulate(cfg, neutral_signals(), remaining=0.0, n=2000)
         self.assertNotIn("accuracy-review", tally)
-        for m in ("polish", "new-entries", "wiki"):
+        for m in ("polish", "new-entries", "systemic-fix"):
             self.assertGreater(tally.get(m, 0), 0)
 
     def test_anti_repeat_no_back_to_back_heavy_mode(self):
         cfg = base_config(enabled=["new-entries", "wiki"])
         cfg["weights"] = {**cfg["weights"], "new-entries": 0.5, "wiki": 0.5}
         state = fresh_state()
-        mult, _ = rn.compute_multipliers(neutral_signals(), cfg, remaining=5.0)
+        sig = neutral_signals()
+        sig["unharvested_observations"] = 45  # wiki triggered, so both eligible
+        sig["days_since_wiki"] = 10.0
+        mult, _ = rn.compute_multipliers(sig, cfg, remaining=5.0)
         picks = []
         for _ in range(200):
             choice, debt, *_ = rn.select_mode(cfg, state, mult)
@@ -167,7 +172,7 @@ class TestNudges(unittest.TestCase):
     def test_candidates_low_downnudges_new_entries(self):
         cfg = base_config()
         sig = neutral_signals()
-        sig["candidate_count"] = 10  # below low threshold (80)
+        sig["candidate_count"] = 10  # below low threshold (40)
         mult, reasons = rn.compute_multipliers(sig, cfg, remaining=5.0)
         self.assertLess(mult["new-entries"], 1.0)
         self.assertTrue(any("candidates low" in r for r in reasons["new-entries"]))
@@ -175,26 +180,70 @@ class TestNudges(unittest.TestCase):
     def test_candidates_mode_suppressed_when_queue_stocked(self):
         cfg = base_config()
         sig = neutral_signals()
-        sig["candidate_count"] = 500  # above restock threshold (150)
+        sig["candidate_count"] = 500  # above restock threshold (100)
         tally, _ = simulate(cfg, sig, remaining=5.0, n=2000)
         self.assertNotIn("candidates", tally)
-        for m in ("polish", "new-entries", "wiki"):
+        for m in ("polish", "new-entries", "systemic-fix"):
             self.assertGreater(tally.get(m, 0), 0)
 
     def test_candidates_mode_runs_when_queue_below_restock(self):
         cfg = base_config()
         sig = neutral_signals()
-        sig["candidate_count"] = 100  # below restock threshold, above low
+        sig["candidate_count"] = 80  # below restock threshold, above low
         tally, _ = simulate(cfg, sig, remaining=5.0, n=2000)
         self.assertGreater(tally.get("candidates", 0), 0)
 
     def test_candidates_mode_boosted_when_queue_nearly_empty(self):
         cfg = base_config()
         sig = neutral_signals()
-        sig["candidate_count"] = 20  # below low threshold (80)
+        sig["candidate_count"] = 20  # below low threshold (40)
         mult, reasons = rn.compute_multipliers(sig, cfg, remaining=5.0)
         self.assertEqual(mult["candidates"], 1.5)
         self.assertTrue(any("restock" in r for r in reasons["candidates"]))
+
+
+class TestWikiTrigger(unittest.TestCase):
+    def test_wiki_never_rotates_without_trigger(self):
+        cfg = base_config()
+        sig = neutral_signals()
+        tally, _ = simulate(cfg, sig, remaining=5.0, n=3000)
+        self.assertNotIn("wiki", tally)
+
+    def test_wiki_runs_when_observations_pile_up(self):
+        cfg = base_config()
+        sig = neutral_signals()
+        sig["unharvested_observations"] = 45
+        sig["days_since_wiki"] = 10.0
+        mult, reasons = rn.compute_multipliers(sig, cfg, remaining=5.0)
+        self.assertEqual(mult["wiki"], 1.0)
+        self.assertTrue(any("triggered" in r for r in reasons["wiki"]))
+        tally, _ = simulate(cfg, sig, remaining=5.0, n=100)
+        self.assertGreater(tally.get("wiki", 0), 0)
+        # effective weight comes from the floor, so wiki stays a minority
+        self.assertLess(tally["wiki"], tally["polish"])
+
+    def test_wiki_not_retriggered_within_min_days(self):
+        cfg = base_config()
+        sig = neutral_signals()
+        sig["unharvested_observations"] = 45
+        sig["days_since_wiki"] = 2.0
+        mult, _ = rn.compute_multipliers(sig, cfg, remaining=5.0)
+        self.assertEqual(mult["wiki"], 0.0)
+
+    def test_all_suppressed_falls_back_to_polish(self):
+        cfg = base_config(enabled=["accuracy-review", "candidates", "polish"])
+        sig = neutral_signals()
+        sig["candidate_count"] = 500
+        mult, _ = rn.compute_multipliers(sig, cfg, remaining=0.0)
+        choice, *_ = rn.select_mode(cfg, fresh_state(), mult)
+        self.assertEqual(choice, "polish")
+
+    def test_days_since_mode_reads_history(self):
+        st = fresh_state()
+        st["history"] = [{"at": "2026-01-01T00:00:00+00:00", "mode": "wiki"},
+                         {"at": "2026-01-02T00:00:00+00:00", "mode": "polish"}]
+        self.assertGreater(rn.days_since_mode(st, "wiki"), 100)
+        self.assertEqual(rn.days_since_mode(st, "systemic-fix"), 9999.0)
 
 
 class TestForceAndParams(unittest.TestCase):
@@ -220,13 +269,13 @@ class TestForceAndParams(unittest.TestCase):
         sig = neutral_signals()
         sig["candidate_count"] = 20
         p = rn.build_params("candidates", sig, cfg, remaining=5.0)
-        self.assertEqual(p["queue_count"], 20)
-        # deficit 150+20-20 = 150, capped at 60
+        self.assertEqual(p["source"], "internal_closure")
+        # deficit 100+20-20 = 100, capped at 60
         self.assertEqual(p["approx_new"], 60)
-        sig["candidate_count"] = 140
+        sig["candidate_count"] = 95
         p = rn.build_params("candidates", sig, cfg, remaining=5.0)
-        # deficit 30, floored at 40
-        self.assertEqual(p["approx_new"], 40)
+        # deficit 25, floored at 30
+        self.assertEqual(p["approx_new"], 30)
 
 
 if __name__ == "__main__":

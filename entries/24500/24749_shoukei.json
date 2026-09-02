@@ -3,7 +3,7 @@
   "headword": "{承継|しょうけい}",
   "reading": "しょうけい",
   "romaji": "shoukei",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "succession; inheritance",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24749_shoukei_ex1",
-      "japanese": "{事業|じぎょう}を{承継|しょうけい}する。",
+      "japanese": "⟦{事業|じぎょう}→事業：11421_jigyou⟧⟦を→を：00422_wo⟧{承継|しょうけい}⟦する→する：00392_suru⟧。",
       "english": "To take over a business.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24749_shoukei_ex2",
-      "japanese": "{父|ちち}から{権利|けんり}を{承継|しょうけい}した。",
+      "japanese": "⟦{父|ちち}→父：00566_chichi⟧⟦から→から：00504_kara⟧⟦{権利|けんり}→権利：02711_kenri⟧⟦を→を：00422_wo⟧{承継|しょうけい}⟦した→する：00392_suru⟧。",
       "english": "I inherited the rights from my father.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24749_shoukei_ex3",
-      "japanese": "{会社|かいしゃ}の{合併|がっぺい}により、すべての{債務|さいむ}は{新会社|しんがいしゃ}に{承継|しょうけい}される。",
+      "japanese": "⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦の→の：09472_no⟧⟦{合併|がっぺい}→合併：04778_gappei⟧⟦に→に：00314_ni⟧⟦より→より：09476_yori⟧、すべて⟦の→の：09472_no⟧⟦{債務|さいむ}→債務：06578_saimu⟧⟦は→は：00079_ha⟧{新会社|しんがいしゃ}⟦に→に：00314_ni⟧{承継|しょうけい}⟦される→する：00392_suru⟧。",
       "english": "Due to the merger, all debts will be succeeded to by the new company.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {承|しょう} (to receive, accept) and {継|けい} (to succeed, continue). This is a formal, primarily legal term for succession of rights, duties, property, or positions.\n\nUsed extensively in legal documents, corporate law, and official contexts. In everyday conversation, {引|ひ}き{継|つ}ぐ or {受|う}け{継|つ}ぐ would be used instead.\n\nCOMMON COLLOCATIONS:\n- {事業|じぎょう}{承継|しょうけい}: business succession\n- {権利|けんり}の{承継|しょうけい}: succession of rights\n- {地位|ちい}の{承継|しょうけい}: succession to a position\n- {包括|ほうかつ}{承継|しょうけい}: universal succession\n\nSIMILAR WORDS:\n- {継承|けいしょう}: inheritance, succession — more broadly used for traditions, culture, and techniques as well as legal matters\n- {相続|そうぞく}: inheritance — specifically the legal inheritance of property after death\n- {引|ひ}き{継|つ}ぎ: handover, taking over — everyday word for passing on work or responsibilities",
+  "notes": "A compound of {承|しょう} (to receive, accept) and {継|けい} (to succeed, continue). This is a formal, primarily legal term for succession of rights, duties, property, or positions.\n\nUsed extensively in legal documents, corporate law, and official contexts. In everyday conversation, ⟦{引|ひ}き{継|つ}ぐ→引き継ぐ：12458_hikitsugu⟧ or ⟦{受|う}け{継|つ}ぐ→受け継ぐ：06700_uketsugu⟧ would be used instead.\n\nCOMMON COLLOCATIONS:\n- ⟦{事業|じぎょう}→事業：11421_jigyou⟧{承継|しょうけい}: business succession\n- ⟦{権利|けんり}→権利：02711_kenri⟧⟦の→の：09472_no⟧{承継|しょうけい}: succession of rights\n- ⟦{地位|ちい}→地位：03427_chii⟧⟦の→の：09472_no⟧{承継|しょうけい}: succession to a position\n- ⟦{包括|ほうかつ}→包括：11931_houkatsu⟧{承継|しょうけい}: universal succession\n\nSIMILAR WORDS:\n- ⟦{継承|けいしょう}→継承：13841_keishou⟧: inheritance, succession — more broadly used for traditions, culture, and techniques as well as legal matters\n- ⟦{相続|そうぞく}→相続：03690_souzoku⟧: inheritance — specifically the legal inheritance of property after death\n- ⟦{引|ひ}き{継|つ}ぎ→引き継ぎ：08365_hikitsugi⟧: handover, taking over — everyday word for passing on work or responsibilities",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13841_keishou",
+      "reading": "けいしょう",
+      "headword": "{継承|けいしょう}",
+      "label": "inheritance, succession"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03690_souzoku",
+      "reading": "そうぞく",
+      "headword": "{相続|そうぞく}",
+      "label": "inheritance"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08365_hikitsugi",
+      "reading": "ひきつぎ",
+      "headword": "{引|ひ}き{継|つ}ぎ",
+      "label": "handover, taking over"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,14 +76,16 @@
         "noun",
         "verb-suru"
       ],
+      "politeness": "plain",
       "semantic": [
         "law",
         "business"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-04-20T14:31:31Z",
-    "modified": "2026-08-03T09:22:27Z"
+    "modified": "2026-09-02T04:02:19Z"
   },
   "conjugation": {
     "type": "suru",

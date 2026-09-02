@@ -15,40 +15,66 @@
   "examples": [
     {
       "id": "22191_tadano_ex1",
-      "japanese": "ただの{風邪|かぜ}だから{心配|しんぱい}しないで。",
+      "japanese": "ただの⟦{風邪|かぜ}→風邪：02188_kaze⟧だ⟦から→から：00504_kara⟧⟦{心配|しんぱい}しない→心配する：06066_shinpaisuru⟧で。",
       "english": "It's just a cold, so don't worry.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "22191_tadano_ex2",
-      "japanese": "{私|わたし}はただの{学生|がくせい}です。",
+      "japanese": "⟦{私|わたし}→私：02988_watashi⟧⟦は→は：00079_ha⟧ただの⟦{学生|がくせい}→学生：00610_gakusei⟧です。",
       "english": "I'm just a student.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "22191_tadano_ex3",
-      "japanese": "これはただの{噂|うわさ}だと{思|おも}うけど、{社長|しゃちょう}が{辞|や}めるかもしれないらしい。",
+      "japanese": "⟦これ→これ：00963_kore⟧⟦は→は：00079_ha⟧ただの⟦{噂|うわさ}→噂：01871_uwasa⟧だ⟦と→と：00512_to⟧⟦{思|おも}う→思う：00492_omou⟧⟦けど→けど：09477_kedo⟧、⟦{社長|しゃちょう}→社長：01428_shachou⟧⟦が→が：00051_ga⟧{辞|や}める⟦かもしれない→かもしれない：00164_kamoshirenai⟧らしい。",
       "english": "I think it's just a rumor, but apparently the company president might resign.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Always appears directly before a noun: ただの＋noun. Can express modesty (ただの{主婦|しゅふ}です — I'm just a housewife) or dismissal (ただの{冗談|じょうだん} — it's just a joke). Often used to downplay significance.\n\nCOMMON PATTERNS:\n- ただの{風邪|かぜ} — just a cold\n- ただの{冗談|じょうだん} — just a joke\n- ただの{友達|ともだち} — just a friend\n- ただの{偶然|ぐうぜん} — mere coincidence\n- ただ{者|もの}ではない — not ordinary, not someone to underestimate\n\nSIMILAR WORDS:\n- {単|たん}なる — mere (more formal/written equivalent)\n- ほんの — just, only (emphasizes smallness: ほんの{少|すこ}し — just a little)\n- {普通|ふつう}の — normal, ordinary (neutral, does not carry the dismissive nuance)",
+  "notes": "Always appears directly before a noun: ただの＋noun. Can express modesty (ただの⟦{主婦|しゅふ}→主婦：03225_shufu⟧です — I'm just a housewife) or dismissal (ただの⟦{冗談|じょうだん}→冗談：03347_joudan⟧ — it's just a joke). Often used to downplay significance.\n\nCOMMON PATTERNS:\n- ただの⟦{風邪|かぜ}→風邪：02188_kaze⟧ — just a cold\n- ただの⟦{冗談|じょうだん}→冗談：03347_joudan⟧ — just a joke\n- ただの⟦{友達|ともだち}→友達：01478_tomodachi⟧ — just a friend\n- ただの⟦{偶然|ぐうぜん}→偶然：02674_guuzen⟧ — mere coincidence\n- ただ{者|もの}⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦ない→ない：01118_nai⟧ — not ordinary, not someone to underestimate\n\nSIMILAR WORDS:\n- ⟦{単|たん}なる→単なる：01757_tannaru⟧ — mere (more formal/written equivalent)\n- ⟦ほんの→ほんの：22755_honno⟧ — just, only (emphasizes smallness: ⟦ほんの→ほんの：22755_honno⟧⟦{少|すこ}し→少し：00596_sukoshi⟧ — just a little)\n- ⟦{普通|ふつう}→普通：01502_futsuu⟧⟦の→の：09472_no⟧ — normal, ordinary (neutral, does not carry the dismissive nuance)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01757_tannaru",
+      "reading": "たんなる",
+      "headword": "{単|たん}なる",
+      "label": "mere"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22755_honno",
+      "reading": "ほんの",
+      "headword": "ほんの",
+      "label": "just, only (emphasizes smallness"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["pre-noun-adjectival"],
+      "pos": [
+        "pre-noun-adjectival"
+      ],
       "formality": "informal",
       "politeness": "plain",
-      "semantic": ["evaluation"]
+      "semantic": [
+        "evaluation"
+      ]
     },
     "created": "2026-04-05T04:32:39Z",
-    "modified": "2026-04-10T07:12:46Z"
+    "modified": "2026-09-02T04:02:07Z"
   }
 }

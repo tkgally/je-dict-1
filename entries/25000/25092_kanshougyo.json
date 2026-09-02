@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25092_kanshougyo_ex1",
-      "japanese": "{観賞魚|かんしょうぎょ}を{飼|か}い{始|はじ}めた。",
+      "japanese": "{観賞魚|かんしょうぎょ}⟦を→を：00422_wo⟧⟦{飼|か}い→飼う：08151_kau⟧⟦{始|はじ}めた→始める：00531_hajimeru⟧。",
       "english": "I started keeping ornamental fish.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25092_kanshougyo_ex2",
-      "japanese": "ペットショップの{観賞魚|かんしょうぎょ}コーナーで{熱帯魚|ねったいぎょ}を{選|えら}んだ。",
+      "japanese": "⟦ペット→ペット：02959_petto⟧⟦ショップ→ショップ：08913_shoppu⟧⟦の→の：09472_no⟧{観賞魚|かんしょうぎょ}⟦コーナー→コーナー：10865_koonaa⟧⟦で→で：00502_de⟧⟦{熱帯魚|ねったいぎょ}→熱帯魚：19146_nettaigyo⟧⟦を→を：00422_wo⟧⟦{選|えら}んだ→選ぶ：00835_erabu⟧。",
       "english": "I chose tropical fish at the ornamental fish section of the pet shop.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25092_kanshougyo_ex3",
-      "japanese": "{観賞魚|かんしょうぎょ}の{水槽|すいそう}は{定期的|ていきてき}に{水|みず}を{替|か}えないと{魚|さかな}が{病気|びょうき}になる。",
+      "japanese": "{観賞魚|かんしょうぎょ}⟦の→の：09472_no⟧⟦{水槽|すいそう}→水槽：09956_suisou⟧⟦は→は：00079_ha⟧⟦{定期的|ていきてき}→定期的：06173_teikiteki⟧⟦に→に：00314_ni⟧⟦{水|みず}→水：02258_mizu⟧⟦を→を：00422_wo⟧⟦{替|か}えない→替える：13399_kaeru⟧⟦と→と：00512_to⟧⟦{魚|さかな}→魚：00499_sakana⟧⟦が→が：00051_ga⟧⟦{病気|びょうき}→病気：00771_byouki⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧。",
       "english": "If you don't change the water in an ornamental fish tank regularly, the fish will get sick.",
       "sense_numbers": [
         1
@@ -44,20 +44,45 @@
       "notes": null
     }
   ],
-  "notes": "Combines {観賞|かんしょう} (appreciation, viewing for enjoyment) and {魚|ぎょ} (fish). Japan has a long tradition of keeping ornamental fish, especially {金魚|きんぎょ} (goldfish) and {錦鯉|にしきごい} (koi), which date back centuries.\n\nCOMMON COLLOCATIONS:\n- {観賞魚|かんしょうぎょ}を{飼|か}う: to keep ornamental fish\n- {観賞魚|かんしょうぎょ}{専門店|せんもんてん}: ornamental fish specialty shop\n- {観賞魚|かんしょうぎょ}の{水槽|すいそう}: ornamental fish tank\n- {観賞魚|かんしょうぎょ}{用品|ようひん}: ornamental fish supplies\n\nSIMILAR WORDS:\n- {熱帯魚|ねったいぎょ}: tropical fish — a subcategory of ornamental fish from warm waters\n- {金魚|きんぎょ}: goldfish — the most traditional ornamental fish in Japan\n- {錦鯉|にしきごい}: ornamental koi — colorful carp kept in ponds",
+  "notes": "Combines ⟦{観賞|かんしょう}→観賞：14195_kanshou⟧ (appreciation, viewing for enjoyment) and {魚|ぎょ} (fish). Japan has a long tradition of keeping ornamental fish, especially ⟦{金魚|きんぎょ}→金魚：00233_kingyo⟧ (goldfish) and ⟦{錦鯉|にしきごい}→錦鯉：14513_nishikigoi⟧ (koi), which date back centuries.\n\nCOMMON COLLOCATIONS:\n- {観賞魚|かんしょうぎょ}⟦を→を：00422_wo⟧⟦{飼|か}う→飼う：08151_kau⟧: to keep ornamental fish\n- {観賞魚|かんしょうぎょ}⟦{専門店|せんもんてん}→専門店：15924_senmonten⟧: ornamental fish specialty shop\n- {観賞魚|かんしょうぎょ}⟦の→の：09472_no⟧⟦{水槽|すいそう}→水槽：09956_suisou⟧: ornamental fish tank\n- {観賞魚|かんしょうぎょ}⟦{用品|ようひん}→用品：13526_youhin⟧: ornamental fish supplies\n\nSIMILAR WORDS:\n- ⟦{熱帯魚|ねったいぎょ}→熱帯魚：19146_nettaigyo⟧: tropical fish — a subcategory of ornamental fish from warm waters\n- ⟦{金魚|きんぎょ}→金魚：00233_kingyo⟧: goldfish — the most traditional ornamental fish in Japan\n- ⟦{錦鯉|にしきごい}→錦鯉：14513_nishikigoi⟧: ornamental koi — colorful carp kept in ponds",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19146_nettaigyo",
+      "reading": "ねったいぎょ",
+      "headword": "{熱帯魚|ねったいぎょ}",
+      "label": "tropical fish"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00233_kingyo",
+      "reading": "きんぎょ",
+      "headword": "{金魚|きんぎょ}",
+      "label": "goldfish"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14513_nishikigoi",
+      "reading": "にしきごい",
+      "headword": "{錦鯉|にしきごい}",
+      "label": "ornamental koi"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "animal-general",
         "leisure"
       ]
     },
     "created": "2026-04-22T14:40:17Z",
-    "modified": "2026-08-03T09:22:27Z"
+    "modified": "2026-09-02T04:02:21Z"
   }
 }

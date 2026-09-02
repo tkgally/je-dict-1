@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "19709_datemegane_ex1",
-      "japanese": "{伊達眼鏡|だてめがね}をかける。",
+      "japanese": "{伊達眼鏡|だてめがね}⟦を→を：00422_wo⟧⟦かける→かける：00854_kakeru⟧。",
       "english": "To wear fashion glasses.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "19709_datemegane_ex2",
-      "japanese": "あの{眼鏡|めがね}は{伊達眼鏡|だてめがね}で、{度|ど}は{入|はい}っていない。",
+      "japanese": "⟦あの→あの：00915_ano⟧⟦{眼鏡|めがね}→眼鏡：00651_megane⟧⟦は→は：00079_ha⟧{伊達眼鏡|だてめがね}で、⟦{度|ど}→〜度：09845_do⟧⟦は→は：00079_ha⟧⟦{入|はい}っていない→入る：00494_hairu⟧。",
       "english": "Those glasses are just for fashion — they have no prescription.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "19709_datemegane_ex3",
-      "japanese": "{知的|ちてき}な{印象|いんしょう}を{与|あた}えたくて、{伊達眼鏡|だてめがね}をかけて{面接|めんせつ}に{行|い}った。",
+      "japanese": "⟦{知的|ちてき}→知的：13700_chiteki⟧な⟦{印象|いんしょう}→印象：01846_inshou⟧⟦を→を：00422_wo⟧⟦{与|あた}えたくて→与える：01821_ataeru⟧、{伊達眼鏡|だてめがね}⟦を→を：00422_wo⟧⟦かけて→かける：00854_kakeru⟧⟦{面接|めんせつ}→面接：01100_mensetsu⟧⟦に→に：00314_ni⟧⟦{行|い}った→行く：00119_iku⟧。",
       "english": "Wanting to give an intellectual impression, I wore fashion glasses to the interview.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {伊達|だて} (showing off, for appearance) + {眼鏡|めがね} (glasses). The word {伊達|だて} here means 'for show' or 'for style,' from the same root as the expression {伊達|だて}じゃない ('not just for show'). Sometimes written in kana as だてめがね or だて{眼鏡|めがね}.\n\nCOMMON COLLOCATIONS:\n- {伊達眼鏡|だてめがね}をかける — to wear fashion glasses\n- {伊達眼鏡|だてめがね}をはずす — to take off fashion glasses\n- {度|ど}なしの{眼鏡|めがね} — non-prescription glasses (alternative expression)\n\nCULTURAL NOTE:\nFashion glasses are a popular accessory in Japan, commonly worn to create a more intellectual or stylish look. They are sold at variety shops and fashion stores alongside regular accessories.\n\nRELATED WORDS:\n- {眼鏡|めがね} — glasses (general)\n- サングラス — sunglasses\n- {老眼鏡|ろうがんきょう} — reading glasses (for presbyopia)",
+  "notes": "Composed of {伊達|だて} (showing off, for appearance) + ⟦{眼鏡|めがね}→眼鏡：00651_megane⟧ (glasses). The word {伊達|だて} here means 'for show' or 'for style,' from the same root as the expression {伊達|だて}⟦じゃない→じゃない：28483_janai⟧ ('not just for show'). Sometimes written in kana as だてめがね or だて⟦{眼鏡|めがね}→眼鏡：00651_megane⟧.\n\nCOMMON COLLOCATIONS:\n- {伊達眼鏡|だてめがね}⟦を→を：00422_wo⟧⟦かける→かける：00854_kakeru⟧ — to wear fashion glasses\n- {伊達眼鏡|だてめがね}⟦を→を：00422_wo⟧はずす — to take off fashion glasses\n- {度|ど}なし⟦の→の：09472_no⟧⟦{眼鏡|めがね}→眼鏡：00651_megane⟧ — non-prescription glasses (alternative expression)\n\nCULTURAL NOTE:\nFashion glasses are a popular accessory in Japan, commonly worn to create a more intellectual or stylish look. They are sold at variety shops and fashion stores alongside regular accessories.\n\nRELATED WORDS:\n- ⟦{眼鏡|めがね}→眼鏡：00651_megane⟧ — glasses (general)\n- ⟦サングラス→サングラス：04535_sangurasu⟧ — sunglasses\n- ⟦{老眼鏡|ろうがんきょう}→老眼鏡：19227_rougankyou⟧ — reading glasses (for presbyopia)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "04535_sangurasu",
+      "reading": "さんぐらす",
+      "headword": "サングラス",
+      "label": "sunglasses"
+    },
+    {
+      "type": "related",
+      "target_id": "19227_rougankyou",
+      "reading": "ろうがんきょう",
+      "headword": "{老眼鏡|ろうがんきょう}",
+      "label": "reading glasses"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +75,6 @@
       ]
     },
     "created": "2026-03-26T14:28:26Z",
-    "modified": "2026-07-27T12:42:09Z"
+    "modified": "2026-09-02T04:01:56Z"
   }
 }

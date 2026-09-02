@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "12991_bungo_ex1",
-      "japanese": "{文語|ぶんご}と{口語|こうご}は{大|おお}きく{異|こと}なる。",
+      "japanese": "{文語|ぶんご}⟦と→と：00512_to⟧⟦{口語|こうご}→口語：12033_kougo⟧⟦は→は：00079_ha⟧⟦{大|おお}きく→大きい：00335_ookii⟧⟦{異|こと}なる→異なる：02101_kotonaru⟧。",
       "english": "Literary language and spoken language differ greatly.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12991_bungo_ex2",
-      "japanese": "この{表現|ひょうげん}は{文語|ぶんご}{的|てき}で、{日常|にちじょう}{会話|かいわ}では{使|つか}わない。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{表現|ひょうげん}→表現：03584_hyougen⟧⟦は→は：00079_ha⟧{文語|ぶんご}⟦{的|てき}→〜的：09839_teki⟧で、⟦{日常|にちじょう}→日常：01595_nichijou⟧⟦{会話|かいわ}→会話：01271_kaiwa⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{使|つか}わない→使う：00473_tsukau⟧。",
       "english": "This expression is literary and is not used in everyday conversation.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12991_bungo_ex3",
-      "japanese": "{古典|こてん}を{読|よ}むためには{文語|ぶんご}{文法|ぶんぽう}の{知識|ちしき}が{必要|ひつよう}だ。",
+      "japanese": "⟦{古典|こてん}→古典：00242_koten⟧⟦を→を：00422_wo⟧⟦{読|よ}む→読む：00426_yomu⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{文語|ぶんご}⟦{文法|ぶんぽう}→文法：01506_bunpou⟧⟦の→の：09472_no⟧⟦{知識|ちしき}→知識：01463_chishiki⟧⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧だ。",
       "english": "Knowledge of classical grammar is necessary to read the classics.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nIn Japanese linguistics, {文語|ぶんご} specifically refers to the classical written language ({文語体|ぶんごたい}) based on Heian-period grammar, as distinct from modern colloquial Japanese ({口語|こうご}/{口語体|こうごたい}). The contrast {文語|ぶんご} vs. {口語|こうご} is fundamental in Japanese language education.\n\nCOMMON COLLOCATIONS:\n- {文語|ぶんご}{文法|ぶんぽう}: classical grammar\n- {文語|ぶんご}{体|たい}: literary style\n- {文語|ぶんご}{的|てき}: literary (in style)\n- {文語|ぶんご}{表現|ひょうげん}: literary expression\n\nSIMILAR WORDS:\n- {口語|こうご}: spoken/colloquial language (antonym)\n- {古語|こご}: archaic word, old Japanese\n- {書き{言葉|ことば}|かきことば}: written language (everyday term)",
+  "notes": "USAGE:\nIn Japanese linguistics, {文語|ぶんご} specifically refers to the classical written language ({文語体|ぶんごたい}) based on Heian-period grammar, as distinct from modern colloquial Japanese (⟦{口語|こうご}→口語：12033_kougo⟧/⟦{口語体|こうごたい}→口語体：24859_kougotai⟧). The contrast {文語|ぶんご} vs. ⟦{口語|こうご}→口語：12033_kougo⟧ is fundamental in Japanese language education.\n\nCOMMON COLLOCATIONS:\n- {文語|ぶんご}⟦{文法|ぶんぽう}→文法：01506_bunpou⟧: classical grammar\n- {文語|ぶんご}{体|たい}: literary style\n- {文語|ぶんご}⟦{的|てき}→〜的：09839_teki⟧: literary (in style)\n- {文語|ぶんご}⟦{表現|ひょうげん}→表現：03584_hyougen⟧: literary expression\n\nSIMILAR WORDS:\n- ⟦{口語|こうご}→口語：12033_kougo⟧: spoken/colloquial language (antonym)\n- ⟦{古語|こご}→古語：12065_kogo⟧: archaic word, old Japanese\n- {書き{言葉|ことば}|かきことば}: written language (everyday term)",
   "cross_references": [
     {
       "type": "antonym",
@@ -46,19 +52,39 @@
       "reading": "こうご",
       "headword": "{口語|こうご}",
       "label": "spoken language"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12065_kogo",
+      "reading": "こご",
+      "headword": "{古語|こご}",
+      "label": "archaic word, old Japanese"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25961_kakikotoba",
+      "reading": "かきことば",
+      "headword": "{書|か}き{言葉|ことば}",
+      "label": "written language"
     }
   ],
   "metadata": {
     "created": "2026-02-23T05:10:28Z",
-    "modified": "2026-04-25T10:12:38Z",
+    "modified": "2026-09-02T04:01:31Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["language"],
-      "domain": ["academic"]
+      "semantic": [
+        "language"
+      ],
+      "domain": [
+        "academic"
+      ]
     }
   }
 }

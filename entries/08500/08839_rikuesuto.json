@@ -2,7 +2,7 @@
   "id": "08839_rikuesuto",
   "headword": "リクエスト",
   "reading": "りくえすと",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "request",
   "conjugation": {
     "type": "suru",
@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "08839_rikuesuto_ex1",
-      "japanese": "ラジオに{曲|きょく}をリクエストした。",
+      "japanese": "⟦ラジオ→ラジオ：01541_rajio⟧⟦に→に：00314_ni⟧⟦{曲|きょく}→曲：09881_kyoku⟧⟦を→を：00422_wo⟧リクエスト⟦した→する：00392_suru⟧。",
       "english": "I requested a song on the radio.",
       "sense_numbers": [
         1
@@ -114,7 +114,7 @@
     },
     {
       "id": "08839_rikuesuto_ex2",
-      "japanese": "お{客様|きゃくさま}のリクエストに{応|こた}える。",
+      "japanese": "⟦お{客様|きゃくさま}→お客様：08780_okyakusama⟧⟦の→の：09472_no⟧リクエスト⟦に→に：00314_ni⟧⟦{応|こた}える→応える：09893_kotaeru⟧。",
       "english": "To respond to a customer's request.",
       "sense_numbers": [
         1
@@ -124,7 +124,7 @@
     },
     {
       "id": "08839_rikuesuto_ex3",
-      "japanese": "リクエストがあれば{何|なん}でも{言|い}ってください。",
+      "japanese": "リクエスト⟦が→が：00051_ga⟧⟦あれば→ある：00006_aru⟧⟦{何|なん}→何〜：03100_nan⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧⟦{言|い}って→言う：00515_iu⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please tell me if you have any requests.",
       "sense_numbers": [
         1
@@ -133,7 +133,7 @@
       "notes": null
     }
   ],
-  "notes": "COMMON USAGES:\n- {曲|きょく}のリクエスト - song request\n- リクエストに{応|こた}える - to fulfill a request\n- リクエスト{曲|きょく} - requested song\n\nCONTEXTS:\n- ラジオ/DJ - radio/DJ requests\n- カラオケ - karaoke song requests\n- レストラン - restaurant special orders\n- ホテル - hotel service requests\n\nRELATED EXPRESSIONS:\n- ご{要望|ようぼう} - request/wish (more formal)\n- お{願|ねが}い - request/favor\n- {注文|ちゅうもん} - order (for products/food)\n\nSOCIAL MEDIA:\n- フォローリクエスト - follow request\n- フレンドリクエスト - friend request",
+  "notes": "COMMON USAGES:\n- ⟦{曲|きょく}→曲：09881_kyoku⟧⟦の→の：09472_no⟧リクエスト - song request\n- リクエスト⟦に→に：00314_ni⟧⟦{応|こた}える→応える：09893_kotaeru⟧ - to fulfill a request\n- リクエスト⟦{曲|きょく}→曲：09881_kyoku⟧ - requested song\n\nUSAGE:\n- ⟦ラジオ→ラジオ：01541_rajio⟧/DJ - radio/DJ requests\n- ⟦カラオケ→カラオケ：05080_karaoke⟧ - karaoke song requests\n- ⟦レストラン→レストラン：01048_resutoran⟧ - restaurant special orders\n- ⟦ホテル→ホテル：01027_hoteru⟧ - hotel service requests\n\nRELATED WORDS:\n- ご⟦{要望|ようぼう}→要望：14111_youbou⟧ - request/wish (more formal)\n- ⟦お{願|ねが}い→お願い：10299_onegai⟧ - request/favor\n- ⟦{注文|ちゅうもん}→注文：03485_chuumon⟧ - order (for products/food)\n\nSOCIAL MEDIA:\n- フォローリクエスト - follow request\n- フレンドリクエスト - friend request",
   "cross_references": [
     {
       "type": "synonym",
@@ -141,6 +141,20 @@
       "reading": "ようぼう",
       "headword": "{要望|ようぼう}",
       "label": "formal"
+    },
+    {
+      "type": "related",
+      "target_id": "10299_onegai",
+      "reading": "おねがい",
+      "headword": "お{願|ねが}い",
+      "label": "request/favor"
+    },
+    {
+      "type": "related",
+      "target_id": "03485_chuumon",
+      "reading": "ちゅうもん",
+      "headword": "{注文|ちゅうもん}",
+      "label": "order"
     }
   ],
   "metadata": {
@@ -155,6 +169,6 @@
       "verb_class": "suru"
     },
     "created": "2026-01-28T14:45:41Z",
-    "modified": "2026-04-22T06:07:44Z"
+    "modified": "2026-09-02T04:01:16Z"
   }
 }

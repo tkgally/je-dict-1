@@ -3,7 +3,7 @@
   "headword": "{講読|こうどく}",
   "reading": "こうどく",
   "romaji": "koudoku",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "reading and study of texts; close reading",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "23075_koudoku_ex1",
-      "japanese": "{英語|えいご}の{文献|ぶんけん}を{講読|こうどく}する。",
+      "japanese": "⟦{英語|えいご}→英語：02274_eigo⟧⟦の→の：09472_no⟧⟦{文献|ぶんけん}→文献：12885_bunken⟧⟦を→を：00422_wo⟧{講読|こうどく}⟦する→する：00392_suru⟧。",
       "english": "To study English-language texts.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "23075_koudoku_ex2",
-      "japanese": "{大学|だいがく}の{授業|じゅぎょう}でドイツ{語|ご}{講読|こうどく}を{取|と}った。",
+      "japanese": "⟦{大学|だいがく}→大学：00608_daigaku⟧⟦の→の：09472_no⟧⟦{授業|じゅぎょう}→授業：00781_jugyou⟧⟦で→で：00502_de⟧⟦ドイツ{語|ご}→ドイツ語：28074_doitsugo⟧{講読|こうどく}⟦を→を：00422_wo⟧⟦{取|と}った→取る：00565_toru⟧。",
       "english": "I took a German text reading course at university.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "23075_koudoku_ex3",
-      "japanese": "ゼミでは{古典|こてん}{文学|ぶんがく}の{講読|こうどく}を{通|とお}して、{当時|とうじ}の{社会|しゃかい}を{考察|こうさつ}する。",
+      "japanese": "⟦ゼミ→ゼミ：00434_zemi⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{古典|こてん}{文学|ぶんがく}→古典文学：28231_kotenbungaku⟧⟦の→の：09472_no⟧{講読|こうどく}⟦を→を：00422_wo⟧⟦{通|とお}して→通す：02300_toosu⟧、⟦{当時|とうじ}→当時：01615_touji⟧⟦の→の：09472_no⟧⟦{社会|しゃかい}→社会：01427_shakai⟧⟦を→を：00422_wo⟧⟦{考察|こうさつ}→考察：02736_kousatsu⟧⟦する→する：00392_suru⟧。",
       "english": "In the seminar, we examine the society of the time through close reading of classical literature.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {講|こう} (lecture/discuss) + {読|どく} (read). A specifically academic word referring to the close, analytical reading of texts — distinct from casual reading.\n\nCOMMON COLLOCATIONS:\n- {原書|げんしょ}{講読|こうどく}: reading original texts (in the source language)\n- {文献|ぶんけん}{講読|こうどく}: study of written materials\n- {講読|こうどく}{授業|じゅぎょう}: text reading class\n- {古典|こてん}{講読|こうどく}: classical text study\n\nSIMILAR WORDS:\n- {購読|こうどく}: subscription — subscribing to publications; same pronunciation, different meaning\n- {精読|せいどく}: intensive reading — careful, detailed reading (but not necessarily in a class)\n- {輪読|りんどく}: group reading — taking turns reading and discussing a text\n- {読解|どっかい}: reading comprehension — understanding written text\n\nNOTE: Be careful not to confuse {講読|こうどく} (text study) with {購読|こうどく} (subscription to a publication). They are homophones with very different meanings.",
+  "notes": "A compound of {講|こう} (lecture/discuss) + {読|どく} (read). A specifically academic word referring to the close, analytical reading of texts — distinct from casual reading.\n\nCOMMON COLLOCATIONS:\n- {原書|げんしょ}{講読|こうどく}: reading original texts (in the source language)\n- ⟦{文献|ぶんけん}→文献：12885_bunken⟧{講読|こうどく}: study of written materials\n- {講読|こうどく}⟦{授業|じゅぎょう}→授業：00781_jugyou⟧: text reading class\n- ⟦{古典|こてん}→古典：00242_koten⟧{講読|こうどく}: classical text study\n\nSIMILAR WORDS:\n- ⟦{購読|こうどく}→購読：04468_koudoku⟧: subscription — subscribing to publications; same pronunciation, different meaning\n- ⟦{精読|せいどく}→精読：15982_seidoku⟧: intensive reading — careful, detailed reading (but not necessarily in a class)\n- {輪読|りんどく}: group reading — taking turns reading and discussing a text\n- ⟦{読解|どっかい}→読解：15056_dokkai⟧: reading comprehension — understanding written text\n\nNOTE: Be careful not to confuse {講読|こうどく} (text study) with ⟦{購読|こうどく}→購読：04468_koudoku⟧ (subscription to a publication). They are homophones with very different meanings.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "homophone",
+      "target_id": "04468_koudoku",
+      "reading": "こうどく",
+      "headword": "{購読|こうどく}",
+      "label": "subscription"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15982_seidoku",
+      "reading": "せいどく",
+      "headword": "{精読|せいどく}",
+      "label": "intensive reading"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15056_dokkai",
+      "reading": "どっかい",
+      "headword": "{読解|どっかい}",
+      "label": "reading comprehension"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -58,10 +81,11 @@
       "semantic": [
         "education"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-04-08T17:36:28Z",
-    "modified": "2026-04-08T17:36:28Z"
+    "modified": "2026-09-02T04:02:10Z"
   },
   "conjugation": {
     "type": "suru",

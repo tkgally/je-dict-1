@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24463_monban_ex1",
-      "japanese": "{門番|もんばん}に{名前|なまえ}を{告|つ}げた。",
+      "japanese": "{門番|もんばん}⟦に→に：00314_ni⟧⟦{名前|なまえ}→名前：02234_namae⟧⟦を→を：00422_wo⟧⟦{告|つ}げた→告げる：11808_tsugeru⟧。",
       "english": "I gave my name to the gatekeeper.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24463_monban_ex2",
-      "japanese": "{城|しろ}の{門番|もんばん}が{通行|つうこう}を{許可|きょか}した。",
+      "japanese": "⟦{城|しろ}→城：03255_shiro⟧⟦の→の：09472_no⟧{門番|もんばん}⟦が→が：00051_ga⟧⟦{通行|つうこう}→通行：03436_tsuukou⟧⟦を→を：00422_wo⟧⟦{許可|きょか}した→許可する：20063_kyokasuru⟧。",
       "english": "The castle gatekeeper permitted passage.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24463_monban_ex3",
-      "japanese": "あの{編集者|へんしゅうしゃ}は{出版|しゅっぱん}{業界|ぎょうかい}の{門番|もんばん}のような{存在|そんざい}だ。",
+      "japanese": "⟦あの→あの：00915_ano⟧⟦{編集者|へんしゅうしゃ}→編集者：09587_henshuusha⟧⟦は→は：00079_ha⟧⟦{出版|しゅっぱん}→出版：03222_shuppan⟧⟦{業界|ぎょうかい}→業界：13129_gyoukai⟧⟦の→の：09472_no⟧{門番|もんばん}⟦の→の：09472_no⟧ような⟦{存在|そんざい}→存在：03326_sonzai⟧だ。",
       "english": "That editor is like a gatekeeper of the publishing industry.",
       "sense_numbers": [
         1
@@ -44,20 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {門|もん} (gate) + {番|ばん} (guard, watch). Refers to a person who guards or controls access at a gate. Also used figuratively in modern Japanese to describe anyone who controls access to an organization, industry, or resource.\n\nCOMMON COLLOCATIONS:\n- {城|しろ}の{門番|もんばん}: castle gatekeeper\n- {門番|もんばん}を{務|つと}める: to serve as gatekeeper\n- {門番|もんばん}のような{役割|やくわり}: a gatekeeper-like role\n\nSIMILAR WORDS:\n- {守衛|しゅえい}: security guard (modern, at buildings or facilities)\n- {番人|ばんにん}: watchman, guard (broader usage)\n- {警備員|けいびいん}: security guard (professional, modern)\n- ゲートキーパー: gatekeeper (loanword, often used in business contexts)",
+  "notes": "Composed of ⟦{門|もん}→門：14603_mon⟧ (gate) + ⟦{番|ばん}→番：09873_ban⟧ (guard, watch). Refers to a person who guards or controls access at a gate. Also used figuratively in modern Japanese to describe anyone who controls access to an organization, industry, or resource.\n\nCOMMON COLLOCATIONS:\n- ⟦{城|しろ}→城：03255_shiro⟧⟦の→の：09472_no⟧{門番|もんばん}: castle gatekeeper\n- {門番|もんばん}⟦を→を：00422_wo⟧⟦{務|つと}める→務める：10446_tsutomeru⟧: to serve as gatekeeper\n- {門番|もんばん}⟦の→の：09472_no⟧ような⟦{役割|やくわり}→役割：03638_yakuwari⟧: a gatekeeper-like role\n\nSIMILAR WORDS:\n- ⟦{守衛|しゅえい}→守衛：18227_shuei⟧: security guard (modern, at buildings or facilities)\n- {番人|ばんにん}: watchman, guard (broader usage)\n- ⟦{警備員|けいびいん}→警備員：09867_keibiin⟧: security guard (professional, modern)\n- ゲートキーパー: gatekeeper (loanword, often used in business contexts)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18227_shuei",
+      "reading": "しゅえい",
+      "headword": "{守衛|しゅえい}",
+      "label": "security guard"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09867_keibiin",
+      "reading": "けいびいん",
+      "headword": "{警備員|けいびいん}",
+      "label": "security guard"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "person",
         "society"
       ]
     },
     "created": "2026-04-19T11:15:38Z",
-    "modified": "2026-08-02T18:32:34Z"
+    "modified": "2026-09-02T04:02:18Z"
   }
 }

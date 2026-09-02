@@ -15,41 +15,94 @@
   "examples": [
     {
       "id": "18236_supai_ex1",
-      "japanese": "{彼|かれ}はスパイだった。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧スパイだった。",
       "english": "He was a spy.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18236_supai_ex2",
-      "japanese": "スパイ{映画|えいが}が{好|す}きで、よく{観|み}ている。",
+      "japanese": "スパイ⟦{映画|えいが}→映画：02273_eiga⟧⟦が→が：00051_ga⟧⟦{好|す}き→好き：02355_suki⟧で、⟦よく→よく：00601_yoku⟧⟦{観|み}ている→観る：22793_miru⟧。",
       "english": "I like spy movies and watch them often.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18236_supai_ex3",
-      "japanese": "{組織|そしき}の{中|なか}にスパイが{紛|まぎ}れ{込|こ}んでいるかもしれない。",
+      "japanese": "⟦{組織|そしき}→組織：03320_soshiki⟧⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧⟦に→に：00314_ni⟧スパイ⟦が→が：00051_ga⟧⟦{紛|まぎ}れ{込|こ}んでいる→紛れ込む：26961_magirekomu⟧⟦かもしれない→かもしれない：00164_kamoshirenai⟧。",
       "english": "There might be a spy who has infiltrated the organization.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nFrom English \"spy.\" Used both for real espionage contexts and in entertainment (spy movies, spy novels). In casual usage, can refer to someone leaking information within a group (a mole or informant).\n\nCOMMON COLLOCATIONS:\n- スパイ{映画|えいが} (spy movie)\n- スパイ{小説|しょうせつ} (spy novel)\n- スパイ{活動|かつどう} (espionage activities)\n- {産業|さんぎょう}スパイ (industrial spy; corporate espionage)\n\nSIMILAR WORDS:\n- {諜報員|ちょうほういん}: intelligence agent — more formal, used in official or military contexts\n- {工作員|こうさくいん}: operative; agent — emphasis on covert operations, often used in news",
-  "cross_references": [],
+  "notes": "USAGE:\nFrom English \"spy.\" Used both for real espionage contexts and in entertainment (spy movies, spy novels). In casual usage, can refer to someone leaking information within a group (a mole or informant).\n\nCOMMON COLLOCATIONS:\n- スパイ⟦{映画|えいが}→映画：02273_eiga⟧ (spy movie)\n- スパイ⟦{小説|しょうせつ}→小説：01434_shousetsu⟧ (spy novel)\n- スパイ⟦{活動|かつどう}→活動：00201_katsudou⟧ (espionage activities)\n- ⟦{産業|さんぎょう}→産業：01419_sangyou⟧スパイ (industrial spy; corporate espionage)\n\nSIMILAR WORDS:\n- ⟦{諜報員|ちょうほういん}→諜報員：30160_chouhouin⟧: intelligence agent — more formal, used in official or military contexts\n- ⟦{工作員|こうさくいん}→工作員：30169_kousakuin⟧: operative; agent — emphasis on covert operations, often used in news",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "30160_chouhouin",
+      "reading": "ちょうほういん",
+      "headword": "{諜報員|ちょうほういん}",
+      "label": "intelligence agent"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30169_kousakuin",
+      "reading": "こうさくいん",
+      "headword": "工作員",
+      "label": "operative"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21188_mikkokusha",
+      "reading": "みっこくしゃ",
+      "headword": "{密告者|みっこくしゃ}",
+      "label": "informer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21193_kanchou",
+      "reading": "かんちょう",
+      "headword": "{間諜|かんちょう}",
+      "label": "spy"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21590_mittei",
+      "reading": "みってい",
+      "headword": "{密偵|みってい}",
+      "label": "spy"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30337_naitsuusha",
+      "reading": "ないつうしゃ",
+      "headword": "{内通者|ないつうしゃ}",
+      "label": "informant"
+    }
+  ],
   "metadata": {
     "created": "2026-03-20T13:44:03Z",
-    "modified": "2026-03-20T13:44:03Z",
+    "modified": "2026-09-02T04:01:51Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["person"]
+      "semantic": [
+        "person"
+      ]
     }
   }
 }

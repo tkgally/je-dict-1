@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08627_eiyoubusoku_ex1",
-      "japanese": "{栄養不足|えいようぶそく}に{気|き}をつける。",
+      "japanese": "{栄養不足|えいようぶそく}⟦に→に：00314_ni⟧⟦{気|き}をつける→気をつける：09771_kiwotsukeru⟧。",
       "english": "Watch out for nutritional deficiency.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "08627_eiyoubusoku_ex2",
-      "japanese": "ダイエットで{栄養不足|えいようぶそく}になった。",
+      "japanese": "⟦ダイエット→ダイエット：17678_daietto⟧⟦で→で：00502_de⟧{栄養不足|えいようぶそく}になった。",
       "english": "I became malnourished from dieting.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "08627_eiyoubusoku_ex3",
-      "japanese": "{偏|かたよ}った{食事|しょくじ}は{栄養不足|えいようぶそく}を{招|まね}く。",
+      "japanese": "⟦{偏|かたよ}った→偏る：07872_katayoru⟧⟦{食事|しょくじ}→食事：02087_shokuji⟧⟦は→は：00079_ha⟧{栄養不足|えいようぶそく}⟦を→を：00422_wo⟧⟦{招|まね}く→招く：02425_maneku⟧。",
       "english": "An unbalanced diet leads to nutritional deficiency.",
       "sense_numbers": [
         1
@@ -43,7 +43,23 @@
       "notes": null
     }
   ],
-  "notes": "HEALTH TERM:\n{栄養不足|えいようぶそく} can occur even in developed countries due to unbalanced diets.\n\nCAUSES:\n- {偏食|へんしょく} - picky eating\n- {過度|かど}なダイエット - extreme dieting\n- {食欲不振|しょくよくふしん} - loss of appetite\n- {吸収障害|きゅうしゅうしょうがい} - absorption disorders\n\nSYMPTOMS:\n- {疲|つか}れやすい - easily fatigued\n- {免疫力低下|めんえきりょくていか} - weakened immunity\n- {肌荒|はだあ}れ - skin problems\n- {貧血|ひんけつ} - anemia\n\nOPPOSITE:\n- {栄養過多|えいようかた} - overnutrition\n\nRELATED TERMS:\n- {栄養失調|えいようしっちょう} - malnutrition (more severe)\n- {栄養素|えいようそ} - nutrients\n- {栄養|えいよう}バランス - nutritional balance\n\nCOMMON COLLOCATIONS:\n- {栄養不足|えいようぶそく}を{解消|かいしょう}する - address nutritional deficiency\n- {栄養不足|えいようぶそく}に{陥|おちい}る - fall into nutritional deficiency",
+  "notes": "HEALTH TERM:\n{栄養不足|えいようぶそく} can occur even in developed countries due to unbalanced diets.\n\nCAUSES:\n- ⟦{偏食|へんしょく}→偏食：07729_henshoku⟧ - picky eating\n- ⟦{過度|かど}→過度：14377_kado⟧な⟦ダイエット→ダイエット：17678_daietto⟧ - extreme dieting\n- ⟦{食欲不振|しょくよくふしん}→食欲不振：15958_shokuyokufushin⟧ - loss of appetite\n- {吸収障害|きゅうしゅうしょうがい} - absorption disorders\n\nSYMPTOMS:\n- ⟦{疲|つか}れ→疲れる：00901_tsukareru⟧やすい - easily fatigued\n- {免疫力低下|めんえきりょくていか} - weakened immunity\n- ⟦{肌荒|はだあ}れ→肌荒れ：08421_hadaare⟧ - skin problems\n- ⟦{貧血|ひんけつ}→貧血：07019_hinketsu⟧ - anemia\n\nSIMILAR WORDS:\n- {栄養過多|えいようかた} - overnutrition\n\nRELATED WORDS:\n- ⟦{栄養失調|えいようしっちょう}→栄養失調：21221_eiyoushicchou⟧ - malnutrition (more severe)\n- ⟦{栄養素|えいようそ}→栄養素：06207_eiyouso⟧ - nutrients\n- ⟦{栄養|えいよう}→栄養：01882_eiyou⟧⟦バランス→バランス：03870_baransu⟧ - nutritional balance\n\nCOMMON COLLOCATIONS:\n- {栄養不足|えいようぶそく}⟦を→を：00422_wo⟧⟦{解消|かいしょう}する→解消する：21324_kaishousuru⟧ - address nutritional deficiency\n- {栄養不足|えいようぶそく}⟦に→に：00314_ni⟧⟦{陥|おちい}る→陥る：14537_ochiiru⟧ - fall into nutritional deficiency",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "21221_eiyoushicchou",
+      "reading": "えいようしっちょう",
+      "headword": "{栄養失調|えいようしっちょう}",
+      "label": "malnutrition"
+    },
+    {
+      "type": "related",
+      "target_id": "06207_eiyouso",
+      "reading": "えいようそ",
+      "headword": "{栄養素|えいようそ}",
+      "label": "nutrients"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -51,11 +67,12 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "health"
       ]
     },
     "created": "2026-01-27T12:31:57Z",
-    "modified": "2026-06-22T12:50:00Z"
+    "modified": "2026-09-02T04:01:15Z"
   }
 }

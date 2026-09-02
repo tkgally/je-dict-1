@@ -24,7 +24,7 @@
     },
     {
       "id": "01002_tokorode_ex2",
-      "japanese": "ところで、{田中|たなか}⟦さん→〜さん：09848_san⟧⟦は→は：00079_ha⟧⟦{来|き}ます→来る：00254_kuru⟧⟦か→か：09473_ka⟧。",
+      "japanese": "ところで、⟦{田中|たなか}→田中：09528_tanaka⟧⟦さん→〜さん：09848_san⟧⟦は→は：00079_ha⟧⟦{来|き}ます→来る：00254_kuru⟧⟦か→か：09473_ka⟧。",
       "english": "By the way, is Tanaka-san coming?",
       "notes": null,
       "has_audio": false,
@@ -63,11 +63,26 @@
       ]
     }
   ],
-  "notes": "ところで is a conjunction meaning \"by the way\" used to change the topic or introduce a new subject in conversation.\n\nUSAGE:\nPlaced at the beginning of a sentence to signal a topic change. The new topic may or may not be related to the previous discussion.\n\nCOMMON PATTERNS:\n- ところで、[new topic]⟦は→は：00079_ha⟧？: By the way, what about [new topic]?\n- ところで、⟦{聞|き}きたい→聞く：00483_kiku⟧⟦こと→こと：01164_koto⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧⟦ん→ん：noentry⟧⟦です→です：09485_desu⟧⟦が→が：00051_ga⟧...: By the way, there's something I wanted to ask...\n\nSIMILAR EXPRESSIONS:\n- ⟦そういえば→そういえば：noentry⟧: speaking of which, that reminds me\n- ⟦それはそうと→それはそうと：noentry⟧: anyway, that aside\n- ⟦{話|はなし}→話：01496_hanashi⟧⟦は→は：00079_ha⟧⟦{変|か}わります→変わる：00714_kawaru⟧⟦が→が：00051_ga⟧: changing the subject\n\nREGISTER:\nNatural in both casual and polite conversation.",
-  "cross_references": [],
+  "notes": "ところで is a conjunction meaning \"by the way\" used to change the topic or introduce a new subject in conversation.\n\nUSAGE:\nPlaced at the beginning of a sentence to signal a topic change. The new topic may or may not be related to the previous discussion.\n\nCOMMON PATTERNS:\n- ところで、[new topic]⟦は→は：00079_ha⟧？: By the way, what about [new topic]?\n- ところで、⟦{聞|き}きたい→聞く：00483_kiku⟧⟦こと→こと：01164_koto⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧⟦ん→ん：noentry⟧⟦です→です：09485_desu⟧⟦が→が：00051_ga⟧...: By the way, there's something I wanted to ask...\n\nSIMILAR WORDS:\n- ⟦そういえば→そういえば：noentry⟧: speaking of which, that reminds me\n- ⟦それはそうと→それはそうと：noentry⟧: anyway, that aside\n- ⟦{話|はなし}→話：01496_hanashi⟧⟦は→は：00079_ha⟧⟦{変|か}わります→変わる：00714_kawaru⟧⟦が→が：00051_ga⟧: changing the subject\n\nREGISTER:\nNatural in both casual and polite conversation.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "27571_souieba",
+      "reading": "そういえば",
+      "headword": "そういえば",
+      "label": "speaking of which"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27572_sorehasouto",
+      "reading": "それはそうと",
+      "headword": "それはそうと",
+      "label": "by the way"
+    }
+  ],
   "metadata": {
     "created": "2026-01-07T12:11:22Z",
-    "modified": "2026-05-13T19:17:12Z",
+    "modified": "2026-09-02T04:00:58Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

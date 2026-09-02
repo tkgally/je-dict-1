@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25608_rakuseishiki_ex1",
-      "japanese": "{新校舎|しんこうしゃ}の{落成式|らくせいしき}が{行|おこな}われた。",
+      "japanese": "{新校舎|しんこうしゃ}⟦の→の：09472_no⟧{落成式|らくせいしき}⟦が→が：00051_ga⟧⟦{行|おこな}われた→行う：01238_okonau⟧。",
       "english": "A completion ceremony for the new school building was held.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25608_rakuseishiki_ex2",
-      "japanese": "{市長|しちょう}が{落成式|らくせいしき}でテープカットをした。",
+      "japanese": "⟦{市長|しちょう}→市長：12472_shichou⟧⟦が→が：00051_ga⟧{落成式|らくせいしき}⟦で→で：00502_de⟧⟦テープ→テープ：01535_teepu⟧⟦カット→カット：10818_katto⟧⟦を→を：00422_wo⟧⟦した→する：00392_suru⟧。",
       "english": "The mayor did the ribbon cutting at the inauguration ceremony.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25608_rakuseishiki_ex3",
-      "japanese": "{三年|さんねん}の{工事|こうじ}を{経|へ}て{完成|かんせい}した{新|しん}ホールの{落成式|らくせいしき}には、{多|おお}くの{関係者|かんけいしゃ}が{出席|しゅっせき}した。",
+      "japanese": "⟦{三年|さんねん}→三年：10984_sannen⟧⟦の→の：09472_no⟧⟦{工事|こうじ}→工事：00244_kouji⟧⟦を→を：00422_wo⟧⟦{経|へ}て→経る：13876_heru⟧⟦{完成|かんせい}した→完成する：25528_kanseisuru⟧{新|しん}⟦ホール→ホール：11169_hooru⟧⟦の→の：09472_no⟧{落成式|らくせいしき}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧、{多|おお}く⟦の→の：09472_no⟧⟦{関係者|かんけいしゃ}→関係者：16441_kankeisha⟧⟦が→が：00051_ga⟧⟦{出席|しゅっせき}した→出席する：01830_shussekisuru⟧。",
       "english": "Many involved parties attended the completion ceremony for the new hall, which was finished after three years of construction.",
       "sense_numbers": [
         1
@@ -44,20 +44,30 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {落成|らくせい} (completion of a building) and {式|しき} (ceremony). {落成|らくせい} literally means \"to fall into completion\" — the {落|らく} here means \"to settle, to be accomplished\" rather than \"to fall.\"\n\nThese ceremonies are common for public buildings, schools, hospitals, company headquarters, and other significant structures. They typically include speeches, ribbon cutting, and tours of the new facility.\n\nCOMMON COLLOCATIONS:\n- {落成式|らくせいしき}を{行|おこな}う: to hold an inauguration ceremony\n- {落成式|らくせいしき}に{出席|しゅっせき}する: to attend an inauguration ceremony\n- {落成式|らくせいしき}に{招|まね}かれる: to be invited to an inauguration ceremony\n\nSIMILAR WORDS:\n- {竣工式|しゅんこうしき}: completion ceremony — synonym; {竣工|しゅんこう} is more technical and formal\n- {開所式|かいしょしき}: opening ceremony (for an office or facility)\n- {開業式|かいぎょうしき}: opening ceremony (for a business) — celebrates the start of operations rather than construction completion",
+  "notes": "A compound of ⟦{落成|らくせい}→落成：24161_rakusei⟧ (completion of a building) and {式|しき} (ceremony). ⟦{落成|らくせい}→落成：24161_rakusei⟧ literally means \"to fall into completion\" — the {落|らく} here means \"to settle, to be accomplished\" rather than \"to fall.\"\n\nThese ceremonies are common for public buildings, schools, hospitals, company headquarters, and other significant structures. They typically include speeches, ribbon cutting, and tours of the new facility.\n\nCOMMON COLLOCATIONS:\n- {落成式|らくせいしき}⟦を→を：00422_wo⟧⟦{行|おこな}う→行う：01238_okonau⟧: to hold an inauguration ceremony\n- {落成式|らくせいしき}⟦に→に：00314_ni⟧⟦{出席|しゅっせき}する→出席する：01830_shussekisuru⟧: to attend an inauguration ceremony\n- {落成式|らくせいしき}⟦に→に：00314_ni⟧⟦{招|まね}かれる→招く：02425_maneku⟧: to be invited to an inauguration ceremony\n\nSIMILAR WORDS:\n- {竣工式|しゅんこうしき}: completion ceremony — synonym; ⟦{竣工|しゅんこう}→竣工：16491_shunkou⟧ is more technical and formal\n- {開所式|かいしょしき}: opening ceremony (for an office or facility)\n- {開業式|かいぎょうしき}: opening ceremony (for a business) — celebrates the start of operations rather than construction completion",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "23578_kikoushiki",
+      "reading": "きこうしき",
+      "headword": "{起工式|きこうしき}",
+      "label": "groundbreaking ceremony"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "culture",
         "building"
       ]
     },
     "created": "2026-04-26T12:38:43Z",
-    "modified": "2026-08-04T21:21:58Z"
+    "modified": "2026-09-02T04:02:23Z"
   }
 }

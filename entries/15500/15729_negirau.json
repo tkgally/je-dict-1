@@ -3,7 +3,7 @@
   "id": "15729_negirau",
   "headword": "{労|ねぎら}う",
   "reading": "ねぎらう",
-  "part_of_speech": "godan verb, transitive",
+  "part_of_speech": "verb (godan, transitive)",
   "gloss": "to thank someone for their effort; to show appreciation for hard work",
   "conjugation": {
     "type": "godan",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "15729_negirau_ex1",
-      "japanese": "{部下|ぶか}の{労|ろう}を{労|ねぎら}う。",
+      "japanese": "⟦{部下|ぶか}→部下：06453_buka⟧⟦の→の：09472_no⟧{労|ろう}⟦を→を：00422_wo⟧{労|ねぎら}う。",
       "english": "To thank one's subordinates for their hard work.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "15729_negirau_ex2",
-      "japanese": "{長年|ながねん}の{功績|こうせき}を{労|ねぎら}って{花束|はなたば}を{贈|おく}った。",
+      "japanese": "⟦{長年|ながねん}→長年：09684_naganen⟧⟦の→の：09472_no⟧⟦{功績|こうせき}→功績：04143_kouseki⟧⟦を→を：00422_wo⟧{労|ねぎら}って⟦{花束|はなたば}→花束：03135_hanataba⟧⟦を→を：00422_wo⟧⟦{贈|おく}った→贈る：09862_okuru⟧。",
       "english": "We presented flowers in appreciation of their long years of service.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "15729_negirau_ex3",
-      "japanese": "{大会|たいかい}の{後|あと}、{監督|かんとく}は{選手|せんしゅ}たちの{頑張|がんば}りを{労|ねぎら}う{言葉|ことば}をかけた。",
+      "japanese": "⟦{大会|たいかい}→大会：03386_taikai⟧⟦の→の：09472_no⟧⟦{後|あと}→後：09580_ato⟧、⟦{監督|かんとく}→監督：00185_kantoku⟧⟦は→は：00079_ha⟧⟦{選手|せんしゅ}→選手：03823_senshu⟧たち⟦の→の：09472_no⟧{頑張|がんば}り⟦を→を：00422_wo⟧{労|ねぎら}う⟦{言葉|ことば}→言葉：02880_kotoba⟧⟦を→を：00422_wo⟧⟦かけた→かける：00854_kakeru⟧。",
       "english": "After the tournament, the coach spoke words of appreciation for the players' hard work.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,19 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{労|ねぎら}う is generally used by someone of equal or higher status to acknowledge the efforts of others. It is considered rude to use it toward a social superior. The noun form {労|ねぎら}い means \"appreciation\" or \"words of thanks.\"\n\nGRAMMAR:\nGodan verb (u-verb). Transitive.\n\nCOMMON COLLOCATIONS:\n- {労|ろう}を{労|ねぎら}う (to thank for someone's hard work)\n- {労|ねぎら}いの{言葉|ことば} (words of appreciation)\n- {互|たが}いを{労|ねぎら}う (to appreciate each other's efforts)",
-  "cross_references": [],
+  "notes": "USAGE:\n{労|ねぎら}う is generally used by someone of equal or higher status to acknowledge the efforts of others. It is considered rude to use it toward a social superior. The noun form ⟦{労|ねぎら}い→労い：11918_negirai⟧ means \"appreciation\" or \"words of thanks.\"\n\nCOMMON PATTERNS:\nGodan verb (u-verb). Transitive.\n\nCOMMON COLLOCATIONS:\n- {労|ろう}⟦を→を：00422_wo⟧{労|ねぎら}う (to thank for someone's hard work)\n- ⟦{労|ねぎら}い→労い：11918_negirai⟧⟦の→の：09472_no⟧⟦{言葉|ことば}→言葉：02880_kotoba⟧ (words of appreciation)\n- ⟦{互|たが}い→互い：03402_tagai⟧⟦を→を：00422_wo⟧{労|ねぎら}う (to appreciate each other's efforts)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25276_irou",
+      "reading": "いろう",
+      "headword": "{慰労|いろう}",
+      "label": "appreciation for hard work"
+    }
+  ],
   "metadata": {
     "created": "2026-03-08T08:52:35Z",
-    "modified": "2026-07-17T12:56:16Z",
+    "modified": "2026-09-02T04:01:42Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

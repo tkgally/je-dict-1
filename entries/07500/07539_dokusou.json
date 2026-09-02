@@ -2,7 +2,7 @@
   "id": "07539_dokusou",
   "headword": "{独奏|どくそう}",
   "reading": "どくそう",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "solo (musical)",
   "conjugation": {
     "type": "suru",
@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "07539_dokusou_ex1",
-      "japanese": "ピアノ{独奏|どくそう}を{披露|ひろう}した。",
+      "japanese": "⟦ピアノ→ピアノ：01376_piano⟧{独奏|どくそう}⟦を→を：00422_wo⟧⟦{披露|ひろう}した→披露する：20927_hirousuru⟧。",
       "english": "She performed a piano solo.",
       "has_audio": false,
       "sense_numbers": [
@@ -113,7 +113,7 @@
     },
     {
       "id": "07539_dokusou_ex2",
-      "japanese": "{独奏|どくそう}{曲|きょく}を{練習|れんしゅう}している。",
+      "japanese": "{独奏|どくそう}{曲|きょく}⟦を→を：00422_wo⟧⟦{練習|れんしゅう}している→練習する：22991_renshuusuru⟧。",
       "english": "I'm practicing a solo piece.",
       "has_audio": false,
       "sense_numbers": [
@@ -122,7 +122,7 @@
     },
     {
       "id": "07539_dokusou_ex3",
-      "japanese": "バイオリン{独奏|どくそう}がオーケストラと{共演|きょうえん}する。",
+      "japanese": "⟦バイオリン→バイオリン：00009_baiorin⟧{独奏|どくそう}⟦が→が：00051_ga⟧⟦オーケストラ→オーケストラ：04466_ookesutora⟧⟦と→と：00512_to⟧⟦{共演|きょうえん}→共演：11676_kyouen⟧⟦する→する：00392_suru⟧。",
       "english": "The violin soloist performs with the orchestra.",
       "has_audio": false,
       "sense_numbers": [
@@ -130,7 +130,7 @@
       ]
     }
   ],
-  "notes": "WORD STRUCTURE:\n{独|どく} (alone, solo) + {奏|そう} (play music)\n\nRELATED TERMS:\n・{独奏者|どくそうしゃ} - soloist\n・{独奏会|どくそうかい} - solo recital\n・ソロ - solo (loanword)\n・{独唱|どくしょう} - solo singing\n・{合奏|がっそう} - ensemble performance\n・{協奏曲|きょうそうきょく} - concerto (features soloist with orchestra)\n\nCOLLOCATIONS:\n・ピアノ{独奏|どくそう} - piano solo\n・バイオリン{独奏|どくそう} - violin solo\n・{独奏|どくそう}を{務|つと}める - to serve as soloist\n・{独奏|どくそう}パート - solo part\n\nCONTRAST:\n・{独奏|どくそう} - solo (instrumental)\n・{独唱|どくしょう} - solo (vocal)\n・{合奏|がっそう} - ensemble (multiple performers together)",
+  "notes": "ETYMOLOGY:\n{独|どく} (alone, solo) + {奏|そう} (play music)\n\nRELATED WORDS:\n- {独奏者|どくそうしゃ} - soloist\n- {独奏会|どくそうかい} - solo recital\n- ⟦ソロ→ソロ：11026_soro⟧ - solo (loanword)\n- ⟦{独唱|どくしょう}→独唱：05232_dokushou⟧ - solo singing\n- ⟦{合奏|がっそう}→合奏：16325_gassou⟧ - ensemble performance\n- {協奏曲|きょうそうきょく} - concerto (features soloist with orchestra)\n\nCOMMON COLLOCATIONS:\n- ⟦ピアノ→ピアノ：01376_piano⟧{独奏|どくそう} - piano solo\n- ⟦バイオリン→バイオリン：00009_baiorin⟧{独奏|どくそう} - violin solo\n- {独奏|どくそう}⟦を→を：00422_wo⟧⟦{務|つと}める→務める：10446_tsutomeru⟧ - to serve as soloist\n- {独奏|どくそう}⟦パート→パート：03106_paato⟧ - solo part\n\nSIMILAR WORDS:\n- {独奏|どくそう} - solo (instrumental)\n- ⟦{独唱|どくしょう}→独唱：05232_dokushou⟧ - solo (vocal)\n- ⟦{合奏|がっそう}→合奏：16325_gassou⟧ - ensemble (multiple performers together)",
   "cross_references": [
     {
       "type": "contrast",
@@ -138,11 +138,60 @@
       "headword": "{合奏|がっそう}",
       "label": "ensemble",
       "target_id": "16325_gassou"
+    },
+    {
+      "type": "related",
+      "target_id": "11026_soro",
+      "reading": "そろ",
+      "headword": "ソロ",
+      "label": "solo"
+    },
+    {
+      "type": "related",
+      "target_id": "05232_dokushou",
+      "reading": "どくしょう",
+      "headword": "{独唱|どくしょう}",
+      "label": "solo singing"
+    },
+    {
+      "type": "homophone",
+      "target_id": "19974_dokusou",
+      "reading": "どくそう",
+      "headword": "{独走|どくそう}",
+      "label": "running alone"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23846_nijuusou",
+      "reading": "にじゅうそう",
+      "headword": "{二重奏|にじゅうそう}",
+      "label": "duet"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23847_sanjuusou",
+      "reading": "さんじゅうそう",
+      "headword": "{三重奏|さんじゅうそう}",
+      "label": "trio (instrumental performance by three players)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28506_shitsunaigaku",
+      "reading": "しつないがく",
+      "headword": "{室内楽|しつないがく}",
+      "label": "chamber music"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30016_mubansou",
+      "reading": "むばんそう",
+      "headword": "{無伴奏|むばんそう}",
+      "label": "unaccompanied"
     }
   ],
   "metadata": {
     "created": "2026-01-20T08:47:47Z",
-    "modified": "2026-03-29T10:42:23Z",
+    "modified": "2026-09-02T04:01:11Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -151,6 +200,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "music"
       ],

@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "19802_okoraseru_ex1",
-      "japanese": "{彼女|かのじょ}を{怒|おこ}らせてしまった。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦を→を：00422_wo⟧{怒|おこ}らせてしまった。",
       "english": "I ended up making her angry.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "19802_okoraseru_ex2",
-      "japanese": "{先生|せんせい}を{怒|おこ}らせないほうがいい。",
+      "japanese": "⟦{先生|せんせい}→先生：00609_sensei⟧⟦を→を：00422_wo⟧{怒|おこ}らせない⟦ほうがいい→ほうがいい：10078_hougaii⟧。",
       "english": "You'd better not anger the teacher.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "19802_okoraseru_ex3",
-      "japanese": "{約束|やくそく}を{破|やぶ}って{友達|ともだち}を{怒|おこ}らせてしまい、{深|ふか}く{反省|はんせい}した。",
+      "japanese": "⟦{約束|やくそく}を{破|やぶ}って→約束を破る：20639_yakusokuwoyaburu⟧⟦{友達|ともだち}→友達：01478_tomodachi⟧⟦を→を：00422_wo⟧{怒|おこ}らせてしまい、⟦{深|ふか}く→深い：01211_fukai⟧⟦{反省|はんせい}した→反省する：21398_hanseisuru⟧。",
       "english": "I broke a promise and made my friend angry, and I deeply regretted it.",
       "sense_numbers": [
         1
@@ -134,8 +134,38 @@
       "notes": null
     }
   ],
-  "notes": "The causative form of {怒|おこ}る (to get angry). Very commonly used in everyday conversation, especially with ～てしまう to express that one unintentionally made someone angry.\n\nCOMMON PATTERNS:\n- （{人|ひと}）を{怒|おこ}らせる — to make someone angry\n- {怒|おこ}らせてしまった — ended up making (someone) angry (unintentional)\n- {怒|おこ}らせないように — so as not to anger (someone)\n\nSIMILAR WORDS:\n- {怒|おこ}る — to get angry (intransitive base verb)\n- {腹|はら}を{立|た}てさせる — to make someone upset (slightly more formal)\n- {機嫌|きげん}を{損|そこ}ねる — to offend, to put in a bad mood (more indirect/subtle)\n- {激怒|げきど}させる — to enrage (much stronger)",
+  "notes": "The causative form of ⟦{怒|おこ}る→怒る：00876_okoru⟧ (to get angry). Very commonly used in everyday conversation, especially with ～てしまう to express that one unintentionally made someone angry.\n\nCOMMON PATTERNS:\n- （⟦{人|ひと}→人：00476_hito⟧）⟦を→を：00422_wo⟧{怒|おこ}らせる — to make someone angry\n- {怒|おこ}らせてしまった — ended up making (someone) angry (unintentional)\n- {怒|おこ}らせないよう⟦に→に：00314_ni⟧ — so as not to anger (someone)\n\nSIMILAR WORDS:\n- ⟦{怒|おこ}る→怒る：00876_okoru⟧ — to get angry (intransitive base verb)\n- ⟦{腹|はら}→腹：02165_hara⟧⟦を→を：00422_wo⟧⟦{立|た}てさせる→立てる：01196_tateru⟧ — to make someone upset (slightly more formal)\n- ⟦{機嫌|きげん}を{損|そこ}ねる→機嫌を損ねる：18866_kigenwosokoneru⟧ — to offend, to put in a bad mood (more indirect/subtle)\n- ⟦{激怒|げきど}→激怒：08681_gekido⟧⟦させる→する：00392_suru⟧ — to enrage (much stronger)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00876_okoru",
+      "reading": "おこる",
+      "headword": "{怒|おこ}る",
+      "label": "to get angry"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18866_kigenwosokoneru",
+      "reading": "きげんをそこねる",
+      "headword": "{機嫌|きげん}を{損|そこ}ねる",
+      "label": "to offend, to put in a bad mood"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20428_kiwowarukusuru",
+      "reading": "きをわるくする",
+      "headword": "{気|き}を{悪|わる}くする",
+      "label": "to take offense"
+    },
+    {
+      "type": "related",
+      "target_id": "25654_iradataseru",
+      "reading": "いらだたせる",
+      "headword": "{苛立|いらだ}たせる",
+      "label": "to irritate"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -147,9 +177,10 @@
       "semantic": [
         "emotion"
       ],
-      "verb_class": "ichidan"
+      "verb_class": "ichidan",
+      "transitivity": "transitive"
     },
     "created": "2026-03-27T00:19:10Z",
-    "modified": "2026-03-27T00:19:10Z"
+    "modified": "2026-09-02T04:01:57Z"
   }
 }

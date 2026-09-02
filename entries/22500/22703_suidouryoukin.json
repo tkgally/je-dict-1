@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22703_suidouryoukin_ex1",
-      "japanese": "{水道料金|すいどうりょうきん}を{払|はら}う。",
+      "japanese": "{水道料金|すいどうりょうきん}⟦を→を：00422_wo⟧⟦{払|はら}う→払う：00535_harau⟧。",
       "english": "To pay the water bill.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22703_suidouryoukin_ex2",
-      "japanese": "{今月|こんげつ}の{水道料金|すいどうりょうきん}が{高|たか}かった。",
+      "japanese": "⟦{今月|こんげつ}→今月：00720_kongetsu⟧⟦の→の：09472_no⟧{水道料金|すいどうりょうきん}⟦が→が：00051_ga⟧⟦{高|たか}かった→高い：00500_takai⟧。",
       "english": "This month's water bill was high.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22703_suidouryoukin_ex3",
-      "japanese": "{水道料金|すいどうりょうきん}は{二|に}か{月|げつ}に{一回|いっかい}{口座|こうざ}から{引|ひ}き{落|お}とされる。",
+      "japanese": "{水道料金|すいどうりょうきん}⟦は→は：00079_ha⟧⟦{二|に}→二：00736_ni⟧か{月|げつ}⟦に→に：00314_ni⟧⟦{一回|いっかい}→一回：08925_ikkai⟧⟦{口座|こうざ}→口座：05419_kouza⟧⟦から→から：00504_kara⟧⟦{引|ひ}き{落|お}とされる→引き落とす：23710_hikiotosu⟧。",
       "english": "The water bill is automatically deducted from the bank account once every two months.",
       "sense_numbers": [
         1
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {水道|すいどう} (water supply/waterworks) + {料金|りょうきん} (fee, charge). In Japan, water bills are typically billed bimonthly and managed by local municipalities. The bill usually covers both {上水道|じょうすいどう} (water supply) and {下水道|げすいどう} (sewerage).\n\nCOMMON COLLOCATIONS:\n- {水道料金|すいどうりょうきん}を{払|はら}う: to pay the water bill\n- {水道料金|すいどうりょうきん}の{値上|ねあ}げ: water rate increase\n- {水道料金|すいどうりょうきん}の{請求書|せいきゅうしょ}: water bill statement\n- {水道料金|すいどうりょうきん}の{滞納|たいのう}: overdue water bill\n\nRELATED TERMS:\n- {電気料金|でんきりょうきん}: electricity bill\n- {ガス料金|がすりょうきん}: gas bill\n- {光熱費|こうねつひ}: utility costs — umbrella term for gas, electricity, and water charges",
+  "notes": "A compound of ⟦{水道|すいどう}→水道：01058_suidou⟧ (water supply/waterworks) + ⟦{料金|りょうきん}→料金：03797_ryoukin⟧ (fee, charge). In Japan, water bills are typically billed bimonthly and managed by local municipalities. The bill usually covers both ⟦{上水道|じょうすいどう}→上水道：16651_jousuidou⟧ (water supply) and ⟦{下水道|げすいどう}→下水道：09632_gesuidou⟧ (sewerage).\n\nCOMMON COLLOCATIONS:\n- {水道料金|すいどうりょうきん}⟦を→を：00422_wo⟧⟦{払|はら}う→払う：00535_harau⟧: to pay the water bill\n- {水道料金|すいどうりょうきん}⟦の→の：09472_no⟧⟦{値上|ねあ}げ→値上げ：07582_neage⟧: water rate increase\n- {水道料金|すいどうりょうきん}⟦の→の：09472_no⟧⟦{請求書|せいきゅうしょ}→請求書：04698_seikyuusho⟧: water bill statement\n- {水道料金|すいどうりょうきん}⟦の→の：09472_no⟧⟦{滞納|たいのう}→滞納：09323_tainou⟧: overdue water bill\n\nRELATED WORDS:\n- ⟦{電気料金|でんきりょうきん}→電気料金：26946_denkiryoukin⟧: electricity bill\n- ⟦{ガス料金|がすりょうきん}→ガス料金：28952_gasuryoukin⟧: gas bill\n- ⟦{光熱費|こうねつひ}→光熱費：08244_kounetsuhi⟧: utility costs — umbrella term for gas, electricity, and water charges",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "26946_denkiryoukin",
+      "reading": "でんきりょうきん",
+      "headword": "{電気料金|でんきりょうきん}",
+      "label": "electricity bill"
+    },
+    {
+      "type": "related",
+      "target_id": "28952_gasuryoukin",
+      "reading": "がすりょうきん",
+      "headword": "ガス{料金|りょうきん}",
+      "label": "gas bill"
+    },
+    {
+      "type": "related",
+      "target_id": "08244_kounetsuhi",
+      "reading": "こうねつひ",
+      "headword": "{光熱費|こうねつひ}",
+      "label": "utility costs"
+    },
+    {
+      "type": "related",
+      "target_id": "07964_sessui",
+      "reading": "せっすい",
+      "headword": "{節水|せっすい}",
+      "label": "water conservation"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,6 +91,6 @@
       "politeness": "plain"
     },
     "created": "2026-04-07T12:34:28Z",
-    "modified": "2026-08-01T06:41:09Z"
+    "modified": "2026-09-02T04:02:09Z"
   }
 }

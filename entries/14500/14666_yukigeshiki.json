@@ -15,41 +15,60 @@
   "examples": [
     {
       "id": "14666_yukigeshiki_ex1",
-      "japanese": "{窓|まど}から{雪景色|ゆきげしき}が{見|み}える。",
+      "japanese": "⟦{窓|まど}→窓：02254_mado⟧⟦から→から：00504_kara⟧{雪景色|ゆきげしき}⟦が→が：00051_ga⟧⟦{見|み}える→見える：01165_mieru⟧。",
       "english": "I can see a snowy landscape from the window.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14666_yukigeshiki_ex2",
-      "japanese": "{北海道|ほっかいどう}の{雪景色|ゆきげしき}は{本当|ほんとう}に{美|うつく}しい。",
+      "japanese": "⟦{北海道|ほっかいどう}→北海道：11010_hokkaidou⟧⟦の→の：09472_no⟧{雪景色|ゆきげしき}⟦は→は：00079_ha⟧⟦{本当|ほんとう}→本当：00779_hontou⟧⟦に→に：00314_ni⟧⟦{美|うつく}しい→美しい：01121_utsukushii⟧。",
       "english": "The snowy scenery of Hokkaido is truly beautiful.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14666_yukigeshiki_ex3",
-      "japanese": "{温泉|おんせん}に{浸|つ}かりながら{雪景色|ゆきげしき}を{楽|たの}しむのは{最高|さいこう}のぜいたくだ。",
+      "japanese": "⟦{温泉|おんせん}→温泉：04117_onsen⟧⟦に→に：00314_ni⟧⟦{浸|つ}かり→浸かる：13290_tsukaru⟧⟦ながら→ながら：10530_nagara⟧{雪景色|ゆきげしき}⟦を→を：00422_wo⟧⟦{楽|たの}しむ→楽しむ：01203_tanoshimu⟧⟦の→の：09472_no⟧⟦は→は：00079_ha⟧⟦{最高|さいこう}→最高：02637_saikou⟧⟦の→の：09472_no⟧ぜいたくだ。",
       "english": "Soaking in a hot spring while enjoying the snowy scenery is the ultimate luxury.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "A compound of {雪|ゆき} (snow) + {景色|けしき} (scenery). The reading changes from けしき to げしき due to rendaku (sequential voicing).\n\nCOMMON COLLOCATIONS:\n- {雪景色|ゆきげしき}を{眺|なが}める (gaze at snowy scenery)\n- {雪景色|ゆきげしき}を{楽|たの}しむ (enjoy snowy scenery)\n- {一面|いちめん}の{雪景色|ゆきげしき} (a landscape covered entirely in snow)\n\nSIMILAR COMPOUNDS:\n- {夜景|やけい} (night view)\n- {紅葉|こうよう} (autumn foliage scenery)\n- {花見|はなみ} (cherry blossom viewing — an activity, not just scenery)",
-  "cross_references": [],
+  "notes": "A compound of ⟦{雪|ゆき}→雪：00584_yuki⟧ (snow) + ⟦{景色|けしき}→景色：01395_keshiki⟧ (scenery). The reading changes from けしき to げしき due to rendaku (sequential voicing).\n\nCOMMON COLLOCATIONS:\n- {雪景色|ゆきげしき}⟦を→を：00422_wo⟧⟦{眺|なが}める→眺める：02132_nagameru⟧ (gaze at snowy scenery)\n- {雪景色|ゆきげしき}⟦を→を：00422_wo⟧⟦{楽|たの}しむ→楽しむ：01203_tanoshimu⟧ (enjoy snowy scenery)\n- ⟦{一面|いちめん}→一面：11184_ichimen⟧⟦の→の：09472_no⟧{雪景色|ゆきげしき} (a landscape covered entirely in snow)\n\nSIMILAR COMPOUNDS:\n- ⟦{夜景|やけい}→夜景：10434_yakei⟧ (night view)\n- ⟦{紅葉|こうよう}→紅葉：04151_kouyou⟧ (autumn foliage scenery)\n- ⟦{花見|はなみ}→花見：01700_hanami⟧ (cherry blossom viewing — an activity, not just scenery)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "29500_yukiyama",
+      "reading": "ゆきやま",
+      "headword": "{雪山|ゆきやま}",
+      "label": "snowy mountain"
+    }
+  ],
   "metadata": {
     "created": "2026-03-02T10:56:14Z",
-    "modified": "2026-03-02T10:56:14Z",
+    "modified": "2026-09-02T04:01:38Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["weather", "geography"]
+      "semantic": [
+        "weather",
+        "geography"
+      ]
     }
   }
 }

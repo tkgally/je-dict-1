@@ -15,40 +15,80 @@
   "examples": [
     {
       "id": "19146_nettaigyo_ex1",
-      "japanese": "{熱帯魚|ねったいぎょ}を{飼|か}っている。",
+      "japanese": "{熱帯魚|ねったいぎょ}⟦を→を：00422_wo⟧⟦{飼|か}っている→飼う：08151_kau⟧。",
       "english": "I keep tropical fish.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19146_nettaigyo_ex2",
-      "japanese": "{水族館|すいぞくかん}で{色|いろ}とりどりの{熱帯魚|ねったいぎょ}を{見|み}た。",
+      "japanese": "⟦{水族館|すいぞくかん}→水族館：09220_suizokukan⟧⟦で→で：00502_de⟧⟦{色|いろ}とりどり→色とりどり：10404_irotoridori⟧⟦の→の：09472_no⟧{熱帯魚|ねったいぎょ}⟦を→を：00422_wo⟧⟦{見|み}た→見る：00283_miru⟧。",
       "english": "I saw colorful tropical fish at the aquarium.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19146_nettaigyo_ex3",
-      "japanese": "{熱帯魚|ねったいぎょ}の{水槽|すいそう}は{温度|おんど}{管理|かんり}が{大切|たいせつ}だ。",
+      "japanese": "{熱帯魚|ねったいぎょ}⟦の→の：09472_no⟧⟦{水槽|すいそう}→水槽：09956_suisou⟧⟦は→は：00079_ha⟧⟦{温度|おんど}→温度：00333_ondo⟧⟦{管理|かんり}→管理：00178_kanri⟧⟦が→が：00051_ga⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧だ。",
       "english": "Temperature control is important for a tropical fish tank.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Compound of {熱帯|ねったい} (tropics) + {魚|ぎょ} (fish). Refers to colorful fish from tropical regions, commonly kept as aquarium pets.\n\nCOMMON COLLOCATIONS:\n- {熱帯魚|ねったいぎょ}を{飼|か}う: to keep tropical fish\n- {熱帯魚|ねったいぎょ}の{水槽|すいそう}: tropical fish tank\n- {熱帯魚|ねったいぎょ}{専門店|せんもんてん}: tropical fish specialty shop\n- {熱帯魚|ねったいぎょ}{飼育|しいく}: tropical fish keeping\n\nIN JAPAN:\nKeeping {熱帯魚|ねったいぎょ} is a popular hobby. Home centers and pet shops often have dedicated sections. Popular species include グッピー (guppies), ネオンテトラ (neon tetras), and エンゼルフィッシュ (angelfish).\n\nRELATED TERMS:\n- {金魚|きんぎょ}: goldfish\n- {水族館|すいぞくかん}: aquarium (facility)\n- {水槽|すいそう}: fish tank, aquarium (container)",
+  "notes": "Compound of ⟦{熱帯|ねったい}→熱帯：03531_nettai⟧ (tropics) + {魚|ぎょ} (fish). Refers to colorful fish from tropical regions, commonly kept as aquarium pets.\n\nCOMMON COLLOCATIONS:\n- {熱帯魚|ねったいぎょ}⟦を→を：00422_wo⟧⟦{飼|か}う→飼う：08151_kau⟧: to keep tropical fish\n- {熱帯魚|ねったいぎょ}⟦の→の：09472_no⟧⟦{水槽|すいそう}→水槽：09956_suisou⟧: tropical fish tank\n- {熱帯魚|ねったいぎょ}⟦{専門店|せんもんてん}→専門店：15924_senmonten⟧: tropical fish specialty shop\n- {熱帯魚|ねったいぎょ}⟦{飼育|しいく}→飼育：06422_shiiku⟧: tropical fish keeping\n\nCULTURAL NOTE:\nKeeping {熱帯魚|ねったいぎょ} is a popular hobby. Home centers and pet shops often have dedicated sections. Popular species include グッピー (guppies), ネオンテトラ (neon tetras), and エンゼルフィッシュ (angelfish).\n\nRELATED WORDS:\n- ⟦{金魚|きんぎょ}→金魚：00233_kingyo⟧: goldfish\n- ⟦{水族館|すいぞくかん}→水族館：09220_suizokukan⟧: aquarium (facility)\n- ⟦{水槽|すいそう}→水槽：09956_suisou⟧: fish tank, aquarium (container)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "00233_kingyo",
+      "reading": "きんぎょ",
+      "headword": "{金魚|きんぎょ}",
+      "label": "goldfish"
+    },
+    {
+      "type": "related",
+      "target_id": "09220_suizokukan",
+      "reading": "すいぞくかん",
+      "headword": "{水族館|すいぞくかん}",
+      "label": "aquarium"
+    },
+    {
+      "type": "related",
+      "target_id": "09956_suisou",
+      "reading": "すいそう",
+      "headword": "{水槽|すいそう}",
+      "label": "fish tank, aquarium"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25092_kanshougyo",
+      "reading": "かんしょうぎょ",
+      "headword": "{観賞魚|かんしょうぎょ}",
+      "label": "ornamental fish"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["animal-fish"]
+      "semantic": [
+        "animal-fish"
+      ]
     },
     "created": "2026-03-24T11:20:40Z",
-    "modified": "2026-03-27T14:29:18Z"
+    "modified": "2026-09-02T04:01:54Z"
   }
 }

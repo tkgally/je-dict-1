@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "11098_shuushi_ex1",
-      "japanese": "{修士|しゅうし}{課程|かてい}に{進学|しんがく}する{予定|よてい}です。",
+      "japanese": "{修士|しゅうし}{課程|かてい}⟦に→に：00314_ni⟧⟦{進学|しんがく}→進学：03256_shingaku⟧⟦する→する：00392_suru⟧⟦{予定|よてい}→予定：00824_yotei⟧です。",
       "english": "I plan to enter a master's program.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "11098_shuushi_ex2",
-      "japanese": "{修士|しゅうし}{論文|ろんぶん}のテーマがまだ{決|き}まらない。",
+      "japanese": "{修士|しゅうし}{論文|ろんぶん}⟦の→の：09472_no⟧⟦テーマ→テーマ：17684_teema⟧⟦が→が：00051_ga⟧⟦まだ→まだ：00603_mada⟧⟦{決|き}まらない→決まる：01233_kimaru⟧。",
       "english": "I still haven't decided on a topic for my master's thesis.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "11098_shuushi_ex3",
-      "japanese": "{修士|しゅうし}{号|ごう}を{取得|しゅとく}してから{就職|しゅうしょく}するか、{博士|はかせ}{課程|かてい}に{進|すす}むか{迷|まよ}っている。",
+      "japanese": "{修士|しゅうし}{号|ごう}⟦を→を：00422_wo⟧⟦{取得|しゅとく}して→取得する：10444_shutokusuru⟧⟦から→から：00504_kara⟧⟦{就職|しゅうしょく}→就職：03209_shuushoku⟧⟦する→する：00392_suru⟧⟦か→か：09473_ka⟧、⟦{博士|はかせ}→博士：03551_hakase⟧⟦{課程|かてい}→課程：02653_katei⟧⟦に→に：00314_ni⟧⟦{進|すす}む→進む：01225_susumu⟧⟦か→か：09473_ka⟧⟦{迷|まよ}っている→迷う：02426_mayou⟧。",
       "english": "I'm torn between finding a job after getting my master's degree or continuing to a doctoral program.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{修士|しゅうし} refers to the master's level of academic study. It is used in academic and professional contexts.\n\nCOMMON COLLOCATIONS:\n- {修士|しゅうし}{課程|かてい} (master's program/course)\n- {修士|しゅうし}{論文|ろんぶん} (master's thesis)\n- {修士|しゅうし}{号|ごう} (master's degree)\n\nACADEMIC DEGREE HIERARCHY:\n- {学士|がくし} (bachelor's degree)\n- {修士|しゅうし} (master's degree)\n- {博士|はかせ}/{博士|はくし} (doctoral degree)\n\nABBREVIATION:\n{修士|しゅうし} is sometimes abbreviated as M in degree names (e.g., MA, MSc), while the Japanese abbreviation is {修|しゅう} (as in {修了|しゅうりょう} = completion of a master's program).",
+  "notes": "USAGE:\n{修士|しゅうし} refers to the master's level of academic study. It is used in academic and professional contexts.\n\nCOMMON COLLOCATIONS:\n- {修士|しゅうし}{課程|かてい} (master's program/course)\n- {修士|しゅうし}{論文|ろんぶん} (master's thesis)\n- {修士|しゅうし}{号|ごう} (master's degree)\n\nACADEMIC DEGREE HIERARCHY:\n- ⟦{学士|がくし}→学士：23251_gakushi⟧ (bachelor's degree)\n- {修士|しゅうし} (master's degree)\n- ⟦{博士|はかせ}→博士：03551_hakase⟧/{博士|はくし} (doctoral degree)\n\nFORMS:\n{修士|しゅうし} is sometimes abbreviated as M in degree names (e.g., MA, MSc), while the Japanese abbreviation is {修|しゅう} (as in ⟦{修了|しゅうりょう}→修了：11655_shuuryou⟧ = completion of a master's program).",
   "cross_references": [
     {
       "type": "related",
@@ -52,11 +52,25 @@
       "reading": "はかせ",
       "headword": "{博士|はかせ}",
       "label": "doctorate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23152_insotsu",
+      "reading": "いんそつ",
+      "headword": "{院卒|いんそつ}",
+      "label": "graduate school graduate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23251_gakushi",
+      "reading": "がくし",
+      "headword": "{学士|がくし}",
+      "label": "bachelor's degree"
     }
   ],
   "metadata": {
     "created": "2026-02-13T12:41:35Z",
-    "modified": "2026-04-25T04:12:08Z",
+    "modified": "2026-09-02T04:01:24Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

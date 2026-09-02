@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "13180_kiki_ex1",
-      "japanese": "{医療|いりょう}{機器|きき}を{点検|てんけん}する。",
+      "japanese": "{医療|いりょう}{機器|きき}⟦を→を：00422_wo⟧⟦{点検|てんけん}→点検：09765_tenken⟧⟦する→する：00392_suru⟧。",
       "english": "To inspect medical equipment.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "13180_kiki_ex2",
-      "japanese": "{精密|せいみつ}{機器|きき}の{取|と}り{扱|あつか}いには{注意|ちゅうい}が{必要|ひつよう}だ。",
+      "japanese": "⟦{精密|せいみつ}→精密：13775_seimitsu⟧{機器|きき}⟦の→の：09472_no⟧⟦{取|と}り{扱|あつか}い→取り扱い：09806_toriatsukai⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{注意|ちゅうい}→注意：01464_chuui⟧⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧だ。",
       "english": "Handling precision equipment requires caution.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "13180_kiki_ex3",
-      "japanese": "この{工場|こうじょう}では{最新|さいしん}の{電子|でんし}{機器|きき}を{使|つか}って{製品|せいひん}を{製造|せいぞう}している。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{工場|こうじょう}→工場：01082_koujou⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{最新|さいしん}→最新：04831_saishin⟧⟦の→の：09472_no⟧⟦{電子|でんし}→電子：03449_denshi⟧{機器|きき}⟦を→を：00422_wo⟧⟦{使|つか}って→使う：00473_tsukau⟧⟦{製品|せいひん}→製品：01445_seihin⟧⟦を→を：00422_wo⟧⟦{製造|せいぞう}→製造：03289_seizou⟧⟦している→する：00392_suru⟧。",
       "english": "This factory uses the latest electronic equipment to manufacture products.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,54 @@
       ]
     }
   ],
-  "notes": "ETYMOLOGY:\n{機|き} (machine, mechanism) + {器|き} (instrument, device). Both characters refer to devices or tools, creating a general term for equipment.\n\nUSAGE:\nA formal, technical term typically used in professional contexts such as medicine, engineering, and manufacturing. For everyday appliances, {家電|かでん} (home appliances) or {電化製品|でんかせいひん} is more natural. {機器|きき} often appears as a suffix in compound terms.\n\nCOMMON COLLOCATIONS:\n- {医療|いりょう}{機器|きき}: medical equipment\n- {電子|でんし}{機器|きき}: electronic devices\n- {精密|せいみつ}{機器|きき}: precision instruments\n- {通信|つうしん}{機器|きき}: communication equipment\n- {測定|そくてい}{機器|きき}: measuring instruments\n- {機器|きき}の{操作|そうさ}: operation of equipment",
-  "cross_references": [],
+  "notes": "ETYMOLOGY:\n⟦{機|き}→〜機：09843_ki⟧ (machine, mechanism) + {器|き} (instrument, device). Both characters refer to devices or tools, creating a general term for equipment.\n\nUSAGE:\nA formal, technical term typically used in professional contexts such as medicine, engineering, and manufacturing. For everyday appliances, ⟦{家電|かでん}→家電：04966_kaden⟧ (home appliances) or ⟦{電化製品|でんかせいひん}→電化製品：04906_denkaseihin⟧ is more natural. {機器|きき} often appears as a suffix in compound terms.\n\nCOMMON COLLOCATIONS:\n- {医療|いりょう}{機器|きき}: medical equipment\n- ⟦{電子|でんし}→電子：03449_denshi⟧{機器|きき}: electronic devices\n- ⟦{精密|せいみつ}→精密：13775_seimitsu⟧{機器|きき}: precision instruments\n- {通信|つうしん}{機器|きき}: communication equipment\n- ⟦{測定|そくてい}→測定：04398_sokutei⟧{機器|きき}: measuring instruments\n- {機器|きき}⟦の→の：09472_no⟧⟦{操作|そうさ}→操作：03316_sousa⟧: operation of equipment",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "02366_kikai",
+      "reading": "きかい",
+      "headword": "{機械|きかい}",
+      "label": "machine, machinery"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03980_kigu",
+      "reading": "きぐ",
+      "headword": "{器具|きぐ}",
+      "label": "instrument"
+    },
+    {
+      "type": "related",
+      "target_id": "05151_haadowea",
+      "reading": "はーどうぇあ",
+      "headword": "ハードウェア",
+      "label": "hardware"
+    },
+    {
+      "type": "related",
+      "target_id": "06462_gajetto",
+      "reading": "がじぇっと",
+      "headword": "ガジェット",
+      "label": "gadget, device"
+    },
+    {
+      "type": "related",
+      "target_id": "06960_debaisu",
+      "reading": "でばいす",
+      "headword": "デバイス",
+      "label": "device (electronic)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13211_kishu",
+      "reading": "きしゅ",
+      "headword": "{機種|きしゅ}",
+      "label": "model, type (of machine or device)"
+    }
+  ],
   "metadata": {
     "created": "2026-02-23T12:25:45Z",
-    "modified": "2026-02-23T12:25:45Z",
+    "modified": "2026-09-02T04:01:32Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

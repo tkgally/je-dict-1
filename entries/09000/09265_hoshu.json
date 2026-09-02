@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "09265_hoshu_ex1",
-      "japanese": "{捕手|ほしゅ}がボールを{受|う}ける。",
+      "japanese": "{捕手|ほしゅ}⟦が→が：00051_ga⟧⟦ボール→ボール：00017_booru⟧⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧。",
       "english": "The catcher catches the ball.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "09265_hoshu_ex2",
-      "japanese": "あのチームの{捕手|ほしゅ}は{肩|かた}が{強|つよ}い。",
+      "japanese": "⟦あの→あの：00915_ano⟧⟦チーム→チーム：03858_chiimu⟧⟦の→の：09472_no⟧{捕手|ほしゅ}⟦は→は：00079_ha⟧⟦{肩|かた}→肩：02192_kata⟧⟦が→が：00051_ga⟧⟦{強|つよ}い→強い：00820_tsuyoi⟧。",
       "english": "That team's catcher has a strong arm.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "09265_hoshu_ex3",
-      "japanese": "{捕手|ほしゅ}は{投手|とうしゅ}に{合図|あいず}を{送|おく}った。",
+      "japanese": "{捕手|ほしゅ}⟦は→は：00079_ha⟧⟦{投手|とうしゅ}→投手：06563_toushu⟧⟦に→に：00314_ni⟧⟦{合図|あいず}→合図：01675_aizu⟧⟦を→を：00422_wo⟧⟦{送|おく}った→送る：00742_okuru⟧。",
       "english": "The catcher sent a signal to the pitcher.",
       "sense_numbers": [
         1
@@ -43,7 +43,7 @@
       "notes": null
     }
   ],
-  "notes": "{捕手|ほしゅ} is the formal Japanese baseball term for catcher ({捕|ほ} = catch + {手|しゅ} = player). In casual conversation, キャッチャー (from English) is equally common.\n\nCOMMON COLLOCATIONS:\n- {正捕手|せいほしゅ}: starting/regular catcher\n- {控|ひか}え{捕手|ほしゅ}: backup catcher\n- {捕手|ほしゅ}を{務|つと}める: to serve as catcher\n\nRELATED POSITIONS:\n- {投手|とうしゅ}: pitcher\n- {内野手|ないやしゅ}: infielder\n- {外野手|がいやしゅ}: outfielder\n- {打者|だしゃ}: batter\n\nUSAGE:\nThe {投手|とうしゅ} and {捕手|ほしゅ} together form the バッテリー (battery). Newspapers and sports broadcasts prefer the kanji term {捕手|ほしゅ}, while spoken language often uses キャッチャー.",
+  "notes": "{捕手|ほしゅ} is the formal Japanese baseball term for catcher ({捕|ほ} = catch + {手|しゅ} = player). In casual conversation, キャッチャー (from English) is equally common.\n\nCOMMON COLLOCATIONS:\n- ⟦{正捕手|せいほしゅ}→正捕手：28641_seihoshu⟧: starting/regular catcher\n- ⟦{控|ひか}え→控える：10054_hikaeru⟧{捕手|ほしゅ}: backup catcher\n- {捕手|ほしゅ}⟦を→を：00422_wo⟧⟦{務|つと}める→務める：10446_tsutomeru⟧: to serve as catcher\n\nRELATED POSITIONS:\n- ⟦{投手|とうしゅ}→投手：06563_toushu⟧: pitcher\n- ⟦{内野手|ないやしゅ}→内野手：25025_naiyashu⟧: infielder\n- ⟦{外野手|がいやしゅ}→外野手：21674_gaiyashu⟧: outfielder\n- ⟦{打者|だしゃ}→打者：06564_dasha⟧: batter\n\nUSAGE:\nThe ⟦{投手|とうしゅ}→投手：06563_toushu⟧ and {捕手|ほしゅ} together form the ⟦バッテリー→バッテリー：04425_batterii⟧ (battery). Newspapers and sports broadcasts prefer the kanji term {捕手|ほしゅ}, while spoken language often uses キャッチャー.",
   "cross_references": [
     {
       "type": "related",
@@ -79,11 +79,32 @@
       "reading": "やしゅ",
       "headword": "{野手|やしゅ}",
       "label": "fielder"
+    },
+    {
+      "type": "related",
+      "target_id": "25025_naiyashu",
+      "reading": "ないやしゅ",
+      "headword": "{内野手|ないやしゅ}",
+      "label": "infielder"
+    },
+    {
+      "type": "related",
+      "target_id": "21674_gaiyashu",
+      "reading": "がいやしゅ",
+      "headword": "{外野手|がいやしゅ}",
+      "label": "outfielder"
+    },
+    {
+      "type": "related",
+      "target_id": "09482_picchaa",
+      "reading": "ぴっちゃー",
+      "headword": "ピッチャー",
+      "label": "pitcher (baseball)"
     }
   ],
   "metadata": {
     "created": "2026-02-01T06:15:45Z",
-    "modified": "2026-05-08T04:12:06Z",
+    "modified": "2026-09-02T04:01:17Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

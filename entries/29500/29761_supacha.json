@@ -3,7 +3,7 @@
   "headword": "スパチャ",
   "reading": "すぱちゃ",
   "romaji": "supacha",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "Super Chat (abbreviation)",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29761_supacha_ex1",
-      "japanese": "スパチャを{送|おく}る。",
+      "japanese": "スパチャ⟦を→を：00422_wo⟧⟦{送|おく}る→送る：00742_okuru⟧。",
       "english": "Send a Super Chat.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29761_supacha_ex2",
-      "japanese": "{推|お}しの{配信|はいしん}にスパチャした。",
+      "japanese": "⟦{推|お}し→推し：04736_oshi⟧⟦の→の：09472_no⟧⟦{配信|はいしん}→配信：04898_haishin⟧⟦に→に：00314_ni⟧スパチャ⟦した→する：00392_suru⟧。",
       "english": "I sent a Super Chat to my favorite streamer's broadcast.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29761_supacha_ex3",
-      "japanese": "{好|す}きな{配信者|はいしんしゃ}を{応援|おうえん}するために、{初|はじ}めてスパチャを{送|おく}ってみた。",
+      "japanese": "⟦{好|す}き→好き：02355_suki⟧な⟦{配信者|はいしんしゃ}→配信者：16573_haishinsha⟧⟦を→を：00422_wo⟧⟦{応援|おうえん}する→応援する：21988_ouensuru⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧、⟦{初|はじ}めて→初めて：02932_hajimete⟧スパチャ⟦を→を：00422_wo⟧⟦{送|おく}って→送る：00742_okuru⟧みた。",
       "english": "To support a streamer I like, I tried sending a Super Chat for the first time.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Colloquial abbreviation of スーパーチャット (Super Chat). Often used as a verb: スパチャする (to send a Super Chat).\n\nCOMMON COLLOCATIONS:\n- スパチャを{送|おく}る: to send a Super Chat\n- スパチャする: to send a Super Chat\n- {高額|こうがく}スパチャ: a large Super Chat\n\nSIMILAR WORDS:\n- スーパーチャット: the full form\n- {投|な}げ{銭|せん}: online tip; donation (general)",
+  "notes": "Colloquial abbreviation of ⟦スーパーチャット→スーパーチャット：29760_suupaachatto⟧ (Super Chat). Often used as a verb: スパチャ⟦する→する：00392_suru⟧ (to send a Super Chat).\n\nCOMMON COLLOCATIONS:\n- スパチャ⟦を→を：00422_wo⟧⟦{送|おく}る→送る：00742_okuru⟧: to send a Super Chat\n- スパチャ⟦する→する：00392_suru⟧: to send a Super Chat\n- ⟦{高額|こうがく}→高額：14704_kougaku⟧スパチャ: a large Super Chat\n\nSIMILAR WORDS:\n- ⟦スーパーチャット→スーパーチャット：29760_suupaachatto⟧: the full form\n- ⟦{投|な}げ{銭|せん}→投げ銭：06444_nagesen⟧: online tip; donation (general)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "29760_suupaachatto",
+      "reading": "すーぱーちゃっと",
+      "headword": "スーパーチャット",
+      "label": "the full form"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06444_nagesen",
+      "reading": "なげせん",
+      "headword": "{投|な}げ{銭|せん}",
+      "label": "online tip"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -54,7 +70,7 @@
         "verb-suru"
       ],
       "formality": "informal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "technology"
       ],
@@ -65,7 +81,7 @@
       "verb_class": "suru"
     },
     "created": "2026-07-10T12:26:59Z",
-    "modified": "2026-07-10T12:26:59Z"
+    "modified": "2026-09-02T04:02:37Z"
   },
   "conjugation": {
     "type": "suru",

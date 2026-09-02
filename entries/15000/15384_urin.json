@@ -15,41 +15,73 @@
   "examples": [
     {
       "id": "15384_urin_ex1",
-      "japanese": "{熱帯|ねったい}{雨林|うりん}を{守|まも}る。",
+      "japanese": "{熱帯|ねったい}{雨林|うりん}⟦を→を：00422_wo⟧⟦{守|まも}る→守る：01986_mamoru⟧。",
       "english": "To protect tropical rainforests.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15384_urin_ex2",
-      "japanese": "{雨林|うりん}には{多|おお}くの{動植物|どうしょくぶつ}が{生息|せいそく}している。",
+      "japanese": "{雨林|うりん}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{多|おお}く⟦の→の：09472_no⟧⟦{動植物|どうしょくぶつ}→動植物：23782_doushokubutsu⟧⟦が→が：00051_ga⟧⟦{生息|せいそく}→生息：13542_seisoku⟧⟦している→する：00392_suru⟧。",
       "english": "Many animals and plants live in the rainforest.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15384_urin_ex3",
-      "japanese": "{雨林|うりん}の{伐採|ばっさい}が{地球|ちきゅう}{温暖化|おんだんか}に{影響|えいきょう}を{与|あた}えている。",
+      "japanese": "{雨林|うりん}⟦の→の：09472_no⟧⟦{伐採|ばっさい}→伐採：08435_bassai⟧⟦が→が：00051_ga⟧⟦{地球|ちきゅう}{温暖化|おんだんか}→地球温暖化：18873_chikyuuondanka⟧⟦に→に：00314_ni⟧⟦{影響|えいきょう}→影響：01877_eikyou⟧⟦を→を：00422_wo⟧⟦{与|あた}えている→与える：01821_ataeru⟧。",
       "english": "Deforestation of rainforests is contributing to global warming.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{雨林|うりん} means rainforest — a dense forest in a region of heavy rainfall. Compound of {雨|あめ} (rain) + {林|はやし} (forest/woods).\n\nUSAGE:\nMost commonly appears in the compound {熱帯|ねったい}{雨林|うりん} (tropical rainforest). Can stand alone to refer to any type of rainforest, but this is less common.\n\nCOMMON COLLOCATIONS:\n- {熱帯|ねったい}{雨林|うりん}: tropical rainforest\n- {雨林|うりん}の{破壊|はかい}: destruction of rainforests\n- {雨林|うりん}{地帯|ちたい}: rainforest zone/region\n- {雨林|うりん}の{保護|ほご}: rainforest conservation\n\nRELATED WORDS:\n- {森林|しんりん}: forest (general term)\n- {密林|みつりん}: dense jungle\n- {原生林|げんせいりん}: primeval/old-growth forest",
-  "cross_references": [],
+  "notes": "{雨林|うりん} means rainforest — a dense forest in a region of heavy rainfall. Compound of ⟦{雨|あめ}→雨：00583_ame⟧ (rain) + ⟦{林|はやし}→林：01702_hayashi⟧ (forest/woods).\n\nUSAGE:\nMost commonly appears in the compound {熱帯|ねったい}{雨林|うりん} (tropical rainforest). Can stand alone to refer to any type of rainforest, but this is less common.\n\nCOMMON COLLOCATIONS:\n- {熱帯|ねったい}{雨林|うりん}: tropical rainforest\n- {雨林|うりん}⟦の→の：09472_no⟧⟦{破壊|はかい}→破壊：13678_hakai⟧: destruction of rainforests\n- {雨林|うりん}⟦{地帯|ちたい}→地帯：04057_chitai⟧: rainforest zone/region\n- {雨林|うりん}⟦の→の：09472_no⟧⟦{保護|ほご}→保護：03625_hogo⟧: rainforest conservation\n\nRELATED WORDS:\n- ⟦{森林|しんりん}→森林：01441_shinrin⟧: forest (general term)\n- ⟦{密林|みつりん}→密林：19969_mitsurin⟧: dense jungle\n- ⟦{原生林|げんせいりん}→原生林：09965_genseirin⟧: primeval/old-growth forest",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "01441_shinrin",
+      "reading": "しんりん",
+      "headword": "{森林|しんりん}",
+      "label": "forest"
+    },
+    {
+      "type": "related",
+      "target_id": "19969_mitsurin",
+      "reading": "みつりん",
+      "headword": "{密林|みつりん}",
+      "label": "dense jungle"
+    },
+    {
+      "type": "related",
+      "target_id": "09965_genseirin",
+      "reading": "げんせいりん",
+      "headword": "{原生林|げんせいりん}",
+      "label": "primeval/old-growth forest"
+    }
+  ],
   "metadata": {
     "created": "2026-03-06T12:30:56Z",
-    "modified": "2026-03-28T01:54:11Z",
+    "modified": "2026-09-02T04:01:41Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["geography"]
+      "semantic": [
+        "geography"
+      ]
     }
   }
 }

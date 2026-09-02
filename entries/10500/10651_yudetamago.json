@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "10651_yudetamago_ex1",
-      "japanese": "ゆで{卵|たまご}を{作|つく}る。",
+      "japanese": "ゆで{卵|たまご}⟦を→を：00422_wo⟧⟦{作|つく}る→作る：00481_tsukuru⟧。",
       "english": "To make boiled eggs.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "10651_yudetamago_ex2",
-      "japanese": "ゆで{卵|たまご}の{殻|から}をむく。",
+      "japanese": "ゆで{卵|たまご}⟦の→の：09472_no⟧⟦{殻|から}をむく→殻をむく：20430_karawomuku⟧。",
       "english": "To peel a boiled egg.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "10651_yudetamago_ex3",
-      "japanese": "ラーメンに{半熟|はんじゅく}のゆで{卵|たまご}をトッピングした。",
+      "japanese": "⟦ラーメン→ラーメン：05181_raamen⟧⟦に→に：00314_ni⟧⟦{半熟|はんじゅく}→半熟：11935_hanjuku⟧⟦の→の：09472_no⟧ゆで{卵|たまご}⟦を→を：00422_wo⟧⟦トッピング→トッピング：17674_toppingu⟧⟦した→する：00392_suru⟧。",
       "english": "I added a soft-boiled egg as a topping on my ramen.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "WRITING:\nAlso written as {茹|ゆ}で{卵|たまご}. The hiragana-kanji mixed form ゆで{卵|たまご} is most common.\n\nVARIETIES:\n・{半熟|はんじゅく}ゆで{卵|たまご} — soft-boiled egg\n・{固|かた}ゆで{卵|たまご} — hard-boiled egg\n・{味|あじ}{付|つ}きゆで{卵|たまご} — seasoned boiled egg (like {煮卵|にたまご})\n\nCULTURAL NOTE:\nBoiled eggs are a standard ramen topping ({味玉|あじたま}) and a classic convenience store item in Japan. {温泉卵|おんせんたまご} (hot spring egg) is a related but different preparation.",
+  "notes": "WRITING:\nAlso written as {茹|ゆ}で{卵|たまご}. The hiragana-kanji mixed form ゆで{卵|たまご} is most common.\n\nTYPES:\n- ⟦{半熟|はんじゅく}→半熟：11935_hanjuku⟧ゆで{卵|たまご} — soft-boiled egg\n- {固|かた}ゆで{卵|たまご} — hard-boiled egg\n- ⟦{味|あじ}→味：00826_aji⟧⟦{付|つ}き→付き：26333_tsuki⟧ゆで{卵|たまご} — seasoned boiled egg (like {煮卵|にたまご})\n\nCULTURAL NOTE:\nBoiled eggs are a standard ramen topping ({味玉|あじたま}) and a classic convenience store item in Japan. ⟦{温泉卵|おんせんたまご}→温泉卵：27857_onsentamago⟧ (hot spring egg) is a related but different preparation.",
   "cross_references": [
     {
       "type": "related",
@@ -52,11 +52,25 @@
       "headword": "{卵|たまご}",
       "label": "egg",
       "target_id": "02222_tamago"
+    },
+    {
+      "type": "related",
+      "target_id": "19011_namatamago",
+      "reading": "なまたまご",
+      "headword": "{生卵|なまたまご}",
+      "label": "raw egg"
+    },
+    {
+      "type": "related",
+      "target_id": "25826_tamagoryouri",
+      "reading": "たまごりょうり",
+      "headword": "{卵料理|たまごりょうり}",
+      "label": "egg dish"
     }
   ],
   "metadata": {
     "created": "2026-02-08T15:14:06Z",
-    "modified": "2026-08-02T12:18:13Z",
+    "modified": "2026-09-02T04:01:22Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

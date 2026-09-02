@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "16840_akueikyou_ex1",
-      "japanese": "{健康|けんこう}に{悪影響|あくえいきょう}がある。",
+      "japanese": "⟦{健康|けんこう}→健康：02706_kenkou⟧⟦に→に：00314_ni⟧{悪影響|あくえいきょう}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "It has a bad effect on health.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "16840_akueikyou_ex2",
-      "japanese": "スマホの{使|つか}いすぎは{子供|こども}に{悪影響|あくえいきょう}を{与|あた}える。",
+      "japanese": "⟦スマホ→スマホ：04721_sumaho⟧⟦の→の：09472_no⟧⟦{使|つか}い→使う：00473_tsukau⟧すぎ⟦は→は：00079_ha⟧⟦{子供|こども}→子供：00554_kodomo⟧⟦に→に：00314_ni⟧{悪影響|あくえいきょう}⟦を→を：00422_wo⟧⟦{与|あた}える→与える：01821_ataeru⟧。",
       "english": "Excessive smartphone use has a harmful effect on children.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "16840_akueikyou_ex3",
-      "japanese": "{環境|かんきょう}{汚染|おせん}が{生態系|せいたいけい}に{悪影響|あくえいきょう}を{及|およ}ぼしていることが{明|あき}らかになった。",
+      "japanese": "⟦{環境|かんきょう}{汚染|おせん}→環境汚染：21102_kankyouosen⟧⟦が→が：00051_ga⟧⟦{生態系|せいたいけい}→生態系：04626_seitaikei⟧⟦に→に：00314_ni⟧{悪影響|あくえいきょう}⟦を→を：00422_wo⟧⟦{及|およ}ぼしている→及ぼす：02028_oyobosu⟧こと⟦が→が：00051_ga⟧⟦{明|あき}らか→明らか：02351_akiraka⟧になった。",
       "english": "It became clear that environmental pollution is having an adverse impact on the ecosystem.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "{悪影響|あくえいきょう} means bad influence or harmful effect. Frequently used in news, health, education, and environmental discussions.\n\nWORD FORMATION:\n{悪|あく} (bad) + {影響|えいきょう} (influence, effect). The opposite is {好影響|こうえいきょう} (positive influence), though this is less commonly used.\n\nCOMMON COLLOCATIONS:\n- {悪影響|あくえいきょう}を{与|あた}える: to have a bad influence on\n- {悪影響|あくえいきょう}を{及|およ}ぼす: to exert a harmful effect on (more formal)\n- {悪影響|あくえいきょう}が{出|で}る: harmful effects appear\n- {悪影響|あくえいきょう}を{受|う}ける: to be affected negatively\n\nTYPICAL TOPICS:\n- {健康|けんこう}への{悪影響|あくえいきょう}: harmful effects on health\n- {環境|かんきょう}への{悪影響|あくえいきょう}: adverse impact on the environment\n- {子供|こども}への{悪影響|あくえいきょう}: bad influence on children",
+  "notes": "{悪影響|あくえいきょう} means bad influence or harmful effect. Frequently used in news, health, education, and environmental discussions.\n\nFORMS:\n{悪|あく} (bad) + ⟦{影響|えいきょう}→影響：01877_eikyou⟧ (influence, effect). The opposite is {好影響|こうえいきょう} (positive influence), though this is less commonly used.\n\nCOMMON COLLOCATIONS:\n- {悪影響|あくえいきょう}⟦を→を：00422_wo⟧⟦{与|あた}える→与える：01821_ataeru⟧: to have a bad influence on\n- {悪影響|あくえいきょう}⟦を→を：00422_wo⟧⟦{及|およ}ぼす→及ぼす：02028_oyobosu⟧: to exert a harmful effect on (more formal)\n- {悪影響|あくえいきょう}⟦が→が：00051_ga⟧⟦{出|で}る→出る：00513_deru⟧: harmful effects appear\n- {悪影響|あくえいきょう}⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧: to be affected negatively\n\nTYPICAL TOPICS:\n- ⟦{健康|けんこう}→健康：02706_kenkou⟧⟦へ→へ：02473_he⟧⟦の→の：09472_no⟧{悪影響|あくえいきょう}: harmful effects on health\n- ⟦{環境|かんきょう}→環境：00174_kankyou⟧⟦へ→へ：02473_he⟧⟦の→の：09472_no⟧{悪影響|あくえいきょう}: adverse impact on the environment\n- ⟦{子供|こども}→子供：00554_kodomo⟧⟦へ→へ：02473_he⟧⟦の→の：09472_no⟧{悪影響|あくえいきょう}: bad influence on children",
   "cross_references": [
     {
       "type": "related",
@@ -52,11 +52,18 @@
       "reading": "えいきょう",
       "headword": "{影響|えいきょう}",
       "label": "influence (neutral)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26068_gaiaku",
+      "reading": "がいあく",
+      "headword": "{害悪|がいあく}",
+      "label": "harm"
     }
   ],
   "metadata": {
     "created": "2026-03-14T13:04:19Z",
-    "modified": "2026-05-05T05:04:25Z",
+    "modified": "2026-09-02T04:01:46Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

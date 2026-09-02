@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "20681_bouto_ex1",
-      "japanese": "{暴徒|ぼうと}が{店|みせ}を{襲|おそ}った。",
+      "japanese": "{暴徒|ぼうと}⟦が→が：00051_ga⟧⟦{店|みせ}→店：00497_mise⟧⟦を→を：00422_wo⟧⟦{襲|おそ}った→襲う：01915_osou⟧。",
       "english": "Rioters attacked the store.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "20681_bouto_ex2",
-      "japanese": "{警察|けいさつ}は{暴徒|ぼうと}を{鎮圧|ちんあつ}しようとした。",
+      "japanese": "⟦{警察|けいさつ}→警察：01393_keisatsu⟧⟦は→は：00079_ha⟧{暴徒|ぼうと}⟦を→を：00422_wo⟧⟦{鎮圧|ちんあつ}→鎮圧：14542_chinatsu⟧⟦しよう→する：00392_suru⟧とした。",
       "english": "The police tried to suppress the rioters.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "20681_bouto_ex3",
-      "japanese": "{平和的|へいわてき}なデモが{暴徒化|ぼうとか}し、{建物|たてもの}や{車|くるま}が{破壊|はかい}された。",
+      "japanese": "{平和的|へいわてき}な⟦デモ→デモ：19416_demo⟧⟦が→が：00051_ga⟧{暴徒化|ぼうとか}し、⟦{建物|たてもの}→建物：01458_tatemono⟧や⟦{車|くるま}→車：00516_kuruma⟧⟦が→が：00051_ga⟧⟦{破壊|はかい}→破壊：13678_hakai⟧⟦された→する：00392_suru⟧。",
       "english": "A peaceful demonstration turned into a riot, and buildings and cars were destroyed.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "A formal word used in news reporting and official contexts. Carries a strongly negative connotation of violent, lawless behavior. The compound {暴徒化|ぼうとか} (turning into a riot/mob) is commonly used to describe peaceful protests escalating into violence.\n\nCOMMON COLLOCATIONS:\n- {暴徒|ぼうと}を{鎮圧|ちんあつ}する: to suppress rioters\n- {暴徒化|ぼうとか}する: to turn into a mob/riot\n- {暴徒|ぼうと}が{暴|あば}れる: rioters go on a rampage\n- {暴徒|ぼうと}{鎮圧|ちんあつ}: riot suppression\n\nSIMILAR WORDS:\n- {群衆|ぐんしゅう}: crowd — neutral term, not necessarily violent\n- {暴漢|ぼうかん}: thug, assailant — an individual violent criminal\n- デモ{隊|たい}: demonstrators — protesters, not necessarily violent",
+  "notes": "A formal word used in news reporting and official contexts. Carries a strongly negative connotation of violent, lawless behavior. The compound {暴徒化|ぼうとか} (turning into a riot/mob) is commonly used to describe peaceful protests escalating into violence.\n\nCOMMON COLLOCATIONS:\n- {暴徒|ぼうと}⟦を→を：00422_wo⟧⟦{鎮圧|ちんあつ}→鎮圧：14542_chinatsu⟧⟦する→する：00392_suru⟧: to suppress rioters\n- {暴徒化|ぼうとか}⟦する→する：00392_suru⟧: to turn into a mob/riot\n- {暴徒|ぼうと}⟦が→が：00051_ga⟧⟦{暴|あば}れる→暴れる：04575_abareru⟧: rioters go on a rampage\n- {暴徒|ぼうと}⟦{鎮圧|ちんあつ}→鎮圧：14542_chinatsu⟧: riot suppression\n\nSIMILAR WORDS:\n- ⟦{群衆|ぐんしゅう}→群衆：14930_gunshuu⟧: crowd — neutral term, not necessarily violent\n- {暴漢|ぼうかん}: thug, assailant — an individual violent criminal\n- ⟦デモ→デモ：19416_demo⟧⟦{隊|たい}→隊：03383_tai⟧: demonstrators — protesters, not necessarily violent",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14930_gunshuu",
+      "reading": "ぐんしゅう",
+      "headword": "{群衆|ぐんしゅう}",
+      "label": "crowd"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +62,13 @@
         "noun"
       ],
       "formality": "formal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "society",
         "law"
       ]
     },
     "created": "2026-03-30T06:40:50Z",
-    "modified": "2026-07-28T09:35:50Z"
+    "modified": "2026-09-02T04:02:00Z"
   }
 }

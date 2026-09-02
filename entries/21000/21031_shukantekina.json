@@ -15,31 +15,53 @@
   "examples": [
     {
       "id": "21031_shukantekina_ex1",
-      "japanese": "それは{主観的|しゅかんてき}な{意見|いけん}だ。",
+      "japanese": "⟦それ→それ：00994_sore⟧⟦は→は：00079_ha⟧{主観的|しゅかんてき}な⟦{意見|いけん}→意見：01303_iken⟧だ。",
       "english": "That is a subjective opinion.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21031_shukantekina_ex2",
-      "japanese": "{主観的|しゅかんてき}な{判断|はんだん}ではなく、データに{基|もと}づいて{考|かんが}えよう。",
+      "japanese": "{主観的|しゅかんてき}な⟦{判断|はんだん}→判断：03571_handan⟧⟦ではなく→ではなく：09578_dehanaku⟧、⟦データ→データ：03944_deeta⟧⟦に→に：00314_ni⟧⟦{基|もと}づいて→基づく：02315_motozuku⟧⟦{考|かんが}えよう→考える：00856_kangaeru⟧。",
       "english": "Let's think based on data rather than subjective judgment.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21031_shukantekina_ex3",
-      "japanese": "{味|あじ}の{好|この}みは{主観的|しゅかんてき}なものなので、{正|ただ}しい{答|こた}えはない。",
+      "japanese": "⟦{味|あじ}→味：00826_aji⟧⟦の→の：09472_no⟧⟦{好|この}み→好み：02767_konomi⟧⟦は→は：00079_ha⟧{主観的|しゅかんてき}なものな⟦の→の：09472_no⟧で、⟦{正|ただ}しい→正しい：00893_tadashii⟧⟦{答|こた}え→答え：00790_kotae⟧⟦は→は：00079_ha⟧⟦ない→ない：01118_nai⟧。",
       "english": "Taste preferences are subjective, so there is no right answer.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {主観|しゅかん} (subjectivity, one's personal view) + {的|てき} (suffix making na-adjectives). Frequently contrasted with {客観的|きゃっかんてき}な (objective).\n\nCOMMON COLLOCATIONS:\n- {主観的|しゅかんてき}な{意見|いけん}: subjective opinion\n- {主観的|しゅかんてき}な{判断|はんだん}: subjective judgment\n- {主観的|しゅかんてき}な{印象|いんしょう}: subjective impression\n- {主観的|しゅかんてき}に{見|み}る: to view subjectively\n\nCONTRAST:\n- {主観的|しゅかんてき}な ↔ {客観的|きゃっかんてき}な: subjective vs. objective\n\nSIMILAR WORDS:\n- {個人的|こじんてき}な: personal — emphasizes the individual rather than contrasting with objectivity\n- {感覚的|かんかくてき}な: intuitive, sensory — based on feeling or sensation rather than analysis\n\nUSAGE:\nOften used in academic, journalistic, and business contexts where the distinction between subjective and objective assessment matters. Commonly appears with a slightly negative nuance, implying that an opinion lacks objectivity.",
+  "notes": "Composed of ⟦{主観|しゅかん}→主観：11466_shukan⟧ (subjectivity, one's personal view) + ⟦{的|てき}→〜的：09839_teki⟧ (suffix making na-adjectives). Frequently contrasted with ⟦{客観的|きゃっかんてき}→客観的：05696_kyakkanteki⟧な (objective).\n\nCOMMON COLLOCATIONS:\n- {主観的|しゅかんてき}な⟦{意見|いけん}→意見：01303_iken⟧: subjective opinion\n- {主観的|しゅかんてき}な⟦{判断|はんだん}→判断：03571_handan⟧: subjective judgment\n- {主観的|しゅかんてき}な⟦{印象|いんしょう}→印象：01846_inshou⟧: subjective impression\n- {主観的|しゅかんてき}に⟦{見|み}る→見る：00283_miru⟧: to view subjectively\n\nSIMILAR WORDS:\n- {主観的|しゅかんてき}な ↔ ⟦{客観的|きゃっかんてき}→客観的：05696_kyakkanteki⟧な: subjective vs. objective\n- ⟦{個人的|こじんてき}→個人的：04788_kojinteki⟧な: personal — emphasizes the individual rather than contrasting with objectivity\n- ⟦{感覚的|かんかくてき}→感覚的：05744_kankakuteki⟧な: intuitive, sensory — based on feeling or sensation rather than analysis\n\nUSAGE:\nOften used in academic, journalistic, and business contexts where the distinction between subjective and objective assessment matters. Commonly appears with a slightly negative nuance, implying that an opinion lacks objectivity.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04788_kojinteki",
+      "reading": "こじんてき",
+      "headword": "{個人的|こじんてき}",
+      "label": "personal"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05744_kankakuteki",
+      "reading": "かんかくてき",
+      "headword": "{感覚的|かんかくてき}",
+      "label": "intuitive, sensory"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,6 +75,6 @@
       ]
     },
     "created": "2026-03-31T15:30:30Z",
-    "modified": "2026-03-31T15:30:30Z"
+    "modified": "2026-09-02T04:02:01Z"
   }
 }

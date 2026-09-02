@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29479_jisuu_ex1",
-      "japanese": "{字数|じすう}を{数|かぞ}える。",
+      "japanese": "{字数|じすう}⟦を→を：00422_wo⟧⟦{数|かぞ}える→数える：01926_kazoeru⟧。",
       "english": "Count the number of characters.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29479_jisuu_ex2",
-      "japanese": "レポートの{字数|じすう}が{足|た}りない。",
+      "japanese": "⟦レポート→レポート：01543_repooto⟧⟦の→の：09472_no⟧{字数|じすう}⟦が→が：00051_ga⟧⟦{足|た}りない→足りる：01209_tariru⟧。",
       "english": "The report doesn't have enough characters.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29479_jisuu_ex3",
-      "japanese": "この{作文|さくぶん}は{字数|じすう}{制限|せいげん}が{八百字|はっぴゃくじ}だ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{作文|さくぶん}→作文：02884_sakubun⟧⟦は→は：00079_ha⟧{字数|じすう}{制限|せいげん}⟦が→が：00051_ga⟧{八百字|はっぴゃくじ}だ。",
       "english": "This essay has a character limit of 800.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "Refers to how many characters a text contains, counting each kana, kanji, or symbol as one.\n\nCOMMON COLLOCATIONS:\n- {字数|じすう}{制限|せいげん}: character limit\n- {字数|じすう}を{数|かぞ}える: to count the characters\n- {字数|じすう}が{足|た}りる: to have enough characters\n- {字数|じすう}{オーバー}: over the character limit\n\nSIMILAR WORDS:\n- {文字数|もじすう}: character count — near-synonym, more common when talking about digital text and input fields",
+  "notes": "Refers to how many characters a text contains, counting each kana, kanji, or symbol as one.\n\nCOMMON COLLOCATIONS:\n- {字数|じすう}{制限|せいげん}: character limit\n- {字数|じすう}⟦を→を：00422_wo⟧⟦{数|かぞ}える→数える：01926_kazoeru⟧: to count the characters\n- {字数|じすう}⟦が→が：00051_ga⟧⟦{足|た}りる→足りる：01209_tariru⟧: to have enough characters\n- {字数|じすう}⟦オーバー→オーバー：01529_oobaa⟧: over the character limit\n\nSIMILAR WORDS:\n- ⟦{文字数|もじすう}→文字数：29489_mojisuu⟧: character count — near-synonym, more common when talking about digital text and input fields",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23896_onsuu",
+      "reading": "おんすう",
+      "headword": "{音数|おんすう}",
+      "label": "number of morae"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +62,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "language"
       ],
       "domain": []
     },
     "created": "2026-06-25T18:22:26Z",
-    "modified": "2026-06-25T18:22:26Z"
+    "modified": "2026-09-02T04:02:37Z"
   }
 }

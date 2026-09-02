@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "12734_mono_ex1",
-      "japanese": "{関係|かんけい}{者|もの}のみ{入室|にゅうしつ}{可|か}。",
+      "japanese": "{関係|かんけい}{者|もの}⟦のみ→のみ：06546_nomi⟧{入室|にゅうしつ}{可|か}。",
       "english": "Authorized persons only.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "12734_mono_ex2",
-      "japanese": "{希望|きぼう}{者|もの}は{受付|うけつけ}まで{申|もう}し{出|で}てください。",
+      "japanese": "{希望|きぼう}{者|もの}⟦は→は：00079_ha⟧⟦{受付|うけつけ}→受付：01325_uketsuke⟧⟦まで→まで：00490_made⟧⟦{申|もう}し{出|で}て→申し出る：10465_moushideru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Those who are interested, please apply at the front desk.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "12734_mono_ex3",
-      "japanese": "この{事件|じけん}の{容疑者|ようぎしゃ}はまだ{捕|つか}まっていない。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{事件|じけん}→事件：01568_jiken⟧⟦の→の：09472_no⟧⟦{容疑者|ようぎしゃ}→容疑者：15039_yougisha⟧⟦は→は：00079_ha⟧⟦まだ→まだ：00603_mada⟧⟦{捕|つか}まっていない→捕まる：01959_tsukamaru⟧。",
       "english": "The suspect in this case has not yet been caught.",
       "notes": "In compounds, {者|しゃ} is the on'yomi reading. See note below.",
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "{者|もの} means 'person' in formal or written contexts. It is distinct from {物|もの} (thing).\n\nREADINGS:\n- もの: standalone or in some native compounds — {者|もの}\n- しゃ: in Sino-Japanese compounds — {医者|いしゃ} (doctor), {学者|がくしゃ} (scholar), {記者|きしゃ} (reporter)\n\nCOMMON COMPOUNDS (しゃ reading):\n- {患者|かんじゃ}: patient\n- {容疑者|ようぎしゃ}: suspect\n- {希望者|きぼうしゃ}: applicant, person who wishes\n- {関係者|かんけいしゃ}: person involved, authorized person\n- {若者|わかもの}: young person\n\nCONTRAST WITH {人|ひと}:\n- {人|ひと} is the general, everyday word for 'person'\n- {者|もの} is more formal or literary and often appears in official or legal contexts",
+  "notes": "{者|もの} means 'person' in formal or written contexts. It is distinct from ⟦{物|もの}→物：02259_mono⟧ (thing).\n\nPRONUNCIATION:\n- もの: standalone or in some native compounds — {者|もの}\n- しゃ: in Sino-Japanese compounds — ⟦{医者|いしゃ}→医者：02847_isha⟧ (doctor), ⟦{学者|がくしゃ}→学者：02544_gakusha⟧ (scholar), ⟦{記者|きしゃ}→記者：14170_kisha⟧ (reporter)\n\nCOMMON COMPOUNDS (しゃ reading):\n- ⟦{患者|かんじゃ}→患者：00170_kanja⟧: patient\n- ⟦{容疑者|ようぎしゃ}→容疑者：15039_yougisha⟧: suspect\n- ⟦{希望者|きぼうしゃ}→希望者：03050_kibousha⟧: applicant, person who wishes\n- ⟦{関係者|かんけいしゃ}→関係者：16441_kankeisha⟧: person involved, authorized person\n- ⟦{若者|わかもの}→若者：03037_wakamono⟧: young person\n\nCONTRAST WITH {人|ひと}:\n- ⟦{人|ひと}→人：00476_hito⟧ is the general, everyday word for 'person'\n- {者|もの} is more formal or literary and often appears in official or legal contexts",
   "cross_references": [
     {
       "type": "homophone",
@@ -59,11 +59,18 @@
       "reading": "もの",
       "headword": "もの",
       "label": "grammatical particle"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00476_hito",
+      "reading": "ひと",
+      "headword": "{人|ひと}",
+      "label": "is the general, everyday word…"
     }
   ],
   "metadata": {
     "created": "2026-02-22T06:51:21Z",
-    "modified": "2026-04-27T07:31:57Z",
+    "modified": "2026-09-02T04:01:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

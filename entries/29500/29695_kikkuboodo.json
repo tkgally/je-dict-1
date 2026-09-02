@@ -15,41 +15,67 @@
   "examples": [
     {
       "id": "29695_kikkuboodo_ex1",
-      "japanese": "{子供|こども}がキックボードで{遊|あそ}んでいる。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧⟦が→が：00051_ga⟧キックボード⟦で→で：00502_de⟧⟦{遊|あそ}んでいる→遊ぶ：00550_asobu⟧。",
       "english": "The child is playing on a kick scooter.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29695_kikkuboodo_ex2",
-      "japanese": "{駅|えき}までキックボードで{通|かよ}っている。",
+      "japanese": "⟦{駅|えき}→駅：02180_eki⟧⟦まで→まで：00490_made⟧キックボード⟦で→で：00502_de⟧⟦{通|かよ}っている→通う：01217_kayou⟧。",
       "english": "I commute to the station by kick scooter.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29695_kikkuboodo_ex3",
-      "japanese": "{最近|さいきん}は{電動|でんどう}キックボードを{街中|まちなか}でよく{見|み}かける。",
+      "japanese": "⟦{最近|さいきん}→最近：00881_saikin⟧⟦は→は：00079_ha⟧{電動|でんどう}キックボード⟦を→を：00422_wo⟧{街中|まちなか}⟦で→で：00502_de⟧⟦よく→よく：00601_yoku⟧⟦{見|み}かける→見かける：01644_mikakeru⟧。",
       "english": "Lately you often see electric kick scooters around town.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Japanese-made compound from English \"kick\" + \"board.\" Refers to a scooter propelled by kicking; the English label is \"kick scooter\" or \"push scooter.\"\n\nCOMMON COLLOCATIONS:\n- {電動|でんどう}キックボード: electric kick scooter\n- キックボードに{乗|の}る: to ride a kick scooter\n- キックボードで{通勤|つうきん}する: to commute by kick scooter\n\nSIMILAR WORDS:\n- スケートボード: skateboard — no handlebar; ridden by pushing and balancing\n- {自転車|じてんしゃ}: bicycle — pedal-driven, with a seat",
+  "notes": "Japanese-made compound from English \"kick\" + \"board.\" Refers to a scooter propelled by kicking; the English label is \"kick scooter\" or \"push scooter.\"\n\nCOMMON COLLOCATIONS:\n- {電動|でんどう}キックボード: electric kick scooter\n- キックボード⟦に→に：00314_ni⟧⟦{乗|の}る→乗る：00511_noru⟧: to ride a kick scooter\n- キックボード⟦で→で：00502_de⟧⟦{通勤|つうきん}→通勤：03512_tsuukin⟧⟦する→する：00392_suru⟧: to commute by kick scooter\n\nSIMILAR WORDS:\n- スケートボード: skateboard — no handlebar; ridden by pushing and balancing\n- ⟦{自転車|じてんしゃ}→自転車：00633_jitensha⟧: bicycle — pedal-driven, with a seat",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00633_jitensha",
+      "reading": "じてんしゃ",
+      "headword": "{自転車|じてんしゃ}",
+      "label": "bicycle"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27053_sukuutaa",
+      "reading": "すくーたー",
+      "headword": "スクーター",
+      "label": "scooter"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["transportation"],
+      "politeness": "plain",
+      "semantic": [
+        "transportation"
+      ],
       "domain": []
     },
     "created": "2026-07-06T09:17:25Z",
-    "modified": "2026-07-06T09:17:25Z"
+    "modified": "2026-09-02T04:02:37Z"
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "18282_teion_ex1",
-      "japanese": "{彼|かれ}は{低音|ていおん}の{声|こえ}が{魅力的|みりょくてき}だ。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{低音|ていおん}⟦の→の：09472_no⟧⟦{声|こえ}→声：02207_koe⟧⟦が→が：00051_ga⟧⟦{魅力的|みりょくてき}→魅力的：04799_miryokuteki⟧だ。",
       "english": "His low-pitched voice is attractive.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "18282_teion_ex2",
-      "japanese": "このスピーカーは{低音|ていおん}がよく{出|で}る。",
+      "japanese": "⟦この→この：00962_kono⟧⟦スピーカー→スピーカー：04420_supiikaa⟧⟦は→は：00079_ha⟧{低音|ていおん}⟦が→が：00051_ga⟧⟦よく→よく：00601_yoku⟧⟦{出|で}る→出る：00513_deru⟧。",
       "english": "This speaker produces good bass.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "18282_teion_ex3",
-      "japanese": "{低音|ていおん}が{響|ひび}く{音楽|おんがく}を{聴|き}くと、{体|からだ}に{振動|しんどう}が{伝|つた}わってくる。",
+      "japanese": "{低音|ていおん}⟦が→が：00051_ga⟧⟦{響|ひび}く→響く：00099_hibiku⟧⟦{音楽|おんがく}→音楽：00661_ongaku⟧⟦を→を：00422_wo⟧⟦{聴|き}く→聴く：30010_kiku⟧⟦と→と：00512_to⟧、⟦{体|からだ}→体：00784_karada⟧⟦に→に：00314_ni⟧⟦{振動|しんどう}→振動：08179_shindou⟧⟦が→が：00051_ga⟧⟦{伝|つた}わって→伝わる：01961_tsutawaru⟧くる。",
       "english": "When you listen to music with deep bass, you can feel the vibrations in your body.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA compound of {低|てい} (low) + {音|おん} (sound). Used in music, audio equipment, and voice descriptions. The opposite is {高音|こうおん} (high-pitched sound).\n\nCOMMON COLLOCATIONS:\n- {低音|ていおん}の{声|こえ} (a low voice)\n- {低音|ていおん}が{響|ひび}く (the bass resonates)\n- {低音|ていおん}{域|いき} (bass range)\n- {重|おも}{低音|ていおん} (deep bass)\n\nSIMILAR WORDS:\n- {高音|こうおん}: high-pitched sound — the antonym\n- {低温|ていおん}: low temperature — a homophone with different kanji",
+  "notes": "USAGE:\nA compound of ⟦{低|てい}→低〜：03961_tei⟧ (low) + {音|おん} (sound). Used in music, audio equipment, and voice descriptions. The opposite is ⟦{高音|こうおん}→高音：19946_kouon⟧ (high-pitched sound).\n\nCOMMON COLLOCATIONS:\n- {低音|ていおん}⟦の→の：09472_no⟧⟦{声|こえ}→声：02207_koe⟧ (a low voice)\n- {低音|ていおん}⟦が→が：00051_ga⟧⟦{響|ひび}く→響く：00099_hibiku⟧ (the bass resonates)\n- {低音|ていおん}{域|いき} (bass range)\n- {重|おも}{低音|ていおん} (deep bass)\n\nSIMILAR WORDS:\n- ⟦{高音|こうおん}→高音：19946_kouon⟧: high-pitched sound — the antonym\n- ⟦{低温|ていおん}→低温：29339_teion⟧: low temperature — a homophone with different kanji",
   "cross_references": [
     {
       "type": "antonym",
@@ -52,11 +52,25 @@
       "reading": "こうおん",
       "headword": "{高音|こうおん}",
       "label": "high-pitched sound"
+    },
+    {
+      "type": "homophone",
+      "target_id": "29339_teion",
+      "reading": "ていおん",
+      "headword": "{低温|ていおん}",
+      "label": "low temperature"
+    },
+    {
+      "type": "related",
+      "target_id": "08762_beesu",
+      "reading": "べーす",
+      "headword": "ベース",
+      "label": "bass (instrument)"
     }
   ],
   "metadata": {
     "created": "2026-03-21T01:14:40Z",
-    "modified": "2026-05-08T08:12:00Z",
+    "modified": "2026-09-02T04:01:51Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

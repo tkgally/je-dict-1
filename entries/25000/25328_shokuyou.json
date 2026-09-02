@@ -3,7 +3,7 @@
   "headword": "{食用|しょくよう}",
   "reading": "しょくよう",
   "romaji": "shokuyou",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "edible; for eating; for food use",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25328_shokuyou_ex1",
-      "japanese": "この{花|はな}は{食用|しょくよう}です。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{花|はな}→花：00523_hana⟧⟦は→は：00079_ha⟧{食用|しょくよう}です。",
       "english": "This flower is edible.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25328_shokuyou_ex2",
-      "japanese": "{食用|しょくよう}キノコと{毒|どく}キノコを{見分|みわ}けるのは{難|むずか}しい。",
+      "japanese": "{食用|しょくよう}キノコ⟦と→と：00512_to⟧⟦{毒|どく}→毒：10052_doku⟧キノコ⟦を→を：00422_wo⟧⟦{見分|みわ}ける→見分ける：06348_miwakeru⟧⟦の→の：09472_no⟧⟦は→は：00079_ha⟧⟦{難|むずか}しい→難しい：00517_muzukashii⟧。",
       "english": "It is difficult to distinguish edible mushrooms from poisonous ones.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25328_shokuyou_ex3",
-      "japanese": "この{油|あぶら}は{食用|しょくよう}ではなく{工業用|こうぎょうよう}なので、{口|くち}に{入|い}れないでください。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{油|あぶら}→油：01693_abura⟧⟦は→は：00079_ha⟧{食用|しょくよう}⟦ではなく→ではなく：09578_dehanaku⟧{工業用|こうぎょうよう}な⟦の→の：09472_no⟧で、⟦{口|くち}→口：00560_kuchi⟧⟦に→に：00314_ni⟧⟦{入|い}れないで→入れる：01098_ireru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "This oil is for industrial use, not food use, so please do not put it in your mouth.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Indicates that something is suitable or intended for consumption as food. Composed of {食|しょく} (eat, food) and {用|よう} (use, purpose). Often used to distinguish edible items from non-edible or decorative versions of the same thing.\n\nCOMMON COLLOCATIONS:\n- {食用|しょくよう}{油|あぶら}/{油|ゆ}: cooking oil\n- {食用|しょくよう}キノコ: edible mushroom\n- {食用|しょくよう}{花|ばな}: edible flower\n- {食用|しょくよう}{色素|しきそ}: food coloring\n- {食用|しょくよう}に{適|てき}する: suitable for consumption\n\nSIMILAR WORDS:\n- {飲食用|いんしょくよう}: for food and drink — includes beverages\n- {観賞用|かんしょうよう}: for viewing/decorative use — contrasts with {食用|しょくよう}\n- {薬用|やくよう}: for medicinal use — another common -{用|よう} compound",
+  "notes": "Indicates that something is suitable or intended for consumption as food. Composed of {食|しょく} (eat, food) and ⟦{用|よう}→〜用：09842_you⟧ (use, purpose). Often used to distinguish edible items from non-edible or decorative versions of the same thing.\n\nCOMMON COLLOCATIONS:\n- {食用|しょくよう}{油|あぶら}/{油|ゆ}: cooking oil\n- {食用|しょくよう}キノコ: edible mushroom\n- {食用|しょくよう}{花|ばな}: edible flower\n- {食用|しょくよう}⟦{色素|しきそ}→色素：19991_shikiso⟧: food coloring\n- {食用|しょくよう}⟦に→に：00314_ni⟧⟦{適|てき}する→適する：02297_tekisuru⟧: suitable for consumption\n\nSIMILAR WORDS:\n- {飲食用|いんしょくよう}: for food and drink — includes beverages\n- ⟦{観賞用|かんしょうよう}→観賞用：22026_kanshouyou⟧: for viewing/decorative use — contrasts with {食用|しょくよう}\n- ⟦{薬用|やくよう}→薬用：30092_yakuyou⟧: for medicinal use — another common -⟦{用|よう}→〜用：09842_you⟧ compound",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22026_kanshouyou",
+      "reading": "かんしょうよう",
+      "headword": "{観賞用|かんしょうよう}",
+      "label": "for viewing/decorative use"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30092_yakuyou",
+      "reading": "やくよう",
+      "headword": "{薬用|やくよう}",
+      "label": "for medicinal use"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,6 +69,8 @@
         "noun",
         "adjective-no"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "food"
       ],
@@ -61,6 +79,6 @@
       ]
     },
     "created": "2026-04-24T14:30:16Z",
-    "modified": "2026-08-04T12:59:53Z"
+    "modified": "2026-09-02T04:02:22Z"
   }
 }

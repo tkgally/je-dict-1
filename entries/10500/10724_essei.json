@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "10724_essei_ex1",
-      "japanese": "エッセイを{書|か}く。",
+      "japanese": "エッセイ⟦を→を：00422_wo⟧⟦{書|か}く→書く：00477_kaku⟧。",
       "english": "To write an essay.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "10724_essei_ex2",
-      "japanese": "あの{作家|さっか}のエッセイは{読|よ}みやすくて{面白|おもしろ}い。",
+      "japanese": "⟦あの→あの：00915_ano⟧⟦{作家|さっか}→作家：01414_sakka⟧⟦の→の：09472_no⟧エッセイ⟦は→は：00079_ha⟧⟦{読|よ}み→読む：00426_yomu⟧やすくて⟦{面白|おもしろ}い→面白い：00589_omoshiroi⟧。",
       "english": "That author's essays are easy to read and interesting.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "10724_essei_ex3",
-      "japanese": "{日常|にちじょう}の{些細|ささい}なことをテーマにしたエッセイ{集|しゅう}がベストセラーになった。",
+      "japanese": "⟦{日常|にちじょう}→日常：01595_nichijou⟧⟦の→の：09472_no⟧⟦{些細|ささい}→些細：07160_sasai⟧なこと⟦を→を：00422_wo⟧⟦テーマ→テーマ：17684_teema⟧にしたエッセイ{集|しゅう}⟦が→が：00051_ga⟧⟦ベストセラー→ベストセラー：11289_besutoseraa⟧になった。",
       "english": "A collection of essays about little everyday things became a bestseller.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,26 @@
       ]
     }
   ],
-  "notes": "USAGE:\nIn Japanese, エッセイ specifically refers to personal or literary essays — informal writing about daily life, observations, and feelings. It does not refer to academic papers or formal reports, which are {論文|ろんぶん}. The Japanese literary tradition of {随筆|ずいひつ} (miscellaneous essays) dates back to classics like {枕草子|まくらのそうし} and {徒然草|つれづれぐさ}. Modern エッセイ is seen as a continuation of this tradition.\n\nCOMMON COLLOCATIONS:\n- エッセイ{集|しゅう}: essay collection\n- エッセイを{書|か}く: to write an essay\n- エッセイスト: essayist\n- {旅|たび}のエッセイ: travel essay",
-  "cross_references": [],
+  "notes": "USAGE:\nIn Japanese, エッセイ specifically refers to personal or literary essays — informal writing about daily life, observations, and feelings. It does not refer to academic papers or formal reports, which are ⟦{論文|ろんぶん}→論文：03787_ronbun⟧. The Japanese literary tradition of ⟦{随筆|ずいひつ}→随筆：04314_zuihitsu⟧ (miscellaneous essays) dates back to classics like {枕草子|まくらのそうし} and {徒然草|つれづれぐさ}. Modern エッセイ is seen as a continuation of this tradition.\n\nCOMMON COLLOCATIONS:\n- エッセイ{集|しゅう}: essay collection\n- エッセイ⟦を→を：00422_wo⟧⟦{書|か}く→書く：00477_kaku⟧: to write an essay\n- エッセイスト: essayist\n- ⟦{旅|たび}→旅：03407_tabi⟧⟦の→の：09472_no⟧エッセイ: travel essay",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04314_zuihitsu",
+      "reading": "ずいひつ",
+      "headword": "{随筆|ずいひつ}",
+      "label": "essay, miscellaneous writings"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21676_ronkou",
+      "reading": "ろんこう",
+      "headword": "{論考|ろんこう}",
+      "label": "essay"
+    }
+  ],
   "metadata": {
     "created": "2026-02-09T07:23:05Z",
-    "modified": "2026-06-28T03:47:16Z",
+    "modified": "2026-09-02T04:01:22Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

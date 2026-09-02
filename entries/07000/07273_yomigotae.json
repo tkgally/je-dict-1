@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "07273_yomigotae_ex1",
-      "japanese": "この{小説|しょうせつ}は{読|よ}み{応|ごた}えがある。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{小説|しょうせつ}→小説：01434_shousetsu⟧⟦は→は：00079_ha⟧{読|よ}み{応|ごた}え⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "This novel is a worthwhile read.",
       "has_audio": false,
       "sense_numbers": [
@@ -23,7 +23,7 @@
     },
     {
       "id": "07273_yomigotae_ex2",
-      "japanese": "{読|よ}み{応|ごた}えのある{記事|きじ}だった。",
+      "japanese": "{読|よ}み{応|ごた}え⟦の→の：09472_no⟧⟦ある→ある：00006_aru⟧⟦{記事|きじ}→記事：00227_kiji⟧だった。",
       "english": "It was a substantial article.",
       "has_audio": false,
       "sense_numbers": [
@@ -32,7 +32,7 @@
     },
     {
       "id": "07273_yomigotae_ex3",
-      "japanese": "{内容|ないよう}が{濃|こ}くて{読|よ}み{応|ごた}え{十分|じゅうぶん}だ。",
+      "japanese": "⟦{内容|ないよう}→内容：01482_naiyou⟧⟦が→が：00051_ga⟧⟦{濃|こ}くて→濃い：02344_koi⟧{読|よ}み{応|ごた}え⟦{十分|じゅうぶん}→十分：01614_juubun⟧だ。",
       "english": "The content is rich and very satisfying to read.",
       "has_audio": false,
       "sense_numbers": [
@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "notes": "WORD FORMATION:\n{読|よ}む (to read) + {応|こた}え (response/worth) → worth reading\n\nCOMMON EXPRESSIONS:\n・{読|よ}み{応|ごた}えがある (is worth reading, is substantial)\n・{読|よ}み{応|ごた}えのある{本|ほん} (a book worth reading)\n・{読|よ}み{応|ごた}え{十分|じゅうぶん} (fully satisfying read)\n\nRELATED ～{応|ごた}え WORDS:\n・{見応|みごた}え (worth seeing)\n・{聞|き}き{応|ごた}え (worth listening to)\n・{歯応|はごた}え (chewiness; challenge)\n・{手応|てごた}え (response; feedback)\n\nNUANCE:\nImplies depth, substance, and satisfaction. Used positively for content that is engaging and rewarding rather than superficial.",
+  "notes": "FORMS:\n⟦{読|よ}む→読む：00426_yomu⟧ (to read) + {応|こた}え (response/worth) → worth reading\n\nCOMMON EXPRESSIONS:\n- {読|よ}み{応|ごた}え⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧ (is worth reading, is substantial)\n- {読|よ}み{応|ごた}え⟦の→の：09472_no⟧⟦ある→ある：00006_aru⟧{本|ほん} (a book worth reading)\n- {読|よ}み{応|ごた}え⟦{十分|じゅうぶん}→十分：01614_juubun⟧ (fully satisfying read)\n\nRELATED ～{応|ごた}え WORDS:\n- ⟦{見応|みごた}え→見応え：07274_migotae⟧ (worth seeing)\n- ⟦{聞|き}き{応|ごた}え→聞き応え：07275_kikigotae⟧ (worth listening to)\n- ⟦{歯応|はごた}え→歯応え：07272_hagotae⟧ (chewiness; challenge)\n- ⟦{手応|てごた}え→手応え：06635_tegotae⟧ (response; feedback)\n\nUSAGE:\nImplies depth, substance, and satisfaction. Used positively for content that is engaging and rewarding rather than superficial.",
   "cross_references": [
     {
       "type": "related",
@@ -48,11 +48,32 @@
       "headword": "{見応|みごた}え",
       "label": "worth seeing",
       "target_id": "07274_migotae"
+    },
+    {
+      "type": "related",
+      "target_id": "07275_kikigotae",
+      "reading": "ききごたえ",
+      "headword": "{聞|き}き{応|ごた}え",
+      "label": "worth listening to"
+    },
+    {
+      "type": "related",
+      "target_id": "07272_hagotae",
+      "reading": "はごたえ",
+      "headword": "{歯応|はごた}え",
+      "label": "chewiness"
+    },
+    {
+      "type": "related",
+      "target_id": "06635_tegotae",
+      "reading": "てごたえ",
+      "headword": "{手応|てごた}え",
+      "label": "response"
     }
   ],
   "metadata": {
     "created": "2026-01-19T03:25:21Z",
-    "modified": "2026-01-24T14:24:36Z",
+    "modified": "2026-09-02T04:01:10Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

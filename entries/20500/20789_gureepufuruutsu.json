@@ -15,40 +15,66 @@
   "examples": [
     {
       "id": "20789_gureepufuruutsu_ex1",
-      "japanese": "グレープフルーツを{半分|はんぶん}に{切|き}る。",
+      "japanese": "グレープフルーツ⟦を→を：00422_wo⟧⟦{半分|はんぶん}→半分：02938_hanbun⟧⟦に→に：00314_ni⟧⟦{切|き}る→切る：02693_kiru⟧。",
       "english": "To cut a grapefruit in half.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20789_gureepufuruutsu_ex2",
-      "japanese": "{朝食|ちょうしょく}にグレープフルーツジュースを{飲|の}む。",
+      "japanese": "⟦{朝食|ちょうしょく}→朝食：03122_choushoku⟧⟦に→に：00314_ni⟧グレープフルーツ⟦ジュース→ジュース：01033_juusu⟧⟦を→を：00422_wo⟧⟦{飲|の}む→飲む：00322_nomu⟧。",
       "english": "I drink grapefruit juice for breakfast.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20789_gureepufuruutsu_ex3",
-      "japanese": "このグレープフルーツは{甘|あま}くて{苦味|にがみ}が{少|すく}ない。",
+      "japanese": "⟦この→この：00962_kono⟧グレープフルーツ⟦は→は：00079_ha⟧⟦{甘|あま}くて→甘い：00617_amai⟧⟦{苦味|にがみ}→苦味：14101_nigami⟧⟦が→が：00051_ga⟧⟦{少|すく}ない→少ない：01136_sukunai⟧。",
       "english": "This grapefruit is sweet with little bitterness.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A loanword from English \"grapefruit.\" One of the most common citrus fruits available in Japanese supermarkets, mostly imported.\n\nCOMMON COLLOCATIONS:\n- グレープフルーツジュース: grapefruit juice\n- グレープフルーツサワー: grapefruit sour (an {居酒屋|いざかや} cocktail)\n- ピンクグレープフルーツ: pink grapefruit\n- グレープフルーツを{搾|しぼ}る: to squeeze a grapefruit\n\nVARIETIES:\n- ホワイトグレープフルーツ: white (yellow-fleshed) grapefruit\n- ルビーグレープフルーツ: ruby (red-fleshed) grapefruit\n\nNOTE:\nGrapefruit is known for interacting with certain medications. In Japan, pharmacists often warn patients about this ({薬|くすり}との{相互作用|そうごさよう}).\n\nRELATED TERMS:\n- {柑橘類|かんきつるい}: citrus fruits\n- みかん: mandarin orange\n- レモン: lemon",
+  "notes": "A loanword from English \"grapefruit.\" One of the most common citrus fruits available in Japanese supermarkets, mostly imported.\n\nCOMMON COLLOCATIONS:\n- グレープフルーツ⟦ジュース→ジュース：01033_juusu⟧: grapefruit juice\n- グレープフルーツサワー: grapefruit sour (an ⟦{居酒屋|いざかや}→居酒屋：09635_izakaya⟧ cocktail)\n- ⟦ピンク→ピンク：04718_pinku⟧グレープフルーツ: pink grapefruit\n- グレープフルーツ⟦を→を：00422_wo⟧⟦{搾|しぼ}る→搾る：18724_shiboru⟧: to squeeze a grapefruit\n\nTYPES:\n- ホワイトグレープフルーツ: white (yellow-fleshed) grapefruit\n- ルビーグレープフルーツ: ruby (red-fleshed) grapefruit\n\nUSAGE:\nGrapefruit is known for interacting with certain medications. In Japan, pharmacists often warn patients about this (⟦{薬|くすり}→薬：00793_kusuri⟧⟦と→と：00512_to⟧⟦の→の：09472_no⟧⟦{相互作用|そうごさよう}→相互作用：20138_sougosayou⟧).\n\nRELATED WORDS:\n- ⟦{柑橘類|かんきつるい}→柑橘類：15619_kankitsurui⟧: citrus fruits\n- みかん: mandarin orange\n- ⟦レモン→レモン：10456_remon⟧: lemon",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "15619_kankitsurui",
+      "reading": "かんきつるい",
+      "headword": "{柑橘類|かんきつるい}",
+      "label": "citrus fruits"
+    },
+    {
+      "type": "related",
+      "target_id": "10456_remon",
+      "reading": "れもん",
+      "headword": "レモン",
+      "label": "lemon"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food"]
+      "semantic": [
+        "food"
+      ]
     },
     "created": "2026-03-30T16:12:42Z",
-    "modified": "2026-03-30T16:12:42Z"
+    "modified": "2026-09-02T04:02:01Z"
   }
 }

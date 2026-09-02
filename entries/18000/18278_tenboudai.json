@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "18278_tenboudai_ex1",
-      "japanese": "{展望台|てんぼうだい}からの{景色|けしき}は{素晴|すば}らしかった。",
+      "japanese": "{展望台|てんぼうだい}⟦から→から：00504_kara⟧⟦の→の：09472_no⟧⟦{景色|けしき}→景色：01395_keshiki⟧⟦は→は：00079_ha⟧⟦{素晴|すば}らしかった→素晴らしい：01119_subarashii⟧。",
       "english": "The view from the observation deck was wonderful.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "18278_tenboudai_ex2",
-      "japanese": "タワーの{展望台|てんぼうだい}に{上|のぼ}って、{街|まち}を{見下|みお}ろした。",
+      "japanese": "⟦タワー→タワー：11035_tawaa⟧⟦の→の：09472_no⟧{展望台|てんぼうだい}⟦に→に：00314_ni⟧⟦{上|のぼ}って→上る：21460_noboru⟧、⟦{街|まち}→街：17306_machi⟧⟦を→を：00422_wo⟧⟦{見下|みお}ろした→見下ろす：04569_miorosu⟧。",
       "english": "I went up to the tower's observation deck and looked down at the city.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "18278_tenboudai_ex3",
-      "japanese": "{天気|てんき}がよければ、この{展望台|てんぼうだい}から{富士山|ふじさん}が{見|み}えることもある。",
+      "japanese": "⟦{天気|てんき}→天気：00582_tenki⟧⟦が→が：00051_ga⟧⟦よければ→いい：00118_ii⟧、⟦この→この：00962_kono⟧{展望台|てんぼうだい}⟦から→から：00504_kara⟧⟦{富士山|ふじさん}→富士山：09514_fujisan⟧⟦が→が：00051_ga⟧⟦{見|み}える→見える：01165_mieru⟧こと⟦も→も：00484_mo⟧⟦ある→ある：00006_aru⟧。",
       "english": "On a clear day, you can sometimes see Mt. Fuji from this observation deck.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,47 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA compound of {展望|てんぼう} (view, outlook) + {台|だい} (platform, stand). A staple of sightseeing in Japan, found at landmarks like Tokyo Tower, Tokyo Skytree, and mountain summits.\n\nCOMMON COLLOCATIONS:\n- {展望台|てんぼうだい}に{上|のぼ}る (to go up to the observation deck)\n- {展望台|てんぼうだい}からの{眺|なが}め (the view from the observation deck)\n- {展望台|てんぼうだい}が{人気|にんき} (the observation deck is popular)\n\nSIMILAR WORDS:\n- {展望|てんぼう}ロビー: observation lobby — an enclosed viewing area\n- {見晴|みは}らし{台|だい}: lookout — a simpler, often outdoor viewpoint",
-  "cross_references": [],
+  "notes": "USAGE:\nA compound of ⟦{展望|てんぼう}→展望：12393_tenbou⟧ (view, outlook) + {台|だい} (platform, stand). A staple of sightseeing in Japan, found at landmarks like Tokyo Tower, Tokyo Skytree, and mountain summits.\n\nCOMMON COLLOCATIONS:\n- {展望台|てんぼうだい}⟦に→に：00314_ni⟧⟦{上|のぼ}る→上る：21460_noboru⟧ (to go up to the observation deck)\n- {展望台|てんぼうだい}⟦から→から：00504_kara⟧⟦の→の：09472_no⟧⟦{眺|なが}め→眺め：03502_nagame⟧ (the view from the observation deck)\n- {展望台|てんぼうだい}⟦が→が：00051_ga⟧⟦{人気|にんき}→人気：01488_ninki⟧ (the observation deck is popular)\n\nSIMILAR WORDS:\n- ⟦{展望|てんぼう}→展望：12393_tenbou⟧⟦ロビー→ロビー：26995_robii⟧: observation lobby — an enclosed viewing area\n- ⟦{見晴|みは}らし→見晴らし：15713_miharashi⟧{台|だい}: lookout — a simpler, often outdoor viewpoint",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "10434_yakei",
+      "reading": "やけい",
+      "headword": "{夜景|やけい}",
+      "label": "night view, night scenery"
+    },
+    {
+      "type": "related",
+      "target_id": "20956_zekkeisupotto",
+      "reading": "ぜっけいすぽっと",
+      "headword": "{絶景|ぜっけい}スポット",
+      "label": "scenic viewpoint"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26300_kanshitou",
+      "reading": "かんしとう",
+      "headword": "{監視塔|かんしとう}",
+      "label": "watchtower"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27130_tenboujo",
+      "reading": "てんぼうじょ",
+      "headword": "{展望所|てんぼうじょ}",
+      "label": "observation point"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29421_tenboutou",
+      "reading": "てんぼうとう",
+      "headword": "{展望塔|てんぼうとう}",
+      "label": "observation tower"
+    }
+  ],
   "metadata": {
     "created": "2026-03-21T01:12:56Z",
-    "modified": "2026-07-25T06:43:21Z",
+    "modified": "2026-09-02T04:01:51Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

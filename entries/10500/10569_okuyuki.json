@@ -15,41 +15,80 @@
   "examples": [
     {
       "id": "10569_okuyuki_ex1",
-      "japanese": "この{棚|たな}の{奥行|おくゆ}きは30センチです。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{棚|たな}→棚：01650_tana⟧⟦の→の：09472_no⟧{奥行|おくゆ}き⟦は→は：00079_ha⟧30⟦センチ→センチ：01372_senchi⟧です。",
       "english": "This shelf has a depth of 30 centimeters.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10569_okuyuki_ex2",
-      "japanese": "{部屋|へや}は{狭|せま}いが{奥行|おくゆ}きがある。",
+      "japanese": "⟦{部屋|へや}→部屋：00507_heya⟧⟦は→は：00079_ha⟧⟦{狭|せま}い→狭い：00750_semai⟧⟦が→が：00051_ga⟧{奥行|おくゆ}き⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "The room is narrow but has depth.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10569_okuyuki_ex3",
-      "japanese": "この{写真|しゃしん}は{奥行|おくゆ}きのある{構図|こうず}で、{遠近感|えんきんかん}がよく{出|で}ている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{写真|しゃしん}→写真：00753_shashin⟧⟦は→は：00079_ha⟧{奥行|おくゆ}き⟦の→の：09472_no⟧⟦ある→ある：00006_aru⟧⟦{構図|こうず}→構図：13178_kouzu⟧⟦で→で：00502_de⟧、⟦{遠近感|えんきんかん}→遠近感：27663_enkinkan⟧⟦が→が：00051_ga⟧⟦よく→よく：00601_yoku⟧⟦{出|で}ている→出る：00513_deru⟧。",
       "english": "This photo has a composition with depth, and the sense of perspective comes through well.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "KANJI:\n{奥|おく} (interior/deep) + {行|ゆ}き (going). Literally \"going to the back.\"\n\nUSAGE:\nPrimarily a spatial measurement term used in architecture, furniture, and interior design. Also used figuratively: {奥行|おくゆ}きのある{作品|さくひん} (a work with depth/complexity) or {奥行|おくゆ}きのある{味|あじ} (a flavor with depth).\n\nWhen shopping for furniture or appliances in Japan, the three standard dimensions are: {幅|はば} (width), {高|たか}さ (height), and {奥行|おくゆ}き (depth).\n\nCOMMON COLLOCATIONS:\n- {奥行|おくゆ}きがある: to have depth\n- {奥行|おくゆ}き30センチ: 30cm deep\n- {奥行|おくゆ}きのある: with depth (modifier)\n- {奥行|おくゆ}きを{出|だ}す: to create a sense of depth",
-  "cross_references": [],
+  "notes": "WRITING:\n⟦{奥|おく}→奥：00980_oku⟧ (interior/deep) + {行|ゆ}き (going). Literally \"going to the back.\"\n\nUSAGE:\nPrimarily a spatial measurement term used in architecture, furniture, and interior design. Also used figuratively: {奥行|おくゆ}き⟦の→の：09472_no⟧⟦ある→ある：00006_aru⟧⟦{作品|さくひん}→作品：02776_sakuhin⟧ (a work with depth/complexity) or {奥行|おくゆ}き⟦の→の：09472_no⟧⟦ある→ある：00006_aru⟧⟦{味|あじ}→味：00826_aji⟧ (a flavor with depth).\n\nWhen shopping for furniture or appliances in Japan, the three standard dimensions are: ⟦{幅|はば}→幅：03565_haba⟧ (width), ⟦{高|たか}さ→高さ：05327_takasa⟧ (height), and {奥行|おくゆ}き (depth).\n\nCOMMON COLLOCATIONS:\n- {奥行|おくゆ}き⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧: to have depth\n- {奥行|おくゆ}き30⟦センチ→センチ：01372_senchi⟧: 30cm deep\n- {奥行|おくゆ}き⟦の→の：09472_no⟧⟦ある→ある：00006_aru⟧: with depth (modifier)\n- {奥行|おくゆ}き⟦を→を：00422_wo⟧⟦{出|だ}す→出す：01087_dasu⟧: to create a sense of depth",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21723_shindo",
+      "reading": "しんど",
+      "headword": "{深度|しんど}",
+      "label": "depth"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21914_rittaikan",
+      "reading": "りったいかん",
+      "headword": "{立体感|りったいかん}",
+      "label": "three-dimensionality"
+    },
+    {
+      "type": "related",
+      "target_id": "22827_enkinhou",
+      "reading": "えんきんほう",
+      "headword": "{遠近法|えんきんほう}",
+      "label": "perspective (in art)"
+    },
+    {
+      "type": "related",
+      "target_id": "27663_enkinkan",
+      "reading": "えんきんかん",
+      "headword": "{遠近感|えんきんかん}",
+      "label": "sense of perspective"
+    }
+  ],
   "metadata": {
     "created": "2026-02-08T04:54:25Z",
-    "modified": "2026-02-08T04:54:25Z",
+    "modified": "2026-09-02T04:01:21Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["size"]
+      "semantic": [
+        "size"
+      ]
     }
   }
 }

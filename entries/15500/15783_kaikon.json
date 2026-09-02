@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "15783_kaikon_ex1",
-      "japanese": "{荒|あ}れ{地|ち}を{開墾|かいこん}する。",
+      "japanese": "⟦{荒|あ}れ{地|ち}→荒れ地：20128_arechi⟧⟦を→を：00422_wo⟧{開墾|かいこん}⟦する→する：00392_suru⟧。",
       "english": "To clear wasteland for cultivation.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "15783_kaikon_ex2",
-      "japanese": "{北海道|ほっかいどう}は{明治時代|めいじじだい}に{大規模|だいきぼ}な{開墾|かいこん}が{行|おこな}われた。",
+      "japanese": "⟦{北海道|ほっかいどう}→北海道：11010_hokkaidou⟧⟦は→は：00079_ha⟧⟦{明治時代|めいじじだい}→明治時代：28080_meijijidai⟧⟦に→に：00314_ni⟧⟦{大規模|だいきぼ}→大規模：12185_daikibo⟧な{開墾|かいこん}⟦が→が：00051_ga⟧⟦{行|おこな}われた→行う：01238_okonau⟧。",
       "english": "Large-scale land reclamation was carried out in Hokkaido during the Meiji era.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "15783_kaikon_ex3",
-      "japanese": "{祖父|そふ}は{山|やま}の{斜面|しゃめん}を{開墾|かいこん}して{畑|はたけ}を{作|つく}り、{家族|かぞく}を{養|やしな}った。",
+      "japanese": "⟦{祖父|そふ}→祖父：01452_sofu⟧⟦は→は：00079_ha⟧⟦{山|やま}→山：02168_yama⟧⟦の→の：09472_no⟧⟦{斜面|しゃめん}→斜面：12870_shamen⟧⟦を→を：00422_wo⟧{開墾|かいこん}⟦して→する：00392_suru⟧⟦{畑|はたけ}→畑：00842_hatake⟧⟦を→を：00422_wo⟧⟦{作|つく}り→作る：00481_tsukuru⟧、⟦{家族|かぞく}→家族：00552_kazoku⟧⟦を→を：00422_wo⟧⟦{養|やしな}った→養う：04478_yashinau⟧。",
       "english": "My grandfather cleared the mountainside for farmland and supported his family.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{開墾|かいこん} is used as a noun or suru-verb. It specifically refers to converting wild or unused land into farmable land, and is often encountered in historical contexts about Japanese agricultural development.\n\nCOMMON COLLOCATIONS:\n- {土地|とち}を{開墾|かいこん}する (clear land)\n- {荒|あ}れ{地|ち}を{開墾|かいこん}する (reclaim wasteland)\n- {開墾|かいこん}{地|ち} (cleared land, reclaimed land)\n\nSIMILAR WORDS:\n{開拓|かいたく} means \"pioneering\" or \"development\" and has a broader scope — it can refer to opening up new markets, fields, or territories. {開墾|かいこん} is specifically about making land farmable. {干拓|かんたく} means \"land reclamation from the sea\" by draining water.",
+  "notes": "USAGE:\n{開墾|かいこん} is used as a noun or suru-verb. It specifically refers to converting wild or unused land into farmable land, and is often encountered in historical contexts about Japanese agricultural development.\n\nCOMMON COLLOCATIONS:\n- ⟦{土地|とち}→土地：02226_tochi⟧⟦を→を：00422_wo⟧{開墾|かいこん}⟦する→する：00392_suru⟧ (clear land)\n- ⟦{荒|あ}れ{地|ち}→荒れ地：20128_arechi⟧⟦を→を：00422_wo⟧{開墾|かいこん}⟦する→する：00392_suru⟧ (reclaim wasteland)\n- {開墾|かいこん}{地|ち} (cleared land, reclaimed land)\n\nSIMILAR WORDS:\n⟦{開拓|かいたく}→開拓：09954_kaitaku⟧ means \"pioneering\" or \"development\" and has a broader scope — it can refer to opening up new markets, fields, or territories. {開墾|かいこん} is specifically about making land farmable. ⟦{干拓|かんたく}→干拓：28986_kantaku⟧ means \"land reclamation from the sea\" by draining water.",
   "cross_references": [
     {
       "type": "synonym",
@@ -146,7 +146,7 @@
   ],
   "metadata": {
     "created": "2026-03-08T09:44:21Z",
-    "modified": "2026-07-18T04:02:53Z",
+    "modified": "2026-09-02T04:01:42Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -160,7 +160,8 @@
         "work",
         "history"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

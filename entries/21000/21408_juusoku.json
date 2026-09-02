@@ -3,7 +3,7 @@
   "headword": "{充足|じゅうそく}",
   "reading": "じゅうそく",
   "romaji": "juusoku",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "sufficiency; fulfillment; satisfaction",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21408_juusoku_ex1",
-      "japanese": "{人員|じんいん}の{充足|じゅうそく}が{急務|きゅうむ}だ。",
+      "japanese": "⟦{人員|じんいん}→人員：17843_jinin⟧⟦の→の：09472_no⟧{充足|じゅうそく}⟦が→が：00051_ga⟧⟦{急務|きゅうむ}→急務：21059_kyuumu⟧だ。",
       "english": "Filling staffing needs is an urgent task.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21408_juusoku_ex2",
-      "japanese": "{充足|じゅうそく}{感|かん}のある{生活|せいかつ}を{送|おく}りたい。",
+      "japanese": "{充足|じゅうそく}{感|かん}⟦の→の：09472_no⟧⟦ある→ある：00006_aru⟧⟦{生活|せいかつ}→生活：01443_seikatsu⟧⟦を→を：00422_wo⟧⟦{送|おく}りたい→送る：00742_okuru⟧。",
       "english": "I want to live a life full of satisfaction.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21408_juusoku_ex3",
-      "japanese": "{物質的|ぶっしつてき}な{豊|ゆた}かさだけでなく、{精神的|せいしんてき}な{充足|じゅうそく}も{大切|たいせつ}だと{考|かんが}えられている。",
+      "japanese": "⟦{物質的|ぶっしつてき}→物質的：08739_busshitsuteki⟧な⟦{豊|ゆた}か→豊か：03654_yutaka⟧さ⟦だけでなく→〜だけでなく：18373_dakedenaku⟧、⟦{精神的|せいしんてき}→精神的：05851_seishinteki⟧な{充足|じゅうそく}⟦も→も：00484_mo⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧だ⟦と→と：00512_to⟧⟦{考|かんが}えられている→考える：00856_kangaeru⟧。",
       "english": "It is believed that spiritual fulfillment is important, not just material abundance.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "A formal word describing the state of being sufficiently supplied or fulfilled. Used in both practical contexts (staffing, resources) and abstract contexts (emotional or spiritual satisfaction).\n\nCOMMON COLLOCATIONS:\n- {充足|じゅうそく}{感|かん}: sense of fulfillment/satisfaction\n- {充足|じゅうそく}{率|りつ}: fulfillment rate, sufficiency rate\n- {人員|じんいん}の{充足|じゅうそく}: staffing sufficiency\n- {充足|じゅうそく}する: to be satisfied, to be fulfilled\n\nSIMILAR WORDS:\n- {満足|まんぞく}: satisfaction — more common in everyday conversation; focuses on contentment with results\n- {充実|じゅうじつ}: fulfillment, enrichment — emphasizes richness and substance of content or experience\n- {補充|ほじゅう}: replenishment — the act of restocking or filling up what has been used",
+  "notes": "A formal word describing the state of being sufficiently supplied or fulfilled. Used in both practical contexts (staffing, resources) and abstract contexts (emotional or spiritual satisfaction).\n\nCOMMON COLLOCATIONS:\n- {充足|じゅうそく}{感|かん}: sense of fulfillment/satisfaction\n- {充足|じゅうそく}{率|りつ}: fulfillment rate, sufficiency rate\n- ⟦{人員|じんいん}→人員：17843_jinin⟧⟦の→の：09472_no⟧{充足|じゅうそく}: staffing sufficiency\n- {充足|じゅうそく}⟦する→する：00392_suru⟧: to be satisfied, to be fulfilled\n\nSIMILAR WORDS:\n- ⟦{満足|まんぞく}→満足：02496_manzoku⟧: satisfaction — more common in everyday conversation; focuses on contentment with results\n- ⟦{充実|じゅうじつ}→充実：04845_juujitsu⟧: fulfillment, enrichment — emphasizes richness and substance of content or experience\n- ⟦{補充|ほじゅう}→補充：14037_hojuu⟧: replenishment — the act of restocking or filling up what has been used",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02496_manzoku",
+      "reading": "まんぞく",
+      "headword": "{満足|まんぞく}",
+      "label": "satisfaction"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04845_juujitsu",
+      "reading": "じゅうじつ",
+      "headword": "{充実|じゅうじつ}",
+      "label": "fulfillment, enrichment"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14037_hojuu",
+      "reading": "ほじゅう",
+      "headword": "{補充|ほじゅう}",
+      "label": "replenishment"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,7 +84,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-02T02:51:11Z",
-    "modified": "2026-04-02T02:51:11Z"
+    "modified": "2026-09-02T04:02:03Z"
   },
   "conjugation": {
     "type": "suru",

@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "11450_kyuuyou_ex1",
-      "japanese": "{休養|きゅうよう}を{取|と}る。",
+      "japanese": "{休養|きゅうよう}⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧。",
       "english": "To take a rest.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "11450_kyuuyou_ex2",
-      "japanese": "{医者|いしゃ}に{休養|きゅうよう}が{必要|ひつよう}だと{言|い}われた。",
+      "japanese": "⟦{医者|いしゃ}→医者：02847_isha⟧⟦に→に：00314_ni⟧{休養|きゅうよう}⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧だ⟦と→と：00512_to⟧⟦{言|い}われた→言う：00515_iu⟧。",
       "english": "The doctor told me I need rest.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "11450_kyuuyou_ex3",
-      "japanese": "{選手|せんしゅ}は{怪我|けが}のため{一|いっ}か{月|げつ}の{休養|きゅうよう}に{入|はい}った。",
+      "japanese": "⟦{選手|せんしゅ}→選手：03823_senshu⟧⟦は→は：00079_ha⟧{怪我|けが}⟦の→の：09472_no⟧⟦ため→ため：01145_tame⟧{一|いっ}か{月|げつ}⟦の→の：09472_no⟧{休養|きゅうよう}⟦に→に：00314_ni⟧⟦{入|はい}った→入る：00494_hairu⟧。",
       "english": "The athlete entered a one-month rest period due to injury.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,19 @@
       ]
     }
   ],
-  "notes": "GRAMMAR: Functions as a noun and as a する verb ({休養|きゅうよう}する).\n\nCOMMON COLLOCATIONS:\n- {休養|きゅうよう}を{取|と}る (to take a rest)\n- {休養|きゅうよう}に{入|はい}る (to begin a rest period)\n- {十分|じゅうぶん}な{休養|きゅうよう} (sufficient rest)\n- {休養|きゅうよう}{期間|きかん} (rest period)\n\nSIMILAR WORDS: {休憩|きゅうけい} is a short break during an activity, while {休養|きゅうよう} is a longer, more deliberate period of rest for recovery. {療養|りょうよう} specifically means medical recuperation.",
-  "cross_references": [],
+  "notes": "GRAMMAR: Functions as a noun and as a ⟦する→する：00392_suru⟧ verb ({休養|きゅうよう}⟦する→する：00392_suru⟧).\n\nCOMMON COLLOCATIONS:\n- {休養|きゅうよう}⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧ (to take a rest)\n- {休養|きゅうよう}⟦に→に：00314_ni⟧⟦{入|はい}る→入る：00494_hairu⟧ (to begin a rest period)\n- ⟦{十分|じゅうぶん}→十分：01614_juubun⟧な{休養|きゅうよう} (sufficient rest)\n- {休養|きゅうよう}⟦{期間|きかん}→期間：00229_kikan⟧ (rest period)\n\nSIMILAR WORDS: ⟦{休憩|きゅうけい}→休憩：00262_kyuukei⟧ is a short break during an activity, while {休養|きゅうよう} is a longer, more deliberate period of rest for recovery. ⟦{療養|りょうよう}→療養：08207_ryouyou⟧ specifically means medical recuperation.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02587_kyuusoku",
+      "reading": "きゅうそく",
+      "headword": "{休息|きゅうそく}",
+      "label": "rest, relaxation, repose"
+    }
+  ],
   "metadata": {
     "created": "2026-02-16T12:22:00Z",
-    "modified": "2026-03-29T03:07:35Z",
+    "modified": "2026-09-02T04:01:25Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

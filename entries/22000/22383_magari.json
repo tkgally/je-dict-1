@@ -3,7 +3,7 @@
   "headword": "{間借|まが}り",
   "reading": "まがり",
   "romaji": "magari",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "renting a room; subletting; lodging",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22383_magari_ex1",
-      "japanese": "{間借|まが}りで{暮|く}らしている。",
+      "japanese": "{間借|まが}り⟦で→で：00502_de⟧⟦{暮|く}らしている→暮らす：01937_kurasu⟧。",
       "english": "I'm living in a rented room.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22383_magari_ex2",
-      "japanese": "{知人|ちじん}の{家|いえ}に{間借|まが}りする。",
+      "japanese": "⟦{知人|ちじん}→知人：04056_chijin⟧⟦の→の：09472_no⟧⟦{家|いえ}→家：00612_ie⟧⟦に→に：00314_ni⟧{間借|まが}り⟦する→する：00392_suru⟧。",
       "english": "To rent a room at an acquaintance's house.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22383_magari_ex3",
-      "japanese": "{学生|がくせい}の{頃|ころ}は{大家|おおや}さんの{家|いえ}の{二階|にかい}を{間借|まが}りしていた。",
+      "japanese": "⟦{学生|がくせい}→学生：00610_gakusei⟧⟦の→の：09472_no⟧{頃|ころ}⟦は→は：00079_ha⟧⟦{大家|おおや}さん→大家さん：26895_ooyasan⟧⟦の→の：09472_no⟧⟦{家|いえ}→家：00612_ie⟧⟦の→の：09472_no⟧⟦{二階|にかい}→二階：27513_nikai⟧⟦を→を：00422_wo⟧{間借|まが}り⟦していた→する：00392_suru⟧。",
       "english": "When I was a student, I rented the second floor of the landlord's house.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Describes renting part of a space, not the whole unit. Traditionally refers to renting a room in someone's home, a common arrangement in older Japan and still seen today. Recently also used for businesses sharing commercial space (e.g., a pop-up restaurant operating inside another restaurant's space).\n\nCOMMON COLLOCATIONS:\n- {間借|まが}りする: to rent a room / to sublet\n- {間借|まが}り{人|にん}: lodger / tenant\n- {間借|まが}り{生活|せいかつ}: life as a lodger\n- {間借|まが}りカレー: pop-up curry restaurant (operating inside another space)\n- {間借|まが}り{営業|えいぎょう}: operating out of a shared/borrowed space\n\nSIMILAR WORDS:\n- {下宿|げしゅく}: boarding house / lodging — a house specifically set up to take in boarders, with meals often included\n- {賃貸|ちんたい}: rental — renting an entire apartment or house\n- {同居|どうきょ}: living together — sharing a home, but implies a closer relationship\n\nMODERN USAGE:\nThe term {間借|まが}り has gained new life in the food industry, where {間借|まが}り{営業|えいぎょう} refers to a restaurant operating inside another establishment's space during off-hours, a popular low-cost way to start a food business.",
+  "notes": "Describes renting part of a space, not the whole unit. Traditionally refers to renting a room in someone's home, a common arrangement in older Japan and still seen today. Recently also used for businesses sharing commercial space (e.g., a pop-up restaurant operating inside another restaurant's space).\n\nCOMMON COLLOCATIONS:\n- {間借|まが}り⟦する→する：00392_suru⟧: to rent a room / to sublet\n- {間借|まが}り⟦{人|にん}→〜人：00658_nin⟧: lodger / tenant\n- {間借|まが}り⟦{生活|せいかつ}→生活：01443_seikatsu⟧: life as a lodger\n- {間借|まが}り⟦カレー→カレー：02898_karee⟧: pop-up curry restaurant (operating inside another space)\n- {間借|まが}り⟦{営業|えいぎょう}→営業：01878_eigyou⟧: operating out of a shared/borrowed space\n\nSIMILAR WORDS:\n- ⟦{下宿|げしゅく}→下宿：01399_geshuku⟧: boarding house / lodging — a house specifically set up to take in boarders, with meals often included\n- ⟦{賃貸|ちんたい}→賃貸：06081_chintai⟧: rental — renting an entire apartment or house\n- ⟦{同居|どうきょ}→同居：09730_doukyo⟧: living together — sharing a home, but implies a closer relationship\n\nMODERN USAGE:\nThe term {間借|まが}り has gained new life in the food industry, where {間借|まが}り⟦{営業|えいぎょう}→営業：01878_eigyou⟧ refers to a restaurant operating inside another establishment's space during off-hours, a popular low-cost way to start a food business.",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -53,6 +53,48 @@
       "reading": "まがり",
       "headword": "{曲|ま}がり",
       "label": "bend"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01399_geshuku",
+      "reading": "げしゅく",
+      "headword": "{下宿|げしゅく}",
+      "label": "boarding house / lodging"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06081_chintai",
+      "reading": "ちんたい",
+      "headword": "{賃貸|ちんたい}",
+      "label": "rental"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09730_doukyo",
+      "reading": "どうきょ",
+      "headword": "{同居|どうきょ}",
+      "label": "living together"
+    },
+    {
+      "type": "related",
+      "target_id": "00193_kashima",
+      "reading": "かしま",
+      "headword": "{貸間|かしま}",
+      "label": "room to let"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16492_karizumai",
+      "reading": "かりずまい",
+      "headword": "{仮住|かりず}まい",
+      "label": "temporary residence"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27214_isourou",
+      "reading": "いそうろう",
+      "headword": "{居候|いそうろう}",
+      "label": "freeloader"
     }
   ],
   "metadata": {
@@ -70,7 +112,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-05T20:13:04Z",
-    "modified": "2026-08-01T06:42:57Z"
+    "modified": "2026-09-02T04:02:07Z"
   },
   "conjugation": {
     "type": "suru",

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29135_bijuu_ex1",
-      "japanese": "{鼻汁|びじゅう}が{止|と}まらない。",
+      "japanese": "{鼻汁|びじゅう}⟦が→が：00051_ga⟧⟦{止|と}まらない→止まる：00555_tomaru⟧。",
       "english": "The nasal discharge won't stop.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29135_bijuu_ex2",
-      "japanese": "{医師|いし}は{鼻汁|びじゅう}の{色|いろ}から{細菌感染|さいきんかんせん}を{疑|うたが}った。",
+      "japanese": "⟦{医師|いし}→医師：11851_ishi⟧⟦は→は：00079_ha⟧{鼻汁|びじゅう}⟦の→の：09472_no⟧⟦{色|いろ}→色：00849_iro⟧⟦から→から：00504_kara⟧{細菌感染|さいきんかんせん}⟦を→を：00422_wo⟧⟦{疑|うたが}った→疑う：01889_utagau⟧。",
       "english": "The doctor suspected a bacterial infection from the color of the nasal discharge.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29135_bijuu_ex3",
-      "japanese": "{鼻汁|びじゅう}の{検査|けんさ}で{インフルエンザ|いんふるえんざ}が{陽性|ようせい}と{判明|はんめい}した。",
+      "japanese": "{鼻汁|びじゅう}⟦の→の：09472_no⟧⟦{検査|けんさ}→検査：02707_kensa⟧⟦で→で：00502_de⟧⟦インフルエンザ→インフルエンザ：05384_infuruenza⟧⟦が→が：00051_ga⟧{陽性|ようせい}⟦と→と：00512_to⟧⟦{判明|はんめい}→判明：11785_hanmei⟧⟦した→する：00392_suru⟧。",
       "english": "A nasal discharge test revealed a positive result for influenza.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "Medical and formal equivalent of {鼻水|はなみず}. Found in medical records, clinical descriptions, and formal writing.\n\nCOMMON COLLOCATIONS:\n- {鼻汁|びじゅう}が{出|で}る: nasal discharge appears\n- {黄色|きいろ}い{鼻汁|びじゅう}: yellow nasal discharge (sign of infection)\n- {水様性|すいようせい}{鼻汁|びじゅう}: watery nasal discharge\n- {鼻汁|びじゅう}{検査|けんさ}: nasal discharge test\n\nSIMILAR WORDS:\n- {鼻水|はなみず}: runny nose — the standard everyday term",
+  "notes": "Medical and formal equivalent of ⟦{鼻水|はなみず}→鼻水：04430_hanamizu⟧. Found in medical records, clinical descriptions, and formal writing.\n\nCOMMON COLLOCATIONS:\n- {鼻汁|びじゅう}⟦が→が：00051_ga⟧⟦{出|で}る→出る：00513_deru⟧: nasal discharge appears\n- ⟦{黄色|きいろ}い→黄色い：00959_kiiroi⟧{鼻汁|びじゅう}: yellow nasal discharge (sign of infection)\n- {水様性|すいようせい}{鼻汁|びじゅう}: watery nasal discharge\n- {鼻汁|びじゅう}⟦{検査|けんさ}→検査：02707_kensa⟧: nasal discharge test\n\nSIMILAR WORDS:\n- ⟦{鼻水|はなみず}→鼻水：04430_hanamizu⟧: runny nose — the standard everyday term",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04430_hanamizu",
+      "reading": "はなみず",
+      "headword": "{鼻水|はなみず}",
+      "label": "runny nose"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +62,7 @@
         "noun"
       ],
       "formality": "formal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "body-internal"
       ],
@@ -62,6 +71,6 @@
       ]
     },
     "created": "2026-06-11T11:40:29Z",
-    "modified": "2026-06-11T11:47:28Z"
+    "modified": "2026-09-02T04:02:36Z"
   }
 }

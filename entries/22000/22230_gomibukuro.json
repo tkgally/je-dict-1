@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22230_gomibukuro_ex1",
-      "japanese": "ごみ{袋|ぶくろ}を{買|か}ってきて。",
+      "japanese": "ごみ{袋|ぶくろ}⟦を→を：00422_wo⟧⟦{買|か}って→買う：00489_kau⟧きて。",
       "english": "Go buy some trash bags.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22230_gomibukuro_ex2",
-      "japanese": "ごみ{袋|ぶくろ}がいっぱいになった。",
+      "japanese": "ごみ{袋|ぶくろ}⟦が→が：00051_ga⟧いっぱいになった。",
       "english": "The trash bag is full.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22230_gomibukuro_ex3",
-      "japanese": "この{地域|ちいき}では{指定|してい}のごみ{袋|ぶくろ}を{使|つか}わなければならない。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{地域|ちいき}→地域：01461_chiiki⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{指定|してい}→指定：00373_shitei⟧⟦の→の：09472_no⟧ごみ{袋|ぶくろ}⟦を→を：00422_wo⟧⟦{使|つか}わ→使う：00473_tsukau⟧⟦なければならない→なければならない：27600_nakerebanaranai⟧。",
       "english": "In this area, you have to use the designated trash bags.",
       "sense_numbers": [
         1
@@ -45,7 +45,7 @@
     },
     {
       "id": "22230_gomibukuro_ex4",
-      "japanese": "{燃|も}えるごみと{燃|も}えないごみで{別々|べつべつ}のごみ{袋|ぶくろ}に{入|い}れてください。",
+      "japanese": "⟦{燃|も}える→燃える：02312_moeru⟧⟦ごみ→ゴミ：00840_gomi⟧⟦と→と：00512_to⟧⟦{燃|も}えない→燃える：02312_moeru⟧⟦ごみ→ゴミ：00840_gomi⟧⟦で→で：00502_de⟧⟦{別々|べつべつ}→別々：03972_betsubetsu⟧⟦の→の：09472_no⟧ごみ{袋|ぶくろ}⟦に→に：00314_ni⟧⟦{入|い}れて→入れる：01098_ireru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please put burnable and non-burnable garbage in separate trash bags.",
       "sense_numbers": [
         1
@@ -54,8 +54,24 @@
       "notes": null
     }
   ],
-  "notes": "Compound of ごみ (garbage/trash) and {袋|ぶくろ} (bag). In Japan, many municipalities require residents to purchase designated trash bags ({指定|してい}ごみ{袋|ぶくろ}) sold at convenience stores and supermarkets. These bags are often color-coded by trash type (burnable, non-burnable, recyclable).\n\nCOMMON COLLOCATIONS:\n- {指定|してい}ごみ{袋|ぶくろ}: designated trash bag\n- ごみ{袋|ぶくろ}に{入|い}れる: to put in a trash bag\n- ごみ{袋|ぶくろ}を{出|だ}す: to put out a trash bag (for collection)\n- ごみ{袋|ぶくろ}を{縛|しば}る: to tie up a trash bag\n\nCULTURAL NOTE:\nJapan's strict garbage separation system means households typically keep multiple types of ごみ{袋|ぶくろ}. The rules vary by municipality and are a common topic of daily life, especially for newcomers.\n\nRELATED TERMS:\n- ごみ{箱|ばこ}: trash can; wastebasket\n- ごみ{収集|しゅうしゅう}: garbage collection\n- {分別|ぶんべつ}: sorting; separation (of garbage)",
+  "notes": "Compound of ⟦ごみ→ゴミ：00840_gomi⟧ (garbage/trash) and {袋|ぶくろ} (bag). In Japan, many municipalities require residents to purchase designated trash bags (⟦{指定|してい}→指定：00373_shitei⟧ごみ{袋|ぶくろ}) sold at convenience stores and supermarkets. These bags are often color-coded by trash type (burnable, non-burnable, recyclable).\n\nCOMMON COLLOCATIONS:\n- ⟦{指定|してい}→指定：00373_shitei⟧ごみ{袋|ぶくろ}: designated trash bag\n- ごみ{袋|ぶくろ}⟦に→に：00314_ni⟧⟦{入|い}れる→入れる：01098_ireru⟧: to put in a trash bag\n- ごみ{袋|ぶくろ}⟦を→を：00422_wo⟧⟦{出|だ}す→出す：01087_dasu⟧: to put out a trash bag (for collection)\n- ごみ{袋|ぶくろ}⟦を→を：00422_wo⟧⟦{縛|しば}る→縛る：03925_shibaru⟧: to tie up a trash bag\n\nCULTURAL NOTE:\nJapan's strict garbage separation system means households typically keep multiple types of ごみ{袋|ぶくろ}. The rules vary by municipality and are a common topic of daily life, especially for newcomers.\n\nRELATED WORDS:\n- ごみ{箱|ばこ}: trash can; wastebasket\n- ⟦ごみ{収集|しゅうしゅう}→ごみ収集：09538_gomishuushuu⟧: garbage collection\n- ⟦{分別|ぶんべつ}→分別：07706_bunbetsu⟧: sorting; separation (of garbage)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "09538_gomishuushuu",
+      "reading": "ごみしゅうしゅう",
+      "headword": "ごみ{収集|しゅうしゅう}",
+      "label": "garbage collection"
+    },
+    {
+      "type": "related",
+      "target_id": "07706_bunbetsu",
+      "reading": "ぶんべつ",
+      "headword": "{分別|ぶんべつ}",
+      "label": "sorting"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -69,6 +85,6 @@
       ]
     },
     "created": "2026-04-05T15:13:24Z",
-    "modified": "2026-06-16T12:23:55Z"
+    "modified": "2026-09-02T04:02:07Z"
   }
 }

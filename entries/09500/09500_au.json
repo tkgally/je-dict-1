@@ -113,7 +113,7 @@
     },
     {
       "id": "09500_au_ex2",
-      "japanese": "{災害|さいがい}⟦に→に：00314_ni⟧{遭|あ}う。",
+      "japanese": "⟦{災害|さいがい}→災害：09636_saigai⟧⟦に→に：00314_ni⟧{遭|あ}う。",
       "english": "To experience a disaster.",
       "has_audio": false,
       "sense_numbers": [
@@ -130,10 +130,10 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: {自動詞|じどうし} (intransitive). Pattern: Xに{遭|あ}う (encounter X).\n\nCONTRAST WITH {会|あ}う:\n- {会|あ}う - to meet (people), neutral/positive\n- {遭|あ}う - to encounter (misfortune), always negative\n\nCOMMON COLLOCATIONS:\n- {事故|じこ}に{遭|あ}う (be in an accident)\n- {災害|さいがい}に{遭|あ}う (experience a disaster)\n- {被害|ひがい}に{遭|あ}う (suffer damage)\n- ひどい{目|め}に{遭|あ}う (have a terrible experience)\n- {偉|えら}い{目|め}に{遭|あ}う (go through a hard time)\n\nASPECT: {遭|あ}っている can mean 'is experiencing' or 'has encountered.'",
+  "notes": "TRANSITIVITY: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive). Pattern: X⟦に→に：00314_ni⟧{遭|あ}う (encounter X).\n\nCONTRAST WITH {会|あ}う:\n- ⟦{会|あ}う→会う：00482_au⟧ - to meet (people), neutral/positive\n- {遭|あ}う - to encounter (misfortune), always negative\n\nCOMMON COLLOCATIONS:\n- ⟦{事故|じこ}→事故：00851_jiko⟧⟦に→に：00314_ni⟧{遭|あ}う (be in an accident)\n- ⟦{災害|さいがい}→災害：09636_saigai⟧⟦に→に：00314_ni⟧{遭|あ}う (experience a disaster)\n- ⟦{被害|ひがい}→被害：02572_higai⟧⟦に→に：00314_ni⟧{遭|あ}う (suffer damage)\n- ⟦ひどい→ひどい：01097_hidoi⟧⟦{目|め}→目：00525_me⟧⟦に→に：00314_ni⟧{遭|あ}う (have a terrible experience)\n- ⟦{偉|えら}い→偉い：00039_erai⟧⟦{目|め}→目：00525_me⟧⟦に→に：00314_ni⟧{遭|あ}う (go through a hard time)\n\nASPECT: {遭|あ}って⟦いる→いる：00495_iru⟧ can mean 'is experiencing' or 'has encountered.'",
   "metadata": {
     "created": "2026-02-02T10:21:20Z",
-    "modified": "2026-04-22T08:43:07Z",
+    "modified": "2026-09-02T04:01:18Z",
     "ai_model": "claude-opus-4-5-20251101",
     "vocabulary_tier": "general",
     "tags": {
@@ -170,6 +170,20 @@
       "reading": "あう",
       "headword": "{会|あ}う",
       "label": "to meet (people, neutral)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17454_souguusuru",
+      "reading": "そうぐうする",
+      "headword": "{遭遇|そうぐう}する",
+      "label": "to encounter"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27351_mimawareru",
+      "reading": "みまわれる",
+      "headword": "{見舞|みま}われる",
+      "label": "to be struck by"
     }
   ]
 }

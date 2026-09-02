@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22500_kadouchuu_ex1",
-      "japanese": "エレベーターは{稼働中|かどうちゅう}です。",
+      "japanese": "⟦エレベーター→エレベーター：01340_erebeetaa⟧⟦は→は：00079_ha⟧{稼働中|かどうちゅう}です。",
       "english": "The elevator is in operation.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22500_kadouchuu_ex2",
-      "japanese": "{工場|こうじょう}は{二十四|にじゅうよ}{時間|じかん}{稼働中|かどうちゅう}だ。",
+      "japanese": "⟦{工場|こうじょう}→工場：01082_koujou⟧⟦は→は：00079_ha⟧{二十四|にじゅうよ}⟦{時間|じかん}→時間：00468_jikan⟧{稼働中|かどうちゅう}だ。",
       "english": "The factory is running 24 hours.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22500_kadouchuu_ex3",
-      "japanese": "サーバーが{稼働中|かどうちゅう}のため、メンテナンスは{来週|らいしゅう}に{延期|えんき}する。",
+      "japanese": "⟦サーバー→サーバー：04755_saabaa⟧⟦が→が：00051_ga⟧{稼働中|かどうちゅう}⟦の→の：09472_no⟧⟦ため→ため：01145_tame⟧、メンテナンス⟦は→は：00079_ha⟧⟦{来週|らいしゅう}→来週：00746_raishuu⟧⟦に→に：00314_ni⟧⟦{延期|えんき}する→延期する：02517_enkisuru⟧。",
       "english": "Since the server is currently running, maintenance will be postponed to next week.",
       "sense_numbers": [
         1
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {稼働|かどう} (operation, running) and {中|ちゅう} (during, in the middle of). Used as a status indicator for machines, systems, factories, and other operational things. Commonly seen on signs, dashboards, and status displays.\n\nCOMMON COLLOCATIONS:\n- サーバー{稼働中|かどうちゅう}: server running\n- {工場|こうじょう}{稼働中|かどうちゅう}: factory in operation\n- {稼働中|かどうちゅう}のシステム: a system in operation\n- {二十四|にじゅうよ}{時間|じかん}{稼働中|かどうちゅう}: running 24 hours\n\nSIMILAR WORDS:\n- {運転中|うんてんちゅう}: in operation — used for vehicles and machines that \"drive\" or \"run\"\n- {営業中|えいぎょうちゅう}: open for business — used for shops and restaurants\n- {使用中|しようちゅう}: in use — used for restrooms, meeting rooms, etc.",
+  "notes": "A compound of ⟦{稼働|かどう}→稼働：16938_kadou⟧ (operation, running) and ⟦{中|ちゅう}→〜中：09840_chuu⟧ (during, in the middle of). Used as a status indicator for machines, systems, factories, and other operational things. Commonly seen on signs, dashboards, and status displays.\n\nCOMMON COLLOCATIONS:\n- ⟦サーバー→サーバー：04755_saabaa⟧{稼働中|かどうちゅう}: server running\n- ⟦{工場|こうじょう}→工場：01082_koujou⟧{稼働中|かどうちゅう}: factory in operation\n- {稼働中|かどうちゅう}⟦の→の：09472_no⟧⟦システム→システム：08428_shisutemu⟧: a system in operation\n- {二十四|にじゅうよ}⟦{時間|じかん}→時間：00468_jikan⟧{稼働中|かどうちゅう}: running 24 hours\n\nSIMILAR WORDS:\n- ⟦{運転中|うんてんちゅう}→運転中：09659_untenchuu⟧: in operation — used for vehicles and machines that \"drive\" or \"run\"\n- ⟦{営業中|えいぎょうちゅう}→営業中：09539_eigyouchuu⟧: open for business — used for shops and restaurants\n- ⟦{使用中|しようちゅう}→使用中：09554_shiyouchuu⟧: in use — used for restrooms, meeting rooms, etc.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09659_untenchuu",
+      "reading": "うんてんちゅう",
+      "headword": "{運転中|うんてんちゅう}",
+      "label": "in operation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09539_eigyouchuu",
+      "reading": "えいぎょうちゅう",
+      "headword": "{営業中|えいぎょうちゅう}",
+      "label": "open for business"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09554_shiyouchuu",
+      "reading": "しようちゅう",
+      "headword": "{使用中|しようちゅう}",
+      "label": "in use"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26145_sougyouchuu",
+      "reading": "そうぎょうちゅう",
+      "headword": "{操業中|そうぎょうちゅう}",
+      "label": "in operation"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +89,6 @@
       "politeness": "plain"
     },
     "created": "2026-04-06T14:30:07Z",
-    "modified": "2026-04-06T14:30:07Z"
+    "modified": "2026-09-02T04:02:08Z"
   }
 }

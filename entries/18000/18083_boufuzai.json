@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "18083_boufuzai_ex1",
-      "japanese": "この{食品|しょくひん}には{防腐剤|ぼうふざい}が{入|はい}っていない。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{食品|しょくひん}→食品：03247_shokuhin⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{防腐剤|ぼうふざい}⟦が→が：00051_ga⟧⟦{入|はい}っていない→入る：00494_hairu⟧。",
       "english": "This food contains no preservatives.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "18083_boufuzai_ex2",
-      "japanese": "{防腐剤|ぼうふざい}{不使用|ふしよう}の{商品|しょうひん}が{人気|にんき}だ。",
+      "japanese": "{防腐剤|ぼうふざい}⟦{不使用|ふしよう}→不使用：29835_fushiyou⟧⟦の→の：09472_no⟧⟦{商品|しょうひん}→商品：01436_shouhin⟧⟦が→が：00051_ga⟧⟦{人気|にんき}→人気：01488_ninki⟧だ。",
       "english": "Products without preservatives are popular.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "18083_boufuzai_ex3",
-      "japanese": "{木材|もくざい}に{防腐剤|ぼうふざい}を{塗|ぬ}って{長持|ながも}ちさせる。",
+      "japanese": "⟦{木材|もくざい}→木材：13017_mokuzai⟧⟦に→に：00314_ni⟧{防腐剤|ぼうふざい}⟦を→を：00422_wo⟧⟦{塗|ぬ}って→塗る：01174_nuru⟧⟦{長持|ながも}ち→長持ち：14474_nagamochi⟧⟦させる→する：00392_suru⟧。",
       "english": "Apply antiseptic to the wood to make it last longer.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "WORD FORMATION:\n{防腐|ぼうふ} (preventing decay) + {剤|ざい} (agent, preparation). {防腐|ぼうふ} is {防|ぼう} (prevent) + {腐|ふ} (rot, decay).\n\nUSAGE:\nUsed in food labeling, woodworking, and chemistry contexts. In food-related discussions, often appears in the phrase {防腐剤|ぼうふざい}{不使用|ふしよう} (preservative-free) or {無添加|むてんか} (no additives).\n\nSIMILAR WORDS:\n- {保存料|ほぞんりょう}: preservative (food industry term)\n- {添加物|てんかぶつ}: additive\n- {防|ぼう}カビ{剤|ざい}: mold inhibitor",
+  "notes": "FORMS:\n⟦{防腐|ぼうふ}→防腐：24235_boufu⟧ (preventing decay) + ⟦{剤|ざい}→〜剤：30790_zai⟧ (agent, preparation). ⟦{防腐|ぼうふ}→防腐：24235_boufu⟧ is ⟦{防|ぼう}→防〜：03967_bou⟧ (prevent) + {腐|ふ} (rot, decay).\n\nUSAGE:\nUsed in food labeling, woodworking, and chemistry contexts. In food-related discussions, often appears in the phrase {防腐剤|ぼうふざい}⟦{不使用|ふしよう}→不使用：29835_fushiyou⟧ (preservative-free) or ⟦{無添加|むてんか}→無添加：19283_mutenka⟧ (no additives).\n\nSIMILAR WORDS:\n- ⟦{保存料|ほぞんりょう}→保存料：06593_hozonryou⟧: preservative (food industry term)\n- ⟦{添加物|てんかぶつ}→添加物：06479_tenkabutsu⟧: additive\n- ⟦{防|ぼう}カビ→防カビ：16668_boukabi⟧⟦{剤|ざい}→〜剤：30790_zai⟧: mold inhibitor",
   "cross_references": [
     {
       "type": "related",
@@ -59,11 +59,18 @@
       "reading": "てんかぶつ",
       "headword": "{添加物|てんかぶつ}",
       "label": "additive"
+    },
+    {
+      "type": "related",
+      "target_id": "25624_shokuhintenkabutsu",
+      "reading": "しょくひんてんかぶつ",
+      "headword": "{食品添加物|しょくひんてんかぶつ}",
+      "label": "food additive"
     }
   ],
   "metadata": {
     "created": "2026-03-20T01:14:06Z",
-    "modified": "2026-05-08T04:12:06Z",
+    "modified": "2026-09-02T04:01:50Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

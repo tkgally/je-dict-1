@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "07869_kayowai_ex1",
-      "japanese": "か{弱|よわ}い{子犬|こいぬ}を{保護|ほご}した。",
+      "japanese": "か{弱|よわ}い⟦{子犬|こいぬ}→子犬：19393_koinu⟧⟦を→を：00422_wo⟧⟦{保護|ほご}した→保護する：25374_hogosuru⟧。",
       "english": "I rescued a frail puppy.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "07869_kayowai_ex2",
-      "japanese": "か{弱|よわ}い{女性|じょせい}を{装|よそお}っていた。",
+      "japanese": "か{弱|よわ}い⟦{女性|じょせい}→女性：01617_josei⟧⟦を→を：00422_wo⟧⟦{装|よそお}っていた→装う：09152_yosoou⟧。",
       "english": "She was pretending to be a fragile woman.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "07869_kayowai_ex3",
-      "japanese": "か{弱|よわ}い{声|こえ}で{助|たす}けを{求|もと}めた。",
+      "japanese": "か{弱|よわ}い⟦{声|こえ}→声：02207_koe⟧⟦で→で：00502_de⟧⟦{助|たす}け→助け：07777_tasuke⟧⟦を→を：00422_wo⟧⟦{求|もと}めた→求める：02316_motomeru⟧。",
       "english": "She asked for help in a weak voice.",
       "sense_numbers": [
         1
@@ -43,7 +43,30 @@
       "notes": null
     }
   ],
-  "notes": "か{弱|よわ}い describes physical or emotional fragility, often evoking a sense of vulnerability or need for protection.\n\nETYMOLOGY:\nThe prefix か is an intensifier meaning \"somewhat\" or \"in a manner of,\" combined with {弱|よわ}い (weak).\n\nCOMMON COLLOCATIONS:\n- か{弱|よわ}い{女性|じょせい} (a delicate/fragile woman)\n- か{弱|よわ}い{体|からだ} (a frail body)\n- か{弱|よわ}い{存在|そんざい} (a vulnerable being)\n- か{弱|よわ}い{声|こえ} (a weak voice)\n\nNUANCE:\n- Has a literary or emotional quality\n- Often used to describe women, children, or small animals\n- Implies something or someone that evokes protective feelings\n- Can be used ironically to describe someone who appears weak but isn't\n\nRELATED TERMS:\n- {弱|よわ}い (weak - basic form)\n- {華奢|きゃしゃ} (delicate, slender)\n- か{細|ぼそ}い (thin, weak)\n- {儚|はかな}い (fleeting, fragile)\n\nREGISTER: Literary to neutral. More formal than simple {弱|よわ}い.",
+  "notes": "か{弱|よわ}い describes physical or emotional fragility, often evoking a sense of vulnerability or need for protection.\n\nETYMOLOGY:\nThe prefix ⟦か→か：09473_ka⟧ is an intensifier meaning \"somewhat\" or \"in a manner of,\" combined with ⟦{弱|よわ}い→弱い：00825_yowai⟧ (weak).\n\nCOMMON COLLOCATIONS:\n- か{弱|よわ}い⟦{女性|じょせい}→女性：01617_josei⟧ (a delicate/fragile woman)\n- か{弱|よわ}い⟦{体|からだ}→体：00784_karada⟧ (a frail body)\n- か{弱|よわ}い⟦{存在|そんざい}→存在：03326_sonzai⟧ (a vulnerable being)\n- か{弱|よわ}い⟦{声|こえ}→声：02207_koe⟧ (a weak voice)\n\nUSAGE:\n- Has a literary or emotional quality\n- Often used to describe women, children, or small animals\n- Implies something or someone that evokes protective feelings\n- Can be used ironically to describe someone who appears weak but isn't\n\nRELATED WORDS:\n- ⟦{弱|よわ}い→弱い：00825_yowai⟧ (weak - basic form)\n- ⟦{華奢|きゃしゃ}→華奢：09070_kyasha⟧ (delicate, slender)\n- か{細|ぼそ}い (thin, weak)\n- ⟦{儚|はかな}い→儚い：07898_hakanai⟧ (fleeting, fragile)\n\nREGISTER: Literary to neutral. More formal than simple ⟦{弱|よわ}い→弱い：00825_yowai⟧.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "09070_kyasha",
+      "reading": "きゃしゃ",
+      "headword": "{華奢|きゃしゃ}",
+      "label": "delicate, slender"
+    },
+    {
+      "type": "related",
+      "target_id": "07898_hakanai",
+      "reading": "はかない",
+      "headword": "{儚|はかな}い",
+      "label": "fleeting, fragile"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21190_hakanage",
+      "reading": "はかなげ",
+      "headword": "{儚|はかな}げ",
+      "label": "seemingly fragile"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -57,7 +80,7 @@
       ]
     },
     "created": "2026-01-21T13:22:38Z",
-    "modified": "2026-07-01T03:20:01Z"
+    "modified": "2026-09-02T04:01:13Z"
   },
   "conjugation": {
     "type": "i-adjective",

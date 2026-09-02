@@ -20,7 +20,7 @@
   "examples": [
     {
       "id": "28184_mitsugo_ex1",
-      "japanese": "{三|み}つ{子|ご}が{生|う}まれた。",
+      "japanese": "{三|み}つ{子|ご}⟦が→が：00051_ga⟧⟦{生|う}まれた→生まれる：00905_umareru⟧。",
       "english": "Triplets were born.",
       "sense_numbers": [
         1
@@ -30,7 +30,7 @@
     },
     {
       "id": "28184_mitsugo_ex2",
-      "japanese": "あの{家|いえ}は{三|み}つ{子|ご}の{育児|いくじ}で{大変|たいへん}だ。",
+      "japanese": "⟦あの→あの：00915_ano⟧⟦{家|いえ}→家：00612_ie⟧⟦は→は：00079_ha⟧{三|み}つ{子|ご}⟦の→の：09472_no⟧⟦{育児|いくじ}→育児：03998_ikuji⟧⟦で→で：00502_de⟧⟦{大変|たいへん}→大変：00594_taihen⟧だ。",
       "english": "That household has a hard time raising triplets.",
       "sense_numbers": [
         1
@@ -40,7 +40,7 @@
     },
     {
       "id": "28184_mitsugo_ex3",
-      "japanese": "{双子|ふたご}でも{育児|いくじ}は{大変|たいへん}なのに、{三|み}つ{子|ご}となればなおさらだ。",
+      "japanese": "⟦{双子|ふたご}→双子：03599_futago⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧⟦{育児|いくじ}→育児：03998_ikuji⟧⟦は→は：00079_ha⟧⟦{大変|たいへん}→大変：00594_taihen⟧な⟦の→の：09472_no⟧⟦に→に：00314_ni⟧、{三|み}つ{子|ご}⟦と→と：00512_to⟧⟦なれば→なる：01970_naru⟧なおさらだ。",
       "english": "Raising twins is hard enough, so with triplets it is even more so.",
       "sense_numbers": [
         1
@@ -50,7 +50,7 @@
     },
     {
       "id": "28184_mitsugo_ex4",
-      "japanese": "{三|み}つ{子|ご}の{魂|たましい}{百|ひゃく}まで。",
+      "japanese": "{三|み}つ{子|ご}⟦の→の：09472_no⟧⟦{魂|たましい}→魂：14639_tamashii⟧⟦{百|ひゃく}→百：00780_hyaku⟧⟦まで→まで：00490_made⟧。",
       "english": "The soul of a three-year-old lasts until a hundred. (A child's nature stays for life.)",
       "sense_numbers": [
         2
@@ -60,7 +60,7 @@
     },
     {
       "id": "28184_mitsugo_ex5",
-      "japanese": "{三|み}つ{子|ご}のころの{性格|せいかく}は{大人|おとな}になっても{変|か}わらないと{言|い}われる。",
+      "japanese": "{三|み}つ{子|ご}⟦の→の：09472_no⟧⟦ころ→〜ころ：03091_koro⟧⟦の→の：09472_no⟧⟦{性格|せいかく}→性格：03371_seikaku⟧⟦は→は：00079_ha⟧⟦{大人|おとな}→大人：02856_otona⟧になって⟦も→も：00484_mo⟧⟦{変|か}わらない→変わる：00714_kawaru⟧⟦と→と：00512_to⟧⟦{言|い}われる→言う：00515_iu⟧。",
       "english": "It is said that one's character at age three does not change even in adulthood.",
       "sense_numbers": [
         2
@@ -70,7 +70,7 @@
     },
     {
       "id": "28184_mitsugo_ex6",
-      "japanese": "「{三|み}つ{子|ご}の{魂|たましい}{百|ひゃく}まで」ということわざは、{幼|おさな}いころの{性質|せいしつ}が{一生|いっしょう}{続|つづ}くという{意味|いみ}だ。",
+      "japanese": "「{三|み}つ{子|ご}⟦の→の：09472_no⟧⟦{魂|たましい}→魂：14639_tamashii⟧⟦{百|ひゃく}→百：00780_hyaku⟧⟦まで→まで：00490_made⟧」⟦という→という：09577_toiu⟧ことわざ⟦は→は：00079_ha⟧、⟦{幼|おさな}い→幼い：02337_osanai⟧⟦ころ→〜ころ：03091_koro⟧⟦の→の：09472_no⟧⟦{性質|せいしつ}→性質：01638_seishitsu⟧⟦が→が：00051_ga⟧⟦{一生|いっしょう}→一生：01728_isshou⟧⟦{続|つづ}く→続く：00903_tsuzuku⟧⟦という→という：09577_toiu⟧⟦{意味|いみ}→意味：01155_imi⟧だ。",
       "english": "The proverb \"the soul of a three-year-old lasts until a hundred\" means that one's early nature continues for life.",
       "sense_numbers": [
         2
@@ -79,9 +79,31 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {三|み}つ (three) + {子|こ} (child), with the こ voicing to ご. The everyday meaning is \"triplets.\"\n\nThe older sense \"three-year-old child\" survives chiefly in the proverb {三|み}つ{子|ご}の{魂|たましい}{百|ひゃく}まで (a person's nature in early childhood remains for life).\n\nCOMMON COLLOCATIONS:\n- {三|み}つ{子|ご}を{産|う}む: to give birth to triplets\n- {三|み}つ{子|ご}の{兄弟|きょうだい}: triplet siblings\n\nSIMILAR WORDS:\n- {双子|ふたご}: twins — two children born together\n- {四|よ}つ{子|ご}: quadruplets — the same pattern with four"
-,
+  "notes": "Compound of {三|み}つ (three) + ⟦{子|こ}→子：09851_ko⟧ (child), with the こ voicing to ご. The everyday meaning is \"triplets.\"\n\nThe older sense \"three-year-old child\" survives chiefly in the proverb {三|み}つ{子|ご}⟦の→の：09472_no⟧⟦{魂|たましい}→魂：14639_tamashii⟧⟦{百|ひゃく}→百：00780_hyaku⟧⟦まで→まで：00490_made⟧ (a person's nature in early childhood remains for life).\n\nCOMMON COLLOCATIONS:\n- {三|み}つ{子|ご}⟦を→を：00422_wo⟧⟦{産|う}む→産む：01899_umu⟧: to give birth to triplets\n- {三|み}つ{子|ご}⟦の→の：09472_no⟧⟦{兄弟|きょうだい}→兄弟：00964_kyoudai⟧: triplet siblings\n\nSIMILAR WORDS:\n- ⟦{双子|ふたご}→双子：03599_futago⟧: twins — two children born together\n- ⟦{四|よ}つ{子|ご}→四つ子：28217_yotsugo⟧: quadruplets — the same pattern with four",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03599_futago",
+      "reading": "ふたご",
+      "headword": "{双子|ふたご}",
+      "label": "twins"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28217_yotsugo",
+      "reading": "よつご",
+      "headword": "{四|よ}つ{子|ご}",
+      "label": "quadruplets"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28185_souseiji",
+      "reading": "そうせいじ",
+      "headword": "{双生児|そうせいじ}",
+      "label": "twins (formal/medical term)"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -89,13 +111,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "family"
       ],
       "domain": []
     },
     "created": "2026-05-27T02:07:43Z",
-    "modified": "2026-05-27T02:07:43Z"
+    "modified": "2026-09-02T04:02:32Z"
   }
 }

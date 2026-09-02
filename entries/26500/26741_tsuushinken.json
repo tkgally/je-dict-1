@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26741_tsuushinken_ex1",
-      "japanese": "{通信圏|つうしんけん}{外|がい}で{電話|でんわ}が{使|つか}えない。",
+      "japanese": "{通信圏|つうしんけん}⟦{外|がい}→外〜：03948_gai⟧⟦で→で：00502_de⟧⟦{電話|でんわ}→電話：01471_denwa⟧⟦が→が：00051_ga⟧⟦{使|つか}えない→使う：00473_tsukau⟧。",
       "english": "The phone doesn't work because it's out of coverage.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26741_tsuushinken_ex2",
-      "japanese": "{山|やま}の{奥|おく}では{通信圏|つうしんけん}に{入|はい}れないことが{多|おお}い。",
+      "japanese": "⟦{山|やま}→山：02168_yama⟧⟦の→の：09472_no⟧⟦{奥|おく}→奥：00980_oku⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧{通信圏|つうしんけん}⟦に→に：00314_ni⟧⟦{入|はい}れない→入る：00494_hairu⟧こと⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "Deep in the mountains, you often can't get into a coverage area.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26741_tsuushinken_ex3",
-      "japanese": "トンネルを{抜|ぬ}けてやっと{通信圏|つうしんけん}に{戻|もど}り、メッセージが{一斉|いっせい}に{届|とど}いた。",
+      "japanese": "⟦トンネル→トンネル：03865_tonneru⟧⟦を→を：00422_wo⟧⟦{抜|ぬ}けて→抜ける：02385_nukeru⟧⟦やっと→やっと：01561_yatto⟧{通信圏|つうしんけん}⟦に→に：00314_ni⟧⟦{戻|もど}り→戻る：01117_modoru⟧、⟦メッセージ→メッセージ：03828_messeeji⟧⟦が→が：00051_ga⟧⟦{一斉|いっせい}→一斉：01726_issei⟧⟦に→に：00314_ni⟧⟦{届|とど}いた→届く：00899_todoku⟧。",
       "english": "After leaving the tunnel, I finally got back into coverage and all my messages came through at once.",
       "sense_numbers": [
         1
@@ -44,8 +44,30 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {通信|つうしん} (communication, telecommunications) and {圏|けん} (sphere, zone). Commonly encountered when traveling to remote areas or underground locations where mobile phone signals are weak or absent.\n\nCOMMON COLLOCATIONS:\n- {通信圏|つうしんけん}{外|がい}: out of range, out of coverage\n- {通信圏|つうしんけん}{内|ない}: within range, in coverage\n- {通信圏|つうしんけん}に{入|はい}る: to enter a coverage area\n- {通信圏|つうしんけん}から{外|はず}れる: to go out of coverage\n\nRELATED TERMS:\n- {圏外|けんがい}: out of range — the shorter, more casual term displayed on Japanese phones when there is no signal\n- {圏内|けんない}: within range — the opposite of {圏外|けんがい}\n- {電波|でんぱ}: radio waves, signal — the physical signal itself",
-  "cross_references": [],
+  "notes": "A compound of ⟦{通信|つうしん}→通信：03514_tsuushin⟧ (communication, telecommunications) and ⟦{圏|けん}→圏：21183_ken⟧ (sphere, zone). Commonly encountered when traveling to remote areas or underground locations where mobile phone signals are weak or absent.\n\nCOMMON COLLOCATIONS:\n- {通信圏|つうしんけん}⟦{外|がい}→外〜：03948_gai⟧: out of range, out of coverage\n- {通信圏|つうしんけん}⟦{内|ない}→〜内：09853_nai⟧: within range, in coverage\n- {通信圏|つうしんけん}⟦に→に：00314_ni⟧⟦{入|はい}る→入る：00494_hairu⟧: to enter a coverage area\n- {通信圏|つうしんけん}⟦から→から：00504_kara⟧⟦{外|はず}れる→外れる：02395_hazureru⟧: to go out of coverage\n\nRELATED WORDS:\n- ⟦{圏外|けんがい}→圏外：07689_kengai⟧: out of range — the shorter, more casual term displayed on Japanese phones when there is no signal\n- ⟦{圏内|けんない}→圏内：16392_kennai⟧: within range — the opposite of ⟦{圏外|けんがい}→圏外：07689_kengai⟧\n- ⟦{電波|でんぱ}→電波：04070_denpa⟧: radio waves, signal — the physical signal itself",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "07689_kengai",
+      "reading": "けんがい",
+      "headword": "{圏外|けんがい}",
+      "label": "out of range"
+    },
+    {
+      "type": "antonym",
+      "target_id": "16392_kennai",
+      "reading": "けんない",
+      "headword": "{圏内|けんない}",
+      "label": "within range"
+    },
+    {
+      "type": "related",
+      "target_id": "04070_denpa",
+      "reading": "でんぱ",
+      "headword": "{電波|でんぱ}",
+      "label": "radio waves, signal"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -63,6 +85,6 @@
       ]
     },
     "created": "2026-05-04T15:32:16Z",
-    "modified": "2026-05-04T15:32:16Z"
+    "modified": "2026-09-02T04:02:27Z"
   }
 }

@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "20327_miminari_ex1",
-      "japanese": "{耳鳴|みみな}りがする。",
+      "japanese": "{耳鳴|みみな}り⟦が→が：00051_ga⟧⟦する→する：00392_suru⟧。",
       "english": "I have ringing in my ears.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "20327_miminari_ex2",
-      "japanese": "ライブの{後|あと}、{耳鳴|みみな}りが{止|と}まらなかった。",
+      "japanese": "⟦ライブ→ライブ：05412_raibu⟧⟦の→の：09472_no⟧⟦{後|あと}→後：09580_ato⟧、{耳鳴|みみな}り⟦が→が：00051_ga⟧⟦{止|と}まらなかった→止まる：00555_tomaru⟧。",
       "english": "After the concert, the ringing in my ears wouldn't stop.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "20327_miminari_ex3",
-      "japanese": "{耳鳴|みみな}りが{続|つづ}くようなら、{耳鼻科|じびか}を{受診|じゅしん}したほうがいい。",
+      "japanese": "{耳鳴|みみな}り⟦が→が：00051_ga⟧⟦{続|つづ}く→続く：00903_tsuzuku⟧ようなら、⟦{耳鼻科|じびか}→耳鼻科：22874_jibika⟧⟦を→を：00422_wo⟧⟦{受診|じゅしん}→受診：11890_jushin⟧⟦した→する：00392_suru⟧⟦ほうがいい→ほうがいい：10078_hougaii⟧。",
       "english": "If the ringing in your ears continues, you should see an ENT doctor.",
       "sense_numbers": [
         1
@@ -43,8 +43,38 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {耳|みみ} (ear) + {鳴|な}り (ringing, sounding). The verb form is {耳鳴|みみな}りがする (to have ringing in the ears) — note that it uses がする, not をする.\n\nCOMMON COLLOCATIONS:\n- {耳鳴|みみな}りがする: to have ringing in the ears\n- {耳鳴|みみな}りが{止|と}まらない: the ringing won't stop\n- {耳鳴|みみな}りが{続|つづ}く: the ringing continues\n- {耳鳴|みみな}りの{治療|ちりょう}: treatment for tinnitus\n\nRELATED WORDS:\n- {難聴|なんちょう}: hearing loss, hard of hearing\n- {耳鼻科|じびか}: ENT department (ear, nose, throat)\n- {めまい}: dizziness — often accompanies {耳鳴|みみな}り",
+  "notes": "Composed of ⟦{耳|みみ}→耳：01513_mimi⟧ (ear) + ⟦{鳴|な}り→鳴る：01143_naru⟧ (ringing, sounding). The verb form is {耳鳴|みみな}り⟦が→が：00051_ga⟧⟦する→する：00392_suru⟧ (to have ringing in the ears) — note that it uses ⟦が→が：00051_ga⟧⟦する→する：00392_suru⟧, not ⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧.\n\nCOMMON COLLOCATIONS:\n- {耳鳴|みみな}り⟦が→が：00051_ga⟧⟦する→する：00392_suru⟧: to have ringing in the ears\n- {耳鳴|みみな}り⟦が→が：00051_ga⟧⟦{止|と}まらない→止まる：00555_tomaru⟧: the ringing won't stop\n- {耳鳴|みみな}り⟦が→が：00051_ga⟧⟦{続|つづ}く→続く：00903_tsuzuku⟧: the ringing continues\n- {耳鳴|みみな}り⟦の→の：09472_no⟧⟦{治療|ちりょう}→治療：03503_chiryou⟧: treatment for tinnitus\n\nRELATED WORDS:\n- ⟦{難聴|なんちょう}→難聴：18194_nanchou⟧: hearing loss, hard of hearing\n- ⟦{耳鼻科|じびか}→耳鼻科：22874_jibika⟧: ENT department (ear, nose, throat)\n- めまい: dizziness — often accompanies {耳鳴|みみな}り",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "18194_nanchou",
+      "reading": "なんちょう",
+      "headword": "{難聴|なんちょう}",
+      "label": "hearing loss, hard of hearing"
+    },
+    {
+      "type": "related",
+      "target_id": "22874_jibika",
+      "reading": "じびか",
+      "headword": "{耳鼻科|じびか}",
+      "label": "ENT department"
+    },
+    {
+      "type": "related",
+      "target_id": "05022_memai",
+      "reading": "めまい",
+      "headword": "{眩暈|めまい}",
+      "label": "dizziness"
+    },
+    {
+      "type": "related",
+      "target_id": "24916_genchou",
+      "reading": "げんちょう",
+      "headword": "{幻聴|げんちょう}",
+      "label": "auditory hallucination"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +89,6 @@
       ]
     },
     "created": "2026-03-28T21:12:24Z",
-    "modified": "2026-07-28T00:51:36Z"
+    "modified": "2026-09-02T04:01:59Z"
   }
 }

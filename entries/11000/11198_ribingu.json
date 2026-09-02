@@ -15,40 +15,72 @@
   "examples": [
     {
       "id": "11198_ribingu_ex1",
-      "japanese": "リビングでテレビを{見|み}る。",
+      "japanese": "リビング⟦で→で：00502_de⟧⟦テレビ→テレビ：01536_terebi⟧⟦を→を：00422_wo⟧⟦{見|み}る→見る：00283_miru⟧。",
       "english": "Watch TV in the living room.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11198_ribingu_ex2",
-      "japanese": "{新|あたら}しいソファをリビングに{置|お}いた。",
+      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦ソファ→ソファ：04485_sofa⟧⟦を→を：00422_wo⟧リビング⟦に→に：00314_ni⟧⟦{置|お}いた→置く：01092_oku⟧。",
       "english": "I put a new sofa in the living room.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11198_ribingu_ex3",
-      "japanese": "{家族|かぞく}みんながリビングに{集|あつ}まって、{夕飯|ゆうはん}を{食|た}べながら{会話|かいわ}を{楽|たの}しんだ。",
+      "japanese": "⟦{家族|かぞく}→家族：00552_kazoku⟧⟦みんな→みんな：02972_minna⟧⟦が→が：00051_ga⟧リビング⟦に→に：00314_ni⟧⟦{集|あつ}まって→集まる：01162_atsumaru⟧、⟦{夕飯|ゆうはん}→夕飯：02981_yuuhan⟧⟦を→を：00422_wo⟧⟦{食|た}べ→食べる：00396_taberu⟧⟦ながら→ながら：10530_nagara⟧⟦{会話|かいわ}→会話：01271_kaiwa⟧⟦を→を：00422_wo⟧⟦{楽|たの}しんだ→楽しむ：01203_tanoshimu⟧。",
       "english": "The whole family gathered in the living room, enjoying conversation over dinner.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "リビング is a clipped form of リビングルーム (living room). It is the standard term in real estate listings and interior design.\n\nCOMMON COLLOCATIONS:\n- リビングルーム (living room — full form)\n- リビングダイニング (combined living-dining room, often abbreviated LDK)\n- リビングに{集|あつ}まる (gather in the living room)\n- {広|ひろ}いリビング (spacious living room)\n- リビング{収納|しゅうのう} (living room storage)\n\nUSAGE NOTES:\n- In Japanese real estate, LDK stands for Living-Dining-Kitchen, a common layout designation (e.g., 2LDK = 2 bedrooms + living-dining-kitchen)\n- {居間|いま} is the traditional Japanese word for living room but リビング has become more common in modern homes\n- The concept of リビング reflects the shift from traditional {和室|わしつ} (Japanese-style rooms) to Western-style common spaces",
-  "cross_references": [],
+  "notes": "リビング is a clipped form of リビングルーム (living room). It is the standard term in real estate listings and interior design.\n\nCOMMON COLLOCATIONS:\n- リビングルーム (living room — full form)\n- リビングダイニング (combined living-dining room, often abbreviated LDK)\n- リビング⟦に→に：00314_ni⟧⟦{集|あつ}まる→集まる：01162_atsumaru⟧ (gather in the living room)\n- ⟦{広|ひろ}い→広い：00704_hiroi⟧リビング (spacious living room)\n- リビング⟦{収納|しゅうのう}→収納：07497_shuunou⟧ (living room storage)\n\nUSAGE:\n- In Japanese real estate, LDK stands for Living-Dining-Kitchen, a common layout designation (e.g., 2LDK = 2 bedrooms + living-dining-kitchen)\n- ⟦{居間|いま}→居間：01745_ima⟧ is the traditional Japanese word for living room but リビング has become more common in modern homes\n- The concept of リビング reflects the shift from traditional ⟦{和室|わしつ}→和室：10437_washitsu⟧ (Japanese-style rooms) to Western-style common spaces",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "08530_ousetsuma",
+      "reading": "おうせつま",
+      "headword": "{応接間|おうせつま}",
+      "label": "reception room"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23241_kyojuukuukan",
+      "reading": "きょじゅうくうかん",
+      "headword": "{居住空間|きょじゅうくうかん}",
+      "label": "living space"
+    },
+    {
+      "type": "related",
+      "target_id": "28876_ribinguruumu",
+      "reading": "りびんぐるーむ",
+      "headword": "リビングルーム",
+      "label": "living room"
+    }
+  ],
   "metadata": {
     "created": "2026-02-15T00:23:04Z",
-    "modified": "2026-02-15T00:23:04Z",
+    "modified": "2026-09-02T04:01:24Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["building"]
+      "semantic": [
+        "building"
+      ]
     }
   }
 }

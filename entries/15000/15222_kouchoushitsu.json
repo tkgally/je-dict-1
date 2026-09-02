@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "15222_kouchoushitsu_ex1",
-      "japanese": "{校長室|こうちょうしつ}に{呼|よ}ばれた。",
+      "japanese": "{校長室|こうちょうしつ}⟦に→に：00314_ni⟧⟦{呼|よ}ばれた→呼ぶ：00766_yobu⟧。",
       "english": "I was called to the principal's office.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "15222_kouchoushitsu_ex2",
-      "japanese": "{保護者|ほごしゃ}が{校長室|こうちょうしつ}で{面談|めんだん}した。",
+      "japanese": "⟦{保護者|ほごしゃ}→保護者：11564_hogosha⟧⟦が→が：00051_ga⟧{校長室|こうちょうしつ}⟦で→で：00502_de⟧⟦{面談|めんだん}→面談：08177_mendan⟧⟦した→する：00392_suru⟧。",
       "english": "The parents had a meeting in the principal's office.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "15222_kouchoushitsu_ex3",
-      "japanese": "{校長室|こうちょうしつ}には{歴代|れきだい}の{校長|こうちょう}の{写真|しゃしん}が{飾|かざ}られていた。",
+      "japanese": "{校長室|こうちょうしつ}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{歴代|れきだい}→歴代：13199_rekidai⟧⟦の→の：09472_no⟧⟦{校長|こうちょう}→校長：01582_kouchou⟧⟦の→の：09472_no⟧⟦{写真|しゃしん}→写真：00753_shashin⟧⟦が→が：00051_ga⟧⟦{飾|かざ}られていた→飾る：01185_kazaru⟧。",
       "english": "Photos of past principals were displayed in the principal's office.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "{校長室|こうちょうしつ} is a compound of {校長|こうちょう} (principal) + {室|しつ} (room). This follows the common Japanese pattern of [role] + {室|しつ} to name offices.\n\nUSAGE:\nBeing called to the {校長室|こうちょうしつ} can imply being in trouble, similar to the English expression \"sent to the principal's office.\" The room is also used for meetings with parents and official visitors.\n\nSIMILAR 〜{室|しつ} COMPOUNDS:\n- {教頭室|きょうとうしつ}: vice principal's office\n- {職員室|しょくいんしつ}: staff room\n- {社長室|しゃちょうしつ}: company president's office\n- {教室|きょうしつ}: classroom\n\nCOMMON PATTERNS:\n- {校長室|こうちょうしつ}に{呼|よ}ばれる: to be called to the principal's office\n- {校長室|こうちょうしつ}で{面談|めんだん}する: to have a meeting in the principal's office",
+  "notes": "{校長室|こうちょうしつ} is a compound of ⟦{校長|こうちょう}→校長：01582_kouchou⟧ (principal) + ⟦{室|しつ}→室：09946_shitsu⟧ (room). This follows the common Japanese pattern of [role] + ⟦{室|しつ}→室：09946_shitsu⟧ to name offices.\n\nUSAGE:\nBeing called to the {校長室|こうちょうしつ} can imply being in trouble, similar to the English expression \"sent to the principal's office.\" The room is also used for meetings with parents and official visitors.\n\nSIMILAR 〜{室|しつ} COMPOUNDS:\n- {教頭室|きょうとうしつ}: vice principal's office\n- ⟦{職員室|しょくいんしつ}→職員室：05379_shokuinshitsu⟧: staff room\n- {社長室|しゃちょうしつ}: company president's office\n- ⟦{教室|きょうしつ}→教室：00794_kyoushitsu⟧: classroom\n\nCOMMON PATTERNS:\n- {校長室|こうちょうしつ}⟦に→に：00314_ni⟧⟦{呼|よ}ばれる→呼ぶ：00766_yobu⟧: to be called to the principal's office\n- {校長室|こうちょうしつ}⟦で→で：00502_de⟧⟦{面談|めんだん}→面談：08177_mendan⟧⟦する→する：00392_suru⟧: to have a meeting in the principal's office",
   "cross_references": [
     {
       "type": "related",
@@ -52,11 +52,18 @@
       "reading": "こうちょう",
       "headword": "{校長|こうちょう}",
       "label": "school principal"
+    },
+    {
+      "type": "related",
+      "target_id": "05379_shokuinshitsu",
+      "reading": "しょくいんしつ",
+      "headword": "{職員室|しょくいんしつ}",
+      "label": "staff room"
     }
   ],
   "metadata": {
     "created": "2026-03-05T09:40:45Z",
-    "modified": "2026-09-01T13:10:57Z",
+    "modified": "2026-09-02T04:01:40Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

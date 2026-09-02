@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "27135_yakiin_ex1",
-      "japanese": "どら{焼|や}きに{焼|や}き{印|いん}を{押|お}す。",
+      "japanese": "⟦どら{焼|や}き→どら焼き：10393_dorayaki⟧⟦に→に：00314_ni⟧{焼|や}き{印|いん}⟦を→を：00422_wo⟧⟦{押|お}す→押す：02854_osu⟧。",
       "english": "To press a brand mark onto a dorayaki.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "27135_yakiin_ex2",
-      "japanese": "この{木箱|きばこ}には{焼|や}き{印|いん}で{名前|なまえ}が{入|はい}っている。",
+      "japanese": "⟦この→この：00962_kono⟧{木箱|きばこ}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{焼|や}き{印|いん}⟦で→で：00502_de⟧⟦{名前|なまえ}→名前：02234_namae⟧⟦が→が：00051_ga⟧⟦{入|はい}っている→入る：00494_hairu⟧。",
       "english": "This wooden box has a name branded into it.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "27135_yakiin_ex3",
-      "japanese": "{和菓子屋|わがしや}では{店|みせ}の{名前|なまえ}の{焼|や}き{印|いん}を{使|つか}うことが{多|おお}い。",
+      "japanese": "{和菓子屋|わがしや}⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{店|みせ}→店：00497_mise⟧⟦の→の：09472_no⟧⟦{名前|なまえ}→名前：02234_namae⟧⟦の→の：09472_no⟧{焼|や}き{印|いん}⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧こと⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "Japanese confectionery shops often use branding irons with their shop name.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {焼|や}く (to burn/grill) and {印|いん} (mark/seal). In Japanese traditional crafts, branding irons are commonly used to mark wooden products, leather goods, and sweets. Japanese confections like {饅頭|まんじゅう} and どら{焼|や}き often bear the shop's brand mark as a decorative element.\n\nCOMMON COLLOCATIONS:\n- {焼|や}き{印|いん}を{押|お}す: to brand, to press a mark\n- {焼|や}き{印|いん}を{入|い}れる: to put a brand mark on\n- {店名|てんめい}の{焼|や}き{印|いん}: brand mark with the shop name\n\nRELATED WORDS:\n- {烙印|らくいん}: brand, stigma — can also be used figuratively for a mark of shame\n- {刻印|こくいん}: engraving, stamped mark — carved rather than burned\n- {印|しるし}: mark, symbol — broader term for any kind of mark",
+  "notes": "A compound of ⟦{焼|や}く→焼く：01123_yaku⟧ (to burn/grill) and {印|いん} (mark/seal). In Japanese traditional crafts, branding irons are commonly used to mark wooden products, leather goods, and sweets. Japanese confections like ⟦{饅頭|まんじゅう}→饅頭：05000_manjuu⟧ and ⟦どら{焼|や}き→どら焼き：10393_dorayaki⟧ often bear the shop's brand mark as a decorative element.\n\nCOMMON COLLOCATIONS:\n- {焼|や}き{印|いん}⟦を→を：00422_wo⟧⟦{押|お}す→押す：02854_osu⟧: to brand, to press a mark\n- {焼|や}き{印|いん}⟦を→を：00422_wo⟧⟦{入|い}れる→入れる：01098_ireru⟧: to put a brand mark on\n- {店名|てんめい}⟦の→の：09472_no⟧{焼|や}き{印|いん}: brand mark with the shop name\n\nRELATED WORDS:\n- {烙印|らくいん}: brand, stigma — can also be used figuratively for a mark of shame\n- ⟦{刻印|こくいん}→刻印：29469_kokuin⟧: engraving, stamped mark — carved rather than burned\n- ⟦{印|しるし}→印：03254_shirushi⟧: mark, symbol — broader term for any kind of mark",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "29469_kokuin",
+      "reading": "こくいん",
+      "headword": "{刻印|こくいん}",
+      "label": "engraving, stamped mark"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +69,6 @@
       ]
     },
     "created": "2026-05-07T12:19:14Z",
-    "modified": "2026-08-07T06:31:23Z"
+    "modified": "2026-09-02T04:02:29Z"
   }
 }

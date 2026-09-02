@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "Compound of ⟦{花|はな}→花：00523_hana⟧ (flower) + ⟦{屋|や}→〜屋：03096_ya⟧ (shop/seller). Refers to both the flower shop and the florist who runs it.\n\nCOMMON SHOP SUFFIX ⟦{屋|や}→〜屋：03096_ya⟧:\n- ⟦{本屋|ほんや}→本屋：03034_honya⟧: bookstore\n- ⟦{肉屋|にくや}→肉屋：15233_nikuya⟧: butcher shop\n- ⟦{魚屋|さかなや}→魚屋：14642_sakanaya⟧: fish shop\n- ⟦{八百屋|やおや}→八百屋：02978_yaoya⟧: vegetable/produce shop\n- ⟦パン→パン：00553_pan⟧⟦{屋|や}→〜屋：03096_ya⟧: bakery\n\nFORMAL ALTERNATIVE:\n{花屋|はなや}さん (with さん) is the polite/friendly way to refer to a florist or flower shop. More formally: フラワーショップ.\n\nRELATED VOCABULARY:\n- ⟦{花束|はなたば}→花束：03135_hanataba⟧: bouquet\n- ⟦{花瓶|かびん}→花瓶：02867_kabin⟧: flower vase\n- ⟦{生|い}け{花|ばな}→生け花：05409_ikebana⟧: flower arrangement (ikebana)\n- ⟦{鉢植|はちう}え→鉢植え：15062_hachiue⟧: potted plant",
+  "notes": "Compound of ⟦{花|はな}→花：00523_hana⟧ (flower) + ⟦{屋|や}→〜屋：03096_ya⟧ (shop/seller). Refers to both the flower shop and the florist who runs it.\n\nCOMMON SHOP SUFFIX ⟦{屋|や}→〜屋：03096_ya⟧:\n- ⟦{本屋|ほんや}→本屋：03034_honya⟧: bookstore\n- ⟦{肉屋|にくや}→肉屋：15233_nikuya⟧: butcher shop\n- ⟦{魚屋|さかなや}→魚屋：14642_sakanaya⟧: fish shop\n- ⟦{八百屋|やおや}→八百屋：02978_yaoya⟧: vegetable/produce shop\n- ⟦パン→パン：00553_pan⟧⟦{屋|や}→〜屋：03096_ya⟧: bakery\n\nFORMAL ALTERNATIVE:\n{花屋|はなや}さん (with さん) is the polite/friendly way to refer to a florist or flower shop. More formally: フラワー⟦ショップ→ショップ：08913_shoppu⟧.\n\nRELATED WORDS:\n- ⟦{花束|はなたば}→花束：03135_hanataba⟧: bouquet\n- ⟦{花瓶|かびん}→花瓶：02867_kabin⟧: flower vase\n- ⟦{生|い}け{花|ばな}→生け花：05409_ikebana⟧: flower arrangement (ikebana)\n- ⟦{鉢植|はちう}え→鉢植え：15062_hachiue⟧: potted plant",
   "cross_references": [
     {
       "type": "related",
@@ -76,11 +76,32 @@
       "reading": "や",
       "headword": "〜{屋|や}",
       "target_id": "03096_ya"
+    },
+    {
+      "type": "related",
+      "target_id": "02867_kabin",
+      "reading": "かびん",
+      "headword": "{花瓶|かびん}",
+      "label": "flower vase"
+    },
+    {
+      "type": "related",
+      "target_id": "05409_ikebana",
+      "reading": "いけばな",
+      "headword": "{生|い}け{花|ばな}",
+      "label": "flower arrangement"
+    },
+    {
+      "type": "related",
+      "target_id": "15062_hachiue",
+      "reading": "はちうえ",
+      "headword": "{鉢植|はちう}え",
+      "label": "potted plant"
     }
   ],
   "metadata": {
     "created": "2026-01-11T12:05:53Z",
-    "modified": "2026-08-01T12:19:09Z",
+    "modified": "2026-09-02T04:01:02Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

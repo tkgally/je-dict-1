@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26691_teban_ex1",
-      "japanese": "{次|つぎ}はあなたの{手番|てばん}です。",
+      "japanese": "⟦{次|つぎ}→次：00819_tsugi⟧⟦は→は：00079_ha⟧⟦あなた→あなた：02565_anata⟧⟦の→の：09472_no⟧{手番|てばん}です。",
       "english": "It's your turn next.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26691_teban_ex2",
-      "japanese": "{相手|あいて}の{手番|てばん}の{間|あいだ}に{作戦|さくせん}を{考|かんが}えた。",
+      "japanese": "⟦{相手|あいて}→相手：01677_aite⟧⟦の→の：09472_no⟧{手番|てばん}⟦の→の：09472_no⟧⟦{間|あいだ}→間：00914_aida⟧⟦に→に：00314_ni⟧⟦{作戦|さくせん}→作戦：09673_sakusen⟧⟦を→を：00422_wo⟧⟦{考|かんが}えた→考える：00856_kangaeru⟧。",
       "english": "I thought about my strategy during my opponent's turn.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26691_teban_ex3",
-      "japanese": "{将棋|しょうぎ}では{先手|せんて}の{手番|てばん}は{有利|ゆうり}だと{言|い}われている。",
+      "japanese": "⟦{将棋|しょうぎ}→将棋：04172_shougi⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{先手|せんて}→先手：10556_sente⟧⟦の→の：09472_no⟧{手番|てばん}⟦は→は：00079_ha⟧⟦{有利|ゆうり}→有利：03651_yuuri⟧だ⟦と→と：00512_to⟧⟦{言|い}われている→言う：00515_iu⟧。",
       "english": "In shogi, it is said that having the first turn is an advantage.",
       "sense_numbers": [
         1
@@ -44,8 +44,23 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {手|て} (hand; move) and {番|ばん} (turn; order). Most commonly used in the context of {将棋|しょうぎ} (Japanese chess) and {囲碁|いご} (go), but also applies to any turn-based game including modern board games and video games.\n\nCOMMON COLLOCATIONS:\n- {手番|てばん}が{来|く}る: for one's turn to come\n- {手番|てばん}を{渡|わた}す: to pass one's turn\n- {先手|せんて}の{手番|てばん}: the first player's turn\n- {手番|てばん}を{無駄|むだ}にする: to waste one's turn\n\nSIMILAR WORDS:\n- {番|ばん}: turn — more general; used in everyday contexts ({次|つぎ}は{私|わたし}の{番|ばん})\n- {順番|じゅんばん}: order/sequence — refers to the ordering of turns rather than a single turn\n- {先手|せんて}: first move/initiative — specifically the right to go first",
-  "cross_references": [],
+  "notes": "Composed of ⟦{手|て}→手：00569_te⟧ (hand; move) and ⟦{番|ばん}→番：09873_ban⟧ (turn; order). Most commonly used in the context of ⟦{将棋|しょうぎ}→将棋：04172_shougi⟧ (Japanese chess) and ⟦{囲碁|いご}→囲碁：18035_igo⟧ (go), but also applies to any turn-based game including modern board games and video games.\n\nCOMMON COLLOCATIONS:\n- {手番|てばん}⟦が→が：00051_ga⟧⟦{来|く}る→来る：00254_kuru⟧: for one's turn to come\n- {手番|てばん}⟦を→を：00422_wo⟧⟦{渡|わた}す→渡す：02442_watasu⟧: to pass one's turn\n- ⟦{先手|せんて}→先手：10556_sente⟧⟦の→の：09472_no⟧{手番|てばん}: the first player's turn\n- {手番|てばん}⟦を→を：00422_wo⟧⟦{無駄|むだ}→無駄：02512_muda⟧⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧: to waste one's turn\n\nSIMILAR WORDS:\n- ⟦{番|ばん}→番：09873_ban⟧: turn — more general; used in everyday contexts (⟦{次|つぎ}→次：00819_tsugi⟧⟦は→は：00079_ha⟧⟦{私|わたし}→私：02988_watashi⟧⟦の→の：09472_no⟧⟦{番|ばん}→番：09873_ban⟧)\n- ⟦{順番|じゅんばん}→順番：03283_junban⟧: order/sequence — refers to the ordering of turns rather than a single turn\n- ⟦{先手|せんて}→先手：10556_sente⟧: first move/initiative — specifically the right to go first",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03283_junban",
+      "reading": "じゅんばん",
+      "headword": "{順番|じゅんばん}",
+      "label": "order/sequence"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10556_sente",
+      "reading": "せんて",
+      "headword": "{先手|せんて}",
+      "label": "first move/initiative"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,12 +68,14 @@
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "entertainment",
         "leisure"
       ]
     },
     "created": "2026-05-04T13:52:06Z",
-    "modified": "2026-08-06T00:43:53Z"
+    "modified": "2026-09-02T04:02:27Z"
   }
 }

@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "18031_nanmon_ex1",
-      "japanese": "この{難問|なんもん}が{解|と}けない。",
+      "japanese": "⟦この→この：00962_kono⟧{難問|なんもん}⟦が→が：00051_ga⟧⟦{解|と}けない→解ける：04371_tokeru⟧。",
       "english": "I can't solve this difficult problem.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "18031_nanmon_ex2",
-      "japanese": "{試験|しけん}に{難問|なんもん}が{多|おお}くて{苦戦|くせん}した。",
+      "japanese": "⟦{試験|しけん}→試験：01422_shiken⟧⟦に→に：00314_ni⟧{難問|なんもん}⟦が→が：00051_ga⟧⟦{多|おお}くて→多い：01127_ooi⟧⟦{苦戦|くせん}→苦戦：13990_kusen⟧⟦した→する：00392_suru⟧。",
       "english": "I struggled because there were many difficult questions on the exam.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "18031_nanmon_ex3",
-      "japanese": "{少子化|しょうしか}は{日本|にほん}が{直面|ちょくめん}している{難問|なんもん}のひとつだ。",
+      "japanese": "⟦{少子化|しょうしか}→少子化：04807_shoushika⟧⟦は→は：00079_ha⟧⟦{日本|にほん}→日本：03876_nihon⟧⟦が→が：00051_ga⟧⟦{直面|ちょくめん}している→直面する：15862_chokumensuru⟧{難問|なんもん}⟦の→の：09472_no⟧ひとつだ。",
       "english": "The declining birth rate is one of the tough challenges facing Japan.",
       "sense_numbers": [
         1
@@ -43,7 +43,7 @@
       "notes": null
     }
   ],
-  "notes": "{難問|なんもん} covers both academic test questions and real-world challenges that are hard to resolve.\n\nCOMMON COLLOCATIONS:\n- {難問|なんもん}に{挑|いど}む: to tackle a tough problem\n- {難問|なんもん}を{解|と}く: to solve a difficult problem\n- {難問|なんもん}を{解決|かいけつ}する: to resolve a difficult problem\n- {難問|なんもん}{奇問|きもん}: bizarre and difficult questions (used for exams with unfairly tricky questions)\n- {難問|なんもん}に{直面|ちょくめん}する: to face a difficult problem\n\nSIMILAR WORDS:\n- {難題|なんだい}: difficult task or unreasonable demand (leans toward 'tall order')\n- {問題|もんだい}: problem/question (general, neutral difficulty)\n- {難問|なんもん} specifically emphasizes difficulty",
+  "notes": "{難問|なんもん} covers both academic test questions and real-world challenges that are hard to resolve.\n\nCOMMON COLLOCATIONS:\n- {難問|なんもん}⟦に→に：00314_ni⟧⟦{挑|いど}む→挑む：12708_idomu⟧: to tackle a tough problem\n- {難問|なんもん}⟦を→を：00422_wo⟧⟦{解|と}く→解く：02301_toku⟧: to solve a difficult problem\n- {難問|なんもん}⟦を→を：00422_wo⟧⟦{解決|かいけつ}する→解決する：17191_kaiketsusuru⟧: to resolve a difficult problem\n- {難問|なんもん}{奇問|きもん}: bizarre and difficult questions (used for exams with unfairly tricky questions)\n- {難問|なんもん}⟦に→に：00314_ni⟧⟦{直面|ちょくめん}する→直面する：15862_chokumensuru⟧: to face a difficult problem\n\nSIMILAR WORDS:\n- ⟦{難題|なんだい}→難題：16722_nandai⟧: difficult task or unreasonable demand (leans toward 'tall order')\n- ⟦{問題|もんだい}→問題：00797_mondai⟧: problem/question (general, neutral difficulty)\n- {難問|なんもん} specifically emphasizes difficulty",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -58,7 +58,7 @@
       ]
     },
     "created": "2026-03-19T12:17:20Z",
-    "modified": "2026-05-08T04:12:06Z"
+    "modified": "2026-09-02T04:01:50Z"
   },
   "cross_references": [
     {
@@ -67,6 +67,13 @@
       "reading": "なんだい",
       "headword": "{難題|なんだい}",
       "label": "difficult task, tall order"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00797_mondai",
+      "reading": "もんだい",
+      "headword": "{問題|もんだい}",
+      "label": "problem/question"
     }
   ]
 }

@@ -15,41 +15,76 @@
   "examples": [
     {
       "id": "15240_kouseiin_ex1",
-      "japanese": "{委員会|いいんかい}の{構成員|こうせいいん}は{十名|じゅうめい}だ。",
+      "japanese": "⟦{委員会|いいんかい}→委員会：12234_iinkai⟧⟦の→の：09472_no⟧{構成員|こうせいいん}⟦は→は：00079_ha⟧{十名|じゅうめい}だ。",
       "english": "The committee consists of ten members.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15240_kouseiin_ex2",
-      "japanese": "{構成員|こうせいいん}の{全員|ぜんいん}が{会議|かいぎ}に{出席|しゅっせき}した。",
+      "japanese": "{構成員|こうせいいん}⟦の→の：09472_no⟧⟦{全員|ぜんいん}→全員：03310_zenin⟧⟦が→が：00051_ga⟧⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦に→に：00314_ni⟧⟦{出席|しゅっせき}した→出席する：01830_shussekisuru⟧。",
       "english": "All members attended the meeting.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15240_kouseiin_ex3",
-      "japanese": "{国際|こくさい}チームの{構成員|こうせいいん}は{様々|さまざま}な{国籍|こくせき}の{研究者|けんきゅうしゃ}で{構成|こうせい}されている。",
+      "japanese": "⟦{国際|こくさい}→国際：01406_kokusai⟧⟦チーム→チーム：03858_chiimu⟧⟦の→の：09472_no⟧{構成員|こうせいいん}⟦は→は：00079_ha⟧⟦{様々|さまざま}→様々：01559_samazama⟧な⟦{国籍|こくせき}→国籍：02755_kokuseki⟧⟦の→の：09472_no⟧⟦{研究者|けんきゅうしゃ}→研究者：02573_kenkyuusha⟧⟦で→で：00502_de⟧⟦{構成|こうせい}→構成：02729_kousei⟧⟦されている→する：00392_suru⟧。",
       "english": "The members of the international team are made up of researchers of various nationalities.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "FORMATION: {構成|こうせい} (composition, formation) + {員|いん} (member, personnel).\n\nUSAGE: {構成員|こうせいいん} is a formal term used in official, legal, and organizational contexts. In everyday speech, メンバー or {会員|かいいん} is more common.\n\nCOMMON COLLOCATIONS:\n- {組織|そしき}の{構成員|こうせいいん}: members of an organization\n- {構成員|こうせいいん}{全員|ぜんいん}: all members\n- {構成員|こうせいいん}の{資格|しかく}: membership qualifications\n\nSIMILAR WORDS:\n- {構成員|こうせいいん}: formal term emphasizing being part of a structure\n- メンバー: member (casual loanword)\n- {会員|かいいん}: member of a club or association\n- {社員|しゃいん}: company employee/member",
-  "cross_references": [],
+  "notes": "FORMATION: ⟦{構成|こうせい}→構成：02729_kousei⟧ (composition, formation) + {員|いん} (member, personnel).\n\nUSAGE: {構成員|こうせいいん} is a formal term used in official, legal, and organizational contexts. In everyday speech, ⟦メンバー→メンバー：00275_menbaa⟧ or ⟦{会員|かいいん}→会員：02535_kaiin⟧ is more common.\n\nCOMMON COLLOCATIONS:\n- ⟦{組織|そしき}→組織：03320_soshiki⟧⟦の→の：09472_no⟧{構成員|こうせいいん}: members of an organization\n- {構成員|こうせいいん}⟦{全員|ぜんいん}→全員：03310_zenin⟧: all members\n- {構成員|こうせいいん}⟦の→の：09472_no⟧⟦{資格|しかく}→資格：02834_shikaku⟧: membership qualifications\n\nSIMILAR WORDS:\n- {構成員|こうせいいん}: formal term emphasizing being part of a structure\n- ⟦メンバー→メンバー：00275_menbaa⟧: member (casual loanword)\n- ⟦{会員|かいいん}→会員：02535_kaiin⟧: member of a club or association\n- ⟦{社員|しゃいん}→社員：03065_shain⟧: company employee/member",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00275_menbaa",
+      "reading": "めんばー",
+      "headword": "メンバー",
+      "label": "member"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02535_kaiin",
+      "reading": "かいいん",
+      "headword": "{会員|かいいん}",
+      "label": "member of a club or association"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03065_shain",
+      "reading": "しゃいん",
+      "headword": "{社員|しゃいん}",
+      "label": "company employee/member"
+    }
+  ],
   "metadata": {
     "created": "2026-03-05T10:22:33Z",
-    "modified": "2026-03-05T10:22:33Z",
+    "modified": "2026-09-02T04:01:40Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "style": ["written"],
-      "semantic": ["person", "society"]
+      "style": [
+        "written"
+      ],
+      "semantic": [
+        "person",
+        "society"
+      ]
     }
   }
 }

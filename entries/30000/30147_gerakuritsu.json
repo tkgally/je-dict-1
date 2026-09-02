@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30147_gerakuritsu_ex1",
-      "japanese": "{今月|こんげつ}の{下落率|げらくりつ}は{五|ご}パーセントだ。",
+      "japanese": "⟦{今月|こんげつ}→今月：00720_kongetsu⟧⟦の→の：09472_no⟧{下落率|げらくりつ}⟦は→は：00079_ha⟧⟦{五|ご}→五：00697_go⟧⟦パーセント→パーセント：01537_paasento⟧だ。",
       "english": "This month's rate of decline is five percent.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30147_gerakuritsu_ex2",
-      "japanese": "{株価|かぶか}の{下落率|げらくりつ}が{予想|よそう}より{大|おお}きかった。",
+      "japanese": "⟦{株価|かぶか}→株価：05154_kabuka⟧⟦の→の：09472_no⟧{下落率|げらくりつ}⟦が→が：00051_ga⟧⟦{予想|よそう}→予想：03664_yosou⟧⟦より→より：09476_yori⟧⟦{大|おお}きかった→大きい：00335_ookii⟧。",
       "english": "The rate of decline in share prices was larger than expected.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30147_gerakuritsu_ex3",
-      "japanese": "{地方|ちほう}の{地価|ちか}は{下落率|げらくりつ}が{年々|ねんねん}{縮|ちぢ}まり、{回復|かいふく}の{兆|きざ}しが{見|み}えてきた。",
+      "japanese": "⟦{地方|ちほう}→地方：02369_chihou⟧⟦の→の：09472_no⟧⟦{地価|ちか}→地価：12130_chika⟧⟦は→は：00079_ha⟧{下落率|げらくりつ}⟦が→が：00051_ga⟧⟦{年々|ねんねん}→年々：10417_nennen⟧⟦{縮|ちぢ}まり→縮まる：18725_chijimaru⟧、⟦{回復|かいふく}→回復：03812_kaifuku⟧⟦の→の：09472_no⟧⟦{兆|きざ}し→兆し：06633_kizashi⟧⟦が→が：00051_ga⟧⟦{見|み}えて→見える：01165_mieru⟧きた。",
       "english": "The rate of decline in rural land prices has narrowed year by year, and signs of recovery are appearing.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "{下落|げらく} (fall, drop) + {率|りつ} (rate, ratio). Standard vocabulary in financial and economic news, normally quoted against the previous month or year.\n\nCOMMON COLLOCATIONS:\n- {株価|かぶか}の{下落率|げらくりつ}: the rate of decline in share prices\n- {下落率|げらくりつ}が{大|おお}きい: to have a steep rate of decline\n- {前年比|ぜんねんひ}の{下落率|げらくりつ}: the year-on-year rate of decline\n\nSIMILAR WORDS:\n- {上昇率|じょうしょうりつ}: rate of increase — the direct opposite\n- {下落幅|げらくはば}: extent of the fall — the absolute amount, not a percentage",
+  "notes": "⟦{下落|げらく}→下落：11321_geraku⟧ (fall, drop) + ⟦{率|りつ}→率：03802_ritsu⟧ (rate, ratio). Standard vocabulary in financial and economic news, normally quoted against the previous month or year.\n\nCOMMON COLLOCATIONS:\n- ⟦{株価|かぶか}→株価：05154_kabuka⟧⟦の→の：09472_no⟧{下落率|げらくりつ}: the rate of decline in share prices\n- {下落率|げらくりつ}⟦が→が：00051_ga⟧⟦{大|おお}きい→大きい：00335_ookii⟧: to have a steep rate of decline\n- {前年比|ぜんねんひ}⟦の→の：09472_no⟧{下落率|げらくりつ}: the year-on-year rate of decline\n\nSIMILAR WORDS:\n- ⟦{上昇率|じょうしょうりつ}→上昇率：30143_joushouritsu⟧: rate of increase — the direct opposite\n- ⟦{下落幅|げらくはば}→下落幅：30175_gerakuhaba⟧: extent of the fall — the absolute amount, not a percentage",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "30143_joushouritsu",
+      "reading": "じょうしょうりつ",
+      "headword": "{上昇率|じょうしょうりつ}",
+      "label": "rate of increase"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30175_gerakuhaba",
+      "reading": "げらくはば",
+      "headword": "下落幅",
+      "label": "extent of the fall"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27033_genshouritsu",
+      "reading": "げんしょうりつ",
+      "headword": "{減少率|げんしょうりつ}",
+      "label": "rate of decrease"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +76,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "economics",
         "quantity"
@@ -63,6 +86,6 @@
       ]
     },
     "created": "2026-07-27T03:18:27Z",
-    "modified": "2026-07-27T03:18:27Z"
+    "modified": "2026-09-02T04:02:38Z"
   }
 }

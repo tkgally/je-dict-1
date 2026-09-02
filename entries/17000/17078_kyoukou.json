@@ -15,42 +15,83 @@
   "examples": [
     {
       "id": "17078_kyoukou_ex1",
-      "japanese": "{凶行|きょうこう}に{及|およ}んだ{動機|どうき}は{不明|ふめい}だ。",
+      "japanese": "{凶行|きょうこう}⟦に→に：00314_ni⟧⟦{及|およ}んだ→及ぶ：01921_oyobu⟧⟦{動機|どうき}→動機：16028_douki⟧⟦は→は：00079_ha⟧⟦{不明|ふめい}→不明：11352_fumei⟧だ。",
       "english": "The motive for the violent act is unknown.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17078_kyoukou_ex2",
-      "japanese": "{容疑者|ようぎしゃ}は{白昼|はくちゅう}の{凶行|きょうこう}で{逮捕|たいほ}された。",
+      "japanese": "⟦{容疑者|ようぎしゃ}→容疑者：15039_yougisha⟧⟦は→は：00079_ha⟧⟦{白昼|はくちゅう}→白昼：23777_hakuchuu⟧⟦の→の：09472_no⟧{凶行|きょうこう}⟦で→で：00502_de⟧⟦{逮捕|たいほ}→逮捕：03397_taiho⟧⟦された→する：00392_suru⟧。",
       "english": "The suspect was arrested for the violent act committed in broad daylight.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17078_kyoukou_ex3",
-      "japanese": "{二度|にど}とこのような{凶行|きょうこう}が{繰|く}り{返|かえ}されないよう、{対策|たいさく}が{必要|ひつよう}だ。",
+      "japanese": "⟦{二度|にど}と→二度と：06482_nidoto⟧⟦この→この：00962_kono⟧ような{凶行|きょうこう}⟦が→が：00051_ga⟧⟦{繰|く}り{返|かえ}されない→繰り返す：02051_kurikaesu⟧よう、⟦{対策|たいさく}→対策：02511_taisaku⟧⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧だ。",
       "english": "Measures are needed to ensure that such a violent act is never repeated.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nPrimarily a news and legal term. Describes serious violent crimes, especially murder. Formal and dramatic in tone.\n\nCOMMON COLLOCATIONS:\n- {凶行|きょうこう}に{及|およ}ぶ (to commit a violent act)\n- {凶行|きょうこう}の{動機|どうき} (motive for the crime)\n- {凶行|きょうこう}{現場|げんば} (crime scene)\n\nSIMILAR WORDS:\n- {犯行|はんこう}: criminal act — more neutral, covers all types of crime\n- {殺人|さつじん}: murder — specifically killing, while {凶行|きょうこう} can include non-fatal violence\n- {強行|きょうこう}: forced action — identical pronunciation but means to push through forcefully, not violent crime",
-  "cross_references": [],
+  "notes": "USAGE:\nPrimarily a news and legal term. Describes serious violent crimes, especially murder. Formal and dramatic in tone.\n\nCOMMON COLLOCATIONS:\n- {凶行|きょうこう}⟦に→に：00314_ni⟧⟦{及|およ}ぶ→及ぶ：01921_oyobu⟧ (to commit a violent act)\n- {凶行|きょうこう}⟦の→の：09472_no⟧⟦{動機|どうき}→動機：16028_douki⟧ (motive for the crime)\n- {凶行|きょうこう}⟦{現場|げんば}→現場：02723_genba⟧ (crime scene)\n\nSIMILAR WORDS:\n- ⟦{犯行|はんこう}→犯行：13472_hankou⟧: criminal act — more neutral, covers all types of crime\n- ⟦{殺人|さつじん}→殺人：13236_satsujin⟧: murder — specifically killing, while {凶行|きょうこう} can include non-fatal violence\n- ⟦{強行|きょうこう}→強行：12559_kyoukou⟧: forced action — identical pronunciation but means to push through forcefully, not violent crime",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13472_hankou",
+      "reading": "はんこう",
+      "headword": "{犯行|はんこう}",
+      "label": "criminal act"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13236_satsujin",
+      "reading": "さつじん",
+      "headword": "{殺人|さつじん}",
+      "label": "murder"
+    },
+    {
+      "type": "homophone",
+      "target_id": "12559_kyoukou",
+      "reading": "きょうこう",
+      "headword": "{強行|きょうこう}",
+      "label": "forced action"
+    },
+    {
+      "type": "related",
+      "target_id": "08002_bankou",
+      "reading": "ばんこう",
+      "headword": "{蛮行|ばんこう}",
+      "label": "barbaric act"
+    }
+  ],
   "metadata": {
     "created": "2026-03-15T09:52:17Z",
-    "modified": "2026-03-15T09:52:17Z",
+    "modified": "2026-09-02T04:01:47Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["action"],
-      "domain": ["legal"]
+      "semantic": [
+        "action"
+      ],
+      "domain": [
+        "legal"
+      ]
     }
   }
 }

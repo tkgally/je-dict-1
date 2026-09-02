@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "09787_shinnen_ex1",
-      "japanese": "{新年|しんねん}{明|あ}けましておめでとうございます。",
+      "japanese": "{新年|しんねん}⟦{明|あ}けまして→明ける：21288_akeru⟧⟦おめでとう→おめでとう：01043_omedetou⟧⟦ございます→ございます：01300_gozaimasu⟧。",
       "english": "Happy New Year!",
       "has_audio": false,
       "sense_numbers": [
@@ -23,7 +23,7 @@
     },
     {
       "id": "09787_shinnen_ex2",
-      "japanese": "{新年|しんねん}⟦を→を：00422_wo⟧{迎|むか}える。",
+      "japanese": "{新年|しんねん}⟦を→を：00422_wo⟧⟦{迎|むか}える→迎える：01193_mukaeru⟧。",
       "english": "To welcome the New Year.",
       "has_audio": false,
       "sense_numbers": [
@@ -32,7 +32,7 @@
     },
     {
       "id": "09787_shinnen_ex3",
-      "japanese": "{新年|しんねん}⟦の→の：09472_no⟧{抱負|ほうふ}⟦を→を：00422_wo⟧{語|かた}る。",
+      "japanese": "{新年|しんねん}⟦の→の：09472_no⟧⟦{抱負|ほうふ}→抱負：18473_houfu⟧⟦を→を：00422_wo⟧⟦{語|かた}る→語る：01930_kataru⟧。",
       "english": "To talk about New Year's resolutions.",
       "has_audio": false,
       "sense_numbers": [
@@ -40,10 +40,10 @@
       ]
     }
   ],
-  "notes": "{新年|しんねん} refers to the New Year, one of the most important holidays in Japan.\n\nCOMMON EXPRESSIONS:\n- {新年|しんねん}{明|あ}けましておめでとうございます: Happy New Year (formal greeting)\n- {新年|しんねん}を{迎|むか}える: to welcome the New Year\n- {新年|しんねん}の{挨拶|あいさつ}: New Year's greetings\n- {新年会|しんねんかい}: New Year's party\n\nRELATED TERMS:\n- {正月|しょうがつ}: New Year (especially Jan 1-3)\n- {年賀状|ねんがじょう}: New Year's card\n- {初詣|はつもうで}: first shrine visit of the year\n\nNOTE: Do not confuse with {信念|しんねん} (conviction, belief), which has the same reading.",
+  "notes": "{新年|しんねん} refers to the New Year, one of the most important holidays in Japan.\n\nCOMMON EXPRESSIONS:\n- {新年|しんねん}⟦{明|あ}けまして→明ける：21288_akeru⟧⟦おめでとう→おめでとう：01043_omedetou⟧⟦ございます→ございます：01300_gozaimasu⟧: Happy New Year (formal greeting)\n- {新年|しんねん}⟦を→を：00422_wo⟧⟦{迎|むか}える→迎える：01193_mukaeru⟧: to welcome the New Year\n- {新年|しんねん}⟦の→の：09472_no⟧⟦{挨拶|あいさつ}→挨拶：02505_aisatsu⟧: New Year's greetings\n- ⟦{新年会|しんねんかい}→新年会：20392_shinnenkai⟧: New Year's party\n\nRELATED WORDS:\n- ⟦{正月|しょうがつ}→正月：01433_shougatsu⟧: New Year (especially Jan 1-3)\n- ⟦{年賀状|ねんがじょう}→年賀状：06227_nengajou⟧: New Year's card\n- ⟦{初詣|はつもうで}→初詣：05804_hatsumoude⟧: first shrine visit of the year\n\nNOTE: Do not confuse with ⟦{信念|しんねん}→信念：03074_shinnen⟧ (conviction, belief), which has the same reading.",
   "metadata": {
     "created": "2026-02-03T11:36:14Z",
-    "modified": "2026-02-03T11:36:14Z",
+    "modified": "2026-09-02T04:01:19Z",
     "ai_model": "claude-opus-4-5-20251101",
     "vocabulary_tier": "general",
     "tags": {
@@ -71,6 +71,20 @@
       "reading": "ねんがじょう",
       "headword": "{年賀状|ねんがじょう}",
       "label": "New Year's card"
+    },
+    {
+      "type": "related",
+      "target_id": "05804_hatsumoude",
+      "reading": "はつもうで",
+      "headword": "{初詣|はつもうで}",
+      "label": "first shrine visit of the year"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21721_nentou",
+      "reading": "ねんとう",
+      "headword": "{年頭|ねんとう}",
+      "label": "beginning of the year"
     }
   ],
   "prominent_see_also": [

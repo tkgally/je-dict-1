@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "15473_shiryobukai_ex1",
-      "japanese": "{彼女|かのじょ}は{思慮深|しりょぶか}い{人|ひと}だ。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧{思慮深|しりょぶか}い⟦{人|ひと}→人：00476_hito⟧だ。",
       "english": "She is a thoughtful person.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "15473_shiryobukai_ex2",
-      "japanese": "{思慮深|しりょぶか}い{判断|はんだん}のおかげで{問題|もんだい}を{避|さ}けられた。",
+      "japanese": "{思慮深|しりょぶか}い⟦{判断|はんだん}→判断：03571_handan⟧⟦の→の：09472_no⟧⟦おかげ→おかげ：01362_okage⟧⟦で→で：00502_de⟧⟦{問題|もんだい}→問題：00797_mondai⟧⟦を→を：00422_wo⟧⟦{避|さ}けられた→避ける：02109_sakeru⟧。",
       "english": "Thanks to a prudent decision, we were able to avoid the problem.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "15473_shiryobukai_ex3",
-      "japanese": "リーダーには{思慮深|しりょぶか}く{行動|こうどう}する{能力|のうりょく}が{求|もと}められる。",
+      "japanese": "⟦リーダー→リーダー：24312_riidaa⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{思慮深|しりょぶか}く⟦{行動|こうどう}→行動：02728_koudou⟧⟦する→する：00392_suru⟧⟦{能力|のうりょく}→能力：03541_nouryoku⟧⟦が→が：00051_ga⟧⟦{求|もと}められる→求める：02316_motomeru⟧。",
       "english": "Leaders are expected to have the ability to act thoughtfully.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,19 @@
       ]
     }
   ],
-  "notes": "FORMATION:\nCompound adjective from {思慮|しりょ} (thought, deliberation) + {深|ふか}い (deep). The reading uses sequential voicing (rendaku): ふかい → ぶかい.\n\nUSAGE:\nA formal, written-style adjective used as praise for someone's careful, measured character. Often describes leaders, mentors, or wise individuals.\n\nCOMMON COLLOCATIONS:\n- {思慮深|しりょぶか}い{人|ひと} (a thoughtful person)\n- {思慮深|しりょぶか}い{判断|はんだん} (a prudent judgment)\n- {思慮深|しりょぶか}く{行動|こうどう}する (to act thoughtfully)\n\nCONTRAST:\n{思慮|しりょ}が{浅|あさ}い describes the opposite — being shallow in thought or rash.",
-  "cross_references": [],
+  "notes": "FORMS:\nCompound adjective from ⟦{思慮|しりょ}→思慮：25316_shiryo⟧ (thought, deliberation) + ⟦{深|ふか}い→深い：01211_fukai⟧ (deep). The reading uses sequential voicing (rendaku): ふかい → ぶかい.\n\nUSAGE:\nA formal, written-style adjective used as praise for someone's careful, measured character. Often describes leaders, mentors, or wise individuals.\n\nCOMMON COLLOCATIONS:\n- {思慮深|しりょぶか}い⟦{人|ひと}→人：00476_hito⟧ (a thoughtful person)\n- {思慮深|しりょぶか}い⟦{判断|はんだん}→判断：03571_handan⟧ (a prudent judgment)\n- {思慮深|しりょぶか}く⟦{行動|こうどう}→行動：02728_koudou⟧⟦する→する：00392_suru⟧ (to act thoughtfully)\n\nSIMILAR WORDS:\n⟦{思慮|しりょ}→思慮：25316_shiryo⟧⟦が→が：00051_ga⟧⟦{浅|あさ}い→浅い：01274_asai⟧ describes the opposite — being shallow in thought or rash.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25721_mushiryo",
+      "reading": "むしりょ",
+      "headword": "{無思慮|むしりょ}",
+      "label": "thoughtlessness"
+    }
+  ],
   "metadata": {
     "created": "2026-03-07T08:54:41Z",
-    "modified": "2026-03-07T08:54:41Z",
+    "modified": "2026-09-02T04:01:41Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

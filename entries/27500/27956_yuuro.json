@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "27956_yuuro_ex1",
-      "japanese": "{円|えん}をユーロに{両替|りょうがえ}する。",
+      "japanese": "⟦{円|えん}→円：00774_en⟧⟦を→を：00422_wo⟧ユーロ⟦に→に：00314_ni⟧⟦{両替|りょうがえ}→両替：03680_ryougae⟧⟦する→する：00392_suru⟧。",
       "english": "I exchange yen for euros.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "27956_yuuro_ex2",
-      "japanese": "このバッグは{二百|にひゃく}ユーロもした。",
+      "japanese": "⟦この→この：00962_kono⟧⟦バッグ→バッグ：00008_baggu⟧⟦は→は：00079_ha⟧{二百|にひゃく}ユーロもした。",
       "english": "This bag cost as much as 200 euros.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "27956_yuuro_ex3",
-      "japanese": "ユーロの{為替|かわせ}レートは{毎日|まいにち}{変動|へんどう}している。",
+      "japanese": "ユーロ⟦の→の：09472_no⟧⟦{為替|かわせ}レート→為替レート：23524_kawasereeto⟧⟦は→は：00079_ha⟧⟦{毎日|まいにち}→毎日：00729_mainichi⟧⟦{変動|へんどう}→変動：09936_hendou⟧⟦している→する：00392_suru⟧。",
       "english": "The euro exchange rate fluctuates every day.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Used as a counter for amounts of money: {十|じゅう}ユーロ (10 euros).\n\nCOMMON COLLOCATIONS:\n- ユーロに{両替|りょうがえ}する: to change money into euros\n- ユーロ{建|だ}て: euro-denominated\n- ユーロ{安|やす}・ユーロ{高|だか}: a weak / strong euro\n\nSIMILAR WORDS:\n- ドル: dollar\n- ポンド: British pound",
+  "notes": "Used as a counter for amounts of money: ⟦{十|じゅう}→十：00708_juu⟧ユーロ (10 euros).\n\nCOMMON COLLOCATIONS:\n- ユーロ⟦に→に：00314_ni⟧⟦{両替|りょうがえ}→両替：03680_ryougae⟧⟦する→する：00392_suru⟧: to change money into euros\n- ユーロ{建|だ}て: euro-denominated\n- ユーロ{安|やす}・ユーロ{高|だか}: a weak / strong euro\n\nSIMILAR WORDS:\n- ⟦ドル→ドル：01554_doru⟧: dollar\n- ⟦ポンド→ポンド：27957_pondo⟧: British pound",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01554_doru",
+      "reading": "どる",
+      "headword": "ドル",
+      "label": "dollar"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27957_pondo",
+      "reading": "ぽんど",
+      "headword": "ポンド",
+      "label": "British pound"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27455_nipponen",
+      "reading": "にっぽんえん",
+      "headword": "{日本円|にっぽんえん}",
+      "label": "Japanese yen"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,6 +85,6 @@
       ]
     },
     "created": "2026-05-23T04:06:38Z",
-    "modified": "2026-05-23T04:06:38Z"
+    "modified": "2026-09-02T04:02:32Z"
   }
 }

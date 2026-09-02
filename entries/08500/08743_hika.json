@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08743_hika_ex1",
-      "japanese": "{皮下|ひか}{注射|ちゅうしゃ}をする。",
+      "japanese": "{皮下|ひか}⟦{注射|ちゅうしゃ}→注射：01665_chuusha⟧⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧。",
       "english": "To give a subcutaneous injection.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "08743_hika_ex2",
-      "japanese": "{皮下|ひか}{脂肪|しぼう}を{減|へ}らしたい。",
+      "japanese": "{皮下|ひか}⟦{脂肪|しぼう}→脂肪：03199_shibou⟧⟦を→を：00422_wo⟧⟦{減|へ}らしたい→減らす：02414_herasu⟧。",
       "english": "I want to reduce my subcutaneous fat.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "08743_hika_ex3",
-      "japanese": "{皮下|ひか}{組織|そしき}に{炎症|えんしょう}が{起|お}きている。",
+      "japanese": "{皮下|ひか}⟦{組織|そしき}→組織：03320_soshiki⟧⟦に→に：00314_ni⟧⟦{炎症|えんしょう}→炎症：05978_enshou⟧⟦が→が：00051_ga⟧⟦{起|お}きている→起きる：00521_okiru⟧。",
       "english": "Inflammation is occurring in the subcutaneous tissue.",
       "sense_numbers": [
         1
@@ -43,7 +43,7 @@
       "notes": null
     }
   ],
-  "notes": "MEDICAL TERMS:\n- {皮下|ひか}{注射|ちゅうしゃ} - subcutaneous injection\n- {皮下|ひか}{脂肪|しぼう} - subcutaneous fat\n- {皮下|ひか}{組織|そしき} - subcutaneous tissue\n- {皮下|ひか}{出血|しゅっけつ} - subcutaneous hemorrhage\n\nCONTRAST WITH OTHER INJECTION TYPES:\n- {皮下|ひか}{注射|ちゅうしゃ} - subcutaneous injection\n- {筋肉|きんにく}{注射|ちゅうしゃ} - intramuscular injection\n- {静脈|じょうみゃく}{注射|ちゅうしゃ} - intravenous injection\n\nBODY FAT TYPES:\n- {皮下|ひか}{脂肪|しぼう} - subcutaneous fat (under the skin)\n- {内臓|ないぞう}{脂肪|しぼう} - visceral fat (around organs)",
+  "notes": "MEDICAL TERMS:\n- {皮下|ひか}⟦{注射|ちゅうしゃ}→注射：01665_chuusha⟧ - subcutaneous injection\n- {皮下|ひか}⟦{脂肪|しぼう}→脂肪：03199_shibou⟧ - subcutaneous fat\n- {皮下|ひか}⟦{組織|そしき}→組織：03320_soshiki⟧ - subcutaneous tissue\n- {皮下|ひか}⟦{出血|しゅっけつ}→出血：11735_shukketsu⟧ - subcutaneous hemorrhage\n\nCONTRAST WITH OTHER INJECTION TYPES:\n- {皮下|ひか}⟦{注射|ちゅうしゃ}→注射：01665_chuusha⟧ - subcutaneous injection\n- ⟦{筋肉|きんにく}→筋肉：02646_kinniku⟧⟦{注射|ちゅうしゃ}→注射：01665_chuusha⟧ - intramuscular injection\n- ⟦{静脈|じょうみゃく}{注射|ちゅうしゃ}→静脈注射：24680_joumyakuchuusha⟧ - intravenous injection\n\nBODY FAT TYPES:\n- {皮下|ひか}⟦{脂肪|しぼう}→脂肪：03199_shibou⟧ - subcutaneous fat (under the skin)\n- ⟦{内臓|ないぞう}{脂肪|しぼう}→内臓脂肪：08626_naizoushibou⟧ - visceral fat (around organs)",
   "cross_references": [
     {
       "type": "related",
@@ -58,6 +58,13 @@
       "reading": "ひふ",
       "headword": "{皮膚|ひふ}",
       "label": "skin"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24680_joumyakuchuusha",
+      "reading": "じょうみゃくちゅうしゃ",
+      "headword": "{静脈注射|じょうみゃくちゅうしゃ}",
+      "label": "intravenous injection"
     }
   ],
   "metadata": {
@@ -66,12 +73,14 @@
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "health",
         "body-part"
       ]
     },
     "created": "2026-01-28T03:35:56Z",
-    "modified": "2026-08-12T12:52:42Z"
+    "modified": "2026-09-02T04:01:16Z"
   }
 }

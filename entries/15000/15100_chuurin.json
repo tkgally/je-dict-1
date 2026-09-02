@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "15100_chuurin_ex1",
-      "japanese": "ここは{駐輪|ちゅうりん}{禁止|きんし}です。",
+      "japanese": "⟦ここ→ここ：00961_koko⟧⟦は→は：00079_ha⟧{駐輪|ちゅうりん}⟦{禁止|きんし}→禁止：02643_kinshi⟧です。",
       "english": "Bicycle parking is prohibited here.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "15100_chuurin_ex2",
-      "japanese": "{駅|えき}の{近|ちか}くに{駐輪場|ちゅうりんじょう}がある。",
+      "japanese": "⟦{駅|えき}→駅：02180_eki⟧⟦の→の：09472_no⟧{近|ちか}く⟦に→に：00314_ni⟧⟦{駐輪場|ちゅうりんじょう}→駐輪場：09240_chuurinjou⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There is a bicycle parking area near the station.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "15100_chuurin_ex3",
-      "japanese": "{違法|いほう}{駐輪|ちゅうりん}が{問題|もんだい}になっていて、{撤去|てっきょ}される{自転車|じてんしゃ}が{増|ふ}えている。",
+      "japanese": "⟦{違法|いほう}→違法：09687_ihou⟧{駐輪|ちゅうりん}⟦が→が：00051_ga⟧⟦{問題|もんだい}→問題：00797_mondai⟧になって⟦いて→いる：00495_iru⟧、⟦{撤去|てっきょ}される→撤去する：21321_tekkyosuru⟧⟦{自転車|じてんしゃ}→自転車：00633_jitensha⟧⟦が→が：00051_ga⟧⟦{増|ふ}えている→増える：01183_fueru⟧。",
       "english": "Illegal bicycle parking has become a problem, and more bicycles are being removed.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,26 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{駐輪|ちゅうりん} is commonly seen on signs and in official notices. It parallels {駐車|ちゅうしゃ} (car parking) in structure.\n\nCOMMON COLLOCATIONS:\n- {駐輪場|ちゅうりんじょう} (bicycle parking lot)\n- {駐輪|ちゅうりん}{禁止|きんし} (no bicycle parking)\n- {違法|いほう}{駐輪|ちゅうりん} (illegal bicycle parking)\n- {駐輪|ちゅうりん}スペース (bicycle parking space)\n\nSIMILAR WORDS:\n{駐車|ちゅうしゃ} means car parking and follows the same pattern ({駐|ちゅう} + vehicle type).",
-  "cross_references": [],
+  "notes": "USAGE:\n{駐輪|ちゅうりん} is commonly seen on signs and in official notices. It parallels ⟦{駐車|ちゅうしゃ}→駐車：01466_chuusha⟧ (car parking) in structure.\n\nCOMMON COLLOCATIONS:\n- ⟦{駐輪場|ちゅうりんじょう}→駐輪場：09240_chuurinjou⟧ (bicycle parking lot)\n- {駐輪|ちゅうりん}⟦{禁止|きんし}→禁止：02643_kinshi⟧ (no bicycle parking)\n- ⟦{違法|いほう}→違法：09687_ihou⟧{駐輪|ちゅうりん} (illegal bicycle parking)\n- {駐輪|ちゅうりん}⟦スペース→スペース：11049_supeesu⟧ (bicycle parking space)\n\nSIMILAR WORDS:\n⟦{駐車|ちゅうしゃ}→駐車：01466_chuusha⟧ means car parking and follows the same pattern ({駐|ちゅう} + vehicle type).",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "01466_chuusha",
+      "reading": "ちゅうしゃ",
+      "headword": "{駐車|ちゅうしゃ}",
+      "label": "parking"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22431_chuushasuru",
+      "reading": "ちゅうしゃする",
+      "headword": "{駐車|ちゅうしゃ}する",
+      "label": "to park (a vehicle)"
+    }
+  ],
   "metadata": {
     "created": "2026-03-05T06:54:27Z",
-    "modified": "2026-03-29T03:08:43Z",
+    "modified": "2026-09-02T04:01:40Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

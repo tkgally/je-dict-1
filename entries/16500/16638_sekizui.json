@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "16638_sekizui_ex1",
-      "japanese": "{脊髄|せきずい}を{損傷|そんしょう}した。",
+      "japanese": "{脊髄|せきずい}⟦を→を：00422_wo⟧⟦{損傷|そんしょう}→損傷：21079_sonshou⟧⟦した→する：00392_suru⟧。",
       "english": "The spinal cord was damaged.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "16638_sekizui_ex2",
-      "japanese": "{脊髄|せきずい}は{脳|のう}からの{信号|しんごう}を{全身|ぜんしん}に{伝|つた}える。",
+      "japanese": "{脊髄|せきずい}⟦は→は：00079_ha⟧⟦{脳|のう}→脳：03537_nou⟧⟦から→から：00504_kara⟧⟦の→の：09472_no⟧⟦{信号|しんごう}→信号：03258_shingou⟧⟦を→を：00422_wo⟧⟦{全身|ぜんしん}→全身：03313_zenshin⟧⟦に→に：00314_ni⟧⟦{伝|つた}える→伝える：01220_tsutaeru⟧。",
       "english": "The spinal cord transmits signals from the brain to the entire body.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "16638_sekizui_ex3",
-      "japanese": "{脊髄|せきずい}{損傷|そんしょう}による{麻痺|まひ}の{治療法|ちりょうほう}が{研究|けんきゅう}されている。",
+      "japanese": "{脊髄|せきずい}⟦{損傷|そんしょう}→損傷：21079_sonshou⟧⟦による→による：28349_niyoru⟧⟦{麻痺|まひ}→麻痺：09013_mahi⟧⟦の→の：09472_no⟧⟦{治療法|ちりょうほう}→治療法：27941_chiryouhou⟧⟦が→が：00051_ga⟧⟦{研究|けんきゅう}→研究：01396_kenkyuu⟧⟦されている→する：00392_suru⟧。",
       "english": "Treatment methods for paralysis caused by spinal cord injuries are being researched.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA medical term. The internet slang phrase {脊髄反射|せきずいはんしゃ} (spinal reflex) is sometimes used figuratively to mean responding without thinking.\n\nCOMMON COLLOCATIONS:\n- {脊髄|せきずい}{損傷|そんしょう} (spinal cord injury)\n- {脊髄|せきずい}{反射|はんしゃ} (spinal reflex)\n- {脊髄|せきずい}{液|えき} (spinal fluid)\n- {脊髄|せきずい}{神経|しんけい} (spinal nerve)\n\nSIMILAR WORDS:\n- {脊椎|せきつい}: spine, vertebral column (the bones)\n- {脊柱|せきちゅう}: spinal column",
+  "notes": "USAGE:\nA medical term. The internet slang phrase {脊髄反射|せきずいはんしゃ} (spinal reflex) is sometimes used figuratively to mean responding without thinking.\n\nCOMMON COLLOCATIONS:\n- {脊髄|せきずい}⟦{損傷|そんしょう}→損傷：21079_sonshou⟧ (spinal cord injury)\n- {脊髄|せきずい}⟦{反射|はんしゃ}→反射：08390_hansha⟧ (spinal reflex)\n- {脊髄|せきずい}⟦{液|えき}→液：02270_eki⟧ (spinal fluid)\n- {脊髄|せきずい}⟦{神経|しんけい}→神経：03257_shinkei⟧ (spinal nerve)\n\nSIMILAR WORDS:\n- ⟦{脊椎|せきつい}→脊椎：06006_sekitsui⟧: spine, vertebral column (the bones)\n- {脊柱|せきちゅう}: spinal column",
   "cross_references": [
     {
       "type": "related",
@@ -52,11 +52,18 @@
       "reading": "せきつい",
       "headword": "{脊椎|せきつい}",
       "label": "spine (bones)"
+    },
+    {
+      "type": "related",
+      "target_id": "23223_chuusuushinkei",
+      "reading": "ちゅうすうしんけい",
+      "headword": "{中枢神経|ちゅうすうしんけい}",
+      "label": "central nervous system"
     }
   ],
   "metadata": {
     "created": "2026-03-14T01:36:58Z",
-    "modified": "2026-07-20T13:24:52Z",
+    "modified": "2026-09-02T04:01:45Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

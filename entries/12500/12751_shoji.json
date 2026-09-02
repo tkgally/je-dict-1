@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "12751_shoji_ex1",
-      "japanese": "{身分|みぶん}{証明書|しょうめいしょ}を{所持|しょじ}している。",
+      "japanese": "⟦{身分|みぶん}{証明書|しょうめいしょ}→身分証明書：09809_mibunshoumeisho⟧⟦を→を：00422_wo⟧{所持|しょじ}⟦している→する：00392_suru⟧。",
       "english": "I have identification on me.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "12751_shoji_ex2",
-      "japanese": "{所持|しょじ}{品|ひん}を{検査|けんさ}させてください。",
+      "japanese": "{所持|しょじ}{品|ひん}⟦を→を：00422_wo⟧⟦{検査|けんさ}→検査：02707_kensa⟧⟦させて→する：00392_suru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please let us inspect your belongings.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "12751_shoji_ex3",
-      "japanese": "{違法|いほう}な{薬物|やくぶつ}を{所持|しょじ}していた{容疑|ようぎ}で{逮捕|たいほ}された。",
+      "japanese": "⟦{違法|いほう}→違法：09687_ihou⟧な⟦{薬物|やくぶつ}→薬物：14053_yakubutsu⟧⟦を→を：00422_wo⟧{所持|しょじ}⟦していた→する：00392_suru⟧⟦{容疑|ようぎ}→容疑：12317_yougi⟧⟦で→で：00502_de⟧⟦{逮捕|たいほ}→逮捕：03397_taiho⟧⟦された→する：00392_suru⟧。",
       "english": "He was arrested on suspicion of possessing illegal drugs.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "{所持|しょじ} means to possess or carry something, typically in formal or legal contexts. It implies having something physically on one's person.\n\nPATTERN:\n- 〜を{所持|しょじ}する: to possess, to carry ~\n\nCOMMON COLLOCATIONS:\n- {所持|しょじ}{品|ひん}: personal belongings, items on one's person\n- {所持|しょじ}{金|きん}: money on hand, cash carried\n- {銃|じゅう}を{所持|しょじ}する: to carry a gun\n- {不法|ふほう}{所持|しょじ}: illegal possession\n\nSIMILAR WORDS:\n- {所有|しょゆう}: ownership (broader, includes property and rights)\n- {持|も}つ: to have, to hold (everyday word)",
+  "notes": "{所持|しょじ} means to possess or carry something, typically in formal or legal contexts. It implies having something physically on one's person.\n\nCOMMON PATTERNS:\n- 〜⟦を→を：00422_wo⟧{所持|しょじ}⟦する→する：00392_suru⟧: to possess, to carry ~\n\nCOMMON COLLOCATIONS:\n- {所持|しょじ}{品|ひん}: personal belongings, items on one's person\n- {所持|しょじ}{金|きん}: money on hand, cash carried\n- ⟦{銃|じゅう}→銃：10463_juu⟧⟦を→を：00422_wo⟧{所持|しょじ}⟦する→する：00392_suru⟧: to carry a gun\n- ⟦{不法|ふほう}→不法：11361_fuhou⟧{所持|しょじ}: illegal possession\n\nSIMILAR WORDS:\n- ⟦{所有|しょゆう}→所有：12752_shoyuu⟧: ownership (broader, includes property and rights)\n- ⟦{持|も}つ→持つ：00478_motsu⟧: to have, to hold (everyday word)",
   "cross_references": [
     {
       "type": "contrast",
@@ -142,11 +142,39 @@
       "reading": "しょゆう",
       "headword": "{所有|しょゆう}",
       "label": "ownership (broader, includes rights)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00478_motsu",
+      "reading": "もつ",
+      "headword": "{持|も}つ",
+      "label": "to have, to hold"
+    },
+    {
+      "type": "related",
+      "target_id": "07433_temochi",
+      "reading": "てもち",
+      "headword": "{手持|ても}ち",
+      "label": "on hand"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11615_hoyuu",
+      "reading": "ほゆう",
+      "headword": "{保有|ほゆう}",
+      "label": "possession"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21144_keitaisuru",
+      "reading": "けいたいする",
+      "headword": "{携帯|けいたい}する",
+      "label": "to carry"
     }
   ],
   "metadata": {
     "created": "2026-02-22T10:00:38Z",
-    "modified": "2026-04-27T08:29:13Z",
+    "modified": "2026-09-02T04:01:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -162,7 +190,8 @@
       "semantic": [
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

@@ -15,40 +15,72 @@
   "examples": [
     {
       "id": "11861_sokuza_ex1",
-      "japanese": "{即座|そくざ}に{返事|へんじ}をした。",
+      "japanese": "{即座|そくざ}⟦に→に：00314_ni⟧⟦{返事|へんじ}→返事：00844_henji⟧⟦を→を：00422_wo⟧⟦した→する：00392_suru⟧。",
       "english": "I replied immediately.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11861_sokuza_ex2",
-      "japanese": "{彼|かれ}は{質問|しつもん}に{即座|そくざ}に{答|こた}えた。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{質問|しつもん}→質問：00888_shitsumon⟧⟦に→に：00314_ni⟧{即座|そくざ}⟦に→に：00314_ni⟧⟦{答|こた}えた→答える：01099_kotaeru⟧。",
       "english": "He answered the question on the spot.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11861_sokuza_ex3",
-      "japanese": "{問題|もんだい}が{発覚|はっかく}し、{即座|そくざ}に{対策|たいさく}が{取|と}られた。",
+      "japanese": "⟦{問題|もんだい}→問題：00797_mondai⟧⟦が→が：00051_ga⟧⟦{発覚|はっかく}→発覚：07629_hakkaku⟧し、{即座|そくざ}⟦に→に：00314_ni⟧⟦{対策|たいさく}→対策：02511_taisaku⟧⟦が→が：00051_ga⟧⟦{取|と}られた→取る：00565_toru⟧。",
       "english": "The problem was discovered, and countermeasures were immediately taken.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "Almost always used in the adverbial form {即座|そくざ}に. Conveys a sense of decisiveness and lack of hesitation. More formal than すぐに.\n\nCOMMON COLLOCATIONS:\n・{即座|そくざ}に{対応|たいおう}する — to respond immediately\n・{即座|そくざ}に{判断|はんだん}する — to judge instantly\n・{即座|そくざ}に{答|こた}える — to answer on the spot\n・{即座|そくざ}に{行動|こうどう}する — to act immediately\n\nSIMILAR WORDS:\n・すぐに — right away (everyday)\n・{直|ただ}ちに — immediately (formal, often for orders/instructions)\n・{瞬時|しゅんじ}に — in an instant (emphasizes speed)",
-  "cross_references": [],
+  "notes": "Almost always used in the adverbial form {即座|そくざ}⟦に→に：00314_ni⟧. Conveys a sense of decisiveness and lack of hesitation. More formal than ⟦すぐ→すぐ：00814_sugu⟧⟦に→に：00314_ni⟧.\n\nCOMMON COLLOCATIONS:\n- {即座|そくざ}⟦に→に：00314_ni⟧⟦{対応|たいおう}→対応：02510_taiou⟧⟦する→する：00392_suru⟧ — to respond immediately\n- {即座|そくざ}⟦に→に：00314_ni⟧⟦{判断|はんだん}する→判断する：06062_handansuru⟧ — to judge instantly\n- {即座|そくざ}⟦に→に：00314_ni⟧⟦{答|こた}える→答える：01099_kotaeru⟧ — to answer on the spot\n- {即座|そくざ}⟦に→に：00314_ni⟧⟦{行動|こうどう}→行動：02728_koudou⟧⟦する→する：00392_suru⟧ — to act immediately\n\nSIMILAR WORDS:\n- ⟦すぐ→すぐ：00814_sugu⟧⟦に→に：00314_ni⟧ — right away (everyday)\n- ⟦{直|ただ}ちに→直ちに：00398_tadachini⟧ — immediately (formal, often for orders/instructions)\n- ⟦{瞬時|しゅんじ}→瞬時：13662_shunji⟧⟦に→に：00314_ni⟧ — in an instant (emphasizes speed)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00398_tadachini",
+      "reading": "ただちに",
+      "headword": "{直|ただ}ちに",
+      "label": "immediately"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18755_shunjini",
+      "reading": "しゅんじに",
+      "headword": "{瞬時|しゅんじ}に",
+      "label": "in an instant"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04173_sassoku",
+      "reading": "さっそく",
+      "headword": "{早速|さっそく}",
+      "label": "at once, immediately, right away"
+    }
+  ],
   "metadata": {
     "created": "2026-02-18T13:41:08Z",
-    "modified": "2026-02-18T13:41:08Z",
+    "modified": "2026-09-02T04:01:26Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["time-general"]
+      "semantic": [
+        "time-general"
+      ]
     }
   }
 }

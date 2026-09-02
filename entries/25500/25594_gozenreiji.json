@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25594_gozenreiji_ex1",
-      "japanese": "{午前零時|ごぜんれいじ}を{過|す}ぎた。",
+      "japanese": "{午前零時|ごぜんれいじ}⟦を→を：00422_wo⟧⟦{過|す}ぎた→過ぎる：01219_sugiru⟧。",
       "english": "It's past midnight.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25594_gozenreiji_ex2",
-      "japanese": "セールは{午前零時|ごぜんれいじ}に{始|はじ}まる。",
+      "japanese": "⟦セール→セール：07780_seeru⟧⟦は→は：00079_ha⟧{午前零時|ごぜんれいじ}⟦に→に：00314_ni⟧⟦{始|はじ}まる→始まる：00841_hajimaru⟧。",
       "english": "The sale starts at midnight.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25594_gozenreiji_ex3",
-      "japanese": "{午前零時|ごぜんれいじ}ちょうどに{年|とし}が{変|か}わり、{花火|はなび}が{一斉|いっせい}に{打|う}ち{上|あ}がった。",
+      "japanese": "{午前零時|ごぜんれいじ}⟦ちょうど→ちょうど：02916_choudo⟧⟦に→に：00314_ni⟧⟦{年|とし}→年：00486_toshi⟧⟦が→が：00051_ga⟧⟦{変|か}わり→変わる：00714_kawaru⟧、⟦{花火|はなび}→花火：00087_hanabi⟧⟦が→が：00051_ga⟧⟦{一斉|いっせい}→一斉：01726_issei⟧⟦に→に：00314_ni⟧{打|う}ち{上|あ}がった。",
       "english": "The year changed right at midnight, and fireworks were launched all at once.",
       "sense_numbers": [
         1
@@ -44,19 +44,36 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {午前|ごぜん} (morning, AM) and {零時|れいじ} (zero o'clock). This is the precise, formal way to express midnight in Japanese. It is commonly used in schedules, announcements, and official contexts.\n\nIn casual speech, {夜中|よなか}の{十二時|じゅうにじ} (twelve o'clock at night) or simply {真夜中|まよなか} (the middle of the night) are more natural.\n\nCOMMON COLLOCATIONS:\n- {午前零時|ごぜんれいじ}を{回|まわ}る: to pass midnight\n- {午前零時|ごぜんれいじ}ちょうど: exactly at midnight\n- {午前零時|ごぜんれいじ}{発|はつ}: departing at midnight\n\nSIMILAR WORDS:\n- {真夜中|まよなか}: the dead of night — refers to the general time period around midnight, not a specific clock time\n- {深夜|しんや}: late at night — broader term for the late-night hours\n- {日付|ひづけ}が{変|か}わる: the date changes — another way to refer to the midnight moment",
+  "notes": "A compound of ⟦{午前|ごぜん}→午前：00548_gozen⟧ (morning, AM) and ⟦{零時|れいじ}→零時：17204_reiji⟧ (zero o'clock). This is the precise, formal way to express midnight in Japanese. It is commonly used in schedules, announcements, and official contexts.\n\nIn casual speech, ⟦{夜中|よなか}→夜中：01008_yonaka⟧⟦の→の：09472_no⟧⟦{十二時|じゅうにじ}→十二時：10981_juuniji⟧ (twelve o'clock at night) or simply ⟦{真夜中|まよなか}→真夜中：05425_mayonaka⟧ (the middle of the night) are more natural.\n\nCOMMON COLLOCATIONS:\n- {午前零時|ごぜんれいじ}⟦を→を：00422_wo⟧⟦{回|まわ}る→回る：01150_mawaru⟧: to pass midnight\n- {午前零時|ごぜんれいじ}⟦ちょうど→ちょうど：02916_choudo⟧: exactly at midnight\n- {午前零時|ごぜんれいじ}⟦{発|はつ}→〜発：04026_hatsu⟧: departing at midnight\n\nSIMILAR WORDS:\n- ⟦{真夜中|まよなか}→真夜中：05425_mayonaka⟧: the dead of night — refers to the general time period around midnight, not a specific clock time\n- ⟦{深夜|しんや}→深夜：00368_shinya⟧: late at night — broader term for the late-night hours\n- ⟦{日付|ひづけ}→日付：03706_hizuke⟧⟦が→が：00051_ga⟧⟦{変|か}わる→変わる：00714_kawaru⟧: the date changes — another way to refer to the midnight moment",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05425_mayonaka",
+      "reading": "まよなか",
+      "headword": "{真夜中|まよなか}",
+      "label": "the dead of night"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00368_shinya",
+      "reading": "しんや",
+      "headword": "{深夜|しんや}",
+      "label": "late at night"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "time-general"
       ]
     },
     "created": "2026-04-26T12:33:16Z",
-    "modified": "2026-08-04T12:59:53Z"
+    "modified": "2026-09-02T04:02:23Z"
   }
 }

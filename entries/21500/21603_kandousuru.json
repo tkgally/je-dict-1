@@ -3,7 +3,7 @@
   "headword": "{感動|かんどう}する",
   "reading": "かんどうする",
   "romaji": "kandousuru",
-  "part_of_speech": "noun, verb (する)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "to be moved; to be touched; to be impressed",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21603_kandousuru_ex1",
-      "japanese": "{映画|えいが}に{感動|かんどう}した。",
+      "japanese": "⟦{映画|えいが}→映画：02273_eiga⟧⟦に→に：00314_ni⟧{感動|かんどう}した。",
       "english": "I was moved by the movie.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21603_kandousuru_ex2",
-      "japanese": "その{演説|えんぜつ}に{深|ふか}く{感動|かんどう}しました。",
+      "japanese": "⟦その→その：00993_sono⟧⟦{演説|えんぜつ}→演説：01894_enzetsu⟧⟦に→に：00314_ni⟧⟦{深|ふか}く→深い：01211_fukai⟧{感動|かんどう}しました。",
       "english": "I was deeply moved by that speech.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21603_kandousuru_ex3",
-      "japanese": "{子|こ}どもたちの{一生懸命|いっしょうけんめい}な{姿|すがた}に{感動|かんどう}して{涙|なみだ}が{出|で}た。",
+      "japanese": "{子|こ}どもたち⟦の→の：09472_no⟧⟦{一生懸命|いっしょうけんめい}→一生懸命：01280_isshoukenmei⟧な⟦{姿|すがた}→姿：03363_sugata⟧⟦に→に：00314_ni⟧{感動|かんどう}して⟦{涙|なみだ}→涙：02235_namida⟧⟦が→が：00051_ga⟧⟦{出|で}た→出る：00513_deru⟧。",
       "english": "I was so moved by the children's earnest efforts that tears came to my eyes.",
       "sense_numbers": [
         1
@@ -44,8 +44,66 @@
       "notes": null
     }
   ],
-  "notes": "One of the most frequently used emotion words in Japanese. It describes a positive feeling of being deeply touched or stirred — not used for negative emotions like sadness or anger.\n\nCOMMON COLLOCATIONS:\n- {感動|かんどう}{的|てき}な: moving, touching\n- {感動|かんどう}を{与|あた}える: to give someone a moving experience\n- {感動|かんどう}を{覚|おぼ}える: to feel moved\n- {感動|かんどう}{巨編|きょへん}: an epic that moves people\n- {深|ふか}く{感動|かんどう}する: to be deeply moved\n\nUSAGE:\nThe particle に marks the source of the emotion: Xに{感動|かんどう}する (to be moved by X). Very common in reviews, reactions to performances, and everyday conversation about emotional experiences.\n\nSIMILAR WORDS:\n- {感激|かんげき}する: to be deeply moved — stronger, often with gratitude\n- {感銘|かんめい}を{受|う}ける: to be impressed — more formal, intellectual appreciation\n- {心|こころ}を{打|う}たれる: to be struck to the heart — literary, poetic",
+  "notes": "One of the most frequently used emotion words in Japanese. It describes a positive feeling of being deeply touched or stirred — not used for negative emotions like sadness or anger.\n\nCOMMON COLLOCATIONS:\n- ⟦{感動|かんどう}{的|てき}→感動的：25931_kandouteki⟧な: moving, touching\n- ⟦{感動|かんどう}→感動：00167_kandou⟧⟦を→を：00422_wo⟧⟦{与|あた}える→与える：01821_ataeru⟧: to give someone a moving experience\n- ⟦{感動|かんどう}→感動：00167_kandou⟧⟦を→を：00422_wo⟧⟦{覚|おぼ}える→覚える：00739_oboeru⟧: to feel moved\n- ⟦{感動|かんどう}→感動：00167_kandou⟧{巨編|きょへん}: an epic that moves people\n- ⟦{深|ふか}く→深い：01211_fukai⟧{感動|かんどう}する: to be deeply moved\n\nUSAGE:\nThe particle ⟦に→に：00314_ni⟧ marks the source of the emotion: X⟦に→に：00314_ni⟧{感動|かんどう}する (to be moved by X). Very common in reviews, reactions to performances, and everyday conversation about emotional experiences.\n\nSIMILAR WORDS:\n- ⟦{感激|かんげき}→感激：00169_kangeki⟧⟦する→する：00392_suru⟧: to be deeply moved — stronger, often with gratitude\n- ⟦{感銘|かんめい}を{受|う}ける→感銘を受ける：16058_kanmeiwoukeru⟧: to be impressed — more formal, intellectual appreciation\n- ⟦{心|こころ}→心：01321_kokoro⟧⟦を→を：00422_wo⟧⟦{打|う}たれる→打つ：01221_utsu⟧: to be struck to the heart — literary, poetic",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00169_kangeki",
+      "reading": "かんげき",
+      "headword": "{感激|かんげき}",
+      "label": "to be deeply moved"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16058_kanmeiwoukeru",
+      "reading": "かんめいをうける",
+      "headword": "{感銘|かんめい}を{受|う}ける",
+      "label": "to be impressed"
+    },
+    {
+      "type": "related",
+      "target_id": "02044_kanjiru",
+      "reading": "かんじる",
+      "headword": "{感|かん}じる",
+      "label": "to feel, to sense"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19265_kankiwamaru",
+      "reading": "かんきわまる",
+      "headword": "{感|かん}{極|きわ}まる",
+      "label": "to be overcome with emotion"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19553_kanmuryou",
+      "reading": "かんむりょう",
+      "headword": "{感無量|かんむりょう}",
+      "label": "filled with deep emotion"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20070_kokorowoutsu",
+      "reading": "こころをうつ",
+      "headword": "{心|こころ}を{打|う}つ",
+      "label": "to move someone deeply"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20320_munenihibiku",
+      "reading": "むねにひびく",
+      "headword": "{胸|むね}に{響|ひび}く",
+      "label": "to resonate deeply"
+    },
+    {
+      "type": "related",
+      "target_id": "20455_munegaatsukunaru",
+      "reading": "むねがあつくなる",
+      "headword": "{胸|むね}が{熱|あつ}くなる",
+      "label": "to be deeply moved"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,7 +119,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-02T18:10:46Z",
-    "modified": "2026-04-02T18:10:46Z"
+    "modified": "2026-09-02T04:02:04Z"
   },
   "conjugation": {
     "type": "suru",

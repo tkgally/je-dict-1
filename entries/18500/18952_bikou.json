@@ -3,7 +3,7 @@
   "headword": "{尾行|びこう}",
   "reading": "びこう",
   "romaji": "bikou",
-  "part_of_speech": "noun / する verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "shadowing; tailing; following secretly",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "18952_bikou_ex1",
-      "japanese": "{刑事|けいじ}が{容疑者|ようぎしゃ}を{尾行|びこう}した。",
+      "japanese": "⟦{刑事|けいじ}→刑事：02741_keiji⟧⟦が→が：00051_ga⟧⟦{容疑者|ようぎしゃ}→容疑者：15039_yougisha⟧⟦を→を：00422_wo⟧{尾行|びこう}⟦した→する：00392_suru⟧。",
       "english": "The detective tailed the suspect.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "18952_bikou_ex2",
-      "japanese": "{誰|だれ}かに{尾行|びこう}されている{気|き}がする。",
+      "japanese": "⟦{誰|だれ}か→誰か：02912_dareka⟧⟦に→に：00314_ni⟧{尾行|びこう}⟦されている→する：00392_suru⟧⟦{気|き}→気：02199_ki⟧⟦が→が：00051_ga⟧⟦する→する：00392_suru⟧。",
       "english": "I feel like someone is following me.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "18952_bikou_ex3",
-      "japanese": "{探偵|たんてい}は{三日間|みっかかん}にわたって{対象者|たいしょうしゃ}を{尾行|びこう}し、{行動|こうどう}を{記録|きろく}した。",
+      "japanese": "⟦{探偵|たんてい}→探偵：07033_tantei⟧⟦は→は：00079_ha⟧{三日間|みっかかん}⟦に→に：00314_ni⟧わたって{対象者|たいしょうしゃ}⟦を→を：00422_wo⟧{尾行|びこう}し、⟦{行動|こうどう}→行動：02728_koudou⟧⟦を→を：00422_wo⟧⟦{記録|きろく}した→記録する：25341_kirokusuru⟧。",
       "english": "The private investigator tailed the subject for three days and recorded their movements.",
       "sense_numbers": [
         1
@@ -134,8 +134,17 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {尾|び} (tail) + {行|こう} (go, move). Literally \"following at the tail.\"\n\nCOMMON PATTERNS:\n- {尾行|びこう}する: to tail/shadow someone\n- {尾行|びこう}される: to be tailed\n- {尾行|びこう}に{気|き}づく: to notice one is being followed\n- {尾行|びこう}を{振|ふ}り{切|き}る: to shake off a tail\n\nCONTEXTS:\nCommon in {刑事|けいじ}ドラマ (detective dramas), {探偵|たんてい}{小説|しょうせつ} (detective novels), and crime reporting.\n\nHOMOPHONE:\n{備考|びこう} (remarks, notes) — same reading, different kanji and meaning.",
+  "notes": "Composed of ⟦{尾|び}→尾：18068_bi⟧ (tail) + {行|こう} (go, move). Literally \"following at the tail.\"\n\nCOMMON PATTERNS:\n- {尾行|びこう}⟦する→する：00392_suru⟧: to tail/shadow someone\n- {尾行|びこう}⟦される→する：00392_suru⟧: to be tailed\n- {尾行|びこう}⟦に→に：00314_ni⟧{気|き}づく: to notice one is being followed\n- {尾行|びこう}⟦を→を：00422_wo⟧⟦{振|ふ}り{切|き}る→振り切る：06703_furikiru⟧: to shake off a tail\n\nUSAGE:\nCommon in ⟦{刑事|けいじ}→刑事：02741_keiji⟧⟦ドラマ→ドラマ：03867_dorama⟧ (detective dramas), ⟦{探偵|たんてい}→探偵：07033_tantei⟧⟦{小説|しょうせつ}→小説：01434_shousetsu⟧ (detective novels), and crime reporting.\n\nWATCH OUT:\n⟦{備考|びこう}→備考：15693_bikou⟧ (remarks, notes) — same reading, different kanji and meaning.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09722_tsuiseki",
+      "reading": "ついせき",
+      "headword": "{追跡|ついせき}",
+      "label": "tracking"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -148,9 +157,10 @@
       "semantic": [
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-03-23T10:20:15Z",
-    "modified": "2026-07-26T09:39:42Z"
+    "modified": "2026-09-02T04:01:54Z"
   }
 }

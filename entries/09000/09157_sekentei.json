@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "09157_sekentei_ex1",
-      "japanese": "{世間体|せけんてい}を{気|き}にする",
+      "japanese": "{世間体|せけんてい}⟦を→を：00422_wo⟧⟦{気|き}にする→気にする：03026_kinisuru⟧",
       "english": "to care about appearances/what others think",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "09157_sekentei_ex2",
-      "japanese": "{世間体|せけんてい}が{悪|わる}い。",
+      "japanese": "{世間体|せけんてい}⟦が→が：00051_ga⟧⟦{悪|わる}い→悪い：00908_warui⟧。",
       "english": "It doesn't look good (to others)./It's embarrassing.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "09157_sekentei_ex3",
-      "japanese": "{世間体|せけんてい}ばかり{気|き}にして、{自分|じぶん}の{気持|きも}ちを{無視|むし}するのは{良|よ}くない。",
+      "japanese": "{世間体|せけんてい}⟦ばかり→〜ばかり：02006_bakari⟧⟦{気|き}にして→気にする：03026_kinisuru⟧、⟦{自分|じぶん}→自分：02887_jibun⟧⟦の→の：09472_no⟧{気持|きも}ち⟦を→を：00422_wo⟧⟦{無視|むし}する→無視する：17288_mushisuru⟧⟦の→の：09472_no⟧⟦は→は：00079_ha⟧⟦{良|よ}くない→良い：02350_yoi⟧。",
       "english": "It's not good to only care about appearances and ignore your own feelings.",
       "sense_numbers": [
         1
@@ -43,7 +43,7 @@
       "notes": null
     }
   ],
-  "notes": "USAGE: Often used with {気|き}にする (to care about) or adjectives like {良|よ}い/{悪|わる}い (good/bad).\n\nNUANCE: {世間体|せけんてい} reflects the Japanese cultural emphasis on social harmony and reputation. It can have negative connotations when someone is criticized for being overly concerned with appearances rather than substance.\n\nCULTURAL NOTE: This concept is particularly important in traditional Japanese society, where maintaining a good reputation within one's community ({世間|せけん}) is highly valued.\n\nCOMMON COLLOCATIONS:\n- {世間体|せけんてい}を{気|き}にする (to care about appearances)\n- {世間体|せけんてい}が{良|よ}い/{悪|わる}い (looks good/bad to society)\n- {世間体|せけんてい}を{保|たも}つ (to maintain appearances)\n- {世間体|せけんてい}のために (for the sake of appearances)\n\nRELATED WORDS:\n- {体裁|ていさい} (appearance, keeping up appearances)\n- {面目|めんぼく} (face, honor)\n- {世間|せけん} (society, the world)\n- {見栄|みえ} (vanity, showing off)",
+  "notes": "USAGE: Often used with ⟦{気|き}にする→気にする：03026_kinisuru⟧ (to care about) or adjectives like ⟦{良|よ}い→良い：02350_yoi⟧/⟦{悪|わる}い→悪い：00908_warui⟧ (good/bad).\n\nNUANCE: {世間体|せけんてい} reflects the Japanese cultural emphasis on social harmony and reputation. It can have negative connotations when someone is criticized for being overly concerned with appearances rather than substance.\n\nCULTURAL NOTE: This concept is particularly important in traditional Japanese society, where maintaining a good reputation within one's community (⟦{世間|せけん}→世間：03299_seken⟧) is highly valued.\n\nCOMMON COLLOCATIONS:\n- {世間体|せけんてい}⟦を→を：00422_wo⟧⟦{気|き}にする→気にする：03026_kinisuru⟧ (to care about appearances)\n- {世間体|せけんてい}⟦が→が：00051_ga⟧⟦{良|よ}い→良い：02350_yoi⟧/⟦{悪|わる}い→悪い：00908_warui⟧ (looks good/bad to society)\n- {世間体|せけんてい}⟦を→を：00422_wo⟧⟦{保|たも}つ→保つ：10134_tamotsu⟧ (to maintain appearances)\n- {世間体|せけんてい}⟦の→の：09472_no⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧ (for the sake of appearances)\n\nRELATED WORDS:\n- ⟦{体裁|ていさい}→体裁：09154_teisai⟧ (appearance, keeping up appearances)\n- ⟦{面目|めんぼく}→面目：09155_menboku⟧ (face, honor)\n- ⟦{世間|せけん}→世間：03299_seken⟧ (society, the world)\n- ⟦{見栄|みえ}→見栄：06626_mie⟧ (vanity, showing off)",
   "cross_references": [
     {
       "type": "synonym",
@@ -65,11 +65,18 @@
       "reading": "みえ",
       "headword": "{見栄|みえ}",
       "label": "vanity"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22457_gaibun",
+      "reading": "がいぶん",
+      "headword": "{外聞|がいぶん}",
+      "label": "reputation"
     }
   ],
   "metadata": {
     "created": "2026-01-31T11:30:03Z",
-    "modified": "2026-08-12T21:25:53Z",
+    "modified": "2026-09-02T04:01:17Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

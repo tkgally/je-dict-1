@@ -63,7 +63,7 @@
       "notes": null
     }
   ],
-  "notes": "{紅茶|こうちゃ} means black tea—literally 'red tea' ({紅|こう} = crimson/red + {茶|ちゃ} = tea), named for the color of the brewed liquid.\n\nTEA TYPES IN JAPANESE:\n- {紅茶|こうちゃ}: black tea (fermented)\n- ⟦{緑茶|りょくちゃ}→緑茶：10971_ryokucha⟧: green tea (unfermented)\n- ⟦ウーロン{茶|ちゃ}→ウーロン茶：11337_uuroncha⟧: oolong tea (semi-fermented)\n- ⟦お{茶|ちゃ}→お茶：00576_ocha⟧: tea in general (often green tea)\n- ⟦{麦茶|むぎちゃ}→麦茶：16494_mugicha⟧: barley tea\n\nCOMMON VARIETIES:\n- ⟦ミルクティー→ミルクティー：27418_mirukutii⟧: milk tea\n- ⟦レモンティー→レモンティー：noentry⟧: lemon tea\n- ⟦アイスティー→アイスティー：noentry⟧: iced tea\n- ⟦ストレートティー→ストレートティー：noentry⟧: tea without milk\n- ⟦ダージリン→ダージリン：noentry⟧: Darjeeling\n- ⟦アールグレイ→アールグレイ：noentry⟧: Earl Grey\n\nCOMMON EXPRESSIONS:\n- {紅茶|こうちゃ}⟦を→を：00422_wo⟧⟦{入|い}れる→入れる：01098_ireru⟧: to brew tea\n- {紅茶|こうちゃ}⟦を→を：00422_wo⟧⟦{飲|の}む→飲む：00322_nomu⟧: to drink tea\n- ⟦{午後|ごご}→午後：00544_gogo⟧⟦の→の：09472_no⟧{紅茶|こうちゃ}: afternoon tea\n\nCULTURAL NOTE:\nBlack tea drinking in Japan became popular in the Meiji era through British influence.",
+  "notes": "{紅茶|こうちゃ} means black tea—literally 'red tea' ({紅|こう} = crimson/red + ⟦{茶|ちゃ}→茶：03433_cha⟧ = tea), named for the color of the brewed liquid.\n\nTEA TYPES IN JAPANESE:\n- {紅茶|こうちゃ}: black tea (fermented)\n- ⟦{緑茶|りょくちゃ}→緑茶：10971_ryokucha⟧: green tea (unfermented)\n- ⟦ウーロン{茶|ちゃ}→ウーロン茶：11337_uuroncha⟧: oolong tea (semi-fermented)\n- ⟦お{茶|ちゃ}→お茶：00576_ocha⟧: tea in general (often green tea)\n- ⟦{麦茶|むぎちゃ}→麦茶：16494_mugicha⟧: barley tea\n\nCOMMON VARIETIES:\n- ⟦ミルクティー→ミルクティー：27418_mirukutii⟧: milk tea\n- ⟦レモンティー→レモンティー：noentry⟧: lemon tea\n- ⟦アイスティー→アイスティー：noentry⟧: iced tea\n- ⟦ストレートティー→ストレートティー：noentry⟧: tea without milk\n- ⟦ダージリン→ダージリン：noentry⟧: Darjeeling\n- ⟦アールグレイ→アールグレイ：noentry⟧: Earl Grey\n\nCOMMON EXPRESSIONS:\n- {紅茶|こうちゃ}⟦を→を：00422_wo⟧⟦{入|い}れる→入れる：01098_ireru⟧: to brew tea\n- {紅茶|こうちゃ}⟦を→を：00422_wo⟧⟦{飲|の}む→飲む：00322_nomu⟧: to drink tea\n- ⟦{午後|ごご}→午後：00544_gogo⟧⟦の→の：09472_no⟧{紅茶|こうちゃ}: afternoon tea\n\nCULTURAL NOTE:\nBlack tea drinking in Japan became popular in the Meiji era through British influence.",
   "cross_references": [
     {
       "type": "related",
@@ -78,11 +78,32 @@
       "reading": "りょくちゃ",
       "headword": "{緑茶|りょくちゃ}",
       "label": "green tea"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27418_mirukutii",
+      "reading": "みるくてぃー",
+      "headword": "ミルクティー",
+      "label": "milk tea"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28691_nihoncha",
+      "reading": "にほんちゃ",
+      "headword": "{日本茶|にほんちゃ}",
+      "label": "Japanese green tea"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30405_tii",
+      "reading": "てぃー",
+      "headword": "ティー",
+      "label": "tea (in compounds and café menus)"
     }
   ],
   "metadata": {
     "created": "2026-01-11T09:35:00Z",
-    "modified": "2026-04-02T04:29:40Z",
+    "modified": "2026-09-02T04:01:02Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

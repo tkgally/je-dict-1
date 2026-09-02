@@ -14,40 +14,80 @@
   "examples": [
     {
       "id": "18332_goeikan_ex1",
-      "japanese": "{護衛艦|ごえいかん}が{入港|にゅうこう}した。",
+      "japanese": "{護衛艦|ごえいかん}⟦が→が：00051_ga⟧⟦{入港|にゅうこう}→入港：14771_nyuukou⟧⟦した→する：00392_suru⟧。",
       "english": "An escort ship entered the port.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "18332_goeikan_ex2",
-      "japanese": "{新型|しんがた}の{護衛艦|ごえいかん}が{就役|しゅうえき}した。",
+      "japanese": "⟦{新型|しんがた}→新型：19411_shingata⟧⟦の→の：09472_no⟧{護衛艦|ごえいかん}⟦が→が：00051_ga⟧{就役|しゅうえき}⟦した→する：00392_suru⟧。",
       "english": "A new-model destroyer was commissioned.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "18332_goeikan_ex3",
-      "japanese": "{海上自衛隊|かいじょうじえいたい}の{護衛艦|ごえいかん}が{国際|こくさい}{共同|きょうどう}{訓練|くんれん}に{参加|さんか}した。",
+      "japanese": "{海上自衛隊|かいじょうじえいたい}⟦の→の：09472_no⟧{護衛艦|ごえいかん}⟦が→が：00051_ga⟧⟦{国際|こくさい}→国際：01406_kokusai⟧⟦{共同|きょうどう}→共同：02591_kyoudou⟧⟦{訓練|くんれん}→訓練：02673_kunren⟧⟦に→に：00314_ni⟧⟦{参加|さんか}した→参加する：25408_sankasuru⟧。",
       "english": "A JMSDF escort ship participated in an international joint exercise.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "{護衛艦|ごえいかん} is the official classification for Japan Maritime Self-Defense Force ({海上自衛隊|かいじょうじえいたい}) surface combatants. Literally \"escort vessel.\"\n\nBACKGROUND:\nIn other navies, these ships would be classified as destroyers or frigates. Japan uses the euphemistic term {護衛艦|ごえいかん} because the postwar constitution limits military capability to self-defense, and overtly military terminology like {駆逐艦|くちくかん} (destroyer) is avoided.\n\nCOMMON COLLOCATIONS:\n- {護衛艦|ごえいかん}{隊|たい}: escort ship squadron\n- {護衛艦|ごえいかん}{隊群|たいぐん}: escort flotilla\n- {新型|しんがた}{護衛艦|ごえいかん}: new-model escort ship\n- {護衛艦|ごえいかん}が{就役|しゅうえき}する: an escort ship is commissioned\n\nRELATED:\n- {潜水艦|せんすいかん}: submarine\n- {空母|くうぼ}: aircraft carrier",
+  "notes": "{護衛艦|ごえいかん} is the official classification for Japan Maritime Self-Defense Force ({海上自衛隊|かいじょうじえいたい}) surface combatants. Literally \"escort vessel.\"\n\nCULTURAL NOTE:\nIn other navies, these ships would be classified as destroyers or frigates. Japan uses the euphemistic term {護衛艦|ごえいかん} because the postwar constitution limits military capability to self-defense, and overtly military terminology like ⟦{駆逐艦|くちくかん}→駆逐艦：23389_kuchikukan⟧ (destroyer) is avoided.\n\nCOMMON COLLOCATIONS:\n- {護衛艦|ごえいかん}{隊|たい}: escort ship squadron\n- {護衛艦|ごえいかん}{隊群|たいぐん}: escort flotilla\n- ⟦{新型|しんがた}→新型：19411_shingata⟧{護衛艦|ごえいかん}: new-model escort ship\n- {護衛艦|ごえいかん}⟦が→が：00051_ga⟧{就役|しゅうえき}⟦する→する：00392_suru⟧: an escort ship is commissioned\n\nRELATED WORDS:\n- ⟦{潜水艦|せんすいかん}→潜水艦：15701_sensuikan⟧: submarine\n- ⟦{空母|くうぼ}→空母：15702_kuubo⟧: aircraft carrier",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "15701_sensuikan",
+      "reading": "せんすいかん",
+      "headword": "{潜水艦|せんすいかん}",
+      "label": "submarine"
+    },
+    {
+      "type": "related",
+      "target_id": "15702_kuubo",
+      "reading": "くうぼ",
+      "headword": "{空母|くうぼ}",
+      "label": "aircraft carrier"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23389_kuchikukan",
+      "reading": "くちくかん",
+      "headword": "{駆逐艦|くちくかん}",
+      "label": "destroyer (warship)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23965_koukuubokan",
+      "reading": "こうくうぼかん",
+      "headword": "{航空母艦|こうくうぼかん}",
+      "label": "aircraft carrier"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["transportation"]
+      "semantic": [
+        "transportation"
+      ]
     },
     "created": "2026-03-21T09:52:47Z",
-    "modified": "2026-04-02T07:40:51Z"
+    "modified": "2026-09-02T04:01:51Z"
   }
 }

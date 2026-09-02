@@ -15,41 +15,61 @@
   "examples": [
     {
       "id": "27720_yousan_ex1",
-      "japanese": "この{地域|ちいき}は{養蚕|ようさん}が{盛|さか}んだ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{地域|ちいき}→地域：01461_chiiki⟧⟦は→は：00079_ha⟧{養蚕|ようさん}⟦が→が：00051_ga⟧⟦{盛|さか}ん→盛ん：01239_sakan⟧だ。",
       "english": "Sericulture is thriving in this region.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27720_yousan_ex2",
-      "japanese": "{祖母|そぼ}は{若|わか}い{頃|ころ}{養蚕|ようさん}の{仕事|しごと}をしていた。",
+      "japanese": "⟦{祖母|そぼ}→祖母：00813_sobo⟧⟦は→は：00079_ha⟧{若|わか}い{頃|ころ}{養蚕|ようさん}⟦の→の：09472_no⟧⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦を→を：00422_wo⟧⟦していた→する：00392_suru⟧。",
       "english": "My grandmother worked in sericulture when she was young.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27720_yousan_ex3",
-      "japanese": "{養蚕|ようさん}{農家|のうか}は{蚕|かいこ}を{育|そだ}てて{繭|まゆ}を{出荷|しゅっか}する。",
+      "japanese": "{養蚕|ようさん}⟦{農家|のうか}→農家：03539_nouka⟧⟦は→は：00079_ha⟧⟦{蚕|かいこ}→蚕：21218_kaiko⟧⟦を→を：00422_wo⟧⟦{育|そだ}てて→育てる：01235_sodateru⟧⟦{繭|まゆ}→繭：13861_mayu⟧⟦を→を：00422_wo⟧⟦{出荷|しゅっか}→出荷：05135_shukka⟧⟦する→する：00392_suru⟧。",
       "english": "Sericulture farmers raise silkworms and ship the cocoons.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {養|よう} (to raise, rear) + {蚕|さん} (silkworm). Refers to the farming activity of raising silkworms to obtain silk.\n\nCOMMON COLLOCATIONS:\n- {養蚕|ようさん}{農家|のうか}: a sericulture farmer\n- {養蚕|ようさん}が{盛|さか}んだ: sericulture is thriving\n- {養蚕|ようさん}{業|ぎょう}: the silk-farming industry\n\nNOTE:\nSericulture was central to Japan's economy from the Meiji era into the early twentieth century. Related words: {生糸|きいと} (raw silk), {蚕|かいこ} (silkworm), and {繭|まゆ} (cocoon).",
+  "notes": "Composed of {養|よう} (to raise, rear) + {蚕|さん} (silkworm). Refers to the farming activity of raising silkworms to obtain silk.\n\nCOMMON COLLOCATIONS:\n- {養蚕|ようさん}⟦{農家|のうか}→農家：03539_nouka⟧: a sericulture farmer\n- {養蚕|ようさん}⟦が→が：00051_ga⟧⟦{盛|さか}ん→盛ん：01239_sakan⟧だ: sericulture is thriving\n- {養蚕|ようさん}{業|ぎょう}: the silk-farming industry\n\nUSAGE:\nSericulture was central to Japan's economy from the Meiji era into the early twentieth century. Related words: ⟦{生糸|きいと}→生糸：27719_kiito⟧ (raw silk), ⟦{蚕|かいこ}→蚕：21218_kaiko⟧ (silkworm), and ⟦{繭|まゆ}→繭：13861_mayu⟧ (cocoon).",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23988_kuwa",
+      "reading": "くわ",
+      "headword": "{桑|くわ}",
+      "label": "mulberry (tree)"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["work", "nature"],
+      "politeness": "plain",
+      "semantic": [
+        "work",
+        "nature"
+      ],
       "domain": []
     },
     "created": "2026-05-17T04:06:49Z",
-    "modified": "2026-05-17T04:06:49Z"
+    "modified": "2026-09-02T04:02:31Z"
   }
 }

@@ -15,42 +15,74 @@
   "examples": [
     {
       "id": "26788_tounin_ex1",
-      "japanese": "{当人|とうにん}はまだ{知|し}らない。",
+      "japanese": "{当人|とうにん}⟦は→は：00079_ha⟧⟦まだ→まだ：00603_mada⟧⟦{知|し}らない→知る：00458_shiru⟧。",
       "english": "The person in question doesn't know yet.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26788_tounin_ex2",
-      "japanese": "{周|まわ}りが{心配|しんぱい}しているが、{当人|とうにん}は{気|き}にしていない。",
+      "japanese": "⟦{周|まわ}り→周り：01732_mawari⟧⟦が→が：00051_ga⟧⟦{心配|しんぱい}している→心配する：06066_shinpaisuru⟧⟦が→が：00051_ga⟧、{当人|とうにん}⟦は→は：00079_ha⟧⟦{気|き}にしていない→気にする：03026_kinisuru⟧。",
       "english": "Everyone around is worried, but the person himself doesn't care.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26788_tounin_ex3",
-      "japanese": "{最終的|さいしゅうてき}には{当人|とうにん}の{意思|いし}を{尊重|そんちょう}すべきだ。",
+      "japanese": "⟦{最終的|さいしゅうてき}→最終的：13013_saishuuteki⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{当人|とうにん}⟦の→の：09472_no⟧⟦{意思|いし}→意思：12742_ishi⟧⟦を→を：00422_wo⟧⟦{尊重|そんちょう}→尊重：03327_sonchou⟧すべきだ。",
       "english": "Ultimately, we should respect the person's own wishes.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Refers specifically to the person being discussed, often to contrast their perspective or state with that of others around them. Frequently used when the person themselves has a different view or is unaware of what others think about them.\n\nCOMMON COLLOCATIONS:\n- {当人|とうにん}の{意思|いし}: the person's own will\n- {当人|とうにん}{同士|どうし}: between the parties themselves\n- {当人|とうにん}に{確認|かくにん}する: to confirm with the person in question\n- {当人|とうにん}は{知|し}らない: the person themselves doesn't know\n\nSIMILAR WORDS:\n- {本人|ほんにん}: the person themselves — more common in everyday speech; often used for identity verification\n- {当事者|とうじしゃ}: party concerned; stakeholder — more formal; implies involvement in a legal or official matter\n- {該当者|がいとうしゃ}: the applicable person — bureaucratic; used in forms and regulations",
-  "cross_references": [],
+  "notes": "Refers specifically to the person being discussed, often to contrast their perspective or state with that of others around them. Frequently used when the person themselves has a different view or is unaware of what others think about them.\n\nCOMMON COLLOCATIONS:\n- {当人|とうにん}⟦の→の：09472_no⟧⟦{意思|いし}→意思：12742_ishi⟧: the person's own will\n- {当人|とうにん}⟦{同士|どうし}→同士：03474_doushi⟧: between the parties themselves\n- {当人|とうにん}⟦に→に：00314_ni⟧⟦{確認|かくにん}する→確認する：25332_kakuninsuru⟧: to confirm with the person in question\n- {当人|とうにん}⟦は→は：00079_ha⟧⟦{知|し}らない→知る：00458_shiru⟧: the person themselves doesn't know\n\nSIMILAR WORDS:\n- ⟦{本人|ほんにん}→本人：03627_honnin⟧: the person themselves — more common in everyday speech; often used for identity verification\n- ⟦{当事者|とうじしゃ}→当事者：12504_toujisha⟧: party concerned; stakeholder — more formal; implies involvement in a legal or official matter\n- ⟦{該当者|がいとうしゃ}→該当者：25119_gaitousha⟧: the applicable person — bureaucratic; used in forms and regulations",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03627_honnin",
+      "reading": "ほんにん",
+      "headword": "{本人|ほんにん}",
+      "label": "the person themselves"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12504_toujisha",
+      "reading": "とうじしゃ",
+      "headword": "{当事者|とうじしゃ}",
+      "label": "party concerned"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25119_gaitousha",
+      "reading": "がいとうしゃ",
+      "headword": "{該当者|がいとうしゃ}",
+      "label": "the applicable person"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"],
+      "semantic": [
+        "general"
+      ],
       "domain": []
     },
     "created": "2026-05-05T11:07:48Z",
-    "modified": "2026-05-05T11:07:48Z"
+    "modified": "2026-09-02T04:02:27Z"
   }
 }

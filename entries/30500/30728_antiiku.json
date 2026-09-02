@@ -3,7 +3,7 @@
   "headword": "アンティーク",
   "reading": "あんてぃーく",
   "romaji": "antiiku",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "antique; antique-style",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30728_antiiku_ex1",
-      "japanese": "アンティークの{時計|とけい}が{好|す}きだ。",
+      "japanese": "アンティーク⟦の→の：09472_no⟧⟦{時計|とけい}→時計：00677_tokei⟧⟦が→が：00051_ga⟧⟦{好|す}き→好き：02355_suki⟧だ。",
       "english": "I like antique clocks.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30728_antiiku_ex2",
-      "japanese": "この{店|みせ}はアンティーク{家具|かぐ}を{扱|あつか}っている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{店|みせ}→店：00497_mise⟧⟦は→は：00079_ha⟧アンティーク⟦{家具|かぐ}→家具：12314_kagu⟧⟦を→を：00422_wo⟧⟦{扱|あつか}っている→扱う：01862_atsukau⟧。",
       "english": "This shop deals in antique furniture.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30728_antiiku_ex3",
-      "japanese": "{祖母|そぼ}から{譲|ゆず}り{受|う}けたアンティークの{食器|しょっき}を、{今|いま}も{大切|たいせつ}に{使|つか}っている。",
+      "japanese": "⟦{祖母|そぼ}→祖母：00813_sobo⟧⟦から→から：00504_kara⟧⟦{譲|ゆず}り{受|う}けた→譲り受ける：27545_yuzuriukeru⟧アンティーク⟦の→の：09472_no⟧⟦{食器|しょっき}→食器：04204_shokki⟧⟦を→を：00422_wo⟧、⟦{今|いま}→今：00945_ima⟧⟦も→も：00484_mo⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧⟦に→に：00314_ni⟧⟦{使|つか}っている→使う：00473_tsukau⟧。",
       "english": "I still carefully use the antique tableware I inherited from my grandmother.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "From English \"antique.\" In Japanese it is a noun that modifies with の or directly in compounds, so both アンティークの{椅子|いす} and アンティーク{椅子|いす} are natural.\n\nCOMMON COLLOCATIONS:\n- アンティーク{家具|かぐ}: antique furniture\n- アンティークショップ: antique shop\n- アンティーク{調|ちょう}: antique-style, made to look old\n- アンティーク{雑貨|ざっか}: antique-style knick-knacks\n\nSIMILAR WORDS:\n- {骨董品|こっとうひん}: antique, curio — used of Japanese and Chinese pieces, with a collector's connotation\n- ヴィンテージ: vintage — newer than アンティーク, often clothing, guitars, and wine\n- レトロ: retro — the nostalgic look, whether or not the object is actually old",
+  "notes": "From English \"antique.\" In Japanese it is a noun that modifies with ⟦の→の：09472_no⟧ or directly in compounds, so both アンティーク⟦の→の：09472_no⟧⟦{椅子|いす}→椅子：00706_isu⟧ and アンティーク⟦{椅子|いす}→椅子：00706_isu⟧ are natural.\n\nCOMMON COLLOCATIONS:\n- アンティーク⟦{家具|かぐ}→家具：12314_kagu⟧: antique furniture\n- アンティークショップ: antique shop\n- アンティーク{調|ちょう}: antique-style, made to look old\n- アンティーク⟦{雑貨|ざっか}→雑貨：10008_zakka⟧: antique-style knick-knacks\n\nSIMILAR WORDS:\n- ⟦{骨董品|こっとうひん}→骨董品：06990_kottouhin⟧: antique, curio — used of Japanese and Chinese pieces, with a collector's connotation\n- ヴィンテージ: vintage — newer than アンティーク, often clothing, guitars, and wine\n- レトロ: retro — the nostalgic look, whether or not the object is actually old",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06990_kottouhin",
+      "reading": "こっとうひん",
+      "headword": "{骨董品|こっとうひん}",
+      "label": "antique, curio"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -54,7 +63,7 @@
         "adjective-no"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "furniture",
         "culture"
@@ -62,6 +71,6 @@
       "domain": []
     },
     "created": "2026-08-22T12:17:21Z",
-    "modified": "2026-08-22T12:17:21Z"
+    "modified": "2026-09-02T04:02:41Z"
   }
 }

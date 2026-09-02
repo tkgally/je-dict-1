@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "09179_hinkaku_ex1",
-      "japanese": "{品格|ひんかく}のある{人|ひと}",
+      "japanese": "{品格|ひんかく}⟦の→の：09472_no⟧⟦ある→ある：00006_aru⟧⟦{人|ひと}→人：00476_hito⟧",
       "english": "a person of dignity",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "09179_hinkaku_ex2",
-      "japanese": "{彼女|かのじょ}の{振|ふ}る{舞|ま}いには{品格|ひんかく}がある。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦の→の：09472_no⟧⟦{振|ふ}る{舞|ま}い→振る舞い：10520_furumai⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{品格|ひんかく}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There is grace in her manners.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "09179_hinkaku_ex3",
-      "japanese": "{国家|こっか}の{品格|ひんかく}は、{国民|こくみん}の{行動|こうどう}によって{示|しめ}される。",
+      "japanese": "⟦{国家|こっか}→国家：02760_kokka⟧⟦の→の：09472_no⟧{品格|ひんかく}⟦は→は：00079_ha⟧、⟦{国民|こくみん}→国民：02757_kokumin⟧⟦の→の：09472_no⟧⟦{行動|こうどう}→行動：02728_koudou⟧⟦によって→によって：06801_niyotte⟧⟦{示|しめ}される→示す：01948_shimesu⟧。",
       "english": "A nation's dignity is demonstrated by the conduct of its people.",
       "sense_numbers": [
         1
@@ -43,7 +43,7 @@
       "notes": null
     }
   ],
-  "notes": "NUANCE: {品格|ひんかく} suggests refined elegance with moral undertones. It implies both external grace and inner character. The book「{国家|こっか}の{品格|ひんかく}」(The Dignity of the Nation) made this term widely discussed in the 2000s.\n\nCOMMON COLLOCATIONS:\n- {品格|ひんかく}がある/ない (to have/lack dignity)\n- {品格|ひんかく}のある{人|ひと} (a person of refinement)\n- {品格|ひんかく}を{保|たも}つ (to maintain dignity)\n- {品格|ひんかく}を{損|そこ}なう (to damage one's dignity)\n\nRELATED WORDS:\n- {品|ひん} (elegance, refinement)\n- {気品|きひん} (elegance, grace)\n- {風格|ふうかく} (dignity, character)\n- {威厳|いげん} (dignity, majesty - more imposing)",
+  "notes": "NUANCE: {品格|ひんかく} suggests refined elegance with moral undertones. It implies both external grace and inner character. The book「⟦{国家|こっか}→国家：02760_kokka⟧⟦の→の：09472_no⟧{品格|ひんかく}」(The Dignity of the Nation) made this term widely discussed in the 2000s.\n\nCOMMON COLLOCATIONS:\n- {品格|ひんかく}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧/⟦ない→ない：01118_nai⟧ (to have/lack dignity)\n- {品格|ひんかく}⟦の→の：09472_no⟧⟦ある→ある：00006_aru⟧⟦{人|ひと}→人：00476_hito⟧ (a person of refinement)\n- {品格|ひんかく}⟦を→を：00422_wo⟧⟦{保|たも}つ→保つ：10134_tamotsu⟧ (to maintain dignity)\n- {品格|ひんかく}⟦を→を：00422_wo⟧⟦{損|そこ}なう→損なう：18061_sokonau⟧ (to damage one's dignity)\n\nRELATED WORDS:\n- ⟦{品|ひん}→品：03712_hin⟧ (elegance, refinement)\n- ⟦{気品|きひん}→気品：13255_kihin⟧ (elegance, grace)\n- ⟦{風格|ふうかく}→風格：09177_fuukaku⟧ (dignity, character)\n- ⟦{威厳|いげん}→威厳：10680_igen⟧ (dignity, majesty - more imposing)",
   "cross_references": [
     {
       "type": "synonym",
@@ -65,11 +65,25 @@
       "reading": "いげん",
       "headword": "{威厳|いげん}",
       "label": "more imposing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18975_hini",
+      "reading": "ひんい",
+      "headword": "{品位|ひんい}",
+      "label": "dignity"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22418_kouketsu",
+      "reading": "こうけつ",
+      "headword": "{高潔|こうけつ}",
+      "label": "noble"
     }
   ],
   "metadata": {
     "created": "2026-02-01T01:39:02Z",
-    "modified": "2026-08-12T21:25:53Z",
+    "modified": "2026-09-02T04:01:17Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

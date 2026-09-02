@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22652_shainshou_ex1",
-      "japanese": "{社員証|しゃいんしょう}を{見|み}せてください。",
+      "japanese": "{社員証|しゃいんしょう}⟦を→を：00422_wo⟧⟦{見|み}せて→見せる：01988_miseru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please show your employee ID.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22652_shainshou_ex2",
-      "japanese": "{社員証|しゃいんしょう}がないとビルに{入|はい}れない。",
+      "japanese": "{社員証|しゃいんしょう}⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧⟦と→と：00512_to⟧⟦ビル→ビル：01500_biru⟧⟦に→に：00314_ni⟧⟦{入|はい}れない→入る：00494_hairu⟧。",
       "english": "You can't enter the building without your employee ID.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22652_shainshou_ex3",
-      "japanese": "{退職|たいしょく}する{時|とき}に{社員証|しゃいんしょう}を{返却|へんきゃく}しなければならない。",
+      "japanese": "⟦{退職|たいしょく}→退職：04559_taishoku⟧⟦する→する：00392_suru⟧{時|とき}⟦に→に：00314_ni⟧{社員証|しゃいんしょう}⟦を→を：00422_wo⟧⟦{返却|へんきゃく}→返却：03149_henkyaku⟧し⟦なければならない→なければならない：27600_nakerebanaranai⟧。",
       "english": "You must return your employee ID card when you resign.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {社員|しゃいん} (company employee) and {証|しょう} (proof/certificate). In many Japanese companies, the {社員証|しゃいんしょう} doubles as a security access card and is worn on a lanyard around the neck.\n\nCOMMON COLLOCATIONS:\n- {社員証|しゃいんしょう}を{提示|ていじ}する: to present one's employee ID\n- {社員証|しゃいんしょう}を{忘|わす}れる: to forget one's employee ID\n- {社員証|しゃいんしょう}を{返却|へんきゃく}する: to return one's employee ID\n- {社員証|しゃいんしょう}をかざす: to hold up one's employee ID (to a reader)\n\nRELATED TERMS:\n- {身分証|みぶんしょう}: identification card (general)\n- {学生証|がくせいしょう}: student ID card\n- {名札|なふだ}: name tag/badge",
+  "notes": "A compound of ⟦{社員|しゃいん}→社員：03065_shain⟧ (company employee) and {証|しょう} (proof/certificate). In many Japanese companies, the {社員証|しゃいんしょう} doubles as a security access card and is worn on a lanyard around the neck.\n\nCOMMON COLLOCATIONS:\n- {社員証|しゃいんしょう}⟦を→を：00422_wo⟧⟦{提示|ていじ}する→提示する：26842_teijisuru⟧: to present one's employee ID\n- {社員証|しゃいんしょう}⟦を→を：00422_wo⟧⟦{忘|わす}れる→忘れる：00474_wasureru⟧: to forget one's employee ID\n- {社員証|しゃいんしょう}⟦を→を：00422_wo⟧⟦{返却|へんきゃく}する→返却する：21323_henkyakusuru⟧: to return one's employee ID\n- {社員証|しゃいんしょう}⟦を→を：00422_wo⟧⟦かざす→かざす：28115_kazasu⟧: to hold up one's employee ID (to a reader)\n\nRELATED WORDS:\n- ⟦{身分証|みぶんしょう}→身分証：11508_mibunshou⟧: identification card (general)\n- ⟦{学生証|がくせいしょう}→学生証：14966_gakuseishou⟧: student ID card\n- ⟦{名札|なふだ}→名札：12338_nafuda⟧: name tag/badge",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "11508_mibunshou",
+      "reading": "みぶんしょう",
+      "headword": "{身分証|みぶんしょう}",
+      "label": "identification card"
+    },
+    {
+      "type": "related",
+      "target_id": "14966_gakuseishou",
+      "reading": "がくせいしょう",
+      "headword": "{学生証|がくせいしょう}",
+      "label": "student ID card"
+    },
+    {
+      "type": "related",
+      "target_id": "12338_nafuda",
+      "reading": "なふだ",
+      "headword": "{名札|なふだ}",
+      "label": "name tag/badge"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -56,9 +79,9 @@
         "business"
       ],
       "formality": "neutral",
-      "politeness": null
+      "politeness": "plain"
     },
     "created": "2026-04-06T21:24:32Z",
-    "modified": "2026-04-06T21:24:32Z"
+    "modified": "2026-09-02T04:02:09Z"
   }
 }

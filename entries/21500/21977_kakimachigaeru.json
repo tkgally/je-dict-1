@@ -3,7 +3,7 @@
   "headword": "{書|か}き{間違|まちが}える",
   "reading": "かきまちがえる",
   "romaji": "kakimachigaeru",
-  "part_of_speech": "verb-ichidan",
+  "part_of_speech": "verb (ichidan)",
   "gloss": "to write incorrectly; to misspell; to make a writing mistake",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21977_kakimachigaeru_ex1",
-      "japanese": "{名前|なまえ}を{書|か}き{間違|まちが}えた。",
+      "japanese": "⟦{名前|なまえ}→名前：02234_namae⟧⟦を→を：00422_wo⟧{書|か}き{間違|まちが}えた。",
       "english": "I wrote the name wrong.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21977_kakimachigaeru_ex2",
-      "japanese": "{漢字|かんじ}を{書|か}き{間違|まちが}えることがよくある。",
+      "japanese": "⟦{漢字|かんじ}→漢字：09480_kanji⟧⟦を→を：00422_wo⟧{書|か}き{間違|まちが}えること⟦が→が：00051_ga⟧⟦よく→よく：00601_yoku⟧⟦ある→ある：00006_aru⟧。",
       "english": "I often write kanji incorrectly.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21977_kakimachigaeru_ex3",
-      "japanese": "{住所|じゅうしょ}を{書|か}き{間違|まちが}えたせいで、{荷物|にもつ}が{届|とど}かなかった。",
+      "japanese": "⟦{住所|じゅうしょ}→住所：01430_juusho⟧⟦を→を：00422_wo⟧{書|か}き{間違|まちが}えたせい⟦で→で：00502_de⟧、⟦{荷物|にもつ}→荷物：00737_nimotsu⟧⟦が→が：00051_ga⟧⟦{届|とど}かなかった→届く：00899_todoku⟧。",
       "english": "The package didn't arrive because I wrote the address wrong.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "A compound verb combining {書|か}く (to write) + {間違|まちが}える (to make a mistake). This is a productive pattern in Japanese where a verb stem + {間違|まちが}える means 'to do [verb] incorrectly.'\n\nCOMMON COLLOCATIONS:\n- {漢字|かんじ}を{書|か}き{間違|まちが}える: to write a kanji wrong\n- {名前|なまえ}を{書|か}き{間違|まちが}える: to write a name incorrectly\n- {住所|じゅうしょ}を{書|か}き{間違|まちが}える: to write an address wrong\n- {数字|すうじ}を{書|か}き{間違|まちが}える: to write a number wrong\n\nRELATED COMPOUND VERBS:\n- {読|よ}み{間違|まちが}える: to read incorrectly\n- {聞|き}き{間違|まちが}える: to mishear\n- {言|い}い{間違|まちが}える: to say incorrectly\n\nTRANSITIVITY:\nTransitive. Takes an object with を.",
+  "notes": "A compound verb combining ⟦{書|か}く→書く：00477_kaku⟧ (to write) + ⟦{間違|まちが}える→間違える：01109_machigaeru⟧ (to make a mistake). This is a productive pattern in Japanese where a verb stem + ⟦{間違|まちが}える→間違える：01109_machigaeru⟧ means 'to do [verb] incorrectly.'\n\nCOMMON COLLOCATIONS:\n- ⟦{漢字|かんじ}→漢字：09480_kanji⟧⟦を→を：00422_wo⟧{書|か}き{間違|まちが}える: to write a kanji wrong\n- ⟦{名前|なまえ}→名前：02234_namae⟧⟦を→を：00422_wo⟧{書|か}き{間違|まちが}える: to write a name incorrectly\n- ⟦{住所|じゅうしょ}→住所：01430_juusho⟧⟦を→を：00422_wo⟧{書|か}き{間違|まちが}える: to write an address wrong\n- ⟦{数字|すうじ}→数字：03361_suuji⟧⟦を→を：00422_wo⟧{書|か}き{間違|まちが}える: to write a number wrong\n\nRELATED COMPOUND VERBS:\n- ⟦{読|よ}み→読む：00426_yomu⟧⟦{間違|まちが}える→間違える：01109_machigaeru⟧: to read incorrectly\n- ⟦{聞|き}き→聞く：00483_kiku⟧⟦{間違|まちが}える→間違える：01109_machigaeru⟧: to mishear\n- ⟦{言|い}い→言う：00515_iu⟧⟦{間違|まちが}える→間違える：01109_machigaeru⟧: to say incorrectly\n\nTRANSITIVITY:\nTransitive. Takes an object with ⟦を→を：00422_wo⟧.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22109_kakisokoneru",
+      "reading": "かきそこねる",
+      "headword": "{書|か}き{損|そこ}ねる",
+      "label": "to fail to write"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,7 +70,7 @@
       "verb_class": "ichidan"
     },
     "created": "2026-04-04T18:27:49Z",
-    "modified": "2026-04-10T06:37:10Z"
+    "modified": "2026-09-02T04:02:06Z"
   },
   "conjugation": {
     "type": "ichidan",

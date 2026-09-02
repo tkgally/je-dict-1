@@ -3,7 +3,7 @@
   "headword": "{桁外|けたはず}れ",
   "reading": "けたはずれ",
   "romaji": "ketahazure",
-  "part_of_speech": "na-adjective / noun",
+  "part_of_speech": "na-adjective, noun",
   "gloss": "extraordinary; off the charts; outrageous",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "18533_ketahazure_ex1",
-      "japanese": "{桁外|けたはず}れの{才能|さいのう}だ。",
+      "japanese": "{桁外|けたはず}れ⟦の→の：09472_no⟧⟦{才能|さいのう}→才能：02772_sainou⟧だ。",
       "english": "It's extraordinary talent.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "18533_ketahazure_ex2",
-      "japanese": "あの{選手|せんしゅ}は{桁外|けたはず}れに{速|はや}い。",
+      "japanese": "⟦あの→あの：00915_ano⟧⟦{選手|せんしゅ}→選手：03823_senshu⟧⟦は→は：00079_ha⟧{桁外|けたはず}れ⟦に→に：00314_ni⟧⟦{速|はや}い→速い：00514_hayai⟧。",
       "english": "That athlete is extraordinarily fast.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "18533_ketahazure_ex3",
-      "japanese": "このレストランは{桁外|けたはず}れに{高|たか}いが、{味|あじ}は{最高|さいこう}だ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦レストラン→レストラン：01048_resutoran⟧⟦は→は：00079_ha⟧{桁外|けたはず}れ⟦に→に：00314_ni⟧⟦{高|たか}い→高い：00500_takai⟧⟦が→が：00051_ga⟧、⟦{味|あじ}→味：00826_aji⟧⟦は→は：00079_ha⟧⟦{最高|さいこう}→最高：02637_saikou⟧だ。",
       "english": "This restaurant is outrageously expensive, but the food is superb.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "{桁外|けたはず}れ describes something so extreme that it falls completely outside the normal range or scale.\n\nUSAGE:\n- Functions as a な-adjective and as a noun. The literal meaning, 'off the digit column,' comes from the abacus: a number so large that the columns can no longer represent it.\n- Can be positive (extraordinarily talented) or negative (outrageously bad), depending on context.\n- The な form modifies a noun directly; the に form is used adverbially.\n\nPREDICATE VS. MODIFIER:\n- Modifier: {桁外|けたはず}れな{才能|さいのう} (extraordinary talent), {桁外|けたはず}れの{金額|きんがく} (an outrageous sum)\n- Adverbial: {桁外|けたはず}れに{大|おお}きい (extraordinarily large), {桁外|けたはず}れに{速|はや}い (off-the-charts fast)\n- Predicate: その{選手|せんしゅ}のスピードは{桁外|けたはず}れだ (that athlete's speed is in another league)\n\nSIMILAR WORDS:\n- {規格外|きかくがい}: out of specification, off-standard (often used for unusual size or quality).\n- {破格|はかく}: exceptional, unprecedented (often used for prices or treatment).\n- {並外|なみはず}れ: out of the ordinary (closest synonym; slightly less extreme in feel).",
+  "notes": "{桁外|けたはず}れ describes something so extreme that it falls completely outside the normal range or scale.\n\nUSAGE:\n- Functions as a な-adjective and as a noun. The literal meaning, 'off the digit column,' comes from the abacus: a number so large that the columns can no longer represent it.\n- Can be positive (extraordinarily talented) or negative (outrageously bad), depending on context.\n- The な form modifies a noun directly; the ⟦に→に：00314_ni⟧ form is used adverbially.\n- Modifier: {桁外|けたはず}れな⟦{才能|さいのう}→才能：02772_sainou⟧ (extraordinary talent), {桁外|けたはず}れ⟦の→の：09472_no⟧⟦{金額|きんがく}→金額：02665_kingaku⟧ (an outrageous sum)\n- Adverbial: {桁外|けたはず}れ⟦に→に：00314_ni⟧⟦{大|おお}きい→大きい：00335_ookii⟧ (extraordinarily large), {桁外|けたはず}れ⟦に→に：00314_ni⟧⟦{速|はや}い→速い：00514_hayai⟧ (off-the-charts fast)\n- Predicate: ⟦その→その：00993_sono⟧⟦{選手|せんしゅ}→選手：03823_senshu⟧⟦の→の：09472_no⟧⟦スピード→スピード：11048_supiido⟧⟦は→は：00079_ha⟧{桁外|けたはず}れだ (that athlete's speed is in another league)\n\nSIMILAR WORDS:\n- {規格外|きかくがい}: out of specification, off-standard (often used for unusual size or quality).\n- ⟦{破格|はかく}→破格：20236_hakaku⟧: exceptional, unprecedented (often used for prices or treatment).\n- ⟦{並外|なみはず}れ→並外れる：22973_namihazureru⟧: out of the ordinary (closest synonym; slightly less extreme in feel).",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20236_hakaku",
+      "reading": "はかく",
+      "headword": "{破格|はかく}",
+      "label": "exceptional, unprecedented (often used…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22973_namihazureru",
+      "reading": "なみはずれる",
+      "headword": "{並外|なみはず}れる",
+      "label": "to be exceptional"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +76,6 @@
       ]
     },
     "created": "2026-03-22T04:43:56Z",
-    "modified": "2026-04-10T13:28:57Z"
+    "modified": "2026-09-02T04:01:52Z"
   }
 }

@@ -15,40 +15,74 @@
   "examples": [
     {
       "id": "19693_kondankai_ex1",
-      "japanese": "{保護者|ほごしゃ}{懇談会|こんだんかい}に{出席|しゅっせき}した。",
+      "japanese": "⟦{保護者|ほごしゃ}→保護者：11564_hogosha⟧{懇談会|こんだんかい}⟦に→に：00314_ni⟧⟦{出席|しゅっせき}した→出席する：01830_shussekisuru⟧。",
       "english": "I attended the parent-teacher meeting.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19693_kondankai_ex2",
-      "japanese": "{地域|ちいき}の{懇談会|こんだんかい}で{防災|ぼうさい}について{話|はな}し{合|あ}った。",
+      "japanese": "⟦{地域|ちいき}→地域：01461_chiiki⟧⟦の→の：09472_no⟧{懇談会|こんだんかい}⟦で→で：00502_de⟧⟦{防災|ぼうさい}→防災：07907_bousai⟧⟦について→〜について：03103_nitsuite⟧⟦{話|はな}し{合|あ}った→話し合う：02396_hanashiau⟧。",
       "english": "We discussed disaster preparedness at a community meeting.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19693_kondankai_ex3",
-      "japanese": "{市長|しちょう}と{市民|しみん}の{懇談会|こんだんかい}が{来週|らいしゅう}{開|ひら}かれる{予定|よてい}だ。",
+      "japanese": "⟦{市長|しちょう}→市長：12472_shichou⟧⟦と→と：00512_to⟧⟦{市民|しみん}→市民：01426_shimin⟧⟦の→の：09472_no⟧{懇談会|こんだんかい}⟦が→が：00051_ga⟧⟦{来週|らいしゅう}→来週：00746_raishuu⟧⟦{開|ひら}かれる→開く：01979_hiraku⟧⟦{予定|よてい}→予定：00824_yotei⟧だ。",
       "english": "A roundtable between the mayor and citizens is scheduled for next week.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "While {懇談|こんだん} means friendly or informal talk, {懇談会|こんだんかい} as a compound refers to an organized event — not a casual chat. Very common in school settings ({保護者|ほごしゃ}{懇談会|こんだんかい}, parent-teacher meetings) and in government or business contexts (roundtables, forums).\n\nCOMMON COLLOCATIONS:\n- {保護者|ほごしゃ}{懇談会|こんだんかい}: parent-teacher meeting\n- {懇談会|こんだんかい}を{開|ひら}く: to hold an informal meeting\n- {懇談会|こんだんかい}に{出席|しゅっせき}する: to attend a meeting\n- {地域|ちいき}{懇談会|こんだんかい}: community discussion forum\n\nSIMILAR WORDS:\n- {会議|かいぎ}: meeting — more formal and structured, with an agenda\n- {座談会|ざだんかい}: roundtable discussion — often published or recorded, with a moderator\n- {懇親会|こんしんかい}: social gathering — focused on socializing and networking, often with food and drink",
+  "notes": "While ⟦{懇談|こんだん}→懇談：16576_kondan⟧ means friendly or informal talk, {懇談会|こんだんかい} as a compound refers to an organized event — not a casual chat. Very common in school settings (⟦{保護者|ほごしゃ}→保護者：11564_hogosha⟧{懇談会|こんだんかい}, parent-teacher meetings) and in government or business contexts (roundtables, forums).\n\nCOMMON COLLOCATIONS:\n- ⟦{保護者|ほごしゃ}→保護者：11564_hogosha⟧{懇談会|こんだんかい}: parent-teacher meeting\n- {懇談会|こんだんかい}⟦を→を：00422_wo⟧⟦{開|ひら}く→開く：01979_hiraku⟧: to hold an informal meeting\n- {懇談会|こんだんかい}⟦に→に：00314_ni⟧⟦{出席|しゅっせき}する→出席する：01830_shussekisuru⟧: to attend a meeting\n- ⟦{地域|ちいき}→地域：01461_chiiki⟧{懇談会|こんだんかい}: community discussion forum\n\nSIMILAR WORDS:\n- ⟦{会議|かいぎ}→会議：00710_kaigi⟧: meeting — more formal and structured, with an agenda\n- ⟦{座談会|ざだんかい}→座談会：12549_zadankai⟧: roundtable discussion — often published or recorded, with a moderator\n- ⟦{懇親会|こんしんかい}→懇親会：17926_konshinkai⟧: social gathering — focused on socializing and networking, often with food and drink",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00710_kaigi",
+      "reading": "かいぎ",
+      "headword": "{会議|かいぎ}",
+      "label": "meeting"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12549_zadankai",
+      "reading": "ざだんかい",
+      "headword": "{座談会|ざだんかい}",
+      "label": "roundtable discussion"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17926_konshinkai",
+      "reading": "こんしんかい",
+      "headword": "{懇親会|こんしんかい}",
+      "label": "social gathering"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["communication", "society"]
+      "semantic": [
+        "communication",
+        "society"
+      ]
     },
     "created": "2026-03-26T12:38:04Z",
-    "modified": "2026-03-26T12:38:04Z"
+    "modified": "2026-09-02T04:01:56Z"
   }
 }

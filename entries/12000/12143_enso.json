@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "12143_enso_ex1",
-      "japanese": "プールの{塩素|えんそ}の{匂|にお}いがする。",
+      "japanese": "⟦プール→プール：02958_puuru⟧⟦の→の：09472_no⟧{塩素|えんそ}⟦の→の：09472_no⟧⟦{匂|にお}い→匂い：00874_nioi⟧⟦が→が：00051_ga⟧⟦する→する：00392_suru⟧。",
       "english": "I can smell the chlorine from the pool.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "12143_enso_ex2",
-      "japanese": "{水道水|すいどうすい}は{塩素|えんそ}で{消毒|しょうどく}されている。",
+      "japanese": "⟦{水道水|すいどうすい}→水道水：25349_suidousui⟧⟦は→は：00079_ha⟧{塩素|えんそ}⟦で→で：00502_de⟧⟦{消毒|しょうどく}→消毒：07591_shoudoku⟧⟦されている→する：00392_suru⟧。",
       "english": "Tap water is disinfected with chlorine.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "12143_enso_ex3",
-      "japanese": "{塩素|えんそ}{系|けい}の{漂白剤|ひょうはくざい}を{使|つか}うときは、{換気|かんき}を{十分|じゅうぶん}に{行|おこな}ってください。",
+      "japanese": "{塩素|えんそ}⟦{系|けい}→〜系：28466_kei⟧⟦の→の：09472_no⟧⟦{漂白剤|ひょうはくざい}→漂白剤：07035_hyouhakuzai⟧⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧とき⟦は→は：00079_ha⟧、⟦{換気|かんき}→換気：00172_kanki⟧⟦を→を：00422_wo⟧⟦{十分|じゅうぶん}→十分：01614_juubun⟧⟦に→に：00314_ni⟧⟦{行|おこな}って→行う：01238_okonau⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "When using chlorine-based bleach, please ensure adequate ventilation.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nIn everyday life, {塩素|えんそ} is most commonly discussed in the context of tap water treatment and swimming pool maintenance. The kanji {塩|えん} (salt) reflects that chlorine was historically obtained from salt ({塩|しお}).\n\nCOMMON COLLOCATIONS:\n- {塩素|えんそ}{消毒|しょうどく}: chlorine disinfection\n- {塩素|えんそ}{系|けい}: chlorine-based\n- {塩素|えんそ}{濃度|のうど}: chlorine concentration\n- {残留|ざんりゅう}{塩素|えんそ}: residual chlorine",
+  "notes": "USAGE:\nIn everyday life, {塩素|えんそ} is most commonly discussed in the context of tap water treatment and swimming pool maintenance. The kanji {塩|えん} (salt) reflects that chlorine was historically obtained from salt (⟦{塩|しお}→塩：00887_shio⟧).\n\nCOMMON COLLOCATIONS:\n- {塩素|えんそ}⟦{消毒|しょうどく}→消毒：07591_shoudoku⟧: chlorine disinfection\n- {塩素|えんそ}⟦{系|けい}→〜系：28466_kei⟧: chlorine-based\n- {塩素|えんそ}⟦{濃度|のうど}→濃度：00325_noudo⟧: chlorine concentration\n- ⟦{残留|ざんりゅう}→残留：18406_zanryuu⟧{塩素|えんそ}: residual chlorine",
   "cross_references": [
     {
       "type": "related",
@@ -59,11 +59,18 @@
       "headword": "{水素|すいそ}",
       "label": "hydrogen",
       "target_id": "00387_suiso"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26417_enkabutsu",
+      "reading": "えんかぶつ",
+      "headword": "{塩化物|えんかぶつ}",
+      "label": "chloride"
     }
   ],
   "metadata": {
     "created": "2026-02-20T09:00:04Z",
-    "modified": "2026-08-16T12:31:26Z",
+    "modified": "2026-09-02T04:01:27Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

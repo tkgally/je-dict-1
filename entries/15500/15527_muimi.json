@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "15527_muimi_ex1",
-      "japanese": "そんな{議論|ぎろん}は{無意味|むいみ}だ。",
+      "japanese": "⟦そんな→そんな：01645_sonna⟧⟦{議論|ぎろん}→議論：02650_giron⟧⟦は→は：00079_ha⟧{無意味|むいみ}だ。",
       "english": "That kind of debate is pointless.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "15527_muimi_ex2",
-      "japanese": "{無意味|むいみ}な{規則|きそく}が{多|おお}すぎる。",
+      "japanese": "{無意味|むいみ}な⟦{規則|きそく}→規則：01382_kisoku⟧⟦が→が：00051_ga⟧{多|おお}すぎる。",
       "english": "There are too many meaningless rules.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "15527_muimi_ex3",
-      "japanese": "{結果|けっか}が{変|か}わらないなら、やり{直|なお}しても{無意味|むいみ}ではないだろうか。",
+      "japanese": "⟦{結果|けっか}→結果：02486_kekka⟧⟦が→が：00051_ga⟧⟦{変|か}わらない→変わる：00714_kawaru⟧なら、⟦やり{直|なお}して→やり直す：03172_yarinaosu⟧⟦も→も：00484_mo⟧{無意味|むいみ}⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦ない→ない：01118_nai⟧だろう⟦か→か：09473_ka⟧。",
       "english": "If the result won't change, isn't it pointless to redo it?",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{無意味|むいみ} is a direct, common way to say something is meaningless or pointless. It can be used as a noun (meaning \"meaninglessness\") or as a na-adjective modifier.\n\nCOMMON COLLOCATIONS:\n- {無意味|むいみ}な{行為|こうい} (a meaningless act)\n- {無意味|むいみ}な{努力|どりょく} (pointless effort)\n- {無意味|むいみ}に{終|お}わる (to end up being meaningless)\n- {全|まった}く{無意味|むいみ}だ (completely meaningless)\n\nGRAMMAR:\nFunctions as a noun or na-adjective ({無意味|むいみ}な).",
+  "notes": "USAGE:\n{無意味|むいみ} is a direct, common way to say something is meaningless or pointless. It can be used as a noun (meaning \"meaninglessness\") or as a na-adjective modifier.\n\nCOMMON COLLOCATIONS:\n- {無意味|むいみ}な⟦{行為|こうい}→行為：10021_koui⟧ (a meaningless act)\n- {無意味|むいみ}な⟦{努力|どりょく}→努力：03490_doryoku⟧ (pointless effort)\n- {無意味|むいみ}⟦に→に：00314_ni⟧{終|お}わる (to end up being meaningless)\n- ⟦{全|まった}く→全く：02363_mattaku⟧{無意味|むいみ}だ (completely meaningless)\n\nCOMMON PATTERNS:\nFunctions as a noun or na-adjective ({無意味|むいみ}な).",
   "cross_references": [
     {
       "type": "antonym",
@@ -52,11 +52,18 @@
       "reading": "ゆういぎ",
       "headword": "{有意義|ゆういぎ}",
       "label": "meaningful, worthwhile"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29854_mukachi",
+      "reading": "むかち",
+      "headword": "{無価値|むかち}",
+      "label": "worthless"
     }
   ],
   "metadata": {
     "created": "2026-03-07T09:34:07Z",
-    "modified": "2026-05-01T07:30:21Z",
+    "modified": "2026-09-02T04:01:41Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

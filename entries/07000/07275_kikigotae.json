@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "07275_kikigotae_ex1",
-      "japanese": "この{曲|きょく}は{聞|き}き{応|ごた}えがある。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{曲|きょく}→曲：09881_kyoku⟧⟦は→は：00079_ha⟧{聞|き}き{応|ごた}え⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "This song is worth listening to.",
       "has_audio": false,
       "sense_numbers": [
@@ -23,7 +23,7 @@
     },
     {
       "id": "07275_kikigotae_ex2",
-      "japanese": "{聞|き}き{応|ごた}えのある{講演|こうえん}だった。",
+      "japanese": "{聞|き}き{応|ごた}え⟦の→の：09472_no⟧⟦ある→ある：00006_aru⟧⟦{講演|こうえん}→講演：02735_kouen⟧だった。",
       "english": "It was a satisfying lecture to listen to.",
       "has_audio": false,
       "sense_numbers": [
@@ -32,7 +32,7 @@
     },
     {
       "id": "07275_kikigotae_ex3",
-      "japanese": "オーケストラの{演奏|えんそう}は{聞|き}き{応|ごた}え{十分|じゅうぶん}だった。",
+      "japanese": "⟦オーケストラ→オーケストラ：04466_ookesutora⟧⟦の→の：09472_no⟧⟦{演奏|えんそう}→演奏：01896_ensou⟧⟦は→は：00079_ha⟧{聞|き}き{応|ごた}え⟦{十分|じゅうぶん}→十分：01614_juubun⟧だった。",
       "english": "The orchestra's performance was truly impressive to hear.",
       "has_audio": false,
       "sense_numbers": [
@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "notes": "WORD FORMATION:\n{聞|き}く (to listen) + {応|こた}え (response/worth) → worth listening to\n\nCOMMON EXPRESSIONS:\n・{聞|き}き{応|ごた}えがある (is worth listening to)\n・{聞|き}き{応|ごた}えのある{音楽|おんがく} (music worth listening to)\n・{聞|き}き{応|ごた}え{十分|じゅうぶん} (fully satisfying to listen to)\n\nRELATED ～{応|ごた}え WORDS:\n・{読|よ}み{応|ごた}え (worth reading)\n・{見応|みごた}え (worth seeing)\n・{歯応|はごた}え (chewiness; challenge)\n・{手応|てごた}え (response; feedback)\n\nUSAGE:\nUsed for music, speeches, lectures, podcasts—any audio content that provides depth and satisfaction.",
+  "notes": "FORMS:\n⟦{聞|き}く→聞く：00483_kiku⟧ (to listen) + {応|こた}え (response/worth) → worth listening to\n\nCOMMON EXPRESSIONS:\n- {聞|き}き{応|ごた}え⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧ (is worth listening to)\n- {聞|き}き{応|ごた}え⟦の→の：09472_no⟧⟦ある→ある：00006_aru⟧⟦{音楽|おんがく}→音楽：00661_ongaku⟧ (music worth listening to)\n- {聞|き}き{応|ごた}え⟦{十分|じゅうぶん}→十分：01614_juubun⟧ (fully satisfying to listen to)\n\nRELATED ～{応|ごた}え WORDS:\n- ⟦{読|よ}み{応|ごた}え→読み応え：07273_yomigotae⟧ (worth reading)\n- ⟦{見応|みごた}え→見応え：07274_migotae⟧ (worth seeing)\n- ⟦{歯応|はごた}え→歯応え：07272_hagotae⟧ (chewiness; challenge)\n- ⟦{手応|てごた}え→手応え：06635_tegotae⟧ (response; feedback)\n\nUSAGE:\nUsed for music, speeches, lectures, podcasts—any audio content that provides depth and satisfaction.",
   "cross_references": [
     {
       "type": "related",
@@ -48,11 +48,32 @@
       "headword": "{見応|みごた}え",
       "label": "worth seeing",
       "target_id": "07274_migotae"
+    },
+    {
+      "type": "related",
+      "target_id": "07273_yomigotae",
+      "reading": "よみごたえ",
+      "headword": "{読|よ}み{応|ごた}え",
+      "label": "worth reading"
+    },
+    {
+      "type": "related",
+      "target_id": "07272_hagotae",
+      "reading": "はごたえ",
+      "headword": "{歯応|はごた}え",
+      "label": "chewiness"
+    },
+    {
+      "type": "related",
+      "target_id": "06635_tegotae",
+      "reading": "てごたえ",
+      "headword": "{手応|てごた}え",
+      "label": "response"
     }
   ],
   "metadata": {
     "created": "2026-01-19T03:26:27Z",
-    "modified": "2026-01-24T14:24:36Z",
+    "modified": "2026-09-02T04:01:10Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

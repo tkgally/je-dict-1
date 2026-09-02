@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26747_zokuseichi_ex1",
-      "japanese": "{属性値|ぞくせいち}を{変更|へんこう}する。",
+      "japanese": "{属性値|ぞくせいち}⟦を→を：00422_wo⟧⟦{変更|へんこう}する→変更する：30779_henkousuru⟧。",
       "english": "Change the attribute value.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26747_zokuseichi_ex2",
-      "japanese": "HTMLタグの{属性値|ぞくせいち}を{正|ただ}しく{設定|せってい}してください。",
+      "japanese": "HTML⟦タグ→タグ：11034_tagu⟧⟦の→の：09472_no⟧{属性値|ぞくせいち}⟦を→を：00422_wo⟧⟦{正|ただ}しく→正しい：00893_tadashii⟧⟦{設定|せってい}→設定：04767_settei⟧⟦して→する：00392_suru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please set the HTML tag attribute values correctly.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26747_zokuseichi_ex3",
-      "japanese": "このゲームではキャラクターの{属性値|ぞくせいち}によって{戦闘|せんとう}の{結果|けっか}が{大|おお}きく{変|か}わる。",
+      "japanese": "⟦この→この：00962_kono⟧⟦ゲーム→ゲーム：03842_geemu⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦キャラクター→キャラクター：23518_kyarakutaa⟧⟦の→の：09472_no⟧{属性値|ぞくせいち}⟦によって→によって：06801_niyotte⟧⟦{戦闘|せんとう}→戦闘：12639_sentou⟧⟦の→の：09472_no⟧⟦{結果|けっか}→結果：02486_kekka⟧⟦が→が：00051_ga⟧⟦{大|おお}きく→大きい：00335_ookii⟧⟦{変|か}わる→変わる：00714_kawaru⟧。",
       "english": "In this game, the outcome of battles changes significantly depending on the character's attribute values.",
       "sense_numbers": [
         1
@@ -44,8 +44,16 @@
       "notes": null
     }
   ],
-  "notes": "A technical term composed of {属性|ぞくせい} (attribute, property) and {値|ち} (value). Used across multiple domains: in programming (HTML/CSS/XML attributes), databases (field values), and gaming (character stats like strength, agility, etc.).\n\nCOMMON COLLOCATIONS:\n- {属性値|ぞくせいち}を{設定|せってい}する: to set an attribute value\n- {属性値|ぞくせいち}を{取得|しゅとく}する: to get/retrieve an attribute value\n- {属性値|ぞくせいち}の{一覧|いちらん}: list of attribute values\n- {属性値|ぞくせいち}が{高|たか}い: high attribute value (gaming)\n\nRELATED TERMS:\n- {属性|ぞくせい}: attribute, property — the characteristic itself\n- {属性名|ぞくせいめい}: attribute name — the label that identifies the attribute\n- {初期値|しょきち}: initial value, default value",
-  "cross_references": [],
+  "notes": "A technical term composed of ⟦{属性|ぞくせい}→属性：12431_zokusei⟧ (attribute, property) and {値|ち} (value). Used across multiple domains: in programming (HTML/CSS/XML attributes), databases (field values), and gaming (character stats like strength, agility, etc.).\n\nCOMMON COLLOCATIONS:\n- {属性値|ぞくせいち}⟦を→を：00422_wo⟧⟦{設定|せってい}→設定：04767_settei⟧⟦する→する：00392_suru⟧: to set an attribute value\n- {属性値|ぞくせいち}⟦を→を：00422_wo⟧⟦{取得|しゅとく}する→取得する：10444_shutokusuru⟧: to get/retrieve an attribute value\n- {属性値|ぞくせいち}⟦の→の：09472_no⟧⟦{一覧|いちらん}→一覧：17694_ichiran⟧: list of attribute values\n- {属性値|ぞくせいち}⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧: high attribute value (gaming)\n\nRELATED WORDS:\n- ⟦{属性|ぞくせい}→属性：12431_zokusei⟧: attribute, property — the characteristic itself\n- {属性名|ぞくせいめい}: attribute name — the label that identifies the attribute\n- ⟦{初期値|しょきち}→初期値：23365_shokichi⟧: initial value, default value",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "23365_shokichi",
+      "reading": "しょきち",
+      "headword": "{初期値|しょきち}",
+      "label": "initial value, default value"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -63,6 +71,6 @@
       ]
     },
     "created": "2026-05-04T15:34:08Z",
-    "modified": "2026-08-06T12:46:55Z"
+    "modified": "2026-09-02T04:02:27Z"
   }
 }

@@ -54,7 +54,7 @@
     },
     {
       "id": "03031_toho_ex5",
-      "japanese": "⟦{天気|てんき}→天気：00582_tenki⟧⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧⟦{日|ひ}→日：02249_hi⟧⟦は→は：00079_ha⟧、⟦バス→バス：00769_basu⟧⟦に→に：00314_ni⟧⟦{乗|の}らないで→乗る：00511_noru⟧{徒歩|とほ}⟦で→で：00502_de⟧⟦{通勤|つうきん}→通勤：03512_tsuukin⟧している。",
+      "japanese": "⟦{天気|てんき}→天気：00582_tenki⟧⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧⟦{日|ひ}→日：02249_hi⟧⟦は→は：00079_ha⟧、⟦バス→バス：00769_basu⟧⟦に→に：00314_ni⟧⟦{乗|の}らないで→乗る：00511_noru⟧{徒歩|とほ}⟦で→で：00502_de⟧⟦{通勤|つうきん}→通勤：03512_tsuukin⟧⟦している→する：00392_suru⟧。",
       "english": "On nice days, I commute on foot without taking the bus.",
       "notes": null,
       "has_audio": false,
@@ -63,11 +63,26 @@
       ]
     }
   ],
-  "notes": "{徒歩|とほ} means traveling on foot (without a vehicle).\n\nCOMMON PATTERNS:\n- {徒歩|とほ}⟦で→で：00502_de⟧⟦{行|い}く→行く：00119_iku⟧ (go on foot)\n- {徒歩|とほ}〜⟦{分|ふん}→分：00928_fun⟧ (~ minutes on foot)\n- {徒歩|とほ}⟦{圏内|けんない}→圏内：16392_kennai⟧ (within walking distance)\n- ⟦{駅|えき}→駅：02180_eki⟧⟦から→から：00504_kara⟧{徒歩|とほ}5⟦{分|ふん}→分：00928_fun⟧ (5-minute walk from station)\n\nReal estate listings commonly use {徒歩|とほ}〜⟦{分|ふん}→分：00928_fun⟧ to indicate distance from stations.\n\nRELATED:\n- ⟦{歩|ある}いて→歩く：00538_aruku⟧: on foot (casual)\n- ⟦{歩行|ほこう}→歩行：21865_hokou⟧: walking (formal/technical)",
-  "cross_references": [],
+  "notes": "{徒歩|とほ} means traveling on foot (without a vehicle).\n\nCOMMON PATTERNS:\n- {徒歩|とほ}⟦で→で：00502_de⟧⟦{行|い}く→行く：00119_iku⟧ (go on foot)\n- {徒歩|とほ}〜⟦{分|ふん}→分：00928_fun⟧ (~ minutes on foot)\n- {徒歩|とほ}⟦{圏内|けんない}→圏内：16392_kennai⟧ (within walking distance)\n- ⟦{駅|えき}→駅：02180_eki⟧⟦から→から：00504_kara⟧{徒歩|とほ}5⟦{分|ふん}→分：00928_fun⟧ (5-minute walk from station)\n\nReal estate listings commonly use {徒歩|とほ}〜⟦{分|ふん}→分：00928_fun⟧ to indicate distance from stations.\n\nRELATED WORDS:\n- ⟦{歩|ある}いて→歩く：00538_aruku⟧: on foot (casual)\n- ⟦{歩行|ほこう}→歩行：21865_hokou⟧: walking (formal/technical)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "00538_aruku",
+      "reading": "あるく",
+      "headword": "{歩|ある}く",
+      "label": "on foot"
+    },
+    {
+      "type": "related",
+      "target_id": "21865_hokou",
+      "reading": "ほこう",
+      "headword": "{歩行|ほこう}",
+      "label": "walking"
+    }
+  ],
   "metadata": {
     "created": "2026-01-11T10:41:41Z",
-    "modified": "2026-05-23T15:11:59Z",
+    "modified": "2026-09-02T04:01:02Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

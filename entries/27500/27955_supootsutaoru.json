@@ -15,41 +15,67 @@
   "examples": [
     {
       "id": "27955_supootsutaoru_ex1",
-      "japanese": "{首|くび}にスポーツタオルをかける。",
+      "japanese": "⟦{首|くび}→首：00792_kubi⟧⟦に→に：00314_ni⟧スポーツタオル⟦を→を：00422_wo⟧⟦かける→かける：00854_kakeru⟧。",
       "english": "I drape a sports towel around my neck.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27955_supootsutaoru_ex2",
-      "japanese": "ジムにスポーツタオルを{持|も}っていく。",
+      "japanese": "⟦ジム→ジム：04735_jimu⟧⟦に→に：00314_ni⟧スポーツタオル⟦を→を：00422_wo⟧⟦{持|も}っていく→持っていく：27431_motteiku⟧。",
       "english": "I take a sports towel to the gym.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27955_supootsutaoru_ex3",
-      "japanese": "{応援|おうえん}グッズとして、チーム{名|めい}{入|い}りのスポーツタオルが{売|う}られている。",
+      "japanese": "⟦{応援|おうえん}→応援：01900_ouen⟧⟦グッズ→グッズ：10800_guzzu⟧⟦として→として：06802_toshite⟧、⟦チーム→チーム：03858_chiimu⟧{名|めい}{入|い}り⟦の→の：09472_no⟧スポーツタオル⟦が→が：00051_ga⟧⟦{売|う}られている→売る：00906_uru⟧。",
       "english": "Sports towels printed with the team name are sold as cheering goods.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A long, thin towel (longer than a face towel) meant to hang around the neck. Often sold with team logos or designs as fan merchandise at concerts and sporting events.\n\nSIMILAR WORDS:\n- タオル: towel — the general word\n- バスタオル: bath towel — large, for drying the body after bathing",
+  "notes": "A long, thin towel (longer than a face towel) meant to hang around the neck. Often sold with team logos or designs as fan merchandise at concerts and sporting events.\n\nSIMILAR WORDS:\n- ⟦タオル→タオル：01533_taoru⟧: towel — the general word\n- ⟦バスタオル→バスタオル：04511_basutaoru⟧: bath towel — large, for drying the body after bathing",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "01533_taoru",
+      "reading": "たおる",
+      "headword": "タオル",
+      "label": "towel"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04511_basutaoru",
+      "reading": "ばすたおる",
+      "headword": "バスタオル",
+      "label": "bath towel"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["leisure"],
+      "semantic": [
+        "leisure"
+      ],
       "domain": []
     },
     "created": "2026-05-23T04:06:38Z",
-    "modified": "2026-05-23T04:06:38Z"
+    "modified": "2026-09-02T04:02:32Z"
   }
 }

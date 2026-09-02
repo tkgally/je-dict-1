@@ -3,7 +3,7 @@
   "headword": "{悲劇的|ひげきてき}",
   "reading": "ひげきてき",
   "romaji": "higekiteki",
-  "part_of_speech": "adjective-na",
+  "part_of_speech": "na-adjective",
   "gloss": "tragic",
   "definitions": [
     {
@@ -15,41 +15,60 @@
   "examples": [
     {
       "id": "28215_higekiteki_ex1",
-      "japanese": "{悲劇的|ひげきてき}な{結末|けつまつ}を{迎|むか}えた。",
+      "japanese": "{悲劇的|ひげきてき}な⟦{結末|けつまつ}→結末：15091_ketsumatsu⟧⟦を→を：00422_wo⟧⟦{迎|むか}えた→迎える：01193_mukaeru⟧。",
       "english": "It came to a tragic end.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28215_higekiteki_ex2",
-      "japanese": "{事故|じこ}は{悲劇的|ひげきてき}な{結果|けっか}になった。",
+      "japanese": "⟦{事故|じこ}→事故：00851_jiko⟧⟦は→は：00079_ha⟧{悲劇的|ひげきてき}な⟦{結果|けっか}→結果：02486_kekka⟧になった。",
       "english": "The accident had tragic results.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28215_higekiteki_ex3",
-      "japanese": "{戦争|せんそう}の{悲劇的|ひげきてき}な{歴史|れきし}を{繰|く}り{返|かえ}してはならない。",
+      "japanese": "⟦{戦争|せんそう}→戦争：01450_sensou⟧⟦の→の：09472_no⟧{悲劇的|ひげきてき}な⟦{歴史|れきし}→歴史：02267_rekishi⟧⟦を→を：00422_wo⟧⟦{繰|く}り{返|かえ}して→繰り返す：02051_kurikaesu⟧⟦は→は：00079_ha⟧⟦ならない→なる：01970_naru⟧。",
       "english": "We must not repeat the tragic history of war.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "From {悲劇|ひげき} (tragedy) plus 〜{的|てき}, the suffix that turns a noun into a na-adjective meaning '-like, -al'.\n\nCOMMON COLLOCATIONS:\n- {悲劇的|ひげきてき}な{結末|けつまつ}: a tragic ending\n- {悲劇的|ひげきてき}な{運命|うんめい}: a tragic fate\n- {悲劇的|ひげきてき}な{事件|じけん}: a tragic incident\n\nSIMILAR WORDS:\n- {悲惨|ひさん}: miserable; horrific — emphasizes the wretchedness of the situation\n- {劇的|げきてき}: dramatic — a sudden, striking change, not necessarily sad",
+  "notes": "From ⟦{悲劇|ひげき}→悲劇：03577_higeki⟧ (tragedy) plus 〜⟦{的|てき}→〜的：09839_teki⟧, the suffix that turns a noun into a na-adjective meaning '-like, -al'.\n\nCOMMON COLLOCATIONS:\n- {悲劇的|ひげきてき}な⟦{結末|けつまつ}→結末：15091_ketsumatsu⟧: a tragic ending\n- {悲劇的|ひげきてき}な⟦{運命|うんめい}→運命：06879_unmei⟧: a tragic fate\n- {悲劇的|ひげきてき}な⟦{事件|じけん}→事件：01568_jiken⟧: a tragic incident\n\nSIMILAR WORDS:\n- ⟦{悲惨|ひさん}→悲惨：12633_hisan⟧: miserable; horrific — emphasizes the wretchedness of the situation\n- ⟦{劇的|げきてき}→劇的：06830_gekiteki⟧: dramatic — a sudden, striking change, not necessarily sad",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12633_hisan",
+      "reading": "ひさん",
+      "headword": "{悲惨|ひさん}",
+      "label": "miserable"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-na"],
+      "pos": [
+        "adjective-na"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["descriptive"],
+      "politeness": "plain",
+      "semantic": [
+        "descriptive"
+      ],
       "domain": []
     },
     "created": "2026-05-27T03:08:15Z",
-    "modified": "2026-05-27T03:08:15Z"
+    "modified": "2026-09-02T04:02:32Z"
   }
 }

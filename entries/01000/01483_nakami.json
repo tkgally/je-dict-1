@@ -29,7 +29,7 @@
     },
     {
       "id": "01483_nakami_ex2",
-      "japanese": "⟦{箱|はこ}→箱：02162_hako⟧⟦の→の：09472_no⟧{中身|なかみ}⟦は→は：00079_ha⟧⟦{何|なん}→何：00498_nani⟧ですか。",
+      "japanese": "⟦{箱|はこ}→箱：02162_hako⟧⟦の→の：09472_no⟧{中身|なかみ}⟦は→は：00079_ha⟧⟦{何|なん}→何：00498_nani⟧です⟦か→か：09473_ka⟧。",
       "english": "What are the contents of the box?",
       "notes": null,
       "has_audio": false,
@@ -118,7 +118,7 @@
       ]
     }
   ],
-  "notes": "{中身|なかみ} means contents (physical) or substance/essence (abstract). It refers to what's inside something.\n\nPHYSICAL CONTENTS:\n- ⟦{箱|はこ}→箱：02162_hako⟧⟦の→の：09472_no⟧{中身|なかみ}: contents of a box\n- {中身|なかみ}⟦を→を：00422_wo⟧⟦{出|だ}す→出す：01087_dasu⟧: to take out the contents\n- {中身|なかみ}⟦が→が：00051_ga⟧⟦{空|から}っぽ→からっぽ：02354_karappo⟧: contents are empty\n\nABSTRACT SUBSTANCE:\n- ⟦{話|はなし}→話：01496_hanashi⟧⟦の→の：09472_no⟧{中身|なかみ}: substance of a story\n- {中身|なかみ}⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧: lacks substance\n- {中身|なかみ}⟦が→が：00051_ga⟧⟦{濃|こ}い→濃い：02344_koi⟧: rich in content\n\nSIMILAR WORDS:\n- ⟦{内容|ないよう}→内容：01482_naiyou⟧: content (more abstract, formal)\n- ⟦{中|なか}→中：00654_naka⟧: inside (location)\n\nDISTINCTION:\n{中身|なかみ} emphasizes the actual material/substance inside, while {内容|ないよう} is more abstract (content of a book, meeting, etc.).",
+  "notes": "{中身|なかみ} means contents (physical) or substance/essence (abstract). It refers to what's inside something.\n\nPHYSICAL CONTENTS:\n- ⟦{箱|はこ}→箱：02162_hako⟧⟦の→の：09472_no⟧{中身|なかみ}: contents of a box\n- {中身|なかみ}⟦を→を：00422_wo⟧⟦{出|だ}す→出す：01087_dasu⟧: to take out the contents\n- {中身|なかみ}⟦が→が：00051_ga⟧⟦{空|から}っぽ→からっぽ：02354_karappo⟧: contents are empty\n\nABSTRACT SUBSTANCE:\n- ⟦{話|はなし}→話：01496_hanashi⟧⟦の→の：09472_no⟧{中身|なかみ}: substance of a story\n- {中身|なかみ}⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧: lacks substance\n- {中身|なかみ}⟦が→が：00051_ga⟧⟦{濃|こ}い→濃い：02344_koi⟧: rich in content\n\nSIMILAR WORDS:\n- ⟦{内容|ないよう}→内容：01482_naiyou⟧: content (more abstract, formal)\n- ⟦{中|なか}→中：00654_naka⟧: inside (location)\n{中身|なかみ} emphasizes the actual material/substance inside, while ⟦{内容|ないよう}→内容：01482_naiyou⟧ is more abstract (content of a book, meeting, etc.).",
   "cross_references": [
     {
       "type": "contrast",
@@ -126,11 +126,18 @@
       "reading": "ないよう",
       "headword": "{内容|ないよう}",
       "label": "content (abstract)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26027_naiyoubutsu",
+      "reading": "ないようぶつ",
+      "headword": "{内容物|ないようぶつ}",
+      "label": "contents"
     }
   ],
   "metadata": {
     "created": "2026-01-08T12:34:53Z",
-    "modified": "2026-05-15T18:29:04Z",
+    "modified": "2026-09-02T04:00:59Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

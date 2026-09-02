@@ -15,40 +15,66 @@
   "examples": [
     {
       "id": "18542_koteidenwa_ex1",
-      "japanese": "{固定電話|こていでんわ}はもう{使|つか}っていない。",
+      "japanese": "{固定電話|こていでんわ}⟦は→は：00079_ha⟧⟦もう→もう：00602_mou⟧⟦{使|つか}っていない→使う：00473_tsukau⟧。",
       "english": "I don't use a landline anymore.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "18542_koteidenwa_ex2",
-      "japanese": "{会社|かいしゃ}の{固定電話|こていでんわ}に{電話|でんわ}してください。",
+      "japanese": "⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦の→の：09472_no⟧{固定電話|こていでんわ}⟦に→に：00314_ni⟧⟦{電話|でんわ}して→電話する：05652_denwasuru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please call the company's landline.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "18542_koteidenwa_ex3",
-      "japanese": "{若|わか}い{世代|せだい}は{固定電話|こていでんわ}を{持|も}たず、{携帯|けいたい}だけで{済|す}ませることが{多|おお}い。",
+      "japanese": "{若|わか}い⟦{世代|せだい}→世代：05102_sedai⟧⟦は→は：00079_ha⟧{固定電話|こていでんわ}⟦を→を：00422_wo⟧⟦{持|も}た→持つ：00478_motsu⟧ず、⟦{携帯|けいたい}→携帯：00715_keitai⟧⟦だけ→〜だけ：03093_dake⟧⟦で→で：00502_de⟧⟦{済|す}ませる→済む：01950_sumu⟧こと⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "Younger generations often get by with just a mobile phone, without having a landline.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Compound of {固定|こてい} (fixed) + {電話|でんわ} (telephone). Contrasts with {携帯電話|けいたいでんわ} (mobile phone) and スマホ (smartphone).\n\nCOMMON COLLOCATIONS:\n- {固定電話|こていでんわ}の{番号|ばんごう}: landline number\n- {固定電話|こていでんわ}を{引|ひ}く: to install a landline\n- {固定電話|こていでんわ}を{解約|かいやく}する: to cancel a landline\n\nIN JAPAN:\nLandline numbers start with area codes (e.g., 03 for {東京|とうきょう}, 06 for {大阪|おおさか}). Ownership was once important for credit checks and official registrations, but mobile phones have largely replaced them.\n\nALTERNATE NAMES:\n- {家電|いえでん}: home phone (colloquial abbreviation)\n- {家|いえ}の{電話|でんわ}: house phone",
+  "notes": "Compound of ⟦{固定|こてい}→固定：10996_kotei⟧ (fixed) + ⟦{電話|でんわ}→電話：01471_denwa⟧ (telephone). Contrasts with ⟦{携帯電話|けいたいでんわ}→携帯電話：04433_keitaidenwa⟧ (mobile phone) and ⟦スマホ→スマホ：04721_sumaho⟧ (smartphone).\n\nCOMMON COLLOCATIONS:\n- {固定電話|こていでんわ}⟦の→の：09472_no⟧⟦{番号|ばんごう}→番号：02939_bangou⟧: landline number\n- {固定電話|こていでんわ}⟦を→を：00422_wo⟧⟦{引|ひ}く→引く：01978_hiku⟧: to install a landline\n- {固定電話|こていでんわ}⟦を→を：00422_wo⟧⟦{解約|かいやく}→解約：06129_kaiyaku⟧⟦する→する：00392_suru⟧: to cancel a landline\n\nCULTURAL NOTE:\nLandline numbers start with area codes (e.g., 03 for ⟦{東京|とうきょう}→東京：09564_toukyou⟧, 06 for ⟦{大阪|おおさか}→大阪：09779_oosaka⟧). Ownership was once important for credit checks and official registrations, but mobile phones have largely replaced them.\n\nALTERNATE NAMES:\n- {家電|いえでん}: home phone (colloquial abbreviation)\n- ⟦{家|いえ}→家：00612_ie⟧⟦の→の：09472_no⟧⟦{電話|でんわ}→電話：01471_denwa⟧: house phone",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "05652_denwasuru",
+      "reading": "でんわする",
+      "headword": "{電話|でんわ}する",
+      "label": "to call, to phone"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22854_denwaki",
+      "reading": "でんわき",
+      "headword": "{電話機|でんわき}",
+      "label": "telephone (device)"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["electronics"]
+      "semantic": [
+        "electronics"
+      ]
     },
     "created": "2026-03-22T04:46:37Z",
-    "modified": "2026-04-04T01:54:53Z"
+    "modified": "2026-09-02T04:01:52Z"
   }
 }

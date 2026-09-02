@@ -3,7 +3,7 @@
   "headword": "{遺存|いそん}",
   "reading": "いそん",
   "romaji": "ison",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "survival; remaining from the past; vestige",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26455_ison_ex1",
-      "japanese": "{古代|こだい}の{遺存|いそん}{物|ぶつ}が{発見|はっけん}された。",
+      "japanese": "⟦{古代|こだい}→古代：05324_kodai⟧⟦の→の：09472_no⟧{遺存|いそん}⟦{物|ぶつ}→〜物：28336_butsu⟧⟦が→が：00051_ga⟧⟦{発見|はっけん}→発見：00085_hakken⟧⟦された→する：00392_suru⟧。",
       "english": "Ancient remains were discovered.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26455_ison_ex2",
-      "japanese": "この{地域|ちいき}には{中世|ちゅうせい}の{建築|けんちく}が{遺存|いそん}している。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{地域|ちいき}→地域：01461_chiiki⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{中世|ちゅうせい}→中世：05524_chuusei⟧⟦の→の：09472_no⟧⟦{建築|けんちく}→建築：02709_kenchiku⟧⟦が→が：00051_ga⟧{遺存|いそん}⟦している→する：00392_suru⟧。",
       "english": "Medieval architecture survives in this area.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26455_ison_ex3",
-      "japanese": "{遺存|いそん}{状態|じょうたい}が{良|よ}い{化石|かせき}は{研究|けんきゅう}{価値|かち}が{高|たか}い。",
+      "japanese": "{遺存|いそん}⟦{状態|じょうたい}→状態：03345_joutai⟧⟦が→が：00051_ga⟧⟦{良|よ}い→良い：02350_yoi⟧⟦{化石|かせき}→化石：11796_kaseki⟧⟦は→は：00079_ha⟧⟦{研究|けんきゅう}→研究：01396_kenkyuu⟧⟦{価値|かち}→価値：00131_kachi⟧⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧。",
       "english": "Fossils in a good state of preservation have high research value.",
       "sense_numbers": [
         1
@@ -44,8 +44,23 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {遺|い} (to leave behind, bequeath) and {存|そん} (to exist, to survive). Can function as a noun or as a suru verb ({遺存|いそん}する, meaning to survive or remain from the past). Common in academic writing about history, archaeology, and natural history.\n\nCOMMON COLLOCATIONS:\n- {遺存|いそん}する: to survive from the past\n- {遺存|いそん}{状態|じょうたい}: state of preservation\n- {遺存|いそん}{物|ぶつ}: surviving remains, vestiges\n- {遺存|いそん}{種|しゅ}: surviving species, relict species\n\nSIMILAR WORDS:\n- {遺跡|いせき}: ruins, archaeological site — the physical location where historical remains are found\n- {残存|ざんそん}: survival, remaining — a more general term for things that still exist\n- {遺物|いぶつ}: artifact, relic — specific objects left behind from the past",
-  "cross_references": [],
+  "notes": "Composed of {遺|い} (to leave behind, bequeath) and {存|そん} (to exist, to survive). Can function as a noun or as a suru verb ({遺存|いそん}⟦する→する：00392_suru⟧, meaning to survive or remain from the past). Common in academic writing about history, archaeology, and natural history.\n\nCOMMON COLLOCATIONS:\n- {遺存|いそん}⟦する→する：00392_suru⟧: to survive from the past\n- {遺存|いそん}⟦{状態|じょうたい}→状態：03345_joutai⟧: state of preservation\n- {遺存|いそん}⟦{物|ぶつ}→〜物：28336_butsu⟧: surviving remains, vestiges\n- {遺存|いそん}⟦{種|しゅ}→種：28584_shu⟧: surviving species, relict species\n\nSIMILAR WORDS:\n- ⟦{遺跡|いせき}→遺跡：09527_iseki⟧: ruins, archaeological site — the physical location where historical remains are found\n- {残存|ざんそん}: survival, remaining — a more general term for things that still exist\n- ⟦{遺物|いぶつ}→遺物：14545_ibutsu⟧: artifact, relic — specific objects left behind from the past",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09527_iseki",
+      "reading": "いせき",
+      "headword": "{遺跡|いせき}",
+      "label": "ruins, archaeological site"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14545_ibutsu",
+      "reading": "いぶつ",
+      "headword": "{遺物|いぶつ}",
+      "label": "artifact, relic"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -54,13 +69,16 @@
         "noun",
         "verb-suru"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "history"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     },
     "created": "2026-05-02T11:28:44Z",
-    "modified": "2026-06-15T07:59:29Z"
+    "modified": "2026-09-02T04:02:26Z"
   },
   "conjugation": {
     "type": "suru",

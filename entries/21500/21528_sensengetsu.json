@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21528_sensengetsu_ex1",
-      "japanese": "{先々月|せんせんげつ}に{引|ひ}っ{越|こ}した。",
+      "japanese": "{先々月|せんせんげつ}⟦に→に：00314_ni⟧⟦{引|ひ}っ{越|こ}した→引っ越す：01171_hikkosu⟧。",
       "english": "I moved two months ago.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21528_sensengetsu_ex2",
-      "japanese": "{先々月|せんせんげつ}から{準備|じゅんび}を{始|はじ}めた。",
+      "japanese": "{先々月|せんせんげつ}⟦から→から：00504_kara⟧⟦{準備|じゅんび}→準備：01431_junbi⟧⟦を→を：00422_wo⟧⟦{始|はじ}めた→始める：00531_hajimeru⟧。",
       "english": "I started preparing the month before last.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21528_sensengetsu_ex3",
-      "japanese": "{先々月|せんせんげつ}の{電気代|でんきだい}がいつもより{高|たか}かった。",
+      "japanese": "{先々月|せんせんげつ}⟦の→の：09472_no⟧⟦{電気代|でんきだい}→電気代：09543_denkidai⟧⟦が→が：00051_ga⟧⟦いつも→いつも：00599_itsumo⟧⟦より→より：09476_yori⟧⟦{高|たか}かった→高い：00500_takai⟧。",
       "english": "The electricity bill from the month before last was higher than usual.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Formed by doubling {先|せん} in {先月|せんげつ} (last month). This doubling pattern is productive in Japanese time words.\n\nRELATED TIME WORDS:\n- {先月|せんげつ}: last month\n- {先々月|せんせんげつ}: the month before last\n- {先週|せんしゅう}: last week\n- {先々週|せんせんしゅう}: the week before last\n- {一昨年|おととし}: the year before last (note: uses a different pattern)\n\nUSAGE:\nFunctions as a time noun that can modify verbs directly without a particle, or take の to modify another noun: {先々月|せんせんげつ}の{売|う}り{上|あ}げ (sales from the month before last). For months further back, use ～か{月前|げつまえ}: {三|さん}か{月前|げつまえ} (three months ago).",
+  "notes": "Formed by doubling {先|せん} in ⟦{先月|せんげつ}→先月：00751_sengetsu⟧ (last month). This doubling pattern is productive in Japanese time words.\n\nRELATED TIME WORDS:\n- ⟦{先月|せんげつ}→先月：00751_sengetsu⟧: last month\n- {先々月|せんせんげつ}: the month before last\n- ⟦{先週|せんしゅう}→先週：00752_senshuu⟧: last week\n- ⟦{先々週|せんせんしゅう}→先々週：11496_sensenshuu⟧: the week before last\n- {一昨年|おととし}: the year before last (note: uses a different pattern)\n\nUSAGE:\nFunctions as a time noun that can modify verbs directly without a particle, or take ⟦の→の：09472_no⟧ to modify another noun: {先々月|せんせんげつ}⟦の→の：09472_no⟧{売|う}り{上|あ}げ (sales from the month before last). For months further back, use ～か{月前|げつまえ}: ⟦{三|さん}→三：00749_san⟧か{月前|げつまえ} (three months ago).",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -59,7 +59,7 @@
       ]
     },
     "created": "2026-04-02T15:21:53Z",
-    "modified": "2026-08-05T12:27:45Z"
+    "modified": "2026-09-02T04:02:04Z"
   },
   "cross_references": [
     {
@@ -68,6 +68,20 @@
       "reading": "せんげつ",
       "headword": "{先月|せんげつ}",
       "label": "last month"
+    },
+    {
+      "type": "related",
+      "target_id": "00752_senshuu",
+      "reading": "せんしゅう",
+      "headword": "{先週|せんしゅう}",
+      "label": "last week"
+    },
+    {
+      "type": "related",
+      "target_id": "11496_sensenshuu",
+      "reading": "せんせんしゅう",
+      "headword": "{先々週|せんせんしゅう}",
+      "label": "the week before last"
     }
   ]
 }

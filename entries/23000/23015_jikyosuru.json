@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "23015_jikyosuru_ex1",
-      "japanese": "{挨拶|あいさつ}を{済|す}ませて{辞去|じきょ}した。",
+      "japanese": "⟦{挨拶|あいさつ}→挨拶：02505_aisatsu⟧⟦を→を：00422_wo⟧⟦{済|す}ませて→済む：01950_sumu⟧{辞去|じきょ}した。",
       "english": "After exchanging greetings, I took my leave.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "23015_jikyosuru_ex2",
-      "japanese": "{夜|よる}も{遅|おそ}くなったので、そろそろ{辞去|じきょ}することにした。",
+      "japanese": "⟦{夜|よる}→夜：00487_yoru⟧⟦も→も：00484_mo⟧⟦{遅|おそ}く→遅い：00533_osoi⟧⟦なった→なる：01970_naru⟧⟦の→の：09472_no⟧で、⟦そろそろ→そろそろ：01259_sorosoro⟧{辞去|じきょ}することにした。",
       "english": "As it was getting late, I decided it was time to take my leave.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "23015_jikyosuru_ex3",
-      "japanese": "{社長|しゃちょう}に{礼|れい}を{述|の}べてから、{静|しず}かに{辞去|じきょ}した。",
+      "japanese": "⟦{社長|しゃちょう}→社長：01428_shachou⟧⟦に→に：00314_ni⟧⟦{礼|れい}→礼：02170_rei⟧⟦を→を：00422_wo⟧⟦{述|の}べて→述べる：02389_noberu⟧⟦から→から：00504_kara⟧、⟦{静|しず}か→静か：00755_shizuka⟧⟦に→に：00314_ni⟧{辞去|じきょ}した。",
       "english": "After expressing thanks to the company president, I quietly took my leave.",
       "sense_numbers": [
         1
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "A formal, literary word for leaving or departing from a social visit or meeting. Used in written narratives, formal accounts, and polite contexts. Not used in everyday casual conversation.\n\nCOMMON COLLOCATIONS:\n- {静|しず}かに{辞去|じきょ}する: to quietly take one's leave\n- {礼|れい}を{述|の}べて{辞去|じきょ}する: to take one's leave after expressing thanks\n- そろそろ{辞去|じきょ}する: to take one's leave now (polite)\n\nSIMILAR WORDS:\n- {帰|かえ}る: to go home — the everyday, neutral word for leaving to go home\n- {退出|たいしゅつ}する: to leave (a room/meeting) — formal; used for leaving meetings or official gatherings\n- おいとまする: to take one's leave — polite conversational expression; more commonly heard than {辞去|じきょ}する\n- {失礼|しつれい}する: to excuse oneself — polite way to leave; very commonly used\n\nREGISTER:\nFormal and literary. More commonly seen in written accounts, novels, and formal narratives than in spoken conversation.",
+  "notes": "A formal, literary word for leaving or departing from a social visit or meeting. Used in written narratives, formal accounts, and polite contexts. Not used in everyday casual conversation.\n\nCOMMON COLLOCATIONS:\n- ⟦{静|しず}か→静か：00755_shizuka⟧⟦に→に：00314_ni⟧{辞去|じきょ}する: to quietly take one's leave\n- ⟦{礼|れい}→礼：02170_rei⟧⟦を→を：00422_wo⟧⟦{述|の}べて→述べる：02389_noberu⟧{辞去|じきょ}する: to take one's leave after expressing thanks\n- ⟦そろそろ→そろそろ：01259_sorosoro⟧{辞去|じきょ}する: to take one's leave now (polite)\n\nSIMILAR WORDS:\n- ⟦{帰|かえ}る→帰る：00508_kaeru⟧: to go home — the everyday, neutral word for leaving to go home\n- ⟦{退出|たいしゅつ}する→退出する：22130_taishutsusuru⟧: to leave (a room/meeting) — formal; used for leaving meetings or official gatherings\n- おいとまする: to take one's leave — polite conversational expression; more commonly heard than {辞去|じきょ}する\n- ⟦{失礼|しつれい}する→失礼する：15203_shitsureisuru⟧: to excuse oneself — polite way to leave; very commonly used\n\nREGISTER:\nFormal and literary. More commonly seen in written accounts, novels, and formal narratives than in spoken conversation.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00508_kaeru",
+      "reading": "かえる",
+      "headword": "{帰|かえ}る",
+      "label": "to go home"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22130_taishutsusuru",
+      "reading": "たいしゅつする",
+      "headword": "{退出|たいしゅつ}する",
+      "label": "to leave"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16267_oitomasuru",
+      "reading": "おいとまする",
+      "headword": "お{暇|いとま}する",
+      "label": "to take one's leave"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15203_shitsureisuru",
+      "reading": "しつれいする",
+      "headword": "{失礼|しつれい}する",
+      "label": "to excuse oneself"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,7 +91,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-08T15:45:41Z",
-    "modified": "2026-04-08T15:45:41Z"
+    "modified": "2026-09-02T04:02:10Z"
   },
   "conjugation": {
     "type": "suru",

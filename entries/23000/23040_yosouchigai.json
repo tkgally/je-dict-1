@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "23040_yosouchigai_ex1",
-      "japanese": "{結果|けっか}は{予想違|よそうちが}いだった。",
+      "japanese": "⟦{結果|けっか}→結果：02486_kekka⟧⟦は→は：00079_ha⟧{予想違|よそうちが}いだった。",
       "english": "The result was contrary to expectations.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "23040_yosouchigai_ex2",
-      "japanese": "{天気|てんき}が{予想違|よそうちが}いで{雨|あめ}になった。",
+      "japanese": "⟦{天気|てんき}→天気：00582_tenki⟧⟦が→が：00051_ga⟧{予想違|よそうちが}い⟦で→で：00502_de⟧⟦{雨|あめ}→雨：00583_ame⟧になった。",
       "english": "The weather turned out differently than expected and it rained.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "23040_yosouchigai_ex3",
-      "japanese": "{選挙|せんきょ}の{結果|けっか}は{多|おお}くの{人|ひと}にとって{予想違|よそうちが}いで、{野党|やとう}が{大勝|たいしょう}した。",
+      "japanese": "⟦{選挙|せんきょ}→選挙：03303_senkyo⟧⟦の→の：09472_no⟧⟦{結果|けっか}→結果：02486_kekka⟧⟦は→は：00079_ha⟧{多|おお}く⟦の→の：09472_no⟧⟦{人|ひと}→人：00476_hito⟧⟦にとって→にとって：06803_nitotte⟧{予想違|よそうちが}いで、⟦{野党|やとう}→野党：02438_yatou⟧⟦が→が：00051_ga⟧{大勝|たいしょう}⟦した→する：00392_suru⟧。",
       "english": "The election results were unexpected for many people, with the opposition winning a landslide.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {予想|よそう} (prediction, expectation) and {違|ちが}い (difference, mistake). Part of a family of ～{違|ちが}い compounds that express something being different from what was intended or expected.\n\nRELATED ～{違|ちが}い COMPOUNDS:\n- {見当違|けんとうちが}い: wrong guess, barking up the wrong tree\n- {勘違|かんちが}い: misunderstanding, wrong impression\n- {場違|ばちが}い: out of place, inappropriate for the setting\n- {筋違|すじちが}い: unreasonable, misdirected\n\nSIMILAR WORDS:\n- {予想外|よそうがい}: unexpected — similar meaning but used as an adjective/adverb ({予想外|よそうがい}の{展開|てんかい}, unexpected development)\n- {期待外|きたいはず}れ: disappointment — specifically when reality falls short of hopes\n- {想定外|そうていがい}: beyond assumption — more formal, often used for things that could not have been foreseen",
+  "notes": "Composed of ⟦{予想|よそう}→予想：03664_yosou⟧ (prediction, expectation) and ⟦{違|ちが}い→違い：03432_chigai⟧ (difference, mistake). Part of a family of ～⟦{違|ちが}い→違い：03432_chigai⟧ compounds that express something being different from what was intended or expected.\n\nRELATED ～{違|ちが}い COMPOUNDS:\n- ⟦{見当違|けんとうちが}い→見当違い：18771_kentouchigai⟧: wrong guess, barking up the wrong tree\n- ⟦{勘違|かんちが}い→勘違い：17609_kanchigai⟧: misunderstanding, wrong impression\n- ⟦{場違|ばちが}い→場違い：10565_bachigai⟧: out of place, inappropriate for the setting\n- ⟦{筋違|すじちが}い→筋違い：21040_sujichigai⟧: unreasonable, misdirected\n\nSIMILAR WORDS:\n- ⟦{予想外|よそうがい}→予想外：03188_yosougai⟧: unexpected — similar meaning but used as an adjective/adverb (⟦{予想外|よそうがい}→予想外：03188_yosougai⟧⟦の→の：09472_no⟧⟦{展開|てんかい}→展開：04542_tenkai⟧, unexpected development)\n- ⟦{期待外|きたいはず}れ→期待外れ：23139_kitaihazure⟧: disappointment — specifically when reality falls short of hopes\n- ⟦{想定外|そうていがい}→想定外：17518_souteigai⟧: beyond assumption — more formal, often used for things that could not have been foreseen",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03188_yosougai",
+      "reading": "よそうがい",
+      "headword": "{予想外|よそうがい}",
+      "label": "unexpected"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23139_kitaihazure",
+      "reading": "きたいはずれ",
+      "headword": "{期待外|きたいはず}れ",
+      "label": "disappointment"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17518_souteigai",
+      "reading": "そうていがい",
+      "headword": "{想定外|そうていがい}",
+      "label": "beyond assumption"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +82,6 @@
       ]
     },
     "created": "2026-04-08T16:32:50Z",
-    "modified": "2026-04-10T08:28:27Z"
+    "modified": "2026-09-02T04:02:10Z"
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "11347_furin_ex1",
-      "japanese": "{不倫|ふりん}は{許|ゆる}せない。",
+      "japanese": "{不倫|ふりん}⟦は→は：00079_ha⟧⟦{許|ゆる}せない→許す：02325_yurusu⟧。",
       "english": "Adultery is unforgivable.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "11347_furin_ex2",
-      "japanese": "{有名人|ゆうめいじん}の{不倫|ふりん}がニュースになった。",
+      "japanese": "⟦{有名人|ゆうめいじん}→有名人：17812_yuumeijin⟧⟦の→の：09472_no⟧{不倫|ふりん}⟦が→が：00051_ga⟧⟦ニュース→ニュース：04437_nyuusu⟧になった。",
       "english": "A celebrity's affair made the news.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "11347_furin_ex3",
-      "japanese": "{不倫|ふりん}{相手|あいて}との{関係|かんけい}がバレて、{離婚|りこん}{騒動|そうどう}に{発展|はってん}した。",
+      "japanese": "{不倫|ふりん}⟦{相手|あいて}→相手：01677_aite⟧⟦と→と：00512_to⟧⟦の→の：09472_no⟧⟦{関係|かんけい}→関係：01298_kankei⟧⟦が→が：00051_ga⟧バレて、⟦{離婚|りこん}→離婚：02530_rikon⟧⟦{騒動|そうどう}→騒動：14656_soudou⟧⟦に→に：00314_ni⟧⟦{発展|はってん}した→発展する：25331_hattensuru⟧。",
       "english": "The relationship with the affair partner was exposed, leading to a divorce scandal.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nVery commonly seen in tabloid news and entertainment media. In Japanese society, {不倫|ふりん} scandals can severely damage public figures' careers.\n\nWORD FORMATION:\n{不|ふ} (not) + {倫|りん} (ethics, morality)\n\nCOMMON COLLOCATIONS:\n- {不倫|ふりん}{相手|あいて}: affair partner\n- {不倫|ふりん}{関係|かんけい}: extramarital relationship\n- {不倫|ふりん}がバレる: to have an affair exposed\n- {不倫|ふりん}{騒動|そうどう}: adultery scandal",
+  "notes": "USAGE:\nVery commonly seen in tabloid news and entertainment media. In Japanese society, {不倫|ふりん} scandals can severely damage public figures' careers.\n\nFORMS:\n{不|ふ} (not) + {倫|りん} (ethics, morality)\n\nCOMMON COLLOCATIONS:\n- {不倫|ふりん}⟦{相手|あいて}→相手：01677_aite⟧: affair partner\n- {不倫|ふりん}⟦{関係|かんけい}→関係：01298_kankei⟧: extramarital relationship\n- {不倫|ふりん}⟦が→が：00051_ga⟧バレる: to have an affair exposed\n- {不倫|ふりん}⟦{騒動|そうどう}→騒動：14656_soudou⟧: adultery scandal",
   "cross_references": [
     {
       "type": "synonym",
@@ -52,11 +52,25 @@
       "reading": "うわき",
       "headword": "{浮気|うわき}",
       "label": "cheating (colloquial)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23641_ryakudatsuai",
+      "reading": "りゃくだつあい",
+      "headword": "{略奪愛|りゃくだつあい}",
+      "label": "stealing someone away from their partner"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24341_jouji",
+      "reading": "じょうじ",
+      "headword": "{情事|じょうじ}",
+      "label": "love affair"
     }
   ],
   "metadata": {
     "created": "2026-02-16T01:06:12Z",
-    "modified": "2026-06-30T06:28:36Z",
+    "modified": "2026-09-02T04:01:24Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "10787_kasutera_ex1",
-      "japanese": "カステラを{切|き}る。",
+      "japanese": "カステラ⟦を→を：00422_wo⟧⟦{切|き}る→切る：02693_kiru⟧。",
       "english": "To cut castella.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "10787_kasutera_ex2",
-      "japanese": "{長崎|ながさき}のカステラはおみやげに{人気|にんき}がある。",
+      "japanese": "⟦{長崎|ながさき}→長崎：30731_nagasaki⟧⟦の→の：09472_no⟧カステラ⟦は→は：00079_ha⟧おみやげ⟦に→に：00314_ni⟧⟦{人気|にんき}→人気：01488_ninki⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "Nagasaki castella is popular as a souvenir.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "10787_kasutera_ex3",
-      "japanese": "おばあちゃんがカステラを{焼|や}いてくれたので、{緑茶|りょくちゃ}と{一緒|いっしょ}に{食|た}べた。",
+      "japanese": "⟦おばあちゃん→おばあちゃん：10968_obaachan⟧⟦が→が：00051_ga⟧カステラ⟦を→を：00422_wo⟧⟦{焼|や}いて→焼く：01123_yaku⟧⟦くれた→くれる：00724_kureru⟧⟦の→の：09472_no⟧で、⟦{緑茶|りょくちゃ}→緑茶：10971_ryokucha⟧⟦と→と：00512_to⟧⟦{一緒|いっしょ}→一緒：02848_issho⟧⟦に→に：00314_ni⟧⟦{食|た}べた→食べる：00396_taberu⟧。",
       "english": "Grandma baked castella for us, so we had it with green tea.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,19 @@
       ]
     }
   ],
-  "notes": "ETYMOLOGY:\nFrom Portuguese \"pao de Castela\" (bread of Castile). Introduced to Japan through {長崎|ながさき} during the Portuguese trade era in the 16th century.\n\nCULTURAL NOTE:\n{長崎|ながさき}カステラ is the most famous variety. The bottom of a traditional castella has a thin, slightly crunchy sugar layer called ザラメ. Castella is a standard gift item and pairs well with Japanese tea.\n\nCOMMON COLLOCATIONS:\n- {長崎|ながさき}カステラ: Nagasaki castella\n- カステラの{底|そこ}: bottom of castella (prized for the sugar crystals)\n- {抹茶|まっちゃ}カステラ: matcha-flavored castella",
-  "cross_references": [],
+  "notes": "ETYMOLOGY:\nFrom Portuguese \"pao de Castela\" (bread of Castile). Introduced to Japan through ⟦{長崎|ながさき}→長崎：30731_nagasaki⟧ during the Portuguese trade era in the 16th century.\n\nCULTURAL NOTE:\n⟦{長崎|ながさき}→長崎：30731_nagasaki⟧カステラ is the most famous variety. The bottom of a traditional castella has a thin, slightly crunchy sugar layer called ザラメ. Castella is a standard gift item and pairs well with Japanese tea.\n\nCOMMON COLLOCATIONS:\n- ⟦{長崎|ながさき}→長崎：30731_nagasaki⟧カステラ: Nagasaki castella\n- カステラ⟦の→の：09472_no⟧⟦{底|そこ}→底：12560_soko⟧: bottom of castella (prized for the sugar crystals)\n- ⟦{抹茶|まっちゃ}→抹茶：10574_maccha⟧カステラ: matcha-flavored castella",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "28811_mushipan",
+      "reading": "むしぱん",
+      "headword": "{蒸|む}しパン",
+      "label": "steamed cake"
+    }
+  ],
   "metadata": {
     "created": "2026-02-10T08:06:05Z",
-    "modified": "2026-06-28T03:46:26Z",
+    "modified": "2026-09-02T04:01:22Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

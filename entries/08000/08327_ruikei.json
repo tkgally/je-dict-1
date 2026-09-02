@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08327_ruikei_ex1",
-      "japanese": "{累計|るいけい}{販売|はんばい}{数|すう}は{百万部|ひゃくまんぶ}を{超|こ}えた。",
+      "japanese": "{累計|るいけい}⟦{販売|はんばい}→販売：03573_hanbai⟧⟦{数|すう}→数：03360_suu⟧⟦は→は：00079_ha⟧{百万部|ひゃくまんぶ}⟦を→を：00422_wo⟧⟦{超|こ}えた→超える：01942_koeru⟧。",
       "english": "Cumulative sales have exceeded one million copies.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "08327_ruikei_ex2",
-      "japanese": "{今月|こんげつ}までの{累計|るいけい}で{五千万円|ごせんまんえん}です。",
+      "japanese": "⟦{今月|こんげつ}→今月：00720_kongetsu⟧⟦まで→まで：00490_made⟧⟦の→の：09472_no⟧{累計|るいけい}⟦で→で：00502_de⟧{五千万円|ごせんまんえん}です。",
       "english": "The cumulative total up to this month is 50 million yen.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "08327_ruikei_ex3",
-      "japanese": "{感染者|かんせんしゃ}の{累計|るいけい}が{発表|はっぴょう}された。",
+      "japanese": "⟦{感染者|かんせんしゃ}→感染者：28388_kansensha⟧⟦の→の：09472_no⟧{累計|るいけい}⟦が→が：00051_ga⟧⟦{発表|はっぴょう}→発表：03562_happyou⟧⟦された→する：00392_suru⟧。",
       "english": "The cumulative number of infected people was announced.",
       "sense_numbers": [
         1
@@ -43,7 +43,7 @@
       "notes": null
     }
   ],
-  "notes": "FORMATION:\n{累|るい} (accumulate, pile up) + {計|けい} (total, calculation) → accumulated total\n\nCAN FUNCTION AS:\n- Noun: {累計|るいけい}で (in cumulative terms)\n- No-adjective: {累計|るいけい}の{売上|うりあげ} (cumulative sales)\n\nCOMMON COLLOCATIONS:\n- {累計|るいけい}{販売|はんばい}{数|すう}/{部数|ぶすう} (cumulative sales/copies)\n- {累計|るいけい}{来場者|らいじょうしゃ}{数|すう} (cumulative visitors)\n- {累計|るいけい}{利用者|りようしゃ}{数|すう} (cumulative users)\n- {累計|るいけい}で～{万|まん}/{億|おく} (cumulative total of ~ million/billion)\n\nUSAGE CONTEXT:\nFrequently used in:\n- Sales reports and business news\n- Statistics and data reporting\n- Public health announcements\n- Economic indicators\n\nRELATED:\n- {合計|ごうけい} (total, sum)\n- {総計|そうけい} (grand total)\n- {月間|げっかん}/{年間|ねんかん} (monthly/annual - often contrasted with cumulative)",
+  "notes": "FORMS:\n{累|るい} (accumulate, pile up) + ⟦{計|けい}→計：02691_kei⟧ (total, calculation) → accumulated total\n\nCAN FUNCTION AS:\n- Noun: {累計|るいけい}⟦で→で：00502_de⟧ (in cumulative terms)\n- No-adjective: {累計|るいけい}⟦の→の：09472_no⟧⟦{売上|うりあげ}→売上：04102_uriage⟧ (cumulative sales)\n\nCOMMON COLLOCATIONS:\n- {累計|るいけい}⟦{販売|はんばい}→販売：03573_hanbai⟧⟦{数|すう}→数：03360_suu⟧/{部数|ぶすう} (cumulative sales/copies)\n- {累計|るいけい}⟦{来場者|らいじょうしゃ}→来場者：19023_raijousha⟧⟦{数|すう}→数：03360_suu⟧ (cumulative visitors)\n- {累計|るいけい}⟦{利用者|りようしゃ}→利用者：03189_riyousha⟧⟦{数|すう}→数：03360_suu⟧ (cumulative users)\n- {累計|るいけい}⟦で→で：00502_de⟧～⟦{万|まん}→万：00795_man⟧/⟦{億|おく}→億：17935_oku⟧ (cumulative total of ~ million/billion)\n\nUSAGE:\nFrequently used in:\n- Sales reports and business news\n- Statistics and data reporting\n- Public health announcements\n- Economic indicators\n\nRELATED WORDS:\n- ⟦{合計|ごうけい}→合計：02817_goukei⟧ (total, sum)\n- ⟦{総計|そうけい}→総計：15248_soukei⟧ (grand total)\n- ⟦{月間|げっかん}→月間：13077_gekkan⟧/⟦{年間|ねんかん}→年間：00974_nenkan⟧ (monthly/annual - often contrasted with cumulative)",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -51,6 +51,7 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "business",
         "statistics",
@@ -58,7 +59,7 @@
       ]
     },
     "created": "2026-01-25T23:18:25Z",
-    "modified": "2026-04-20T06:28:06Z"
+    "modified": "2026-09-02T04:01:14Z"
   },
   "cross_references": [
     {
@@ -74,6 +75,41 @@
       "reading": "そうけい",
       "headword": "{総計|そうけい}",
       "label": "grand total"
+    },
+    {
+      "type": "related",
+      "target_id": "13077_gekkan",
+      "reading": "げっかん",
+      "headword": "{月間|げっかん}",
+      "label": "monthly/annual"
+    },
+    {
+      "type": "related",
+      "target_id": "00974_nenkan",
+      "reading": "ねんかん",
+      "headword": "{年間|ねんかん}",
+      "label": "monthly/annual"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22350_tsuusansuru",
+      "reading": "つうさんする",
+      "headword": "{通算|つうさん}する",
+      "label": "to total up"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24075_sekisan",
+      "reading": "せきさん",
+      "headword": "{積算|せきさん}",
+      "label": "accumulation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27381_ruishin",
+      "reading": "るいしん",
+      "headword": "{累進|るいしん}",
+      "label": "graduated, progressive (esp. of taxation, fees, or rates that increase by tier)"
     }
   ]
 }

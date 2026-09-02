@@ -15,40 +15,59 @@
   "examples": [
     {
       "id": "19040_ureshinaki_ex1",
-      "japanese": "{嬉|うれ}し{泣|な}きをする。",
+      "japanese": "{嬉|うれ}し{泣|な}き⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧。",
       "english": "To cry tears of joy.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19040_ureshinaki_ex2",
-      "japanese": "{合格|ごうかく}を{知|し}って{嬉|うれ}し{泣|な}きした。",
+      "japanese": "⟦{合格|ごうかく}→合格：02816_goukaku⟧⟦を→を：00422_wo⟧⟦{知|し}って→知る：00458_shiru⟧{嬉|うれ}し{泣|な}き⟦した→する：00392_suru⟧。",
       "english": "I cried for joy when I found out I had passed.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19040_ureshinaki_ex3",
-      "japanese": "{選手|せんしゅ}たちは{優勝|ゆうしょう}が{決|き}まった{瞬間|しゅんかん}、{嬉|うれ}し{泣|な}きしていた。",
+      "japanese": "⟦{選手|せんしゅ}→選手：03823_senshu⟧たち⟦は→は：00079_ha⟧⟦{優勝|ゆうしょう}→優勝：03647_yuushou⟧⟦が→が：00051_ga⟧⟦{決|き}まった→決まる：01233_kimaru⟧⟦{瞬間|しゅんかん}→瞬間：03226_shunkan⟧、{嬉|うれ}し{泣|な}き⟦していた→する：00392_suru⟧。",
       "english": "The players were crying tears of joy the moment the championship was decided.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "{嬉|うれ}し{泣|な}き means crying from happiness or overwhelming joy.\n\nWORD FORMATION:\n{嬉|うれ}しい (happy) + {泣|な}き (crying, noun form of {泣|な}く)\n\nCOMMON PATTERNS:\n- {嬉|うれ}し{泣|な}きをする / {嬉|うれ}し{泣|な}きする: to cry for joy\n- {嬉|うれ}し{泣|な}きの{涙|なみだ}: tears of joy\n\nTYPICAL SITUATIONS:\n- Winning a competition ({優勝|ゆうしょう})\n- Passing an exam ({合格|ごうかく})\n- Being reunited with someone\n- Receiving unexpected good news\n\nCONTRAST:\n- {悔|くや}し{泣|な}き: crying out of frustration or regret\n- {泣|な}き{笑|わら}い: laughing through tears",
+  "notes": "{嬉|うれ}し{泣|な}き means crying from happiness or overwhelming joy.\n\nFORMS:\n⟦{嬉|うれ}しい→嬉しい：00822_ureshii⟧ (happy) + {泣|な}き (crying, noun form of ⟦{泣|な}く→泣く：00655_naku⟧)\n\nCOMMON PATTERNS:\n- {嬉|うれ}し{泣|な}き⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧ / {嬉|うれ}し{泣|な}き⟦する→する：00392_suru⟧: to cry for joy\n- {嬉|うれ}し{泣|な}き⟦の→の：09472_no⟧⟦{涙|なみだ}→涙：02235_namida⟧: tears of joy\n\nTYPICAL SITUATIONS:\n- Winning a competition (⟦{優勝|ゆうしょう}→優勝：03647_yuushou⟧)\n- Passing an exam (⟦{合格|ごうかく}→合格：02816_goukaku⟧)\n- Being reunited with someone\n- Receiving unexpected good news\n\nSIMILAR WORDS:\n- {悔|くや}し{泣|な}き: crying out of frustration or regret\n- ⟦{泣|な}き{笑|わら}い→泣き笑い：08461_nakiwarai⟧: laughing through tears",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08461_nakiwarai",
+      "reading": "なきわらい",
+      "headword": "{泣|な}き{笑|わら}い",
+      "label": "laughing through tears"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["emotion"]
+      "semantic": [
+        "emotion"
+      ]
     },
     "created": "2026-03-24T04:37:49Z",
-    "modified": "2026-03-26T13:07:00Z"
+    "modified": "2026-09-02T04:01:54Z"
   }
 }

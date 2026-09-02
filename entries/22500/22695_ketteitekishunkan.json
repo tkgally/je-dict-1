@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22695_ketteitekishunkan_ex1",
-      "japanese": "{決定的瞬間|けっていてきしゅんかん}をカメラに{収|おさ}めた。",
+      "japanese": "{決定的瞬間|けっていてきしゅんかん}⟦を→を：00422_wo⟧⟦カメラ→カメラ：04417_kamera⟧⟦に→に：00314_ni⟧⟦{収|おさ}めた→収める：02022_osameru⟧。",
       "english": "I captured the decisive moment on camera.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22695_ketteitekishunkan_ex2",
-      "japanese": "{試合|しあい}の{決定的瞬間|けっていてきしゅんかん}を{見逃|みのが}した。",
+      "japanese": "⟦{試合|しあい}→試合：01601_shiai⟧⟦の→の：09472_no⟧{決定的瞬間|けっていてきしゅんかん}⟦を→を：00422_wo⟧⟦{見逃|みのが}した→見逃す：04576_minogasu⟧。",
       "english": "I missed the decisive moment of the game.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22695_ketteitekishunkan_ex3",
-      "japanese": "{歴史|れきし}の{決定的瞬間|けっていてきしゅんかん}を{記録|きろく}した{写真|しゃしん}が{展示|てんじ}されている。",
+      "japanese": "⟦{歴史|れきし}→歴史：02267_rekishi⟧⟦の→の：09472_no⟧{決定的瞬間|けっていてきしゅんかん}⟦を→を：00422_wo⟧⟦{記録|きろく}した→記録する：25341_kirokusuru⟧⟦{写真|しゃしん}→写真：00753_shashin⟧⟦が→が：00051_ga⟧⟦{展示|てんじ}→展示：12401_tenji⟧⟦されている→する：00392_suru⟧。",
       "english": "Photographs that recorded decisive moments in history are on display.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {決定的|けっていてき} (decisive, conclusive) + {瞬間|しゅんかん} (moment, instant). The phrase became widely known through French photographer Henri Cartier-Bresson's concept of 'the decisive moment' in photography. In Japanese, it is used both in the photography sense and more broadly for any critical turning point.\n\nCOMMON COLLOCATIONS:\n- {決定的瞬間|けっていてきしゅんかん}を{捉|とら}える: to capture the decisive moment\n- {決定的瞬間|けっていてきしゅんかん}を{逃|のが}す: to miss the decisive moment\n- {決定的瞬間|けっていてきしゅんかん}が{訪|おとず}れる: the decisive moment arrives\n\nSIMILAR WORDS:\n- {決定的|けっていてき}な{場面|ばめん}: a decisive scene — similar but emphasizes a broader scene or context rather than a single instant\n- {転換点|てんかんてん}: turning point — focuses on a shift in direction, while {決定的瞬間|けっていてきしゅんかん} emphasizes the single moment that seals the outcome",
+  "notes": "A compound of ⟦{決定的|けっていてき}→決定的：06828_ketteiteki⟧ (decisive, conclusive) + ⟦{瞬間|しゅんかん}→瞬間：03226_shunkan⟧ (moment, instant). The phrase became widely known through French photographer Henri Cartier-Bresson's concept of 'the decisive moment' in photography. In Japanese, it is used both in the photography sense and more broadly for any critical turning point.\n\nCOMMON COLLOCATIONS:\n- {決定的瞬間|けっていてきしゅんかん}⟦を→を：00422_wo⟧⟦{捉|とら}える→捉える：12795_toraeru⟧: to capture the decisive moment\n- {決定的瞬間|けっていてきしゅんかん}⟦を→を：00422_wo⟧⟦{逃|のが}す→逃す：04611_nogasu⟧: to miss the decisive moment\n- {決定的瞬間|けっていてきしゅんかん}⟦が→が：00051_ga⟧⟦{訪|おとず}れる→訪れる：07678_otozureru⟧: the decisive moment arrives\n\nSIMILAR WORDS:\n- ⟦{決定的|けっていてき}→決定的：06828_ketteiteki⟧な⟦{場面|ばめん}→場面：03702_bamen⟧: a decisive scene — similar but emphasizes a broader scene or context rather than a single instant\n- ⟦{転換点|てんかんてん}→転換点：09951_tenkanten⟧: turning point — focuses on a shift in direction, while {決定的瞬間|けっていてきしゅんかん} emphasizes the single moment that seals the outcome",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09951_tenkanten",
+      "reading": "てんかんてん",
+      "headword": "{転換点|てんかんてん}",
+      "label": "turning point"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,6 +70,6 @@
       "politeness": "plain"
     },
     "created": "2026-04-07T00:59:10Z",
-    "modified": "2026-08-01T06:41:09Z"
+    "modified": "2026-09-02T04:02:09Z"
   }
 }

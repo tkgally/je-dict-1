@@ -3,7 +3,7 @@
   "id": "11096_hanpuku",
   "headword": "{反復|はんぷく}",
   "reading": "はんぷく",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "repetition, iteration",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "11096_hanpuku_ex1",
-      "japanese": "{反復|はんぷく}{練習|れんしゅう}が{上達|じょうたつ}の{鍵|かぎ}だ。",
+      "japanese": "{反復|はんぷく}⟦{練習|れんしゅう}→練習：05323_renshuu⟧⟦が→が：00051_ga⟧⟦{上達|じょうたつ}→上達：03346_joutatsu⟧⟦の→の：09472_no⟧⟦{鍵|かぎ}→鍵：02189_kagi⟧だ。",
       "english": "Repeated practice is the key to improvement.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "11096_hanpuku_ex2",
-      "japanese": "{同|おな}じミスを{反復|はんぷく}しないように{気|き}をつけてください。",
+      "japanese": "⟦{同|おな}じ→同じ：02857_onaji⟧⟦ミス→ミス：00285_misu⟧⟦を→を：00422_wo⟧{反復|はんぷく}⟦しない→する：00392_suru⟧よう⟦に→に：00314_ni⟧{気|き}をつけて⟦ください→ください：02899_kudasai⟧。",
       "english": "Please be careful not to repeat the same mistakes.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "11096_hanpuku_ex3",
-      "japanese": "{単語|たんご}は{反復|はんぷく}して{覚|おぼ}えるのが{一番|いちばん}{効果的|こうかてき}な{方法|ほうほう}だ。",
+      "japanese": "⟦{単語|たんご}→単語：03413_tango⟧⟦は→は：00079_ha⟧{反復|はんぷく}⟦して→する：00392_suru⟧⟦{覚|おぼ}える→覚える：00739_oboeru⟧⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦{一番|いちばん}→一番：01140_ichiban⟧⟦{効果的|こうかてき}→効果的：04793_koukateki⟧な⟦{方法|ほうほう}→方法：03621_houhou⟧だ。",
       "english": "Memorizing vocabulary through repetition is the most effective method.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{反復|はんぷく} is a somewhat formal word often used in educational, scientific, and technical contexts. It can be used as a noun or as a suru-verb ({反復|はんぷく}する = to repeat).\n\nCOMMON COLLOCATIONS:\n- {反復|はんぷく}{練習|れんしゅう} (repetitive practice, drilling)\n- {反復|はんぷく}{学習|がくしゅう} (repetitive learning)\n- {反復|はんぷく}する (to repeat, to iterate)\n\nSIMILAR WORDS:\n- {繰|く}り{返|かえ}し: more everyday/casual term for repetition\n- {反復|はんぷく}: more formal/academic, often implies systematic repetition\n- {再発|さいはつ}: recurrence (used for diseases or problems, not for deliberate repetition)",
+  "notes": "USAGE:\n{反復|はんぷく} is a somewhat formal word often used in educational, scientific, and technical contexts. It can be used as a noun or as a suru-verb ({反復|はんぷく}⟦する→する：00392_suru⟧ = to repeat).\n\nCOMMON COLLOCATIONS:\n- {反復|はんぷく}⟦{練習|れんしゅう}→練習：05323_renshuu⟧ (repetitive practice, drilling)\n- {反復|はんぷく}⟦{学習|がくしゅう}→学習：02623_gakushuu⟧ (repetitive learning)\n- {反復|はんぷく}⟦する→する：00392_suru⟧ (to repeat, to iterate)\n\nSIMILAR WORDS:\n- ⟦{繰|く}り{返|かえ}し→繰り返し：10320_kurikaeshi⟧: more everyday/casual term for repetition\n- {反復|はんぷく}: more formal/academic, often implies systematic repetition\n- ⟦{再発|さいはつ}→再発：09017_saihatsu⟧: recurrence (used for diseases or problems, not for deliberate repetition)",
   "cross_references": [
     {
       "type": "synonym",
@@ -142,11 +142,25 @@
       "reading": "くりかえす",
       "headword": "{繰|く}り{返|かえ}す",
       "label": "to repeat (everyday)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10320_kurikaeshi",
+      "reading": "くりかえし",
+      "headword": "{繰|く}り{返|かえ}し",
+      "label": "more everyday/casual term for repetition"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09017_saihatsu",
+      "reading": "さいはつ",
+      "headword": "{再発|さいはつ}",
+      "label": "recurrence"
     }
   ],
   "metadata": {
     "created": "2026-02-13T12:41:35Z",
-    "modified": "2026-04-25T04:12:08Z",
+    "modified": "2026-09-02T04:01:23Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -159,7 +173,8 @@
       "semantic": [
         "general"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

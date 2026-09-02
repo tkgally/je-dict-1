@@ -15,41 +15,60 @@
   "examples": [
     {
       "id": "29943_nisshoujikan_ex1",
-      "japanese": "{今日|きょう}は{日照時間|にっしょうじかん}が{短|みじか}い。",
+      "japanese": "⟦{今日|きょう}→今日：00496_kyou⟧⟦は→は：00079_ha⟧{日照時間|にっしょうじかん}⟦が→が：00051_ga⟧⟦{短|みじか}い→短い：00510_mijikai⟧。",
       "english": "Today the hours of sunshine are short.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29943_nisshoujikan_ex2",
-      "japanese": "{冬|ふゆ}は{日照時間|にっしょうじかん}が{少|すく}なくなる。",
+      "japanese": "⟦{冬|ふゆ}→冬：00623_fuyu⟧⟦は→は：00079_ha⟧{日照時間|にっしょうじかん}⟦が→が：00051_ga⟧⟦{少|すく}なく→少ない：01136_sukunai⟧⟦なる→なる：01970_naru⟧。",
       "english": "In winter the hours of daylight decrease.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29943_nisshoujikan_ex3",
-      "japanese": "この{地域|ちいき}は{日照時間|にっしょうじかん}が{長|なが}く、{野菜|やさい}がよく{育|そだ}つ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{地域|ちいき}→地域：01461_chiiki⟧⟦は→は：00079_ha⟧{日照時間|にっしょうじかん}⟦が→が：00051_ga⟧⟦{長|なが}く→長い：00491_nagai⟧、⟦{野菜|やさい}→野菜：02265_yasai⟧⟦が→が：00051_ga⟧⟦よく→よく：00601_yoku⟧⟦{育|そだ}つ→育つ：01951_sodatsu⟧。",
       "english": "This region has long hours of sunshine, so vegetables grow well.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {日照|にっしょう} ('sunshine') + {時間|じかん} ('time'). A meteorological measure that is also relevant to farming, gardening, and real estate.\n\nCOMMON COLLOCATIONS:\n- {日照時間|にっしょうじかん}が{長|なが}い / {短|みじか}い: long / short hours of sunshine\n- {年間|ねんかん}{日照時間|にっしょうじかん}: annual hours of sunshine\n\nSIMILAR WORDS:\n- {日当|ひあ}たり: sunlight exposure of a place — how much sun a particular spot receives",
+  "notes": "Composed of ⟦{日照|にっしょう}→日照：21173_nisshou⟧ ('sunshine') + ⟦{時間|じかん}→時間：00468_jikan⟧ ('time'). A meteorological measure that is also relevant to farming, gardening, and real estate.\n\nCOMMON COLLOCATIONS:\n- {日照時間|にっしょうじかん}⟦が→が：00051_ga⟧⟦{長|なが}い→長い：00491_nagai⟧ / ⟦{短|みじか}い→短い：00510_mijikai⟧: long / short hours of sunshine\n- ⟦{年間|ねんかん}→年間：00974_nenkan⟧{日照時間|にっしょうじかん}: annual hours of sunshine\n\nSIMILAR WORDS:\n- ⟦{日当|ひあ}たり→日当たり：07498_hiatari⟧: sunlight exposure of a place — how much sun a particular spot receives",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07498_hiatari",
+      "reading": "ひあたり",
+      "headword": "{日当|ひあ}たり",
+      "label": "sunlight exposure of a place"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["weather"],
+      "politeness": "plain",
+      "semantic": [
+        "weather"
+      ],
       "domain": []
     },
     "created": "2026-07-19T00:19:03Z",
-    "modified": "2026-07-19T00:19:03Z"
+    "modified": "2026-09-02T04:02:38Z"
   }
 }

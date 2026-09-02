@@ -3,7 +3,7 @@
   "headword": "{演算処理|えんざんしょり}",
   "reading": "えんざんしょり",
   "romaji": "enzanshori",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "arithmetic processing; computation; numerical processing",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "23594_enzanshori_ex1",
-      "japanese": "このCPUは{演算処理|えんざんしょり}が{速|はや}い。",
+      "japanese": "⟦この→この：00962_kono⟧CPU⟦は→は：00079_ha⟧{演算処理|えんざんしょり}⟦が→が：00051_ga⟧⟦{速|はや}い→速い：00514_hayai⟧。",
       "english": "This CPU performs computations quickly.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "23594_enzanshori_ex2",
-      "japanese": "{複雑|ふくざつ}な{演算処理|えんざんしょり}にはGPUが{使|つか}われる。",
+      "japanese": "⟦{複雑|ふくざつ}→複雑：01115_fukuzatsu⟧な{演算処理|えんざんしょり}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧GPU⟦が→が：00051_ga⟧⟦{使|つか}われる→使う：00473_tsukau⟧。",
       "english": "GPUs are used for complex computations.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "23594_enzanshori_ex3",
-      "japanese": "{大量|たいりょう}のデータを{扱|あつか}うには、{高速|こうそく}な{演算処理|えんざんしょり}{能力|のうりょく}が{求|もと}められる。",
+      "japanese": "⟦{大量|たいりょう}→大量：03112_tairyou⟧⟦の→の：09472_no⟧⟦データ→データ：03944_deeta⟧⟦を→を：00422_wo⟧⟦{扱|あつか}う→扱う：01862_atsukau⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧、⟦{高速|こうそく}→高速：02749_kousoku⟧な{演算処理|えんざんしょり}⟦{能力|のうりょく}→能力：03541_nouryoku⟧⟦が→が：00051_ga⟧⟦{求|もと}められる→求める：02316_motomeru⟧。",
       "english": "Handling large volumes of data requires high-speed computational power.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {演算|えんざん} (calculation, operation) and {処理|しょり} (processing, handling). Usually refers to numerical or logical operations inside a computer, as opposed to input/output or data transfer. Common in discussions of CPUs, GPUs, and algorithm performance.\n\nCOMMON COLLOCATIONS:\n- {演算処理|えんざんしょり}{能力|のうりょく}: computing power\n- {演算処理|えんざんしょり}{速度|そくど}: processing speed\n- {並列|へいれつ}{演算処理|えんざんしょり}: parallel processing\n- {高速|こうそく}{演算処理|えんざんしょり}: high-speed computation\n\nRELATED TERMS:\n- {演算|えんざん}: operation; calculation — the underlying act being processed\n- {処理|しょり}{能力|のうりょく}: processing capacity — a broader term that also covers I/O and data handling\n- CPU: central processing unit — the primary chip carrying out {演算処理|えんざんしょり}\n- GPU: graphics processing unit — specialized for massive parallel {演算処理|えんざんしょり}",
+  "notes": "Compound of ⟦{演算|えんざん}→演算：05150_enzan⟧ (calculation, operation) and ⟦{処理|しょり}→処理：03251_shori⟧ (processing, handling). Usually refers to numerical or logical operations inside a computer, as opposed to input/output or data transfer. Common in discussions of CPUs, GPUs, and algorithm performance.\n\nCOMMON COLLOCATIONS:\n- {演算処理|えんざんしょり}⟦{能力|のうりょく}→能力：03541_nouryoku⟧: computing power\n- {演算処理|えんざんしょり}{速度|そくど}: processing speed\n- ⟦{並列|へいれつ}→並列：08417_heiretsu⟧{演算処理|えんざんしょり}: parallel processing\n- ⟦{高速|こうそく}→高速：02749_kousoku⟧{演算処理|えんざんしょり}: high-speed computation\n\nRELATED WORDS:\n- ⟦{演算|えんざん}→演算：05150_enzan⟧: operation; calculation — the underlying act being processed\n- ⟦{処理|しょり}{能力|のうりょく}→処理能力：18415_shorinouryoku⟧: processing capacity — a broader term that also covers I/O and data handling\n- CPU: central processing unit — the primary chip carrying out {演算処理|えんざんしょり}\n- GPU: graphics processing unit — specialized for massive parallel {演算処理|えんざんしょり}",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "18415_shorinouryoku",
+      "reading": "しょりのうりょく",
+      "headword": "{処理能力|しょりのうりょく}",
+      "label": "processing capacity"
+    },
+    {
+      "type": "related",
+      "target_id": "08794_purosessa",
+      "reading": "ぷろせっさ",
+      "headword": "プロセッサ",
+      "label": "processor"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -64,7 +80,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-12T18:14:18Z",
-    "modified": "2026-08-01T21:36:06Z"
+    "modified": "2026-09-02T04:02:13Z"
   },
   "conjugation": {
     "type": "suru",

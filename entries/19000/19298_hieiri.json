@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "19298_hieiri_ex1",
-      "japanese": "{非営利|ひえいり}{団体|だんたい}で{働|はたら}いている。",
+      "japanese": "{非営利|ひえいり}{団体|だんたい}⟦で→で：00502_de⟧⟦{働|はたら}いている→働く：00503_hataraku⟧。",
       "english": "I work at a non-profit organization.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "19298_hieiri_ex2",
-      "japanese": "この{活動|かつどう}は{非営利|ひえいり}{目的|もくてき}で{行|おこな}われている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{活動|かつどう}→活動：00201_katsudou⟧⟦は→は：00079_ha⟧{非営利|ひえいり}⟦{目的|もくてき}→目的：02433_mokuteki⟧⟦で→で：00502_de⟧⟦{行|おこな}われている→行う：01238_okonau⟧。",
       "english": "This activity is conducted on a non-profit basis.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "19298_hieiri_ex3",
-      "japanese": "{非営利|ひえいり}の{法人|ほうじん}を{設立|せつりつ}するには、{行政|ぎょうせい}の{認可|にんか}が{必要|ひつよう}だ。",
+      "japanese": "{非営利|ひえいり}⟦の→の：09472_no⟧⟦{法人|ほうじん}→法人：13298_houjin⟧⟦を→を：00422_wo⟧⟦{設立|せつりつ}する→設立する：17473_setsuritsusuru⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧、⟦{行政|ぎょうせい}→行政：14122_gyousei⟧⟦の→の：09472_no⟧⟦{認可|にんか}→認可：05879_ninka⟧⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧だ。",
       "english": "To establish a non-profit corporation, you need government approval.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {非|ひ} (non-) + {営利|えいり} (profit-making). The most common context is NPO ({非営利|ひえいり}{団体|だんたい}), the Japanese equivalent of a non-profit organization.\n\nCOMMON COLLOCATIONS:\n- {非営利|ひえいり}{団体|だんたい} — non-profit organization (NPO)\n- {非営利|ひえいり}{法人|ほうじん} — non-profit corporation\n- {非営利|ひえいり}{活動|かつどう} — non-profit activities\n- {非営利|ひえいり}{目的|もくてき} — non-profit purpose\n- NPO{法人|ほうじん} — NPO corporation\n\nSIMILAR WORDS:\n- {営利|えいり} — profit-making (opposite)\n- {公益|こうえき} — public interest, public benefit\n- ボランティア — volunteer (related concept but refers to individuals)",
+  "notes": "Compound of ⟦{非|ひ}→非：28419_hi⟧ (non-) + ⟦{営利|えいり}→営利：23144_eiri⟧ (profit-making). The most common context is NPO ({非営利|ひえいり}{団体|だんたい}), the Japanese equivalent of a non-profit organization.\n\nCOMMON COLLOCATIONS:\n- {非営利|ひえいり}{団体|だんたい} — non-profit organization (NPO)\n- {非営利|ひえいり}⟦{法人|ほうじん}→法人：13298_houjin⟧ — non-profit corporation\n- {非営利|ひえいり}⟦{活動|かつどう}→活動：00201_katsudou⟧ — non-profit activities\n- {非営利|ひえいり}⟦{目的|もくてき}→目的：02433_mokuteki⟧ — non-profit purpose\n- NPO{法人|ほうじん} — NPO corporation\n\nSIMILAR WORDS:\n- ⟦{営利|えいり}→営利：23144_eiri⟧ — profit-making (opposite)\n- ⟦{公益|こうえき}→公益：16061_koueki⟧ — public interest, public benefit\n- ⟦ボランティア→ボランティア：04834_borantia⟧ — volunteer (related concept but refers to individuals)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16061_koueki",
+      "reading": "こうえき",
+      "headword": "{公益|こうえき}",
+      "label": "public interest, public benefit"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04834_borantia",
+      "reading": "ぼらんてぃあ",
+      "headword": "ボランティア",
+      "label": "volunteer"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +76,6 @@
       ]
     },
     "created": "2026-03-25T04:49:06Z",
-    "modified": "2026-03-25T04:49:06Z"
+    "modified": "2026-09-02T04:01:55Z"
   }
 }

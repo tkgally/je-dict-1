@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29284_yuseienogu_ex1",
-      "japanese": "{油性絵具|ゆせいえのぐ}で{絵|え}を{描|か}いた。",
+      "japanese": "{油性絵具|ゆせいえのぐ}⟦で→で：00502_de⟧⟦{絵|え}→絵：02613_e⟧⟦を→を：00422_wo⟧⟦{描|か}いた→描く：28436_kaku⟧。",
       "english": "I painted a picture with oil paints.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29284_yuseienogu_ex2",
-      "japanese": "{油性絵具|ゆせいえのぐ}は{乾|かわ}くのに{時間|じかん}がかかる。",
+      "japanese": "{油性絵具|ゆせいえのぐ}⟦は→は：00079_ha⟧⟦{乾|かわ}く→乾く：00786_kawaku⟧⟦の→の：09472_no⟧⟦に→に：00314_ni⟧⟦{時間|じかん}がかかる→時間がかかる：26082_jikangakakaru⟧。",
       "english": "Oil paints take a long time to dry.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29284_yuseienogu_ex3",
-      "japanese": "{油性絵具|ゆせいえのぐ}は{重|かさ}ね{塗|ぬ}りができるので、{深|ふか}みのある{色合|いろあ}いが{出|だ}せる。",
+      "japanese": "{油性絵具|ゆせいえのぐ}⟦は→は：00079_ha⟧{重|かさ}ね{塗|ぬ}り⟦が→が：00051_ga⟧⟦できる→できる：00557_dekiru⟧⟦の→の：09472_no⟧で、⟦{深|ふか}み→深み：13333_fukami⟧⟦の→の：09472_no⟧⟦ある→ある：00006_aru⟧⟦{色合|いろあ}い→色合い：13950_iroai⟧⟦が→が：00051_ga⟧⟦{出|だ}せる→出す：01087_dasu⟧。",
       "english": "Because oil paints can be layered, you can achieve colors with great depth.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Artists' paint bound with oil, used for oil painting on canvas. It is thinned and cleaned with solvents rather than water.\n\nCOMMON COLLOCATIONS:\n- {油性絵具|ゆせいえのぐ}で{描|か}く: to paint with oil paints\n- {油性絵具|ゆせいえのぐ}を{重|かさ}ね{塗|ぬ}りする: to layer oil paints\n\nSIMILAR WORDS:\n- {水性絵具|すいせいえのぐ}: water-based paint — the contrasting type, thinned with water\n- {油絵|あぶらえ}: oil painting — a picture made with oil paints",
+  "notes": "Artists' paint bound with oil, used for oil painting on canvas. It is thinned and cleaned with solvents rather than water.\n\nCOMMON COLLOCATIONS:\n- {油性絵具|ゆせいえのぐ}⟦で→で：00502_de⟧⟦{描|か}く→描く：28436_kaku⟧: to paint with oil paints\n- {油性絵具|ゆせいえのぐ}⟦を→を：00422_wo⟧{重|かさ}ね{塗|ぬ}り⟦する→する：00392_suru⟧: to layer oil paints\n\nSIMILAR WORDS:\n- ⟦{水性絵具|すいせいえのぐ}→水性絵具：29286_suiseienogu⟧: water-based paint — the contrasting type, thinned with water\n- ⟦{油絵|あぶらえ}→油絵：07076_aburae⟧: oil painting — a picture made with oil paints",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "29286_suiseienogu",
+      "reading": "すいせいえのぐ",
+      "headword": "{水性|すいせい}{絵具|えのぐ}",
+      "label": "water-based paint"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07076_aburae",
+      "reading": "あぶらえ",
+      "headword": "{油絵|あぶらえ}",
+      "label": "oil painting"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +69,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "art"
       ],
       "domain": []
     },
     "created": "2026-06-15T21:19:05Z",
-    "modified": "2026-06-15T21:19:05Z"
+    "modified": "2026-09-02T04:02:36Z"
   }
 }

@@ -3,7 +3,7 @@
   "headword": "{刻印|こくいん}",
   "reading": "こくいん",
   "romaji": "kokuin",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "engraved mark; stamp; hallmark",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29469_kokuin_ex1",
-      "japanese": "{指輪|ゆびわ}に{刻印|こくいん}がある。",
+      "japanese": "⟦{指輪|ゆびわ}→指輪：01744_yubiwa⟧⟦に→に：00314_ni⟧{刻印|こくいん}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There is an engraving on the ring.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29469_kokuin_ex2",
-      "japanese": "{金|きん}の{純度|じゅんど}を{示|しめ}す{刻印|こくいん}が{押|お}されている。",
+      "japanese": "{金|きん}⟦の→の：09472_no⟧⟦{純度|じゅんど}→純度：18774_jundo⟧⟦を→を：00422_wo⟧⟦{示|しめ}す→示す：01948_shimesu⟧{刻印|こくいん}⟦が→が：00051_ga⟧⟦{押|お}されている→押す：02854_osu⟧。",
       "english": "A hallmark showing the purity of the gold has been stamped on it.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29469_kokuin_ex3",
-      "japanese": "その{光景|こうけい}は{今|いま}も{記憶|きおく}に{刻印|こくいん}されている。",
+      "japanese": "⟦その→その：00993_sono⟧⟦{光景|こうけい}→光景：02799_koukei⟧⟦は→は：00079_ha⟧⟦{今|いま}→今：00945_ima⟧⟦も→も：00484_mo⟧⟦{記憶|きおく}→記憶：00234_kioku⟧⟦に→に：00314_ni⟧{刻印|こくいん}⟦されている→する：00392_suru⟧。",
       "english": "That scene is still etched into my memory.",
       "sense_numbers": [
         1
@@ -44,8 +44,59 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {刻|こく} (to carve) + {印|いん} (mark, seal). Used both for a physical engraved mark and, with する, for the act of engraving or leaving a deep impression.\n\nCOMMON COLLOCATIONS:\n- {刻印|こくいん}を{押|お}す: to apply a stamp/hallmark\n- {刻印|こくいん}を{入|い}れる: to add an engraving\n- {記憶|きおく}に{刻印|こくいん}される: to be etched into memory\n\nSIMILAR WORDS:\n- {刻印|こくいん}する: to engrave, to imprint — the verb use\n- {烙印|らくいん}: brand mark — burned in, often figurative as a stigma\n- {彫刻|ちょうこく}: sculpture, carving — three-dimensional carving rather than a mark",
+  "notes": "Compound of {刻|こく} (to carve) + {印|いん} (mark, seal). Used both for a physical engraved mark and, with ⟦する→する：00392_suru⟧, for the act of engraving or leaving a deep impression.\n\nCOMMON COLLOCATIONS:\n- {刻印|こくいん}⟦を→を：00422_wo⟧⟦{押|お}す→押す：02854_osu⟧: to apply a stamp/hallmark\n- {刻印|こくいん}⟦を→を：00422_wo⟧⟦{入|い}れる→入れる：01098_ireru⟧: to add an engraving\n- ⟦{記憶|きおく}→記憶：00234_kioku⟧⟦に→に：00314_ni⟧{刻印|こくいん}⟦される→する：00392_suru⟧: to be etched into memory\n\nSIMILAR WORDS:\n- {刻印|こくいん}⟦する→する：00392_suru⟧: to engrave, to imprint — the verb use\n- {烙印|らくいん}: brand mark — burned in, often figurative as a stigma\n- ⟦{彫刻|ちょうこく}→彫刻：04448_choukoku⟧: sculpture, carving — three-dimensional carving rather than a mark",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04448_choukoku",
+      "reading": "ちょうこく",
+      "headword": "{彫刻|ちょうこく}",
+      "label": "sculpture, carving"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19720_inji",
+      "reading": "いんじ",
+      "headword": "{印字|いんじ}",
+      "label": "printing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23954_maakingu",
+      "reading": "まーきんぐ",
+      "headword": "マーキング",
+      "label": "marking"
+    },
+    {
+      "type": "related",
+      "target_id": "24393_mei",
+      "reading": "めい",
+      "headword": "{銘|めい}",
+      "label": "inscription"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26032_meibun",
+      "reading": "めいぶん",
+      "headword": "{銘文|めいぶん}",
+      "label": "inscription"
+    },
+    {
+      "type": "related",
+      "target_id": "27135_yakiin",
+      "reading": "やきいん",
+      "headword": "{焼|や}き{印|いん}",
+      "label": "branding iron"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29449_meikoku",
+      "reading": "めいこく",
+      "headword": "銘刻",
+      "label": "inscription"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,7 +113,7 @@
       "verb_class": "suru"
     },
     "created": "2026-06-24T21:18:11Z",
-    "modified": "2026-06-24T21:18:11Z"
+    "modified": "2026-09-02T04:02:37Z"
   },
   "conjugation": {
     "type": "suru",

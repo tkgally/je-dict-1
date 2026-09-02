@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28268_yonensei_ex1",
-      "japanese": "{息子|むすこ}は{小学|しょうがく}{四年生|よねんせい}だ。",
+      "japanese": "⟦{息子|むすこ}→息子：00799_musuko⟧⟦は→は：00079_ha⟧⟦{小学|しょうがく}→小学：29351_shougaku⟧{四年生|よねんせい}だ。",
       "english": "My son is a fourth grader in elementary school.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28268_yonensei_ex2",
-      "japanese": "{大学|だいがく}{四年生|よねんせい}になって{就職活動|しゅうしょくかつどう}が{始|はじ}まった。",
+      "japanese": "⟦{大学|だいがく}→大学：00608_daigaku⟧{四年生|よねんせい}になって⟦{就職活動|しゅうしょくかつどう}→就職活動：14840_shuushokukatsudou⟧⟦が→が：00051_ga⟧⟦{始|はじ}まった→始まる：00841_hajimaru⟧。",
       "english": "I became a fourth-year university student and job hunting began.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28268_yonensei_ex3",
-      "japanese": "{大学|だいがく}の{四年生|よねんせい}は{卒業論文|そつぎょうろんぶん}を{書|か}きながら、{企業|きぎょう}の{面接|めんせつ}も{受|う}ける。",
+      "japanese": "⟦{大学|だいがく}→大学：00608_daigaku⟧⟦の→の：09472_no⟧{四年生|よねんせい}⟦は→は：00079_ha⟧⟦{卒業論文|そつぎょうろんぶん}→卒業論文：09259_sotsugyouronbun⟧⟦を→を：00422_wo⟧⟦{書|か}き→書く：00477_kaku⟧⟦ながら→ながら：10530_nagara⟧、⟦{企業|きぎょう}→企業：00225_kigyou⟧⟦の→の：09472_no⟧⟦{面接|めんせつ}→面接：01100_mensetsu⟧⟦も→も：00484_mo⟧⟦{受|う}ける→受ける：01215_ukeru⟧。",
       "english": "Fourth-year university students write their graduation thesis while also taking corporate job interviews.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "Formed from {四年|よねん} (fourth year) + {生|せい} (student). Read よねんせい, not しねんせい — the よ reading is used for 4 to avoid the unlucky-sounding し.\n\nCOMMON COLLOCATIONS:\n- {小学|しょうがく}{四年生|よねんせい}: fourth-grade elementary student\n- {中学|ちゅうがく}{四年生|よねんせい}: rare; junior high is only three years\n- {大学|だいがく}{四年生|よねんせい}: fourth-year university student (final year)\n- {四年生|よねんせい}になる: to become a fourth-year student\n\nUSAGE:\nIn Japan, elementary school lasts six years and university four years, so {四年生|よねんせい} most commonly refers to either a 9–10-year-old or a graduating university student. Japanese universities use {一年生|いちねんせい} through {四年生|よねんせい} rather than \"freshman/senior\" terminology.",
+  "notes": "Formed from {四年|よねん} (fourth year) + {生|せい} (student). Read よねんせい, not しねんせい — the ⟦よ→よ：09475_yo⟧ reading is used for 4 to avoid the unlucky-sounding し.\n\nCOMMON COLLOCATIONS:\n- ⟦{小学|しょうがく}→小学：29351_shougaku⟧{四年生|よねんせい}: fourth-grade elementary student\n- ⟦{中学|ちゅうがく}→中学：03477_chuugaku⟧{四年生|よねんせい}: rare; junior high is only three years\n- ⟦{大学|だいがく}→大学：00608_daigaku⟧{四年生|よねんせい}: fourth-year university student (final year)\n- {四年生|よねんせい}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧: to become a fourth-year student\n\nUSAGE:\nIn Japan, elementary school lasts six years and university four years, so {四年生|よねんせい} most commonly refers to either a 9–10-year-old or a graduating university student. Japanese universities use ⟦{一年生|いちねんせい}→一年生：27559_ichinensei⟧ through {四年生|よねんせい} rather than \"freshman/senior\" terminology.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "27560_sannensei",
+      "reading": "さんねんせい",
+      "headword": "{三年生|さんねんせい}",
+      "label": "third-year student"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +62,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "education"
       ],
       "domain": []
     },
     "created": "2026-05-28T03:07:22Z",
-    "modified": "2026-08-08T03:27:39Z"
+    "modified": "2026-09-02T04:02:33Z"
   }
 }

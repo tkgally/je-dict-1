@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "19628_haakusuru_ex1",
-      "japanese": "{状況|じょうきょう}を{把握|はあく}する。",
+      "japanese": "⟦{状況|じょうきょう}→状況：01576_joukyou⟧⟦を→を：00422_wo⟧{把握|はあく}する。",
       "english": "To grasp the situation.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "19628_haakusuru_ex2",
-      "japanese": "{全体|ぜんたい}{像|ぞう}を{把握|はあく}するのは{難|むずか}しい。",
+      "japanese": "⟦{全体|ぜんたい}{像|ぞう}→全体像：16443_zentaizou⟧⟦を→を：00422_wo⟧{把握|はあく}する⟦の→の：09472_no⟧⟦は→は：00079_ha⟧⟦{難|むずか}しい→難しい：00517_muzukashii⟧。",
       "english": "It is difficult to grasp the full picture.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "19628_haakusuru_ex3",
-      "japanese": "{被害|ひがい}の{実態|じったい}はまだ{把握|はあく}できていない。",
+      "japanese": "⟦{被害|ひがい}→被害：02572_higai⟧⟦の→の：09472_no⟧⟦{実態|じったい}→実態：10567_jittai⟧⟦は→は：00079_ha⟧⟦まだ→まだ：00603_mada⟧⟦{把握|はあく}→把握：05625_haaku⟧⟦できていない→できる：00557_dekiru⟧。",
       "english": "The actual extent of the damage has not yet been ascertained.",
       "sense_numbers": [
         1
@@ -134,11 +134,47 @@
       "notes": null
     }
   ],
-  "notes": "A formal word frequently used in news, business, and government contexts. Implies thorough comprehension rather than casual understanding.\n\nCOMMON COLLOCATIONS:\n- {状況|じょうきょう}を{把握|はあく}する: to grasp the situation\n- {現状|げんじょう}を{把握|はあく}する: to understand the current state\n- {全体|ぜんたい}{像|ぞう}を{把握|はあく}する: to grasp the full picture\n- {実態|じったい}を{把握|はあく}する: to ascertain the actual situation\n\nSIMILAR WORDS:\n- {理解|りかい}する: to understand — general-purpose, used for concepts and ideas\n- {把握|はあく}する: to grasp — more formal, implies getting a comprehensive handle on facts or a situation\n- {掴|つか}む: to grasp — physical or figurative, more colloquial",
-  "cross_references": [],
+  "notes": "A formal word frequently used in news, business, and government contexts. Implies thorough comprehension rather than casual understanding.\n\nCOMMON COLLOCATIONS:\n- ⟦{状況|じょうきょう}→状況：01576_joukyou⟧⟦を→を：00422_wo⟧{把握|はあく}する: to grasp the situation\n- ⟦{現状|げんじょう}→現状：02721_genjou⟧⟦を→を：00422_wo⟧{把握|はあく}する: to understand the current state\n- ⟦{全体|ぜんたい}{像|ぞう}→全体像：16443_zentaizou⟧⟦を→を：00422_wo⟧{把握|はあく}する: to grasp the full picture\n- ⟦{実態|じったい}→実態：10567_jittai⟧⟦を→を：00422_wo⟧{把握|はあく}する: to ascertain the actual situation\n\nSIMILAR WORDS:\n- ⟦{理解|りかい}する→理解する：06059_rikaisuru⟧: to understand — general-purpose, used for concepts and ideas\n- {把握|はあく}する: to grasp — more formal, implies getting a comprehensive handle on facts or a situation\n- ⟦{掴|つか}む→掴む：02290_tsukamu⟧: to grasp — physical or figurative, more colloquial",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06059_rikaisuru",
+      "reading": "りかいする",
+      "headword": "{理解|りかい}する",
+      "label": "to understand"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02290_tsukamu",
+      "reading": "つかむ",
+      "headword": "{掴|つか}む",
+      "label": "to grasp"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12795_toraeru",
+      "reading": "とらえる",
+      "headword": "{捉|とら}える",
+      "label": "to grasp, to capture, to perceive"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21992_ryoukaisuru",
+      "reading": "りょうかいする",
+      "headword": "{了解|りょうかい}する",
+      "label": "to understand"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25356_ninshikisuru",
+      "reading": "にんしきする",
+      "headword": "{認識|にんしき}する",
+      "label": "to recognize"
+    }
+  ],
   "metadata": {
     "created": "2026-03-26T09:34:09Z",
-    "modified": "2026-07-26T21:31:07Z",
+    "modified": "2026-09-02T04:01:56Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

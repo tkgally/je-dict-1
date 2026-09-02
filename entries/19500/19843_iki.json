@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "19843_iki_ex1",
-      "japanese": "{死体|したい}{遺棄|いき}の{容疑|ようぎ}で{逮捕|たいほ}された。",
+      "japanese": "⟦{死体|したい}→死体：04032_shitai⟧{遺棄|いき}⟦の→の：09472_no⟧⟦{容疑|ようぎ}→容疑：12317_yougi⟧⟦で→で：00502_de⟧⟦{逮捕|たいほ}→逮捕：03397_taiho⟧⟦された→する：00392_suru⟧。",
       "english": "He was arrested on suspicion of abandoning a body.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "19843_iki_ex2",
-      "japanese": "{不法|ふほう}{投棄|とうき}と{遺棄|いき}は{犯罪|はんざい}だ。",
+      "japanese": "⟦{不法|ふほう}{投棄|とうき}→不法投棄：18933_fuhoutouki⟧⟦と→と：00512_to⟧{遺棄|いき}⟦は→は：00079_ha⟧⟦{犯罪|はんざい}→犯罪：03569_hanzai⟧だ。",
       "english": "Illegal dumping and abandonment are crimes.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "19843_iki_ex3",
-      "japanese": "{化学兵器|かがくへいき}の{遺棄|いき}が{国際的|こくさいてき}な{問題|もんだい}になっている。",
+      "japanese": "⟦{化学兵器|かがくへいき}→化学兵器：24809_kagakuheiki⟧⟦の→の：09472_no⟧{遺棄|いき}⟦が→が：00051_ga⟧⟦{国際的|こくさいてき}→国際的：06457_kokusaiteki⟧な⟦{問題|もんだい}→問題：00797_mondai⟧になっている。",
       "english": "The abandonment of chemical weapons has become an international issue.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,33 @@
       ]
     }
   ],
-  "notes": "A formal, legal term for abandonment. Also functions as a suru verb ({遺棄|いき}する). Most commonly encountered in news and legal contexts.\n\nCOMMON COLLOCATIONS:\n- {死体|したい}{遺棄|いき} — abandonment of a body (a criminal charge)\n- {遺棄|いき}{罪|ざい} — crime of abandonment\n- {遺棄|いき}する — to abandon, to desert\n- {化学兵器|かがくへいき}の{遺棄|いき} — abandonment of chemical weapons\n- {保護|ほご}{責任者|せきにんしゃ}{遺棄|いき} — abandonment by a person with duty of care\n\nLEGAL CONTEXT:\n{遺棄|いき}{罪|ざい} is a crime under Japanese law that includes abandoning a person who needs care, or abandoning a dead body. {死体|したい}{遺棄|いき} (abandonment of a corpse) is one of the most commonly reported charges in crime news.\n\nSIMILAR WORDS:\n- {放棄|ほうき} — abandonment, renunciation (broader, includes rights and claims)\n- {投棄|とうき} — dumping, disposal (of waste or objects)\n- {廃棄|はいき} — disposal, scrapping (of documents, equipment)",
-  "cross_references": [],
+  "notes": "A formal, legal term for abandonment. Also functions as a suru verb ({遺棄|いき}⟦する→する：00392_suru⟧). Most commonly encountered in news and legal contexts.\n\nCOMMON COLLOCATIONS:\n- ⟦{死体|したい}→死体：04032_shitai⟧{遺棄|いき} — abandonment of a body (a criminal charge)\n- {遺棄|いき}{罪|ざい} — crime of abandonment\n- {遺棄|いき}⟦する→する：00392_suru⟧ — to abandon, to desert\n- ⟦{化学兵器|かがくへいき}→化学兵器：24809_kagakuheiki⟧⟦の→の：09472_no⟧{遺棄|いき} — abandonment of chemical weapons\n- ⟦{保護|ほご}→保護：03625_hogo⟧⟦{責任者|せきにんしゃ}→責任者：17175_sekininsha⟧{遺棄|いき} — abandonment by a person with duty of care\n\nLEGAL CONTEXT:\n{遺棄|いき}{罪|ざい} is a crime under Japanese law that includes abandoning a person who needs care, or abandoning a dead body. ⟦{死体|したい}→死体：04032_shitai⟧{遺棄|いき} (abandonment of a corpse) is one of the most commonly reported charges in crime news.\n\nSIMILAR WORDS:\n- ⟦{放棄|ほうき}→放棄：12825_houki⟧ — abandonment, renunciation (broader, includes rights and claims)\n- ⟦{投棄|とうき}→投棄：20117_touki⟧ — dumping, disposal (of waste or objects)\n- ⟦{廃棄|はいき}→廃棄：12482_haiki⟧ — disposal, scrapping (of documents, equipment)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12825_houki",
+      "reading": "ほうき",
+      "headword": "{放棄|ほうき}",
+      "label": "abandonment, renunciation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20117_touki",
+      "reading": "とうき",
+      "headword": "{投棄|とうき}",
+      "label": "dumping, disposal"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12482_haiki",
+      "reading": "はいき",
+      "headword": "{廃棄|はいき}",
+      "label": "disposal, scrapping"
+    }
+  ],
   "metadata": {
     "created": "2026-03-27T02:14:40Z",
-    "modified": "2026-03-29T03:08:58Z",
+    "modified": "2026-09-02T04:01:57Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

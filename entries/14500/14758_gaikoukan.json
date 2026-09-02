@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "14758_gaikoukan_ex1",
-      "japanese": "{彼女|かのじょ}は{外交官|がいこうかん}として{働|はたら}いている。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧{外交官|がいこうかん}⟦として→として：06802_toshite⟧⟦{働|はたら}いている→働く：00503_hataraku⟧。",
       "english": "She works as a diplomat.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "14758_gaikoukan_ex2",
-      "japanese": "{外交官|がいこうかん}は{外交官|がいこうかん}{特権|とっけん}により{現地|げんち}の{法律|ほうりつ}から{免除|めんじょ}される。",
+      "japanese": "{外交官|がいこうかん}⟦は→は：00079_ha⟧{外交官|がいこうかん}⟦{特権|とっけん}→特権：13499_tokken⟧⟦に→に：00314_ni⟧⟦より→より：09476_yori⟧⟦{現地|げんち}→現地：13502_genchi⟧⟦の→の：09472_no⟧⟦{法律|ほうりつ}→法律：01722_houritsu⟧⟦から→から：00504_kara⟧⟦{免除|めんじょ}→免除：05764_menjo⟧⟦される→する：00392_suru⟧。",
       "english": "Diplomats are exempt from local laws through diplomatic immunity.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "14758_gaikoukan_ex3",
-      "japanese": "{父|ちち}は{外交官|がいこうかん}だったので、{子供|こども}の{頃|ころ}は{世界中|せかいじゅう}を{転々|てんてん}としていた。",
+      "japanese": "⟦{父|ちち}→父：00566_chichi⟧⟦は→は：00079_ha⟧{外交官|がいこうかん}だった⟦の→の：09472_no⟧で、⟦{子供|こども}→子供：00554_kodomo⟧⟦の→の：09472_no⟧{頃|ころ}⟦は→は：00079_ha⟧⟦{世界中|せかいじゅう}→世界中：10171_sekaijuu⟧⟦を→を：00422_wo⟧⟦{転々|てんてん}→転々：03975_tenten⟧⟦として→として：06802_toshite⟧⟦いた→いる：00495_iru⟧。",
       "english": "Because my father was a diplomat, I moved around the world during my childhood.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE: {外交官|がいこうかん} is a neutral, standard term for a diplomatic official. It covers all ranks of diplomatic personnel.\n\nCOMMON COLLOCATIONS:\n- {外交官|がいこうかん}{特権|とっけん} (diplomatic privilege/immunity)\n- {外交官|がいこうかん}を{目指|めざ}す (to aspire to become a diplomat)\n- {外交官|がいこうかん}{試験|しけん} (diplomatic service examination)\n\nSIMILAR WORDS: {大使|たいし} (ambassador) is a specific rank — the highest-ranking diplomat in a foreign country. {領事|りょうじ} (consul) handles citizen services and trade in cities outside the capital. {外交官|がいこうかん} is the general term encompassing all diplomatic staff.",
+  "notes": "USAGE: {外交官|がいこうかん} is a neutral, standard term for a diplomatic official. It covers all ranks of diplomatic personnel.\n\nCOMMON COLLOCATIONS:\n- {外交官|がいこうかん}⟦{特権|とっけん}→特権：13499_tokken⟧ (diplomatic privilege/immunity)\n- {外交官|がいこうかん}⟦を→を：00422_wo⟧⟦{目指|めざ}す→目指す：10528_mezasu⟧ (to aspire to become a diplomat)\n- {外交官|がいこうかん}⟦{試験|しけん}→試験：01422_shiken⟧ (diplomatic service examination)\n\nSIMILAR WORDS: ⟦{大使|たいし}→大使：03391_taishi⟧ (ambassador) is a specific rank — the highest-ranking diplomat in a foreign country. ⟦{領事|りょうじ}→領事：15209_ryouji⟧ (consul) handles citizen services and trade in cities outside the capital. {外交官|がいこうかん} is the general term encompassing all diplomatic staff.",
   "cross_references": [
     {
       "entry_id": "14757_ryoujikan",
@@ -53,11 +53,25 @@
       "type": "related",
       "notes": "Consulate — the office where consular diplomats work",
       "target_id": "14757_ryoujikan"
+    },
+    {
+      "type": "related",
+      "target_id": "01457_taishikan",
+      "reading": "たいしかん",
+      "headword": "{大使館|たいしかん}",
+      "label": "embassy"
+    },
+    {
+      "type": "related",
+      "target_id": "03391_taishi",
+      "reading": "たいし",
+      "headword": "{大使|たいし}",
+      "label": "ambassador"
     }
   ],
   "metadata": {
     "created": "2026-03-03T11:22:38Z",
-    "modified": "2026-03-29T10:42:23Z",
+    "modified": "2026-09-02T04:01:38Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25486_bokusou_ex1",
-      "japanese": "{牛|うし}が{牧草|ぼくそう}を{食|た}べている。",
+      "japanese": "⟦{牛|うし}→牛：01857_ushi⟧⟦が→が：00051_ga⟧{牧草|ぼくそう}⟦を→を：00422_wo⟧⟦{食|た}べている→食べる：00396_taberu⟧。",
       "english": "The cows are eating pasture grass.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25486_bokusou_ex2",
-      "japanese": "{冬|ふゆ}に{備|そな}えて{牧草|ぼくそう}を{刈|か}り{取|と}った。",
+      "japanese": "⟦{冬|ふゆ}→冬：00623_fuyu⟧⟦に→に：00314_ni⟧⟦{備|そな}えて→備える：02125_sonaeru⟧{牧草|ぼくそう}⟦を→を：00422_wo⟧⟦{刈|か}り{取|と}った→刈り取る：21025_karitoru⟧。",
       "english": "We cut the hay in preparation for winter.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25486_bokusou_ex3",
-      "japanese": "{北海道|ほっかいどう}では{広大|こうだい}な{牧草地|ぼくそうち}が{広|ひろ}がり、{丸|まる}く{巻|ま}かれた{牧草|ぼくそう}ロールが{並|なら}ぶ{風景|ふうけい}が{見|み}られる。",
+      "japanese": "⟦{北海道|ほっかいどう}→北海道：11010_hokkaidou⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{広大|こうだい}→広大：11328_koudai⟧な{牧草地|ぼくそうち}⟦が→が：00051_ga⟧⟦{広|ひろ}がり→広がる：01980_hirogaru⟧、⟦{丸|まる}く→丸い：02967_marui⟧⟦{巻|ま}かれた→巻く：02418_maku⟧{牧草|ぼくそう}⟦ロール→ロール：11709_rooru⟧⟦が→が：00051_ga⟧⟦{並|なら}ぶ→並ぶ：00605_narabu⟧⟦{風景|ふうけい}→風景：03591_fuukei⟧⟦が→が：00051_ga⟧⟦{見|み}られる→見る：00283_miru⟧。",
       "english": "In Hokkaido, vast grasslands stretch out, and you can see the scenery of round hay bales lined up.",
       "sense_numbers": [
         1
@@ -44,19 +44,50 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {牧|ぼく} (pasture; grazing) and {草|そう} (grass). An essential term in agriculture and animal husbandry. In Japan, {北海道|ほっかいどう} is the primary region for dairy farming and livestock grazing, making {牧草|ぼくそう} a familiar sight there.\n\nCOMMON COLLOCATIONS:\n- {牧草地|ぼくそうち}: pastureland; grassland\n- {牧草|ぼくそう}ロール: hay bale; hay roll\n- {牧草|ぼくそう}を{刈|か}る: to mow/cut hay\n- {牧草|ぼくそう}を{与|あた}える: to feed hay (to livestock)\n- {乾燥|かんそう}{牧草|ぼくそう}: dried hay\n\nSIMILAR WORDS:\n- {干|ほ}し{草|くさ}: hay — dried grass; more colloquial term\n- {飼料|しりょう}: feed; fodder — broader term covering all types of animal feed, not just grass\n- {芝生|しばふ}: lawn; turf — cultivated grass for ornamental or recreational use, not for feeding",
+  "notes": "A compound of {牧|ぼく} (pasture; grazing) and {草|そう} (grass). An essential term in agriculture and animal husbandry. In Japan, ⟦{北海道|ほっかいどう}→北海道：11010_hokkaidou⟧ is the primary region for dairy farming and livestock grazing, making {牧草|ぼくそう} a familiar sight there.\n\nCOMMON COLLOCATIONS:\n- {牧草地|ぼくそうち}: pastureland; grassland\n- {牧草|ぼくそう}⟦ロール→ロール：11709_rooru⟧: hay bale; hay roll\n- {牧草|ぼくそう}⟦を→を：00422_wo⟧⟦{刈|か}る→刈る：02043_karu⟧: to mow/cut hay\n- {牧草|ぼくそう}⟦を→を：00422_wo⟧⟦{与|あた}える→与える：01821_ataeru⟧: to feed hay (to livestock)\n- ⟦{乾燥|かんそう}→乾燥：00184_kansou⟧{牧草|ぼくそう}: dried hay\n\nSIMILAR WORDS:\n- ⟦{干|ほ}し{草|くさ}→干し草：26957_hoshikusa⟧: hay — dried grass; more colloquial term\n- ⟦{飼料|しりょう}→飼料：19666_shiryou⟧: feed; fodder — broader term covering all types of animal feed, not just grass\n- ⟦{芝生|しばふ}→芝生：03196_shibafu⟧: lawn; turf — cultivated grass for ornamental or recreational use, not for feeding",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "26957_hoshikusa",
+      "reading": "ほしくさ",
+      "headword": "{干|ほ}し{草|くさ}",
+      "label": "hay"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19666_shiryou",
+      "reading": "しりょう",
+      "headword": "{飼料|しりょう}",
+      "label": "feed"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03196_shibafu",
+      "reading": "しばふ",
+      "headword": "{芝生|しばふ}",
+      "label": "lawn"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27058_aokusa",
+      "reading": "あおくさ",
+      "headword": "{青草|あおくさ}",
+      "label": "green grass"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "nature"
       ]
     },
     "created": "2026-04-25T14:20:38Z",
-    "modified": "2026-08-04T12:59:53Z"
+    "modified": "2026-09-02T04:02:22Z"
   }
 }

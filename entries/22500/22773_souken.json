@@ -3,7 +3,7 @@
   "headword": "{創建|そうけん}",
   "reading": "そうけん",
   "romaji": "souken",
-  "part_of_speech": "noun / verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "founding; original construction (of a temple or shrine)",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22773_souken_ex1",
-      "japanese": "この{寺|てら}の{創建|そうけん}は{奈良時代|ならじだい}だ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{寺|てら}→寺：01676_tera⟧⟦の→の：09472_no⟧{創建|そうけん}⟦は→は：00079_ha⟧{奈良時代|ならじだい}だ。",
       "english": "This temple was originally built during the Nara period.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22773_souken_ex2",
-      "japanese": "{創建|そうけん}{当時|とうじ}の{姿|すがた}を{復元|ふくげん}した{建物|たてもの}だ。",
+      "japanese": "{創建|そうけん}⟦{当時|とうじ}→当時：01615_touji⟧⟦の→の：09472_no⟧⟦{姿|すがた}→姿：03363_sugata⟧⟦を→を：00422_wo⟧⟦{復元|ふくげん}→復元：09249_fukugen⟧⟦した→する：00392_suru⟧⟦{建物|たてもの}→建物：01458_tatemono⟧だ。",
       "english": "This is a building restored to its appearance at the time of its original construction.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22773_souken_ex3",
-      "japanese": "この{神社|じんじゃ}は{平安時代|へいあんじだい}に{創建|そうけん}されたと{伝|つた}えられている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{神社|じんじゃ}→神社：01620_jinja⟧⟦は→は：00079_ha⟧{平安時代|へいあんじだい}⟦に→に：00314_ni⟧{創建|そうけん}⟦された→する：00392_suru⟧⟦と→と：00512_to⟧⟦{伝|つた}えられている→伝える：01220_tsutaeru⟧。",
       "english": "It is said that this shrine was founded during the Heian period.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {創|そう} ('to create, originate') and {建|けん} ('to build'). Used almost exclusively for temples, shrines, castles, and other historically significant structures. It specifically refers to the initial construction, distinguishing it from later repairs ({修復|しゅうふく}) or reconstructions ({再建|さいけん}).\n\nThis word is frequently encountered when reading about Japanese temples and shrines, which often have histories spanning over a thousand years. Travel guides and historical explanations commonly use {創建|そうけん} to indicate when a site was first established.\n\nCOMMON COLLOCATIONS:\n- {創建|そうけん}{年|ねん}: year of founding\n- {創建|そうけん}{当時|とうじ}: at the time of original construction\n- {創建|そうけん}される: to be founded/built\n- {創建|そうけん}から{千年|せんねん}: a thousand years since founding\n\nSIMILAR WORDS:\n- {建立|こんりゅう}: erection, establishment — specifically for temples and monuments; a near-synonym but more focused on the act of building\n- {再建|さいけん}: reconstruction, rebuilding — rebuilding something that was destroyed or deteriorated\n- {設立|せつりつ}: establishment, founding — for organizations and institutions, not physical structures\n- {創設|そうせつ}: establishment, creation — broader; used for institutions, systems, and organizations",
+  "notes": "Composed of {創|そう} ('to create, originate') and {建|けん} ('to build'). Used almost exclusively for temples, shrines, castles, and other historically significant structures. It specifically refers to the initial construction, distinguishing it from later repairs (⟦{修復|しゅうふく}→修復：11544_shuufuku⟧) or reconstructions (⟦{再建|さいけん}→再建：11743_saiken⟧).\n\nThis word is frequently encountered when reading about Japanese temples and shrines, which often have histories spanning over a thousand years. Travel guides and historical explanations commonly use {創建|そうけん} to indicate when a site was first established.\n\nCOMMON COLLOCATIONS:\n- {創建|そうけん}⟦{年|ねん}→年：09876_nen⟧: year of founding\n- {創建|そうけん}⟦{当時|とうじ}→当時：01615_touji⟧: at the time of original construction\n- {創建|そうけん}⟦される→する：00392_suru⟧: to be founded/built\n- {創建|そうけん}⟦から→から：00504_kara⟧{千年|せんねん}: a thousand years since founding\n\nSIMILAR WORDS:\n- {建立|こんりゅう}: erection, establishment — specifically for temples and monuments; a near-synonym but more focused on the act of building\n- ⟦{再建|さいけん}→再建：11743_saiken⟧: reconstruction, rebuilding — rebuilding something that was destroyed or deteriorated\n- ⟦{設立|せつりつ}→設立：14171_setsuritsu⟧: establishment, founding — for organizations and institutions, not physical structures\n- ⟦{創設|そうせつ}→創設：11905_sousetsu⟧: establishment, creation — broader; used for institutions, systems, and organizations",
   "prominent_see_also": [
     {
       "reading": "そうけん",
@@ -54,6 +54,29 @@
     }
   ],
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11743_saiken",
+      "reading": "さいけん",
+      "headword": "{再建|さいけん}",
+      "label": "reconstruction, rebuilding"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14171_setsuritsu",
+      "reading": "せつりつ",
+      "headword": "{設立|せつりつ}",
+      "label": "establishment, founding"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11905_sousetsu",
+      "reading": "そうせつ",
+      "headword": "{創設|そうせつ}",
+      "label": "establishment, creation"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -74,7 +97,7 @@
       ]
     },
     "created": "2026-04-07T15:25:49Z",
-    "modified": "2026-07-30T15:20:15Z"
+    "modified": "2026-09-02T04:02:09Z"
   },
   "conjugation": {
     "type": "suru",

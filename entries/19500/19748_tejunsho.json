@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "19748_tejunsho_ex1",
-      "japanese": "{手順書|てじゅんしょ}に{従|したが}って{作業|さぎょう}する。",
+      "japanese": "{手順書|てじゅんしょ}⟦に→に：00314_ni⟧⟦{従|したが}って→従う：02059_shitagau⟧⟦{作業|さぎょう}→作業：02775_sagyou⟧⟦する→する：00392_suru⟧。",
       "english": "To work according to the procedure manual.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "19748_tejunsho_ex2",
-      "japanese": "{手順書|てじゅんしょ}を{作成|さくせい}してください。",
+      "japanese": "{手順書|てじゅんしょ}⟦を→を：00422_wo⟧⟦{作成|さくせい}して→作成する：25378_sakuseisuru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please create a procedure document.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "19748_tejunsho_ex3",
-      "japanese": "{手順書|てじゅんしょ}が{古|ふる}くなっていたので、{最新|さいしん}の{内容|ないよう}に{更新|こうしん}した。",
+      "japanese": "{手順書|てじゅんしょ}⟦が→が：00051_ga⟧⟦{古|ふる}く→古い：00488_furui⟧⟦なっていた→なる：01970_naru⟧⟦の→の：09472_no⟧で、⟦{最新|さいしん}→最新：04831_saishin⟧⟦の→の：09472_no⟧⟦{内容|ないよう}→内容：01482_naiyou⟧⟦に→に：00314_ni⟧⟦{更新|こうしん}した→更新する：27994_koushinsuru⟧。",
       "english": "The procedure manual was outdated, so I updated it with the latest information.",
       "sense_numbers": [
         1
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {手順|てじゅん} (procedure, steps) and {書|しょ} (document, writing). A standard workplace term for written instructions that ensure tasks are performed consistently and correctly.\n\nCOMMON COLLOCATIONS:\n- {手順書|てじゅんしょ}を{作成|さくせい}する — to create a procedure manual\n- {手順書|てじゅんしょ}に{従|したが}う — to follow the procedure manual\n- {手順書|てじゅんしょ}を{更新|こうしん}する — to update the procedure manual\n- {手順書|てじゅんしょ}{通|どお}りに — as written in the procedure manual\n- {作業|さぎょう}{手順書|てじゅんしょ} — work procedure document\n\nSIMILAR WORDS:\n- マニュアル — manual; broader term, can include non-procedural content\n- {説明書|せつめいしょ} — instruction manual; usually for products, not work processes\n- {取扱説明書|とりあつかいせつめいしょ} — user manual; operation manual (for equipment)\n- {仕様書|しようしょ} — specification document; describes requirements, not steps",
+  "notes": "Compound of ⟦{手順|てじゅん}→手順：05452_tejun⟧ (procedure, steps) and ⟦{書|しょ}→〜書：28467_sho⟧ (document, writing). A standard workplace term for written instructions that ensure tasks are performed consistently and correctly.\n\nCOMMON COLLOCATIONS:\n- {手順書|てじゅんしょ}⟦を→を：00422_wo⟧⟦{作成|さくせい}する→作成する：25378_sakuseisuru⟧ — to create a procedure manual\n- {手順書|てじゅんしょ}⟦に→に：00314_ni⟧⟦{従|したが}う→従う：02059_shitagau⟧ — to follow the procedure manual\n- {手順書|てじゅんしょ}⟦を→を：00422_wo⟧⟦{更新|こうしん}する→更新する：27994_koushinsuru⟧ — to update the procedure manual\n- {手順書|てじゅんしょ}{通|どお}り⟦に→に：00314_ni⟧ — as written in the procedure manual\n- ⟦{作業|さぎょう}→作業：02775_sagyou⟧{手順書|てじゅんしょ} — work procedure document\n\nSIMILAR WORDS:\n- ⟦マニュアル→マニュアル：26993_manyuaru⟧ — manual; broader term, can include non-procedural content\n- ⟦{説明書|せつめいしょ}→説明書：19368_setsumeisho⟧ — instruction manual; usually for products, not work processes\n- ⟦{取扱説明書|とりあつかいせつめいしょ}→取扱説明書：10278_toriatsukaisetsumeisho⟧ — user manual; operation manual (for equipment)\n- ⟦{仕様書|しようしょ}→仕様書：07485_shiyousho⟧ — specification document; describes requirements, not steps",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "26993_manyuaru",
+      "reading": "まにゅある",
+      "headword": "マニュアル",
+      "label": "manual"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19368_setsumeisho",
+      "reading": "せつめいしょ",
+      "headword": "{説明書|せつめいしょ}",
+      "label": "instruction manual"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10278_toriatsukaisetsumeisho",
+      "reading": "とりあつかいせつめいしょ",
+      "headword": "{取扱説明書|とりあつかいせつめいしょ}",
+      "label": "user manual"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07485_shiyousho",
+      "reading": "しようしょ",
+      "headword": "{仕様書|しようしょ}",
+      "label": "specification document"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +90,6 @@
       ]
     },
     "created": "2026-03-26T15:23:14Z",
-    "modified": "2026-07-27T12:42:09Z"
+    "modified": "2026-09-02T04:01:57Z"
   }
 }

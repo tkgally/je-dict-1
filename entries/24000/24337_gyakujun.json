@@ -15,40 +15,59 @@
   "examples": [
     {
       "id": "24337_gyakujun_ex1",
-      "japanese": "{逆順|ぎゃくじゅん}に{並|なら}べる。",
+      "japanese": "{逆順|ぎゃくじゅん}⟦に→に：00314_ni⟧⟦{並|なら}べる→並べる：01091_naraberu⟧。",
       "english": "Arrange in reverse order.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "24337_gyakujun_ex2",
-      "japanese": "アルファベットの{逆順|ぎゃくじゅん}で{表示|ひょうじ}する。",
+      "japanese": "⟦アルファベット→アルファベット：10709_arufabetto⟧⟦の→の：09472_no⟧{逆順|ぎゃくじゅん}⟦で→で：00502_de⟧⟦{表示|ひょうじ}する→表示する：26973_hyoujisuru⟧。",
       "english": "Display in reverse alphabetical order.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "24337_gyakujun_ex3",
-      "japanese": "ファイルを{日付|ひづけ}の{逆順|ぎゃくじゅん}に{並|なら}べ{替|か}えたら、{一番|いちばん}{新|あたら}しいものが{上|うえ}に{来|き}た。",
+      "japanese": "⟦ファイル→ファイル：05280_fairu⟧⟦を→を：00422_wo⟧⟦{日付|ひづけ}→日付：03706_hizuke⟧⟦の→の：09472_no⟧{逆順|ぎゃくじゅん}⟦に→に：00314_ni⟧⟦{並|なら}べ{替|か}えたら→並べ替える：25340_narabekaeru⟧、⟦{一番|いちばん}→一番：01140_ichiban⟧⟦{新|あたら}しい→新しい：00506_atarashii⟧もの⟦が→が：00051_ga⟧⟦{上|うえ}→上：00682_ue⟧⟦に→に：00314_ni⟧⟦{来|き}た→来る：00254_kuru⟧。",
       "english": "When I re-sorted the files in reverse chronological order, the newest one appeared at the top.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Combines {逆|ぎゃく} (reverse, opposite) and {順|じゅん} (order, sequence). A clean compound where the two characters have opposite meanings, producing a word that means the inversion of the normal order.\n\nCOMMON COLLOCATIONS:\n- {逆順|ぎゃくじゅん}に{並|なら}べる: to arrange in reverse order\n- {逆順|ぎゃくじゅん}で{表示|ひょうじ}する: to display in reverse order\n- {時系列|じけいれつ}の{逆順|ぎゃくじゅん}: reverse chronological order\n- {逆順|ぎゃくじゅん}ソート: reverse sort\n\nSIMILAR WORDS:\n- {順番|じゅんばん}: order, turn — the normal order or sequence\n- {逆|ぎゃく}: reverse, opposite — broader; can describe any reversal, not just of sequence\n- {降順|こうじゅん}: descending order — a technical term (e.g., in databases), while {逆順|ぎゃくじゅん} is more general\n- {昇順|しょうじゅん}: ascending order — the opposite of {降順|こうじゅん}",
+  "notes": "Combines ⟦{逆|ぎゃく}→逆：02649_gyaku⟧ (reverse, opposite) and ⟦{順|じゅん}→順：03342_jun⟧ (order, sequence). A clean compound where the two characters have opposite meanings, producing a word that means the inversion of the normal order.\n\nCOMMON COLLOCATIONS:\n- {逆順|ぎゃくじゅん}⟦に→に：00314_ni⟧⟦{並|なら}べる→並べる：01091_naraberu⟧: to arrange in reverse order\n- {逆順|ぎゃくじゅん}⟦で→で：00502_de⟧⟦{表示|ひょうじ}する→表示する：26973_hyoujisuru⟧: to display in reverse order\n- {時系列|じけいれつ}⟦の→の：09472_no⟧{逆順|ぎゃくじゅん}: reverse chronological order\n- {逆順|ぎゃくじゅん}ソート: reverse sort\n\nSIMILAR WORDS:\n- ⟦{順番|じゅんばん}→順番：03283_junban⟧: order, turn — the normal order or sequence\n- ⟦{逆|ぎゃく}→逆：02649_gyaku⟧: reverse, opposite — broader; can describe any reversal, not just of sequence\n- {降順|こうじゅん}: descending order — a technical term (e.g., in databases), while {逆順|ぎゃくじゅん} is more general\n- {昇順|しょうじゅん}: ascending order — the opposite of {降順|こうじゅん}",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03283_junban",
+      "reading": "じゅんばん",
+      "headword": "{順番|じゅんばん}",
+      "label": "order, turn"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["abstract"]
+      "semantic": [
+        "abstract"
+      ]
     },
     "created": "2026-04-18T14:32:20Z",
-    "modified": "2026-04-18T14:32:20Z"
+    "modified": "2026-09-02T04:02:17Z"
   }
 }

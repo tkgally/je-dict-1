@@ -15,41 +15,60 @@
   "examples": [
     {
       "id": "14462_satoimo_ex1",
-      "japanese": "{里芋|さといも}の{煮物|にもの}を{作|つく}る。",
+      "japanese": "{里芋|さといも}⟦の→の：09472_no⟧⟦{煮物|にもの}→煮物：04971_nimono⟧⟦を→を：00422_wo⟧⟦{作|つく}る→作る：00481_tsukuru⟧。",
       "english": "To make simmered taro.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "14462_satoimo_ex2",
-      "japanese": "{里芋|さといも}は{皮|かわ}をむくとぬるぬるする。",
+      "japanese": "{里芋|さといも}⟦は→は：00079_ha⟧⟦{皮|かわ}をむく→皮をむく：18103_kawawomuku⟧⟦と→と：00512_to⟧⟦ぬるぬる→ぬるぬる：05173_nurunuru⟧⟦する→する：00392_suru⟧。",
       "english": "Taro gets slippery when you peel it.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "14462_satoimo_ex3",
-      "japanese": "{秋|あき}になると{祖母|そぼ}がよく{里芋|さといも}の{味噌汁|みそしる}を{作|つく}ってくれた。",
+      "japanese": "⟦{秋|あき}→秋：02276_aki⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦と→と：00512_to⟧⟦{祖母|そぼ}→祖母：00813_sobo⟧⟦が→が：00051_ga⟧⟦よく→よく：00601_yoku⟧{里芋|さといも}⟦の→の：09472_no⟧⟦{味噌汁|みそしる}→味噌汁：04954_misoshiru⟧⟦を→を：00422_wo⟧⟦{作|つく}って→作る：00481_tsukuru⟧⟦くれた→くれる：00724_kureru⟧。",
       "english": "In autumn, my grandmother often made taro miso soup for me.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "USAGE:\n{里芋|さといも} is one of the most common root vegetables in Japanese cuisine. The name literally means \"village potato\" ({里|さと} = village, {芋|いも} = potato/tuber), distinguishing it from {山芋|やまいも} (mountain yam).\n\nCOMMON COLLOCATIONS:\n- {里芋|さといも}の{煮物|にもの} (simmered taro)\n- {里芋|さといも}の{煮|に}っころがし (taro simmered in sweet soy sauce)\n- {里芋|さといも}の{味噌汁|みそしる} (taro miso soup)\n\nCULTURAL NOTE:\n{里芋|さといも} is a key ingredient in {芋煮|いもに} (taro stew), a famous regional dish from the Tohoku area, especially Yamagata Prefecture, where {芋煮会|いもにかい} (outdoor taro stew parties) are a popular autumn tradition.",
-  "cross_references": [],
+  "notes": "USAGE:\n{里芋|さといも} is one of the most common root vegetables in Japanese cuisine. The name literally means \"village potato\" (⟦{里|さと}→里：02214_sato⟧ = village, ⟦{芋|いも}→芋：10231_imo⟧ = potato/tuber), distinguishing it from ⟦{山芋|やまいも}→山芋：22494_yamaimo⟧ (mountain yam).\n\nCOMMON COLLOCATIONS:\n- {里芋|さといも}⟦の→の：09472_no⟧⟦{煮物|にもの}→煮物：04971_nimono⟧ (simmered taro)\n- {里芋|さといも}⟦の→の：09472_no⟧{煮|に}っころがし (taro simmered in sweet soy sauce)\n- {里芋|さといも}⟦の→の：09472_no⟧⟦{味噌汁|みそしる}→味噌汁：04954_misoshiru⟧ (taro miso soup)\n\nCULTURAL NOTE:\n{里芋|さといも} is a key ingredient in {芋煮|いもに} (taro stew), a famous regional dish from the Tohoku area, especially Yamagata Prefecture, where {芋煮会|いもにかい} (outdoor taro stew parties) are a popular autumn tradition.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "05184_jagaimo",
+      "reading": "じゃがいも",
+      "headword": "じゃがいも",
+      "label": "potato"
+    }
+  ],
   "metadata": {
     "created": "2026-03-01T10:00:03Z",
-    "modified": "2026-03-01T10:00:03Z",
+    "modified": "2026-09-02T04:01:37Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food", "plant-general"]
+      "semantic": [
+        "food",
+        "plant-general"
+      ]
     }
   }
 }

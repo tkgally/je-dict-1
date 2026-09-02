@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21369_tegiwayoku_ex1",
-      "japanese": "{手際|てぎわ}よく{料理|りょうり}を{作|つく}った。",
+      "japanese": "{手際|てぎわ}よく⟦{料理|りょうり}→料理：01523_ryouri⟧⟦を→を：00422_wo⟧⟦{作|つく}った→作る：00481_tsukuru⟧。",
       "english": "She cooked skillfully.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21369_tegiwayoku_ex2",
-      "japanese": "{手際|てぎわ}よく{荷物|にもつ}をまとめた。",
+      "japanese": "{手際|てぎわ}よく⟦{荷物|にもつ}→荷物：00737_nimotsu⟧⟦を→を：00422_wo⟧⟦まとめた→まとめる：02424_matomeru⟧。",
       "english": "I packed my luggage efficiently.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21369_tegiwayoku_ex3",
-      "japanese": "ベテランのシェフが{手際|てぎわ}よく{食材|しょくざい}を{切|き}り{分|わ}けていく{様子|ようす}に{見入|みい}った。",
+      "japanese": "⟦ベテラン→ベテラン：11121_beteran⟧⟦の→の：09472_no⟧⟦シェフ→シェフ：05062_shefu⟧⟦が→が：00051_ga⟧{手際|てぎわ}よく⟦{食材|しょくざい}→食材：04940_shokuzai⟧⟦を→を：00422_wo⟧⟦{切|き}り{分|わ}けて→切り分ける：11774_kiriwakeru⟧いく⟦{様子|ようす}→様子：01521_yousu⟧⟦に→に：00314_ni⟧⟦{見入|みい}った→見入る：16142_miiru⟧。",
       "english": "I was captivated watching the experienced chef deftly cut and portion the ingredients.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "The adverbial form of {手際|てぎわ}がいい (to be skillful/efficient). {手際|てぎわ} literally means \"hand skill\" or \"dexterity\" — the よく form turns it into an adverb meaning \"in a skilled manner.\" Implies practiced, smooth execution without hesitation or wasted motion.\n\nCOMMON COLLOCATIONS:\n- {手際|てぎわ}よく{片付|かたづ}ける: to tidy up efficiently\n- {手際|てぎわ}よくこなす: to handle skillfully\n- {手際|てぎわ}よく{進|すす}める: to proceed efficiently\n- {手際|てぎわ}よく{処理|しょり}する: to handle/process deftly\n\nSIMILAR WORDS:\n- {上手|じょうず}に: skillfully — more general, less emphasis on efficiency\n- {要領|ようりょう}よく: efficiently — emphasizes getting to the point, knowing the tricks\n- {器用|きよう}に: dexterously — focuses on manual skill\n- {手早|てばや}く: quickly and efficiently — emphasizes speed",
+  "notes": "The adverbial form of ⟦{手際|てぎわ}→手際：06657_tegiwa⟧⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧ (to be skillful/efficient). ⟦{手際|てぎわ}→手際：06657_tegiwa⟧ literally means \"hand skill\" or \"dexterity\" — the ⟦よく→よく：00601_yoku⟧ form turns it into an adverb meaning \"in a skilled manner.\" Implies practiced, smooth execution without hesitation or wasted motion.\n\nCOMMON COLLOCATIONS:\n- {手際|てぎわ}よく⟦{片付|かたづ}ける→片付ける：01192_katazukeru⟧: to tidy up efficiently\n- {手際|てぎわ}よく⟦こなす→こなす：09897_konasu⟧: to handle skillfully\n- {手際|てぎわ}よく⟦{進|すす}める→進める：01949_susumeru⟧: to proceed efficiently\n- {手際|てぎわ}よく⟦{処理|しょり}する→処理する：25531_shorisuru⟧: to handle/process deftly\n\nSIMILAR WORDS:\n- ⟦{上手|じょうず}→上手：00707_jouzu⟧⟦に→に：00314_ni⟧: skillfully — more general, less emphasis on efficiency\n- ⟦{要領|ようりょう}よく→要領よく：24537_youryouyoku⟧: efficiently — emphasizes getting to the point, knowing the tricks\n- ⟦{器用|きよう}→器用：02655_kiyou⟧⟦に→に：00314_ni⟧: dexterously — focuses on manual skill\n- {手早|てばや}く: quickly and efficiently — emphasizes speed",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00707_jouzu",
+      "reading": "じょうず",
+      "headword": "{上手|じょうず}",
+      "label": "skillfully"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24537_youryouyoku",
+      "reading": "ようりょうよく",
+      "headword": "{要領|ようりょう}よく",
+      "label": "efficiently"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02655_kiyou",
+      "reading": "きよう",
+      "headword": "{器用|きよう}",
+      "label": "dexterously"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +82,6 @@
       ]
     },
     "created": "2026-04-02T01:41:47Z",
-    "modified": "2026-06-08T02:21:06Z"
+    "modified": "2026-09-02T04:02:03Z"
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21133_honkan_ex1",
-      "japanese": "{受付|うけつけ}は{本館|ほんかん}の1{階|かい}です。",
+      "japanese": "⟦{受付|うけつけ}→受付：01325_uketsuke⟧⟦は→は：00079_ha⟧{本館|ほんかん}⟦の→の：09472_no⟧1⟦{階|かい}→階：01034_kai⟧です。",
       "english": "The reception desk is on the first floor of the main building.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21133_honkan_ex2",
-      "japanese": "{美術館|びじゅつかん}の{本館|ほんかん}は{改装中|かいそうちゅう}だ。",
+      "japanese": "⟦{美術館|びじゅつかん}→美術館：01717_bijutsukan⟧⟦の→の：09472_no⟧{本館|ほんかん}⟦は→は：00079_ha⟧⟦{改装中|かいそうちゅう}→改装中：24572_kaisouchuu⟧だ。",
       "english": "The main building of the art museum is under renovation.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21133_honkan_ex3",
-      "japanese": "ホテルの{本館|ほんかん}と{別館|べっかん}は{渡|わた}り{廊下|ろうか}でつながっている。",
+      "japanese": "⟦ホテル→ホテル：01027_hoteru⟧⟦の→の：09472_no⟧{本館|ほんかん}⟦と→と：00512_to⟧⟦{別館|べっかん}→別館：21134_bekkan⟧⟦は→は：00079_ha⟧⟦{渡|わた}り→渡り：13621_watari⟧⟦{廊下|ろうか}→廊下：05005_rouka⟧⟦で→で：00502_de⟧つながって⟦いる→いる：00495_iru⟧。",
       "english": "The hotel's main building and annex are connected by a covered walkway.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "The primary building in a complex of multiple buildings. Very commonly seen on signs and in directions at museums, hotels, hospitals, and universities.\n\nCOMMON COLLOCATIONS:\n- {本館|ほんかん}1{階|かい}: first floor of the main building\n- {本館|ほんかん}ロビー: main building lobby\n- {本館|ほんかん}と{別館|べっかん}: main building and annex\n\nUSAGE:\nFrequently appears on directional signs and in spoken directions at large facilities. The distinction between {本館|ほんかん} and {別館|べっかん} is essential for navigating Japanese hotels, museums, and hospitals.\n\nRELATED TERMS:\n- {別館|べっかん}: annex, secondary building\n- {新館|しんかん}: new building/wing\n- {旧館|きゅうかん}: old building/wing",
+  "notes": "The primary building in a complex of multiple buildings. Very commonly seen on signs and in directions at museums, hotels, hospitals, and universities.\n\nCOMMON COLLOCATIONS:\n- {本館|ほんかん}1⟦{階|かい}→階：01034_kai⟧: first floor of the main building\n- {本館|ほんかん}⟦ロビー→ロビー：26995_robii⟧: main building lobby\n- {本館|ほんかん}⟦と→と：00512_to⟧⟦{別館|べっかん}→別館：21134_bekkan⟧: main building and annex\n\nUSAGE:\nFrequently appears on directional signs and in spoken directions at large facilities. The distinction between {本館|ほんかん} and ⟦{別館|べっかん}→別館：21134_bekkan⟧ is essential for navigating Japanese hotels, museums, and hospitals.\n\nRELATED WORDS:\n- ⟦{別館|べっかん}→別館：21134_bekkan⟧: annex, secondary building\n- {新館|しんかん}: new building/wing\n- {旧館|きゅうかん}: old building/wing",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "21134_bekkan",
+      "reading": "べっかん",
+      "headword": "{別館|べっかん}",
+      "label": "annex, secondary building"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29249_jimutou",
+      "reading": "じむとう",
+      "headword": "{事務棟|じむとう}",
+      "label": "office building"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +75,6 @@
       ]
     },
     "created": "2026-03-31T20:26:32Z",
-    "modified": "2026-07-29T00:22:41Z"
+    "modified": "2026-09-02T04:02:02Z"
   }
 }

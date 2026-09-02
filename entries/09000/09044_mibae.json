@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "09044_mibae_ex1",
-      "japanese": "{見栄|みば}えのする{料理|りょうり}を{作|つく}る。",
+      "japanese": "{見栄|みば}え⟦の→の：09472_no⟧⟦する→する：00392_suru⟧⟦{料理|りょうり}→料理：01523_ryouri⟧⟦を→を：00422_wo⟧⟦{作|つく}る→作る：00481_tsukuru⟧。",
       "english": "To make a visually appealing dish.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "09044_mibae_ex2",
-      "japanese": "{見栄|みば}えが{良|よ}いほうが{売|う}れやすい。",
+      "japanese": "{見栄|みば}え⟦が→が：00051_ga⟧⟦{良|よ}い→良い：02350_yoi⟧ほう⟦が→が：00051_ga⟧⟦{売|う}れ→売れる：02012_ureru⟧やすい。",
       "english": "Things that look better sell more easily.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "09044_mibae_ex3",
-      "japanese": "{見栄|みば}えより{味|あじ}を{重視|じゅうし}したい。",
+      "japanese": "{見栄|みば}え⟦より→より：09476_yori⟧⟦{味|あじ}→味：00826_aji⟧⟦を→を：00422_wo⟧⟦{重視|じゅうし}→重視：03341_juushi⟧⟦したい→する：00392_suru⟧。",
       "english": "I want to prioritize taste over appearance.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{見栄|みば}え focuses on visual impression.\n\nCOMMON EXPRESSIONS:\n- {見栄|みば}えがする: to look impressive/attractive\n- {見栄|みば}えが{良|よ}い: to have good visual appeal\n- {見栄|みば}えを{良|よ}くする: to improve the appearance\n\nUSAGE NOTES:\n- Often used for food, presentations, displays\n- Emphasizes the visual aspect specifically\n\nRELATED WORDS:\n- {見|み}た{目|め}: appearance, looks (more general)\n- {体裁|ていさい}: form, appearance, decorum\n- {外見|がいけん}: outward appearance",
+  "notes": "{見栄|みば}え focuses on visual impression.\n\nCOMMON EXPRESSIONS:\n- {見栄|みば}え⟦が→が：00051_ga⟧⟦する→する：00392_suru⟧: to look impressive/attractive\n- {見栄|みば}え⟦が→が：00051_ga⟧⟦{良|よ}い→良い：02350_yoi⟧: to have good visual appeal\n- {見栄|みば}え⟦を→を：00422_wo⟧⟦{良|よ}く→良い：02350_yoi⟧⟦する→する：00392_suru⟧: to improve the appearance\n\nUSAGE:\n- Often used for food, presentations, displays\n- Emphasizes the visual aspect specifically\n\nRELATED WORDS:\n- ⟦{見|み}た{目|め}→見た目：14110_mitame⟧: appearance, looks (more general)\n- ⟦{体裁|ていさい}→体裁：09154_teisai⟧: form, appearance, decorum\n- ⟦{外見|がいけん}→外見：12114_gaiken⟧: outward appearance",
   "cross_references": [
     {
       "type": "related",
@@ -51,11 +51,46 @@
       "reading": "できばえ",
       "headword": "{出来栄|できば}え",
       "label": "quality of work"
+    },
+    {
+      "type": "related",
+      "target_id": "14110_mitame",
+      "reading": "みため",
+      "headword": "{見|み}た{目|め}",
+      "label": "appearance, looks"
+    },
+    {
+      "type": "related",
+      "target_id": "09154_teisai",
+      "reading": "ていさい",
+      "headword": "{体裁|ていさい}",
+      "label": "form, appearance, decorum"
+    },
+    {
+      "type": "related",
+      "target_id": "12114_gaiken",
+      "reading": "がいけん",
+      "headword": "{外見|がいけん}",
+      "label": "outward appearance"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24196_utsuri",
+      "reading": "うつり",
+      "headword": "{映|うつ}り",
+      "label": "how something looks on screen or in photos"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26219_utsuribae",
+      "reading": "うつりばえ",
+      "headword": "{写|うつ}り{映|ば}え",
+      "label": "photogenic quality"
     }
   ],
   "metadata": {
     "created": "2026-01-30T23:08:18Z",
-    "modified": "2026-08-12T21:25:53Z",
+    "modified": "2026-09-02T04:01:17Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

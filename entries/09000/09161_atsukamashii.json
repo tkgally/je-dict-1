@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "09161_atsukamashii_ex1",
-      "japanese": "{厚|あつ}かましい{態度|たいど}",
+      "japanese": "{厚|あつ}かましい⟦{態度|たいど}→態度：03396_taido⟧",
       "english": "a shameless attitude",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "09161_atsukamashii_ex2",
-      "japanese": "{厚|あつ}かましくも、またお{金|かね}を{借|か}りに{来|き}た。",
+      "japanese": "{厚|あつ}かましく⟦も→も：00484_mo⟧、⟦また→また：00969_mata⟧⟦お{金|かね}→お金：00611_okane⟧⟦を→を：00422_wo⟧⟦{借|か}り→借りる：00532_kariru⟧⟦に→に：00314_ni⟧⟦{来|き}た→来る：00254_kuru⟧。",
       "english": "He shamelessly came to borrow money again.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "09161_atsukamashii_ex3",
-      "japanese": "{厚|あつ}かましいお{願|ねが}いですが、もう{一度|いちど}チャンスをいただけませんか。",
+      "japanese": "{厚|あつ}かましい⟦お{願|ねが}い→お願い：10299_onegai⟧です⟦が→が：00051_ga⟧、⟦もう{一度|いちど}→もう一度：02976_mouichido⟧⟦チャンス→チャンス：03857_chansu⟧⟦を→を：00422_wo⟧⟦いただけません→いただく：01326_itadaku⟧⟦か→か：09473_ka⟧。",
       "english": "I know it's presumptuous, but could you give me another chance?",
       "sense_numbers": [
         1
@@ -43,7 +43,7 @@
       "notes": null
     }
   ],
-  "notes": "ADJECTIVE TYPE: I-adjective. Conjugates as: {厚|あつ}かましくない, {厚|あつ}かましかった.\n\nADVERBIAL FORM: {厚|あつ}かましく (shamelessly, brazenly)\n\nNUANCE: {厚|あつ}かましい is strongly negative when describing others, implying a lack of social awareness or shame. However, it can be used self-deprecatingly when making a request ({厚|あつ}かましいお{願|ねが}いですが...) to acknowledge that one is asking for something unreasonable.\n\nCOMMON COLLOCATIONS:\n- {厚|あつ}かましい{態度|たいど}/{人|ひと} (shameless attitude/person)\n- {厚|あつ}かましくも (shamelessly, brazenly)\n- {厚|あつ}かましいお{願|ねが}い (presumptuous request)\n\nRELATED WORDS:\n- {図々|ずうずう}しい (shameless, impudent - similar meaning)\n- {厚顔|こうがん} (brazen, shameless - literary)\n- {恥知|はじし}らず (shameless)\n- {遠慮|えんりょ}がない (lacking restraint)",
+  "notes": "ADJECTIVE TYPE: I-adjective. Conjugates as: {厚|あつ}かましく⟦ない→ない：01118_nai⟧, {厚|あつ}かましかった.\n\nADVERBIAL FORM: {厚|あつ}かましく (shamelessly, brazenly)\n\nNUANCE: {厚|あつ}かましい is strongly negative when describing others, implying a lack of social awareness or shame. However, it can be used self-deprecatingly when making a request ({厚|あつ}かましい⟦お{願|ねが}い→お願い：10299_onegai⟧です⟦が→が：00051_ga⟧...) to acknowledge that one is asking for something unreasonable.\n\nCOMMON COLLOCATIONS:\n- {厚|あつ}かましい⟦{態度|たいど}→態度：03396_taido⟧/⟦{人|ひと}→人：00476_hito⟧ (shameless attitude/person)\n- {厚|あつ}かましく⟦も→も：00484_mo⟧ (shamelessly, brazenly)\n- {厚|あつ}かましい⟦お{願|ねが}い→お願い：10299_onegai⟧ (presumptuous request)\n\nRELATED WORDS:\n- ⟦{図々|ずうずう}しい→図々しい：06535_zuuzuushii⟧ (shameless, impudent - similar meaning)\n- ⟦{厚顔|こうがん}→厚顔：09162_kougan⟧ (brazen, shameless - literary)\n- ⟦{恥知|はじし}らず→恥知らず：21065_hajishirazu⟧ (shameless)\n- ⟦{遠慮|えんりょ}→遠慮：01337_enryo⟧⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧ (lacking restraint)",
   "cross_references": [
     {
       "type": "synonym",
@@ -58,11 +58,46 @@
       "reading": "こうがん",
       "headword": "{厚顔|こうがん}",
       "label": "literary"
+    },
+    {
+      "type": "related",
+      "target_id": "21065_hajishirazu",
+      "reading": "はじしらず",
+      "headword": "{恥知|はじし}らず",
+      "label": "shameless"
+    },
+    {
+      "type": "related",
+      "target_id": "06393_kouganmuchi",
+      "reading": "こうがんむち",
+      "headword": "{厚顔無恥|こうがんむち}",
+      "label": "shameless, brazen"
+    },
+    {
+      "type": "related",
+      "target_id": "08271_namaiki",
+      "reading": "なまいき",
+      "headword": "{生意気|なまいき}",
+      "label": "impudent"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16915_muchi",
+      "reading": "むち",
+      "headword": "{無恥|むち}",
+      "label": "shameless"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22933_tsuranokawagaatsui",
+      "reading": "つらのかわがあつい",
+      "headword": "{面|つら}の{皮|かわ}が{厚|あつ}い",
+      "label": "shameless"
     }
   ],
   "metadata": {
     "created": "2026-01-31T11:31:53Z",
-    "modified": "2026-08-12T21:25:53Z",
+    "modified": "2026-09-02T04:01:17Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

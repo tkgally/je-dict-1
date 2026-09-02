@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24186_shadan_ex1",
-      "japanese": "{一般|いっぱん}{社団|しゃだん}{法人|ほうじん}を{設立|せつりつ}する。",
+      "japanese": "{一般|いっぱん}{社団|しゃだん}{法人|ほうじん}⟦を→を：00422_wo⟧⟦{設立|せつりつ}する→設立する：17473_setsuritsusuru⟧。",
       "english": "To establish a general incorporated association.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24186_shadan_ex2",
-      "japanese": "この{団体|だんたい}は{社団|しゃだん}{法人|ほうじん}として{登記|とうき}されている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{団体|だんたい}→団体：03426_dantai⟧⟦は→は：00079_ha⟧{社団|しゃだん}⟦{法人|ほうじん}→法人：13298_houjin⟧⟦として→として：06802_toshite⟧⟦{登記|とうき}→登記：19798_touki⟧⟦されている→する：00392_suru⟧。",
       "english": "This organization is registered as an incorporated association.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24186_shadan_ex3",
-      "japanese": "{公益|こうえき}{社団|しゃだん}{法人|ほうじん}は{税制上|ぜいせいじょう}の{優遇|ゆうぐう}{措置|そち}を{受|う}けることができる。",
+      "japanese": "⟦{公益|こうえき}→公益：16061_koueki⟧{社団|しゃだん}⟦{法人|ほうじん}→法人：13298_houjin⟧⟦は→は：00079_ha⟧{税制上|ぜいせいじょう}⟦の→の：09472_no⟧⟦{優遇|ゆうぐう}→優遇：17162_yuuguu⟧⟦{措置|そち}→措置：05519_sochi⟧⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧こと⟦が→が：00051_ga⟧⟦できる→できる：00557_dekiru⟧。",
       "english": "Public interest incorporated associations can receive tax benefits.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "A legal term for an organization formed by a group of people (as opposed to {財団|ざいだん}, which is formed around assets/property). Very commonly seen in official organizational names.\n\nCOMMON COLLOCATIONS:\n- {社団|しゃだん}{法人|ほうじん}: incorporated association (the full legal entity type)\n- {一般|いっぱん}{社団|しゃだん}{法人|ほうじん}: general incorporated association\n- {公益|こうえき}{社団|しゃだん}{法人|ほうじん}: public interest incorporated association\n\nSIMILAR WORDS:\n- {財団|ざいだん}: foundation — a legal entity organized around a pool of assets or endowment, rather than members\n- {法人|ほうじん}: legal entity, corporation — a broader term for any entity with legal personhood\n- NPO{法人|ほうじん}: NPO, nonprofit organization — a separate legal category for nonprofits",
+  "notes": "A legal term for an organization formed by a group of people (as opposed to ⟦{財団|ざいだん}→財団：11331_zaidan⟧, which is formed around assets/property). Very commonly seen in official organizational names.\n\nCOMMON COLLOCATIONS:\n- {社団|しゃだん}⟦{法人|ほうじん}→法人：13298_houjin⟧: incorporated association (the full legal entity type)\n- {一般|いっぱん}{社団|しゃだん}{法人|ほうじん}: general incorporated association\n- ⟦{公益|こうえき}→公益：16061_koueki⟧{社団|しゃだん}⟦{法人|ほうじん}→法人：13298_houjin⟧: public interest incorporated association\n\nSIMILAR WORDS:\n- ⟦{財団|ざいだん}→財団：11331_zaidan⟧: foundation — a legal entity organized around a pool of assets or endowment, rather than members\n- ⟦{法人|ほうじん}→法人：13298_houjin⟧: legal entity, corporation — a broader term for any entity with legal personhood\n- NPO{法人|ほうじん}: NPO, nonprofit organization — a separate legal category for nonprofits",
   "cross_references": [
     {
       "type": "contrast",
@@ -52,6 +52,13 @@
       "reading": "ざいだん",
       "headword": "{財団|ざいだん}",
       "label": "foundation (asset-based)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13298_houjin",
+      "reading": "ほうじん",
+      "headword": "{法人|ほうじん}",
+      "label": "legal entity, corporation"
     }
   ],
   "schema_version": "2.0",
@@ -61,6 +68,8 @@
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "law",
         "society"
@@ -70,6 +79,6 @@
       ]
     },
     "created": "2026-04-17T21:45:41Z",
-    "modified": "2026-08-02T18:32:34Z"
+    "modified": "2026-09-02T04:02:17Z"
   }
 }

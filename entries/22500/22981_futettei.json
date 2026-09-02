@@ -3,7 +3,7 @@
   "headword": "{不徹底|ふてってい}",
   "reading": "ふてってい",
   "romaji": "futettei",
-  "part_of_speech": "noun, adjective (na)",
+  "part_of_speech": "noun, na-adjective",
   "gloss": "incomplete; halfhearted; not thorough",
   "definitions": [
     {
@@ -15,40 +15,67 @@
   "examples": [
     {
       "id": "22981_futettei_ex1",
-      "japanese": "{対策|たいさく}が{不徹底|ふてってい}だ。",
+      "japanese": "⟦{対策|たいさく}→対策：02511_taisaku⟧⟦が→が：00051_ga⟧{不徹底|ふてってい}だ。",
       "english": "The countermeasures are not thorough enough.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "22981_futettei_ex2",
-      "japanese": "{管理|かんり}の{不徹底|ふてってい}が{事故|じこ}の{原因|げんいん}だった。",
+      "japanese": "⟦{管理|かんり}→管理：00178_kanri⟧⟦の→の：09472_no⟧{不徹底|ふてってい}⟦が→が：00051_ga⟧⟦{事故|じこ}→事故：00851_jiko⟧⟦の→の：09472_no⟧⟦{原因|げんいん}→原因：01400_genin⟧だった。",
       "english": "Inadequate management was the cause of the accident.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "22981_futettei_ex3",
-      "japanese": "ルールの{周知|しゅうち}が{不徹底|ふてってい}なまま{運用|うんよう}を{始|はじ}めたため、{混乱|こんらん}が{生|しょう}じた。",
+      "japanese": "⟦ルール→ルール：00354_ruuru⟧⟦の→の：09472_no⟧{周知|しゅうち}⟦が→が：00051_ga⟧{不徹底|ふてってい}なまま⟦{運用|うんよう}→運用：06811_unyou⟧⟦を→を：00422_wo⟧⟦{始|はじ}めた→始める：00531_hajimeru⟧⟦ため→ため：01145_tame⟧、⟦{混乱|こんらん}→混乱：02811_konran⟧⟦が→が：00051_ga⟧⟦{生|しょう}じた→生じる：02118_shoujiru⟧。",
       "english": "Because operations started without thoroughly communicating the rules, confusion arose.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {不|ふ} (not, un-) and {徹底|てってい} (thoroughness, completeness). The opposite of {徹底|てってい} (thorough). Often used critically to point out failures in implementation or follow-through.\n\nCOMMON COLLOCATIONS:\n- {対策|たいさく}の{不徹底|ふてってい}: inadequate countermeasures\n- {管理|かんり}の{不徹底|ふてってい}: inadequate management\n- {周知|しゅうち}の{不徹底|ふてってい}: failure to properly inform\n- {不徹底|ふてってい}な{対応|たいおう}: halfhearted response\n\nSIMILAR WORDS:\n- {中途半端|ちゅうとはんぱ}: half-baked; half-finished — more colloquial, broader usage\n- {不十分|ふじゅうぶん}: insufficient; inadequate — focuses on quantity rather than effort\n- {徹底|てってい}: thorough; complete — the antonym\n\nREGISTER:\nFormal. Commonly used in news reports, official investigations, and business contexts when assigning blame or identifying problems.",
+  "notes": "Composed of {不|ふ} (not, un-) and ⟦{徹底|てってい}→徹底：01652_tettei⟧ (thoroughness, completeness). The opposite of ⟦{徹底|てってい}→徹底：01652_tettei⟧ (thorough). Often used critically to point out failures in implementation or follow-through.\n\nCOMMON COLLOCATIONS:\n- ⟦{対策|たいさく}→対策：02511_taisaku⟧⟦の→の：09472_no⟧{不徹底|ふてってい}: inadequate countermeasures\n- ⟦{管理|かんり}→管理：00178_kanri⟧⟦の→の：09472_no⟧{不徹底|ふてってい}: inadequate management\n- {周知|しゅうち}⟦の→の：09472_no⟧{不徹底|ふてってい}: failure to properly inform\n- {不徹底|ふてってい}な⟦{対応|たいおう}→対応：02510_taiou⟧: halfhearted response\n\nSIMILAR WORDS:\n- ⟦{中途半端|ちゅうとはんぱ}→中途半端：11305_chuutohanpa⟧: half-baked; half-finished — more colloquial, broader usage\n- ⟦{不十分|ふじゅうぶん}→不十分：05616_fujuubun⟧: insufficient; inadequate — focuses on quantity rather than effort\n- ⟦{徹底|てってい}→徹底：01652_tettei⟧: thorough; complete — the antonym\n\nREGISTER:\nFormal. Commonly used in news reports, official investigations, and business contexts when assigning blame or identifying problems.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11305_chuutohanpa",
+      "reading": "ちゅうとはんぱ",
+      "headword": "{中途半端|ちゅうとはんぱ}",
+      "label": "half-baked"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05616_fujuubun",
+      "reading": "ふじゅうぶん",
+      "headword": "{不十分|ふじゅうぶん}",
+      "label": "insufficient"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-na"],
+      "pos": [
+        "noun",
+        "adjective-na"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["evaluation"]
+      "semantic": [
+        "evaluation"
+      ]
     },
     "created": "2026-04-08T14:19:26Z",
-    "modified": "2026-07-31T00:22:50Z"
+    "modified": "2026-09-02T04:02:10Z"
   }
 }

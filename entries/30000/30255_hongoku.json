@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30255_hongoku_ex1",
-      "japanese": "{本国|ほんごく}に{帰|かえ}る。",
+      "japanese": "{本国|ほんごく}⟦に→に：00314_ni⟧⟦{帰|かえ}る→帰る：00508_kaeru⟧。",
       "english": "To return to one's home country.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30255_hongoku_ex2",
-      "japanese": "{大使|たいし}は{本国|ほんごく}に{呼|よ}び{戻|もど}された。",
+      "japanese": "⟦{大使|たいし}→大使：03391_taishi⟧⟦は→は：00079_ha⟧{本国|ほんごく}⟦に→に：00314_ni⟧⟦{呼|よ}び{戻|もど}された→呼び戻す：07004_yobimodosu⟧。",
       "english": "The ambassador was recalled to their home country.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30255_hongoku_ex3",
-      "japanese": "この{製品|せいひん}は{本国|ほんごく}では{別|べつ}の{名前|なまえ}で{売|う}られているそうだ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{製品|せいひん}→製品：01445_seihin⟧⟦は→は：00079_ha⟧{本国|ほんごく}⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{別|べつ}→別：01216_betsu⟧⟦の→の：09472_no⟧⟦{名前|なまえ}→名前：02234_namae⟧⟦で→で：00502_de⟧⟦{売|う}られている→売る：00906_uru⟧そうだ。",
       "english": "I hear this product is sold under a different name in its home country.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "{本|ほん} (main, one's own) + {国|くに}/{国|こく} (country). The word implies a viewpoint outside that country — it is used of someone abroad looking back home, not by a person speaking about the country they are standing in.\n\nCOMMON COLLOCATIONS:\n- {本国|ほんごく}に{帰|かえ}る: to return to one's home country\n- {本国|ほんごく}{政府|せいふ}: the home government\n- {本国|ほんごく}{送還|そうかん}: repatriation, deportation\n\nSIMILAR WORDS:\n- {母国|ぼこく}: motherland — emotional and personal, the country one belongs to\n- {出身国|しゅっしんこく}: country of origin — neutral and administrative, on forms and in statistics\n- {自国|じこく}: one's own country — used in contrast with other countries, often in policy discussion",
+  "notes": "{本|ほん} (main, one's own) + ⟦{国|くに}→国：02204_kuni⟧/{国|こく} (country). The word implies a viewpoint outside that country — it is used of someone abroad looking back home, not by a person speaking about the country they are standing in.\n\nCOMMON COLLOCATIONS:\n- {本国|ほんごく}⟦に→に：00314_ni⟧⟦{帰|かえ}る→帰る：00508_kaeru⟧: to return to one's home country\n- {本国|ほんごく}⟦{政府|せいふ}→政府：03294_seifu⟧: the home government\n- {本国|ほんごく}{送還|そうかん}: repatriation, deportation\n\nSIMILAR WORDS:\n- ⟦{母国|ぼこく}→母国：17954_bokoku⟧: motherland — emotional and personal, the country one belongs to\n- {出身国|しゅっしんこく}: country of origin — neutral and administrative, on forms and in statistics\n- ⟦{自国|じこく}→自国：14013_jikoku⟧: one's own country — used in contrast with other countries, often in policy discussion",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17954_bokoku",
+      "reading": "ぼこく",
+      "headword": "{母国|ぼこく}",
+      "label": "motherland"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14013_jikoku",
+      "reading": "じこく",
+      "headword": "{自国|じこく}",
+      "label": "one's own country"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +69,7 @@
         "noun"
       ],
       "formality": "formal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "geography",
         "politics"
@@ -61,6 +77,6 @@
       "domain": []
     },
     "created": "2026-07-30T12:18:26Z",
-    "modified": "2026-07-30T12:18:26Z"
+    "modified": "2026-09-02T04:02:39Z"
   }
 }

@@ -3,7 +3,7 @@
   "id": "17492_mihosou",
   "headword": "{未舗装|みほそう}",
   "reading": "みほそう",
-  "part_of_speech": "noun (no-adjective)",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "unpaved; unfinished road surface",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "17492_mihosou_ex1",
-      "japanese": "この{道|みち}は{未舗装|みほそう}だ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{道|みち}→道：00505_michi⟧⟦は→は：00079_ha⟧{未舗装|みほそう}だ。",
       "english": "This road is unpaved.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "17492_mihosou_ex2",
-      "japanese": "{未舗装|みほそう}の{道路|どうろ}は{雨|あめ}の{後|あと}ぬかるみやすい。",
+      "japanese": "{未舗装|みほそう}⟦の→の：09472_no⟧⟦{道路|どうろ}→道路：01481_douro⟧⟦は→は：00079_ha⟧⟦{雨|あめ}→雨：00583_ame⟧⟦の→の：09472_no⟧⟦{後|あと}→後：09580_ato⟧⟦ぬかるみ→ぬかるむ：26941_nukarumu⟧やすい。",
       "english": "Unpaved roads tend to get muddy after rain.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "17492_mihosou_ex3",
-      "japanese": "{山奥|やまおく}には{未舗装|みほそう}の{林道|りんどう}がまだ{多|おお}く{残|のこ}っている。",
+      "japanese": "⟦{山奥|やまおく}→山奥：12438_yamaoku⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{未舗装|みほそう}⟦の→の：09472_no⟧⟦{林道|りんどう}→林道：21917_rindou⟧⟦が→が：00051_ga⟧⟦まだ→まだ：00603_mada⟧⟦{多|おお}く→多い：01127_ooi⟧⟦{残|のこ}っている→残る：01187_nokoru⟧。",
       "english": "There are still many unpaved forest roads deep in the mountains.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "A compound of the prefix {未|み}～ (not yet) and {舗装|ほそう} (paving). Used as a no-adjective to describe roads or surfaces that have not been paved.\n\nGRAMMAR:\n- {未舗装|みほそう}の{道|みち}: unpaved road (no-adjective + の)\n- {未舗装|みほそう}だ: is unpaved (predicate)\n\nTHE {未|み}～ PREFIX:\nThis prefix attaches to Sino-Japanese words to mean \"not yet\":\n- {未完成|みかんせい}: incomplete\n- {未経験|みけいけん}: inexperienced\n- {未確認|みかくにん}: unconfirmed\n- {未使用|みしよう}: unused\n\nRELATED WORDS:\n- {舗装|ほそう}: paving — the base word\n- {砂利道|じゃりみち}: gravel road\n- {土道|つちみち}: dirt road\n- アスファルト: asphalt",
+  "notes": "A compound of the prefix ⟦{未|み}→未〜：00277_mi⟧～ (not yet) and ⟦{舗装|ほそう}→舗装：08397_hosou⟧ (paving). Used as a no-adjective to describe roads or surfaces that have not been paved.\n\nCOMMON PATTERNS:\n- {未舗装|みほそう}⟦の→の：09472_no⟧⟦{道|みち}→道：00505_michi⟧: unpaved road (no-adjective + ⟦の→の：09472_no⟧)\n- {未舗装|みほそう}だ: is unpaved (predicate)\n\nTHE {未|み}～ PREFIX:\nThis prefix attaches to Sino-Japanese words to mean \"not yet\":\n- ⟦{未完成|みかんせい}→未完成：13066_mikansei⟧: incomplete\n- ⟦{未経験|みけいけん}→未経験：17726_mikeiken⟧: inexperienced\n- ⟦{未確認|みかくにん}→未確認：22493_mikakunin⟧: unconfirmed\n- ⟦{未使用|みしよう}→未使用：21316_mishiyou⟧: unused\n\nRELATED WORDS:\n- ⟦{舗装|ほそう}→舗装：08397_hosou⟧: paving — the base word\n- ⟦{砂利道|じゃりみち}→砂利道：16083_jarimichi⟧: gravel road\n- {土道|つちみち}: dirt road\n- ⟦アスファルト→アスファルト：10736_asufaruto⟧: asphalt",
   "cross_references": [
     {
       "type": "antonym",
@@ -52,11 +52,25 @@
       "reading": "ほそう",
       "headword": "{舗装|ほそう}",
       "label": "paving"
+    },
+    {
+      "type": "related",
+      "target_id": "16083_jarimichi",
+      "reading": "じゃりみち",
+      "headword": "{砂利|じゃり}{道|みち}",
+      "label": "gravel road"
+    },
+    {
+      "type": "related",
+      "target_id": "10736_asufaruto",
+      "reading": "あすふぁると",
+      "headword": "アスファルト",
+      "label": "asphalt"
     }
   ],
   "metadata": {
     "created": "2026-03-18T04:29:19Z",
-    "modified": "2026-05-06T08:07:18Z",
+    "modified": "2026-09-02T04:01:48Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

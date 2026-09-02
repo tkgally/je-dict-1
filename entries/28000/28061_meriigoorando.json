@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28061_meriigoorando_ex1",
-      "japanese": "メリーゴーランドに{乗|の}る。",
+      "japanese": "メリーゴーランド⟦に→に：00314_ni⟧⟦{乗|の}る→乗る：00511_noru⟧。",
       "english": "To ride the merry-go-round.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28061_meriigoorando_ex2",
-      "japanese": "{子供|こども}がメリーゴーランドを{楽|たの}しんでいる。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧⟦が→が：00051_ga⟧メリーゴーランド⟦を→を：00422_wo⟧⟦{楽|たの}しんでいる→楽しむ：01203_tanoshimu⟧。",
       "english": "The child is enjoying the carousel.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28061_meriigoorando_ex3",
-      "japanese": "{遊園地|ゆうえんち}で{一番|いちばん}{人気|にんき}のメリーゴーランドには{長|なが}い{列|れつ}ができていた。",
+      "japanese": "⟦{遊園地|ゆうえんち}→遊園地：03174_yuuenchi⟧⟦で→で：00502_de⟧⟦{一番|いちばん}→一番：01140_ichiban⟧⟦{人気|にんき}→人気：01488_ninki⟧⟦の→の：09472_no⟧メリーゴーランド⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{長|なが}い→長い：00491_nagai⟧⟦{列|れつ}→列：02171_retsu⟧⟦が→が：00051_ga⟧⟦できていた→できる：00557_dekiru⟧。",
       "english": "The most popular carousel at the amusement park had a long line.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "A loanword from English \"merry-go-round\"; a staple attraction at {遊園地|ゆうえんち} (amusement parks). The native term is {回転木馬|かいてんもくば}.\n\nCOMMON COLLOCATIONS:\n- メリーゴーランドに{乗|の}る: to ride the carousel\n- メリーゴーランドが{回|まわ}る: the carousel turns\n\nSIMILAR WORDS:\n- {観覧車|かんらんしゃ}: Ferris wheel — another classic amusement-park ride\n- ジェットコースター: roller coaster",
+  "notes": "A loanword from English \"merry-go-round\"; a staple attraction at ⟦{遊園地|ゆうえんち}→遊園地：03174_yuuenchi⟧ (amusement parks). The native term is {回転木馬|かいてんもくば}.\n\nCOMMON COLLOCATIONS:\n- メリーゴーランド⟦に→に：00314_ni⟧⟦{乗|の}る→乗る：00511_noru⟧: to ride the carousel\n- メリーゴーランド⟦が→が：00051_ga⟧⟦{回|まわ}る→回る：01150_mawaru⟧: the carousel turns\n\nSIMILAR WORDS:\n- ⟦{観覧車|かんらんしゃ}→観覧車：09221_kanransha⟧: Ferris wheel — another classic amusement-park ride\n- ⟦ジェットコースター→ジェットコースター：23535_jettokoosutaa⟧: roller coaster",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09221_kanransha",
+      "reading": "かんらんしゃ",
+      "headword": "{観覧車|かんらんしゃ}",
+      "label": "Ferris wheel"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23535_jettokoosutaa",
+      "reading": "じぇっとこーすたー",
+      "headword": "ジェットコースター",
+      "label": "roller coaster"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +69,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "leisure",
         "entertainment"
@@ -61,6 +77,6 @@
       "domain": []
     },
     "created": "2026-05-25T02:04:35Z",
-    "modified": "2026-08-08T03:27:39Z"
+    "modified": "2026-09-02T04:02:32Z"
   }
 }

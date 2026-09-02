@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "27277_sobako_ex1",
-      "japanese": "そば{粉|こ}でそばを{打|う}つ。",
+      "japanese": "そば{粉|こ}⟦で→で：00502_de⟧そば⟦を→を：00422_wo⟧⟦{打|う}つ→打つ：01221_utsu⟧。",
       "english": "To make soba noodles from buckwheat flour.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "27277_sobako_ex2",
-      "japanese": "{十割|じゅうわり}そばは、そば{粉|こ}だけで{作|つく}られている。",
+      "japanese": "⟦{十割|じゅうわり}→十割：25145_juuwari⟧そば⟦は→は：00079_ha⟧、そば{粉|こ}⟦だけ→〜だけ：03093_dake⟧⟦で→で：00502_de⟧⟦{作|つく}られている→作る：00481_tsukuru⟧。",
       "english": "Juwari soba is made entirely from buckwheat flour.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "27277_sobako_ex3",
-      "japanese": "そば{粉|こ}のアレルギーがあるので、そば{屋|や}では{注意|ちゅうい}が{必要|ひつよう}だ。",
+      "japanese": "そば{粉|こ}⟦の→の：09472_no⟧⟦アレルギー→アレルギー：04645_arerugii⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧⟦の→の：09472_no⟧で、そば⟦{屋|や}→〜屋：03096_ya⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{注意|ちゅうい}→注意：01464_chuui⟧⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧だ。",
       "english": "I have a buckwheat allergy, so I need to be careful at soba restaurants.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Compound of そば (buckwheat; also written {蕎麦|そば}) + {粉|こ} (flour; powder). Buckwheat flour is the essential ingredient for {蕎麦|そば} noodles, one of Japan's most iconic foods.\n\nSOBA NOODLE RATIOS:\nSoba noodles are classified by their buckwheat flour content:\n- {十割|じゅうわり}そば: 100% buckwheat flour (no wheat)\n- {八割|はちわり}そば ({二八|にはち}そば): 80% buckwheat, 20% wheat flour\n- The higher the buckwheat ratio, the more fragrant but fragile the noodles\n\nALLERGY NOTE:\nBuckwheat is one of Japan's designated allergens ({特定原材料|とくていげんざいりょう}). Buckwheat allergy can be severe, so products containing そば{粉|こ} must be labeled.\n\nCOMMON COLLOCATIONS:\n- そば{粉|こ}を{挽|ひ}く: to mill buckwheat\n- そば{粉|こ}を{練|ね}る: to knead buckwheat dough\n- そば{粉|こ}のガレット: buckwheat galette (French crepe)\n\nSIMILAR WORDS:\n- {小麦粉|こむぎこ}: wheat flour — the most common flour in cooking\n- {米粉|こめこ}: rice flour — used for rice noodles and sweets",
+  "notes": "Compound of そば (buckwheat; also written ⟦{蕎麦|そば}→蕎麦：14329_soba⟧) + {粉|こ} (flour; powder). Buckwheat flour is the essential ingredient for ⟦{蕎麦|そば}→蕎麦：14329_soba⟧ noodles, one of Japan's most iconic foods.\n\nSOBA NOODLE RATIOS:\nSoba noodles are classified by their buckwheat flour content:\n- ⟦{十割|じゅうわり}→十割：25145_juuwari⟧そば: 100% buckwheat flour (no wheat)\n- {八割|はちわり}そば ({二八|にはち}そば): 80% buckwheat, 20% wheat flour\n- The higher the buckwheat ratio, the more fragrant but fragile the noodles\n\nALLERGY NOTE:\nBuckwheat is one of Japan's designated allergens ({特定原材料|とくていげんざいりょう}). Buckwheat allergy can be severe, so products containing そば{粉|こ} must be labeled.\n\nCOMMON COLLOCATIONS:\n- そば{粉|こ}⟦を→を：00422_wo⟧⟦{挽|ひ}く→挽く：12794_hiku⟧: to mill buckwheat\n- そば{粉|こ}⟦を→を：00422_wo⟧⟦{練|ね}る→練る：09751_neru⟧: to knead buckwheat dough\n- そば{粉|こ}⟦の→の：09472_no⟧ガレット: buckwheat galette (French crepe)\n\nSIMILAR WORDS:\n- ⟦{小麦粉|こむぎこ}→小麦粉：04922_komugiko⟧: wheat flour — the most common flour in cooking\n- ⟦{米粉|こめこ}→米粉：13771_komeko⟧: rice flour — used for rice noodles and sweets",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04922_komugiko",
+      "reading": "こむぎこ",
+      "headword": "{小麦粉|こむぎこ}",
+      "label": "wheat flour"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13771_komeko",
+      "reading": "こめこ",
+      "headword": "{米粉|こめこ}",
+      "label": "rice flour"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +69,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "food"
       ],
       "domain": []
     },
     "created": "2026-05-08T12:14:38Z",
-    "modified": "2026-08-07T06:31:23Z"
+    "modified": "2026-09-02T04:02:29Z"
   }
 }

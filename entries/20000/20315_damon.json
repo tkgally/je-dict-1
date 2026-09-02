@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "20315_damon_ex1",
-      "japanese": "だって{眠|ねむ}いんだもん。",
+      "japanese": "だ⟦って→って：29146_tte⟧⟦{眠|ねむ}い→眠い：00872_nemui⟧んだもん。",
       "english": "Because I'm sleepy, that's why.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "20315_damon_ex2",
-      "japanese": "{仕方|しかた}ないよ、{好|す}きなんだもん。",
+      "japanese": "⟦{仕方|しかた}ない→仕方ない：11434_shikatanai⟧⟦よ→よ：09475_yo⟧、⟦{好|す}き→好き：02355_suki⟧なんだもん。",
       "english": "I can't help it — I like it, after all.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "20315_damon_ex3",
-      "japanese": "{食|た}べたくないんだもん、{無理|むり}に{食|た}べさせないで。",
+      "japanese": "⟦{食|た}べたくない→食べる：00396_taberu⟧んだもん、⟦{無理|むり}→無理：01558_muri⟧⟦に→に：00314_ni⟧⟦{食|た}べさせないで→食べる：00396_taberu⟧。",
       "english": "I don't want to eat, so don't force me.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "A contraction of だもの, which itself is だ (copula) + もの (because, the thing is). The ん ending softens the expression and gives it a childish or intimate quality.\n\nUSAGE:\nMost commonly used by women and children, or in deliberately cute or casual speech. Men may use it in very informal settings or for humorous effect. Often preceded by だって (but, because) to form the combination だって...だもん (but... because...). The tone is typically one of making excuses or insisting on a point.\n\nREGISTER:\nVery informal. Not appropriate in formal, business, or polite contexts.\n\nSIMILAR WORDS:\n- だもの — because (slightly more mature than だもん; same meaning)\n- だから — because, so (neutral; standard causal connector)\n- んだもん — because (variant with explanatory ん; same usage)\n- もん — because (even more casual abbreviation; childish)",
+  "notes": "A contraction of だもの, which itself is だ (copula) + もの (because, the thing is). The ん ending softens the expression and gives it a childish or intimate quality.\n\nUSAGE:\nMost commonly used by women and children, or in deliberately cute or casual speech. Men may use it in very informal settings or for humorous effect. Often preceded by だ⟦って→って：29146_tte⟧ (but, because) to form the combination だ⟦って→って：29146_tte⟧...だもん (but... because...). The tone is typically one of making excuses or insisting on a point.\n\nREGISTER:\nVery informal. Not appropriate in formal, business, or polite contexts.\n\nSIMILAR WORDS:\n- だも⟦の→の：09472_no⟧ — because (slightly more mature than だもん; same meaning)\n- だ⟦から→から：00504_kara⟧ — because, so (neutral; standard causal connector)\n- んだもん — because (variant with explanatory ん; same usage)\n- もん — because (even more casual abbreviation; childish)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00924_dakara",
+      "reading": "だから",
+      "headword": "だから",
+      "label": "because, so (neutral"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +68,6 @@
       ]
     },
     "created": "2026-03-28T20:18:10Z",
-    "modified": "2026-07-28T00:51:36Z"
+    "modified": "2026-09-02T04:01:59Z"
   }
 }

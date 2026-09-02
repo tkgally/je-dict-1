@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24499_jidouhanbai_ex1",
-      "japanese": "{自動販売機|じどうはんばいき}で{水|みず}を{買|か}った。",
+      "japanese": "⟦{自動販売機|じどうはんばいき}→自動販売機：03078_jidouhanbaiki⟧⟦で→で：00502_de⟧⟦{水|みず}→水：02258_mizu⟧⟦を→を：00422_wo⟧⟦{買|か}った→買う：00489_kau⟧。",
       "english": "I bought water from a vending machine.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24499_jidouhanbai_ex2",
-      "japanese": "{駅|えき}には{自動販売機|じどうはんばいき}がたくさんある。",
+      "japanese": "⟦{駅|えき}→駅：02180_eki⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{自動販売機|じどうはんばいき}→自動販売機：03078_jidouhanbaiki⟧⟦が→が：00051_ga⟧⟦たくさん→たくさん：00597_takusan⟧⟦ある→ある：00006_aru⟧。",
       "english": "There are many vending machines at the station.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24499_jidouhanbai_ex3",
-      "japanese": "{日本|にほん}の{自動販売|じどうはんばい}の{市場|しじょう}は{世界|せかい}でもトップクラスで、{飲料|いんりょう}だけでなく{食品|しょくひん}や{日用品|にちようひん}まで{扱|あつか}っている。",
+      "japanese": "⟦{日本|にほん}→日本：03876_nihon⟧⟦の→の：09472_no⟧{自動販売|じどうはんばい}⟦の→の：09472_no⟧⟦{市場|しじょう}→市場：09685_shijou⟧⟦は→は：00079_ha⟧⟦{世界|せかい}→世界：01447_sekai⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧⟦トップ→トップ：03862_toppu⟧⟦クラス→クラス：01084_kurasu⟧⟦で→で：00502_de⟧、⟦{飲料|いんりょう}→飲料：03011_inryou⟧⟦だけでなく→〜だけでなく：18373_dakedenaku⟧⟦{食品|しょくひん}→食品：03247_shokuhin⟧や⟦{日用品|にちようひん}→日用品：09547_nichiyouhin⟧⟦まで→まで：00490_made⟧⟦{扱|あつか}っている→扱う：01862_atsukau⟧。",
       "english": "Japan's vending machine market is among the top in the world, handling not only beverages but also food and daily necessities.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {自動|じどう} (automatic) and {販売|はんばい} (sales). Almost always encountered in the compound {自動販売機|じどうはんばいき} (vending machine), often abbreviated to {自販機|じはんき} in casual speech.\n\nJapan is famous for its extraordinarily high density of vending machines — roughly one for every 23 people. They sell everything from drinks and snacks to hot meals, umbrellas, and even fresh flowers.\n\nCOMMON COLLOCATIONS:\n- {自動販売機|じどうはんばいき}: vending machine\n- {自販機|じはんき}: vending machine (abbreviation)\n- {自動販売|じどうはんばい}コーナー: vending machine area\n- {飲料|いんりょう}{自動販売機|じどうはんばいき}: beverage vending machine\n\nRELATED TERMS:\n- {販売|はんばい}: sales; selling\n- {自動|じどう}: automatic\n- {対面販売|たいめんはんばい}: face-to-face sales (the opposite concept)",
+  "notes": "A compound of ⟦{自動|じどう}→自動：03339_jidou⟧ (automatic) and ⟦{販売|はんばい}→販売：03573_hanbai⟧ (sales). Almost always encountered in the compound ⟦{自動販売機|じどうはんばいき}→自動販売機：03078_jidouhanbaiki⟧ (vending machine), often abbreviated to ⟦{自販機|じはんき}→自販機：09703_jihanki⟧ in casual speech.\n\nJapan is famous for its extraordinarily high density of vending machines — roughly one for every 23 people. They sell everything from drinks and snacks to hot meals, umbrellas, and even fresh flowers.\n\nCOMMON COLLOCATIONS:\n- ⟦{自動販売機|じどうはんばいき}→自動販売機：03078_jidouhanbaiki⟧: vending machine\n- ⟦{自販機|じはんき}→自販機：09703_jihanki⟧: vending machine (abbreviation)\n- {自動販売|じどうはんばい}⟦コーナー→コーナー：10865_koonaa⟧: vending machine area\n- ⟦{飲料|いんりょう}→飲料：03011_inryou⟧⟦{自動販売機|じどうはんばいき}→自動販売機：03078_jidouhanbaiki⟧: beverage vending machine\n\nRELATED WORDS:\n- ⟦{販売|はんばい}→販売：03573_hanbai⟧: sales; selling\n- ⟦{自動|じどう}→自動：03339_jidou⟧: automatic\n- {対面販売|たいめんはんばい}: face-to-face sales (the opposite concept)",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -52,12 +52,13 @@
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "business",
         "daily-life"
       ]
     },
     "created": "2026-04-19T12:34:08Z",
-    "modified": "2026-08-02T18:48:07Z"
+    "modified": "2026-09-02T04:02:18Z"
   }
 }

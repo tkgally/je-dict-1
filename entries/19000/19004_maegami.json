@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "19004_maegami_ex1",
-      "japanese": "{前髪|まえがみ}を{切|き}った。",
+      "japanese": "{前髪|まえがみ}⟦を→を：00422_wo⟧⟦{切|き}った→切る：02693_kiru⟧。",
       "english": "I cut my bangs.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "19004_maegami_ex2",
-      "japanese": "{前髪|まえがみ}が{目|め}にかかる。",
+      "japanese": "{前髪|まえがみ}⟦が→が：00051_ga⟧⟦{目|め}→目：00525_me⟧⟦に→に：00314_ni⟧⟦かかる→かかる：00711_kakaru⟧。",
       "english": "My bangs hang in my eyes.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "19004_maegami_ex3",
-      "japanese": "{美容院|びよういん}で{前髪|まえがみ}だけ{整|ととの}えてもらった。",
+      "japanese": "⟦{美容院|びよういん}→美容院：06319_biyouin⟧⟦で→で：00502_de⟧{前髪|まえがみ}⟦だけ→〜だけ：03093_dake⟧⟦{整|ととの}えて→整える：04259_totonoeru⟧⟦もらった→もらう：00520_morau⟧。",
       "english": "I had just my bangs trimmed at the hair salon.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,26 @@
       ]
     }
   ],
-  "notes": "{前髪|まえがみ} refers to the hair that falls over or near the forehead — 'bangs' in American English, 'fringe' in British English.\n\nWORD FORMATION:\n{前|まえ} (front) + {髪|かみ} (hair). The かみ becomes がみ through rendaku.\n\nCOMMON COLLOCATIONS:\n- {前髪|まえがみ}を{切|き}る: to cut one's bangs\n- {前髪|まえがみ}を{下|お}ろす: to wear bangs down\n- {前髪|まえがみ}を{上|あ}げる: to push bangs up/back\n- {前髪|まえがみ}を{分|わ}ける: to part one's bangs\n- {前髪|まえがみ}が{目|め}にかかる: bangs hang in one's eyes\n\nRELATED HAIR TERMS:\n- {後|うし}ろ{髪|がみ}: hair at the back of the head\n- {横|よこ}{髪|がみ}: hair at the sides\n- {髪型|かみがた}: hairstyle",
-  "cross_references": [],
+  "notes": "{前髪|まえがみ} refers to the hair that falls over or near the forehead — 'bangs' in American English, 'fringe' in British English.\n\nFORMS:\n⟦{前|まえ}→前：02255_mae⟧ (front) + ⟦{髪|かみ}→髪：02196_kami⟧ (hair). The かみ becomes がみ through rendaku.\n\nCOMMON COLLOCATIONS:\n- {前髪|まえがみ}⟦を→を：00422_wo⟧⟦{切|き}る→切る：02693_kiru⟧: to cut one's bangs\n- {前髪|まえがみ}⟦を→を：00422_wo⟧⟦{下|お}ろす→下ろす：02029_orosu⟧: to wear bangs down\n- {前髪|まえがみ}⟦を→を：00422_wo⟧⟦{上|あ}げる→上げる：02443_ageru⟧: to push bangs up/back\n- {前髪|まえがみ}⟦を→を：00422_wo⟧⟦{分|わ}ける→分ける：02333_wakeru⟧: to part one's bangs\n- {前髪|まえがみ}⟦が→が：00051_ga⟧⟦{目|め}→目：00525_me⟧⟦に→に：00314_ni⟧⟦かかる→かかる：00711_kakaru⟧: bangs hang in one's eyes\n\nRELATED HAIR TERMS:\n- ⟦{後|うし}ろ{髪|がみ}→後ろ髪：20760_ushirogami⟧: hair at the back of the head\n- {横|よこ}{髪|がみ}: hair at the sides\n- ⟦{髪型|かみがた}→髪型：14646_kamigata⟧: hairstyle",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "20760_ushirogami",
+      "reading": "うしろがみ",
+      "headword": "{後|うし}ろ{髪|がみ}",
+      "label": "hair at the back of the head"
+    },
+    {
+      "type": "related",
+      "target_id": "14646_kamigata",
+      "reading": "かみがた",
+      "headword": "{髪型|かみがた}",
+      "label": "hairstyle"
+    }
+  ],
   "metadata": {
     "created": "2026-03-24T00:55:40Z",
-    "modified": "2026-07-26T09:39:42Z",
+    "modified": "2026-09-02T04:01:54Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

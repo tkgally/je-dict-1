@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26185_kakakuhyouji_ex1",
-      "japanese": "{商品|しょうひん}の{価格表示|かかくひょうじ}を{確認|かくにん}した。",
+      "japanese": "⟦{商品|しょうひん}→商品：01436_shouhin⟧⟦の→の：09472_no⟧{価格表示|かかくひょうじ}⟦を→を：00422_wo⟧⟦{確認|かくにん}した→確認する：25332_kakuninsuru⟧。",
       "english": "I checked the price display on the product.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26185_kakakuhyouji_ex2",
-      "japanese": "この{店|みせ}は{税込|ぜいこ}み{価格表示|かかくひょうじ}なので{分|わ}かりやすい。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{店|みせ}→店：00497_mise⟧⟦は→は：00079_ha⟧{税込|ぜいこ}み{価格表示|かかくひょうじ}な⟦の→の：09472_no⟧で⟦{分|わ}かり→分かる：00463_wakaru⟧やすい。",
       "english": "This store uses tax-inclusive pricing, so it's easy to understand.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26185_kakakuhyouji_ex3",
-      "japanese": "{日本|にほん}では{消費税|しょうひぜい}を{含|ふく}めた{総額|そうがく}{価格表示|かかくひょうじ}が{義務|ぎむ}づけられている。",
+      "japanese": "⟦{日本|にほん}→日本：03876_nihon⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{消費税|しょうひぜい}→消費税：04803_shouhizei⟧⟦を→を：00422_wo⟧⟦{含|ふく}めた→含める：02408_fukumeru⟧⟦{総額|そうがく}→総額：05472_sougaku⟧{価格表示|かかくひょうじ}⟦が→が：00051_ga⟧⟦{義務|ぎむ}→義務：02647_gimu⟧づけられて⟦いる→いる：00495_iru⟧。",
       "english": "In Japan, displaying the total price including consumption tax is mandatory.",
       "sense_numbers": [
         1
@@ -44,8 +44,23 @@
       "notes": null
     }
   ],
-  "notes": "In Japan, since April 2021, {総額表示|そうがくひょうじ} (total price display including tax) has been mandatory for consumer-facing prices. This means the displayed price must include {消費税|しょうひぜい} (consumption tax). Before this rule, many stores showed pre-tax prices with a small \"+{税|ぜい}\" note.\n\nCOMMON COLLOCATIONS:\n- {総額|そうがく}{価格表示|かかくひょうじ} — total price display (including tax)\n- {税抜|ぜいぬ}き{価格表示|かかくひょうじ} — pre-tax price display\n- {価格表示|かかくひょうじ}の{義務化|ぎむか} — mandatory price display\n- {価格表示|かかくひょうじ}を{変更|へんこう}する — to change the price display\n\nRELATED TERMS:\n- {値札|ねふだ} — price tag (the physical tag attached to a product)\n- {定価|ていか} — list price; fixed price",
-  "cross_references": [],
+  "notes": "In Japan, since April 2021, ⟦{総額表示|そうがくひょうじ}→総額表示：24007_sougakuhyouji⟧ (total price display including tax) has been mandatory for consumer-facing prices. This means the displayed price must include ⟦{消費税|しょうひぜい}→消費税：04803_shouhizei⟧ (consumption tax). Before this rule, many stores showed pre-tax prices with a small \"+⟦{税|ぜい}→税：03767_zei⟧\" note.\n\nCOMMON COLLOCATIONS:\n- ⟦{総額|そうがく}→総額：05472_sougaku⟧{価格表示|かかくひょうじ} — total price display (including tax)\n- {税抜|ぜいぬ}き{価格表示|かかくひょうじ} — pre-tax price display\n- {価格表示|かかくひょうじ}⟦の→の：09472_no⟧⟦{義務化|ぎむか}→義務化：28603_gimuka⟧ — mandatory price display\n- {価格表示|かかくひょうじ}⟦を→を：00422_wo⟧⟦{変更|へんこう}する→変更する：30779_henkousuru⟧ — to change the price display\n\nRELATED WORDS:\n- ⟦{値札|ねふだ}→値札：09532_nefuda⟧ — price tag (the physical tag attached to a product)\n- ⟦{定価|ていか}→定価：04066_teika⟧ — list price; fixed price",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "09532_nefuda",
+      "reading": "ねふだ",
+      "headword": "{値札|ねふだ}",
+      "label": "price tag"
+    },
+    {
+      "type": "related",
+      "target_id": "04066_teika",
+      "reading": "ていか",
+      "headword": "{定価|ていか}",
+      "label": "list price"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,12 +68,14 @@
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "business",
         "shopping"
       ]
     },
     "created": "2026-04-29T16:34:28Z",
-    "modified": "2026-04-29T16:34:28Z"
+    "modified": "2026-09-02T04:02:25Z"
   }
 }

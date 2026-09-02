@@ -2,7 +2,7 @@
   "id": "08209_oushin",
   "headword": "{往診|おうしん}",
   "reading": "おうしん",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "house call; home visit (medical)",
   "conjugation": {
     "type": "suru",
@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "08209_oushin_ex1",
-      "japanese": "{医師|いし}に{往診|おうしん}を{頼|たの}んだ。",
+      "japanese": "⟦{医師|いし}→医師：11851_ishi⟧⟦に→に：00314_ni⟧{往診|おうしん}⟦を→を：00422_wo⟧⟦{頼|たの}んだ→頼む：01104_tanomu⟧。",
       "english": "I asked the doctor to make a house call.",
       "sense_numbers": [
         1
@@ -114,7 +114,7 @@
     },
     {
       "id": "08209_oushin_ex2",
-      "japanese": "{往診|おうしん}{可能|かのう}な{病院|びょういん}を{探|さが}している。",
+      "japanese": "{往診|おうしん}⟦{可能|かのう}→可能：00175_kanou⟧な⟦{病院|びょういん}→病院：00577_byouin⟧⟦を→を：00422_wo⟧⟦{探|さが}している→探す：00493_sagasu⟧。",
       "english": "I'm looking for a hospital that does house calls.",
       "sense_numbers": [
         1
@@ -124,7 +124,7 @@
     },
     {
       "id": "08209_oushin_ex3",
-      "japanese": "{高齢者|こうれいしゃ}のために{往診|おうしん}サービスが{増|ふ}えている。",
+      "japanese": "⟦{高齢者|こうれいしゃ}→高齢者：15649_koureisha⟧⟦の→の：09472_no⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧{往診|おうしん}⟦サービス→サービス：01531_saabisu⟧⟦が→が：00051_ga⟧⟦{増|ふ}えている→増える：01183_fueru⟧。",
       "english": "House call services are increasing for elderly patients.",
       "sense_numbers": [
         1
@@ -133,7 +133,7 @@
       "notes": null
     }
   ],
-  "notes": "USAGE:\n- {往診|おうしん}する (to make a house call)\n- {往診|おうしん}を{頼|たの}む (to request a house call)\n- {往診|おうしん}{可能|かのう} (house calls available)\n- {往診|おうしん}{料|りょう} (house call fee)\n\nCONTEXT:\nCommon for elderly or immobile patients who cannot visit a hospital. Increasingly important in Japan's aging society.\n\nRELATED:\n- {回診|かいしん} (ward rounds - inside hospital)\n- {訪問診療|ほうもんしんりょう} (home medical care - more comprehensive)\n- {在宅医療|ざいたくいりょう} (home healthcare)\n- {診察|しんさつ} (medical examination)",
+  "notes": "USAGE:\n- {往診|おうしん}⟦する→する：00392_suru⟧ (to make a house call)\n- {往診|おうしん}⟦を→を：00422_wo⟧⟦{頼|たの}む→頼む：01104_tanomu⟧ (to request a house call)\n- {往診|おうしん}⟦{可能|かのう}→可能：00175_kanou⟧ (house calls available)\n- {往診|おうしん}⟦{料|りょう}→料：28172_ryou⟧ (house call fee)\nCommon for elderly or immobile patients who cannot visit a hospital. Increasingly important in Japan's aging society.\n\nRELATED WORDS:\n- ⟦{回診|かいしん}→回診：08208_kaishin⟧ (ward rounds - inside hospital)\n- {訪問診療|ほうもんしんりょう} (home medical care - more comprehensive)\n- ⟦{在宅医療|ざいたくいりょう}→在宅医療：23886_zaitakuiryou⟧ (home healthcare)\n- ⟦{診察|しんさつ}→診察：03259_shinsatsu⟧ (medical examination)",
   "cross_references": [
     {
       "type": "related",
@@ -141,6 +141,20 @@
       "headword": "{回診|かいしん}",
       "label": "ward rounds",
       "target_id": "08208_kaishin"
+    },
+    {
+      "type": "related",
+      "target_id": "23886_zaitakuiryou",
+      "reading": "ざいたくいりょう",
+      "headword": "{在宅医療|ざいたくいりょう}",
+      "label": "home healthcare"
+    },
+    {
+      "type": "related",
+      "target_id": "03259_shinsatsu",
+      "reading": "しんさつ",
+      "headword": "{診察|しんさつ}",
+      "label": "medical examination"
     }
   ],
   "metadata": {
@@ -151,6 +165,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "health",
         "healthcare"
@@ -158,6 +173,6 @@
       "verb_class": "suru"
     },
     "created": "2026-01-25T08:07:49Z",
-    "modified": "2026-08-11T21:34:29Z"
+    "modified": "2026-09-02T04:01:14Z"
   }
 }

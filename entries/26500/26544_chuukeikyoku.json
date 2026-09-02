@@ -15,42 +15,62 @@
   "examples": [
     {
       "id": "26544_chuukeikyoku_ex1",
-      "japanese": "{山間部|さんかんぶ}には{中継局|ちゅうけいきょく}が{必要|ひつよう}だ。",
+      "japanese": "{山間部|さんかんぶ}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{中継局|ちゅうけいきょく}⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧だ。",
       "english": "Relay stations are necessary in mountainous areas.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26544_chuukeikyoku_ex2",
-      "japanese": "この{地域|ちいき}は{中継局|ちゅうけいきょく}のおかげでテレビが{映|うつ}る。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{地域|ちいき}→地域：01461_chiiki⟧⟦は→は：00079_ha⟧{中継局|ちゅうけいきょく}⟦の→の：09472_no⟧⟦おかげ→おかげ：01362_okage⟧⟦で→で：00502_de⟧⟦テレビ→テレビ：01536_terebi⟧⟦が→が：00051_ga⟧⟦{映|うつ}る→映る：12964_utsuru⟧。",
       "english": "This area can receive TV broadcasts thanks to the relay station.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26544_chuukeikyoku_ex3",
-      "japanese": "{地上|ちじょう}デジタル{放送|ほうそう}への{切|き}り{替|か}えに{合|あ}わせて、{各地|かくち}の{中継局|ちゅうけいきょく}が{更新|こうしん}された。",
+      "japanese": "⟦{地上|ちじょう}→地上：12108_chijou⟧⟦デジタル→デジタル：05870_dejitaru⟧⟦{放送|ほうそう}→放送：02093_housou⟧⟦へ→へ：02473_he⟧⟦の→の：09472_no⟧⟦{切|き}り{替|か}え→切り替え：07522_kirikae⟧⟦に→に：00314_ni⟧⟦{合|あ}わせて→合わせる：01872_awaseru⟧、⟦{各地|かくち}→各地：00155_kakuchi⟧⟦の→の：09472_no⟧{中継局|ちゅうけいきょく}⟦が→が：00051_ga⟧⟦{更新|こうしん}→更新：04765_koushin⟧⟦された→する：00392_suru⟧。",
       "english": "Relay stations across the country were upgraded in line with the switch to digital terrestrial broadcasting.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {中継|ちゅうけい} (relay, retransmission) and {局|きょく} (station, office). Japan's mountainous terrain means that {中継局|ちゅうけいきょく} are essential for broadcasting TV and radio signals to valleys and remote areas. During the transition from analog to digital broadcasting (completed in 2012), thousands of relay stations across Japan were upgraded.\n\nCOMMON COLLOCATIONS:\n- {中継局|ちゅうけいきょく}を{設置|せっち}する: to install a relay station\n- テレビ{中継局|ちゅうけいきょく}: TV relay station\n- {携帯|けいたい}{中継局|ちゅうけいきょく}: mobile phone relay station\n- {中継局|ちゅうけいきょく}の{電波|でんぱ}: relay station signal\n\nSIMILAR WORDS:\n- {基地局|きちきょく}: base station — used for mobile phone networks, not broadcasting\n- {放送局|ほうそうきょく}: broadcasting station — the main station that originates the signal\n- {中継|ちゅうけい}: relay, live broadcast — the act of relaying, without specifying the physical facility",
-  "cross_references": [],
+  "notes": "Composed of ⟦{中継|ちゅうけい}→中継：11306_chuukei⟧ (relay, retransmission) and ⟦{局|きょく}→局：02687_kyoku⟧ (station, office). Japan's mountainous terrain means that {中継局|ちゅうけいきょく} are essential for broadcasting TV and radio signals to valleys and remote areas. During the transition from analog to digital broadcasting (completed in 2012), thousands of relay stations across Japan were upgraded.\n\nCOMMON COLLOCATIONS:\n- {中継局|ちゅうけいきょく}⟦を→を：00422_wo⟧⟦{設置|せっち}する→設置する：26989_secchisuru⟧: to install a relay station\n- ⟦テレビ→テレビ：01536_terebi⟧{中継局|ちゅうけいきょく}: TV relay station\n- ⟦{携帯|けいたい}→携帯：00715_keitai⟧{中継局|ちゅうけいきょく}: mobile phone relay station\n- {中継局|ちゅうけいきょく}⟦の→の：09472_no⟧⟦{電波|でんぱ}→電波：04070_denpa⟧: relay station signal\n\nSIMILAR WORDS:\n- {基地局|きちきょく}: base station — used for mobile phone networks, not broadcasting\n- ⟦{放送局|ほうそうきょく}→放送局：15743_housoukyoku⟧: broadcasting station — the main station that originates the signal\n- ⟦{中継|ちゅうけい}→中継：11306_chuukei⟧: relay, live broadcast — the act of relaying, without specifying the physical facility",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15743_housoukyoku",
+      "reading": "ほうそうきょく",
+      "headword": "{放送局|ほうそうきょく}",
+      "label": "broadcasting station"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["technical"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "technical"
+      ]
     },
     "created": "2026-05-02T15:29:13Z",
-    "modified": "2026-05-02T15:29:13Z"
+    "modified": "2026-09-02T04:02:26Z"
   }
 }

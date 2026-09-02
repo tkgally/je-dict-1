@@ -3,7 +3,7 @@
   "headword": "{真剣|しんけん}な",
   "reading": "しんけんな",
   "romaji": "shinkenna",
-  "part_of_speech": "adjective",
+  "part_of_speech": "na-adjective",
   "gloss": "serious; earnest; in earnest",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22438_shinkenna_ex1",
-      "japanese": "{真剣|しんけん}な{顔|かお}で{話|はな}す。",
+      "japanese": "{真剣|しんけん}な⟦{顔|かお}→顔：00558_kao⟧⟦で→で：00502_de⟧⟦{話|はな}す→話す：00467_hanasu⟧。",
       "english": "To speak with a serious expression.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22438_shinkenna_ex2",
-      "japanese": "もっと{真剣|しんけん}に{考|かんが}えたほうがいい。",
+      "japanese": "⟦もっと→もっと：00798_motto⟧{真剣|しんけん}に⟦{考|かんが}えた→考える：00856_kangaeru⟧⟦ほうがいい→ほうがいい：10078_hougaii⟧。",
       "english": "You should think about it more seriously.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22438_shinkenna_ex3",
-      "japanese": "{彼|かれ}は{将来|しょうらい}のことを{真剣|しんけん}に{悩|なや}んでいるようだった。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{将来|しょうらい}→将来：01438_shourai⟧⟦の→の：09472_no⟧こと⟦を→を：00422_wo⟧{真剣|しんけん}に⟦{悩|なや}んでいる→悩む：02380_nayamu⟧ようだった。",
       "english": "He seemed to be seriously troubled about his future.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Originally refers to a real sword ({真剣|しんけん} = real blade, as opposed to a practice sword). By extension, it means doing something with full seriousness, as if handling a real sword. Very commonly used in everyday Japanese.\n\nCOMMON COLLOCATIONS:\n- {真剣|しんけん}な{表情|ひょうじょう}: a serious expression\n- {真剣|しんけん}に{取|と}り{組|く}む: to tackle seriously\n- {真剣|しんけん}に{考|かんが}える: to think seriously\n- {真剣|しんけん}{勝負|しょうぶ}: a serious contest; a real fight\n- {真剣|しんけん}{交際|こうさい}: a serious (romantic) relationship\n\nSIMILAR WORDS:\n- {本気|ほんき}の: serious / for real — more casual; emphasizes genuine intent rather than outward demeanor\n- {真面目|まじめ}な: serious / diligent — describes a personality trait of being earnest and hardworking\n- {深刻|しんこく}な: serious / grave — describes a serious situation or problem, not a person's attitude\n\nETYMOLOGY:\nLiterally \"real sword\" ({真|しん} = true + {剣|けん} = sword). The metaphor comes from martial arts: using a real sword demands total concentration, unlike practice with wooden swords.",
+  "notes": "Originally refers to a real sword (⟦{真剣|しんけん}→真剣：01565_shinken⟧ = real blade, as opposed to a practice sword). By extension, it means doing something with full seriousness, as if handling a real sword. Very commonly used in everyday Japanese.\n\nCOMMON COLLOCATIONS:\n- {真剣|しんけん}な⟦{表情|ひょうじょう}→表情：03585_hyoujou⟧: a serious expression\n- {真剣|しんけん}に⟦{取|と}り{組|く}む→取り組む：04225_torikumu⟧: to tackle seriously\n- {真剣|しんけん}に⟦{考|かんが}える→考える：00856_kangaeru⟧: to think seriously\n- ⟦{真剣|しんけん}→真剣：01565_shinken⟧⟦{勝負|しょうぶ}→勝負：01437_shoubu⟧: a serious contest; a real fight\n- ⟦{真剣|しんけん}→真剣：01565_shinken⟧⟦{交際|こうさい}→交際：02800_kousai⟧: a serious (romantic) relationship\n\nSIMILAR WORDS:\n- ⟦{本気|ほんき}→本気：03153_honki⟧⟦の→の：09472_no⟧: serious / for real — more casual; emphasizes genuine intent rather than outward demeanor\n- ⟦{真面目|まじめ}→真面目：01206_majime⟧な: serious / diligent — describes a personality trait of being earnest and hardworking\n- ⟦{深刻|しんこく}→深刻：01567_shinkoku⟧な: serious / grave — describes a serious situation or problem, not a person's attitude\n\nETYMOLOGY:\nLiterally \"real sword\" (⟦{真|しん}→真：28884_shin⟧ = true + ⟦{剣|けん}→剣：11819_ken⟧ = sword). The metaphor comes from martial arts: using a real sword demands total concentration, unlike practice with wooden swords.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22386_majimena",
+      "reading": "まじめな",
+      "headword": "{真面目|まじめ}な",
+      "label": "serious / diligent"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22781_shinkokuna",
+      "reading": "しんこくな",
+      "headword": "{深刻|しんこく}な",
+      "label": "serious / grave"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +75,6 @@
       ]
     },
     "created": "2026-04-06T10:41:29Z",
-    "modified": "2026-07-30T03:35:34Z"
+    "modified": "2026-09-02T04:02:08Z"
   }
 }

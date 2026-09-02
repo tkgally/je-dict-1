@@ -153,7 +153,7 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive). No pair verb. Pattern: X⟦を→を：00422_wo⟧{忘|わす}れる (forget X).\n\nASPECT: ている indicates resulting state. {忘|わす}れている = 'has forgotten' (doesn't remember).\n\nCOMMON PATTERNS:\n・⟦{名前|なまえ}→名前：02234_namae⟧⟦を→を：00422_wo⟧{忘|わす}れる (forget a name)\n・⟦{傘|かさ}→傘：00639_kasa⟧⟦を→を：00422_wo⟧{忘|わす}れる (leave umbrella behind)\n・{忘|わす}れて⟦しまう→仕舞う：03064_shimau⟧ (unfortunately forget)\n・{忘|わす}れないで (don't forget)\n\nIchidan verb: te-form {忘|わす}れて.\n\nRelated:\n- ⟦{忘|わす}れ{物|もの}→忘れ物：01758_wasuremono⟧ (forgotten item)\n- ⟦{忘年会|ぼうねんかい}→忘年会：15800_bounenkai⟧ (year-end party).",
+  "notes": "TRANSITIVITY: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive). No pair verb. Pattern: X⟦を→を：00422_wo⟧{忘|わす}れる (forget X).\n\nASPECT: て⟦いる→いる：00495_iru⟧ indicates resulting state. {忘|わす}れて⟦いる→いる：00495_iru⟧ = 'has forgotten' (doesn't remember).\n\nCOMMON PATTERNS:\n- ⟦{名前|なまえ}→名前：02234_namae⟧⟦を→を：00422_wo⟧{忘|わす}れる (forget a name)\n- ⟦{傘|かさ}→傘：00639_kasa⟧⟦を→を：00422_wo⟧{忘|わす}れる (leave umbrella behind)\n- {忘|わす}れて⟦しまう→仕舞う：03064_shimau⟧ (unfortunately forget)\n- {忘|わす}れないで (don't forget)\n\nIchidan verb: te-form {忘|わす}れて.\n\nRelated:\n- ⟦{忘|わす}れ{物|もの}→忘れ物：01758_wasuremono⟧ (forgotten item)\n- ⟦{忘年会|ぼうねんかい}→忘年会：15800_bounenkai⟧ (year-end party).",
   "cross_references": [
     {
       "type": "antonym",
@@ -168,11 +168,46 @@
       "reading": "しる",
       "headword": "{知|し}る",
       "label": "to know"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16319_shitsunen",
+      "reading": "しつねん",
+      "headword": "{失念|しつねん}",
+      "label": "forgetting, lapse of memory"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16877_dowasure",
+      "reading": "どわすれ",
+      "headword": "{度忘|どわす}れ",
+      "label": "sudden memory lapse"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19281_boukyaku",
+      "reading": "ぼうきゃく",
+      "headword": "{忘却|ぼうきゃく}",
+      "label": "forgetting"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23133_kiokugausureru",
+      "reading": "きおくがうすれる",
+      "headword": "{記憶|きおく}が{薄|うす}れる",
+      "label": "memory fades"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26797_boukyakusuru",
+      "reading": "ぼうきゃくする",
+      "headword": "{忘却|ぼうきゃく}する",
+      "label": "to forget completely"
     }
   ],
   "metadata": {
     "created": "2026-01-07T12:28:04Z",
-    "modified": "2026-05-11T16:16:31Z",
+    "modified": "2026-09-02T04:00:57Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

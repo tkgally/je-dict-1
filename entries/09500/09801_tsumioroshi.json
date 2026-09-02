@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "09801_tsumioroshi_ex1",
-      "japanese": "{積|つ}み{下|お}ろし{作業|さぎょう}。",
+      "japanese": "{積|つ}み{下|お}ろし⟦{作業|さぎょう}→作業：02775_sagyou⟧。",
       "english": "Loading and unloading work.",
       "has_audio": false,
       "sense_numbers": [
@@ -122,7 +122,7 @@
     },
     {
       "id": "09801_tsumioroshi_ex3",
-      "japanese": "{積|つ}み{下|お}ろし⟦に→に：00314_ni⟧{時間|じかん}⟦が→が：00051_ga⟧かかる。",
+      "japanese": "{積|つ}み{下|お}ろし⟦に→に：00314_ni⟧⟦{時間|じかん}→時間：00468_jikan⟧⟦が→が：00051_ga⟧⟦かかる→かかる：00711_kakaru⟧。",
       "english": "Loading and unloading takes time.",
       "has_audio": false,
       "sense_numbers": [
@@ -130,7 +130,7 @@
       ]
     }
   ],
-  "notes": "{積|つ}み{下|お}ろし refers to the combined operation of loading and unloading cargo, goods, or freight.\n\nWORD FORMATION:\n{積|つ}む (to load, to pile up) + {下|お}ろす (to unload, to bring down). The compound covers both directions of the process.\n\nCOMMON COLLOCATIONS:\n- {積|つ}み{下|お}ろし{作業|さぎょう}: loading/unloading work\n- {積|つ}み{下|お}ろしをする: to load and unload\n- {積|つ}み{下|お}ろし{場|ば}: loading/unloading area\n- {積|つ}み{下|お}ろし{禁止|きんし}: no loading/unloading\n\nRELATED TERMS:\n- {荷|に}{下|お}ろし: unloading only\n- {荷{積|づ}み: loading only\n- {積|つ}み{荷|に}: cargo, freight\n\nUSAGE:\nCommon in logistics, transport, and shipping contexts. Signs reading {積|つ}み{下|お}ろし{禁止|きんし} can be seen in parking areas where stopping for deliveries is restricted.",
+  "notes": "{積|つ}み{下|お}ろし refers to the combined operation of loading and unloading cargo, goods, or freight.\n\nFORMS:\n⟦{積|つ}む→積む：02294_tsumu⟧ (to load, to pile up) + ⟦{下|お}ろす→下ろす：02029_orosu⟧ (to unload, to bring down). The compound covers both directions of the process.\n\nCOMMON COLLOCATIONS:\n- {積|つ}み{下|お}ろし⟦{作業|さぎょう}→作業：02775_sagyou⟧: loading/unloading work\n- {積|つ}み{下|お}ろし⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧: to load and unload\n- {積|つ}み{下|お}ろし⟦{場|ば}→場：03699_ba⟧: loading/unloading area\n- {積|つ}み{下|お}ろし⟦{禁止|きんし}→禁止：02643_kinshi⟧: no loading/unloading\n\nRELATED WORDS:\n- ⟦{荷|に}{下|お}ろし→荷下ろし：17064_nioroshi⟧: unloading only\n- {荷{積|づ}み: loading only\n- {積|つ}み{荷|に}: cargo, freight\n\nUSAGE:\nCommon in logistics, transport, and shipping contexts. Signs reading {積|つ}み{下|お}ろし{禁止|きんし} can be seen in parking areas where stopping for deliveries is restricted.",
   "cross_references": [
     {
       "type": "related",
@@ -138,11 +138,25 @@
       "reading": "つみに",
       "headword": "{積|つ}み{荷|に}",
       "label": "cargo, freight"
+    },
+    {
+      "type": "related",
+      "target_id": "17064_nioroshi",
+      "reading": "におろし",
+      "headword": "{荷下|にお}ろし",
+      "label": "unloading only"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09264_tsumikomi",
+      "reading": "つみこみ",
+      "headword": "{積|つ}み{込|こ}み",
+      "label": "loading, shipment"
     }
   ],
   "metadata": {
     "created": "2026-02-03T11:36:14Z",
-    "modified": "2026-04-23T07:31:27Z",
+    "modified": "2026-09-02T04:01:19Z",
     "ai_model": "claude-opus-4-5-20251101",
     "vocabulary_tier": "general",
     "tags": {

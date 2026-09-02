@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22083_suisen_ex1",
-      "japanese": "{水栓|すいせん}を{閉|し}めてください。",
+      "japanese": "{水栓|すいせん}⟦を→を：00422_wo⟧⟦{閉|し}めて→閉める：00485_shimeru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please close the tap.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22083_suisen_ex2",
-      "japanese": "キッチンの{水栓|すいせん}から{水|みず}が{漏|も}れている。",
+      "japanese": "⟦キッチン→キッチン：10815_kicchin⟧⟦の→の：09472_no⟧{水栓|すいせん}⟦から→から：00504_kara⟧⟦{水|みず}→水：02258_mizu⟧⟦が→が：00051_ga⟧⟦{漏|も}れている→漏れる：02435_moreru⟧。",
       "english": "Water is leaking from the kitchen faucet.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22083_suisen_ex3",
-      "japanese": "{古|ふる}くなった{水栓|すいせん}を{交換|こうかん}するために、{水道|すいどう}{業者|ぎょうしゃ}を{呼|よ}んだ。",
+      "japanese": "⟦{古|ふる}く→古い：00488_furui⟧⟦なった→なる：01970_naru⟧{水栓|すいせん}⟦を→を：00422_wo⟧⟦{交換|こうかん}→交換：02746_koukan⟧⟦する→する：00392_suru⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧、⟦{水道|すいどう}→水道：01058_suidou⟧⟦{業者|ぎょうしゃ}→業者：13130_gyousha⟧⟦を→を：00422_wo⟧⟦{呼|よ}んだ→呼ぶ：00766_yobu⟧。",
       "english": "I called a plumber to replace the old faucet.",
       "sense_numbers": [
         1
@@ -44,14 +44,32 @@
       "notes": null
     }
   ],
-  "notes": "A technical but common term for a water tap or faucet. Composed of {水|すい} (water) and {栓|せん} (plug, stopper, valve). Used in plumbing contexts, product catalogs, and home renovation discussions. In everyday conversation, {蛇口|じゃぐち} is more common for the faucet spout itself.\n\nCOMMON COLLOCATIONS:\n- {水栓|すいせん}を{開|あ}ける/{閉|し}める: to open/close the tap\n- {水栓|すいせん}を{交換|こうかん}する: to replace the faucet\n- {混合|こんごう}{水栓|すいせん}: mixing faucet (hot and cold)\n- シングルレバー{水栓|すいせん}: single-lever faucet\n\nSIMILAR WORDS:\n- {蛇口|じゃぐち} — faucet; tap (more everyday term for the spout)\n- {元栓|もとせん} — main valve; shutoff valve\n- {水道|すいどう} — water supply; plumbing (the system)\n\nNOTE:\nHomophones include {推薦|すいせん} (recommendation) and {水洗|すいせん} (flush, as in toilet). Context usually makes the meaning clear.",
+  "notes": "A technical but common term for a water tap or faucet. Composed of {水|すい} (water) and ⟦{栓|せん}→栓：19366_sen⟧ (plug, stopper, valve). Used in plumbing contexts, product catalogs, and home renovation discussions. In everyday conversation, ⟦{蛇口|じゃぐち}→蛇口：04218_jaguchi⟧ is more common for the faucet spout itself.\n\nCOMMON COLLOCATIONS:\n- {水栓|すいせん}⟦を→を：00422_wo⟧⟦{開|あ}ける→開ける：00563_akeru⟧/⟦{閉|し}める→閉める：00485_shimeru⟧: to open/close the tap\n- {水栓|すいせん}⟦を→を：00422_wo⟧⟦{交換|こうかん}→交換：02746_koukan⟧⟦する→する：00392_suru⟧: to replace the faucet\n- ⟦{混合|こんごう}→混合：04154_kongou⟧{水栓|すいせん}: mixing faucet (hot and cold)\n- ⟦シングル→シングル：10949_shinguru⟧⟦レバー→レバー：11263_rebaa⟧{水栓|すいせん}: single-lever faucet\n\nSIMILAR WORDS:\n- ⟦{蛇口|じゃぐち}→蛇口：04218_jaguchi⟧ — faucet; tap (more everyday term for the spout)\n- {元栓|もとせん} — main valve; shutoff valve\n- ⟦{水道|すいどう}→水道：01058_suidou⟧ — water supply; plumbing (the system)\n\nUSAGE:\nHomophones include ⟦{推薦|すいせん}→推薦：03358_suisen⟧ (recommendation) and ⟦{水洗|すいせん}→水洗：00386_suisen⟧ (flush, as in toilet). Context usually makes the meaning clear.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04218_jaguchi",
+      "reading": "じゃぐち",
+      "headword": "{蛇口|じゃぐち}",
+      "label": "faucet"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01058_suidou",
+      "reading": "すいどう",
+      "headword": "{水道|すいどう}",
+      "label": "water supply"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "housing",
         "daily-life"
@@ -59,6 +77,6 @@
       "usage_context": []
     },
     "created": "2026-04-04T22:23:20Z",
-    "modified": "2026-04-04T22:23:20Z"
+    "modified": "2026-09-02T04:02:06Z"
   }
 }

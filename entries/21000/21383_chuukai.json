@@ -3,7 +3,7 @@
   "headword": "{仲介|ちゅうかい}する",
   "reading": "ちゅうかい",
   "romaji": "chuukai",
-  "part_of_speech": "noun, suru verb, transitive",
+  "part_of_speech": "noun, suru verb (transitive)",
   "gloss": "to mediate; to act as an intermediary; to broker",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21383_chuukai_ex1",
-      "japanese": "{不動産|ふどうさん}を{仲介|ちゅうかい}する。",
+      "japanese": "⟦{不動産|ふどうさん}→不動産：06726_fudousan⟧⟦を→を：00422_wo⟧{仲介|ちゅうかい}する。",
       "english": "To broker a real estate deal.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21383_chuukai_ex2",
-      "japanese": "{友人|ゆうじん}が{二人|ふたり}の{間|あいだ}を{仲介|ちゅうかい}してくれた。",
+      "japanese": "⟦{友人|ゆうじん}→友人：03649_yuujin⟧⟦が→が：00051_ga⟧⟦{二人|ふたり}→二人：00622_futari⟧⟦の→の：09472_no⟧⟦{間|あいだ}→間：00914_aida⟧⟦を→を：00422_wo⟧{仲介|ちゅうかい}して⟦くれた→くれる：00724_kureru⟧。",
       "english": "A friend mediated between the two of them.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21383_chuukai_ex3",
-      "japanese": "この{取引|とりひき}は{専門|せんもん}の{業者|ぎょうしゃ}が{仲介|ちゅうかい}しているので{安心|あんしん}してください。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{取引|とりひき}→取引：04700_torihiki⟧⟦は→は：00079_ha⟧⟦{専門|せんもん}→専門：01251_senmon⟧⟦の→の：09472_no⟧⟦{業者|ぎょうしゃ}→業者：13130_gyousha⟧⟦が→が：00051_ga⟧{仲介|ちゅうかい}して⟦いる→いる：00495_iru⟧⟦の→の：09472_no⟧で⟦{安心|あんしん}して→安心する：06067_anshinsuru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "A specialized broker is handling this transaction, so please rest assured.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Very commonly used in real estate ({不動産|ふどうさん}{仲介|ちゅうかい}) and business contexts. The noun form {仲介|ちゅうかい} is often used as a modifier meaning \"intermediary\" or \"brokerage.\"\n\nCOMMON COLLOCATIONS:\n- {仲介|ちゅうかい}{業者|ぎょうしゃ}: broker, intermediary agent\n- {仲介|ちゅうかい}{手数料|てすうりょう}: brokerage fee, commission\n- {仲介|ちゅうかい}{役|やく}: mediator role\n- {不動産|ふどうさん}{仲介|ちゅうかい}: real estate brokerage\n\nSIMILAR WORDS:\n- {媒介|ばいかい}する: to mediate — more formal/technical, also used in science for disease transmission\n- {調停|ちょうてい}する: to arbitrate — legal context, formal dispute resolution\n- {取|と}り{持|も}つ: to mediate — more informal, acting as a go-between in personal relationships",
+  "notes": "Very commonly used in real estate (⟦{不動産|ふどうさん}→不動産：06726_fudousan⟧⟦{仲介|ちゅうかい}→仲介：09718_chuukai⟧) and business contexts. The noun form ⟦{仲介|ちゅうかい}→仲介：09718_chuukai⟧ is often used as a modifier meaning \"intermediary\" or \"brokerage.\"\n\nCOMMON COLLOCATIONS:\n- ⟦{仲介|ちゅうかい}→仲介：09718_chuukai⟧⟦{業者|ぎょうしゃ}→業者：13130_gyousha⟧: broker, intermediary agent\n- ⟦{仲介|ちゅうかい}{手数料|てすうりょう}→仲介手数料：10290_chuukaitesuuryou⟧: brokerage fee, commission\n- ⟦{仲介|ちゅうかい}→仲介：09718_chuukai⟧⟦{役|やく}→役：12557_yaku⟧: mediator role\n- ⟦{不動産|ふどうさん}→不動産：06726_fudousan⟧⟦{仲介|ちゅうかい}→仲介：09718_chuukai⟧: real estate brokerage\n\nSIMILAR WORDS:\n- ⟦{媒介|ばいかい}→媒介：15990_baikai⟧⟦する→する：00392_suru⟧: to mediate — more formal/technical, also used in science for disease transmission\n- ⟦{調停|ちょうてい}→調停：14251_choutei⟧⟦する→する：00392_suru⟧: to arbitrate — legal context, formal dispute resolution\n- ⟦{取|と}り{持|も}つ→取り持つ：09988_torimotsu⟧: to mediate — more informal, acting as a go-between in personal relationships",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15990_baikai",
+      "reading": "ばいかい",
+      "headword": "{媒介|ばいかい}",
+      "label": "to mediate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14251_choutei",
+      "reading": "ちょうてい",
+      "headword": "{調停|ちょうてい}",
+      "label": "to arbitrate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09988_torimotsu",
+      "reading": "とりもつ",
+      "headword": "{取|と}り{持|も}つ",
+      "label": "to mediate"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -63,7 +86,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-02T02:05:57Z",
-    "modified": "2026-07-29T12:35:11Z"
+    "modified": "2026-09-02T04:02:03Z"
   },
   "conjugation": {
     "type": "suru",

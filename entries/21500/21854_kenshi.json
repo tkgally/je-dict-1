@@ -3,8 +3,31 @@
   "id": "21854_kenshi",
   "headword": "{検視|けんし}",
   "reading": "けんし",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "coroner's inquest; postmortem examination",
+  "cross_references": [
+    {
+      "type": "homophone",
+      "target_id": "19209_kenshi",
+      "reading": "けんし",
+      "headword": "{検死|けんし}",
+      "label": "postmortem examination"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25185_shihoukaibou",
+      "reading": "しほうかいぼう",
+      "headword": "{司法解剖|しほうかいぼう}",
+      "label": "judicial autopsy"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14191_kaibou",
+      "reading": "かいぼう",
+      "headword": "{解剖|かいぼう}",
+      "label": "autopsy, dissection"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -12,6 +35,7 @@
         "noun",
         "verb-suru"
       ],
+      "politeness": "plain",
       "semantic": [
         "law",
         "health"
@@ -19,9 +43,9 @@
       "verb_class": "suru"
     },
     "created": "2026-04-03T19:21:58Z",
-    "modified": "2026-07-29T12:35:11Z"
+    "modified": "2026-09-02T04:02:05Z"
   },
-  "notes": "An official legal procedure conducted when the cause of death is unclear. In Japan, {検視|けんし} is performed by a prosecutor or police officer (not a medical doctor) to determine whether foul play is involved. If further medical examination is needed, it leads to {司法|しほう}{解剖|かいぼう} (judicial autopsy).\n\nCOMMON COLLOCATIONS:\n- {検視|けんし}を{行|おこな}う: to conduct an inquest\n- {検視|けんし}{官|かん}: coroner, medical examiner\n- {検視|けんし}{報告|ほうこく}: inquest report\n- {検視|けんし}の{結果|けっか}: results of the inquest\n\nSIMILAR WORDS:\n- {検死|けんし}: postmortem examination — variant writing, often used interchangeably but technically less formal\n- {司法|しほう}{解剖|かいぼう}: judicial autopsy — a more thorough medical procedure ordered when foul play is suspected\n- {解剖|かいぼう}: autopsy, dissection — the medical procedure itself",
+  "notes": "An official legal procedure conducted when the cause of death is unclear. In Japan, {検視|けんし} is performed by a prosecutor or police officer (not a medical doctor) to determine whether foul play is involved. If further medical examination is needed, it leads to ⟦{司法|しほう}{解剖|かいぼう}→司法解剖：25185_shihoukaibou⟧ (judicial autopsy).\n\nCOMMON COLLOCATIONS:\n- {検視|けんし}⟦を→を：00422_wo⟧⟦{行|おこな}う→行う：01238_okonau⟧: to conduct an inquest\n- {検視|けんし}{官|かん}: coroner, medical examiner\n- {検視|けんし}⟦{報告|ほうこく}→報告：03618_houkoku⟧: inquest report\n- {検視|けんし}⟦の→の：09472_no⟧⟦{結果|けっか}→結果：02486_kekka⟧: results of the inquest\n\nSIMILAR WORDS:\n- ⟦{検死|けんし}→検死：19209_kenshi⟧: postmortem examination — variant writing, often used interchangeably but technically less formal\n- ⟦{司法|しほう}{解剖|かいぼう}→司法解剖：25185_shihoukaibou⟧: judicial autopsy — a more thorough medical procedure ordered when foul play is suspected\n- ⟦{解剖|かいぼう}→解剖：14191_kaibou⟧: autopsy, dissection — the medical procedure itself",
   "conjugation": {
     "type": "suru",
     "forms": [
@@ -122,7 +146,7 @@
   "examples": [
     {
       "id": "21854_kenshi_ex1",
-      "japanese": "{警察|けいさつ}が{検視|けんし}を{行|おこな}った。",
+      "japanese": "⟦{警察|けいさつ}→警察：01393_keisatsu⟧⟦が→が：00051_ga⟧{検視|けんし}⟦を→を：00422_wo⟧⟦{行|おこな}った→行う：01238_okonau⟧。",
       "english": "The police conducted a coroner's inquest.",
       "sense_numbers": [
         1
@@ -132,7 +156,7 @@
     },
     {
       "id": "21854_kenshi_ex2",
-      "japanese": "{検視|けんし}の{結果|けっか}、{事件性|じけんせい}はないと{判断|はんだん}された。",
+      "japanese": "{検視|けんし}⟦の→の：09472_no⟧⟦{結果|けっか}→結果：02486_kekka⟧、{事件性|じけんせい}⟦は→は：00079_ha⟧⟦ない→ない：01118_nai⟧⟦と→と：00512_to⟧⟦{判断|はんだん}→判断：03571_handan⟧⟦された→する：00392_suru⟧。",
       "english": "As a result of the inquest, it was determined there was no criminal involvement.",
       "sense_numbers": [
         1
@@ -142,7 +166,7 @@
     },
     {
       "id": "21854_kenshi_ex3",
-      "japanese": "{不審|ふしん}{死|し}の{場合|ばあい}は{必|かなら}ず{検視|けんし}が{行|おこな}われる。",
+      "japanese": "⟦{不審|ふしん}→不審：16934_fushin⟧⟦{死|し}→死：13248_shi⟧⟦の→の：09472_no⟧⟦{場合|ばあい}→場合：01704_baai⟧⟦は→は：00079_ha⟧⟦{必|かなら}ず→必ず：01249_kanarazu⟧{検視|けんし}⟦が→が：00051_ga⟧⟦{行|おこな}われる→行う：01238_okonau⟧。",
       "english": "In the case of a suspicious death, a coroner's examination is always conducted.",
       "sense_numbers": [
         1

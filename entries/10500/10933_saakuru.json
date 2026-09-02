@@ -20,7 +20,7 @@
   "examples": [
     {
       "id": "10933_saakuru_ex1",
-      "japanese": "テニスサークルに{入|はい}った。",
+      "japanese": "⟦テニス→テニス：01784_tenisu⟧サークル⟦に→に：00314_ni⟧⟦{入|はい}った→入る：00494_hairu⟧。",
       "english": "I joined the tennis circle.",
       "notes": null,
       "has_audio": false,
@@ -30,7 +30,7 @@
     },
     {
       "id": "10933_saakuru_ex2",
-      "japanese": "{大学|だいがく}ではどんなサークルに{入|はい}っていますか。",
+      "japanese": "⟦{大学|だいがく}→大学：00608_daigaku⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦どんな→どんな：02924_donna⟧サークル⟦に→に：00314_ni⟧⟦{入|はい}っています→入る：00494_hairu⟧⟦か→か：09473_ka⟧。",
       "english": "What club are you in at university?",
       "notes": null,
       "has_audio": false,
@@ -40,7 +40,7 @@
     },
     {
       "id": "10933_saakuru_ex3",
-      "japanese": "サークルの{仲間|なかま}と{旅行|りょこう}に{行|い}く{予定|よてい}だ。",
+      "japanese": "サークル⟦の→の：09472_no⟧⟦{仲間|なかま}→仲間：03498_nakama⟧⟦と→と：00512_to⟧⟦{旅行|りょこう}→旅行：00748_ryokou⟧⟦に→に：00314_ni⟧⟦{行|い}く→行く：00119_iku⟧⟦{予定|よてい}→予定：00824_yotei⟧だ。",
       "english": "I'm planning to go on a trip with my club friends.",
       "notes": null,
       "has_audio": false,
@@ -50,7 +50,7 @@
     },
     {
       "id": "10933_saakuru_ex4",
-      "japanese": "サークルを{描|えが}く。",
+      "japanese": "サークル⟦を→を：00422_wo⟧⟦{描|えが}く→描く：02013_egaku⟧。",
       "english": "To draw a circle.",
       "notes": null,
       "has_audio": false,
@@ -60,7 +60,7 @@
     },
     {
       "id": "10933_saakuru_ex5",
-      "japanese": "{子供|こども}たちがサークルになって{座|すわ}った。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧たち⟦が→が：00051_ga⟧サークルになって⟦{座|すわ}った→座る：00757_suwaru⟧。",
       "english": "The children sat in a circle.",
       "notes": null,
       "has_audio": false,
@@ -70,7 +70,7 @@
     },
     {
       "id": "10933_saakuru_ex6",
-      "japanese": "{地図|ちず}に{赤|あか}いサークルで{印|しるし}をつけた。",
+      "japanese": "⟦{地図|ちず}→地図：02914_chizu⟧⟦に→に：00314_ni⟧⟦{赤|あか}い→赤い：00585_akai⟧サークル⟦で→で：00502_de⟧⟦{印|しるし}→印：03254_shirushi⟧⟦を→を：00422_wo⟧⟦つけた→つける：00562_tsukeru⟧。",
       "english": "I marked the map with a red circle.",
       "notes": null,
       "has_audio": false,
@@ -79,7 +79,7 @@
       ]
     }
   ],
-  "notes": "CULTURAL NOTE:\nIn Japanese universities, サークル refers to casual student clubs, as opposed to {部活|ぶかつ} (official athletic or cultural clubs), which are more structured, demanding, and competitive. サークル activities are more relaxed and social.\n\nUSAGE:\nSense 1 is the dominant meaning in everyday conversation. Common question at university: どのサークルに{入|はい}ってる？ (What circle are you in?)\n\nCOMMON COLLOCATIONS:\n- サークル{活動|かつどう}: circle/club activities\n- サークルの{飲|の}み{会|かい}: circle drinking party\n- {同人|どうじん}サークル: doujin circle (group producing fan works)",
+  "notes": "CULTURAL NOTE:\nIn Japanese universities, サークル refers to casual student clubs, as opposed to ⟦{部活|ぶかつ}→部活：05377_bukatsu⟧ (official athletic or cultural clubs), which are more structured, demanding, and competitive. サークル activities are more relaxed and social.\n\nUSAGE:\nSense 1 is the dominant meaning in everyday conversation. Common question at university: ⟦どの→どの：00551_dono⟧サークル⟦に→に：00314_ni⟧⟦{入|はい}っ→入る：00494_hairu⟧てる？ (What circle are you in?)\n\nCOMMON COLLOCATIONS:\n- サークル⟦{活動|かつどう}→活動：00201_katsudou⟧: circle/club activities\n- サークル⟦の→の：09472_no⟧⟦{飲|の}み{会|かい}→飲み会：09371_nomikai⟧: circle drinking party\n- ⟦{同人|どうじん}→同人：20053_doujin⟧サークル: doujin circle (group producing fan works)",
   "cross_references": [
     {
       "type": "contrast",
@@ -87,11 +87,18 @@
       "reading": "ぶかつ",
       "headword": "{部活|ぶかつ}",
       "label": "official club (more formal)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17015_doukoukai",
+      "reading": "どうこうかい",
+      "headword": "{同好会|どうこうかい}",
+      "label": "club"
     }
   ],
   "metadata": {
     "created": "2026-02-11T12:59:52Z",
-    "modified": "2026-06-28T18:50:11Z",
+    "modified": "2026-09-02T04:01:23Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

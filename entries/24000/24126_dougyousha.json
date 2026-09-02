@@ -15,41 +15,71 @@
   "examples": [
     {
       "id": "24126_dougyousha_ex1",
-      "japanese": "{同業者|どうぎょうしゃ}と{情報交換|じょうほうこうかん}をする。",
+      "japanese": "{同業者|どうぎょうしゃ}⟦と→と：00512_to⟧{情報交換|じょうほうこうかん}⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧。",
       "english": "To exchange information with people in the same trade.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "24126_dougyousha_ex2",
-      "japanese": "{同業者|どうぎょうしゃ}の{間|あいだ}では{有名|ゆうめい}な{話|はなし}だ。",
+      "japanese": "{同業者|どうぎょうしゃ}⟦の→の：09472_no⟧⟦{間|あいだ}→間：00914_aida⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{有名|ゆうめい}→有名：01106_yuumei⟧な⟦{話|はなし}→話：01496_hanashi⟧だ。",
       "english": "It's a well-known story among people in the industry.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "24126_dougyousha_ex3",
-      "japanese": "{同業者|どうぎょうしゃ}が{増|ふ}えて{競争|きょうそう}が{激|はげ}しくなってきた。",
+      "japanese": "{同業者|どうぎょうしゃ}⟦が→が：00051_ga⟧⟦{増|ふ}えて→増える：01183_fueru⟧⟦{競争|きょうそう}→競争：01388_kyousou⟧⟦が→が：00051_ga⟧⟦{激|はげ}しく→激しい：02348_hageshii⟧⟦なって→なる：01970_naru⟧きた。",
       "english": "Competition has intensified as more businesses in the same industry have appeared.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Compound of {同業|どうぎょう} ('same trade; same industry') and {者|しゃ} ('person'). The nuance can range from collaborative (a fellow professional you network with) to competitive (a rival business), depending on context.\n\nUSAGE:\n- When emphasizing collaboration or networking, {同業者|どうぎょうしゃ} implies professional peers who share expertise.\n- When emphasizing competition, it overlaps with {競合他社|きょうごうたしゃ} ('competing company').\n- Often used with {同業者|どうぎょうしゃ}{組合|くみあい} ('trade association') or in phrases about industry gatherings.\n\nCOMMON COLLOCATIONS:\n- {同業者|どうぎょうしゃ}{組合|くみあい}: trade association; guild\n- {同業者|どうぎょうしゃ}の{集|あつ}まり: gathering of industry peers\n- {同業者|どうぎょうしゃ}と{競争|きょうそう}する: to compete with industry rivals\n- {同業者|どうぎょうしゃ}{間|かん}: among professionals in the same field\n\nSIMILAR WORDS:\n- {同僚|どうりょう}: colleague — a coworker at the same company, not necessarily in the same profession\n- {競合|きょうごう}: competitor — specifically emphasizes the competitive relationship\n- {業界人|ぎょうかいじん}: industry insider — someone working in a particular industry, without the 'same as me' implication",
+  "notes": "Compound of ⟦{同業|どうぎょう}→同業：21886_dougyou⟧ ('same trade; same industry') and ⟦{者|しゃ}→〜者：04662_sha⟧ ('person'). The nuance can range from collaborative (a fellow professional you network with) to competitive (a rival business), depending on context.\n\nUSAGE:\n- When emphasizing collaboration or networking, {同業者|どうぎょうしゃ} implies professional peers who share expertise.\n- When emphasizing competition, it overlaps with ⟦{競合他社|きょうごうたしゃ}→競合他社：25602_kyougoutasha⟧ ('competing company').\n- Often used with {同業者|どうぎょうしゃ}⟦{組合|くみあい}→組合：02669_kumiai⟧ ('trade association') or in phrases about industry gatherings.\n\nCOMMON COLLOCATIONS:\n- {同業者|どうぎょうしゃ}⟦{組合|くみあい}→組合：02669_kumiai⟧: trade association; guild\n- {同業者|どうぎょうしゃ}⟦の→の：09472_no⟧⟦{集|あつ}まり→集まり：01689_atsumari⟧: gathering of industry peers\n- {同業者|どうぎょうしゃ}⟦と→と：00512_to⟧⟦{競争|きょうそう}→競争：01388_kyousou⟧⟦する→する：00392_suru⟧: to compete with industry rivals\n- {同業者|どうぎょうしゃ}⟦{間|かん}→〜間：28469_kan⟧: among professionals in the same field\n\nSIMILAR WORDS:\n- ⟦{同僚|どうりょう}→同僚：01023_douryou⟧: colleague — a coworker at the same company, not necessarily in the same profession\n- ⟦{競合|きょうごう}→競合：05082_kyougou⟧: competitor — specifically emphasizes the competitive relationship\n- {業界人|ぎょうかいじん}: industry insider — someone working in a particular industry, without the 'same as me' implication",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01023_douryou",
+      "reading": "どうりょう",
+      "headword": "{同僚|どうりょう}",
+      "label": "colleague"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05082_kyougou",
+      "reading": "きょうごう",
+      "headword": "{競合|きょうごう}",
+      "label": "competitor"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "style": ["written", "spoken"],
-      "semantic": ["work", "business"]
+      "style": [
+        "written",
+        "spoken"
+      ],
+      "semantic": [
+        "work",
+        "business"
+      ]
     },
     "created": "2026-04-17T19:30:39Z",
-    "modified": "2026-04-17T19:30:39Z"
+    "modified": "2026-09-02T04:02:16Z"
   }
 }

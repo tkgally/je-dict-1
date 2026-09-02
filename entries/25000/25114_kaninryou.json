@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25114_kaninryou_ex1",
-      "japanese": "{缶飲料|かんいんりょう}を{買|か}った。",
+      "japanese": "{缶飲料|かんいんりょう}⟦を→を：00422_wo⟧⟦{買|か}った→買う：00489_kau⟧。",
       "english": "I bought a canned drink.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25114_kaninryou_ex2",
-      "japanese": "{自動販売機|じどうはんばいき}で{缶飲料|かんいんりょう}が{売|う}られている。",
+      "japanese": "⟦{自動販売機|じどうはんばいき}→自動販売機：03078_jidouhanbaiki⟧⟦で→で：00502_de⟧{缶飲料|かんいんりょう}⟦が→が：00051_ga⟧⟦{売|う}られている→売る：00906_uru⟧。",
       "english": "Canned drinks are sold in vending machines.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25114_kaninryou_ex3",
-      "japanese": "{日本|にほん}では{缶飲料|かんいんりょう}の{種類|しゅるい}が{非常|ひじょう}に{多|おお}く、コーヒーやお{茶|ちゃ}も{缶|かん}で{手軽|てがる}に{買|か}える。",
+      "japanese": "⟦{日本|にほん}→日本：03876_nihon⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧{缶飲料|かんいんりょう}⟦の→の：09472_no⟧⟦{種類|しゅるい}→種類：01560_shurui⟧⟦が→が：00051_ga⟧⟦{非常|ひじょう}→非常：01598_hijou⟧⟦に→に：00314_ni⟧⟦{多|おお}く→多い：01127_ooi⟧、⟦コーヒー→コーヒー：00789_koohii⟧や⟦お{茶|ちゃ}→お茶：00576_ocha⟧⟦も→も：00484_mo⟧⟦{缶|かん}→缶：01076_kan⟧⟦で→で：00502_de⟧⟦{手軽|てがる}→手軽：07176_tegaru⟧⟦に→に：00314_ni⟧⟦{買|か}える→買う：00489_kau⟧。",
       "english": "In Japan, there is an enormous variety of canned drinks — even coffee and tea can be easily bought in cans.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Combines {缶|かん} (can, tin) and {飲料|いんりょう} (beverage, drink). Japan has a particularly rich canned beverage culture, with vending machines offering everything from hot and cold coffee to soup and tea.\n\nCOMMON COLLOCATIONS:\n- {缶飲料|かんいんりょう}の{自動販売機|じどうはんばいき}: canned drink vending machine\n- {缶飲料|かんいんりょう}を{冷|ひ}やす: to chill a canned drink\n- {缶飲料|かんいんりょう}の{空|あ}き{缶|かん}: empty canned drink container\n\nSIMILAR WORDS:\n- {缶|かん}ジュース: canned juice — casual term often used for any canned soft drink, not just juice\n- {缶|かん}コーヒー: canned coffee — a specific and very popular category in Japan\n- ペットボトル{飲料|いんりょう}: PET bottle drink — beverages in plastic bottles rather than cans\n- {瓶|びん}{飲料|いんりょう}: bottled drink — beverages in glass bottles",
+  "notes": "Combines ⟦{缶|かん}→缶：01076_kan⟧ (can, tin) and ⟦{飲料|いんりょう}→飲料：03011_inryou⟧ (beverage, drink). Japan has a particularly rich canned beverage culture, with vending machines offering everything from hot and cold coffee to soup and tea.\n\nCOMMON COLLOCATIONS:\n- {缶飲料|かんいんりょう}⟦の→の：09472_no⟧⟦{自動販売機|じどうはんばいき}→自動販売機：03078_jidouhanbaiki⟧: canned drink vending machine\n- {缶飲料|かんいんりょう}⟦を→を：00422_wo⟧⟦{冷|ひ}やす→冷やす：02403_hiyasu⟧: to chill a canned drink\n- {缶飲料|かんいんりょう}⟦の→の：09472_no⟧⟦{空|あ}き{缶|かん}→空き缶：23052_akikan⟧: empty canned drink container\n\nSIMILAR WORDS:\n- ⟦{缶|かん}→缶：01076_kan⟧⟦ジュース→ジュース：01033_juusu⟧: canned juice — casual term often used for any canned soft drink, not just juice\n- ⟦{缶|かん}→缶：01076_kan⟧⟦コーヒー→コーヒー：00789_koohii⟧: canned coffee — a specific and very popular category in Japan\n- ⟦ペットボトル→ペットボトル：05605_pettobotoru⟧⟦{飲料|いんりょう}→飲料：03011_inryou⟧: PET bottle drink — beverages in plastic bottles rather than cans\n- ⟦{瓶|びん}→瓶：01016_bin⟧⟦{飲料|いんりょう}→飲料：03011_inryou⟧: bottled drink — beverages in glass bottles",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -52,12 +52,13 @@
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "food",
         "daily-life"
       ]
     },
     "created": "2026-04-23T11:20:21Z",
-    "modified": "2026-08-04T12:59:53Z"
+    "modified": "2026-09-02T04:02:21Z"
   }
 }

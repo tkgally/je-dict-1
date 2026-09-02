@@ -3,7 +3,7 @@
   "headword": "{私有|しゆう}",
   "reading": "しゆう",
   "romaji": "shiyuu",
-  "part_of_speech": "noun / suru verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "private ownership; privately owned",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "19205_shiyuu_ex1",
-      "japanese": "{私有|しゆう}{地|ち}に{立|た}ち{入|い}り{禁止|きんし}。",
+      "japanese": "{私有|しゆう}{地|ち}⟦に→に：00314_ni⟧⟦{立|た}ち{入|い}り→立ち入る：26367_tachiiru⟧⟦{禁止|きんし}→禁止：02643_kinshi⟧。",
       "english": "No trespassing on private property.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "19205_shiyuu_ex2",
-      "japanese": "この{森|もり}は{私有|しゆう}{林|りん}です。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{森|もり}→森：02260_mori⟧⟦は→は：00079_ha⟧{私有|しゆう}{林|りん}です。",
       "english": "This forest is privately owned.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "19205_shiyuu_ex3",
-      "japanese": "{私有|しゆう}{財産|ざいさん}の{権利|けんり}は{憲法|けんぽう}で{保障|ほしょう}されている。",
+      "japanese": "{私有|しゆう}⟦{財産|ざいさん}→財産：01635_zaisan⟧⟦の→の：09472_no⟧⟦{権利|けんり}→権利：02711_kenri⟧⟦は→は：00079_ha⟧⟦{憲法|けんぽう}→憲法：02744_kenpou⟧⟦で→で：00502_de⟧⟦{保障|ほしょう}→保障：03719_hoshou⟧⟦されている→する：00392_suru⟧。",
       "english": "The right to private property is guaranteed by the constitution.",
       "sense_numbers": [
         1
@@ -134,8 +134,24 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {私|し} (private, personal) + {有|ゆう} (possess, own). The opposite is {公有|こうゆう} (public ownership) or {国有|こくゆう} (state ownership). Common collocations: {私有|しゆう}{地|ち} (private land), {私有|しゆう}{財産|ざいさん} (private property), {私有|しゆう}{林|りん} (private forest), {私有|しゆう}{物|ぶつ} (private belongings), {私有|しゆう}{化|か} (privatization). Part of the {〜有|ゆう} ownership family: {所有|しょゆう} (ownership), {共有|きょうゆう} (shared ownership), {国有|こくゆう} (state-owned).",
+  "notes": "Composed of {私|し} (private, personal) + {有|ゆう} (possess, own). The opposite is ⟦{公有|こうゆう}→公有：21178_kouyuu⟧ (public ownership) or ⟦{国有|こくゆう}→国有：28390_kokuyuu⟧ (state ownership). Common collocations: {私有|しゆう}{地|ち} (private land), {私有|しゆう}⟦{財産|ざいさん}→財産：01635_zaisan⟧ (private property), {私有|しゆう}{林|りん} (private forest), {私有|しゆう}⟦{物|ぶつ}→〜物：28336_butsu⟧ (private belongings), {私有|しゆう}{化|か} (privatization). Part of the {〜有|ゆう} ownership family: ⟦{所有|しょゆう}→所有：12752_shoyuu⟧ (ownership), ⟦{共有|きょうゆう}→共有：11666_kyouyuu⟧ (shared ownership), ⟦{国有|こくゆう}→国有：28390_kokuyuu⟧ (state-owned).",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21178_kouyuu",
+      "reading": "こうゆう",
+      "headword": "{公有|こうゆう}",
+      "label": "public ownership"
+    },
+    {
+      "type": "antonym",
+      "target_id": "28390_kokuyuu",
+      "reading": "こくゆう",
+      "headword": "{国有|こくゆう}",
+      "label": "state-owned"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -154,6 +170,6 @@
       "verb_class": "suru"
     },
     "created": "2026-03-24T14:02:45Z",
-    "modified": "2026-03-24T14:02:45Z"
+    "modified": "2026-09-02T04:01:55Z"
   }
 }

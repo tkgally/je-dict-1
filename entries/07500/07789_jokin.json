@@ -2,7 +2,7 @@
   "id": "07789_jokin",
   "headword": "{除菌|じょきん}",
   "reading": "じょきん",
-  "part_of_speech": "noun/suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "disinfection",
   "conjugation": {
     "type": "suru",
@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "07789_jokin_ex1",
-      "japanese": "{手|て}を{除菌|じょきん}する。",
+      "japanese": "⟦{手|て}→手：00569_te⟧⟦を→を：00422_wo⟧{除菌|じょきん}⟦する→する：00392_suru⟧。",
       "english": "To sanitize one's hands.",
       "sense_numbers": [
         1
@@ -114,7 +114,7 @@
     },
     {
       "id": "07789_jokin_ex2",
-      "japanese": "この{洗剤|せんざい}は{除菌|じょきん}{効果|こうか}がある。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{洗剤|せんざい}→洗剤：03304_senzai⟧⟦は→は：00079_ha⟧{除菌|じょきん}⟦{効果|こうか}→効果：02726_kouka⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "This detergent has sanitizing effects.",
       "sense_numbers": [
         1
@@ -124,7 +124,7 @@
     },
     {
       "id": "07789_jokin_ex3",
-      "japanese": "テーブルを{除菌|じょきん}シートで{拭|ふ}いた。",
+      "japanese": "⟦テーブル→テーブル：04488_teeburu⟧⟦を→を：00422_wo⟧{除菌|じょきん}⟦シート→シート：10945_shiito⟧⟦で→で：00502_de⟧⟦{拭|ふ}いた→拭く：04261_fuku⟧。",
       "english": "I wiped the table with a sanitizing sheet.",
       "sense_numbers": [
         1
@@ -133,7 +133,7 @@
       "notes": null
     }
   ],
-  "notes": "{除菌|じょきん} combines {除|じょ} (remove) + {菌|きん} (bacteria), meaning to remove or reduce bacteria/germs.\n\nCommon expressions:\n- {除菌|じょきん}する (to sanitize)\n- {除菌|じょきん}シート (sanitizing wipes)\n- {除菌|じょきん}スプレー (sanitizing spray)\n- {除菌|じょきん}{効果|こうか} (sanitizing effect)\n- {除菌|じょきん}{力|りょく} (sanitizing power)\n\nRelated terms:\n- {殺菌|さっきん} (sterilization - killing bacteria)\n- {消毒|しょうどく} (disinfection - broader term)\n- {抗菌|こうきん} (antibacterial)\n\n{除菌|じょきん} became especially common during the COVID-19 pandemic.",
+  "notes": "{除菌|じょきん} combines {除|じょ} (remove) + ⟦{菌|きん}→菌：02682_kin⟧ (bacteria), meaning to remove or reduce bacteria/germs.\n\nCommon expressions:\n- {除菌|じょきん}⟦する→する：00392_suru⟧ (to sanitize)\n- {除菌|じょきん}⟦シート→シート：10945_shiito⟧ (sanitizing wipes)\n- {除菌|じょきん}⟦スプレー→スプレー：11581_supuree⟧ (sanitizing spray)\n- {除菌|じょきん}⟦{効果|こうか}→効果：02726_kouka⟧ (sanitizing effect)\n- {除菌|じょきん}{力|りょく} (sanitizing power)\n\nRelated terms:\n- ⟦{殺菌|さっきん}→殺菌：09781_sakkin⟧ (sterilization - killing bacteria)\n- ⟦{消毒|しょうどく}→消毒：07591_shoudoku⟧ (disinfection - broader term)\n- ⟦{抗菌|こうきん}→抗菌：21567_koukin⟧ (antibacterial)\n\n{除菌|じょきん} became especially common during the COVID-19 pandemic.",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -146,10 +146,11 @@
       "semantic": [
         "general"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-01-21T03:52:44Z",
-    "modified": "2026-04-19T08:16:10Z"
+    "modified": "2026-09-02T04:01:12Z"
   },
   "cross_references": [
     {
@@ -165,6 +166,34 @@
       "reading": "しょうどく",
       "headword": "{消毒|しょうどく}",
       "label": "disinfection"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21567_koukin",
+      "reading": "こうきん",
+      "headword": "{抗菌|こうきん}",
+      "label": "antibacterial"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22352_mekkinsuru",
+      "reading": "めっきんする",
+      "headword": "{滅菌|めっきん}する",
+      "label": "to sterilize"
+    },
+    {
+      "type": "related",
+      "target_id": "23035_shoudokuyaku",
+      "reading": "しょうどくやく",
+      "headword": "{消毒薬|しょうどくやく}",
+      "label": "disinfectant"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24175_mekkin",
+      "reading": "めっきん",
+      "headword": "{滅菌|めっきん}",
+      "label": "sterilization"
     }
   ]
 }

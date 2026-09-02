@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "10001_soukan_ex1",
-      "japanese": "{二|ふた}つの{変数|へんすう}に{相関|そうかん}がある。",
+      "japanese": "⟦{二|ふた}つ→二つ：02953_futatsu⟧⟦の→の：09472_no⟧⟦{変数|へんすう}→変数：04798_hensuu⟧⟦に→に：00314_ni⟧{相関|そうかん}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There is a correlation between the two variables.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "10001_soukan_ex2",
-      "japanese": "{相関|そうかん}{関係|かんけい}を{調|しら}べる。",
+      "japanese": "{相関|そうかん}⟦{関係|かんけい}→関係：01298_kankei⟧⟦を→を：00422_wo⟧⟦{調|しら}べる→調べる：01213_shiraberu⟧。",
       "english": "To examine the correlation.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "10001_soukan_ex3",
-      "japanese": "{気温|きおん}と{電力|でんりょく}{消費|しょうひ}には{強|つよ}い{相関|そうかん}がある。",
+      "japanese": "⟦{気温|きおん}→気温：00235_kion⟧⟦と→と：00512_to⟧⟦{電力|でんりょく}→電力：14609_denryoku⟧⟦{消費|しょうひ}→消費：03240_shouhi⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{強|つよ}い→強い：00820_tsuyoi⟧{相関|そうかん}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There is a strong correlation between temperature and electricity consumption.",
       "notes": null,
       "has_audio": false,
@@ -133,11 +133,40 @@
       ]
     }
   ],
-  "notes": "{相関|そうかん} is primarily used in statistical and scientific contexts.\n\nCOMMON EXPRESSIONS:\n- {相関|そうかん}がある: to have a correlation\n- {相関|そうかん}{関係|かんけい}: correlation, correlative relationship\n- {相関|そうかん}{係数|けいすう}: correlation coefficient\n- {正|せい}の{相関|そうかん}: positive correlation\n- {負|ふ}の{相関|そうかん}: negative correlation\n- {強|つよ}い / {弱|よわ}い{相関|そうかん}: strong / weak correlation\n\nCAUTION:\n{相関|そうかん}{関係|かんけい} does not imply causation ({因果|いんが}{関係|かんけい}).\n\nSIMILAR WORDS:\n- {関連|かんれん}: relation, connection (broader meaning)\n- {関係|かんけい}: relationship (general)",
-  "cross_references": [],
+  "notes": "{相関|そうかん} is primarily used in statistical and scientific contexts.\n\nCOMMON EXPRESSIONS:\n- {相関|そうかん}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧: to have a correlation\n- {相関|そうかん}⟦{関係|かんけい}→関係：01298_kankei⟧: correlation, correlative relationship\n- {相関|そうかん}{係数|けいすう}: correlation coefficient\n- ⟦{正|せい}→正：09511_sei⟧⟦の→の：09472_no⟧{相関|そうかん}: positive correlation\n- ⟦{負|ふ}→負：09512_fu⟧⟦の→の：09472_no⟧{相関|そうかん}: negative correlation\n- ⟦{強|つよ}い→強い：00820_tsuyoi⟧ / ⟦{弱|よわ}い→弱い：00825_yowai⟧{相関|そうかん}: strong / weak correlation\n\nWATCH OUT:\n{相関|そうかん}⟦{関係|かんけい}→関係：01298_kankei⟧ does not imply causation (⟦{因果|いんが}{関係|かんけい}→因果関係：19492_ingakankei⟧).\n\nSIMILAR WORDS:\n- ⟦{関連|かんれん}→関連：00177_kanren⟧: relation, connection (broader meaning)\n- ⟦{関係|かんけい}→関係：01298_kankei⟧: relationship (general)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00177_kanren",
+      "reading": "かんれん",
+      "headword": "{関連|かんれん}",
+      "label": "relation, connection"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01298_kankei",
+      "reading": "かんけい",
+      "headword": "{関係|かんけい}",
+      "label": "relationship"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24595_renkan",
+      "reading": "れんかん",
+      "headword": "{連関|れんかん}",
+      "label": "connection"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24718_kanrensei",
+      "reading": "かんれんせい",
+      "headword": "{関連性|かんれんせい}",
+      "label": "relevance"
+    }
+  ],
   "metadata": {
     "created": "2026-02-04T13:51:51Z",
-    "modified": "2026-04-10T07:12:46Z",
+    "modified": "2026-09-02T04:01:19Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

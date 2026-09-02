@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "07632_bougai_ex1",
-      "japanese": "{業務|ぎょうむ}を{妨害|ぼうがい}する。",
+      "japanese": "⟦{業務|ぎょうむ}→業務：09630_gyoumu⟧⟦を→を：00422_wo⟧{妨害|ぼうがい}⟦する→する：00392_suru⟧。",
       "english": "To obstruct operations.",
       "has_audio": false,
       "sense_numbers": [
@@ -113,7 +113,7 @@
     },
     {
       "id": "07632_bougai_ex2",
-      "japanese": "{選挙|せんきょ}{妨害|ぼうがい}は{違法|いほう}です。",
+      "japanese": "⟦{選挙|せんきょ}→選挙：03303_senkyo⟧{妨害|ぼうがい}⟦は→は：00079_ha⟧⟦{違法|いほう}→違法：09687_ihou⟧です。",
       "english": "Election interference is illegal.",
       "has_audio": false,
       "sense_numbers": [
@@ -122,7 +122,7 @@
     },
     {
       "id": "07632_bougai_ex3",
-      "japanese": "{工事|こうじ}を{妨害|ぼうがい}しないでください。",
+      "japanese": "⟦{工事|こうじ}→工事：00244_kouji⟧⟦を→を：00422_wo⟧{妨害|ぼうがい}⟦しないで→する：00392_suru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please do not interfere with the construction work.",
       "has_audio": false,
       "sense_numbers": [
@@ -130,7 +130,7 @@
       ]
     }
   ],
-  "notes": "COMMON COLLOCATIONS:\n・{業務|ぎょうむ}{妨害|ぼうがい} - obstruction of business\n・{選挙|せんきょ}{妨害|ぼうがい} - election interference\n・{電波|でんぱ}{妨害|ぼうがい} - radio interference/jamming\n・{捜査|そうさ}{妨害|ぼうがい} - obstruction of investigation\n・{公務|こうむ}{執行|しっこう}{妨害|ぼうがい} - obstruction of justice\n\nLEGAL USAGE:\nCommonly used in legal contexts:\n・{威力|いりょく}{業務|ぎょうむ}{妨害|ぼうがい}{罪|ざい} - forcible obstruction of business (a crime)\n\nRELATED WORDS:\n・{阻止|そし} - prevention, stopping\n・{邪魔|じゃま} - hindrance (more casual)",
+  "notes": "COMMON COLLOCATIONS:\n- ⟦{業務|ぎょうむ}→業務：09630_gyoumu⟧{妨害|ぼうがい} - obstruction of business\n- ⟦{選挙|せんきょ}→選挙：03303_senkyo⟧{妨害|ぼうがい} - election interference\n- ⟦{電波|でんぱ}→電波：04070_denpa⟧{妨害|ぼうがい} - radio interference/jamming\n- ⟦{捜査|そうさ}→捜査：03688_sousa⟧{妨害|ぼうがい} - obstruction of investigation\n- ⟦{公務|こうむ}→公務：00245_koumu⟧⟦{執行|しっこう}→執行：18996_shikkou⟧{妨害|ぼうがい} - obstruction of justice\n\nLEGAL USAGE:\nCommonly used in legal contexts:\n- ⟦{威力|いりょく}→威力：19611_iryoku⟧⟦{業務|ぎょうむ}→業務：09630_gyoumu⟧{妨害|ぼうがい}{罪|ざい} - forcible obstruction of business (a crime)\n\nRELATED WORDS:\n- ⟦{阻止|そし}→阻止：07633_soshi⟧ - prevention, stopping\n- ⟦{邪魔|じゃま}→邪魔：01610_jama⟧ - hindrance (more casual)",
   "cross_references": [
     {
       "type": "related",
@@ -138,11 +138,18 @@
       "headword": "{阻止|そし}",
       "label": "prevention",
       "target_id": "07633_soshi"
+    },
+    {
+      "type": "related",
+      "target_id": "01610_jama",
+      "reading": "じゃま",
+      "headword": "{邪魔|じゃま}",
+      "label": "hindrance"
     }
   ],
   "metadata": {
     "created": "2026-01-20T13:21:59Z",
-    "modified": "2026-08-11T09:37:41Z",
+    "modified": "2026-09-02T04:01:12Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -151,6 +158,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "action",
         "society"
@@ -158,7 +166,8 @@
       "domain": [
         "legal"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

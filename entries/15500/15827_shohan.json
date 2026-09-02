@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "15827_shohan_ex1",
-      "japanese": "{初版|しょはん}は{売|う}り{切|き}れた。",
+      "japanese": "{初版|しょはん}⟦は→は：00079_ha⟧⟦{売|う}り{切|き}れた→売り切れる：03012_urikireru⟧。",
       "english": "The first edition sold out.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "15827_shohan_ex2",
-      "japanese": "この{本|ほん}の{初版|しょはん}は1985{年|ねん}に{出版|しゅっぱん}された。",
+      "japanese": "⟦この→この：00962_kono⟧{本|ほん}⟦の→の：09472_no⟧{初版|しょはん}⟦は→は：00079_ha⟧1985⟦{年|ねん}→年：09876_nen⟧⟦に→に：00314_ni⟧⟦{出版|しゅっぱん}→出版：03222_shuppan⟧⟦された→する：00392_suru⟧。",
       "english": "The first edition of this book was published in 1985.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "15827_shohan_ex3",
-      "japanese": "{初版|しょはん}{本|ぼん}は{古書店|こしょてん}で{高値|たかね}で{取引|とりひき}されることがある。",
+      "japanese": "{初版|しょはん}{本|ぼん}⟦は→は：00079_ha⟧⟦{古書店|こしょてん}→古書店：22184_koshoten⟧⟦で→で：00502_de⟧⟦{高値|たかね}→高値：14703_takane⟧⟦で→で：00502_de⟧⟦{取引|とりひき}→取引：04700_torihiki⟧⟦される→する：00392_suru⟧こと⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "First-edition books are sometimes traded at high prices in used bookstores.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{初版|しょはん} can refer to either the first edition (distinct version with changes) or the first printing (initial print run of the same content). In casual usage, the distinction is often blurred. {初版|しょはん}{本|ぼん} specifically means a first-edition copy of a book.\n\nCOMMON COLLOCATIONS:\n- {初版|しょはん}{本|ぼん} (first-edition copy)\n- {初版|しょはん}{発行|はっこう} (first edition published)\n- {初版|しょはん}{第一刷|だいいちずり} (first edition, first printing)\n\nRELATED TERMS:\n- {改訂版|かいていばん} means revised edition.\n- {増補版|ぞうほばん} means expanded edition.\n- {重版|じゅうはん} means additional printing or reprint.\n- {絶版|ぜっぱん} means out of print.",
+  "notes": "USAGE:\n{初版|しょはん} can refer to either the first edition (distinct version with changes) or the first printing (initial print run of the same content). In casual usage, the distinction is often blurred. {初版|しょはん}{本|ぼん} specifically means a first-edition copy of a book.\n\nCOMMON COLLOCATIONS:\n- {初版|しょはん}{本|ぼん} (first-edition copy)\n- {初版|しょはん}⟦{発行|はっこう}→発行：03693_hakkou⟧ (first edition published)\n- {初版|しょはん}{第一刷|だいいちずり} (first edition, first printing)\n\nRELATED WORDS:\n- ⟦{改訂版|かいていばん}→改訂版：17716_kaiteiban⟧ means revised edition.\n- ⟦{増補版|ぞうほばん}→増補版：24013_zouhoban⟧ means expanded edition.\n- {重版|じゅうはん} means additional printing or reprint.\n- {絶版|ぜっぱん} means out of print.",
   "cross_references": [
     {
       "type": "related",
@@ -52,11 +52,25 @@
       "reading": "かいていばん",
       "headword": "{改訂版|かいていばん}",
       "label": "revised edition"
+    },
+    {
+      "type": "related",
+      "target_id": "24013_zouhoban",
+      "reading": "ぞうほばん",
+      "headword": "{増補版|ぞうほばん}",
+      "label": "means expanded edition."
+    },
+    {
+      "type": "contrast",
+      "target_id": "22067_shinpan",
+      "reading": "しんぱん",
+      "headword": "{新版|しんぱん}",
+      "label": "new edition"
     }
   ],
   "metadata": {
     "created": "2026-03-08T10:15:25Z",
-    "modified": "2026-07-18T04:02:53Z",
+    "modified": "2026-09-02T04:01:42Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

@@ -15,41 +15,67 @@
   "examples": [
     {
       "id": "28673_mashiteha_ex1",
-      "japanese": "{大人|おとな}でも{難|むずか}しい。ましては{子供|こども}には{無理|むり}だ。",
+      "japanese": "⟦{大人|おとな}→大人：02856_otona⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧⟦{難|むずか}しい→難しい：00517_muzukashii⟧。ましては⟦{子供|こども}→子供：00554_kodomo⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{無理|むり}→無理：01558_muri⟧だ。",
       "english": "It's hard even for adults — much less for children.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28673_mashiteha_ex2",
-      "japanese": "{歩|ある}くのもつらいのに、ましては{走|はし}るなんてとても{無理|むり}だ。",
+      "japanese": "⟦{歩|ある}く→歩く：00538_aruku⟧⟦の→の：09472_no⟧⟦も→も：00484_mo⟧つらい⟦の→の：09472_no⟧⟦に→に：00314_ni⟧、ましては⟦{走|はし}る→走る：00519_hashiru⟧⟦なんて→なんて：06918_nante⟧⟦とても→とても：00593_totemo⟧⟦{無理|むり}→無理：01558_muri⟧だ。",
       "english": "Even walking is hard, let alone running.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28673_mashiteha_ex3",
-      "japanese": "{専門家|せんもんか}でも{判断|はんだん}に{迷|まよ}う{問題|もんだい}だ。ましては{素人|しろうと}が{即答|そくとう}できるはずがない。",
+      "japanese": "⟦{専門家|せんもんか}→専門家：03088_senmonka⟧で⟦も→も：00484_mo⟧⟦{判断|はんだん}→判断：03571_handan⟧⟦に→に：00314_ni⟧⟦{迷|まよ}う→迷う：02426_mayou⟧⟦{問題|もんだい}→問題：00797_mondai⟧だ。ましては⟦{素人|しろうと}→素人：04270_shirouto⟧⟦が→が：00051_ga⟧⟦{即答|そくとう}→即答：11939_sokutou⟧⟦できる→できる：00557_dekiru⟧⟦はず→はず：01557_hazu⟧⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧。",
       "english": "It's a question even experts find hard to judge — there's no way amateurs could answer it on the spot.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Formal conjunction at the start of a sentence. The structure compares two cases: the first is conceded to be already extreme, and the second is presented as obviously more so. Often pairs with なんて, でも, or はずがない at the end.\n\nREGISTER:\n- Written and formal speech. In casual conversation, まして or {まして}や は more common.\n- The full ましてや is interchangeable and slightly more emphatic.\n\nSIMILAR EXPRESSIONS:\n- まして: shorter form, same meaning — more conversational\n- ましてや: emphatic version — adds rhetorical weight\n- なおさら: all the more — similar logic but with positive cases ('all the more reason')\n- どころか: far from being — contrastive, focuses on contradiction rather than escalation",
+  "notes": "Formal conjunction at the start of a sentence. The structure compares two cases: the first is conceded to be already extreme, and the second is presented as obviously more so. Often pairs with ⟦なんて→なんて：06918_nante⟧, ⟦でも→でも：00925_demo⟧, or ⟦はず→はず：01557_hazu⟧⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧ at the end.\n\nREGISTER:\n- Written and formal speech. In casual conversation, ⟦まして→まして：07435_mashite⟧ or ⟦まして→まして：07435_mashite⟧や ⟦は→は：00079_ha⟧ more common.\n- The full ⟦まして→まして：07435_mashite⟧や is interchangeable and slightly more emphatic.\n\nSIMILAR WORDS:\n- ⟦まして→まして：07435_mashite⟧: shorter form, same meaning — more conversational\n- ⟦まして→まして：07435_mashite⟧や: emphatic version — adds rhetorical weight\n- なおさら: all the more — similar logic but with positive cases ('all the more reason')\n- どころ⟦か→か：09473_ka⟧: far from being — contrastive, focuses on contradiction rather than escalation",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "26861_mashiteya",
+      "reading": "ましてや",
+      "headword": "ましてや",
+      "label": "emphatic version"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30271_dokoroka",
+      "reading": "どころか",
+      "headword": "どころか",
+      "label": "far from being"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["conjunction"],
+      "pos": [
+        "conjunction"
+      ],
       "formality": "formal",
-      "politeness": null,
-      "semantic": ["abstract"],
+      "politeness": "plain",
+      "semantic": [
+        "abstract"
+      ],
       "domain": []
     },
     "created": "2026-06-03T04:21:16Z",
-    "modified": "2026-06-03T04:21:16Z"
+    "modified": "2026-09-02T04:02:34Z"
   }
 }

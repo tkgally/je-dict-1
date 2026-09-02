@@ -3,8 +3,45 @@
   "id": "21910_kanrisuru",
   "headword": "{管理|かんり}する",
   "reading": "かんりする",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "to manage; to administer; to control; to maintain",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02740_keiei",
+      "reading": "けいえい",
+      "headword": "{経営|けいえい}",
+      "label": "to run, to operate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21987_uneisuru",
+      "reading": "うんえいする",
+      "headword": "{運営|うんえい}する",
+      "label": "to operate, to run"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21986_kantokusuru",
+      "reading": "かんとくする",
+      "headword": "{監督|かんとく}する",
+      "label": "to supervise"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17311_ijisuru",
+      "reading": "いじする",
+      "headword": "{維持|いじ}する",
+      "label": "to maintain"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22376_toukatsusuru",
+      "reading": "とうかつする",
+      "headword": "{統括|とうかつ}する",
+      "label": "to oversee"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -12,16 +49,19 @@
         "noun",
         "verb-suru"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "work",
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-04-03T21:27:05Z",
-    "modified": "2026-04-03T21:27:05Z"
+    "modified": "2026-09-02T04:02:05Z"
   },
-  "notes": "An extremely common and versatile word covering management, administration, and maintenance in many domains: property, health, data, employees, finances, and more. The noun {管理|かんり} is used extensively in compound words.\n\nCOMMON COLLOCATIONS:\n- {管理|かんり}{者|しゃ}: manager, administrator\n- {管理|かんり}{費|ひ}: management fee, maintenance fee\n- {管理|かんり}{職|しょく}: managerial position\n- {品質|ひんしつ}{管理|かんり}: quality control\n- {健康|けんこう}{管理|かんり}: health management\n- {自己|じこ}{管理|かんり}: self-management\n- {管理|かんり}{社会|しゃかい}: controlled society, surveillance society\n\nSIMILAR WORDS:\n- {経営|けいえい}する: to run, to operate — specifically about running a business or organization\n- {運営|うんえい}する: to operate, to run — focuses on the day-to-day running of an organization or event\n- {監督|かんとく}する: to supervise — emphasizes oversight and directing people\n- {維持|いじ}する: to maintain — focuses on keeping something in its current state\n\nETYMOLOGY:\nComposed of {管|かん} (pipe, control) + {理|り} (reason, arrange). The original sense is of channeling and ordering things properly.",
+  "notes": "An extremely common and versatile word covering management, administration, and maintenance in many domains: property, health, data, employees, finances, and more. The noun ⟦{管理|かんり}→管理：00178_kanri⟧ is used extensively in compound words.\n\nCOMMON COLLOCATIONS:\n- ⟦{管理|かんり}{者|しゃ}→管理者：24297_kanrisha⟧: manager, administrator\n- ⟦{管理|かんり}{費|ひ}→管理費：06575_kanrihi⟧: management fee, maintenance fee\n- ⟦{管理|かんり}{職|しょく}→管理職：21834_kanrishoku⟧: managerial position\n- ⟦{品質|ひんしつ}{管理|かんり}→品質管理：21220_hinshitsukanri⟧: quality control\n- ⟦{健康|けんこう}{管理|かんり}→健康管理：21662_kenkoukanri⟧: health management\n- ⟦{自己|じこ}→自己：23357_jiko⟧⟦{管理|かんり}→管理：00178_kanri⟧: self-management\n- ⟦{管理|かんり}→管理：00178_kanri⟧⟦{社会|しゃかい}→社会：01427_shakai⟧: controlled society, surveillance society\n\nSIMILAR WORDS:\n- ⟦{経営|けいえい}→経営：02740_keiei⟧⟦する→する：00392_suru⟧: to run, to operate — specifically about running a business or organization\n- ⟦{運営|うんえい}する→運営する：21987_uneisuru⟧: to operate, to run — focuses on the day-to-day running of an organization or event\n- ⟦{監督|かんとく}する→監督する：21986_kantokusuru⟧: to supervise — emphasizes oversight and directing people\n- ⟦{維持|いじ}する→維持する：17311_ijisuru⟧: to maintain — focuses on keeping something in its current state\n\nETYMOLOGY:\nComposed of ⟦{管|かん}→管：09749_kan⟧ (pipe, control) + {理|り} (reason, arrange). The original sense is of channeling and ordering things properly.",
   "conjugation": {
     "type": "suru",
     "forms": [
@@ -122,7 +162,7 @@
   "examples": [
     {
       "id": "21910_kanrisuru_ex1",
-      "japanese": "{健康|けんこう}を{管理|かんり}する。",
+      "japanese": "⟦{健康|けんこう}→健康：02706_kenkou⟧⟦を→を：00422_wo⟧{管理|かんり}する。",
       "english": "To manage one's health.",
       "sense_numbers": [
         1
@@ -132,7 +172,7 @@
     },
     {
       "id": "21910_kanrisuru_ex2",
-      "japanese": "パスワードは{厳重|げんじゅう}に{管理|かんり}してください。",
+      "japanese": "⟦パスワード→パスワード：05277_pasuwaado⟧⟦は→は：00079_ha⟧⟦{厳重|げんじゅう}→厳重：11887_genjuu⟧⟦に→に：00314_ni⟧{管理|かんり}して⟦ください→ください：02899_kudasai⟧。",
       "english": "Please manage your passwords securely.",
       "sense_numbers": [
         1
@@ -142,7 +182,7 @@
     },
     {
       "id": "21910_kanrisuru_ex3",
-      "japanese": "このビルは{管理|かんり}{会社|がいしゃ}が{管理|かんり}している。",
+      "japanese": "⟦この→この：00962_kono⟧⟦ビル→ビル：01500_biru⟧⟦は→は：00079_ha⟧⟦{管理|かんり}{会社|がいしゃ}→管理会社：23531_kanrigaisha⟧⟦が→が：00051_ga⟧{管理|かんり}して⟦いる→いる：00495_iru⟧。",
       "english": "This building is managed by a management company.",
       "sense_numbers": [
         1
@@ -152,7 +192,7 @@
     },
     {
       "id": "21910_kanrisuru_ex4",
-      "japanese": "{在庫|ざいこ}をシステムで{一元|いちげん}{管理|かんり}することで{効率|こうりつ}が{上|あ}がった。",
+      "japanese": "⟦{在庫|ざいこ}→在庫：04701_zaiko⟧⟦を→を：00422_wo⟧⟦システム→システム：08428_shisutemu⟧⟦で→で：00502_de⟧{一元|いちげん}{管理|かんり}すること⟦で→で：00502_de⟧⟦{効率|こうりつ}→効率：11794_kouritsu⟧⟦が→が：00051_ga⟧⟦{上|あ}がった→上がる：00615_agaru⟧。",
       "english": "Efficiency improved by managing inventory centrally through a system.",
       "sense_numbers": [
         1

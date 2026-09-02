@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "14733_kurumayoi_ex1",
-      "japanese": "{子供|こども}が{車酔|くるまよ}いした。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧⟦が→が：00051_ga⟧{車酔|くるまよ}い⟦した→する：00392_suru⟧。",
       "english": "The child got carsick.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14733_kurumayoi_ex2",
-      "japanese": "{車酔|くるまよ}いしやすいので、{薬|くすり}を{飲|の}んでおく。",
+      "japanese": "{車酔|くるまよ}いしやすい⟦の→の：09472_no⟧で、⟦{薬|くすり}→薬：00793_kusuri⟧⟦を→を：00422_wo⟧⟦{飲|の}んで→飲む：00322_nomu⟧おく。",
       "english": "I get carsick easily, so I take medicine beforehand.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14733_kurumayoi_ex3",
-      "japanese": "{山道|やまみち}のカーブが{多|おお}くて、{車酔|くるまよ}いしてしまった。",
+      "japanese": "⟦{山道|やまみち}→山道：12406_yamamichi⟧⟦の→の：09472_no⟧⟦カーブ→カーブ：27529_kaabu⟧⟦が→が：00051_ga⟧⟦{多|おお}くて→多い：01127_ooi⟧、{車酔|くるまよ}い⟦して→する：00392_suru⟧しまった。",
       "english": "There were so many curves on the mountain road that I got carsick.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "Part of a family of motion sickness compounds using ～{酔|よ}い:\n- {車酔|くるまよ}い (carsickness)\n- {船酔|ふなよ}い (seasickness)\n- {飛行機酔|ひこうきよ}い (airsickness)\n- {乗|の}り{物酔|ものよ}い (motion sickness — general term)\n\nCOMMON COLLOCATIONS:\n- {車酔|くるまよ}いしやすい (prone to carsickness)\n- {車酔|くるまよ}い{止|ど}め (carsickness medicine)\n- {車酔|くるまよ}いの{薬|くすり} (medicine for carsickness)\n\nTIP: To say \"I get carsick easily,\" say {車酔|くるまよ}いしやすい (not {車酔|くるまよ}いがしやすい).",
+  "notes": "Part of a family of motion sickness compounds using ～{酔|よ}い:\n- {車酔|くるまよ}い (carsickness)\n- ⟦{船酔|ふなよ}い→船酔い：30619_funayoi⟧ (seasickness)\n- {飛行機酔|ひこうきよ}い (airsickness)\n- ⟦{乗|の}り{物酔|ものよ}い→乗り物酔い：25234_norimonoyoi⟧ (motion sickness — general term)\n\nCOMMON COLLOCATIONS:\n- {車酔|くるまよ}いしやすい (prone to carsickness)\n- {車酔|くるまよ}い{止|ど}め (carsickness medicine)\n- {車酔|くるまよ}い⟦の→の：09472_no⟧⟦{薬|くすり}→薬：00793_kusuri⟧ (medicine for carsickness)\n\nTIP: To say \"I get carsick easily,\" say {車酔|くるまよ}いしやすい (not {車酔|くるまよ}いがしやすい).",
   "cross_references": [
     {
       "type": "related",
@@ -53,18 +59,29 @@
       "reading": "よう",
       "headword": "{酔|よ}う",
       "label": "to get drunk/sick"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30619_funayoi",
+      "reading": "ふなよい",
+      "headword": "{船酔|ふなよ}い",
+      "label": "seasickness"
     }
   ],
   "metadata": {
     "created": "2026-03-03T09:49:41Z",
-    "modified": "2026-04-30T10:24:44Z",
+    "modified": "2026-09-02T04:01:38Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["transportation"]
+      "semantic": [
+        "transportation"
+      ]
     }
   }
 }

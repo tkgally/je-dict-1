@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08693_asagaeri_ex1",
-      "japanese": "{昨日|きのう}は{朝帰|あさがえ}りだった。",
+      "japanese": "⟦{昨日|きのう}→昨日：00859_kinou⟧⟦は→は：00079_ha⟧{朝帰|あさがえ}りだった。",
       "english": "I came home in the morning yesterday (after staying out all night).",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "08693_asagaeri_ex2",
-      "japanese": "{飲|の}み{会|かい}で{盛|も}り{上|あ}がって{朝帰|あさがえ}りになってしまった。",
+      "japanese": "⟦{飲|の}み{会|かい}→飲み会：09371_nomikai⟧⟦で→で：00502_de⟧⟦{盛|も}り{上|あ}がって→盛り上がる：06344_moriagaru⟧{朝帰|あさがえ}りになってしまった。",
       "english": "The drinking party got so lively that I ended up coming home in the morning.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "08693_asagaeri_ex3",
-      "japanese": "{彼|かれ}の{朝帰|あさがえ}りに{妻|つま}は{怒|おこ}っていた。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧{朝帰|あさがえ}り⟦に→に：00314_ni⟧⟦{妻|つま}→妻：01005_tsuma⟧⟦は→は：00079_ha⟧⟦{怒|おこ}っていた→怒る：00876_okoru⟧。",
       "english": "His wife was angry about him coming home in the morning.",
       "sense_numbers": [
         1
@@ -43,7 +43,16 @@
       "notes": null
     }
   ],
-  "notes": "COMPOUND:\n{朝|あさ} (morning) + {帰|かえ}り (returning home)\n\nCOMMON SITUATIONS:\nUsed to describe coming home after:\n- {飲|の}み{会|かい} (drinking party)\n- オールナイト (all-night event)\n- {残業|ざんぎょう} (overtime work)\n- {夜勤|やきん} (night shift)\n\nUSAGE:\n- {朝帰|あさがえ}りする - to come home in the morning (verb form)\n- {朝帰|あさがえ}りになる - to end up coming home in the morning\n\nNUANCE:\nOften implies staying out partying or drinking until morning. Can have negative connotations when used by family members expressing disapproval.",
+  "notes": "COMPOUNDS:\n⟦{朝|あさ}→朝：02277_asa⟧ (morning) + ⟦{帰|かえ}り→帰り：01275_kaeri⟧ (returning home)\n\nCOMMON SITUATIONS:\nUsed to describe coming home after:\n- ⟦{飲|の}み{会|かい}→飲み会：09371_nomikai⟧ (drinking party)\n- ⟦オールナイト→オールナイト：08694_oorunaito⟧ (all-night event)\n- ⟦{残業|ざんぎょう}→残業：01071_zangyou⟧ (overtime work)\n- ⟦{夜勤|やきん}→夜勤：09549_yakin⟧ (night shift)\n\nUSAGE:\n- {朝帰|あさがえ}り⟦する→する：00392_suru⟧ - to come home in the morning (verb form)\n- {朝帰|あさがえ}り⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧ - to end up coming home in the morning\nOften implies staying out partying or drinking until morning. Can have negative connotations when used by family members expressing disapproval.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "17613_gaihaku",
+      "reading": "がいはく",
+      "headword": "{外泊|がいはく}",
+      "label": "staying out overnight"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -51,12 +60,13 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "daily-life",
         "time-general"
       ]
     },
     "created": "2026-01-28T02:43:21Z",
-    "modified": "2026-06-23T01:38:10Z"
+    "modified": "2026-09-02T04:01:16Z"
   }
 }

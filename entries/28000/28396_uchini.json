@@ -20,7 +20,7 @@
   "examples": [
     {
       "id": "28396_uchini_ex1",
-      "japanese": "{若|わか}いうちに{勉強|べんきょう}しよう。",
+      "japanese": "{若|わか}いうちに⟦{勉強|べんきょう}しよう→勉強する：00527_benkyousuru⟧。",
       "english": "Let's study while we're young.",
       "sense_numbers": [
         1
@@ -30,7 +30,7 @@
     },
     {
       "id": "28396_uchini_ex2",
-      "japanese": "{休|やす}みのうちに{本|ほん}を{読|よ}んだ。",
+      "japanese": "⟦{休|やす}み→休み：02266_yasumi⟧⟦の→の：09472_no⟧うちに{本|ほん}⟦を→を：00422_wo⟧⟦{読|よ}んだ→読む：00426_yomu⟧。",
       "english": "I read a book during the vacation.",
       "sense_numbers": [
         1
@@ -40,7 +40,7 @@
     },
     {
       "id": "28396_uchini_ex3",
-      "japanese": "{話|はな}しているうちに、{答|こた}えが{見|み}つかった。",
+      "japanese": "⟦{話|はな}している→話す：00467_hanasu⟧うちに、⟦{答|こた}え→答え：00790_kotae⟧⟦が→が：00051_ga⟧⟦{見|み}つかった→見つかる：01173_mitsukaru⟧。",
       "english": "While we were talking, I found the answer.",
       "sense_numbers": [
         1
@@ -50,7 +50,7 @@
     },
     {
       "id": "28396_uchini_ex4",
-      "japanese": "{雨|あめ}が{降|ふ}らないうちに{帰|かえ}ろう。",
+      "japanese": "⟦{雨|あめ}→雨：00583_ame⟧⟦が→が：00051_ga⟧⟦{降|ふ}らない→降る：00839_furu⟧うちに⟦{帰|かえ}ろう→帰る：00508_kaeru⟧。",
       "english": "Let's go home before it starts raining.",
       "sense_numbers": [
         2
@@ -60,7 +60,7 @@
     },
     {
       "id": "28396_uchini_ex5",
-      "japanese": "{忘|わす}れないうちにメモしておく。",
+      "japanese": "⟦{忘|わす}れない→忘れる：00474_wasureru⟧うちに⟦メモして→メモする：25501_memosuru⟧おく。",
       "english": "I'll jot it down before I forget.",
       "sense_numbers": [
         2
@@ -70,7 +70,7 @@
     },
     {
       "id": "28396_uchini_ex6",
-      "japanese": "{暗|くら}くならないうちに{家|いえ}に{着|つ}きたい。",
+      "japanese": "⟦{暗|くら}く→暗い：00647_kurai⟧⟦ならない→なる：01970_naru⟧うちに⟦{家|いえ}→家：00612_ie⟧⟦に→に：00314_ni⟧⟦{着|つ}きたい→着く：00680_tsuku⟧。",
       "english": "I want to get home before it gets dark.",
       "sense_numbers": [
         2
@@ -79,8 +79,17 @@
       "notes": null
     }
   ],
-  "notes": "Combination of {内|うち} (inside, interval) + に. Treated as a fixed grammatical pattern.\n\nATTACHMENT:\n- Verb (plain present or ている): {話|はな}しているうちに\n- Negative verb: {降|ふ}らないうちに\n- I-adjective: {若|わか}いうちに\n- Na-adjective + な: {元気|げんき}なうちに\n- Noun + の: {休|やす}みのうちに\n\nSIMILAR WORDS:\n- {間|あいだ}に: while — neutral about whether the state changes; うちに implies acting before it does\n- 〜{前|まえ}に: before — focuses on order of events; ないうちに focuses on the state still being in effect",
+  "notes": "Combination of ⟦{内|うち}→内：01328_uchi⟧ (inside, interval) + ⟦に→に：00314_ni⟧. Treated as a fixed grammatical pattern.\n\nATTACHMENT:\n- Verb (plain present or て⟦いる→いる：00495_iru⟧): ⟦{話|はな}している→話す：00467_hanasu⟧うちに\n- Negative verb: ⟦{降|ふ}らない→降る：00839_furu⟧うちに\n- I-adjective: {若|わか}いうちに\n- Na-adjective + な: ⟦{元気|げんき}→元気：00696_genki⟧なうちに\n- Noun + ⟦の→の：09472_no⟧: ⟦{休|やす}み→休み：02266_yasumi⟧⟦の→の：09472_no⟧うちに\n\nSIMILAR WORDS:\n- ⟦{間|あいだ}→間：00914_aida⟧⟦に→に：00314_ni⟧: while — neutral about whether the state changes; うちに implies acting before it does\n- 〜⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧: before — focuses on order of events; ⟦ない→ない：01118_nai⟧うちに focuses on the state still being in effect",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00914_aida",
+      "reading": "あいだ",
+      "headword": "{間|あいだ}",
+      "label": "while"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -88,7 +97,7 @@
         "expression"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "grammatical",
         "time-general"
@@ -96,6 +105,6 @@
       "domain": []
     },
     "created": "2026-05-30T04:08:44Z",
-    "modified": "2026-08-08T18:34:17Z"
+    "modified": "2026-09-02T04:02:33Z"
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30421_kanashisa_ex1",
-      "japanese": "{別|わか}れの{悲|かな}しさを{感|かん}じた。",
+      "japanese": "⟦{別|わか}れ→別れ：03788_wakare⟧⟦の→の：09472_no⟧{悲|かな}しさ⟦を→を：00422_wo⟧⟦{感|かん}じた→感じる：02044_kanjiru⟧。",
       "english": "I felt the sadness of parting.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30421_kanashisa_ex2",
-      "japanese": "その{歌|うた}には{言葉|ことば}にできない{悲|かな}しさがある。",
+      "japanese": "⟦その→その：00993_sono⟧⟦{歌|うた}→歌：02179_uta⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{言葉|ことば}→言葉：02880_kotoba⟧⟦に→に：00314_ni⟧⟦できない→できる：00557_dekiru⟧{悲|かな}しさ⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "That song has a sadness that words cannot capture.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30421_kanashisa_ex3",
-      "japanese": "{家族|かぞく}を{失|うしな}った{人|ひと}の{悲|かな}しさは、{周|まわ}りにはなかなか{分|わ}からない。",
+      "japanese": "⟦{家族|かぞく}→家族：00552_kazoku⟧⟦を→を：00422_wo⟧⟦{失|うしな}った→失う：01887_ushinau⟧⟦{人|ひと}→人：00476_hito⟧⟦の→の：09472_no⟧{悲|かな}しさ⟦は→は：00079_ha⟧、⟦{周|まわ}り→周り：01732_mawari⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦なかなか→なかなか：01547_nakanaka⟧⟦{分|わ}からない→分かる：00463_wakaru⟧。",
       "english": "Those around them can hardly understand the sorrow of someone who has lost their family.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Formed by replacing the final い of {悲|かな}しい with さ, the regular way to make a noun of degree from an i-adjective.\n\nCOMMON COLLOCATIONS:\n- {悲|かな}しさを{感|かん}じる: to feel sadness\n- {悲|かな}しさがこみ{上|あ}げる: sadness wells up\n- {悲|かな}しさに{耐|た}える: to bear the sorrow\n- {言|い}いようのない{悲|かな}しさ: indescribable sadness\n\nSIMILAR WORDS:\n- {悲|かな}しみ: sorrow, grief — the emotion itself, deeper and more lasting; the usual choice for grief over a death\n- {寂|さび}しさ: loneliness — the ache of being alone rather than of loss",
+  "notes": "Formed by replacing the final い of ⟦{悲|かな}しい→悲しい：00783_kanashii⟧ with さ, the regular way to make a noun of degree from an i-adjective.\n\nCOMMON COLLOCATIONS:\n- {悲|かな}しさ⟦を→を：00422_wo⟧⟦{感|かん}じる→感じる：02044_kanjiru⟧: to feel sadness\n- {悲|かな}しさ⟦が→が：00051_ga⟧こみ{上|あ}げる: sadness wells up\n- {悲|かな}しさ⟦に→に：00314_ni⟧⟦{耐|た}える→耐える：12087_taeru⟧: to bear the sorrow\n- ⟦{言|い}い→言う：00515_iu⟧よう⟦の→の：09472_no⟧⟦ない→ない：01118_nai⟧{悲|かな}しさ: indescribable sadness\n\nSIMILAR WORDS:\n- ⟦{悲|かな}しみ→悲しみ：05404_kanashimi⟧: sorrow, grief — the emotion itself, deeper and more lasting; the usual choice for grief over a death\n- {寂|さび}しさ: loneliness — the ache of being alone rather than of loss",
   "cross_references": [
     {
       "type": "related",
@@ -59,6 +59,20 @@
       "reading": "かなしみ",
       "headword": "{悲|かな}しみ",
       "label": "sorrow, grief (the emotion itself)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08262_sabishisa",
+      "reading": "さびしさ",
+      "headword": "{寂|さび}しさ",
+      "label": "loneliness"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06789_kuyashisa",
+      "reading": "くやしさ",
+      "headword": "{悔|くや}しさ",
+      "label": "frustration"
     }
   ],
   "schema_version": "2.0",
@@ -69,13 +83,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "emotion"
       ],
       "domain": []
     },
     "created": "2026-08-05T15:24:36Z",
-    "modified": "2026-08-05T15:24:36Z"
+    "modified": "2026-09-02T04:02:40Z"
   }
 }

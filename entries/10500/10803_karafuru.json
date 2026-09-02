@@ -3,7 +3,7 @@
   "id": "10803_karafuru",
   "headword": "カラフル",
   "reading": "からふる",
-  "part_of_speech": "adjective (na)",
+  "part_of_speech": "na-adjective",
   "gloss": "colorful",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "10803_karafuru_ex1",
-      "japanese": "カラフルな{花|はな}が{咲|さ}いている。",
+      "japanese": "カラフルな⟦{花|はな}→花：00523_hana⟧⟦が→が：00051_ga⟧⟦{咲|さ}いている→咲く：08150_saku⟧。",
       "english": "Colorful flowers are blooming.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "10803_karafuru_ex2",
-      "japanese": "{子|こ}どもたちがカラフルな{絵|え}を{描|か}いた。",
+      "japanese": "{子|こ}どもたち⟦が→が：00051_ga⟧カラフルな⟦{絵|え}→絵：02613_e⟧⟦を→を：00422_wo⟧⟦{描|か}いた→描く：28436_kaku⟧。",
       "english": "The children drew colorful pictures.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "10803_karafuru_ex3",
-      "japanese": "マーケットにはカラフルな{野菜|やさい}や{果物|くだもの}がずらりと{並|なら}んでいた。",
+      "japanese": "⟦マーケット→マーケット：00265_maaketto⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧カラフルな⟦{野菜|やさい}→野菜：02265_yasai⟧や⟦{果物|くだもの}→果物：00509_kudamono⟧⟦が→が：00051_ga⟧ずらり⟦と→と：00512_to⟧⟦{並|なら}んでいた→並ぶ：00605_narabu⟧。",
       "english": "Colorful vegetables and fruits were lined up in rows at the market.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,40 @@
       ]
     }
   ],
-  "notes": "カラフル is a na-adjective from English 'colorful,' meaning having many bright, vivid colors. It always carries a positive nuance.\n\nFORMS:\n- カラフルな〜: colorful (modifier)\n- カラフルに: colorfully (adverb)\n- カラフルだ: is colorful (predicate)\n\nCOMMON COLLOCATIONS:\n- カラフルな{色合|いろあ}い: colorful palette\n- カラフルな{衣装|いしょう}: colorful costume\n- カラフルなデザイン: colorful design\n- カラフルな{花|はな}: colorful flowers\n\nSIMILAR WORDS:\n- {色鮮|いろあざ}やか: vivid in color (more literary)\n- {派手|はで}: flashy, gaudy (can be negative)\n- カラーの: colored (as opposed to black-and-white)\n\nカラフル implies cheerful brightness. For gaudy or garish colors, use {派手|はで} instead.",
-  "cross_references": [],
+  "notes": "カラフル is a na-adjective from English 'colorful,' meaning having many bright, vivid colors. It always carries a positive nuance.\n\nFORMS:\n- カラフルな〜: colorful (modifier)\n- カラフル⟦に→に：00314_ni⟧: colorfully (adverb)\n- カラフルだ: is colorful (predicate)\n\nCOMMON COLLOCATIONS:\n- カラフルな⟦{色合|いろあ}い→色合い：13950_iroai⟧: colorful palette\n- カラフルな⟦{衣装|いしょう}→衣装：14102_ishou⟧: colorful costume\n- カラフルな⟦デザイン→デザイン：03860_dezain⟧: colorful design\n- カラフルな⟦{花|はな}→花：00523_hana⟧: colorful flowers\n\nSIMILAR WORDS:\n- ⟦{色鮮|いろあざ}やか→色鮮やか：15312_iroazayaka⟧: vivid in color (more literary)\n- ⟦{派手|はで}→派手：03563_hade⟧: flashy, gaudy (can be negative)\n- ⟦カラー→カラー：10820_karaa⟧⟦の→の：09472_no⟧: colored (as opposed to black-and-white)\n\nカラフル implies cheerful brightness. For gaudy or garish colors, use ⟦{派手|はで}→派手：03563_hade⟧ instead.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15312_iroazayaka",
+      "reading": "いろあざやか",
+      "headword": "{色鮮|いろあざ}やか",
+      "label": "vivid in color"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03563_hade",
+      "reading": "はで",
+      "headword": "{派手|はで}",
+      "label": "flashy, gaudy"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26459_tashoku",
+      "reading": "たしょく",
+      "headword": "{多色|たしょく}",
+      "label": "multiple colors"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27372_poppu",
+      "reading": "ぽっぷ",
+      "headword": "ポップ",
+      "label": "pop (music genre)"
+    }
+  ],
   "metadata": {
     "created": "2026-02-10T08:06:05Z",
-    "modified": "2026-06-28T03:46:26Z",
+    "modified": "2026-09-02T04:01:22Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

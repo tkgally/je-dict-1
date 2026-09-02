@@ -3,7 +3,7 @@
   "headword": "{無塩|むえん}",
   "reading": "むえん",
   "romaji": "muen",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "unsalted; salt-free",
   "definitions": [
     {
@@ -15,41 +15,76 @@
   "examples": [
     {
       "id": "28595_muen_ex1",
-      "japanese": "{無塩|むえん}バターを{使|つか}う。",
+      "japanese": "{無塩|むえん}⟦バター→バター：04671_bataa⟧⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧。",
       "english": "I use unsalted butter.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28595_muen_ex2",
-      "japanese": "{医者|いしゃ}に{無塩|むえん}の{食事|しょくじ}を{勧|すす}められた。",
+      "japanese": "⟦{医者|いしゃ}→医者：02847_isha⟧⟦に→に：00314_ni⟧{無塩|むえん}⟦の→の：09472_no⟧⟦{食事|しょくじ}→食事：02087_shokuji⟧⟦を→を：00422_wo⟧⟦{勧|すす}められた→勧める：02120_susumeru⟧。",
       "english": "The doctor recommended a salt-free diet.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28595_muen_ex3",
-      "japanese": "{減塩|げんえん}ではなく{無塩|むえん}の{商品|しょうひん}を{探|さが}しているが、なかなか{見|み}つからない。",
+      "japanese": "⟦{減塩|げんえん}→減塩：21843_genen⟧⟦ではなく→ではなく：09578_dehanaku⟧{無塩|むえん}⟦の→の：09472_no⟧⟦{商品|しょうひん}→商品：01436_shouhin⟧⟦を→を：00422_wo⟧⟦{探|さが}している→探す：00493_sagasu⟧⟦が→が：00051_ga⟧、⟦なかなか→なかなか：01547_nakanaka⟧⟦{見|み}つからない→見つかる：01173_mitsukaru⟧。",
       "english": "I'm looking for salt-free products, not just reduced-salt ones, but they're hard to find.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Compound of {無|む} (without) + {塩|えん} (salt; えん in compounds, しお on its own). Used as a noun modifier with の or directly attached as a prefix-style label.\n\nCOMMON COLLOCATIONS:\n- {無塩|むえん}バター: unsalted butter\n- {無塩|むえん}{食|しょく}: salt-free meal/diet\n- {無塩|むえん}ナッツ: unsalted nuts\n- {無塩|むえん}{調理|ちょうり}: salt-free cooking\n\nSIMILAR WORDS:\n- {減塩|げんえん}: reduced-salt — salt is present but in smaller amounts\n- {有塩|ゆうえん}: salted — the direct opposite\n- {低塩|ていえん}: low-salt — similar to {減塩|げんえん}",
+  "notes": "Compound of ⟦{無|む}→無：17750_mu⟧ (without) + {塩|えん} (salt; えん in compounds, しお on its own). Used as a noun modifier with ⟦の→の：09472_no⟧ or directly attached as a prefix-style label.\n\nCOMMON COLLOCATIONS:\n- {無塩|むえん}⟦バター→バター：04671_bataa⟧: unsalted butter\n- {無塩|むえん}{食|しょく}: salt-free meal/diet\n- {無塩|むえん}⟦ナッツ→ナッツ：11253_nattsu⟧: unsalted nuts\n- {無塩|むえん}⟦{調理|ちょうり}→調理：07156_chouri⟧: salt-free cooking\n\nSIMILAR WORDS:\n- ⟦{減塩|げんえん}→減塩：21843_genen⟧: reduced-salt — salt is present but in smaller amounts\n- ⟦{有塩|ゆうえん}→有塩：28598_yuuen⟧: salted — the direct opposite\n- {低塩|ていえん}: low-salt — similar to ⟦{減塩|げんえん}→減塩：21843_genen⟧",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21843_genen",
+      "reading": "げんえん",
+      "headword": "{減塩|げんえん}",
+      "label": "reduced-salt"
+    },
+    {
+      "type": "antonym",
+      "target_id": "28598_yuuen",
+      "reading": "ゆうえん",
+      "headword": "{有塩|ゆうえん}",
+      "label": "salted"
+    },
+    {
+      "type": "related",
+      "target_id": "19091_mutou",
+      "reading": "むとう",
+      "headword": "{無糖|むとう}",
+      "label": "sugar-free"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-no"],
+      "pos": [
+        "noun",
+        "adjective-no"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["food", "health"],
+      "politeness": "plain",
+      "semantic": [
+        "food",
+        "health"
+      ],
       "domain": []
     },
     "created": "2026-06-02T04:07:08Z",
-    "modified": "2026-06-02T04:07:08Z"
+    "modified": "2026-09-02T04:02:34Z"
   }
 }

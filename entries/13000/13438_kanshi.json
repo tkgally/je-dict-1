@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "13438_kanshi_ex1",
-      "japanese": "{漢詩|かんし}を{暗唱|あんしょう}する。",
+      "japanese": "{漢詩|かんし}⟦を→を：00422_wo⟧⟦{暗唱|あんしょう}する→暗唱する：26776_anshousuru⟧。",
       "english": "I recite Chinese poetry from memory.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "13438_kanshi_ex2",
-      "japanese": "{高校|こうこう}の{国語|こくご}で{漢詩|かんし}を{習|なら}った。",
+      "japanese": "⟦{高校|こうこう}→高校：01083_koukou⟧⟦の→の：09472_no⟧⟦{国語|こくご}→国語：02739_kokugo⟧⟦で→で：00502_de⟧{漢詩|かんし}⟦を→を：00422_wo⟧⟦{習|なら}った→習う：00479_narau⟧。",
       "english": "I studied Chinese poetry in high school Japanese class.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "13438_kanshi_ex3",
-      "japanese": "{李白|りはく}や{杜甫|とほ}の{漢詩|かんし}は{日本|にほん}でも{広|ひろ}く{親|した}しまれている。",
+      "japanese": "{李白|りはく}や{杜甫|とほ}⟦の→の：09472_no⟧{漢詩|かんし}⟦は→は：00079_ha⟧⟦{日本|にほん}→日本：03876_nihon⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧⟦{広|ひろ}く→広い：00704_hiroi⟧⟦{親|した}しまれている→親しむ：14139_shitashimu⟧。",
       "english": "The Chinese poetry of Li Bai and Du Fu is widely appreciated in Japan as well.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{漢詩|かんし} is part of the Japanese school curriculum and is studied in {国語|こくご} (Japanese language) class, not as a foreign language. Classical Chinese poems are read using {訓読|くんどく}み (Japanese reading of Chinese text), which rearranges the word order and adds Japanese grammatical particles.\n\nJapanese scholars and poets also composed their own {漢詩|かんし} throughout history, particularly during the Heian and Edo periods.\n\nDo not confuse with the homophone {監視|かんし} (surveillance), which uses different kanji.\n\nCOMMON COLLOCATIONS:\n- {漢詩|かんし}を{詠|よ}む: to compose Chinese poetry\n- {漢詩|かんし}を{読|よ}む: to read Chinese poetry\n- {唐|とう}の{漢詩|かんし}: Tang dynasty Chinese poetry",
+  "notes": "USAGE:\n{漢詩|かんし} is part of the Japanese school curriculum and is studied in ⟦{国語|こくご}→国語：02739_kokugo⟧ (Japanese language) class, not as a foreign language. Classical Chinese poems are read using {訓読|くんどく}み (Japanese reading of Chinese text), which rearranges the word order and adds Japanese grammatical particles.\n\nJapanese scholars and poets also composed their own {漢詩|かんし} throughout history, particularly during the Heian and Edo periods.\n\nDo not confuse with the homophone ⟦{監視|かんし}→監視：05521_kanshi⟧ (surveillance), which uses different kanji.\n\nCOMMON COLLOCATIONS:\n- {漢詩|かんし}⟦を→を：00422_wo⟧⟦{詠|よ}む→詠む：14186_yomu⟧: to compose Chinese poetry\n- {漢詩|かんし}⟦を→を：00422_wo⟧⟦{読|よ}む→読む：00426_yomu⟧: to read Chinese poetry\n- {唐|とう}⟦の→の：09472_no⟧{漢詩|かんし}: Tang dynasty Chinese poetry",
   "prominent_see_also": [
     {
       "target_id": "05521_kanshi",
@@ -53,10 +53,25 @@
       "note": "surveillance (homophone)"
     }
   ],
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23895_risshi",
+      "reading": "りっし",
+      "headword": "{律詩|りっし}",
+      "label": "regulated verse (a traditional Chinese poetic form)"
+    },
+    {
+      "type": "related",
+      "target_id": "24535_ginei",
+      "reading": "ぎんえい",
+      "headword": "{吟詠|ぎんえい}",
+      "label": "chanting of poetry"
+    }
+  ],
   "metadata": {
     "created": "2026-02-24T12:44:24Z",
-    "modified": "2026-08-26T13:02:00Z",
+    "modified": "2026-09-02T04:01:33Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "12400_taiwa_ex1",
-      "japanese": "{対話|たいわ}を{続|つづ}ける。",
+      "japanese": "{対話|たいわ}⟦を→を：00422_wo⟧⟦{続|つづ}ける→続く：00903_tsuzuku⟧。",
       "english": "To continue the dialogue.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12400_taiwa_ex2",
-      "japanese": "{両国|りょうこく}の{対話|たいわ}が{再開|さいかい}された。",
+      "japanese": "⟦{両国|りょうこく}→両国：10010_ryoukoku⟧⟦の→の：09472_no⟧{対話|たいわ}⟦が→が：00051_ga⟧⟦{再開|さいかい}→再開：05219_saikai⟧⟦された→する：00392_suru⟧。",
       "english": "Dialogue between the two countries was resumed.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12400_taiwa_ex3",
-      "japanese": "{問題|もんだい}を{解決|かいけつ}するためには{対話|たいわ}を{通|とお}じて{理解|りかい}を{深|ふか}めることが{大切|たいせつ}だ。",
+      "japanese": "⟦{問題|もんだい}→問題：00797_mondai⟧⟦を→を：00422_wo⟧⟦{解決|かいけつ}する→解決する：17191_kaiketsusuru⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{対話|たいわ}⟦を→を：00422_wo⟧{通|とお}じて⟦{理解|りかい}→理解：03674_rikai⟧⟦を→を：00422_wo⟧⟦{深|ふか}める→深める：02407_fukameru⟧こと⟦が→が：00051_ga⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧だ。",
       "english": "To solve problems, it is important to deepen understanding through dialogue.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "STRUCTURE:\n{対|たい} (facing, mutual) + {話|わ} (talk, speech).\n\nUSAGE:\n{対話|たいわ} implies a meaningful, often formal exchange between parties. It is commonly used in political, diplomatic, and interpersonal contexts to describe constructive discussion aimed at mutual understanding. Compare with {会話|かいわ}, which refers to everyday conversation.\n\nCOMMON COLLOCATIONS:\n- {対話|たいわ}を{重|かさ}ねる: to have repeated dialogues\n- {対話|たいわ}を{求|もと}める: to seek dialogue\n- {対話|たいわ}の{窓口|まどぐち}: channel for dialogue\n- {対話|たいわ}{形式|けいしき}: dialogue format",
+  "notes": "COMMON PATTERNS:\n⟦{対|たい}→対：03382_tai⟧ (facing, mutual) + {話|わ} (talk, speech).\n\nUSAGE:\n{対話|たいわ} implies a meaningful, often formal exchange between parties. It is commonly used in political, diplomatic, and interpersonal contexts to describe constructive discussion aimed at mutual understanding. Compare with ⟦{会話|かいわ}→会話：01271_kaiwa⟧, which refers to everyday conversation.\n\nCOMMON COLLOCATIONS:\n- {対話|たいわ}⟦を→を：00422_wo⟧⟦{重|かさ}ねる→重ねる：02039_kasaneru⟧: to have repeated dialogues\n- {対話|たいわ}⟦を→を：00422_wo⟧⟦{求|もと}める→求める：02316_motomeru⟧: to seek dialogue\n- {対話|たいわ}⟦の→の：09472_no⟧⟦{窓口|まどぐち}→窓口：03154_madoguchi⟧: channel for dialogue\n- {対話|たいわ}⟦{形式|けいしき}→形式：00211_keishiki⟧: dialogue format",
   "cross_references": [
     {
       "type": "synonym",
@@ -46,18 +52,29 @@
       "reading": "かいわ",
       "headword": "{会話|かいわ}",
       "label": "conversation (general)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18049_sotsuu",
+      "reading": "そつう",
+      "headword": "{疎通|そつう}",
+      "label": "communication"
     }
   ],
   "metadata": {
     "created": "2026-02-21T06:12:01Z",
-    "modified": "2026-04-26T10:06:49Z",
+    "modified": "2026-09-02T04:01:28Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["communication"]
+      "semantic": [
+        "communication"
+      ]
     }
   }
 }

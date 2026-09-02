@@ -10,9 +10,10 @@ depths (the three read-only check_* scripts, each a full corpus scan) are
 collected only when the last row that has them is older than 7 days, or with
 --full.
 
-Flag tallies (--applied/--rejected/--flagged) default to "today's
-reviews/decisions.jsonl lines not yet attributed to an earlier metrics row
-today", so a Routine run that logged its adjudications per §C can omit them.
+Flag tallies (--applied/--rejected/--flagged) default to "reviews/decisions.jsonl
+lines logged since the previous metrics row", so a Routine run that logged its
+adjudications per §C can omit them (and a run that straddles UTC midnight is
+still counted once).
 
 Usage:
     python3 pipeline/metrics_snapshot.py --mode polish --changed 16
@@ -74,27 +75,29 @@ def read_jsonl(path):
             continue
 
 
-def decisions_today(root):
-    """Tally today's APPLY/REJECT/FLAG decisions (aggregated lines count as n)."""
+def last_row_ts(history_rows):
+    """Timestamp string of the most recent metrics row, or '' if none."""
+    best = ""
+    for row in history_rows:
+        ts = str(row.get("ts", ""))
+        if ts > best:
+            best = ts
+    return best
+
+
+def decisions_since(root, since_ts):
+    """Tally APPLY/REJECT/FLAG decisions logged after the previous metrics row
+    (aggregated lines count as n). Replaces the old same-UTC-day tally, which
+    split a run that straddled midnight across two days."""
     tally = {"apply": 0, "reject": 0, "flag": 0}
     for d in read_jsonl(root / "reviews" / "decisions.jsonl"):
-        if str(d.get("ts", ""))[:10] != today_str():
+        ts = str(d.get("ts", ""))
+        if since_ts and ts <= since_ts:
             continue
-        dec = d.get("decision")
+        dec = str(d.get("decision", "")).lower()
         if dec in tally:
-            tally[dec] += int(d.get("n", 1))
+            tally[dec] += int(d.get("n", 1) or 1)
     return tally
-
-
-def metrics_today(history_rows):
-    """Sum the flag fields already recorded in today's metrics rows."""
-    sums = {"flags_applied": 0, "flags_rejected": 0, "flags_to_curator": 0}
-    for row in history_rows:
-        if str(row.get("ts", ""))[:10] != today_str():
-            continue
-        for k in sums:
-            sums[k] += int(row.get(k) or 0)
-    return sums
 
 
 def detectors_stale(history_rows):
@@ -150,11 +153,8 @@ def build_row(args, root):
 
     applied, rejected, flagged = args.applied, args.rejected, args.flagged
     if applied is None and rejected is None and flagged is None:
-        decided = decisions_today(root)
-        recorded = metrics_today(history)
-        applied = max(0, decided["apply"] - recorded["flags_applied"])
-        rejected = max(0, decided["reject"] - recorded["flags_rejected"])
-        flagged = max(0, decided["flag"] - recorded["flags_to_curator"])
+        decided = decisions_since(root, last_row_ts(history))
+        applied, rejected, flagged = decided["apply"], decided["reject"], decided["flag"]
 
     cand = read_json(root / "candidate_words.json", {}) or {}
     idx = read_json(root / "entries_index.json", {}) or {}

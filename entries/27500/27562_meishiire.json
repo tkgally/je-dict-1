@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "27562_meishiire_ex1",
-      "japanese": "{革|かわ}の{名刺入|めいしい}れを{買|か}った。",
+      "japanese": "⟦{革|かわ}→革：19310_kawa⟧⟦の→の：09472_no⟧{名刺入|めいしい}れ⟦を→を：00422_wo⟧⟦{買|か}った→買う：00489_kau⟧。",
       "english": "I bought a leather business card case.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "27562_meishiire_ex2",
-      "japanese": "{名刺入|めいしい}れから{名刺|めいし}を{取|と}り{出|だ}した。",
+      "japanese": "{名刺入|めいしい}れ⟦から→から：00504_kara⟧⟦{名刺|めいし}→名刺：01090_meishi⟧⟦を→を：00422_wo⟧⟦{取|と}り{出|だ}した→取り出す：04220_toridasu⟧。",
       "english": "I took a business card out of the case.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "27562_meishiire_ex3",
-      "japanese": "{社会人|しゃかいじん}になったお{祝|いわ}いに{父|ちち}から{名刺入|めいしい}れをもらった。",
+      "japanese": "⟦{社会人|しゃかいじん}→社会人：13730_shakaijin⟧になった⟦お{祝|いわ}い→お祝い：01339_oiwai⟧⟦に→に：00314_ni⟧⟦{父|ちち}→父：00566_chichi⟧⟦から→から：00504_kara⟧{名刺入|めいしい}れ⟦を→を：00422_wo⟧⟦もらった→もらう：00520_morau⟧。",
       "english": "My father gave me a business card case as a present for starting my career.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {名刺|めいし} (business card) + {入|い}れ (holder, container). In Japanese business culture, presenting and receiving a business card from a clean, well-kept case is part of basic etiquette.\n\nCOMMON COLLOCATIONS:\n- {革|かわ}の{名刺入|めいしい}れ: leather business card case\n- {名刺入|めいしい}れから{出|だ}す: to take out of the case\n- {名刺入|めいしい}れにしまう: to put away in the case\n- {名刺入|めいしい}れを{忘|わす}れる: to forget one's business card case\n\nCULTURAL CONTEXT:\nWhen receiving a business card from someone of higher rank, the proper etiquette is to place the received card on top of the {名刺入|めいしい}れ rather than putting it away immediately, as a sign of respect.\n\nSIMILAR WORDS:\n- {名刺|めいし}ケース: business card case (loanword equivalent)\n- {名刺|めいし}: business card\n- カードケース: card case (general, may include credit cards)",
+  "notes": "Compound of ⟦{名刺|めいし}→名刺：01090_meishi⟧ (business card) + ⟦{入|い}れ→入れる：01098_ireru⟧ (holder, container). In Japanese business culture, presenting and receiving a business card from a clean, well-kept case is part of basic etiquette.\n\nCOMMON COLLOCATIONS:\n- ⟦{革|かわ}→革：19310_kawa⟧⟦の→の：09472_no⟧{名刺入|めいしい}れ: leather business card case\n- {名刺入|めいしい}れ⟦から→から：00504_kara⟧⟦{出|だ}す→出す：01087_dasu⟧: to take out of the case\n- {名刺入|めいしい}れ⟦に→に：00314_ni⟧しまう: to put away in the case\n- {名刺入|めいしい}れ⟦を→を：00422_wo⟧⟦{忘|わす}れる→忘れる：00474_wasureru⟧: to forget one's business card case\n\nCULTURAL NOTE:\nWhen receiving a business card from someone of higher rank, the proper etiquette is to place the received card on top of the {名刺入|めいしい}れ rather than putting it away immediately, as a sign of respect.\n\nSIMILAR WORDS:\n- ⟦{名刺|めいし}→名刺：01090_meishi⟧⟦ケース→ケース：03841_keesu⟧: business card case (loanword equivalent)\n- ⟦{名刺|めいし}→名刺：01090_meishi⟧: business card\n- ⟦カードケース→カードケース：29311_kaadokeesu⟧: card case (general, may include credit cards)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "29311_kaadokeesu",
+      "reading": "かーどけーす",
+      "headword": "カードケース",
+      "label": "card case"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +62,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "business",
         "tool"
@@ -61,6 +70,6 @@
       "domain": []
     },
     "created": "2026-05-14T01:41:20Z",
-    "modified": "2026-08-07T16:10:18Z"
+    "modified": "2026-09-02T04:02:31Z"
   }
 }

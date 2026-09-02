@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25265_keikenchi_ex1",
-      "japanese": "{経験値|けいけんち}を{稼|かせ}ぐ。",
+      "japanese": "{経験値|けいけんち}⟦を→を：00422_wo⟧⟦{稼|かせ}ぐ→稼ぐ：02040_kasegu⟧。",
       "english": "To earn experience points.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25265_keikenchi_ex2",
-      "japanese": "{彼|かれ}はまだ{経験値|けいけんち}が{低|ひく}い。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦まだ→まだ：00603_mada⟧{経験値|けいけんち}⟦が→が：00051_ga⟧⟦{低|ひく}い→低い：02947_hikui⟧。",
       "english": "He still has a low level of experience.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25265_keikenchi_ex3",
-      "japanese": "{海外|かいがい}で{働|はたら}くことで{経験値|けいけんち}が{上|あ}がった。",
+      "japanese": "⟦{海外|かいがい}→海外：00134_kaigai⟧⟦で→で：00502_de⟧⟦{働|はたら}く→働く：00503_hataraku⟧こと⟦で→で：00502_de⟧{経験値|けいけんち}⟦が→が：00051_ga⟧⟦{上|あ}がった→上がる：00615_agaru⟧。",
       "english": "Working abroad raised my experience level.",
       "sense_numbers": [
         1
@@ -45,7 +45,7 @@
     },
     {
       "id": "25265_keikenchi_ex4",
-      "japanese": "{失敗|しっぱい}も{経験値|けいけんち}だと{思|おも}えば{気|き}が{楽|らく}になる。",
+      "japanese": "⟦{失敗|しっぱい}→失敗：01636_shippai⟧⟦も→も：00484_mo⟧{経験値|けいけんち}だ⟦と→と：00512_to⟧⟦{思|おも}えば→思う：00492_omou⟧⟦{気|き}が{楽|らく}→気が楽：19541_kigaraku⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧。",
       "english": "If you think of failures as experience points, it's easier to accept them.",
       "sense_numbers": [
         1
@@ -54,20 +54,30 @@
       "notes": null
     }
   ],
-  "notes": "Originally a gaming term (often abbreviated as EXP), {経験値|けいけんち} has crossed over into everyday Japanese to describe accumulated real-world experience. The gaming metaphor is alive in everyday speech — people talk about \"leveling up\" their experience.\n\nCOMMON COLLOCATIONS:\n- {経験値|けいけんち}を{稼|かせ}ぐ: to earn experience (points)\n- {経験値|けいけんち}が{上|あ}がる: experience level goes up\n- {経験値|けいけんち}が{高|たか}い/{低|ひく}い: to have high/low experience\n- {経験値|けいけんち}を{積|つ}む: to build up experience\n\nSIMILAR WORDS:\n- {経験|けいけん}: experience (the general word); {経験値|けいけんち} adds the nuance of quantifiable, accumulated skill\n- {実績|じっせき}: track record or achievements; focuses on concrete results rather than accumulated learning\n- {熟練度|じゅくれんど}: proficiency level; more formal and focused on skill mastery\n\nWORD FORMATION:\n{経験|けいけん} (experience) + {値|ち} (value, numerical value).",
+  "notes": "Originally a gaming term (often abbreviated as EXP), {経験値|けいけんち} has crossed over into everyday Japanese to describe accumulated real-world experience. The gaming metaphor is alive in everyday speech — people talk about \"leveling up\" their experience.\n\nCOMMON COLLOCATIONS:\n- {経験値|けいけんち}⟦を→を：00422_wo⟧⟦{稼|かせ}ぐ→稼ぐ：02040_kasegu⟧: to earn experience (points)\n- {経験値|けいけんち}⟦が→が：00051_ga⟧⟦{上|あ}がる→上がる：00615_agaru⟧: experience level goes up\n- {経験値|けいけんち}⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧/⟦{低|ひく}い→低い：02947_hikui⟧: to have high/low experience\n- {経験値|けいけんち}⟦を→を：00422_wo⟧⟦{積|つ}む→積む：02294_tsumu⟧: to build up experience\n\nSIMILAR WORDS:\n- ⟦{経験|けいけん}→経験：01179_keiken⟧: experience (the general word); {経験値|けいけんち} adds the nuance of quantifiable, accumulated skill\n- ⟦{実績|じっせき}→実績：04214_jisseki⟧: track record or achievements; focuses on concrete results rather than accumulated learning\n- {熟練度|じゅくれんど}: proficiency level; more formal and focused on skill mastery\n\nFORMS:\n⟦{経験|けいけん}→経験：01179_keiken⟧ (experience) + {値|ち} (value, numerical value).",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04214_jisseki",
+      "reading": "じっせき",
+      "headword": "{実績|じっせき}",
+      "label": "track record or achievements"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "entertainment",
         "work"
       ]
     },
     "created": "2026-04-24T12:18:04Z",
-    "modified": "2026-08-04T12:59:53Z"
+    "modified": "2026-09-02T04:02:21Z"
   }
 }

@@ -3,7 +3,7 @@
   "id": "12503_tousho",
   "headword": "{当初|とうしょ}",
   "reading": "とうしょ",
-  "part_of_speech": "noun / adverb",
+  "part_of_speech": "noun, adverb",
   "gloss": "initially, at first, originally",
   "definitions": [
     {
@@ -15,42 +15,63 @@
   "examples": [
     {
       "id": "12503_tousho_ex1",
-      "japanese": "{当初|とうしょ}の{予定|よてい}から{変更|へんこう}があった。",
+      "japanese": "{当初|とうしょ}⟦の→の：09472_no⟧⟦{予定|よてい}→予定：00824_yotei⟧⟦から→から：00504_kara⟧⟦{変更|へんこう}→変更：03616_henkou⟧⟦が→が：00051_ga⟧⟦あった→ある：00006_aru⟧。",
       "english": "There was a change from the original plan.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12503_tousho_ex2",
-      "japanese": "{当初|とうしょ}は{反対|はんたい}だったが、{今|いま}は{賛成|さんせい}している。",
+      "japanese": "{当初|とうしょ}⟦は→は：00079_ha⟧⟦{反対|はんたい}→反対：01497_hantai⟧だった⟦が→が：00051_ga⟧、⟦{今|いま}→今：00945_ima⟧⟦は→は：00079_ha⟧⟦{賛成|さんせい}している→賛成する：05647_sanseisuru⟧。",
       "english": "I was against it at first, but now I agree.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12503_tousho_ex3",
-      "japanese": "{工事|こうじ}は{当初|とうしょ}の{見積|みつ}もりよりも{大幅|おおはば}に{費用|ひよう}がかかった。",
+      "japanese": "⟦{工事|こうじ}→工事：00244_kouji⟧⟦は→は：00079_ha⟧{当初|とうしょ}⟦の→の：09472_no⟧⟦{見積|みつ}もり→見積もり：05153_mitsumori⟧⟦より→より：09476_yori⟧⟦も→も：00484_mo⟧⟦{大幅|おおはば}→大幅：12170_oohaba⟧⟦に→に：00314_ni⟧⟦{費用|ひよう}→費用：03588_hiyou⟧⟦が→が：00051_ga⟧⟦かかった→かかる：00711_kakaru⟧。",
       "english": "The construction cost significantly more than the initial estimate.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nCan function as a noun modifying other nouns ({当初|とうしょ}の{計画|けいかく} = initial plan) or as an adverb ({当初|とうしょ}は = at first). Slightly formal in register. Almost always implies that what was originally the case has since changed.\n\nCOMMON PATTERNS:\n- {当初|とうしょ}の{予定|よてい}: the original schedule\n- {当初|とうしょ}の{目的|もくてき}: the original purpose\n- {当初|とうしょ}は〜だったが: at first it was... but\n- {当初|とうしょ}{予算|よさん}: initial budget",
-  "cross_references": [],
+  "notes": "USAGE:\nCan function as a noun modifying other nouns ({当初|とうしょ}⟦の→の：09472_no⟧⟦{計画|けいかく}→計画：01172_keikaku⟧ = initial plan) or as an adverb ({当初|とうしょ}⟦は→は：00079_ha⟧ = at first). Slightly formal in register. Almost always implies that what was originally the case has since changed.\n\nCOMMON PATTERNS:\n- {当初|とうしょ}⟦の→の：09472_no⟧⟦{予定|よてい}→予定：00824_yotei⟧: the original schedule\n- {当初|とうしょ}⟦の→の：09472_no⟧⟦{目的|もくてき}→目的：02433_mokuteki⟧: the original purpose\n- {当初|とうしょ}⟦は→は：00079_ha⟧〜だった⟦が→が：00051_ga⟧: at first it was... but\n- {当初|とうしょ}⟦{予算|よさん}→予算：03663_yosan⟧: initial budget",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11883_shotou",
+      "reading": "しょとう",
+      "headword": "{初頭|しょとう}",
+      "label": "beginning of a period"
+    }
+  ],
   "metadata": {
     "created": "2026-02-21T11:05:36Z",
-    "modified": "2026-02-21T11:05:36Z",
+    "modified": "2026-09-02T04:01:29Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adverb"],
+      "pos": [
+        "noun",
+        "adverb"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["time-general"],
-      "style": ["written"]
+      "semantic": [
+        "time-general"
+      ],
+      "style": [
+        "written"
+      ]
     }
   }
 }

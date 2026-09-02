@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21513_honnen_ex1",
-      "japanese": "{本年|ほんねん}もよろしくお{願|ねが}いいたします。",
+      "japanese": "{本年|ほんねん}⟦も→も：00484_mo⟧⟦よろしく→よろしく：01070_yoroshiku⟧⟦お{願|ねが}いいたします→お願いいたします：27603_onegaiitashimasu⟧。",
       "english": "I look forward to your continued support this year.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21513_honnen_ex2",
-      "japanese": "{本年度|ほんねんど}の{予算|よさん}が{承認|しょうにん}された。",
+      "japanese": "{本年度|ほんねんど}⟦の→の：09472_no⟧⟦{予算|よさん}→予算：03663_yosan⟧⟦が→が：00051_ga⟧⟦{承認|しょうにん}→承認：03237_shounin⟧⟦された→する：00392_suru⟧。",
       "english": "This fiscal year's budget was approved.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21513_honnen_ex3",
-      "japanese": "{本年|ほんねん}は{創業|そうぎょう}50{周年|しゅうねん}を{迎|むか}える{記念|きねん}すべき{年|とし}でございます。",
+      "japanese": "{本年|ほんねん}⟦は→は：00079_ha⟧⟦{創業|そうぎょう}→創業：11792_sougyou⟧50⟦{周年|しゅうねん}→周年：09520_shuunen⟧⟦を→を：00422_wo⟧⟦{迎|むか}える→迎える：01193_mukaeru⟧⟦{記念|きねん}→記念：00232_kinen⟧すべき⟦{年|とし}→年：00486_toshi⟧⟦でございます→でございます：19539_degozaimasu⟧。",
       "english": "This year is a memorable year as we celebrate our 50th anniversary.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "A formal equivalent of {今年|ことし} (this year). Used exclusively in formal writing and speech, such as business letters, official reports, New Year's greetings, and public announcements.\n\nCOMMON COLLOCATIONS:\n- {本年|ほんねん}もよろしくお{願|ねが}いいたします: standard New Year greeting in business\n- {本年度|ほんねんど}: this fiscal/academic year\n- {本年中|ほんねんちゅう}: during this year\n- {本年|ほんねん}は: as for this year (opening phrase in speeches)\n\nSIMILAR WORDS:\n- {今年|ことし}: this year — the standard, everyday word; used in all registers\n- {昨年|さくねん}: last year — the formal equivalent of {去年|きょねん}\n- {来年|らいねん}: next year — used in both formal and casual registers\n\nREGISTER:\nHighly formal. Using {本年|ほんねん} in casual conversation would sound stiff and unnatural. In everyday speech, always use {今年|ことし} instead.",
+  "notes": "A formal equivalent of ⟦{今年|ことし}→今年：00722_kotoshi⟧ (this year). Used exclusively in formal writing and speech, such as business letters, official reports, New Year's greetings, and public announcements.\n\nCOMMON COLLOCATIONS:\n- {本年|ほんねん}⟦も→も：00484_mo⟧⟦よろしく→よろしく：01070_yoroshiku⟧⟦お{願|ねが}いいたします→お願いいたします：27603_onegaiitashimasu⟧: standard New Year greeting in business\n- {本年度|ほんねんど}: this fiscal/academic year\n- {本年中|ほんねんちゅう}: during this year\n- {本年|ほんねん}⟦は→は：00079_ha⟧: as for this year (opening phrase in speeches)\n\nSIMILAR WORDS:\n- ⟦{今年|ことし}→今年：00722_kotoshi⟧: this year — the standard, everyday word; used in all registers\n- ⟦{昨年|さくねん}→昨年：10433_sakunen⟧: last year — the formal equivalent of ⟦{去年|きょねん}→去年：00727_kyonen⟧\n- ⟦{来年|らいねん}→来年：00745_rainen⟧: next year — used in both formal and casual registers\n\nREGISTER:\nHighly formal. Using {本年|ほんねん} in casual conversation would sound stiff and unnatural. In everyday speech, always use ⟦{今年|ことし}→今年：00722_kotoshi⟧ instead.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00722_kotoshi",
+      "reading": "ことし",
+      "headword": "{今年|ことし}",
+      "label": "this year"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10433_sakunen",
+      "reading": "さくねん",
+      "headword": "{昨年|さくねん}",
+      "label": "last year"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00745_rainen",
+      "reading": "らいねん",
+      "headword": "{来年|らいねん}",
+      "label": "next year"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +82,6 @@
       ]
     },
     "created": "2026-04-02T14:12:45Z",
-    "modified": "2026-07-29T12:35:11Z"
+    "modified": "2026-09-02T04:02:03Z"
   }
 }

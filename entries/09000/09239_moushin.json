@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "09239_moushin_ex1",
-      "japanese": "{噂|うわさ}を{盲信|もうしん}してはいけない。",
+      "japanese": "⟦{噂|うわさ}→噂：01871_uwasa⟧⟦を→を：00422_wo⟧{盲信|もうしん}⟦して→する：00392_suru⟧⟦は→は：00079_ha⟧いけない。",
       "english": "You shouldn't blindly believe rumors.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "09239_moushin_ex2",
-      "japanese": "{専門家|せんもんか}の{意見|いけん}を{盲信|もうしん}する。",
+      "japanese": "⟦{専門家|せんもんか}→専門家：03088_senmonka⟧⟦の→の：09472_no⟧⟦{意見|いけん}→意見：01303_iken⟧⟦を→を：00422_wo⟧{盲信|もうしん}⟦する→する：00392_suru⟧。",
       "english": "To blindly believe experts' opinions.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "09239_moushin_ex3",
-      "japanese": "メディアの{報道|ほうどう}を{盲信|もうしん}せず、{自分|じぶん}で{考|かんが}えることが{大切|たいせつ}だ。",
+      "japanese": "⟦メディア→メディア：11165_media⟧⟦の→の：09472_no⟧⟦{報道|ほうどう}→報道：04438_houdou⟧⟦を→を：00422_wo⟧{盲信|もうしん}せず、⟦{自分|じぶん}→自分：02887_jibun⟧⟦で→で：00502_de⟧⟦{考|かんが}える→考える：00856_kangaeru⟧こと⟦が→が：00051_ga⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧だ。",
       "english": "It's important not to blindly believe media reports and to think for yourself.",
       "notes": null,
       "has_audio": false,
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "{盲信|もうしん} has a negative connotation, suggesting uncritical or naive acceptance of something.\n\nETYMOLOGY:\n- {盲|もう} (blind) + {信|しん} (belief)\n\nRELATED WORDS:\n- {妄信|もうしん}: same meaning, different kanji ({妄|もう} = delusion)\n- {信仰|しんこう}: faith, belief (neutral)\n- {心酔|しんすい}: infatuation, devotion (less negative)\n- {鵜呑|うの}みにする: to swallow whole, believe uncritically\n\nCOMMON COLLOCATIONS:\n- {盲信|もうしん}してはいけない: one shouldn't blindly believe\n- {盲信|もうしん}{者|しゃ}: a blind believer",
+  "notes": "{盲信|もうしん} has a negative connotation, suggesting uncritical or naive acceptance of something.\n\nETYMOLOGY:\n- {盲|もう} (blind) + {信|しん} (belief)\n\nRELATED WORDS:\n- {妄信|もうしん}: same meaning, different kanji ({妄|もう} = delusion)\n- ⟦{信仰|しんこう}→信仰：03685_shinkou⟧: faith, belief (neutral)\n- ⟦{心酔|しんすい}→心酔：09238_shinsui⟧: infatuation, devotion (less negative)\n- ⟦{鵜呑|うの}み→鵜呑み：27228_unomi⟧⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧: to swallow whole, believe uncritically\n\nCOMMON COLLOCATIONS:\n- {盲信|もうしん}⟦して→する：00392_suru⟧⟦は→は：00079_ha⟧いけない: one shouldn't blindly believe\n- {盲信|もうしん}⟦{者|しゃ}→〜者：04662_sha⟧: a blind believer",
   "cross_references": [
     {
       "type": "related",
@@ -155,11 +155,18 @@
       "reading": "もうもく",
       "headword": "{盲目|もうもく}",
       "label": "blindness"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25511_moushinsuru",
+      "reading": "もうしんする",
+      "headword": "{妄信|もうしん}する",
+      "label": "to believe blindly"
     }
   ],
   "metadata": {
     "created": "2026-02-01T04:57:35Z",
-    "modified": "2026-08-12T21:25:53Z",
+    "modified": "2026-09-02T04:01:17Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -173,7 +180,8 @@
         "cognition",
         "religion"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

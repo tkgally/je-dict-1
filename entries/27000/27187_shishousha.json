@@ -15,40 +15,87 @@
   "examples": [
     {
       "id": "27187_shishousha_ex1",
-      "japanese": "{事故|じこ}で{多|おお}くの{死傷者|ししょうしゃ}が{出|で}た。",
+      "japanese": "⟦{事故|じこ}→事故：00851_jiko⟧⟦で→で：00502_de⟧{多|おお}く⟦の→の：09472_no⟧{死傷者|ししょうしゃ}⟦が→が：00051_ga⟧⟦{出|で}た→出る：00513_deru⟧。",
       "english": "The accident caused many casualties.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27187_shishousha_ex2",
-      "japanese": "{死傷者|ししょうしゃ}の{数|かず}はまだ{確認|かくにん}されていない。",
+      "japanese": "{死傷者|ししょうしゃ}⟦の→の：09472_no⟧⟦{数|かず}→数：00204_kazu⟧⟦は→は：00079_ha⟧⟦まだ→まだ：00603_mada⟧⟦{確認|かくにん}→確認：00158_kakunin⟧⟦されていない→する：00392_suru⟧。",
       "english": "The number of casualties has not yet been confirmed.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27187_shishousha_ex3",
-      "japanese": "{地震|じしん}による{死傷者|ししょうしゃ}は{百人以上|ひゃくにんいじょう}にのぼると{報|ほう}じられた。",
+      "japanese": "⟦{地震|じしん}→地震：01608_jishin⟧⟦による→による：28349_niyoru⟧{死傷者|ししょうしゃ}⟦は→は：00079_ha⟧{百人以上|ひゃくにんいじょう}⟦に→に：00314_ni⟧のぼる⟦と→と：00512_to⟧⟦{報|ほう}じられた→報じる：17193_houjiru⟧。",
       "english": "It was reported that the casualties from the earthquake exceeded one hundred people.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {死|し} (death) + {傷|しょう} (injury) + {者|しゃ} (person). Very common in news reporting about disasters, accidents, and conflicts. The term covers both the dead and the injured collectively.\n\nCOMMON COLLOCATIONS:\n- {死傷者|ししょうしゃ}が{出|で}る: casualties occur\n- {死傷者|ししょうしゃ}の{数|かず}: number of casualties\n- {死傷者|ししょうしゃ}が{増|ふ}える: casualties increase\n- {多数|たすう}の{死傷者|ししょうしゃ}: numerous casualties\n- {死傷者|ししょうしゃ}ゼロ: zero casualties\n\nSIMILAR WORDS:\n- {犠牲者|ぎせいしゃ}: victim (broader; can include non-physical harm; carries a tone of sacrifice or injustice)\n- {被害者|ひがいしゃ}: victim, affected person (used in legal and crime contexts, not limited to physical injury)\n- {負傷者|ふしょうしゃ}: the injured (only those who were wounded, not killed)\n- {死者|ししゃ}: the dead (only those who died)",
+  "notes": "A compound of ⟦{死|し}→死：13248_shi⟧ (death) + {傷|しょう} (injury) + ⟦{者|しゃ}→〜者：04662_sha⟧ (person). Very common in news reporting about disasters, accidents, and conflicts. The term covers both the dead and the injured collectively.\n\nCOMMON COLLOCATIONS:\n- {死傷者|ししょうしゃ}⟦が→が：00051_ga⟧⟦{出|で}る→出る：00513_deru⟧: casualties occur\n- {死傷者|ししょうしゃ}⟦の→の：09472_no⟧⟦{数|かず}→数：00204_kazu⟧: number of casualties\n- {死傷者|ししょうしゃ}⟦が→が：00051_ga⟧⟦{増|ふ}える→増える：01183_fueru⟧: casualties increase\n- ⟦{多数|たすう}→多数：05612_tasuu⟧⟦の→の：09472_no⟧{死傷者|ししょうしゃ}: numerous casualties\n- {死傷者|ししょうしゃ}⟦ゼロ→ゼロ：01011_zero⟧: zero casualties\n\nSIMILAR WORDS:\n- ⟦{犠牲者|ぎせいしゃ}→犠牲者：18769_giseisha⟧: victim (broader; can include non-physical harm; carries a tone of sacrifice or injustice)\n- ⟦{被害者|ひがいしゃ}→被害者：14106_higaisha⟧: victim, affected person (used in legal and crime contexts, not limited to physical injury)\n- ⟦{負傷者|ふしょうしゃ}→負傷者：27169_fushousha⟧: the injured (only those who were wounded, not killed)\n- ⟦{死者|ししゃ}→死者：13225_shisha⟧: the dead (only those who died)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18769_giseisha",
+      "reading": "ぎせいしゃ",
+      "headword": "{犠牲者|ぎせいしゃ}",
+      "label": "victim (broader"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14106_higaisha",
+      "reading": "ひがいしゃ",
+      "headword": "{被害者|ひがいしゃ}",
+      "label": "victim, affected person"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27169_fushousha",
+      "reading": "ふしょうしゃ",
+      "headword": "{負傷者|ふしょうしゃ}",
+      "label": "the injured"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13225_shisha",
+      "reading": "ししゃ",
+      "headword": "{死者|ししゃ}",
+      "label": "the dead"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23513_keganin",
+      "reading": "けがにん",
+      "headword": "{怪我人|けがにん}",
+      "label": "injured person"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["person"]
+      "semantic": [
+        "person"
+      ]
     },
     "created": "2026-05-07T15:19:19Z",
-    "modified": "2026-05-07T15:19:19Z"
+    "modified": "2026-09-02T04:02:29Z"
   }
 }

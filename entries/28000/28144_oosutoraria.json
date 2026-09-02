@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28144_oosutoraria_ex1",
-      "japanese": "オーストラリアに{行|い}ってみたい。",
+      "japanese": "オーストラリア⟦に→に：00314_ni⟧⟦{行|い}って→行く：00119_iku⟧みたい。",
       "english": "I'd like to visit Australia.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28144_oosutoraria_ex2",
-      "japanese": "オーストラリアは{南半球|みなみはんきゅう}にある。",
+      "japanese": "オーストラリア⟦は→は：00079_ha⟧⟦{南半球|みなみはんきゅう}→南半球：19054_minamihankyuu⟧⟦に→に：00314_ni⟧⟦ある→ある：00006_aru⟧。",
       "english": "Australia is in the Southern Hemisphere.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28144_oosutoraria_ex3",
-      "japanese": "{娘|むすめ}はオーストラリアに{留学|りゅうがく}している。",
+      "japanese": "⟦{娘|むすめ}→娘：02263_musume⟧⟦は→は：00079_ha⟧オーストラリア⟦に→に：00314_ni⟧⟦{留学|りゅうがく}→留学：03677_ryuugaku⟧⟦している→する：00392_suru⟧。",
       "english": "My daughter is studying abroad in Australia.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "The country and continent of Australia, in the Southern Hemisphere. A common destination for Japanese tourists, working-holiday participants, and exchange students.\n\nNOTE:\nBecause Australia lies south of the equator, its seasons are the reverse of Japan's—{冬|ふゆ} in Japan is summer there.\n\nRELATED WORDS:\n- {大陸|たいりく}: continent\n- {南半球|みなみはんきゅう}: the Southern Hemisphere",
+  "notes": "The country and continent of Australia, in the Southern Hemisphere. A common destination for Japanese tourists, working-holiday participants, and exchange students.\n\nUSAGE:\nBecause Australia lies south of the equator, its seasons are the reverse of Japan's—⟦{冬|ふゆ}→冬：00623_fuyu⟧ in Japan is summer there.\n\nRELATED WORDS:\n- ⟦{大陸|たいりく}→大陸：03400_tairiku⟧: continent\n- ⟦{南半球|みなみはんきゅう}→南半球：19054_minamihankyuu⟧: the Southern Hemisphere",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "03400_tairiku",
+      "reading": "たいりく",
+      "headword": "{大陸|たいりく}",
+      "label": "continent"
+    },
+    {
+      "type": "related",
+      "target_id": "19054_minamihankyuu",
+      "reading": "みなみはんきゅう",
+      "headword": "{南半球|みなみはんきゅう}",
+      "label": "the Southern Hemisphere"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +69,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "geography",
         "proper-noun",
@@ -62,6 +78,6 @@
       "domain": []
     },
     "created": "2026-05-26T03:08:00Z",
-    "modified": "2026-08-11T04:24:46Z"
+    "modified": "2026-09-02T04:02:32Z"
   }
 }

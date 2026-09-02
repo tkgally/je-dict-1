@@ -3,7 +3,7 @@
   "headword": "{考|かんが}え{付|つ}く",
   "reading": "かんがえつく",
   "romaji": "kangaetsuku",
-  "part_of_speech": "verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to think up; to hit upon; to come up with",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "27772_kangaetsuku_ex1",
-      "japanese": "いい{方法|ほうほう}を{考|かんが}え{付|つ}いた。",
+      "japanese": "⟦いい→いい：00118_ii⟧⟦{方法|ほうほう}→方法：03621_houhou⟧⟦を→を：00422_wo⟧{考|かんが}え{付|つ}いた。",
       "english": "I thought of a good method.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "27772_kangaetsuku_ex2",
-      "japanese": "{誰|だれ}もそんな{計画|けいかく}は{考|かんが}え{付|つ}かなかった。",
+      "japanese": "⟦{誰|だれ}も→誰も：18610_daremo⟧⟦そんな→そんな：01645_sonna⟧⟦{計画|けいかく}→計画：01172_keikaku⟧⟦は→は：00079_ha⟧{考|かんが}え{付|つ}かなかった。",
       "english": "No one came up with such a plan.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "27772_kangaetsuku_ex3",
-      "japanese": "{問題|もんだい}の{解決策|かいけつさく}をなかなか{考|かんが}え{付|つ}くことができなかった。",
+      "japanese": "⟦{問題|もんだい}→問題：00797_mondai⟧⟦の→の：09472_no⟧⟦{解決策|かいけつさく}→解決策：19395_kaiketsusaku⟧⟦を→を：00422_wo⟧⟦なかなか→なかなか：01547_nakanaka⟧{考|かんが}え{付|つ}くこと⟦が→が：00051_ga⟧⟦できなかった→できる：00557_dekiru⟧。",
       "english": "I couldn't manage to come up with a solution to the problem.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "TRANSITIVITY: Transitive godan verb. Xを{考|かんが}え{付|つ}く. Compound of {考|かんが}える (to think) + {付|つ}く (to occur to). Emphasizes reaching an idea through active thought.\n\nCOMMON COLLOCATIONS:\n- {方法|ほうほう}を{考|かんが}え{付|つ}く: to think up a method\n- いい{案|あん}を{考|かんが}え{付|つ}く: to come up with a good idea\n\nSIMILAR WORDS:\n- {思|おも}い{付|つ}く: to hit upon — the idea simply occurs to one, with less emphasis on deliberate thinking\n- {考|かんが}え{出|だ}す: to think out — similar, with a slightly stronger sense of producing the idea",
+  "notes": "TRANSITIVITY: Transitive godan verb. X⟦を→を：00422_wo⟧{考|かんが}え{付|つ}く. Compound of ⟦{考|かんが}える→考える：00856_kangaeru⟧ (to think) + ⟦{付|つ}く→付く：01960_tsuku⟧ (to occur to). Emphasizes reaching an idea through active thought.\n\nCOMMON COLLOCATIONS:\n- ⟦{方法|ほうほう}→方法：03621_houhou⟧⟦を→を：00422_wo⟧{考|かんが}え{付|つ}く: to think up a method\n- ⟦いい→いい：00118_ii⟧⟦{案|あん}→案：01776_an⟧⟦を→を：00422_wo⟧{考|かんが}え{付|つ}く: to come up with a good idea\n\nSIMILAR WORDS:\n- ⟦{思|おも}い{付|つ}く→思い付く：02027_omoitsuku⟧: to hit upon — the idea simply occurs to one, with less emphasis on deliberate thinking\n- ⟦{考|かんが}え{出|だ}す→考え出す：21026_kangaedasu⟧: to think out — similar, with a slightly stronger sense of producing the idea",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02027_omoitsuku",
+      "reading": "おもいつく",
+      "headword": "{思|おも}い{付|つ}く",
+      "label": "to hit upon"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21026_kangaedasu",
+      "reading": "かんがえだす",
+      "headword": "{考|かんが}え{出|だ}す",
+      "label": "to think out"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,7 +78,7 @@
       "verb_class": "godan-ku"
     },
     "created": "2026-05-18T04:14:41Z",
-    "modified": "2026-05-18T04:14:41Z"
+    "modified": "2026-09-02T04:02:31Z"
   },
   "conjugation": {
     "type": "godan",

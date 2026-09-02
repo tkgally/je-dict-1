@@ -9,8 +9,8 @@
     --color-accent: #2563eb;
     --color-accent-hover: #1d4ed8;
     --color-accent-light: #dbeafe;
-    --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-    --font-jp: "Hiragino Kaku Gothic ProN", "Yu Gothic", "Meiryo", sans-serif;
+    --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans JP", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", Meiryo, sans-serif;
+    --font-jp: "Noto Sans JP", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", Meiryo, sans-serif;
     --max-width: 900px;
     --spacing-sm: 0.5rem;
     --spacing-md: 1rem;
@@ -214,47 +214,49 @@ body {
     display: none;
 }
 
-/* Word Links - invisible by default */
+/* Word Links - shown by default with a subtle dotted underline; the Links toggle hides them */
 .word-link {
-    text-decoration: none;
     color: inherit;
-    pointer-events: none;
-    cursor: text;
-}
-
-/* When word links toggle is ON */
-body.show-word-links .word-link {
     text-decoration: underline dotted;
     text-decoration-color: rgba(0, 102, 204, 0.4);
     text-decoration-thickness: 1px;
     text-underline-offset: 3px;
     cursor: pointer;
-    pointer-events: auto;
 }
 
-body.show-word-links .word-link:hover {
+.word-link:hover,
+.word-link:focus {
     text-decoration-color: rgba(0, 102, 204, 0.8);
 }
 
-/* Tooltip showing baseform on hover */
-body.show-word-links .word-link {
-    position: relative;
+/* When the Links toggle is OFF */
+body.word-links-hidden .word-link {
+    text-decoration: none;
+    pointer-events: none;
+    cursor: text;
 }
 
-body.show-word-links .word-link:hover::after {
-    content: attr(data-baseform);
-    position: absolute;
-    bottom: 100%;
-    left: 50%;
-    transform: translateX(-50%);
-    padding: 0.25rem 0.5rem;
-    background: #333;
-    color: #fff;
-    font-size: 0.75rem;
-    border-radius: 4px;
-    white-space: nowrap;
-    z-index: 100;
-    pointer-events: none;
+/* Base-form tooltip on hover — pointer devices only (on touch the link itself navigates) */
+@media (hover: hover) {
+    .word-link {
+        position: relative;
+    }
+
+    body:not(.word-links-hidden) .word-link:hover::after {
+        content: attr(data-baseform);
+        position: absolute;
+        bottom: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+        padding: 0.25rem 0.5rem;
+        background: #333;
+        color: #fff;
+        font-size: 0.75rem;
+        border-radius: 4px;
+        white-space: nowrap;
+        z-index: 100;
+        pointer-events: none;
+    }
 }
 
 /* Main Content */
@@ -677,6 +679,7 @@ main {
 .conjugation-table .conj-form {
     font-family: var(--font-jp);
     font-size: 1rem;
+    white-space: nowrap;
 }
 
 .conjugation-table .conj-group-end td {
@@ -1170,22 +1173,20 @@ ruby rt {
     font-size: 0.45em;
 }
 
-/* Kanji Index Links in Headwords */
+/* Kanji Index Links in Headwords: plain until hovered/focused, then a dotted underline */
 .kanji-link {
     color: inherit;
     text-decoration: none;
     cursor: pointer;
 }
 
-.kanji-link:hover {
-    /* Subtle indication without changing appearance */
-    text-decoration: none;
-}
-
-/* Optional: very subtle hover effect */
-.entry-headword .kanji-link:hover {
-    background: rgba(0, 0, 0, 0.05);
-    border-radius: 2px;
+.kanji-link:hover,
+.kanji-link:focus {
+    text-decoration: underline dotted;
+    text-decoration-color: var(--color-accent);
+    text-decoration-thickness: 2px;
+    text-underline-offset: 6px;
+    color: var(--color-accent);
 }
 
 /* Kanji Index Page Styles */
@@ -1799,4 +1800,396 @@ footer a:hover {
     .article-table td {
         padding: 0.3rem 0.4rem;
     }
+}
+
+/* ── Learner-facing additions (2026-09) ─────────────────────────────── */
+
+/* Japanese runs use the Japanese font stack (elements carry lang="ja") */
+:lang(ja) {
+    font-family: var(--font-jp);
+}
+
+/* Notes section headings ("USAGE:", "COMMON COLLOCATIONS:") */
+.notes-heading {
+    font-size: 0.78rem;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--color-accent);
+    margin: var(--spacing-md) 0 0.35rem;
+}
+
+.notes-heading:first-child {
+    margin-top: 0;
+}
+
+.notes-label {
+    color: var(--color-accent);
+}
+
+/* Tag badges under the headword */
+.entry-badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+    margin-top: var(--spacing-sm);
+}
+
+.entry-badges .badge {
+    font-size: 0.75rem;
+    text-decoration: none;
+    color: var(--color-text-secondary);
+    border: 1px solid var(--color-border);
+}
+
+.badge-transitivity {
+    background-color: #ede9fe;
+    color: #5b21b6;
+    border-color: #ddd6fe;
+}
+
+.badge-formality,
+.badge-politeness {
+    background-color: #ffedd5;
+    color: #9a3412;
+    border-color: #fed7aa;
+}
+
+.badge-style,
+.badge-domain {
+    background-color: #f1f5f9;
+    color: #334155;
+}
+
+a.badge-semantic:hover,
+a.badge-semantic:focus {
+    border-color: var(--color-accent);
+    color: var(--color-accent);
+}
+
+/* Wide tables (conjugation, article tables) scroll inside their own box */
+.table-wrap {
+    overflow-x: auto;
+    max-width: 100%;
+    -webkit-overflow-scrolling: touch;
+}
+
+.table-wrap > table {
+    min-width: 100%;
+}
+
+/* Read-aloud button on example sentences (shown only when a Japanese voice exists) */
+.tts-btn {
+    display: none;
+    margin-left: 0.4rem;
+    padding: 0 0.3rem;
+    font-size: 0.9rem;
+    line-height: 1.4;
+    background: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    vertical-align: middle;
+    opacity: 0.6;
+}
+
+body.tts-available .tts-btn {
+    display: inline-block;
+}
+
+.tts-btn:hover,
+.tts-btn:focus {
+    opacity: 1;
+    border-color: var(--color-border);
+    background: var(--color-surface);
+}
+
+/* Search result cards */
+.result-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    align-items: center;
+    margin-top: 0.35rem;
+    font-size: 0.8rem;
+    color: var(--color-text-secondary);
+}
+
+.result-pos {
+    font-style: italic;
+}
+
+.result-form-note {
+    font-size: 0.85rem;
+    color: var(--color-text-secondary);
+    margin-bottom: 0.15rem;
+}
+
+.show-more-btn {
+    display: block;
+    margin: var(--spacing-md) auto 0;
+    padding: 0.6rem 1.5rem;
+    font-size: 0.95rem;
+    color: var(--color-accent);
+    background: var(--color-surface);
+    border: 1px solid var(--color-accent);
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.show-more-btn:hover {
+    background: var(--color-accent-light);
+}
+
+/* Kanji index page: grouped card grid with a filter box */
+.kanji-list-intro {
+    color: var(--color-text-secondary);
+    margin-bottom: var(--spacing-md);
+}
+
+.kanji-filter {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-md);
+    margin-bottom: var(--spacing-lg);
+}
+
+.kanji-filter input {
+    flex: 1;
+    max-width: 480px;
+    padding: 0.6rem 0.8rem;
+    font-size: 1rem;
+    font-family: var(--font-jp);
+    border: 2px solid var(--color-border);
+    border-radius: 6px;
+}
+
+.kanji-filter input:focus {
+    outline: none;
+    border-color: var(--color-accent);
+}
+
+.kanji-filter-count {
+    font-size: 0.85rem;
+    color: var(--color-text-secondary);
+}
+
+.kanji-group {
+    margin-bottom: var(--spacing-lg);
+}
+
+.kanji-group h2 {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--color-text-secondary);
+    margin-bottom: var(--spacing-sm);
+}
+
+.kanji-group-count {
+    font-weight: 400;
+}
+
+.kanji-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    gap: 0.5rem;
+}
+
+.kanji-card {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: auto auto;
+    column-gap: 0.6rem;
+    align-items: center;
+    padding: 0.4rem 0.6rem;
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: 6px;
+    text-decoration: none;
+    color: inherit;
+    position: relative;
+    min-width: 0;
+}
+
+.kanji-card:hover,
+.kanji-card:focus {
+    border-color: var(--color-accent);
+}
+
+.kanji-card-char {
+    grid-row: 1 / span 2;
+    font-size: 2rem;
+    line-height: 1.2;
+}
+
+.kanji-card-readings,
+.kanji-card-gloss {
+    font-size: 0.8rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    min-width: 0;
+}
+
+.kanji-card-readings {
+    color: var(--color-text-secondary);
+}
+
+.kanji-card-count {
+    position: absolute;
+    top: 0.15rem;
+    right: 0.4rem;
+    font-size: 0.7rem;
+    color: var(--color-text-secondary);
+}
+
+.kanji-card[hidden],
+.kanji-group[hidden] {
+    display: none;
+}
+
+.kanji-entry-count {
+    font-size: 0.9rem;
+    color: var(--color-text-secondary);
+    margin-top: 0.25rem;
+}
+
+.reading-romaji {
+    font-size: 0.85rem;
+    color: var(--color-text-secondary);
+    margin-left: 0.3rem;
+}
+
+/* Browse index (kana rows) and row pages; study/tag lists reuse the browse row styles */
+.browse-row-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: var(--spacing-sm);
+}
+
+.browse-row-card {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    padding: var(--spacing-md);
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+    text-decoration: none;
+    color: inherit;
+}
+
+.browse-row-card:hover,
+.browse-row-card:focus {
+    border-color: var(--color-accent);
+    background: var(--color-accent-light);
+}
+
+.browse-row-name {
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.browse-row-kana {
+    color: var(--color-text-secondary);
+}
+
+.browse-row-count {
+    font-size: 0.85rem;
+    color: var(--color-text-secondary);
+}
+
+.kana-jump {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25rem;
+    margin-bottom: var(--spacing-lg);
+}
+
+.kana-jump a {
+    padding: 0.25rem 0.6rem;
+    border: 1px solid var(--color-border);
+    border-radius: 4px;
+    background: var(--color-surface);
+    text-decoration: none;
+    color: var(--color-text);
+}
+
+.kana-jump a:hover,
+.kana-jump a:focus {
+    border-color: var(--color-accent);
+    color: var(--color-accent);
+}
+
+.kana-row-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: var(--spacing-md);
+    background: var(--color-bg);
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.list-card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: var(--spacing-md);
+    margin-bottom: var(--spacing-xl);
+}
+
+.list-card {
+    display: block;
+    padding: var(--spacing-md);
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+    text-decoration: none;
+    color: inherit;
+}
+
+.list-card:hover,
+.list-card:focus {
+    border-color: var(--color-accent);
+}
+
+.list-card-title {
+    display: block;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+}
+
+.list-card-desc {
+    display: block;
+    font-size: 0.9rem;
+    color: var(--color-text-secondary);
+}
+
+.tag-cloud {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+}
+
+.tag-cloud a {
+    font-size: 0.85rem;
+    padding: 0.2rem 0.6rem;
+    border: 1px solid var(--color-border);
+    border-radius: 999px;
+    background: var(--color-surface);
+    text-decoration: none;
+    color: var(--color-text);
+}
+
+.tag-cloud a:hover,
+.tag-cloud a:focus {
+    border-color: var(--color-accent);
+    color: var(--color-accent);
+}
+
+.tag-cloud .tag-count {
+    color: var(--color-text-secondary);
+    font-size: 0.75rem;
+    margin-left: 0.25rem;
 }

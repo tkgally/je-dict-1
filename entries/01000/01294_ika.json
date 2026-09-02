@@ -54,7 +54,7 @@
     },
     {
       "id": "01294_ika_ex4",
-      "japanese": "{五人|ごにん}{以下|いか}⟦の→の：09472_no⟧⟦グループ→グループ：03840_guruupu⟧",
+      "japanese": "⟦{五人|ごにん}→五人：30567_gonin⟧{以下|いか}⟦の→の：09472_no⟧⟦グループ→グループ：03840_guruupu⟧",
       "english": "Groups of five or fewer",
       "notes": null,
       "has_audio": false,
@@ -94,7 +94,7 @@
     },
     {
       "id": "01294_ika_ex8",
-      "japanese": "{百|ひゃく}キロ{以下|いか}⟦に→に：00314_ni⟧⟦{制限|せいげん}されている→制限：03375_seigen⟧。",
+      "japanese": "⟦{百|ひゃく}→百：00780_hyaku⟧⟦キロ→キロ：01350_kiro⟧{以下|いか}⟦に→に：00314_ni⟧⟦{制限|せいげん}されている→制限：03375_seigen⟧。",
       "english": "It's limited to 100 kg or less.",
       "notes": null,
       "has_audio": false,
@@ -183,7 +183,7 @@
       ]
     }
   ],
-  "notes": "{以下|いか} means 'below' or 'less than or equal to.'\n\nIMPORTANT: In Japanese, {以下|いか} INCLUDES the stated number:\n- {十|じゅう}{以下|いか} = 10 or less (includes 10)\n- This differs from English 'less than' which excludes the number\n\nContrast with ⟦{未満|みまん}→未満：00280_miman⟧:\n- {十|じゅう}{未満|みまん} = less than 10 (excludes 10)\n\nAntonym: ⟦{以上|いじょう}→以上：01308_ijou⟧ (above, more than or equal to)\n\nCommon patterns:\n- [number]{以下|いか}: [number] or less\n- {以下|いか}の〜: the following ~\n- {以下|いか}⟦{同様|どうよう}→同様：01654_douyou⟧: same as below",
+  "notes": "{以下|いか} means 'below' or 'less than or equal to.'\n\nIMPORTANT: In Japanese, {以下|いか} INCLUDES the stated number:\n- ⟦{十|じゅう}→十：00708_juu⟧{以下|いか} = 10 or less (includes 10)\n- This differs from English 'less than' which excludes the number\n\nContrast with ⟦{未満|みまん}→未満：00280_miman⟧:\n- ⟦{十|じゅう}→十：00708_juu⟧⟦{未満|みまん}→未満：00280_miman⟧ = less than 10 (excludes 10)\n\nAntonym: ⟦{以上|いじょう}→以上：01308_ijou⟧ (above, more than or equal to)\n\nCommon patterns:\n- [number]{以下|いか}: [number] or less\n- {以下|いか}⟦の→の：09472_no⟧〜: the following ~\n- {以下|いか}⟦{同様|どうよう}→同様：01654_douyou⟧: same as below",
   "cross_references": [
     {
       "type": "antonym",
@@ -196,11 +196,18 @@
       "type": "contrast",
       "reading": "みまん",
       "target_id": "00280_miman"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22980_kahou",
+      "reading": "かほう",
+      "headword": "{下方|かほう}",
+      "label": "lower part"
     }
   ],
   "metadata": {
     "created": "2026-01-08T12:12:45Z",
-    "modified": "2026-06-11T04:56:45Z",
+    "modified": "2026-09-02T04:00:59Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

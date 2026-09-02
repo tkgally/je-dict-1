@@ -15,41 +15,69 @@
   "examples": [
     {
       "id": "29939_motokano_ex1",
-      "japanese": "{元|もと}カノに{偶然|ぐうぜん}{会|あ}った。",
+      "japanese": "{元|もと}カノ⟦に→に：00314_ni⟧⟦{偶然|ぐうぜん}→偶然：02674_guuzen⟧⟦{会|あ}った→会う：00482_au⟧。",
       "english": "I ran into my ex-girlfriend by chance.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29939_motokano_ex2",
-      "japanese": "{元|もと}カノの{写真|しゃしん}をすべて{消|け}した。",
+      "japanese": "{元|もと}カノ⟦の→の：09472_no⟧⟦{写真|しゃしん}→写真：00753_shashin⟧⟦を→を：00422_wo⟧すべて⟦{消|け}した→消す：00528_kesu⟧。",
       "english": "I deleted all the photos of my ex-girlfriend.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29939_motokano_ex3",
-      "japanese": "{元|もと}カノと{別|わか}れてから、もう{一年|いちねん}になる。",
+      "japanese": "{元|もと}カノ⟦と→と：00512_to⟧⟦{別|わか}れて→別れる：01113_wakareru⟧⟦から→から：00504_kara⟧、⟦もう→もう：00602_mou⟧⟦{一年|いちねん}→一年：10994_ichinen⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧。",
       "english": "It has already been a year since I broke up with my ex-girlfriend.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Colloquial contraction of {元|もと}の{彼女|かのじょ} ('former girlfriend'), with カノ written in katakana. Common in casual speech and text messages.\n\nRELATED WORDS:\n- {元|もと}カレ: ex-boyfriend\n- {彼女|かのじょ}: girlfriend\n- {元彼女|もとかのじょ}: the same word written more fully",
+  "notes": "Colloquial contraction of ⟦{元|もと}→元：03878_moto⟧⟦の→の：09472_no⟧⟦{彼女|かのじょ}→彼女：01286_kanojo⟧ ('former girlfriend'), with カノ written in katakana. Common in casual speech and text messages.\n\nRELATED WORDS:\n- ⟦{元|もと}カレ→元カレ：29938_motokare⟧: ex-boyfriend\n- ⟦{彼女|かのじょ}→彼女：01286_kanojo⟧: girlfriend\n- {元彼女|もとかのじょ}: the same word written more fully",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "29938_motokare",
+      "reading": "もとかれ",
+      "headword": "{元|もと}カレ",
+      "label": "ex-boyfriend"
+    },
+    {
+      "type": "related",
+      "target_id": "01286_kanojo",
+      "reading": "かのじょ",
+      "headword": "{彼女|かのじょ}",
+      "label": "girlfriend"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "informal",
-      "politeness": null,
-      "semantic": ["person"],
-      "domain": ["colloquial"]
+      "politeness": "plain",
+      "semantic": [
+        "person"
+      ],
+      "domain": [
+        "colloquial"
+      ]
     },
     "created": "2026-07-19T00:19:03Z",
-    "modified": "2026-07-19T00:19:03Z"
+    "modified": "2026-09-02T04:02:38Z"
   }
 }

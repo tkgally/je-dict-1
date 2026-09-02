@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "FORMATION:\n{幹|かん} (trunk, main) + {部|ぶ} (section)\n\nUSAGE:\n・{幹部|かんぶ}⟦{会議|かいぎ}→会議：00710_kaigi⟧ (executive meeting)\n・{幹部|かんぶ}⟦{候補|こうほ}→候補：02804_kouho⟧(⟦{生|せい}→生：noentry⟧) (management trainee)\n・{幹部|かんぶ}⟦{職員|しょくいん}→職員：20206_shokuin⟧ (senior staff)\n・⟦{上層|じょうそう}→上層：24077_jousou⟧{幹部|かんぶ} (top management)\n\nCONTEXTS:\nUsed for various organizations:\n・⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦の→の：09472_no⟧{幹部|かんぶ} (company executives)\n・⟦{政党|せいとう}→政党：04338_seitou⟧⟦の→の：09472_no⟧{幹部|かんぶ} (party leaders)\n・⟦{軍|ぐん}→軍：02677_gun⟧⟦の→の：09472_no⟧{幹部|かんぶ} (military officers)\n・⟦{組織|そしき}→組織：03320_soshiki⟧⟦の→の：09472_no⟧{幹部|かんぶ} (organization leaders)",
+  "notes": "FORMS:\n{幹|かん} (trunk, main) + ⟦{部|ぶ}→〜部：00440_bu⟧ (section)\n\nUSAGE:\n- {幹部|かんぶ}⟦{会議|かいぎ}→会議：00710_kaigi⟧ (executive meeting)\n- {幹部|かんぶ}⟦{候補|こうほ}→候補：02804_kouho⟧(⟦{生|せい}→生：noentry⟧) (management trainee)\n- {幹部|かんぶ}⟦{職員|しょくいん}→職員：20206_shokuin⟧ (senior staff)\n- ⟦{上層|じょうそう}→上層：24077_jousou⟧{幹部|かんぶ} (top management)\nUsed for various organizations:\n- ⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦の→の：09472_no⟧{幹部|かんぶ} (company executives)\n- ⟦{政党|せいとう}→政党：04338_seitou⟧⟦の→の：09472_no⟧{幹部|かんぶ} (party leaders)\n- ⟦{軍|ぐん}→軍：02677_gun⟧⟦の→の：09472_no⟧{幹部|かんぶ} (military officers)\n- ⟦{組織|そしき}→組織：03320_soshiki⟧⟦の→の：09472_no⟧{幹部|かんぶ} (organization leaders)",
   "cross_references": [
     {
       "type": "related",
@@ -58,11 +58,25 @@
       "reading": "かんぶ",
       "headword": "{患部|かんぶ}",
       "label": "affected area"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20535_keieijin",
+      "reading": "けいえいじん",
+      "headword": "{経営陣|けいえいじん}",
+      "label": "management team"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30543_shunoujin",
+      "reading": "しゅのうじん",
+      "headword": "{首脳陣|しゅのうじん}",
+      "label": "the top leadership"
     }
   ],
   "metadata": {
     "created": "2026-01-18T09:27:18Z",
-    "modified": "2026-08-11T06:35:29Z",
+    "modified": "2026-09-02T04:01:09Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

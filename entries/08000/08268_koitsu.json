@@ -19,7 +19,7 @@
   "examples": [
     {
       "id": "08268_koitsu_ex1",
-      "japanese": "こいつが{犯人|はんにん}だ。",
+      "japanese": "こいつ⟦が→が：00051_ga⟧⟦{犯人|はんにん}→犯人：03572_hannin⟧だ。",
       "english": "This guy is the culprit.",
       "sense_numbers": [
         1
@@ -29,7 +29,7 @@
     },
     {
       "id": "08268_koitsu_ex2",
-      "japanese": "こいつには{困|こま}らされた。",
+      "japanese": "こいつ⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{困|こま}らされた。",
       "english": "This person gave me trouble.",
       "sense_numbers": [
         1
@@ -39,7 +39,7 @@
     },
     {
       "id": "08268_koitsu_ex3",
-      "japanese": "こいつは{面白|おもしろ}い{奴|やつ}だ。",
+      "japanese": "こいつ⟦は→は：00079_ha⟧⟦{面白|おもしろ}い→面白い：00589_omoshiroi⟧{奴|やつ}だ。",
       "english": "This guy is an interesting fellow.",
       "sense_numbers": [
         1
@@ -49,7 +49,7 @@
     },
     {
       "id": "08268_koitsu_ex4",
-      "japanese": "こいつは{使|つか}える。",
+      "japanese": "こいつ⟦は→は：00079_ha⟧⟦{使|つか}える→使う：00473_tsukau⟧。",
       "english": "This thing is useful.",
       "sense_numbers": [
         2
@@ -59,7 +59,7 @@
     },
     {
       "id": "08268_koitsu_ex5",
-      "japanese": "こいつは{厄介|やっかい}だな。",
+      "japanese": "こいつ⟦は→は：00079_ha⟧⟦{厄介|やっかい}→厄介：03640_yakkai⟧だな。",
       "english": "This is troublesome.",
       "sense_numbers": [
         2
@@ -69,7 +69,7 @@
     },
     {
       "id": "08268_koitsu_ex6",
-      "japanese": "こいつをどうにかしないと。",
+      "japanese": "こいつ⟦を→を：00422_wo⟧⟦どう→どう：00543_dou⟧⟦に→に：00314_ni⟧かしない⟦と→と：00512_to⟧。",
       "english": "I need to do something about this.",
       "sense_numbers": [
         2
@@ -78,7 +78,7 @@
       "notes": null
     }
   ],
-  "notes": "REGISTER:\nInformal/rough. Can be contemptuous when referring to people.\n\nKO-SO-A-DO SYSTEM:\nPart of the demonstrative pronoun system:\n- こいつ (this - near speaker)\n- そいつ (that - near listener)\n- あいつ (that - distant)\n- どいつ (which - interrogative)\n\nKANJI:\nCan be written {此奴|こいつ} but usually in hiragana.\n\nSENSE 2 (Things/Situations):\nCommonly used in casual speech for objects, problems, or situations.\n\nPOLITE ALTERNATIVES:\n- この{人|ひと} (this person)\n- これ (this thing - neutral)\n- この{方|かた} (this person - formal)\n\nRELATED:\n- あいつ (that guy)\n- そいつ (that guy)\n- どいつ (which guy)\n- {奴|やつ} (guy, fellow)",
+  "notes": "REGISTER:\nInformal/rough. Can be contemptuous when referring to people.\n\nKO-SO-A-DO SYSTEM:\nPart of the demonstrative pronoun system:\n- こいつ (this - near speaker)\n- ⟦そいつ→そいつ：08759_soitsu⟧ (that - near listener)\n- ⟦あいつ→あいつ：08267_aitsu⟧ (that - distant)\n- ⟦どいつ→どいつ：18614_doitsu⟧ (which - interrogative)\n\nWRITING:\nCan be written {此奴|こいつ} but usually in hiragana.\n\nSENSE 2 (Things/Situations):\nCommonly used in casual speech for objects, problems, or situations.\n\nPOLITE ALTERNATIVES:\n- ⟦この→この：00962_kono⟧⟦{人|ひと}→人：00476_hito⟧ (this person)\n- ⟦これ→これ：00963_kore⟧ (this thing - neutral)\n- ⟦この→この：00962_kono⟧⟦{方|かた}→方：10665_kata⟧ (this person - formal)\n\nRELATED WORDS:\n- ⟦あいつ→あいつ：08267_aitsu⟧ (that guy)\n- ⟦そいつ→そいつ：08759_soitsu⟧ (that guy)\n- ⟦どいつ→どいつ：18614_doitsu⟧ (which guy)\n- {奴|やつ} (guy, fellow)",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -86,13 +86,14 @@
         "pronoun"
       ],
       "formality": "informal",
+      "politeness": "plain",
       "semantic": [
         "pronoun",
         "person"
       ]
     },
     "created": "2026-01-25T09:58:37Z",
-    "modified": "2026-02-03T14:48:46Z"
+    "modified": "2026-09-02T04:01:14Z"
   },
   "cross_references": [
     {
@@ -101,6 +102,20 @@
       "headword": "あいつ",
       "label": "that guy (distant)",
       "target_id": "08267_aitsu"
+    },
+    {
+      "type": "related",
+      "target_id": "08759_soitsu",
+      "reading": "そいつ",
+      "headword": "そいつ",
+      "label": "that guy"
+    },
+    {
+      "type": "related",
+      "target_id": "18614_doitsu",
+      "reading": "どいつ",
+      "headword": "どいつ",
+      "label": "which guy"
     }
   ]
 }

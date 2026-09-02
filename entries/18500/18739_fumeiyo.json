@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "18739_fumeiyo_ex1",
-      "japanese": "{不名誉|ふめいよ}な{記録|きろく}を{作|つく}ってしまった。",
+      "japanese": "{不名誉|ふめいよ}な⟦{記録|きろく}→記録：02490_kiroku⟧⟦を→を：00422_wo⟧⟦{作|つく}って→作る：00481_tsukuru⟧しまった。",
       "english": "I ended up setting a disgraceful record.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "18739_fumeiyo_ex2",
-      "japanese": "{不名誉|ふめいよ}な{敗北|はいぼく}を{喫|きっ}した。",
+      "japanese": "{不名誉|ふめいよ}な⟦{敗北|はいぼく}→敗北：12872_haiboku⟧⟦を→を：00422_wo⟧⟦{喫|きっ}した→喫する：29124_kissuru⟧。",
       "english": "They suffered a humiliating defeat.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "18739_fumeiyo_ex3",
-      "japanese": "{家族|かぞく}に{不名誉|ふめいよ}をもたらすようなことはしたくない。",
+      "japanese": "⟦{家族|かぞく}→家族：00552_kazoku⟧⟦に→に：00314_ni⟧{不名誉|ふめいよ}⟦を→を：00422_wo⟧⟦もたらす→もたらす：10546_motarasu⟧ようなことはしたく⟦ない→ない：01118_nai⟧。",
       "english": "I don't want to do anything that would bring disgrace upon my family.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "{不名誉|ふめいよ} describes a loss of honor or reputation. Functions as both a na-adjective ({不名誉|ふめいよ}な) and a noun.\n\nWORD FORMATION:\n{不|ふ} (negative prefix) + {名誉|めいよ} (honor, prestige).\n\nAS NA-ADJECTIVE:\n- {不名誉|ふめいよ}な{記録|きろく}: disgraceful record\n- {不名誉|ふめいよ}な{敗北|はいぼく}: humiliating defeat\n- {不名誉|ふめいよ}な{称号|しょうごう}: dishonorable title\n- {不名誉|ふめいよ}な{結果|けっか}: shameful result\n\nAS NOUN:\n- {不名誉|ふめいよ}を{被|こうむ}る: to suffer disgrace\n- {不名誉|ふめいよ}をもたらす: to bring dishonor\n\nANTONYM:\n{名誉|めいよ} (honor, prestige). Compare {名誉|めいよ}ある{賞|しょう} (prestigious award) vs. {不名誉|ふめいよ}な{記録|きろく} (disgraceful record).\n\nREGISTER:\nSomewhat formal. In casual speech, {恥|は}ずかしい (embarrassing) or {情|なさ}けない (pathetic) express similar sentiments.",
+  "notes": "{不名誉|ふめいよ} describes a loss of honor or reputation. Functions as both a na-adjective ({不名誉|ふめいよ}な) and a noun.\n\nFORMS:\n{不|ふ} (negative prefix) + ⟦{名誉|めいよ}→名誉：10568_meiyo⟧ (honor, prestige).\n\nAS NA-ADJECTIVE:\n- {不名誉|ふめいよ}な⟦{記録|きろく}→記録：02490_kiroku⟧: disgraceful record\n- {不名誉|ふめいよ}な⟦{敗北|はいぼく}→敗北：12872_haiboku⟧: humiliating defeat\n- {不名誉|ふめいよ}な{称号|しょうごう}: dishonorable title\n- {不名誉|ふめいよ}な⟦{結果|けっか}→結果：02486_kekka⟧: shameful result\n\nAS NOUN:\n- {不名誉|ふめいよ}⟦を→を：00422_wo⟧⟦{被|こうむ}る→被る：18070_koumuru⟧: to suffer disgrace\n- {不名誉|ふめいよ}⟦を→を：00422_wo⟧⟦もたらす→もたらす：10546_motarasu⟧: to bring dishonor\n\nSIMILAR WORDS:\n⟦{名誉|めいよ}→名誉：10568_meiyo⟧ (honor, prestige). Compare ⟦{名誉|めいよ}→名誉：10568_meiyo⟧⟦ある→ある：00006_aru⟧⟦{賞|しょう}→賞：03227_shou⟧ (prestigious award) vs. {不名誉|ふめいよ}な⟦{記録|きろく}→記録：02490_kiroku⟧ (disgraceful record).\n\nREGISTER:\nSomewhat formal. In casual speech, ⟦{恥|は}ずかしい→恥ずかしい：00843_hazukashii⟧ (embarrassing) or ⟦{情|なさ}けない→情けない：03129_nasakenai⟧ (pathetic) express similar sentiments.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06614_chijoku",
+      "reading": "ちじょく",
+      "headword": "{恥辱|ちじょく}",
+      "label": "disgrace"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28647_kutsujokuteki",
+      "reading": "くつじょくてき",
+      "headword": "{屈辱的|くつじょくてき}",
+      "label": "humiliating"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +76,6 @@
       ]
     },
     "created": "2026-03-23T01:59:58Z",
-    "modified": "2026-03-29T07:57:19Z"
+    "modified": "2026-09-02T04:01:53Z"
   }
 }

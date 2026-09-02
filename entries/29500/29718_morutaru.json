@@ -16,40 +16,72 @@
   "examples": [
     {
       "id": "29718_morutaru_ex1",
-      "japanese": "モルタルを{塗|ぬ}る。",
+      "japanese": "モルタル⟦を→を：00422_wo⟧⟦{塗|ぬ}る→塗る：01174_nuru⟧。",
       "english": "To apply mortar.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29718_morutaru_ex2",
-      "japanese": "この{家|いえ}の{外壁|がいへき}はモルタルだ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{家|いえ}→家：00612_ie⟧⟦の→の：09472_no⟧⟦{外壁|がいへき}→外壁：06426_gaiheki⟧⟦は→は：00079_ha⟧モルタルだ。",
       "english": "This house's exterior wall is mortar.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29718_morutaru_ex3",
-      "japanese": "レンガを{積|つ}むときは、{間|あいだ}にモルタルを{詰|つ}めて{固定|こてい}する。",
+      "japanese": "⟦レンガ→レンガ：19408_renga⟧⟦を→を：00422_wo⟧⟦{積|つ}む→積む：02294_tsumu⟧とき⟦は→は：00079_ha⟧、⟦{間|あいだ}→間：00914_aida⟧⟦に→に：00314_ni⟧モルタル⟦を→を：00422_wo⟧⟦{詰|つ}めて→詰める：02078_tsumeru⟧⟦{固定|こてい}する→固定する：19647_koteisuru⟧。",
       "english": "When laying bricks, you pack mortar between them to hold them in place.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "From English \"mortar.\" A cement-and-sand paste used to bond masonry and to finish wall surfaces.\n\nCOMMON COLLOCATIONS:\n- モルタルを{塗|ぬ}る: to apply/render mortar\n- モルタル{仕上|しあ}げ: a mortar finish\n- モルタル{壁|かべ}: a mortar wall\n\nSIMILAR WORDS:\n- コンクリート: concrete — includes gravel and is structural; mortar has no gravel and is used to bond or finish\n- {漆喰|しっくい}: plaster (lime) — a traditional lime-based wall finish",
-  "cross_references": [],
+  "notes": "From English \"mortar.\" A cement-and-sand paste used to bond masonry and to finish wall surfaces.\n\nCOMMON COLLOCATIONS:\n- モルタル⟦を→を：00422_wo⟧⟦{塗|ぬ}る→塗る：01174_nuru⟧: to apply/render mortar\n- モルタル⟦{仕上|しあ}げ→仕上げ：11519_shiage⟧: a mortar finish\n- モルタル⟦{壁|かべ}→壁：01290_kabe⟧: a mortar wall\n\nSIMILAR WORDS:\n- ⟦コンクリート→コンクリート：10858_konkuriito⟧: concrete — includes gravel and is structural; mortar has no gravel and is used to bond or finish\n- {漆喰|しっくい}: plaster (lime) — a traditional lime-based wall finish",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "10858_konkuriito",
+      "reading": "こんくりーと",
+      "headword": "コンクリート",
+      "label": "concrete"
+    },
+    {
+      "type": "related",
+      "target_id": "19401_semento",
+      "reading": "せめんと",
+      "headword": "セメント",
+      "label": "cement"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29717_saidingu",
+      "reading": "さいでぃんぐ",
+      "headword": "サイディング",
+      "label": "siding"
+    }
+  ],
   "metadata": {
     "created": "2026-07-06T21:18:51Z",
-    "modified": "2026-07-06T21:18:51Z",
+    "modified": "2026-09-02T04:02:37Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
+      "semantic": [
+        "general"
+      ],
       "domain": []
     }
   }

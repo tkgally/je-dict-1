@@ -2,7 +2,7 @@
   "id": "02563_shuuryou",
   "headword": "{終了|しゅうりょう}",
   "reading": "しゅうりょう",
-  "part_of_speech": "noun / suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "end, conclusion, termination",
   "conjugation": {
     "type": "suru",
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "{終了|しゅうりょう} refers to the end or conclusion of an event, activity, or process.\n\nTRANSITIVITY:\n- Type: Both transitive (⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧) and intransitive (⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧)\n- Transitive: [noun]⟦を→を：00422_wo⟧{終了|しゅうりょう}する\n- Intransitive: [noun]⟦が→が：00051_ga⟧{終了|しゅうりょう}する\n\nCOMMON PATTERNS:\n- {終了|しゅうりょう}する (to end, conclude)\n- {終了|しゅうりょう}しました (has ended - system message)\n- 〜{終了|しゅうりょう} (end of ~)\n\nCOMPOUND WORDS:\n- {終了|しゅうりょう}⟦{時刻|じこく}→時刻：03270_jikoku⟧ (ending time)\n- {終了|しゅうりょう}⟦{予定|よてい}→予定：00824_yotei⟧ (scheduled end)\n\nTECHNICAL USAGE:\n- Common in software: ⟦プログラム→プログラム：01540_puroguramu⟧⟦を→を：00422_wo⟧{終了|しゅうりょう}する (exit program)\n- Broadcast: ⟦{放送|ほうそう}→放送：02093_housou⟧{終了|しゅうりょう} (end of broadcast)\n\nSIMILAR WORDS:\n- ⟦{完了|かんりょう}→完了：02560_kanryou⟧: completion (task fully done)\n- {終了|しゅうりょう}: end, conclusion (process ends)\n- ⟦{終|お}わり→終わり：01361_owari⟧: end (general, less formal)",
+  "notes": "{終了|しゅうりょう} refers to the end or conclusion of an event, activity, or process.\n\nTRANSITIVITY:\n- Type: Both transitive (⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧) and intransitive (⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧)\n- Transitive: [noun]⟦を→を：00422_wo⟧{終了|しゅうりょう}⟦する→する：00392_suru⟧\n- Intransitive: [noun]⟦が→が：00051_ga⟧{終了|しゅうりょう}⟦する→する：00392_suru⟧\n\nCOMMON PATTERNS:\n- {終了|しゅうりょう}⟦する→する：00392_suru⟧ (to end, conclude)\n- {終了|しゅうりょう}⟦しました→する：00392_suru⟧ (has ended - system message)\n- 〜{終了|しゅうりょう} (end of ~)\n\nCOMPOUNDS:\n- {終了|しゅうりょう}⟦{時刻|じこく}→時刻：03270_jikoku⟧ (ending time)\n- {終了|しゅうりょう}⟦{予定|よてい}→予定：00824_yotei⟧ (scheduled end)\n\nTECHNICAL USAGE:\n- Common in software: ⟦プログラム→プログラム：01540_puroguramu⟧⟦を→を：00422_wo⟧{終了|しゅうりょう}⟦する→する：00392_suru⟧ (exit program)\n- Broadcast: ⟦{放送|ほうそう}→放送：02093_housou⟧{終了|しゅうりょう} (end of broadcast)\n\nSIMILAR WORDS:\n- ⟦{完了|かんりょう}→完了：02560_kanryou⟧: completion (task fully done)\n- {終了|しゅうりょう}: end, conclusion (process ends)\n- ⟦{終|お}わり→終わり：01361_owari⟧: end (general, less formal)",
   "cross_references": [
     {
       "type": "synonym",
@@ -155,11 +155,39 @@
       "reading": "かいし",
       "headword": "{開始|かいし}",
       "label": "start"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01361_owari",
+      "reading": "おわり",
+      "headword": "{終|お}わり",
+      "label": "end"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08175_heimaku",
+      "reading": "へいまく",
+      "headword": "{閉幕|へいまく}",
+      "label": "closing"
+    },
+    {
+      "type": "related",
+      "target_id": "08296_uchikiri",
+      "reading": "うちきり",
+      "headword": "{打|う}ち{切|き}り",
+      "label": "cancellation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23962_heikai",
+      "reading": "へいかい",
+      "headword": "{閉会|へいかい}",
+      "label": "closing (of a meeting)"
     }
   ],
   "metadata": {
     "created": "2026-01-11T10:52:36Z",
-    "modified": "2026-05-21T14:14:33Z",
+    "modified": "2026-09-02T04:01:01Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

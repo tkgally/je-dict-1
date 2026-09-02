@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "27503_shibainu_ex1",
-      "japanese": "{柴犬|しばいぬ}を{飼|か}っている。",
+      "japanese": "{柴犬|しばいぬ}⟦を→を：00422_wo⟧⟦{飼|か}っている→飼う：08151_kau⟧。",
       "english": "I have a Shiba Inu.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "27503_shibainu_ex2",
-      "japanese": "{隣|となり}の{柴犬|しばいぬ}は{毎朝|まいあさ}{散歩|さんぽ}している。",
+      "japanese": "⟦{隣|となり}→隣：01003_tonari⟧⟦の→の：09472_no⟧{柴犬|しばいぬ}⟦は→は：00079_ha⟧⟦{毎朝|まいあさ}→毎朝：00966_maiasa⟧⟦{散歩|さんぽ}している→散歩する：26840_sanposuru⟧。",
       "english": "The neighbor's Shiba goes for a walk every morning.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "27503_shibainu_ex3",
-      "japanese": "{柴犬|しばいぬ}は{忠実|ちゅうじつ}で{警戒心|けいかいしん}が{強|つよ}く、{番犬|ばんけん}としても{人気|にんき}がある。",
+      "japanese": "{柴犬|しばいぬ}⟦は→は：00079_ha⟧⟦{忠実|ちゅうじつ}→忠実：12570_chuujitsu⟧で{警戒心|けいかいしん}⟦が→が：00051_ga⟧⟦{強|つよ}く→強い：00820_tsuyoi⟧、⟦{番犬|ばんけん}→番犬：22378_banken⟧⟦として→として：06802_toshite⟧⟦も→も：00484_mo⟧⟦{人気|にんき}→人気：01488_ninki⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "Shibas are loyal and alert, and are popular as watchdogs too.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Also read しばけん, though しばいぬ is more common in everyday speech. The name {柴|しば} refers to brushwood — the dog's traditional reddish-tan coat resembles dried brush. Often just called {柴|しば} for short.\n\nCOMMON COLLOCATIONS:\n- {柴犬|しばいぬ}を{飼|か}う: to have/raise a Shiba\n- {柴犬|しばいぬ}の{子犬|こいぬ}: Shiba puppy\n- {豆柴|まめしば}: mini Shiba (smaller variety)\n\nCULTURAL NOTE:\nOne of the six native Japanese breeds along with {秋田犬|あきたいぬ} and four others. Internet-famous through the \"doge\" meme, which features a Shiba.",
+  "notes": "Also read しばけん, though しばいぬ is more common in everyday speech. The name {柴|しば} refers to brushwood — the dog's traditional reddish-tan coat resembles dried brush. Often just called {柴|しば} for short.\n\nCOMMON COLLOCATIONS:\n- {柴犬|しばいぬ}⟦を→を：00422_wo⟧⟦{飼|か}う→飼う：08151_kau⟧: to have/raise a Shiba\n- {柴犬|しばいぬ}⟦の→の：09472_no⟧⟦{子犬|こいぬ}→子犬：19393_koinu⟧: Shiba puppy\n- {豆柴|まめしば}: mini Shiba (smaller variety)\n\nCULTURAL NOTE:\nOne of the six native Japanese breeds along with ⟦{秋田犬|あきたいぬ}→秋田犬：27534_akitainu⟧ and four others. Internet-famous through the \"doge\" meme, which features a Shiba.",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,13 +53,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "animal-general"
       ],
       "domain": []
     },
     "created": "2026-05-13T03:06:43Z",
-    "modified": "2026-08-07T15:50:37Z"
+    "modified": "2026-09-02T04:02:30Z"
   }
 }

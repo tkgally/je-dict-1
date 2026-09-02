@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "10548_manugareru_ex1",
-      "japanese": "{危険|きけん}を{免|まぬが}れた。",
+      "japanese": "⟦{危険|きけん}→危険：01141_kiken⟧⟦を→を：00422_wo⟧{免|まぬが}れた。",
       "english": "I escaped the danger.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "10548_manugareru_ex2",
-      "japanese": "{彼|かれ}は{処罰|しょばつ}を{免|まぬが}れることができた。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{処罰|しょばつ}→処罰：21006_shobatsu⟧⟦を→を：00422_wo⟧{免|まぬが}れること⟦が→が：00051_ga⟧⟦できた→できる：00557_dekiru⟧。",
       "english": "He was able to avoid punishment.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "10548_manugareru_ex3",
-      "japanese": "この{地域|ちいき}は{台風|たいふう}の{被害|ひがい}を{免|まぬが}れたが、{隣|となり}の{町|まち}は{大|おお}きな{打撃|だげき}を{受|う}けた。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{地域|ちいき}→地域：01461_chiiki⟧⟦は→は：00079_ha⟧⟦{台風|たいふう}→台風：01455_taifuu⟧⟦の→の：09472_no⟧⟦{被害|ひがい}→被害：02572_higai⟧⟦を→を：00422_wo⟧{免|まぬが}れた⟦が→が：00051_ga⟧、⟦{隣|となり}→隣：01003_tonari⟧⟦の→の：09472_no⟧⟦{町|まち}→町：00613_machi⟧⟦は→は：00079_ha⟧⟦{大|おお}きな→大きな：02849_ookina⟧⟦{打撃|だげき}→打撃：12775_dageki⟧⟦を→を：00422_wo⟧⟦{受|う}けた→受ける：01215_ukeru⟧。",
       "english": "This area was spared from the typhoon damage, but the neighboring town took a major hit.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "CONJUGATION (ichidan):\n- Negative: {免|まぬが}れない\n- Te-form: {免|まぬが}れて\n- Past: {免|まぬが}れた\n- Potential: {免|まぬが}れられる\n\nTRANSITIVITY:\nTransitive. Takes を for the thing being avoided.\n\nREADING VARIANT:\nAlso read as {免|まぬか}れる (まぬかれる). Both readings are standard.\n\nUSAGE:\nA relatively formal word, commonly found in news reports and written Japanese. The pattern 〜を{免|まぬが}れない means \"cannot avoid\" or \"is inevitable.\"\n\nCOMMON COLLOCATIONS:\n- {危険|きけん}を{免|まぬが}れる: to escape danger\n- {責任|せきにん}を{免|まぬが}れる: to be exempt from responsibility\n- {罰|ばつ}を{免|まぬが}れる: to escape punishment\n- {批判|ひはん}を{免|まぬが}れない: to be unable to avoid criticism",
+  "notes": "CONJUGATION (ichidan):\n- Negative: {免|まぬが}れない\n- Te-form: {免|まぬが}れて\n- Past: {免|まぬが}れた\n- Potential: {免|まぬが}れられる\n\nTRANSITIVITY:\nTransitive. Takes ⟦を→を：00422_wo⟧ for the thing being avoided.\n\nREADING VARIANT:\nAlso read as {免|まぬか}れる (まぬかれる). Both readings are standard.\n\nUSAGE:\nA relatively formal word, commonly found in news reports and written Japanese. The pattern 〜⟦を→を：00422_wo⟧{免|まぬが}れない means \"cannot avoid\" or \"is inevitable.\"\n\nCOMMON COLLOCATIONS:\n- ⟦{危険|きけん}→危険：01141_kiken⟧⟦を→を：00422_wo⟧{免|まぬが}れる: to escape danger\n- ⟦{責任|せきにん}→責任：03298_sekinin⟧⟦を→を：00422_wo⟧{免|まぬが}れる: to be exempt from responsibility\n- ⟦{罰|ばつ}→罰：10154_batsu⟧⟦を→を：00422_wo⟧{免|まぬが}れる: to escape punishment\n- ⟦{批判|ひはん}→批判：03580_hihan⟧⟦を→を：00422_wo⟧{免|まぬが}れない: to be unable to avoid criticism",
   "cross_references": [
     {
       "type": "synonym",
@@ -149,11 +149,18 @@
       "reading": "さける",
       "headword": "{避|さ}ける",
       "label": "avoid (general)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28650_dassuru",
+      "reading": "だっする",
+      "headword": "{脱|だっ}する",
+      "label": "to escape from"
     }
   ],
   "metadata": {
     "created": "2026-02-08T04:46:48Z",
-    "modified": "2026-04-24T08:14:20Z",
+    "modified": "2026-09-02T04:01:21Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

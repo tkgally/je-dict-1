@@ -15,41 +15,59 @@
   "examples": [
     {
       "id": "13784_tanteki_ex1",
-      "japanese": "{端的|たんてき}に{言|い}えば{失敗|しっぱい}だ。",
+      "japanese": "{端的|たんてき}⟦に→に：00314_ni⟧⟦{言|い}えば→言う：00515_iu⟧⟦{失敗|しっぱい}→失敗：01636_shippai⟧だ。",
       "english": "To put it bluntly, it was a failure.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13784_tanteki_ex2",
-      "japanese": "{端的|たんてき}に{事実|じじつ}を{述|の}べてください。",
+      "japanese": "{端的|たんてき}⟦に→に：00314_ni⟧⟦{事実|じじつ}→事実：03271_jijitsu⟧⟦を→を：00422_wo⟧⟦{述|の}べて→述べる：02389_noberu⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please state the facts directly.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13784_tanteki_ex3",
-      "japanese": "この{一言|ひとこと}が、{問題|もんだい}の{本質|ほんしつ}を{端的|たんてき}に{表|あらわ}している。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{一言|ひとこと}→一言：03708_hitokoto⟧⟦が→が：00051_ga⟧、⟦{問題|もんだい}→問題：00797_mondai⟧⟦の→の：09472_no⟧⟦{本質|ほんしつ}→本質：04810_honshitsu⟧⟦を→を：00422_wo⟧{端的|たんてき}⟦に→に：00314_ni⟧⟦{表|あらわ}している→表す：01868_arawasu⟧。",
       "english": "This single remark concisely captures the essence of the problem.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nFunctions as a na-adjective ({端的|たんてき}な) and is very commonly used as an adverb with に: {端的|たんてき}に{言|い}う (to say directly). This is a somewhat formal word used when someone wants to cut through complexity and state things plainly.\n\nCOMMON COLLOCATIONS:\n- {端的|たんてき}に{言|い}う: to put it simply/directly\n- {端的|たんてき}に{言|い}えば: to put it bluntly\n- {端的|たんてき}に{表|あらわ}す: to express concisely\n- {端的|たんてき}な{表現|ひょうげん}: a concise expression\n- {端的|たんてき}に{示|しめ}す: to show directly",
-  "cross_references": [],
+  "notes": "USAGE:\nFunctions as a na-adjective ({端的|たんてき}な) and is very commonly used as an adverb with ⟦に→に：00314_ni⟧: {端的|たんてき}⟦に→に：00314_ni⟧⟦{言|い}う→言う：00515_iu⟧ (to say directly). This is a somewhat formal word used when someone wants to cut through complexity and state things plainly.\n\nCOMMON COLLOCATIONS:\n- {端的|たんてき}⟦に→に：00314_ni⟧⟦{言|い}う→言う：00515_iu⟧: to put it simply/directly\n- {端的|たんてき}⟦に→に：00314_ni⟧⟦{言|い}えば→言う：00515_iu⟧: to put it bluntly\n- {端的|たんてき}⟦に→に：00314_ni⟧⟦{表|あらわ}す→表す：01868_arawasu⟧: to express concisely\n- {端的|たんてき}な⟦{表現|ひょうげん}→表現：03584_hyougen⟧: a concise expression\n- {端的|たんてき}⟦に→に：00314_ni⟧⟦{示|しめ}す→示す：01948_shimesu⟧: to show directly",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21597_chokusai",
+      "reading": "ちょくさい",
+      "headword": "{直截|ちょくさい}",
+      "label": "direct"
+    }
+  ],
   "metadata": {
     "created": "2026-02-27T03:17:38Z",
-    "modified": "2026-02-27T03:17:38Z",
+    "modified": "2026-09-02T04:01:34Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-na"],
+      "pos": [
+        "adjective-na"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["communication"]
+      "semantic": [
+        "communication"
+      ]
     }
   }
 }

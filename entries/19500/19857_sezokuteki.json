@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "19857_sezokuteki_ex1",
-      "japanese": "{世俗的|せぞくてき}な{価値観|かちかん}。",
+      "japanese": "{世俗的|せぞくてき}な⟦{価値観|かちかん}→価値観：10431_kachikan⟧。",
       "english": "Secular values.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "19857_sezokuteki_ex2",
-      "japanese": "{彼|かれ}は{世俗的|せぞくてき}な{欲望|よくぼう}に{関心|かんしん}がない。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{世俗的|せぞくてき}な⟦{欲望|よくぼう}→欲望：05086_yokubou⟧⟦に→に：00314_ni⟧⟦{関心|かんしん}→関心：00182_kanshin⟧⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧。",
       "english": "He has no interest in worldly desires.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "19857_sezokuteki_ex3",
-      "japanese": "{出家|しゅっけ}して{世俗的|せぞくてき}な{生活|せいかつ}から{離|はな}れた。",
+      "japanese": "⟦{出家|しゅっけ}→出家：11761_shukke⟧⟦して→する：00392_suru⟧{世俗的|せぞくてき}な⟦{生活|せいかつ}→生活：01443_seikatsu⟧⟦から→から：00504_kara⟧⟦{離|はな}れた→離れる：02397_hanareru⟧。",
       "english": "He entered the priesthood and left behind worldly life.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "Formed from {世俗|せぞく} (the secular world) + {的|てき} (adjective suffix). Can be used neutrally to mean \"secular\" (as opposed to religious), or with a slightly negative nuance to mean \"mundane\" or \"materialistic.\"\n\nCOMMON COLLOCATIONS:\n- {世俗的|せぞくてき}な{価値観|かちかん} — worldly values\n- {世俗的|せぞくてき}な{欲望|よくぼう} — worldly desires\n- {世俗的|せぞくてき}な{生活|せいかつ} — secular/worldly life\n- {世俗的|せぞくてき}な{成功|せいこう} — worldly success\n\nSIMILAR WORDS:\n- {俗世|ぞくせ} — the secular world\n- {現世|げんせ} — this world, the present world\n- {世間的|せけんてき} — in terms of public opinion, socially",
+  "notes": "Formed from ⟦{世俗|せぞく}→世俗：24553_sezoku⟧ (the secular world) + ⟦{的|てき}→〜的：09839_teki⟧ (adjective suffix). Can be used neutrally to mean \"secular\" (as opposed to religious), or with a slightly negative nuance to mean \"mundane\" or \"materialistic.\"\n\nCOMMON COLLOCATIONS:\n- {世俗的|せぞくてき}な⟦{価値観|かちかん}→価値観：10431_kachikan⟧ — worldly values\n- {世俗的|せぞくてき}な⟦{欲望|よくぼう}→欲望：05086_yokubou⟧ — worldly desires\n- {世俗的|せぞくてき}な⟦{生活|せいかつ}→生活：01443_seikatsu⟧ — secular/worldly life\n- {世俗的|せぞくてき}な⟦{成功|せいこう}→成功：02638_seikou⟧ — worldly success\n\nSIMILAR WORDS:\n- {俗世|ぞくせ} — the secular world\n- ⟦{現世|げんせ}→現世：20421_gense⟧ — this world, the present world\n- {世間的|せけんてき} — in terms of public opinion, socially",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20421_gense",
+      "reading": "げんせ",
+      "headword": "{現世|げんせ}",
+      "label": "this world, the present world"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +68,6 @@
       ]
     },
     "created": "2026-03-27T03:28:34Z",
-    "modified": "2026-03-27T03:28:34Z"
+    "modified": "2026-09-02T04:01:57Z"
   }
 }

@@ -15,41 +15,67 @@
   "examples": [
     {
       "id": "29982_gia_ex1",
-      "japanese": "ギアを{変|か}える。",
+      "japanese": "ギア⟦を→を：00422_wo⟧⟦{変|か}える→変える：01089_kaeru⟧。",
       "english": "Change gears.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29982_gia_ex2",
-      "japanese": "{坂道|さかみち}でギアを{落|お}とした。",
+      "japanese": "⟦{坂道|さかみち}→坂道：08166_sakamichi⟧⟦で→で：00502_de⟧ギア⟦を→を：00422_wo⟧⟦{落|お}とした→落とす：01246_otosu⟧。",
       "english": "I shifted down a gear on the hill.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29982_gia_ex3",
-      "japanese": "{発進|はっしん}するときは、まずギアを1{速|そく}に{入|い}れる。",
+      "japanese": "⟦{発進|はっしん}する→発進する：21033_hasshinsuru⟧とき⟦は→は：00079_ha⟧、⟦まず→まず：00796_mazu⟧ギア⟦を→を：00422_wo⟧1{速|そく}⟦に→に：00314_ni⟧⟦{入|い}れる→入れる：01098_ireru⟧。",
       "english": "When starting off, you first put the car into first gear.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Also appears in the idiom ギアを{上|あ}げる, meaning to step up one's effort or intensity.\n\nCOMMON COLLOCATIONS:\n- ギアを{入|い}れる: to put it in gear\n- ギアを{上|あ}げる／{下|さ}げる: to shift up/down\n- ギアチェンジ: gear change\n\nSIMILAR WORDS:\n- {歯車|はぐるま}: cogwheel — the native word for a physical toothed gear, less used for a car's gear setting\n- クラッチ: clutch — the pedal engaged to change gears in a manual car",
+  "notes": "Also appears in the idiom ギア⟦を→を：00422_wo⟧⟦{上|あ}げる→上げる：02443_ageru⟧, meaning to step up one's effort or intensity.\n\nCOMMON COLLOCATIONS:\n- ギア⟦を→を：00422_wo⟧⟦{入|い}れる→入れる：01098_ireru⟧: to put it in gear\n- ギア⟦を→を：00422_wo⟧⟦{上|あ}げる→上げる：02443_ageru⟧／⟦{下|さ}げる→下げる：00807_sageru⟧: to shift up/down\n- ギアチェンジ: gear change\n\nSIMILAR WORDS:\n- ⟦{歯車|はぐるま}→歯車：04306_haguruma⟧: cogwheel — the native word for a physical toothed gear, less used for a car's gear setting\n- ⟦クラッチ→クラッチ：06553_kuracchi⟧: clutch — the pedal engaged to change gears in a manual car",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04306_haguruma",
+      "reading": "はぐるま",
+      "headword": "{歯車|はぐるま}",
+      "label": "cogwheel"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06553_kuracchi",
+      "reading": "くらっち",
+      "headword": "クラッチ",
+      "label": "clutch"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["transportation"],
+      "politeness": "plain",
+      "semantic": [
+        "transportation"
+      ],
       "domain": []
     },
     "created": "2026-07-20T06:17:59Z",
-    "modified": "2026-07-20T06:17:59Z"
+    "modified": "2026-09-02T04:02:38Z"
   }
 }

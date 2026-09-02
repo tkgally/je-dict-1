@@ -2,7 +2,7 @@
   "id": "00292_moru",
   "headword": "{盛|も}る",
   "reading": "もる",
-  "part_of_speech": "godan verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to serve (food), to heap up",
   "conjugation": {
     "type": "godan",
@@ -134,7 +134,7 @@
     },
     {
       "id": "00292_moru_ex3",
-      "japanese": "⟦サラダ→サラダ：01364_sarada⟧⟦を→を：00422_wo⟧⟦{皿|さら}→皿：00883_sara⟧⟦に→に：00314_ni⟧⟦きれいに→きれい：00717_kirei⟧{盛|も}り{付|つ}けた。",
+      "japanese": "⟦サラダ→サラダ：01364_sarada⟧⟦を→を：00422_wo⟧⟦{皿|さら}→皿：00883_sara⟧⟦に→に：00314_ni⟧⟦きれいに→きれい：00717_kirei⟧⟦{盛|も}り{付|つ}けた→盛り付ける：14764_moritsukeru⟧。",
       "english": "I arranged the salad nicely on a plate.",
       "notes": null,
       "has_audio": false,
@@ -203,11 +203,19 @@
       ]
     }
   ],
-  "notes": "{盛|も}る means to heap up or serve food into a container.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- Takes を particle: ⟦ご{飯|はん}→ご飯：00776_gohan⟧を{盛|も}る\n\nCOMMON PATTERNS:\n- ⟦ご{飯|はん}→ご飯：00776_gohan⟧を{盛|も}る: to serve rice\n- ⟦{盛|も}り{付|つ}け→盛り付け：05754_moritsuke⟧: presentation, arrangement (of food)\n- ⟦{大盛|おおも}り→大盛り：08162_oomori⟧: large serving\n- ⟦{山盛|やまも}り→山盛り：10157_yamamori⟧: heaping portion\n- てんこ{盛|も}り: piled high\n\nCAUTION:\n⟦{毒|どく}→毒：10052_doku⟧を{盛|も}る means 'to poison (someone)' - putting poison in food/drink.",
-  "cross_references": [],
+  "notes": "{盛|も}る means to heap up or serve food into a container.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- Takes ⟦を→を：00422_wo⟧ particle: ⟦ご{飯|はん}→ご飯：00776_gohan⟧⟦を→を：00422_wo⟧{盛|も}る\n\nCOMMON PATTERNS:\n- ⟦ご{飯|はん}→ご飯：00776_gohan⟧⟦を→を：00422_wo⟧{盛|も}る: to serve rice\n- ⟦{盛|も}り{付|つ}け→盛り付け：05754_moritsuke⟧: presentation, arrangement (of food)\n- ⟦{大盛|おおも}り→大盛り：08162_oomori⟧: large serving\n- ⟦{山盛|やまも}り→山盛り：10157_yamamori⟧: heaping portion\n- てんこ{盛|も}り: piled high\n\nWATCH OUT:\n⟦{毒|どく}→毒：10052_doku⟧⟦を→を：00422_wo⟧{盛|も}る means 'to poison (someone)' - putting poison in food/drink.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22148_kochousuru",
+      "reading": "こちょうする",
+      "headword": "{誇張|こちょう}する",
+      "label": "to exaggerate"
+    }
+  ],
   "metadata": {
     "created": "2026-01-13T00:40:50Z",
-    "modified": "2026-05-10T14:33:00Z",
+    "modified": "2026-09-02T04:00:57Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

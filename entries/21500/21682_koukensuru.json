@@ -3,7 +3,7 @@
   "headword": "{貢献|こうけん}する",
   "reading": "こうけんする",
   "romaji": "koukensuru",
-  "part_of_speech": "verb",
+  "part_of_speech": "suru verb",
   "gloss": "to contribute; to make a contribution",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21682_koukensuru_ex1",
-      "japanese": "{社会|しゃかい}に{貢献|こうけん}したい。",
+      "japanese": "⟦{社会|しゃかい}→社会：01427_shakai⟧⟦に→に：00314_ni⟧{貢献|こうけん}したい。",
       "english": "I want to contribute to society.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21682_koukensuru_ex2",
-      "japanese": "{彼女|かのじょ}はチームの{勝利|しょうり}に{大|おお}きく{貢献|こうけん}した。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧⟦チーム→チーム：03858_chiimu⟧⟦の→の：09472_no⟧⟦{勝利|しょうり}→勝利：11795_shouri⟧⟦に→に：00314_ni⟧⟦{大|おお}きく→大きい：00335_ookii⟧{貢献|こうけん}した。",
       "english": "She contributed greatly to the team's victory.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21682_koukensuru_ex3",
-      "japanese": "この{研究|けんきゅう}は{医学|いがく}の{発展|はってん}に{貢献|こうけん}すると{期待|きたい}されている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{研究|けんきゅう}→研究：01396_kenkyuu⟧⟦は→は：00079_ha⟧⟦{医学|いがく}→医学：01301_igaku⟧⟦の→の：09472_no⟧⟦{発展|はってん}→発展：03561_hatten⟧⟦に→に：00314_ni⟧{貢献|こうけん}する⟦と→と：00512_to⟧⟦{期待|きたい}→期待：00238_kitai⟧⟦されている→する：00392_suru⟧。",
       "english": "This research is expected to contribute to the advancement of medicine.",
       "sense_numbers": [
         1
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "A positive word implying meaningful service or benefit. Takes the particle に to mark what one contributes to. Very common in resumes, speeches, and news.\n\nCOMMON COLLOCATIONS:\n- {社会|しゃかい}{貢献|こうけん}: social contribution\n- {地域|ちいき}に{貢献|こうけん}する: to contribute to the community\n- {国際|こくさい}{貢献|こうけん}: international contribution\n- {大|おお}きく{貢献|こうけん}する: to contribute greatly\n\nSIMILAR WORDS:\n- {寄与|きよ}する: to contribute (more formal, academic)\n- {役|やく}に{立|た}つ: to be useful (everyday, less formal)\n- {尽|つ}くす: to devote oneself to (implies personal sacrifice)",
+  "notes": "A positive word implying meaningful service or benefit. Takes the particle ⟦に→に：00314_ni⟧ to mark what one contributes to. Very common in resumes, speeches, and news.\n\nCOMMON COLLOCATIONS:\n- ⟦{社会|しゃかい}{貢献|こうけん}→社会貢献：22315_shakaikouken⟧: social contribution\n- ⟦{地域|ちいき}→地域：01461_chiiki⟧⟦に→に：00314_ni⟧{貢献|こうけん}する: to contribute to the community\n- ⟦{国際|こくさい}→国際：01406_kokusai⟧⟦{貢献|こうけん}→貢献：02737_kouken⟧: international contribution\n- ⟦{大|おお}きく→大きい：00335_ookii⟧{貢献|こうけん}する: to contribute greatly\n\nSIMILAR WORDS:\n- ⟦{寄与|きよ}→寄与：12319_kiyo⟧⟦する→する：00392_suru⟧: to contribute (more formal, academic)\n- ⟦{役|やく}に{立|た}つ→役に立つ：01130_yakunitatsu⟧: to be useful (everyday, less formal)\n- ⟦{尽|つ}くす→尽くす：02077_tsukusu⟧: to devote oneself to (implies personal sacrifice)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12319_kiyo",
+      "reading": "きよ",
+      "headword": "{寄与|きよ}",
+      "label": "to contribute"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01130_yakunitatsu",
+      "reading": "やくにたつ",
+      "headword": "{役|やく}に{立|た}つ",
+      "label": "to be useful"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02077_tsukusu",
+      "reading": "つくす",
+      "headword": "{尽|つ}くす",
+      "label": "to devote oneself to"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20212_houshisuru",
+      "reading": "ほうしする",
+      "headword": "{奉仕|ほうし}する",
+      "label": "to serve"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,7 +91,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-02T21:20:56Z",
-    "modified": "2026-07-29T12:35:11Z"
+    "modified": "2026-09-02T04:02:04Z"
   },
   "conjugation": {
     "type": "suru",

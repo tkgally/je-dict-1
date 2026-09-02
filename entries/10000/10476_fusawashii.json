@@ -3,7 +3,7 @@
   "id": "10476_fusawashii",
   "headword": "{相応|ふさわ}しい",
   "reading": "ふさわしい",
-  "part_of_speech": "adjective (i)",
+  "part_of_speech": "i-adjective",
   "gloss": "suitable, appropriate, worthy",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "10476_fusawashii_ex1",
-      "japanese": "リーダーに{相応|ふさわ}しい{人|ひと}だ。",
+      "japanese": "⟦リーダー→リーダー：24312_riidaa⟧⟦に→に：00314_ni⟧{相応|ふさわ}しい⟦{人|ひと}→人：00476_hito⟧だ。",
       "english": "That person is worthy of being a leader.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "10476_fusawashii_ex2",
-      "japanese": "この{場|ば}に{相応|ふさわ}しい{服装|ふくそう}で{来|き}てください。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{場|ば}→場：03699_ba⟧⟦に→に：00314_ni⟧{相応|ふさわ}しい⟦{服装|ふくそう}→服装：03594_fukusou⟧⟦で→で：00502_de⟧⟦{来|き}て→来る：00254_kuru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please come in attire appropriate for this occasion.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "10476_fusawashii_ex3",
-      "japanese": "{彼|かれ}の{努力|どりょく}は、{賞|しょう}を{受|う}けるのに{相応|ふさわ}しいものだった。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧⟦{努力|どりょく}→努力：03490_doryoku⟧⟦は→は：00079_ha⟧、⟦{賞|しょう}→賞：03227_shou⟧⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧⟦の→の：09472_no⟧⟦に→に：00314_ni⟧{相応|ふさわ}しいものだった。",
       "english": "His efforts were worthy of receiving the award.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "{相応|ふさわ}しい is an i-adjective meaning \"suitable\" or \"worthy of.\" It implies a strong match between something and a standard, role, or occasion.\n\nFORMS:\n- Adverbial: {相応|ふさわ}しく\n- Noun form: {相応|ふさわ}しさ (suitability)\n\nCOMMON PATTERNS:\n- ～に{相応|ふさわ}しい: suitable for, worthy of\n- ～に{相応|ふさわ}しくない: not suitable for\n- ～に{相応|ふさわ}しい{人物|じんぶつ}: a person worthy of ~\n\nSIMILAR WORDS:\n- {適切|てきせつ}: appropriate (more objective, used for actions and measures)\n- {似合|にあ}う: to suit, to look good on (often for appearance or clothing)\n- {妥当|だとう}: reasonable, valid (emphasizes logical appropriateness)\n\nREGISTER:\nSlightly formal. Common in written language, speeches, and formal evaluations. In casual speech, {合|あ}っている or ぴったり are more natural alternatives.",
+  "notes": "{相応|ふさわ}しい is an i-adjective meaning \"suitable\" or \"worthy of.\" It implies a strong match between something and a standard, role, or occasion.\n\nFORMS:\n- Adverbial: {相応|ふさわ}しく\n- Noun form: {相応|ふさわ}しさ (suitability)\n\nCOMMON PATTERNS:\n- ～⟦に→に：00314_ni⟧{相応|ふさわ}しい: suitable for, worthy of\n- ～⟦に→に：00314_ni⟧{相応|ふさわ}しく⟦ない→ない：01118_nai⟧: not suitable for\n- ～⟦に→に：00314_ni⟧{相応|ふさわ}しい⟦{人物|じんぶつ}→人物：03356_jinbutsu⟧: a person worthy of ~\n\nSIMILAR WORDS:\n- ⟦{適切|てきせつ}→適切：01621_tekisetsu⟧: appropriate (more objective, used for actions and measures)\n- ⟦{似合|にあ}う→似合う：02134_niau⟧: to suit, to look good on (often for appearance or clothing)\n- ⟦{妥当|だとう}→妥当：04053_datou⟧: reasonable, valid (emphasizes logical appropriateness)\n\nREGISTER:\nSlightly formal. Common in written language, speeches, and formal evaluations. In casual speech, ⟦{合|あ}っている→合う：10466_au⟧ or ⟦ぴったり→ぴったり：02362_pittari⟧ are more natural alternatives.",
   "cross_references": [
     {
       "type": "synonym",
@@ -52,11 +52,32 @@
       "reading": "にあう",
       "headword": "{似合|にあ}う",
       "label": "to suit (appearance)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01621_tekisetsu",
+      "reading": "てきせつ",
+      "headword": "{適切|てきせつ}",
+      "label": "appropriate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04053_datou",
+      "reading": "だとう",
+      "headword": "{妥当|だとう}",
+      "label": "reasonable, valid"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16686_tekishita",
+      "reading": "てきした",
+      "headword": "{適|てき}した",
+      "label": "suitable"
     }
   ],
   "metadata": {
     "created": "2026-02-07T21:20:27Z",
-    "modified": "2026-04-24T07:04:04Z",
+    "modified": "2026-09-02T04:01:21Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

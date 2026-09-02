@@ -15,41 +15,67 @@
   "examples": [
     {
       "id": "27740_nishiajia_ex1",
-      "japanese": "{西|にし}アジアを{旅行|りょこう}した。",
+      "japanese": "{西|にし}アジア⟦を→を：00422_wo⟧⟦{旅行|りょこう}→旅行：00748_ryokou⟧⟦した→する：00392_suru⟧。",
       "english": "I traveled in West Asia.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27740_nishiajia_ex2",
-      "japanese": "この{植物|しょくぶつ}は{西|にし}アジアが{原産|げんさん}だ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{植物|しょくぶつ}→植物：03248_shokubutsu⟧⟦は→は：00079_ha⟧{西|にし}アジア⟦が→が：00051_ga⟧⟦{原産|げんさん}→原産：04180_gensan⟧だ。",
       "english": "This plant is native to West Asia.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27740_nishiajia_ex3",
-      "japanese": "{西|にし}アジアは{古|ふる}くから{東西|とうざい}{交易|こうえき}の{要所|ようしょ}だった。",
+      "japanese": "{西|にし}アジア⟦は→は：00079_ha⟧⟦{古|ふる}く→古い：00488_furui⟧⟦から→から：00504_kara⟧⟦{東西|とうざい}→東西：04554_touzai⟧{交易|こうえき}⟦の→の：09472_no⟧⟦{要所|ようしょ}→要所：16575_yousho⟧だった。",
       "english": "West Asia has long been a key point of East-West trade.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A geographic region covering the western end of Asia, including Turkey, the Arabian Peninsula, Iran, and the Caucasus.\n\nUSAGE:\n- {西|にし}アジアの{国|くに}: countries of West Asia\n- {西|にし}アジア{諸国|しょこく}: the West Asian nations\n\nSIMILAR WORDS:\n- {中東|ちゅうとう}: the Middle East — overlaps heavily with {西|にし}アジア, but is defined politically and culturally rather than purely geographically, and often also includes Egypt",
+  "notes": "A geographic region covering the western end of Asia, including Turkey, the Arabian Peninsula, Iran, and the Caucasus.\n\nUSAGE:\n- {西|にし}アジア⟦の→の：09472_no⟧⟦{国|くに}→国：02204_kuni⟧: countries of West Asia\n- {西|にし}アジア⟦{諸国|しょこく}→諸国：15992_shokoku⟧: the West Asian nations\n\nSIMILAR WORDS:\n- ⟦{中東|ちゅうとう}→中東：17924_chuutou⟧: the Middle East — overlaps heavily with {西|にし}アジア, but is defined politically and culturally rather than purely geographically, and often also includes Egypt",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17924_chuutou",
+      "reading": "ちゅうとう",
+      "headword": "{中東|ちゅうとう}",
+      "label": "the Middle East"
+    },
+    {
+      "type": "related",
+      "target_id": "16277_tounanajia",
+      "reading": "とうなんあじあ",
+      "headword": "{東南|とうなん}アジア",
+      "label": "Southeast Asia"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["geography"],
+      "semantic": [
+        "geography"
+      ],
       "domain": []
     },
     "created": "2026-05-18T03:04:42Z",
-    "modified": "2026-05-18T03:04:42Z"
+    "modified": "2026-09-02T04:02:31Z"
   }
 }

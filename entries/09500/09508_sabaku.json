@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "09508_sabaku_ex1",
-      "japanese": "{砂漠|さばく}⟦を→を：00422_wo⟧{歩|ある}く。",
+      "japanese": "{砂漠|さばく}⟦を→を：00422_wo⟧⟦{歩|ある}く→歩く：00538_aruku⟧。",
       "english": "To walk through the desert.",
       "has_audio": false,
       "sense_numbers": [
@@ -23,7 +23,7 @@
     },
     {
       "id": "09508_sabaku_ex2",
-      "japanese": "{砂漠|さばく}⟦は→は：00079_ha⟧{暑|あつ}い。",
+      "japanese": "{砂漠|さばく}⟦は→は：00079_ha⟧⟦{暑|あつ}い→暑い：00619_atsui⟧。",
       "english": "The desert is hot.",
       "has_audio": false,
       "sense_numbers": [
@@ -32,7 +32,7 @@
     },
     {
       "id": "09508_sabaku_ex3",
-      "japanese": "{砂漠|さばく}⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧⟦を→を：00422_wo⟧{旅|たび}⟦する→する：00392_suru⟧。",
+      "japanese": "{砂漠|さばく}⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧⟦を→を：00422_wo⟧⟦{旅|たび}→旅：03407_tabi⟧⟦する→する：00392_suru⟧。",
       "english": "To travel through the desert.",
       "has_audio": false,
       "sense_numbers": [
@@ -40,10 +40,47 @@
       ]
     }
   ],
-  "notes": "{砂漠|さばく} refers to a vast, arid region with little rainfall and sparse vegetation. Japan has no true deserts, so this word is mainly encountered in geography, news about foreign countries, and figurative expressions.\n\nCOMPOSITION:\n{砂|さ} (sand) + {漠|ばく} (vague, vast).\n\nCOMMON COLLOCATIONS:\n- サハラ{砂漠|さばく}: Sahara Desert\n- {砂漠化|さばくか}: desertification\n- {砂漠|さばく}の{中|なか}: in the middle of the desert\n- {砂漠|さばく}{地帯|ちたい}: desert zone/region\n\nFIGURATIVE USE:\nSometimes used metaphorically to describe emptiness or barrenness: {心|こころ}の{砂漠|さばく} (emotional wasteland), {文化|ぶんか}の{砂漠|さばく} (cultural desert).\n\nCAUTION:\nDo not confuse with the verb {裁|さば}く (to judge), which shares the same reading but has different kanji and meaning.",
+  "notes": "{砂漠|さばく} refers to a vast, arid region with little rainfall and sparse vegetation. Japan has no true deserts, so this word is mainly encountered in geography, news about foreign countries, and figurative expressions.\n\nETYMOLOGY:\n{砂|さ} (sand) + {漠|ばく} (vague, vast).\n\nCOMMON COLLOCATIONS:\n- サハラ{砂漠|さばく}: Sahara Desert\n- ⟦{砂漠化|さばくか}→砂漠化：09905_sabakuka⟧: desertification\n- {砂漠|さばく}⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧: in the middle of the desert\n- {砂漠|さばく}⟦{地帯|ちたい}→地帯：04057_chitai⟧: desert zone/region\n\nUSAGE:\nSometimes used metaphorically to describe emptiness or barrenness: ⟦{心|こころ}→心：01321_kokoro⟧⟦の→の：09472_no⟧{砂漠|さばく} (emotional wasteland), ⟦{文化|ぶんか}→文化：01504_bunka⟧⟦の→の：09472_no⟧{砂漠|さばく} (cultural desert).\n\nWATCH OUT:\nDo not confuse with the verb ⟦{裁|さば}く→裁く：02112_sabaku⟧ (to judge), which shares the same reading but has different kanji and meaning.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "05035_sougen",
+      "reading": "そうげん",
+      "headword": "{草原|そうげん}",
+      "label": "grassland, prairie"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19972_sakyuu",
+      "reading": "さきゅう",
+      "headword": "{砂丘|さきゅう}",
+      "label": "sand dune"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22727_kansouchitai",
+      "reading": "かんそうちたい",
+      "headword": "{乾燥地帯|かんそうちたい}",
+      "label": "arid region"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24030_fumouchitai",
+      "reading": "ふもうちたい",
+      "headword": "{不毛地帯|ふもうちたい}",
+      "label": "barren land"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28719_sabanna",
+      "reading": "さばんな",
+      "headword": "サバンナ",
+      "label": "savanna"
+    }
+  ],
   "metadata": {
     "created": "2026-02-02T10:21:20Z",
-    "modified": "2026-03-25T09:40:20Z",
+    "modified": "2026-09-02T04:01:18Z",
     "ai_model": "claude-opus-4-5-20251101",
     "vocabulary_tier": "general",
     "tags": {

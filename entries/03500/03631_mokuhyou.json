@@ -34,7 +34,7 @@
     },
     {
       "id": "03631_mokuhyou_ex3",
-      "japanese": "{目標|もくひょう}⟦を→を：00422_wo⟧⟦{達成|たっせい}→達成：04816_tassei⟧するため⟦に→に：00314_ni⟧⟦{努力|どりょく}→努力：03490_doryoku⟧する。",
+      "japanese": "{目標|もくひょう}⟦を→を：00422_wo⟧⟦{達成|たっせい}→達成：04816_tassei⟧⟦する→する：00392_suru⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧⟦{努力|どりょく}→努力：03490_doryoku⟧⟦する→する：00392_suru⟧。",
       "english": "To work hard to achieve a goal.",
       "notes": "{目標|もくひょう}⟦を→を：00422_wo⟧⟦{達成|たっせい}→達成：04816_tassei⟧する = to achieve a goal",
       "has_audio": false,
@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "{目標|もくひょう} refers to a specific, concrete target or goal that one aims to reach. It implies something measurable or clearly defined, such as a sales target, test score, or deadline.\n\nCOMMON PATTERNS:\n- {目標|もくひょう}⟦を→を：00422_wo⟧⟦{立|た}てる→立てる：01196_tateru⟧: to set a goal\n- {目標|もくひょう}⟦を→を：00422_wo⟧⟦{達成|たっせい}→達成：04816_tassei⟧する: to achieve a goal\n- {目標|もくひょう}⟦に→に：00314_ni⟧⟦{向|む}かう→向かう：01186_mukau⟧: to head toward the goal\n\nSEE ALSO: ⟦{目的|もくてき}→目的：02433_mokuteki⟧ (purpose, aim) — more abstract",
+  "notes": "{目標|もくひょう} refers to a specific, concrete target or goal that one aims to reach. It implies something measurable or clearly defined, such as a sales target, test score, or deadline.\n\nCOMMON PATTERNS:\n- {目標|もくひょう}⟦を→を：00422_wo⟧⟦{立|た}てる→立てる：01196_tateru⟧: to set a goal\n- {目標|もくひょう}⟦を→を：00422_wo⟧⟦{達成|たっせい}→達成：04816_tassei⟧⟦する→する：00392_suru⟧: to achieve a goal\n- {目標|もくひょう}⟦に→に：00314_ni⟧⟦{向|む}かう→向かう：01186_mukau⟧: to head toward the goal\n\nSEE ALSO: ⟦{目的|もくてき}→目的：02433_mokuteki⟧ (purpose, aim) — more abstract",
   "cross_references": [
     {
       "type": "contrast",
@@ -71,11 +71,39 @@
       "headword": "{目的|もくてき}",
       "label": "purpose",
       "target_id": "02433_mokuteki"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03845_gooru",
+      "reading": "ごーる",
+      "headword": "ゴール",
+      "label": "goal"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07286_medo",
+      "reading": "めど",
+      "headword": "{目処|めど}",
+      "label": "prospect"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27807_hatajirushi",
+      "reading": "はたじるし",
+      "headword": "{旗印|はたじるし}",
+      "label": "banner"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30747_noruma",
+      "reading": "のるま",
+      "headword": "ノルマ",
+      "label": "quota"
     }
   ],
   "metadata": {
     "created": "2026-01-12T16:12:08Z",
-    "modified": "2026-08-13T15:50:29Z",
+    "modified": "2026-09-02T04:01:03Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

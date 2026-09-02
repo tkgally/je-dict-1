@@ -15,41 +15,74 @@
   "examples": [
     {
       "id": "28810_nikuman_ex1",
-      "japanese": "コンビニで{肉|にく}まんを{買|か}った。",
+      "japanese": "⟦コンビニ→コンビニ：01081_konbini⟧⟦で→で：00502_de⟧{肉|にく}まん⟦を→を：00422_wo⟧⟦{買|か}った→買う：00489_kau⟧。",
       "english": "I bought a steamed pork bun at the convenience store.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28810_nikuman_ex2",
-      "japanese": "{冬|ふゆ}になると{肉|にく}まんが{食|た}べたくなる。",
+      "japanese": "⟦{冬|ふゆ}→冬：00623_fuyu⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦と→と：00512_to⟧{肉|にく}まん⟦が→が：00051_ga⟧⟦{食|た}べたく→食べる：00396_taberu⟧⟦なる→なる：01970_naru⟧。",
       "english": "I start craving steamed pork buns when winter comes.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28810_nikuman_ex3",
-      "japanese": "アツアツの{肉|にく}まんにからしをつけて{食|た}べるのが{私|わたし}の{定番|ていばん}だ。",
+      "japanese": "アツアツ⟦の→の：09472_no⟧{肉|にく}まん⟦に→に：00314_ni⟧⟦からし→からし：28711_karashi⟧⟦を→を：00422_wo⟧⟦つけて→つける：00562_tsukeru⟧⟦{食|た}べる→食べる：00396_taberu⟧⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦{私|わたし}→私：02988_watashi⟧⟦の→の：09472_no⟧⟦{定番|ていばん}→定番：12265_teiban⟧だ。",
       "english": "My standard way of eating piping-hot pork buns is with a dab of mustard.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Short for {肉|にく}まんじゅう (meat manju). Sold year-round but considered a winter food, kept warm in heated cases by convenience-store registers from autumn through spring.\n\nCOMMON COLLOCATIONS:\n- {肉|にく}まんを{蒸|む}す: to steam a pork bun\n- アツアツの{肉|にく}まん: piping-hot pork bun\n- {肉|にく}まんにからしをつける: to eat a pork bun with mustard\n\nSIMILAR WORDS:\n- あんまん: sweet bean-paste bun — same shape, sweet azuki filling\n- ピザまん: 'pizza bun' — modern variant with tomato-cheese filling\n- カレーまん: curry bun\n- {中華|ちゅうか}まん: general term covering all these steamed buns\n\nREGIONAL NOTE:\nIn the Kansai region, this is often called {豚|ぶた}まん, where {肉|にく} traditionally implies beef.",
+  "notes": "Short for {肉|にく}まんじゅう (meat manju). Sold year-round but considered a winter food, kept warm in heated cases by convenience-store registers from autumn through spring.\n\nCOMMON COLLOCATIONS:\n- {肉|にく}まん⟦を→を：00422_wo⟧⟦{蒸|む}す→蒸す：02307_musu⟧: to steam a pork bun\n- アツアツ⟦の→の：09472_no⟧{肉|にく}まん: piping-hot pork bun\n- {肉|にく}まん⟦に→に：00314_ni⟧⟦からし→からし：28711_karashi⟧⟦を→を：00422_wo⟧⟦つける→つける：00562_tsukeru⟧: to eat a pork bun with mustard\n\nSIMILAR WORDS:\n- ⟦あんまん→あんまん：30279_anman⟧: sweet bean-paste bun — same shape, sweet azuki filling\n- ⟦ピザ→ピザ：06769_piza⟧まん: 'pizza bun' — modern variant with tomato-cheese filling\n- ⟦カレー→カレー：02898_karee⟧まん: curry bun\n- ⟦{中華|ちゅうか}まん→中華まん：30274_chuukaman⟧: general term covering all these steamed buns\n\nREGIONAL NOTE:\nIn the Kansai region, this is often called {豚|ぶた}まん, where ⟦{肉|にく}→肉：02240_niku⟧ traditionally implies beef.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "30279_anman",
+      "reading": "あんまん",
+      "headword": "あんまん",
+      "label": "sweet bean-paste bun"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30274_chuukaman",
+      "reading": "ちゅうかまん",
+      "headword": "{中華|ちゅうか}まん",
+      "label": "general term covering all these steamed…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28811_mushipan",
+      "reading": "むしぱん",
+      "headword": "{蒸|む}しパン",
+      "label": "steamed cake"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["food"],
+      "politeness": "plain",
+      "semantic": [
+        "food"
+      ],
       "domain": []
     },
     "created": "2026-06-05T04:08:23Z",
-    "modified": "2026-06-05T04:08:23Z"
+    "modified": "2026-09-02T04:02:35Z"
   }
 }

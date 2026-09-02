@@ -3,7 +3,7 @@
   "headword": "{滅菌|めっきん}",
   "reading": "めっきん",
   "romaji": "mekkin",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "sterilization; destroying all microorganisms",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24175_mekkin_ex1",
-      "japanese": "{器具|きぐ}を{滅菌|めっきん}する。",
+      "japanese": "⟦{器具|きぐ}→器具：03980_kigu⟧⟦を→を：00422_wo⟧{滅菌|めっきん}⟦する→する：00392_suru⟧。",
       "english": "To sterilize the instruments.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24175_mekkin_ex2",
-      "japanese": "{哺乳|ほにゅう}{瓶|びん}は{使用|しよう}{前|まえ}に{滅菌|めっきん}してください。",
+      "japanese": "⟦{哺乳|ほにゅう}{瓶|びん}→哺乳瓶：20671_honyuubin⟧⟦は→は：00079_ha⟧⟦{使用|しよう}→使用：01637_shiyou⟧⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧{滅菌|めっきん}⟦して→する：00392_suru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please sterilize baby bottles before use.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24175_mekkin_ex3",
-      "japanese": "{手術室|しゅじゅつしつ}では{全|すべ}ての{道具|どうぐ}が{厳密|げんみつ}に{滅菌|めっきん}{処理|しょり}されている。",
+      "japanese": "{手術室|しゅじゅつしつ}⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{全|すべ}て→全て：03822_subete⟧⟦の→の：09472_no⟧⟦{道具|どうぐ}→道具：01479_dougu⟧⟦が→が：00051_ga⟧⟦{厳密|げんみつ}→厳密：11885_genmitsu⟧⟦に→に：00314_ni⟧{滅菌|めっきん}⟦{処理|しょり}→処理：03251_shori⟧⟦されている→する：00392_suru⟧。",
       "english": "All instruments in the operating room are rigorously sterilized.",
       "sense_numbers": [
         1
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "Refers to the complete destruction of all microorganisms including bacteria, viruses, and spores. Stricter than {殺菌|さっきん} (disinfection), which only reduces the number of pathogens.\n\nCOMMON COLLOCATIONS:\n- {滅菌|めっきん}{処理|しょり}: sterilization treatment\n- {滅菌|めっきん}{済|ず}み: sterilized (done)\n- {高圧|こうあつ}{滅菌|めっきん}: autoclave sterilization\n- {滅菌|めっきん}ガーゼ: sterile gauze\n\nSIMILAR WORDS:\n- {殺菌|さっきん}: disinfection, pasteurization — kills or reduces harmful bacteria but does not eliminate all microorganisms\n- {消毒|しょうどく}: disinfection, sanitization — a broader term for cleaning to remove pathogens; used in everyday contexts like hand sanitizing\n- {除菌|じょきん}: removing bacteria — commonly seen on household cleaning products; less technical than {滅菌|めっきん}",
+  "notes": "Refers to the complete destruction of all microorganisms including bacteria, viruses, and spores. Stricter than ⟦{殺菌|さっきん}→殺菌：09781_sakkin⟧ (disinfection), which only reduces the number of pathogens.\n\nCOMMON COLLOCATIONS:\n- {滅菌|めっきん}⟦{処理|しょり}→処理：03251_shori⟧: sterilization treatment\n- {滅菌|めっきん}⟦{済|ず}み→〜済み：04013_zumi⟧: sterilized (done)\n- ⟦{高圧|こうあつ}→高圧：21094_kouatsu⟧{滅菌|めっきん}: autoclave sterilization\n- {滅菌|めっきん}⟦ガーゼ→ガーゼ：28833_gaaze⟧: sterile gauze\n\nSIMILAR WORDS:\n- ⟦{殺菌|さっきん}→殺菌：09781_sakkin⟧: disinfection, pasteurization — kills or reduces harmful bacteria but does not eliminate all microorganisms\n- ⟦{消毒|しょうどく}→消毒：07591_shoudoku⟧: disinfection, sanitization — a broader term for cleaning to remove pathogens; used in everyday contexts like hand sanitizing\n- ⟦{除菌|じょきん}→除菌：07789_jokin⟧: removing bacteria — commonly seen on household cleaning products; less technical than {滅菌|めっきん}",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09781_sakkin",
+      "reading": "さっきん",
+      "headword": "{殺菌|さっきん}",
+      "label": "disinfection, pasteurization"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07591_shoudoku",
+      "reading": "しょうどく",
+      "headword": "{消毒|しょうどく}",
+      "label": "disinfection, sanitization"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07789_jokin",
+      "reading": "じょきん",
+      "headword": "{除菌|じょきん}",
+      "label": "removing bacteria"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21567_koukin",
+      "reading": "こうきん",
+      "headword": "{抗菌|こうきん}",
+      "label": "antibacterial"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,6 +83,8 @@
         "noun",
         "verb-suru"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "health",
         "science"
@@ -60,10 +92,11 @@
       "usage": [
         "technical"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-04-17T21:41:00Z",
-    "modified": "2026-08-02T18:32:34Z"
+    "modified": "2026-09-02T04:02:17Z"
   },
   "conjugation": {
     "type": "suru",

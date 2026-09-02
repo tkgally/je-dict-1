@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "13328_yougan_ex1",
-      "japanese": "{火山|かざん}から{溶岩|ようがん}が{流|なが}れ{出|だ}した。",
+      "japanese": "⟦{火山|かざん}→火山：04020_kazan⟧⟦から→から：00504_kara⟧{溶岩|ようがん}⟦が→が：00051_ga⟧⟦{流|なが}れ{出|だ}した→流れ出す：06086_nagaredasu⟧。",
       "english": "Lava flowed out of the volcano.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "13328_yougan_ex2",
-      "japanese": "{溶岩|ようがん}が{冷|ひ}えて{固|かた}まった{岩|いわ}が{見|み}られる。",
+      "japanese": "{溶岩|ようがん}⟦が→が：00051_ga⟧⟦{冷|ひ}えて→冷える：01154_hieru⟧⟦{固|かた}まった→固まる：01928_katamaru⟧⟦{岩|いわ}→岩：00850_iwa⟧⟦が→が：00051_ga⟧⟦{見|み}られる→見る：00283_miru⟧。",
       "english": "You can see rocks formed from cooled and solidified lava.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "13328_yougan_ex3",
-      "japanese": "{富士山|ふじさん}の{周辺|しゅうへん}には{過去|かこ}の{噴火|ふんか}で{流|なが}れた{溶岩|ようがん}の{跡|あと}がある。",
+      "japanese": "⟦{富士山|ふじさん}→富士山：09514_fujisan⟧⟦の→の：09472_no⟧⟦{周辺|しゅうへん}→周辺：09896_shuuhen⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{過去|かこ}→過去：00152_kako⟧⟦の→の：09472_no⟧⟦{噴火|ふんか}→噴火：00045_funka⟧⟦で→で：00502_de⟧⟦{流|なが}れた→流れる：01969_nagareru⟧{溶岩|ようがん}⟦の→の：09472_no⟧⟦{跡|あと}→跡：02174_ato⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "Around Mt. Fuji, there are traces of lava that flowed from past eruptions.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,68 @@
       ]
     }
   ],
-  "notes": "USAGE:\nThe characters literally mean \"melted rock\" ({溶|と}ける + {岩|いわ}). Refers to both the molten state during eruption and the solidified rock afterward. Japan has many active volcanoes, making this word relevant in geography, tourism, and disaster preparedness.\n\nThe underground version before eruption is called マグマ (magma).\n\nCOMMON COLLOCATIONS:\n- {溶岩|ようがん}が{流|なが}れる: lava flows\n- {溶岩流|ようがんりゅう}: lava flow\n- {溶岩|ようがん}{台地|だいち}: lava plateau\n- {溶岩|ようがん}ドーム: lava dome",
-  "cross_references": [],
+  "notes": "USAGE:\nThe characters literally mean \"melted rock\" (⟦{溶|と}ける→溶ける：02302_tokeru⟧ + ⟦{岩|いわ}→岩：00850_iwa⟧). Refers to both the molten state during eruption and the solidified rock afterward. Japan has many active volcanoes, making this word relevant in geography, tourism, and disaster preparedness.\n\nThe underground version before eruption is called ⟦マグマ→マグマ：22084_maguma⟧ (magma).\n\nCOMMON COLLOCATIONS:\n- {溶岩|ようがん}⟦が→が：00051_ga⟧⟦{流|なが}れる→流れる：01969_nagareru⟧: lava flows\n- {溶岩流|ようがんりゅう}: lava flow\n- {溶岩|ようがん}{台地|だいち}: lava plateau\n- {溶岩|ようがん}⟦ドーム→ドーム：24058_doomu⟧: lava dome",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "00045_funka",
+      "reading": "ふんか",
+      "headword": "{噴火|ふんか}",
+      "label": "volcanic eruption"
+    },
+    {
+      "type": "related",
+      "target_id": "00448_kakou",
+      "reading": "かこう",
+      "headword": "{火口|かこう}",
+      "label": "crater (of volcano)"
+    },
+    {
+      "type": "related",
+      "target_id": "04020_kazan",
+      "reading": "かざん",
+      "headword": "{火山|かざん}",
+      "label": "volcano"
+    },
+    {
+      "type": "related",
+      "target_id": "19155_funen",
+      "reading": "ふんえん",
+      "headword": "{噴煙|ふんえん}",
+      "label": "volcanic smoke"
+    },
+    {
+      "type": "related",
+      "target_id": "19412_kazanbai",
+      "reading": "かざんばい",
+      "headword": "{火山灰|かざんばい}",
+      "label": "volcanic ash"
+    },
+    {
+      "type": "related",
+      "target_id": "22084_maguma",
+      "reading": "まぐま",
+      "headword": "マグマ",
+      "label": "magma"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23729_genbugan",
+      "reading": "げんぶがん",
+      "headword": "{玄武岩|げんぶがん}",
+      "label": "basalt"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27349_funkakou",
+      "reading": "ふんかこう",
+      "headword": "{噴火口|ふんかこう}",
+      "label": "volcanic crater"
+    }
+  ],
   "metadata": {
     "created": "2026-02-24T10:00:26Z",
-    "modified": "2026-07-09T15:31:23Z",
+    "modified": "2026-09-02T04:01:32Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

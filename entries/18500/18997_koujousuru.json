@@ -2,7 +2,7 @@
   "id": "18997_koujousuru",
   "headword": "{向上|こうじょう}する",
   "reading": "こうじょうする",
-  "part_of_speech": "noun, suru verb, intransitive",
+  "part_of_speech": "noun, suru verb (intransitive)",
   "gloss": "to improve; to get better; to advance",
   "conjugation": {
     "type": "suru",
@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "18997_koujousuru_ex1",
-      "japanese": "{成績|せいせき}が{向上|こうじょう}した。",
+      "japanese": "⟦{成績|せいせき}→成績：03379_seiseki⟧⟦が→が：00051_ga⟧{向上|こうじょう}した。",
       "english": "My grades improved.",
       "sense_numbers": [
         1
@@ -114,7 +114,7 @@
     },
     {
       "id": "18997_koujousuru_ex2",
-      "japanese": "{技術|ぎじゅつ}の{向上|こうじょう}を{目指|めざ}して{練習|れんしゅう}する。",
+      "japanese": "⟦{技術|ぎじゅつ}→技術：01389_gijutsu⟧⟦の→の：09472_no⟧⟦{向上|こうじょう}→向上：02731_koujou⟧⟦を→を：00422_wo⟧⟦{目指|めざ}して→目指す：10528_mezasu⟧⟦{練習|れんしゅう}する→練習する：22991_renshuusuru⟧。",
       "english": "I practice with the aim of improving my skills.",
       "sense_numbers": [
         1
@@ -124,7 +124,7 @@
     },
     {
       "id": "18997_koujousuru_ex3",
-      "japanese": "{新|あたら}しいシステムの{導入|どうにゅう}により、{業務効率|ぎょうむこうりつ}が{大幅|おおはば}に{向上|こうじょう}した。",
+      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦システム→システム：08428_shisutemu⟧⟦の→の：09472_no⟧⟦{導入|どうにゅう}→導入：10127_dounyuu⟧⟦に→に：00314_ni⟧⟦より→より：09476_yori⟧、{業務効率|ぎょうむこうりつ}⟦が→が：00051_ga⟧⟦{大幅|おおはば}→大幅：12170_oohaba⟧⟦に→に：00314_ni⟧{向上|こうじょう}した。",
       "english": "The introduction of the new system greatly improved operational efficiency.",
       "sense_numbers": [
         1
@@ -133,8 +133,24 @@
       "notes": null
     }
   ],
-  "notes": "Almost always intransitive ({が{向上|こうじょう}する}). To express 'to improve something' transitively, use {向上|こうじょう}させる. Common collocations: {品質|ひんしつ}の{向上|こうじょう} (quality improvement), {生活水準|せいかつすいじゅん}の{向上|こうじょう} (improvement in living standards), {向上心|こうじょうしん} (ambition, desire to improve oneself). {向上心|こうじょうしん} is a common standalone compound meaning 'drive to improve' or 'aspiration.'",
+  "notes": "Almost always intransitive (⟦が→が：00051_ga⟧{向上|こうじょう}する). To express 'to improve something' transitively, use {向上|こうじょう}させる. Common collocations: ⟦{品質|ひんしつ}→品質：09507_hinshitsu⟧⟦の→の：09472_no⟧⟦{向上|こうじょう}→向上：02731_koujou⟧ (quality improvement), {生活水準|せいかつすいじゅん}⟦の→の：09472_no⟧⟦{向上|こうじょう}→向上：02731_koujou⟧ (improvement in living standards), ⟦{向上心|こうじょうしん}→向上心：11897_koujoushin⟧ (ambition, desire to improve oneself). ⟦{向上心|こうじょうしん}→向上心：11897_koujoushin⟧ is a common standalone compound meaning 'drive to improve' or 'aspiration.'",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17981_joutatsusuru",
+      "reading": "じょうたつする",
+      "headword": "{上達|じょうたつ}する",
+      "label": "to improve"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26828_kaizensuru",
+      "reading": "かいぜんする",
+      "headword": "{改善|かいぜん}する",
+      "label": "to improve"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -151,6 +167,6 @@
       "verb_class": "suru"
     },
     "created": "2026-03-23T12:14:04Z",
-    "modified": "2026-03-23T12:14:04Z"
+    "modified": "2026-09-02T04:01:54Z"
   }
 }

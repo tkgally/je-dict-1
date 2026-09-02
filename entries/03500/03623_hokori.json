@@ -16,7 +16,7 @@
       "id": "03623_hokori_ex1",
       "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{息子|むすこ}→息子：00799_musuko⟧⟦を→を：00422_wo⟧{誇|ほこ}り⟦に→に：00314_ni⟧⟦{思|おも}っている→思う：00492_omou⟧。",
       "english": "He is proud of his son.",
-      "notes": "〜{WO}{{誇|ほこ}}り{NI}⟦{{思|おも}}う→思う：00492_omou⟧ = to be proud of ~",
+      "notes": "〜{WO}{誇|ほこ}り{NI}⟦{思|おも}う→思う：00492_omou⟧ = to be proud of ~",
       "has_audio": false,
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "03623_hokori_ex3",
-      "japanese": "{誇|ほこ}り⟦を→を：00422_wo⟧⟦{持|も}って→持つ：00478_motsu⟧⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦を→を：00422_wo⟧する。",
+      "japanese": "{誇|ほこ}り⟦を→を：00422_wo⟧⟦{持|も}って→持つ：00478_motsu⟧⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧。",
       "english": "To work with pride.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
     },
     {
       "id": "03623_hokori_ex4",
-      "japanese": "⟦この→この：00962_kono⟧⟦{町|まち}→町：00613_machi⟧⟦の→の：09472_no⟧⟦{歴史|れきし}→歴史：02267_rekishi⟧⟦は→は：00079_ha⟧⟦{住民|じゅうみん}→住民：03281_juumin⟧⟦の→の：09472_no⟧{誇|ほこ}りであり、みんな⟦が→が：00051_ga⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧にしている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{町|まち}→町：00613_machi⟧⟦の→の：09472_no⟧⟦{歴史|れきし}→歴史：02267_rekishi⟧⟦は→は：00079_ha⟧⟦{住民|じゅうみん}→住民：03281_juumin⟧⟦の→の：09472_no⟧{誇|ほこ}りで⟦あり→ある：00006_aru⟧、⟦みんな→みんな：02972_minna⟧⟦が→が：00051_ga⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧にして⟦いる→いる：00495_iru⟧。",
       "english": "The history of this town is a source of pride for its residents, and everyone treasures it.",
       "notes": null,
       "has_audio": false,
@@ -86,11 +86,32 @@
       "reading": "むねをはる",
       "headword": "{胸|むね}を{張|は}る",
       "label": "to hold one's head high"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14903_eiyo",
+      "reading": "えいよ",
+      "headword": "{栄誉|えいよ}",
+      "label": "honor"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21151_jifu",
+      "reading": "じふ",
+      "headword": "{自負|じふ}",
+      "label": "pride"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22290_puraido",
+      "reading": "ぷらいど",
+      "headword": "プライド",
+      "label": "pride"
     }
   ],
   "metadata": {
     "created": "2026-01-12T15:37:00Z",
-    "modified": "2026-08-12T18:18:32Z",
+    "modified": "2026-09-02T04:01:03Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

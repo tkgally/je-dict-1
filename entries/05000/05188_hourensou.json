@@ -44,7 +44,7 @@
     },
     {
       "id": "05188_hourensou_ex4",
-      "japanese": "ほうれん{草|そう}⟦は→は：00079_ha⟧⟦{体|からだ}→体：00784_karada⟧⟦に→に：00314_ni⟧いい⟦{野菜|やさい}→野菜：02265_yasai⟧だ。",
+      "japanese": "ほうれん{草|そう}⟦は→は：00079_ha⟧⟦{体|からだ}→体：00784_karada⟧⟦に→に：00314_ni⟧⟦いい→いい：00118_ii⟧⟦{野菜|やさい}→野菜：02265_yasai⟧だ。",
       "english": "Spinach is a healthy vegetable.",
       "notes": null,
       "has_audio": false,
@@ -71,11 +71,18 @@
       "reading": "やさい",
       "headword": "{野菜|やさい}",
       "label": "vegetable (category)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23393_mizuna",
+      "reading": "みずな",
+      "headword": "{水菜|みずな}",
+      "label": "mizuna (Japanese mustard greens)"
     }
   ],
   "metadata": {
     "created": "2026-01-16T03:22:45Z",
-    "modified": "2026-08-20T06:21:38Z",
+    "modified": "2026-09-02T04:01:06Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

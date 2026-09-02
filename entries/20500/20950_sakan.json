@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "20950_sakan_ex1",
-      "japanese": "{左官|さかん}{職人|しょくにん}を{呼|よ}ぶ。",
+      "japanese": "{左官|さかん}⟦{職人|しょくにん}→職人：09868_shokunin⟧⟦を→を：00422_wo⟧⟦{呼|よ}ぶ→呼ぶ：00766_yobu⟧。",
       "english": "I'll call a plasterer.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "20950_sakan_ex2",
-      "japanese": "{左官|さかん}の{技術|ぎじゅつ}で{美|うつく}しい{壁|かべ}を{仕上|しあ}げた。",
+      "japanese": "{左官|さかん}⟦の→の：09472_no⟧⟦{技術|ぎじゅつ}→技術：01389_gijutsu⟧⟦で→で：00502_de⟧⟦{美|うつく}しい→美しい：01121_utsukushii⟧⟦{壁|かべ}→壁：01290_kabe⟧⟦を→を：00422_wo⟧⟦{仕上|しあ}げた→仕上げる：04664_shiageru⟧。",
       "english": "The wall was beautifully finished with plastering techniques.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "20950_sakan_ex3",
-      "japanese": "{伝統的|でんとうてき}な{左官|さかん}の{技|わざ}を{受|う}け{継|つ}ぐ{若手|わかて}が{少|すく}なくなっている。",
+      "japanese": "⟦{伝統的|でんとうてき}→伝統的：04802_dentouteki⟧な{左官|さかん}⟦の→の：09472_no⟧⟦{技|わざ}→技：02172_waza⟧⟦を→を：00422_wo⟧⟦{受|う}け{継|つ}ぐ→受け継ぐ：06700_uketsugu⟧⟦{若手|わかて}→若手：13989_wakate⟧⟦が→が：00051_ga⟧⟦{少|すく}なく→少ない：01136_sukunai⟧⟦なっている→なる：01970_naru⟧。",
       "english": "Fewer young people are carrying on the traditional plastering craft.",
       "sense_numbers": [
         1
@@ -43,8 +43,24 @@
       "notes": null
     }
   ],
-  "notes": "An old and respected building trade in Japan. Traditional {左官|さかん} work includes applying {漆喰|しっくい} (lime plaster) to castle walls and storehouses, and {土壁|つちかべ} (earthen walls) in traditional houses. The craft is considered an art form, and skilled practitioners are highly valued.\n\nCOMMON COLLOCATIONS:\n- {左官|さかん}{職人|しょくにん}: plasterer, plastering craftsman\n- {左官|さかん}{工事|こうじ}: plastering work\n- {左官|さかん}の{技術|ぎじゅつ}: plastering technique\n- {左官|さかん}{仕上|しあ}げ: plaster finish\n\nETYMOLOGY:\nThe name comes from an old court rank ({左官|さかん}, an official position), though the exact historical connection to the plastering trade is debated.\n\nRELATED TERMS:\n- {大工|だいく}: carpenter — builds wooden structures\n- {鳶|とび}{職|しょく}: scaffolding worker\n- {漆喰|しっくい}: lime plaster — material applied by plasterers",
+  "notes": "An old and respected building trade in Japan. Traditional {左官|さかん} work includes applying {漆喰|しっくい} (lime plaster) to castle walls and storehouses, and {土壁|つちかべ} (earthen walls) in traditional houses. The craft is considered an art form, and skilled practitioners are highly valued.\n\nCOMMON COLLOCATIONS:\n- {左官|さかん}⟦{職人|しょくにん}→職人：09868_shokunin⟧: plasterer, plastering craftsman\n- {左官|さかん}⟦{工事|こうじ}→工事：00244_kouji⟧: plastering work\n- {左官|さかん}⟦の→の：09472_no⟧⟦{技術|ぎじゅつ}→技術：01389_gijutsu⟧: plastering technique\n- {左官|さかん}⟦{仕上|しあ}げ→仕上げ：11519_shiage⟧: plaster finish\n\nETYMOLOGY:\nThe name comes from an old court rank ({左官|さかん}, an official position), though the exact historical connection to the plastering trade is debated.\n\nRELATED WORDS:\n- ⟦{大工|だいく}→大工：04051_daiku⟧: carpenter — builds wooden structures\n- {鳶|とび}{職|しょく}: scaffolding worker\n- {漆喰|しっくい}: lime plaster — material applied by plasterers",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "04051_daiku",
+      "reading": "だいく",
+      "headword": "{大工|だいく}",
+      "label": "carpenter"
+    },
+    {
+      "type": "related",
+      "target_id": "07090_haikankou",
+      "reading": "はいかんこう",
+      "headword": "{配管工|はいかんこう}",
+      "label": "plumber"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +75,6 @@
       ]
     },
     "created": "2026-03-30T22:19:48Z",
-    "modified": "2026-07-28T09:35:50Z"
+    "modified": "2026-09-02T04:02:01Z"
   }
 }

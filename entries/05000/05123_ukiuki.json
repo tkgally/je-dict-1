@@ -2,7 +2,7 @@
   "id": "05123_ukiuki",
   "headword": "{浮|う}き{浮|う}き",
   "reading": "うきうき",
-  "part_of_speech": "adverb / suru-verb",
+  "part_of_speech": "adverb, suru verb",
   "gloss": "cheerfully, excitedly",
   "conjugation": {
     "type": "suru",
@@ -153,11 +153,33 @@
       ]
     }
   ],
-  "notes": "USAGE PATTERNS:\n- {浮|う}き{浮|う}き⟦する→する：00392_suru⟧ (to feel excited/cheerful)\n- {浮|う}き{浮|う}き⟦した→する：00392_suru⟧⟦{気分|きぶん}→気分：01306_kibun⟧ (a cheerful mood)\n- {浮|う}き{浮|う}き⟦{気分|きぶん}→気分：01306_kibun⟧ (excited mood)\n\nONOMATOPOEIA NOTES:\n- This is a giongo/gitaigo (⟦{擬態語|ぎたいご}→擬態語：22468_gitaigo⟧) that expresses a light, buoyant emotional state.\n- Related to the verb ⟦{浮|う}く→浮く：00413_uku⟧ (to float), suggesting a feeling of lightness.\n\nSIMILAR WORDS:\n- ⟦わくわく→わくわく：05158_wakuwaku⟧ (excited, thrilled)\n- ⟦そわそわ→そわそわ：05267_sowasowa⟧ (restless, fidgety)",
-  "cross_references": [],
+  "notes": "COMMON PATTERNS:\n- {浮|う}き{浮|う}き⟦する→する：00392_suru⟧ (to feel excited/cheerful)\n- {浮|う}き{浮|う}き⟦した→する：00392_suru⟧⟦{気分|きぶん}→気分：01306_kibun⟧ (a cheerful mood)\n- {浮|う}き{浮|う}き⟦{気分|きぶん}→気分：01306_kibun⟧ (excited mood)\n\nONOMATOPOEIA NOTES:\n- This is a giongo/gitaigo (⟦{擬態語|ぎたいご}→擬態語：22468_gitaigo⟧) that expresses a light, buoyant emotional state.\n- Related to the verb ⟦{浮|う}く→浮く：00413_uku⟧ (to float), suggesting a feeling of lightness.\n\nSIMILAR WORDS:\n- ⟦わくわく→わくわく：05158_wakuwaku⟧ (excited, thrilled)\n- ⟦そわそわ→そわそわ：05267_sowasowa⟧ (restless, fidgety)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05158_wakuwaku",
+      "reading": "わくわく",
+      "headword": "わくわく",
+      "label": "excited, thrilled"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05267_sowasowa",
+      "reading": "そわそわ",
+      "headword": "そわそわ",
+      "label": "restless, fidgety"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05834_shonbori",
+      "reading": "しょんぼり",
+      "headword": "しょんぼり",
+      "label": "dejectedly, sadly, downcast"
+    }
+  ],
   "metadata": {
     "created": "2026-01-16T02:32:54Z",
-    "modified": "2026-06-04T16:09:35Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

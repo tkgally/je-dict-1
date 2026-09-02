@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "09183_yabottai_ex1",
-      "japanese": "{野暮|やぼ}ったい{服|ふく}",
+      "japanese": "{野暮|やぼ}ったい⟦{服|ふく}→服：00695_fuku⟧",
       "english": "unfashionable clothes",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "09183_yabottai_ex2",
-      "japanese": "その{髪型|かみがた}、ちょっと{野暮|やぼ}ったくない?",
+      "japanese": "⟦その→その：00993_sono⟧⟦{髪型|かみがた}→髪型：14646_kamigata⟧、⟦ちょっと→ちょっと：00595_chotto⟧{野暮|やぼ}ったく⟦ない→ない：01118_nai⟧?",
       "english": "Isn't that hairstyle a bit dowdy?",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "09183_yabottai_ex3",
-      "japanese": "{野暮|やぼ}ったいデザインの{店|みせ}だったが、{料理|りょうり}は{絶品|ぜっぴん}だった。",
+      "japanese": "{野暮|やぼ}ったい⟦デザイン→デザイン：03860_dezain⟧⟦の→の：09472_no⟧⟦{店|みせ}→店：00497_mise⟧だった⟦が→が：00051_ga⟧、⟦{料理|りょうり}→料理：01523_ryouri⟧⟦は→は：00079_ha⟧⟦{絶品|ぜっぴん}→絶品：13811_zeppin⟧だった。",
       "english": "The restaurant had an unfashionable design, but the food was superb.",
       "sense_numbers": [
         1
@@ -43,7 +43,7 @@
       "notes": null
     }
   ],
-  "notes": "ADJECTIVE TYPE: I-adjective.\n\nADJECTIVE FORMS:\n- Adverb: {野暮|やぼ}ったく\n- Noun form: {野暮|やぼ}ったさ\n\nETYMOLOGY: From {野暮|やぼ} (boorish, unsophisticated) + っぽい/たい suffix indicating tendency.\n\nNUANCE: {野暮|やぼ}ったい is primarily about appearance and style - it suggests something looks dated, provincial, or lacks urban chic. Less harsh than direct insults but clearly critical.\n\nCOMMON COLLOCATIONS:\n- {野暮|やぼ}ったい{服|ふく}/{格好|かっこう} (unfashionable clothes/outfit)\n- {野暮|やぼ}ったい{髪型|かみがた} (dowdy hairstyle)\n- {野暮|やぼ}ったいデザイン (tacky design)\n\nRELATED WORDS:\n- {野暮|やぼ} (boorish, uncouth - stronger)\n- {ダサい} (lame, uncool - slang)\n- {垢抜|あかぬ}けない (unsophisticated - opposite of refined)\n- {垢抜|あかぬ}けた (sophisticated - opposite)",
+  "notes": "ADJECTIVE TYPE: I-adjective.\n\nADJECTIVE FORMS:\n- Adverb: {野暮|やぼ}ったく\n- Noun form: {野暮|やぼ}ったさ\n\nETYMOLOGY: From ⟦{野暮|やぼ}→野暮：06072_yabo⟧ (boorish, unsophisticated) + ⟦っぽい→っぽい：06781_ppoi⟧/たい suffix indicating tendency.\n\nNUANCE: {野暮|やぼ}ったい is primarily about appearance and style - it suggests something looks dated, provincial, or lacks urban chic. Less harsh than direct insults but clearly critical.\n\nCOMMON COLLOCATIONS:\n- {野暮|やぼ}ったい⟦{服|ふく}→服：00695_fuku⟧/⟦{格好|かっこう}→格好：01800_kakkou⟧ (unfashionable clothes/outfit)\n- {野暮|やぼ}ったい⟦{髪型|かみがた}→髪型：14646_kamigata⟧ (dowdy hairstyle)\n- {野暮|やぼ}ったい⟦デザイン→デザイン：03860_dezain⟧ (tacky design)\n\nRELATED WORDS:\n- ⟦{野暮|やぼ}→野暮：06072_yabo⟧ (boorish, uncouth - stronger)\n- ダサい (lame, uncool - slang)\n- ⟦{垢抜|あかぬ}けない→垢抜ける：15501_akanukeru⟧ (unsophisticated - opposite of refined)\n- ⟦{垢抜|あかぬ}けた→垢抜ける：15501_akanukeru⟧ (sophisticated - opposite)",
   "cross_references": [
     {
       "type": "antonym",
@@ -58,11 +58,32 @@
       "reading": "せんれん",
       "headword": "{洗練|せんれん}",
       "label": "refined"
+    },
+    {
+      "type": "related",
+      "target_id": "06072_yabo",
+      "reading": "やぼ",
+      "headword": "{野暮|やぼ}",
+      "label": "boorish, uncouth"
+    },
+    {
+      "type": "related",
+      "target_id": "04752_dasai",
+      "reading": "ださい",
+      "headword": "ダサい",
+      "label": "lame, uncool"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21043_inakakusai",
+      "reading": "いなかくさい",
+      "headword": "{田舎臭|いなかくさ}い",
+      "label": "countrified"
     }
   ],
   "metadata": {
     "created": "2026-02-01T01:40:15Z",
-    "modified": "2026-08-12T21:25:53Z",
+    "modified": "2026-09-02T04:01:17Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

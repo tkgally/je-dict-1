@@ -15,41 +15,66 @@
   "examples": [
     {
       "id": "14891_hottan_ex1",
-      "japanese": "{事件|じけん}の{発端|ほったん}は{些細|ささい}な{口論|こうろん}だった。",
+      "japanese": "⟦{事件|じけん}→事件：01568_jiken⟧⟦の→の：09472_no⟧{発端|ほったん}⟦は→は：00079_ha⟧⟦{些細|ささい}→些細：07160_sasai⟧な⟦{口論|こうろん}→口論：08371_kouron⟧だった。",
       "english": "The incident was triggered by a trivial argument.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14891_hottan_ex2",
-      "japanese": "それが{二人|ふたり}の{出会|であ}いの{発端|ほったん}だった。",
+      "japanese": "⟦それ→それ：00994_sore⟧⟦が→が：00051_ga⟧⟦{二人|ふたり}→二人：00622_futari⟧⟦の→の：09472_no⟧⟦{出会|であ}い→出会い：03445_deai⟧⟦の→の：09472_no⟧{発端|ほったん}だった。",
       "english": "That was the beginning of their meeting.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14891_hottan_ex3",
-      "japanese": "この{問題|もんだい}の{発端|ほったん}は{何年|なんねん}も{前|まえ}にさかのぼる。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{問題|もんだい}→問題：00797_mondai⟧⟦の→の：09472_no⟧{発端|ほったん}⟦は→は：00079_ha⟧⟦{何年|なんねん}→何年：12737_nannen⟧⟦も→も：00484_mo⟧⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧さかのぼる。",
       "english": "The origin of this problem goes back many years.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{発端|ほったん} emphasizes the triggering event or the very beginning of something. It is commonly used when tracing back to the cause or origin of events, especially problems or conflicts.\n\nCOMMON PATTERNS:\n- ～が{発端|ほったん}だ (something was the starting point)\n- ～の{発端|ほったん} (the origin of something)\n- ～を{発端|ほったん}に (starting from; triggered by)\n\nCOMMON COLLOCATIONS:\n- {事件|じけん}の{発端|ほったん} (the origin of an incident)\n- {問題|もんだい}の{発端|ほったん} (the root of a problem)\n- {紛争|ふんそう}の{発端|ほったん} (the trigger for a conflict)\n\nRELATED WORDS:\n{きっかけ} (trigger, opportunity) is more casual and can be positive. {発端|ほったん} is more formal and often describes the start of problems or significant events.",
-  "cross_references": [],
+  "notes": "{発端|ほったん} emphasizes the triggering event or the very beginning of something. It is commonly used when tracing back to the cause or origin of events, especially problems or conflicts.\n\nCOMMON PATTERNS:\n- ～⟦が→が：00051_ga⟧{発端|ほったん}だ (something was the starting point)\n- ～⟦の→の：09472_no⟧{発端|ほったん} (the origin of something)\n- ～⟦を→を：00422_wo⟧{発端|ほったん}⟦に→に：00314_ni⟧ (starting from; triggered by)\n\nCOMMON COLLOCATIONS:\n- ⟦{事件|じけん}→事件：01568_jiken⟧⟦の→の：09472_no⟧{発端|ほったん} (the origin of an incident)\n- ⟦{問題|もんだい}→問題：00797_mondai⟧⟦の→の：09472_no⟧{発端|ほったん} (the root of a problem)\n- ⟦{紛争|ふんそう}→紛争：05758_funsou⟧⟦の→の：09472_no⟧{発端|ほったん} (the trigger for a conflict)\n\nRELATED WORDS:\n⟦きっかけ→きっかけ：10309_kikkake⟧ (trigger, opportunity) is more casual and can be positive. {発端|ほったん} is more formal and often describes the start of problems or significant events.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "10309_kikkake",
+      "reading": "きっかけ",
+      "headword": "きっかけ",
+      "label": "trigger, opportunity"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27223_kuchibi",
+      "reading": "くちび",
+      "headword": "{口火|くちび}",
+      "label": "fuse"
+    }
+  ],
   "metadata": {
     "created": "2026-03-04T05:29:35Z",
-    "modified": "2026-03-04T05:29:35Z",
+    "modified": "2026-09-02T04:01:39Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

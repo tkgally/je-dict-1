@@ -15,41 +15,73 @@
   "examples": [
     {
       "id": "15419_aitsuide_ex1",
-      "japanese": "{事故|じこ}が{相次|あいつ}いで{起|お}きた。",
+      "japanese": "⟦{事故|じこ}→事故：00851_jiko⟧⟦が→が：00051_ga⟧{相次|あいつ}いで⟦{起|お}きた→起きる：00521_okiru⟧。",
       "english": "Accidents occurred one after another.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15419_aitsuide_ex2",
-      "japanese": "{新|あたら}しい{店|みせ}が{相次|あいつ}いでオープンしている。",
+      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦{店|みせ}→店：00497_mise⟧⟦が→が：00051_ga⟧{相次|あいつ}いで⟦オープン→オープン：10831_oopun⟧⟦している→する：00392_suru⟧。",
       "english": "New shops are opening one after another.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15419_aitsuide_ex3",
-      "japanese": "{有名|ゆうめい}{企業|きぎょう}が{相次|あいつ}いで{不祥事|ふしょうじ}を{起|お}こし、{社会|しゃかい}{問題|もんだい}になった。",
+      "japanese": "⟦{有名|ゆうめい}→有名：01106_yuumei⟧⟦{企業|きぎょう}→企業：00225_kigyou⟧⟦が→が：00051_ga⟧{相次|あいつ}いで⟦{不祥事|ふしょうじ}→不祥事：14981_fushouji⟧⟦を→を：00422_wo⟧⟦{起|お}こし→起こす：01234_okosu⟧、⟦{社会|しゃかい}{問題|もんだい}→社会問題：25686_shakaimondai⟧になった。",
       "english": "Major companies caused scandals one after another, becoming a social problem.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\n{相次|あいつ}いで is the te-form of the verb {相次|あいつ}ぐ, functioning as an adverb. It is commonly used in news reports and formal writing to describe a series of events happening in quick succession. The plain verb form {相次|あいつ}ぐ is also used as a modifier.\n\nCOMMON COLLOCATIONS:\n- {相次|あいつ}いで{発生|はっせい}する (to occur in succession)\n- {相次|あいつ}いで{報告|ほうこく}される (to be reported one after another)\n- {相次|あいつ}ぐ{事件|じけん} (a series of incidents)\n\nRELATED WORDS:\n- {次々|つぎつぎ}に: one after another (more casual)\n- {続々|ぞくぞく}と: one after another, in droves\n- {立|た}て{続|つづ}けに: in rapid succession",
-  "cross_references": [],
+  "notes": "USAGE:\n{相次|あいつ}いで is the te-form of the verb ⟦{相次|あいつ}ぐ→相次ぐ：14869_aitsugu⟧, functioning as an adverb. It is commonly used in news reports and formal writing to describe a series of events happening in quick succession. The plain verb form ⟦{相次|あいつ}ぐ→相次ぐ：14869_aitsugu⟧ is also used as a modifier.\n\nCOMMON COLLOCATIONS:\n- {相次|あいつ}いで⟦{発生|はっせい}する→発生する：25529_hasseisuru⟧ (to occur in succession)\n- {相次|あいつ}いで⟦{報告|ほうこく}される→報告する：05644_houkokusuru⟧ (to be reported one after another)\n- ⟦{相次|あいつ}ぐ→相次ぐ：14869_aitsugu⟧⟦{事件|じけん}→事件：01568_jiken⟧ (a series of incidents)\n\nRELATED WORDS:\n- ⟦{次々|つぎつぎ}→次々：03522_tsugitsugi⟧⟦に→に：00314_ni⟧: one after another (more casual)\n- ⟦{続々|ぞくぞく}→続々：00436_zokuzoku⟧⟦と→と：00512_to⟧: one after another, in droves\n- ⟦{立|た}て{続|つづ}け→立て続け：13765_tatetsuzuke⟧⟦に→に：00314_ni⟧: in rapid succession",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "03522_tsugitsugi",
+      "reading": "つぎつぎ",
+      "headword": "{次々|つぎつぎ}",
+      "label": "one after another"
+    },
+    {
+      "type": "related",
+      "target_id": "14902_zokuzokuto",
+      "reading": "ぞくぞくと",
+      "headword": "{続々|ぞくぞく}と",
+      "label": "one after another, in droves"
+    },
+    {
+      "type": "related",
+      "target_id": "13765_tatetsuzuke",
+      "reading": "たてつづけ",
+      "headword": "{立|た}て{続|つづ}け",
+      "label": "in rapid succession"
+    }
+  ],
   "metadata": {
     "created": "2026-03-06T13:44:36Z",
-    "modified": "2026-03-06T13:44:36Z",
+    "modified": "2026-09-02T04:01:41Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adverb"],
+      "pos": [
+        "adverb"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"],
+      "semantic": [
+        "general"
+      ],
       "domain": []
     }
   }

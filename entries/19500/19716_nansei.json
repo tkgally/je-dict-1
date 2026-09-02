@@ -15,40 +15,74 @@
   "examples": [
     {
       "id": "19716_nansei_ex1",
-      "japanese": "{南西|なんせい}の{空|そら}が{赤|あか}く{染|そ}まった。",
+      "japanese": "{南西|なんせい}⟦の→の：09472_no⟧⟦{空|そら}→空：02216_sora⟧⟦が→が：00051_ga⟧⟦{赤|あか}く→赤い：00585_akai⟧⟦{染|そ}まった→染まる：04254_somaru⟧。",
       "english": "The southwestern sky turned red.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19716_nansei_ex2",
-      "japanese": "{沖縄|おきなわ}は{日本|にほん}の{南西|なんせい}に{位置|いち}する。",
+      "japanese": "⟦{沖縄|おきなわ}→沖縄：11009_okinawa⟧⟦は→は：00079_ha⟧⟦{日本|にほん}→日本：03876_nihon⟧⟦の→の：09472_no⟧{南西|なんせい}⟦に→に：00314_ni⟧⟦{位置|いち}する→位置する：09891_ichisuru⟧。",
       "english": "Okinawa is located to the southwest of Japan.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19716_nansei_ex3",
-      "japanese": "{低気圧|ていきあつ}が{南西|なんせい}から{接近|せっきん}しており、{明日|あした}は{雨|あめ}になる{見込|みこ}みだ。",
+      "japanese": "⟦{低気圧|ていきあつ}→低気圧：21712_teikiatsu⟧⟦が→が：00051_ga⟧{南西|なんせい}⟦から→から：00504_kara⟧⟦{接近|せっきん}して→接近する：25362_sekkinsuru⟧おり、⟦{明日|あした}→明日：00501_ashita⟧⟦は→は：00079_ha⟧⟦{雨|あめ}→雨：00583_ame⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦{見込|みこ}み→見込み：06872_mikomi⟧だ。",
       "english": "A low-pressure system is approaching from the southwest, and rain is expected tomorrow.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {南|なん} (south) + {西|せい} (west). One of the four intercardinal directions. In Japanese geography, the {南西諸島|なんせいしょとう} (Nansei Islands, also called the Ryukyu Islands) are the island chain stretching southwest from Kyushu, including Okinawa.\n\nCOMMON COLLOCATIONS:\n- {南西|なんせい}の{風|かぜ} — southwest wind\n- {南西|なんせい}に{位置|いち}する — to be located to the southwest\n- {南西|なんせい}{方向|ほうこう} — southwest direction\n- {南西部|なんせいぶ} — southwestern part/region\n- {南西諸島|なんせいしょとう} — Nansei Islands (Ryukyu archipelago)\n\nRELATED COMPASS DIRECTIONS:\n- {北東|ほくとう} — northeast\n- {南東|なんとう} — southeast\n- {北西|ほくせい} — northwest",
+  "notes": "Composed of {南|なん} (south) + {西|せい} (west). One of the four intercardinal directions. In Japanese geography, the {南西諸島|なんせいしょとう} (Nansei Islands, also called the Ryukyu Islands) are the island chain stretching southwest from Kyushu, including Okinawa.\n\nCOMMON COLLOCATIONS:\n- {南西|なんせい}⟦の→の：09472_no⟧⟦{風|かぜ}→風：00641_kaze⟧ — southwest wind\n- {南西|なんせい}⟦に→に：00314_ni⟧⟦{位置|いち}する→位置する：09891_ichisuru⟧ — to be located to the southwest\n- {南西|なんせい}⟦{方向|ほうこう}→方向：03617_houkou⟧ — southwest direction\n- {南西部|なんせいぶ} — southwestern part/region\n- {南西諸島|なんせいしょとう} — Nansei Islands (Ryukyu archipelago)\n\nRELATED COMPASS DIRECTIONS:\n- ⟦{北東|ほくとう}→北東：19715_hokutou⟧ — northeast\n- ⟦{南東|なんとう}→南東：30083_nantou⟧ — southeast\n- ⟦{北西|ほくせい}→北西：30082_hokusei⟧ — northwest",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "19715_hokutou",
+      "reading": "ほくとう",
+      "headword": "{北東|ほくとう}",
+      "label": "northeast"
+    },
+    {
+      "type": "related",
+      "target_id": "30083_nantou",
+      "reading": "なんとう",
+      "headword": "{南東|なんとう}",
+      "label": "southeast"
+    },
+    {
+      "type": "related",
+      "target_id": "30082_hokusei",
+      "reading": "ほくせい",
+      "headword": "{北西|ほくせい}",
+      "label": "northwest"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["geography", "direction"]
+      "semantic": [
+        "geography",
+        "direction"
+      ]
     },
     "created": "2026-03-26T14:30:58Z",
-    "modified": "2026-03-26T14:30:58Z"
+    "modified": "2026-09-02T04:01:57Z"
   }
 }

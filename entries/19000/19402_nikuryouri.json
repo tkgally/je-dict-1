@@ -15,40 +15,66 @@
   "examples": [
     {
       "id": "19402_nikuryouri_ex1",
-      "japanese": "{肉料理|にくりょうり}が{好|す}きだ。",
+      "japanese": "{肉料理|にくりょうり}⟦が→が：00051_ga⟧⟦{好|す}き→好き：02355_suki⟧だ。",
       "english": "I like meat dishes.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19402_nikuryouri_ex2",
-      "japanese": "このレストランは{肉料理|にくりょうり}で{有名|ゆうめい}だ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦レストラン→レストラン：01048_resutoran⟧⟦は→は：00079_ha⟧{肉料理|にくりょうり}⟦で→で：00502_de⟧⟦{有名|ゆうめい}→有名：01106_yuumei⟧だ。",
       "english": "This restaurant is famous for its meat dishes.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19402_nikuryouri_ex3",
-      "japanese": "フランスの{肉料理|にくりょうり}には、{赤|あか}ワインがよく{合|あ}うと{言|い}われている。",
+      "japanese": "⟦フランス→フランス：19418_furansu⟧⟦の→の：09472_no⟧{肉料理|にくりょうり}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧、⟦{赤|あか}ワイン→赤ワイン：18930_akawain⟧⟦が→が：00051_ga⟧⟦よく→よく：00601_yoku⟧⟦{合|あ}う→合う：10466_au⟧⟦と→と：00512_to⟧⟦{言|い}われている→言う：00515_iu⟧。",
       "english": "Red wine is said to go well with French meat dishes.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "{肉料理|にくりょうり} is a general term for any dish featuring meat as its main ingredient. It covers a wide range of preparations — grilled, stewed, fried, or roasted — regardless of the type of meat used.\n\nCOMMON COLLOCATIONS:\n- {肉料理|にくりょうり}を{作|つく}る: to make a meat dish\n- {肉料理|にくりょうり}に{合|あ}う: to go well with meat dishes\n- {肉料理|にくりょうり}が{得意|とくい}: to be good at cooking meat dishes\n- {肉料理|にくりょうり}{専門店|せんもんてん}: restaurant specializing in meat dishes\n\nSIMILAR COMPOUNDS:\n- {魚料理|さかなりょうり}: fish dishes\n- {野菜料理|やさいりょうり}: vegetable dishes\n- {卵料理|たまごりょうり}: egg dishes\n- {鍋料理|なべりょうり}: hot pot dishes",
+  "notes": "{肉料理|にくりょうり} is a general term for any dish featuring meat as its main ingredient. It covers a wide range of preparations — grilled, stewed, fried, or roasted — regardless of the type of meat used.\n\nCOMMON COLLOCATIONS:\n- {肉料理|にくりょうり}⟦を→を：00422_wo⟧⟦{作|つく}る→作る：00481_tsukuru⟧: to make a meat dish\n- {肉料理|にくりょうり}⟦に→に：00314_ni⟧⟦{合|あ}う→合う：10466_au⟧: to go well with meat dishes\n- {肉料理|にくりょうり}⟦が→が：00051_ga⟧⟦{得意|とくい}→得意：03455_tokui⟧: to be good at cooking meat dishes\n- {肉料理|にくりょうり}⟦{専門店|せんもんてん}→専門店：15924_senmonten⟧: restaurant specializing in meat dishes\n\nSIMILAR COMPOUNDS:\n- ⟦{魚料理|さかなりょうり}→魚料理：24713_sakanaryouri⟧: fish dishes\n- ⟦{野菜料理|やさいりょうり}→野菜料理：27198_yasairyouri⟧: vegetable dishes\n- ⟦{卵料理|たまごりょうり}→卵料理：25826_tamagoryouri⟧: egg dishes\n- ⟦{鍋料理|なべりょうり}→鍋料理：19952_naberyouri⟧: hot pot dishes",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24713_sakanaryouri",
+      "reading": "さかなりょうり",
+      "headword": "{魚料理|さかなりょうり}",
+      "label": "fish dish"
+    },
+    {
+      "type": "related",
+      "target_id": "27198_yasairyouri",
+      "reading": "やさいりょうり",
+      "headword": "{野菜料理|やさいりょうり}",
+      "label": "vegetable dish"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food"]
+      "semantic": [
+        "food"
+      ]
     },
     "created": "2026-03-25T13:28:10Z",
-    "modified": "2026-03-25T13:28:10Z"
+    "modified": "2026-09-02T04:01:55Z"
   }
 }

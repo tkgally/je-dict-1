@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "11269_bosu_ex1",
-      "japanese": "ボスに{報告|ほうこく}する。",
+      "japanese": "ボス⟦に→に：00314_ni⟧⟦{報告|ほうこく}する→報告する：05644_houkokusuru⟧。",
       "english": "To report to the boss.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "11269_bosu_ex2",
-      "japanese": "ゲームのラスボスがなかなか{倒|たお}せない。",
+      "japanese": "⟦ゲーム→ゲーム：03842_geemu⟧⟦の→の：09472_no⟧ラスボス⟦が→が：00051_ga⟧⟦なかなか→なかなか：01547_nakanaka⟧⟦{倒|たお}せない→倒す：01954_taosu⟧。",
       "english": "I just can't beat the final boss of the game.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "11269_bosu_ex3",
-      "japanese": "{彼|かれ}はこの{業界|ぎょうかい}のボス{的|てき}{存在|そんざい}として{知|し}られている。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦この→この：00962_kono⟧⟦{業界|ぎょうかい}→業界：13129_gyoukai⟧⟦の→の：09472_no⟧ボス⟦{的|てき}→〜的：09839_teki⟧⟦{存在|そんざい}→存在：03326_sonzai⟧⟦として→として：06802_toshite⟧⟦{知|し}られている→知る：00458_shiru⟧。",
       "english": "He is known as the boss-like figure in this industry.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nボス is used across several contexts: casual reference to a workplace boss (more informal than {上司|じょうし}), the leader of a criminal organization ({組|くみ}のボス), and especially common in gaming (ボスキャラ, ラスボス).\n\nCOMMON COLLOCATIONS:\n- ラスボス: final boss (ラスト + ボス)\n- ボスキャラ: boss character (in games)\n- ボス{戦|せん}: boss fight\n- {裏|うら}ボス: hidden/secret boss\n\nSIMILAR WORDS:\n{上司|じょうし} is the standard word for one's workplace superior. ボス is more informal and can sound dramatic or humorous when used for everyday work relationships.",
+  "notes": "USAGE:\nボス is used across several contexts: casual reference to a workplace boss (more informal than ⟦{上司|じょうし}→上司：03286_joushi⟧), the leader of a criminal organization (⟦{組|くみ}→組：02668_kumi⟧⟦の→の：09472_no⟧ボス), and especially common in gaming (ボスキャラ, ラスボス).\n\nCOMMON COLLOCATIONS:\n- ラスボス: final boss (⟦ラスト→ラスト：30487_rasuto⟧ + ボス)\n- ボスキャラ: boss character (in games)\n- ボス⟦{戦|せん}→〜戦：28346_sen⟧: boss fight\n- ⟦{裏|うら}→裏：02178_ura⟧ボス: hidden/secret boss\n\nSIMILAR WORDS:\n⟦{上司|じょうし}→上司：03286_joushi⟧ is the standard word for one's workplace superior. ボス is more informal and can sound dramatic or humorous when used for everyday work relationships.",
   "cross_references": [
     {
       "type": "synonym",
@@ -52,11 +52,25 @@
       "reading": "じょうし",
       "headword": "{上司|じょうし}",
       "label": "boss (formal/standard)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16957_oyabun",
+      "reading": "おやぶん",
+      "headword": "{親分|おやぶん}",
+      "label": "boss"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25127_kaoyaku",
+      "reading": "かおやく",
+      "headword": "{顔役|かおやく}",
+      "label": "influential person"
     }
   ],
   "metadata": {
     "created": "2026-02-15T10:01:30Z",
-    "modified": "2026-04-25T04:12:08Z",
+    "modified": "2026-09-02T04:01:24Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

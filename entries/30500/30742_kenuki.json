@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30742_kenuki_ex1",
-      "japanese": "{毛抜|けぬ}きで{眉毛|まゆげ}を{抜|ぬ}く。",
+      "japanese": "{毛抜|けぬ}き⟦で→で：00502_de⟧⟦{眉毛|まゆげ}→眉毛：05292_mayuge⟧⟦を→を：00422_wo⟧⟦{抜|ぬ}く→抜く：02384_nuku⟧。",
       "english": "To pluck one's eyebrows with tweezers.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30742_kenuki_ex2",
-      "japanese": "{毛抜|けぬ}きを{貸|か}してもらえますか。",
+      "japanese": "{毛抜|けぬ}き⟦を→を：00422_wo⟧⟦{貸|か}して→貸す：00537_kasu⟧⟦もらえます→もらう：00520_morau⟧⟦か→か：09473_ka⟧。",
       "english": "Could you lend me some tweezers?",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30742_kenuki_ex3",
-      "japanese": "{指|ゆび}に{刺|さ}さったとげを{毛抜|けぬ}きで{慎重|しんちょう}に{抜|ぬ}き{取|と}った。",
+      "japanese": "⟦{指|ゆび}→指：01518_yubi⟧⟦に→に：00314_ni⟧⟦{刺|さ}さった→刺さる：02110_sasaru⟧とげ⟦を→を：00422_wo⟧{毛抜|けぬ}き⟦で→で：00502_de⟧⟦{慎重|しんちょう}→慎重：03264_shinchou⟧⟦に→に：00314_ni⟧⟦{抜|ぬ}き{取|と}った→抜き取る：21037_nukitoru⟧。",
       "english": "I carefully pulled out the splinter in my finger with tweezers.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "{毛|け} (hair) + {抜|ぬ}き, the noun form of {抜|ぬ}く (to pull out). Counted with {本|ほん} or {丁|ちょう}.\n\nCOMMON COLLOCATIONS:\n- {毛抜|けぬ}きで{抜|ぬ}く: to pull out with tweezers\n- {眉毛|まゆげ}を{整|ととの}える: to shape one's eyebrows (the commonest reason to reach for them)\n- とげを{抜|ぬ}く: to remove a splinter\n\nSIMILAR WORDS:\n- ピンセット: tweezers/forceps — from Dutch, used for laboratory, medical, and craft work rather than grooming\n\nThe two are physically similar; the choice of word follows the purpose, so a beautician uses {毛抜|けぬ}き and a technician assembling a circuit board uses ピンセット.",
+  "notes": "⟦{毛|け}→毛：01392_ke⟧ (hair) + ⟦{抜|ぬ}き→抜く：02384_nuku⟧, the noun form of ⟦{抜|ぬ}く→抜く：02384_nuku⟧ (to pull out). Counted with {本|ほん} or {丁|ちょう}.\n\nCOMMON COLLOCATIONS:\n- {毛抜|けぬ}き⟦で→で：00502_de⟧⟦{抜|ぬ}く→抜く：02384_nuku⟧: to pull out with tweezers\n- ⟦{眉毛|まゆげ}→眉毛：05292_mayuge⟧⟦を→を：00422_wo⟧⟦{整|ととの}える→整える：04259_totonoeru⟧: to shape one's eyebrows (the commonest reason to reach for them)\n- とげ⟦を→を：00422_wo⟧⟦{抜|ぬ}く→抜く：02384_nuku⟧: to remove a splinter\n\nSIMILAR WORDS:\n- ⟦ピンセット→ピンセット：09756_pinsetto⟧: tweezers/forceps — from Dutch, used for laboratory, medical, and craft work rather than grooming\n\nThe two are physically similar; the choice of word follows the purpose, so a beautician uses {毛抜|けぬ}き and a technician assembling a circuit board uses ⟦ピンセット→ピンセット：09756_pinsetto⟧.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09756_pinsetto",
+      "reading": "ぴんせっと",
+      "headword": "ピンセット",
+      "label": "tweezers/forceps"
+    },
+    {
+      "type": "related",
+      "target_id": "05287_tsumekiri",
+      "reading": "つめきり",
+      "headword": "{爪切|つめき}り",
+      "label": "nail clippers"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +69,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "tool"
       ],
       "domain": []
     },
     "created": "2026-08-25T12:29:46Z",
-    "modified": "2026-08-25T12:29:46Z"
+    "modified": "2026-09-02T04:02:41Z"
   }
 }

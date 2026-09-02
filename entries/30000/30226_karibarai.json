@@ -3,7 +3,7 @@
   "headword": "{仮払|かりばら}い",
   "reading": "かりばらい",
   "romaji": "karibarai",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "cash advance; provisional payment; temporary disbursement",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30226_karibarai_ex1",
-      "japanese": "{出張費|しゅっちょうひ}を{仮払|かりばら}いしてもらった。",
+      "japanese": "⟦{出張費|しゅっちょうひ}→出張費：25964_shucchouhi⟧⟦を→を：00422_wo⟧{仮払|かりばら}い⟦して→する：00392_suru⟧⟦もらった→もらう：00520_morau⟧。",
       "english": "I got a cash advance for my business trip expenses.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30226_karibarai_ex2",
-      "japanese": "{仮払|かりばら}いの{申請書|しんせいしょ}を{経理|けいり}に{出|だ}してください。",
+      "japanese": "{仮払|かりばら}い⟦の→の：09472_no⟧⟦{申請書|しんせいしょ}→申請書：07486_shinseisho⟧⟦を→を：00422_wo⟧⟦{経理|けいり}→経理：06439_keiri⟧⟦に→に：00314_ni⟧⟦{出|だ}して→出す：01087_dasu⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please submit the cash advance request form to accounting.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30226_karibarai_ex3",
-      "japanese": "{帰社後|きしゃご}に{領収書|りょうしゅうしょ}を{添|そ}えて{仮払|かりばら}いの{精算|せいさん}をした。",
+      "japanese": "{帰社後|きしゃご}⟦に→に：00314_ni⟧⟦{領収書|りょうしゅうしょ}→領収書：04697_ryoushuusho⟧⟦を→を：00422_wo⟧⟦{添|そ}えて→添える：13315_soeru⟧{仮払|かりばら}い⟦の→の：09472_no⟧⟦{精算|せいさん}→精算：10899_seisan⟧⟦を→を：00422_wo⟧⟦した→する：00392_suru⟧。",
       "english": "After returning to the office, I settled the cash advance with the receipts attached.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "{仮|かり} (temporary, provisional) + {払|ばら}い (payment). The money is handed over first and the exact amount worked out afterward, so a {仮払|かりばら}い is always followed by a {精算|せいさん} (settlement).\n\nCOMMON COLLOCATIONS:\n- {仮払|かりばら}いを{受|う}ける: to receive a cash advance\n- {仮払|かりばら}いを{申請|しんせい}する: to apply for a cash advance\n- {仮払|かりばら}いの{精算|せいさん}: settlement of a cash advance\n- {仮払金|かりばらいきん}: the advanced money (as a balance-sheet item)\n\nSIMILAR WORDS:\n- {前払|まえばら}い: advance payment — the amount is already fixed; no later settlement is needed\n- {立|た}て{替|か}え: paying on someone's behalf — you use your own money first and are reimbursed",
+  "notes": "⟦{仮|かり}→仮：11551_kari⟧ (temporary, provisional) + ⟦{払|ばら}い→払い：09655_barai⟧ (payment). The money is handed over first and the exact amount worked out afterward, so a {仮払|かりばら}い is always followed by a ⟦{精算|せいさん}→精算：10899_seisan⟧ (settlement).\n\nCOMMON COLLOCATIONS:\n- {仮払|かりばら}い⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧: to receive a cash advance\n- {仮払|かりばら}い⟦を→を：00422_wo⟧⟦{申請|しんせい}する→申請する：25228_shinseisuru⟧: to apply for a cash advance\n- {仮払|かりばら}い⟦の→の：09472_no⟧⟦{精算|せいさん}→精算：10899_seisan⟧: settlement of a cash advance\n- ⟦{仮払金|かりばらいきん}→仮払金：30243_karibaraikin⟧: the advanced money (as a balance-sheet item)\n\nSIMILAR WORDS:\n- ⟦{前払|まえばら}い→前払い：15782_maebarai⟧: advance payment — the amount is already fixed; no later settlement is needed\n- {立|た}て{替|か}え: paying on someone's behalf — you use your own money first and are reimbursed",
   "cross_references": [
     {
       "type": "related",
@@ -57,6 +57,27 @@
       "target_id": "04696_keihi",
       "reading": "けいひ",
       "headword": "{経費|けいひ}"
+    },
+    {
+      "type": "related",
+      "target_id": "10197_tatekae",
+      "reading": "たてかえ",
+      "headword": "{立替|たてか}え",
+      "label": "advance payment, paying on someone's behalf"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23347_tatekaebarai",
+      "reading": "たてかえばらい",
+      "headword": "{立替|たてか}え{払|ばら}い",
+      "label": "paying on someone's behalf (to be reimbursed later)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30208_keihiseisan",
+      "reading": "けいひせいさん",
+      "headword": "経費精算",
+      "label": "expense reimbursement"
     }
   ],
   "schema_version": "2.0",
@@ -68,7 +89,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "finance",
         "work"
@@ -76,10 +97,11 @@
       "domain": [
         "business"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-07-29T18:17:31Z",
-    "modified": "2026-07-29T18:17:31Z"
+    "modified": "2026-09-02T04:02:39Z"
   },
   "conjugation": {
     "type": "suru",

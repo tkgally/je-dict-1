@@ -109,7 +109,7 @@
   "examples": [
     {
       "id": "11941_chigireru_ex1",
-      "japanese": "{紐|ひも}が{千切|ちぎ}れた。",
+      "japanese": "⟦{紐|ひも}→紐：02251_himo⟧⟦が→が：00051_ga⟧⟦{千切|ちぎ}れ→千切る：07792_chigiru⟧た。",
       "english": "The string snapped.",
       "notes": null,
       "has_audio": false,
@@ -119,7 +119,7 @@
     },
     {
       "id": "11941_chigireru_ex2",
-      "japanese": "{古|ふる}いポスターが{千切|ちぎ}れている。",
+      "japanese": "⟦{古|ふる}い→古い：00488_furui⟧⟦ポスター→ポスター：09598_posutaa⟧⟦が→が：00051_ga⟧⟦{千切|ちぎ}れ→千切る：07792_chigiru⟧て⟦いる→いる：00495_iru⟧。",
       "english": "The old poster is torn.",
       "notes": null,
       "has_audio": false,
@@ -129,7 +129,7 @@
     },
     {
       "id": "11941_chigireru_ex3",
-      "japanese": "{風|かぜ}で{旗|はた}の{端|はし}が{千切|ちぎ}れてしまった。",
+      "japanese": "⟦{風|かぜ}→風：00641_kaze⟧⟦で→で：00502_de⟧⟦{旗|はた}→旗：02161_hata⟧⟦の→の：09472_no⟧⟦{端|はし}→端：00936_hashi⟧⟦が→が：00051_ga⟧⟦{千切|ちぎ}れ→千切る：07792_chigiru⟧てしまった。",
       "english": "The edge of the flag was torn off by the wind.",
       "notes": null,
       "has_audio": false,
@@ -139,7 +139,7 @@
     },
     {
       "id": "11941_chigireru_ex4",
-      "japanese": "{雲|くも}が{千切|ちぎ}れて{青空|あおぞら}が{見|み}えた。",
+      "japanese": "⟦{雲|くも}→雲：02202_kumo⟧⟦が→が：00051_ga⟧⟦{千切|ちぎ}れ→千切る：07792_chigiru⟧て⟦{青空|あおぞら}→青空：10084_aozora⟧⟦が→が：00051_ga⟧⟦{見|み}えた→見える：01165_mieru⟧。",
       "english": "The clouds broke apart and blue sky appeared.",
       "notes": null,
       "has_audio": false,
@@ -149,7 +149,7 @@
     },
     {
       "id": "11941_chigireru_ex5",
-      "japanese": "{千切|ちぎ}れ{雲|ぐも}が{空|そら}に{浮|う}かんでいる。",
+      "japanese": "{千切|ちぎ}れ{雲|ぐも}⟦が→が：00051_ga⟧⟦{空|そら}→空：02216_sora⟧⟦に→に：00314_ni⟧⟦{浮|う}かんでいる→浮かぶ：03916_ukabu⟧。",
       "english": "Scattered clouds are floating in the sky.",
       "notes": null,
       "has_audio": false,
@@ -159,7 +159,7 @@
     },
     {
       "id": "11941_chigireru_ex6",
-      "japanese": "{夕暮|ゆうぐ}れの{空|そら}に{千切|ちぎ}れた{雲|くも}が{赤|あか}く{染|そ}まっていた。",
+      "japanese": "⟦{夕暮|ゆうぐ}れ→夕暮れ：07682_yuugure⟧⟦の→の：09472_no⟧⟦{空|そら}→空：02216_sora⟧⟦に→に：00314_ni⟧⟦{千切|ちぎ}れ→千切る：07792_chigiru⟧た⟦{雲|くも}→雲：02202_kumo⟧⟦が→が：00051_ga⟧⟦{赤|あか}く→赤い：00585_akai⟧⟦{染|そ}まっていた→染まる：04254_somaru⟧。",
       "english": "Scattered clouds in the evening sky were dyed red.",
       "notes": null,
       "has_audio": false,
@@ -168,11 +168,19 @@
       ]
     }
   ],
-  "notes": "{千切|ちぎ}れる describes something coming apart, tearing, or breaking into pieces on its own or as a result of force. Used for materials like paper, cloth, rope, and figuratively for clouds.\n\nTRANSITIVITY:\n- Type: {自動詞|じどうし} (intransitive)\n- Pair: {千切|ちぎ}る (transitive — to tear off, to rip apart)\n- Pattern: Xが{千切|ちぎ}れる\n\nASPECT (ている):\n{千切|ちぎ}れている describes the resulting state — something is already torn or broken apart. Example: ポスターが{千切|ちぎ}れている (the poster is torn).\n\nCOMMON COLLOCATIONS:\n- {千切|ちぎ}れ{雲|ぐも}: scattered clouds (compound noun)\n- {千切|ちぎ}れるほど{手|て}を{振|ふ}る: wave one's hand vigorously (as if it might tear off)\n- {紐|ひも}が{千切|ちぎ}れる: a string snaps\n- {紙|かみ}が{千切|ちぎ}れる: paper tears\n\nWRITING:\nOften written in kana as ちぎれる. The kanji {千切|ちぎ}れる uses ateji.",
+  "notes": "{千切|ちぎ}れる describes something coming apart, tearing, or breaking into pieces on its own or as a result of force. Used for materials like paper, cloth, rope, and figuratively for clouds.\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n- Pair: ⟦{千切|ちぎ}る→千切る：07792_chigiru⟧ (transitive — to tear off, to rip apart)\n- Pattern: X⟦が→が：00051_ga⟧{千切|ちぎ}れる\n\nASPECT (ている):\n⟦{千切|ちぎ}れ→千切る：07792_chigiru⟧て⟦いる→いる：00495_iru⟧ describes the resulting state — something is already torn or broken apart. Example: ⟦ポスター→ポスター：09598_posutaa⟧⟦が→が：00051_ga⟧⟦{千切|ちぎ}れ→千切る：07792_chigiru⟧て⟦いる→いる：00495_iru⟧ (the poster is torn).\n\nCOMMON COLLOCATIONS:\n- {千切|ちぎ}れ{雲|ぐも}: scattered clouds (compound noun)\n- {千切|ちぎ}れるほど⟦{手|て}→手：00569_te⟧⟦を→を：00422_wo⟧⟦{振|ふ}る→振る：01983_furu⟧: wave one's hand vigorously (as if it might tear off)\n- ⟦{紐|ひも}→紐：02251_himo⟧⟦が→が：00051_ga⟧{千切|ちぎ}れる: a string snaps\n- ⟦{紙|かみ}→紙：00712_kami⟧⟦が→が：00051_ga⟧{千切|ちぎ}れる: paper tears\n\nWRITING:\nOften written in kana as ちぎれる. The kanji {千切|ちぎ}れる uses ateji.",
   "cross_references": [],
+  "prominent_see_also": [
+    {
+      "target_id": "07792_chigiru",
+      "reading": "ちぎる",
+      "headword": "{千切|ちぎ}る",
+      "note": "transitive"
+    }
+  ],
   "metadata": {
     "created": "2026-02-19T10:50:05Z",
-    "modified": "2026-08-15T21:27:10Z",
+    "modified": "2026-09-02T04:01:27Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",

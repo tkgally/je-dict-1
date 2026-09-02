@@ -18,7 +18,9 @@
       "english": "I go to school.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "00055_gakkou_ex2",
@@ -26,7 +28,9 @@
       "english": "What time does school start?",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "00055_gakkou_ex3",
@@ -34,7 +38,9 @@
       "english": "School is closed today.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "00055_gakkou_ex4",
@@ -42,7 +48,9 @@
       "english": "My school is close to the station, about ten minutes on foot.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "00055_gakkou_ex5",
@@ -50,7 +58,9 @@
       "english": "The children go to school every day and study and play with their friends.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{学校|がっこう} is the general term for any educational institution. It covers all levels from elementary to university.\n\nSCHOOL LEVELS:\n- ⟦{小学校|しょうがっこう}→小学校：01055_shougakkou⟧: elementary school (6 years)\n- ⟦{中学校|ちゅうがっこう}→中学校：01465_chuugakkou⟧: middle school (3 years)\n- ⟦{高校|こうこう}→高校：01083_koukou⟧ / ⟦{高等学校|こうとうがっこう}→高等学校：02997_koutougakkou⟧: high school (3 years)\n- ⟦{大学|だいがく}→大学：00608_daigaku⟧: university\n\nCOMMON EXPRESSIONS:\n- {学校|がっこう}⟦に→に：00314_ni⟧⟦{行|い}く→行く：00119_iku⟧: to go to school\n- {学校|がっこう}⟦を→を：00422_wo⟧⟦{休|やす}む→休む：00606_yasumu⟧: to be absent from school\n- {学校|がっこう}⟦が→が：00051_ga⟧⟦{終|お}わる→終わる：00567_owaru⟧: school ends (for the day)\n- {学校|がっこう}⟦{生活|せいかつ}→生活：01443_seikatsu⟧: school life\n\nNote that ⟦に→に：00314_ni⟧ marks the destination: {学校|がっこう}⟦に→に：00314_ni⟧⟦{行|い}く→行く：00119_iku⟧. When {学校|がっこう} is the topic or subject, ⟦は→は：00079_ha⟧ or ⟦が→が：00051_ga⟧ is used instead.",
@@ -82,11 +92,46 @@
       "reading": "だいがく",
       "headword": "{大学|だいがく}",
       "label": "university"
+    },
+    {
+      "type": "related",
+      "target_id": "01987_manabu",
+      "reading": "まなぶ",
+      "headword": "{学|まな}ぶ",
+      "label": "to learn, to study"
+    },
+    {
+      "type": "related",
+      "target_id": "02801_kousha",
+      "reading": "こうしゃ",
+      "headword": "{校舎|こうしゃ}",
+      "label": "school building"
+    },
+    {
+      "type": "related",
+      "target_id": "10751_akademii",
+      "reading": "あかでみー",
+      "headword": "アカデミー",
+      "label": "academy"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20693_manabiya",
+      "reading": "まなびや",
+      "headword": "{学|まな}び{舎|や}",
+      "label": "school"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23399_kyouikukikan",
+      "reading": "きょういくきかん",
+      "headword": "{教育機関|きょういくきかん}",
+      "label": "educational institution"
     }
   ],
   "metadata": {
     "created": "2026-01-05T10:43:58Z",
-    "modified": "2026-05-09T01:15:34Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

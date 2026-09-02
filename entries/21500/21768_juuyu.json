@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "21768_juuyu_ex1",
-      "japanese": "この{船|ふね}は{重油|じゅうゆ}で{動|うご}く。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{船|ふね}→船：00775_fune⟧⟦は→は：00079_ha⟧{重油|じゅうゆ}⟦で→で：00502_de⟧⟦{動|うご}く→動く：00904_ugoku⟧。",
       "english": "This ship runs on heavy oil.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "21768_juuyu_ex2",
-      "japanese": "{重油|じゅうゆ}の{価格|かかく}が{上昇|じょうしょう}している。",
+      "japanese": "{重油|じゅうゆ}⟦の→の：09472_no⟧⟦{価格|かかく}→価格：00147_kakaku⟧⟦が→が：00051_ga⟧⟦{上昇|じょうしょう}している→上昇する：21681_joushousuru⟧。",
       "english": "The price of heavy oil is rising.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "21768_juuyu_ex3",
-      "japanese": "タンカーから{重油|じゅうゆ}が{流出|りゅうしゅつ}し、{海|うみ}が{汚染|おせん}された。",
+      "japanese": "タンカー⟦から→から：00504_kara⟧{重油|じゅうゆ}⟦が→が：00051_ga⟧⟦{流出|りゅうしゅつ}→流出：13327_ryuushutsu⟧し、⟦{海|うみ}→海：00556_umi⟧⟦が→が：00051_ga⟧⟦{汚染|おせん}→汚染：02595_osen⟧⟦された→する：00392_suru⟧。",
       "english": "Heavy oil leaked from the tanker and the sea was contaminated.",
       "sense_numbers": [
         1
@@ -43,8 +43,45 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {重|じゅう} (heavy) + {油|ゆ} (oil). Called \"heavy\" because it is denser and more viscous than lighter petroleum products like gasoline ({揮発油|きはつゆ}) or {軽油|けいゆ} (diesel). Classified into types A, B, and C based on viscosity.\n\nCOMMON COLLOCATIONS:\n- {重油|じゅうゆ}{流出|りゅうしゅつ}: heavy oil spill\n- {重油|じゅうゆ}ボイラー: heavy oil boiler\n- {重油|じゅうゆ}{価格|かかく}: heavy oil price\n- C{重油|じゅうゆ}: C-grade heavy oil (the thickest type)\n\nRELATED TERMS:\n- {軽油|けいゆ}: diesel fuel (lighter grade)\n- {灯油|とうゆ}: kerosene\n- {原油|げんゆ}: crude oil\n- {石油|せきゆ}: petroleum (general term)",
+  "notes": "Composed of {重|じゅう} (heavy) + {油|ゆ} (oil). Called \"heavy\" because it is denser and more viscous than lighter petroleum products like gasoline ({揮発油|きはつゆ}) or ⟦{軽油|けいゆ}→軽油：19777_keiyu⟧ (diesel). Classified into types A, B, and C based on viscosity.\n\nCOMMON COLLOCATIONS:\n- {重油|じゅうゆ}⟦{流出|りゅうしゅつ}→流出：13327_ryuushutsu⟧: heavy oil spill\n- {重油|じゅうゆ}⟦ボイラー→ボイラー：23741_boiraa⟧: heavy oil boiler\n- {重油|じゅうゆ}⟦{価格|かかく}→価格：00147_kakaku⟧: heavy oil price\n- C{重油|じゅうゆ}: C-grade heavy oil (the thickest type)\n\nRELATED WORDS:\n- ⟦{軽油|けいゆ}→軽油：19777_keiyu⟧: diesel fuel (lighter grade)\n- ⟦{灯油|とうゆ}→灯油：04071_touyu⟧: kerosene\n- ⟦{原油|げんゆ}→原油：21637_genyu⟧: crude oil\n- ⟦{石油|せきゆ}→石油：01448_sekiyu⟧: petroleum (general term)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "19777_keiyu",
+      "reading": "けいゆ",
+      "headword": "{軽油|けいゆ}",
+      "label": "diesel fuel"
+    },
+    {
+      "type": "related",
+      "target_id": "04071_touyu",
+      "reading": "とうゆ",
+      "headword": "{灯油|とうゆ}",
+      "label": "kerosene"
+    },
+    {
+      "type": "related",
+      "target_id": "21637_genyu",
+      "reading": "げんゆ",
+      "headword": "{原油|げんゆ}",
+      "label": "crude oil"
+    },
+    {
+      "type": "related",
+      "target_id": "01448_sekiyu",
+      "reading": "せきゆ",
+      "headword": "{石油|せきゆ}",
+      "label": "petroleum"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28044_nenryouyu",
+      "reading": "ねんりょうゆ",
+      "headword": "燃料油",
+      "label": "fuel oil"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -58,6 +95,6 @@
       ]
     },
     "created": "2026-04-03T16:11:40Z",
-    "modified": "2026-07-29T12:35:11Z"
+    "modified": "2026-09-02T04:02:05Z"
   }
 }

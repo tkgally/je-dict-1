@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "12185_daikibo_ex1",
-      "japanese": "{大規模|だいきぼ}な{工事|こうじ}が{始|はじ}まった。",
+      "japanese": "{大規模|だいきぼ}な⟦{工事|こうじ}→工事：00244_kouji⟧⟦が→が：00051_ga⟧⟦{始|はじ}まった→始まる：00841_hajimaru⟧。",
       "english": "A large-scale construction project has begun.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "12185_daikibo_ex2",
-      "japanese": "{台風|たいふう}による{大規模|だいきぼ}な{停電|ていでん}が{発生|はっせい}した。",
+      "japanese": "⟦{台風|たいふう}→台風：01455_taifuu⟧⟦による→による：28349_niyoru⟧{大規模|だいきぼ}な⟦{停電|ていでん}→停電：03544_teiden⟧⟦が→が：00051_ga⟧⟦{発生|はっせい}した→発生する：25529_hasseisuru⟧。",
       "english": "A large-scale power outage occurred due to the typhoon.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "12185_daikibo_ex3",
-      "japanese": "{政府|せいふ}は{大規模|だいきぼ}な{経済|けいざい}{対策|たいさく}パッケージを{発表|はっぴょう}し、{国民|こくみん}の{注目|ちゅうもく}を{集|あつ}めた。",
+      "japanese": "⟦{政府|せいふ}→政府：03294_seifu⟧⟦は→は：00079_ha⟧{大規模|だいきぼ}な⟦{経済|けいざい}→経済：01394_keizai⟧⟦{対策|たいさく}→対策：02511_taisaku⟧⟦パッケージ→パッケージ：11699_pakkeeji⟧⟦を→を：00422_wo⟧⟦{発表|はっぴょう}→発表：03562_happyou⟧し、⟦{国民|こくみん}→国民：02757_kokumin⟧⟦の→の：09472_no⟧⟦{注目|ちゅうもく}→注目：03483_chuumoku⟧⟦を→を：00422_wo⟧⟦{集|あつ}めた→集める：01170_atsumeru⟧。",
       "english": "The government announced a large-scale economic stimulus package, drawing the public's attention.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "{大規模|だいきぼ} describes something large in scale or scope.\n\nFORMS:\n- Modifier: {大規模|だいきぼ}な + noun\n- Adverbial: {大規模|だいきぼ}に (on a large scale)\n\nCOMMON COLLOCATIONS:\n- {大規模|だいきぼ}な{災害|さいがい}: large-scale disaster\n- {大規模|だいきぼ}な{改修|かいしゅう}: large-scale renovation\n- {大規模|だいきぼ}な{調査|ちょうさ}: large-scale investigation\n- {大規模|だいきぼ}{開発|かいはつ}: large-scale development\n\nRELATED WORDS:\n- {小規模|しょうきぼ}: small-scale (antonym)\n- {中規模|ちゅうきぼ}: medium-scale",
+  "notes": "{大規模|だいきぼ} describes something large in scale or scope.\n\nFORMS:\n- Modifier: {大規模|だいきぼ}な + noun\n- Adverbial: {大規模|だいきぼ}⟦に→に：00314_ni⟧ (on a large scale)\n\nCOMMON COLLOCATIONS:\n- {大規模|だいきぼ}な⟦{災害|さいがい}→災害：09636_saigai⟧: large-scale disaster\n- {大規模|だいきぼ}な⟦{改修|かいしゅう}→改修：12924_kaishuu⟧: large-scale renovation\n- {大規模|だいきぼ}な⟦{調査|ちょうさ}→調査：03489_chousa⟧: large-scale investigation\n- {大規模|だいきぼ}⟦{開発|かいはつ}→開発：06746_kaihatsu⟧: large-scale development\n\nRELATED WORDS:\n- ⟦{小規模|しょうきぼ}→小規模：12493_shoukibo⟧: small-scale (antonym)\n- ⟦{中規模|ちゅうきぼ}→中規模：16281_chuukibo⟧: medium-scale",
   "cross_references": [
     {
       "type": "antonym",
@@ -52,11 +52,25 @@
       "headword": "{小規模|しょうきぼ}",
       "label": "small-scale",
       "target_id": "12493_shoukibo"
+    },
+    {
+      "type": "related",
+      "target_id": "16281_chuukibo",
+      "reading": "ちゅうきぼ",
+      "headword": "{中規模|ちゅうきぼ}",
+      "label": "medium-scale"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21467_saidaikyuu",
+      "reading": "さいだいきゅう",
+      "headword": "{最大級|さいだいきゅう}",
+      "label": "largest-class"
     }
   ],
   "metadata": {
     "created": "2026-02-20T10:22:12Z",
-    "modified": "2026-04-26T07:25:09Z",
+    "modified": "2026-09-02T04:01:28Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

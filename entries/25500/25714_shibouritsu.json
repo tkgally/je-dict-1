@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25714_shibouritsu_ex1",
-      "japanese": "この{病気|びょうき}の{死亡率|しぼうりつ}は{高|たか}い。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{病気|びょうき}→病気：00771_byouki⟧⟦の→の：09472_no⟧{死亡率|しぼうりつ}⟦は→は：00079_ha⟧⟦{高|たか}い→高い：00500_takai⟧。",
       "english": "The mortality rate for this disease is high.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25714_shibouritsu_ex2",
-      "japanese": "{医療|いりょう}の{進歩|しんぽ}により{死亡率|しぼうりつ}が{下|さ}がった。",
+      "japanese": "⟦{医療|いりょう}→医療：01836_iryou⟧⟦の→の：09472_no⟧⟦{進歩|しんぽ}→進歩：03265_shinpo⟧⟦に→に：00314_ni⟧⟦より→より：09476_yori⟧{死亡率|しぼうりつ}⟦が→が：00051_ga⟧⟦{下|さ}がった→下がる：01188_sagaru⟧。",
       "english": "The death rate has decreased thanks to advances in medicine.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25714_shibouritsu_ex3",
-      "japanese": "{交通事故|こうつうじこ}による{死亡率|しぼうりつ}は{年々|ねんねん}{減少|げんしょう}{傾向|けいこう}にある。",
+      "japanese": "⟦{交通事故|こうつうじこ}→交通事故：21255_koutsuujiko⟧⟦による→による：28349_niyoru⟧{死亡率|しぼうりつ}⟦は→は：00079_ha⟧⟦{年々|ねんねん}→年々：10417_nennen⟧⟦{減少|げんしょう}→減少：02719_genshou⟧⟦{傾向|けいこう}→傾向：02695_keikou⟧⟦に→に：00314_ni⟧⟦ある→ある：00006_aru⟧。",
       "english": "The death rate from traffic accidents has been trending downward year by year.",
       "sense_numbers": [
         1
@@ -44,8 +44,23 @@
       "notes": null
     }
   ],
-  "notes": "{死亡|しぼう} (death) + {率|りつ} (rate, ratio). A statistical term used in medicine, public health, and demographics. The word appears frequently in news reports about disease, disasters, and public safety.\n\nCOMMON COLLOCATIONS:\n- {死亡率|しぼうりつ}が{高|たか}い — mortality rate is high\n- {死亡率|しぼうりつ}が{低|ひく}い — mortality rate is low\n- {死亡率|しぼうりつ}を{下|さ}げる — lower the mortality rate\n- {乳児|にゅうじ}{死亡率|しぼうりつ} — infant mortality rate\n- {致死率|ちしりつ} — case fatality rate\n\nSIMILAR WORDS:\n- {致死率|ちしりつ} — case fatality rate — specifically the proportion of deaths among those infected or affected\n- {出生率|しゅっしょうりつ} — birth rate — the demographic counterpart\n- {生存率|せいぞんりつ} — survival rate — the inverse concept, often used in cancer treatment",
-  "cross_references": [],
+  "notes": "⟦{死亡|しぼう}→死亡：03198_shibou⟧ (death) + ⟦{率|りつ}→率：03802_ritsu⟧ (rate, ratio). A statistical term used in medicine, public health, and demographics. The word appears frequently in news reports about disease, disasters, and public safety.\n\nCOMMON COLLOCATIONS:\n- {死亡率|しぼうりつ}⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧ — mortality rate is high\n- {死亡率|しぼうりつ}⟦が→が：00051_ga⟧⟦{低|ひく}い→低い：02947_hikui⟧ — mortality rate is low\n- {死亡率|しぼうりつ}⟦を→を：00422_wo⟧⟦{下|さ}げる→下げる：00807_sageru⟧ — lower the mortality rate\n- ⟦{乳児|にゅうじ}→乳児：11414_nyuuji⟧{死亡率|しぼうりつ} — infant mortality rate\n- ⟦{致死率|ちしりつ}→致死率：30149_chishiritsu⟧ — case fatality rate\n\nSIMILAR WORDS:\n- ⟦{致死率|ちしりつ}→致死率：30149_chishiritsu⟧ — case fatality rate — specifically the proportion of deaths among those infected or affected\n- {出生率|しゅっしょうりつ} — birth rate — the demographic counterpart\n- {生存率|せいぞんりつ} — survival rate — the inverse concept, often used in cancer treatment",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "30149_chishiritsu",
+      "reading": "ちしりつ",
+      "headword": "{致死率|ちしりつ}",
+      "label": "case fatality rate"
+    },
+    {
+      "type": "related",
+      "target_id": "28416_shusseiritsu",
+      "reading": "しゅっせいりつ",
+      "headword": "{出生率|しゅっせいりつ}",
+      "label": "birth rate"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,12 +68,14 @@
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "health",
         "society"
       ]
     },
     "created": "2026-04-26T16:32:53Z",
-    "modified": "2026-08-04T21:28:28Z"
+    "modified": "2026-09-02T04:02:23Z"
   }
 }

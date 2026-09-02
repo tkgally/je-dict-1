@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "17656_sonnawakede_ex1",
-      "japanese": "そんなわけで、{今日|きょう}は{休|やす}みます。",
+      "japanese": "そんなわけで、⟦{今日|きょう}→今日：00496_kyou⟧⟦は→は：00079_ha⟧⟦{休|やす}みます→休む：00606_yasumu⟧。",
       "english": "So for that reason, I'm taking today off.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "17656_sonnawakede_ex2",
-      "japanese": "{電車|でんしゃ}が{止|と}まっていて。そんなわけで{遅刻|ちこく}しました。",
+      "japanese": "⟦{電車|でんしゃ}→電車：00522_densha⟧⟦が→が：00051_ga⟧⟦{止|と}まっていて→止まる：00555_tomaru⟧。そんなわけで⟦{遅刻|ちこく}しました→遅刻する：22282_chikokusuru⟧。",
       "english": "The trains were stopped. That's why I was late.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "17656_sonnawakede_ex3",
-      "japanese": "{引|ひ}っ{越|こ}すことになりました。そんなわけで、しばらくバタバタしています。",
+      "japanese": "⟦{引|ひ}っ{越|こ}す→引っ越す：01171_hikkosu⟧こと⟦に→に：00314_ni⟧⟦なりました→なる：01970_naru⟧。そんなわけで、⟦しばらく→しばらく：01267_shibaraku⟧バタバタ⟦しています→する：00392_suru⟧。",
       "english": "I've decided to move. So that's why things have been hectic lately.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "そんなわけで is composed of そんな (such/that kind of) + わけ (reason) + で (particle). It summarizes a preceding explanation and presents the natural consequence.\n\nUSAGE:\nTypically used after the speaker has given some background or explanation. It signals: \"given all that, here's the result.\" It is a natural transition phrase in both spoken and written casual Japanese.\n\nSIMILAR CONNECTORS:\n- そんなわけで: refers back to a previously stated reason\n- というわけで: slightly more formal, \"and so it follows that\"\n- てなわけで: very casual abbreviation of というわけで\n- だから: simpler \"so/therefore\"\n- そういうわけで: nearly identical to そんなわけで\n\nFORMALITY:\nそんなわけで sits between casual and neutral. It is acceptable in semi-formal speech (presentations, casual business) but not in very formal writing. The formal equivalent is そのような{理由|りゆう}で or したがって.",
+  "notes": "そんなわけで is composed of ⟦そんな→そんな：01645_sonna⟧ (such/that kind of) + わけ (reason) + で (particle). It summarizes a preceding explanation and presents the natural consequence.\n\nUSAGE:\nTypically used after the speaker has given some background or explanation. It signals: \"given all that, here's the result.\" It is a natural transition phrase in both spoken and written casual Japanese.\n\nSIMILAR CONNECTORS:\n- そんなわけで: refers back to a previously stated reason\n- ⟦というわけで→というわけで：22425_toiuwakede⟧: slightly more formal, \"and so it follows that\"\n- ⟦てなわけで→てなわけで：17657_tenawakede⟧: very casual abbreviation of ⟦というわけで→というわけで：22425_toiuwakede⟧\n- だ⟦から→から：00504_kara⟧: simpler \"so/therefore\"\n- ⟦そういうわけで→そういうわけで：17337_souiuwakede⟧: nearly identical to そんなわけで\n\nREGISTER:\nそんなわけで sits between casual and neutral. It is acceptable in semi-formal speech (presentations, casual business) but not in very formal writing. The formal equivalent is ⟦そのような→そのような：30277_sonoyouna⟧⟦{理由|りゆう}→理由：01102_riyuu⟧⟦で→で：00502_de⟧ or したがって.",
   "cross_references": [
     {
       "type": "related",
@@ -52,11 +52,32 @@
       "headword": "てなわけで",
       "target_id": "17657_tenawakede",
       "label": "casual equivalent"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22425_toiuwakede",
+      "reading": "というわけで",
+      "headword": "というわけで",
+      "label": "slightly more formal, \"and so it…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00924_dakara",
+      "reading": "だから",
+      "headword": "だから",
+      "label": "simpler \"so/therefore\""
+    },
+    {
+      "type": "contrast",
+      "target_id": "17337_souiuwakede",
+      "reading": "そういうわけで",
+      "headword": "そういうわけで",
+      "label": "nearly identical"
     }
   ],
   "metadata": {
     "created": "2026-02-12T07:49:16Z",
-    "modified": "2026-03-18T10:11:24Z",
+    "modified": "2026-09-02T04:01:49Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

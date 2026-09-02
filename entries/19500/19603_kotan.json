@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "19603_kotan_ex1",
-      "japanese": "{枯淡|こたん}な{味|あじ}わいがある。",
+      "japanese": "{枯淡|こたん}な⟦{味|あじ}わい→味わい：11899_ajiwai⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "It has an austere elegance.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "19603_kotan_ex2",
-      "japanese": "{枯淡|こたん}の{境地|きょうち}に{達|たっ}した{画家|がか}だ。",
+      "japanese": "{枯淡|こたん}⟦の→の：09472_no⟧⟦{境地|きょうち}→境地：12121_kyouchi⟧⟦に→に：00314_ni⟧⟦{達|たっ}した→達する：02129_tassuru⟧⟦{画家|がか}→画家：02583_gaka⟧だ。",
       "english": "He is a painter who has attained a state of refined simplicity.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "19603_kotan_ex3",
-      "japanese": "{年|とし}を{重|かさ}ねるにつれて、{枯淡|こたん}な{作風|さくふう}に{変|か}わっていった。",
+      "japanese": "⟦{年|とし}を{重|かさ}ねる→年を重ねる：20549_toshiwokasaneru⟧⟦につれて→につれて：28400_nitsurete⟧、{枯淡|こたん}な⟦{作風|さくふう}→作風：11460_sakufuu⟧⟦に→に：00314_ni⟧⟦{変|か}わって→変わる：00714_kawaru⟧いった。",
       "english": "As the years passed, his style gradually shifted toward austere simplicity.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {枯|こ} (withered, dried) and {淡|たん} (light, pale). The image is of something that has shed its youthful excess and arrived at a distilled, essential beauty — like a bare winter tree or an ink wash painting with few strokes.\n\nCULTURAL CONTEXT:\nThis is a valued aesthetic concept in Japanese arts. A {枯淡|こたん} style suggests mastery achieved through simplification rather than elaboration. It is especially associated with mature artists, calligraphers, and writers whose late work shows restrained elegance.\n\nCOMMON COLLOCATIONS:\n- {枯淡|こたん}な{味|あじ}わい — austere elegance, refined flavor\n- {枯淡|こたん}の{境地|きょうち} — the state of refined simplicity\n- {枯淡|こたん}な{作風|さくふう} — an austere artistic style\n- {枯淡|こたん}な{趣|おもむき} — an atmosphere of refined simplicity\n\nSIMILAR WORDS:\n- {侘|わ}び — wabi; the beauty found in imperfection and austerity, a related but broader aesthetic concept\n- {簡素|かんそ} — simple, plain; describes simplicity without the aesthetic connotation of refined beauty that {枯淡|こたん} carries",
+  "notes": "A compound of {枯|こ} (withered, dried) and {淡|たん} (light, pale). The image is of something that has shed its youthful excess and arrived at a distilled, essential beauty — like a bare winter tree or an ink wash painting with few strokes.\n\nCULTURAL NOTE:\nThis is a valued aesthetic concept in Japanese arts. A {枯淡|こたん} style suggests mastery achieved through simplification rather than elaboration. It is especially associated with mature artists, calligraphers, and writers whose late work shows restrained elegance.\n\nCOMMON COLLOCATIONS:\n- {枯淡|こたん}な⟦{味|あじ}わい→味わい：11899_ajiwai⟧ — austere elegance, refined flavor\n- {枯淡|こたん}⟦の→の：09472_no⟧⟦{境地|きょうち}→境地：12121_kyouchi⟧ — the state of refined simplicity\n- {枯淡|こたん}な⟦{作風|さくふう}→作風：11460_sakufuu⟧ — an austere artistic style\n- {枯淡|こたん}な⟦{趣|おもむき}→趣：09072_omomuki⟧ — an atmosphere of refined simplicity\n\nSIMILAR WORDS:\n- ⟦{侘|わ}び→侘び：10655_wabi⟧ — wabi; the beauty found in imperfection and austerity, a related but broader aesthetic concept\n- ⟦{簡素|かんそ}→簡素：09202_kanso⟧ — simple, plain; describes simplicity without the aesthetic connotation of refined beauty that {枯淡|こたん} carries",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "10655_wabi",
+      "reading": "わび",
+      "headword": "{侘|わ}び",
+      "label": "wabi"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09202_kanso",
+      "reading": "かんそ",
+      "headword": "{簡素|かんそ}",
+      "label": "simple, plain"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,6 +77,6 @@
       ]
     },
     "created": "2026-03-26T07:31:02Z",
-    "modified": "2026-03-26T07:31:02Z"
+    "modified": "2026-09-02T04:01:56Z"
   }
 }

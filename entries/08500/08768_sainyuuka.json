@@ -2,7 +2,7 @@
   "id": "08768_sainyuuka",
   "headword": "{再|さい}{入荷|にゅうか}",
   "reading": "さいにゅうか",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "restocking; back in stock",
   "conjugation": {
     "type": "suru",
@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "08768_sainyuuka_ex1",
-      "japanese": "{人気|にんき}{商品|しょうひん}が{再|さい}{入荷|にゅうか}した。",
+      "japanese": "⟦{人気|にんき}{商品|しょうひん}→人気商品：21609_ninkishouhin⟧⟦が→が：00051_ga⟧{再|さい}{入荷|にゅうか}⟦した→する：00392_suru⟧。",
       "english": "The popular item is back in stock.",
       "sense_numbers": [
         1
@@ -114,7 +114,7 @@
     },
     {
       "id": "08768_sainyuuka_ex2",
-      "japanese": "{再|さい}{入荷|にゅうか}のお{知|し}らせを{設定|せってい}する。",
+      "japanese": "{再|さい}{入荷|にゅうか}⟦の→の：09472_no⟧⟦お{知|し}らせ→お知らせ：18843_oshirase⟧⟦を→を：00422_wo⟧⟦{設定|せってい}→設定：04767_settei⟧⟦する→する：00392_suru⟧。",
       "english": "Set up a notification for when it's restocked.",
       "sense_numbers": [
         1
@@ -124,7 +124,7 @@
     },
     {
       "id": "08768_sainyuuka_ex3",
-      "japanese": "{再|さい}{入荷|にゅうか}の{予定|よてい}は{未定|みてい}です。",
+      "japanese": "{再|さい}{入荷|にゅうか}⟦の→の：09472_no⟧⟦{予定|よてい}→予定：00824_yotei⟧⟦は→は：00079_ha⟧⟦{未定|みてい}→未定：14985_mitei⟧です。",
       "english": "The restocking schedule is undetermined.",
       "sense_numbers": [
         1
@@ -133,7 +133,44 @@
       "notes": null
     }
   ],
-  "notes": "SHOPPING/RETAIL TERM:\n{再|さい}{入荷|にゅうか} is commonly seen in online shopping and retail contexts when previously sold-out items become available again.\n\nCOMMON COLLOCATIONS:\n- {再|さい}{入荷|にゅうか}する - to be restocked\n- {再|さい}{入荷|にゅうか}のお{知|し}らせ - restock notification\n- {再|さい}{入荷|にゅうか}{待|ま}ち - waiting for restock\n- {再|さい}{入荷|にゅうか}{未定|みてい} - restock date undetermined\n\nRELATED TERMS:\n- {入荷|にゅうか} - stock arrival, receiving goods\n- {在庫|ざいこ} - inventory, stock\n- {品切|しなぎ}れ - sold out\n- {完売|かんばい} - sold out completely",
+  "notes": "SHOPPING/RETAIL TERM:\n{再|さい}{入荷|にゅうか} is commonly seen in online shopping and retail contexts when previously sold-out items become available again.\n\nCOMMON COLLOCATIONS:\n- {再|さい}{入荷|にゅうか}⟦する→する：00392_suru⟧ - to be restocked\n- {再|さい}{入荷|にゅうか}⟦の→の：09472_no⟧⟦お{知|し}らせ→お知らせ：18843_oshirase⟧ - restock notification\n- {再|さい}{入荷|にゅうか}{待|ま}ち - waiting for restock\n- {再|さい}{入荷|にゅうか}⟦{未定|みてい}→未定：14985_mitei⟧ - restock date undetermined\n\nRELATED WORDS:\n- ⟦{入荷|にゅうか}→入荷：07939_nyuuka⟧ - stock arrival, receiving goods\n- ⟦{在庫|ざいこ}→在庫：04701_zaiko⟧ - inventory, stock\n- ⟦{品切|しなぎ}れ→品切れ：09557_shinagire⟧ - sold out\n- ⟦{完売|かんばい}→完売：18954_kanbai⟧ - sold out completely",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "04701_zaiko",
+      "reading": "ざいこ",
+      "headword": "{在庫|ざいこ}",
+      "label": "inventory, stock"
+    },
+    {
+      "type": "related",
+      "target_id": "09557_shinagire",
+      "reading": "しなぎれ",
+      "headword": "{品切|しなぎ}れ",
+      "label": "sold out"
+    },
+    {
+      "type": "related",
+      "target_id": "18954_kanbai",
+      "reading": "かんばい",
+      "headword": "{完売|かんばい}",
+      "label": "sold out completely"
+    },
+    {
+      "type": "related",
+      "target_id": "08305_zaikogire",
+      "reading": "ざいこぎれ",
+      "headword": "{在庫切|ざいこぎ}れ",
+      "label": "out of stock"
+    },
+    {
+      "type": "related",
+      "target_id": "09825_nyuukamachi",
+      "reading": "にゅうかまち",
+      "headword": "{入荷|にゅうか}{待|ま}ち",
+      "label": "waiting for stock"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -150,6 +187,6 @@
       "verb_class": "suru"
     },
     "created": "2026-01-28T04:49:13Z",
-    "modified": "2026-01-28T04:49:13Z"
+    "modified": "2026-09-02T04:01:16Z"
   }
 }

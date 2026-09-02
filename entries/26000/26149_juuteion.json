@@ -15,39 +15,60 @@
   "examples": [
     {
       "id": "26149_juuteion_ex1",
-      "japanese": "{重低音|じゅうていおん}が{響|ひび}く。",
+      "japanese": "{重低音|じゅうていおん}⟦が→が：00051_ga⟧⟦{響|ひび}く→響く：00099_hibiku⟧。",
       "english": "The deep bass reverberates.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26149_juuteion_ex2",
-      "japanese": "このスピーカーは{重低音|じゅうていおん}が{強|つよ}い。",
+      "japanese": "⟦この→この：00962_kono⟧⟦スピーカー→スピーカー：04420_supiikaa⟧⟦は→は：00079_ha⟧{重低音|じゅうていおん}⟦が→が：00051_ga⟧⟦{強|つよ}い→強い：00820_tsuyoi⟧。",
       "english": "This speaker has strong bass.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26149_juuteion_ex3",
-      "japanese": "ライブ{会場|かいじょう}で{重低音|じゅうていおん}が{体|からだ}に{伝|つた}わってきて、{鳥肌|とりはだ}が{立|た}った。",
+      "japanese": "⟦ライブ→ライブ：05412_raibu⟧⟦{会場|かいじょう}→会場：01269_kaijou⟧⟦で→で：00502_de⟧{重低音|じゅうていおん}⟦が→が：00051_ga⟧⟦{体|からだ}→体：00784_karada⟧⟦に→に：00314_ni⟧⟦{伝|つた}わって→伝わる：01961_tsutawaru⟧きて、⟦{鳥肌|とりはだ}→鳥肌：08544_torihada⟧⟦が→が：00051_ga⟧⟦{立|た}った→立つ：00758_tatsu⟧。",
       "english": "At the concert venue, the deep bass traveled through my body and gave me goosebumps.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {重|じゅう} (heavy, deep) + {低音|ていおん} (low sound, bass). This word emphasizes the physicality and weight of deep bass frequencies — not just low pitch but the kind of resonant, chest-thumping sound you can feel in your body.\n\nFrequently used in product descriptions for audio equipment (headphones, speakers, subwoofers) and in music discussions, especially for genres like hip-hop, EDM, and club music.\n\nCOMMON COLLOCATIONS:\n- {重低音|じゅうていおん}が{響|ひび}く: deep bass reverberates\n- {重低音|じゅうていおん}{再生|さいせい}: bass reproduction (audio spec)\n- {重低音|じゅうていおん}モデル: bass-heavy model (headphones, speakers)\n- {重低音|じゅうていおん}スピーカー: bass speaker, subwoofer\n\nSIMILAR WORDS:\n- {低音|ていおん}: bass, low sound — more neutral, just refers to low pitch\n- {低音域|ていおんいき}: low frequency range — technical audio term\n- バス: bass — English loanword used in music",
-  "cross_references": [],
+  "notes": "Composed of {重|じゅう} (heavy, deep) + ⟦{低音|ていおん}→低音：18282_teion⟧ (low sound, bass). This word emphasizes the physicality and weight of deep bass frequencies — not just low pitch but the kind of resonant, chest-thumping sound you can feel in your body.\n\nFrequently used in product descriptions for audio equipment (headphones, speakers, subwoofers) and in music discussions, especially for genres like hip-hop, EDM, and club music.\n\nCOMMON COLLOCATIONS:\n- {重低音|じゅうていおん}⟦が→が：00051_ga⟧⟦{響|ひび}く→響く：00099_hibiku⟧: deep bass reverberates\n- {重低音|じゅうていおん}⟦{再生|さいせい}→再生：04442_saisei⟧: bass reproduction (audio spec)\n- {重低音|じゅうていおん}⟦モデル→モデル：05112_moderu⟧: bass-heavy model (headphones, speakers)\n- {重低音|じゅうていおん}⟦スピーカー→スピーカー：04420_supiikaa⟧: bass speaker, subwoofer\n\nSIMILAR WORDS:\n- ⟦{低音|ていおん}→低音：18282_teion⟧: bass, low sound — more neutral, just refers to low pitch\n- {低音域|ていおんいき}: low frequency range — technical audio term\n- ⟦バス→バス：00769_basu⟧: bass — English loanword used in music",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00769_basu",
+      "reading": "ばす",
+      "headword": "バス",
+      "label": "bass"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["music", "technology"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "music",
+        "technology"
+      ]
     },
     "created": "2026-04-29T15:27:14Z",
-    "modified": "2026-04-29T15:27:14Z"
+    "modified": "2026-09-02T04:02:25Z"
   }
 }

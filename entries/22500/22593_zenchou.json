@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22593_zenchou_ex1",
-      "japanese": "この{橋|はし}の{全長|ぜんちょう}は{約|やく}500メートルだ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{橋|はし}→橋：02163_hashi⟧⟦の→の：09472_no⟧{全長|ぜんちょう}⟦は→は：00079_ha⟧⟦{約|やく}→約：09563_yaku⟧500⟦メートル→メートル：02975_meetoru⟧だ。",
       "english": "The total length of this bridge is about 500 meters.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22593_zenchou_ex2",
-      "japanese": "この{蛇|へび}は{全長|ぜんちょう}3メートルにもなる。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{蛇|へび}→蛇：02246_hebi⟧⟦は→は：00079_ha⟧{全長|ぜんちょう}3⟦メートル→メートル：02975_meetoru⟧⟦に→に：00314_ni⟧⟦も→も：00484_mo⟧⟦なる→なる：01970_naru⟧。",
       "english": "This snake reaches an overall length of 3 meters.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22593_zenchou_ex3",
-      "japanese": "{全長|ぜんちょう}100キロメートルの{高速道路|こうそくどうろ}が{来年|らいねん}{開通|かいつう}する{予定|よてい}だ。",
+      "japanese": "{全長|ぜんちょう}100⟦キロメートル→キロメートル：02873_kiromeetoru⟧⟦の→の：09472_no⟧⟦{高速道路|こうそくどうろ}→高速道路：09242_kousokudouro⟧⟦が→が：00051_ga⟧⟦{来年|らいねん}→来年：00745_rainen⟧⟦{開通|かいつう}→開通：04122_kaitsuu⟧⟦する→する：00392_suru⟧⟦{予定|よてい}→予定：00824_yotei⟧だ。",
       "english": "A highway with a total length of 100 kilometers is scheduled to open next year.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {全|ぜん} (all, complete) and {長|ちょう} (length). Used for measuring the full extent of physical objects such as vehicles, bridges, tunnels, rivers, and animals. Commonly appears in specifications, descriptions, and technical contexts.\n\nCOMMON COLLOCATIONS:\n- {全長|ぜんちょう}〜メートル: ~ meters in total length\n- {全長|ぜんちょう}〜キロ: ~ kilometers long\n- {全長|ぜんちょう}が{約|やく}〜: approximately ~ in total length\n- {車|くるま}の{全長|ぜんちょう}: the overall length of a car\n\nSIMILAR WORDS:\n- {全幅|ぜんぷく}: overall width — the width counterpart to {全長|ぜんちょう}\n- {全高|ぜんこう}: overall height — the height counterpart\n- {長|なが}さ: length — the general, everyday word for length",
+  "notes": "A compound of ⟦{全|ぜん}→全〜：28337_zen⟧ (all, complete) and {長|ちょう} (length). Used for measuring the full extent of physical objects such as vehicles, bridges, tunnels, rivers, and animals. Commonly appears in specifications, descriptions, and technical contexts.\n\nCOMMON COLLOCATIONS:\n- {全長|ぜんちょう}〜⟦メートル→メートル：02975_meetoru⟧: ~ meters in total length\n- {全長|ぜんちょう}〜⟦キロ→キロ：01350_kiro⟧: ~ kilometers long\n- {全長|ぜんちょう}⟦が→が：00051_ga⟧⟦{約|やく}→約：09563_yaku⟧〜: approximately ~ in total length\n- ⟦{車|くるま}→車：00516_kuruma⟧⟦の→の：09472_no⟧{全長|ぜんちょう}: the overall length of a car\n\nSIMILAR WORDS:\n- {全幅|ぜんぷく}: overall width — the width counterpart to {全長|ぜんちょう}\n- {全高|ぜんこう}: overall height — the height counterpart\n- ⟦{長|なが}さ→長さ：05326_nagasa⟧: length — the general, everyday word for length",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05326_nagasa",
+      "reading": "ながさ",
+      "headword": "{長|なが}さ",
+      "label": "length"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23086_taichou",
+      "reading": "たいちょう",
+      "headword": "{体長|たいちょう}",
+      "label": "body length"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +75,6 @@
       "politeness": "plain"
     },
     "created": "2026-04-06T19:13:43Z",
-    "modified": "2026-07-30T15:22:32Z"
+    "modified": "2026-09-02T04:02:08Z"
   }
 }

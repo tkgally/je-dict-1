@@ -3,7 +3,7 @@
   "headword": "ばたんばたん",
   "reading": "ばたんばたん",
   "romaji": "batanbatan",
-  "part_of_speech": "adverb",
+  "part_of_speech": "adverb, onomatopoeia",
   "gloss": "bang-bang; slamming repeatedly",
   "definitions": [
     {
@@ -15,39 +15,88 @@
   "examples": [
     {
       "id": "26362_batanbatan_ex1",
-      "japanese": "{風|かぜ}でドアがばたんばたん{鳴|な}る。",
+      "japanese": "⟦{風|かぜ}→風：00641_kaze⟧⟦で→で：00502_de⟧⟦ドア→ドア：00773_doa⟧⟦が→が：00051_ga⟧ばたんばたん⟦{鳴|な}る→鳴る：01143_naru⟧。",
       "english": "The door is banging in the wind.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26362_batanbatan_ex2",
-      "japanese": "{隣|となり}の{部屋|へや}で{戸|と}をばたんばたん{閉|し}めている。",
+      "japanese": "⟦{隣|となり}→隣：01003_tonari⟧⟦の→の：09472_no⟧⟦{部屋|へや}→部屋：00507_heya⟧⟦で→で：00502_de⟧⟦{戸|と}→戸：00676_to⟧⟦を→を：00422_wo⟧ばたんばたん⟦{閉|し}めている→閉める：00485_shimeru⟧。",
       "english": "Someone is slamming the door over and over in the next room.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26362_batanbatan_ex3",
-      "japanese": "{台風|たいふう}の{夜|よる}、{雨戸|あまど}がばたんばたんと{揺|ゆ}れて{眠|ねむ}れなかった。",
+      "japanese": "⟦{台風|たいふう}→台風：01455_taifuu⟧⟦の→の：09472_no⟧⟦{夜|よる}→夜：00487_yoru⟧、⟦{雨戸|あまど}→雨戸：03996_amado⟧⟦が→が：00051_ga⟧ばたんばたん⟦と→と：00512_to⟧⟦{揺|ゆ}れて→揺れる：01161_yureru⟧⟦{眠|ねむ}れなかった→眠れる：15166_nemureru⟧。",
       "english": "On the typhoon night, the storm shutters were slamming back and forth and I couldn't sleep.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Reduplication of the single-impact onomatopoeia ばたん, which mimics one loud slam or bang. The doubled form ばたんばたん emphasizes repetition — the sound happening over and over.\n\nCan be used with or without the particle と before a verb: ばたんばたん{鳴|な}る or ばたんばたんと{鳴|な}る.\n\nRELATED ONOMATOPOEIA:\n- ばたん: a single loud slam (one door closing hard)\n- バタバタ: frantic rushing around; flapping, fluttering\n- ガタガタ: rattling, clattering (lighter impacts, often metallic or loose objects)\n- ドンドン: pounding, knocking heavily\n- バンバン: banging, hitting hard (often with hands or fists)\n\nUSAGE:\nMost naturally describes doors, shutters ({雨戸|あまど}), gates, or lids being slammed. Less common for hitting people or objects directly — バンバン or ドンドン are more natural for those.",
-  "cross_references": [],
+  "notes": "Reduplication of the single-impact onomatopoeia ⟦ばたん→ばたん：26035_batan⟧, which mimics one loud slam or bang. The doubled form ばたんばたん emphasizes repetition — the sound happening over and over.\n\nCan be used with or without the particle ⟦と→と：00512_to⟧ before a verb: ばたんばたん⟦{鳴|な}る→鳴る：01143_naru⟧ or ばたんばたん⟦と→と：00512_to⟧⟦{鳴|な}る→鳴る：01143_naru⟧.\n\nRELATED ONOMATOPOEIA:\n- ⟦ばたん→ばたん：26035_batan⟧: a single loud slam (one door closing hard)\n- バタバタ: frantic rushing around; flapping, fluttering\n- ガタガタ: rattling, clattering (lighter impacts, often metallic or loose objects)\n- ドンドン: pounding, knocking heavily\n- バンバン: banging, hitting hard (often with hands or fists)\n\nUSAGE:\nMost naturally describes doors, shutters (⟦{雨戸|あまど}→雨戸：03996_amado⟧), gates, or lids being slammed. Less common for hitting people or objects directly — バンバン or ドンドン are more natural for those.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "26035_batan",
+      "reading": "ばたん",
+      "headword": "ばたん",
+      "label": "a single loud slam"
+    },
+    {
+      "type": "related",
+      "target_id": "05353_batabata",
+      "reading": "ばたばた",
+      "headword": "ばたばた",
+      "label": "frantic rushing around"
+    },
+    {
+      "type": "related",
+      "target_id": "05274_gatagata",
+      "reading": "がたがた",
+      "headword": "がたがた",
+      "label": "rattling, clattering"
+    },
+    {
+      "type": "related",
+      "target_id": "01261_dondon",
+      "reading": "どんどん",
+      "headword": "どんどん",
+      "label": "pounding, knocking heavily"
+    },
+    {
+      "type": "related",
+      "target_id": "06179_banban",
+      "reading": "ばんばん",
+      "headword": "ばんばん",
+      "label": "banging, hitting hard"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adverb", "onomatopoeia"],
-      "semantic": ["onomatopoeia"]
+      "pos": [
+        "adverb",
+        "onomatopoeia"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "onomatopoeia"
+      ]
     },
     "created": "2026-05-01T12:39:08Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T04:02:26Z"
   }
 }

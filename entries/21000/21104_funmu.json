@@ -3,7 +3,7 @@
   "headword": "{噴霧|ふんむ}",
   "reading": "ふんむ",
   "romaji": "funmu",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "spraying; atomizing; misting",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21104_funmu_ex1",
-      "japanese": "{消毒液|しょうどくえき}を{噴霧|ふんむ}する。",
+      "japanese": "{消毒液|しょうどくえき}⟦を→を：00422_wo⟧{噴霧|ふんむ}⟦する→する：00392_suru⟧。",
       "english": "To spray disinfectant.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21104_funmu_ex2",
-      "japanese": "{農薬|のうやく}の{噴霧|ふんむ}は{風|かぜ}のない{日|ひ}に{行|おこな}う。",
+      "japanese": "⟦{農薬|のうやく}→農薬：04295_nouyaku⟧⟦の→の：09472_no⟧{噴霧|ふんむ}⟦は→は：00079_ha⟧⟦{風|かぜ}→風：00641_kaze⟧⟦の→の：09472_no⟧⟦ない→ない：01118_nai⟧⟦{日|ひ}→日：02249_hi⟧⟦に→に：00314_ni⟧⟦{行|おこな}う→行う：01238_okonau⟧。",
       "english": "Pesticide spraying is done on windless days.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21104_funmu_ex3",
-      "japanese": "{暑|あつ}い{日|ひ}に{公園|こうえん}でミストを{噴霧|ふんむ}して、{涼|すず}しさを{提供|ていきょう}するサービスがある。",
+      "japanese": "⟦{暑|あつ}い→暑い：00619_atsui⟧⟦{日|ひ}→日：02249_hi⟧⟦に→に：00314_ni⟧⟦{公園|こうえん}→公園：00581_kouen⟧⟦で→で：00502_de⟧ミスト⟦を→を：00422_wo⟧{噴霧|ふんむ}⟦して→する：00392_suru⟧、{涼|すず}しさ⟦を→を：00422_wo⟧⟦{提供|ていきょう}する→提供する：21736_teikyousuru⟧⟦サービス→サービス：01531_saabisu⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "On hot days, there are services that spray mist in parks to provide cooling.",
       "sense_numbers": [
         1
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "Describes the dispersal of liquid as a fine mist or spray. Used in agriculture (pesticide spraying), medical settings (disinfection), cosmetics, and cooling systems.\n\nCOMMON COLLOCATIONS:\n- {噴霧|ふんむ}する: to spray, to atomize\n- {噴霧器|ふんむき}: sprayer, atomizer\n- {噴霧|ふんむ}{消毒|しょうどく}: spray disinfection\n- {噴霧|ふんむ}{式|しき}: spray-type\n- {噴霧|ふんむ}ノズル: spray nozzle\n\nSIMILAR WORDS:\n- スプレー: spray — the loanword equivalent; more casual and everyday\n- {散布|さんぷ}: scattering, spraying — broader; can include spreading seeds or distributing leaflets, not just liquid\n- {霧吹|きりふ}き: spray bottle, mister — refers to the handheld tool itself\n\nETYMOLOGY:\n{噴|ふん} (spout, emit) + {霧|む} (mist, fog) — \"emit mist.\"",
+  "notes": "Describes the dispersal of liquid as a fine mist or spray. Used in agriculture (pesticide spraying), medical settings (disinfection), cosmetics, and cooling systems.\n\nCOMMON COLLOCATIONS:\n- {噴霧|ふんむ}⟦する→する：00392_suru⟧: to spray, to atomize\n- ⟦{噴霧器|ふんむき}→噴霧器：25071_funmuki⟧: sprayer, atomizer\n- {噴霧|ふんむ}⟦{消毒|しょうどく}→消毒：07591_shoudoku⟧: spray disinfection\n- {噴霧|ふんむ}{式|しき}: spray-type\n- {噴霧|ふんむ}ノズル: spray nozzle\n\nSIMILAR WORDS:\n- ⟦スプレー→スプレー：11581_supuree⟧: spray — the loanword equivalent; more casual and everyday\n- ⟦{散布|さんぷ}→散布：21064_sanpu⟧: scattering, spraying — broader; can include spreading seeds or distributing leaflets, not just liquid\n- ⟦{霧吹|きりふ}き→霧吹き：15171_kirifuki⟧: spray bottle, mister — refers to the handheld tool itself\n\nETYMOLOGY:\n{噴|ふん} (spout, emit) + {霧|む} (mist, fog) — \"emit mist.\"",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11581_supuree",
+      "reading": "すぷれー",
+      "headword": "スプレー",
+      "label": "spray"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21064_sanpu",
+      "reading": "さんぷ",
+      "headword": "{散布|さんぷ}",
+      "label": "scattering, spraying"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15171_kirifuki",
+      "reading": "きりふき",
+      "headword": "{霧吹|きりふ}き",
+      "label": "spray bottle, mister"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21621_sanpusuru",
+      "reading": "さんぷする",
+      "headword": "{散布|さんぷ}する",
+      "label": "to scatter"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -58,10 +88,11 @@
       "semantic": [
         "science"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-03-31T17:19:54Z",
-    "modified": "2026-03-31T17:19:54Z"
+    "modified": "2026-09-02T04:02:02Z"
   },
   "conjugation": {
     "type": "suru",

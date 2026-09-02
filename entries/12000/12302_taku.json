@@ -15,41 +15,59 @@
   "examples": [
     {
       "id": "12302_taku_ex1",
-      "japanese": "お{宅|たく}はどちらですか。",
+      "japanese": "⟦お{宅|たく}→お宅：01569_otaku⟧⟦は→は：00079_ha⟧⟦どちら→どちら：00927_dochira⟧です⟦か→か：09473_ka⟧。",
       "english": "Where is your home?",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12302_taku_ex2",
-      "japanese": "{田中|たなか}{宅|たく}に{荷物|にもつ}を{届|とど}ける。",
+      "japanese": "⟦{田中|たなか}→田中：09528_tanaka⟧{宅|たく}⟦に→に：00314_ni⟧⟦{荷物|にもつ}→荷物：00737_nimotsu⟧⟦を→を：00422_wo⟧⟦{届|とど}ける→届ける：01248_todokeru⟧。",
       "english": "To deliver a package to the Tanaka residence.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12302_taku_ex3",
-      "japanese": "{自宅|じたく}から{会社|かいしゃ}まで{電車|でんしゃ}で{三十分|さんじゅっぷん}かかる。",
+      "japanese": "⟦{自宅|じたく}→自宅：00129_jitaku⟧⟦から→から：00504_kara⟧⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦まで→まで：00490_made⟧⟦{電車|でんしゃ}→電車：00522_densha⟧⟦で→で：00502_de⟧⟦{三十分|さんじゅっぷん}→三十分：09672_sanjuppun⟧⟦かかる→かかる：00711_kakaru⟧。",
       "english": "It takes thirty minutes by train from home to the office.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{宅|たく} is a somewhat formal word for home or residence. In everyday conversation, {家|いえ} or うち is more common.\n\nCOMMON COLLOCATIONS:\n- お{宅|たく} (your home — polite; also \"otaku\" when written as a pronoun)\n- {自宅|じたく} (one's own home)\n- {在宅|ざいたく} (being at home)\n- {宅配|たくはい} (home delivery)\n- {帰宅|きたく} (returning home)\n\nUSAGE:\nAs a standalone word, {宅|たく} is primarily used as a suffix after family names ({田中|たなか}{宅|たく}) or in compound words. お{宅|たく} is the polite form used to refer to another person's home, and is also used as a second-person pronoun in polite speech.",
-  "cross_references": [],
+  "notes": "{宅|たく} is a somewhat formal word for home or residence. In everyday conversation, ⟦{家|いえ}→家：00612_ie⟧ or うち is more common.\n\nCOMMON COLLOCATIONS:\n- ⟦お{宅|たく}→お宅：01569_otaku⟧ (your home — polite; also \"otaku\" when written as a pronoun)\n- ⟦{自宅|じたく}→自宅：00129_jitaku⟧ (one's own home)\n- ⟦{在宅|ざいたく}→在宅：07696_zaitaku⟧ (being at home)\n- ⟦{宅配|たくはい}→宅配：09571_takuhai⟧ (home delivery)\n- ⟦{帰宅|きたく}→帰宅：02546_kitaku⟧ (returning home)\n\nUSAGE:\nAs a standalone word, {宅|たく} is primarily used as a suffix after family names (⟦{田中|たなか}→田中：09528_tanaka⟧{宅|たく}) or in compound words. ⟦お{宅|たく}→お宅：01569_otaku⟧ is the polite form used to refer to another person's home, and is also used as a second-person pronoun in polite speech.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23029_tei",
+      "reading": "てい",
+      "headword": "{邸|てい}",
+      "label": "mansion"
+    }
+  ],
   "metadata": {
     "created": "2026-02-20T16:37:43Z",
-    "modified": "2026-02-20T16:37:43Z",
+    "modified": "2026-09-02T04:01:28Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["building"]
+      "semantic": [
+        "building"
+      ]
     }
   }
 }

@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08539_katsudon_ex1",
-      "japanese": "カツ{丼|どん}を{注文|ちゅうもん}した。",
+      "japanese": "カツ{丼|どん}⟦を→を：00422_wo⟧⟦{注文|ちゅうもん}した→注文する：21390_chuumon⟧。",
       "english": "I ordered a katsudon.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "08539_katsudon_ex2",
-      "japanese": "{試験|しけん}{前|まえ}にカツ{丼|どん}を{食|た}べた。",
+      "japanese": "⟦{試験|しけん}→試験：01422_shiken⟧⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧カツ{丼|どん}⟦を→を：00422_wo⟧⟦{食|た}べた→食べる：00396_taberu⟧。",
       "english": "I ate katsudon before the exam.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "08539_katsudon_ex3",
-      "japanese": "この{店|みせ}のカツ{丼|どん}は{有名|ゆうめい}だ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{店|みせ}→店：00497_mise⟧⟦の→の：09472_no⟧カツ{丼|どん}⟦は→は：00079_ha⟧⟦{有名|ゆうめい}→有名：01106_yuumei⟧だ。",
       "english": "This restaurant is famous for its katsudon.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
     },
     {
       "id": "08539_katsudon_ex4",
-      "japanese": "{家|いえ}でカツ{丼|どん}を{作|つく}ってみた。",
+      "japanese": "⟦{家|いえ}→家：00612_ie⟧⟦で→で：00502_de⟧カツ{丼|どん}⟦を→を：00422_wo⟧⟦{作|つく}って→作る：00481_tsukuru⟧みた。",
       "english": "I tried making katsudon at home.",
       "sense_numbers": [
         1
@@ -53,7 +53,37 @@
       "notes": null
     }
   ],
-  "notes": "ETYMOLOGY:\nカツ (cutlet, from English) + {丼|どん} (rice bowl)\n\nCULTURAL NOTE:\nEaten before exams for good luck because カツ sounds like {勝|か}つ (to win). The phrase is 「{試験|しけん}に{勝|か}つ」(to win the exam).\n\nPOLICE ASSOCIATION:\nIn Japanese detective dramas, suspects are often offered katsudon during interrogation. This has become a cultural trope.\n\nINGREDIENTS:\n- とんかつ - breaded pork cutlet\n- {卵|たまご} - egg\n- {玉|たま}ねぎ - onion\n- だし - broth\n- {醤油|しょうゆ}/{味醂|みりん} - seasoning\n- {白|しろ}ご{飯|はん} - white rice\n\nRELATED DONBURI:\n- {牛丼|ぎゅうどん} - beef bowl\n- {親子丼|おやこどん} - chicken and egg bowl\n- {天丼|てんどん} - tempura bowl",
+  "notes": "ETYMOLOGY:\nカツ (cutlet, from English) + {丼|どん} (rice bowl)\n\nCULTURAL NOTE:\nEaten before exams for good luck because カツ sounds like ⟦{勝|か}つ→勝つ：01199_katsu⟧ (to win). The phrase is 「⟦{試験|しけん}→試験：01422_shiken⟧⟦に→に：00314_ni⟧⟦{勝|か}つ→勝つ：01199_katsu⟧」(to win the exam).\n\nPOLICE ASSOCIATION:\nIn Japanese detective dramas, suspects are often offered katsudon during interrogation. This has become a cultural trope.\n\nINGREDIENTS:\n- ⟦とんかつ→とんかつ：28094_tonkatsu⟧ - breaded pork cutlet\n- ⟦{卵|たまご}→卵：02222_tamago⟧ - egg\n- {玉|たま}ねぎ - onion\n- だし - broth\n- ⟦{醤油|しょうゆ}→醤油：01056_shouyu⟧/⟦{味醂|みりん}→味醂：04918_mirin⟧ - seasoning\n- ⟦{白|しろ}→白：13854_shiro⟧⟦ご{飯|はん}→ご飯：00776_gohan⟧ - white rice\n\nRELATED DONBURI:\n- ⟦{牛丼|ぎゅうどん}→牛丼：08600_gyuudon⟧ - beef bowl\n- ⟦{親子丼|おやこどん}→親子丼：17621_oyakodon⟧ - chicken and egg bowl\n- ⟦{天丼|てんどん}→天丼：19279_tendon⟧ - tempura bowl",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "08600_gyuudon",
+      "reading": "ぎゅうどん",
+      "headword": "{牛丼|ぎゅうどん}",
+      "label": "beef bowl"
+    },
+    {
+      "type": "related",
+      "target_id": "17621_oyakodon",
+      "reading": "おやこどん",
+      "headword": "{親子丼|おやこどん}",
+      "label": "chicken and egg bowl"
+    },
+    {
+      "type": "related",
+      "target_id": "19279_tendon",
+      "reading": "てんどん",
+      "headword": "{天丼|てんどん}",
+      "label": "tempura bowl"
+    },
+    {
+      "type": "related",
+      "target_id": "28094_tonkatsu",
+      "reading": "とんかつ",
+      "headword": "とんかつ",
+      "label": "tonkatsu"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,11 +91,12 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "food"
       ]
     },
     "created": "2026-01-27T10:33:10Z",
-    "modified": "2026-06-22T12:50:00Z"
+    "modified": "2026-09-02T04:01:15Z"
   }
 }

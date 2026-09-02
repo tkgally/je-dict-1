@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "17277_ashibayani_ex1",
-      "japanese": "{足早|あしばや}に{立|た}ち{去|さ}った。",
+      "japanese": "{足早|あしばや}に⟦{立|た}ち{去|さ}った→立ち去る：04640_tachisaru⟧。",
       "english": "He left with quick steps.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17277_ashibayani_ex2",
-      "japanese": "{雨|あめ}が{降|ふ}ってきたので、{足早|あしばや}に{駅|えき}へ{向|む}かった。",
+      "japanese": "⟦{雨|あめ}→雨：00583_ame⟧⟦が→が：00051_ga⟧⟦{降|ふ}って→降る：00839_furu⟧きた⟦の→の：09472_no⟧で、{足早|あしばや}に⟦{駅|えき}→駅：02180_eki⟧⟦へ→へ：02473_he⟧⟦{向|む}かった→向かう：01186_mukau⟧。",
       "english": "Since it started raining, I headed briskly toward the station.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17277_ashibayani_ex3",
-      "japanese": "{彼女|かのじょ}は{何|なに}も{言|い}わず、{足早|あしばや}にその{場|ば}を{離|はな}れた。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧⟦{何|なに}も→何も：03874_nanimo⟧⟦{言|い}わ→言う：00515_iu⟧ず、{足早|あしばや}に⟦その→その：00993_sono⟧⟦{場|ば}→場：03699_ba⟧⟦を→を：00422_wo⟧⟦{離|はな}れた→離れる：02397_hanareru⟧。",
       "english": "Without saying anything, she hurriedly left the scene.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nTypically used with verbs of movement such as {歩|ある}く (walk), {去|さ}る (leave), {通|とお}り{過|す}ぎる (pass by), {向|む}かう (head toward). The adverbial に is essential — {足早|あしばや} alone functions as a na-adjective or noun.\n\nCOMMON COLLOCATIONS:\n- {足早|あしばや}に{歩|ある}く (walk briskly)\n- {足早|あしばや}に{立|た}ち{去|さ}る (leave hurriedly)\n- {足早|あしばや}に{通|とお}り{過|す}ぎる (pass by quickly)\n- {足早|あしばや}に{向|む}かう (head somewhere briskly)\n\nSIMILAR WORDS:\n- {急|いそ}いで: hurriedly — more general; can apply to any action, not just walking\n- {早足|はやあし}で: at a fast pace — similar meaning but used as a noun with で",
+  "notes": "USAGE:\nTypically used with verbs of movement such as ⟦{歩|ある}く→歩く：00538_aruku⟧ (walk), ⟦{去|さ}る→去る：02115_saru⟧ (leave), ⟦{通|とお}り{過|す}ぎる→通り過ぎる：02372_toorisugiru⟧ (pass by), ⟦{向|む}かう→向かう：01186_mukau⟧ (head toward). The adverbial ⟦に→に：00314_ni⟧ is essential — ⟦{足早|あしばや}→足早：14454_ashibaya⟧ alone functions as a na-adjective or noun.\n\nCOMMON COLLOCATIONS:\n- {足早|あしばや}に⟦{歩|ある}く→歩く：00538_aruku⟧ (walk briskly)\n- {足早|あしばや}に⟦{立|た}ち{去|さ}る→立ち去る：04640_tachisaru⟧ (leave hurriedly)\n- {足早|あしばや}に⟦{通|とお}り{過|す}ぎる→通り過ぎる：02372_toorisugiru⟧ (pass by quickly)\n- {足早|あしばや}に⟦{向|む}かう→向かう：01186_mukau⟧ (head somewhere briskly)\n\nSIMILAR WORDS:\n- ⟦{急|いそ}いで→急ぐ：01191_isogu⟧: hurriedly — more general; can apply to any action, not just walking\n- ⟦{早足|はやあし}→早足：21118_hayaashi⟧⟦で→で：00502_de⟧: at a fast pace — similar meaning but used as a noun with で",
   "cross_references": [
     {
       "type": "synonym",
@@ -53,18 +59,29 @@
       "reading": "いそぐ",
       "headword": "{急|いそ}ぐ",
       "label": "to hurry"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19486_isoide",
+      "reading": "いそいで",
+      "headword": "{急|いそ}いで",
+      "label": "hurriedly"
     }
   ],
   "metadata": {
     "created": "2026-03-17T04:29:42Z",
-    "modified": "2026-05-06T06:14:35Z",
+    "modified": "2026-09-02T04:01:47Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adverb"],
+      "pos": [
+        "adverb"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["movement"]
+      "semantic": [
+        "movement"
+      ]
     }
   }
 }

@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08298_deokure_ex1",
-      "japanese": "スタートで{出遅|でおく}れた。",
+      "japanese": "⟦スタート→スタート：11053_sutaato⟧⟦で→で：00502_de⟧{出遅|でおく}れた。",
       "english": "I got off to a slow start.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "08298_deokure_ex2",
-      "japanese": "IT{化|か}への{出遅|でおく}れを{取|と}り{戻|もど}す。",
+      "japanese": "IT⟦{化|か}→〜化：28335_ka⟧⟦へ→へ：02473_he⟧⟦の→の：09472_no⟧{出遅|でおく}れ⟦を→を：00422_wo⟧⟦{取|と}り{戻|もど}す→取り戻す：04223_torimodosu⟧。",
       "english": "To make up for falling behind in digitalization.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "08298_deokure_ex3",
-      "japanese": "{就職活動|しゅうしょくかつどう}で{出遅|でおく}れ{感|かん}がある。",
+      "japanese": "⟦{就職活動|しゅうしょくかつどう}→就職活動：14840_shuushokukatsudou⟧⟦で→で：00502_de⟧{出遅|でおく}れ⟦{感|かん}→〜感：28578_kan⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "I feel like I got a late start on job hunting.",
       "sense_numbers": [
         1
@@ -43,7 +43,16 @@
       "notes": null
     }
   ],
-  "notes": "FORMATION:\n{出|で}る (to leave/start) + {遅|おく}れる (to be late) → late start\n\nUSAGE CONTEXTS:\n- Races and sports (slow start from the gate)\n- Business (late entry into a market)\n- Technology adoption (falling behind competitors)\n- Job hunting (starting later than peers)\n- Trends (being slow to catch on)\n\nCOMMON EXPRESSIONS:\n- {出遅|でおく}れを{取|と}り{戻|もど}す (to make up for a late start)\n- {出遅|でおく}れ{感|かん} (sense of being behind)\n- {出遅|でおく}れ{気味|ぎみ} (somewhat behind)\n\nVERB FORM:\n- {出遅|でおく}れる (to get a late start, to fall behind)\n\nCONTRAST:\n- {出|で}し{抜|ぬ}く (to get ahead of others)\n- {先行|せんこう}する (to lead, be ahead)\n\nRELATED:\n- {遅|おく}れ (delay)\n- {後|おく}れを{取|と}る (to fall behind)\n- スタートダッシュ (quick start)",
+  "notes": "FORMS:\n⟦{出|で}る→出る：00513_deru⟧ (to leave/start) + ⟦{遅|おく}れる→遅れる：00741_okureru⟧ (to be late) → late start\n- {出遅|でおく}れる (to get a late start, to fall behind)\n\nUSAGE:\n- Races and sports (slow start from the gate)\n- Business (late entry into a market)\n- Technology adoption (falling behind competitors)\n- Job hunting (starting later than peers)\n- Trends (being slow to catch on)\n\nCOMMON EXPRESSIONS:\n- {出遅|でおく}れ⟦を→を：00422_wo⟧⟦{取|と}り{戻|もど}す→取り戻す：04223_torimodosu⟧ (to make up for a late start)\n- {出遅|でおく}れ⟦{感|かん}→〜感：28578_kan⟧ (sense of being behind)\n- {出遅|でおく}れ⟦{気味|ぎみ}→気味：27635_gimi⟧ (somewhat behind)\n\nSIMILAR WORDS:\n- {出|で}し{抜|ぬ}く (to get ahead of others)\n- ⟦{先行|せんこう}→先行：03773_senkou⟧⟦する→する：00392_suru⟧ (to lead, be ahead)\n\nRELATED WORDS:\n- ⟦{遅|おく}れ→遅れ：01908_okure⟧ (delay)\n- {後|おく}れ⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧ (to fall behind)\n- ⟦スタート→スタート：11053_sutaato⟧ダッシュ (quick start)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03773_senkou",
+      "reading": "せんこう",
+      "headword": "{先行|せんこう}",
+      "label": "to lead, be ahead"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -51,6 +60,7 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "time-general",
         "competition",
@@ -58,6 +68,6 @@
       ]
     },
     "created": "2026-01-25T11:46:53Z",
-    "modified": "2026-08-11T21:34:29Z"
+    "modified": "2026-09-02T04:01:14Z"
   }
 }

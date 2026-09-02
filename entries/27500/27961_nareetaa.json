@@ -15,41 +15,88 @@
   "examples": [
     {
       "id": "27961_nareetaa_ex1",
-      "japanese": "ナレーターの{声|こえ}が{落|お}ち{着|つ}いている。",
+      "japanese": "ナレーター⟦の→の：09472_no⟧⟦{声|こえ}→声：02207_koe⟧⟦が→が：00051_ga⟧⟦{落|お}ち{着|つ}いている→落ち着く：04670_ochitsuku⟧。",
       "english": "The narrator's voice is calm.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27961_nareetaa_ex2",
-      "japanese": "このドキュメンタリーのナレーターは{有名|ゆうめい}な{俳優|はいゆう}だ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦ドキュメンタリー→ドキュメンタリー：05250_dokyumentarii⟧⟦の→の：09472_no⟧ナレーター⟦は→は：00079_ha⟧⟦{有名|ゆうめい}→有名：01106_yuumei⟧な⟦{俳優|はいゆう}→俳優：03547_haiyuu⟧だ。",
       "english": "The narrator of this documentary is a famous actor.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27961_nareetaa_ex3",
-      "japanese": "ナレーターの{説明|せつめい}のおかげで{内容|ないよう}がよく{理解|りかい}できた。",
+      "japanese": "ナレーター⟦の→の：09472_no⟧⟦{説明|せつめい}→説明：01449_setsumei⟧⟦の→の：09472_no⟧⟦おかげ→おかげ：01362_okage⟧⟦で→で：00502_de⟧⟦{内容|ないよう}→内容：01482_naiyou⟧⟦が→が：00051_ga⟧⟦よく→よく：00601_yoku⟧⟦{理解|りかい}→理解：03674_rikai⟧⟦できた→できる：00557_dekiru⟧。",
       "english": "Thanks to the narrator's explanation, I could understand the content well.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "The off-screen voice that explains or tells the story in documentaries, variety shows, commercials, and films. The act of narrating is ナレーション.\n\nSIMILAR WORDS:\n- {声優|せいゆう}: voice actor — performs character voices for anime and dubbing, rather than explanatory narration\n- アナウンサー: announcer — a station broadcaster; may also do narration",
+  "notes": "The off-screen voice that explains or tells the story in documentaries, variety shows, commercials, and films. The act of narrating is ⟦ナレーション→ナレーション：24412_nareeshon⟧.\n\nSIMILAR WORDS:\n- ⟦{声優|せいゆう}→声優：12093_seiyuu⟧: voice actor — performs character voices for anime and dubbing, rather than explanatory narration\n- ⟦アナウンサー→アナウンサー：01765_anaunsaa⟧: announcer — a station broadcaster; may also do narration",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12093_seiyuu",
+      "reading": "せいゆう",
+      "headword": "{声優|せいゆう}",
+      "label": "voice actor"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01765_anaunsaa",
+      "reading": "あなうんさー",
+      "headword": "アナウンサー",
+      "label": "announcer"
+    },
+    {
+      "type": "related",
+      "target_id": "07748_emushii",
+      "reading": "えむしー",
+      "headword": "MC",
+      "label": "master of ceremonies"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14271_katarite",
+      "reading": "かたりて",
+      "headword": "{語|かた}り{手|て}",
+      "label": "narrator"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24412_nareeshon",
+      "reading": "なれーしょん",
+      "headword": "ナレーション",
+      "label": "narration"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["occupation"],
+      "semantic": [
+        "occupation"
+      ],
       "domain": []
     },
     "created": "2026-05-23T04:06:38Z",
-    "modified": "2026-05-23T04:06:38Z"
+    "modified": "2026-09-02T04:02:32Z"
   }
 }

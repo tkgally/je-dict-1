@@ -15,41 +15,67 @@
   "examples": [
     {
       "id": "29523_butsuji_ex1",
-      "japanese": "{仏事|ぶつじ}を{営|いとな}む。",
+      "japanese": "{仏事|ぶつじ}⟦を→を：00422_wo⟧⟦{営|いとな}む→営む：11837_itonamu⟧。",
       "english": "To hold a Buddhist service.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29523_butsuji_ex2",
-      "japanese": "{祖父|そふ}の{仏事|ぶつじ}で{親族|しんぞく}が{集|あつ}まった。",
+      "japanese": "⟦{祖父|そふ}→祖父：01452_sofu⟧⟦の→の：09472_no⟧{仏事|ぶつじ}⟦で→で：00502_de⟧⟦{親族|しんぞく}→親族：14199_shinzoku⟧⟦が→が：00051_ga⟧⟦{集|あつ}まった→集まる：01162_atsumaru⟧。",
       "english": "The relatives gathered for my grandfather's memorial service.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29523_butsuji_ex3",
-      "japanese": "{法要|ほうよう}などの{仏事|ぶつじ}には{喪服|もふく}を{着|き}て{出席|しゅっせき}する。",
+      "japanese": "⟦{法要|ほうよう}→法要：05924_houyou⟧⟦など→〜など：03095_nado⟧⟦の→の：09472_no⟧{仏事|ぶつじ}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{喪服|もふく}→喪服：11898_mofuku⟧⟦を→を：00422_wo⟧⟦{着|き}て→着る：00541_kiru⟧⟦{出席|しゅっせき}する→出席する：01830_shussekisuru⟧。",
       "english": "For Buddhist services such as memorial rites, one attends in mourning clothes.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A general term for Buddhist rites, most often memorial services held for the deceased. Contrasts with {神事|しんじ}, the equivalent observances in Shinto.\n\nCOMMON COLLOCATIONS:\n- {仏事|ぶつじ}を{営|いとな}む: to hold a Buddhist service\n- {仏事|ぶつじ}{法要|ほうよう}: Buddhist memorial rites\n\nSIMILAR WORDS:\n- {法要|ほうよう}: memorial service — a specific Buddhist rite on a death anniversary\n- {神事|しんじ}: Shinto rite — the corresponding observance in Shinto",
+  "notes": "A general term for Buddhist rites, most often memorial services held for the deceased. Contrasts with ⟦{神事|しんじ}→神事：14066_shinji⟧, the equivalent observances in Shinto.\n\nCOMMON COLLOCATIONS:\n- {仏事|ぶつじ}⟦を→を：00422_wo⟧⟦{営|いとな}む→営む：11837_itonamu⟧: to hold a Buddhist service\n- {仏事|ぶつじ}⟦{法要|ほうよう}→法要：05924_houyou⟧: Buddhist memorial rites\n\nSIMILAR WORDS:\n- ⟦{法要|ほうよう}→法要：05924_houyou⟧: memorial service — a specific Buddhist rite on a death anniversary\n- ⟦{神事|しんじ}→神事：14066_shinji⟧: Shinto rite — the corresponding observance in Shinto",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05924_houyou",
+      "reading": "ほうよう",
+      "headword": "{法要|ほうよう}",
+      "label": "memorial service"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14066_shinji",
+      "reading": "しんじ",
+      "headword": "{神事|しんじ}",
+      "label": "Shinto rite"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["religion"],
+      "politeness": "plain",
+      "semantic": [
+        "religion"
+      ],
       "domain": []
     },
     "created": "2026-06-27T18:18:39Z",
-    "modified": "2026-06-27T18:18:39Z"
+    "modified": "2026-09-02T04:02:37Z"
   }
 }

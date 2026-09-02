@@ -15,42 +15,69 @@
   "examples": [
     {
       "id": "17725_chuutosaiyou_ex1",
-      "japanese": "{中途採用|ちゅうとさいよう}で{入社|にゅうしゃ}した。",
+      "japanese": "{中途採用|ちゅうとさいよう}⟦で→で：00502_de⟧⟦{入社|にゅうしゃ}した→入社する：25409_nyuushasuru⟧。",
       "english": "I joined the company as a mid-career hire.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17725_chuutosaiyou_ex2",
-      "japanese": "この{会社|かいしゃ}は{中途採用|ちゅうとさいよう}を{積極的|せっきょくてき}に{行|おこな}っている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦は→は：00079_ha⟧{中途採用|ちゅうとさいよう}⟦を→を：00422_wo⟧⟦{積極的|せっきょくてき}→積極的：01585_sekkyokuteki⟧⟦に→に：00314_ni⟧⟦{行|おこな}っている→行う：01238_okonau⟧。",
       "english": "This company actively hires mid-career professionals.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17725_chuutosaiyou_ex3",
-      "japanese": "{中途採用|ちゅうとさいよう}では{即戦力|そくせんりょく}となる{人材|じんざい}が{求|もと}められることが{多|おお}い。",
+      "japanese": "{中途採用|ちゅうとさいよう}⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{即戦力|そくせんりょく}→即戦力：17917_sokusenryoku⟧⟦と→と：00512_to⟧⟦なる→なる：01970_naru⟧⟦{人材|じんざい}→人材：11426_jinzai⟧⟦が→が：00051_ga⟧⟦{求|もと}められる→求める：02316_motomeru⟧こと⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "In mid-career hiring, companies often look for people who can contribute immediately.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\n{中途採用|ちゅうとさいよう} is contrasted with {新卒採用|しんそつさいよう} (hiring of new graduates), which has traditionally been the dominant hiring model in Japan. As the labor market evolves, {中途採用|ちゅうとさいよう} has become increasingly common.\n\nCOMMON COLLOCATIONS:\n- {中途採用|ちゅうとさいよう}{枠|わく} (mid-career hiring slot)\n- {中途採用|ちゅうとさいよう}{面接|めんせつ} (mid-career interview)\n- {中途採用|ちゅうとさいよう}で{入社|にゅうしゃ}する (to join via mid-career hiring)\n\nCULTURE:\nTraditionally, Japanese companies hired almost exclusively from new graduates ({新卒一括採用|しんそついっかつさいよう}). {中途採用|ちゅうとさいよう} was once seen as less prestigious, but this perception has changed significantly.",
-  "cross_references": [],
+  "notes": "USAGE:\n{中途採用|ちゅうとさいよう} is contrasted with ⟦{新卒採用|しんそつさいよう}→新卒採用：29208_shinsotsusaiyou⟧ (hiring of new graduates), which has traditionally been the dominant hiring model in Japan. As the labor market evolves, {中途採用|ちゅうとさいよう} has become increasingly common.\n\nCOMMON COLLOCATIONS:\n- {中途採用|ちゅうとさいよう}{枠|わく} (mid-career hiring slot)\n- {中途採用|ちゅうとさいよう}⟦{面接|めんせつ}→面接：01100_mensetsu⟧ (mid-career interview)\n- {中途採用|ちゅうとさいよう}⟦で→で：00502_de⟧⟦{入社|にゅうしゃ}する→入社する：25409_nyuushasuru⟧ (to join via mid-career hiring)\n\nCULTURAL NOTE:\nTraditionally, Japanese companies hired almost exclusively from new graduates ({新卒一括採用|しんそついっかつさいよう}). {中途採用|ちゅうとさいよう} was once seen as less prestigious, but this perception has changed significantly.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12871_shinsotsu",
+      "reading": "しんそつ",
+      "headword": "{新卒|しんそつ}",
+      "label": "new graduate, fresh graduate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29208_shinsotsusaiyou",
+      "reading": "しんそつさいよう",
+      "headword": "{新卒採用|しんそつさいよう}",
+      "label": "new graduate hiring"
+    }
+  ],
   "metadata": {
     "created": "2026-03-18T14:42:20Z",
-    "modified": "2026-03-18T14:42:20Z",
+    "modified": "2026-09-02T04:01:49Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "domain": ["business"],
-      "semantic": ["work"]
+      "domain": [
+        "business"
+      ],
+      "semantic": [
+        "work"
+      ]
     }
   }
 }

@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "10395_narau_ex1",
-      "japanese": "{先輩|せんぱい}に{倣|なら}う。",
+      "japanese": "⟦{先輩|せんぱい}→先輩：01451_senpai⟧⟦に→に：00314_ni⟧{倣|なら}う。",
       "english": "To follow one's senior's example.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "10395_narau_ex2",
-      "japanese": "{前例|ぜんれい}に{倣|なら}って{対応|たいおう}する。",
+      "japanese": "⟦{前例|ぜんれい}→前例：11790_zenrei⟧⟦に→に：00314_ni⟧{倣|なら}って⟦{対応|たいおう}→対応：02510_taiou⟧⟦する→する：00392_suru⟧。",
       "english": "To respond by following precedent.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "10395_narau_ex3",
-      "japanese": "{他|た}の{国|くに}の{成功例|せいこうれい}に{倣|なら}い、{新|あたら}しい{制度|せいど}を{導入|どうにゅう}した。",
+      "japanese": "⟦{他|た}→他：03381_ta⟧⟦の→の：09472_no⟧⟦{国|くに}→国：02204_kuni⟧⟦の→の：09472_no⟧{成功例|せいこうれい}⟦に→に：00314_ni⟧{倣|なら}い、⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦{制度|せいど}→制度：03291_seido⟧⟦を→を：00422_wo⟧⟦{導入|どうにゅう}した→導入する：16055_dounyuusuru⟧。",
       "english": "Following the success of other countries, a new system was introduced.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,19 @@
       ]
     }
   ],
-  "notes": "{倣|なら}う means to imitate or model oneself after something. Not to be confused with the homophone {習|なら}う (to learn, to take lessons).\n\nTRANSITIVITY:\n- Type: Intransitive ({自動詞|じどうし})\n- Pattern: 〜に{倣|なら}う\n\nCOMMON PATTERNS:\n- 〜に{倣|なら}って: following the example of ~\n- 〜に{倣|なら}い: following ~ (more formal/written)\n- {前例|ぜんれい}に{倣|なら}う: to follow precedent\n- {右|みぎ}に{倣|なら}え: follow the person to the right (line-up command)\n\nSIMILAR WORDS:\n- {習|なら}う: to learn, to study (different kanji and meaning)\n- {真似|まね}る: to mimic, to copy (less deliberate, sometimes negative)\n- {倣|なら}う: to follow an example (deliberate, positive connotation)",
-  "cross_references": [],
+  "notes": "{倣|なら}う means to imitate or model oneself after something. Not to be confused with the homophone ⟦{習|なら}う→習う：00479_narau⟧ (to learn, to take lessons).\n\nTRANSITIVITY:\n- Type: Intransitive (⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧)\n- Pattern: 〜⟦に→に：00314_ni⟧{倣|なら}う\n\nCOMMON PATTERNS:\n- 〜⟦に→に：00314_ni⟧{倣|なら}って: following the example of ~\n- 〜⟦に→に：00314_ni⟧{倣|なら}い: following ~ (more formal/written)\n- ⟦{前例|ぜんれい}→前例：11790_zenrei⟧⟦に→に：00314_ni⟧{倣|なら}う: to follow precedent\n- ⟦{右|みぎ}→右：02257_migi⟧⟦に→に：00314_ni⟧{倣|なら}え: follow the person to the right (line-up command)\n\nSIMILAR WORDS:\n- ⟦{習|なら}う→習う：00479_narau⟧: to learn, to study (different kanji and meaning)\n- ⟦{真似|まね}る→真似る：10547_maneru⟧: to mimic, to copy (less deliberate, sometimes negative)\n- {倣|なら}う: to follow an example (deliberate, positive connotation)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "10547_maneru",
+      "reading": "まねる",
+      "headword": "{真似|まね}る",
+      "label": "to mimic, to copy"
+    }
+  ],
   "metadata": {
     "created": "2026-02-07T10:28:08Z",
-    "modified": "2026-03-29T03:07:35Z",
+    "modified": "2026-09-02T04:01:21Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

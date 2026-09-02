@@ -2,7 +2,7 @@
   "id": "01823_haikensuru",
   "headword": "{拝見|はいけん}する",
   "reading": "はいけんする",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "to see (humble)",
   "conjugation": {
     "type": "suru",
@@ -114,7 +114,7 @@
     },
     {
       "id": "01823_haikensuru_ex2",
-      "japanese": "⟦{資料|しりょう}→資料：04166_shiryou⟧⟦を→を：00422_wo⟧{拝見|はいけん}しても⟦よろしい→よろしい：01176_yoroshii⟧です⟦か→か：09473_ka⟧。",
+      "japanese": "⟦{資料|しりょう}→資料：04166_shiryou⟧⟦を→を：00422_wo⟧{拝見|はいけん}して⟦も→も：00484_mo⟧⟦よろしい→よろしい：01176_yoroshii⟧です⟦か→か：09473_ka⟧。",
       "english": "May I look at the materials?",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "01823_haikensuru_ex3",
-      "japanese": "お⟦{手紙|てがみ}→手紙：00675_tegami⟧、{拝見|はいけん}⟦いたしました→いたす：01314_itasu⟧。",
+      "japanese": "お⟦{手紙|てがみ}→手紙：00675_tegami⟧、⟦{拝見|はいけん}→拝見：02082_haiken⟧⟦いたしました→いたす：01314_itasu⟧。",
       "english": "I have read your letter.",
       "notes": "Very formal",
       "has_audio": false,
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "{拝見|はいけん}する is the humble (⟦{謙譲語|けんじょうご}→謙譲語：15869_kenjougo⟧) form of ⟦{見|み}る→見る：00283_miru⟧ (to see/look at). Used to lower one's own action of seeing, thereby showing respect to the person whose item you are looking at.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- No standard intransitive pair\n- Pattern: [noun]⟦を→を：00422_wo⟧{拝見|はいけん}する\n\nPOLITENESS LEVELS FOR \"TO SEE\":\n- ⟦{見|み}る→見る：00283_miru⟧: plain\n- ⟦{見|み}ます→見る：00283_miru⟧: polite\n- {拝見|はいけん}する: humble (lowers the speaker)\n- ⟦ご{覧|らん}になる→ご覧になる：01311_goranninaru⟧: honorific (elevates the other person)\n\nCOMMON PATTERNS:\n- {拝見|はいけん}しました: I looked at it (humble past)\n- {拝見|はいけん}して⟦も→も：00484_mo⟧⟦よろしい→よろしい：01176_yoroshii⟧⟦です→です：09485_desu⟧⟦か→か：09473_ka⟧: May I take a look? (polite request)\n- {拝見|はいけん}⟦いたしました→いたす：01314_itasu⟧: I looked at it (extra-humble, using いたす)\n\nUSAGE:\nCommon in business settings when looking at someone's documents, photos, or other materials. Often paired with the honorific prefix お on the object: お⟦{写真|しゃしん}→写真：00753_shashin⟧⟦を→を：00422_wo⟧{拝見|はいけん}しました。",
+  "notes": "{拝見|はいけん}する is the humble (⟦{謙譲語|けんじょうご}→謙譲語：15869_kenjougo⟧) form of ⟦{見|み}る→見る：00283_miru⟧ (to see/look at). Used to lower one's own action of seeing, thereby showing respect to the person whose item you are looking at.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- No standard intransitive pair\n- Pattern: [noun]⟦を→を：00422_wo⟧{拝見|はいけん}する\n\nPOLITENESS LEVELS FOR \"TO SEE\":\n- ⟦{見|み}る→見る：00283_miru⟧: plain\n- ⟦{見|み}ます→見る：00283_miru⟧: polite\n- {拝見|はいけん}する: humble (lowers the speaker)\n- ⟦ご{覧|らん}になる→ご覧になる：01311_goranninaru⟧: honorific (elevates the other person)\n\nCOMMON PATTERNS:\n- {拝見|はいけん}しました: I looked at it (humble past)\n- {拝見|はいけん}して⟦も→も：00484_mo⟧⟦よろしい→よろしい：01176_yoroshii⟧⟦です→です：09485_desu⟧⟦か→か：09473_ka⟧: May I take a look? (polite request)\n- ⟦{拝見|はいけん}→拝見：02082_haiken⟧⟦いたしました→いたす：01314_itasu⟧: I looked at it (extra-humble, using ⟦いたす→いたす：01314_itasu⟧)\n\nUSAGE:\nCommon in business settings when looking at someone's documents, photos, or other materials. Often paired with the honorific prefix お on the object: お⟦{写真|しゃしん}→写真：00753_shashin⟧⟦を→を：00422_wo⟧{拝見|はいけん}しました。",
   "cross_references": [
     {
       "type": "keigo",
@@ -148,11 +148,18 @@
       "reading": "ごらんになる",
       "headword": "ご{覧|らん}になる",
       "label": "honorific"
+    },
+    {
+      "type": "related",
+      "target_id": "01408_goran",
+      "reading": "ごらん",
+      "headword": "ご{覧|らん}",
+      "label": "looking, seeing (honorific)"
     }
   ],
   "metadata": {
     "created": "2026-01-09T12:45:09Z",
-    "modified": "2026-05-17T13:09:03Z",
+    "modified": "2026-09-02T04:01:00Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

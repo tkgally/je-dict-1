@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "07961_choubo_ex1",
-      "japanese": "{帳簿|ちょうぼ}をつける。",
+      "japanese": "{帳簿|ちょうぼ}⟦を→を：00422_wo⟧⟦つける→つける：00562_tsukeru⟧。",
       "english": "I keep the account books.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "07961_choubo_ex2",
-      "japanese": "{税務署|ぜいむしょ}の{調査|ちょうさ}のために{帳簿|ちょうぼ}を{整理|せいり}した。",
+      "japanese": "⟦{税務署|ぜいむしょ}→税務署：13782_zeimusho⟧⟦の→の：09472_no⟧⟦{調査|ちょうさ}→調査：03489_chousa⟧⟦の→の：09472_no⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧{帳簿|ちょうぼ}⟦を→を：00422_wo⟧⟦{整理|せいり}した→整理する：21729_seirisuru⟧。",
       "english": "I organized the financial records for the tax office audit.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "07961_choubo_ex3",
-      "japanese": "{毎日|まいにち}の{売上|うりあげ}を{帳簿|ちょうぼ}に{記録|きろく}することが{大切|たいせつ}だ。",
+      "japanese": "⟦{毎日|まいにち}→毎日：00729_mainichi⟧⟦の→の：09472_no⟧⟦{売上|うりあげ}→売上：04102_uriage⟧⟦を→を：00422_wo⟧{帳簿|ちょうぼ}⟦に→に：00314_ni⟧⟦{記録|きろく}する→記録する：25341_kirokusuru⟧こと⟦が→が：00051_ga⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧だ。",
       "english": "It's important to record daily sales in the ledger.",
       "sense_numbers": [
         1
@@ -43,7 +43,37 @@
       "notes": null
     }
   ],
-  "notes": "{帳簿|ちょうぼ} refers to financial record books used for accounting purposes.\n\nKANJI BREAKDOWN:\n- {帳|ちょう} (notebook, register)\n- {簿|ぼ} (register, record book)\n\nCOMMON COLLOCATIONS:\n- {帳簿|ちょうぼ}をつける (to keep books)\n- {帳簿|ちょうぼ}を{記入|きにゅう}する (to make entries in the ledger)\n- {帳簿|ちょうぼ}を{確認|かくにん}する (to check the records)\n- {帳簿|ちょうぼ}{管理|かんり} (bookkeeping)\n\nTYPES OF {帳簿|ちょうぼ}:\n- {現金|げんきん}{出納帳|すいとうちょう} (cash book)\n- {売上帳|うりあげちょう} (sales ledger)\n- {仕入帳|しいれちょう} (purchase ledger)\n- {総勘定元帳|そうかんじょうもとちょう} (general ledger)\n\nLEGAL REQUIREMENT:\n- Businesses are legally required to maintain {帳簿|ちょうぼ} for tax purposes\n- Must be kept for a certain number of years",
+  "notes": "{帳簿|ちょうぼ} refers to financial record books used for accounting purposes.\n\nWRITING:\n- ⟦{帳|ちょう}→帳：10012_chou⟧ (notebook, register)\n- {簿|ぼ} (register, record book)\n\nCOMMON COLLOCATIONS:\n- {帳簿|ちょうぼ}⟦を→を：00422_wo⟧⟦つける→つける：00562_tsukeru⟧ (to keep books)\n- {帳簿|ちょうぼ}⟦を→を：00422_wo⟧⟦{記入|きにゅう}→記入：02624_kinyuu⟧⟦する→する：00392_suru⟧ (to make entries in the ledger)\n- {帳簿|ちょうぼ}⟦を→を：00422_wo⟧⟦{確認|かくにん}する→確認する：25332_kakuninsuru⟧ (to check the records)\n- {帳簿|ちょうぼ}⟦{管理|かんり}→管理：00178_kanri⟧ (bookkeeping)\n\nTYPES OF {帳簿|ちょうぼ}:\n- ⟦{現金|げんきん}→現金：02716_genkin⟧{出納帳|すいとうちょう} (cash book)\n- {売上帳|うりあげちょう} (sales ledger)\n- {仕入帳|しいれちょう} (purchase ledger)\n- {総勘定元帳|そうかんじょうもとちょう} (general ledger)\n\nLEGAL REQUIREMENT:\n- Businesses are legally required to maintain {帳簿|ちょうぼ} for tax purposes\n- Must be kept for a certain number of years",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "06439_keiri",
+      "reading": "けいり",
+      "headword": "{経理|けいり}",
+      "label": "accounting, financial management"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08001_daichou",
+      "reading": "だいちょう",
+      "headword": "{台帳|だいちょう}",
+      "label": "register"
+    },
+    {
+      "type": "related",
+      "target_id": "20559_kakeibo",
+      "reading": "かけいぼ",
+      "headword": "{家計簿|かけいぼ}",
+      "label": "household account book"
+    },
+    {
+      "type": "related",
+      "target_id": "21100_choumen",
+      "reading": "ちょうめん",
+      "headword": "{帳面|ちょうめん}",
+      "label": "notebook"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -58,6 +88,6 @@
       ]
     },
     "created": "2026-01-23T10:44:57Z",
-    "modified": "2026-08-11T09:37:41Z"
+    "modified": "2026-09-02T04:01:13Z"
   }
 }

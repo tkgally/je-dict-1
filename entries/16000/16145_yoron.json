@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "16145_yoron_ex1",
-      "japanese": "{世論|よろん}{調査|ちょうさ}を{行|おこな}った。",
+      "japanese": "{世論|よろん}⟦{調査|ちょうさ}→調査：03489_chousa⟧⟦を→を：00422_wo⟧⟦{行|おこな}った→行う：01238_okonau⟧。",
       "english": "A public opinion poll was conducted.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "16145_yoron_ex2",
-      "japanese": "{世論|よろん}の{支持|しじ}を{得|え}ることが{大切|たいせつ}だ。",
+      "japanese": "{世論|よろん}⟦の→の：09472_no⟧⟦{支持|しじ}→支持：12933_shiji⟧⟦を→を：00422_wo⟧⟦{得|え}る→得る：02014_eru⟧こと⟦が→が：00051_ga⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧だ。",
       "english": "It is important to gain the support of public opinion.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "16145_yoron_ex3",
-      "japanese": "{政府|せいふ}は{世論|よろん}の{反発|はんぱつ}を{受|う}けて、{政策|せいさく}を{見直|みなお}すことになった。",
+      "japanese": "⟦{政府|せいふ}→政府：03294_seifu⟧⟦は→は：00079_ha⟧{世論|よろん}⟦の→の：09472_no⟧⟦{反発|はんぱつ}→反発：08676_hanpatsu⟧⟦を→を：00422_wo⟧⟦{受|う}けて→受ける：01215_ukeru⟧、⟦{政策|せいさく}→政策：10070_seisaku⟧⟦を→を：00422_wo⟧⟦{見直|みなお}す→見直す：04579_minaosu⟧ことになった。",
       "english": "The government decided to review the policy after facing public backlash.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "READING:\nThis word has two accepted readings: よろん (modern standard) and せろん (traditional). Both are correct and widely used. News broadcasts tend to use よろん. The entry for the せろん reading is listed separately.\n\nCOMMON COLLOCATIONS:\n- {世論|よろん}{調査|ちょうさ} (public opinion poll/survey)\n- {世論|よろん}を{動|うご}かす (to sway public opinion)\n- {世論|よろん}の{支持|しじ} (public support)\n- {世論|よろん}の{反発|はんぱつ} (public backlash)\n- {世論|よろん}{形成|けいせい} (shaping of public opinion)",
+  "notes": "PRONUNCIATION:\nThis word has two accepted readings: よろん (modern standard) and せろん (traditional). Both are correct and widely used. News broadcasts tend to use よろん. The entry for the せろん reading is listed separately.\n\nCOMMON COLLOCATIONS:\n- {世論|よろん}⟦{調査|ちょうさ}→調査：03489_chousa⟧ (public opinion poll/survey)\n- {世論|よろん}⟦を→を：00422_wo⟧⟦{動|うご}かす→動かす：01885_ugokasu⟧ (to sway public opinion)\n- {世論|よろん}⟦の→の：09472_no⟧⟦{支持|しじ}→支持：12933_shiji⟧ (public support)\n- {世論|よろん}⟦の→の：09472_no⟧⟦{反発|はんぱつ}→反発：08676_hanpatsu⟧ (public backlash)\n- {世論|よろん}⟦{形成|けいせい}→形成：12541_keisei⟧ (shaping of public opinion)",
   "prominent_see_also": [
     {
       "target_id": "05315_seron",
@@ -53,10 +53,18 @@
       "note": "alternate reading"
     }
   ],
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20588_mini",
+      "reading": "みんい",
+      "headword": "{民意|みんい}",
+      "label": "public will"
+    }
+  ],
   "metadata": {
     "created": "2026-03-10T06:06:15Z",
-    "modified": "2026-05-03T06:32:09Z",
+    "modified": "2026-09-02T04:01:43Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

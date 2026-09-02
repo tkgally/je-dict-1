@@ -15,41 +15,81 @@
   "examples": [
     {
       "id": "30104_jouyoku_ex1",
-      "japanese": "{情欲|じょうよく}を{抑|おさ}える。",
+      "japanese": "{情欲|じょうよく}⟦を→を：00422_wo⟧⟦{抑|おさ}える→抑える：12806_osaeru⟧。",
       "english": "To restrain one's desires.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "30104_jouyoku_ex2",
-      "japanese": "{情欲|じょうよく}に{溺|おぼ}れてはいけない。",
+      "japanese": "{情欲|じょうよく}⟦に→に：00314_ni⟧⟦{溺|おぼ}れて→溺れる：02026_oboreru⟧⟦は→は：00079_ha⟧いけない。",
       "english": "One must not be consumed by lust.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "30104_jouyoku_ex3",
-      "japanese": "その{小説|しょうせつ}は{登場|とうじょう}{人物|じんぶつ}の{情欲|じょうよく}と{葛藤|かっとう}を{描|えが}いている。",
+      "japanese": "⟦その→その：00993_sono⟧⟦{小説|しょうせつ}→小説：01434_shousetsu⟧⟦は→は：00079_ha⟧⟦{登場|とうじょう}{人物|じんぶつ}→登場人物：16072_toujoujinbutsu⟧⟦の→の：09472_no⟧{情欲|じょうよく}⟦と→と：00512_to⟧⟦{葛藤|かっとう}→葛藤：05407_kattou⟧⟦を→を：00422_wo⟧⟦{描|えが}いている→描く：02013_egaku⟧。",
       "english": "The novel depicts the characters' desires and inner conflicts.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A formal, literary word for strong physical or sexual desire. It carries a weightier, more moralizing tone than the plain {欲望|よくぼう}, and often appears in literature or in discussions of ethics and self-control.\n\nCOMMON COLLOCATIONS:\n- {情欲|じょうよく}に{駆|か}られる: to be driven by desire\n- {情欲|じょうよく}を{抑|おさ}える: to hold one's desires in check\n\nSIMILAR WORDS:\n- {欲望|よくぼう}: desire — broader, any strong want, not necessarily sexual\n- {性欲|せいよく}: sexual desire — the plainer, more clinical term",
+  "notes": "A formal, literary word for strong physical or sexual desire. It carries a weightier, more moralizing tone than the plain ⟦{欲望|よくぼう}→欲望：05086_yokubou⟧, and often appears in literature or in discussions of ethics and self-control.\n\nCOMMON COLLOCATIONS:\n- {情欲|じょうよく}⟦に→に：00314_ni⟧⟦{駆|か}られる→駆る：14715_karu⟧: to be driven by desire\n- {情欲|じょうよく}⟦を→を：00422_wo⟧⟦{抑|おさ}える→抑える：12806_osaeru⟧: to hold one's desires in check\n\nSIMILAR WORDS:\n- ⟦{欲望|よくぼう}→欲望：05086_yokubou⟧: desire — broader, any strong want, not necessarily sexual\n- ⟦{性欲|せいよく}→性欲：23807_seiyoku⟧: sexual desire — the plainer, more clinical term",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05086_yokubou",
+      "reading": "よくぼう",
+      "headword": "{欲望|よくぼう}",
+      "label": "desire"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23807_seiyoku",
+      "reading": "せいよく",
+      "headword": "{性欲|せいよく}",
+      "label": "sexual desire"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24027_aiyoku",
+      "reading": "あいよく",
+      "headword": "{愛欲|あいよく}",
+      "label": "lust"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24906_shikijou",
+      "reading": "しきじょう",
+      "headword": "{色情|しきじょう}",
+      "label": "lust"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
-      "politeness": null,
-      "semantic": ["emotion"],
+      "politeness": "plain",
+      "semantic": [
+        "emotion"
+      ],
       "domain": []
     },
     "created": "2026-07-25T03:20:29Z",
-    "modified": "2026-07-25T03:20:29Z"
+    "modified": "2026-09-02T04:02:38Z"
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25071_funmuki_ex1",
-      "japanese": "{噴霧器|ふんむき}で{水|みず}をかけた。",
+      "japanese": "{噴霧器|ふんむき}⟦で→で：00502_de⟧⟦{水|みず}→水：02258_mizu⟧⟦を→を：00422_wo⟧⟦かけた→かける：00854_kakeru⟧。",
       "english": "I sprayed water with an atomizer.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25071_funmuki_ex2",
-      "japanese": "{庭|にわ}の{害虫|がいちゅう}{駆除|くじょ}に{噴霧器|ふんむき}を{使|つか}う。",
+      "japanese": "⟦{庭|にわ}→庭：02239_niwa⟧⟦の→の：09472_no⟧⟦{害虫|がいちゅう}{駆除|くじょ}→害虫駆除：25154_gaichuukujo⟧⟦に→に：00314_ni⟧{噴霧器|ふんむき}⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧。",
       "english": "I use a sprayer for pest control in the garden.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25071_funmuki_ex3",
-      "japanese": "{消毒液|しょうどくえき}を{噴霧器|ふんむき}に{入|い}れて、{部屋|へや}{全体|ぜんたい}に{吹|ふ}きかけた。",
+      "japanese": "{消毒液|しょうどくえき}⟦を→を：00422_wo⟧{噴霧器|ふんむき}⟦に→に：00314_ni⟧⟦{入|い}れて→入れる：01098_ireru⟧、⟦{部屋|へや}→部屋：00507_heya⟧⟦{全体|ぜんたい}→全体：03314_zentai⟧⟦に→に：00314_ni⟧{吹|ふ}きかけた。",
       "english": "I put disinfectant in the sprayer and sprayed it throughout the entire room.",
       "sense_numbers": [
         1
@@ -44,19 +44,37 @@
       "notes": null
     }
   ],
-  "notes": "A general term for any device that produces a fine mist or spray. Used for gardening (pesticide application), cleaning (disinfectant spraying), cosmetics (perfume atomizers), and industrial applications.\n\nCOMMON COLLOCATIONS:\n- {噴霧器|ふんむき}で{散布|さんぷ}する: to spray with a sprayer\n- {農薬|のうやく}{噴霧器|ふんむき}: pesticide sprayer\n- {手動|しゅどう}{噴霧器|ふんむき}: hand-operated sprayer\n- {電動|でんどう}{噴霧器|ふんむき}: electric sprayer\n\nSIMILAR WORDS:\n- スプレー: spray — a loanword used for commercial spray products like hair spray or deodorant\n- {霧吹|きりふ}き: spray bottle — a simpler hand-pump spray bottle, typically used at home for plants or ironing\n- アトマイザー: atomizer — specifically for perfume or cosmetic sprayers",
+  "notes": "A general term for any device that produces a fine mist or spray. Used for gardening (pesticide application), cleaning (disinfectant spraying), cosmetics (perfume atomizers), and industrial applications.\n\nCOMMON COLLOCATIONS:\n- {噴霧器|ふんむき}⟦で→で：00502_de⟧⟦{散布|さんぷ}する→散布する：21621_sanpusuru⟧: to spray with a sprayer\n- ⟦{農薬|のうやく}→農薬：04295_nouyaku⟧{噴霧器|ふんむき}: pesticide sprayer\n- ⟦{手動|しゅどう}→手動：12890_shudou⟧{噴霧器|ふんむき}: hand-operated sprayer\n- ⟦{電動|でんどう}→電動：06412_dendou⟧{噴霧器|ふんむき}: electric sprayer\n\nSIMILAR WORDS:\n- ⟦スプレー→スプレー：11581_supuree⟧: spray — a loanword used for commercial spray products like hair spray or deodorant\n- ⟦{霧吹|きりふ}き→霧吹き：15171_kirifuki⟧: spray bottle — a simpler hand-pump spray bottle, typically used at home for plants or ironing\n- アトマイザー: atomizer — specifically for perfume or cosmetic sprayers",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11581_supuree",
+      "reading": "すぷれー",
+      "headword": "スプレー",
+      "label": "spray"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15171_kirifuki",
+      "reading": "きりふき",
+      "headword": "{霧吹|きりふ}き",
+      "label": "spray bottle"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "tool"
       ]
     },
     "created": "2026-04-22T13:18:18Z",
-    "modified": "2026-04-22T13:18:18Z"
+    "modified": "2026-09-02T04:02:21Z"
   }
 }

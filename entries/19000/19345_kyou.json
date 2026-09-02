@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "19345_kyou_ex1",
-      "japanese": "おみくじで{凶|きょう}が{出|で}た。",
+      "japanese": "おみくじ⟦で→で：00502_de⟧{凶|きょう}⟦が→が：00051_ga⟧⟦{出|で}た→出る：00513_deru⟧。",
       "english": "I got bad luck on my omikuji.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "19345_kyou_ex2",
-      "japanese": "{凶|きょう}を{引|ひ}いたので、{木|き}に{結|むす}んできた。",
+      "japanese": "{凶|きょう}⟦を→を：00422_wo⟧⟦{引|ひ}いた→引く：01978_hiku⟧⟦の→の：09472_no⟧で、⟦{木|き}→木：00524_ki⟧⟦に→に：00314_ni⟧⟦{結|むす}んで→結ぶ：02308_musubu⟧きた。",
       "english": "I drew bad luck, so I tied it to a tree.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "19345_kyou_ex3",
-      "japanese": "{凶|きょう}が{出|で}ても{気|き}にしない{人|ひと}もいれば、もう{一度|いちど}{引|ひ}き{直|なお}す{人|ひと}もいる。",
+      "japanese": "{凶|きょう}⟦が→が：00051_ga⟧⟦{出|で}て→出る：00513_deru⟧⟦も→も：00484_mo⟧⟦{気|き}にしない→気にする：03026_kinisuru⟧⟦{人|ひと}→人：00476_hito⟧⟦も→も：00484_mo⟧⟦いれば→いる：00495_iru⟧、⟦もう{一度|いちど}→もう一度：02976_mouichido⟧{引|ひ}き{直|なお}す⟦{人|ひと}→人：00476_hito⟧⟦も→も：00484_mo⟧⟦いる→いる：00495_iru⟧。",
       "english": "Some people don't worry about drawing bad luck, while others draw again.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Bad fortune or ill omen, most commonly seen on omikuji fortune slips at shrines and temples. The opposite of {吉|きち}.\n\nOMIKUJI CONTEXT:\nWhen someone draws {凶|きょう}, the custom is to tie the paper slip to a designated tree or rack at the shrine, symbolically leaving the bad luck behind. Some shrines have eliminated {凶|きょう} from their omikuji to keep visitors happy.\n\nCOMMON COMPOUNDS:\n- {大凶|だいきょう} — terrible luck (worst possible result)\n- {凶悪|きょうあく} — atrocious, heinous\n- {凶器|きょうき} — weapon (used in a crime)\n- {凶作|きょうさく} — crop failure, bad harvest\n- {凶事|きょうじ} — misfortune, calamity\n\nSIMILAR WORDS:\n- {不吉|ふきつ} — ominous, unlucky (adjective-like usage, broader range)\n- {災難|さいなん} — disaster, misfortune (an actual event, not a prediction)",
+  "notes": "Bad fortune or ill omen, most commonly seen on omikuji fortune slips at shrines and temples. The opposite of ⟦{吉|きち}→吉：19344_kichi⟧.\n\nOMIKUJI CONTEXT:\nWhen someone draws {凶|きょう}, the custom is to tie the paper slip to a designated tree or rack at the shrine, symbolically leaving the bad luck behind. Some shrines have eliminated {凶|きょう} from their omikuji to keep visitors happy.\n\nCOMPOUNDS:\n- ⟦{大凶|だいきょう}→大凶：25063_daikyou⟧ — terrible luck (worst possible result)\n- ⟦{凶悪|きょうあく}→凶悪：28175_kyouaku⟧ — atrocious, heinous\n- ⟦{凶器|きょうき}→凶器：16384_kyouki⟧ — weapon (used in a crime)\n- ⟦{凶作|きょうさく}→凶作：16485_kyousaku⟧ — crop failure, bad harvest\n- {凶事|きょうじ} — misfortune, calamity\n\nSIMILAR WORDS:\n- ⟦{不吉|ふきつ}→不吉：16952_fukitsu⟧ — ominous, unlucky (adjective-like usage, broader range)\n- ⟦{災難|さいなん}→災難：04161_sainan⟧ — disaster, misfortune (an actual event, not a prediction)",
   "cross_references": [
     {
       "type": "antonym",
@@ -52,6 +52,20 @@
       "headword": "{吉|きち}",
       "label": "good fortune",
       "target_id": "19344_kichi"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16952_fukitsu",
+      "reading": "ふきつ",
+      "headword": "{不吉|ふきつ}",
+      "label": "ominous, unlucky"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04161_sainan",
+      "reading": "さいなん",
+      "headword": "{災難|さいなん}",
+      "label": "disaster, misfortune"
     }
   ],
   "schema_version": "2.0",
@@ -69,6 +83,6 @@
       ]
     },
     "created": "2026-03-25T10:10:10Z",
-    "modified": "2026-03-29T10:42:23Z"
+    "modified": "2026-09-02T04:01:55Z"
   }
 }

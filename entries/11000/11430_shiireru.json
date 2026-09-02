@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "11430_shiireru_ex1",
-      "japanese": "{新鮮|しんせん}な{野菜|やさい}を{仕入|しい}れる。",
+      "japanese": "⟦{新鮮|しんせん}→新鮮：03261_shinsen⟧な⟦{野菜|やさい}→野菜：02265_yasai⟧⟦を→を：00422_wo⟧{仕入|しい}れる。",
       "english": "To stock up on fresh vegetables.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "11430_shiireru_ex2",
-      "japanese": "{毎朝|まいあさ}{市場|いちば}で{魚|さかな}を{仕入|しい}れている。",
+      "japanese": "⟦{毎朝|まいあさ}→毎朝：00966_maiasa⟧⟦{市場|いちば}→市場：01803_ichiba⟧⟦で→で：00502_de⟧⟦{魚|さかな}→魚：00499_sakana⟧⟦を→を：00422_wo⟧{仕入|しい}れて⟦いる→いる：00495_iru⟧。",
       "english": "Every morning I purchase fish at the market.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "11430_shiireru_ex3",
-      "japanese": "{海外|かいがい}から{安|やす}く{仕入|しい}れた{商品|しょうひん}をネットで{販売|はんばい}している。",
+      "japanese": "⟦{海外|かいがい}→海外：00134_kaigai⟧⟦から→から：00504_kara⟧⟦{安|やす}く→安い：00464_yasui⟧{仕入|しい}れた⟦{商品|しょうひん}→商品：01436_shouhin⟧⟦を→を：00422_wo⟧⟦ネット→ネット：05279_netto⟧⟦で→で：00502_de⟧⟦{販売|はんばい}→販売：03573_hanbai⟧⟦している→する：00392_suru⟧。",
       "english": "I sell products online that I purchased cheaply from overseas.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,19 @@
       ]
     }
   ],
-  "notes": "{仕入|しい}れる means to purchase goods from a supplier for the purpose of reselling them. A key business/commerce term.\n\nTRANSITIVITY:\n- Type: {他動詞|たどうし} (transitive)\n\nCOMMON COLLOCATIONS:\n- {商品|しょうひん}を{仕入|しい}れる: to purchase/stock goods\n- {仕入|しい}れ{値|ね}: purchase price, cost price\n- {仕入|しい}れ{先|さき}: supplier, vendor\n- {仕入|しい}れ{価格|かかく}: purchase price\n\nASPECT (ている):\n{仕入|しい}れている indicates a habitual or ongoing procurement activity, e.g. {毎朝|まいあさ}{魚|さかな}を{仕入|しい}れている (I buy fish every morning).\n\nFIGURATIVE USE:\nAlso used for acquiring information or knowledge: {情報|じょうほう}を{仕入|しい}れる (to gather/pick up information). This is a common figurative extension.\n\nRELATED:\n- {買|か}い{付|つ}ける: to buy in (more formal purchasing)\n- {調達|ちょうたつ}: procurement (broader, more formal)",
-  "cross_references": [],
+  "notes": "{仕入|しい}れる means to purchase goods from a supplier for the purpose of reselling them. A key business/commerce term.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n\nCOMMON COLLOCATIONS:\n- ⟦{商品|しょうひん}→商品：01436_shouhin⟧⟦を→を：00422_wo⟧{仕入|しい}れる: to purchase/stock goods\n- ⟦{仕入|しい}れ{値|ね}→仕入れ値：21592_shiirene⟧: purchase price, cost price\n- ⟦{仕入|しい}れ→仕入れ：07431_shiire⟧⟦{先|さき}→先：02883_saki⟧: supplier, vendor\n- {仕入|しい}れ⟦{価格|かかく}→価格：00147_kakaku⟧: purchase price\n\nASPECT (ている):\n{仕入|しい}れて⟦いる→いる：00495_iru⟧ indicates a habitual or ongoing procurement activity, e.g. ⟦{毎朝|まいあさ}→毎朝：00966_maiasa⟧⟦{魚|さかな}→魚：00499_sakana⟧⟦を→を：00422_wo⟧{仕入|しい}れて⟦いる→いる：00495_iru⟧ (I buy fish every morning).\n\nUSAGE:\nAlso used for acquiring information or knowledge: ⟦{情報|じょうほう}→情報：03348_jouhou⟧⟦を→を：00422_wo⟧{仕入|しい}れる (to gather/pick up information). This is a common figurative extension.\n\nRELATED WORDS:\n- {買|か}い{付|つ}ける: to buy in (more formal purchasing)\n- ⟦{調達|ちょうたつ}→調達：09938_choutatsu⟧: procurement (broader, more formal)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "09938_choutatsu",
+      "reading": "ちょうたつ",
+      "headword": "{調達|ちょうたつ}",
+      "label": "procurement"
+    }
+  ],
   "metadata": {
     "created": "2026-02-16T07:35:11Z",
-    "modified": "2026-06-30T18:44:39Z",
+    "modified": "2026-09-02T04:01:25Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

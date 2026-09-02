@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "17838_ryokakuki_ex1",
-      "japanese": "{旅客機|りょかくき}が{空港|くうこう}に{着陸|ちゃくりく}した。",
+      "japanese": "{旅客機|りょかくき}⟦が→が：00051_ga⟧⟦{空港|くうこう}→空港：00648_kuukou⟧⟦に→に：00314_ni⟧⟦{着陸|ちゃくりく}→着陸：05982_chakuriku⟧⟦した→する：00392_suru⟧。",
       "english": "The passenger plane landed at the airport.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "17838_ryokakuki_ex2",
-      "japanese": "{大型|おおがた}{旅客機|りょかくき}は{数百人|すうひゃくにん}の{乗客|じょうきゃく}を{運|はこ}べる。",
+      "japanese": "⟦{大型|おおがた}→大型：03016_oogata⟧{旅客機|りょかくき}⟦は→は：00079_ha⟧{数百人|すうひゃくにん}⟦の→の：09472_no⟧⟦{乗客|じょうきゃく}→乗客：03284_joukyaku⟧⟦を→を：00422_wo⟧⟦{運|はこ}べる→運ぶ：01088_hakobu⟧。",
       "english": "A large passenger plane can carry several hundred passengers.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "17838_ryokakuki_ex3",
-      "japanese": "{新型|しんがた}の{旅客機|りょかくき}は{燃費|ねんぴ}がよく、{環境|かんきょう}への{負荷|ふか}が{少|すく}ない。",
+      "japanese": "⟦{新型|しんがた}→新型：19411_shingata⟧⟦の→の：09472_no⟧{旅客機|りょかくき}⟦は→は：00079_ha⟧⟦{燃費|ねんぴ}→燃費：18969_nenpi⟧⟦が→が：00051_ga⟧⟦よく→よく：00601_yoku⟧、⟦{環境|かんきょう}→環境：00174_kankyou⟧⟦へ→へ：02473_he⟧⟦の→の：09472_no⟧⟦{負荷|ふか}→負荷：14231_fuka⟧⟦が→が：00051_ga⟧⟦{少|すく}ない→少ない：01136_sukunai⟧。",
       "english": "New passenger aircraft are fuel-efficient and place less burden on the environment.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nThe standard term for commercial passenger aircraft in news and formal contexts. In casual speech, {飛行機|ひこうき} (airplane) is used without distinguishing between passenger and other types.\n\nCOMMON COLLOCATIONS:\n- {大型|おおがた}{旅客機|りょかくき} (large passenger plane)\n- {小型|こがた}{旅客機|りょかくき} (small passenger plane)\n- {国際|こくさい}{旅客機|りょかくき} (international airliner)\n\nSIMILAR WORDS:\n- {飛行機|ひこうき}: airplane — general term\n- {航空機|こうくうき}: aircraft — formal, includes all types\n- {貨物機|かもつき}: cargo plane — for freight",
+  "notes": "USAGE:\nThe standard term for commercial passenger aircraft in news and formal contexts. In casual speech, ⟦{飛行機|ひこうき}→飛行機：00629_hikouki⟧ (airplane) is used without distinguishing between passenger and other types.\n\nCOMMON COLLOCATIONS:\n- ⟦{大型|おおがた}→大型：03016_oogata⟧{旅客機|りょかくき} (large passenger plane)\n- ⟦{小型|こがた}→小型：12460_kogata⟧{旅客機|りょかくき} (small passenger plane)\n- ⟦{国際|こくさい}→国際：01406_kokusai⟧{旅客機|りょかくき} (international airliner)\n\nSIMILAR WORDS:\n- ⟦{飛行機|ひこうき}→飛行機：00629_hikouki⟧: airplane — general term\n- ⟦{航空機|こうくうき}→航空機：14008_koukuuki⟧: aircraft — formal, includes all types\n- {貨物機|かもつき}: cargo plane — for freight",
   "cross_references": [
     {
       "type": "related",
@@ -59,11 +59,25 @@
       "reading": "こうくうき",
       "headword": "{航空機|こうくうき}",
       "label": "aircraft (formal)"
+    },
+    {
+      "type": "related",
+      "target_id": "03947_jettoki",
+      "reading": "じぇっとき",
+      "headword": "ジェット{機|き}",
+      "label": "jet plane"
+    },
+    {
+      "type": "related",
+      "target_id": "23287_sentouki",
+      "reading": "せんとうき",
+      "headword": "{戦闘機|せんとうき}",
+      "label": "fighter plane"
     }
   ],
   "metadata": {
     "created": "2026-03-19T04:27:30Z",
-    "modified": "2026-05-07T08:09:41Z",
+    "modified": "2026-09-02T04:01:49Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

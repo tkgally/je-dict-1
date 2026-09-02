@@ -15,40 +15,81 @@
   "examples": [
     {
       "id": "23597_sanontou_ex1",
-      "japanese": "{砂糖|さとう}は{三温糖|さんおんとう}を{使|つか}う。",
+      "japanese": "⟦{砂糖|さとう}→砂糖：00884_satou⟧⟦は→は：00079_ha⟧{三温糖|さんおんとう}⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧。",
       "english": "I use sanontou (light brown sugar) as my sugar.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "23597_sanontou_ex2",
-      "japanese": "{三温糖|さんおんとう}を{入|い}れると{煮物|にもの}にコクが{出|で}る。",
+      "japanese": "{三温糖|さんおんとう}⟦を→を：00422_wo⟧⟦{入|い}れる→入れる：01098_ireru⟧⟦と→と：00512_to⟧⟦{煮物|にもの}→煮物：04971_nimono⟧⟦に→に：00314_ni⟧⟦コク→コク：20672_koku⟧⟦が→が：00051_ga⟧⟦{出|で}る→出る：00513_deru⟧。",
       "english": "Adding sanontou gives simmered dishes a richer flavor.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "23597_sanontou_ex3",
-      "japanese": "うちの{家|いえ}では{白砂糖|しろざとう}より{三温糖|さんおんとう}を{使|つか}うことが{多|おお}い。",
+      "japanese": "うち⟦の→の：09472_no⟧⟦{家|いえ}→家：00612_ie⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{白砂糖|しろざとう}→白砂糖：26404_shirozatou⟧⟦より→より：09476_yori⟧{三温糖|さんおんとう}⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧こと⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "At our house we use sanontou more often than white sugar.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Written with {三|さん} (three), {温|おん} (warm, heat), and {糖|とう} (sugar). The name reflects the production process, in which the sugar syrup is heated three times, giving the sugar its characteristic caramel color and flavor.\n\nDespite its appearance, {三温糖|さんおんとう} is not truly unrefined sugar — it is refined white sugar whose remaining syrup has been caramelized by repeated heating. It is especially popular in traditional Japanese cooking for {煮物|にもの} (simmered dishes) and {照|て}り{焼|や}き.\n\nCOMMON COLLOCATIONS:\n- {三温糖|さんおんとう}を{使|つか}う: to use sanontou\n- {三温糖|さんおんとう}を{加|くわ}える: to add sanontou\n- {三温糖|さんおんとう}{大|おお}さじ1: one tablespoon of sanontou\n\nSIMILAR WORDS:\n- {白砂糖|しろざとう}: white sugar — the most common refined sugar\n- {黒砂糖|こくざとう}: unrefined brown/black sugar — darker and stronger-flavored\n- グラニュー{糖|とう}: granulated sugar — larger crystals, neutral flavor\n- きび{砂糖|ざとう}: raw cane sugar — pale brown, less processed than sanontou",
+  "notes": "Written with ⟦{三|さん}→三：00749_san⟧ (three), {温|おん} (warm, heat), and {糖|とう} (sugar). The name reflects the production process, in which the sugar syrup is heated three times, giving the sugar its characteristic caramel color and flavor.\n\nDespite its appearance, {三温糖|さんおんとう} is not truly unrefined sugar — it is refined white sugar whose remaining syrup has been caramelized by repeated heating. It is especially popular in traditional Japanese cooking for ⟦{煮物|にもの}→煮物：04971_nimono⟧ (simmered dishes) and ⟦{照|て}り{焼|や}き→照り焼き：17668_teriyaki⟧.\n\nCOMMON COLLOCATIONS:\n- {三温糖|さんおんとう}⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧: to use sanontou\n- {三温糖|さんおんとう}⟦を→を：00422_wo⟧⟦{加|くわ}える→加える：01941_kuwaeru⟧: to add sanontou\n- {三温糖|さんおんとう}⟦{大|おお}さじ→大さじ：22527_oosaji⟧1: one tablespoon of sanontou\n\nSIMILAR WORDS:\n- ⟦{白砂糖|しろざとう}→白砂糖：26404_shirozatou⟧: white sugar — the most common refined sugar\n- {黒砂糖|こくざとう}: unrefined brown/black sugar — darker and stronger-flavored\n- ⟦グラニュー{糖|とう}→グラニュー糖：23996_guranyuutou⟧: granulated sugar — larger crystals, neutral flavor\n- きび{砂糖|ざとう}: raw cane sugar — pale brown, less processed than sanontou",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "26404_shirozatou",
+      "reading": "しろざとう",
+      "headword": "{白砂糖|しろざとう}",
+      "label": "white sugar"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23996_guranyuutou",
+      "reading": "ぐらにゅーとう",
+      "headword": "グラニュー{糖|とう}",
+      "label": "granulated sugar"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19618_kokutou",
+      "reading": "こくとう",
+      "headword": "{黒糖|こくとう}",
+      "label": "brown sugar"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25163_jouhakutou",
+      "reading": "じょうはくとう",
+      "headword": "{上白糖|じょうはくとう}",
+      "label": "refined white sugar"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food", "cooking"]
+      "semantic": [
+        "food",
+        "cooking"
+      ]
     },
     "created": "2026-04-12T19:25:11Z",
-    "modified": "2026-07-28T18:20:11Z"
+    "modified": "2026-09-02T04:02:13Z"
   }
 }

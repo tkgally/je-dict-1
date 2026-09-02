@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25444_tsuikahiyou_ex1",
-      "japanese": "{追加|ついか}{費用|ひよう}はかかりません。",
+      "japanese": "{追加|ついか}{費用|ひよう}⟦は→は：00079_ha⟧⟦かかりません→かかる：00711_kakaru⟧。",
       "english": "There is no additional cost.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25444_tsuikahiyou_ex2",
-      "japanese": "{追加|ついか}{費用|ひよう}が{発生|はっせい}する{場合|ばあい}があります。",
+      "japanese": "{追加|ついか}{費用|ひよう}⟦が→が：00051_ga⟧⟦{発生|はっせい}する→発生する：25529_hasseisuru⟧⟦{場合|ばあい}→場合：01704_baai⟧⟦が→が：00051_ga⟧⟦あります→ある：00006_aru⟧。",
       "english": "Additional costs may arise.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25444_tsuikahiyou_ex3",
-      "japanese": "{工事|こうじ}の{途中|とちゅう}で{設計|せっけい}{変更|へんこう}があり、{追加|ついか}{費用|ひよう}が{大幅|おおはば}に{膨|ふく}らんだ。",
+      "japanese": "⟦{工事|こうじ}→工事：00244_kouji⟧⟦の→の：09472_no⟧⟦{途中|とちゅう}→途中：01684_tochuu⟧⟦で→で：00502_de⟧⟦{設計|せっけい}→設計：03300_sekkei⟧⟦{変更|へんこう}→変更：03616_henkou⟧⟦が→が：00051_ga⟧⟦あり→ある：00006_aru⟧、{追加|ついか}{費用|ひよう}⟦が→が：00051_ga⟧⟦{大幅|おおはば}→大幅：12170_oohaba⟧⟦に→に：00314_ni⟧⟦{膨|ふく}らんだ→膨らむ：05342_fukuramu⟧。",
       "english": "There were design changes midway through construction, and the additional costs ballooned significantly.",
       "sense_numbers": [
         1
@@ -44,19 +44,37 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {追加|ついか} (addition) and {費用|ひよう} (cost, expense). Frequently encountered in business contracts, service agreements, travel bookings, and construction projects.\n\nCOMMON COLLOCATIONS:\n- {追加|ついか}{費用|ひよう}が{発生|はっせい}する: additional costs arise\n- {追加|ついか}{費用|ひよう}なし: no extra charge\n- {追加|ついか}{費用|ひよう}を{請求|せいきゅう}する: to charge an additional fee\n- {追加|ついか}{費用|ひよう}を{負担|ふたん}する: to bear the additional cost\n\nSIMILAR WORDS:\n- {追加|ついか}{料金|りょうきん}: surcharge; extra fee — specifically for fees and service charges\n- {別途|べっと}{費用|ひよう}: separate cost — implies a cost that is billed independently\n- {経費|けいひ}: expenses — general term for costs incurred in business or operations",
+  "notes": "A compound of ⟦{追加|ついか}→追加：04060_tsuika⟧ (addition) and ⟦{費用|ひよう}→費用：03588_hiyou⟧ (cost, expense). Frequently encountered in business contracts, service agreements, travel bookings, and construction projects.\n\nCOMMON COLLOCATIONS:\n- {追加|ついか}{費用|ひよう}⟦が→が：00051_ga⟧⟦{発生|はっせい}する→発生する：25529_hasseisuru⟧: additional costs arise\n- {追加|ついか}{費用|ひよう}なし: no extra charge\n- {追加|ついか}{費用|ひよう}⟦を→を：00422_wo⟧⟦{請求|せいきゅう}する→請求する：26988_seikyuusuru⟧: to charge an additional fee\n- {追加|ついか}{費用|ひよう}⟦を→を：00422_wo⟧⟦{負担|ふたん}→負担：09752_futan⟧⟦する→する：00392_suru⟧: to bear the additional cost\n\nSIMILAR WORDS:\n- ⟦{追加|ついか}{料金|りょうきん}→追加料金：22313_tsuikaryoukin⟧: surcharge; extra fee — specifically for fees and service charges\n- ⟦{別途|べっと}→別途：11881_betto⟧⟦{費用|ひよう}→費用：03588_hiyou⟧: separate cost — implies a cost that is billed independently\n- ⟦{経費|けいひ}→経費：04696_keihi⟧: expenses — general term for costs incurred in business or operations",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22313_tsuikaryoukin",
+      "reading": "ついかりょうきん",
+      "headword": "{追加|ついか}{料金|りょうきん}",
+      "label": "surcharge"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04696_keihi",
+      "reading": "けいひ",
+      "headword": "{経費|けいひ}",
+      "label": "expenses"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "finance"
       ]
     },
     "created": "2026-04-25T13:30:48Z",
-    "modified": "2026-08-04T12:59:53Z"
+    "modified": "2026-09-02T04:02:22Z"
   }
 }

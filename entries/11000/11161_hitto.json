@@ -3,7 +3,7 @@
   "id": "11161_hitto",
   "headword": "ヒット",
   "reading": "ひっと",
-  "part_of_speech": "noun / verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "hit, popular success",
   "conjugation": {
     "type": "suru",
@@ -110,7 +110,7 @@
   "examples": [
     {
       "id": "11161_hitto_ex1",
-      "japanese": "{大|おお}ヒットした{映画|えいが}だ。",
+      "japanese": "{大|おお}ヒット⟦した→する：00392_suru⟧⟦{映画|えいが}→映画：02273_eiga⟧だ。",
       "english": "It's a blockbuster movie.",
       "notes": null,
       "has_audio": false,
@@ -120,7 +120,7 @@
     },
     {
       "id": "11161_hitto_ex2",
-      "japanese": "この{曲|きょく}はヒットチャートの{一位|いちい}になった。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{曲|きょく}→曲：09881_kyoku⟧⟦は→は：00079_ha⟧ヒットチャート⟦の→の：09472_no⟧⟦{一位|いちい}→一位：08926_ichii⟧になった。",
       "english": "This song reached number one on the hit charts.",
       "notes": null,
       "has_audio": false,
@@ -130,7 +130,7 @@
     },
     {
       "id": "11161_hitto_ex3",
-      "japanese": "{彼女|かのじょ}の{新作|しんさく}は{世界中|せかいじゅう}でヒットして、{社会|しゃかい}{現象|げんしょう}にまでなった。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦の→の：09472_no⟧⟦{新作|しんさく}→新作：09523_shinsaku⟧⟦は→は：00079_ha⟧⟦{世界中|せかいじゅう}→世界中：10171_sekaijuu⟧⟦で→で：00502_de⟧ヒット⟦して→する：00392_suru⟧、⟦{社会|しゃかい}→社会：01427_shakai⟧⟦{現象|げんしょう}→現象：02718_genshou⟧⟦に→に：00314_ni⟧⟦まで→まで：00490_made⟧⟦なった→なる：01970_naru⟧。",
       "english": "Her new work became a hit worldwide and even turned into a social phenomenon.",
       "notes": null,
       "has_audio": false,
@@ -140,7 +140,7 @@
     },
     {
       "id": "11161_hitto_ex4",
-      "japanese": "ヒットを{打|う}った。",
+      "japanese": "ヒット⟦を→を：00422_wo⟧⟦{打|う}った→打つ：01221_utsu⟧。",
       "english": "He got a hit.",
       "notes": null,
       "has_audio": false,
@@ -150,7 +150,7 @@
     },
     {
       "id": "11161_hitto_ex5",
-      "japanese": "{検索|けんさく}したら100{件|けん}ヒットした。",
+      "japanese": "⟦{検索|けんさく}→検索：04729_kensaku⟧⟦したら→する：00392_suru⟧100⟦{件|けん}→件：11720_ken⟧ヒット⟦した→する：00392_suru⟧。",
       "english": "I searched and got 100 hits.",
       "notes": null,
       "has_audio": false,
@@ -160,7 +160,7 @@
     },
     {
       "id": "11161_hitto_ex6",
-      "japanese": "この{条件|じょうけん}で{検索|けんさく}すると、{結果|けっか}がヒットしない。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{条件|じょうけん}→条件：03285_jouken⟧⟦で→で：00502_de⟧⟦{検索|けんさく}→検索：04729_kensaku⟧⟦する→する：00392_suru⟧⟦と→と：00512_to⟧、⟦{結果|けっか}→結果：02486_kekka⟧⟦が→が：00051_ga⟧ヒット⟦しない→する：00392_suru⟧。",
       "english": "Searching with these criteria yields no results.",
       "notes": null,
       "has_audio": false,
@@ -169,11 +169,19 @@
       ]
     }
   ],
-  "notes": "USAGE:\nヒットする functions as a suru-verb meaning \"to become a hit\" or \"to match/find.\" {大|おお}ヒット is a stronger form meaning \"smash hit\" or \"blockbuster.\"\n\nCOMMON COLLOCATIONS:\n- {大|おお}ヒット: smash hit, blockbuster\n- ヒット{曲|きょく}: hit song\n- ヒット{商品|しょうひん}: hit product, bestselling product\n- ヒットチャート: hit chart, rankings\n- {検索|けんさく}でヒットする: to get search results\n- ヒットを{打|う}つ: to get a hit (baseball)",
-  "cross_references": [],
+  "notes": "USAGE:\nヒット⟦する→する：00392_suru⟧ functions as a suru-verb meaning \"to become a hit\" or \"to match/find.\" {大|おお}ヒット is a stronger form meaning \"smash hit\" or \"blockbuster.\"\n\nCOMMON COLLOCATIONS:\n- {大|おお}ヒット: smash hit, blockbuster\n- ヒット{曲|きょく}: hit song\n- ヒット⟦{商品|しょうひん}→商品：01436_shouhin⟧: hit product, bestselling product\n- ヒットチャート: hit chart, rankings\n- ⟦{検索|けんさく}→検索：04729_kensaku⟧⟦で→で：00502_de⟧ヒット⟦する→する：00392_suru⟧: to get search results\n- ヒット⟦を→を：00422_wo⟧⟦{打|う}つ→打つ：01221_utsu⟧: to get a hit (baseball)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19717_anda",
+      "reading": "あんだ",
+      "headword": "{安打|あんだ}",
+      "label": "base hit (baseball)"
+    }
+  ],
   "metadata": {
     "created": "2026-02-14T05:12:51Z",
-    "modified": "2026-03-29T03:07:35Z",
+    "modified": "2026-09-02T04:01:24Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -186,7 +194,8 @@
       "semantic": [
         "general"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

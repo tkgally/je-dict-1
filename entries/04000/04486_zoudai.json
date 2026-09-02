@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "04486_zoudai_ex1",
-      "japanese": "⟦{人口|じんこう}→人口：01618_jinkou⟧⟦の→の：09472_no⟧{増大|ぞうだい}⟦が→が：00051_ga⟧⟦{問題|もんだい}→問題：00797_mondai⟧⟦に→に：00314_ni⟧なって⟦いる→いる：00495_iru⟧。",
+      "japanese": "⟦{人口|じんこう}→人口：01618_jinkou⟧⟦の→の：09472_no⟧{増大|ぞうだい}⟦が→が：00051_ga⟧⟦{問題|もんだい}→問題：00797_mondai⟧⟦に→に：00314_ni⟧⟦なって→なる：01970_naru⟧⟦いる→いる：00495_iru⟧。",
       "english": "Population growth has become a problem.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "04486_zoudai_ex2",
-      "japanese": "⟦{費用|ひよう}→費用：03588_hiyou⟧⟦が→が：00051_ga⟧{増大|ぞうだい}して⟦いる→いる：00495_iru⟧。",
+      "japanese": "⟦{費用|ひよう}→費用：03588_hiyou⟧⟦が→が：00051_ga⟧{増大|ぞうだい}⟦して→する：00392_suru⟧⟦いる→いる：00495_iru⟧。",
       "english": "Costs are increasing.",
       "notes": null,
       "has_audio": false,
@@ -58,11 +58,25 @@
       "reading": "かくだい",
       "headword": "{拡大|かくだい}",
       "label": "expansion"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03290_seichou",
+      "reading": "せいちょう",
+      "headword": "{成長|せいちょう}",
+      "label": "growth"
+    },
+    {
+      "type": "related",
+      "target_id": "04179_gekizou",
+      "reading": "げきぞう",
+      "headword": "{激増|げきぞう}",
+      "label": "sharp increase, surge"
     }
   ],
   "metadata": {
     "created": "2026-01-14T00:33:36Z",
-    "modified": "2026-07-31T09:22:34Z",
+    "modified": "2026-09-02T04:01:05Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

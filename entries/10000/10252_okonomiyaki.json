@@ -14,40 +14,58 @@
   "examples": [
     {
       "id": "10252_okonomiyaki_ex1",
-      "japanese": "お{好|この}み{焼|や}きを{焼|や}く。",
+      "japanese": "お{好|この}み{焼|や}き⟦を→を：00422_wo⟧⟦{焼|や}く→焼く：01123_yaku⟧。",
       "english": "To cook okonomiyaki.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10252_okonomiyaki_ex2",
-      "japanese": "{大阪|おおさか}でお{好|この}み{焼|や}きを{食|た}べた。",
+      "japanese": "⟦{大阪|おおさか}→大阪：09779_oosaka⟧⟦で→で：00502_de⟧お{好|この}み{焼|や}き⟦を→を：00422_wo⟧⟦{食|た}べた→食べる：00396_taberu⟧。",
       "english": "I ate okonomiyaki in Osaka.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10252_okonomiyaki_ex3",
-      "japanese": "お{好|この}み{焼|や}きにマヨネーズとソースをかける。",
+      "japanese": "お{好|この}み{焼|や}き⟦に→に：00314_ni⟧⟦マヨネーズ→マヨネーズ：11129_mayoneezu⟧⟦と→と：00512_to⟧⟦ソース→ソース：17673_soosu⟧⟦を→を：00422_wo⟧⟦かける→かける：00854_kakeru⟧。",
       "english": "Put mayonnaise and sauce on the okonomiyaki.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "ETYMOLOGY:\nFrom お{好|この}み (as you like) + {焼|や}き (grilled/fried), meaning \"grilled as you like it\" because customers can choose their toppings.\n\nREGIONAL STYLES:\n- {大阪|おおさか}{風|ふう}: ingredients mixed into batter\n- {広島|ひろしま}{風|ふう}: layered style with noodles\n\nCOMMON TOPPINGS:\n- ソース: okonomiyaki sauce\n- マヨネーズ: mayonnaise\n- {鰹節|かつおぶし}: bonito flakes\n- {青|あお}のり: green laver seaweed",
-  "cross_references": [],
+  "notes": "ETYMOLOGY:\nFrom お⟦{好|この}み→好み：02767_konomi⟧ (as you like) + ⟦{焼|や}き→焼く：01123_yaku⟧ (grilled/fried), meaning \"grilled as you like it\" because customers can choose their toppings.\n\nREGIONAL STYLES:\n- ⟦{大阪|おおさか}→大阪：09779_oosaka⟧{風|ふう}: ingredients mixed into batter\n- ⟦{広島|ひろしま}→広島：28985_hiroshima⟧{風|ふう}: layered style with noodles\n\nCOMMON TOPPINGS:\n- ⟦ソース→ソース：17673_soosu⟧: okonomiyaki sauce\n- ⟦マヨネーズ→マヨネーズ：11129_mayoneezu⟧: mayonnaise\n- ⟦{鰹節|かつおぶし}→鰹節：04935_katsuobushi⟧: bonito flakes\n- {青|あお}のり: green laver seaweed",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "10364_takoyaki",
+      "reading": "たこやき",
+      "headword": "たこ{焼|や}き",
+      "label": "takoyaki"
+    }
+  ],
   "metadata": {
     "created": "2026-02-05T14:59:03Z",
-    "modified": "2026-02-05T14:59:03Z",
+    "modified": "2026-09-02T04:01:20Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food"]
+      "semantic": [
+        "food"
+      ]
     }
   }
 }

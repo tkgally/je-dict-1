@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "20144_youryougawarui_ex1",
-      "japanese": "{彼|かれ}は{要領|ようりょう}が{悪|わる}い。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{要領|ようりょう}が{悪|わる}い。",
       "english": "He's not very efficient.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "20144_youryougawarui_ex2",
-      "japanese": "{要領|ようりょう}が{悪|わる}くて、いつも{残業|ざんぎょう}になる。",
+      "japanese": "{要領|ようりょう}が{悪|わる}くて、⟦いつも→いつも：00599_itsumo⟧⟦{残業|ざんぎょう}→残業：01071_zangyou⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧。",
       "english": "I'm so inefficient that I always end up working overtime.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "20144_youryougawarui_ex3",
-      "japanese": "{要領|ようりょう}が{悪|わる}いのは{分|わ}かっているが、{丁寧|ていねい}にやりたい{性格|せいかく}なんだ。",
+      "japanese": "{要領|ようりょう}が{悪|わる}い⟦の→の：09472_no⟧⟦は→は：00079_ha⟧⟦{分|わ}かっている→分かる：00463_wakaru⟧⟦が→が：00051_ga⟧、⟦{丁寧|ていねい}→丁寧：00896_teinei⟧⟦に→に：00314_ni⟧⟦やりたい→やる：02980_yaru⟧⟦{性格|せいかく}→性格：03371_seikaku⟧なんだ。",
       "english": "I know I'm not efficient, but I have a personality that wants to do things carefully.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {要領|ようりょう} (knack, essential point) + が{悪|わる}い (bad at). Describes someone who lacks the knack for getting things done smoothly.\n\nCOMMON COLLOCATIONS:\n- {要領|ようりょう}が{悪|わる}い{人|ひと}: an inefficient person\n- {要領|ようりょう}が{悪|わる}くて: being inefficient, so...\n\nRELATED EXPRESSION:\n- {要領|ようりょう}がいい: efficient, savvy — the positive counterpart; describes someone skilled at getting things done with minimal effort. Can also have a slightly negative nuance of being too shrewd or cutting corners.\n\nSIMILAR WORDS:\n- {不器用|ぶきよう}: clumsy, unskillful — broader; covers physical clumsiness and social awkwardness as well\n- {手際|てぎわ}が{悪|わる}い: poor at handling tasks — focuses on the execution of specific tasks\n- {効率|こうりつ}が{悪|わる}い: inefficient — more neutral and objective; often about systems or processes rather than people\n\nUSAGE:\nOften used self-deprecatingly. While it describes a genuine weakness, it is not as harsh as calling someone incompetent — it implies the person is earnest but lacks the knack for efficiency.",
+  "notes": "Composed of ⟦{要領|ようりょう}→要領：14109_youryou⟧ (knack, essential point) + ⟦が→が：00051_ga⟧⟦{悪|わる}い→悪い：00908_warui⟧ (bad at). Describes someone who lacks the knack for getting things done smoothly.\n\nCOMMON COLLOCATIONS:\n- {要領|ようりょう}が{悪|わる}い⟦{人|ひと}→人：00476_hito⟧: an inefficient person\n- {要領|ようりょう}が{悪|わる}くて: being inefficient, so...\n\nRELATED WORDS:\n- ⟦{要領|ようりょう}がいい→要領がいい：19930_youryougaii⟧: efficient, savvy — the positive counterpart; describes someone skilled at getting things done with minimal effort. Can also have a slightly negative nuance of being too shrewd or cutting corners.\n\nSIMILAR WORDS:\n- ⟦{不器用|ぶきよう}→不器用：06642_bukiyou⟧: clumsy, unskillful — broader; covers physical clumsiness and social awkwardness as well\n- ⟦{手際|てぎわ}→手際：06657_tegiwa⟧⟦が→が：00051_ga⟧⟦{悪|わる}い→悪い：00908_warui⟧: poor at handling tasks — focuses on the execution of specific tasks\n- ⟦{効率|こうりつ}→効率：11794_kouritsu⟧⟦が→が：00051_ga⟧⟦{悪|わる}い→悪い：00908_warui⟧: inefficient — more neutral and objective; often about systems or processes rather than people\n\nUSAGE:\nOften used self-deprecatingly. While it describes a genuine weakness, it is not as harsh as calling someone incompetent — it implies the person is earnest but lacks the knack for efficiency.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "19930_youryougaii",
+      "reading": "ようりょうがいい",
+      "headword": "{要領|ようりょう}がいい",
+      "label": "efficient, savvy"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06642_bukiyou",
+      "reading": "ぶきよう",
+      "headword": "{不器用|ぶきよう}",
+      "label": "clumsy, unskillful"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25525_yowataribeta",
+      "reading": "よわたりべた",
+      "headword": "{世渡|よわた}り{下手|べた}",
+      "label": "being bad at getting along in the world"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,7 +84,7 @@
       ]
     },
     "created": "2026-03-28T14:21:57Z",
-    "modified": "2026-07-28T00:51:36Z"
+    "modified": "2026-09-02T04:01:58Z"
   },
   "conjugation": {
     "type": "i-adjective",

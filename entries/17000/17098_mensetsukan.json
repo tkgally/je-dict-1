@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "17098_mensetsukan_ex1",
-      "japanese": "{面接官|めんせつかん}に{質問|しつもん}された。",
+      "japanese": "{面接官|めんせつかん}⟦に→に：00314_ni⟧⟦{質問|しつもん}→質問：00888_shitsumon⟧⟦された→する：00392_suru⟧。",
       "english": "I was asked a question by the interviewer.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "17098_mensetsukan_ex2",
-      "japanese": "{面接官|めんせつかん}の{印象|いんしょう}はとても{良|よ}かった。",
+      "japanese": "{面接官|めんせつかん}⟦の→の：09472_no⟧⟦{印象|いんしょう}→印象：01846_inshou⟧⟦は→は：00079_ha⟧⟦とても→とても：00593_totemo⟧⟦{良|よ}かった→良い：02350_yoi⟧。",
       "english": "The impression of the interviewer was very good.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "17098_mensetsukan_ex3",
-      "japanese": "{面接官|めんせつかん}は{三人|さんにん}いて、それぞれ{違|ちが}う{角度|かくど}から{質問|しつもん}してきた。",
+      "japanese": "{面接官|めんせつかん}⟦は→は：00079_ha⟧⟦{三人|さんにん}→三人：10978_sannin⟧⟦いて→いる：00495_iru⟧、⟦それぞれ→それぞれ：01453_sorezore⟧⟦{違|ちが}う→違う：01957_chigau⟧⟦{角度|かくど}→角度：00156_kakudo⟧⟦から→から：00504_kara⟧⟦{質問|しつもん}して→質問する：05637_shitsumonsuru⟧きた。",
       "english": "There were three interviewers, and each asked questions from a different angle.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nThe {官|かん} suffix indicates a person in an official role. Used in job interview and university entrance exam contexts. The person being interviewed is {面接者|めんせつしゃ} or {受験者|じゅけんしゃ}.\n\nCOMMON COLLOCATIONS:\n- {面接官|めんせつかん}の{質問|しつもん} (interviewer's question)\n- {面接官|めんせつかん}に{好印象|こういんしょう}を{与|あた}える (to make a good impression on the interviewer)\n\nSIMILAR WORDS:\n- {試験官|しけんかん}: examiner — for written or practical exams\n- {審査員|しんさいん}: judge, evaluator — broader judging contexts",
+  "notes": "USAGE:\nThe {官|かん} suffix indicates a person in an official role. Used in job interview and university entrance exam contexts. The person being interviewed is {面接者|めんせつしゃ} or {受験者|じゅけんしゃ}.\n\nCOMMON COLLOCATIONS:\n- {面接官|めんせつかん}⟦の→の：09472_no⟧⟦{質問|しつもん}→質問：00888_shitsumon⟧ (interviewer's question)\n- {面接官|めんせつかん}⟦に→に：00314_ni⟧⟦{好印象|こういんしょう}→好印象：19303_kouinshou⟧⟦を→を：00422_wo⟧⟦{与|あた}える→与える：01821_ataeru⟧ (to make a good impression on the interviewer)\n\nSIMILAR WORDS:\n- {試験官|しけんかん}: examiner — for written or practical exams\n- ⟦{審査員|しんさいん}→審査員：28227_shinsain⟧: judge, evaluator — broader judging contexts",
   "cross_references": [
     {
       "type": "related",
@@ -52,11 +52,18 @@
       "reading": "めんせつ",
       "headword": "{面接|めんせつ}",
       "label": "interview (event)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28227_shinsain",
+      "reading": "しんさいん",
+      "headword": "{審査員|しんさいん}",
+      "label": "judge, evaluator"
     }
   ],
   "metadata": {
     "created": "2026-03-16T00:39:22Z",
-    "modified": "2026-07-22T18:50:18Z",
+    "modified": "2026-09-02T04:01:47Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

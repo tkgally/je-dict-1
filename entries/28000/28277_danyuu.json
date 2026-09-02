@@ -15,41 +15,75 @@
   "examples": [
     {
       "id": "28277_danyuu_ex1",
-      "japanese": "{彼|かれ}は{人気|にんき}{男優|だんゆう}だ。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{人気|にんき}→人気：01488_ninki⟧{男優|だんゆう}だ。",
       "english": "He is a popular male actor.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28277_danyuu_ex2",
-      "japanese": "その{作品|さくひん}で{助演|じょえん}{男優賞|だんゆうしょう}を{受賞|じゅしょう}した。",
+      "japanese": "⟦その→その：00993_sono⟧⟦{作品|さくひん}→作品：02776_sakuhin⟧⟦で→で：00502_de⟧⟦{助演|じょえん}→助演：18098_joen⟧{男優賞|だんゆうしょう}⟦を→を：00422_wo⟧⟦{受賞|じゅしょう}→受賞：11867_jushou⟧⟦した→する：00392_suru⟧。",
       "english": "He won Best Supporting Actor for that work.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28277_danyuu_ex3",
-      "japanese": "アカデミー{賞|しょう}の{主演|しゅえん}{男優賞|だんゆうしょう}は、{映画|えいが}{業界|ぎょうかい}で{最|もっと}も{名誉|めいよ}ある{賞|しょう}の{一|ひと}つだ。",
+      "japanese": "⟦アカデミー→アカデミー：10751_akademii⟧⟦{賞|しょう}→賞：03227_shou⟧⟦の→の：09472_no⟧⟦{主演|しゅえん}→主演：08254_shuen⟧{男優賞|だんゆうしょう}⟦は→は：00079_ha⟧、⟦{映画|えいが}→映画：02273_eiga⟧⟦{業界|ぎょうかい}→業界：13129_gyoukai⟧⟦で→で：00502_de⟧⟦{最|もっと}も→最も：01736_mottomo⟧⟦{名誉|めいよ}→名誉：10568_meiyo⟧⟦ある→ある：00006_aru⟧⟦{賞|しょう}→賞：03227_shou⟧⟦の→の：09472_no⟧⟦{一|ひと}つ→一つ：02948_hitotsu⟧だ。",
       "english": "The Academy Award for Best Actor is one of the most prestigious awards in the film industry.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Compound of {男|だん} (male) + {優|ゆう} (actor; the final character of {俳優|はいゆう}).\n\nCOMMON COLLOCATIONS:\n- {主演|しゅえん}{男優賞|だんゆうしょう}: Best Actor award\n- {助演|じょえん}{男優賞|だんゆうしょう}: Best Supporting Actor award\n- {人気|にんき}{男優|だんゆう}: popular actor\n- {若手|わかて}{男優|だんゆう}: young/up-and-coming actor\n\nUSAGE:\nLess common in everyday speech than the gender-neutral {俳優|はいゆう} (actor) — most Japanese speakers refer to a male actor simply as {俳優|はいゆう}. {男優|だんゆう} is used mainly when the male/female distinction matters, such as in award titles or industry reporting.\n\nSIMILAR WORDS:\n- {俳優|はいゆう}: actor — gender-neutral, the default term\n- {女優|じょゆう}: actress — the female counterpart, used more frequently than {男優|だんゆう}\n- {役者|やくしゃ}: actor (especially in stage or traditional theater)",
+  "notes": "Compound of {男|だん} (male) + ⟦{優|ゆう}→優：00431_yuu⟧ (actor; the final character of ⟦{俳優|はいゆう}→俳優：03547_haiyuu⟧).\n\nCOMMON COLLOCATIONS:\n- ⟦{主演|しゅえん}→主演：08254_shuen⟧{男優賞|だんゆうしょう}: Best Actor award\n- ⟦{助演|じょえん}→助演：18098_joen⟧{男優賞|だんゆうしょう}: Best Supporting Actor award\n- ⟦{人気|にんき}→人気：01488_ninki⟧{男優|だんゆう}: popular actor\n- ⟦{若手|わかて}→若手：13989_wakate⟧{男優|だんゆう}: young/up-and-coming actor\n\nUSAGE:\nLess common in everyday speech than the gender-neutral ⟦{俳優|はいゆう}→俳優：03547_haiyuu⟧ (actor) — most Japanese speakers refer to a male actor simply as ⟦{俳優|はいゆう}→俳優：03547_haiyuu⟧. {男優|だんゆう} is used mainly when the male/female distinction matters, such as in award titles or industry reporting.\n\nSIMILAR WORDS:\n- ⟦{俳優|はいゆう}→俳優：03547_haiyuu⟧: actor — gender-neutral, the default term\n- ⟦{女優|じょゆう}→女優：03353_joyuu⟧: actress — the female counterpart, used more frequently than {男優|だんゆう}\n- ⟦{役者|やくしゃ}→役者：05113_yakusha⟧: actor (especially in stage or traditional theater)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03547_haiyuu",
+      "reading": "はいゆう",
+      "headword": "{俳優|はいゆう}",
+      "label": "actor"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03353_joyuu",
+      "reading": "じょゆう",
+      "headword": "{女優|じょゆう}",
+      "label": "actress"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05113_yakusha",
+      "reading": "やくしゃ",
+      "headword": "{役者|やくしゃ}",
+      "label": "actor"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["occupation", "entertainment"],
+      "politeness": "plain",
+      "semantic": [
+        "occupation",
+        "entertainment"
+      ],
       "domain": []
     },
     "created": "2026-05-28T03:07:22Z",
-    "modified": "2026-05-28T03:07:22Z"
+    "modified": "2026-09-02T04:02:33Z"
   }
 }

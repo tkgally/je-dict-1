@@ -2,7 +2,7 @@
   "id": "03707_hitei",
   "headword": "{否定|ひてい}",
   "reading": "ひてい",
-  "part_of_speech": "noun / suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "negation, denial",
   "conjugation": {
     "type": "suru",
@@ -168,7 +168,7 @@
       ]
     }
   ],
-  "notes": "Used both for denying claims and for grammatical negation.\n\nFORMS:\n・{否定|ひてい}⟦する→する：00392_suru⟧ (to deny, negate)\n・⟦{否定的|ひていてき}→否定的：06333_hiteiteki⟧ (negative, in a denying manner)\n・〜⟦を→を：00422_wo⟧{否定|ひてい}⟦する→する：00392_suru⟧ (to deny something)\n\nCOMMON COLLOCATIONS:\n・⟦{否定形|ひていけい}→否定形：11500_hiteikei⟧ (negative form - grammar)\n・⟦{否定文|ひていぶん}→否定文：28303_hiteibun⟧ (negative sentence)\n・⟦{全否定|ぜんひてい}→全否定：28304_zenhitei⟧ (complete denial)\n・⟦{自己否定|じこひてい}→自己否定：28305_jikohitei⟧ (self-denial)\n・⟦{否定的|ひていてき}→否定的：06333_hiteiteki⟧⟦な→な：09497_na⟧⟦{意見|いけん}→意見：01303_iken⟧ (negative opinion)\n\nANTONYM:\n・⟦{肯定|こうてい}→肯定：04148_koutei⟧ (affirmation)",
+  "notes": "Used both for denying claims and for grammatical negation.\n\nFORMS:\n- {否定|ひてい}⟦する→する：00392_suru⟧ (to deny, negate)\n- ⟦{否定的|ひていてき}→否定的：06333_hiteiteki⟧ (negative, in a denying manner)\n- 〜⟦を→を：00422_wo⟧{否定|ひてい}⟦する→する：00392_suru⟧ (to deny something)\n\nCOMMON COLLOCATIONS:\n- ⟦{否定形|ひていけい}→否定形：11500_hiteikei⟧ (negative form - grammar)\n- ⟦{否定文|ひていぶん}→否定文：28303_hiteibun⟧ (negative sentence)\n- ⟦{全否定|ぜんひてい}→全否定：28304_zenhitei⟧ (complete denial)\n- ⟦{自己否定|じこひてい}→自己否定：28305_jikohitei⟧ (self-denial)\n- ⟦{否定的|ひていてき}→否定的：06333_hiteiteki⟧⟦な→な：09497_na⟧⟦{意見|いけん}→意見：01303_iken⟧ (negative opinion)\n\nSIMILAR WORDS:\n- ⟦{肯定|こうてい}→肯定：04148_koutei⟧ (affirmation)",
   "cross_references": [
     {
       "type": "antonym",
@@ -176,11 +176,32 @@
       "headword": "{肯定|こうてい}",
       "label": "affirmation",
       "target_id": "04148_koutei"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11961_hinin",
+      "reading": "ひにん",
+      "headword": "{否認|ひにん}",
+      "label": "denial"
+    },
+    {
+      "type": "related",
+      "target_id": "21699_uchikeshi",
+      "reading": "うちけし",
+      "headword": "{打|う}ち{消|け}し",
+      "label": "negation"
+    },
+    {
+      "type": "related",
+      "target_id": "29666_ronriwa",
+      "reading": "ろんりわ",
+      "headword": "{論理和|ろんりわ}",
+      "label": "logical OR"
     }
   ],
   "metadata": {
     "created": "2026-01-12T12:24:37Z",
-    "modified": "2026-08-13T15:50:29Z",
+    "modified": "2026-09-02T04:00:52Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -193,7 +214,8 @@
       "semantic": [
         "communication"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   },
   "prominent_see_also": [

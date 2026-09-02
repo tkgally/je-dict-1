@@ -15,40 +15,75 @@
   "examples": [
     {
       "id": "19239_kanyoushokubutsu_ex1",
-      "japanese": "{観葉植物|かんようしょくぶつ}を{育|そだ}てる。",
+      "japanese": "{観葉植物|かんようしょくぶつ}⟦を→を：00422_wo⟧⟦{育|そだ}てる→育てる：01235_sodateru⟧。",
       "english": "To grow a houseplant.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19239_kanyoushokubutsu_ex2",
-      "japanese": "オフィスに{観葉植物|かんようしょくぶつ}を{置|お}くと{雰囲気|ふんいき}がよくなる。",
+      "japanese": "⟦オフィス→オフィス：00327_ofisu⟧⟦に→に：00314_ni⟧{観葉植物|かんようしょくぶつ}⟦を→を：00422_wo⟧⟦{置|お}く→置く：01092_oku⟧⟦と→と：00512_to⟧⟦{雰囲気|ふんいき}→雰囲気：03604_funiki⟧⟦が→が：00051_ga⟧⟦よく→よく：00601_yoku⟧⟦なる→なる：01970_naru⟧。",
       "english": "Placing houseplants in the office improves the atmosphere.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19239_kanyoushokubutsu_ex3",
-      "japanese": "{観葉植物|かんようしょくぶつ}は{水|みず}のやりすぎに{注意|ちゅうい}が{必要|ひつよう}だ。",
+      "japanese": "{観葉植物|かんようしょくぶつ}⟦は→は：00079_ha⟧⟦{水|みず}→水：02258_mizu⟧⟦の→の：09472_no⟧⟦やり→やる：02980_yaru⟧すぎ⟦に→に：00314_ni⟧⟦{注意|ちゅうい}→注意：01464_chuui⟧⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧だ。",
       "english": "With houseplants, you need to be careful not to overwater them.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {観葉|かんよう} (leaf-viewing) + {植物|しょくぶつ} (plant). Literally \"plant for enjoying foliage.\" Sometimes abbreviated to {観葉|かんよう} in casual speech.\n\nPOPULAR VARIETIES IN JAPAN:\n- モンステラ (monstera)\n- パキラ (pachira)\n- ポトス (pothos)\n- ガジュマル (banyan fig)\n- サンスベリア (snake plant)\n\nCOMMON COLLOCATIONS:\n- {観葉植物|かんようしょくぶつ}を{育|そだ}てる: to grow houseplants\n- {観葉植物|かんようしょくぶつ}を{置|お}く: to place houseplants\n- {観葉植物|かんようしょくぶつ}に{水|みず}をやる: to water houseplants\n\nCULTURE:\nOften given as housewarming ({引|ひ}っ{越|こ}し{祝|いわ}い) or store-opening gifts in Japan.",
+  "notes": "Composed of {観葉|かんよう} (leaf-viewing) + ⟦{植物|しょくぶつ}→植物：03248_shokubutsu⟧ (plant). Literally \"plant for enjoying foliage.\" Sometimes abbreviated to {観葉|かんよう} in casual speech.\n\nPOPULAR VARIETIES IN JAPAN:\n- モンステラ (monstera)\n- パキラ (pachira)\n- ポトス (pothos)\n- ガジュマル (banyan fig)\n- サンスベリア (snake plant)\n\nCOMMON COLLOCATIONS:\n- {観葉植物|かんようしょくぶつ}⟦を→を：00422_wo⟧⟦{育|そだ}てる→育てる：01235_sodateru⟧: to grow houseplants\n- {観葉植物|かんようしょくぶつ}⟦を→を：00422_wo⟧⟦{置|お}く→置く：01092_oku⟧: to place houseplants\n- {観葉植物|かんようしょくぶつ}⟦に→に：00314_ni⟧⟦{水|みず}→水：02258_mizu⟧⟦を→を：00422_wo⟧⟦やる→やる：02980_yaru⟧: to water houseplants\n\nCULTURAL NOTE:\nOften given as housewarming (⟦{引|ひ}っ{越|こ}し{祝|いわ}い→引っ越し祝い：08494_hikkoshiiwai⟧) or store-opening gifts in Japan.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "04001_ueki",
+      "reading": "うえき",
+      "headword": "{植木|うえき}",
+      "label": "garden plant"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25101_kanshoushokubutsu",
+      "reading": "かんしょうしょくぶつ",
+      "headword": "{観賞植物|かんしょうしょくぶつ}",
+      "label": "ornamental plant"
+    },
+    {
+      "type": "related",
+      "target_id": "28903_tanikushokubutsu",
+      "reading": "たにくしょくぶつ",
+      "headword": "{多肉植物|たにくしょくぶつ}",
+      "label": "succulent (plant)"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["nature", "plant-general", "daily-life"]
+      "semantic": [
+        "nature",
+        "plant-general",
+        "daily-life"
+      ]
     },
     "created": "2026-03-25T01:39:35Z",
-    "modified": "2026-07-26T21:31:07Z"
+    "modified": "2026-09-02T04:01:55Z"
   }
 }

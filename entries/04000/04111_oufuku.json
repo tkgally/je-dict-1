@@ -2,7 +2,7 @@
   "id": "04111_oufuku",
   "headword": "{往復|おうふく}",
   "reading": "おうふく",
-  "part_of_speech": "noun, suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "round trip, going and returning",
   "conjugation": {
     "type": "suru",
@@ -189,7 +189,7 @@
     },
     {
       "id": "04111_oufuku_ex9",
-      "japanese": "⟦ボール→ボール：00017_booru⟧⟦を→を：00422_wo⟧{往復|おうふく}させて⟦{練習|れんしゅう}→練習：05323_renshuu⟧⟦する→する：00392_suru⟧。",
+      "japanese": "⟦ボール→ボール：00017_booru⟧⟦を→を：00422_wo⟧{往復|おうふく}⟦させて→する：00392_suru⟧⟦{練習|れんしゅう}→練習：05323_renshuu⟧⟦する→する：00392_suru⟧。",
       "english": "Practice by hitting the ball back and forth.",
       "notes": null,
       "has_audio": false,
@@ -208,10 +208,10 @@
       ]
     }
   ],
-  "notes": "USAGE: {往復|おうふく} is commonly used for transportation and travel.\n\nCOMMON COMPOUNDS:\n・{往復|おうふく}⟦{切符|きっぷ}→切符：00643_kippu⟧ (round-trip ticket)\n・{往復|おうふく}⟦{運賃|うんちん}→運賃：05299_unchin⟧ (round-trip fare)\n・{往復|おうふく}⟦はがき→はがき：00699_hagaki⟧ (return postcard - has reply section attached)\n・{往復|おうふく}⟦{書簡|しょかん}→書簡：20091_shokan⟧ (correspondence, exchange of letters)\n\nPATTERNS:\n・{往復|おうふく}で〜 (round trip, takes ~)\n・{往復|おうふく}⟦する→する：00392_suru⟧ (to make a round trip)\n\nCONTRAST:\n・⟦{片道|かたみち}→片道：00199_katamichi⟧ - one way (opposite)",
+  "notes": "USAGE: {往復|おうふく} is commonly used for transportation and travel.\n\nCOMPOUNDS:\n- {往復|おうふく}⟦{切符|きっぷ}→切符：00643_kippu⟧ (round-trip ticket)\n- {往復|おうふく}⟦{運賃|うんちん}→運賃：05299_unchin⟧ (round-trip fare)\n- {往復|おうふく}⟦はがき→はがき：00699_hagaki⟧ (return postcard - has reply section attached)\n- {往復|おうふく}⟦{書簡|しょかん}→書簡：20091_shokan⟧ (correspondence, exchange of letters)\n\nCOMMON PATTERNS:\n- {往復|おうふく}で〜 (round trip, takes ~)\n- {往復|おうふく}⟦する→する：00392_suru⟧ (to make a round trip)\n\nSIMILAR WORDS:\n- ⟦{片道|かたみち}→片道：00199_katamichi⟧ - one way (opposite)",
   "metadata": {
     "created": "2026-01-13T12:42:08Z",
-    "modified": "2026-08-14T18:20:10Z",
+    "modified": "2026-09-02T04:01:04Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
@@ -234,6 +234,20 @@
       "reading": "かたみち",
       "headword": "{片道|かたみち}",
       "label": "one way"
+    },
+    {
+      "type": "related",
+      "target_id": "20538_fukuro",
+      "reading": "ふくろ",
+      "headword": "{復路|ふくろ}",
+      "label": "return trip"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22992_ikikisuru",
+      "reading": "いききする",
+      "headword": "{行|い}き{来|き}する",
+      "label": "to come and go"
     }
   ]
 }

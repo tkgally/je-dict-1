@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "14705_kouon_ex1",
-      "japanese": "{今日|きょう}は{高温|こうおん}{注意報|ちゅういほう}が{出|で}ている。",
+      "japanese": "⟦{今日|きょう}→今日：00496_kyou⟧⟦は→は：00079_ha⟧{高温|こうおん}⟦{注意報|ちゅういほう}→注意報：16464_chuuihou⟧⟦が→が：00051_ga⟧⟦{出|で}ている→出る：00513_deru⟧。",
       "english": "A high temperature warning has been issued today.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "14705_kouon_ex2",
-      "japanese": "{高温|こうおん}で{焼|や}くとパリッと{仕上|しあ}がる。",
+      "japanese": "{高温|こうおん}⟦で→で：00502_de⟧⟦{焼|や}く→焼く：01123_yaku⟧⟦と→と：00512_to⟧パリッ⟦と→と：00512_to⟧⟦{仕上|しあ}がる→仕上がる：11429_shiagaru⟧。",
       "english": "Baking at high temperature gives a crispy finish.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "14705_kouon_ex3",
-      "japanese": "{高温|こうおん}{多湿|たしつ}の{環境|かんきょう}では{食品|しょくひん}が{傷|いた}みやすいので、{冷蔵庫|れいぞうこ}で{保管|ほかん}してください。",
+      "japanese": "{高温|こうおん}⟦{多湿|たしつ}→多湿：12310_tashitsu⟧⟦の→の：09472_no⟧⟦{環境|かんきょう}→環境：00174_kankyou⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{食品|しょくひん}→食品：03247_shokuhin⟧⟦が→が：00051_ga⟧⟦{傷|いた}み→傷む：10061_itamu⟧やすい⟦の→の：09472_no⟧で、⟦{冷蔵庫|れいぞうこ}→冷蔵庫：01046_reizouko⟧⟦で→で：00502_de⟧⟦{保管|ほかん}して→保管する：25536_hokansuru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Food spoils easily in hot and humid conditions, so please store it in the refrigerator.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "Compound of {高|こう} (high) + {温|おん} (temperature). Very common in weather reports, product labels, and safety instructions.\n\nCOMMON COLLOCATIONS:\n- {高温|こうおん}{多湿|たしつ} (hot and humid)\n- {高温|こうおん}{注意報|ちゅういほう} (high temperature warning)\n- {高温|こうおん}で{焼|や}く (bake at high temperature)\n- {高温|こうおん}に{注意|ちゅうい} (caution: high temperature)\n- {高温|こうおん}{殺菌|さっきん} (high-temperature sterilization)\n\nSIMILAR WORDS:\nThe opposite is {低温|ていおん} (low temperature). {猛暑|もうしょ} (extreme heat) specifically refers to weather, while {高温|こうおん} is used more broadly for any context involving high temperature.",
+  "notes": "Compound of ⟦{高|こう}→高〜：03951_kou⟧ (high) + {温|おん} (temperature). Very common in weather reports, product labels, and safety instructions.\n\nCOMMON COLLOCATIONS:\n- {高温|こうおん}⟦{多湿|たしつ}→多湿：12310_tashitsu⟧ (hot and humid)\n- {高温|こうおん}⟦{注意報|ちゅういほう}→注意報：16464_chuuihou⟧ (high temperature warning)\n- {高温|こうおん}⟦で→で：00502_de⟧⟦{焼|や}く→焼く：01123_yaku⟧ (bake at high temperature)\n- {高温|こうおん}⟦に→に：00314_ni⟧⟦{注意|ちゅうい}→注意：01464_chuui⟧ (caution: high temperature)\n- {高温|こうおん}⟦{殺菌|さっきん}→殺菌：09781_sakkin⟧ (high-temperature sterilization)\n\nSIMILAR WORDS:\nThe opposite is ⟦{低温|ていおん}→低温：29339_teion⟧ (low temperature). ⟦{猛暑|もうしょ}→猛暑：08311_mousho⟧ (extreme heat) specifically refers to weather, while {高温|こうおん} is used more broadly for any context involving high temperature.",
   "cross_references": [
     {
       "type": "antonym",
@@ -52,11 +52,18 @@
       "headword": "{低温|ていおん}",
       "label": "low temperature",
       "target_id": "29339_teion"
+    },
+    {
+      "type": "antonym",
+      "target_id": "03961_tei",
+      "reading": "てい",
+      "headword": "{低|てい}〜",
+      "label": "low"
     }
   ],
   "metadata": {
     "created": "2026-03-03T09:05:14Z",
-    "modified": "2026-06-20T06:18:17Z",
+    "modified": "2026-09-02T04:01:38Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

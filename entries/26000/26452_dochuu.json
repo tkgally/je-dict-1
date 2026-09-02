@@ -15,39 +15,73 @@
   "examples": [
     {
       "id": "26452_dochuu_ex1",
-      "japanese": "{種|たね}を{土中|どちゅう}に{埋|う}めた。",
+      "japanese": "⟦{種|たね}→種：02157_tane⟧⟦を→を：00422_wo⟧{土中|どちゅう}⟦に→に：00314_ni⟧⟦{埋|う}めた→埋める：01901_umeru⟧。",
       "english": "I buried the seeds in the soil.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26452_dochuu_ex2",
-      "japanese": "{土中|どちゅう}の{水分|すいぶん}が{植物|しょくぶつ}の{成長|せいちょう}に{影響|えいきょう}する。",
+      "japanese": "{土中|どちゅう}⟦の→の：09472_no⟧⟦{水分|すいぶん}→水分：04302_suibun⟧⟦が→が：00051_ga⟧⟦{植物|しょくぶつ}→植物：03248_shokubutsu⟧⟦の→の：09472_no⟧⟦{成長|せいちょう}→成長：03290_seichou⟧⟦に→に：00314_ni⟧⟦{影響|えいきょう}→影響：01877_eikyou⟧⟦する→する：00392_suru⟧。",
       "english": "Moisture in the soil affects plant growth.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26452_dochuu_ex3",
-      "japanese": "{発掘|はっくつ}{調査|ちょうさ}で{土中|どちゅう}から{古代|こだい}の{遺物|いぶつ}が{見|み}つかった。",
+      "japanese": "⟦{発掘|はっくつ}→発掘：07995_hakkutsu⟧⟦{調査|ちょうさ}→調査：03489_chousa⟧⟦で→で：00502_de⟧{土中|どちゅう}⟦から→から：00504_kara⟧⟦{古代|こだい}→古代：05324_kodai⟧⟦の→の：09472_no⟧⟦{遺物|いぶつ}→遺物：14545_ibutsu⟧⟦が→が：00051_ga⟧⟦{見|み}つかった→見つかる：01173_mitsukaru⟧。",
       "english": "Ancient artifacts were found in the earth during an excavation survey.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {土|ど} (earth, soil) and {中|ちゅう} (inside, within). Functions as a location noun and commonly appears with the particle に to indicate location. Typical of the Sino-Japanese pattern where {中|ちゅう} indicates being inside something.\n\nCOMMON COLLOCATIONS:\n- {土中|どちゅう}に{埋|う}める: to bury in the soil\n- {土中|どちゅう}の{水分|すいぶん}: soil moisture\n- {土中|どちゅう}から{発見|はっけん}する: to discover from underground\n- {土中|どちゅう}{深|ふか}く: deep in the earth\n\nSIMILAR WORDS:\n- {地中|ちちゅう}: underground — emphasizes being beneath the ground surface, often used for larger-scale contexts like {地中海|ちちゅうかい} (Mediterranean Sea)\n- {地下|ちか}: underground — refers to the space beneath the surface, used for basements, subways, etc.\n- {土壌|どじょう}: soil — the material itself rather than the location within it",
-  "cross_references": [],
+  "notes": "A compound of {土|ど} (earth, soil) and ⟦{中|ちゅう}→〜中：09840_chuu⟧ (inside, within). Functions as a location noun and commonly appears with the particle ⟦に→に：00314_ni⟧ to indicate location. Typical of the Sino-Japanese pattern where ⟦{中|ちゅう}→〜中：09840_chuu⟧ indicates being inside something.\n\nCOMMON COLLOCATIONS:\n- {土中|どちゅう}⟦に→に：00314_ni⟧⟦{埋|う}める→埋める：01901_umeru⟧: to bury in the soil\n- {土中|どちゅう}⟦の→の：09472_no⟧⟦{水分|すいぶん}→水分：04302_suibun⟧: soil moisture\n- {土中|どちゅう}⟦から→から：00504_kara⟧⟦{発見|はっけん}する→発見する：26929_hakkensuru⟧: to discover from underground\n- {土中|どちゅう}⟦{深|ふか}く→深い：01211_fukai⟧: deep in the earth\n\nSIMILAR WORDS:\n- ⟦{地中|ちちゅう}→地中：12135_chichuu⟧: underground — emphasizes being beneath the ground surface, often used for larger-scale contexts like ⟦{地中海|ちちゅうかい}→地中海：20770_chichuukai⟧ (Mediterranean Sea)\n- ⟦{地下|ちか}→地下：03429_chika⟧: underground — refers to the space beneath the surface, used for basements, subways, etc.\n- ⟦{土壌|どじょう}→土壌：12040_dojou⟧: soil — the material itself rather than the location within it",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12135_chichuu",
+      "reading": "ちちゅう",
+      "headword": "{地中|ちちゅう}",
+      "label": "underground"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03429_chika",
+      "reading": "ちか",
+      "headword": "{地下|ちか}",
+      "label": "underground"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12040_dojou",
+      "reading": "どじょう",
+      "headword": "{土壌|どじょう}",
+      "label": "soil"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["nature"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "nature"
+      ]
     },
     "created": "2026-05-02T11:27:49Z",
-    "modified": "2026-05-02T11:27:49Z"
+    "modified": "2026-09-02T04:02:26Z"
   }
 }

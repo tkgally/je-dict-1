@@ -15,40 +15,60 @@
   "examples": [
     {
       "id": "20559_kakeibo_ex1",
-      "japanese": "{毎日|まいにち}{家計簿|かけいぼ}をつける。",
+      "japanese": "⟦{毎日|まいにち}→毎日：00729_mainichi⟧{家計簿|かけいぼ}⟦を→を：00422_wo⟧⟦つける→つける：00562_tsukeru⟧。",
       "english": "To keep a household account book every day.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20559_kakeibo_ex2",
-      "japanese": "{家計簿|かけいぼ}をつけ{始|はじ}めてから{無駄遣|むだづか}いが{減|へ}った。",
+      "japanese": "{家計簿|かけいぼ}⟦を→を：00422_wo⟧つけ⟦{始|はじ}めて→始める：00531_hajimeru⟧⟦から→から：00504_kara⟧⟦{無駄遣|むだづか}い→無駄遣い：07310_mudazukai⟧⟦が→が：00051_ga⟧⟦{減|へ}った→減る：01985_heru⟧。",
       "english": "Since I started keeping a budget book, my wasteful spending has decreased.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20559_kakeibo_ex3",
-      "japanese": "スマホのアプリで{家計簿|かけいぼ}を{管理|かんり}するのが{便利|べんり}だ。",
+      "japanese": "⟦スマホ→スマホ：04721_sumaho⟧⟦の→の：09472_no⟧⟦アプリ→アプリ：04722_apuri⟧⟦で→で：00502_de⟧{家計簿|かけいぼ}⟦を→を：00422_wo⟧⟦{管理|かんり}する→管理する：21910_kanrisuru⟧⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦{便利|べんり}→便利：00830_benri⟧だ。",
       "english": "It's convenient to manage your household budget with a smartphone app.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {家計|かけい} (household finances) and {簿|ぼ} (ledger/register). The practice of keeping a {家計簿|かけいぼ} is deeply rooted in Japanese household culture. The concept has also gained international attention under the name \"kakeibo\" as a budgeting method.\n\nCOMMON COLLOCATIONS:\n- {家計簿|かけいぼ}をつける: to keep a household account book\n- {家計簿|かけいぼ}アプリ: budget tracking app\n- {家計簿|かけいぼ}を{見直|みなお}す: to review one's household budget\n\nRELATED TERMS:\n- {家計|かけい}: household finances/economy\n- {帳簿|ちょうぼ}: ledger, account book — general business accounting term\n- {出納帳|すいとうちょう}: cash book — more formal record of income and expenditure",
+  "notes": "A compound of ⟦{家計|かけい}→家計：12287_kakei⟧ (household finances) and {簿|ぼ} (ledger/register). The practice of keeping a {家計簿|かけいぼ} is deeply rooted in Japanese household culture. The concept has also gained international attention under the name \"kakeibo\" as a budgeting method.\n\nCOMMON COLLOCATIONS:\n- {家計簿|かけいぼ}⟦を→を：00422_wo⟧⟦つける→つける：00562_tsukeru⟧: to keep a household account book\n- {家計簿|かけいぼ}⟦アプリ→アプリ：04722_apuri⟧: budget tracking app\n- {家計簿|かけいぼ}⟦を→を：00422_wo⟧⟦{見直|みなお}す→見直す：04579_minaosu⟧: to review one's household budget\n\nRELATED WORDS:\n- ⟦{家計|かけい}→家計：12287_kakei⟧: household finances/economy\n- ⟦{帳簿|ちょうぼ}→帳簿：07961_choubo⟧: ledger, account book — general business accounting term\n- {出納帳|すいとうちょう}: cash book — more formal record of income and expenditure",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "07961_choubo",
+      "reading": "ちょうぼ",
+      "headword": "{帳簿|ちょうぼ}",
+      "label": "ledger, account book"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["daily life", "finance"]
+      "semantic": [
+        "daily life",
+        "finance"
+      ]
     },
     "created": "2026-03-29T18:08:48Z",
-    "modified": "2026-03-29T18:08:48Z"
+    "modified": "2026-09-02T04:02:00Z"
   }
 }

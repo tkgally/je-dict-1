@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25079_hamushi_ex1",
-      "japanese": "{夕方|ゆうがた}になると{羽虫|はむし}が{飛|と}び{回|まわ}る。",
+      "japanese": "⟦{夕方|ゆうがた}→夕方：01010_yuugata⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦と→と：00512_to⟧{羽虫|はむし}⟦が→が：00051_ga⟧⟦{飛|と}び{回|まわ}る→飛び回る：04610_tobimawaru⟧。",
       "english": "Small flying insects swarm around in the evening.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25079_hamushi_ex2",
-      "japanese": "{羽虫|はむし}が{部屋|へや}に{入|はい}ってきた。",
+      "japanese": "{羽虫|はむし}⟦が→が：00051_ga⟧⟦{部屋|へや}→部屋：00507_heya⟧⟦に→に：00314_ni⟧⟦{入|はい}って→入る：00494_hairu⟧きた。",
       "english": "A gnat flew into the room.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25079_hamushi_ex3",
-      "japanese": "{窓|まど}を{開|あ}けたら{羽虫|はむし}がたくさん{集|あつ}まってきて、すぐに{閉|し}めた。",
+      "japanese": "⟦{窓|まど}→窓：02254_mado⟧⟦を→を：00422_wo⟧⟦{開|あ}けたら→開ける：00563_akeru⟧{羽虫|はむし}⟦が→が：00051_ga⟧⟦たくさん→たくさん：00597_takusan⟧⟦{集|あつ}まって→集まる：01162_atsumaru⟧きて、⟦すぐ→すぐ：00814_sugu⟧⟦に→に：00314_ni⟧⟦{閉|し}めた→閉める：00485_shimeru⟧。",
       "english": "When I opened the window, a lot of gnats gathered, so I closed it right away.",
       "sense_numbers": [
         1
@@ -44,20 +44,30 @@
       "notes": null
     }
   ],
-  "notes": "A colloquial term for any small flying insect that is annoying but not necessarily identifiable by species. Includes gnats, midges, fruit flies, and other tiny winged bugs. Particularly common in warm, humid weather and around lights at night.\n\nCOMMON COLLOCATIONS:\n- {羽虫|はむし}が{飛|と}ぶ: gnats fly around\n- {羽虫|はむし}が{集|あつ}まる: gnats gather\n- {羽虫|はむし}が{湧|わ}く: gnats breed / appear in numbers\n- {小|ちい}さな{羽虫|はむし}: tiny flying insects\n\nSIMILAR WORDS:\n- コバエ: small fly, fruit fly — specifically refers to tiny flies found around fruit or garbage\n- ブヨ / ブユ: black fly — a specific biting insect found near rivers and mountains\n- {蚊|か}: mosquito — a specific blood-sucking insect, larger and more recognizable than {羽虫|はむし}",
+  "notes": "A colloquial term for any small flying insect that is annoying but not necessarily identifiable by species. Includes gnats, midges, fruit flies, and other tiny winged bugs. Particularly common in warm, humid weather and around lights at night.\n\nCOMMON COLLOCATIONS:\n- {羽虫|はむし}⟦が→が：00051_ga⟧⟦{飛|と}ぶ→飛ぶ：00759_tobu⟧: gnats fly around\n- {羽虫|はむし}⟦が→が：00051_ga⟧⟦{集|あつ}まる→集まる：01162_atsumaru⟧: gnats gather\n- {羽虫|はむし}⟦が→が：00051_ga⟧⟦{湧|わ}く→湧く：13321_waku_welling⟧: gnats breed / appear in numbers\n- ⟦{小|ちい}さな→小さな：02913_chiisana⟧{羽虫|はむし}: tiny flying insects\n\nSIMILAR WORDS:\n- コバエ: small fly, fruit fly — specifically refers to tiny flies found around fruit or garbage\n- ブヨ / ブユ: black fly — a specific biting insect found near rivers and mountains\n- ⟦{蚊|か}→蚊：04294_ka⟧: mosquito — a specific blood-sucking insect, larger and more recognizable than {羽虫|はむし}",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04294_ka",
+      "reading": "か",
+      "headword": "{蚊|か}",
+      "label": "mosquito"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "nature",
         "animal-insect"
       ]
     },
     "created": "2026-04-22T13:22:44Z",
-    "modified": "2026-08-03T09:22:27Z"
+    "modified": "2026-09-02T04:02:21Z"
   }
 }

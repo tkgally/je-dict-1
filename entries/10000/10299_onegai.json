@@ -19,7 +19,7 @@
   "examples": [
     {
       "id": "10299_onegai_ex1",
-      "japanese": "お{願|ねが}いがあります。",
+      "japanese": "お{願|ねが}い⟦が→が：00051_ga⟧⟦あります→ある：00006_aru⟧。",
       "english": "I have a favor to ask.",
       "notes": null,
       "has_audio": false,
@@ -29,7 +29,7 @@
     },
     {
       "id": "10299_onegai_ex2",
-      "japanese": "{一|ひと}つお{願|ねが}いしてもいいですか。",
+      "japanese": "⟦{一|ひと}つ→一つ：02948_hitotsu⟧お{願|ねが}い⟦して→する：00392_suru⟧⟦も→も：00484_mo⟧⟦いい→いい：00118_ii⟧です⟦か→か：09473_ka⟧。",
       "english": "May I ask you a favor?",
       "notes": null,
       "has_audio": false,
@@ -39,7 +39,7 @@
     },
     {
       "id": "10299_onegai_ex3",
-      "japanese": "{神社|じんじゃ}で{合格|ごうかく}のお{願|ねが}いをした。",
+      "japanese": "⟦{神社|じんじゃ}→神社：01620_jinja⟧⟦で→で：00502_de⟧⟦{合格|ごうかく}→合格：02816_goukaku⟧⟦の→の：09472_no⟧お{願|ねが}い⟦を→を：00422_wo⟧⟦した→する：00392_suru⟧。",
       "english": "I prayed for success at the shrine.",
       "notes": null,
       "has_audio": false,
@@ -49,7 +49,7 @@
     },
     {
       "id": "10299_onegai_ex4",
-      "japanese": "お{願|ねが}い、{手伝|てつだ}って。",
+      "japanese": "お{願|ねが}い、⟦{手伝|てつだ}って→手伝う：00898_tetsudau⟧。",
       "english": "Please, help me.",
       "notes": null,
       "has_audio": false,
@@ -59,7 +59,7 @@
     },
     {
       "id": "10299_onegai_ex5",
-      "japanese": "コーヒーお{願|ねが}いします。",
+      "japanese": "⟦コーヒー→コーヒー：00789_koohii⟧お{願|ねが}い⟦します→する：00392_suru⟧。",
       "english": "Coffee, please.",
       "notes": null,
       "has_audio": false,
@@ -69,7 +69,7 @@
     },
     {
       "id": "10299_onegai_ex6",
-      "japanese": "お{願|ねが}いだから、もう{少|すこ}し{待|ま}って。",
+      "japanese": "お{願|ねが}いだ⟦から→から：00504_kara⟧、⟦もう→もう：00602_mou⟧⟦{少|すこ}し→少し：00596_sukoshi⟧⟦{待|ま}って→待つ：00469_matsu⟧。",
       "english": "Please, just wait a little longer.",
       "notes": null,
       "has_audio": false,
@@ -78,11 +78,40 @@
       ]
     }
   ],
-  "notes": "Polite noun form of {願|ねが}う (to wish, to request) with the honorific prefix お.\n\nCOMMON PATTERNS:\n- お{願|ねが}いします: please (polite, standard)\n- お{願|ねが}いいたします: please (humble/very polite)\n- お{願|ねが}いがある: to have a favor to ask\n- お{願|ねが}いだから: I'm begging you, please (emotional)\n\nNUANCE: As a standalone (sense 2), お{願|ねが}い is casual/familiar. Adding します makes it polite. お{願|ねが}いだから is an emotional, pleading expression often used with close friends or family.",
-  "cross_references": [],
+  "notes": "Polite noun form of ⟦{願|ねが}う→願う：02387_negau⟧ (to wish, to request) with the honorific prefix お.\n\nCOMMON PATTERNS:\n- お{願|ねが}い⟦します→する：00392_suru⟧: please (polite, standard)\n- お{願|ねが}い⟦いたします→いたす：01314_itasu⟧: please (humble/very polite)\n- お{願|ねが}い⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧: to have a favor to ask\n- お{願|ねが}いだ⟦から→から：00504_kara⟧: I'm begging you, please (emotional)\n\nNUANCE: As a standalone (sense 2), お{願|ねが}い is casual/familiar. Adding ⟦します→する：00392_suru⟧ makes it polite. お{願|ねが}いだ⟦から→から：00504_kara⟧ is an emotional, pleading expression often used with close friends or family.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "03754_meirei",
+      "reading": "めいれい",
+      "headword": "{命令|めいれい}",
+      "label": "order, command"
+    },
+    {
+      "type": "related",
+      "target_id": "08839_rikuesuto",
+      "reading": "りくえすと",
+      "headword": "リクエスト",
+      "label": "request"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14621_negaigoto",
+      "reading": "ねがいごと",
+      "headword": "{願|ねが}い{事|ごと}",
+      "label": "wish"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23574_tasukete",
+      "reading": "たすけて",
+      "headword": "{助|たす}けて",
+      "label": "help!"
+    }
+  ],
   "metadata": {
     "created": "2026-02-06T00:35:55Z",
-    "modified": "2026-02-06T00:35:55Z",
+    "modified": "2026-09-02T04:01:20Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

@@ -4,7 +4,7 @@
   "headword": "{不断|ふだん}",
   "reading": "ふだん",
   "romaji": "fudan",
-  "part_of_speech": "adjective-no",
+  "part_of_speech": "no-adjective",
   "gloss": "constant; continual; unceasing; persistent",
   "definitions": [
     {
@@ -16,7 +16,7 @@
   "examples": [
     {
       "id": "24549_fudan_ex1",
-      "japanese": "{不断|ふだん}の{努力|どりょく}が{大切|たいせつ}だ。",
+      "japanese": "{不断|ふだん}⟦の→の：09472_no⟧⟦{努力|どりょく}→努力：03490_doryoku⟧⟦が→が：00051_ga⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧だ。",
       "english": "Constant effort is important.",
       "sense_numbers": [
         1
@@ -26,7 +26,7 @@
     },
     {
       "id": "24549_fudan_ex2",
-      "japanese": "{成功|せいこう}は{不断|ふだん}の{練習|れんしゅう}の{成果|せいか}だ。",
+      "japanese": "⟦{成功|せいこう}→成功：02638_seikou⟧⟦は→は：00079_ha⟧{不断|ふだん}⟦の→の：09472_no⟧⟦{練習|れんしゅう}→練習：05323_renshuu⟧⟦の→の：09472_no⟧⟦{成果|せいか}→成果：06745_seika⟧だ。",
       "english": "Success is the result of constant practice.",
       "sense_numbers": [
         1
@@ -36,7 +36,7 @@
     },
     {
       "id": "24549_fudan_ex3",
-      "japanese": "{技術|ぎじゅつ}{革新|かくしん}には{不断|ふだん}の{研究|けんきゅう}と{挑戦|ちょうせん}が{求|もと}められる。",
+      "japanese": "⟦{技術|ぎじゅつ}{革新|かくしん}→技術革新：12892_gijutsukakushin⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{不断|ふだん}⟦の→の：09472_no⟧⟦{研究|けんきゅう}→研究：01396_kenkyuu⟧⟦と→と：00512_to⟧⟦{挑戦|ちょうせん}→挑戦：03495_chousen⟧⟦が→が：00051_ga⟧⟦{求|もと}められる→求める：02316_motomeru⟧。",
       "english": "Technological innovation demands continuous research and challenges.",
       "sense_numbers": [
         1
@@ -45,7 +45,7 @@
       "notes": null
     }
   ],
-  "notes": "Literally 'not ceasing' ({不|ふ} + {断|だん}). Used as a modifier (with の) to describe something that continues without interruption. Almost always appears in the set phrase {不断|ふだん}の{努力|どりょく} (constant effort). Carries a positive connotation of diligence and persistence.\n\nNOTE ON HOMOPHONE:\nDo not confuse with {普段|ふだん} (usually, normally), which is the everyday word for 'ordinary' or 'usual'. They are completely different words that happen to share the same reading.\n\nCOMMON COLLOCATIONS:\n- {不断|ふだん}の{努力|どりょく}: constant effort\n- {不断|ふだん}の{改善|かいぜん}: continuous improvement\n- {不断|ふだん}の{注意|ちゅうい}: constant vigilance\n- {不断|ふだん}の{研鑽|けんさん}: continuous self-improvement\n\nSIMILAR WORDS:\n- {絶|た}え{間|ま}ない: unceasing, incessant — emphasizes no breaks or gaps\n- {継続的|けいぞくてき}: continuous — neutral, technical term for ongoing processes\n- {弛|たゆ}まない: untiring, unwavering — emphasizes not slackening in effort",
+  "notes": "Literally 'not ceasing' ({不|ふ} + {断|だん}). Used as a modifier (with ⟦の→の：09472_no⟧) to describe something that continues without interruption. Almost always appears in the set phrase {不断|ふだん}⟦の→の：09472_no⟧⟦{努力|どりょく}→努力：03490_doryoku⟧ (constant effort). Carries a positive connotation of diligence and persistence.\n\nNOTE ON HOMOPHONE:\nDo not confuse with ⟦{普段|ふだん}→普段：00041_fudan⟧ (usually, normally), which is the everyday word for 'ordinary' or 'usual'. They are completely different words that happen to share the same reading.\n\nCOMMON COLLOCATIONS:\n- {不断|ふだん}⟦の→の：09472_no⟧⟦{努力|どりょく}→努力：03490_doryoku⟧: constant effort\n- {不断|ふだん}⟦の→の：09472_no⟧⟦{改善|かいぜん}→改善：00144_kaizen⟧: continuous improvement\n- {不断|ふだん}⟦の→の：09472_no⟧⟦{注意|ちゅうい}→注意：01464_chuui⟧: constant vigilance\n- {不断|ふだん}⟦の→の：09472_no⟧⟦{研鑽|けんさん}→研鑽：15484_kensan⟧: continuous self-improvement\n\nSIMILAR WORDS:\n- ⟦{絶|た}え{間|ま}ない→絶え間ない：14911_taemanai⟧: unceasing, incessant — emphasizes no breaks or gaps\n- ⟦{継続的|けいぞくてき}→継続的：05845_keizokuteki⟧: continuous — neutral, technical term for ongoing processes\n- {弛|たゆ}まない: untiring, unwavering — emphasizes not slackening in effort",
   "cross_references": [
     {
       "type": "related",
@@ -53,11 +53,25 @@
       "reading": "ふだん",
       "headword": "{普段|ふだん}",
       "label": "usually, normally (different word, same reading)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14911_taemanai",
+      "reading": "たえまない",
+      "headword": "{絶|た}え{間|ま}ない",
+      "label": "unceasing, incessant"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05845_keizokuteki",
+      "reading": "けいぞくてき",
+      "headword": "{継続的|けいぞくてき}",
+      "label": "continuous"
     }
   ],
   "metadata": {
     "created": "2026-04-19T14:16:20Z",
-    "modified": "2026-08-03T09:22:27Z",
+    "modified": "2026-09-02T04:02:18Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

@@ -2,7 +2,7 @@
   "id": "11665_koukai",
   "headword": "{公開|こうかい}",
   "reading": "こうかい",
-  "part_of_speech": "noun / suru verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "release to the public, opening",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "11665_koukai_ex1",
-      "japanese": "{新作|しんさく}が{公開|こうかい}された。",
+      "japanese": "⟦{新作|しんさく}→新作：09523_shinsaku⟧⟦が→が：00051_ga⟧{公開|こうかい}⟦された→する：00392_suru⟧。",
       "english": "The new film was released.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "11665_koukai_ex2",
-      "japanese": "この{情報|じょうほう}は{一般|いっぱん}に{公開|こうかい}されている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{情報|じょうほう}→情報：03348_jouhou⟧⟦は→は：00079_ha⟧⟦{一般|いっぱん}→一般：01737_ippan⟧⟦に→に：00314_ni⟧{公開|こうかい}⟦されている→する：00392_suru⟧。",
       "english": "This information is open to the public.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "11665_koukai_ex3",
-      "japanese": "{映画|えいが}の{公開|こうかい}{日|び}が{来月|らいげつ}に{決|き}まった。",
+      "japanese": "⟦{映画|えいが}→映画：02273_eiga⟧⟦の→の：09472_no⟧{公開|こうかい}{日|び}⟦が→が：00051_ga⟧⟦{来月|らいげつ}→来月：00744_raigetsu⟧⟦に→に：00314_ni⟧⟦{決|き}まった→決まる：01233_kimaru⟧。",
       "english": "The film's release date was set for next month.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,61 @@
       ]
     }
   ],
-  "notes": "Broadly covers making things accessible to the public — films, buildings, information, documents.\n\nCOMMON COLLOCATIONS:\n・{一般|いっぱん}{公開|こうかい} (open to the general public)\n・{情報|じょうほう}{公開|こうかい} (information disclosure)\n・{公開|こうかい}{日|び} (release date)\n・{公開|こうかい}{中|ちゅう} (now showing / currently open)\n・{非公開|ひこうかい} (private, closed to the public)\n\nDISTINCTIONS:\n・{公開|こうかい}: making something accessible to the public (films, facilities, information)\n・{発表|はっぴょう}: announcing or presenting (results, plans, research)\n・{公表|こうひょう}: officially making information public (formal announcements)",
-  "cross_references": [],
+  "notes": "Broadly covers making things accessible to the public — films, buildings, information, documents.\n\nCOMMON COLLOCATIONS:\n- ⟦{一般|いっぱん}→一般：01737_ippan⟧{公開|こうかい} (open to the general public)\n- ⟦{情報|じょうほう}→情報：03348_jouhou⟧{公開|こうかい} (information disclosure)\n- {公開|こうかい}{日|び} (release date)\n- {公開|こうかい}{中|ちゅう} (now showing / currently open)\n- ⟦{非公開|ひこうかい}→非公開：16599_hikoukai⟧ (private, closed to the public)\n\nSIMILAR WORDS:\n- {公開|こうかい}: making something accessible to the public (films, facilities, information)\n- ⟦{発表|はっぴょう}→発表：03562_happyou⟧: announcing or presenting (results, plans, research)\n- ⟦{公表|こうひょう}→公表：11640_kouhyou⟧: officially making information public (formal announcements)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03562_happyou",
+      "reading": "はっぴょう",
+      "headword": "{発表|はっぴょう}",
+      "label": "announcing or presenting"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11640_kouhyou",
+      "reading": "こうひょう",
+      "headword": "{公表|こうひょう}",
+      "label": "officially making information public"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07822_roonchi",
+      "reading": "ろーんち",
+      "headword": "ローンチ",
+      "label": "launch"
+    },
+    {
+      "type": "related",
+      "target_id": "08380_jouei",
+      "reading": "じょうえい",
+      "headword": "{上映|じょうえい}",
+      "label": "screening"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20927_hirousuru",
+      "reading": "ひろうする",
+      "headword": "{披露|ひろう}する",
+      "label": "to announce"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21375_kouhyou",
+      "reading": "こうひょう",
+      "headword": "{公表|こうひょう}する",
+      "label": "to announce publicly"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22259_toumeika",
+      "reading": "とうめいか",
+      "headword": "{透明化|とうめいか}",
+      "label": "making transparent"
+    }
+  ],
   "metadata": {
     "created": "2026-02-17T20:15:53Z",
-    "modified": "2026-04-07T03:12:19Z",
+    "modified": "2026-09-02T04:01:25Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

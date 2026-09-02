@@ -3,7 +3,7 @@
   "headword": "{正直|しょうじき}{一途|いちず}",
   "reading": "しょうじきいちず",
   "romaji": "shoujikiichizu",
-  "part_of_speech": "adjective",
+  "part_of_speech": "na-adjective",
   "gloss": "earnestly honest; wholeheartedly sincere",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26534_shoujikiichizu_ex1",
-      "japanese": "{彼|かれ}は{正直|しょうじき}{一途|いちず}な{人|ひと}だ。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{正直|しょうじき}{一途|いちず}な⟦{人|ひと}→人：00476_hito⟧だ。",
       "english": "He is an earnestly honest person.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26534_shoujikiichizu_ex2",
-      "japanese": "{正直|しょうじき}{一途|いちず}な{性格|せいかく}で、{嘘|うそ}がつけない。",
+      "japanese": "{正直|しょうじき}{一途|いちず}な⟦{性格|せいかく}→性格：03371_seikaku⟧⟦で→で：00502_de⟧、⟦{嘘|うそ}→嘘：01796_uso⟧⟦が→が：00051_ga⟧⟦つけない→つける：00562_tsukeru⟧。",
       "english": "With an earnestly honest personality, he can't tell lies.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26534_shoujikiichizu_ex3",
-      "japanese": "{祖父|そふ}は{正直|しょうじき}{一途|いちず}に{生|い}きてきた{人|ひと}で、{地域|ちいき}から{信頼|しんらい}されていた。",
+      "japanese": "⟦{祖父|そふ}→祖父：01452_sofu⟧⟦は→は：00079_ha⟧{正直|しょうじき}{一途|いちず}⟦に→に：00314_ni⟧⟦{生|い}きて→生きる：01184_ikiru⟧きた⟦{人|ひと}→人：00476_hito⟧で、⟦{地域|ちいき}→地域：01461_chiiki⟧⟦から→から：00504_kara⟧⟦{信頼|しんらい}→信頼：03268_shinrai⟧⟦されていた→する：00392_suru⟧。",
       "english": "My grandfather lived a wholeheartedly sincere life and was trusted by the community.",
       "sense_numbers": [
         1
@@ -44,8 +44,30 @@
       "notes": null
     }
   ],
-  "notes": "A four-character compound ({四字熟語|よじじゅくご}) combining {正直|しょうじき} (honest; upright) and {一途|いちず} (wholehearted; single-minded). Used as a na-adjective to describe someone whose sincerity is absolute and unwavering.\n\nCOMMON COLLOCATIONS:\n- {正直|しょうじき}{一途|いちず}な{人柄|ひとがら}: earnestly honest character\n- {正直|しょうじき}{一途|いちず}に{生|い}きる: to live wholeheartedly and honestly\n- {正直|しょうじき}{一途|いちず}な{姿勢|しせい}: an earnestly sincere attitude\n\nSIMILAR WORDS:\n- {実直|じっちょく}: honest and straightforward — similar meaning but a single word\n- {誠実|せいじつ}: sincere; faithful — more common, slightly broader\n- {一途|いちず}: wholehearted; single-minded — one component, without the honesty emphasis\n- {愚直|ぐちょく}: stubbornly honest — implies honesty to a fault",
-  "cross_references": [],
+  "notes": "A four-character compound (⟦{四字熟語|よじじゅくご}→四字熟語：15663_yojijukugo⟧) combining ⟦{正直|しょうじき}→正直：01562_shoujiki⟧ (honest; upright) and ⟦{一途|いちず}→一途：18242_ichizu⟧ (wholehearted; single-minded). Used as a na-adjective to describe someone whose sincerity is absolute and unwavering.\n\nCOMMON COLLOCATIONS:\n- {正直|しょうじき}{一途|いちず}な⟦{人柄|ひとがら}→人柄：08163_hitogara⟧: earnestly honest character\n- {正直|しょうじき}{一途|いちず}⟦に→に：00314_ni⟧⟦{生|い}きる→生きる：01184_ikiru⟧: to live wholeheartedly and honestly\n- {正直|しょうじき}{一途|いちず}な⟦{姿勢|しせい}→姿勢：00371_shisei⟧: an earnestly sincere attitude\n\nSIMILAR WORDS:\n- ⟦{実直|じっちょく}→実直：09186_jicchoku⟧: honest and straightforward — similar meaning but a single word\n- ⟦{誠実|せいじつ}→誠実：14211_seijitsu⟧: sincere; faithful — more common, slightly broader\n- ⟦{一途|いちず}→一途：18242_ichizu⟧: wholehearted; single-minded — one component, without the honesty emphasis\n- ⟦{愚直|ぐちょく}→愚直：09185_guchoku⟧: stubbornly honest — implies honesty to a fault",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09186_jicchoku",
+      "reading": "じっちょく",
+      "headword": "{実直|じっちょく}",
+      "label": "honest and straightforward"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14211_seijitsu",
+      "reading": "せいじつ",
+      "headword": "{誠実|せいじつ}",
+      "label": "sincere"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09185_guchoku",
+      "reading": "ぐちょく",
+      "headword": "{愚直|ぐちょく}",
+      "label": "stubbornly honest"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,11 +75,13 @@
       "pos": [
         "adjective-na"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "personality"
       ]
     },
     "created": "2026-05-02T14:37:42Z",
-    "modified": "2026-08-06T00:43:53Z"
+    "modified": "2026-09-02T04:02:26Z"
   }
 }

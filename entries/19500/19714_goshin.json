@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "19714_goshin_ex1",
-      "japanese": "{護身|ごしん}のために{武術|ぶじゅつ}を{習|なら}う。",
+      "japanese": "{護身|ごしん}⟦の→の：09472_no⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧⟦{武術|ぶじゅつ}→武術：13244_bujutsu⟧⟦を→を：00422_wo⟧⟦{習|なら}う→習う：00479_narau⟧。",
       "english": "To learn martial arts for self-defense.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "19714_goshin_ex2",
-      "japanese": "{護身|ごしん}{用|よう}の{防犯|ぼうはん}ブザーを{持|も}ち{歩|ある}いている。",
+      "japanese": "{護身|ごしん}⟦{用|よう}→〜用：09842_you⟧⟦の→の：09472_no⟧⟦{防犯|ぼうはん}→防犯：08192_bouhan⟧ブザー⟦を→を：00422_wo⟧⟦{持|も}ち{歩|ある}いている→持ち歩く：05739_mochiaruku⟧。",
       "english": "I carry a personal safety alarm for self-protection.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "19714_goshin_ex3",
-      "japanese": "{海外|かいがい}{旅行|りょこう}では{護身|ごしん}の{意識|いしき}を{持|も}って{行動|こうどう}することが{大切|たいせつ}だ。",
+      "japanese": "⟦{海外|かいがい}{旅行|りょこう}→海外旅行：24321_kaigairyokou⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧{護身|ごしん}⟦の→の：09472_no⟧⟦{意識|いしき}→意識：01714_ishiki⟧⟦を→を：00422_wo⟧⟦{持|も}って→持つ：00478_motsu⟧⟦{行動|こうどう}→行動：02728_koudou⟧⟦する→する：00392_suru⟧こと⟦が→が：00051_ga⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧だ。",
       "english": "When traveling abroad, it's important to act with an awareness of self-protection.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {護|ご} (to protect, guard) + {身|しん} (body, self). Focuses on physical self-protection. Most commonly appears in the compound {護身術|ごしんじゅつ} (self-defense techniques).\n\nCOMMON COLLOCATIONS:\n- {護身術|ごしんじゅつ} — self-defense techniques\n- {護身|ごしん}{用|よう} — for self-defense, for self-protection\n- {護身|ごしん}のため — for the purpose of self-defense\n- {護身|ごしん}{刀|とう} — a sword carried for self-defense\n\nSIMILAR WORDS:\n- {自衛|じえい} — self-defense; broader term used in military and national contexts ({自衛隊|じえいたい})\n- {正当防衛|せいとうぼうえい} — legitimate self-defense; the legal term\n- {身|み}を{守|まも}る — to protect oneself; more everyday expression",
+  "notes": "Composed of {護|ご} (to protect, guard) + {身|しん} (body, self). Focuses on physical self-protection. Most commonly appears in the compound ⟦{護身術|ごしんじゅつ}→護身術：18323_goshinjutsu⟧ (self-defense techniques).\n\nCOMMON COLLOCATIONS:\n- ⟦{護身術|ごしんじゅつ}→護身術：18323_goshinjutsu⟧ — self-defense techniques\n- {護身|ごしん}⟦{用|よう}→〜用：09842_you⟧ — for self-defense, for self-protection\n- {護身|ごしん}⟦の→の：09472_no⟧⟦ため→ため：01145_tame⟧ — for the purpose of self-defense\n- {護身|ごしん}{刀|とう} — a sword carried for self-defense\n\nSIMILAR WORDS:\n- ⟦{自衛|じえい}→自衛：00121_jiei⟧ — self-defense; broader term used in military and national contexts (⟦{自衛隊|じえいたい}→自衛隊：05790_jieitai⟧)\n- ⟦{正当防衛|せいとうぼうえい}→正当防衛：18184_seitoubouei⟧ — legitimate self-defense; the legal term\n- ⟦{身|み}→身：01764_mi⟧⟦を→を：00422_wo⟧⟦{守|まも}る→守る：01986_mamoru⟧ — to protect oneself; more everyday expression",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00121_jiei",
+      "reading": "じえい",
+      "headword": "{自衛|じえい}",
+      "label": "self-defense"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18184_seitoubouei",
+      "reading": "せいとうぼうえい",
+      "headword": "{正当防衛|せいとうぼうえい}",
+      "label": "legitimate self-defense"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24111_jikobouei",
+      "reading": "じこぼうえい",
+      "headword": "{自己防衛|じこぼうえい}",
+      "label": "self-defense"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +82,6 @@
       ]
     },
     "created": "2026-03-26T14:30:13Z",
-    "modified": "2026-07-27T12:42:09Z"
+    "modified": "2026-09-02T04:01:57Z"
   }
 }

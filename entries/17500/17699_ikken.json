@@ -2,7 +2,7 @@
   "id": "17699_ikken",
   "headword": "{一見|いっけん}",
   "reading": "いっけん",
-  "part_of_speech": "adverb / noun",
+  "part_of_speech": "adverb, noun",
   "gloss": "at first glance, apparently",
   "schema_version": "2.0",
   "definitions": [
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "17699_ikken_ex1",
-      "japanese": "{一見|いっけん}{簡単|かんたん}そうに{見|み}える。",
+      "japanese": "{一見|いっけん}⟦{簡単|かんたん}→簡単：00713_kantan⟧そう⟦に→に：00314_ni⟧⟦{見|み}える→見える：01165_mieru⟧。",
       "english": "It looks simple at first glance.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "17699_ikken_ex2",
-      "japanese": "{一見|いっけん}{静|しず}かだが、{実|じつ}は{活気|かっき}のある{町|まち}だ。",
+      "japanese": "{一見|いっけん}⟦{静|しず}か→静か：00755_shizuka⟧だ⟦が→が：00051_ga⟧、⟦{実|じつ}→実：28344_jitsu⟧⟦は→は：00079_ha⟧⟦{活気|かっき}→活気：02554_kakki⟧⟦の→の：09472_no⟧⟦ある→ある：00006_aru⟧⟦{町|まち}→町：00613_machi⟧だ。",
       "english": "It seems quiet at first glance, but it's actually a lively town.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "17699_ikken_ex3",
-      "japanese": "この{問題|もんだい}は{一見|いっけん}{難|むずか}しそうだが、コツをつかめばすぐ{解|と}ける。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{問題|もんだい}→問題：00797_mondai⟧⟦は→は：00079_ha⟧{一見|いっけん}{難|むずか}しそうだ⟦が→が：00051_ga⟧、⟦コツ→コツ：06658_kotsu⟧⟦を→を：00422_wo⟧つかめば⟦すぐ→すぐ：00814_sugu⟧⟦{解|と}ける→解ける：04371_tokeru⟧。",
       "english": "This problem looks difficult at first glance, but once you get the hang of it, you can solve it right away.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "{一見|いっけん} is used to describe surface-level impressions, typically followed by a contrasting reality introduced by が, けれど, or {実|じつ}は.\n\nCOMMON PATTERNS:\n- {一見|いっけん}〜そうに{見|み}える (looks ~ at first glance)\n- {一見|いっけん}〜だが、{実|じつ}は… (appears ~, but actually…)\n- {一見|いっけん}すると (at a glance, looking at it briefly)\n- {一見|いっけん}の{価値|かち}がある (worth seeing, worth a look)\n\nUSAGE NOTES:\n- Often implies a gap between appearance and reality\n- Can be used as a noun meaning \"a brief look\": {一見|いっけん}の{価値|かち}あり (worth seeing)\n- Not to be confused with {一件|いっけん} (one matter/case), which is a homophone",
+  "notes": "{一見|いっけん} is used to describe surface-level impressions, typically followed by a contrasting reality introduced by が, ⟦けれど→けれど：01990_keredo⟧, or ⟦{実|じつ}→実：28344_jitsu⟧⟦は→は：00079_ha⟧.\n\nCOMMON PATTERNS:\n- {一見|いっけん}〜そう⟦に→に：00314_ni⟧⟦{見|み}える→見える：01165_mieru⟧ (looks ~ at first glance)\n- {一見|いっけん}〜だ⟦が→が：00051_ga⟧、⟦{実|じつ}→実：28344_jitsu⟧⟦は→は：00079_ha⟧… (appears ~, but actually…)\n- {一見|いっけん}⟦する→する：00392_suru⟧⟦と→と：00512_to⟧ (at a glance, looking at it briefly)\n- {一見|いっけん}⟦の→の：09472_no⟧⟦{価値|かち}→価値：00131_kachi⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧ (worth seeing, worth a look)\n\nUSAGE:\n- Often implies a gap between appearance and reality\n- Can be used as a noun meaning \"a brief look\": {一見|いっけん}⟦の→の：09472_no⟧⟦{価値|かち}→価値：00131_kachi⟧あり (worth seeing)\n- Not to be confused with ⟦{一件|いっけん}→一件：08927_ikken⟧ (one matter/case), which is a homophone",
   "cross_references": [
     {
       "type": "homophone",
@@ -52,11 +52,18 @@
       "headword": "{一件|いっけん}",
       "target_id": "08927_ikken",
       "label": "one matter"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08728_hitome",
+      "reading": "ひとめ",
+      "headword": "{一目|ひとめ}",
+      "label": "a glance"
     }
   ],
   "metadata": {
     "created": "2026-02-15T00:17:16Z",
-    "modified": "2026-03-18T10:11:24Z",
+    "modified": "2026-09-02T04:01:49Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

@@ -3,7 +3,7 @@
   "headword": "{発葉|はつよう}",
   "reading": "はつよう",
   "romaji": "hatsuyou",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "leafing out; putting out leaves",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26749_hatsuyou_ex1",
-      "japanese": "{桜|さくら}が{発葉|はつよう}し{始|はじ}めた。",
+      "japanese": "⟦{桜|さくら}→桜：02212_sakura⟧⟦が→が：00051_ga⟧{発葉|はつよう}し⟦{始|はじ}めた→始める：00531_hajimeru⟧。",
       "english": "The cherry trees have started to put out leaves.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26749_hatsuyou_ex2",
-      "japanese": "{今年|ことし}は{暖冬|だんとう}の{影響|えいきょう}で{発葉|はつよう}が{早|はや}い。",
+      "japanese": "⟦{今年|ことし}→今年：00722_kotoshi⟧⟦は→は：00079_ha⟧⟦{暖冬|だんとう}→暖冬：21745_dantou⟧⟦の→の：09472_no⟧⟦{影響|えいきょう}→影響：01877_eikyou⟧で{発葉|はつよう}⟦が→が：00051_ga⟧⟦{早|はや}い→早い：00514_hayai⟧。",
       "english": "Leafing out is early this year due to the mild winter.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26749_hatsuyou_ex3",
-      "japanese": "{落葉樹|らくようじゅ}の{発葉|はつよう}{時期|じき}は{気温|きおん}によって{毎年|まいとし}{変|か}わる。",
+      "japanese": "⟦{落葉樹|らくようじゅ}→落葉樹：04961_rakuyouju⟧⟦の→の：09472_no⟧{発葉|はつよう}⟦{時期|じき}→時期：03269_jiki⟧⟦は→は：00079_ha⟧⟦{気温|きおん}→気温：00235_kion⟧⟦によって→によって：06801_niyotte⟧⟦{毎年|まいとし}→毎年：00731_maitoshi⟧⟦{変|か}わる→変わる：00714_kawaru⟧。",
       "english": "The timing of leafing out in deciduous trees changes every year depending on the temperature.",
       "sense_numbers": [
         1
@@ -44,8 +44,23 @@
       "notes": null
     }
   ],
-  "notes": "A botanical term composed of {発|はつ} (emergence, development) and {葉|よう} (leaf). Describes the phenological event of trees and plants producing new leaves, particularly relevant in seasonal climate zones like Japan where the change from bare branches to green foliage marks the arrival of spring.\n\nCOMMON COLLOCATIONS:\n- {発葉|はつよう}{時期|じき}: leafing-out season\n- {発葉|はつよう}が{早|はや}い: early leafing out\n- {発葉|はつよう}が{遅|おく}れる: delayed leafing out\n- {発葉|はつよう}{前|まえ}: before leafing out\n\nRELATED TERMS:\n- {落葉|らくよう}: leaf fall, defoliation — the opposite seasonal process\n- {新緑|しんりょく}: fresh green leaves — the visual result of leafing out\n- {芽吹|めぶ}き: budding, sprouting — the earlier stage before full leaf emergence",
-  "cross_references": [],
+  "notes": "A botanical term composed of ⟦{発|はつ}→〜発：04026_hatsu⟧ (emergence, development) and {葉|よう} (leaf). Describes the phenological event of trees and plants producing new leaves, particularly relevant in seasonal climate zones like Japan where the change from bare branches to green foliage marks the arrival of spring.\n\nCOMMON COLLOCATIONS:\n- {発葉|はつよう}⟦{時期|じき}→時期：03269_jiki⟧: leafing-out season\n- {発葉|はつよう}⟦が→が：00051_ga⟧⟦{早|はや}い→早い：00514_hayai⟧: early leafing out\n- {発葉|はつよう}⟦が→が：00051_ga⟧⟦{遅|おく}れる→遅れる：00741_okureru⟧: delayed leafing out\n- {発葉|はつよう}⟦{前|まえ}→前：02255_mae⟧: before leafing out\n\nRELATED WORDS:\n- ⟦{落葉|らくよう}→落葉：17301_rakuyou⟧: leaf fall, defoliation — the opposite seasonal process\n- ⟦{新緑|しんりょく}→新緑：12724_shinryoku⟧: fresh green leaves — the visual result of leafing out\n- {芽吹|めぶ}き: budding, sprouting — the earlier stage before full leaf emergence",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "17301_rakuyou",
+      "reading": "らくよう",
+      "headword": "{落葉|らくよう}",
+      "label": "leaf fall, defoliation"
+    },
+    {
+      "type": "related",
+      "target_id": "12724_shinryoku",
+      "reading": "しんりょく",
+      "headword": "{新緑|しんりょく}",
+      "label": "fresh green leaves"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -62,10 +77,11 @@
       "domain": [
         "academic"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     },
     "created": "2026-05-04T15:34:46Z",
-    "modified": "2026-05-04T15:34:46Z"
+    "modified": "2026-09-02T04:02:27Z"
   },
   "conjugation": {
     "type": "suru",

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22535_monzenmachi_ex1",
-      "japanese": "{善光寺|ぜんこうじ}の{門前町|もんぜんまち}を{歩|ある}いた。",
+      "japanese": "{善光寺|ぜんこうじ}⟦の→の：09472_no⟧{門前町|もんぜんまち}⟦を→を：00422_wo⟧⟦{歩|ある}いた→歩く：00538_aruku⟧。",
       "english": "I walked through the temple town of Zenkōji.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22535_monzenmachi_ex2",
-      "japanese": "この{通|とお}りは{昔|むかし}からの{門前町|もんぜんまち}の{雰囲気|ふんいき}が{残|のこ}っている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{通|とお}り→通り：01475_toori⟧⟦は→は：00079_ha⟧⟦{昔|むかし}→昔：01515_mukashi⟧⟦から→から：00504_kara⟧⟦の→の：09472_no⟧{門前町|もんぜんまち}⟦の→の：09472_no⟧⟦{雰囲気|ふんいき}→雰囲気：03604_funiki⟧⟦が→が：00051_ga⟧⟦{残|のこ}っている→残る：01187_nokoru⟧。",
       "english": "This street still retains the atmosphere of an old temple town.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22535_monzenmachi_ex3",
-      "japanese": "{門前町|もんぜんまち}には{参拝客|さんぱいきゃく}{向|む}けの{土産物屋|みやげものや}や{食堂|しょくどう}が{並|なら}んでいる。",
+      "japanese": "{門前町|もんぜんまち}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{参拝客|さんぱいきゃく}{向|む}け⟦の→の：09472_no⟧⟦{土産物屋|みやげものや}→土産物屋：16801_miyagemonoya⟧や⟦{食堂|しょくどう}→食堂：01054_shokudou⟧⟦が→が：00051_ga⟧⟦{並|なら}んでいる→並ぶ：00605_narabu⟧。",
       "english": "The temple town is lined with souvenir shops and restaurants for visitors.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {門前|もんぜん} (in front of the gate) + {町|まち} (town). Historically, these towns developed organically around major temples and shrines as pilgrims needed lodging, food, and supplies. Famous examples include the towns around {善光寺|ぜんこうじ} in Nagano, {伊勢神宮|いせじんぐう} in Mie, and {成田山|なりたさん} in Chiba.\n\nCOMMON COLLOCATIONS:\n- {門前町|もんぜんまち}を{散策|さんさく}する: to stroll through a temple town\n- {門前町|もんぜんまち}の{名物|めいぶつ}: local specialty of a temple town\n- {古|ふる}い{門前町|もんぜんまち}: old temple town\n\nRELATED TERMS:\n- {城下町|じょうかまち}: castle town — a town that developed around a feudal lord's castle\n- {宿場町|しゅくばまち}: post town — a town along a historical highway that served as a rest stop\n- {門前|もんぜん}: in front of the gate — also appears in the proverb {門前|もんぜん}の{小僧|こぞう}{習|なら}わぬ{経|きょう}を{読|よ}む (a boy living near a temple can recite sutras without studying them)",
+  "notes": "Composed of {門前|もんぜん} (in front of the gate) + ⟦{町|まち}→町：00613_machi⟧ (town). Historically, these towns developed organically around major temples and shrines as pilgrims needed lodging, food, and supplies. Famous examples include the towns around {善光寺|ぜんこうじ} in Nagano, {伊勢神宮|いせじんぐう} in Mie, and {成田山|なりたさん} in Chiba.\n\nCOMMON COLLOCATIONS:\n- {門前町|もんぜんまち}⟦を→を：00422_wo⟧⟦{散策|さんさく}→散策：07618_sansaku⟧⟦する→する：00392_suru⟧: to stroll through a temple town\n- {門前町|もんぜんまち}⟦の→の：09472_no⟧⟦{名物|めいぶつ}→名物：05591_meibutsu⟧: local specialty of a temple town\n- ⟦{古|ふる}い→古い：00488_furui⟧{門前町|もんぜんまち}: old temple town\n\nRELATED WORDS:\n- ⟦{城下町|じょうかまち}→城下町：12105_joukamachi⟧: castle town — a town that developed around a feudal lord's castle\n- ⟦{宿場町|しゅくばまち}→宿場町：24771_shukubamachi⟧: post town — a town along a historical highway that served as a rest stop\n- {門前|もんぜん}: in front of the gate — also appears in the proverb {門前|もんぜん}⟦の→の：09472_no⟧⟦{小僧|こぞう}→小僧：12388_kozou⟧⟦{習|なら}わぬ→習う：00479_narau⟧⟦{経|きょう}→経：24866_kyou⟧⟦を→を：00422_wo⟧⟦{読|よ}む→読む：00426_yomu⟧ (a boy living near a temple can recite sutras without studying them)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "12105_joukamachi",
+      "reading": "じょうかまち",
+      "headword": "{城下町|じょうかまち}",
+      "label": "castle town"
+    },
+    {
+      "type": "related",
+      "target_id": "24771_shukubamachi",
+      "reading": "しゅくばまち",
+      "headword": "{宿場町|しゅくばまち}",
+      "label": "post town"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +76,6 @@
       ]
     },
     "created": "2026-04-06T17:28:17Z",
-    "modified": "2026-04-10T08:28:27Z"
+    "modified": "2026-09-02T04:02:08Z"
   }
 }

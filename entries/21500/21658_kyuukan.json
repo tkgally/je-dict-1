@@ -3,7 +3,7 @@
   "headword": "{休刊|きゅうかん}",
   "reading": "きゅうかん",
   "romaji": "kyuukan",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "suspension of publication; ceasing publication",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21658_kyuukan_ex1",
-      "japanese": "その{雑誌|ざっし}は{来月|らいげつ}{休刊|きゅうかん}になる。",
+      "japanese": "⟦その→その：00993_sono⟧⟦{雑誌|ざっし}→雑誌：00686_zasshi⟧⟦は→は：00079_ha⟧⟦{来月|らいげつ}→来月：00744_raigetsu⟧{休刊|きゅうかん}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧。",
       "english": "That magazine will cease publication next month.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21658_kyuukan_ex2",
-      "japanese": "{売|う}り{上|あ}げの{低迷|ていめい}が{続|つづ}き、{休刊|きゅうかん}に{追|お}い{込|こ}まれた。",
+      "japanese": "{売|う}り{上|あ}げ⟦の→の：09472_no⟧⟦{低迷|ていめい}→低迷：09332_teimei⟧⟦が→が：00051_ga⟧⟦{続|つづ}き→続く：00903_tsuzuku⟧、{休刊|きゅうかん}⟦に→に：00314_ni⟧⟦{追|お}い{込|こ}まれた→追い込む：06371_oikomu⟧。",
       "english": "Continuing poor sales forced them to cease publication.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21658_kyuukan_ex3",
-      "japanese": "{長年|ながねん}{愛読|あいどく}していた{新聞|しんぶん}が{休刊|きゅうかん}すると{聞|き}いて、とても{残念|ざんねん}だった。",
+      "japanese": "⟦{長年|ながねん}→長年：09684_naganen⟧⟦{愛読|あいどく}→愛読：15980_aidoku⟧⟦していた→する：00392_suru⟧⟦{新聞|しんぶん}→新聞：01440_shinbun⟧⟦が→が：00051_ga⟧{休刊|きゅうかん}⟦する→する：00392_suru⟧⟦と→と：00512_to⟧⟦{聞|き}いて→聞く：00483_kiku⟧、⟦とても→とても：00593_totemo⟧⟦{残念|ざんねん}→残念：01244_zannen⟧だった。",
       "english": "I was very sad to hear that the newspaper I had read for many years would cease publication.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {休|きゅう} (rest, pause) + {刊|かん} (publication). Literally \"resting publication.\"\n\nCOMMON COLLOCATIONS:\n- {休刊|きゅうかん}になる: to go out of publication\n- {休刊|きゅうかん}する: to cease publishing\n- {休刊|きゅうかん}に{追|お}い{込|こ}まれる: to be forced to cease publication\n- {休刊号|きゅうかんごう}: final issue (before suspension)\n\nUSAGE NOTE:\nAlthough {休刊|きゅうかん} literally implies a temporary suspension, in the Japanese publishing industry it is commonly used as a euphemism for permanent discontinuation ({廃刊|はいかん}). Publishers prefer {休刊|きゅうかん} because it leaves open the possibility of resuming, even when there is no such intention.\n\nSIMILAR WORDS:\n- {廃刊|はいかん}: discontinuation of publication — explicitly permanent\n- {創刊|そうかん}: first issue; launch of a publication — the opposite, starting a new publication",
+  "notes": "Compound of {休|きゅう} (rest, pause) + {刊|かん} (publication). Literally \"resting publication.\"\n\nCOMMON COLLOCATIONS:\n- {休刊|きゅうかん}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧: to go out of publication\n- {休刊|きゅうかん}⟦する→する：00392_suru⟧: to cease publishing\n- {休刊|きゅうかん}⟦に→に：00314_ni⟧⟦{追|お}い{込|こ}まれる→追い込む：06371_oikomu⟧: to be forced to cease publication\n- {休刊号|きゅうかんごう}: final issue (before suspension)\n\nUSAGE:\nAlthough {休刊|きゅうかん} literally implies a temporary suspension, in the Japanese publishing industry it is commonly used as a euphemism for permanent discontinuation ({廃刊|はいかん}). Publishers prefer {休刊|きゅうかん} because it leaves open the possibility of resuming, even when there is no such intention.\n\nSIMILAR WORDS:\n- {廃刊|はいかん}: discontinuation of publication — explicitly permanent\n- ⟦{創刊|そうかん}→創刊：11923_soukan⟧: first issue; launch of a publication — the opposite, starting a new publication",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "11923_soukan",
+      "reading": "そうかん",
+      "headword": "{創刊|そうかん}",
+      "label": "first issue"
+    },
+    {
+      "type": "related",
+      "target_id": "20699_soukangou",
+      "reading": "そうかんごう",
+      "headword": "{創刊号|そうかんごう}",
+      "label": "first issue"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -58,10 +74,11 @@
       "semantic": [
         "media"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     },
     "created": "2026-04-02T20:23:27Z",
-    "modified": "2026-04-02T20:23:27Z"
+    "modified": "2026-09-02T04:02:04Z"
   },
   "conjugation": {
     "type": "suru",

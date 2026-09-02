@@ -15,40 +15,73 @@
   "examples": [
     {
       "id": "27663_enkinkan_ex1",
-      "japanese": "{遠近感|えんきんかん}がつかめない。",
+      "japanese": "{遠近感|えんきんかん}⟦が→が：00051_ga⟧つかめない。",
       "english": "I can't get a sense of the distances.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27663_enkinkan_ex2",
-      "japanese": "この{絵|え}は{遠近感|えんきんかん}がよく{出|で}ている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{絵|え}→絵：02613_e⟧⟦は→は：00079_ha⟧{遠近感|えんきんかん}⟦が→が：00051_ga⟧⟦よく→よく：00601_yoku⟧⟦{出|で}ている→出る：00513_deru⟧。",
       "english": "This painting conveys a sense of depth well.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27663_enkinkan_ex3",
-      "japanese": "{片目|かため}を{閉|と}じると{遠近感|えんきんかん}がつかみにくくなる。",
+      "japanese": "⟦{片目|かため}→片目：20229_katame⟧⟦を→を：00422_wo⟧⟦{閉|と}じる→閉じる：02303_tojiru⟧⟦と→と：00512_to⟧{遠近感|えんきんかん}⟦が→が：00051_ga⟧つかみにくく⟦なる→なる：01970_naru⟧。",
       "english": "When you close one eye, it becomes hard to judge depth.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Refers to the perception of depth and distance — judging whether things are near or far, and the impression of depth in drawings, paintings, and photographs.\n\nCOMMON COLLOCATIONS:\n- {遠近感|えんきんかん}をつかむ: to get a sense of distance\n- {遠近感|えんきんかん}が{出|で}る: a sense of depth comes through\n- {遠近感|えんきんかん}を{失|うしな}う: to lose one's sense of depth\n\nRELATED TERMS:\n- {立体感|りったいかん}: sense of three-dimensionality; solidity\n- {奥行|おくゆ}き: depth — the actual extent of something from front to back",
+  "notes": "Refers to the perception of depth and distance — judging whether things are near or far, and the impression of depth in drawings, paintings, and photographs.\n\nCOMMON COLLOCATIONS:\n- {遠近感|えんきんかん}⟦を→を：00422_wo⟧つかむ: to get a sense of distance\n- {遠近感|えんきんかん}⟦が→が：00051_ga⟧⟦{出|で}る→出る：00513_deru⟧: a sense of depth comes through\n- {遠近感|えんきんかん}⟦を→を：00422_wo⟧⟦{失|うしな}う→失う：01887_ushinau⟧: to lose one's sense of depth\n\nRELATED WORDS:\n- ⟦{立体感|りったいかん}→立体感：21914_rittaikan⟧: sense of three-dimensionality; solidity\n- ⟦{奥行|おくゆ}き→奥行き：10569_okuyuki⟧: depth — the actual extent of something from front to back",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "21914_rittaikan",
+      "reading": "りったいかん",
+      "headword": "{立体感|りったいかん}",
+      "label": "sense of three-dimensionality"
+    },
+    {
+      "type": "related",
+      "target_id": "10569_okuyuki",
+      "reading": "おくゆき",
+      "headword": "{奥行|おくゆ}き",
+      "label": "depth"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28088_rittaishi",
+      "reading": "りったいし",
+      "headword": "{立体視|りったいし}",
+      "label": "stereoscopic vision"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     },
     "created": "2026-05-16T03:10:15Z",
-    "modified": "2026-05-16T03:10:15Z"
+    "modified": "2026-09-02T04:02:31Z"
   }
 }

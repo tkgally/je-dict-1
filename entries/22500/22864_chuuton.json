@@ -3,7 +3,7 @@
   "headword": "{駐屯|ちゅうとん}",
   "reading": "ちゅうとん",
   "romaji": "chuuton",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "stationing; garrison",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22864_chuuton_ex1",
-      "japanese": "{部隊|ぶたい}が{駐屯|ちゅうとん}している。",
+      "japanese": "⟦{部隊|ぶたい}→部隊：28119_butai⟧⟦が→が：00051_ga⟧{駐屯|ちゅうとん}⟦している→する：00392_suru⟧。",
       "english": "Troops are stationed there.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22864_chuuton_ex2",
-      "japanese": "{駐屯地|ちゅうとんち}は{市|し}の{北部|ほくぶ}にある。",
+      "japanese": "{駐屯地|ちゅうとんち}⟦は→は：00079_ha⟧⟦{市|し}→市：01599_shi⟧⟦の→の：09472_no⟧{北部|ほくぶ}⟦に→に：00314_ni⟧⟦ある→ある：00006_aru⟧。",
       "english": "The garrison is in the northern part of the city.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22864_chuuton_ex3",
-      "japanese": "{自衛隊|じえいたい}は{全国|ぜんこく}の{駐屯地|ちゅうとんち}に{部隊|ぶたい}を{配置|はいち}している。",
+      "japanese": "⟦{自衛隊|じえいたい}→自衛隊：05790_jieitai⟧⟦は→は：00079_ha⟧⟦{全国|ぜんこく}→全国：03311_zenkoku⟧⟦の→の：09472_no⟧{駐屯地|ちゅうとんち}⟦に→に：00314_ni⟧⟦{部隊|ぶたい}→部隊：28119_butai⟧⟦を→を：00422_wo⟧⟦{配置|はいち}→配置：14409_haichi⟧⟦している→する：00392_suru⟧。",
       "english": "The Self-Defense Forces have units deployed at garrisons throughout the country.",
       "sense_numbers": [
         1
@@ -44,8 +44,45 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {駐|ちゅう} (to station, park) + {屯|とん} (to camp, gather). Used primarily in military contexts for the permanent or semi-permanent stationing of troops.\n\nCOMMON COLLOCATIONS:\n- {駐屯地|ちゅうとんち}: garrison; military base\n- {駐屯|ちゅうとん}する: to be stationed; to garrison\n- {駐屯|ちゅうとん}{部隊|ぶたい}: garrison troops\n- {海外|かいがい}{駐屯|ちゅうとん}: overseas stationing\n\nSIMILAR WORDS:\n- {駐留|ちゅうりゅう}: stationing (especially of foreign troops) — emphasizes staying in another country\n- {基地|きち}: military base — the physical facility itself\n- {配備|はいび}: deployment — placing equipment or forces in position",
+  "notes": "Composed of {駐|ちゅう} (to station, park) + {屯|とん} (to camp, gather). Used primarily in military contexts for the permanent or semi-permanent stationing of troops.\n\nCOMMON COLLOCATIONS:\n- {駐屯地|ちゅうとんち}: garrison; military base\n- {駐屯|ちゅうとん}⟦する→する：00392_suru⟧: to be stationed; to garrison\n- {駐屯|ちゅうとん}⟦{部隊|ぶたい}→部隊：28119_butai⟧: garrison troops\n- ⟦{海外|かいがい}→海外：00134_kaigai⟧{駐屯|ちゅうとん}: overseas stationing\n\nSIMILAR WORDS:\n- ⟦{駐留|ちゅうりゅう}→駐留：23159_chuuryuu⟧: stationing (especially of foreign troops) — emphasizes staying in another country\n- ⟦{基地|きち}→基地：03982_kichi⟧: military base — the physical facility itself\n- ⟦{配備|はいび}→配備：25292_haibi⟧: deployment — placing equipment or forces in position",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23159_chuuryuu",
+      "reading": "ちゅうりゅう",
+      "headword": "{駐留|ちゅうりゅう}",
+      "label": "stationing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03982_kichi",
+      "reading": "きち",
+      "headword": "{基地|きち}",
+      "label": "military base"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25292_haibi",
+      "reading": "はいび",
+      "headword": "{配備|はいび}",
+      "label": "deployment"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24211_shukuei",
+      "reading": "しゅくえい",
+      "headword": "{宿営|しゅくえい}",
+      "label": "encampment"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25774_chuuryuusuru",
+      "reading": "ちゅうりゅうする",
+      "headword": "{駐留|ちゅうりゅう}する",
+      "label": "to station"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -58,10 +95,11 @@
       "semantic": [
         "military"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     },
     "created": "2026-04-07T19:16:05Z",
-    "modified": "2026-04-07T19:16:05Z"
+    "modified": "2026-09-02T04:02:10Z"
   },
   "conjugation": {
     "type": "suru",

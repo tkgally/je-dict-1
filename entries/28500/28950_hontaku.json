@@ -15,41 +15,74 @@
   "examples": [
     {
       "id": "28950_hontaku_ex1",
-      "japanese": "{本宅|ほんたく}は{東京|とうきょう}にある。",
+      "japanese": "{本宅|ほんたく}⟦は→は：00079_ha⟧⟦{東京|とうきょう}→東京：09564_toukyou⟧⟦に→に：00314_ni⟧⟦ある→ある：00006_aru⟧。",
       "english": "My main residence is in Tokyo.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28950_hontaku_ex2",
-      "japanese": "{平日|へいじつ}は{本宅|ほんたく}で{過|す}ごし、{週末|しゅうまつ}は{別荘|べっそう}に{行|い}く。",
+      "japanese": "⟦{平日|へいじつ}→平日：03033_heijitsu⟧⟦は→は：00079_ha⟧{本宅|ほんたく}⟦で→で：00502_de⟧⟦{過|す}ごし→過ごす：02062_sugosu⟧、⟦{週末|しゅうまつ}→週末：03030_shuumatsu⟧⟦は→は：00079_ha⟧⟦{別荘|べっそう}→別荘：11786_bessou⟧⟦に→に：00314_ni⟧⟦{行|い}く→行く：00119_iku⟧。",
       "english": "I spend weekdays at my main residence and go to my vacation home on weekends.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28950_hontaku_ex3",
-      "japanese": "{書類|しょるい}には{本宅|ほんたく}の{住所|じゅうしょ}を{記入|きにゅう}してください。",
+      "japanese": "⟦{書類|しょるい}→書類：01103_shorui⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{本宅|ほんたく}⟦の→の：09472_no⟧⟦{住所|じゅうしょ}→住所：01430_juusho⟧⟦を→を：00422_wo⟧⟦{記入|きにゅう}→記入：02624_kinyuu⟧⟦して→する：00392_suru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please enter the address of your main residence on the form.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Compound of {本|ほん} (main; original) + {宅|たく} (residence). A formal, somewhat dated term — in everyday speech, {自宅|じたく} or simply {家|いえ} are more common. {本宅|ほんたく} is typically used when contrasting with another dwelling.\n\nCOMMON COLLOCATIONS:\n- {本宅|ほんたく}の{住所|じゅうしょ}: address of one's main residence\n- {本宅|ほんたく}{勤務|きんむ}: working from one's main residence\n\nSIMILAR WORDS:\n- {自宅|じたく}: one's home — everyday word, no contrast implied\n- {別宅|べったく}: second home; separate residence\n- {別荘|べっそう}: vacation home; villa",
+  "notes": "Compound of {本|ほん} (main; original) + ⟦{宅|たく}→宅：12302_taku⟧ (residence). A formal, somewhat dated term — in everyday speech, ⟦{自宅|じたく}→自宅：00129_jitaku⟧ or simply ⟦{家|いえ}→家：00612_ie⟧ are more common. {本宅|ほんたく} is typically used when contrasting with another dwelling.\n\nCOMMON COLLOCATIONS:\n- {本宅|ほんたく}⟦の→の：09472_no⟧⟦{住所|じゅうしょ}→住所：01430_juusho⟧: address of one's main residence\n- {本宅|ほんたく}⟦{勤務|きんむ}→勤務：04545_kinmu⟧: working from one's main residence\n\nSIMILAR WORDS:\n- ⟦{自宅|じたく}→自宅：00129_jitaku⟧: one's home — everyday word, no contrast implied\n- ⟦{別宅|べったく}→別宅：25808_bettaku⟧: second home; separate residence\n- ⟦{別荘|べっそう}→別荘：11786_bessou⟧: vacation home; villa",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00129_jitaku",
+      "reading": "じたく",
+      "headword": "{自宅|じたく}",
+      "label": "one's home"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25808_bettaku",
+      "reading": "べったく",
+      "headword": "{別宅|べったく}",
+      "label": "second home"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11786_bessou",
+      "reading": "べっそう",
+      "headword": "{別荘|べっそう}",
+      "label": "vacation home"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["building"],
+      "semantic": [
+        "building"
+      ],
       "domain": []
     },
     "created": "2026-06-07T04:11:17Z",
-    "modified": "2026-06-07T04:11:17Z"
+    "modified": "2026-09-02T04:02:35Z"
   }
 }

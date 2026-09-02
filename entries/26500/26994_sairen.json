@@ -15,40 +15,81 @@
   "examples": [
     {
       "id": "26994_sairen_ex1",
-      "japanese": "{救急車|きゅうきゅうしゃ}のサイレンが{聞|き}こえた。",
+      "japanese": "⟦{救急車|きゅうきゅうしゃ}→救急車：05077_kyuukyuusha⟧⟦の→の：09472_no⟧サイレン⟦が→が：00051_ga⟧⟦{聞|き}こえた→聞こえる：01229_kikoeru⟧。",
       "english": "I heard the siren of an ambulance.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26994_sairen_ex2",
-      "japanese": "{正午|しょうご}になると{工場|こうじょう}のサイレンが{鳴|な}る。",
+      "japanese": "⟦{正午|しょうご}→正午：03231_shougo⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦と→と：00512_to⟧⟦{工場|こうじょう}→工場：01082_koujou⟧⟦の→の：09472_no⟧サイレン⟦が→が：00051_ga⟧⟦{鳴|な}る→鳴る：01143_naru⟧。",
       "english": "The factory siren sounds at noon.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26994_sairen_ex3",
-      "japanese": "{津波|つなみ}{警報|けいほう}のサイレンが{鳴|な}ったら、すぐに{高|たか}い{場所|ばしょ}へ{避難|ひなん}してください。",
+      "japanese": "⟦{津波|つなみ}→津波：05064_tsunami⟧⟦{警報|けいほう}→警報：09515_keihou⟧⟦の→の：09472_no⟧サイレン⟦が→が：00051_ga⟧⟦{鳴|な}ったら→鳴る：01143_naru⟧、⟦すぐ→すぐ：00814_sugu⟧⟦に→に：00314_ni⟧⟦{高|たか}い→高い：00500_takai⟧⟦{場所|ばしょ}→場所：00829_basho⟧⟦へ→へ：02473_he⟧⟦{避難|ひなん}して→避難する：26827_hinansuru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "When the tsunami warning siren sounds, please evacuate to high ground immediately.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "From English \"siren.\" In Japan, sirens are encountered in several everyday contexts: emergency vehicles (ambulances, fire trucks, police cars), factory shift signals, and disaster warning systems. The noon siren ({正午|しょうご}のサイレン) is still heard in many communities.\n\nCOMMON COLLOCATIONS:\n- サイレンが{鳴|な}る: a siren sounds\n- サイレンを{鳴|な}らす: to sound a siren\n- {防災|ぼうさい}サイレン: disaster prevention siren\n- {消防車|しょうぼうしゃ}のサイレン: fire truck siren\n- サイレンの{音|おと}: the sound of a siren\n\nSIMILAR WORDS:\n- {警報|けいほう}: alarm; warning — a broader term that includes sirens but also announcements and signals\n- {非常|ひじょう}ベル: emergency bell — a different type of alarm, typically for fire alarms in buildings",
+  "notes": "From English \"siren.\" In Japan, sirens are encountered in several everyday contexts: emergency vehicles (ambulances, fire trucks, police cars), factory shift signals, and disaster warning systems. The noon siren (⟦{正午|しょうご}→正午：03231_shougo⟧⟦の→の：09472_no⟧サイレン) is still heard in many communities.\n\nCOMMON COLLOCATIONS:\n- サイレン⟦が→が：00051_ga⟧⟦{鳴|な}る→鳴る：01143_naru⟧: a siren sounds\n- サイレン⟦を→を：00422_wo⟧⟦{鳴|な}らす→鳴らす：02381_narasu⟧: to sound a siren\n- ⟦{防災|ぼうさい}→防災：07907_bousai⟧サイレン: disaster prevention siren\n- ⟦{消防車|しょうぼうしゃ}→消防車：05078_shoubousha⟧⟦の→の：09472_no⟧サイレン: fire truck siren\n- サイレン⟦の→の：09472_no⟧⟦{音|おと}→音：00743_oto⟧: the sound of a siren\n\nSIMILAR WORDS:\n- ⟦{警報|けいほう}→警報：09515_keihou⟧: alarm; warning — a broader term that includes sirens but also announcements and signals\n- ⟦{非常|ひじょう}ベル→非常ベル：19859_hijouberu⟧: emergency bell — a different type of alarm, typically for fire alarms in buildings",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09515_keihou",
+      "reading": "けいほう",
+      "headword": "{警報|けいほう}",
+      "label": "alarm"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19859_hijouberu",
+      "reading": "ひじょうべる",
+      "headword": "{非常|ひじょう}ベル",
+      "label": "emergency bell"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22646_keiteki",
+      "reading": "けいてき",
+      "headword": "{警笛|けいてき}",
+      "label": "warning whistle"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25750_kaitentou",
+      "reading": "かいてんとう",
+      "headword": "{回転灯|かいてんとう}",
+      "label": "rotating light"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["tool", "general"]
+      "semantic": [
+        "tool",
+        "general"
+      ]
     },
     "created": "2026-05-06T13:10:47Z",
-    "modified": "2026-05-06T13:10:47Z"
+    "modified": "2026-09-02T04:02:28Z"
   }
 }

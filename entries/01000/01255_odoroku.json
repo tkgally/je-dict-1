@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive). Pair: ⟦{驚|おどろ}かす→驚かす：01918_odorokasu⟧ (transitive, to surprise someone). Pattern: X⟦に→に：00314_ni⟧{驚|おどろ}く (be surprised at X).\n\nASPECT: ⟦ている→ている：noentry⟧ indicates resulting state. {驚|おどろ}いている = 'is surprised' (in a state of surprise).\n\nCOMMON PATTERNS:\n・X⟦に→に：00314_ni⟧{驚|おどろ}く (be surprised at X)\n・{驚|おどろ}く⟦ほど→程：01724_hodo⟧ (surprisingly, to a surprising degree)\n・{驚|おどろ}く⟦べき→べき：10016_beki⟧ (surprising, astonishing—attributive)\n・{驚|おどろ}いた⟦こと→こと：01164_koto⟧⟦に→に：00314_ni⟧ (to my surprise)\n\nSIMILAR WORDS:\n・⟦びっくりする→びっくりする：01178_bikkurisuru⟧: more casual, sudden surprise\n・{驚|おどろ}く: general surprise/astonishment\n・⟦{仰天|ぎょうてん}→仰天：17515_gyouten⟧⟦する→する：00392_suru⟧: extreme shock (more dramatic)",
+  "notes": "TRANSITIVITY: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive). Pair: ⟦{驚|おどろ}かす→驚かす：01918_odorokasu⟧ (transitive, to surprise someone). Pattern: X⟦に→に：00314_ni⟧{驚|おどろ}く (be surprised at X).\n\nASPECT: ⟦ている→ている：noentry⟧ indicates resulting state. {驚|おどろ}いて⟦いる→いる：00495_iru⟧ = 'is surprised' (in a state of surprise).\n\nCOMMON PATTERNS:\n- X⟦に→に：00314_ni⟧{驚|おどろ}く (be surprised at X)\n- {驚|おどろ}く⟦ほど→程：01724_hodo⟧ (surprisingly, to a surprising degree)\n- {驚|おどろ}く⟦べき→べき：10016_beki⟧ (surprising, astonishing—attributive)\n- {驚|おどろ}いた⟦こと→こと：01164_koto⟧⟦に→に：00314_ni⟧ (to my surprise)\n\nSIMILAR WORDS:\n- ⟦びっくりする→びっくりする：01178_bikkurisuru⟧: more casual, sudden surprise\n- {驚|おどろ}く: general surprise/astonishment\n- ⟦{仰天|ぎょうてん}→仰天：17515_gyouten⟧⟦する→する：00392_suru⟧: extreme shock (more dramatic)",
   "prominent_see_also": [
     {
       "target_id": "01918_odorokasu",
@@ -142,10 +142,60 @@
       "note": "transitive"
     }
   ],
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01178_bikkurisuru",
+      "reading": "びっくりする",
+      "headword": "びっくりする",
+      "label": "more casual, sudden surprise"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17515_gyouten",
+      "reading": "ぎょうてん",
+      "headword": "{仰天|ぎょうてん}",
+      "label": "extreme shock"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07448_mewomarukusuru",
+      "reading": "めをまるくする",
+      "headword": "{目|め}を{丸|まる}くする",
+      "label": "to be wide-eyed (with surprise)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21785_mewomiharu",
+      "reading": "めをみはる",
+      "headword": "{目|め}を{見張|みは}る",
+      "label": "to be amazed"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22227_akkenitorareru",
+      "reading": "あっけにとられる",
+      "headword": "あっけにとられる",
+      "label": "to be dumbfounded"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25975_shougekiwoukeru",
+      "reading": "しょうげきをうける",
+      "headword": "{衝撃|しょうげき}を{受|う}ける",
+      "label": "to be shocked"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30764_doujiru",
+      "reading": "どうじる",
+      "headword": "{動|どう}じる",
+      "label": "to be perturbed"
+    }
+  ],
   "metadata": {
     "created": "2026-01-08T12:41:43Z",
-    "modified": "2026-05-14T20:09:47Z",
+    "modified": "2026-09-02T04:00:59Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

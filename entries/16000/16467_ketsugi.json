@@ -3,7 +3,7 @@
   "id": "16467_ketsugi",
   "headword": "{決議|けつぎ}",
   "reading": "けつぎ",
-  "part_of_speech": "noun / suru verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "resolution; vote; decision",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "16467_ketsugi_ex1",
-      "japanese": "{決議|けつぎ}が{採択|さいたく}された。",
+      "japanese": "{決議|けつぎ}⟦が→が：00051_ga⟧⟦{採択|さいたく}→採択：06784_saitaku⟧⟦された→する：00392_suru⟧。",
       "english": "The resolution was adopted.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "16467_ketsugi_ex2",
-      "japanese": "{国連|こくれん}で{新|あたら}しい{決議|けつぎ}が{可決|かけつ}された。",
+      "japanese": "⟦{国連|こくれん}→国連：12035_kokuren⟧⟦で→で：00502_de⟧⟦{新|あたら}しい→新しい：00506_atarashii⟧{決議|けつぎ}⟦が→が：00051_ga⟧⟦{可決|かけつ}→可決：00148_kaketsu⟧⟦された→する：00392_suru⟧。",
       "english": "A new resolution was passed at the United Nations.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "16467_ketsugi_ex3",
-      "japanese": "{株主総会|かぶぬしそうかい}で{配当金|はいとうきん}の{増額|ぞうがく}を{決議|けつぎ}した。",
+      "japanese": "{株主総会|かぶぬしそうかい}⟦で→で：00502_de⟧{配当金|はいとうきん}⟦の→の：09472_no⟧⟦{増額|ぞうがく}→増額：12134_zougaku⟧⟦を→を：00422_wo⟧{決議|けつぎ}⟦した→する：00392_suru⟧。",
       "english": "The shareholders' meeting voted to increase the dividend.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nPrimarily used in formal and institutional contexts such as parliaments, the United Nations, corporate boards, and other deliberative bodies.\n\nCOMMON COLLOCATIONS:\n- {決議|けつぎ}を{採択|さいたく}する (to adopt a resolution)\n- {決議|けつぎ}{案|あん} (draft resolution)\n- {決議|けつぎ}が{可決|かけつ}される (a resolution is passed)\n- {決議|けつぎ}が{否決|ひけつ}される (a resolution is rejected)\n\nSIMILAR WORDS:\n- {議決|ぎけつ}: parliamentary decision — focuses on the act of deciding by vote in an assembly\n- {決定|けってい}: decision — a broader term for decisions in general, not limited to formal votes",
+  "notes": "USAGE:\nPrimarily used in formal and institutional contexts such as parliaments, the United Nations, corporate boards, and other deliberative bodies.\n\nCOMMON COLLOCATIONS:\n- {決議|けつぎ}⟦を→を：00422_wo⟧⟦{採択|さいたく}→採択：06784_saitaku⟧⟦する→する：00392_suru⟧ (to adopt a resolution)\n- {決議|けつぎ}{案|あん} (draft resolution)\n- {決議|けつぎ}⟦が→が：00051_ga⟧⟦{可決|かけつ}→可決：00148_kaketsu⟧⟦される→する：00392_suru⟧ (a resolution is passed)\n- {決議|けつぎ}⟦が→が：00051_ga⟧⟦{否決|ひけつ}→否決：08396_hiketsu⟧⟦される→する：00392_suru⟧ (a resolution is rejected)\n\nSIMILAR WORDS:\n- ⟦{議決|ぎけつ}→議決：15220_giketsu⟧: parliamentary decision — focuses on the act of deciding by vote in an assembly\n- ⟦{決定|けってい}→決定：02701_kettei⟧: decision — a broader term for decisions in general, not limited to formal votes",
   "cross_references": [
     {
       "type": "synonym",
@@ -142,11 +142,18 @@
       "reading": "けってい",
       "headword": "{決定|けってい}",
       "label": "decision (general, not limited to votes)"
+    },
+    {
+      "type": "related",
+      "target_id": "08395_saiketsu",
+      "reading": "さいけつ",
+      "headword": "{採決|さいけつ}",
+      "label": "vote"
     }
   ],
   "metadata": {
     "created": "2026-03-13T02:02:44Z",
-    "modified": "2026-05-04T04:08:05Z",
+    "modified": "2026-09-02T04:01:45Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

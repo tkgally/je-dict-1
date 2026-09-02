@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30487_rasuto_ex1",
-      "japanese": "ラストの{一曲|いっきょく}です。",
+      "japanese": "ラスト⟦の→の：09472_no⟧⟦{一曲|いっきょく}→一曲：30386_ikkyoku⟧です。",
       "english": "This is the last song.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30487_rasuto_ex2",
-      "japanese": "この{映画|えいが}のラストが{忘|わす}れられない。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{映画|えいが}→映画：02273_eiga⟧⟦の→の：09472_no⟧ラスト⟦が→が：00051_ga⟧⟦{忘|わす}れられない→忘れる：00474_wasureru⟧。",
       "english": "I can't forget the ending of this film.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30487_rasuto_ex3",
-      "japanese": "ラストシーンで{主人公|しゅじんこう}が{何|なに}も{言|い}わずに{去|さ}っていくところが{印象的|いんしょうてき}だった。",
+      "japanese": "ラストシーン⟦で→で：00502_de⟧⟦{主人公|しゅじんこう}→主人公：11404_shujinkou⟧⟦が→が：00051_ga⟧⟦{何|なに}も→何も：03874_nanimo⟧⟦{言|い}わ→言う：00515_iu⟧ず⟦に→に：00314_ni⟧⟦{去|さ}って→去る：02115_saru⟧いく⟦ところ→ところ：01137_tokoro⟧⟦が→が：00051_ga⟧⟦{印象的|いんしょうてき}→印象的：15547_inshouteki⟧だった。",
       "english": "The scene where the protagonist leaves without saying anything was striking.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "A loanword from English 'last,' but narrower in use: it names the final part of something, and does not mean 'previous' as English 'last week' does.\n\nCOMMON COMPOUNDS:\n- ラストシーン: the final scene\n- ラストスパート: the final push, last spurt\n- ラストオーダー: last order (in a restaurant or bar)\n- ラスト{一|いち}{分|ぷん}: the final minute\n\nCOMMON MISTAKE: 'last week' is {先週|せんしゅう}, not ラスト{週|しゅう}. For 'the previous ~,' use {前|まえ}の or {先|せん}~.\n\nSIMILAR WORDS:\n- {最後|さいご}: the last, the end — the ordinary native word, usable in any register\n- {最終|さいしゅう}: final — formal, used in compounds like {最終回|さいしゅうかい}",
+  "notes": "A loanword from English 'last,' but narrower in use: it names the final part of something, and does not mean 'previous' as English 'last week' does.\n\nCOMPOUNDS:\n- ラストシーン: the final scene\n- ラストスパート: the final push, last spurt\n- ラストオーダー: last order (in a restaurant or bar)\n- ラスト⟦{一|いち}→一：00705_ichi⟧{分|ぷん}: the final minute\n\nCOMMON MISTAKE: 'last week' is ⟦{先週|せんしゅう}→先週：00752_senshuu⟧, not ラスト⟦{週|しゅう}→週：03204_shuu⟧. For 'the previous ~,' use ⟦{前|まえ}→前：02255_mae⟧⟦の→の：09472_no⟧ or {先|せん}~.\n\nSIMILAR WORDS:\n- ⟦{最後|さいご}→最後：01413_saigo⟧: the last, the end — the ordinary native word, usable in any register\n- ⟦{最終|さいしゅう}→最終：02820_saishuu⟧: final — formal, used in compounds like ⟦{最終回|さいしゅうかい}→最終回：26891_saishuukai⟧",
   "cross_references": [
     {
       "type": "see_also",
@@ -52,6 +52,13 @@
       "reading": "さいご",
       "headword": "{最後|さいご}",
       "label": "last, final, end"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02820_saishuu",
+      "reading": "さいしゅう",
+      "headword": "{最終|さいしゅう}",
+      "label": "final"
     }
   ],
   "schema_version": "2.0",
@@ -62,7 +69,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "time-general",
         "media"
@@ -70,6 +77,6 @@
       "domain": []
     },
     "created": "2026-08-07T18:18:04Z",
-    "modified": "2026-08-07T18:29:07Z"
+    "modified": "2026-09-02T04:02:40Z"
   }
 }

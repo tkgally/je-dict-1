@@ -3,7 +3,7 @@
   "headword": "{察知|さっち}",
   "reading": "さっち",
   "romaji": "sacchi",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "sensing; perceiving; detecting",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21208_sacchi_ex1",
-      "japanese": "{危険|きけん}を{察知|さっち}する。",
+      "japanese": "⟦{危険|きけん}→危険：01141_kiken⟧⟦を→を：00422_wo⟧{察知|さっち}⟦する→する：00392_suru⟧。",
       "english": "To sense danger.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21208_sacchi_ex2",
-      "japanese": "{動物|どうぶつ}は{地震|じしん}を{事前|じぜん}に{察知|さっち}すると{言|い}われている。",
+      "japanese": "⟦{動物|どうぶつ}→動物：01480_doubutsu⟧⟦は→は：00079_ha⟧⟦{地震|じしん}→地震：01608_jishin⟧⟦を→を：00422_wo⟧⟦{事前|じぜん}→事前：07580_jizen⟧⟦に→に：00314_ni⟧{察知|さっち}⟦する→する：00392_suru⟧⟦と→と：00512_to⟧⟦{言|い}われている→言う：00515_iu⟧。",
       "english": "Animals are said to sense earthquakes in advance.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21208_sacchi_ex3",
-      "japanese": "{彼女|かのじょ}の{表情|ひょうじょう}から{何|なに}か{問題|もんだい}があることを{察知|さっち}した。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦の→の：09472_no⟧⟦{表情|ひょうじょう}→表情：03585_hyoujou⟧⟦から→から：00504_kara⟧⟦{何|なに}か→何か：03873_nanika⟧⟦{問題|もんだい}→問題：00797_mondai⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧こと⟦を→を：00422_wo⟧{察知|さっち}⟦した→する：00392_suru⟧。",
       "english": "I sensed from her expression that something was wrong.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "A する verb ({察知|さっち}する). Composed of {察|さつ} (guess, sense) + {知|ち} (know). Implies becoming aware of something through intuition, subtle observation, or instinct rather than through direct information.\n\nCOMMON COLLOCATIONS:\n- {危険|きけん}を{察知|さっち}する: to sense danger\n- {異変|いへん}を{察知|さっち}する: to detect something unusual\n- {気配|けはい}を{察知|さっち}する: to sense a presence\n- いち{早|はや}く{察知|さっち}する: to be quick to detect\n\nSIMILAR WORDS:\n- {感知|かんち}: detection — more technical, often used for sensors and devices detecting physical phenomena\n- {察|さっ}する: to sense, to surmise — the underlying verb, slightly more literary\n- {気|き}づく: to notice — more colloquial and general, without the implication of intuitive perception",
+  "notes": "A ⟦する→する：00392_suru⟧ verb ({察知|さっち}⟦する→する：00392_suru⟧). Composed of {察|さつ} (guess, sense) + {知|ち} (know). Implies becoming aware of something through intuition, subtle observation, or instinct rather than through direct information.\n\nCOMMON COLLOCATIONS:\n- ⟦{危険|きけん}→危険：01141_kiken⟧⟦を→を：00422_wo⟧{察知|さっち}⟦する→する：00392_suru⟧: to sense danger\n- ⟦{異変|いへん}→異変：15754_ihen⟧⟦を→を：00422_wo⟧{察知|さっち}⟦する→する：00392_suru⟧: to detect something unusual\n- ⟦{気配|けはい}→気配：00206_kehai⟧⟦を→を：00422_wo⟧{察知|さっち}⟦する→する：00392_suru⟧: to sense a presence\n- いち{早|はや}く{察知|さっち}⟦する→する：00392_suru⟧: to be quick to detect\n\nSIMILAR WORDS:\n- ⟦{感知|かんち}→感知：18254_kanchi⟧: detection — more technical, often used for sensors and devices detecting physical phenomena\n- ⟦{察|さっ}する→察する：08053_sassuru⟧: to sense, to surmise — the underlying verb, slightly more literary\n- {気|き}づく: to notice — more colloquial and general, without the implication of intuitive perception",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -58,10 +58,11 @@
       "semantic": [
         "cognition"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-04-01T14:16:10Z",
-    "modified": "2026-05-08T08:12:00Z"
+    "modified": "2026-09-02T04:02:02Z"
   },
   "conjugation": {
     "type": "suru",
@@ -160,6 +161,27 @@
       "reading": "かんち",
       "headword": "{感知|かんち}",
       "label": "detection (device/sense-based)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08053_sassuru",
+      "reading": "さっする",
+      "headword": "{察|さっ}する",
+      "label": "to sense, to surmise"
+    },
+    {
+      "type": "related",
+      "target_id": "09114_dousatsu",
+      "reading": "どうさつ",
+      "headword": "{洞察|どうさつ}",
+      "label": "insight, discernment, penetration"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20796_tanchi",
+      "reading": "たんち",
+      "headword": "{探知|たんち}",
+      "label": "detection"
     }
   ]
 }

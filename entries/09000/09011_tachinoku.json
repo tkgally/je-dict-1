@@ -2,7 +2,7 @@
   "id": "09011_tachinoku",
   "headword": "{立|た}ち{退|の}く",
   "reading": "たちのく",
-  "part_of_speech": "godan verb",
+  "part_of_speech": "verb (godan)",
   "verb_type": "godan",
   "transitivity": "intransitive",
   "gloss": "to vacate; to move out; to evacuate",
@@ -106,7 +106,7 @@
   "examples": [
     {
       "id": "09011_tachinoku_ex1",
-      "japanese": "{期限|きげん}までに{立|た}ち{退|の}いてください。",
+      "japanese": "⟦{期限|きげん}→期限：12861_kigen⟧⟦まで→まで：00490_made⟧⟦に→に：00314_ni⟧{立|た}ち{退|の}いて⟦ください→ください：02899_kudasai⟧。",
       "english": "Please vacate by the deadline.",
       "notes": null,
       "has_audio": false,
@@ -116,7 +116,7 @@
     },
     {
       "id": "09011_tachinoku_ex2",
-      "japanese": "{再開発|さいかいはつ}のため{住民|じゅうみん}は{立|た}ち{退|の}かされた。",
+      "japanese": "⟦{再開発|さいかいはつ}→再開発：17066_saikaihatsu⟧⟦の→の：09472_no⟧⟦ため→ため：01145_tame⟧⟦{住民|じゅうみん}→住民：03281_juumin⟧⟦は→は：00079_ha⟧{立|た}ち{退|の}かされた。",
       "english": "The residents were forced to move out due to redevelopment.",
       "notes": null,
       "has_audio": false,
@@ -126,7 +126,7 @@
     },
     {
       "id": "09011_tachinoku_ex3",
-      "japanese": "{火災|かさい}{発生|はっせい}で{全員|ぜんいん}がビルから{立|た}ち{退|の}いた。",
+      "japanese": "⟦{火災|かさい}→火災：02561_kasai⟧⟦{発生|はっせい}→発生：03133_hassei⟧⟦で→で：00502_de⟧⟦{全員|ぜんいん}→全員：03310_zenin⟧⟦が→が：00051_ga⟧⟦ビル→ビル：01500_biru⟧⟦から→から：00504_kara⟧{立|た}ち{退|の}いた。",
       "english": "Everyone evacuated the building when the fire broke out.",
       "notes": null,
       "has_audio": false,
@@ -135,11 +135,19 @@
       ]
     }
   ],
-  "notes": "{立|た}ち{退|の}く is used for formally leaving a property or area.\n\nCOMMON COLLOCATIONS:\n- {立|た}ち{退|の}きを{命|めい}じられる: to be ordered to vacate\n- {立|た}ち{退|の}き{料|りょう}: eviction compensation\n- {立|た}ち{退|の}き{要求|ようきゅう}: demand to vacate\n- {強制|きょうせい}{立|た}ち{退|の}き: forced eviction\n\nUSAGE NOTES:\n- {立|た}ち{退|の}かせる (causative): to evict, to force out\n- {立|た}ち{退|の}かされる (passive): to be evicted\n\nRELATED WORDS:\n- {退去|たいきょ}する: to leave, to vacate (more formal)\n- {明|あ}け{渡|わた}す: to hand over, to vacate",
-  "cross_references": [],
+  "notes": "{立|た}ち{退|の}く is used for formally leaving a property or area.\n\nCOMMON COLLOCATIONS:\n- ⟦{立|た}ち{退|の}き→立ち退き：19092_tachinoki⟧⟦を→を：00422_wo⟧⟦{命|めい}じられる→命じる：02309_meijiru⟧: to be ordered to vacate\n- {立|た}ち{退|の}き⟦{料|りょう}→料：28172_ryou⟧: eviction compensation\n- ⟦{立|た}ち{退|の}き→立ち退き：19092_tachinoki⟧⟦{要求|ようきゅう}→要求：03658_youkyuu⟧: demand to vacate\n- ⟦{強制|きょうせい}→強制：12500_kyousei⟧⟦{立|た}ち{退|の}き→立ち退き：19092_tachinoki⟧: forced eviction\n\nUSAGE:\n- {立|た}ち{退|の}かせる (causative): to evict, to force out\n- {立|た}ち{退|の}かされる (passive): to be evicted\n\nRELATED WORDS:\n- ⟦{退去|たいきょ}→退去：06693_taikyo⟧⟦する→する：00392_suru⟧: to leave, to vacate (more formal)\n- {明|あ}け{渡|わた}す: to hand over, to vacate",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "06693_taikyo",
+      "reading": "たいきょ",
+      "headword": "{退去|たいきょ}",
+      "label": "to leave, to vacate"
+    }
+  ],
   "metadata": {
     "created": "2026-01-30T14:52:14Z",
-    "modified": "2026-08-12T21:25:53Z",
+    "modified": "2026-09-02T04:01:17Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
@@ -151,7 +159,8 @@
         "law",
         "movement"
       ],
-      "verb_class": "godan-ku"
+      "verb_class": "godan-ku",
+      "transitivity": "intransitive"
     }
   }
 }

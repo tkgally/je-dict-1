@@ -3,7 +3,7 @@
   "headword": "{抜歯|ばっし}",
   "reading": "ばっし",
   "romaji": "basshi",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "tooth extraction",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21278_basshi_ex1",
-      "japanese": "{親知|おやし}らずを{抜歯|ばっし}した。",
+      "japanese": "⟦{親知|おやし}らず→親知らず：23503_oyashirazu⟧⟦を→を：00422_wo⟧{抜歯|ばっし}⟦した→する：00392_suru⟧。",
       "english": "I had my wisdom tooth extracted.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21278_basshi_ex2",
-      "japanese": "{抜歯|ばっし}の{後|あと}は{激|はげ}しい{運動|うんどう}を{避|さ}けてください。",
+      "japanese": "{抜歯|ばっし}⟦の→の：09472_no⟧⟦{後|あと}→後：09580_ato⟧⟦は→は：00079_ha⟧⟦{激|はげ}しい→激しい：02348_hageshii⟧⟦{運動|うんどう}→運動：00821_undou⟧⟦を→を：00422_wo⟧⟦{避|さ}けて→避ける：02109_sakeru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please avoid intense exercise after a tooth extraction.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21278_basshi_ex3",
-      "japanese": "{虫歯|むしば}がひどくなり、{抜歯|ばっし}しか{選択肢|せんたくし}がなくなった。",
+      "japanese": "⟦{虫歯|むしば}→虫歯：00299_mushiba⟧⟦が→が：00051_ga⟧⟦ひどく→ひどい：01097_hidoi⟧⟦なり→なる：01970_naru⟧、{抜歯|ばっし}しか⟦{選択肢|せんたくし}→選択肢：14418_sentakushi⟧⟦が→が：00051_ga⟧なくなった。",
       "english": "The cavity got so bad that extraction was the only option left.",
       "sense_numbers": [
         1
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {抜|ばつ} (to pull out, to extract) and {歯|し} (tooth). A standard dental term widely understood by non-specialists. Note the reading: {歯|し} uses the on'yomi, not the kun'yomi {歯|は}. The homophone {抜糸|ばっし} (removal of stitches) is a completely different word.\n\nCOMMON COLLOCATIONS:\n- {抜歯|ばっし}する: to extract a tooth\n- {親知|おやし}らずの{抜歯|ばっし}: wisdom tooth extraction\n- {抜歯後|ばっしご}: after tooth extraction\n\nRELATED TERMS:\n- {親知|おやし}らず: wisdom tooth — the tooth most commonly associated with {抜歯|ばっし}\n- {虫歯|むしば}: cavity, tooth decay — a common reason for extraction\n- {歯科|しか}: dentistry — the field of medicine dealing with teeth\n- {抜糸|ばっし}: removal of stitches — a homophone with a completely different meaning",
+  "notes": "A compound of {抜|ばつ} (to pull out, to extract) and {歯|し} (tooth). A standard dental term widely understood by non-specialists. Note the reading: {歯|し} uses the on'yomi, not the kun'yomi ⟦{歯|は}→歯：00778_ha⟧. The homophone ⟦{抜糸|ばっし}→抜糸：17775_basshi⟧ (removal of stitches) is a completely different word.\n\nCOMMON COLLOCATIONS:\n- {抜歯|ばっし}⟦する→する：00392_suru⟧: to extract a tooth\n- ⟦{親知|おやし}らず→親知らず：23503_oyashirazu⟧⟦の→の：09472_no⟧{抜歯|ばっし}: wisdom tooth extraction\n- {抜歯後|ばっしご}: after tooth extraction\n\nRELATED WORDS:\n- ⟦{親知|おやし}らず→親知らず：23503_oyashirazu⟧: wisdom tooth — the tooth most commonly associated with {抜歯|ばっし}\n- ⟦{虫歯|むしば}→虫歯：00299_mushiba⟧: cavity, tooth decay — a common reason for extraction\n- ⟦{歯科|しか}→歯科：11072_shika⟧: dentistry — the field of medicine dealing with teeth\n- ⟦{抜糸|ばっし}→抜糸：17775_basshi⟧: removal of stitches — a homophone with a completely different meaning",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "23503_oyashirazu",
+      "reading": "おやしらず",
+      "headword": "{親知|おやし}らず",
+      "label": "wisdom tooth"
+    },
+    {
+      "type": "related",
+      "target_id": "00299_mushiba",
+      "reading": "むしば",
+      "headword": "{虫歯|むしば}",
+      "label": "cavity, tooth decay"
+    },
+    {
+      "type": "related",
+      "target_id": "11072_shika",
+      "reading": "しか",
+      "headword": "{歯科|しか}",
+      "label": "dentistry"
+    },
+    {
+      "type": "homophone",
+      "target_id": "17775_basshi",
+      "reading": "ばっし",
+      "headword": "{抜糸|ばっし}",
+      "label": "removal of stitches"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,10 +92,11 @@
       "domain": [
         "medical"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-04-01T16:17:15Z",
-    "modified": "2026-07-29T00:24:28Z"
+    "modified": "2026-09-02T04:02:02Z"
   },
   "conjugation": {
     "type": "suru",

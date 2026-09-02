@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "30682_soushinaito_ex1",
-      "japanese": "{早|はや}く{寝|ね}なさい。そうしないと{眠|ねむ}くなるよ。",
+      "japanese": "⟦{早|はや}く→早い：00514_hayai⟧⟦{寝|ね}→寝る：00470_neru⟧⟦なさい→なさる：01307_nasaru⟧。そうしないと⟦{眠|ねむ}く→眠い：00872_nemui⟧⟦なる→なる：01970_naru⟧⟦よ→よ：09475_yo⟧。",
       "english": "Go to bed early. Otherwise you'll be sleepy.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "30682_soushinaito_ex2",
-      "japanese": "{先|さき}に{予約|よやく}しておこう。そうしないと{席|せき}が{取|と}れない。",
+      "japanese": "⟦{先|さき}→先：02883_saki⟧⟦に→に：00314_ni⟧⟦{予約|よやく}して→予約する：22989_yoyakusuru⟧おこう。そうしないと⟦{席|せき}→席：02215_seki⟧⟦が→が：00051_ga⟧⟦{取|と}れない→取れる：02376_toreru⟧。",
       "english": "Let's book ahead. Otherwise we won't get a table.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "30682_soushinaito_ex3",
-      "japanese": "{毎日|まいにち}{少|すこ}しずつ{片|かた}づけたほうがいい。そうしないと{結局|けっきょく}{週末|しゅうまつ}が{全部|ぜんぶ}つぶれてしまう。",
+      "japanese": "⟦{毎日|まいにち}→毎日：00729_mainichi⟧⟦{少|すこ}し→少し：00596_sukoshi⟧⟦ずつ→〜ずつ：03092_zutsu⟧{片|かた}づけた⟦ほうがいい→ほうがいい：10078_hougaii⟧。そうしないと⟦{結局|けっきょく}→結局：03815_kekkyoku⟧⟦{週末|しゅうまつ}→週末：03030_shuumatsu⟧⟦が→が：00051_ga⟧⟦{全部|ぜんぶ}→全部：02888_zenbu⟧⟦つぶれ→つぶる：29078_tsuburu⟧てしまう。",
       "english": "You should tidy up a little every day. Otherwise you'll end up losing the whole weekend to it.",
       "sense_numbers": [
         1
@@ -43,7 +43,7 @@
       "notes": null
     }
   ],
-  "notes": "そう (that way) + しない (do not do) + と (conditional): \"if you don't do that.\" Because it contains a verb, it points back to an action, not to a state.\n\nPATTERN:\n[suggestion or instruction]。そうしないと [unwanted result]。\n\nSIMILAR WORDS:\n- そうでないと: if that is not the case — points back to a state or situation rather than an action\n- じゃないと: casual and contracted; used after nouns as well ({大人|おとな}じゃないと{入|はい}れない)\n- さもないと: the same warning in a more dramatic, literary register",
+  "notes": "そう (that way) + ⟦しない→する：00392_suru⟧ (do not do) + ⟦と→と：00512_to⟧ (conditional): \"if you don't do that.\" Because it contains a verb, it points back to an action, not to a state.\n\nCOMMON PATTERNS:\n[suggestion or instruction]。そうしないと [unwanted result]。\n\nSIMILAR WORDS:\n- そう⟦でないと→でないと：30684_denaito⟧: if that is not the case — points back to a state or situation rather than an action\n- ⟦じゃないと→じゃないと：30683_janaito⟧: casual and contracted; used after nouns as well (⟦{大人|おとな}→大人：02856_otona⟧⟦じゃないと→じゃないと：30683_janaito⟧⟦{入|はい}れない→入る：00494_hairu⟧)\n- ⟦さもないと→さもないと：06942_samonaito⟧: the same warning in a more dramatic, literary register",
   "cross_references": [
     {
       "type": "related",
@@ -51,6 +51,20 @@
       "reading": "さもないと",
       "headword": "さもないと",
       "label": "otherwise; or else"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30683_janaito",
+      "reading": "じゃないと",
+      "headword": "じゃないと",
+      "label": "casual and contracted"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30681_samonakereba",
+      "reading": "さもなければ",
+      "headword": "さもなければ",
+      "label": "otherwise"
     }
   ],
   "schema_version": "2.0",
@@ -68,6 +82,6 @@
       "domain": []
     },
     "created": "2026-08-16T06:19:38Z",
-    "modified": "2026-08-16T06:19:38Z"
+    "modified": "2026-09-02T04:02:41Z"
   }
 }

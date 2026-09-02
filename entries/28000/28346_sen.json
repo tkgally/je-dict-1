@@ -15,41 +15,67 @@
   "examples": [
     {
       "id": "28346_sen_ex1",
-      "japanese": "{今夜|こんや}は{決勝|けっしょう}{戦|せん}がある。",
+      "japanese": "⟦{今夜|こんや}→今夜：01411_konya⟧⟦は→は：00079_ha⟧⟦{決勝|けっしょう}{戦|せん}→決勝戦：09244_kesshousen⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "The final match is tonight.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28346_sen_ex2",
-      "japanese": "{将棋|しょうぎ}の{名人|めいじん}{戦|せん}が{始|はじ}まった。",
+      "japanese": "⟦{将棋|しょうぎ}→将棋：04172_shougi⟧⟦の→の：09472_no⟧⟦{名人|めいじん}→名人：03753_meijin⟧{戦|せん}⟦が→が：00051_ga⟧⟦{始|はじ}まった→始まる：00841_hajimaru⟧。",
       "english": "The shogi Meijin championship has begun.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28346_sen_ex3",
-      "japanese": "{今回|こんかい}の{選挙|せんきょ}{戦|せん}は{予想以上|よそういじょう}に{激|はげ}しくなりそうだ。",
+      "japanese": "⟦{今回|こんかい}→今回：01409_konkai⟧⟦の→の：09472_no⟧⟦{選挙|せんきょ}→選挙：03303_senkyo⟧{戦|せん}⟦は→は：00079_ha⟧{予想以上|よそういじょう}⟦に→に：00314_ni⟧⟦{激|はげ}しく→激しい：02348_hageshii⟧⟦なり→なる：01970_naru⟧そうだ。",
       "english": "This election campaign looks like it will be more intense than expected.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Suffix forming compound nouns for individual matches, tournaments, or campaigns. Highly productive across sports, games, and politics. The base noun usually names the type or stage of the contest.\n\nCOMMON COMPOUNDS:\n- {決勝|けっしょう}{戦|せん}: final match\n- {準決勝|じゅんけっしょう}{戦|せん}: semifinal\n- {名人|めいじん}{戦|せん}: Meijin tournament (shogi/go title match)\n- {対|たい}{戦|せん}: head-to-head match\n- {選挙|せんきょ}{戦|せん}: election campaign\n- {延長|えんちょう}{戦|せん}: extra innings; overtime\n- {持久|じきゅう}{戦|せん}: war of attrition; endurance contest\n- {接|せっ}{戦|せん}: close match\n\nSIMILAR WORDS:\n- {試合|しあい}: match — the stand-alone noun for a single sports match\n- 〜{杯|はい}: cup (suffix) — names a trophy or tournament series ({日本|にほん}{杯|はい})\n- {大会|たいかい}: tournament — refers to the whole event, not a single match",
+  "notes": "Suffix forming compound nouns for individual matches, tournaments, or campaigns. Highly productive across sports, games, and politics. The base noun usually names the type or stage of the contest.\n\nCOMPOUNDS:\n- ⟦{決勝|けっしょう}{戦|せん}→決勝戦：09244_kesshousen⟧: final match\n- {準決勝|じゅんけっしょう}{戦|せん}: semifinal\n- ⟦{名人|めいじん}→名人：03753_meijin⟧{戦|せん}: Meijin tournament (shogi/go title match)\n- ⟦{対|たい}{戦|せん}→対戦：15338_taisen⟧: head-to-head match\n- ⟦{選挙|せんきょ}→選挙：03303_senkyo⟧{戦|せん}: election campaign\n- ⟦{延長|えんちょう}{戦|せん}→延長戦：06540_enchousen⟧: extra innings; overtime\n- {持久|じきゅう}{戦|せん}: war of attrition; endurance contest\n- ⟦{接|せっ}{戦|せん}→接戦：08176_sessen⟧: close match\n\nSIMILAR WORDS:\n- ⟦{試合|しあい}→試合：01601_shiai⟧: match — the stand-alone noun for a single sports match\n- 〜⟦{杯|はい}→杯：00933_hai⟧: cup (suffix) — names a trophy or tournament series (⟦{日本|にほん}→日本：03876_nihon⟧⟦{杯|はい}→杯：00933_hai⟧)\n- ⟦{大会|たいかい}→大会：03386_taikai⟧: tournament — refers to the whole event, not a single match",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01601_shiai",
+      "reading": "しあい",
+      "headword": "{試合|しあい}",
+      "label": "match"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03386_taikai",
+      "reading": "たいかい",
+      "headword": "{大会|たいかい}",
+      "label": "tournament"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["suffix"],
+      "pos": [
+        "suffix"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["sports"],
+      "politeness": "plain",
+      "semantic": [
+        "sports"
+      ],
       "domain": []
     },
     "created": "2026-05-29T03:08:25Z",
-    "modified": "2026-05-29T03:08:25Z"
+    "modified": "2026-09-02T04:02:33Z"
   }
 }

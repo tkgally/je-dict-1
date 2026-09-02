@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "11824_kouryoku_ex1",
-      "japanese": "この{薬|くすり}は{効力|こうりょく}がある。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{薬|くすり}→薬：00793_kusuri⟧⟦は→は：00079_ha⟧{効力|こうりょく}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "This medicine is effective.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11824_kouryoku_ex2",
-      "japanese": "{契約|けいやく}の{効力|こうりょく}は{来月|らいげつ}から{発生|はっせい}する。",
+      "japanese": "⟦{契約|けいやく}→契約：02698_keiyaku⟧⟦の→の：09472_no⟧{効力|こうりょく}⟦は→は：00079_ha⟧⟦{来月|らいげつ}→来月：00744_raigetsu⟧⟦から→から：00504_kara⟧⟦{発生|はっせい}する→発生する：25529_hasseisuru⟧。",
       "english": "The contract takes effect starting next month.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11824_kouryoku_ex3",
-      "japanese": "この{法律|ほうりつ}はすでに{効力|こうりょく}を{失|うしな}っている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{法律|ほうりつ}→法律：01722_houritsu⟧⟦は→は：00079_ha⟧すでに{効力|こうりょく}⟦を→を：00422_wo⟧⟦{失|うしな}っている→失う：01887_ushinau⟧。",
       "english": "This law has already lost its validity.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "Commonly used in legal, regulatory, and pharmaceutical contexts. Compared to {効果|こうか} (effect, result), {効力|こうりょく} emphasizes the inherent power or force something possesses, especially in an official or binding sense.\n\nCOMMON COLLOCATIONS:\n・{効力|こうりょく}がある — to be effective, to be valid\n・{効力|こうりょく}を{失|うしな}う — to lose validity/efficacy\n・{効力|こうりょく}を{発揮|はっき}する — to exert its effect\n・{効力|こうりょく}が{発生|はっせい}する — to take effect\n・{法的|ほうてき}{効力|こうりょく} — legal force/validity",
+  "notes": "Commonly used in legal, regulatory, and pharmaceutical contexts. Compared to ⟦{効果|こうか}→効果：02726_kouka⟧ (effect, result), {効力|こうりょく} emphasizes the inherent power or force something possesses, especially in an official or binding sense.\n\nCOMMON COLLOCATIONS:\n- {効力|こうりょく}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧ — to be effective, to be valid\n- {効力|こうりょく}⟦を→を：00422_wo⟧⟦{失|うしな}う→失う：01887_ushinau⟧ — to lose validity/efficacy\n- {効力|こうりょく}⟦を→を：00422_wo⟧⟦{発揮|はっき}する→発揮する：17267_hakkisuru⟧ — to exert its effect\n- {効力|こうりょく}⟦が→が：00051_ga⟧⟦{発生|はっせい}する→発生する：25529_hasseisuru⟧ — to take effect\n- ⟦{法的|ほうてき}→法的：13300_houteki⟧{効力|こうりょく} — legal force/validity",
   "cross_references": [
     {
       "type": "contrast",
@@ -46,18 +52,31 @@
       "reading": "こうか",
       "headword": "{効果|こうか}",
       "label": "effect, result"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19884_kikime",
+      "reading": "ききめ",
+      "headword": "{効|き}き{目|め}",
+      "label": "effect"
     }
   ],
   "metadata": {
     "created": "2026-02-18T12:22:23Z",
-    "modified": "2026-04-25T09:21:10Z",
+    "modified": "2026-09-02T04:01:26Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["legal"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "legal"
+      ]
     }
   }
 }

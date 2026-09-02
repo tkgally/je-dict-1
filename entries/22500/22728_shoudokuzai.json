@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22728_shoudokuzai_ex1",
-      "japanese": "{傷口|きずぐち}に{消毒剤|しょうどくざい}を{塗|ぬ}った。",
+      "japanese": "⟦{傷口|きずぐち}→傷口：09517_kizuguchi⟧⟦に→に：00314_ni⟧{消毒剤|しょうどくざい}⟦を→を：00422_wo⟧⟦{塗|ぬ}った→塗る：01174_nuru⟧。",
       "english": "I applied antiseptic to the wound.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22728_shoudokuzai_ex2",
-      "japanese": "{入口|いりぐち}に{消毒剤|しょうどくざい}が{置|お}いてある。",
+      "japanese": "{入口|いりぐち}⟦に→に：00314_ni⟧{消毒剤|しょうどくざい}⟦が→が：00051_ga⟧⟦{置|お}いてある→置く：01092_oku⟧。",
       "english": "There is disinfectant placed at the entrance.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22728_shoudokuzai_ex3",
-      "japanese": "{病院|びょういん}では{消毒剤|しょうどくざい}を{使|つか}って{器具|きぐ}を{清潔|せいけつ}に{保|たも}っている。",
+      "japanese": "⟦{病院|びょういん}→病院：00577_byouin⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧{消毒剤|しょうどくざい}⟦を→を：00422_wo⟧⟦{使|つか}って→使う：00473_tsukau⟧⟦{器具|きぐ}→器具：03980_kigu⟧⟦を→を：00422_wo⟧⟦{清潔|せいけつ}→清潔：01583_seiketsu⟧⟦に→に：00314_ni⟧⟦{保|たも}っている→保つ：10134_tamotsu⟧。",
       "english": "Hospitals use disinfectant to keep instruments clean.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {消毒|しょうどく} (disinfection, sterilization) + {剤|ざい} (agent, preparation). Became an everyday term during the COVID-19 pandemic, when hand sanitizers and surface disinfectants became ubiquitous in public spaces across Japan.\n\nCOMMON COLLOCATIONS:\n- {消毒剤|しょうどくざい}で{拭|ふ}く: to wipe with disinfectant\n- {消毒剤|しょうどくざい}を{噴霧|ふんむ}する: to spray disinfectant\n- アルコール{消毒剤|しょうどくざい}: alcohol-based disinfectant\n- {手指|しゅし}{消毒剤|しょうどくざい}: hand sanitizer\n\nSIMILAR WORDS:\n- {殺菌剤|さっきんざい}: germicide, bactericide — focuses on killing bacteria, while {消毒剤|しょうどくざい} focuses on making something safe from infection\n- {除菌|じょきん}スプレー: antibacterial spray — a consumer product term\n- {消毒液|しょうどくえき}: disinfectant solution — specifically a liquid form",
+  "notes": "A compound of ⟦{消毒|しょうどく}→消毒：07591_shoudoku⟧ (disinfection, sterilization) + ⟦{剤|ざい}→〜剤：30790_zai⟧ (agent, preparation). Became an everyday term during the COVID-19 pandemic, when hand sanitizers and surface disinfectants became ubiquitous in public spaces across Japan.\n\nCOMMON COLLOCATIONS:\n- {消毒剤|しょうどくざい}⟦で→で：00502_de⟧⟦{拭|ふ}く→拭く：04261_fuku⟧: to wipe with disinfectant\n- {消毒剤|しょうどくざい}⟦を→を：00422_wo⟧⟦{噴霧|ふんむ}→噴霧：21104_funmu⟧⟦する→する：00392_suru⟧: to spray disinfectant\n- ⟦アルコール→アルコール：01771_arukooru⟧{消毒剤|しょうどくざい}: alcohol-based disinfectant\n- {手指|しゅし}{消毒剤|しょうどくざい}: hand sanitizer\n\nSIMILAR WORDS:\n- ⟦{殺菌剤|さっきんざい}→殺菌剤：22726_sakkinzai⟧: germicide, bactericide — focuses on killing bacteria, while {消毒剤|しょうどくざい} focuses on making something safe from infection\n- ⟦{除菌|じょきん}→除菌：07789_jokin⟧⟦スプレー→スプレー：11581_supuree⟧: antibacterial spray — a consumer product term\n- {消毒液|しょうどくえき}: disinfectant solution — specifically a liquid form",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22726_sakkinzai",
+      "reading": "さっきんざい",
+      "headword": "{殺菌剤|さっきんざい}",
+      "label": "germicide, bactericide"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,6 +70,6 @@
       "politeness": "plain"
     },
     "created": "2026-04-07T12:43:02Z",
-    "modified": "2026-08-01T06:41:09Z"
+    "modified": "2026-09-02T04:02:09Z"
   }
 }

@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "07107_seibutsugaku_ex1",
-      "japanese": "{大学|だいがく}で{生物学|せいぶつがく}を{専攻|せんこう}している。",
+      "japanese": "⟦{大学|だいがく}→大学：00608_daigaku⟧⟦で→で：00502_de⟧{生物学|せいぶつがく}⟦を→を：00422_wo⟧⟦{専攻|せんこう}→専攻：01587_senkou⟧⟦している→する：00392_suru⟧。",
       "english": "I'm majoring in biology at university.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "07107_seibutsugaku_ex2",
-      "japanese": "{分子|ぶんし}{生物学|せいぶつがく}の{研究|けんきゅう}が{進|すす}んでいる。",
+      "japanese": "⟦{分子|ぶんし}→分子：11769_bunshi⟧{生物学|せいぶつがく}⟦の→の：09472_no⟧⟦{研究|けんきゅう}→研究：01396_kenkyuu⟧⟦が→が：00051_ga⟧⟦{進|すす}んでいる→進む：01225_susumu⟧。",
       "english": "Research in molecular biology is advancing.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "07107_seibutsugaku_ex3",
-      "japanese": "{生物学|せいぶつがく}は{医学|いがく}の{基礎|きそ}となる{学問|がくもん}だ。",
+      "japanese": "{生物学|せいぶつがく}⟦は→は：00079_ha⟧⟦{医学|いがく}→医学：01301_igaku⟧⟦の→の：09472_no⟧⟦{基礎|きそ}→基礎：03981_kiso⟧⟦と→と：00512_to⟧⟦なる→なる：01970_naru⟧⟦{学問|がくもん}→学問：02604_gakumon⟧だ。",
       "english": "Biology is a foundational discipline for medicine.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "BRANCHES OF BIOLOGY:\n・{分子|ぶんし}{生物学|せいぶつがく} (molecular biology)\n・{細胞|さいぼう}{生物学|せいぶつがく} (cell biology)\n・{進化|しんか}{生物学|せいぶつがく} (evolutionary biology)\n・{海洋|かいよう}{生物学|せいぶつがく} (marine biology)\n・{微生物学|びせいぶつがく} (microbiology)\n\nRELATED SCIENCES:\n・{化学|かがく} (chemistry)\n・{物理学|ぶつりがく} (physics)\n・{医学|いがく} (medicine)\n・{薬学|やくがく} (pharmacology)\n\nCOMMON COLLOCATIONS:\n・{生物学|せいぶつがく}を{学|まな}ぶ (to study biology)\n・{生物学|せいぶつがく}の{教科書|きょうかしょ} (biology textbook)\n・{生物学者|せいぶつがくしゃ} (biologist)",
+  "notes": "BRANCHES OF BIOLOGY:\n- ⟦{分子|ぶんし}→分子：11769_bunshi⟧{生物学|せいぶつがく} (molecular biology)\n- ⟦{細胞|さいぼう}→細胞：05030_saibou⟧{生物学|せいぶつがく} (cell biology)\n- ⟦{進化|しんか}→進化：06029_shinka⟧{生物学|せいぶつがく} (evolutionary biology)\n- ⟦{海洋|かいよう}→海洋：00143_kaiyou⟧{生物学|せいぶつがく} (marine biology)\n- ⟦{微生物学|びせいぶつがく}→微生物学：27692_biseibutsugaku⟧ (microbiology)\n\nRELATED SCIENCES:\n- ⟦{化学|かがく}→化学：05336_kagaku_chem⟧ (chemistry)\n- ⟦{物理学|ぶつりがく}→物理学：09631_butsurigaku⟧ (physics)\n- ⟦{医学|いがく}→医学：01301_igaku⟧ (medicine)\n- ⟦{薬学|やくがく}→薬学：19156_yakugaku⟧ (pharmacology)\n\nCOMMON COLLOCATIONS:\n- {生物学|せいぶつがく}⟦を→を：00422_wo⟧⟦{学|まな}ぶ→学ぶ：01987_manabu⟧ (to study biology)\n- {生物学|せいぶつがく}⟦の→の：09472_no⟧⟦{教科書|きょうかしょ}→教科書：01085_kyoukasho⟧ (biology textbook)\n- {生物学者|せいぶつがくしゃ} (biologist)",
   "cross_references": [
     {
       "type": "related",
@@ -58,11 +58,32 @@
       "headword": "{化学|かがく}",
       "label": "chemistry",
       "target_id": "05336_kagaku_chem"
+    },
+    {
+      "type": "related",
+      "target_id": "09631_butsurigaku",
+      "reading": "ぶつりがく",
+      "headword": "{物理学|ぶつりがく}",
+      "label": "physics"
+    },
+    {
+      "type": "related",
+      "target_id": "01301_igaku",
+      "reading": "いがく",
+      "headword": "{医学|いがく}",
+      "label": "medicine"
+    },
+    {
+      "type": "related",
+      "target_id": "19156_yakugaku",
+      "reading": "やくがく",
+      "headword": "{薬学|やくがく}",
+      "label": "pharmacology"
     }
   ],
   "metadata": {
     "created": "2026-01-18T23:16:50Z",
-    "modified": "2026-08-10T06:41:18Z",
+    "modified": "2026-09-02T04:01:10Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

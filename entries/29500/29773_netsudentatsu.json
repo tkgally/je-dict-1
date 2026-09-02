@@ -15,41 +15,62 @@
   "examples": [
     {
       "id": "29773_netsudentatsu_ex1",
-      "japanese": "{金属|きんぞく}は{熱伝達|ねつでんたつ}が{速|はや}い。",
+      "japanese": "⟦{金属|きんぞく}→金属：02645_kinzoku⟧⟦は→は：00079_ha⟧{熱伝達|ねつでんたつ}⟦が→が：00051_ga⟧⟦{速|はや}い→速い：00514_hayai⟧。",
       "english": "Metals transfer heat quickly.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29773_netsudentatsu_ex2",
-      "japanese": "{熱伝達|ねつでんたつ}の{効率|こうりつ}を{上|あ}げる{設計|せっけい}が{求|もと}められる。",
+      "japanese": "{熱伝達|ねつでんたつ}⟦の→の：09472_no⟧⟦{効率|こうりつ}→効率：11794_kouritsu⟧⟦を→を：00422_wo⟧⟦{上|あ}げる→上げる：02443_ageru⟧⟦{設計|せっけい}→設計：03300_sekkei⟧⟦が→が：00051_ga⟧⟦{求|もと}められる→求める：02316_motomeru⟧。",
       "english": "A design that improves the efficiency of heat transfer is called for.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29773_netsudentatsu_ex3",
-      "japanese": "エアコンは{空気|くうき}と{冷媒|れいばい}の{間|あいだ}の{熱伝達|ねつでんたつ}を{利用|りよう}している。",
+      "japanese": "⟦エアコン→エアコン：05282_eakon⟧⟦は→は：00079_ha⟧⟦{空気|くうき}→空気：01390_kuuki⟧⟦と→と：00512_to⟧⟦{冷媒|れいばい}→冷媒：29775_reibai⟧⟦の→の：09472_no⟧⟦{間|あいだ}→間：00914_aida⟧⟦の→の：09472_no⟧{熱伝達|ねつでんたつ}⟦を→を：00422_wo⟧⟦{利用|りよう}している→利用する：21735_riyousuru⟧。",
       "english": "Air conditioners make use of heat transfer between the air and the refrigerant.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Formed from {熱|ねつ} (heat) + {伝達|でんたつ} (transmission, conveyance). A core term in thermodynamics and heat engineering.\n\nCOMMON COLLOCATIONS:\n- {熱伝達|ねつでんたつ}{率|りつ}: heat transfer coefficient\n- {熱伝達|ねつでんたつ}が{良|よ}い: to have good heat transfer\n\nSIMILAR WORDS:\n- {熱伝導|ねつでんどう}: heat conduction — specifically the transfer of heat within or through a solid; {熱伝達|ねつでんたつ} more often refers to exchange between a surface and a fluid.",
+  "notes": "Formed from ⟦{熱|ねつ}→熱：01690_netsu⟧ (heat) + ⟦{伝達|でんたつ}→伝達：11570_dentatsu⟧ (transmission, conveyance). A core term in thermodynamics and heat engineering.\n\nCOMMON COLLOCATIONS:\n- {熱伝達|ねつでんたつ}⟦{率|りつ}→率：03802_ritsu⟧: heat transfer coefficient\n- {熱伝達|ねつでんたつ}⟦が→が：00051_ga⟧⟦{良|よ}い→良い：02350_yoi⟧: to have good heat transfer\n\nSIMILAR WORDS:\n- ⟦{熱伝導|ねつでんどう}→熱伝導：23583_netsudendou⟧: heat conduction — specifically the transfer of heat within or through a solid; {熱伝達|ねつでんたつ} more often refers to exchange between a surface and a fluid.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23583_netsudendou",
+      "reading": "ねつでんどう",
+      "headword": "{熱伝導|ねつでんどう}",
+      "label": "heat conduction"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["science"],
-      "domain": ["technical"]
+      "politeness": "plain",
+      "semantic": [
+        "science"
+      ],
+      "domain": [
+        "technical"
+      ]
     },
     "created": "2026-07-11T00:20:19Z",
-    "modified": "2026-07-11T00:20:19Z"
+    "modified": "2026-09-02T04:02:37Z"
   }
 }

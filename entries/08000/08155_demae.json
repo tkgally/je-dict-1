@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08155_demae_ex1",
-      "japanese": "{寿司|すし}の{出前|でまえ}を{頼|たの}む。",
+      "japanese": "⟦{寿司|すし}→寿司：04946_sushi⟧⟦の→の：09472_no⟧{出前|でまえ}⟦を→を：00422_wo⟧⟦{頼|たの}む→頼む：01104_tanomu⟧。",
       "english": "To order sushi delivery.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "08155_demae_ex2",
-      "japanese": "{出前|でまえ}は{無料|むりょう}ですか。",
+      "japanese": "{出前|でまえ}⟦は→は：00079_ha⟧⟦{無料|むりょう}→無料：01662_muryou⟧です⟦か→か：09473_ka⟧。",
       "english": "Is delivery free?",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "08155_demae_ex3",
-      "japanese": "{雨|あめ}の{日|ひ}は{出前|でまえ}を{取|と}ることが{多|おお}い。",
+      "japanese": "⟦{雨|あめ}→雨：00583_ame⟧⟦の→の：09472_no⟧⟦{日|ひ}→日：02249_hi⟧⟦は→は：00079_ha⟧{出前|でまえ}⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧こと⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "I often order delivery on rainy days.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
     },
     {
       "id": "08155_demae_ex4",
-      "japanese": "この{店|みせ}は{出前|でまえ}もやっていますか。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{店|みせ}→店：00497_mise⟧⟦は→は：00079_ha⟧{出前|でまえ}⟦も→も：00484_mo⟧⟦やっています→やる：02980_yaru⟧⟦か→か：09473_ka⟧。",
       "english": "Does this restaurant also do delivery?",
       "sense_numbers": [
         1
@@ -54,7 +54,7 @@
     },
     {
       "id": "08155_demae_ex5",
-      "japanese": "{忙|いそが}しいときは{出前|でまえ}で{済|す}ませることが{多|おお}い。",
+      "japanese": "⟦{忙|いそが}しい→忙しい：00591_isogashii⟧とき⟦は→は：00079_ha⟧{出前|でまえ}⟦で→で：00502_de⟧⟦{済|す}ませる→済む：01950_sumu⟧こと⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "When I'm busy, I often just get delivery.",
       "sense_numbers": [
         1
@@ -63,7 +63,7 @@
       "notes": null
     }
   ],
-  "notes": "COMMON PATTERNS:\n- {出前|でまえ}を{頼|たの}む (to order delivery)\n- {出前|でまえ}を{取|と}る (to get delivery)\n- {出前|でまえ}をする (to do delivery - from restaurant's perspective)\n\nRELATED WORDS:\n- デリバリー (delivery - loanword)\n- {宅配|たくはい} (home delivery - broader term)\n- {配達|はいたつ} (delivery - general)\n- {持|も}ち{帰|かえ}り (takeout)\n\nCULTURAL NOTE:\nTraditional {出前|でまえ} in Japan often involves food being delivered on reusable dishes (like soba delivery), which are later collected. Modern delivery apps have made {出前|でまえ} more common, often using the term デリバリー.\n\n{出前|でまえ}{一丁|いっちょう}! is a traditional call meaning 'One delivery coming up!'",
+  "notes": "COMMON PATTERNS:\n- {出前|でまえ}⟦を→を：00422_wo⟧⟦{頼|たの}む→頼む：01104_tanomu⟧ (to order delivery)\n- {出前|でまえ}⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧ (to get delivery)\n- {出前|でまえ}⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧ (to do delivery - from restaurant's perspective)\n\nRELATED WORDS:\n- ⟦デリバリー→デリバリー：06181_deribarii⟧ (delivery - loanword)\n- ⟦{宅配|たくはい}→宅配：09571_takuhai⟧ (home delivery - broader term)\n- ⟦{配達|はいたつ}→配達：00084_haitatsu⟧ (delivery - general)\n- ⟦{持|も}ち{帰|かえ}り→持ち帰り：08161_mochikaeri⟧ (takeout)\n\nCULTURAL NOTE:\nTraditional {出前|でまえ} in Japan often involves food being delivered on reusable dishes (like soba delivery), which are later collected. Modern delivery apps have made {出前|でまえ} more common, often using the term ⟦デリバリー→デリバリー：06181_deribarii⟧.\n\n{出前|でまえ}{一丁|いっちょう}! is a traditional call meaning 'One delivery coming up!'",
   "cross_references": [
     {
       "type": "contrast",
@@ -85,6 +85,20 @@
       "reading": "はいたつ",
       "headword": "{配達|はいたつ}",
       "label": "delivery (general)"
+    },
+    {
+      "type": "related",
+      "target_id": "06181_deribarii",
+      "reading": "でりばりー",
+      "headword": "デリバリー",
+      "label": "delivery"
+    },
+    {
+      "type": "related",
+      "target_id": "09833_takuhaipiza",
+      "reading": "たくはいぴざ",
+      "headword": "{宅配|たくはい}ピザ",
+      "label": "delivery pizza"
     }
   ],
   "metadata": {
@@ -94,12 +108,13 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "food",
         "service"
       ]
     },
     "created": "2026-01-25T07:33:27Z",
-    "modified": "2026-04-20T05:05:12Z"
+    "modified": "2026-09-02T04:01:14Z"
   }
 }

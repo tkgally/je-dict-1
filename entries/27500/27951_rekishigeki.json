@@ -15,41 +15,61 @@
   "examples": [
     {
       "id": "27951_rekishigeki_ex1",
-      "japanese": "{歴史劇|れきしげき}が{好|す}きだ。",
+      "japanese": "{歴史劇|れきしげき}⟦が→が：00051_ga⟧⟦{好|す}き→好き：02355_suki⟧だ。",
       "english": "I like historical dramas.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27951_rekishigeki_ex2",
-      "japanese": "この{歴史劇|れきしげき}は{戦国|せんごく}{時代|じだい}が{舞台|ぶたい}だ。",
+      "japanese": "⟦この→この：00962_kono⟧{歴史劇|れきしげき}⟦は→は：00079_ha⟧⟦{戦国|せんごく}{時代|じだい}→戦国時代：19200_sengokujidai⟧⟦が→が：00051_ga⟧⟦{舞台|ぶたい}→舞台：03606_butai⟧だ。",
       "english": "This historical drama is set in the Warring States period.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27951_rekishigeki_ex3",
-      "japanese": "{歴史劇|れきしげき}は{史実|しじつ}をもとにしながらも、{物語|ものがたり}として{脚色|きゃくしょく}されている。",
+      "japanese": "{歴史劇|れきしげき}⟦は→は：00079_ha⟧⟦{史実|しじつ}→史実：12037_shijitsu⟧⟦を→を：00422_wo⟧もとにし⟦ながら→ながら：10530_nagara⟧⟦も→も：00484_mo⟧、⟦{物語|ものがたり}→物語：03634_monogatari⟧⟦として→として：06802_toshite⟧⟦{脚色|きゃくしょく}→脚色：18162_kyakushoku⟧⟦されている→する：00392_suru⟧。",
       "english": "Historical dramas are based on historical fact but are dramatized into a story.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Compound of {歴史|れきし} (history) + {劇|げき} (play, drama). Covers stage plays as well as film and television set in the past.\n\nCOMMON COLLOCATIONS:\n- {歴史劇|れきしげき}を{上演|じょうえん}する: to stage a historical drama\n\nSIMILAR WORDS:\n- {時代劇|じだいげき}: period drama — specifically pre-Meiji (samurai-era) Japanese settings\n- {大河|たいが}ドラマ: NHK's year-long historical drama series",
+  "notes": "Compound of ⟦{歴史|れきし}→歴史：02267_rekishi⟧ (history) + ⟦{劇|げき}→劇：02713_geki⟧ (play, drama). Covers stage plays as well as film and television set in the past.\n\nCOMMON COLLOCATIONS:\n- {歴史劇|れきしげき}⟦を→を：00422_wo⟧⟦{上演|じょうえん}→上演：11297_jouen⟧⟦する→する：00392_suru⟧: to stage a historical drama\n\nSIMILAR WORDS:\n- ⟦{時代劇|じだいげき}→時代劇：12968_jidaigeki⟧: period drama — specifically pre-Meiji (samurai-era) Japanese settings\n- ⟦{大河|たいが}→大河：12197_taiga⟧⟦ドラマ→ドラマ：03867_dorama⟧: NHK's year-long historical drama series",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12968_jidaigeki",
+      "reading": "じだいげき",
+      "headword": "{時代劇|じだいげき}",
+      "label": "period drama"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["media", "culture"],
+      "politeness": "plain",
+      "semantic": [
+        "media",
+        "culture"
+      ],
       "domain": []
     },
     "created": "2026-05-23T03:06:48Z",
-    "modified": "2026-05-23T03:06:48Z"
+    "modified": "2026-09-02T04:02:32Z"
   }
 }

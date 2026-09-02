@@ -3,7 +3,7 @@
   "headword": "よたよた",
   "reading": "よたよた",
   "romaji": "yotayota",
-  "part_of_speech": "adverb",
+  "part_of_speech": "adverb, onomatopoeia",
   "gloss": "tottering; staggering; unsteady on one's feet",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28826_yotayota_ex1",
-      "japanese": "よたよたと{歩|ある}いた。",
+      "japanese": "よたよた⟦と→と：00512_to⟧⟦{歩|ある}いた→歩く：00538_aruku⟧。",
       "english": "I walked unsteadily.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28826_yotayota_ex2",
-      "japanese": "{赤|あか}ちゃんがよたよたと{歩|ある}き{始|はじ}めた。",
+      "japanese": "⟦{赤|あか}ちゃん→赤ちゃん：01282_akachan⟧⟦が→が：00051_ga⟧よたよた⟦と→と：00512_to⟧⟦{歩|ある}き→歩く：00538_aruku⟧⟦{始|はじ}めた→始める：00531_hajimeru⟧。",
       "english": "The baby started tottering along.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28826_yotayota_ex3",
-      "japanese": "{疲|つか}れ{切|き}って、よたよたしながら{駅|えき}まで{帰|かえ}った。",
+      "japanese": "⟦{疲|つか}れ→疲れる：00901_tsukareru⟧⟦{切|き}って→切る：02693_kiru⟧、よたよたし⟦ながら→ながら：10530_nagara⟧⟦{駅|えき}→駅：02180_eki⟧⟦まで→まで：00490_made⟧⟦{帰|かえ}った→帰る：00508_kaeru⟧。",
       "english": "Exhausted, I made my way back to the station, staggering.",
       "sense_numbers": [
         1
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "Mimetic of unsteady walking. Used adverbially with と or by itself; also combines with する as よたよたする (to walk unsteadily).\n\nCOMMON COLLOCATIONS:\n- よたよたと{歩|ある}く: to walk unsteadily\n- よたよたする: to be unsteady on one's feet\n- よたよたの{足取|あしど}り: a wobbly, staggering gait\n\nSIMILAR WORDS:\n- よろよろ: tottering — similar but slightly less dramatic; suggests swaying\n- ふらふら: woozy; staggering — emphasizes dizziness rather than weakness\n- ヨボヨボ: feeble; decrepit — of old age, more about general frailty than a walk",
+  "notes": "Mimetic of unsteady walking. Used adverbially with ⟦と→と：00512_to⟧ or by itself; also combines with ⟦する→する：00392_suru⟧ as よたよた⟦する→する：00392_suru⟧ (to walk unsteadily).\n\nCOMMON COLLOCATIONS:\n- よたよた⟦と→と：00512_to⟧⟦{歩|ある}く→歩く：00538_aruku⟧: to walk unsteadily\n- よたよた⟦する→する：00392_suru⟧: to be unsteady on one's feet\n- よたよた⟦の→の：09472_no⟧⟦{足取|あしど}り→足取り：10625_ashidori⟧: a wobbly, staggering gait\n\nSIMILAR WORDS:\n- ⟦よろよろ→よろよろ：05368_yoroyoro⟧: tottering — similar but slightly less dramatic; suggests swaying\n- ⟦ふらふら→ふらふら：05367_furafura⟧: woozy; staggering — emphasizes dizziness rather than weakness\n- ヨボヨボ: feeble; decrepit — of old age, more about general frailty than a walk",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05368_yoroyoro",
+      "reading": "よろよろ",
+      "headword": "よろよろ",
+      "label": "tottering"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05367_furafura",
+      "reading": "ふらふら",
+      "headword": "ふらふら",
+      "label": "woozy"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05839_tobotobo",
+      "reading": "とぼとぼ",
+      "headword": "とぼとぼ",
+      "label": "trudging wearily, plodding along"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07126_hyokohyoko",
+      "reading": "ひょこひょこ",
+      "headword": "ひょこひょこ",
+      "label": "bobbing"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -54,13 +84,13 @@
         "onomatopoeia"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "movement"
       ],
       "domain": []
     },
     "created": "2026-06-06T02:07:42Z",
-    "modified": "2026-08-08T18:34:17Z"
+    "modified": "2026-09-02T04:02:35Z"
   }
 }

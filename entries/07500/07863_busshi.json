@@ -14,39 +14,86 @@
   "examples": [
     {
       "id": "07863_busshi_ex1",
-      "japanese": "{救援|きゅうえん}{物資|ぶっし}が{届|とど}いた。",
+      "japanese": "⟦{救援|きゅうえん}→救援：07864_kyuuen⟧{物資|ぶっし}⟦が→が：00051_ga⟧⟦{届|とど}いた→届く：00899_todoku⟧。",
       "english": "Relief supplies arrived.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "07863_busshi_ex2",
-      "japanese": "{被災地|ひさいち}に{物資|ぶっし}を{送|おく}った。",
+      "japanese": "⟦{被災地|ひさいち}→被災地：27434_hisaichi⟧⟦に→に：00314_ni⟧{物資|ぶっし}⟦を→を：00422_wo⟧⟦{送|おく}った→送る：00742_okuru⟧。",
       "english": "We sent supplies to the disaster area.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "07863_busshi_ex3",
-      "japanese": "{戦時中|せんじちゅう}は{物資|ぶっし}が{不足|ふそく}していた。",
+      "japanese": "⟦{戦時中|せんじちゅう}→戦時中：28629_senjichuu⟧⟦は→は：00079_ha⟧{物資|ぶっし}⟦が→が：00051_ga⟧⟦{不足|ふそく}→不足：03598_fusoku⟧⟦していた→する：00392_suru⟧。",
       "english": "There was a shortage of goods during wartime.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "{物資|ぶっし} refers to physical goods or supplies, often in contexts of relief, war, or shortages.\n\nCOMPOSITION:\n- {物|ぶつ}: Thing, object\n- {資|し}: Resources, materials\n\nCOMMON COLLOCATIONS:\n- {救援|きゅうえん}{物資|ぶっし} (relief supplies)\n- {支援|しえん}{物資|ぶっし} (aid supplies)\n- {生活|せいかつ}{物資|ぶっし} (daily necessities)\n- {軍事|ぐんじ}{物資|ぶっし} (military supplies)\n- {物資|ぶっし}の{不足|ふそく} (shortage of goods)\n- {物資|ぶっし}を{届|とど}ける (to deliver supplies)\n\nUSAGE NOTES:\n- Often appears in news about disasters, emergencies, or historical contexts\n- Has a slightly formal or journalistic tone\n\nRELATED TERMS:\n- {資材|しざい} (materials)\n- {補給|ほきゅう} (supply, replenishment)\n- {配給|はいきゅう} (distribution, rations)\n\nREGISTER: Neutral to formal. Common in news and official contexts.",
+  "notes": "{物資|ぶっし} refers to physical goods or supplies, often in contexts of relief, war, or shortages.\n\nETYMOLOGY:\n- ⟦{物|ぶつ}→〜物：28336_butsu⟧: Thing, object\n- {資|し}: Resources, materials\n\nCOMMON COLLOCATIONS:\n- ⟦{救援|きゅうえん}→救援：07864_kyuuen⟧{物資|ぶっし} (relief supplies)\n- ⟦{支援|しえん}→支援：07778_shien⟧{物資|ぶっし} (aid supplies)\n- ⟦{生活|せいかつ}→生活：01443_seikatsu⟧{物資|ぶっし} (daily necessities)\n- ⟦{軍事|ぐんじ}→軍事：14392_gunji⟧{物資|ぶっし} (military supplies)\n- {物資|ぶっし}⟦の→の：09472_no⟧⟦{不足|ふそく}→不足：03598_fusoku⟧ (shortage of goods)\n- {物資|ぶっし}⟦を→を：00422_wo⟧⟦{届|とど}ける→届ける：01248_todokeru⟧ (to deliver supplies)\n\nUSAGE:\n- Often appears in news about disasters, emergencies, or historical contexts\n- Has a slightly formal or journalistic tone\n\nRELATED WORDS:\n- ⟦{資材|しざい}→資材：19470_shizai⟧ (materials)\n- ⟦{補給|ほきゅう}→補給：14055_hokyuu⟧ (supply, replenishment)\n- ⟦{配給|はいきゅう}→配給：07881_haikyuu⟧ (distribution, rations)\n\nREGISTER: Neutral to formal. Common in news and official contexts.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "19470_shizai",
+      "reading": "しざい",
+      "headword": "{資材|しざい}",
+      "label": "materials"
+    },
+    {
+      "type": "related",
+      "target_id": "14055_hokyuu",
+      "reading": "ほきゅう",
+      "headword": "{補給|ほきゅう}",
+      "label": "supply, replenishment"
+    },
+    {
+      "type": "related",
+      "target_id": "07881_haikyuu",
+      "reading": "はいきゅう",
+      "headword": "{配給|はいきゅう}",
+      "label": "distribution, rations"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00165_kamotsu",
+      "reading": "かもつ",
+      "headword": "{貨物|かもつ}",
+      "label": "cargo"
+    },
+    {
+      "type": "related",
+      "target_id": "07589_bichiku",
+      "reading": "びちく",
+      "headword": "{備蓄|びちく}",
+      "label": "stockpile"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     },
     "created": "2026-01-21T13:22:38Z",
-    "modified": "2026-01-21T13:22:38Z"
+    "modified": "2026-09-02T04:01:13Z"
   }
 }

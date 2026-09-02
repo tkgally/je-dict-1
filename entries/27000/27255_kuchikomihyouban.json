@@ -15,41 +15,67 @@
   "examples": [
     {
       "id": "27255_kuchikomihyouban_ex1",
-      "japanese": "{口|くち}コミ{評判|ひょうばん}がいい{店|みせ}。",
+      "japanese": "{口|くち}コミ{評判|ひょうばん}⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧⟦{店|みせ}→店：00497_mise⟧。",
       "english": "A shop with good word-of-mouth reviews.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27255_kuchikomihyouban_ex2",
-      "japanese": "ネットの{口|くち}コミ{評判|ひょうばん}を{参考|さんこう}にして{選|えら}んだ。",
+      "japanese": "⟦ネット→ネット：05279_netto⟧⟦の→の：09472_no⟧{口|くち}コミ{評判|ひょうばん}⟦を→を：00422_wo⟧⟦{参考|さんこう}→参考：02828_sankou⟧にして⟦{選|えら}んだ→選ぶ：00835_erabu⟧。",
       "english": "I chose it based on the online reviews.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27255_kuchikomihyouban_ex3",
-      "japanese": "この{商品|しょうひん}は{口|くち}コミ{評判|ひょうばん}がとても{高|たか}く、すぐに{売|う}り{切|き}れてしまった。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{商品|しょうひん}→商品：01436_shouhin⟧⟦は→は：00079_ha⟧{口|くち}コミ{評判|ひょうばん}⟦が→が：00051_ga⟧⟦とても→とても：00593_totemo⟧⟦{高|たか}く→高い：00500_takai⟧、⟦すぐ→すぐ：00814_sugu⟧⟦に→に：00314_ni⟧⟦{売|う}り{切|き}れて→売り切れる：03012_urikireru⟧しまった。",
       "english": "This product had very high word-of-mouth ratings and sold out quickly.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Compound of {口|くち}コミ (word of mouth; reviews) + {評判|ひょうばん} (reputation; reviews). {口|くち}コミ itself is a blend of {口|くち} (mouth) + コミュニケーション (communication), though it is now a standalone word. In modern usage, {口|くち}コミ often refers to online reviews as much as spoken recommendations.\n\nCOMMON COLLOCATIONS:\n- {口|くち}コミ{評判|ひょうばん}が{良|よ}い: to have good reviews\n- {口|くち}コミ{評判|ひょうばん}を{調|しら}べる: to check the reviews\n- {口|くち}コミ{評判|ひょうばん}で{広|ひろ}まる: to spread through word of mouth\n\nSIMILAR WORDS:\n- {口|くち}コミ: word of mouth; reviews — the base term, used alone more often in casual speech\n- {評判|ひょうばん}: reputation; fame — the general concept of public opinion about something\n- レビュー: review — the loanword, used especially for online product and service reviews",
+  "notes": "Compound of ⟦{口|くち}コミ→口コミ：17690_kuchikomi⟧ (word of mouth; reviews) + ⟦{評判|ひょうばん}→評判：03586_hyouban⟧ (reputation; reviews). ⟦{口|くち}コミ→口コミ：17690_kuchikomi⟧ itself is a blend of ⟦{口|くち}→口：00560_kuchi⟧ (mouth) + ⟦コミュニケーション→コミュニケーション：08425_komyunikeeshon⟧ (communication), though it is now a standalone word. In modern usage, ⟦{口|くち}コミ→口コミ：17690_kuchikomi⟧ often refers to online reviews as much as spoken recommendations.\n\nCOMMON COLLOCATIONS:\n- {口|くち}コミ{評判|ひょうばん}⟦が→が：00051_ga⟧⟦{良|よ}い→良い：02350_yoi⟧: to have good reviews\n- {口|くち}コミ{評判|ひょうばん}⟦を→を：00422_wo⟧⟦{調|しら}べる→調べる：01213_shiraberu⟧: to check the reviews\n- {口|くち}コミ{評判|ひょうばん}⟦で→で：00502_de⟧⟦{広|ひろ}まる→広まる：02404_hiromaru⟧: to spread through word of mouth\n\nSIMILAR WORDS:\n- ⟦{口|くち}コミ→口コミ：17690_kuchikomi⟧: word of mouth; reviews — the base term, used alone more often in casual speech\n- ⟦{評判|ひょうばん}→評判：03586_hyouban⟧: reputation; fame — the general concept of public opinion about something\n- ⟦レビュー→レビュー：11193_rebyuu⟧: review — the loanword, used especially for online product and service reviews",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "03586_hyouban",
+      "reading": "ひょうばん",
+      "headword": "{評判|ひょうばん}",
+      "label": "reputation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11193_rebyuu",
+      "reading": "れびゅー",
+      "headword": "レビュー",
+      "label": "review"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["communication"],
+      "semantic": [
+        "communication"
+      ],
       "domain": []
     },
     "created": "2026-05-08T11:20:35Z",
-    "modified": "2026-05-08T11:20:35Z"
+    "modified": "2026-09-02T04:02:29Z"
   }
 }

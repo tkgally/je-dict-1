@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "17358_hayaban_ex1",
-      "japanese": "{明日|あした}は{早番|はやばん}だ。",
+      "japanese": "⟦{明日|あした}→明日：00501_ashita⟧⟦は→は：00079_ha⟧{早番|はやばん}だ。",
       "english": "I'm on the early shift tomorrow.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17358_hayaban_ex2",
-      "japanese": "{今週|こんしゅう}は{早番|はやばん}と{遅番|おそばん}の{交代|こうたい}だ。",
+      "japanese": "⟦{今週|こんしゅう}→今週：00721_konshuu⟧⟦は→は：00079_ha⟧{早番|はやばん}⟦と→と：00512_to⟧⟦{遅番|おそばん}→遅番：18818_osoban⟧⟦の→の：09472_no⟧⟦{交代|こうたい}→交代：14943_koutai⟧だ。",
       "english": "This week I'm alternating between early and late shifts.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17358_hayaban_ex3",
-      "japanese": "{早番|はやばん}の{日|ひ}は{朝|あさ}5{時|じ}に{起|お}きなければならない。",
+      "japanese": "{早番|はやばん}⟦の→の：09472_no⟧⟦{日|ひ}→日：02249_hi⟧⟦は→は：00079_ha⟧⟦{朝|あさ}→朝：02277_asa⟧5⟦{時|じ}→時：09869_ji⟧⟦に→に：00314_ni⟧⟦{起|お}き→起きる：00521_okiru⟧⟦なければならない→なければならない：27600_nakerebanaranai⟧。",
       "english": "On early shift days, I have to get up at 5 a.m.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nCommon in workplaces with shift systems — hospitals, convenience stores, factories, retail shops. The opposite is {遅番|おそばん} (late shift).\n\nCOMMON COLLOCATIONS:\n- {早番|はやばん}の{日|ひ} (early shift day)\n- {早番|はやばん}{勤務|きんむ} (early shift duty)\n\nSIMILAR WORDS:\n- {遅番|おそばん}: late shift — the opposite\n- {夜勤|やきん}: night shift — overnight work\n- {日勤|にっきん}: day shift — standard daytime hours",
+  "notes": "USAGE:\nCommon in workplaces with shift systems — hospitals, convenience stores, factories, retail shops. The opposite is ⟦{遅番|おそばん}→遅番：18818_osoban⟧ (late shift).\n\nCOMMON COLLOCATIONS:\n- {早番|はやばん}⟦の→の：09472_no⟧⟦{日|ひ}→日：02249_hi⟧ (early shift day)\n- {早番|はやばん}⟦{勤務|きんむ}→勤務：04545_kinmu⟧ (early shift duty)\n\nSIMILAR WORDS:\n- ⟦{遅番|おそばん}→遅番：18818_osoban⟧: late shift — the opposite\n- ⟦{夜勤|やきん}→夜勤：09549_yakin⟧: night shift — overnight work\n- ⟦{日勤|にっきん}→日勤：18684_nikkin⟧: day shift — standard daytime hours",
   "cross_references": [
     {
       "type": "antonym",
@@ -64,14 +70,18 @@
   ],
   "metadata": {
     "created": "2026-03-17T08:18:32Z",
-    "modified": "2026-05-06T07:07:17Z",
+    "modified": "2026-09-02T04:01:48Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["work"]
+      "semantic": [
+        "work"
+      ]
     }
   }
 }

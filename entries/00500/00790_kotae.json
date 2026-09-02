@@ -109,7 +109,7 @@
     },
     {
       "id": "00790_kotae_ex10",
-      "japanese": "{答|こた}え⟦は→は：00079_ha⟧「はい」⟦か→か：09473_ka⟧「いいえ」⟦で→で：00502_de⟧⟦お{願|ねが}いします→お願いします：00981_onegaishimasu⟧。",
+      "japanese": "{答|こた}え⟦は→は：00079_ha⟧「はい」⟦か→か：09473_ka⟧「⟦いいえ→いいえ：02845_iie⟧」⟦で→で：00502_de⟧⟦お{願|ねが}いします→お願いします：00981_onegaishimasu⟧。",
       "english": "Please answer with 'yes' or 'no'.",
       "notes": null,
       "has_audio": false,
@@ -133,11 +133,39 @@
       "reading": "こたえる",
       "headword": "{答|こた}える",
       "label": "verb form: to answer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00844_henji",
+      "reading": "へんじ",
+      "headword": "{返事|へんじ}",
+      "label": "reply, answer"
+    },
+    {
+      "type": "related",
+      "target_id": "03083_seikai",
+      "reading": "せいかい",
+      "headword": "{正解|せいかい}",
+      "label": "correct answer, right answer"
+    },
+    {
+      "type": "related",
+      "target_id": "05332_tashizan",
+      "reading": "たしざん",
+      "headword": "{足|た}し{算|ざん}",
+      "label": "addition"
+    },
+    {
+      "type": "related",
+      "target_id": "05333_hikizan",
+      "reading": "ひきざん",
+      "headword": "{引|ひ}き{算|ざん}",
+      "label": "subtraction"
     }
   ],
   "metadata": {
     "created": "2026-01-07T12:43:37Z",
-    "modified": "2026-08-09T00:18:11Z",
+    "modified": "2026-09-02T04:00:58Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

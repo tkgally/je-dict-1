@@ -3,7 +3,7 @@
   "headword": "{誤認|ごにん}",
   "reading": "ごにん",
   "romaji": "gonin",
-  "part_of_speech": "noun (する verb)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "misidentification",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24464_gonin_ex1",
-      "japanese": "{誤認|ごにん}{逮捕|たいほ}が{発覚|はっかく}した。",
+      "japanese": "{誤認|ごにん}⟦{逮捕|たいほ}→逮捕：03397_taiho⟧⟦が→が：00051_ga⟧⟦{発覚|はっかく}した→発覚する：15423_hakkakusuru⟧。",
       "english": "A wrongful arrest was discovered.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24464_gonin_ex2",
-      "japanese": "{本人|ほんにん}と{誤認|ごにん}して{声|こえ}をかけてしまった。",
+      "japanese": "⟦{本人|ほんにん}→本人：03627_honnin⟧⟦と→と：00512_to⟧{誤認|ごにん}⟦して→する：00392_suru⟧⟦{声|こえ}→声：02207_koe⟧⟦を→を：00422_wo⟧⟦かけて→かける：00854_kakeru⟧しまった。",
       "english": "I mistakenly thought it was the person and called out to them.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24464_gonin_ex3",
-      "japanese": "{目撃者|もくげきしゃ}の{誤認|ごにん}により、{無実|むじつ}の{人|ひと}が{容疑者|ようぎしゃ}とされた。",
+      "japanese": "⟦{目撃者|もくげきしゃ}→目撃者：09652_mokugekisha⟧⟦の→の：09472_no⟧{誤認|ごにん}⟦に→に：00314_ni⟧⟦より→より：09476_yori⟧、⟦{無実|むじつ}→無実：09504_mujitsu⟧⟦の→の：09472_no⟧⟦{人|ひと}→人：00476_hito⟧⟦が→が：00051_ga⟧⟦{容疑者|ようぎしゃ}→容疑者：15039_yougisha⟧⟦と→と：00512_to⟧⟦された→する：00392_suru⟧。",
       "english": "Due to the witness's misidentification, an innocent person was treated as a suspect.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {誤|ご} (mistake, error) + {認|にん} (recognition). A formal word indicating that someone has incorrectly identified or perceived something. Frequently appears in news reporting, especially regarding police and legal matters.\n\nCOMMON COLLOCATIONS:\n- {誤認|ごにん}{逮捕|たいほ}: wrongful arrest\n- {誤認|ごにん}{請求|せいきゅう}: billing error; mistaken claim\n- {人物|じんぶつ}{誤認|ごにん}: misidentification of a person\n- {事実|じじつ}{誤認|ごにん}: factual error\n\nSIMILAR WORDS:\n- {誤解|ごかい}: misunderstanding (about meaning or intent, more conversational)\n- {見間違|みまちが}い: seeing incorrectly, visual mistake (everyday language)\n- {勘違|かんちが}い: misunderstanding, wrong assumption (casual, common)",
+  "notes": "Composed of {誤|ご} (mistake, error) + {認|にん} (recognition). A formal word indicating that someone has incorrectly identified or perceived something. Frequently appears in news reporting, especially regarding police and legal matters.\n\nCOMMON COLLOCATIONS:\n- {誤認|ごにん}⟦{逮捕|たいほ}→逮捕：03397_taiho⟧: wrongful arrest\n- {誤認|ごにん}⟦{請求|せいきゅう}→請求：03374_seikyuu⟧: billing error; mistaken claim\n- ⟦{人物|じんぶつ}→人物：03356_jinbutsu⟧{誤認|ごにん}: misidentification of a person\n- ⟦{事実|じじつ}→事実：03271_jijitsu⟧{誤認|ごにん}: factual error\n\nSIMILAR WORDS:\n- ⟦{誤解|ごかい}→誤解：02769_gokai⟧: misunderstanding (about meaning or intent, more conversational)\n- ⟦{見間違|みまちが}い→見間違い：08582_mimachigai⟧: seeing incorrectly, visual mistake (everyday language)\n- ⟦{勘違|かんちが}い→勘違い：17609_kanchigai⟧: misunderstanding, wrong assumption (casual, common)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02769_gokai",
+      "reading": "ごかい",
+      "headword": "{誤解|ごかい}",
+      "label": "misunderstanding"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08582_mimachigai",
+      "reading": "みまちがい",
+      "headword": "{見|み}{間違|まちが}い",
+      "label": "seeing incorrectly, visual mistake"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17609_kanchigai",
+      "reading": "かんちがい",
+      "headword": "{勘違|かんちが}い",
+      "label": "misunderstanding, wrong assumption"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,6 +76,7 @@
         "noun",
         "verb-suru"
       ],
+      "politeness": "plain",
       "semantic": [
         "law",
         "abstract"
@@ -60,7 +84,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-19T11:15:59Z",
-    "modified": "2026-04-19T11:15:59Z"
+    "modified": "2026-09-02T04:02:18Z"
   },
   "conjugation": {
     "type": "suru",

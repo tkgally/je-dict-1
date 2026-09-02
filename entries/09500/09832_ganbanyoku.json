@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "09832_ganbanyoku_ex1",
-      "japanese": "{岩盤浴|がんばんよく}でたくさん{汗|あせ}をかいた。",
+      "japanese": "{岩盤浴|がんばんよく}⟦で→で：00502_de⟧⟦たくさん→たくさん：00597_takusan⟧⟦{汗|あせ}→汗：02173_ase⟧⟦を→を：00422_wo⟧かいた。",
       "english": "I sweated a lot in the hot stone bath.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "09832_ganbanyoku_ex2",
-      "japanese": "{岩盤浴|がんばんよく}は{初|はじ}めてだ。",
+      "japanese": "{岩盤浴|がんばんよく}⟦は→は：00079_ha⟧⟦{初|はじ}めて→初めて：02932_hajimete⟧だ。",
       "english": "This is my first time doing a hot stone bath.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "09832_ganbanyoku_ex3",
-      "japanese": "{岩盤浴|がんばんよく}の{後|あと}は{肌|はだ}がすべすべになる。",
+      "japanese": "{岩盤浴|がんばんよく}⟦の→の：09472_no⟧⟦{後|あと}→後：09580_ato⟧⟦は→は：00079_ha⟧⟦{肌|はだ}→肌：02243_hada⟧⟦が→が：00051_ga⟧⟦すべすべ→すべすべ：05163_subesube⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧。",
       "english": "My skin becomes smooth after a hot stone bath.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{岩盤浴|がんばんよく} is done wearing provided light clothes ({館内着|かんないぎ}) and lying on heated natural stones. It's a popular amenity at スーパー{銭湯|せんとう} and {健康|けんこう}ランド. Sessions typically last 15-20 minutes.\n\nCOMMON COLLOCATIONS:\n- {岩盤浴|がんばんよく}を{楽|たの}しむ (to enjoy hot stone bathing)\n- {岩盤浴|がんばんよく}{専用|せんよう}{着|ぎ} (hot stone bath clothing)\n- {岩盤浴|がんばんよく}エリア (hot stone bath area)\n\nRELATED TERMS:\n- サウナ: sauna\n- スーパー{銭湯|せんとう}: super bathhouse\n- デトックス: detox\n- {遠赤外線|えんせきがいせん}: far-infrared",
+  "notes": "{岩盤浴|がんばんよく} is done wearing provided light clothes ({館内着|かんないぎ}) and lying on heated natural stones. It's a popular amenity at ⟦スーパー{銭湯|せんとう}→スーパー銭湯：09831_suupaasentou⟧ and ⟦{健康|けんこう}→健康：02706_kenkou⟧ランド. Sessions typically last 15-20 minutes.\n\nCOMMON COLLOCATIONS:\n- {岩盤浴|がんばんよく}⟦を→を：00422_wo⟧⟦{楽|たの}しむ→楽しむ：01203_tanoshimu⟧ (to enjoy hot stone bathing)\n- {岩盤浴|がんばんよく}⟦{専用|せんよう}→専用：12385_senyou⟧{着|ぎ} (hot stone bath clothing)\n- {岩盤浴|がんばんよく}⟦エリア→エリア：10726_eria⟧ (hot stone bath area)\n\nRELATED WORDS:\n- ⟦サウナ→サウナ：10935_sauna⟧: sauna\n- ⟦スーパー{銭湯|せんとう}→スーパー銭湯：09831_suupaasentou⟧: super bathhouse\n- デトックス: detox\n- {遠赤外線|えんせきがいせん}: far-infrared",
   "cross_references": [
     {
       "type": "related",
@@ -51,11 +51,25 @@
       "reading": "すーぱーせんとう",
       "headword": "スーパー{銭湯|せんとう}",
       "label": "super bathhouse"
+    },
+    {
+      "type": "related",
+      "target_id": "10935_sauna",
+      "reading": "さうな",
+      "headword": "サウナ",
+      "label": "sauna"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14097_mushiburo",
+      "reading": "むしぶろ",
+      "headword": "{蒸|む}し{風呂|ぶろ}",
+      "label": "steam bath, sauna"
     }
   ],
   "metadata": {
     "created": "2026-02-03T12:23:06Z",
-    "modified": "2026-07-10T00:20:58Z",
+    "modified": "2026-09-02T04:01:19Z",
     "ai_model": "claude-opus-4-5-20251101",
     "vocabulary_tier": "general",
     "tags": {

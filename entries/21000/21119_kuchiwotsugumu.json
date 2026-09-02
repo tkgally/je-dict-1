@@ -3,7 +3,7 @@
   "headword": "{口|くち}をつぐむ",
   "reading": "くちをつぐむ",
   "romaji": "kuchiwotsugumu",
-  "part_of_speech": "expression; godan verb",
+  "part_of_speech": "expression, verb (godan)",
   "gloss": "to keep silent; to clam up; to shut one's mouth",
   "conjugation_note": "Conjugates as a godan む verb (つぐむ → つぐんで, つぐんだ, etc.)",
   "definitions": [
@@ -16,7 +16,7 @@
   "examples": [
     {
       "id": "21119_kuchiwotsugumu_ex1",
-      "japanese": "{彼|かれ}は{口|くち}をつぐんだ。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{口|くち}をつぐんだ。",
       "english": "He clamped his mouth shut.",
       "sense_numbers": [
         1
@@ -26,7 +26,7 @@
     },
     {
       "id": "21119_kuchiwotsugumu_ex2",
-      "japanese": "その{話題|わだい}になると、{皆|みな}{口|くち}をつぐむ。",
+      "japanese": "⟦その→その：00993_sono⟧⟦{話題|わだい}→話題：03793_wadai⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦と→と：00512_to⟧、{皆|みな}{口|くち}をつぐむ。",
       "english": "Everyone clams up when that topic comes up.",
       "sense_numbers": [
         1
@@ -36,7 +36,7 @@
     },
     {
       "id": "21119_kuchiwotsugumu_ex3",
-      "japanese": "{証人|しょうにん}は{裁判|さいばん}で{口|くち}をつぐんで{何|なに}も{話|はな}さなかった。",
+      "japanese": "⟦{証人|しょうにん}→証人：18845_shounin⟧⟦は→は：00079_ha⟧⟦{裁判|さいばん}→裁判：02773_saiban⟧⟦で→で：00502_de⟧{口|くち}をつぐんで⟦{何|なに}も→何も：03874_nanimo⟧⟦{話|はな}さなかった→話す：00467_hanasu⟧。",
       "english": "The witness kept silent at the trial and said nothing.",
       "sense_numbers": [
         1
@@ -46,7 +46,7 @@
     },
     {
       "id": "21119_kuchiwotsugumu_ex4",
-      "japanese": "{不正|ふせい}について{知|し}っていても、{関係者|かんけいしゃ}は{口|くち}をつぐんでいる。",
+      "japanese": "⟦{不正|ふせい}→不正：01660_fusei⟧⟦について→〜について：03103_nitsuite⟧⟦{知|し}っていて→知る：00458_shiru⟧⟦も→も：00484_mo⟧、⟦{関係者|かんけいしゃ}→関係者：16441_kankeisha⟧⟦は→は：00079_ha⟧{口|くち}をつぐんで⟦いる→いる：00495_iru⟧。",
       "english": "Even though they know about the wrongdoing, those involved are keeping quiet.",
       "sense_numbers": [
         1
@@ -55,8 +55,38 @@
       "notes": null
     }
   ],
-  "notes": "An idiomatic expression meaning to deliberately keep silent. The verb つぐむ means to close or seal (the lips), so the literal image is of pressing one's lips together to prevent words from coming out.\n\nCOMMON PATTERNS:\n- {口|くち}をつぐむ: to clam up, go silent\n- {口|くち}をつぐんで{黙|だま}る: to shut one's mouth and stay quiet\n- {固|かた}く{口|くち}をつぐむ: to keep one's mouth firmly shut\n\nNUANCE:\nImplies deliberate silence — the person has something they could say but chooses not to. Often used in contexts involving secrets, scandals, or uncomfortable truths. Different from simply being quiet ({黙|だま}る), which doesn't necessarily imply withholding information.\n\nSIMILAR WORDS:\n- {黙|だま}る: to be silent — general silence; not necessarily deliberate withholding\n- {口|くち}を{閉|と}ざす: to seal one's lips — very similar, slightly more literary\n- {黙秘|もくひ}する: to exercise the right to remain silent — legal term",
+  "notes": "An idiomatic expression meaning to deliberately keep silent. The verb つぐむ means to close or seal (the lips), so the literal image is of pressing one's lips together to prevent words from coming out.\n\nCOMMON PATTERNS:\n- {口|くち}をつぐむ: to clam up, go silent\n- {口|くち}をつぐんで⟦{黙|だま}る→黙る：02287_damaru⟧: to shut one's mouth and stay quiet\n- ⟦{固|かた}く→固い：12090_katai⟧{口|くち}をつぐむ: to keep one's mouth firmly shut\n\nUSAGE:\nImplies deliberate silence — the person has something they could say but chooses not to. Often used in contexts involving secrets, scandals, or uncomfortable truths. Different from simply being quiet (⟦{黙|だま}る→黙る：02287_damaru⟧), which doesn't necessarily imply withholding information.\n\nSIMILAR WORDS:\n- ⟦{黙|だま}る→黙る：02287_damaru⟧: to be silent — general silence; not necessarily deliberate withholding\n- ⟦{口|くち}を{閉|と}ざす→口を閉ざす：23119_kuchiwotozasu⟧: to seal one's lips — very similar, slightly more literary\n- ⟦{黙秘|もくひ}→黙秘：08393_mokuhi⟧⟦する→する：00392_suru⟧: to exercise the right to remain silent — legal term",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02287_damaru",
+      "reading": "だまる",
+      "headword": "{黙|だま}る",
+      "label": "to be silent"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23119_kuchiwotozasu",
+      "reading": "くちをとざす",
+      "headword": "{口|くち}を{閉|と}ざす",
+      "label": "to seal one's lips"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08393_mokuhi",
+      "reading": "もくひ",
+      "headword": "{黙秘|もくひ}",
+      "label": "to exercise the right to remain silent"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18270_damarikomu",
+      "reading": "だまりこむ",
+      "headword": "{黙|だま}り{込|こ}む",
+      "label": "to fall silent"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -72,7 +102,7 @@
       "verb_class": "godan-mu"
     },
     "created": "2026-03-31T20:18:26Z",
-    "modified": "2026-03-31T20:18:26Z"
+    "modified": "2026-09-02T04:02:02Z"
   },
   "conjugation": {
     "type": "godan",

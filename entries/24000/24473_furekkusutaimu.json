@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24473_furekkusutaimu_ex1",
-      "japanese": "うちの{会社|かいしゃ}はフレックスタイム{制|せい}だ。",
+      "japanese": "うち⟦の→の：09472_no⟧⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦は→は：00079_ha⟧フレックスタイム{制|せい}だ。",
       "english": "Our company uses a flextime system.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24473_furekkusutaimu_ex2",
-      "japanese": "フレックスタイムのおかげで、{朝|あさ}の{通勤|つうきん}ラッシュを{避|さ}けられる。",
+      "japanese": "フレックスタイム⟦の→の：09472_no⟧⟦おかげ→おかげ：01362_okage⟧で、⟦{朝|あさ}→朝：02277_asa⟧⟦の→の：09472_no⟧⟦{通勤|つうきん}ラッシュ→通勤ラッシュ：08486_tsuukinrasshu⟧⟦を→を：00422_wo⟧⟦{避|さ}けられる→避ける：02109_sakeru⟧。",
       "english": "Thanks to flextime, I can avoid the morning rush hour commute.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24473_furekkusutaimu_ex3",
-      "japanese": "フレックスタイム{制|せい}を{導入|どうにゅう}してから、{社員|しゃいん}の{満足度|まんぞくど}が{上|あ}がった。",
+      "japanese": "フレックスタイム{制|せい}⟦を→を：00422_wo⟧⟦{導入|どうにゅう}して→導入する：16055_dounyuusuru⟧⟦から→から：00504_kara⟧、⟦{社員|しゃいん}→社員：03065_shain⟧⟦の→の：09472_no⟧{満足度|まんぞくど}⟦が→が：00051_ga⟧⟦{上|あ}がった→上がる：00615_agaru⟧。",
       "english": "Since introducing the flextime system, employee satisfaction has increased.",
       "sense_numbers": [
         1
@@ -44,20 +44,65 @@
       "notes": null
     }
   ],
-  "notes": "A loanword from English \"flex time.\" Refers to a work arrangement where employees can choose their start and end times within certain limits, as long as they work during a designated core time period and complete their required hours.\n\nCOMMON COLLOCATIONS:\n- フレックスタイム{制|せい}: flextime system\n- フレックスタイムを{導入|どうにゅう}する: to introduce flextime\n- フレックスタイム{制度|せいど}: flextime system (more formal)\n- コアタイム: core time (mandatory hours within flextime)\n\nUSAGE:\nIn Japanese workplaces, flextime systems typically have a コアタイム (core time) when all employees must be present (e.g., 10:00-15:00) and フレキシブルタイム (flexible time) windows at the start and end of the day. The abbreviated form フレックス is also commonly used: 「うちはフレックスだから」 (We have flextime, so...).\n\nSIMILAR WORDS:\n- {裁量|さいりょう}{労働|ろうどう}{制|せい}: discretionary work system (even more flexible)\n- {変則|へんそく}{勤務|きんむ}: irregular working hours (shift-based)\n- テレワーク: remote work (different type of flexible arrangement)\n- {時差|じさ}{出勤|しゅっきん}: staggered commuting hours (fixed but offset)",
+  "notes": "A loanword from English \"flex time.\" Refers to a work arrangement where employees can choose their start and end times within certain limits, as long as they work during a designated core time period and complete their required hours.\n\nCOMMON COLLOCATIONS:\n- フレックスタイム{制|せい}: flextime system\n- フレックスタイム⟦を→を：00422_wo⟧⟦{導入|どうにゅう}する→導入する：16055_dounyuusuru⟧: to introduce flextime\n- フレックスタイム{制度|せいど}: flextime system (more formal)\n- コアタイム: core time (mandatory hours within flextime)\n\nUSAGE:\nIn Japanese workplaces, flextime systems typically have a コアタイム (core time) when all employees must be present (e.g., 10:00-15:00) and フレキシブル⟦タイム→タイム：23539_taimu⟧ (flexible time) windows at the start and end of the day. The abbreviated form ⟦フレックス→フレックス：23314_furekkusu⟧ is also commonly used: 「うち⟦は→は：00079_ha⟧⟦フレックス→フレックス：23314_furekkusu⟧だ⟦から→から：00504_kara⟧」 (We have flextime, so...).\n\nSIMILAR WORDS:\n- ⟦{裁量|さいりょう}→裁量：07285_sairyou⟧⟦{労働|ろうどう}→労働：03785_roudou⟧⟦{制|せい}→〜制：30791_sei⟧: discretionary work system (even more flexible)\n- ⟦{変則|へんそく}{勤務|きんむ}→変則勤務：25086_hensokukinmu⟧: irregular working hours (shift-based)\n- ⟦テレワーク→テレワーク：05397_terewaaku⟧: remote work (different type of flexible arrangement)\n- ⟦{時差|じさ}{出勤|しゅっきん}→時差出勤：08594_jisashukkin⟧: staggered commuting hours (fixed but offset)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25086_hensokukinmu",
+      "reading": "へんそくきんむ",
+      "headword": "{変則勤務|へんそくきんむ}",
+      "label": "irregular working hours"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05397_terewaaku",
+      "reading": "てれわーく",
+      "headword": "テレワーク",
+      "label": "remote work"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08594_jisashukkin",
+      "reading": "じさしゅっきん",
+      "headword": "{時差出勤|じさしゅっきん}",
+      "label": "staggered commuting hours"
+    },
+    {
+      "type": "related",
+      "target_id": "06158_zaitakukinmu",
+      "reading": "ざいたくきんむ",
+      "headword": "{在宅勤務|ざいたくきんむ}",
+      "label": "work from home"
+    },
+    {
+      "type": "related",
+      "target_id": "07111_waakuraifubaransu",
+      "reading": "わーくらいふばらんす",
+      "headword": "ワークライフバランス",
+      "label": "work-life balance"
+    },
+    {
+      "type": "related",
+      "target_id": "23314_furekkusu",
+      "reading": "ふれっくす",
+      "headword": "フレックス",
+      "label": "flextime (work arrangement)"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "business",
         "daily-life"
       ]
     },
     "created": "2026-04-19T11:19:46Z",
-    "modified": "2026-04-19T11:19:46Z"
+    "modified": "2026-09-02T04:02:18Z"
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21417_tewotsuku_ex1",
-      "japanese": "{転|ころ}んで{手|て}をついた。",
+      "japanese": "⟦{転|ころ}んで→転ぶ：00863_korobu⟧{手|て}をついた。",
       "english": "I fell and caught myself with my hands.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21417_tewotsuku_ex2",
-      "japanese": "{畳|たたみ}に{手|て}をついて{深|ふか}くお{辞儀|じぎ}をした。",
+      "japanese": "⟦{畳|たたみ}→畳：02224_tatami⟧⟦に→に：00314_ni⟧{手|て}をついて⟦{深|ふか}く→深い：01211_fukai⟧⟦お{辞儀|じぎ}→お辞儀：00330_ojigi⟧⟦を→を：00422_wo⟧⟦した→する：00392_suru⟧。",
       "english": "I placed my hands on the tatami and bowed deeply.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21417_tewotsuku_ex3",
-      "japanese": "{彼|かれ}は{床|ゆか}に{手|て}をついて{謝罪|しゃざい}し、{誠意|せいい}を{見|み}せようとした。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{床|ゆか}→床：03652_yuka⟧⟦に→に：00314_ni⟧{手|て}をついて⟦{謝罪|しゃざい}→謝罪：06754_shazai⟧し、⟦{誠意|せいい}→誠意：19759_seii⟧⟦を→を：00422_wo⟧⟦{見|み}せよう→見せる：01988_miseru⟧とした。",
       "english": "He placed his hands on the floor and apologized, trying to show his sincerity.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "A versatile expression with two main usage contexts: (1) physically bracing oneself when falling or getting up from the ground, and (2) performing a deep formal bow (placing hands on the floor while kneeling) as a sign of respect, gratitude, or apology.\n\nCOMMON PATTERNS:\n- {畳|たたみ}に{手|て}をつく: to place hands on the tatami (formal bow)\n- {地面|じめん}に{手|て}をつく: to put hands on the ground\n- {手|て}をついて{謝|あやま}る: to apologize with hands on the floor\n\nCULTURAL NOTE:\nThe gesture of kneeling and placing both hands on the floor ({土下座|どげざ}) is an extreme form of {手|て}をつく and represents the deepest possible bow in Japanese culture, expressing profound apology or supplication.\n\nSIMILAR EXPRESSIONS:\n- {土下座|どげざ}する: to prostrate oneself — the most extreme form, forehead touching the floor\n- お{辞儀|じぎ}をする: to bow — the general act of bowing, usually standing",
+  "notes": "A versatile expression with two main usage contexts: (1) physically bracing oneself when falling or getting up from the ground, and (2) performing a deep formal bow (placing hands on the floor while kneeling) as a sign of respect, gratitude, or apology.\n\nCOMMON PATTERNS:\n- ⟦{畳|たたみ}→畳：02224_tatami⟧⟦に→に：00314_ni⟧{手|て}をつく: to place hands on the tatami (formal bow)\n- ⟦{地面|じめん}→地面：00125_jimen⟧⟦に→に：00314_ni⟧{手|て}をつく: to put hands on the ground\n- {手|て}をついて⟦{謝|あやま}る→謝る：01177_ayamaru⟧: to apologize with hands on the floor\n\nCULTURAL NOTE:\nThe gesture of kneeling and placing both hands on the floor (⟦{土下座|どげざ}→土下座：17393_dogeza⟧) is an extreme form of {手|て}をつく and represents the deepest possible bow in Japanese culture, expressing profound apology or supplication.\n\nSIMILAR WORDS:\n- ⟦{土下座|どげざ}→土下座：17393_dogeza⟧⟦する→する：00392_suru⟧: to prostrate oneself — the most extreme form, forehead touching the floor\n- ⟦お{辞儀|じぎ}→お辞儀：00330_ojigi⟧⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧: to bow — the general act of bowing, usually standing",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17393_dogeza",
+      "reading": "どげざ",
+      "headword": "{土下座|どげざ}",
+      "label": "to prostrate oneself"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +69,6 @@
       ]
     },
     "created": "2026-04-02T02:54:22Z",
-    "modified": "2026-07-29T12:35:11Z"
+    "modified": "2026-09-02T04:02:03Z"
   }
 }

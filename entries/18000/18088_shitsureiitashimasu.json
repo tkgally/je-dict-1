@@ -19,37 +19,55 @@
       "english": "Excuse me. (said when entering a room)",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18088_shitsureiitashimasu_ex2",
-      "japanese": "お{先|さき}に{失礼|しつれい}いたします。",
+      "japanese": "⟦お{先|さき}に→お先に：26563_osakini⟧{失礼|しつれい}いたします。",
       "english": "Excuse me for leaving before you.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18088_shitsureiitashimasu_ex3",
-      "japanese": "お{忙|いそが}しいところ{失礼|しつれい}いたします。{少|すこ}しお{時間|じかん}をいただけますでしょうか。",
+      "japanese": "⟦お{忙|いそが}しいところ→お忙しいところ：23577_oisogashiitokoro⟧{失礼|しつれい}いたします。⟦{少|すこ}し→少し：00596_sukoshi⟧⟦お{時間|じかん}→お時間：30572_ojikan⟧⟦を→を：00422_wo⟧⟦いただけます→いただく：01326_itadaku⟧でしょう⟦か→か：09473_ka⟧。",
       "english": "Excuse me for disturbing you when you are busy. Could I have a moment of your time?",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "The humble ({謙譲語|けんじょうご}) form of {失礼|しつれい}します, using いたす (humble form of する). Essential in business Japanese.\n\nCOMMON SITUATIONS:\n- Entering a superior's office\n- Leaving the workplace before others: お{先|さき}に{失礼|しつれい}いたします\n- Interrupting someone: お{忙|いそが}しいところ{失礼|しつれい}いたします\n- Ending a phone call\n- Passing in front of someone\n\nFORMALITY SCALE:\n- {失礼|しつれい}: casual\n- {失礼|しつれい}します: polite (standard)\n- {失礼|しつれい}いたします: very formal/humble (business standard)\n\nNOTE:\nIn business settings, {失礼|しつれい}いたします is the default. Using {失礼|しつれい}します with a superior or client may sound insufficiently polite.",
-  "cross_references": [],
+  "notes": "The humble (⟦{謙譲語|けんじょうご}→謙譲語：15869_kenjougo⟧) form of {失礼|しつれい}します, using ⟦いたす→いたす：01314_itasu⟧ (humble form of ⟦する→する：00392_suru⟧). Essential in business Japanese.\n\nCOMMON SITUATIONS:\n- Entering a superior's office\n- Leaving the workplace before others: ⟦お{先|さき}に→お先に：26563_osakini⟧{失礼|しつれい}いたします\n- Interrupting someone: ⟦お{忙|いそが}しいところ→お忙しいところ：23577_oisogashiitokoro⟧{失礼|しつれい}いたします\n- Ending a phone call\n- Passing in front of someone\n\nFORMALITY SCALE:\n- ⟦{失礼|しつれい}→失礼：01247_shitsurei⟧: casual\n- {失礼|しつれい}します: polite (standard)\n- {失礼|しつれい}いたします: very formal/humble (business standard)\n\nUSAGE:\nIn business settings, {失礼|しつれい}いたします is the default. Using {失礼|しつれい}します with a superior or client may sound insufficiently polite.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "17552_osoreirimasu",
+      "reading": "おそれいります",
+      "headword": "{恐|おそ}れ{入|い}ります",
+      "label": "I'm sorry to trouble you"
+    }
+  ],
   "metadata": {
     "created": "2026-03-20T02:38:25Z",
-    "modified": "2026-03-31T03:18:29Z",
+    "modified": "2026-09-02T04:01:50Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["expression"],
+      "pos": [
+        "expression"
+      ],
       "formality": "formal",
       "politeness": "humble",
-      "semantic": ["greeting"]
+      "semantic": [
+        "greeting"
+      ]
     }
   }
 }

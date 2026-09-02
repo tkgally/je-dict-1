@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "27688_shibugaki_ex1",
-      "japanese": "この{柿|かき}は{渋柿|しぶがき}だ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{柿|かき}→柿：04384_kaki⟧⟦は→は：00079_ha⟧{渋柿|しぶがき}だ。",
       "english": "This persimmon is an astringent one.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "27688_shibugaki_ex2",
-      "japanese": "{渋柿|しぶがき}をむいて{干|ほ}し{柿|がき}を{作|つく}る。",
+      "japanese": "{渋柿|しぶがき}⟦を→を：00422_wo⟧むいて⟦{干|ほ}し{柿|がき}→干し柿：28314_hoshigaki⟧⟦を→を：00422_wo⟧⟦{作|つく}る→作る：00481_tsukuru⟧。",
       "english": "We peel astringent persimmons to make dried persimmons.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "27688_shibugaki_ex3",
-      "japanese": "{渋柿|しぶがき}はそのまま{食|た}べると{渋|しぶ}くて、{渋抜|しぶぬ}きをしてから{食|た}べる。",
+      "japanese": "{渋柿|しぶがき}⟦は→は：00079_ha⟧⟦そのまま→そのまま：03322_sonomama⟧⟦{食|た}べる→食べる：00396_taberu⟧⟦と→と：00512_to⟧⟦{渋|しぶ}くて→渋い：06820_shibui⟧、{渋抜|しぶぬ}き⟦を→を：00422_wo⟧⟦して→する：00392_suru⟧⟦から→から：00504_kara⟧⟦{食|た}べる→食べる：00396_taberu⟧。",
       "english": "Astringent persimmons are too astringent to eat raw, so they are eaten after the astringency has been removed.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {渋|しぶ} (astringent) + {柿|かき} (persimmon). The astringency comes from tannins; it is removed ({渋抜|しぶぬ}き) by drying, or by treating with alcohol or warm water, which turns the fruit sweet.\n\nCOMMON COLLOCATIONS:\n- {渋柿|しぶがき}の{渋抜|しぶぬ}き: removing astringency from persimmons\n- {渋柿|しぶがき}を{干|ほ}す: to dry astringent persimmons\n\nSIMILAR WORDS:\n- {甘柿|あまがき}: sweet persimmon — a variety that is sweet and can be eaten fresh\n- {干|ほ}し{柿|がき}: dried persimmon — made by drying astringent persimmons until sweet",
+  "notes": "Composed of {渋|しぶ} (astringent) + ⟦{柿|かき}→柿：04384_kaki⟧ (persimmon). The astringency comes from tannins; it is removed ({渋抜|しぶぬ}き) by drying, or by treating with alcohol or warm water, which turns the fruit sweet.\n\nCOMMON COLLOCATIONS:\n- {渋柿|しぶがき}⟦の→の：09472_no⟧{渋抜|しぶぬ}き: removing astringency from persimmons\n- {渋柿|しぶがき}⟦を→を：00422_wo⟧⟦{干|ほ}す→干す：00115_hosu⟧: to dry astringent persimmons\n\nSIMILAR WORDS:\n- ⟦{甘柿|あまがき}→甘柿：30095_amagaki⟧: sweet persimmon — a variety that is sweet and can be eaten fresh\n- ⟦{干|ほ}し{柿|がき}→干し柿：28314_hoshigaki⟧: dried persimmon — made by drying astringent persimmons until sweet",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "30095_amagaki",
+      "reading": "あまがき",
+      "headword": "{甘柿|あまがき}",
+      "label": "sweet persimmon"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28314_hoshigaki",
+      "reading": "ほしがき",
+      "headword": "{干|ほ}し{柿|がき}",
+      "label": "dried persimmon"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +69,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "food"
       ],
       "domain": []
     },
     "created": "2026-05-16T04:08:30Z",
-    "modified": "2026-08-07T16:11:18Z"
+    "modified": "2026-09-02T04:02:31Z"
   }
 }

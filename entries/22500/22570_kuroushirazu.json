@@ -3,7 +3,7 @@
   "headword": "{苦労知|くろうし}らず",
   "reading": "くろうしらず",
   "romaji": "kuroushirazu",
-  "part_of_speech": "noun; adjective-na",
+  "part_of_speech": "noun, na-adjective",
   "gloss": "carefree; having known no hardship; sheltered",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22570_kuroushirazu_ex1",
-      "japanese": "{苦労知|くろうし}らずに{育|そだ}った。",
+      "japanese": "{苦労知|くろうし}らず⟦に→に：00314_ni⟧⟦{育|そだ}った→育つ：01951_sodatsu⟧。",
       "english": "I grew up without knowing hardship.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22570_kuroushirazu_ex2",
-      "japanese": "{彼|かれ}は{苦労知|くろうし}らずのお{坊|ぼっ}ちゃんだ。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{苦労知|くろうし}らず⟦の→の：09472_no⟧お{坊|ぼっ}ちゃんだ。",
       "english": "He is a sheltered rich kid who has never known hardship.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22570_kuroushirazu_ex3",
-      "japanese": "{苦労知|くろうし}らずだった{自分|じぶん}が、{社会|しゃかい}に{出|で}て{初|はじ}めて{大変|たいへん}さを{知|し}った。",
+      "japanese": "{苦労知|くろうし}らずだった⟦{自分|じぶん}→自分：02887_jibun⟧⟦が→が：00051_ga⟧、⟦{社会|しゃかい}→社会：01427_shakai⟧⟦に→に：00314_ni⟧⟦{出|で}て→出る：00513_deru⟧⟦{初|はじ}めて→初めて：02932_hajimete⟧⟦{大変|たいへん}→大変：00594_taihen⟧さ⟦を→を：00422_wo⟧⟦{知|し}った→知る：00458_shiru⟧。",
       "english": "Having been sheltered, I learned for the first time how tough things are when I entered the real world.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {苦労|くろう} (hardship, difficulty) and {知|し}らず (not knowing). Describes someone who has been fortunate enough — or sheltered enough — to never experience real difficulty. The tone can be neutral (simply describing someone's fortunate upbringing) or slightly critical (implying naivety or a lack of empathy due to inexperience).\n\nCOMMON COLLOCATIONS:\n- {苦労知|くろうし}らずに{育|そだ}つ: to grow up without hardship\n- {苦労知|くろうし}らずの{人生|じんせい}: a life without hardship\n- {苦労知|くろうし}らずのお{坊|ぼっ}ちゃん: sheltered rich boy\n\nSIMILAR WORDS:\n- {世間知|せけんし}らず: naive about the ways of the world — focuses on social inexperience\n- のんき: carefree, easygoing — personality trait rather than life circumstance\n- お{気楽|きらく}: carefree, happy-go-lucky — more colloquial and often slightly critical",
+  "notes": "A compound of ⟦{苦労|くろう}→苦労：02672_kurou⟧ (hardship, difficulty) and ⟦{知|し}ら→知る：00458_shiru⟧ず (not knowing). Describes someone who has been fortunate enough — or sheltered enough — to never experience real difficulty. The tone can be neutral (simply describing someone's fortunate upbringing) or slightly critical (implying naivety or a lack of empathy due to inexperience).\n\nCOMMON COLLOCATIONS:\n- {苦労知|くろうし}らず⟦に→に：00314_ni⟧⟦{育|そだ}つ→育つ：01951_sodatsu⟧: to grow up without hardship\n- {苦労知|くろうし}らず⟦の→の：09472_no⟧⟦{人生|じんせい}→人生：03355_jinsei⟧: a life without hardship\n- {苦労知|くろうし}らず⟦の→の：09472_no⟧お{坊|ぼっ}ちゃん: sheltered rich boy\n\nSIMILAR WORDS:\n- ⟦{世間知|せけんし}らず→世間知らず：22674_sekenshirazu⟧: naive about the ways of the world — focuses on social inexperience\n- のんき: carefree, easygoing — personality trait rather than life circumstance\n- お⟦{気楽|きらく}→気楽：07159_kiraku⟧: carefree, happy-go-lucky — more colloquial and often slightly critical",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22674_sekenshirazu",
+      "reading": "せけんしらず",
+      "headword": "{世間知|せけんし}らず",
+      "label": "naive about the ways of the world"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00323_nonki",
+      "reading": "のんき",
+      "headword": "{呑気|のんき}",
+      "label": "carefree, easygoing"
+    },
+    {
+      "type": "related",
+      "target_id": "20965_kuroushou",
+      "reading": "くろうしょう",
+      "headword": "{苦労性|くろうしょう}",
+      "label": "born worrier"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,6 +84,6 @@
       "politeness": "plain"
     },
     "created": "2026-04-06T18:13:41Z",
-    "modified": "2026-07-30T15:20:15Z"
+    "modified": "2026-09-02T04:02:08Z"
   }
 }

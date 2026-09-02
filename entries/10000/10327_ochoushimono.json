@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "10327_ochoushimono_ex1",
-      "japanese": "あいつはお{調子者|ちょうしもの}だ。",
+      "japanese": "⟦あいつ→あいつ：08267_aitsu⟧⟦は→は：00079_ha⟧お{調子者|ちょうしもの}だ。",
       "english": "That guy is such a clown.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "10327_ochoushimono_ex2",
-      "japanese": "{彼|かれ}はお{調子者|ちょうしもの}だから、すぐ{調子|ちょうし}に{乗|の}る。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧お{調子者|ちょうしもの}だ⟦から→から：00504_kara⟧、⟦すぐ→すぐ：00814_sugu⟧⟦{調子|ちょうし}→調子：03491_choushi⟧⟦に→に：00314_ni⟧⟦{乗|の}る→乗る：00511_noru⟧。",
       "english": "He's a show-off, so he gets carried away easily.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "10327_ochoushimono_ex3",
-      "japanese": "クラスに{一人|ひとり}はお{調子者|ちょうしもの}がいて、みんなを{笑|わら}わせている。",
+      "japanese": "⟦クラス→クラス：01084_kurasu⟧⟦に→に：00314_ni⟧⟦{一人|ひとり}→一人：00630_hitori⟧⟦は→は：00079_ha⟧お{調子者|ちょうしもの}がいて、⟦みんな→みんな：02972_minna⟧⟦を→を：00422_wo⟧⟦{笑|わら}わせている→笑う：00685_warau⟧。",
       "english": "There's always one class clown who makes everyone laugh.",
       "notes": null,
       "has_audio": false,
@@ -44,17 +44,26 @@
       ]
     }
   ],
-  "notes": "お{調子者|ちょうしもの} describes someone who easily gets carried away by the mood and acts silly, boastful, or exaggerated to entertain others. From {調子|ちょうし} (rhythm, condition) + {者|もの} (person), with the polite prefix お.\n\nCOMMON PATTERNS:\n- お{調子者|ちょうしもの}だ: is a show-off/clown\n- お{調子者|ちょうしもの}のくせに: even though (you're) a clown\n\nTONE:\nCan be affectionate or critical depending on context. When said with a smile, it means \"class clown\" or \"life of the party.\" When said with annoyance, it means someone who goes too far or cannot be taken seriously.\n\nRELATED EXPRESSIONS:\n- {調子|ちょうし}に{乗|の}る: to get carried away, to let success go to one's head\n- {調子|ちょうし}がいい: in good form; also \"smooth-talking\" (of people)\n- ムードメーカー: mood maker, someone who energizes a group (more positive)",
-  "cross_references": [],
+  "notes": "お{調子者|ちょうしもの} describes someone who easily gets carried away by the mood and acts silly, boastful, or exaggerated to entertain others. From ⟦{調子|ちょうし}→調子：03491_choushi⟧ (rhythm, condition) + ⟦{者|もの}→者：12734_mono⟧ (person), with the polite prefix お.\n\nCOMMON PATTERNS:\n- お{調子者|ちょうしもの}だ: is a show-off/clown\n- お{調子者|ちょうしもの}⟦の→の：09472_no⟧くせ⟦に→に：00314_ni⟧: even though (you're) a clown\n\nREGISTER:\nCan be affectionate or critical depending on context. When said with a smile, it means \"class clown\" or \"life of the party.\" When said with annoyance, it means someone who goes too far or cannot be taken seriously.\n\nRELATED WORDS:\n- ⟦{調子|ちょうし}→調子：03491_choushi⟧⟦に→に：00314_ni⟧⟦{乗|の}る→乗る：00511_noru⟧: to get carried away, to let success go to one's head\n- ⟦{調子|ちょうし}→調子：03491_choushi⟧⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧: in good form; also \"smooth-talking\" (of people)\n- ⟦ムード→ムード：11160_muudo⟧⟦メーカー→メーカー：11158_meekaa⟧: mood maker, someone who energizes a group (more positive)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24530_odokemono",
+      "reading": "おどけもの",
+      "headword": "おどけ{者|もの}",
+      "label": "joker"
+    }
+  ],
   "metadata": {
     "created": "2026-02-07T06:48:21Z",
-    "modified": "2026-08-14T01:00:44Z",
+    "modified": "2026-09-02T04:01:20Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
       "formality": "informal",
+      "politeness": "plain",
       "semantic": [
         "personality"
       ]

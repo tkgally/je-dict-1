@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "USAGE: {搭乗|とうじょう} is specifically used for boarding aircraft and ships, not for trains or buses (use ⟦{乗車|じょうしゃ}→乗車：06201_jousha⟧ instead).\n\nAS A SURU VERB: {搭乗|とうじょう}⟦する→する：00392_suru⟧ (to board)\n\nCOMMON COLLOCATIONS:\n・{搭乗|とうじょう}⟦{手続|てつづ}き→手続き：05453_tetsuzuki⟧ (boarding procedures, check-in)\n・{搭乗|とうじょう}⟦ゲート→ゲート：10851_geeto⟧ (boarding gate)\n・⟦{搭乗券|とうじょうけん}→搭乗券：17977_toujouken⟧ (boarding pass)\n・{搭乗|とうじょう}⟦{時間|じかん}→時間：00468_jikan⟧ (boarding time)\n・{搭乗|とうじょう}⟦{口|ぐち}→口：00560_kuchi⟧ (boarding entrance)\n\nRELATED TERMS:\n・⟦{乗車|じょうしゃ}→乗車：06201_jousha⟧ - boarding (train, bus, car)\n・⟦{降機|こうき}→降機：29366_kouki⟧ - disembarkation (from aircraft)\n・⟦チェックイン→チェックイン：08281_chekkuin⟧ - check-in",
+  "notes": "USAGE: {搭乗|とうじょう} is specifically used for boarding aircraft and ships, not for trains or buses (use ⟦{乗車|じょうしゃ}→乗車：06201_jousha⟧ instead).\n\nAS A SURU VERB: {搭乗|とうじょう}⟦する→する：00392_suru⟧ (to board)\n\nCOMMON COLLOCATIONS:\n- {搭乗|とうじょう}⟦{手続|てつづ}き→手続き：05453_tetsuzuki⟧ (boarding procedures, check-in)\n- {搭乗|とうじょう}⟦ゲート→ゲート：10851_geeto⟧ (boarding gate)\n- ⟦{搭乗券|とうじょうけん}→搭乗券：17977_toujouken⟧ (boarding pass)\n- {搭乗|とうじょう}⟦{時間|じかん}→時間：00468_jikan⟧ (boarding time)\n- {搭乗|とうじょう}⟦{口|ぐち}→口：00560_kuchi⟧ (boarding entrance)\n\nRELATED WORDS:\n- ⟦{乗車|じょうしゃ}→乗車：06201_jousha⟧ - boarding (train, bus, car)\n- ⟦{降機|こうき}→降機：29366_kouki⟧ - disembarkation (from aircraft)\n- ⟦チェックイン→チェックイン：08281_chekkuin⟧ - check-in",
   "cross_references": [
     {
       "type": "related",
@@ -141,11 +141,25 @@
       "headword": "{乗車|じょうしゃ}",
       "label": "boarding (ground)",
       "target_id": "06201_jousha"
+    },
+    {
+      "type": "related",
+      "target_id": "29366_kouki",
+      "reading": "こうき",
+      "headword": "{降機|こうき}",
+      "label": "disembarkation"
+    },
+    {
+      "type": "related",
+      "target_id": "08281_chekkuin",
+      "reading": "ちぇっくいん",
+      "headword": "チェックイン",
+      "label": "check-in"
     }
   ],
   "metadata": {
     "created": "2026-01-17T04:49:53Z",
-    "modified": "2026-08-25T00:21:26Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

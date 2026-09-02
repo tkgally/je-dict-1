@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08885_shiitii_ex1",
-      "japanese": "CT{検査|けんさ}を{受|う}ける。",
+      "japanese": "CT⟦{検査|けんさ}→検査：02707_kensa⟧⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧。",
       "english": "I undergo a CT scan.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "08885_shiitii_ex2",
-      "japanese": "{頭部|とうぶ}CTで{異常|いじょう}が{見|み}つかった。",
+      "japanese": "{頭部|とうぶ}CT⟦で→で：00502_de⟧⟦{異常|いじょう}→異常：01716_ijou⟧⟦が→が：00051_ga⟧⟦{見|み}つかった→見つかる：01173_mitsukaru⟧。",
       "english": "An abnormality was found in the head CT.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "08885_shiitii_ex3",
-      "japanese": "CT{画像|がぞう}を{見|み}ながら{医師|いし}が{説明|せつめい}してくれた。",
+      "japanese": "CT⟦{画像|がぞう}→画像：13549_gazou⟧⟦を→を：00422_wo⟧⟦{見|み}→見る：00283_miru⟧⟦ながら→ながら：10530_nagara⟧⟦{医師|いし}→医師：11851_ishi⟧⟦が→が：00051_ga⟧⟦{説明|せつめい}して→説明する：05639_setsumeisuru⟧⟦くれた→くれる：00724_kureru⟧。",
       "english": "The doctor explained while looking at the CT images.",
       "notes": null,
       "has_audio": false,
@@ -43,11 +43,19 @@
       ]
     }
   ],
-  "notes": "CT stands for Computed Tomography. It is a diagnostic imaging procedure.\n\nCOMMON COLLOCATIONS:\n- CT{検査|けんさ}: CT examination/scan\n- CT{画像|がぞう}: CT image\n- CT{撮影|さつえい}: CT imaging\n- {頭部|とうぶ}CT: head CT\n- {腹部|ふくぶ}CT: abdominal CT\n- {造影|ぞうえい}CT: contrast CT\n\nJAPANESE MEDICAL CONTEXT:\n- CTスキャン: CT scan (also common)\n- {断層|だんそう}{撮影|さつえい}: tomography\n- コンピュータ{断層|だんそう}{撮影|さつえい}: computed tomography (full term)\n\nRELATED IMAGING:\n- MRI: magnetic resonance imaging\n- レントゲン: X-ray\n- PET: positron emission tomography",
-  "cross_references": [],
+  "notes": "CT stands for Computed Tomography. It is a diagnostic imaging procedure.\n\nCOMMON COLLOCATIONS:\n- CT⟦{検査|けんさ}→検査：02707_kensa⟧: CT examination/scan\n- CT⟦{画像|がぞう}→画像：13549_gazou⟧: CT image\n- CT⟦{撮影|さつえい}→撮影：04175_satsuei⟧: CT imaging\n- {頭部|とうぶ}CT: head CT\n- ⟦{腹部|ふくぶ}→腹部：21667_fukubu⟧CT: abdominal CT\n- {造影|ぞうえい}CT: contrast CT\n\nJAPANESE MEDICAL CONTEXT:\n- CT⟦スキャン→スキャン：07342_sukyan⟧: CT scan (also common)\n- ⟦{断層|だんそう}→断層：06367_dansou⟧⟦{撮影|さつえい}→撮影：04175_satsuei⟧: tomography\n- ⟦コンピュータ→コンピュータ：01992_konpyuuta⟧⟦{断層|だんそう}→断層：06367_dansou⟧⟦{撮影|さつえい}→撮影：04175_satsuei⟧: computed tomography (full term)\n\nRELATED IMAGING:\n- MRI: magnetic resonance imaging\n- ⟦レントゲン→レントゲン：11219_rentogen⟧: X-ray\n- PET: positron emission tomography",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "11219_rentogen",
+      "reading": "れんとげん",
+      "headword": "レントゲン",
+      "label": "X-ray"
+    }
+  ],
   "metadata": {
     "created": "2026-01-29T02:49:08Z",
-    "modified": "2026-08-12T21:25:53Z",
+    "modified": "2026-09-02T04:01:16Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

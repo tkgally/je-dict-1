@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21819_yakkou_ex1",
-      "japanese": "{薬効|やっこう}が{高|たか}い。",
+      "japanese": "{薬効|やっこう}⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧。",
       "english": "It has a strong medicinal effect.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21819_yakkou_ex2",
-      "japanese": "この{温泉|おんせん}には{薬効|やっこう}があると{言|い}われている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{温泉|おんせん}→温泉：04117_onsen⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{薬効|やっこう}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧⟦と→と：00512_to⟧⟦{言|い}われている→言う：00515_iu⟧。",
       "english": "This hot spring is said to have therapeutic effects.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21819_yakkou_ex3",
-      "japanese": "{漢方薬|かんぽうやく}は{西洋|せいよう}{医学|いがく}とは{異|こと}なる{薬効|やっこう}の{考|かんが}え{方|かた}に{基|もと}づいている。",
+      "japanese": "⟦{漢方薬|かんぽうやく}→漢方薬：17468_kanpouyaku⟧⟦は→は：00079_ha⟧⟦{西洋|せいよう}→西洋：01446_seiyou⟧⟦{医学|いがく}→医学：01301_igaku⟧⟦と→と：00512_to⟧⟦は→は：00079_ha⟧⟦{異|こと}なる→異なる：02101_kotonaru⟧{薬効|やっこう}⟦の→の：09472_no⟧⟦{考|かんが}え{方|かた}→考え方：10169_kangaekata⟧⟦に→に：00314_ni⟧⟦{基|もと}づいている→基づく：02315_motozuku⟧。",
       "english": "Traditional Chinese medicine is based on a different way of thinking about medicinal effects than Western medicine.",
       "sense_numbers": [
         1
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {薬|やく} (medicine) and {効|こう} (effect, efficacy). Used in medical, pharmaceutical, and traditional medicine contexts. Also commonly appears in descriptions of hot springs ({温泉|おんせん}), herbs, and health foods.\n\nCOMMON COLLOCATIONS:\n- {薬効|やっこう}がある: to have a medicinal effect\n- {薬効|やっこう}が{高|たか}い: to have a strong medicinal effect\n- {薬効|やっこう}{成分|せいぶん}: active pharmaceutical ingredient\n- {薬効|やっこう}を{示|しめ}す: to show therapeutic efficacy\n- {温泉|おんせん}の{薬効|やっこう}: therapeutic effects of hot springs\n\nSIMILAR WORDS:\n- {効能|こうのう}: efficacy, virtue — often used for hot springs and traditional remedies\n- {効果|こうか}: effect, result — a more general term not limited to medicine\n- {副作用|ふくさよう}: side effect — unintended effects of medicine, as opposed to the intended {薬効|やっこう}",
+  "notes": "A compound of {薬|やく} (medicine) and {効|こう} (effect, efficacy). Used in medical, pharmaceutical, and traditional medicine contexts. Also commonly appears in descriptions of hot springs (⟦{温泉|おんせん}→温泉：04117_onsen⟧), herbs, and health foods.\n\nCOMMON COLLOCATIONS:\n- {薬効|やっこう}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧: to have a medicinal effect\n- {薬効|やっこう}⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧: to have a strong medicinal effect\n- {薬効|やっこう}⟦{成分|せいぶん}→成分：04344_seibun⟧: active pharmaceutical ingredient\n- {薬効|やっこう}⟦を→を：00422_wo⟧⟦{示|しめ}す→示す：01948_shimesu⟧: to show therapeutic efficacy\n- ⟦{温泉|おんせん}→温泉：04117_onsen⟧⟦の→の：09472_no⟧{薬効|やっこう}: therapeutic effects of hot springs\n\nSIMILAR WORDS:\n- ⟦{効能|こうのう}→効能：11920_kounou⟧: efficacy, virtue — often used for hot springs and traditional remedies\n- ⟦{効果|こうか}→効果：02726_kouka⟧: effect, result — a more general term not limited to medicine\n- ⟦{副作用|ふくさよう}→副作用：05015_fukusayou⟧: side effect — unintended effects of medicine, as opposed to the intended {薬効|やっこう}",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11920_kounou",
+      "reading": "こうのう",
+      "headword": "{効能|こうのう}",
+      "label": "efficacy, virtue"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02726_kouka",
+      "reading": "こうか",
+      "headword": "{効果|こうか}",
+      "label": "effect, result"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05015_fukusayou",
+      "reading": "ふくさよう",
+      "headword": "{副作用|ふくさよう}",
+      "label": "side effect"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30092_yakuyou",
+      "reading": "やくよう",
+      "headword": "{薬用|やくよう}",
+      "label": "medicinal"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +89,6 @@
       ]
     },
     "created": "2026-04-03T18:26:22Z",
-    "modified": "2026-07-29T12:35:11Z"
+    "modified": "2026-09-02T04:02:05Z"
   }
 }

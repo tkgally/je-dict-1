@@ -15,41 +15,67 @@
   "examples": [
     {
       "id": "29968_kanzenjiai_ex1",
-      "japanese": "{完|かん}{全|ぜん}{試合|じあい}を{達成|たっせい}する。",
+      "japanese": "{完|かん}{全|ぜん}{試合|じあい}⟦を→を：00422_wo⟧⟦{達成|たっせい}する→達成する：22183_tasseisuru⟧。",
       "english": "To pitch a perfect game.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29968_kanzenjiai_ex2",
-      "japanese": "{完|かん}{全|ぜん}{試合|じあい}は{めった}に{出|で}ない{記録|きろく}だ。",
+      "japanese": "{完|かん}{全|ぜん}{試合|じあい}⟦は→は：00079_ha⟧めった⟦に→に：00314_ni⟧⟦{出|で}ない→出る：00513_deru⟧⟦{記録|きろく}→記録：02490_kiroku⟧だ。",
       "english": "A perfect game is a record that rarely happens.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29968_kanzenjiai_ex3",
-      "japanese": "{九回|きゅうかい}{二死|にし}まで{完|かん}{全|ぜん}{試合|じあい}だったが、{最後|さいご}に{一本|いっぽん}{打|う}たれた。",
+      "japanese": "{九回|きゅうかい}{二死|にし}⟦まで→まで：00490_made⟧{完|かん}{全|ぜん}{試合|じあい}だった⟦が→が：00051_ga⟧、⟦{最後|さいご}→最後：01413_saigo⟧⟦に→に：00314_ni⟧⟦{一本|いっぽん}→一本：08888_ippon⟧⟦{打|う}たれた→打つ：01221_utsu⟧。",
       "english": "It was a perfect game until two outs in the ninth, but he gave up a hit at the very end.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A baseball term for the rarest kind of dominant pitching: not a single opposing batter reaches base. Stricter than a no-hitter, which still allows walks and errors.\n\nCOMMON COLLOCATIONS:\n- {完|かん}{全|ぜん}{試合|じあい}を{達成|たっせい}する: to achieve a perfect game\n- {完|かん}{全|ぜん}{試合|じあい}{達成|たっせい}{投手|とうしゅ}: the pitcher who threw the perfect game\n\nSIMILAR WORDS:\n- ノーヒットノーラン: no-hitter — no hits allowed, but walks or errors may let runners on base\n- {完封|かんぷう}: shutout — allowing no runs, though base runners are permitted",
+  "notes": "A baseball term for the rarest kind of dominant pitching: not a single opposing batter reaches base. Stricter than a no-hitter, which still allows walks and errors.\n\nCOMMON COLLOCATIONS:\n- {完|かん}{全|ぜん}{試合|じあい}⟦を→を：00422_wo⟧⟦{達成|たっせい}する→達成する：22183_tasseisuru⟧: to achieve a perfect game\n- {完|かん}{全|ぜん}{試合|じあい}⟦{達成|たっせい}→達成：04816_tassei⟧⟦{投手|とうしゅ}→投手：06563_toushu⟧: the pitcher who threw the perfect game\n\nSIMILAR WORDS:\n- ⟦ノーヒットノーラン→ノーヒットノーラン：29973_noohittonooran⟧: no-hitter — no hits allowed, but walks or errors may let runners on base\n- ⟦{完封|かんぷう}→完封：06543_kanpuu⟧: shutout — allowing no runs, though base runners are permitted",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "29973_noohittonooran",
+      "reading": "のーひっとのーらん",
+      "headword": "ノーヒットノーラン",
+      "label": "no-hitter"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06543_kanpuu",
+      "reading": "かんぷう",
+      "headword": "{完封|かんぷう}",
+      "label": "shutout"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["sports"],
+      "semantic": [
+        "sports"
+      ],
       "domain": []
     },
     "created": "2026-07-19T18:17:15Z",
-    "modified": "2026-07-19T18:17:15Z"
+    "modified": "2026-09-02T04:02:38Z"
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "23185_raimugi_ex1",
-      "japanese": "ライ{麦|むぎ}パンを{買|か}った。",
+      "japanese": "ライ{麦|むぎ}⟦パン→パン：00553_pan⟧⟦を→を：00422_wo⟧⟦{買|か}った→買う：00489_kau⟧。",
       "english": "I bought rye bread.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "23185_raimugi_ex2",
-      "japanese": "ライ{麦|むぎ}は{寒|さむ}い{地域|ちいき}でもよく{育|そだ}つ。",
+      "japanese": "ライ{麦|むぎ}⟦は→は：00079_ha⟧⟦{寒|さむ}い→寒い：00664_samui⟧⟦{地域|ちいき}→地域：01461_chiiki⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧⟦よく→よく：00601_yoku⟧⟦{育|そだ}つ→育つ：01951_sodatsu⟧。",
       "english": "Rye grows well even in cold regions.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "23185_raimugi_ex3",
-      "japanese": "ライ{麦|むぎ}{畑|ばたけ}でつかまえて」は{有名|ゆうめい}なアメリカ{文学|ぶんがく}だ。",
+      "japanese": "ライ{麦|むぎ}{畑|ばたけ}⟦で→で：00502_de⟧つかまえて」⟦は→は：00079_ha⟧⟦{有名|ゆうめい}→有名：01106_yuumei⟧な⟦アメリカ→アメリカ：01769_amerika⟧⟦{文学|ぶんがく}→文学：01505_bungaku⟧だ。",
       "english": "\"The Catcher in the Rye\" is a famous work of American literature.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Written with the katakana ライ (from the English \"rye\" or the German \"Roggen\" via abbreviation) and {麦|むぎ} (grain). Rye is less common in Japan than wheat or rice but is known through imported rye bread and rye whiskey. The word is also widely recognized from the Japanese title of J.D. Salinger's novel.\n\nCOMMON COLLOCATIONS:\n- ライ{麦|むぎ}パン: rye bread\n- ライ{麦|むぎ}{粉|こ}: rye flour\n- ライ{麦|むぎ}{畑|ばたけ}: rye field\n- ライ{麦|むぎ}ウイスキー: rye whiskey\n\nRELATED TERMS:\n- {小麦|こむぎ}: wheat\n- {大麦|おおむぎ}: barley\n- {麦|むぎ}: grain (general term for wheat, barley, etc.)",
+  "notes": "Written with the katakana ライ (from the English \"rye\" or the German \"Roggen\" via abbreviation) and ⟦{麦|むぎ}→麦：05427_mugi⟧ (grain). Rye is less common in Japan than wheat or rice but is known through imported rye bread and rye whiskey. The word is also widely recognized from the Japanese title of J.D. Salinger's novel.\n\nCOMMON COLLOCATIONS:\n- ライ{麦|むぎ}⟦パン→パン：00553_pan⟧: rye bread\n- ライ{麦|むぎ}{粉|こ}: rye flour\n- ライ{麦|むぎ}{畑|ばたけ}: rye field\n- ライ{麦|むぎ}⟦ウイスキー→ウイスキー：00412_uisukii⟧: rye whiskey\n\nRELATED WORDS:\n- ⟦{小麦|こむぎ}→小麦：01407_komugi⟧: wheat\n- ⟦{大麦|おおむぎ}→大麦：12215_oomugi⟧: barley\n- ⟦{麦|むぎ}→麦：05427_mugi⟧: grain (general term for wheat, barley, etc.)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "01407_komugi",
+      "reading": "こむぎ",
+      "headword": "{小麦|こむぎ}",
+      "label": "wheat"
+    },
+    {
+      "type": "related",
+      "target_id": "12215_oomugi",
+      "reading": "おおむぎ",
+      "headword": "{大麦|おおむぎ}",
+      "label": "barley"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +76,6 @@
       "politeness": "plain"
     },
     "created": "2026-04-08T21:24:46Z",
-    "modified": "2026-07-31T18:20:34Z"
+    "modified": "2026-09-02T04:02:11Z"
   }
 }

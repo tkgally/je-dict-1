@@ -34,7 +34,7 @@
     },
     {
       "id": "00534_dare_ex3",
-      "japanese": "{誰|だれ}でも⟦{参加|さんか}→参加：02498_sanka⟧⟦できます→できる：00557_dekiru⟧。",
+      "japanese": "{誰|だれ}⟦で→で：00502_de⟧⟦も→も：00484_mo⟧⟦{参加|さんか}→参加：02498_sanka⟧⟦できます→できる：00557_dekiru⟧。",
       "english": "Anyone can participate.",
       "notes": "誰でも = anyone",
       "has_audio": false,
@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "{誰|だれ} is one of the fundamental question words, used to ask about the identity of a person.\n\nPOLITENESS LEVELS:\n- {誰|だれ}: standard/casual\n- ⟦どなた→どなた：02923_donata⟧: polite form (used with customers, superiors)\n- ⟦どちらさま→どちら様：22795_dochirasama⟧: very polite (formal situations)\n\nDERIVED EXPRESSIONS:\n- {誰|だれ}⟦か→か：09473_ka⟧: someone, somebody\n- {誰|だれ}⟦も→も：00484_mo⟧ + negative: no one, nobody\n- {誰|だれ}⟦も→も：00484_mo⟧ + positive: everyone (literary)\n- {誰|だれ}でも: anyone, everybody\n\nCOMMON PATTERNS:\n- {誰|だれ}⟦が→が：00051_ga⟧ + verb: Who did X?\n- {誰|だれ}⟦の→の：09472_no⟧ + noun: Whose X?\n- {誰|だれ}⟦に→に：00314_ni⟧: to whom?\n\nNOTE:\nIn indirect questions, {誰|だれ} can appear mid-sentence: {誰|だれ}⟦が→が：00051_ga⟧⟦{来|く}る→来る：00254_kuru⟧⟦か→か：09473_ka⟧⟦{分|わ}からない→分かる：00463_wakaru⟧ (I don't know who's coming).",
+  "notes": "{誰|だれ} is one of the fundamental question words, used to ask about the identity of a person.\n\nPOLITENESS LEVELS:\n- {誰|だれ}: standard/casual\n- ⟦どなた→どなた：02923_donata⟧: polite form (used with customers, superiors)\n- ⟦どちらさま→どちら様：22795_dochirasama⟧: very polite (formal situations)\n\nDERIVED EXPRESSIONS:\n- {誰|だれ}⟦か→か：09473_ka⟧: someone, somebody\n- {誰|だれ}⟦も→も：00484_mo⟧ + negative: no one, nobody\n- {誰|だれ}⟦も→も：00484_mo⟧ + positive: everyone (literary)\n- {誰|だれ}⟦で→で：00502_de⟧⟦も→も：00484_mo⟧: anyone, everybody\n\nCOMMON PATTERNS:\n- {誰|だれ}⟦が→が：00051_ga⟧ + verb: Who did X?\n- {誰|だれ}⟦の→の：09472_no⟧ + noun: Whose X?\n- {誰|だれ}⟦に→に：00314_ni⟧: to whom?\n\nUSAGE:\nIn indirect questions, {誰|だれ} can appear mid-sentence: {誰|だれ}⟦が→が：00051_ga⟧⟦{来|く}る→来る：00254_kuru⟧⟦か→か：09473_ka⟧⟦{分|わ}からない→分かる：00463_wakaru⟧ (I don't know who's coming).",
   "cross_references": [
     {
       "type": "see_also",
@@ -89,11 +89,18 @@
       "reading": "どなた",
       "headword": "どなた",
       "label": "polite"
+    },
+    {
+      "type": "keigo",
+      "target_id": "22795_dochirasama",
+      "reading": "どちらさま",
+      "headword": "どちら{様|さま}",
+      "label": "polite"
     }
   ],
   "metadata": {
     "created": "2026-01-07T12:16:58Z",
-    "modified": "2026-05-11T21:09:19Z",
+    "modified": "2026-09-02T04:00:57Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "basic",
     "tags": {

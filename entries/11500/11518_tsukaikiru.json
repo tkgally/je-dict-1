@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "11518_tsukaikiru_ex1",
-      "japanese": "ポイントを{使|つか}い{切|き}った。",
+      "japanese": "⟦ポイント→ポイント：11283_pointo⟧⟦を→を：00422_wo⟧{使|つか}い{切|き}った。",
       "english": "I used up all my points.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "11518_tsukaikiru_ex2",
-      "japanese": "{食材|しょくざい}を{使|つか}い{切|き}ってから{買|か}い{物|もの}に{行|い}く。",
+      "japanese": "⟦{食材|しょくざい}→食材：04940_shokuzai⟧⟦を→を：00422_wo⟧{使|つか}い{切|き}って⟦から→から：00504_kara⟧⟦{買|か}い{物|もの}→買い物：00853_kaimono⟧⟦に→に：00314_ni⟧⟦{行|い}く→行く：00119_iku⟧。",
       "english": "I go shopping after using up all the ingredients.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "11518_tsukaikiru_ex3",
-      "japanese": "{予算|よさん}を{使|つか}い{切|き}らないと{来年|らいねん}の{予算|よさん}が{減|へ}らされる。",
+      "japanese": "⟦{予算|よさん}→予算：03663_yosan⟧⟦を→を：00422_wo⟧{使|つか}い{切|き}らない⟦と→と：00512_to⟧⟦{来年|らいねん}→来年：00745_rainen⟧⟦の→の：09472_no⟧⟦{予算|よさん}→予算：03663_yosan⟧⟦が→が：00051_ga⟧⟦{減|へ}らされる→減らす：02414_herasu⟧。",
       "english": "If we don't use up the budget, next year's budget will be cut.",
       "notes": null,
       "has_audio": false,
@@ -133,11 +133,26 @@
       ]
     }
   ],
-  "notes": "A compound verb: {使|つか}う (to use) + {切|き}る (to finish completely). The 〜{切|き}る suffix adds the meaning of doing something thoroughly or to completion.\n\nTRANSITIVITY:\n- Type: {他動詞|たどうし} (transitive)\n- Pattern: Xを{使|つか}い{切|き}る (to use up X)\n\nASPECT (ている):\n{使|つか}い{切|き}っている means \"has used up\" (resulting state — nothing remains).\n\nCOMMON COLLOCATIONS:\n- {予算|よさん}を{使|つか}い{切|き}る: use up the budget\n- {食材|しょくざい}を{使|つか}い{切|き}る: use up the ingredients\n- {体力|たいりょく}を{使|つか}い{切|き}る: exhaust one's stamina\n- ポイントを{使|つか}い{切|き}る: use up points\n- {使|つか}い{切|き}れない: can't use it all up (potential negative — very common)\n\nOTHER 〜{切|き}る COMPOUNDS:\n- {読|よ}み{切|き}る: to read through completely\n- {走|はし}り{切|き}る: to run the entire way\n- {食|た}べ{切|き}る: to eat up everything",
-  "cross_references": [],
+  "notes": "A compound verb: ⟦{使|つか}う→使う：00473_tsukau⟧ (to use) + ⟦{切|き}る→切る：02693_kiru⟧ (to finish completely). The 〜⟦{切|き}る→切る：02693_kiru⟧ suffix adds the meaning of doing something thoroughly or to completion.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- Pattern: X⟦を→を：00422_wo⟧{使|つか}い{切|き}る (to use up X)\n\nASPECT (ている):\n{使|つか}い{切|き}って⟦いる→いる：00495_iru⟧ means \"has used up\" (resulting state — nothing remains).\n\nCOMMON COLLOCATIONS:\n- ⟦{予算|よさん}→予算：03663_yosan⟧⟦を→を：00422_wo⟧{使|つか}い{切|き}る: use up the budget\n- ⟦{食材|しょくざい}→食材：04940_shokuzai⟧⟦を→を：00422_wo⟧{使|つか}い{切|き}る: use up the ingredients\n- ⟦{体力|たいりょく}→体力：05318_tairyoku⟧⟦を→を：00422_wo⟧{使|つか}い{切|き}る: exhaust one's stamina\n- ⟦ポイント→ポイント：11283_pointo⟧⟦を→を：00422_wo⟧{使|つか}い{切|き}る: use up points\n- ⟦{使|つか}い→使う：00473_tsukau⟧⟦{切|き}れない→切れる：01936_kireru⟧: can't use it all up (potential negative — very common)\n\nOTHER 〜{切|き}る COMPOUNDS:\n- ⟦{読|よ}み→読む：00426_yomu⟧⟦{切|き}る→切る：02693_kiru⟧: to read through completely\n- ⟦{走|はし}り{切|き}る→走り切る：28375_hashirikiru⟧: to run the entire way\n- ⟦{食|た}べ→食べる：00396_taberu⟧⟦{切|き}る→切る：02693_kiru⟧: to eat up everything",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "27813_tsukaitsukusu",
+      "reading": "つかいつくす",
+      "headword": "{使|つか}い{尽|つ}くす",
+      "label": "to use up completely"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30155_dashikiru",
+      "reading": "だしきる",
+      "headword": "{出|だ}し{切|き}る",
+      "label": "to give everything one has"
+    }
+  ],
   "metadata": {
     "created": "2026-02-17T02:49:33Z",
-    "modified": "2026-07-01T09:49:53Z",
+    "modified": "2026-09-02T04:01:25Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",

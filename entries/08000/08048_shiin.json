@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08048_shiin_ex1",
-      "japanese": "ワインの{試飲|しいん}ができます。",
+      "japanese": "⟦ワイン→ワイン：01067_wain⟧⟦の→の：09472_no⟧{試飲|しいん}⟦が→が：00051_ga⟧⟦できます→できる：00557_dekiru⟧。",
       "english": "You can taste the wine.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "08048_shiin_ex2",
-      "japanese": "{試飲|しいん}コーナーで{新商品|しんしょうひん}を{試|ため}した。",
+      "japanese": "{試飲|しいん}⟦コーナー→コーナー：10865_koonaa⟧⟦で→で：00502_de⟧⟦{新商品|しんしょうひん}→新商品：11504_shinshouhin⟧⟦を→を：00422_wo⟧⟦{試|ため}した→試す：02130_tamesu⟧。",
       "english": "I tried the new product at the tasting counter.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "08048_shiin_ex3",
-      "japanese": "{酒蔵|さかぐら}{見学|けんがく}で{日本酒|にほんしゅ}の{試飲|しいん}を{楽|たの}しんだ。",
+      "japanese": "⟦{酒蔵|さかぐら}→酒蔵：08633_sakagura⟧⟦{見学|けんがく}→見学：00214_kengaku⟧⟦で→で：00502_de⟧⟦{日本酒|にほんしゅ}→日本酒：12954_nihonshu⟧⟦の→の：09472_no⟧{試飲|しいん}⟦を→を：00422_wo⟧⟦{楽|たの}しんだ→楽しむ：01203_tanoshimu⟧。",
       "english": "I enjoyed sake tasting during the brewery tour.",
       "sense_numbers": [
         1
@@ -43,7 +43,7 @@
       "notes": null
     }
   ],
-  "notes": "WORD FORMATION:\n- {試|し} (trial, test)\n- {飲|いん} (drinking)\n\nVERB USAGE:\n- {試飲|しいん}する (to taste/sample a drink)\n- {試飲|しいん}できる (able to taste)\n\nRELATED TERMS:\n- {試食|ししょく} (food tasting/sampling)\n- {利|き}き{酒|ざけ} (sake tasting, specifically for comparing flavors)\n- テイスティング (tasting - loanword)\n\nCOMMON CONTEXTS:\n- {酒蔵|さかぐら}・ワイナリー (breweries/wineries)\n- スーパー・デパートの{試飲|しいん}コーナー (supermarket/department store tasting corners)",
+  "notes": "FORMS:\n- {試|し} (trial, test)\n- {飲|いん} (drinking)\n\nVERB USAGE:\n- {試飲|しいん}⟦する→する：00392_suru⟧ (to taste/sample a drink)\n- {試飲|しいん}⟦できる→できる：00557_dekiru⟧ (able to taste)\n\nRELATED WORDS:\n- ⟦{試食|ししょく}→試食：03060_shishoku⟧ (food tasting/sampling)\n- ⟦{利|き}き{酒|ざけ}→利き酒：07348_kikizake⟧ (sake tasting, specifically for comparing flavors)\n- テイスティング (tasting - loanword)\n\nUSAGE:\n- ⟦{酒蔵|さかぐら}→酒蔵：08633_sakagura⟧・ワイナリー (breweries/wineries)\n- ⟦スーパー→スーパー：01061_suupaa⟧・⟦デパート→デパート：01022_depaato⟧⟦の→の：09472_no⟧{試飲|しいん}⟦コーナー→コーナー：10865_koonaa⟧ (supermarket/department store tasting corners)",
   "cross_references": [
     {
       "type": "related",
@@ -51,6 +51,27 @@
       "headword": "{試食|ししょく}",
       "label": "food sampling; tasting food",
       "target_id": "03060_shishoku"
+    },
+    {
+      "type": "related",
+      "target_id": "07348_kikizake",
+      "reading": "ききざけ",
+      "headword": "{利|き}き{酒|ざけ}",
+      "label": "sake tasting, specifically…"
+    },
+    {
+      "type": "related",
+      "target_id": "07690_shichaku",
+      "reading": "しちゃく",
+      "headword": "{試着|しちゃく}",
+      "label": "trying on clothes"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08158_ajimi",
+      "reading": "あじみ",
+      "headword": "{味見|あじみ}",
+      "label": "tasting"
     }
   ],
   "metadata": {
@@ -60,6 +81,7 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "food",
         "shopping",
@@ -67,6 +89,6 @@
       ]
     },
     "created": "2026-01-25T00:55:26Z",
-    "modified": "2026-01-25T00:55:26Z"
+    "modified": "2026-09-02T04:01:13Z"
   }
 }

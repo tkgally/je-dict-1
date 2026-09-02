@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "23897_yuuhin_ex1",
-      "japanese": "これは{優品|ゆうひん}だ。",
+      "japanese": "⟦これ→これ：00963_kore⟧⟦は→は：00079_ha⟧{優品|ゆうひん}だ。",
       "english": "This is a fine piece.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "23897_yuuhin_ex2",
-      "japanese": "{展示品|てんじひん}の{中|なか}でも{特|とく}に{優品|ゆうひん}と{言|い}える。",
+      "japanese": "⟦{展示品|てんじひん}→展示品：19234_tenjihin⟧⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧⟦{特|とく}に→特に：01260_tokuni⟧{優品|ゆうひん}⟦と→と：00512_to⟧⟦{言|い}える→言う：00515_iu⟧。",
       "english": "Among the items on display, this one can be called a particularly fine piece.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "23897_yuuhin_ex3",
-      "japanese": "この{茶碗|ちゃわん}は{江戸|えど}{時代|じだい}の{優品|ゆうひん}として{知|し}られている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{茶碗|ちゃわん}→茶碗：01019_chawan⟧⟦は→は：00079_ha⟧⟦{江戸|えど}{時代|じだい}→江戸時代：20431_edojidai⟧⟦の→の：09472_no⟧{優品|ゆうひん}⟦として→として：06802_toshite⟧⟦{知|し}られている→知る：00458_shiru⟧。",
       "english": "This tea bowl is known as a fine example from the Edo period.",
       "sense_numbers": [
         1
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "A written, formal word of appraisal. Not used to praise everyday objects or food; reserved for art, craft, and collectable items where connoisseurship is in play.\n\nUSAGE:\n- Most at home in auction-house catalogues, museum labels, antique shop listings, and tea-ceremony contexts.\n- Frequently paired with a period, region, or maker to specify what category the piece is outstanding within.\n- In conversation, speakers are more likely to say {上等|じょうとう}{品|ひん} or simply いい{物|もの}; {優品|ゆうひん} sounds bookish in spoken use.\n\nCOMMON COLLOCATIONS:\n- {時代|じだい}の{優品|ゆうひん}: a fine piece from (a given) period\n- {優品|ゆうひん}と{名高|なだか}い: to be renowned as a fine piece\n- {優品|ゆうひん}{揃|ぞろ}い: a lineup of fine pieces, a selection of superior items\n- {名品|めいひん}・{優品|ゆうひん}: (a pairing) famous works and fine pieces\n\nSIMILAR WORDS:\n- {名品|めいひん}: famous work, masterpiece — emphasizes fame/recognition more than quality alone.\n- {逸品|いっぴん}: choice item, gem — stronger praise, a stand-out piece in its class.\n- {上品|じょうひん}: (as a noun) high-grade goods — overlaps with {優品|ゆうひん} but less common in modern usage; far more common as an adjective meaning 'refined, elegant'.\n- {佳品|かひん}: a fine piece (slightly more literary than {優品|ゆうひん}).\n\nREGISTER:\nFormal, written. Read frequently in dealer and auction-catalogue language; rarely used in casual speech.",
+  "notes": "A written, formal word of appraisal. Not used to praise everyday objects or food; reserved for art, craft, and collectable items where connoisseurship is in play.\n\nUSAGE:\n- Most at home in auction-house catalogues, museum labels, antique shop listings, and tea-ceremony contexts.\n- Frequently paired with a period, region, or maker to specify what category the piece is outstanding within.\n- In conversation, speakers are more likely to say ⟦{上等|じょうとう}→上等：03821_joutou⟧⟦{品|ひん}→品：03712_hin⟧ or simply ⟦いい→いい：00118_ii⟧⟦{物|もの}→物：02259_mono⟧; {優品|ゆうひん} sounds bookish in spoken use.\n\nCOMMON COLLOCATIONS:\n- ⟦{時代|じだい}→時代：01424_jidai⟧⟦の→の：09472_no⟧{優品|ゆうひん}: a fine piece from (a given) period\n- {優品|ゆうひん}⟦と→と：00512_to⟧⟦{名高|なだか}い→名高い：11956_nadakai⟧: to be renowned as a fine piece\n- {優品|ゆうひん}{揃|ぞろ}い: a lineup of fine pieces, a selection of superior items\n- ⟦{名品|めいひん}→名品：19478_meihin⟧・{優品|ゆうひん}: (a pairing) famous works and fine pieces\n\nSIMILAR WORDS:\n- ⟦{名品|めいひん}→名品：19478_meihin⟧: famous work, masterpiece — emphasizes fame/recognition more than quality alone.\n- ⟦{逸品|いっぴん}→逸品：19463_ippin⟧: choice item, gem — stronger praise, a stand-out piece in its class.\n- ⟦{上品|じょうひん}→上品：03081_jouhin⟧: (as a noun) high-grade goods — overlaps with {優品|ゆうひん} but less common in modern usage; far more common as an adjective meaning 'refined, elegant'.\n- ⟦{佳品|かひん}→佳品：24536_kahin⟧: a fine piece (slightly more literary than {優品|ゆうひん}).\n\nREGISTER:\nFormal, written. Read frequently in dealer and auction-catalogue language; rarely used in casual speech.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19478_meihin",
+      "reading": "めいひん",
+      "headword": "{名品|めいひん}",
+      "label": "famous work, masterpiece"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19463_ippin",
+      "reading": "いっぴん",
+      "headword": "{逸品|いっぴん}",
+      "label": "choice item, gem"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03081_jouhin",
+      "reading": "じょうひん",
+      "headword": "{上品|じょうひん}",
+      "label": "(as a noun) high-grade goods"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24536_kahin",
+      "reading": "かひん",
+      "headword": "{佳品|かひん}",
+      "label": "a fine piece (slightly more literary)."
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,6 +91,6 @@
       ]
     },
     "created": "2026-04-15T11:10:26Z",
-    "modified": "2026-08-02T06:24:09Z"
+    "modified": "2026-09-02T04:02:15Z"
   }
 }

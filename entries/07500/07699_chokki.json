@@ -2,7 +2,7 @@
   "id": "07699_chokki",
   "headword": "{直帰|ちょっき}",
   "reading": "ちょっき",
-  "part_of_speech": "noun, suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "going straight home; returning home directly",
   "conjugation": {
     "type": "suru",
@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "07699_chokki_ex1",
-      "japanese": "{今日|きょう}は{直帰|ちょっき}します。",
+      "japanese": "⟦{今日|きょう}→今日：00496_kyou⟧⟦は→は：00079_ha⟧{直帰|ちょっき}⟦します→する：00392_suru⟧。",
       "english": "I'm going straight home today.",
       "has_audio": false,
       "sense_numbers": [
@@ -113,7 +113,7 @@
     },
     {
       "id": "07699_chokki_ex2",
-      "japanese": "{会議|かいぎ}の{後|あと}、{直帰|ちょっき}してもいいですか。",
+      "japanese": "⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦の→の：09472_no⟧⟦{後|あと}→後：09580_ato⟧、{直帰|ちょっき}⟦して→する：00392_suru⟧⟦も→も：00484_mo⟧⟦いい→いい：00118_ii⟧です⟦か→か：09473_ka⟧。",
       "english": "May I go straight home after the meeting?",
       "has_audio": false,
       "sense_numbers": [
@@ -122,7 +122,7 @@
     },
     {
       "id": "07699_chokki_ex3",
-      "japanese": "{客先|きゃくさき}から{直帰|ちょっき}の{予定|よてい}です。",
+      "japanese": "{客先|きゃくさき}⟦から→から：00504_kara⟧{直帰|ちょっき}⟦の→の：09472_no⟧⟦{予定|よてい}→予定：00824_yotei⟧です。",
       "english": "I plan to go straight home from the client's office.",
       "has_audio": false,
       "sense_numbers": [
@@ -130,7 +130,7 @@
       ]
     }
   ],
-  "notes": "ETYMOLOGY:\n{直|ちょく} (direct) + {帰|き} (return home)\n\nWORKPLACE USAGE:\nOften paired with {直行|ちょっこう} in the expression「{直行|ちょっこう}{直帰|ちょっき}」meaning to go directly to a work site and then straight home. Many companies require employees to report this in advance.\n\nRELATED:\n・{直行|ちょっこう} - going directly (to a site)\n・{退勤|たいきん} - leaving work\n・{帰宅|きたく} - going home\n・{在宅|ざいたく} - working from home",
+  "notes": "ETYMOLOGY:\n{直|ちょく} (direct) + {帰|き} (return home)\n\nWORKPLACE USAGE:\nOften paired with ⟦{直行|ちょっこう}→直行：07698_chokkou⟧ in the expression「{直行|ちょっこう}{直帰|ちょっき}」meaning to go directly to a work site and then straight home. Many companies require employees to report this in advance.\n\nRELATED WORDS:\n- ⟦{直行|ちょっこう}→直行：07698_chokkou⟧ - going directly (to a site)\n- ⟦{退勤|たいきん}→退勤：04550_taikin⟧ - leaving work\n- ⟦{帰宅|きたく}→帰宅：02546_kitaku⟧ - going home\n- ⟦{在宅|ざいたく}→在宅：07696_zaitaku⟧ - working from home",
   "cross_references": [
     {
       "type": "related",
@@ -138,11 +138,32 @@
       "headword": "{直行|ちょっこう}",
       "label": "related work term",
       "target_id": "07698_chokkou"
+    },
+    {
+      "type": "related",
+      "target_id": "04550_taikin",
+      "reading": "たいきん",
+      "headword": "{退勤|たいきん}",
+      "label": "leaving work"
+    },
+    {
+      "type": "related",
+      "target_id": "02546_kitaku",
+      "reading": "きたく",
+      "headword": "{帰宅|きたく}",
+      "label": "going home"
+    },
+    {
+      "type": "related",
+      "target_id": "07696_zaitaku",
+      "reading": "ざいたく",
+      "headword": "{在宅|ざいたく}",
+      "label": "working from home"
     }
   ],
   "metadata": {
     "created": "2026-01-20T23:30:51Z",
-    "modified": "2026-03-29T03:05:07Z",
+    "modified": "2026-09-02T04:01:12Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -151,13 +172,15 @@
         "verb-suru"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "work"
       ],
       "domain": [
         "business"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

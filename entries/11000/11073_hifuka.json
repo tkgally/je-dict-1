@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "11073_hifuka_ex1",
-      "japanese": "{皮膚科|ひふか}に{行|い}ってきた。",
+      "japanese": "{皮膚科|ひふか}⟦に→に：00314_ni⟧⟦{行|い}って→行く：00119_iku⟧きた。",
       "english": "I went to the dermatologist.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "11073_hifuka_ex2",
-      "japanese": "{肌荒|はだあ}れがひどいので{皮膚科|ひふか}を{受診|じゅしん}した。",
+      "japanese": "⟦{肌荒|はだあ}れ→肌荒れ：08421_hadaare⟧⟦が→が：00051_ga⟧⟦ひどい→ひどい：01097_hidoi⟧⟦の→の：09472_no⟧で{皮膚科|ひふか}⟦を→を：00422_wo⟧⟦{受診|じゅしん}→受診：11890_jushin⟧⟦した→する：00392_suru⟧。",
       "english": "My skin was really rough, so I visited a dermatology clinic.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "11073_hifuka_ex3",
-      "japanese": "{原因|げんいん}{不明|ふめい}の{湿疹|しっしん}が{出|で}たので、{皮膚科|ひふか}で{検査|けんさ}してもらうことにした。",
+      "japanese": "⟦{原因|げんいん}→原因：01400_genin⟧⟦{不明|ふめい}→不明：11352_fumei⟧⟦の→の：09472_no⟧⟦{湿疹|しっしん}→湿疹：06951_shisshin⟧⟦が→が：00051_ga⟧⟦{出|で}た→出る：00513_deru⟧⟦の→の：09472_no⟧で、{皮膚科|ひふか}⟦で→で：00502_de⟧⟦{検査|けんさ}→検査：02707_kensa⟧⟦して→する：00392_suru⟧⟦もらう→もらう：00520_morau⟧ことにした。",
       "english": "I developed a rash of unknown cause, so I decided to get it examined at a dermatology clinic.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nLike other medical department words, {皮膚科|ひふか} refers both to the specialty and the clinic. People commonly say {皮膚科|ひふか}に{行|い}く for visiting the dermatologist.\n\nRELATED MEDICAL DEPARTMENTS:\n- {眼科|がんか}: ophthalmology\n- {歯科|しか}: dentistry\n- {内科|ないか}: internal medicine\n- {外科|げか}: surgery\n- {整形外科|せいけいげか}: orthopedics\n\nCOMMON COLLOCATIONS:\n- {皮膚科|ひふか}に{行|い}く: to go to the dermatologist\n- {皮膚科|ひふか}{専門医|せんもんい}: dermatology specialist\n- {皮膚科|ひふか}{受診|じゅしん}: visiting a dermatologist",
+  "notes": "USAGE:\nLike other medical department words, {皮膚科|ひふか} refers both to the specialty and the clinic. People commonly say {皮膚科|ひふか}⟦に→に：00314_ni⟧⟦{行|い}く→行く：00119_iku⟧ for visiting the dermatologist.\n\nRELATED MEDICAL DEPARTMENTS:\n- ⟦{眼科|がんか}→眼科：11071_ganka⟧: ophthalmology\n- ⟦{歯科|しか}→歯科：11072_shika⟧: dentistry\n- ⟦{内科|ないか}→内科：04076_naika⟧: internal medicine\n- ⟦{外科|げか}→外科：03983_geka⟧: surgery\n- ⟦{整形外科|せいけいげか}→整形外科：22066_seikeigeka⟧: orthopedics\n\nCOMMON COLLOCATIONS:\n- {皮膚科|ひふか}⟦に→に：00314_ni⟧⟦{行|い}く→行く：00119_iku⟧: to go to the dermatologist\n- {皮膚科|ひふか}{専門医|せんもんい}: dermatology specialist\n- {皮膚科|ひふか}⟦{受診|じゅしん}→受診：11890_jushin⟧: visiting a dermatologist",
   "cross_references": [
     {
       "type": "related",
@@ -59,11 +59,39 @@
       "headword": "{歯科|しか}",
       "label": "dentistry",
       "target_id": "11072_shika"
+    },
+    {
+      "type": "related",
+      "target_id": "04076_naika",
+      "reading": "ないか",
+      "headword": "{内科|ないか}",
+      "label": "internal medicine"
+    },
+    {
+      "type": "related",
+      "target_id": "03983_geka",
+      "reading": "げか",
+      "headword": "{外科|げか}",
+      "label": "surgery"
+    },
+    {
+      "type": "related",
+      "target_id": "22066_seikeigeka",
+      "reading": "せいけいげか",
+      "headword": "{整形外科|せいけいげか}",
+      "label": "orthopedics"
+    },
+    {
+      "type": "related",
+      "target_id": "22874_jibika",
+      "reading": "じびか",
+      "headword": "{耳鼻科|じびか}",
+      "label": "otorhinolaryngology"
     }
   ],
   "metadata": {
     "created": "2026-02-13T05:17:28Z",
-    "modified": "2026-02-19T12:42:20Z",
+    "modified": "2026-09-02T04:01:23Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

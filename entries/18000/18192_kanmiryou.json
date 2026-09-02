@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "18192_kanmiryou_ex1",
-      "japanese": "この{飲|の}み{物|もの}には{甘味料|かんみりょう}が{入|はい}っている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{飲|の}み{物|もの}→飲み物：02929_nomimono⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{甘味料|かんみりょう}⟦が→が：00051_ga⟧⟦{入|はい}っている→入る：00494_hairu⟧。",
       "english": "This drink contains sweetener.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "18192_kanmiryou_ex2",
-      "japanese": "{人工|じんこう}{甘味料|かんみりょう}を{使|つか}わないお{菓子|かし}を{選|えら}んでいる。",
+      "japanese": "{人工|じんこう}{甘味料|かんみりょう}⟦を→を：00422_wo⟧⟦{使|つか}わない→使う：00473_tsukau⟧⟦お{菓子|かし}→お菓子：02852_okashi⟧⟦を→を：00422_wo⟧⟦{選|えら}んでいる→選ぶ：00835_erabu⟧。",
       "english": "I choose sweets that don't use artificial sweeteners.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "18192_kanmiryou_ex3",
-      "japanese": "{最近|さいきん}は{天然|てんねん}の{甘味料|かんみりょう}を{使|つか}った{製品|せいひん}が{増|ふ}えてきた。",
+      "japanese": "⟦{最近|さいきん}→最近：00881_saikin⟧⟦は→は：00079_ha⟧⟦{天然|てんねん}→天然：03560_tennen⟧⟦の→の：09472_no⟧{甘味料|かんみりょう}⟦を→を：00422_wo⟧⟦{使|つか}った→使う：00473_tsukau⟧⟦{製品|せいひん}→製品：01445_seihin⟧⟦が→が：00051_ga⟧⟦{増|ふ}えて→増える：01183_fueru⟧きた。",
       "english": "Recently, products using natural sweeteners have been increasing.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,33 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA technical-sounding word commonly encountered on food labels and in health discussions. Distinguished from {砂糖|さとう} (sugar), which is a specific sweetener, whereas {甘味料|かんみりょう} is the broader category.\n\nCOMMON COLLOCATIONS:\n- {人工|じんこう}{甘味料|かんみりょう} (artificial sweetener)\n- {天然|てんねん}{甘味料|かんみりょう} (natural sweetener)\n- {甘味料|かんみりょう}{不使用|ふしよう} (sweetener-free)\n- {甘味料|かんみりょう}を{加|くわ}える (to add sweetener)",
-  "cross_references": [],
+  "notes": "USAGE:\nA technical-sounding word commonly encountered on food labels and in health discussions. Distinguished from ⟦{砂糖|さとう}→砂糖：00884_satou⟧ (sugar), which is a specific sweetener, whereas {甘味料|かんみりょう} is the broader category.\n\nCOMMON COLLOCATIONS:\n- {人工|じんこう}{甘味料|かんみりょう} (artificial sweetener)\n- ⟦{天然|てんねん}→天然：03560_tennen⟧{甘味料|かんみりょう} (natural sweetener)\n- {甘味料|かんみりょう}⟦{不使用|ふしよう}→不使用：29835_fushiyou⟧ (sweetener-free)\n- {甘味料|かんみりょう}⟦を→を：00422_wo⟧⟦{加|くわ}える→加える：01941_kuwaeru⟧ (to add sweetener)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "06593_hozonryou",
+      "reading": "ほぞんりょう",
+      "headword": "{保存料|ほぞんりょう}",
+      "label": "preservative (food additive)"
+    },
+    {
+      "type": "related",
+      "target_id": "19751_chakushokuryou",
+      "reading": "ちゃくしょくりょう",
+      "headword": "{着色料|ちゃくしょくりょう}",
+      "label": "coloring agent"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26404_shirozatou",
+      "reading": "しろざとう",
+      "headword": "{白砂糖|しろざとう}",
+      "label": "white sugar"
+    }
+  ],
   "metadata": {
     "created": "2026-03-20T12:11:44Z",
-    "modified": "2026-07-22T00:20:00Z",
+    "modified": "2026-09-02T04:01:51Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

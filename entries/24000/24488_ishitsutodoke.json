@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24488_ishitsutodoke_ex1",
-      "japanese": "{遺失届|いしつとどけ}を{出|だ}した。",
+      "japanese": "{遺失届|いしつとどけ}⟦を→を：00422_wo⟧⟦{出|だ}した→出す：01087_dasu⟧。",
       "english": "I filed a lost property report.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24488_ishitsutodoke_ex2",
-      "japanese": "{財布|さいふ}をなくしたので、{交番|こうばん}で{遺失届|いしつとどけ}を{出|だ}した。",
+      "japanese": "⟦{財布|さいふ}→財布：00663_saifu⟧⟦を→を：00422_wo⟧なくした⟦の→の：09472_no⟧で、⟦{交番|こうばん}→交番：02879_kouban⟧⟦で→で：00502_de⟧{遺失届|いしつとどけ}⟦を→を：00422_wo⟧⟦{出|だ}した→出す：01087_dasu⟧。",
       "english": "I lost my wallet, so I filed a lost property report at the police box.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24488_ishitsutodoke_ex3",
-      "japanese": "{遺失届|いしつとどけ}を{出|だ}しておけば、{見|み}つかった{時|とき}に{連絡|れんらく}がもらえる。",
+      "japanese": "{遺失届|いしつとどけ}⟦を→を：00422_wo⟧⟦{出|だ}して→出す：01087_dasu⟧おけば、⟦{見|み}つかった→見つかる：01173_mitsukaru⟧{時|とき}⟦に→に：00314_ni⟧⟦{連絡|れんらく}→連絡：01524_renraku⟧⟦が→が：00051_ga⟧⟦もらえる→もらう：00520_morau⟧。",
       "english": "If you file a lost property report, you will be contacted when the item is found.",
       "sense_numbers": [
         1
@@ -44,20 +44,37 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {遺失|いしつ} (loss of property) and {届|とどけ} (notification/report). This is the formal term for the report filed with Japanese police when you lose something. Japan has a remarkably high rate of lost items being returned, so filing a {遺失届|いしつとどけ} is a practical step that often leads to recovery.\n\nThe full formal name is {遺失届出書|いしつとどけでしょ}, but {遺失届|いしつとどけ} is the common shortened form.\n\nCOMMON COLLOCATIONS:\n- {遺失届|いしつとどけ}を{出|だ}す: to file a lost property report\n- {遺失届|いしつとどけ}を{提出|ていしゅつ}する: to submit a lost property report (formal)\n- {交番|こうばん}で{遺失届|いしつとどけ}: lost property report at the police box\n\nRELATED TERMS:\n- {遺失物|いしつぶつ}: lost property; lost item\n- {拾得届|しゅうとくとどけ}: found property report (filed by the finder)\n- {届|とどけ}: notification; report\n- {紛失届|ふんしつとどけ}: loss report (similar meaning)",
+  "notes": "A compound of {遺失|いしつ} (loss of property) and {届|とどけ} (notification/report). This is the formal term for the report filed with Japanese police when you lose something. Japan has a remarkably high rate of lost items being returned, so filing a {遺失届|いしつとどけ} is a practical step that often leads to recovery.\n\nThe full formal name is {遺失届出書|いしつとどけでしょ}, but {遺失届|いしつとどけ} is the common shortened form.\n\nCOMMON COLLOCATIONS:\n- {遺失届|いしつとどけ}⟦を→を：00422_wo⟧⟦{出|だ}す→出す：01087_dasu⟧: to file a lost property report\n- {遺失届|いしつとどけ}⟦を→を：00422_wo⟧⟦{提出|ていしゅつ}する→提出する：19644_teishutsusuru⟧: to submit a lost property report (formal)\n- ⟦{交番|こうばん}→交番：02879_kouban⟧⟦で→で：00502_de⟧{遺失届|いしつとどけ}: lost property report at the police box\n\nRELATED WORDS:\n- ⟦{遺失物|いしつぶつ}→遺失物：15652_ishitsubutsu⟧: lost property; lost item\n- {拾得届|しゅうとくとどけ}: found property report (filed by the finder)\n- {届|とどけ}: notification; report\n- ⟦{紛失届|ふんしつとどけ}→紛失届：20685_funshitsutodoke⟧: loss report (similar meaning)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "15652_ishitsubutsu",
+      "reading": "いしつぶつ",
+      "headword": "{遺失物|いしつぶつ}",
+      "label": "lost property"
+    },
+    {
+      "type": "related",
+      "target_id": "20685_funshitsutodoke",
+      "reading": "ふんしつとどけ",
+      "headword": "{紛失届|ふんしつとどけ}",
+      "label": "loss report"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "law",
         "daily-life"
       ]
     },
     "created": "2026-04-19T12:29:50Z",
-    "modified": "2026-08-02T18:32:34Z"
+    "modified": "2026-09-02T04:02:18Z"
   }
 }

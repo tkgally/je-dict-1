@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "20975_shussekisha_ex1",
-      "japanese": "{出席者|しゅっせきしゃ}は{全部|ぜんぶ}で{十|じゅう}{人|にん}だった。",
+      "japanese": "{出席者|しゅっせきしゃ}⟦は→は：00079_ha⟧⟦{全部|ぜんぶ}→全部：02888_zenbu⟧⟦で→で：00502_de⟧⟦{十|じゅう}{人|にん}→十人：28475_juunin⟧だった。",
       "english": "There were ten attendees in total.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "20975_shussekisha_ex2",
-      "japanese": "{会議|かいぎ}の{出席者|しゅっせきしゃ}リストを{作成|さくせい}してください。",
+      "japanese": "⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦の→の：09472_no⟧{出席者|しゅっせきしゃ}⟦リスト→リスト：09786_risuto⟧⟦を→を：00422_wo⟧⟦{作成|さくせい}して→作成する：25378_sakuseisuru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please prepare a list of meeting attendees.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "20975_shussekisha_ex3",
-      "japanese": "{出席者|しゅっせきしゃ}の{中|なか}から{代表|だいひょう}を{一人|ひとり}{選|えら}ぶことになった。",
+      "japanese": "{出席者|しゅっせきしゃ}⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧⟦から→から：00504_kara⟧⟦{代表|だいひょう}→代表：03419_daihyou⟧⟦を→を：00422_wo⟧⟦{一人|ひとり}→一人：00630_hitori⟧⟦{選|えら}ぶ→選ぶ：00835_erabu⟧ことになった。",
       "english": "It was decided that one representative would be chosen from among the attendees.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {出席|しゅっせき} (attendance) + {者|しゃ} (person). A straightforward agent noun for someone who attends.\n\nCOMMON COLLOCATIONS:\n- {出席者|しゅっせきしゃ}{全員|ぜんいん}: all attendees\n- {出席者|しゅっせきしゃ}{数|すう}: number of attendees\n- {出席者|しゅっせきしゃ}リスト: attendance list\n- {出席者|しゅっせきしゃ}の{名前|なまえ}: names of those present\n\nSIMILAR WORDS:\n- {参加者|さんかしゃ}: participant — emphasizes active involvement, not just being present\n- {列席者|れっせきしゃ}: person in attendance — more formal; used for ceremonies and official events\n- {来場者|らいじょうしゃ}: visitor, attendee (at a venue) — used for events at specific venues",
+  "notes": "Compound of ⟦{出席|しゅっせき}→出席：02084_shusseki⟧ (attendance) + ⟦{者|しゃ}→〜者：04662_sha⟧ (person). A straightforward agent noun for someone who attends.\n\nCOMMON COLLOCATIONS:\n- {出席者|しゅっせきしゃ}⟦{全員|ぜんいん}→全員：03310_zenin⟧: all attendees\n- {出席者|しゅっせきしゃ}⟦{数|すう}→数：03360_suu⟧: number of attendees\n- {出席者|しゅっせきしゃ}⟦リスト→リスト：09786_risuto⟧: attendance list\n- {出席者|しゅっせきしゃ}⟦の→の：09472_no⟧⟦{名前|なまえ}→名前：02234_namae⟧: names of those present\n\nSIMILAR WORDS:\n- ⟦{参加者|さんかしゃ}→参加者：03059_sankasha⟧: participant — emphasizes active involvement, not just being present\n- {列席者|れっせきしゃ}: person in attendance — more formal; used for ceremonies and official events\n- ⟦{来場者|らいじょうしゃ}→来場者：19023_raijousha⟧: visitor, attendee (at a venue) — used for events at specific venues",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03059_sankasha",
+      "reading": "さんかしゃ",
+      "headword": "{参加者|さんかしゃ}",
+      "label": "participant"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19023_raijousha",
+      "reading": "らいじょうしゃ",
+      "headword": "{来場者|らいじょうしゃ}",
+      "label": "visitor, attendee"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28435_sanretsusha",
+      "reading": "さんれつしゃ",
+      "headword": "{参列者|さんれつしゃ}",
+      "label": "attendee"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +82,6 @@
       ]
     },
     "created": "2026-03-31T09:45:17Z",
-    "modified": "2026-07-28T09:35:50Z"
+    "modified": "2026-09-02T04:02:01Z"
   }
 }

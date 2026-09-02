@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26930_sakibarai_ex1",
-      "japanese": "この{店|みせ}は{先払|さきばら}いです。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{店|みせ}→店：00497_mise⟧⟦は→は：00079_ha⟧{先払|さきばら}いです。",
       "english": "This shop requires advance payment.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26930_sakibarai_ex2",
-      "japanese": "{家賃|やちん}は{毎月|まいつき}{先払|さきばら}いで{支払|しはら}う。",
+      "japanese": "⟦{家賃|やちん}→家賃：03639_yachin⟧⟦は→は：00079_ha⟧⟦{毎月|まいつき}→毎月：00732_maitsuki⟧{先払|さきばら}い⟦で→で：00502_de⟧⟦{支払|しはら}う→支払う：02116_shiharau⟧。",
       "english": "Rent is paid in advance each month.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26930_sakibarai_ex3",
-      "japanese": "ネットショッピングでは{先払|さきばら}いと{後払|あとばら}いのどちらかを{選|えら}べることが{多|おお}い。",
+      "japanese": "⟦ネットショッピング→ネットショッピング：29757_nettoshoppingu⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧{先払|さきばら}い⟦と→と：00512_to⟧⟦{後払|あとばら}い→後払い：17771_atobarai⟧⟦の→の：09472_no⟧⟦どちらか→どちらか：28669_dochiraka⟧⟦を→を：00422_wo⟧⟦{選|えら}べる→選ぶ：00835_erabu⟧こと⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "When shopping online, you can often choose between advance payment and pay-later options.",
       "sense_numbers": [
         1
@@ -44,8 +44,30 @@
       "notes": null
     }
   ],
-  "notes": "Common in restaurants (especially ramen shops and fast-food), vending machine purchases, and online shopping. Many Japanese restaurants use ticket machines ({食券|しょっけん}{機|き}) that operate on a {先払|さきばら}い system.\n\nCOMMON COLLOCATIONS:\n- {先払|さきばら}い{制|せい}: prepayment system\n- {先払|さきばら}いで: by advance payment\n- {料金|りょうきん}{先払|さきばら}い: prepaid fee\n- {先払|さきばら}いチャージ: prepaid charge\n\nSIMILAR WORDS:\n- {後払|あとばら}い: deferred payment; pay later — the opposite; paying after receiving goods or services\n- {前払|まえばら}い: prepayment — very similar; {前払|まえばら}い is more common in accounting and formal business contexts\n- {代金引換|だいきんひきかえ}: cash on delivery (COD) — paying at the time of delivery",
-  "cross_references": [],
+  "notes": "Common in restaurants (especially ramen shops and fast-food), vending machine purchases, and online shopping. Many Japanese restaurants use ticket machines (⟦{食券|しょっけん}→食券：19934_shokken⟧⟦{機|き}→〜機：09843_ki⟧) that operate on a {先払|さきばら}い system.\n\nCOMMON COLLOCATIONS:\n- {先払|さきばら}い⟦{制|せい}→〜制：30791_sei⟧: prepayment system\n- {先払|さきばら}い⟦で→で：00502_de⟧: by advance payment\n- ⟦{料金|りょうきん}→料金：03797_ryoukin⟧{先払|さきばら}い: prepaid fee\n- {先払|さきばら}い⟦チャージ→チャージ：09729_chaaji⟧: prepaid charge\n\nSIMILAR WORDS:\n- ⟦{後払|あとばら}い→後払い：17771_atobarai⟧: deferred payment; pay later — the opposite; paying after receiving goods or services\n- ⟦{前払|まえばら}い→前払い：15782_maebarai⟧: prepayment — very similar; ⟦{前払|まえばら}い→前払い：15782_maebarai⟧ is more common in accounting and formal business contexts\n- ⟦{代金引換|だいきんひきかえ}→代金引換：28163_daikinhikikae⟧: cash on delivery (COD) — paying at the time of delivery",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "17771_atobarai",
+      "reading": "あとばらい",
+      "headword": "{後払|あとばら}い",
+      "label": "deferred payment"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15782_maebarai",
+      "reading": "まえばらい",
+      "headword": "{前払|まえばら}い",
+      "label": "prepayment"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28163_daikinhikikae",
+      "reading": "だいきんひきかえ",
+      "headword": "代金引換",
+      "label": "cash on delivery"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -63,6 +85,6 @@
       ]
     },
     "created": "2026-05-05T16:18:08Z",
-    "modified": "2026-05-05T16:18:08Z"
+    "modified": "2026-09-02T04:02:28Z"
   }
 }

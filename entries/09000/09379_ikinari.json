@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "09379_ikinari_ex1",
-      "japanese": "いきなり{来|き}ないでよ。",
+      "japanese": "いきなり{来|き}ないで⟦よ→よ：09475_yo⟧。",
       "english": "Don't just show up out of nowhere.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "09379_ikinari_ex2",
-      "japanese": "いきなり{雨|あめ}が{降|ふ}ってきた。",
+      "japanese": "いきなり⟦{雨|あめ}→雨：00583_ame⟧⟦が→が：00051_ga⟧⟦{降|ふ}って→降る：00839_furu⟧きた。",
       "english": "It suddenly started raining.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "09379_ikinari_ex3",
-      "japanese": "いきなり{怒|おこ}り{出|だ}してびっくりした。",
+      "japanese": "いきなり⟦{怒|おこ}り{出|だ}して→怒り出す：29598_okoridasu⟧⟦びっくりした→びっくりする：01178_bikkurisuru⟧。",
       "english": "I was surprised when they suddenly got angry.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
     },
     {
       "id": "09379_ikinari_ex4",
-      "japanese": "いきなり{難|むずか}しいことを{言|い}われても{困|こま}る。",
+      "japanese": "いきなり⟦{難|むずか}しい→難しい：00517_muzukashii⟧こと⟦を→を：00422_wo⟧⟦{言|い}われて→言う：00515_iu⟧⟦も→も：00484_mo⟧⟦{困|こま}る→困る：00861_komaru⟧。",
       "english": "I'm stumped when you suddenly ask something difficult.",
       "notes": null,
       "has_audio": false,
@@ -53,10 +53,10 @@
       ]
     }
   ],
-  "notes": "いきなり emphasizes the unexpected, abrupt nature of an action or event. It often implies that something happened without the usual preparation, warning, or gradual lead-up.\n\nCommon collocations:\n- いきなり{来|く}る: to show up suddenly\n- いきなり{始|はじ}まる: to start abruptly\n- いきなり{言|い}う: to say out of nowhere\n\nSimilar expressions:\n- {突然|とつぜん}: suddenly (more neutral/formal)\n- {急|きゅう}に: suddenly (emphasizes speed)\n- だしぬけに: unexpectedly, out of the blue",
+  "notes": "いきなり emphasizes the unexpected, abrupt nature of an action or event. It often implies that something happened without the usual preparation, warning, or gradual lead-up.\n\nCommon collocations:\n- いきなり⟦{来|く}る→来る：00254_kuru⟧: to show up suddenly\n- いきなり⟦{始|はじ}まる→始まる：00841_hajimaru⟧: to start abruptly\n- いきなり⟦{言|い}う→言う：00515_iu⟧: to say out of nowhere\n\nSimilar expressions:\n- ⟦{突然|とつぜん}→突然：00409_totsuzen⟧: suddenly (more neutral/formal)\n- ⟦{急|きゅう}→急：13042_kyuu⟧⟦に→に：00314_ni⟧: suddenly (emphasizes speed)\n- だしぬけ⟦に→に：00314_ni⟧: unexpectedly, out of the blue",
   "metadata": {
     "created": "2026-02-01T08:23:35Z",
-    "modified": "2026-08-13T09:37:24Z",
+    "modified": "2026-09-02T04:01:18Z",
     "ai_model": "opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -77,6 +77,20 @@
       "reading": "とつぜん",
       "headword": "{突然|とつぜん}",
       "label": "suddenly (neutral register)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21616_totsuzenni",
+      "reading": "とつぜんに",
+      "headword": "{突然|とつぜん}に",
+      "label": "suddenly"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26979_niwakani",
+      "reading": "にわかに",
+      "headword": "にわかに",
+      "label": "suddenly"
     }
   ]
 }

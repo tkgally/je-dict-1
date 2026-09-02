@@ -110,7 +110,7 @@
   "examples": [
     {
       "id": "10489_baramaku_ex1",
-      "japanese": "{種|たね}をばら{撒|ま}いた。",
+      "japanese": "⟦{種|たね}→種：02157_tane⟧⟦を→を：00422_wo⟧ばら{撒|ま}いた。",
       "english": "I scattered the seeds.",
       "notes": null,
       "has_audio": false,
@@ -120,7 +120,7 @@
     },
     {
       "id": "10489_baramaku_ex2",
-      "japanese": "{風|かぜ}で{書類|しょるい}がばら{撒|ま}かれた。",
+      "japanese": "⟦{風|かぜ}→風：00641_kaze⟧⟦で→で：00502_de⟧⟦{書類|しょるい}→書類：01103_shorui⟧⟦が→が：00051_ga⟧ばら{撒|ま}かれた。",
       "english": "The documents were scattered by the wind.",
       "notes": null,
       "has_audio": false,
@@ -130,7 +130,7 @@
     },
     {
       "id": "10489_baramaku_ex3",
-      "japanese": "{庭|にわ}に{肥料|ひりょう}をばら{撒|ま}いた。",
+      "japanese": "⟦{庭|にわ}→庭：02239_niwa⟧⟦に→に：00314_ni⟧⟦{肥料|ひりょう}→肥料：06102_hiryou⟧⟦を→を：00422_wo⟧ばら{撒|ま}いた。",
       "english": "I scattered fertilizer in the garden.",
       "notes": null,
       "has_audio": false,
@@ -140,7 +140,7 @@
     },
     {
       "id": "10489_baramaku_ex4",
-      "japanese": "{駅前|えきまえ}でチラシをばら{撒|ま}く。",
+      "japanese": "⟦{駅前|えきまえ}→駅前：09593_ekimae⟧⟦で→で：00502_de⟧⟦チラシ→チラシ：23406_chirashi⟧⟦を→を：00422_wo⟧ばら{撒|ま}く。",
       "english": "To hand out flyers in front of the station.",
       "notes": null,
       "has_audio": false,
@@ -150,7 +150,7 @@
     },
     {
       "id": "10489_baramaku_ex5",
-      "japanese": "{税金|ぜいきん}をばら{撒|ま}くな。",
+      "japanese": "⟦{税金|ぜいきん}→税金：03308_zeikin⟧⟦を→を：00422_wo⟧ばら{撒|ま}くな。",
       "english": "Don't waste tax money.",
       "notes": "Critical of excessive public spending",
       "has_audio": false,
@@ -160,7 +160,7 @@
     },
     {
       "id": "10489_baramaku_ex6",
-      "japanese": "ネットで{個人情報|こじんじょうほう}をばら{撒|ま}かれるのは{本当|ほんとう}に{怖|こわ}い。",
+      "japanese": "⟦ネット→ネット：05279_netto⟧⟦で→で：00502_de⟧⟦{個人情報|こじんじょうほう}→個人情報：18842_kojinjouhou⟧⟦を→を：00422_wo⟧ばら{撒|ま}かれる⟦の→の：09472_no⟧⟦は→は：00079_ha⟧⟦{本当|ほんとう}→本当：00779_hontou⟧⟦に→に：00314_ni⟧⟦{怖|こわ}い→怖い：00864_kowai⟧。",
       "english": "Having your personal information spread all over the internet is truly frightening.",
       "notes": null,
       "has_audio": false,
@@ -169,7 +169,7 @@
       ]
     }
   ],
-  "notes": "CONJUGATION (godan-ku):\n- Negative: ばら{撒|ま}かない\n- Te-form: ばら{撒|ま}いて\n- Past: ばら{撒|ま}いた\n- Passive: ばら{撒|ま}かれる\n\nWRITING NOTE:\nCan be written as ばらまく, バラまく, or ばら{撒|ま}く. Hiragana is most common.\n\nNUANCE:\nSense 2 often carries a critical or negative tone, implying wasteful or careless distribution, especially when talking about money or information.\n\nCOMMON COLLOCATIONS:\n- お{金|かね}をばら{撒|ま}く: to throw money around\n- チラシをばら{撒|ま}く: to hand out flyers\n- {情報|じょうほう}をばら{撒|ま}く: to spread information",
+  "notes": "CONJUGATION (godan-ku):\n- Negative: ばら{撒|ま}かない\n- Te-form: ばら{撒|ま}いて\n- Past: ばら{撒|ま}いた\n- Passive: ばら{撒|ま}かれる\n\nWRITING:\nCan be written as ばらまく, バラまく, or ばら{撒|ま}く. Hiragana is most common.\n\nUSAGE:\nSense 2 often carries a critical or negative tone, implying wasteful or careless distribution, especially when talking about money or information.\n\nCOMMON COLLOCATIONS:\n- ⟦お{金|かね}→お金：00611_okane⟧⟦を→を：00422_wo⟧ばら{撒|ま}く: to throw money around\n- ⟦チラシ→チラシ：23406_chirashi⟧⟦を→を：00422_wo⟧ばら{撒|ま}く: to hand out flyers\n- ⟦{情報|じょうほう}→情報：03348_jouhou⟧⟦を→を：00422_wo⟧ばら{撒|ま}く: to spread information",
   "cross_references": [
     {
       "type": "related",
@@ -177,11 +177,18 @@
       "reading": "まく",
       "headword": "{撒|ま}く",
       "label": "to scatter, to sprinkle"
+    },
+    {
+      "type": "related",
+      "target_id": "08433_makichirasu",
+      "reading": "まきちらす",
+      "headword": "{撒|ま}き{散|ち}らす",
+      "label": "to scatter"
     }
   ],
   "metadata": {
     "created": "2026-02-07T21:20:27Z",
-    "modified": "2026-06-27T03:38:18Z",
+    "modified": "2026-09-02T04:01:21Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

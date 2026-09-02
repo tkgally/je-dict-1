@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "17792_zaikousei_ex1",
-      "japanese": "{在校生|ざいこうせい}が{卒業生|そつぎょうせい}を{送|おく}り{出|だ}す。",
+      "japanese": "{在校生|ざいこうせい}⟦が→が：00051_ga⟧⟦{卒業生|そつぎょうせい}→卒業生：15284_sotsugyousei⟧⟦を→を：00422_wo⟧⟦{送|おく}り{出|だ}す→送り出す：06085_okuridasu⟧。",
       "english": "The current students see off the graduates.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17792_zaikousei_ex2",
-      "japanese": "{在校生|ざいこうせい}{代表|だいひょう}が{送辞|そうじ}を{読|よ}んだ。",
+      "japanese": "{在校生|ざいこうせい}⟦{代表|だいひょう}→代表：03419_daihyou⟧⟦が→が：00051_ga⟧{送辞|そうじ}⟦を→を：00422_wo⟧⟦{読|よ}んだ→読む：00426_yomu⟧。",
       "english": "The student representative read the farewell address.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17792_zaikousei_ex3",
-      "japanese": "この{学校|がっこう}の{在校生|ざいこうせい}は{約|やく}{八百名|はっぴゃくめい}で、{年々|ねんねん}{減少|げんしょう}している。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{学校|がっこう}→学校：00055_gakkou⟧⟦の→の：09472_no⟧{在校生|ざいこうせい}⟦は→は：00079_ha⟧⟦{約|やく}→約：09563_yaku⟧{八百名|はっぴゃくめい}⟦で→で：00502_de⟧、⟦{年々|ねんねん}→年々：10417_nennen⟧⟦{減少|げんしょう}している→減少する：19026_genshousuru⟧。",
       "english": "This school has about 800 currently enrolled students, and the number is decreasing year by year.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nA compound of {在校|ざいこう} (being enrolled at school) + {生|せい} (student). Commonly heard at graduation ceremonies, where {在校生|ざいこうせい} (current students) give a {送辞|そうじ} (farewell address) to the {卒業生|そつぎょうせい} (graduates).\n\nCOMMON COLLOCATIONS:\n- {在校生|ざいこうせい}{代表|だいひょう} (student representative)\n- {在校生|ざいこうせい}{数|すう} (number of enrolled students)\n- {在校生|ざいこうせい}の{送辞|そうじ} (farewell address by current students)\n\nSIMILAR WORDS:\n- {卒業生|そつぎょうせい}: graduate, alumnus — someone who has already graduated\n- {新入生|しんにゅうせい}: new student — a freshly enrolled student",
+  "notes": "USAGE:\nA compound of {在校|ざいこう} (being enrolled at school) + {生|せい} (student). Commonly heard at graduation ceremonies, where {在校生|ざいこうせい} (current students) give a {送辞|そうじ} (farewell address) to the ⟦{卒業生|そつぎょうせい}→卒業生：15284_sotsugyousei⟧ (graduates).\n\nCOMMON COLLOCATIONS:\n- {在校生|ざいこうせい}⟦{代表|だいひょう}→代表：03419_daihyou⟧ (student representative)\n- {在校生|ざいこうせい}⟦{数|すう}→数：03360_suu⟧ (number of enrolled students)\n- {在校生|ざいこうせい}⟦の→の：09472_no⟧{送辞|そうじ} (farewell address by current students)\n\nSIMILAR WORDS:\n- ⟦{卒業生|そつぎょうせい}→卒業生：15284_sotsugyousei⟧: graduate, alumnus — someone who has already graduated\n- ⟦{新入生|しんにゅうせい}→新入生：03073_shinnyuusei⟧: new student — a freshly enrolled student",
   "cross_references": [
     {
       "type": "antonym",
@@ -57,14 +63,19 @@
   ],
   "metadata": {
     "created": "2026-03-19T03:59:44Z",
-    "modified": "2026-05-07T07:05:50Z",
+    "modified": "2026-09-02T04:01:49Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["education", "person"]
+      "semantic": [
+        "education",
+        "person"
+      ]
     }
   }
 }

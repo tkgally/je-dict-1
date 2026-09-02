@@ -15,41 +15,60 @@
   "examples": [
     {
       "id": "29868_teihyouka_ex1",
-      "japanese": "この{映画|えいが}は{低評価|ていひょうか}だった。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{映画|えいが}→映画：02273_eiga⟧⟦は→は：00079_ha⟧{低評価|ていひょうか}だった。",
       "english": "This movie got a low rating.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29868_teihyouka_ex2",
-      "japanese": "{動画|どうが}に{低評価|ていひょうか}がつく。",
+      "japanese": "⟦{動画|どうが}→動画：04443_douga⟧⟦に→に：00314_ni⟧{低評価|ていひょうか}⟦が→が：00051_ga⟧つく。",
       "english": "The video gets a thumbs-down.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29868_teihyouka_ex3",
-      "japanese": "{商品|しょうひん}の{低評価|ていひょうか}レビューを{読|よ}んでから{買|か}うか{決|き}める。",
+      "japanese": "⟦{商品|しょうひん}→商品：01436_shouhin⟧⟦の→の：09472_no⟧{低評価|ていひょうか}⟦レビュー→レビュー：11193_rebyuu⟧⟦を→を：00422_wo⟧⟦{読|よ}んで→読む：00426_yomu⟧⟦から→から：00504_kara⟧⟦{買|か}う→買う：00489_kau⟧⟦か→か：09473_ka⟧⟦{決|き}める→決める：00858_kimeru⟧。",
       "english": "I decide whether to buy after reading the low-rated reviews of the product.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {低|てい} (low) + {評価|ひょうか} (evaluation, rating). Its natural antonym is {高評価|こうひょうか} (high rating).\n\nCOMMON COLLOCATIONS:\n- {低評価|ていひょうか}を{受|う}ける: to receive a poor evaluation\n- {低評価|ていひょうか}ボタン: the dislike button (on video sites)\n- {低評価|ていひょうか}レビュー: a negative review\n\nUSAGE:\nOnline, especially on video platforms, {低評価|ていひょうか} refers concretely to the \"dislike\" or thumbs-down button, as in {低評価|ていひょうか}を{押|お}す (to hit dislike).",
+  "notes": "Composed of ⟦{低|てい}→低〜：03961_tei⟧ (low) + ⟦{評価|ひょうか}→評価：03583_hyouka⟧ (evaluation, rating). Its natural antonym is ⟦{高評価|こうひょうか}→高評価：17351_kouhyouka⟧ (high rating).\n\nCOMMON COLLOCATIONS:\n- {低評価|ていひょうか}⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧: to receive a poor evaluation\n- {低評価|ていひょうか}⟦ボタン→ボタン：02963_botan⟧: the dislike button (on video sites)\n- {低評価|ていひょうか}⟦レビュー→レビュー：11193_rebyuu⟧: a negative review\n\nUSAGE:\nOnline, especially on video platforms, {低評価|ていひょうか} refers concretely to the \"dislike\" or thumbs-down button, as in {低評価|ていひょうか}⟦を→を：00422_wo⟧⟦{押|お}す→押す：02854_osu⟧ (to hit dislike).",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "17351_kouhyouka",
+      "reading": "こうひょうか",
+      "headword": "{高評価|こうひょうか}",
+      "label": "high praise"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["evaluation"],
+      "politeness": "plain",
+      "semantic": [
+        "evaluation"
+      ],
       "domain": []
     },
     "created": "2026-07-15T12:19:49Z",
-    "modified": "2026-07-15T12:19:49Z"
+    "modified": "2026-09-02T04:02:38Z"
   }
 }

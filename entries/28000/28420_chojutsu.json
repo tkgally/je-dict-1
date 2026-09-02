@@ -3,7 +3,7 @@
   "headword": "{著述|ちょじゅつ}",
   "reading": "ちょじゅつ",
   "romaji": "chojutsu",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "writing; literary composition; authorship",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28420_chojutsu_ex1",
-      "japanese": "{父|ちち}は{著述|ちょじゅつ}を{仕事|しごと}にしている。",
+      "japanese": "⟦{父|ちち}→父：00566_chichi⟧⟦は→は：00079_ha⟧{著述|ちょじゅつ}⟦を→を：00422_wo⟧⟦{仕事|しごと}→仕事：00480_shigoto⟧にして⟦いる→いる：00495_iru⟧。",
       "english": "My father makes a living by writing.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28420_chojutsu_ex2",
-      "japanese": "{彼|かれ}の{著述|ちょじゅつ}は{広|ひろ}く{読|よ}まれている。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧{著述|ちょじゅつ}⟦は→は：00079_ha⟧⟦{広|ひろ}く→広い：00704_hiroi⟧⟦{読|よ}まれている→読む：00426_yomu⟧。",
       "english": "His writings are widely read.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28420_chojutsu_ex3",
-      "japanese": "{長年|ながねん}の{研究|けんきゅう}を{元|もと}に、{著述|ちょじゅつ}{活動|かつどう}を{本格的|ほんかくてき}に{始|はじ}めた。",
+      "japanese": "⟦{長年|ながねん}→長年：09684_naganen⟧⟦の→の：09472_no⟧⟦{研究|けんきゅう}→研究：01396_kenkyuu⟧⟦を→を：00422_wo⟧⟦{元|もと}→元：03878_moto⟧⟦に→に：00314_ni⟧、{著述|ちょじゅつ}⟦{活動|かつどう}→活動：00201_katsudou⟧⟦を→を：00422_wo⟧⟦{本格的|ほんかくてき}→本格的：05681_honkakuteki⟧⟦に→に：00314_ni⟧⟦{始|はじ}めた→始める：00531_hajimeru⟧。",
       "english": "Drawing on many years of research, he began writing in earnest.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {著|ちょ} (to write, to publish) + {述|じゅつ} (to state). Used as a する verb in {著述|ちょじゅつ}する (to write [a work]).\n\nCOMMON COLLOCATIONS:\n- {著述|ちょじゅつ}{業|ぎょう}: the writing profession; author by trade\n- {著述|ちょじゅつ}{家|か}: author; writer (of books)\n- {著述|ちょじゅつ}{活動|かつどう}: writing activity\n- {著述|ちょじゅつ}を{重|かさ}ねる: build up a body of writing\n\nSIMILAR WORDS:\n- {執筆|しっぴつ}: writing (the act) — focuses on the act of writing, often for a specific piece\n- {著作|ちょさく}: written work — emphasizes the work as a product; basis of {著作権|ちょさくけん} (copyright)\n- {作品|さくひん}: work — general term for any creative work, not specific to writing",
+  "notes": "Compound of {著|ちょ} (to write, to publish) + {述|じゅつ} (to state). Used as a ⟦する→する：00392_suru⟧ verb in {著述|ちょじゅつ}⟦する→する：00392_suru⟧ (to write [a work]).\n\nCOMMON COLLOCATIONS:\n- {著述|ちょじゅつ}{業|ぎょう}: the writing profession; author by trade\n- {著述|ちょじゅつ}{家|か}: author; writer (of books)\n- {著述|ちょじゅつ}⟦{活動|かつどう}→活動：00201_katsudou⟧: writing activity\n- {著述|ちょじゅつ}⟦を→を：00422_wo⟧⟦{重|かさ}ねる→重ねる：02039_kasaneru⟧: build up a body of writing\n\nSIMILAR WORDS:\n- ⟦{執筆|しっぴつ}→執筆：04194_shippitsu⟧: writing (the act) — focuses on the act of writing, often for a specific piece\n- ⟦{著作|ちょさく}→著作：18234_chosaku⟧: written work — emphasizes the work as a product; basis of ⟦{著作権|ちょさくけん}→著作権：14022_chosakuken⟧ (copyright)\n- ⟦{作品|さくひん}→作品：02776_sakuhin⟧: work — general term for any creative work, not specific to writing",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04194_shippitsu",
+      "reading": "しっぴつ",
+      "headword": "{執筆|しっぴつ}",
+      "label": "writing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18234_chosaku",
+      "reading": "ちょさく",
+      "headword": "{著作|ちょさく}",
+      "label": "written work"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02776_sakuhin",
+      "reading": "さくひん",
+      "headword": "{作品|さくひん}",
+      "label": "work"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -54,7 +77,7 @@
         "verb-suru"
       ],
       "formality": "formal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "communication"
       ],
@@ -62,7 +85,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-30T04:08:44Z",
-    "modified": "2026-08-08T18:34:17Z"
+    "modified": "2026-09-02T04:02:33Z"
   },
   "conjugation": {
     "type": "suru",

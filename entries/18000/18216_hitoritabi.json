@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "18216_hitoritabi_ex1",
-      "japanese": "{初|はじ}めての{一人旅|ひとりたび}は{京都|きょうと}だった。",
+      "japanese": "⟦{初|はじ}めて→初めて：02932_hajimete⟧⟦の→の：09472_no⟧{一人旅|ひとりたび}⟦は→は：00079_ha⟧⟦{京都|きょうと}→京都：09484_kyouto⟧だった。",
       "english": "My first solo trip was to Kyoto.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "18216_hitoritabi_ex2",
-      "japanese": "{一人旅|ひとりたび}なら{自分|じぶん}のペースで{動|うご}ける。",
+      "japanese": "{一人旅|ひとりたび}なら⟦{自分|じぶん}→自分：02887_jibun⟧⟦の→の：09472_no⟧⟦ペース→ペース：11173_peesu⟧⟦で→で：00502_de⟧⟦{動|うご}ける→動く：00904_ugoku⟧。",
       "english": "If you travel alone, you can move at your own pace.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "18216_hitoritabi_ex3",
-      "japanese": "{大学|だいがく}を{卒業|そつぎょう}した{記念|きねん}に、ヨーロッパへの{一人旅|ひとりたび}を{計画|けいかく}している。",
+      "japanese": "⟦{大学|だいがく}→大学：00608_daigaku⟧⟦を→を：00422_wo⟧⟦{卒業|そつぎょう}→卒業：01643_sotsugyou⟧⟦した→する：00392_suru⟧⟦{記念|きねん}→記念：00232_kinen⟧⟦に→に：00314_ni⟧、⟦ヨーロッパ→ヨーロッパ：00427_yooroppa⟧⟦へ→へ：02473_he⟧⟦の→の：09472_no⟧{一人旅|ひとりたび}⟦を→を：00422_wo⟧⟦{計画|けいかく}している→計画する：20998_keikakusuru⟧。",
       "english": "I'm planning a solo trip to Europe to celebrate graduating from university.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA compound of {一人|ひとり} (alone) and {旅|たび} (trip/travel). Functions as a する verb ({一人旅|ひとりたび}する — to travel solo). Solo travel has become increasingly popular and accepted in Japan, with many travel magazines and websites dedicated to {一人旅|ひとりたび} recommendations.\n\nCOMMON COLLOCATIONS:\n- {一人旅|ひとりたび}をする (to take a solo trip)\n- {一人旅|ひとりたび}に{出|で}る (to set out on a solo trip)\n- {初|はじ}めての{一人旅|ひとりたび} (one's first solo trip)\n- {気|き}ままな{一人旅|ひとりたび} (a carefree solo trip)\n\nSIMILAR WORDS:\n- {旅|たび}: trip, travel — the general word, not specifying number of travelers",
+  "notes": "USAGE:\nA compound of ⟦{一人|ひとり}→一人：00630_hitori⟧ (alone) and ⟦{旅|たび}→旅：03407_tabi⟧ (trip/travel). Functions as a ⟦する→する：00392_suru⟧ verb ({一人旅|ひとりたび}⟦する→する：00392_suru⟧ — to travel solo). Solo travel has become increasingly popular and accepted in Japan, with many travel magazines and websites dedicated to {一人旅|ひとりたび} recommendations.\n\nCOMMON COLLOCATIONS:\n- {一人旅|ひとりたび}⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧ (to take a solo trip)\n- {一人旅|ひとりたび}⟦に→に：00314_ni⟧⟦{出|で}る→出る：00513_deru⟧ (to set out on a solo trip)\n- ⟦{初|はじ}めて→初めて：02932_hajimete⟧⟦の→の：09472_no⟧{一人旅|ひとりたび} (one's first solo trip)\n- ⟦{気|き}まま→気まま：10311_kimama⟧な{一人旅|ひとりたび} (a carefree solo trip)\n\nSIMILAR WORDS:\n- ⟦{旅|たび}→旅：03407_tabi⟧: trip, travel — the general word, not specifying number of travelers",
   "cross_references": [
     {
       "type": "related",
@@ -142,11 +142,18 @@
       "reading": "たび",
       "headword": "{旅|たび}",
       "label": "trip, travel (general)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27279_kojinryokou",
+      "reading": "こじんりょこう",
+      "headword": "{個人|こじん}{旅行|りょこう}",
+      "label": "independent travel"
     }
   ],
   "metadata": {
     "created": "2026-03-20T12:20:27Z",
-    "modified": "2026-05-08T08:12:00Z",
+    "modified": "2026-09-02T04:01:51Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

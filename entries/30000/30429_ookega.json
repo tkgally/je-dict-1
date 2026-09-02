@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30429_ookega_ex1",
-      "japanese": "{大|おお}けがをした。",
+      "japanese": "{大|おお}けが⟦を→を：00422_wo⟧⟦した→する：00392_suru⟧。",
       "english": "I was badly injured.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30429_ookega_ex2",
-      "japanese": "{幸|さいわ}い、{大|おお}けがには{至|いた}らなかった。",
+      "japanese": "⟦{幸|さいわ}い→幸い：02774_saiwai⟧、{大|おお}けが⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{至|いた}らなかった→至る：02009_itaru⟧。",
       "english": "Fortunately, it didn't turn into a serious injury.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30429_ookega_ex3",
-      "japanese": "{階段|かいだん}から{落|お}ちて{大|おお}けがをし、{一|いっ}か{月|げつ}{入院|にゅういん}した。",
+      "japanese": "⟦{階段|かいだん}→階段：00782_kaidan⟧⟦から→から：00504_kara⟧⟦{落|お}ちて→落ちる：01242_ochiru⟧{大|おお}けが⟦を→を：00422_wo⟧し、{一|いっ}か{月|げつ}⟦{入院|にゅういん}した→入院する：01849_nyuuinsuru⟧。",
       "english": "He fell down the stairs, was seriously injured, and spent a month in the hospital.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "From {大|おお} (big) + けが (injury). Usually written with けが in kana, though {大怪我|おおけが} also appears.\n\nCOMMON COLLOCATIONS:\n- {大|おお}けがをする: to be seriously injured\n- {大|おお}けがを{負|お}う: to sustain a serious injury (written style)\n- {大|おお}けがにつながる: to lead to a serious injury\n- {命|いのち}に{別状|べつじょう}はないが{大|おお}けが: badly hurt but not life-threatening\n\nSIMILAR WORDS:\n- けが: injury — the neutral word, any severity\n- {軽傷|けいしょう}: minor injury — the news-report opposite, paired with {重傷|じゅうしょう} (serious injury)",
+  "notes": "From {大|おお} (big) + ⟦けが→けが：00787_kega⟧ (injury). Usually written with ⟦けが→けが：00787_kega⟧ in kana, though {大怪我|おおけが} also appears.\n\nCOMMON COLLOCATIONS:\n- {大|おお}けが⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧: to be seriously injured\n- {大|おお}けが⟦を→を：00422_wo⟧⟦{負|お}う→負う：02017_ou⟧: to sustain a serious injury (written style)\n- {大|おお}けが⟦に→に：00314_ni⟧つながる: to lead to a serious injury\n- ⟦{命|いのち}→命：02371_inochi⟧⟦に→に：00314_ni⟧{別状|べつじょう}⟦は→は：00079_ha⟧⟦ない→ない：01118_nai⟧⟦が→が：00051_ga⟧{大|おお}けが: badly hurt but not life-threatening\n\nSIMILAR WORDS:\n- ⟦けが→けが：00787_kega⟧: injury — the neutral word, any severity\n- ⟦{軽傷|けいしょう}→軽傷：16546_keishou⟧: minor injury — the news-report opposite, paired with ⟦{重傷|じゅうしょう}→重傷：14414_juushou⟧ (serious injury)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16546_keishou",
+      "reading": "けいしょう",
+      "headword": "{軽傷|けいしょう}",
+      "label": "minor injury"
+    },
+    {
+      "type": "related",
+      "target_id": "01632_kegasuru",
+      "reading": "けがする",
+      "headword": "けがする",
+      "label": "to get injured"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +69,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "health"
       ],
       "domain": []
     },
     "created": "2026-08-05T15:24:36Z",
-    "modified": "2026-08-05T15:24:36Z"
+    "modified": "2026-09-02T04:02:40Z"
   }
 }

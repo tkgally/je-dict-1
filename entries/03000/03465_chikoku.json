@@ -2,7 +2,7 @@
   "id": "03465_chikoku",
   "headword": "{遅刻|ちこく}",
   "reading": "ちこく",
-  "part_of_speech": "noun, suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "lateness, being late",
   "conjugation": {
     "type": "suru",
@@ -148,11 +148,25 @@
       "headword": "{早退|そうたい}",
       "label": "leaving early",
       "target_id": "05767_soutai"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00741_okureru",
+      "reading": "おくれる",
+      "headword": "{遅|おく}れる",
+      "label": "to be late/delayed (more general"
+    },
+    {
+      "type": "related",
+      "target_id": "01692_nebou",
+      "reading": "ねぼう",
+      "headword": "{寝坊|ねぼう}",
+      "label": "oversleeping"
     }
   ],
   "metadata": {
     "created": "2026-01-12T09:16:00Z",
-    "modified": "2026-08-13T15:50:29Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

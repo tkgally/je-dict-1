@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "17212_shingakkou_ex1",
-      "japanese": "{有名|ゆうめい}な{進学校|しんがくこう}に{通|かよ}っている。",
+      "japanese": "⟦{有名|ゆうめい}→有名：01106_yuumei⟧な{進学校|しんがくこう}⟦に→に：00314_ni⟧⟦{通|かよ}っている→通う：01217_kayou⟧。",
       "english": "I attend a famous college-prep school.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17212_shingakkou_ex2",
-      "japanese": "あの{高校|こうこう}は{県内|けんない}でトップの{進学校|しんがくこう}だ。",
+      "japanese": "⟦あの→あの：00915_ano⟧⟦{高校|こうこう}→高校：01083_koukou⟧⟦は→は：00079_ha⟧⟦{県内|けんない}→県内：27823_kennai⟧⟦で→で：00502_de⟧⟦トップ→トップ：03862_toppu⟧⟦の→の：09472_no⟧{進学校|しんがくこう}だ。",
       "english": "That high school is the top college-prep school in the prefecture.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17212_shingakkou_ex3",
-      "japanese": "{進学校|しんがくこう}に{入|はい}ったので、{毎日|まいにち}{勉強|べんきょう}に{追|お}われている。",
+      "japanese": "{進学校|しんがくこう}⟦に→に：00314_ni⟧⟦{入|はい}った→入る：00494_hairu⟧⟦の→の：09472_no⟧で、⟦{毎日|まいにち}→毎日：00729_mainichi⟧⟦{勉強|べんきょう}→勉強：00770_benkyou⟧⟦に→に：00314_ni⟧⟦{追|お}われている→追う：02016_ou⟧。",
       "english": "Since I entered a college-prep school, I'm busy studying every day.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "WORD FORMATION:\n{進学|しんがく} (advancing to higher education) + {校|こう} (school). Literally 'a school for advancing to the next level of education.'\n\nCULTURAL NOTE:\nIn Japan, {進学校|しんがくこう} typically refers to high schools with high university acceptance rates, especially to prestigious universities. They are distinguished from {商業高校|しょうぎょうこうこう} (commercial high schools) or {工業高校|こうぎょうこうこう} (technical high schools), which prepare students for employment.\n\nCOMMON COLLOCATIONS:\n- {有名|ゆうめい}{進学校|しんがくこう} (famous prep school)\n- {県内|けんない}トップの{進学校|しんがくこう} (top prep school in the prefecture)\n- {進学校|しんがくこう}に{通|かよ}う (to attend a prep school)\n- {私立|しりつ}{進学校|しんがくこう} (private college-prep school)",
+  "notes": "FORMS:\n⟦{進学|しんがく}→進学：03256_shingaku⟧ (advancing to higher education) + {校|こう} (school). Literally 'a school for advancing to the next level of education.'\n\nCULTURAL NOTE:\nIn Japan, {進学校|しんがくこう} typically refers to high schools with high university acceptance rates, especially to prestigious universities. They are distinguished from {商業高校|しょうぎょうこうこう} (commercial high schools) or {工業高校|こうぎょうこうこう} (technical high schools), which prepare students for employment.\n\nCOMMON COLLOCATIONS:\n- ⟦{有名|ゆうめい}→有名：01106_yuumei⟧{進学校|しんがくこう} (famous prep school)\n- ⟦{県内|けんない}→県内：27823_kennai⟧⟦トップ→トップ：03862_toppu⟧⟦の→の：09472_no⟧{進学校|しんがくこう} (top prep school in the prefecture)\n- {進学校|しんがくこう}⟦に→に：00314_ni⟧⟦{通|かよ}う→通う：01217_kayou⟧ (to attend a prep school)\n- ⟦{私立|しりつ}→私立：00370_shiritsu⟧{進学校|しんがくこう} (private college-prep school)",
   "cross_references": [
     {
       "type": "related",
@@ -46,18 +52,36 @@
       "reading": "しんがく",
       "headword": "{進学|しんがく}",
       "label": "advancing to higher education"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21195_meikou",
+      "reading": "めいこう",
+      "headword": "{名校|めいこう}",
+      "label": "famous school"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25896_meimonkou",
+      "reading": "めいもんこう",
+      "headword": "{名門校|めいもんこう}",
+      "label": "prestigious school"
     }
   ],
   "metadata": {
     "created": "2026-03-17T00:13:33Z",
-    "modified": "2026-05-06T05:09:10Z",
+    "modified": "2026-09-02T04:01:47Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["education"]
+      "semantic": [
+        "education"
+      ]
     }
   }
 }

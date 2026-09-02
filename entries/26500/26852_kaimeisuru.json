@@ -3,7 +3,7 @@
   "headword": "{解明|かいめい}する",
   "reading": "かいめいする",
   "romaji": "kaimeisuru",
-  "part_of_speech": "verb-suru",
+  "part_of_speech": "suru verb",
   "gloss": "to clarify; to elucidate; to uncover the truth",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26852_kaimeisuru_ex1",
-      "japanese": "{原因|げんいん}を{解明|かいめい}する。",
+      "japanese": "⟦{原因|げんいん}→原因：01400_genin⟧⟦を→を：00422_wo⟧{解明|かいめい}する。",
       "english": "To clarify the cause.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26852_kaimeisuru_ex2",
-      "japanese": "{事故|じこ}の{原因|げんいん}はまだ{解明|かいめい}されていない。",
+      "japanese": "⟦{事故|じこ}→事故：00851_jiko⟧⟦の→の：09472_no⟧⟦{原因|げんいん}→原因：01400_genin⟧⟦は→は：00079_ha⟧⟦まだ→まだ：00603_mada⟧{解明|かいめい}されて⟦いない→いる：00495_iru⟧。",
       "english": "The cause of the accident has not yet been determined.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26852_kaimeisuru_ex3",
-      "japanese": "{科学者|かがくしゃ}たちが{病気|びょうき}のメカニズムの{解明|かいめい}に{取|と}り{組|く}んでいる。",
+      "japanese": "⟦{科学者|かがくしゃ}→科学者：19378_kagakusha⟧たち⟦が→が：00051_ga⟧⟦{病気|びょうき}→病気：00771_byouki⟧⟦の→の：09472_no⟧メカニズム⟦の→の：09472_no⟧⟦{解明|かいめい}→解明：14164_kaimei⟧⟦に→に：00314_ni⟧⟦{取|と}り{組|く}んでいる→取り組む：04225_torikumu⟧。",
       "english": "Scientists are working to elucidate the mechanism of the disease.",
       "sense_numbers": [
         1
@@ -45,7 +45,7 @@
     },
     {
       "id": "26852_kaimeisuru_ex4",
-      "japanese": "{宇宙|うちゅう}の{謎|なぞ}を{解明|かいめい}することは{人類|じんるい}の{長年|ながねん}の{夢|ゆめ}だ。",
+      "japanese": "⟦{宇宙|うちゅう}→宇宙：01861_uchuu⟧⟦の→の：09472_no⟧⟦{謎|なぞ}→謎：03505_nazo⟧⟦を→を：00422_wo⟧{解明|かいめい}すること⟦は→は：00079_ha⟧⟦{人類|じんるい}→人類：01578_jinrui⟧⟦の→の：09472_no⟧⟦{長年|ながねん}→長年：09684_naganen⟧⟦の→の：09472_no⟧⟦{夢|ゆめ}→夢：01519_yume⟧だ。",
       "english": "Uncovering the mysteries of the universe is a long-standing dream of humanity.",
       "sense_numbers": [
         1
@@ -54,8 +54,37 @@
       "notes": null
     }
   ],
-  "notes": "Used when something unknown or mysterious is made clear through investigation or research. Common in science, journalism, and law enforcement contexts. The emphasis is on the process of uncovering truth rather than simply explaining it.\n\nCOMMON COLLOCATIONS:\n- {原因|げんいん}{解明|かいめい}: determining the cause\n- {真相|しんそう}の{解明|かいめい}: uncovering the truth\n- {メカニズムの{解明|かいめい}: elucidation of mechanism\n- {謎|なぞ}の{解明|かいめい}: solving a mystery\n- {全容|ぜんよう}{解明|かいめい}: full clarification\n\nSIMILAR WORDS:\n- {明|あき}らかにする: to make clear — more general, less investigative\n- {究明|きゅうめい}する: to investigate thoroughly — emphasizes exhaustive investigation\n- {解釈|かいしゃく}する: to interpret — deriving meaning rather than uncovering facts",
-  "cross_references": [],
+  "notes": "Used when something unknown or mysterious is made clear through investigation or research. Common in science, journalism, and law enforcement contexts. The emphasis is on the process of uncovering truth rather than simply explaining it.\n\nCOMMON COLLOCATIONS:\n- ⟦{原因|げんいん}→原因：01400_genin⟧⟦{解明|かいめい}→解明：14164_kaimei⟧: determining the cause\n- ⟦{真相|しんそう}→真相：17447_shinsou⟧⟦の→の：09472_no⟧⟦{解明|かいめい}→解明：14164_kaimei⟧: uncovering the truth\n- {メカニズムの{解明|かいめい}: elucidation of mechanism\n- {謎|なぞ}の{解明|かいめい}: solving a mystery\n- {全容|ぜんよう}{解明|かいめい}: full clarification\n\nSIMILAR WORDS:\n- {明|あき}らかにする: to make clear — more general, less investigative\n- {究明|きゅうめい}する: to investigate thoroughly — emphasizes exhaustive investigation\n- {解釈|かいしゃく}する: to interpret — deriving meaning rather than uncovering facts",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22256_akirakanisuru",
+      "reading": "あきらかにする",
+      "headword": "{明|あき}らかにする",
+      "label": "to make clear"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17549_kyuumei",
+      "reading": "きゅうめい",
+      "headword": "{究明|きゅうめい}",
+      "label": "to investigate thoroughly"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26837_kaishakusuru",
+      "reading": "かいしゃくする",
+      "headword": "{解釈|かいしゃく}する",
+      "label": "to interpret"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14274_tokiakasu",
+      "reading": "ときあかす",
+      "headword": "{解|と}き{明|あ}かす",
+      "label": "to solve"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -71,7 +100,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-05T13:13:51Z",
-    "modified": "2026-05-05T13:13:51Z"
+    "modified": "2026-09-02T04:02:28Z"
   },
   "conjugation": {
     "type": "suru",

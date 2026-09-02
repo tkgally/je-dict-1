@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25170_taisuisei_ex1",
-      "japanese": "この{時計|とけい}は{耐水性|たいすいせい}がある。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{時計|とけい}→時計：00677_tokei⟧⟦は→は：00079_ha⟧{耐水性|たいすいせい}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "This watch is water-resistant.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25170_taisuisei_ex2",
-      "japanese": "{耐水性|たいすいせい}の{高|たか}い{素材|そざい}を{使|つか}っている。",
+      "japanese": "{耐水性|たいすいせい}⟦の→の：09472_no⟧⟦{高|たか}い→高い：00500_takai⟧⟦{素材|そざい}→素材：09492_sozai⟧⟦を→を：00422_wo⟧⟦{使|つか}っている→使う：00473_tsukau⟧。",
       "english": "It uses a highly water-resistant material.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25170_taisuisei_ex3",
-      "japanese": "この{塗料|とりょう}は{耐水性|たいすいせい}に{優|すぐ}れているので、{屋外|おくがい}でも{長|なが}く{使|つか}えます。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{塗料|とりょう}→塗料：24548_toryou⟧⟦は→は：00079_ha⟧{耐水性|たいすいせい}⟦に→に：00314_ni⟧⟦{優|すぐ}れている→優れる：02119_sugureru⟧⟦の→の：09472_no⟧で、⟦{屋外|おくがい}→屋外：04136_okugai⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧⟦{長|なが}く→長い：00491_nagai⟧⟦{使|つか}えます→使う：00473_tsukau⟧。",
       "english": "This paint has excellent water resistance, so it can be used outdoors for a long time.",
       "sense_numbers": [
         1
@@ -44,19 +44,44 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {耐水|たいすい} (water-resistant) and {性|せい} (property, quality). The {耐|たい}～{性|せい} pattern is highly productive in Japanese for expressing resistance or durability: {耐熱性|たいねつせい} (heat resistance), {耐久性|たいきゅうせい} (durability), {耐震性|たいしんせい} (earthquake resistance).\n\nCOMMON COLLOCATIONS:\n- {耐水性|たいすいせい}がある: to have water resistance\n- {耐水性|たいすいせい}に{優|すぐ}れる: to excel in water resistance\n- {耐水性|たいすいせい}の{高|たか}い: highly water-resistant\n- {耐水性|たいすいせい}{試験|しけん}: water resistance test\n\nSIMILAR WORDS:\n- {防水|ぼうすい}: waterproof — implies complete water blocking, stronger than {耐水性|たいすいせい}\n- {撥水|はっすい}: water-repellent — water beads and rolls off the surface\n- {耐久性|たいきゅうせい}: durability — general resistance to wear, broader than just water",
+  "notes": "A compound of ⟦{耐水|たいすい}→耐水：24232_taisui⟧ (water-resistant) and ⟦{性|せい}→性：09880_sei⟧ (property, quality). The {耐|たい}～⟦{性|せい}→性：09880_sei⟧ pattern is highly productive in Japanese for expressing resistance or durability: {耐熱性|たいねつせい} (heat resistance), ⟦{耐久性|たいきゅうせい}→耐久性：20042_taikyuusei⟧ (durability), {耐震性|たいしんせい} (earthquake resistance).\n\nCOMMON COLLOCATIONS:\n- {耐水性|たいすいせい}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧: to have water resistance\n- {耐水性|たいすいせい}⟦に→に：00314_ni⟧⟦{優|すぐ}れる→優れる：02119_sugureru⟧: to excel in water resistance\n- {耐水性|たいすいせい}⟦の→の：09472_no⟧⟦{高|たか}い→高い：00500_takai⟧: highly water-resistant\n- {耐水性|たいすいせい}⟦{試験|しけん}→試験：01422_shiken⟧: water resistance test\n\nSIMILAR WORDS:\n- ⟦{防水|ぼうすい}→防水：06428_bousui⟧: waterproof — implies complete water blocking, stronger than {耐水性|たいすいせい}\n- ⟦{撥水|はっすい}→撥水：16444_hassui⟧: water-repellent — water beads and rolls off the surface\n- ⟦{耐久性|たいきゅうせい}→耐久性：20042_taikyuusei⟧: durability — general resistance to wear, broader than just water",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06428_bousui",
+      "reading": "ぼうすい",
+      "headword": "{防水|ぼうすい}",
+      "label": "waterproof"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16444_hassui",
+      "reading": "はっすい",
+      "headword": "{撥水|はっすい}",
+      "label": "water-repellent"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20042_taikyuusei",
+      "reading": "たいきゅうせい",
+      "headword": "{耐久性|たいきゅうせい}",
+      "label": "durability"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "technology"
       ]
     },
     "created": "2026-04-23T13:22:41Z",
-    "modified": "2026-08-04T12:59:53Z"
+    "modified": "2026-09-02T04:02:21Z"
   }
 }

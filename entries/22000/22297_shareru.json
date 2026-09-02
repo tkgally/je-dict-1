@@ -3,7 +3,7 @@
   "headword": "しゃれる",
   "reading": "しゃれる",
   "romaji": "shareru",
-  "part_of_speech": "verb-ichidan",
+  "part_of_speech": "verb (ichidan)",
   "gloss": "to be stylish; to be fashionable; to dress up",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22297_shareru_ex1",
-      "japanese": "しゃれたレストランだね。",
+      "japanese": "しゃれた⟦レストラン→レストラン：01048_resutoran⟧だ⟦ね→ね：09474_ne⟧。",
       "english": "What a stylish restaurant.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22297_shareru_ex2",
-      "japanese": "しゃれた{服装|ふくそう}で{来|き}てください。",
+      "japanese": "しゃれた⟦{服装|ふくそう}→服装：03594_fukusou⟧⟦で→で：00502_de⟧⟦{来|き}て→来る：00254_kuru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please come dressed fashionably.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22297_shareru_ex3",
-      "japanese": "この{辺|あた}りにはしゃれたカフェが{多|おお}い。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{辺|あた}り→辺り：01770_atari⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧しゃれた⟦カフェ→カフェ：06767_kafe⟧⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "There are many stylish cafés around here.",
       "sense_numbers": [
         1
@@ -45,7 +45,7 @@
     },
     {
       "id": "22297_shareru_ex4",
-      "japanese": "{彼女|かのじょ}はいつもしゃれた{格好|かっこう}をしている。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧⟦いつも→いつも：00599_itsumo⟧しゃれた⟦{格好|かっこう}→格好：01800_kakkou⟧⟦を→を：00422_wo⟧⟦している→する：00392_suru⟧。",
       "english": "She is always dressed stylishly.",
       "sense_numbers": [
         1
@@ -54,8 +54,17 @@
       "notes": null
     }
   ],
-  "notes": "Almost always appears in the past participle form しゃれた, functioning as a modifier meaning \"stylish\" or \"chic.\" The kanji form {洒落|しゃれ}る exists but is rarely used. Related to the noun {洒落|しゃれ} (wit, joke, pun), though the verb focuses on stylishness rather than humor.\n\nCOMMON COLLOCATIONS:\n- しゃれた{店|みせ}: a stylish shop\n- しゃれた{服|ふく}: fashionable clothes\n- しゃれた{雰囲気|ふんいき}: a chic atmosphere\n- しゃれた{名前|なまえ}: a clever/witty name\n\nSIMILAR WORDS:\n- おしゃれ: stylish, fashionable — the more common everyday word for being well-dressed or trendy; derived from the same root\n- {粋|いき}: chic, refined — carries a traditional Japanese aesthetic sensibility; suggests understated elegance\n- スタイリッシュ: stylish — a loanword from English, used for modern/Western-style trendiness",
+  "notes": "Almost always appears in the past participle form しゃれた, functioning as a modifier meaning \"stylish\" or \"chic.\" The kanji form {洒落|しゃれ}る exists but is rarely used. Related to the noun ⟦{洒落|しゃれ}→洒落：00362_share⟧ (wit, joke, pun), though the verb focuses on stylishness rather than humor.\n\nCOMMON COLLOCATIONS:\n- しゃれた⟦{店|みせ}→店：00497_mise⟧: a stylish shop\n- しゃれた⟦{服|ふく}→服：00695_fuku⟧: fashionable clothes\n- しゃれた⟦{雰囲気|ふんいき}→雰囲気：03604_funiki⟧: a chic atmosphere\n- しゃれた⟦{名前|なまえ}→名前：02234_namae⟧: a clever/witty name\n\nSIMILAR WORDS:\n- ⟦おしゃれ→おしゃれ：02515_oshare⟧: stylish, fashionable — the more common everyday word for being well-dressed or trendy; derived from the same root\n- ⟦{粋|いき}→粋：13773_iki⟧: chic, refined — carries a traditional Japanese aesthetic sensibility; suggests understated elegance\n- スタイリッシュ: stylish — a loanword from English, used for modern/Western-style trendiness",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13773_iki",
+      "reading": "いき",
+      "headword": "{粋|いき}",
+      "label": "chic, refined"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -67,10 +76,11 @@
       "semantic": [
         "appearance"
       ],
-      "verb_class": "ichidan"
+      "verb_class": "ichidan",
+      "transitivity": "intransitive"
     },
     "created": "2026-04-05T17:03:27Z",
-    "modified": "2026-04-05T17:03:27Z"
+    "modified": "2026-09-02T04:02:07Z"
   },
   "conjugation": {
     "type": "ichidan",

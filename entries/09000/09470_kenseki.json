@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "09470_kenseki_ex1",
-      "japanese": "{上司|じょうし}から{譴責|けんせき}を{受|う}けた。",
+      "japanese": "⟦{上司|じょうし}→上司：03286_joushi⟧⟦から→から：00504_kara⟧{譴責|けんせき}⟦を→を：00422_wo⟧⟦{受|う}けた→受ける：01215_ukeru⟧。",
       "english": "I received a reprimand from my supervisor.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "09470_kenseki_ex2",
-      "japanese": "{譴責|けんせき}{処分|しょぶん}が{下|くだ}された。",
+      "japanese": "{譴責|けんせき}⟦{処分|しょぶん}→処分：05520_shobun⟧⟦が→が：00051_ga⟧⟦{下|くだ}された→下す：12329_kudasu⟧。",
       "english": "A censure was handed down.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "09470_kenseki_ex3",
-      "japanese": "{不正行為|ふせいこうい}に{対|たい}して{厳|きび}しく{譴責|けんせき}する。",
+      "japanese": "⟦{不正行為|ふせいこうい}→不正行為：25084_fuseikoui⟧⟦に{対|たい}して→に対して：06800_nitaishite⟧⟦{厳|きび}しく→厳しい：01125_kibishii⟧{譴責|けんせき}⟦する→する：00392_suru⟧。",
       "english": "To severely censure someone for misconduct.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
     },
     {
       "id": "09470_kenseki_ex4",
-      "japanese": "{国会|こっかい}で{大臣|だいじん}への{譴責|けんせき}{決議|けつぎ}が{可決|かけつ}された。",
+      "japanese": "⟦{国会|こっかい}→国会：02761_kokkai⟧⟦で→で：00502_de⟧⟦{大臣|だいじん}→大臣：03417_daijin⟧⟦へ→へ：02473_he⟧⟦の→の：09472_no⟧{譴責|けんせき}⟦{決議|けつぎ}→決議：16467_ketsugi⟧⟦が→が：00051_ga⟧⟦{可決|かけつ}→可決：00148_kaketsu⟧⟦された→する：00392_suru⟧。",
       "english": "A censure resolution against the minister was passed in the Diet.",
       "notes": null,
       "has_audio": false,
@@ -143,10 +143,10 @@
       ]
     }
   ],
-  "notes": "{譴責|けんせき} is a formal word for official reprimand or censure. The kanji {譴|けん} means \"to blame\" or \"censure.\"\n\nUsage:\n- {譴責|けんせき}する (to reprimand, censure)\n- {譴責|けんせき}を{受|う}ける (to receive a reprimand)\n- {譴責|けんせき}{処分|しょぶん} (disciplinary censure)\n\nContexts:\n- Workplace discipline\n- Professional associations\n- Parliamentary/political censure\n- Military discipline\n\nRelated words:\n- {叱責|しっせき}: scolding, reprimand (more common)\n- {戒告|かいこく}: admonition, warning\n- {訓戒|くんかい}: admonition, caution\n- {非難|ひなん}: criticism, blame",
+  "notes": "{譴責|けんせき} is a formal word for official reprimand or censure. The kanji {譴|けん} means \"to blame\" or \"censure.\"\n\nUsage:\n- {譴責|けんせき}⟦する→する：00392_suru⟧ (to reprimand, censure)\n- {譴責|けんせき}⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧ (to receive a reprimand)\n- {譴責|けんせき}⟦{処分|しょぶん}→処分：05520_shobun⟧ (disciplinary censure)\n\nContexts:\n- Workplace discipline\n- Professional associations\n- Parliamentary/political censure\n- Military discipline\n\nRelated words:\n- ⟦{叱責|しっせき}→叱責：09471_shisseki⟧: scolding, reprimand (more common)\n- ⟦{戒告|かいこく}→戒告：15250_kaikoku⟧: admonition, warning\n- ⟦{訓戒|くんかい}→訓戒：10029_kunkai⟧: admonition, caution\n- ⟦{非難|ひなん}→非難：14616_hinan⟧: criticism, blame",
   "metadata": {
     "created": "2026-02-01T15:20:55Z",
-    "modified": "2026-04-22T08:43:07Z",
+    "modified": "2026-09-02T04:01:18Z",
     "ai_model": "opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -155,7 +155,7 @@
         "verb-suru"
       ],
       "formality": "formal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "communication",
         "work"

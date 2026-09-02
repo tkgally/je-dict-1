@@ -2,7 +2,7 @@
   "id": "02709_kenchiku",
   "headword": "{建築|けんちく}",
   "reading": "けんちく",
-  "part_of_speech": "noun / suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "architecture, construction",
   "conjugation": {
     "type": "suru",
@@ -168,7 +168,7 @@
       ]
     }
   ],
-  "notes": "{建築|けんちく} covers both the field of architecture (design and planning of buildings) and the act of constructing buildings. It functions as a noun and a する verb.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- No standard intransitive pair\n- Pattern: [noun]⟦を→を：00422_wo⟧{建築|けんちく}⟦する→する：00392_suru⟧\n\nCOMMON COMPOUNDS:\n- ⟦{建築|けんちく}{家|か}→建築家：06082_kenchikuka⟧: architect\n- ⟦{建築|けんちく}{物|ぶつ}→建築物：21292_kenchikubutsu⟧: building, structure\n- ⟦{建築|けんちく}{設計|せっけい}→建築設計：26305_kenchikusekkei⟧: architectural design\n- {建築|けんちく}⟦{基準|きじゅん}→基準：00228_kijun⟧⟦{法|ほう}→法：13620_hou⟧: building standards law\n- {建築|けんちく}⟦{資材|しざい}→資材：19470_shizai⟧: building materials\n\nCONTRAST WITH ⟦{建設|けんせつ}→建設：02708_kensetsu⟧:\n{建築|けんちく} focuses on buildings and their design. ⟦{建設|けんせつ}→建設：02708_kensetsu⟧ is broader and includes roads, bridges, dams, and other infrastructure. A ⟦{建築|けんちく}{家|か}→建築家：06082_kenchikuka⟧ designs buildings; a ⟦{建設|けんせつ}→建設：02708_kensetsu⟧⟦{会社|かいしゃ}→会社：00607_kaisha⟧ may build anything.\n\nVERB USAGE:\n{建築|けんちく}⟦する→する：00392_suru⟧ means to construct (a building). Often used in formal or technical contexts.",
+  "notes": "{建築|けんちく} covers both the field of architecture (design and planning of buildings) and the act of constructing buildings. It functions as a noun and a ⟦する→する：00392_suru⟧ verb.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- No standard intransitive pair\n- Pattern: [noun]⟦を→を：00422_wo⟧{建築|けんちく}⟦する→する：00392_suru⟧\n\nCOMPOUNDS:\n- ⟦{建築|けんちく}{家|か}→建築家：06082_kenchikuka⟧: architect\n- ⟦{建築|けんちく}{物|ぶつ}→建築物：21292_kenchikubutsu⟧: building, structure\n- ⟦{建築|けんちく}{設計|せっけい}→建築設計：26305_kenchikusekkei⟧: architectural design\n- {建築|けんちく}⟦{基準|きじゅん}→基準：00228_kijun⟧⟦{法|ほう}→法：13620_hou⟧: building standards law\n- {建築|けんちく}⟦{資材|しざい}→資材：19470_shizai⟧: building materials\n\nCONTRAST WITH ⟦{建設|けんせつ}→建設：02708_kensetsu⟧:\n{建築|けんちく} focuses on buildings and their design. ⟦{建設|けんせつ}→建設：02708_kensetsu⟧ is broader and includes roads, bridges, dams, and other infrastructure. A ⟦{建築|けんちく}{家|か}→建築家：06082_kenchikuka⟧ designs buildings; a ⟦{建設|けんせつ}→建設：02708_kensetsu⟧⟦{会社|かいしゃ}→会社：00607_kaisha⟧ may build anything.\n\nVERB USAGE:\n{建築|けんちく}⟦する→する：00392_suru⟧ means to construct (a building). Often used in formal or technical contexts.",
   "cross_references": [
     {
       "type": "contrast",
@@ -183,11 +183,32 @@
       "reading": "こうじ",
       "headword": "{工事|こうじ}",
       "label": "construction work"
+    },
+    {
+      "type": "related",
+      "target_id": "06567_shinchiku",
+      "reading": "しんちく",
+      "headword": "{新築|しんちく}",
+      "label": "newly built"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20599_doboku",
+      "reading": "どぼく",
+      "headword": "{土木|どぼく}",
+      "label": "civil engineering"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22998_kenzou",
+      "reading": "けんぞう",
+      "headword": "{建造|けんぞう}",
+      "label": "construction"
     }
   ],
   "metadata": {
     "created": "2026-01-11T07:26:30Z",
-    "modified": "2026-05-21T20:18:35Z",
+    "modified": "2026-09-02T04:01:02Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

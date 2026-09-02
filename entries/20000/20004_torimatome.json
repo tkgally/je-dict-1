@@ -15,40 +15,66 @@
   "examples": [
     {
       "id": "20004_torimatome_ex1",
-      "japanese": "{意見|いけん}の{取|と}りまとめを{行|おこな}う。",
+      "japanese": "⟦{意見|いけん}→意見：01303_iken⟧⟦の→の：09472_no⟧{取|と}りまとめ⟦を→を：00422_wo⟧⟦{行|おこな}う→行う：01238_okonau⟧。",
       "english": "To compile opinions.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20004_torimatome_ex2",
-      "japanese": "{報告書|ほうこくしょ}の{取|と}りまとめは{来週|らいしゅう}までにお{願|ねが}いします。",
+      "japanese": "⟦{報告書|ほうこくしょ}→報告書：06744_houkokusho⟧⟦の→の：09472_no⟧{取|と}りまとめ⟦は→は：00079_ha⟧⟦{来週|らいしゅう}→来週：00746_raishuu⟧⟦まで→まで：00490_made⟧⟦に→に：00314_ni⟧お{願|ねが}いします。",
       "english": "Please have the report compiled by next week.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20004_torimatome_ex3",
-      "japanese": "{会議|かいぎ}で{出|で}た{様々|さまざま}な{意見|いけん}を{取|と}りまとめて、{最終|さいしゅう}{案|あん}を{作成|さくせい}した。",
+      "japanese": "⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦で→で：00502_de⟧⟦{出|で}た→出る：00513_deru⟧⟦{様々|さまざま}→様々：01559_samazama⟧な⟦{意見|いけん}→意見：01303_iken⟧⟦を→を：00422_wo⟧{取|と}りまとめて、⟦{最終|さいしゅう}→最終：02820_saishuu⟧⟦{案|あん}→案：01776_an⟧⟦を→を：00422_wo⟧⟦{作成|さくせい}した→作成する：25378_sakuseisuru⟧。",
       "english": "I consolidated the various opinions that came up in the meeting and created a final proposal.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "The noun form of the compound verb {取|と}りまとめる (to compile, to coordinate). Widely used in business and administrative contexts for the process of gathering and organizing information or coordinating tasks.\n\nUSAGE:\nVery common in workplace Japanese. Often appears as {取|と}りまとめ{役|やく} (coordinator, person in charge of pulling things together). The verb form {取|と}りまとめる is equally common.\n\nCOMMON COLLOCATIONS:\n- {取|と}りまとめを{行|おこな}う — to carry out compilation/coordination\n- {取|と}りまとめ{役|やく} — coordinator, organizer\n- {意見|いけん}の{取|と}りまとめ — compilation of opinions\n- {最終|さいしゅう}{取|と}りまとめ — final consolidation\n\nSIMILAR WORDS:\n- まとめ — summary (shorter, more casual)\n- {集約|しゅうやく} — consolidation, aggregation (more formal)\n- {調整|ちょうせい} — coordination, adjustment (focuses on balancing)",
+  "notes": "The noun form of the compound verb {取|と}りまとめる (to compile, to coordinate). Widely used in business and administrative contexts for the process of gathering and organizing information or coordinating tasks.\n\nUSAGE:\nVery common in workplace Japanese. Often appears as {取|と}りまとめ{役|やく} (coordinator, person in charge of pulling things together). The verb form {取|と}りまとめる is equally common.\n\nCOMMON COLLOCATIONS:\n- {取|と}りまとめ⟦を→を：00422_wo⟧⟦{行|おこな}う→行う：01238_okonau⟧ — to carry out compilation/coordination\n- {取|と}りまとめ{役|やく} — coordinator, organizer\n- ⟦{意見|いけん}→意見：01303_iken⟧⟦の→の：09472_no⟧{取|と}りまとめ — compilation of opinions\n- ⟦{最終|さいしゅう}→最終：02820_saishuu⟧{取|と}りまとめ — final consolidation\n\nSIMILAR WORDS:\n- ⟦まとめ→まとめ：10506_matome⟧ — summary (shorter, more casual)\n- ⟦{集約|しゅうやく}→集約：14664_shuuyaku⟧ — consolidation, aggregation (more formal)\n- ⟦{調整|ちょうせい}→調整：14839_chousei⟧ — coordination, adjustment (focuses on balancing)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14664_shuuyaku",
+      "reading": "しゅうやく",
+      "headword": "{集約|しゅうやく}",
+      "label": "consolidation, aggregation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14839_chousei",
+      "reading": "ちょうせい",
+      "headword": "{調整|ちょうせい}",
+      "label": "coordination, adjustment"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["business"]
+      "semantic": [
+        "business"
+      ]
     },
     "created": "2026-03-28T04:34:49Z",
-    "modified": "2026-03-28T04:34:49Z"
+    "modified": "2026-09-02T04:01:58Z"
   }
 }

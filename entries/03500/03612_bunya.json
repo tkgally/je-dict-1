@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "03612_bunya_ex1",
-      "japanese": "⟦{専門|せんもん}→専門：01251_senmon⟧{分野|ぶんや}⟦は→は：00079_ha⟧{何|なん}⟦ですか→です：09485_desu⟧。",
+      "japanese": "⟦{専門|せんもん}→専門：01251_senmon⟧{分野|ぶんや}⟦は→は：00079_ha⟧⟦{何|なん}→何〜：03100_nan⟧⟦ですか→です：09485_desu⟧。",
       "english": "What is your field of specialization?",
       "notes": null,
       "has_audio": false,
@@ -43,10 +43,47 @@
       ]
     }
   ],
-  "notes": "Refers to a domain, area, or branch of knowledge, activity, or industry. More formal than ⟦{領域|りょういき}→領域：05459_ryouiki⟧ in everyday use.\n\nCOMMON COLLOCATIONS:\n- ⟦{専門|せんもん}→専門：01251_senmon⟧{分野|ぶんや}: field of specialization\n- ⟦{研究|けんきゅう}→研究：01396_kenkyuu⟧{分野|ぶんや}: research field\n- 〜の{分野|ぶんや}で: in the field of ~\n- ⟦{様々|さまざま}→様々：01559_samazama⟧な{分野|ぶんや}: various fields\n- ⟦{新|あたら}しい→新しい：00506_atarashii⟧{分野|ぶんや}: new field\n- ⟦{未知|みち}→未知：13014_michi⟧の{分野|ぶんや}: unknown territory\n\nSIMILAR WORDS:\n- ⟦{領域|りょういき}→領域：05459_ryouiki⟧: domain, territory (more abstract, also used for physical areas)\n- ⟦{範囲|はんい}→範囲：03567_hani⟧: range, scope (emphasis on boundaries)\n- ⟦ジャンル→ジャンル：11017_janru⟧: genre (more casual, used for entertainment/media)\n- ⟦{業界|ぎょうかい}→業界：13129_gyoukai⟧: industry (specifically business sectors)",
+  "notes": "Refers to a domain, area, or branch of knowledge, activity, or industry. More formal than ⟦{領域|りょういき}→領域：05459_ryouiki⟧ in everyday use.\n\nCOMMON COLLOCATIONS:\n- ⟦{専門|せんもん}→専門：01251_senmon⟧{分野|ぶんや}: field of specialization\n- ⟦{研究|けんきゅう}→研究：01396_kenkyuu⟧{分野|ぶんや}: research field\n- 〜⟦の→の：09472_no⟧{分野|ぶんや}⟦で→で：00502_de⟧: in the field of ~\n- ⟦{様々|さまざま}→様々：01559_samazama⟧な{分野|ぶんや}: various fields\n- ⟦{新|あたら}しい→新しい：00506_atarashii⟧{分野|ぶんや}: new field\n- ⟦{未知|みち}→未知：13014_michi⟧⟦の→の：09472_no⟧{分野|ぶんや}: unknown territory\n\nSIMILAR WORDS:\n- ⟦{領域|りょういき}→領域：05459_ryouiki⟧: domain, territory (more abstract, also used for physical areas)\n- ⟦{範囲|はんい}→範囲：03567_hani⟧: range, scope (emphasis on boundaries)\n- ⟦ジャンル→ジャンル：11017_janru⟧: genre (more casual, used for entertainment/media)\n- ⟦{業界|ぎょうかい}→業界：13129_gyoukai⟧: industry (specifically business sectors)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05459_ryouiki",
+      "reading": "りょういき",
+      "headword": "{領域|りょういき}",
+      "label": "domain, territory"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03567_hani",
+      "reading": "はんい",
+      "headword": "{範囲|はんい}",
+      "label": "range, scope"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11017_janru",
+      "reading": "じゃんる",
+      "headword": "ジャンル",
+      "label": "genre"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13129_gyoukai",
+      "reading": "ぎょうかい",
+      "headword": "{業界|ぎょうかい}",
+      "label": "industry"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25303_hanchuu",
+      "reading": "はんちゅう",
+      "headword": "{範疇|はんちゅう}",
+      "label": "category"
+    }
+  ],
   "metadata": {
     "created": "2026-01-12T15:35:00Z",
-    "modified": "2026-05-26T18:37:32Z",
+    "modified": "2026-09-02T04:01:03Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

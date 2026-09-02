@@ -15,42 +15,76 @@
   "examples": [
     {
       "id": "12977_keigu_ex1",
-      "japanese": "…よろしくお{願|ねが}いいたします。{敬具|けいぐ}",
+      "japanese": "…⟦よろしく→よろしく：01070_yoroshiku⟧⟦お{願|ねが}いいたします→お願いいたします：27603_onegaiitashimasu⟧。{敬具|けいぐ}",
       "english": "...I humbly ask for your cooperation. Respectfully yours.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12977_keigu_ex2",
-      "japanese": "{拝啓|はいけい}　{時下|じか}ますますご{清栄|せいえい}のこととお{慶|よろこ}び{申|もう}し{上|あ}げます。…{敬具|けいぐ}",
+      "japanese": "⟦{拝啓|はいけい}→拝啓：12790_haikei⟧　{時下|じか}⟦ますます→ますます：01604_masumasu⟧ご{清栄|せいえい}⟦の→の：09472_no⟧こととお{慶|よろこ}び⟦{申|もう}し{上|あ}げます→申し上げる：01734_moushiageru⟧。…{敬具|けいぐ}",
       "english": "Dear Sir/Madam, I am pleased to hear of your continued prosperity. ... Respectfully yours.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12977_keigu_ex3",
-      "japanese": "ビジネスレターでは{拝啓|はいけい}で{始|はじ}めて{敬具|けいぐ}で{締|し}めるのが{基本|きほん}だ。",
+      "japanese": "⟦ビジネス→ビジネス：11162_bijinesu⟧レター⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{拝啓|はいけい}→拝啓：12790_haikei⟧⟦で→で：00502_de⟧⟦{始|はじ}めて→始める：00531_hajimeru⟧{敬具|けいぐ}⟦で→で：00502_de⟧⟦{締|し}める→締める：10057_shimeru⟧⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦{基本|きほん}→基本：00226_kihon⟧だ。",
       "english": "In business letters, the standard practice is to begin with 拝啓 and close with 敬具.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nAlways paired with the opening {拝啓|はいけい} (Dear Sir/Madam). This is the most standard formal opening-closing pair in Japanese letter writing. Written on its own line at the end of the letter body, typically right-aligned.\n\nLETTER PAIRS:\n- {拝啓|はいけい}…{敬具|けいぐ}: standard formal pair\n- {謹啓|きんけい}…{謹言|きんげん}: very formal pair (used for highly important letters)\n- {前略|ぜんりゃく}…{草々|そうそう}: abbreviated pair (skips seasonal greetings)\n\nNOTE:\nRarely used in email — business emails in Japan typically omit these traditional opening/closing formulas. Still required in formal printed letters, invitations, and official correspondence.\n\nSIMILAR WORDS:\n- {拝啓|はいけい}: Dear Sir/Madam (paired opening)\n- {草々|そうそう}: informal letter closing (pairs with {前略|ぜんりゃく})\n- {謹言|きんげん}: very formal letter closing (pairs with {謹啓|きんけい})",
-  "cross_references": [],
+  "notes": "USAGE:\nAlways paired with the opening ⟦{拝啓|はいけい}→拝啓：12790_haikei⟧ (Dear Sir/Madam). This is the most standard formal opening-closing pair in Japanese letter writing. Written on its own line at the end of the letter body, typically right-aligned.\nRarely used in email — business emails in Japan typically omit these traditional opening/closing formulas. Still required in formal printed letters, invitations, and official correspondence.\n\nLETTER PAIRS:\n- ⟦{拝啓|はいけい}→拝啓：12790_haikei⟧…{敬具|けいぐ}: standard formal pair\n- ⟦{謹啓|きんけい}→謹啓：22309_kinkei⟧…{謹言|きんげん}: very formal pair (used for highly important letters)\n- {前略|ぜんりゃく}…{草々|そうそう}: abbreviated pair (skips seasonal greetings)\n\nSIMILAR WORDS:\n- ⟦{拝啓|はいけい}→拝啓：12790_haikei⟧: Dear Sir/Madam (paired opening)\n- {草々|そうそう}: informal letter closing (pairs with {前略|ぜんりゃく})\n- {謹言|きんげん}: very formal letter closing (pairs with ⟦{謹啓|きんけい}→謹啓：22309_kinkei⟧)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12790_haikei",
+      "reading": "はいけい",
+      "headword": "{拝啓|はいけい}",
+      "label": "Dear Sir/Madam"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22308_keihaku",
+      "reading": "けいはく",
+      "headword": "{敬白|けいはく}",
+      "label": "respectfully yours"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24865_tonshu",
+      "reading": "とんしゅ",
+      "headword": "{頓首|とんしゅ}",
+      "label": "respectfully yours"
+    }
+  ],
   "metadata": {
     "created": "2026-02-22T23:46:43Z",
-    "modified": "2026-02-22T23:46:43Z",
+    "modified": "2026-09-02T04:01:31Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["expression"],
+      "pos": [
+        "expression"
+      ],
       "formality": "formal",
       "politeness": "polite",
-      "style": ["written"],
-      "semantic": ["communication"]
+      "style": [
+        "written"
+      ],
+      "semantic": [
+        "communication"
+      ]
     }
   }
 }

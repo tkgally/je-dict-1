@@ -15,41 +15,61 @@
   "examples": [
     {
       "id": "28052_mizumono_ex1",
-      "japanese": "{勝負|しょうぶ}は{水物|みずもの}だ。",
+      "japanese": "⟦{勝負|しょうぶ}→勝負：01437_shoubu⟧⟦は→は：00079_ha⟧{水物|みずもの}だ。",
       "english": "A contest is a matter of chance.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28052_mizumono_ex2",
-      "japanese": "{選挙|せんきょ}は{水物|みずもの}だとよく{言|い}われる。",
+      "japanese": "⟦{選挙|せんきょ}→選挙：03303_senkyo⟧⟦は→は：00079_ha⟧{水物|みずもの}だ⟦と→と：00512_to⟧⟦よく→よく：00601_yoku⟧⟦{言|い}われる→言う：00515_iu⟧。",
       "english": "Elections are often said to be unpredictable.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28052_mizumono_ex3",
-      "japanese": "{商売|しょうばい}は{水物|みずもの}で、{来年|らいねん}どうなるかは{誰|だれ}にも{分|わ}からない。",
+      "japanese": "⟦{商売|しょうばい}→商売：03239_shoubai⟧⟦は→は：00079_ha⟧{水物|みずもの}で、⟦{来年|らいねん}→来年：00745_rainen⟧⟦どう→どう：00543_dou⟧⟦なる→なる：01970_naru⟧⟦か→か：09473_ka⟧⟦は→は：00079_ha⟧⟦{誰|だれ}→誰：00534_dare⟧⟦に→に：00314_ni⟧⟦も→も：00484_mo⟧⟦{分|わ}からない→分かる：00463_wakaru⟧。",
       "english": "Business is unpredictable; no one knows what next year will bring.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Almost always used as a predicate (Xは{水物|みずもの}だ) to stress that an outcome is uncertain. Literally \"water thing,\" from the image of something that flows and keeps changing.\n\nCOMMON COLLOCATIONS:\n- {勝負|しょうぶ}は{水物|みずもの}: the outcome of a match is unpredictable\n- {人気|にんき}は{水物|みずもの}: popularity is fickle\n\nSIMILAR WORDS:\n- {運次第|うんしだい}: depending on luck — focuses specifically on luck\n- {不確実|ふかくじつ}: uncertain — neutral and more formal",
+  "notes": "Almost always used as a predicate (X⟦は→は：00079_ha⟧{水物|みずもの}だ) to stress that an outcome is uncertain. Literally \"water thing,\" from the image of something that flows and keeps changing.\n\nCOMMON COLLOCATIONS:\n- ⟦{勝負|しょうぶ}→勝負：01437_shoubu⟧⟦は→は：00079_ha⟧{水物|みずもの}: the outcome of a match is unpredictable\n- ⟦{人気|にんき}→人気：01488_ninki⟧⟦は→は：00079_ha⟧{水物|みずもの}: popularity is fickle\n\nSIMILAR WORDS:\n- {運次第|うんしだい}: depending on luck — focuses specifically on luck\n- ⟦{不確実|ふかくじつ}→不確実：15727_fukakujitsu⟧: uncertain — neutral and more formal",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15727_fukakujitsu",
+      "reading": "ふかくじつ",
+      "headword": "{不確実|ふかくじつ}",
+      "label": "uncertain"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["abstract", "business"],
+      "politeness": "plain",
+      "semantic": [
+        "abstract",
+        "business"
+      ],
       "domain": []
     },
     "created": "2026-05-25T02:04:35Z",
-    "modified": "2026-05-25T02:04:35Z"
+    "modified": "2026-09-02T04:02:32Z"
   }
 }

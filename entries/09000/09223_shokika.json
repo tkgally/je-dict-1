@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "09223_shokika_ex1",
-      "japanese": "ハードディスクを{初期化|しょきか}する。",
+      "japanese": "⟦ハードディスク→ハードディスク：06603_haadodisuku⟧⟦を→を：00422_wo⟧{初期化|しょきか}⟦する→する：00392_suru⟧。",
       "english": "To format the hard disk.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "09223_shokika_ex2",
-      "japanese": "{初期化|しょきか}するとデータが{消|き}えます。",
+      "japanese": "{初期化|しょきか}⟦する→する：00392_suru⟧⟦と→と：00512_to⟧⟦データ→データ：03944_deeta⟧⟦が→が：00051_ga⟧⟦{消|き}えます→消える：02520_kieru⟧。",
       "english": "Data will be erased if you initialize.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "09223_shokika_ex3",
-      "japanese": "スマホを{売|う}る{前|まえ}に{初期化|しょきか}した{方|ほう}がいい。",
+      "japanese": "⟦スマホ→スマホ：04721_sumaho⟧⟦を→を：00422_wo⟧⟦{売|う}る→売る：00906_uru⟧⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧{初期化|しょきか}⟦した→する：00392_suru⟧⟦{方|ほう}→方：01139_hou⟧⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧。",
       "english": "You should factory reset your smartphone before selling it.",
       "notes": null,
       "has_audio": false,
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "{初期化|しょきか} means to reset to initial/factory state, commonly used for electronic devices and storage media.\n\nWORD COMPOSITION:\n- {初期|しょき}: initial, early stage\n- {化|か}: -ization, making into\n\nCOMMON COLLOCATIONS:\n- {初期化|しょきか}する: to initialize, to format\n- {初期化|しょきか}{画面|がめん}: initialization screen\n- {工場|こうじょう}{初期化|しょきか}: factory reset\n- {初期化|しょきか}に{失敗|しっぱい}: initialization failed\n\nWARNING:\n- {初期化|しょきか} deletes all data - always back up before initializing\n- Used for troubleshooting or preparing devices for sale/transfer",
+  "notes": "{初期化|しょきか} means to reset to initial/factory state, commonly used for electronic devices and storage media.\n\nWORD COMPOSITION:\n- ⟦{初期|しょき}→初期：11742_shoki⟧: initial, early stage\n- ⟦{化|か}→〜化：28335_ka⟧: -ization, making into\n\nCOMMON COLLOCATIONS:\n- {初期化|しょきか}⟦する→する：00392_suru⟧: to initialize, to format\n- {初期化|しょきか}⟦{画面|がめん}→画面：04406_gamen⟧: initialization screen\n- ⟦{工場|こうじょう}→工場：01082_koujou⟧{初期化|しょきか}: factory reset\n- {初期化|しょきか}⟦に→に：00314_ni⟧⟦{失敗|しっぱい}→失敗：01636_shippai⟧: initialization failed\n\nWATCH OUT:\n- {初期化|しょきか} deletes all data - always back up before initializing\n- Used for troubleshooting or preparing devices for sale/transfer",
   "cross_references": [
     {
       "type": "related",
@@ -141,11 +141,25 @@
       "headword": "{再起動|さいきどう}",
       "label": "restart",
       "target_id": "09222_saikidou"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23365_shokichi",
+      "reading": "しょきち",
+      "headword": "{初期値|しょきち}",
+      "label": "initial value"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25043_saisettei",
+      "reading": "さいせってい",
+      "headword": "{再設定|さいせってい}",
+      "label": "resetting"
     }
   ],
   "metadata": {
     "created": "2026-02-01T02:43:55Z",
-    "modified": "2026-08-12T21:25:53Z",
+    "modified": "2026-09-02T04:01:17Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

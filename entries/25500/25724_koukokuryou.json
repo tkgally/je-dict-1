@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25724_koukokuryou_ex1",
-      "japanese": "{広告料|こうこくりょう}を{払|はら}ってCMを{出|だ}す。",
+      "japanese": "{広告料|こうこくりょう}⟦を→を：00422_wo⟧⟦{払|はら}って→払う：00535_harau⟧CM⟦を→を：00422_wo⟧⟦{出|だ}す→出す：01087_dasu⟧。",
       "english": "To pay an advertising fee to run a commercial.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25724_koukokuryou_ex2",
-      "japanese": "この{雑誌|ざっし}は{広告料|こうこくりょう}で{成|な}り{立|た}っている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{雑誌|ざっし}→雑誌：00686_zasshi⟧⟦は→は：00079_ha⟧{広告料|こうこくりょう}⟦で→で：00502_de⟧⟦{成|な}り{立|た}っている→成り立つ：07921_naritatsu⟧。",
       "english": "This magazine is sustained by advertising revenue.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25724_koukokuryou_ex3",
-      "japanese": "ネット{広告|こうこく}の{広告料|こうこくりょう}はクリック{数|すう}に{応|おう}じて{変|か}わる。",
+      "japanese": "⟦ネット→ネット：05279_netto⟧⟦{広告|こうこく}→広告：02747_koukoku⟧⟦の→の：09472_no⟧{広告料|こうこくりょう}⟦は→は：00079_ha⟧⟦クリック→クリック：05275_kurikku⟧⟦{数|すう}→数：03360_suu⟧⟦に→に：00314_ni⟧⟦{応|おう}じて→応じる：02018_oujiru⟧⟦{変|か}わる→変わる：00714_kawaru⟧。",
       "english": "Online advertising fees change depending on the number of clicks.",
       "sense_numbers": [
         1
@@ -44,13 +44,20 @@
       "notes": null
     }
   ],
-  "notes": "{広告|こうこく} (advertisement) + {料|りょう} (fee, charge). Can refer both to the cost of placing an ad and to the revenue earned from hosting ads. Common in media, marketing, and business discussions.\n\nCOMMON COLLOCATIONS:\n- {広告料|こうこくりょう}を{払|はら}う — pay advertising fees\n- {広告料|こうこくりょう}{収入|しゅうにゅう} — advertising revenue\n- {広告料|こうこくりょう}が{高|たか}い — advertising fees are high\n- {広告料|こうこくりょう}で{運営|うんえい}する — operate on advertising revenue\n\nSIMILAR WORDS:\n- {広告費|こうこくひ} — advertising expenses — focuses on the cost side from the advertiser's perspective\n- {掲載料|けいさいりょう} — publication fee; listing fee — the fee for having something published or listed\n- {広告|こうこく}{収入|しゅうにゅう} — advertising income — specifically the revenue side",
+  "notes": "⟦{広告|こうこく}→広告：02747_koukoku⟧ (advertisement) + ⟦{料|りょう}→料：28172_ryou⟧ (fee, charge). Can refer both to the cost of placing an ad and to the revenue earned from hosting ads. Common in media, marketing, and business discussions.\n\nCOMMON COLLOCATIONS:\n- {広告料|こうこくりょう}⟦を→を：00422_wo⟧⟦{払|はら}う→払う：00535_harau⟧ — pay advertising fees\n- {広告料|こうこくりょう}⟦{収入|しゅうにゅう}→収入：03213_shuunyuu⟧ — advertising revenue\n- {広告料|こうこくりょう}⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧ — advertising fees are high\n- {広告料|こうこくりょう}⟦で→で：00502_de⟧⟦{運営|うんえい}する→運営する：21987_uneisuru⟧ — operate on advertising revenue\n\nSIMILAR WORDS:\n- ⟦{広告費|こうこくひ}→広告費：30159_koukokuhi⟧ — advertising expenses — focuses on the cost side from the advertiser's perspective\n- {掲載料|けいさいりょう} — publication fee; listing fee — the fee for having something published or listed\n- ⟦{広告|こうこく}→広告：02747_koukoku⟧⟦{収入|しゅうにゅう}→収入：03213_shuunyuu⟧ — advertising income — specifically the revenue side",
   "cross_references": [
     {
       "type": "related",
       "reading": "こうこくぬし",
       "description": "{広告主|こうこくぬし} — advertiser",
       "target_id": "25701_koukokunushi"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30159_koukokuhi",
+      "reading": "こうこくひ",
+      "headword": "{広告費|こうこくひ}",
+      "label": "advertising expenses"
     }
   ],
   "schema_version": "2.0",
@@ -60,12 +67,14 @@
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "business",
         "media"
       ]
     },
     "created": "2026-04-26T16:36:46Z",
-    "modified": "2026-06-19T03:23:54Z"
+    "modified": "2026-09-02T04:02:23Z"
   }
 }

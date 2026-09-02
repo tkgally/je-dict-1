@@ -15,41 +15,68 @@
   "examples": [
     {
       "id": "27828_yosa_ex1",
-      "japanese": "この{町|まち}の{良|よ}さを{伝|つた}えたい。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{町|まち}→町：00613_machi⟧⟦の→の：09472_no⟧{良|よ}さ⟦を→を：00422_wo⟧⟦{伝|つた}えたい→伝える：01220_tsutaeru⟧。",
       "english": "I want to convey the appeal of this town.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27828_yosa_ex2",
-      "japanese": "{使|つか}ってみて、はじめてこの{道具|どうぐ}の{良|よ}さがわかった。",
+      "japanese": "⟦{使|つか}って→使う：00473_tsukau⟧みて、はじめて⟦この→この：00962_kono⟧⟦{道具|どうぐ}→道具：01479_dougu⟧⟦の→の：09472_no⟧{良|よ}さ⟦が→が：00051_ga⟧わかった。",
       "english": "Only after trying it did I understand how good this tool is.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27828_yosa_ex3",
-      "japanese": "{木|き}でできた{家具|かぐ}の{良|よ}さは、{時間|じかん}が{経|た}つほど{味|あじ}わいが{増|ま}すところにある。",
+      "japanese": "⟦{木|き}→木：00524_ki⟧⟦で→で：00502_de⟧⟦できた→できる：00557_dekiru⟧⟦{家具|かぐ}→家具：12314_kagu⟧⟦の→の：09472_no⟧{良|よ}さ⟦は→は：00079_ha⟧、⟦{時間|じかん}が{経|た}つ→時間が経つ：24138_jikangatatsu⟧ほど⟦{味|あじ}わい→味わい：11899_ajiwai⟧⟦が→が：00051_ga⟧⟦{増|ま}す→増す：02422_masu⟧⟦ところ→ところ：01137_tokoro⟧⟦に→に：00314_ni⟧⟦ある→ある：00006_aru⟧。",
       "english": "The appeal of wooden furniture lies in how its character deepens as time passes.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "The noun form of the adjective {良|よ}い / いい (good), formed by replacing the final い with さ. Expresses the degree or quality of goodness, or the merits of something.\n\nCOMMON COLLOCATIONS:\n- {良|よ}さを{伝|つた}える: to convey the appeal (of something)\n- {良|よ}さが{分|わ}かる: to appreciate the good points\n- {良|よ}さを{生|い}かす: to make the most of a strength\n\nSIMILAR WORDS:\n- {長所|ちょうしょ}: strong point; merit — a specific good feature, more concrete\n- {魅力|みりょく}: charm; appeal — emphasizes attractiveness rather than plain quality",
+  "notes": "The noun form of the adjective ⟦{良|よ}い→良い：02350_yoi⟧ / ⟦いい→いい：00118_ii⟧ (good), formed by replacing the final い with さ. Expresses the degree or quality of goodness, or the merits of something.\n\nCOMMON COLLOCATIONS:\n- {良|よ}さ⟦を→を：00422_wo⟧⟦{伝|つた}える→伝える：01220_tsutaeru⟧: to convey the appeal (of something)\n- {良|よ}さ⟦が→が：00051_ga⟧⟦{分|わ}かる→分かる：00463_wakaru⟧: to appreciate the good points\n- {良|よ}さ⟦を→を：00422_wo⟧{生|い}かす: to make the most of a strength\n\nSIMILAR WORDS:\n- ⟦{長所|ちょうしょ}→長所：03121_chousho⟧: strong point; merit — a specific good feature, more concrete\n- ⟦{魅力|みりょく}→魅力：03749_miryoku⟧: charm; appeal — emphasizes attractiveness rather than plain quality",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03121_chousho",
+      "reading": "ちょうしょ",
+      "headword": "{長所|ちょうしょ}",
+      "label": "strong point"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03749_miryoku",
+      "reading": "みりょく",
+      "headword": "{魅力|みりょく}",
+      "label": "charm"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["evaluation", "abstract"],
+      "politeness": "plain",
+      "semantic": [
+        "evaluation",
+        "abstract"
+      ],
       "domain": []
     },
     "created": "2026-05-19T04:03:25Z",
-    "modified": "2026-05-19T04:03:25Z"
+    "modified": "2026-09-02T04:02:31Z"
   }
 }

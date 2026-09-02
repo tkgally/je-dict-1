@@ -49,7 +49,7 @@
     },
     {
       "id": "01502_futsuu_ex4",
-      "japanese": "{普通|ふつう}⟦の→の：09472_no⟧⟦{電車|でんしゃ}→電車：00522_densha⟧⟦に→に：00314_ni⟧⟦{乗|の}った→乗る：00511_noru⟧ので、⟦{時間|じかん}→時間：00468_jikan⟧⟦が→が：00051_ga⟧⟦かかった→かかる：00711_kakaru⟧。",
+      "japanese": "{普通|ふつう}⟦の→の：09472_no⟧⟦{電車|でんしゃ}→電車：00522_densha⟧⟦に→に：00314_ni⟧⟦{乗|の}った→乗る：00511_noru⟧⟦の→の：09472_no⟧で、⟦{時間|じかん}→時間：00468_jikan⟧⟦が→が：00051_ga⟧⟦かかった→かかる：00711_kakaru⟧。",
       "english": "I took the local train, so it took a long time.",
       "notes": null,
       "has_audio": false,
@@ -154,11 +154,67 @@
       "reading": "めずらしい",
       "headword": "{珍|めずら}しい",
       "label": "unusual"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27316_tsuujou",
+      "reading": "つうじょう",
+      "headword": "{通常|つうじょう}",
+      "label": "usually, normally"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04784_ippanteki",
+      "reading": "いっぱんてき",
+      "headword": "{一般的|いっぱんてき}",
+      "label": "general, typical"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12425_heibon",
+      "reading": "へいぼん",
+      "headword": "{平凡|へいぼん}",
+      "label": "ordinary, mediocre"
+    },
+    {
+      "type": "related",
+      "target_id": "03085_seijou",
+      "reading": "せいじょう",
+      "headword": "{正常|せいじょう}",
+      "label": "normal, regular, healthy"
+    },
+    {
+      "type": "related",
+      "target_id": "04801_tenkeiteki",
+      "reading": "てんけいてき",
+      "headword": "{典型的|てんけいてき}",
+      "label": "typical"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05668_hyoujunteki",
+      "reading": "ひょうじゅんてき",
+      "headword": "{標準的|ひょうじゅんてき}",
+      "label": "standard"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20159_heibonna",
+      "reading": "へいぼんな",
+      "headword": "{平凡|へいぼん}な",
+      "label": "ordinary"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21340_ippantekini",
+      "reading": "いっぱんてきに",
+      "headword": "{一般的|いっぱんてき}に",
+      "label": "generally"
     }
   ],
   "metadata": {
     "created": "2026-01-08T12:32:34Z",
-    "modified": "2026-08-26T00:23:03Z",
+    "modified": "2026-09-02T04:00:59Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

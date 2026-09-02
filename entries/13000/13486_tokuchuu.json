@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "13486_tokuchuu_ex1",
-      "japanese": "このスーツは{特注|とくちゅう}で{作|つく}った。",
+      "japanese": "⟦この→この：00962_kono⟧⟦スーツ→スーツ：01367_suutsu⟧⟦は→は：00079_ha⟧{特注|とくちゅう}⟦で→で：00502_de⟧⟦{作|つく}った→作る：00481_tsukuru⟧。",
       "english": "This suit was custom-made.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "13486_tokuchuu_ex2",
-      "japanese": "{特注|とくちゅう}の{家具|かぐ}は{値段|ねだん}が{高|たか}いが{長持|ながも}ちする。",
+      "japanese": "{特注|とくちゅう}⟦の→の：09472_no⟧⟦{家具|かぐ}→家具：12314_kagu⟧⟦は→は：00079_ha⟧⟦{値段|ねだん}→値段：00871_nedan⟧⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧⟦が→が：00051_ga⟧⟦{長持|ながも}ち→長持ち：14474_nagamochi⟧⟦する→する：00392_suru⟧。",
       "english": "Custom-made furniture is expensive but lasts a long time.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "13486_tokuchuu_ex3",
-      "japanese": "{体|からだ}が{大|おお}きいので、{靴|くつ}はいつも{特注|とくちゅう}で{頼|たの}んでいる。",
+      "japanese": "⟦{体|からだ}→体：00784_karada⟧⟦が→が：00051_ga⟧⟦{大|おお}きい→大きい：00335_ookii⟧⟦の→の：09472_no⟧で、⟦{靴|くつ}→靴：00725_kutsu⟧⟦は→は：00079_ha⟧⟦いつも→いつも：00599_itsumo⟧{特注|とくちゅう}⟦で→で：00502_de⟧⟦{頼|たの}んでいる→頼む：01104_tanomu⟧。",
       "english": "Since I'm large, I always order shoes custom-made.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nShort for {特別|とくべつ}{注文|ちゅうもん} (special order). Used as a noun or as a の-adjective: {特注|とくちゅう}の{品|しな} (a custom-made item), {特注|とくちゅう}{品|ひん} (custom product). Common in contexts involving clothing, furniture, equipment, and any goods that can be tailored to individual specifications.\n\nCOMMON COLLOCATIONS:\n- {特注|とくちゅう}{品|ひん}: custom-made product\n- {特注|とくちゅう}で{作|つく}る: to have custom-made\n- {特注|とくちゅう}の{家具|かぐ}: custom furniture\n- {特注|とくちゅう}サイズ: custom size",
+  "notes": "USAGE:\nShort for ⟦{特別|とくべつ}→特別：01120_tokubetsu⟧⟦{注文|ちゅうもん}→注文：03485_chuumon⟧ (special order). Used as a noun or as a ⟦の→の：09472_no⟧-adjective: {特注|とくちゅう}⟦の→の：09472_no⟧⟦{品|しな}→品：03192_shina⟧ (a custom-made item), {特注|とくちゅう}⟦{品|ひん}→品：03712_hin⟧ (custom product). Common in contexts involving clothing, furniture, equipment, and any goods that can be tailored to individual specifications.\n\nCOMMON COLLOCATIONS:\n- {特注|とくちゅう}⟦{品|ひん}→品：03712_hin⟧: custom-made product\n- {特注|とくちゅう}⟦で→で：00502_de⟧⟦{作|つく}る→作る：00481_tsukuru⟧: to have custom-made\n- {特注|とくちゅう}⟦の→の：09472_no⟧⟦{家具|かぐ}→家具：12314_kagu⟧: custom furniture\n- {特注|とくちゅう}⟦サイズ→サイズ：01363_saizu⟧: custom size",
   "cross_references": [
     {
       "type": "related",
@@ -52,11 +52,25 @@
       "reading": "ちゅうもん",
       "headword": "{注文|ちゅうもん}",
       "label": "order"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21696_becchuu",
+      "reading": "べっちゅう",
+      "headword": "{別注|べっちゅう}",
+      "label": "special order"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27367_kasutamu",
+      "reading": "かすたむ",
+      "headword": "カスタム",
+      "label": "custom"
     }
   ],
   "metadata": {
     "created": "2026-02-24T13:29:04Z",
-    "modified": "2026-07-10T04:36:00Z",
+    "modified": "2026-09-02T04:01:33Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

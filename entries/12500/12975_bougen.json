@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "12975_bougen_ex1",
-      "japanese": "{暴言|ぼうげん}を{吐|は}くのはやめてください。",
+      "japanese": "{暴言|ぼうげん}⟦を→を：00422_wo⟧⟦{吐|は}く→吐く：04397_haku⟧⟦の→の：09472_no⟧はやめて⟦ください→ください：02899_kudasai⟧。",
       "english": "Please stop making abusive remarks.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "12975_bougen_ex2",
-      "japanese": "{議員|ぎいん}の{暴言|ぼうげん}が{問題|もんだい}になっている。",
+      "japanese": "⟦{議員|ぎいん}→議員：02660_giin⟧⟦の→の：09472_no⟧{暴言|ぼうげん}⟦が→が：00051_ga⟧⟦{問題|もんだい}→問題：00797_mondai⟧になっている。",
       "english": "The politician's offensive remarks have become a problem.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "12975_bougen_ex3",
-      "japanese": "{客|きゃく}から{暴言|ぼうげん}を{浴|あ}びせられた{店員|てんいん}が、{精神的|せいしんてき}に{追|お}い{詰|つ}められている。",
+      "japanese": "⟦{客|きゃく}→客：00865_kyaku⟧⟦から→から：00504_kara⟧{暴言|ぼうげん}⟦を→を：00422_wo⟧{浴|あ}びせられた⟦{店員|てんいん}→店員：00897_tenin⟧⟦が→が：00051_ga⟧、⟦{精神的|せいしんてき}→精神的：05851_seishinteki⟧⟦に→に：00314_ni⟧⟦{追|お}い{詰|つ}められている→追い詰める：14311_oitsumeru⟧。",
       "english": "The store clerk who was subjected to verbal abuse from a customer is being driven into a corner mentally.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA strong word indicating speech that is abusive, offensive, or deeply hurtful. Often used in news reporting about public figures (politicians, celebrities) making inappropriate remarks, or in discussions of workplace harassment and customer abuse.\n\nCOMMON COLLOCATIONS:\n- {暴言|ぼうげん}を{吐|は}く: to utter abusive words\n- {暴言|ぼうげん}を{浴|あ}びせる: to hurl verbal abuse at someone\n- {暴言|ぼうげん}を{浴|あ}びる: to be subjected to verbal abuse\n\nSIMILAR WORDS:\n- {悪口|わるくち}: bad-mouthing, speaking ill of someone (less severe)\n- {罵倒|ばとう}: verbal attack, denunciation (even harsher)\n- {失言|しつげん}: slip of the tongue, gaffe (unintentional)",
+  "notes": "USAGE:\nA strong word indicating speech that is abusive, offensive, or deeply hurtful. Often used in news reporting about public figures (politicians, celebrities) making inappropriate remarks, or in discussions of workplace harassment and customer abuse.\n\nCOMMON COLLOCATIONS:\n- {暴言|ぼうげん}⟦を→を：00422_wo⟧⟦{吐|は}く→吐く：04397_haku⟧: to utter abusive words\n- {暴言|ぼうげん}⟦を→を：00422_wo⟧{浴|あ}びせる: to hurl verbal abuse at someone\n- {暴言|ぼうげん}⟦を→を：00422_wo⟧⟦{浴|あ}びる→浴びる：02844_abiru⟧: to be subjected to verbal abuse\n\nSIMILAR WORDS:\n- ⟦{悪口|わるくち}→悪口：03794_warukuchi⟧: bad-mouthing, speaking ill of someone (less severe)\n- ⟦{罵倒|ばとう}→罵倒：13898_batou⟧: verbal attack, denunciation (even harsher)\n- ⟦{失言|しつげん}→失言：12189_shitsugen⟧: slip of the tongue, gaffe (unintentional)",
   "cross_references": [
     {
       "type": "related",
@@ -52,11 +52,32 @@
       "reading": "ぼうりょく",
       "headword": "{暴力|ぼうりょく}",
       "label": "violence"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03794_warukuchi",
+      "reading": "わるくち",
+      "headword": "{悪口|わるくち}",
+      "label": "bad-mouthing, speaking ill of someone"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13898_batou",
+      "reading": "ばとう",
+      "headword": "{罵倒|ばとう}",
+      "label": "verbal attack, denunciation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12189_shitsugen",
+      "reading": "しつげん",
+      "headword": "{失言|しつげん}",
+      "label": "slip of the tongue, gaffe"
     }
   ],
   "metadata": {
     "created": "2026-02-22T23:46:01Z",
-    "modified": "2026-04-27T10:17:30Z",
+    "modified": "2026-09-02T04:01:31Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

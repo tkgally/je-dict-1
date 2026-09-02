@@ -3,7 +3,7 @@
   "headword": "{絵付|えつ}け",
   "reading": "えつけ",
   "romaji": "etsuke",
-  "part_of_speech": "noun; verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "painting (on ceramics, pottery); decorating with designs",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22583_etsuke_ex1",
-      "japanese": "{絵付|えつ}けを{体験|たいけん}する。",
+      "japanese": "{絵付|えつ}け⟦を→を：00422_wo⟧⟦{体験|たいけん}する→体験する：09858_taikensuru⟧。",
       "english": "To try one's hand at ceramic painting.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22583_etsuke_ex2",
-      "japanese": "この{皿|さら}は{手描|てが}きの{絵付|えつ}けが{美|うつく}しい。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{皿|さら}→皿：00883_sara⟧⟦は→は：00079_ha⟧{手描|てが}き⟦の→の：09472_no⟧{絵付|えつ}け⟦が→が：00051_ga⟧⟦{美|うつく}しい→美しい：01121_utsukushii⟧。",
       "english": "This plate has beautiful hand-painted designs.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22583_etsuke_ex3",
-      "japanese": "{窯元|かまもと}で{絵付|えつ}け{体験|たいけん}ができるツアーに{参加|さんか}した。",
+      "japanese": "{窯元|かまもと}⟦で→で：00502_de⟧{絵付|えつ}け⟦{体験|たいけん}→体験：11443_taiken⟧⟦が→が：00051_ga⟧⟦できる→できる：00557_dekiru⟧⟦ツアー→ツアー：08285_tsuaa⟧⟦に→に：00314_ni⟧⟦{参加|さんか}した→参加する：25408_sankasuru⟧。",
       "english": "I joined a tour where you can try ceramic painting at a kiln workshop.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {絵|え} (picture, painting) and {付|つ}け (applying, attaching). Refers to the craft of painting decorative patterns or pictures onto pottery, porcelain, or other ceramics before or after glazing. A key step in traditional Japanese pottery production. Often offered as an activity at pottery studios and tourist destinations.\n\nCOMMON COLLOCATIONS:\n- {絵付|えつ}け{体験|たいけん}: ceramic painting experience\n- {絵付|えつ}け{師|し}: ceramic painter (artisan)\n- {手描|てが}きの{絵付|えつ}け: hand-painted decoration\n- {下絵付|したえつ}け: underglaze painting (applied before glazing)\n- {上絵付|うわえつ}け: overglaze painting (applied after initial firing)\n\nRELATED TERMS:\n- {焼|や}き{物|もの}: pottery, ceramics — the broader field\n- {釉薬|ゆうやく}: glaze — the coating applied before firing\n- {陶芸|とうげい}: ceramic art, pottery making — the art form as a whole",
+  "notes": "A compound of ⟦{絵|え}→絵：02613_e⟧ (picture, painting) and ⟦{付|つ}け→付く：01960_tsuku⟧ (applying, attaching). Refers to the craft of painting decorative patterns or pictures onto pottery, porcelain, or other ceramics before or after glazing. A key step in traditional Japanese pottery production. Often offered as an activity at pottery studios and tourist destinations.\n\nCOMMON COLLOCATIONS:\n- {絵付|えつ}け⟦{体験|たいけん}→体験：11443_taiken⟧: ceramic painting experience\n- {絵付|えつ}け{師|し}: ceramic painter (artisan)\n- {手描|てが}き⟦の→の：09472_no⟧{絵付|えつ}け: hand-painted decoration\n- {下絵付|したえつ}け: underglaze painting (applied before glazing)\n- {上絵付|うわえつ}け: overglaze painting (applied after initial firing)\n\nRELATED WORDS:\n- ⟦{焼|や}き{物|もの}→焼き物：04974_yakimono⟧: pottery, ceramics — the broader field\n- ⟦{釉薬|ゆうやく}→釉薬：23335_yuuyaku⟧: glaze — the coating applied before firing\n- ⟦{陶芸|とうげい}→陶芸：04449_tougei⟧: ceramic art, pottery making — the art form as a whole",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "04974_yakimono",
+      "reading": "やきもの",
+      "headword": "{焼|や}き{物|もの}",
+      "label": "pottery, ceramics"
+    },
+    {
+      "type": "related",
+      "target_id": "23335_yuuyaku",
+      "reading": "ゆうやく",
+      "headword": "{釉薬|ゆうやく}",
+      "label": "glaze"
+    },
+    {
+      "type": "related",
+      "target_id": "04449_tougei",
+      "reading": "とうげい",
+      "headword": "{陶芸|とうげい}",
+      "label": "ceramic art, pottery making"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,7 +84,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-06T18:19:04Z",
-    "modified": "2026-07-30T15:38:57Z"
+    "modified": "2026-09-02T04:02:08Z"
   },
   "conjugation": {
     "type": "suru",

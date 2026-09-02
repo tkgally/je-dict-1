@@ -3,7 +3,7 @@
   "headword": "{無計画|むけいかく}",
   "reading": "むけいかく",
   "romaji": "mukeikaku",
-  "part_of_speech": "adjective",
+  "part_of_speech": "na-adjective, noun",
   "gloss": "unplanned; without a plan",
   "definitions": [
     {
@@ -15,40 +15,67 @@
   "examples": [
     {
       "id": "27016_mukeikaku_ex1",
-      "japanese": "{無計画|むけいかく}な{旅行|りょこう}。",
+      "japanese": "{無計画|むけいかく}な⟦{旅行|りょこう}→旅行：00748_ryokou⟧。",
       "english": "An unplanned trip.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27016_mukeikaku_ex2",
-      "japanese": "{無計画|むけいかく}に{買|か}い{物|もの}をすると{無駄遣|むだづか}いが{増|ふ}える。",
+      "japanese": "{無計画|むけいかく}⟦に→に：00314_ni⟧⟦{買|か}い{物|もの}→買い物：00853_kaimono⟧⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧⟦と→と：00512_to⟧⟦{無駄遣|むだづか}い→無駄遣い：07310_mudazukai⟧⟦が→が：00051_ga⟧⟦{増|ふ}える→増える：01183_fueru⟧。",
       "english": "If you shop without a plan, wasteful spending increases.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27016_mukeikaku_ex3",
-      "japanese": "{無計画|むけいかく}な{開発|かいはつ}が{環境|かんきょう}{破壊|はかい}につながった。",
+      "japanese": "{無計画|むけいかく}な⟦{開発|かいはつ}→開発：06746_kaihatsu⟧⟦が→が：00051_ga⟧⟦{環境|かんきょう}{破壊|はかい}→環境破壊：15957_kankyouhakai⟧⟦に→に：00314_ni⟧つながった。",
       "english": "Unplanned development led to environmental destruction.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Formed from {無|む} (without) + {計画|けいかく} (plan). Used both as a na-adjective ({無計画|むけいかく}な) and as a noun. Often carries a negative connotation, implying carelessness or irresponsibility.\n\nCOMMON COLLOCATIONS:\n- {無計画|むけいかく}な{行動|こうどう}: unplanned actions\n- {無計画|むけいかく}な{支出|ししゅつ}: unplanned spending\n- {無計画|むけいかく}に{進|すす}める: to proceed without a plan\n- {無計画|むけいかく}な{都市|とし}{開発|かいはつ}: unplanned urban development\n\nSIMILAR WORDS:\n- {行|い}き{当|あ}たりばったり: haphazard; random — more colloquial; emphasizes leaving things to chance\n- {計画性|けいかくせい}がない: lacking planning ability — focuses on a personal trait rather than a specific action\n- {無秩序|むちつじょ}: disorderly; chaotic — stronger, implying active disorder rather than just lack of planning",
+  "notes": "Formed from ⟦{無|む}→無：17750_mu⟧ (without) + ⟦{計画|けいかく}→計画：01172_keikaku⟧ (plan). Used both as a na-adjective ({無計画|むけいかく}な) and as a noun. Often carries a negative connotation, implying carelessness or irresponsibility.\n\nCOMMON COLLOCATIONS:\n- {無計画|むけいかく}な⟦{行動|こうどう}→行動：02728_koudou⟧: unplanned actions\n- {無計画|むけいかく}な⟦{支出|ししゅつ}→支出：03169_shishutsu⟧: unplanned spending\n- {無計画|むけいかく}⟦に→に：00314_ni⟧⟦{進|すす}める→進める：01949_susumeru⟧: to proceed without a plan\n- {無計画|むけいかく}な⟦{都市|とし}→都市：01477_toshi⟧⟦{開発|かいはつ}→開発：06746_kaihatsu⟧: unplanned urban development\n\nSIMILAR WORDS:\n- ⟦{行|い}き{当|あ}たりばったり→行き当たりばったり：27217_ikiataribattari⟧: haphazard; random — more colloquial; emphasizes leaving things to chance\n- {計画性|けいかくせい}⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧: lacking planning ability — focuses on a personal trait rather than a specific action\n- ⟦{無秩序|むちつじょ}→無秩序：21429_muchitsujo⟧: disorderly; chaotic — stronger, implying active disorder rather than just lack of planning",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "27217_ikiataribattari",
+      "reading": "いきあたりばったり",
+      "headword": "{行|い}き{当|あ}たりばったり",
+      "label": "haphazard"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21429_muchitsujo",
+      "reading": "むちつじょ",
+      "headword": "{無秩序|むちつじょ}",
+      "label": "disorderly"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-na", "noun"],
+      "pos": [
+        "adjective-na",
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["evaluation"]
+      "semantic": [
+        "evaluation"
+      ]
     },
     "created": "2026-05-06T14:17:43Z",
-    "modified": "2026-05-06T14:17:43Z"
+    "modified": "2026-09-02T04:02:28Z"
   }
 }

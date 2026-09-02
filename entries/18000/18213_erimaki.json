@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "18213_erimaki_ex1",
-      "japanese": "{寒|さむ}いので{襟巻|えりま}きを{巻|ま}いた。",
+      "japanese": "⟦{寒|さむ}い→寒い：00664_samui⟧⟦の→の：09472_no⟧で{襟巻|えりま}き⟦を→を：00422_wo⟧⟦{巻|ま}いた→巻く：02418_maku⟧。",
       "english": "It was cold, so I wrapped a scarf around my neck.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18213_erimaki_ex2",
-      "japanese": "{祖母|そぼ}が{毛糸|けいと}の{襟巻|えりま}きを{編|あ}んでくれた。",
+      "japanese": "⟦{祖母|そぼ}→祖母：00813_sobo⟧⟦が→が：00051_ga⟧⟦{毛糸|けいと}→毛糸：00212_keito⟧⟦の→の：09472_no⟧{襟巻|えりま}き⟦を→を：00422_wo⟧⟦{編|あ}んで→編む：00002_amu⟧⟦くれた→くれる：00724_kureru⟧。",
       "english": "My grandmother knitted a woolen scarf for me.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18213_erimaki_ex3",
-      "japanese": "{赤|あか}い{襟巻|えりま}きをした{雪|ゆき}だるまが{庭|にわ}に{立|た}っていた。",
+      "japanese": "⟦{赤|あか}い→赤い：00585_akai⟧{襟巻|えりま}き⟦を→を：00422_wo⟧⟦した→する：00392_suru⟧⟦{雪|ゆき}だるま→雪だるま：10974_yukidaruma⟧⟦が→が：00051_ga⟧⟦{庭|にわ}→庭：02239_niwa⟧⟦に→に：00314_ni⟧⟦{立|た}っていた→立つ：00758_tatsu⟧。",
       "english": "A snowman wearing a red scarf was standing in the yard.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nA compound of {襟|えり} (collar/neck) and {巻|ま}き (wrapping). Considered slightly old-fashioned — younger speakers tend to use マフラー instead. Still common in literature, descriptions of traditional clothing, and among older speakers.\n\nCOMMON COLLOCATIONS:\n- {襟巻|えりま}きを{巻|ま}く (to wrap a scarf around one's neck)\n- {襟巻|えりま}きを{外|はず}す (to take off a scarf)\n- {毛皮|けがわ}の{襟巻|えりま}き (a fur stole)\n\nSIMILAR WORDS:\n- マフラー: muffler, scarf — the modern, everyday word\n- ストール: stole — a wider, fashion-oriented wrap for the shoulders",
+  "notes": "USAGE:\nA compound of ⟦{襟|えり}→襟：06487_eri⟧ (collar/neck) and {巻|ま}き (wrapping). Considered slightly old-fashioned — younger speakers tend to use ⟦マフラー→マフラー：04533_mafuraa⟧ instead. Still common in literature, descriptions of traditional clothing, and among older speakers.\n\nCOMMON COLLOCATIONS:\n- {襟巻|えりま}き⟦を→を：00422_wo⟧⟦{巻|ま}く→巻く：02418_maku⟧ (to wrap a scarf around one's neck)\n- {襟巻|えりま}き⟦を→を：00422_wo⟧⟦{外|はず}す→外す：02394_hazusu⟧ (to take off a scarf)\n- ⟦{毛皮|けがわ}→毛皮：00205_kegawa⟧⟦の→の：09472_no⟧{襟巻|えりま}き (a fur stole)\n\nSIMILAR WORDS:\n- ⟦マフラー→マフラー：04533_mafuraa⟧: muffler, scarf — the modern, everyday word\n- ⟦ストール→ストール：24219_sutooru⟧: stole — a wider, fashion-oriented wrap for the shoulders",
   "cross_references": [
     {
       "type": "synonym",
@@ -46,18 +52,29 @@
       "reading": "まふらー",
       "headword": "マフラー",
       "label": "modern/everyday"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24219_sutooru",
+      "reading": "すとーる",
+      "headword": "ストール",
+      "label": "stole"
     }
   ],
   "metadata": {
     "created": "2026-03-20T12:19:31Z",
-    "modified": "2026-05-08T08:12:00Z",
+    "modified": "2026-09-02T04:01:51Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["clothing"]
+      "semantic": [
+        "clothing"
+      ]
     }
   }
 }

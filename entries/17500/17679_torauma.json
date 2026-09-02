@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "17679_torauma_ex1",
-      "japanese": "あれはトラウマになった。",
+      "japanese": "⟦あれ→あれ：00916_are⟧⟦は→は：00079_ha⟧トラウマになった。",
       "english": "That became a trauma for me.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "17679_torauma_ex2",
-      "japanese": "{子供|こども}の{頃|ころ}のトラウマがまだ{消|き}えない。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧⟦の→の：09472_no⟧{頃|ころ}⟦の→の：09472_no⟧トラウマ⟦が→が：00051_ga⟧⟦まだ→まだ：00603_mada⟧⟦{消|き}えない→消える：02520_kieru⟧。",
       "english": "The trauma from my childhood still hasn't faded.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "17679_torauma_ex3",
-      "japanese": "{前|まえ}の{恋愛|れんあい}がトラウマで、なかなか{新|あたら}しい{人|ひと}と{付|つ}き{合|あ}えない。",
+      "japanese": "⟦{前|まえ}→前：02255_mae⟧⟦の→の：09472_no⟧⟦{恋愛|れんあい}→恋愛：12634_renai⟧⟦が→が：00051_ga⟧トラウマ⟦で→で：00502_de⟧、⟦なかなか→なかなか：01547_nakanaka⟧⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦{人|ひと}→人：00476_hito⟧⟦と→と：00512_to⟧⟦{付|つ}き{合|あ}えない→付き合う：02291_tsukiau⟧。",
       "english": "My previous relationship was so traumatic that I can't easily start dating someone new.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,33 @@
       ]
     }
   ],
-  "notes": "ORIGIN:\nFrom German/English \"trauma.\" Entered Japanese primarily through psychology.\n\nUSAGE:\nIn formal or medical contexts, トラウマ retains its clinical meaning of serious psychological injury. In casual speech, it is used more loosely — {数学|すうがく}がトラウマ (\"math is my trauma\") simply means one has a strong aversion to math from a bad experience.\n\nGRAMMAR:\nCommonly used with になる: トラウマになる (to become a trauma, to be traumatized by something).\n\nCOMMON COLLOCATIONS:\n- トラウマになる: to become traumatized\n- トラウマを{克服|こくふく}する: to overcome trauma\n- {心|こころ}のトラウマ: psychological trauma\n- トラウマ{体験|たいけん}: traumatic experience",
-  "cross_references": [],
+  "notes": "ETYMOLOGY:\nFrom German/English \"trauma.\" Entered Japanese primarily through psychology.\n\nUSAGE:\nIn formal or medical contexts, トラウマ retains its clinical meaning of serious psychological injury. In casual speech, it is used more loosely — ⟦{数学|すうがく}→数学：01442_suugaku⟧⟦が→が：00051_ga⟧トラウマ (\"math is my trauma\") simply means one has a strong aversion to math from a bad experience.\n\nCOMMON PATTERNS:\nCommonly used with ⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧: トラウマ⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧ (to become a trauma, to be traumatized by something).\n\nCOMMON COLLOCATIONS:\n- トラウマ⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧: to become traumatized\n- トラウマ⟦を→を：00422_wo⟧⟦{克服|こくふく}する→克服する：15863_kokufukusuru⟧: to overcome trauma\n- ⟦{心|こころ}→心：01321_kokoro⟧⟦の→の：09472_no⟧トラウマ: psychological trauma\n- トラウマ⟦{体験|たいけん}→体験：11443_taiken⟧: traumatic experience",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "08766_piitiiesudii",
+      "reading": "ぴーてぃーえすでぃー",
+      "headword": "PTSD",
+      "label": "PTSD"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27108_shintekigaishou",
+      "reading": "しんてきがいしょう",
+      "headword": "{心的外傷|しんてきがいしょう}",
+      "label": "psychological trauma"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27678_kyoufushou",
+      "reading": "きょうふしょう",
+      "headword": "{恐怖|きょうふ}{症|しょう}",
+      "label": "phobia"
+    }
+  ],
   "metadata": {
     "created": "2026-02-12T11:47:02Z",
-    "modified": "2026-03-18T10:11:24Z",
+    "modified": "2026-09-02T04:01:49Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

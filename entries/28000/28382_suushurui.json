@@ -15,41 +15,81 @@
   "examples": [
     {
       "id": "28382_suushurui_ex1",
-      "japanese": "{数種類|すうしゅるい}のお{茶|ちゃ}を{試|ため}した。",
+      "japanese": "{数種類|すうしゅるい}⟦の→の：09472_no⟧⟦お{茶|ちゃ}→お茶：00576_ocha⟧⟦を→を：00422_wo⟧⟦{試|ため}した→試す：02130_tamesu⟧。",
       "english": "I tried several kinds of tea.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28382_suushurui_ex2",
-      "japanese": "この{店|みせ}では{数種類|すうしゅるい}のパンを{毎日|まいにち}{焼|や}いている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{店|みせ}→店：00497_mise⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧{数種類|すうしゅるい}⟦の→の：09472_no⟧⟦パン→パン：00553_pan⟧⟦を→を：00422_wo⟧⟦{毎日|まいにち}→毎日：00729_mainichi⟧⟦{焼|や}いている→焼く：01123_yaku⟧。",
       "english": "This shop bakes several kinds of bread every day.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28382_suushurui_ex3",
-      "japanese": "{症状|しょうじょう}に{応|おう}じて{数種類|すうしゅるい}の{薬|くすり}を{組|く}み{合|あ}わせて{処方|しょほう}する。",
+      "japanese": "⟦{症状|しょうじょう}→症状：03234_shoujou⟧⟦に→に：00314_ni⟧⟦{応|おう}じて→応じる：02018_oujiru⟧{数種類|すうしゅるい}⟦の→の：09472_no⟧⟦{薬|くすり}→薬：00793_kusuri⟧⟦を→を：00422_wo⟧⟦{組|く}み{合|あ}わせて→組み合わせる：04659_kumiawaseru⟧⟦{処方|しょほう}→処方：05976_shohou⟧⟦する→する：00392_suru⟧。",
       "english": "Depending on the symptoms, we prescribe several types of medicine in combination.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "The prefix {数|すう} attaches to counters to mean \"several\" — vague but small (typically 2–9). Almost always used attributively as {数種類|すうしゅるい}の + noun.\n\nCOMMON COLLOCATIONS:\n- {数種類|すうしゅるい}ある: there are several kinds\n- {数種類|すうしゅるい}の{中|なか}から{選|えら}ぶ: to choose from several types\n- {数種類|すうしゅるい}を{試|ため}す: to try several varieties\n\nRELATED EXPRESSIONS:\n- {数人|すうにん}: several people\n- {数日|すうじつ}: several days\n- {数回|すうかい}: several times\n- {数十|すうじゅう}: several tens (20–90)",
+  "notes": "The prefix ⟦{数|すう}→数：03360_suu⟧ attaches to counters to mean \"several\" — vague but small (typically 2–9). Almost always used attributively as {数種類|すうしゅるい}⟦の→の：09472_no⟧ + noun.\n\nCOMMON COLLOCATIONS:\n- {数種類|すうしゅるい}⟦ある→ある：00006_aru⟧: there are several kinds\n- {数種類|すうしゅるい}⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧⟦から→から：00504_kara⟧⟦{選|えら}ぶ→選ぶ：00835_erabu⟧: to choose from several types\n- {数種類|すうしゅるい}⟦を→を：00422_wo⟧⟦{試|ため}す→試す：02130_tamesu⟧: to try several varieties\n\nRELATED WORDS:\n- ⟦{数人|すうにん}→数人：18787_suunin⟧: several people\n- ⟦{数日|すうじつ}→数日：20517_suujitsu⟧: several days\n- ⟦{数回|すうかい}→数回：29820_suukai⟧: several times\n- ⟦{数十|すうじゅう}→数十：21400_suujuu⟧: several tens (20–90)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "18787_suunin",
+      "reading": "すうにん",
+      "headword": "{数人|すうにん}",
+      "label": "several people"
+    },
+    {
+      "type": "related",
+      "target_id": "20517_suujitsu",
+      "reading": "すうじつ",
+      "headword": "{数日|すうじつ}",
+      "label": "several days"
+    },
+    {
+      "type": "related",
+      "target_id": "29820_suukai",
+      "reading": "すうかい",
+      "headword": "{数回|すうかい}",
+      "label": "several times"
+    },
+    {
+      "type": "related",
+      "target_id": "21400_suujuu",
+      "reading": "すうじゅう",
+      "headword": "{数十|すうじゅう}",
+      "label": "several tens"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["quantity"],
+      "politeness": "plain",
+      "semantic": [
+        "quantity"
+      ],
       "domain": []
     },
     "created": "2026-05-30T03:09:22Z",
-    "modified": "2026-05-30T03:09:22Z"
+    "modified": "2026-09-02T04:02:33Z"
   }
 }

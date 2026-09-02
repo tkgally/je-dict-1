@@ -15,40 +15,60 @@
   "examples": [
     {
       "id": "24326_kinsenyoku_ex1",
-      "japanese": "{金銭欲|きんせんよく}が{強|つよ}い{人|ひと}だ。",
+      "japanese": "{金銭欲|きんせんよく}⟦が→が：00051_ga⟧⟦{強|つよ}い→強い：00820_tsuyoi⟧⟦{人|ひと}→人：00476_hito⟧だ。",
       "english": "That person has a strong desire for money.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "24326_kinsenyoku_ex2",
-      "japanese": "{金銭欲|きんせんよく}に{目|め}がくらんで{判断|はんだん}を{誤|あやま}った。",
+      "japanese": "{金銭欲|きんせんよく}⟦に→に：00314_ni⟧⟦{目|め}→目：00525_me⟧がくらんで⟦{判断|はんだん}→判断：03571_handan⟧⟦を→を：00422_wo⟧⟦{誤|あやま}った→誤る：27433_ayamaru⟧。",
       "english": "Blinded by greed, I made a poor judgment.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "24326_kinsenyoku_ex3",
-      "japanese": "{彼|かれ}は{金銭欲|きんせんよく}のために{友人|ゆうじん}との{信頼|しんらい}{関係|かんけい}まで{壊|こわ}してしまった。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{金銭欲|きんせんよく}⟦の→の：09472_no⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧⟦{友人|ゆうじん}→友人：03649_yuujin⟧⟦と→と：00512_to⟧⟦の→の：09472_no⟧⟦{信頼|しんらい}{関係|かんけい}→信頼関係：16095_shinraikankei⟧⟦まで→まで：00490_made⟧⟦{壊|こわ}して→壊す：01241_kowasu⟧しまった。",
       "english": "He destroyed even his trust with friends for the sake of his greed for money.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Combines {金銭|きんせん} (money, cash) and {欲|よく} (desire, greed). Part of a family of {〜欲|よく} compounds that describe specific human desires.\n\nCOMMON COLLOCATIONS:\n- {金銭欲|きんせんよく}が{強|つよ}い: to have strong greed for money\n- {金銭欲|きんせんよく}に{駆|か}られる: to be driven by greed\n- {金銭欲|きんせんよく}を{抑|おさ}える: to suppress one's greed for money\n- {金銭欲|きんせんよく}にとらわれる: to be consumed by avarice\n\nRELATED {〜欲|よく} COMPOUNDS:\n- {物欲|ぶつよく}: material desire — wanting possessions and things\n- {名誉欲|めいよよく}: desire for fame and honor\n- {権力欲|けんりょくよく}: desire for power\n- {食欲|しょくよく}: appetite — desire for food\n- {出世欲|しゅっせよく}: desire for career advancement\n\nSIMILAR WORDS:\n- {欲張|よくば}り: greedy person — refers to the person rather than the desire itself, and is broader (not limited to money)\n- {守銭奴|しゅせんど}: miser, Scrooge — emphasizes hoarding money rather than the desire to acquire it",
+  "notes": "Combines ⟦{金銭|きんせん}→金銭：02684_kinsen⟧ (money, cash) and ⟦{欲|よく}→欲：13183_yoku⟧ (desire, greed). Part of a family of {〜欲|よく} compounds that describe specific human desires.\n\nCOMMON COLLOCATIONS:\n- {金銭欲|きんせんよく}⟦が→が：00051_ga⟧⟦{強|つよ}い→強い：00820_tsuyoi⟧: to have strong greed for money\n- {金銭欲|きんせんよく}⟦に→に：00314_ni⟧⟦{駆|か}られる→駆る：14715_karu⟧: to be driven by greed\n- {金銭欲|きんせんよく}⟦を→を：00422_wo⟧⟦{抑|おさ}える→抑える：12806_osaeru⟧: to suppress one's greed for money\n- {金銭欲|きんせんよく}⟦に→に：00314_ni⟧とらわれる: to be consumed by avarice\n\nRELATED {〜欲|よく} COMPOUNDS:\n- ⟦{物欲|ぶつよく}→物欲：13533_butsuyoku⟧: material desire — wanting possessions and things\n- {名誉欲|めいよよく}: desire for fame and honor\n- {権力欲|けんりょくよく}: desire for power\n- ⟦{食欲|しょくよく}→食欲：03249_shokuyoku⟧: appetite — desire for food\n- ⟦{出世欲|しゅっせよく}→出世欲：23681_shusseyoku⟧: desire for career advancement\n\nSIMILAR WORDS:\n- ⟦{欲張|よくば}り→欲張り：15920_yokubari⟧: greedy person — refers to the person rather than the desire itself, and is broader (not limited to money)\n- {守銭奴|しゅせんど}: miser, Scrooge — emphasizes hoarding money rather than the desire to acquire it",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15920_yokubari",
+      "reading": "よくばり",
+      "headword": "{欲張|よくば}り",
+      "label": "greedy person"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["emotion", "abstract"]
+      "semantic": [
+        "emotion",
+        "abstract"
+      ]
     },
     "created": "2026-04-18T14:26:26Z",
-    "modified": "2026-04-18T14:26:26Z"
+    "modified": "2026-09-02T04:02:17Z"
   }
 }

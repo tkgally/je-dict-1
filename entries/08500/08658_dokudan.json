@@ -19,62 +19,103 @@
   "examples": [
     {
       "id": "08658_dokudan_ex1",
-      "japanese": "{独断|どくだん}で{決|き}めてしまった。",
+      "japanese": "{独断|どくだん}⟦で→で：00502_de⟧⟦{決|き}めて→決める：00858_kimeru⟧しまった。",
       "english": "I made the decision arbitrarily (without consulting others).",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "08658_dokudan_ex2",
-      "japanese": "{独断|どくだん}で{行動|こうどう}するのは{危険|きけん}だ。",
+      "japanese": "{独断|どくだん}⟦で→で：00502_de⟧⟦{行動|こうどう}→行動：02728_koudou⟧⟦する→する：00392_suru⟧⟦の→の：09472_no⟧⟦は→は：00079_ha⟧⟦{危険|きけん}→危険：01141_kiken⟧だ。",
       "english": "Acting on one's own judgment alone is dangerous.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "08658_dokudan_ex3",
-      "japanese": "{上司|じょうし}の{独断|どくだん}で{プロジェクト}が{中止|ちゅうし}になった。",
+      "japanese": "⟦{上司|じょうし}→上司：03286_joushi⟧⟦の→の：09472_no⟧{独断|どくだん}⟦で→で：00502_de⟧⟦プロジェクト→プロジェクト：06764_purojekuto⟧⟦が→が：00051_ga⟧⟦{中止|ちゅうし}→中止：03481_chuushi⟧になった。",
       "english": "The project was cancelled by my boss's unilateral decision.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "08658_dokudan_ex4",
-      "japanese": "{独断|どくだん}と{偏見|へんけん}で{選|えら}んだ{映画|えいが}ランキングです。",
+      "japanese": "{独断|どくだん}⟦と→と：00512_to⟧⟦{偏見|へんけん}→偏見：06025_henken⟧⟦で→で：00502_de⟧⟦{選|えら}んだ→選ぶ：00835_erabu⟧⟦{映画|えいが}→映画：02273_eiga⟧⟦ランキング→ランキング：11195_rankingu⟧です。",
       "english": "This is a movie ranking based on my personal judgment and bias.",
-      "sense_numbers": [1, 2],
+      "sense_numbers": [
+        1,
+        2
+      ],
       "has_audio": false,
       "notes": "Often used self-deprecatingly when sharing personal opinions"
     },
     {
       "id": "08658_dokudan_ex5",
-      "japanese": "{独断|どくだん}{専行|せんこう}は{許|ゆる}されない。",
+      "japanese": "{独断|どくだん}{専行|せんこう}⟦は→は：00079_ha⟧⟦{許|ゆる}されない→許す：02325_yurusu⟧。",
       "english": "Acting arbitrarily without authorization is not allowed.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "08658_dokudan_ex6",
-      "japanese": "{独断|どくだん}に{陥|おちい}らないように{気|き}をつける。",
+      "japanese": "{独断|どくだん}⟦に→に：00314_ni⟧⟦{陥|おちい}らない→陥る：14537_ochiiru⟧よう⟦に→に：00314_ni⟧⟦{気|き}をつける→気をつける：09771_kiwotsukeru⟧。",
       "english": "I'm careful not to fall into dogmatic thinking.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "NUANCE:\n{独断|どくだん} often carries a negative connotation, implying:\n- Making decisions without proper consultation\n- Acting unilaterally when teamwork is expected\n- Being dogmatic or close-minded\n\nCOMMON EXPRESSIONS:\n- {独断|どくだん}と{偏見|へんけん} - \"personal judgment and bias\" (often used self-deprecatingly when sharing subjective opinions)\n- {独断|どくだん}{専行|せんこう} - arbitrary action, acting without authorization\n- {独断|どくだん}で{決|き}める - to decide arbitrarily\n\nCONTRAST:\n- {合議|ごうぎ} - joint deliberation\n- {相談|そうだん} - consultation",
+  "notes": "USAGE:\n{独断|どくだん} often carries a negative connotation, implying:\n- Making decisions without proper consultation\n- Acting unilaterally when teamwork is expected\n- Being dogmatic or close-minded\n\nCOMMON EXPRESSIONS:\n- {独断|どくだん}⟦と→と：00512_to⟧⟦{偏見|へんけん}→偏見：06025_henken⟧ - \"personal judgment and bias\" (often used self-deprecatingly when sharing subjective opinions)\n- {独断|どくだん}{専行|せんこう} - arbitrary action, acting without authorization\n- {独断|どくだん}⟦で→で：00502_de⟧⟦{決|き}める→決める：00858_kimeru⟧ - to decide arbitrarily\n\nSIMILAR WORDS:\n- {合議|ごうぎ} - joint deliberation\n- ⟦{相談|そうだん}→相談：02089_soudan⟧ - consultation",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02089_soudan",
+      "reading": "そうだん",
+      "headword": "{相談|そうだん}",
+      "label": "consultation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08003_senou",
+      "reading": "せんおう",
+      "headword": "{専横|せんおう}",
+      "label": "despotism"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19974_dokusou",
+      "reading": "どくそう",
+      "headword": "{独走|どくそう}",
+      "label": "running alone"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "domain": ["business"]
+      "politeness": "plain",
+      "domain": [
+        "business"
+      ]
     },
     "created": "2026-01-27T13:24:06Z",
-    "modified": "2026-01-27T13:24:06Z"
+    "modified": "2026-09-02T04:01:15Z"
   }
 }

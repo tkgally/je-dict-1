@@ -15,41 +15,73 @@
   "examples": [
     {
       "id": "14354_nouchi_ex1",
-      "japanese": "{農地|のうち}を{耕|たがや}す。",
+      "japanese": "{農地|のうち}⟦を→を：00422_wo⟧⟦{耕|たがや}す→耕す：03934_tagayasu⟧。",
       "english": "To cultivate farmland.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14354_nouchi_ex2",
-      "japanese": "{農地|のうち}が{住宅地|じゅうたくち}に{変|か}わっていく。",
+      "japanese": "{農地|のうち}⟦が→が：00051_ga⟧⟦{住宅地|じゅうたくち}→住宅地：10158_juutakuchi⟧⟦に→に：00314_ni⟧⟦{変|か}わって→変わる：00714_kawaru⟧いく。",
       "english": "Farmland is being turned into residential areas.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14354_nouchi_ex3",
-      "japanese": "{高齢化|こうれいか}で{担|にな}い{手|て}が{減|へ}り、{耕作|こうさく}{放棄|ほうき}された{農地|のうち}が{年々|ねんねん}{増|ふ}えている。",
+      "japanese": "⟦{高齢化|こうれいか}→高齢化：04808_koureika⟧⟦で→で：00502_de⟧⟦{担|にな}い{手|て}→担い手：12786_ninaite⟧⟦が→が：00051_ga⟧⟦{減|へ}り→減る：01985_heru⟧、⟦{耕作|こうさく}→耕作：06617_kousaku⟧⟦{放棄|ほうき}→放棄：12825_houki⟧⟦された→する：00392_suru⟧{農地|のうち}⟦が→が：00051_ga⟧⟦{年々|ねんねん}→年々：10417_nennen⟧⟦{増|ふ}えている→増える：01183_fueru⟧。",
       "english": "As the population ages and the number of farmers declines, the amount of abandoned farmland is increasing year by year.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "Compound of {農|のう} (agriculture) + {地|ち} (land).\n\nCOMMON COLLOCATIONS:\n- {農地|のうち}{改革|かいかく} (agrarian reform)\n- {農地|のうち}を{転用|てんよう}する (to convert farmland to other use)\n- {耕作|こうさく}{放棄|ほうき}{農地|のうち} (abandoned farmland)\n- {農地|のうち}{法|ほう} (Agricultural Land Act)\n\nUSAGE NOTE:\n{農地|のうち} is a neutral, semi-formal term used in news, policy, and legal contexts. In everyday speech, {畑|はたけ} (field for crops) or {田|た}んぼ (rice paddy) are more common for referring to specific types of farmland.",
-  "cross_references": [],
+  "notes": "Compound of {農|のう} (agriculture) + {地|ち} (land).\n\nCOMMON COLLOCATIONS:\n- {農地|のうち}⟦{改革|かいかく}→改革：04815_kaikaku⟧ (agrarian reform)\n- {農地|のうち}⟦を→を：00422_wo⟧⟦{転用|てんよう}→転用：14389_tenyou⟧⟦する→する：00392_suru⟧ (to convert farmland to other use)\n- ⟦{耕作|こうさく}→耕作：06617_kousaku⟧⟦{放棄|ほうき}→放棄：12825_houki⟧{農地|のうち} (abandoned farmland)\n- {農地|のうち}{法|ほう} (Agricultural Land Act)\n\nUSAGE:\n{農地|のうち} is a neutral, semi-formal term used in news, policy, and legal contexts. In everyday speech, ⟦{畑|はたけ}→畑：00842_hatake⟧ (field for crops) or ⟦{田|た}んぼ→田んぼ：00402_tanbo⟧ (rice paddy) are more common for referring to specific types of farmland.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "01491_nougyou",
+      "reading": "のうぎょう",
+      "headword": "{農業|のうぎょう}",
+      "label": "agriculture, farming"
+    },
+    {
+      "type": "related",
+      "target_id": "03539_nouka",
+      "reading": "のうか",
+      "headword": "{農家|のうか}",
+      "label": "farmer, farm household"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21589_takuchi",
+      "reading": "たくち",
+      "headword": "{宅地|たくち}",
+      "label": "residential land"
+    }
+  ],
   "metadata": {
     "created": "2026-02-28T12:19:13Z",
-    "modified": "2026-02-28T12:19:13Z",
+    "modified": "2026-09-02T04:01:37Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["geography"]
+      "semantic": [
+        "geography"
+      ]
     }
   }
 }

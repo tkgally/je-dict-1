@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "07662_betsubetsuni_ex1",
-      "japanese": "{別々|べつべつ}に{払|はら}う。",
+      "japanese": "{別々|べつべつ}に⟦{払|はら}う→払う：00535_harau⟧。",
       "english": "To pay separately.",
       "has_audio": false,
       "sense_numbers": [
@@ -23,7 +23,7 @@
     },
     {
       "id": "07662_betsubetsuni_ex2",
-      "japanese": "{二人|ふたり}は{別々|べつべつ}に{帰|かえ}った。",
+      "japanese": "⟦{二人|ふたり}→二人：00622_futari⟧⟦は→は：00079_ha⟧{別々|べつべつ}に⟦{帰|かえ}った→帰る：00508_kaeru⟧。",
       "english": "The two went home separately.",
       "has_audio": false,
       "sense_numbers": [
@@ -32,7 +32,7 @@
     },
     {
       "id": "07662_betsubetsuni_ex3",
-      "japanese": "{書類|しょるい}は{別々|べつべつ}に{提出|ていしゅつ}してください。",
+      "japanese": "⟦{書類|しょるい}→書類：01103_shorui⟧⟦は→は：00079_ha⟧{別々|べつべつ}に⟦{提出|ていしゅつ}して→提出する：19644_teishutsusuru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please submit the documents separately.",
       "has_audio": false,
       "sense_numbers": [
@@ -40,10 +40,19 @@
       ]
     }
   ],
-  "notes": "{別々|べつべつ}に is the adverbial form of the na-adjective {別々|べつべつ}, meaning to do something separately or individually rather than together.\n\nRELATED FORMS:\n- {別々|べつべつ}な / {別々|べつべつ}の + noun: separate (as modifier)\n- {別|べつ}: separate, different (single form, broader meaning)\n- {別々|べつべつ}だ: to be separate (predicate)\n\nCOMMON COLLOCATIONS:\n- {別々|べつべつ}に{払|はら}う: to pay separately\n- {別々|べつべつ}に{住|す}む: to live separately\n- {別々|べつべつ}に{行動|こうどう}する: to act independently\n- {別々|べつべつ}の{道|みち}を{行|い}く: to go separate ways\n\nUSEFUL PHRASE:\nお{会計|かいけい}は{別々|べつべつ}にお{願|ねが}いします means \"Separate checks, please\" — a practical phrase for dining out in Japan.",
+  "notes": "{別々|べつべつ}に is the adverbial form of the na-adjective ⟦{別々|べつべつ}→別々：03972_betsubetsu⟧, meaning to do something separately or individually rather than together.\n\nFORMS:\n- {別々|べつべつ}な / ⟦{別々|べつべつ}→別々：03972_betsubetsu⟧⟦の→の：09472_no⟧ + noun: separate (as modifier)\n- ⟦{別|べつ}→別：01216_betsu⟧: separate, different (single form, broader meaning)\n- {別々|べつべつ}だ: to be separate (predicate)\n\nCOMMON COLLOCATIONS:\n- {別々|べつべつ}に⟦{払|はら}う→払う：00535_harau⟧: to pay separately\n- {別々|べつべつ}に⟦{住|す}む→住む：00673_sumu⟧: to live separately\n- {別々|べつべつ}に⟦{行動|こうどう}→行動：02728_koudou⟧⟦する→する：00392_suru⟧: to act independently\n- ⟦{別々|べつべつ}→別々：03972_betsubetsu⟧⟦の→の：09472_no⟧⟦{道|みち}→道：00505_michi⟧⟦を→を：00422_wo⟧⟦{行|い}く→行く：00119_iku⟧: to go separate ways\n\nUSEFUL PHRASE:\n⟦お{会計|かいけい}→お会計：09550_okaikei⟧⟦は→は：00079_ha⟧{別々|べつべつ}にお{願|ねが}いします means \"Separate checks, please\" — a practical phrase for dining out in Japan.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23757_kobetsuni",
+      "reading": "こべつに",
+      "headword": "{個別|こべつ}に",
+      "label": "individually"
+    }
+  ],
   "metadata": {
     "created": "2026-01-20T14:05:39Z",
-    "modified": "2026-06-19T21:43:28Z",
+    "modified": "2026-09-02T04:01:12Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -51,6 +60,7 @@
         "adverb"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "descriptive"
       ]

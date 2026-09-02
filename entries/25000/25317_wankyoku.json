@@ -3,7 +3,7 @@
   "headword": "{湾曲|わんきょく}",
   "reading": "わんきょく",
   "romaji": "wankyoku",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "curvature; curve; bend",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25317_wankyoku_ex1",
-      "japanese": "{背骨|せぼね}が{湾曲|わんきょく}している。",
+      "japanese": "⟦{背骨|せぼね}→背骨：17397_sebone⟧⟦が→が：00051_ga⟧{湾曲|わんきょく}⟦している→する：00392_suru⟧。",
       "english": "The spine is curved.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25317_wankyoku_ex2",
-      "japanese": "{湾曲|わんきょく}したガラスは{加工|かこう}が{難|むずか}しい。",
+      "japanese": "{湾曲|わんきょく}⟦した→する：00392_suru⟧⟦ガラス→ガラス：01777_garasu⟧⟦は→は：00079_ha⟧⟦{加工|かこう}→加工：11793_kakou⟧⟦が→が：00051_ga⟧⟦{難|むずか}しい→難しい：00517_muzukashii⟧。",
       "english": "Curved glass is difficult to process.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25317_wankyoku_ex3",
-      "japanese": "この{道路|どうろ}は{川|かわ}に{沿|そ}って{大|おお}きく{湾曲|わんきょく}しているので、スピードを{落|お}としてください。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{道路|どうろ}→道路：01481_douro⟧⟦は→は：00079_ha⟧⟦{川|かわ}→川：02186_kawa⟧⟦に→に：00314_ni⟧⟦{沿|そ}って→沿う：13279_sou⟧⟦{大|おお}きく→大きい：00335_ookii⟧{湾曲|わんきょく}⟦している→する：00392_suru⟧⟦の→の：09472_no⟧で、⟦スピード→スピード：11048_supiido⟧⟦を→を：00422_wo⟧⟦{落|お}として→落とす：01246_otosu⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "This road curves sharply along the river, so please slow down.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Describes a smooth, arc-like curve or bend. Composed of {湾|わん} (bay, inlet — suggesting a natural curve) and {曲|きょく} (bend, curve). Used for physical objects, roads, and anatomical features. Also used in optics and engineering.\n\nCOMMON COLLOCATIONS:\n- {湾曲|わんきょく}した: curved, bent\n- {湾曲|わんきょく}{部|ぶ}: curved section\n- {脊柱|せきちゅう}{湾曲|わんきょく}{症|しょう}: spinal curvature disorder (scoliosis/kyphosis)\n- {湾曲|わんきょく}ディスプレイ: curved display\n\nSIMILAR WORDS:\n- {屈曲|くっきょく}: bending, flexion — sharper, more angular bends\n- {曲線|きょくせん}: curve (line) — the geometric line itself\n- {歪|ゆが}み: distortion, warping — implies deformation from a normal shape",
+  "notes": "Describes a smooth, arc-like curve or bend. Composed of ⟦{湾|わん}→湾：03796_wan⟧ (bay, inlet — suggesting a natural curve) and ⟦{曲|きょく}→曲：09881_kyoku⟧ (bend, curve). Used for physical objects, roads, and anatomical features. Also used in optics and engineering.\n\nCOMMON COLLOCATIONS:\n- {湾曲|わんきょく}⟦した→する：00392_suru⟧: curved, bent\n- {湾曲|わんきょく}⟦{部|ぶ}→〜部：00440_bu⟧: curved section\n- {脊柱|せきちゅう}{湾曲|わんきょく}{症|しょう}: spinal curvature disorder (scoliosis/kyphosis)\n- {湾曲|わんきょく}⟦ディスプレイ→ディスプレイ：04891_disupurei⟧: curved display\n\nSIMILAR WORDS:\n- ⟦{屈曲|くっきょく}→屈曲：22871_kukkyoku⟧: bending, flexion — sharper, more angular bends\n- ⟦{曲線|きょくせん}→曲線：05441_kyokusen⟧: curve (line) — the geometric line itself\n- ⟦{歪|ゆが}み→歪み：09409_yugami⟧: distortion, warping — implies deformation from a normal shape",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22871_kukkyoku",
+      "reading": "くっきょく",
+      "headword": "{屈曲|くっきょく}",
+      "label": "bending, flexion"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05441_kyokusen",
+      "reading": "きょくせん",
+      "headword": "{曲線|きょくせん}",
+      "label": "curve"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09409_yugami",
+      "reading": "ゆがみ",
+      "headword": "{歪|ゆが}み",
+      "label": "distortion, warping"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +76,16 @@
         "noun",
         "verb-suru"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "abstract"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     },
     "created": "2026-04-24T14:25:54Z",
-    "modified": "2026-04-24T14:25:54Z"
+    "modified": "2026-09-02T04:02:21Z"
   },
   "conjugation": {
     "type": "suru",

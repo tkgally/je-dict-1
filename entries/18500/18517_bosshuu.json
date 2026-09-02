@@ -3,7 +3,7 @@
   "headword": "{没収|ぼっしゅう}",
   "reading": "ぼっしゅう",
   "romaji": "bosshuu",
-  "part_of_speech": "noun / verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "confiscation; seizure; forfeiture",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "18517_bosshuu_ex1",
-      "japanese": "スマホを{没収|ぼっしゅう}された。",
+      "japanese": "⟦スマホ→スマホ：04721_sumaho⟧⟦を→を：00422_wo⟧{没収|ぼっしゅう}⟦された→する：00392_suru⟧。",
       "english": "My smartphone was confiscated.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "18517_bosshuu_ex2",
-      "japanese": "{税関|ぜいかん}で{荷物|にもつ}を{没収|ぼっしゅう}された。",
+      "japanese": "⟦{税関|ぜいかん}→税関：04380_zeikan⟧⟦で→で：00502_de⟧⟦{荷物|にもつ}→荷物：00737_nimotsu⟧⟦を→を：00422_wo⟧{没収|ぼっしゅう}⟦された→する：00392_suru⟧。",
       "english": "My luggage was seized at customs.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "18517_bosshuu_ex3",
-      "japanese": "{違法|いほう}に{持|も}ち{込|こ}まれた{品物|しなもの}はすべて{没収|ぼっしゅう}の{対象|たいしょう}となる。",
+      "japanese": "⟦{違法|いほう}→違法：09687_ihou⟧⟦に→に：00314_ni⟧⟦{持|も}ち{込|こ}まれた→持ち込む：04226_mochikomu⟧⟦{品物|しなもの}→品物：00886_shinamono⟧⟦は→は：00079_ha⟧すべて{没収|ぼっしゅう}⟦の→の：09472_no⟧⟦{対象|たいしょう}→対象：03393_taishou⟧⟦と→と：00512_to⟧⟦なる→なる：01970_naru⟧。",
       "english": "All illegally imported goods are subject to confiscation.",
       "sense_numbers": [
         1
@@ -134,8 +134,24 @@
       "notes": null
     }
   ],
-  "notes": "{没収|ぼっしゅう} means confiscation or seizure — taking something away by authority, often as a penalty.\n\nUSAGE:\n- Functions as a する verb and as a noun.\n- Spans three main contexts: legal (seizure of property as part of a criminal penalty), sporting (forfeited games), and everyday (a teacher confiscating a student's possessions).\n\nCOMMON PATTERNS:\n- {財産|ざいさん}を{没収|ぼっしゅう}する: to confiscate assets\n- {携帯|けいたい}{電話|でんわ}を{没収|ぼっしゅう}される: to have one's mobile phone confiscated\n- {没収|ぼっしゅう}{試合|しあい}: a forfeited game (a sporting term)\n- {没収|ぼっしゅう}{処分|しょぶん}: confiscation as a penalty\n- {麻薬|まやく}を{没収|ぼっしゅう}する: to seize drugs\n\nSIMILAR WORDS:\n- {押収|おうしゅう}: seizure of items as evidence (used specifically by police and prosecutors).\n- {差|さ}し{押|おさ}さえ: attachment, distraint (a civil-law procedure for seizing property to satisfy a debt).\n- {取|と}り{上|あ}げる: to take away (the everyday verb).",
+  "notes": "{没収|ぼっしゅう} means confiscation or seizure — taking something away by authority, often as a penalty.\n\nUSAGE:\n- Functions as a ⟦する→する：00392_suru⟧ verb and as a noun.\n- Spans three main contexts: legal (seizure of property as part of a criminal penalty), sporting (forfeited games), and everyday (a teacher confiscating a student's possessions).\n\nCOMMON PATTERNS:\n- ⟦{財産|ざいさん}→財産：01635_zaisan⟧⟦を→を：00422_wo⟧{没収|ぼっしゅう}⟦する→する：00392_suru⟧: to confiscate assets\n- ⟦{携帯|けいたい}{電話|でんわ}→携帯電話：04433_keitaidenwa⟧⟦を→を：00422_wo⟧{没収|ぼっしゅう}⟦される→する：00392_suru⟧: to have one's mobile phone confiscated\n- {没収|ぼっしゅう}⟦{試合|しあい}→試合：01601_shiai⟧: a forfeited game (a sporting term)\n- {没収|ぼっしゅう}⟦{処分|しょぶん}→処分：05520_shobun⟧: confiscation as a penalty\n- ⟦{麻薬|まやく}→麻薬：18796_mayaku⟧⟦を→を：00422_wo⟧{没収|ぼっしゅう}⟦する→する：00392_suru⟧: to seize drugs\n\nSIMILAR WORDS:\n- ⟦{押収|おうしゅう}→押収：19033_oushuu⟧: seizure of items as evidence (used specifically by police and prosecutors).\n- {差|さ}し{押|おさ}さえ: attachment, distraint (a civil-law procedure for seizing property to satisfy a debt).\n- ⟦{取|と}り{上|あ}げる→取り上げる：02375_toriageru⟧: to take away (the everyday verb).",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19033_oushuu",
+      "reading": "おうしゅう",
+      "headword": "{押収|おうしゅう}",
+      "label": "seizure of items as evidence (used…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02375_toriageru",
+      "reading": "とりあげる",
+      "headword": "{取|と}り{上|あ}げる",
+      "label": "to take away (the everyday verb)."
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -151,9 +167,10 @@
       "domain": [
         "legal"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-03-22T04:39:48Z",
-    "modified": "2026-05-08T10:08:08Z"
+    "modified": "2026-09-02T04:01:52Z"
   }
 }

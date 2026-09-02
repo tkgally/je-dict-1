@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "09712_kazegusuri_ex1",
-      "japanese": "{風邪薬|かぜぐすり}を{飲|の}んで{寝|ね}た。",
+      "japanese": "{風邪薬|かぜぐすり}⟦を→を：00422_wo⟧⟦{飲|の}んで→飲む：00322_nomu⟧⟦{寝|ね}た→寝る：00470_neru⟧。",
       "english": "I took cold medicine and went to bed.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "09712_kazegusuri_ex2",
-      "japanese": "{風邪薬|かぜぐすり}を{飲|の}むと{眠|ねむ}くなる。",
+      "japanese": "{風邪薬|かぜぐすり}⟦を→を：00422_wo⟧⟦{飲|の}む→飲む：00322_nomu⟧⟦と→と：00512_to⟧⟦{眠|ねむ}く→眠い：00872_nemui⟧⟦なる→なる：01970_naru⟧。",
       "english": "Cold medicine makes me sleepy.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "09712_kazegusuri_ex3",
-      "japanese": "{喉|のど}の{痛|いた}みと{鼻水|はなみず}に{効|き}く{風邪薬|かぜぐすり}を{探|さが}している。",
+      "japanese": "⟦{喉|のど}→喉：00977_nodo⟧⟦の→の：09472_no⟧⟦{痛|いた}み→痛み：01795_itami⟧⟦と→と：00512_to⟧⟦{鼻水|はなみず}→鼻水：04430_hanamizu⟧⟦に→に：00314_ni⟧⟦{効|き}く→効く：01932_kiku⟧{風邪薬|かぜぐすり}⟦を→を：00422_wo⟧⟦{探|さが}している→探す：00493_sagasu⟧。",
       "english": "I'm looking for cold medicine that works for sore throat and runny nose.",
       "notes": null,
       "has_audio": false,
@@ -43,10 +43,10 @@
       ]
     }
   ],
-  "notes": "Compound of {風邪|かぜ} (cold) + {薬|くすり} (medicine). The {薬|くすり} becomes ぐすり due to rendaku (sequential voicing).\n\nCOMMON PATTERNS:\n- {風邪薬|かぜぐすり}を{飲|の}む: to take cold medicine\n- {風邪薬|かぜぐすり}が{効|き}く: cold medicine works/takes effect\n- {風邪薬|かぜぐすり}を{買|か}う: to buy cold medicine\n\nUSAGE:\nAvailable in tablet ({錠剤|じょうざい}), powder ({粉薬|こなぐすり}), and liquid ({液体|えきたい}) forms. Many {風邪薬|かぜぐすり} cause drowsiness ({眠気|ねむけ}), which is a common topic of conversation.\n\nRELATED TERMS:\n- {風邪|かぜ}: common cold\n- {解熱剤|げねつざい}: fever reducer\n- {咳止|せきど}め: cough suppressant\n- {市販薬|しはんやく}: over-the-counter medicine",
+  "notes": "Compound of ⟦{風邪|かぜ}→風邪：02188_kaze⟧ (cold) + ⟦{薬|くすり}→薬：00793_kusuri⟧ (medicine). The ⟦{薬|くすり}→薬：00793_kusuri⟧ becomes ぐすり due to rendaku (sequential voicing).\n\nCOMMON PATTERNS:\n- {風邪薬|かぜぐすり}⟦を→を：00422_wo⟧⟦{飲|の}む→飲む：00322_nomu⟧: to take cold medicine\n- {風邪薬|かぜぐすり}⟦が→が：00051_ga⟧⟦{効|き}く→効く：01932_kiku⟧: cold medicine works/takes effect\n- {風邪薬|かぜぐすり}⟦を→を：00422_wo⟧⟦{買|か}う→買う：00489_kau⟧: to buy cold medicine\n\nUSAGE:\nAvailable in tablet (⟦{錠剤|じょうざい}→錠剤：17290_jouzai⟧), powder (⟦{粉薬|こなぐすり}→粉薬：27515_konagusuri⟧), and liquid (⟦{液体|えきたい}→液体：04134_ekitai⟧) forms. Many {風邪薬|かぜぐすり} cause drowsiness (⟦{眠気|ねむけ}→眠気：06534_nemuke⟧), which is a common topic of conversation.\n\nRELATED WORDS:\n- ⟦{風邪|かぜ}→風邪：02188_kaze⟧: common cold\n- ⟦{解熱剤|げねつざい}→解熱剤：09713_genetsuzai⟧: fever reducer\n- ⟦{咳止|せきど}め→咳止め：27038_sekidome⟧: cough suppressant\n- ⟦{市販薬|しはんやく}→市販薬：09834_shihanyaku⟧: over-the-counter medicine",
   "metadata": {
     "created": "2026-02-03T06:55:08Z",
-    "modified": "2026-06-24T18:40:49Z",
+    "modified": "2026-09-02T04:01:19Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -74,6 +74,41 @@
       "reading": "ずつうやく",
       "headword": "{頭痛薬|ずつうやく}",
       "label": "headache medicine"
+    },
+    {
+      "type": "related",
+      "target_id": "09713_genetsuzai",
+      "reading": "げねつざい",
+      "headword": "{解熱剤|げねつざい}",
+      "label": "fever reducer"
+    },
+    {
+      "type": "related",
+      "target_id": "27038_sekidome",
+      "reading": "せきどめ",
+      "headword": "{咳止|せきど}め",
+      "label": "cough suppressant"
+    },
+    {
+      "type": "related",
+      "target_id": "09834_shihanyaku",
+      "reading": "しはんやく",
+      "headword": "{市販薬|しはんやく}",
+      "label": "over-the-counter medicine"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24647_kanbouyaku",
+      "reading": "かんぼうやく",
+      "headword": "{感冒薬|かんぼうやく}",
+      "label": "cold medicine"
+    },
+    {
+      "type": "related",
+      "target_id": "26782_igusuri",
+      "reading": "いぐすり",
+      "headword": "{胃薬|いぐすり}",
+      "label": "stomach medicine"
     }
   ]
 }

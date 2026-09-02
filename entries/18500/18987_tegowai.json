@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "18987_tegowai_ex1",
-      "japanese": "{手|て}ごわい{相手|あいて}だ。",
+      "japanese": "{手|て}ごわい⟦{相手|あいて}→相手：01677_aite⟧だ。",
       "english": "That's a tough opponent.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "18987_tegowai_ex2",
-      "japanese": "{今回|こんかい}の{試験|しけん}は{手|て}ごわかった。",
+      "japanese": "⟦{今回|こんかい}→今回：01409_konkai⟧⟦の→の：09472_no⟧⟦{試験|しけん}→試験：01422_shiken⟧⟦は→は：00079_ha⟧{手|て}ごわかった。",
       "english": "This exam was really tough.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "18987_tegowai_ex3",
-      "japanese": "{交渉|こうしょう}{相手|あいて}がなかなか{手|て}ごわくて、{話|はなし}がまとまらない。",
+      "japanese": "⟦{交渉|こうしょう}→交渉：02727_koushou⟧⟦{相手|あいて}→相手：01677_aite⟧⟦が→が：00051_ga⟧⟦なかなか→なかなか：01547_nakanaka⟧{手|て}ごわくて、⟦{話|はなし}→話：01496_hanashi⟧⟦が→が：00051_ga⟧⟦まとまらない→まとまる：01642_matomaru⟧。",
       "english": "The other party in the negotiation is quite tough, and we can't reach an agreement.",
       "sense_numbers": [
         1
@@ -43,8 +43,17 @@
       "notes": null
     }
   ],
-  "notes": "{手|て}ごわい (also written {手強|てごわ}い) describes an opponent or challenge that is genuinely tough and resistant to your efforts.\n\nUSAGE:\n- An i-adjective. The literal sense is 'hard on the hands' — i.e., something that pushes back when you try to handle it.\n- Used most often in adversarial contexts: sports, games, business negotiations, debates.\n- Distinguished from {難|むずか}しい (difficult in general): {手|て}ごわい specifically implies active resistance or opposition by an adversary, not abstract difficulty.\n\nFORMS:\n- Adverbial: {手|て}ごわく ({手|て}ごわく{抵抗|ていこう}する — to resist toughly)\n- Negative: {手|て}ごわくない\n- Past: {手|て}ごわかった\n- Noun-modifying: {手|て}ごわい{相手|あいて}, {手|て}ごわい{敵|てき}\n\nCOLLOCATIONS:\n- {手|て}ごわい{相手|あいて}: a tough opponent\n- {手|て}ごわい{敵|てき}: a formidable enemy\n- {手|て}ごわい{交渉|こうしょう}{相手|あいて}: a tough negotiating partner\n- なかなか{手|て}ごわい: 'quite formidable, indeed'\n\nSIMILAR ADJECTIVES:\n- {難|むずか}しい: difficult (general; no implication of an adversary).\n- {手|て}{強|づよ}い: an alternative reading/spelling with the same meaning.\n- The opposite is {手|て}ぬるい (lenient, going too easy on someone).",
+  "notes": "{手|て}ごわい (also written {手強|てごわ}い) describes an opponent or challenge that is genuinely tough and resistant to your efforts.\n\nUSAGE:\n- An i-adjective. The literal sense is 'hard on the hands' — i.e., something that pushes back when you try to handle it.\n- Used most often in adversarial contexts: sports, games, business negotiations, debates.\n- Distinguished from ⟦{難|むずか}しい→難しい：00517_muzukashii⟧ (difficult in general): {手|て}ごわい specifically implies active resistance or opposition by an adversary, not abstract difficulty.\n\nFORMS:\n- Adverbial: {手|て}ごわく ({手|て}ごわく⟦{抵抗|ていこう}する→抵抗する：15888_teikousuru⟧ — to resist toughly)\n- Negative: {手|て}ごわく⟦ない→ない：01118_nai⟧\n- Past: {手|て}ごわかった\n- Noun-modifying: {手|て}ごわい⟦{相手|あいて}→相手：01677_aite⟧, {手|て}ごわい⟦{敵|てき}→敵：03546_teki⟧\n\nCOMMON COLLOCATIONS:\n- {手|て}ごわい⟦{相手|あいて}→相手：01677_aite⟧: a tough opponent\n- {手|て}ごわい⟦{敵|てき}→敵：03546_teki⟧: a formidable enemy\n- {手|て}ごわい⟦{交渉|こうしょう}→交渉：02727_koushou⟧⟦{相手|あいて}→相手：01677_aite⟧: a tough negotiating partner\n- ⟦なかなか→なかなか：01547_nakanaka⟧{手|て}ごわい: 'quite formidable, indeed'\n\nSIMILAR WORDS:\n- ⟦{難|むずか}しい→難しい：00517_muzukashii⟧: difficult (general; no implication of an adversary).\n- {手|て}{強|づよ}い: an alternative reading/spelling with the same meaning.\n- The opposite is ⟦{手|て}ぬるい→手ぬるい：20296_tenurui⟧ (lenient, going too easy on someone).",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00517_muzukashii",
+      "reading": "むずかしい",
+      "headword": "{難|むずか}しい",
+      "label": "difficult (general"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -58,7 +67,7 @@
       ]
     },
     "created": "2026-03-23T12:10:44Z",
-    "modified": "2026-04-10T13:28:57Z"
+    "modified": "2026-09-02T04:01:54Z"
   },
   "conjugation": {
     "type": "i-adjective",

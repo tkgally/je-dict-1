@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08062_futonhoshi_ex1",
-      "japanese": "{天気|てんき}がいいから{布団干|ふとんほ}しをしよう。",
+      "japanese": "⟦{天気|てんき}→天気：00582_tenki⟧⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧⟦から→から：00504_kara⟧{布団干|ふとんほ}し⟦を→を：00422_wo⟧⟦しよう→する：00392_suru⟧。",
       "english": "The weather's nice, so let's air out the futon.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "08062_futonhoshi_ex2",
-      "japanese": "{布団干|ふとんほ}しは{湿気|しっけ}{対策|たいさく}に{効果的|こうかてき}だ。",
+      "japanese": "{布団干|ふとんほ}し⟦は→は：00079_ha⟧⟦{湿気|しっけ}→湿気：03177_shikke⟧⟦{対策|たいさく}→対策：02511_taisaku⟧⟦に→に：00314_ni⟧⟦{効果的|こうかてき}→効果的：04793_koukateki⟧だ。",
       "english": "Airing out the futon is effective for preventing moisture buildup.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "08062_futonhoshi_ex3",
-      "japanese": "マンションではベランダで{布団干|ふとんほ}しをする{人|ひと}が{多|おお}い。",
+      "japanese": "⟦マンション→マンション：01035_manshon⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦ベランダ→ベランダ：05072_beranda⟧⟦で→で：00502_de⟧{布団干|ふとんほ}し⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧⟦{人|ひと}→人：00476_hito⟧⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "Many people in apartments air out their futon on the balcony.",
       "sense_numbers": [
         1
@@ -43,7 +43,30 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {布団|ふとん} (futon, bedding) + {干|ほ}す (to dry, air out). Refers to the practice of hanging bedding outside in the sun.\n\nCOMMON COLLOCATIONS:\n- {布団干|ふとんほ}しをする: to air out the futon\n- {布団干|ふとんほ}し{台|だい}: futon drying stand/rack\n- ベランダで{布団干|ふとんほ}し: airing futon on the balcony\n\nCULTURAL NOTE:\nA common household practice in Japan, especially on sunny days. Sunlight helps remove moisture, kill {ダニ} (dust mites), and freshen the bedding. Japan's humid climate makes regular airing essential for hygiene.\n\nRELATED TERMS:\n- {天日干|てんぴぼ}し: sun-drying (general term)\n- {布団|ふとん}たたき: futon beater (used to knock out dust)\n- {洗濯物干|せんたくものほ}し: drying laundry",
+  "notes": "Compound of ⟦{布団|ふとん}→布団：01720_futon⟧ (futon, bedding) + ⟦{干|ほ}す→干す：00115_hosu⟧ (to dry, air out). Refers to the practice of hanging bedding outside in the sun.\n\nCOMMON COLLOCATIONS:\n- {布団干|ふとんほ}し⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧: to air out the futon\n- {布団干|ふとんほ}し{台|だい}: futon drying stand/rack\n- ⟦ベランダ→ベランダ：05072_beranda⟧⟦で→で：00502_de⟧{布団干|ふとんほ}し: airing futon on the balcony\n\nCULTURAL NOTE:\nA common household practice in Japan, especially on sunny days. Sunlight helps remove moisture, kill ダニ (dust mites), and freshen the bedding. Japan's humid climate makes regular airing essential for hygiene.\n\nRELATED WORDS:\n- ⟦{天日干|てんぴぼ}し→天日干し：21115_tenpiboshi⟧: sun-drying (general term)\n- ⟦{布団|ふとん}→布団：01720_futon⟧たたき: futon beater (used to knock out dust)\n- ⟦{洗濯物干|せんたくものほ}し→洗濯物干し：26378_sentakumonohoshi⟧: drying laundry",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "21115_tenpiboshi",
+      "reading": "てんぴぼし",
+      "headword": "{天日干|てんぴぼ}し",
+      "label": "sun-drying"
+    },
+    {
+      "type": "related",
+      "target_id": "26378_sentakumonohoshi",
+      "reading": "せんたくものほし",
+      "headword": "{洗濯物干|せんたくものほ}し",
+      "label": "drying laundry"
+    },
+    {
+      "type": "related",
+      "target_id": "08019_monohoshizao",
+      "reading": "ものほしざお",
+      "headword": "{物干|ものほ}し{竿|ざお}",
+      "label": "laundry pole"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -51,12 +74,13 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "daily-life",
         "culture"
       ]
     },
     "created": "2026-01-25T01:21:19Z",
-    "modified": "2026-08-11T09:37:41Z"
+    "modified": "2026-09-02T04:01:13Z"
   }
 }

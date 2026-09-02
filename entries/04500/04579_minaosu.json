@@ -2,7 +2,7 @@
   "id": "04579_minaosu",
   "headword": "{見直|みなお}す",
   "reading": "みなおす",
-  "part_of_speech": "godan verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to review, to reconsider, to reassess",
   "conjugation": {
     "type": "godan",
@@ -203,11 +203,33 @@
       ]
     }
   ],
-  "notes": "{見直|みなお}す is a transitive verb (⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧) meaning to look at again with a fresh perspective.\n\nCOMPOUND STRUCTURE:\n- ⟦{見|み}る→見る：00283_miru⟧ (to see) + ⟦{直|なお}す→直す：00869_naosu⟧ (to fix, to redo) → to look at again\n\nASPECT (ている):\n{見直|みなお}している indicates an ongoing process of reviewing or reassessing.\n\nCOMMON PATTERNS:\n- ⟦{答案|とうあん}→答案：03451_touan⟧⟦を→を：00422_wo⟧{見直|みなお}す (review an answer sheet)\n- ⟦{人|ひと}→人：00476_hito⟧⟦を→を：00422_wo⟧{見直|みなお}す (change one's opinion of a person, usually for the better)\n- ⟦{計画|けいかく}→計画：01172_keikaku⟧⟦を→を：00422_wo⟧{見直|みなお}す (reconsider a plan)\n- ⟦{制度|せいど}→制度：03291_seido⟧⟦を→を：00422_wo⟧{見直|みなお}す (review a system)\n\nNUANCE:\nWhen used with people, {見直|みなお}す typically implies gaining a more favorable opinion, often after someone has exceeded expectations.",
-  "cross_references": [],
+  "notes": "{見直|みなお}す is a transitive verb (⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧) meaning to look at again with a fresh perspective.\n\nETYMOLOGY:\n- ⟦{見|み}る→見る：00283_miru⟧ (to see) + ⟦{直|なお}す→直す：00869_naosu⟧ (to fix, to redo) → to look at again\n\nASPECT (ている):\n{見直|みなお}して⟦いる→いる：00495_iru⟧ indicates an ongoing process of reviewing or reassessing.\n\nCOMMON PATTERNS:\n- ⟦{答案|とうあん}→答案：03451_touan⟧⟦を→を：00422_wo⟧{見直|みなお}す (review an answer sheet)\n- ⟦{人|ひと}→人：00476_hito⟧⟦を→を：00422_wo⟧{見直|みなお}す (change one's opinion of a person, usually for the better)\n- ⟦{計画|けいかく}→計画：01172_keikaku⟧⟦を→を：00422_wo⟧{見直|みなお}す (reconsider a plan)\n- ⟦{制度|せいど}→制度：03291_seido⟧⟦を→を：00422_wo⟧{見直|みなお}す (review a system)\n\nUSAGE:\nWhen used with people, {見直|みなお}す typically implies gaining a more favorable opinion, often after someone has exceeded expectations.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07174_omoinaosu",
+      "reading": "おもいなおす",
+      "headword": "{思|おも}い{直|なお}す",
+      "label": "to reconsider"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18169_saininshiki",
+      "reading": "さいにんしき",
+      "headword": "{再認識|さいにんしき}",
+      "label": "renewed recognition"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29840_yominaosu",
+      "reading": "よみなおす",
+      "headword": "{読|よ}み{直|なお}す",
+      "label": "to reread"
+    }
+  ],
   "metadata": {
     "created": "2026-01-14T03:52:00Z",
-    "modified": "2026-06-01T15:21:32Z",
+    "modified": "2026-09-02T04:01:05Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

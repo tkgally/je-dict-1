@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "26282_renzokusatsujin_ex1",
-      "japanese": "{連続殺人|れんぞくさつじん}{事件|じけん}が{発生|はっせい}した。",
+      "japanese": "{連続殺人|れんぞくさつじん}⟦{事件|じけん}→事件：01568_jiken⟧⟦が→が：00051_ga⟧⟦{発生|はっせい}した→発生する：25529_hasseisuru⟧。",
       "english": "A serial murder case occurred.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "26282_renzokusatsujin_ex2",
-      "japanese": "{警察|けいさつ}は{連続殺人|れんぞくさつじん}の{容疑者|ようぎしゃ}を{逮捕|たいほ}した。",
+      "japanese": "⟦{警察|けいさつ}→警察：01393_keisatsu⟧⟦は→は：00079_ha⟧{連続殺人|れんぞくさつじん}⟦の→の：09472_no⟧⟦{容疑者|ようぎしゃ}→容疑者：15039_yougisha⟧⟦を→を：00422_wo⟧⟦{逮捕|たいほ}した→逮捕する：26830_taihosuru⟧。",
       "english": "The police arrested the suspect in the serial murders.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "26282_renzokusatsujin_ex3",
-      "japanese": "このドラマは、{実際|じっさい}に{起|お}きた{連続殺人|れんぞくさつじん}{事件|じけん}をもとに{制作|せいさく}された。",
+      "japanese": "⟦この→この：00962_kono⟧⟦ドラマ→ドラマ：03867_dorama⟧⟦は→は：00079_ha⟧、⟦{実際|じっさい}→実際：02502_jissai⟧⟦に→に：00314_ni⟧⟦{起|お}きた→起きる：00521_okiru⟧{連続殺人|れんぞくさつじん}⟦{事件|じけん}→事件：01568_jiken⟧⟦を→を：00422_wo⟧もと⟦に→に：00314_ni⟧⟦{制作|せいさく}→制作：04320_seisaku⟧⟦された→する：00392_suru⟧。",
       "english": "This drama was produced based on a serial murder case that actually happened.",
       "sense_numbers": [
         1
@@ -43,12 +43,28 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {連続|れんぞく} (consecutive, serial) + {殺人|さつじん} (murder). Refers to a series of murders committed by the same perpetrator, typically with a cooling-off period between each killing. Commonly encountered in news reports and crime fiction.\n\nCOMMON COLLOCATIONS:\n- {連続殺人|れんぞくさつじん}{事件|じけん}: serial murder case\n- {連続殺人|れんぞくさつじん}{犯|はん}: serial killer\n- {連続殺人|れんぞくさつじん}の{容疑者|ようぎしゃ}: serial murder suspect\n- {連続殺人|れんぞくさつじん}の{捜査|そうさ}: serial murder investigation\n\nSIMILAR WORDS:\n- {連続殺人犯|れんぞくさつじんはん}: serial killer (the perpetrator)\n- {大量殺人|たいりょうさつじん}: mass murder (many victims in a single event, not spread over time)\n- {殺人事件|さつじんじけん}: murder case (a single murder incident)\n- シリアルキラー: serial killer (loanword; used in casual media discussions)",
-  "cross_references": [],
+  "notes": "A compound of ⟦{連続|れんぞく}→連続：03783_renzoku⟧ (consecutive, serial) + ⟦{殺人|さつじん}→殺人：13236_satsujin⟧ (murder). Refers to a series of murders committed by the same perpetrator, typically with a cooling-off period between each killing. Commonly encountered in news reports and crime fiction.\n\nCOMMON COLLOCATIONS:\n- {連続殺人|れんぞくさつじん}⟦{事件|じけん}→事件：01568_jiken⟧: serial murder case\n- {連続殺人|れんぞくさつじん}{犯|はん}: serial killer\n- {連続殺人|れんぞくさつじん}⟦の→の：09472_no⟧⟦{容疑者|ようぎしゃ}→容疑者：15039_yougisha⟧: serial murder suspect\n- {連続殺人|れんぞくさつじん}⟦の→の：09472_no⟧⟦{捜査|そうさ}→捜査：03688_sousa⟧: serial murder investigation\n\nSIMILAR WORDS:\n- {連続殺人犯|れんぞくさつじんはん}: serial killer (the perpetrator)\n- ⟦{大量殺人|たいりょうさつじん}→大量殺人：23634_tairyousatsujin⟧: mass murder (many victims in a single event, not spread over time)\n- ⟦{殺人事件|さつじんじけん}→殺人事件：30413_satsujinjiken⟧: murder case (a single murder incident)\n- シリアルキラー: serial killer (loanword; used in casual media discussions)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23634_tairyousatsujin",
+      "reading": "たいりょうさつじん",
+      "headword": "{大量殺人|たいりょうさつじん}",
+      "label": "mass murder"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30413_satsujinjiken",
+      "reading": "さつじんじけん",
+      "headword": "{殺人|さつじん}{事件|じけん}",
+      "label": "murder case"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
+      "politeness": "plain",
       "semantic": [
         "law"
       ],
@@ -57,6 +73,6 @@
       ]
     },
     "created": "2026-04-30T14:29:13Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T04:02:25Z"
   }
 }

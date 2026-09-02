@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26594_mondainai_ex1",
-      "japanese": "{全然|ぜんぜん}{問題|もんだい}ない。",
+      "japanese": "⟦{全然|ぜんぜん}→全然：00598_zenzen⟧{問題|もんだい}ない。",
       "english": "No problem at all.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26594_mondainai_ex2",
-      "japanese": "このスケジュールで{問題|もんだい}ないですか。",
+      "japanese": "⟦この→この：00962_kono⟧⟦スケジュール→スケジュール：03850_sukejuuru⟧⟦で→で：00502_de⟧{問題|もんだい}ないです⟦か→か：09473_ka⟧。",
       "english": "Is this schedule okay?",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26594_mondainai_ex3",
-      "japanese": "{健康|けんこう}{診断|しんだん}の{結果|けっか}は{問題|もんだい}なかったので、{安心|あんしん}した。",
+      "japanese": "⟦{健康|けんこう}{診断|しんだん}→健康診断：05979_kenkoushindan⟧⟦の→の：09472_no⟧⟦{結果|けっか}→結果：02486_kekka⟧⟦は→は：00079_ha⟧{問題|もんだい}なかった⟦の→の：09472_no⟧で、⟦{安心|あんしん}した→安心する：06067_anshinsuru⟧。",
       "english": "The health check results came back fine, so I was relieved.",
       "sense_numbers": [
         1
@@ -44,8 +44,37 @@
       "notes": null
     }
   ],
-  "notes": "An extremely common expression in everyday Japanese, used to confirm that something is acceptable or that there are no issues. Often used as a quick reassurance in response to questions or concerns.\n\nCOMMON COLLOCATIONS:\n- {全然|ぜんぜん}{問題|もんだい}ない: no problem at all\n- {何|なに}も{問題|もんだい}ない: nothing wrong at all\n- {特|とく}に{問題|もんだい}ない: nothing in particular is wrong\n- {問題|もんだい}ないと{思|おも}う: I think it's fine\n\nSIMILAR EXPRESSIONS:\n- {大丈夫|だいじょうぶ}: similar meaning but more casual and versatile; {問題|もんだい}ない focuses specifically on the absence of problems\n- {構|かま}わない: \"I don't mind\" — focuses on the speaker's willingness rather than objective assessment\n\nREGISTER:\nUsed across all registers. The polite form {問題|もんだい}ないです or {問題|もんだい}ありません is standard in business and formal settings.",
-  "cross_references": [],
+  "notes": "An extremely common expression in everyday Japanese, used to confirm that something is acceptable or that there are no issues. Often used as a quick reassurance in response to questions or concerns.\n\nCOMMON COLLOCATIONS:\n- ⟦{全然|ぜんぜん}→全然：00598_zenzen⟧{問題|もんだい}ない: no problem at all\n- ⟦{何|なに}も→何も：03874_nanimo⟧{問題|もんだい}ない: nothing wrong at all\n- ⟦{特|とく}に→特に：01260_tokuni⟧{問題|もんだい}ない: nothing in particular is wrong\n- {問題|もんだい}ない⟦と→と：00512_to⟧⟦{思|おも}う→思う：00492_omou⟧: I think it's fine\n\nSIMILAR WORDS:\n- ⟦{大丈夫|だいじょうぶ}→大丈夫：00772_daijoubu⟧: similar meaning but more casual and versatile; {問題|もんだい}ない focuses specifically on the absence of problems\n- {構|かま}わない: \"I don't mind\" — focuses on the speaker's willingness rather than objective assessment\n\nREGISTER:\nUsed across all registers. The polite form {問題|もんだい}ないです or ⟦{問題|もんだい}→問題：00797_mondai⟧⟦ありません→ある：00006_aru⟧ is standard in business and formal settings.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00772_daijoubu",
+      "reading": "だいじょうぶ",
+      "headword": "{大丈夫|だいじょうぶ}",
+      "label": "similar meaning but more casual…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21314_kamawanai",
+      "reading": "かまわない",
+      "headword": "{構|かま}わない",
+      "label": "\"I don't mind\""
+    },
+    {
+      "type": "contrast",
+      "target_id": "00095_heiki",
+      "reading": "へいき",
+      "headword": "{平気|へいき}",
+      "label": "calm, fine, unconcerned, okay"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25403_sashitsukaenai",
+      "reading": "さしつかえない",
+      "headword": "{差|さ}し{支|つか}えない",
+      "label": "no problem"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -61,6 +90,6 @@
       "domain": []
     },
     "created": "2026-05-03T14:18:04Z",
-    "modified": "2026-05-03T14:18:04Z"
+    "modified": "2026-09-02T04:02:27Z"
   }
 }

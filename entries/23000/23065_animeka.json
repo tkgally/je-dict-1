@@ -3,7 +3,7 @@
   "headword": "アニメ{化|か}",
   "reading": "あにめか",
   "romaji": "animeka",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "anime adaptation; turning into anime",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "23065_animeka_ex1",
-      "japanese": "アニメ{化|か}が{決定|けってい}した。",
+      "japanese": "アニメ{化|か}⟦が→が：00051_ga⟧⟦{決定|けってい}した→決定する：21022_ketteisuru⟧。",
       "english": "The anime adaptation has been confirmed.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "23065_animeka_ex2",
-      "japanese": "あの{漫画|まんが}がついにアニメ{化|か}されるらしい。",
+      "japanese": "⟦あの→あの：00915_ano⟧⟦{漫画|まんが}→漫画：01511_manga⟧⟦が→が：00051_ga⟧ついにアニメ{化|か}⟦される→する：00392_suru⟧らしい。",
       "english": "Apparently that manga is finally getting an anime adaptation.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "23065_animeka_ex3",
-      "japanese": "{人気|にんき}ライトノベルのアニメ{化|か}が{発表|はっぴょう}されて、ファンが{盛|も}り{上|あ}がっている。",
+      "japanese": "⟦{人気|にんき}→人気：01488_ninki⟧⟦ライト→ライト：13631_raito⟧ノベル⟦の→の：09472_no⟧アニメ{化|か}⟦が→が：00051_ga⟧⟦{発表|はっぴょう}→発表：03562_happyou⟧⟦されて→する：00392_suru⟧、⟦ファン→ファン：10065_fan⟧⟦が→が：00051_ga⟧⟦{盛|も}り{上|あ}がっている→盛り上がる：06344_moriagaru⟧。",
       "english": "The announcement of the popular light novel's anime adaptation has fans excited.",
       "sense_numbers": [
         1
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "A compound of アニメ (anime) + {化|か} (transformation/-ification). The suffix {化|か} is highly productive in Japanese, creating words meaning 'turning into X' or 'making into X.'\n\nCOMMON COLLOCATIONS:\n- アニメ{化|か}が{決定|けってい}する: for an anime adaptation to be confirmed\n- アニメ{化|か}される: to be adapted into anime\n- アニメ{化|か}{作品|さくひん}: anime-adapted work\n- アニメ{化|か}{発表|はっぴょう}: anime adaptation announcement\n\nSIMILAR WORDS:\n- {映画化|えいがか}: film adaptation — adapting a work into a live-action or animated film\n- {実写化|じっしゃか}: live-action adaptation — specifically adapting anime/manga into live-action\n- ドラマ{化|か}: drama adaptation — adapting into a TV drama series\n- {漫画化|まんがか}: manga adaptation — the reverse: adapting something into manga (less common)",
+  "notes": "A compound of ⟦アニメ→アニメ：01527_anime⟧ (anime) + ⟦{化|か}→〜化：28335_ka⟧ (transformation/-ification). The suffix ⟦{化|か}→〜化：28335_ka⟧ is highly productive in Japanese, creating words meaning 'turning into X' or 'making into X.'\n\nCOMMON COLLOCATIONS:\n- アニメ{化|か}⟦が→が：00051_ga⟧⟦{決定|けってい}する→決定する：21022_ketteisuru⟧: for an anime adaptation to be confirmed\n- アニメ{化|か}⟦される→する：00392_suru⟧: to be adapted into anime\n- アニメ{化|か}⟦{作品|さくひん}→作品：02776_sakuhin⟧: anime-adapted work\n- アニメ{化|か}⟦{発表|はっぴょう}→発表：03562_happyou⟧: anime adaptation announcement\n\nSIMILAR WORDS:\n- ⟦{映画化|えいがか}→映画化：23773_eigaka⟧: film adaptation — adapting a work into a live-action or animated film\n- ⟦{実写化|じっしゃか}→実写化：17313_jisshaka⟧: live-action adaptation — specifically adapting anime/manga into live-action\n- ⟦ドラマ{化|か}→ドラマ化：26046_doramaka⟧: drama adaptation — adapting into a TV drama series\n- {漫画化|まんがか}: manga adaptation — the reverse: adapting something into manga (less common)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23773_eigaka",
+      "reading": "えいがか",
+      "headword": "{映画化|えいがか}",
+      "label": "film adaptation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17313_jisshaka",
+      "reading": "じっしゃか",
+      "headword": "{実写化|じっしゃか}",
+      "label": "live-action adaptation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26046_doramaka",
+      "reading": "どらまか",
+      "headword": "ドラマ{化|か}",
+      "label": "drama adaptation"
+    },
+    {
+      "type": "related",
+      "target_id": "11205_ranobe",
+      "reading": "らのべ",
+      "headword": "ラノベ",
+      "label": "light novel"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,7 +91,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-08T17:32:50Z",
-    "modified": "2026-04-08T17:32:50Z"
+    "modified": "2026-09-02T04:02:10Z"
   },
   "conjugation": {
     "type": "suru",

@@ -79,10 +79,32 @@
     }
   ],
   "notes": "{嵐|あらし} means storm, both literally and figuratively.\n\nCOMMON PATTERNS:\n- {嵐|あらし}⟦が→が：00051_ga⟧⟦{来|く}る→来る：00254_kuru⟧ (a storm is coming)\n- {嵐|あらし}⟦が→が：00051_ga⟧⟦{過|す}ぎる→過ぎる：01219_sugiru⟧ (the storm passes)\n- {嵐|あらし}⟦の→の：09472_no⟧⟦{前|まえ}→前：02255_mae⟧⟦の→の：09472_no⟧⟦{静|しず}けさ→静けさ：14614_shizukesa⟧ (calm before the storm)\n- ⟦{拍手|はくしゅ}→拍手：03553_hakushu⟧⟦の→の：09472_no⟧{嵐|あらし} (storm of applause)\n\nSIMILAR WORDS:\n- ⟦{台風|たいふう}→台風：01455_taifuu⟧: typhoon (specific type)\n- {嵐|あらし}: storm (general)\n- ⟦{暴風雨|ぼうふうう}→暴風雨：07670_boufuuu⟧: windstorm with rain (technical)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01455_taifuu",
+      "reading": "たいふう",
+      "headword": "{台風|たいふう}",
+      "label": "typhoon"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07670_boufuuu",
+      "reading": "ぼうふうう",
+      "headword": "{暴風雨|ぼうふうう}",
+      "label": "windstorm with rain"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21731_fuuu",
+      "reading": "ふうう",
+      "headword": "{風雨|ふうう}",
+      "label": "wind and rain"
+    }
+  ],
   "metadata": {
     "created": "2026-01-09T11:57:15Z",
-    "modified": "2026-03-25T14:51:00Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

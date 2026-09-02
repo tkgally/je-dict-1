@@ -15,40 +15,81 @@
   "examples": [
     {
       "id": "19561_kaniku_ex1",
-      "japanese": "この{桃|もも}は{果肉|かにく}が{柔|やわ}らかい。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{桃|もも}→桃：04382_momo⟧⟦は→は：00079_ha⟧{果肉|かにく}⟦が→が：00051_ga⟧⟦{柔|やわ}らかい→柔らかい：01096_yawarakai⟧。",
       "english": "This peach has soft flesh.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19561_kaniku_ex2",
-      "japanese": "{果肉|かにく}たっぷりのジャムを{作|つく}った。",
+      "japanese": "{果肉|かにく}⟦たっぷり→たっぷり：03404_tappuri⟧⟦の→の：09472_no⟧⟦ジャム→ジャム：01779_jamu⟧⟦を→を：00422_wo⟧⟦{作|つく}った→作る：00481_tsukuru⟧。",
       "english": "I made jam packed with fruit pulp.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19561_kaniku_ex3",
-      "japanese": "このジュースは{果肉|かにく}が{入|はい}っているので、{飲|の}みごたえがある。",
+      "japanese": "⟦この→この：00962_kono⟧⟦ジュース→ジュース：01033_juusu⟧⟦は→は：00079_ha⟧{果肉|かにく}⟦が→が：00051_ga⟧⟦{入|はい}っている→入る：00494_hairu⟧⟦の→の：09472_no⟧で、⟦{飲|の}みごたえ→飲みごたえ：08085_nomigotae⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "This juice has fruit pulp in it, so it's satisfying to drink.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {果|か} (fruit) + {肉|にく} (flesh, meat). A practical word commonly seen on food packaging, recipes, and product descriptions. Essential for understanding food labels in Japan.\n\nCOMMON COLLOCATIONS:\n- {果肉|かにく}が{入|はい}っている — contains fruit pulp\n- {果肉|かにく}たっぷり — full of fruit flesh\n- {果肉|かにく}が{柔|やわ}らかい — the flesh is soft\n- {果肉|かにく}が{厚|あつ}い — thick-fleshed\n- {白|しろ}い{果肉|かにく} — white flesh (e.g., of a pear)\n\nRELATED TERMS:\n- {果汁|かじゅう} — fruit juice\n- {果皮|かひ} — fruit peel, rind\n- {種|たね} — seed\n- {実|み} — fruit (on the tree); more general term for the edible part",
+  "notes": "Composed of {果|か} (fruit) + ⟦{肉|にく}→肉：02240_niku⟧ (flesh, meat). A practical word commonly seen on food packaging, recipes, and product descriptions. Essential for understanding food labels in Japan.\n\nCOMMON COLLOCATIONS:\n- {果肉|かにく}⟦が→が：00051_ga⟧⟦{入|はい}っている→入る：00494_hairu⟧ — contains fruit pulp\n- {果肉|かにく}⟦たっぷり→たっぷり：03404_tappuri⟧ — full of fruit flesh\n- {果肉|かにく}⟦が→が：00051_ga⟧⟦{柔|やわ}らかい→柔らかい：01096_yawarakai⟧ — the flesh is soft\n- {果肉|かにく}⟦が→が：00051_ga⟧⟦{厚|あつ}い→厚い：00690_atsui⟧ — thick-fleshed\n- ⟦{白|しろ}い→白い：00587_shiroi⟧{果肉|かにく} — white flesh (e.g., of a pear)\n\nRELATED WORDS:\n- ⟦{果汁|かじゅう}→果汁：15335_kajuu⟧ — fruit juice\n- ⟦{果皮|かひ}→果皮：19573_kahi⟧ — fruit peel, rind\n- ⟦{種|たね}→種：02157_tane⟧ — seed\n- ⟦{実|み}→実：03741_mi⟧ — fruit (on the tree); more general term for the edible part",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "15335_kajuu",
+      "reading": "かじゅう",
+      "headword": "{果汁|かじゅう}",
+      "label": "fruit juice"
+    },
+    {
+      "type": "related",
+      "target_id": "19573_kahi",
+      "reading": "かひ",
+      "headword": "{果皮|かひ}",
+      "label": "fruit peel, rind"
+    },
+    {
+      "type": "related",
+      "target_id": "02157_tane",
+      "reading": "たね",
+      "headword": "{種|たね}",
+      "label": "seed"
+    },
+    {
+      "type": "related",
+      "target_id": "03741_mi",
+      "reading": "み",
+      "headword": "{実|み}",
+      "label": "fruit"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food", "nature"]
+      "semantic": [
+        "food",
+        "nature"
+      ]
     },
     "created": "2026-03-26T05:15:43Z",
-    "modified": "2026-03-26T05:15:43Z"
+    "modified": "2026-09-02T04:01:56Z"
   }
 }

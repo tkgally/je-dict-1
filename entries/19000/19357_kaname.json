@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "19357_kaname_ex1",
-      "japanese": "{彼|かれ}はチームの{要|かなめ}だ。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦チーム→チーム：03858_chiimu⟧⟦の→の：09472_no⟧{要|かなめ}だ。",
       "english": "He is the linchpin of the team.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19357_kaname_ex2",
-      "japanese": "{交渉|こうしょう}の{要|かなめ}は{信頼関係|しんらいかんけい}だ。",
+      "japanese": "⟦{交渉|こうしょう}→交渉：02727_koushou⟧⟦の→の：09472_no⟧{要|かなめ}⟦は→は：00079_ha⟧⟦{信頼関係|しんらいかんけい}→信頼関係：16095_shinraikankei⟧だ。",
       "english": "The key to negotiation is a relationship of trust.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19357_kaname_ex3",
-      "japanese": "{防衛|ぼうえい}の{要|かなめ}となる{地域|ちいき}を{確保|かくほ}しなければならない。",
+      "japanese": "⟦{防衛|ぼうえい}→防衛：09783_bouei⟧⟦の→の：09472_no⟧{要|かなめ}⟦と→と：00512_to⟧⟦なる→なる：01970_naru⟧⟦{地域|ちいき}→地域：01461_chiiki⟧⟦を→を：00422_wo⟧⟦{確保|かくほ}→確保：13681_kakuho⟧し⟦なければならない→なければならない：27600_nakerebanaranai⟧。",
       "english": "We must secure the region that serves as the linchpin of defense.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "The crucial element that everything depends on. Originally the rivet ({要|かなめ}) of a folding fan ({扇|おうぎ}) — the small pin at the base that holds all the blades together. Without it, the fan falls apart, hence the figurative meaning.\n\nCOMMON COLLOCATIONS:\n- チームの{要|かなめ} — linchpin of the team\n- {組織|そしき}の{要|かなめ} — the key person/element of an organization\n- {防衛|ぼうえい}の{要|かなめ} — linchpin of defense\n- {要|かなめ}となる — to serve as the key element\n- {扇|おうぎ}の{要|かなめ} — the pivot of a fan (also figurative: the central hub)\n\nETYMOLOGY:\nFrom the rivet ({要|かなめ}) of a folding fan. The metaphor of a small but essential component holding a larger structure together is the core of this word's meaning.\n\nSIMILAR WORDS:\n- {要|よう} — necessity, need (same kanji, on'yomi reading, different nuance)\n- {中心|ちゅうしん} — center, core (more neutral, less emphasis on indispensability)\n- {柱|はしら} — pillar (similar metaphor of structural support)\n\nAS A NAME:\n{要|かなめ} is also used as a given name (for both genders), suggesting someone essential or pivotal.",
+  "notes": "The crucial element that everything depends on. Originally the rivet ({要|かなめ}) of a folding fan ({扇|おうぎ}) — the small pin at the base that holds all the blades together. Without it, the fan falls apart, hence the figurative meaning.\n\nCOMMON COLLOCATIONS:\n- ⟦チーム→チーム：03858_chiimu⟧⟦の→の：09472_no⟧{要|かなめ} — linchpin of the team\n- ⟦{組織|そしき}→組織：03320_soshiki⟧⟦の→の：09472_no⟧{要|かなめ} — the key person/element of an organization\n- ⟦{防衛|ぼうえい}→防衛：09783_bouei⟧⟦の→の：09472_no⟧{要|かなめ} — linchpin of defense\n- {要|かなめ}⟦と→と：00512_to⟧⟦なる→なる：01970_naru⟧ — to serve as the key element\n- {扇|おうぎ}⟦の→の：09472_no⟧{要|かなめ} — the pivot of a fan (also figurative: the central hub)\n\nETYMOLOGY:\nFrom the rivet ({要|かなめ}) of a folding fan. The metaphor of a small but essential component holding a larger structure together is the core of this word's meaning.\n\nSIMILAR WORDS:\n- ⟦{要|よう}→要：10000_you⟧ — necessity, need (same kanji, on'yomi reading, different nuance)\n- ⟦{中心|ちゅうしん}→中心：01467_chuushin⟧ — center, core (more neutral, less emphasis on indispensability)\n- ⟦{柱|はしら}→柱：05009_hashira⟧ — pillar (similar metaphor of structural support)\n\nAS A NAME:\n{要|かなめ} is also used as a given name (for both genders), suggesting someone essential or pivotal.",
   "prominent_see_also": [
     {
       "target_id": "10000_you",
@@ -54,18 +60,36 @@
       "reading": "よう",
       "headword": "{要|よう}",
       "label": "same kanji, different reading"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01467_chuushin",
+      "reading": "ちゅうしん",
+      "headword": "{中心|ちゅうしん}",
+      "label": "center, core"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05009_hashira",
+      "reading": "はしら",
+      "headword": "{柱|はしら}",
+      "label": "pillar"
     }
   ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["abstract"]
+      "semantic": [
+        "abstract"
+      ]
     },
     "created": "2026-03-25T10:15:17Z",
-    "modified": "2026-03-25T10:15:17Z"
+    "modified": "2026-09-02T04:01:55Z"
   }
 }

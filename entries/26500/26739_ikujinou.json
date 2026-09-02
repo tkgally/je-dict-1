@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26739_ikujinou_ex1",
-      "japanese": "カンガルーの{育児嚢|いくじのう}から{赤|あか}ちゃんが{顔|かお}を{出|だ}した。",
+      "japanese": "⟦カンガルー→カンガルー：05220_kangaruu⟧⟦の→の：09472_no⟧{育児嚢|いくじのう}⟦から→から：00504_kara⟧⟦{赤|あか}ちゃん→赤ちゃん：01282_akachan⟧⟦が→が：00051_ga⟧⟦{顔|かお}→顔：00558_kao⟧⟦を→を：00422_wo⟧⟦{出|だ}した→出す：01087_dasu⟧。",
       "english": "A baby peeked out from the kangaroo's pouch.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26739_ikujinou_ex2",
-      "japanese": "{有袋類|ゆうたいるい}は{育児嚢|いくじのう}の{中|なか}で{子|こ}どもを{育|そだ}てる。",
+      "japanese": "⟦{有袋類|ゆうたいるい}→有袋類：23707_yuutairui⟧⟦は→は：00079_ha⟧{育児嚢|いくじのう}⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧⟦で→で：00502_de⟧{子|こ}ども⟦を→を：00422_wo⟧⟦{育|そだ}てる→育てる：01235_sodateru⟧。",
       "english": "Marsupials raise their young inside a pouch.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26739_ikujinou_ex3",
-      "japanese": "タツノオトシゴの{雄|おす}は{育児嚢|いくじのう}で{卵|たまご}を{抱|かか}え、{孵化|ふか}するまで{守|まも}る。",
+      "japanese": "タツノオトシゴ⟦の→の：09472_no⟧⟦{雄|おす}→雄：10732_osu⟧⟦は→は：00079_ha⟧{育児嚢|いくじのう}⟦で→で：00502_de⟧⟦{卵|たまご}→卵：02222_tamago⟧⟦を→を：00422_wo⟧⟦{抱|かか}え→抱える：02031_kakaeru⟧、⟦{孵化|ふか}→孵化：19845_fuka⟧⟦する→する：00392_suru⟧⟦まで→まで：00490_made⟧⟦{守|まも}る→守る：01986_mamoru⟧。",
       "english": "Male seahorses carry eggs in their brood pouch and protect them until they hatch.",
       "sense_numbers": [
         1
@@ -44,8 +44,23 @@
       "notes": null
     }
   ],
-  "notes": "A zoological term composed of {育児|いくじ} (child-rearing) and {嚢|のう} (sac, pouch). Most commonly associated with kangaroos and other marsupials, but also used for the brood pouch of seahorses and certain crustaceans.\n\nCOMMON COLLOCATIONS:\n- {育児嚢|いくじのう}の{中|なか}: inside the pouch\n- {育児嚢|いくじのう}から{出|で}る: to come out of the pouch\n- {育児嚢|いくじのう}で{育|そだ}てる: to raise in the pouch\n\nRELATED TERMS:\n- {有袋類|ゆうたいるい}: marsupials — animals that have a pouch\n- {袋|ふくろ}: pouch, bag — the informal way to refer to a marsupial's pouch",
-  "cross_references": [],
+  "notes": "A zoological term composed of ⟦{育児|いくじ}→育児：03998_ikuji⟧ (child-rearing) and {嚢|のう} (sac, pouch). Most commonly associated with kangaroos and other marsupials, but also used for the brood pouch of seahorses and certain crustaceans.\n\nCOMMON COLLOCATIONS:\n- {育児嚢|いくじのう}⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧: inside the pouch\n- {育児嚢|いくじのう}⟦から→から：00504_kara⟧⟦{出|で}る→出る：00513_deru⟧: to come out of the pouch\n- {育児嚢|いくじのう}⟦で→で：00502_de⟧⟦{育|そだ}てる→育てる：01235_sodateru⟧: to raise in the pouch\n\nRELATED WORDS:\n- ⟦{有袋類|ゆうたいるい}→有袋類：23707_yuutairui⟧: marsupials — animals that have a pouch\n- ⟦{袋|ふくろ}→袋：00837_fukuro⟧: pouch, bag — the informal way to refer to a marsupial's pouch",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "23707_yuutairui",
+      "reading": "ゆうたいるい",
+      "headword": "{有袋類|ゆうたいるい}",
+      "label": "marsupials"
+    },
+    {
+      "type": "related",
+      "target_id": "00837_fukuro",
+      "reading": "ふくろ",
+      "headword": "{袋|ふくろ}",
+      "label": "pouch, bag"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -64,6 +79,6 @@
       ]
     },
     "created": "2026-05-04T15:31:40Z",
-    "modified": "2026-08-06T12:46:55Z"
+    "modified": "2026-09-02T04:02:27Z"
   }
 }

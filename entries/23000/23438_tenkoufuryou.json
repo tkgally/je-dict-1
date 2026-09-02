@@ -15,40 +15,66 @@
   "examples": [
     {
       "id": "23438_tenkoufuryou_ex1",
-      "japanese": "{天候不良|てんこうふりょう}のため{中止|ちゅうし}です。",
+      "japanese": "{天候不良|てんこうふりょう}⟦の→の：09472_no⟧⟦ため→ため：01145_tame⟧⟦{中止|ちゅうし}→中止：03481_chuushi⟧です。",
       "english": "It is canceled due to bad weather.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "23438_tenkoufuryou_ex2",
-      "japanese": "{天候不良|てんこうふりょう}により、{便|びん}が{欠航|けっこう}になった。",
+      "japanese": "{天候不良|てんこうふりょう}⟦に→に：00314_ni⟧⟦より→より：09476_yori⟧、⟦{便|びん}→便：28160_bin⟧⟦が→が：00051_ga⟧⟦{欠航|けっこう}→欠航：09509_kekkou⟧になった。",
       "english": "The flight was canceled due to inclement weather.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "23438_tenkoufuryou_ex3",
-      "japanese": "{天候不良|てんこうふりょう}が{続|つづ}いたため、{農作物|のうさくもつ}に{大|おお}きな{被害|ひがい}が{出|で}た。",
+      "japanese": "{天候不良|てんこうふりょう}⟦が→が：00051_ga⟧⟦{続|つづ}いた→続く：00903_tsuzuku⟧⟦ため→ため：01145_tame⟧、{農作物|のうさくもつ}⟦に→に：00314_ni⟧⟦{大|おお}きな→大きな：02849_ookina⟧⟦{被害|ひがい}→被害：02572_higai⟧⟦が→が：00051_ga⟧⟦{出|で}た→出る：00513_deru⟧。",
       "english": "Because of the continued bad weather, the crops suffered significant damage.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A formal compound of {天候|てんこう} (weather) and {不良|ふりょう} (poor, defective). Primarily used in official announcements, news reports, and signage to explain cancellations or delays.\n\nCOMMON COLLOCATIONS:\n- {天候不良|てんこうふりょう}のため: due to bad weather\n- {天候不良|てんこうふりょう}により: on account of adverse weather\n- {天候不良|てんこうふりょう}が{予想|よそう}される: bad weather is expected\n- {天候不良|てんこうふりょう}の{影響|えいきょう}: the effects of bad weather\n\nSIMILAR WORDS:\n- {悪天候|あくてんこう}: bad weather — also formal, slightly more common in news reporting\n- {荒天|こうてん}: stormy weather — implies more severe conditions (strong wind, heavy rain)\n- {天気|てんき}が{悪|わる}い: the weather is bad — casual everyday expression\n\nUSAGE:\nYou will see this on signs at airports, train stations, and event venues. The pattern 〜のため{中止|ちゅうし} (canceled due to ~) or 〜により{延期|えんき} (postponed due to ~) is extremely common.",
+  "notes": "A formal compound of ⟦{天候|てんこう}→天候：03558_tenkou⟧ (weather) and ⟦{不良|ふりょう}→不良：11320_furyou⟧ (poor, defective). Primarily used in official announcements, news reports, and signage to explain cancellations or delays.\n\nCOMMON COLLOCATIONS:\n- {天候不良|てんこうふりょう}⟦の→の：09472_no⟧⟦ため→ため：01145_tame⟧: due to bad weather\n- {天候不良|てんこうふりょう}⟦に→に：00314_ni⟧⟦より→より：09476_yori⟧: on account of adverse weather\n- {天候不良|てんこうふりょう}⟦が→が：00051_ga⟧⟦{予想|よそう}される→予想する：06064_yosousuru⟧: bad weather is expected\n- {天候不良|てんこうふりょう}⟦の→の：09472_no⟧⟦{影響|えいきょう}→影響：01877_eikyou⟧: the effects of bad weather\n\nSIMILAR WORDS:\n- ⟦{悪天候|あくてんこう}→悪天候：16184_akutenkou⟧: bad weather — also formal, slightly more common in news reporting\n- ⟦{荒天|こうてん}→荒天：16432_kouten⟧: stormy weather — implies more severe conditions (strong wind, heavy rain)\n- ⟦{天気|てんき}→天気：00582_tenki⟧⟦が→が：00051_ga⟧⟦{悪|わる}い→悪い：00908_warui⟧: the weather is bad — casual everyday expression\n\nUSAGE:\nYou will see this on signs at airports, train stations, and event venues. The pattern 〜⟦の→の：09472_no⟧⟦ため→ため：01145_tame⟧⟦{中止|ちゅうし}→中止：03481_chuushi⟧ (canceled due to ~) or 〜⟦に→に：00314_ni⟧⟦より→より：09476_yori⟧⟦{延期|えんき}→延期：01888_enki⟧ (postponed due to ~) is extremely common.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16184_akutenkou",
+      "reading": "あくてんこう",
+      "headword": "{悪天候|あくてんこう}",
+      "label": "bad weather"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16432_kouten",
+      "reading": "こうてん",
+      "headword": "{荒天|こうてん}",
+      "label": "stormy weather"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["weather"]
+      "semantic": [
+        "weather"
+      ]
     },
     "created": "2026-04-12T06:53:21Z",
-    "modified": "2026-04-12T06:53:21Z"
+    "modified": "2026-09-02T04:02:13Z"
   }
 }

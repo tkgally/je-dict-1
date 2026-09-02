@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "20747_rittaiteki_ex1",
-      "japanese": "{立体的|りったいてき}な{地図|ちず}。",
+      "japanese": "{立体的|りったいてき}な⟦{地図|ちず}→地図：02914_chizu⟧。",
       "english": "A three-dimensional map.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "20747_rittaiteki_ex2",
-      "japanese": "メイクで{顔|かお}を{立体的|りったいてき}に{見|み}せる。",
+      "japanese": "⟦メイク→メイク：11163_meiku⟧⟦で→で：00502_de⟧⟦{顔|かお}→顔：00558_kao⟧⟦を→を：00422_wo⟧{立体的|りったいてき}⟦に→に：00314_ni⟧⟦{見|み}せる→見せる：01988_miseru⟧。",
       "english": "Use makeup to make your face look more three-dimensional.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "20747_rittaiteki_ex3",
-      "japanese": "{登場人物|とうじょうじんぶつ}が{立体的|りったいてき}に{描|えが}かれていて、{読|よ}みごたえがある{小説|しょうせつ}だ。",
+      "japanese": "⟦{登場人物|とうじょうじんぶつ}→登場人物：16072_toujoujinbutsu⟧⟦が→が：00051_ga⟧{立体的|りったいてき}⟦に→に：00314_ni⟧⟦{描|えが}かれていて→描く：02013_egaku⟧、{読|よ}みごたえ⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧⟦{小説|しょうせつ}→小説：01434_shousetsu⟧だ。",
       "english": "The characters are depicted with depth, making it a rewarding novel to read.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "Formed from {立体|りったい} (solid body, three-dimensional object) + {的|てき} (adjectival suffix). Used both literally for physical three-dimensionality and figuratively for richness, depth, and complexity.\n\nUSAGE:\nIn everyday use, {立体的|りったいてき} frequently appears in beauty and fashion contexts (making features look more sculpted), art and design (creating depth), and literary criticism (well-developed characters or narratives).\n\nCOMMON COLLOCATIONS:\n- {立体的|りったいてき}な{構造|こうぞう} — three-dimensional structure\n- {立体的|りったいてき}に{描|えが}く — to depict with depth\n- {立体的|りったいてき}に{見|み}せる — to make look three-dimensional\n- {立体的|りったいてき}な{音|おと} — three-dimensional sound (surround sound)\n\nSIMILAR WORDS:\n- {平面的|へいめんてき} — flat, two-dimensional; the antonym\n- 3D（スリーディー） — 3D; used mainly for technology and entertainment\n- {多面的|ためんてき} — multifaceted; emphasizes having many aspects rather than physical depth",
+  "notes": "Formed from ⟦{立体|りったい}→立体：18797_rittai⟧ (solid body, three-dimensional object) + ⟦{的|てき}→〜的：09839_teki⟧ (adjectival suffix). Used both literally for physical three-dimensionality and figuratively for richness, depth, and complexity.\n\nUSAGE:\nIn everyday use, {立体的|りったいてき} frequently appears in beauty and fashion contexts (making features look more sculpted), art and design (creating depth), and literary criticism (well-developed characters or narratives).\n\nCOMMON COLLOCATIONS:\n- {立体的|りったいてき}な⟦{構造|こうぞう}→構造：02730_kouzou⟧ — three-dimensional structure\n- {立体的|りったいてき}⟦に→に：00314_ni⟧⟦{描|えが}く→描く：02013_egaku⟧ — to depict with depth\n- {立体的|りったいてき}⟦に→に：00314_ni⟧⟦{見|み}せる→見せる：01988_miseru⟧ — to make look three-dimensional\n- {立体的|りったいてき}な⟦{音|おと}→音：00743_oto⟧ — three-dimensional sound (surround sound)\n\nSIMILAR WORDS:\n- {平面的|へいめんてき} — flat, two-dimensional; the antonym\n- 3D（スリーディー） — 3D; used mainly for technology and entertainment\n- ⟦{多面的|ためんてき}→多面的：19703_tamenteki⟧ — multifaceted; emphasizes having many aspects rather than physical depth",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19703_tamenteki",
+      "reading": "ためんてき",
+      "headword": "{多面的|ためんてき}",
+      "label": "multifaceted"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +68,6 @@
       ]
     },
     "created": "2026-03-30T15:09:38Z",
-    "modified": "2026-07-29T00:22:41Z"
+    "modified": "2026-09-02T04:02:00Z"
   }
 }

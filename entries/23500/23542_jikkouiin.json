@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "23542_jikkouiin_ex1",
-      "japanese": "{文化祭|ぶんかさい}の{実行|じっこう}{委員|いいん}になった。",
+      "japanese": "⟦{文化祭|ぶんかさい}→文化祭：05589_bunkasai⟧⟦の→の：09472_no⟧{実行|じっこう}{委員|いいん}になった。",
       "english": "I became a member of the cultural festival organizing committee.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "23542_jikkouiin_ex2",
-      "japanese": "{実行|じっこう}{委員|いいん}が{会議|かいぎ}を{開|ひら}いた。",
+      "japanese": "{実行|じっこう}{委員|いいん}⟦が→が：00051_ga⟧⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦を→を：00422_wo⟧⟦{開|ひら}いた→開く：01979_hiraku⟧。",
       "english": "The organizing committee held a meeting.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "23542_jikkouiin_ex3",
-      "japanese": "イベントの{準備|じゅんび}は{実行|じっこう}{委員|いいん}を{中心|ちゅうしん}に{進|すす}められた。",
+      "japanese": "⟦イベント→イベント：09594_ibento⟧⟦の→の：09472_no⟧⟦{準備|じゅんび}→準備：01431_junbi⟧⟦は→は：00079_ha⟧{実行|じっこう}{委員|いいん}⟦を→を：00422_wo⟧⟦{中心|ちゅうしん}→中心：01467_chuushin⟧⟦に→に：00314_ni⟧⟦{進|すす}められた→進める：01949_susumeru⟧。",
       "english": "The event preparations were led by the organizing committee members.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {実行|じっこう} (execution/implementation) and {委員|いいん} (committee member). In Japanese schools and universities, students often serve on organizing committees for events like {文化祭|ぶんかさい} (school festivals), {体育祭|たいいくさい} (sports days), and {卒業式|そつぎょうしき} (graduation ceremonies).\n\nCOMMON COLLOCATIONS:\n- {実行|じっこう}{委員|いいん}になる: to become an organizing committee member\n- {実行|じっこう}{委員|いいん}を{務|つと}める: to serve as an organizing committee member\n- {実行|じっこう}{委員|いいん}{長|ちょう}: head of the organizing committee\n- {実行|じっこう}{委員|いいん}{会|かい}: organizing committee (the body/organization)\n\nSIMILAR WORDS:\n- {委員|いいん}: committee member — a broader term for any committee member\n- {幹事|かんじ}: organizer, secretary — typically for social gatherings like parties",
+  "notes": "A compound of ⟦{実行|じっこう}→実行：03274_jikkou⟧ (execution/implementation) and ⟦{委員|いいん}→委員：01708_iin⟧ (committee member). In Japanese schools and universities, students often serve on organizing committees for events like ⟦{文化祭|ぶんかさい}→文化祭：05589_bunkasai⟧ (school festivals), ⟦{体育祭|たいいくさい}→体育祭：21233_taiikusai⟧ (sports days), and ⟦{卒業式|そつぎょうしき}→卒業式：05584_sotsugyoushiki⟧ (graduation ceremonies).\n\nCOMMON COLLOCATIONS:\n- {実行|じっこう}{委員|いいん}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧: to become an organizing committee member\n- {実行|じっこう}{委員|いいん}⟦を→を：00422_wo⟧⟦{務|つと}める→務める：10446_tsutomeru⟧: to serve as an organizing committee member\n- {実行|じっこう}{委員|いいん}{長|ちょう}: head of the organizing committee\n- {実行|じっこう}{委員|いいん}{会|かい}: organizing committee (the body/organization)\n\nSIMILAR WORDS:\n- ⟦{委員|いいん}→委員：01708_iin⟧: committee member — a broader term for any committee member\n- ⟦{幹事|かんじ}→幹事：16378_kanji⟧: organizer, secretary — typically for social gatherings like parties",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16378_kanji",
+      "reading": "かんじ",
+      "headword": "{幹事|かんじ}",
+      "label": "organizer, secretary"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +69,6 @@
       ]
     },
     "created": "2026-04-12T15:16:21Z",
-    "modified": "2026-08-01T21:36:06Z"
+    "modified": "2026-09-02T04:02:13Z"
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "12723_bunmyaku_ex1",
-      "japanese": "{文脈|ぶんみゃく}から{意味|いみ}を{推測|すいそく}する。",
+      "japanese": "{文脈|ぶんみゃく}⟦から→から：00504_kara⟧⟦{意味|いみ}→意味：01155_imi⟧⟦を→を：00422_wo⟧⟦{推測|すいそく}する→推測する：17957_suisokusuru⟧。",
       "english": "I infer the meaning from context.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "12723_bunmyaku_ex2",
-      "japanese": "この{言葉|ことば}は{文脈|ぶんみゃく}によって{意味|いみ}が{変|か}わる。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{言葉|ことば}→言葉：02880_kotoba⟧⟦は→は：00079_ha⟧{文脈|ぶんみゃく}⟦によって→によって：06801_niyotte⟧⟦{意味|いみ}→意味：01155_imi⟧⟦が→が：00051_ga⟧⟦{変|か}わる→変わる：00714_kawaru⟧。",
       "english": "The meaning of this word changes depending on the context.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "12723_bunmyaku_ex3",
-      "japanese": "{歴史的|れきしてき}な{文脈|ぶんみゃく}を{理解|りかい}しないと、この{作品|さくひん}の{真意|しんい}は{読|よ}み{取|と}れない。",
+      "japanese": "⟦{歴史的|れきしてき}→歴史的：05671_rekishiteki⟧な{文脈|ぶんみゃく}⟦を→を：00422_wo⟧⟦{理解|りかい}しない→理解する：06059_rikaisuru⟧⟦と→と：00512_to⟧、⟦この→この：00962_kono⟧⟦{作品|さくひん}→作品：02776_sakuhin⟧⟦の→の：09472_no⟧⟦{真意|しんい}→真意：13699_shini⟧⟦は→は：00079_ha⟧⟦{読|よ}み{取|と}れない→読み取る：04602_yomitoru⟧。",
       "english": "Without understanding the historical context, you cannot grasp the true meaning of this work.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,19 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{文脈|ぶんみゃく} literally combines {文|ぶん} (text) and {脈|みゃく} (vein/flow), suggesting the flow or thread running through a text. While originally a linguistic term, it is now widely used in everyday speech for any kind of context — historical, social, or conversational.\n\nCOMMON COLLOCATIONS:\n- {文脈|ぶんみゃく}から{判断|はんだん}する: to judge from context\n- {文脈|ぶんみゃく}を{読|よ}む: to read the context\n- {文脈|ぶんみゃく}に{沿|そ}って: in line with the context\n- {歴史的|れきしてき}{文脈|ぶんみゃく}: historical context\n\nSIMILAR WORDS:\n- コンテキスト: context (loanword, often used in IT/technical fields)\n- {前後|ぜんご}{関係|かんけい}: surrounding context (more literal)\n- {背景|はいけい}: background (broader, not necessarily textual)",
-  "cross_references": [],
+  "notes": "USAGE:\n{文脈|ぶんみゃく} literally combines ⟦{文|ぶん}→文：03716_bun⟧ (text) and ⟦{脈|みゃく}→脈：05247_myaku⟧ (vein/flow), suggesting the flow or thread running through a text. While originally a linguistic term, it is now widely used in everyday speech for any kind of context — historical, social, or conversational.\n\nCOMMON COLLOCATIONS:\n- {文脈|ぶんみゃく}⟦から→から：00504_kara⟧⟦{判断|はんだん}する→判断する：06062_handansuru⟧: to judge from context\n- {文脈|ぶんみゃく}⟦を→を：00422_wo⟧⟦{読|よ}む→読む：00426_yomu⟧: to read the context\n- {文脈|ぶんみゃく}⟦に→に：00314_ni⟧⟦{沿|そ}って→沿う：13279_sou⟧: in line with the context\n- ⟦{歴史的|れきしてき}→歴史的：05671_rekishiteki⟧{文脈|ぶんみゃく}: historical context\n\nSIMILAR WORDS:\n- コンテキスト: context (loanword, often used in IT/technical fields)\n- ⟦{前後|ぜんご}→前後：04042_zengo⟧⟦{関係|かんけい}→関係：01298_kankei⟧: surrounding context (more literal)\n- ⟦{背景|はいけい}→背景：28348_haikei⟧: background (broader, not necessarily textual)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "28348_haikei",
+      "reading": "はいけい",
+      "headword": "{背景|はいけい}",
+      "label": "background"
+    }
+  ],
   "metadata": {
     "created": "2026-02-22T06:24:35Z",
-    "modified": "2026-04-27T07:31:57Z",
+    "modified": "2026-09-02T04:01:30Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

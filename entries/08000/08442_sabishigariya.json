@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08442_sabishigariya_ex1",
-      "japanese": "{彼|かれ}は{寂|さび}しがり{屋|や}だ。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{寂|さび}しがり{屋|や}だ。",
       "english": "He is someone who gets lonely easily.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "08442_sabishigariya_ex2",
-      "japanese": "{寂|さび}しがり{屋|や}なので、{一人|ひとり}でいるのが{苦手|にがて}だ。",
+      "japanese": "{寂|さび}しがり{屋|や}な⟦の→の：09472_no⟧で、⟦{一人|ひとり}→一人：00630_hitori⟧で⟦いる→いる：00495_iru⟧⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦{苦手|にがて}→苦手：03513_nigate⟧だ。",
       "english": "I get lonely easily, so I don't like being alone.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "08442_sabishigariya_ex3",
-      "japanese": "うちの{犬|いぬ}は{寂|さび}しがり{屋|や}で、{留守番|るすばん}が{苦手|にがて}だ。",
+      "japanese": "うち⟦の→の：09472_no⟧⟦{犬|いぬ}→犬：00632_inu⟧⟦は→は：00079_ha⟧{寂|さび}しがり{屋|や}⟦で→で：00502_de⟧、⟦{留守番|るすばん}→留守番：15546_rusuban⟧⟦が→が：00051_ga⟧⟦{苦手|にがて}→苦手：03513_nigate⟧だ。",
       "english": "Our dog gets lonely easily and doesn't do well when left alone.",
       "sense_numbers": [
         1
@@ -43,7 +43,16 @@
       "notes": null
     }
   ],
-  "notes": "WORD FORMATION:\n- {寂|さび}しい (lonely) + がる (to show signs of) + {屋|や} (person who tends to be)\n\nALTERNATIVE READING:\nAlso written as {淋|さび}しがり{屋|や}.\n\nPERSONALITY SUFFIX -{屋|や}:\nThis suffix creates personality types:\n- {恥|は}ずかしがり{屋|や} (shy person)\n- {怖|こわ}がり{屋|や} (scaredy-cat)\n- {頑張|がんば}り{屋|や} (hard worker)\n\nNOTE:\nCan also be used affectionately for pets that dislike being alone.",
+  "notes": "FORMS:\n- ⟦{寂|さび}しい→寂しい：00880_sabishii⟧ (lonely) + ⟦がる→〜がる：03089_garu⟧ (to show signs of) + ⟦{屋|や}→〜屋：03096_ya⟧ (person who tends to be)\n\nALTERNATIVE READING:\nAlso written as {淋|さび}し⟦がり→ガリ：27408_gari⟧⟦{屋|や}→〜屋：03096_ya⟧.\n\nPERSONALITY SUFFIX -{屋|や}:\nThis suffix creates personality types:\n- {恥|は}ずかし⟦がり→ガリ：27408_gari⟧⟦{屋|や}→〜屋：03096_ya⟧ (shy person)\n- {怖|こわ}⟦がり→ガリ：27408_gari⟧⟦{屋|や}→〜屋：03096_ya⟧ (scaredy-cat)\n- ⟦{頑張|がんば}り→頑張る：01222_ganbaru⟧⟦{屋|や}→〜屋：03096_ya⟧ (hard worker)\n\nUSAGE:\nCan also be used affectionately for pets that dislike being alone.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "18529_tereya",
+      "reading": "てれや",
+      "headword": "{照|て}れ{屋|や}",
+      "label": "shy person"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -51,6 +60,7 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "personality",
         "person",
@@ -58,6 +68,6 @@
       ]
     },
     "created": "2026-01-27T00:58:00Z",
-    "modified": "2026-08-12T12:51:44Z"
+    "modified": "2026-09-02T04:01:15Z"
   }
 }

@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "15673_shadan_ex1",
-      "japanese": "{電源|でんげん}を{遮断|しゃだん}する。",
+      "japanese": "⟦{電源|でんげん}→電源：04429_dengen⟧⟦を→を：00422_wo⟧{遮断|しゃだん}⟦する→する：00392_suru⟧。",
       "english": "To cut off the power supply.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "15673_shadan_ex2",
-      "japanese": "{踏切|ふみきり}の{遮断機|しゃだんき}が{下|お}りた。",
+      "japanese": "⟦{踏切|ふみきり}→踏切：06493_fumikiri⟧⟦の→の：09472_no⟧⟦{遮断機|しゃだんき}→遮断機：16229_shadanki⟧⟦が→が：00051_ga⟧{下|お}りた。",
       "english": "The railroad crossing gate came down.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "15673_shadan_ex3",
-      "japanese": "{外部|がいぶ}からの{情報|じょうほう}を{完全|かんぜん}に{遮断|しゃだん}された{状態|じょうたい}で{過|す}ごした。",
+      "japanese": "⟦{外部|がいぶ}→外部：00052_gaibu⟧⟦から→から：00504_kara⟧⟦の→の：09472_no⟧⟦{情報|じょうほう}→情報：03348_jouhou⟧⟦を→を：00422_wo⟧⟦{完全|かんぜん}→完全：01552_kanzen⟧⟦に→に：00314_ni⟧{遮断|しゃだん}⟦された→する：00392_suru⟧⟦{状態|じょうたい}→状態：03345_joutai⟧⟦で→で：00502_de⟧⟦{過|す}ごした→過ごす：02062_sugosu⟧。",
       "english": "I spent the time in a state completely cut off from outside information.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nUsed in both technical and everyday contexts. Can describe physical blocking (a gate, wall) or abstract blocking (information, contact).\n\nCOMMON COLLOCATIONS:\n- {電源|でんげん}を{遮断|しゃだん}する (to cut off power)\n- {遮断機|しゃだんき} (crossing gate; circuit breaker)\n- {遮断|しゃだん}{器|き} (circuit breaker)\n- {音|おと}を{遮断|しゃだん}する (to block out sound)\n- {情報|じょうほう}を{遮断|しゃだん}する (to block information)\n\nSIMILAR WORDS:\n- {遮|さえぎ}る: to block, to intercept (verb; broader usage)\n- {断絶|だんぜつ}: severance, breaking off (more permanent, often for relationships)",
+  "notes": "USAGE:\nUsed in both technical and everyday contexts. Can describe physical blocking (a gate, wall) or abstract blocking (information, contact).\n\nCOMMON COLLOCATIONS:\n- ⟦{電源|でんげん}→電源：04429_dengen⟧⟦を→を：00422_wo⟧{遮断|しゃだん}⟦する→する：00392_suru⟧ (to cut off power)\n- ⟦{遮断機|しゃだんき}→遮断機：16229_shadanki⟧ (crossing gate; circuit breaker)\n- {遮断|しゃだん}{器|き} (circuit breaker)\n- ⟦{音|おと}→音：00743_oto⟧⟦を→を：00422_wo⟧{遮断|しゃだん}⟦する→する：00392_suru⟧ (to block out sound)\n- ⟦{情報|じょうほう}→情報：03348_jouhou⟧⟦を→を：00422_wo⟧{遮断|しゃだん}⟦する→する：00392_suru⟧ (to block information)\n\nSIMILAR WORDS:\n- ⟦{遮|さえぎ}る→遮る：10876_saegiru⟧: to block, to intercept (verb; broader usage)\n- ⟦{断絶|だんぜつ}→断絶：12988_danzetsu⟧: severance, breaking off (more permanent, often for relationships)",
   "cross_references": [
     {
       "type": "synonym",
@@ -149,11 +149,46 @@
       "reading": "だんぜつ",
       "headword": "{断絶|だんぜつ}",
       "label": "severance, breaking off"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19850_shakou",
+      "reading": "しゃこう",
+      "headword": "{遮光|しゃこう}",
+      "label": "light blocking"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20497_setsudan",
+      "reading": "せつだん",
+      "headword": "{切断|せつだん}",
+      "label": "cutting"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24388_kakuzetsu",
+      "reading": "かくぜつ",
+      "headword": "{隔絶|かくぜつ}",
+      "label": "isolation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25538_kakurisuru",
+      "reading": "かくりする",
+      "headword": "{隔離|かくり}する",
+      "label": "to isolate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25539_setsudansuru",
+      "reading": "せつだんする",
+      "headword": "{切断|せつだん}する",
+      "label": "to cut off"
     }
   ],
   "metadata": {
     "created": "2026-03-08T06:48:35Z",
-    "modified": "2026-05-01T10:15:30Z",
+    "modified": "2026-09-02T04:01:42Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

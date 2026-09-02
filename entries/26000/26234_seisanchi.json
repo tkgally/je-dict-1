@@ -15,41 +15,60 @@
   "examples": [
     {
       "id": "26234_seisanchi_ex1",
-      "japanese": "この{米|こめ}の{生産地|せいさんち}は{新潟|にいがた}だ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{米|こめ}→米：01323_kome⟧⟦の→の：09472_no⟧{生産地|せいさんち}⟦は→は：00079_ha⟧⟦{新潟|にいがた}→新潟：27452_niigata⟧だ。",
       "english": "This rice is produced in Niigata.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26234_seisanchi_ex2",
-      "japanese": "{生産地|せいさんち}から{直接|ちょくせつ}{届|とど}く{野菜|やさい}は{新鮮|しんせん}だ。",
+      "japanese": "{生産地|せいさんち}⟦から→から：00504_kara⟧⟦{直接|ちょくせつ}→直接：03499_chokusetsu⟧⟦{届|とど}く→届く：00899_todoku⟧⟦{野菜|やさい}→野菜：02265_yasai⟧⟦は→は：00079_ha⟧⟦{新鮮|しんせん}→新鮮：03261_shinsen⟧だ。",
       "english": "Vegetables delivered directly from the production area are fresh.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26234_seisanchi_ex3",
-      "japanese": "{消費者|しょうひしゃ}は{食品|しょくひん}の{生産地|せいさんち}を{確認|かくにん}してから{購入|こうにゅう}する{人|ひと}が{増|ふ}えている。",
+      "japanese": "⟦{消費者|しょうひしゃ}→消費者：09866_shouhisha⟧⟦は→は：00079_ha⟧⟦{食品|しょくひん}→食品：03247_shokuhin⟧⟦の→の：09472_no⟧{生産地|せいさんち}⟦を→を：00422_wo⟧⟦{確認|かくにん}して→確認する：25332_kakuninsuru⟧⟦から→から：00504_kara⟧⟦{購入|こうにゅう}→購入：03057_kounyuu⟧⟦する→する：00392_suru⟧⟦{人|ひと}→人：00476_hito⟧⟦が→が：00051_ga⟧⟦{増|ふ}えている→増える：01183_fueru⟧。",
       "english": "More and more consumers are checking the place of origin before purchasing food products.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {生産|せいさん} (production) and {地|ち} (place, area). Frequently appears on food labels and packaging in Japan, where consumers pay close attention to where food is produced.\n\nJapanese food labeling law requires {生産地|せいさんち} (or the related term {産地|さんち}) to be displayed on many products. Famous production areas like {新潟|にいがた} for rice, {静岡|しずおか} for tea, and {北海道|ほっかいどう} for dairy products carry strong brand value.\n\nCOMMON COLLOCATIONS:\n- {生産地|せいさんち}{表示|ひょうじ}: place-of-origin labeling\n- {生産地|せいさんち}{直送|ちょくそう}: shipped directly from the production area\n- {国内|こくない}{生産地|せいさんち}: domestic production area\n- {主要|しゅよう}{生産地|せいさんち}: major production area\n\nSIMILAR WORDS:\n- {産地|さんち}: producing area — shorter form, more commonly used on labels\n- {原産地|げんさんち}: place of origin — more formal, used in trade/customs\n- {産地直送|さんちちょくそう}: direct from the farm — a marketing phrase",
-  "cross_references": [],
+  "notes": "Composed of ⟦{生産|せいさん}→生産：01444_seisan⟧ (production) and {地|ち} (place, area). Frequently appears on food labels and packaging in Japan, where consumers pay close attention to where food is produced.\n\nJapanese food labeling law requires {生産地|せいさんち} (or the related term ⟦{産地|さんち}→産地：04031_sanchi⟧) to be displayed on many products. Famous production areas like ⟦{新潟|にいがた}→新潟：27452_niigata⟧ for rice, {静岡|しずおか} for tea, and ⟦{北海道|ほっかいどう}→北海道：11010_hokkaidou⟧ for dairy products carry strong brand value.\n\nCOMMON COLLOCATIONS:\n- {生産地|せいさんち}⟦{表示|ひょうじ}→表示：03143_hyouji⟧: place-of-origin labeling\n- {生産地|せいさんち}⟦{直送|ちょくそう}→直送：13824_chokusou⟧: shipped directly from the production area\n- ⟦{国内|こくない}→国内：02998_kokunai⟧{生産地|せいさんち}: domestic production area\n- ⟦{主要|しゅよう}→主要：01649_shuyou⟧{生産地|せいさんち}: major production area\n\nSIMILAR WORDS:\n- ⟦{産地|さんち}→産地：04031_sanchi⟧: producing area — shorter form, more commonly used on labels\n- ⟦{原産地|げんさんち}→原産地：15415_gensanchi⟧: place of origin — more formal, used in trade/customs\n- {産地直送|さんちちょくそう}: direct from the farm — a marketing phrase",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15415_gensanchi",
+      "reading": "げんさんち",
+      "headword": "{原産地|げんさんち}",
+      "label": "place of origin"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["geography", "food"]
+      "semantic": [
+        "geography",
+        "food"
+      ]
     },
     "created": "2026-04-30T12:21:34Z",
-    "modified": "2026-04-30T12:21:34Z"
+    "modified": "2026-09-02T04:02:25Z"
   }
 }

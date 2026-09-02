@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30708_roppongi_ex1",
-      "japanese": "{六本木|ろっぽんぎ}で{飲|の}んだ。",
+      "japanese": "{六本木|ろっぽんぎ}⟦で→で：00502_de⟧⟦{飲|の}んだ→飲む：00322_nomu⟧。",
       "english": "We went drinking in Roppongi.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30708_roppongi_ex2",
-      "japanese": "{六本木|ろっぽんぎ}には{美術館|びじゅつかん}がいくつもある。",
+      "japanese": "{六本木|ろっぽんぎ}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{美術館|びじゅつかん}→美術館：01717_bijutsukan⟧⟦が→が：00051_ga⟧いくつ⟦も→も：00484_mo⟧⟦ある→ある：00006_aru⟧。",
       "english": "There are several art museums in Roppongi.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30708_roppongi_ex3",
-      "japanese": "{六本木|ろっぽんぎ}のマンションに{住|す}んでいると{言|い}うと、たいてい{驚|おどろ}かれる。",
+      "japanese": "{六本木|ろっぽんぎ}⟦の→の：09472_no⟧⟦マンション→マンション：01035_manshon⟧⟦に→に：00314_ni⟧⟦{住|す}んでいる→住む：00673_sumu⟧⟦と→と：00512_to⟧⟦{言|い}う→言う：00515_iu⟧⟦と→と：00512_to⟧、⟦たいてい→たいてい：01129_taitei⟧⟦{驚|おどろ}かれる→驚く：01255_odoroku⟧。",
       "english": "When I say I live in an apartment in Roppongi, people are usually surprised.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Written \"six trees\" ({六|ろく} + {本|ほん} + {木|き}); several stories explain the name, none confirmed.\n\nCOMMON EXPRESSIONS:\n- {六本木|ろっぽんぎ}ヒルズ: Roppongi Hills, the landmark tower complex\n- {六本木|ろっぽんぎ}{交差点|こうさてん}: the Roppongi crossing, the district's centre\n- {六本木|ろっぽんぎ}で{遊|あそ}ぶ: to go out partying in Roppongi\n- {六本木|ろっぽんぎ}アートトライアングル: the three museums promoted together as an art circuit\n\nCULTURAL CONTEXT:\nSaying someone works or lives in {六本木|ろっぽんぎ} can imply wealth or a flashy lifestyle. The \"Hills{族|ぞく}\" label for the tech entrepreneurs who moved into Roppongi Hills in the 2000s is still used, half-admiringly and half-mockingly, for the nouveau riche.",
+  "notes": "Written \"six trees\" (⟦{六|ろく}→六：00747_roku⟧ + {本|ほん} + ⟦{木|き}→木：00524_ki⟧); several stories explain the name, none confirmed.\n\nCOMMON EXPRESSIONS:\n- {六本木|ろっぽんぎ}ヒルズ: Roppongi Hills, the landmark tower complex\n- {六本木|ろっぽんぎ}⟦{交差点|こうさてん}→交差点：01404_kousaten⟧: the Roppongi crossing, the district's centre\n- {六本木|ろっぽんぎ}⟦で→で：00502_de⟧⟦{遊|あそ}ぶ→遊ぶ：00550_asobu⟧: to go out partying in Roppongi\n- {六本木|ろっぽんぎ}⟦アート→アート：10713_aato⟧トライアングル: the three museums promoted together as an art circuit\n\nCULTURAL NOTE:\nSaying someone works or lives in {六本木|ろっぽんぎ} can imply wealth or a flashy lifestyle. The \"Hills{族|ぞく}\" label for the tech entrepreneurs who moved into Roppongi Hills in the 2000s is still used, half-admiringly and half-mockingly, for the nouveau riche.",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,7 +53,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "proper-noun",
         "place-name",
@@ -62,6 +62,6 @@
       "domain": []
     },
     "created": "2026-08-20T02:40:41Z",
-    "modified": "2026-08-20T02:40:41Z"
+    "modified": "2026-09-02T04:02:41Z"
   }
 }

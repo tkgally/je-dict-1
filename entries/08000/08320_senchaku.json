@@ -14,30 +14,36 @@
   "examples": [
     {
       "id": "08320_senchaku_ex1",
-      "japanese": "{先着|せんちゃく}{五十名様|ごじゅうめいさま}にプレゼント。",
+      "japanese": "{先着|せんちゃく}{五十名様|ごじゅうめいさま}⟦に→に：00314_ni⟧⟦プレゼント→プレゼント：01791_purezento⟧。",
       "english": "Gifts for the first 50 customers.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "08320_senchaku_ex2",
-      "japanese": "{先着|せんちゃく}{順|じゅん}で{受|う}け{付|つ}けます。",
+      "japanese": "{先着|せんちゃく}{順|じゅん}⟦で→で：00502_de⟧⟦{受|う}け{付|つ}けます→受け付ける：05683_uketsukeru⟧。",
       "english": "We will accept applications on a first-come, first-served basis.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "08320_senchaku_ex3",
-      "japanese": "{先着|せんちゃく}{百名|ひゃくめい}{限定|げんてい}の{特別|とくべつ}セールが{始|はじ}まった。",
+      "japanese": "{先着|せんちゃく}{百名|ひゃくめい}⟦{限定|げんてい}→限定：10997_gentei⟧⟦の→の：09472_no⟧⟦{特別|とくべつ}→特別：01120_tokubetsu⟧⟦セール→セール：07780_seeru⟧⟦が→が：00051_ga⟧⟦{始|はじ}まった→始まる：00841_hajimaru⟧。",
       "english": "A special sale limited to the first 100 customers has begun.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "FORMATION:\n{先|せん} (first, ahead) + {着|ちゃく} (arriving) → arriving first\n\nCOMMON EXPRESSIONS:\n- {先着|せんちゃく}{順|じゅん} (in order of arrival)\n- {先着|せんちゃく}〜{名|めい}/{名様|めいさま} (first ~ people)\n- {先着|せんちゃく}{限定|げんてい} (limited to first arrivals)\n- {先着|せんちゃく}{特典|とくてん} (first-come bonus)\n\nUSAGE CONTEXT:\nCommonly seen in:\n- Promotional campaigns ({先着|せんちゃく}○{名|めい}にプレゼント)\n- Event registrations\n- Limited sales\n- Restaurant seating\n\nRELATED:\n- {早|はや}い{者|もの}{勝|が}ち (first come, first served - more casual)\n- {抽選|ちゅうせん} (lottery - alternative allocation method)\n- {予約|よやく}{優先|ゆうせん} (reservation priority)",
+  "notes": "FORMS:\n{先|せん} (first, ahead) + ⟦{着|ちゃく}→着：27655_chaku⟧ (arriving) → arriving first\n\nCOMMON EXPRESSIONS:\n- {先着|せんちゃく}{順|じゅん} (in order of arrival)\n- {先着|せんちゃく}〜{名|めい}/⟦{名様|めいさま}→名様：30700_meisama⟧ (first ~ people)\n- {先着|せんちゃく}⟦{限定|げんてい}→限定：10997_gentei⟧ (limited to first arrivals)\n- {先着|せんちゃく}⟦{特典|とくてん}→特典：13469_tokuten⟧ (first-come bonus)\n\nUSAGE:\nCommonly seen in:\n- Promotional campaigns ({先着|せんちゃく}○{名|めい}⟦に→に：00314_ni⟧⟦プレゼント→プレゼント：01791_purezento⟧)\n- Event registrations\n- Limited sales\n- Restaurant seating\n\nRELATED WORDS:\n- ⟦{早|はや}い{者|もの}{勝|が}ち→早い者勝ち：30780_hayaimonogachi⟧ (first come, first served - more casual)\n- ⟦{抽選|ちゅうせん}→抽選：07054_chuusen⟧ (lottery - alternative allocation method)\n- ⟦{予約|よやく}→予約：01522_yoyaku⟧⟦{優先|ゆうせん}→優先：15243_yuusen⟧ (reservation priority)",
   "cross_references": [
     {
       "type": "contrast",
@@ -45,16 +51,30 @@
       "reading": "ちゅうせん",
       "headword": "{抽選|ちゅうせん}",
       "label": "lottery (alternative method)"
+    },
+    {
+      "type": "related",
+      "target_id": "30780_hayaimonogachi",
+      "reading": "はやいものがち",
+      "headword": "{早|はや}い{者勝|ものが}ち",
+      "label": "first come, first served"
     }
   ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "semantic": ["shopping", "events", "business"]
+      "politeness": "plain",
+      "semantic": [
+        "shopping",
+        "events",
+        "business"
+      ]
     },
     "created": "2026-01-25T23:15:51Z",
-    "modified": "2026-04-20T06:28:06Z"
+    "modified": "2026-09-02T04:01:14Z"
   }
 }

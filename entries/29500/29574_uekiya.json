@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29574_uekiya_ex1",
-      "japanese": "{植木|うえき}{屋|や}に{庭|にわ}を{頼|たの}んだ。",
+      "japanese": "{植木|うえき}{屋|や}⟦に→に：00314_ni⟧⟦{庭|にわ}→庭：02239_niwa⟧⟦を→を：00422_wo⟧⟦{頼|たの}んだ→頼む：01104_tanomu⟧。",
       "english": "We hired a gardener for the yard.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29574_uekiya_ex2",
-      "japanese": "{植木|うえき}{屋|や}さんが{松|まつ}の{木|き}をきれいに{剪定|せんてい}してくれた。",
+      "japanese": "{植木|うえき}{屋|や}さん⟦が→が：00051_ga⟧⟦{松|まつ}→松：02256_matsu⟧⟦の→の：09472_no⟧⟦{木|き}→木：00524_ki⟧⟦を→を：00422_wo⟧⟦きれい→きれい：00717_kirei⟧⟦に→に：00314_ni⟧⟦{剪定|せんてい}→剪定：06327_sentei⟧⟦して→する：00392_suru⟧⟦くれた→くれる：00724_kureru⟧。",
       "english": "The gardener pruned the pine tree beautifully for us.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29574_uekiya_ex3",
-      "japanese": "{祖父|そふ}は{長年|ながねん}{植木|うえき}{屋|や}として{近所|きんじょ}の{庭|にわ}を{手入|てい}れしてきた。",
+      "japanese": "⟦{祖父|そふ}→祖父：01452_sofu⟧⟦は→は：00079_ha⟧⟦{長年|ながねん}→長年：09684_naganen⟧{植木|うえき}{屋|や}⟦として→として：06802_toshite⟧⟦{近所|きんじょ}→近所：01318_kinjo⟧⟦の→の：09472_no⟧⟦{庭|にわ}→庭：02239_niwa⟧⟦を→を：00422_wo⟧⟦{手入|てい}れ→手入れ：07178_teire⟧してきた。",
       "english": "My grandfather worked for many years as a gardener tending the neighborhood's yards.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Refers both to the gardening trade and to the gardener. Often used with the polite {屋|や}さん form ({植木|うえき}{屋|や}さん) when speaking of or to the person.\n\nCOMMON COLLOCATIONS:\n- {植木|うえき}{屋|や}に{頼|たの}む: to hire/ask a gardener\n- {植木|うえき}{屋|や}を{呼|よ}ぶ: to call in a gardener\n- {腕|うで}のいい{植木|うえき}{屋|や}: a skilled gardener\n\nSIMILAR WORDS:\n- {庭師|にわし}: gardener — a more formal, craftsman-oriented term, often for traditional Japanese gardens",
+  "notes": "Refers both to the gardening trade and to the gardener. Often used with the polite ⟦{屋|や}→〜屋：03096_ya⟧さん form ({植木|うえき}{屋|や}さん) when speaking of or to the person.\n\nCOMMON COLLOCATIONS:\n- {植木|うえき}{屋|や}⟦に→に：00314_ni⟧⟦{頼|たの}む→頼む：01104_tanomu⟧: to hire/ask a gardener\n- {植木|うえき}{屋|や}⟦を→を：00422_wo⟧⟦{呼|よ}ぶ→呼ぶ：00766_yobu⟧: to call in a gardener\n- ⟦{腕|うで}→腕：01006_ude⟧⟦の→の：09472_no⟧⟦いい→いい：00118_ii⟧{植木|うえき}{屋|や}: a skilled gardener\n\nSIMILAR WORDS:\n- ⟦{庭師|にわし}→庭師：12491_niwashi⟧: gardener — a more formal, craftsman-oriented term, often for traditional Japanese gardens",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12491_niwashi",
+      "reading": "にわし",
+      "headword": "{庭師|にわし}",
+      "label": "gardener"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26427_zouenshi",
+      "reading": "ぞうえんし",
+      "headword": "{造園|ぞうえん}{士|し}",
+      "label": "landscape gardener"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +69,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "occupation"
       ],
       "domain": []
     },
     "created": "2026-06-29T18:19:55Z",
-    "modified": "2026-06-29T18:19:55Z"
+    "modified": "2026-09-02T04:02:37Z"
   }
 }

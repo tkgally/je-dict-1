@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "12166_tabou_ex1",
-      "japanese": "{多忙|たぼう}な{日々|ひび}を{送|おく}る。",
+      "japanese": "{多忙|たぼう}な⟦{日々|ひび}→日々：04804_hibi⟧⟦を→を：00422_wo⟧⟦{送|おく}る→送る：00742_okuru⟧。",
       "english": "To lead very busy days.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "12166_tabou_ex2",
-      "japanese": "{多忙|たぼう}を{極|きわ}めていて、{休|やす}む{暇|ひま}がない。",
+      "japanese": "{多忙|たぼう}⟦を→を：00422_wo⟧⟦{極|きわ}めていて→極める：13139_kiwameru⟧、⟦{休|やす}む→休む：00606_yasumu⟧⟦{暇|ひま}→暇：00592_hima⟧⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧。",
       "english": "I'm extremely busy and have no time to rest.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "12166_tabou_ex3",
-      "japanese": "{多忙|たぼう}なスケジュールの{合間|あいま}を{縫|ぬ}って、{家族|かぞく}との{時間|じかん}を{作|つく}るようにしている。",
+      "japanese": "{多忙|たぼう}な⟦スケジュール→スケジュール：03850_sukejuuru⟧⟦の→の：09472_no⟧⟦{合間|あいま}→合間：05708_aima⟧⟦を→を：00422_wo⟧⟦{縫|ぬ}って→縫う：00326_nuu⟧、⟦{家族|かぞく}→家族：00552_kazoku⟧⟦と→と：00512_to⟧⟦の→の：09472_no⟧⟦{時間|じかん}→時間：00468_jikan⟧⟦を→を：00422_wo⟧⟦{作|つく}る→作る：00481_tsukuru⟧ようにして⟦いる→いる：00495_iru⟧。",
       "english": "I try to find time for my family between my hectic schedule.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nMore formal and literary than {忙|いそが}しい, which is the everyday word for \"busy.\" {多忙|たぼう} is used in written contexts, formal speech, and when emphasizing an extreme level of busyness.\n\nSIMILAR WORDS:\n- {忙|いそが}しい: busy (everyday, casual)\n- {多忙|たぼう}: very busy (formal, written)\n- {繁忙|はんぼう}: extremely busy (formal/business; often in {繁忙期|はんぼうき}, busy season)\n\nCOMMON COLLOCATIONS:\n- {多忙|たぼう}を{極|きわ}める: to be extremely busy\n- {多忙|たぼう}な{毎日|まいにち}: hectic everyday life\n- {多忙|たぼう}なスケジュール: a packed schedule\n- {多忙|たぼう}のため: due to being busy",
+  "notes": "USAGE:\nMore formal and literary than ⟦{忙|いそが}しい→忙しい：00591_isogashii⟧, which is the everyday word for \"busy.\" {多忙|たぼう} is used in written contexts, formal speech, and when emphasizing an extreme level of busyness.\n\nSIMILAR WORDS:\n- ⟦{忙|いそが}しい→忙しい：00591_isogashii⟧: busy (everyday, casual)\n- {多忙|たぼう}: very busy (formal, written)\n- ⟦{繁忙|はんぼう}→繁忙：22531_hanbou⟧: extremely busy (formal/business; often in ⟦{繁忙期|はんぼうき}→繁忙期：08366_hanbouki⟧, busy season)\n\nCOMMON COLLOCATIONS:\n- {多忙|たぼう}⟦を→を：00422_wo⟧⟦{極|きわ}める→極める：13139_kiwameru⟧: to be extremely busy\n- {多忙|たぼう}な⟦{毎日|まいにち}→毎日：00729_mainichi⟧: hectic everyday life\n- {多忙|たぼう}な⟦スケジュール→スケジュール：03850_sukejuuru⟧: a packed schedule\n- {多忙|たぼう}⟦の→の：09472_no⟧⟦ため→ため：01145_tame⟧: due to being busy",
   "cross_references": [
     {
       "type": "synonym",
@@ -52,11 +52,18 @@
       "headword": "{忙|いそが}しい",
       "label": "busy (everyday)",
       "target_id": "00591_isogashii"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22531_hanbou",
+      "reading": "はんぼう",
+      "headword": "{繁忙|はんぼう}",
+      "label": "extremely busy (formal/business"
     }
   ],
   "metadata": {
     "created": "2026-02-20T09:56:16Z",
-    "modified": "2026-04-26T07:25:09Z",
+    "modified": "2026-09-02T04:01:28Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

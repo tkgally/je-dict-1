@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "12398_taikou_ex1",
-      "japanese": "{大手|おおて}{企業|きぎょう}に{対抗|たいこう}する。",
+      "japanese": "⟦{大手|おおて}→大手：12171_oote⟧⟦{企業|きぎょう}→企業：00225_kigyou⟧⟦に→に：00314_ni⟧{対抗|たいこう}⟦する→する：00392_suru⟧。",
       "english": "To compete against a major corporation.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "12398_taikou_ex2",
-      "japanese": "{値下|ねさ}げに{対抗|たいこう}して、うちも{価格|かかく}を{下|さ}げた。",
+      "japanese": "⟦{値下|ねさ}げ→値下げ：07583_nesage⟧⟦に→に：00314_ni⟧{対抗|たいこう}⟦して→する：00392_suru⟧、うち⟦も→も：00484_mo⟧⟦{価格|かかく}→価格：00147_kakaku⟧⟦を→を：00422_wo⟧⟦{下|さ}げた→下げる：00807_sageru⟧。",
       "english": "In response to their price cut, we also lowered our prices.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "12398_taikou_ex3",
-      "japanese": "{住民|じゅうみん}たちは{再開発|さいかいはつ}{計画|けいかく}に{対抗|たいこう}するために{署名|しょめい}{活動|かつどう}を{始|はじ}めた。",
+      "japanese": "⟦{住民|じゅうみん}→住民：03281_juumin⟧たち⟦は→は：00079_ha⟧⟦{再開発|さいかいはつ}→再開発：17066_saikaihatsu⟧⟦{計画|けいかく}→計画：01172_keikaku⟧⟦に→に：00314_ni⟧{対抗|たいこう}⟦する→する：00392_suru⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧⟦{署名|しょめい}→署名：03682_shomei⟧⟦{活動|かつどう}→活動：00201_katsudou⟧⟦を→を：00422_wo⟧⟦{始|はじ}めた→始める：00531_hajimeru⟧。",
       "english": "The residents started a petition drive to oppose the redevelopment plan.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{対抗|たいこう} functions as a する verb ({対抗|たいこう}する) and also appears frequently as a modifier: {対抗|たいこう}～ (counter-~, rival ~). The pattern ～に{対抗|たいこう}する (to compete against ~, to counter ~) is very common.\n\nSIMILAR WORDS:\n- {対決|たいけつ}: showdown, confrontation (more direct and climactic)\n- {対立|たいりつ}: opposition, conflict (emphasis on the state of being opposed)\n- {競争|きょうそう}: competition (neutral, ongoing rivalry)\n\nCOMMON COLLOCATIONS:\n- ～に{対抗|たいこう}する: to compete against ~, to counter ~\n- {対抗|たいこう}{措置|そち}: countermeasure\n- {対抗|たいこう}{馬|ば}: rival horse, strong contender\n- {対抗|たいこう}{意識|いしき}: sense of rivalry\n- {対抗|たいこう}{戦|せん}: rivalry match",
+  "notes": "USAGE:\n{対抗|たいこう} functions as a ⟦する→する：00392_suru⟧ verb ({対抗|たいこう}⟦する→する：00392_suru⟧) and also appears frequently as a modifier: {対抗|たいこう}～ (counter-~, rival ~). The pattern ～⟦に→に：00314_ni⟧{対抗|たいこう}⟦する→する：00392_suru⟧ (to compete against ~, to counter ~) is very common.\n\nSIMILAR WORDS:\n- ⟦{対決|たいけつ}→対決：12392_taiketsu⟧: showdown, confrontation (more direct and climactic)\n- ⟦{対立|たいりつ}→対立：04500_tairitsu⟧: opposition, conflict (emphasis on the state of being opposed)\n- ⟦{競争|きょうそう}→競争：01388_kyousou⟧: competition (neutral, ongoing rivalry)\n\nCOMMON COLLOCATIONS:\n- ～⟦に→に：00314_ni⟧{対抗|たいこう}⟦する→する：00392_suru⟧: to compete against ~, to counter ~\n- {対抗|たいこう}⟦{措置|そち}→措置：05519_sochi⟧: countermeasure\n- {対抗|たいこう}{馬|ば}: rival horse, strong contender\n- {対抗|たいこう}{意識|いしき}: sense of rivalry\n- {対抗|たいこう}{戦|せん}: rivalry match",
   "cross_references": [
     {
       "type": "synonym",
@@ -149,11 +149,18 @@
       "reading": "たいりつ",
       "headword": "{対立|たいりつ}",
       "label": "opposition, conflict"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01388_kyousou",
+      "reading": "きょうそう",
+      "headword": "{競争|きょうそう}",
+      "label": "competition"
     }
   ],
   "metadata": {
     "created": "2026-02-21T05:55:47Z",
-    "modified": "2026-07-05T12:55:36Z",
+    "modified": "2026-09-02T04:01:28Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

@@ -15,41 +15,60 @@
   "examples": [
     {
       "id": "28106_kokuji_ex1",
-      "japanese": "{峠|とうげ}は{国字|こくじ}の{一|ひと}つだ。",
+      "japanese": "⟦{峠|とうげ}→峠：02227_touge⟧⟦は→は：00079_ha⟧{国字|こくじ}⟦の→の：09472_no⟧⟦{一|ひと}つ→一つ：02948_hitotsu⟧だ。",
       "english": "Tōge is one of the kokuji.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28106_kokuji_ex2",
-      "japanese": "{国字|こくじ}には{音読|おんよ}みがないものが{多|おお}い。",
+      "japanese": "{国字|こくじ}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{音読|おんよ}み→音読み：10453_onyomi⟧⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧もの⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "Many kokuji have no on'yomi reading.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28106_kokuji_ex3",
-      "japanese": "{畑|はたけ}や{峠|とうげ}など、{日常|にちじょう}でよく{目|め}にする{漢字|かんじ}の{中|なか}にも{国字|こくじ}がある。",
+      "japanese": "⟦{畑|はたけ}→畑：00842_hatake⟧や⟦{峠|とうげ}→峠：02227_touge⟧⟦など→〜など：03095_nado⟧、⟦{日常|にちじょう}→日常：01595_nichijou⟧⟦で→で：00502_de⟧⟦よく→よく：00601_yoku⟧⟦{目|め}にする→目にする：21472_menisuru⟧⟦{漢字|かんじ}→漢字：09480_kanji⟧⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧⟦に→に：00314_ni⟧⟦も→も：00484_mo⟧{国字|こくじ}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "Among the kanji we see every day, such as hatake and tōge, there are also kokuji.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A character made in Japan in the style of Chinese characters but not found in Chinese — for example {峠|とうげ}, {畑|はたけ}, and {働|はたら}く. Many {国字|こくじ} have only a kun'yomi (native reading) and no on'yomi.\n\nCOMMON EXAMPLES:\n- {峠|とうげ}: mountain pass\n- {畑|はたけ}: dry field\n- {込|こ}む: to be crowded\n\nNOTE:\n{国字|こくじ} can also mean a nation's own writing system, but the 'Japanese-made kanji' sense is the usual one.",
+  "notes": "A character made in Japan in the style of Chinese characters but not found in Chinese — for example ⟦{峠|とうげ}→峠：02227_touge⟧, ⟦{畑|はたけ}→畑：00842_hatake⟧, and ⟦{働|はたら}く→働く：00503_hataraku⟧. Many {国字|こくじ} have only a kun'yomi (native reading) and no on'yomi.\n\nCOMMON EXAMPLES:\n- ⟦{峠|とうげ}→峠：02227_touge⟧: mountain pass\n- ⟦{畑|はたけ}→畑：00842_hatake⟧: dry field\n- ⟦{込|こ}む→込む：00719_komu⟧: to be crowded\n\nUSAGE:\n{国字|こくじ} can also mean a nation's own writing system, but the 'Japanese-made kanji' sense is the usual one.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "26721_waji",
+      "reading": "わじ",
+      "headword": "{和字|わじ}",
+      "label": "Japanese-made characters"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
+      "semantic": [
+        "general"
+      ],
       "domain": []
     },
     "created": "2026-05-25T04:08:01Z",
-    "modified": "2026-05-25T04:08:01Z"
+    "modified": "2026-09-02T04:02:32Z"
   }
 }

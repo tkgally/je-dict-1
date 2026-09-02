@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "16447_kourakuchi_ex1",
-      "japanese": "{人気|にんき}の{行楽地|こうらくち}。",
+      "japanese": "⟦{人気|にんき}→人気：01488_ninki⟧⟦の→の：09472_no⟧{行楽地|こうらくち}。",
       "english": "A popular tourist spot.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "16447_kourakuchi_ex2",
-      "japanese": "{連休中|れんきゅうちゅう}は{行楽地|こうらくち}がとても{混|こ}む。",
+      "japanese": "{連休中|れんきゅうちゅう}⟦は→は：00079_ha⟧{行楽地|こうらくち}⟦が→が：00051_ga⟧⟦とても→とても：00593_totemo⟧⟦{混|こ}む→混む：02574_komu⟧。",
       "english": "Tourist spots get very crowded during consecutive holidays.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "16447_kourakuchi_ex3",
-      "japanese": "{秋|あき}の{行楽地|こうらくち}として、{紅葉|こうよう}の{名所|めいしょ}が{毎年|まいとし}{多|おお}くの{観光客|かんこうきゃく}を{集|あつ}める。",
+      "japanese": "⟦{秋|あき}→秋：02276_aki⟧⟦の→の：09472_no⟧{行楽地|こうらくち}⟦として→として：06802_toshite⟧、⟦{紅葉|こうよう}→紅葉：04151_kouyou⟧⟦の→の：09472_no⟧⟦{名所|めいしょ}→名所：08164_meisho⟧⟦が→が：00051_ga⟧⟦{毎年|まいとし}→毎年：00731_maitoshi⟧{多|おお}く⟦の→の：09472_no⟧⟦{観光客|かんこうきゃく}→観光客：03022_kankoukyaku⟧⟦を→を：00422_wo⟧⟦{集|あつ}める→集める：01170_atsumeru⟧。",
       "english": "As autumn tourist destinations, famous spots for fall foliage attract many tourists every year.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "{行楽地|こうらくち} refers to places people visit for recreation and leisure, especially during holidays and pleasant weather.\n\nWORD FORMATION:\n{行楽|こうらく} (excursion, outing for pleasure) + {地|ち} (place).\n\nCOMMON COLLOCATIONS:\n- {人気|にんき}の{行楽地|こうらくち}: popular tourist destination\n- {行楽地|こうらくち}が{賑|にぎ}わう: tourist spots bustling with visitors\n- {行楽|こうらく}シーズン: excursion/outing season\n- {行楽|こうらく}{客|きゃく}: tourists/visitors on an outing\n\nUSAGE:\nOften appears in news reports about holiday travel congestion, especially during Golden Week, {紅葉|こうよう} (autumn foliage) season, and cherry blossom season.\n\nSIMILAR WORDS:\n- {観光地|かんこうち}: tourist spot (more general sightseeing focus)\n- {名所|めいしょ}: famous place, notable spot\n- リゾート: resort",
+  "notes": "{行楽地|こうらくち} refers to places people visit for recreation and leisure, especially during holidays and pleasant weather.\n\nFORMS:\n⟦{行楽|こうらく}→行楽：07788_kouraku⟧ (excursion, outing for pleasure) + {地|ち} (place).\n\nCOMMON COLLOCATIONS:\n- ⟦{人気|にんき}→人気：01488_ninki⟧⟦の→の：09472_no⟧{行楽地|こうらくち}: popular tourist destination\n- {行楽地|こうらくち}⟦が→が：00051_ga⟧⟦{賑|にぎ}わう→賑わう：14235_nigiwau⟧: tourist spots bustling with visitors\n- ⟦{行楽|こうらく}→行楽：07788_kouraku⟧⟦シーズン→シーズン：10944_shiizun⟧: excursion/outing season\n- ⟦{行楽|こうらく}→行楽：07788_kouraku⟧⟦{客|きゃく}→客：00865_kyaku⟧: tourists/visitors on an outing\n\nUSAGE:\nOften appears in news reports about holiday travel congestion, especially during Golden Week, ⟦{紅葉|こうよう}→紅葉：04151_kouyou⟧ (autumn foliage) season, and cherry blossom season.\n\nSIMILAR WORDS:\n- ⟦{観光地|かんこうち}→観光地：14163_kankouchi⟧: tourist spot (more general sightseeing focus)\n- ⟦{名所|めいしょ}→名所：08164_meisho⟧: famous place, notable spot\n- ⟦リゾート→リゾート：11394_rizooto⟧: resort",
   "cross_references": [
     {
       "type": "synonym",
@@ -52,11 +52,25 @@
       "reading": "かんこうち",
       "headword": "{観光地|かんこうち}",
       "label": "tourist spot (sightseeing focus)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08164_meisho",
+      "reading": "めいしょ",
+      "headword": "{名所|めいしょ}",
+      "label": "famous place, notable spot"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11394_rizooto",
+      "reading": "りぞーと",
+      "headword": "リゾート",
+      "label": "resort"
     }
   ],
   "metadata": {
     "created": "2026-03-12T23:51:04Z",
-    "modified": "2026-07-20T00:31:17Z",
+    "modified": "2026-09-02T04:01:45Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

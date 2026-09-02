@@ -14,30 +14,36 @@
   "examples": [
     {
       "id": "10150_taishuu_ex1",
-      "japanese": "{大衆|たいしゅう}{文化|ぶんか}が{広|ひろ}まった。",
+      "japanese": "{大衆|たいしゅう}⟦{文化|ぶんか}→文化：01504_bunka⟧⟦が→が：00051_ga⟧⟦{広|ひろ}まった→広まる：02404_hiromaru⟧。",
       "english": "Popular culture spread.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10150_taishuu_ex2",
-      "japanese": "この{映画|えいが}は{大衆|たいしゅう}に{人気|にんき}がある。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{映画|えいが}→映画：02273_eiga⟧⟦は→は：00079_ha⟧{大衆|たいしゅう}⟦に→に：00314_ni⟧⟦{人気|にんき}→人気：01488_ninki⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "This movie is popular with the masses.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10150_taishuu_ex3",
-      "japanese": "{政治家|せいじか}は{大衆|たいしゅう}の{支持|しじ}を{得|え}ようとしている。",
+      "japanese": "⟦{政治家|せいじか}→政治家：03084_seijika⟧⟦は→は：00079_ha⟧{大衆|たいしゅう}⟦の→の：09472_no⟧⟦{支持|しじ}→支持：12933_shiji⟧⟦を→を：00422_wo⟧⟦{得|え}よう→得る：02014_eru⟧⟦として→として：06802_toshite⟧⟦いる→いる：00495_iru⟧。",
       "english": "The politician is trying to gain public support.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{大衆|たいしゅう} refers to ordinary people as a collective group.\n\nCOMMON EXPRESSIONS:\n- {大衆|たいしゅう}{文化|ぶんか}: popular culture\n- {大衆|たいしゅう}{娯楽|ごらく}: popular entertainment\n- {大衆|たいしゅう}{食堂|しょくどう}: inexpensive restaurant for the masses\n- {大衆|たいしゅう}{向|む}け: aimed at the general public\n\nSIMILAR WORDS:\n- {民衆|みんしゅう}: the people, populace\n- {庶民|しょみん}: common people\n- {一般|いっぱん}: general (public)",
+  "notes": "{大衆|たいしゅう} refers to ordinary people as a collective group.\n\nCOMMON EXPRESSIONS:\n- {大衆|たいしゅう}⟦{文化|ぶんか}→文化：01504_bunka⟧: popular culture\n- {大衆|たいしゅう}⟦{娯楽|ごらく}→娯楽：00074_goraku⟧: popular entertainment\n- {大衆|たいしゅう}⟦{食堂|しょくどう}→食堂：01054_shokudou⟧: inexpensive restaurant for the masses\n- {大衆|たいしゅう}{向|む}け: aimed at the general public\n\nSIMILAR WORDS:\n- ⟦{民衆|みんしゅう}→民衆：13259_minshuu⟧: the people, populace\n- ⟦{庶民|しょみん}→庶民：12427_shomin⟧: common people\n- ⟦{一般|いっぱん}→一般：01737_ippan⟧: general (public)",
   "cross_references": [
     {
       "type": "synonym",
@@ -52,17 +58,28 @@
       "reading": "しょみん",
       "headword": "{庶民|しょみん}",
       "label": "common people"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01737_ippan",
+      "reading": "いっぱん",
+      "headword": "{一般|いっぱん}",
+      "label": "general"
     }
   ],
   "metadata": {
     "created": "2026-02-05T11:49:02Z",
-    "modified": "2026-02-05T11:49:02Z",
+    "modified": "2026-09-02T04:01:20Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["person"]
+      "semantic": [
+        "person"
+      ]
     }
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "11278_hiroin_ex1",
-      "japanese": "この{映画|えいが}のヒロインは{強|つよ}い。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{映画|えいが}→映画：02273_eiga⟧⟦の→の：09472_no⟧ヒロイン⟦は→は：00079_ha⟧⟦{強|つよ}い→強い：00820_tsuyoi⟧。",
       "english": "The heroine of this movie is strong.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "11278_hiroin_ex2",
-      "japanese": "ヒロイン{役|やく}に{抜擢|ばってき}された。",
+      "japanese": "ヒロイン⟦{役|やく}→役：12557_yaku⟧⟦に→に：00314_ni⟧⟦{抜擢|ばってき}→抜擢：07946_batteki⟧⟦された→する：00392_suru⟧。",
       "english": "She was chosen for the role of the heroine.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "11278_hiroin_ex3",
-      "japanese": "{彼女|かのじょ}はチームのピンチを{救|すく}い、まさにヒロインだった。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧⟦チーム→チーム：03858_chiimu⟧⟦の→の：09472_no⟧⟦ピンチ→ピンチ：11143_pinchi⟧⟦を→を：00422_wo⟧⟦{救|すく}い→救う：02063_sukuu⟧、⟦まさに→まさに：00270_masani⟧ヒロインだった。",
       "english": "She saved the team from a crisis and was truly the heroine of the day.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nヒロイン refers specifically to a female protagonist or admired woman. The male counterpart is ヒーロー. In anime and manga, ヒロイン often refers to the main female love interest rather than the protagonist.\n\nCOMMON COLLOCATIONS:\n- ヒロイン{役|やく}: the heroine role\n- {悲劇|ひげき}のヒロイン: tragic heroine\n- ヒロインになる: to become the heroine\n\nSIMILAR WORDS:\n{主人公|しゅじんこう} (protagonist) is gender-neutral. ヒロイン specifically means the female lead.",
+  "notes": "USAGE:\nヒロイン refers specifically to a female protagonist or admired woman. The male counterpart is ⟦ヒーロー→ヒーロー：11262_hiiroo⟧. In anime and manga, ヒロイン often refers to the main female love interest rather than the protagonist.\n\nCOMMON COLLOCATIONS:\n- ヒロイン⟦{役|やく}→役：12557_yaku⟧: the heroine role\n- ⟦{悲劇|ひげき}→悲劇：03577_higeki⟧⟦の→の：09472_no⟧ヒロイン: tragic heroine\n- ヒロイン⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧: to become the heroine\n\nSIMILAR WORDS:\n⟦{主人公|しゅじんこう}→主人公：11404_shujinkou⟧ (protagonist) is gender-neutral. ヒロイン specifically means the female lead.",
   "cross_references": [
     {
       "entry_id": "11262_hiiroo",
@@ -53,11 +53,25 @@
       "type": "antonym",
       "description": "male counterpart: hero",
       "target_id": "11262_hiiroo"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11404_shujinkou",
+      "reading": "しゅじんこう",
+      "headword": "{主人公|しゅじんこう}",
+      "label": "protagonist"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26645_joshujinkou",
+      "reading": "じょしゅじんこう",
+      "headword": "{女主人公|じょしゅじんこう}",
+      "label": "heroine"
     }
   ],
   "metadata": {
     "created": "2026-02-15T10:01:30Z",
-    "modified": "2026-04-11T02:03:14Z",
+    "modified": "2026-09-02T04:01:24Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

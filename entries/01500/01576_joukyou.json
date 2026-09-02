@@ -69,7 +69,7 @@
     },
     {
       "id": "01576_joukyou_ex6",
-      "japanese": "⟦{天候|てんこう}→天候：03558_tenkou⟧{状況|じょうきょう}によっては⟦{中止|ちゅうし}→中止：03481_chuushi⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦{可能性|かのうせい}→可能性：04818_kanousei⟧⟦が→が：00051_ga⟧⟦あります→ある：00006_aru⟧。",
+      "japanese": "⟦{天候|てんこう}→天候：03558_tenkou⟧{状況|じょうきょう}⟦によって→によって：06801_niyotte⟧⟦は→は：00079_ha⟧⟦{中止|ちゅうし}→中止：03481_chuushi⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦{可能性|かのうせい}→可能性：04818_kanousei⟧⟦が→が：00051_ga⟧⟦あります→ある：00006_aru⟧。",
       "english": "Depending on weather conditions, it may be canceled.",
       "notes": null,
       "has_audio": false,
@@ -124,11 +124,32 @@
       "reading": "じょうせい",
       "headword": "{情勢|じょうせい}",
       "label": "large-scale situation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20069_yousou",
+      "reading": "ようそう",
+      "headword": "{様相|ようそう}",
+      "label": "aspect"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21291_senkyou",
+      "reading": "せんきょう",
+      "headword": "{戦況|せんきょう}",
+      "label": "war situation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28348_haikei",
+      "reading": "はいけい",
+      "headword": "{背景|はいけい}",
+      "label": "background"
     }
   ],
   "metadata": {
     "created": "2026-01-09T11:41:04Z",
-    "modified": "2026-05-15T22:08:35Z",
+    "modified": "2026-09-02T04:01:00Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

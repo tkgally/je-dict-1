@@ -14,30 +14,36 @@
   "examples": [
     {
       "id": "10102_zangyoudai_ex1",
-      "japanese": "{残業代|ざんぎょうだい}が{出|で}ない{会社|かいしゃ}もある。",
+      "japanese": "{残業代|ざんぎょうだい}⟦が→が：00051_ga⟧⟦{出|で}ない→出る：00513_deru⟧⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦も→も：00484_mo⟧⟦ある→ある：00006_aru⟧。",
       "english": "Some companies don't pay overtime.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10102_zangyoudai_ex2",
-      "japanese": "{今月|こんげつ}は{残業代|ざんぎょうだい}がたくさん{入|はい}った。",
+      "japanese": "⟦{今月|こんげつ}→今月：00720_kongetsu⟧⟦は→は：00079_ha⟧{残業代|ざんぎょうだい}⟦が→が：00051_ga⟧⟦たくさん→たくさん：00597_takusan⟧⟦{入|はい}った→入る：00494_hairu⟧。",
       "english": "I received a lot of overtime pay this month.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10102_zangyoudai_ex3",
-      "japanese": "{残業代|ざんぎょうだい}を{請求|せいきゅう}するために{残業|ざんぎょう}{時間|じかん}を{記録|きろく}している。",
+      "japanese": "{残業代|ざんぎょうだい}⟦を→を：00422_wo⟧⟦{請求|せいきゅう}する→請求する：26988_seikyuusuru⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧⟦{残業|ざんぎょう}{時間|じかん}→残業時間：27558_zangyoujikan⟧⟦を→を：00422_wo⟧⟦{記録|きろく}している→記録する：25341_kirokusuru⟧。",
       "english": "I'm recording my overtime hours in order to claim overtime pay.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{残業代|ざんぎょうだい} is the standard term for overtime pay. It is a compound of {残業|ざんぎょう} (overtime work) and {代|だい} (charge, fee).\n\nCOMMON PATTERNS:\n- {残業代|ざんぎょうだい}が{出|で}る: overtime pay is provided\n- {残業代|ざんぎょうだい}が{出|で}ない: no overtime pay\n- {残業代|ざんぎょうだい}を{請求|せいきゅう}する: to claim overtime pay\n- {残業代|ざんぎょうだい}を{支払|しはら}う: to pay overtime\n\nWORK CULTURE:\nIn Japan, unpaid overtime (サービス{残業|ざんぎょう}) has been a significant social issue. Recent labor reforms have strengthened regulations requiring proper payment.\n\nRELATED TERMS:\n- {残業|ざんぎょう}: overtime work\n- サービス{残業|ざんぎょう}: unpaid overtime (euphemistic)\n- {時間外|じかんがい}{手当|てあて}: overtime allowance (formal/legal term)\n- {割増|わりまし}{賃金|ちんぎん}: premium wages (technical/legal term)",
+  "notes": "{残業代|ざんぎょうだい} is the standard term for overtime pay. It is a compound of ⟦{残業|ざんぎょう}→残業：01071_zangyou⟧ (overtime work) and ⟦{代|だい}→〜代：28331_dai⟧ (charge, fee).\n\nCOMMON PATTERNS:\n- {残業代|ざんぎょうだい}⟦が→が：00051_ga⟧⟦{出|で}る→出る：00513_deru⟧: overtime pay is provided\n- {残業代|ざんぎょうだい}⟦が→が：00051_ga⟧⟦{出|で}ない→出る：00513_deru⟧: no overtime pay\n- {残業代|ざんぎょうだい}⟦を→を：00422_wo⟧⟦{請求|せいきゅう}する→請求する：26988_seikyuusuru⟧: to claim overtime pay\n- {残業代|ざんぎょうだい}⟦を→を：00422_wo⟧⟦{支払|しはら}う→支払う：02116_shiharau⟧: to pay overtime\n\nWORK CULTURE:\nIn Japan, unpaid overtime (⟦サービス{残業|ざんぎょう}→サービス残業：08477_saabisuzangyou⟧) has been a significant social issue. Recent labor reforms have strengthened regulations requiring proper payment.\n\nRELATED WORDS:\n- ⟦{残業|ざんぎょう}→残業：01071_zangyou⟧: overtime work\n- ⟦サービス{残業|ざんぎょう}→サービス残業：08477_saabisuzangyou⟧: unpaid overtime (euphemistic)\n- ⟦{時間外|じかんがい}→時間外：26570_jikangai⟧⟦{手当|てあて}→手当：04881_teate⟧: overtime allowance (formal/legal term)\n- ⟦{割増|わりまし}→割増：17087_warimashi⟧⟦{賃金|ちんぎん}→賃金：04842_chingin⟧: premium wages (technical/legal term)",
   "cross_references": [
     {
       "type": "related",
@@ -45,17 +51,36 @@
       "reading": "ざんぎょう",
       "headword": "{残業|ざんぎょう}",
       "label": "overtime work"
+    },
+    {
+      "type": "related",
+      "target_id": "08477_saabisuzangyou",
+      "reading": "さーびすざんぎょう",
+      "headword": "サービス{残業|ざんぎょう}",
+      "label": "unpaid overtime"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27558_zangyoujikan",
+      "reading": "ざんぎょうじかん",
+      "headword": "{残業時間|ざんぎょうじかん}",
+      "label": "overtime hours"
     }
   ],
   "metadata": {
     "created": "2026-02-05T02:49:25Z",
-    "modified": "2026-04-23T10:16:20Z",
+    "modified": "2026-09-02T04:01:20Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["work", "money"]
+      "semantic": [
+        "work",
+        "money"
+      ]
     }
   }
 }

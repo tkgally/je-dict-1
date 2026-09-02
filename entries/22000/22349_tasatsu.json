@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22349_tasatsu_ex1",
-      "japanese": "{警察|けいさつ}は{他殺|たさつ}の{可能性|かのうせい}を{調|しら}べている。",
+      "japanese": "⟦{警察|けいさつ}→警察：01393_keisatsu⟧⟦は→は：00079_ha⟧{他殺|たさつ}⟦の→の：09472_no⟧⟦{可能性|かのうせい}→可能性：04818_kanousei⟧⟦を→を：00422_wo⟧⟦{調|しら}べている→調べる：01213_shiraberu⟧。",
       "english": "The police are investigating the possibility of homicide.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22349_tasatsu_ex2",
-      "japanese": "{死因|しいん}は{他殺|たさつ}と{断定|だんてい}された。",
+      "japanese": "⟦{死因|しいん}→死因：13224_shiin⟧⟦は→は：00079_ha⟧{他殺|たさつ}⟦と→と：00512_to⟧⟦{断定|だんてい}→断定：04519_dantei⟧⟦された→する：00392_suru⟧。",
       "english": "The cause of death was determined to be homicide.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22349_tasatsu_ex3",
-      "japanese": "{当初|とうしょ}は{自殺|じさつ}と{見|み}られていたが、{司法|しほう}{解剖|かいぼう}の{結果|けっか}、{他殺|たさつ}であることが{判明|はんめい}した。",
+      "japanese": "⟦{当初|とうしょ}→当初：12503_tousho⟧⟦は→は：00079_ha⟧⟦{自殺|じさつ}→自殺：03336_jisatsu⟧⟦と→と：00512_to⟧⟦{見|み}られていた→見る：00283_miru⟧⟦が→が：00051_ga⟧、⟦{司法|しほう}{解剖|かいぼう}→司法解剖：25185_shihoukaibou⟧⟦の→の：09472_no⟧⟦{結果|けっか}→結果：02486_kekka⟧、{他殺|たさつ}⟦である→である：09855_dearu⟧こと⟦が→が：00051_ga⟧⟦{判明|はんめい}→判明：11785_hanmei⟧⟦した→する：00392_suru⟧。",
       "english": "It was initially thought to be suicide, but the autopsy revealed it was homicide.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "A forensic and legal term used to classify death as having been caused by another person. It contrasts with {自殺|じさつ} (suicide), {事故死|じこし} (accidental death), and {病死|びょうし} (death by illness).\n\nCOMMON COLLOCATIONS:\n- {他殺|たさつ}の{疑|うたが}い: suspicion of homicide\n- {他殺|たさつ}と{断定|だんてい}する: to determine as homicide\n- {他殺|たさつ}{体|たい}: body of a homicide victim\n\nSIMILAR WORDS:\n- {殺人|さつじん}: murder — focuses on the criminal act\n- {殺害|さつがい}: killing — the act of killing someone\n- {自殺|じさつ}: suicide — death by one's own hand (opposite concept)\n\nFORMATION:\n{他|た} (other person) + {殺|さつ} (killing). Literally 'killing by another.'",
+  "notes": "A forensic and legal term used to classify death as having been caused by another person. It contrasts with ⟦{自殺|じさつ}→自殺：03336_jisatsu⟧ (suicide), ⟦{事故死|じこし}→事故死：23678_jikoshi⟧ (accidental death), and ⟦{病死|びょうし}→病死：22006_byoushi⟧ (death by illness).\n\nCOMMON COLLOCATIONS:\n- {他殺|たさつ}⟦の→の：09472_no⟧⟦{疑|うたが}い→疑い：09757_utagai⟧: suspicion of homicide\n- {他殺|たさつ}⟦と→と：00512_to⟧⟦{断定|だんてい}→断定：04519_dantei⟧⟦する→する：00392_suru⟧: to determine as homicide\n- {他殺|たさつ}⟦{体|たい}→体：09872_tai⟧: body of a homicide victim\n\nSIMILAR WORDS:\n- ⟦{殺人|さつじん}→殺人：13236_satsujin⟧: murder — focuses on the criminal act\n- ⟦{殺害|さつがい}→殺害：13226_satsugai⟧: killing — the act of killing someone\n- ⟦{自殺|じさつ}→自殺：03336_jisatsu⟧: suicide — death by one's own hand (opposite concept)\n\nFORMS:\n⟦{他|た}→他：03381_ta⟧ (other person) + {殺|さつ} (killing). Literally 'killing by another.'",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13236_satsujin",
+      "reading": "さつじん",
+      "headword": "{殺人|さつじん}",
+      "label": "murder"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13226_satsugai",
+      "reading": "さつがい",
+      "headword": "{殺害|さつがい}",
+      "label": "killing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03336_jisatsu",
+      "reading": "じさつ",
+      "headword": "{自殺|じさつ}",
+      "label": "suicide"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +82,6 @@
       ]
     },
     "created": "2026-04-05T19:21:20Z",
-    "modified": "2026-04-10T08:28:27Z"
+    "modified": "2026-09-02T04:02:07Z"
   }
 }

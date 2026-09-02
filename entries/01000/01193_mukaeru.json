@@ -144,7 +144,7 @@
     },
     {
       "id": "01193_mukaeru_ex4",
-      "japanese": "⟦{温|あたた}かく→温かい：13395_atatakai⟧{迎|むか}えてくれた。",
+      "japanese": "⟦{温|あたた}かく→温かい：13395_atatakai⟧{迎|むか}えて⟦くれた→くれる：00724_kureru⟧。",
       "english": "They gave me a warm welcome.",
       "notes": null,
       "has_audio": false,
@@ -154,7 +154,7 @@
     },
     {
       "id": "01193_mukaeru_ex5",
-      "japanese": "⟦{空港|くうこう}→空港：00648_kuukou⟧⟦まで→まで：00490_made⟧{迎|むか}え⟦に→に：00314_ni⟧⟦{来|き}て→来る：00254_kuru⟧くれた。",
+      "japanese": "⟦{空港|くうこう}→空港：00648_kuukou⟧⟦まで→まで：00490_made⟧{迎|むか}え⟦に→に：00314_ni⟧⟦{来|き}て→来る：00254_kuru⟧⟦くれた→くれる：00724_kureru⟧。",
       "english": "They came to pick me up at the airport.",
       "notes": null,
       "has_audio": false,
@@ -203,11 +203,33 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: {他動詞|たどうし} (transitive). Pattern: X⟦を→を：00422_wo⟧{迎|むか}える (welcome X).\n\nASPECT: ている indicates completed action or state. {迎|むか}えている = 'has welcomed' or 'is welcoming.'\n\nCOMMON PATTERNS:\n・⟦お{客|きゃく}さん→お客さん：10253_okyakusan⟧⟦を→を：00422_wo⟧{迎|むか}える (welcome guests)\n・{迎|むか}え⟦に→に：00314_ni⟧⟦{行|い}く→行く：00119_iku⟧ (go to pick up)\n・{迎|むか}え⟦に→に：00314_ni⟧⟦{来|く}る→来る：00254_kuru⟧ (come to pick up)\n・⟦{新年|しんねん}→新年：09787_shinnen⟧⟦を→を：00422_wo⟧{迎|むか}える (welcome the new year)\n・⟦{誕生日|たんじょうび}→誕生日：02910_tanjoubi⟧⟦を→を：00422_wo⟧{迎|むか}える (reach one's birthday)\n・⟦{危機|きき}→危機：11798_kiki⟧⟦を→を：00422_wo⟧{迎|むか}える (face a crisis)\n\nRELATED:\n・⟦お{迎|むか}え→お迎え：27645_omukae⟧ (pickup, welcoming—noun, polite)\n・⟦{出迎|でむか}え→出迎え：18937_demukae⟧ (going out to meet—noun)",
-  "cross_references": [],
+  "notes": "TRANSITIVITY: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive). Pattern: X⟦を→を：00422_wo⟧{迎|むか}える (welcome X).\n\nASPECT: て⟦いる→いる：00495_iru⟧ indicates completed action or state. {迎|むか}えて⟦いる→いる：00495_iru⟧ = 'has welcomed' or 'is welcoming.'\n\nCOMMON PATTERNS:\n- ⟦お{客|きゃく}さん→お客さん：10253_okyakusan⟧⟦を→を：00422_wo⟧{迎|むか}える (welcome guests)\n- {迎|むか}え⟦に→に：00314_ni⟧⟦{行|い}く→行く：00119_iku⟧ (go to pick up)\n- {迎|むか}え⟦に→に：00314_ni⟧⟦{来|く}る→来る：00254_kuru⟧ (come to pick up)\n- ⟦{新年|しんねん}→新年：09787_shinnen⟧⟦を→を：00422_wo⟧{迎|むか}える (welcome the new year)\n- ⟦{誕生日|たんじょうび}→誕生日：02910_tanjoubi⟧⟦を→を：00422_wo⟧{迎|むか}える (reach one's birthday)\n- ⟦{危機|きき}→危機：11798_kiki⟧⟦を→を：00422_wo⟧{迎|むか}える (face a crisis)\n\nRELATED WORDS:\n- ⟦お{迎|むか}え→お迎え：27645_omukae⟧ (pickup, welcoming—noun, polite)\n- ⟦{出迎|でむか}え→出迎え：18937_demukae⟧ (going out to meet—noun)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "27645_omukae",
+      "reading": "おむかえ",
+      "headword": "お{迎|むか}え",
+      "label": "pickup, welcoming—noun, polite"
+    },
+    {
+      "type": "related",
+      "target_id": "18937_demukae",
+      "reading": "でむかえ",
+      "headword": "{出迎|でむか}え",
+      "label": "going out to meet—noun"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26997_kangeisuru",
+      "reading": "かんげいする",
+      "headword": "{歓迎|かんげい}する",
+      "label": "to welcome"
+    }
+  ],
   "metadata": {
     "created": "2026-01-08T12:11:36Z",
-    "modified": "2026-08-09T12:26:58Z",
+    "modified": "2026-09-02T04:00:59Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

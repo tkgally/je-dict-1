@@ -3,7 +3,7 @@
   "headword": "{未練|みれん}たらしい",
   "reading": "みれんたらしい",
   "romaji": "mirentarashii",
-  "part_of_speech": "adjective-i",
+  "part_of_speech": "i-adjective",
   "gloss": "clingy; unable to let go; pathetic about lingering attachment",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28628_mirentarashii_ex1",
-      "japanese": "{未練|みれん}たらしいことを{言|い}うな。",
+      "japanese": "{未練|みれん}たらしいこと⟦を→を：00422_wo⟧⟦{言|い}う→言う：00515_iu⟧な。",
       "english": "Stop saying such clingy things.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28628_mirentarashii_ex2",
-      "japanese": "{彼|かれ}は{元彼女|もとかのじょ}に{未練|みれん}たらしいメッセージを{送|おく}り{続|つづ}けている。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{元彼女|もとかのじょ}⟦に→に：00314_ni⟧{未練|みれん}たらしい⟦メッセージ→メッセージ：03828_messeeji⟧⟦を→を：00422_wo⟧⟦{送|おく}り→送る：00742_okuru⟧⟦{続|つづ}け→続く：00903_tsuzuku⟧て⟦いる→いる：00495_iru⟧。",
       "english": "He keeps sending clingy messages to his ex-girlfriend.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28628_mirentarashii_ex3",
-      "japanese": "{試合|しあい}には{負|ま}けたのだから、{未練|みれん}たらしい{態度|たいど}を{取|と}らずに{次|つぎ}に{進|すす}むべきだ。",
+      "japanese": "⟦{試合|しあい}→試合：01601_shiai⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{負|ま}けた→負ける：01134_makeru⟧⟦の→の：09472_no⟧だ⟦から→から：00504_kara⟧、{未練|みれん}たらしい⟦{態度|たいど}→態度：03396_taido⟧⟦を→を：00422_wo⟧⟦{取|と}ら→取る：00565_toru⟧ず⟦に→に：00314_ni⟧⟦{次|つぎ}→次：00819_tsugi⟧⟦に→に：00314_ni⟧⟦{進|すす}む→進む：01225_susumu⟧べきだ。",
       "english": "We lost the game, so we should move on instead of dwelling on it like sore losers.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "{未練|みれん} (lingering attachment) + the i-adjective suffix たらしい, which adds the meaning 'having the unpleasant appearance of ~'. The suffix makes the adjective sound contemptuous or scornful.\n\nCOMMON COLLOCATIONS:\n- {未練|みれん}たらしいことを{言|い}う: to say clingy things\n- {未練|みれん}たらしい{態度|たいど}: a clingy/sore-loser attitude\n- {未練|みれん}たらしく{振|ふ}る{舞|ま}う: to behave in a pathetic, clingy way\n\nSIMILAR WORDS:\n- {未練|みれん}がましい: clingy — near-synonym with the same negative tone; がましい is slightly more formal in feel\n- {未練|みれん}がある: to have lingering attachment — neutral; just describes the feeling, not the behavior\n- しつこい: persistent; clingy — broader; can apply to flavors, requests, or people",
+  "notes": "⟦{未練|みれん}→未練：04866_miren⟧ (lingering attachment) + the i-adjective suffix たらしい, which adds the meaning 'having the unpleasant appearance of ~'. The suffix makes the adjective sound contemptuous or scornful.\n\nCOMMON COLLOCATIONS:\n- {未練|みれん}たらしいこと⟦を→を：00422_wo⟧⟦{言|い}う→言う：00515_iu⟧: to say clingy things\n- {未練|みれん}たらしい⟦{態度|たいど}→態度：03396_taido⟧: a clingy/sore-loser attitude\n- {未練|みれん}たらしく⟦{振|ふ}る{舞|ま}う→振る舞う：04233_furumau⟧: to behave in a pathetic, clingy way\n\nSIMILAR WORDS:\n- ⟦{未練|みれん}がましい→未練がましい：26851_mirengamashii⟧: clingy — near-synonym with the same negative tone; がましい is slightly more formal in feel\n- ⟦{未練|みれん}→未練：04866_miren⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧: to have lingering attachment — neutral; just describes the feeling, not the behavior\n- ⟦しつこい→しつこい：06498_shitsukoi⟧: persistent; clingy — broader; can apply to flavors, requests, or people",
   "cross_references": [
     {
       "type": "synonym",
@@ -59,6 +59,13 @@
       "reading": "みれん",
       "headword": "{未練|みれん}",
       "label": "lingering attachment"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06498_shitsukoi",
+      "reading": "しつこい",
+      "headword": "しつこい",
+      "label": "persistent"
     }
   ],
   "schema_version": "2.0",
@@ -69,7 +76,7 @@
         "adjective-i"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "emotion",
         "action"
@@ -77,7 +84,7 @@
       "domain": []
     },
     "created": "2026-06-03T02:08:21Z",
-    "modified": "2026-08-08T18:34:17Z"
+    "modified": "2026-09-02T04:02:34Z"
   },
   "conjugation": {
     "type": "i-adjective",

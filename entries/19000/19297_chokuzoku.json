@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "19297_chokuzoku_ex1",
-      "japanese": "{社長|しゃちょう}{直属|ちょくぞく}のチームだ。",
+      "japanese": "⟦{社長|しゃちょう}→社長：01428_shachou⟧{直属|ちょくぞく}⟦の→の：09472_no⟧⟦チーム→チーム：03858_chiimu⟧だ。",
       "english": "It's a team that reports directly to the president.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "19297_chokuzoku_ex2",
-      "japanese": "{直属|ちょくぞく}の{上司|じょうし}に{相談|そうだん}する。",
+      "japanese": "{直属|ちょくぞく}⟦の→の：09472_no⟧⟦{上司|じょうし}→上司：03286_joushi⟧⟦に→に：00314_ni⟧⟦{相談|そうだん}する→相談する：01845_soudansuru⟧。",
       "english": "I'll consult with my direct supervisor.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "19297_chokuzoku_ex3",
-      "japanese": "{彼|かれ}は{本部長|ほんぶちょう}{直属|ちょくぞく}の{部下|ぶか}として、{重要|じゅうよう}なプロジェクトを{任|まか}されている。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{本部長|ほんぶちょう}{直属|ちょくぞく}⟦の→の：09472_no⟧⟦{部下|ぶか}→部下：06453_buka⟧⟦として→として：06802_toshite⟧、⟦{重要|じゅうよう}→重要：01575_juuyou⟧な⟦プロジェクト→プロジェクト：06764_purojekuto⟧⟦を→を：00422_wo⟧{任|まか}されて⟦いる→いる：00495_iru⟧。",
       "english": "As a direct subordinate of the division head, he has been entrusted with important projects.",
       "sense_numbers": [
         1
@@ -134,8 +134,31 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {直|ちょく} (direct) + {属|ぞく} (belong to). Used as a の-adjective to modify nouns describing organizational relationships.\n\nCOMMON COLLOCATIONS:\n- {直属|ちょくぞく}の{上司|じょうし} — direct supervisor/boss\n- {直属|ちょくぞく}の{部下|ぶか} — direct subordinate\n- {社長|しゃちょう}{直属|ちょくぞく} — reporting directly to the president\n- {直属|ちょくぞく}する — to be under the direct authority of\n\nSIMILAR WORDS:\n- {所属|しょぞく} — belonging to, affiliation (does not imply direct reporting)\n- {配属|はいぞく} — assignment, posting (being assigned to a department)",
+  "notes": "Compound of {直|ちょく} (direct) + {属|ぞく} (belong to). Used as a ⟦の→の：09472_no⟧-adjective to modify nouns describing organizational relationships.\n\nCOMMON COLLOCATIONS:\n- {直属|ちょくぞく}⟦の→の：09472_no⟧⟦{上司|じょうし}→上司：03286_joushi⟧ — direct supervisor/boss\n- {直属|ちょくぞく}⟦の→の：09472_no⟧⟦{部下|ぶか}→部下：06453_buka⟧ — direct subordinate\n- ⟦{社長|しゃちょう}→社長：01428_shachou⟧{直属|ちょくぞく} — reporting directly to the president\n- {直属|ちょくぞく}⟦する→する：00392_suru⟧ — to be under the direct authority of\n\nSIMILAR WORDS:\n- ⟦{所属|しょぞく}→所属：12750_shozoku⟧ — belonging to, affiliation (does not imply direct reporting)\n- ⟦{配属|はいぞく}→配属：06159_haizoku⟧ — assignment, posting (being assigned to a department)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12750_shozoku",
+      "reading": "しょぞく",
+      "headword": "{所属|しょぞく}",
+      "label": "belonging to, affiliation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06159_haizoku",
+      "reading": "はいぞく",
+      "headword": "{配属|はいぞく}",
+      "label": "assignment, posting"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13838_chokkatsu",
+      "reading": "ちょっかつ",
+      "headword": "{直轄|ちょっかつ}",
+      "label": "direct control, direct jurisdiction"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -152,6 +175,6 @@
       "verb_class": "suru"
     },
     "created": "2026-03-25T04:48:50Z",
-    "modified": "2026-03-25T04:48:50Z"
+    "modified": "2026-09-02T04:01:55Z"
   }
 }

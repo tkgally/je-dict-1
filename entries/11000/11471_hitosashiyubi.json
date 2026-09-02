@@ -15,41 +15,59 @@
   "examples": [
     {
       "id": "11471_hitosashiyubi_ex1",
-      "japanese": "{人差|ひとさ}し{指|ゆび}で{画面|がめん}をタッチする。",
+      "japanese": "{人差|ひとさ}し{指|ゆび}⟦で→で：00502_de⟧⟦{画面|がめん}→画面：04406_gamen⟧⟦を→を：00422_wo⟧⟦タッチ→タッチ：08915_tacchi⟧⟦する→する：00392_suru⟧。",
       "english": "Touch the screen with your index finger.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11471_hitosashiyubi_ex2",
-      "japanese": "{人差|ひとさ}し{指|ゆび}を{口|くち}に{当|あ}てて「しっ」と{言|い}った。",
+      "japanese": "{人差|ひとさ}し{指|ゆび}⟦を→を：00422_wo⟧⟦{口|くち}→口：00560_kuchi⟧⟦に→に：00314_ni⟧⟦{当|あ}てて→当てる：01864_ateru⟧「しっ」⟦と→と：00512_to⟧⟦{言|い}った→言う：00515_iu⟧。",
       "english": "She put her index finger to her lips and said \"shh.\"",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11471_hitosashiyubi_ex3",
-      "japanese": "{人|ひと}を{人差|ひとさ}し{指|ゆび}で{指|さ}すのは{失礼|しつれい}だと{言|い}われている。",
+      "japanese": "⟦{人|ひと}→人：00476_hito⟧⟦を→を：00422_wo⟧{人差|ひとさ}し{指|ゆび}⟦で→で：00502_de⟧⟦{指|さ}す→指す：02056_sasu⟧⟦の→の：09472_no⟧⟦は→は：00079_ha⟧⟦{失礼|しつれい}→失礼：01247_shitsurei⟧だ⟦と→と：00512_to⟧⟦{言|い}われている→言う：00515_iu⟧。",
       "english": "It's said to be rude to point at people with your index finger.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "The index finger, used for pointing. In Japanese culture, pointing at people with this finger is considered rude.\n\nETYMOLOGY:\nLiterally \"person-pointing finger\" — {人|ひと} (person) + {差|さ}す (to point) + {指|ゆび} (finger). Named for its role in pointing at people.\n\nALL FIVE FINGERS:\n- {親指|おやゆび}: thumb (\"parent finger\")\n- {人差|ひとさ}し{指|ゆび}: index finger (\"person-pointing finger\")\n- {中指|なかゆび}: middle finger (\"middle finger\")\n- {薬指|くすりゆび}: ring finger (\"medicine finger\")\n- {小指|こゆび}: little finger, pinky (\"small finger\")\n\nCULTURAL NOTE:\nPointing at people with the {人差|ひとさ}し{指|ゆび} is considered impolite in Japan. When indicating a person or direction, Japanese people often gesture with an open hand instead.",
-  "cross_references": [],
+  "notes": "The index finger, used for pointing. In Japanese culture, pointing at people with this finger is considered rude.\n\nETYMOLOGY:\nLiterally \"person-pointing finger\" — ⟦{人|ひと}→人：00476_hito⟧ (person) + ⟦{差|さ}す→差す：17637_sasu⟧ (to point) + ⟦{指|ゆび}→指：01518_yubi⟧ (finger). Named for its role in pointing at people.\n\nALL FIVE FINGERS:\n- ⟦{親指|おやゆび}→親指：04114_oyayubi⟧: thumb (\"parent finger\")\n- {人差|ひとさ}し{指|ゆび}: index finger (\"person-pointing finger\")\n- ⟦{中指|なかゆび}→中指：04281_nakayubi⟧: middle finger (\"middle finger\")\n- ⟦{薬指|くすりゆび}→薬指：16373_kusuriyubi⟧: ring finger (\"medicine finger\")\n- ⟦{小指|こゆび}→小指：04029_koyubi⟧: little finger, pinky (\"small finger\")\n\nCULTURAL NOTE:\nPointing at people with the {人差|ひとさ}し{指|ゆび} is considered impolite in Japan. When indicating a person or direction, Japanese people often gesture with an open hand instead.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "04029_koyubi",
+      "reading": "こゆび",
+      "headword": "{小指|こゆび}",
+      "label": "little finger, pinky"
+    }
+  ],
   "metadata": {
     "created": "2026-02-16T14:12:10Z",
-    "modified": "2026-03-25T12:24:31Z",
+    "modified": "2026-09-02T04:01:25Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["body-part"]
+      "semantic": [
+        "body-part"
+      ]
     }
   }
 }

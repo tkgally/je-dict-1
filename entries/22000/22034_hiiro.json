@@ -15,40 +15,80 @@
   "examples": [
     {
       "id": "22034_hiiro_ex1",
-      "japanese": "{緋色|ひいろ}の{着物|きもの}。",
+      "japanese": "{緋色|ひいろ}⟦の→の：09472_no⟧⟦{着物|きもの}→着物：01309_kimono⟧。",
       "english": "A scarlet kimono.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "22034_hiiro_ex2",
-      "japanese": "{紅葉|もみじ}が{緋色|ひいろ}に{色|いろ}づいた。",
+      "japanese": "⟦{紅葉|もみじ}→紅葉：05387_momiji⟧⟦が→が：00051_ga⟧{緋色|ひいろ}⟦に→に：00314_ni⟧⟦{色|いろ}づいた→色づく：10074_irozuku⟧。",
       "english": "The autumn leaves turned scarlet.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "22034_hiiro_ex3",
-      "japanese": "{緋色|ひいろ}の{袴|はかま}を{身|み}にまとった{巫女|みこ}が{境内|けいだい}を{歩|ある}いている。",
+      "japanese": "{緋色|ひいろ}⟦の→の：09472_no⟧⟦{袴|はかま}→袴：02245_hakama⟧⟦を→を：00422_wo⟧⟦{身|み}→身：01764_mi⟧⟦に→に：00314_ni⟧まとった⟦{巫女|みこ}→巫女：12408_miko⟧⟦が→が：00051_ga⟧⟦{境内|けいだい}→境内：12095_keidai⟧⟦を→を：00422_wo⟧⟦{歩|ある}いている→歩く：00538_aruku⟧。",
       "english": "A shrine maiden wearing scarlet hakama is walking through the shrine grounds.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A vivid bright red, one of Japan's traditional colors. The character {緋|ひ} specifically refers to this shade of red and is rarely used outside of color descriptions.\n\nCOMMON COLLOCATIONS:\n- {緋色|ひいろ}の{着物|きもの}: scarlet kimono\n- {緋色|ひいろ}の{袴|はかま}: scarlet hakama (worn by shrine maidens)\n- {緋色|ひいろ}に{染|そ}まる: to turn scarlet\n\nSIMILAR WORDS:\n- {茜色|あかねいろ}: madder red — a warmer, more orange-tinged red\n- {朱色|しゅいろ}: vermilion — a brighter, more orange shade\n- {紅色|べにいろ}: crimson — a deeper, cooler red\n- {真|ま}っ{赤|か}: bright red — everyday word for vivid red\n\nCULTURAL CONTEXT:\nIn traditional Japan, {緋色|ひいろ} was associated with high social rank. The scarlet {袴|はかま} worn by {巫女|みこ} (shrine maidens) is one of the most recognizable examples. The color also appears in the Japanese title of Arthur Conan Doyle's \"A Study in Scarlet\" ({緋色|ひいろ}の{研究|けんきゅう}).",
+  "notes": "A vivid bright red, one of Japan's traditional colors. The character {緋|ひ} specifically refers to this shade of red and is rarely used outside of color descriptions.\n\nCOMMON COLLOCATIONS:\n- {緋色|ひいろ}⟦の→の：09472_no⟧⟦{着物|きもの}→着物：01309_kimono⟧: scarlet kimono\n- {緋色|ひいろ}⟦の→の：09472_no⟧⟦{袴|はかま}→袴：02245_hakama⟧: scarlet hakama (worn by shrine maidens)\n- {緋色|ひいろ}⟦に→に：00314_ni⟧⟦{染|そ}まる→染まる：04254_somaru⟧: to turn scarlet\n\nSIMILAR WORDS:\n- ⟦{茜色|あかねいろ}→茜色：22033_akaneiro⟧: madder red — a warmer, more orange-tinged red\n- ⟦{朱色|しゅいろ}→朱色：20098_shuiro⟧: vermilion — a brighter, more orange shade\n- ⟦{紅色|べにいろ}→紅色：23780_beniiro⟧: crimson — a deeper, cooler red\n- ⟦{真|ま}っ{赤|か}→真っ赤：03734_makka⟧: bright red — everyday word for vivid red\n\nCULTURAL NOTE:\nIn traditional Japan, {緋色|ひいろ} was associated with high social rank. The scarlet ⟦{袴|はかま}→袴：02245_hakama⟧ worn by ⟦{巫女|みこ}→巫女：12408_miko⟧ (shrine maidens) is one of the most recognizable examples. The color also appears in the Japanese title of Arthur Conan Doyle's \"A Study in Scarlet\" ({緋色|ひいろ}⟦の→の：09472_no⟧⟦{研究|けんきゅう}→研究：01396_kenkyuu⟧).",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22033_akaneiro",
+      "reading": "あかねいろ",
+      "headword": "{茜色|あかねいろ}",
+      "label": "madder red"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20098_shuiro",
+      "reading": "しゅいろ",
+      "headword": "{朱色|しゅいろ}",
+      "label": "vermilion"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23780_beniiro",
+      "reading": "べにいろ",
+      "headword": "{紅色|べにいろ}",
+      "label": "crimson"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03734_makka",
+      "reading": "まっか",
+      "headword": "{真|ま}っ{赤|か}",
+      "label": "bright red"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["color"]
+      "semantic": [
+        "color"
+      ]
     },
     "created": "2026-04-04T21:12:02Z",
-    "modified": "2026-04-04T21:12:02Z"
+    "modified": "2026-09-02T04:02:06Z"
   }
 }

@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "07100_fasunaa_ex1",
-      "japanese": "ジャケットのファスナーが{壊|こわ}れた。",
+      "japanese": "⟦ジャケット→ジャケット：04522_jaketto⟧⟦の→の：09472_no⟧ファスナー⟦が→が：00051_ga⟧⟦{壊|こわ}れた→壊れる：00791_kowareru⟧。",
       "english": "The zipper on my jacket broke.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "07100_fasunaa_ex2",
-      "japanese": "ファスナーを{閉|し}めてください。",
+      "japanese": "ファスナー⟦を→を：00422_wo⟧⟦{閉|し}めて→閉める：00485_shimeru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please close the zipper.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "07100_fasunaa_ex3",
-      "japanese": "かばんのファスナーが{開|あ}いていますよ。",
+      "japanese": "⟦かばん→かばん：00637_kaban⟧⟦の→の：09472_no⟧ファスナー⟦が→が：00051_ga⟧⟦{開|あ}いています→開く：00689_aku⟧⟦よ→よ：09475_yo⟧。",
       "english": "The zipper on your bag is open.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "SYNONYMS:\n・チャック (zipper - common colloquial term, from 'chuck')\n・ジッパー (zipper - from English 'zipper')\nAll three terms are commonly used interchangeably in Japanese.\n\nCOMMON COLLOCATIONS:\n・ファスナーを{開|あ}ける (to open the zipper)\n・ファスナーを{閉|し}める (to close the zipper)\n・ファスナーが{壊|こわ}れる (zipper breaks)\n・ファスナーが{引|ひ}っかかる (zipper gets stuck)\n\nTYPES:\n・{金属|きんぞく}ファスナー (metal zipper)\n・プラスチックファスナー (plastic zipper)\n・{止水|しすい}ファスナー (waterproof zipper)",
+  "notes": "SIMILAR WORDS:\n- ⟦チャック→チャック：06489_chakku⟧ (zipper - common colloquial term, from 'chuck')\n- ⟦ジッパー→ジッパー：08276_jippaa⟧ (zipper - from English 'zipper')\nAll three terms are commonly used interchangeably in Japanese.\n\nCOMMON COLLOCATIONS:\n- ファスナー⟦を→を：00422_wo⟧⟦{開|あ}ける→開ける：00563_akeru⟧ (to open the zipper)\n- ファスナー⟦を→を：00422_wo⟧⟦{閉|し}める→閉める：00485_shimeru⟧ (to close the zipper)\n- ファスナー⟦が→が：00051_ga⟧⟦{壊|こわ}れる→壊れる：00791_kowareru⟧ (zipper breaks)\n- ファスナー⟦が→が：00051_ga⟧⟦{引|ひ}っかかる→引っかかる：12455_hikkakaru⟧ (zipper gets stuck)\n\nTYPES:\n- ⟦{金属|きんぞく}→金属：02645_kinzoku⟧ファスナー (metal zipper)\n- ⟦プラスチック→プラスチック：00347_purasuchikku⟧ファスナー (plastic zipper)\n- {止水|しすい}ファスナー (waterproof zipper)",
   "prominent_see_also": [
     {
       "target_id": "06489_chakku",
@@ -52,10 +52,32 @@
       "note": "colloquial synonym"
     }
   ],
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08276_jippaa",
+      "reading": "じっぱー",
+      "headword": "ジッパー",
+      "label": "zipper"
+    },
+    {
+      "type": "related",
+      "target_id": "21925_tomegane",
+      "reading": "とめがね",
+      "headword": "{留|と}め{金|がね}",
+      "label": "clasp"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28085_chakkuwoshimeru",
+      "reading": "ちゃっくをしめる",
+      "headword": "チャックを{閉|し}める",
+      "label": "to zip up"
+    }
+  ],
   "metadata": {
     "created": "2026-01-18T23:16:50Z",
-    "modified": "2026-04-19T03:07:22Z",
+    "modified": "2026-09-02T04:01:10Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

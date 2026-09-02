@@ -15,41 +15,81 @@
   "examples": [
     {
       "id": "17072_hosuukei_ex1",
-      "japanese": "{歩数計|ほすうけい}を{付|つ}けて{歩|ある}いている。",
+      "japanese": "{歩数計|ほすうけい}⟦を→を：00422_wo⟧⟦{付|つ}けて→付ける：00761_tsukeru⟧⟦{歩|ある}いている→歩く：00538_aruku⟧。",
       "english": "I walk with a pedometer on.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17072_hosuukei_ex2",
-      "japanese": "スマホの{歩数計|ほすうけい}で{毎日|まいにち}の{歩数|ほすう}を{記録|きろく}している。",
+      "japanese": "⟦スマホ→スマホ：04721_sumaho⟧⟦の→の：09472_no⟧{歩数計|ほすうけい}⟦で→で：00502_de⟧⟦{毎日|まいにち}→毎日：00729_mainichi⟧⟦の→の：09472_no⟧{歩数|ほすう}⟦を→を：00422_wo⟧⟦{記録|きろく}している→記録する：25341_kirokusuru⟧。",
       "english": "I record my daily steps with my smartphone's pedometer.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17072_hosuukei_ex3",
-      "japanese": "{歩数計|ほすうけい}を{見|み}たら{今日|きょう}は{一万歩|いちまんぽ}も{歩|ある}いていた。",
+      "japanese": "{歩数計|ほすうけい}⟦を→を：00422_wo⟧⟦{見|み}たら→見る：00283_miru⟧⟦{今日|きょう}→今日：00496_kyou⟧⟦は→は：00079_ha⟧{一万歩|いちまんぽ}⟦も→も：00484_mo⟧⟦{歩|ある}いていた→歩く：00538_aruku⟧。",
       "english": "When I checked my pedometer, I had walked as many as 10,000 steps today.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "Composed of {歩数|ほすう} (step count) + {計|けい} (meter/gauge). Refers to any device or app that counts steps.\n\nUSAGE:\nOriginally a standalone clip-on device, now commonly a built-in feature of smartphones and smartwatches. Still widely used in Japan, where the {一万歩|いちまんぽ} (10,000 steps per day) health goal remains popular.\n\nCOMMON COLLOCATIONS:\n- {歩数計|ほすうけい}アプリ: pedometer app\n- {歩数計|ほすうけい}を{付|つ}ける: to wear a pedometer\n- {歩数計|ほすうけい}で{測|はか}る: to measure with a pedometer\n\nRELATED 〜{計|けい} WORDS:\n- {体温計|たいおんけい}: thermometer (body temperature)\n- {体重計|たいじゅうけい}: bathroom scale\n- {万歩計|まんぽけい}: pedometer (brand name, very common synonym)",
-  "cross_references": [],
+  "notes": "Composed of {歩数|ほすう} (step count) + ⟦{計|けい}→計：02691_kei⟧ (meter/gauge). Refers to any device or app that counts steps.\n\nUSAGE:\nOriginally a standalone clip-on device, now commonly a built-in feature of smartphones and smartwatches. Still widely used in Japan, where the {一万歩|いちまんぽ} (10,000 steps per day) health goal remains popular.\n\nCOMMON COLLOCATIONS:\n- {歩数計|ほすうけい}⟦アプリ→アプリ：04722_apuri⟧: pedometer app\n- {歩数計|ほすうけい}⟦を→を：00422_wo⟧⟦{付|つ}ける→付ける：00761_tsukeru⟧: to wear a pedometer\n- {歩数計|ほすうけい}⟦で→で：00502_de⟧⟦{測|はか}る→測る：01977_hakaru⟧: to measure with a pedometer\n\nRELATED 〜{計|けい} WORDS:\n- ⟦{体温計|たいおんけい}→体温計：05484_taionkei⟧: thermometer (body temperature)\n- ⟦{体重計|たいじゅうけい}→体重計：05485_taijuukei⟧: bathroom scale\n- ⟦{万歩計|まんぽけい}→万歩計：20347_manpokei⟧: pedometer (brand name, very common synonym)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "05484_taionkei",
+      "reading": "たいおんけい",
+      "headword": "{体温計|たいおんけい}",
+      "label": "thermometer"
+    },
+    {
+      "type": "related",
+      "target_id": "05485_taijuukei",
+      "reading": "たいじゅうけい",
+      "headword": "{体重計|たいじゅうけい}",
+      "label": "bathroom scale"
+    },
+    {
+      "type": "related",
+      "target_id": "20347_manpokei",
+      "reading": "まんぽけい",
+      "headword": "{万歩計|まんぽけい}",
+      "label": "pedometer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27348_nanpo",
+      "reading": "なんぽ",
+      "headword": "{何歩|なんぽ}",
+      "label": "how many steps"
+    }
+  ],
   "metadata": {
     "created": "2026-03-15T09:50:27Z",
-    "modified": "2026-03-30T12:38:04Z",
+    "modified": "2026-09-02T04:01:47Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["tool", "general"]
+      "semantic": [
+        "tool",
+        "general"
+      ]
     }
   }
 }

@@ -15,41 +15,61 @@
   "examples": [
     {
       "id": "27640_kara_ex1",
-      "japanese": "コップが{空|から}になった。",
+      "japanese": "⟦コップ→コップ：00862_koppu⟧⟦が→が：00051_ga⟧{空|から}になった。",
       "english": "The cup became empty.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27640_kara_ex2",
-      "japanese": "{財布|さいふ}は{空|から}だった。",
+      "japanese": "⟦{財布|さいふ}→財布：00663_saifu⟧⟦は→は：00079_ha⟧{空|から}だった。",
       "english": "My wallet was empty.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27640_kara_ex3",
-      "japanese": "{箱|はこ}を{開|あ}けたら{中身|なかみ}が{空|から}で、{贈|おく}り{主|ぬし}に{連絡|れんらく}した。",
+      "japanese": "⟦{箱|はこ}→箱：02162_hako⟧⟦を→を：00422_wo⟧⟦{開|あ}けたら→開ける：00563_akeru⟧⟦{中身|なかみ}→中身：01483_nakami⟧⟦が→が：00051_ga⟧{空|から}で、{贈|おく}り{主|ぬし}⟦に→に：00314_ni⟧⟦{連絡|れんらく}した→連絡する：20202_renrakusuru⟧。",
       "english": "When I opened the box it was empty inside, so I contacted the sender.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Distinct from the same kanji {空|そら} (sky) and {空|くう} (sky, void, vacuum). The reading から refers specifically to physical emptiness of a container or space.\n\nGRAMMAR:\nPredicative: {空|から}だ ('is empty'). Often expressed as becoming empty with なる: {空|から}になる.\n\nCOMMON COMPOUNDS ({空|から}-prefix):\n- {空|から}{手|て}: empty-handed (also 'karate')\n- {空|から}{箱|ばこ}: empty box\n- {空|から}{瓶|びん}: empty bottle\n- {空|から}{回|まわ}り: spinning in vain, futile effort\n- {空|から}{元気|げんき}: forced cheerfulness\n\nSIMILAR WORDS:\n- {空|くう}: emptiness, void — abstract or Buddhist sense\n- {無|む}: nothing, nothingness — more philosophical\n- {空|あ}く: to become empty/vacant (verb) — for seats, rooms, time slots",
+  "notes": "Distinct from the same kanji ⟦{空|そら}→空：02216_sora⟧ (sky) and ⟦{空|くう}→空〜：03949_kuu⟧ (sky, void, vacuum). The reading ⟦から→から：00504_kara⟧ refers specifically to physical emptiness of a container or space.\n\nCOMMON PATTERNS:\nPredicative: {空|から}だ ('is empty'). Often expressed as becoming empty with ⟦なる→なる：01970_naru⟧: {空|から}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧.\n\nCOMMON COMPOUNDS ({空|から}-prefix):\n- ⟦{空|から}{手|て}→空手：04454_karate⟧: empty-handed (also 'karate')\n- {空|から}{箱|ばこ}: empty box\n- {空|から}{瓶|びん}: empty bottle\n- ⟦{空|から}{回|まわ}り→空回り：07725_karamawari⟧: spinning in vain, futile effort\n- {空|から}⟦{元気|げんき}→元気：00696_genki⟧: forced cheerfulness\n\nSIMILAR WORDS:\n- ⟦{空|くう}→空〜：03949_kuu⟧: emptiness, void — abstract or Buddhist sense\n- ⟦{無|む}→無：17750_mu⟧: nothing, nothingness — more philosophical\n- ⟦{空|あ}く→空く：11062_aku⟧: to become empty/vacant (verb) — for seats, rooms, time slots",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17750_mu",
+      "reading": "む",
+      "headword": "{無|む}",
+      "label": "nothing, nothingness"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["state", "abstract"],
+      "politeness": "plain",
+      "semantic": [
+        "state",
+        "abstract"
+      ],
       "domain": []
     },
     "created": "2026-05-15T04:12:19Z",
-    "modified": "2026-05-15T04:12:19Z"
+    "modified": "2026-09-02T04:02:31Z"
   }
 }

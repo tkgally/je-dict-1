@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "11143_pinchi_ex1",
-      "japanese": "ピンチを{切|き}り{抜|ぬ}けた。",
+      "japanese": "ピンチ⟦を→を：00422_wo⟧⟦{切|き}り{抜|ぬ}けた→切り抜ける：16750_kirinukeru⟧。",
       "english": "I got through the crisis.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "11143_pinchi_ex2",
-      "japanese": "チームは{大|おお}ピンチを{迎|むか}えている。",
+      "japanese": "⟦チーム→チーム：03858_chiimu⟧⟦は→は：00079_ha⟧{大|おお}ピンチ⟦を→を：00422_wo⟧⟦{迎|むか}えている→迎える：01193_mukaeru⟧。",
       "english": "The team is facing a major crisis.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "11143_pinchi_ex3",
-      "japanese": "ピンチをチャンスに{変|か}えるのが{一流|いちりゅう}の{選手|せんしゅ}だ。",
+      "japanese": "ピンチ⟦を→を：00422_wo⟧⟦チャンス→チャンス：03857_chansu⟧⟦に→に：00314_ni⟧⟦{変|か}える→変える：01089_kaeru⟧⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦{一流|いちりゅう}→一流：03009_ichiryuu⟧⟦の→の：09472_no⟧⟦{選手|せんしゅ}→選手：03823_senshu⟧だ。",
       "english": "Turning a crisis into an opportunity is what makes a top-class player.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nVery common in sports commentary, video games, and everyday conversation. Often contrasted with チャンス (chance, opportunity). The phrase ピンチはチャンス (a crisis is an opportunity) is a well-known motivational saying.\n\nCOMMON COLLOCATIONS:\n- ピンチを{切|き}り{抜|ぬ}ける (get through a crisis)\n- ピンチを{迎|むか}える (face a crisis)\n- ピンチに{陥|おちい}る (fall into a predicament)\n- ピンチに{強|つよ}い (strong under pressure)\n- {大|おお}ピンチ (major crisis)\n- ピンチはチャンス (a crisis is an opportunity)\n\nETYMOLOGY:\nFrom English \"pinch\" (in the sense of a tight spot or difficult situation).",
+  "notes": "USAGE:\nVery common in sports commentary, video games, and everyday conversation. Often contrasted with ⟦チャンス→チャンス：03857_chansu⟧ (chance, opportunity). The phrase ピンチ⟦は→は：00079_ha⟧⟦チャンス→チャンス：03857_chansu⟧ (a crisis is an opportunity) is a well-known motivational saying.\n\nCOMMON COLLOCATIONS:\n- ピンチ⟦を→を：00422_wo⟧⟦{切|き}り{抜|ぬ}ける→切り抜ける：16750_kirinukeru⟧ (get through a crisis)\n- ピンチ⟦を→を：00422_wo⟧⟦{迎|むか}える→迎える：01193_mukaeru⟧ (face a crisis)\n- ピンチ⟦に→に：00314_ni⟧⟦{陥|おちい}る→陥る：14537_ochiiru⟧ (fall into a predicament)\n- ピンチ⟦に→に：00314_ni⟧⟦{強|つよ}い→強い：00820_tsuyoi⟧ (strong under pressure)\n- {大|おお}ピンチ (major crisis)\n- ピンチ⟦は→は：00079_ha⟧⟦チャンス→チャンス：03857_chansu⟧ (a crisis is an opportunity)\n\nETYMOLOGY:\nFrom English \"pinch\" (in the sense of a tight spot or difficult situation).",
   "cross_references": [
     {
       "type": "antonym",
@@ -52,11 +52,46 @@
       "reading": "ちゃんす",
       "headword": "チャンス",
       "label": "chance, opportunity"
+    },
+    {
+      "type": "related",
+      "target_id": "05226_tacchipaneru",
+      "reading": "たっちぱねる",
+      "headword": "タッチパネル",
+      "label": "touch panel"
+    },
+    {
+      "type": "related",
+      "target_id": "05395_tappu",
+      "reading": "たっぷ",
+      "headword": "タップ",
+      "label": "tap (touchscreen)"
+    },
+    {
+      "type": "related",
+      "target_id": "06182_suwaipu",
+      "reading": "すわいぷ",
+      "headword": "スワイプ",
+      "label": "swipe"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08684_kyuuchi",
+      "reading": "きゅうち",
+      "headword": "{窮地|きゅうち}",
+      "label": "predicament"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20107_kukyou",
+      "reading": "くきょう",
+      "headword": "{苦境|くきょう}",
+      "label": "difficult situation"
     }
   ],
   "metadata": {
     "created": "2026-02-14T03:15:22Z",
-    "modified": "2026-04-25T04:12:08Z",
+    "modified": "2026-09-02T04:01:24Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

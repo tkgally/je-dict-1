@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "17154_fukushoku_ex1",
-      "japanese": "{副食|ふくしょく}が{充実|じゅうじつ}している。",
+      "japanese": "{副食|ふくしょく}⟦が→が：00051_ga⟧⟦{充実|じゅうじつ}→充実：04845_juujitsu⟧⟦している→する：00392_suru⟧。",
       "english": "The side dishes are substantial.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "17154_fukushoku_ex2",
-      "japanese": "{学校|がっこう}{給食|きゅうしょく}の{副食|ふくしょく}は{栄養|えいよう}バランスが{考|かんが}えられている。",
+      "japanese": "⟦{学校|がっこう}→学校：00055_gakkou⟧⟦{給食|きゅうしょく}→給食：13800_kyuushoku⟧⟦の→の：09472_no⟧{副食|ふくしょく}⟦は→は：00079_ha⟧⟦{栄養|えいよう}→栄養：01882_eiyou⟧⟦バランス→バランス：03870_baransu⟧⟦が→が：00051_ga⟧⟦{考|かんが}えられている→考える：00856_kangaeru⟧。",
       "english": "The side dishes in school lunches are designed with nutritional balance in mind.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "17154_fukushoku_ex3",
-      "japanese": "{主食|しゅしょく}の{米|こめ}に{対|たい}して、{魚|さかな}や{野菜|やさい}のおかずを{副食|ふくしょく}と{呼|よ}ぶ。",
+      "japanese": "⟦{主食|しゅしょく}→主食：11408_shushoku⟧⟦の→の：09472_no⟧⟦{米|こめ}→米：01323_kome⟧⟦に{対|たい}して→に対して：06800_nitaishite⟧、⟦{魚|さかな}→魚：00499_sakana⟧や⟦{野菜|やさい}→野菜：02265_yasai⟧⟦の→の：09472_no⟧⟦おかず→おかず：08272_okazu⟧⟦を→を：00422_wo⟧{副食|ふくしょく}⟦と→と：00512_to⟧⟦{呼|よ}ぶ→呼ぶ：00766_yobu⟧。",
       "english": "In contrast to rice as the staple food, fish and vegetable dishes are called side dishes.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA compound of {副|ふく} (secondary, supplementary) + {食|しょく} (food). Contrasted with {主食|しゅしょく} (staple food, usually rice). More formal than the everyday word おかず.\n\nCOMMON COLLOCATIONS:\n- {主食|しゅしょく}と{副食|ふくしょく} (staple food and side dishes)\n- {副食|ふくしょく}の{品数|しなかず} (number of side dishes)\n- {副食費|ふくしょくひ} (side dish expenses, meal supplement costs)\n\nSIMILAR WORDS:\n- おかず: side dish — the everyday, casual term\n- {主食|しゅしょく}: staple food — the main carbohydrate, usually rice, bread, or noodles",
+  "notes": "USAGE:\nA compound of ⟦{副|ふく}→副〜：03965_fuku⟧ (secondary, supplementary) + {食|しょく} (food). Contrasted with ⟦{主食|しゅしょく}→主食：11408_shushoku⟧ (staple food, usually rice). More formal than the everyday word ⟦おかず→おかず：08272_okazu⟧.\n\nCOMMON COLLOCATIONS:\n- ⟦{主食|しゅしょく}→主食：11408_shushoku⟧⟦と→と：00512_to⟧{副食|ふくしょく} (staple food and side dishes)\n- {副食|ふくしょく}⟦の→の：09472_no⟧⟦{品数|しなかず}→品数：18814_shinakazu⟧ (number of side dishes)\n- {副食費|ふくしょくひ} (side dish expenses, meal supplement costs)\n\nSIMILAR WORDS:\n- ⟦おかず→おかず：08272_okazu⟧: side dish — the everyday, casual term\n- ⟦{主食|しゅしょく}→主食：11408_shushoku⟧: staple food — the main carbohydrate, usually rice, bread, or noodles",
   "cross_references": [
     {
       "type": "antonym",
@@ -52,11 +52,18 @@
       "reading": "しゅしょく",
       "headword": "{主食|しゅしょく}",
       "label": "staple food"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08272_okazu",
+      "reading": "おかず",
+      "headword": "おかず",
+      "label": "side dish"
     }
   ],
   "metadata": {
     "created": "2026-03-16T03:14:04Z",
-    "modified": "2026-05-05T10:11:30Z",
+    "modified": "2026-09-02T04:01:47Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

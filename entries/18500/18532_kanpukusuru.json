@@ -3,7 +3,7 @@
   "headword": "{感服|かんぷく}する",
   "reading": "かんぷくする",
   "romaji": "kanpukusuru",
-  "part_of_speech": "verb (suru)",
+  "part_of_speech": "suru verb",
   "gloss": "to be deeply impressed; to admire greatly",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "18532_kanpukusuru_ex1",
-      "japanese": "{彼|かれ}の{努力|どりょく}に{感服|かんぷく}した。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧⟦{努力|どりょく}→努力：03490_doryoku⟧⟦に→に：00314_ni⟧{感服|かんぷく}した。",
       "english": "I was deeply impressed by his effort.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "18532_kanpukusuru_ex2",
-      "japanese": "その{職人|しょくにん}の{技|わざ}には{感服|かんぷく}するばかりだ。",
+      "japanese": "⟦その→その：00993_sono⟧⟦{職人|しょくにん}→職人：09868_shokunin⟧⟦の→の：09472_no⟧⟦{技|わざ}→技：02172_waza⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{感服|かんぷく}する⟦ばかり→〜ばかり：02006_bakari⟧だ。",
       "english": "I can only admire that craftsman's skill.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "18532_kanpukusuru_ex3",
-      "japanese": "{困難|こんなん}な{状況|じょうきょう}でも{前向|まえむ}きに{取|と}り{組|く}む{姿勢|しせい}に{感服|かんぷく}しました。",
+      "japanese": "⟦{困難|こんなん}→困難：01410_konnan⟧な⟦{状況|じょうきょう}→状況：01576_joukyou⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧⟦{前向|まえむ}き→前向き：10073_maemuki⟧⟦に→に：00314_ni⟧⟦{取|と}り{組|く}む→取り組む：04225_torikumu⟧⟦{姿勢|しせい}→姿勢：00371_shisei⟧⟦に→に：00314_ni⟧{感服|かんぷく}しました。",
       "english": "I was deeply impressed by the positive attitude of tackling things even in difficult situations.",
       "sense_numbers": [
         1
@@ -134,8 +134,31 @@
       "notes": null
     }
   ],
-  "notes": "{感服|かんぷく}する expresses deep, heartfelt admiration for someone's skill, effort, or character. It is more formal and emphatic than {感心|かんしん}する, which conveys milder impressedness.\n\nCOMMON PATTERNS:\n- ～に{感服|かんぷく}する: to be deeply impressed by ~\n- {感服|かんぷく}するばかりだ: I can only admire\n- {感服|かんぷく}いたしました: I'm truly impressed (humble/keigo form)\n\nSIMILAR WORDS:\n- {感心|かんしん}する: to be impressed (milder, everyday)\n- {敬服|けいふく}する: to admire with respect (similarly formal)\n- {脱帽|だつぼう}する: to take one's hat off to (figurative admiration)\n\nREGISTER:\nSomewhat formal. Often used in written language, speeches, or polite conversation. The humble form {感服|かんぷく}いたします is common in business settings.",
+  "notes": "{感服|かんぷく}する expresses deep, heartfelt admiration for someone's skill, effort, or character. It is more formal and emphatic than ⟦{感心|かんしん}する→感心する：21451_kanshinsuru⟧, which conveys milder impressedness.\n\nCOMMON PATTERNS:\n- ～⟦に→に：00314_ni⟧{感服|かんぷく}する: to be deeply impressed by ~\n- {感服|かんぷく}する⟦ばかり→〜ばかり：02006_bakari⟧だ: I can only admire\n- {感服|かんぷく}⟦いたしました→いたす：01314_itasu⟧: I'm truly impressed (humble/keigo form)\n\nSIMILAR WORDS:\n- ⟦{感心|かんしん}する→感心する：21451_kanshinsuru⟧: to be impressed (milder, everyday)\n- ⟦{敬服|けいふく}する→敬服する：21644_keifukusuru⟧: to admire with respect (similarly formal)\n- ⟦{脱帽|だつぼう}→脱帽：13977_datsubou⟧⟦する→する：00392_suru⟧: to take one's hat off to (figurative admiration)\n\nREGISTER:\nSomewhat formal. Often used in written language, speeches, or polite conversation. The humble form {感服|かんぷく}⟦いたします→いたす：01314_itasu⟧ is common in business settings.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21451_kanshinsuru",
+      "reading": "かんしんする",
+      "headword": "{感心|かんしん}する",
+      "label": "to be impressed"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21644_keifukusuru",
+      "reading": "けいふくする",
+      "headword": "{敬服|けいふく}する",
+      "label": "to admire with respect"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13977_datsubou",
+      "reading": "だつぼう",
+      "headword": "{脱帽|だつぼう}",
+      "label": "to take one's hat off to"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -151,6 +174,6 @@
       "verb_class": "suru"
     },
     "created": "2026-03-22T04:43:39Z",
-    "modified": "2026-03-30T05:29:48Z"
+    "modified": "2026-09-02T04:01:52Z"
   }
 }

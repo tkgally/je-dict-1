@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "14101_nigami_ex1",
-      "japanese": "このコーヒーは{苦味|にがみ}が{強|つよ}い。",
+      "japanese": "⟦この→この：00962_kono⟧⟦コーヒー→コーヒー：00789_koohii⟧⟦は→は：00079_ha⟧{苦味|にがみ}⟦が→が：00051_ga⟧⟦{強|つよ}い→強い：00820_tsuyoi⟧。",
       "english": "This coffee has a strong bitterness.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "14101_nigami_ex2",
-      "japanese": "ゴーヤの{苦味|にがみ}が{苦手|にがて}な{人|ひと}も{多|おお}い。",
+      "japanese": "ゴーヤ⟦の→の：09472_no⟧{苦味|にがみ}⟦が→が：00051_ga⟧⟦{苦手|にがて}→苦手：03513_nigate⟧な⟦{人|ひと}→人：00476_hito⟧⟦も→も：00484_mo⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "Many people dislike the bitterness of bitter melon.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "14101_nigami_ex3",
-      "japanese": "{大人|おとな}になるにつれて、{苦味|にがみ}のある{食|た}べ{物|もの}を{好|この}むようになる{人|ひと}が{多|おお}いらしい。",
+      "japanese": "⟦{大人|おとな}→大人：02856_otona⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦につれて→につれて：28400_nitsurete⟧、{苦味|にがみ}⟦の→の：09472_no⟧⟦ある→ある：00006_aru⟧⟦{食|た}べ{物|もの}→食べ物：02890_tabemono⟧⟦を→を：00422_wo⟧⟦{好|この}む→好む：02103_konomu⟧⟦ようになる→ようになる：28408_youninaru⟧⟦{人|ひと}→人：00476_hito⟧⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧らしい。",
       "english": "Apparently, many people come to enjoy bitter-tasting foods as they grow older.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE NOTE:\n{苦味|にがみ} refers specifically to the bitter component of a flavor. It is one of the five basic tastes alongside {甘味|あまみ} (sweetness), {酸味|さんみ} (sourness), {塩味|しおみ} (saltiness), and {旨味|うまみ} (umami).\n\nCOMMON COLLOCATIONS:\n- {苦味|にがみ}が{強|つよ}い (strongly bitter)\n- {苦味|にがみ}を{感|かん}じる (taste bitterness)\n- {苦味|にがみ}が{効|き}いている (the bitterness comes through)\n- {苦味|にがみ}{成分|せいぶん} (bitter component)\n\nSIMILAR WORDS:\n- {苦|にが}さ: bitterness (general quality, can be figurative — bitterness of experience)\n- {渋味|しぶみ}: astringency (puckering taste, as in unripe persimmon or strong tea)\n- {酸味|さんみ}: sourness, acidity (another taste quality)",
+  "notes": "USAGE:\n{苦味|にがみ} refers specifically to the bitter component of a flavor. It is one of the five basic tastes alongside ⟦{甘味|あまみ}→甘味：07017_amami⟧ (sweetness), ⟦{酸味|さんみ}→酸味：07016_sanmi⟧ (sourness), ⟦{塩味|しおみ}→塩味：25472_shiomi⟧ (saltiness), and ⟦{旨味|うまみ}→旨味：06998_umami⟧ (umami).\n\nCOMMON COLLOCATIONS:\n- {苦味|にがみ}⟦が→が：00051_ga⟧⟦{強|つよ}い→強い：00820_tsuyoi⟧ (strongly bitter)\n- {苦味|にがみ}⟦を→を：00422_wo⟧⟦{感|かん}じる→感じる：02044_kanjiru⟧ (taste bitterness)\n- {苦味|にがみ}⟦が→が：00051_ga⟧⟦{効|き}いている→効く：01932_kiku⟧ (the bitterness comes through)\n- {苦味|にがみ}⟦{成分|せいぶん}→成分：04344_seibun⟧ (bitter component)\n\nSIMILAR WORDS:\n- {苦|にが}さ: bitterness (general quality, can be figurative — bitterness of experience)\n- {渋味|しぶみ}: astringency (puckering taste, as in unripe persimmon or strong tea)\n- ⟦{酸味|さんみ}→酸味：07016_sanmi⟧: sourness, acidity (another taste quality)",
   "cross_references": [
     {
       "type": "related",
@@ -58,11 +58,18 @@
       "reading": "にがい",
       "headword": "{苦|にが}い",
       "target_id": "01201_nigai"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07016_sanmi",
+      "reading": "さんみ",
+      "headword": "{酸味|さんみ}",
+      "label": "sourness, acidity"
     }
   ],
   "metadata": {
     "created": "2026-02-28T00:47:47Z",
-    "modified": "2026-07-30T09:18:34Z",
+    "modified": "2026-09-02T04:01:36Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

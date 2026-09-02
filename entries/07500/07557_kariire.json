@@ -2,7 +2,7 @@
   "id": "07557_kariire",
   "headword": "{借入|かりいれ}",
   "reading": "かりいれ",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "borrowing; loan",
   "conjugation": {
     "type": "suru",
@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "07557_kariire_ex1",
-      "japanese": "{銀行|ぎんこう}から{借入|かりいれ}をした。",
+      "japanese": "⟦{銀行|ぎんこう}→銀行：00578_ginkou⟧⟦から→から：00504_kara⟧{借入|かりいれ}⟦を→を：00422_wo⟧⟦した→する：00392_suru⟧。",
       "english": "I took out a loan from the bank.",
       "has_audio": false,
       "sense_numbers": [
@@ -113,7 +113,7 @@
     },
     {
       "id": "07557_kariire_ex2",
-      "japanese": "{借入|かりいれ}{金額|きんがく}は500{万円|まんえん}だ。",
+      "japanese": "{借入|かりいれ}{金額|きんがく}⟦は→は：00079_ha⟧500{万円|まんえん}だ。",
       "english": "The borrowed amount is 5 million yen.",
       "has_audio": false,
       "sense_numbers": [
@@ -122,7 +122,7 @@
     },
     {
       "id": "07557_kariire_ex3",
-      "japanese": "{住宅|じゅうたく}ローンの{借入|かりいれ}{期間|きかん}は35{年|ねん}です。",
+      "japanese": "⟦{住宅|じゅうたく}→住宅：03280_juutaku⟧⟦ローン→ローン：06579_roon⟧⟦の→の：09472_no⟧{借入|かりいれ}{期間|きかん}⟦は→は：00079_ha⟧35⟦{年|ねん}→年：09876_nen⟧です。",
       "english": "The mortgage loan period is 35 years.",
       "has_audio": false,
       "sense_numbers": [
@@ -130,7 +130,7 @@
       ]
     }
   ],
-  "notes": "WORD STRUCTURE:\n{借|かり} (borrow) + {入|いれ} (in/receive) - receiving borrowed funds\n\nOPPOSITE:\n・{貸出|かしだ}し - lending\n\nCOMMON COLLOCATIONS:\n・{借入|かりいれ}する - to borrow\n・{借入金|かりいれきん} - borrowed money, loan\n・{借入|かりいれ}{残高|ざんだか} - outstanding loan balance\n・{借入|かりいれ}{期間|きかん} - loan period\n・{借入|かりいれ}{限度額|げんどがく} - borrowing limit\n・{借入|かりいれ}{利率|りりつ} - borrowing interest rate\n・{短期|たんき}{借入|かりいれ} - short-term borrowing\n・{長期|ちょうき}{借入|かりいれ} - long-term borrowing\n\nRELATED FINANCIAL TERMS:\n・{融資|ゆうし} - financing, loan (from lender's perspective)\n・ローン - loan (loanword)\n・{返済|へんさい} - repayment\n・{利息|りそく} - interest\n・{担保|たんぽ} - collateral\n\nUSAGE:\nPrimarily used in financial and business contexts. For casual borrowing (like borrowing a book), use {借|か}りる instead.",
+  "notes": "ETYMOLOGY:\n{借|かり} (borrow) + {入|いれ} (in/receive) - receiving borrowed funds\n\nSIMILAR WORDS:\n- {貸出|かしだ}し - lending\n\nCOMMON COLLOCATIONS:\n- {借入|かりいれ}⟦する→する：00392_suru⟧ - to borrow\n- ⟦{借入金|かりいれきん}→借入金：29454_kariirekin⟧ - borrowed money, loan\n- {借入|かりいれ}{残高|ざんだか} - outstanding loan balance\n- {借入|かりいれ}{期間|きかん} - loan period\n- {借入|かりいれ}⟦{限度額|げんどがく}→限度額：20870_gendogaku⟧ - borrowing limit\n- {借入|かりいれ}⟦{利率|りりつ}→利率：21159_riritsu⟧ - borrowing interest rate\n- ⟦{短期|たんき}→短期：04050_tanki⟧{借入|かりいれ} - short-term borrowing\n- ⟦{長期|ちょうき}→長期：03487_chouki⟧{借入|かりいれ} - long-term borrowing\n\nRELATED FINANCIAL TERMS:\n- ⟦{融資|ゆうし}→融資：04775_yuushi⟧ - financing, loan (from lender's perspective)\n- ⟦ローン→ローン：06579_roon⟧ - loan (loanword)\n- ⟦{返済|へんさい}→返済：04776_hensai⟧ - repayment\n- ⟦{利息|りそく}→利息：05469_risoku⟧ - interest\n- ⟦{担保|たんぽ}→担保：05974_tanpo⟧ - collateral\n\nUSAGE:\nPrimarily used in financial and business contexts. For casual borrowing (like borrowing a book), use ⟦{借|か}りる→借りる：00532_kariru⟧ instead.",
   "cross_references": [
     {
       "type": "antonym",
@@ -138,11 +138,46 @@
       "headword": "{貸出|かしだ}し",
       "label": "lending",
       "target_id": "03043_kashidashi"
+    },
+    {
+      "type": "related",
+      "target_id": "04775_yuushi",
+      "reading": "ゆうし",
+      "headword": "{融資|ゆうし}",
+      "label": "financing, loan"
+    },
+    {
+      "type": "related",
+      "target_id": "06579_roon",
+      "reading": "ろーん",
+      "headword": "ローン",
+      "label": "loan"
+    },
+    {
+      "type": "related",
+      "target_id": "04776_hensai",
+      "reading": "へんさい",
+      "headword": "{返済|へんさい}",
+      "label": "repayment"
+    },
+    {
+      "type": "related",
+      "target_id": "05469_risoku",
+      "reading": "りそく",
+      "headword": "{利息|りそく}",
+      "label": "interest"
+    },
+    {
+      "type": "related",
+      "target_id": "05974_tanpo",
+      "reading": "たんぽ",
+      "headword": "{担保|たんぽ}",
+      "label": "collateral"
     }
   ],
   "metadata": {
     "created": "2026-01-20T08:47:47Z",
-    "modified": "2026-03-29T03:05:07Z",
+    "modified": "2026-09-02T04:01:11Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -151,6 +186,7 @@
         "verb-suru"
       ],
       "formality": "formal",
+      "politeness": "plain",
       "semantic": [
         "business"
       ],

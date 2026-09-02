@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22601_nakashoku_ex1",
-      "japanese": "{中食|なかしょく}{市場|しじょう}が{拡大|かくだい}している。",
+      "japanese": "{中食|なかしょく}⟦{市場|しじょう}→市場：09685_shijou⟧⟦が→が：00051_ga⟧⟦{拡大|かくだい}→拡大：02553_kakudai⟧⟦している→する：00392_suru⟧。",
       "english": "The ready-made food market is expanding.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22601_nakashoku_ex2",
-      "japanese": "{忙|いそが}しい{日|ひ}はコンビニの{中食|なかしょく}に{頼|たよ}ることが{多|おお}い。",
+      "japanese": "⟦{忙|いそが}しい→忙しい：00591_isogashii⟧⟦{日|ひ}→日：02249_hi⟧⟦は→は：00079_ha⟧⟦コンビニ→コンビニ：01081_konbini⟧⟦の→の：09472_no⟧{中食|なかしょく}⟦に→に：00314_ni⟧⟦{頼|たよ}る→頼る：02069_tayoru⟧こと⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "On busy days, I often rely on convenience store ready-made meals.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22601_nakashoku_ex3",
-      "japanese": "{共働|ともばたら}きの{家庭|かてい}では、{中食|なかしょく}を{利用|りよう}する{頻度|ひんど}が{高|たか}くなっている。",
+      "japanese": "⟦{共働|ともばたら}き→共働き：08564_tomobataraki⟧⟦の→の：09472_no⟧⟦{家庭|かてい}→家庭：12315_katei⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧、{中食|なかしょく}⟦を→を：00422_wo⟧⟦{利用|りよう}する→利用する：21735_riyousuru⟧⟦{頻度|ひんど}→頻度：14619_hindo⟧⟦が→が：00051_ga⟧⟦{高|たか}く→高い：00500_takai⟧⟦なっている→なる：01970_naru⟧。",
       "english": "In dual-income households, the frequency of using ready-made meals has been increasing.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "A relatively recent term positioned between {内食|ないしょく} (home-cooked meals) and {外食|がいしょく} (eating out). The {中|なか} literally means \"middle\" — eating at home but with food prepared outside. This category has grown significantly in Japan with the expansion of convenience store bento, supermarket deli sections, and delivery services.\n\nCOMMON COLLOCATIONS:\n- {中食|なかしょく}{市場|しじょう}: ready-made food market\n- {中食|なかしょく}{産業|さんぎょう}: ready-made food industry\n- {中食|なかしょく}を{利用|りよう}する: to use ready-made meals\n- {中食|なかしょく}{需要|じゅよう}: demand for ready-made meals\n\nRELATED TERMS:\n- {外食|がいしょく}: eating out — dining at restaurants\n- {内食|ないしょく}: home cooking — preparing meals at home from ingredients\n- {弁当|べんとう}: boxed lunch — a specific type of prepared meal",
+  "notes": "A relatively recent term positioned between {内食|ないしょく} (home-cooked meals) and ⟦{外食|がいしょく}→外食：03024_gaishoku⟧ (eating out). The ⟦{中|なか}→中：00654_naka⟧ literally means \"middle\" — eating at home but with food prepared outside. This category has grown significantly in Japan with the expansion of convenience store bento, supermarket deli sections, and delivery services.\n\nCOMMON COLLOCATIONS:\n- {中食|なかしょく}⟦{市場|しじょう}→市場：09685_shijou⟧: ready-made food market\n- {中食|なかしょく}⟦{産業|さんぎょう}→産業：01419_sangyou⟧: ready-made food industry\n- {中食|なかしょく}⟦を→を：00422_wo⟧⟦{利用|りよう}する→利用する：21735_riyousuru⟧: to use ready-made meals\n- {中食|なかしょく}⟦{需要|じゅよう}→需要：02616_juyou⟧: demand for ready-made meals\n\nRELATED WORDS:\n- ⟦{外食|がいしょく}→外食：03024_gaishoku⟧: eating out — dining at restaurants\n- {内食|ないしょく}: home cooking — preparing meals at home from ingredients\n- ⟦{弁当|べんとう}→弁当：01014_bentou⟧: boxed lunch — a specific type of prepared meal",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "03024_gaishoku",
+      "reading": "がいしょく",
+      "headword": "{外食|がいしょく}",
+      "label": "eating out"
+    },
+    {
+      "type": "related",
+      "target_id": "01014_bentou",
+      "reading": "べんとう",
+      "headword": "{弁当|べんとう}",
+      "label": "boxed lunch"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09551_jisui",
+      "reading": "じすい",
+      "headword": "{自炊|じすい}",
+      "label": "cooking for oneself"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +83,6 @@
       "politeness": "plain"
     },
     "created": "2026-04-06T19:16:35Z",
-    "modified": "2026-07-30T15:20:15Z"
+    "modified": "2026-09-02T04:02:08Z"
   }
 }

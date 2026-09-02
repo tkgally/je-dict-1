@@ -15,39 +15,67 @@
   "examples": [
     {
       "id": "25948_saiteikion_ex1",
-      "japanese": "{今朝|けさ}の{最低気温|さいていきおん}は{零下|れいか}3{度|ど}だった。",
+      "japanese": "⟦{今朝|けさ}→今朝：02877_kesa⟧⟦の→の：09472_no⟧{最低気温|さいていきおん}⟦は→は：00079_ha⟧⟦{零下|れいか}→零下：17542_reika⟧3⟦{度|ど}→〜度：09845_do⟧だった。",
       "english": "This morning's low temperature was minus 3 degrees.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "25948_saiteikion_ex2",
-      "japanese": "{明日|あした}の{最低気温|さいていきおん}は10{度|ど}の{予報|よほう}だ。",
+      "japanese": "⟦{明日|あした}→明日：00501_ashita⟧⟦の→の：09472_no⟧{最低気温|さいていきおん}⟦は→は：00079_ha⟧10⟦{度|ど}→〜度：09845_do⟧⟦の→の：09472_no⟧⟦{予報|よほう}→予報：03668_yohou⟧だ。",
       "english": "Tomorrow's forecasted low is 10 degrees.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "25948_saiteikion_ex3",
-      "japanese": "{冬|ふゆ}になると{最低気温|さいていきおん}が{氷点下|ひょうてんか}まで{下|さ}がる{地域|ちいき}もある。",
+      "japanese": "⟦{冬|ふゆ}→冬：00623_fuyu⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦と→と：00512_to⟧{最低気温|さいていきおん}⟦が→が：00051_ga⟧⟦{氷点下|ひょうてんか}→氷点下：07669_hyoutenka⟧⟦まで→まで：00490_made⟧⟦{下|さ}がる→下がる：01188_sagaru⟧⟦{地域|ちいき}→地域：01461_chiiki⟧⟦も→も：00484_mo⟧⟦ある→ある：00006_aru⟧。",
       "english": "In winter, there are regions where the minimum temperature drops below freezing.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {最低|さいてい} (minimum; lowest) and {気温|きおん} (air temperature). One of the most common weather terms heard in daily forecasts. In Japanese weather reports, {最低気温|さいていきおん} typically refers to the overnight or early-morning low.\n\nCOMMON COLLOCATIONS:\n- {最低気温|さいていきおん}が{下|さ}がる: the low temperature drops\n- {最低気温|さいていきおん}が{氷点下|ひょうてんか}になる: the minimum temperature goes below freezing\n- {今日|きょう}の{最低気温|さいていきおん}: today's low\n- {最低気温|さいていきおん}の{予報|よほう}: forecast low temperature\n\nSIMILAR WORDS:\n- {最高気温|さいこうきおん}: maximum temperature; high — the counterpart, indicating the day's highest temperature\n- {気温|きおん}: air temperature — the general term for temperature\n- {冷え込み|ひえこみ}: cold snap; chill — describes the feeling of a sudden drop in temperature, especially overnight",
-  "cross_references": [],
+  "notes": "A compound of ⟦{最低|さいてい}→最低：01412_saitei⟧ (minimum; lowest) and ⟦{気温|きおん}→気温：00235_kion⟧ (air temperature). One of the most common weather terms heard in daily forecasts. In Japanese weather reports, {最低気温|さいていきおん} typically refers to the overnight or early-morning low.\n\nCOMMON COLLOCATIONS:\n- {最低気温|さいていきおん}⟦が→が：00051_ga⟧⟦{下|さ}がる→下がる：01188_sagaru⟧: the low temperature drops\n- {最低気温|さいていきおん}⟦が→が：00051_ga⟧⟦{氷点下|ひょうてんか}→氷点下：07669_hyoutenka⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧: the minimum temperature goes below freezing\n- ⟦{今日|きょう}→今日：00496_kyou⟧⟦の→の：09472_no⟧{最低気温|さいていきおん}: today's low\n- {最低気温|さいていきおん}⟦の→の：09472_no⟧⟦{予報|よほう}→予報：03668_yohou⟧: forecast low temperature\n\nSIMILAR WORDS:\n- ⟦{最高気温|さいこうきおん}→最高気温：26070_saikoukion⟧: maximum temperature; high — the counterpart, indicating the day's highest temperature\n- ⟦{気温|きおん}→気温：00235_kion⟧: air temperature — the general term for temperature\n- ⟦{冷え込|ひえこ}み→冷え込み：20445_hiekomi⟧: cold snap; chill — describes the feeling of a sudden drop in temperature, especially overnight",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "26070_saikoukion",
+      "reading": "さいこうきおん",
+      "headword": "{最高気温|さいこうきおん}",
+      "label": "maximum temperature"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20445_hiekomi",
+      "reading": "ひえこみ",
+      "headword": "{冷|ひ}え{込|こ}み",
+      "label": "cold snap"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["weather", "science"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "weather",
+        "science"
+      ]
     },
     "created": "2026-04-28T13:33:47Z",
-    "modified": "2026-04-28T13:33:47Z"
+    "modified": "2026-09-02T04:02:24Z"
   }
 }

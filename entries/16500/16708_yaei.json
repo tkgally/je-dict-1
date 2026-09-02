@@ -3,7 +3,7 @@
   "id": "16708_yaei",
   "headword": "{野営|やえい}",
   "reading": "やえい",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "camping, bivouacking",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "16708_yaei_ex1",
-      "japanese": "{山|やま}で{野営|やえい}する。",
+      "japanese": "⟦{山|やま}→山：02168_yama⟧⟦で→で：00502_de⟧{野営|やえい}⟦する→する：00392_suru⟧。",
       "english": "To camp in the mountains.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "16708_yaei_ex2",
-      "japanese": "{野営|やえい}{地|ち}を{探|さが}す。",
+      "japanese": "{野営|やえい}{地|ち}⟦を→を：00422_wo⟧⟦{探|さが}す→探す：00493_sagasu⟧。",
       "english": "To look for a campsite.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "16708_yaei_ex3",
-      "japanese": "{装備|そうび}を{整|ととの}えて{河原|かわら}で{野営|やえい}した。",
+      "japanese": "⟦{装備|そうび}→装備：14103_soubi⟧⟦を→を：00422_wo⟧⟦{整|ととの}えて→整える：04259_totonoeru⟧⟦{河原|かわら}→河原：28759_kawara⟧⟦で→で：00502_de⟧{野営|やえい}⟦した→する：00392_suru⟧。",
       "english": "We prepared our equipment and camped by the riverbank.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "{野営|やえい} means camping outdoors, especially in a rugged or field setting. Composed of {野|や} (field/wild) + {営|えい} (camp/quarters).\n\nCOLLOCATIONS:\n- {野営|やえい}{地|ち}: campsite\n- {野営|やえい}{場|じょう}: camping ground\n- {野営|やえい}{訓練|くんれん}: field camping training (military)\n- {野営|やえい}する: to camp outdoors\n\nSIMILAR WORDS:\n- キャンプ: camping (casual, general-purpose — most common in everyday speech)\n- {露営|ろえい}: bivouacking (literary/military, sleeping outdoors without shelter)\n- {宿営|しゅくえい}: billeting, encampment (military lodging)\n\nREGISTER:\n{野営|やえい} has a more serious, rugged tone compared to the casual loanword キャンプ. It appears more often in scouting, military, and outdoor survival contexts. For recreational camping at a designated campground, キャンプ is more natural.",
+  "notes": "{野営|やえい} means camping outdoors, especially in a rugged or field setting. Composed of {野|や} (field/wild) + {営|えい} (camp/quarters).\n\nCOMMON COLLOCATIONS:\n- {野営|やえい}{地|ち}: campsite\n- {野営|やえい}{場|じょう}: camping ground\n- {野営|やえい}⟦{訓練|くんれん}→訓練：02673_kunren⟧: field camping training (military)\n- {野営|やえい}⟦する→する：00392_suru⟧: to camp outdoors\n\nSIMILAR WORDS:\n- ⟦キャンプ→キャンプ：03837_kyanpu⟧: camping (casual, general-purpose — most common in everyday speech)\n- ⟦{露営|ろえい}→露営：24212_roei⟧: bivouacking (literary/military, sleeping outdoors without shelter)\n- ⟦{宿営|しゅくえい}→宿営：24211_shukuei⟧: billeting, encampment (military lodging)\n\nREGISTER:\n{野営|やえい} has a more serious, rugged tone compared to the casual loanword ⟦キャンプ→キャンプ：03837_kyanpu⟧. It appears more often in scouting, military, and outdoor survival contexts. For recreational camping at a designated campground, ⟦キャンプ→キャンプ：03837_kyanpu⟧ is more natural.",
   "cross_references": [
     {
       "type": "related",
@@ -142,11 +142,32 @@
       "reading": "せつえい",
       "headword": "{設営|せつえい}",
       "label": "setting up (camp, venue)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03837_kyanpu",
+      "reading": "きゃんぷ",
+      "headword": "キャンプ",
+      "label": "camping (casual, general-purpose"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24212_roei",
+      "reading": "ろえい",
+      "headword": "{露営|ろえい}",
+      "label": "bivouacking"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24211_shukuei",
+      "reading": "しゅくえい",
+      "headword": "{宿営|しゅくえい}",
+      "label": "billeting, encampment"
     }
   ],
   "metadata": {
     "created": "2026-03-14T04:25:57Z",
-    "modified": "2026-07-20T13:24:52Z",
+    "modified": "2026-09-02T04:01:45Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

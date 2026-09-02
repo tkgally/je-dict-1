@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "19078_ranzatsuna_ex1",
-      "japanese": "{部屋|へや}が{乱雑|らんざつ}だ。",
+      "japanese": "⟦{部屋|へや}→部屋：00507_heya⟧⟦が→が：00051_ga⟧{乱雑|らんざつ}だ。",
       "english": "The room is messy.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "19078_ranzatsuna_ex2",
-      "japanese": "{机|つくえ}の{上|うえ}が{乱雑|らんざつ}に{散|ち}らかっている。",
+      "japanese": "⟦{机|つくえ}→机：00762_tsukue⟧⟦の→の：09472_no⟧⟦{上|うえ}→上：00682_ue⟧⟦が→が：00051_ga⟧{乱雑|らんざつ}に⟦{散|ち}らかっている→散らかる：04357_chirakaru⟧。",
       "english": "The top of the desk is cluttered and messy.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "19078_ranzatsuna_ex3",
-      "japanese": "{書類|しょるい}が{乱雑|らんざつ}に{積|つ}み{上|あ}げられていて、{必要|ひつよう}なものが{見|み}つからない。",
+      "japanese": "⟦{書類|しょるい}→書類：01103_shorui⟧⟦が→が：00051_ga⟧{乱雑|らんざつ}に⟦{積|つ}み{上|あ}げられていて→積み上げる：07920_tsumiageru⟧、⟦{必要|ひつよう}→必要：00846_hitsuyou⟧なもの⟦が→が：00051_ga⟧⟦{見|み}つからない→見つかる：01173_mitsukaru⟧。",
       "english": "Documents are piled up in a disorderly way, and I can't find what I need.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "{乱雑|らんざつ} is a na-adjective describing physical disorder and untidiness. It applies to spaces and arrangements, not abstract concepts.\n\nFORMS:\n- {乱雑|らんざつ}な + noun: messy ~ (modifier)\n- {乱雑|らんざつ}に: in a messy way (adverb)\n\nCOMMON COLLOCATIONS:\n- {乱雑|らんざつ}な{部屋|へや}: a messy room\n- {乱雑|らんざつ}に{置|お}く: to place haphazardly\n- {乱雑|らんざつ}な{状態|じょうたい}: a disordered state\n- {乱雑|らんざつ}に{積|つ}み{上|あ}げる: to pile up in a mess\n\nSIMILAR WORDS:\n- {散|ち}らかっている: scattered around (more colloquial, everyday)\n- {雑然|ざつぜん}とした: jumbled, cluttered (similar register)\n- きたない: dirty, messy (broader meaning, includes dirtiness)",
+  "notes": "⟦{乱雑|らんざつ}→乱雑：18551_ranzatsu⟧ is a na-adjective describing physical disorder and untidiness. It applies to spaces and arrangements, not abstract concepts.\n\nFORMS:\n- {乱雑|らんざつ}な + noun: messy ~ (modifier)\n- {乱雑|らんざつ}に: in a messy way (adverb)\n\nCOMMON COLLOCATIONS:\n- {乱雑|らんざつ}な⟦{部屋|へや}→部屋：00507_heya⟧: a messy room\n- {乱雑|らんざつ}に⟦{置|お}く→置く：01092_oku⟧: to place haphazardly\n- {乱雑|らんざつ}な⟦{状態|じょうたい}→状態：03345_joutai⟧: a disordered state\n- {乱雑|らんざつ}に⟦{積|つ}み{上|あ}げる→積み上げる：07920_tsumiageru⟧: to pile up in a mess\n\nSIMILAR WORDS:\n- ⟦{散|ち}らかっている→散らかる：04357_chirakaru⟧: scattered around (more colloquial, everyday)\n- ⟦{雑然|ざつぜん}→雑然：09236_zatsuzen⟧とした: jumbled, cluttered (similar register)\n- きたない: dirty, messy (broader meaning, includes dirtiness)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00788_kitanai",
+      "reading": "きたない",
+      "headword": "{汚|きたな}い",
+      "label": "dirty, messy"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +68,6 @@
       ]
     },
     "created": "2026-03-24T09:32:14Z",
-    "modified": "2026-03-30T02:16:27Z"
+    "modified": "2026-09-02T04:01:54Z"
   }
 }

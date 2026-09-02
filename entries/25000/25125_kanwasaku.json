@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25125_kanwasaku_ex1",
-      "japanese": "{渋滞|じゅうたい}{緩和策|かんわさく}を{検討|けんとう}する。",
+      "japanese": "⟦{渋滞|じゅうたい}→渋滞：03279_juutai⟧{緩和策|かんわさく}⟦を→を：00422_wo⟧⟦{検討|けんとう}する→検討する：17455_kentousuru⟧。",
       "english": "To consider measures to ease traffic congestion.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25125_kanwasaku_ex2",
-      "japanese": "{政府|せいふ}は{新|あら}たな{緩和策|かんわさく}を{打|う}ち{出|だ}した。",
+      "japanese": "⟦{政府|せいふ}→政府：03294_seifu⟧⟦は→は：00079_ha⟧⟦{新|あら}た→新た：01697_arata⟧な{緩和策|かんわさく}⟦を→を：00422_wo⟧⟦{打|う}ち{出|だ}した→打ち出す：06790_uchidasu⟧。",
       "english": "The government put forward new easing measures.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25125_kanwasaku_ex3",
-      "japanese": "{物価|ぶっか}{高騰|こうとう}に{対|たい}する{緩和策|かんわさく}として、{補助金|ほじょきん}の{拡大|かくだい}が{提案|ていあん}された。",
+      "japanese": "⟦{物価|ぶっか}→物価：03607_bukka⟧⟦{高騰|こうとう}→高騰：14647_koutou⟧⟦に→に：00314_ni⟧⟦{対|たい}する→対する：02126_taisuru⟧{緩和策|かんわさく}⟦として→として：06802_toshite⟧、⟦{補助金|ほじょきん}→補助金：19222_hojokin⟧⟦の→の：09472_no⟧⟦{拡大|かくだい}→拡大：02553_kakudai⟧⟦が→が：00051_ga⟧⟦{提案|ていあん}→提案：03536_teian⟧⟦された→する：00392_suru⟧。",
       "english": "An expansion of subsidies was proposed as a mitigation measure against soaring prices.",
       "sense_numbers": [
         1
@@ -44,20 +44,37 @@
       "notes": null
     }
   ],
-  "notes": "Combines {緩和|かんわ} (easing, relaxation, mitigation) and {策|さく} (measure, policy, plan). A formal term from news and policy discourse, used for government and organizational responses to problems. Covers a wide range of contexts: economic policy, environmental measures, traffic solutions, and public health responses.\n\nCOMMON COLLOCATIONS:\n- {金融|きんゆう}{緩和策|かんわさく}: monetary easing measures\n- {規制|きせい}{緩和策|かんわさく}: deregulation measures\n- {痛|いた}みの{緩和策|かんわさく}: pain relief measures\n- {緩和策|かんわさく}を{講|こう}じる: to implement mitigation measures\n\nSIMILAR WORDS:\n- {対策|たいさく}: countermeasure — a broader term for any measure taken against a problem\n- {救済策|きゅうさいさく}: relief measure; rescue plan — emphasizes helping those already affected\n- {解決策|かいけつさく}: solution — aims to fully resolve the issue, not just ease it",
+  "notes": "Combines ⟦{緩和|かんわ}→緩和：13846_kanwa⟧ (easing, relaxation, mitigation) and ⟦{策|さく}→策：09997_saku⟧ (measure, policy, plan). A formal term from news and policy discourse, used for government and organizational responses to problems. Covers a wide range of contexts: economic policy, environmental measures, traffic solutions, and public health responses.\n\nCOMMON COLLOCATIONS:\n- ⟦{金融|きんゆう}→金融：02664_kinyuu⟧{緩和策|かんわさく}: monetary easing measures\n- {規制|きせい}{緩和策|かんわさく}: deregulation measures\n- ⟦{痛|いた}み→痛み：01795_itami⟧⟦の→の：09472_no⟧{緩和策|かんわさく}: pain relief measures\n- {緩和策|かんわさく}⟦を→を：00422_wo⟧⟦{講|こう}じる→講じる：27841_koujiru⟧: to implement mitigation measures\n\nSIMILAR WORDS:\n- ⟦{対策|たいさく}→対策：02511_taisaku⟧: countermeasure — a broader term for any measure taken against a problem\n- {救済策|きゅうさいさく}: relief measure; rescue plan — emphasizes helping those already affected\n- ⟦{解決策|かいけつさく}→解決策：19395_kaiketsusaku⟧: solution — aims to fully resolve the issue, not just ease it",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02511_taisaku",
+      "reading": "たいさく",
+      "headword": "{対策|たいさく}",
+      "label": "countermeasure"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19395_kaiketsusaku",
+      "reading": "かいけつさく",
+      "headword": "{解決策|かいけつさく}",
+      "label": "solution"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "politics",
         "economics"
       ]
     },
     "created": "2026-04-23T11:24:54Z",
-    "modified": "2026-08-04T12:59:53Z"
+    "modified": "2026-09-02T04:02:21Z"
   }
 }

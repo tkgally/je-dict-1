@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30164_housouzai_ex1",
-      "japanese": "{包装材|ほうそうざい}を{減|へ}らしたい。",
+      "japanese": "{包装材|ほうそうざい}⟦を→を：00422_wo⟧⟦{減|へ}らしたい→減らす：02414_herasu⟧。",
       "english": "We want to reduce packaging material.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30164_housouzai_ex2",
-      "japanese": "{紙|かみ}の{包装材|ほうそうざい}に{切|き}り{替|か}えた。",
+      "japanese": "⟦{紙|かみ}→紙：00712_kami⟧⟦の→の：09472_no⟧{包装材|ほうそうざい}⟦に→に：00314_ni⟧⟦{切|き}り{替|か}えた→切り替える：04239_kirikaeru⟧。",
       "english": "We switched to paper packaging material.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30164_housouzai_ex3",
-      "japanese": "{使|つか}い{捨|す}ての{包装材|ほうそうざい}が{海|うみ}の{汚染|おせん}につながっていると{指摘|してき}されている。",
+      "japanese": "⟦{使|つか}い{捨|す}て→使い捨て：07665_tsukaisute⟧⟦の→の：09472_no⟧{包装材|ほうそうざい}⟦が→が：00051_ga⟧⟦{海|うみ}→海：00556_umi⟧⟦の→の：09472_no⟧⟦{汚染|おせん}→汚染：02595_osen⟧⟦に→に：00314_ni⟧つながって⟦いる→いる：00495_iru⟧⟦と→と：00512_to⟧⟦{指摘|してき}→指摘：05630_shiteki⟧⟦されている→する：00392_suru⟧。",
       "english": "It has been pointed out that disposable packaging material contributes to ocean pollution.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "{包装|ほうそう} (wrapping, packaging) + {材|ざい} (material). Refers to what the product is presented in on the shelf, rather than what protects it in transit.\n\nCOMMON COLLOCATIONS:\n- {包装材|ほうそうざい}を{減|へ}らす: to reduce packaging material\n- {環境|かんきょう}に{優|やさ}しい{包装材|ほうそうざい}: environmentally friendly packaging\n- {包装材|ほうそうざい}を{回収|かいしゅう}する: to collect packaging for recycling\n\nSIMILAR WORDS:\n- {梱包材|こんぽうざい}: packing material — cushioning and boxes used for shipping\n- {容器|ようき}: container — the vessel itself, such as a bottle or tub",
+  "notes": "⟦{包装|ほうそう}→包装：11932_housou⟧ (wrapping, packaging) + ⟦{材|ざい}→〜材：28347_zai⟧ (material). Refers to what the product is presented in on the shelf, rather than what protects it in transit.\n\nCOMMON COLLOCATIONS:\n- {包装材|ほうそうざい}⟦を→を：00422_wo⟧⟦{減|へ}らす→減らす：02414_herasu⟧: to reduce packaging material\n- ⟦{環境|かんきょう}→環境：00174_kankyou⟧⟦に→に：00314_ni⟧{優|やさ}しい{包装材|ほうそうざい}: environmentally friendly packaging\n- {包装材|ほうそうざい}⟦を→を：00422_wo⟧⟦{回収|かいしゅう}する→回収する：21142_kaishuusuru⟧: to collect packaging for recycling\n\nSIMILAR WORDS:\n- ⟦{梱包材|こんぽうざい}→梱包材：30141_konpouzai⟧: packing material — cushioning and boxes used for shipping\n- ⟦{容器|ようき}→容器：03656_youki⟧: container — the vessel itself, such as a bottle or tub",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "30141_konpouzai",
+      "reading": "こんぽうざい",
+      "headword": "{梱包材|こんぽうざい}",
+      "label": "packing material"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03656_youki",
+      "reading": "ようき",
+      "headword": "{容器|ようき}",
+      "label": "container"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +69,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "tool",
         "shopping"
@@ -63,6 +79,6 @@
       ]
     },
     "created": "2026-07-27T03:18:27Z",
-    "modified": "2026-07-27T03:18:27Z"
+    "modified": "2026-09-02T04:02:39Z"
   }
 }

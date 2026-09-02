@@ -15,40 +15,73 @@
   "examples": [
     {
       "id": "19147_osatsu_ex1",
-      "japanese": "お{札|さつ}で{払|はら}いたい。",
+      "japanese": "お{札|さつ}⟦で→で：00502_de⟧⟦{払|はら}いたい→払う：00535_harau⟧。",
       "english": "I'd like to pay with bills.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19147_osatsu_ex2",
-      "japanese": "{財布|さいふ}にお{札|さつ}が{一枚|いちまい}も{入|はい}っていない。",
+      "japanese": "⟦{財布|さいふ}→財布：00663_saifu⟧⟦に→に：00314_ni⟧お{札|さつ}⟦が→が：00051_ga⟧⟦{一枚|いちまい}→一枚：08889_ichimai⟧⟦も→も：00484_mo⟧⟦{入|はい}っていない→入る：00494_hairu⟧。",
       "english": "There isn't a single bill in my wallet.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19147_osatsu_ex3",
-      "japanese": "この{自動販売機|じどうはんばいき}はお{札|さつ}が{使|つか}えますか。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{自動販売機|じどうはんばいき}→自動販売機：03078_jidouhanbaiki⟧⟦は→は：00079_ha⟧お{札|さつ}⟦が→が：00051_ga⟧⟦{使|つか}えます→使う：00473_tsukau⟧⟦か→か：09473_ka⟧。",
       "english": "Can I use bills in this vending machine?",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "The base form is {札|さつ}, but お{札|さつ} with the polite prefix is much more common in speech. Not to be confused with お{札|ふだ} (a charm or talisman from a shrine or temple). The counter for banknotes is {枚|まい}: {一万円札|いちまんえんさつ}{一枚|いちまい} (one ten-thousand-yen bill). Common collocations: お{札|さつ}を{崩|くず}す (to break a bill into smaller denominations), お{札|さつ}を{数|かぞ}える (to count bills).",
+  "notes": "The base form is ⟦{札|さつ}→札：02153_satsu⟧, but お{札|さつ} with the polite prefix is much more common in speech. Not to be confused with お{札|ふだ} (a charm or talisman from a shrine or temple). The counter for banknotes is ⟦{枚|まい}→〜枚：00650_mai⟧: ⟦{一万円札|いちまんえんさつ}→一万円札：26562_ichimanensatsu⟧⟦{一枚|いちまい}→一枚：08889_ichimai⟧ (one ten-thousand-yen bill). Common collocations: お{札|さつ}⟦を→を：00422_wo⟧⟦{崩|くず}す→崩す：03919_kuzusu⟧ (to break a bill into smaller denominations), お{札|さつ}⟦を→を：00422_wo⟧⟦{数|かぞ}える→数える：01926_kazoeru⟧ (to count bills).",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "27344_endama",
+      "reading": "えんだま",
+      "headword": "{円玉|えんだま}",
+      "label": "yen coin (used after a denomination, e.g. 100{円玉|えんだま} \"100-yen coin\")"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27588_nipponginkouken",
+      "reading": "にっぽんぎんこうけん",
+      "headword": "{日本銀行券|にっぽんぎんこうけん}",
+      "label": "Bank of Japan note"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27824_shinsatsu",
+      "reading": "しんさつ",
+      "headword": "{新札|しんさつ}",
+      "label": "new banknote"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     },
     "created": "2026-03-24T11:20:57Z",
-    "modified": "2026-03-24T11:20:57Z"
+    "modified": "2026-09-02T04:01:54Z"
   }
 }

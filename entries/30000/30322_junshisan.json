@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30322_junshisan_ex1",
-      "japanese": "{純資産|じゅんしさん}が{減|へ}った。",
+      "japanese": "{純資産|じゅんしさん}⟦が→が：00051_ga⟧⟦{減|へ}った→減る：01985_heru⟧。",
       "english": "Net assets decreased.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30322_junshisan_ex2",
-      "japanese": "この{会社|かいしゃ}の{純資産|じゅんしさん}は{十億円|じゅうおくえん}を{超|こ}えている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦の→の：09472_no⟧{純資産|じゅんしさん}⟦は→は：00079_ha⟧{十億円|じゅうおくえん}⟦を→を：00422_wo⟧⟦{超|こ}えている→超える：01942_koeru⟧。",
       "english": "This company's net assets exceed one billion yen.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30322_junshisan_ex3",
-      "japanese": "{総資産|そうしさん}から{負債|ふさい}を{差|さ}し{引|ひ}いたものが{純資産|じゅんしさん}である。",
+      "japanese": "⟦{総資産|そうしさん}→総資産：30341_soushisan⟧⟦から→から：00504_kara⟧⟦{負債|ふさい}→負債：14950_fusai⟧⟦を→を：00422_wo⟧⟦{差|さ}し{引|ひ}いた→差し引く：06701_sashihiku⟧もの⟦が→が：00051_ga⟧{純資産|じゅんしさん}⟦である→である：09855_dearu⟧。",
       "english": "Net assets are what remains after subtracting liabilities from total assets.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Formed from {純|じゅん} (pure, net) plus {資産|しさん} (assets). Since the 2006 revision of Japanese accounting standards, {純資産|じゅんしさん} is the official balance-sheet heading that replaced the older {資本|しほん}.\n\nCOMMON COLLOCATIONS:\n- {純資産|じゅんしさん}の{部|ぶ}: the net assets section (of a balance sheet)\n- {純資産|じゅんしさん}{総額|そうがく}: total net assets\n- {一株|ひとかぶ}{当|あ}たり{純資産|じゅんしさん}: net assets per share\n\nSIMILAR WORDS:\n- {自己資本|じこしほん}: own capital, equity — nearly synonymous, but excludes some minority-interest items\n- {総資産|そうしさん}: total assets — the gross figure before liabilities are subtracted",
+  "notes": "Formed from ⟦{純|じゅん}→純〜：28361_jun⟧ (pure, net) plus ⟦{資産|しさん}→資産：15655_shisan⟧ (assets). Since the 2006 revision of Japanese accounting standards, {純資産|じゅんしさん} is the official balance-sheet heading that replaced the older ⟦{資本|しほん}→資本：03197_shihon⟧.\n\nCOMMON COLLOCATIONS:\n- {純資産|じゅんしさん}⟦の→の：09472_no⟧⟦{部|ぶ}→〜部：00440_bu⟧: the net assets section (of a balance sheet)\n- {純資産|じゅんしさん}⟦{総額|そうがく}→総額：05472_sougaku⟧: total net assets\n- {一株|ひとかぶ}⟦{当|あ}たり→当たり：01919_atari⟧{純資産|じゅんしさん}: net assets per share\n\nSIMILAR WORDS:\n- ⟦{自己資本|じこしほん}→自己資本：30309_jikoshihon⟧: own capital, equity — nearly synonymous, but excludes some minority-interest items\n- ⟦{総資産|そうしさん}→総資産：30341_soushisan⟧: total assets — the gross figure before liabilities are subtracted",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "30309_jikoshihon",
+      "reading": "じこしほん",
+      "headword": "自己資本",
+      "label": "own capital, equity"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30341_soushisan",
+      "reading": "そうしさん",
+      "headword": "{総資産|そうしさん}",
+      "label": "total assets"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +69,7 @@
         "noun"
       ],
       "formality": "formal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "finance",
         "business"
@@ -63,6 +79,6 @@
       ]
     },
     "created": "2026-08-02T09:20:18Z",
-    "modified": "2026-08-02T09:20:18Z"
+    "modified": "2026-09-02T04:02:39Z"
   }
 }

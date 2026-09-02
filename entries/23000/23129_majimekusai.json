@@ -3,7 +3,7 @@
   "headword": "{真面目|まじめ}くさい",
   "reading": "まじめくさい",
   "romaji": "majimekusai",
-  "part_of_speech": "adjective",
+  "part_of_speech": "i-adjective",
   "gloss": "overly serious; excessively earnest; stiff",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "23129_majimekusai_ex1",
-      "japanese": "{真面目|まじめ}くさい{顔|かお}をしている。",
+      "japanese": "{真面目|まじめ}くさい⟦{顔|かお}→顔：00558_kao⟧⟦を→を：00422_wo⟧⟦している→する：00392_suru⟧。",
       "english": "He has an overly serious look on his face.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "23129_majimekusai_ex2",
-      "japanese": "そんな{真面目|まじめ}くさい{話|はなし}はやめよう。",
+      "japanese": "⟦そんな→そんな：01645_sonna⟧{真面目|まじめ}くさい⟦{話|はなし}→話：01496_hanashi⟧はやめよう。",
       "english": "Let's stop with such a stiff conversation.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "23129_majimekusai_ex3",
-      "japanese": "{彼|かれ}はいつも{真面目|まじめ}くさい{態度|たいど}で、{冗談|じょうだん}が{通|つう}じない。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦いつも→いつも：00599_itsumo⟧{真面目|まじめ}くさい⟦{態度|たいど}→態度：03396_taido⟧⟦で→で：00502_de⟧、⟦{冗談|じょうだん}→冗談：03347_joudan⟧⟦が→が：00051_ga⟧⟦{通|つう}じない→通じる：02289_tsuujiru⟧。",
       "english": "He always has such a stiff attitude that jokes don't get through to him.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {真面目|まじめ} (serious, earnest) and the suffix くさい (smelling of; having an unpleasant quality of). The くさい suffix adds a pejorative nuance, turning the positive quality of being serious into something excessive and off-putting. Note that {真面目|まじめ} itself is generally positive, while {真面目|まじめ}くさい is always negative or teasing.\n\nCOMMON COLLOCATIONS:\n- {真面目|まじめ}くさい{顔|かお}: overly serious face\n- {真面目|まじめ}くさい{態度|たいど}: stiff attitude\n- {真面目|まじめ}くさい{話|はなし}: stuffy conversation\n\nSIMILAR WORDS:\n- {堅|かた}い: stiff, rigid — describes a formal or inflexible person; less pejorative\n- {真面目|まじめ}: serious, earnest — neutral to positive in tone\n- {気取|きど}った: affected, pretentious — putting on airs more broadly, not just about seriousness",
+  "notes": "Composed of ⟦{真面目|まじめ}→真面目：01206_majime⟧ (serious, earnest) and the suffix くさい (smelling of; having an unpleasant quality of). The くさい suffix adds a pejorative nuance, turning the positive quality of being serious into something excessive and off-putting. Note that ⟦{真面目|まじめ}→真面目：01206_majime⟧ itself is generally positive, while {真面目|まじめ}くさい is always negative or teasing.\n\nCOMMON COLLOCATIONS:\n- {真面目|まじめ}くさい⟦{顔|かお}→顔：00558_kao⟧: overly serious face\n- {真面目|まじめ}くさい⟦{態度|たいど}→態度：03396_taido⟧: stiff attitude\n- {真面目|まじめ}くさい⟦{話|はなし}→話：01496_hanashi⟧: stuffy conversation\n\nSIMILAR WORDS:\n- ⟦{堅|かた}い→堅い：18753_katai⟧: stiff, rigid — describes a formal or inflexible person; less pejorative\n- ⟦{真面目|まじめ}→真面目：01206_majime⟧: serious, earnest — neutral to positive in tone\n- {気取|きど}った: affected, pretentious — putting on airs more broadly, not just about seriousness",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18753_katai",
+      "reading": "かたい",
+      "headword": "{堅|かた}い",
+      "label": "stiff, rigid"
+    },
+    {
+      "type": "related",
+      "target_id": "01206_majime",
+      "reading": "まじめ",
+      "headword": "{真面目|まじめ}",
+      "label": "serious, earnest"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,7 +75,7 @@
       "politeness": "plain"
     },
     "created": "2026-04-08T19:25:53Z",
-    "modified": "2026-04-08T19:25:53Z"
+    "modified": "2026-09-02T04:02:11Z"
   },
   "conjugation": {
     "type": "i-adjective",

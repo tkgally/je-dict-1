@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "07622_shoudou_ex1",
-      "japanese": "{衝動|しょうどう}を{抑|おさ}える。",
+      "japanese": "{衝動|しょうどう}⟦を→を：00422_wo⟧⟦{抑|おさ}える→抑える：12806_osaeru⟧。",
       "english": "To suppress an impulse.",
       "has_audio": false,
       "sense_numbers": [
@@ -113,7 +113,7 @@
     },
     {
       "id": "07622_shoudou_ex2",
-      "japanese": "{衝動|しょうどう}{買|が}いしてしまった。",
+      "japanese": "{衝動|しょうどう}{買|が}い⟦して→する：00392_suru⟧しまった。",
       "english": "I ended up making an impulse purchase.",
       "has_audio": false,
       "sense_numbers": [
@@ -122,7 +122,7 @@
     },
     {
       "id": "07622_shoudou_ex3",
-      "japanese": "{突然|とつぜん}、{泣|な}きたいという{衝動|しょうどう}に{駆|か}られた。",
+      "japanese": "⟦{突然|とつぜん}→突然：00409_totsuzen⟧、⟦{泣|な}きたい→泣く：00655_naku⟧⟦という→という：09577_toiu⟧{衝動|しょうどう}⟦に→に：00314_ni⟧⟦{駆|か}られた→駆る：14715_karu⟧。",
       "english": "I was suddenly seized by an impulse to cry.",
       "has_audio": false,
       "sense_numbers": [
@@ -130,10 +130,19 @@
       ]
     }
   ],
-  "notes": "COMMON COLLOCATIONS:\n・{衝動|しょうどう}を{抑|おさ}える - to suppress an impulse\n・{衝動|しょうどう}に{駆|か}られる - to be seized by an impulse\n・{衝動|しょうどう}に{負|ま}ける - to give in to an impulse\n・{衝動|しょうどう}{買|が}い - impulse buying\n・{衝動|しょうどう}{的|てき} - impulsive\n\nUSAGE NOTES:\nOften used in compound expressions:\n・{衝動|しょうどう}{買|が}い - impulse purchase (very common expression)\n・{衝動|しょうどう}{殺人|さつじん} - impulsive killing (legal term)\n\nThe adjectival form {衝動|しょうどう}{的|てき}（な） means \"impulsive.\"",
+  "notes": "COMMON COLLOCATIONS:\n- {衝動|しょうどう}⟦を→を：00422_wo⟧⟦{抑|おさ}える→抑える：12806_osaeru⟧ - to suppress an impulse\n- {衝動|しょうどう}⟦に→に：00314_ni⟧⟦{駆|か}られる→駆る：14715_karu⟧ - to be seized by an impulse\n- {衝動|しょうどう}⟦に→に：00314_ni⟧⟦{負|ま}ける→負ける：01134_makeru⟧ - to give in to an impulse\n- {衝動|しょうどう}{買|が}い - impulse buying\n- {衝動|しょうどう}{的|てき} - impulsive\n\nUSAGE:\nOften used in compound expressions:\n- {衝動|しょうどう}{買|が}い - impulse purchase (very common expression)\n- {衝動|しょうどう}⟦{殺人|さつじん}→殺人：13236_satsujin⟧ - impulsive killing (legal term)\n\nThe adjectival form {衝動|しょうどう}{的|てき}（な） means \"impulsive.\"",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19970_hazumi",
+      "reading": "はずみ",
+      "headword": "{弾|はず}み",
+      "label": "momentum"
+    }
+  ],
   "metadata": {
     "created": "2026-01-20T13:21:59Z",
-    "modified": "2026-08-11T09:37:41Z",
+    "modified": "2026-09-02T04:01:12Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -142,6 +151,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "emotion",
         "cognition"

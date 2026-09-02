@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "20701_rokata_ex1",
-      "japanese": "{路肩|ろかた}に{車|くるま}を{止|と}めた。",
+      "japanese": "{路肩|ろかた}⟦に→に：00314_ni⟧⟦{車|くるま}→車：00516_kuruma⟧⟦を→を：00422_wo⟧⟦{止|と}めた→止める：00678_tomeru⟧。",
       "english": "I pulled over to the road shoulder.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "20701_rokata_ex2",
-      "japanese": "{故障|こしょう}した{車|くるま}が{路肩|ろかた}に{停|と}まっている。",
+      "japanese": "⟦{故障|こしょう}した→故障する：01826_koshousuru⟧⟦{車|くるま}→車：00516_kuruma⟧⟦が→が：00051_ga⟧{路肩|ろかた}⟦に→に：00314_ni⟧{停|と}まって⟦いる→いる：00495_iru⟧。",
       "english": "A broken-down car is stopped on the road shoulder.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "20701_rokata_ex3",
-      "japanese": "{高速道路|こうそくどうろ}の{路肩|ろかた}に{駐車|ちゅうしゃ}するのは{大変|たいへん}{危険|きけん}なので、{緊急時|きんきゅうじ}を{除|のぞ}いてやめてください。",
+      "japanese": "⟦{高速道路|こうそくどうろ}→高速道路：09242_kousokudouro⟧⟦の→の：09472_no⟧{路肩|ろかた}⟦に→に：00314_ni⟧⟦{駐車|ちゅうしゃ}する→駐車する：22431_chuushasuru⟧⟦の→の：09472_no⟧⟦は→は：00079_ha⟧⟦{大変|たいへん}→大変：00594_taihen⟧⟦{危険|きけん}→危険：01141_kiken⟧な⟦の→の：09472_no⟧で、{緊急時|きんきゅうじ}⟦を→を：00422_wo⟧⟦{除|のぞ}いて→除く：02391_nozoku⟧⟦やめて→やめる：00909_yameru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Parking on the highway shoulder is extremely dangerous, so please don't do it except in emergencies.",
       "sense_numbers": [
         1
@@ -44,8 +44,52 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {路|ろ} (road) + {肩|かた} (shoulder). The metaphor of 'shoulder' for the edge of a road exists in both Japanese and English.\n\nCOMMON COLLOCATIONS:\n- {路肩|ろかた}に{止|と}める: to pull over to the shoulder\n- {路肩|ろかた}に{寄|よ}せる: to move to the shoulder\n- {路肩|ろかた}{走行|そうこう}: driving on the shoulder (illegal on highways)\n- {路肩|ろかた}{駐車|ちゅうしゃ}: parking on the shoulder\n\nSIMILAR WORDS:\n- {歩道|ほどう}: sidewalk — a separate path for pedestrians\n- {車道|しゃどう}: roadway — the portion of the road for vehicles\n- {側道|そくどう}: side road — a narrow road running parallel to a main road\n\nNOTE:\nOn Japanese highways ({高速道路|こうそくどうろ}), driving or stopping on the {路肩|ろかた} is prohibited except in genuine emergencies. {路肩|ろかた}{走行|そうこう} (shoulder driving) during traffic jams is a traffic violation.",
+  "notes": "Composed of {路|ろ} (road) + ⟦{肩|かた}→肩：02192_kata⟧ (shoulder). The metaphor of 'shoulder' for the edge of a road exists in both Japanese and English.\n\nCOMMON COLLOCATIONS:\n- {路肩|ろかた}⟦に→に：00314_ni⟧⟦{止|と}める→止める：00678_tomeru⟧: to pull over to the shoulder\n- {路肩|ろかた}⟦に→に：00314_ni⟧⟦{寄|よ}せる→寄せる：02329_yoseru⟧: to move to the shoulder\n- {路肩|ろかた}⟦{走行|そうこう}→走行：14260_soukou⟧: driving on the shoulder (illegal on highways)\n- {路肩|ろかた}⟦{駐車|ちゅうしゃ}→駐車：01466_chuusha⟧: parking on the shoulder\n\nSIMILAR WORDS:\n- ⟦{歩道|ほどう}→歩道：03723_hodou⟧: sidewalk — a separate path for pedestrians\n- ⟦{車道|しゃどう}→車道：03066_shadou⟧: roadway — the portion of the road for vehicles\n- {側道|そくどう}: side road — a narrow road running parallel to a main road\n\nUSAGE:\nOn Japanese highways (⟦{高速道路|こうそくどうろ}→高速道路：09242_kousokudouro⟧), driving or stopping on the {路肩|ろかた} is prohibited except in genuine emergencies. {路肩|ろかた}⟦{走行|そうこう}→走行：14260_soukou⟧ (shoulder driving) during traffic jams is a traffic violation.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03723_hodou",
+      "reading": "ほどう",
+      "headword": "{歩道|ほどう}",
+      "label": "sidewalk"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03066_shadou",
+      "reading": "しゃどう",
+      "headword": "{車道|しゃどう}",
+      "label": "roadway"
+    },
+    {
+      "type": "related",
+      "target_id": "08401_enseki",
+      "reading": "えんせき",
+      "headword": "{縁石|えんせき}",
+      "label": "curb"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24736_soukoushasen",
+      "reading": "そうこうしゃせん",
+      "headword": "{走行車線|そうこうしゃせん}",
+      "label": "driving lane"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28126_michibata",
+      "reading": "みちばた",
+      "headword": "{道端|みちばた}",
+      "label": "roadside"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30100_rosoku",
+      "reading": "ろそく",
+      "headword": "{路側|ろそく}",
+      "label": "roadside"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +104,6 @@
       ]
     },
     "created": "2026-03-30T07:51:53Z",
-    "modified": "2026-07-28T09:35:50Z"
+    "modified": "2026-09-02T04:02:00Z"
   }
 }

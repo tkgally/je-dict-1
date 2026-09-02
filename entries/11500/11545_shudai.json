@@ -14,42 +14,96 @@
   "examples": [
     {
       "id": "11545_shudai_ex1",
-      "japanese": "{論文|ろんぶん}の{主題|しゅだい}を{決|き}めた。",
+      "japanese": "⟦{論文|ろんぶん}→論文：03787_ronbun⟧⟦の→の：09472_no⟧{主題|しゅだい}⟦を→を：00422_wo⟧⟦{決|き}めた→決める：00858_kimeru⟧。",
       "english": "I decided on the topic of my thesis.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11545_shudai_ex2",
-      "japanese": "この{映画|えいが}の{主題|しゅだい}は{家族|かぞく}の{絆|きずな}だ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{映画|えいが}→映画：02273_eiga⟧⟦の→の：09472_no⟧{主題|しゅだい}⟦は→は：00079_ha⟧⟦{家族|かぞく}→家族：00552_kazoku⟧⟦の→の：09472_no⟧⟦{絆|きずな}→絆：02509_kizuna⟧だ。",
       "english": "The theme of this movie is family bonds.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11545_shudai_ex3",
-      "japanese": "{会議|かいぎ}の{主題|しゅだい}から{外|はず}れないように{発言|はつげん}してください。",
+      "japanese": "⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦の→の：09472_no⟧{主題|しゅだい}⟦から→から：00504_kara⟧⟦{外|はず}れない→外れる：02395_hazureru⟧よう⟦に→に：00314_ni⟧⟦{発言|はつげん}→発言：05099_hatsugen⟧⟦して→する：00392_suru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please keep your remarks on the subject of the meeting.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{主題|しゅだい} refers to the central subject or theme of a work, discussion, or research. It is more formal and literary than テーマ.\n\nCOMMON COLLOCATIONS:\n- {主題|しゅだい}{歌|か}: theme song\n- {主題|しゅだい}{曲|きょく}: theme music\n- {主題|しゅだい}を{決|き}める: to decide on a theme\n- {主題|しゅだい}から{外|はず}れる: to stray from the topic\n\nSIMILAR WORDS:\n- テーマ: theme (loanword, used in everyday conversation)\n- {題名|だいめい}: title (of a book, movie, etc.)\n- {話題|わだい}: topic of conversation (more casual)\n- {議題|ぎだい}: agenda item (for meetings)\n\nUSAGE:\nIn everyday speech, テーマ is far more common. {主題|しゅだい} appears in academic writing, literary criticism, and formal discussions. The compound {主題|しゅだい}{歌|か}/{主題|しゅだい}{曲|きょく} (theme song/music) is the most familiar use for most speakers.",
-  "cross_references": [],
+  "notes": "{主題|しゅだい} refers to the central subject or theme of a work, discussion, or research. It is more formal and literary than ⟦テーマ→テーマ：17684_teema⟧.\n\nCOMMON COLLOCATIONS:\n- {主題|しゅだい}{歌|か}: theme song\n- {主題|しゅだい}⟦{曲|きょく}→曲：09881_kyoku⟧: theme music\n- {主題|しゅだい}⟦を→を：00422_wo⟧⟦{決|き}める→決める：00858_kimeru⟧: to decide on a theme\n- {主題|しゅだい}⟦から→から：00504_kara⟧⟦{外|はず}れる→外れる：02395_hazureru⟧: to stray from the topic\n\nSIMILAR WORDS:\n- ⟦テーマ→テーマ：17684_teema⟧: theme (loanword, used in everyday conversation)\n- ⟦{題名|だいめい}→題名：03421_daimei⟧: title (of a book, movie, etc.)\n- ⟦{話題|わだい}→話題：03793_wadai⟧: topic of conversation (more casual)\n- ⟦{議題|ぎだい}→議題：11330_gidai⟧: agenda item (for meetings)\n\nUSAGE:\nIn everyday speech, ⟦テーマ→テーマ：17684_teema⟧ is far more common. {主題|しゅだい} appears in academic writing, literary criticism, and formal discussions. The compound {主題|しゅだい}{歌|か}/{主題|しゅだい}⟦{曲|きょく}→曲：09881_kyoku⟧ (theme song/music) is the most familiar use for most speakers.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17684_teema",
+      "reading": "てーま",
+      "headword": "テーマ",
+      "label": "theme"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03421_daimei",
+      "reading": "だいめい",
+      "headword": "{題名|だいめい}",
+      "label": "title"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03793_wadai",
+      "reading": "わだい",
+      "headword": "{話題|わだい}",
+      "label": "topic of conversation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11330_gidai",
+      "reading": "ぎだい",
+      "headword": "{議題|ぎだい}",
+      "label": "agenda item"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15376_gadai",
+      "reading": "がだい",
+      "headword": "{画題|がだい}",
+      "label": "subject of a painting"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21085_honsuji",
+      "reading": "ほんすじ",
+      "headword": "{本筋|ほんすじ}",
+      "label": "main plot"
+    }
+  ],
   "metadata": {
     "created": "2026-02-17T13:11:50Z",
-    "modified": "2026-04-05T00:56:46Z",
+    "modified": "2026-09-02T04:01:25Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["communication", "education"]
+      "semantic": [
+        "communication",
+        "education"
+      ]
     }
   }
 }

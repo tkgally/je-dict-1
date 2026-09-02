@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21606_norikosu_ex1",
-      "japanese": "{駅|えき}を{乗|の}り{越|こ}した。",
+      "japanese": "⟦{駅|えき}→駅：02180_eki⟧⟦を→を：00422_wo⟧{乗|の}り{越|こ}した。",
       "english": "I rode past my station.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21606_norikosu_ex2",
-      "japanese": "{寝|ね}てしまって{終点|しゅうてん}まで{乗|の}り{越|こ}した。",
+      "japanese": "⟦{寝|ね}て→寝る：00470_neru⟧しまって⟦{終点|しゅうてん}→終点：05457_shuuten⟧⟦まで→まで：00490_made⟧{乗|の}り{越|こ}した。",
       "english": "I fell asleep and rode all the way to the last stop.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21606_norikosu_ex3",
-      "japanese": "{乗|の}り{越|こ}した{場合|ばあい}は、{精算|せいさん}{機|き}で{差額|さがく}を{払|はら}ってください。",
+      "japanese": "{乗|の}り{越|こ}した⟦{場合|ばあい}→場合：01704_baai⟧⟦は→は：00079_ha⟧、⟦{精算|せいさん}{機|き}→精算機：10189_seisanki⟧⟦で→で：00502_de⟧⟦{差額|さがく}→差額：15775_sagaku⟧⟦を→を：00422_wo⟧⟦{払|はら}って→払う：00535_harau⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "If you ride past your stop, please pay the fare difference at the adjustment machine.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "A practical word for everyday train and bus travel in Japan. Very commonly experienced by commuters who fall asleep on the train.\n\nCOMMON COLLOCATIONS:\n- {乗|の}り{越|こ}し{精算|せいさん}: fare adjustment (for riding past your stop)\n- {乗|の}り{越|こ}し{精算|せいさん}{機|き}: fare adjustment machine\n- {一駅|ひとえき}{乗|の}り{越|こ}す: to ride one station past\n- {うっかり}{乗|の}り{越|こ}す: to accidentally ride past one's stop\n\nSIMILAR WORDS:\n- {乗|の}り{過|す}ごす: to ride past — very similar meaning, slightly more common in speech\n- {乗|の}り{越|こ}える: to ride over/surmount — different meaning (to overcome an obstacle)\n\nCULTURAL NOTE:\nJapanese train stations have {精算|せいさん}{機|き} (fare adjustment machines) or {精算|せいさん}{窓口|まどぐち} (adjustment counters) specifically for passengers who ride past their intended stop.",
+  "notes": "A practical word for everyday train and bus travel in Japan. Very commonly experienced by commuters who fall asleep on the train.\n\nCOMMON COLLOCATIONS:\n- {乗|の}り{越|こ}し⟦{精算|せいさん}→精算：10899_seisan⟧: fare adjustment (for riding past your stop)\n- {乗|の}り{越|こ}し⟦{精算|せいさん}{機|き}→精算機：10189_seisanki⟧: fare adjustment machine\n- {一駅|ひとえき}{乗|の}り{越|こ}す: to ride one station past\n- ⟦うっかり→うっかり：01863_ukkari⟧{乗|の}り{越|こ}す: to accidentally ride past one's stop\n\nSIMILAR WORDS:\n- ⟦{乗|の}り{過|す}ごす→乗り過ごす：07928_norisugosu⟧: to ride past — very similar meaning, slightly more common in speech\n- ⟦{乗|の}り{越|こ}える→乗り越える：04620_norikoeru⟧: to ride over/surmount — different meaning (to overcome an obstacle)\n\nCULTURAL NOTE:\nJapanese train stations have ⟦{精算|せいさん}{機|き}→精算機：10189_seisanki⟧ (fare adjustment machines) or ⟦{精算|せいさん}→精算：10899_seisan⟧⟦{窓口|まどぐち}→窓口：03154_madoguchi⟧ (adjustment counters) specifically for passengers who ride past their intended stop.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07928_norisugosu",
+      "reading": "のりすごす",
+      "headword": "{乗|の}り{過|す}ごす",
+      "label": "to ride past"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04620_norikoeru",
+      "reading": "のりこえる",
+      "headword": "{乗|の}り{越|こ}える",
+      "label": "to ride over/surmount"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -57,10 +73,11 @@
       "semantic": [
         "transportation"
       ],
-      "verb_class": "godan-su"
+      "verb_class": "godan-su",
+      "transitivity": "transitive"
     },
     "created": "2026-04-02T18:11:48Z",
-    "modified": "2026-04-02T18:11:48Z"
+    "modified": "2026-09-02T04:02:04Z"
   },
   "conjugation": {
     "type": "godan",

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30129_ichimatsumoyou_ex1",
-      "japanese": "{市松模様|いちまつもよう}の{床|ゆか}。",
+      "japanese": "{市松模様|いちまつもよう}⟦の→の：09472_no⟧⟦{床|ゆか}→床：03652_yuka⟧。",
       "english": "A checkerboard-patterned floor.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30129_ichimatsumoyou_ex2",
-      "japanese": "{市松模様|いちまつもよう}の{着物|きもの}を{着|き}た{女性|じょせい}が{歩|ある}いていた。",
+      "japanese": "{市松模様|いちまつもよう}⟦の→の：09472_no⟧⟦{着物|きもの}→着物：01309_kimono⟧⟦を→を：00422_wo⟧⟦{着|き}た→着る：00541_kiru⟧⟦{女性|じょせい}→女性：01617_josei⟧⟦が→が：00051_ga⟧⟦{歩|ある}いていた→歩く：00538_aruku⟧。",
       "english": "A woman in a checkered kimono was walking by.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30129_ichimatsumoyou_ex3",
-      "japanese": "{東京|とうきょう}オリンピックのエンブレムには{藍色|あいいろ}の{市松模様|いちまつもよう}が{使|つか}われ、{日本|にほん}らしい{意匠|いしょう}だと{話題|わだい}になった。",
+      "japanese": "⟦{東京|とうきょう}→東京：09564_toukyou⟧⟦オリンピック→オリンピック：09899_orinpikku⟧⟦の→の：09472_no⟧エンブレム⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{藍色|あいいろ}→藍色：15519_aiiro⟧⟦の→の：09472_no⟧{市松模様|いちまつもよう}⟦が→が：00051_ga⟧⟦{使|つか}われ→使う：00473_tsukau⟧、⟦{日本|にほん}→日本：03876_nihon⟧⟦らしい→らしい：09502_rashii⟧⟦{意匠|いしょう}→意匠：12689_ishou⟧だ⟦と→と：00512_to⟧⟦{話題|わだい}→話題：03793_wadai⟧になった。",
       "english": "The Tokyo Olympics emblem used an indigo checkerboard pattern, and it drew attention as a distinctly Japanese design.",
       "sense_numbers": [
         1
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "Formed from {市松|いちまつ} + {模様|もよう} (pattern). The name comes from the Edo-period kabuki actor Sanogawa Ichimatsu, who wore hakama in this pattern on stage and made it fashionable.\n\nCOMMON COLLOCATIONS:\n- {市松模様|いちまつもよう}の{布|ぬの}: checkered cloth\n- {市松模様|いちまつもよう}に{並|なら}べる: to arrange in a checkerboard pattern\n- {白黒|しろくろ}の{市松模様|いちまつもよう}: a black-and-white checkerboard pattern\n\nSIMILAR WORDS:\n- チェック: check, plaid — the loanword, used mainly for woven cloth patterns with crossing lines\n- {縞模様|しまもよう}: stripe pattern — parallel lines rather than alternating squares",
+  "notes": "Formed from {市松|いちまつ} + ⟦{模様|もよう}→模様：03635_moyou⟧ (pattern). The name comes from the Edo-period kabuki actor Sanogawa Ichimatsu, who wore hakama in this pattern on stage and made it fashionable.\n\nCOMMON COLLOCATIONS:\n- {市松模様|いちまつもよう}⟦の→の：09472_no⟧⟦{布|ぬの}→布：01489_nuno⟧: checkered cloth\n- {市松模様|いちまつもよう}⟦に→に：00314_ni⟧⟦{並|なら}べる→並べる：01091_naraberu⟧: to arrange in a checkerboard pattern\n- ⟦{白黒|しろくろ}→白黒：13642_shirokuro⟧⟦の→の：09472_no⟧{市松模様|いちまつもよう}: a black-and-white checkerboard pattern\n\nSIMILAR WORDS:\n- ⟦チェック→チェック：03000_chekku⟧: check, plaid — the loanword, used mainly for woven cloth patterns with crossing lines\n- ⟦{縞模様|しまもよう}→縞模様：26237_shimamoyou⟧: stripe pattern — parallel lines rather than alternating squares",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03000_chekku",
+      "reading": "ちぇっく",
+      "headword": "チェック",
+      "label": "check, plaid"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26237_shimamoyou",
+      "reading": "しまもよう",
+      "headword": "{縞模様|しまもよう}",
+      "label": "stripe pattern"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26266_koushimoyou",
+      "reading": "こうしもよう",
+      "headword": "{格子模様|こうしもよう}",
+      "label": "checkered pattern"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30122_koushijima",
+      "reading": "こうしじま",
+      "headword": "{格子縞|こうしじま}",
+      "label": "check pattern"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +83,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "art",
         "culture"
@@ -61,6 +91,6 @@
       "domain": []
     },
     "created": "2026-07-26T12:19:17Z",
-    "modified": "2026-07-26T12:19:17Z"
+    "modified": "2026-09-02T04:02:38Z"
   }
 }

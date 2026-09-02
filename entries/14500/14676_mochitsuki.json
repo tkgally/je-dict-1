@@ -15,41 +15,67 @@
   "examples": [
     {
       "id": "14676_mochitsuki_ex1",
-      "japanese": "{年末|ねんまつ}に{餅|もち}つきをした。",
+      "japanese": "⟦{年末|ねんまつ}→年末：17688_nenmatsu⟧⟦に→に：00314_ni⟧{餅|もち}つき⟦を→を：00422_wo⟧⟦した→する：00392_suru⟧。",
       "english": "We did mochi pounding at the end of the year.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14676_mochitsuki_ex2",
-      "japanese": "{町内|ちょうない}{会|かい}で{餅|もち}つき{大会|たいかい}が{開|ひら}かれた。",
+      "japanese": "⟦{町内|ちょうない}{会|かい}→町内会：10193_chounaikai⟧⟦で→で：00502_de⟧{餅|もち}つき⟦{大会|たいかい}→大会：03386_taikai⟧⟦が→が：00051_ga⟧⟦{開|ひら}かれた→開く：01979_hiraku⟧。",
       "english": "A mochi-pounding event was held by the neighborhood association.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14676_mochitsuki_ex3",
-      "japanese": "{子供|こども}たちは{初|はじ}めての{餅|もち}つき{体験|たいけん}に{大|おお}はしゃぎだった。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧たち⟦は→は：00079_ha⟧⟦{初|はじ}めて→初めて：02932_hajimete⟧⟦の→の：09472_no⟧{餅|もち}つき⟦{体験|たいけん}→体験：11443_taiken⟧⟦に→に：00314_ni⟧{大|おお}はしゃぎだった。",
       "english": "The children were thrilled by their first mochi-pounding experience.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "A traditional New Year preparation activity. Steamed {餅米|もちごめ} (glutinous rice) is placed in an {臼|うす} (mortar) and pounded with a {杵|きね} (wooden mallet). One person pounds while another turns and wets the rice — this teamwork is called {合|あ}いの{手|て}.\n\nCOMMON COLLOCATIONS:\n- {餅|もち}つきをする (to pound mochi)\n- {餅|もち}つき{大会|たいかい} (mochi-pounding event)\n- {餅|もち}つき{体験|たいけん} (mochi-pounding experience)\n\nCULTURAL NOTE:\nTraditionally done around December 28 or 30 for New Year preparations. Pounding on the 29th is avoided because 29 can be read as {苦|く} (suffering). Community {餅|もち}つき events remain popular, especially for children.",
-  "cross_references": [],
+  "notes": "A traditional New Year preparation activity. Steamed {餅米|もちごめ} (glutinous rice) is placed in an ⟦{臼|うす}→臼：26038_usu⟧ (mortar) and pounded with a ⟦{杵|きね}→杵：26037_kine⟧ (wooden mallet). One person pounds while another turns and wets the rice — this teamwork is called {合|あ}いの{手|て}.\n\nCOMMON COLLOCATIONS:\n- {餅|もち}つき⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧ (to pound mochi)\n- {餅|もち}つき⟦{大会|たいかい}→大会：03386_taikai⟧ (mochi-pounding event)\n- {餅|もち}つき⟦{体験|たいけん}→体験：11443_taiken⟧ (mochi-pounding experience)\n\nCULTURAL NOTE:\nTraditionally done around December 28 or 30 for New Year preparations. Pounding on the 29th is avoided because 29 can be read as {苦|く} (suffering). Community {餅|もち}つき events remain popular, especially for children.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "26037_kine",
+      "reading": "きね",
+      "headword": "{杵|きね}",
+      "label": "wooden mallet"
+    },
+    {
+      "type": "related",
+      "target_id": "26038_usu",
+      "reading": "うす",
+      "headword": "{臼|うす}",
+      "label": "mortar"
+    }
+  ],
   "metadata": {
     "created": "2026-03-02T11:00:05Z",
-    "modified": "2026-03-02T11:00:05Z",
+    "modified": "2026-09-02T04:01:38Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food", "leisure"]
+      "semantic": [
+        "food",
+        "leisure"
+      ]
     }
   }
 }

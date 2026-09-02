@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29680_iisariamu_ex1",
-      "japanese": "イーサリアムを{少|すこ}し{買|か}った。",
+      "japanese": "イーサリアム⟦を→を：00422_wo⟧⟦{少|すこ}し→少し：00596_sukoshi⟧⟦{買|か}った→買う：00489_kau⟧。",
       "english": "I bought a little Ethereum.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29680_iisariamu_ex2",
-      "japanese": "イーサリアムはビットコインに{次|つ}ぐ{規模|きぼ}だ。",
+      "japanese": "イーサリアム⟦は→は：00079_ha⟧⟦ビットコイン→ビットコイン：29679_bittokoin⟧⟦に→に：00314_ni⟧⟦{次|つ}ぐ→次ぐ：02076_tsugu⟧⟦{規模|きぼ}→規模：05095_kibo⟧だ。",
       "english": "Ethereum is second in scale to Bitcoin.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29680_iisariamu_ex3",
-      "japanese": "イーサリアムはスマートコントラクトが{使|つか}えることで{知|し}られている。",
+      "japanese": "イーサリアム⟦は→は：00079_ha⟧⟦スマートコントラクト→スマートコントラクト：29690_sumaatokontorakuto⟧⟦が→が：00051_ga⟧⟦{使|つか}える→使う：00473_tsukau⟧こと⟦で→で：00502_de⟧⟦{知|し}られている→知る：00458_shiru⟧。",
       "english": "Ethereum is known for being able to run smart contracts.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "A cryptocurrency platform launched in 2015, the second-largest {仮想通貨|かそうつうか} after Bitcoin. Distinguished by smart contracts, which let programs run on its blockchain; its coin is abbreviated ETH.\n\nCOMMON COLLOCATIONS:\n- イーサリアムを{買|か}う: to buy Ethereum\n- イーサリアムの{価格|かかく}: the price of Ethereum\n\nSIMILAR WORDS:\n- ビットコイン: Bitcoin — the largest cryptocurrency; a currency first, without Ethereum's programmable focus\n- {仮想通貨|かそうつうか}: cryptocurrency — the general category",
+  "notes": "A cryptocurrency platform launched in 2015, the second-largest ⟦{仮想通貨|かそうつうか}→仮想通貨：06400_kasoutsuuka⟧ after Bitcoin. Distinguished by smart contracts, which let programs run on its blockchain; its coin is abbreviated ETH.\n\nCOMMON COLLOCATIONS:\n- イーサリアム⟦を→を：00422_wo⟧⟦{買|か}う→買う：00489_kau⟧: to buy Ethereum\n- イーサリアム⟦の→の：09472_no⟧⟦{価格|かかく}→価格：00147_kakaku⟧: the price of Ethereum\n\nSIMILAR WORDS:\n- ⟦ビットコイン→ビットコイン：29679_bittokoin⟧: Bitcoin — the largest cryptocurrency; a currency first, without Ethereum's programmable focus\n- ⟦{仮想通貨|かそうつうか}→仮想通貨：06400_kasoutsuuka⟧: cryptocurrency — the general category",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "29679_bittokoin",
+      "reading": "びっとこいん",
+      "headword": "ビットコイン",
+      "label": "Bitcoin"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06400_kasoutsuuka",
+      "reading": "かそうつうか",
+      "headword": "{仮想通貨|かそうつうか}",
+      "label": "cryptocurrency"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +69,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "finance"
       ],
@@ -62,6 +78,6 @@
       ]
     },
     "created": "2026-07-04T12:17:32Z",
-    "modified": "2026-07-04T12:17:32Z"
+    "modified": "2026-09-02T04:02:37Z"
   }
 }

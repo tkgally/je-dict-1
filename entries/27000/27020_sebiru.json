@@ -3,7 +3,7 @@
   "headword": "せびる",
   "reading": "せびる",
   "romaji": "sebiru",
-  "part_of_speech": "verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to pester for; to cadge; to wheedle",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "27020_sebiru_ex1",
-      "japanese": "{子|こ}どもがお{菓子|かし}をせびる。",
+      "japanese": "{子|こ}ども⟦が→が：00051_ga⟧⟦お{菓子|かし}→お菓子：02852_okashi⟧⟦を→を：00422_wo⟧せびる。",
       "english": "The child pesters for sweets.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "27020_sebiru_ex2",
-      "japanese": "{弟|おとうと}がいつも{小遣|こづか}いをせびってくる。",
+      "japanese": "⟦{弟|おとうと}→弟：00572_otouto⟧⟦が→が：00051_ga⟧⟦いつも→いつも：00599_itsumo⟧⟦{小遣|こづか}い→小遣い：12363_kozukai⟧⟦を→を：00422_wo⟧せびってくる。",
       "english": "My younger brother always pesters me for pocket money.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "27020_sebiru_ex3",
-      "japanese": "{友人|ゆうじん}に{飲|の}み{代|だい}をせびられて{困|こま}っている。",
+      "japanese": "⟦{友人|ゆうじん}→友人：03649_yuujin⟧⟦に→に：00314_ni⟧⟦{飲|の}み{代|だい}→飲み代：29658_nomidai⟧⟦を→を：00422_wo⟧せびられて⟦{困|こま}っている→困る：00861_komaru⟧。",
       "english": "I'm troubled because a friend keeps hitting me up for drinks money.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "A colloquial verb with a somewhat negative nuance. The person doing the せびる is being persistent, pushy, or shameless about asking. Common subjects are children asking parents for sweets or money, or adults shamelessly mooching off friends. Godan verb conjugating with る row.\n\nCOMMON COLLOCATIONS:\n- お{金|かね}をせびる: to pester for money\n- お{小遣|こづか}いをせびる: to beg for pocket money\n- お{菓子|かし}をせびる: to wheedle for sweets\n- おごりをせびる: to cadge a treat\n\nSIMILAR WORDS:\n- {強請|ゆす}る: to extort; to blackmail — much stronger; implies threats or coercion\n- {頼|たの}む: to ask; to request — neutral, polite request without the nuance of pestering\n- ねだる: to coax; to beg for — similar but slightly softer; often used for children begging for toys or treats",
+  "notes": "A colloquial verb with a somewhat negative nuance. The person doing the せびる is being persistent, pushy, or shameless about asking. Common subjects are children asking parents for sweets or money, or adults shamelessly mooching off friends. Godan verb conjugating with る row.\n\nCOMMON COLLOCATIONS:\n- ⟦お{金|かね}→お金：00611_okane⟧⟦を→を：00422_wo⟧せびる: to pester for money\n- お⟦{小遣|こづか}い→小遣い：12363_kozukai⟧⟦を→を：00422_wo⟧せびる: to beg for pocket money\n- ⟦お{菓子|かし}→お菓子：02852_okashi⟧⟦を→を：00422_wo⟧せびる: to wheedle for sweets\n- ⟦おごり→おごり：09695_ogori⟧⟦を→を：00422_wo⟧せびる: to cadge a treat\n\nSIMILAR WORDS:\n- {強請|ゆす}る: to extort; to blackmail — much stronger; implies threats or coercion\n- ⟦{頼|たの}む→頼む：01104_tanomu⟧: to ask; to request — neutral, polite request without the nuance of pestering\n- ⟦ねだる→ねだる：07619_nedaru⟧: to coax; to beg for — similar but slightly softer; often used for children begging for toys or treats",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01104_tanomu",
+      "reading": "たのむ",
+      "headword": "{頼|たの}む",
+      "label": "to ask"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07619_nedaru",
+      "reading": "ねだる",
+      "headword": "ねだる",
+      "label": "to coax"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,7 +78,7 @@
       "verb_class": "godan-ru"
     },
     "created": "2026-05-06T14:19:22Z",
-    "modified": "2026-05-06T14:19:22Z"
+    "modified": "2026-09-02T04:02:28Z"
   },
   "conjugation": {
     "type": "godan",

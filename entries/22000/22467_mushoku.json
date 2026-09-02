@@ -3,7 +3,7 @@
   "headword": "{無色|むしょく}",
   "reading": "むしょく",
   "romaji": "mushoku",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "colorless; uncolored",
   "definitions": [
     {
@@ -15,40 +15,67 @@
   "examples": [
     {
       "id": "22467_mushoku_ex1",
-      "japanese": "{水|みず}は{無色|むしょく}{透明|とうめい}だ。",
+      "japanese": "⟦{水|みず}→水：02258_mizu⟧⟦は→は：00079_ha⟧{無色|むしょく}⟦{透明|とうめい}→透明：04565_toumei⟧だ。",
       "english": "Water is colorless and transparent.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "22467_mushoku_ex2",
-      "japanese": "この{液体|えきたい}は{無色|むしょく}{無臭|むしゅう}で{危険|きけん}だ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{液体|えきたい}→液体：04134_ekitai⟧⟦は→は：00079_ha⟧{無色|むしょく}⟦{無臭|むしゅう}→無臭：16112_mushuu⟧⟦で→で：00502_de⟧⟦{危険|きけん}→危険：01141_kiken⟧だ。",
       "english": "This liquid is colorless and odorless, making it dangerous.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "22467_mushoku_ex3",
-      "japanese": "{一酸化炭素|いっさんかたんそ}は{無色|むしょく}{無臭|むしゅう}のガスなので、{漏|も}れに{気|き}づきにくい。",
+      "japanese": "⟦{一酸化炭素|いっさんかたんそ}→一酸化炭素：27606_issankatanso⟧⟦は→は：00079_ha⟧{無色|むしょく}⟦{無臭|むしゅう}→無臭：16112_mushuu⟧⟦の→の：09472_no⟧⟦ガス→ガス：01344_gasu⟧な⟦の→の：09472_no⟧で、⟦{漏|も}れ→漏れ：13362_more⟧⟦に→に：00314_ni⟧{気|き}づきにくい。",
       "english": "Carbon monoxide is a colorless, odorless gas, making leaks hard to detect.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {無|む} (without) + {色|しょく} (color). Describes the absence of color. Very commonly paired with {透明|とうめい} (transparent) or {無臭|むしゅう} (odorless) to describe substances.\n\nCOMMON COLLOCATIONS:\n- {無色|むしょく}{透明|とうめい}: colorless and transparent\n- {無色|むしょく}{無臭|むしゅう}: colorless and odorless\n- {無色|むしょく}の{液体|えきたい}: a colorless liquid\n- {無色|むしょく}の{気体|きたい}: a colorless gas\n\nSIMILAR WORDS:\n- {透明|とうめい}: transparent — lets light through but may have color (e.g., colored glass)\n- {無職|むしょく}: unemployed — a homophone with a completely different meaning and kanji\n\nNOTE:\nNot to be confused with the homophone {無職|むしょく} (unemployed). The kanji make the distinction clear in writing.",
+  "notes": "Composed of ⟦{無|む}→無：17750_mu⟧ (without) + {色|しょく} (color). Describes the absence of color. Very commonly paired with ⟦{透明|とうめい}→透明：04565_toumei⟧ (transparent) or ⟦{無臭|むしゅう}→無臭：16112_mushuu⟧ (odorless) to describe substances.\n\nCOMMON COLLOCATIONS:\n- {無色|むしょく}⟦{透明|とうめい}→透明：04565_toumei⟧: colorless and transparent\n- {無色|むしょく}⟦{無臭|むしゅう}→無臭：16112_mushuu⟧: colorless and odorless\n- {無色|むしょく}⟦の→の：09472_no⟧⟦{液体|えきたい}→液体：04134_ekitai⟧: a colorless liquid\n- {無色|むしょく}⟦の→の：09472_no⟧⟦{気体|きたい}→気体：02632_kitai⟧: a colorless gas\n\nSIMILAR WORDS:\n- ⟦{透明|とうめい}→透明：04565_toumei⟧: transparent — lets light through but may have color (e.g., colored glass)\n- ⟦{無職|むしょく}→無職：13386_mushoku⟧: unemployed — a homophone with a completely different meaning and kanji\n\nUSAGE:\nNot to be confused with the homophone ⟦{無職|むしょく}→無職：13386_mushoku⟧ (unemployed). The kanji make the distinction clear in writing.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04565_toumei",
+      "reading": "とうめい",
+      "headword": "{透明|とうめい}",
+      "label": "transparent"
+    },
+    {
+      "type": "homophone",
+      "target_id": "13386_mushoku",
+      "reading": "むしょく",
+      "headword": "{無職|むしょく}",
+      "label": "unemployed"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-no"],
+      "pos": [
+        "noun",
+        "adjective-no"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["science"]
+      "semantic": [
+        "science"
+      ]
     },
     "created": "2026-04-06T12:18:24Z",
-    "modified": "2026-04-06T12:18:24Z"
+    "modified": "2026-09-02T04:02:08Z"
   }
 }

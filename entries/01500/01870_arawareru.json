@@ -124,7 +124,7 @@
     },
     {
       "id": "01870_arawareru_ex3",
-      "japanese": "⟦{結果|けっか}→結果：02486_kekka⟧⟦が→が：00051_ga⟧⟦{数字|すうじ}→数字：03361_suuji⟧⟦に→に：00314_ni⟧{現|あらわ}れている。",
+      "japanese": "⟦{結果|けっか}→結果：02486_kekka⟧⟦が→が：00051_ga⟧⟦{数字|すうじ}→数字：03361_suuji⟧⟦に→に：00314_ni⟧{現|あらわ}れて⟦いる→いる：00495_iru⟧。",
       "english": "The results are reflected in the numbers.",
       "notes": null,
       "has_audio": false,
@@ -134,10 +134,46 @@
     }
   ],
   "notes": "{現|あらわ}れる means to appear or emerge, used for people, symptoms, results, etc.\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n- Pair: ⟦{現|あらわ}す→現す：02097_arawasu⟧ (transitive, to reveal/show)\n\nCOMMON PATTERNS:\n- ⟦{人|ひと}→人：00476_hito⟧⟦が→が：00051_ga⟧{現|あらわ}れる: a person appears\n- ⟦{症状|しょうじょう}→症状：03234_shoujou⟧⟦が→が：00051_ga⟧{現|あらわ}れる: symptoms appear\n- ⟦{結果|けっか}→結果：02486_kekka⟧⟦が→が：00051_ga⟧{現|あらわ}れる: results show\n- ⟦{効果|こうか}→効果：02726_kouka⟧⟦が→が：00051_ga⟧{現|あらわ}れる: effects appear\n\nALTERNATE KANJI:\nSometimes written as ⟦{表|あらわ}れる→表れる：14276_arawareru⟧ (same meaning).\n\nSIMILAR:\n- ⟦{出|で}る→出る：00513_deru⟧: to come out\n- ⟦{見|み}える→見える：01165_mieru⟧: to be visible",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00513_deru",
+      "reading": "でる",
+      "headword": "{出|で}る",
+      "label": "to come out"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01165_mieru",
+      "reading": "みえる",
+      "headword": "{見|み}える",
+      "label": "to be visible"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20928_shutsugensuru",
+      "reading": "しゅつげんする",
+      "headword": "{出現|しゅつげん}する",
+      "label": "to appear"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22380_hatsugensuru",
+      "reading": "はつげんする",
+      "headword": "{発現|はつげん}する",
+      "label": "to manifest"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30131_kizasu",
+      "reading": "きざす",
+      "headword": "{兆|きざ}す",
+      "label": "to show signs"
+    }
+  ],
   "metadata": {
     "created": "2026-01-09T12:19:28Z",
-    "modified": "2026-05-17T15:27:06Z",
+    "modified": "2026-09-02T04:01:00Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

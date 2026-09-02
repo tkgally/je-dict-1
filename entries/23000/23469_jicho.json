@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "23469_jicho_ex1",
-      "japanese": "{先生|せんせい}は{自著|じちょ}を{紹介|しょうかい}した。",
+      "japanese": "⟦{先生|せんせい}→先生：00609_sensei⟧⟦は→は：00079_ha⟧{自著|じちょ}⟦を→を：00422_wo⟧⟦{紹介|しょうかい}した→紹介する：05641_shoukaisuru⟧。",
       "english": "The professor introduced their own book.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "23469_jicho_ex2",
-      "japanese": "{自著|じちょ}にサインをして{読者|どくしゃ}に{渡|わた}した。",
+      "japanese": "{自著|じちょ}⟦に→に：00314_ni⟧⟦サイン→サイン：03846_sain⟧⟦を→を：00422_wo⟧⟦して→する：00392_suru⟧⟦{読者|どくしゃ}→読者：16554_dokusha⟧⟦に→に：00314_ni⟧⟦{渡|わた}した→渡す：02442_watasu⟧。",
       "english": "They signed their own book and handed it to the reader.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "23469_jicho_ex3",
-      "japanese": "その{作家|さっか}は{自著|じちょ}の{中|なか}で{自分|じぶん}の{体験|たいけん}を{詳|くわ}しく{語|かた}っている。",
+      "japanese": "⟦その→その：00993_sono⟧⟦{作家|さっか}→作家：01414_sakka⟧⟦は→は：00079_ha⟧{自著|じちょ}⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧⟦で→で：00502_de⟧⟦{自分|じぶん}→自分：02887_jibun⟧⟦の→の：09472_no⟧⟦{体験|たいけん}→体験：11443_taiken⟧⟦を→を：00422_wo⟧⟦{詳|くわ}しく→詳しい：02483_kuwashii⟧⟦{語|かた}っている→語る：01930_kataru⟧。",
       "english": "That author talks in detail about their own experiences in their book.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {自|じ} (self) and {著|ちょ} (written work, publication). Specifically refers to a book or publication that one has personally authored, as opposed to books by others.\n\nCOMMON COLLOCATIONS:\n- {自著|じちょ}を{出版|しゅっぱん}する: to publish one's own book\n- {自著|じちょ}を{紹介|しょうかい}する: to introduce one's own book\n- {自著|じちょ}にサインする: to sign one's own book\n- {自著|じちょ}の{中|なか}で: in one's own book\n\nSIMILAR WORDS:\n- {著書|ちょしょ}: written work, book — can refer to anyone's published book; {自著|じちょ} specifically means the speaker's or subject's own book\n- {著作|ちょさく}: literary work, writing — broader term that includes any kind of authored content, not just books\n- {拙著|せっちょ}: my humble work — a modest way to refer to one's own book; uses the self-deprecating prefix {拙|せつ}\n\nREGISTER:\nFormal. Commonly appears in interviews, book reviews, academic introductions, and literary discussion. In casual conversation, people would more naturally say {自分|じぶん}の{本|ほん} (my own book).",
+  "notes": "A compound of {自|じ} (self) and {著|ちょ} (written work, publication). Specifically refers to a book or publication that one has personally authored, as opposed to books by others.\n\nCOMMON COLLOCATIONS:\n- {自著|じちょ}⟦を→を：00422_wo⟧⟦{出版|しゅっぱん}→出版：03222_shuppan⟧⟦する→する：00392_suru⟧: to publish one's own book\n- {自著|じちょ}⟦を→を：00422_wo⟧⟦{紹介|しょうかい}する→紹介する：05641_shoukaisuru⟧: to introduce one's own book\n- {自著|じちょ}⟦に→に：00314_ni⟧⟦サインする→サインする：09864_sainsuru⟧: to sign one's own book\n- {自著|じちょ}⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧⟦で→で：00502_de⟧: in one's own book\n\nSIMILAR WORDS:\n- ⟦{著書|ちょしょ}→著書：14083_chosho⟧: written work, book — can refer to anyone's published book; {自著|じちょ} specifically means the speaker's or subject's own book\n- ⟦{著作|ちょさく}→著作：18234_chosaku⟧: literary work, writing — broader term that includes any kind of authored content, not just books\n- {拙著|せっちょ}: my humble work — a modest way to refer to one's own book; uses the self-deprecating prefix {拙|せつ}\n\nREGISTER:\nFormal. Commonly appears in interviews, book reviews, academic introductions, and literary discussion. In casual conversation, people would more naturally say ⟦{自分|じぶん}→自分：02887_jibun⟧⟦の→の：09472_no⟧{本|ほん} (my own book).",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14083_chosho",
+      "reading": "ちょしょ",
+      "headword": "{著書|ちょしょ}",
+      "label": "written work, book"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18234_chosaku",
+      "reading": "ちょさく",
+      "headword": "{著作|ちょさく}",
+      "label": "literary work, writing"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +75,6 @@
       ]
     },
     "created": "2026-04-12T07:46:02Z",
-    "modified": "2026-07-31T18:20:34Z"
+    "modified": "2026-09-02T04:02:13Z"
   }
 }

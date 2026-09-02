@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26913_oodoori_ex1",
-      "japanese": "{大通|おおどお}りを{歩|ある}いた。",
+      "japanese": "{大通|おおどお}り⟦を→を：00422_wo⟧⟦{歩|ある}いた→歩く：00538_aruku⟧。",
       "english": "I walked along the main street.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26913_oodoori_ex2",
-      "japanese": "その{店|みせ}は{大通|おおどお}りに{面|めん}している。",
+      "japanese": "⟦その→その：00993_sono⟧⟦{店|みせ}→店：00497_mise⟧⟦は→は：00079_ha⟧{大通|おおどお}り⟦に→に：00314_ni⟧⟦{面|めん}している→面する：14629_mensuru⟧。",
       "english": "That shop faces the main street.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26913_oodoori_ex3",
-      "japanese": "{大通|おおどお}りから{一本|いっぽん}{裏|うら}に{入|はい}ると、{静|しず}かな{住宅街|じゅうたくがい}が{広|ひろ}がっている。",
+      "japanese": "{大通|おおどお}り⟦から→から：00504_kara⟧⟦{一本|いっぽん}→一本：08888_ippon⟧⟦{裏|うら}→裏：02178_ura⟧⟦に→に：00314_ni⟧⟦{入|はい}る→入る：00494_hairu⟧⟦と→と：00512_to⟧、⟦{静|しず}か→静か：00755_shizuka⟧な⟦{住宅街|じゅうたくがい}→住宅街：09394_juutakugai⟧⟦が→が：00051_ga⟧⟦{広|ひろ}がっている→広がる：01980_hirogaru⟧。",
       "english": "One block off the main street, a quiet residential area stretches out.",
       "sense_numbers": [
         1
@@ -44,8 +44,23 @@
       "notes": null
     }
   ],
-  "notes": "Refers to any wide, busy road, typically the main thoroughfare in a town or city. Many Japanese cities have streets officially named {大通|おおどお}り, such as Sapporo's famous {大通|おおどお}り{公園|こうえん}.\n\nCOMMON COLLOCATIONS:\n- {大通|おおどお}りに{面|めん}する: to face the main street\n- {大通|おおどお}り{沿|ぞ}い: along the main street\n- {駅前|えきまえ}{大通|おおどお}り: the main street in front of the station\n- {大通|おおどお}りを{渡|わた}る: to cross the main street\n\nSIMILAR WORDS:\n- {通|とお}り: street; road — a general term for any street\n- {目抜|めぬ}き{通|どお}り: high street; main shopping street — emphasizes commercial activity\n- {裏通|うらどお}り: back street; side street — the opposite of {大通|おおどお}り",
-  "cross_references": [],
+  "notes": "Refers to any wide, busy road, typically the main thoroughfare in a town or city. Many Japanese cities have streets officially named {大通|おおどお}り, such as Sapporo's famous {大通|おおどお}り⟦{公園|こうえん}→公園：00581_kouen⟧.\n\nCOMMON COLLOCATIONS:\n- {大通|おおどお}り⟦に→に：00314_ni⟧⟦{面|めん}する→面する：14629_mensuru⟧: to face the main street\n- {大通|おおどお}り{沿|ぞ}い: along the main street\n- ⟦{駅前|えきまえ}→駅前：09593_ekimae⟧{大通|おおどお}り: the main street in front of the station\n- {大通|おおどお}り⟦を→を：00422_wo⟧⟦{渡|わた}る→渡る：02441_wataru⟧: to cross the main street\n\nSIMILAR WORDS:\n- ⟦{通|とお}り→通り：01475_toori⟧: street; road — a general term for any street\n- {目抜|めぬ}き{通|どお}り: high street; main shopping street — emphasizes commercial activity\n- ⟦{裏通|うらどお}り→裏通り：09383_uradoori⟧: back street; side street — the opposite of {大通|おおどお}り",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "09383_uradoori",
+      "reading": "うらどおり",
+      "headword": "{裏通|うらどお}り",
+      "label": "back street"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18552_omotedoori",
+      "reading": "おもてどおり",
+      "headword": "{表通|おもてどお}り",
+      "label": "main street"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -61,6 +76,6 @@
       "domain": []
     },
     "created": "2026-05-05T16:10:48Z",
-    "modified": "2026-08-06T12:44:19Z"
+    "modified": "2026-09-02T04:02:28Z"
   }
 }

@@ -15,40 +15,67 @@
   "examples": [
     {
       "id": "23049_okou_ex1",
-      "japanese": "お{香|こう}を{焚|た}く。",
+      "japanese": "お{香|こう}⟦を→を：00422_wo⟧⟦{焚|た}く→焚く：02285_taku⟧。",
       "english": "To burn incense.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "23049_okou_ex2",
-      "japanese": "{寝|ね}る{前|まえ}にお{香|こう}を{焚|た}くとよく{眠|ねむ}れる。",
+      "japanese": "⟦{寝|ね}る→寝る：00470_neru⟧⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧お{香|こう}⟦を→を：00422_wo⟧⟦{焚|た}く→焚く：02285_taku⟧⟦と→と：00512_to⟧⟦よく→よく：00601_yoku⟧⟦{眠|ねむ}れる→眠れる：15166_nemureru⟧。",
       "english": "Burning incense before bed helps me sleep well.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "23049_okou_ex3",
-      "japanese": "{祖母|そぼ}は{毎朝|まいあさ}{仏壇|ぶつだん}の{前|まえ}でお{香|こう}を{焚|た}いている。",
+      "japanese": "⟦{祖母|そぼ}→祖母：00813_sobo⟧⟦は→は：00079_ha⟧⟦{毎朝|まいあさ}→毎朝：00966_maiasa⟧⟦{仏壇|ぶつだん}→仏壇：07116_butsudan⟧⟦の→の：09472_no⟧⟦{前|まえ}→前：02255_mae⟧⟦で→で：00502_de⟧お{香|こう}⟦を→を：00422_wo⟧⟦{焚|た}いている→焚く：02285_taku⟧。",
       "english": "My grandmother burns incense in front of the Buddhist altar every morning.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "The polite prefix お is standard for this word; plain {香|こう} is used in compounds but rarely alone in everyday speech.\n\nCOMMON COLLOCATIONS:\n- お{香|こう}を{焚|た}く: to burn incense\n- お{香|こう}を{供|そな}える: to offer incense\n- お{香|こう}の{香|かお}り: the scent of incense\n- {線香|せんこう}: stick incense\n\nCULTURAL CONTEXT:\nIncense has deep roots in Japanese culture, used in Buddhist ceremonies, tea ceremony, and the traditional art of {香道|こうどう} (the Way of Incense). Modern use includes aromatherapy and home fragrance. Common types include {白檀|びゃくだん} (sandalwood) and {沈香|じんこう} (agarwood).\n\nSIMILAR WORDS:\n- {線香|せんこう}: stick incense — specifically the thin sticks used at altars and graves\n- {香料|こうりょう}: fragrance materials — broader term including perfumery ingredients\n- アロマ: aroma — modern loanword for aromatherapy-style fragrance",
+  "notes": "The polite prefix お is standard for this word; plain ⟦{香|こう}→香：17307_kou⟧ is used in compounds but rarely alone in everyday speech.\n\nCOMMON COLLOCATIONS:\n- お{香|こう}⟦を→を：00422_wo⟧⟦{焚|た}く→焚く：02285_taku⟧: to burn incense\n- お{香|こう}⟦を→を：00422_wo⟧⟦{供|そな}える→供える：11562_sonaeru⟧: to offer incense\n- お{香|こう}⟦の→の：09472_no⟧⟦{香|かお}り→香り：00189_kaori⟧: the scent of incense\n- ⟦{線香|せんこう}→線香：09995_senkou⟧: stick incense\n\nCULTURAL NOTE:\nIncense has deep roots in Japanese culture, used in Buddhist ceremonies, tea ceremony, and the traditional art of ⟦{香道|こうどう}→香道：29522_koudou⟧ (the Way of Incense). Modern use includes aromatherapy and home fragrance. Common types include {白檀|びゃくだん} (sandalwood) and {沈香|じんこう} (agarwood).\n\nSIMILAR WORDS:\n- ⟦{線香|せんこう}→線香：09995_senkou⟧: stick incense — specifically the thin sticks used at altars and graves\n- ⟦{香料|こうりょう}→香料：14678_kouryou⟧: fragrance materials — broader term including perfumery ingredients\n- アロマ: aroma — modern loanword for aromatherapy-style fragrance",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09995_senkou",
+      "reading": "せんこう",
+      "headword": "{線香|せんこう}",
+      "label": "stick incense"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14678_kouryou",
+      "reading": "こうりょう",
+      "headword": "{香料|こうりょう}",
+      "label": "fragrance materials"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "polite",
-      "semantic": ["culture", "religion"]
+      "semantic": [
+        "culture",
+        "religion"
+      ]
     },
     "created": "2026-04-08T17:25:33Z",
-    "modified": "2026-04-08T17:25:33Z"
+    "modified": "2026-09-02T04:02:10Z"
   }
 }

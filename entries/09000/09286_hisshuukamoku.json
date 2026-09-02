@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "09286_hisshuukamoku_ex1",
-      "japanese": "{英語|えいご}は{必修科目|ひっしゅうかもく}だ。",
+      "japanese": "⟦{英語|えいご}→英語：02274_eigo⟧⟦は→は：00079_ha⟧{必修科目|ひっしゅうかもく}だ。",
       "english": "English is a required course.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "09286_hisshuukamoku_ex2",
-      "japanese": "{必修科目|ひっしゅうかもく}を{落|お}とすと{卒業|そつぎょう}できない。",
+      "japanese": "{必修科目|ひっしゅうかもく}⟦を→を：00422_wo⟧⟦{落|お}とす→落とす：01246_otosu⟧⟦と→と：00512_to⟧⟦{卒業|そつぎょう}→卒業：01643_sotsugyou⟧⟦できない→できる：00557_dekiru⟧。",
       "english": "If you fail a required course, you can't graduate.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "09286_hisshuukamoku_ex3",
-      "japanese": "{一年生|いちねんせい}の{必修科目|ひっしゅうかもく}は{全部|ぜんぶ}で{十|じゅう}{科目|かもく}ある。",
+      "japanese": "⟦{一年生|いちねんせい}→一年生：27559_ichinensei⟧⟦の→の：09472_no⟧{必修科目|ひっしゅうかもく}⟦は→は：00079_ha⟧⟦{全部|ぜんぶ}→全部：02888_zenbu⟧⟦で→で：00502_de⟧⟦{十|じゅう}→十：00708_juu⟧⟦{科目|かもく}→科目：00163_kamoku⟧⟦ある→ある：00006_aru⟧。",
       "english": "There are ten required courses in the first year.",
       "sense_numbers": [
         1
@@ -43,7 +43,7 @@
       "notes": null
     }
   ],
-  "notes": "{必修科目|ひっしゅうかもく} refers to courses that are mandatory for all students in a program. Failing to complete required courses prevents graduation.\n\nCOMMON COLLOCATIONS:\n- {必修科目|ひっしゅうかもく}を{取|と}る (to take a required course)\n- {必修科目|ひっしゅうかもく}を{履修|りしゅう}する (to enroll in a required course)\n- {必修科目|ひっしゅうかもく}の{単位|たんい} (credits for required courses)\n\nRELATED TERMS:\n- {選択科目|せんたくかもく} (elective course)\n- {必修|ひっしゅう} (compulsory, required)\n- {履修|りしゅう} (course enrollment)",
+  "notes": "{必修科目|ひっしゅうかもく} refers to courses that are mandatory for all students in a program. Failing to complete required courses prevents graduation.\n\nCOMMON COLLOCATIONS:\n- {必修科目|ひっしゅうかもく}⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧ (to take a required course)\n- {必修科目|ひっしゅうかもく}⟦を→を：00422_wo⟧⟦{履修|りしゅう}→履修：04861_rishuu⟧⟦する→する：00392_suru⟧ (to enroll in a required course)\n- {必修科目|ひっしゅうかもく}⟦の→の：09472_no⟧⟦{単位|たんい}→単位：03412_tani⟧ (credits for required courses)\n\nRELATED WORDS:\n- ⟦{選択科目|せんたくかもく}→選択科目：09287_sentakukamoku⟧ (elective course)\n- ⟦{必修|ひっしゅう}→必修：08641_hisshuu⟧ (compulsory, required)\n- ⟦{履修|りしゅう}→履修：04861_rishuu⟧ (course enrollment)",
   "cross_references": [
     {
       "type": "antonym",
@@ -51,11 +51,18 @@
       "reading": "せんたくかもく",
       "headword": "{選択科目|せんたくかもく}",
       "label": "elective course"
+    },
+    {
+      "type": "related",
+      "target_id": "04861_rishuu",
+      "reading": "りしゅう",
+      "headword": "{履修|りしゅう}",
+      "label": "course enrollment"
     }
   ],
   "metadata": {
     "created": "2026-02-01T06:19:49Z",
-    "modified": "2026-04-22T08:43:07Z",
+    "modified": "2026-09-02T04:01:17Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

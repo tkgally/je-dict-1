@@ -15,41 +15,67 @@
   "examples": [
     {
       "id": "30454_sakuraniku_ex1",
-      "japanese": "{桜肉|さくらにく}を{初|はじ}めて{食|た}べた。",
+      "japanese": "{桜肉|さくらにく}⟦を→を：00422_wo⟧⟦{初|はじ}めて→初めて：02932_hajimete⟧⟦{食|た}べた→食べる：00396_taberu⟧。",
       "english": "I ate horse meat for the first time.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "30454_sakuraniku_ex2",
-      "japanese": "この{店|みせ}は{桜肉|さくらにく}の{刺身|さしみ}が{有名|ゆうめい}だ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{店|みせ}→店：00497_mise⟧⟦は→は：00079_ha⟧{桜肉|さくらにく}⟦の→の：09472_no⟧⟦{刺身|さしみ}→刺身：04023_sashimi⟧⟦が→が：00051_ga⟧⟦{有名|ゆうめい}→有名：01106_yuumei⟧だ。",
       "english": "This restaurant is famous for its horse-meat sashimi.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "30454_sakuraniku_ex3",
-      "japanese": "{熊本|くまもと}では{桜肉|さくらにく}を{食|た}べる{習慣|しゅうかん}が{昔|むかし}から{続|つづ}いている。",
+      "japanese": "{熊本|くまもと}⟦で→で：00502_de⟧⟦は→は：00079_ha⟧{桜肉|さくらにく}⟦を→を：00422_wo⟧⟦{食|た}べる→食べる：00396_taberu⟧⟦{習慣|しゅうかん}→習慣：01429_shuukan⟧⟦が→が：00051_ga⟧⟦{昔|むかし}→昔：01515_mukashi⟧⟦から→から：00504_kara⟧⟦{続|つづ}いている→続く：00903_tsuzuku⟧。",
       "english": "In Kumamoto, the custom of eating horse meat has continued since long ago.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A euphemistic name for {馬肉|ばにく} (horse meat), from the pink color of the raw meat. Restaurants and shops normally use {桜肉|さくらにく}; {馬肉|ばにく} is the neutral technical term.\n\nCOMMON COLLOCATIONS:\n- {桜肉|さくらにく}の{刺身|さしみ}: horse-meat sashimi\n- {桜肉|さくらにく}を{食|た}べる: to eat horse meat\n- {桜肉|さくらにく}{料理|りょうり}: horse-meat cuisine\n- {桜|さくら}{鍋|なべ}: hot pot made with horse meat\n\nSIMILAR WORDS:\nAnimal meats have similar plant-based euphemisms:\n- {牡丹|ぼたん}{肉|にく}: wild boar meat — from the peony-like arrangement of the sliced meat\n- {紅葉|もみじ}: venison — from the autumn-leaf color",
+  "notes": "A euphemistic name for ⟦{馬肉|ばにく}→馬肉：30430_baniku⟧ (horse meat), from the pink color of the raw meat. Restaurants and shops normally use {桜肉|さくらにく}; ⟦{馬肉|ばにく}→馬肉：30430_baniku⟧ is the neutral technical term.\n\nCOMMON COLLOCATIONS:\n- {桜肉|さくらにく}⟦の→の：09472_no⟧⟦{刺身|さしみ}→刺身：04023_sashimi⟧: horse-meat sashimi\n- {桜肉|さくらにく}⟦を→を：00422_wo⟧⟦{食|た}べる→食べる：00396_taberu⟧: to eat horse meat\n- {桜肉|さくらにく}⟦{料理|りょうり}→料理：01523_ryouri⟧: horse-meat cuisine\n- ⟦{桜|さくら}→桜：02212_sakura⟧⟦{鍋|なべ}→鍋：01038_nabe⟧: hot pot made with horse meat\n\nSIMILAR WORDS:\nAnimal meats have similar plant-based euphemisms:\n- ⟦{牡丹|ぼたん}{肉|にく}→牡丹肉：30481_botanniku⟧: wild boar meat — from the peony-like arrangement of the sliced meat\n- ⟦{紅葉|もみじ}→紅葉：05387_momiji⟧: venison — from the autumn-leaf color",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "30481_botanniku",
+      "reading": "ぼたんにく",
+      "headword": "{牡丹肉|ぼたんにく}",
+      "label": "wild boar meat"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05387_momiji",
+      "reading": "もみじ",
+      "headword": "{紅葉|もみじ}",
+      "label": "venison"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["food"],
+      "politeness": "plain",
+      "semantic": [
+        "food"
+      ],
       "domain": []
     },
     "created": "2026-08-07T00:23:55Z",
-    "modified": "2026-08-07T00:23:55Z"
+    "modified": "2026-09-02T04:02:40Z"
   }
 }

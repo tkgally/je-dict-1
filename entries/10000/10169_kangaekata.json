@@ -14,40 +14,86 @@
   "examples": [
     {
       "id": "10169_kangaekata_ex1",
-      "japanese": "{考|かんが}え{方|かた}を{変|か}えてみよう。",
+      "japanese": "{考|かんが}え{方|かた}⟦を→を：00422_wo⟧⟦{変|か}えて→変える：01089_kaeru⟧みよう。",
       "english": "Let's try changing our way of thinking.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10169_kangaekata_ex2",
-      "japanese": "{人|ひと}によって{考|かんが}え{方|かた}は{違|ちが}う。",
+      "japanese": "⟦{人|ひと}→人：00476_hito⟧⟦によって→によって：06801_niyotte⟧{考|かんが}え{方|かた}⟦は→は：00079_ha⟧⟦{違|ちが}う→違う：01957_chigau⟧。",
       "english": "Different people have different ways of thinking.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10169_kangaekata_ex3",
-      "japanese": "ポジティブな{考|かんが}え{方|かた}を{身|み}につけることが{大切|たいせつ}だ。",
+      "japanese": "⟦ポジティブ→ポジティブ：29676_pojitibu⟧な{考|かんが}え{方|かた}⟦を→を：00422_wo⟧⟦{身|み}につける→身につける：03158_minitsukeru⟧こと⟦が→が：00051_ga⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧だ。",
       "english": "It's important to develop a positive way of thinking.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{考|かんが}え{方|かた} is a compound noun formed from the verb {考|かんが}える and the suffix {方|かた}.\n\nWORD FORMATION:\n{考|かんが}え (thinking) + {方|かた} (way, manner)\n\nCOMMON EXPRESSIONS:\n- {考|かんが}え{方|かた}を{変|か}える: to change one's way of thinking\n- {考|かんが}え{方|かた}が{違|ちが}う: to have different ways of thinking\n- {考|かんが}え{方|かた}が{古|ふる}い: to have old-fashioned thinking\n\nSIMILAR WORDS:\n- {発想|はっそう}: way of thinking, idea\n- {思考|しこう}: thought, thinking",
-  "cross_references": [],
+  "notes": "{考|かんが}え{方|かた} is a compound noun formed from the verb ⟦{考|かんが}える→考える：00856_kangaeru⟧ and the suffix ⟦{方|かた}→方：10665_kata⟧.\n\nFORMS:\n⟦{考|かんが}え→考え：00855_kangae⟧ (thinking) + ⟦{方|かた}→方：10665_kata⟧ (way, manner)\n\nCOMMON EXPRESSIONS:\n- {考|かんが}え{方|かた}⟦を→を：00422_wo⟧⟦{変|か}える→変える：01089_kaeru⟧: to change one's way of thinking\n- {考|かんが}え{方|かた}⟦が→が：00051_ga⟧⟦{違|ちが}う→違う：01957_chigau⟧: to have different ways of thinking\n- {考|かんが}え{方|かた}⟦が→が：00051_ga⟧⟦{古|ふる}い→古い：00488_furui⟧: to have old-fashioned thinking\n\nSIMILAR WORDS:\n- ⟦{発想|はっそう}→発想：04309_hassou⟧: way of thinking, idea\n- ⟦{思考|しこう}→思考：10071_shikou⟧: thought, thinking",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04309_hassou",
+      "reading": "はっそう",
+      "headword": "{発想|はっそう}",
+      "label": "way of thinking, idea"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10071_shikou",
+      "reading": "しこう",
+      "headword": "{思考|しこう}",
+      "label": "thought, thinking"
+    },
+    {
+      "type": "related",
+      "target_id": "08081_susumekata",
+      "reading": "すすめかた",
+      "headword": "{進|すす}め{方|かた}",
+      "label": "way of proceeding"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18881_toraekata",
+      "reading": "とらえかた",
+      "headword": "{捉|とら}え{方|かた}",
+      "label": "way of perceiving"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26983_shikouhou",
+      "reading": "しこうほう",
+      "headword": "{思考法|しこうほう}",
+      "label": "way of thinking"
+    }
+  ],
   "metadata": {
     "created": "2026-02-05T11:49:02Z",
-    "modified": "2026-02-05T11:49:02Z",
+    "modified": "2026-09-02T04:01:20Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

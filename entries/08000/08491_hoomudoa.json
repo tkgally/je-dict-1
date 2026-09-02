@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08491_hoomudoa_ex1",
-      "japanese": "この{駅|えき}にはホームドアがある。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{駅|えき}→駅：02180_eki⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧ホームドア⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "This station has platform screen doors.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "08491_hoomudoa_ex2",
-      "japanese": "ホームドアが{設置|せっち}されて{安全|あんぜん}になった。",
+      "japanese": "ホームドア⟦が→が：00051_ga⟧⟦{設置|せっち}→設置：09750_secchi⟧⟦されて→する：00392_suru⟧⟦{安全|あんぜん}→安全：01131_anzen⟧になった。",
       "english": "It became safer after the platform doors were installed.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "08491_hoomudoa_ex3",
-      "japanese": "ホームドアの{前|まえ}で{電車|でんしゃ}を{待|ま}ってください。",
+      "japanese": "ホームドア⟦の→の：09472_no⟧⟦{前|まえ}→前：02255_mae⟧⟦で→で：00502_de⟧⟦{電車|でんしゃ}→電車：00522_densha⟧⟦を→を：00422_wo⟧⟦{待|ま}って→待つ：00469_matsu⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please wait for the train in front of the platform doors.",
       "sense_numbers": [
         1
@@ -43,7 +43,23 @@
       "notes": null
     }
   ],
-  "notes": "ETYMOLOGY:\nFrom English \"home\" (platform) + \"door\"\nAlso called {可動式|かどうしき}ホーム{柵|さく} (movable platform barrier)\n\nPURPOSE:\n- Prevent falls onto tracks\n- Prevent suicides\n- Reduce train delays from accidents\n- Keep platform climate-controlled (in some stations)\n\nTYPES:\n- Full-height type ({フルスクリーン}タイプ) - floor to ceiling\n- Half-height type ({腰高|こしだか}タイプ) - waist height\n\nSPREAD:\n- Major cities are gradually installing them\n- Required for new construction\n- Retrofitting older stations is expensive\n\nRELATED:\n- {人身事故|じんしんじこ} - train accident involving a person\n- {転落防止|てんらくぼうし} - fall prevention",
+  "notes": "ETYMOLOGY:\nFrom English \"home\" (platform) + \"door\"\nAlso called ⟦{可動式|かどうしき}→可動式：27179_kadoushiki⟧⟦ホーム→ホーム：00113_hoomu⟧⟦{柵|さく}→柵：13103_saku⟧ (movable platform barrier)\n\nPURPOSE:\n- Prevent falls onto tracks\n- Prevent suicides\n- Reduce train delays from accidents\n- Keep platform climate-controlled (in some stations)\n\nTYPES:\n- Full-height type (フルスクリーンタイプ) - floor to ceiling\n- Half-height type ({腰高|こしだか}⟦タイプ→タイプ：01534_taipu⟧) - waist height\n\nSPREAD:\n- Major cities are gradually installing them\n- Required for new construction\n- Retrofitting older stations is expensive\n\nRELATED WORDS:\n- ⟦{人身事故|じんしんじこ}→人身事故：08475_jinshinjiko⟧ - train accident involving a person\n- {転落防止|てんらくぼうし} - fall prevention",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "08475_jinshinjiko",
+      "reading": "じんしんじこ",
+      "headword": "{人身事故|じんしんじこ}",
+      "label": "train accident involving a person"
+    },
+    {
+      "type": "related",
+      "target_id": "08488_kakekomijousha",
+      "reading": "かけこみじょうしゃ",
+      "headword": "{駆|か}け{込|こ}み{乗車|じょうしゃ}",
+      "label": "rushing onto a departing train"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -51,12 +67,13 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "transportation",
         "general"
       ]
     },
     "created": "2026-01-27T08:12:28Z",
-    "modified": "2026-06-22T12:50:00Z"
+    "modified": "2026-09-02T04:01:15Z"
   }
 }

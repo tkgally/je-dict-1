@@ -3,7 +3,7 @@
   "headword": "{命中|めいちゅう}",
   "reading": "めいちゅう",
   "romaji": "meichuu",
-  "part_of_speech": "noun, verb (する)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "hitting the mark; direct hit",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "18487_meichuu_ex1",
-      "japanese": "{弾|たま}が{的|まと}に{命中|めいちゅう}した。",
+      "japanese": "⟦{弾|たま}→弾：28121_tama⟧⟦が→が：00051_ga⟧⟦{的|まと}→的：19356_mato⟧⟦に→に：00314_ni⟧{命中|めいちゅう}⟦した→する：00392_suru⟧。",
       "english": "The bullet hit the target.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "18487_meichuu_ex2",
-      "japanese": "{命中|めいちゅう}{率|りつ}が{高|たか}い。",
+      "japanese": "{命中|めいちゅう}⟦{率|りつ}→率：03802_ritsu⟧⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧。",
       "english": "The hit rate is high.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "18487_meichuu_ex3",
-      "japanese": "{彼|かれ}の{予想|よそう}はみごとに{命中|めいちゅう}して、{試合|しあい}は{予測|よそく}{通|どお}りの{結果|けっか}になった。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧⟦{予想|よそう}→予想：03664_yosou⟧⟦は→は：00079_ha⟧みごと⟦に→に：00314_ni⟧{命中|めいちゅう}⟦して→する：00392_suru⟧、⟦{試合|しあい}→試合：01601_shiai⟧⟦は→は：00079_ha⟧⟦{予測|よそく}→予測：03665_yosoku⟧{通|どお}り⟦の→の：09472_no⟧⟦{結果|けっか}→結果：02486_kekka⟧になった。",
       "english": "His prediction was spot on, and the game ended exactly as he had predicted.",
       "sense_numbers": [
         1
@@ -134,8 +134,31 @@
       "notes": null
     }
   ],
-  "notes": "{命中|めいちゅう} means hitting a target accurately. Used both literally (projectiles, shots) and figuratively (predictions that prove correct).\n\nCOMMON COLLOCATIONS:\n- {命中|めいちゅう}する: to hit the mark\n- {命中|めいちゅう}{率|りつ}: hit rate, accuracy rate\n- {命中|めいちゅう}{精度|せいど}: accuracy, precision\n- {的|まと}に{命中|めいちゅう}する: to hit the target\n\nFIGURATIVE USE:\n- {予想|よそう}が{命中|めいちゅう}する: a prediction proves correct\n- {予言|よげん}が{命中|めいちゅう}した: the prophecy came true\n\nCONTEXTS:\nUsed in military, sports (archery, shooting), gaming, and weather/prediction discussions.\n\nWORD FORMATION:\n{命|めい} (life, fate) + {中|ちゅう} (hit, strike). The character {中|ちゅう} here means \"to hit\" as in {的中|てきちゅう}.",
+  "notes": "{命中|めいちゅう} means hitting a target accurately. Used both literally (projectiles, shots) and figuratively (predictions that prove correct).\n\nCOMMON COLLOCATIONS:\n- {命中|めいちゅう}⟦する→する：00392_suru⟧: to hit the mark\n- {命中|めいちゅう}⟦{率|りつ}→率：03802_ritsu⟧: hit rate, accuracy rate\n- {命中|めいちゅう}⟦{精度|せいど}→精度：13787_seido⟧: accuracy, precision\n- ⟦{的|まと}→的：19356_mato⟧⟦に→に：00314_ni⟧{命中|めいちゅう}⟦する→する：00392_suru⟧: to hit the target\n\nUSAGE:\n- ⟦{予想|よそう}→予想：03664_yosou⟧⟦が→が：00051_ga⟧{命中|めいちゅう}⟦する→する：00392_suru⟧: a prediction proves correct\n- ⟦{予言|よげん}→予言：20803_yogen⟧⟦が→が：00051_ga⟧{命中|めいちゅう}⟦した→する：00392_suru⟧: the prophecy came true\nUsed in military, sports (archery, shooting), gaming, and weather/prediction discussions.\n\nFORMS:\n{命|めい} (life, fate) + ⟦{中|ちゅう}→〜中：09840_chuu⟧ (hit, strike). The character ⟦{中|ちゅう}→〜中：09840_chuu⟧ here means \"to hit\" as in ⟦{的中|てきちゅう}→的中：15262_tekichuu⟧.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15262_tekichuu",
+      "reading": "てきちゅう",
+      "headword": "{的中|てきちゅう}",
+      "label": "hitting the mark"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24807_chakudan",
+      "reading": "ちゃくだん",
+      "headword": "{着弾|ちゃくだん}",
+      "label": "impact of a projectile"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26346_hicchuu",
+      "reading": "ひっちゅう",
+      "headword": "{必中|ひっちゅう}",
+      "label": "sure hit"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -151,6 +174,6 @@
       "verb_class": "suru"
     },
     "created": "2026-03-22T03:11:26Z",
-    "modified": "2026-05-08T10:08:08Z"
+    "modified": "2026-09-02T04:01:52Z"
   }
 }

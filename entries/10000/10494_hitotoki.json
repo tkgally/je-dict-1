@@ -25,7 +25,7 @@
     },
     {
       "id": "10494_hitotoki_ex2",
-      "japanese": "{家族|かぞく}とのひとときを{大切|たいせつ}にしたい。",
+      "japanese": "⟦{家族|かぞく}→家族：00552_kazoku⟧⟦と→と：00512_to⟧⟦の→の：09472_no⟧ひととき⟦を→を：00422_wo⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧にしたい。",
       "english": "I want to cherish the time with my family.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "10494_hitotoki_ex3",
-      "japanese": "{忙|いそが}しい{毎日|まいにち}の{中|なか}で、コーヒーを{飲|の}むひとときが{何|なに}よりの{癒|いや}しだ。",
+      "japanese": "⟦{忙|いそが}しい→忙しい：00591_isogashii⟧⟦{毎日|まいにち}→毎日：00729_mainichi⟧⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧⟦で→で：00502_de⟧、⟦コーヒー→コーヒー：00789_koohii⟧⟦を→を：00422_wo⟧⟦{飲|の}む→飲む：00322_nomu⟧ひととき⟦が→が：00051_ga⟧⟦{何|なに}→何：00498_nani⟧⟦より→より：09476_yori⟧⟦の→の：09472_no⟧⟦{癒|いや}し→癒し：13604_iyashi⟧だ。",
       "english": "In the midst of busy days, the moment of drinking coffee is the greatest comfort.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,26 @@
       ]
     }
   ],
-  "notes": "The kanji form is {一時|ひととき}, but hiragana is more common in this meaning.\n\nNUANCE:\nひととき has a warm, somewhat poetic connotation. It is often used for pleasant, treasured moments of time rather than neutral time references.\n\nCOMMON COLLOCATIONS:\n- {楽|たの}しいひととき: an enjoyable moment\n- {安|やす}らぎのひととき: a moment of peace\n- ひとときの{休息|きゅうそく}: a brief rest\n- ひとときも{目|め}が{離|はな}せない: can't take one's eyes off for even a moment\n\nSIMILAR WORDS:\n- {一瞬|いっしゅん}: an instant (much shorter)\n- しばらく: a while (longer, neutral)\n- {束|つか}の{間|ま}: fleeting moment (emphasizes brevity)",
-  "cross_references": [],
+  "notes": "The kanji form is {一時|ひととき}, but hiragana is more common in this meaning.\n\nUSAGE:\nひととき has a warm, somewhat poetic connotation. It is often used for pleasant, treasured moments of time rather than neutral time references.\n\nCOMMON COLLOCATIONS:\n- ⟦{楽|たの}しい→楽しい：00817_tanoshii⟧ひととき: an enjoyable moment\n- ⟦{安|やす}らぎ→安らぎ：12238_yasuragi⟧⟦の→の：09472_no⟧ひととき: a moment of peace\n- ひととき⟦の→の：09472_no⟧⟦{休息|きゅうそく}→休息：02587_kyuusoku⟧: a brief rest\n- ひととき⟦も→も：00484_mo⟧⟦{目|め}が{離|はな}せない→目が離せない：06890_megahanasenai⟧: can't take one's eyes off for even a moment\n\nSIMILAR WORDS:\n- ⟦{一瞬|いっしゅん}→一瞬：01805_isshun⟧: an instant (much shorter)\n- ⟦しばらく→しばらく：01267_shibaraku⟧: a while (longer, neutral)\n- ⟦{束|つか}の{間|ま}→束の間：12863_tsukanoma⟧: fleeting moment (emphasizes brevity)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01805_isshun",
+      "reading": "いっしゅん",
+      "headword": "{一瞬|いっしゅん}",
+      "label": "an instant"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12863_tsukanoma",
+      "reading": "つかのま",
+      "headword": "{束|つか}の{間|ま}",
+      "label": "fleeting moment"
+    }
+  ],
   "metadata": {
     "created": "2026-02-07T21:20:27Z",
-    "modified": "2026-06-27T03:38:18Z",
+    "modified": "2026-09-02T04:01:21Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

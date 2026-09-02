@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "27115_kuden_ex1",
-      "japanese": "この{技|わざ}は{口伝|くでん}で{伝|つた}えられてきた。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{技|わざ}→技：02172_waza⟧⟦は→は：00079_ha⟧{口伝|くでん}⟦で→で：00502_de⟧⟦{伝|つた}えられて→伝える：01220_tsutaeru⟧きた。",
       "english": "This technique has been passed down through oral tradition.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "27115_kuden_ex2",
-      "japanese": "{師匠|ししょう}からの{口伝|くでん}を{大切|たいせつ}にしている。",
+      "japanese": "⟦{師匠|ししょう}→師匠：12421_shishou⟧⟦から→から：00504_kara⟧⟦の→の：09472_no⟧{口伝|くでん}⟦を→を：00422_wo⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧にして⟦いる→いる：00495_iru⟧。",
       "english": "I treasure the oral teachings from my master.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "27115_kuden_ex3",
-      "japanese": "{秘伝|ひでん}のレシピは{口伝|くでん}でしか{受|う}け{継|つ}がれていない。",
+      "japanese": "⟦{秘伝|ひでん}→秘伝：13779_hiden⟧⟦の→の：09472_no⟧⟦レシピ→レシピ：07157_reshipi⟧⟦は→は：00079_ha⟧{口伝|くでん}⟦で→で：00502_de⟧しか⟦{受|う}け{継|つ}がれていない→受け継ぐ：06700_uketsugu⟧。",
       "english": "The secret recipe has only been passed down orally.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Refers to the practice of transmitting knowledge verbally from teacher to student, often in traditional contexts such as martial arts, tea ceremony, religious teachings, and family recipes. Written as {口伝|くでん}, combining {口|くち} (mouth) and {伝|でん} (transmission).\n\nCOMMON COLLOCATIONS:\n- {口伝|くでん}で{伝|つた}える: to pass down orally\n- {口伝|くでん}を{受|う}ける: to receive oral instruction\n- {師匠|ししょう}の{口伝|くでん}: the master's oral teachings\n\nSIMILAR WORDS:\n- {口承|こうしょう}: oral tradition — more academic term used in folklore studies\n- {言|い}い{伝|つた}え: legend, lore — emphasizes stories passed down through generations\n- {口伝|くちづた}え: word of mouth — the kun'yomi reading, used more casually for information spread by word of mouth",
+  "notes": "Refers to the practice of transmitting knowledge verbally from teacher to student, often in traditional contexts such as martial arts, tea ceremony, religious teachings, and family recipes. Written as {口伝|くでん}, combining ⟦{口|くち}→口：00560_kuchi⟧ (mouth) and {伝|でん} (transmission).\n\nCOMMON COLLOCATIONS:\n- {口伝|くでん}⟦で→で：00502_de⟧⟦{伝|つた}える→伝える：01220_tsutaeru⟧: to pass down orally\n- {口伝|くでん}⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧: to receive oral instruction\n- ⟦{師匠|ししょう}→師匠：12421_shishou⟧⟦の→の：09472_no⟧{口伝|くでん}: the master's oral teachings\n\nSIMILAR WORDS:\n- ⟦{口承|こうしょう}→口承：17785_koushou⟧: oral tradition — more academic term used in folklore studies\n- ⟦{言|い}い{伝|つた}え→言い伝え：14145_iitsutae⟧: legend, lore — emphasizes stories passed down through generations\n- {口伝|くちづた}え: word of mouth — the kun'yomi reading, used more casually for information spread by word of mouth",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17785_koushou",
+      "reading": "こうしょう",
+      "headword": "{口承|こうしょう}",
+      "label": "oral tradition"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14145_iitsutae",
+      "reading": "いいつたえ",
+      "headword": "{言|い}い{伝|つた}え",
+      "label": "legend, lore"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +76,6 @@
       ]
     },
     "created": "2026-05-07T12:11:54Z",
-    "modified": "2026-05-07T12:11:54Z"
+    "modified": "2026-09-02T04:02:29Z"
   }
 }

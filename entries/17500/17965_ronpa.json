@@ -3,7 +3,7 @@
   "id": "17965_ronpa",
   "headword": "{論破|ろんぱ}",
   "reading": "ろんぱ",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "refutation; winning an argument",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "17965_ronpa_ex1",
-      "japanese": "{相手|あいて}の{主張|しゅちょう}を{論破|ろんぱ}した。",
+      "japanese": "⟦{相手|あいて}→相手：01677_aite⟧⟦の→の：09472_no⟧⟦{主張|しゅちょう}→主張：03220_shuchou⟧⟦を→を：00422_wo⟧{論破|ろんぱ}⟦した→する：00392_suru⟧。",
       "english": "I refuted the opponent's argument.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "17965_ronpa_ex2",
-      "japanese": "ディベートで{完全|かんぜん}に{論破|ろんぱ}されてしまった。",
+      "japanese": "⟦ディベート→ディベート：30371_dibeeto⟧⟦で→で：00502_de⟧⟦{完全|かんぜん}→完全：01552_kanzen⟧⟦に→に：00314_ni⟧{論破|ろんぱ}⟦されて→する：00392_suru⟧しまった。",
       "english": "I was completely demolished in the debate.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "17965_ronpa_ex3",
-      "japanese": "データを{示|しめ}して{冷静|れいせい}に{論破|ろんぱ}するのが{彼|かれ}のスタイルだ。",
+      "japanese": "⟦データ→データ：03944_deeta⟧⟦を→を：00422_wo⟧⟦{示|しめ}して→示す：01948_shimesu⟧⟦{冷静|れいせい}→冷静：03781_reisei⟧⟦に→に：00314_ni⟧{論破|ろんぱ}⟦する→する：00392_suru⟧⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧⟦スタイル→スタイル：03851_sutairu⟧だ。",
       "english": "His style is to calmly refute arguments by presenting data.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,26 @@
       ]
     }
   ],
-  "notes": "USAGE:\nTraditionally a formal word used in debate and academic contexts. In recent years, {論破|ろんぱ} has become a popular internet buzzword, partly due to commentators like ひろゆき ({西村博之|にしむらひろゆき}) who are known for their debating style. Online, it is often used more loosely and sometimes humorously.\n\nCOMMON COLLOCATIONS:\n- {論破|ろんぱ}する (refute, demolish an argument)\n- {論破|ろんぱ}される (be refuted)\n- {完全|かんぜん}{論破|ろんぱ} (total refutation)\n- {論理的|ろんりてき}に{論破|ろんぱ}する (logically refute)\n\nSIMILAR WORDS:\n- {反論|はんろん}する: to counter-argue — presenting an opposing view, not necessarily winning\n- {論駁|ろんばく}する: to refute — more formal/academic synonym",
-  "cross_references": [],
+  "notes": "USAGE:\nTraditionally a formal word used in debate and academic contexts. In recent years, {論破|ろんぱ} has become a popular internet buzzword, partly due to commentators like ひろゆき ({西村博之|にしむらひろゆき}) who are known for their debating style. Online, it is often used more loosely and sometimes humorously.\n\nCOMMON COLLOCATIONS:\n- {論破|ろんぱ}⟦する→する：00392_suru⟧ (refute, demolish an argument)\n- {論破|ろんぱ}⟦される→する：00392_suru⟧ (be refuted)\n- ⟦{完全|かんぜん}→完全：01552_kanzen⟧{論破|ろんぱ} (total refutation)\n- ⟦{論理的|ろんりてき}→論理的：05672_ronriteki⟧⟦に→に：00314_ni⟧{論破|ろんぱ}⟦する→する：00392_suru⟧ (logically refute)\n\nSIMILAR WORDS:\n- ⟦{反論|はんろん}する→反論する：17280_hanronsuru⟧: to counter-argue — presenting an opposing view, not necessarily winning\n- {論駁|ろんばく}⟦する→する：00392_suru⟧: to refute — more formal/academic synonym",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17280_hanronsuru",
+      "reading": "はんろんする",
+      "headword": "{反論|はんろん}する",
+      "label": "to counter-argue"
+    },
+    {
+      "type": "related",
+      "target_id": "09894_iimakasu",
+      "reading": "いいまかす",
+      "headword": "{言|い}い{負|ま}かす",
+      "label": "to argue down"
+    }
+  ],
   "metadata": {
     "created": "2026-03-19T10:03:51Z",
-    "modified": "2026-03-29T03:08:18Z",
+    "modified": "2026-09-02T04:01:50Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

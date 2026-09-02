@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "14933_mikon_ex1",
-      "japanese": "{彼|かれ}はまだ{未婚|みこん}だ。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦まだ→まだ：00603_mada⟧{未婚|みこん}だ。",
       "english": "He is still unmarried.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14933_mikon_ex2",
-      "japanese": "{未婚|みこん}の{母|はは}として{子|こ}どもを{育|そだ}てている。",
+      "japanese": "{未婚|みこん}⟦の→の：09472_no⟧⟦{母|はは}→母：00549_haha⟧⟦として→として：06802_toshite⟧{子|こ}ども⟦を→を：00422_wo⟧⟦{育|そだ}てている→育てる：01235_sodateru⟧。",
       "english": "She is raising a child as an unmarried mother.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14933_mikon_ex3",
-      "japanese": "{最近|さいきん}は{生涯|しょうがい}{未婚|みこん}のまま{過|す}ごす{人|ひと}が{増|ふ}えている。",
+      "japanese": "⟦{最近|さいきん}→最近：00881_saikin⟧⟦は→は：00079_ha⟧⟦{生涯|しょうがい}→生涯：03229_shougai⟧{未婚|みこん}⟦の→の：09472_no⟧まま⟦{過|す}ごす→過ごす：02062_sugosu⟧⟦{人|ひと}→人：00476_hito⟧⟦が→が：00051_ga⟧⟦{増|ふ}えている→増える：01183_fueru⟧。",
       "english": "Recently, more and more people are spending their entire lives unmarried.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "A formal term used on official documents and in statistics. Distinct from {独身|どくしん}, which simply means single and can include divorced or widowed people.\n\nCOMMON COLLOCATIONS:\n- {未婚|みこん}の{母|はは} (unmarried mother)\n- {未婚率|みこんりつ} (unmarried rate)\n- {生涯|しょうがい}{未婚|みこん} (lifelong single, never married)\n\nUSAGE NOTE:\n{未婚|みこん} specifically means \"never married\" and contrasts with {既婚|きこん} (married). For someone who was previously married, {離婚|りこん} (divorced) or {死別|しべつ} (bereaved) would be used instead. On forms, the choices are typically {未婚|みこん} / {既婚|きこん}.",
+  "notes": "A formal term used on official documents and in statistics. Distinct from ⟦{独身|どくしん}→独身：03486_dokushin⟧, which simply means single and can include divorced or widowed people.\n\nCOMMON COLLOCATIONS:\n- {未婚|みこん}⟦の→の：09472_no⟧⟦{母|はは}→母：00549_haha⟧ (unmarried mother)\n- {未婚率|みこんりつ} (unmarried rate)\n- ⟦{生涯|しょうがい}→生涯：03229_shougai⟧{未婚|みこん} (lifelong single, never married)\n\nUSAGE:\n{未婚|みこん} specifically means \"never married\" and contrasts with ⟦{既婚|きこん}→既婚：16160_kikon⟧ (married). For someone who was previously married, ⟦{離婚|りこん}→離婚：02530_rikon⟧ (divorced) or ⟦{死別|しべつ}→死別：18250_shibetsu⟧ (bereaved) would be used instead. On forms, the choices are typically {未婚|みこん} / ⟦{既婚|きこん}→既婚：16160_kikon⟧.",
   "cross_references": [
     {
       "type": "antonym",
@@ -53,18 +59,30 @@
       "reading": "どくしん",
       "headword": "{独身|どくしん}",
       "label": "single (may include divorced)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14969_dokushinsha",
+      "reading": "どくしんしゃ",
+      "headword": "{独身者|どくしんしゃ}",
+      "label": "single person"
     }
   ],
   "metadata": {
     "created": "2026-03-04T07:19:28Z",
-    "modified": "2026-05-01T04:26:51Z",
+    "modified": "2026-09-02T04:01:39Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-no"],
+      "pos": [
+        "noun",
+        "adjective-no"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["family"]
+      "semantic": [
+        "family"
+      ]
     }
   }
 }

@@ -15,41 +15,59 @@
   "examples": [
     {
       "id": "14974_fushinbutsu_ex1",
-      "japanese": "{不審物|ふしんぶつ}を{見|み}つけたら{通報|つうほう}してください。",
+      "japanese": "{不審物|ふしんぶつ}⟦を→を：00422_wo⟧⟦{見|み}つけたら→見つける：01180_mitsukeru⟧⟦{通報|つうほう}→通報：14318_tsuuhou⟧⟦して→する：00392_suru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "If you find a suspicious object, please report it.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14974_fushinbutsu_ex2",
-      "japanese": "{駅|えき}の{構内|こうない}で{不審物|ふしんぶつ}が{発見|はっけん}された。",
+      "japanese": "⟦{駅|えき}→駅：02180_eki⟧⟦の→の：09472_no⟧{構内|こうない}⟦で→で：00502_de⟧{不審物|ふしんぶつ}⟦が→が：00051_ga⟧⟦{発見|はっけん}→発見：00085_hakken⟧⟦された→する：00392_suru⟧。",
       "english": "A suspicious object was found inside the station.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14974_fushinbutsu_ex3",
-      "japanese": "{不審物|ふしんぶつ}の{通報|つうほう}を{受|う}け、{警察|けいさつ}が{現場|げんば}を{封鎖|ふうさ}して{調|しら}べたところ、{中身|なかみ}は{衣類|いるい}だった。",
+      "japanese": "{不審物|ふしんぶつ}⟦の→の：09472_no⟧⟦{通報|つうほう}→通報：14318_tsuuhou⟧⟦を→を：00422_wo⟧⟦{受|う}け→受ける：01215_ukeru⟧、⟦{警察|けいさつ}→警察：01393_keisatsu⟧⟦が→が：00051_ga⟧⟦{現場|げんば}→現場：02723_genba⟧⟦を→を：00422_wo⟧⟦{封鎖|ふうさ}→封鎖：18846_fuusa⟧⟦して→する：00392_suru⟧⟦{調|しら}べた→調べる：01213_shiraberu⟧⟦ところ→ところ：01137_tokoro⟧、⟦{中身|なかみ}→中身：01483_nakami⟧⟦は→は：00079_ha⟧⟦{衣類|いるい}→衣類：04680_irui⟧だった。",
       "english": "After receiving a report of a suspicious object, police cordoned off the area and investigated, finding that the contents were just clothing.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "A compound of {不審|ふしん} (suspicious, questionable) and {物|ぶつ} (object, thing).\n\nVery common in Japanese public safety announcements. Train stations, airports, and public buildings regularly broadcast reminders about {不審物|ふしんぶつ}.\n\nSIMILAR WORDS:\n- {不審者|ふしんしゃ} means a suspicious person\n- {放置|ほうち}{荷物|にもつ} means an unattended bag (less alarming tone)\n\nCOMMON COLLOCATIONS:\n- {不審物|ふしんぶつ}を{発見|はっけん}する (to discover a suspicious object)\n- {不審物|ふしんぶつ}に{触|さわ}らないでください (please don't touch suspicious objects)\n- {不審物|ふしんぶつ}の{撤去|てっきょ} (removal of a suspicious object)",
-  "cross_references": [],
+  "notes": "A compound of ⟦{不審|ふしん}→不審：16934_fushin⟧ (suspicious, questionable) and ⟦{物|ぶつ}→〜物：28336_butsu⟧ (object, thing).\n\nVery common in Japanese public safety announcements. Train stations, airports, and public buildings regularly broadcast reminders about {不審物|ふしんぶつ}.\n\nSIMILAR WORDS:\n- ⟦{不審者|ふしんしゃ}→不審者：11348_fushinsha⟧ means a suspicious person\n- ⟦{放置|ほうち}→放置：12826_houchi⟧⟦{荷物|にもつ}→荷物：00737_nimotsu⟧ means an unattended bag (less alarming tone)\n\nCOMMON COLLOCATIONS:\n- {不審物|ふしんぶつ}⟦を→を：00422_wo⟧⟦{発見|はっけん}する→発見する：26929_hakkensuru⟧ (to discover a suspicious object)\n- {不審物|ふしんぶつ}⟦に→に：00314_ni⟧⟦{触|さわ}らないで→触る：00808_sawaru⟧⟦ください→ください：02899_kudasai⟧ (please don't touch suspicious objects)\n- {不審物|ふしんぶつ}⟦の→の：09472_no⟧⟦{撤去|てっきょ}→撤去：14729_tekkyo⟧ (removal of a suspicious object)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11348_fushinsha",
+      "reading": "ふしんしゃ",
+      "headword": "{不審者|ふしんしゃ}",
+      "label": "means a suspicious person"
+    }
+  ],
   "metadata": {
     "created": "2026-03-04T08:04:33Z",
-    "modified": "2026-03-04T08:04:33Z",
+    "modified": "2026-09-02T04:01:39Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

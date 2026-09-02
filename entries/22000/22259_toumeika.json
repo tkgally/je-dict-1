@@ -3,7 +3,7 @@
   "headword": "{透明化|とうめいか}",
   "reading": "とうめいか",
   "romaji": "toumeika",
-  "part_of_speech": "noun, verb (する)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "making transparent; transparency; increased openness",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22259_toumeika_ex1",
-      "japanese": "{情報|じょうほう}の{透明化|とうめいか}を{進|すす}める。",
+      "japanese": "⟦{情報|じょうほう}→情報：03348_jouhou⟧⟦の→の：09472_no⟧{透明化|とうめいか}⟦を→を：00422_wo⟧⟦{進|すす}める→進める：01949_susumeru⟧。",
       "english": "To promote information transparency.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22259_toumeika_ex2",
-      "japanese": "{経営|けいえい}の{透明化|とうめいか}が{求|もと}められている。",
+      "japanese": "⟦{経営|けいえい}→経営：02740_keiei⟧⟦の→の：09472_no⟧{透明化|とうめいか}⟦が→が：00051_ga⟧⟦{求|もと}められている→求める：02316_motomeru⟧。",
       "english": "Greater transparency in management is being demanded.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22259_toumeika_ex3",
-      "japanese": "{政治|せいじ}{資金|しきん}の{透明化|とうめいか}は{国民|こくみん}の{信頼|しんらい}を{得|え}るために{不可欠|ふかけつ}だ。",
+      "japanese": "⟦{政治|せいじ}→政治：01629_seiji⟧⟦{資金|しきん}→資金：09937_shikin⟧⟦の→の：09472_no⟧{透明化|とうめいか}⟦は→は：00079_ha⟧⟦{国民|こくみん}→国民：02757_kokumin⟧⟦の→の：09472_no⟧⟦{信頼|しんらい}→信頼：03268_shinrai⟧⟦を→を：00422_wo⟧⟦{得|え}る→得る：02014_eru⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧⟦{不可欠|ふかけつ}→不可欠：07027_fukaketsu⟧だ。",
       "english": "Transparency of political funds is essential to earning public trust.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "A noun formed with the suffix {化|か} (transformation), meaning the process of making something transparent or open. Widely used in discussions about governance, corporate responsibility, and organizational reform.\n\nCOMMON COLLOCATIONS:\n- {情報|じょうほう}の{透明化|とうめいか}: information transparency\n- {経営|けいえい}の{透明化|とうめいか}: management transparency\n- {意思決定|いしけってい}の{透明化|とうめいか}: decision-making transparency\n- {透明化|とうめいか}を{図|はか}る: to aim for transparency\n- {透明化|とうめいか}を{進|すす}める: to promote transparency\n\nSIMILAR WORDS:\n- {透明性|とうめいせい}: transparency (the quality itself, rather than the process)\n- {可視化|かしか}: visualization — making data or processes visible, often technical\n- {公開|こうかい}: disclosure — making information publicly available\n\nFORMATION:\n{透明|とうめい} (transparent) + {化|か} (transformation suffix)",
+  "notes": "A noun formed with the suffix ⟦{化|か}→〜化：28335_ka⟧ (transformation), meaning the process of making something transparent or open. Widely used in discussions about governance, corporate responsibility, and organizational reform.\n\nCOMMON COLLOCATIONS:\n- ⟦{情報|じょうほう}→情報：03348_jouhou⟧⟦の→の：09472_no⟧{透明化|とうめいか}: information transparency\n- ⟦{経営|けいえい}→経営：02740_keiei⟧⟦の→の：09472_no⟧{透明化|とうめいか}: management transparency\n- ⟦{意思決定|いしけってい}→意思決定：26876_ishikettei⟧⟦の→の：09472_no⟧{透明化|とうめいか}: decision-making transparency\n- {透明化|とうめいか}⟦を→を：00422_wo⟧⟦{図|はか}る→図る：12006_hakaru⟧: to aim for transparency\n- {透明化|とうめいか}⟦を→を：00422_wo⟧⟦{進|すす}める→進める：01949_susumeru⟧: to promote transparency\n\nSIMILAR WORDS:\n- ⟦{透明性|とうめいせい}→透明性：05576_toumeisei⟧: transparency (the quality itself, rather than the process)\n- ⟦{可視化|かしか}→可視化：07644_kashika⟧: visualization — making data or processes visible, often technical\n- ⟦{公開|こうかい}→公開：11665_koukai⟧: disclosure — making information publicly available\n\nFORMS:\n⟦{透明|とうめい}→透明：04565_toumei⟧ (transparent) + ⟦{化|か}→〜化：28335_ka⟧ (transformation suffix)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05576_toumeisei",
+      "reading": "とうめいせい",
+      "headword": "{透明性|とうめいせい}",
+      "label": "transparency"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07644_kashika",
+      "reading": "かしか",
+      "headword": "{可視化|かしか}",
+      "label": "visualization"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11665_koukai",
+      "reading": "こうかい",
+      "headword": "{公開|こうかい}",
+      "label": "disclosure"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,7 +85,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-05T16:24:44Z",
-    "modified": "2026-04-05T16:24:44Z"
+    "modified": "2026-09-02T04:02:07Z"
   },
   "conjugation": {
     "type": "suru",

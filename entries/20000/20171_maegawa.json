@@ -15,40 +15,66 @@
   "examples": [
     {
       "id": "20171_maegawa_ex1",
-      "japanese": "{前側|まえがわ}に{座|すわ}る。",
+      "japanese": "{前側|まえがわ}⟦に→に：00314_ni⟧⟦{座|すわ}る→座る：00757_suwaru⟧。",
       "english": "To sit at the front.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20171_maegawa_ex2",
-      "japanese": "{建物|たてもの}の{前側|まえがわ}に{入口|いりぐち}がある。",
+      "japanese": "⟦{建物|たてもの}→建物：01458_tatemono⟧⟦の→の：09472_no⟧{前側|まえがわ}⟦に→に：00314_ni⟧{入口|いりぐち}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "The entrance is on the front side of the building.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20171_maegawa_ex3",
-      "japanese": "このシャツは{前側|まえがわ}にポケットが{二|ふた}つ{付|つ}いている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦シャツ→シャツ：01052_shatsu⟧⟦は→は：00079_ha⟧{前側|まえがわ}⟦に→に：00314_ni⟧⟦ポケット→ポケット：02964_poketto⟧⟦が→が：00051_ga⟧⟦{二|ふた}つ→二つ：02953_futatsu⟧⟦{付|つ}いている→付く：01960_tsuku⟧。",
       "english": "This shirt has two pockets on the front.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {前|まえ} (front) and {側|がわ} (side). Part of a set of directional compounds using {側|がわ}: {後|うし}ろ{側|がわ} (back side), {右側|みぎがわ} (right side), {左側|ひだりがわ} (left side), {片側|かたがわ} (one side).\n\nCOMMON COLLOCATIONS:\n- {前側|まえがわ}の{席|せき} — front seat\n- {前側|まえがわ}に{回|まわ}る — to go around to the front\n- {体|からだ}の{前側|まえがわ} — the front of the body\n\nSIMILAR WORDS:\n- {前面|ぜんめん} — front surface (more formal)\n- {正面|しょうめん} — the front, directly facing\n- {後|うし}ろ{側|がわ} — back side (antonym)",
+  "notes": "A compound of ⟦{前|まえ}→前：02255_mae⟧ (front) and ⟦{側|がわ}→〜側：03090_gawa⟧ (side). Part of a set of directional compounds using ⟦{側|がわ}→〜側：03090_gawa⟧: ⟦{後|うし}ろ{側|がわ}→後ろ側：20172_ushirogawa⟧ (back side), ⟦{右側|みぎがわ}→右側：24189_migigawa⟧ (right side), ⟦{左側|ひだりがわ}→左側：22836_hidarigawa⟧ (left side), ⟦{片側|かたがわ}→片側：20150_katagawa⟧ (one side).\n\nCOMMON COLLOCATIONS:\n- {前側|まえがわ}⟦の→の：09472_no⟧⟦{席|せき}→席：02215_seki⟧ — front seat\n- {前側|まえがわ}⟦に→に：00314_ni⟧⟦{回|まわ}る→回る：01150_mawaru⟧ — to go around to the front\n- ⟦{体|からだ}→体：00784_karada⟧⟦の→の：09472_no⟧{前側|まえがわ} — the front of the body\n\nSIMILAR WORDS:\n- {前面|ぜんめん} — front surface (more formal)\n- ⟦{正面|しょうめん}→正面：13189_shoumen⟧ — the front, directly facing\n- ⟦{後|うし}ろ{側|がわ}→後ろ側：20172_ushirogawa⟧ — back side (antonym)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13189_shoumen",
+      "reading": "しょうめん",
+      "headword": "{正面|しょうめん}",
+      "label": "the front, directly facing"
+    },
+    {
+      "type": "antonym",
+      "target_id": "20172_ushirogawa",
+      "reading": "うしろがわ",
+      "headword": "{後|うし}ろ{側|がわ}",
+      "label": "back side"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["position"]
+      "semantic": [
+        "position"
+      ]
     },
     "created": "2026-03-28T15:12:49Z",
-    "modified": "2026-03-28T15:12:49Z"
+    "modified": "2026-09-02T04:01:58Z"
   }
 }

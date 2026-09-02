@@ -3,7 +3,7 @@
   "headword": "{描写|びょうしゃ}する",
   "reading": "びょうしゃする",
   "romaji": "byoushasuru",
-  "part_of_speech": "noun, suru verb, transitive",
+  "part_of_speech": "noun, suru verb (transitive)",
   "gloss": "to depict; to describe; to portray",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "20162_byoushasuru_ex1",
-      "japanese": "{風景|ふうけい}を{描写|びょうしゃ}する。",
+      "japanese": "⟦{風景|ふうけい}→風景：03591_fuukei⟧⟦を→を：00422_wo⟧{描写|びょうしゃ}する。",
       "english": "To depict a landscape.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "20162_byoushasuru_ex2",
-      "japanese": "この{小説|しょうせつ}は{戦争|せんそう}の{悲惨|ひさん}さを{描写|びょうしゃ}している。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{小説|しょうせつ}→小説：01434_shousetsu⟧⟦は→は：00079_ha⟧⟦{戦争|せんそう}→戦争：01450_sensou⟧⟦の→の：09472_no⟧⟦{悲惨|ひさん}→悲惨：12633_hisan⟧さ⟦を→を：00422_wo⟧{描写|びょうしゃ}して⟦いる→いる：00495_iru⟧。",
       "english": "This novel depicts the tragedy of war.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "20162_byoushasuru_ex3",
-      "japanese": "{登場人物|とうじょうじんぶつ}の{心理|しんり}を{細|こま}かく{描写|びょうしゃ}するのがこの{作家|さっか}の{特徴|とくちょう}だ。",
+      "japanese": "⟦{登場人物|とうじょうじんぶつ}→登場人物：16072_toujoujinbutsu⟧⟦の→の：09472_no⟧⟦{心理|しんり}→心理：03332_shinri⟧⟦を→を：00422_wo⟧⟦{細|こま}かく→細かい：01245_komakai⟧{描写|びょうしゃ}する⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦この→この：00962_kono⟧⟦{作家|さっか}→作家：01414_sakka⟧⟦の→の：09472_no⟧⟦{特徴|とくちょう}→特徴：03456_tokuchou⟧だ。",
       "english": "It is characteristic of this author to describe the psychology of characters in fine detail.",
       "sense_numbers": [
         1
@@ -134,8 +134,31 @@
       "notes": null
     }
   ],
-  "notes": "A する-verb from {描写|びょうしゃ}, a compound of {描|びょう} (depict, draw) and {写|しゃ} (copy, capture). A key term in literary criticism, art, and film studies. Emphasizes vivid, detailed representation rather than simple description.\n\nTRANSITIVITY:\nTransitive — takes を to mark the thing being depicted.\n\nCOMMON COLLOCATIONS:\n- {心理|しんり}{描写|びょうしゃ} — psychological portrayal\n- {情景|じょうけい}{描写|びょうしゃ} — scene description\n- {人物|じんぶつ}{描写|びょうしゃ} — character portrayal\n- {写実的|しゃじつてき}な{描写|びょうしゃ} — realistic depiction\n- {描写力|びょうしゃりょく} — descriptive power\n\nSIMILAR WORDS:\n- {表現|ひょうげん}する — to express (broader, not limited to vivid representation)\n- {描|えが}く — to draw, to depict (native Japanese, also used figuratively)\n- {記述|きじゅつ}する — to describe in writing (more factual, less artistic)",
+  "notes": "A ⟦する→する：00392_suru⟧-verb from ⟦{描写|びょうしゃ}→描写：05516_byousha⟧, a compound of {描|びょう} (depict, draw) and {写|しゃ} (copy, capture). A key term in literary criticism, art, and film studies. Emphasizes vivid, detailed representation rather than simple description.\n\nTRANSITIVITY:\nTransitive — takes ⟦を→を：00422_wo⟧ to mark the thing being depicted.\n\nCOMMON COLLOCATIONS:\n- ⟦{心理|しんり}{描写|びょうしゃ}→心理描写：18000_shinribyousha⟧ — psychological portrayal\n- ⟦{情景|じょうけい}→情景：12676_joukei⟧⟦{描写|びょうしゃ}→描写：05516_byousha⟧ — scene description\n- ⟦{人物|じんぶつ}{描写|びょうしゃ}→人物描写：23974_jinbutsubyousha⟧ — character portrayal\n- ⟦{写実的|しゃじつてき}→写実的：17370_shajitsuteki⟧な⟦{描写|びょうしゃ}→描写：05516_byousha⟧ — realistic depiction\n- {描写力|びょうしゃりょく} — descriptive power\n\nSIMILAR WORDS:\n- ⟦{表現|ひょうげん}→表現：03584_hyougen⟧⟦する→する：00392_suru⟧ — to express (broader, not limited to vivid representation)\n- ⟦{描|えが}く→描く：02013_egaku⟧ — to draw, to depict (native Japanese, also used figuratively)\n- ⟦{記述|きじゅつ}する→記述する：17347_kijutsusuru⟧ — to describe in writing (more factual, less artistic)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03584_hyougen",
+      "reading": "ひょうげん",
+      "headword": "{表現|ひょうげん}",
+      "label": "to express"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02013_egaku",
+      "reading": "えがく",
+      "headword": "{描|えが}く",
+      "label": "to draw, to depict"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17347_kijutsusuru",
+      "reading": "きじゅつする",
+      "headword": "{記述|きじゅつ}する",
+      "label": "to describe in writing"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -153,6 +176,6 @@
       "verb_class": "suru"
     },
     "created": "2026-03-28T15:12:49Z",
-    "modified": "2026-03-28T15:12:49Z"
+    "modified": "2026-09-02T04:01:58Z"
   }
 }

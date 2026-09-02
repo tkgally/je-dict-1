@@ -15,41 +15,83 @@
   "examples": [
     {
       "id": "29495_sanpatsuya_ex1",
-      "japanese": "{散髪屋|さんぱつや}に{行|い}く。",
+      "japanese": "{散髪屋|さんぱつや}⟦に→に：00314_ni⟧⟦{行|い}く→行く：00119_iku⟧。",
       "english": "to go to the barbershop.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29495_sanpatsuya_ex2",
-      "japanese": "{駅前|えきまえ}の{散髪屋|さんぱつや}で{髪|かみ}を{切|き}った。",
+      "japanese": "⟦{駅前|えきまえ}→駅前：09593_ekimae⟧⟦の→の：09472_no⟧{散髪屋|さんぱつや}⟦で→で：00502_de⟧⟦{髪|かみ}→髪：02196_kami⟧⟦を→を：00422_wo⟧⟦{切|き}った→切る：02693_kiru⟧。",
       "english": "I got my hair cut at the barbershop in front of the station.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29495_sanpatsuya_ex3",
-      "japanese": "{子|こ}どもの{頃|ころ}は、{父|ちち}に{連|つ}れられて{近所|きんじょ}の{散髪屋|さんぱつや}に{通|かよ}っていた。",
+      "japanese": "{子|こ}ども⟦の→の：09472_no⟧{頃|ころ}⟦は→は：00079_ha⟧、⟦{父|ちち}→父：00566_chichi⟧⟦に→に：00314_ni⟧⟦{連|つ}れられて→連れる：01240_tsureru⟧⟦{近所|きんじょ}→近所：01318_kinjo⟧⟦の→の：09472_no⟧{散髪屋|さんぱつや}⟦に→に：00314_ni⟧⟦{通|かよ}っていた→通う：01217_kayou⟧。",
       "english": "When I was a child, my father would take me to the neighborhood barbershop.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Combines {散髪|さんぱつ} (haircut) + {屋|や} (shop, store). A casual word for a barbershop, especially the traditional kind for men. The suffix {屋|や} names a shop by what it sells or does.\n\nCOMMON COLLOCATIONS:\n- {散髪屋|さんぱつや}に{行|い}く: to go to the barbershop\n- {散髪屋|さんぱつや}で{髪|かみ}を{切|き}る: to get a haircut at the barbershop\n\nSIMILAR WORDS:\n- {理髪店|りはつてん}: barbershop — the more formal, signboard term\n- {床屋|とこや}: barbershop — another common colloquial word, much like {散髪屋|さんぱつや}\n- {美容院|びよういん}: beauty salon — offers cutting and styling for all genders",
+  "notes": "Combines ⟦{散髪|さんぱつ}→散髪：06318_sanpatsu⟧ (haircut) + ⟦{屋|や}→〜屋：03096_ya⟧ (shop, store). A casual word for a barbershop, especially the traditional kind for men. The suffix ⟦{屋|や}→〜屋：03096_ya⟧ names a shop by what it sells or does.\n\nCOMMON COLLOCATIONS:\n- {散髪屋|さんぱつや}⟦に→に：00314_ni⟧⟦{行|い}く→行く：00119_iku⟧: to go to the barbershop\n- {散髪屋|さんぱつや}⟦で→で：00502_de⟧⟦{髪|かみ}→髪：02196_kami⟧⟦を→を：00422_wo⟧⟦{切|き}る→切る：02693_kiru⟧: to get a haircut at the barbershop\n\nSIMILAR WORDS:\n- ⟦{理髪店|りはつてん}→理髪店：06320_rihatsuten⟧: barbershop — the more formal, signboard term\n- ⟦{床屋|とこや}→床屋：01682_tokoya⟧: barbershop — another common colloquial word, much like {散髪屋|さんぱつや}\n- ⟦{美容院|びよういん}→美容院：06319_biyouin⟧: beauty salon — offers cutting and styling for all genders",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06320_rihatsuten",
+      "reading": "りはつてん",
+      "headword": "{理髪店|りはつてん}",
+      "label": "barbershop"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01682_tokoya",
+      "reading": "とこや",
+      "headword": "{床屋|とこや}",
+      "label": "barbershop"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06319_biyouin",
+      "reading": "びよういん",
+      "headword": "{美容院|びよういん}",
+      "label": "beauty salon"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18078_riyoushitsu",
+      "reading": "りようしつ",
+      "headword": "{理容室|りようしつ}",
+      "label": "barbershop"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "informal",
-      "politeness": null,
-      "semantic": ["daily-life"],
-      "domain": ["colloquial"]
+      "politeness": "plain",
+      "semantic": [
+        "daily-life"
+      ],
+      "domain": [
+        "colloquial"
+      ]
     },
     "created": "2026-06-26T09:20:43Z",
-    "modified": "2026-06-26T09:20:43Z"
+    "modified": "2026-09-02T04:02:37Z"
   }
 }

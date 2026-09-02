@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "01555_kubetsu_ex1",
-      "japanese": "⟦{色|いろ}→色：00849_iro⟧⟦で→で：00502_de⟧{区別|くべつ}して⟦ください→ください：02899_kudasai⟧。",
+      "japanese": "⟦{色|いろ}→色：00849_iro⟧⟦で→で：00502_de⟧{区別|くべつ}⟦して→する：00392_suru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please differentiate them by color.",
       "notes": "で marks the means of distinction",
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "01555_kubetsu_ex2",
-      "japanese": "⟦{本物|ほんもの}→本物：03628_honmono⟧⟦と→と：00512_to⟧⟦{偽物|にせもの}→偽物：11521_nisemono⟧⟦を→を：00422_wo⟧{区別|くべつ}する。",
+      "japanese": "⟦{本物|ほんもの}→本物：03628_honmono⟧⟦と→と：00512_to⟧⟦{偽物|にせもの}→偽物：11521_nisemono⟧⟦を→を：00422_wo⟧{区別|くべつ}⟦する→する：00392_suru⟧。",
       "english": "To distinguish the real from the fake.",
       "notes": null,
       "has_audio": false,
@@ -155,11 +155,18 @@
       "reading": "しきべつ",
       "headword": "{識別|しきべつ}",
       "label": "identification, distinction"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18681_sabetsuka",
+      "reading": "さべつか",
+      "headword": "{差別化|さべつか}",
+      "label": "differentiation"
     }
   ],
   "metadata": {
     "created": "2026-01-09T11:41:04Z",
-    "modified": "2026-08-05T03:18:09Z",
+    "modified": "2026-09-02T04:01:00Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

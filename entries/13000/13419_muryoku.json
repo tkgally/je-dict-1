@@ -15,41 +15,67 @@
   "examples": [
     {
       "id": "13419_muryoku_ex1",
-      "japanese": "{自分|じぶん}の{無力|むりょく}さを{感|かん}じた。",
+      "japanese": "⟦{自分|じぶん}→自分：02887_jibun⟧⟦の→の：09472_no⟧{無力|むりょく}さ⟦を→を：00422_wo⟧⟦{感|かん}じた→感じる：02044_kanjiru⟧。",
       "english": "I felt my own powerlessness.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13419_muryoku_ex2",
-      "japanese": "{災害|さいがい}の{前|まえ}では{人間|にんげん}は{無力|むりょく}だ。",
+      "japanese": "⟦{災害|さいがい}→災害：09636_saigai⟧⟦の→の：09472_no⟧⟦{前|まえ}→前：02255_mae⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{人間|にんげん}→人間：03523_ningen⟧⟦は→は：00079_ha⟧{無力|むりょく}だ。",
       "english": "In the face of disaster, humans are powerless.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13419_muryoku_ex3",
-      "japanese": "{助|たす}けたいのに{何|なに}もできない{無力|むりょく}さに、{涙|なみだ}が{止|と}まらなかった。",
+      "japanese": "⟦{助|たす}けたい→助ける：00895_tasukeru⟧⟦の→の：09472_no⟧⟦に→に：00314_ni⟧⟦{何|なに}も→何も：03874_nanimo⟧⟦できない→できる：00557_dekiru⟧{無力|むりょく}さ⟦に→に：00314_ni⟧、⟦{涙|なみだ}→涙：02235_namida⟧⟦が→が：00051_ga⟧⟦{止|と}まらなかった→止まる：00555_tomaru⟧。",
       "english": "I couldn't stop crying from the helplessness of wanting to help but being unable to do anything.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "GRAMMAR:\nUsed as a noun and also as a na-adjective ({無力|むりょく}な). The form {無力|むりょく}さ (with the nominalizer さ) is very common for expressing the feeling of powerlessness.\n\nUSAGE:\nOften appears in reflective or emotional contexts where someone confronts their inability to change a situation. Common in personal essays, speeches, and narratives about natural disasters, illness, or social injustice.\n\nCOMMON COLLOCATIONS:\n- {無力|むりょく}さを{感|かん}じる: to feel powerlessness\n- {無力|むりょく}な{自分|じぶん}: one's powerless self\n- {無力|むりょく}さに{打|う}ちひしがれる: to be crushed by helplessness\n- {無力|むりょく}{感|かん}: feeling of powerlessness",
-  "cross_references": [],
+  "notes": "COMMON PATTERNS:\nUsed as a noun and also as a na-adjective ({無力|むりょく}な). The form {無力|むりょく}さ (with the nominalizer さ) is very common for expressing the feeling of powerlessness.\n\nUSAGE:\nOften appears in reflective or emotional contexts where someone confronts their inability to change a situation. Common in personal essays, speeches, and narratives about natural disasters, illness, or social injustice.\n\nCOMMON COLLOCATIONS:\n- {無力|むりょく}さ⟦を→を：00422_wo⟧⟦{感|かん}じる→感じる：02044_kanjiru⟧: to feel powerlessness\n- {無力|むりょく}な⟦{自分|じぶん}→自分：02887_jibun⟧: one's powerless self\n- {無力|むりょく}さ⟦に→に：00314_ni⟧{打|う}ちひしがれる: to be crushed by helplessness\n- {無力|むりょく}{感|かん}: feeling of powerlessness",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21148_muboubi",
+      "reading": "むぼうび",
+      "headword": "{無防備|むぼうび}",
+      "label": "defenseless"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26784_muboubina",
+      "reading": "むぼうびな",
+      "headword": "{無防備|むぼうび}な",
+      "label": "defenseless"
+    }
+  ],
   "metadata": {
     "created": "2026-02-24T11:42:20Z",
-    "modified": "2026-02-24T11:42:20Z",
+    "modified": "2026-09-02T04:01:33Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-na"],
+      "pos": [
+        "noun",
+        "adjective-na"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["descriptive"]
+      "semantic": [
+        "descriptive"
+      ]
     }
   }
 }

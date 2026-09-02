@@ -109,7 +109,7 @@
   "examples": [
     {
       "id": "07602_kasamu_ex1",
-      "japanese": "{出費|しゅっぴ}が{嵩|かさ}んでいる。",
+      "japanese": "⟦{出費|しゅっぴ}→出費：09205_shuppi⟧⟦が→が：00051_ga⟧{嵩|かさ}んで⟦いる→いる：00495_iru⟧。",
       "english": "Expenses are piling up.",
       "has_audio": false,
       "sense_numbers": [
@@ -119,7 +119,7 @@
     },
     {
       "id": "07602_kasamu_ex2",
-      "japanese": "{予想|よそう}より{費用|ひよう}が{嵩|かさ}んだ。",
+      "japanese": "⟦{予想|よそう}→予想：03664_yosou⟧⟦より→より：09476_yori⟧⟦{費用|ひよう}→費用：03588_hiyou⟧⟦が→が：00051_ga⟧{嵩|かさ}んだ。",
       "english": "The costs mounted up more than expected.",
       "has_audio": false,
       "sense_numbers": [
@@ -129,7 +129,7 @@
     },
     {
       "id": "07602_kasamu_ex3",
-      "japanese": "{医療費|いりょうひ}が{嵩|かさ}んで{困|こま}っている。",
+      "japanese": "⟦{医療費|いりょうひ}→医療費：24692_iryouhi⟧⟦が→が：00051_ga⟧{嵩|かさ}んで⟦{困|こま}っている→困る：00861_komaru⟧。",
       "english": "I'm struggling because my medical expenses keep mounting up.",
       "has_audio": false,
       "sense_numbers": [
@@ -139,7 +139,7 @@
     },
     {
       "id": "07602_kasamu_ex4",
-      "japanese": "{荷物|にもつ}が{嵩|かさ}む。",
+      "japanese": "⟦{荷物|にもつ}→荷物：00737_nimotsu⟧⟦が→が：00051_ga⟧{嵩|かさ}む。",
       "english": "The luggage is getting bulky.",
       "has_audio": false,
       "sense_numbers": [
@@ -149,7 +149,7 @@
     },
     {
       "id": "07602_kasamu_ex5",
-      "japanese": "{冬服|ふゆふく}は{嵩|かさ}んで{収納|しゅうのう}が{大変|たいへん}だ。",
+      "japanese": "⟦{冬服|ふゆふく}→冬服：23084_fuyufuku⟧⟦は→は：00079_ha⟧{嵩|かさ}んで⟦{収納|しゅうのう}→収納：07497_shuunou⟧⟦が→が：00051_ga⟧⟦{大変|たいへん}→大変：00594_taihen⟧だ。",
       "english": "Winter clothes are bulky and hard to store.",
       "has_audio": false,
       "sense_numbers": [
@@ -159,7 +159,7 @@
     },
     {
       "id": "07602_kasamu_ex6",
-      "japanese": "おみやげが{嵩|かさ}んで、スーツケースに{入|はい}りきらなかった。",
+      "japanese": "おみやげ⟦が→が：00051_ga⟧{嵩|かさ}んで、⟦スーツケース→スーツケース：01781_suutsukeesu⟧⟦に→に：00314_ni⟧⟦{入|はい}り→入る：00494_hairu⟧きらなかった。",
       "english": "The souvenirs got so bulky that they wouldn't all fit in the suitcase.",
       "has_audio": false,
       "sense_numbers": [
@@ -168,10 +168,19 @@
       "notes": null
     }
   ],
-  "notes": "TRANSITIVITY:\n{自動詞|じどうし} (intransitive)\nPattern: Xが{嵩|かさ}む\n\nASPECT (ている):\n{嵩|かさ}んでいる - has accumulated (resultant state)\n\nKANJI NOTE:\nThe kanji {嵩|かさ} is a rare character. This verb is often written in hiragana as かさむ.\n\nCOMMON COLLOCATIONS:\n・{費用|ひよう}が{嵩|かさ}む - expenses mount up\n・{出費|しゅっぴ}が{嵩|かさ}む - spending increases\n・{荷物|にもつ}が{嵩|かさ}む - luggage becomes bulky\n・{年齢|ねんれい}が{嵩|かさ}む - to get older (literary)\n\nNUANCE:\nOften implies a negative connotation, especially when referring to expenses or problems accumulating beyond expectations.",
+  "notes": "TRANSITIVITY:\n⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\nPattern: X⟦が→が：00051_ga⟧{嵩|かさ}む\n\nASPECT (ている):\n{嵩|かさ}んで⟦いる→いる：00495_iru⟧ - has accumulated (resultant state)\n\nWRITING:\nThe kanji {嵩|かさ} is a rare character. This verb is often written in hiragana as かさむ.\n\nCOMMON COLLOCATIONS:\n- ⟦{費用|ひよう}→費用：03588_hiyou⟧⟦が→が：00051_ga⟧{嵩|かさ}む - expenses mount up\n- ⟦{出費|しゅっぴ}→出費：09205_shuppi⟧⟦が→が：00051_ga⟧{嵩|かさ}む - spending increases\n- ⟦{荷物|にもつ}→荷物：00737_nimotsu⟧⟦が→が：00051_ga⟧{嵩|かさ}む - luggage becomes bulky\n- ⟦{年齢|ねんれい}→年齢：01490_nenrei⟧⟦が→が：00051_ga⟧{嵩|かさ}む - to get older (literary)\n\nUSAGE:\nOften implies a negative connotation, especially when referring to expenses or problems accumulating beyond expectations.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07918_kasabaru",
+      "reading": "かさばる",
+      "headword": "{嵩張|かさば}る",
+      "label": "to be bulky"
+    }
+  ],
   "metadata": {
     "created": "2026-01-20T12:57:12Z",
-    "modified": "2026-03-29T03:05:07Z",
+    "modified": "2026-09-02T04:01:12Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -181,6 +190,7 @@
       "transitivity": "intransitive",
       "verb_class": "godan-mu",
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "change",
         "quantity"

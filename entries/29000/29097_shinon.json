@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29097_shinon_ex1",
-      "japanese": "{医師|いし}が{心音|しんおん}を{聴診|ちょうしん}した。",
+      "japanese": "⟦{医師|いし}→医師：11851_ishi⟧⟦が→が：00051_ga⟧{心音|しんおん}⟦を→を：00422_wo⟧⟦{聴診|ちょうしん}→聴診：29063_choushin⟧⟦した→する：00392_suru⟧。",
       "english": "The doctor listened to the heart sounds.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29097_shinon_ex2",
-      "japanese": "{心音|しんおん}に{異常|いじょう}は{見|み}られなかった。",
+      "japanese": "{心音|しんおん}⟦に→に：00314_ni⟧⟦{異常|いじょう}→異常：01716_ijou⟧⟦は→は：00079_ha⟧⟦{見|み}られなかった→見る：00283_miru⟧。",
       "english": "No abnormality was found in the heart sounds.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29097_shinon_ex3",
-      "japanese": "{聴診器|ちょうしんき}を{胸|むね}に{当|あ}てて{心音|しんおん}を{確認|かくにん}すると、{雑音|ざつおん}が{聞|き}こえた。",
+      "japanese": "⟦{聴診器|ちょうしんき}→聴診器：16293_choushinki⟧⟦を→を：00422_wo⟧⟦{胸|むね}→胸：00972_mune⟧⟦に→に：00314_ni⟧⟦{当|あ}てて→当てる：01864_ateru⟧{心音|しんおん}⟦を→を：00422_wo⟧⟦{確認|かくにん}する→確認する：25332_kakuninsuru⟧⟦と→と：00512_to⟧、⟦{雑音|ざつおん}→雑音：04191_zatsuon⟧⟦が→が：00051_ga⟧⟦{聞|き}こえた→聞こえる：01229_kikoeru⟧。",
       "english": "When I placed the stethoscope on the chest to check the heart sounds, I heard a murmur.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "{心|しん} means heart; {音|おん} means sound. A technical medical term used in clinical settings.\n\nCOMMON COLLOCATIONS:\n- {心音|しんおん}を{聴|き}く／{聴診|ちょうしん}する: to listen to heart sounds\n- {心音|しんおん}に{異常|いじょう}がある: to have abnormal heart sounds\n- {心音|しんおん}{確認|かくにん}: checking heart sounds\n- {胎児|たいじ}の{心音|しんおん}: fetal heartbeat",
+  "notes": "{心|しん} means heart; {音|おん} means sound. A technical medical term used in clinical settings.\n\nCOMMON COLLOCATIONS:\n- {心音|しんおん}⟦を→を：00422_wo⟧⟦{聴|き}く→聴く：30010_kiku⟧／⟦{聴診|ちょうしん}→聴診：29063_choushin⟧⟦する→する：00392_suru⟧: to listen to heart sounds\n- {心音|しんおん}⟦に→に：00314_ni⟧⟦{異常|いじょう}→異常：01716_ijou⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧: to have abnormal heart sounds\n- {心音|しんおん}⟦{確認|かくにん}→確認：00158_kakunin⟧: checking heart sounds\n- {胎児|たいじ}⟦の→の：09472_no⟧{心音|しんおん}: fetal heartbeat",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,7 +53,7 @@
         "noun"
       ],
       "formality": "formal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "health"
       ],
@@ -62,6 +62,6 @@
       ]
     },
     "created": "2026-06-10T12:35:11Z",
-    "modified": "2026-08-09T06:33:11Z"
+    "modified": "2026-09-02T04:02:35Z"
   }
 }

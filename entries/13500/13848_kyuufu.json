@@ -3,7 +3,7 @@
   "id": "13848_kyuufu",
   "headword": "{給付|きゅうふ}",
   "reading": "きゅうふ",
-  "part_of_speech": "noun / verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "benefit, allowance, payment, provision",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "13848_kyuufu_ex1",
-      "japanese": "{給付金|きゅうふきん}を{申請|しんせい}する。",
+      "japanese": "⟦{給付金|きゅうふきん}→給付金：20806_kyuufukin⟧⟦を→を：00422_wo⟧⟦{申請|しんせい}する→申請する：25228_shinseisuru⟧。",
       "english": "Apply for a benefit payment.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "13848_kyuufu_ex2",
-      "japanese": "{失業|しつぎょう}{給付|きゅうふ}を{受|う}けている。",
+      "japanese": "{失業|しつぎょう}{給付|きゅうふ}⟦を→を：00422_wo⟧⟦{受|う}けている→受ける：01215_ukeru⟧。",
       "english": "I am receiving unemployment benefits.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "13848_kyuufu_ex3",
-      "japanese": "{政府|せいふ}は{低所得|ていしょとく}{世帯|せたい}に{対|たい}して、{一人|ひとり}あたり10{万円|まんえん}の{給付金|きゅうふきん}を{支給|しきゅう}すると{発表|はっぴょう}した。",
+      "japanese": "⟦{政府|せいふ}→政府：03294_seifu⟧⟦は→は：00079_ha⟧{低所得|ていしょとく}⟦{世帯|せたい}→世帯：06870_setai⟧⟦に{対|たい}して→に対して：06800_nitaishite⟧、⟦{一人|ひとり}→一人：00630_hitori⟧あたり10{万円|まんえん}⟦の→の：09472_no⟧⟦{給付金|きゅうふきん}→給付金：20806_kyuufukin⟧⟦を→を：00422_wo⟧⟦{支給|しきゅう}→支給：02835_shikyuu⟧⟦する→する：00392_suru⟧⟦と→と：00512_to⟧⟦{発表|はっぴょう}した→発表する：25231_happyousuru⟧。",
       "english": "The government announced that it would provide a benefit payment of 100,000 yen per person to low-income households.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA key term in discussions of government benefits, social security, and insurance in Japan. Became widely known during the COVID-19 pandemic when the government distributed {特別定額給付金|とくべつていがくきゅうふきん} (special fixed-amount benefits) to all residents.\n\nSIMILAR WORDS:\n- {支給|しきゅう}: provision, supply (from an employer or organization)\n- {手当|てあて}: allowance, benefit (often for specific purposes like commuting)\n- {補助金|ほじょきん}: subsidy, grant (for projects or organizations)\n\nHOMOPHONES:\nNot to be confused with {休符|きゅうふ} (musical rest).\n\nCOMMON COLLOCATIONS:\n- {給付金|きゅうふきん}: benefit payment, subsidy\n- {失業|しつぎょう}{給付|きゅうふ}: unemployment benefits\n- {給付|きゅうふ}を{受|う}ける: to receive benefits\n- {給付|きゅうふ}{対象|たいしょう}: eligible for benefits\n- {現金|げんきん}{給付|きゅうふ}: cash benefit",
+  "notes": "USAGE:\nA key term in discussions of government benefits, social security, and insurance in Japan. Became widely known during the COVID-19 pandemic when the government distributed {特別定額給付金|とくべつていがくきゅうふきん} (special fixed-amount benefits) to all residents.\n\nSIMILAR WORDS:\n- ⟦{支給|しきゅう}→支給：02835_shikyuu⟧: provision, supply (from an employer or organization)\n- ⟦{手当|てあて}→手当：04881_teate⟧: allowance, benefit (often for specific purposes like commuting)\n- ⟦{補助金|ほじょきん}→補助金：19222_hojokin⟧: subsidy, grant (for projects or organizations)\n\nWATCH OUT:\nNot to be confused with ⟦{休符|きゅうふ}→休符：07538_kyuufu⟧ (musical rest).\n\nCOMMON COLLOCATIONS:\n- ⟦{給付金|きゅうふきん}→給付金：20806_kyuufukin⟧: benefit payment, subsidy\n- {失業|しつぎょう}{給付|きゅうふ}: unemployment benefits\n- {給付|きゅうふ}⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧: to receive benefits\n- {給付|きゅうふ}{対象|たいしょう}: eligible for benefits\n- {現金|げんきん}{給付|きゅうふ}: cash benefit",
   "cross_references": [
     {
       "type": "synonym",
@@ -142,11 +142,32 @@
       "reading": "しきゅう",
       "headword": "{支給|しきゅう}",
       "label": "provision, supply"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04881_teate",
+      "reading": "てあて",
+      "headword": "{手当|てあて}",
+      "label": "allowance, benefit"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19222_hojokin",
+      "reading": "ほじょきん",
+      "headword": "{補助金|ほじょきん}",
+      "label": "subsidy, grant"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19899_koufusuru",
+      "reading": "こうふする",
+      "headword": "{交付|こうふ}する",
+      "label": "to issue, to deliver (officially)"
     }
   ],
   "metadata": {
     "created": "2026-02-27T05:15:25Z",
-    "modified": "2026-04-29T09:23:58Z",
+    "modified": "2026-09-02T04:01:34Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

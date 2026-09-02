@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "07484_mitsumorisho_ex1",
-      "japanese": "{見積書|みつもりしょ}を{作成|さくせい}してください。",
+      "japanese": "{見積書|みつもりしょ}⟦を→を：00422_wo⟧⟦{作成|さくせい}して→作成する：25378_sakuseisuru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please prepare a quotation.",
       "has_audio": false,
       "sense_numbers": [
@@ -23,7 +23,7 @@
     },
     {
       "id": "07484_mitsumorisho_ex2",
-      "japanese": "{複数|ふくすう}の{業者|ぎょうしゃ}から{見積書|みつもりしょ}を{取|と}る。",
+      "japanese": "⟦{複数|ふくすう}→複数：14236_fukusuu⟧⟦の→の：09472_no⟧⟦{業者|ぎょうしゃ}→業者：13130_gyousha⟧⟦から→から：00504_kara⟧{見積書|みつもりしょ}⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧。",
       "english": "Get quotations from multiple vendors.",
       "has_audio": false,
       "sense_numbers": [
@@ -32,7 +32,7 @@
     },
     {
       "id": "07484_mitsumorisho_ex3",
-      "japanese": "{見積書|みつもりしょ}の{有効期限|ゆうこうきげん}は30{日間|にちかん}です。",
+      "japanese": "{見積書|みつもりしょ}⟦の→の：09472_no⟧⟦{有効期限|ゆうこうきげん}→有効期限：06415_yuukoukigen⟧⟦は→は：00079_ha⟧30{日間|にちかん}です。",
       "english": "This quotation is valid for 30 days.",
       "has_audio": false,
       "sense_numbers": [
@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "notes": "WORD STRUCTURE:\n{見積|みつも}り (estimate) + {書|しょ} (document)\n\nTYPICAL CONTENTS:\n・{見積|みつも}り{番号|ばんごう} - quotation number\n・{日付|ひづけ} - date\n・{有効期限|ゆうこうきげん} - validity period\n・{品名|ひんめい} - item name\n・{数量|すうりょう} - quantity\n・{単価|たんか} - unit price\n・{金額|きんがく} - amount\n・{小計|しょうけい} - subtotal\n・{消費税|しょうひぜい} - consumption tax\n・{合計|ごうけい} - total\n\nCOMMON EXPRESSIONS:\n・{見積書|みつもりしょ}を{依頼|いらい}する - to request a quote\n・{見積書|みつもりしょ}を{発行|はっこう}する - to issue a quote\n・{見積|みつも}りを{取|と}る - to get an estimate\n・{相見積|あいみつも}り - comparative quotes (from multiple vendors)\n\nRELATED DOCUMENTS:\n・{発注書|はっちゅうしょ} - purchase order\n・{請求書|せいきゅうしょ} - invoice\n・{納品書|のうひんしょ} - delivery slip",
+  "notes": "ETYMOLOGY:\n⟦{見積|みつも}り→見積り：04699_mitsumori⟧ (estimate) + ⟦{書|しょ}→〜書：28467_sho⟧ (document)\n\nTYPICAL CONTENTS:\n- ⟦{見積|みつも}り→見積り：04699_mitsumori⟧⟦{番号|ばんごう}→番号：02939_bangou⟧ - quotation number\n- ⟦{日付|ひづけ}→日付：03706_hizuke⟧ - date\n- ⟦{有効期限|ゆうこうきげん}→有効期限：06415_yuukoukigen⟧ - validity period\n- {品名|ひんめい} - item name\n- ⟦{数量|すうりょう}→数量：05473_suuryou⟧ - quantity\n- ⟦{単価|たんか}→単価：05471_tanka⟧ - unit price\n- ⟦{金額|きんがく}→金額：02665_kingaku⟧ - amount\n- ⟦{小計|しょうけい}→小計：20725_shoukei⟧ - subtotal\n- ⟦{消費税|しょうひぜい}→消費税：04803_shouhizei⟧ - consumption tax\n- ⟦{合計|ごうけい}→合計：02817_goukei⟧ - total\n\nCOMMON EXPRESSIONS:\n- {見積書|みつもりしょ}⟦を→を：00422_wo⟧⟦{依頼|いらい}する→依頼する：21376_irai⟧ - to request a quote\n- {見積書|みつもりしょ}⟦を→を：00422_wo⟧⟦{発行|はっこう}する→発行する：19236_hakkousuru⟧ - to issue a quote\n- ⟦{見積|みつも}り→見積り：04699_mitsumori⟧⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧ - to get an estimate\n- {相見積|あいみつも}り - comparative quotes (from multiple vendors)\n\nRELATED DOCUMENTS:\n- ⟦{発注書|はっちゅうしょ}→発注書：08069_hacchuusho⟧ - purchase order\n- ⟦{請求書|せいきゅうしょ}→請求書：04698_seikyuusho⟧ - invoice\n- ⟦{納品書|のうひんしょ}→納品書：06594_nouhinsho⟧ - delivery slip",
   "cross_references": [
     {
       "type": "related",
@@ -48,11 +48,39 @@
       "headword": "{発注書|はっちゅうしょ}",
       "label": "purchase order",
       "target_id": "08069_hacchuusho"
+    },
+    {
+      "type": "related",
+      "target_id": "04698_seikyuusho",
+      "reading": "せいきゅうしょ",
+      "headword": "{請求書|せいきゅうしょ}",
+      "label": "invoice"
+    },
+    {
+      "type": "related",
+      "target_id": "06594_nouhinsho",
+      "reading": "のうひんしょ",
+      "headword": "{納品書|のうひんしょ}",
+      "label": "delivery slip"
+    },
+    {
+      "type": "related",
+      "target_id": "08126_chuumonsho",
+      "reading": "ちゅうもんしょ",
+      "headword": "{注文書|ちゅうもんしょ}",
+      "label": "order form"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21923_ryoukinhyou",
+      "reading": "りょうきんひょう",
+      "headword": "{料金表|りょうきんひょう}",
+      "label": "price list"
     }
   ],
   "metadata": {
     "created": "2026-01-20T05:43:45Z",
-    "modified": "2026-08-10T18:29:45Z",
+    "modified": "2026-09-02T04:01:11Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +88,7 @@
         "noun"
       ],
       "formality": "formal",
+      "politeness": "plain",
       "semantic": [
         "business",
         "money"

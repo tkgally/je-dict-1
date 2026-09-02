@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "17821_tojimari_ex1",
-      "japanese": "{戸締|とじ}まりを{忘|わす}れないでね。",
+      "japanese": "{戸締|とじ}まり⟦を→を：00422_wo⟧⟦{忘|わす}れないで→忘れる：00474_wasureru⟧⟦ね→ね：09474_ne⟧。",
       "english": "Don't forget to lock up.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "17821_tojimari_ex2",
-      "japanese": "{寝|ね}る{前|まえ}に{戸締|とじ}まりを{確認|かくにん}した。",
+      "japanese": "⟦{寝|ね}る→寝る：00470_neru⟧⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧{戸締|とじ}まり⟦を→を：00422_wo⟧⟦{確認|かくにん}した→確認する：25332_kakuninsuru⟧。",
       "english": "I checked the locks before going to bed.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "17821_tojimari_ex3",
-      "japanese": "{外出|がいしゅつ}{中|ちゅう}に{戸締|とじ}まりをしたかどうか{気|き}になって、{途中|とちゅう}で{引|ひ}き{返|かえ}した。",
+      "japanese": "⟦{外出|がいしゅつ}→外出：02543_gaishutsu⟧⟦{中|ちゅう}→〜中：09840_chuu⟧⟦に→に：00314_ni⟧{戸締|とじ}まり⟦を→を：00422_wo⟧⟦した→する：00392_suru⟧⟦かどうか→かどうか：28299_kadouka⟧⟦{気|き}になって→気になる：03027_kininaru⟧、⟦{途中|とちゅう}→途中：01684_tochuu⟧⟦で→で：00502_de⟧⟦{引|ひ}き{返|かえ}した→引き返す：05872_hikikaesu⟧。",
       "english": "While I was out, I worried about whether I had locked up, so I turned back halfway.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nMost commonly used with する as {戸締|とじ}まりをする (to lock up). Also used as a noun in compounds and with {確認|かくにん} (checking).\n\nCOMMON COLLOCATIONS:\n- {戸締|とじ}まりをする (to lock up)\n- {戸締|とじ}まりを{確認|かくにん}する (to check the locks)\n- {戸締|とじ}まりを{忘|わす}れる (to forget to lock up)\n\nNOTE ON SPELLING:\nAlso written as {戸締|とじ}り without the ま. Both forms are used, but {戸締|とじ}まり is more common.",
+  "notes": "USAGE:\nMost commonly used with ⟦する→する：00392_suru⟧ as {戸締|とじ}まり⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧ (to lock up). Also used as a noun in compounds and with ⟦{確認|かくにん}→確認：00158_kakunin⟧ (checking).\n\nCOMMON COLLOCATIONS:\n- {戸締|とじ}まり⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧ (to lock up)\n- {戸締|とじ}まり⟦を→を：00422_wo⟧⟦{確認|かくにん}する→確認する：25332_kakuninsuru⟧ (to check the locks)\n- {戸締|とじ}まり⟦を→を：00422_wo⟧⟦{忘|わす}れる→忘れる：00474_wasureru⟧ (to forget to lock up)\n\nNOTE ON SPELLING:\nAlso written as {戸締|とじ}り without the ま. Both forms are used, but {戸締|とじ}まり is more common.",
   "cross_references": [
     {
       "type": "related",
@@ -52,11 +52,18 @@
       "reading": "かぎ",
       "headword": "{鍵|かぎ}",
       "label": "key/lock"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22087_sejou",
+      "reading": "せじょう",
+      "headword": "{施錠|せじょう}",
+      "label": "locking"
     }
   ],
   "metadata": {
     "created": "2026-03-19T04:21:55Z",
-    "modified": "2026-07-24T21:50:29Z",
+    "modified": "2026-09-02T04:01:49Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

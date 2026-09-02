@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "USAGE: {喪中|もちゅう} refers to the period of mourning, typically lasting about one year after a close family member's death. During this time, people refrain from celebratory activities.\n\nCOMMON COLLOCATIONS:\n- {喪中|もちゅう}⟦ハガキ→はがき：00699_hagaki⟧/{喪中|もちゅう}⟦{葉書|はがき}→はがき：00699_hagaki⟧ (mourning notification postcard)\n- {喪中|もちゅう}⟦{欠礼|けつれい}→欠礼：29391_ketsurei⟧ (formal term for not sending New Year greetings due to mourning)\n- {喪中|もちゅう}につき (due to being in mourning)\n\nCUSTOMS:\n- {喪中|もちゅう}⟦ハガキ→はがき：00699_hagaki⟧ is sent in November-early December to notify friends that you won't be sending ⟦{年賀状|ねんがじょう}→年賀状：06227_nengajou⟧\n- During {喪中|もちゅう}, one avoids ⟦{正月|しょうがつ}→正月：01433_shougatsu⟧⟦{飾|かざ}り→飾り：02539_kazari⟧ (New Year decorations), ⟦お{節料理|せちりょうり}→おせち料理：26981_osechiryouri⟧, and other celebratory activities\n- The mourning period length varies by relationship (spouse/parents: 12-13 months; grandparents: 3-6 months)\n\nRELATED:\n- ⟦{忌中|きちゅう}→忌中：26041_kichuu⟧ (immediate mourning period, typically 49 days)",
+  "notes": "USAGE: {喪中|もちゅう} refers to the period of mourning, typically lasting about one year after a close family member's death. During this time, people refrain from celebratory activities.\n\nCOMMON COLLOCATIONS:\n- {喪中|もちゅう}⟦ハガキ→はがき：00699_hagaki⟧/{喪中|もちゅう}⟦{葉書|はがき}→はがき：00699_hagaki⟧ (mourning notification postcard)\n- {喪中|もちゅう}⟦{欠礼|けつれい}→欠礼：29391_ketsurei⟧ (formal term for not sending New Year greetings due to mourning)\n- {喪中|もちゅう}⟦につき→につき：17196_nitsuki⟧ (due to being in mourning)\n\nCUSTOMS:\n- {喪中|もちゅう}⟦ハガキ→はがき：00699_hagaki⟧ is sent in November-early December to notify friends that you won't be sending ⟦{年賀状|ねんがじょう}→年賀状：06227_nengajou⟧\n- During {喪中|もちゅう}, one avoids ⟦{正月|しょうがつ}→正月：01433_shougatsu⟧⟦{飾|かざ}り→飾り：02539_kazari⟧ (New Year decorations), ⟦お{節料理|せちりょうり}→おせち料理：26981_osechiryouri⟧, and other celebratory activities\n- The mourning period length varies by relationship (spouse/parents: 12-13 months; grandparents: 3-6 months)\n\nRELATED WORDS:\n- ⟦{忌中|きちゅう}→忌中：26041_kichuu⟧ (immediate mourning period, typically 49 days)",
   "cross_references": [
     {
       "type": "related",
@@ -51,11 +51,32 @@
       "headword": "{年賀状|ねんがじょう}",
       "label": "New Year card",
       "target_id": "06227_nengajou"
+    },
+    {
+      "type": "related",
+      "target_id": "26041_kichuu",
+      "reading": "きちゅう",
+      "headword": "{忌中|きちゅう}",
+      "label": "immediate mourning period, typically 49…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25136_fukumou",
+      "reading": "ふくもう",
+      "headword": "{服喪|ふくもう}",
+      "label": "mourning"
+    },
+    {
+      "type": "related",
+      "target_id": "29105_kiake",
+      "reading": "きあけ",
+      "headword": "{忌明|きあ}け",
+      "label": "end of mourning period"
     }
   ],
   "metadata": {
     "created": "2026-01-17T05:25:35Z",
-    "modified": "2026-08-25T00:21:26Z",
+    "modified": "2026-09-02T04:01:08Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

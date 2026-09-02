@@ -14,38 +14,80 @@
   "examples": [
     {
       "id": "08286_tachimi_ex1",
-      "japanese": "{立|た}ち{見|み}で{映画|えいが}を{観|み}た。",
+      "japanese": "{立|た}ち{見|み}⟦で→で：00502_de⟧⟦{映画|えいが}→映画：02273_eiga⟧⟦を→を：00422_wo⟧⟦{観|み}た→観る：22793_miru⟧。",
       "english": "I watched the movie standing.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "08286_tachimi_ex2",
-      "japanese": "{立|た}ち{見席|みせき}でもいいからチケットがほしい。",
+      "japanese": "⟦{立|た}ち{見席|みせき}→立ち見席：18137_tachimiseki⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧⟦いい→いい：00118_ii⟧⟦から→から：00504_kara⟧⟦チケット→チケット：11014_chiketto⟧⟦が→が：00051_ga⟧ほしい。",
       "english": "I want a ticket even if it's standing room only.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "08286_tachimi_ex3",
-      "japanese": "{人気|にんき}のライブは{立|た}ち{見|み}でいっぱいだった。",
+      "japanese": "⟦{人気|にんき}→人気：01488_ninki⟧⟦の→の：09472_no⟧⟦ライブ→ライブ：05412_raibu⟧⟦は→は：00079_ha⟧{立|た}ち{見|み}⟦で→で：00502_de⟧いっぱいだった。",
       "english": "The popular concert was full of standing audience members.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "FORMATION:\n{立|た}つ (to stand) + {見|み}る (to watch) → watching while standing\n\nUSAGE CONTEXTS:\n- Concerts and live performances (often the standard format)\n- Theaters when sold out\n- Sports events\n- Movie theaters (rare, during peak times)\n\nRELATED TERMS:\n- {立|た}ち{見席|みせき} (standing room section)\n- {立|た}ち{見|み}エリア (standing area)\n- オールスタンディング (all-standing event)\n- {指定席|していせき} (reserved seating)\n- {自由席|じゆうせき} (unreserved seating)\n\nVERB FORM:\n- {立|た}ち{見|み}する (to watch while standing)\n- {立|た}ち{見|み}になる (to end up standing)\n\nRELATED:\n- {着席|ちゃくせき} (seated, sitting down)\n- {満席|まんせき} (full house, sold out)",
+  "notes": "FORMS:\n⟦{立|た}つ→立つ：00758_tatsu⟧ (to stand) + ⟦{見|み}る→見る：00283_miru⟧ (to watch) → watching while standing\n- {立|た}ち{見|み}⟦する→する：00392_suru⟧ (to watch while standing)\n- {立|た}ち{見|み}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧ (to end up standing)\n\nUSAGE:\n- Concerts and live performances (often the standard format)\n- Theaters when sold out\n- Sports events\n- Movie theaters (rare, during peak times)\n\nRELATED WORDS:\n- ⟦{立|た}ち{見席|みせき}→立ち見席：18137_tachimiseki⟧ (standing room section)\n- {立|た}ち{見|み}⟦エリア→エリア：10726_eria⟧ (standing area)\n- ⟦オール→オール：28484_ooru⟧スタンディング (all-standing event)\n- ⟦{指定席|していせき}→指定席：07046_shiteiseki⟧ (reserved seating)\n- ⟦{自由席|じゆうせき}→自由席：07047_jiyuuseki⟧ (unreserved seating)\n- ⟦{着席|ちゃくせき}→着席：18472_chakuseki⟧ (seated, sitting down)\n- ⟦{満席|まんせき}→満席：07585_manseki⟧ (full house, sold out)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "07046_shiteiseki",
+      "reading": "していせき",
+      "headword": "{指定席|していせき}",
+      "label": "reserved seating"
+    },
+    {
+      "type": "related",
+      "target_id": "07047_jiyuuseki",
+      "reading": "じゆうせき",
+      "headword": "{自由席|じゆうせき}",
+      "label": "unreserved seating"
+    },
+    {
+      "type": "related",
+      "target_id": "18472_chakuseki",
+      "reading": "ちゃくせき",
+      "headword": "{着席|ちゃくせき}",
+      "label": "seated, sitting down"
+    },
+    {
+      "type": "related",
+      "target_id": "07585_manseki",
+      "reading": "まんせき",
+      "headword": "{満席|まんせき}",
+      "label": "full house, sold out"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "semantic": ["entertainment", "events"]
+      "politeness": "plain",
+      "semantic": [
+        "entertainment",
+        "events"
+      ]
     },
     "created": "2026-01-25T11:42:17Z",
-    "modified": "2026-01-25T11:42:17Z"
+    "modified": "2026-09-02T04:01:14Z"
   }
 }

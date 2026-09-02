@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "18331_namisen_ex1",
-      "japanese": "{波線|なみせん}で{囲|かこ}んでください。",
+      "japanese": "{波線|なみせん}⟦で→で：00502_de⟧⟦{囲|かこ}んで→囲む：02037_kakomu⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please circle it with a wavy line.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18331_namisen_ex2",
-      "japanese": "{重要|じゅうよう}な{部分|ぶぶん}に{波線|なみせん}を{引|ひ}いた。",
+      "japanese": "⟦{重要|じゅうよう}→重要：01575_juuyou⟧な⟦{部分|ぶぶん}→部分：03715_bubun⟧⟦に→に：00314_ni⟧{波線|なみせん}⟦を→を：00422_wo⟧⟦{引|ひ}いた→引く：01978_hiku⟧。",
       "english": "I drew a wavy line under the important parts.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18331_namisen_ex3",
-      "japanese": "グラフの{中|なか}で{波線|なみせん}は{省略|しょうりゃく}を{意味|いみ}している。",
+      "japanese": "⟦グラフ→グラフ：04864_gurafu⟧⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧⟦で→で：00502_de⟧{波線|なみせん}⟦は→は：00079_ha⟧⟦{省略|しょうりゃく}→省略：03244_shouryaku⟧⟦を→を：00422_wo⟧⟦{意味|いみ}→意味：01155_imi⟧⟦している→する：00392_suru⟧。",
       "english": "The wavy line in the graph indicates an omission.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nIn graphs and charts, a {波線|なみせん} on an axis indicates that part of the scale has been omitted. In proofreading and note-taking, wavy underlines are used to highlight important passages. The tilde character (~) is also sometimes called {波線|なみせん}.\n\nCOMMON COLLOCATIONS:\n- {波線|なみせん}を{引|ひ}く (to draw a wavy line)\n- {波線|なみせん}で{囲|かこ}む (to enclose with a wavy line)\n\nSIMILAR WORDS:\n- {点線|てんせん}: dotted line\n- {実線|じっせん}: solid line\n- {直線|ちょくせん}: straight line",
+  "notes": "USAGE:\nIn graphs and charts, a {波線|なみせん} on an axis indicates that part of the scale has been omitted. In proofreading and note-taking, wavy underlines are used to highlight important passages. The tilde character (~) is also sometimes called {波線|なみせん}.\n\nCOMMON COLLOCATIONS:\n- {波線|なみせん}⟦を→を：00422_wo⟧⟦{引|ひ}く→引く：01978_hiku⟧ (to draw a wavy line)\n- {波線|なみせん}⟦で→で：00502_de⟧⟦{囲|かこ}む→囲む：02037_kakomu⟧ (to enclose with a wavy line)\n\nSIMILAR WORDS:\n- ⟦{点線|てんせん}→点線：18308_tensen⟧: dotted line\n- ⟦{実線|じっせん}→実線：20763_jissen⟧: solid line\n- ⟦{直線|ちょくせん}→直線：05440_chokusen⟧: straight line",
   "cross_references": [
     {
       "type": "related",
@@ -53,18 +59,29 @@
       "reading": "ちょくせん",
       "headword": "{直線|ちょくせん}",
       "label": "straight line"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20763_jissen",
+      "reading": "じっせん",
+      "headword": "{実線|じっせん}",
+      "label": "solid line"
     }
   ],
   "metadata": {
     "created": "2026-03-21T09:15:52Z",
-    "modified": "2026-05-08T09:06:15Z",
+    "modified": "2026-09-02T04:01:51Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

@@ -14,50 +14,84 @@
   "examples": [
     {
       "id": "19450_reibun_ex1",
-      "japanese": "{例文|れいぶん}を{読|よ}む。",
+      "japanese": "{例文|れいぶん}⟦を→を：00422_wo⟧⟦{読|よ}む→読む：00426_yomu⟧。",
       "english": "To read example sentences.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "19450_reibun_ex2",
-      "japanese": "この{辞書|じしょ}には{例文|れいぶん}がたくさん{載|の}っている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{辞書|じしょ}→辞書：04707_jisho⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{例文|れいぶん}⟦が→が：00051_ga⟧⟦たくさん→たくさん：00597_takusan⟧⟦{載|の}っている→載る：27882_noru⟧。",
       "english": "This dictionary has many example sentences.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "19450_reibun_ex3",
-      "japanese": "{例文|れいぶん}を{使|つか}って{新|あたら}しい{単語|たんご}を{覚|おぼ}えた。",
+      "japanese": "{例文|れいぶん}⟦を→を：00422_wo⟧⟦{使|つか}って→使う：00473_tsukau⟧⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦{単語|たんご}→単語：03413_tango⟧⟦を→を：00422_wo⟧⟦{覚|おぼ}えた→覚える：00739_oboeru⟧。",
       "english": "I memorized new vocabulary using example sentences.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "19450_reibun_ex4",
-      "japanese": "{先生|せんせい}が{黒板|こくばん}に{例文|れいぶん}を{書|か}いて{文法|ぶんぽう}を{説明|せつめい}した。",
+      "japanese": "⟦{先生|せんせい}→先生：00609_sensei⟧⟦が→が：00051_ga⟧⟦{黒板|こくばん}→黒板：02756_kokuban⟧⟦に→に：00314_ni⟧{例文|れいぶん}⟦を→を：00422_wo⟧⟦{書|か}いて→書く：00477_kaku⟧⟦{文法|ぶんぽう}→文法：01506_bunpou⟧⟦を→を：00422_wo⟧⟦{説明|せつめい}した→説明する：05639_setsumeisuru⟧。",
       "english": "The teacher wrote example sentences on the blackboard and explained the grammar.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{例文|れいぶん} is a sentence provided to illustrate how a word, grammar point, or expression is used in context. It is a staple of language textbooks, dictionaries, and classroom instruction, where learners study example sentences to internalize natural usage patterns.\n\nSTRUCTURE:\n- {例|れい} (example) + {文|ぶん} (sentence)\n\nCOMMON COLLOCATIONS:\n- {例文|れいぶん}を{作|つく}る (to create an example sentence)\n- {例文|れいぶん}を{読|よ}む (to read example sentences)\n- {例文|れいぶん}が{載|の}っている (example sentences are included)\n- {例文|れいぶん}を{暗記|あんき}する (to memorize example sentences)\n\nRELATED WORDS:\n- {例|れい} (example)\n- {例題|れいだい} (example problem/exercise)\n- {用例|ようれい} (usage example — more formal/technical)",
-  "cross_references": [],
+  "notes": "{例文|れいぶん} is a sentence provided to illustrate how a word, grammar point, or expression is used in context. It is a staple of language textbooks, dictionaries, and classroom instruction, where learners study example sentences to internalize natural usage patterns.\n\nCOMMON PATTERNS:\n- ⟦{例|れい}→例：09932_rei⟧ (example) + ⟦{文|ぶん}→文：03716_bun⟧ (sentence)\n\nCOMMON COLLOCATIONS:\n- {例文|れいぶん}⟦を→を：00422_wo⟧⟦{作|つく}る→作る：00481_tsukuru⟧ (to create an example sentence)\n- {例文|れいぶん}⟦を→を：00422_wo⟧⟦{読|よ}む→読む：00426_yomu⟧ (to read example sentences)\n- {例文|れいぶん}⟦が→が：00051_ga⟧⟦{載|の}っている→載る：27882_noru⟧ (example sentences are included)\n- {例文|れいぶん}⟦を→を：00422_wo⟧⟦{暗記|あんき}→暗記：01701_anki⟧⟦する→する：00392_suru⟧ (to memorize example sentences)\n\nRELATED WORDS:\n- ⟦{例|れい}→例：09932_rei⟧ (example)\n- {例題|れいだい} (example problem/exercise)\n- ⟦{用例|ようれい}→用例：13578_yourei⟧ (usage example — more formal/technical)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "13578_yourei",
+      "reading": "ようれい",
+      "headword": "{用例|ようれい}",
+      "label": "usage example"
+    },
+    {
+      "type": "related",
+      "target_id": "15812_tanbun",
+      "reading": "たんぶん",
+      "headword": "{短文|たんぶん}",
+      "label": "short sentence"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29416_bunrei",
+      "reading": "ぶんれい",
+      "headword": "{文例|ぶんれい}",
+      "label": "model sentence"
+    }
+  ],
   "metadata": {
     "created": "2026-03-25T14:45:30Z",
-    "modified": "2026-03-25T14:45:30Z",
+    "modified": "2026-09-02T04:01:56Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["education"]
+      "semantic": [
+        "education"
+      ]
     }
   }
 }

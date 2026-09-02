@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29592_biwako_ex1",
-      "japanese": "{琵琶湖|びわこ}は{日本|にほん}{最大|さいだい}の{湖|みずうみ}だ。",
+      "japanese": "{琵琶湖|びわこ}⟦は→は：00079_ha⟧⟦{日本|にほん}→日本：03876_nihon⟧⟦{最大|さいだい}→最大：04827_saidai⟧⟦の→の：09472_no⟧⟦{湖|みずうみ}→湖：00867_mizuumi⟧だ。",
       "english": "Lake Biwa is the largest lake in Japan.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29592_biwako_ex2",
-      "japanese": "{滋賀県|しがけん}には{琵琶湖|びわこ}がある。",
+      "japanese": "{滋賀県|しがけん}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{琵琶湖|びわこ}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "Lake Biwa is in Shiga Prefecture.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29592_biwako_ex3",
-      "japanese": "{京都|きょうと}から{近|ちか}いので、{週末|しゅうまつ}に{琵琶湖|びわこ}までドライブした。",
+      "japanese": "⟦{京都|きょうと}→京都：09484_kyouto⟧⟦から→から：00504_kara⟧⟦{近|ちか}い→近い：00530_chikai⟧⟦の→の：09472_no⟧で、⟦{週末|しゅうまつ}→週末：03030_shuumatsu⟧⟦に→に：00314_ni⟧{琵琶湖|びわこ}⟦まで→まで：00490_made⟧⟦ドライブ→ドライブ：03866_doraibu⟧⟦した→する：00392_suru⟧。",
       "english": "Since it's close to Kyoto, we drove out to Lake Biwa for the weekend.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Japan's largest lake, in {滋賀県|しがけん} (Shiga Prefecture). It is named after the {琵琶|びわ} (biwa lute) for its shape.\n\nRELATED:\n- {滋賀県|しがけん}: Shiga Prefecture, which surrounds the lake\n- {湖|みずうみ}: lake\n- {琵琶|びわ}: the biwa, a Japanese lute",
+  "notes": "Japan's largest lake, in {滋賀県|しがけん} (Shiga Prefecture). It is named after the {琵琶|びわ} (biwa lute) for its shape.\n\nRELATED WORDS:\n- {滋賀県|しがけん}: Shiga Prefecture, which surrounds the lake\n- ⟦{湖|みずうみ}→湖：00867_mizuumi⟧: lake\n- {琵琶|びわ}: the biwa, a Japanese lute",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,7 +53,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "geography",
         "proper-noun",
@@ -62,6 +62,6 @@
       "domain": []
     },
     "created": "2026-06-30T09:20:35Z",
-    "modified": "2026-08-11T04:24:46Z"
+    "modified": "2026-09-02T04:02:37Z"
   }
 }

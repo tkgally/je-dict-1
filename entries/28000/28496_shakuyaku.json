@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28496_shakuyaku_ex1",
-      "japanese": "{庭|にわ}に{芍薬|しゃくやく}が{咲|さ}いた。",
+      "japanese": "⟦{庭|にわ}→庭：02239_niwa⟧⟦に→に：00314_ni⟧{芍薬|しゃくやく}⟦が→が：00051_ga⟧⟦{咲|さ}いた→咲く：08150_saku⟧。",
       "english": "Peonies have bloomed in the garden.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28496_shakuyaku_ex2",
-      "japanese": "{芍薬|しゃくやく}は{春|はる}から{初夏|しょか}にかけて{大|おお}きな{花|はな}を{咲|さ}かせる。",
+      "japanese": "{芍薬|しゃくやく}⟦は→は：00079_ha⟧⟦{春|はる}→春：00627_haru⟧⟦から→から：00504_kara⟧⟦{初夏|しょか}→初夏：11740_shoka⟧⟦にかけて→〜にかけて：30530_nikakete⟧⟦{大|おお}きな→大きな：02849_ookina⟧⟦{花|はな}→花：00523_hana⟧⟦を→を：00422_wo⟧⟦{咲|さ}かせる→咲く：08150_saku⟧。",
       "english": "Peonies bloom with large flowers from spring through early summer.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28496_shakuyaku_ex3",
-      "japanese": "{母|はは}の{日|ひ}に{芍薬|しゃくやく}の{花束|はなたば}をプレゼントした。",
+      "japanese": "⟦{母|はは}→母：00549_haha⟧⟦の→の：09472_no⟧⟦{日|ひ}→日：02249_hi⟧⟦に→に：00314_ni⟧{芍薬|しゃくやく}⟦の→の：09472_no⟧⟦{花束|はなたば}→花束：03135_hanataba⟧⟦を→を：00422_wo⟧⟦プレゼント→プレゼント：01791_purezento⟧⟦した→する：00392_suru⟧。",
       "english": "For Mother's Day, I gave a bouquet of peonies as a present.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Famous as the first half of the saying {立|た}てば{芍薬|しゃくやく}{座|すわ}れば{牡丹|ぼたん}{歩|ある}く{姿|すがた}は{百合|ゆり}の{花|はな} — \"standing, she is a peony; seated, a tree peony; walking, a lily\" — a classic praise of feminine beauty.\n\nCOMMON COLLOCATIONS:\n- {芍薬|しゃくやく}の{花|はな}: peony flower(s)\n- {芍薬|しゃくやく}が{咲|さ}く: peonies bloom\n- {芍薬|しゃくやく}の{花束|はなたば}: a bouquet of peonies\n\nSIMILAR WORDS:\n- {牡丹|ぼたん}: tree peony — woody-stemmed; blooms slightly earlier in spring\n- {百合|ゆり}: lily — paired with {芍薬|しゃくやく} and {牡丹|ぼたん} in the famous beauty saying",
+  "notes": "Famous as the first half of the saying ⟦{立|た}てば→立つ：00758_tatsu⟧{芍薬|しゃくやく}⟦{座|すわ}れば→座る：00757_suwaru⟧⟦{牡丹|ぼたん}→牡丹：13488_botan⟧⟦{歩|ある}く→歩く：00538_aruku⟧⟦{姿|すがた}→姿：03363_sugata⟧⟦は→は：00079_ha⟧⟦{百合|ゆり}→百合：04395_yuri⟧⟦の→の：09472_no⟧⟦{花|はな}→花：00523_hana⟧ — \"standing, she is a peony; seated, a tree peony; walking, a lily\" — a classic praise of feminine beauty.\n\nCOMMON COLLOCATIONS:\n- {芍薬|しゃくやく}⟦の→の：09472_no⟧⟦{花|はな}→花：00523_hana⟧: peony flower(s)\n- {芍薬|しゃくやく}⟦が→が：00051_ga⟧⟦{咲|さ}く→咲く：08150_saku⟧: peonies bloom\n- {芍薬|しゃくやく}⟦の→の：09472_no⟧⟦{花束|はなたば}→花束：03135_hanataba⟧: a bouquet of peonies\n\nSIMILAR WORDS:\n- ⟦{牡丹|ぼたん}→牡丹：13488_botan⟧: tree peony — woody-stemmed; blooms slightly earlier in spring\n- ⟦{百合|ゆり}→百合：04395_yuri⟧: lily — paired with {芍薬|しゃくやく} and ⟦{牡丹|ぼたん}→牡丹：13488_botan⟧ in the famous beauty saying",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13488_botan",
+      "reading": "ぼたん",
+      "headword": "{牡丹|ぼたん}",
+      "label": "tree peony"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04395_yuri",
+      "reading": "ゆり",
+      "headword": "{百合|ゆり}",
+      "label": "lily"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +69,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "nature"
       ],
       "domain": []
     },
     "created": "2026-06-01T02:11:11Z",
-    "modified": "2026-06-01T02:11:11Z"
+    "modified": "2026-09-02T04:02:33Z"
   }
 }

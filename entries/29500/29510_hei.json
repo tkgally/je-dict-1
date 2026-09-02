@@ -15,41 +15,60 @@
   "examples": [
     {
       "id": "29510_hei_ex1",
-      "japanese": "{兵|へい}を{送|おく}る。",
+      "japanese": "{兵|へい}⟦を→を：00422_wo⟧⟦{送|おく}る→送る：00742_okuru⟧。",
       "english": "To send troops.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29510_hei_ex2",
-      "japanese": "{城|しろ}を{守|まも}る{兵|へい}が{少|すく}ない。",
+      "japanese": "⟦{城|しろ}→城：03255_shiro⟧⟦を→を：00422_wo⟧⟦{守|まも}る→守る：01986_mamoru⟧{兵|へい}⟦が→が：00051_ga⟧⟦{少|すく}ない→少ない：01136_sukunai⟧。",
       "english": "There are few soldiers guarding the castle.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29510_hei_ex3",
-      "japanese": "{将軍|しょうぐん}は{一万|いちまん}の{兵|へい}を{率|ひき}いて{進|すす}んだ。",
+      "japanese": "⟦{将軍|しょうぐん}→将軍：12386_shougun⟧⟦は→は：00079_ha⟧⟦{一万|いちまん}→一万：27599_ichiman⟧⟦の→の：09472_no⟧{兵|へい}⟦を→を：00422_wo⟧⟦{率|ひき}いて→率いる：10879_hikiiru⟧⟦{進|すす}んだ→進む：01225_susumu⟧。",
       "english": "The general advanced leading ten thousand soldiers.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A general word for a soldier or troops, common in historical and military contexts. As a single character it often feels formal or literary; everyday speech tends to use the compounds below.\n\nCOMMON COLLOCATIONS:\n- {兵|へい}を{送|おく}る: to send troops\n- {兵|へい}を{率|ひき}いる: to lead soldiers\n- {兵|へい}を{挙|あ}げる: to raise an army\n\nSIMILAR WORDS:\n- {兵士|へいし}: soldier — the ordinary word for an individual serviceman\n- {兵隊|へいたい}: soldier; the troops — more colloquial, can mean a soldier or soldiers collectively\n- {軍|ぐん}: army; military — the organization as a whole",
+  "notes": "A general word for a soldier or troops, common in historical and military contexts. As a single character it often feels formal or literary; everyday speech tends to use the compounds below.\n\nCOMMON COLLOCATIONS:\n- {兵|へい}⟦を→を：00422_wo⟧⟦{送|おく}る→送る：00742_okuru⟧: to send troops\n- {兵|へい}⟦を→を：00422_wo⟧⟦{率|ひき}いる→率いる：10879_hikiiru⟧: to lead soldiers\n- {兵|へい}⟦を→を：00422_wo⟧⟦{挙|あ}げる→挙げる：27889_ageru⟧: to raise an army\n\nSIMILAR WORDS:\n- ⟦{兵士|へいし}→兵士：11680_heishi⟧: soldier — the ordinary word for an individual serviceman\n- ⟦{兵隊|へいたい}→兵隊：27666_heitai⟧: soldier; the troops — more colloquial, can mean a soldier or soldiers collectively\n- ⟦{軍|ぐん}→軍：02677_gun⟧: army; military — the organization as a whole",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02677_gun",
+      "reading": "ぐん",
+      "headword": "{軍|ぐん}",
+      "label": "army"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["military"],
+      "politeness": "plain",
+      "semantic": [
+        "military"
+      ],
       "domain": []
     },
     "created": "2026-06-27T00:21:08Z",
-    "modified": "2026-06-27T00:21:08Z"
+    "modified": "2026-09-02T04:02:37Z"
   }
 }

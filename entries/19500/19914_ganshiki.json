@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "19914_ganshiki_ex1",
-      "japanese": "{眼識|がんしき}のある{人|ひと}だ。",
+      "japanese": "{眼識|がんしき}⟦の→の：09472_no⟧⟦ある→ある：00006_aru⟧⟦{人|ひと}→人：00476_hito⟧だ。",
       "english": "He is a person with a discerning eye.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "19914_ganshiki_ex2",
-      "japanese": "{彼女|かのじょ}は{美術品|びじゅつひん}に{対|たい}する{眼識|がんしき}が{高|たか}い。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧⟦{美術品|びじゅつひん}→美術品：28549_bijutsuhin⟧⟦に→に：00314_ni⟧⟦{対|たい}する→対する：02126_taisuru⟧{眼識|がんしき}⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧。",
       "english": "She has a keen eye for art.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "19914_ganshiki_ex3",
-      "japanese": "{長年|ながねん}の{経験|けいけん}で{培|つちか}った{眼識|がんしき}がものを{言|い}う。",
+      "japanese": "⟦{長年|ながねん}→長年：09684_naganen⟧⟦の→の：09472_no⟧⟦{経験|けいけん}→経験：01179_keiken⟧⟦で→で：00502_de⟧⟦{培|つちか}った→培う：07926_tsuchikau⟧{眼識|がんしき}⟦が→が：00051_ga⟧もの⟦を→を：00422_wo⟧⟦{言|い}う→言う：00515_iu⟧。",
       "english": "The discernment cultivated through years of experience really counts.",
       "notes": null,
       "has_audio": false,
@@ -43,11 +43,26 @@
       ]
     }
   ],
-  "notes": "A literary, somewhat formal word composed of {眼|がん} (eye) + {識|しき} (discernment, knowledge). It implies a trained or naturally sharp ability to judge quality, authenticity, or character.\n\nCOMMON COLLOCATIONS:\n- {眼識|がんしき}がある: to have a discerning eye\n- {眼識|がんしき}が{高|たか}い: to have refined discernment\n- {眼識|がんしき}に{優|すぐ}れる: to excel in discernment\n\nSIMILAR WORDS:\n- {鑑識眼|かんしきがん}: connoisseur's eye — emphasizes expert evaluation ability\n- {見|み}る{目|め}: an eye for things — everyday equivalent\n- {審美眼|しんびがん}: aesthetic sense — specifically about beauty\n- {洞察力|どうさつりょく}: insight, perceptiveness — broader; not limited to visual judgment",
-  "cross_references": [],
+  "notes": "A literary, somewhat formal word composed of {眼|がん} (eye) + {識|しき} (discernment, knowledge). It implies a trained or naturally sharp ability to judge quality, authenticity, or character.\n\nCOMMON COLLOCATIONS:\n- {眼識|がんしき}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧: to have a discerning eye\n- {眼識|がんしき}⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧: to have refined discernment\n- {眼識|がんしき}⟦に→に：00314_ni⟧⟦{優|すぐ}れる→優れる：02119_sugureru⟧: to excel in discernment\n\nSIMILAR WORDS:\n- {鑑識眼|かんしきがん}: connoisseur's eye — emphasizes expert evaluation ability\n- ⟦{見|み}る→見る：00283_miru⟧⟦{目|め}→目：00525_me⟧: an eye for things — everyday equivalent\n- ⟦{審美眼|しんびがん}→審美眼：18905_shinbigan⟧: aesthetic sense — specifically about beauty\n- ⟦{洞察力|どうさつりょく}→洞察力：08523_dousatsuryoku⟧: insight, perceptiveness — broader; not limited to visual judgment",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18905_shinbigan",
+      "reading": "しんびがん",
+      "headword": "{審美眼|しんびがん}",
+      "label": "aesthetic sense"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08523_dousatsuryoku",
+      "reading": "どうさつりょく",
+      "headword": "{洞察力|どうさつりょく}",
+      "label": "insight, perceptiveness"
+    }
+  ],
   "metadata": {
     "created": "2026-03-27T05:37:01Z",
-    "modified": "2026-07-27T12:42:09Z",
+    "modified": "2026-09-02T04:01:57Z",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
     "tags": {

@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "03621_houhou_ex1",
-      "japanese": "⟦{問題|もんだい}→問題：00797_mondai⟧⟦を→を：00422_wo⟧⟦{解決|かいけつ}→解決：00136_kaiketsu⟧する{方法|ほうほう}⟦を→を：00422_wo⟧⟦{考|かんが}えよう→考える：00856_kangaeru⟧。",
+      "japanese": "⟦{問題|もんだい}→問題：00797_mondai⟧⟦を→を：00422_wo⟧⟦{解決|かいけつ}→解決：00136_kaiketsu⟧⟦する→する：00392_suru⟧{方法|ほうほう}⟦を→を：00422_wo⟧⟦{考|かんが}えよう→考える：00856_kangaeru⟧。",
       "english": "Let's think of a way to solve the problem.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "USAGE: {方法|ほうほう} is a formal word for method or way of doing something. It's commonly used in academic and professional contexts.\n\nCOMMON PATTERNS:\n・〜する{方法|ほうほう} (method of doing ~)\n・{方法|ほうほう}⟦を→を：00422_wo⟧⟦{見|み}つける→見つける：01180_mitsukeru⟧ (to find a method)\n・{方法|ほうほう}⟦が→が：00051_ga⟧ない (there is no way)\n\nCOMMON COLLOCATIONS:\n・⟦{解決|かいけつ}→解決：00136_kaiketsu⟧{方法|ほうほう} (solution method)\n・⟦{支払|しはら}い→支払：03193_shiharai⟧{方法|ほうほう} (payment method)\n・⟦{学習|がくしゅう}→学習：02623_gakushuu⟧{方法|ほうほう} (learning method)\n\nSIMILAR WORD: ⟦{手段|しゅだん}→手段：03219_shudan⟧ (means, way) — more focused on means/resources used",
+  "notes": "USAGE: {方法|ほうほう} is a formal word for method or way of doing something. It's commonly used in academic and professional contexts.\n\nCOMMON PATTERNS:\n- 〜⟦する→する：00392_suru⟧{方法|ほうほう} (method of doing ~)\n- {方法|ほうほう}⟦を→を：00422_wo⟧⟦{見|み}つける→見つける：01180_mitsukeru⟧ (to find a method)\n- {方法|ほうほう}⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧ (there is no way)\n\nCOMMON COLLOCATIONS:\n- ⟦{解決|かいけつ}→解決：00136_kaiketsu⟧{方法|ほうほう} (solution method)\n- ⟦{支払|しはら}い→支払：03193_shiharai⟧{方法|ほうほう} (payment method)\n- ⟦{学習|がくしゅう}→学習：02623_gakushuu⟧{方法|ほうほう} (learning method)\n\nSIMILAR WORD: ⟦{手段|しゅだん}→手段：03219_shudan⟧ (means, way) — more focused on means/resources used",
   "cross_references": [
     {
       "type": "synonym",
@@ -51,11 +51,39 @@
       "headword": "{手段|しゅだん}",
       "label": "means, measure",
       "target_id": "03219_shudan"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00250_kufuu",
+      "reading": "くふう",
+      "headword": "{工夫|くふう}",
+      "label": "device"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13364_ryuugi",
+      "reading": "りゅうぎ",
+      "headword": "{流儀|りゅうぎ}",
+      "label": "style, manner, way of doing things"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16892_housaku",
+      "reading": "ほうさく",
+      "headword": "{方策|ほうさく}",
+      "label": "plan"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27938_tsukurikata",
+      "reading": "つくりかた",
+      "headword": "{作|つく}り{方|かた}",
+      "label": "way of making"
     }
   ],
   "metadata": {
     "created": "2026-01-12T15:37:00Z",
-    "modified": "2026-08-13T15:50:29Z",
+    "modified": "2026-09-02T04:01:03Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

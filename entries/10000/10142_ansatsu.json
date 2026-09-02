@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "10142_ansatsu_ex1",
-      "japanese": "{大統領|だいとうりょう}が{暗殺|あんさつ}された。",
+      "japanese": "⟦{大統領|だいとうりょう}→大統領：03418_daitouryou⟧⟦が→が：00051_ga⟧{暗殺|あんさつ}⟦された→する：00392_suru⟧。",
       "english": "The president was assassinated.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "10142_ansatsu_ex2",
-      "japanese": "{暗殺|あんさつ}{未遂|みすい}で{逮捕|たいほ}された。",
+      "japanese": "{暗殺|あんさつ}⟦{未遂|みすい}→未遂：13085_misui⟧⟦で→で：00502_de⟧⟦{逮捕|たいほ}→逮捕：03397_taiho⟧⟦された→する：00392_suru⟧。",
       "english": "He was arrested for attempted assassination.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "10142_ansatsu_ex3",
-      "japanese": "{歴史|れきし}の{授業|じゅぎょう}で{有名|ゆうめい}な{政治家|せいじか}の{暗殺|あんさつ}について{学|まな}んだ。",
+      "japanese": "⟦{歴史|れきし}→歴史：02267_rekishi⟧⟦の→の：09472_no⟧⟦{授業|じゅぎょう}→授業：00781_jugyou⟧⟦で→で：00502_de⟧⟦{有名|ゆうめい}→有名：01106_yuumei⟧な⟦{政治家|せいじか}→政治家：03084_seijika⟧⟦の→の：09472_no⟧{暗殺|あんさつ}⟦について→〜について：03103_nitsuite⟧⟦{学|まな}んだ→学ぶ：01987_manabu⟧。",
       "english": "In history class, we learned about the assassination of famous politicians.",
       "notes": null,
       "has_audio": false,
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "WORD FORMATION:\n{暗|あん} (dark, secret) + {殺|さつ} (kill). Literally \"secret killing.\"\n\nUSAGE:\nSpecifically refers to the murder of prominent figures (politicians, leaders, public figures) for political or ideological reasons. Does not apply to ordinary murders.\n\nCOMMON COLLOCATIONS:\n- {暗殺|あんさつ}する: to assassinate\n- {暗殺|あんさつ}{未遂|みすい}: attempted assassination\n- {暗殺|あんさつ}{事件|じけん}: assassination incident\n- {暗殺|あんさつ}{者|しゃ}: assassin\n- {暗殺|あんさつ}{計画|けいかく}: assassination plot\n\nCONTRAST:\n- {暗殺|あんさつ}: assassination (political murder)\n- {殺人|さつじん}: murder, homicide (general)\n- {謀殺|ぼうさつ}: premeditated murder (legal term)",
+  "notes": "FORMS:\n{暗|あん} (dark, secret) + {殺|さつ} (kill). Literally \"secret killing.\"\n\nUSAGE:\nSpecifically refers to the murder of prominent figures (politicians, leaders, public figures) for political or ideological reasons. Does not apply to ordinary murders.\n\nCOMMON COLLOCATIONS:\n- {暗殺|あんさつ}⟦する→する：00392_suru⟧: to assassinate\n- {暗殺|あんさつ}⟦{未遂|みすい}→未遂：13085_misui⟧: attempted assassination\n- {暗殺|あんさつ}⟦{事件|じけん}→事件：01568_jiken⟧: assassination incident\n- {暗殺|あんさつ}{者|しゃ}: assassin\n- {暗殺|あんさつ}⟦{計画|けいかく}→計画：01172_keikaku⟧: assassination plot\n\nSIMILAR WORDS:\n- {暗殺|あんさつ}: assassination (political murder)\n- ⟦{殺人|さつじん}→殺人：13236_satsujin⟧: murder, homicide (general)\n- {謀殺|ぼうさつ}: premeditated murder (legal term)",
   "cross_references": [
     {
       "type": "contrast",
@@ -141,11 +141,18 @@
       "reading": "さつじん",
       "headword": "{殺人|さつじん}",
       "label": "murder (general)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23180_dokusatsu",
+      "reading": "どくさつ",
+      "headword": "{毒殺|どくさつ}",
+      "label": "poisoning (to death)"
     }
   ],
   "metadata": {
     "created": "2026-02-05T11:49:02Z",
-    "modified": "2026-03-30T06:07:33Z",
+    "modified": "2026-09-02T04:01:20Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

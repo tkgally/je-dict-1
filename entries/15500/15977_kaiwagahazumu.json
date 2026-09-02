@@ -15,41 +15,59 @@
   "examples": [
     {
       "id": "15977_kaiwagahazumu_ex1",
-      "japanese": "{久|ひさ}しぶりに{会|あ}って、{会話|かいわ}が{弾|はず}んだ。",
+      "japanese": "⟦{久|ひさ}しぶり→久しぶり：01711_hisashiburi⟧⟦に→に：00314_ni⟧⟦{会|あ}って→会う：00482_au⟧、{会話|かいわ}が{弾|はず}んだ。",
       "english": "We met after a long time and had a lively conversation.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15977_kaiwagahazumu_ex2",
-      "japanese": "{共通|きょうつう}の{趣味|しゅみ}があると{会話|かいわ}が{弾|はず}みやすい。",
+      "japanese": "⟦{共通|きょうつう}→共通：02590_kyoutsuu⟧⟦の→の：09472_no⟧⟦{趣味|しゅみ}→趣味：00889_shumi⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧⟦と→と：00512_to⟧{会話|かいわ}が{弾|はず}みやすい。",
       "english": "When you share a common hobby, conversation flows more easily.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15977_kaiwagahazumu_ex3",
-      "japanese": "おいしい{料理|りょうり}とワインのおかげで、{会話|かいわ}が{弾|はず}んで{楽|たの}しい{夕食|ゆうしょく}になった。",
+      "japanese": "おいしい⟦{料理|りょうり}→料理：01523_ryouri⟧⟦と→と：00512_to⟧⟦ワイン→ワイン：01067_wain⟧⟦の→の：09472_no⟧⟦おかげ→おかげ：01362_okage⟧で、{会話|かいわ}が{弾|はず}んで⟦{楽|たの}しい→楽しい：00817_tanoshii⟧⟦{夕食|ゆうしょく}→夕食：03006_yuushoku⟧になった。",
       "english": "Thanks to the delicious food and wine, the conversation was lively and it turned into an enjoyable dinner.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nA common set expression where {弾|はず}む (to bounce, to spring) is used figuratively for conversation that bounces back and forth energetically. The subject is always {会話|かいわ} (or similar words like {話|はなし}). Often describes social situations where people click or find common ground.\n\nRELATED PATTERNS:\n- {話|はなし}が{弾|はず}む (conversation is lively — using {話|はなし} instead of {会話|かいわ})\n- {話題|わだい}が{弾|はず}む (the topic of conversation becomes lively)\n\nSIMILAR WORDS:\n{盛|も}り{上|あ}がる (to get excited, to liven up) is broader and can apply to parties, events, and general atmosphere, while {会話|かいわ}が{弾|はず}む specifically describes the flow of conversation.",
-  "cross_references": [],
+  "notes": "USAGE:\nA common set expression where ⟦{弾|はず}む→弾む：04247_hazumu⟧ (to bounce, to spring) is used figuratively for conversation that bounces back and forth energetically. The subject is always ⟦{会話|かいわ}→会話：01271_kaiwa⟧ (or similar words like ⟦{話|はなし}→話：01496_hanashi⟧). Often describes social situations where people click or find common ground.\n\nRELATED PATTERNS:\n- ⟦{話|はなし}→話：01496_hanashi⟧⟦が→が：00051_ga⟧⟦{弾|はず}む→弾む：04247_hazumu⟧ (conversation is lively — using ⟦{話|はなし}→話：01496_hanashi⟧ instead of ⟦{会話|かいわ}→会話：01271_kaiwa⟧)\n- ⟦{話題|わだい}→話題：03793_wadai⟧⟦が→が：00051_ga⟧⟦{弾|はず}む→弾む：04247_hazumu⟧ (the topic of conversation becomes lively)\n\nSIMILAR WORDS:\n⟦{盛|も}り{上|あ}がる→盛り上がる：06344_moriagaru⟧ (to get excited, to liven up) is broader and can apply to parties, events, and general atmosphere, while {会話|かいわ}が{弾|はず}む specifically describes the flow of conversation.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06344_moriagaru",
+      "reading": "もりあがる",
+      "headword": "{盛|も}り{上|あ}がる",
+      "label": "to get excited, to liven up"
+    }
+  ],
   "metadata": {
     "created": "2026-03-09T03:58:32Z",
-    "modified": "2026-07-16T12:18:52Z",
+    "modified": "2026-09-02T04:01:43Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["expression"],
+      "pos": [
+        "expression"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["communication"]
+      "semantic": [
+        "communication"
+      ]
     }
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "11262_hiiroo_ex1",
-      "japanese": "{子供|こども}たちのヒーローだ。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧たち⟦の→の：09472_no⟧ヒーローだ。",
       "english": "He's a hero to the children.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "11262_hiiroo_ex2",
-      "japanese": "この{映画|えいが}のヒーローは{正義感|せいぎかん}が{強|つよ}い。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{映画|えいが}→映画：02273_eiga⟧⟦の→の：09472_no⟧ヒーロー⟦は→は：00079_ha⟧⟦{正義感|せいぎかん}→正義感：28751_seigikan⟧⟦が→が：00051_ga⟧⟦{強|つよ}い→強い：00820_tsuyoi⟧。",
       "english": "The hero of this movie has a strong sense of justice.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "11262_hiiroo_ex3",
-      "japanese": "{試合|しあい}で{決勝|けっしょう}ゴールを{決|き}めた{選手|せんしゅ}は、チームのヒーローになった。",
+      "japanese": "⟦{試合|しあい}→試合：01601_shiai⟧⟦で→で：00502_de⟧⟦{決勝|けっしょう}→決勝：04742_kesshou⟧⟦ゴール→ゴール：03845_gooru⟧⟦を→を：00422_wo⟧⟦{決|き}めた→決める：00858_kimeru⟧⟦{選手|せんしゅ}→選手：03823_senshu⟧⟦は→は：00079_ha⟧、⟦チーム→チーム：03858_chiimu⟧⟦の→の：09472_no⟧ヒーローになった。",
       "english": "The player who scored the winning goal became the team's hero.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,19 @@
       ]
     }
   ],
-  "notes": "USAGE:\nヒーロー refers to a male hero or protagonist. The female equivalent is ヒロイン (heroine). In Japanese media (manga, anime, tokusatsu), ヒーロー has a strong association with superheroes and action protagonists.\n\nThe native Japanese word {英雄|えいゆう} means \"hero\" in a grander, more historical sense (war heroes, legendary figures), while ヒーロー is more casual and broader in scope.\n\nCOMMON COLLOCATIONS:\n- ヒーロー{番組|ばんぐみ}: superhero show (tokusatsu)\n- {国民的|こくみんてき}ヒーロー: national hero\n- ヒーローインタビュー: post-game hero interview (baseball)",
-  "cross_references": [],
+  "notes": "USAGE:\nヒーロー refers to a male hero or protagonist. The female equivalent is ⟦ヒロイン→ヒロイン：11278_hiroin⟧ (heroine). In Japanese media (manga, anime, tokusatsu), ヒーロー has a strong association with superheroes and action protagonists.\n\nThe native Japanese word ⟦{英雄|えいゆう}→英雄：14117_eiyuu⟧ means \"hero\" in a grander, more historical sense (war heroes, legendary figures), while ヒーロー is more casual and broader in scope.\n\nCOMMON COLLOCATIONS:\n- ヒーロー⟦{番組|ばんぐみ}→番組：01705_bangumi⟧: superhero show (tokusatsu)\n- ⟦{国民的|こくみんてき}→国民的：15204_kokuminteki⟧ヒーロー: national hero\n- ヒーロー⟦インタビュー→インタビュー：03833_intabyuu⟧: post-game hero interview (baseball)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "27799_kyuuseishu",
+      "reading": "きゅうせいしゅ",
+      "headword": "{救世主|きゅうせいしゅ}",
+      "label": "savior"
+    }
+  ],
   "metadata": {
     "created": "2026-02-15T09:19:18Z",
-    "modified": "2026-04-11T02:03:14Z",
+    "modified": "2026-09-02T04:01:24Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

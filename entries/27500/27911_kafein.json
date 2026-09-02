@@ -15,41 +15,51 @@
   "examples": [
     {
       "id": "27911_kafein_ex1",
-      "japanese": "コーヒーにはカフェインが{多|おお}い。",
+      "japanese": "⟦コーヒー→コーヒー：00789_koohii⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧カフェイン⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "Coffee has a lot of caffeine.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27911_kafein_ex2",
-      "japanese": "{夜|よる}はカフェインを{取|と}らないようにしている。",
+      "japanese": "⟦{夜|よる}→夜：00487_yoru⟧⟦は→は：00079_ha⟧カフェイン⟦を→を：00422_wo⟧⟦{取|と}らない→取る：00565_toru⟧ようにして⟦いる→いる：00495_iru⟧。",
       "english": "I try not to take in caffeine at night.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27911_kafein_ex3",
-      "japanese": "カフェインの{取|と}りすぎは{眠|ねむ}れなくなる{原因|げんいん}になる。",
+      "japanese": "カフェイン⟦の→の：09472_no⟧⟦{取|と}り→取る：00565_toru⟧すぎ⟦は→は：00079_ha⟧⟦{眠|ねむ}れなく→眠れる：15166_nemureru⟧⟦なる→なる：01970_naru⟧⟦{原因|げんいん}→原因：01400_genin⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧。",
       "english": "Taking in too much caffeine can be a cause of being unable to sleep.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A loanword (from English \"caffeine\"). Found in coffee, tea, and energy drinks; valued as a stimulant but a concern when consumed in excess.\n\nCOMMON COLLOCATIONS:\n- カフェインを{取|と}る: take in / consume caffeine\n- カフェイン{入|い}り: containing caffeine\n- カフェインレス: caffeine-free (decaf)\n- カフェインの{取|と}りすぎ: too much caffeine",
+  "notes": "A loanword (from English \"caffeine\"). Found in coffee, tea, and energy drinks; valued as a stimulant but a concern when consumed in excess.\n\nCOMMON COLLOCATIONS:\n- カフェイン⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧: take in / consume caffeine\n- カフェイン{入|い}り: containing caffeine\n- カフェインレス: caffeine-free (decaf)\n- カフェイン⟦の→の：09472_no⟧⟦{取|と}り→取る：00565_toru⟧すぎ: too much caffeine",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["food"],
+      "politeness": "plain",
+      "semantic": [
+        "food"
+      ],
       "domain": []
     },
     "created": "2026-05-23T02:04:30Z",
-    "modified": "2026-05-23T02:04:30Z"
+    "modified": "2026-09-02T04:02:32Z"
   }
 }

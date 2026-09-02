@@ -153,11 +153,40 @@
       ]
     }
   ],
-  "notes": "{終|お}える means to finish or complete something. It is a transitive verb that takes を.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- Pair: ⟦{終|お}わる→終わる：00567_owaru⟧ (intransitive — something ends by itself)\n\nASPECT (ている):\n{終|お}えている means \"have finished\" — the resulting state after completing something.\n\nCOMPOUND VERB PATTERN:\nVerb stem + {終|お}える means \"to finish doing ~\":\n- ⟦{読|よ}み→読む：00426_yomu⟧{終|お}える: to finish reading\n- ⟦{食|た}べ→食べる：00396_taberu⟧{終|お}える: to finish eating\n- ⟦{書|か}き→書く：00477_kaku⟧{終|お}える: to finish writing\n- ⟦{片|かた}づけ→片付ける：01192_katazukeru⟧{終|お}える: to finish tidying up\n\nSIMILAR WORDS:\n- ⟦{終|お}わる→終わる：00567_owaru⟧: to end (intransitive — the event/task itself ends)\n- ⟦{済|す}ませる→済ませる：02121_sumaseru⟧: to get something done with (implies completing a task or obligation)\n- ⟦{終了|しゅうりょう}する→終了する：22990_shuuryousuru⟧: to conclude, to end (formal, often for events or systems)",
-  "cross_references": [],
+  "notes": "{終|お}える means to finish or complete something. It is a transitive verb that takes ⟦を→を：00422_wo⟧.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- Pair: ⟦{終|お}わる→終わる：00567_owaru⟧ (intransitive — something ends by itself)\n\nASPECT (ている):\n{終|お}えて⟦いる→いる：00495_iru⟧ means \"have finished\" — the resulting state after completing something.\n\nCOMPOUND VERB PATTERN:\nVerb stem + {終|お}える means \"to finish doing ~\":\n- ⟦{読|よ}み→読む：00426_yomu⟧{終|お}える: to finish reading\n- ⟦{食|た}べ→食べる：00396_taberu⟧{終|お}える: to finish eating\n- ⟦{書|か}き→書く：00477_kaku⟧{終|お}える: to finish writing\n- ⟦{片|かた}づけ→片付ける：01192_katazukeru⟧{終|お}える: to finish tidying up\n\nSIMILAR WORDS:\n- ⟦{終|お}わる→終わる：00567_owaru⟧: to end (intransitive — the event/task itself ends)\n- ⟦{済|す}ませる→済ませる：02121_sumaseru⟧: to get something done with (implies completing a task or obligation)\n- ⟦{終了|しゅうりょう}する→終了する：22990_shuuryousuru⟧: to conclude, to end (formal, often for events or systems)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02121_sumaseru",
+      "reading": "すませる",
+      "headword": "{済|す}ませる",
+      "label": "to get something done with"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22990_shuuryousuru",
+      "reading": "しゅうりょうする",
+      "headword": "{終了|しゅうりょう}する",
+      "label": "to conclude, to end"
+    },
+    {
+      "type": "related",
+      "target_id": "02064_sumasu",
+      "reading": "すます",
+      "headword": "{済|す}ます",
+      "label": "to finish, to get by with"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16332_shimekukuru",
+      "reading": "しめくくる",
+      "headword": "{締|し}め{括|くく}る",
+      "label": "to conclude, to wrap up"
+    }
+  ],
   "metadata": {
     "created": "2026-01-09T12:33:32Z",
-    "modified": "2026-05-17T22:15:28Z",
+    "modified": "2026-09-02T04:01:00Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "core",
     "tags": {

@@ -15,40 +15,66 @@
   "examples": [
     {
       "id": "19426_koukuuken_ex1",
-      "japanese": "{航空券|こうくうけん}を{予約|よやく}する。",
+      "japanese": "{航空券|こうくうけん}⟦を→を：00422_wo⟧⟦{予約|よやく}する→予約する：22989_yoyakusuru⟧。",
       "english": "To book a plane ticket.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19426_koukuuken_ex2",
-      "japanese": "{往復|おうふく}の{航空券|こうくうけん}のほうが{安|やす}い。",
+      "japanese": "⟦{往復|おうふく}→往復：04111_oufuku⟧⟦の→の：09472_no⟧{航空券|こうくうけん}⟦の→の：09472_no⟧ほう⟦が→が：00051_ga⟧⟦{安|やす}い→安い：00464_yasui⟧。",
       "english": "A round-trip ticket is cheaper.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19426_koukuuken_ex3",
-      "japanese": "{早|はや}めに{航空券|こうくうけん}を{買|か}えば、かなり{安|やす}く{手|て}に{入|はい}ることがある。",
+      "japanese": "⟦{早|はや}め→早め：11176_hayame⟧⟦に→に：00314_ni⟧{航空券|こうくうけん}⟦を→を：00422_wo⟧⟦{買|か}えば→買う：00489_kau⟧、⟦かなり→かなり：01149_kanari⟧⟦{安|やす}く→安い：00464_yasui⟧⟦{手|て}→手：00569_te⟧⟦に→に：00314_ni⟧⟦{入|はい}る→入る：00494_hairu⟧こと⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "If you buy your plane ticket early, you can sometimes get it much cheaper.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "{航空券|こうくうけん} is the standard formal term for an airline ticket. In casual speech, {飛行機|ひこうき}のチケット is more common, but {航空券|こうくうけん} is used in official contexts such as booking confirmations, travel agencies, and airport announcements.\n\nWORD STRUCTURE:\nA compound of {航空|こうくう} (aviation) + {券|けん} (ticket). The {券|けん} suffix appears in many ticket-related words such as {乗車券|じょうしゃけん} (train ticket) and {入場券|にゅうじょうけん} (admission ticket).\n\nCOMMON COLLOCATIONS:\n- {航空券|こうくうけん}を{予約|よやく}する: to book a plane ticket\n- {航空券|こうくうけん}を{購入|こうにゅう}する: to purchase a plane ticket\n- {航空券|こうくうけん}を{手配|てはい}する: to arrange a plane ticket\n- {格安|かくやす}{航空券|こうくうけん}: discount airline ticket\n\nRELATED TERMS:\n- {片道|かたみち}{航空券|こうくうけん}: one-way ticket\n- {往復|おうふく}{航空券|こうくうけん}: round-trip ticket\n- {搭乗券|とうじょうけん}: boarding pass\n- {飛行機|ひこうき}のチケット: plane ticket (casual)",
+  "notes": "{航空券|こうくうけん} is the standard formal term for an airline ticket. In casual speech, ⟦{飛行機|ひこうき}→飛行機：00629_hikouki⟧⟦の→の：09472_no⟧⟦チケット→チケット：11014_chiketto⟧ is more common, but {航空券|こうくうけん} is used in official contexts such as booking confirmations, travel agencies, and airport announcements.\n\nETYMOLOGY:\nA compound of ⟦{航空|こうくう}→航空：02798_koukuu⟧ (aviation) + ⟦{券|けん}→券：02150_ken⟧ (ticket). The ⟦{券|けん}→券：02150_ken⟧ suffix appears in many ticket-related words such as ⟦{乗車券|じょうしゃけん}→乗車券：05298_joushaken⟧ (train ticket) and ⟦{入場券|にゅうじょうけん}→入場券：19454_nyuujouken⟧ (admission ticket).\n\nCOMMON COLLOCATIONS:\n- {航空券|こうくうけん}⟦を→を：00422_wo⟧⟦{予約|よやく}する→予約する：22989_yoyakusuru⟧: to book a plane ticket\n- {航空券|こうくうけん}⟦を→を：00422_wo⟧⟦{購入|こうにゅう}→購入：03057_kounyuu⟧⟦する→する：00392_suru⟧: to purchase a plane ticket\n- {航空券|こうくうけん}⟦を→を：00422_wo⟧⟦{手配|てはい}→手配：07604_tehai⟧⟦する→する：00392_suru⟧: to arrange a plane ticket\n- {格安|かくやす}{航空券|こうくうけん}: discount airline ticket\n\nRELATED WORDS:\n- ⟦{片道|かたみち}→片道：00199_katamichi⟧{航空券|こうくうけん}: one-way ticket\n- {往復|おうふく}{航空券|こうくうけん}: round-trip ticket\n- ⟦{搭乗券|とうじょうけん}→搭乗券：17977_toujouken⟧: boarding pass\n- ⟦{飛行機|ひこうき}→飛行機：00629_hikouki⟧⟦の→の：09472_no⟧⟦チケット→チケット：11014_chiketto⟧: plane ticket (casual)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "17977_toujouken",
+      "reading": "とうじょうけん",
+      "headword": "{搭乗券|とうじょうけん}",
+      "label": "boarding pass"
+    },
+    {
+      "type": "related",
+      "target_id": "00629_hikouki",
+      "reading": "ひこうき",
+      "headword": "{飛行機|ひこうき}",
+      "label": "airplane"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["transportation"]
+      "semantic": [
+        "transportation"
+      ]
     },
     "created": "2026-03-25T13:28:10Z",
-    "modified": "2026-03-25T13:28:10Z"
+    "modified": "2026-09-02T04:01:55Z"
   }
 }

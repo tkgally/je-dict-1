@@ -15,40 +15,66 @@
   "examples": [
     {
       "id": "19057_shougyouchi_ex1",
-      "japanese": "ここは{商業地|しょうぎょうち}だ。",
+      "japanese": "⟦ここ→ここ：00961_koko⟧⟦は→は：00079_ha⟧{商業地|しょうぎょうち}だ。",
       "english": "This is a commercial district.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19057_shougyouchi_ex2",
-      "japanese": "{駅前|えきまえ}は{商業地|しょうぎょうち}として{発展|はってん}した。",
+      "japanese": "⟦{駅前|えきまえ}→駅前：09593_ekimae⟧⟦は→は：00079_ha⟧{商業地|しょうぎょうち}⟦として→として：06802_toshite⟧⟦{発展|はってん}した→発展する：25331_hattensuru⟧。",
       "english": "The area in front of the station developed as a commercial district.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19057_shougyouchi_ex3",
-      "japanese": "{商業地|しょうぎょうち}の{地価|ちか}は{住宅地|じゅうたくち}より{高|たか}い{傾向|けいこう}がある。",
+      "japanese": "{商業地|しょうぎょうち}⟦の→の：09472_no⟧⟦{地価|ちか}→地価：12130_chika⟧⟦は→は：00079_ha⟧⟦{住宅地|じゅうたくち}→住宅地：10158_juutakuchi⟧⟦より→より：09476_yori⟧⟦{高|たか}い→高い：00500_takai⟧⟦{傾向|けいこう}→傾向：02695_keikou⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "Land prices in commercial districts tend to be higher than in residential areas.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Compound of {商業|しょうぎょう} (commerce) + {地|ち} (land/area).\n\nLAND USE TYPES:\n- {商業地|しょうぎょうち}: commercial area\n- {住宅地|じゅうたくち}: residential area\n- {工業地|こうぎょうち}: industrial area\n- {農地|のうち}: farmland\n\nRELATED TERMS:\n- {商業地域|しょうぎょうちいき}: commercial zone (official urban planning category)\n- {商業施設|しょうぎょうしせつ}: commercial facility (shopping mall, etc.)\n- {繁華街|はんかがい}: busy shopping/entertainment district\n\nUSAGE:\nAppears in urban planning, real estate, and news contexts. {地価|ちか} (land prices) in {商業地|しょうぎょうち} are typically higher than in residential areas. Station-front areas ({駅前|えきまえ}) are often {商業地|しょうぎょうち}.",
+  "notes": "Compound of ⟦{商業|しょうぎょう}→商業：09940_shougyou⟧ (commerce) + {地|ち} (land/area).\n\nLAND USE TYPES:\n- {商業地|しょうぎょうち}: commercial area\n- ⟦{住宅地|じゅうたくち}→住宅地：10158_juutakuchi⟧: residential area\n- {工業地|こうぎょうち}: industrial area\n- ⟦{農地|のうち}→農地：14354_nouchi⟧: farmland\n\nRELATED WORDS:\n- {商業地域|しょうぎょうちいき}: commercial zone (official urban planning category)\n- {商業施設|しょうぎょうしせつ}: commercial facility (shopping mall, etc.)\n- ⟦{繁華街|はんかがい}→繁華街：09392_hankagai⟧: busy shopping/entertainment district\n\nUSAGE:\nAppears in urban planning, real estate, and news contexts. ⟦{地価|ちか}→地価：12130_chika⟧ (land prices) in {商業地|しょうぎょうち} are typically higher than in residential areas. Station-front areas (⟦{駅前|えきまえ}→駅前：09593_ekimae⟧) are often {商業地|しょうぎょうち}.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "09392_hankagai",
+      "reading": "はんかがい",
+      "headword": "{繁華街|はんかがい}",
+      "label": "busy shopping/entertainment district"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10158_juutakuchi",
+      "reading": "じゅうたくち",
+      "headword": "{住宅地|じゅうたくち}",
+      "label": "residential area"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["geography"]
+      "semantic": [
+        "geography"
+      ]
     },
     "created": "2026-03-24T04:43:12Z",
-    "modified": "2026-03-28T10:56:41Z"
+    "modified": "2026-09-02T04:01:54Z"
   }
 }

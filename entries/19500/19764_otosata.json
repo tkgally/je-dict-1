@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "19764_otosata_ex1",
-      "japanese": "{彼|かれ}から{音沙汰|おとさた}がない。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦から→から：00504_kara⟧{音沙汰|おとさた}⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧。",
       "english": "There's been no word from him.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "19764_otosata_ex2",
-      "japanese": "{応募|おうぼ}してから{音沙汰|おとさた}がなくて{心配|しんぱい}だ。",
+      "japanese": "⟦{応募|おうぼ}→応募：03014_oubo⟧⟦して→する：00392_suru⟧⟦から→から：00504_kara⟧{音沙汰|おとさた}⟦が→が：00051_ga⟧⟦なくて→ない：01118_nai⟧⟦{心配|しんぱい}→心配：00811_shinpai⟧だ。",
       "english": "I haven't heard anything since I applied, and I'm worried.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "19764_otosata_ex3",
-      "japanese": "もう{何年|なんねん}も{音沙汰|おとさた}のなかった{友人|ゆうじん}から、{突然|とつぜん}{連絡|れんらく}が{来|き}た。",
+      "japanese": "⟦もう→もう：00602_mou⟧⟦{何年|なんねん}→何年：12737_nannen⟧⟦も→も：00484_mo⟧{音沙汰|おとさた}⟦の→の：09472_no⟧⟦なかった→ない：01118_nai⟧⟦{友人|ゆうじん}→友人：03649_yuujin⟧⟦から→から：00504_kara⟧、⟦{突然|とつぜん}→突然：00409_totsuzen⟧⟦{連絡|れんらく}→連絡：01524_renraku⟧⟦が→が：00051_ga⟧⟦{来|き}た→来る：00254_kuru⟧。",
       "english": "A friend I hadn't heard from in years suddenly got in touch.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {音|おと} (sound) and {沙汰|さた} (news, tidings). Almost exclusively used in the negative pattern {音沙汰|おとさた}がない, meaning 'no word from someone' or 'no sign of life.' Using it in a positive statement is rare and sounds literary.\n\nUSAGE:\nThe most common pattern is {音沙汰|おとさた}がない or {音沙汰|おとさた}のない. It implies waiting or expecting contact that never comes — from a person, a company after a job application, etc. It carries a nuance of worry, frustration, or disappointment.\n\nCOMMON COLLOCATIONS:\n- {音沙汰|おとさた}がない — no word, no news\n- {音沙汰|おとさた}のないまま — with no word at all\n- しばらく{音沙汰|おとさた}がない — haven't heard anything for a while\n\nSIMILAR WORDS:\n- {連絡|れんらく} — contact, communication; the neutral everyday word\n- {便|たよ}り — news, letter; slightly literary, often positive\n- {消息|しょうそく} — news of someone, whereabouts; more formal, used about someone's current status",
+  "notes": "A compound of ⟦{音|おと}→音：00743_oto⟧ (sound) and ⟦{沙汰|さた}→沙汰：13446_sata⟧ (news, tidings). Almost exclusively used in the negative pattern {音沙汰|おとさた}⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧, meaning 'no word from someone' or 'no sign of life.' Using it in a positive statement is rare and sounds literary.\n\nUSAGE:\nThe most common pattern is {音沙汰|おとさた}⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧ or {音沙汰|おとさた}⟦の→の：09472_no⟧⟦ない→ない：01118_nai⟧. It implies waiting or expecting contact that never comes — from a person, a company after a job application, etc. It carries a nuance of worry, frustration, or disappointment.\n\nCOMMON COLLOCATIONS:\n- {音沙汰|おとさた}⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧ — no word, no news\n- {音沙汰|おとさた}⟦の→の：09472_no⟧⟦ない→ない：01118_nai⟧まま — with no word at all\n- ⟦しばらく→しばらく：01267_shibaraku⟧{音沙汰|おとさた}⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧ — haven't heard anything for a while\n\nSIMILAR WORDS:\n- ⟦{連絡|れんらく}→連絡：01524_renraku⟧ — contact, communication; the neutral everyday word\n- ⟦{便|たよ}り→便り：03411_tayori⟧ — news, letter; slightly literary, often positive\n- ⟦{消息|しょうそく}→消息：19242_shousoku⟧ — news of someone, whereabouts; more formal, used about someone's current status",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01524_renraku",
+      "reading": "れんらく",
+      "headword": "{連絡|れんらく}",
+      "label": "contact, communication"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03411_tayori",
+      "reading": "たより",
+      "headword": "{便|たよ}り",
+      "label": "news, letter"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19242_shousoku",
+      "reading": "しょうそく",
+      "headword": "{消息|しょうそく}",
+      "label": "news of someone, whereabouts"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +82,6 @@
       ]
     },
     "created": "2026-03-26T23:23:01Z",
-    "modified": "2026-07-23T12:19:07Z"
+    "modified": "2026-09-02T04:01:57Z"
   }
 }

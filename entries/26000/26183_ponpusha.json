@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26183_ponpusha_ex1",
-      "japanese": "ポンプ{車|しゃ}が{現場|げんば}に{到着|とうちゃく}した。",
+      "japanese": "ポンプ{車|しゃ}⟦が→が：00051_ga⟧⟦{現場|げんば}→現場：02723_genba⟧⟦に→に：00314_ni⟧⟦{到着|とうちゃく}→到着：02526_touchaku⟧⟦した→する：00392_suru⟧。",
       "english": "The pumper truck arrived at the scene.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26183_ponpusha_ex2",
-      "japanese": "{消防署|しょうぼうしょ}にはポンプ{車|しゃ}が{三台|さんだい}{配備|はいび}されている。",
+      "japanese": "⟦{消防署|しょうぼうしょ}→消防署：06454_shoubousho⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧ポンプ{車|しゃ}⟦が→が：00051_ga⟧{三台|さんだい}⟦{配備|はいび}→配備：25292_haibi⟧⟦されている→する：00392_suru⟧。",
       "english": "Three pumper trucks are stationed at the fire department.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26183_ponpusha_ex3",
-      "japanese": "ポンプ{車|しゃ}が{消火栓|しょうかせん}に{接続|せつぞく}して{放水|ほうすい}を{始|はじ}めた。",
+      "japanese": "ポンプ{車|しゃ}⟦が→が：00051_ga⟧⟦{消火栓|しょうかせん}→消火栓：29794_shoukasen⟧⟦に→に：00314_ni⟧⟦{接続|せつぞく}→接続：04367_setsuzoku⟧⟦して→する：00392_suru⟧{放水|ほうすい}⟦を→を：00422_wo⟧⟦{始|はじ}めた→始める：00531_hajimeru⟧。",
       "english": "The pumper truck connected to the fire hydrant and began spraying water.",
       "sense_numbers": [
         1
@@ -44,8 +44,23 @@
       "notes": null
     }
   ],
-  "notes": "ポンプ{車|しゃ} is the most common type of fire truck in Japan. It carries a pump that can draw water from fire hydrants ({消火栓|しょうかせん}) or natural water sources and spray it through hoses. The full formal name is {消防|しょうぼう}ポンプ{自動車|じどうしゃ}.\n\nCOMMON COLLOCATIONS:\n- ポンプ{車|しゃ}の{操作|そうさ} — operating a pumper truck\n- {小型|こがた}ポンプ{車|しゃ} — small pumper truck (used in narrow streets)\n- ポンプ{車|しゃ}の{放水|ほうすい}{訓練|くんれん} — pumper truck water discharge drill\n\nSIMILAR WORDS:\n- {消防車|しょうぼうしゃ} — fire truck; fire engine (general term)\n- はしご{車|しゃ} — ladder truck (equipped with an extendable ladder)\n- {救急車|きゅうきゅうしゃ} — ambulance",
-  "cross_references": [],
+  "notes": "ポンプ{車|しゃ} is the most common type of fire truck in Japan. It carries a pump that can draw water from fire hydrants (⟦{消火栓|しょうかせん}→消火栓：29794_shoukasen⟧) or natural water sources and spray it through hoses. The full formal name is ⟦{消防|しょうぼう}→消防：03241_shoubou⟧⟦ポンプ→ポンプ：11594_ponpu⟧⟦{自動車|じどうしゃ}→自動車：02886_jidousha⟧.\n\nCOMMON COLLOCATIONS:\n- ポンプ{車|しゃ}⟦の→の：09472_no⟧⟦{操作|そうさ}→操作：03316_sousa⟧ — operating a pumper truck\n- ⟦{小型|こがた}→小型：12460_kogata⟧ポンプ{車|しゃ} — small pumper truck (used in narrow streets)\n- ポンプ{車|しゃ}⟦の→の：09472_no⟧{放水|ほうすい}⟦{訓練|くんれん}→訓練：02673_kunren⟧ — pumper truck water discharge drill\n\nSIMILAR WORDS:\n- ⟦{消防車|しょうぼうしゃ}→消防車：05078_shoubousha⟧ — fire truck; fire engine (general term)\n- はしご{車|しゃ} — ladder truck (equipped with an extendable ladder)\n- ⟦{救急車|きゅうきゅうしゃ}→救急車：05077_kyuukyuusha⟧ — ambulance",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05078_shoubousha",
+      "reading": "しょうぼうしゃ",
+      "headword": "{消防車|しょうぼうしゃ}",
+      "label": "fire truck"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05077_kyuukyuusha",
+      "reading": "きゅうきゅうしゃ",
+      "headword": "{救急車|きゅうきゅうしゃ}",
+      "label": "ambulance"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,11 +68,12 @@
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "transportation"
       ]
     },
     "created": "2026-04-29T16:33:43Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T04:02:25Z"
   }
 }

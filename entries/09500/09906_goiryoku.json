@@ -14,30 +14,36 @@
   "examples": [
     {
       "id": "09906_goiryoku_ex1",
-      "japanese": "{語彙力|ごいりょく}を{高|たか}めたい。",
+      "japanese": "{語彙力|ごいりょく}⟦を→を：00422_wo⟧⟦{高|たか}めたい→高める：02065_takameru⟧。",
       "english": "I want to improve my vocabulary.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09906_goiryoku_ex2",
-      "japanese": "{読書|どくしょ}は{語彙力|ごいりょく}を{伸|の}ばす。",
+      "japanese": "⟦{読書|どくしょ}→読書：03484_dokusho⟧⟦は→は：00079_ha⟧{語彙力|ごいりょく}⟦を→を：00422_wo⟧⟦{伸|の}ばす→伸ばす：01973_nobasu⟧。",
       "english": "Reading expands vocabulary.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09906_goiryoku_ex3",
-      "japanese": "{彼|かれ}は{語彙力|ごいりょく}が{豊|ゆた}かで、いつも{的確|てきかく}な{言葉|ことば}を{選|えら}ぶ。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{語彙力|ごいりょく}⟦が→が：00051_ga⟧⟦{豊|ゆた}か→豊か：03654_yutaka⟧で、⟦いつも→いつも：00599_itsumo⟧⟦{的確|てきかく}→的確：04536_tekikaku⟧な⟦{言葉|ことば}→言葉：02880_kotoba⟧⟦を→を：00422_wo⟧⟦{選|えら}ぶ→選ぶ：00835_erabu⟧。",
       "english": "He has a rich vocabulary and always chooses the right words.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "A term commonly used in educational and language learning contexts.\n\nCOMMON COLLOCATIONS:\n- {語彙力|ごいりょく}を{高|たか}める (to improve vocabulary)\n- {語彙力|ごいりょく}を{伸|の}ばす (to expand vocabulary)\n- {語彙力|ごいりょく}がある (to have vocabulary ability)\n- {語彙力|ごいりょく}が{乏|とぼ}しい (to have poor vocabulary)\n\nRELATED TERMS:\n- {語彙|ごい}: vocabulary\n- {単語|たんご}{力|りょく}: word power\n- {表現力|ひょうげんりょく}: expressive ability",
+  "notes": "A term commonly used in educational and language learning contexts.\n\nCOMMON COLLOCATIONS:\n- {語彙力|ごいりょく}⟦を→を：00422_wo⟧⟦{高|たか}める→高める：02065_takameru⟧ (to improve vocabulary)\n- {語彙力|ごいりょく}⟦を→を：00422_wo⟧⟦{伸|の}ばす→伸ばす：01973_nobasu⟧ (to expand vocabulary)\n- {語彙力|ごいりょく}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧ (to have vocabulary ability)\n- {語彙力|ごいりょく}⟦が→が：00051_ga⟧⟦{乏|とぼ}しい→乏しい：08153_toboshii⟧ (to have poor vocabulary)\n\nRELATED WORDS:\n- ⟦{語彙|ごい}→語彙：14214_goi⟧: vocabulary\n- ⟦{単語|たんご}{力|りょく}→単語力：25635_tangoryoku⟧: word power\n- ⟦{表現力|ひょうげんりょく}→表現力：21315_hyougenryoku⟧: expressive ability",
   "cross_references": [
     {
       "type": "related",
@@ -45,18 +51,44 @@
       "reading": "ごい",
       "headword": "{語彙|ごい}",
       "label": "vocabulary"
+    },
+    {
+      "type": "related",
+      "target_id": "25635_tangoryoku",
+      "reading": "たんごりょく",
+      "headword": "{単語力|たんごりょく}",
+      "label": "word power"
+    },
+    {
+      "type": "related",
+      "target_id": "21315_hyougenryoku",
+      "reading": "ひょうげんりょく",
+      "headword": "{表現力|ひょうげんりょく}",
+      "label": "expressive ability"
+    },
+    {
+      "type": "related",
+      "target_id": "09290_dokkairyoku",
+      "reading": "どっかいりょく",
+      "headword": "{読解力|どっかいりょく}",
+      "label": "reading comprehension, reading ability"
     }
   ],
   "metadata": {
     "created": "2026-02-04T06:17:12Z",
-    "modified": "2026-02-04T06:17:12Z",
+    "modified": "2026-09-02T04:01:19Z",
     "ai_model": "claude-opus-4-5-20251101",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["language", "education"]
+      "semantic": [
+        "language",
+        "education"
+      ]
     }
   }
 }

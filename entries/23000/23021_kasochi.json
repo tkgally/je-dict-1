@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "23021_kasochi_ex1",
-      "japanese": "この{村|むら}は{過疎地|かそち}だ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{村|むら}→村：02261_mura⟧⟦は→は：00079_ha⟧{過疎地|かそち}だ。",
       "english": "This village is a depopulated area.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "23021_kasochi_ex2",
-      "japanese": "{過疎地|かそち}では{病院|びょういん}が{少|すく}ない。",
+      "japanese": "{過疎地|かそち}⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{病院|びょういん}→病院：00577_byouin⟧⟦が→が：00051_ga⟧⟦{少|すく}ない→少ない：01136_sukunai⟧。",
       "english": "There are few hospitals in depopulated areas.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "23021_kasochi_ex3",
-      "japanese": "{若者|わかもの}が{都市|とし}に{出|で}てしまい、{過疎地|かそち}の{高齢化|こうれいか}がますます{進|すす}んでいる。",
+      "japanese": "⟦{若者|わかもの}→若者：03037_wakamono⟧⟦が→が：00051_ga⟧⟦{都市|とし}→都市：01477_toshi⟧⟦に→に：00314_ni⟧⟦{出|で}て→出る：00513_deru⟧しまい、{過疎地|かそち}⟦の→の：09472_no⟧⟦{高齢化|こうれいか}→高齢化：04808_koureika⟧⟦が→が：00051_ga⟧⟦ますます→ますます：01604_masumasu⟧⟦{進|すす}んでいる→進む：01225_susumu⟧。",
       "english": "With young people leaving for the cities, the aging of depopulated areas is accelerating.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "A key term in discussions of Japanese demographics and regional policy. Japan's rapid urbanization since the postwar period has left many rural areas severely depopulated, with aging populations, abandoned houses, and shrinking public services. The government designates certain areas as {過疎|かそ}{地域|ちいき} under the Depopulated Areas Act.\n\nCOMMON COLLOCATIONS:\n- {過疎地|かそち}{域|いき}: depopulated region (formal/administrative)\n- {過疎地|かそち}の{問題|もんだい}: problems of depopulated areas\n- {過疎地|かそち}{対策|たいさく}: measures for depopulated areas\n- {過疎化|かそか}が{進|すす}む: depopulation advances\n\nSIMILAR WORDS:\n- {過疎|かそ}: depopulation — the phenomenon itself, while {過疎地|かそち} refers to the specific area\n- {僻地|へきち}: remote area — emphasizes geographical remoteness, not necessarily population decline\n- {限界集落|げんかいしゅうらく}: marginal settlement — a village where more than half the residents are over 65",
+  "notes": "A key term in discussions of Japanese demographics and regional policy. Japan's rapid urbanization since the postwar period has left many rural areas severely depopulated, with aging populations, abandoned houses, and shrinking public services. The government designates certain areas as ⟦{過疎|かそ}→過疎：14756_kaso⟧⟦{地域|ちいき}→地域：01461_chiiki⟧ under the Depopulated Areas Act.\n\nCOMMON COLLOCATIONS:\n- {過疎地|かそち}{域|いき}: depopulated region (formal/administrative)\n- {過疎地|かそち}⟦の→の：09472_no⟧⟦{問題|もんだい}→問題：00797_mondai⟧: problems of depopulated areas\n- {過疎地|かそち}⟦{対策|たいさく}→対策：02511_taisaku⟧: measures for depopulated areas\n- ⟦{過疎化|かそか}→過疎化：05242_kasoka⟧⟦が→が：00051_ga⟧⟦{進|すす}む→進む：01225_susumu⟧: depopulation advances\n\nSIMILAR WORDS:\n- ⟦{過疎|かそ}→過疎：14756_kaso⟧: depopulation — the phenomenon itself, while {過疎地|かそち} refers to the specific area\n- ⟦{僻地|へきち}→僻地：17059_hekichi⟧: remote area — emphasizes geographical remoteness, not necessarily population decline\n- ⟦{限界集落|げんかいしゅうらく}→限界集落：16503_genkaishuuraku⟧: marginal settlement — a village where more than half the residents are over 65",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17059_hekichi",
+      "reading": "へきち",
+      "headword": "{僻地|へきち}",
+      "label": "remote area"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16503_genkaishuuraku",
+      "reading": "げんかいしゅうらく",
+      "headword": "{限界集落|げんかいしゅうらく}",
+      "label": "marginal settlement"
+    },
+    {
+      "type": "related",
+      "target_id": "20960_enkakuchi",
+      "reading": "えんかくち",
+      "headword": "{遠隔地|えんかくち}",
+      "label": "remote area"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +83,6 @@
       ]
     },
     "created": "2026-04-08T16:22:42Z",
-    "modified": "2026-04-10T08:28:27Z"
+    "modified": "2026-09-02T04:02:10Z"
   }
 }

@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "COMPOUNDS:\n・{毛糸|けいと}⟦の→の：09472_no⟧⟦{玉|たま}→玉：02221_tama⟧ (ball of yarn)\n・{毛糸|けいと}⟦{編|あ}み→編む：00002_amu⟧ (wool knitting)\n\nMATERIALS:\n・ウール{毛糸|けいと} (wool yarn)\n・アクリル{毛糸|けいと} (acrylic yarn)\n・{並|なみ}{太|ぶと}{毛糸|けいと} (medium-weight yarn)\n・{極|ごく}{太|ぶと}{毛糸|けいと} (bulky yarn)\n\nRELATED WORDS:\n・⟦{編|あ}む→編む：00002_amu⟧ (to knit)\n・⟦{編|あ}み{物|もの}→編み物：06364_amimono⟧ (knitting, knitted item)\n・かぎ⟦{針|ばり}→針：03566_hari⟧⟦{編|あ}み→編む：00002_amu⟧ (crochet)\n・⟦{棒|ぼう}→棒：noentry⟧⟦{針|ばり}→針：03566_hari⟧⟦{編|あ}み→編む：00002_amu⟧ (knitting with needles)\n・⟦{糸|いと}→糸：01315_ito⟧ (thread - general)\n\nNOTE: {毛糸|けいと} traditionally referred to wool (⟦{毛|け}→毛：01392_ke⟧ = hair/fur) but now includes synthetic yarns as well.",
+  "notes": "COMPOUNDS:\n- {毛糸|けいと}⟦の→の：09472_no⟧⟦{玉|たま}→玉：02221_tama⟧ (ball of yarn)\n- {毛糸|けいと}⟦{編|あ}み→編む：00002_amu⟧ (wool knitting)\n\nMATERIALS:\n- ⟦ウール→ウール：27712_uuru⟧{毛糸|けいと} (wool yarn)\n- ⟦アクリル→アクリル：28698_akuriru⟧{毛糸|けいと} (acrylic yarn)\n- {並|なみ}{太|ぶと}{毛糸|けいと} (medium-weight yarn)\n- {極|ごく}{太|ぶと}{毛糸|けいと} (bulky yarn)\n\nRELATED WORDS:\n- ⟦{編|あ}む→編む：00002_amu⟧ (to knit)\n- ⟦{編|あ}み{物|もの}→編み物：06364_amimono⟧ (knitting, knitted item)\n- かぎ⟦{針|ばり}→針：03566_hari⟧⟦{編|あ}み→編む：00002_amu⟧ (crochet)\n- ⟦{棒|ぼう}→棒：noentry⟧⟦{針|ばり}→針：03566_hari⟧⟦{編|あ}み→編む：00002_amu⟧ (knitting with needles)\n- ⟦{糸|いと}→糸：01315_ito⟧ (thread - general)\n\nNOTE: {毛糸|けいと} traditionally referred to wool (⟦{毛|け}→毛：01392_ke⟧ = hair/fur) but now includes synthetic yarns as well.",
   "cross_references": [
     {
       "type": "related",
@@ -51,11 +51,53 @@
       "headword": "{編|あ}む",
       "label": "to knit",
       "target_id": "00002_amu"
+    },
+    {
+      "type": "related",
+      "target_id": "06364_amimono",
+      "reading": "あみもの",
+      "headword": "{編|あ}み{物|もの}",
+      "label": "knitting, knitted item"
+    },
+    {
+      "type": "related",
+      "target_id": "15515_amibou",
+      "reading": "あみぼう",
+      "headword": "{編|あ}み{棒|ぼう}",
+      "label": "knitting needle"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20649_youmou",
+      "reading": "ようもう",
+      "headword": "{羊毛|ようもう}",
+      "label": "wool"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26581_menshi",
+      "reading": "めんし",
+      "headword": "{綿糸|めんし}",
+      "label": "cotton yarn"
+    },
+    {
+      "type": "related",
+      "target_id": "27626_kinuito",
+      "reading": "きぬいと",
+      "headword": "{絹糸|きぬいと}",
+      "label": "silk thread"
+    },
+    {
+      "type": "related",
+      "target_id": "28210_amibari",
+      "reading": "あみばり",
+      "headword": "{編|あ}み{針|ばり}",
+      "label": "knitting needle"
     }
   ],
   "metadata": {
     "created": "2026-01-13T10:53:53Z",
-    "modified": "2026-05-09T20:11:57Z",
+    "modified": "2026-09-02T04:00:57Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

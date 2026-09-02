@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "20832_bunen_ex1",
-      "japanese": "この{店|みせ}は{分煙|ぶんえん}です。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{店|みせ}→店：00497_mise⟧⟦は→は：00079_ha⟧{分煙|ぶんえん}です。",
       "english": "This restaurant has separate smoking and non-smoking areas.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "20832_bunen_ex2",
-      "japanese": "{職場|しょくば}の{分煙|ぶんえん}{対策|たいさく}が{進|すす}んでいる。",
+      "japanese": "⟦{職場|しょくば}→職場：04164_shokuba⟧⟦の→の：09472_no⟧{分煙|ぶんえん}⟦{対策|たいさく}→対策：02511_taisaku⟧⟦が→が：00051_ga⟧⟦{進|すす}んでいる→進む：01225_susumu⟧。",
       "english": "Smoking area separation measures are advancing in the workplace.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "20832_bunen_ex3",
-      "japanese": "{以前|いぜん}は{分煙|ぶんえん}が{主流|しゅりゅう}だったが、{最近|さいきん}は{全面禁煙|ぜんめんきんえん}の{施設|しせつ}が{増|ふ}えている。",
+      "japanese": "⟦{以前|いぜん}→以前：01790_izen⟧⟦は→は：00079_ha⟧{分煙|ぶんえん}⟦が→が：00051_ga⟧⟦{主流|しゅりゅう}→主流：11407_shuryuu⟧だった⟦が→が：00051_ga⟧、⟦{最近|さいきん}→最近：00881_saikin⟧⟦は→は：00079_ha⟧{全面禁煙|ぜんめんきんえん}⟦の→の：09472_no⟧⟦{施設|しせつ}→施設：02503_shisetsu⟧⟦が→が：00051_ga⟧⟦{増|ふ}えている→増える：01183_fueru⟧。",
       "english": "Separation of smoking areas used to be the norm, but recently more facilities have gone completely smoke-free.",
       "sense_numbers": [
         1
@@ -43,7 +43,7 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {分|ぶん} (divide/separate) and {煙|えん} (smoke). Refers to the policy of physically separating smoking and non-smoking areas rather than banning smoking entirely.\n\nCOMMON COLLOCATIONS:\n- {分煙|ぶんえん}{対策|たいさく}: smoking separation measures\n- {分煙|ぶんえん}スペース: separated smoking space\n- {完全|かんぜん}{分煙|ぶんえん}: complete separation of smoking areas\n- {分煙|ぶんえん}が{進|すす}む: smoking separation progresses\n\nRELATED TERMS:\n- {禁煙|きんえん}: no smoking / quitting smoking\n- {喫煙|きつえん}: smoking\n- {全面禁煙|ぜんめんきんえん}: complete smoking ban\n- {受動喫煙|じゅどうきつえん}: passive smoking / secondhand smoke\n\nCULTURAL CONTEXT:\nJapan has gradually tightened smoking regulations. The 2020 {改正健康増進法|かいせいけんこうぞうしんほう} (Revised Health Promotion Act) significantly expanded indoor smoking bans, making {分煙|ぶんえん} less common as many establishments shifted to {全面禁煙|ぜんめんきんえん}.",
+  "notes": "A compound of ⟦{分|ぶん}→分：26216_bun⟧ (divide/separate) and {煙|えん} (smoke). Refers to the policy of physically separating smoking and non-smoking areas rather than banning smoking entirely.\n\nCOMMON COLLOCATIONS:\n- {分煙|ぶんえん}⟦{対策|たいさく}→対策：02511_taisaku⟧: smoking separation measures\n- {分煙|ぶんえん}⟦スペース→スペース：11049_supeesu⟧: separated smoking space\n- ⟦{完全|かんぜん}→完全：01552_kanzen⟧{分煙|ぶんえん}: complete separation of smoking areas\n- {分煙|ぶんえん}⟦が→が：00051_ga⟧⟦{進|すす}む→進む：01225_susumu⟧: smoking separation progresses\n\nRELATED WORDS:\n- ⟦{禁煙|きんえん}→禁煙：02644_kinen⟧: no smoking / quitting smoking\n- ⟦{喫煙|きつえん}→喫煙：17580_kitsuen⟧: smoking\n- {全面禁煙|ぜんめんきんえん}: complete smoking ban\n- {受動喫煙|じゅどうきつえん}: passive smoking / secondhand smoke\n\nCULTURAL NOTE:\nJapan has gradually tightened smoking regulations. The 2020 {改正健康増進法|かいせいけんこうぞうしんほう} (Revised Health Promotion Act) significantly expanded indoor smoking bans, making {分煙|ぶんえん} less common as many establishments shifted to {全面禁煙|ぜんめんきんえん}.",
   "cross_references": [
     {
       "type": "related",
@@ -51,6 +51,34 @@
       "reading": "きつえんじょ",
       "headword": "{喫煙所|きつえんじょ}",
       "label": "smoking area"
+    },
+    {
+      "type": "related",
+      "target_id": "02644_kinen",
+      "reading": "きんえん",
+      "headword": "{禁煙|きんえん}",
+      "label": "no smoking / quitting smoking"
+    },
+    {
+      "type": "related",
+      "target_id": "17580_kitsuen",
+      "reading": "きつえん",
+      "headword": "{喫煙|きつえん}",
+      "label": "smoking"
+    },
+    {
+      "type": "related",
+      "target_id": "22332_kitsuenseki",
+      "reading": "きつえんせき",
+      "headword": "{喫煙席|きつえんせき}",
+      "label": "smoking seat"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30778_kitsuenshitsu",
+      "reading": "きつえんしつ",
+      "headword": "{喫煙室|きつえんしつ}",
+      "label": "smoking room"
     }
   ],
   "schema_version": "2.0",
@@ -68,6 +96,6 @@
       "domain": []
     },
     "created": "2026-03-30T17:19:34Z",
-    "modified": "2026-08-29T00:23:24Z"
+    "modified": "2026-09-02T04:02:01Z"
   }
 }

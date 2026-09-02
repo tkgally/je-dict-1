@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "20451_hasshin_ex1",
-      "japanese": "{腕|うで}に{発疹|はっしん}が{出|で}た。",
+      "japanese": "⟦{腕|うで}→腕：01006_ude⟧⟦に→に：00314_ni⟧{発疹|はっしん}⟦が→が：00051_ga⟧⟦{出|で}た→出る：00513_deru⟧。",
       "english": "A rash appeared on my arm.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "20451_hasshin_ex2",
-      "japanese": "{薬|くすり}のアレルギーで{発疹|はっしん}が{出|で}ることがある。",
+      "japanese": "⟦{薬|くすり}→薬：00793_kusuri⟧⟦の→の：09472_no⟧⟦アレルギー→アレルギー：04645_arerugii⟧⟦で→で：00502_de⟧{発疹|はっしん}⟦が→が：00051_ga⟧⟦{出|で}る→出る：00513_deru⟧こと⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "A rash can appear due to a drug allergy.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "20451_hasshin_ex3",
-      "japanese": "{全身|ぜんしん}に{赤|あか}い{発疹|はっしん}が{広|ひろ}がったので、すぐに{病院|びょういん}に{行|い}った。",
+      "japanese": "⟦{全身|ぜんしん}→全身：03313_zenshin⟧⟦に→に：00314_ni⟧⟦{赤|あか}い→赤い：00585_akai⟧{発疹|はっしん}⟦が→が：00051_ga⟧⟦{広|ひろ}がった→広がる：01980_hirogaru⟧⟦の→の：09472_no⟧で、⟦すぐ→すぐ：00814_sugu⟧⟦に→に：00314_ni⟧⟦{病院|びょういん}→病院：00577_byouin⟧⟦に→に：00314_ni⟧⟦{行|い}った→行く：00119_iku⟧。",
       "english": "Red rashes spread all over my body, so I went to the hospital immediately.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "A medical term composed of {発|はつ} (outbreak, occurrence) and {疹|しん} (rash). The standard word for skin rashes in both medical and everyday contexts.\n\nREADING NOTE:\nThe reading はっしん is standard. An older reading ほっしん also exists but is less common today. Be careful not to confuse with the homophone {発信|はっしん} (sending, transmitting).\n\nCOMMON COLLOCATIONS:\n- {発疹|はっしん}が{出|で}る — a rash appears\n- {発疹|はっしん}が{広|ひろ}がる — a rash spreads\n- {発疹|はっしん}が{引|ひ}く — a rash subsides\n- アレルギー{性|せい}{発疹|はっしん} — allergic rash\n\nSIMILAR WORDS:\n- {湿疹|しっしん} — eczema, dermatitis (chronic or recurring skin condition)\n- {蕁麻疹|じんましん} — hives, urticaria (raised itchy welts)\n- かぶれ — rash from contact irritation (more casual)",
+  "notes": "A medical term composed of ⟦{発|はつ}→〜発：04026_hatsu⟧ (outbreak, occurrence) and {疹|しん} (rash). The standard word for skin rashes in both medical and everyday contexts.\n\nPRONUNCIATION:\nThe reading はっしん is standard. An older reading ほっしん also exists but is less common today. Be careful not to confuse with the homophone ⟦{発信|はっしん}→発信：04895_hasshin⟧ (sending, transmitting).\n\nCOMMON COLLOCATIONS:\n- {発疹|はっしん}⟦が→が：00051_ga⟧⟦{出|で}る→出る：00513_deru⟧ — a rash appears\n- {発疹|はっしん}⟦が→が：00051_ga⟧⟦{広|ひろ}がる→広がる：01980_hirogaru⟧ — a rash spreads\n- {発疹|はっしん}⟦が→が：00051_ga⟧⟦{引|ひ}く→引く：01978_hiku⟧ — a rash subsides\n- ⟦アレルギー→アレルギー：04645_arerugii⟧⟦{性|せい}→性：09880_sei⟧{発疹|はっしん} — allergic rash\n\nSIMILAR WORDS:\n- ⟦{湿疹|しっしん}→湿疹：06951_shisshin⟧ — eczema, dermatitis (chronic or recurring skin condition)\n- ⟦{蕁麻疹|じんましん}→蕁麻疹：15182_jinmashin⟧ — hives, urticaria (raised itchy welts)\n- ⟦かぶれ→かぶれ：25271_kabure⟧ — rash from contact irritation (more casual)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06951_shisshin",
+      "reading": "しっしん",
+      "headword": "{湿疹|しっしん}",
+      "label": "eczema, dermatitis"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15182_jinmashin",
+      "reading": "じんましん",
+      "headword": "{蕁麻疹|じんましん}",
+      "label": "hives, urticaria"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25271_kabure",
+      "reading": "かぶれ",
+      "headword": "かぶれ",
+      "label": "rash from contact irritation"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +83,6 @@
       ]
     },
     "created": "2026-03-29T14:13:07Z",
-    "modified": "2026-07-28T09:34:52Z"
+    "modified": "2026-09-02T04:01:59Z"
   }
 }

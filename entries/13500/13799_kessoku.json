@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "13799_kessoku_ex1",
-      "japanese": "チームの{結束|けっそく}が{強|つよ}い。",
+      "japanese": "⟦チーム→チーム：03858_chiimu⟧⟦の→の：09472_no⟧{結束|けっそく}⟦が→が：00051_ga⟧⟦{強|つよ}い→強い：00820_tsuyoi⟧。",
       "english": "The team's unity is strong.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "13799_kessoku_ex2",
-      "japanese": "{困難|こんなん}な{状況|じょうきょう}がメンバーの{結束|けっそく}を{高|たか}めた。",
+      "japanese": "⟦{困難|こんなん}→困難：01410_konnan⟧な⟦{状況|じょうきょう}→状況：01576_joukyou⟧⟦が→が：00051_ga⟧⟦メンバー→メンバー：00275_menbaa⟧⟦の→の：09472_no⟧{結束|けっそく}⟦を→を：00422_wo⟧⟦{高|たか}めた→高める：02065_takameru⟧。",
       "english": "The difficult situation strengthened the members' solidarity.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "13799_kessoku_ex3",
-      "japanese": "{住民|じゅうみん}が{結束|けっそく}して{地域|ちいき}の{問題|もんだい}に{取|と}り{組|く}んだ。",
+      "japanese": "⟦{住民|じゅうみん}→住民：03281_juumin⟧⟦が→が：00051_ga⟧{結束|けっそく}⟦して→する：00392_suru⟧⟦{地域|ちいき}→地域：01461_chiiki⟧⟦の→の：09472_no⟧⟦{問題|もんだい}→問題：00797_mondai⟧⟦に→に：00314_ni⟧⟦{取|と}り{組|く}んだ→取り組む：04225_torikumu⟧。",
       "english": "The residents united and tackled the community's problems.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nAlso used as a suru verb: {結束|けっそく}する (to unite, to band together). Carries a positive nuance of strength through togetherness, often used in contexts of overcoming adversity.\n\nCOMMON COLLOCATIONS:\n- {結束|けっそく}が{固|かた}い: tight-knit solidarity\n- {結束|けっそく}を{強|つよ}める: to strengthen unity\n- {結束|けっそく}を{高|たか}める: to heighten cohesion\n- {結束|けっそく}{力|りょく}: power of unity\n\nSIMILAR WORDS:\n{団結|だんけつ} (solidarity) is very close in meaning but has a stronger political or organizational nuance, often used for unions and protest movements. {結束|けっそく} is more general.",
+  "notes": "USAGE:\nAlso used as a suru verb: {結束|けっそく}⟦する→する：00392_suru⟧ (to unite, to band together). Carries a positive nuance of strength through togetherness, often used in contexts of overcoming adversity.\n\nCOMMON COLLOCATIONS:\n- {結束|けっそく}⟦が→が：00051_ga⟧⟦{固|かた}い→固い：12090_katai⟧: tight-knit solidarity\n- {結束|けっそく}⟦を→を：00422_wo⟧⟦{強|つよ}める→強める：02296_tsuyomeru⟧: to strengthen unity\n- {結束|けっそく}⟦を→を：00422_wo⟧⟦{高|たか}める→高める：02065_takameru⟧: to heighten cohesion\n- {結束|けっそく}{力|りょく}: power of unity\n\nSIMILAR WORDS:\n⟦{団結|だんけつ}→団結：15725_danketsu⟧ (solidarity) is very close in meaning but has a stronger political or organizational nuance, often used for unions and protest movements. {結束|けっそく} is more general.",
   "cross_references": [
     {
       "type": "synonym",
@@ -142,11 +142,46 @@
       "reading": "だんけつ",
       "headword": "{団結|だんけつ}",
       "label": "solidarity (political nuance)"
+    },
+    {
+      "type": "related",
+      "target_id": "19218_danketsusuru",
+      "reading": "だんけつする",
+      "headword": "{団結|だんけつ}する",
+      "label": "to unite"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19554_rentaikan",
+      "reading": "れんたいかん",
+      "headword": "{連帯感|れんたいかん}",
+      "label": "feeling of solidarity"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20785_icchidanketsu",
+      "reading": "いっちだんけつ",
+      "headword": "{一致団結|いっちだんけつ}",
+      "label": "solidarity"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21196_ichigantonatte",
+      "reading": "いちがんとなって",
+      "headword": "{一丸|いちがん}となって",
+      "label": "as one"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28278_ichigan",
+      "reading": "いちがん",
+      "headword": "{一丸|いちがん}",
+      "label": "one body"
     }
   ],
   "metadata": {
     "created": "2026-02-27T04:13:25Z",
-    "modified": "2026-04-29T08:23:01Z",
+    "modified": "2026-09-02T04:01:34Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

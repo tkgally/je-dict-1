@@ -10,6 +10,9 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          # --changed-only diffs against origin/main, so main must be fetchable
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -19,15 +22,29 @@ jobs:
       - name: Install dependencies
         run: pip install -r build/requirements.txt
 
+      - name: Unit tests
+        run: python3 -m unittest discover -s build/tests -t .
+
       - name: Validate entries
         working-directory: build
         run: python3 validate.py
 
+      - name: Ratchet checks on changed entries
+        # Fails only for entries this PR touches: missing politeness/formality,
+        # missing transitivity on godan/ichidan verbs, kana-only furigana braces.
+        run: |
+          git fetch origin main --depth=1 || true
+          python3 build/validate.py --changed-only --ratchet
+
       - name: Check for new off-vocabulary semantic tags
         # Ratchet gate: fails only if an entry introduces a semantic tag outside
         # VALID_SEMANTIC that isn't already in build/data/unknown_semantic_baseline.json.
-        # The legacy off-vocab tail stays tolerated; new drift is blocked at CI.
         run: python3 build/validate_tags.py --check-no-new-unknown
+
+      - name: Check for new non-canonical notes headers
+        # Ratchet gate: fails only if an entry introduces a notes section header
+        # outside build/data/note_headers.json that isn't in the baseline.
+        run: python3 build/check_note_headers.py --gate
 
       - name: Check inline-link base forms
         # Ratchet gate: fails if any inline link resolves to an entry that is not

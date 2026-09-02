@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "15358_tanka_ex1",
-      "japanese": "{短歌|たんか}を{詠|よ}む。",
+      "japanese": "{短歌|たんか}⟦を→を：00422_wo⟧⟦{詠|よ}む→詠む：14186_yomu⟧。",
       "english": "To compose a tanka.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "15358_tanka_ex2",
-      "japanese": "{新聞|しんぶん}の{短歌|たんか}{欄|らん}に{毎週|まいしゅう}{投稿|とうこう}している。",
+      "japanese": "⟦{新聞|しんぶん}→新聞：01440_shinbun⟧⟦の→の：09472_no⟧{短歌|たんか}⟦{欄|らん}→欄：03901_ran⟧⟦に→に：00314_ni⟧⟦{毎週|まいしゅう}→毎週：00730_maishuu⟧⟦{投稿|とうこう}している→投稿する：18994_toukousuru⟧。",
       "english": "I submit to the newspaper's tanka column every week.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "15358_tanka_ex3",
-      "japanese": "{万葉集|まんようしゅう}には{約|やく}4500{首|しゅ}の{短歌|たんか}が{収|おさ}められている。",
+      "japanese": "⟦{万葉集|まんようしゅう}→万葉集：08827_manyoushuu⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{約|やく}→約：09563_yaku⟧4500{首|しゅ}⟦の→の：09472_no⟧{短歌|たんか}⟦が→が：00051_ga⟧⟦{収|おさ}められている→収める：02022_osameru⟧。",
       "english": "The Man'yoshu contains approximately 4,500 tanka poems.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE: {短歌|たんか} follows a 5-7-5-7-7 mora pattern across five lines. Poems are counted with the counter {首|しゅ}. The verb for composing tanka is {詠|よ}む.\n\nThe form predates haiku; historically the upper portion (5-7-5) and lower portion (7-7) were sometimes composed by different people as a literary game. In modern times, tanka enjoys renewed popularity especially among younger poets.\n\nCOMMON COLLOCATIONS:\n- {短歌|たんか}を{詠|よ}む: to compose a tanka\n- {短歌|たんか}{集|しゅう}: a collection of tanka\n- {短歌|たんか}{欄|らん}: tanka column (in a newspaper)\n- {一首|いっしゅ}: one tanka poem\n\nSIMILAR WORDS:\n- {短歌|たんか}: 31-mora poem (5-7-5-7-7)\n- {俳句|はいく}: 17-mora poem (5-7-5)\n- {和歌|わか}: Japanese poem (classical umbrella term that includes tanka)\n- {川柳|せんりゅう}: humorous 17-mora poem (5-7-5, no seasonal word required)",
+  "notes": "USAGE: {短歌|たんか} follows a 5-7-5-7-7 mora pattern across five lines. Poems are counted with the counter {首|しゅ}. The verb for composing tanka is ⟦{詠|よ}む→詠む：14186_yomu⟧.\n\nThe form predates haiku; historically the upper portion (5-7-5) and lower portion (7-7) were sometimes composed by different people as a literary game. In modern times, tanka enjoys renewed popularity especially among younger poets.\n\nCOMMON COLLOCATIONS:\n- {短歌|たんか}⟦を→を：00422_wo⟧⟦{詠|よ}む→詠む：14186_yomu⟧: to compose a tanka\n- {短歌|たんか}{集|しゅう}: a collection of tanka\n- {短歌|たんか}⟦{欄|らん}→欄：03901_ran⟧: tanka column (in a newspaper)\n- {一首|いっしゅ}: one tanka poem\n\nSIMILAR WORDS:\n- {短歌|たんか}: 31-mora poem (5-7-5-7-7)\n- ⟦{俳句|はいく}→俳句：00083_haiku⟧: 17-mora poem (5-7-5)\n- ⟦{和歌|わか}→和歌：05230_waka⟧: Japanese poem (classical umbrella term that includes tanka)\n- ⟦{川柳|せんりゅう}→川柳：09660_senryuu⟧: humorous 17-mora poem (5-7-5, no seasonal word required)",
   "cross_references": [
     {
       "type": "contrast",
@@ -52,11 +52,32 @@
       "reading": "はいく",
       "headword": "{俳句|はいく}",
       "label": "17-syllable poem"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05230_waka",
+      "reading": "わか",
+      "headword": "{和歌|わか}",
+      "label": "Japanese poem"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09660_senryuu",
+      "reading": "せんりゅう",
+      "headword": "{川柳|せんりゅう}",
+      "label": "humorous 17-mora poem"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27877_gendaishi",
+      "reading": "げんだいし",
+      "headword": "{現代詩|げんだいし}",
+      "label": "modern poetry"
     }
   ],
   "metadata": {
     "created": "2026-03-06T11:46:46Z",
-    "modified": "2026-05-01T06:14:09Z",
+    "modified": "2026-09-02T04:01:40Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

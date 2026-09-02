@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "おそらく indicates high probability — roughly equivalent to \"most likely\" or \"in all probability.\" More formal and literary than たぶん.\n\nCOMPARISON (PROBABILITY SCALE):\n- ⟦きっと→きっと：00860_kitto⟧: surely, definitely (highest certainty)\n- おそらく: probably (high probability, formal)\n- ⟦たぶん→たぶん：00815_tabun⟧: probably (moderate probability, casual)\n- ⟦もしかしたら→もしかしたら：08420_moshikashitara⟧/⟦もしかすると→もしかすると：00293_moshikasuruto⟧: perhaps, maybe (lower probability)\n\nPOSITION:\nTypically placed at the beginning of a clause or sentence. Often paired with だろう or でしょう.\n\nKANJI:\nCan be written as {恐|おそ}らく. The kanji {恐|おそ} means \"fear\" — the word originally implied apprehension about what might happen.\n\nREGISTER:\nPreferred in writing, news, and formal speech. In casual conversation, たぶん is more natural.",
+  "notes": "おそらく indicates high probability — roughly equivalent to \"most likely\" or \"in all probability.\" More formal and literary than ⟦たぶん→たぶん：00815_tabun⟧.\n\nCOMPARISON (PROBABILITY SCALE):\n- ⟦きっと→きっと：00860_kitto⟧: surely, definitely (highest certainty)\n- おそらく: probably (high probability, formal)\n- ⟦たぶん→たぶん：00815_tabun⟧: probably (moderate probability, casual)\n- ⟦もしかしたら→もしかしたら：08420_moshikashitara⟧/⟦もしかすると→もしかすると：00293_moshikasuruto⟧: perhaps, maybe (lower probability)\n\nPOSITION IN SENTENCE:\nTypically placed at the beginning of a clause or sentence. Often paired with だろう or でしょう.\n\nWRITING:\nCan be written as {恐|おそ}らく. The kanji {恐|おそ} means \"fear\" — the word originally implied apprehension about what might happen.\n\nREGISTER:\nPreferred in writing, news, and formal speech. In casual conversation, ⟦たぶん→たぶん：00815_tabun⟧ is more natural.",
   "cross_references": [
     {
       "type": "synonym",
@@ -51,11 +51,39 @@
       "headword": "たぶん",
       "label": "probably (casual)",
       "target_id": "00815_tabun"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00860_kitto",
+      "reading": "きっと",
+      "headword": "きっと",
+      "label": "surely, definitely"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08420_moshikashitara",
+      "reading": "もしかしたら",
+      "headword": "もしかしたら",
+      "label": "perhaps, maybe"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00293_moshikasuruto",
+      "reading": "もしかすると",
+      "headword": "もしかすると",
+      "label": "perhaps, maybe"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07338_hyotto",
+      "reading": "ひょっと",
+      "headword": "ひょっと",
+      "label": "possibly"
     }
   ],
   "metadata": {
     "created": "2026-01-11T12:35:21Z",
-    "modified": "2026-06-11T18:03:17Z",
+    "modified": "2026-09-02T04:01:01Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

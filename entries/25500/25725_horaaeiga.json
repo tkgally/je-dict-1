@@ -15,39 +15,75 @@
   "examples": [
     {
       "id": "25725_horaaeiga_ex1",
-      "japanese": "ホラー{映画|えいが}は{苦手|にがて}だ。",
+      "japanese": "ホラー{映画|えいが}⟦は→は：00079_ha⟧⟦{苦手|にがて}→苦手：03513_nigate⟧だ。",
       "english": "I'm bad with horror movies.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "25725_horaaeiga_ex2",
-      "japanese": "{友達|ともだち}とホラー{映画|えいが}を{見|み}に{行|い}った。",
+      "japanese": "⟦{友達|ともだち}→友達：01478_tomodachi⟧⟦と→と：00512_to⟧ホラー{映画|えいが}⟦を→を：00422_wo⟧⟦{見|み}→見る：00283_miru⟧⟦に→に：00314_ni⟧⟦{行|い}った→行く：00119_iku⟧。",
       "english": "I went to see a horror movie with friends.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "25725_horaaeiga_ex3",
-      "japanese": "{日本|にほん}のホラー{映画|えいが}は{心理的|しんりてき}な{恐怖|きょうふ}を{描|えが}くものが{多|おお}い。",
+      "japanese": "⟦{日本|にほん}→日本：03876_nihon⟧⟦の→の：09472_no⟧ホラー{映画|えいが}⟦は→は：00079_ha⟧⟦{心理的|しんりてき}→心理的：05686_shinriteki⟧な⟦{恐怖|きょうふ}→恐怖：02585_kyoufu⟧⟦を→を：00422_wo⟧⟦{描|えが}く→描く：02013_egaku⟧もの⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "Japanese horror movies often depict psychological fear.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "ホラー (from English \"horror\") + {映画|えいが} (movie). Japanese horror cinema, known internationally as J-horror, is renowned for its distinctive style emphasizing atmosphere and psychological dread over graphic violence.\n\nCOMMON COLLOCATIONS:\n- ホラー{映画|えいが}を{見|み}る — watch a horror movie\n- ホラー{映画|えいが}が{好|す}き — like horror movies\n- ホラー{映画|えいが}が{苦手|にがて} — be bad with horror movies\n- {日本|にほん}のホラー{映画|えいが} — Japanese horror movies\n\nCULTURAL NOTE:\nJapanese horror films like {リング|りんぐ} (Ring, 1998) and {呪怨|じゅおん} (Ju-On, 2002) gained worldwide acclaim and spawned Hollywood remakes. The genre draws heavily on Japanese folklore about {幽霊|ゆうれい} (ghosts) and {怨霊|おんりょう} (vengeful spirits).\n\nRELATED TERMS:\n- ホラー{小説|しょうせつ} — horror novel\n- ホラーゲーム — horror game\n- {怪談|かいだん} — ghost story — the traditional Japanese term for scary tales",
-  "cross_references": [],
+  "notes": "⟦ホラー→ホラー：22730_horaa⟧ (from English \"horror\") + ⟦{映画|えいが}→映画：02273_eiga⟧ (movie). Japanese horror cinema, known internationally as J-horror, is renowned for its distinctive style emphasizing atmosphere and psychological dread over graphic violence.\n\nCOMMON COLLOCATIONS:\n- ホラー{映画|えいが}⟦を→を：00422_wo⟧⟦{見|み}る→見る：00283_miru⟧ — watch a horror movie\n- ホラー{映画|えいが}⟦が→が：00051_ga⟧⟦{好|す}き→好き：02355_suki⟧ — like horror movies\n- ホラー{映画|えいが}⟦が→が：00051_ga⟧⟦{苦手|にがて}→苦手：03513_nigate⟧ — be bad with horror movies\n- ⟦{日本|にほん}→日本：03876_nihon⟧⟦の→の：09472_no⟧ホラー{映画|えいが} — Japanese horror movies\n\nCULTURAL NOTE:\nJapanese horror films like ⟦リング→リング：28765_ringu⟧ (Ring, 1998) and {呪怨|じゅおん} (Ju-On, 2002) gained worldwide acclaim and spawned Hollywood remakes. The genre draws heavily on Japanese folklore about ⟦{幽霊|ゆうれい}→幽霊：10648_yuurei⟧ (ghosts) and ⟦{怨霊|おんりょう}→怨霊：13454_onryou⟧ (vengeful spirits).\n\nRELATED WORDS:\n- ⟦ホラー{小説|しょうせつ}→ホラー小説：26207_horaashousetsu⟧ — horror novel\n- ⟦ホラーゲーム→ホラーゲーム：26375_horaageemu⟧ — horror game\n- ⟦{怪談|かいだん}→怪談：12608_kaidan⟧ — ghost story — the traditional Japanese term for scary tales",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "26207_horaashousetsu",
+      "reading": "ほらーしょうせつ",
+      "headword": "ホラー{小説|しょうせつ}",
+      "label": "horror novel"
+    },
+    {
+      "type": "related",
+      "target_id": "26375_horaageemu",
+      "reading": "ほらーげーむ",
+      "headword": "ホラーゲーム",
+      "label": "horror game"
+    },
+    {
+      "type": "related",
+      "target_id": "12608_kaidan",
+      "reading": "かいだん",
+      "headword": "{怪談|かいだん}",
+      "label": "ghost story"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["entertainment", "culture", "loanword"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "entertainment",
+        "culture",
+        "loanword"
+      ]
     },
     "created": "2026-04-26T16:37:11Z",
-    "modified": "2026-04-26T16:37:11Z"
+    "modified": "2026-09-02T04:02:23Z"
   }
 }

@@ -3,7 +3,7 @@
   "headword": "ぬかるむ",
   "reading": "ぬかるむ",
   "romaji": "nukarumu",
-  "part_of_speech": "verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to become muddy; to turn into a quagmire",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26941_nukarumu_ex1",
-      "japanese": "{道|みち}がぬかるんでいる。",
+      "japanese": "⟦{道|みち}→道：00505_michi⟧⟦が→が：00051_ga⟧ぬかるんで⟦いる→いる：00495_iru⟧。",
       "english": "The road is muddy.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26941_nukarumu_ex2",
-      "japanese": "{雨|あめ}で{庭|にわ}がぬかるんで{歩|ある}きにくい。",
+      "japanese": "⟦{雨|あめ}→雨：00583_ame⟧⟦で→で：00502_de⟧⟦{庭|にわ}→庭：02239_niwa⟧⟦が→が：00051_ga⟧ぬかるんで⟦{歩|ある}き→歩く：00538_aruku⟧にくい。",
       "english": "The garden is muddy from the rain and hard to walk through.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26941_nukarumu_ex3",
-      "japanese": "{長雨|ながあめ}が{続|つづ}いて{田|た}んぼの{周|まわ}りの{道|みち}がひどくぬかるんでしまった。",
+      "japanese": "⟦{長雨|ながあめ}→長雨：14521_nagaame⟧⟦が→が：00051_ga⟧⟦{続|つづ}いて→続く：00903_tsuzuku⟧⟦{田|た}んぼ→田んぼ：00402_tanbo⟧⟦の→の：09472_no⟧⟦{周|まわ}り→周り：01732_mawari⟧⟦の→の：09472_no⟧⟦{道|みち}→道：00505_michi⟧⟦が→が：00051_ga⟧⟦ひどく→ひどい：01097_hidoi⟧ぬかるんでしまった。",
       "english": "The paths around the rice paddies became terribly muddy after the prolonged rain.",
       "sense_numbers": [
         1
@@ -44,8 +44,23 @@
       "notes": null
     }
   ],
-  "notes": "Describes the state of ground that has absorbed water and become soft, squishy, and difficult to traverse. Almost always used about outdoor surfaces like roads, paths, fields, and gardens. Most commonly encountered in the ている form (ぬかるんでいる) to describe the resulting muddy state.\n\nCOMMON COLLOCATIONS:\n- {道|みち}がぬかるむ: the road becomes muddy\n- {地面|じめん}がぬかるむ: the ground becomes muddy\n- {足元|あしもと}がぬかるむ: the footing becomes muddy\n- ぬかるんだ{道|みち}: a muddy road\n\nRELATED WORDS:\n- ぬかるみ: mud; muddy place (the noun form)\n- {泥|どろ}: mud\n- {泥濘|ぬかるみ}: muddy ground (literary/formal spelling of ぬかるみ)",
-  "cross_references": [],
+  "notes": "Describes the state of ground that has absorbed water and become soft, squishy, and difficult to traverse. Almost always used about outdoor surfaces like roads, paths, fields, and gardens. Most commonly encountered in the て⟦いる→いる：00495_iru⟧ form (ぬかるんで⟦いる→いる：00495_iru⟧) to describe the resulting muddy state.\n\nCOMMON COLLOCATIONS:\n- ⟦{道|みち}→道：00505_michi⟧⟦が→が：00051_ga⟧ぬかるむ: the road becomes muddy\n- ⟦{地面|じめん}→地面：00125_jimen⟧⟦が→が：00051_ga⟧ぬかるむ: the ground becomes muddy\n- ⟦{足元|あしもと}→足元：04096_ashimoto⟧⟦が→が：00051_ga⟧ぬかるむ: the footing becomes muddy\n- ぬかるんだ⟦{道|みち}→道：00505_michi⟧: a muddy road\n\nRELATED WORDS:\n- ⟦ぬかるみ→ぬかるみ：16209_nukarumi⟧: mud; muddy place (the noun form)\n- ⟦{泥|どろ}→泥：03492_doro⟧: mud\n- {泥濘|ぬかるみ}: muddy ground (literary/formal spelling of ⟦ぬかるみ→ぬかるみ：16209_nukarumi⟧)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "16209_nukarumi",
+      "reading": "ぬかるみ",
+      "headword": "ぬかるみ",
+      "label": "mud"
+    },
+    {
+      "type": "related",
+      "target_id": "03492_doro",
+      "reading": "どろ",
+      "headword": "{泥|どろ}",
+      "label": "mud"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -59,10 +74,11 @@
         "nature"
       ],
       "domain": [],
-      "verb_class": "godan-mu"
+      "verb_class": "godan-mu",
+      "transitivity": "intransitive"
     },
     "created": "2026-05-06T11:05:35Z",
-    "modified": "2026-05-06T11:05:35Z"
+    "modified": "2026-09-02T04:02:28Z"
   },
   "conjugation": {
     "type": "godan",

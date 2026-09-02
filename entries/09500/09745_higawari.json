@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "09745_higawari_ex1",
-      "japanese": "{日替|ひが}わりランチを{頼|たの}んだ。",
+      "japanese": "{日替|ひが}わり⟦ランチ→ランチ：11196_ranchi⟧⟦を→を：00422_wo⟧⟦{頼|たの}んだ→頼む：01104_tanomu⟧。",
       "english": "I ordered the daily lunch special.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "09745_higawari_ex2",
-      "japanese": "{今日|きょう}の{日替|ひが}わりは{何|なん}ですか？",
+      "japanese": "⟦{今日|きょう}→今日：00496_kyou⟧⟦の→の：09472_no⟧{日替|ひが}わり⟦は→は：00079_ha⟧⟦{何|なん}→何〜：03100_nan⟧です⟦か→か：09473_ka⟧？",
       "english": "What's today's special?",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "09745_higawari_ex3",
-      "japanese": "この{定食屋|ていしょくや}は{日替|ひが}わりメニューが{豊富|ほうふ}で{飽|あ}きない。",
+      "japanese": "⟦この→この：00962_kono⟧{定食屋|ていしょくや}⟦は→は：00079_ha⟧{日替|ひが}わり⟦メニュー→メニュー：11166_menyuu⟧⟦が→が：00051_ga⟧⟦{豊富|ほうふ}→豊富：03620_houfu⟧で⟦{飽|あ}きない→飽きる：01815_akiru⟧。",
       "english": "This set-meal restaurant has a variety of daily specials, so I never get bored.",
       "notes": null,
       "has_audio": false,
@@ -43,10 +43,10 @@
       ]
     }
   ],
-  "notes": "{日替|ひが}わり is most commonly seen in restaurant contexts.\n\nCOMMON COLLOCATIONS:\n- {日替|ひが}わりランチ (daily lunch special)\n- {日替|ひが}わりメニュー (daily changing menu)\n- {日替|ひが}わり{定食|ていしょく} (daily set meal)\n- {日替|ひが}わり{弁当|べんとう} (daily bento)\n\nSIMILAR EXPRESSIONS:\n- {週替|しゅうが}わり: weekly special\n- {本日|ほんじつ}の: today's (special)\n- おすすめ: recommendation\n\nKANJI NOTE:\n- Can also be written as {日|ひ}{替|がわ}り with okurigana.",
+  "notes": "{日替|ひが}わり is most commonly seen in restaurant contexts.\n\nCOMMON COLLOCATIONS:\n- {日替|ひが}わり⟦ランチ→ランチ：11196_ranchi⟧ (daily lunch special)\n- {日替|ひが}わり⟦メニュー→メニュー：11166_menyuu⟧ (daily changing menu)\n- {日替|ひが}わり⟦{定食|ていしょく}→定食：03123_teishoku⟧ (daily set meal)\n- {日替|ひが}わり⟦{弁当|べんとう}→弁当：01014_bentou⟧ (daily bento)\n\nSIMILAR WORDS:\n- ⟦{週替|しゅうが}わり→週替わり：09824_shuugawari⟧: weekly special\n- ⟦{本日|ほんじつ}→本日：09643_honjitsu⟧⟦の→の：09472_no⟧: today's (special)\n- ⟦おすすめ→おすすめ：09746_osusume⟧: recommendation\n\nWRITING:\n- Can also be written as {日|ひ}{替|がわ}り with okurigana.",
   "metadata": {
     "created": "2026-02-03T07:22:33Z",
-    "modified": "2026-07-10T00:20:58Z",
+    "modified": "2026-09-02T04:01:19Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -82,6 +82,20 @@
       "reading": "きかんげんてい",
       "headword": "{期間|きかん}{限定|げんてい}",
       "label": "limited time"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09824_shuugawari",
+      "reading": "しゅうがわり",
+      "headword": "{週替|しゅうが}わり",
+      "label": "weekly special"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23949_tsukigawari",
+      "reading": "つきがわり",
+      "headword": "{月替|つきが}わり",
+      "label": "changing every month"
     }
   ]
 }

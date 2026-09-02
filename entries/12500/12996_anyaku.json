@@ -3,7 +3,7 @@
   "id": "12996_anyaku",
   "headword": "{暗躍|あんやく}",
   "reading": "あんやく",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "secret maneuvering, behind-the-scenes activity",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "12996_anyaku_ex1",
-      "japanese": "{政治家|せいじか}が{裏|うら}で{暗躍|あんやく}していた。",
+      "japanese": "⟦{政治家|せいじか}→政治家：03084_seijika⟧⟦が→が：00051_ga⟧⟦{裏|うら}→裏：02178_ura⟧⟦で→で：00502_de⟧{暗躍|あんやく}⟦していた→する：00392_suru⟧。",
       "english": "A politician was maneuvering behind the scenes.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "12996_anyaku_ex2",
-      "japanese": "{外国|がいこく}のスパイが{国内|こくない}で{暗躍|あんやく}しているという{噂|うわさ}がある。",
+      "japanese": "⟦{外国|がいこく}→外国：02868_gaikoku⟧⟦の→の：09472_no⟧⟦スパイ→スパイ：18236_supai⟧⟦が→が：00051_ga⟧⟦{国内|こくない}→国内：02998_kokunai⟧⟦で→で：00502_de⟧{暗躍|あんやく}⟦している→する：00392_suru⟧⟦という→という：09577_toiu⟧⟦{噂|うわさ}→噂：01871_uwasa⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There are rumors that foreign spies are operating covertly within the country.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "12996_anyaku_ex3",
-      "japanese": "{歴史|れきし}の{裏|うら}で{暗躍|あんやく}した{人物|じんぶつ}たちの{実像|じつぞう}が{近年|きんねん}の{研究|けんきゅう}で{明|あき}らかになってきた。",
+      "japanese": "⟦{歴史|れきし}→歴史：02267_rekishi⟧⟦の→の：09472_no⟧⟦{裏|うら}→裏：02178_ura⟧⟦で→で：00502_de⟧{暗躍|あんやく}⟦した→する：00392_suru⟧⟦{人物|じんぶつ}→人物：03356_jinbutsu⟧たち⟦の→の：09472_no⟧⟦{実像|じつぞう}→実像：26327_jitsuzou⟧⟦が→が：00051_ga⟧⟦{近年|きんねん}→近年：14349_kinnen⟧⟦の→の：09472_no⟧⟦{研究|けんきゅう}→研究：01396_kenkyuu⟧⟦で→で：00502_de⟧⟦{明|あき}らか→明らか：02351_akiraka⟧になってきた。",
       "english": "The true nature of figures who operated secretly behind the scenes of history has been revealed by recent research.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,26 @@
       ]
     }
   ],
-  "notes": "USAGE:\nAlmost always carries a negative connotation. Literally means \"dark/secret movement.\" Used in news, historical writing, and fiction to describe covert activities by powerful or shadowy figures. Common in political and espionage contexts.\n\nCOMMON COLLOCATIONS:\n- {裏|うら}で{暗躍|あんやく}する: to maneuver behind the scenes\n- {暗躍|あんやく}する{人物|じんぶつ}: a figure operating in secret\n- {暗躍|あんやく}を{続|つづ}ける: to continue one's covert activities\n\nSIMILAR WORDS:\n- {陰謀|いんぼう}: conspiracy, plot\n- {工作|こうさく}: machinations, covert operations\n- {策動|さくどう}: scheming, maneuvering",
-  "cross_references": [],
+  "notes": "USAGE:\nAlmost always carries a negative connotation. Literally means \"dark/secret movement.\" Used in news, historical writing, and fiction to describe covert activities by powerful or shadowy figures. Common in political and espionage contexts.\n\nCOMMON COLLOCATIONS:\n- ⟦{裏|うら}→裏：02178_ura⟧⟦で→で：00502_de⟧{暗躍|あんやく}⟦する→する：00392_suru⟧: to maneuver behind the scenes\n- {暗躍|あんやく}⟦する→する：00392_suru⟧⟦{人物|じんぶつ}→人物：03356_jinbutsu⟧: a figure operating in secret\n- {暗躍|あんやく}⟦を→を：00422_wo⟧⟦{続|つづ}ける→続く：00903_tsuzuku⟧: to continue one's covert activities\n\nSIMILAR WORDS:\n- ⟦{陰謀|いんぼう}→陰謀：10887_inbou⟧: conspiracy, plot\n- ⟦{工作|こうさく}→工作：12437_kousaku⟧: machinations, covert operations\n- {策動|さくどう}: scheming, maneuvering",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "10887_inbou",
+      "reading": "いんぼう",
+      "headword": "{陰謀|いんぼう}",
+      "label": "conspiracy, plot"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12437_kousaku",
+      "reading": "こうさく",
+      "headword": "{工作|こうさく}",
+      "label": "machinations, covert operations"
+    }
+  ],
   "metadata": {
     "created": "2026-02-23T05:12:22Z",
-    "modified": "2026-03-29T03:07:35Z",
+    "modified": "2026-09-02T04:01:31Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

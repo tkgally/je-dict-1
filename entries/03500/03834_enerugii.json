@@ -39,7 +39,7 @@
     },
     {
       "id": "03834_enerugii_ex3",
-      "japanese": "エネルギー⟦を→を：00422_wo⟧⟦{節約|せつやく}→節約：03302_setsuyaku⟧⟦する→する：00392_suru⟧⟦ために→ため：01145_tame⟧、⟦{使|つか}っていない→使う：00473_tsukau⟧⟦{電気|でんき}→電気：09780_denki⟧⟦は→は：00079_ha⟧⟦{消|け}す→消す：00528_kesu⟧ようにしている。",
+      "japanese": "エネルギー⟦を→を：00422_wo⟧⟦{節約|せつやく}→節約：03302_setsuyaku⟧⟦する→する：00392_suru⟧⟦ために→ため：01145_tame⟧、⟦{使|つか}っていない→使う：00473_tsukau⟧⟦{電気|でんき}→電気：09780_denki⟧⟦は→は：00079_ha⟧⟦{消|け}す→消す：00528_kesu⟧ようにして⟦いる→いる：00495_iru⟧。",
       "english": "To save energy, I make sure to turn off lights that aren't being used.",
       "notes": null,
       "has_audio": false,
@@ -78,10 +78,26 @@
       ]
     }
   ],
-  "notes": "From German \"Energie\" (not English). Used for both physical energy (fuel, electricity) and personal vitality.\n\nCOMMON COLLOCATIONS:\n- エネルギー{源|げん}: energy source\n- エネルギー{消費|しょうひ}: energy consumption\n- エネルギー⟦を→を：00422_wo⟧⟦{節約|せつやく}→節約：03302_setsuyaku⟧⟦する→する：00392_suru⟧: to conserve energy\n- ⟦{再生可能|さいせいかのう}→再生可能：04635_saiseikanou⟧エネルギー: renewable energy\n- {原子力|げんしりょく}エネルギー: nuclear energy\n- {太陽|たいよう}エネルギー: solar energy\n\nFIGURATIVE USE:\n- エネルギー⟦に→に：00314_ni⟧⟦{満|み}ちている→満ちる：02428_michiru⟧: full of energy/vitality\n- エネルギー⟦を→を：00422_wo⟧⟦{注|そそ}ぐ→注ぐ：02124_sosogu⟧: to pour energy into something\n\nDERIVED:\n- エネルギッシュ: energetic (na-adjective, also from German)\n- {省|しょう}エネ: energy-saving (abbreviation of {省|しょう}エネルギー)",
+  "notes": "From German \"Energie\" (not English). Used for both physical energy (fuel, electricity) and personal vitality.\n\nCOMMON COLLOCATIONS:\n- エネルギー{源|げん}: energy source\n- エネルギー⟦{消費|しょうひ}→消費：03240_shouhi⟧: energy consumption\n- エネルギー⟦を→を：00422_wo⟧⟦{節約|せつやく}→節約：03302_setsuyaku⟧⟦する→する：00392_suru⟧: to conserve energy\n- ⟦{再生可能|さいせいかのう}→再生可能：04635_saiseikanou⟧エネルギー: renewable energy\n- {原子力|げんしりょく}エネルギー: nuclear energy\n- ⟦{太陽|たいよう}→太陽：03398_taiyou⟧エネルギー: solar energy\n\nUSAGE:\n- エネルギー⟦に→に：00314_ni⟧⟦{満|み}ちている→満ちる：02428_michiru⟧: full of energy/vitality\n- エネルギー⟦を→を：00422_wo⟧⟦{注|そそ}ぐ→注ぐ：02124_sosogu⟧: to pour energy into something\n\nDERIVED:\n- ⟦エネルギッシュ→エネルギッシュ：27684_enerugisshu⟧: energetic (na-adjective, also from German)\n- ⟦{省|しょう}エネ→省エネ：06308_shouene⟧: energy-saving (abbreviation of {省|しょう}エネルギー)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13461_nenryou",
+      "reading": "ねんりょう",
+      "headword": "{燃料|ねんりょう}",
+      "label": "fuel"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14609_denryoku",
+      "reading": "でんりょく",
+      "headword": "{電力|でんりょく}",
+      "label": "electric power"
+    }
+  ],
   "metadata": {
     "created": "2026-01-12T13:55:10Z",
-    "modified": "2026-05-27T19:41:59Z",
+    "modified": "2026-09-02T04:01:03Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

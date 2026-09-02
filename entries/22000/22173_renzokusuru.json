@@ -3,7 +3,7 @@
   "headword": "{連続|れんぞく}する",
   "reading": "れんぞくする",
   "romaji": "renzokusuru",
-  "part_of_speech": "noun, suru verb, intransitive",
+  "part_of_speech": "noun, suru verb (intransitive)",
   "gloss": "to continue; to occur in succession; to be consecutive",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22173_renzokusuru_ex1",
-      "japanese": "{事故|じこ}が{連続|れんぞく}して{起|お}きた。",
+      "japanese": "⟦{事故|じこ}→事故：00851_jiko⟧⟦が→が：00051_ga⟧{連続|れんぞく}して⟦{起|お}きた→起きる：00521_okiru⟧。",
       "english": "Accidents occurred one after another.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22173_renzokusuru_ex2",
-      "japanese": "{三日|みっか}{連続|れんぞく}で{雨|あめ}が{降|ふ}っている。",
+      "japanese": "⟦{三日|みっか}→三日：02969_mikka⟧⟦{連続|れんぞく}→連続：03783_renzoku⟧⟦で→で：00502_de⟧⟦{雨|あめ}→雨：00583_ame⟧⟦が→が：00051_ga⟧⟦{降|ふ}っている→降る：00839_furu⟧。",
       "english": "It has been raining for three days in a row.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22173_renzokusuru_ex3",
-      "japanese": "あのチームは{五年|ごねん}{連続|れんぞく}で{優勝|ゆうしょう}しているから、{今年|ことし}も{期待|きたい}されている。",
+      "japanese": "⟦あの→あの：00915_ano⟧⟦チーム→チーム：03858_chiimu⟧⟦は→は：00079_ha⟧{五年|ごねん}⟦{連続|れんぞく}→連続：03783_renzoku⟧⟦で→で：00502_de⟧⟦{優勝|ゆうしょう}している→優勝する：25496_yuushousuru⟧⟦から→から：00504_kara⟧、⟦{今年|ことし}→今年：00722_kotoshi⟧⟦も→も：00484_mo⟧⟦{期待|きたい}→期待：00238_kitai⟧⟦されている→する：00392_suru⟧。",
       "english": "That team has won the championship five years in a row, so they're expected to do well this year too.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Often used as a noun modifier: {連続|れんぞく}＋counter (e.g., {三日|みっか}{連続|れんぞく} — three days running). Very common in news and sports contexts.\n\nCOMMON COLLOCATIONS:\n- ～{日|にち}{連続|れんぞく} — ~ days in a row\n- {連続|れんぞく}{殺人|さつじん} — serial murder\n- {連続|れんぞく}ドラマ — serial drama, TV series\n- {連続|れんぞく}{記録|きろく} — consecutive record\n- {連続|れんぞく}{優勝|ゆうしょう} — consecutive championships\n\nSIMILAR WORDS:\n- {続|つづ}く — to continue (general, everyday); focuses on duration rather than sequence\n- {継続|けいぞく}する — to continue, maintain; emphasizes sustained effort or ongoing state\n- {相次|あいつ}ぐ — to occur one after another; emphasizes that similar events keep happening (often negative events)",
+  "notes": "Often used as a noun modifier: ⟦{連続|れんぞく}→連続：03783_renzoku⟧＋counter (e.g., ⟦{三日|みっか}→三日：02969_mikka⟧⟦{連続|れんぞく}→連続：03783_renzoku⟧ — three days running). Very common in news and sports contexts.\n\nCOMMON COLLOCATIONS:\n- ～⟦{日|にち}→日：12732_nichi⟧⟦{連続|れんぞく}→連続：03783_renzoku⟧ — ~ days in a row\n- ⟦{連続|れんぞく}{殺人|さつじん}→連続殺人：26282_renzokusatsujin⟧ — serial murder\n- ⟦{連続|れんぞく}ドラマ→連続ドラマ：26398_renzokudorama⟧ — serial drama, TV series\n- ⟦{連続|れんぞく}→連続：03783_renzoku⟧⟦{記録|きろく}→記録：02490_kiroku⟧ — consecutive record\n- ⟦{連続|れんぞく}→連続：03783_renzoku⟧⟦{優勝|ゆうしょう}→優勝：03647_yuushou⟧ — consecutive championships\n\nSIMILAR WORDS:\n- ⟦{続|つづ}く→続く：00903_tsuzuku⟧ — to continue (general, everyday); focuses on duration rather than sequence\n- ⟦{継続|けいぞく}する→継続する：26971_keizokusuru⟧ — to continue, maintain; emphasizes sustained effort or ongoing state\n- ⟦{相次|あいつ}ぐ→相次ぐ：14869_aitsugu⟧ — to occur one after another; emphasizes that similar events keep happening (often negative events)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00903_tsuzuku",
+      "reading": "つづく",
+      "headword": "{続|つづ}く",
+      "label": "to continue"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26971_keizokusuru",
+      "reading": "けいぞくする",
+      "headword": "{継続|けいぞく}する",
+      "label": "to continue, maintain"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14869_aitsugu",
+      "reading": "あいつぐ",
+      "headword": "{相次|あいつ}ぐ",
+      "label": "to occur one after another"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,7 +85,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-05T04:26:41Z",
-    "modified": "2026-07-30T03:35:34Z"
+    "modified": "2026-09-02T04:02:06Z"
   },
   "conjugation": {
     "type": "suru",

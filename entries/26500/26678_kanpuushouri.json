@@ -15,42 +15,69 @@
   "examples": [
     {
       "id": "26678_kanpuushouri_ex1",
-      "japanese": "エースが{完封勝利|かんぷうしょうり}を{収|おさ}めた。",
+      "japanese": "⟦エース→エース：28537_eesu⟧⟦が→が：00051_ga⟧{完封勝利|かんぷうしょうり}⟦を→を：00422_wo⟧⟦{収|おさ}めた→収める：02022_osameru⟧。",
       "english": "The ace pitcher achieved a shutout victory.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26678_kanpuushouri_ex2",
-      "japanese": "{今季|こんき}{初|はつ}の{完封勝利|かんぷうしょうり}にチーム{全体|ぜんたい}が{喜|よろこ}んだ。",
+      "japanese": "{今季|こんき}⟦{初|はつ}→初：10632_hatsu⟧⟦の→の：09472_no⟧{完封勝利|かんぷうしょうり}⟦に→に：00314_ni⟧⟦チーム→チーム：03858_chiimu⟧⟦{全体|ぜんたい}→全体：03314_zentai⟧⟦が→が：00051_ga⟧⟦{喜|よろこ}んだ→喜ぶ：01169_yorokobu⟧。",
       "english": "The whole team celebrated their first shutout victory of the season.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26678_kanpuushouri_ex3",
-      "japanese": "{若手|わかて}ピッチャーが{強豪|きょうごう}チームを{相手|あいて}に{見事|みごと}な{完封勝利|かんぷうしょうり}を{果|は}たし、{一躍|いちやく}スターになった。",
+      "japanese": "⟦{若手|わかて}→若手：13989_wakate⟧⟦ピッチャー→ピッチャー：09482_picchaa⟧⟦が→が：00051_ga⟧{強豪|きょうごう}⟦チーム→チーム：03858_chiimu⟧⟦を→を：00422_wo⟧⟦{相手|あいて}→相手：01677_aite⟧⟦に→に：00314_ni⟧⟦{見事|みごと}→見事：03744_migoto⟧な{完封勝利|かんぷうしょうり}⟦を→を：00422_wo⟧⟦{果|は}たし→果たす：10060_hatasu⟧、⟦{一躍|いちやく}→一躍：11183_ichiyaku⟧⟦スター→スター：00393_sutaa⟧になった。",
       "english": "The young pitcher achieved a brilliant shutout victory against a powerhouse team and became a star overnight.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {完封|かんぷう} (shutout; holding scoreless) and {勝利|しょうり} (victory). Most commonly used in baseball, where a pitcher who completes a full game without allowing any runs earns a {完封勝利|かんぷうしょうり}. Also used in soccer and other team sports.\n\nCOMMON COLLOCATIONS:\n- {完封勝利|かんぷうしょうり}を{収|おさ}める: to achieve a shutout victory\n- {完封勝利|かんぷうしょうり}を{果|は}たす: to accomplish a shutout victory\n- {完封勝利|かんぷうしょうり}を{飾|かざ}る: to cap off with a shutout victory\n\nRELATED TERMS:\n- {完封|かんぷう}: shutout — the act of holding the opponent scoreless\n- {完封負|かんぷうま}け: shutout loss — being held scoreless\n- {完投|かんとう}: complete game — pitching the entire game (may or may not be a shutout)\n- {圧勝|あっしょう}: overwhelming victory — winning by a large margin, but not necessarily a shutout",
-  "cross_references": [],
+  "notes": "Composed of ⟦{完封|かんぷう}→完封：06543_kanpuu⟧ (shutout; holding scoreless) and ⟦{勝利|しょうり}→勝利：11795_shouri⟧ (victory). Most commonly used in baseball, where a pitcher who completes a full game without allowing any runs earns a {完封勝利|かんぷうしょうり}. Also used in soccer and other team sports.\n\nCOMMON COLLOCATIONS:\n- {完封勝利|かんぷうしょうり}⟦を→を：00422_wo⟧⟦{収|おさ}める→収める：02022_osameru⟧: to achieve a shutout victory\n- {完封勝利|かんぷうしょうり}⟦を→を：00422_wo⟧⟦{果|は}たす→果たす：10060_hatasu⟧: to accomplish a shutout victory\n- {完封勝利|かんぷうしょうり}⟦を→を：00422_wo⟧⟦{飾|かざ}る→飾る：01185_kazaru⟧: to cap off with a shutout victory\n\nRELATED WORDS:\n- ⟦{完封|かんぷう}→完封：06543_kanpuu⟧: shutout — the act of holding the opponent scoreless\n- {完封負|かんぷうま}け: shutout loss — being held scoreless\n- ⟦{完投|かんとう}→完投：24619_kantou⟧: complete game — pitching the entire game (may or may not be a shutout)\n- ⟦{圧勝|あっしょう}→圧勝：07903_asshou⟧: overwhelming victory — winning by a large margin, but not necessarily a shutout",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "24619_kantou",
+      "reading": "かんとう",
+      "headword": "{完投|かんとう}",
+      "label": "complete game"
+    },
+    {
+      "type": "related",
+      "target_id": "07903_asshou",
+      "reading": "あっしょう",
+      "headword": "{圧勝|あっしょう}",
+      "label": "overwhelming victory"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["colloquial"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "colloquial"
+      ]
     },
     "created": "2026-05-04T12:48:09Z",
-    "modified": "2026-05-04T12:48:09Z"
+    "modified": "2026-09-02T04:02:27Z"
   }
 }

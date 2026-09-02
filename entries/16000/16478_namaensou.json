@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "16478_namaensou_ex1",
-      "japanese": "{生演奏|なまえんそう}を{聴|き}く。",
+      "japanese": "{生演奏|なまえんそう}⟦を→を：00422_wo⟧⟦{聴|き}く→聴く：30010_kiku⟧。",
       "english": "To listen to live music.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16478_namaensou_ex2",
-      "japanese": "このレストランでは{毎晩|まいばん}ジャズの{生演奏|なまえんそう}がある。",
+      "japanese": "⟦この→この：00962_kono⟧⟦レストラン→レストラン：01048_resutoran⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{毎晩|まいばん}→毎晩：00967_maiban⟧⟦ジャズ→ジャズ：07084_jazu⟧⟦の→の：09472_no⟧{生演奏|なまえんそう}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "This restaurant has live jazz every evening.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16478_namaensou_ex3",
-      "japanese": "{結婚式|けっこんしき}で{友人|ゆうじん}がピアノの{生演奏|なまえんそう}をしてくれて、とても{感動|かんどう}した。",
+      "japanese": "⟦{結婚式|けっこんしき}→結婚式：05493_kekkonshiki⟧⟦で→で：00502_de⟧⟦{友人|ゆうじん}→友人：03649_yuujin⟧⟦が→が：00051_ga⟧⟦ピアノ→ピアノ：01376_piano⟧⟦の→の：09472_no⟧{生演奏|なまえんそう}⟦を→を：00422_wo⟧⟦して→する：00392_suru⟧⟦くれて→くれる：00724_kureru⟧、⟦とても→とても：00593_totemo⟧⟦{感動|かんどう}した→感動する：21603_kandousuru⟧。",
       "english": "A friend played live piano at the wedding, and it was very moving.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nThe prefix {生|なま} (live, raw) distinguishes this from recorded music. {生演奏|なまえんそう} can refer to any genre — classical, jazz, rock, etc. Common at restaurants, hotels, wedding receptions, and concert venues.\n\nCOMMON COLLOCATIONS:\n- {生演奏|なまえんそう}を{聴|き}く (to listen to a live performance)\n- {生演奏|なまえんそう}つき (with live music)\n- {生演奏|なまえんそう}で{歌|うた}う (to sing with live accompaniment)\n\nSIMILAR WORDS:\n- ライブ: live concert — typically refers to a pop or rock concert event\n- {演奏|えんそう}: musical performance — does not specify whether live or recorded",
+  "notes": "USAGE:\nThe prefix ⟦{生|なま}→生：03509_nama⟧ (live, raw) distinguishes this from recorded music. {生演奏|なまえんそう} can refer to any genre — classical, jazz, rock, etc. Common at restaurants, hotels, wedding receptions, and concert venues.\n\nCOMMON COLLOCATIONS:\n- {生演奏|なまえんそう}⟦を→を：00422_wo⟧⟦{聴|き}く→聴く：30010_kiku⟧ (to listen to a live performance)\n- {生演奏|なまえんそう}つき (with live music)\n- {生演奏|なまえんそう}⟦で→で：00502_de⟧⟦{歌|うた}う→歌う：00684_utau⟧ (to sing with live accompaniment)\n\nSIMILAR WORDS:\n- ⟦ライブ→ライブ：05412_raibu⟧: live concert — typically refers to a pop or rock concert event\n- ⟦{演奏|えんそう}→演奏：01896_ensou⟧: musical performance — does not specify whether live or recorded",
   "cross_references": [
     {
       "type": "related",
@@ -46,18 +52,30 @@
       "reading": "えんそう",
       "headword": "{演奏|えんそう}",
       "label": "musical performance (general)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05412_raibu",
+      "reading": "らいぶ",
+      "headword": "ライブ",
+      "label": "live concert"
     }
   ],
   "metadata": {
     "created": "2026-03-13T02:07:05Z",
-    "modified": "2026-05-04T04:08:05Z",
+    "modified": "2026-09-02T04:01:45Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["music", "entertainment"]
+      "semantic": [
+        "music",
+        "entertainment"
+      ]
     }
   }
 }

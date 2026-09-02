@@ -15,41 +15,59 @@
   "examples": [
     {
       "id": "19036_shiroboshi_ex1",
-      "japanese": "{今日|きょう}は{白星|しろぼし}を{挙|あ}げた。",
+      "japanese": "⟦{今日|きょう}→今日：00496_kyou⟧⟦は→は：00079_ha⟧{白星|しろぼし}⟦を→を：00422_wo⟧⟦{挙|あ}げた→挙げる：27889_ageru⟧。",
       "english": "They picked up a win today.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "19036_shiroboshi_ex2",
-      "japanese": "{開幕|かいまく}から{三|さん}{連続|れんぞく}{白星|しろぼし}だ。",
+      "japanese": "⟦{開幕|かいまく}→開幕：08174_kaimaku⟧⟦から→から：00504_kara⟧⟦{三|さん}→三：00749_san⟧⟦{連続|れんぞく}→連続：03783_renzoku⟧{白星|しろぼし}だ。",
       "english": "They've had three consecutive wins since the opening.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "19036_shiroboshi_ex3",
-      "japanese": "{横綱|よこづな}は{今場所|こんばしょ}{白星|しろぼし}を{重|かさ}ねている。",
+      "japanese": "⟦{横綱|よこづな}→横綱：14957_yokozuna⟧⟦は→は：00079_ha⟧{今場所|こんばしょ}{白星|しろぼし}⟦を→を：00422_wo⟧⟦{重|かさ}ねている→重ねる：02039_kasaneru⟧。",
       "english": "The yokozuna has been piling up victories this tournament.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "SUMO ORIGIN:\nIn sumo and other Japanese sports, wins are marked with a white circle (○) and losses with a black circle (●). Hence {白星|しろぼし} (white mark = win) and {黒星|くろぼし} (black mark = loss).\n\nCOMMON COLLOCATIONS:\n- {白星|しろぼし}を{挙|あ}げる: to achieve a win\n- {白星|しろぼし}を{重|かさ}ねる: to pile up victories\n- {白星|しろぼし}{発進|はっしん}: getting off to a winning start\n- {白星|しろぼし}スタート: starting with a win",
-  "cross_references": [],
+  "notes": "SUMO ORIGIN:\nIn sumo and other Japanese sports, wins are marked with a white circle (○) and losses with a black circle (●). Hence {白星|しろぼし} (white mark = win) and ⟦{黒星|くろぼし}→黒星：19294_kuroboshi⟧ (black mark = loss).\n\nCOMMON COLLOCATIONS:\n- {白星|しろぼし}⟦を→を：00422_wo⟧⟦{挙|あ}げる→挙げる：27889_ageru⟧: to achieve a win\n- {白星|しろぼし}⟦を→を：00422_wo⟧⟦{重|かさ}ねる→重ねる：02039_kasaneru⟧: to pile up victories\n- {白星|しろぼし}⟦{発進|はっしん}→発進：29985_hasshin⟧: getting off to a winning start\n- {白星|しろぼし}⟦スタート→スタート：11053_sutaato⟧: starting with a win",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "19294_kuroboshi",
+      "reading": "くろぼし",
+      "headword": "{黒星|くろぼし}",
+      "label": "loss"
+    }
+  ],
   "metadata": {
     "created": "2026-03-24T01:05:29Z",
-    "modified": "2026-03-24T01:05:29Z",
+    "modified": "2026-09-02T04:01:54Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["sports"]
+      "semantic": [
+        "sports"
+      ]
     }
   }
 }

@@ -3,7 +3,7 @@
   "id": "15241_gekigen",
   "headword": "{激減|げきげん}",
   "reading": "げきげん",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "sharp decrease; dramatic drop",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "15241_gekigen_ex1",
-      "japanese": "{売上|うりあげ}が{激減|げきげん}した。",
+      "japanese": "⟦{売上|うりあげ}→売上：04102_uriage⟧⟦が→が：00051_ga⟧{激減|げきげん}⟦した→する：00392_suru⟧。",
       "english": "Sales dropped sharply.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "15241_gekigen_ex2",
-      "japanese": "{観光客|かんこうきゃく}が{激減|げきげん}して{地域|ちいき}{経済|けいざい}に{影響|えいきょう}が{出|で}ている。",
+      "japanese": "⟦{観光客|かんこうきゃく}→観光客：03022_kankoukyaku⟧⟦が→が：00051_ga⟧{激減|げきげん}⟦して→する：00392_suru⟧⟦{地域|ちいき}→地域：01461_chiiki⟧⟦{経済|けいざい}→経済：01394_keizai⟧⟦に→に：00314_ni⟧⟦{影響|えいきょう}→影響：01877_eikyou⟧⟦が→が：00051_ga⟧⟦{出|で}ている→出る：00513_deru⟧。",
       "english": "The sharp decline in tourists is affecting the local economy.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "15241_gekigen_ex3",
-      "japanese": "{新|あたら}しい{規制|きせい}の{導入|どうにゅう}により、{違反件数|いはんけんすう}が{前年比|ぜんねんひ}で{激減|げきげん}した。",
+      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦{規制|きせい}→規制：02598_kisei⟧⟦の→の：09472_no⟧⟦{導入|どうにゅう}→導入：10127_dounyuu⟧⟦に→に：00314_ni⟧⟦より→より：09476_yori⟧、{違反件数|いはんけんすう}⟦が→が：00051_ga⟧{前年比|ぜんねんひ}⟦で→で：00502_de⟧{激減|げきげん}⟦した→する：00392_suru⟧。",
       "english": "Due to the introduction of new regulations, the number of violations dropped dramatically compared to the previous year.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "FORMATION: {激|げき} (intense, extreme) + {減|げん} (decrease). The prefix {激|げき} intensifies the degree of change.\n\nCOMMON COLLOCATIONS:\n- {人口|じんこう}が{激減|げきげん}する: population drops sharply\n- {収入|しゅうにゅう}が{激減|げきげん}する: income decreases drastically\n- {激減|げきげん}の{原因|げんいん}: cause of the sharp decline\n\nSIMILAR WORDS:\n- {激減|げきげん}: dramatic decrease (emphasizes severity)\n- {減少|げんしょう}: decrease (neutral, general term)\n- {急減|きゅうげん}: rapid decrease (emphasizes speed)\n- {激増|げきぞう}: dramatic increase (antonym)",
+  "notes": "FORMATION: {激|げき} (intense, extreme) + {減|げん} (decrease). The prefix {激|げき} intensifies the degree of change.\n\nCOMMON COLLOCATIONS:\n- ⟦{人口|じんこう}→人口：01618_jinkou⟧⟦が→が：00051_ga⟧{激減|げきげん}⟦する→する：00392_suru⟧: population drops sharply\n- ⟦{収入|しゅうにゅう}→収入：03213_shuunyuu⟧⟦が→が：00051_ga⟧{激減|げきげん}⟦する→する：00392_suru⟧: income decreases drastically\n- {激減|げきげん}⟦の→の：09472_no⟧⟦{原因|げんいん}→原因：01400_genin⟧: cause of the sharp decline\n\nSIMILAR WORDS:\n- {激減|げきげん}: dramatic decrease (emphasizes severity)\n- ⟦{減少|げんしょう}→減少：02719_genshou⟧: decrease (neutral, general term)\n- ⟦{急減|きゅうげん}→急減：29369_kyuugen⟧: rapid decrease (emphasizes speed)\n- ⟦{激増|げきぞう}→激増：04179_gekizou⟧: dramatic increase (antonym)",
   "cross_references": [
     {
       "type": "antonym",
@@ -142,11 +142,25 @@
       "headword": "{激増|げきぞう}",
       "label": "sharp increase",
       "target_id": "04179_gekizou"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02719_genshou",
+      "reading": "げんしょう",
+      "headword": "{減少|げんしょう}",
+      "label": "decrease"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29369_kyuugen",
+      "reading": "きゅうげん",
+      "headword": "{急減|きゅうげん}",
+      "label": "rapid decrease"
     }
   ],
   "metadata": {
     "created": "2026-03-05T10:22:53Z",
-    "modified": "2026-04-07T10:12:38Z",
+    "modified": "2026-09-02T04:01:40Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
@@ -158,7 +172,8 @@
       "semantic": [
         "quantity"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

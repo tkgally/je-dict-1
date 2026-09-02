@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24658_kantoushi_ex1",
-      "japanese": "「ああ」は{間投詞|かんとうし}の{一|ひと}つだ。",
+      "japanese": "「⟦ああ→ああ：01147_aa⟧」⟦は→は：00079_ha⟧{間投詞|かんとうし}⟦の→の：09472_no⟧⟦{一|ひと}つ→一つ：02948_hitotsu⟧だ。",
       "english": "'Ah' is one type of interjection.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24658_kantoushi_ex2",
-      "japanese": "{日本語|にほんご}の{間投詞|かんとうし}は{会話|かいわ}でよく{使|つか}われる。",
+      "japanese": "⟦{日本語|にほんご}→日本語：00614_nihongo⟧⟦の→の：09472_no⟧{間投詞|かんとうし}⟦は→は：00079_ha⟧⟦{会話|かいわ}→会話：01271_kaiwa⟧⟦で→で：00502_de⟧⟦よく→よく：00601_yoku⟧⟦{使|つか}われる→使う：00473_tsukau⟧。",
       "english": "Japanese interjections are frequently used in conversation.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24658_kantoushi_ex3",
-      "japanese": "{国語|こくご}の{授業|じゅぎょう}で、{品詞|ひんし}の{分類|ぶんるい}として{名詞|めいし}、{動詞|どうし}、{形容詞|けいようし}、{間投詞|かんとうし}などを{習|なら}った。",
+      "japanese": "⟦{国語|こくご}→国語：02739_kokugo⟧⟦の→の：09472_no⟧⟦{授業|じゅぎょう}→授業：00781_jugyou⟧⟦で→で：00502_de⟧、⟦{品詞|ひんし}→品詞：16086_hinshi⟧⟦の→の：09472_no⟧⟦{分類|ぶんるい}→分類：04790_bunrui⟧⟦として→として：06802_toshite⟧⟦{名詞|めいし}→名詞：10420_meishi⟧、⟦{動詞|どうし}→動詞：03472_doushi⟧、⟦{形容詞|けいようし}→形容詞：10419_keiyoushi⟧、{間投詞|かんとうし}⟦など→〜など：03095_nado⟧⟦を→を：00422_wo⟧⟦{習|なら}った→習う：00479_narau⟧。",
       "english": "In Japanese language class, we learned parts of speech such as nouns, verbs, adjectives, and interjections.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {間|かん} (between), {投|とう} (to throw), and {詞|し} (word) — literally 'a word thrown in between.' A grammatical term used in both Japanese and general linguistics.\n\nUSAGE:\nUsed in grammar education and linguistics. Japanese has a rich system of interjections, many of which vary by gender, formality, and region. In traditional Japanese grammar ({国文法|こくぶんぽう}), the term {感動詞|かんどうし} (literally 'emotion word') is used instead, covering both interjections and greetings.\n\nCOMMON COLLOCATIONS:\n- {間投詞|かんとうし}を{使|つか}う: to use an interjection\n- {間投詞|かんとうし}の{種類|しゅるい}: types of interjections\n- {間投詞|かんとうし}{的|てき}な{表現|ひょうげん}: interjection-like expression\n\nSIMILAR WORDS:\n- {感動詞|かんどうし}: interjection (traditional Japanese grammar term) — the term used in Japanese school grammar, covering the same category but also including greetings and responses\n- {品詞|ひんし}: part of speech — the general term for grammatical categories\n- {感嘆詞|かんたんし}: exclamation — sometimes used as a synonym for {間投詞|かんとうし}, though it more specifically suggests words expressing strong emotion",
+  "notes": "Composed of ⟦{間|かん}→〜間：28469_kan⟧ (between), {投|とう} (to throw), and {詞|し} (word) — literally 'a word thrown in between.' A grammatical term used in both Japanese and general linguistics.\n\nUSAGE:\nUsed in grammar education and linguistics. Japanese has a rich system of interjections, many of which vary by gender, formality, and region. In traditional Japanese grammar ({国文法|こくぶんぽう}), the term ⟦{感動詞|かんどうし}→感動詞：30123_kandoushi⟧ (literally 'emotion word') is used instead, covering both interjections and greetings.\n\nCOMMON COLLOCATIONS:\n- {間投詞|かんとうし}⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧: to use an interjection\n- {間投詞|かんとうし}⟦の→の：09472_no⟧⟦{種類|しゅるい}→種類：01560_shurui⟧: types of interjections\n- {間投詞|かんとうし}⟦{的|てき}→〜的：09839_teki⟧な⟦{表現|ひょうげん}→表現：03584_hyougen⟧: interjection-like expression\n\nSIMILAR WORDS:\n- ⟦{感動詞|かんどうし}→感動詞：30123_kandoushi⟧: interjection (traditional Japanese grammar term) — the term used in Japanese school grammar, covering the same category but also including greetings and responses\n- ⟦{品詞|ひんし}→品詞：16086_hinshi⟧: part of speech — the general term for grammatical categories\n- ⟦{感嘆詞|かんたんし}→感嘆詞：23348_kantanshi⟧: exclamation — sometimes used as a synonym for {間投詞|かんとうし}, though it more specifically suggests words expressing strong emotion",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "30123_kandoushi",
+      "reading": "かんどうし",
+      "headword": "{感動詞|かんどうし}",
+      "label": "interjection"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16086_hinshi",
+      "reading": "ひんし",
+      "headword": "{品詞|ひんし}",
+      "label": "part of speech"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23348_kantanshi",
+      "reading": "かんたんし",
+      "headword": "{感嘆詞|かんたんし}",
+      "label": "exclamation"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -63,6 +86,6 @@
       ]
     },
     "created": "2026-04-20T10:39:23Z",
-    "modified": "2026-08-03T09:22:27Z"
+    "modified": "2026-09-02T04:02:19Z"
   }
 }

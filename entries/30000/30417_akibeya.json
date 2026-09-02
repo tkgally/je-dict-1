@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30417_akibeya_ex1",
-      "japanese": "{空|あ}き{部屋|べや}はありますか。",
+      "japanese": "{空|あ}き{部屋|べや}⟦は→は：00079_ha⟧⟦あります→ある：00006_aru⟧⟦か→か：09473_ka⟧。",
       "english": "Do you have any vacant rooms?",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30417_akibeya_ex2",
-      "japanese": "この{建物|たてもの}には{空|あ}き{部屋|べや}が{多|おお}い。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{建物|たてもの}→建物：01458_tatemono⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{空|あ}き{部屋|べや}⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "There are many vacant rooms in this building.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30417_akibeya_ex3",
-      "japanese": "{二階|にかい}の{空|あ}き{部屋|べや}を{書斎|しょさい}にした。",
+      "japanese": "⟦{二階|にかい}→二階：27513_nikai⟧⟦の→の：09472_no⟧{空|あ}き{部屋|べや}⟦を→を：00422_wo⟧⟦{書斎|しょさい}→書斎：03760_shosai⟧にした。",
       "english": "I turned the empty room upstairs into a study.",
       "sense_numbers": [
         1
@@ -45,7 +45,7 @@
     },
     {
       "id": "30417_akibeya_ex4",
-      "japanese": "{連休中|れんきゅうちゅう}はどのホテルも{空|あ}き{部屋|べや}がなく、{予約|よやく}が{取|と}れなかった。",
+      "japanese": "{連休中|れんきゅうちゅう}⟦は→は：00079_ha⟧⟦どの→どの：00551_dono⟧⟦ホテル→ホテル：01027_hoteru⟧⟦も→も：00484_mo⟧{空|あ}き{部屋|べや}⟦が→が：00051_ga⟧⟦なく→ない：01118_nai⟧、⟦{予約|よやく}→予約：01522_yoyaku⟧⟦が→が：00051_ga⟧⟦{取|と}れなかった→取れる：02376_toreru⟧。",
       "english": "During the holidays no hotel had a vacancy, so I couldn't get a reservation.",
       "sense_numbers": [
         1
@@ -54,8 +54,24 @@
       "notes": null
     }
   ],
-  "notes": "From {空|あ}く (to become empty) + {部屋|へや} (room); the へ becomes べ in the compound.\n\nCOMMON COLLOCATIONS:\n- {空|あ}き{部屋|べや}がある: there is a vacant room\n- {空|あ}き{部屋|べや}を{探|さが}す: to look for a vacant room\n- {空|あ}き{部屋|べや}が{埋|う}まる: the vacancies get filled\n- {空|あ}き{部屋|べや}{情報|じょうほう}: vacancy information\n\nSIMILAR WORDS:\n- {空室|くうしつ}: vacancy — the same meaning in more formal or written style, common on hotel signs and websites\n- {空|あ}き{家|や}: vacant house — a whole house standing empty, a well-known social issue in Japan",
+  "notes": "From ⟦{空|あ}く→空く：11062_aku⟧ (to become empty) + ⟦{部屋|へや}→部屋：00507_heya⟧ (room); the ⟦へ→へ：02473_he⟧ becomes べ in the compound.\n\nCOMMON COLLOCATIONS:\n- {空|あ}き{部屋|べや}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧: there is a vacant room\n- {空|あ}き{部屋|べや}⟦を→を：00422_wo⟧⟦{探|さが}す→探す：00493_sagasu⟧: to look for a vacant room\n- {空|あ}き{部屋|べや}⟦が→が：00051_ga⟧⟦{埋|う}まる→埋まる：01897_umaru⟧: the vacancies get filled\n- {空|あ}き{部屋|べや}⟦{情報|じょうほう}→情報：03348_jouhou⟧: vacancy information\n\nSIMILAR WORDS:\n- ⟦{空室|くうしつ}→空室：14798_kuushitsu⟧: vacancy — the same meaning in more formal or written style, common on hotel signs and websites\n- ⟦{空|あ}き{家|や}→空き家：03007_akiya⟧: vacant house — a whole house standing empty, a well-known social issue in Japan",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14798_kuushitsu",
+      "reading": "くうしつ",
+      "headword": "{空室|くうしつ}",
+      "label": "vacancy"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03007_akiya",
+      "reading": "あきや",
+      "headword": "{空|あ}き{家|や}",
+      "label": "vacant house"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -63,13 +79,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "building"
       ],
       "domain": []
     },
     "created": "2026-08-05T15:24:36Z",
-    "modified": "2026-08-05T15:24:36Z"
+    "modified": "2026-09-02T04:02:40Z"
   }
 }

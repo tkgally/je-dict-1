@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29137_taisoseikeii_ex1",
-      "japanese": "{体組成計|たいそせいけい}で{体脂肪率|たいしぼうりつ}を{測|はか}った。",
+      "japanese": "{体組成計|たいそせいけい}⟦で→で：00502_de⟧⟦{体脂肪率|たいしぼうりつ}→体脂肪率：24793_taishibouritsu⟧⟦を→を：00422_wo⟧⟦{測|はか}った→測る：01977_hakaru⟧。",
       "english": "I measured my body fat percentage with the body composition analyzer.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29137_taisoseikeii_ex2",
-      "japanese": "{体組成計|たいそせいけい}では{体重|たいじゅう}だけでなく{筋肉量|きんにくりょう}も{確認|かくにん}できる。",
+      "japanese": "{体組成計|たいそせいけい}⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{体重|たいじゅう}→体重：03395_taijuu⟧⟦だけでなく→〜だけでなく：18373_dakedenaku⟧⟦{筋肉量|きんにくりょう}→筋肉量：28942_kinnikuryou⟧⟦も→も：00484_mo⟧⟦{確認|かくにん}できる→確認する：25332_kakuninsuru⟧。",
       "english": "With a body composition analyzer, you can check not just weight but also muscle mass.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29137_taisoseikeii_ex3",
-      "japanese": "{最新|さいしん}の{体組成計|たいそせいけい}はスマートフォンと{連携|れんけい}して{データ|でーた}を{管理|かんり}できるものが{多|おお}い。",
+      "japanese": "⟦{最新|さいしん}→最新：04831_saishin⟧⟦の→の：09472_no⟧{体組成計|たいそせいけい}⟦は→は：00079_ha⟧⟦スマートフォン→スマートフォン：04434_sumaatofon⟧⟦と→と：00512_to⟧⟦{連携|れんけい}→連携：05094_renkei⟧⟦して→する：00392_suru⟧⟦データ→データ：03944_deeta⟧⟦を→を：00422_wo⟧⟦{管理|かんり}できる→管理する：21910_kanrisuru⟧もの⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "Many of the latest body composition analyzers can sync with smartphones to manage data.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "COMMON COLLOCATIONS:\n- {体組成計|たいそせいけい}で{測|はか}る: to measure with a body composition analyzer\n- {体組成計|たいそせいけい}の{数値|すうち}: readings from a body composition analyzer\n- {家庭用|かていよう}{体組成計|たいそせいけい}: home-use body composition analyzer\n\nSIMILAR WORDS:\n- {体重計|たいじゅうけい}: bathroom scale — measures weight only\n- ヘルスメーター: health meter — marketing term for a scale; may or may not include composition analysis",
+  "notes": "COMMON COLLOCATIONS:\n- {体組成計|たいそせいけい}⟦で→で：00502_de⟧⟦{測|はか}る→測る：01977_hakaru⟧: to measure with a body composition analyzer\n- {体組成計|たいそせいけい}⟦の→の：09472_no⟧⟦{数値|すうち}→数値：12913_suuchi⟧: readings from a body composition analyzer\n- ⟦{家庭用|かていよう}→家庭用：16544_kateiyou⟧{体組成計|たいそせいけい}: home-use body composition analyzer\n\nSIMILAR WORDS:\n- ⟦{体重計|たいじゅうけい}→体重計：05485_taijuukei⟧: bathroom scale — measures weight only\n- ⟦ヘルスメーター→ヘルスメーター：29225_herusumeetaa⟧: health meter — marketing term for a scale; may or may not include composition analysis",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05485_taijuukei",
+      "reading": "たいじゅうけい",
+      "headword": "{体重計|たいじゅうけい}",
+      "label": "bathroom scale"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29225_herusumeetaa",
+      "reading": "へるすめーたー",
+      "headword": "ヘルスメーター",
+      "label": "health meter"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23621_taishiboukei",
+      "reading": "たいしぼうけい",
+      "headword": "{体脂肪計|たいしぼうけい}",
+      "label": "body fat scale"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +76,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "tool"
       ],
       "domain": []
     },
     "created": "2026-06-11T11:41:05Z",
-    "modified": "2026-06-11T11:47:28Z"
+    "modified": "2026-09-02T04:02:36Z"
   }
 }

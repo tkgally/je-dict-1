@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25080_rentaruruumu_ex1",
-      "japanese": "レンタルルームを{予約|よやく}した。",
+      "japanese": "レンタルルーム⟦を→を：00422_wo⟧⟦{予約|よやく}した→予約する：22989_yoyakusuru⟧。",
       "english": "I booked a rental room.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25080_rentaruruumu_ex2",
-      "japanese": "{駅前|えきまえ}のレンタルルームで{会議|かいぎ}をする。",
+      "japanese": "⟦{駅前|えきまえ}→駅前：09593_ekimae⟧⟦の→の：09472_no⟧レンタルルーム⟦で→で：00502_de⟧⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧。",
       "english": "We'll have the meeting in a rental room near the station.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25080_rentaruruumu_ex3",
-      "japanese": "{誕生日|たんじょうび}パーティーのために{広|ひろ}いレンタルルームを{借|か}りた。",
+      "japanese": "⟦{誕生日|たんじょうび}→誕生日：02910_tanjoubi⟧⟦パーティー→パーティー：02946_paatii⟧⟦の→の：09472_no⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧⟦{広|ひろ}い→広い：00704_hiroi⟧レンタルルーム⟦を→を：00422_wo⟧⟦{借|か}りた→借りる：00532_kariru⟧。",
       "english": "I rented a spacious rental room for a birthday party.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "A broad term for rooms available for hourly or short-term rental. In Japan, these are widely available in urban areas and serve many purposes: business meetings, study groups, hobby activities, small parties, photo shoots, and remote work. They can be found through online booking platforms and are often located in commercial buildings near train stations.\n\nCOMMON COLLOCATIONS:\n- レンタルルームを{借|か}りる: to rent a rental room\n- レンタルルームを{予約|よやく}する: to book a rental room\n- {時間貸|じかんが}しレンタルルーム: hourly rental room\n- {格安|かくやす}レンタルルーム: cheap rental room\n\nSIMILAR WORDS:\n- {貸|かし}し{会議室|かいぎしつ}: rental conference room — specifically for business meetings\n- レンタルスペース: rental space — a broader term that can include rooms, studios, kitchens, etc.\n- {貸|かし}しスタジオ: rental studio — for dance, music, photography, etc.\n- コワーキングスペース: coworking space — shared workspace for remote workers and freelancers",
+  "notes": "A broad term for rooms available for hourly or short-term rental. In Japan, these are widely available in urban areas and serve many purposes: business meetings, study groups, hobby activities, small parties, photo shoots, and remote work. They can be found through online booking platforms and are often located in commercial buildings near train stations.\n\nCOMMON COLLOCATIONS:\n- レンタルルーム⟦を→を：00422_wo⟧⟦{借|か}りる→借りる：00532_kariru⟧: to rent a rental room\n- レンタルルーム⟦を→を：00422_wo⟧⟦{予約|よやく}する→予約する：22989_yoyakusuru⟧: to book a rental room\n- {時間貸|じかんが}しレンタルルーム: hourly rental room\n- ⟦{格安|かくやす}→格安：15125_kakuyasu⟧レンタルルーム: cheap rental room\n\nSIMILAR WORDS:\n- {貸|かし}し⟦{会議室|かいぎしつ}→会議室：01265_kaigishitsu⟧: rental conference room — specifically for business meetings\n- ⟦レンタル→レンタル：11194_rentaru⟧⟦スペース→スペース：11049_supeesu⟧: rental space — a broader term that can include rooms, studios, kitchens, etc.\n- {貸|かし}し⟦スタジオ→スタジオ：11583_sutajio⟧: rental studio — for dance, music, photography, etc.\n- ⟦コワーキング→コワーキング：06406_kowaakingu⟧⟦スペース→スペース：11049_supeesu⟧: coworking space — shared workspace for remote workers and freelancers",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -52,12 +52,14 @@
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "building",
         "business"
       ]
     },
     "created": "2026-04-22T13:23:11Z",
-    "modified": "2026-08-03T09:22:27Z"
+    "modified": "2026-09-02T04:02:21Z"
   }
 }

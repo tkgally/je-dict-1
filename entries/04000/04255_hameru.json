@@ -123,7 +123,7 @@
     },
     {
       "id": "04255_hameru_ex2",
-      "japanese": "⟦{指輪|ゆびわ}→指輪：01744_yubiwa⟧⟦を→を：00422_wo⟧{嵌|は}めている。",
+      "japanese": "⟦{指輪|ゆびわ}→指輪：01744_yubiwa⟧⟦を→を：00422_wo⟧{嵌|は}めて⟦いる→いる：00495_iru⟧。",
       "english": "She's wearing a ring.",
       "has_audio": false,
       "sense_numbers": [
@@ -211,7 +211,7 @@
     },
     {
       "id": "04255_hameru_ex11",
-      "japanese": "⟦ゴム→ゴム：00073_gomu⟧⟦{手袋|てぶくろ}→手袋：01063_tebukuro⟧⟦を→を：00422_wo⟧{嵌|は}めている。",
+      "japanese": "⟦ゴム→ゴム：00073_gomu⟧⟦{手袋|てぶくろ}→手袋：01063_tebukuro⟧⟦を→を：00422_wo⟧{嵌|は}めて⟦いる→いる：00495_iru⟧。",
       "english": "I'm wearing rubber gloves.",
       "notes": null,
       "has_audio": false,
@@ -268,10 +268,19 @@
       "note": "intransitive"
     }
   ],
-  "notes": "{嵌|は}める is a transitive verb (⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧) with meanings ranging from fitting things to trapping people.\n\nINTRANSITIVE PAIR: ⟦{嵌|は}まる→嵌まる：04256_hamaru⟧ (to fit into, to be stuck)\n- {嵌|は}める: I fit the glass in.\n- ⟦{嵌|は}まる→嵌まる：04256_hamaru⟧: The glass fits in.\n\nASPECT (ている):\n{嵌|は}めている indicates something is fitted/worn, or someone has been set up.\n\nPARTICLE PATTERNS:\n- [thing]⟦を→を：00422_wo⟧[opening]⟦に→に：00314_ni⟧{嵌|は}める — to fit [thing] into [opening]\n- [ring/gloves]⟦を→を：00422_wo⟧{嵌|は}める — to put on [ring/gloves]\n- [person]⟦を→を：00422_wo⟧{嵌|は}める — to trap/set up [person]\n\nCOMMON PATTERNS:\n- ⟦{指輪|ゆびわ}→指輪：01744_yubiwa⟧⟦を→を：00422_wo⟧{嵌|は}める (put on a ring)\n- ⟦{手袋|てぶくろ}→手袋：01063_tebukuro⟧⟦を→を：00422_wo⟧{嵌|は}める (put on gloves)\n- ⟦{罠|わな}→罠：13816_wana⟧⟦に→に：00314_ni⟧{嵌|は}める (trap someone)\n\nOFTEN IN HIRAGANA:\nThis verb is frequently written as はめる due to the kanji's rarity.\n\nCOLLOQUIAL USE:\n{嵌|は}められた (I was set up!) is common in casual speech when claiming to have been tricked or framed.",
+  "notes": "{嵌|は}める is a transitive verb (⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧) with meanings ranging from fitting things to trapping people.\n\nINTRANSITIVE PAIR: ⟦{嵌|は}まる→嵌まる：04256_hamaru⟧ (to fit into, to be stuck)\n- {嵌|は}める: I fit the glass in.\n- ⟦{嵌|は}まる→嵌まる：04256_hamaru⟧: The glass fits in.\n\nASPECT (ている):\n{嵌|は}めて⟦いる→いる：00495_iru⟧ indicates something is fitted/worn, or someone has been set up.\n\nCOMMON PATTERNS:\n- [thing]⟦を→を：00422_wo⟧[opening]⟦に→に：00314_ni⟧{嵌|は}める — to fit [thing] into [opening]\n- [ring/gloves]⟦を→を：00422_wo⟧{嵌|は}める — to put on [ring/gloves]\n- [person]⟦を→を：00422_wo⟧{嵌|は}める — to trap/set up [person]\n- ⟦{指輪|ゆびわ}→指輪：01744_yubiwa⟧⟦を→を：00422_wo⟧{嵌|は}める (put on a ring)\n- ⟦{手袋|てぶくろ}→手袋：01063_tebukuro⟧⟦を→を：00422_wo⟧{嵌|は}める (put on gloves)\n- ⟦{罠|わな}→罠：13816_wana⟧⟦に→に：00314_ni⟧{嵌|は}める (trap someone)\n\nOFTEN IN HIRAGANA:\nThis verb is frequently written as はめる due to the kanji's rarity.\n\nCOLLOQUIAL USE:\n{嵌|は}められた (I was set up!) is common in casual speech when claiming to have been tricked or framed.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20817_wananikakeru",
+      "reading": "わなにかける",
+      "headword": "{罠|わな}にかける",
+      "label": "to trap"
+    }
+  ],
   "metadata": {
     "created": "2026-01-14T08:40:32Z",
-    "modified": "2026-05-30T15:09:38Z",
+    "modified": "2026-09-02T04:01:04Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

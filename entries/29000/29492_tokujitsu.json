@@ -3,7 +3,7 @@
   "headword": "{篤実|とくじつ}",
   "reading": "とくじつ",
   "romaji": "tokujitsu",
-  "part_of_speech": "na-adjective",
+  "part_of_speech": "na-adjective, noun",
   "gloss": "sincere; faithful; honest and warm-hearted",
   "definitions": [
     {
@@ -15,41 +15,68 @@
   "examples": [
     {
       "id": "29492_tokujitsu_ex1",
-      "japanese": "{篤実|とくじつ}な{人柄|ひとがら}。",
+      "japanese": "{篤実|とくじつ}な⟦{人柄|ひとがら}→人柄：08163_hitogara⟧。",
       "english": "a sincere character.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29492_tokujitsu_ex2",
-      "japanese": "{彼|かれ}は{篤実|とくじつ}で{信頼|しんらい}できる{人物|じんぶつ}だ。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{篤実|とくじつ}⟦で→で：00502_de⟧⟦{信頼|しんらい}できる→信頼する：22988_shinraisuru⟧⟦{人物|じんぶつ}→人物：03356_jinbutsu⟧だ。",
       "english": "He is a sincere and trustworthy person.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29492_tokujitsu_ex3",
-      "japanese": "{温厚|おんこう}{篤実|とくじつ}な{彼|かれ}は、{周|まわ}りの{人|ひと}から{慕|した}われている。",
+      "japanese": "⟦{温厚|おんこう}→温厚：18221_onkou⟧{篤実|とくじつ}な⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧、⟦{周|まわ}り→周り：01732_mawari⟧⟦の→の：09472_no⟧⟦{人|ひと}→人：00476_hito⟧⟦から→から：00504_kara⟧⟦{慕|した}われている→慕う：09912_shitau⟧。",
       "english": "Warm and sincere, he is well-loved by those around him.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Combines {篤|とく} (cordial, earnest) + {実|じつ} (truth, sincerity). A formal, literary word praising someone's honest, faithful character.\n\nUSAGE:\n- As a na-adjective: {篤実|とくじつ}な{人物|じんぶつ} (a sincere person)\n- Common in the four-character idiom {温厚篤実|おんこうとくじつ} (gentle and sincere)\n\nSIMILAR WORDS:\n- {誠実|せいじつ}: sincere; honest — a far more common everyday word\n- {実直|じっちょく}: honest and straightforward — close in meaning, also somewhat formal",
+  "notes": "Combines {篤|とく} (cordial, earnest) + ⟦{実|じつ}→実：28344_jitsu⟧ (truth, sincerity). A formal, literary word praising someone's honest, faithful character.\n\nUSAGE:\n- As a na-adjective: {篤実|とくじつ}な⟦{人物|じんぶつ}→人物：03356_jinbutsu⟧ (a sincere person)\n- Common in the four-character idiom ⟦{温厚篤実|おんこうとくじつ}→温厚篤実：06279_onkoutokujitsu⟧ (gentle and sincere)\n\nSIMILAR WORDS:\n- ⟦{誠実|せいじつ}→誠実：14211_seijitsu⟧: sincere; honest — a far more common everyday word\n- ⟦{実直|じっちょく}→実直：09186_jicchoku⟧: honest and straightforward — close in meaning, also somewhat formal",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14211_seijitsu",
+      "reading": "せいじつ",
+      "headword": "{誠実|せいじつ}",
+      "label": "sincere"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09186_jicchoku",
+      "reading": "じっちょく",
+      "headword": "{実直|じっちょく}",
+      "label": "honest and straightforward"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-na", "noun"],
+      "pos": [
+        "adjective-na",
+        "noun"
+      ],
       "formality": "formal",
-      "politeness": null,
-      "semantic": ["personality"],
+      "politeness": "plain",
+      "semantic": [
+        "personality"
+      ],
       "domain": []
     },
     "created": "2026-06-26T09:20:43Z",
-    "modified": "2026-06-26T09:20:43Z"
+    "modified": "2026-09-02T04:02:37Z"
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25491_ien_ex1",
-      "japanese": "{胃炎|いえん}と{診断|しんだん}された。",
+      "japanese": "{胃炎|いえん}⟦と→と：00512_to⟧⟦{診断|しんだん}→診断：04209_shindan⟧⟦された→する：00392_suru⟧。",
       "english": "I was diagnosed with gastritis.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25491_ien_ex2",
-      "japanese": "ストレスで{胃炎|いえん}になった。",
+      "japanese": "⟦ストレス→ストレス：03827_sutoresu⟧⟦で→で：00502_de⟧{胃炎|いえん}になった。",
       "english": "I got gastritis from stress.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25491_ien_ex3",
-      "japanese": "{慢性的|まんせいてき}な{胃炎|いえん}に{悩|なや}まされていたが、{食生活|しょくせいかつ}を{見直|みなお}したら{改善|かいぜん}した。",
+      "japanese": "{慢性的|まんせいてき}な{胃炎|いえん}⟦に→に：00314_ni⟧⟦{悩|なや}まされていた→悩ます：12602_nayamasu⟧⟦が→が：00051_ga⟧、⟦{食生活|しょくせいかつ}→食生活：21071_shokuseikatsu⟧⟦を→を：00422_wo⟧⟦{見直|みなお}したら→見直す：04579_minaosu⟧⟦{改善|かいぜん}した→改善する：26828_kaizensuru⟧。",
       "english": "I had been suffering from chronic gastritis, but it improved after I reviewed my eating habits.",
       "sense_numbers": [
         1
@@ -44,20 +44,45 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {胃|い} (stomach) and {炎|えん} (inflammation). The {炎|えん} suffix is productive in medical terminology: {肺炎|はいえん} (pneumonia), {腸炎|ちょうえん} (enteritis), {肝炎|かんえん} (hepatitis), etc. Knowing this pattern helps learners decode many medical terms.\n\nCOMMON COLLOCATIONS:\n- {急性|きゅうせい}{胃炎|いえん}: acute gastritis\n- {慢性|まんせい}{胃炎|いえん}: chronic gastritis\n- {胃炎|いえん}の{薬|くすり}: gastritis medication\n- {胃炎|いえん}になる: to develop gastritis\n- {萎縮性|いしゅくせい}{胃炎|いえん}: atrophic gastritis\n\nSIMILAR WORDS:\n- {胃潰瘍|いかいよう}: stomach ulcer — more severe than {胃炎|いえん}; involves damage to the stomach lining\n- {胃痛|いつう}: stomachache — a symptom rather than a diagnosis\n- {胃腸炎|いちょうえん}: gastroenteritis — inflammation of both the stomach and intestines",
+  "notes": "A compound of ⟦{胃|い}→胃：01706_i⟧ (stomach) and {炎|えん} (inflammation). The {炎|えん} suffix is productive in medical terminology: ⟦{肺炎|はいえん}→肺炎：08443_haien⟧ (pneumonia), {腸炎|ちょうえん} (enteritis), {肝炎|かんえん} (hepatitis), etc. Knowing this pattern helps learners decode many medical terms.\n\nCOMMON COLLOCATIONS:\n- ⟦{急性|きゅうせい}→急性：09015_kyuusei⟧{胃炎|いえん}: acute gastritis\n- ⟦{慢性|まんせい}→慢性：09014_mansei⟧{胃炎|いえん}: chronic gastritis\n- {胃炎|いえん}⟦の→の：09472_no⟧⟦{薬|くすり}→薬：00793_kusuri⟧: gastritis medication\n- {胃炎|いえん}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧: to develop gastritis\n- {萎縮性|いしゅくせい}{胃炎|いえん}: atrophic gastritis\n\nSIMILAR WORDS:\n- ⟦{胃潰瘍|いかいよう}→胃潰瘍：26958_ikaiyou⟧: stomach ulcer — more severe than {胃炎|いえん}; involves damage to the stomach lining\n- ⟦{胃痛|いつう}→胃痛：18319_itsuu⟧: stomachache — a symptom rather than a diagnosis\n- {胃腸炎|いちょうえん}: gastroenteritis — inflammation of both the stomach and intestines",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "26958_ikaiyou",
+      "reading": "いかいよう",
+      "headword": "{胃潰瘍|いかいよう}",
+      "label": "stomach ulcer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18319_itsuu",
+      "reading": "いつう",
+      "headword": "{胃痛|いつう}",
+      "label": "stomachache"
+    },
+    {
+      "type": "related",
+      "target_id": "30486_igan",
+      "reading": "いがん",
+      "headword": "{胃癌|いがん}",
+      "label": "stomach cancer"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "health",
         "body-internal"
       ]
     },
     "created": "2026-04-25T14:22:57Z",
-    "modified": "2026-08-04T12:59:53Z"
+    "modified": "2026-09-02T04:02:22Z"
   }
 }

@@ -3,7 +3,7 @@
   "headword": "写真撮影",
   "reading": "しゃしんさつえい",
   "romaji": "shashinsatsuei",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "photography; taking photographs; photo shoot",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29783_shashinsatsuei_ex1",
-      "japanese": "ここでの{写真撮影|しゃしんさつえい}は{禁止|きんし}です。",
+      "japanese": "⟦ここ→ここ：00961_koko⟧⟦で→で：00502_de⟧⟦の→の：09472_no⟧{写真撮影|しゃしんさつえい}⟦は→は：00079_ha⟧⟦{禁止|きんし}→禁止：02643_kinshi⟧です。",
       "english": "Photography is prohibited here.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29783_shashinsatsuei_ex2",
-      "japanese": "{結婚式|けっこんしき}の{前|まえ}に{写真撮影|しゃしんさつえい}をした。",
+      "japanese": "⟦{結婚式|けっこんしき}→結婚式：05493_kekkonshiki⟧⟦の→の：09472_no⟧⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧{写真撮影|しゃしんさつえい}⟦を→を：00422_wo⟧⟦した→する：00392_suru⟧。",
       "english": "We had a photo shoot before the wedding.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29783_shashinsatsuei_ex3",
-      "japanese": "{美術館|びじゅつかん}では、{作品|さくひん}の{写真撮影|しゃしんさつえい}が{許可|きょか}されている{場所|ばしょ}もある。",
+      "japanese": "⟦{美術館|びじゅつかん}→美術館：01717_bijutsukan⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧、⟦{作品|さくひん}→作品：02776_sakuhin⟧⟦の→の：09472_no⟧{写真撮影|しゃしんさつえい}⟦が→が：00051_ga⟧⟦{許可|きょか}→許可：00259_kyoka⟧⟦されている→する：00392_suru⟧⟦{場所|ばしょ}→場所：00829_basho⟧⟦も→も：00484_mo⟧⟦ある→ある：00006_aru⟧。",
       "english": "In the art museum there are also places where photographing the works is permitted.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "Formed from {写真|しゃしん} (photograph) + {撮影|さつえい} (filming, shooting). Takes する to form a verb: {写真撮影|しゃしんさつえい}する (to take photographs). Very common on signs about whether photography is allowed.\n\nCOMMON COLLOCATIONS:\n- {写真撮影|しゃしんさつえい}{禁止|きんし}: photography prohibited\n- {写真撮影|しゃしんさつえい}{可|か}: photography permitted\n- {記念|きねん}{写真撮影|しゃしんさつえい}: commemorative photo session\n\nSIMILAR WORDS:\n- {撮影|さつえい}: filming; shooting — broader, covers both photos and video.\n- {撮|と}る: to take (a photo) — the everyday verb for snapping a picture.",
+  "notes": "Formed from ⟦{写真|しゃしん}→写真：00753_shashin⟧ (photograph) + ⟦{撮影|さつえい}→撮影：04175_satsuei⟧ (filming, shooting). Takes ⟦する→する：00392_suru⟧ to form a verb: {写真撮影|しゃしんさつえい}⟦する→する：00392_suru⟧ (to take photographs). Very common on signs about whether photography is allowed.\n\nCOMMON COLLOCATIONS:\n- {写真撮影|しゃしんさつえい}⟦{禁止|きんし}→禁止：02643_kinshi⟧: photography prohibited\n- {写真撮影|しゃしんさつえい}{可|か}: photography permitted\n- ⟦{記念|きねん}→記念：00232_kinen⟧{写真撮影|しゃしんさつえい}: commemorative photo session\n\nSIMILAR WORDS:\n- ⟦{撮影|さつえい}→撮影：04175_satsuei⟧: filming; shooting — broader, covers both photos and video.\n- ⟦{撮|と}る→撮る：00760_toru⟧: to take (a photo) — the everyday verb for snapping a picture.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00760_toru",
+      "reading": "とる",
+      "headword": "{撮|と}る",
+      "label": "to take"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -54,7 +63,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "art",
         "leisure"
@@ -63,7 +72,7 @@
       "verb_class": "suru"
     },
     "created": "2026-07-11T21:17:16Z",
-    "modified": "2026-07-11T21:17:16Z"
+    "modified": "2026-09-02T04:02:37Z"
   },
   "conjugation": {
     "type": "suru",

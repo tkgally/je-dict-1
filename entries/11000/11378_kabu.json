@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "11378_kabu_ex1",
-      "japanese": "{画面|がめん}の{下部|かぶ}にボタンがある。",
+      "japanese": "⟦{画面|がめん}→画面：04406_gamen⟧⟦の→の：09472_no⟧{下部|かぶ}⟦に→に：00314_ni⟧⟦ボタン→ボタン：02963_botan⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There is a button at the bottom of the screen.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "11378_kabu_ex2",
-      "japanese": "{壁|かべ}の{下部|かぶ}に{汚|よご}れがついていた。",
+      "japanese": "⟦{壁|かべ}→壁：01290_kabe⟧⟦の→の：09472_no⟧{下部|かぶ}⟦に→に：00314_ni⟧⟦{汚|よご}れ→汚れ：03186_yogore⟧⟦が→が：00051_ga⟧ついて⟦いた→いる：00495_iru⟧。",
       "english": "There were stains on the lower part of the wall.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "11378_kabu_ex3",
-      "japanese": "その{橋|はし}の{下部|かぶ}は{老朽化|ろうきゅうか}が{進|すす}んでいるため、{補修|ほしゅう}が{必要|ひつよう}だ。",
+      "japanese": "⟦その→その：00993_sono⟧⟦{橋|はし}→橋：02163_hashi⟧⟦の→の：09472_no⟧{下部|かぶ}⟦は→は：00079_ha⟧⟦{老朽化|ろうきゅうか}→老朽化：07646_roukyuuka⟧⟦が→が：00051_ga⟧⟦{進|すす}んでいる→進む：01225_susumu⟧⟦ため→ため：01145_tame⟧、⟦{補修|ほしゅう}→補修：15054_hoshuu⟧⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧だ。",
       "english": "The lower part of that bridge is deteriorating, so repairs are needed.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "{下部|かぶ} refers to the lower portion of an object, structure, or space. Somewhat formal; common in written, technical, and descriptive contexts.\n\nCOMMON COLLOCATIONS:\n- {下部|かぶ}に{位置|いち}する: to be located in the lower part\n- ページの{下部|かぶ}: the bottom of the page\n- {車体|しゃたい}の{下部|かぶ}: the underside of a vehicle\n- {画面|がめん}の{下部|かぶ}: the bottom of the screen\n\nPAIR:\nOpposite is {上部|じょうぶ} (upper part).\n\nSIMILAR WORDS:\n- {底|そこ}: bottom (the very lowest point)\n- {下|した}: below, under (everyday word, broader usage)\n- {末端|まったん}: end, tip (the furthest extremity)",
+  "notes": "{下部|かぶ} refers to the lower portion of an object, structure, or space. Somewhat formal; common in written, technical, and descriptive contexts.\n\nCOMMON COLLOCATIONS:\n- {下部|かぶ}⟦に→に：00314_ni⟧⟦{位置|いち}する→位置する：09891_ichisuru⟧: to be located in the lower part\n- ⟦ページ→ページ：02961_peeji⟧⟦の→の：09472_no⟧{下部|かぶ}: the bottom of the page\n- ⟦{車体|しゃたい}→車体：17213_shatai⟧⟦の→の：09472_no⟧{下部|かぶ}: the underside of a vehicle\n- ⟦{画面|がめん}→画面：04406_gamen⟧⟦の→の：09472_no⟧{下部|かぶ}: the bottom of the screen\n\nPAIR:\nOpposite is ⟦{上部|じょうぶ}→上部：11377_joubu⟧ (upper part).\n\nSIMILAR WORDS:\n- ⟦{底|そこ}→底：12560_soko⟧: bottom (the very lowest point)\n- ⟦{下|した}→下：00670_shita⟧: below, under (everyday word, broader usage)\n- ⟦{末端|まったん}→末端：06788_mattan⟧: end, tip (the furthest extremity)",
   "cross_references": [
     {
       "type": "antonym",
@@ -52,11 +52,32 @@
       "headword": "{上部|じょうぶ}",
       "label": "upper part",
       "target_id": "11377_joubu"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12560_soko",
+      "reading": "そこ",
+      "headword": "{底|そこ}",
+      "label": "bottom"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06788_mattan",
+      "reading": "まったん",
+      "headword": "{末端|まったん}",
+      "label": "end, tip"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22980_kahou",
+      "reading": "かほう",
+      "headword": "{下方|かほう}",
+      "label": "lower part"
     }
   ],
   "metadata": {
     "created": "2026-02-16T01:58:58Z",
-    "modified": "2026-04-04T01:54:53Z",
+    "modified": "2026-09-02T04:01:24Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

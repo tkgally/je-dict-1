@@ -2,7 +2,7 @@
   "id": "07573_hoshigaru",
   "headword": "{欲|ほ}しがる",
   "reading": "ほしがる",
-  "part_of_speech": "godan verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to want; to desire (showing signs of)",
   "conjugation": {
     "type": "godan",
@@ -112,7 +112,7 @@
   "examples": [
     {
       "id": "07573_hoshigaru_ex1",
-      "japanese": "{子|こ}どもがおもちゃを{欲|ほ}しがっている。",
+      "japanese": "{子|こ}ども⟦が→が：00051_ga⟧⟦おもちゃ→おもちゃ：01334_omocha⟧⟦を→を：00422_wo⟧{欲|ほ}しがって⟦いる→いる：00495_iru⟧。",
       "english": "The child wants a toy.",
       "has_audio": false,
       "sense_numbers": [
@@ -121,7 +121,7 @@
     },
     {
       "id": "07573_hoshigaru_ex2",
-      "japanese": "{彼女|かのじょ}はいつも{新|あたら}しい{服|ふく}を{欲|ほ}しがる。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧⟦いつも→いつも：00599_itsumo⟧⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦{服|ふく}→服：00695_fuku⟧⟦を→を：00422_wo⟧{欲|ほ}しがる。",
       "english": "She always wants new clothes.",
       "has_audio": false,
       "sense_numbers": [
@@ -130,7 +130,7 @@
     },
     {
       "id": "07573_hoshigaru_ex3",
-      "japanese": "{人|ひと}の{持|も}っているものを{欲|ほ}しがるのはよくない。",
+      "japanese": "⟦{人|ひと}→人：00476_hito⟧⟦の→の：09472_no⟧⟦{持|も}っている→持つ：00478_motsu⟧もの⟦を→を：00422_wo⟧{欲|ほ}しがる⟦の→の：09472_no⟧⟦は→は：00079_ha⟧⟦よくない→いい：00118_ii⟧。",
       "english": "It's not good to covet what others have.",
       "has_audio": false,
       "sense_numbers": [
@@ -138,10 +138,19 @@
       ]
     }
   ],
-  "notes": "VERB TYPE:\n{他動詞|たどうし} (transitive verb)\n\nGodan verb ({五段動詞|ごだんどうし}) ending in る\n・{欲|ほ}しがらない (negative)\n・{欲|ほ}しがって (te-form)\n・{欲|ほ}しがった (past)\n\nGRAMMAR NOTE:\nThis is the -がる form of the i-adjective {欲|ほ}しい. The -がる suffix converts adjectives describing internal feelings into verbs that describe observable behavior. It is typically used for third persons, as Japanese speakers generally don't claim to observe their own feelings from outside.\n\n{欲|ほ}しい vs {欲|ほ}しがる:\n・{欲|ほ}しい - I want (1st person, direct)\n・{欲|ほ}しがる - (someone) wants, shows signs of wanting (3rd person, observed)\n\nOTHER -がる VERBS:\n・{怖|こわ}がる - to be afraid (from {怖|こわ}い)\n・{恥|は}ずかしがる - to be shy (from {恥|は}ずかしい)\n・{寂|さび}しがる - to feel lonely (from {寂|さび}しい)\n・{嫌|いや}がる - to dislike (from {嫌|いや})",
+  "notes": "VERB TYPE:\n⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive verb)\n\nGodan verb ({五段動詞|ごだんどうし}) ending in る\n- {欲|ほ}しがらない (negative)\n- {欲|ほ}しがって (te-form)\n- {欲|ほ}しがった (past)\n\nCOMMON PATTERNS:\nThis is the -⟦がる→〜がる：03089_garu⟧ form of the i-adjective ⟦{欲|ほ}しい→欲しい：01107_hoshii⟧. The -⟦がる→〜がる：03089_garu⟧ suffix converts adjectives describing internal feelings into verbs that describe observable behavior. It is typically used for third persons, as Japanese speakers generally don't claim to observe their own feelings from outside.\n\n⟦{欲|ほ}しい→欲しい：01107_hoshii⟧ vs {欲|ほ}しがる:\n- ⟦{欲|ほ}しい→欲しい：01107_hoshii⟧ - I want (1st person, direct)\n- {欲|ほ}しがる - (someone) wants, shows signs of wanting (3rd person, observed)\n\nOTHER -がる VERBS:\n- {怖|こわ}⟦がる→〜がる：03089_garu⟧ - to be afraid (from ⟦{怖|こわ}い→怖い：00864_kowai⟧)\n- {恥|は}ずかし⟦がる→〜がる：03089_garu⟧ - to be shy (from ⟦{恥|は}ずかしい→恥ずかしい：00843_hazukashii⟧)\n- {寂|さび}し⟦がる→〜がる：03089_garu⟧ - to feel lonely (from ⟦{寂|さび}しい→寂しい：00880_sabishii⟧)\n- ⟦{嫌|いや}がる→嫌がる：03041_iyagaru⟧ - to dislike (from ⟦{嫌|いや}→嫌：10232_iya⟧)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "07574_kowagaru",
+      "reading": "こわがる",
+      "headword": "{怖|こわ}がる",
+      "label": "to be afraid of"
+    }
+  ],
   "metadata": {
     "created": "2026-01-20T10:31:31Z",
-    "modified": "2026-08-11T09:37:41Z",
+    "modified": "2026-09-02T04:01:11Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -150,6 +159,7 @@
       ],
       "transitivity": "transitive",
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "emotion"
       ],

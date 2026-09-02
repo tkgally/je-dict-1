@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "09890_henkansuru_ex1",
-      "japanese": "ファイルの{形式|けいしき}を{変換|へんかん}した。",
+      "japanese": "⟦ファイル→ファイル：05280_fairu⟧⟦の→の：09472_no⟧⟦{形式|けいしき}→形式：00211_keishiki⟧⟦を→を：00422_wo⟧{変換|へんかん}した。",
       "english": "I converted the file format.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "09890_henkansuru_ex2",
-      "japanese": "ひらがなを{漢字|かんじ}に{変換|へんかん}する。",
+      "japanese": "ひらがな⟦を→を：00422_wo⟧⟦{漢字|かんじ}→漢字：09480_kanji⟧⟦に→に：00314_ni⟧{変換|へんかん}する。",
       "english": "I convert hiragana to kanji.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "09890_henkansuru_ex3",
-      "japanese": "{太陽|たいよう}エネルギーを{電気|でんき}に{変換|へんかん}する。",
+      "japanese": "⟦{太陽|たいよう}→太陽：03398_taiyou⟧⟦エネルギー→エネルギー：03834_enerugii⟧⟦を→を：00422_wo⟧⟦{電気|でんき}→電気：09780_denki⟧⟦に→に：00314_ni⟧{変換|へんかん}する。",
       "english": "We convert solar energy into electricity.",
       "notes": null,
       "has_audio": false,
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "{変換|へんかん}する means to convert or transform.\n\nTRANSITIVITY:\n- Type: Transitive ({他動詞|たどうし})\n- Pattern: AをBに{変換|へんかん}する (convert A into B)\n\nCOMMON USES:\n\nComputing:\n- ファイル{変換|へんかん}: file conversion\n- {形式|けいしき}{変換|へんかん}: format conversion\n- {文字|もじ}{変換|へんかん}: character conversion (input method)\n- データ{変換|へんかん}: data conversion\n\nScience/Technology:\n- エネルギー{変換|へんかん}: energy conversion\n- {通貨|つうか}{変換|へんかん}: currency conversion\n- {単位|たんい}{変換|へんかん}: unit conversion\n\nRELATED:\n- {変|か}える: to change (general)\n- {変|へん}{更|こう}する: to modify, alter\n- {転換|てんかん}: conversion, shift (bigger scale)",
+  "notes": "{変換|へんかん}する means to convert or transform.\n\nTRANSITIVITY:\n- Type: Transitive (⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧)\n- Pattern: A⟦を→を：00422_wo⟧B⟦に→に：00314_ni⟧{変換|へんかん}する (convert A into B)\n\nCOMMON COLLOCATIONS:\n\nComputing:\n- ⟦ファイル→ファイル：05280_fairu⟧⟦{変換|へんかん}→変換：12085_henkan⟧: file conversion\n- ⟦{形式|けいしき}→形式：00211_keishiki⟧⟦{変換|へんかん}→変換：12085_henkan⟧: format conversion\n- ⟦{文字|もじ}→文字：03632_moji⟧⟦{変換|へんかん}→変換：12085_henkan⟧: character conversion (input method)\n- ⟦データ→データ：03944_deeta⟧⟦{変換|へんかん}→変換：12085_henkan⟧: data conversion\n\nScience/Technology:\n- ⟦エネルギー→エネルギー：03834_enerugii⟧⟦{変換|へんかん}→変換：12085_henkan⟧: energy conversion\n- ⟦{通貨|つうか}→通貨：03508_tsuuka⟧⟦{変換|へんかん}→変換：12085_henkan⟧: currency conversion\n- ⟦{単位|たんい}→単位：03412_tani⟧⟦{変換|へんかん}→変換：12085_henkan⟧: unit conversion\n\nRELATED WORDS:\n- ⟦{変|か}える→変える：01089_kaeru⟧: to change (general)\n- ⟦{変|へん}{更|こう}する→変更する：30779_henkousuru⟧: to modify, alter\n- ⟦{転換|てんかん}→転換：19439_tenkan⟧: conversion, shift (bigger scale)",
   "cross_references": [
     {
       "type": "synonym",
@@ -148,6 +148,20 @@
       "reading": "へんこう",
       "headword": "{変更|へんこう}",
       "label": "to modify"
+    },
+    {
+      "type": "related",
+      "target_id": "30779_henkousuru",
+      "reading": "へんこうする",
+      "headword": "{変更|へんこう}する",
+      "label": "to modify, alter"
+    },
+    {
+      "type": "related",
+      "target_id": "19439_tenkan",
+      "reading": "てんかん",
+      "headword": "{転換|てんかん}",
+      "label": "conversion, shift"
     }
   ],
   "metadata": {
@@ -166,7 +180,7 @@
       "verb_class": "suru"
     },
     "created": "2026-02-04T03:55:03Z",
-    "modified": "2026-03-29T03:05:07Z"
+    "modified": "2026-09-02T04:01:19Z"
   },
   "prominent_see_also": [
     {

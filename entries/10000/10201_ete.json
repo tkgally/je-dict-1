@@ -14,30 +14,36 @@
   "examples": [
     {
       "id": "10201_ete_ex1",
-      "japanese": "{料理|りょうり}は{私|わたし}の{得手|えて}だ。",
+      "japanese": "⟦{料理|りょうり}→料理：01523_ryouri⟧⟦は→は：00079_ha⟧⟦{私|わたし}→私：02988_watashi⟧⟦の→の：09472_no⟧{得手|えて}だ。",
       "english": "Cooking is my forte.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10201_ete_ex2",
-      "japanese": "{人|ひと}にはそれぞれ{得手不得手|えてふえて}がある。",
+      "japanese": "⟦{人|ひと}→人：00476_hito⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦それぞれ→それぞれ：01453_sorezore⟧{得手不得手|えてふえて}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "Everyone has their strengths and weaknesses.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10201_ete_ex3",
-      "japanese": "{得手|えて}な{分野|ぶんや}で{力|ちから}を{発揮|はっき}する。",
+      "japanese": "{得手|えて}な⟦{分野|ぶんや}→分野：03612_bunya⟧⟦で→で：00502_de⟧⟦{力|ちから}→力：01661_chikara⟧⟦を→を：00422_wo⟧⟦{発揮|はっき}する→発揮する：17267_hakkisuru⟧。",
       "english": "Demonstrate one's abilities in areas of strength.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "WORD FORMATION:\n{得|え} (gain, obtain) + {手|て} (hand, skill)\n\nKEY EXPRESSION:\n{得手不得手|えてふえて} (strengths and weaknesses) - a very common compound meaning the things one is good at and bad at.\n\nCONTRAST WITH {不得手|ふえて}:\n- {得手|えて}: strong point, what one is good at\n- {不得手|ふえて}: weak point, what one is not good at\n\nRELATED TERMS:\n- {得意|とくい}: specialty, being good at\n- {長所|ちょうしょ}: strong point, advantage\n- {苦手|にがて}: weak point, not good at\n- {持|も}ち{味|あじ}: distinctive quality",
+  "notes": "FORMS:\n{得|え} (gain, obtain) + ⟦{手|て}→手：00569_te⟧ (hand, skill)\n\nKEY EXPRESSION:\n{得手不得手|えてふえて} (strengths and weaknesses) - a very common compound meaning the things one is good at and bad at.\n\nCONTRAST WITH {不得手|ふえて}:\n- {得手|えて}: strong point, what one is good at\n- ⟦{不得手|ふえて}→不得手：09989_fuete⟧: weak point, what one is not good at\n\nRELATED WORDS:\n- ⟦{得意|とくい}→得意：03455_tokui⟧: specialty, being good at\n- ⟦{長所|ちょうしょ}→長所：03121_chousho⟧: strong point, advantage\n- ⟦{苦手|にがて}→苦手：03513_nigate⟧: weak point, not good at\n- ⟦{持|も}ち{味|あじ}→持ち味：10200_mochiaji⟧: distinctive quality",
   "cross_references": [
     {
       "type": "antonym",
@@ -59,17 +65,37 @@
       "reading": "にがて",
       "headword": "{苦手|にがて}",
       "label": "weak point, not good at"
+    },
+    {
+      "type": "related",
+      "target_id": "03121_chousho",
+      "reading": "ちょうしょ",
+      "headword": "{長所|ちょうしょ}",
+      "label": "strong point, advantage"
+    },
+    {
+      "type": "related",
+      "target_id": "10200_mochiaji",
+      "reading": "もちあじ",
+      "headword": "{持|も}ち{味|あじ}",
+      "label": "distinctive quality"
     }
   ],
   "metadata": {
     "created": "2026-02-05T12:58:08Z",
-    "modified": "2026-04-24T05:12:18Z",
+    "modified": "2026-09-02T04:01:20Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-na"],
+      "pos": [
+        "noun",
+        "adjective-na"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["abstract", "ability"]
+      "semantic": [
+        "abstract",
+        "ability"
+      ]
     }
   }
 }

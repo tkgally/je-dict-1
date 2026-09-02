@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "23141_metsuki_ex1",
-      "japanese": "{鋭|するど}い{目|め}つきの{男|おとこ}。",
+      "japanese": "⟦{鋭|するど}い→鋭い：02347_surudoi⟧{目|め}つき⟦の→の：09472_no⟧⟦{男|おとこ}→男：00561_otoko⟧。",
       "english": "A man with a sharp gaze.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "23141_metsuki_ex2",
-      "japanese": "{彼女|かのじょ}は{優|やさ}しい{目|め}つきで{子|こ}どもを{見|み}た。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧{優|やさ}しい{目|め}つき⟦で→で：00502_de⟧{子|こ}ども⟦を→を：00422_wo⟧⟦{見|み}た→見る：00283_miru⟧。",
       "english": "She looked at the child with gentle eyes.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "23141_metsuki_ex3",
-      "japanese": "あの{人|ひと}の{目|め}つきが{怖|こわ}くて、{話|はな}しかけられなかった。",
+      "japanese": "⟦あの{人|ひと}→あの人：25922_anohito⟧⟦の→の：09472_no⟧{目|め}つき⟦が→が：00051_ga⟧⟦{怖|こわ}くて→怖い：00864_kowai⟧、⟦{話|はな}しかけられなかった→話しかける：03134_hanashikakeru⟧。",
       "english": "That person's gaze was so scary that I couldn't bring myself to talk to them.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {目|め} (eye) + つき (manner, way of appearing). Describes the overall impression created by someone's eyes. Often carries a subjective nuance — the same person's eyes may be described differently depending on the observer's impression.\n\nCOMMON COLLOCATIONS:\n- {鋭|するど}い{目|め}つき: a sharp, piercing gaze\n- {優|やさ}しい{目|め}つき: a gentle look in the eyes\n- {怖|こわ}い{目|め}つき: a scary/intimidating look\n- {目|め}つきが{悪|わる}い: to have a menacing look in one's eyes\n- {目|め}つきが{変|か}わる: one's expression changes (in the eyes)\n\nSIMILAR WORDS:\n- {眼差|まなざ}し: gaze — more literary and often implies emotional depth or warmth\n- {視線|しせん}: line of sight — more neutral; focuses on where someone is looking, not the quality of the eyes\n- {顔|かお}つき: facial expression — the broader equivalent covering the whole face",
+  "notes": "Composed of ⟦{目|め}→目：00525_me⟧ (eye) + つき (manner, way of appearing). Describes the overall impression created by someone's eyes. Often carries a subjective nuance — the same person's eyes may be described differently depending on the observer's impression.\n\nCOMMON COLLOCATIONS:\n- ⟦{鋭|するど}い→鋭い：02347_surudoi⟧{目|め}つき: a sharp, piercing gaze\n- {優|やさ}しい{目|め}つき: a gentle look in the eyes\n- ⟦{怖|こわ}い→怖い：00864_kowai⟧{目|め}つき: a scary/intimidating look\n- {目|め}つき⟦が→が：00051_ga⟧⟦{悪|わる}い→悪い：00908_warui⟧: to have a menacing look in one's eyes\n- {目|め}つき⟦が→が：00051_ga⟧⟦{変|か}わる→変わる：00714_kawaru⟧: one's expression changes (in the eyes)\n\nSIMILAR WORDS:\n- {眼差|まなざ}し: gaze — more literary and often implies emotional depth or warmth\n- ⟦{視線|しせん}→視線：14138_shisen⟧: line of sight — more neutral; focuses on where someone is looking, not the quality of the eyes\n- ⟦{顔|かお}つき→顔つき：19660_kaotsuki⟧: facial expression — the broader equivalent covering the whole face",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14138_shisen",
+      "reading": "しせん",
+      "headword": "{視線|しせん}",
+      "label": "line of sight"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19660_kaotsuki",
+      "reading": "かおつき",
+      "headword": "{顔|かお}つき",
+      "label": "facial expression"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +76,6 @@
       ]
     },
     "created": "2026-04-08T20:29:39Z",
-    "modified": "2026-07-31T18:20:34Z"
+    "modified": "2026-09-02T04:02:11Z"
   }
 }

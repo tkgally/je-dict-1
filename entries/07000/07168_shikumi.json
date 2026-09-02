@@ -19,7 +19,7 @@
   "examples": [
     {
       "id": "07168_shikumi_ex1",
-      "japanese": "この{機械|きかい}の{仕組|しく}みを{説明|せつめい}してください。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{機械|きかい}→機械：02366_kikai⟧⟦の→の：09472_no⟧{仕組|しく}み⟦を→を：00422_wo⟧⟦{説明|せつめい}して→説明する：05639_setsumeisuru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please explain how this machine works.",
       "notes": null,
       "has_audio": false,
@@ -29,7 +29,7 @@
     },
     {
       "id": "07168_shikumi_ex2",
-      "japanese": "{社会|しゃかい}{保障|ほしょう}の{仕組|しく}みは{複雑|ふくざつ}だ。",
+      "japanese": "⟦{社会|しゃかい}{保障|ほしょう}→社会保障：04914_shakaihoshou⟧⟦の→の：09472_no⟧{仕組|しく}み⟦は→は：00079_ha⟧⟦{複雑|ふくざつ}→複雑：01115_fukuzatsu⟧だ。",
       "english": "The social security system is complicated.",
       "notes": null,
       "has_audio": false,
@@ -39,7 +39,7 @@
     },
     {
       "id": "07168_shikumi_ex3",
-      "japanese": "{成功|せいこう}するための{仕組|しく}みを{作|つく}る。",
+      "japanese": "⟦{成功|せいこう}する→成功する：21445_seikousuru⟧⟦ため→ため：01145_tame⟧⟦の→の：09472_no⟧{仕組|しく}み⟦を→を：00422_wo⟧⟦{作|つく}る→作る：00481_tsukuru⟧。",
       "english": "To create a system for success.",
       "notes": null,
       "has_audio": false,
@@ -49,7 +49,7 @@
     },
     {
       "id": "07168_shikumi_ex4",
-      "japanese": "それは{巧妙|こうみょう}な{仕組|しく}みだった。",
+      "japanese": "⟦それ→それ：00994_sore⟧⟦は→は：00079_ha⟧⟦{巧妙|こうみょう}→巧妙：07933_koumyou⟧な{仕組|しく}みだった。",
       "english": "It was a clever scheme.",
       "notes": null,
       "has_audio": false,
@@ -59,7 +59,7 @@
     },
     {
       "id": "07168_shikumi_ex5",
-      "japanese": "{詐欺|さぎ}の{仕組|しく}みを{見破|みやぶ}った。",
+      "japanese": "⟦{詐欺|さぎ}→詐欺：09789_sagi⟧⟦の→の：09472_no⟧{仕組|しく}み⟦を→を：00422_wo⟧⟦{見破|みやぶ}った→見破る：18726_miyaburu⟧。",
       "english": "I saw through the scheme of the fraud.",
       "notes": null,
       "has_audio": false,
@@ -68,7 +68,7 @@
       ]
     }
   ],
-  "notes": "FORMATION:\n{仕|し} (doing) + {組|く}む (to assemble)\n\nFrom the idea of how things are put together.\n\nCOLLOCATIONS:\n・{仕組|しく}みを{理解|りかい}する - to understand the mechanism\n・{仕組|しく}みを{作|つく}る - to create a system\n・{仕組|しく}みを{変|か}える - to change the system\n・〜という{仕組|しく}み - a system where ~\n・{仕組|しく}みがわかる - to understand how it works\n\nSIMILAR WORDS:\n・システム - system (loanword)\n・{構造|こうぞう} - structure\n・{仕掛|しか}け - mechanism, device, trick\n・メカニズム - mechanism (loanword, more technical)\n\nNUANCE:\n{仕組|しく}み is commonly used when explaining how things work in everyday language.",
+  "notes": "FORMS:\n{仕|し} (doing) + ⟦{組|く}む→組む：02050_kumu⟧ (to assemble)\n\nFrom the idea of how things are put together.\n\nCOMMON COLLOCATIONS:\n- {仕組|しく}み⟦を→を：00422_wo⟧⟦{理解|りかい}する→理解する：06059_rikaisuru⟧ - to understand the mechanism\n- {仕組|しく}み⟦を→を：00422_wo⟧⟦{作|つく}る→作る：00481_tsukuru⟧ - to create a system\n- {仕組|しく}み⟦を→を：00422_wo⟧⟦{変|か}える→変える：01089_kaeru⟧ - to change the system\n- 〜⟦という→という：09577_toiu⟧{仕組|しく}み - a system where ~\n- {仕組|しく}み⟦が→が：00051_ga⟧わかる - to understand how it works\n\nSIMILAR WORDS:\n- ⟦システム→システム：08428_shisutemu⟧ - system (loanword)\n- ⟦{構造|こうぞう}→構造：02730_kouzou⟧ - structure\n- ⟦{仕掛|しか}け→仕掛け：07916_shikake⟧ - mechanism, device, trick\n- メカニズム - mechanism (loanword, more technical)\n\nUSAGE:\n{仕組|しく}み is commonly used when explaining how things work in everyday language.",
   "cross_references": [
     {
       "type": "synonym",
@@ -90,11 +90,18 @@
       "reading": "しかけ",
       "headword": "{仕掛|しか}け",
       "label": "device, mechanism"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02784_kikou",
+      "reading": "きこう",
+      "headword": "{機構|きこう}",
+      "label": "mechanism, organization, structure"
     }
   ],
   "metadata": {
     "created": "2026-01-19T03:00:19Z",
-    "modified": "2026-06-12T12:41:12Z",
+    "modified": "2026-09-02T04:01:10Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

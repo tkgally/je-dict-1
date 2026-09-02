@@ -3,7 +3,7 @@
   "id": "12717_hayatochiri",
   "headword": "{早|はや}とちり",
   "reading": "はやとちり",
-  "part_of_speech": "noun / suru verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "jumping to conclusions, hasty misunderstanding",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "12717_hayatochiri_ex1",
-      "japanese": "{早|はや}とちりしないで。",
+      "japanese": "{早|はや}とちり⟦しないで→する：00392_suru⟧。",
       "english": "Don't jump to conclusions.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "12717_hayatochiri_ex2",
-      "japanese": "{日付|ひづけ}を{早|はや}とちりして{一日|いちにち}{早|はや}く{来|き}てしまった。",
+      "japanese": "⟦{日付|ひづけ}→日付：03706_hizuke⟧⟦を→を：00422_wo⟧{早|はや}とちり⟦して→する：00392_suru⟧⟦{一日|いちにち}→一日：00942_ichinichi⟧⟦{早|はや}く→早い：00514_hayai⟧⟦{来|き}て→来る：00254_kuru⟧しまった。",
       "english": "I misread the date and showed up a day early.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "12717_hayatochiri_ex3",
-      "japanese": "メールを{最後|さいご}まで{読|よ}まずに{早|はや}とちりして、{間違|まちが}った{返事|へんじ}をしてしまった。",
+      "japanese": "⟦メール→メール：04435_meeru⟧⟦を→を：00422_wo⟧⟦{最後|さいご}→最後：01413_saigo⟧⟦まで→まで：00490_made⟧⟦{読|よ}ま→読む：00426_yomu⟧ず⟦に→に：00314_ni⟧{早|はや}とちり⟦して→する：00392_suru⟧、⟦{間違|まちが}った→間違う：03036_machigau⟧⟦{返事|へんじ}→返事：00844_henji⟧⟦を→を：00422_wo⟧⟦して→する：00392_suru⟧しまった。",
       "english": "I jumped to conclusions without reading the email to the end and sent the wrong reply.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{早|はや}とちり describes the mistake of acting on incomplete information — hearing half a sentence and assuming the rest, misreading a date, or reacting before fully understanding a situation. The word has a mildly humorous, self-deprecating quality and is often used to describe one's own blunders.\n\nCOMMON COLLOCATIONS:\n- {早|はや}とちりする: to jump to conclusions\n- {早|はや}とちりして{間違|まちが}える: to make a mistake from jumping to conclusions\n- {早|はや}とちりしやすい: prone to jumping to conclusions\n\nSIMILAR WORDS:\n- {勘違|かんちが}い: misunderstanding (broader, not necessarily from haste)\n- {思|おも}い{込|こ}み: assumption, jumping to a belief\n- {早|はや}とちり: misunderstanding due specifically to haste",
+  "notes": "USAGE:\n{早|はや}とちり describes the mistake of acting on incomplete information — hearing half a sentence and assuming the rest, misreading a date, or reacting before fully understanding a situation. The word has a mildly humorous, self-deprecating quality and is often used to describe one's own blunders.\n\nCOMMON COLLOCATIONS:\n- {早|はや}とちり⟦する→する：00392_suru⟧: to jump to conclusions\n- {早|はや}とちり⟦して→する：00392_suru⟧⟦{間違|まちが}える→間違える：01109_machigaeru⟧: to make a mistake from jumping to conclusions\n- {早|はや}とちりしやすい: prone to jumping to conclusions\n\nSIMILAR WORDS:\n- ⟦{勘違|かんちが}い→勘違い：17609_kanchigai⟧: misunderstanding (broader, not necessarily from haste)\n- ⟦{思|おも}い{込|こ}み→思い込み：10111_omoikomi⟧: assumption, jumping to a belief\n- {早|はや}とちり: misunderstanding due specifically to haste",
   "cross_references": [
     {
       "type": "synonym",
@@ -142,11 +142,25 @@
       "reading": "かんちがい",
       "headword": "{勘違|かんちが}い",
       "label": "misunderstanding (general)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10111_omoikomi",
+      "reading": "おもいこみ",
+      "headword": "{思|おも}い{込|こ}み",
+      "label": "assumption, jumping to a belief"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17270_awatemono",
+      "reading": "あわてもの",
+      "headword": "{慌|あわ}て{者|もの}",
+      "label": "hasty person"
     }
   ],
   "metadata": {
     "created": "2026-02-22T06:22:05Z",
-    "modified": "2026-04-27T07:31:57Z",
+    "modified": "2026-09-02T04:01:30Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

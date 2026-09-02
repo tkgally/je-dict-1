@@ -12,6 +12,29 @@ from typing import Optional
 from constants import LINK_OPEN, LINK_CLOSE, LINK_ARROW, LINK_COLON, NOENTRY
 
 
+# A brace group with no pipe, e.g. `{カタカナ}` or `{...}`. These are stray
+# wrappers in source text (no reading attached); render them as the bare
+# content rather than as literal braces.
+NOPIPE_BRACE_PATTERN = re.compile(r'\{([^{}|]*)\}')
+
+
+def semantic_tag_slug(tag: str) -> str:
+    """File-name slug for a semantic tag: lower-case, [a-z0-9-] only.
+
+    'daily-life', 'daily life' and 'daily_life' all map to 'daily-life', so
+    variant spellings share one list page. Returns '' if nothing usable remains.
+    """
+    slug = re.sub(r'[^a-z0-9]+', '-', (tag or '').lower()).strip('-')
+    return slug
+
+
+def unwrap_plain_braces(text: str) -> str:
+    """Replace `{X}` (no pipe) with `X`. Furigana `{kanji|reading}` is untouched."""
+    if not text or '{' not in text:
+        return text
+    return NOPIPE_BRACE_PATTERN.sub(r'\1', text)
+
+
 def process_furigana(text: str, furigana_pattern: re.Pattern, show_furigana: bool = True) -> str:
     """
     Convert furigana notation to HTML ruby tags.
@@ -41,15 +64,33 @@ def process_furigana(text: str, furigana_pattern: re.Pattern, show_furigana: boo
     for match in furigana_pattern.finditer(text):
         # Escape text before this match
         if match.start() > last_end:
-            parts.append(html.escape(text[last_end:match.start()]))
+            parts.append(html.escape(unwrap_plain_braces(text[last_end:match.start()])))
         # Add the ruby element
         parts.append(replace_furigana(match))
         last_end = match.end()
     # Add any remaining text
     if last_end < len(text):
-        parts.append(html.escape(text[last_end:]))
+        parts.append(html.escape(unwrap_plain_braces(text[last_end:])))
 
     return ''.join(parts)
+
+
+def plain_japanese_text(text: str, furigana_pattern: re.Pattern) -> str:
+    """Reduce marked-up Japanese to plain text (for speech synthesis).
+
+    Inline word links ⟦surface→base：id⟧ become their surface form,
+    furigana {漢字|かんじ} becomes 漢字, and stray `{X}` wrappers become X.
+    """
+    if not text:
+        return ''
+
+    def link_surface(match):
+        info = LINK_INFO_PATTERN.match(match.group(1))
+        return info.group(1) if info else match.group(1)
+
+    text = LINK_BLOCK_PATTERN.sub(link_surface, text)
+    text = furigana_pattern.sub(r'\1', text)
+    return unwrap_plain_braces(text)
 
 
 def generate_nav_header(relative_path: str = '', show_all_links: bool = True) -> str:
@@ -58,7 +99,10 @@ def generate_nav_header(relative_path: str = '', show_all_links: bool = True) ->
 
     Args:
         relative_path: Path prefix to reach the root docs directory
-        show_all_links: If True, show all nav links. If False, show only Home, Random, About
+        show_all_links: Retained for compatibility; every page now shows the
+            full navigation (Home · Browse · Kanji · Lists · Articles · Recent ·
+            Random · About). Curator pages (pending, curator) are reachable by
+            URL only.
     """
     # Determine the base path to the flat root
     base = relative_path if relative_path else ''
@@ -66,20 +110,13 @@ def generate_nav_header(relative_path: str = '', show_all_links: bool = True) ->
     # Home icon SVG (replaces "Home" text)
     home_icon = '''<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100' width='2em' height='2em' style='vertical-align:middle;margin-right:0.25em;'><circle cx='50' cy='50' r='50' fill='#FFEA00'/><circle cx='50' cy='50' r='30' fill='#FFC107'/><circle cx='42' cy='42' r='8' fill='white' opacity='0.4'/></svg>'''
 
-    # Build navigation links based on show_all_links parameter
-    if show_all_links:
-        nav_links = f'''
+    nav_links = f'''
         <a href="{base}index.html" class="nav-link nav-home" title="Home" aria-label="Home">{home_icon}</a>
-        <a href="{base}advanced.html" class="nav-link">Advanced</a>
         <a href="{base}browse.html" class="nav-link">Browse</a>
+        <a href="{base}kanji.html" class="nav-link">Kanji</a>
+        <a href="{base}lists/index.html" class="nav-link">Lists</a>
         <a href="{base}articles/index.html" class="nav-link">Articles</a>
         <a href="{base}recent.html" class="nav-link">Recent</a>
-        <a href="{base}random.html" class="nav-link">Random</a>
-        <a href="{base}pending.html" class="nav-link">Pending</a>
-        <a href="{base}about.html" class="nav-link">About</a>'''
-    else:
-        nav_links = f'''
-        <a href="{base}index.html" class="nav-link nav-home" title="Home" aria-label="Home">{home_icon}</a>
         <a href="{base}random.html" class="nav-link">Random</a>
         <a href="{base}about.html" class="nav-link">About</a>'''
 
@@ -105,7 +142,7 @@ def generate_nav_header(relative_path: str = '', show_all_links: bool = True) ->
             <span class="toggle-icon">振</span>
             <span class="toggle-label">Furigana</span>
         </button>
-        <button id="wordlinks-toggle" class="toggle-btn wordlinks-toggle-btn" type="button" aria-pressed="false" title="Toggle word links (click words to see their entries)">
+        <button id="wordlinks-toggle" class="toggle-btn wordlinks-toggle-btn active" type="button" aria-pressed="true" title="Toggle word links (click words to see their entries)">
             <span class="toggle-icon">🔗</span>
             <span class="toggle-label">Links</span>
         </button>
@@ -172,10 +209,14 @@ def generate_examples_script() -> str:
 
 
 def generate_header_search_script(relative_path: str = '') -> str:
-    """Generate the header search JavaScript for entry/kanji pages."""
+    """Generate the header search JavaScript for pages other than index.html.
+
+    The header box does not search locally: it only redirects to index.html
+    with the query, and search.js there loads the index and auto-detects the
+    query type. (No search-index.js is loaded on these pages.)
+    """
     base = relative_path if relative_path else ''
-    return f'''<script src="{base}search-index.js"></script>
-<script>
+    return f'''<script>
 (function() {{
     'use strict';
 
@@ -184,23 +225,12 @@ def generate_header_search_script(relative_path: str = '') -> str:
 
     if (!searchInput || !searchButton) return;
 
-    function detectQueryType(query) {{
-        if (/[\\u3040-\\u309f\\u30a0-\\u30ff\\u4e00-\\u9faf]/.test(query)) {{
-            return 'japanese';
-        }}
-        if (/^[a-z]+$/i.test(query)) {{
-            return query.length <= 10 ? 'romaji' : 'english';
-        }}
-        return 'english';
-    }}
-
     function performSearch() {{
         var query = searchInput.value.trim();
         if (!query) return;
 
-        // Redirect to index.html with search parameter
-        var searchType = detectQueryType(query);
-        window.location.href = '{base}index.html?q=' + encodeURIComponent(query) + '&type=' + searchType;
+        // Redirect to index.html; search.js there auto-detects the query type
+        window.location.href = '{base}index.html?q=' + encodeURIComponent(query);
     }}
 
     searchButton.addEventListener('click', performSearch);
@@ -245,22 +275,8 @@ def process_word_links(
         return ''
 
     def process_surface_furigana(surface: str) -> str:
-        """Process furigana in surface form to ruby tags."""
-        def replace_furigana(match):
-            kanji = html.escape(match.group(1))
-            reading = html.escape(match.group(2))
-            return f'<ruby>{kanji}<rp>(</rp><rt>{reading}</rt><rp>)</rp></ruby>'
-
-        parts = []
-        last_end = 0
-        for match in furigana_pattern.finditer(surface):
-            if match.start() > last_end:
-                parts.append(html.escape(surface[last_end:match.start()]))
-            parts.append(replace_furigana(match))
-            last_end = match.end()
-        if last_end < len(surface):
-            parts.append(html.escape(surface[last_end:]))
-        return ''.join(parts)
+        """Process furigana in surface form to ruby tags (also unwraps `{X}`)."""
+        return process_furigana(surface, furigana_pattern, True)
 
     def replace_link_block(match):
         """Replace a single ⟦...⟧ block with HTML."""
@@ -322,11 +338,12 @@ def generate_wordlinks_script() -> str:
     var btn = document.getElementById('wordlinks-toggle');
     if (!btn) return;
 
-    // Check saved preference - default to hidden (toggle OFF)
-    var hidden = localStorage.getItem('wordLinksHidden') !== 'false';
+    // Check saved preference - default to shown (toggle ON)
+    var hidden = false;
+    try { hidden = localStorage.getItem('wordLinksHidden') === 'true'; } catch (e) {}
 
     function updateState() {
-        document.body.classList.toggle('show-word-links', !hidden);
+        document.body.classList.toggle('word-links-hidden', hidden);
         btn.setAttribute('aria-pressed', !hidden);
         btn.classList.toggle('active', !hidden);
     }
@@ -337,8 +354,55 @@ def generate_wordlinks_script() -> str:
     // Toggle on click
     btn.addEventListener('click', function() {
         hidden = !hidden;
-        localStorage.setItem('wordLinksHidden', hidden);
+        try { localStorage.setItem('wordLinksHidden', hidden); } catch (e) {}
         updateState();
+    });
+})();
+</script>'''
+
+
+def generate_tts_script() -> str:
+    """Generate the example-sentence read-aloud script (Web Speech API).
+
+    Each example carries a `button.tts-btn[data-text]`. The buttons stay
+    hidden (CSS) unless speechSynthesis exists and a Japanese voice is
+    available; voices often load asynchronously, so `voiceschanged` is
+    observed too.
+    """
+    return '''<script>
+(function() {
+    if (!('speechSynthesis' in window) || typeof SpeechSynthesisUtterance === 'undefined') return;
+    var synth = window.speechSynthesis;
+    var jaVoice = null;
+
+    function findJaVoice() {
+        var voices = synth.getVoices() || [];
+        for (var i = 0; i < voices.length; i++) {
+            if (/^ja([-_]|$)/i.test(voices[i].lang)) return voices[i];
+        }
+        return null;
+    }
+
+    function enable() {
+        jaVoice = findJaVoice();
+        if (jaVoice) document.body.classList.add('tts-available');
+    }
+
+    enable();
+    if (typeof synth.onvoiceschanged !== 'undefined') {
+        synth.addEventListener('voiceschanged', enable);
+    }
+
+    document.addEventListener('click', function(e) {
+        var btn = e.target.closest ? e.target.closest('.tts-btn') : null;
+        if (!btn || !btn.dataset.text) return;
+        e.preventDefault();
+        if (synth.speaking) synth.cancel();
+        var u = new SpeechSynthesisUtterance(btn.dataset.text);
+        u.lang = 'ja-JP';
+        try { if (jaVoice) u.voice = jaVoice; } catch (err) {}
+        u.rate = 0.9;
+        synth.speak(u);
     });
 })();
 </script>'''

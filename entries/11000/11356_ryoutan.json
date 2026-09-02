@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "11356_ryoutan_ex1",
-      "japanese": "ロープの{両端|りょうたん}を{持|も}つ。",
+      "japanese": "⟦ロープ→ロープ：27860_roopu⟧⟦の→の：09472_no⟧{両端|りょうたん}⟦を→を：00422_wo⟧⟦{持|も}つ→持つ：00478_motsu⟧。",
       "english": "Hold both ends of the rope.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "11356_ryoutan_ex2",
-      "japanese": "テーブルの{両端|りょうたん}に{花|はな}を{飾|かざ}った。",
+      "japanese": "⟦テーブル→テーブル：04488_teeburu⟧⟦の→の：09472_no⟧{両端|りょうたん}⟦に→に：00314_ni⟧⟦{花|はな}→花：00523_hana⟧⟦を→を：00422_wo⟧⟦{飾|かざ}った→飾る：01185_kazaru⟧。",
       "english": "I placed flowers at both ends of the table.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "11356_ryoutan_ex3",
-      "japanese": "{橋|はし}の{両端|りょうたん}に{警備員|けいびいん}が{立|た}っていた。",
+      "japanese": "⟦{橋|はし}→橋：02163_hashi⟧⟦の→の：09472_no⟧{両端|りょうたん}⟦に→に：00314_ni⟧⟦{警備員|けいびいん}→警備員：09867_keibiin⟧⟦が→が：00051_ga⟧⟦{立|た}っていた→立つ：00758_tatsu⟧。",
       "english": "Security guards were standing at both ends of the bridge.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,26 @@
       ]
     }
   ],
-  "notes": "The two opposite ends of something, whether physical or abstract.\n\nWORD FORMATION:\n{両|りょう} (both) + {端|たん} (end/edge)\n\nREADING:\nThe standard reading is りょうたん. The reading りょうはし is also heard in casual speech.\n\nCOMMON PATTERNS:\n- {両端|りょうたん}を{持|も}つ: to hold both ends\n- {両端|りょうたん}から: from both ends\n- {両端|りょうたん}に: at both ends\n- {両端|りょうたん}を{切|き}る: to cut both ends\n\nRELATED:\n- {片端|かたはし}: one end\n- {先端|せんたん}: tip, cutting edge\n- {端|はし}/{端|はた}: edge, end\n\nUsed for physical objects (ropes, bridges, tables, corridors) and abstractly for extremes of a range or spectrum.",
-  "cross_references": [],
+  "notes": "The two opposite ends of something, whether physical or abstract.\n\nFORMS:\n⟦{両|りょう}→両：11182_ryou⟧ (both) + {端|たん} (end/edge)\n\nPRONUNCIATION:\nThe standard reading is りょうたん. The reading りょうはし is also heard in casual speech.\n\nCOMMON PATTERNS:\n- {両端|りょうたん}⟦を→を：00422_wo⟧⟦{持|も}つ→持つ：00478_motsu⟧: to hold both ends\n- {両端|りょうたん}⟦から→から：00504_kara⟧: from both ends\n- {両端|りょうたん}⟦に→に：00314_ni⟧: at both ends\n- {両端|りょうたん}⟦を→を：00422_wo⟧⟦{切|き}る→切る：02693_kiru⟧: to cut both ends\n\nRELATED WORDS:\n- {片端|かたはし}: one end\n- ⟦{先端|せんたん}→先端：04370_sentan⟧: tip, cutting edge\n- ⟦{端|はし}→端：00936_hashi⟧/{端|はた}: edge, end\n\nUsed for physical objects (ropes, bridges, tables, corridors) and abstractly for extremes of a range or spectrum.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "04370_sentan",
+      "reading": "せんたん",
+      "headword": "{先端|せんたん}",
+      "label": "tip, cutting edge"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28877_ryougawa",
+      "reading": "りょうがわ",
+      "headword": "{両側|りょうがわ}",
+      "label": "both sides"
+    }
+  ],
   "metadata": {
     "created": "2026-02-16T01:06:12Z",
-    "modified": "2026-06-30T06:28:36Z",
+    "modified": "2026-09-02T04:01:24Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

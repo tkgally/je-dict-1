@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25369_sennensuru_ex1",
-      "japanese": "{研究|けんきゅう}に{専念|せんねん}する。",
+      "japanese": "⟦{研究|けんきゅう}→研究：01396_kenkyuu⟧⟦に→に：00314_ni⟧{専念|せんねん}する。",
       "english": "To devote oneself to research.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25369_sennensuru_ex2",
-      "japanese": "{彼|かれ}は{治療|ちりょう}に{専念|せんねん}するため{仕事|しごと}を{休|やす}んだ。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{治療|ちりょう}→治療：03503_chiryou⟧⟦に→に：00314_ni⟧{専念|せんねん}する⟦ため→ため：01145_tame⟧⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦を→を：00422_wo⟧⟦{休|やす}んだ→休む：00606_yasumu⟧。",
       "english": "He took time off work to focus on his treatment.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25369_sennensuru_ex3",
-      "japanese": "{子育|こそだ}てに{専念|せんねん}するために{退職|たいしょく}した。",
+      "japanese": "⟦{子育|こそだ}て→子育て：12226_kosodate⟧⟦に→に：00314_ni⟧{専念|せんねん}する⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧⟦{退職|たいしょく}→退職：04559_taishoku⟧⟦した→する：00392_suru⟧。",
       "english": "She quit her job to devote herself to raising her children.",
       "sense_numbers": [
         1
@@ -45,7 +45,7 @@
     },
     {
       "id": "25369_sennensuru_ex4",
-      "japanese": "{今|いま}は{目|め}の{前|まえ}のことに{専念|せんねん}しよう。",
+      "japanese": "⟦{今|いま}→今：00945_ima⟧⟦は→は：00079_ha⟧⟦{目|め}の{前|まえ}→目の前：22588_menomae⟧⟦の→の：09472_no⟧こと⟦に→に：00314_ni⟧{専念|せんねん}しよう。",
       "english": "Let's focus on what's in front of us right now.",
       "sense_numbers": [
         1
@@ -54,8 +54,45 @@
       "notes": null
     }
   ],
-  "notes": "The pattern is 〜に{専念|せんねん}する. Implies single-minded focus, often requiring the sacrifice or postponement of other activities. Common in news stories about celebrities or athletes stepping away from work.\n\nCOMMON COLLOCATIONS:\n- {仕事|しごと}に{専念|せんねん}する: to devote oneself to work\n- {治療|ちりょう}に{専念|せんねん}する: to focus on medical treatment\n- {勉強|べんきょう}に{専念|せんねん}する: to concentrate on studying\n- {育児|いくじ}に{専念|せんねん}する: to dedicate oneself to childcare\n- {本業|ほんぎょう}に{専念|せんねん}する: to focus on one's core business\n\nSIMILAR WORDS:\n- {集中|しゅうちゅう}する: to concentrate — focuses on mental focus rather than dedicating one's life to something\n- {没頭|ぼっとう}する: to be absorbed in — implies being so engrossed that one loses track of surroundings\n- {打|う}ち{込|こ}む: to throw oneself into — more casual; emphasizes passionate engagement",
+  "notes": "The pattern is 〜⟦に→に：00314_ni⟧{専念|せんねん}する. Implies single-minded focus, often requiring the sacrifice or postponement of other activities. Common in news stories about celebrities or athletes stepping away from work.\n\nCOMMON COLLOCATIONS:\n- ⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦に→に：00314_ni⟧{専念|せんねん}する: to devote oneself to work\n- ⟦{治療|ちりょう}→治療：03503_chiryou⟧⟦に→に：00314_ni⟧{専念|せんねん}する: to focus on medical treatment\n- ⟦{勉強|べんきょう}→勉強：00770_benkyou⟧⟦に→に：00314_ni⟧{専念|せんねん}する: to concentrate on studying\n- ⟦{育児|いくじ}→育児：03998_ikuji⟧⟦に→に：00314_ni⟧{専念|せんねん}する: to dedicate oneself to childcare\n- ⟦{本業|ほんぎょう}→本業：12887_hongyou⟧⟦に→に：00314_ni⟧{専念|せんねん}する: to focus on one's core business\n\nSIMILAR WORDS:\n- ⟦{集中|しゅうちゅう}する→集中する：21908_shuuchuusuru⟧: to concentrate — focuses on mental focus rather than dedicating one's life to something\n- ⟦{没頭|ぼっとう}する→没頭する：18376_bottousuru⟧: to be absorbed in — implies being so engrossed that one loses track of surroundings\n- ⟦{打|う}ち{込|こ}む→打ち込む：04229_uchikomu⟧: to throw oneself into — more casual; emphasizes passionate engagement",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21908_shuuchuusuru",
+      "reading": "しゅうちゅうする",
+      "headword": "{集中|しゅうちゅう}する",
+      "label": "to concentrate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18376_bottousuru",
+      "reading": "ぼっとうする",
+      "headword": "{没頭|ぼっとう}する",
+      "label": "to be absorbed in"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04229_uchikomu",
+      "reading": "うちこむ",
+      "headword": "{打|う}ち{込|こ}む",
+      "label": "to throw oneself into"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21671_miwotoujiru",
+      "reading": "みをとうじる",
+      "headword": "{身|み}を{投|とう}じる",
+      "label": "to devote oneself to"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21912_chuuryokusuru",
+      "reading": "ちゅうりょくする",
+      "headword": "{注力|ちゅうりょく}する",
+      "label": "to focus efforts on"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -72,7 +109,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-24T16:14:36Z",
-    "modified": "2026-04-24T16:14:36Z"
+    "modified": "2026-09-02T04:02:22Z"
   },
   "conjugation": {
     "type": "suru",

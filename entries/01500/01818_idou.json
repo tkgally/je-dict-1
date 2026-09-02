@@ -2,7 +2,7 @@
   "id": "01818_idou",
   "headword": "{異動|いどう}",
   "reading": "いどう",
-  "part_of_speech": "noun/suru verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "personnel change, transfer",
   "conjugation": {
     "type": "suru",
@@ -168,7 +168,7 @@
       ]
     }
   ],
-  "notes": "{異動|いどう} refers to job transfers or personnel changes.\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n- No standard transitive pair\n- Pattern: {異動|いどう}⟦する→する：00392_suru⟧\n\nCOMMON PATTERNS:\n- {異動|いどう}⟦する→する：00392_suru⟧ (to be transferred)\n- {異動|いどう}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧ (to get transferred)\n- ⟦{人事|じんじ}→人事：00126_jinji⟧{異動|いどう} (personnel changes)\n- {異動|いどう}⟦{届|とどけ}→届け：07558_todoke⟧ (transfer notification)\n\nNOTE:\n- Different from ⟦{移動|いどう}→移動：01741_idou⟧ (movement, travel) - same reading, different kanji\n- {異動|いどう}: job/position changes (personnel)\n- ⟦{移動|いどう}→移動：01741_idou⟧: physical movement (travel)",
+  "notes": "{異動|いどう} refers to job transfers or personnel changes.\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n- No standard transitive pair\n- Pattern: {異動|いどう}⟦する→する：00392_suru⟧\n\nCOMMON PATTERNS:\n- {異動|いどう}⟦する→する：00392_suru⟧ (to be transferred)\n- {異動|いどう}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧ (to get transferred)\n- ⟦{人事|じんじ}→人事：00126_jinji⟧{異動|いどう} (personnel changes)\n- {異動|いどう}⟦{届|とどけ}→届け：07558_todoke⟧ (transfer notification)\n\nUSAGE:\n- Different from ⟦{移動|いどう}→移動：01741_idou⟧ (movement, travel) - same reading, different kanji\n- {異動|いどう}: job/position changes (personnel)\n- ⟦{移動|いどう}→移動：01741_idou⟧: physical movement (travel)",
   "cross_references": [
     {
       "type": "contrast",
@@ -176,11 +176,39 @@
       "reading": "いどう",
       "headword": "{移動|いどう}",
       "label": "physical movement (same reading, different kanji)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21579_tennin",
+      "reading": "てんにん",
+      "headword": "{転任|てんにん}",
+      "label": "transfer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21982_haichigae",
+      "reading": "はいちがえ",
+      "headword": "{配置換|はいちが}え",
+      "label": "reassignment"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26317_tenseki",
+      "reading": "てんせき",
+      "headword": "{転籍|てんせき}",
+      "label": "change of registered domicile"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26638_tensho",
+      "reading": "てんしょ",
+      "headword": "{転所|てんしょ}",
+      "label": "transfer to a different facility"
     }
   ],
   "metadata": {
     "created": "2026-01-09T12:15:00Z",
-    "modified": "2026-05-17T13:09:03Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

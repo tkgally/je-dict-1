@@ -15,41 +15,80 @@
   "examples": [
     {
       "id": "15433_kawagutsu_ex1",
-      "japanese": "{新|あたら}しい{革靴|かわぐつ}を{買|か}った。",
+      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧{革靴|かわぐつ}⟦を→を：00422_wo⟧⟦{買|か}った→買う：00489_kau⟧。",
       "english": "I bought new leather shoes.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15433_kawagutsu_ex2",
-      "japanese": "{革靴|かわぐつ}が{雨|あめ}で{濡|ぬ}れてしまった。",
+      "japanese": "{革靴|かわぐつ}⟦が→が：00051_ga⟧⟦{雨|あめ}→雨：00583_ame⟧⟦で→で：00502_de⟧⟦{濡|ぬ}れて→濡れる：00800_nureru⟧しまった。",
       "english": "My leather shoes got wet in the rain.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15433_kawagutsu_ex3",
-      "japanese": "{面接|めんせつ}の{前日|ぜんじつ}に{革靴|かわぐつ}を{磨|みが}いて、{準備|じゅんび}を{整|ととの}えた。",
+      "japanese": "⟦{面接|めんせつ}→面接：01100_mensetsu⟧⟦の→の：09472_no⟧⟦{前日|ぜんじつ}→前日：03108_zenjitsu⟧⟦に→に：00314_ni⟧{革靴|かわぐつ}⟦を→を：00422_wo⟧⟦{磨|みが}いて→磨く：02427_migaku⟧、⟦{準備|じゅんび}→準備：01431_junbi⟧⟦を→を：00422_wo⟧⟦{整|ととの}えた→整える：04259_totonoeru⟧。",
       "english": "The day before the interview, I polished my leather shoes and got everything ready.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\n{革靴|かわぐつ} is standard vocabulary for business and formal contexts in Japan. New employees typically purchase {革靴|かわぐつ} as part of their business attire.\n\nCOMMON COLLOCATIONS:\n- {革靴|かわぐつ}を{磨|みが}く (to polish leather shoes)\n- {革靴|かわぐつ}を{履|は}く (to wear leather shoes)\n- {革靴|かわぐつ}の{手入|てい}れ (leather shoe care)\n\nRELATED WORDS:\n- スニーカー: sneakers\n- {靴|くつ}: shoes (general)\n- {靴磨|くつみが}き: shoe polishing\n- {長靴|ながぐつ}: boots, rain boots",
-  "cross_references": [],
+  "notes": "USAGE:\n{革靴|かわぐつ} is standard vocabulary for business and formal contexts in Japan. New employees typically purchase {革靴|かわぐつ} as part of their business attire.\n\nCOMMON COLLOCATIONS:\n- {革靴|かわぐつ}⟦を→を：00422_wo⟧⟦{磨|みが}く→磨く：02427_migaku⟧ (to polish leather shoes)\n- {革靴|かわぐつ}⟦を→を：00422_wo⟧⟦{履|は}く→履く：00700_haku⟧ (to wear leather shoes)\n- {革靴|かわぐつ}⟦の→の：09472_no⟧⟦{手入|てい}れ→手入れ：07178_teire⟧ (leather shoe care)\n\nRELATED WORDS:\n- ⟦スニーカー→スニーカー：04528_suniikaa⟧: sneakers\n- ⟦{靴|くつ}→靴：00725_kutsu⟧: shoes (general)\n- ⟦{靴磨|くつみが}き→靴磨き：27852_kutsumigaki⟧: shoe polishing\n- ⟦{長靴|ながぐつ}→長靴：17966_nagagutsu⟧: boots, rain boots",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "04528_suniikaa",
+      "reading": "すにーかー",
+      "headword": "スニーカー",
+      "label": "sneakers"
+    },
+    {
+      "type": "related",
+      "target_id": "27852_kutsumigaki",
+      "reading": "くつみがき",
+      "headword": "{靴磨|くつみが}き",
+      "label": "shoe polishing"
+    },
+    {
+      "type": "related",
+      "target_id": "17966_nagagutsu",
+      "reading": "ながぐつ",
+      "headword": "{長靴|ながぐつ}",
+      "label": "boots, rain boots"
+    },
+    {
+      "type": "related",
+      "target_id": "01050_sebiro",
+      "reading": "せびろ",
+      "headword": "{背広|せびろ}",
+      "label": "business suit"
+    }
+  ],
   "metadata": {
     "created": "2026-03-06T13:50:11Z",
-    "modified": "2026-03-06T13:50:11Z",
+    "modified": "2026-09-02T04:01:41Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["clothing"],
+      "semantic": [
+        "clothing"
+      ],
       "domain": []
     }
   }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "19411_shingata_ex1",
-      "japanese": "{新型|しんがた}のスマホが{発売|はつばい}された。",
+      "japanese": "{新型|しんがた}⟦の→の：09472_no⟧⟦スマホ→スマホ：04721_sumaho⟧⟦が→が：00051_ga⟧⟦{発売|はつばい}→発売：04315_hatsubai⟧⟦された→する：00392_suru⟧。",
       "english": "A new model smartphone was released.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "19411_shingata_ex2",
-      "japanese": "{新型|しんがた}の{車|くるま}は{燃費|ねんぴ}がよくなっている。",
+      "japanese": "{新型|しんがた}⟦の→の：09472_no⟧⟦{車|くるま}→車：00516_kuruma⟧⟦は→は：00079_ha⟧⟦{燃費|ねんぴ}→燃費：18969_nenpi⟧⟦が→が：00051_ga⟧⟦よく→よく：00601_yoku⟧⟦なっている→なる：01970_naru⟧。",
       "english": "The new model car has better fuel efficiency.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "19411_shingata_ex3",
-      "japanese": "{新型|しんがた}ウイルスの{感染|かんせん}が{世界中|せかいじゅう}に{広|ひろ}がった。",
+      "japanese": "{新型|しんがた}⟦ウイルス→ウイルス：05223_uirusu⟧⟦の→の：09472_no⟧⟦{感染|かんせん}→感染：05977_kansen⟧⟦が→が：00051_ga⟧⟦{世界中|せかいじゅう}→世界中：10171_sekaijuu⟧⟦に→に：00314_ni⟧⟦{広|ひろ}がった→広がる：01980_hirogaru⟧。",
       "english": "The new strain of the virus spread throughout the world.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "{新型|しんがた} refers to a newly developed or recently released version of a product, vehicle, device, or even a biological strain. It emphasizes that something is the updated or current-generation model, as opposed to earlier versions.\n\nSTRUCTURE: A compound of {新|しん} (new) + {型|がた} (model, type).\n\nCOMMON COMPOUNDS:\n- {新型|しんがた}{車|しゃ}: new model car\n- {新型|しんがた}コロナウイルス: novel coronavirus\n- {新型|しんがた}{機種|きしゅ}: new model (of device)\n\nCONTRAST:\n- {新型|しんがた}: new model/type\n- {旧型|きゅうがた}: old model/type\n- {最新型|さいしんがた}: latest model",
+  "notes": "{新型|しんがた} refers to a newly developed or recently released version of a product, vehicle, device, or even a biological strain. It emphasizes that something is the updated or current-generation model, as opposed to earlier versions.\n\nSTRUCTURE: A compound of {新|しん} (new) + {型|がた} (model, type).\n\nCOMPOUNDS:\n- {新型|しんがた}⟦{車|しゃ}→車：09874_sha⟧: new model car\n- {新型|しんがた}コロナウイルス: novel coronavirus\n- {新型|しんがた}⟦{機種|きしゅ}→機種：13211_kishu⟧: new model (of device)\n\nSIMILAR WORDS:\n- {新型|しんがた}: new model/type\n- ⟦{旧型|きゅうがた}→旧型：18276_kyuugata⟧: old model/type\n- {最新型|さいしんがた}: latest model",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -59,7 +59,7 @@
       ]
     },
     "created": "2026-03-25T13:28:10Z",
-    "modified": "2026-05-08T08:12:00Z"
+    "modified": "2026-09-02T04:01:55Z"
   },
   "cross_references": [
     {
@@ -68,6 +68,27 @@
       "reading": "きゅうがた",
       "headword": "{旧型|きゅうがた}",
       "label": "old model"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18629_shinseihin",
+      "reading": "しんせいひん",
+      "headword": "{新製品|しんせいひん}",
+      "label": "new product"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22165_kairyougata",
+      "reading": "かいりょうがた",
+      "headword": "{改良|かいりょう}{型|がた}",
+      "label": "improved model"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26693_saishinmoderu",
+      "reading": "さいしんもでる",
+      "headword": "{最新|さいしん}モデル",
+      "label": "latest model"
     }
   ]
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22809_muneyake_ex1",
-      "japanese": "{胸焼|むねや}けがする。",
+      "japanese": "{胸焼|むねや}け⟦が→が：00051_ga⟧⟦する→する：00392_suru⟧。",
       "english": "I have heartburn.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22809_muneyake_ex2",
-      "japanese": "{脂|あぶら}っこいものを{食|た}べると{胸焼|むねや}けする。",
+      "japanese": "⟦{脂|あぶら}っこい→脂っこい：14728_aburakkoi⟧もの⟦を→を：00422_wo⟧⟦{食|た}べる→食べる：00396_taberu⟧⟦と→と：00512_to⟧{胸焼|むねや}け⟦する→する：00392_suru⟧。",
       "english": "I get heartburn when I eat greasy food.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22809_muneyake_ex3",
-      "japanese": "{昨日|きのう}{食|た}べすぎて、{朝|あさ}から{胸焼|むねや}けがひどい。",
+      "japanese": "⟦{昨日|きのう}→昨日：00859_kinou⟧{食|た}べすぎて、⟦{朝|あさ}→朝：02277_asa⟧⟦から→から：00504_kara⟧{胸焼|むねや}け⟦が→が：00051_ga⟧⟦ひどい→ひどい：01097_hidoi⟧。",
       "english": "I ate too much yesterday and have had terrible heartburn since this morning.",
       "sense_numbers": [
         1
@@ -44,19 +44,37 @@
       "notes": null
     }
   ],
-  "notes": "A burning or uncomfortable sensation in the chest area caused by stomach acid rising into the esophagus. The word literally combines {胸|むね} (chest) and {焼|や}け (burning). Despite the English term \"heartburn,\" the Japanese word focuses on the chest sensation rather than the heart.\n\nCOMMON COLLOCATIONS:\n- {胸焼|むねや}けがする: to have heartburn\n- {胸焼|むねや}けがひどい: to have bad heartburn\n- {胸焼|むねや}けを{起|お}こす: to cause heartburn\n- {胸焼|むねや}けの{薬|くすり}: heartburn medicine\n\nUSAGE:\nOften triggered by eating too much, eating greasy food, or drinking too much alcohol. The expression {胸焼|むねや}けがする (using がする, not をする) is the standard way to say you have heartburn.\n\nRELATED TERMS:\n- {胃|い}もたれ: heavy stomach; feeling of food sitting in the stomach\n- {吐|は}き{気|け}: nausea",
+  "notes": "A burning or uncomfortable sensation in the chest area caused by stomach acid rising into the esophagus. The word literally combines ⟦{胸|むね}→胸：00972_mune⟧ (chest) and ⟦{焼|や}け→焼ける：01138_yakeru⟧ (burning). Despite the English term \"heartburn,\" the Japanese word focuses on the chest sensation rather than the heart.\n\nCOMMON COLLOCATIONS:\n- {胸焼|むねや}け⟦が→が：00051_ga⟧⟦する→する：00392_suru⟧: to have heartburn\n- {胸焼|むねや}け⟦が→が：00051_ga⟧⟦ひどい→ひどい：01097_hidoi⟧: to have bad heartburn\n- {胸焼|むねや}け⟦を→を：00422_wo⟧⟦{起|お}こす→起こす：01234_okosu⟧: to cause heartburn\n- {胸焼|むねや}け⟦の→の：09472_no⟧⟦{薬|くすり}→薬：00793_kusuri⟧: heartburn medicine\n\nUSAGE:\nOften triggered by eating too much, eating greasy food, or drinking too much alcohol. The expression {胸焼|むねや}け⟦が→が：00051_ga⟧⟦する→する：00392_suru⟧ (using ⟦が→が：00051_ga⟧⟦する→する：00392_suru⟧, not ⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧) is the standard way to say you have heartburn.\n\nRELATED WORDS:\n- {胃|い}もたれ: heavy stomach; feeling of food sitting in the stomach\n- ⟦{吐|は}き{気|け}→吐き気：05021_hakike⟧: nausea",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "05021_hakike",
+      "reading": "はきけ",
+      "headword": "{吐|は}き{気|け}",
+      "label": "nausea"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26466_motare",
+      "reading": "もたれ",
+      "headword": "もたれ",
+      "label": "heaviness in the stomach"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "health"
       ]
     },
     "created": "2026-04-07T17:05:04Z",
-    "modified": "2026-07-30T15:20:15Z"
+    "modified": "2026-09-02T04:02:09Z"
   }
 }

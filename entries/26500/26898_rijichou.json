@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26898_rijichou_ex1",
-      "japanese": "{新|あたら}しい{理事長|りじちょう}が{就任|しゅうにん}した。",
+      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧{理事長|りじちょう}⟦が→が：00051_ga⟧⟦{就任|しゅうにん}→就任：12368_shuunin⟧⟦した→する：00392_suru⟧。",
       "english": "A new chairperson has taken office.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26898_rijichou_ex2",
-      "japanese": "{学校法人|がっこうほうじん}の{理事長|りじちょう}が{挨拶|あいさつ}した。",
+      "japanese": "{学校法人|がっこうほうじん}⟦の→の：09472_no⟧{理事長|りじちょう}⟦が→が：00051_ga⟧⟦{挨拶|あいさつ}した→挨拶する：01797_aisatsusuru⟧。",
       "english": "The director of the school corporation gave an address.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26898_rijichou_ex3",
-      "japanese": "{財団|ざいだん}の{理事長|りじちょう}として、{社会|しゃかい}{貢献|こうけん}{活動|かつどう}に{力|ちから}を{入|い}れている。",
+      "japanese": "⟦{財団|ざいだん}→財団：11331_zaidan⟧⟦の→の：09472_no⟧{理事長|りじちょう}⟦として→として：06802_toshite⟧、⟦{社会|しゃかい}{貢献|こうけん}→社会貢献：22315_shakaikouken⟧⟦{活動|かつどう}→活動：00201_katsudou⟧⟦に→に：00314_ni⟧⟦{力|ちから}→力：01661_chikara⟧⟦を→を：00422_wo⟧⟦{入|い}れている→入れる：01098_ireru⟧。",
       "english": "As the foundation's chairperson, I am putting effort into social contribution activities.",
       "sense_numbers": [
         1
@@ -44,8 +44,37 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {理事|りじ} (director, trustee — a board member) and {長|ちょう} (head, chief). Refers to the top position on a board of directors in non-profit organizations, educational institutions, and similar bodies.\n\nCOMMON COLLOCATIONS:\n- {理事長|りじちょう}に{就任|しゅうにん}する: to assume the position of chairperson\n- {理事長|りじちょう}を{務|つと}める: to serve as chairperson\n- {理事長|りじちょう}{挨拶|あいさつ}: chairperson's address/greeting\n- {学校法人|がっこうほうじん}の{理事長|りじちょう}: director of a school corporation\n\nSIMILAR WORDS:\n- {会長|かいちょう}: president, chairman — used for companies, associations, and other organizations\n- {社長|しゃちょう}: company president — specifically for for-profit companies\n- {理事|りじ}: director, trustee — a board member (not the head)\n- {議長|ぎちょう}: chairperson — used for meetings, assemblies, and legislative bodies",
-  "cross_references": [],
+  "notes": "A compound of ⟦{理事|りじ}→理事：13558_riji⟧ (director, trustee — a board member) and {長|ちょう} (head, chief). Refers to the top position on a board of directors in non-profit organizations, educational institutions, and similar bodies.\n\nCOMMON COLLOCATIONS:\n- {理事長|りじちょう}⟦に→に：00314_ni⟧⟦{就任|しゅうにん}→就任：12368_shuunin⟧⟦する→する：00392_suru⟧: to assume the position of chairperson\n- {理事長|りじちょう}⟦を→を：00422_wo⟧⟦{務|つと}める→務める：10446_tsutomeru⟧: to serve as chairperson\n- {理事長|りじちょう}⟦{挨拶|あいさつ}→挨拶：02505_aisatsu⟧: chairperson's address/greeting\n- {学校法人|がっこうほうじん}⟦の→の：09472_no⟧{理事長|りじちょう}: director of a school corporation\n\nSIMILAR WORDS:\n- ⟦{会長|かいちょう}→会長：11610_kaichou⟧: president, chairman — used for companies, associations, and other organizations\n- ⟦{社長|しゃちょう}→社長：01428_shachou⟧: company president — specifically for for-profit companies\n- ⟦{理事|りじ}→理事：13558_riji⟧: director, trustee — a board member (not the head)\n- ⟦{議長|ぎちょう}→議長：02681_gichou⟧: chairperson — used for meetings, assemblies, and legislative bodies",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11610_kaichou",
+      "reading": "かいちょう",
+      "headword": "{会長|かいちょう}",
+      "label": "president, chairman"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01428_shachou",
+      "reading": "しゃちょう",
+      "headword": "{社長|しゃちょう}",
+      "label": "company president"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02681_gichou",
+      "reading": "ぎちょう",
+      "headword": "{議長|ぎちょう}",
+      "label": "chairperson"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27936_enchou",
+      "reading": "えんちょう",
+      "headword": "{園長|えんちょう}",
+      "label": "principal (of a kindergarten or preschool)"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -64,6 +93,6 @@
       ]
     },
     "created": "2026-05-05T15:09:58Z",
-    "modified": "2026-08-06T12:44:19Z"
+    "modified": "2026-09-02T04:02:28Z"
   }
 }

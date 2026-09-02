@@ -16,7 +16,7 @@
   "examples": [
     {
       "id": "24209_kantou_ex1",
-      "japanese": "{今年|ことし}は{寒冬|かんとう}になりそうだ。",
+      "japanese": "⟦{今年|ことし}→今年：00722_kotoshi⟧⟦は→は：00079_ha⟧{寒冬|かんとう}⟦に→に：00314_ni⟧⟦なり→なる：01970_naru⟧そうだ。",
       "english": "It looks like this year will be a cold winter.",
       "sense_numbers": [
         1
@@ -26,7 +26,7 @@
     },
     {
       "id": "24209_kantou_ex2",
-      "japanese": "{寒冬|かんとう}の{影響|えいきょう}で{農作物|のうさくぶつ}に{被害|ひがい}が{出|で}た。",
+      "japanese": "{寒冬|かんとう}⟦の→の：09472_no⟧⟦{影響|えいきょう}→影響：01877_eikyou⟧⟦で→で：00502_de⟧⟦{農作物|のうさくぶつ}→農作物：15271_nousakubutsu⟧⟦に→に：00314_ni⟧⟦{被害|ひがい}→被害：02572_higai⟧⟦が→が：00051_ga⟧⟦{出|で}た→出る：00513_deru⟧。",
       "english": "Crops were damaged due to the severe winter.",
       "sense_numbers": [
         1
@@ -36,7 +36,7 @@
     },
     {
       "id": "24209_kantou_ex3",
-      "japanese": "{気象庁|きしょうちょう}は{今季|こんき}を{寒冬|かんとう}と{発表|はっぴょう}した。",
+      "japanese": "⟦{気象庁|きしょうちょう}→気象庁：30107_kishouchou⟧⟦は→は：00079_ha⟧{今季|こんき}⟦を→を：00422_wo⟧{寒冬|かんとう}⟦と→と：00512_to⟧⟦{発表|はっぴょう}した→発表する：25231_happyousuru⟧。",
       "english": "The Meteorological Agency announced this season as a cold winter.",
       "sense_numbers": [
         1
@@ -46,7 +46,7 @@
     },
     {
       "id": "24209_kantou_ex4",
-      "japanese": "{記録的|きろくてき}な{寒冬|かんとう}で{水道管|すいどうかん}が{凍結|とうけつ}した{家庭|かてい}が{多|おお}かった。",
+      "japanese": "⟦{記録的|きろくてき}→記録的：28788_kirokuteki⟧な{寒冬|かんとう}⟦で→で：00502_de⟧⟦{水道管|すいどうかん}→水道管：08094_suidoukan⟧⟦が→が：00051_ga⟧⟦{凍結|とうけつ}→凍結：09613_touketsu⟧⟦した→する：00392_suru⟧⟦{家庭|かてい}→家庭：12315_katei⟧⟦が→が：00051_ga⟧⟦{多|おお}かった→多い：01127_ooi⟧。",
       "english": "During the record cold winter, many households had frozen water pipes.",
       "sense_numbers": [
         1
@@ -55,16 +55,40 @@
       "notes": null
     }
   ],
-  "notes": "{寒|かん} (cold) + {冬|とう} (winter). A meteorological term used to describe a winter season with temperatures below the seasonal average.\n\nCOMMON COLLOCATIONS:\n- {寒冬|かんとう}の{予報|よほう}: forecast for a cold winter\n- {記録的|きろくてき}な{寒冬|かんとう}: record cold winter\n- {寒冬|かんとう}の{影響|えいきょう}: effects of the cold winter\n- {寒冬|かんとう}{少雪|しょうせつ}: cold winter with little snow\n\nSIMILAR WORDS:\n- {暖冬|だんとう}: warm winter — the opposite; a winter milder than average\n- {厳冬|げんとう}: harsh winter — a more extreme term, implying bitter cold\n- {極寒|ごっかん}: extreme cold — refers to the temperature itself rather than the season\n\nUSAGE:\nPrimarily appears in weather forecasts, news reports, and agricultural discussions. The Japan Meteorological Agency classifies winters as {寒冬|かんとう} (cold), {並冬|なみふゆ} (average), or {暖冬|だんとう} (warm) based on mean temperature deviation.",
-  "cross_references": [],
+  "notes": "{寒|かん} (cold) + {冬|とう} (winter). A meteorological term used to describe a winter season with temperatures below the seasonal average.\n\nCOMMON COLLOCATIONS:\n- {寒冬|かんとう}⟦の→の：09472_no⟧⟦{予報|よほう}→予報：03668_yohou⟧: forecast for a cold winter\n- ⟦{記録的|きろくてき}→記録的：28788_kirokuteki⟧な{寒冬|かんとう}: record cold winter\n- {寒冬|かんとう}⟦の→の：09472_no⟧⟦{影響|えいきょう}→影響：01877_eikyou⟧: effects of the cold winter\n- {寒冬|かんとう}{少雪|しょうせつ}: cold winter with little snow\n\nSIMILAR WORDS:\n- ⟦{暖冬|だんとう}→暖冬：21745_dantou⟧: warm winter — the opposite; a winter milder than average\n- ⟦{厳冬|げんとう}→厳冬：08556_gentou⟧: harsh winter — a more extreme term, implying bitter cold\n- ⟦{極寒|ごっかん}→極寒：21345_gokkan⟧: extreme cold — refers to the temperature itself rather than the season\n\nUSAGE:\nPrimarily appears in weather forecasts, news reports, and agricultural discussions. The Japan Meteorological Agency classifies winters as {寒冬|かんとう} (cold), {並冬|なみふゆ} (average), or ⟦{暖冬|だんとう}→暖冬：21745_dantou⟧ (warm) based on mean temperature deviation.",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "21745_dantou",
+      "reading": "だんとう",
+      "headword": "{暖冬|だんとう}",
+      "label": "warm winter"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08556_gentou",
+      "reading": "げんとう",
+      "headword": "{厳冬|げんとう}",
+      "label": "harsh winter"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21345_gokkan",
+      "reading": "ごっかん",
+      "headword": "{極寒|ごっかん}",
+      "label": "extreme cold"
+    }
+  ],
   "metadata": {
     "created": "2026-04-18T09:17:09Z",
-    "modified": "2026-08-02T18:32:34Z",
+    "modified": "2026-09-02T04:02:17Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "weather",
         "time-season"

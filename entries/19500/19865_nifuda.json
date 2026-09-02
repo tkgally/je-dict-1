@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "19865_nifuda_ex1",
-      "japanese": "{荷物|にもつ}に{荷札|にふだ}を{付|つ}けた。",
+      "japanese": "⟦{荷物|にもつ}→荷物：00737_nimotsu⟧⟦に→に：00314_ni⟧{荷札|にふだ}⟦を→を：00422_wo⟧⟦{付|つ}けた→付ける：00761_tsukeru⟧。",
       "english": "I attached a tag to the luggage.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "19865_nifuda_ex2",
-      "japanese": "{荷札|にふだ}に{宛先|あてさき}を{書|か}いてください。",
+      "japanese": "{荷札|にふだ}⟦に→に：00314_ni⟧⟦{宛先|あてさき}→宛先：12275_atesaki⟧⟦を→を：00422_wo⟧⟦{書|か}いて→書く：00477_kaku⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please write the destination on the shipping tag.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "19865_nifuda_ex3",
-      "japanese": "{引越|ひっこ}しの{荷物|にもつ}には{荷札|にふだ}を{付|つ}けておくと、{運|はこ}び{先|さき}が{分|わ}かりやすい。",
+      "japanese": "⟦{引越|ひっこ}し→引越し：03704_hikkoshi⟧⟦の→の：09472_no⟧⟦{荷物|にもつ}→荷物：00737_nimotsu⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{荷札|にふだ}⟦を→を：00422_wo⟧⟦{付|つ}けて→付ける：00761_tsukeru⟧おく⟦と→と：00512_to⟧、{運|はこ}び⟦{先|さき}→先：02883_saki⟧⟦が→が：00051_ga⟧⟦{分|わ}かり→分かる：00463_wakaru⟧やすい。",
       "english": "Putting tags on your moving boxes makes it easy to tell where they should go.",
       "sense_numbers": [
         1
@@ -44,8 +44,45 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {荷|に} (cargo, load) + {札|ふだ} (tag, label). Used for any kind of label attached to packages, luggage, or shipped goods.\n\nCOMMON COLLOCATIONS:\n- {荷札|にふだ}を{付|つ}ける — to attach a tag\n- {荷札|にふだ}を{書|か}く — to write a tag\n- {荷札|にふだ}を{外|はず}す — to remove a tag\n\nSIMILAR WORDS:\n- タグ — tag (loanword, general purpose)\n- ラベル — label (loanword)\n- {名札|なふだ} — name tag\n- {値札|ねふだ} — price tag",
+  "notes": "Composed of ⟦{荷|に}→荷：28294_ni⟧ (cargo, load) + ⟦{札|ふだ}→札：23002_fuda⟧ (tag, label). Used for any kind of label attached to packages, luggage, or shipped goods.\n\nCOMMON COLLOCATIONS:\n- {荷札|にふだ}⟦を→を：00422_wo⟧⟦{付|つ}ける→付ける：00761_tsukeru⟧ — to attach a tag\n- {荷札|にふだ}⟦を→を：00422_wo⟧⟦{書|か}く→書く：00477_kaku⟧ — to write a tag\n- {荷札|にふだ}⟦を→を：00422_wo⟧⟦{外|はず}す→外す：02394_hazusu⟧ — to remove a tag\n\nSIMILAR WORDS:\n- ⟦タグ→タグ：11034_tagu⟧ — tag (loanword, general purpose)\n- ⟦ラベル→ラベル：00348_raberu⟧ — label (loanword)\n- ⟦{名札|なふだ}→名札：12338_nafuda⟧ — name tag\n- ⟦{値札|ねふだ}→値札：09532_nefuda⟧ — price tag",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11034_tagu",
+      "reading": "たぐ",
+      "headword": "タグ",
+      "label": "tag"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00348_raberu",
+      "reading": "らべる",
+      "headword": "ラベル",
+      "label": "label"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12338_nafuda",
+      "reading": "なふだ",
+      "headword": "{名札|なふだ}",
+      "label": "name tag"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09532_nefuda",
+      "reading": "ねふだ",
+      "headword": "{値札|ねふだ}",
+      "label": "price tag"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26004_urifuda",
+      "reading": "うりふだ",
+      "headword": "{売札|うりふだ}",
+      "label": "price tag"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +97,6 @@
       ]
     },
     "created": "2026-03-27T03:31:23Z",
-    "modified": "2026-07-27T12:42:09Z"
+    "modified": "2026-09-02T04:01:57Z"
   }
 }

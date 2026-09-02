@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "27970_suitou_ex1",
-      "japanese": "{日本|にほん}では{水稲|すいとう}が{主|しゅ}だ。",
+      "japanese": "⟦{日本|にほん}→日本：03876_nihon⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧{水稲|すいとう}⟦が→が：00051_ga⟧{主|しゅ}だ。",
       "english": "In Japan, paddy rice is the main type.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "27970_suitou_ex2",
-      "japanese": "この{地域|ちいき}は{水稲|すいとう}の{栽培|さいばい}が{盛|さか}んだ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{地域|ちいき}→地域：01461_chiiki⟧⟦は→は：00079_ha⟧{水稲|すいとう}⟦の→の：09472_no⟧⟦{栽培|さいばい}→栽培：13108_saibai⟧⟦が→が：00051_ga⟧⟦{盛|さか}ん→盛ん：01239_sakan⟧だ。",
       "english": "Paddy rice cultivation is thriving in this region.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "27970_suitou_ex3",
-      "japanese": "{水稲|すいとう}は{田|た}に{水|みず}を{張|は}って{育|そだ}てるため、{水|みず}の{管理|かんり}がとても{重要|じゅうよう}だ。",
+      "japanese": "{水稲|すいとう}⟦は→は：00079_ha⟧⟦{田|た}→田：03380_ta⟧⟦に→に：00314_ni⟧⟦{水|みず}→水：02258_mizu⟧⟦を→を：00422_wo⟧⟦{張|は}って→張る：12583_haru⟧⟦{育|そだ}てる→育てる：01235_sodateru⟧⟦ため→ため：01145_tame⟧、⟦{水|みず}→水：02258_mizu⟧⟦の→の：09472_no⟧⟦{管理|かんり}→管理：00178_kanri⟧⟦が→が：00051_ga⟧⟦とても→とても：00593_totemo⟧⟦{重要|じゅうよう}→重要：01575_juuyou⟧だ。",
       "english": "Because paddy rice is grown with water flooded into the fields, managing the water is very important.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "An agricultural term contrasting with {陸稲|りくとう} (upland/dry-field rice). Almost all rice in Japan is {水稲|すいとう}, grown in flooded paddies.\n\nSIMILAR WORDS:\n- {陸稲|りくとう}: upland rice — grown in ordinary dry fields without flooding\n- {稲|いね}: rice plant — the plant itself, regardless of growing method\n- {田|た}・{水田|すいでん}: rice paddy — the flooded field where {水稲|すいとう} is grown",
+  "notes": "An agricultural term contrasting with {陸稲|りくとう} (upland/dry-field rice). Almost all rice in Japan is {水稲|すいとう}, grown in flooded paddies.\n\nSIMILAR WORDS:\n- {陸稲|りくとう}: upland rice — grown in ordinary dry fields without flooding\n- ⟦{稲|いね}→稲：01820_ine⟧: rice plant — the plant itself, regardless of growing method\n- ⟦{田|た}→田：03380_ta⟧・⟦{水田|すいでん}→水田：13262_suiden⟧: rice paddy — the flooded field where {水稲|すいとう} is grown",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03380_ta",
+      "reading": "た",
+      "headword": "{田|た}",
+      "label": "rice paddy"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13262_suiden",
+      "reading": "すいでん",
+      "headword": "{水田|すいでん}",
+      "label": "rice paddy"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +76,6 @@
       "domain": []
     },
     "created": "2026-05-23T04:06:38Z",
-    "modified": "2026-08-08T03:27:39Z"
+    "modified": "2026-09-02T04:02:32Z"
   }
 }

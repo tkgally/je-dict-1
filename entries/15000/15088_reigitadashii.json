@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "15088_reigitadashii_ex1",
-      "japanese": "{彼|かれ}はとても{礼儀正|れいぎただ}しい。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦とても→とても：00593_totemo⟧{礼儀正|れいぎただ}しい。",
       "english": "He is very polite.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "15088_reigitadashii_ex2",
-      "japanese": "{礼儀正|れいぎただ}しい{態度|たいど}で{接客|せっきゃく}する。",
+      "japanese": "{礼儀正|れいぎただ}しい⟦{態度|たいど}→態度：03396_taido⟧⟦で→で：00502_de⟧⟦{接客|せっきゃく}→接客：12882_sekkyaku⟧⟦する→する：00392_suru⟧。",
       "english": "To serve customers with courteous manners.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "15088_reigitadashii_ex3",
-      "japanese": "{日本人|にほんじん}は{礼儀正|れいぎただ}しいと{海外|かいがい}から{評価|ひょうか}されることが{多|おお}い。",
+      "japanese": "⟦{日本人|にほんじん}→日本人：10112_nihonjin⟧⟦は→は：00079_ha⟧{礼儀正|れいぎただ}しい⟦と→と：00512_to⟧⟦{海外|かいがい}→海外：00134_kaigai⟧⟦から→から：00504_kara⟧⟦{評価|ひょうか}→評価：03583_hyouka⟧⟦される→する：00392_suru⟧こと⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "Japanese people are often praised overseas for being well-mannered.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,33 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{礼儀正|れいぎただ}しい is a compound i-adjective describing someone who follows proper etiquette. It can modify nouns or be used predicatively.\n\nCOMMON COLLOCATIONS:\n- {礼儀正|れいぎただ}しい{人|ひと} (a polite person)\n- {礼儀正|れいぎただ}しい{態度|たいど} (courteous attitude)\n- {礼儀正|れいぎただ}しく{挨拶|あいさつ}する (to greet politely)\n\nSIMILAR WORDS:\n{丁寧|ていねい}な means polite or careful, but focuses more on carefulness and thoroughness in actions and speech. {行儀|ぎょうぎ}がいい means well-behaved and focuses more on physical conduct.",
-  "cross_references": [],
+  "notes": "USAGE:\n{礼儀正|れいぎただ}しい is a compound i-adjective describing someone who follows proper etiquette. It can modify nouns or be used predicatively.\n\nCOMMON COLLOCATIONS:\n- {礼儀正|れいぎただ}しい⟦{人|ひと}→人：00476_hito⟧ (a polite person)\n- {礼儀正|れいぎただ}しい⟦{態度|たいど}→態度：03396_taido⟧ (courteous attitude)\n- {礼儀正|れいぎただ}しく⟦{挨拶|あいさつ}する→挨拶する：01797_aisatsusuru⟧ (to greet politely)\n\nSIMILAR WORDS:\n⟦{丁寧|ていねい}→丁寧：00896_teinei⟧な means polite or careful, but focuses more on carefulness and thoroughness in actions and speech. ⟦{行儀|ぎょうぎ}→行儀：02662_gyougi⟧⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧ means well-behaved and focuses more on physical conduct.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20636_shinshiteki",
+      "reading": "しんしてき",
+      "headword": "{紳士的|しんしてき}",
+      "label": "gentlemanly"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22040_chitsujotadashii",
+      "reading": "ちつじょただしい",
+      "headword": "{秩序正|ちつじょただ}しい",
+      "label": "orderly"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22788_gyougigayoi",
+      "reading": "ぎょうぎがよい",
+      "headword": "{行儀|ぎょうぎ}が{良|よ}い",
+      "label": "well-mannered"
+    }
+  ],
   "metadata": {
     "created": "2026-03-05T06:54:27Z",
-    "modified": "2026-07-14T16:08:19Z",
+    "modified": "2026-09-02T04:01:40Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

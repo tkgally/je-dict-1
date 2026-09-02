@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "14657_kyoui_ex1",
-      "japanese": "{驚異的|きょういてき}なスピードだ。",
+      "japanese": "{驚異的|きょういてき}な⟦スピード→スピード：11048_supiido⟧だ。",
       "english": "That's an astonishing speed.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "14657_kyoui_ex2",
-      "japanese": "{自然|しぜん}の{驚異|きょうい}に{目|め}を{見張|みは}った。",
+      "japanese": "⟦{自然|しぜん}→自然：01423_shizen⟧⟦の→の：09472_no⟧{驚異|きょうい}⟦に→に：00314_ni⟧⟦{目|め}→目：00525_me⟧⟦を→を：00422_wo⟧⟦{見張|みは}った→見張る：18224_miharu⟧。",
       "english": "I marveled at the wonders of nature.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "14657_kyoui_ex3",
-      "japanese": "{科学|かがく}の{進歩|しんぽ}は{人々|ひとびと}に{驚異|きょうい}と{希望|きぼう}を{与|あた}えてきた。",
+      "japanese": "⟦{科学|かがく}→科学：01277_kagaku⟧⟦の→の：09472_no⟧⟦{進歩|しんぽ}→進歩：03265_shinpo⟧⟦は→は：00079_ha⟧⟦{人々|ひとびと}→人々：03141_hitobito⟧⟦に→に：00314_ni⟧{驚異|きょうい}⟦と→と：00512_to⟧⟦{希望|きぼう}→希望：00221_kibou⟧⟦を→を：00422_wo⟧⟦{与|あた}えて→与える：01821_ataeru⟧きた。",
       "english": "Scientific progress has given people wonder and hope.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,19 @@
       ]
     }
   ],
-  "notes": "{驚異|きょうい} expresses a sense of wonder and astonishment at something extraordinary. The nuance is positive — awe and admiration rather than fear.\n\nCOMMON COLLOCATIONS:\n- {驚異的|きょういてき}な: astonishing, phenomenal (na-adjective form)\n- {自然|しぜん}の{驚異|きょうい}: wonders of nature\n- {驚異|きょうい}の{記録|きろく}: an astonishing record\n- {驚異|きょうい}に{満|み}ちた: filled with wonder\n\nHOMOPHONE WARNING:\n- {驚異|きょうい}: wonder, marvel (positive)\n- {脅威|きょうい}: threat, menace (negative)\nThe kanji {驚|きょう} (surprise) vs. {脅|きょう} (threaten) distinguishes them.\n\nREGISTER:\nSomewhat formal and literary. In casual speech, すごい or {驚|おどろ}くべき are more common.",
-  "cross_references": [],
+  "notes": "{驚異|きょうい} expresses a sense of wonder and astonishment at something extraordinary. The nuance is positive — awe and admiration rather than fear.\n\nCOMMON COLLOCATIONS:\n- {驚異的|きょういてき}な: astonishing, phenomenal (na-adjective form)\n- ⟦{自然|しぜん}→自然：01423_shizen⟧⟦の→の：09472_no⟧{驚異|きょうい}: wonders of nature\n- {驚異|きょうい}⟦の→の：09472_no⟧⟦{記録|きろく}→記録：02490_kiroku⟧: an astonishing record\n- {驚異|きょうい}⟦に→に：00314_ni⟧⟦{満|み}ちた→満ちる：02428_michiru⟧: filled with wonder\n\nWATCH OUT:\n- {驚異|きょうい}: wonder, marvel (positive)\n- ⟦{脅威|きょうい}→脅威：13932_kyoui⟧: threat, menace (negative)\nThe kanji {驚|きょう} (surprise) vs. {脅|きょう} (threaten) distinguishes them.\n\nREGISTER:\nSomewhat formal and literary. In casual speech, ⟦すごい→すごい：01128_sugoi⟧ or ⟦{驚|おどろ}く→驚く：01255_odoroku⟧べき are more common.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09935_kiseki",
+      "reading": "きせき",
+      "headword": "{奇跡|きせき}",
+      "label": "miracle"
+    }
+  ],
   "metadata": {
     "created": "2026-03-02T09:37:38Z",
-    "modified": "2026-03-30T02:16:27Z",
+    "modified": "2026-09-02T04:01:38Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

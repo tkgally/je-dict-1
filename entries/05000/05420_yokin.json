@@ -44,7 +44,7 @@
     },
     {
       "id": "05420_yokin_ex4",
-      "japanese": "⟦{毎月|まいつき}→毎月：00732_maitsuki⟧⟦{少|すこ}し→少し：00596_sukoshi⟧⟦ずつ→〜ずつ：03092_zutsu⟧{預金|よきん}している。",
+      "japanese": "⟦{毎月|まいつき}→毎月：00732_maitsuki⟧⟦{少|すこ}し→少し：00596_sukoshi⟧⟦ずつ→〜ずつ：03092_zutsu⟧{預金|よきん}⟦している→する：00392_suru⟧。",
       "english": "I deposit a little bit every month.",
       "notes": null,
       "has_audio": false,
@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "{預金|よきん} refers to money deposited in a bank account. The kanji break down as ⟦{預|よ}→預：noentry⟧ (entrust/deposit) + ⟦{金|きん}→金：02666_kin⟧ (money). It functions as a noun and as a する verb ({預金|よきん}⟦する→する：00392_suru⟧ = to deposit money).\n\nTYPES OF DEPOSITS:\n- ⟦{普通|ふつう}→普通：01502_futsuu⟧{預金|よきん}: ordinary savings account (most common)\n- ⟦{定期|ていき}→定期：03538_teiki⟧{預金|よきん}: fixed-term deposit (higher interest, locked period)\n- ⟦{当座|とうざ}→当座：29548_touza⟧{預金|よきん}: checking/current account\n\nCOMMON COLLOCATIONS:\n- {預金|よきん}⟦する→する：00392_suru⟧: to deposit money\n- {預金|よきん}⟦を→を：00422_wo⟧⟦{下|お}ろす→下ろす：02029_orosu⟧: to withdraw money\n- {預金|よきん}⟦{残高|ざんだか}→残高：05422_zandaka⟧: account balance\n- {預金|よきん}⟦{通帳|つうちょう}→通帳：09924_tsuuchou⟧: bankbook, passbook\n\nCONTRAST WITH ⟦{貯金|ちょきん}→貯金：03497_chokin⟧:\n{預金|よきん} refers specifically to bank deposits, while ⟦{貯金|ちょきん}→貯金：03497_chokin⟧ means savings in general (including piggy banks, etc.). ⟦{貯金|ちょきん}→貯金：03497_chokin⟧ is more casual and broader in scope.",
+  "notes": "{預金|よきん} refers to money deposited in a bank account. The kanji break down as ⟦{預|よ}→預：noentry⟧ (entrust/deposit) + ⟦{金|きん}→金：02666_kin⟧ (money). It functions as a noun and as a ⟦する→する：00392_suru⟧ verb ({預金|よきん}⟦する→する：00392_suru⟧ = to deposit money).\n\nTYPES OF DEPOSITS:\n- ⟦{普通|ふつう}→普通：01502_futsuu⟧{預金|よきん}: ordinary savings account (most common)\n- ⟦{定期|ていき}→定期：03538_teiki⟧{預金|よきん}: fixed-term deposit (higher interest, locked period)\n- ⟦{当座|とうざ}→当座：29548_touza⟧{預金|よきん}: checking/current account\n\nCOMMON COLLOCATIONS:\n- {預金|よきん}⟦する→する：00392_suru⟧: to deposit money\n- {預金|よきん}⟦を→を：00422_wo⟧⟦{下|お}ろす→下ろす：02029_orosu⟧: to withdraw money\n- {預金|よきん}⟦{残高|ざんだか}→残高：05422_zandaka⟧: account balance\n- {預金|よきん}⟦{通帳|つうちょう}→通帳：09924_tsuuchou⟧: bankbook, passbook\n\nCONTRAST WITH ⟦{貯金|ちょきん}→貯金：03497_chokin⟧:\n{預金|よきん} refers specifically to bank deposits, while ⟦{貯金|ちょきん}→貯金：03497_chokin⟧ means savings in general (including piggy banks, etc.). ⟦{貯金|ちょきん}→貯金：03497_chokin⟧ is more casual and broader in scope.",
   "cross_references": [
     {
       "type": "synonym",
@@ -78,11 +78,25 @@
       "reading": "こうざ",
       "headword": "{口座|こうざ}",
       "label": "bank account"
+    },
+    {
+      "type": "related",
+      "target_id": "09924_tsuuchou",
+      "reading": "つうちょう",
+      "headword": "{通帳|つうちょう}",
+      "label": "bankbook, passbook"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28915_tsumitatekin",
+      "reading": "つみたてきん",
+      "headword": "{積立金|つみたてきん}",
+      "label": "reserve fund"
     }
   ],
   "metadata": {
     "created": "2026-01-16T06:00:17Z",
-    "modified": "2026-08-20T06:21:38Z",
+    "modified": "2026-09-02T04:01:06Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

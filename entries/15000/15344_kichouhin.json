@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "15344_kichouhin_ex1",
-      "japanese": "{貴重品|きちょうひん}は{身|み}につけてください。",
+      "japanese": "{貴重品|きちょうひん}⟦は→は：00079_ha⟧⟦{身|み}→身：01764_mi⟧につけて⟦ください→ください：02899_kudasai⟧。",
       "english": "Please keep your valuables on your person.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "15344_kichouhin_ex2",
-      "japanese": "{貴重品|きちょうひん}はフロントに{預|あず}けられます。",
+      "japanese": "{貴重品|きちょうひん}⟦は→は：00079_ha⟧⟦フロント→フロント：01378_furonto⟧⟦に→に：00314_ni⟧⟦{預|あず}けられます→預ける：01819_azukeru⟧。",
       "english": "Valuables can be left at the front desk.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "15344_kichouhin_ex3",
-      "japanese": "{車内|しゃない}に{貴重品|きちょうひん}を{置|お}いたまま{離|はな}れないでください。",
+      "japanese": "⟦{車内|しゃない}→車内：06203_shanai⟧⟦に→に：00314_ni⟧{貴重品|きちょうひん}⟦を→を：00422_wo⟧⟦{置|お}いた→置く：01092_oku⟧まま⟦{離|はな}れないで→離れる：02397_hanareru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please do not leave valuables in the car when you step away.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,19 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA very common word seen on signs in hotels, locker rooms, pools, and public facilities. Frequently appears in safety warnings and travel advisories.\n\nCOMMON COLLOCATIONS:\n- {貴重品|きちょうひん}を{預|あず}ける (to deposit valuables)\n- {貴重品|きちょうひん}の{管理|かんり} (management of valuables)\n- {貴重品|きちょうひん}ロッカー (valuables locker)\n- {貴重品|きちょうひん}{入|い}れ (valuables case/pouch)\n\nWORD FORMATION:\n{貴重|きちょう} (precious, valuable) + {品|ひん} (item, goods).",
-  "cross_references": [],
+  "notes": "USAGE:\nA very common word seen on signs in hotels, locker rooms, pools, and public facilities. Frequently appears in safety warnings and travel advisories.\n\nCOMMON COLLOCATIONS:\n- {貴重品|きちょうひん}⟦を→を：00422_wo⟧⟦{預|あず}ける→預ける：01819_azukeru⟧ (to deposit valuables)\n- {貴重品|きちょうひん}⟦の→の：09472_no⟧⟦{管理|かんり}→管理：00178_kanri⟧ (management of valuables)\n- {貴重品|きちょうひん}⟦ロッカー→ロッカー：09734_rokkaa⟧ (valuables locker)\n- {貴重品|きちょうひん}{入|い}れ (valuables case/pouch)\n\nFORMS:\n⟦{貴重|きちょう}→貴重：00223_kichou⟧ (precious, valuable) + ⟦{品|ひん}→品：03712_hin⟧ (item, goods).",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20022_kinpin",
+      "reading": "きんぴん",
+      "headword": "{金品|きんぴん}",
+      "label": "money and valuables"
+    }
+  ],
   "metadata": {
     "created": "2026-03-06T09:53:59Z",
-    "modified": "2026-07-16T07:06:35Z",
+    "modified": "2026-09-02T04:01:40Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -56,6 +64,7 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "daily-life"
       ]

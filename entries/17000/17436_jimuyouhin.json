@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "17436_jimuyouhin_ex1",
-      "japanese": "{事務|じむ}{用品|ようひん}を{注文|ちゅうもん}した。",
+      "japanese": "{事務|じむ}{用品|ようひん}⟦を→を：00422_wo⟧⟦{注文|ちゅうもん}した→注文する：21390_chuumon⟧。",
       "english": "I ordered office supplies.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "17436_jimuyouhin_ex2",
-      "japanese": "{事務|じむ}{用品|ようひん}はロッカーにまとめて{保管|ほかん}している。",
+      "japanese": "{事務|じむ}{用品|ようひん}⟦は→は：00079_ha⟧⟦ロッカー→ロッカー：09734_rokkaa⟧⟦に→に：00314_ni⟧⟦まとめて→まとめる：02424_matomeru⟧⟦{保管|ほかん}している→保管する：25536_hokansuru⟧。",
       "english": "Office supplies are kept together in a locker.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "17436_jimuyouhin_ex3",
-      "japanese": "{新入|しんにゅう}{社員|しゃいん}のために{事務|じむ}{用品|ようひん}を{一式|いっしき}{揃|そろ}えた。",
+      "japanese": "⟦{新入|しんにゅう}{社員|しゃいん}→新入社員：15536_shinnyuushain⟧⟦の→の：09472_no⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧{事務|じむ}{用品|ようひん}⟦を→を：00422_wo⟧⟦{一式|いっしき}→一式：15714_isshiki⟧⟦{揃|そろ}えた→揃える：01952_soroeru⟧。",
       "english": "I prepared a full set of office supplies for the new employee.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA practical compound word used in workplace settings. Often seen in office supply stores, procurement lists, and workplace management.\n\nCOMMON COLLOCATIONS:\n- {事務|じむ}{用品|ようひん}{店|てん} (office supply store)\n- {事務|じむ}{用品|ようひん}を{購入|こうにゅう}する (to purchase office supplies)\n- {事務|じむ}{用品|ようひん}{一式|いっしき} (a set of office supplies)\n\nSIMILAR WORDS:\n- {文房具|ぶんぼうぐ}: stationery — pens, notebooks, etc. (for personal/school use too)\n- {事務|じむ}{用品|ようひん}: office supplies — specifically for office/workplace use",
+  "notes": "USAGE:\nA practical compound word used in workplace settings. Often seen in office supply stores, procurement lists, and workplace management.\n\nCOMMON COLLOCATIONS:\n- {事務|じむ}{用品|ようひん}⟦{店|てん}→店：10011_ten⟧ (office supply store)\n- {事務|じむ}{用品|ようひん}⟦を→を：00422_wo⟧⟦{購入|こうにゅう}→購入：03057_kounyuu⟧⟦する→する：00392_suru⟧ (to purchase office supplies)\n- {事務|じむ}{用品|ようひん}⟦{一式|いっしき}→一式：15714_isshiki⟧ (a set of office supplies)\n\nSIMILAR WORDS:\n- ⟦{文房具|ぶんぼうぐ}→文房具：12869_bunbougu⟧: stationery — pens, notebooks, etc. (for personal/school use too)\n- {事務|じむ}{用品|ようひん}: office supplies — specifically for office/workplace use",
   "cross_references": [
     {
       "type": "contrast",
@@ -52,11 +52,25 @@
       "reading": "ぶんぼうぐ",
       "headword": "{文房具|ぶんぼうぐ}",
       "label": "stationery (personal/school)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09548_shoumouhin",
+      "reading": "しょうもうひん",
+      "headword": "{消耗品|しょうもうひん}",
+      "label": "consumables, expendable supplies"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20567_bungu",
+      "reading": "ぶんぐ",
+      "headword": "{文具|ぶんぐ}",
+      "label": "stationery"
     }
   ],
   "metadata": {
     "created": "2026-03-17T23:23:37Z",
-    "modified": "2026-07-23T19:02:37Z",
+    "modified": "2026-09-02T04:01:48Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "{全員|ぜんいん} refers to every single member of a defined group. Unlike ⟦みんな→みんな：02972_minna⟧, it emphasizes completeness — no one is excluded.\n\nUSAGE:\nOften used with が as the subject ({全員|ぜんいん}⟦が→が：00051_ga⟧) or as a noun modifier ({全員|ぜんいん}⟦{参加|さんか}→参加：02498_sanka⟧). Common in announcements, reports, and formal contexts. Can be used with counters: {全員|ぜんいん}⟦で→で：00502_de⟧10⟦{人|にん}→人：00658_nin⟧ (all 10 people).\n\nCOMMON COLLOCATIONS:\n- {全員|ぜんいん}⟦{一致|いっち}→一致：01733_icchi⟧ (unanimous agreement)\n- {全員|ぜんいん}⟦{参加|さんか}→参加：02498_sanka⟧ (full participation)\n- {全員|ぜんいん}⟦{無事|ぶじ}→無事：01602_buji⟧ (everyone safe)\n- {全員|ぜんいん}⟦{集合|しゅうごう}→集合：03068_shuugou⟧ (everyone gather)\n- {全員|ぜんいん}⟦{合格|ごうかく}→合格：02816_goukaku⟧ (everyone passes)\n\nSIMILAR WORDS:\n- ⟦みんな→みんな：02972_minna⟧: everyone (casual, can refer to a vague group)\n- ⟦{皆|みな}さん→皆さん：02971_minasan⟧: everyone (polite address)\n- ⟦{全|すべ}て→全て：03822_subete⟧⟦の→の：09472_no⟧⟦{人|ひと}→人：00476_hito⟧: all people (broader, not limited to a defined group)\n- ⟦{一同|いちどう}→一同：08918_ichidou⟧: all present (very formal, used in speeches and letters)",
+  "notes": "{全員|ぜんいん} refers to every single member of a defined group. Unlike ⟦みんな→みんな：02972_minna⟧, it emphasizes completeness — no one is excluded.\n\nUSAGE:\nOften used with ⟦が→が：00051_ga⟧ as the subject ({全員|ぜんいん}⟦が→が：00051_ga⟧) or as a noun modifier ({全員|ぜんいん}⟦{参加|さんか}→参加：02498_sanka⟧). Common in announcements, reports, and formal contexts. Can be used with counters: {全員|ぜんいん}⟦で→で：00502_de⟧10⟦{人|にん}→人：00658_nin⟧ (all 10 people).\n\nCOMMON COLLOCATIONS:\n- {全員|ぜんいん}⟦{一致|いっち}→一致：01733_icchi⟧ (unanimous agreement)\n- {全員|ぜんいん}⟦{参加|さんか}→参加：02498_sanka⟧ (full participation)\n- {全員|ぜんいん}⟦{無事|ぶじ}→無事：01602_buji⟧ (everyone safe)\n- {全員|ぜんいん}⟦{集合|しゅうごう}→集合：03068_shuugou⟧ (everyone gather)\n- {全員|ぜんいん}⟦{合格|ごうかく}→合格：02816_goukaku⟧ (everyone passes)\n\nSIMILAR WORDS:\n- ⟦みんな→みんな：02972_minna⟧: everyone (casual, can refer to a vague group)\n- ⟦{皆|みな}さん→皆さん：02971_minasan⟧: everyone (polite address)\n- ⟦{全|すべ}て→全て：03822_subete⟧⟦の→の：09472_no⟧⟦{人|ひと}→人：00476_hito⟧: all people (broader, not limited to a defined group)\n- ⟦{一同|いちどう}→一同：08918_ichidou⟧: all present (very formal, used in speeches and letters)",
   "cross_references": [
     {
       "type": "synonym",
@@ -71,11 +71,39 @@
       "reading": "みな",
       "headword": "{皆|みな}",
       "label": "everyone (general)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02972_minna",
+      "reading": "みんな",
+      "headword": "みんな",
+      "label": "everyone"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02971_minasan",
+      "reading": "みなさん",
+      "headword": "{皆|みな}さん",
+      "label": "everyone"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08918_ichidou",
+      "reading": "いちどう",
+      "headword": "{一同|いちどう}",
+      "label": "all present"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02888_zenbu",
+      "reading": "ぜんぶ",
+      "headword": "{全部|ぜんぶ}",
+      "label": "all, entire, whole"
     }
   ],
   "metadata": {
     "created": "2026-01-12T01:13:00Z",
-    "modified": "2026-08-20T12:24:43Z",
+    "modified": "2026-09-02T04:01:03Z",
     "ai_model": "claude-opus-4-5",
     "schema_version": "2.0",
     "vocabulary_tier": "core",

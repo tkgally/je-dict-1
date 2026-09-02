@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "15487_mansha_ex1",
-      "japanese": "{駐車場|ちゅうしゃじょう}は{満車|まんしゃ}だ。",
+      "japanese": "⟦{駐車場|ちゅうしゃじょう}→駐車場：01667_chuushajou⟧⟦は→は：00079_ha⟧{満車|まんしゃ}だ。",
       "english": "The parking lot is full.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "15487_mansha_ex2",
-      "japanese": "{満車|まんしゃ}だったので、{別|べつ}の{駐車場|ちゅうしゃじょう}を{探|さが}した。",
+      "japanese": "{満車|まんしゃ}だった⟦の→の：09472_no⟧で、⟦{別|べつ}→別：01216_betsu⟧⟦の→の：09472_no⟧⟦{駐車場|ちゅうしゃじょう}→駐車場：01667_chuushajou⟧⟦を→を：00422_wo⟧⟦{探|さが}した→探す：00493_sagasu⟧。",
       "english": "It was full, so I looked for another parking lot.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "15487_mansha_ex3",
-      "japanese": "{休日|きゅうじつ}は{午前中|ごぜんちゅう}に{満車|まんしゃ}になることが{多|おお}い。",
+      "japanese": "⟦{休日|きゅうじつ}→休日：03028_kyuujitsu⟧⟦は→は：00079_ha⟧⟦{午前中|ごぜんちゅう}→午前中：11495_gozenchuu⟧⟦に→に：00314_ni⟧{満車|まんしゃ}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧こと⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "On holidays, the lot often fills up by the morning.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "FORMATION:\n{満|まん} (full) + {車|しゃ} (vehicle). Literally \"full of cars.\"\n\nUSAGE:\nSeen on electronic signs at parking garages and lots. The opposite is {空車|くうしゃ} (spaces available). Also used for taxis: {空車|くうしゃ} means available for hire, while {満車|まんしゃ} is not typically used for taxis (use {回送|かいそう} for off-duty).\n\nCONTRAST:\n- {満車|まんしゃ}: full, no spaces available\n- {空車|くうしゃ}: spaces available (parking); available for hire (taxi)\n- {満席|まんせき}: full seating (restaurants, theaters)",
+  "notes": "FORMS:\n{満|まん} (full) + ⟦{車|しゃ}→車：09874_sha⟧ (vehicle). Literally \"full of cars.\"\n\nUSAGE:\nSeen on electronic signs at parking garages and lots. The opposite is ⟦{空車|くうしゃ}→空車：15999_kuusha⟧ (spaces available). Also used for taxis: ⟦{空車|くうしゃ}→空車：15999_kuusha⟧ means available for hire, while {満車|まんしゃ} is not typically used for taxis (use {回送|かいそう} for off-duty).\n\nSIMILAR WORDS:\n- {満車|まんしゃ}: full, no spaces available\n- ⟦{空車|くうしゃ}→空車：15999_kuusha⟧: spaces available (parking); available for hire (taxi)\n- ⟦{満席|まんせき}→満席：07585_manseki⟧: full seating (restaurants, theaters)",
   "cross_references": [
     {
       "type": "synonym",
@@ -52,11 +52,25 @@
       "reading": "まんせき",
       "headword": "{満席|まんせき}",
       "label": "full (seating)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15999_kuusha",
+      "reading": "くうしゃ",
+      "headword": "{空車|くうしゃ}",
+      "label": "spaces available"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15726_manshitsu",
+      "reading": "まんしつ",
+      "headword": "{満室|まんしつ}",
+      "label": "no vacancy"
     }
   ],
   "metadata": {
     "created": "2026-03-07T08:59:39Z",
-    "modified": "2026-05-01T06:14:09Z",
+    "modified": "2026-09-02T04:01:41Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

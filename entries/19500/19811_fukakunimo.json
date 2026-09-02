@@ -15,40 +15,66 @@
   "examples": [
     {
       "id": "19811_fukakunimo_ex1",
-      "japanese": "{不覚|ふかく}にも{涙|なみだ}が{出|で}た。",
+      "japanese": "{不覚|ふかく}にも⟦{涙|なみだ}→涙：02235_namida⟧⟦が→が：00051_ga⟧⟦{出|で}た→出る：00513_deru⟧。",
       "english": "Tears came to my eyes in spite of myself.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19811_fukakunimo_ex2",
-      "japanese": "{不覚|ふかく}にも{電車|でんしゃ}の{中|なか}で{居眠|いねむ}りしてしまった。",
+      "japanese": "{不覚|ふかく}にも⟦{電車|でんしゃ}→電車：00522_densha⟧⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧⟦で→で：00502_de⟧⟦{居眠|いねむ}り→居眠り：01822_inemuri⟧⟦して→する：00392_suru⟧しまった。",
       "english": "I inadvertently dozed off on the train.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19811_fukakunimo_ex3",
-      "japanese": "{不覚|ふかく}にも{大事|だいじ}な{書類|しょるい}を{家|いえ}に{忘|わす}れてきてしまった。",
+      "japanese": "{不覚|ふかく}にも⟦{大事|だいじ}→大事：01253_daiji⟧な⟦{書類|しょるい}→書類：01103_shorui⟧⟦を→を：00422_wo⟧⟦{家|いえ}→家：00612_ie⟧⟦に→に：00314_ni⟧⟦{忘|わす}れて→忘れる：00474_wasureru⟧きてしまった。",
       "english": "To my chagrin, I left the important documents at home.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "{不覚|ふかく} literally means 'lack of awareness' or 'carelessness.' The adverbial form {不覚|ふかく}にも adds a sense of self-blame — the speaker acknowledges they should have known better or maintained more composure. Often used with ～てしまう to emphasize the unintentional nature.\n\nCOMMON PATTERNS:\n- {不覚|ふかく}にも～てしまった — inadvertently ended up doing\n- {不覚|ふかく}にも{涙|なみだ}が{出|で}た — tears came unwillingly\n- {不覚|ふかく}にも{笑|わら}ってしまった — couldn't help but laugh\n\nSIMILAR WORDS:\n- うっかり — carelessly, absent-mindedly (more casual, less self-reproachful)\n- {思|おも}わず — involuntarily, unintentionally (neutral, no self-blame)\n- つい — unintentionally (casual, habitual slips)",
+  "notes": "⟦{不覚|ふかく}→不覚：14884_fukaku⟧ literally means 'lack of awareness' or 'carelessness.' The adverbial form {不覚|ふかく}にも adds a sense of self-blame — the speaker acknowledges they should have known better or maintained more composure. Often used with ～てしまう to emphasize the unintentional nature.\n\nCOMMON PATTERNS:\n- {不覚|ふかく}にも～てしまった — inadvertently ended up doing\n- {不覚|ふかく}にも⟦{涙|なみだ}→涙：02235_namida⟧⟦が→が：00051_ga⟧⟦{出|で}た→出る：00513_deru⟧ — tears came unwillingly\n- {不覚|ふかく}にも⟦{笑|わら}って→笑う：00685_warau⟧しまった — couldn't help but laugh\n\nSIMILAR WORDS:\n- ⟦うっかり→うっかり：01863_ukkari⟧ — carelessly, absent-mindedly (more casual, less self-reproachful)\n- ⟦{思|おも}わ→思う：00492_omou⟧ず — involuntarily, unintentionally (neutral, no self-blame)\n- つい — unintentionally (casual, habitual slips)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01863_ukkari",
+      "reading": "うっかり",
+      "headword": "うっかり",
+      "label": "carelessly, absent-mindedly"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02549_omowazu",
+      "reading": "おもわず",
+      "headword": "{思|おも}わず",
+      "label": "involuntarily, unintentionally"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adverb"],
+      "pos": [
+        "adverb"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["expression"]
+      "semantic": [
+        "expression"
+      ]
     },
     "created": "2026-03-27T00:23:08Z",
-    "modified": "2026-03-27T00:23:08Z"
+    "modified": "2026-09-02T04:01:57Z"
   }
 }

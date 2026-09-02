@@ -3,7 +3,7 @@
   "id": "20853_neburu",
   "headword": "ねぶる",
   "reading": "ねぶる",
-  "part_of_speech": "verb-godan",
+  "part_of_speech": "verb (godan)",
   "gloss": "to lick; to suck on",
   "conjugation": {
     "type": "godan",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "20853_neburu_ex1",
-      "japanese": "{飴|あめ}をねぶる。",
+      "japanese": "⟦{飴|あめ}→飴：00687_ame⟧⟦を→を：00422_wo⟧ねぶる。",
       "english": "To suck on a piece of candy.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "20853_neburu_ex2",
-      "japanese": "{指|ゆび}をねぶって{本|ほん}のページをめくる。",
+      "japanese": "⟦{指|ゆび}→指：01518_yubi⟧⟦を→を：00422_wo⟧ねぶって{本|ほん}⟦の→の：09472_no⟧⟦ページ→ページ：02961_peeji⟧⟦を→を：00422_wo⟧めくる。",
       "english": "To lick one's finger and turn the page of a book.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "20853_neburu_ex3",
-      "japanese": "{子|こ}どもがアイスクリームを{嬉|うれ}しそうにねぶっていた。",
+      "japanese": "{子|こ}ども⟦が→が：00051_ga⟧⟦アイスクリーム→アイスクリーム：03830_aisukuriimu⟧⟦を→を：00422_wo⟧{嬉|うれ}しそう⟦に→に：00314_ni⟧ねぶって⟦いた→いる：00495_iru⟧。",
       "english": "The child was happily licking an ice cream cone.",
       "sense_numbers": [
         1
@@ -135,7 +135,7 @@
     },
     {
       "id": "20853_neburu_ex4",
-      "japanese": "{猫|ねこ}が{自分|じぶん}の{前足|まえあし}をねぶっている。",
+      "japanese": "⟦{猫|ねこ}→猫：02237_neko⟧⟦が→が：00051_ga⟧⟦{自分|じぶん}→自分：02887_jibun⟧⟦の→の：09472_no⟧⟦{前足|まえあし}→前足：29904_maeashi⟧⟦を→を：00422_wo⟧ねぶって⟦いる→いる：00495_iru⟧。",
       "english": "The cat is licking its front paw.",
       "sense_numbers": [
         1
@@ -144,11 +144,26 @@
       "notes": null
     }
   ],
-  "notes": "An older, somewhat informal word for licking or sucking on something. More commonly heard in regional dialects (especially western Japan) and in older usage. The standard modern equivalent is {舐|な}める.\n\nCOMMON COLLOCATIONS:\n- {飴|あめ}をねぶる: to suck on candy\n- {指|ゆび}をねぶる: to lick one's finger\n- {唇|くちびる}をねぶる: to lick one's lips\n\nREGISTER:\nInformal and somewhat old-fashioned or dialectal. In standard modern Japanese, {舐|な}める is more common. However, ねぶる appears in literature and is still used in some dialects.\n\nSIMILAR WORDS:\n- {舐|な}める: to lick (standard, more common)\n- しゃぶる: to suck on (implies keeping something in the mouth)\n- {嘗|な}める: to taste, to lick (literary variant of {舐|な}める)",
-  "cross_references": [],
+  "notes": "An older, somewhat informal word for licking or sucking on something. More commonly heard in regional dialects (especially western Japan) and in older usage. The standard modern equivalent is ⟦{舐|な}める→舐める：04399_nameru⟧.\n\nCOMMON COLLOCATIONS:\n- ⟦{飴|あめ}→飴：00687_ame⟧⟦を→を：00422_wo⟧ねぶる: to suck on candy\n- ⟦{指|ゆび}→指：01518_yubi⟧⟦を→を：00422_wo⟧ねぶる: to lick one's finger\n- ⟦{唇|くちびる}→唇：03903_kuchibiru⟧⟦を→を：00422_wo⟧ねぶる: to lick one's lips\n\nREGISTER:\nInformal and somewhat old-fashioned or dialectal. In standard modern Japanese, ⟦{舐|な}める→舐める：04399_nameru⟧ is more common. However, ねぶる appears in literature and is still used in some dialects.\n\nSIMILAR WORDS:\n- ⟦{舐|な}める→舐める：04399_nameru⟧: to lick (standard, more common)\n- ⟦しゃぶる→しゃぶる：05349_shaburu⟧: to suck on (implies keeping something in the mouth)\n- {嘗|な}める: to taste, to lick (literary variant of ⟦{舐|な}める→舐める：04399_nameru⟧)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04399_nameru",
+      "reading": "なめる",
+      "headword": "{舐|な}める",
+      "label": "to lick"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05349_shaburu",
+      "reading": "しゃぶる",
+      "headword": "しゃぶる",
+      "label": "to suck on"
+    }
+  ],
   "metadata": {
     "created": "2026-03-30T18:27:09Z",
-    "modified": "2026-07-29T00:22:41Z",
+    "modified": "2026-09-02T04:02:01Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

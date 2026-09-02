@@ -3,7 +3,7 @@
   "id": "12890_shudou",
   "headword": "{手動|しゅどう}",
   "reading": "しゅどう",
-  "part_of_speech": "noun / no-adjective",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "manual operation, hand-operated",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "12890_shudou_ex1",
-      "japanese": "この{機械|きかい}は{手動|しゅどう}で{操作|そうさ}する。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{機械|きかい}→機械：02366_kikai⟧⟦は→は：00079_ha⟧{手動|しゅどう}⟦で→で：00502_de⟧⟦{操作|そうさ}する→操作する：18999_sousasuru⟧。",
       "english": "This machine is operated manually.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "12890_shudou_ex2",
-      "japanese": "{自動|じどう}モードがうまくいかない{場合|ばあい}は{手動|しゅどう}に{切|き}り{替|か}えてください。",
+      "japanese": "⟦{自動|じどう}→自動：03339_jidou⟧⟦モード→モード：11596_moodo⟧⟦が→が：00051_ga⟧⟦うまく→うまい：01279_umai⟧いかない⟦{場合|ばあい}→場合：01704_baai⟧⟦は→は：00079_ha⟧{手動|しゅどう}⟦に→に：00314_ni⟧⟦{切|き}り{替|か}えて→切り替える：04239_kirikaeru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "If automatic mode doesn't work, please switch to manual.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "12890_shudou_ex3",
-      "japanese": "{手動|しゅどう}での{入力|にゅうりょく}は{時間|じかん}がかかるが、{正確|せいかく}さでは{自動|じどう}に{勝|まさ}ることもある。",
+      "japanese": "{手動|しゅどう}⟦で→で：00502_de⟧⟦の→の：09472_no⟧⟦{入力|にゅうりょく}→入力：04769_nyuuryoku⟧⟦は→は：00079_ha⟧⟦{時間|じかん}がかかる→時間がかかる：26082_jikangakakaru⟧⟦が→が：00051_ga⟧、⟦{正確|せいかく}さ→正確さ：19774_seikakusa⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{自動|じどう}→自動：03339_jidou⟧⟦に→に：00314_ni⟧⟦{勝|まさ}る→勝る：11848_masaru⟧こと⟦も→も：00484_mo⟧⟦ある→ある：00006_aru⟧。",
       "english": "Manual input takes time, but it can surpass automatic input in accuracy.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nFunctions as a noun and as a no-adjective to modify other nouns. Almost always contrasted with {自動|じどう} (automatic). Commonly used in technical, mechanical, and computing contexts.\n\nCOMMON COLLOCATIONS:\n- {手動|しゅどう}{操作|そうさ}: manual operation\n- {手動|しゅどう}に{切|き}り{替|か}える: to switch to manual\n- {手動|しゅどう}{入力|にゅうりょく}: manual input/entry\n- {手動|しゅどう}モード: manual mode\n\nSIMILAR WORDS:\n- {自動|じどう}: automatic (antonym)\n- {手作業|てさぎょう}: manual work, handwork (emphasizes physical labor)",
+  "notes": "USAGE:\nFunctions as a noun and as a no-adjective to modify other nouns. Almost always contrasted with ⟦{自動|じどう}→自動：03339_jidou⟧ (automatic). Commonly used in technical, mechanical, and computing contexts.\n\nCOMMON COLLOCATIONS:\n- {手動|しゅどう}⟦{操作|そうさ}→操作：03316_sousa⟧: manual operation\n- {手動|しゅどう}⟦に→に：00314_ni⟧⟦{切|き}り{替|か}える→切り替える：04239_kirikaeru⟧: to switch to manual\n- {手動|しゅどう}⟦{入力|にゅうりょく}→入力：04769_nyuuryoku⟧: manual input/entry\n- {手動|しゅどう}⟦モード→モード：11596_moodo⟧: manual mode\n\nSIMILAR WORDS:\n- ⟦{自動|じどう}→自動：03339_jidou⟧: automatic (antonym)\n- ⟦{手作業|てさぎょう}→手作業：12767_tesagyou⟧: manual work, handwork (emphasizes physical labor)",
   "cross_references": [
     {
       "type": "antonym",
@@ -59,11 +59,18 @@
       "reading": "でんどう",
       "headword": "{電動|でんどう}",
       "label": "electric-powered"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12767_tesagyou",
+      "reading": "てさぎょう",
+      "headword": "{手作業|てさぎょう}",
+      "label": "manual work, handwork"
     }
   ],
   "metadata": {
     "created": "2026-02-22T14:20:14Z",
-    "modified": "2026-04-11T01:39:00Z",
+    "modified": "2026-09-02T04:01:31Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

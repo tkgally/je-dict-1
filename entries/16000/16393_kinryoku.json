@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "16393_kinryoku_ex1",
-      "japanese": "{筋力|きんりょく}を{鍛|きた}える。",
+      "japanese": "{筋力|きんりょく}⟦を→を：00422_wo⟧⟦{鍛|きた}える→鍛える：12326_kitaeru⟧。",
       "english": "To build muscle strength.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "16393_kinryoku_ex2",
-      "japanese": "{年齢|ねんれい}とともに{筋力|きんりょく}が{低下|ていか}する。",
+      "japanese": "⟦{年齢|ねんれい}→年齢：01490_nenrei⟧⟦とともに→とともに：30485_totomoni⟧{筋力|きんりょく}⟦が→が：00051_ga⟧⟦{低下|ていか}→低下：04065_teika⟧⟦する→する：00392_suru⟧。",
       "english": "Muscle strength declines with age.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "16393_kinryoku_ex3",
-      "japanese": "{毎日|まいにち}スクワットをして{下半身|かはんしん}の{筋力|きんりょく}を{維持|いじ}するようにしている。",
+      "japanese": "⟦{毎日|まいにち}→毎日：00729_mainichi⟧スクワット⟦を→を：00422_wo⟧⟦して→する：00392_suru⟧⟦{下半身|かはんしん}→下半身：19453_kahanshin⟧⟦の→の：09472_no⟧{筋力|きんりょく}⟦を→を：00422_wo⟧⟦{維持|いじ}する→維持する：17311_ijisuru⟧ようにして⟦いる→いる：00495_iru⟧。",
       "english": "I do squats every day to maintain my lower body muscle strength.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{筋力|きんりょく} is a common word in fitness, rehabilitation, and health discussions. It frequently appears in discussions about aging, exercise, and physical therapy.\n\nCOMMON COLLOCATIONS:\n- {筋力|きんりょく}トレーニング (strength training)\n- {筋力|きんりょく}を{鍛|きた}える (to train/build muscle strength)\n- {筋力|きんりょく}が{低下|ていか}する (muscle strength declines)\n- {筋力|きんりょく}を{維持|いじ}する (to maintain muscle strength)\n- {筋力|きんりょく}アップ (increasing muscle strength)\n\nSIMILAR WORDS:\n{体力|たいりょく} refers to overall physical stamina and fitness, while {筋力|きんりょく} specifically refers to the strength of muscles.",
+  "notes": "USAGE:\n{筋力|きんりょく} is a common word in fitness, rehabilitation, and health discussions. It frequently appears in discussions about aging, exercise, and physical therapy.\n\nCOMMON COLLOCATIONS:\n- {筋力|きんりょく}⟦トレーニング→トレーニング：00408_toreeningu⟧ (strength training)\n- {筋力|きんりょく}⟦を→を：00422_wo⟧⟦{鍛|きた}える→鍛える：12326_kitaeru⟧ (to train/build muscle strength)\n- {筋力|きんりょく}⟦が→が：00051_ga⟧⟦{低下|ていか}→低下：04065_teika⟧⟦する→する：00392_suru⟧ (muscle strength declines)\n- {筋力|きんりょく}⟦を→を：00422_wo⟧⟦{維持|いじ}する→維持する：17311_ijisuru⟧ (to maintain muscle strength)\n- {筋力|きんりょく}⟦アップ→アップ：00005_appu⟧ (increasing muscle strength)\n\nSIMILAR WORDS:\n⟦{体力|たいりょく}→体力：05318_tairyoku⟧ refers to overall physical stamina and fitness, while {筋力|きんりょく} specifically refers to the strength of muscles.",
   "cross_references": [
     {
       "type": "contrast",
@@ -52,11 +52,25 @@
       "reading": "たいりょく",
       "headword": "{体力|たいりょく}",
       "label": "overall physical stamina"
+    },
+    {
+      "type": "related",
+      "target_id": "08518_akuryoku",
+      "reading": "あくりょく",
+      "headword": "{握力|あくりょく}",
+      "label": "grip strength"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28942_kinnikuryou",
+      "reading": "きんにくりょう",
+      "headword": "{筋肉量|きんにくりょう}",
+      "label": "muscle mass"
     }
   ],
   "metadata": {
     "created": "2026-03-12T05:17:11Z",
-    "modified": "2026-07-19T09:29:10Z",
+    "modified": "2026-09-02T04:01:44Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

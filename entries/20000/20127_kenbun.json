@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "20127_kenbun_ex1",
-      "japanese": "{見聞|けんぶん}を{広|ひろ}げる。",
+      "japanese": "{見聞|けんぶん}⟦を→を：00422_wo⟧⟦{広|ひろ}げる→広げる：01981_hirogeru⟧。",
       "english": "To broaden one's experience.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "20127_kenbun_ex2",
-      "japanese": "{海外旅行|かいがいりょこう}で{見聞|けんぶん}を{深|ふか}めた。",
+      "japanese": "⟦{海外旅行|かいがいりょこう}→海外旅行：24321_kaigairyokou⟧⟦で→で：00502_de⟧{見聞|けんぶん}⟦を→を：00422_wo⟧⟦{深|ふか}めた→深める：02407_fukameru⟧。",
       "english": "I deepened my knowledge through traveling abroad.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "20127_kenbun_ex3",
-      "japanese": "{若|わか}いうちにいろいろな{見聞|けんぶん}を{積|つ}むことが{大切|たいせつ}だ。",
+      "japanese": "{若|わか}いうち⟦に→に：00314_ni⟧いろいろな{見聞|けんぶん}⟦を→を：00422_wo⟧⟦{積|つ}む→積む：02294_tsumu⟧こと⟦が→が：00051_ga⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧だ。",
       "english": "It's important to accumulate a wide range of experiences while you're young.",
       "sense_numbers": [
         1
@@ -134,8 +134,38 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {見|けん} (see) + {聞|ぶん} (hear). Refers to the totality of what one has witnessed and learned through direct experience, not just book knowledge.\n\nCOMMON COLLOCATIONS:\n- {見聞|けんぶん}を{広|ひろ}げる: to broaden one's horizons/experience\n- {見聞|けんぶん}を{深|ふか}める: to deepen one's knowledge\n- {見聞|けんぶん}を{積|つ}む: to accumulate experience\n- {見聞|けんぶん}{録|ろく}: record of observations; travelogue\n\nSIMILAR WORDS:\n- {経験|けいけん}: experience — broader term covering all types of experience, including hands-on participation\n- {知識|ちしき}: knowledge — includes book learning and theoretical knowledge; not limited to firsthand observation\n- {体験|たいけん}: firsthand experience — emphasizes active participation rather than observation\n\nUSAGE:\nA somewhat literary or formal word. The expression {見聞|けんぶん}を{広|ひろ}げる (to broaden one's horizons) is the most common usage and is often used to describe the value of travel and cultural exchange.",
+  "notes": "Composed of {見|けん} (see) + {聞|ぶん} (hear). Refers to the totality of what one has witnessed and learned through direct experience, not just book knowledge.\n\nCOMMON COLLOCATIONS:\n- {見聞|けんぶん}⟦を→を：00422_wo⟧⟦{広|ひろ}げる→広げる：01981_hirogeru⟧: to broaden one's horizons/experience\n- {見聞|けんぶん}⟦を→を：00422_wo⟧⟦{深|ふか}める→深める：02407_fukameru⟧: to deepen one's knowledge\n- {見聞|けんぶん}⟦を→を：00422_wo⟧⟦{積|つ}む→積む：02294_tsumu⟧: to accumulate experience\n- {見聞|けんぶん}{録|ろく}: record of observations; travelogue\n\nSIMILAR WORDS:\n- ⟦{経験|けいけん}→経験：01179_keiken⟧: experience — broader term covering all types of experience, including hands-on participation\n- ⟦{知識|ちしき}→知識：01463_chishiki⟧: knowledge — includes book learning and theoretical knowledge; not limited to firsthand observation\n- ⟦{体験|たいけん}→体験：11443_taiken⟧: firsthand experience — emphasizes active participation rather than observation\n\nUSAGE:\nA somewhat literary or formal word. The expression {見聞|けんぶん}⟦を→を：00422_wo⟧⟦{広|ひろ}げる→広げる：01981_hirogeru⟧ (to broaden one's horizons) is the most common usage and is often used to describe the value of travel and cultural exchange.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01179_keiken",
+      "reading": "けいけん",
+      "headword": "{経験|けいけん}",
+      "label": "experience"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01463_chishiki",
+      "reading": "ちしき",
+      "headword": "{知識|ちしき}",
+      "label": "knowledge"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11443_taiken",
+      "reading": "たいけん",
+      "headword": "{体験|たいけん}",
+      "label": "firsthand experience"
+    },
+    {
+      "type": "related",
+      "target_id": "21877_mikikisuru",
+      "reading": "みききする",
+      "headword": "{見聞|みき}きする",
+      "label": "to see and hear"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -151,6 +181,6 @@
       "verb_class": "suru"
     },
     "created": "2026-03-28T14:15:31Z",
-    "modified": "2026-03-28T14:15:31Z"
+    "modified": "2026-09-02T04:01:58Z"
   }
 }

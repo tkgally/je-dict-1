@@ -39,7 +39,7 @@
     },
     {
       "id": "03377_seishin_ex3",
-      "japanese": "⟦{精神|せいしん}{的|てき}→精神的：05851_seishinteki⟧⟦に→に：00314_ni⟧⟦も→も：00484_mo⟧⟦{体|からだ}→体：00784_karada⟧{的|てき}⟦に→に：00314_ni⟧⟦も→も：00484_mo⟧⟦{健康|けんこう}→健康：02706_kenkou⟧でいたい。",
+      "japanese": "⟦{精神|せいしん}{的|てき}→精神的：05851_seishinteki⟧⟦に→に：00314_ni⟧⟦も→も：00484_mo⟧⟦{体|からだ}→体：00784_karada⟧⟦{的|てき}→〜的：09839_teki⟧⟦に→に：00314_ni⟧⟦も→も：00484_mo⟧⟦{健康|けんこう}→健康：02706_kenkou⟧で⟦いたい→いる：00495_iru⟧。",
       "english": "I want to stay healthy both mentally and physically.",
       "notes": null,
       "has_audio": false,
@@ -93,11 +93,25 @@
       "reading": "しんしん",
       "headword": "{心身|しんしん}",
       "label": "mind and body together"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14639_tamashii",
+      "reading": "たましい",
+      "headword": "{魂|たましい}",
+      "label": "soul"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01385_kimochi",
+      "reading": "きもち",
+      "headword": "{気持ち|きもち}",
+      "label": "feeling, mood"
     }
   ],
   "metadata": {
     "created": "2026-01-12T06:41:45Z",
-    "modified": "2026-08-14T14:49:22Z",
+    "modified": "2026-09-02T04:01:03Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

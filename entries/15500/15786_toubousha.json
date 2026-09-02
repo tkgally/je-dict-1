@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "15786_toubousha_ex1",
-      "japanese": "{逃亡者|とうぼうしゃ}はまだ{捕|つか}まっていない。",
+      "japanese": "{逃亡者|とうぼうしゃ}⟦は→は：00079_ha⟧⟦まだ→まだ：00603_mada⟧⟦{捕|つか}まっていない→捕まる：01959_tsukamaru⟧。",
       "english": "The fugitive has not yet been caught.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "15786_toubousha_ex2",
-      "japanese": "{警察|けいさつ}は{逃亡者|とうぼうしゃ}の{行方|ゆくえ}を{追|お}っている。",
+      "japanese": "⟦{警察|けいさつ}→警察：01393_keisatsu⟧⟦は→は：00079_ha⟧{逃亡者|とうぼうしゃ}⟦の→の：09472_no⟧⟦{行方|ゆくえ}→行方：04082_yukue⟧⟦を→を：00422_wo⟧⟦{追|お}っている→追う：02016_ou⟧。",
       "english": "The police are tracking the fugitive's whereabouts.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "15786_toubousha_ex3",
-      "japanese": "{戦時中|せんじちゅう}、{多|おお}くの{逃亡者|とうぼうしゃ}が{国境|こっきょう}を{越|こ}えて{安全|あんぜん}な{場所|ばしょ}を{求|もと}めた。",
+      "japanese": "⟦{戦時中|せんじちゅう}→戦時中：28629_senjichuu⟧、{多|おお}く⟦の→の：09472_no⟧{逃亡者|とうぼうしゃ}⟦が→が：00051_ga⟧⟦{国境|こっきょう}→国境：02762_kokkyou⟧⟦を→を：00422_wo⟧⟦{越|こ}えて→越える：02099_koeru⟧⟦{安全|あんぜん}→安全：01131_anzen⟧な⟦{場所|ばしょ}→場所：00829_basho⟧⟦を→を：00422_wo⟧⟦{求|もと}めた→求める：02316_motomeru⟧。",
       "english": "During wartime, many fugitives crossed the border seeking a safe place.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{逃亡者|とうぼうしゃ} is a formal term often used in news reports, legal contexts, and narratives. It can refer to criminal fugitives, prisoners who have escaped, or people fleeing persecution.\n\nCOMMON COLLOCATIONS:\n- {逃亡者|とうぼうしゃ}を{追|お}う (pursue a fugitive)\n- {逃亡者|とうぼうしゃ}を{捕|つか}まえる (capture a fugitive)\n- {逃亡者|とうぼうしゃ}をかくまう (shelter a fugitive)\n\nSIMILAR WORDS:\n{逃亡|とうぼう} is the act of fleeing itself (noun/suru-verb). {脱走者|だっそうしゃ} means \"escapee\" specifically from a prison or military unit. {亡命者|ぼうめいしゃ} means \"defector\" or \"exile\" — someone who has fled their country for political reasons.",
+  "notes": "USAGE:\n{逃亡者|とうぼうしゃ} is a formal term often used in news reports, legal contexts, and narratives. It can refer to criminal fugitives, prisoners who have escaped, or people fleeing persecution.\n\nCOMMON COLLOCATIONS:\n- {逃亡者|とうぼうしゃ}⟦を→を：00422_wo⟧⟦{追|お}う→追う：02016_ou⟧ (pursue a fugitive)\n- {逃亡者|とうぼうしゃ}⟦を→を：00422_wo⟧⟦{捕|つか}まえる→捕まえる：01214_tsukamaeru⟧ (capture a fugitive)\n- {逃亡者|とうぼうしゃ}⟦を→を：00422_wo⟧かくまう (shelter a fugitive)\n\nSIMILAR WORDS:\n⟦{逃亡|とうぼう}→逃亡：14367_toubou⟧ is the act of fleeing itself (noun/suru-verb). {脱走者|だっそうしゃ} means \"escapee\" specifically from a prison or military unit. ⟦{亡命者|ぼうめいしゃ}→亡命者：19481_boumeisha⟧ means \"defector\" or \"exile\" — someone who has fled their country for political reasons.",
   "cross_references": [
     {
       "type": "related",
@@ -52,11 +52,18 @@
       "reading": "とうぼう",
       "headword": "{逃亡|とうぼう}",
       "label": "fleeing; act of escape"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20987_tousousha",
+      "reading": "とうそうしゃ",
+      "headword": "{逃走者|とうそうしゃ}",
+      "label": "fugitive"
     }
   ],
   "metadata": {
     "created": "2026-03-08T09:45:23Z",
-    "modified": "2026-07-18T04:02:53Z",
+    "modified": "2026-09-02T04:01:42Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

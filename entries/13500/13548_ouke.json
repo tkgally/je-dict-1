@@ -15,41 +15,73 @@
   "examples": [
     {
       "id": "13548_ouke_ex1",
-      "japanese": "{王家|おうけ}の{紋章|もんしょう}が{刻|きざ}まれている。",
+      "japanese": "{王家|おうけ}⟦の→の：09472_no⟧⟦{紋章|もんしょう}→紋章：13827_monshou⟧⟦が→が：00051_ga⟧⟦{刻|きざ}まれている→刻む：03918_kizamu⟧。",
       "english": "The royal family's coat of arms is engraved on it.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13548_ouke_ex2",
-      "japanese": "イギリスの{王家|おうけ}は{長|なが}い{歴史|れきし}を{持|も}つ。",
+      "japanese": "⟦イギリス→イギリス：28283_igirisu⟧⟦の→の：09472_no⟧{王家|おうけ}⟦は→は：00079_ha⟧⟦{長|なが}い→長い：00491_nagai⟧⟦{歴史|れきし}→歴史：02267_rekishi⟧⟦を→を：00422_wo⟧⟦{持|も}つ→持つ：00478_motsu⟧。",
       "english": "The British royal family has a long history.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13548_ouke_ex3",
-      "japanese": "{革命|かくめい}によって{王家|おうけ}は{権力|けんりょく}を{失|うしな}い、{共和制|きょうわせい}が{始|はじ}まった。",
+      "japanese": "⟦{革命|かくめい}→革命：05968_kakumei⟧⟦によって→によって：06801_niyotte⟧{王家|おうけ}⟦は→は：00079_ha⟧⟦{権力|けんりょく}→権力：10020_kenryoku⟧⟦を→を：00422_wo⟧⟦{失|うしな}い→失う：01887_ushinau⟧、⟦{共和制|きょうわせい}→共和制：22243_kyouwasei⟧⟦が→が：00051_ga⟧⟦{始|はじ}まった→始まる：00841_hajimaru⟧。",
       "english": "Through the revolution, the royal family lost power and a republic was established.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nPrimarily used for foreign royal families. For the Japanese Imperial Family, {皇室|こうしつ} is the standard term. {王家|おうけ} is common in historical writing, fiction, and discussions of foreign monarchies. Also frequently appears in fantasy literature and games.\n\nRELATED WORDS:\n- {皇室|こうしつ}: the Imperial Family (Japanese Emperor's family)\n- {王族|おうぞく}: royalty, royal family members\n- {王室|おうしつ}: royal household (similar to {王家|おうけ} but slightly more formal)\n\nCOMMON COLLOCATIONS:\n- {王家|おうけ}の{血筋|ちすじ}: royal bloodline\n- {王家|おうけ}の{紋章|もんしょう}: royal coat of arms\n- {王家|おうけ}の{財宝|ざいほう}: royal treasure",
-  "cross_references": [],
+  "notes": "USAGE:\nPrimarily used for foreign royal families. For the Japanese Imperial Family, ⟦{皇室|こうしつ}→皇室：11339_koushitsu⟧ is the standard term. {王家|おうけ} is common in historical writing, fiction, and discussions of foreign monarchies. Also frequently appears in fantasy literature and games.\n\nRELATED WORDS:\n- ⟦{皇室|こうしつ}→皇室：11339_koushitsu⟧: the Imperial Family (Japanese Emperor's family)\n- ⟦{王族|おうぞく}→王族：13587_ouzoku⟧: royalty, royal family members\n- ⟦{王室|おうしつ}→王室：15297_oushitsu⟧: royal household (similar to {王家|おうけ} but slightly more formal)\n\nCOMMON COLLOCATIONS:\n- {王家|おうけ}⟦の→の：09472_no⟧⟦{血筋|ちすじ}→血筋：22423_chisuji⟧: royal bloodline\n- {王家|おうけ}⟦の→の：09472_no⟧⟦{紋章|もんしょう}→紋章：13827_monshou⟧: royal coat of arms\n- {王家|おうけ}⟦の→の：09472_no⟧⟦{財宝|ざいほう}→財宝：18496_zaihou⟧: royal treasure",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "11339_koushitsu",
+      "reading": "こうしつ",
+      "headword": "{皇室|こうしつ}",
+      "label": "the Imperial Family"
+    },
+    {
+      "type": "related",
+      "target_id": "13587_ouzoku",
+      "reading": "おうぞく",
+      "headword": "{王族|おうぞく}",
+      "label": "royalty, royal family members"
+    },
+    {
+      "type": "related",
+      "target_id": "15297_oushitsu",
+      "reading": "おうしつ",
+      "headword": "{王室|おうしつ}",
+      "label": "royal household"
+    }
+  ],
   "metadata": {
     "created": "2026-02-25T14:07:19Z",
-    "modified": "2026-02-25T14:07:19Z",
+    "modified": "2026-09-02T04:01:33Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["family"]
+      "semantic": [
+        "family"
+      ]
     }
   }
 }

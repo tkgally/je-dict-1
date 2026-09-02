@@ -2,7 +2,7 @@
   "id": "09317_daburu",
   "headword": "ダブる",
   "reading": "だぶる",
-  "part_of_speech": "godan verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to repeat a grade; to overlap; to duplicate",
   "conjugation": {
     "type": "godan",
@@ -109,7 +109,7 @@
   "examples": [
     {
       "id": "09317_daburu_ex1",
-      "japanese": "{大学|だいがく}でダブった。",
+      "japanese": "⟦{大学|だいがく}→大学：00608_daigaku⟧⟦で→で：00502_de⟧ダブった。",
       "english": "I had to repeat a year in college.",
       "has_audio": false,
       "sense_numbers": [
@@ -118,7 +118,7 @@
     },
     {
       "id": "09317_daburu_ex2",
-      "japanese": "このまま{行|い}くとダブるかも。",
+      "japanese": "⟦この→この：00962_kono⟧まま⟦{行|い}く→行く：00119_iku⟧⟦と→と：00512_to⟧ダブる⟦か→か：09473_ka⟧⟦も→も：00484_mo⟧。",
       "english": "At this rate, I might have to repeat the year.",
       "has_audio": false,
       "sense_numbers": [
@@ -127,7 +127,7 @@
     },
     {
       "id": "09317_daburu_ex3",
-      "japanese": "ダブらないように{頑張|がんば}る。",
+      "japanese": "ダブらないよう⟦に→に：00314_ni⟧⟦{頑張|がんば}る→頑張る：01222_ganbaru⟧。",
       "english": "I'll work hard so I don't have to repeat.",
       "has_audio": false,
       "sense_numbers": [
@@ -136,7 +136,7 @@
     },
     {
       "id": "09317_daburu_ex4",
-      "japanese": "{予定|よてい}がダブっている。",
+      "japanese": "⟦{予定|よてい}→予定：00824_yotei⟧⟦が→が：00051_ga⟧ダブって⟦いる→いる：00495_iru⟧。",
       "english": "My schedules are overlapping.",
       "has_audio": false,
       "sense_numbers": [
@@ -145,7 +145,7 @@
     },
     {
       "id": "09317_daburu_ex5",
-      "japanese": "カードがダブった。",
+      "japanese": "⟦カード→カード：03836_kaado⟧⟦が→が：00051_ga⟧ダブった。",
       "english": "I got a duplicate card.",
       "has_audio": false,
       "sense_numbers": [
@@ -154,7 +154,7 @@
     },
     {
       "id": "09317_daburu_ex6",
-      "japanese": "{同|おな}じ{本|ほん}がダブって{買|か}ってしまった。",
+      "japanese": "⟦{同|おな}じ→同じ：02857_onaji⟧{本|ほん}⟦が→が：00051_ga⟧ダブって⟦{買|か}って→買う：00489_kau⟧しまった。",
       "english": "I accidentally bought the same book twice.",
       "has_audio": false,
       "sense_numbers": [
@@ -162,10 +162,10 @@
       ]
     }
   ],
-  "notes": "ダブる comes from English 'double,' with る added to form a Japanese verb. A casual/colloquial word.\n\nCOMMON PATTERNS:\n- ダブる: to repeat a year; to overlap\n- ダブり: duplication, duplicate (noun form)\n- {予定|よてい}がダブる: schedules conflict\n- ダブって{買|か}う: to accidentally buy a duplicate\n\nFORMAL ALTERNATIVES:\n- Sense 1 (repeat a grade): {留年|りゅうねん}する\n- Sense 2 (overlap): {重複|ちょうふく}する, {重|かさ}なる\n\nASPECT (ている):\nダブっている indicates a current state of overlapping or conflicting: {予定|よてい}がダブっている (schedules are conflicting).\n\nREGISTER:\nCasual. Not appropriate for formal writing or business contexts. Use the formal alternatives listed above in those situations.",
+  "notes": "ダブる comes from English 'double,' with る added to form a Japanese verb. A casual/colloquial word.\n\nCOMMON PATTERNS:\n- ダブる: to repeat a year; to overlap\n- ダブり: duplication, duplicate (noun form)\n- ⟦{予定|よてい}→予定：00824_yotei⟧⟦が→が：00051_ga⟧ダブる: schedules conflict\n- ダブって⟦{買|か}う→買う：00489_kau⟧: to accidentally buy a duplicate\n\nFORMAL ALTERNATIVES:\n- Sense 1 (repeat a grade): ⟦{留年|りゅうねん}→留年：05141_ryuunen⟧⟦する→する：00392_suru⟧\n- Sense 2 (overlap): ⟦{重複|ちょうふく}する→重複する：26812_choufukusuru⟧, ⟦{重|かさ}なる→重なる：02038_kasanaru⟧\n\nASPECT (ている):\nダブって⟦いる→いる：00495_iru⟧ indicates a current state of overlapping or conflicting: ⟦{予定|よてい}→予定：00824_yotei⟧⟦が→が：00051_ga⟧ダブって⟦いる→いる：00495_iru⟧ (schedules are conflicting).\n\nREGISTER:\nCasual. Not appropriate for formal writing or business contexts. Use the formal alternatives listed above in those situations.",
   "metadata": {
     "created": "2026-02-01T07:12:47Z",
-    "modified": "2026-03-31T03:49:51Z",
+    "modified": "2026-09-02T04:01:18Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
@@ -179,7 +179,8 @@
       "semantic": [
         "action"
       ],
-      "verb_class": "godan-ru"
+      "verb_class": "godan-ru",
+      "transitivity": "intransitive"
     }
   }
 }

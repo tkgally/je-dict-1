@@ -15,40 +15,73 @@
   "examples": [
     {
       "id": "11307_chuunen_ex1",
-      "japanese": "{中年|ちゅうねん}の{男性|だんせい}が{話|はな}しかけてきた。",
+      "japanese": "{中年|ちゅうねん}⟦の→の：09472_no⟧⟦{男性|だんせい}→男性：01655_dansei⟧⟦が→が：00051_ga⟧⟦{話|はな}しかけて→話しかける：03134_hanashikakeru⟧きた。",
       "english": "A middle-aged man spoke to me.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11307_chuunen_ex2",
-      "japanese": "{中年|ちゅうねん}になると{体力|たいりょく}の{衰|おとろ}えを{感|かん}じる。",
+      "japanese": "{中年|ちゅうねん}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦と→と：00512_to⟧⟦{体力|たいりょく}→体力：05318_tairyoku⟧⟦の→の：09472_no⟧⟦{衰|おとろ}え→衰え：20068_otoroe⟧⟦を→を：00422_wo⟧⟦{感|かん}じる→感じる：02044_kanjiru⟧。",
       "english": "When you reach middle age, you start to feel a decline in stamina.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11307_chuunen_ex3",
-      "japanese": "{中年|ちゅうねん}{太|ぶと}りを{気|き}にして、ジョギングを{始|はじ}めた。",
+      "japanese": "{中年|ちゅうねん}{太|ぶと}り⟦を→を：00422_wo⟧⟦{気|き}にして→気にする：03026_kinisuru⟧、⟦ジョギング→ジョギング：04738_jogingu⟧⟦を→を：00422_wo⟧⟦{始|はじ}めた→始める：00531_hajimeru⟧。",
       "english": "Worried about middle-age weight gain, I started jogging.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{中年|ちゅうねん} refers to the middle years of adulthood, typically around 40 to 60.\n\nCOMMON COLLOCATIONS:\n- {中年|ちゅうねん}{男性|だんせい}/{女性|じょせい} (middle-aged man/woman)\n- {中年|ちゅうねん}{太|ぶと}り (middle-age weight gain)\n- {中年|ちゅうねん}の{危機|きき} (midlife crisis)\n- {中年|ちゅうねん}{以降|いこう} (from middle age onward)\n\nAGE STAGES:\n- {青年|せいねん} (young adult, roughly 15-30)\n- {中年|ちゅうねん} (middle-aged, roughly 40-60)\n- {老年|ろうねん}/{高齢者|こうれいしゃ} (elderly, roughly 65+)",
-  "cross_references": [],
+  "notes": "{中年|ちゅうねん} refers to the middle years of adulthood, typically around 40 to 60.\n\nCOMMON COLLOCATIONS:\n- {中年|ちゅうねん}⟦{男性|だんせい}→男性：01655_dansei⟧/⟦{女性|じょせい}→女性：01617_josei⟧ (middle-aged man/woman)\n- {中年|ちゅうねん}{太|ぶと}り (middle-age weight gain)\n- {中年|ちゅうねん}⟦の→の：09472_no⟧⟦{危機|きき}→危機：11798_kiki⟧ (midlife crisis)\n- {中年|ちゅうねん}⟦{以降|いこう}→以降：03999_ikou⟧ (from middle age onward)\n\nAGE STAGES:\n- ⟦{青年|せいねん}→青年：03292_seinen⟧ (young adult, roughly 15-30)\n- {中年|ちゅうねん} (middle-aged, roughly 40-60)\n- ⟦{老年|ろうねん}→老年：14072_rounen⟧/⟦{高齢者|こうれいしゃ}→高齢者：15649_koureisha⟧ (elderly, roughly 65+)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19988_chuukounen",
+      "reading": "ちゅうこうねん",
+      "headword": "{中高年|ちゅうこうねん}",
+      "label": "middle-aged and older people"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26410_sounenki",
+      "reading": "そうねんき",
+      "headword": "{壮年|そうねん}{期|き}",
+      "label": "middle age"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26695_midorueiji",
+      "reading": "みどるえいじ",
+      "headword": "ミドルエイジ",
+      "label": "middle age"
+    }
+  ],
   "metadata": {
     "created": "2026-02-15T22:39:42Z",
-    "modified": "2026-02-15T22:39:42Z",
+    "modified": "2026-09-02T04:01:24Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["person", "time-period"]
+      "semantic": [
+        "person",
+        "time-period"
+      ]
     }
   }
 }

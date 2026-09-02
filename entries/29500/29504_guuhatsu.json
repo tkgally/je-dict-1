@@ -3,7 +3,7 @@
   "headword": "{偶発|ぐうはつ}",
   "reading": "ぐうはつ",
   "romaji": "guuhatsu",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "accidental occurrence; happening by chance",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29504_guuhatsu_ex1",
-      "japanese": "{事故|じこ}が{偶発|ぐうはつ}する。",
+      "japanese": "⟦{事故|じこ}→事故：00851_jiko⟧⟦が→が：00051_ga⟧{偶発|ぐうはつ}⟦する→する：00392_suru⟧。",
       "english": "An accident happens by chance.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29504_guuhatsu_ex2",
-      "japanese": "それは{偶発|ぐうはつ}{的|てき}な{出来事|できごと}に{過|す}ぎない。",
+      "japanese": "⟦それ→それ：00994_sore⟧⟦は→は：00079_ha⟧{偶発|ぐうはつ}⟦{的|てき}→〜的：09839_teki⟧な⟦{出来事|できごと}→出来事：03446_dekigoto⟧⟦に→に：00314_ni⟧⟦{過|す}ぎない→過ぎる：01219_sugiru⟧。",
       "english": "That is nothing more than a chance event.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29504_guuhatsu_ex3",
-      "japanese": "{戦争|せんそう}は、{小|ちい}さな{偶発|ぐうはつ}{的|てき}な{衝突|しょうとつ}から{始|はじ}まることもある。",
+      "japanese": "⟦{戦争|せんそう}→戦争：01450_sensou⟧⟦は→は：00079_ha⟧、⟦{小|ちい}さな→小さな：02913_chiisana⟧{偶発|ぐうはつ}⟦{的|てき}→〜的：09839_teki⟧な⟦{衝突|しょうとつ}→衝突：03235_shoutotsu⟧⟦から→から：00504_kara⟧⟦{始|はじ}まる→始まる：00841_hajimaru⟧こと⟦も→も：00484_mo⟧⟦ある→ある：00006_aru⟧。",
       "english": "War can sometimes begin from a small, accidental clash.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Combines {偶|ぐう} (by chance) + {発|はつ} (occur, emit). An unplanned, chance occurrence. Very often used in the na-adjective form {偶発|ぐうはつ}{的|てき} (accidental, fortuitous).\n\nCOMMON COLLOCATIONS:\n- {偶発|ぐうはつ}{的|てき}: accidental; by chance\n- {偶発|ぐうはつ}{事故|じこ}: a chance accident\n- {偶発|ぐうはつ}{的|てき}な{事件|じけん}: an accidental incident\n\nSIMILAR WORDS:\n- {突発|とっぱつ}: sudden outbreak — emphasizes suddenness rather than chance\n- {必然|ひつぜん}: inevitability — the opposite, something bound to happen",
+  "notes": "Combines {偶|ぐう} (by chance) + ⟦{発|はつ}→〜発：04026_hatsu⟧ (occur, emit). An unplanned, chance occurrence. Very often used in the na-adjective form {偶発|ぐうはつ}⟦{的|てき}→〜的：09839_teki⟧ (accidental, fortuitous).\n\nCOMMON COLLOCATIONS:\n- {偶発|ぐうはつ}⟦{的|てき}→〜的：09839_teki⟧: accidental; by chance\n- {偶発|ぐうはつ}⟦{事故|じこ}→事故：00851_jiko⟧: a chance accident\n- {偶発|ぐうはつ}⟦{的|てき}→〜的：09839_teki⟧な⟦{事件|じけん}→事件：01568_jiken⟧: an accidental incident\n\nSIMILAR WORDS:\n- ⟦{突発|とっぱつ}→突発：15656_toppatsu⟧: sudden outbreak — emphasizes suddenness rather than chance\n- ⟦{必然|ひつぜん}→必然：05533_hitsuzen⟧: inevitability — the opposite, something bound to happen",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15656_toppatsu",
+      "reading": "とっぱつ",
+      "headword": "{突発|とっぱつ}",
+      "label": "sudden outbreak"
+    },
+    {
+      "type": "antonym",
+      "target_id": "05533_hitsuzen",
+      "reading": "ひつぜん",
+      "headword": "{必然|ひつぜん}",
+      "label": "inevitability"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -54,15 +70,16 @@
         "verb-suru"
       ],
       "formality": "formal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "abstract"
       ],
       "domain": [],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     },
     "created": "2026-06-26T09:20:43Z",
-    "modified": "2026-06-26T09:20:43Z"
+    "modified": "2026-09-02T04:02:37Z"
   },
   "conjugation": {
     "type": "suru",

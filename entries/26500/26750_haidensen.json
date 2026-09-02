@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26750_haidensen_ex1",
-      "japanese": "{台風|たいふう}で{配電線|はいでんせん}が{切|き}れた。",
+      "japanese": "⟦{台風|たいふう}→台風：01455_taifuu⟧⟦で→で：00502_de⟧{配電線|はいでんせん}⟦が→が：00051_ga⟧⟦{切|き}れた→切れる：01936_kireru⟧。",
       "english": "The distribution line was severed by the typhoon.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26750_haidensen_ex2",
-      "japanese": "{配電線|はいでんせん}の{工事|こうじ}で{一時的|いちじてき}に{停電|ていでん}になる。",
+      "japanese": "{配電線|はいでんせん}⟦の→の：09472_no⟧⟦{工事|こうじ}→工事：00244_kouji⟧⟦で→で：00502_de⟧⟦{一時的|いちじてき}→一時的：05846_ichijiteki⟧⟦に→に：00314_ni⟧⟦{停電|ていでん}→停電：03544_teiden⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧。",
       "english": "There will be a temporary power outage due to distribution line work.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26750_haidensen_ex3",
-      "japanese": "{老朽化|ろうきゅうか}した{配電線|はいでんせん}を{地中|ちちゅう}に{埋設|まいせつ}する{計画|けいかく}が{進|すす}んでいる。",
+      "japanese": "⟦{老朽化|ろうきゅうか}→老朽化：07646_roukyuuka⟧⟦した→する：00392_suru⟧{配電線|はいでんせん}⟦を→を：00422_wo⟧⟦{地中|ちちゅう}→地中：12135_chichuu⟧⟦に→に：00314_ni⟧{埋設|まいせつ}⟦する→する：00392_suru⟧⟦{計画|けいかく}→計画：01172_keikaku⟧⟦が→が：00051_ga⟧⟦{進|すす}んでいる→進む：01225_susumu⟧。",
       "english": "Plans are progressing to bury aging distribution lines underground.",
       "sense_numbers": [
         1
@@ -44,8 +44,23 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {配電|はいでん} (power distribution) and {線|せん} (line, wire). In the electrical grid, power flows from generators through {送電線|そうでんせん} (transmission lines) to substations, then through {配電線|はいでんせん} (distribution lines) to end users. The distribution lines are the ones most visible in daily life, running along {電柱|でんちゅう} (utility poles).\n\nCOMMON COLLOCATIONS:\n- {配電線|はいでんせん}の{修理|しゅうり}: repair of distribution lines\n- {配電線|はいでんせん}の{地中化|ちちゅうか}: undergrounding of distribution lines\n- {配電線|はいでんせん}が{断線|だんせん}する: a distribution line breaks\n- {高圧|こうあつ}{配電線|はいでんせん}: high-voltage distribution line\n\nRELATED TERMS:\n- {送電線|そうでんせん}: transmission line — the high-voltage lines that carry power over long distances\n- {電線|でんせん}: electrical wire — the general term for any electrical cable\n- {電柱|でんちゅう}: utility pole — the poles that support distribution lines",
-  "cross_references": [],
+  "notes": "A compound of ⟦{配電|はいでん}→配電：30069_haiden⟧ (power distribution) and ⟦{線|せん}→線：09901_sen⟧ (line, wire). In the electrical grid, power flows from generators through ⟦{送電線|そうでんせん}→送電線：09776_soudensen⟧ (transmission lines) to substations, then through {配電線|はいでんせん} (distribution lines) to end users. The distribution lines are the ones most visible in daily life, running along ⟦{電柱|でんちゅう}→電柱：17913_denchuu⟧ (utility poles).\n\nCOMMON COLLOCATIONS:\n- {配電線|はいでんせん}⟦の→の：09472_no⟧⟦{修理|しゅうり}→修理：03214_shuuri⟧: repair of distribution lines\n- {配電線|はいでんせん}⟦の→の：09472_no⟧{地中化|ちちゅうか}: undergrounding of distribution lines\n- {配電線|はいでんせん}⟦が→が：00051_ga⟧⟦{断線|だんせん}→断線：20692_dansen⟧⟦する→する：00392_suru⟧: a distribution line breaks\n- ⟦{高圧|こうあつ}→高圧：21094_kouatsu⟧{配電線|はいでんせん}: high-voltage distribution line\n\nRELATED WORDS:\n- ⟦{送電線|そうでんせん}→送電線：09776_soudensen⟧: transmission line — the high-voltage lines that carry power over long distances\n- ⟦{電線|でんせん}→電線：11507_densen⟧: electrical wire — the general term for any electrical cable\n- ⟦{電柱|でんちゅう}→電柱：17913_denchuu⟧: utility pole — the poles that support distribution lines",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "09776_soudensen",
+      "reading": "そうでんせん",
+      "headword": "{送電線|そうでんせん}",
+      "label": "transmission line"
+    },
+    {
+      "type": "related",
+      "target_id": "17913_denchuu",
+      "reading": "でんちゅう",
+      "headword": "{電柱|でんちゅう}",
+      "label": "utility pole"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -63,6 +78,6 @@
       ]
     },
     "created": "2026-05-04T15:35:04Z",
-    "modified": "2026-08-06T12:46:55Z"
+    "modified": "2026-09-02T04:02:27Z"
   }
 }

@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "20956_zekkeisupotto_ex1",
-      "japanese": "{絶景|ぜっけい}スポットを{探|さが}す。",
+      "japanese": "{絶景|ぜっけい}スポット⟦を→を：00422_wo⟧⟦{探|さが}す→探す：00493_sagasu⟧。",
       "english": "I'm looking for scenic viewpoints.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "20956_zekkeisupotto_ex2",
-      "japanese": "この{展望台|てんぼうだい}は{知|し}る{人|ひと}ぞ{知|し}る{絶景|ぜっけい}スポットだ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{展望台|てんぼうだい}→展望台：18278_tenboudai⟧⟦は→は：00079_ha⟧⟦{知|し}る→知る：00458_shiru⟧⟦{人|ひと}→人：00476_hito⟧ぞ⟦{知|し}る→知る：00458_shiru⟧{絶景|ぜっけい}スポットだ。",
       "english": "This observation deck is a scenic viewpoint known only to those in the know.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "20956_zekkeisupotto_ex3",
-      "japanese": "SNSで{話題|わだい}になった{絶景|ぜっけい}スポットに{観光客|かんこうきゃく}が{殺到|さっとう}している。",
+      "japanese": "SNS⟦で→で：00502_de⟧⟦{話題|わだい}→話題：03793_wadai⟧になった{絶景|ぜっけい}スポット⟦に→に：00314_ni⟧⟦{観光客|かんこうきゃく}→観光客：03022_kankoukyaku⟧⟦が→が：00051_ga⟧⟦{殺到|さっとう}→殺到：15036_sattou⟧⟦している→する：00392_suru⟧。",
       "english": "Tourists are flocking to a scenic spot that went viral on social media.",
       "sense_numbers": [
         1
@@ -43,8 +43,38 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {絶景|ぜっけい} (superb view) and スポット (spot, location). Very common in travel writing and tourism promotion. Japan has many famous {絶景|ぜっけい}スポット, and travel magazines and websites regularly publish rankings.\n\nCOMMON COLLOCATIONS:\n- {絶景|ぜっけい}スポットランキング: scenic spot ranking\n- {絶景|ぜっけい}スポット{巡|めぐ}り: touring scenic viewpoints\n- {隠|かく}れた{絶景|ぜっけい}スポット: hidden scenic gem\n- {人気|にんき}の{絶景|ぜっけい}スポット: popular scenic spot\n\nRELATED TERMS:\n- {絶景|ぜっけい}: superb view, breathtaking scenery\n- {景勝地|けいしょうち}: scenic spot — more formal, often officially designated\n- {展望台|てんぼうだい}: observation deck, lookout point\n- {名所|めいしょ}: famous place, noted spot — broader than just views",
+  "notes": "A compound of ⟦{絶景|ぜっけい}→絶景：16835_zekkei⟧ (superb view) and ⟦スポット→スポット：11578_supotto⟧ (spot, location). Very common in travel writing and tourism promotion. Japan has many famous {絶景|ぜっけい}スポット, and travel magazines and websites regularly publish rankings.\n\nCOMMON COLLOCATIONS:\n- {絶景|ぜっけい}スポット⟦ランキング→ランキング：11195_rankingu⟧: scenic spot ranking\n- {絶景|ぜっけい}スポット{巡|めぐ}り: touring scenic viewpoints\n- ⟦{隠|かく}れた→隠れる：02035_kakureru⟧{絶景|ぜっけい}スポット: hidden scenic gem\n- ⟦{人気|にんき}→人気：01488_ninki⟧⟦の→の：09472_no⟧{絶景|ぜっけい}スポット: popular scenic spot\n\nRELATED WORDS:\n- ⟦{絶景|ぜっけい}→絶景：16835_zekkei⟧: superb view, breathtaking scenery\n- ⟦{景勝地|けいしょうち}→景勝地：20387_keishouchi⟧: scenic spot — more formal, often officially designated\n- ⟦{展望台|てんぼうだい}→展望台：18278_tenboudai⟧: observation deck, lookout point\n- ⟦{名所|めいしょ}→名所：08164_meisho⟧: famous place, noted spot — broader than just views",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "16835_zekkei",
+      "reading": "ぜっけい",
+      "headword": "{絶景|ぜっけい}",
+      "label": "superb view, breathtaking scenery"
+    },
+    {
+      "type": "related",
+      "target_id": "20387_keishouchi",
+      "reading": "けいしょうち",
+      "headword": "{景勝地|けいしょうち}",
+      "label": "scenic spot"
+    },
+    {
+      "type": "related",
+      "target_id": "18278_tenboudai",
+      "reading": "てんぼうだい",
+      "headword": "{展望台|てんぼうだい}",
+      "label": "observation deck, lookout point"
+    },
+    {
+      "type": "related",
+      "target_id": "08164_meisho",
+      "reading": "めいしょ",
+      "headword": "{名所|めいしょ}",
+      "label": "famous place, noted spot"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +89,6 @@
       ]
     },
     "created": "2026-03-30T22:22:02Z",
-    "modified": "2026-03-30T22:22:02Z"
+    "modified": "2026-09-02T04:02:01Z"
   }
 }

@@ -44,7 +44,7 @@
     },
     {
       "id": "02753_koori_ex4",
-      "japanese": "⟦{冷|つめ}たい→冷たい：00681_tsumetai⟧⟦{水|みず}→水：02258_mizu⟧⟦に→に：00314_ni⟧{氷|こおり}⟦を→を：00422_wo⟧⟦{入|い}れて→入れる：01098_ireru⟧、⟦もっと→もっと：00798_motto⟧⟦{冷|つめ}たく→冷たい：00681_tsumetai⟧した。",
+      "japanese": "⟦{冷|つめ}たい→冷たい：00681_tsumetai⟧⟦{水|みず}→水：02258_mizu⟧⟦に→に：00314_ni⟧{氷|こおり}⟦を→を：00422_wo⟧⟦{入|い}れて→入れる：01098_ireru⟧、⟦もっと→もっと：00798_motto⟧⟦{冷|つめ}たく→冷たい：00681_tsumetai⟧⟦した→する：00392_suru⟧。",
       "english": "I added ice to the cold water to make it even colder.",
       "notes": null,
       "has_audio": false,
@@ -63,11 +63,33 @@
       ]
     }
   ],
-  "notes": "{氷|こおり} is ice in general.\n\nCOMMON PATTERNS:\n- {氷|こおり}⟦が→が：00051_ga⟧⟦{張|は}る→張る：12583_haru⟧ (ice forms)\n- {氷|こおり}⟦が→が：00051_ga⟧⟦{溶|と}ける→溶ける：02302_tokeru⟧ (ice melts)\n- {氷|こおり}⟦を→を：00422_wo⟧⟦{入|い}れる→入れる：01098_ireru⟧ (to add ice)\n- {氷|こおり}⟦の→の：09472_no⟧⟦{上|うえ}→上：00682_ue⟧⟦で→で：00502_de⟧ (on the ice)\n\nCOMPOUND WORDS:\n- {氷|こおり}⟦{水|みず}→水：02258_mizu⟧ (ice water)\n- ⟦かき{氷|ごおり}→かき氷：10300_kakigoori⟧ (shaved ice dessert)\n- ⟦{氷|こおり}{山|やま}→氷山：17914_hyouzan⟧ (iceberg)\n- ⟦{氷河|ひょうが}→氷河：25315_hyouga⟧ (glacier)\n\nFIGURATIVE USES:\n- {氷|こおり}のような (ice-cold, as in personality)\n- {氷|こおり}⟦が→が：00051_ga⟧⟦{解|と}ける→解ける：04371_tokeru⟧ (the ice breaks - becoming friendly)\n\nNOTE: The reading changes to ごおり in some compounds (rendaku).",
-  "cross_references": [],
+  "notes": "{氷|こおり} is ice in general.\n\nCOMMON PATTERNS:\n- {氷|こおり}⟦が→が：00051_ga⟧⟦{張|は}る→張る：12583_haru⟧ (ice forms)\n- {氷|こおり}⟦が→が：00051_ga⟧⟦{溶|と}ける→溶ける：02302_tokeru⟧ (ice melts)\n- {氷|こおり}⟦を→を：00422_wo⟧⟦{入|い}れる→入れる：01098_ireru⟧ (to add ice)\n- {氷|こおり}⟦の→の：09472_no⟧⟦{上|うえ}→上：00682_ue⟧⟦で→で：00502_de⟧ (on the ice)\n\nCOMPOUNDS:\n- {氷|こおり}⟦{水|みず}→水：02258_mizu⟧ (ice water)\n- ⟦かき{氷|ごおり}→かき氷：10300_kakigoori⟧ (shaved ice dessert)\n- ⟦{氷|こおり}{山|やま}→氷山：17914_hyouzan⟧ (iceberg)\n- ⟦{氷河|ひょうが}→氷河：25315_hyouga⟧ (glacier)\n\nUSAGE:\n- {氷|こおり}⟦の→の：09472_no⟧ような (ice-cold, as in personality)\n- {氷|こおり}⟦が→が：00051_ga⟧⟦{解|と}ける→解ける：04371_tokeru⟧ (the ice breaks - becoming friendly)\n\nNOTE: The reading changes to ごおり in some compounds (rendaku).",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "02100_kooru",
+      "reading": "こおる",
+      "headword": "{凍|こお}る",
+      "label": "to freeze, to be frozen"
+    },
+    {
+      "type": "related",
+      "target_id": "08560_shimobashira",
+      "reading": "しもばしら",
+      "headword": "{霜柱|しもばしら}",
+      "label": "frost pillars"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27550_seihyouki",
+      "reading": "せいひょうき",
+      "headword": "{製氷機|せいひょうき}",
+      "label": "ice maker"
+    }
+  ],
   "metadata": {
     "created": "2026-01-11T07:52:45Z",
-    "modified": "2026-06-12T04:00:00Z",
+    "modified": "2026-09-02T04:01:02Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

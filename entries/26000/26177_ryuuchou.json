@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26177_ryuuchou_ex1",
-      "japanese": "スズメは{日本|にほん}の{代表的|だいひょうてき}な{留鳥|りゅうちょう}だ。",
+      "japanese": "スズメ⟦は→は：00079_ha⟧⟦{日本|にほん}→日本：03876_nihon⟧⟦の→の：09472_no⟧⟦{代表的|だいひょうてき}→代表的：05670_daihyouteki⟧な{留鳥|りゅうちょう}だ。",
       "english": "Sparrows are a typical resident bird in Japan.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26177_ryuuchou_ex2",
-      "japanese": "この{公園|こうえん}では{留鳥|りゅうちょう}を{一年中|いちねんじゅう}{観察|かんさつ}できる。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{公園|こうえん}→公園：00581_kouen⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧{留鳥|りゅうちょう}⟦を→を：00422_wo⟧⟦{一年中|いちねんじゅう}→一年中：17104_ichinenjuu⟧⟦{観察|かんさつ}できる→観察する：21989_kansatsusuru⟧。",
       "english": "You can observe resident birds in this park all year round.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26177_ryuuchou_ex3",
-      "japanese": "カラスやハトは{都市部|としぶ}でもよく{見|み}られる{留鳥|りゅうちょう}である。",
+      "japanese": "⟦カラス→カラス：09930_karasu⟧やハト⟦は→は：00079_ha⟧⟦{都市部|としぶ}→都市部：14549_toshibu⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧⟦よく→よく：00601_yoku⟧⟦{見|み}られる→見る：00283_miru⟧{留鳥|りゅうちょう}⟦である→である：09855_dearu⟧。",
       "english": "Crows and pigeons are resident birds commonly seen even in urban areas.",
       "sense_numbers": [
         1
@@ -44,8 +44,30 @@
       "notes": null
     }
   ],
-  "notes": "{留鳥|りゅうちょう} refers to bird species that stay in one region throughout the year, as opposed to {渡|わた}り{鳥|どり} (migratory birds). In Japan, common examples include スズメ (sparrow), カラス (crow), ハト (pigeon), メジロ (white-eye), and キジ (pheasant).\n\nCOMMON COLLOCATIONS:\n- {留鳥|りゅうちょう}として{分類|ぶんるい}される — to be classified as a resident bird\n- {留鳥|りゅうちょう}の{個体数|こたいすう} — population of resident birds\n- {留鳥|りゅうちょう}の{生態|せいたい} — ecology of resident birds\n\nSIMILAR WORDS:\n- {渡|わた}り{鳥|どり} — migratory bird (moves between regions with seasons)\n- {漂鳥|ひょうちょう} — wandering bird (moves locally within a country by altitude or latitude)\n- {迷鳥|めいちょう} — vagrant bird (arrives outside its normal range by accident)",
-  "cross_references": [],
+  "notes": "{留鳥|りゅうちょう} refers to bird species that stay in one region throughout the year, as opposed to ⟦{渡|わた}り{鳥|どり}→渡り鳥：09252_wataridori⟧ (migratory birds). In Japan, common examples include スズメ (sparrow), ⟦カラス→カラス：09930_karasu⟧ (crow), ハト (pigeon), メジロ (white-eye), and キジ (pheasant).\n\nCOMMON COLLOCATIONS:\n- {留鳥|りゅうちょう}⟦として→として：06802_toshite⟧⟦{分類|ぶんるい}される→分類する：25224_bunruisuru⟧ — to be classified as a resident bird\n- {留鳥|りゅうちょう}⟦の→の：09472_no⟧{個体数|こたいすう} — population of resident birds\n- {留鳥|りゅうちょう}⟦の→の：09472_no⟧⟦{生態|せいたい}→生態：13543_seitai⟧ — ecology of resident birds\n\nSIMILAR WORDS:\n- ⟦{渡|わた}り{鳥|どり}→渡り鳥：09252_wataridori⟧ — migratory bird (moves between regions with seasons)\n- {漂鳥|ひょうちょう} — wandering bird (moves locally within a country by altitude or latitude)\n- {迷鳥|めいちょう} — vagrant bird (arrives outside its normal range by accident)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09252_wataridori",
+      "reading": "わたりどり",
+      "headword": "{渡|わた}り{鳥|どり}",
+      "label": "migratory bird"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24277_natsudori",
+      "reading": "なつどり",
+      "headword": "{夏鳥|なつどり}",
+      "label": "summer bird"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24278_fuyudori",
+      "reading": "ふゆどり",
+      "headword": "{冬鳥|ふゆどり}",
+      "label": "winter bird"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,12 +75,14 @@
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "nature",
         "animal-bird"
       ]
     },
     "created": "2026-04-29T16:31:23Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T04:02:25Z"
   }
 }

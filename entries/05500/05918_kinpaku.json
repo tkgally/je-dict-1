@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "05918_kinpaku_ex1",
-      "japanese": "⟦{国際|こくさい}→国際：01406_kokusai⟧⟦{情勢|じょうせい}→情勢：12739_jousei⟧⟦が→が：00051_ga⟧{緊迫|きんぱく}している。",
+      "japanese": "⟦{国際|こくさい}→国際：01406_kokusai⟧⟦{情勢|じょうせい}→情勢：12739_jousei⟧⟦が→が：00051_ga⟧{緊迫|きんぱく}⟦している→する：00392_suru⟧。",
       "english": "The international situation is tense.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "05918_kinpaku_ex2",
-      "japanese": "{緊迫|きんぱく}した⟦{空気|くうき}→空気：01390_kuuki⟧⟦が→が：00051_ga⟧⟦{流|なが}れた→流れる：01969_nagareru⟧。",
+      "japanese": "{緊迫|きんぱく}⟦した→する：00392_suru⟧⟦{空気|くうき}→空気：01390_kuuki⟧⟦が→が：00051_ga⟧⟦{流|なが}れた→流れる：01969_nagareru⟧。",
       "english": "A tense atmosphere filled the room.",
       "notes": null,
       "has_audio": false,
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "{緊迫|きんぱく} describes a state of high tension, often in serious or dangerous situations.\n\nCOMMON COLLOCATIONS:\n- {緊迫|きんぱく}した⟦{状況|じょうきょう}→状況：01576_joukyou⟧: tense situation\n- {緊迫|きんぱく}した⟦{空気|くうき}→空気：01390_kuuki⟧: tense atmosphere\n- {緊迫|きんぱく}⟦{感|かん}→感：28578_kan⟧: sense of tension\n- {緊迫|きんぱく}⟦が→が：00051_ga⟧⟦{高|たか}まる→高まる：02066_takamaru⟧: tension increases\n\nUSAGE CONTEXTS:\n- International relations\n- Crisis situations\n- Dramatic moments in stories\n- High-stakes negotiations",
+  "notes": "{緊迫|きんぱく} describes a state of high tension, often in serious or dangerous situations.\n\nCOMMON COLLOCATIONS:\n- {緊迫|きんぱく}⟦した→する：00392_suru⟧⟦{状況|じょうきょう}→状況：01576_joukyou⟧: tense situation\n- {緊迫|きんぱく}⟦した→する：00392_suru⟧⟦{空気|くうき}→空気：01390_kuuki⟧: tense atmosphere\n- {緊迫|きんぱく}⟦{感|かん}→感：28578_kan⟧: sense of tension\n- {緊迫|きんぱく}⟦が→が：00051_ga⟧⟦{高|たか}まる→高まる：02066_takamaru⟧: tension increases\n\nUSAGE:\n- International relations\n- Crisis situations\n- Dramatic moments in stories\n- High-stakes negotiations",
   "cross_references": [
     {
       "type": "synonym",
@@ -141,11 +141,18 @@
       "reading": "きんちょう",
       "headword": "{緊張|きんちょう}",
       "label": "tension (broader)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20010_kenaku",
+      "reading": "けんあく",
+      "headword": "{険悪|けんあく}",
+      "label": "hostile"
     }
   ],
   "metadata": {
     "created": "2026-01-16T14:51:32Z",
-    "modified": "2026-06-16T06:42:50Z",
+    "modified": "2026-09-02T04:01:07Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -159,7 +166,8 @@
       "semantic": [
         "descriptive"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

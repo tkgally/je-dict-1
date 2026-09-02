@@ -109,7 +109,7 @@
   "examples": [
     {
       "id": "08021_kangen_ex1",
-      "japanese": "{酸化鉄|さんかてつ}を{還元|かんげん}する。",
+      "japanese": "{酸化鉄|さんかてつ}⟦を→を：00422_wo⟧{還元|かんげん}⟦する→する：00392_suru⟧。",
       "english": "To reduce iron oxide.",
       "sense_numbers": [
         1
@@ -119,7 +119,7 @@
     },
     {
       "id": "08021_kangen_ex2",
-      "japanese": "{還元|かんげん}{反応|はんのう}が{起|お}きる。",
+      "japanese": "{還元|かんげん}⟦{反応|はんのう}→反応：04812_hannou⟧⟦が→が：00051_ga⟧⟦{起|お}きる→起きる：00521_okiru⟧。",
       "english": "A reduction reaction occurs.",
       "sense_numbers": [
         1
@@ -129,7 +129,7 @@
     },
     {
       "id": "08021_kangen_ex3",
-      "japanese": "{酸化|さんか}{還元|かんげん}{反応|はんのう}を{学|まな}ぶ。",
+      "japanese": "⟦{酸化|さんか}→酸化：00453_sanka⟧{還元|かんげん}⟦{反応|はんのう}→反応：04812_hannou⟧⟦を→を：00422_wo⟧⟦{学|まな}ぶ→学ぶ：01987_manabu⟧。",
       "english": "To learn about oxidation-reduction reactions.",
       "sense_numbers": [
         1
@@ -139,7 +139,7 @@
     },
     {
       "id": "08021_kangen_ex4",
-      "japanese": "ポイント{還元|かんげん}がある。",
+      "japanese": "⟦ポイント→ポイント：11283_pointo⟧{還元|かんげん}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There is a point reward.",
       "sense_numbers": [
         2
@@ -149,7 +149,7 @@
     },
     {
       "id": "08021_kangen_ex5",
-      "japanese": "{利益|りえき}を{社会|しゃかい}に{還元|かんげん}する。",
+      "japanese": "⟦{利益|りえき}→利益：03673_rieki⟧⟦を→を：00422_wo⟧⟦{社会|しゃかい}→社会：01427_shakai⟧⟦に→に：00314_ni⟧{還元|かんげん}⟦する→する：00392_suru⟧。",
       "english": "To give back profits to society.",
       "sense_numbers": [
         2
@@ -159,7 +159,7 @@
     },
     {
       "id": "08021_kangen_ex6",
-      "japanese": "キャッシュバック{還元|かんげん}{率|りつ}5%。",
+      "japanese": "⟦キャッシュバック→キャッシュバック：08797_kyasshubakku⟧{還元|かんげん}{率|りつ}5%。",
       "english": "5% cashback rate.",
       "sense_numbers": [
         2
@@ -168,7 +168,7 @@
       "notes": null
     }
   ],
-  "notes": "{還元|かんげん} has both scientific and everyday meanings.\n\nKANJI BREAKDOWN:\n- {還|かん} (return, go back)\n- {元|げん} (origin, base)\n\nSENSE 1 (Chemistry):\n- {還元|かんげん}{剤|ざい} (reducing agent)\n- {還元|かんげん}{反応|はんのう} (reduction reaction)\n- {酸化|さんか}{還元|かんげん} (oxidation-reduction, redox)\n\nSENSE 2 (Business/Consumer):\n- ポイント{還元|かんげん} (point rewards)\n- {還元|かんげん}{率|りつ} (reward rate)\n- {税金|ぜいきん}{還元|かんげん} (tax return)\n- {社会|しゃかい}{還元|かんげん} (giving back to society)\n- {利益|りえき}{還元|かんげん} (profit sharing)\n\nUSAGE:\n- {還元|かんげん}する (to reduce; to return - suru verb)\n\nRELATED TERMS:\n- {酸化|さんか} (oxidation - opposite in chemistry)",
+  "notes": "{還元|かんげん} has both scientific and everyday meanings.\n\nWRITING:\n- {還|かん} (return, go back)\n- {元|げん} (origin, base)\n\nSENSE 1 (Chemistry):\n- {還元|かんげん}{剤|ざい} (reducing agent)\n- {還元|かんげん}⟦{反応|はんのう}→反応：04812_hannou⟧ (reduction reaction)\n- ⟦{酸化|さんか}→酸化：00453_sanka⟧{還元|かんげん} (oxidation-reduction, redox)\n\nSENSE 2 (Business/Consumer):\n- ⟦ポイント→ポイント：11283_pointo⟧{還元|かんげん} (point rewards)\n- {還元|かんげん}{率|りつ} (reward rate)\n- ⟦{税金|ぜいきん}→税金：03308_zeikin⟧{還元|かんげん} (tax return)\n- ⟦{社会|しゃかい}→社会：01427_shakai⟧{還元|かんげん} (giving back to society)\n- ⟦{利益|りえき}→利益：03673_rieki⟧{還元|かんげん} (profit sharing)\n\nUSAGE:\n- {還元|かんげん}⟦する→する：00392_suru⟧ (to reduce; to return - suru verb)\n\nRELATED WORDS:\n- ⟦{酸化|さんか}→酸化：00453_sanka⟧ (oxidation - opposite in chemistry)",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -177,6 +177,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "domain": [
         "technical",
         "business"
@@ -188,7 +189,7 @@
       "verb_class": "suru"
     },
     "created": "2026-01-25T00:31:19Z",
-    "modified": "2026-06-21T00:53:31Z"
+    "modified": "2026-09-02T04:01:13Z"
   },
   "cross_references": [
     {
@@ -197,6 +198,13 @@
       "reading": "さんか",
       "headword": "{酸化|さんか}",
       "label": "oxidation"
+    },
+    {
+      "type": "related",
+      "target_id": "23929_sankabutsu",
+      "reading": "さんかぶつ",
+      "headword": "{酸化物|さんかぶつ}",
+      "label": "oxide"
     }
   ]
 }

@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "13120_raihou_ex1",
-      "japanese": "{来訪者|らいほうしゃ}は{受付|うけつけ}へどうぞ。",
+      "japanese": "⟦{来訪者|らいほうしゃ}→来訪者：24478_raihousha⟧⟦は→は：00079_ha⟧⟦{受付|うけつけ}→受付：01325_uketsuke⟧⟦へ→へ：02473_he⟧⟦どうぞ→どうぞ：02920_douzo⟧。",
       "english": "Visitors, please proceed to the reception desk.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "13120_raihou_ex2",
-      "japanese": "{大臣|だいじん}が{来訪|らいほう}する{予定|よてい}だ。",
+      "japanese": "⟦{大臣|だいじん}→大臣：03417_daijin⟧⟦が→が：00051_ga⟧{来訪|らいほう}⟦する→する：00392_suru⟧⟦{予定|よてい}→予定：00824_yotei⟧だ。",
       "english": "The minister is scheduled to visit.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "13120_raihou_ex3",
-      "japanese": "{海外|かいがい}からの{来訪者|らいほうしゃ}を{迎|むか}えるために、{準備|じゅんび}を{進|すす}めている。",
+      "japanese": "⟦{海外|かいがい}→海外：00134_kaigai⟧⟦から→から：00504_kara⟧⟦の→の：09472_no⟧⟦{来訪者|らいほうしゃ}→来訪者：24478_raihousha⟧⟦を→を：00422_wo⟧⟦{迎|むか}える→迎える：01193_mukaeru⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧、⟦{準備|じゅんび}→準備：01431_junbi⟧⟦を→を：00422_wo⟧⟦{進|すす}めている→進める：01949_susumeru⟧。",
       "english": "We are making preparations to welcome visitors from overseas.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "{来訪|らいほう} is a formal word for someone coming to visit. It describes the visit from the perspective of the place or person being visited — someone comes to you.\n\nCOMMON COLLOCATIONS:\n- {来訪者|らいほうしゃ}: visitor, caller\n- {来訪|らいほう}する: to visit, to call on\n- {来訪|らいほう}を{受|う}ける: to receive a visit\n- {突然|とつぜん}の{来訪|らいほう}: unexpected visit\n\nSIMILAR WORDS:\n- {訪問|ほうもん}: visiting someone (from the visitor's perspective)\n- {訪|おとず}れる: to visit (verb, slightly literary)\n- {来|く}る: to come (casual, everyday)\n\nREGISTER:\nFormal. Commonly used in business, official, and written contexts. In everyday conversation, people more often say {来|く}る or {訪|たず}ねる.",
+  "notes": "{来訪|らいほう} is a formal word for someone coming to visit. It describes the visit from the perspective of the place or person being visited — someone comes to you.\n\nCOMMON COLLOCATIONS:\n- ⟦{来訪者|らいほうしゃ}→来訪者：24478_raihousha⟧: visitor, caller\n- {来訪|らいほう}⟦する→する：00392_suru⟧: to visit, to call on\n- {来訪|らいほう}⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧: to receive a visit\n- ⟦{突然|とつぜん}→突然：00409_totsuzen⟧⟦の→の：09472_no⟧{来訪|らいほう}: unexpected visit\n\nSIMILAR WORDS:\n- ⟦{訪問|ほうもん}→訪問：03622_houmon⟧: visiting someone (from the visitor's perspective)\n- ⟦{訪|おとず}れる→訪れる：07678_otozureru⟧: to visit (verb, slightly literary)\n- ⟦{来|く}る→来る：00254_kuru⟧: to come (casual, everyday)\n\nREGISTER:\nFormal. Commonly used in business, official, and written contexts. In everyday conversation, people more often say ⟦{来|く}る→来る：00254_kuru⟧ or ⟦{訪|たず}ねる→訪ねる：01182_tazuneru⟧.",
   "cross_references": [
     {
       "type": "contrast",
@@ -142,11 +142,25 @@
       "reading": "ほうもん",
       "headword": "{訪問|ほうもん}",
       "label": "visiting (from visitor's perspective)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07678_otozureru",
+      "reading": "おとずれる",
+      "headword": "{訪|おとず}れる",
+      "label": "to visit"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00254_kuru",
+      "reading": "くる",
+      "headword": "{来|く}る",
+      "label": "to come"
     }
   ],
   "metadata": {
     "created": "2026-02-23T11:16:43Z",
-    "modified": "2026-04-28T05:17:26Z",
+    "modified": "2026-09-02T04:01:31Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

@@ -15,39 +15,65 @@
   "examples": [
     {
       "id": "26016_mishiranuhito_ex1",
-      "japanese": "{見知|みし}らぬ{人|ひと}に{声|こえ}をかけられた。",
+      "japanese": "{見知|みし}らぬ{人|ひと}⟦に→に：00314_ni⟧⟦{声|こえ}→声：02207_koe⟧⟦を→を：00422_wo⟧かけられた。",
       "english": "A stranger spoke to me.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26016_mishiranuhito_ex2",
-      "japanese": "{見知|みし}らぬ{人|ひと}についていってはいけません。",
+      "japanese": "{見知|みし}らぬ{人|ひと}⟦について→〜について：03103_nitsuite⟧いって⟦は→は：00079_ha⟧⟦いけません→いける：06957_ikeru⟧。",
       "english": "You must not follow strangers.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26016_mishiranuhito_ex3",
-      "japanese": "{電車|でんしゃ}の{中|なか}で{見知|みし}らぬ{人|ひと}に{親切|しんせつ}にしてもらった。",
+      "japanese": "⟦{電車|でんしゃ}→電車：00522_densha⟧⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧⟦で→で：00502_de⟧{見知|みし}らぬ{人|ひと}⟦に→に：00314_ni⟧⟦{親切|しんせつ}→親切：01144_shinsetsu⟧にして⟦もらった→もらう：00520_morau⟧。",
       "english": "A stranger was kind to me on the train.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Uses the classical negative auxiliary ぬ (attached to the verb {見知|みし}る, \"to know by sight\"), which is preserved as a fixed expression in modern Japanese. Sounds slightly more literary or formal than {知|し}らない{人|ひと}.\n\nCOMMON COLLOCATIONS:\n- {見知|みし}らぬ{人|ひと}に{声|こえ}をかけられる: to be spoken to by a stranger\n- {見知|みし}らぬ{土地|とち}: unfamiliar land\n- {見知|みし}らぬ{顔|かお}: an unfamiliar face\n- {見知|みし}らぬ{番号|ばんごう}: an unknown number\n\nSIMILAR WORDS:\n- {知|し}らない{人|ひと}: someone you don't know — the everyday, conversational equivalent\n- {他人|たにん}: other person; stranger — emphasizes social distance or non-relation\n- {赤|あか}の{他人|たにん}: a complete stranger — emphatic form stressing total lack of connection",
-  "cross_references": [],
+  "notes": "Uses the classical negative auxiliary ぬ (attached to the verb ⟦{見知|みし}る→見知る：14589_mishiru⟧, \"to know by sight\"), which is preserved as a fixed expression in modern Japanese. Sounds slightly more literary or formal than ⟦{知|し}らない→知る：00458_shiru⟧⟦{人|ひと}→人：00476_hito⟧.\n\nCOMMON COLLOCATIONS:\n- {見知|みし}らぬ{人|ひと}⟦に→に：00314_ni⟧⟦{声|こえ}→声：02207_koe⟧⟦を→を：00422_wo⟧⟦かけられる→かける：00854_kakeru⟧: to be spoken to by a stranger\n- ⟦{見知|みし}らぬ→見知る：14589_mishiru⟧⟦{土地|とち}→土地：02226_tochi⟧: unfamiliar land\n- ⟦{見知|みし}らぬ→見知る：14589_mishiru⟧⟦{顔|かお}→顔：00558_kao⟧: an unfamiliar face\n- ⟦{見知|みし}らぬ→見知る：14589_mishiru⟧⟦{番号|ばんごう}→番号：02939_bangou⟧: an unknown number\n\nSIMILAR WORDS:\n- ⟦{知|し}らない→知る：00458_shiru⟧⟦{人|ひと}→人：00476_hito⟧: someone you don't know — the everyday, conversational equivalent\n- ⟦{他人|たにん}→他人：01459_tanin⟧: other person; stranger — emphasizes social distance or non-relation\n- ⟦{赤|あか}の{他人|たにん}→赤の他人：07455_akanotanin⟧: a complete stranger — emphatic form stressing total lack of connection",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01459_tanin",
+      "reading": "たにん",
+      "headword": "{他人|たにん}",
+      "label": "other person"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07455_akanotanin",
+      "reading": "あかのたにん",
+      "headword": "{赤|あか}の{他人|たにん}",
+      "label": "a complete stranger"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["person"]
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "person"
+      ]
     },
     "created": "2026-04-28T16:12:48Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T04:02:24Z"
   }
 }

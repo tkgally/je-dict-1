@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "14998_houshasen_ex1",
-      "japanese": "{放射線|ほうしゃせん}を{浴|あ}びないように{注意|ちゅうい}する。",
+      "japanese": "{放射線|ほうしゃせん}⟦を→を：00422_wo⟧⟦{浴|あ}びない→浴びる：02844_abiru⟧よう⟦に→に：00314_ni⟧⟦{注意|ちゅうい}→注意：01464_chuui⟧⟦する→する：00392_suru⟧。",
       "english": "Take care not to be exposed to radiation.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "14998_houshasen_ex2",
-      "japanese": "レントゲンは{放射線|ほうしゃせん}を{使|つか}って{体|からだ}の{中|なか}を{撮影|さつえい}する。",
+      "japanese": "⟦レントゲン→レントゲン：11219_rentogen⟧⟦は→は：00079_ha⟧{放射線|ほうしゃせん}⟦を→を：00422_wo⟧⟦{使|つか}って→使う：00473_tsukau⟧⟦{体|からだ}→体：00784_karada⟧⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧⟦を→を：00422_wo⟧⟦{撮影|さつえい}する→撮影する：21990_satsueisuru⟧。",
       "english": "X-rays use radiation to photograph the inside of the body.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "14998_houshasen_ex3",
-      "japanese": "{放射線|ほうしゃせん}の{量|りょう}が{基準値|きじゅんち}を{超|こ}えていないか、{定期的|ていきてき}に{測定|そくてい}している。",
+      "japanese": "{放射線|ほうしゃせん}⟦の→の：09472_no⟧⟦{量|りょう}→量：03799_ryou⟧⟦が→が：00051_ga⟧{基準値|きじゅんち}⟦を→を：00422_wo⟧⟦{超|こ}えていない→超える：01942_koeru⟧⟦か→か：09473_ka⟧、⟦{定期的|ていきてき}→定期的：06173_teikiteki⟧⟦に→に：00314_ni⟧⟦{測定|そくてい}→測定：04398_sokutei⟧⟦している→する：00392_suru⟧。",
       "english": "We regularly measure whether radiation levels exceed the standard values.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{放射線|ほうしゃせん} is a scientific term that is widely known in everyday Japanese, especially after the 2011 Fukushima nuclear disaster. It appears frequently in news, health, and science contexts.\n\nCOMMON COLLOCATIONS:\n- {放射線|ほうしゃせん}を{浴|あ}びる (to be exposed to radiation)\n- {放射線|ほうしゃせん}{治療|ちりょう} (radiation therapy)\n- {放射線|ほうしゃせん}{量|りょう} (radiation dose)\n- {放射線|ほうしゃせん}{技師|ぎし} (radiological technologist)\n\nSIMILAR WORDS:\n- {放射線|ほうしゃせん}: radiation (the rays/energy emitted)\n- {放射能|ほうしゃのう}: radioactivity (the property of emitting radiation)\n- {放射性物質|ほうしゃせいぶっしつ}: radioactive material (the substance itself)",
+  "notes": "USAGE:\n{放射線|ほうしゃせん} is a scientific term that is widely known in everyday Japanese, especially after the 2011 Fukushima nuclear disaster. It appears frequently in news, health, and science contexts.\n\nCOMMON COLLOCATIONS:\n- {放射線|ほうしゃせん}⟦を→を：00422_wo⟧⟦{浴|あ}びる→浴びる：02844_abiru⟧ (to be exposed to radiation)\n- {放射線|ほうしゃせん}⟦{治療|ちりょう}→治療：03503_chiryou⟧ (radiation therapy)\n- {放射線|ほうしゃせん}{量|りょう} (radiation dose)\n- {放射線|ほうしゃせん}⟦{技師|ぎし}→技師：02680_gishi⟧ (radiological technologist)\n\nSIMILAR WORDS:\n- {放射線|ほうしゃせん}: radiation (the rays/energy emitted)\n- ⟦{放射能|ほうしゃのう}→放射能：13035_houshanou⟧: radioactivity (the property of emitting radiation)\n- {放射性物質|ほうしゃせいぶっしつ}: radioactive material (the substance itself)",
   "cross_references": [
     {
       "type": "related",
@@ -52,11 +52,39 @@
       "reading": "ほうしゃのう",
       "headword": "{放射能|ほうしゃのう}",
       "label": "radioactivity"
+    },
+    {
+      "type": "related",
+      "target_id": "04144_kousen",
+      "reading": "こうせん",
+      "headword": "{光線|こうせん}",
+      "label": "beam, ray of light"
+    },
+    {
+      "type": "related",
+      "target_id": "15005_sekigaisen",
+      "reading": "せきがいせん",
+      "headword": "{赤外線|せきがいせん}",
+      "label": "infrared"
+    },
+    {
+      "type": "related",
+      "target_id": "17900_denjiha",
+      "reading": "でんじは",
+      "headword": "{電磁波|でんじは}",
+      "label": "electromagnetic waves"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22759_hibaku",
+      "reading": "ひばく",
+      "headword": "{被曝|ひばく}",
+      "label": "radiation exposure"
     }
   ],
   "metadata": {
     "created": "2026-03-04T11:09:48Z",
-    "modified": "2026-04-28T04:13:10Z",
+    "modified": "2026-09-02T04:01:39Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

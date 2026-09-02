@@ -3,7 +3,7 @@
   "headword": "{海外旅行|かいがいりょこう}",
   "reading": "かいがいりょこう",
   "romaji": "kaigairyokou",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "overseas travel; international travel; trip abroad",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24321_kaigairyokou_ex1",
-      "japanese": "{初|はじ}めての{海外旅行|かいがいりょこう}は{緊張|きんちょう}した。",
+      "japanese": "⟦{初|はじ}めて→初めて：02932_hajimete⟧⟦の→の：09472_no⟧{海外旅行|かいがいりょこう}⟦は→は：00079_ha⟧⟦{緊張|きんちょう}した→緊張する：20557_kinchousuru⟧。",
       "english": "I was nervous on my first overseas trip.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24321_kaigairyokou_ex2",
-      "japanese": "{海外旅行|かいがいりょこう}にはパスポートが{必要|ひつよう}だ。",
+      "japanese": "{海外旅行|かいがいりょこう}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦パスポート→パスポート：00341_pasupooto⟧⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧だ。",
       "english": "You need a passport for overseas travel.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24321_kaigairyokou_ex3",
-      "japanese": "{円安|えんやす}の{影響|えいきょう}で{海外旅行|かいがいりょこう}の{費用|ひよう}が{以前|いぜん}より{高|たか}くなっている。",
+      "japanese": "⟦{円安|えんやす}→円安：04854_enyasu⟧⟦の→の：09472_no⟧⟦{影響|えいきょう}→影響：01877_eikyou⟧⟦で→で：00502_de⟧{海外旅行|かいがいりょこう}⟦の→の：09472_no⟧⟦{費用|ひよう}→費用：03588_hiyou⟧⟦が→が：00051_ga⟧⟦{以前|いぜん}→以前：01790_izen⟧⟦より→より：09476_yori⟧⟦{高|たか}く→高い：00500_takai⟧⟦なっている→なる：01970_naru⟧。",
       "english": "Due to the weak yen, the cost of overseas travel has become higher than before.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {海外|かいがい} (overseas) + {旅行|りょこう} (travel). One of the most commonly used travel-related compounds in Japanese. Frequently appears in travel agency advertising, insurance products, and everyday conversation about vacation plans.\n\nCOMMON COLLOCATIONS:\n- {海外旅行|かいがいりょこう}に{行|い}く — go on an overseas trip\n- {海外旅行|かいがいりょこう}{保険|ほけん} — overseas travel insurance\n- {海外旅行|かいがいりょこう}が{好|す}き — like traveling abroad\n- {海外旅行|かいがいりょこう}の{準備|じゅんび} — preparation for overseas travel\n\nSIMILAR WORDS:\n- {国内旅行|こくないりょこう} — domestic travel; the counterpart for travel within Japan\n- {渡航|とこう} — traveling abroad; more formal and administrative, used in official contexts like visa applications\n- {外遊|がいゆう} — foreign tour; a formal term, often used for official or diplomatic trips abroad",
+  "notes": "Composed of ⟦{海外|かいがい}→海外：00134_kaigai⟧ (overseas) + ⟦{旅行|りょこう}→旅行：00748_ryokou⟧ (travel). One of the most commonly used travel-related compounds in Japanese. Frequently appears in travel agency advertising, insurance products, and everyday conversation about vacation plans.\n\nCOMMON COLLOCATIONS:\n- {海外旅行|かいがいりょこう}⟦に→に：00314_ni⟧⟦{行|い}く→行く：00119_iku⟧ — go on an overseas trip\n- {海外旅行|かいがいりょこう}{保険|ほけん} — overseas travel insurance\n- {海外旅行|かいがいりょこう}⟦が→が：00051_ga⟧⟦{好|す}き→好き：02355_suki⟧ — like traveling abroad\n- {海外旅行|かいがいりょこう}⟦の→の：09472_no⟧⟦{準備|じゅんび}→準備：01431_junbi⟧ — preparation for overseas travel\n\nSIMILAR WORDS:\n- ⟦{国内旅行|こくないりょこう}→国内旅行：24242_kokunairyokou⟧ — domestic travel; the counterpart for travel within Japan\n- ⟦{渡航|とこう}→渡航：17919_tokou⟧ — traveling abroad; more formal and administrative, used in official contexts like visa applications\n- {外遊|がいゆう} — foreign tour; a formal term, often used for official or diplomatic trips abroad",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24242_kokunairyokou",
+      "reading": "こくないりょこう",
+      "headword": "{国内旅行|こくないりょこう}",
+      "label": "domestic travel"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17919_tokou",
+      "reading": "とこう",
+      "headword": "{渡航|とこう}",
+      "label": "traveling abroad"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24173_kaigaishucchou",
+      "reading": "かいがいしゅっちょう",
+      "headword": "{海外出張|かいがいしゅっちょう}",
+      "label": "overseas business trip"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +76,14 @@
         "noun",
         "verb-suru"
       ],
+      "politeness": "plain",
       "semantic": [
         "travel"
       ],
       "verb_class": "suru"
     },
     "created": "2026-04-18T13:23:19Z",
-    "modified": "2026-04-18T13:23:19Z"
+    "modified": "2026-09-02T04:02:17Z"
   },
   "conjugation": {
     "type": "suru",

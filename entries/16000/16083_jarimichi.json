@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "16083_jarimichi_ex1",
-      "japanese": "{砂利|じゃり}{道|みち}を{歩|ある}く。",
+      "japanese": "{砂利|じゃり}{道|みち}⟦を→を：00422_wo⟧⟦{歩|ある}く→歩く：00538_aruku⟧。",
       "english": "To walk on a gravel road.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "16083_jarimichi_ex2",
-      "japanese": "{砂利|じゃり}{道|みち}は{自転車|じてんしゃ}で{走|はし}りにくい。",
+      "japanese": "{砂利|じゃり}{道|みち}⟦は→は：00079_ha⟧⟦{自転車|じてんしゃ}→自転車：00633_jitensha⟧⟦で→で：00502_de⟧⟦{走|はし}り→走る：00519_hashiru⟧にくい。",
       "english": "Gravel roads are hard to ride a bicycle on.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "16083_jarimichi_ex3",
-      "japanese": "{神社|じんじゃ}の{参道|さんどう}は{長|なが}い{砂利|じゃり}{道|みち}で、{足音|あしおと}がジャリジャリと{響|ひび}いた。",
+      "japanese": "⟦{神社|じんじゃ}→神社：01620_jinja⟧⟦の→の：09472_no⟧⟦{参道|さんどう}→参道：11980_sandou⟧⟦は→は：00079_ha⟧⟦{長|なが}い→長い：00491_nagai⟧{砂利|じゃり}{道|みち}で、⟦{足音|あしおと}→足音：02991_ashioto⟧⟦が→が：00051_ga⟧ジャリジャリ⟦と→と：00512_to⟧⟦{響|ひび}いた→響く：00099_hibiku⟧。",
       "english": "The approach to the shrine was a long gravel path, and my footsteps crunched loudly.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,40 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA concrete, everyday noun. Gravel paths are characteristic of Japanese shrine and temple grounds, traditional gardens, and rural areas.\n\nCOMMON COLLOCATIONS:\n- {砂利|じゃり}{道|みち}を{歩|ある}く (to walk on a gravel road)\n- {砂利|じゃり}{道|みち}を{走|はし}る (to drive/run on a gravel road)\n\nSIMILAR WORDS:\n- {未舗装|みほそう}{道路|どうろ}: unpaved road — broader category including dirt and gravel\n- {舗装|ほそう}{道路|どうろ}: paved road — the opposite",
-  "cross_references": [],
+  "notes": "USAGE:\nA concrete, everyday noun. Gravel paths are characteristic of Japanese shrine and temple grounds, traditional gardens, and rural areas.\n\nCOMMON COLLOCATIONS:\n- {砂利|じゃり}{道|みち}⟦を→を：00422_wo⟧⟦{歩|ある}く→歩く：00538_aruku⟧ (to walk on a gravel road)\n- {砂利|じゃり}{道|みち}⟦を→を：00422_wo⟧⟦{走|はし}る→走る：00519_hashiru⟧ (to drive/run on a gravel road)\n\nSIMILAR WORDS:\n- {未舗装|みほそう}{道路|どうろ}: unpaved road — broader category including dirt and gravel\n- ⟦{舗装|ほそう}{道路|どうろ}→舗装道路：29423_hosoudouro⟧: paved road — the opposite",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "29423_hosoudouro",
+      "reading": "ほそうどうろ",
+      "headword": "{舗装道路|ほそうどうろ}",
+      "label": "paved road"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08397_hosou",
+      "reading": "ほそう",
+      "headword": "{舗装|ほそう}",
+      "label": "paving"
+    },
+    {
+      "type": "related",
+      "target_id": "10736_asufaruto",
+      "reading": "あすふぁると",
+      "headword": "アスファルト",
+      "label": "asphalt, pavement"
+    },
+    {
+      "type": "related",
+      "target_id": "17492_mihosou",
+      "reading": "みほそう",
+      "headword": "{未舗装|みほそう}",
+      "label": "unpaved"
+    }
+  ],
   "metadata": {
     "created": "2026-03-09T12:20:47Z",
-    "modified": "2026-07-18T12:31:39Z",
+    "modified": "2026-09-02T04:01:43Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

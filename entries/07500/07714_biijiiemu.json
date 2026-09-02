@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "07714_biijiiemu_ex1",
-      "japanese": "BGMを{流|なが}す。",
+      "japanese": "BGM⟦を→を：00422_wo⟧⟦{流|なが}す→流す：01968_nagasu⟧。",
       "english": "To play background music.",
       "has_audio": false,
       "sense_numbers": [
@@ -23,7 +23,7 @@
     },
     {
       "id": "07714_biijiiemu_ex2",
-      "japanese": "この{映画|えいが}のBGMが{好|す}きだ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{映画|えいが}→映画：02273_eiga⟧⟦の→の：09472_no⟧BGM⟦が→が：00051_ga⟧⟦{好|す}き→好き：02355_suki⟧だ。",
       "english": "I like the background music of this movie.",
       "has_audio": false,
       "sense_numbers": [
@@ -32,7 +32,7 @@
     },
     {
       "id": "07714_biijiiemu_ex3",
-      "japanese": "{店内|てんない}に{静|しず}かなBGMが{流|なが}れていた。",
+      "japanese": "⟦{店内|てんない}→店内：03124_tennai⟧⟦に→に：00314_ni⟧⟦{静|しず}か→静か：00755_shizuka⟧なBGM⟦が→が：00051_ga⟧⟦{流|なが}れていた→流れる：01969_nagareru⟧。",
       "english": "Quiet background music was playing in the store.",
       "has_audio": false,
       "sense_numbers": [
@@ -40,10 +40,19 @@
       ]
     }
   ],
-  "notes": "Abbreviation of English \"background music.\" Widely used in Japan — more common than the full English phrase.\n\nUSAGE:\nUsed across many contexts:\n- Film, TV, and anime production\n- Video games (game BGM is a major genre)\n- Retail stores and restaurants\n- Websites and apps\n- Personal playlists for studying, working, etc.\n\nCOMMON COLLOCATIONS:\n- BGMを{流|なが}す: to play background music\n- BGMを{変|か}える: to change the background music\n- BGMが{流|なが}れる: background music plays\n- BGMなしで: without background music\n\nRELATED:\n- {効果音|こうかおん}: sound effects (SE)\n- サウンドトラック: soundtrack\n- {劇伴|げきばん}: incidental music (for dramas/films)",
+  "notes": "Abbreviation of English \"background music.\" Widely used in Japan — more common than the full English phrase.\n\nUSAGE:\nUsed across many contexts:\n- Film, TV, and anime production\n- Video games (game BGM is a major genre)\n- Retail stores and restaurants\n- Websites and apps\n- Personal playlists for studying, working, etc.\n\nCOMMON COLLOCATIONS:\n- BGM⟦を→を：00422_wo⟧⟦{流|なが}す→流す：01968_nagasu⟧: to play background music\n- BGM⟦を→を：00422_wo⟧⟦{変|か}える→変える：01089_kaeru⟧: to change the background music\n- BGM⟦が→が：00051_ga⟧⟦{流|なが}れる→流れる：01969_nagareru⟧: background music plays\n- BGMなし⟦で→で：00502_de⟧: without background music\n\nRELATED WORDS:\n- ⟦{効果音|こうかおん}→効果音：11924_koukaon⟧: sound effects (SE)\n- ⟦サウンド→サウンド：10961_saundo⟧⟦トラック→トラック：03863_torakku⟧: soundtrack\n- {劇伴|げきばん}: incidental music (for dramas/films)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "11924_koukaon",
+      "reading": "こうかおん",
+      "headword": "{効果音|こうかおん}",
+      "label": "sound effects"
+    }
+  ],
   "metadata": {
     "created": "2026-01-21T00:23:15Z",
-    "modified": "2026-04-03T06:54:49Z",
+    "modified": "2026-09-02T04:01:12Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -51,6 +60,7 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "media",
         "music"

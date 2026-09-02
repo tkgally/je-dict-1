@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29843_on_ex1",
-      "japanese": "スイッチをオンにする。",
+      "japanese": "⟦スイッチ→スイッチ：03848_suicchi⟧⟦を→を：00422_wo⟧オン⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧。",
       "english": "Turn the switch on.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29843_on_ex2",
-      "japanese": "{通知|つうち}をオンにしておいた。",
+      "japanese": "⟦{通知|つうち}→通知：04061_tsuuchi⟧⟦を→を：00422_wo⟧オンにしておいた。",
       "english": "I left notifications turned on.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29843_on_ex3",
-      "japanese": "エアコンがオンのままだったので、{電気代|でんきだい}が{高|たか}くなった。",
+      "japanese": "⟦エアコン→エアコン：05282_eakon⟧⟦が→が：00051_ga⟧オン⟦の→の：09472_no⟧ままだった⟦の→の：09472_no⟧で、⟦{電気代|でんきだい}→電気代：09543_denkidai⟧⟦が→が：00051_ga⟧⟦{高|たか}く→高い：00500_takai⟧⟦なった→なる：01970_naru⟧。",
       "english": "The air conditioner was left on, so the electricity bill went up.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Loanword from English 'on', referring to the activated state of a switch, device, or setting. Its opposite is オフ (off).\n\nCOMMON COLLOCATIONS:\n- オンにする: to turn on; to switch on\n- オン/オフ: on/off\n- オンの{状態|じょうたい}: the on state\n\nUSAGE:\nUnlike the English preposition 'on', Japanese オン is used only for the switched-on/activated sense. The work-life sense also appears in オンとオフ ('on-duty and off-duty').\n\nSIMILAR WORDS:\n- オフ: off — the opposite state\n- {入|い}れる / {切|き}る: to turn on / off — native verbs for operating a switch ({電源|でんげん}を{入|い}れる)",
+  "notes": "Loanword from English 'on', referring to the activated state of a switch, device, or setting. Its opposite is ⟦オフ→オフ：10733_ofu⟧ (off).\n\nCOMMON COLLOCATIONS:\n- オン⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧: to turn on; to switch on\n- オン/⟦オフ→オフ：10733_ofu⟧: on/off\n- オン⟦の→の：09472_no⟧⟦{状態|じょうたい}→状態：03345_joutai⟧: the on state\n\nUSAGE:\nUnlike the English preposition 'on', Japanese オン is used only for the switched-on/activated sense. The work-life sense also appears in オン⟦と→と：00512_to⟧⟦オフ→オフ：10733_ofu⟧ ('on-duty and off-duty').\n\nSIMILAR WORDS:\n- ⟦オフ→オフ：10733_ofu⟧: off — the opposite state\n- ⟦{入|い}れる→入れる：01098_ireru⟧ / ⟦{切|き}る→切る：02693_kiru⟧: to turn on / off — native verbs for operating a switch (⟦{電源|でんげん}→電源：04429_dengen⟧⟦を→を：00422_wo⟧⟦{入|い}れる→入れる：01098_ireru⟧)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01098_ireru",
+      "reading": "いれる",
+      "headword": "{入|い}れる",
+      "label": "to turn on / off"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02693_kiru",
+      "reading": "きる",
+      "headword": "{切|き}る",
+      "label": "to turn on / off"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +69,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "technology"
       ],
       "domain": []
     },
     "created": "2026-07-14T18:20:29Z",
-    "modified": "2026-07-14T18:20:29Z"
+    "modified": "2026-09-02T04:02:38Z"
   }
 }

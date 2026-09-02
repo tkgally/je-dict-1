@@ -15,41 +15,74 @@
   "examples": [
     {
       "id": "29866_tenkyosaki_ex1",
-      "japanese": "{転居先|てんきょさき}を{知|し}らせる。",
+      "japanese": "{転居先|てんきょさき}⟦を→を：00422_wo⟧⟦{知|し}らせる→知る：00458_shiru⟧。",
       "english": "To notify others of one's new address.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29866_tenkyosaki_ex2",
-      "japanese": "{手紙|てがみ}が{転居先|てんきょさき}に{転送|てんそう}された。",
+      "japanese": "⟦{手紙|てがみ}→手紙：00675_tegami⟧⟦が→が：00051_ga⟧{転居先|てんきょさき}⟦に→に：00314_ni⟧⟦{転送|てんそう}→転送：14792_tensou⟧⟦された→する：00392_suru⟧。",
       "english": "The letter was forwarded to the new address.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29866_tenkyosaki_ex3",
-      "japanese": "{引|ひ}っ{越|こ}したら、{転居先|てんきょさき}の{住所|じゅうしょ}を{役所|やくしょ}に{届|とど}け{出|で}る。",
+      "japanese": "⟦{引|ひ}っ{越|こ}したら→引っ越す：01171_hikkosu⟧、{転居先|てんきょさき}⟦の→の：09472_no⟧⟦{住所|じゅうしょ}→住所：01430_juusho⟧⟦を→を：00422_wo⟧⟦{役所|やくしょ}→役所：06455_yakusho⟧⟦に→に：00314_ni⟧⟦{届|とど}け{出|で}る→届け出る：05910_todokederu⟧。",
       "english": "After moving, you report your new address to the city office.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {転居|てんきょ} (moving residence) + {先|さき} (destination, place). The suffix {先|さき} marks a destination or contact point, as in {連絡先|れんらくさき} (contact) or {勤務先|きんむさき} (place of employment).\n\nCOMMON COLLOCATIONS:\n- {転居先|てんきょさき}{不明|ふめい}: new address unknown (as stamped on returned mail)\n- {転居先|てんきょさき}を{通知|つうち}する: to give notice of one's new address\n\nSIMILAR WORDS:\n- {引|ひ}っ{越|こ}し{先|さき}: place one is moving to — more casual, everyday phrasing\n- {新居|しんきょ}: new home — the residence itself rather than its address",
+  "notes": "Composed of ⟦{転居|てんきょ}→転居：15236_tenkyo⟧ (moving residence) + ⟦{先|さき}→先：02883_saki⟧ (destination, place). The suffix ⟦{先|さき}→先：02883_saki⟧ marks a destination or contact point, as in ⟦{連絡先|れんらくさき}→連絡先：03191_renrakusaki⟧ (contact) or ⟦{勤務先|きんむさき}→勤務先：08368_kinmusaki⟧ (place of employment).\n\nCOMMON COLLOCATIONS:\n- {転居先|てんきょさき}⟦{不明|ふめい}→不明：11352_fumei⟧: new address unknown (as stamped on returned mail)\n- {転居先|てんきょさき}⟦を→を：00422_wo⟧⟦{通知|つうち}する→通知する：19645_tsuuchisuru⟧: to give notice of one's new address\n\nSIMILAR WORDS:\n- ⟦{引|ひ}っ{越|こ}し{先|さき}→引っ越し先：21647_hikkoshisaki⟧: place one is moving to — more casual, everyday phrasing\n- ⟦{新居|しんきょ}→新居：19007_shinkyo⟧: new home — the residence itself rather than its address",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21647_hikkoshisaki",
+      "reading": "ひっこしさき",
+      "headword": "{引|ひ}っ{越|こ}し{先|さき}",
+      "label": "place one is moving to"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19007_shinkyo",
+      "reading": "しんきょ",
+      "headword": "{新居|しんきょ}",
+      "label": "new home"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26102_tensousaki",
+      "reading": "てんそうさき",
+      "headword": "{転送先|てんそうさき}",
+      "label": "forwarding destination"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["daily-life"],
+      "politeness": "plain",
+      "semantic": [
+        "daily-life"
+      ],
       "domain": []
     },
     "created": "2026-07-15T12:19:49Z",
-    "modified": "2026-07-15T12:19:49Z"
+    "modified": "2026-09-02T04:02:38Z"
   }
 }

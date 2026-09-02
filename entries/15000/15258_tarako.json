@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "15258_tarako_ex1",
-      "japanese": "たらこのおにぎりが{好|す}きだ。",
+      "japanese": "たらこ⟦の→の：09472_no⟧⟦おにぎり→おにぎり：04956_onigiri⟧⟦が→が：00051_ga⟧⟦{好|す}き→好き：02355_suki⟧だ。",
       "english": "I like cod roe rice balls.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "15258_tarako_ex2",
-      "japanese": "たらこパスタを{作|つく}った。",
+      "japanese": "たらこ⟦パスタ→パスタ：06768_pasuta⟧⟦を→を：00422_wo⟧⟦{作|つく}った→作る：00481_tsukuru⟧。",
       "english": "I made cod roe pasta.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "15258_tarako_ex3",
-      "japanese": "コンビニのおにぎりの{中|なか}で、たらこは{常|つね}に{人気|にんき}ランキングの{上位|じょうい}に{入|はい}る。",
+      "japanese": "⟦コンビニ→コンビニ：01081_konbini⟧⟦の→の：09472_no⟧⟦おにぎり→おにぎり：04956_onigiri⟧⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧⟦で→で：00502_de⟧、たらこ⟦は→は：00079_ha⟧⟦{常|つね}→常：28958_tsune⟧⟦に→に：00314_ni⟧⟦{人気|にんき}→人気：01488_ninki⟧⟦ランキング→ランキング：11195_rankingu⟧⟦の→の：09472_no⟧⟦{上位|じょうい}→上位：11188_joui⟧⟦に→に：00314_ni⟧⟦{入|はい}る→入る：00494_hairu⟧。",
       "english": "Among convenience store rice balls, cod roe consistently ranks near the top in popularity.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "WRITING: Usually written in hiragana (たらこ) or katakana (タラコ). The kanji {鱈子|たらこ} exists but is rarely used.\n\nETYMOLOGY: From {鱈|たら} (cod/pollock) + {子|こ} (child, here meaning eggs/roe).\n\nCULTURE: たらこ is one of Japan's most popular rice ball (おにぎり) fillings. たらこパスタ (cod roe pasta) is a uniquely Japanese pasta dish. Mentaiko ({明太子|めんたいこ}) is a spicier variety seasoned with chili pepper.\n\nCOMMON COLLOCATIONS:\n- たらこおにぎり: cod roe rice ball\n- たらこパスタ: cod roe pasta\n- たらこスパゲッティ: cod roe spaghetti\n- {焼|や}きたらこ: grilled cod roe\n\nSIMILAR WORDS:\n- たらこ: salted pollock roe (mild, not spicy)\n- {明太子|めんたいこ}: spicy pollock roe (seasoned with chili)\n- いくら: salmon roe (larger, individual eggs)\n- {数|かず}の{子|こ}: herring roe",
+  "notes": "WRITING: Usually written in hiragana (たらこ) or katakana (タラコ). The kanji {鱈子|たらこ} exists but is rarely used.\n\nETYMOLOGY: From {鱈|たら} (cod/pollock) + ⟦{子|こ}→子：09851_ko⟧ (child, here meaning eggs/roe).\n\nCULTURE: たらこ is one of Japan's most popular rice ball (⟦おにぎり→おにぎり：04956_onigiri⟧) fillings. たらこ⟦パスタ→パスタ：06768_pasuta⟧ (cod roe pasta) is a uniquely Japanese pasta dish. Mentaiko (⟦{明太子|めんたいこ}→明太子：12729_mentaiko⟧) is a spicier variety seasoned with chili pepper.\n\nCOMMON COLLOCATIONS:\n- たらこ⟦おにぎり→おにぎり：04956_onigiri⟧: cod roe rice ball\n- たらこ⟦パスタ→パスタ：06768_pasuta⟧: cod roe pasta\n- たらこ⟦スパゲッティ→スパゲッティ：30382_supagetti⟧: cod roe spaghetti\n- ⟦{焼|や}き→焼く：01123_yaku⟧たらこ: grilled cod roe\n\nSIMILAR WORDS:\n- たらこ: salted pollock roe (mild, not spicy)\n- ⟦{明太子|めんたいこ}→明太子：12729_mentaiko⟧: spicy pollock roe (seasoned with chili)\n- いくら: salmon roe (larger, individual eggs)\n- ⟦{数|かず}の{子|こ}→数の子：30539_kazunoko⟧: herring roe",
   "cross_references": [
     {
       "type": "contrast",
@@ -52,11 +52,25 @@
       "reading": "めんたいこ",
       "headword": "{明太子|めんたいこ}",
       "label": "spicy pollock roe"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30539_kazunoko",
+      "reading": "かずのこ",
+      "headword": "{数|かず}の{子|こ}",
+      "label": "herring roe"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21830_shirako",
+      "reading": "しらこ",
+      "headword": "{白子|しらこ}",
+      "label": "milt"
     }
   ],
   "metadata": {
     "created": "2026-03-05T10:29:07Z",
-    "modified": "2026-04-27T07:31:57Z",
+    "modified": "2026-09-02T04:01:40Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

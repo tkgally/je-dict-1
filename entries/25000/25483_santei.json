@@ -3,7 +3,7 @@
   "headword": "{算定|さんてい}",
   "reading": "さんてい",
   "romaji": "santei",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "calculation; assessment; computation",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25483_santei_ex1",
-      "japanese": "{保険料|ほけんりょう}を{算定|さんてい}する。",
+      "japanese": "⟦{保険料|ほけんりょう}→保険料：11058_hokenryou⟧⟦を→を：00422_wo⟧{算定|さんてい}⟦する→する：00392_suru⟧。",
       "english": "To calculate insurance premiums.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25483_santei_ex2",
-      "japanese": "{被害額|ひがいがく}の{算定|さんてい}には{時間|じかん}がかかる。",
+      "japanese": "⟦{被害額|ひがいがく}→被害額：30556_higaigaku⟧⟦の→の：09472_no⟧{算定|さんてい}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{時間|じかん}がかかる→時間がかかる：26082_jikangakakaru⟧。",
       "english": "Assessing the amount of damage takes time.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25483_santei_ex3",
-      "japanese": "{税額|ぜいがく}は{前年度|ぜんねんど}の{所得|しょとく}に{基|もと}づいて{算定|さんてい}されるため、{収入|しゅうにゅう}が{変動|へんどう}した{場合|ばあい}は{注意|ちゅうい}が{必要|ひつよう}だ。",
+      "japanese": "{税額|ぜいがく}⟦は→は：00079_ha⟧{前年度|ぜんねんど}⟦の→の：09472_no⟧⟦{所得|しょとく}→所得：09850_shotoku⟧⟦に→に：00314_ni⟧⟦{基|もと}づいて→基づく：02315_motozuku⟧{算定|さんてい}⟦される→する：00392_suru⟧⟦ため→ため：01145_tame⟧、⟦{収入|しゅうにゅう}→収入：03213_shuunyuu⟧⟦が→が：00051_ga⟧⟦{変動|へんどう}→変動：09936_hendou⟧⟦した→する：00392_suru⟧⟦{場合|ばあい}→場合：01704_baai⟧⟦は→は：00079_ha⟧⟦{注意|ちゅうい}→注意：01464_chuui⟧⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧だ。",
       "english": "Since the tax amount is calculated based on the previous year's income, caution is needed when income fluctuates.",
       "sense_numbers": [
         1
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {算|さん} (calculate) and {定|てい} (determine; fix). A formal term used predominantly in financial, insurance, tax, and administrative contexts. In everyday conversation, {計算|けいさん} is the standard word for \"calculation.\"\n\nCOMMON COLLOCATIONS:\n- {算定|さんてい}する: to calculate; to assess\n- {算定|さんてい}{基準|きじゅん}: calculation standard; assessment criteria\n- {算定|さんてい}{方法|ほうほう}: calculation method\n- {算定|さんてい}{根拠|こんきょ}: basis for calculation\n- {損害|そんがい}を{算定|さんてい}する: to assess damages\n\nSIMILAR WORDS:\n- {計算|けいさん}: calculation — the everyday general term for any kind of calculation\n- {試算|しさん}: trial calculation; estimate — a preliminary or rough calculation\n- {査定|さてい}: assessment; appraisal — evaluating the value or quality of something, often for pricing or performance reviews",
+  "notes": "A compound of {算|さん} (calculate) and {定|てい} (determine; fix). A formal term used predominantly in financial, insurance, tax, and administrative contexts. In everyday conversation, ⟦{計算|けいさん}→計算：02697_keisan⟧ is the standard word for \"calculation.\"\n\nCOMMON COLLOCATIONS:\n- {算定|さんてい}⟦する→する：00392_suru⟧: to calculate; to assess\n- {算定|さんてい}⟦{基準|きじゅん}→基準：00228_kijun⟧: calculation standard; assessment criteria\n- {算定|さんてい}{方法|ほうほう}: calculation method\n- {算定|さんてい}⟦{根拠|こんきょ}→根拠：10147_konkyo⟧: basis for calculation\n- ⟦{損害|そんがい}→損害：02615_songai⟧⟦を→を：00422_wo⟧{算定|さんてい}⟦する→する：00392_suru⟧: to assess damages\n\nSIMILAR WORDS:\n- ⟦{計算|けいさん}→計算：02697_keisan⟧: calculation — the everyday general term for any kind of calculation\n- ⟦{試算|しさん}→試算：08326_shisan⟧: trial calculation; estimate — a preliminary or rough calculation\n- ⟦{査定|さてい}→査定：07518_satei⟧: assessment; appraisal — evaluating the value or quality of something, often for pricing or performance reviews",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02697_keisan",
+      "reading": "けいさん",
+      "headword": "{計算|けいさん}",
+      "label": "calculation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08326_shisan",
+      "reading": "しさん",
+      "headword": "{試算|しさん}",
+      "label": "trial calculation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07518_satei",
+      "reading": "さてい",
+      "headword": "{査定|さてい}",
+      "label": "assessment"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15350_sanshutsu",
+      "reading": "さんしゅつ",
+      "headword": "{算出|さんしゅつ}",
+      "label": "calculation"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,14 +83,16 @@
         "noun",
         "verb-suru"
       ],
+      "politeness": "plain",
       "semantic": [
         "business",
         "finance"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-04-25T14:19:29Z",
-    "modified": "2026-04-25T14:19:29Z"
+    "modified": "2026-09-02T04:02:22Z"
   },
   "conjugation": {
     "type": "suru",

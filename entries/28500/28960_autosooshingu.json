@@ -3,7 +3,7 @@
   "headword": "アウトソーシング",
   "reading": "あうとそーしんぐ",
   "romaji": "autosooshingu",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "outsourcing",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28960_autosooshingu_ex1",
-      "japanese": "{業務|ぎょうむ}をアウトソーシングする。",
+      "japanese": "⟦{業務|ぎょうむ}→業務：09630_gyoumu⟧⟦を→を：00422_wo⟧アウトソーシング⟦する→する：00392_suru⟧。",
       "english": "To outsource business operations.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28960_autosooshingu_ex2",
-      "japanese": "アウトソーシングで{経費|けいひ}を{削減|さくげん}する。",
+      "japanese": "アウトソーシング⟦で→で：00502_de⟧⟦{経費|けいひ}→経費：04696_keihi⟧⟦を→を：00422_wo⟧⟦{削減|さくげん}する→削減する：25399_sakugensuru⟧。",
       "english": "To cut costs through outsourcing.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28960_autosooshingu_ex3",
-      "japanese": "{経理|けいり}{業務|ぎょうむ}を{専門|せんもん}{会社|がいしゃ}にアウトソーシングしている。",
+      "japanese": "⟦{経理|けいり}→経理：06439_keiri⟧⟦{業務|ぎょうむ}→業務：09630_gyoumu⟧⟦を→を：00422_wo⟧⟦{専門|せんもん}→専門：01251_senmon⟧{会社|がいしゃ}⟦に→に：00314_ni⟧アウトソーシング⟦している→する：00392_suru⟧。",
       "english": "We outsource our accounting operations to a specialist company.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "Loanword from English 'outsourcing'. A business-world term that has largely replaced earlier expressions like {外部委託|がいぶいたく}.\n\nCOMMON COLLOCATIONS:\n- アウトソーシングする: to outsource\n- アウトソーシング{化|か}: shift to outsourcing\n- アウトソーシング{会社|がいしゃ}: outsourcing company\n- {海外|かいがい}アウトソーシング: offshore outsourcing\n\nSIMILAR WORDS:\n- {外部委託|がいぶいたく}: external contracting — the formal Japanese equivalent, still common in legal and official documents\n- {業務委託|ぎょうむいたく}: business contracting — emphasizes a contractual arrangement",
+  "notes": "Loanword from English 'outsourcing'. A business-world term that has largely replaced earlier expressions like {外部委託|がいぶいたく}.\n\nCOMMON COLLOCATIONS:\n- アウトソーシング⟦する→する：00392_suru⟧: to outsource\n- アウトソーシング⟦{化|か}→〜化：28335_ka⟧: shift to outsourcing\n- アウトソーシング{会社|がいしゃ}: outsourcing company\n- ⟦{海外|かいがい}→海外：00134_kaigai⟧アウトソーシング: offshore outsourcing\n\nSIMILAR WORDS:\n- {外部委託|がいぶいたく}: external contracting — the formal Japanese equivalent, still common in legal and official documents\n- {業務委託|ぎょうむいたく}: business contracting — emphasizes a contractual arrangement",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "05620_itaku",
+      "reading": "いたく",
+      "headword": "{委託|いたく}",
+      "label": "entrustment"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -54,17 +63,18 @@
         "verb-suru"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "business"
       ],
       "domain": [
         "business"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-06-08T04:06:16Z",
-    "modified": "2026-06-08T04:06:16Z"
+    "modified": "2026-09-02T04:02:35Z"
   },
   "conjugation": {
     "type": "suru",

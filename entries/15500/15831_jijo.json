@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "15831_jijo_ex1",
-      "japanese": "{次女|じじょ}は{大学生|だいがくせい}です。",
+      "japanese": "{次女|じじょ}⟦は→は：00079_ha⟧⟦{大学生|だいがくせい}→大学生：01653_daigakusei⟧です。",
       "english": "My second daughter is a university student.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "15831_jijo_ex2",
-      "japanese": "{次女|じじょ}が{来月|らいげつ}{結婚|けっこん}することになった。",
+      "japanese": "{次女|じじょ}⟦が→が：00051_ga⟧⟦{来月|らいげつ}→来月：00744_raigetsu⟧⟦{結婚|けっこん}→結婚：02514_kekkon⟧⟦する→する：00392_suru⟧ことになった。",
       "english": "Our second daughter is getting married next month.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "15831_jijo_ex3",
-      "japanese": "{田中|たなか}さんの{次女|じじょ}は{海外|かいがい}で{働|はたら}いていると{聞|き}いた。",
+      "japanese": "⟦{田中|たなか}→田中：09528_tanaka⟧さん⟦の→の：09472_no⟧{次女|じじょ}⟦は→は：00079_ha⟧⟦{海外|かいがい}→海外：00134_kaigai⟧⟦で→で：00502_de⟧⟦{働|はたら}いている→働く：00503_hataraku⟧⟦と→と：00512_to⟧⟦{聞|き}いた→聞く：00483_kiku⟧。",
       "english": "I heard that Tanaka's second daughter is working overseas.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "{次女|じじょ} is a formal term for the second-born daughter. Used in introductions, news reports, official documents, and {戸籍|こせき} (family register). In casual speech, people typically say {二番目|にばんめ}の{娘|むすめ} instead.\n\nWORD FORMATION:\n{次|じ} (next, second) + {女|じょ} (daughter). The same {次|じ} prefix appears in {次男|じなん} (second son).\n\nFAMILY ORDER TERMS:\n- {長女|ちょうじょ}: eldest daughter\n- {次女|じじょ}: second daughter\n- {三女|さんじょ}: third daughter\n- {長男|ちょうなん}: eldest son\n- {次男|じなん}: second son\n- {三男|さんなん}: third son",
+  "notes": "{次女|じじょ} is a formal term for the second-born daughter. Used in introductions, news reports, official documents, and ⟦{戸籍|こせき}→戸籍：12695_koseki⟧ (family register). In casual speech, people typically say ⟦{二番目|にばんめ}→二番目：30362_nibanme⟧⟦の→の：09472_no⟧⟦{娘|むすめ}→娘：02263_musume⟧ instead.\n\nFORMS:\n{次|じ} (next, second) + {女|じょ} (daughter). The same {次|じ} prefix appears in ⟦{次男|じなん}→次男：13210_jinan⟧ (second son).\n\nFAMILY ORDER TERMS:\n- ⟦{長女|ちょうじょ}→長女：14518_choujo⟧: eldest daughter\n- {次女|じじょ}: second daughter\n- ⟦{三女|さんじょ}→三女：10690_sanjo⟧: third daughter\n- ⟦{長男|ちょうなん}→長男：14519_chounan⟧: eldest son\n- ⟦{次男|じなん}→次男：13210_jinan⟧: second son\n- ⟦{三男|さんなん}→三男：10689_sannan⟧: third son",
   "cross_references": [
     {
       "type": "related",
@@ -59,11 +59,18 @@
       "reading": "じなん",
       "headword": "{次男|じなん}",
       "label": "second son"
+    },
+    {
+      "type": "related",
+      "target_id": "18548_suemusume",
+      "reading": "すえむすめ",
+      "headword": "{末娘|すえむすめ}",
+      "label": "youngest daughter"
     }
   ],
   "metadata": {
     "created": "2026-03-08T12:24:55Z",
-    "modified": "2026-05-02T06:35:29Z",
+    "modified": "2026-09-02T04:01:42Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

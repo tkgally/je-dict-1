@@ -3,7 +3,7 @@
   "id": "14450_rengou",
   "headword": "{連合|れんごう}",
   "reading": "れんごう",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "union; alliance; coalition",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "14450_rengou_ex1",
-      "japanese": "{連合|れんごう}を{組|く}む。",
+      "japanese": "{連合|れんごう}⟦を→を：00422_wo⟧⟦{組|く}む→組む：02050_kumu⟧。",
       "english": "To form an alliance.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "14450_rengou_ex2",
-      "japanese": "いくつかの{政党|せいとう}が{連合|れんごう}して{政権|せいけん}を{握|にぎ}った。",
+      "japanese": "いくつ⟦か→か：09473_ka⟧⟦の→の：09472_no⟧⟦{政党|せいとう}→政党：04338_seitou⟧⟦が→が：00051_ga⟧{連合|れんごう}⟦して→する：00392_suru⟧⟦{政権|せいけん}→政権：12883_seiken⟧⟦を→を：00422_wo⟧⟦{握|にぎ}った→握る：02383_nigiru⟧。",
       "english": "Several political parties formed a coalition and seized power.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "14450_rengou_ex3",
-      "japanese": "{労働|ろうどう}{組合|くみあい}の{連合|れんごう}が{賃上|ちんあ}げを{求|もと}めて{交渉|こうしょう}を{続|つづ}けている。",
+      "japanese": "⟦{労働|ろうどう}{組合|くみあい}→労働組合：16096_roudoukumiai⟧⟦の→の：09472_no⟧{連合|れんごう}⟦が→が：00051_ga⟧⟦{賃上|ちんあ}げ→賃上げ：14256_chinage⟧⟦を→を：00422_wo⟧⟦{求|もと}めて→求める：02316_motomeru⟧⟦{交渉|こうしょう}→交渉：02727_koushou⟧⟦を→を：00422_wo⟧⟦{続|つづ}け→続く：00903_tsuzuku⟧て⟦いる→いる：00495_iru⟧。",
       "english": "A federation of labor unions continues to negotiate for wage increases.",
       "sense_numbers": [
         1
@@ -134,7 +134,7 @@
       "notes": null
     }
   ],
-  "notes": "USAGE:\n{連合|れんごう} can function as both a noun and a する verb. As a noun, it refers to an alliance or union of entities. As a verb ({連合|れんごう}する), it means to unite or join forces.\n\nCOMMON COLLOCATIONS:\n- {連合|れんごう}を{組|く}む (to form an alliance)\n- {連合|れんごう}を{結|むす}ぶ (to enter into an alliance)\n- {連合|れんごう}{軍|ぐん} (allied forces)\n- {連合|れんごう}{国|こく} (United Nations)\n\nRELATED WORDS:\n{連合|れんごう}{国|こく} is the Japanese term for the United Nations. {連合|れんごう}{軍|ぐん} refers to allied forces, commonly used when discussing World War II history.",
+  "notes": "USAGE:\n{連合|れんごう} can function as both a noun and a ⟦する→する：00392_suru⟧ verb. As a noun, it refers to an alliance or union of entities. As a verb ({連合|れんごう}⟦する→する：00392_suru⟧), it means to unite or join forces.\n\nCOMMON COLLOCATIONS:\n- {連合|れんごう}⟦を→を：00422_wo⟧⟦{組|く}む→組む：02050_kumu⟧ (to form an alliance)\n- {連合|れんごう}⟦を→を：00422_wo⟧⟦{結|むす}ぶ→結ぶ：02308_musubu⟧ (to enter into an alliance)\n- {連合|れんごう}{軍|ぐん} (allied forces)\n- {連合|れんごう}{国|こく} (United Nations)\n\nRELATED WORDS:\n{連合|れんごう}{国|こく} is the Japanese term for the United Nations. {連合|れんごう}{軍|ぐん} refers to allied forces, commonly used when discussing World War II history.",
   "cross_references": [
     {
       "type": "synonym",
@@ -142,11 +142,25 @@
       "reading": "どうめい",
       "headword": "{同盟|どうめい}",
       "label": "alliance"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04185_goudou",
+      "reading": "ごうどう",
+      "headword": "{合同|ごうどう}",
+      "label": "joint, combined, merger"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23112_renmei",
+      "reading": "れんめい",
+      "headword": "{連盟|れんめい}",
+      "label": "league"
     }
   ],
   "metadata": {
     "created": "2026-03-01T09:55:01Z",
-    "modified": "2026-04-30T07:28:10Z",
+    "modified": "2026-09-02T04:01:37Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

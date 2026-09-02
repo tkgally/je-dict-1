@@ -63,11 +63,47 @@
       ]
     }
   ],
-  "notes": "むしろ is used to indicate preference or to suggest an alternative that is more appropriate or accurate than what was previously stated.\n\nCOMMON PATTERNS:\n- AよりむしろB: B rather than A\n- むしろ〜ほうがいい: it's better to... instead\n- むしろ〜くらいだ: if anything, ...\n\nUSAGE:\nOften used to correct or refine a previous statement, or to express that the opposite of what might be expected is true.\n\nSIMILAR WORDS:\n- ⟦{却|かえ}って→却って：05782_kaette⟧: on the contrary (emphasizes unexpected result)\n- ⟦{逆|ぎゃく}に→逆に：08269_gyakuni⟧: conversely (focuses on reversal)\n- ⟦どちらかといえば→どちらかといえば：22261_dochirakatoieba⟧: if anything, rather",
-  "cross_references": [],
+  "notes": "むしろ is used to indicate preference or to suggest an alternative that is more appropriate or accurate than what was previously stated.\n\nCOMMON PATTERNS:\n- A⟦より→より：09476_yori⟧むしろB: B rather than A\n- むしろ〜⟦ほうがいい→ほうがいい：10078_hougaii⟧: it's better to... instead\n- むしろ〜くらいだ: if anything, ...\n\nUSAGE:\nOften used to correct or refine a previous statement, or to express that the opposite of what might be expected is true.\n\nSIMILAR WORDS:\n- ⟦{却|かえ}って→却って：05782_kaette⟧: on the contrary (emphasizes unexpected result)\n- ⟦{逆|ぎゃく}に→逆に：08269_gyakuni⟧: conversely (focuses on reversal)\n- ⟦どちらかといえば→どちらかといえば：22261_dochirakatoieba⟧: if anything, rather",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05782_kaette",
+      "reading": "かえって",
+      "headword": "{却|かえ}って",
+      "label": "on the contrary"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08269_gyakuni",
+      "reading": "ぎゃくに",
+      "headword": "{逆|ぎゃく}に",
+      "label": "conversely"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22261_dochirakatoieba",
+      "reading": "どちらかといえば",
+      "headword": "どちらかといえば",
+      "label": "if anything, rather"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20574_issonokoto",
+      "reading": "いっそのこと",
+      "headword": "いっそのこと",
+      "label": "might as well"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25017_dochirakatoiuto",
+      "reading": "どちらかというと",
+      "headword": "どちらかというと",
+      "label": "if anything"
+    }
+  ],
   "metadata": {
     "created": "2026-01-09T08:28:44Z",
-    "modified": "2026-05-20T15:19:49Z",
+    "modified": "2026-09-02T04:01:01Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "05612_tasuu_ex1",
-      "japanese": "{多数|たすう}⟦の→の：09472_no⟧⟦{人|ひと}→人：00476_hito⟧⟦が→が：00051_ga⟧⟦{参加|さんか}→参加：02498_sanka⟧した。",
+      "japanese": "{多数|たすう}⟦の→の：09472_no⟧⟦{人|ひと}→人：00476_hito⟧⟦が→が：00051_ga⟧⟦{参加|さんか}→参加：02498_sanka⟧⟦した→する：00392_suru⟧。",
       "english": "A large number of people participated.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "05612_tasuu_ex3",
-      "japanese": "{多数|たすう}⟦{派|は}→派：28356_ha⟧⟦が→が：00051_ga⟧⟦{勝利|しょうり}→勝利：11795_shouri⟧した。",
+      "japanese": "{多数|たすう}⟦{派|は}→派：28356_ha⟧⟦が→が：00051_ga⟧⟦{勝利|しょうり}→勝利：11795_shouri⟧⟦した→する：00392_suru⟧。",
       "english": "The majority group won.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{多数|たすう} means \"majority\" or \"large number.\" It combines {多|た} (many) + {数|すう} (number).\n\nUSAGE PATTERNS:\n- {多数|たすう}の + noun: a large number of...\n- {多数|たすう}⟦を→を：00422_wo⟧⟦{占|し}める→占める：11799_shimeru⟧: to constitute the majority\n- {多数|たすう}⟦に→に：00314_ni⟧⟦{上|のぼ}る→上る：21460_noboru⟧: to reach a large number\n\nCOMMON COMPOUNDS:\n- {多数決|たすうけつ}: majority vote/decision\n- {多数|たすう}⟦{派|は}→派：28356_ha⟧: majority faction/group\n- ⟦{圧倒的|あっとうてき}→圧倒的：05853_attouteki⟧{多数|たすう}: overwhelming majority\n- ⟦{絶対|ぜったい}→絶対：00435_zettai⟧{多数|たすう}: absolute majority\n\nCONTRAST:\n- {多数|たすう}: majority, large number\n- {少数|しょうすう}: minority, small number\n\nREGISTER: Somewhat formal; often used in political, statistical, or academic contexts.",
+  "notes": "{多数|たすう} means \"majority\" or \"large number.\" It combines {多|た} (many) + ⟦{数|すう}→数：03360_suu⟧ (number).\n\nCOMMON PATTERNS:\n- {多数|たすう}⟦の→の：09472_no⟧ + noun: a large number of...\n- {多数|たすう}⟦を→を：00422_wo⟧⟦{占|し}める→占める：11799_shimeru⟧: to constitute the majority\n- {多数|たすう}⟦に→に：00314_ni⟧⟦{上|のぼ}る→上る：21460_noboru⟧: to reach a large number\n\nCOMPOUNDS:\n- ⟦{多数決|たすうけつ}→多数決：16369_tasuuketsu⟧: majority vote/decision\n- {多数|たすう}⟦{派|は}→派：28356_ha⟧: majority faction/group\n- ⟦{圧倒的|あっとうてき}→圧倒的：05853_attouteki⟧{多数|たすう}: overwhelming majority\n- ⟦{絶対|ぜったい}→絶対：00435_zettai⟧{多数|たすう}: absolute majority\n\nSIMILAR WORDS:\n- {多数|たすう}: majority, large number\n- ⟦{少数|しょうすう}→少数：05611_shousuu⟧: minority, small number\n\nREGISTER: Somewhat formal; often used in political, statistical, or academic contexts.",
   "cross_references": [
     {
       "type": "antonym",
@@ -58,11 +58,39 @@
       "reading": "かはんすう",
       "headword": "{過半数|かはんすう}",
       "label": "majority (over half)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12722_kazukazu",
+      "reading": "かずかず",
+      "headword": "{数々|かずかず}",
+      "label": "many, numerous, a great number of"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12948_kazuooku",
+      "reading": "かずおおく",
+      "headword": "{数多|かずおお}く",
+      "label": "many, a great number of, numerous"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15498_amata",
+      "reading": "あまた",
+      "headword": "{数多|あまた}",
+      "label": "many"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21694_kahan",
+      "reading": "かはん",
+      "headword": "{過半|かはん}",
+      "label": "majority"
     }
   ],
   "metadata": {
     "created": "2026-01-16T08:18:53Z",
-    "modified": "2026-07-29T21:21:40Z",
+    "modified": "2026-09-02T04:01:07Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

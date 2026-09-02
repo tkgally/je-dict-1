@@ -14,40 +14,67 @@
   "examples": [
     {
       "id": "09836_serufureji_ex1",
-      "japanese": "セルフレジを{使|つか}おう。",
+      "japanese": "セルフレジ⟦を→を：00422_wo⟧⟦{使|つか}おう→使う：00473_tsukau⟧。",
       "english": "Let's use the self-checkout.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09836_serufureji_ex2",
-      "japanese": "セルフレジのほうが{早|はや}い。",
+      "japanese": "セルフレジ⟦の→の：09472_no⟧ほう⟦が→が：00051_ga⟧⟦{早|はや}い→早い：00514_hayai⟧。",
       "english": "The self-checkout is faster.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09836_serufureji_ex3",
-      "japanese": "{最近|さいきん}はセルフレジを{導入|どうにゅう}する{店|みせ}が{増|ふ}えた。",
+      "japanese": "⟦{最近|さいきん}→最近：00881_saikin⟧⟦は→は：00079_ha⟧セルフレジ⟦を→を：00422_wo⟧⟦{導入|どうにゅう}する→導入する：16055_dounyuusuru⟧⟦{店|みせ}→店：00497_mise⟧⟦が→が：00051_ga⟧⟦{増|ふ}えた→増える：01183_fueru⟧。",
       "english": "Recently, more stores have introduced self-checkout.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "セルフレジ is increasingly common in Japanese convenience stores, supermarkets, and retailers. There are two types: {完全|かんぜん}セルフレジ (fully self-service) and セミセルフレジ (staff scans, customer pays).\n\nCOMMON COLLOCATIONS:\n- セルフレジ{導入|どうにゅう} (self-checkout introduction)\n- セルフレジ{専用|せんよう} (self-checkout only)\n- セルフレジの{使|つか}い{方|かた} (how to use self-checkout)\n\nRELATED TERMS:\n- {有人|ゆうじん}レジ: staffed checkout\n- バーコード: barcode\n- キャッシュレス: cashless payment",
+  "notes": "セルフレジ is increasingly common in Japanese convenience stores, supermarkets, and retailers. There are two types: ⟦{完全|かんぜん}→完全：01552_kanzen⟧セルフレジ (fully self-service) and セミセルフレジ (staff scans, customer pays).\n\nCOMMON COLLOCATIONS:\n- セルフレジ⟦{導入|どうにゅう}→導入：10127_dounyuu⟧ (self-checkout introduction)\n- セルフレジ⟦{専用|せんよう}→専用：12385_senyou⟧ (self-checkout only)\n- セルフレジ⟦の→の：09472_no⟧⟦{使|つか}い{方|かた}→使い方：07797_tsukaikata⟧ (how to use self-checkout)\n\nRELATED WORDS:\n- {有人|ゆうじん}⟦レジ→レジ：00879_reji⟧: staffed checkout\n- ⟦バーコード→バーコード：10282_baakoodo⟧: barcode\n- ⟦キャッシュレス→キャッシュレス：06096_kyasshuresu⟧: cashless payment",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "10282_baakoodo",
+      "reading": "ばーこーど",
+      "headword": "バーコード",
+      "label": "barcode"
+    },
+    {
+      "type": "related",
+      "target_id": "06096_kyasshuresu",
+      "reading": "きゃっしゅれす",
+      "headword": "キャッシュレス",
+      "label": "cashless payment"
+    }
+  ],
   "metadata": {
     "created": "2026-02-03T12:23:06Z",
-    "modified": "2026-02-03T12:23:06Z",
+    "modified": "2026-09-02T04:01:19Z",
     "ai_model": "claude-opus-4-5-20251101",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["shopping", "technology"]
+      "semantic": [
+        "shopping",
+        "technology"
+      ]
     }
   }
 }

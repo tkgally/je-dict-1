@@ -14,40 +14,58 @@
   "examples": [
     {
       "id": "10245_ohitashi_ex1",
-      "japanese": "ほうれん{草|そう}のお{浸|ひた}しを{作|つく}った。",
+      "japanese": "⟦ほうれん{草|そう}→ほうれん草：05188_hourensou⟧⟦の→の：09472_no⟧お{浸|ひた}し⟦を→を：00422_wo⟧⟦{作|つく}った→作る：00481_tsukuru⟧。",
       "english": "I made spinach ohitashi.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10245_ohitashi_ex2",
-      "japanese": "お{浸|ひた}しに{鰹節|かつおぶし}をかける。",
+      "japanese": "お{浸|ひた}し⟦に→に：00314_ni⟧⟦{鰹節|かつおぶし}→鰹節：04935_katsuobushi⟧⟦を→を：00422_wo⟧⟦かける→かける：00854_kakeru⟧。",
       "english": "Top the ohitashi with bonito flakes.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10245_ohitashi_ex3",
-      "japanese": "{小松菜|こまつな}のお{浸|ひた}しは{定番|ていばん}の{副菜|ふくさい}だ。",
+      "japanese": "⟦{小松菜|こまつな}→小松菜：12520_komatsuna⟧⟦の→の：09472_no⟧お{浸|ひた}し⟦は→は：00079_ha⟧⟦{定番|ていばん}→定番：12265_teiban⟧⟦の→の：09472_no⟧⟦{副菜|ふくさい}→副菜：04993_fukusai⟧だ。",
       "english": "Komatsuna ohitashi is a classic side dish.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "お{浸|ひた}し is a classic Japanese side dish ({副菜|ふくさい}) of blanched vegetables soaked briefly in a seasoned broth. The お is an honorific prefix; the word derives from {浸|ひた}す (to soak).\n\nCOMMON VARIATIONS:\n- ほうれん{草|そう}のお{浸|ひた}し: spinach ohitashi (most classic)\n- {小松菜|こまつな}のお{浸|ひた}し: komatsuna ohitashi\n- {菜|な}の{花|はな}のお{浸|ひた}し: rapeseed flower ohitashi (seasonal, spring)\n\nSEASONING:\nTypically dressed with {醤油|しょうゆ} (soy sauce), {出汁|だし} (dashi), and sometimes みりん (mirin). Often topped with {鰹節|かつおぶし} (bonito flakes) or {胡麻|ごま} (sesame seeds).\n\nCULTURAL NOTE:\nA staple of {和食|わしょく} (Japanese cuisine) and {家庭料理|かていりょうり} (home cooking). Simple to prepare and commonly included in {弁当|べんとう} (bento boxes).",
-  "cross_references": [],
+  "notes": "お{浸|ひた}し is a classic Japanese side dish (⟦{副菜|ふくさい}→副菜：04993_fukusai⟧) of blanched vegetables soaked briefly in a seasoned broth. The お is an honorific prefix; the word derives from ⟦{浸|ひた}す→浸す：07506_hitasu⟧ (to soak).\n\nCOMMON VARIATIONS:\n- ⟦ほうれん{草|そう}→ほうれん草：05188_hourensou⟧⟦の→の：09472_no⟧お{浸|ひた}し: spinach ohitashi (most classic)\n- ⟦{小松菜|こまつな}→小松菜：12520_komatsuna⟧⟦の→の：09472_no⟧お{浸|ひた}し: komatsuna ohitashi\n- ⟦{菜|な}の{花|はな}→菜の花：14042_nanohana⟧⟦の→の：09472_no⟧お{浸|ひた}し: rapeseed flower ohitashi (seasonal, spring)\n\nSEASONING:\nTypically dressed with ⟦{醤油|しょうゆ}→醤油：01056_shouyu⟧ (soy sauce), ⟦{出汁|だし}→出汁：04917_dashi⟧ (dashi), and sometimes みりん (mirin). Often topped with ⟦{鰹節|かつおぶし}→鰹節：04935_katsuobushi⟧ (bonito flakes) or ⟦{胡麻|ごま}→胡麻：10337_goma⟧ (sesame seeds).\n\nCULTURAL NOTE:\nA staple of ⟦{和食|わしょく}→和食：10436_washoku⟧ (Japanese cuisine) and ⟦{家庭料理|かていりょうり}→家庭料理：17474_kateiryouri⟧ (home cooking). Simple to prepare and commonly included in ⟦{弁当|べんとう}→弁当：01014_bentou⟧ (bento boxes).",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "07506_hitasu",
+      "reading": "ひたす",
+      "headword": "{浸|ひた}す",
+      "label": "to soak"
+    }
+  ],
   "metadata": {
     "created": "2026-02-05T14:56:01Z",
-    "modified": "2026-04-02T08:18:51Z",
+    "modified": "2026-09-02T04:01:20Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food"]
+      "semantic": [
+        "food"
+      ]
     }
   }
 }

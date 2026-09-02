@@ -15,41 +15,67 @@
   "examples": [
     {
       "id": "29946_kitsuensha_ex1",
-      "japanese": "{喫煙車|きつえんしゃ}に{乗|の}る。",
+      "japanese": "{喫煙車|きつえんしゃ}⟦に→に：00314_ni⟧⟦{乗|の}る→乗る：00511_noru⟧。",
       "english": "to ride in a smoking car.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29946_kitsuensha_ex2",
-      "japanese": "この{列車|れっしゃ}には{喫煙車|きつえんしゃ}がない。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{列車|れっしゃ}→列車：01670_ressha⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{喫煙車|きつえんしゃ}⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧。",
       "english": "This train has no smoking car.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29946_kitsuensha_ex3",
-      "japanese": "{最近|さいきん}は{喫煙車|きつえんしゃ}を{廃止|はいし}する{鉄道|てつどう}{会社|がいしゃ}が{増|ふ}えている。",
+      "japanese": "⟦{最近|さいきん}→最近：00881_saikin⟧⟦は→は：00079_ha⟧{喫煙車|きつえんしゃ}⟦を→を：00422_wo⟧⟦{廃止|はいし}→廃止：12483_haishi⟧⟦する→する：00392_suru⟧⟦{鉄道|てつどう}→鉄道：03550_tetsudou⟧{会社|がいしゃ}⟦が→が：00051_ga⟧⟦{増|ふ}えている→増える：01183_fueru⟧。",
       "english": "Recently, more railway companies are abolishing smoking cars.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {喫煙|きつえん} ('smoking') + {車|しゃ} ('car, vehicle'). Refers to a train car (or a rental car) where smoking is allowed.\n\nCOMMON COLLOCATIONS:\n- {喫煙車|きつえんしゃ}{両|りょう}: smoking car of a train\n\nSIMILAR WORDS:\n- {禁煙車|きんえんしゃ}: non-smoking car — the direct antonym\n- {喫煙者|きつえんしゃ}: smoker (a person) — a homophone with a different meaning",
+  "notes": "Composed of ⟦{喫煙|きつえん}→喫煙：17580_kitsuen⟧ ('smoking') + ⟦{車|しゃ}→車：09874_sha⟧ ('car, vehicle'). Refers to a train car (or a rental car) where smoking is allowed.\n\nCOMMON COLLOCATIONS:\n- {喫煙車|きつえんしゃ}{両|りょう}: smoking car of a train\n\nSIMILAR WORDS:\n- ⟦{禁煙車|きんえんしゃ}→禁煙車：24578_kinensha⟧: non-smoking car — the direct antonym\n- ⟦{喫煙者|きつえんしゃ}→喫煙者：27918_kitsuensha⟧: smoker (a person) — a homophone with a different meaning",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "24578_kinensha",
+      "reading": "きんえんしゃ",
+      "headword": "{禁煙車|きんえんしゃ}",
+      "label": "non-smoking car"
+    },
+    {
+      "type": "homophone",
+      "target_id": "27918_kitsuensha",
+      "reading": "きつえんしゃ",
+      "headword": "{喫煙者|きつえんしゃ}",
+      "label": "smoker"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["transportation"],
+      "politeness": "plain",
+      "semantic": [
+        "transportation"
+      ],
       "domain": []
     },
     "created": "2026-07-19T00:19:03Z",
-    "modified": "2026-07-19T00:19:03Z"
+    "modified": "2026-09-02T04:02:38Z"
   }
 }

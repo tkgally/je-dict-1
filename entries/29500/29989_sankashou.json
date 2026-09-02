@@ -15,41 +15,60 @@
   "examples": [
     {
       "id": "29989_sankashou_ex1",
-      "japanese": "{参加賞|さんかしょう}をもらった。",
+      "japanese": "{参加賞|さんかしょう}⟦を→を：00422_wo⟧⟦もらった→もらう：00520_morau⟧。",
       "english": "I got a participation prize.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29989_sankashou_ex2",
-      "japanese": "{全員|ぜんいん}に{参加賞|さんかしょう}が{配|くば}られた。",
+      "japanese": "⟦{全員|ぜんいん}→全員：03310_zenin⟧⟦に→に：00314_ni⟧{参加賞|さんかしょう}⟦が→が：00051_ga⟧⟦{配|くば}られた→配る：03921_kubaru⟧。",
       "english": "A participation prize was handed out to everyone.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29989_sankashou_ex3",
-      "japanese": "{入賞|にゅうしょう}できなかったが、{参加賞|さんかしょう}のタオルをもらって{満足|まんぞく}した。",
+      "japanese": "⟦{入賞|にゅうしょう}→入賞：11670_nyuushou⟧⟦できなかった→できる：00557_dekiru⟧⟦が→が：00051_ga⟧、{参加賞|さんかしょう}⟦の→の：09472_no⟧⟦タオル→タオル：01533_taoru⟧⟦を→を：00422_wo⟧⟦もらって→もらう：00520_morau⟧⟦{満足|まんぞく}した→満足する：22617_manzokusuru⟧。",
       "english": "I didn't place, but I was happy to receive a towel as a participation prize.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Typical at school sports days, marathons, and children's events; the gift is usually a small token.\n\nCOMMON COLLOCATIONS:\n- {参加賞|さんかしょう}をもらう: to receive a participation prize\n- {参加賞|さんかしょう}を{配|くば}る: to hand out participation prizes\n- {参加賞|さんかしょう}{付|つ}き: comes with a participation prize\n\nSIMILAR WORDS:\n- {入賞|にゅうしょう}: placing in the top ranks — an actual award for performance\n- {残念賞|ざんねんしょう}: consolation prize — given to non-winners, close in sense but framed as a runner-up gift",
+  "notes": "Typical at school sports days, marathons, and children's events; the gift is usually a small token.\n\nCOMMON COLLOCATIONS:\n- {参加賞|さんかしょう}⟦を→を：00422_wo⟧⟦もらう→もらう：00520_morau⟧: to receive a participation prize\n- {参加賞|さんかしょう}⟦を→を：00422_wo⟧⟦{配|くば}る→配る：03921_kubaru⟧: to hand out participation prizes\n- {参加賞|さんかしょう}⟦{付|つ}き→付き：26333_tsuki⟧: comes with a participation prize\n\nSIMILAR WORDS:\n- ⟦{入賞|にゅうしょう}→入賞：11670_nyuushou⟧: placing in the top ranks — an actual award for performance\n- {残念賞|ざんねんしょう}: consolation prize — given to non-winners, close in sense but framed as a runner-up gift",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11670_nyuushou",
+      "reading": "にゅうしょう",
+      "headword": "{入賞|にゅうしょう}",
+      "label": "placing in the top ranks"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["leisure"],
+      "politeness": "plain",
+      "semantic": [
+        "leisure"
+      ],
       "domain": []
     },
     "created": "2026-07-20T06:17:59Z",
-    "modified": "2026-07-20T06:17:59Z"
+    "modified": "2026-09-02T04:02:38Z"
   }
 }

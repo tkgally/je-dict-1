@@ -3,7 +3,7 @@
   "headword": "{完備|かんび}する",
   "reading": "かんびする",
   "romaji": "kanbisuru",
-  "part_of_speech": "verb",
+  "part_of_speech": "suru verb",
   "gloss": "to be fully equipped; to have everything in place",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22151_kanbisuru_ex1",
-      "japanese": "{設備|せつび}が{完備|かんび}している。",
+      "japanese": "⟦{設備|せつび}→設備：03301_setsubi⟧⟦が→が：00051_ga⟧{完備|かんび}して⟦いる→いる：00495_iru⟧。",
       "english": "The facilities are fully equipped.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22151_kanbisuru_ex2",
-      "japanese": "エアコン{完備|かんび}の{部屋|へや}を{希望|きぼう}します。",
+      "japanese": "⟦エアコン→エアコン：05282_eakon⟧⟦{完備|かんび}→完備：16692_kanbi⟧⟦の→の：09472_no⟧⟦{部屋|へや}→部屋：00507_heya⟧⟦を→を：00422_wo⟧⟦{希望|きぼう}→希望：00221_kibou⟧⟦します→する：00392_suru⟧。",
       "english": "I would like a room with air conditioning included.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22151_kanbisuru_ex3",
-      "japanese": "この{病院|びょういん}は{最新|さいしん}の{医療|いりょう}{機器|きき}を{完備|かんび}しており、{安心|あんしん}して{治療|ちりょう}を{受|う}けられる。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{病院|びょういん}→病院：00577_byouin⟧⟦は→は：00079_ha⟧⟦{最新|さいしん}→最新：04831_saishin⟧⟦の→の：09472_no⟧⟦{医療|いりょう}→医療：01836_iryou⟧⟦{機器|きき}→機器：13180_kiki⟧⟦を→を：00422_wo⟧{完備|かんび}しており、⟦{安心|あんしん}して→安心する：06067_anshinsuru⟧⟦{治療|ちりょう}→治療：03503_chiryou⟧⟦を→を：00422_wo⟧⟦{受|う}けられる→受ける：01215_ukeru⟧。",
       "english": "This hospital is fully equipped with the latest medical devices, so you can receive treatment with peace of mind.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Describes a state where everything needed is in place with nothing lacking. Very common in real estate listings and facility descriptions.\n\nCOMMON COLLOCATIONS:\n- {設備|せつび}{完備|かんび}: fully equipped (facilities)\n- エアコン{完備|かんび}: air conditioning included\n- {冷暖房|れいだんぼう}{完備|かんび}: heating and cooling included\n- {防犯|ぼうはん}{設備|せつび}{完備|かんび}: fully equipped with security systems\n- {駐車場|ちゅうしゃじょう}{完備|かんび}: parking available\n\nSIMILAR WORDS:\n- {整備|せいび}する: to maintain; to equip — focuses on the process of setting up or maintaining, not the completed state\n- {備|そな}える: to furnish; to equip — a general verb for providing or preparing\n- {充実|じゅうじつ}する: to be substantial; to be well-stocked — broader in meaning, not limited to equipment\n\nREGISTER:\nSlightly formal. Frequently appears in advertising, real estate listings, and facility descriptions.",
+  "notes": "Describes a state where everything needed is in place with nothing lacking. Very common in real estate listings and facility descriptions.\n\nCOMMON COLLOCATIONS:\n- ⟦{設備|せつび}→設備：03301_setsubi⟧⟦{完備|かんび}→完備：16692_kanbi⟧: fully equipped (facilities)\n- ⟦エアコン→エアコン：05282_eakon⟧⟦{完備|かんび}→完備：16692_kanbi⟧: air conditioning included\n- ⟦{冷暖房|れいだんぼう}→冷暖房：28048_reidanbou⟧⟦{完備|かんび}→完備：16692_kanbi⟧: heating and cooling included\n- ⟦{防犯|ぼうはん}→防犯：08192_bouhan⟧⟦{設備|せつび}→設備：03301_setsubi⟧⟦{完備|かんび}→完備：16692_kanbi⟧: fully equipped with security systems\n- ⟦{駐車場|ちゅうしゃじょう}→駐車場：01667_chuushajou⟧⟦{完備|かんび}→完備：16692_kanbi⟧: parking available\n\nSIMILAR WORDS:\n- ⟦{整備|せいび}する→整備する：17849_seibisuru⟧: to maintain; to equip — focuses on the process of setting up or maintaining, not the completed state\n- ⟦{備|そな}える→備える：02125_sonaeru⟧: to furnish; to equip — a general verb for providing or preparing\n- ⟦{充実|じゅうじつ}→充実：04845_juujitsu⟧⟦する→する：00392_suru⟧: to be substantial; to be well-stocked — broader in meaning, not limited to equipment\n\nREGISTER:\nSlightly formal. Frequently appears in advertising, real estate listings, and facility descriptions.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17849_seibisuru",
+      "reading": "せいびする",
+      "headword": "{整備|せいび}する",
+      "label": "to maintain"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02125_sonaeru",
+      "reading": "そなえる",
+      "headword": "{備|そな}える",
+      "label": "to furnish"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04845_juujitsu",
+      "reading": "じゅうじつ",
+      "headword": "{充実|じゅうじつ}",
+      "label": "to be substantial"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,7 +83,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-05T04:01:50Z",
-    "modified": "2026-04-05T04:01:50Z"
+    "modified": "2026-09-02T04:02:06Z"
   },
   "conjugation": {
     "type": "suru",

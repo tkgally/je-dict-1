@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24493_kougakubu_ex1",
-      "japanese": "{工学部|こうがくぶ}に{合格|ごうかく}した。",
+      "japanese": "{工学部|こうがくぶ}⟦に→に：00314_ni⟧⟦{合格|ごうかく}した→合格する：27949_goukakusuru⟧。",
       "english": "I was accepted into the engineering faculty.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24493_kougakubu_ex2",
-      "japanese": "{工学部|こうがくぶ}は{男子|だんし}{学生|がくせい}が{多|おお}い。",
+      "japanese": "{工学部|こうがくぶ}⟦は→は：00079_ha⟧⟦{男子|だんし}{学生|がくせい}→男子学生：26705_danshigakusei⟧⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "The engineering department has many male students.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24493_kougakubu_ex3",
-      "japanese": "{工学部|こうがくぶ}の{卒業生|そつぎょうせい}は、メーカーやIT{企業|きぎょう}に{就職|しゅうしょく}する{人|ひと}が{多|おお}い。",
+      "japanese": "{工学部|こうがくぶ}⟦の→の：09472_no⟧⟦{卒業生|そつぎょうせい}→卒業生：15284_sotsugyousei⟧⟦は→は：00079_ha⟧、⟦メーカー→メーカー：11158_meekaa⟧やIT⟦{企業|きぎょう}→企業：00225_kigyou⟧⟦に→に：00314_ni⟧⟦{就職|しゅうしょく}→就職：03209_shuushoku⟧⟦する→する：00392_suru⟧⟦{人|ひと}→人：00476_hito⟧⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "Many engineering graduates find employment at manufacturing companies and IT firms.",
       "sense_numbers": [
         1
@@ -44,19 +44,44 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {工学|こうがく} (engineering) and {学部|がくぶ} (faculty). One of the most popular faculties at Japanese universities, especially for students aiming at careers in manufacturing, technology, and infrastructure — industries central to the Japanese economy.\n\nCOMMON COLLOCATIONS:\n- {工学部|こうがくぶ}{機械|きかい}{工学科|こうがくか}: mechanical engineering department\n- {工学部|こうがくぶ}{電気|でんき}{電子|でんし}{工学科|こうがくか}: electrical and electronic engineering department\n- {工学部|こうがくぶ}を{受験|じゅけん}する: to take the engineering faculty entrance exam\n\nRELATED TERMS:\n- {理学部|りがくぶ}: faculty of science (pure sciences)\n- {理工学部|りこうがくぶ}: faculty of science and engineering\n- {工学|こうがく}: engineering\n- {学部|がくぶ}: faculty; department",
+  "notes": "A compound of ⟦{工学|こうがく}→工学：04862_kougaku⟧ (engineering) and {学部|がくぶ} (faculty). One of the most popular faculties at Japanese universities, especially for students aiming at careers in manufacturing, technology, and infrastructure — industries central to the Japanese economy.\n\nCOMMON COLLOCATIONS:\n- {工学部|こうがくぶ}⟦{機械|きかい}→機械：02366_kikai⟧{工学科|こうがくか}: mechanical engineering department\n- {工学部|こうがくぶ}⟦{電気|でんき}→電気：09780_denki⟧⟦{電子|でんし}→電子：03449_denshi⟧{工学科|こうがくか}: electrical and electronic engineering department\n- {工学部|こうがくぶ}⟦を→を：00422_wo⟧⟦{受験|じゅけん}→受験：04272_juken⟧⟦する→する：00392_suru⟧: to take the engineering faculty entrance exam\n\nRELATED WORDS:\n- ⟦{理学部|りがくぶ}→理学部：24492_rigakubu⟧: faculty of science (pure sciences)\n- {理工学部|りこうがくぶ}: faculty of science and engineering\n- ⟦{工学|こうがく}→工学：04862_kougaku⟧: engineering\n- {学部|がくぶ}: faculty; department",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "24492_rigakubu",
+      "reading": "りがくぶ",
+      "headword": "{理学部|りがくぶ}",
+      "label": "faculty of science"
+    },
+    {
+      "type": "related",
+      "target_id": "24048_bungakubu",
+      "reading": "ぶんがくぶ",
+      "headword": "{文学部|ぶんがくぶ}",
+      "label": "Faculty of Letters, Faculty of Humanities"
+    },
+    {
+      "type": "related",
+      "target_id": "28399_nougakubu",
+      "reading": "のうがくぶ",
+      "headword": "{農学部|のうがくぶ}",
+      "label": "faculty of agriculture"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "education"
       ]
     },
     "created": "2026-04-19T12:31:44Z",
-    "modified": "2026-04-19T12:31:44Z"
+    "modified": "2026-09-02T04:02:18Z"
   }
 }

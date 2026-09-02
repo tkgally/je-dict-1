@@ -43,11 +43,40 @@
       ]
     }
   ],
-  "notes": "KANJI MEANING:\n・{万|まん} (ten thousand) + {力|りき} (power) = \"immense power\"\n・Refers to the strong clamping force\n\nTYPES:\n・⟦{卓上|たくじょう}→卓上：22894_takujou⟧{万力|まんりき} (bench vise)\n・⟦パイプバイス→パイプバイス：noentry⟧ (pipe vise)\n・⟦ハンドバイス→ハンドバイス：noentry⟧ (hand vise)\n\nPARTS:\n・⟦あご→顎：04266_ago⟧/⟦ジョー→ジョー：noentry⟧ (jaw)\n・⟦ハンドル→ハンドル：06331_handoru⟧ (handle)\n・⟦アンビル→アンビル：noentry⟧ (anvil surface)\n\nRELATED TOOLS:\n・⟦クランプ→クランプ：23997_kuranpu⟧ (clamp)\n・⟦ペンチ→ペンチ：06314_penchi⟧ (pliers)\n・⟦{作業台|さぎょうだい}→作業台：22039_sagyoudai⟧ (workbench)\n\nCOLLOCATIONS:\n・{万力|まんりき}⟦で→で：00502_de⟧⟦{挟|はさ}む→挟む：00091_hasamu⟧ (to clamp in a vise)\n・{万力|まんりき}⟦を→を：00422_wo⟧⟦{締|し}める→締める：10057_shimeru⟧ (to tighten the vise)\n・{万力|まんりき}⟦を→を：00422_wo⟧⟦{緩|ゆる}める→緩める：15263_yurumeru⟧ (to loosen the vise)\n・{万力|まんりき}⟦に→に：00314_ni⟧⟦{固定|こてい}→固定：10996_kotei⟧⟦する→する：00392_suru⟧ (to fix in a vise)",
-  "cross_references": [],
+  "notes": "WRITING:\n- ⟦{万|まん}→万：00795_man⟧ (ten thousand) + {力|りき} (power) = \"immense power\"\n- Refers to the strong clamping force\n\nTYPES:\n- ⟦{卓上|たくじょう}→卓上：22894_takujou⟧{万力|まんりき} (bench vise)\n- ⟦パイプバイス→パイプバイス：noentry⟧ (pipe vise)\n- ⟦ハンドバイス→ハンドバイス：noentry⟧ (hand vise)\n\nPARTS:\n- ⟦あご→顎：04266_ago⟧/⟦ジョー→ジョー：noentry⟧ (jaw)\n- ⟦ハンドル→ハンドル：06331_handoru⟧ (handle)\n- ⟦アンビル→アンビル：noentry⟧ (anvil surface)\n\nRELATED TOOLS:\n- ⟦クランプ→クランプ：23997_kuranpu⟧ (clamp)\n- ⟦ペンチ→ペンチ：06314_penchi⟧ (pliers)\n- ⟦{作業台|さぎょうだい}→作業台：22039_sagyoudai⟧ (workbench)\n\nCOMMON COLLOCATIONS:\n- {万力|まんりき}⟦で→で：00502_de⟧⟦{挟|はさ}む→挟む：00091_hasamu⟧ (to clamp in a vise)\n- {万力|まんりき}⟦を→を：00422_wo⟧⟦{締|し}める→締める：10057_shimeru⟧ (to tighten the vise)\n- {万力|まんりき}⟦を→を：00422_wo⟧⟦{緩|ゆる}める→緩める：15263_yurumeru⟧ (to loosen the vise)\n- {万力|まんりき}⟦に→に：00314_ni⟧⟦{固定|こてい}→固定：10996_kotei⟧⟦する→する：00392_suru⟧ (to fix in a vise)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "23997_kuranpu",
+      "reading": "くらんぷ",
+      "headword": "クランプ",
+      "label": "clamp"
+    },
+    {
+      "type": "related",
+      "target_id": "06314_penchi",
+      "reading": "ぺんち",
+      "headword": "ペンチ",
+      "label": "pliers"
+    },
+    {
+      "type": "related",
+      "target_id": "22039_sagyoudai",
+      "reading": "さぎょうだい",
+      "headword": "{作業台|さぎょうだい}",
+      "label": "workbench"
+    },
+    {
+      "type": "related",
+      "target_id": "06547_tagane",
+      "reading": "たがね",
+      "headword": "たがね",
+      "label": "cold chisel"
+    }
+  ],
   "metadata": {
     "created": "2026-01-17T23:52:54Z",
-    "modified": "2026-07-19T21:21:58Z",
+    "modified": "2026-09-02T04:01:08Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

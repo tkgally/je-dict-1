@@ -15,41 +15,80 @@
   "examples": [
     {
       "id": "18098_joen_ex1",
-      "japanese": "{助演|じょえん}{男優|だんゆう}{賞|しょう}を{受賞|じゅしょう}した。",
+      "japanese": "{助演|じょえん}⟦{男優|だんゆう}→男優：28277_danyuu⟧⟦{賞|しょう}→賞：03227_shou⟧⟦を→を：00422_wo⟧⟦{受賞|じゅしょう}→受賞：11867_jushou⟧⟦した→する：00392_suru⟧。",
       "english": "He won the Best Supporting Actor award.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18098_joen_ex2",
-      "japanese": "あの{女優|じょゆう}は{助演|じょえん}ながら{強|つよ}い{印象|いんしょう}を{残|のこ}した。",
+      "japanese": "⟦あの→あの：00915_ano⟧⟦{女優|じょゆう}→女優：03353_joyuu⟧⟦は→は：00079_ha⟧{助演|じょえん}⟦ながら→ながら：10530_nagara⟧⟦{強|つよ}い→強い：00820_tsuyoi⟧⟦{印象|いんしょう}→印象：01846_inshou⟧⟦を→を：00422_wo⟧⟦{残|のこ}した→残す：01975_nokosu⟧。",
       "english": "That actress left a strong impression despite being in a supporting role.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18098_joen_ex3",
-      "japanese": "{今年|ことし}の{助演|じょえん}{女優|じょゆう}{賞|しょう}には{若手|わかて}の{実力派|じつりょくは}がノミネートされている。",
+      "japanese": "⟦{今年|ことし}→今年：00722_kotoshi⟧⟦の→の：09472_no⟧{助演|じょえん}⟦{女優|じょゆう}→女優：03353_joyuu⟧⟦{賞|しょう}→賞：03227_shou⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{若手|わかて}→若手：13989_wakate⟧⟦の→の：09472_no⟧⟦{実力派|じつりょくは}→実力派：30320_jitsuryokuha⟧⟦が→が：00051_ga⟧ノミネート⟦されている→する：00392_suru⟧。",
       "english": "Talented young actresses have been nominated for this year's Best Supporting Actress award.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "Compound of {助|じょ} (assist) + {演|えん} (perform). Refers to a supporting role in a film, play, or performance.\n\nCOMMON COMPOUNDS:\n- {助演|じょえん}{男優|だんゆう}{賞|しょう}: Best Supporting Actor award\n- {助演|じょえん}{女優|じょゆう}{賞|しょう}: Best Supporting Actress award\n- {助演|じょえん}{俳優|はいゆう}: supporting actor/actress\n\nCONTRASTS:\n- {主演|しゅえん}: starring role, lead role\n- {助演|じょえん}: supporting role\n- {端役|はやく}: minor role, bit part\n- {脇役|わきやく}: supporting role (more colloquial synonym)\n\nNOTE:\n{脇役|わきやく} is more commonly used in everyday conversation to mean \"supporting role,\" while {助演|じょえん} appears mainly in award names and formal film/theater terminology.",
-  "cross_references": [],
+  "notes": "Compound of {助|じょ} (assist) + {演|えん} (perform). Refers to a supporting role in a film, play, or performance.\n\nCOMPOUNDS:\n- {助演|じょえん}⟦{男優|だんゆう}→男優：28277_danyuu⟧⟦{賞|しょう}→賞：03227_shou⟧: Best Supporting Actor award\n- {助演|じょえん}⟦{女優|じょゆう}→女優：03353_joyuu⟧⟦{賞|しょう}→賞：03227_shou⟧: Best Supporting Actress award\n- {助演|じょえん}⟦{俳優|はいゆう}→俳優：03547_haiyuu⟧: supporting actor/actress\n\nSIMILAR WORDS:\n- ⟦{主演|しゅえん}→主演：08254_shuen⟧: starring role, lead role\n- {助演|じょえん}: supporting role\n- ⟦{端役|はやく}→端役：24247_hayaku⟧: minor role, bit part\n- ⟦{脇役|わきやく}→脇役：13933_wakiyaku⟧: supporting role (more colloquial synonym)\n\nUSAGE:\n⟦{脇役|わきやく}→脇役：13933_wakiyaku⟧ is more commonly used in everyday conversation to mean \"supporting role,\" while {助演|じょえん} appears mainly in award names and formal film/theater terminology.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08254_shuen",
+      "reading": "しゅえん",
+      "headword": "{主演|しゅえん}",
+      "label": "starring role, lead role"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24247_hayaku",
+      "reading": "はやく",
+      "headword": "{端役|はやく}",
+      "label": "minor role, bit part"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13933_wakiyaku",
+      "reading": "わきやく",
+      "headword": "{脇役|わきやく}",
+      "label": "supporting role"
+    },
+    {
+      "type": "related",
+      "target_id": "26599_meiwakiyaku",
+      "reading": "めいわきやく",
+      "headword": "{名|めい}{脇役|わきやく}",
+      "label": "great supporting actor"
+    }
+  ],
   "metadata": {
     "created": "2026-03-20T02:41:35Z",
-    "modified": "2026-03-31T03:18:29Z",
+    "modified": "2026-09-02T04:01:50Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["leisure"]
+      "semantic": [
+        "leisure"
+      ]
     }
   }
 }

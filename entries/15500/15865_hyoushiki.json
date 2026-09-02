@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "15865_hyoushiki_ex1",
-      "japanese": "{標識|ひょうしき}に{従|したが}ってください。",
+      "japanese": "{標識|ひょうしき}⟦に→に：00314_ni⟧⟦{従|したが}って→従う：02059_shitagau⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please follow the signs.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "15865_hyoushiki_ex2",
-      "japanese": "あの{交差点|こうさてん}に{一時停止|いちじていし}の{標識|ひょうしき}がある。",
+      "japanese": "⟦あの→あの：00915_ano⟧⟦{交差点|こうさてん}→交差点：01404_kousaten⟧⟦に→に：00314_ni⟧⟦{一時停止|いちじていし}→一時停止：05401_ichijiteishi⟧⟦の→の：09472_no⟧{標識|ひょうしき}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There is a stop sign at that intersection.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "15865_hyoushiki_ex3",
-      "japanese": "{登山道|とざんどう}の{標識|ひょうしき}が{風|かぜ}で{倒|たお}れていたので、{道|みち}に{迷|まよ}いそうになった。",
+      "japanese": "⟦{登山道|とざんどう}→登山道：19132_tozandou⟧⟦の→の：09472_no⟧{標識|ひょうしき}⟦が→が：00051_ga⟧⟦{風|かぜ}→風：00641_kaze⟧⟦で→で：00502_de⟧⟦{倒|たお}れていた→倒れる：01160_taoreru⟧⟦の→の：09472_no⟧で、⟦{道|みち}→道：00505_michi⟧⟦に→に：00314_ni⟧⟦{迷|まよ}い→迷う：02426_mayou⟧そうになった。",
       "english": "The trail markers on the mountain path had been knocked over by the wind, so I almost got lost.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "{標識|ひょうしき} refers to a sign or marker that provides information, directions, or warnings. Most commonly associated with traffic and road signs.\n\nCOMMON TYPES:\n- {交通標識|こうつうひょうしき}: traffic sign\n- {道路標識|どうろひょうしき}: road sign\n- {案内標識|あんないひょうしき}: guide/information sign\n- {警告標識|けいこくひょうしき}: warning sign\n- {規制標識|きせいひょうしき}: regulatory sign\n\nCOMMON COLLOCATIONS:\n- {標識|ひょうしき}に{従|したが}う: to follow the signs\n- {標識|ひょうしき}を{見落|みお}とす: to miss/overlook a sign\n- {標識|ひょうしき}を{立|た}てる: to put up a sign\n\nSIMILAR WORDS:\n- {看板|かんばん}: signboard, shop sign (commercial)\n- {表示|ひょうじ}: display, indication (more abstract)\n- {目印|めじるし}: landmark, mark (informal guide point)",
+  "notes": "{標識|ひょうしき} refers to a sign or marker that provides information, directions, or warnings. Most commonly associated with traffic and road signs.\n\nTYPES:\n- {交通標識|こうつうひょうしき}: traffic sign\n- {道路標識|どうろひょうしき}: road sign\n- {案内標識|あんないひょうしき}: guide/information sign\n- {警告標識|けいこくひょうしき}: warning sign\n- {規制標識|きせいひょうしき}: regulatory sign\n\nCOMMON COLLOCATIONS:\n- {標識|ひょうしき}⟦に→に：00314_ni⟧⟦{従|したが}う→従う：02059_shitagau⟧: to follow the signs\n- {標識|ひょうしき}⟦を→を：00422_wo⟧⟦{見落|みお}とす→見落とす：04578_miotosu⟧: to miss/overlook a sign\n- {標識|ひょうしき}⟦を→を：00422_wo⟧⟦{立|た}てる→立てる：01196_tateru⟧: to put up a sign\n\nSIMILAR WORDS:\n- ⟦{看板|かんばん}→看板：00166_kanban⟧: signboard, shop sign (commercial)\n- ⟦{表示|ひょうじ}→表示：03143_hyouji⟧: display, indication (more abstract)\n- ⟦{目印|めじるし}→目印：15923_mejirushi⟧: landmark, mark (informal guide point)",
   "cross_references": [
     {
       "type": "synonym",
@@ -52,11 +52,53 @@
       "reading": "かんばん",
       "headword": "{看板|かんばん}",
       "label": "signboard (commercial)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03143_hyouji",
+      "reading": "ひょうじ",
+      "headword": "{表示|ひょうじ}",
+      "label": "display, indication"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15923_mejirushi",
+      "reading": "めじるし",
+      "headword": "{目印|めじるし}",
+      "label": "landmark, mark"
+    },
+    {
+      "type": "related",
+      "target_id": "15436_tatefuda",
+      "reading": "たてふだ",
+      "headword": "{立|た}て{札|ふだ}",
+      "label": "notice board"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23857_yuudoutou",
+      "reading": "ゆうどうとう",
+      "headword": "{誘導灯|ゆうどうとう}",
+      "label": "guide light"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26121_hyoujiban",
+      "reading": "ひょうじばん",
+      "headword": "{表示板|ひょうじばん}",
+      "label": "display board"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27201_shingouki",
+      "reading": "しんごうき",
+      "headword": "{信号機|しんごうき}",
+      "label": "traffic light"
     }
   ],
   "metadata": {
     "created": "2026-03-08T13:21:32Z",
-    "modified": "2026-07-18T04:02:53Z",
+    "modified": "2026-09-02T04:01:42Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

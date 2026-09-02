@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25645_isshoni_ex1",
-      "japanese": "{一緒|いっしょ}に{行|い}こう。",
+      "japanese": "{一緒|いっしょ}に⟦{行|い}こう→行く：00119_iku⟧。",
       "english": "Let's go together.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25645_isshoni_ex2",
-      "japanese": "{友達|ともだち}と{一緒|いっしょ}に{昼|ひる}ご{飯|はん}を{食|た}べた。",
+      "japanese": "⟦{友達|ともだち}→友達：01478_tomodachi⟧⟦と→と：00512_to⟧{一緒|いっしょ}に⟦{昼|ひる}ご{飯|はん}→昼ご飯：02950_hirugohan⟧⟦を→を：00422_wo⟧⟦{食|た}べた→食べる：00396_taberu⟧。",
       "english": "I ate lunch together with my friend.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25645_isshoni_ex3",
-      "japanese": "{書類|しょるい}は{領収書|りょうしゅうしょ}と{一緒|いっしょ}にファイルに{入|い}れておいてください。",
+      "japanese": "⟦{書類|しょるい}→書類：01103_shorui⟧⟦は→は：00079_ha⟧⟦{領収書|りょうしゅうしょ}→領収書：04697_ryoushuusho⟧⟦と→と：00512_to⟧{一緒|いっしょ}に⟦ファイル→ファイル：05280_fairu⟧⟦に→に：00314_ni⟧⟦{入|い}れて→入れる：01098_ireru⟧おいて⟦ください→ください：02899_kudasai⟧。",
       "english": "Please put the documents in the file together with the receipt.",
       "sense_numbers": [
         1
@@ -44,19 +44,36 @@
       "notes": null
     }
   ],
-  "notes": "One of the most frequently used adverbs in Japanese. {一緒|いっしょ}に can describe people doing things jointly, objects being placed in the same location, or events occurring simultaneously.\n\nThe particle と is commonly used with {一緒|いっしょ}に to specify the companion: Aと{一緒|いっしょ}に (together with A).\n\nCOMMON COLLOCATIONS:\n- {一緒|いっしょ}に{行|い}く: to go together\n- {一緒|いっしょ}に{食|た}べる: to eat together\n- {一緒|いっしょ}に{住|す}む: to live together\n- {一緒|いっしょ}に{働|はたら}く: to work together\n- {一緒|いっしょ}に{遊|あそ}ぶ: to play together\n\nUSAGE:\nIn casual speech, {一緒|いっしょ}に is sometimes shortened to just {一緒|いっしょ} (without に). The expression {一緒|いっしょ}に{行|い}こう (let's go together) is a common way to invite someone along.\n\nSIMILAR WORDS:\n- {共|とも}に: together — more formal and literary\n- {連|つ}れ{立|だ}って: together, in company — implies physically going somewhere as a group\n- {合|あ}わせて: combined, together — focuses on adding things together rather than companionship",
+  "notes": "One of the most frequently used adverbs in Japanese. {一緒|いっしょ}に can describe people doing things jointly, objects being placed in the same location, or events occurring simultaneously.\n\nThe particle ⟦と→と：00512_to⟧ is commonly used with {一緒|いっしょ}に to specify the companion: A⟦と→と：00512_to⟧{一緒|いっしょ}に (together with A).\n\nCOMMON COLLOCATIONS:\n- {一緒|いっしょ}に⟦{行|い}く→行く：00119_iku⟧: to go together\n- {一緒|いっしょ}に⟦{食|た}べる→食べる：00396_taberu⟧: to eat together\n- {一緒|いっしょ}に⟦{住|す}む→住む：00673_sumu⟧: to live together\n- {一緒|いっしょ}に⟦{働|はたら}く→働く：00503_hataraku⟧: to work together\n- {一緒|いっしょ}に⟦{遊|あそ}ぶ→遊ぶ：00550_asobu⟧: to play together\n\nUSAGE:\nIn casual speech, {一緒|いっしょ}に is sometimes shortened to just ⟦{一緒|いっしょ}→一緒：02848_issho⟧ (without ⟦に→に：00314_ni⟧). The expression {一緒|いっしょ}に⟦{行|い}こう→行く：00119_iku⟧ (let's go together) is a common way to invite someone along.\n\nSIMILAR WORDS:\n- {共|とも}⟦に→に：00314_ni⟧: together — more formal and literary\n- {連|つ}れ{立|だ}って: together, in company — implies physically going somewhere as a group\n- ⟦{合|あ}わせて→合わせる：01872_awaseru⟧: combined, together — focuses on adding things together rather than companionship",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03468_tomoni",
+      "reading": "ともに",
+      "headword": "{共|とも}に",
+      "label": "together"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18718_tomonisuru",
+      "reading": "ともにする",
+      "headword": "{共|とも}にする",
+      "label": "to share"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "adverb"
       ],
+      "politeness": "plain",
       "semantic": [
         "general"
       ]
     },
     "created": "2026-04-26T13:27:52Z",
-    "modified": "2026-08-04T21:21:58Z"
+    "modified": "2026-09-02T04:02:23Z"
   }
 }

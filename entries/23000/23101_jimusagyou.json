@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "23101_jimusagyou_ex1",
-      "japanese": "{事務作業|じむさぎょう}に{追|お}われている。",
+      "japanese": "{事務作業|じむさぎょう}⟦に→に：00314_ni⟧⟦{追|お}われている→追う：02016_ou⟧。",
       "english": "I'm swamped with clerical work.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "23101_jimusagyou_ex2",
-      "japanese": "{事務作業|じむさぎょう}を{効率化|こうりつか}したい。",
+      "japanese": "{事務作業|じむさぎょう}⟦を→を：00422_wo⟧⟦{効率化|こうりつか}→効率化：07565_kouritsuka⟧⟦したい→する：00392_suru⟧。",
       "english": "I want to make the clerical work more efficient.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "23101_jimusagyou_ex3",
-      "japanese": "{午前中|ごぜんちゅう}は{会議|かいぎ}が{多|おお}いので、{事務作業|じむさぎょう}は{午後|ごご}にまとめてやっている。",
+      "japanese": "⟦{午前中|ごぜんちゅう}→午前中：11495_gozenchuu⟧⟦は→は：00079_ha⟧⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧⟦の→の：09472_no⟧で、{事務作業|じむさぎょう}⟦は→は：00079_ha⟧⟦{午後|ごご}→午後：00544_gogo⟧⟦に→に：00314_ni⟧⟦まとめて→まとめる：02424_matomeru⟧⟦やっている→やる：02980_yaru⟧。",
       "english": "Since there are many meetings in the morning, I batch my clerical work in the afternoon.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {事務|じむ} (office affairs) and {作業|さぎょう} (work; tasks). Refers to the routine paperwork and administrative tasks that are part of most office jobs. This is a very common word in Japanese workplaces.\n\nCOMMON COLLOCATIONS:\n- {事務作業|じむさぎょう}に{追|お}われる: to be chased by clerical work; to be swamped with paperwork\n- {事務作業|じむさぎょう}を{効率化|こうりつか}する: to streamline clerical work\n- {事務作業|じむさぎょう}をこなす: to handle clerical tasks\n- {日常|にちじょう}の{事務作業|じむさぎょう}: daily office work\n\nSIMILAR WORDS:\n- {事務|じむ}: office work; clerical duties — the shorter, more general term\n- デスクワーク: desk work — loanword covering all work done at a desk\n- {雑務|ざつむ}: miscellaneous tasks — less structured routine work\n- {書類|しょるい}{仕事|しごと}: paperwork — specifically dealing with documents",
+  "notes": "A compound of ⟦{事務|じむ}→事務：11418_jimu⟧ (office affairs) and ⟦{作業|さぎょう}→作業：02775_sagyou⟧ (work; tasks). Refers to the routine paperwork and administrative tasks that are part of most office jobs. This is a very common word in Japanese workplaces.\n\nCOMMON COLLOCATIONS:\n- {事務作業|じむさぎょう}⟦に→に：00314_ni⟧⟦{追|お}われる→追う：02016_ou⟧: to be chased by clerical work; to be swamped with paperwork\n- {事務作業|じむさぎょう}⟦を→を：00422_wo⟧⟦{効率化|こうりつか}→効率化：07565_kouritsuka⟧⟦する→する：00392_suru⟧: to streamline clerical work\n- {事務作業|じむさぎょう}⟦を→を：00422_wo⟧⟦こなす→こなす：09897_konasu⟧: to handle clerical tasks\n- ⟦{日常|にちじょう}→日常：01595_nichijou⟧⟦の→の：09472_no⟧{事務作業|じむさぎょう}: daily office work\n\nSIMILAR WORDS:\n- ⟦{事務|じむ}→事務：11418_jimu⟧: office work; clerical duties — the shorter, more general term\n- デスクワーク: desk work — loanword covering all work done at a desk\n- {雑務|ざつむ}: miscellaneous tasks — less structured routine work\n- ⟦{書類|しょるい}→書類：01103_shorui⟧⟦{仕事|しごと}→仕事：00480_shigoto⟧: paperwork — specifically dealing with documents",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18870_shoruisakusei",
+      "reading": "しょるいさくせい",
+      "headword": "{書類|しょるい}{作成|さくせい}",
+      "label": "document preparation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22824_tanjunsagyou",
+      "reading": "たんじゅんさぎょう",
+      "headword": "{単純作業|たんじゅんさぎょう}",
+      "label": "simple repetitive work"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +75,6 @@
       ]
     },
     "created": "2026-04-08T18:35:49Z",
-    "modified": "2026-04-10T08:28:27Z"
+    "modified": "2026-09-02T04:02:11Z"
   }
 }

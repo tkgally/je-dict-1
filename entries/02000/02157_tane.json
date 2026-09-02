@@ -113,14 +113,40 @@
       ]
     }
   ],
-  "notes": "{種|たね} has both literal (seed) and figurative (source/topic) meanings.\n\nLITERAL USES (seeds):\n- {種|たね}⟦を→を：00422_wo⟧⟦{蒔|ま}く→蒔く：02419_maku⟧: to sow seeds\n- {種|たね}⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧: to save/harvest seeds\n- ⟦ひまわり→ひまわり：04999_himawari⟧⟦の→の：09472_no⟧{種|たね}: sunflower seeds\n- ⟦{花|はな}→花：00523_hana⟧⟦の→の：09472_no⟧{種|たね}: flower seeds\n\nFIGURATIVE USES (source/cause):\n- ⟦{話|はなし}→話：01496_hanashi⟧⟦の→の：09472_no⟧{種|たね}: topic of conversation\n- ⟦{笑|わら}い→笑い：02641_warai⟧⟦の→の：09472_no⟧{種|たね}: source of laughter\n- ⟦{心配|しんぱい}→心配：00811_shinpai⟧⟦の→の：09472_no⟧{種|たね}: cause of worry\n- ⟦{悩|なや}み→悩み：06650_nayami⟧⟦の→の：09472_no⟧{種|たね}: source of trouble\n- ⟦ニュース→ニュース：04437_nyuusu⟧⟦の→の：09472_no⟧{種|たね}: news material\n\nIDIOM:\n{種|たね}⟦も→も：00484_mo⟧⟦{仕掛|しか}け→仕掛け：07916_shikake⟧⟦も→も：00484_mo⟧⟦ない→ない：01118_nai⟧: no tricks (literally 'no seeds or mechanisms' - used by magicians)\n\nRELATED:\n- ⟦{苗|なえ}→苗：05489_nae⟧: seedling (plant that has sprouted)\n- ⟦{実|み}→実：03741_mi⟧: fruit, seed (of fruit)",
+  "notes": "{種|たね} has both literal (seed) and figurative (source/topic) meanings.\n\nLITERAL USES (seeds):\n- {種|たね}⟦を→を：00422_wo⟧⟦{蒔|ま}く→蒔く：02419_maku⟧: to sow seeds\n- {種|たね}⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧: to save/harvest seeds\n- ⟦ひまわり→ひまわり：04999_himawari⟧⟦の→の：09472_no⟧{種|たね}: sunflower seeds\n- ⟦{花|はな}→花：00523_hana⟧⟦の→の：09472_no⟧{種|たね}: flower seeds\n\nFIGURATIVE USES (source/cause):\n- ⟦{話|はなし}→話：01496_hanashi⟧⟦の→の：09472_no⟧{種|たね}: topic of conversation\n- ⟦{笑|わら}い→笑い：02641_warai⟧⟦の→の：09472_no⟧{種|たね}: source of laughter\n- ⟦{心配|しんぱい}→心配：00811_shinpai⟧⟦の→の：09472_no⟧{種|たね}: cause of worry\n- ⟦{悩|なや}み→悩み：06650_nayami⟧⟦の→の：09472_no⟧{種|たね}: source of trouble\n- ⟦ニュース→ニュース：04437_nyuusu⟧⟦の→の：09472_no⟧{種|たね}: news material\n\nCOMMON EXPRESSIONS:\n{種|たね}⟦も→も：00484_mo⟧⟦{仕掛|しか}け→仕掛け：07916_shikake⟧⟦も→も：00484_mo⟧⟦ない→ない：01118_nai⟧: no tricks (literally 'no seeds or mechanisms' - used by magicians)\n\nRELATED WORDS:\n- ⟦{苗|なえ}→苗：05489_nae⟧: seedling (plant that has sprouted)\n- ⟦{実|み}→実：03741_mi⟧: fruit, seed (of fruit)",
   "cross_references": [
-    {"type": "related", "target_id": "05489_nae", "reading": "なえ", "headword": "{苗|なえ}", "label": "seedling"},
-    {"type": "related", "target_id": "03741_mi", "reading": "み", "headword": "{実|み}", "label": "fruit, seed of a plant"}
+    {
+      "type": "related",
+      "target_id": "05489_nae",
+      "reading": "なえ",
+      "headword": "{苗|なえ}",
+      "label": "seedling"
+    },
+    {
+      "type": "related",
+      "target_id": "03741_mi",
+      "reading": "み",
+      "headword": "{実|み}",
+      "label": "fruit, seed of a plant"
+    },
+    {
+      "type": "related",
+      "target_id": "19561_kaniku",
+      "reading": "かにく",
+      "headword": "{果肉|かにく}",
+      "label": "flesh of fruit"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23446_nikudane",
+      "reading": "にくだね",
+      "headword": "{肉|にく}だね",
+      "label": "meat mixture"
+    }
   ],
   "metadata": {
     "created": "2026-01-09T12:10:01Z",
-    "modified": "2026-05-18T17:20:08Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

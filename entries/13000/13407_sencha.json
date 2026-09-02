@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "13407_sencha_ex1",
-      "japanese": "{食後|しょくご}に{煎茶|せんちゃ}を{飲|の}む。",
+      "japanese": "⟦{食後|しょくご}→食後：09499_shokugo⟧⟦に→に：00314_ni⟧{煎茶|せんちゃ}⟦を→を：00422_wo⟧⟦{飲|の}む→飲む：00322_nomu⟧。",
       "english": "I drink sencha after meals.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "13407_sencha_ex2",
-      "japanese": "{煎茶|せんちゃ}は{熱湯|ねっとう}ではなく、{少|すこ}し{冷|さ}ましたお{湯|ゆ}で{淹|い}れるとおいしい。",
+      "japanese": "{煎茶|せんちゃ}⟦は→は：00079_ha⟧⟦{熱湯|ねっとう}→熱湯：13460_nettou⟧⟦ではなく→ではなく：09578_dehanaku⟧、⟦{少|すこ}し→少し：00596_sukoshi⟧⟦{冷|さ}ました→冷ます：02113_samasu⟧⟦お{湯|ゆ}→お湯：02518_oyu⟧⟦で→で：00502_de⟧⟦{淹|い}れる→淹れる：13297_ireru⟧⟦と→と：00512_to⟧おいしい。",
       "english": "Sencha tastes best when brewed with water that has cooled slightly, rather than boiling water.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "13407_sencha_ex3",
-      "japanese": "{日本|にほん}で{最|もっと}も{多|おお}く{飲|の}まれているお{茶|ちゃ}は{煎茶|せんちゃ}で、{生産量|せいさんりょう}の{約|やく}{六|ろく}{割|わり}を{占|し}める。",
+      "japanese": "⟦{日本|にほん}→日本：03876_nihon⟧⟦で→で：00502_de⟧⟦{最|もっと}も→最も：01736_mottomo⟧⟦{多|おお}く→多い：01127_ooi⟧⟦{飲|の}まれている→飲む：00322_nomu⟧⟦お{茶|ちゃ}→お茶：00576_ocha⟧⟦は→は：00079_ha⟧{煎茶|せんちゃ}⟦で→で：00502_de⟧、{生産量|せいさんりょう}⟦の→の：09472_no⟧⟦{約|やく}→約：09563_yaku⟧⟦{六|ろく}→六：00747_roku⟧⟦{割|わり}→割：03194_wari⟧⟦を→を：00422_wo⟧⟦{占|し}める→占める：11799_shimeru⟧。",
       "english": "The most widely consumed tea in Japan is sencha, accounting for about 60 percent of production.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "TYPES OF JAPANESE TEA:\n{煎茶|せんちゃ} is the everyday green tea of Japan, distinct from:\n- {抹茶|まっちゃ}: powdered tea used in tea ceremony\n- {玉露|ぎょくろ}: a high-grade shaded tea with a rich umami flavor\n- ほうじ{茶|ちゃ}: roasted green tea with a toasty flavor\n- {番茶|ばんちゃ}: coarser, everyday tea from later harvests\n\nBREWING:\n{煎茶|せんちゃ} is best brewed at around 70-80°C, not boiling water. Using cooler water brings out sweetness and umami while reducing bitterness.\n\nCOMMON COLLOCATIONS:\n- {煎茶|せんちゃ}を{淹|い}れる: to brew sencha\n- {煎茶|せんちゃ}を{飲|の}む: to drink sencha\n- {深蒸|ふかむ}し{煎茶|せんちゃ}: deep-steamed sencha",
+  "notes": "TYPES OF JAPANESE TEA:\n{煎茶|せんちゃ} is the everyday green tea of Japan, distinct from:\n- ⟦{抹茶|まっちゃ}→抹茶：10574_maccha⟧: powdered tea used in tea ceremony\n- ⟦{玉露|ぎょくろ}→玉露：13595_gyokuro⟧: a high-grade shaded tea with a rich umami flavor\n- ⟦ほうじ{茶|ちゃ}→ほうじ茶：19098_houjicha⟧: roasted green tea with a toasty flavor\n- ⟦{番茶|ばんちゃ}→番茶：13724_bancha⟧: coarser, everyday tea from later harvests\n\nBREWING:\n{煎茶|せんちゃ} is best brewed at around 70-80°C, not boiling water. Using cooler water brings out sweetness and umami while reducing bitterness.\n\nCOMMON COLLOCATIONS:\n- {煎茶|せんちゃ}⟦を→を：00422_wo⟧⟦{淹|い}れる→淹れる：13297_ireru⟧: to brew sencha\n- {煎茶|せんちゃ}⟦を→を：00422_wo⟧⟦{飲|の}む→飲む：00322_nomu⟧: to drink sencha\n- {深蒸|ふかむ}し{煎茶|せんちゃ}: deep-steamed sencha",
   "cross_references": [
     {
       "type": "related",
@@ -52,11 +52,18 @@
       "reading": "ぎょくろ",
       "headword": "{玉露|ぎょくろ}",
       "label": "gyokuro (highest grade)"
+    },
+    {
+      "type": "related",
+      "target_id": "26315_konacha",
+      "reading": "こなちゃ",
+      "headword": "{粉茶|こなちゃ}",
+      "label": "powdered tea"
     }
   ],
   "metadata": {
     "created": "2026-02-24T11:36:53Z",
-    "modified": "2026-04-29T05:15:51Z",
+    "modified": "2026-09-02T04:01:33Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

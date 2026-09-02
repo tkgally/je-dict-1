@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24513_koukettou_ex1",
-      "japanese": "{高血糖|こうけっとう}は{糖尿病|とうにょうびょう}のサインだ。",
+      "japanese": "{高血糖|こうけっとう}⟦は→は：00079_ha⟧⟦{糖尿病|とうにょうびょう}→糖尿病：04414_tounyoubyou⟧⟦の→の：09472_no⟧⟦サイン→サイン：03846_sain⟧だ。",
       "english": "High blood sugar is a sign of diabetes.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24513_koukettou_ex2",
-      "japanese": "{食後|しょくご}の{高血糖|こうけっとう}を{抑|おさ}えるために{野菜|やさい}から{先|さき}に{食|た}べるとよい。",
+      "japanese": "⟦{食後|しょくご}→食後：09499_shokugo⟧⟦の→の：09472_no⟧{高血糖|こうけっとう}⟦を→を：00422_wo⟧⟦{抑|おさ}える→抑える：12806_osaeru⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧⟦{野菜|やさい}→野菜：02265_yasai⟧⟦から→から：00504_kara⟧⟦{先|さき}→先：02883_saki⟧⟦に→に：00314_ni⟧⟦{食|た}べる→食べる：00396_taberu⟧⟦と→と：00512_to⟧よい。",
       "english": "To suppress high blood sugar after meals, it is good to eat vegetables first.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24513_koukettou_ex3",
-      "japanese": "{健康診断|けんこうしんだん}で{高血糖|こうけっとう}を{指摘|してき}されたので、{甘|あま}いものを{控|ひか}えるようにしている。",
+      "japanese": "⟦{健康診断|けんこうしんだん}→健康診断：05979_kenkoushindan⟧⟦で→で：00502_de⟧{高血糖|こうけっとう}⟦を→を：00422_wo⟧⟦{指摘|してき}→指摘：05630_shiteki⟧⟦された→する：00392_suru⟧⟦の→の：09472_no⟧で、⟦{甘|あま}い→甘い：00617_amai⟧もの⟦を→を：00422_wo⟧⟦{控|ひか}える→控える：10054_hikaeru⟧ようにして⟦いる→いる：00495_iru⟧。",
       "english": "I was told I had high blood sugar at my health checkup, so I'm trying to cut back on sweets.",
       "sense_numbers": [
         1
@@ -44,19 +44,51 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {高|こう} (high) and {血糖|けっとう} (blood sugar). Frequently discussed in the context of {糖尿病|とうにょうびょう} (diabetes) and {生活習慣病|せいかつしゅうかんびょう} (lifestyle diseases), both major public health concerns in Japan.\n\nCOMMON COLLOCATIONS:\n- {高血糖|こうけっとう}{状態|じょうたい}: hyperglycemic state\n- {食後|しょくご}{高血糖|こうけっとう}: postprandial hyperglycemia\n- {高血糖|こうけっとう}を{改善|かいぜん}する: to improve high blood sugar\n- {高血糖|こうけっとう}の{症状|しょうじょう}: symptoms of hyperglycemia\n\nRELATED TERMS:\n- {低血糖|ていけっとう}: low blood sugar (hypoglycemia) — the opposite condition\n- {血糖値|けっとうち}: blood sugar level\n- {糖尿病|とうにょうびょう}: diabetes\n- {血圧|けつあつ}: blood pressure",
+  "notes": "A compound of ⟦{高|こう}→高〜：03951_kou⟧ (high) and {血糖|けっとう} (blood sugar). Frequently discussed in the context of ⟦{糖尿病|とうにょうびょう}→糖尿病：04414_tounyoubyou⟧ (diabetes) and ⟦{生活習慣病|せいかつしゅうかんびょう}→生活習慣病：08620_seikatsushuukanbyou⟧ (lifestyle diseases), both major public health concerns in Japan.\n\nCOMMON COLLOCATIONS:\n- {高血糖|こうけっとう}⟦{状態|じょうたい}→状態：03345_joutai⟧: hyperglycemic state\n- ⟦{食後|しょくご}→食後：09499_shokugo⟧{高血糖|こうけっとう}: postprandial hyperglycemia\n- {高血糖|こうけっとう}⟦を→を：00422_wo⟧⟦{改善|かいぜん}する→改善する：26828_kaizensuru⟧: to improve high blood sugar\n- {高血糖|こうけっとう}⟦の→の：09472_no⟧⟦{症状|しょうじょう}→症状：03234_shoujou⟧: symptoms of hyperglycemia\n\nRELATED WORDS:\n- ⟦{低血糖|ていけっとう}→低血糖：26060_teikettou⟧: low blood sugar (hypoglycemia) — the opposite condition\n- ⟦{血糖値|けっとうち}→血糖値：19493_kettouchi⟧: blood sugar level\n- ⟦{糖尿病|とうにょうびょう}→糖尿病：04414_tounyoubyou⟧: diabetes\n- ⟦{血圧|けつあつ}→血圧：00218_ketsuatsu⟧: blood pressure",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "26060_teikettou",
+      "reading": "ていけっとう",
+      "headword": "{低血糖|ていけっとう}",
+      "label": "low blood sugar"
+    },
+    {
+      "type": "related",
+      "target_id": "19493_kettouchi",
+      "reading": "けっとうち",
+      "headword": "{血糖値|けっとうち}",
+      "label": "blood sugar level"
+    },
+    {
+      "type": "related",
+      "target_id": "04414_tounyoubyou",
+      "reading": "とうにょうびょう",
+      "headword": "{糖尿病|とうにょうびょう}",
+      "label": "diabetes"
+    },
+    {
+      "type": "related",
+      "target_id": "00218_ketsuatsu",
+      "reading": "けつあつ",
+      "headword": "{血圧|けつあつ}",
+      "label": "blood pressure"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "health"
       ]
     },
     "created": "2026-04-19T13:05:45Z",
-    "modified": "2026-08-03T09:22:27Z"
+    "modified": "2026-09-02T04:02:18Z"
   }
 }

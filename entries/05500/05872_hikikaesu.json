@@ -124,7 +124,7 @@
     },
     {
       "id": "05872_hikikaesu_ex3",
-      "japanese": "⟦{天気|てんき}→天気：00582_tenki⟧⟦が→が：00051_ga⟧⟦{悪|わる}く→悪い：00908_warui⟧なった⟦ので→ので：09501_node⟧⟦{山頂|さんちょう}→山頂：09942_sanchou⟧⟦から→から：00504_kara⟧{引|ひ}き{返|かえ}した。",
+      "japanese": "⟦{天気|てんき}→天気：00582_tenki⟧⟦が→が：00051_ga⟧⟦{悪|わる}く→悪い：00908_warui⟧⟦なった→なる：01970_naru⟧⟦ので→ので：09501_node⟧⟦{山頂|さんちょう}→山頂：09942_sanchou⟧⟦から→から：00504_kara⟧{引|ひ}き{返|かえ}した。",
       "english": "We turned back from the summit because the weather got bad.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
     },
     {
       "id": "05872_hikikaesu_ex4",
-      "japanese": "⟦{途中|とちゅう}→途中：01684_tochuu⟧⟦まで→まで：00490_made⟧⟦{行|い}った→行く：00119_iku⟧⟦が→が：00051_ga⟧、⟦{危険|きけん}→危険：01141_kiken⟧だと⟦{感|かん}じて→感じる：02044_kanjiru⟧{引|ひ}き{返|かえ}した。",
+      "japanese": "⟦{途中|とちゅう}→途中：01684_tochuu⟧⟦まで→まで：00490_made⟧⟦{行|い}った→行く：00119_iku⟧⟦が→が：00051_ga⟧、⟦{危険|きけん}→危険：01141_kiken⟧だ⟦と→と：00512_to⟧⟦{感|かん}じて→感じる：02044_kanjiru⟧{引|ひ}き{返|かえ}した。",
       "english": "I went partway but felt it was dangerous and turned back.",
       "notes": null,
       "has_audio": false,
@@ -153,7 +153,7 @@
       ]
     }
   ],
-  "notes": "{引|ひ}き{返|かえ}す means to turn back or return the way one came.\n\nCOMPOUND VERB:\nFormed from ⟦{引|ひ}く→引く：01978_hiku⟧ (to pull) + ⟦{返|かえ}す→返す：09648_kaesu⟧ (to return). The {引|ひ}き emphasizes the physical action of turning around.\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n- No transitive pair\n\nCOMMON PATTERNS:\n- ⟦{道|みち}→道：00505_michi⟧⟦を→を：00422_wo⟧⟦{間違|まちが}えて→間違える：01109_machigaeru⟧{引|ひ}き{返|かえ}す: to turn back after taking the wrong road\n- ⟦{忘|わす}れ{物|もの}→忘れ物：01758_wasuremono⟧⟦を→を：00422_wo⟧⟦{取|と}り→取る：00565_toru⟧⟦に→に：00314_ni⟧{引|ひ}き{返|かえ}す: to go back to get something forgotten\n- ⟦{途中|とちゅう}→途中：01684_tochuu⟧⟦で→で：00502_de⟧{引|ひ}き{返|かえ}す: to turn back partway\n\nCONTRAST:\n- ⟦{戻|もど}る→戻る：01117_modoru⟧: to return (general, to a place)\n- {引|ひ}き{返|かえ}す: to turn back (emphasizes reversing direction)",
+  "notes": "{引|ひ}き{返|かえ}す means to turn back or return the way one came.\n\nCOMPOUND VERB:\nFormed from ⟦{引|ひ}く→引く：01978_hiku⟧ (to pull) + ⟦{返|かえ}す→返す：09648_kaesu⟧ (to return). The {引|ひ}き emphasizes the physical action of turning around.\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n- No transitive pair\n\nCOMMON PATTERNS:\n- ⟦{道|みち}→道：00505_michi⟧⟦を→を：00422_wo⟧⟦{間違|まちが}えて→間違える：01109_machigaeru⟧{引|ひ}き{返|かえ}す: to turn back after taking the wrong road\n- ⟦{忘|わす}れ{物|もの}→忘れ物：01758_wasuremono⟧⟦を→を：00422_wo⟧⟦{取|と}り→取る：00565_toru⟧⟦に→に：00314_ni⟧{引|ひ}き{返|かえ}す: to go back to get something forgotten\n- ⟦{途中|とちゅう}→途中：01684_tochuu⟧⟦で→で：00502_de⟧{引|ひ}き{返|かえ}す: to turn back partway\n\nSIMILAR WORDS:\n- ⟦{戻|もど}る→戻る：01117_modoru⟧: to return (general, to a place)\n- {引|ひ}き{返|かえ}す: to turn back (emphasizes reversing direction)",
   "cross_references": [
     {
       "type": "contrast",
@@ -161,11 +161,18 @@
       "headword": "{引|ひ}き{下|さ}がる",
       "label": "to withdraw",
       "target_id": "05873_hikisagaru"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01117_modoru",
+      "reading": "もどる",
+      "headword": "{戻|もど}る",
+      "label": "to return"
     }
   ],
   "metadata": {
     "created": "2026-01-16T13:59:02Z",
-    "modified": "2026-06-08T18:04:59Z",
+    "modified": "2026-09-02T04:01:07Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

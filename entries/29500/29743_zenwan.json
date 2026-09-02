@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29743_zenwan_ex1",
-      "japanese": "{前腕|ぜんわん}を{鍛|きた}える。",
+      "japanese": "{前腕|ぜんわん}⟦を→を：00422_wo⟧⟦{鍛|きた}える→鍛える：12326_kitaeru⟧。",
       "english": "to train the forearms.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29743_zenwan_ex2",
-      "japanese": "{重|おも}い{荷物|にもつ}で{前腕|ぜんわん}の{筋肉|きんにく}が{痛|いた}い。",
+      "japanese": "⟦{重|おも}い→重い：00804_omoi⟧⟦{荷物|にもつ}→荷物：00737_nimotsu⟧⟦で→で：00502_de⟧{前腕|ぜんわん}⟦の→の：09472_no⟧⟦{筋肉|きんにく}→筋肉：02646_kinniku⟧⟦が→が：00051_ga⟧⟦{痛|いた}い→痛い：01108_itai⟧。",
       "english": "My forearm muscles hurt from the heavy luggage.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29743_zenwan_ex3",
-      "japanese": "テニスでは{前腕|ぜんわん}の{力|ちから}が{重要|じゅうよう}だと{言|い}われる。",
+      "japanese": "⟦テニス→テニス：01784_tenisu⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧{前腕|ぜんわん}⟦の→の：09472_no⟧⟦{力|ちから}→力：01661_chikara⟧⟦が→が：00051_ga⟧⟦{重要|じゅうよう}→重要：01575_juuyou⟧だ⟦と→と：00512_to⟧⟦{言|い}われる→言う：00515_iu⟧。",
       "english": "It is said that forearm strength is important in tennis.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "The anatomical term for the part of the arm between the elbow and the wrist. Used in medical and fitness contexts, often alongside {上腕|じょうわん}.\n\nCOMMON COLLOCATIONS:\n- {前腕|ぜんわん}の{筋肉|きんにく}: forearm muscles\n- {前腕|ぜんわん}を{鍛|きた}える: to strengthen the forearms\n\nSIMILAR WORDS:\n- {上腕|じょうわん}: upper arm — the part above the elbow\n- {手首|てくび}: wrist — the joint at the end of the forearm",
+  "notes": "The anatomical term for the part of the arm between the elbow and the wrist. Used in medical and fitness contexts, often alongside ⟦{上腕|じょうわん}→上腕：29742_jouwan⟧.\n\nCOMMON COLLOCATIONS:\n- {前腕|ぜんわん}⟦の→の：09472_no⟧⟦{筋肉|きんにく}→筋肉：02646_kinniku⟧: forearm muscles\n- {前腕|ぜんわん}⟦を→を：00422_wo⟧⟦{鍛|きた}える→鍛える：12326_kitaeru⟧: to strengthen the forearms\n\nSIMILAR WORDS:\n- ⟦{上腕|じょうわん}→上腕：29742_jouwan⟧: upper arm — the part above the elbow\n- ⟦{手首|てくび}→手首：01000_tekubi⟧: wrist — the joint at the end of the forearm",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "29742_jouwan",
+      "reading": "じょうわん",
+      "headword": "{上腕|じょうわん}",
+      "label": "upper arm"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01000_tekubi",
+      "reading": "てくび",
+      "headword": "{手首|てくび}",
+      "label": "wrist"
+    },
+    {
+      "type": "related",
+      "target_id": "06437_ninoude",
+      "reading": "にのうで",
+      "headword": "{二|に}の{腕|うで}",
+      "label": "upper arm"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +76,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "body-part"
       ],
       "domain": []
     },
     "created": "2026-07-09T21:19:28Z",
-    "modified": "2026-07-09T21:19:28Z"
+    "modified": "2026-09-02T04:02:37Z"
   }
 }

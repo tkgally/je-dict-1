@@ -19,37 +19,55 @@
       "english": "I was losing consciousness.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17330_ishikigatoonoku_ex2",
-      "japanese": "{痛|いた}みで{意識|いしき}が{遠|とお}のきそうになった。",
+      "japanese": "⟦{痛|いた}み→痛み：01795_itami⟧⟦で→で：00502_de⟧{意識|いしき}が{遠|とお}のきそうになった。",
       "english": "I almost blacked out from the pain.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17330_ishikigatoonoku_ex3",
-      "japanese": "{熱中症|ねっちゅうしょう}で{意識|いしき}が{遠|とお}のき、{気|き}がついたら{病院|びょういん}にいた。",
+      "japanese": "⟦{熱中症|ねっちゅうしょう}→熱中症：08330_necchuushou⟧⟦で→で：00502_de⟧{意識|いしき}が{遠|とお}のき、⟦{気|き}→気：02199_ki⟧⟦が→が：00051_ga⟧ついたら⟦{病院|びょういん}→病院：00577_byouin⟧にいた。",
       "english": "I lost consciousness from heatstroke and when I came to, I was in the hospital.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nA vivid expression that describes consciousness moving away ({遠|とお}のく = to recede, to move far away). It captures the gradual, drifting quality of losing awareness, unlike the more abrupt {気|き}を{失|うしな}う. Often used in narrative or first-person accounts of medical emergencies, exhaustion, or intense pain.\n\nCOMMON COLLOCATIONS:\n- {意識|いしき}が{遠|とお}のいていく (consciousness fading away — progressive form)\n- {意識|いしき}が{遠|とお}のきそうになる (to feel like one is about to lose consciousness)\n\nSIMILAR WORDS:\n- {気|き}を{失|うしな}う: to lose consciousness — more clinical and abrupt\n- {意識|いしき}を{失|うしな}う: to lose consciousness — neutral, medical term\n- {気絶|きぜつ}する: to faint — more sudden, often from shock",
-  "cross_references": [],
+  "notes": "USAGE:\nA vivid expression that describes consciousness moving away (⟦{遠|とお}のく→遠のく：14429_toonoku⟧ = to recede, to move far away). It captures the gradual, drifting quality of losing awareness, unlike the more abrupt ⟦{気|き}→気：02199_ki⟧⟦を→を：00422_wo⟧⟦{失|うしな}う→失う：01887_ushinau⟧. Often used in narrative or first-person accounts of medical emergencies, exhaustion, or intense pain.\n\nCOMMON COLLOCATIONS:\n- {意識|いしき}が{遠|とお}のいていく (consciousness fading away — progressive form)\n- {意識|いしき}が{遠|とお}のきそう⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧ (to feel like one is about to lose consciousness)\n\nSIMILAR WORDS:\n- ⟦{気|き}→気：02199_ki⟧⟦を→を：00422_wo⟧⟦{失|うしな}う→失う：01887_ushinau⟧: to lose consciousness — more clinical and abrupt\n- ⟦{意識|いしき}→意識：01714_ishiki⟧⟦を→を：00422_wo⟧⟦{失|うしな}う→失う：01887_ushinau⟧: to lose consciousness — neutral, medical term\n- ⟦{気絶|きぜつ}→気絶：19929_kizetsu⟧⟦する→する：00392_suru⟧: to faint — more sudden, often from shock",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19929_kizetsu",
+      "reading": "きぜつ",
+      "headword": "{気絶|きぜつ}",
+      "label": "to faint"
+    }
+  ],
   "metadata": {
     "created": "2026-03-17T06:03:48Z",
-    "modified": "2026-03-17T06:03:48Z",
+    "modified": "2026-09-02T04:01:48Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["expression"],
+      "pos": [
+        "expression"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["cognition"]
+      "semantic": [
+        "cognition"
+      ]
     }
   }
 }

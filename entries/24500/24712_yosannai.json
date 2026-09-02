@@ -3,7 +3,7 @@
   "headword": "{予算内|よさんない}",
   "reading": "よさんない",
   "romaji": "yosannai",
-  "part_of_speech": "noun, adjective-no",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "within budget",
   "definitions": [
     {
@@ -15,41 +15,63 @@
   "examples": [
     {
       "id": "24712_yosannai_ex1",
-      "japanese": "{予算内|よさんない}で{収|おさ}まった。",
+      "japanese": "{予算内|よさんない}⟦で→で：00502_de⟧⟦{収|おさ}まった→収まる：11858_osamaru⟧。",
       "english": "It came in within budget.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "24712_yosannai_ex2",
-      "japanese": "{予算内|よさんない}でいいホテルを{見|み}つけた。",
+      "japanese": "{予算内|よさんない}⟦で→で：00502_de⟧⟦いい→いい：00118_ii⟧⟦ホテル→ホテル：01027_hoteru⟧⟦を→を：00422_wo⟧⟦{見|み}つけた→見つける：01180_mitsukeru⟧。",
       "english": "I found a good hotel within budget.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "24712_yosannai_ex3",
-      "japanese": "プロジェクトを{予算内|よさんない}で{完了|かんりょう}させるために、{無駄|むだ}な{支出|ししゅつ}を{削|けず}った。",
+      "japanese": "⟦プロジェクト→プロジェクト：06764_purojekuto⟧⟦を→を：00422_wo⟧{予算内|よさんない}⟦で→で：00502_de⟧⟦{完了|かんりょう}させる→完了する：20676_kanryousuru⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧、⟦{無駄|むだ}→無駄：02512_muda⟧な⟦{支出|ししゅつ}→支出：03169_shishutsu⟧⟦を→を：00422_wo⟧⟦{削|けず}った→削る：03922_kezuru⟧。",
       "english": "To complete the project within budget, we cut unnecessary expenditures.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Combines {予算|よさん} (budget) and {内|ない} (within, inside). A practical compound used constantly in business, shopping, travel planning, and daily conversation when discussing spending.\n\nCOMMON COLLOCATIONS:\n- {予算内|よさんない}で{収|おさ}まる: to stay within budget\n- {予算内|よさんない}で{収|おさ}める: to keep within budget\n- {予算内|よさんない}で{探|さが}す: to look for something within budget\n- {予算内|よさんない}で{完了|かんりょう}する: to complete within budget\n\nCONTRASTING TERMS:\n- {予算|よさん}オーバー: over budget\n- {予算|よさん}{超過|ちょうか}: budget overrun (formal)\n- {予算外|よさんがい}: outside the budget, unbudgeted",
+  "notes": "Combines ⟦{予算|よさん}→予算：03663_yosan⟧ (budget) and ⟦{内|ない}→〜内：09853_nai⟧ (within, inside). A practical compound used constantly in business, shopping, travel planning, and daily conversation when discussing spending.\n\nCOMMON COLLOCATIONS:\n- {予算内|よさんない}⟦で→で：00502_de⟧⟦{収|おさ}まる→収まる：11858_osamaru⟧: to stay within budget\n- {予算内|よさんない}⟦で→で：00502_de⟧⟦{収|おさ}める→収める：02022_osameru⟧: to keep within budget\n- {予算内|よさんない}⟦で→で：00502_de⟧⟦{探|さが}す→探す：00493_sagasu⟧: to look for something within budget\n- {予算内|よさんない}⟦で→で：00502_de⟧⟦{完了|かんりょう}する→完了する：20676_kanryousuru⟧: to complete within budget\n\nCONTRASTING TERMS:\n- ⟦{予算|よさん}オーバー→予算オーバー：17486_yosanoobaa⟧: over budget\n- ⟦{予算|よさん}→予算：03663_yosan⟧⟦{超過|ちょうか}→超過：04523_chouka⟧: budget overrun (formal)\n- {予算外|よさんがい}: outside the budget, unbudgeted",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17486_yosanoobaa",
+      "reading": "よさんおーばー",
+      "headword": "{予算|よさん}オーバー",
+      "label": "over budget"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-no"],
+      "pos": [
+        "noun",
+        "adjective-no"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["business"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "business"
+      ]
     },
     "created": "2026-04-20T12:19:29Z",
-    "modified": "2026-04-20T12:19:29Z"
+    "modified": "2026-09-02T04:02:19Z"
   }
 }

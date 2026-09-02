@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28062_teemapaaku_ex1",
-      "japanese": "テーマパークに{行|い}く。",
+      "japanese": "テーマパーク⟦に→に：00314_ni⟧⟦{行|い}く→行く：00119_iku⟧。",
       "english": "To go to a theme park.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28062_teemapaaku_ex2",
-      "japanese": "{新|あたら}しいテーマパークが{話題|わだい}になっている。",
+      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧テーマパーク⟦が→が：00051_ga⟧⟦{話題|わだい}→話題：03793_wadai⟧になっている。",
       "english": "The new theme park is the talk of the town.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28062_teemapaaku_ex3",
-      "japanese": "その{人気|にんき}テーマパークは{週末|しゅうまつ}になると{全国|ぜんこく}から{客|きゃく}が{訪|おとず}れる。",
+      "japanese": "⟦その→その：00993_sono⟧⟦{人気|にんき}→人気：01488_ninki⟧テーマパーク⟦は→は：00079_ha⟧⟦{週末|しゅうまつ}→週末：03030_shuumatsu⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦と→と：00512_to⟧⟦{全国|ぜんこく}→全国：03311_zenkoku⟧⟦から→から：00504_kara⟧⟦{客|きゃく}→客：00865_kyaku⟧⟦が→が：00051_ga⟧⟦{訪|おとず}れる→訪れる：07678_otozureru⟧。",
       "english": "On weekends that popular theme park draws visitors from all over the country.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "A loanword from English \"theme park,\" referring to large themed parks with rides, shows, and themed areas.\n\nCOMMON COLLOCATIONS:\n- テーマパークを{訪|おとず}れる: to visit a theme park\n- {人気|にんき}テーマパーク: a popular theme park\n\nSIMILAR WORDS:\n- {遊園地|ゆうえんち}: amusement park — older and smaller, ride-focused, usually without a single theme\n- {観光地|かんこうち}: tourist spot — a broader sightseeing destination",
+  "notes": "A loanword from English \"theme park,\" referring to large themed parks with rides, shows, and themed areas.\n\nCOMMON COLLOCATIONS:\n- テーマパーク⟦を→を：00422_wo⟧⟦{訪|おとず}れる→訪れる：07678_otozureru⟧: to visit a theme park\n- ⟦{人気|にんき}→人気：01488_ninki⟧テーマパーク: a popular theme park\n\nSIMILAR WORDS:\n- ⟦{遊園地|ゆうえんち}→遊園地：03174_yuuenchi⟧: amusement park — older and smaller, ride-focused, usually without a single theme\n- ⟦{観光地|かんこうち}→観光地：14163_kankouchi⟧: tourist spot — a broader sightseeing destination",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03174_yuuenchi",
+      "reading": "ゆうえんち",
+      "headword": "{遊園地|ゆうえんち}",
+      "label": "amusement park"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14163_kankouchi",
+      "reading": "かんこうち",
+      "headword": "{観光地|かんこうち}",
+      "label": "tourist spot"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28355_yuuen",
+      "reading": "ゆうえん",
+      "headword": "{遊園|ゆうえん}",
+      "label": "pleasure garden"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +76,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "leisure",
         "entertainment"
@@ -61,6 +84,6 @@
       "domain": []
     },
     "created": "2026-05-25T02:04:35Z",
-    "modified": "2026-08-08T03:27:39Z"
+    "modified": "2026-09-02T04:02:32Z"
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26093_ikioiyoku_ex1",
-      "japanese": "{水|みず}が{勢|いきお}いよく{流|なが}れている。",
+      "japanese": "⟦{水|みず}→水：02258_mizu⟧⟦が→が：00051_ga⟧{勢|いきお}いよく⟦{流|なが}れている→流れる：01969_nagareru⟧。",
       "english": "Water is flowing vigorously.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26093_ikioiyoku_ex2",
-      "japanese": "{子|こ}どもたちが{勢|いきお}いよく{走|はし}り{出|だ}した。",
+      "japanese": "{子|こ}どもたち⟦が→が：00051_ga⟧{勢|いきお}いよく⟦{走|はし}り{出|だ}した→走り出す：06679_hashiridasu⟧。",
       "english": "The children dashed out with great energy.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26093_ikioiyoku_ex3",
-      "japanese": "ドアを{勢|いきお}いよく{開|あ}けたら、{壁|かべ}にぶつかってしまった。",
+      "japanese": "⟦ドア→ドア：00773_doa⟧⟦を→を：00422_wo⟧{勢|いきお}いよく⟦{開|あ}けたら→開ける：00563_akeru⟧、⟦{壁|かべ}→壁：01290_kabe⟧⟦に→に：00314_ni⟧⟦ぶつかって→ぶつかる：02412_butsukaru⟧しまった。",
       "english": "I opened the door forcefully and it slammed into the wall.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "The adverbial form of {勢|いきお}いがよい (having momentum/force). {勢|いきお}い is a noun meaning \"momentum, force, vigor,\" and よく is the adverbial form of よい (good). Together they describe an action performed with noticeable force or energy.\n\nCOMMON COLLOCATIONS:\n- {勢|いきお}いよく{飛|と}び{出|だ}す — to jump out energetically\n- {勢|いきお}いよく{流|なが}れる — to flow strongly\n- {勢|いきお}いよく{食|た}べる — to eat with gusto\n- {勢|いきお}いよく{成長|せいちょう}する — to grow vigorously\n\nSIMILAR ADVERBS:\n- {激|はげ}しく — violently, intensely (stronger; implies more extreme force)\n- {力強|ちからづよ}く — powerfully, strongly (focuses on strength)\n- {元気|げんき}よく — cheerfully, energetically (focuses on liveliness rather than physical force)\n- {一気|いっき}に — all at once (focuses on speed and continuity rather than force)",
+  "notes": "The adverbial form of ⟦{勢|いきお}い→勢い：01782_ikioi⟧⟦が→が：00051_ga⟧よい (having momentum/force). ⟦{勢|いきお}い→勢い：01782_ikioi⟧ is a noun meaning \"momentum, force, vigor,\" and ⟦よく→よく：00601_yoku⟧ is the adverbial form of よい (good). Together they describe an action performed with noticeable force or energy.\n\nCOMMON COLLOCATIONS:\n- {勢|いきお}いよく⟦{飛|と}び{出|だ}す→飛び出す：02374_tobidasu⟧ — to jump out energetically\n- {勢|いきお}いよく⟦{流|なが}れる→流れる：01969_nagareru⟧ — to flow strongly\n- {勢|いきお}いよく⟦{食|た}べる→食べる：00396_taberu⟧ — to eat with gusto\n- {勢|いきお}いよく⟦{成長|せいちょう}→成長：03290_seichou⟧⟦する→する：00392_suru⟧ — to grow vigorously\n\nSIMILAR WORDS:\n- ⟦{激|はげ}しく→激しい：02348_hageshii⟧ — violently, intensely (stronger; implies more extreme force)\n- ⟦{力強|ちからづよ}く→力強い：03119_chikarazuyoi⟧ — powerfully, strongly (focuses on strength)\n- ⟦{元気|げんき}よく→元気よく：23305_genkiyoku⟧ — cheerfully, energetically (focuses on liveliness rather than physical force)\n- ⟦{一気|いっき}→一気：08891_ikki⟧⟦に→に：00314_ni⟧ — all at once (focuses on speed and continuity rather than force)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23305_genkiyoku",
+      "reading": "げんきよく",
+      "headword": "{元気|げんき}よく",
+      "label": "cheerfully, energetically"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16557_ikkini",
+      "reading": "いっきに",
+      "headword": "{一気|いっき}に",
+      "label": "all at once"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +75,6 @@
       ]
     },
     "created": "2026-04-29T12:43:41Z",
-    "modified": "2026-06-08T02:21:06Z"
+    "modified": "2026-09-02T04:02:25Z"
   }
 }

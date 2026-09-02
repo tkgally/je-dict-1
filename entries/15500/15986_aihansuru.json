@@ -3,7 +3,7 @@
   "id": "15986_aihansuru",
   "headword": "{相反|あいはん}する",
   "reading": "あいはんする",
-  "part_of_speech": "noun, suru verb, intransitive",
+  "part_of_speech": "noun, suru verb (intransitive)",
   "gloss": "to conflict with; to be contradictory",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "15986_aihansuru_ex1",
-      "japanese": "{二|ふた}つの{意見|いけん}が{相反|あいはん}する。",
+      "japanese": "⟦{二|ふた}つ→二つ：02953_futatsu⟧⟦の→の：09472_no⟧⟦{意見|いけん}→意見：01303_iken⟧⟦が→が：00051_ga⟧{相反|あいはん}する。",
       "english": "The two opinions conflict with each other.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "15986_aihansuru_ex2",
-      "japanese": "{彼|かれ}の{言葉|ことば}と{行動|こうどう}は{相反|あいはん}している。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧⟦{言葉|ことば}→言葉：02880_kotoba⟧⟦と→と：00512_to⟧⟦{行動|こうどう}→行動：02728_koudou⟧⟦は→は：00079_ha⟧{相反|あいはん}して⟦いる→いる：00495_iru⟧。",
       "english": "His words and actions are contradictory.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "15986_aihansuru_ex3",
-      "japanese": "{経済|けいざい}{成長|せいちょう}と{環境|かんきょう}{保護|ほご}は{相反|あいはん}する{目標|もくひょう}だと{言|い}われることがある。",
+      "japanese": "⟦{経済|けいざい}{成長|せいちょう}→経済成長：20453_keizaiseichou⟧⟦と→と：00512_to⟧⟦{環境|かんきょう}{保護|ほご}→環境保護：15308_kankyouhogo⟧⟦は→は：00079_ha⟧{相反|あいはん}する⟦{目標|もくひょう}→目標：03631_mokuhyou⟧だ⟦と→と：00512_to⟧⟦{言|い}われる→言う：00515_iu⟧こと⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "Economic growth and environmental protection are sometimes said to be conflicting goals.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA formal verb often used in written language, academic discussion, and news commentary. Typically takes two subjects connected by と or が, describing a mutual opposition. The noun form {相反|あいはん} can also appear in compounds.\n\nCOMMON COLLOCATIONS:\n- {利害|りがい}が{相反|あいはん}する (interests conflict)\n- {相反|あいはん}する{意見|いけん} (conflicting opinions)\n- {相反|あいはん}する{感情|かんじょう} (contradictory emotions)\n\nSIMILAR WORDS:\n- {矛盾|むじゅん}する: to contradict — implies logical inconsistency, often within one person's statements\n- {対立|たいりつ}する: to oppose, to confront — implies active confrontation between parties",
+  "notes": "USAGE:\nA formal verb often used in written language, academic discussion, and news commentary. Typically takes two subjects connected by ⟦と→と：00512_to⟧ or が, describing a mutual opposition. The noun form ⟦{相反|あいはん}→相反：26019_aihan⟧ can also appear in compounds.\n\nCOMMON COLLOCATIONS:\n- ⟦{利害|りがい}→利害：04091_rigai⟧⟦が→が：00051_ga⟧{相反|あいはん}する (interests conflict)\n- {相反|あいはん}する⟦{意見|いけん}→意見：01303_iken⟧ (conflicting opinions)\n- {相反|あいはん}する⟦{感情|かんじょう}→感情：00171_kanjou⟧ (contradictory emotions)\n\nSIMILAR WORDS:\n- ⟦{矛盾|むじゅん}する→矛盾する：22171_mujunsuru⟧: to contradict — implies logical inconsistency, often within one person's statements\n- ⟦{対立|たいりつ}する→対立する：22172_tairitsusuru⟧: to oppose, to confront — implies active confrontation between parties",
   "cross_references": [
     {
       "type": "synonym",
@@ -149,11 +149,25 @@
       "reading": "たいりつ",
       "headword": "{対立|たいりつ}",
       "label": "opposition (active)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22171_mujunsuru",
+      "reading": "むじゅんする",
+      "headword": "{矛盾|むじゅん}する",
+      "label": "to contradict"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22172_tairitsusuru",
+      "reading": "たいりつする",
+      "headword": "{対立|たいりつ}する",
+      "label": "to oppose, to confront"
     }
   ],
   "metadata": {
     "created": "2026-03-09T06:14:36Z",
-    "modified": "2026-05-02T09:03:34Z",
+    "modified": "2026-09-02T04:01:43Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

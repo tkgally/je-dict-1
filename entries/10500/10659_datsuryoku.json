@@ -20,7 +20,7 @@
   "examples": [
     {
       "id": "10659_datsuryoku_ex1",
-      "japanese": "{全身|ぜんしん}の{脱力|だつりょく}を{感|かん}じた。",
+      "japanese": "⟦{全身|ぜんしん}→全身：03313_zenshin⟧⟦の→の：09472_no⟧{脱力|だつりょく}⟦を→を：00422_wo⟧⟦{感|かん}じた→感じる：02044_kanjiru⟧。",
       "english": "I felt all the strength leave my body.",
       "notes": null,
       "has_audio": false,
@@ -30,7 +30,7 @@
     },
     {
       "id": "10659_datsuryoku_ex2",
-      "japanese": "{肩|かた}の{力|ちから}を{抜|ぬ}いて{脱力|だつりょく}する。",
+      "japanese": "⟦{肩|かた}→肩：02192_kata⟧⟦の→の：09472_no⟧⟦{力|ちから}→力：01661_chikara⟧⟦を→を：00422_wo⟧⟦{抜|ぬ}いて→抜く：02384_nuku⟧{脱力|だつりょく}⟦する→する：00392_suru⟧。",
       "english": "To relax the shoulders and go limp.",
       "notes": null,
       "has_audio": false,
@@ -40,7 +40,7 @@
     },
     {
       "id": "10659_datsuryoku_ex3",
-      "japanese": "{結果|けっか}を{聞|き}いて{脱力|だつりょく}してしまった。",
+      "japanese": "⟦{結果|けっか}→結果：02486_kekka⟧⟦を→を：00422_wo⟧⟦{聞|き}いて→聞く：00483_kiku⟧{脱力|だつりょく}⟦して→する：00392_suru⟧しまった。",
       "english": "When I heard the result, I went limp.",
       "notes": "Implies disappointment or relief",
       "has_audio": false,
@@ -50,7 +50,7 @@
     },
     {
       "id": "10659_datsuryoku_ex4",
-      "japanese": "{脱力|だつりょく}{系|けい}のユーモアだ。",
+      "japanese": "{脱力|だつりょく}⟦{系|けい}→〜系：28466_kei⟧⟦の→の：09472_no⟧⟦ユーモア→ユーモア：00432_yuumoa⟧だ。",
       "english": "It's deadpan humor.",
       "notes": null,
       "has_audio": false,
@@ -60,7 +60,7 @@
     },
     {
       "id": "10659_datsuryoku_ex5",
-      "japanese": "あの{芸人|げいにん}の{脱力|だつりょく}{系|けい}のネタが{好|す}きだ。",
+      "japanese": "⟦あの→あの：00915_ano⟧⟦{芸人|げいにん}→芸人：13958_geinin⟧⟦の→の：09472_no⟧{脱力|だつりょく}⟦{系|けい}→〜系：28466_kei⟧⟦の→の：09472_no⟧⟦ネタ→ネタ：06309_neta⟧⟦が→が：00051_ga⟧⟦{好|す}き→好き：02355_suki⟧だ。",
       "english": "I like that comedian's deadpan routines.",
       "notes": null,
       "has_audio": false,
@@ -70,7 +70,7 @@
     },
     {
       "id": "10659_datsuryoku_ex6",
-      "japanese": "{脱力|だつりょく}{感|かん}のあるイラストがSNSで{人気|にんき}を{集|あつ}めている。",
+      "japanese": "{脱力|だつりょく}{感|かん}⟦の→の：09472_no⟧⟦ある→ある：00006_aru⟧⟦イラスト→イラスト：10717_irasuto⟧⟦が→が：00051_ga⟧SNS⟦で→で：00502_de⟧⟦{人気|にんき}→人気：01488_ninki⟧⟦を→を：00422_wo⟧⟦{集|あつ}めている→集める：01170_atsumeru⟧。",
       "english": "Loose, relaxed illustrations are gaining popularity on social media.",
       "notes": null,
       "has_audio": false,
@@ -79,11 +79,26 @@
       ]
     }
   ],
-  "notes": "COMMON COLLOCATIONS:\n・{脱力|だつりょく}する (to go limp, to lose strength)\n・{脱力|だつりょく}{感|かん} (a feeling of limpness/relaxation)\n・{脱力|だつりょく}{系|けい} (deadpan style, low-key style)\n\nUSAGE:\nSense 1 is used both medically (loss of muscle strength) and casually (going limp from exhaustion, disappointment, or relief). Sense 2 ({脱力|だつりょく}{系|けい}) describes a deliberately understated, relaxed style in comedy, art, or fashion.",
-  "cross_references": [],
+  "notes": "COMMON COLLOCATIONS:\n- {脱力|だつりょく}⟦する→する：00392_suru⟧ (to go limp, to lose strength)\n- {脱力|だつりょく}{感|かん} (a feeling of limpness/relaxation)\n- {脱力|だつりょく}⟦{系|けい}→〜系：28466_kei⟧ (deadpan style, low-key style)\n\nUSAGE:\nSense 1 is used both medically (loss of muscle strength) and casually (going limp from exhaustion, disappointment, or relief). Sense 2 ({脱力|だつりょく}⟦{系|けい}→〜系：28466_kei⟧) describes a deliberately understated, relaxed style in comedy, art, or fashion.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06003_kyodatsu",
+      "reading": "きょだつ",
+      "headword": "{虚脱|きょだつ}",
+      "label": "lethargy"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15355_mukiryoku",
+      "reading": "むきりょく",
+      "headword": "{無気力|むきりょく}",
+      "label": "apathy"
+    }
+  ],
   "metadata": {
     "created": "2026-02-08T15:14:06Z",
-    "modified": "2026-06-27T16:04:49Z",
+    "modified": "2026-09-02T04:01:22Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

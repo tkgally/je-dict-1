@@ -15,41 +15,82 @@
   "examples": [
     {
       "id": "27540_uchi_ex1",
-      "japanese": "うちは{駅|えき}から{近|ちか}い。",
+      "japanese": "うち⟦は→は：00079_ha⟧⟦{駅|えき}→駅：02180_eki⟧⟦から→から：00504_kara⟧⟦{近|ちか}い→近い：00530_chikai⟧。",
       "english": "My place is close to the station.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27540_uchi_ex2",
-      "japanese": "{今度|こんど}うちに{遊|あそ}びに{来|き}て。",
+      "japanese": "⟦{今度|こんど}→今度：01327_kondo⟧うち⟦に→に：00314_ni⟧⟦{遊|あそ}び→遊ぶ：00550_asobu⟧⟦に→に：00314_ni⟧⟦{来|き}て→来る：00254_kuru⟧。",
       "english": "Come over to my place next time.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27540_uchi_ex3",
-      "japanese": "うちの{父|ちち}はサラリーマンで、{母|はは}は{看護師|かんごし}をしています。",
+      "japanese": "うち⟦の→の：09472_no⟧⟦{父|ちち}→父：00566_chichi⟧⟦は→は：00079_ha⟧⟦サラリーマン→サラリーマン：06084_sarariiman⟧⟦で→で：00502_de⟧、⟦{母|はは}→母：00549_haha⟧⟦は→は：00079_ha⟧⟦{看護師|かんごし}→看護師：05055_kangoshi⟧⟦を→を：00422_wo⟧⟦しています→する：00392_suru⟧。",
       "english": "My father is an office worker, and my mother is a nurse.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Colloquial spoken word for one's own home or family. Almost always written in hiragana when used in this sense. うちの + noun is the common pattern for referring to a family member or something belonging to one's household.\n\nCOMMON COLLOCATIONS:\n- うちに{帰|かえ}る: to go home\n- うちで{食|た}べる: to eat at home\n- うちの{子|こ}: my child / our kid\n- うちの{会社|かいしゃ}: my company / our company\n- うちの{犬|いぬ}: our dog\n\nSIMILAR WORDS:\n- {家|いえ}: house — refers to the building itself; more neutral\n- {自宅|じたく}: one's own home — formal/written register\n- {内|うち}: inside, within — different word entirely; separate entry",
+  "notes": "Colloquial spoken word for one's own home or family. Almost always written in hiragana when used in this sense. うち⟦の→の：09472_no⟧ + noun is the common pattern for referring to a family member or something belonging to one's household.\n\nCOMMON COLLOCATIONS:\n- うち⟦に→に：00314_ni⟧⟦{帰|かえ}る→帰る：00508_kaeru⟧: to go home\n- うち⟦で→で：00502_de⟧⟦{食|た}べる→食べる：00396_taberu⟧: to eat at home\n- うち⟦の→の：09472_no⟧⟦{子|こ}→子：09851_ko⟧: my child / our kid\n- うち⟦の→の：09472_no⟧⟦{会社|かいしゃ}→会社：00607_kaisha⟧: my company / our company\n- うち⟦の→の：09472_no⟧⟦{犬|いぬ}→犬：00632_inu⟧: our dog\n\nSIMILAR WORDS:\n- ⟦{家|いえ}→家：00612_ie⟧: house — refers to the building itself; more neutral\n- ⟦{自宅|じたく}→自宅：00129_jitaku⟧: one's own home — formal/written register\n- ⟦{内|うち}→内：01328_uchi⟧: inside, within — different word entirely; separate entry",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00612_ie",
+      "reading": "いえ",
+      "headword": "{家|いえ}",
+      "label": "house"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00129_jitaku",
+      "reading": "じたく",
+      "headword": "{自宅|じたく}",
+      "label": "one's own home"
+    },
+    {
+      "type": "homophone",
+      "target_id": "01328_uchi",
+      "reading": "うち",
+      "headword": "{内|うち}",
+      "label": "inside, within"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01569_otaku",
+      "reading": "おたく",
+      "headword": "お{宅|たく}",
+      "label": "(someone else's) home"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "informal",
-      "politeness": null,
-      "semantic": ["family", "daily-life"],
+      "politeness": "plain",
+      "semantic": [
+        "family",
+        "daily-life"
+      ],
       "domain": []
     },
     "created": "2026-05-14T01:41:20Z",
-    "modified": "2026-05-14T01:41:20Z"
+    "modified": "2026-09-02T04:02:31Z"
   }
 }

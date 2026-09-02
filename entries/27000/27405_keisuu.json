@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "27405_keisuu_ex1",
-      "japanese": "{摩擦|まさつ}{係数|けいすう}を{計算|けいさん}する。",
+      "japanese": "⟦{摩擦|まさつ}→摩擦：00271_masatsu⟧{係数|けいすう}⟦を→を：00422_wo⟧⟦{計算|けいさん}する→計算する：25526_keisansuru⟧。",
       "english": "To calculate the coefficient of friction.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "27405_keisuu_ex2",
-      "japanese": "{方程式|ほうていしき}の{係数|けいすう}を{揃|そろ}えて{解|と}く。",
+      "japanese": "⟦{方程式|ほうていしき}→方程式：04795_houteishiki⟧⟦の→の：09472_no⟧{係数|けいすう}⟦を→を：00422_wo⟧⟦{揃|そろ}えて→揃える：01952_soroeru⟧⟦{解|と}く→解く：02301_toku⟧。",
       "english": "Solve by lining up the coefficients of the equation.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "27405_keisuu_ex3",
-      "japanese": "{温度|おんど}が{上|あ}がると、{材料|ざいりょう}の{熱膨張|ねつぼうちょう}{係数|けいすう}に{応|おう}じて{長|なが}さが{変化|へんか}する。",
+      "japanese": "⟦{温度|おんど}→温度：00333_ondo⟧⟦が→が：00051_ga⟧⟦{上|あ}がる→上がる：00615_agaru⟧⟦と→と：00512_to⟧、⟦{材料|ざいりょう}→材料：02831_zairyou⟧⟦の→の：09472_no⟧{熱膨張|ねつぼうちょう}{係数|けいすう}⟦に→に：00314_ni⟧⟦{応|おう}じて→応じる：02018_oujiru⟧⟦{長|なが}さ→長さ：05326_nagasa⟧⟦が→が：00051_ga⟧⟦{変化|へんか}する→変化する：20997_henkasuru⟧。",
       "english": "As the temperature rises, the length changes according to the material's coefficient of thermal expansion.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {係|けい} (\"to relate to, to involve\") + {数|すう} (\"number\"). A technical term used across mathematics, physics, statistics, and engineering. The specific English translation varies by context — \"coefficient,\" \"factor,\" or \"modulus.\"\n\nCOMMON COMPOUNDS:\n- {摩擦|まさつ}{係数|けいすう}: coefficient of friction\n- {熱膨張|ねつぼうちょう}{係数|けいすう}: coefficient of thermal expansion\n- {相関|そうかん}{係数|けいすう}: correlation coefficient\n- {弾性|だんせい}{係数|けいすう}: modulus of elasticity\n- {抵抗|ていこう}{係数|けいすう}: drag/resistance coefficient\n\nSIMILAR WORDS:\n- {定数|ていすう}: constant — a fixed value; broader than {係数|けいすう}, not tied to a variable\n- {変数|へんすう}: variable — the opposite role; {係数|けいすう} multiplies a {変数|へんすう}",
+  "notes": "Compound of {係|けい} (\"to relate to, to involve\") + ⟦{数|すう}→数：03360_suu⟧ (\"number\"). A technical term used across mathematics, physics, statistics, and engineering. The specific English translation varies by context — \"coefficient,\" \"factor,\" or \"modulus.\"\n\nCOMPOUNDS:\n- ⟦{摩擦|まさつ}→摩擦：00271_masatsu⟧{係数|けいすう}: coefficient of friction\n- {熱膨張|ねつぼうちょう}{係数|けいすう}: coefficient of thermal expansion\n- {相関|そうかん}{係数|けいすう}: correlation coefficient\n- {弾性|だんせい}{係数|けいすう}: modulus of elasticity\n- ⟦{抵抗|ていこう}→抵抗：03540_teikou⟧{係数|けいすう}: drag/resistance coefficient\n\nSIMILAR WORDS:\n- ⟦{定数|ていすう}→定数：05149_teisuu⟧: constant — a fixed value; broader than {係数|けいすう}, not tied to a variable\n- ⟦{変数|へんすう}→変数：04798_hensuu⟧: variable — the opposite role; {係数|けいすう} multiplies a ⟦{変数|へんすう}→変数：04798_hensuu⟧",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05149_teisuu",
+      "reading": "ていすう",
+      "headword": "{定数|ていすう}",
+      "label": "constant"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04798_hensuu",
+      "reading": "へんすう",
+      "headword": "{変数|へんすう}",
+      "label": "variable"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20414_shisuu",
+      "reading": "しすう",
+      "headword": "{指数|しすう}",
+      "label": "index"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +76,7 @@
         "noun"
       ],
       "formality": "formal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "science"
       ],
@@ -63,6 +86,6 @@
       ]
     },
     "created": "2026-05-11T07:07:33Z",
-    "modified": "2026-08-07T16:10:18Z"
+    "modified": "2026-09-02T04:02:30Z"
   }
 }

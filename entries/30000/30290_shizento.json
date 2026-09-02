@@ -16,7 +16,7 @@
   "examples": [
     {
       "id": "30290_shizento_ex1",
-      "japanese": "{自然|しぜん}と{笑顔|えがお}になった。",
+      "japanese": "{自然|しぜん}と⟦{笑顔|えがお}→笑顔：01884_egao⟧になった。",
       "english": "A smile came to my face without my meaning it to.",
       "sense_numbers": [
         1
@@ -26,7 +26,7 @@
     },
     {
       "id": "30290_shizento_ex2",
-      "japanese": "{毎日|まいにち}{聞|き}いていれば{自然|しぜん}と{覚|おぼ}えるよ。",
+      "japanese": "⟦{毎日|まいにち}→毎日：00729_mainichi⟧⟦{聞|き}いていれば→聞く：00483_kiku⟧{自然|しぜん}と⟦{覚|おぼ}える→覚える：00739_oboeru⟧⟦よ→よ：09475_yo⟧。",
       "english": "If you listen every day, you'll pick it up naturally.",
       "sense_numbers": [
         1
@@ -36,7 +36,7 @@
     },
     {
       "id": "30290_shizento_ex3",
-      "japanese": "{同|おな}じ{時間|じかん}に{通|かよ}っているうちに、{自然|しぜん}と{話|はな}すようになった。",
+      "japanese": "⟦{同|おな}じ→同じ：02857_onaji⟧⟦{時間|じかん}→時間：00468_jikan⟧⟦に→に：00314_ni⟧⟦{通|かよ}っている→通う：01217_kayou⟧うち⟦に→に：00314_ni⟧、{自然|しぜん}と⟦{話|はな}す→話す：00467_hanasu⟧ようになった。",
       "english": "As we kept commuting at the same hour, we naturally started talking.",
       "sense_numbers": [
         1
@@ -45,7 +45,7 @@
       "notes": null
     }
   ],
-  "notes": "USAGE:\n{自然|しぜん}と is an adverb of manner or process and modifies the verb directly. It differs from {自然|しぜん}に, which is used both this way and in the sense \"in a natural manner, not artificially\" ({自然|しぜん}に{話|はな}す = to speak in a relaxed, unforced way).\n\nCOMMON COLLOCATIONS:\n- {自然|しぜん}と{覚|おぼ}える: to learn without trying\n- {自然|しぜん}と{涙|なみだ}が{出|で}る: tears come by themselves\n- {自然|しぜん}と{足|あし}が{向|む}く: to find oneself heading somewhere\n\nSIMILAR WORDS:\n- おのずと: naturally — more literary, about the logic of things rather than personal experience\n- ひとりでに: by itself — physical events with no agent; odd with feelings\n- いつの{間|ま}にか: before one knows it — stresses not noticing, rather than absence of effort",
+  "notes": "USAGE:\n{自然|しぜん}と is an adverb of manner or process and modifies the verb directly. It differs from ⟦{自然|しぜん}→自然：01423_shizen⟧⟦に→に：00314_ni⟧, which is used both this way and in the sense \"in a natural manner, not artificially\" (⟦{自然|しぜん}→自然：01423_shizen⟧⟦に→に：00314_ni⟧⟦{話|はな}す→話す：00467_hanasu⟧ = to speak in a relaxed, unforced way).\n\nCOMMON COLLOCATIONS:\n- {自然|しぜん}と⟦{覚|おぼ}える→覚える：00739_oboeru⟧: to learn without trying\n- {自然|しぜん}と⟦{涙|なみだ}→涙：02235_namida⟧⟦が→が：00051_ga⟧⟦{出|で}る→出る：00513_deru⟧: tears come by themselves\n- {自然|しぜん}と⟦{足|あし}→足：00575_ashi⟧⟦が→が：00051_ga⟧⟦{向|む}く→向く：02304_muku⟧: to find oneself heading somewhere\n\nSIMILAR WORDS:\n- ⟦おのずと→おのずと：06714_onozuto⟧: naturally — more literary, about the logic of things rather than personal experience\n- ⟦ひとりでに→ひとりでに：30288_hitorideni⟧: by itself — physical events with no agent; odd with feelings\n- ⟦いつの{間|ま}にか→いつの間にか：01812_itsunomanika⟧: before one knows it — stresses not noticing, rather than absence of effort",
   "cross_references": [
     {
       "type": "related",
@@ -60,6 +60,27 @@
       "reading": "しぜんに",
       "headword": "{自然|しぜん}に",
       "label": "naturally; in a natural manner"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30288_hitorideni",
+      "reading": "ひとりでに",
+      "headword": "ひとりでに",
+      "label": "by itself"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01812_itsunomanika",
+      "reading": "いつのまにか",
+      "headword": "いつの{間|ま}にか",
+      "label": "before one knows it"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30289_onozukara",
+      "reading": "おのずから",
+      "headword": "おのずから",
+      "label": "naturally"
     }
   ],
   "metadata": {
@@ -69,13 +90,13 @@
         "adverb"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "change"
       ],
       "domain": []
     },
     "created": "2026-07-31T21:20:10Z",
-    "modified": "2026-07-31T21:20:10Z"
+    "modified": "2026-09-02T04:02:39Z"
   }
 }

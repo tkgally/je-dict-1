@@ -2,7 +2,7 @@
   "id": "11972_nyuudan",
   "headword": "{入団|にゅうだん}",
   "reading": "にゅうだん",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "joining a group, team, or troupe",
   "conjugation": {
     "type": "suru",
@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "11972_nyuudan_ex1",
-      "japanese": "プロ{野球|やきゅう}チームに{入団|にゅうだん}した。",
+      "japanese": "⟦プロ{野球|やきゅう}→プロ野球：08837_puroyakyuu⟧⟦チーム→チーム：03858_chiimu⟧⟦に→に：00314_ni⟧{入団|にゅうだん}⟦した→する：00392_suru⟧。",
       "english": "He joined a professional baseball team.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "11972_nyuudan_ex2",
-      "japanese": "{息子|むすこ}がサッカーの{少年団|しょうねんだん}に{入団|にゅうだん}した。",
+      "japanese": "⟦{息子|むすこ}→息子：00799_musuko⟧⟦が→が：00051_ga⟧⟦サッカー→サッカー：04726_sakkaa⟧⟦の→の：09472_no⟧{少年団|しょうねんだん}⟦に→に：00314_ni⟧{入団|にゅうだん}⟦した→する：00392_suru⟧。",
       "english": "My son joined a youth soccer club.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "11972_nyuudan_ex3",
-      "japanese": "{入団|にゅうだん}テストに{合格|ごうかく}して{念願|ねんがん}のチームに{入|はい}ることができた。",
+      "japanese": "{入団|にゅうだん}⟦テスト→テスト：01065_tesuto⟧⟦に→に：00314_ni⟧⟦{合格|ごうかく}して→合格する：27949_goukakusuru⟧⟦{念願|ねんがん}→念願：17955_nengan⟧⟦の→の：09472_no⟧⟦チーム→チーム：03858_chiimu⟧⟦に→に：00314_ni⟧⟦{入|はい}る→入る：00494_hairu⟧こと⟦が→が：00051_ga⟧⟦できた→できる：00557_dekiru⟧。",
       "english": "I passed the tryout and was able to join the team I had always dreamed of.",
       "notes": null,
       "has_audio": false,
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "COMMON COLLOCATIONS:\n・チームに{入団|にゅうだん}する (join a team)\n・{入団|にゅうだん}テスト (tryout, entry test)\n・{入団|にゅうだん}{会見|かいけん} (joining announcement press conference)\n・{入団|にゅうだん}{希望|きぼう} (desire to join a team)\n\nUSAGE NOTES:\nUsed specifically for organized groups ({団|だん}), especially sports teams and performing arts troupes. For joining a club ({部|ぶ}), use {入部|にゅうぶ}. For joining a company, use {入社|にゅうしゃ}. For joining an association or society, use {入会|にゅうかい}.",
+  "notes": "COMMON COLLOCATIONS:\n- ⟦チーム→チーム：03858_chiimu⟧⟦に→に：00314_ni⟧{入団|にゅうだん}⟦する→する：00392_suru⟧ (join a team)\n- {入団|にゅうだん}⟦テスト→テスト：01065_tesuto⟧ (tryout, entry test)\n- {入団|にゅうだん}⟦{会見|かいけん}→会見：11447_kaiken⟧ (joining announcement press conference)\n- {入団|にゅうだん}⟦{希望|きぼう}→希望：00221_kibou⟧ (desire to join a team)\n\nUSAGE:\nUsed specifically for organized groups (⟦{団|だん}→〜団：04663_dan⟧), especially sports teams and performing arts troupes. For joining a club (⟦{部|ぶ}→〜部：00440_bu⟧), use ⟦{入部|にゅうぶ}→入部：11685_nyuubu⟧. For joining a company, use ⟦{入社|にゅうしゃ}→入社：03131_nyuusha⟧. For joining an association or society, use ⟦{入会|にゅうかい}→入会：11671_nyuukai⟧.",
   "cross_references": [
     {
       "type": "antonym",
@@ -162,11 +162,18 @@
       "reading": "にゅうかい",
       "headword": "{入会|にゅうかい}",
       "label": "joining an association"
+    },
+    {
+      "type": "related",
+      "target_id": "04663_dan",
+      "reading": "だん",
+      "headword": "〜{団|だん}",
+      "label": "group"
     }
   ],
   "metadata": {
     "created": "2026-02-19T11:09:24Z",
-    "modified": "2026-04-25T10:12:38Z",
+    "modified": "2026-09-02T04:01:27Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",

@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "15698_toujiki_ex1",
-      "japanese": "{日本|にほん}の{陶磁器|とうじき}は{世界的|せかいてき}に{有名|ゆうめい}だ。",
+      "japanese": "⟦{日本|にほん}→日本：03876_nihon⟧⟦の→の：09472_no⟧{陶磁器|とうじき}⟦は→は：00079_ha⟧⟦{世界的|せかいてき}→世界的：20935_sekaiteki⟧⟦に→に：00314_ni⟧⟦{有名|ゆうめい}→有名：01106_yuumei⟧だ。",
       "english": "Japanese ceramics are famous worldwide.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15698_toujiki_ex2",
-      "japanese": "{美術館|びじゅつかん}で{古|ふる}い{陶磁器|とうじき}の{展示|てんじ}を{見|み}た。",
+      "japanese": "⟦{美術館|びじゅつかん}→美術館：01717_bijutsukan⟧⟦で→で：00502_de⟧⟦{古|ふる}い→古い：00488_furui⟧{陶磁器|とうじき}⟦の→の：09472_no⟧⟦{展示|てんじ}→展示：12401_tenji⟧⟦を→を：00422_wo⟧⟦{見|み}た→見る：00283_miru⟧。",
       "english": "I saw an exhibition of old ceramics at the art museum.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15698_toujiki_ex3",
-      "japanese": "{有田焼|ありたやき}は{日本|にほん}を{代表|だいひょう}する{陶磁器|とうじき}の{一|ひと}つだ。",
+      "japanese": "⟦{有田焼|ありたやき}→有田焼：28604_aritayaki⟧⟦は→は：00079_ha⟧⟦{日本|にほん}→日本：03876_nihon⟧⟦を→を：00422_wo⟧⟦{代表|だいひょう}→代表：03419_daihyou⟧⟦する→する：00392_suru⟧{陶磁器|とうじき}⟦の→の：09472_no⟧⟦{一|ひと}つ→一つ：02948_hitotsu⟧だ。",
       "english": "Arita ware is one of the most representative ceramics of Japan.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nA comprehensive term covering both {陶器|とうき} (pottery, earthenware) and {磁器|じき} (porcelain). Japan has a long tradition of ceramic arts, with famous regional styles such as {有田焼|ありたやき}, {瀬戸焼|せとやき}, and {益子焼|ましこやき}.\n\nCOMMON COLLOCATIONS:\n- {陶磁器|とうじき}の{産地|さんち} (ceramics production area)\n- {陶磁器|とうじき}{市|いち} (ceramics market/fair)\n- {陶磁器|とうじき}{美術館|びじゅつかん} (ceramics museum)\n\nSIMILAR WORDS:\n- {陶器|とうき}: pottery, earthenware (lower firing temperature)\n- {磁器|じき}: porcelain (higher firing temperature, translucent)\n- {焼|や}き{物|もの}: pottery, ceramics (more casual term)",
+  "notes": "USAGE:\nA comprehensive term covering both ⟦{陶器|とうき}→陶器：14531_touki⟧ (pottery, earthenware) and ⟦{磁器|じき}→磁器：03335_jiki⟧ (porcelain). Japan has a long tradition of ceramic arts, with famous regional styles such as ⟦{有田焼|ありたやき}→有田焼：28604_aritayaki⟧, {瀬戸焼|せとやき}, and {益子焼|ましこやき}.\n\nCOMMON COLLOCATIONS:\n- {陶磁器|とうじき}⟦の→の：09472_no⟧⟦{産地|さんち}→産地：04031_sanchi⟧ (ceramics production area)\n- {陶磁器|とうじき}⟦{市|いち}→市：10013_ichi⟧ (ceramics market/fair)\n- {陶磁器|とうじき}⟦{美術館|びじゅつかん}→美術館：01717_bijutsukan⟧ (ceramics museum)\n\nSIMILAR WORDS:\n- ⟦{陶器|とうき}→陶器：14531_touki⟧: pottery, earthenware (lower firing temperature)\n- ⟦{磁器|じき}→磁器：03335_jiki⟧: porcelain (higher firing temperature, translucent)\n- ⟦{焼|や}き{物|もの}→焼き物：04974_yakimono⟧: pottery, ceramics (more casual term)",
   "cross_references": [
     {
       "type": "related",
@@ -53,18 +59,36 @@
       "reading": "じき",
       "headword": "{磁器|じき}",
       "label": "porcelain"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04974_yakimono",
+      "reading": "やきもの",
+      "headword": "{焼|や}き{物|もの}",
+      "label": "pottery, ceramics"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26425_jikisei",
+      "reading": "じきせい",
+      "headword": "{磁器|じき}{製|せい}",
+      "label": "made of porcelain"
     }
   ],
   "metadata": {
     "created": "2026-03-08T07:38:55Z",
-    "modified": "2026-05-01T10:15:30Z",
+    "modified": "2026-09-02T04:01:42Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["art"]
+      "semantic": [
+        "art"
+      ]
     }
   }
 }

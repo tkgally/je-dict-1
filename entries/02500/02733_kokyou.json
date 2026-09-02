@@ -63,11 +63,61 @@
       ]
     }
   ],
-  "notes": "READINGS:\n- {故郷|こきょう}: formal/literary\n- ⟦{故郷|ふるさと}→故郷：25466_furusato⟧: poetic/emotional (same kanji, different reading)\n\nCOMMON PATTERNS:\n- {故郷|こきょう}⟦に→に：00314_ni⟧⟦{帰|かえ}る→帰る：00508_kaeru⟧: to return home\n- {故郷|こきょう}⟦を→を：00422_wo⟧⟦{離|はな}れる→離れる：02397_hanareru⟧: to leave hometown\n- {故郷|こきょう}⟦が→が：00051_ga⟧⟦{懐|なつ}かしい→懐かしい：02484_natsukashii⟧: to miss one's hometown\n- ⟦{第二|だいに}→第〜：03960_dai⟧⟦の→の：09472_no⟧{故郷|こきょう}: second hometown\n\nRELATED WORDS:\n- ⟦{地元|じもと}→地元：09941_jimoto⟧: local area, hometown (casual)\n- ⟦{出身地|しゅっしんち}→出身地：15396_shusshinchi⟧: place of origin (formal)\n- ⟦{田舎|いなか}→田舎：01320_inaka⟧: countryside, rural hometown",
-  "cross_references": [],
+  "notes": "PRONUNCIATION:\n- {故郷|こきょう}: formal/literary\n- ⟦{故郷|ふるさと}→故郷：25466_furusato⟧: poetic/emotional (same kanji, different reading)\n\nCOMMON PATTERNS:\n- {故郷|こきょう}⟦に→に：00314_ni⟧⟦{帰|かえ}る→帰る：00508_kaeru⟧: to return home\n- {故郷|こきょう}⟦を→を：00422_wo⟧⟦{離|はな}れる→離れる：02397_hanareru⟧: to leave hometown\n- {故郷|こきょう}⟦が→が：00051_ga⟧⟦{懐|なつ}かしい→懐かしい：02484_natsukashii⟧: to miss one's hometown\n- ⟦{第二|だいに}→第〜：03960_dai⟧⟦の→の：09472_no⟧{故郷|こきょう}: second hometown\n\nRELATED WORDS:\n- ⟦{地元|じもと}→地元：09941_jimoto⟧: local area, hometown (casual)\n- ⟦{出身地|しゅっしんち}→出身地：15396_shusshinchi⟧: place of origin (formal)\n- ⟦{田舎|いなか}→田舎：01320_inaka⟧: countryside, rural hometown",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "09941_jimoto",
+      "reading": "じもと",
+      "headword": "{地元|じもと}",
+      "label": "local area, hometown"
+    },
+    {
+      "type": "related",
+      "target_id": "15396_shusshinchi",
+      "reading": "しゅっしんち",
+      "headword": "{出身地|しゅっしんち}",
+      "label": "place of origin"
+    },
+    {
+      "type": "related",
+      "target_id": "01320_inaka",
+      "reading": "いなか",
+      "headword": "{田舎|いなか}",
+      "label": "countryside, rural hometown"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18863_kyouri",
+      "reading": "きょうり",
+      "headword": "{郷里|きょうり}",
+      "label": "hometown"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26218_ikyou",
+      "reading": "いきょう",
+      "headword": "{異郷|いきょう}",
+      "label": "foreign land"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27141_sokoku",
+      "reading": "そこく",
+      "headword": "{祖国|そこく}",
+      "label": "homeland"
+    },
+    {
+      "type": "antonym",
+      "target_id": "29853_takyou",
+      "reading": "たきょう",
+      "headword": "{他郷|たきょう}",
+      "label": "foreign land"
+    }
+  ],
   "metadata": {
     "created": "2026-01-11T07:29:00Z",
-    "modified": "2026-05-21T21:20:30Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

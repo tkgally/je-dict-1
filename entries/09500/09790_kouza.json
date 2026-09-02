@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "09790_kouza_ex1",
-      "japanese": "{講座|こうざ}⟦に→に：00314_ni⟧{申|もう}し{込|こ}む。",
+      "japanese": "{講座|こうざ}⟦に→に：00314_ni⟧⟦{申|もう}し{込|こ}む→申し込む：02311_moushikomu⟧。",
       "english": "To apply for a course.",
       "has_audio": false,
       "sense_numbers": [
@@ -23,7 +23,7 @@
     },
     {
       "id": "09790_kouza_ex2",
-      "japanese": "{料理|りょうり}{講座|こうざ}⟦を→を：00422_wo⟧{受|う}ける。",
+      "japanese": "⟦{料理|りょうり}→料理：01523_ryouri⟧{講座|こうざ}⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧。",
       "english": "To take a cooking course.",
       "has_audio": false,
       "sense_numbers": [
@@ -40,10 +40,19 @@
       ]
     }
   ],
-  "notes": "{講座|こうざ} refers to a course or lecture series.\n\nCOMMON TYPES:\n- {通信|つうしん}{講座|こうざ}: correspondence course\n- {公開|こうかい}{講座|こうざ}: public lecture series\n- オンライン{講座|こうざ}: online course\n- {入門|にゅうもん}{講座|こうざ}: introductory course\n\nCOMMON COLLOCATIONS:\n- {講座|こうざ}を{受|う}ける (to take a course)\n- {講座|こうざ}を{開|ひら}く (to offer a course)\n- {講座|こうざ}に{参加|さんか}する (to participate in a course)\n\nNOTE: Do not confuse with {口座|こうざ} (bank account), which has the same reading.",
+  "notes": "{講座|こうざ} refers to a course or lecture series.\n\nTYPES:\n- {通信|つうしん}{講座|こうざ}: correspondence course\n- ⟦{公開|こうかい}→公開：11665_koukai⟧{講座|こうざ}: public lecture series\n- オンライン{講座|こうざ}: online course\n- ⟦{入門|にゅうもん}→入門：11643_nyuumon⟧{講座|こうざ}: introductory course\n\nCOMMON COLLOCATIONS:\n- {講座|こうざ}⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧ (to take a course)\n- {講座|こうざ}⟦を→を：00422_wo⟧⟦{開|ひら}く→開く：01979_hiraku⟧ (to offer a course)\n- {講座|こうざ}⟦に→に：00314_ni⟧⟦{参加|さんか}する→参加する：25408_sankasuru⟧ (to participate in a course)\n\nNOTE: Do not confuse with ⟦{口座|こうざ}→口座：05419_kouza⟧ (bank account), which has the same reading.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00163_kamoku",
+      "reading": "かもく",
+      "headword": "{科目|かもく}",
+      "label": "subject, course"
+    }
+  ],
   "metadata": {
     "created": "2026-02-03T11:36:14Z",
-    "modified": "2026-02-03T11:36:14Z",
+    "modified": "2026-09-02T04:01:19Z",
     "ai_model": "claude-opus-4-5-20251101",
     "vocabulary_tier": "general",
     "tags": {

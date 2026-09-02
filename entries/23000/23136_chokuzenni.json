@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "23136_chokuzenni_ex1",
-      "japanese": "{出発|しゅっぱつ}{直前|ちょくぜん}に{電話|でんわ}が{来|き}た。",
+      "japanese": "⟦{出発|しゅっぱつ}→出発：02085_shuppatsu⟧{直前|ちょくぜん}に⟦{電話|でんわ}→電話：01471_denwa⟧⟦が→が：00051_ga⟧⟦{来|き}た→来る：00254_kuru⟧。",
       "english": "A phone call came right before departure.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "23136_chokuzenni_ex2",
-      "japanese": "{試験|しけん}の{直前|ちょくぜん}に{体調|たいちょう}を{崩|くず}した。",
+      "japanese": "⟦{試験|しけん}→試験：01422_shiken⟧⟦の→の：09472_no⟧{直前|ちょくぜん}に⟦{体調|たいちょう}→体調：04644_taichou⟧⟦を→を：00422_wo⟧⟦{崩|くず}した→崩す：03919_kuzusu⟧。",
       "english": "I fell ill just before the exam.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "23136_chokuzenni_ex3",
-      "japanese": "{締|し}め{切|き}りの{直前|ちょくぜん}になって、やっと{資料|しりょう}が{届|とど}いた。",
+      "japanese": "⟦{締|し}め{切|き}り→締め切り：04162_shimekiri⟧⟦の→の：09472_no⟧{直前|ちょくぜん}に⟦なって→なる：01970_naru⟧、⟦やっと→やっと：01561_yatto⟧⟦{資料|しりょう}→資料：04166_shiryou⟧⟦が→が：00051_ga⟧⟦{届|とど}いた→届く：00899_todoku⟧。",
       "english": "The materials finally arrived just before the deadline.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {直|ちょく} (direct, immediately) and {前|ぜん} (before) + に (adverbial particle). Often used without に when modifying a noun directly: {直前|ちょくぜん}の{準備|じゅんび} (last-minute preparations). The の form functions as a pre-noun modifier.\n\nCOMMON COLLOCATIONS:\n- {出発|しゅっぱつ}{直前|ちょくぜん}に: right before departure\n- {締|し}め{切|き}り{直前|ちょくぜん}に: just before the deadline\n- {直前|ちょくぜん}になって: at the last moment\n- {直前|ちょくぜん}まで: until the very last moment\n\nSIMILAR WORDS:\n- {寸前|すんぜん}に: on the verge of — emphasizes extreme closeness, often to danger or crisis\n- {直後|ちょくご}に: immediately after — the temporal opposite\n- ぎりぎりに: at the last possible moment — more colloquial, emphasizes barely making it",
+  "notes": "Composed of {直|ちょく} (direct, immediately) and ⟦{前|ぜん}→前〜：03957_zen⟧ (before) + ⟦に→に：00314_ni⟧ (adverbial particle). Often used without ⟦に→に：00314_ni⟧ when modifying a noun directly: ⟦{直前|ちょくぜん}→直前：13651_chokuzen⟧⟦の→の：09472_no⟧⟦{準備|じゅんび}→準備：01431_junbi⟧ (last-minute preparations). The ⟦の→の：09472_no⟧ form functions as a pre-noun modifier.\n\nCOMMON COLLOCATIONS:\n- ⟦{出発|しゅっぱつ}→出発：02085_shuppatsu⟧{直前|ちょくぜん}に: right before departure\n- ⟦{締|し}め{切|き}り→締め切り：04162_shimekiri⟧{直前|ちょくぜん}に: just before the deadline\n- {直前|ちょくぜん}に⟦なって→なる：01970_naru⟧: at the last moment\n- ⟦{直前|ちょくぜん}→直前：13651_chokuzen⟧⟦まで→まで：00490_made⟧: until the very last moment\n\nSIMILAR WORDS:\n- ⟦{寸前|すんぜん}→寸前：12356_sunzen⟧⟦に→に：00314_ni⟧: on the verge of — emphasizes extreme closeness, often to danger or crisis\n- ⟦{直後|ちょくご}→直後：04525_chokugo⟧⟦に→に：00314_ni⟧: immediately after — the temporal opposite\n- ⟦ぎりぎり→ぎりぎり：05166_girigiri⟧⟦に→に：00314_ni⟧: at the last possible moment — more colloquial, emphasizes barely making it",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12356_sunzen",
+      "reading": "すんぜん",
+      "headword": "{寸前|すんぜん}",
+      "label": "on the verge of"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16111_chokugoni",
+      "reading": "ちょくごに",
+      "headword": "{直後|ちょくご}に",
+      "label": "immediately after"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +75,6 @@
       "politeness": "plain"
     },
     "created": "2026-04-08T19:28:31Z",
-    "modified": "2026-07-31T18:20:34Z"
+    "modified": "2026-09-02T04:02:11Z"
   }
 }

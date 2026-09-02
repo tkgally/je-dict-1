@@ -2,7 +2,7 @@
   "id": "07722_chuucho",
   "headword": "{躊躇|ちゅうちょ}",
   "reading": "ちゅうちょ",
-  "part_of_speech": "noun, suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "hesitation; wavering",
   "conjugation": {
     "type": "suru",
@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "07722_chuucho_ex1",
-      "japanese": "{躊躇|ちゅうちょ}なく{答|こた}えた。",
+      "japanese": "{躊躇|ちゅうちょ}⟦なく→ない：01118_nai⟧⟦{答|こた}えた→答える：01099_kotaeru⟧。",
       "english": "I answered without hesitation.",
       "has_audio": false,
       "sense_numbers": [
@@ -113,7 +113,7 @@
     },
     {
       "id": "07722_chuucho_ex2",
-      "japanese": "{高額|こうがく}なので{購入|こうにゅう}を{躊躇|ちゅうちょ}した。",
+      "japanese": "⟦{高額|こうがく}→高額：14704_kougaku⟧な⟦の→の：09472_no⟧で⟦{購入|こうにゅう}→購入：03057_kounyuu⟧⟦を→を：00422_wo⟧{躊躇|ちゅうちょ}⟦した→する：00392_suru⟧。",
       "english": "I hesitated to buy it because it was expensive.",
       "has_audio": false,
       "sense_numbers": [
@@ -122,7 +122,7 @@
     },
     {
       "id": "07722_chuucho_ex3",
-      "japanese": "{彼|かれ}は{一瞬|いっしゅん}の{躊躇|ちゅうちょ}もなく{飛|と}び{込|こ}んだ。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{一瞬|いっしゅん}→一瞬：01805_isshun⟧⟦の→の：09472_no⟧{躊躇|ちゅうちょ}⟦も→も：00484_mo⟧⟦なく→ない：01118_nai⟧⟦{飛|と}び{込|こ}んだ→飛び込む：04614_tobikomu⟧。",
       "english": "He jumped in without a moment's hesitation.",
       "has_audio": false,
       "sense_numbers": [
@@ -130,7 +130,7 @@
       ]
     }
   ],
-  "notes": "KANJI:\n{躊|ちゅう} and {躇|ちょ} are both rare characters that almost exclusively appear in this word. The kanji originally referred to hesitating steps.\n\nUSAGE:\nOften used with negation to emphasize decisiveness:\n・{躊躇|ちゅうちょ}なく - without hesitation\n・{躊躇|ちゅうちょ}せずに - without hesitating\n\nCOLLOCATIONS:\n・{躊躇|ちゅうちょ}する - to hesitate\n・{躊躇|ちゅうちょ}を{感|かん}じる - to feel hesitation\n・{躊躇|ちゅうちょ}を{覚|おぼ}える - to experience hesitation\n\nRELATED:\n・ためらう - to hesitate (native Japanese)\n・{迷|まよ}う - to be unsure, waver",
+  "notes": "WRITING:\n{躊|ちゅう} and {躇|ちょ} are both rare characters that almost exclusively appear in this word. The kanji originally referred to hesitating steps.\n\nUSAGE:\nOften used with negation to emphasize decisiveness:\n- {躊躇|ちゅうちょ}⟦なく→ない：01118_nai⟧ - without hesitation\n- {躊躇|ちゅうちょ}せず⟦に→に：00314_ni⟧ - without hesitating\n\nCOMMON COLLOCATIONS:\n- {躊躇|ちゅうちょ}⟦する→する：00392_suru⟧ - to hesitate\n- {躊躇|ちゅうちょ}⟦を→を：00422_wo⟧⟦{感|かん}じる→感じる：02044_kanjiru⟧ - to feel hesitation\n- {躊躇|ちゅうちょ}⟦を→を：00422_wo⟧⟦{覚|おぼ}える→覚える：00739_oboeru⟧ - to experience hesitation\n\nRELATED WORDS:\n- ためらう - to hesitate (native Japanese)\n- ⟦{迷|まよ}う→迷う：02426_mayou⟧ - to be unsure, waver",
   "prominent_see_also": [
     {
       "target_id": "06034_tamerau",
@@ -139,9 +139,18 @@
       "note": "native Japanese reading"
     }
   ],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "02426_mayou",
+      "reading": "まよう",
+      "headword": "{迷|まよ}う",
+      "label": "to be unsure, waver"
+    }
+  ],
   "metadata": {
     "created": "2026-01-21T00:25:02Z",
-    "modified": "2026-06-19T21:43:28Z",
+    "modified": "2026-09-02T04:01:12Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -150,6 +159,7 @@
         "verb-suru"
       ],
       "formality": "formal",
+      "politeness": "plain",
       "semantic": [
         "emotion",
         "cognition"

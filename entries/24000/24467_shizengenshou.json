@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24467_shizengenshou_ex1",
-      "japanese": "オーロラは{美|うつく}しい{自然|しぜん}{現象|げんしょう}だ。",
+      "japanese": "オーロラ⟦は→は：00079_ha⟧⟦{美|うつく}しい→美しい：01121_utsukushii⟧{自然|しぜん}{現象|げんしょう}だ。",
       "english": "The aurora is a beautiful natural phenomenon.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24467_shizengenshou_ex2",
-      "japanese": "{地震|じしん}は{日本|にほん}でよく{起|お}きる{自然|しぜん}{現象|げんしょう}だ。",
+      "japanese": "⟦{地震|じしん}→地震：01608_jishin⟧⟦は→は：00079_ha⟧⟦{日本|にほん}→日本：03876_nihon⟧⟦で→で：00502_de⟧⟦よく→よく：00601_yoku⟧⟦{起|お}きる→起きる：00521_okiru⟧{自然|しぜん}{現象|げんしょう}だ。",
       "english": "Earthquakes are a natural phenomenon that frequently occurs in Japan.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24467_shizengenshou_ex3",
-      "japanese": "{科学者|かがくしゃ}たちはさまざまな{自然|しぜん}{現象|げんしょう}のメカニズムを{解明|かいめい}しようとしている。",
+      "japanese": "⟦{科学者|かがくしゃ}→科学者：19378_kagakusha⟧たち⟦は→は：00079_ha⟧さまざまな{自然|しぜん}{現象|げんしょう}⟦の→の：09472_no⟧メカニズム⟦を→を：00422_wo⟧⟦{解明|かいめい}しよう→解明する：26852_kaimeisuru⟧⟦として→として：06802_toshite⟧⟦いる→いる：00495_iru⟧。",
       "english": "Scientists are trying to elucidate the mechanisms of various natural phenomena.",
       "sense_numbers": [
         1
@@ -44,20 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {自然|しぜん} (nature) + {現象|げんしょう} (phenomenon). A broad term covering any event or process that occurs in nature without human intervention, from weather patterns to geological activity to astronomical events.\n\nCOMMON COLLOCATIONS:\n- {自然|しぜん}{現象|げんしょう}を{観察|かんさつ}する: to observe natural phenomena\n- {自然|しぜん}{現象|げんしょう}のメカニズム: mechanism of natural phenomena\n- {不思議|ふしぎ}な{自然|しぜん}{現象|げんしょう}: mysterious natural phenomenon\n\nEXAMPLES OF NATURAL PHENOMENA:\n- {地震|じしん}: earthquakes\n- {台風|たいふう}: typhoons\n- {虹|にじ}: rainbows\n- オーロラ: aurora\n- {潮|しお}の{満|み}ち{引|ひ}き: tides\n\nSIMILAR WORDS:\n- {天変地異|てんぺんちい}: natural calamity, upheaval (dramatic, negative connotation)\n- {自然|しぜん}{災害|さいがい}: natural disaster (specifically destructive events)\n- {気象|きしょう}{現象|げんしょう}: meteorological phenomenon (weather-specific)",
+  "notes": "Composed of ⟦{自然|しぜん}→自然：01423_shizen⟧ (nature) + ⟦{現象|げんしょう}→現象：02718_genshou⟧ (phenomenon). A broad term covering any event or process that occurs in nature without human intervention, from weather patterns to geological activity to astronomical events.\n\nCOMMON COLLOCATIONS:\n- {自然|しぜん}{現象|げんしょう}⟦を→を：00422_wo⟧⟦{観察|かんさつ}する→観察する：21989_kansatsusuru⟧: to observe natural phenomena\n- {自然|しぜん}{現象|げんしょう}⟦の→の：09472_no⟧メカニズム: mechanism of natural phenomena\n- ⟦{不思議|ふしぎ}→不思議：02358_fushigi⟧な{自然|しぜん}{現象|げんしょう}: mysterious natural phenomenon\n\nEXAMPLES OF NATURAL PHENOMENA:\n- ⟦{地震|じしん}→地震：01608_jishin⟧: earthquakes\n- ⟦{台風|たいふう}→台風：01455_taifuu⟧: typhoons\n- ⟦{虹|にじ}→虹：03894_niji⟧: rainbows\n- オーロラ: aurora\n- ⟦{潮|しお}→潮：13369_shio⟧⟦の→の：09472_no⟧{満|み}ち{引|ひ}き: tides\n\nSIMILAR WORDS:\n- ⟦{天変地異|てんぺんちい}→天変地異：06146_tenpenchii⟧: natural calamity, upheaval (dramatic, negative connotation)\n- ⟦{自然|しぜん}{災害|さいがい}→自然災害：29290_shizensaigai⟧: natural disaster (specifically destructive events)\n- ⟦{気象|きしょう}→気象：09943_kishou⟧⟦{現象|げんしょう}→現象：02718_genshou⟧: meteorological phenomenon (weather-specific)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06146_tenpenchii",
+      "reading": "てんぺんちい",
+      "headword": "{天変地異|てんぺんちい}",
+      "label": "natural calamity, upheaval"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29290_shizensaigai",
+      "reading": "しぜんさいがい",
+      "headword": "{自然|しぜん}{災害|さいがい}",
+      "label": "natural disaster"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "nature",
         "science"
       ]
     },
     "created": "2026-04-19T11:17:16Z",
-    "modified": "2026-08-02T18:32:34Z"
+    "modified": "2026-09-02T04:02:18Z"
   }
 }

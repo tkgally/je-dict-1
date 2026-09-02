@@ -59,7 +59,7 @@
     },
     {
       "id": "02536_kaikei_ex5",
-      "japanese": "{会計|かいけい}{士|し}⟦の→の：09472_no⟧⟦{資格|しかく}→資格：02834_shikaku⟧⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧ために⟦{勉強|べんきょう}している→勉強する：00527_benkyousuru⟧。",
+      "japanese": "{会計|かいけい}{士|し}⟦の→の：09472_no⟧⟦{資格|しかく}→資格：02834_shikaku⟧⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧⟦{勉強|べんきょう}している→勉強する：00527_benkyousuru⟧。",
       "english": "I am studying to get a certified public accountant qualification.",
       "notes": null,
       "has_audio": false,
@@ -78,7 +78,7 @@
       ]
     }
   ],
-  "notes": "{会計|かいけい} has two main meanings: payment (at a store/restaurant) and accounting (as a profession/field).\n\nCOMMON PATTERNS:\n- お{会計|かいけい}⟦を→を：00422_wo⟧お⟦{願|ねが}いします→願う：02387_negau⟧ (Check, please)\n- {会計|かいけい}⟦を→を：00422_wo⟧⟦{済|す}ませる→済ませる：02121_sumaseru⟧ (to pay the bill)\n- ⟦{別|べつ}→別：01216_betsu⟧{会計|かいけい}⟦で→で：00502_de⟧ (separate checks)\n- {会計|かいけい}⟦{士|し}→士：noentry⟧ (certified public accountant)\n- {会計|かいけい}⟦{年度|ねんど}→年度：00309_nendo⟧ (fiscal year)\n\nUSAGE NOTE:\n- In restaurants, お{会計|かいけい} is polite; you can also just say ⟦{勘定|かんじょう}→勘定：02582_kanjou⟧お⟦{願|ねが}いします→願う：02387_negau⟧\n- Signs at stores often say {会計|かいけい} or ⟦レジ→レジ：00879_reji⟧ for the checkout area",
+  "notes": "{会計|かいけい} has two main meanings: payment (at a store/restaurant) and accounting (as a profession/field).\n\nCOMMON PATTERNS:\n- お{会計|かいけい}⟦を→を：00422_wo⟧お⟦{願|ねが}いします→願う：02387_negau⟧ (Check, please)\n- {会計|かいけい}⟦を→を：00422_wo⟧⟦{済|す}ませる→済ませる：02121_sumaseru⟧ (to pay the bill)\n- ⟦{別|べつ}→別：01216_betsu⟧{会計|かいけい}⟦で→で：00502_de⟧ (separate checks)\n- {会計|かいけい}⟦{士|し}→士：noentry⟧ (certified public accountant)\n- {会計|かいけい}⟦{年度|ねんど}→年度：00309_nendo⟧ (fiscal year)\n\nUSAGE:\n- In restaurants, お{会計|かいけい} is polite; you can also just say ⟦{勘定|かんじょう}→勘定：02582_kanjou⟧お⟦{願|ねが}いします→願う：02387_negau⟧\n- Signs at stores often say {会計|かいけい} or ⟦レジ→レジ：00879_reji⟧ for the checkout area",
   "prominent_see_also": [
     {
       "target_id": "09550_okaikei",
@@ -94,11 +94,32 @@
       "headword": "{勘定|かんじょう}",
       "label": "bill, calculation",
       "target_id": "02582_kanjou"
+    },
+    {
+      "type": "related",
+      "target_id": "01048_resutoran",
+      "reading": "れすとらん",
+      "headword": "レストラン",
+      "label": "restaurant"
+    },
+    {
+      "type": "related",
+      "target_id": "03193_shiharai",
+      "reading": "しはらい",
+      "headword": "{支払|しはらい}",
+      "label": "payment"
+    },
+    {
+      "type": "related",
+      "target_id": "05971_zaimu",
+      "reading": "ざいむ",
+      "headword": "{財務|ざいむ}",
+      "label": "financial affairs"
     }
   ],
   "metadata": {
     "created": "2026-01-11T09:16:59Z",
-    "modified": "2026-06-11T18:03:17Z",
+    "modified": "2026-09-02T04:01:01Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

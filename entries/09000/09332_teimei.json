@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "09332_teimei_ex1",
-      "japanese": "{景気|けいき}が{低迷|ていめい}している。",
+      "japanese": "⟦{景気|けいき}→景気：02694_keiki⟧⟦が→が：00051_ga⟧{低迷|ていめい}⟦している→する：00392_suru⟧。",
       "english": "The economy is stagnant.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "09332_teimei_ex2",
-      "japanese": "{売|う}り{上|あ}げの{低迷|ていめい}が{続|つづ}いている。",
+      "japanese": "{売|う}り{上|あ}げ⟦の→の：09472_no⟧{低迷|ていめい}⟦が→が：00051_ga⟧⟦{続|つづ}いている→続く：00903_tsuzuku⟧。",
       "english": "The slump in sales continues.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "09332_teimei_ex3",
-      "japanese": "{株価|かぶか}は{低迷|ていめい}を{続|つづ}けており、{回復|かいふく}の{見通|みとお}しが{立|た}たない。",
+      "japanese": "⟦{株価|かぶか}→株価：05154_kabuka⟧⟦は→は：00079_ha⟧{低迷|ていめい}⟦を→を：00422_wo⟧⟦{続|つづ}け→続く：00903_tsuzuku⟧ており、⟦{回復|かいふく}→回復：03812_kaifuku⟧⟦の→の：09472_no⟧⟦{見通|みとお}し→見通し：10566_mitooshi⟧⟦が→が：00051_ga⟧⟦{立|た}たない→立つ：00758_tatsu⟧。",
       "english": "Stock prices continue to stagnate, with no prospect of recovery in sight.",
       "notes": null,
       "has_audio": false,
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "{低迷|ていめい} describes being stuck at a low level without improvement — a prolonged slump or period of poor performance.\n\nWORD FORMATION:\n{低|てい} (low) + {迷|めい} (lost, confused)\n\nCOMMON COLLOCATIONS:\n- {景気|けいき}の{低迷|ていめい}: economic slump\n- {業績|ぎょうせき}の{低迷|ていめい}: sluggish business performance\n- {株価|かぶか}の{低迷|ていめい}: stagnant stock prices\n- {低迷|ていめい}から{脱|だっ}する: to break out of a slump\n- {長期|ちょうき}{低迷|ていめい}: prolonged stagnation\n\nSIMILAR WORDS:\n- {停滞|ていたい}: stagnation (lack of progress, broader use)\n- {不振|ふしん}: poor performance, slump\n- {不況|ふきょう}: recession (specifically economic)\n\nOPPOSITE:\n{好調|こうちょう} (favorable, thriving), {回復|かいふく} (recovery)",
+  "notes": "{低迷|ていめい} describes being stuck at a low level without improvement — a prolonged slump or period of poor performance.\n\nFORMS:\n⟦{低|てい}→低〜：03961_tei⟧ (low) + {迷|めい} (lost, confused)\n\nCOMMON COLLOCATIONS:\n- ⟦{景気|けいき}→景気：02694_keiki⟧⟦の→の：09472_no⟧{低迷|ていめい}: economic slump\n- ⟦{業績|ぎょうせき}→業績：04873_gyouseki⟧⟦の→の：09472_no⟧{低迷|ていめい}: sluggish business performance\n- ⟦{株価|かぶか}→株価：05154_kabuka⟧⟦の→の：09472_no⟧{低迷|ていめい}: stagnant stock prices\n- {低迷|ていめい}⟦から→から：00504_kara⟧⟦{脱|だっ}する→脱する：28650_dassuru⟧: to break out of a slump\n- ⟦{長期|ちょうき}→長期：03487_chouki⟧{低迷|ていめい}: prolonged stagnation\n\nSIMILAR WORDS:\n- ⟦{停滞|ていたい}→停滞：07427_teitai⟧: stagnation (lack of progress, broader use)\n- ⟦{不振|ふしん}→不振：07771_fushin⟧: poor performance, slump\n- ⟦{不況|ふきょう}→不況：04844_fukyou⟧: recession (specifically economic)\n⟦{好調|こうちょう}→好調：12209_kouchou⟧ (favorable, thriving), ⟦{回復|かいふく}→回復：03812_kaifuku⟧ (recovery)",
   "cross_references": [
     {
       "type": "contrast",
@@ -148,11 +148,67 @@
       "reading": "ていたい",
       "headword": "{停滞|ていたい}",
       "label": "stagnation, standstill"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07771_fushin",
+      "reading": "ふしん",
+      "headword": "{不振|ふしん}",
+      "label": "poor performance, slump"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04844_fukyou",
+      "reading": "ふきょう",
+      "headword": "{不況|ふきょう}",
+      "label": "recession"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12209_kouchou",
+      "reading": "こうちょう",
+      "headword": "{好調|こうちょう}",
+      "label": "favorable, thriving"
+    },
+    {
+      "type": "related",
+      "target_id": "08000_donka",
+      "reading": "どんか",
+      "headword": "{鈍化|どんか}",
+      "label": "slowing down"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20445_hiekomi",
+      "reading": "ひえこみ",
+      "headword": "{冷|ひ}え{込|こ}み",
+      "label": "cold snap"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21050_shissoku",
+      "reading": "しっそく",
+      "headword": "{失速|しっそく}",
+      "label": "stall"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26992_teitaisuru",
+      "reading": "ていたいする",
+      "headword": "{停滞|ていたい}する",
+      "label": "to stagnate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29211_ochikomi",
+      "reading": "おちこみ",
+      "headword": "{落ち込|おちこ}み",
+      "label": "depression"
     }
   ],
   "metadata": {
     "created": "2026-02-01T07:47:33Z",
-    "modified": "2026-08-12T21:25:53Z",
+    "modified": "2026-09-02T04:01:18Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -165,7 +221,8 @@
       "semantic": [
         "economics"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

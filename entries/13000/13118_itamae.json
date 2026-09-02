@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "13118_itamae_ex1",
-      "japanese": "あの{店|みせ}の{板前|いたまえ}は{腕|うで}がいい。",
+      "japanese": "⟦あの→あの：00915_ano⟧⟦{店|みせ}→店：00497_mise⟧⟦の→の：09472_no⟧{板前|いたまえ}⟦は→は：00079_ha⟧⟦{腕|うで}→腕：01006_ude⟧⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧。",
       "english": "The chef at that restaurant is very skilled.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "13118_itamae_ex2",
-      "japanese": "{父|ちち}は{寿司屋|すしや}の{板前|いたまえ}をしている。",
+      "japanese": "⟦{父|ちち}→父：00566_chichi⟧⟦は→は：00079_ha⟧⟦{寿司屋|すしや}→寿司屋：10166_sushiya⟧⟦の→の：09472_no⟧{板前|いたまえ}⟦を→を：00422_wo⟧⟦している→する：00392_suru⟧。",
       "english": "My father works as a sushi chef.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "13118_itamae_ex3",
-      "japanese": "{一流|いちりゅう}の{板前|いたまえ}になるには、{何年|なんねん}もの{修業|しゅぎょう}が{必要|ひつよう}だ。",
+      "japanese": "⟦{一流|いちりゅう}→一流：03009_ichiryuu⟧⟦の→の：09472_no⟧{板前|いたまえ}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧、⟦{何年|なんねん}→何年：12737_nannen⟧⟦も→も：00484_mo⟧⟦の→の：09472_no⟧⟦{修業|しゅぎょう}→修業：16906_shugyou⟧⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧だ。",
       "english": "It takes many years of training to become a top-class chef.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,40 @@
       ]
     }
   ],
-  "notes": "ETYMOLOGY:\n{板|いた} (board, cutting board) + {前|まえ} (in front of). Originally referred to the person standing in front of the cutting board — the cook.\n\nUSAGE:\n{板前|いたまえ} specifically refers to chefs of Japanese cuisine and carries a sense of traditional craftsmanship. For Western-style chefs, シェフ or コック is more common. {料理人|りょうりにん} is a more general term for any professional cook.\n\nCULTURE:\nIn traditional Japanese restaurants, the {板前|いたまえ} often works at a counter ({カウンター}) in view of customers, especially at sushi restaurants. The term implies years of apprenticeship and mastery of knife skills.",
-  "cross_references": [],
+  "notes": "ETYMOLOGY:\n⟦{板|いた}→板：01792_ita⟧ (board, cutting board) + ⟦{前|まえ}→前：02255_mae⟧ (in front of). Originally referred to the person standing in front of the cutting board — the cook.\n\nUSAGE:\n{板前|いたまえ} specifically refers to chefs of Japanese cuisine and carries a sense of traditional craftsmanship. For Western-style chefs, ⟦シェフ→シェフ：05062_shefu⟧ or ⟦コック→コック：05063_kokku⟧ is more common. ⟦{料理人|りょうりにん}→料理人：19396_ryourinin⟧ is a more general term for any professional cook.\n\nCULTURAL NOTE:\nIn traditional Japanese restaurants, the {板前|いたまえ} often works at a counter (⟦カウンター→カウンター：10816_kauntaa⟧) in view of customers, especially at sushi restaurants. The term implies years of apprenticeship and mastery of knife skills.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "05062_shefu",
+      "reading": "しぇふ",
+      "headword": "シェフ",
+      "label": "chef"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16509_ryourichou",
+      "reading": "りょうりちょう",
+      "headword": "{料理長|りょうりちょう}",
+      "label": "head chef"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19396_ryourinin",
+      "reading": "りょうりにん",
+      "headword": "{料理人|りょうりにん}",
+      "label": "cook"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19910_itaba",
+      "reading": "いたば",
+      "headword": "{板場|いたば}",
+      "label": "kitchen (in a Japanese restaurant)"
+    }
+  ],
   "metadata": {
     "created": "2026-02-23T11:16:43Z",
-    "modified": "2026-08-24T00:38:19Z",
+    "modified": "2026-09-02T04:01:31Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

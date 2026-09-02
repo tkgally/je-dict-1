@@ -15,41 +15,67 @@
   "examples": [
     {
       "id": "30095_amagaki_ex1",
-      "japanese": "{甘柿|あまがき}は{生|なま}で{食|た}べられる。",
+      "japanese": "{甘柿|あまがき}⟦は→は：00079_ha⟧⟦{生|なま}→生：03509_nama⟧⟦で→で：00502_de⟧⟦{食|た}べられる→食べる：00396_taberu⟧。",
       "english": "Sweet persimmons can be eaten raw.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "30095_amagaki_ex2",
-      "japanese": "{庭|にわ}の{木|き}に{甘柿|あまがき}がなった。",
+      "japanese": "⟦{庭|にわ}→庭：02239_niwa⟧⟦の→の：09472_no⟧⟦{木|き}→木：00524_ki⟧⟦に→に：00314_ni⟧{甘柿|あまがき}⟦が→が：00051_ga⟧⟦なった→なる：01970_naru⟧。",
       "english": "Sweet persimmons grew on the tree in the garden.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "30095_amagaki_ex3",
-      "japanese": "{甘柿|あまがき}は{渋柿|しぶがき}と{違|ちが}い、{熟|じゅく}すと{自然|しぜん}に{甘|あま}くなる。",
+      "japanese": "{甘柿|あまがき}⟦は→は：00079_ha⟧⟦{渋柿|しぶがき}→渋柿：27688_shibugaki⟧⟦と→と：00512_to⟧⟦{違|ちが}い→違う：01957_chigau⟧、⟦{熟|じゅく}す→熟す：18384_jukusu⟧⟦と→と：00512_to⟧⟦{自然|しぜん}→自然：01423_shizen⟧⟦に→に：00314_ni⟧⟦{甘|あま}く→甘い：00617_amai⟧⟦なる→なる：01970_naru⟧。",
       "english": "Unlike astringent persimmons, sweet persimmons become sweet naturally as they ripen.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A persimmon variety that is sweet enough to eat raw once ripe. Contrasted with the astringent {渋柿|しぶがき}, which must have its astringency removed before eating.\n\nCOMMON COLLOCATIONS:\n- {甘柿|あまがき}の{品種|ひんしゅ}: varieties of sweet persimmon\n- {甘柿|あまがき}をもぐ: to pick sweet persimmons\n\nSIMILAR WORDS:\n- {渋柿|しぶがき}: astringent persimmon — inedible raw until de-astringed or dried\n- {干|ほ}し{柿|がき}: dried persimmon — usually made from {渋柿|しぶがき}",
+  "notes": "A persimmon variety that is sweet enough to eat raw once ripe. Contrasted with the astringent ⟦{渋柿|しぶがき}→渋柿：27688_shibugaki⟧, which must have its astringency removed before eating.\n\nCOMMON COLLOCATIONS:\n- {甘柿|あまがき}⟦の→の：09472_no⟧⟦{品種|ひんしゅ}→品種：11840_hinshu⟧: varieties of sweet persimmon\n- {甘柿|あまがき}⟦を→を：00422_wo⟧もぐ: to pick sweet persimmons\n\nSIMILAR WORDS:\n- ⟦{渋柿|しぶがき}→渋柿：27688_shibugaki⟧: astringent persimmon — inedible raw until de-astringed or dried\n- ⟦{干|ほ}し{柿|がき}→干し柿：28314_hoshigaki⟧: dried persimmon — usually made from ⟦{渋柿|しぶがき}→渋柿：27688_shibugaki⟧",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "27688_shibugaki",
+      "reading": "しぶがき",
+      "headword": "{渋|しぶ}{柿|がき}",
+      "label": "astringent persimmon"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28314_hoshigaki",
+      "reading": "ほしがき",
+      "headword": "{干|ほ}し{柿|がき}",
+      "label": "dried persimmon"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["food"],
+      "politeness": "plain",
+      "semantic": [
+        "food"
+      ],
       "domain": []
     },
     "created": "2026-07-25T03:20:29Z",
-    "modified": "2026-07-25T03:20:29Z"
+    "modified": "2026-09-02T04:02:38Z"
   }
 }

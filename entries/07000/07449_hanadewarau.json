@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "07449_hanadewarau_ex1",
-      "japanese": "{彼|かれ}の{提案|ていあん}を{鼻|はな}で{笑|わら}われた。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧⟦{提案|ていあん}→提案：03536_teian⟧⟦を→を：00422_wo⟧{鼻|はな}で{笑|わら}われた。",
       "english": "His proposal was scoffed at.",
       "has_audio": false,
       "sense_numbers": [
@@ -23,7 +23,7 @@
     },
     {
       "id": "07449_hanadewarau_ex2",
-      "japanese": "そんなことできるわけないと{鼻|はな}で{笑|わら}った。",
+      "japanese": "⟦そんな→そんな：01645_sonna⟧こと⟦できる→できる：00557_dekiru⟧わけない⟦と→と：00512_to⟧{鼻|はな}で{笑|わら}った。",
       "english": "He sneered, saying there's no way that could happen.",
       "has_audio": false,
       "sense_numbers": [
@@ -32,7 +32,7 @@
     },
     {
       "id": "07449_hanadewarau_ex3",
-      "japanese": "{素人|しろうと}の{意見|いけん}だと{鼻|はな}で{笑|わら}わないでほしい。",
+      "japanese": "⟦{素人|しろうと}→素人：04270_shirouto⟧⟦の→の：09472_no⟧⟦{意見|いけん}→意見：01303_iken⟧だ⟦と→と：00512_to⟧{鼻|はな}で{笑|わら}わないでほしい。",
       "english": "I don't want you to sniff at it just because it's an amateur's opinion.",
       "has_audio": false,
       "sense_numbers": [
@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "notes": "IDIOM STRUCTURE:\n{鼻|はな} (nose) + で + {笑|わら}う (to laugh)\n\nDescribes a contemptuous laugh made through the nose - a snort or sniff that expresses derision.\n\nNUANCE:\nAlways negative. Expresses:\n- Contempt\n- Mockery\n- Dismissiveness\n- Looking down on someone/something\n\nThe sound described is like \"ふん\" or \"はっ\" - a derisive snort.\n\nGRAMMAR PATTERNS:\n・〜を{鼻|はな}で{笑|わら}う - to sneer at ~\n・{鼻|はな}で{笑|わら}われる (passive) - to be sneered at\n\nSIMILAR EXPRESSIONS:\n・{嘲笑|ちょうしょう}する - to ridicule (more formal)\n・{馬鹿|ばか}にする - to make fun of, to look down on\n・{小馬鹿|こばか}にする - to slightly mock\n・{鼻|はな}であしらう - to brush off contemptuously\n・せせら{笑|わら}う - to sneer, to laugh mockingly\n\nREGISTER:\nNeutral to informal. The action itself is considered rude, but the expression is commonly used to describe such behavior.",
+  "notes": "IDIOM STRUCTURE:\n⟦{鼻|はな}→鼻：02164_hana⟧ (nose) + で + ⟦{笑|わら}う→笑う：00685_warau⟧ (to laugh)\n\nDescribes a contemptuous laugh made through the nose - a snort or sniff that expresses derision.\n\nUSAGE:\nAlways negative. Expresses:\n- Contempt\n- Mockery\n- Dismissiveness\n- Looking down on someone/something\n\nThe sound described is like \"ふん\" or \"はっ\" - a derisive snort.\n\nCOMMON PATTERNS:\n- 〜⟦を→を：00422_wo⟧{鼻|はな}で{笑|わら}う - to sneer at ~\n- {鼻|はな}で{笑|わら}われる (passive) - to be sneered at\n\nSIMILAR WORDS:\n- ⟦{嘲笑|ちょうしょう}→嘲笑：09026_choushou⟧⟦する→する：00392_suru⟧ - to ridicule (more formal)\n- ⟦{馬鹿|ばか}→馬鹿：03574_baka⟧⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧ - to make fun of, to look down on\n- ⟦{小馬鹿|こばか}にする→小馬鹿にする：22257_kobakanisuru⟧ - to slightly mock\n- ⟦{鼻|はな}→鼻：02164_hana⟧⟦で→で：00502_de⟧⟦あしらう→あしらう：10208_ashirau⟧ - to brush off contemptuously\n- せせら{笑|わら}う - to sneer, to laugh mockingly\n\nREGISTER:\nNeutral to informal. The action itself is considered rude, but the expression is commonly used to describe such behavior.",
   "cross_references": [
     {
       "type": "synonym",
@@ -48,11 +48,18 @@
       "reading": "ちょうしょう",
       "headword": "{嘲笑|ちょうしょう}",
       "label": "ridicule (formal)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22257_kobakanisuru",
+      "reading": "こばかにする",
+      "headword": "{小馬鹿|こばか}にする",
+      "label": "to slightly mock"
     }
   ],
   "metadata": {
     "created": "2026-01-19T13:50:31Z",
-    "modified": "2026-06-08T02:21:12Z",
+    "modified": "2026-09-02T04:01:11Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

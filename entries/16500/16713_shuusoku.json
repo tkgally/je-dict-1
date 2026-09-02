@@ -3,7 +3,7 @@
   "id": "16713_shuusoku",
   "headword": "{終息|しゅうそく}",
   "reading": "しゅうそく",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "ending, subsiding, dying down",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "16713_shuusoku_ex1",
-      "japanese": "{感染|かんせん}が{終息|しゅうそく}した。",
+      "japanese": "⟦{感染|かんせん}→感染：05977_kansen⟧⟦が→が：00051_ga⟧{終息|しゅうそく}⟦した→する：00392_suru⟧。",
       "english": "The infection has subsided.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "16713_shuusoku_ex2",
-      "japanese": "{騒動|そうどう}はようやく{終息|しゅうそく}に{向|む}かっている。",
+      "japanese": "⟦{騒動|そうどう}→騒動：14656_soudou⟧⟦は→は：00079_ha⟧ようやく{終息|しゅうそく}⟦に→に：00314_ni⟧⟦{向|む}かっている→向かう：01186_mukau⟧。",
       "english": "The disturbance is finally heading toward resolution.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "16713_shuusoku_ex3",
-      "japanese": "{事態|じたい}の{終息|しゅうそく}を{待|ま}つしかない。",
+      "japanese": "⟦{事態|じたい}→事態：10151_jitai⟧⟦の→の：09472_no⟧{終息|しゅうそく}⟦を→を：00422_wo⟧⟦{待|ま}つ→待つ：00469_matsu⟧⟦しかない→〜しかない：30533_shikanai⟧。",
       "english": "There is nothing to do but wait for the situation to die down.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "{終息|しゅうそく} describes a situation, crisis, or problem coming to a complete end. It implies that something disruptive has fully subsided, not just been brought under control.\n\nCOMMON COLLOCATIONS:\n- {終息|しゅうそく}に{向|む}かう: to head toward resolution\n- {終息|しゅうそく}を{迎|むか}える: to reach an end\n- {終息|しゅうそく}{宣言|せんげん}: declaration of the end (e.g., of an epidemic)\n- {事態|じたい}の{終息|しゅうそく}: the end of a situation\n- {完全|かんぜん}に{終息|しゅうそく}する: to come to a complete end\n\nSIMILAR WORDS:\n- {終息|しゅうそく}: coming to a complete end (the situation is over)\n- {収束|しゅうそく}: convergence, settling down (brought under control, but may not be fully over)\n\nThese two words have the same pronunciation but different kanji and nuance. {終息|しゅうそく} ({終|しゅう} = end) emphasizes finality, while {収束|しゅうそく} ({収|しゅう} = gather/collect) emphasizes bringing things under control.\n\nREGISTER:\nFormal/news language. Common in reporting on epidemics, conflicts, and disasters.",
+  "notes": "{終息|しゅうそく} describes a situation, crisis, or problem coming to a complete end. It implies that something disruptive has fully subsided, not just been brought under control.\n\nCOMMON COLLOCATIONS:\n- {終息|しゅうそく}⟦に→に：00314_ni⟧⟦{向|む}かう→向かう：01186_mukau⟧: to head toward resolution\n- {終息|しゅうそく}⟦を→を：00422_wo⟧⟦{迎|むか}える→迎える：01193_mukaeru⟧: to reach an end\n- {終息|しゅうそく}⟦{宣言|せんげん}→宣言：12284_sengen⟧: declaration of the end (e.g., of an epidemic)\n- ⟦{事態|じたい}→事態：10151_jitai⟧⟦の→の：09472_no⟧{終息|しゅうそく}: the end of a situation\n- ⟦{完全|かんぜん}→完全：01552_kanzen⟧⟦に→に：00314_ni⟧{終息|しゅうそく}⟦する→する：00392_suru⟧: to come to a complete end\n\nSIMILAR WORDS:\n- {終息|しゅうそく}: coming to a complete end (the situation is over)\n- ⟦{収束|しゅうそく}→収束：09135_shuusoku⟧: convergence, settling down (brought under control, but may not be fully over)\n\nThese two words have the same pronunciation but different kanji and nuance. {終息|しゅうそく} ({終|しゅう} = end) emphasizes finality, while ⟦{収束|しゅうそく}→収束：09135_shuusoku⟧ ({収|しゅう} = gather/collect) emphasizes bringing things under control.\n\nREGISTER:\nFormal/news language. Common in reporting on epidemics, conflicts, and disasters.",
   "cross_references": [
     {
       "type": "contrast",
@@ -142,11 +142,18 @@
       "headword": "{収束|しゅうそく}",
       "label": "convergence",
       "target_id": "09135_shuusoku"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26807_shuusokusuru",
+      "reading": "しゅうそくする",
+      "headword": "{収束|しゅうそく}する",
+      "label": "to converge"
     }
   ],
   "metadata": {
     "created": "2026-03-14T04:25:57Z",
-    "modified": "2026-04-04T12:31:47Z",
+    "modified": "2026-09-02T04:01:45Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
@@ -158,7 +165,8 @@
       "semantic": [
         "general"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   },
   "prominent_see_also": [

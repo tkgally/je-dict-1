@@ -15,41 +15,59 @@
   "examples": [
     {
       "id": "14723_anaba_ex1",
-      "japanese": "ここは{穴場|あなば}のラーメン{屋|や}だ。",
+      "japanese": "⟦ここ→ここ：00961_koko⟧⟦は→は：00079_ha⟧{穴場|あなば}⟦の→の：09472_no⟧⟦ラーメン→ラーメン：05181_raamen⟧⟦{屋|や}→〜屋：03096_ya⟧だ。",
       "english": "This is a hidden-gem ramen shop.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14723_anaba_ex2",
-      "japanese": "{穴場|あなば}の{花見|はなみ}スポットを{教|おし}えてもらった。",
+      "japanese": "{穴場|あなば}⟦の→の：09472_no⟧⟦{花見|はなみ}→花見：01700_hanami⟧⟦スポット→スポット：11578_supotto⟧⟦を→を：00422_wo⟧⟦{教|おし}えて→教える：00526_oshieru⟧⟦もらった→もらう：00520_morau⟧。",
       "english": "Someone told me about a little-known cherry blossom viewing spot.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14723_anaba_ex3",
-      "japanese": "この{海岸|かいがん}は{夏|なつ}でも{人|ひと}が{少|すく}ない{穴場|あなば}で、{静|しず}かに{泳|およ}げる。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{海岸|かいがん}→海岸：00852_kaigan⟧⟦は→は：00079_ha⟧⟦{夏|なつ}→夏：02236_natsu⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧⟦{人|ひと}→人：00476_hito⟧⟦が→が：00051_ga⟧⟦{少|すく}ない→少ない：01136_sukunai⟧{穴場|あなば}で、⟦{静|しず}か→静か：00755_shizuka⟧⟦に→に：00314_ni⟧⟦{泳|およ}げる→泳ぐ：00545_oyogu⟧。",
       "english": "This beach is a hidden gem with few people even in summer, so you can swim in peace.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "A positive word implying that a place is good precisely because it is not well known or crowded. Often used in travel guides and food reviews.\n\nCOMMON COLLOCATIONS:\n- {穴場|あなば}スポット (hidden-gem spot)\n- {穴場|あなば}の{店|みせ} (hidden-gem restaurant/shop)\n- {穴場|あなば}{的|てき} (having hidden-gem quality)\n\nUSAGE NOTE: Unlike {秘境|ひきょう} (unexplored region), which implies remoteness and wilderness, {穴場|あなば} simply means a good place that most people don't know about — it can be in the middle of a city.",
-  "cross_references": [],
+  "notes": "A positive word implying that a place is good precisely because it is not well known or crowded. Often used in travel guides and food reviews.\n\nCOMMON COLLOCATIONS:\n- {穴場|あなば}⟦スポット→スポット：11578_supotto⟧ (hidden-gem spot)\n- {穴場|あなば}⟦の→の：09472_no⟧⟦{店|みせ}→店：00497_mise⟧ (hidden-gem restaurant/shop)\n- {穴場|あなば}⟦{的|てき}→〜的：09839_teki⟧ (having hidden-gem quality)\n\nUSAGE NOTE: Unlike ⟦{秘境|ひきょう}→秘境：16500_hikyou⟧ (unexplored region), which implies remoteness and wilderness, {穴場|あなば} simply means a good place that most people don't know about — it can be in the middle of a city.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "27426_neraime",
+      "reading": "ねらいめ",
+      "headword": "{狙|ねら}い{目|め}",
+      "label": "good opportunity"
+    }
+  ],
   "metadata": {
     "created": "2026-03-03T09:45:54Z",
-    "modified": "2026-03-03T09:45:54Z",
+    "modified": "2026-09-02T04:01:38Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "informal",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

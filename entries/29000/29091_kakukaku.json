@@ -15,41 +15,69 @@
   "examples": [
     {
       "id": "29091_kakukaku_ex1",
-      "japanese": "{動画|どうが}がカクカクしている。",
+      "japanese": "⟦{動画|どうが}→動画：04443_douga⟧⟦が→が：00051_ga⟧カクカク⟦している→する：00392_suru⟧。",
       "english": "The video is choppy/stuttering.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29091_kakukaku_ex2",
-      "japanese": "パソコンの{性能|せいのう}が{低|ひく}いせいで、ゲームがカクカクして{遊|あそ}びにくい。",
+      "japanese": "⟦パソコン→パソコン：01538_pasokon⟧⟦の→の：09472_no⟧⟦{性能|せいのう}→性能：04340_seinou⟧⟦が→が：00051_ga⟧⟦{低|ひく}い→低い：02947_hikui⟧せい⟦で→で：00502_de⟧、⟦ゲーム→ゲーム：03842_geemu⟧⟦が→が：00051_ga⟧カクカク⟦して→する：00392_suru⟧⟦{遊|あそ}び→遊ぶ：00550_asobu⟧にくい。",
       "english": "Because the computer's performance is poor, the game runs choppy and is hard to play.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29091_kakukaku_ex3",
-      "japanese": "{通信速度|つうしんそくど}が{遅|おそ}くてビデオ{通話|つうわ}の{映像|えいぞう}がカクカクになってしまった。",
+      "japanese": "⟦{通信速度|つうしんそくど}→通信速度：23236_tsuushinsokudo⟧⟦が→が：00051_ga⟧⟦{遅|おそ}くて→遅い：00533_osoi⟧⟦ビデオ{通話|つうわ}→ビデオ通話：06607_bideotsuuwa⟧⟦の→の：09472_no⟧⟦{映像|えいぞう}→映像：04444_eizou⟧⟦が→が：00051_ga⟧カクカクになってしまった。",
       "english": "The connection was slow and the video call image became choppy.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "An onomatopoeia describing jerky, non-fluid movement. Most frequently used in digital contexts to describe stuttering video or animation, but can describe any movement that proceeds in sharp, angular steps.\n\nCOMMON PATTERNS:\n- {動画|どうが}がカクカクする: video stutters/is choppy\n- カクカクした{動|うご}き: jerky movement\n- カクカクと{動|うご}く: to move in a jerky manner\n\nRELATED WORDS:\n- {滑|なめ}らか: smooth (the antonym in motion contexts)\n- ぬるぬる: very smooth, fluid (of motion; also used for slippery things)",
+  "notes": "An onomatopoeia describing jerky, non-fluid movement. Most frequently used in digital contexts to describe stuttering video or animation, but can describe any movement that proceeds in sharp, angular steps.\n\nCOMMON PATTERNS:\n- ⟦{動画|どうが}→動画：04443_douga⟧⟦が→が：00051_ga⟧カクカク⟦する→する：00392_suru⟧: video stutters/is choppy\n- カクカク⟦した→する：00392_suru⟧⟦{動|うご}き→動き：11926_ugoki⟧: jerky movement\n- カクカク⟦と→と：00512_to⟧⟦{動|うご}く→動く：00904_ugoku⟧: to move in a jerky manner\n\nRELATED WORDS:\n- ⟦{滑|なめ}らか→滑らか：06068_nameraka⟧: smooth (the antonym in motion contexts)\n- ⟦ぬるぬる→ぬるぬる：05173_nurunuru⟧: very smooth, fluid (of motion; also used for slippery things)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "06068_nameraka",
+      "reading": "なめらか",
+      "headword": "{滑|なめ}らか",
+      "label": "smooth"
+    },
+    {
+      "type": "related",
+      "target_id": "05173_nurunuru",
+      "reading": "ぬるぬる",
+      "headword": "ぬるぬる",
+      "label": "very smooth, fluid (of motion"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adverb", "onomatopoeia"],
+      "pos": [
+        "adverb",
+        "onomatopoeia"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["onomatopoeia", "technology"],
+      "politeness": "plain",
+      "semantic": [
+        "onomatopoeia",
+        "technology"
+      ],
       "domain": []
     },
     "created": "2026-06-10T12:32:40Z",
-    "modified": "2026-06-10T12:32:40Z"
+    "modified": "2026-09-02T04:02:35Z"
   }
 }

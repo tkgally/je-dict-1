@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "13146_rinritsu_ex1",
-      "japanese": "ビルが{林立|りんりつ}している。",
+      "japanese": "⟦ビル→ビル：01500_biru⟧⟦が→が：00051_ga⟧{林立|りんりつ}⟦している→する：00392_suru⟧。",
       "english": "Buildings stand clustered together.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "13146_rinritsu_ex2",
-      "japanese": "{駅前|えきまえ}には{高層|こうそう}マンションが{林立|りんりつ}している。",
+      "japanese": "⟦{駅前|えきまえ}→駅前：09593_ekimae⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{高層|こうそう}→高層：04145_kousou⟧⟦マンション→マンション：01035_manshon⟧⟦が→が：00051_ga⟧{林立|りんりつ}⟦している→する：00392_suru⟧。",
       "english": "High-rise apartments stand clustered in front of the station.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "13146_rinritsu_ex3",
-      "japanese": "かつて{工場|こうじょう}の{煙突|えんとつ}が{林立|りんりつ}していたこの{地域|ちいき}も、{今|いま}は{住宅地|じゅうたくち}になった。",
+      "japanese": "⟦かつて→かつて：10303_katsute⟧⟦{工場|こうじょう}→工場：01082_koujou⟧⟦の→の：09472_no⟧⟦{煙突|えんとつ}→煙突：02271_entotsu⟧⟦が→が：00051_ga⟧{林立|りんりつ}⟦していた→する：00392_suru⟧⟦この→この：00962_kono⟧⟦{地域|ちいき}→地域：01461_chiiki⟧⟦も→も：00484_mo⟧、⟦{今|いま}→今：00945_ima⟧⟦は→は：00079_ha⟧⟦{住宅地|じゅうたくち}→住宅地：10158_juutakuchi⟧になった。",
       "english": "This area, where factory chimneys once stood clustered together, has now become a residential district.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,11 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA vivid metaphor: {林|はやし} (forest) + {立|りつ} (stand). Evokes the image of tall structures standing as densely as trees in a grove. Almost always used for tall, vertical things — buildings, towers, smokestacks, antennae — not for people or horizontal objects. Typically appears in the pattern 〜が{林立|りんりつ}する.\n\nCOMMON COLLOCATIONS:\n- ビルが{林立|りんりつ}する: buildings stand in clusters\n- {高層|こうそう}ビルの{林立|りんりつ}: cluster of skyscrapers\n- {煙突|えんとつ}が{林立|りんりつ}する: chimneys stand in rows",
+  "notes": "USAGE:\nA vivid metaphor: ⟦{林|はやし}→林：01702_hayashi⟧ (forest) + {立|りつ} (stand). Evokes the image of tall structures standing as densely as trees in a grove. Almost always used for tall, vertical things — buildings, towers, smokestacks, antennae — not for people or horizontal objects. Typically appears in the pattern 〜⟦が→が：00051_ga⟧{林立|りんりつ}⟦する→する：00392_suru⟧.\n\nCOMMON COLLOCATIONS:\n- ⟦ビル→ビル：01500_biru⟧⟦が→が：00051_ga⟧{林立|りんりつ}⟦する→する：00392_suru⟧: buildings stand in clusters\n- ⟦{高層|こうそう}ビル→高層ビル：16994_kousoubiru⟧⟦の→の：09472_no⟧{林立|りんりつ}: cluster of skyscrapers\n- ⟦{煙突|えんとつ}→煙突：02271_entotsu⟧⟦が→が：00051_ga⟧{林立|りんりつ}⟦する→する：00392_suru⟧: chimneys stand in rows",
   "cross_references": [],
   "metadata": {
     "created": "2026-02-23T11:49:08Z",
-    "modified": "2026-08-24T00:38:19Z",
+    "modified": "2026-09-02T04:01:32Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -154,7 +154,8 @@
       "semantic": [
         "existence"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

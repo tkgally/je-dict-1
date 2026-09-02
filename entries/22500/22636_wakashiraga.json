@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22636_wakashiraga_ex1",
-      "japanese": "{若白髪|わかしらが}が{気|き}になる。",
+      "japanese": "{若白髪|わかしらが}⟦が→が：00051_ga⟧⟦{気|き}になる→気になる：03027_kininaru⟧。",
       "english": "I'm worried about my premature gray hair.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22636_wakashiraga_ex2",
-      "japanese": "{若白髪|わかしらが}は{遺伝|いでん}の{影響|えいきょう}が{大|おお}きいと{言|い}われている。",
+      "japanese": "{若白髪|わかしらが}⟦は→は：00079_ha⟧⟦{遺伝|いでん}→遺伝：10137_iden⟧⟦の→の：09472_no⟧⟦{影響|えいきょう}→影響：01877_eikyou⟧⟦が→が：00051_ga⟧⟦{大|おお}きい→大きい：00335_ookii⟧⟦と→と：00512_to⟧⟦{言|い}われている→言う：00515_iu⟧。",
       "english": "Premature gray hair is said to be largely influenced by genetics.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22636_wakashiraga_ex3",
-      "japanese": "{彼|かれ}は{二十代|にじゅうだい}から{若白髪|わかしらが}に{悩|なや}まされていた。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{二十代|にじゅうだい}→二十代：20477_nijuudai⟧⟦から→から：00504_kara⟧{若白髪|わかしらが}⟦に→に：00314_ni⟧⟦{悩|なや}まされていた→悩ます：12602_nayamasu⟧。",
       "english": "He had been troubled by premature gray hair since his twenties.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {若|わか} (young) and {白髪|しらが} (gray/white hair). Refers to gray or white hair that appears at an unusually young age, typically in one's teens, twenties, or thirties. Often discussed in the context of genetics, stress, or hair care.\n\nCOMMON COLLOCATIONS:\n- {若白髪|わかしらが}が{多|おお}い: to have a lot of premature gray hair\n- {若白髪|わかしらが}に{悩|なや}む: to be troubled by premature gray hair\n- {若白髪|わかしらが}を{染|そ}める: to dye premature gray hair\n- {若白髪|わかしらが}の{原因|げんいん}: causes of premature gray hair\n\nRELATED TERMS:\n- {白髪|しらが}: gray/white hair — the general term regardless of age\n- {白髪染|しらがぞ}め: hair dye for gray hair\n- {遺伝|いでん}: heredity — often cited as the main cause of {若白髪|わかしらが}",
+  "notes": "Composed of {若|わか} (young) and ⟦{白髪|しらが}→白髪：00369_shiraga⟧ (gray/white hair). Refers to gray or white hair that appears at an unusually young age, typically in one's teens, twenties, or thirties. Often discussed in the context of genetics, stress, or hair care.\n\nCOMMON COLLOCATIONS:\n- {若白髪|わかしらが}⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧: to have a lot of premature gray hair\n- {若白髪|わかしらが}⟦に→に：00314_ni⟧⟦{悩|なや}む→悩む：02380_nayamu⟧: to be troubled by premature gray hair\n- {若白髪|わかしらが}⟦を→を：00422_wo⟧⟦{染|そ}める→染める：04253_someru⟧: to dye premature gray hair\n- {若白髪|わかしらが}⟦の→の：09472_no⟧⟦{原因|げんいん}→原因：01400_genin⟧: causes of premature gray hair\n\nRELATED WORDS:\n- ⟦{白髪|しらが}→白髪：00369_shiraga⟧: gray/white hair — the general term regardless of age\n- ⟦{白髪染|しらがぞ}め→白髪染め：22007_shiragazome⟧: hair dye for gray hair\n- ⟦{遺伝|いでん}→遺伝：10137_iden⟧: heredity — often cited as the main cause of {若白髪|わかしらが}",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "22007_shiragazome",
+      "reading": "しらがぞめ",
+      "headword": "{白髪染|しらがぞ}め",
+      "label": "hair dye for gray hair"
+    },
+    {
+      "type": "related",
+      "target_id": "10137_iden",
+      "reading": "いでん",
+      "headword": "{遺伝|いでん}",
+      "label": "heredity"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +75,6 @@
       "politeness": "plain"
     },
     "created": "2026-04-06T20:29:06Z",
-    "modified": "2026-07-30T15:20:15Z"
+    "modified": "2026-09-02T04:02:09Z"
   }
 }

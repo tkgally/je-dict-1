@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22065_hinshitsuhoshou_ex1",
-      "japanese": "{品質|ひんしつ}{保証|ほしょう}{部門|ぶもん}に{配属|はいぞく}された。",
+      "japanese": "{品質|ひんしつ}{保証|ほしょう}⟦{部門|ぶもん}→部門：14406_bumon⟧⟦に→に：00314_ni⟧⟦{配属|はいぞく}→配属：06159_haizoku⟧⟦された→する：00392_suru⟧。",
       "english": "I was assigned to the quality assurance department.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22065_hinshitsuhoshou_ex2",
-      "japanese": "この{製品|せいひん}には{品質|ひんしつ}{保証|ほしょう}がついている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{製品|せいひん}→製品：01445_seihin⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{品質|ひんしつ}{保証|ほしょう}⟦が→が：00051_ga⟧ついて⟦いる→いる：00495_iru⟧。",
       "english": "This product comes with a quality guarantee.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22065_hinshitsuhoshou_ex3",
-      "japanese": "{品質|ひんしつ}{保証|ほしょう}の{基準|きじゅん}を{満|み}たさない{製品|せいひん}は{出荷|しゅっか}できない。",
+      "japanese": "{品質|ひんしつ}{保証|ほしょう}⟦の→の：09472_no⟧⟦{基準|きじゅん}→基準：00228_kijun⟧⟦を→を：00422_wo⟧⟦{満|み}たさない→満たす：09889_mitasu⟧⟦{製品|せいひん}→製品：01445_seihin⟧⟦は→は：00079_ha⟧⟦{出荷|しゅっか}→出荷：05135_shukka⟧⟦できない→できる：00557_dekiru⟧。",
       "english": "Products that do not meet quality assurance standards cannot be shipped.",
       "sense_numbers": [
         1
@@ -44,20 +44,37 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {品質|ひんしつ} (quality) and {保証|ほしょう} (guarantee/assurance). Used extensively in manufacturing, business, and product contexts. In corporate settings, often abbreviated as QA. Japan's manufacturing culture places great emphasis on quality assurance processes.\n\nCOMMON COLLOCATIONS:\n- {品質|ひんしつ}{保証|ほしょう}{部門|ぶもん}: quality assurance department\n- {品質|ひんしつ}{保証|ほしょう}{体制|たいせい}: quality assurance system\n- {品質|ひんしつ}{保証|ほしょう}{書|しょ}: certificate of quality\n\nSIMILAR WORDS:\n- {品質|ひんしつ}{管理|かんり} — quality control (QC); focuses on inspection and control processes\n- {保証|ほしょう}{書|しょ} — warranty certificate; a document guaranteeing a product\n- {品質|ひんしつ}{検査|けんさ} — quality inspection; the testing stage specifically",
+  "notes": "A compound of ⟦{品質|ひんしつ}→品質：09507_hinshitsu⟧ (quality) and ⟦{保証|ほしょう}→保証：03718_hoshou⟧ (guarantee/assurance). Used extensively in manufacturing, business, and product contexts. In corporate settings, often abbreviated as QA. Japan's manufacturing culture places great emphasis on quality assurance processes.\n\nCOMMON COLLOCATIONS:\n- {品質|ひんしつ}{保証|ほしょう}⟦{部門|ぶもん}→部門：14406_bumon⟧: quality assurance department\n- {品質|ひんしつ}{保証|ほしょう}⟦{体制|たいせい}→体制：04490_taisei⟧: quality assurance system\n- {品質|ひんしつ}{保証|ほしょう}{書|しょ}: certificate of quality\n\nSIMILAR WORDS:\n- ⟦{品質|ひんしつ}{管理|かんり}→品質管理：21220_hinshitsukanri⟧ — quality control (QC); focuses on inspection and control processes\n- ⟦{保証|ほしょう}{書|しょ}→保証書：09627_hoshousho⟧ — warranty certificate; a document guaranteeing a product\n- ⟦{品質|ひんしつ}→品質：09507_hinshitsu⟧⟦{検査|けんさ}→検査：02707_kensa⟧ — quality inspection; the testing stage specifically",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21220_hinshitsukanri",
+      "reading": "ひんしつかんり",
+      "headword": "{品質管理|ひんしつかんり}",
+      "label": "quality control"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09627_hoshousho",
+      "reading": "ほしょうしょ",
+      "headword": "{保証書|ほしょうしょ}",
+      "label": "warranty certificate"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "business"
       ],
       "usage_context": []
     },
     "created": "2026-04-04T22:17:11Z",
-    "modified": "2026-04-04T22:17:11Z"
+    "modified": "2026-09-02T04:02:06Z"
   }
 }

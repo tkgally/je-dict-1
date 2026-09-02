@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08969_piiee_ex1",
-      "japanese": "PA{内|ない}でファウルをした。",
+      "japanese": "PA⟦{内|ない}→〜内：09853_nai⟧⟦で→で：00502_de⟧⟦ファウル→ファウル：06584_fauru⟧⟦を→を：00422_wo⟧⟦した→する：00392_suru⟧。",
       "english": "A foul was committed inside the penalty area.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "08969_piiee_ex2",
-      "japanese": "{相手|あいて}のPA{付近|ふきん}でボールを{奪|うば}った。",
+      "japanese": "⟦{相手|あいて}→相手：01677_aite⟧⟦の→の：09472_no⟧PA⟦{付近|ふきん}→付近：00044_fukin⟧⟦で→で：00502_de⟧⟦ボール→ボール：00017_booru⟧⟦を→を：00422_wo⟧⟦{奪|うば}った→奪う：01895_ubau⟧。",
       "english": "We won the ball near the opponent's penalty area.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "08969_piiee_ex3",
-      "japanese": "PA{外|そと}からの{見事|みごと}なシュートでゴールを{決|き}めた。",
+      "japanese": "PA⟦{外|そと}→外：00671_soto⟧⟦から→から：00504_kara⟧⟦の→の：09472_no⟧⟦{見事|みごと}→見事：03744_migoto⟧な⟦シュート→シュート：05926_shuuto⟧⟦で→で：00502_de⟧⟦ゴール→ゴール：03845_gooru⟧⟦を→を：00422_wo⟧⟦{決|き}めた→決める：00858_kimeru⟧。",
       "english": "They scored with a brilliant shot from outside the penalty area.",
       "notes": null,
       "has_audio": false,
@@ -43,11 +43,33 @@
       ]
     }
   ],
-  "notes": "PA stands for \"Penalty Area\" and is widely used in Japanese soccer commentary, match reports, and discussions. It refers to the rectangular zone in front of each goal where defensive fouls result in a penalty kick.\n\nCOMMON COLLOCATIONS:\n- PA{内|ない}: inside the penalty area\n- PA{外|そと}: outside the penalty area\n- {相手|あいて}のPA: the opponent's penalty area\n- PA{付近|ふきん}: near the penalty area\n\nALTERNATIVE NAMES:\n- ペナルティエリア: full form (less common in speech)\n- ボックス: box (casual)\n- {十八|じゅうはち}ヤード: 18-yard box\n\nRELATED SOCCER TERMS:\n- PK: ペナルティキック (penalty kick)\n- ゴールエリア: goal area (smaller box inside PA)\n- GK: ゴールキーパー (goalkeeper)",
-  "cross_references": [],
+  "notes": "PA stands for \"Penalty Area\" and is widely used in Japanese soccer commentary, match reports, and discussions. It refers to the rectangular zone in front of each goal where defensive fouls result in a penalty kick.\n\nCOMMON COLLOCATIONS:\n- PA⟦{内|ない}→〜内：09853_nai⟧: inside the penalty area\n- PA⟦{外|そと}→外：00671_soto⟧: outside the penalty area\n- ⟦{相手|あいて}→相手：01677_aite⟧⟦の→の：09472_no⟧PA: the opponent's penalty area\n- PA⟦{付近|ふきん}→付近：00044_fukin⟧: near the penalty area\n\nALTERNATIVE NAMES:\n- ⟦ペナルティ→ペナルティ：29963_penaruti⟧⟦エリア→エリア：10726_eria⟧: full form (less common in speech)\n- ⟦ボックス→ボックス：30522_bokkusu⟧: box (casual)\n- ⟦{十八|じゅうはち}→十八：00948_juuhachi⟧ヤード: 18-yard box\n\nRELATED SOCCER TERMS:\n- PK: ⟦ペナルティキック→ペナルティキック：29976_penarutikikku⟧ (penalty kick)\n- ⟦ゴール→ゴール：03845_gooru⟧⟦エリア→エリア：10726_eria⟧: goal area (smaller box inside PA)\n- GK: ⟦ゴールキーパー→ゴールキーパー：06585_goorukiipaa⟧ (goalkeeper)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "30522_bokkusu",
+      "reading": "ぼっくす",
+      "headword": "ボックス",
+      "label": "box"
+    },
+    {
+      "type": "related",
+      "target_id": "29976_penarutikikku",
+      "reading": "ぺなるてぃきっく",
+      "headword": "ペナルティキック",
+      "label": "penalty kick"
+    },
+    {
+      "type": "related",
+      "target_id": "06585_goorukiipaa",
+      "reading": "ごーるきーぱー",
+      "headword": "ゴールキーパー",
+      "label": "goalkeeper"
+    }
+  ],
   "metadata": {
     "created": "2026-01-29T11:05:09Z",
-    "modified": "2026-03-30T05:29:48Z",
+    "modified": "2026-09-02T04:01:16Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

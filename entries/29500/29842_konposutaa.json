@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29842_konposutaa_ex1",
-      "japanese": "{庭|にわ}にコンポスターを{置|お}いた。",
+      "japanese": "⟦{庭|にわ}→庭：02239_niwa⟧⟦に→に：00314_ni⟧コンポスター⟦を→を：00422_wo⟧⟦{置|お}いた→置く：01092_oku⟧。",
       "english": "I placed a composter in the garden.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29842_konposutaa_ex2",
-      "japanese": "{生|なま}ごみをコンポスターに{入|い}れて{肥料|ひりょう}を{作|つく}る。",
+      "japanese": "{生|なま}ごみ⟦を→を：00422_wo⟧コンポスター⟦に→に：00314_ni⟧⟦{入|い}れて→入れる：01098_ireru⟧⟦{肥料|ひりょう}→肥料：06102_hiryou⟧⟦を→を：00422_wo⟧⟦{作|つく}る→作る：00481_tsukuru⟧。",
       "english": "I put kitchen scraps into the composter to make fertilizer.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29842_konposutaa_ex3",
-      "japanese": "{市|し}の{補助|ほじょ}を{使|つか}って、{家庭用|かていよう}のコンポスターを{安|やす}く{買|か}えた。",
+      "japanese": "⟦{市|し}→市：01599_shi⟧⟦の→の：09472_no⟧⟦{補助|ほじょ}→補助：14105_hojo⟧⟦を→を：00422_wo⟧⟦{使|つか}って→使う：00473_tsukau⟧、⟦{家庭用|かていよう}→家庭用：16544_kateiyou⟧⟦の→の：09472_no⟧コンポスター⟦を→を：00422_wo⟧⟦{安|やす}く→安い：00464_yasui⟧⟦{買|か}えた→買う：00489_kau⟧。",
       "english": "Using a city subsidy, I was able to buy a household composter cheaply.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Loanword from English 'composter'. Refers to a bin or device used to compost food scraps and garden waste. Increasingly common as households reduce food waste.\n\nCOMMON COLLOCATIONS:\n- {家庭用|かていよう}コンポスター: household composter\n- コンポスターに{入|い}れる: to put (waste) into a composter\n- {生|なま}ごみをコンポストにする: to compost kitchen waste\n\nSIMILAR WORDS:\n- コンポスト: compost; composting — refers to the compost itself or the process; コンポスター is the container\n- {堆肥|たいひ}: compost; manure — the native term for the finished compost material",
+  "notes": "Loanword from English 'composter'. Refers to a bin or device used to compost food scraps and garden waste. Increasingly common as households reduce food waste.\n\nCOMMON COLLOCATIONS:\n- ⟦{家庭用|かていよう}→家庭用：16544_kateiyou⟧コンポスター: household composter\n- コンポスター⟦に→に：00314_ni⟧⟦{入|い}れる→入れる：01098_ireru⟧: to put (waste) into a composter\n- {生|なま}ごみ⟦を→を：00422_wo⟧⟦コンポスト→コンポスト：29822_konposuto⟧⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧: to compost kitchen waste\n\nSIMILAR WORDS:\n- ⟦コンポスト→コンポスト：29822_konposuto⟧: compost; composting — refers to the compost itself or the process; コンポスター is the container\n- ⟦{堆肥|たいひ}→堆肥：06471_taihi⟧: compost; manure — the native term for the finished compost material",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "29822_konposuto",
+      "reading": "こんぽすと",
+      "headword": "コンポスト",
+      "label": "compost"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06471_taihi",
+      "reading": "たいひ",
+      "headword": "{堆肥|たいひ}",
+      "label": "compost"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +69,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "tool"
       ],
       "domain": []
     },
     "created": "2026-07-14T18:20:29Z",
-    "modified": "2026-07-14T18:20:29Z"
+    "modified": "2026-09-02T04:02:38Z"
   }
 }

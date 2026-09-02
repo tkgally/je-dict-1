@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30142_shohiyou_ex1",
-      "japanese": "{諸費用|しょひよう}は{別|べつ}にかかります。",
+      "japanese": "{諸費用|しょひよう}⟦は→は：00079_ha⟧⟦{別|べつ}→別：01216_betsu⟧⟦に→に：00314_ni⟧⟦かかります→かかる：00711_kakaru⟧。",
       "english": "Miscellaneous costs are charged separately.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30142_shohiyou_ex2",
-      "japanese": "{車|くるま}の{値段|ねだん}に{諸費用|しょひよう}を{加|くわ}えると{予算|よさん}を{超|こ}えてしまう。",
+      "japanese": "⟦{車|くるま}→車：00516_kuruma⟧⟦の→の：09472_no⟧⟦{値段|ねだん}→値段：00871_nedan⟧⟦に→に：00314_ni⟧{諸費用|しょひよう}⟦を→を：00422_wo⟧⟦{加|くわ}える→加える：01941_kuwaeru⟧⟦と→と：00512_to⟧⟦{予算|よさん}→予算：03663_yosan⟧⟦を→を：00422_wo⟧⟦{超|こ}えて→超える：01942_koeru⟧しまう。",
       "english": "If you add the various fees to the price of the car, it goes over my budget.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30142_shohiyou_ex3",
-      "japanese": "{家|いえ}を{買|か}うときは、{物件|ぶっけん}の{価格|かかく}だけでなく、{税金|ぜいきん}や{手数料|てすうりょう}などの{諸費用|しょひよう}も{計算|けいさん}に{入|い}れておく{必要|ひつよう}がある。",
+      "japanese": "⟦{家|いえ}→家：00612_ie⟧⟦を→を：00422_wo⟧⟦{買|か}う→買う：00489_kau⟧とき⟦は→は：00079_ha⟧、⟦{物件|ぶっけん}→物件：06743_bukken⟧⟦の→の：09472_no⟧⟦{価格|かかく}→価格：00147_kakaku⟧⟦だけでなく→〜だけでなく：18373_dakedenaku⟧、⟦{税金|ぜいきん}→税金：03308_zeikin⟧や⟦{手数料|てすうりょう}→手数料：05423_tesuuryou⟧⟦など→〜など：03095_nado⟧⟦の→の：09472_no⟧{諸費用|しょひよう}⟦も→も：00484_mo⟧⟦{計算|けいさん}→計算：02697_keisan⟧⟦に→に：00314_ni⟧⟦{入|い}れて→入れる：01098_ireru⟧おく⟦{必要|ひつよう}→必要：00846_hitsuyou⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "When buying a house, you need to factor in not only the price of the property but also various costs such as taxes and handling fees.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "The prefix {諸|しょ} (various, several) attached to {費用|ひよう} (expenses). It appears mainly in written quotes and contracts, where it covers items too numerous to list individually.\n\nCOMMON COLLOCATIONS:\n- {諸費用|しょひよう}がかかる: for various costs to be incurred\n- {諸費用|しょひよう}を{含|ふく}む: to include miscellaneous costs\n- {諸費用|しょひよう}{込|こ}み: miscellaneous costs included\n\nSIMILAR WORDS:\n- {手数料|てすうりょう}: handling fee — one specific charge, often part of the {諸費用|しょひよう}\n- {経費|けいひ}: expenses — costs a business incurs in operating, viewed from the accounting side",
+  "notes": "The prefix ⟦{諸|しょ}→諸〜：03956_sho⟧ (various, several) attached to ⟦{費用|ひよう}→費用：03588_hiyou⟧ (expenses). It appears mainly in written quotes and contracts, where it covers items too numerous to list individually.\n\nCOMMON COLLOCATIONS:\n- {諸費用|しょひよう}⟦が→が：00051_ga⟧⟦かかる→かかる：00711_kakaru⟧: for various costs to be incurred\n- {諸費用|しょひよう}⟦を→を：00422_wo⟧⟦{含|ふく}む→含む：01982_fukumu⟧: to include miscellaneous costs\n- {諸費用|しょひよう}⟦{込|こ}み→込み：28615_komi⟧: miscellaneous costs included\n\nSIMILAR WORDS:\n- ⟦{手数料|てすうりょう}→手数料：05423_tesuuryou⟧: handling fee — one specific charge, often part of the {諸費用|しょひよう}\n- ⟦{経費|けいひ}→経費：04696_keihi⟧: expenses — costs a business incurs in operating, viewed from the accounting side",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05423_tesuuryou",
+      "reading": "てすうりょう",
+      "headword": "{手数料|てすうりょう}",
+      "label": "handling fee"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04696_keihi",
+      "reading": "けいひ",
+      "headword": "{経費|けいひ}",
+      "label": "expenses"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +69,7 @@
         "noun"
       ],
       "formality": "formal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "money",
         "business"
@@ -63,6 +79,6 @@
       ]
     },
     "created": "2026-07-26T12:19:17Z",
-    "modified": "2026-07-26T12:19:17Z"
+    "modified": "2026-09-02T04:02:38Z"
   }
 }

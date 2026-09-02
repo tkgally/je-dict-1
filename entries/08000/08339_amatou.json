@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08339_amatou_ex1",
-      "japanese": "{私|わたし}は{甘党|あまとう}だからケーキが{大好|だいす}き。",
+      "japanese": "⟦{私|わたし}→私：02988_watashi⟧⟦は→は：00079_ha⟧{甘党|あまとう}だ⟦から→から：00504_kara⟧⟦ケーキ→ケーキ：01356_keeki⟧⟦が→が：00051_ga⟧⟦{大好|だいす}き→大好き：02911_daisuki⟧。",
       "english": "I have a sweet tooth, so I love cake.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "08339_amatou_ex2",
-      "japanese": "{父|ちち}は{甘党|あまとう}で、お{酒|さけ}より{和菓子|わがし}が{好|す}きだ。",
+      "japanese": "⟦{父|ちち}→父：00566_chichi⟧⟦は→は：00079_ha⟧{甘党|あまとう}で、⟦お{酒|さけ}→お酒：01045_osake⟧⟦より→より：09476_yori⟧⟦{和菓子|わがし}→和菓子：04962_wagashi⟧⟦が→が：00051_ga⟧⟦{好|す}き→好き：02355_suki⟧だ。",
       "english": "My father has a sweet tooth and prefers Japanese sweets to alcohol.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "08339_amatou_ex3",
-      "japanese": "{甘党|あまとう}の{人|ひと}にぴったりの{新作|しんさく}スイーツが{発売|はつばい}された。",
+      "japanese": "{甘党|あまとう}⟦の→の：09472_no⟧⟦{人|ひと}→人：00476_hito⟧⟦に→に：00314_ni⟧⟦ぴったり→ぴったり：02362_pittari⟧⟦の→の：09472_no⟧⟦{新作|しんさく}→新作：09523_shinsaku⟧⟦スイーツ→スイーツ：27370_suiitsu⟧⟦が→が：00051_ga⟧⟦{発売|はつばい}→発売：04315_hatsubai⟧⟦された→する：00392_suru⟧。",
       "english": "A new dessert perfect for people with a sweet tooth has been released.",
       "sense_numbers": [
         1
@@ -43,7 +43,7 @@
       "notes": null
     }
   ],
-  "notes": "FORMATION:\n{甘|あま}い (sweet) + {党|とう} (party, group) → sweet party/group\n\nThe {党|とう} suffix indicates belonging to a preference group.\n\nCONTRAST WITH {辛党|からとう}:\nOriginally, {甘党|あまとう} vs {辛党|からとう} was about sweets vs alcohol (not spicy food):\n- {甘党|あまとう}: prefers sweets, doesn't drink much\n- {辛党|からとう}: prefers drinking alcohol\n\nHowever, modern usage sometimes interprets {辛党|からとう} as someone who likes spicy food.\n\nRELATED EXPRESSIONS:\n- {甘|あま}いもの{好|ず}き (lover of sweet things)\n- スイーツ{好|ず}き (dessert lover)\n- {甘|あま}い{物|もの}に{目|め}がない (can't resist sweets)",
+  "notes": "FORMS:\n⟦{甘|あま}い→甘い：00617_amai⟧ (sweet) + {党|とう} (party, group) → sweet party/group\n\nThe {党|とう} suffix indicates belonging to a preference group.\n\nCONTRAST WITH {辛党|からとう}:\nOriginally, {甘党|あまとう} vs ⟦{辛党|からとう}→辛党：08340_karatou⟧ was about sweets vs alcohol (not spicy food):\n- {甘党|あまとう}: prefers sweets, doesn't drink much\n- ⟦{辛党|からとう}→辛党：08340_karatou⟧: prefers drinking alcohol\n\nHowever, modern usage sometimes interprets ⟦{辛党|からとう}→辛党：08340_karatou⟧ as someone who likes spicy food.\n\nRELATED WORDS:\n- ⟦{甘|あま}い→甘い：00617_amai⟧もの{好|ず}き (lover of sweet things)\n- ⟦スイーツ→スイーツ：27370_suiitsu⟧{好|ず}き (dessert lover)\n- ⟦{甘|あま}い{物|もの}→甘い物：20464_amaimono⟧⟦に→に：00314_ni⟧⟦{目|め}→目：00525_me⟧⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧ (can't resist sweets)",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -51,6 +51,7 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "personality",
         "food",
@@ -58,7 +59,7 @@
       ]
     },
     "created": "2026-01-26T04:18:43Z",
-    "modified": "2026-04-20T06:28:06Z"
+    "modified": "2026-09-02T04:01:14Z"
   },
   "cross_references": [
     {
@@ -67,6 +68,20 @@
       "reading": "からとう",
       "headword": "{辛党|からとう}",
       "label": "savory/spicy lover"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23176_sakezuki",
+      "reading": "さけずき",
+      "headword": "{酒好|さけず}き",
+      "label": "person who likes alcohol"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23468_satou",
+      "reading": "さとう",
+      "headword": "{左党|さとう}",
+      "label": "drinker"
     }
   ]
 }

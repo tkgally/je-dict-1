@@ -15,41 +15,69 @@
   "examples": [
     {
       "id": "29499_honron_ex1",
-      "japanese": "{本論|ほんろん}に{入|はい}る。",
+      "japanese": "{本論|ほんろん}⟦に→に：00314_ni⟧⟦{入|はい}る→入る：00494_hairu⟧。",
       "english": "to get to the main point.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29499_honron_ex2",
-      "japanese": "{前置|まえお}きはこのくらいにして、{本論|ほんろん}に{移|うつ}ろう。",
+      "japanese": "⟦{前置|まえお}き→前置き：07704_maeoki⟧⟦は→は：00079_ha⟧⟦この→この：00962_kono⟧くらいにして、{本論|ほんろん}⟦に→に：00314_ni⟧⟦{移|うつ}ろう→移る：01232_utsuru⟧。",
       "english": "Enough preamble; let's move on to the main discussion.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29499_honron_ex3",
-      "japanese": "この{論文|ろんぶん}の{本論|ほんろん}では、{三|みっ}つの{原因|げんいん}について{詳|くわ}しく{述|の}べる。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{論文|ろんぶん}→論文：03787_ronbun⟧⟦の→の：09472_no⟧{本論|ほんろん}⟦で→で：00502_de⟧⟦は→は：00079_ha⟧、⟦{三|みっ}つ→三つ：02970_mittsu⟧⟦の→の：09472_no⟧⟦{原因|げんいん}→原因：01400_genin⟧⟦について→〜について：03103_nitsuite⟧⟦{詳|くわ}しく→詳しい：02483_kuwashii⟧⟦{述|の}べる→述べる：02389_noberu⟧。",
       "english": "The body of this paper discusses three causes in detail.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Combines {本|ほん} (main, principal) + {論|ろん} (argument, discussion). The core part of a discussion or essay, distinct from the introduction or side topics; also the main point itself.\n\nCOMMON COLLOCATIONS:\n- {本論|ほんろん}に{入|はい}る: to get to the main subject\n- {本論|ほんろん}に{移|うつ}る: to move on to the main discussion\n- {本論|ほんろん}から{外|はず}れる: to stray from the main point\n\nSIMILAR WORDS:\n- {序論|じょろん}: introduction — the opening section that precedes the {本論|ほんろん}\n- {結論|けつろん}: conclusion — the closing section that follows it",
+  "notes": "Combines {本|ほん} (main, principal) + ⟦{論|ろん}→〜論：04017_ron⟧ (argument, discussion). The core part of a discussion or essay, distinct from the introduction or side topics; also the main point itself.\n\nCOMMON COLLOCATIONS:\n- {本論|ほんろん}⟦に→に：00314_ni⟧⟦{入|はい}る→入る：00494_hairu⟧: to get to the main subject\n- {本論|ほんろん}⟦に→に：00314_ni⟧⟦{移|うつ}る→移る：01232_utsuru⟧: to move on to the main discussion\n- {本論|ほんろん}⟦から→から：00504_kara⟧⟦{外|はず}れる→外れる：02395_hazureru⟧: to stray from the main point\n\nSIMILAR WORDS:\n- ⟦{序論|じょろん}→序論：23169_joron⟧: introduction — the opening section that precedes the {本論|ほんろん}\n- ⟦{結論|けつろん}→結論：02704_ketsuron⟧: conclusion — the closing section that follows it",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23169_joron",
+      "reading": "じょろん",
+      "headword": "{序論|じょろん}",
+      "label": "introduction"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02704_ketsuron",
+      "reading": "けつろん",
+      "headword": "{結論|けつろん}",
+      "label": "conclusion"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
-      "politeness": null,
-      "semantic": ["language"],
-      "domain": ["academic"]
+      "politeness": "plain",
+      "semantic": [
+        "language"
+      ],
+      "domain": [
+        "academic"
+      ]
     },
     "created": "2026-06-26T09:20:43Z",
-    "modified": "2026-06-26T09:20:43Z"
+    "modified": "2026-09-02T04:02:37Z"
   }
 }

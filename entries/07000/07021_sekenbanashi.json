@@ -34,7 +34,7 @@
     },
     {
       "id": "07021_sekenbanashi_ex3",
-      "japanese": "⟦コーヒー→コーヒー：00789_koohii⟧⟦を→を：00422_wo⟧⟦{飲|の}み→飲む：00322_nomu⟧ながら{世間話|せけんばなし}⟦を→を：00422_wo⟧⟦{楽|たの}しんだ→楽しむ：01203_tanoshimu⟧。",
+      "japanese": "⟦コーヒー→コーヒー：00789_koohii⟧⟦を→を：00422_wo⟧⟦{飲|の}み→飲む：00322_nomu⟧⟦ながら→ながら：10530_nagara⟧{世間話|せけんばなし}⟦を→を：00422_wo⟧⟦{楽|たの}しんだ→楽しむ：01203_tanoshimu⟧。",
       "english": "We enjoyed chitchat over coffee.",
       "notes": null,
       "has_audio": false,
@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "{世間話|せけんばなし} is small talk: casual conversation about everyday things — the weather, the news, what is happening locally — carried on for its own sake rather than to settle anything.\n\nFormation: ⟦{世間|せけん}→世間：03299_seken⟧ 'society, the world at large' + {話|はなし} 'talk.' The name is apt: the topics are whatever is going on out in the world, nothing personal and nothing at stake.\n\nCollocations:\n- {世間話|せけんばなし}⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧: to make small talk\n- {世間話|せけんばなし}⟦に→に：00314_ni⟧⟦{花|はな}→花：00523_hana⟧⟦が→が：00051_ga⟧⟦{咲|さ}く→咲く：08150_saku⟧: for the chat to blossom — a set phrase for conversation that takes off and runs on happily\n- ⟦{軽|かる}い→軽い：00785_karui⟧{世間話|せけんばなし}: light small talk\n- {世間話|せけんばなし}⟦で→で：00502_de⟧⟦{盛|も}り{上|あ}がる→盛り上がる：06344_moriagaru⟧: for small talk to get lively\n\nSimilar words:\n- ⟦{雑談|ざつだん}→雑談：06639_zatsudan⟧: casual chat. Broader — it can be about anything, including work or ideas — where {世間話|せけんばなし} suggests the ordinary topics of daily life.\n- ⟦おしゃべり→おしゃべり：01911_oshaberi⟧: chatting, with the emphasis on the pleasure of talking a lot.\n- ⟦{井戸端会議|いどばたかいぎ}→井戸端会議：07402_idobatakaigi⟧: literally a 'meeting at the well,' where neighbours once gathered to draw water. Chat among neighbours, often with a hint of gossip about other people.\n\nUsage: neutral, and socially useful. {世間話|せけんばなし} before a meeting, in a waiting room, or with a neighbour is how relationships are kept warm, so being able to sustain it is a genuine skill.",
+  "notes": "{世間話|せけんばなし} is small talk: casual conversation about everyday things — the weather, the news, what is happening locally — carried on for its own sake rather than to settle anything.\n\nFormation: ⟦{世間|せけん}→世間：03299_seken⟧ 'society, the world at large' + ⟦{話|はなし}→話：01496_hanashi⟧ 'talk.' The name is apt: the topics are whatever is going on out in the world, nothing personal and nothing at stake.\n\nCollocations:\n- {世間話|せけんばなし}⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧: to make small talk\n- {世間話|せけんばなし}⟦に→に：00314_ni⟧⟦{花|はな}→花：00523_hana⟧⟦が→が：00051_ga⟧⟦{咲|さ}く→咲く：08150_saku⟧: for the chat to blossom — a set phrase for conversation that takes off and runs on happily\n- ⟦{軽|かる}い→軽い：00785_karui⟧{世間話|せけんばなし}: light small talk\n- {世間話|せけんばなし}⟦で→で：00502_de⟧⟦{盛|も}り{上|あ}がる→盛り上がる：06344_moriagaru⟧: for small talk to get lively\n\nSimilar words:\n- ⟦{雑談|ざつだん}→雑談：06639_zatsudan⟧: casual chat. Broader — it can be about anything, including work or ideas — where {世間話|せけんばなし} suggests the ordinary topics of daily life.\n- ⟦おしゃべり→おしゃべり：01911_oshaberi⟧: chatting, with the emphasis on the pleasure of talking a lot.\n- ⟦{井戸端会議|いどばたかいぎ}→井戸端会議：07402_idobatakaigi⟧: literally a 'meeting at the well,' where neighbours once gathered to draw water. Chat among neighbours, often with a hint of gossip about other people.\n\nUsage: neutral, and socially useful. {世間話|せけんばなし} before a meeting, in a waiting room, or with a neighbour is how relationships are kept warm, so being able to sustain it is a genuine skill.",
   "cross_references": [
     {
       "type": "synonym",
@@ -71,11 +71,25 @@
       "headword": "{雑談|ざつだん}",
       "label": "casual chat",
       "target_id": "06639_zatsudan"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26013_yomoyamabanashi",
+      "reading": "よもやまばなし",
+      "headword": "よもやま{話|ばなし}",
+      "label": "miscellaneous chat"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26223_karabanashi",
+      "reading": "からばなし",
+      "headword": "{空話|からばなし}",
+      "label": "idle talk"
     }
   ],
   "metadata": {
     "created": "2026-01-18T13:35:29Z",
-    "modified": "2026-08-26T00:31:52Z",
+    "modified": "2026-09-02T04:01:10Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

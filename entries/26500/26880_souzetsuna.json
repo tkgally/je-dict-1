@@ -3,7 +3,7 @@
   "headword": "{壮絶|そうぜつ}な",
   "reading": "そうぜつな",
   "romaji": "souzetsuna",
-  "part_of_speech": "adjective-na",
+  "part_of_speech": "na-adjective",
   "gloss": "fierce; intense; harrowing; heroic",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26880_souzetsuna_ex1",
-      "japanese": "{壮絶|そうぜつ}な{戦|たたか}いだった。",
+      "japanese": "{壮絶|そうぜつ}な⟦{戦|たたか}い→戦い：02070_tatakai⟧だった。",
       "english": "It was a fierce battle.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26880_souzetsuna_ex2",
-      "japanese": "{彼女|かのじょ}は{壮絶|そうぜつ}な{人生|じんせい}を{送|おく}ってきた。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧{壮絶|そうぜつ}な⟦{人生|じんせい}→人生：03355_jinsei⟧⟦を→を：00422_wo⟧⟦{送|おく}って→送る：00742_okuru⟧きた。",
       "english": "She has lived a harrowing life.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26880_souzetsuna_ex3",
-      "japanese": "{壮絶|そうぜつ}な{最期|さいご}を{遂|と}げた。",
+      "japanese": "{壮絶|そうぜつ}な⟦{最期|さいご}→最期：30329_saigo⟧⟦を→を：00422_wo⟧⟦{遂|と}げた→遂げる：14323_togeru⟧。",
       "english": "He met a heroic end.",
       "sense_numbers": [
         1
@@ -45,7 +45,7 @@
     },
     {
       "id": "26880_souzetsuna_ex4",
-      "japanese": "がんと{壮絶|そうぜつ}に{闘|たたか}いながら、{最後|さいご}まで{笑顔|えがお}を{絶|た}やさなかった。",
+      "japanese": "がん⟦と→と：00512_to⟧{壮絶|そうぜつ}に⟦{闘|たたか}い→闘う：17304_tatakau⟧⟦ながら→ながら：10530_nagara⟧、⟦{最後|さいご}→最後：01413_saigo⟧⟦まで→まで：00490_made⟧⟦{笑顔|えがお}→笑顔：01884_egao⟧⟦を→を：00422_wo⟧⟦{絶|た}やさなかった→絶やす：15895_tayasu⟧。",
       "english": "While fighting fiercely against cancer, she never lost her smile until the end.",
       "sense_numbers": [
         1
@@ -54,8 +54,23 @@
       "notes": null
     }
   ],
-  "notes": "A dramatic word that conveys both severity and a sense of the sublime or heroic. Unlike merely negative words for 'terrible,' 壮絶 often carries admiration for the intensity of the struggle. Very common in media descriptions of personal battles with illness, war memoirs, and sports narratives.\n\nCOMMON COLLOCATIONS:\n- {壮絶|そうぜつ}な{戦|たたか}い: fierce battle/fight\n- {壮絶|そうぜつ}な{人生|じんせい}: harrowing life\n- {壮絶|そうぜつ}な{最期|さいご}: heroic/dramatic death\n- {壮絶|そうぜつ}な{体験|たいけん}: harrowing experience\n- {壮絶|そうぜつ}な{いじめ}: severe bullying\n\nSIMILAR WORDS:\n- {凄|すさ}まじい: tremendous; terrifying — emphasizes being overwhelming or dreadful\n- {猛烈|もうれつ}な: fierce; violent — emphasizes raw power and intensity\n- {熾烈|しれつ}な: fierce; intense — specifically for competition or rivalry",
-  "cross_references": [],
+  "notes": "A dramatic word that conveys both severity and a sense of the sublime or heroic. Unlike merely negative words for 'terrible,' 壮絶 often carries admiration for the intensity of the struggle. Very common in media descriptions of personal battles with illness, war memoirs, and sports narratives.\n\nCOMMON COLLOCATIONS:\n- {壮絶|そうぜつ}な⟦{戦|たたか}い→戦い：02070_tatakai⟧: fierce battle/fight\n- {壮絶|そうぜつ}な⟦{人生|じんせい}→人生：03355_jinsei⟧: harrowing life\n- {壮絶|そうぜつ}な⟦{最期|さいご}→最期：30329_saigo⟧: heroic/dramatic death\n- {壮絶|そうぜつ}な⟦{体験|たいけん}→体験：11443_taiken⟧: harrowing experience\n- {壮絶|そうぜつ}な⟦いじめ→いじめ：09092_ijime⟧: severe bullying\n\nSIMILAR WORDS:\n- {凄|すさ}まじい: tremendous; terrifying — emphasizes being overwhelming or dreadful\n- ⟦{猛烈|もうれつ}→猛烈：13490_mouretsu⟧な: fierce; violent — emphasizes raw power and intensity\n- ⟦{熾烈|しれつ}→熾烈：16024_shiretsu⟧な: fierce; intense — specifically for competition or rivalry",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "26858_mouretsuna",
+      "reading": "もうれつな",
+      "headword": "{猛烈|もうれつ}な",
+      "label": "fierce"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16024_shiretsu",
+      "reading": "しれつ",
+      "headword": "{熾烈|しれつ}",
+      "label": "fierce"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -70,6 +85,6 @@
       ]
     },
     "created": "2026-05-05T14:20:09Z",
-    "modified": "2026-08-06T12:44:19Z"
+    "modified": "2026-09-02T04:02:28Z"
   }
 }

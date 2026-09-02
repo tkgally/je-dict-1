@@ -3,7 +3,7 @@
   "headword": "{団結|だんけつ}する",
   "reading": "だんけつする",
   "romaji": "danketsusuru",
-  "part_of_speech": "verb (suru)",
+  "part_of_speech": "suru verb",
   "gloss": "to unite; to band together",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "19218_danketsusuru_ex1",
-      "japanese": "みんなで{団結|だんけつ}しよう。",
+      "japanese": "⟦みんな→みんな：02972_minna⟧⟦で→で：00502_de⟧{団結|だんけつ}しよう。",
       "english": "Let's all unite together.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "19218_danketsusuru_ex2",
-      "japanese": "チームが{団結|だんけつ}して{試合|しあい}に{勝|か}った。",
+      "japanese": "⟦チーム→チーム：03858_chiimu⟧⟦が→が：00051_ga⟧{団結|だんけつ}して⟦{試合|しあい}→試合：01601_shiai⟧⟦に→に：00314_ni⟧⟦{勝|か}った→勝つ：01199_katsu⟧。",
       "english": "The team united and won the game.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "19218_danketsusuru_ex3",
-      "japanese": "{住民|じゅうみん}たちは{開発|かいはつ}に{反対|はんたい}して{団結|だんけつ}し、{署名|しょめい}を{集|あつ}めた。",
+      "japanese": "⟦{住民|じゅうみん}→住民：03281_juumin⟧たち⟦は→は：00079_ha⟧⟦{開発|かいはつ}→開発：06746_kaihatsu⟧⟦に→に：00314_ni⟧⟦{反対|はんたい}して→反対する：05648_hantaisuru⟧{団結|だんけつ}し、⟦{署名|しょめい}→署名：03682_shomei⟧⟦を→を：00422_wo⟧⟦{集|あつ}めた→集める：01170_atsumeru⟧。",
       "english": "The residents banded together against the development and collected signatures.",
       "sense_numbers": [
         1
@@ -134,8 +134,38 @@
       "notes": null
     }
   ],
-  "notes": "{団結|だんけつ}する means to unite with a shared purpose. Often used for collective action — labor movements, sports teams, community organizing.\n\nTRANSITIVITY:\n- Type: {自動詞|じどうし} (intransitive)\n- Pattern: (みんなで){団結|だんけつ}する\n\nCOMMON COLLOCATIONS:\n- {団結|だんけつ}{力|りょく}: unity, solidarity, power of unity\n- {団結|だんけつ}を{固|かた}める: to strengthen unity\n- {固|かた}く{団結|だんけつ}する: to firmly/solidly unite\n- {団結|だんけつ}して{立|た}ち{向|む}かう: to unite and stand up against\n\nRELATED WORDS:\n- {結束|けっそく}: unity, solidarity (similar but slightly more formal)\n- {連帯|れんたい}: solidarity (emphasizes connection/support)\n- {協力|きょうりょく}: cooperation (broader, less about unity)",
+  "notes": "{団結|だんけつ}する means to unite with a shared purpose. Often used for collective action — labor movements, sports teams, community organizing.\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n- Pattern: (⟦みんな→みんな：02972_minna⟧⟦で→で：00502_de⟧){団結|だんけつ}する\n\nCOMMON COLLOCATIONS:\n- ⟦{団結|だんけつ}→団結：15725_danketsu⟧{力|りょく}: unity, solidarity, power of unity\n- ⟦{団結|だんけつ}→団結：15725_danketsu⟧⟦を→を：00422_wo⟧⟦{固|かた}める→固める：01929_katameru⟧: to strengthen unity\n- ⟦{固|かた}く→固い：12090_katai⟧{団結|だんけつ}する: to firmly/solidly unite\n- {団結|だんけつ}して⟦{立|た}ち{向|む}かう→立ち向かう：06981_tachimukau⟧: to unite and stand up against\n\nRELATED WORDS:\n- ⟦{結束|けっそく}→結束：13799_kessoku⟧: unity, solidarity (similar but slightly more formal)\n- ⟦{連帯|れんたい}→連帯：14425_rentai⟧: solidarity (emphasizes connection/support)\n- ⟦{協力|きょうりょく}→協力：00261_kyouryoku⟧: cooperation (broader, less about unity)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "13799_kessoku",
+      "reading": "けっそく",
+      "headword": "{結束|けっそく}",
+      "label": "unity, solidarity"
+    },
+    {
+      "type": "related",
+      "target_id": "14425_rentai",
+      "reading": "れんたい",
+      "headword": "{連帯|れんたい}",
+      "label": "solidarity"
+    },
+    {
+      "type": "related",
+      "target_id": "00261_kyouryoku",
+      "reading": "きょうりょく",
+      "headword": "{協力|きょうりょく}",
+      "label": "cooperation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21196_ichigantonatte",
+      "reading": "いちがんとなって",
+      "headword": "{一丸|いちがん}となって",
+      "label": "as one"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -152,6 +182,6 @@
       ]
     },
     "created": "2026-03-25T01:33:56Z",
-    "modified": "2026-07-26T21:31:07Z"
+    "modified": "2026-09-02T04:01:55Z"
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30578_nushi_ex1",
-      "japanese": "この{財布|さいふ}の{主|ぬし}を{探|さが}している。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{財布|さいふ}→財布：00663_saifu⟧⟦の→の：09472_no⟧{主|ぬし}⟦を→を：00422_wo⟧⟦{探|さが}している→探す：00493_sagasu⟧。",
       "english": "I'm looking for the owner of this wallet.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30578_nushi_ex2",
-      "japanese": "{住民票|じゅうみんひょう}には{世帯主|せたいぬし}の{名前|なまえ}を{書|か}く。",
+      "japanese": "⟦{住民票|じゅうみんひょう}→住民票：09628_juuminhyou⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{世帯主|せたいぬし}→世帯主：15836_setainushi⟧⟦の→の：09472_no⟧⟦{名前|なまえ}→名前：02234_namae⟧⟦を→を：00422_wo⟧⟦{書|か}く→書く：00477_kaku⟧。",
       "english": "You write the head of household's name on the residence certificate.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30578_nushi_ex3",
-      "japanese": "{犬|いぬ}の{飼|か}い{主|ぬし}には{散歩中|さんぽちゅう}のマナーが{求|もと}められる。",
+      "japanese": "⟦{犬|いぬ}→犬：00632_inu⟧⟦の→の：09472_no⟧⟦{飼|か}い{主|ぬし}→飼い主：15281_kainushi⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{散歩中|さんぽちゅう}⟦の→の：09472_no⟧⟦マナー→マナー：11139_manaa⟧⟦が→が：00051_ga⟧⟦{求|もと}められる→求める：02316_motomeru⟧。",
       "english": "Dog owners are expected to have good manners while walking their dogs.",
       "sense_numbers": [
         1
@@ -45,7 +45,7 @@
     },
     {
       "id": "30578_nushi_ex4",
-      "japanese": "この{土地|とち}の{持|も}ち{主|ぬし}が{分|わ}からず、{工事|こうじ}が{進|すす}められないままだ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{土地|とち}→土地：02226_tochi⟧⟦の→の：09472_no⟧⟦{持|も}ち{主|ぬし}→持ち主：10439_mochinushi⟧⟦が→が：00051_ga⟧⟦{分|わ}から→分かる：00463_wakaru⟧ず、⟦{工事|こうじ}→工事：00244_kouji⟧⟦が→が：00051_ga⟧⟦{進|すす}められない→進める：01949_susumeru⟧ままだ。",
       "english": "The owner of this land is unknown, so the construction work still can't move forward.",
       "sense_numbers": [
         1
@@ -54,7 +54,7 @@
       "notes": null
     }
   ],
-  "notes": "The same kanji read あるじ means the master of a house or shop; ぬし is the reading used in compounds about ownership.\n\nCOMMON COMPOUNDS:\n- {世帯主|せたいぬし}: head of household (the official term on forms)\n- {持|も}ち{主|ぬし}: owner (of an object, land, or vehicle)\n- {飼|か}い{主|ぬし}: owner of a pet\n- {地主|じぬし}: landowner, landlord\n- {落|お}とし{主|ぬし}: the person who dropped something\n\nUSAGE:\nStandalone {主|ぬし} sounds literary or archaic today; in modern speech people say {持|も}ち{主|ぬし} or オーナー instead. In folklore, the {主|ぬし} of a lake or forest is its guardian spirit — a large old animal said to rule the place.",
+  "notes": "The same kanji read あるじ means the master of a house or shop; ぬし is the reading used in compounds about ownership.\n\nCOMPOUNDS:\n- ⟦{世帯主|せたいぬし}→世帯主：15836_setainushi⟧: head of household (the official term on forms)\n- ⟦{持|も}ち{主|ぬし}→持ち主：10439_mochinushi⟧: owner (of an object, land, or vehicle)\n- ⟦{飼|か}い{主|ぬし}→飼い主：15281_kainushi⟧: owner of a pet\n- ⟦{地主|じぬし}→地主：12048_jinushi⟧: landowner, landlord\n- {落|お}とし{主|ぬし}: the person who dropped something\n\nUSAGE:\nStandalone {主|ぬし} sounds literary or archaic today; in modern speech people say ⟦{持|も}ち{主|ぬし}→持ち主：10439_mochinushi⟧ or ⟦オーナー→オーナー：10830_oonaa⟧ instead. In folklore, the {主|ぬし} of a lake or forest is its guardian spirit — a large old animal said to rule the place.",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -63,13 +63,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "person"
       ],
       "domain": []
     },
     "created": "2026-08-12T03:18:15Z",
-    "modified": "2026-08-12T03:18:15Z"
+    "modified": "2026-09-02T04:02:40Z"
   }
 }

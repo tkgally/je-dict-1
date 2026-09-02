@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "10436_washoku_ex1",
-      "japanese": "{和食|わしょく}が{好|す}きだ。",
+      "japanese": "{和食|わしょく}⟦が→が：00051_ga⟧⟦{好|す}き→好き：02355_suki⟧だ。",
       "english": "I like Japanese food.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "10436_washoku_ex2",
-      "japanese": "{和食|わしょく}は{体|からだ}にいい。",
+      "japanese": "{和食|わしょく}⟦は→は：00079_ha⟧⟦{体|からだ}→体：00784_karada⟧⟦に→に：00314_ni⟧⟦いい→いい：00118_ii⟧。",
       "english": "Japanese food is good for the body.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "10436_washoku_ex3",
-      "japanese": "{和食|わしょく}はユネスコの{無形文化遺産|むけいぶんかいさん}に{登録|とうろく}されている。",
+      "japanese": "{和食|わしょく}⟦は→は：00079_ha⟧ユネスコ⟦の→の：09472_no⟧{無形文化遺産|むけいぶんかいさん}⟦に→に：00314_ni⟧⟦{登録|とうろく}→登録：05703_touroku⟧⟦されている→する：00392_suru⟧。",
       "english": "Japanese cuisine is registered as a UNESCO Intangible Cultural Heritage.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "{和食|わしょく} is composed of {和|わ} (Japanese) + {食|しょく} (food). It refers to traditional Japanese cuisine as a whole, emphasizing seasonal ingredients, beautiful presentation, and nutritional balance.\n\nCOMMON EXPRESSIONS:\n- {和食|わしょく}レストラン: Japanese restaurant\n- {和食|わしょく}の{店|みせ}: Japanese food restaurant\n- {和食|わしょく}を{作|つく}る: to make Japanese food\n- {和食|わしょく}{中心|ちゅうしん}: centered on Japanese food\n\nCONTRAST WITH OTHER CUISINE TYPES:\n- {和食|わしょく}: Japanese food\n- {洋食|ようしょく}: Western-style food (Japanese-adapted Western dishes)\n- {中華|ちゅうか}: Chinese food\n- {韓国料理|かんこくりょうり}: Korean food\n\nSIMILAR TERMS:\n- {和食|わしょく}: Japanese cuisine (everyday term, contrasts with foreign food)\n- {日本料理|にほんりょうり}: Japanese cooking (slightly more formal/refined)\n\n{和食|わしょく} was registered as a UNESCO Intangible Cultural Heritage in 2013.",
+  "notes": "{和食|わしょく} is composed of {和|わ} (Japanese) + {食|しょく} (food). It refers to traditional Japanese cuisine as a whole, emphasizing seasonal ingredients, beautiful presentation, and nutritional balance.\n\nCOMMON EXPRESSIONS:\n- {和食|わしょく}⟦レストラン→レストラン：01048_resutoran⟧: Japanese restaurant\n- {和食|わしょく}⟦の→の：09472_no⟧⟦{店|みせ}→店：00497_mise⟧: Japanese food restaurant\n- {和食|わしょく}⟦を→を：00422_wo⟧⟦{作|つく}る→作る：00481_tsukuru⟧: to make Japanese food\n- {和食|わしょく}⟦{中心|ちゅうしん}→中心：01467_chuushin⟧: centered on Japanese food\n\nCONTRAST WITH OTHER CUISINE TYPES:\n- {和食|わしょく}: Japanese food\n- ⟦{洋食|ようしょく}→洋食：13274_youshoku⟧: Western-style food (Japanese-adapted Western dishes)\n- ⟦{中華|ちゅうか}→中華：11322_chuuka⟧: Chinese food\n- ⟦{韓国料理|かんこくりょうり}→韓国料理：25590_kankokuryouri⟧: Korean food\n\nSIMILAR WORDS:\n- {和食|わしょく}: Japanese cuisine (everyday term, contrasts with foreign food)\n- ⟦{日本料理|にほんりょうり}→日本料理：19425_nihonryouri⟧: Japanese cooking (slightly more formal/refined)\n\n{和食|わしょく} was registered as a UNESCO Intangible Cultural Heritage in 2013.",
   "cross_references": [
     {
       "type": "antonym",
@@ -59,11 +59,46 @@
       "reading": "にほんしょく",
       "headword": "{日本食|にほんしょく}",
       "label": "Japanese food"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11322_chuuka",
+      "reading": "ちゅうか",
+      "headword": "{中華|ちゅうか}",
+      "label": "Chinese food"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25590_kankokuryouri",
+      "reading": "かんこくりょうり",
+      "headword": "{韓国料理|かんこくりょうり}",
+      "label": "Korean food"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19425_nihonryouri",
+      "reading": "にほんりょうり",
+      "headword": "{日本料理|にほんりょうり}",
+      "label": "Japanese cooking"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24510_furansuryouri",
+      "reading": "ふらんすりょうり",
+      "headword": "フランス{料理|りょうり}",
+      "label": "French cuisine"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26954_kappouryouri",
+      "reading": "かっぽうりょうり",
+      "headword": "{割烹料理|かっぽうりょうり}",
+      "label": "Japanese haute cuisine"
     }
   ],
   "metadata": {
     "created": "2026-02-07T11:20:16Z",
-    "modified": "2026-04-27T10:17:30Z",
+    "modified": "2026-09-02T04:01:21Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

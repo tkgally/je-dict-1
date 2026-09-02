@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "21766_denpan_ex1",
-      "japanese": "{音|おと}は{空気|くうき}を{伝搬|でんぱん}する。",
+      "japanese": "⟦{音|おと}→音：00743_oto⟧⟦は→は：00079_ha⟧⟦{空気|くうき}→空気：01390_kuuki⟧⟦を→を：00422_wo⟧{伝搬|でんぱん}⟦する→する：00392_suru⟧。",
       "english": "Sound propagates through air.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "21766_denpan_ex2",
-      "japanese": "{電波|でんぱ}の{伝搬|でんぱん}{速度|そくど}は{光速|こうそく}と{同|おな}じだ。",
+      "japanese": "⟦{電波|でんぱ}→電波：04070_denpa⟧⟦の→の：09472_no⟧{伝搬|でんぱん}⟦{速度|そくど}→速度：03319_sokudo⟧⟦は→は：00079_ha⟧{光速|こうそく}⟦と→と：00512_to⟧⟦{同|おな}じ→同じ：02857_onaji⟧だ。",
       "english": "The propagation speed of radio waves is the same as the speed of light.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "21766_denpan_ex3",
-      "japanese": "ウイルスの{伝搬|でんぱん}を{防|ふせ}ぐために{衛生|えいせい}{管理|かんり}が{重要|じゅうよう}だ。",
+      "japanese": "⟦ウイルス→ウイルス：05223_uirusu⟧⟦の→の：09472_no⟧{伝搬|でんぱん}⟦を→を：00422_wo⟧⟦{防|ふせ}ぐ→防ぐ：02409_fusegu⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧⟦{衛生|えいせい}{管理|かんり}→衛生管理：17986_eiseikanri⟧⟦が→が：00051_ga⟧⟦{重要|じゅうよう}→重要：01575_juuyou⟧だ。",
       "english": "Hygiene management is important to prevent the transmission of viruses.",
       "sense_numbers": [
         1
@@ -43,8 +43,31 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {伝|でん} (transmit) + {搬|ぱん} (carry). Used primarily in scientific, technical, and medical contexts for the physical process of transmission through a medium.\n\nCOMMON COLLOCATIONS:\n- {電波|でんぱ}{伝搬|でんぱん}: radio wave propagation\n- {熱|ねつ}{伝搬|でんぱん}: heat propagation\n- {伝搬|でんぱん}{経路|けいろ}: propagation path\n- {伝搬|でんぱん}{速度|そくど}: propagation speed\n\nSIMILAR WORDS:\n- {伝播|でんぱ}: propagation, spread — often used for cultural or social spread (ideas, customs, diseases); sometimes interchangeable\n- {伝達|でんたつ}: transmission, communication — used for conveying information or orders\n- {拡散|かくさん}: diffusion, spread — emphasizes spreading outward in all directions",
+  "notes": "Composed of {伝|でん} (transmit) + {搬|ぱん} (carry). Used primarily in scientific, technical, and medical contexts for the physical process of transmission through a medium.\n\nCOMMON COLLOCATIONS:\n- ⟦{電波|でんぱ}→電波：04070_denpa⟧{伝搬|でんぱん}: radio wave propagation\n- ⟦{熱|ねつ}→熱：01690_netsu⟧{伝搬|でんぱん}: heat propagation\n- {伝搬|でんぱん}⟦{経路|けいろ}→経路：13796_keiro⟧: propagation path\n- {伝搬|でんぱん}⟦{速度|そくど}→速度：03319_sokudo⟧: propagation speed\n\nSIMILAR WORDS:\n- ⟦{伝播|でんぱ}→伝播：18802_denpa⟧: propagation, spread — often used for cultural or social spread (ideas, customs, diseases); sometimes interchangeable\n- ⟦{伝達|でんたつ}→伝達：11570_dentatsu⟧: transmission, communication — used for conveying information or orders\n- ⟦{拡散|かくさん}→拡散：08178_kakusan⟧: diffusion, spread — emphasizes spreading outward in all directions",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18802_denpa",
+      "reading": "でんぱ",
+      "headword": "{伝播|でんぱ}",
+      "label": "propagation, spread"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11570_dentatsu",
+      "reading": "でんたつ",
+      "headword": "{伝達|でんたつ}",
+      "label": "transmission, communication"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08178_kakusan",
+      "reading": "かくさん",
+      "headword": "{拡散|かくさん}",
+      "label": "diffusion, spread"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,7 +84,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-03T16:10:51Z",
-    "modified": "2026-04-03T16:10:51Z"
+    "modified": "2026-09-02T04:02:05Z"
   },
   "conjugation": {
     "type": "suru",

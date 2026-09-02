@@ -24,9 +24,8 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 | Core tier | ~1,982 (closed) |
 | General tier | ~27,781 (open) |
 | Candidate words | ~195 (all vetted; queue cleaned 2026-08-11) |
-| Cross-references | ~3,400 |
-| Example sentences | ~53,200 |
-| Audio files | 1,028 |
+| Cross-references | ~19,000 |
+| Example sentences | ~119,000 |
 
 ## v2 Quality Standards
 
@@ -50,6 +49,37 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-09-02 (Process overhaul: Routine v3, mechanical sweeps, site rebuilt — see enhancement/assessment-2026-09-02.md)
+
+An interactive session (Claude, the curator's assessment request) rebuilt the maintenance process
+around one principle: scripts do the mechanical work, the Routine does judgment.
+
+**Dictionary-wide mechanical sweeps, all validated (30,584/30,584):** every entry now carries
+inline word links placed by the new deterministic linker (`build/auto_link.py`: 1,007,002 links, up
+from 278,772; only tokens that resolve to exactly one entry, 60/60 correct in the sampled check);
+58,103 cross-references harvested from SIMILAR/RELATED/KEIGO bullets in the notes
+(`build/harvest_crossrefs.py`; 87 percent of entries now have cross-references, up from 38); 17,400
+legacy notes headers renamed to the canonical vocabulary in `build/data/note_headers.json` and
+17,571 nakaguro bullets converted; 6,267 part-of-speech display strings canonicalized; politeness
+set on 5,952 entries and formality on 1,059 where the notes gave no reason to hold out; 1,077
+entries with malformed furigana wrappers repaired; transitivity tagged on 1,683 verbs where two
+external models agreed and the entry's own examples show the valency (2,369 more wait in
+`reviews/transitivity/disagreements.jsonl`); 147 stale `noentry` markers resolved.
+
+**Routine v3** (`prompts/routine2.md`): polish mode does judgment only (25–40 entries), the
+external reviewer now checks the notes field and filters its own noise (prompt version 4), the
+furigana screener is retired, weights are polish 0.30 / accuracy 0.30 / systemic-fix 0.25 /
+new-entries 0.10 / candidates 0.05, the wiki runs only when observations pile up, new entries come
+only from words the dictionary already uses, and runs no longer commit `docs/`.
+
+**Site** rebuilt by GitHub Actions on merge (`.github/workflows/pages.yml`): English and
+conjugated-form search, index split (entry pages no longer download 18.7 MB), word links visible by
+default, notes headings, tag badges and tag pages, kanji readings, study lists, curator tools
+unlinked. **Note for the curator:** Settings → Pages → Source must be "GitHub Actions" (the
+workflow tries to switch it automatically).
+
+**Curator items** (`reviews/needs_curator.txt`): five duplicate entry pairs in the closed tiers.
 
 ### 2026-09-02 (Routine v2: candidates — 55 Vetted Words Added, Queue 140 → 195)
 

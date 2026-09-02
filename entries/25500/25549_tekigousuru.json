@@ -3,7 +3,7 @@
   "headword": "{適合|てきごう}する",
   "reading": "てきごうする",
   "romaji": "tekigousuru",
-  "part_of_speech": "verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "to conform to; to be compatible with; to fit",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25549_tekigousuru_ex1",
-      "japanese": "{基準|きじゅん}に{適合|てきごう}する。",
+      "japanese": "⟦{基準|きじゅん}→基準：00228_kijun⟧⟦に→に：00314_ni⟧{適合|てきごう}する。",
       "english": "It conforms to the standard.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25549_tekigousuru_ex2",
-      "japanese": "この{製品|せいひん}は{安全|あんぜん}{基準|きじゅん}に{適合|てきごう}している。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{製品|せいひん}→製品：01445_seihin⟧⟦は→は：00079_ha⟧⟦{安全|あんぜん}→安全：01131_anzen⟧⟦{基準|きじゅん}→基準：00228_kijun⟧⟦に→に：00314_ni⟧{適合|てきごう}して⟦いる→いる：00495_iru⟧。",
       "english": "This product complies with safety standards.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25549_tekigousuru_ex3",
-      "japanese": "{環境|かんきょう}に{適合|てきごう}した{生物|せいぶつ}だけが{生|い}き{残|のこ}る。",
+      "japanese": "⟦{環境|かんきょう}→環境：00174_kankyou⟧⟦に→に：00314_ni⟧{適合|てきごう}した⟦{生物|せいぶつ}→生物：03295_seibutsu⟧⟦だけ→〜だけ：03093_dake⟧⟦が→が：00051_ga⟧⟦{生|い}き{残|のこ}る→生き残る：13521_ikinokoru⟧。",
       "english": "Only organisms that are adapted to the environment survive.",
       "sense_numbers": [
         1
@@ -44,8 +44,37 @@
       "notes": null
     }
   ],
-  "notes": "{適合|てきごう}する means to match, fit, or comply with a standard or condition. It is formal and commonly used in technical, regulatory, and scientific contexts. In biology, it describes adaptation to an environment.\n\nUSAGE:\n- ～に{適合|てきごう}する: to conform to ~; to be compatible with ~\n\nCOMMON COLLOCATIONS:\n- {基準|きじゅん}に{適合|てきごう}する: to meet the standard\n- {規格|きかく}に{適合|てきごう}する: to conform to specifications\n- {条件|じょうけん}に{適合|てきごう}する: to meet the conditions\n- {適合|てきごう}{性|せい}: compatibility; conformity\n- {不|ふ}{適合|てきごう}: non-conformance; incompatibility\n\nSIMILAR WORDS:\n- {合|あ}う: to fit; to match — everyday word for fitting or suiting\n- {適応|てきおう}する: to adapt — focuses on the process of adjusting to new conditions over time\n- {準拠|じゅんきょ}する: to be based on; to conform to — more specific to following rules or standards as a basis",
-  "cross_references": [],
+  "notes": "{適合|てきごう}する means to match, fit, or comply with a standard or condition. It is formal and commonly used in technical, regulatory, and scientific contexts. In biology, it describes adaptation to an environment.\n\nUSAGE:\n- ～⟦に→に：00314_ni⟧{適合|てきごう}する: to conform to ~; to be compatible with ~\n\nCOMMON COLLOCATIONS:\n- ⟦{基準|きじゅん}→基準：00228_kijun⟧⟦に→に：00314_ni⟧{適合|てきごう}する: to meet the standard\n- ⟦{規格|きかく}→規格：16939_kikaku⟧⟦に→に：00314_ni⟧{適合|てきごう}する: to conform to specifications\n- ⟦{条件|じょうけん}→条件：03285_jouken⟧⟦に→に：00314_ni⟧{適合|てきごう}する: to meet the conditions\n- ⟦{適合|てきごう}→適合：20897_tekigou⟧⟦{性|せい}→性：09880_sei⟧: compatibility; conformity\n- {不|ふ}⟦{適合|てきごう}→適合：20897_tekigou⟧: non-conformance; incompatibility\n\nSIMILAR WORDS:\n- ⟦{合|あ}う→合う：10466_au⟧: to fit; to match — everyday word for fitting or suiting\n- ⟦{適応|てきおう}する→適応する：26969_tekiousuru⟧: to adapt — focuses on the process of adjusting to new conditions over time\n- ⟦{準拠|じゅんきょ}する→準拠する：19684_junkyosuru⟧: to be based on; to conform to — more specific to following rules or standards as a basis",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "10466_au",
+      "reading": "あう",
+      "headword": "{合|あ}う",
+      "label": "to fit"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26969_tekiousuru",
+      "reading": "てきおうする",
+      "headword": "{適応|てきおう}する",
+      "label": "to adapt"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19684_junkyosuru",
+      "reading": "じゅんきょする",
+      "headword": "{準拠|じゅんきょ}する",
+      "label": "to be based on"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20213_gacchisuru",
+      "reading": "がっちする",
+      "headword": "{合致|がっち}する",
+      "label": "to match"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -54,6 +83,7 @@
         "noun",
         "verb-suru"
       ],
+      "politeness": "plain",
       "semantic": [
         "evaluation",
         "science"
@@ -62,7 +92,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-25T16:21:01Z",
-    "modified": "2026-04-25T16:21:01Z"
+    "modified": "2026-09-02T04:02:22Z"
   },
   "conjugation": {
     "type": "suru",

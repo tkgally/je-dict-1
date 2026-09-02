@@ -15,41 +15,73 @@
   "examples": [
     {
       "id": "14786_miburi_ex1",
-      "japanese": "{身振|みぶ}りで{伝|つた}えた。",
+      "japanese": "{身振|みぶ}り⟦で→で：00502_de⟧⟦{伝|つた}えた→伝える：01220_tsutaeru⟧。",
       "english": "I communicated through gestures.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14786_miburi_ex2",
-      "japanese": "{身振|みぶ}り{手振|てぶ}りを{交|まじ}えて{説明|せつめい}した。",
+      "japanese": "{身振|みぶ}り⟦{手振|てぶ}り→手振り：26261_teburi⟧⟦を→を：00422_wo⟧{交|まじ}えて⟦{説明|せつめい}した→説明する：05639_setsumeisuru⟧。",
       "english": "I explained using gestures and hand movements.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14786_miburi_ex3",
-      "japanese": "{言葉|ことば}が{通|つう}じなかったので、{身振|みぶ}り{手振|てぶ}りで{道|みち}を{教|おし}えてもらった。",
+      "japanese": "⟦{言葉|ことば}→言葉：02880_kotoba⟧⟦が→が：00051_ga⟧⟦{通|つう}じなかった→通じる：02289_tsuujiru⟧⟦の→の：09472_no⟧で、{身振|みぶ}り⟦{手振|てぶ}り→手振り：26261_teburi⟧⟦で→で：00502_de⟧⟦{道|みち}→道：00505_michi⟧⟦を→を：00422_wo⟧⟦{教|おし}えて→教える：00526_oshieru⟧⟦もらった→もらう：00520_morau⟧。",
       "english": "Since we didn't share a language, they gave me directions using gestures.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "Very commonly used in the compound phrase {身振|みぶ}り{手振|てぶ}り, which emphasizes the use of the whole body and hands together to communicate.\n\nCOMMON COLLOCATIONS:\n- {身振|みぶ}り{手振|てぶ}り (gestures and hand movements)\n- {身振|みぶ}りで{伝|つた}える (to communicate through gestures)\n- {身振|みぶ}りを{交|まじ}える (to use gestures along with speech)\n- {大|おお}きな{身振|みぶ}り (exaggerated gestures)\n\nUSAGE NOTE:\nWhile {身振|みぶ}り can be used alone, the paired form {身振|みぶ}り{手振|てぶ}り is far more common in everyday speech. The compound ジェスチャー is also used, especially in casual contexts.",
-  "cross_references": [],
+  "notes": "Very commonly used in the compound phrase {身振|みぶ}り⟦{手振|てぶ}り→手振り：26261_teburi⟧, which emphasizes the use of the whole body and hands together to communicate.\n\nCOMMON COLLOCATIONS:\n- {身振|みぶ}り⟦{手振|てぶ}り→手振り：26261_teburi⟧ (gestures and hand movements)\n- {身振|みぶ}り⟦で→で：00502_de⟧⟦{伝|つた}える→伝える：01220_tsutaeru⟧ (to communicate through gestures)\n- {身振|みぶ}り⟦を→を：00422_wo⟧{交|まじ}える (to use gestures along with speech)\n- ⟦{大|おお}きな→大きな：02849_ookina⟧{身振|みぶ}り (exaggerated gestures)\n\nUSAGE:\nWhile {身振|みぶ}り can be used alone, the paired form {身振|みぶ}り⟦{手振|てぶ}り→手振り：26261_teburi⟧ is far more common in everyday speech. The compound ⟦ジェスチャー→ジェスチャー：25679_jesuchaa⟧ is also used, especially in casual contexts.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24954_teshingou",
+      "reading": "てしんごう",
+      "headword": "{手信号|てしんごう}",
+      "label": "hand signal"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25679_jesuchaa",
+      "reading": "じぇすちゃー",
+      "headword": "ジェスチャー",
+      "label": "gesture"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26261_teburi",
+      "reading": "てぶり",
+      "headword": "{手振|てぶ}り",
+      "label": "hand gesture"
+    }
+  ],
   "metadata": {
     "created": "2026-03-03T12:47:23Z",
-    "modified": "2026-03-03T12:47:23Z",
+    "modified": "2026-09-02T04:01:38Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["communication"]
+      "semantic": [
+        "communication"
+      ]
     }
   }
 }

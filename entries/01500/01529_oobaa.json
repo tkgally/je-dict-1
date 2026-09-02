@@ -29,7 +29,7 @@
     },
     {
       "id": "01529_oobaa_ex2",
-      "japanese": "⟦{寒|さむ}い→寒い：00664_samui⟧のでオーバー⟦を→を：00422_wo⟧⟦{着|き}る→着る：00541_kiru⟧。",
+      "japanese": "⟦{寒|さむ}い→寒い：00664_samui⟧⟦の→の：09472_no⟧でオーバー⟦を→を：00422_wo⟧⟦{着|き}る→着る：00541_kiru⟧。",
       "english": "I'll put on an overcoat because it's cold.",
       "notes": null,
       "has_audio": false,
@@ -69,7 +69,7 @@
     },
     {
       "id": "01529_oobaa_ex6",
-      "japanese": "⟦{体重|たいじゅう}→体重：03395_taijuu⟧⟦が→が：00051_ga⟧5キロオーバーなので、⟦ダイエット→ダイエット：17678_daietto⟧⟦を→を：00422_wo⟧⟦{始|はじ}める→始める：00531_hajimeru⟧⟦こと→こと：01164_koto⟧⟦に→に：00314_ni⟧⟦した→する：00392_suru⟧。",
+      "japanese": "⟦{体重|たいじゅう}→体重：03395_taijuu⟧⟦が→が：00051_ga⟧5キロオーバーな⟦の→の：09472_no⟧で、⟦ダイエット→ダイエット：17678_daietto⟧⟦を→を：00422_wo⟧⟦{始|はじ}める→始める：00531_hajimeru⟧⟦こと→こと：01164_koto⟧⟦に→に：00314_ni⟧⟦した→する：00392_suru⟧。",
       "english": "I'm 5 kilos over my target weight, so I decided to start a diet.",
       "notes": null,
       "has_audio": false,
@@ -78,7 +78,7 @@
       ]
     }
   ],
-  "notes": "オーバー has two distinct meanings derived from English.\n\nMEANINGS:\n1. Overcoat: A long warm coat worn in winter. From English \"overcoat.\"\n2. Over/exceeding: Going beyond a limit or quantity.\n\nCOMMON EXPRESSIONS:\n- オーバー⟦を→を：00422_wo⟧⟦{着|き}る→着る：00541_kiru⟧: to put on an overcoat\n- ⟦{予算|よさん}→予算：03663_yosan⟧オーバー: over budget\n- ⟦{時間|じかん}→時間：00468_jikan⟧オーバー: overtime, past the time limit\n- ⟦{体重|たいじゅう}→体重：03395_taijuu⟧オーバー: overweight\n\nUSAGE:\nThe overcoat meaning is somewhat dated; modern speakers often prefer ⟦コート→コート：01358_kooto⟧. The \"exceeding\" sense remains common in compounds describing limits being surpassed.",
+  "notes": "オーバー has two distinct meanings derived from English.\n\nUSAGE:\n1. Overcoat: A long warm coat worn in winter. From English \"overcoat.\"\n2. Over/exceeding: Going beyond a limit or quantity.\nThe overcoat meaning is somewhat dated; modern speakers often prefer ⟦コート→コート：01358_kooto⟧. The \"exceeding\" sense remains common in compounds describing limits being surpassed.\n\nCOMMON EXPRESSIONS:\n- オーバー⟦を→を：00422_wo⟧⟦{着|き}る→着る：00541_kiru⟧: to put on an overcoat\n- ⟦{予算|よさん}→予算：03663_yosan⟧オーバー: over budget\n- ⟦{時間|じかん}→時間：00468_jikan⟧オーバー: overtime, past the time limit\n- ⟦{体重|たいじゅう}→体重：03395_taijuu⟧オーバー: overweight",
   "cross_references": [
     {
       "type": "synonym",
@@ -86,11 +86,32 @@
       "reading": "こーと",
       "headword": "コート",
       "label": "coat (modern term)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04523_chouka",
+      "reading": "ちょうか",
+      "headword": "{超過|ちょうか}",
+      "label": "excess, exceeding"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08680_kochou",
+      "reading": "こちょう",
+      "headword": "{誇張|こちょう}",
+      "label": "exaggeration"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23060_gaitou",
+      "reading": "がいとう",
+      "headword": "{外套|がいとう}",
+      "label": "overcoat"
     }
   ],
   "metadata": {
     "created": "2026-01-08T12:40:16Z",
-    "modified": "2026-05-15T20:14:59Z",
+    "modified": "2026-09-02T04:00:59Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

@@ -3,7 +3,7 @@
   "headword": "{社会参加|しゃかいさんか}",
   "reading": "しゃかいさんか",
   "romaji": "shakaisanka",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "social participation; participation in society",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25435_shakaisanka_ex1",
-      "japanese": "{社会参加|しゃかいさんか}を{促進|そくしん}する。",
+      "japanese": "{社会参加|しゃかいさんか}⟦を→を：00422_wo⟧⟦{促進|そくしん}する→促進する：19632_sokushinsuru⟧。",
       "english": "We promote social participation.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25435_shakaisanka_ex2",
-      "japanese": "{高齢者|こうれいしゃ}の{社会参加|しゃかいさんか}が{重要|じゅうよう}な{課題|かだい}になっている。",
+      "japanese": "⟦{高齢者|こうれいしゃ}→高齢者：15649_koureisha⟧⟦の→の：09472_no⟧{社会参加|しゃかいさんか}⟦が→が：00051_ga⟧⟦{重要|じゅうよう}→重要：01575_juuyou⟧な⟦{課題|かだい}→課題：00132_kadai⟧になっている。",
       "english": "Social participation of elderly people has become an important issue.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25435_shakaisanka_ex3",
-      "japanese": "{障害|しょうがい}のある{人|ひと}が{社会参加|しゃかいさんか}しやすい{環境|かんきょう}を{整|ととの}えることが{大切|たいせつ}だ。",
+      "japanese": "⟦{障害|しょうがい}→障害：03228_shougai⟧⟦の→の：09472_no⟧⟦ある→ある：00006_aru⟧⟦{人|ひと}→人：00476_hito⟧⟦が→が：00051_ga⟧{社会参加|しゃかいさんか}しやすい⟦{環境|かんきょう}→環境：00174_kankyou⟧⟦を→を：00422_wo⟧⟦{整|ととの}える→整える：04259_totonoeru⟧こと⟦が→が：00051_ga⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧だ。",
       "english": "It is important to create an environment where people with disabilities can participate in society more easily.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "{社会参加|しゃかいさんか} is a compound of {社会|しゃかい} (society) + {参加|さんか} (participation). It describes the broader concept of being an active member of society rather than being isolated or excluded.\n\nUSAGE:\nCan be used as a noun or as a suru verb: {社会参加|しゃかいさんか}する (to participate in society).\n\nCOMMON COLLOCATIONS:\n- {社会参加|しゃかいさんか}を{促|うなが}す: encourage social participation\n- {社会参加|しゃかいさんか}の{機会|きかい}: opportunity for social participation\n- {社会参加|しゃかいさんか}を{支援|しえん}する: support social participation\n- {積極的|せっきょくてき}な{社会参加|しゃかいさんか}: active social engagement\n\nSIMILAR WORDS:\n- {社会貢献|しゃかいこうけん}: social contribution — emphasizes giving back to society\n- {参加|さんか}: participation — general term, not specifically about society\n- {社会復帰|しゃかいふっき}: social reintegration — returning to society after illness, incarceration, etc.",
+  "notes": "{社会参加|しゃかいさんか} is a compound of ⟦{社会|しゃかい}→社会：01427_shakai⟧ (society) + ⟦{参加|さんか}→参加：02498_sanka⟧ (participation). It describes the broader concept of being an active member of society rather than being isolated or excluded.\n\nUSAGE:\nCan be used as a noun or as a suru verb: {社会参加|しゃかいさんか}⟦する→する：00392_suru⟧ (to participate in society).\n\nCOMMON COLLOCATIONS:\n- {社会参加|しゃかいさんか}⟦を→を：00422_wo⟧⟦{促|うなが}す→促す：10875_unagasu⟧: encourage social participation\n- {社会参加|しゃかいさんか}⟦の→の：09472_no⟧⟦{機会|きかい}→機会：01302_kikai⟧: opportunity for social participation\n- {社会参加|しゃかいさんか}⟦を→を：00422_wo⟧⟦{支援|しえん}する→支援する：25534_shiensuru⟧: support social participation\n- ⟦{積極的|せっきょくてき}→積極的：01585_sekkyokuteki⟧な{社会参加|しゃかいさんか}: active social engagement\n\nSIMILAR WORDS:\n- ⟦{社会貢献|しゃかいこうけん}→社会貢献：22315_shakaikouken⟧: social contribution — emphasizes giving back to society\n- ⟦{参加|さんか}→参加：02498_sanka⟧: participation — general term, not specifically about society\n- ⟦{社会復帰|しゃかいふっき}→社会復帰：20417_shakaifukki⟧: social reintegration — returning to society after illness, incarceration, etc.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22315_shakaikouken",
+      "reading": "しゃかいこうけん",
+      "headword": "{社会|しゃかい}{貢献|こうけん}",
+      "label": "social contribution"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20417_shakaifukki",
+      "reading": "しゃかいふっき",
+      "headword": "{社会復帰|しゃかいふっき}",
+      "label": "social reintegration"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,7 +78,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-25T12:45:23Z",
-    "modified": "2026-04-25T12:45:23Z"
+    "modified": "2026-09-02T04:02:22Z"
   },
   "conjugation": {
     "type": "suru",

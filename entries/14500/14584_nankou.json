@@ -3,7 +3,7 @@
   "id": "14584_nankou",
   "headword": "{難航|なんこう}",
   "reading": "なんこう",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "rough going; difficulty; slow progress",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "14584_nankou_ex1",
-      "japanese": "{交渉|こうしょう}が{難航|なんこう}している。",
+      "japanese": "⟦{交渉|こうしょう}→交渉：02727_koushou⟧⟦が→が：00051_ga⟧{難航|なんこう}⟦している→する：00392_suru⟧。",
       "english": "The negotiations are proving difficult.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "14584_nankou_ex2",
-      "japanese": "{人材|じんざい}{確保|かくほ}が{難航|なんこう}し、プロジェクトが{遅|おく}れている。",
+      "japanese": "⟦{人材|じんざい}→人材：11426_jinzai⟧⟦{確保|かくほ}→確保：13681_kakuho⟧⟦が→が：00051_ga⟧{難航|なんこう}し、⟦プロジェクト→プロジェクト：06764_purojekuto⟧⟦が→が：00051_ga⟧⟦{遅|おく}れている→遅れる：00741_okureru⟧。",
       "english": "Securing personnel has been difficult, and the project is behind schedule.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "14584_nankou_ex3",
-      "japanese": "{両国|りょうこく}の{意見|いけん}が{大|おお}きく{食|く}い{違|ちが}い、{条約|じょうやく}{締結|ていけつ}に{向|む}けた{協議|きょうぎ}は{難航|なんこう}を{極|きわ}めた。",
+      "japanese": "⟦{両国|りょうこく}→両国：10010_ryoukoku⟧⟦の→の：09472_no⟧⟦{意見|いけん}→意見：01303_iken⟧⟦が→が：00051_ga⟧⟦{大|おお}きく→大きい：00335_ookii⟧⟦{食|く}い{違|ちが}い→食い違う：16321_kuichigau⟧、⟦{条約|じょうやく}→条約：04912_jouyaku⟧⟦{締結|ていけつ}→締結：13870_teiketsu⟧⟦に→に：00314_ni⟧⟦{向|む}けた→向ける：02306_mukeru⟧⟦{協議|きょうぎ}→協議：02635_kyougi⟧⟦は→は：00079_ha⟧{難航|なんこう}⟦を→を：00422_wo⟧⟦{極|きわ}めた→極める：13139_kiwameru⟧。",
       "english": "The two countries' opinions diverged greatly, and talks toward a treaty were extremely difficult.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,11 @@
       ]
     }
   ],
-  "notes": "ETYMOLOGY:\nLiterally \"difficult voyage\" — from {難|なん} (difficult) + {航|こう} (navigation/sailing). The nautical origin is still felt in the expression.\n\nUSAGE:\n{難航|なんこう} is commonly used with negotiations, discussions, and projects that are stalling or making slow progress. The expression {難航|なんこう}を{極|きわ}める means the difficulty is extreme.\n\nCOMMON COLLOCATIONS:\n- {交渉|こうしょう}が{難航|なんこう}する (negotiations are proving difficult)\n- {難航|なんこう}を{極|きわ}める (to face extreme difficulty)\n- {調整|ちょうせい}が{難航|なんこう}する (coordination is proving difficult)\n- {難航|なんこう}が{予想|よそう}される (difficulty is expected)",
+  "notes": "ETYMOLOGY:\nLiterally \"difficult voyage\" — from ⟦{難|なん}→難：00452_nan⟧ (difficult) + {航|こう} (navigation/sailing). The nautical origin is still felt in the expression.\n\nUSAGE:\n{難航|なんこう} is commonly used with negotiations, discussions, and projects that are stalling or making slow progress. The expression {難航|なんこう}⟦を→を：00422_wo⟧⟦{極|きわ}める→極める：13139_kiwameru⟧ means the difficulty is extreme.\n\nCOMMON COLLOCATIONS:\n- ⟦{交渉|こうしょう}→交渉：02727_koushou⟧⟦が→が：00051_ga⟧{難航|なんこう}⟦する→する：00392_suru⟧ (negotiations are proving difficult)\n- {難航|なんこう}⟦を→を：00422_wo⟧⟦{極|きわ}める→極める：13139_kiwameru⟧ (to face extreme difficulty)\n- ⟦{調整|ちょうせい}→調整：14839_chousei⟧⟦が→が：00051_ga⟧{難航|なんこう}⟦する→する：00392_suru⟧ (coordination is proving difficult)\n- {難航|なんこう}⟦が→が：00051_ga⟧⟦{予想|よそう}される→予想する：06064_yosousuru⟧ (difficulty is expected)",
   "cross_references": [],
   "metadata": {
     "created": "2026-03-02T07:46:14Z",
-    "modified": "2026-03-29T03:08:18Z",
+    "modified": "2026-09-02T04:01:37Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -151,7 +151,8 @@
       "semantic": [
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

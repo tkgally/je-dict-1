@@ -15,41 +15,60 @@
   "examples": [
     {
       "id": "28958_tsune_ex1",
-      "japanese": "{世|よ}の{常|つね}だ。",
+      "japanese": "⟦{世|よ}→世：00424_yo⟧⟦の→の：09472_no⟧{常|つね}だ。",
       "english": "That's the way of the world.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28958_tsune_ex2",
-      "japanese": "{失敗|しっぱい}は{若者|わかもの}の{常|つね}だ。",
+      "japanese": "⟦{失敗|しっぱい}→失敗：01636_shippai⟧⟦は→は：00079_ha⟧⟦{若者|わかもの}→若者：03037_wakamono⟧⟦の→の：09472_no⟧{常|つね}だ。",
       "english": "Failure is to be expected from young people.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28958_tsune_ex3",
-      "japanese": "{彼|かれ}は{常|つね}に{冷静|れいせい}でいるよう{心|こころ}がけている。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{常|つね}⟦に→に：00314_ni⟧⟦{冷静|れいせい}→冷静：03781_reisei⟧で⟦いる→いる：00495_iru⟧よう⟦{心|こころ}がけている→心がける：10015_kokorogakeru⟧。",
       "english": "He always tries to stay calm.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A somewhat literary noun. Most common as part of fixed patterns: 〜の{常|つね} (the way of ~), {常|つね}に (always), or {常々|つねづね} (regularly, all the time).\n\nCOMMON PATTERNS:\n- {世|よ}の{常|つね}: the way of the world\n- ~の{常|つね}: typical of, what's normal for ~\n- {常|つね}に: always (adverbial)\n- {常|つね}{日頃|ひごろ}: regularly; in everyday life\n\nSIMILAR WORDS:\n- いつも: always — everyday, conversational\n- {普段|ふだん}: usually; in ordinary times — concrete daily routine\n- {常|つね}に: always — formal, written; same kanji used adverbially",
+  "notes": "A somewhat literary noun. Most common as part of fixed patterns: 〜⟦の→の：09472_no⟧{常|つね} (the way of ~), {常|つね}⟦に→に：00314_ni⟧ (always), or ⟦{常々|つねづね}→常々：27906_tsunezune⟧ (regularly, all the time).\n\nCOMMON PATTERNS:\n- ⟦{世|よ}→世：00424_yo⟧⟦の→の：09472_no⟧{常|つね}: the way of the world\n- ~⟦の→の：09472_no⟧{常|つね}: typical of, what's normal for ~\n- {常|つね}⟦に→に：00314_ni⟧: always (adverbial)\n- ⟦{常|つね}{日頃|ひごろ}→常日頃：18708_tsunehigoro⟧: regularly; in everyday life\n\nSIMILAR WORDS:\n- ⟦いつも→いつも：00599_itsumo⟧: always — everyday, conversational\n- ⟦{普段|ふだん}→普段：00041_fudan⟧: usually; in ordinary times — concrete daily routine\n- {常|つね}⟦に→に：00314_ni⟧: always — formal, written; same kanji used adverbially",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00041_fudan",
+      "reading": "ふだん",
+      "headword": "{普段|ふだん}",
+      "label": "usually"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
-      "politeness": null,
-      "semantic": ["abstract"],
+      "politeness": "plain",
+      "semantic": [
+        "abstract"
+      ],
       "domain": []
     },
     "created": "2026-06-08T04:06:16Z",
-    "modified": "2026-06-08T04:06:16Z"
+    "modified": "2026-09-02T04:02:35Z"
   }
 }

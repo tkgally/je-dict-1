@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "15343_akisu_ex1",
-      "japanese": "{空|あ}き{巣|す}に{入|はい}られた。",
+      "japanese": "{空|あ}き{巣|す}⟦に→に：00314_ni⟧⟦{入|はい}られた→入る：00494_hairu⟧。",
       "english": "Our house was broken into.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "15343_akisu_ex2",
-      "japanese": "この{地域|ちいき}では{空|あ}き{巣|す}の{被害|ひがい}が{増|ふ}えている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{地域|ちいき}→地域：01461_chiiki⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧{空|あ}き{巣|す}⟦の→の：09472_no⟧⟦{被害|ひがい}→被害：02572_higai⟧⟦が→が：00051_ga⟧⟦{増|ふ}えている→増える：01183_fueru⟧。",
       "english": "Burglaries have been increasing in this area.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "15343_akisu_ex3",
-      "japanese": "{旅行中|りょこうちゅう}に{空|あ}き{巣|す}に{入|はい}られないよう、{戸締|とじ}まりを{確認|かくにん}した。",
+      "japanese": "⟦{旅行中|りょこうちゅう}→旅行中：28581_ryokouchuu⟧⟦に→に：00314_ni⟧{空|あ}き{巣|す}⟦に→に：00314_ni⟧⟦{入|はい}られない→入る：00494_hairu⟧よう、⟦{戸締|とじ}まり→戸締まり：17821_tojimari⟧⟦を→を：00422_wo⟧⟦{確認|かくにん}した→確認する：25332_kakuninsuru⟧。",
       "english": "I checked the locks to make sure we wouldn't be burgled while traveling.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,33 @@
       ]
     }
   ],
-  "notes": "USAGE:\nCan refer to both the act of burglary and the burglar themselves. The key nuance is that the crime targets an empty dwelling—the occupants are not home.\n\nCOMMON COLLOCATIONS:\n- {空|あ}き{巣|す}に{入|はい}られる (to be burgled)\n- {空|あ}き{巣|す}{被害|ひがい} (burglary damage)\n- {空|あ}き{巣|す}{対策|たいさく} (anti-burglary measures)\n- {空|あ}き{巣|す}{狙|ねら}い (targeting empty houses)\n\nWORD FORMATION:\n{空|あ}き (empty, vacant) + {巣|す} (nest, den). Literally \"empty nest,\" referring to a home left unoccupied.",
-  "cross_references": [],
+  "notes": "USAGE:\nCan refer to both the act of burglary and the burglar themselves. The key nuance is that the crime targets an empty dwelling—the occupants are not home.\n\nCOMMON COLLOCATIONS:\n- {空|あ}き{巣|す}⟦に→に：00314_ni⟧⟦{入|はい}られる→入る：00494_hairu⟧ (to be burgled)\n- {空|あ}き{巣|す}⟦{被害|ひがい}→被害：02572_higai⟧ (burglary damage)\n- {空|あ}き{巣|す}⟦{対策|たいさく}→対策：02511_taisaku⟧ (anti-burglary measures)\n- {空|あ}き{巣|す}⟦{狙|ねら}い→狙い：00312_nerai⟧ (targeting empty houses)\n\nFORMS:\n⟦{空|あ}き→空く：11062_aku⟧ (empty, vacant) + ⟦{巣|す}→巣：02140_su⟧ (nest, den). Literally \"empty nest,\" referring to a home left unoccupied.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "01688_dorobou",
+      "reading": "どろぼう",
+      "headword": "{泥棒|どろぼう}",
+      "label": "thief, burglar"
+    },
+    {
+      "type": "related",
+      "target_id": "02818_goutou",
+      "reading": "ごうとう",
+      "headword": "{強盗|ごうとう}",
+      "label": "robbery, robber"
+    },
+    {
+      "type": "related",
+      "target_id": "23759_oshiiri",
+      "reading": "おしいり",
+      "headword": "{押|お}し{入|い}り",
+      "label": "breaking and entering"
+    }
+  ],
   "metadata": {
     "created": "2026-03-06T09:53:39Z",
-    "modified": "2026-07-16T07:06:35Z",
+    "modified": "2026-09-02T04:01:40Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -56,6 +78,7 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "law",
         "daily-life"

@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "09091_dakko_ex1",
-      "japanese": "だっこして。",
+      "japanese": "だっこ⟦して→する：00392_suru⟧。",
       "english": "Hold me. / Pick me up.",
       "sense_numbers": [
         1
@@ -114,7 +114,7 @@
     },
     {
       "id": "09091_dakko_ex2",
-      "japanese": "{赤|あか}ちゃんをだっこする。",
+      "japanese": "⟦{赤|あか}ちゃん→赤ちゃん：01282_akachan⟧⟦を→を：00422_wo⟧だっこ⟦する→する：00392_suru⟧。",
       "english": "To hold a baby in one's arms.",
       "sense_numbers": [
         1
@@ -124,7 +124,7 @@
     },
     {
       "id": "09091_dakko_ex3",
-      "japanese": "{猫|ねこ}をだっこしたら{引|ひ}っ{掻|か}かれた。",
+      "japanese": "⟦{猫|ねこ}→猫：02237_neko⟧⟦を→を：00422_wo⟧だっこ⟦したら→する：00392_suru⟧⟦{引|ひ}っ{掻|か}かれた→引っ掻く：07001_hikkaku⟧。",
       "english": "When I held the cat, it scratched me.",
       "sense_numbers": [
         1
@@ -133,7 +133,7 @@
       "notes": null
     }
   ],
-  "notes": "KANJI: Can be written as {抱|だ}っこ.\n\nUSAGE: Functions as a noun and as a する verb (だっこする).\n\nCOMMON EXPRESSIONS:\n- だっこする (to hold in one's arms)\n- だっこしてもらう (to be held)\n- だっこ{紐|ひも} (baby carrier)\n\nRELATED WORDS: おんぶ (piggyback, carrying on back), {抱|だ}きしめる (to hug tightly), {抱|だ}く (to hold, embrace - more formal).\n\nNOTE: Children often request だっこ when they want to be picked up and carried.",
+  "notes": "KANJI: Can be written as {抱|だ}っこ.\n\nUSAGE: Functions as a noun and as a ⟦する→する：00392_suru⟧ verb (だっこ⟦する→する：00392_suru⟧).\n\nCOMMON EXPRESSIONS:\n- だっこ⟦する→する：00392_suru⟧ (to hold in one's arms)\n- だっこ⟦して→する：00392_suru⟧⟦もらう→もらう：00520_morau⟧ (to be held)\n- だっこ{紐|ひも} (baby carrier)\n\nRELATED WORDS: ⟦おんぶ→おんぶ：09090_onbu⟧ (piggyback, carrying on back), ⟦{抱|だ}きしめる→抱きしめる：06044_dakishimeru⟧ (to hug tightly), ⟦{抱|だ}く→抱く：02131_daku⟧ (to hold, embrace - more formal).\n\nNOTE: Children often request だっこ when they want to be picked up and carried.",
   "cross_references": [
     {
       "type": "contrast",
@@ -141,11 +141,18 @@
       "reading": "おんぶ",
       "headword": "おんぶ",
       "label": "piggyback carry"
+    },
+    {
+      "type": "related",
+      "target_id": "02131_daku",
+      "reading": "だく",
+      "headword": "{抱|だ}く",
+      "label": "to embrace, to hug, to hold"
     }
   ],
   "metadata": {
     "created": "2026-01-31T04:25:12Z",
-    "modified": "2026-08-12T21:25:53Z",
+    "modified": "2026-09-02T04:01:17Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -159,7 +166,8 @@
         "daily-life",
         "family"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

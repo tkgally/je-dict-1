@@ -15,40 +15,73 @@
   "examples": [
     {
       "id": "19425_nihonryouri_ex1",
-      "japanese": "{日本料理|にほんりょうり}が{好|す}きですか。",
+      "japanese": "{日本料理|にほんりょうり}⟦が→が：00051_ga⟧⟦{好|す}き→好き：02355_suki⟧です⟦か→か：09473_ka⟧。",
       "english": "Do you like Japanese food?",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19425_nihonryouri_ex2",
-      "japanese": "{日本料理|にほんりょうり}は{見|み}た{目|め}の{美|うつく}しさも{大切|たいせつ}にする。",
+      "japanese": "{日本料理|にほんりょうり}⟦は→は：00079_ha⟧⟦{見|み}た{目|め}→見た目：14110_mitame⟧⟦の→の：09472_no⟧{美|うつく}しさ⟦も→も：00484_mo⟧⟦{大切|たいせつ}にする→大切にする：26940_taisetsunisuru⟧。",
       "english": "Japanese cuisine values visual beauty as well.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19425_nihonryouri_ex3",
-      "japanese": "ユネスコは{日本料理|にほんりょうり}（{和食|わしょく}）を{無形文化遺産|むけいぶんかいさん}に{登録|とうろく}した。",
+      "japanese": "ユネスコ⟦は→は：00079_ha⟧{日本料理|にほんりょうり}（⟦{和食|わしょく}→和食：10436_washoku⟧）⟦を→を：00422_wo⟧{無形文化遺産|むけいぶんかいさん}⟦に→に：00314_ni⟧⟦{登録|とうろく}した→登録する：25227_tourokusuru⟧。",
       "english": "UNESCO registered Japanese cuisine (washoku) as an intangible cultural heritage.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "{日本料理|にほんりょうり} is the formal term for Japanese cuisine. {和食|わしょく} is a more casual synonym.\n\nSIMILAR TERMS:\n- {和食|わしょく}: Japanese food (everyday term)\n- {日本料理|にほんりょうり}: Japanese cuisine (formal, often for restaurants)\n- {洋食|ようしょく}: Western-style food\n- {中華料理|ちゅうかりょうり}: Chinese cuisine\n\n{日本料理|にほんりょうり}{店|てん} or {日本料理|にほんりょうり}{屋|や} refers to a Japanese restaurant, typically a more upscale establishment.",
+  "notes": "{日本料理|にほんりょうり} is the formal term for Japanese cuisine. ⟦{和食|わしょく}→和食：10436_washoku⟧ is a more casual synonym.\n\nSIMILAR WORDS:\n- ⟦{和食|わしょく}→和食：10436_washoku⟧: Japanese food (everyday term)\n- {日本料理|にほんりょうり}: Japanese cuisine (formal, often for restaurants)\n- ⟦{洋食|ようしょく}→洋食：13274_youshoku⟧: Western-style food\n- ⟦{中華料理|ちゅうかりょうり}→中華料理：18122_chuukaryouri⟧: Chinese cuisine\n\n{日本料理|にほんりょうり}{店|てん} or {日本料理|にほんりょうり}{屋|や} refers to a Japanese restaurant, typically a more upscale establishment.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "10436_washoku",
+      "reading": "わしょく",
+      "headword": "{和食|わしょく}",
+      "label": "Japanese food"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13274_youshoku",
+      "reading": "ようしょく",
+      "headword": "{洋食|ようしょく}",
+      "label": "Western-style food"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18122_chuukaryouri",
+      "reading": "ちゅうかりょうり",
+      "headword": "{中華料理|ちゅうかりょうり}",
+      "label": "Chinese cuisine"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food"]
+      "semantic": [
+        "food"
+      ]
     },
     "created": "2026-03-25T13:28:10Z",
-    "modified": "2026-03-25T13:28:10Z"
+    "modified": "2026-09-02T04:01:55Z"
   }
 }

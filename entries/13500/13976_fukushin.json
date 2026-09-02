@@ -15,42 +15,62 @@
   "examples": [
     {
       "id": "13976_fukushin_ex1",
-      "japanese": "{彼|かれ}は{社長|しゃちょう}の{腹心|ふくしん}だ。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{社長|しゃちょう}→社長：01428_shachou⟧⟦の→の：09472_no⟧{腹心|ふくしん}だ。",
       "english": "He is the president's right-hand man.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13976_fukushin_ex2",
-      "japanese": "{将軍|しょうぐん}は{腹心|ふくしん}の{部下|ぶか}にだけ{計画|けいかく}を{明|あ}かした。",
+      "japanese": "⟦{将軍|しょうぐん}→将軍：12386_shougun⟧⟦は→は：00079_ha⟧{腹心|ふくしん}⟦の→の：09472_no⟧⟦{部下|ぶか}→部下：06453_buka⟧⟦に→に：00314_ni⟧⟦だけ→〜だけ：03093_dake⟧⟦{計画|けいかく}→計画：01172_keikaku⟧⟦を→を：00422_wo⟧⟦{明|あ}かした→明かす：12961_akasu⟧。",
       "english": "The general revealed the plan only to his most trusted subordinates.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13976_fukushin_ex3",
-      "japanese": "{長年|ながねん}の{腹心|ふくしん}であった{側近|そっきん}が{突然|とつぜん}{裏切|うらぎ}った。",
+      "japanese": "⟦{長年|ながねん}→長年：09684_naganen⟧⟦の→の：09472_no⟧{腹心|ふくしん}であった{側近|そっきん}⟦が→が：00051_ga⟧⟦{突然|とつぜん}→突然：00409_totsuzen⟧⟦{裏切|うらぎ}った→裏切る：02011_uragiru⟧。",
       "english": "The close aide who had been his confidant for many years suddenly betrayed him.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nA literary and somewhat formal word. The characters literally mean 'belly' ({腹|はら}) and 'heart' ({心|こころ}), evoking the idea of someone to whom one can open one's innermost thoughts. Often appears in historical dramas, novels, and political reporting.\n\nCOMMON COLLOCATIONS:\n- {腹心|ふくしん}の{部下|ぶか}: trusted subordinate\n- {腹心|ふくしん}の{友|とも}: bosom friend\n- {腹心|ふくしん}を{置|お}く: to keep a confidant close\n\nSIMILAR WORDS:\n- {側近|そっきん}: close aide — focuses on physical proximity to a leader, while {腹心|ふくしん} emphasizes deep trust\n- {懐刀|ふところがたな}: trusted right-hand person — a more colorful expression with similar meaning",
-  "cross_references": [],
+  "notes": "USAGE:\nA literary and somewhat formal word. The characters literally mean 'belly' (⟦{腹|はら}→腹：02165_hara⟧) and 'heart' (⟦{心|こころ}→心：01321_kokoro⟧), evoking the idea of someone to whom one can open one's innermost thoughts. Often appears in historical dramas, novels, and political reporting.\n\nCOMMON COLLOCATIONS:\n- {腹心|ふくしん}⟦の→の：09472_no⟧⟦{部下|ぶか}→部下：06453_buka⟧: trusted subordinate\n- {腹心|ふくしん}⟦の→の：09472_no⟧⟦{友|とも}→友：03466_tomo⟧: bosom friend\n- {腹心|ふくしん}⟦を→を：00422_wo⟧⟦{置|お}く→置く：01092_oku⟧: to keep a confidant close\n\nSIMILAR WORDS:\n- {側近|そっきん}: close aide — focuses on physical proximity to a leader, while {腹心|ふくしん} emphasizes deep trust\n- {懐刀|ふところがたな}: trusted right-hand person — a more colorful expression with similar meaning",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14906_migiude",
+      "reading": "みぎうで",
+      "headword": "{右腕|みぎうで}",
+      "label": "right arm"
+    }
+  ],
   "metadata": {
     "created": "2026-02-27T08:30:03Z",
-    "modified": "2026-02-27T08:30:03Z",
+    "modified": "2026-09-02T04:01:35Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["person"],
-      "style": ["written"]
+      "semantic": [
+        "person"
+      ],
+      "style": [
+        "written"
+      ]
     }
   }
 }

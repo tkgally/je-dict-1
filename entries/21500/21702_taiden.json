@@ -3,7 +3,7 @@
   "headword": "{帯電|たいでん}",
   "reading": "たいでん",
   "romaji": "taiden",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "electrification; becoming electrically charged",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21702_taiden_ex1",
-      "japanese": "{冬|ふゆ}は{帯電|たいでん}しやすい。",
+      "japanese": "⟦{冬|ふゆ}→冬：00623_fuyu⟧⟦は→は：00079_ha⟧{帯電|たいでん}しやすい。",
       "english": "Static charge builds up easily in winter.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21702_taiden_ex2",
-      "japanese": "{帯電|たいでん}{防止|ぼうし}スプレーを{使|つか}う。",
+      "japanese": "{帯電|たいでん}⟦{防止|ぼうし}→防止：14571_boushi⟧⟦スプレー→スプレー：11581_supuree⟧⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧。",
       "english": "To use an anti-static spray.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21702_taiden_ex3",
-      "japanese": "この{素材|そざい}は{帯電|たいでん}しにくいので、{静電気|せいでんき}が{起|お}きにくい。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{素材|そざい}→素材：09492_sozai⟧⟦は→は：00079_ha⟧{帯電|たいでん}しにくい⟦の→の：09472_no⟧で、⟦{静電気|せいでんき}→静電気：18522_seidenki⟧⟦が→が：00051_ga⟧⟦{起|お}き→起きる：00521_okiru⟧にくい。",
       "english": "This material doesn't easily hold a charge, so static electricity is unlikely.",
       "sense_numbers": [
         1
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {帯|たい} (to wear, carry) + {電|でん} (electricity). The する form ({帯電|たいでん}する) means \"to become charged.\" Most commonly encountered in discussions of static electricity in winter or in product descriptions for anti-static items.\n\nCOMMON COLLOCATIONS:\n- {帯電|たいでん}{防止|ぼうし}: anti-static, static prevention\n- {帯電|たいでん}する: to become charged\n- {帯電|たいでん}{量|りょう}: amount of charge\n- {帯電|たいでん}しやすい: easily charged\n\nRELATED TERMS:\n- {静電気|せいでんき}: static electricity\n- {放電|ほうでん}: discharge (releasing stored charge)\n- {充電|じゅうでん}: charging (a battery)",
+  "notes": "Compound of ⟦{帯|たい}→〜帯：30366_tai⟧ (to wear, carry) + {電|でん} (electricity). The ⟦する→する：00392_suru⟧ form ({帯電|たいでん}⟦する→する：00392_suru⟧) means \"to become charged.\" Most commonly encountered in discussions of static electricity in winter or in product descriptions for anti-static items.\n\nCOMMON COLLOCATIONS:\n- {帯電|たいでん}⟦{防止|ぼうし}→防止：14571_boushi⟧: anti-static, static prevention\n- {帯電|たいでん}⟦する→する：00392_suru⟧: to become charged\n- {帯電|たいでん}⟦{量|りょう}→量：03799_ryou⟧: amount of charge\n- {帯電|たいでん}しやすい: easily charged\n\nRELATED WORDS:\n- ⟦{静電気|せいでんき}→静電気：18522_seidenki⟧: static electricity\n- ⟦{放電|ほうでん}→放電：19289_houden⟧: discharge (releasing stored charge)\n- ⟦{充電|じゅうでん}→充電：04427_juuden⟧: charging (a battery)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "18522_seidenki",
+      "reading": "せいでんき",
+      "headword": "{静電気|せいでんき}",
+      "label": "static electricity"
+    },
+    {
+      "type": "related",
+      "target_id": "19289_houden",
+      "reading": "ほうでん",
+      "headword": "{放電|ほうでん}",
+      "label": "discharge"
+    },
+    {
+      "type": "related",
+      "target_id": "04427_juuden",
+      "reading": "じゅうでん",
+      "headword": "{充電|じゅうでん}",
+      "label": "charging"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24378_denka",
+      "reading": "でんか",
+      "headword": "{電荷|でんか}",
+      "label": "electric charge"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,7 +91,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-02T21:27:36Z",
-    "modified": "2026-04-02T21:27:36Z"
+    "modified": "2026-09-02T04:02:04Z"
   },
   "conjugation": {
     "type": "suru",

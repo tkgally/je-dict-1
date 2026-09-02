@@ -15,40 +15,59 @@
   "examples": [
     {
       "id": "19394_shikai_ex1",
-      "japanese": "{歯科医|しかい}に{行|い}く。",
+      "japanese": "{歯科医|しかい}⟦に→に：00314_ni⟧⟦{行|い}く→行く：00119_iku⟧。",
       "english": "To go to the dentist.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19394_shikai_ex2",
-      "japanese": "{歯|は}が{痛|いた}いので、{歯科医|しかい}を{予約|よやく}した。",
+      "japanese": "⟦{歯|は}→歯：00778_ha⟧⟦が→が：00051_ga⟧⟦{痛|いた}い→痛い：01108_itai⟧⟦の→の：09472_no⟧で、{歯科医|しかい}⟦を→を：00422_wo⟧⟦{予約|よやく}した→予約する：22989_yoyakusuru⟧。",
       "english": "My tooth hurts, so I made an appointment with the dentist.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19394_shikai_ex3",
-      "japanese": "{半年|はんとし}に{一度|いちど}は{歯科医|しかい}で{検診|けんしん}を{受|う}けたほうがいい。",
+      "japanese": "⟦{半年|はんとし}→半年：03139_hantoshi⟧⟦に→に：00314_ni⟧⟦{一度|いちど}→一度：01312_ichido⟧⟦は→は：00079_ha⟧{歯科医|しかい}⟦で→で：00502_de⟧⟦{検診|けんしん}→検診：07679_kenshin⟧⟦を→を：00422_wo⟧⟦{受|う}けた→受ける：01215_ukeru⟧⟦ほうがいい→ほうがいい：10078_hougaii⟧。",
       "english": "You should get a dental checkup once every six months.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "{歯科医|しかい} is the formal/professional term for a dentist. In everyday conversation, {歯医者|はいしゃ} is far more commonly used.\n\nFORMATION:\n{歯科|しか} (dental department) + {医|い} (doctor). The {科|か} means \"department/branch of medicine,\" as in {内科|ないか} (internal medicine), {外科|げか} (surgery), and {眼科|がんか} (ophthalmology).\n\nRELATED TERMS:\n- {歯医者|はいしゃ}: dentist (casual, everyday)\n- {歯科|しか}: dentistry; dental department\n- {歯科医院|しかいいん}: dental clinic\n- {歯科衛生士|しかえいせいし}: dental hygienist\n\nCOMMON COLLOCATIONS:\n- {歯科医|しかい}に{行|い}く: to go to the dentist\n- {歯科医|しかい}を{予約|よやく}する: to make a dental appointment\n- {歯科医|しかい}で{検診|けんしん}を{受|う}ける: to get a dental checkup\n\nUSAGE:\nUse {歯科医|しかい} in formal or written contexts. In speech, {歯医者|はいしゃ}さん (with さん for politeness) is standard.",
+  "notes": "{歯科医|しかい} is the formal/professional term for a dentist. In everyday conversation, ⟦{歯医者|はいしゃ}→歯医者：01696_haisha⟧ is far more commonly used.\n\nFORMS:\n⟦{歯科|しか}→歯科：11072_shika⟧ (dental department) + {医|い} (doctor). The {科|か} means \"department/branch of medicine,\" as in ⟦{内科|ないか}→内科：04076_naika⟧ (internal medicine), ⟦{外科|げか}→外科：03983_geka⟧ (surgery), and ⟦{眼科|がんか}→眼科：11071_ganka⟧ (ophthalmology).\n\nRELATED WORDS:\n- ⟦{歯医者|はいしゃ}→歯医者：01696_haisha⟧: dentist (casual, everyday)\n- ⟦{歯科|しか}→歯科：11072_shika⟧: dentistry; dental department\n- ⟦{歯科医院|しかいいん}→歯科医院：22919_shikaiin⟧: dental clinic\n- {歯科衛生士|しかえいせいし}: dental hygienist\n\nCOMMON COLLOCATIONS:\n- {歯科医|しかい}⟦に→に：00314_ni⟧⟦{行|い}く→行く：00119_iku⟧: to go to the dentist\n- {歯科医|しかい}⟦を→を：00422_wo⟧⟦{予約|よやく}する→予約する：22989_yoyakusuru⟧: to make a dental appointment\n- {歯科医|しかい}⟦で→で：00502_de⟧⟦{検診|けんしん}→検診：07679_kenshin⟧⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧: to get a dental checkup\n\nUSAGE:\nUse {歯科医|しかい} in formal or written contexts. In speech, ⟦{歯医者|はいしゃ}→歯医者：01696_haisha⟧さん (with さん for politeness) is standard.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "01696_haisha",
+      "reading": "はいしゃ",
+      "headword": "{歯医者|はいしゃ}",
+      "label": "dentist"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["occupation"]
+      "semantic": [
+        "occupation"
+      ]
     },
     "created": "2026-03-25T13:28:10Z",
-    "modified": "2026-04-05T00:56:46Z"
+    "modified": "2026-09-02T04:01:55Z"
   }
 }

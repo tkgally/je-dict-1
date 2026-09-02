@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22480_reisui_ex1",
-      "japanese": "{冷水|れいすい}で{顔|かお}を{洗|あら}う。",
+      "japanese": "{冷水|れいすい}⟦で→で：00502_de⟧⟦{顔|かお}を{洗|あら}う→顔を洗う：23572_kaowoarau⟧。",
       "english": "To wash one's face with cold water.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22480_reisui_ex2",
-      "japanese": "{運動|うんどう}の{後|あと}に{冷水|れいすい}を{飲|の}んだ。",
+      "japanese": "⟦{運動|うんどう}→運動：00821_undou⟧⟦の→の：09472_no⟧⟦{後|あと}→後：09580_ato⟧⟦に→に：00314_ni⟧{冷水|れいすい}⟦を→を：00422_wo⟧⟦{飲|の}んだ→飲む：00322_nomu⟧。",
       "english": "I drank cold water after exercising.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22480_reisui_ex3",
-      "japanese": "{冷水|れいすい}を{浴|あ}びせるような{発言|はつげん}で{場|ば}が{凍|こお}りついた。",
+      "japanese": "{冷水|れいすい}⟦を→を：00422_wo⟧{浴|あ}びせるような⟦{発言|はつげん}→発言：05099_hatsugen⟧⟦で→で：00502_de⟧⟦{場|ば}→場：03699_ba⟧⟦が→が：00051_ga⟧⟦{凍|こお}りついた→凍りつく：11759_kooritsuku⟧。",
       "english": "The atmosphere froze with a remark that was like a splash of cold water.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "The standard word for cold water in somewhat formal or written contexts. In everyday speech, {冷|つめ}たい{水|みず} is more common. The reading {冷水|れいすい} is standard; the reading ひやみず also exists but is less common.\n\nCOMMON COLLOCATIONS:\n- {冷水|れいすい}を{浴|あ}びせる: to throw cold water on (figuratively: to dampen enthusiasm)\n- {冷水|れいすい}シャワー: cold water shower\n- {冷水|れいすい}で{冷|ひ}やす: to cool with cold water\n\nRELATED EXPRESSIONS:\n- {冷水|れいすい}を{浴|あ}びせる is a common figurative expression meaning to throw cold water on someone's plans or enthusiasm, similar to the English idiom.\n\nSIMILAR WORDS:\n- {冷|つめ}たい{水|みず}: cold water — the everyday, spoken equivalent\n- {温水|おんすい}: warm water — the opposite term, also used in formal/written contexts",
+  "notes": "The standard word for cold water in somewhat formal or written contexts. In everyday speech, ⟦{冷|つめ}たい→冷たい：00681_tsumetai⟧⟦{水|みず}→水：02258_mizu⟧ is more common. The reading {冷水|れいすい} is standard; the reading ひやみず also exists but is less common.\n\nCOMMON COLLOCATIONS:\n- {冷水|れいすい}⟦を→を：00422_wo⟧{浴|あ}びせる: to throw cold water on (figuratively: to dampen enthusiasm)\n- {冷水|れいすい}⟦シャワー→シャワー：04503_shawaa⟧: cold water shower\n- {冷水|れいすい}⟦で→で：00502_de⟧⟦{冷|ひ}やす→冷やす：02403_hiyasu⟧: to cool with cold water\n\nRELATED WORDS:\n- {冷水|れいすい}⟦を→を：00422_wo⟧{浴|あ}びせる is a common figurative expression meaning to throw cold water on someone's plans or enthusiasm, similar to the English idiom.\n\nSIMILAR WORDS:\n- ⟦{冷|つめ}たい→冷たい：00681_tsumetai⟧⟦{水|みず}→水：02258_mizu⟧: cold water — the everyday, spoken equivalent\n- ⟦{温水|おんすい}→温水：27514_onsui⟧: warm water — the opposite term, also used in formal/written contexts",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "27514_onsui",
+      "reading": "おんすい",
+      "headword": "{温水|おんすい}",
+      "label": "warm water"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +69,6 @@
       "politeness": "plain"
     },
     "created": "2026-04-06T14:21:37Z",
-    "modified": "2026-04-06T14:21:37Z"
+    "modified": "2026-09-02T04:02:08Z"
   }
 }

@@ -14,40 +14,65 @@
   "examples": [
     {
       "id": "10097_megakiku_ex1",
-      "japanese": "{彼女|かのじょ}は{骨董品|こっとうひん}に{目|め}が{利|き}く。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧⟦{骨董品|こっとうひん}→骨董品：06990_kottouhin⟧⟦に→に：00314_ni⟧{目|め}が{利|き}く。",
       "english": "She has a good eye for antiques.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10097_megakiku_ex2",
-      "japanese": "{目|め}の{利|き}く{人|ひと}に{見|み}てもらおう。",
+      "japanese": "⟦{目|め}→目：00525_me⟧⟦の→の：09472_no⟧⟦{利|き}く→利く：11845_kiku⟧⟦{人|ひと}→人：00476_hito⟧⟦に→に：00314_ni⟧⟦{見|み}て→見る：00283_miru⟧⟦もらおう→もらう：00520_morau⟧。",
       "english": "Let's have someone with a discerning eye take a look.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10097_megakiku_ex3",
-      "japanese": "{長年|ながねん}の{経験|けいけん}で、{良|よ}い{品|しな}に{目|め}が{利|き}くようになった。",
+      "japanese": "⟦{長年|ながねん}→長年：09684_naganen⟧⟦の→の：09472_no⟧⟦{経験|けいけん}→経験：01179_keiken⟧⟦で→で：00502_de⟧、⟦{良|よ}い→良い：02350_yoi⟧⟦{品|しな}→品：03192_shina⟧⟦に→に：00314_ni⟧{目|め}が{利|き}くようになった。",
       "english": "Through years of experience, I've developed an eye for quality goods.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{目|め}が{利|き}く literally means \"one's eyes work well\" and describes the ability to judge quality or value accurately. It implies trained expertise rather than innate talent.\n\nCOMMON CONTEXTS:\nOften used for expertise in evaluating:\n- {骨董品|こっとうひん} (antiques)\n- {美術品|びじゅつひん} (art)\n- {宝石|ほうせき} (gems)\n- {人材|じんざい} (talent/personnel)\n- {食材|しょくざい} (ingredients)\n\nPATTERNS:\n- ～に{目|め}が{利|き}く: to have a good eye for ~\n- {目|め}の{利|き}く{人|ひと}: a discerning person\n\nSIMILAR EXPRESSIONS:\n- {目利|めき}き: a connoisseur, an expert judge (noun form)\n- {目|め}が{肥|こ}えている: to have refined taste (from broad exposure)\n- {見|み}る{目|め}がある: to have good judgment (more general)",
-  "cross_references": [],
+  "notes": "{目|め}が{利|き}く literally means \"one's eyes work well\" and describes the ability to judge quality or value accurately. It implies trained expertise rather than innate talent.\n\nUSAGE:\nOften used for expertise in evaluating:\n- ⟦{骨董品|こっとうひん}→骨董品：06990_kottouhin⟧ (antiques)\n- ⟦{美術品|びじゅつひん}→美術品：28549_bijutsuhin⟧ (art)\n- ⟦{宝石|ほうせき}→宝石：03619_houseki⟧ (gems)\n- ⟦{人材|じんざい}→人材：11426_jinzai⟧ (talent/personnel)\n- ⟦{食材|しょくざい}→食材：04940_shokuzai⟧ (ingredients)\n\nCOMMON PATTERNS:\n- ～⟦に→に：00314_ni⟧{目|め}が{利|き}く: to have a good eye for ~\n- ⟦{目|め}→目：00525_me⟧⟦の→の：09472_no⟧⟦{利|き}く→利く：11845_kiku⟧⟦{人|ひと}→人：00476_hito⟧: a discerning person\n\nSIMILAR WORDS:\n- ⟦{目利|めき}き→目利き：18598_mekiki⟧: a connoisseur, an expert judge (noun form)\n- ⟦{目|め}→目：00525_me⟧⟦が→が：00051_ga⟧⟦{肥|こ}えている→肥える：18770_koeru⟧: to have refined taste (from broad exposure)\n- ⟦{見|み}る→見る：00283_miru⟧⟦{目|め}→目：00525_me⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧: to have good judgment (more general)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18598_mekiki",
+      "reading": "めきき",
+      "headword": "{目利|めき}き",
+      "label": "a connoisseur, an expert judge"
+    },
+    {
+      "type": "related",
+      "target_id": "22273_hanawokikaseru",
+      "reading": "はなをきかせる",
+      "headword": "{鼻|はな}を{利|き}かせる",
+      "label": "to have a keen nose"
+    }
+  ],
   "metadata": {
     "created": "2026-02-05T02:47:32Z",
-    "modified": "2026-03-29T05:14:14Z",
+    "modified": "2026-09-02T04:01:20Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["expression"],
+      "pos": [
+        "expression"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["ability"]
+      "semantic": [
+        "ability"
+      ]
     }
   }
 }

@@ -3,7 +3,7 @@
   "headword": "{品薄|しなうす}",
   "reading": "しなうす",
   "romaji": "shinausu",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "short supply; low stock",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30618_shinausu_ex1",
-      "japanese": "マスクが{品薄|しなうす}だ。",
+      "japanese": "⟦マスク→マスク：05075_masuku⟧⟦が→が：00051_ga⟧{品薄|しなうす}だ。",
       "english": "Masks are in short supply.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30618_shinausu_ex2",
-      "japanese": "{人気|にんき}のモデルは{品薄|しなうす}が{続|つづ}いている。",
+      "japanese": "⟦{人気|にんき}→人気：01488_ninki⟧⟦の→の：09472_no⟧⟦モデル→モデル：05112_moderu⟧⟦は→は：00079_ha⟧{品薄|しなうす}⟦が→が：00051_ga⟧⟦{続|つづ}いている→続く：00903_tsuzuku⟧。",
       "english": "The popular model remains in short supply.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30618_shinausu_ex3",
-      "japanese": "{猛暑|もうしょ}で{野菜|やさい}が{品薄|しなうす}になり、{価格|かかく}が{一気|いっき}に{上|あ}がった。",
+      "japanese": "⟦{猛暑|もうしょ}→猛暑：08311_mousho⟧⟦で→で：00502_de⟧⟦{野菜|やさい}→野菜：02265_yasai⟧⟦が→が：00051_ga⟧{品薄|しなうす}⟦に→に：00314_ni⟧⟦なり→なる：01970_naru⟧、⟦{価格|かかく}→価格：00147_kakaku⟧⟦が→が：00051_ga⟧⟦{一気|いっき}→一気：08891_ikki⟧⟦に→に：00314_ni⟧⟦{上|あ}がった→上がる：00615_agaru⟧。",
       "english": "The extreme heat left vegetables in short supply, and prices shot up.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "COMMON COLLOCATIONS:\n- {品薄|しなうす}になる: to run short\n- {品薄|しなうす}が{続|つづ}く: for the shortage to continue\n- {品薄|しなうす}{状態|じょうたい}: a state of short supply\n- {品薄|しなうす}{感|かん}: a sense that stocks are running low\n\nUSAGE:\nUsed as a noun with だ or になる, and before a noun with の ({品薄|しなうす}の{商品|しょうひん}). It describes shelves that are thinning, not shelves that are bare — for a complete absence of goods, {品切|しなぎ}れ (sold out) or {品不足|しなぶそく} (shortage) is used instead.",
+  "notes": "COMMON COLLOCATIONS:\n- {品薄|しなうす}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧: to run short\n- {品薄|しなうす}⟦が→が：00051_ga⟧⟦{続|つづ}く→続く：00903_tsuzuku⟧: for the shortage to continue\n- {品薄|しなうす}⟦{状態|じょうたい}→状態：03345_joutai⟧: a state of short supply\n- {品薄|しなうす}⟦{感|かん}→〜感：28578_kan⟧: a sense that stocks are running low\n\nUSAGE:\nUsed as a noun with だ or ⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧, and before a noun with ⟦の→の：09472_no⟧ ({品薄|しなうす}⟦の→の：09472_no⟧⟦{商品|しょうひん}→商品：01436_shouhin⟧). It describes shelves that are thinning, not shelves that are bare — for a complete absence of goods, ⟦{品切|しなぎ}れ→品切れ：09557_shinagire⟧ (sold out) or ⟦{品不足|しなぶそく}→品不足：30636_shinabusoku⟧ (shortage) is used instead.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "30658_kyoukyuubusoku",
+      "reading": "きょうきゅうぶそく",
+      "headword": "{供給不足|きょうきゅうぶそく}",
+      "label": "supply shortage"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -54,7 +63,7 @@
         "adjective-no"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "shopping",
         "economics"
@@ -64,6 +73,6 @@
       ]
     },
     "created": "2026-08-13T18:28:31Z",
-    "modified": "2026-08-13T18:28:31Z"
+    "modified": "2026-09-02T04:02:41Z"
   }
 }

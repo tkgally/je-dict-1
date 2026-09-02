@@ -124,7 +124,7 @@
     },
     {
       "id": "01910_okoru_ex3",
-      "japanese": "⟦{何|なに}→何：00498_nani⟧⟦が→が：00051_ga⟧{起|お}こっても⟦{大丈夫|だいじょうぶ}→大丈夫：00772_daijoubu⟧。",
+      "japanese": "⟦{何|なに}→何：00498_nani⟧⟦が→が：00051_ga⟧{起|お}こって⟦も→も：00484_mo⟧⟦{大丈夫|だいじょうぶ}→大丈夫：00772_daijoubu⟧。",
       "english": "Whatever happens, it'll be fine.",
       "notes": null,
       "has_audio": false,
@@ -153,7 +153,7 @@
       ]
     }
   ],
-  "notes": "{起|お}こる means to occur or happen—used for events, incidents, and changes.\n\nDON'T CONFUSE:\n- {起|お}こる: to occur (events)\n- ⟦{怒|おこ}る→怒る：00876_okoru⟧: to get angry (different kanji)\n\nTRANSITIVITY:\n- {起|お}こる (intransitive): something occurs\n- ⟦{起|お}こす→起こす：01234_okosu⟧ (transitive): to cause something\n\nCOMMON COLLOCATIONS:\n- ⟦{事故|じこ}→事故：00851_jiko⟧⟦が→が：00051_ga⟧{起|お}こる: an accident occurs\n- ⟦{問題|もんだい}→問題：00797_mondai⟧⟦が→が：00051_ga⟧{起|お}こる: a problem arises\n- ⟦{変化|へんか}→変化：03615_henka⟧⟦が→が：00051_ga⟧{起|お}こる: a change occurs\n- ⟦{地震|じしん}→地震：01608_jishin⟧⟦が→が：00051_ga⟧{起|お}こる: an earthquake occurs\n- ⟦{戦争|せんそう}→戦争：01450_sensou⟧⟦が→が：00051_ga⟧{起|お}こる: a war breaks out\n\nSIMILAR WORDS:\n- ⟦{発生|はっせい}する→発生する：25529_hasseisuru⟧: to occur, break out (formal)\n- ⟦{生|しょう}じる→生じる：02118_shoujiru⟧: to arise (written style)\n- ⟦{勃発|ぼっぱつ}する→勃発：11823_boppatsu⟧: to break out (wars, conflicts)",
+  "notes": "{起|お}こる means to occur or happen—used for events, incidents, and changes.\n\nWATCH OUT:\n- {起|お}こる: to occur (events)\n- ⟦{怒|おこ}る→怒る：00876_okoru⟧: to get angry (different kanji)\n\nTRANSITIVITY:\n- {起|お}こる (intransitive): something occurs\n- ⟦{起|お}こす→起こす：01234_okosu⟧ (transitive): to cause something\n\nCOMMON COLLOCATIONS:\n- ⟦{事故|じこ}→事故：00851_jiko⟧⟦が→が：00051_ga⟧{起|お}こる: an accident occurs\n- ⟦{問題|もんだい}→問題：00797_mondai⟧⟦が→が：00051_ga⟧{起|お}こる: a problem arises\n- ⟦{変化|へんか}→変化：03615_henka⟧⟦が→が：00051_ga⟧{起|お}こる: a change occurs\n- ⟦{地震|じしん}→地震：01608_jishin⟧⟦が→が：00051_ga⟧{起|お}こる: an earthquake occurs\n- ⟦{戦争|せんそう}→戦争：01450_sensou⟧⟦が→が：00051_ga⟧{起|お}こる: a war breaks out\n\nSIMILAR WORDS:\n- ⟦{発生|はっせい}する→発生する：25529_hasseisuru⟧: to occur, break out (formal)\n- ⟦{生|しょう}じる→生じる：02118_shoujiru⟧: to arise (written style)\n- ⟦{勃発|ぼっぱつ}する→勃発：11823_boppatsu⟧: to break out (wars, conflicts)",
   "prominent_see_also": [
     {
       "target_id": "00876_okoru",
@@ -175,11 +175,32 @@
       "reading": "おこす",
       "headword": "{起|お}こす",
       "label": "transitive pair: to cause"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25529_hasseisuru",
+      "reading": "はっせいする",
+      "headword": "{発生|はっせい}する",
+      "label": "to occur, break out"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02118_shoujiru",
+      "reading": "しょうじる",
+      "headword": "{生|しょう}じる",
+      "label": "to arise"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11823_boppatsu",
+      "reading": "ぼっぱつ",
+      "headword": "{勃発|ぼっぱつ}",
+      "label": "to break out"
     }
   ],
   "metadata": {
     "created": "2026-01-09T12:56:19Z",
-    "modified": "2026-08-09T00:18:11Z",
+    "modified": "2026-09-02T04:01:00Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

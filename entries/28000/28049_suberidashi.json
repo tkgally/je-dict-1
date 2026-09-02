@@ -15,41 +15,68 @@
   "examples": [
     {
       "id": "28049_suberidashi_ex1",
-      "japanese": "{順調|じゅんちょう}な{滑|すべ}り{出|だ}し。",
+      "japanese": "⟦{順調|じゅんちょう}→順調：03282_junchou⟧な{滑|すべ}り{出|だ}し。",
       "english": "A smooth start.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28049_suberidashi_ex2",
-      "japanese": "{新|あたら}しい{店|みせ}は{好調|こうちょう}な{滑|すべ}り{出|だ}しを{見|み}せた。",
+      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦{店|みせ}→店：00497_mise⟧⟦は→は：00079_ha⟧⟦{好調|こうちょう}→好調：12209_kouchou⟧な{滑|すべ}り{出|だ}し⟦を→を：00422_wo⟧⟦{見|み}せた→見せる：01988_miseru⟧。",
       "english": "The new store got off to a strong start.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28049_suberidashi_ex3",
-      "japanese": "{今期|こんき}の{売上|うりあげ}は{滑|すべ}り{出|だ}しから{予想|よそう}を{上回|うわまわ}っている。",
+      "japanese": "⟦{今期|こんき}→今期：29530_konki⟧⟦の→の：09472_no⟧⟦{売上|うりあげ}→売上：04102_uriage⟧⟦は→は：00079_ha⟧{滑|すべ}り{出|だ}し⟦から→から：00504_kara⟧⟦{予想|よそう}→予想：03664_yosou⟧⟦を→を：00422_wo⟧⟦{上回|うわまわ}っている→上回る：07648_uwamawaru⟧。",
       "english": "This term's sales have exceeded forecasts right from the start.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Refers to the opening phase of an activity and how well it goes; frequently paired with evaluative words.\n\nCOMMON COLLOCATIONS:\n- {順調|じゅんちょう}な{滑|すべ}り{出|だ}し: a smooth, favorable start\n- {好調|こうちょう}な{滑|すべ}り{出|だ}し: a strong start\n- {滑|すべ}り{出|だ}しは{上々|じょうじょう}だ: the start is excellent\n\nSIMILAR WORDS:\n- スタート: start — neutral, the moment of beginning\n- {出|で}だし: opening; beginning — close synonym, often of writing or speech",
+  "notes": "Refers to the opening phase of an activity and how well it goes; frequently paired with evaluative words.\n\nCOMMON COLLOCATIONS:\n- ⟦{順調|じゅんちょう}→順調：03282_junchou⟧な{滑|すべ}り{出|だ}し: a smooth, favorable start\n- ⟦{好調|こうちょう}→好調：12209_kouchou⟧な{滑|すべ}り{出|だ}し: a strong start\n- {滑|すべ}り{出|だ}し⟦は→は：00079_ha⟧⟦{上々|じょうじょう}→上々：11187_joujou⟧だ: the start is excellent\n\nSIMILAR WORDS:\n- ⟦スタート→スタート：11053_sutaato⟧: start — neutral, the moment of beginning\n- ⟦{出|で}だし→出だし：30703_dedashi⟧: opening; beginning — close synonym, often of writing or speech",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11053_sutaato",
+      "reading": "すたーと",
+      "headword": "スタート",
+      "label": "start"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30703_dedashi",
+      "reading": "でだし",
+      "headword": "{出|で}だし",
+      "label": "opening"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["business", "abstract"],
+      "politeness": "plain",
+      "semantic": [
+        "business",
+        "abstract"
+      ],
       "domain": []
     },
     "created": "2026-05-25T02:04:35Z",
-    "modified": "2026-05-25T02:04:35Z"
+    "modified": "2026-09-02T04:02:32Z"
   }
 }

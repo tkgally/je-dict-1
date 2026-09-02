@@ -15,41 +15,60 @@
   "examples": [
     {
       "id": "29585_kuukiatsu_ex1",
-      "japanese": "タイヤの{空気圧|くうきあつ}を{調|しら}べる。",
+      "japanese": "⟦タイヤ→タイヤ：06330_taiya⟧⟦の→の：09472_no⟧{空気圧|くうきあつ}⟦を→を：00422_wo⟧⟦{調|しら}べる→調べる：01213_shiraberu⟧。",
       "english": "Check the tire pressure.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29585_kuukiatsu_ex2",
-      "japanese": "{空気圧|くうきあつ}が{低|ひく}いと{燃費|ねんぴ}が{悪|わる}くなる。",
+      "japanese": "{空気圧|くうきあつ}⟦が→が：00051_ga⟧⟦{低|ひく}い→低い：02947_hikui⟧⟦と→と：00512_to⟧⟦{燃費|ねんぴ}→燃費：18969_nenpi⟧⟦が→が：00051_ga⟧⟦{悪|わる}く→悪い：00908_warui⟧⟦なる→なる：01970_naru⟧。",
       "english": "Low tire pressure worsens fuel economy.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29585_kuukiatsu_ex3",
-      "japanese": "{月|つき}に{一度|いちど}は{自転車|じてんしゃ}の{空気圧|くうきあつ}を{確認|かくにん}しよう。",
+      "japanese": "⟦{月|つき}→月：02230_tsuki⟧⟦に→に：00314_ni⟧⟦{一度|いちど}→一度：01312_ichido⟧⟦は→は：00079_ha⟧⟦{自転車|じてんしゃ}→自転車：00633_jitensha⟧⟦の→の：09472_no⟧{空気圧|くうきあつ}⟦を→を：00422_wo⟧⟦{確認|かくにん}しよう→確認する：25332_kakuninsuru⟧。",
       "english": "Let's check the bicycle's tire pressure once a month.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Compound of {空気|くうき} (air) + {圧|あつ} (pressure). In everyday use it almost always means tire pressure.\n\nCOMMON COLLOCATIONS:\n- {空気圧|くうきあつ}を{調整|ちょうせい}する: to adjust the air pressure\n- {空気圧|くうきあつ}が{足|た}りない: the pressure is too low\n- {適正|てきせい}{空気圧|くうきあつ}: the proper / recommended pressure\n\nSIMILAR WORDS:\n- {気圧|きあつ}: atmospheric pressure — pressure of the atmosphere, used in weather\n- {水圧|すいあつ}: water pressure",
+  "notes": "Compound of ⟦{空気|くうき}→空気：01390_kuuki⟧ (air) + {圧|あつ} (pressure). In everyday use it almost always means tire pressure.\n\nCOMMON COLLOCATIONS:\n- {空気圧|くうきあつ}⟦を→を：00422_wo⟧⟦{調整|ちょうせい}する→調整する：10442_chouseisuru⟧: to adjust the air pressure\n- {空気圧|くうきあつ}⟦が→が：00051_ga⟧⟦{足|た}りない→足りる：01209_tariru⟧: the pressure is too low\n- ⟦{適正|てきせい}→適正：09686_tekisei⟧{空気圧|くうきあつ}: the proper / recommended pressure\n\nSIMILAR WORDS:\n- ⟦{気圧|きあつ}→気圧：00219_kiatsu⟧: atmospheric pressure — pressure of the atmosphere, used in weather\n- ⟦{水圧|すいあつ}→水圧：21749_suiatsu⟧: water pressure",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21749_suiatsu",
+      "reading": "すいあつ",
+      "headword": "{水圧|すいあつ}",
+      "label": "water pressure"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["transportation"],
+      "politeness": "plain",
+      "semantic": [
+        "transportation"
+      ],
       "domain": []
     },
     "created": "2026-06-30T09:20:35Z",
-    "modified": "2026-06-30T09:20:35Z"
+    "modified": "2026-09-02T04:02:37Z"
   }
 }

@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "11616_hoken_ex1",
-      "japanese": "{保健|ほけん}の{授業|じゅぎょう}がある。",
+      "japanese": "{保健|ほけん}⟦の→の：09472_no⟧⟦{授業|じゅぎょう}→授業：00781_jugyou⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There's a health class.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "11616_hoken_ex2",
-      "japanese": "{保健室|ほけんしつ}で{休|やす}ませてもらった。",
+      "japanese": "⟦{保健室|ほけんしつ}→保健室：05380_hokenshitsu⟧⟦で→で：00502_de⟧⟦{休|やす}ませて→休む：00606_yasumu⟧⟦もらった→もらう：00520_morau⟧。",
       "english": "I was allowed to rest in the school nurse's office.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "11616_hoken_ex3",
-      "japanese": "{世界|せかい}{保健|ほけん}{機関|きかん}が{新|あたら}しいガイドラインを{発表|はっぴょう}した。",
+      "japanese": "{世界|せかい}{保健|ほけん}{機関|きかん}⟦が→が：00051_ga⟧⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦ガイドライン→ガイドライン：10834_gaidorain⟧⟦を→を：00422_wo⟧⟦{発表|はっぴょう}した→発表する：25231_happyousuru⟧。",
       "english": "The World Health Organization released new guidelines.",
       "notes": null,
       "has_audio": false,
@@ -43,11 +43,19 @@
       ]
     }
   ],
-  "notes": "Not to be confused with the homophone {保険|ほけん} (insurance). {保健|ほけん} relates to health maintenance and public health, while {保険|ほけん} relates to financial insurance.\n\nVery common in compound words related to schools and public institutions.\n\nCOMMON COMPOUNDS:\n・{保健室|ほけんしつ} — school nurse's office\n・{保健所|ほけんじょ} — public health center\n・{保健師|ほけんし} — public health nurse\n・{保健|ほけん}{体育|たいいく} — health and physical education",
-  "cross_references": [],
+  "notes": "Not to be confused with the homophone ⟦{保険|ほけん}→保険：01509_hoken⟧ (insurance). {保健|ほけん} relates to health maintenance and public health, while ⟦{保険|ほけん}→保険：01509_hoken⟧ relates to financial insurance.\n\nVery common in compound words related to schools and public institutions.\n\nCOMPOUNDS:\n- ⟦{保健室|ほけんしつ}→保健室：05380_hokenshitsu⟧ — school nurse's office\n- {保健所|ほけんじょ} — public health center\n- {保健師|ほけんし} — public health nurse\n- {保健|ほけん}⟦{体育|たいいく}→体育：03384_taiiku⟧ — health and physical education",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "17503_koushuueisei",
+      "reading": "こうしゅうえいせい",
+      "headword": "{公衆衛生|こうしゅうえいせい}",
+      "label": "public health"
+    }
+  ],
   "metadata": {
     "created": "2026-02-17T14:38:41Z",
-    "modified": "2026-02-17T14:38:41Z",
+    "modified": "2026-09-02T04:01:25Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",

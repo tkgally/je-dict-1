@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "11334_shinsha_ex1",
-      "japanese": "{新車|しんしゃ}を{買|か}った。",
+      "japanese": "{新車|しんしゃ}⟦を→を：00422_wo⟧⟦{買|か}った→買う：00489_kau⟧。",
       "english": "I bought a new car.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "11334_shinsha_ex2",
-      "japanese": "{新車|しんしゃ}は{高|たか}いので、{中古車|ちゅうこしゃ}にした。",
+      "japanese": "{新車|しんしゃ}⟦は→は：00079_ha⟧⟦{高|たか}い→高い：00500_takai⟧⟦の→の：09472_no⟧で、⟦{中古車|ちゅうこしゃ}→中古車：25939_chuukosha⟧にした。",
       "english": "New cars are expensive, so I went with a used car.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "11334_shinsha_ex3",
-      "japanese": "{新車|しんしゃ}の{匂|にお}いが{好|す}きだという{人|ひと}は{多|おお}いが、すぐに{消|き}えてしまう。",
+      "japanese": "{新車|しんしゃ}⟦の→の：09472_no⟧⟦{匂|にお}い→匂い：00874_nioi⟧⟦が→が：00051_ga⟧⟦{好|す}き→好き：02355_suki⟧だ⟦という→という：09577_toiu⟧⟦{人|ひと}→人：00476_hito⟧⟦は→は：00079_ha⟧⟦{多|おお}い→多い：01127_ooi⟧⟦が→が：00051_ga⟧、⟦すぐ→すぐ：00814_sugu⟧⟦に→に：00314_ni⟧⟦{消|き}えて→消える：02520_kieru⟧しまう。",
       "english": "Many people say they like the new car smell, but it fades quickly.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{新車|しんしゃ} refers to a brand-new, previously unowned vehicle. It covers cars, trucks, and other motor vehicles.\n\nWORD FORMATION:\n{新|しん} (new) + {車|しゃ} (car, vehicle)\n\nCOMMON COLLOCATIONS:\n- {新車|しんしゃ}を{買|か}う: to buy a new car\n- {新車|しんしゃ}{販売|はんばい}: new car sales\n- {新車|しんしゃ}{価格|かかく}: new car price\n- {新車|しんしゃ}に{乗|の}り{換|か}える: to switch to a new car\n\nRELATED WORDS:\n- {中古車|ちゅうこしゃ}: used car (opposite)\n- {愛車|あいしゃ}: one's beloved car\n- {車検|しゃけん}: vehicle inspection\n\nUSAGE:\nUnlike English \"new car,\" {新車|しんしゃ} is a single compound noun and is the standard way to refer to a factory-new vehicle at a dealership ({販売店|はんばいてん}).",
+  "notes": "{新車|しんしゃ} refers to a brand-new, previously unowned vehicle. It covers cars, trucks, and other motor vehicles.\n\nFORMS:\n{新|しん} (new) + ⟦{車|しゃ}→車：09874_sha⟧ (car, vehicle)\n\nCOMMON COLLOCATIONS:\n- {新車|しんしゃ}⟦を→を：00422_wo⟧⟦{買|か}う→買う：00489_kau⟧: to buy a new car\n- {新車|しんしゃ}⟦{販売|はんばい}→販売：03573_hanbai⟧: new car sales\n- {新車|しんしゃ}⟦{価格|かかく}→価格：00147_kakaku⟧: new car price\n- {新車|しんしゃ}⟦に→に：00314_ni⟧⟦{乗|の}り{換|か}える→乗り換える：01194_norikaeru⟧: to switch to a new car\n\nRELATED WORDS:\n- ⟦{中古車|ちゅうこしゃ}→中古車：25939_chuukosha⟧: used car (opposite)\n- {愛車|あいしゃ}: one's beloved car\n- ⟦{車検|しゃけん}→車検：18516_shaken⟧: vehicle inspection\n\nUSAGE:\nUnlike English \"new car,\" {新車|しんしゃ} is a single compound noun and is the standard way to refer to a factory-new vehicle at a dealership (⟦{販売店|はんばいてん}→販売店：20898_hanbaiten⟧).",
   "cross_references": [
     {
       "type": "antonym",
@@ -51,12 +51,26 @@
       "headword": "{中古車|ちゅうこしゃ}",
       "label": "used car",
       "target_id": "25939_chuukosha"
+    },
+    {
+      "type": "related",
+      "target_id": "18516_shaken",
+      "reading": "しゃけん",
+      "headword": "{車検|しゃけん}",
+      "label": "vehicle inspection"
+    },
+    {
+      "type": "related",
+      "target_id": "23864_yunyuusha",
+      "reading": "ゆにゅうしゃ",
+      "headword": "{輸入車|ゆにゅうしゃ}",
+      "label": "imported car"
     }
   ],
   "schema_version": "2.0",
   "metadata": {
     "created": "2026-02-16T00:41:26Z",
-    "modified": "2026-06-17T16:27:18Z",
+    "modified": "2026-09-02T04:01:24Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

@@ -15,40 +15,73 @@
   "examples": [
     {
       "id": "21219_renshuumondai_ex1",
-      "japanese": "{練習問題|れんしゅうもんだい}を{解|と}く。",
+      "japanese": "{練習問題|れんしゅうもんだい}⟦を→を：00422_wo⟧⟦{解|と}く→解く：02301_toku⟧。",
       "english": "To solve practice problems.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21219_renshuumondai_ex2",
-      "japanese": "{教科書|きょうかしょ}の{練習問題|れんしゅうもんだい}は{全部|ぜんぶ}やりましたか。",
+      "japanese": "⟦{教科書|きょうかしょ}→教科書：01085_kyoukasho⟧⟦の→の：09472_no⟧{練習問題|れんしゅうもんだい}⟦は→は：00079_ha⟧⟦{全部|ぜんぶ}→全部：02888_zenbu⟧⟦やりました→やる：02980_yaru⟧⟦か→か：09473_ka⟧。",
       "english": "Did you do all the practice problems in the textbook?",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21219_renshuumondai_ex3",
-      "japanese": "{試験|しけん}{前|まえ}に{練習問題|れんしゅうもんだい}を{繰|く}り{返|かえ}し{解|と}いて、{苦手|にがて}な{分野|ぶんや}を{克服|こくふく}した。",
+      "japanese": "⟦{試験|しけん}→試験：01422_shiken⟧⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧{練習問題|れんしゅうもんだい}⟦を→を：00422_wo⟧⟦{繰|く}り{返|かえ}し→繰り返す：02051_kurikaesu⟧⟦{解|と}いて→解く：02301_toku⟧、⟦{苦手|にがて}→苦手：03513_nigate⟧な⟦{分野|ぶんや}→分野：03612_bunya⟧⟦を→を：00422_wo⟧⟦{克服|こくふく}した→克服する：15863_kokufukusuru⟧。",
       "english": "Before the exam, I solved practice problems repeatedly and overcame my weak areas.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Compound of {練習|れんしゅう} (practice) + {問題|もんだい} (problem, question). The standard term for exercises found at the end of textbook chapters or in workbooks.\n\nCOMMON COLLOCATIONS:\n- {練習問題|れんしゅうもんだい}を{解|と}く: to solve practice problems\n- {練習問題|れんしゅうもんだい}に{取|と}り{組|く}む: to work on exercises\n- {練習問題|れんしゅうもんだい}の{答|こた}え: answers to practice problems\n- {練習問題|れんしゅうもんだい}{集|しゅう}: collection of practice problems, problem set\n\nSIMILAR WORDS:\n- {問題集|もんだいしゅう}: problem book, workbook — a book consisting entirely of practice problems\n- {試験問題|しけんもんだい}: exam questions — questions on an actual test, not for practice\n- {応用問題|おうようもんだい}: applied problems — more advanced problems that require applying learned concepts\n- ドリル: drill — often used for repetitive practice exercises, especially for younger students",
+  "notes": "Compound of ⟦{練習|れんしゅう}→練習：05323_renshuu⟧ (practice) + ⟦{問題|もんだい}→問題：00797_mondai⟧ (problem, question). The standard term for exercises found at the end of textbook chapters or in workbooks.\n\nCOMMON COLLOCATIONS:\n- {練習問題|れんしゅうもんだい}⟦を→を：00422_wo⟧⟦{解|と}く→解く：02301_toku⟧: to solve practice problems\n- {練習問題|れんしゅうもんだい}⟦に→に：00314_ni⟧⟦{取|と}り{組|く}む→取り組む：04225_torikumu⟧: to work on exercises\n- {練習問題|れんしゅうもんだい}⟦の→の：09472_no⟧⟦{答|こた}え→答え：00790_kotae⟧: answers to practice problems\n- {練習問題|れんしゅうもんだい}{集|しゅう}: collection of practice problems, problem set\n\nSIMILAR WORDS:\n- ⟦{問題集|もんだいしゅう}→問題集：09602_mondaishuu⟧: problem book, workbook — a book consisting entirely of practice problems\n- ⟦{試験問題|しけんもんだい}→試験問題：22062_shikenmondai⟧: exam questions — questions on an actual test, not for practice\n- {応用問題|おうようもんだい}: applied problems — more advanced problems that require applying learned concepts\n- ⟦ドリル→ドリル：11148_doriru⟧: drill — often used for repetitive practice exercises, especially for younger students",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09602_mondaishuu",
+      "reading": "もんだいしゅう",
+      "headword": "{問題集|もんだいしゅう}",
+      "label": "problem book, workbook"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22062_shikenmondai",
+      "reading": "しけんもんだい",
+      "headword": "{試験問題|しけんもんだい}",
+      "label": "exam questions"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11148_doriru",
+      "reading": "どりる",
+      "headword": "ドリル",
+      "label": "drill"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["education"]
+      "semantic": [
+        "education"
+      ]
     },
     "created": "2026-04-01T14:16:10Z",
-    "modified": "2026-04-01T14:16:10Z"
+    "modified": "2026-09-02T04:02:02Z"
   }
 }

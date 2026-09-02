@@ -15,41 +15,76 @@
   "examples": [
     {
       "id": "26252_kenanjikou_ex1",
-      "japanese": "{懸案事項|けんあんじこう}を{確認|かくにん}する。",
+      "japanese": "{懸案事項|けんあんじこう}⟦を→を：00422_wo⟧⟦{確認|かくにん}する→確認する：25332_kakuninsuru⟧。",
       "english": "Let's review the pending matters.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26252_kenanjikou_ex2",
-      "japanese": "{会議|かいぎ}で{懸案事項|けんあんじこう}について{話|はな}し{合|あ}った。",
+      "japanese": "⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦で→で：00502_de⟧{懸案事項|けんあんじこう}⟦について→〜について：03103_nitsuite⟧⟦{話|はな}し{合|あ}った→話し合う：02396_hanashiau⟧。",
       "english": "We discussed the outstanding issues at the meeting.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26252_kenanjikou_ex3",
-      "japanese": "{長年|ながねん}の{懸案事項|けんあんじこう}であった{法案|ほうあん}が、ようやく{可決|かけつ}された。",
+      "japanese": "⟦{長年|ながねん}→長年：09684_naganen⟧⟦の→の：09472_no⟧{懸案事項|けんあんじこう}であった⟦{法案|ほうあん}→法案：09758_houan⟧⟦が→が：00051_ga⟧、ようやく⟦{可決|かけつ}→可決：00148_kaketsu⟧⟦された→する：00392_suru⟧。",
       "english": "The bill, which had been a long-standing issue, was finally passed.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {懸案|けんあん} (pending problem; matter of concern) and {事項|じこう} (matter; item). A formal compound frequently used in meeting agendas, reports, and official documents.\n\nCOMMON COLLOCATIONS:\n- {懸案事項|けんあんじこう}の{解決|かいけつ}: resolution of outstanding issues\n- {懸案事項|けんあんじこう}リスト: list of pending matters\n- {長年|ながねん}の{懸案事項|けんあんじこう}: long-standing issue\n- {主|おも}な{懸案事項|けんあんじこう}: major outstanding issues\n- {懸案事項|けんあんじこう}を{整理|せいり}する: to organize pending items\n\nSIMILAR WORDS:\n- {懸案|けんあん}: pending matter — the shorter, more concise form; {懸案事項|けんあんじこう} is more formal and explicit\n- {課題|かだい}: issue; challenge; task — broader in scope and less formal; can refer to problems, assignments, or goals\n- {問題点|もんだいてん}: problem area; issue — focuses on what is problematic rather than what is unresolved\n- {未解決|みかいけつ}: unresolved — emphasizes the lack of resolution rather than the need for action",
+  "notes": "Composed of ⟦{懸案|けんあん}→懸案：18978_kenan⟧ (pending problem; matter of concern) and ⟦{事項|じこう}→事項：11469_jikou⟧ (matter; item). A formal compound frequently used in meeting agendas, reports, and official documents.\n\nCOMMON COLLOCATIONS:\n- {懸案事項|けんあんじこう}⟦の→の：09472_no⟧⟦{解決|かいけつ}→解決：00136_kaiketsu⟧: resolution of outstanding issues\n- {懸案事項|けんあんじこう}⟦リスト→リスト：09786_risuto⟧: list of pending matters\n- ⟦{長年|ながねん}→長年：09684_naganen⟧⟦の→の：09472_no⟧{懸案事項|けんあんじこう}: long-standing issue\n- ⟦{主|おも}な→主な：21018_omona⟧{懸案事項|けんあんじこう}: major outstanding issues\n- {懸案事項|けんあんじこう}⟦を→を：00422_wo⟧⟦{整理|せいり}する→整理する：21729_seirisuru⟧: to organize pending items\n\nSIMILAR WORDS:\n- ⟦{懸案|けんあん}→懸案：18978_kenan⟧: pending matter — the shorter, more concise form; {懸案事項|けんあんじこう} is more formal and explicit\n- ⟦{課題|かだい}→課題：00132_kadai⟧: issue; challenge; task — broader in scope and less formal; can refer to problems, assignments, or goals\n- ⟦{問題点|もんだいてん}→問題点：20619_mondaiten⟧: problem area; issue — focuses on what is problematic rather than what is unresolved\n- ⟦{未解決|みかいけつ}→未解決：17292_mikaiketsu⟧: unresolved — emphasizes the lack of resolution rather than the need for action",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00132_kadai",
+      "reading": "かだい",
+      "headword": "{課題|かだい}",
+      "label": "issue"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20619_mondaiten",
+      "reading": "もんだいてん",
+      "headword": "{問題点|もんだいてん}",
+      "label": "problem area"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17292_mikaiketsu",
+      "reading": "みかいけつ",
+      "headword": "{未解決|みかいけつ}",
+      "label": "unresolved"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["business"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "business"
+      ]
     },
     "created": "2026-04-30T13:39:44Z",
-    "modified": "2026-04-30T13:39:44Z"
+    "modified": "2026-09-02T04:02:25Z"
   }
 }

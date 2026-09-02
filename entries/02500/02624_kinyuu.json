@@ -2,7 +2,7 @@
   "id": "02624_kinyuu",
   "headword": "{記入|きにゅう}",
   "reading": "きにゅう",
-  "part_of_speech": "noun / suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "entry, filling in (a form)",
   "conjugation": {
     "type": "suru",
@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "02624_kinyuu_ex1",
-      "japanese": "⟦{名前|なまえ}→名前：02234_namae⟧⟦と→と：00512_to⟧⟦{住所|じゅうしょ}→住所：01430_juusho⟧⟦を→を：00422_wo⟧{記入|きにゅう}して⟦ください→ください：02899_kudasai⟧。",
+      "japanese": "⟦{名前|なまえ}→名前：02234_namae⟧⟦と→と：00512_to⟧⟦{住所|じゅうしょ}→住所：01430_juusho⟧⟦を→を：00422_wo⟧{記入|きにゅう}⟦して→する：00392_suru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please fill in your name and address.",
       "notes": null,
       "has_audio": false,
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "{記入|きにゅう} is used when filling out forms or documents.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- No standard intransitive pair\n- Pattern: [noun]⟦を→を：00422_wo⟧{記入|きにゅう}する\n\nCOMMON PATTERNS:\n- {記入|きにゅう}する (to fill in, to enter)\n- {記入|きにゅう}してください (please fill in)\n- 〜⟦を→を：00422_wo⟧{記入|きにゅう}する (to fill in ~)\n\nCOMPOUND WORDS:\n- {記入|きにゅう}⟦{欄|らん}→欄：03901_ran⟧ (entry field, blank space)\n- {記入|きにゅう}⟦{例|れい}→例：09932_rei⟧ (example entry)\n- {記入|きにゅう}⟦{漏|も}れ→漏れ：13362_more⟧ (omission in filling out)\n\nSIMILAR WORDS:\n- {記入|きにゅう}: fill in (forms)\n- ⟦{入力|にゅうりょく}→入力：04769_nyuuryoku⟧: input (digital/computer)\n- ⟦{書|か}き{込|こ}む→書き込む：04599_kakikomu⟧: write in, fill in (informal)\n- ⟦{記載|きさい}→記載：14169_kisai⟧: description, mention (more formal)",
+  "notes": "{記入|きにゅう} is used when filling out forms or documents.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- No standard intransitive pair\n- Pattern: [noun]⟦を→を：00422_wo⟧{記入|きにゅう}⟦する→する：00392_suru⟧\n\nCOMMON PATTERNS:\n- {記入|きにゅう}⟦する→する：00392_suru⟧ (to fill in, to enter)\n- {記入|きにゅう}⟦して→する：00392_suru⟧⟦ください→ください：02899_kudasai⟧ (please fill in)\n- 〜⟦を→を：00422_wo⟧{記入|きにゅう}⟦する→する：00392_suru⟧ (to fill in ~)\n\nCOMPOUNDS:\n- {記入|きにゅう}⟦{欄|らん}→欄：03901_ran⟧ (entry field, blank space)\n- {記入|きにゅう}⟦{例|れい}→例：09932_rei⟧ (example entry)\n- {記入|きにゅう}⟦{漏|も}れ→漏れ：13362_more⟧ (omission in filling out)\n\nSIMILAR WORDS:\n- {記入|きにゅう}: fill in (forms)\n- ⟦{入力|にゅうりょく}→入力：04769_nyuuryoku⟧: input (digital/computer)\n- ⟦{書|か}き{込|こ}む→書き込む：04599_kakikomu⟧: write in, fill in (informal)\n- ⟦{記載|きさい}→記載：14169_kisai⟧: description, mention (more formal)",
   "cross_references": [
     {
       "type": "related",
@@ -148,11 +148,25 @@
       "reading": "きさい",
       "headword": "{記載|きさい}",
       "label": "formal"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04599_kakikomu",
+      "reading": "かきこむ",
+      "headword": "{書|か}き{込|こ}む",
+      "label": "write in, fill in"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00477_kaku",
+      "reading": "かく",
+      "headword": "{書|か}く",
+      "label": "to write"
     }
   ],
   "metadata": {
     "created": "2026-01-11T06:43:14Z",
-    "modified": "2026-06-12T04:00:00Z",
+    "modified": "2026-09-02T04:01:02Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

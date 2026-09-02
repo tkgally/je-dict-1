@@ -3,7 +3,7 @@
   "headword": "ウィンドウショッピング",
   "reading": "うぃんどうしょっぴんぐ",
   "romaji": "windoushoppingu",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "window shopping",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30463_windoushoppingu_ex1",
-      "japanese": "ウィンドウショッピングが{好|す}きだ。",
+      "japanese": "ウィンドウショッピング⟦が→が：00051_ga⟧⟦{好|す}き→好き：02355_suki⟧だ。",
       "english": "I like window shopping.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30463_windoushoppingu_ex2",
-      "japanese": "{買|か}う{気|き}はないが、ウィンドウショッピングを{楽|たの}しんだ。",
+      "japanese": "⟦{買|か}う→買う：00489_kau⟧⟦{気|き}→気：02199_ki⟧⟦は→は：00079_ha⟧⟦ない→ない：01118_nai⟧⟦が→が：00051_ga⟧、ウィンドウショッピング⟦を→を：00422_wo⟧⟦{楽|たの}しんだ→楽しむ：01203_tanoshimu⟧。",
       "english": "I had no intention of buying anything, but I enjoyed window shopping.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30463_windoushoppingu_ex3",
-      "japanese": "{給料日|きゅうりょうび}{前|まえ}は、いつも{駅前|えきまえ}でウィンドウショッピングをして{時間|じかん}をつぶす。",
+      "japanese": "⟦{給料日|きゅうりょうび}→給料日：27561_kyuuryoubi⟧⟦{前|まえ}→前：02255_mae⟧⟦は→は：00079_ha⟧、⟦いつも→いつも：00599_itsumo⟧⟦{駅前|えきまえ}→駅前：09593_ekimae⟧⟦で→で：00502_de⟧ウィンドウショッピング⟦を→を：00422_wo⟧⟦して→する：00392_suru⟧⟦{時間|じかん}→時間：00468_jikan⟧⟦を→を：00422_wo⟧つぶす。",
       "english": "Before payday I always kill time window shopping in front of the station.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "From English \"window shopping\". Also written ウインドウショッピング and ウィンドーショッピング; all are the same word.\n\nCOMMON COLLOCATIONS:\n- ウィンドウショッピングをする: to go window shopping\n- ウィンドウショッピングを{楽|たの}しむ: to enjoy window shopping\n- ウィンドウショッピングに{行|い}く: to go out window shopping\n\nSIMILAR WORDS:\n- {冷|ひ}やかし: browsing without buying — implies wasting the shopkeeper's time, so it carries a negative edge that ウィンドウショッピング does not\n- {見|み}て{回|まわ}る: to look around — plain and neutral, and not restricted to shops",
+  "notes": "From English \"window shopping\". Also written ウインドウ⟦ショッピング→ショッピング：28815_shoppingu⟧ and ウィンドー⟦ショッピング→ショッピング：28815_shoppingu⟧; all are the same word.\n\nCOMMON COLLOCATIONS:\n- ウィンドウショッピング⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧: to go window shopping\n- ウィンドウショッピング⟦を→を：00422_wo⟧⟦{楽|たの}しむ→楽しむ：01203_tanoshimu⟧: to enjoy window shopping\n- ウィンドウショッピング⟦に→に：00314_ni⟧⟦{行|い}く→行く：00119_iku⟧: to go out window shopping\n\nSIMILAR WORDS:\n- ⟦{冷|ひ}やかし→冷やかし：30480_hiyakashi⟧: browsing without buying — implies wasting the shopkeeper's time, so it carries a negative edge that ウィンドウショッピング does not\n- ⟦{見|み}て→見る：00283_miru⟧⟦{回|まわ}る→回る：01150_mawaru⟧: to look around — plain and neutral, and not restricted to shops",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "30480_hiyakashi",
+      "reading": "ひやかし",
+      "headword": "{冷|ひ}やかし",
+      "label": "browsing without buying"
+    },
+    {
+      "type": "related",
+      "target_id": "28815_shoppingu",
+      "reading": "しょっぴんぐ",
+      "headword": "ショッピング",
+      "label": "shopping"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -54,7 +70,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "shopping",
         "leisure"
@@ -63,7 +79,7 @@
       "verb_class": "suru"
     },
     "created": "2026-08-07T00:23:55Z",
-    "modified": "2026-08-07T00:23:55Z"
+    "modified": "2026-09-02T04:02:40Z"
   },
   "conjugation": {
     "type": "suru",

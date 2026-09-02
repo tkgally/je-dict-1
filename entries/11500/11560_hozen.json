@@ -2,7 +2,7 @@
   "id": "11560_hozen",
   "headword": "{保全|ほぜん}",
   "reading": "ほぜん",
-  "part_of_speech": "noun / verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "conservation, preservation",
   "conjugation": {
     "type": "suru",
@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "11560_hozen_ex1",
-      "japanese": "{環境|かんきょう}{保全|ほぜん}に{取|と}り{組|く}む。",
+      "japanese": "⟦{環境|かんきょう}→環境：00174_kankyou⟧{保全|ほぜん}⟦に→に：00314_ni⟧⟦{取|と}り{組|く}む→取り組む：04225_torikumu⟧。",
       "english": "Work on environmental conservation.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "11560_hozen_ex2",
-      "japanese": "{生態系|せいたいけい}の{保全|ほぜん}が{急務|きゅうむ}となっている。",
+      "japanese": "⟦{生態系|せいたいけい}→生態系：04626_seitaikei⟧⟦の→の：09472_no⟧{保全|ほぜん}⟦が→が：00051_ga⟧⟦{急務|きゅうむ}→急務：21059_kyuumu⟧⟦と→と：00512_to⟧⟦なっている→なる：01970_naru⟧。",
       "english": "The preservation of ecosystems has become an urgent matter.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "11560_hozen_ex3",
-      "japanese": "{設備|せつび}の{保全|ほぜん}{活動|かつどう}を{定期的|ていきてき}に{実施|じっし}している。",
+      "japanese": "⟦{設備|せつび}→設備：03301_setsubi⟧⟦の→の：09472_no⟧{保全|ほぜん}⟦{活動|かつどう}→活動：00201_katsudou⟧⟦を→を：00422_wo⟧⟦{定期的|ていきてき}→定期的：06173_teikiteki⟧⟦に→に：00314_ni⟧⟦{実施|じっし}している→実施する：19634_jisshisuru⟧。",
       "english": "We carry out equipment maintenance activities regularly.",
       "notes": null,
       "has_audio": false,
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "Used in both environmental and industrial/technical contexts. In environmental contexts, similar to {保護|ほご} (protection) but emphasizes maintaining the current state rather than active intervention. In industrial contexts, refers to maintenance work to keep equipment running properly.\n\nCOMMON COLLOCATIONS:\n・{環境|かんきょう}{保全|ほぜん} (environmental conservation)\n・{自然|しぜん}{保全|ほぜん} (nature conservation)\n・{安全|あんぜん}{保全|ほぜん} (safety maintenance)\n・{設備|せつび}{保全|ほぜん} (facility/equipment maintenance)\n・{保全|ほぜん}{活動|かつどう} (conservation activities)",
+  "notes": "Used in both environmental and industrial/technical contexts. In environmental contexts, similar to ⟦{保護|ほご}→保護：03625_hogo⟧ (protection) but emphasizes maintaining the current state rather than active intervention. In industrial contexts, refers to maintenance work to keep equipment running properly.\n\nCOMMON COLLOCATIONS:\n- ⟦{環境|かんきょう}→環境：00174_kankyou⟧{保全|ほぜん} (environmental conservation)\n- ⟦{自然|しぜん}→自然：01423_shizen⟧{保全|ほぜん} (nature conservation)\n- ⟦{安全|あんぜん}→安全：01131_anzen⟧{保全|ほぜん} (safety maintenance)\n- ⟦{設備|せつび}→設備：03301_setsubi⟧{保全|ほぜん} (facility/equipment maintenance)\n- {保全|ほぜん}⟦{活動|かつどう}→活動：00201_katsudou⟧ (conservation activities)",
   "cross_references": [
     {
       "type": "synonym",
@@ -148,11 +148,25 @@
       "reading": "ほぞん",
       "headword": "{保存|ほぞん}",
       "label": "preservation, storage"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19292_aigo",
+      "reading": "あいご",
+      "headword": "{愛護|あいご}",
+      "label": "protection"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25374_hogosuru",
+      "reading": "ほごする",
+      "headword": "{保護|ほご}する",
+      "label": "to protect"
     }
   ],
   "metadata": {
     "created": "2026-02-17T13:19:19Z",
-    "modified": "2026-04-25T07:03:16Z",
+    "modified": "2026-09-02T04:01:25Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",

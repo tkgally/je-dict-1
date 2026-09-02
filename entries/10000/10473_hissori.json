@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "10473_hissori_ex1",
-      "japanese": "{村|むら}はひっそりとしていた。",
+      "japanese": "⟦{村|むら}→村：02261_mura⟧⟦は→は：00079_ha⟧ひっそり⟦として→として：06802_toshite⟧⟦いた→いる：00495_iru⟧。",
       "english": "The village was quiet and still.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "10473_hissori_ex2",
-      "japanese": "ひっそりと{涙|なみだ}を{流|なが}した。",
+      "japanese": "ひっそり⟦と→と：00512_to⟧⟦{涙|なみだ}→涙：02235_namida⟧⟦を→を：00422_wo⟧⟦{流|なが}した→流す：01968_nagasu⟧。",
       "english": "She quietly shed tears.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "10473_hissori_ex3",
-      "japanese": "{路地裏|ろじうら}にひっそりとたたずむ{小|ちい}さなカフェを{見|み}つけた。",
+      "japanese": "⟦{路地裏|ろじうら}→路地裏：09382_rojiura⟧⟦に→に：00314_ni⟧ひっそり⟦と→と：00512_to⟧たたずむ⟦{小|ちい}さな→小さな：02913_chiisana⟧⟦カフェ→カフェ：06767_kafe⟧⟦を→を：00422_wo⟧⟦{見|み}つけた→見つける：01180_mitsukeru⟧。",
       "english": "I found a small cafe standing quietly tucked away in a back alley.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "ひっそり describes a quiet, still, unobtrusive state. Often used with と (ひっそりと) when modifying a verb.\n\nCOMMON COLLOCATIONS:\n- ひっそりとしている: to be quiet and deserted\n- ひっそりと{暮|く}らす: to live quietly\n- ひっそりとたたずむ: to stand quietly\n\nSIMILAR WORDS:\n- しんと: dead silent (emphasizes absence of sound)\n- こっそり: secretly, stealthily (emphasizes hiding from others)\n- そっと: gently, quietly (emphasizes carefulness)",
+  "notes": "ひっそり describes a quiet, still, unobtrusive state. Often used with ⟦と→と：00512_to⟧ (ひっそり⟦と→と：00512_to⟧) when modifying a verb.\n\nCOMMON COLLOCATIONS:\n- ひっそり⟦として→として：06802_toshite⟧⟦いる→いる：00495_iru⟧: to be quiet and deserted\n- ひっそり⟦と→と：00512_to⟧⟦{暮|く}らす→暮らす：01937_kurasu⟧: to live quietly\n- ひっそり⟦と→と：00512_to⟧たたずむ: to stand quietly\n\nSIMILAR WORDS:\n- しんと: dead silent (emphasizes absence of sound)\n- ⟦こっそり→こっそり：05890_kossori⟧: secretly, stealthily (emphasizes hiding from others)\n- ⟦そっと→そっと：03321_sotto⟧: gently, quietly (emphasizes carefulness)",
   "cross_references": [
     {
       "type": "contrast",
@@ -52,11 +52,25 @@
       "headword": "こっそり",
       "label": "secretly",
       "target_id": "05890_kossori"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03321_sotto",
+      "reading": "そっと",
+      "headword": "そっと",
+      "label": "gently, quietly"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18611_shizukani",
+      "reading": "しずかに",
+      "headword": "{静|しず}かに",
+      "label": "quietly"
     }
   ],
   "metadata": {
     "created": "2026-02-07T21:20:27Z",
-    "modified": "2026-06-27T03:38:18Z",
+    "modified": "2026-09-02T04:01:21Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

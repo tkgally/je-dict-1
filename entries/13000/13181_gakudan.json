@@ -15,48 +15,65 @@
   "examples": [
     {
       "id": "13181_gakudan_ex1",
-      "japanese": "{楽団|がくだん}に{入|はい}る。",
+      "japanese": "{楽団|がくだん}⟦に→に：00314_ni⟧⟦{入|はい}る→入る：00494_hairu⟧。",
       "english": "To join an orchestra.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13181_gakudan_ex2",
-      "japanese": "この{楽団|がくだん}は{毎年|まいとし}{定期|ていき}{演奏会|えんそうかい}を{開|ひら}いている。",
+      "japanese": "⟦この→この：00962_kono⟧{楽団|がくだん}⟦は→は：00079_ha⟧⟦{毎年|まいとし}→毎年：00731_maitoshi⟧⟦{定期|ていき}→定期：03538_teiki⟧⟦{演奏会|えんそうかい}→演奏会：18026_ensoukai⟧⟦を→を：00422_wo⟧⟦{開|ひら}いている→開く：01979_hiraku⟧。",
       "english": "This orchestra holds regular concerts every year.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13181_gakudan_ex3",
-      "japanese": "{世界的|せかいてき}に{有名|ゆうめい}な{楽団|がくだん}が{来日|らいにち}し、{各地|かくち}で{公演|こうえん}を{行|おこな}った。",
+      "japanese": "⟦{世界的|せかいてき}→世界的：20935_sekaiteki⟧⟦に→に：00314_ni⟧⟦{有名|ゆうめい}→有名：01106_yuumei⟧な{楽団|がくだん}⟦が→が：00051_ga⟧⟦{来日|らいにち}→来日：13060_rainichi⟧し、⟦{各地|かくち}→各地：00155_kakuchi⟧⟦で→で：00502_de⟧⟦{公演|こうえん}→公演：11639_kouen⟧⟦を→を：00422_wo⟧⟦{行|おこな}った→行う：01238_okonau⟧。",
       "english": "A world-famous orchestra came to Japan and gave performances in various cities.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "ETYMOLOGY:\n{楽|がく} (music) + {団|だん} (group, troupe). Literally \"music group.\"\n\nUSAGE:\n{楽団|がくだん} is the general Japanese term for an organized musical group. More specific terms exist: {管弦楽団|かんげんがくだん} (symphony orchestra), {吹奏楽団|すいそうがくだん} (wind ensemble), {軍楽隊|ぐんがくたい} (military band). オーケストラ (orchestra) is also commonly used for Western-style orchestras.\n\nCOMMON COLLOCATIONS:\n- {交響|こうきょう}{楽団|がくだん}: symphony orchestra\n- {管弦|かんげん}{楽団|がくだん}: orchestra (lit. wind and string ensemble)\n- {楽団|がくだん}の{指揮者|しきしゃ}: conductor of an orchestra\n- {楽団|がくだん}{員|いん}: orchestra member\n- {楽団|がくだん}を{率|ひき}いる: to lead an orchestra",
+  "notes": "ETYMOLOGY:\n{楽|がく} (music) + ⟦{団|だん}→〜団：04663_dan⟧ (group, troupe). Literally \"music group.\"\n\nUSAGE:\n{楽団|がくだん} is the general Japanese term for an organized musical group. More specific terms exist: {管弦楽団|かんげんがくだん} (symphony orchestra), {吹奏楽団|すいそうがくだん} (wind ensemble), {軍楽隊|ぐんがくたい} (military band). ⟦オーケストラ→オーケストラ：04466_ookesutora⟧ (orchestra) is also commonly used for Western-style orchestras.\n\nCOMMON COLLOCATIONS:\n- {交響|こうきょう}{楽団|がくだん}: symphony orchestra\n- {管弦|かんげん}{楽団|がくだん}: orchestra (lit. wind and string ensemble)\n- {楽団|がくだん}⟦の→の：09472_no⟧⟦{指揮者|しきしゃ}→指揮者：06565_shikisha⟧: conductor of an orchestra\n- {楽団|がくだん}{員|いん}: orchestra member\n- {楽団|がくだん}⟦を→を：00422_wo⟧⟦{率|ひき}いる→率いる：10879_hikiiru⟧: to lead an orchestra",
   "cross_references": [
     {
       "target_id": "13159_gakki",
       "reading": "がっき",
       "type": "related",
       "description": "musical instrument"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24888_ongakutai",
+      "reading": "おんがくたい",
+      "headword": "{音楽隊|おんがくたい}",
+      "label": "band"
     }
   ],
   "metadata": {
     "created": "2026-02-23T12:26:16Z",
-    "modified": "2026-02-23T12:26:16Z",
+    "modified": "2026-09-02T04:01:32Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["music"]
+      "semantic": [
+        "music"
+      ]
     }
   }
 }

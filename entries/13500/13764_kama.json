@@ -15,41 +15,59 @@
   "examples": [
     {
       "id": "13764_kama_ex1",
-      "japanese": "{窯|かま}で{焼|や}いた{茶碗|ちゃわん}。",
+      "japanese": "{窯|かま}⟦で→で：00502_de⟧⟦{焼|や}いた→焼く：01123_yaku⟧⟦{茶碗|ちゃわん}→茶碗：01019_chawan⟧。",
       "english": "A tea bowl fired in a kiln.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13764_kama_ex2",
-      "japanese": "この{窯|かま}は{三百年|さんびゃくねん}の{歴史|れきし}がある。",
+      "japanese": "⟦この→この：00962_kono⟧{窯|かま}⟦は→は：00079_ha⟧{三百年|さんびゃくねん}⟦の→の：09472_no⟧⟦{歴史|れきし}→歴史：02267_rekishi⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "This kiln has a history of three hundred years.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13764_kama_ex3",
-      "japanese": "{陶芸家|とうげいか}は{窯|かま}の{温度|おんど}を{慎重|しんちょう}に{管理|かんり}している。",
+      "japanese": "⟦{陶芸家|とうげいか}→陶芸家：20904_tougeika⟧⟦は→は：00079_ha⟧{窯|かま}⟦の→の：09472_no⟧⟦{温度|おんど}→温度：00333_ondo⟧⟦を→を：00422_wo⟧⟦{慎重|しんちょう}→慎重：03264_shinchou⟧⟦に→に：00314_ni⟧⟦{管理|かんり}している→管理する：21910_kanrisuru⟧。",
       "english": "The potter carefully controls the kiln temperature.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\n{窯|かま} specifically refers to a kiln for firing ceramics, bricks, or producing charcoal. Do not confuse with the homophone {釜|かま} (cooking pot, kettle), which is a kitchen vessel.\n\nCOMMON COLLOCATIONS:\n- {窯|かま}で{焼|や}く: to fire in a kiln\n- {窯|かま}を{開|ひら}く: to open a kiln (after firing)\n- {登|のぼ}り{窯|がま}: climbing kiln (traditional multi-chamber kiln built on a slope)\n- {窯元|かまもと}: pottery workshop, kiln site\n- {窯|かま}{出|だ}し: removing pieces from the kiln after firing\n\nKANJI NOTE:\nThe kanji {窯|かま} contains the {穴|あな} (hole) radical at the top, reflecting the kiln's structure. The bottom component {羊|ひつじ} + {火|ひ} suggests heating inside an enclosed space.",
-  "cross_references": [],
+  "notes": "USAGE:\n{窯|かま} specifically refers to a kiln for firing ceramics, bricks, or producing charcoal. Do not confuse with the homophone ⟦{釜|かま}→釜：03880_kama⟧ (cooking pot, kettle), which is a kitchen vessel.\n\nCOMMON COLLOCATIONS:\n- {窯|かま}⟦で→で：00502_de⟧⟦{焼|や}く→焼く：01123_yaku⟧: to fire in a kiln\n- {窯|かま}⟦を→を：00422_wo⟧⟦{開|ひら}く→開く：01979_hiraku⟧: to open a kiln (after firing)\n- {登|のぼ}り{窯|がま}: climbing kiln (traditional multi-chamber kiln built on a slope)\n- {窯元|かまもと}: pottery workshop, kiln site\n- {窯|かま}{出|だ}し: removing pieces from the kiln after firing\n\nWRITING:\nThe kanji {窯|かま} contains the ⟦{穴|あな}→穴：01691_ana⟧ (hole) radical at the top, reflecting the kiln's structure. The bottom component ⟦{羊|ひつじ}→羊：04713_hitsuji⟧ + ⟦{火|ひ}→火：02248_hi⟧ suggests heating inside an enclosed space.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "23335_yuuyaku",
+      "reading": "ゆうやく",
+      "headword": "{釉薬|ゆうやく}",
+      "label": "glaze (ceramics)"
+    }
+  ],
   "metadata": {
     "created": "2026-02-27T03:10:34Z",
-    "modified": "2026-02-27T03:10:34Z",
+    "modified": "2026-09-02T04:01:34Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["tool"]
+      "semantic": [
+        "tool"
+      ]
     }
   }
 }

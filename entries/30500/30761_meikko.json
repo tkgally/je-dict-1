@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "30761_meikko_ex1",
-      "japanese": "{姪|めい}っ{子|こ}は{三歳|さんさい}だ。",
+      "japanese": "{姪|めい}っ{子|こ}⟦は→は：00079_ha⟧{三歳|さんさい}だ。",
       "english": "My niece is three years old.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "30761_meikko_ex2",
-      "japanese": "{姪|めい}っ{子|こ}の{入学式|にゅうがくしき}の{写真|しゃしん}が{届|とど}いた。",
+      "japanese": "{姪|めい}っ{子|こ}⟦の→の：09472_no⟧⟦{入学式|にゅうがくしき}→入学式：05495_nyuugakushiki⟧⟦の→の：09472_no⟧⟦{写真|しゃしん}→写真：00753_shashin⟧⟦が→が：00051_ga⟧⟦{届|とど}いた→届く：00899_todoku⟧。",
       "english": "Photos from my niece's school entrance ceremony arrived.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "30761_meikko_ex3",
-      "japanese": "{久|ひさ}しぶりに{会|あ}った{姪|めい}っ{子|こ}は、すっかり{大|おお}きくなっていた。",
+      "japanese": "⟦{久|ひさ}しぶり→久しぶり：01711_hisashiburi⟧⟦に→に：00314_ni⟧⟦{会|あ}った→会う：00482_au⟧{姪|めい}っ{子|こ}⟦は→は：00079_ha⟧、⟦すっかり→すっかり：01270_sukkari⟧⟦{大|おお}きく→大きい：00335_ookii⟧⟦なっていた→なる：01970_naru⟧。",
       "english": "My niece, whom I hadn't seen in a long time, had grown up completely.",
       "sense_numbers": [
         1
@@ -43,8 +43,24 @@
       "notes": null
     }
   ],
-  "notes": "COMMON COLLOCATIONS:\n- {姪|めい}っ{子|こ}が{生|う}まれる: to have a niece born\n- {姪|めい}っ{子|こ}をかわいがる: to dote on one's niece\n- {姪|めい}っ{子|こ}と{甥|おい}っ{子|こ}: one's nieces and nephews\n\nSIMILAR WORDS:\n- {姪|めい}: niece — the plain, neutral term used in writing and formal contexts\n- {甥|おい}っ{子|こ}: nephew — the matching form\n- いとこ: cousin — a different relation that learners often mix up with {姪|めい}\n\nJapanese has no single word covering both nieces and nephews, so speakers say {甥|おい}っ{子|こ}{姪|めい}っ{子|こ} when they mean the pair together.",
+  "notes": "COMMON COLLOCATIONS:\n- {姪|めい}っ{子|こ}⟦が→が：00051_ga⟧⟦{生|う}まれる→生まれる：00905_umareru⟧: to have a niece born\n- {姪|めい}っ{子|こ}⟦を→を：00422_wo⟧かわい⟦がる→〜がる：03089_garu⟧: to dote on one's niece\n- {姪|めい}っ{子|こ}⟦と→と：00512_to⟧⟦{甥|おい}っ{子|こ}→甥っ子：30760_oikko⟧: one's nieces and nephews\n\nSIMILAR WORDS:\n- ⟦{姪|めい}→姪：03899_mei⟧: niece — the plain, neutral term used in writing and formal contexts\n- ⟦{甥|おい}っ{子|こ}→甥っ子：30760_oikko⟧: nephew — the matching form\n- ⟦いとこ→いとこ：01816_itoko⟧: cousin — a different relation that learners often mix up with ⟦{姪|めい}→姪：03899_mei⟧\n\nJapanese has no single word covering both nieces and nephews, so speakers say ⟦{甥|おい}っ{子|こ}→甥っ子：30760_oikko⟧{姪|めい}っ{子|こ} when they mean the pair together.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "30760_oikko",
+      "reading": "おいっこ",
+      "headword": "{甥|おい}っ{子|こ}",
+      "label": "nephew"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01816_itoko",
+      "reading": "いとこ",
+      "headword": "いとこ",
+      "label": "cousin"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -52,13 +68,13 @@
         "noun"
       ],
       "formality": "informal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "family"
       ],
       "domain": []
     },
     "created": "2026-08-28T12:31:33Z",
-    "modified": "2026-08-28T12:31:33Z"
+    "modified": "2026-09-02T04:02:41Z"
   }
 }

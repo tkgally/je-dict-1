@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "17519_hijouijitai_ex1",
-      "japanese": "{非常事態|ひじょうじたい}が{発生|はっせい}した。",
+      "japanese": "{非常事態|ひじょうじたい}⟦が→が：00051_ga⟧⟦{発生|はっせい}した→発生する：25529_hasseisuru⟧。",
       "english": "A state of emergency has occurred.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "17519_hijouijitai_ex2",
-      "japanese": "{政府|せいふ}は{非常事態|ひじょうじたい}{宣言|せんげん}を{出|だ}した。",
+      "japanese": "⟦{政府|せいふ}→政府：03294_seifu⟧⟦は→は：00079_ha⟧{非常事態|ひじょうじたい}⟦{宣言|せんげん}→宣言：12284_sengen⟧⟦を→を：00422_wo⟧⟦{出|だ}した→出す：01087_dasu⟧。",
       "english": "The government issued a state of emergency declaration.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "17519_hijouijitai_ex3",
-      "japanese": "{大雪|おおゆき}で{交通|こうつう}が{止|と}まり、{街|まち}は{非常事態|ひじょうじたい}に{陥|おちい}った。",
+      "japanese": "⟦{大雪|おおゆき}→大雪：03017_ooyuki⟧⟦で→で：00502_de⟧⟦{交通|こうつう}→交通：01584_koutsuu⟧⟦が→が：00051_ga⟧⟦{止|と}まり→止まる：00555_tomaru⟧、⟦{街|まち}→街：17306_machi⟧⟦は→は：00079_ha⟧{非常事態|ひじょうじたい}⟦に→に：00314_ni⟧⟦{陥|おちい}った→陥る：14537_ochiiru⟧。",
       "english": "Heavy snow stopped transportation and the city fell into a state of emergency.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nUsed for both official government declarations and informal descriptions of serious situations. The compound {非常事態|ひじょうじたい}{宣言|せんげん} (state of emergency declaration) became widely known during the COVID-19 pandemic in Japan.\n\nCOMMON COLLOCATIONS:\n- {非常事態|ひじょうじたい}{宣言|せんげん} (state of emergency declaration)\n- {非常事態|ひじょうじたい}に{陥|おちい}る (to fall into a state of emergency)\n- {非常事態|ひじょうじたい}が{発生|はっせい}する (an emergency occurs)\n- {非常事態|ひじょうじたい}に{備|そな}える (to prepare for emergencies)\n\nSIMILAR WORDS:\n- {緊急事態|きんきゅうじたい}: emergency — very similar, used interchangeably in many contexts\n- {非常|ひじょう}: emergency, extraordinary — the base word, used as a prefix\n- {危機|きき}: crisis — more abstract, often used for political or economic crises",
+  "notes": "USAGE:\nUsed for both official government declarations and informal descriptions of serious situations. The compound {非常事態|ひじょうじたい}⟦{宣言|せんげん}→宣言：12284_sengen⟧ (state of emergency declaration) became widely known during the COVID-19 pandemic in Japan.\n\nCOMMON COLLOCATIONS:\n- {非常事態|ひじょうじたい}⟦{宣言|せんげん}→宣言：12284_sengen⟧ (state of emergency declaration)\n- {非常事態|ひじょうじたい}⟦に→に：00314_ni⟧⟦{陥|おちい}る→陥る：14537_ochiiru⟧ (to fall into a state of emergency)\n- {非常事態|ひじょうじたい}⟦が→が：00051_ga⟧⟦{発生|はっせい}する→発生する：25529_hasseisuru⟧ (an emergency occurs)\n- {非常事態|ひじょうじたい}⟦に→に：00314_ni⟧⟦{備|そな}える→備える：02125_sonaeru⟧ (to prepare for emergencies)\n\nSIMILAR WORDS:\n- ⟦{緊急事態|きんきゅうじたい}→緊急事態：16936_kinkyuujitai⟧: emergency — very similar, used interchangeably in many contexts\n- ⟦{非常|ひじょう}→非常：01598_hijou⟧: emergency, extraordinary — the base word, used as a prefix\n- ⟦{危機|きき}→危機：11798_kiki⟧: crisis — more abstract, often used for political or economic crises",
   "cross_references": [
     {
       "type": "synonym",
@@ -52,11 +52,32 @@
       "reading": "きんきゅうじたい",
       "headword": "{緊急事態|きんきゅうじたい}",
       "label": "emergency"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11798_kiki",
+      "reading": "きき",
+      "headword": "{危機|きき}",
+      "label": "crisis"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17090_fusokunojitai",
+      "reading": "ふそくのじたい",
+      "headword": "{不測|ふそく}の{事態|じたい}",
+      "label": "unforeseen circumstances"
+    },
+    {
+      "type": "related",
+      "target_id": "22944_yohodonokoto",
+      "reading": "よほどのこと",
+      "headword": "{余程|よほど}の{事|こと}",
+      "label": "something extraordinary"
     }
   ],
   "metadata": {
     "created": "2026-03-18T07:58:52Z",
-    "modified": "2026-05-06T08:07:18Z",
+    "modified": "2026-09-02T04:01:48Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

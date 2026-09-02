@@ -15,40 +15,66 @@
   "examples": [
     {
       "id": "19791_youshiki_ex1",
-      "japanese": "{洋式|ようしき}トイレを{使|つか}う。",
+      "japanese": "{洋式|ようしき}⟦トイレ→トイレ：00818_toire⟧⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧。",
       "english": "To use a Western-style toilet.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19791_youshiki_ex2",
-      "japanese": "この{建物|たてもの}は{洋式|ようしき}の{造|つく}りになっている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{建物|たてもの}→建物：01458_tatemono⟧⟦は→は：00079_ha⟧{洋式|ようしき}⟦の→の：09472_no⟧{造|つく}りになっている。",
       "english": "This building is built in Western style.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19791_youshiki_ex3",
-      "japanese": "{明治|めいじ}{時代|じだい}に{日本|にほん}では{洋式|ようしき}の{生活|せいかつ}{様式|ようしき}が{広|ひろ}まった。",
+      "japanese": "⟦{明治|めいじ}{時代|じだい}→明治時代：28080_meijijidai⟧⟦に→に：00314_ni⟧⟦{日本|にほん}→日本：03876_nihon⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧{洋式|ようしき}⟦の→の：09472_no⟧⟦{生活|せいかつ}→生活：01443_seikatsu⟧⟦{様式|ようしき}→様式：05455_youshiki⟧⟦が→が：00051_ga⟧⟦{広|ひろ}まった→広まる：02404_hiromaru⟧。",
       "english": "Western lifestyles spread in Japan during the Meiji period.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Most commonly encountered in the phrase {洋式|ようしき}トイレ (Western-style toilet, i.e., a sit-down toilet), in contrast to {和式|わしき}トイレ (Japanese-style squat toilet). This distinction is very practical for learners in Japan, as signs in public restrooms often indicate the type available.\n\nCOMMON COLLOCATIONS:\n- {洋式|ようしき}トイレ — Western-style (sit-down) toilet\n- {洋式|ようしき}{建築|けんちく} — Western-style architecture\n- {洋式|ようしき}の{部屋|へや} — Western-style room\n\nCONTRAST:\n- {和式|わしき} — Japanese-style (the direct opposite)\n- {様式|ようしき} — style, format (homophone with different kanji; refers to style or form in general)",
+  "notes": "Most commonly encountered in the phrase {洋式|ようしき}⟦トイレ→トイレ：00818_toire⟧ (Western-style toilet, i.e., a sit-down toilet), in contrast to ⟦{和式|わしき}→和式：23138_washiki⟧⟦トイレ→トイレ：00818_toire⟧ (Japanese-style squat toilet). This distinction is very practical for learners in Japan, as signs in public restrooms often indicate the type available.\n\nCOMMON COLLOCATIONS:\n- {洋式|ようしき}⟦トイレ→トイレ：00818_toire⟧ — Western-style (sit-down) toilet\n- {洋式|ようしき}⟦{建築|けんちく}→建築：02709_kenchiku⟧ — Western-style architecture\n- {洋式|ようしき}⟦の→の：09472_no⟧⟦{部屋|へや}→部屋：00507_heya⟧ — Western-style room\n\nSIMILAR WORDS:\n- ⟦{和式|わしき}→和式：23138_washiki⟧ — Japanese-style (the direct opposite)\n- ⟦{様式|ようしき}→様式：05455_youshiki⟧ — style, format (homophone with different kanji; refers to style or form in general)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "23138_washiki",
+      "reading": "わしき",
+      "headword": "{和式|わしき}",
+      "label": "Japanese-style"
+    },
+    {
+      "type": "homophone",
+      "target_id": "05455_youshiki",
+      "reading": "ようしき",
+      "headword": "{様式|ようしき}",
+      "label": "style, format (homophone with different…"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["culture"]
+      "semantic": [
+        "culture"
+      ]
     },
     "created": "2026-03-27T00:15:09Z",
-    "modified": "2026-03-27T00:15:09Z"
+    "modified": "2026-09-02T04:01:57Z"
   }
 }

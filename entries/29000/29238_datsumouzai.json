@@ -16,40 +16,59 @@
   "examples": [
     {
       "id": "29238_datsumouzai_ex1",
-      "japanese": "{脱毛剤|だつもうざい}を{使|つか}って{足|あし}の{毛|け}を{処理|しょり}した。",
+      "japanese": "{脱毛剤|だつもうざい}⟦を→を：00422_wo⟧⟦{使|つか}って→使う：00473_tsukau⟧⟦{足|あし}→足：00575_ashi⟧⟦の→の：09472_no⟧⟦{毛|け}→毛：01392_ke⟧⟦を→を：00422_wo⟧⟦{処理|しょり}した→処理する：25531_shorisuru⟧。",
       "english": "I removed leg hair using a hair removal cream.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29238_datsumouzai_ex2",
-      "japanese": "{脱毛剤|だつもうざい}は{肌|はだ}が{弱|よわ}い{人|ひと}は{パッチテスト|ぱっちてすと}をしてから{使|つか}ってください。",
+      "japanese": "{脱毛剤|だつもうざい}⟦は→は：00079_ha⟧⟦{肌|はだ}→肌：02243_hada⟧⟦が→が：00051_ga⟧⟦{弱|よわ}い→弱い：00825_yowai⟧⟦{人|ひと}→人：00476_hito⟧⟦は→は：00079_ha⟧パッチ⟦テスト→テスト：01065_tesuto⟧⟦を→を：00422_wo⟧⟦して→する：00392_suru⟧⟦から→から：00504_kara⟧⟦{使|つか}って→使う：00473_tsukau⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "People with sensitive skin should do a patch test before using hair removal cream.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29238_datsumouzai_ex3",
-      "japanese": "{脱毛剤|だつもうざい}は{薬局|やっきょく}やドラッグストアで{購入|こうにゅう}できる。",
+      "japanese": "{脱毛剤|だつもうざい}⟦は→は：00079_ha⟧⟦{薬局|やっきょく}→薬局：01069_yakkyoku⟧や⟦ドラッグストア→ドラッグストア：09710_doraggusutoa⟧⟦で→で：00502_de⟧⟦{購入|こうにゅう}→購入：03057_kounyuu⟧⟦できる→できる：00557_dekiru⟧。",
       "english": "Hair removal cream can be purchased at pharmacies and drugstores.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Compound of {脱毛|だつもう} (hair removal) + {剤|ざい} (agent; compound). The base word {脱毛|だつもう} covers all forms of hair removal.\n\nCOMMON COLLOCATIONS:\n- {脱毛剤|だつもうざい}を{塗|ぬ}る: to apply hair removal cream\n- {脱毛剤|だつもうざい}で{処理|しょり}する: to treat with depilatory\n\nSIMILAR WORDS:\n- {除毛剤|じょもうざい}: depilatory — similar term, often used interchangeably\n- {脱毛|だつもう}: hair removal — the general term covering all methods (laser, wax, cream)\n- {カミソリ|かみそり}: razor — for shaving, not chemical removal",
-  "cross_references": [],
+  "notes": "Compound of ⟦{脱毛|だつもう}→脱毛：24914_datsumou⟧ (hair removal) + ⟦{剤|ざい}→〜剤：30790_zai⟧ (agent; compound). The base word ⟦{脱毛|だつもう}→脱毛：24914_datsumou⟧ covers all forms of hair removal.\n\nCOMMON COLLOCATIONS:\n- {脱毛剤|だつもうざい}⟦を→を：00422_wo⟧⟦{塗|ぬ}る→塗る：01174_nuru⟧: to apply hair removal cream\n- {脱毛剤|だつもうざい}⟦で→で：00502_de⟧⟦{処理|しょり}する→処理する：25531_shorisuru⟧: to treat with depilatory\n\nSIMILAR WORDS:\n- {除毛剤|じょもうざい}: depilatory — similar term, often used interchangeably\n- ⟦{脱毛|だつもう}→脱毛：24914_datsumou⟧: hair removal — the general term covering all methods (laser, wax, cream)\n- カミソリ: razor — for shaving, not chemical removal",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "10120_kamisori",
+      "reading": "かみそり",
+      "headword": "かみそり",
+      "label": "razor"
+    }
+  ],
   "metadata": {
     "created": "2026-06-13T21:30:12Z",
-    "modified": "2026-06-13T21:30:12Z",
+    "modified": "2026-09-02T04:02:36Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["daily-life", "health"],
+      "semantic": [
+        "daily-life",
+        "health"
+      ],
       "domain": []
     }
   }

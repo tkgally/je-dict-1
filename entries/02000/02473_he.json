@@ -160,7 +160,7 @@
     },
     {
       "id": "02473_he_ex7",
-      "japanese": "⟦{お客様|おきゃくさま}→お客様：08780_okyakusama⟧へ⟦の→の：09472_no⟧⟦お{知|し}らせ→知らせ：03252_shirase⟧",
+      "japanese": "⟦お{客様|きゃくさま}→お客様：08780_okyakusama⟧へ⟦の→の：09472_no⟧⟦お{知|し}らせ→知らせ：03252_shirase⟧",
       "english": "Notice to customers",
       "notes": null,
       "has_audio": false,
@@ -219,7 +219,7 @@
       "explanation": "When へ is a particle, it's pronounced 'e', not 'he'."
     }
   ],
-  "notes": "へ marks the direction of movement and is pronounced 'e' (not 'he') when used as a particle. It is largely interchangeable with ⟦に→に：00314_ni⟧ for motion verbs, but emphasizes the direction of travel rather than the arrival point.\n\nFUNCTIONS:\n- Direction or goal of motion: ⟦{東京|とうきょう}→東京：09564_toukyou⟧へ⟦{行|い}く→行く：00119_iku⟧ (go toward Tokyo)\n- Addressee in formal writing, especially letters: ⟦{先生|せんせい}→先生：00609_sensei⟧へ (to the teacher)\n\nCONTRAST WITH ⟦に→に：00314_ni⟧:\n- へ = direction/orientation (heading toward)\n- ⟦に→に：00314_ni⟧ = destination/arrival (getting there)\n\nへ CANNOT replace ⟦に→に：00314_ni⟧ for:\n- Existence: ⟦{部屋|へや}→部屋：00507_heya⟧⟦に→に：00314_ni⟧⟦いる→いる：00495_iru⟧ (✓), not ⟦{部屋|へや}→部屋：00507_heya⟧へ⟦いる→いる：00495_iru⟧ (✗)\n- Recipients: ⟦{友達|ともだち}→友達：01478_tomodachi⟧⟦に→に：00314_ni⟧⟦あげる→あげる：00546_ageru⟧ (✓), not ⟦{友達|ともだち}→友達：01478_tomodachi⟧へ⟦あげる→あげる：00546_ageru⟧ (✗)\n- Time: ⟦{三時|さんじ}→三時：10983_sanji⟧⟦に→に：00314_ni⟧ (✓), not ⟦{三時|さんじ}→三時：10983_sanji⟧へ (✗)\n\nへ is common in formal writing and letters (⟦{田中様|たなかさま}→田中様：noentry⟧へ). The pattern への creates a noun modifier: ⟦{成功|せいこう}→成功：02638_seikou⟧への⟦{道|みち}→道：00505_michi⟧ (road to success).",
+  "notes": "へ marks the direction of movement and is pronounced 'e' (not 'he') when used as a particle. It is largely interchangeable with ⟦に→に：00314_ni⟧ for motion verbs, but emphasizes the direction of travel rather than the arrival point.\n\nFUNCTIONS:\n- Direction or goal of motion: ⟦{東京|とうきょう}→東京：09564_toukyou⟧へ⟦{行|い}く→行く：00119_iku⟧ (go toward Tokyo)\n- Addressee in formal writing, especially letters: ⟦{先生|せんせい}→先生：00609_sensei⟧へ (to the teacher)\n\nCONTRAST WITH ⟦に→に：00314_ni⟧:\n- へ = direction/orientation (heading toward)\n- ⟦に→に：00314_ni⟧ = destination/arrival (getting there)\n\nへ CANNOT replace ⟦に→に：00314_ni⟧ for:\n- Existence: ⟦{部屋|へや}→部屋：00507_heya⟧⟦に→に：00314_ni⟧⟦いる→いる：00495_iru⟧ (✓), not ⟦{部屋|へや}→部屋：00507_heya⟧へ⟦いる→いる：00495_iru⟧ (✗)\n- Recipients: ⟦{友達|ともだち}→友達：01478_tomodachi⟧⟦に→に：00314_ni⟧⟦あげる→あげる：00546_ageru⟧ (✓), not ⟦{友達|ともだち}→友達：01478_tomodachi⟧へ⟦あげる→あげる：00546_ageru⟧ (✗)\n- Time: ⟦{三時|さんじ}→三時：10983_sanji⟧⟦に→に：00314_ni⟧ (✓), not ⟦{三時|さんじ}→三時：10983_sanji⟧へ (✗)\n\nへ is common in formal writing and letters (⟦{田中様|たなかさま}→田中様：noentry⟧へ). The pattern へ⟦の→の：09472_no⟧ creates a noun modifier: ⟦{成功|せいこう}→成功：02638_seikou⟧へ⟦の→の：09472_no⟧⟦{道|みち}→道：00505_michi⟧ (road to success).",
   "cross_references": [
     {
       "type": "contrast",
@@ -227,11 +227,18 @@
       "headword": "に",
       "label": "destination/location",
       "target_id": "00314_ni"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10983_sanji",
+      "reading": "さんじ",
+      "headword": "{三時|さんじ}",
+      "label": "✓ —, not (✗)"
     }
   ],
   "metadata": {
     "created": "2026-01-11T12:27:24Z",
-    "modified": "2026-06-21T15:19:18Z",
+    "modified": "2026-09-02T04:01:01Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

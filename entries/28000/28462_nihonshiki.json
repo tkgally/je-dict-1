@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28462_nihonshiki_ex1",
-      "japanese": "{日本式|にほんしき}の{挨拶|あいさつ}。",
+      "japanese": "{日本式|にほんしき}⟦の→の：09472_no⟧⟦{挨拶|あいさつ}→挨拶：02505_aisatsu⟧。",
       "english": "A Japanese-style greeting.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28462_nihonshiki_ex2",
-      "japanese": "{日本式|にほんしき}の{経営|けいえい}には{独特|どくとく}の{特徴|とくちょう}がある。",
+      "japanese": "{日本式|にほんしき}⟦の→の：09472_no⟧⟦{経営|けいえい}→経営：02740_keiei⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{独特|どくとく}→独特：01656_dokutoku⟧⟦の→の：09472_no⟧⟦{特徴|とくちょう}→特徴：03456_tokuchou⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "Japanese-style management has distinctive characteristics.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28462_nihonshiki_ex3",
-      "japanese": "ローマ{字|じ}には{日本式|にほんしき}、ヘボン{式|しき}、{訓令|くんれい}{式|しき}などの{表記法|ひょうきほう}がある。",
+      "japanese": "⟦ローマ{字|じ}→ローマ字：11225_roomaji⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{日本式|にほんしき}、ヘボン{式|しき}、{訓令|くんれい}{式|しき}⟦など→〜など：03095_nado⟧⟦の→の：09472_no⟧{表記法|ひょうきほう}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "For romaji there are several notations such as Nihon-shiki, Hepburn, and Kunrei-shiki.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {日本|にほん} (Japan) + the suffix {式|しき} (style, system). Often interchangeable with {和式|わしき}, though {和式|わしき} is more common for everyday physical items (especially {和式|わしき}トイレ) and {日本式|にほんしき} is more common for abstract systems (management, education, romanization).\n\nGRAMMAR:\n- As a noun modifier: {日本式|にほんしき}の + noun\n- As a predicate: {日本式|にほんしき}だ / です\n\nSIMILAR WORDS:\n- {和式|わしき}: Japanese-style — more common for physical objects/facilities\n- {日本|にほん}{風|ふう}: Japanese in feel — softer; a Japanese-like atmosphere or flavor",
+  "notes": "Compound of ⟦{日本|にほん}→日本：03876_nihon⟧ (Japan) + the suffix {式|しき} (style, system). Often interchangeable with ⟦{和式|わしき}→和式：23138_washiki⟧, though ⟦{和式|わしき}→和式：23138_washiki⟧ is more common for everyday physical items (especially ⟦{和式|わしき}→和式：23138_washiki⟧⟦トイレ→トイレ：00818_toire⟧) and {日本式|にほんしき} is more common for abstract systems (management, education, romanization).\n\nCOMMON PATTERNS:\n- As a noun modifier: {日本式|にほんしき}⟦の→の：09472_no⟧ + noun\n- As a predicate: {日本式|にほんしき}だ / です\n\nSIMILAR WORDS:\n- ⟦{和式|わしき}→和式：23138_washiki⟧: Japanese-style — more common for physical objects/facilities\n- ⟦{日本|にほん}{風|ふう}→日本風：26055_nihonfuu⟧: Japanese in feel — softer; a Japanese-like atmosphere or flavor",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23138_washiki",
+      "reading": "わしき",
+      "headword": "{和式|わしき}",
+      "label": "Japanese-style"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26055_nihonfuu",
+      "reading": "にほんふう",
+      "headword": "{日本風|にほんふう}",
+      "label": "Japanese in feel"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +69,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "culture",
         "descriptive"
@@ -61,6 +77,6 @@
       "domain": []
     },
     "created": "2026-05-31T03:09:05Z",
-    "modified": "2026-08-08T18:34:17Z"
+    "modified": "2026-09-02T04:02:33Z"
   }
 }

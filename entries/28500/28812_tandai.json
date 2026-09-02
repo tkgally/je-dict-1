@@ -15,41 +15,76 @@
   "examples": [
     {
       "id": "28812_tandai_ex1",
-      "japanese": "{姉|あね}は{短大|たんだい}を{卒業|そつぎょう}した。",
+      "japanese": "⟦{姉|あね}→姉：00571_ane⟧⟦は→は：00079_ha⟧{短大|たんだい}⟦を→を：00422_wo⟧⟦{卒業|そつぎょう}→卒業：01643_sotsugyou⟧⟦した→する：00392_suru⟧。",
       "english": "My older sister graduated from a junior college.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28812_tandai_ex2",
-      "japanese": "{保育|ほいく}の{資格|しかく}を{取|と}るために{短大|たんだい}に{進学|しんがく}した。",
+      "japanese": "⟦{保育|ほいく}→保育：11461_hoiku⟧⟦の→の：09472_no⟧⟦{資格|しかく}→資格：02834_shikaku⟧⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧{短大|たんだい}⟦に→に：00314_ni⟧⟦{進学|しんがく}→進学：03256_shingaku⟧⟦した→する：00392_suru⟧。",
       "english": "I went on to a junior college to get a childcare qualification.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28812_tandai_ex3",
-      "japanese": "{短大|たんだい}は{四年制大学|よねんせいだいがく}より{短期間|たんきかん}で{専門|せんもん}{的|てき}な{知識|ちしき}を{身|み}につけられる。",
+      "japanese": "{短大|たんだい}⟦は→は：00079_ha⟧{四年制大学|よねんせいだいがく}⟦より→より：09476_yori⟧⟦{短期間|たんきかん}→短期間：17178_tankikan⟧⟦で→で：00502_de⟧⟦{専門|せんもん}{的|てき}→専門的：15633_senmonteki⟧な⟦{知識|ちしき}→知識：01463_chishiki⟧⟦を→を：00422_wo⟧⟦{身|み}→身：01764_mi⟧につけられる。",
       "english": "Junior colleges let you acquire specialized knowledge in a shorter period than a four-year university.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Short for {短期大学|たんきだいがく}. The full form is used in formal documents; {短大|たんだい} is the everyday word.\n\nCOMMON COLLOCATIONS:\n- {短大|たんだい}に{進学|しんがく}する: to go on to a junior college\n- {短大|たんだい}を{卒業|そつぎょう}する: to graduate from a junior college\n- {短大|たんだい}{卒|そつ}: junior-college graduate (used on résumés)\n\nCONTRAST WITH OTHER INSTITUTIONS:\n- {大学|だいがく}: university — four-year bachelor's program\n- {専門学校|せんもんがっこう}: vocational/specialized school — two or more years, more job-specific training\n- {大学院|だいがくいん}: graduate school\n\nHISTORICAL NOTE:\n短大 enrollment peaked around 1993 and has since dropped to about a fifth of its peak, as many institutions converted to four-year universities.",
+  "notes": "Short for ⟦{短期大学|たんきだいがく}→短期大学：27098_tankidaigaku⟧. The full form is used in formal documents; {短大|たんだい} is the everyday word.\n\nCOMMON COLLOCATIONS:\n- {短大|たんだい}⟦に→に：00314_ni⟧⟦{進学|しんがく}→進学：03256_shingaku⟧⟦する→する：00392_suru⟧: to go on to a junior college\n- {短大|たんだい}⟦を→を：00422_wo⟧⟦{卒業|そつぎょう}→卒業：01643_sotsugyou⟧⟦する→する：00392_suru⟧: to graduate from a junior college\n- {短大|たんだい}{卒|そつ}: junior-college graduate (used on résumés)\n\nCONTRAST WITH OTHER INSTITUTIONS:\n- ⟦{大学|だいがく}→大学：00608_daigaku⟧: university — four-year bachelor's program\n- ⟦{専門学校|せんもんがっこう}→専門学校：04859_senmongakkou⟧: vocational/specialized school — two or more years, more job-specific training\n- ⟦{大学院|だいがくいん}→大学院：04783_daigakuin⟧: graduate school\n\nETYMOLOGY:\n短大 enrollment peaked around 1993 and has since dropped to about a fifth of its peak, as many institutions converted to four-year universities.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00608_daigaku",
+      "reading": "だいがく",
+      "headword": "{大学|だいがく}",
+      "label": "university"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04859_senmongakkou",
+      "reading": "せんもんがっこう",
+      "headword": "{専門学校|せんもんがっこう}",
+      "label": "vocational/specialized school"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04783_daigakuin",
+      "reading": "だいがくいん",
+      "headword": "{大学院|だいがくいん}",
+      "label": "graduate school"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["education"],
-      "domain": ["academic"]
+      "politeness": "plain",
+      "semantic": [
+        "education"
+      ],
+      "domain": [
+        "academic"
+      ]
     },
     "created": "2026-06-05T04:08:23Z",
-    "modified": "2026-06-05T04:08:23Z"
+    "modified": "2026-09-02T04:02:35Z"
   }
 }

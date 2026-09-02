@@ -15,41 +15,63 @@
   "examples": [
     {
       "id": "29784_denjikigaku_ex1",
-      "japanese": "{電磁気学|でんじきがく}を{学|まな}ぶ。",
+      "japanese": "{電磁気学|でんじきがく}⟦を→を：00422_wo⟧⟦{学|まな}ぶ→学ぶ：01987_manabu⟧。",
       "english": "I study electromagnetism.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29784_denjikigaku_ex2",
-      "japanese": "{電磁気学|でんじきがく}は{物理学|ぶつりがく}の{基礎|きそ}の{一|ひと}つだ。",
+      "japanese": "{電磁気学|でんじきがく}⟦は→は：00079_ha⟧⟦{物理学|ぶつりがく}→物理学：09631_butsurigaku⟧⟦の→の：09472_no⟧⟦{基礎|きそ}→基礎：03981_kiso⟧⟦の→の：09472_no⟧⟦{一|ひと}つ→一つ：02948_hitotsu⟧だ。",
       "english": "Electromagnetism is one of the foundations of physics.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29784_denjikigaku_ex3",
-      "japanese": "{電磁気学|でんじきがく}の{知識|ちしき}は、モーターや{発電機|はつでんき}の{仕組|しく}みを{理解|りかい}するのに{欠|か}かせない。",
+      "japanese": "{電磁気学|でんじきがく}⟦の→の：09472_no⟧⟦{知識|ちしき}→知識：01463_chishiki⟧⟦は→は：00079_ha⟧、⟦モーター→モーター：23127_mootaa⟧や⟦{発電機|はつでんき}→発電機：29732_hatsudenki⟧⟦の→の：09472_no⟧⟦{仕組|しく}み→仕組み：07168_shikumi⟧⟦を→を：00422_wo⟧⟦{理解|りかい}する→理解する：06059_rikaisuru⟧⟦の→の：09472_no⟧⟦に→に：00314_ni⟧⟦{欠|か}かせない→欠かす：10138_kakasu⟧。",
       "english": "A knowledge of electromagnetism is essential for understanding how motors and generators work.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Formed from {電磁気|でんじき} (electromagnetism) + {学|がく} (the study of). Refers to the academic field, not the phenomenon itself.\n\nCOMMON COLLOCATIONS:\n- {電磁気学|でんじきがく}の{授業|じゅぎょう}: an electromagnetism class\n- {電磁気学|でんじきがく}を{専攻|せんこう}する: to major in electromagnetism\n\nSIMILAR WORDS:\n- {電磁気|でんじき}: electromagnetism — the phenomenon or property, without {学|がく}.\n- {力学|りきがく}: mechanics — a parallel branch of physics.",
+  "notes": "Formed from ⟦{電磁気|でんじき}→電磁気：25465_denjiki⟧ (electromagnetism) + ⟦{学|がく}→〜学：09846_gaku⟧ (the study of). Refers to the academic field, not the phenomenon itself.\n\nCOMMON COLLOCATIONS:\n- {電磁気学|でんじきがく}⟦の→の：09472_no⟧⟦{授業|じゅぎょう}→授業：00781_jugyou⟧: an electromagnetism class\n- {電磁気学|でんじきがく}⟦を→を：00422_wo⟧⟦{専攻|せんこう}→専攻：01587_senkou⟧⟦する→する：00392_suru⟧: to major in electromagnetism\n\nSIMILAR WORDS:\n- ⟦{電磁気|でんじき}→電磁気：25465_denjiki⟧: electromagnetism — the phenomenon or property, without ⟦{学|がく}→〜学：09846_gaku⟧.\n- ⟦{力学|りきがく}→力学：25450_rikigaku⟧: mechanics — a parallel branch of physics.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25450_rikigaku",
+      "reading": "りきがく",
+      "headword": "{力学|りきがく}",
+      "label": "mechanics"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["science", "education"],
-      "domain": ["academic"]
+      "politeness": "plain",
+      "semantic": [
+        "science",
+        "education"
+      ],
+      "domain": [
+        "academic"
+      ]
     },
     "created": "2026-07-11T21:17:16Z",
-    "modified": "2026-07-11T21:17:16Z"
+    "modified": "2026-09-02T04:02:37Z"
   }
 }

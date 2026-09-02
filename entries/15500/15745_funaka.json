@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "15745_funaka_ex1",
-      "japanese": "あの{二人|ふたり}は{不仲|ふなか}らしい。",
+      "japanese": "⟦あの→あの：00915_ano⟧⟦{二人|ふたり}→二人：00622_futari⟧⟦は→は：00079_ha⟧{不仲|ふなか}らしい。",
       "english": "Those two seem to be on bad terms.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "15745_funaka_ex2",
-      "japanese": "{兄弟|きょうだい}の{不仲|ふなか}が{原因|げんいん}で{家族|かぞく}がばらばらになった。",
+      "japanese": "⟦{兄弟|きょうだい}→兄弟：00964_kyoudai⟧⟦の→の：09472_no⟧{不仲|ふなか}⟦が→が：00051_ga⟧⟦{原因|げんいん}→原因：01400_genin⟧⟦で→で：00502_de⟧⟦{家族|かぞく}→家族：00552_kazoku⟧⟦が→が：00051_ga⟧⟦ばらばら→ばらばら：05165_barabara⟧になった。",
       "english": "The siblings' discord caused the family to fall apart.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "15745_funaka_ex3",
-      "japanese": "{両親|りょうしん}の{不仲|ふなか}は{子供|こども}の{心|こころ}に{大|おお}きな{影響|えいきょう}を{与|あた}える。",
+      "japanese": "⟦{両親|りょうしん}→両親：00806_ryoushin⟧⟦の→の：09472_no⟧{不仲|ふなか}⟦は→は：00079_ha⟧⟦{子供|こども}→子供：00554_kodomo⟧⟦の→の：09472_no⟧⟦{心|こころ}→心：01321_kokoro⟧⟦に→に：00314_ni⟧⟦{大|おお}きな→大きな：02849_ookina⟧⟦{影響|えいきょう}を{与|あた}える→影響を与える：26072_eikyouwoataeru⟧。",
       "english": "Discord between parents has a significant impact on a child's heart.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,26 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{不仲|ふなか} describes a relationship that is strained or hostile. It is often used about family members, couples, or close associates rather than strangers. Can function as a na-adjective: {不仲|ふなか}な{夫婦|ふうふ} (a couple on bad terms).\n\nCOMMON COLLOCATIONS:\n- {不仲|ふなか}になる (become estranged)\n- {夫婦|ふうふ}{不仲|ふなか} (marital discord)\n- {親子|おやこ}の{不仲|ふなか} (parent-child estrangement)\n- {不仲|ふなか}が{続|つづ}く (the discord continues)\n\nSIMILAR WORDS:\n{仲|なか}が{悪|わる}い is a more casual way to say the same thing. {不和|ふわ} is a more formal synonym often used for family or organizational discord.",
-  "cross_references": [],
+  "notes": "USAGE:\n{不仲|ふなか} describes a relationship that is strained or hostile. It is often used about family members, couples, or close associates rather than strangers. Can function as a na-adjective: {不仲|ふなか}な⟦{夫婦|ふうふ}→夫婦：03592_fuufu⟧ (a couple on bad terms).\n\nCOMMON COLLOCATIONS:\n- {不仲|ふなか}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧ (become estranged)\n- ⟦{夫婦|ふうふ}→夫婦：03592_fuufu⟧{不仲|ふなか} (marital discord)\n- ⟦{親子|おやこ}→親子：10430_oyako⟧⟦の→の：09472_no⟧{不仲|ふなか} (parent-child estrangement)\n- {不仲|ふなか}⟦が→が：00051_ga⟧⟦{続|つづ}く→続く：00903_tsuzuku⟧ (the discord continues)\n\nSIMILAR WORDS:\n⟦{仲|なか}が{悪|わる}い→仲が悪い：25621_nakagawarui⟧ is a more casual way to say the same thing. ⟦{不和|ふわ}→不和：16133_fuwa⟧ is a more formal synonym often used for family or organizational discord.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25621_nakagawarui",
+      "reading": "なかがわるい",
+      "headword": "{仲|なか}が{悪|わる}い",
+      "label": "on bad terms"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28003_kenen",
+      "reading": "けんえん",
+      "headword": "犬猿",
+      "label": "dog and monkey"
+    }
+  ],
   "metadata": {
     "created": "2026-03-08T09:09:22Z",
-    "modified": "2026-03-08T09:09:22Z",
+    "modified": "2026-09-02T04:01:42Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

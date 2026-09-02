@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25699_ondokei_ex1",
-      "japanese": "{温度計|おんどけい}で{熱|ねつ}を{測|はか}る。",
+      "japanese": "{温度計|おんどけい}⟦で→で：00502_de⟧⟦{熱|ねつ}→熱：01690_netsu⟧⟦を→を：00422_wo⟧⟦{測|はか}る→測る：01977_hakaru⟧。",
       "english": "To take one's temperature with a thermometer.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25699_ondokei_ex2",
-      "japanese": "{部屋|へや}の{温度計|おんどけい}が30{度|ど}を{示|しめ}している。",
+      "japanese": "⟦{部屋|へや}→部屋：00507_heya⟧⟦の→の：09472_no⟧{温度計|おんどけい}⟦が→が：00051_ga⟧30⟦{度|ど}→〜度：09845_do⟧⟦を→を：00422_wo⟧⟦{示|しめ}している→示す：01948_shimesu⟧。",
       "english": "The room thermometer shows 30 degrees.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25699_ondokei_ex3",
-      "japanese": "{屋外|おくがい}の{温度計|おんどけい}を{見|み}たら、マイナス5{度|ど}だったので{驚|おどろ}いた。",
+      "japanese": "⟦{屋外|おくがい}→屋外：04136_okugai⟧⟦の→の：09472_no⟧{温度計|おんどけい}⟦を→を：00422_wo⟧⟦{見|み}たら→見る：00283_miru⟧、⟦マイナス→マイナス：00268_mainasu⟧5⟦{度|ど}→〜度：09845_do⟧だった⟦の→の：09472_no⟧で⟦{驚|おどろ}いた→驚く：01255_odoroku⟧。",
       "english": "When I looked at the outdoor thermometer, I was surprised to see it was minus 5 degrees.",
       "sense_numbers": [
         1
@@ -44,13 +44,55 @@
       "notes": null
     }
   ],
-  "notes": "{温度|おんど} (temperature) + {計|けい} (meter, gauge). The general word for any device that measures temperature, whether a medical thermometer, a room thermometer, or an industrial temperature gauge.\n\nCOMMON COLLOCATIONS:\n- {温度計|おんどけい}で{測|はか}る — measure with a thermometer\n- {温度計|おんどけい}の{目盛|めも}り — scale on a thermometer\n- {温度計|おんどけい}が{上|あ}がる — the thermometer rises\n- {温度計|おんどけい}が{下|さ}がる — the thermometer drops\n\nRELATED TERMS:\n- {体温計|たいおんけい} — clinical thermometer (specifically for body temperature)\n- {寒暖計|かんだんけい} — thermometer (older term, emphasizing hot and cold)\n- {湿度計|しつどけい} — hygrometer (humidity meter)\n- {気圧計|きあつけい} — barometer",
+  "notes": "⟦{温度|おんど}→温度：00333_ondo⟧ (temperature) + ⟦{計|けい}→計：02691_kei⟧ (meter, gauge). The general word for any device that measures temperature, whether a medical thermometer, a room thermometer, or an industrial temperature gauge.\n\nCOMMON COLLOCATIONS:\n- {温度計|おんどけい}⟦で→で：00502_de⟧⟦{測|はか}る→測る：01977_hakaru⟧ — measure with a thermometer\n- {温度計|おんどけい}⟦の→の：09472_no⟧⟦{目盛|めも}り→目盛り：14814_memori⟧ — scale on a thermometer\n- {温度計|おんどけい}⟦が→が：00051_ga⟧⟦{上|あ}がる→上がる：00615_agaru⟧ — the thermometer rises\n- {温度計|おんどけい}⟦が→が：00051_ga⟧⟦{下|さ}がる→下がる：01188_sagaru⟧ — the thermometer drops\n\nRELATED WORDS:\n- ⟦{体温計|たいおんけい}→体温計：05484_taionkei⟧ — clinical thermometer (specifically for body temperature)\n- ⟦{寒暖計|かんだんけい}→寒暖計：15402_kandankei⟧ — thermometer (older term, emphasizing hot and cold)\n- ⟦{湿度計|しつどけい}→湿度計：29602_shitsudokei⟧ — hygrometer (humidity meter)\n- ⟦{気圧計|きあつけい}→気圧計：27376_kiatsukei⟧ — barometer",
   "cross_references": [
     {
       "type": "related",
       "reading": "おんど",
       "description": "{温度|おんど} — temperature",
       "target_id": "00333_ondo"
+    },
+    {
+      "type": "related",
+      "target_id": "05484_taionkei",
+      "reading": "たいおんけい",
+      "headword": "{体温計|たいおんけい}",
+      "label": "clinical thermometer"
+    },
+    {
+      "type": "related",
+      "target_id": "15402_kandankei",
+      "reading": "かんだんけい",
+      "headword": "{寒暖計|かんだんけい}",
+      "label": "thermometer"
+    },
+    {
+      "type": "related",
+      "target_id": "29602_shitsudokei",
+      "reading": "しつどけい",
+      "headword": "{湿度計|しつどけい}",
+      "label": "hygrometer"
+    },
+    {
+      "type": "related",
+      "target_id": "27376_kiatsukei",
+      "reading": "きあつけい",
+      "headword": "{気圧計|きあつけい}",
+      "label": "barometer"
+    },
+    {
+      "type": "related",
+      "target_id": "01977_hakaru",
+      "reading": "はかる",
+      "headword": "{測|はか}る",
+      "label": "to measure"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29279_uryoukei",
+      "reading": "うりょうけい",
+      "headword": "{雨量計|うりょうけい}",
+      "label": "rain gauge"
     }
   ],
   "schema_version": "2.0",
@@ -60,12 +102,14 @@
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "science",
         "daily-life"
       ]
     },
     "created": "2026-04-26T16:26:57Z",
-    "modified": "2026-06-19T03:23:54Z"
+    "modified": "2026-09-02T04:02:23Z"
   }
 }

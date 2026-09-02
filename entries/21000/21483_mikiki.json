@@ -3,7 +3,7 @@
   "headword": "{見聞|みき}き",
   "reading": "みきき",
   "romaji": "mikiki",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "things seen and heard; experience; observations; knowledge gained firsthand",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "21483_mikiki_ex1",
-      "japanese": "{旅行|りょこう}での{見聞|みき}きを{話|はな}した。",
+      "japanese": "⟦{旅行|りょこう}→旅行：00748_ryokou⟧⟦で→で：00502_de⟧⟦の→の：09472_no⟧{見聞|みき}き⟦を→を：00422_wo⟧⟦{話|はな}した→話す：00467_hanasu⟧。",
       "english": "I talked about what I saw and heard on the trip.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "21483_mikiki_ex2",
-      "japanese": "{見聞|みき}きを{広|ひろ}げるために{海外|かいがい}に{出|で}かけた。",
+      "japanese": "{見聞|みき}き⟦を→を：00422_wo⟧⟦{広|ひろ}げる→広げる：01981_hirogeru⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧⟦{海外|かいがい}→海外：00134_kaigai⟧⟦に→に：00314_ni⟧⟦{出|で}かけた→出かける：00833_dekakeru⟧。",
       "english": "I went abroad to broaden my horizons.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "21483_mikiki_ex3",
-      "japanese": "{現地|げんち}で{見聞|みき}きしたことをもとに、{報告書|ほうこくしょ}をまとめた。",
+      "japanese": "⟦{現地|げんち}→現地：13502_genchi⟧⟦で→で：00502_de⟧{見聞|みき}き⟦した→する：00392_suru⟧こと⟦を→を：00422_wo⟧もと⟦に→に：00314_ni⟧、⟦{報告書|ほうこくしょ}→報告書：06744_houkokusho⟧⟦を→を：00422_wo⟧⟦まとめた→まとめる：02424_matomeru⟧。",
       "english": "I compiled a report based on what I saw and heard on site.",
       "sense_numbers": [
         1
@@ -134,7 +134,23 @@
       "notes": null
     }
   ],
-  "notes": "Combines {見|み}る (to see) and {聞|き}く (to hear) to refer to firsthand experience and knowledge gained through direct observation. As a noun, it means the things one has seen and heard; as a verb ({見聞|みき}きする), it means to see and hear, to observe directly.\n\nUSAGE:\n- {見聞|みき}きを{広|ひろ}げる is a very common expression meaning \"to broaden one's experience/horizons\"\n- The kanji compound {見聞|けんぶん} is a more formal reading with the same meaning\n- Often used when recounting travel experiences or field observations\n\nCOMMON COLLOCATIONS:\n- {見聞|みき}きを{広|ひろ}げる: to broaden one's experience\n- {見聞|みき}きしたこと: things one has seen and heard\n- {見聞|みき}きを{深|ふか}める: to deepen one's knowledge through experience\n- {見聞|みき}き{録|ろく}: a record of observations\n\nSIMILAR WORDS:\n- {経験|けいけん}: experience — broader, includes all types of experience\n- {見聞|けんぶん}: the on'yomi reading; more formal and literary\n- {体験|たいけん}: hands-on experience — emphasizes personal participation",
+  "notes": "Combines ⟦{見|み}る→見る：00283_miru⟧ (to see) and ⟦{聞|き}く→聞く：00483_kiku⟧ (to hear) to refer to firsthand experience and knowledge gained through direct observation. As a noun, it means the things one has seen and heard; as a verb ({見聞|みき}き⟦する→する：00392_suru⟧), it means to see and hear, to observe directly.\n\nUSAGE:\n- {見聞|みき}き⟦を→を：00422_wo⟧⟦{広|ひろ}げる→広げる：01981_hirogeru⟧ is a very common expression meaning \"to broaden one's experience/horizons\"\n- The kanji compound ⟦{見聞|けんぶん}→見聞：20127_kenbun⟧ is a more formal reading with the same meaning\n- Often used when recounting travel experiences or field observations\n\nCOMMON COLLOCATIONS:\n- {見聞|みき}き⟦を→を：00422_wo⟧⟦{広|ひろ}げる→広げる：01981_hirogeru⟧: to broaden one's experience\n- {見聞|みき}き⟦した→する：00392_suru⟧こと: things one has seen and heard\n- {見聞|みき}き⟦を→を：00422_wo⟧⟦{深|ふか}める→深める：02407_fukameru⟧: to deepen one's knowledge through experience\n- {見聞|みき}き{録|ろく}: a record of observations\n\nSIMILAR WORDS:\n- ⟦{経験|けいけん}→経験：01179_keiken⟧: experience — broader, includes all types of experience\n- ⟦{見聞|けんぶん}→見聞：20127_kenbun⟧: the on'yomi reading; more formal and literary\n- ⟦{体験|たいけん}→体験：11443_taiken⟧: hands-on experience — emphasizes personal participation",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01179_keiken",
+      "reading": "けいけん",
+      "headword": "{経験|けいけん}",
+      "label": "experience"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11443_taiken",
+      "reading": "たいけん",
+      "headword": "{体験|たいけん}",
+      "label": "hands-on experience"
+    }
+  ],
   "metadata": {
     "entry_id": "21483_mikiki",
     "schema_version": "2.0",
@@ -146,6 +162,7 @@
         "noun",
         "verb-suru"
       ],
+      "politeness": "plain",
       "semantic": [
         "cognition"
       ],
@@ -153,6 +170,6 @@
       "usage": [],
       "verb_class": "suru"
     },
-    "modified": "2026-07-29T12:35:11Z"
+    "modified": "2026-09-02T04:02:03Z"
   }
 }

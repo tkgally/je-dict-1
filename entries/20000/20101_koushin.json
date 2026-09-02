@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "20101_koushin_ex1",
-      "japanese": "{管制塔|かんせいとう}と{交信|こうしん}する。",
+      "japanese": "⟦{管制塔|かんせいとう}→管制塔：15837_kanseitou⟧⟦と→と：00512_to⟧{交信|こうしん}⟦する→する：00392_suru⟧。",
       "english": "To communicate with the control tower.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "20101_koushin_ex2",
-      "japanese": "{宇宙|うちゅう}{飛行士|ひこうし}が{地上|ちじょう}と{交信|こうしん}した。",
+      "japanese": "⟦{宇宙|うちゅう}{飛行士|ひこうし}→宇宙飛行士：28176_uchuuhikoushi⟧⟦が→が：00051_ga⟧⟦{地上|ちじょう}→地上：12108_chijou⟧⟦と→と：00512_to⟧{交信|こうしん}⟦した→する：00392_suru⟧。",
       "english": "The astronaut communicated with the ground.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "20101_koushin_ex3",
-      "japanese": "{嵐|あらし}の{影響|えいきょう}で{船|ふね}との{交信|こうしん}が{途絶|とだ}えてしまった。",
+      "japanese": "⟦{嵐|あらし}→嵐：01695_arashi⟧⟦の→の：09472_no⟧⟦{影響|えいきょう}→影響：01877_eikyou⟧⟦で→で：00502_de⟧⟦{船|ふね}→船：00775_fune⟧⟦と→と：00512_to⟧⟦の→の：09472_no⟧{交信|こうしん}⟦が→が：00051_ga⟧⟦{途絶|とだ}えて→途絶える：14317_todaeru⟧しまった。",
       "english": "Communication with the ship was lost due to the storm.",
       "sense_numbers": [
         1
@@ -134,8 +134,31 @@
       "notes": null
     }
   ],
-  "notes": "Technical communication via radio or electronic signals. Composed of {交|こう} (exchange) + {信|しん} (message/signal). Primarily used for radio, aviation, maritime, and space communication rather than everyday conversation.\n\nCOMMON COLLOCATIONS:\n- {交信|こうしん}する: to communicate (by radio/signal)\n- {交信|こうしん}が{途絶|とだ}える: communication is lost\n- {無線|むせん}{交信|こうしん}: wireless/radio communication\n- {交信|こうしん}{記録|きろく}: communication log\n- {交信|こうしん}を{試|こころ}みる: to attempt contact\n\nSIMILAR WORDS:\n- {通信|つうしん}: communication, telecommunications — broader term covering all forms of communication technology\n- {連絡|れんらく}: contact, communication — everyday word for getting in touch with someone\n- {通話|つうわ}: phone call — specifically voice communication by telephone\n\nUSAGE:\n{交信|こうしん} implies two-way signal exchange, typically in technical or emergency contexts. It is commonly heard in news reports about aviation incidents, space missions, and maritime operations.",
+  "notes": "Technical communication via radio or electronic signals. Composed of {交|こう} (exchange) + {信|しん} (message/signal). Primarily used for radio, aviation, maritime, and space communication rather than everyday conversation.\n\nCOMMON COLLOCATIONS:\n- {交信|こうしん}⟦する→する：00392_suru⟧: to communicate (by radio/signal)\n- {交信|こうしん}⟦が→が：00051_ga⟧⟦{途絶|とだ}える→途絶える：14317_todaeru⟧: communication is lost\n- ⟦{無線|むせん}→無線：09226_musen⟧{交信|こうしん}: wireless/radio communication\n- {交信|こうしん}⟦{記録|きろく}→記録：02490_kiroku⟧: communication log\n- {交信|こうしん}⟦を→を：00422_wo⟧⟦{試|こころ}みる→試みる：01943_kokoromiru⟧: to attempt contact\n\nSIMILAR WORDS:\n- ⟦{通信|つうしん}→通信：03514_tsuushin⟧: communication, telecommunications — broader term covering all forms of communication technology\n- ⟦{連絡|れんらく}→連絡：01524_renraku⟧: contact, communication — everyday word for getting in touch with someone\n- ⟦{通話|つうわ}→通話：14369_tsuuwa⟧: phone call — specifically voice communication by telephone\n\nUSAGE:\n{交信|こうしん} implies two-way signal exchange, typically in technical or emergency contexts. It is commonly heard in news reports about aviation incidents, space missions, and maritime operations.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03514_tsuushin",
+      "reading": "つうしん",
+      "headword": "{通信|つうしん}",
+      "label": "communication, telecommunications"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01524_renraku",
+      "reading": "れんらく",
+      "headword": "{連絡|れんらく}",
+      "label": "contact, communication"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14369_tsuuwa",
+      "reading": "つうわ",
+      "headword": "{通話|つうわ}",
+      "label": "phone call"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -151,6 +174,6 @@
       "verb_class": "suru"
     },
     "created": "2026-03-28T12:55:14Z",
-    "modified": "2026-03-28T12:55:14Z"
+    "modified": "2026-09-02T04:01:58Z"
   }
 }

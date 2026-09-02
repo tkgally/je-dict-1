@@ -3,7 +3,7 @@
   "id": "15336_mizuiro",
   "headword": "{水色|みずいろ}",
   "reading": "みずいろ",
-  "part_of_speech": "noun / adjective (no)",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "light blue; sky blue",
   "definitions": [
     {
@@ -15,40 +15,81 @@
   "examples": [
     {
       "id": "15336_mizuiro_ex1",
-      "japanese": "{水色|みずいろ}のワンピースを{着|き}ている。",
+      "japanese": "{水色|みずいろ}⟦の→の：09472_no⟧⟦ワンピース→ワンピース：04526_wanpiisu⟧⟦を→を：00422_wo⟧⟦{着|き}ている→着る：00541_kiru⟧。",
       "english": "She's wearing a light blue dress.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15336_mizuiro_ex2",
-      "japanese": "{空|そら}が{水色|みずいろ}に{澄|す}んでいた。",
+      "japanese": "⟦{空|そら}→空：02216_sora⟧⟦が→が：00051_ga⟧{水色|みずいろ}⟦に→に：00314_ni⟧⟦{澄|す}んでいた→澄む：13370_sumu⟧。",
       "english": "The sky was a clear light blue.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15336_mizuiro_ex3",
-      "japanese": "{子供|こども}が{水色|みずいろ}のクレヨンで{海|うみ}の{絵|え}を{描|か}いた。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧⟦が→が：00051_ga⟧{水色|みずいろ}⟦の→の：09472_no⟧クレヨン⟦で→で：00502_de⟧⟦{海|うみ}→海：00556_umi⟧⟦の→の：09472_no⟧⟦{絵|え}→絵：02613_e⟧⟦を→を：00422_wo⟧⟦{描|か}いた→描く：28436_kaku⟧。",
       "english": "The child drew a picture of the sea with a light blue crayon.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nA common, everyday color word. Used as a noun ({水色|みずいろ}が{好|す}き) or as a no-adjective to modify nouns ({水色|みずいろ}の{傘|かさ}).\n\nCOMMON COLLOCATIONS:\n- {水色|みずいろ}の{空|そら} (light blue sky)\n- {水色|みずいろ}の{服|ふく} (light blue clothing)\n- {薄|うす}い{水色|みずいろ} (pale light blue)\n\nWORD FORMATION:\n{水|みず} (water) + {色|いろ} (color). Literally \"water color,\" referring to the color of clear water.\n\nDISTINCTION:\n{水色|みずいろ} is lighter and paler than {青|あお} (blue). It is closer to what English speakers might call \"sky blue\" or \"baby blue.\"",
-  "cross_references": [],
+  "notes": "USAGE:\nA common, everyday color word. Used as a noun ({水色|みずいろ}⟦が→が：00051_ga⟧⟦{好|す}き→好き：02355_suki⟧) or as a no-adjective to modify nouns ({水色|みずいろ}⟦の→の：09472_no⟧⟦{傘|かさ}→傘：00639_kasa⟧).\n\nCOMMON COLLOCATIONS:\n- {水色|みずいろ}⟦の→の：09472_no⟧⟦{空|そら}→空：02216_sora⟧ (light blue sky)\n- {水色|みずいろ}⟦の→の：09472_no⟧⟦{服|ふく}→服：00695_fuku⟧ (light blue clothing)\n- ⟦{薄|うす}い→薄い：00764_usui⟧{水色|みずいろ} (pale light blue)\n\nFORMS:\n⟦{水|みず}→水：02258_mizu⟧ (water) + ⟦{色|いろ}→色：00849_iro⟧ (color). Literally \"water color,\" referring to the color of clear water.\n\nSIMILAR WORDS:\n{水色|みずいろ} is lighter and paler than ⟦{青|あお}→青：02841_ao⟧ (blue). It is closer to what English speakers might call \"sky blue\" or \"baby blue.\"",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "03885_kon",
+      "reading": "こん",
+      "headword": "{紺|こん}",
+      "label": "navy blue, dark blue"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22937_aoiro",
+      "reading": "あおいろ",
+      "headword": "{青色|あおいろ}",
+      "label": "blue"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24604_aomidori",
+      "reading": "あおみどり",
+      "headword": "{青緑|あおみどり}",
+      "label": "blue-green"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25473_sorairo",
+      "reading": "そらいろ",
+      "headword": "{空色|そらいろ}",
+      "label": "sky blue"
+    }
+  ],
   "metadata": {
     "created": "2026-03-06T09:51:14Z",
-    "modified": "2026-03-06T09:51:14Z",
+    "modified": "2026-09-02T04:01:40Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-no"],
+      "pos": [
+        "noun",
+        "adjective-no"
+      ],
       "formality": "neutral",
-      "semantic": ["color"]
+      "politeness": "plain",
+      "semantic": [
+        "color"
+      ]
     }
   }
 }

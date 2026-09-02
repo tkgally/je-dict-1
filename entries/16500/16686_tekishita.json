@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "16686_tekishita_ex1",
-      "japanese": "{適|てき}した{方法|ほうほう}を{選|えら}んでください。",
+      "japanese": "{適|てき}した⟦{方法|ほうほう}→方法：03621_houhou⟧⟦を→を：00422_wo⟧⟦{選|えら}んで→選ぶ：00835_erabu⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please choose a suitable method.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "16686_tekishita_ex2",
-      "japanese": "この{仕事|しごと}に{適|てき}した{人材|じんざい}を{探|さが}している。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦に→に：00314_ni⟧{適|てき}した⟦{人材|じんざい}→人材：11426_jinzai⟧⟦を→を：00422_wo⟧⟦{探|さが}している→探す：00493_sagasu⟧。",
       "english": "We are looking for personnel suited to this job.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "16686_tekishita_ex3",
-      "japanese": "{子供|こども}の{年齢|ねんれい}に{適|てき}した{教材|きょうざい}を{使|つか}うことが{大切|たいせつ}だ。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧⟦の→の：09472_no⟧⟦{年齢|ねんれい}→年齢：01490_nenrei⟧⟦に→に：00314_ni⟧{適|てき}した⟦{教材|きょうざい}→教材：12878_kyouzai⟧⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧こと⟦が→が：00051_ga⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧だ。",
       "english": "It is important to use teaching materials appropriate for the child's age.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nAlways used before a noun as a modifier ({連体修飾語|れんたいしゅうしょくご}). The pattern is 〜に{適|てき}した＋noun, meaning \"suited to/for ~.\" This is the adjectival use of the verb {適|てき}する.\n\nCOMMON COLLOCATIONS:\n- 〜に{適|てき}した{環境|かんきょう} (an environment suited to ~)\n- 〜に{適|てき}した{条件|じょうけん} (conditions appropriate for ~)\n- {目的|もくてき}に{適|てき}した (suited to the purpose)\n\nSIMILAR WORDS:\n- {適切|てきせつ}な: appropriate — a more common na-adjective with similar meaning\n- ふさわしい: befitting, worthy — emphasizes worthiness or fittingness",
+  "notes": "USAGE:\nAlways used before a noun as a modifier ({連体修飾語|れんたいしゅうしょくご}). The pattern is 〜⟦に→に：00314_ni⟧{適|てき}した＋noun, meaning \"suited to/for ~.\" This is the adjectival use of the verb ⟦{適|てき}する→適する：02297_tekisuru⟧.\n\nCOMMON COLLOCATIONS:\n- 〜⟦に→に：00314_ni⟧{適|てき}した⟦{環境|かんきょう}→環境：00174_kankyou⟧ (an environment suited to ~)\n- 〜⟦に→に：00314_ni⟧{適|てき}した⟦{条件|じょうけん}→条件：03285_jouken⟧ (conditions appropriate for ~)\n- ⟦{目的|もくてき}→目的：02433_mokuteki⟧⟦に→に：00314_ni⟧{適|てき}した (suited to the purpose)\n\nSIMILAR WORDS:\n- ⟦{適切|てきせつ}→適切：01621_tekisetsu⟧な: appropriate — a more common na-adjective with similar meaning\n- ふさわしい: befitting, worthy — emphasizes worthiness or fittingness",
   "cross_references": [
     {
       "type": "synonym",
@@ -52,11 +52,25 @@
       "reading": "てきせつ",
       "headword": "{適切|てきせつ}",
       "label": "appropriate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25335_tekisetsuna",
+      "reading": "てきせつな",
+      "headword": "{適切|てきせつ}な",
+      "label": "appropriate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10476_fusawashii",
+      "reading": "ふさわしい",
+      "headword": "{相応|ふさわ}しい",
+      "label": "befitting, worthy"
     }
   ],
   "metadata": {
     "created": "2026-03-14T02:12:10Z",
-    "modified": "2026-07-20T13:24:52Z",
+    "modified": "2026-09-02T04:01:45Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

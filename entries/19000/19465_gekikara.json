@@ -3,7 +3,7 @@
   "headword": "{激辛|げきから}",
   "reading": "げきから",
   "romaji": "gekikara",
-  "part_of_speech": "adjective-na, noun",
+  "part_of_speech": "na-adjective, noun",
   "gloss": "extremely spicy; super hot",
   "definitions": [
     {
@@ -15,40 +15,75 @@
   "examples": [
     {
       "id": "19465_gekikara_ex1",
-      "japanese": "この{激辛|げきから}ラーメンは{本当|ほんとう}に{辛|から}い。",
+      "japanese": "⟦この→この：00962_kono⟧{激辛|げきから}⟦ラーメン→ラーメン：05181_raamen⟧⟦は→は：00079_ha⟧⟦{本当|ほんとう}→本当：00779_hontou⟧⟦に→に：00314_ni⟧⟦{辛|から}い→辛い：00638_karai⟧。",
       "english": "This super-spicy ramen is really hot.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19465_gekikara_ex2",
-      "japanese": "{激辛|げきから}{料理|りょうり}に{挑戦|ちょうせん}してみた。",
+      "japanese": "{激辛|げきから}⟦{料理|りょうり}→料理：01523_ryouri⟧⟦に→に：00314_ni⟧⟦{挑戦|ちょうせん}して→挑戦する：21602_chousensuru⟧みた。",
       "english": "I tried challenging myself with extremely spicy food.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19465_gekikara_ex3",
-      "japanese": "このカレーは{激辛|げきから}で{有名|ゆうめい}だから、{苦手|にがて}な{人|ひと}はやめたほうがいい。",
+      "japanese": "⟦この→この：00962_kono⟧⟦カレー→カレー：02898_karee⟧⟦は→は：00079_ha⟧{激辛|げきから}で⟦{有名|ゆうめい}→有名：01106_yuumei⟧だ⟦から→から：00504_kara⟧、⟦{苦手|にがて}→苦手：03513_nigate⟧な⟦{人|ひと}→人：00476_hito⟧はやめた⟦ほうがいい→ほうがいい：10078_hougaii⟧。",
       "english": "This curry is famous for being extremely spicy, so people who can't handle it should avoid it.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A popular compound of {激|げき} (extreme) + {辛|から} (spicy). Widely used in Japanese food culture, especially on menus, food packaging, and TV shows featuring spicy food challenges. Functions as a na-adjective modifier or noun.\n\nCOMMON COLLOCATIONS:\n- {激辛|げきから}ラーメン — super-spicy ramen\n- {激辛|げきから}カレー — extremely hot curry\n- {激辛|げきから}{料理|りょうり} — intensely spicy food\n- {激辛|げきから}チャレンジ — spicy food challenge\n\nRELATED TERMS:\n- {辛口|からくち} — spicy/dry (for food or drink); milder than {激辛|げきから}\n- {大辛|おおから} — extra spicy; a step below {激辛|げきから} on many menus\n- {甘口|あまくち} — mild (opposite end of the spiciness scale)",
+  "notes": "A popular compound of {激|げき} (extreme) + {辛|から} (spicy). Widely used in Japanese food culture, especially on menus, food packaging, and TV shows featuring spicy food challenges. Functions as a na-adjective modifier or noun.\n\nCOMMON COLLOCATIONS:\n- {激辛|げきから}⟦ラーメン→ラーメン：05181_raamen⟧ — super-spicy ramen\n- {激辛|げきから}⟦カレー→カレー：02898_karee⟧ — extremely hot curry\n- {激辛|げきから}⟦{料理|りょうり}→料理：01523_ryouri⟧ — intensely spicy food\n- {激辛|げきから}⟦チャレンジ→チャレンジ：11013_charenji⟧ — spicy food challenge\n\nRELATED WORDS:\n- ⟦{辛口|からくち}→辛口：18794_karakuchi⟧ — spicy/dry (for food or drink); milder than {激辛|げきから}\n- {大辛|おおから} — extra spicy; a step below {激辛|げきから} on many menus\n- ⟦{甘口|あまくち}→甘口：18197_amakuchi⟧ — mild (opposite end of the spiciness scale)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "18794_karakuchi",
+      "reading": "からくち",
+      "headword": "{辛口|からくち}",
+      "label": "spicy/dry"
+    },
+    {
+      "type": "related",
+      "target_id": "18197_amakuchi",
+      "reading": "あまくち",
+      "headword": "{甘口|あまくち}",
+      "label": "mild"
+    },
+    {
+      "type": "related",
+      "target_id": "08340_karatou",
+      "reading": "からとう",
+      "headword": "{辛党|からとう}",
+      "label": "lover of alcohol"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-na", "noun"],
+      "pos": [
+        "adjective-na",
+        "noun"
+      ],
       "formality": "informal",
       "politeness": "plain",
-      "semantic": ["food", "descriptive"]
+      "semantic": [
+        "food",
+        "descriptive"
+      ]
     },
     "created": "2026-03-26T01:18:04Z",
-    "modified": "2026-03-26T01:18:04Z"
+    "modified": "2026-09-02T04:01:56Z"
   }
 }

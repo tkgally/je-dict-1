@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "19890_oohabani_ex1",
-      "japanese": "{価格|かかく}が{大幅|おおはば}に{下|さ}がった。",
+      "japanese": "⟦{価格|かかく}→価格：00147_kakaku⟧⟦が→が：00051_ga⟧{大幅|おおはば}に⟦{下|さ}がった→下がる：01188_sagaru⟧。",
       "english": "The price dropped drastically.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "19890_oohabani_ex2",
-      "japanese": "{計画|けいかく}を{大幅|おおはば}に{見直|みなお}す{必要|ひつよう}がある。",
+      "japanese": "⟦{計画|けいかく}→計画：01172_keikaku⟧⟦を→を：00422_wo⟧{大幅|おおはば}に⟦{見直|みなお}す→見直す：04579_minaosu⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "We need to substantially revise the plan.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "19890_oohabani_ex3",
-      "japanese": "{今年|ことし}の{売|う}り{上|あ}げは{前年|ぜんねん}に{比|くら}べて{大幅|おおはば}に{増加|ぞうか}した。",
+      "japanese": "⟦{今年|ことし}→今年：00722_kotoshi⟧⟦の→の：09472_no⟧{売|う}り{上|あ}げ⟦は→は：00079_ha⟧⟦{前年|ぜんねん}→前年：23906_zennen⟧⟦に→に：00314_ni⟧⟦{比|くら}べて→比べる：01237_kuraberu⟧{大幅|おおはば}に⟦{増加|ぞうか}→増加：03329_zouka⟧⟦した→する：00392_suru⟧。",
       "english": "This year's sales increased substantially compared to last year.",
       "notes": null,
       "has_audio": false,
@@ -43,11 +43,26 @@
       ]
     }
   ],
-  "notes": "Describes a large-scale change or difference. The underlying noun {大幅|おおはば} literally means 'large width,' suggesting a wide margin of change.\n\nCOMMON COLLOCATIONS:\n- {大幅|おおはば}に{増|ふ}える / {減|へ}る: to increase / decrease substantially\n- {大幅|おおはば}に{変更|へんこう}する: to change drastically\n- {大幅|おおはば}に{遅|おく}れる: to be significantly delayed\n- {大幅|おおはば}に{上回|うわまわ}る: to far exceed\n- {大幅|おおはば}な{値上|ねあ}げ: a large price increase\n\nSIMILAR WORDS:\n- {大|おお}きく: greatly — more general and conversational\n- かなり: considerably — expresses degree rather than margin of change\n- {飛躍的|ひやくてき}に: dramatically, by leaps and bounds — implies rapid, remarkable change",
-  "cross_references": [],
+  "notes": "Describes a large-scale change or difference. The underlying noun ⟦{大幅|おおはば}→大幅：12170_oohaba⟧ literally means 'large width,' suggesting a wide margin of change.\n\nCOMMON COLLOCATIONS:\n- {大幅|おおはば}に⟦{増|ふ}える→増える：01183_fueru⟧ / ⟦{減|へ}る→減る：01985_heru⟧: to increase / decrease substantially\n- {大幅|おおはば}に⟦{変更|へんこう}する→変更する：30779_henkousuru⟧: to change drastically\n- {大幅|おおはば}に⟦{遅|おく}れる→遅れる：00741_okureru⟧: to be significantly delayed\n- {大幅|おおはば}に⟦{上回|うわまわ}る→上回る：07648_uwamawaru⟧: to far exceed\n- {大幅|おおはば}な⟦{値上|ねあ}げ→値上げ：07582_neage⟧: a large price increase\n\nSIMILAR WORDS:\n- ⟦{大|おお}きく→大きい：00335_ookii⟧: greatly — more general and conversational\n- ⟦かなり→かなり：01149_kanari⟧: considerably — expresses degree rather than margin of change\n- ⟦{飛躍的|ひやくてき}→飛躍的：21896_hiyakuteki⟧⟦に→に：00314_ni⟧: dramatically, by leaps and bounds — implies rapid, remarkable change",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01149_kanari",
+      "reading": "かなり",
+      "headword": "かなり",
+      "label": "considerably"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21896_hiyakuteki",
+      "reading": "ひやくてき",
+      "headword": "{飛躍的|ひやくてき}",
+      "label": "dramatically, by leaps and bounds"
+    }
+  ],
   "metadata": {
     "created": "2026-03-27T05:28:29Z",
-    "modified": "2026-07-27T12:42:09Z",
+    "modified": "2026-09-02T04:01:57Z",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
     "tags": {

@@ -15,41 +15,68 @@
   "examples": [
     {
       "id": "27943_inukaki_ex1",
-      "japanese": "{犬|いぬ}かきで{泳|およ}ぐ。",
+      "japanese": "{犬|いぬ}かき⟦で→で：00502_de⟧⟦{泳|およ}ぐ→泳ぐ：00545_oyogu⟧。",
       "english": "I swim using the dog paddle.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27943_inukaki_ex2",
-      "japanese": "{息子|むすこ}はまだ{犬|いぬ}かきしかできない。",
+      "japanese": "⟦{息子|むすこ}→息子：00799_musuko⟧⟦は→は：00079_ha⟧⟦まだ→まだ：00603_mada⟧{犬|いぬ}かきしか⟦できない→できる：00557_dekiru⟧。",
       "english": "My son can still only do the dog paddle.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27943_inukaki_ex3",
-      "japanese": "{泳|およ}ぎを{習|なら}う{前|まえ}は、{犬|いぬ}かきで{何|なん}とか{進|すす}んでいた。",
+      "japanese": "⟦{泳|およ}ぎ→泳ぎ：02626_oyogi⟧⟦を→を：00422_wo⟧⟦{習|なら}う→習う：00479_narau⟧⟦{前|まえ}→前：02255_mae⟧⟦は→は：00079_ha⟧、{犬|いぬ}かき⟦で→で：00502_de⟧⟦{何|なん}→何〜：03100_nan⟧⟦と→と：00512_to⟧⟦か→か：09473_ka⟧⟦{進|すす}んでいた→進む：01225_susumu⟧。",
       "english": "Before I took swimming lessons, I managed to move forward with the dog paddle.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Compound of {犬|いぬ} (dog) + かき (from {掻|か}く, to paddle/scratch). Named for its resemblance to the way a dog swims. Seen as an unrefined, beginner's stroke.\n\nCOMMON COLLOCATIONS:\n- {犬|いぬ}かきで{泳|およ}ぐ: to swim the dog paddle\n\nSIMILAR WORDS:\n- {平泳|ひらおよ}ぎ: breaststroke\n- クロール: front crawl; freestyle\n- {背泳|はいえい}ぎ: backstroke",
+  "notes": "Compound of ⟦{犬|いぬ}→犬：00632_inu⟧ (dog) + かき (from ⟦{掻|か}く→掻く：09647_kaku⟧, to paddle/scratch). Named for its resemblance to the way a dog swims. Seen as an unrefined, beginner's stroke.\n\nCOMMON COLLOCATIONS:\n- {犬|いぬ}かき⟦で→で：00502_de⟧⟦{泳|およ}ぐ→泳ぐ：00545_oyogu⟧: to swim the dog paddle\n\nSIMILAR WORDS:\n- ⟦{平泳|ひらおよ}ぎ→平泳ぎ：06526_hiraoyogi⟧: breaststroke\n- ⟦クロール→クロール：06545_kurooru⟧: front crawl; freestyle\n- {背泳|はいえい}ぎ: backstroke",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06526_hiraoyogi",
+      "reading": "ひらおよぎ",
+      "headword": "{平泳|ひらおよ}ぎ",
+      "label": "breaststroke"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06545_kurooru",
+      "reading": "くろーる",
+      "headword": "クロール",
+      "label": "front crawl"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["sports", "movement"],
+      "politeness": "plain",
+      "semantic": [
+        "sports",
+        "movement"
+      ],
       "domain": []
     },
     "created": "2026-05-23T03:06:48Z",
-    "modified": "2026-05-23T03:06:48Z"
+    "modified": "2026-09-02T04:02:32Z"
   }
 }

@@ -78,11 +78,33 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive). Pattern: X⟦を→を：00422_wo⟧{塗|ぬ}る (paint X) / X⟦に→に：00314_ni⟧Y⟦を→を：00422_wo⟧{塗|ぬ}る (apply Y to X).\n\nASPECT: ている indicates completed state. {塗|ぬ}っている = 'is painted' or 'is applying.'\n\nCOMMON PATTERNS:\n・⟦{壁|かべ}→壁：01290_kabe⟧⟦を→を：00422_wo⟧{塗|ぬ}る (paint a wall)\n・⟦ペンキ→ペンキ：00342_penki⟧⟦を→を：00422_wo⟧{塗|ぬ}る (apply paint)\n・⟦バター→バター：04671_bataa⟧⟦を→を：00422_wo⟧{塗|ぬ}る (spread butter)\n・⟦{薬|くすり}→薬：00793_kusuri⟧⟦を→を：00422_wo⟧{塗|ぬ}る (apply medicine/ointment)\n・⟦{口紅|くちべに}→口紅：00249_kuchibeni⟧⟦を→を：00422_wo⟧{塗|ぬ}る (apply lipstick)\n・{塗|ぬ}り⟦{直|なお}す→直す：00869_naosu⟧ (repaint)\n\nRELATED:\n・⟦{塗料|とりょう}→塗料：24548_toryou⟧ (paint, coating material)\n・⟦{塗|ぬ}り{絵|え}→塗り絵：28879_nurie⟧ (coloring book picture)",
-  "cross_references": [],
+  "notes": "TRANSITIVITY: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive). Pattern: X⟦を→を：00422_wo⟧{塗|ぬ}る (paint X) / X⟦に→に：00314_ni⟧Y⟦を→を：00422_wo⟧{塗|ぬ}る (apply Y to X).\n\nASPECT: て⟦いる→いる：00495_iru⟧ indicates completed state. {塗|ぬ}って⟦いる→いる：00495_iru⟧ = 'is painted' or 'is applying.'\n\nCOMMON PATTERNS:\n- ⟦{壁|かべ}→壁：01290_kabe⟧⟦を→を：00422_wo⟧{塗|ぬ}る (paint a wall)\n- ⟦ペンキ→ペンキ：00342_penki⟧⟦を→を：00422_wo⟧{塗|ぬ}る (apply paint)\n- ⟦バター→バター：04671_bataa⟧⟦を→を：00422_wo⟧{塗|ぬ}る (spread butter)\n- ⟦{薬|くすり}→薬：00793_kusuri⟧⟦を→を：00422_wo⟧{塗|ぬ}る (apply medicine/ointment)\n- ⟦{口紅|くちべに}→口紅：00249_kuchibeni⟧⟦を→を：00422_wo⟧{塗|ぬ}る (apply lipstick)\n- {塗|ぬ}り⟦{直|なお}す→直す：00869_naosu⟧ (repaint)\n\nRELATED WORDS:\n- ⟦{塗料|とりょう}→塗料：24548_toryou⟧ (paint, coating material)\n- ⟦{塗|ぬ}り{絵|え}→塗り絵：28879_nurie⟧ (coloring book picture)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "24548_toryou",
+      "reading": "とりょう",
+      "headword": "{塗料|とりょう}",
+      "label": "paint, coating material"
+    },
+    {
+      "type": "related",
+      "target_id": "28879_nurie",
+      "reading": "ぬりえ",
+      "headword": "{塗|ぬ}り{絵|え}",
+      "label": "coloring book picture"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24594_tofu",
+      "reading": "とふ",
+      "headword": "{塗布|とふ}",
+      "label": "application (of ointment, cream, paint, etc.)"
+    }
+  ],
   "metadata": {
     "created": "2026-01-08T12:27:06Z",
-    "modified": "2026-08-09T12:26:58Z",
+    "modified": "2026-09-02T04:00:59Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

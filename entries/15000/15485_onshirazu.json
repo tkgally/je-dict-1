@@ -15,40 +15,80 @@
   "examples": [
     {
       "id": "15485_onshirazu_ex1",
-      "japanese": "{恩知|おんし}らずな{人|ひと}だ。",
+      "japanese": "{恩知|おんし}らずな⟦{人|ひと}→人：00476_hito⟧だ。",
       "english": "What an ungrateful person.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15485_onshirazu_ex2",
-      "japanese": "あれだけ{助|たす}けてもらったのに、{恩知|おんし}らずにもほどがある。",
+      "japanese": "⟦あれ→あれ：00916_are⟧⟦だけ→〜だけ：03093_dake⟧⟦{助|たす}けて→助ける：00895_tasukeru⟧⟦もらった→もらう：00520_morau⟧⟦の→の：09472_no⟧⟦に→に：00314_ni⟧、{恩知|おんし}らず⟦に→に：00314_ni⟧⟦も→も：00484_mo⟧ほど⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "After receiving so much help, there's a limit to how ungrateful you can be.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15485_onshirazu_ex3",
-      "japanese": "{恩知|おんし}らずと{言|い}われたくなかったので、お{礼|れい}の{手紙|てがみ}を{書|か}いた。",
+      "japanese": "{恩知|おんし}らず⟦と→と：00512_to⟧⟦{言|い}われたくなかった→言う：00515_iu⟧⟦の→の：09472_no⟧で、⟦お{礼|れい}→お礼：01359_orei⟧⟦の→の：09472_no⟧⟦{手紙|てがみ}→手紙：00675_tegami⟧⟦を→を：00422_wo⟧⟦{書|か}いた→書く：00477_kaku⟧。",
       "english": "I didn't want to be called ungrateful, so I wrote a thank-you letter.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "FORMATION:\n{恩|おん} (kindness, favor, debt of gratitude) + {知|し}らず (not knowing). Literally \"not knowing kindness.\"\n\nUSAGE:\nA strong word of criticism. Used as a na-adjective ({恩知|おんし}らずな) or as a noun to refer to an ungrateful person. Carries significant moral weight in Japanese culture, where gratitude ({恩|おん}) and repaying kindness ({恩返|おんがえ}し) are deeply valued.\n\nCOMMON COLLOCATIONS:\n- {恩知|おんし}らずな{人|ひと} (an ungrateful person)\n- {恩知|おんし}らずな{態度|たいど} (ungrateful attitude)\n\nRELATED:\n- {恩返|おんがえ}し (repaying a debt of gratitude)\n- {恩|おん}に{着|き}る (to feel indebted)",
-  "cross_references": [],
+  "notes": "FORMS:\n⟦{恩|おん}→恩：02550_on⟧ (kindness, favor, debt of gratitude) + ⟦{知|し}ら→知る：00458_shiru⟧ず (not knowing). Literally \"not knowing kindness.\"\n\nUSAGE:\nA strong word of criticism. Used as a na-adjective ({恩知|おんし}らずな) or as a noun to refer to an ungrateful person. Carries significant moral weight in Japanese culture, where gratitude (⟦{恩|おん}→恩：02550_on⟧) and repaying kindness (⟦{恩返|おんがえ}し→恩返し：11063_ongaeshi⟧) are deeply valued.\n\nCOMMON COLLOCATIONS:\n- {恩知|おんし}らずな⟦{人|ひと}→人：00476_hito⟧ (an ungrateful person)\n- {恩知|おんし}らずな⟦{態度|たいど}→態度：03396_taido⟧ (ungrateful attitude)\n\nRELATED WORDS:\n- ⟦{恩返|おんがえ}し→恩返し：11063_ongaeshi⟧ (repaying a debt of gratitude)\n- ⟦{恩|おん}に{着|き}る→恩に着る：19331_onnikiru⟧ (to feel indebted)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "11063_ongaeshi",
+      "reading": "おんがえし",
+      "headword": "{恩返|おんがえ}し",
+      "label": "repaying a debt of gratitude"
+    },
+    {
+      "type": "related",
+      "target_id": "19331_onnikiru",
+      "reading": "おんにきる",
+      "headword": "{恩|おん}に{着|き}る",
+      "label": "to feel indebted"
+    },
+    {
+      "type": "related",
+      "target_id": "02566_onjin",
+      "reading": "おんじん",
+      "headword": "{恩人|おんじん}",
+      "label": "benefactor, person to whom one owes gratitude"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20456_onwoadadekaesu",
+      "reading": "おんをあだでかえす",
+      "headword": "{恩|おん}を{仇|あだ}で{返|かえ}す",
+      "label": "to repay kindness with ingratitude"
+    }
+  ],
   "metadata": {
     "created": "2026-03-07T08:58:58Z",
-    "modified": "2026-03-07T08:58:58Z",
+    "modified": "2026-09-02T04:01:41Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-na", "noun"],
+      "pos": [
+        "adjective-na",
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["emotion"]
+      "semantic": [
+        "emotion"
+      ]
     }
   }
 }

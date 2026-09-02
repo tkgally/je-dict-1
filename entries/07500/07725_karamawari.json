@@ -2,7 +2,7 @@
   "id": "07725_karamawari",
   "headword": "{空回|からまわ}り",
   "reading": "からまわり",
-  "part_of_speech": "noun, suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "spinning one's wheels; futile effort",
   "conjugation": {
     "type": "suru",
@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "07725_karamawari_ex1",
-      "japanese": "{努力|どりょく}が{空回|からまわ}りしている。",
+      "japanese": "⟦{努力|どりょく}→努力：03490_doryoku⟧⟦が→が：00051_ga⟧{空回|からまわ}り⟦している→する：00392_suru⟧。",
       "english": "My efforts are going nowhere.",
       "has_audio": false,
       "sense_numbers": [
@@ -113,7 +113,7 @@
     },
     {
       "id": "07725_karamawari_ex2",
-      "japanese": "{焦|あせ}って{空回|からまわ}りしてしまった。",
+      "japanese": "⟦{焦|あせ}って→焦る：04619_aseru⟧{空回|からまわ}り⟦して→する：00392_suru⟧しまった。",
       "english": "I rushed and ended up spinning my wheels.",
       "has_audio": false,
       "sense_numbers": [
@@ -122,7 +122,7 @@
     },
     {
       "id": "07725_karamawari_ex3",
-      "japanese": "{会議|かいぎ}が{空回|からまわ}りして{何|なに}も{決|き}まらなかった。",
+      "japanese": "⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦が→が：00051_ga⟧{空回|からまわ}り⟦して→する：00392_suru⟧⟦{何|なに}も→何も：03874_nanimo⟧⟦{決|き}まらなかった→決まる：01233_kimaru⟧。",
       "english": "The meeting went in circles and nothing was decided.",
       "has_audio": false,
       "sense_numbers": [
@@ -130,10 +130,10 @@
       ]
     }
   ],
-  "notes": "ETYMOLOGY:\n{空|から} (empty) + {回|まわ}り (turning) - like a wheel turning without traction, not getting anywhere.\n\nUSAGE:\nDescribes situations where:\n・Hard work doesn't produce results\n・Enthusiasm or energy is misdirected\n・Discussions go nowhere\n\nCOLLOCATIONS:\n・{空回|からまわ}りする - to spin one's wheels\n・{努力|どりょく}が{空回|からまわ}りする - efforts go nowhere\n・{気持|きも}ちが{空回|からまわ}りする - enthusiasm is misdirected",
+  "notes": "ETYMOLOGY:\n⟦{空|から}→空：27640_kara⟧ (empty) + ⟦{回|まわ}り→回る：01150_mawaru⟧ (turning) - like a wheel turning without traction, not getting anywhere.\n\nUSAGE:\nDescribes situations where:\n- Hard work doesn't produce results\n- Enthusiasm or energy is misdirected\n- Discussions go nowhere\n\nCOMMON COLLOCATIONS:\n- {空回|からまわ}り⟦する→する：00392_suru⟧ - to spin one's wheels\n- ⟦{努力|どりょく}→努力：03490_doryoku⟧⟦が→が：00051_ga⟧{空回|からまわ}り⟦する→する：00392_suru⟧ - efforts go nowhere\n- {気持|きも}ち⟦が→が：00051_ga⟧{空回|からまわ}り⟦する→する：00392_suru⟧ - enthusiasm is misdirected",
   "metadata": {
     "created": "2026-01-21T00:25:02Z",
-    "modified": "2026-06-19T21:43:28Z",
+    "modified": "2026-09-02T04:01:12Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -142,12 +142,14 @@
         "verb-suru"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "action",
         "general"
       ],
       "domain": [],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

@@ -14,40 +14,107 @@
   "examples": [
     {
       "id": "16324_doudouto_ex1",
-      "japanese": "{堂々|どうどう}と{歩|ある}く。",
+      "japanese": "{堂々|どうどう}と⟦{歩|ある}く→歩く：00538_aruku⟧。",
       "english": "To walk with confidence.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16324_doudouto_ex2",
-      "japanese": "{彼女|かのじょ}は{堂々|どうどう}とスピーチをした。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧{堂々|どうどう}と⟦スピーチ→スピーチ：03852_supiichi⟧⟦を→を：00422_wo⟧⟦した→する：00392_suru⟧。",
       "english": "She gave her speech confidently.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16324_doudouto_ex3",
-      "japanese": "{悪|わる}いことをしていないなら、{堂々|どうどう}としていればいい。",
+      "japanese": "⟦{悪|わる}い→悪い：00908_warui⟧こと⟦を→を：00422_wo⟧⟦していない→する：00392_suru⟧なら、{堂々|どうどう}と⟦していれば→する：00392_suru⟧⟦いい→いい：00118_ii⟧。",
       "english": "If you haven't done anything wrong, just hold your head high.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "COMMON PATTERNS:\n- {堂々|どうどう}と{歩|ある}く: to walk confidently\n- {堂々|どうどう}と{話|はな}す: to speak with confidence\n- {堂々|どうどう}としている: to be composed and dignified\n- {堂々|どうどう}たる{態度|たいど}: an imposing/dignified attitude\n\nUSAGE NOTES:\n{堂々|どうどう}と is generally positive, suggesting dignity and self-assurance. However, it can carry an ironic or negative nuance when someone acts brazenly despite doing something wrong (e.g., {堂々|どうどう}とウソをつく, to lie brazenly).\n\nRELATED FORM:\n- {堂々|どうどう}たる〜: an imposing/magnificent ~ (literary attributive form)",
-  "cross_references": [],
+  "notes": "COMMON PATTERNS:\n- {堂々|どうどう}と⟦{歩|ある}く→歩く：00538_aruku⟧: to walk confidently\n- {堂々|どうどう}と⟦{話|はな}す→話す：00467_hanasu⟧: to speak with confidence\n- {堂々|どうどう}と⟦している→する：00392_suru⟧: to be composed and dignified\n- ⟦{堂々|どうどう}→堂々：05895_doudou⟧たる⟦{態度|たいど}→態度：03396_taido⟧: an imposing/dignified attitude\n\nUSAGE:\n{堂々|どうどう}と is generally positive, suggesting dignity and self-assurance. However, it can carry an ironic or negative nuance when someone acts brazenly despite doing something wrong (e.g., {堂々|どうどう}とウソ⟦を→を：00422_wo⟧つく, to lie brazenly).\n\nRELATED FORM:\n- ⟦{堂々|どうどう}→堂々：05895_doudou⟧たる〜: an imposing/magnificent ~ (literary attributive form)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05792_kosokoso",
+      "reading": "こそこそ",
+      "headword": "こそこそ",
+      "label": "sneakily, stealthily"
+    },
+    {
+      "type": "related",
+      "target_id": "06900_munewoharu",
+      "reading": "むねをはる",
+      "headword": "{胸|むね}を{張|は}る",
+      "label": "to be proud, to hold one's head high"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06932_ozuozu",
+      "reading": "おずおず",
+      "headword": "おずおず",
+      "label": "timidly, bashfully, hesitantly"
+    },
+    {
+      "type": "related",
+      "target_id": "09175_ririshii",
+      "reading": "りりしい",
+      "headword": "{凛々|りり}しい",
+      "label": "dignified, gallant, valiant"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17200_banareru",
+      "reading": "ばなれる",
+      "headword": "{場馴|ばな}れる",
+      "label": "to get used to a situation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20048_doudoutaru",
+      "reading": "どうどうたる",
+      "headword": "{堂々|どうどう}たる",
+      "label": "imposing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20804_akarasama",
+      "reading": "あからさま",
+      "headword": "あからさま",
+      "label": "blatant"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20894_kouzen",
+      "reading": "こうぜん",
+      "headword": "{公然|こうぜん}",
+      "label": "openly"
+    }
+  ],
   "metadata": {
     "created": "2026-03-12T01:23:28Z",
-    "modified": "2026-03-12T01:23:28Z",
+    "modified": "2026-09-02T04:01:44Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adverb"],
+      "pos": [
+        "adverb"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["descriptive"]
+      "semantic": [
+        "descriptive"
+      ]
     }
   },
   "schema_version": "2.0"

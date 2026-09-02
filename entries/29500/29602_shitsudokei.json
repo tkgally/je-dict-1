@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29602_shitsudokei_ex1",
-      "japanese": "{湿度計|しつどけい}を{見|み}る。",
+      "japanese": "{湿度計|しつどけい}⟦を→を：00422_wo⟧⟦{見|み}る→見る：00283_miru⟧。",
       "english": "To look at the hygrometer.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29602_shitsudokei_ex2",
-      "japanese": "{湿度計|しつどけい}が60パーセントを{示|しめ}している。",
+      "japanese": "{湿度計|しつどけい}⟦が→が：00051_ga⟧60⟦パーセント→パーセント：01537_paasento⟧⟦を→を：00422_wo⟧⟦{示|しめ}している→示す：01948_shimesu⟧。",
       "english": "The hygrometer reads 60 percent.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29602_shitsudokei_ex3",
-      "japanese": "{温度計|おんどけい}と{湿度計|しつどけい}が{一|ひと}つになった{機器|きき}を{壁|かべ}に{掛|か}けた。",
+      "japanese": "⟦{温度計|おんどけい}→温度計：25699_ondokei⟧⟦と→と：00512_to⟧{湿度計|しつどけい}⟦が→が：00051_ga⟧⟦{一|ひと}つ→一つ：02948_hitotsu⟧になった⟦{機器|きき}→機器：13180_kiki⟧⟦を→を：00422_wo⟧⟦{壁|かべ}→壁：01290_kabe⟧⟦に→に：00314_ni⟧{掛|か}けた。",
       "english": "I hung a combined thermometer-and-hygrometer unit on the wall.",
       "sense_numbers": [
         1
@@ -44,13 +44,20 @@
       "notes": null
     }
   ],
-  "notes": "An instrument for measuring humidity ({湿度|しつど}).\n\nCOMMON COLLOCATIONS:\n- {湿度計|しつどけい}で{測|はか}る: to measure with a hygrometer\n- {湿度計|しつどけい}の{数値|すうち}: the hygrometer reading\n\nSIMILAR WORDS:\n- {温度計|おんどけい}: thermometer — measures temperature; often built into the same unit",
+  "notes": "An instrument for measuring humidity (⟦{湿度|しつど}→湿度：03181_shitsudo⟧).\n\nCOMMON COLLOCATIONS:\n- {湿度計|しつどけい}⟦で→で：00502_de⟧⟦{測|はか}る→測る：01977_hakaru⟧: to measure with a hygrometer\n- {湿度計|しつどけい}⟦の→の：09472_no⟧⟦{数値|すうち}→数値：12913_suuchi⟧: the hygrometer reading\n\nSIMILAR WORDS:\n- ⟦{温度計|おんどけい}→温度計：25699_ondokei⟧: thermometer — measures temperature; often built into the same unit",
   "cross_references": [
     {
       "type": "related",
       "reading": "おんどけい",
       "headword": "{温度計|おんどけい}",
       "target_id": "25699_ondokei"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27376_kiatsukei",
+      "reading": "きあつけい",
+      "headword": "{気圧計|きあつけい}",
+      "label": "barometer"
     }
   ],
   "schema_version": "2.0",
@@ -61,13 +68,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "tool"
       ],
       "domain": []
     },
     "created": "2026-07-01T00:20:08Z",
-    "modified": "2026-07-01T00:20:08Z"
+    "modified": "2026-09-02T04:02:37Z"
   }
 }

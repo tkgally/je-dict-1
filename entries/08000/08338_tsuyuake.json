@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "08338_tsuyuake_ex1",
-      "japanese": "やっと{梅雨明|つゆあ}けした。",
+      "japanese": "⟦やっと→やっと：01561_yatto⟧{梅雨明|つゆあ}け⟦した→する：00392_suru⟧。",
       "english": "The rainy season has finally ended.",
       "sense_numbers": [
         1
@@ -114,7 +114,7 @@
     },
     {
       "id": "08338_tsuyuake_ex2",
-      "japanese": "{梅雨明|つゆあ}けと{同時|どうじ}に{猛暑|もうしょ}がやってきた。",
+      "japanese": "{梅雨明|つゆあ}け⟦と→と：00512_to⟧⟦{同時|どうじ}→同時：01592_douji⟧⟦に→に：00314_ni⟧⟦{猛暑|もうしょ}→猛暑：08311_mousho⟧⟦が→が：00051_ga⟧⟦やって→やる：02980_yaru⟧きた。",
       "english": "As soon as the rainy season ended, the intense heat arrived.",
       "sense_numbers": [
         1
@@ -124,7 +124,7 @@
     },
     {
       "id": "08338_tsuyuake_ex3",
-      "japanese": "{梅雨明|つゆあ}けを{待|ま}って{海水浴|かいすいよく}に{行|い}く{予定|よてい}だ。",
+      "japanese": "{梅雨明|つゆあ}け⟦を→を：00422_wo⟧⟦{待|ま}って→待つ：00469_matsu⟧⟦{海水浴|かいすいよく}→海水浴：10972_kaisuiyoku⟧⟦に→に：00314_ni⟧⟦{行|い}く→行く：00119_iku⟧⟦{予定|よてい}→予定：00824_yotei⟧だ。",
       "english": "I'm planning to go swimming at the beach after the rainy season ends.",
       "sense_numbers": [
         1
@@ -133,7 +133,7 @@
       "notes": null
     }
   ],
-  "notes": "FORMATION:\n{梅雨|つゆ} (rainy season) + {明|あ}け (dawn, end) → end of the rainy season\n\nVERB FORM:\n{梅雨明|つゆあ}けする (for the rainy season to end)\n{梅雨|つゆ}が{明|あ}ける (for the rainy season to end)\n\nTIMING:\nThe Japan Meteorological Agency announces {梅雨明|つゆあ}け for each region:\n- {沖縄|おきなわ}: late June\n- {九州|きゅうしゅう}〜{関東|かんとう}: mid to late July\n- {東北|とうほく}: late July\n\nWHAT FOLLOWS:\nAfter {梅雨明|つゆあ}け, Japan enters {真夏|まなつ} (midsummer) with high temperatures and humidity. This is also the start of summer vacation for schools.\n\nRELATED TERMS:\n- {梅雨入|つゆい}り (start of rainy season)\n- {夏本番|なつほんばん} (full-blown summer)\n- {猛暑|もうしょ} (intense heat)",
+  "notes": "FORMS:\n⟦{梅雨|つゆ}→梅雨：02232_tsuyu⟧ (rainy season) + ⟦{明|あ}け→明け：13157_ake⟧ (dawn, end) → end of the rainy season\n{梅雨明|つゆあ}け⟦する→する：00392_suru⟧ (for the rainy season to end)\n⟦{梅雨|つゆ}→梅雨：02232_tsuyu⟧⟦が→が：00051_ga⟧⟦{明|あ}ける→明ける：21288_akeru⟧ (for the rainy season to end)\n\nTIMING:\nThe Japan Meteorological Agency announces {梅雨明|つゆあ}け for each region:\n- ⟦{沖縄|おきなわ}→沖縄：11009_okinawa⟧: late June\n- ⟦{九州|きゅうしゅう}→九州：15647_kyuushuu⟧〜⟦{関東|かんとう}→関東：00186_kantou⟧: mid to late July\n- ⟦{東北|とうほく}→東北：27542_touhoku⟧: late July\n\nWHAT FOLLOWS:\nAfter {梅雨明|つゆあ}け, Japan enters ⟦{真夏|まなつ}→真夏：27793_manatsu⟧ (midsummer) with high temperatures and humidity. This is also the start of summer vacation for schools.\n\nRELATED WORDS:\n- ⟦{梅雨入|つゆい}り→梅雨入り：08337_tsuyuiri⟧ (start of rainy season)\n- {夏本番|なつほんばん} (full-blown summer)\n- ⟦{猛暑|もうしょ}→猛暑：08311_mousho⟧ (intense heat)",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -142,6 +142,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "weather",
         "time-season"
@@ -149,7 +150,7 @@
       "verb_class": "suru"
     },
     "created": "2026-01-26T04:18:21Z",
-    "modified": "2026-08-11T21:34:29Z"
+    "modified": "2026-09-02T04:01:14Z"
   },
   "prominent_see_also": [
     {
@@ -173,6 +174,34 @@
       "reading": "もうしょ",
       "headword": "{猛暑|もうしょ}",
       "label": "intense heat"
+    },
+    {
+      "type": "related",
+      "target_id": "00662_rokugatsu",
+      "reading": "ろくがつ",
+      "headword": "{六月|ろくがつ}",
+      "label": "June"
+    },
+    {
+      "type": "antonym",
+      "target_id": "22127_nyuubai",
+      "reading": "にゅうばい",
+      "headword": "{入梅|にゅうばい}",
+      "label": "start of the rainy season"
+    },
+    {
+      "type": "related",
+      "target_id": "24972_tsuyuzensen",
+      "reading": "つゆぜんせん",
+      "headword": "{梅雨前線|つゆぜんせん}",
+      "label": "seasonal rain front"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27795_karatsuyu",
+      "reading": "からつゆ",
+      "headword": "{空梅雨|からつゆ}",
+      "label": "dry rainy season"
     }
   ]
 }

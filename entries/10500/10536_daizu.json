@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "10536_daizu_ex1",
-      "japanese": "{大豆|だいず}から{豆腐|とうふ}を{作|つく}る。",
+      "japanese": "{大豆|だいず}⟦から→から：00504_kara⟧⟦{豆腐|とうふ}→豆腐：04928_toufu⟧⟦を→を：00422_wo⟧⟦{作|つく}る→作る：00481_tsukuru⟧。",
       "english": "Tofu is made from soybeans.",
       "has_audio": false,
       "notes": null,
@@ -24,7 +24,7 @@
     },
     {
       "id": "10536_daizu_ex2",
-      "japanese": "{大豆|だいず}は{体|からだ}にいい{食|た}べ{物|もの}です。",
+      "japanese": "{大豆|だいず}⟦は→は：00079_ha⟧⟦{体|からだ}→体：00784_karada⟧⟦に→に：00314_ni⟧⟦いい→いい：00118_ii⟧⟦{食|た}べ{物|もの}→食べ物：02890_tabemono⟧です。",
       "english": "Soybeans are a healthy food.",
       "has_audio": false,
       "notes": null,
@@ -34,7 +34,7 @@
     },
     {
       "id": "10536_daizu_ex3",
-      "japanese": "{味噌|みそ}も{醤油|しょうゆ}も{大豆|だいず}から{作|つく}られている{日本|にほん}の{伝統的|でんとうてき}な{食品|しょくひん}です。",
+      "japanese": "⟦{味噌|みそ}→味噌：01037_miso⟧⟦も→も：00484_mo⟧⟦{醤油|しょうゆ}→醤油：01056_shouyu⟧⟦も→も：00484_mo⟧{大豆|だいず}⟦から→から：00504_kara⟧⟦{作|つく}られている→作る：00481_tsukuru⟧⟦{日本|にほん}→日本：03876_nihon⟧⟦の→の：09472_no⟧⟦{伝統的|でんとうてき}→伝統的：04802_dentouteki⟧な⟦{食品|しょくひん}→食品：03247_shokuhin⟧です。",
       "english": "Both miso and soy sauce are traditional Japanese foods made from soybeans.",
       "has_audio": false,
       "notes": null,
@@ -43,11 +43,11 @@
       ]
     }
   ],
-  "notes": "{大豆|だいず} is one of the most important crops in Japanese food culture.\n\nCOMMON SOYBEAN PRODUCTS:\n- {豆腐|とうふ}: tofu\n- {味噌|みそ}: miso\n- {醤油|しょうゆ}: soy sauce\n- {納豆|なっとう}: fermented soybeans\n- {枝豆|えだまめ}: edamame (young soybeans)\n- {豆乳|とうにゅう}: soy milk\n\n{節分|せつぶん} (the day before the start of spring) involves throwing roasted {大豆|だいず} while saying {鬼|おに}は{外|そと}、{福|ふく}は{内|うち} (Demons out, good fortune in).",
+  "notes": "{大豆|だいず} is one of the most important crops in Japanese food culture.\n\nCOMMON SOYBEAN PRODUCTS:\n- ⟦{豆腐|とうふ}→豆腐：04928_toufu⟧: tofu\n- ⟦{味噌|みそ}→味噌：01037_miso⟧: miso\n- ⟦{醤油|しょうゆ}→醤油：01056_shouyu⟧: soy sauce\n- ⟦{納豆|なっとう}→納豆：04930_nattou⟧: fermented soybeans\n- ⟦{枝豆|えだまめ}→枝豆：21197_edamame⟧: edamame (young soybeans)\n- ⟦{豆乳|とうにゅう}→豆乳：14226_tounyuu⟧: soy milk\n\n⟦{節分|せつぶん}→節分：18971_setsubun⟧ (the day before the start of spring) involves throwing roasted {大豆|だいず} while saying ⟦{鬼|おに}→鬼：02184_oni⟧⟦は→は：00079_ha⟧⟦{外|そと}→外：00671_soto⟧、{福|ふく}⟦は→は：00079_ha⟧⟦{内|うち}→内：01328_uchi⟧ (Demons out, good fortune in).",
   "schema_version": "2.0",
   "metadata": {
     "created": "2026-02-08T03:20:10Z",
-    "modified": "2026-08-14T14:49:22Z",
+    "modified": "2026-09-02T04:01:21Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
@@ -74,6 +74,34 @@
       "reading": "なっとう",
       "headword": "{納豆|なっとう}",
       "label": "made from soybeans"
+    },
+    {
+      "type": "related",
+      "target_id": "19500_mamerui",
+      "reading": "まめるい",
+      "headword": "{豆類|まめるい}",
+      "label": "beans"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24601_natane",
+      "reading": "なたね",
+      "headword": "{菜種|なたね}",
+      "label": "rapeseed"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25094_ingenmame",
+      "reading": "いんげんまめ",
+      "headword": "いんげんまめ",
+      "label": "common bean"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30552_kuromame",
+      "reading": "くろまめ",
+      "headword": "{黒豆|くろまめ}",
+      "label": "black soybeans"
     }
   ]
 }

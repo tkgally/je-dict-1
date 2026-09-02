@@ -15,40 +15,73 @@
   "examples": [
     {
       "id": "19491_katteguchi_ex1",
-      "japanese": "{勝手口|かってぐち}から{出|で}る。",
+      "japanese": "{勝手口|かってぐち}⟦から→から：00504_kara⟧⟦{出|で}る→出る：00513_deru⟧。",
       "english": "To go out through the kitchen door.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19491_katteguchi_ex2",
-      "japanese": "ゴミは{勝手口|かってぐち}から{出|だ}してください。",
+      "japanese": "⟦ゴミ→ゴミ：00840_gomi⟧⟦は→は：00079_ha⟧{勝手口|かってぐち}⟦から→から：00504_kara⟧⟦{出|だ}して→出す：01087_dasu⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please take the trash out through the back entrance.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19491_katteguchi_ex3",
-      "japanese": "{勝手口|かってぐち}の{鍵|かぎ}をかけ{忘|わす}れて{出|で}かけてしまった。",
+      "japanese": "{勝手口|かってぐち}⟦の→の：09472_no⟧⟦{鍵|かぎ}→鍵：02189_kagi⟧⟦を→を：00422_wo⟧かけ⟦{忘|わす}れて→忘れる：00474_wasureru⟧⟦{出|で}かけて→出かける：00833_dekakeru⟧しまった。",
       "english": "I went out and forgot to lock the kitchen door.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {勝手|かって} (kitchen; one's own convenience) and {口|ぐち} (entrance). In traditional Japanese homes, {勝手|かって} referred to the kitchen area, so the {勝手口|かってぐち} was the door leading to or near the kitchen — a secondary, informal entrance.\n\nCULTURAL CONTEXT:\nIn Japanese houses, the {玄関|げんかん} (front entrance) is for formal use and welcoming guests, while the {勝手口|かってぐち} is for practical daily use: taking out garbage, receiving deliveries, and stepping into the garden. Many modern apartments lack a {勝手口|かってぐち}, but houses commonly have one.\n\nCOMMON COLLOCATIONS:\n- {勝手口|かってぐち}の{鍵|かぎ} — kitchen door key\n- {勝手口|かってぐち}から{入|はい}る — to enter through the back door\n- {勝手口|かってぐち}のドア — the kitchen door\n\nRELATED TERMS:\n- {玄関|げんかん} — front entrance; the formal entry to a Japanese home\n- {裏口|うらぐち} — back door; can also mean underhanded methods",
+  "notes": "A compound of ⟦{勝手|かって}→勝手：03021_katte⟧ (kitchen; one's own convenience) and {口|ぐち} (entrance). In traditional Japanese homes, ⟦{勝手|かって}→勝手：03021_katte⟧ referred to the kitchen area, so the {勝手口|かってぐち} was the door leading to or near the kitchen — a secondary, informal entrance.\n\nCULTURAL NOTE:\nIn Japanese houses, the ⟦{玄関|げんかん}→玄関：05003_genkan⟧ (front entrance) is for formal use and welcoming guests, while the {勝手口|かってぐち} is for practical daily use: taking out garbage, receiving deliveries, and stepping into the garden. Many modern apartments lack a {勝手口|かってぐち}, but houses commonly have one.\n\nCOMMON COLLOCATIONS:\n- {勝手口|かってぐち}⟦の→の：09472_no⟧⟦{鍵|かぎ}→鍵：02189_kagi⟧ — kitchen door key\n- {勝手口|かってぐち}⟦から→から：00504_kara⟧⟦{入|はい}る→入る：00494_hairu⟧ — to enter through the back door\n- {勝手口|かってぐち}⟦の→の：09472_no⟧⟦ドア→ドア：00773_doa⟧ — the kitchen door\n\nRELATED WORDS:\n- ⟦{玄関|げんかん}→玄関：05003_genkan⟧ — front entrance; the formal entry to a Japanese home\n- ⟦{裏口|うらぐち}→裏口：04101_uraguchi⟧ — back door; can also mean underhanded methods",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "05003_genkan",
+      "reading": "げんかん",
+      "headword": "{玄関|げんかん}",
+      "label": "front entrance"
+    },
+    {
+      "type": "related",
+      "target_id": "04101_uraguchi",
+      "reading": "うらぐち",
+      "headword": "{裏口|うらぐち}",
+      "label": "back door"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24623_tsuuyoumon",
+      "reading": "つうようもん",
+      "headword": "{通用門|つうようもん}",
+      "label": "service entrance"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["building"]
+      "semantic": [
+        "building"
+      ]
     },
     "created": "2026-03-26T02:37:30Z",
-    "modified": "2026-07-26T21:31:07Z"
+    "modified": "2026-09-02T04:01:56Z"
   }
 }

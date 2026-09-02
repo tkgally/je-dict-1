@@ -15,40 +15,67 @@
   "examples": [
     {
       "id": "21933_kaikou_ex1",
-      "japanese": "{横浜|よこはま}は{有名|ゆうめい}な{海港|かいこう}{都市|とし}だ。",
+      "japanese": "⟦{横浜|よこはま}→横浜：28138_yokohama⟧⟦は→は：00079_ha⟧⟦{有名|ゆうめい}→有名：01106_yuumei⟧な{海港|かいこう}⟦{都市|とし}→都市：01477_toshi⟧だ。",
       "english": "Yokohama is a famous seaport city.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21933_kaikou_ex2",
-      "japanese": "{大型|おおがた}の{貨物船|かもつせん}がその{海港|かいこう}に{入港|にゅうこう}した。",
+      "japanese": "⟦{大型|おおがた}→大型：03016_oogata⟧⟦の→の：09472_no⟧⟦{貨物船|かもつせん}→貨物船：22204_kamotsusen⟧⟦が→が：00051_ga⟧⟦その→その：00993_sono⟧{海港|かいこう}⟦に→に：00314_ni⟧⟦{入港|にゅうこう}→入港：14771_nyuukou⟧⟦した→する：00392_suru⟧。",
       "english": "A large cargo ship entered the seaport.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21933_kaikou_ex3",
-      "japanese": "この{海港|かいこう}は{古|ふる}くから{国際|こくさい}{貿易|ぼうえき}の{拠点|きょてん}として{栄|さか}えてきた。",
+      "japanese": "⟦この→この：00962_kono⟧{海港|かいこう}⟦は→は：00079_ha⟧⟦{古|ふる}く→古い：00488_furui⟧⟦から→から：00504_kara⟧⟦{国際|こくさい}→国際：01406_kokusai⟧⟦{貿易|ぼうえき}→貿易：01727_boueki⟧⟦の→の：09472_no⟧⟦{拠点|きょてん}→拠点：05628_kyoten⟧⟦として→として：06802_toshite⟧⟦{栄|さか}えて→栄える：13104_sakaeru⟧きた。",
       "english": "This seaport has prospered as a hub of international trade since ancient times.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {海|かい} (sea) and {港|こう} (port). Refers specifically to ports on the coast, emphasizing their maritime nature.\n\nCOMMON COLLOCATIONS:\n- {海港|かいこう}{都市|とし}: seaport city\n- {国際|こくさい}{海港|かいこう}: international seaport\n- {海港|かいこう}{施設|しせつ}: harbor facilities\n\nSIMILAR WORDS:\n- {港|みなと}: port, harbor — the general everyday word for any port\n- {港湾|こうわん}: harbor, port — a more formal/technical term emphasizing the harbor infrastructure\n- {空港|くうこう}: airport — uses the same {港|こう} character but for air travel\n\nNOTE:\nIn everyday conversation, {港|みなと} is used much more frequently. {海港|かいこう} appears mainly in written, formal, or technical contexts.",
+  "notes": "A compound of {海|かい} (sea) and {港|こう} (port). Refers specifically to ports on the coast, emphasizing their maritime nature.\n\nCOMMON COLLOCATIONS:\n- {海港|かいこう}⟦{都市|とし}→都市：01477_toshi⟧: seaport city\n- ⟦{国際|こくさい}→国際：01406_kokusai⟧{海港|かいこう}: international seaport\n- {海港|かいこう}⟦{施設|しせつ}→施設：02503_shisetsu⟧: harbor facilities\n\nSIMILAR WORDS:\n- ⟦{港|みなと}→港：01512_minato⟧: port, harbor — the general everyday word for any port\n- ⟦{港湾|こうわん}→港湾：14767_kouwan⟧: harbor, port — a more formal/technical term emphasizing the harbor infrastructure\n- ⟦{空港|くうこう}→空港：00648_kuukou⟧: airport — uses the same {港|こう} character but for air travel\n\nUSAGE:\nIn everyday conversation, ⟦{港|みなと}→港：01512_minato⟧ is used much more frequently. {海港|かいこう} appears mainly in written, formal, or technical contexts.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14767_kouwan",
+      "reading": "こうわん",
+      "headword": "{港湾|こうわん}",
+      "label": "harbor, port"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00648_kuukou",
+      "reading": "くうこう",
+      "headword": "{空港|くうこう}",
+      "label": "airport"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["location", "transport"]
+      "semantic": [
+        "location",
+        "transport"
+      ]
     },
     "created": "2026-04-03T22:09:37Z",
-    "modified": "2026-04-03T22:09:37Z"
+    "modified": "2026-09-02T04:02:05Z"
   }
 }

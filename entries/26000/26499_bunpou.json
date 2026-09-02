@@ -3,7 +3,7 @@
   "headword": "{分包|ぶんぽう}",
   "reading": "ぶんぽう",
   "romaji": "bunpou",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "individual packaging; single-dose packaging",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26499_bunpou_ex1",
-      "japanese": "{薬|くすり}を{分包|ぶんぽう}してもらった。",
+      "japanese": "⟦{薬|くすり}→薬：00793_kusuri⟧⟦を→を：00422_wo⟧{分包|ぶんぽう}⟦して→する：00392_suru⟧⟦もらった→もらう：00520_morau⟧。",
       "english": "I had my medicine divided into individual packets.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26499_bunpou_ex2",
-      "japanese": "お{茶|ちゃ}が{一杯|いっぱい}{分|ぶん}ずつ{分包|ぶんぽう}されていて{便利|べんり}だ。",
+      "japanese": "⟦お{茶|ちゃ}→お茶：00576_ocha⟧⟦が→が：00051_ga⟧⟦{一杯|いっぱい}→一杯：01793_ippai⟧⟦{分|ぶん}→分：26216_bun⟧⟦ずつ→〜ずつ：03092_zutsu⟧{分包|ぶんぽう}⟦されていて→する：00392_suru⟧⟦{便利|べんり}→便利：00830_benri⟧だ。",
       "english": "The tea is individually packaged per cup, which is convenient.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26499_bunpou_ex3",
-      "japanese": "{高齢者|こうれいしゃ}が{飲|の}み{間違|まちが}えないように、{薬局|やっきょく}で{薬|くすり}を{一回分|いっかいぶん}ずつ{分包|ぶんぽう}してくれる。",
+      "japanese": "⟦{高齢者|こうれいしゃ}→高齢者：15649_koureisha⟧⟦が→が：00051_ga⟧⟦{飲|の}み→飲む：00322_nomu⟧⟦{間違|まちが}えない→間違える：01109_machigaeru⟧よう⟦に→に：00314_ni⟧、⟦{薬局|やっきょく}→薬局：01069_yakkyoku⟧⟦で→で：00502_de⟧⟦{薬|くすり}→薬：00793_kusuri⟧⟦を→を：00422_wo⟧{一回分|いっかいぶん}⟦ずつ→〜ずつ：03092_zutsu⟧{分包|ぶんぽう}⟦して→する：00392_suru⟧⟦くれる→くれる：00724_kureru⟧。",
       "english": "The pharmacy packages medication into single doses so elderly patients don't take the wrong amount.",
       "sense_numbers": [
         1
@@ -44,8 +44,16 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {分|ぶん} (divide, portion) and {包|ぽう} (wrapping, packaging). Most commonly encountered in pharmaceutical contexts, where pharmacists use a {分包機|ぶんぽうき} (dose-packaging machine) to divide medications into individual packets. Each packet is labeled with the time of day it should be taken. Also used in food packaging for single-serving portions.\n\nCOMMON COLLOCATIONS:\n- {分包|ぶんぽう}する: to package individually\n- {分包機|ぶんぽうき}: dose-packaging machine\n- {一回分|いっかいぶん}{分包|ぶんぽう}: single-dose packaging\n\nNOTE ON HOMOPHONES:\nNot to be confused with {文法|ぶんぽう} (grammar), which has the same reading but completely different meaning and kanji.\n\nSIMILAR WORDS:\n- {個包装|こほうそう}: individual wrapping — used more broadly for individually wrapped items like candy or snacks\n- {小分|こわ}け: dividing into small portions — more colloquial and used for food portioning at home",
-  "cross_references": [],
+  "notes": "Composed of ⟦{分|ぶん}→分：26216_bun⟧ (divide, portion) and {包|ぽう} (wrapping, packaging). Most commonly encountered in pharmaceutical contexts, where pharmacists use a {分包機|ぶんぽうき} (dose-packaging machine) to divide medications into individual packets. Each packet is labeled with the time of day it should be taken. Also used in food packaging for single-serving portions.\n\nCOMMON COLLOCATIONS:\n- {分包|ぶんぽう}⟦する→する：00392_suru⟧: to package individually\n- {分包機|ぶんぽうき}: dose-packaging machine\n- {一回分|いっかいぶん}{分包|ぶんぽう}: single-dose packaging\n\nNOTE ON HOMOPHONES:\nNot to be confused with ⟦{文法|ぶんぽう}→文法：01506_bunpou⟧ (grammar), which has the same reading but completely different meaning and kanji.\n\nSIMILAR WORDS:\n- {個包装|こほうそう}: individual wrapping — used more broadly for individually wrapped items like candy or snacks\n- ⟦{小分|こわ}け→小分け：18689_kowake⟧: dividing into small portions — more colloquial and used for food portioning at home",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18689_kowake",
+      "reading": "こわけ",
+      "headword": "{小分|こわ}け",
+      "label": "dividing into small portions"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -62,10 +70,11 @@
       "domain": [
         "medical"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-05-02T12:25:17Z",
-    "modified": "2026-05-02T12:25:17Z"
+    "modified": "2026-09-02T04:02:26Z"
   },
   "conjugation": {
     "type": "suru",

@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "07133_noshi_ex1",
-      "japanese": "お{祝|いわ}いの{品|しな}には{熨斗|のし}を{付|つ}けてもらった。",
+      "japanese": "⟦お{祝|いわ}い→お祝い：01339_oiwai⟧⟦の→の：09472_no⟧⟦{品|しな}→品：03192_shina⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{熨斗|のし}⟦を→を：00422_wo⟧⟦{付|つ}けて→付ける：00761_tsukeru⟧⟦もらった→もらう：00520_morau⟧。",
       "english": "I had noshi attached to the celebratory gift.",
       "sense_numbers": [
         1
@@ -22,7 +22,7 @@
     },
     {
       "id": "07133_noshi_ex2",
-      "japanese": "{熨斗|のし}{紙|がみ}に{名前|なまえ}を{書|か}いてください。",
+      "japanese": "{熨斗|のし}{紙|がみ}⟦に→に：00314_ni⟧⟦{名前|なまえ}→名前：02234_namae⟧⟦を→を：00422_wo⟧⟦{書|か}いて→書く：00477_kaku⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please write your name on the noshi paper.",
       "sense_numbers": [
         1
@@ -30,17 +30,26 @@
     },
     {
       "id": "07133_noshi_ex3",
-      "japanese": "{結婚祝|けっこんいわ}いには{紅白|こうはく}の{熨斗|のし}を{使|つか}う。",
+      "japanese": "⟦{結婚祝|けっこんいわ}い→結婚祝い：19656_kekkoniwai⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{紅白|こうはく}→紅白：13805_kouhaku⟧⟦の→の：09472_no⟧{熨斗|のし}⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧。",
       "english": "For wedding gifts, red and white noshi is used.",
       "sense_numbers": [
         1
       ]
     }
   ],
-  "notes": "CULTURAL CONTEXT: {熨斗|のし} is an essential element of formal Japanese gift-giving etiquette.\n\nORIGIN: Originally {熨斗鮑|のしあわび} - strips of dried abalone stretched thin, symbolizing longevity. Now represented by a stylized design.\n\nCOMPONENTS OF {熨斗|のし}{紙|がみ}:\n- {水引|みずひき}: decorative cord/ribbon\n- {熨斗|のし}: the ornament (upper right)\n- {表書|おもてが}き: purpose of the gift\n- {名前|なまえ}: giver's name (below center)\n\nUSAGE BY OCCASION:\n- {祝儀|しゅうぎ} (celebrations): uses {熨斗|のし}\n- {不祝儀|ぶしゅうぎ} (condolences): NO {熨斗|のし}\n\nWHEN NOT TO USE:\n- Funerals and memorial services\n- Gifts of fresh food or fish (already from the sea)\n- Some casual gift occasions\n\nCOMMON PHRASES:\n- {熨斗|のし}を{付|つ}ける: to add noshi\n- {熨斗|のし}{紙|がみ}: noshi wrapping paper\n- {内熨斗|うちのし}: noshi inside wrapping\n- {外熨斗|そとのし}: noshi outside wrapping",
+  "notes": "CULTURAL CONTEXT: {熨斗|のし} is an essential element of formal Japanese gift-giving etiquette.\n\nORIGIN: Originally {熨斗鮑|のしあわび} - strips of dried abalone stretched thin, symbolizing longevity. Now represented by a stylized design.\n\nCOMPONENTS OF {熨斗|のし}{紙|がみ}:\n- ⟦{水引|みずひき}→水引：29258_mizuhiki⟧: decorative cord/ribbon\n- {熨斗|のし}: the ornament (upper right)\n- {表書|おもてが}き: purpose of the gift\n- ⟦{名前|なまえ}→名前：02234_namae⟧: giver's name (below center)\n\nUSAGE BY OCCASION:\n- ⟦{祝儀|しゅうぎ}→祝儀：06225_shuugi⟧ (celebrations): uses {熨斗|のし}\n- ⟦{不祝儀|ぶしゅうぎ}→不祝儀：06445_bushuugi⟧ (condolences): NO {熨斗|のし}\n\nWHEN NOT TO USE:\n- Funerals and memorial services\n- Gifts of fresh food or fish (already from the sea)\n- Some casual gift occasions\n\nCOMMON EXPRESSIONS:\n- {熨斗|のし}⟦を→を：00422_wo⟧⟦{付|つ}ける→付ける：00761_tsukeru⟧: to add noshi\n- {熨斗|のし}{紙|がみ}: noshi wrapping paper\n- {内熨斗|うちのし}: noshi inside wrapping\n- {外熨斗|そとのし}: noshi outside wrapping",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "08317_rappingu",
+      "reading": "らっぴんぐ",
+      "headword": "ラッピング",
+      "label": "gift wrapping"
+    }
+  ],
   "metadata": {
     "created": "2026-01-18T23:54:32Z",
-    "modified": "2026-08-10T06:41:18Z",
+    "modified": "2026-09-02T04:01:10Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

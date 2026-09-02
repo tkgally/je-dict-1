@@ -3,7 +3,7 @@
   "headword": "ネガティブ",
   "reading": "ねがてぃぶ",
   "romaji": "negatibu",
-  "part_of_speech": "adjective-na",
+  "part_of_speech": "na-adjective, noun",
   "gloss": "negative; pessimistic; photographic negative",
   "definitions": [
     {
@@ -20,65 +20,119 @@
   "examples": [
     {
       "id": "29634_negatibu_ex1",
-      "japanese": "{考|かんが}え{方|かた}がネガティブだ。",
+      "japanese": "⟦{考|かんが}え{方|かた}→考え方：10169_kangaekata⟧⟦が→が：00051_ga⟧ネガティブだ。",
       "english": "His way of thinking is negative.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29634_negatibu_ex2",
-      "japanese": "あまりネガティブにならないで。",
+      "japanese": "⟦あまり→あまり：00604_amari⟧ネガティブ⟦に→に：00314_ni⟧⟦ならないで→なる：01970_naru⟧。",
       "english": "Don't be so negative.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29634_negatibu_ex3",
-      "japanese": "{失敗|しっぱい}が{続|つづ}くと、どうしてもネガティブになりがちだ。",
+      "japanese": "⟦{失敗|しっぱい}→失敗：01636_shippai⟧⟦が→が：00051_ga⟧⟦{続|つづ}く→続く：00903_tsuzuku⟧⟦と→と：00512_to⟧、⟦どうしても→どうしても：03476_doushitemo⟧ネガティブ⟦に→に：00314_ni⟧⟦なり→なる：01970_naru⟧がちだ。",
       "english": "When failures pile up, one tends to become negative.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29634_negatibu_ex4",
-      "japanese": "{写真|しゃしん}のネガティブを{保管|ほかん}する。",
+      "japanese": "⟦{写真|しゃしん}→写真：00753_shashin⟧⟦の→の：09472_no⟧ネガティブ⟦を→を：00422_wo⟧⟦{保管|ほかん}する→保管する：25536_hokansuru⟧。",
       "english": "store the photographic negatives",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29634_negatibu_ex5",
-      "japanese": "ネガティブでは{明暗|めいあん}が{反転|はんてん}している。",
+      "japanese": "ネガティブで⟦は→は：00079_ha⟧⟦{明暗|めいあん}→明暗：05560_meian⟧⟦が→が：00051_ga⟧⟦{反転|はんてん}→反転：11945_hanten⟧⟦している→する：00392_suru⟧。",
       "english": "In a negative, light and dark are reversed.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29634_negatibu_ex6",
-      "japanese": "{押|お}し{入|い}れから{古|ふる}いネガティブを{見|み}つけ、スキャンして{保存|ほぞん}した。",
+      "japanese": "{押|お}し{入|い}れ⟦から→から：00504_kara⟧⟦{古|ふる}い→古い：00488_furui⟧ネガティブ⟦を→を：00422_wo⟧⟦{見|み}つけ→見つける：01180_mitsukeru⟧、⟦スキャン→スキャン：07342_sukyan⟧⟦して→する：00392_suru⟧⟦{保存|ほぞん}→保存：03626_hozon⟧⟦した→する：00392_suru⟧。",
       "english": "I found old negatives in the closet and scanned and saved them.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A loanword from English \"negative.\"\n\nUSAGE:\n- Sense 1 (attitude) is by far the more common everyday use; its antonym is ポジティブ.\n- Sense 2 (photography) is frequently shortened to ネガ.\n\nSIMILAR WORDS:\n- {消極的|しょうきょくてき}: passive, negative in attitude — the native equivalent of sense 1\n- {否定的|ひていてき}: negative, disapproving — emphasizes rejecting or denying something\n- ポジティブ: positive — the antonym of sense 1",
+  "notes": "A loanword from English \"negative.\"\n\nUSAGE:\n- Sense 1 (attitude) is by far the more common everyday use; its antonym is ⟦ポジティブ→ポジティブ：29676_pojitibu⟧.\n- Sense 2 (photography) is frequently shortened to ⟦ネガ→ネガ：26150_nega⟧.\n\nSIMILAR WORDS:\n- ⟦{消極的|しょうきょくてき}→消極的：04779_shoukyokuteki⟧: passive, negative in attitude — the native equivalent of sense 1\n- ⟦{否定的|ひていてき}→否定的：06333_hiteiteki⟧: negative, disapproving — emphasizes rejecting or denying something\n- ⟦ポジティブ→ポジティブ：29676_pojitibu⟧: positive — the antonym of sense 1",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04779_shoukyokuteki",
+      "reading": "しょうきょくてき",
+      "headword": "{消極的|しょうきょくてき}",
+      "label": "passive, negative in attitude"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06333_hiteiteki",
+      "reading": "ひていてき",
+      "headword": "{否定的|ひていてき}",
+      "label": "negative, disapproving"
+    },
+    {
+      "type": "antonym",
+      "target_id": "29676_pojitibu",
+      "reading": "ぽじてぃぶ",
+      "headword": "ポジティブ",
+      "label": "positive"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06091_hikanteki",
+      "reading": "ひかんてき",
+      "headword": "{悲観的|ひかんてき}",
+      "label": "pessimistic"
+    },
+    {
+      "type": "related",
+      "target_id": "26150_nega",
+      "reading": "ねが",
+      "headword": "ネガ",
+      "label": "negative (film)"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-na", "noun"],
+      "pos": [
+        "adjective-na",
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["evaluation"],
+      "politeness": "plain",
+      "semantic": [
+        "evaluation"
+      ],
       "domain": []
     },
     "created": "2026-07-02T12:18:49Z",
-    "modified": "2026-07-02T12:26:18Z"
+    "modified": "2026-09-02T04:02:37Z"
   }
 }

@@ -3,7 +3,7 @@
   "headword": "{滑走|かっそう}",
   "reading": "かっそう",
   "romaji": "kassou",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "gliding; taxiing; sliding run",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22404_kassou_ex1",
-      "japanese": "{飛行機|ひこうき}が{滑走|かっそう}を{始|はじ}めた。",
+      "japanese": "⟦{飛行機|ひこうき}→飛行機：00629_hikouki⟧⟦が→が：00051_ga⟧{滑走|かっそう}⟦を→を：00422_wo⟧⟦{始|はじ}めた→始める：00531_hajimeru⟧。",
       "english": "The airplane began taxiing.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22404_kassou_ex2",
-      "japanese": "{滑走路|かっそうろ}に{向|む}かって{滑走|かっそう}する。",
+      "japanese": "⟦{滑走路|かっそうろ}→滑走路：05980_kassouro⟧⟦に→に：00314_ni⟧⟦{向|む}かって→向かう：01186_mukau⟧{滑走|かっそう}⟦する→する：00392_suru⟧。",
       "english": "To taxi toward the runway.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22404_kassou_ex3",
-      "japanese": "スキー{場|じょう}のゲレンデを{気持|きも}ちよく{滑走|かっそう}した。",
+      "japanese": "⟦スキー→スキー：03849_sukii⟧{場|じょう}⟦の→の：09472_no⟧⟦ゲレンデ→ゲレンデ：23907_gerende⟧⟦を→を：00422_wo⟧⟦{気持|きも}ちよく→気持ちいい：09583_kimochiii⟧{滑走|かっそう}⟦した→する：00392_suru⟧。",
       "english": "I glided pleasantly down the ski slope.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {滑|かっ} (slide/glide) and {走|そう} (run). The word covers any smooth sliding movement along a surface, but is most strongly associated with aircraft and skiing.\n\nCOMMON COLLOCATIONS:\n- {滑走路|かっそうろ}: runway\n- {滑走|かっそう}する: to glide, to taxi\n- {滑走|かっそう}{距離|きょり}: gliding/taxiing distance\n- {滑走|かっそう}{速度|そくど}: taxiing speed\n\nSIMILAR WORDS:\n- {滑|すべ}る: to slide/slip — the everyday verb for sliding; {滑走|かっそう} is more formal and implies sustained, purposeful movement\n- {走行|そうこう}: running/traveling — movement of vehicles on roads, not gliding\n- {離陸|りりく}: takeoff — the act of leaving the ground, which follows {滑走|かっそう}",
+  "notes": "Composed of {滑|かっ} (slide/glide) and {走|そう} (run). The word covers any smooth sliding movement along a surface, but is most strongly associated with aircraft and skiing.\n\nCOMMON COLLOCATIONS:\n- ⟦{滑走路|かっそうろ}→滑走路：05980_kassouro⟧: runway\n- {滑走|かっそう}⟦する→する：00392_suru⟧: to glide, to taxi\n- {滑走|かっそう}⟦{距離|きょり}→距離：05331_kyori⟧: gliding/taxiing distance\n- {滑走|かっそう}⟦{速度|そくど}→速度：03319_sokudo⟧: taxiing speed\n\nSIMILAR WORDS:\n- ⟦{滑|すべ}る→滑る：01230_suberu⟧: to slide/slip — the everyday verb for sliding; {滑走|かっそう} is more formal and implies sustained, purposeful movement\n- ⟦{走行|そうこう}→走行：14260_soukou⟧: running/traveling — movement of vehicles on roads, not gliding\n- ⟦{離陸|りりく}→離陸：05981_ririku⟧: takeoff — the act of leaving the ground, which follows {滑走|かっそう}",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01230_suberu",
+      "reading": "すべる",
+      "headword": "{滑|すべ}る",
+      "label": "to slide/slip"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14260_soukou",
+      "reading": "そうこう",
+      "headword": "{走行|そうこう}",
+      "label": "running/traveling"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05981_ririku",
+      "reading": "りりく",
+      "headword": "{離陸|りりく}",
+      "label": "takeoff"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,7 +85,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-05T21:08:10Z",
-    "modified": "2026-07-30T03:35:34Z"
+    "modified": "2026-09-02T04:02:08Z"
   },
   "conjugation": {
     "type": "suru",

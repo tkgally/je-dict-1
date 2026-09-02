@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21625_saijin_ex1",
-      "japanese": "{彼|かれ}は{才人|さいじん}として{知|し}られている。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{才人|さいじん}⟦として→として：06802_toshite⟧⟦{知|し}られている→知る：00458_shiru⟧。",
       "english": "He is known as a talented person.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21625_saijin_ex2",
-      "japanese": "{多|た}{才|さい}な{才人|さいじん}が{集|あつ}まるイベント。",
+      "japanese": "⟦{多|た}{才|さい}→多才：17932_tasai⟧な{才人|さいじん}⟦が→が：00051_ga⟧⟦{集|あつ}まる→集まる：01162_atsumaru⟧⟦イベント→イベント：09594_ibento⟧。",
       "english": "An event where versatile talented people gather.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21625_saijin_ex3",
-      "japanese": "{彼女|かのじょ}は{音楽|おんがく}と{文学|ぶんがく}の{両方|りょうほう}に{秀|ひい}でた{才人|さいじん}だ。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧⟦{音楽|おんがく}→音楽：00661_ongaku⟧⟦と→と：00512_to⟧⟦{文学|ぶんがく}→文学：01505_bungaku⟧⟦の→の：09472_no⟧⟦{両方|りょうほう}→両方：01750_ryouhou⟧⟦に→に：00314_ni⟧⟦{秀|ひい}でた→秀でる：13749_hiideru⟧{才人|さいじん}だ。",
       "english": "She is a gifted individual who excels in both music and literature.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "A somewhat literary word often used to praise someone's intellectual or creative abilities. Implies a natural, well-rounded talent rather than specialized expertise.\n\nCOMMON COLLOCATIONS:\n- {多|た}{才|さい}な{才人|さいじん}: a versatile talented person\n- {奇|き}{才|さい}の{才人|さいじん}: a person of rare talent\n- {稀代|きたい}の{才人|さいじん}: a talent of a generation\n\nSIMILAR WORDS:\n- {天才|てんさい}: genius — stronger, implies exceptional innate ability\n- {秀才|しゅうさい}: brilliant person — emphasizes academic excellence\n- {才能|さいのう}のある{人|ひと}: talented person — more everyday phrasing\n- {鬼才|きさい}: prodigy, exceptional talent — more dramatic\n\nFORMATION:\n{才|さい} (talent, ability) + {人|じん} (person). A concise literary compound.",
+  "notes": "A somewhat literary word often used to praise someone's intellectual or creative abilities. Implies a natural, well-rounded talent rather than specialized expertise.\n\nCOMMON COLLOCATIONS:\n- ⟦{多|た}{才|さい}→多才：17932_tasai⟧な{才人|さいじん}: a versatile talented person\n- {奇|き}{才|さい}⟦の→の：09472_no⟧{才人|さいじん}: a person of rare talent\n- {稀代|きたい}⟦の→の：09472_no⟧{才人|さいじん}: a talent of a generation\n\nSIMILAR WORDS:\n- ⟦{天才|てんさい}→天才：09934_tensai⟧: genius — stronger, implies exceptional innate ability\n- ⟦{秀才|しゅうさい}→秀才：18297_shuusai⟧: brilliant person — emphasizes academic excellence\n- ⟦{才能|さいのう}→才能：02772_sainou⟧⟦の→の：09472_no⟧⟦ある→ある：00006_aru⟧⟦{人|ひと}→人：00476_hito⟧: talented person — more everyday phrasing\n- ⟦{鬼才|きさい}→鬼才：24222_kisai⟧: prodigy, exceptional talent — more dramatic\n\nFORMS:\n{才|さい} (talent, ability) + ⟦{人|じん}→〜人：09849_jin⟧ (person). A concise literary compound.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09934_tensai",
+      "reading": "てんさい",
+      "headword": "{天才|てんさい}",
+      "label": "genius"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18297_shuusai",
+      "reading": "しゅうさい",
+      "headword": "{秀才|しゅうさい}",
+      "label": "brilliant person"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24222_kisai",
+      "reading": "きさい",
+      "headword": "{鬼才|きさい}",
+      "label": "prodigy, exceptional talent"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +82,6 @@
       ]
     },
     "created": "2026-04-02T18:18:05Z",
-    "modified": "2026-07-29T12:35:11Z"
+    "modified": "2026-09-02T04:02:04Z"
   }
 }

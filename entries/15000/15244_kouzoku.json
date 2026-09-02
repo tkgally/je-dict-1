@@ -3,7 +3,7 @@
   "id": "15244_kouzoku",
   "headword": "{後続|こうぞく}",
   "reading": "こうぞく",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "following; succeeding",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "15244_kouzoku_ex1",
-      "japanese": "{後続|こうぞく}{車|しゃ}に{注意|ちゅうい}する。",
+      "japanese": "{後続|こうぞく}⟦{車|しゃ}→車：09874_sha⟧⟦に→に：00314_ni⟧⟦{注意|ちゅうい}→注意：01464_chuui⟧⟦する→する：00392_suru⟧。",
       "english": "To watch out for the car behind.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "15244_kouzoku_ex2",
-      "japanese": "{後続|こうぞく}の{選手|せんしゅ}が{次々|つぎつぎ}とゴールした。",
+      "japanese": "{後続|こうぞく}⟦の→の：09472_no⟧⟦{選手|せんしゅ}→選手：03823_senshu⟧⟦が→が：00051_ga⟧⟦{次々|つぎつぎ}→次々：03522_tsugitsugi⟧⟦と→と：00512_to⟧⟦ゴール→ゴール：03845_gooru⟧⟦した→する：00392_suru⟧。",
       "english": "The following runners crossed the finish line one after another.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "15244_kouzoku_ex3",
-      "japanese": "この{製品|せいひん}は{大|おお}ヒットしたが、{後続|こうぞく}モデルの{開発|かいはつ}が{遅|おく}れている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{製品|せいひん}→製品：01445_seihin⟧⟦は→は：00079_ha⟧{大|おお}ヒット⟦した→する：00392_suru⟧⟦が→が：00051_ga⟧、{後続|こうぞく}⟦モデル→モデル：05112_moderu⟧⟦の→の：09472_no⟧⟦{開発|かいはつ}→開発：06746_kaihatsu⟧⟦が→が：00051_ga⟧⟦{遅|おく}れている→遅れる：00741_okureru⟧。",
       "english": "This product was a big hit, but development of the follow-up model is behind schedule.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "FORMATION: {後|こう} (after, behind) + {続|ぞく} (continue, follow).\n\nCOMMON COLLOCATIONS:\n- {後続|こうぞく}{車|しゃ}: following vehicle, car behind\n- {後続|こうぞく}の{電車|でんしゃ}: the next/following train\n- {後続|こうぞく}モデル: follow-up model\n- {後続|こうぞく}{部隊|ぶたい}: follow-up troops, reinforcements\n\nSIMILAR WORDS:\n- {後続|こうぞく}: following, coming after (formal)\n- {次|つぎ}の: next (everyday term)\n- {後任|こうにん}: successor (for a person in a position)",
+  "notes": "FORMATION: {後|こう} (after, behind) + {続|ぞく} (continue, follow).\n\nCOMMON COLLOCATIONS:\n- {後続|こうぞく}⟦{車|しゃ}→車：09874_sha⟧: following vehicle, car behind\n- {後続|こうぞく}⟦の→の：09472_no⟧⟦{電車|でんしゃ}→電車：00522_densha⟧: the next/following train\n- {後続|こうぞく}⟦モデル→モデル：05112_moderu⟧: follow-up model\n- {後続|こうぞく}⟦{部隊|ぶたい}→部隊：28119_butai⟧: follow-up troops, reinforcements\n\nSIMILAR WORDS:\n- {後続|こうぞく}: following, coming after (formal)\n- ⟦{次|つぎ}→次：00819_tsugi⟧⟦の→の：09472_no⟧: next (everyday term)\n- ⟦{後任|こうにん}→後任：12580_kounin⟧: successor (for a person in a position)",
   "cross_references": [
     {
       "target_id": "03773_senkou",
@@ -142,11 +142,18 @@
       "reading": "せんこう",
       "headword": "{先行|せんこう}",
       "note": "preceding, going first"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12580_kounin",
+      "reading": "こうにん",
+      "headword": "{後任|こうにん}",
+      "label": "successor"
     }
   ],
   "metadata": {
     "created": "2026-03-05T10:23:51Z",
-    "modified": "2026-07-29T15:19:07Z",
+    "modified": "2026-09-02T04:01:40Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

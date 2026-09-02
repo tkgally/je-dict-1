@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "10202_nendomatsu_ex1",
-      "japanese": "{年度末|ねんどまつ}は{忙|いそが}しい。",
+      "japanese": "{年度末|ねんどまつ}⟦は→は：00079_ha⟧⟦{忙|いそが}しい→忙しい：00591_isogashii⟧。",
       "english": "The end of the fiscal year is busy.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "10202_nendomatsu_ex2",
-      "japanese": "{年度末|ねんどまつ}までに{予算|よさん}を{使|つか}い{切|き}る。",
+      "japanese": "{年度末|ねんどまつ}⟦まで→まで：00490_made⟧⟦に→に：00314_ni⟧⟦{予算|よさん}→予算：03663_yosan⟧⟦を→を：00422_wo⟧⟦{使|つか}い{切|き}る→使い切る：11518_tsukaikiru⟧。",
       "english": "Use up the budget by the end of the fiscal year.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "10202_nendomatsu_ex3",
-      "japanese": "{年度末|ねんどまつ}の{決算|けっさん}{処理|しょり}に{追|お}われている。",
+      "japanese": "{年度末|ねんどまつ}⟦の→の：09472_no⟧⟦{決算|けっさん}→決算：05973_kessan⟧⟦{処理|しょり}→処理：03251_shori⟧⟦に→に：00314_ni⟧⟦{追|お}われている→追う：02016_ou⟧。",
       "english": "I'm swamped with year-end accounting work.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "WORD FORMATION:\n{年度|ねんど} (fiscal/academic year) + {末|まつ} (end)\n\nJAPANESE FISCAL YEAR:\nIn Japan, the fiscal year ({会計年度|かいけいねんど}) runs from April 1st to March 31st. The academic year follows the same pattern. This makes late March ({年度末|ねんどまつ}) extremely busy.\n\nCOMMON ACTIVITIES:\n- {決算|けっさん} (financial closing)\n- {予算|よさん}{消化|しょうか} (budget utilization)\n- {人事異動|じんじいどう} (personnel transfers)\n- {卒業|そつぎょう}/{入学|にゅうがく} (graduation/enrollment)\n\nRELATED TERMS:\n- {年度|ねんど}: fiscal year\n- {年度始|ねんどはじ}め: beginning of fiscal year\n- {期末|きまつ}: end of term/period\n- {年末|ねんまつ}: end of calendar year",
+  "notes": "FORMS:\n⟦{年度|ねんど}→年度：00309_nendo⟧ (fiscal/academic year) + {末|まつ} (end)\n\nJAPANESE FISCAL YEAR:\nIn Japan, the fiscal year ({会計年度|かいけいねんど}) runs from April 1st to March 31st. The academic year follows the same pattern. This makes late March ({年度末|ねんどまつ}) extremely busy.\n\nCOMMON ACTIVITIES:\n- ⟦{決算|けっさん}→決算：05973_kessan⟧ (financial closing)\n- ⟦{予算|よさん}→予算：03663_yosan⟧⟦{消化|しょうか}→消化：04200_shouka⟧ (budget utilization)\n- ⟦{人事異動|じんじいどう}→人事異動：18627_jinjiidou⟧ (personnel transfers)\n- ⟦{卒業|そつぎょう}→卒業：01643_sotsugyou⟧/⟦{入学|にゅうがく}→入学：02092_nyuugaku⟧ (graduation/enrollment)\n\nRELATED WORDS:\n- ⟦{年度|ねんど}→年度：00309_nendo⟧: fiscal year\n- ⟦{年度始|ねんどはじ}め→年度始め：10276_nendohajime⟧: beginning of fiscal year\n- ⟦{期末|きまつ}→期末：22375_kimatsu⟧: end of term/period\n- ⟦{年末|ねんまつ}→年末：17688_nenmatsu⟧: end of calendar year",
   "prominent_see_also": [
     {
       "target_id": "10276_nendohajime",
@@ -59,11 +59,32 @@
       "reading": "ねんまつ",
       "headword": "{年末|ねんまつ}",
       "label": "end of calendar year"
+    },
+    {
+      "type": "related",
+      "target_id": "22375_kimatsu",
+      "reading": "きまつ",
+      "headword": "{期末|きまつ}",
+      "label": "end of term/period"
+    },
+    {
+      "type": "related",
+      "target_id": "15459_shinnendo",
+      "reading": "しんねんど",
+      "headword": "{新年度|しんねんど}",
+      "label": "new fiscal year"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27585_gakkimatsu",
+      "reading": "がっきまつ",
+      "headword": "{学期末|がっきまつ}",
+      "label": "end of term"
     }
   ],
   "metadata": {
     "created": "2026-02-05T12:58:08Z",
-    "modified": "2026-08-14T01:00:44Z",
+    "modified": "2026-09-02T04:01:20Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

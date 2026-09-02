@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "10973_chuugakusei_ex1",
-      "japanese": "{娘|むすめ}は{中学生|ちゅうがくせい}です。",
+      "japanese": "⟦{娘|むすめ}→娘：02263_musume⟧⟦は→は：00079_ha⟧{中学生|ちゅうがくせい}です。",
       "english": "My daughter is a middle school student.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "10973_chuugakusei_ex2",
-      "japanese": "{中学生|ちゅうがくせい}のとき、{部活|ぶかつ}でテニスをしていた。",
+      "japanese": "{中学生|ちゅうがくせい}⟦の→の：09472_no⟧とき、⟦{部活|ぶかつ}→部活：05377_bukatsu⟧⟦で→で：00502_de⟧⟦テニス→テニス：01784_tenisu⟧⟦を→を：00422_wo⟧⟦していた→する：00392_suru⟧。",
       "english": "When I was in middle school, I played tennis in my school club.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "10973_chuugakusei_ex3",
-      "japanese": "この{映画|えいが}は{中学生|ちゅうがくせい}でも{分|わ}かる{内容|ないよう}です。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{映画|えいが}→映画：02273_eiga⟧⟦は→は：00079_ha⟧{中学生|ちゅうがくせい}⟦で→で：00502_de⟧⟦も→も：00484_mo⟧⟦{分|わ}かる→分かる：00463_wakaru⟧⟦{内容|ないよう}→内容：01482_naiyou⟧です。",
       "english": "This movie has content that even a middle school student can understand.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "FORMATION:\n{中学|ちゅうがく} (middle school, abbreviation of {中学校|ちゅうがっこう}) + {生|せい} (student). The suffix ～{生|せい} is used for students at all levels: {小学生|しょうがくせい} (elementary), {高校生|こうこうせい} (high school), {大学生|だいがくせい} (university).\n\nJAPANESE SCHOOL SYSTEM:\n・{小学校|しょうがっこう} — elementary school (6 years, ages 6-12)\n・{中学校|ちゅうがっこう} — middle school (3 years, ages 12-15)\n・{高校|こうこう} — high school (3 years, ages 15-18)\n\n{中学生|ちゅうがくせい} is often abbreviated to {中学|ちゅうがく} in casual speech: {中学|ちゅうがく}のとき (when I was in middle school).",
+  "notes": "FORMS:\n⟦{中学|ちゅうがく}→中学：03477_chuugaku⟧ (middle school, abbreviation of ⟦{中学校|ちゅうがっこう}→中学校：01465_chuugakkou⟧) + {生|せい} (student). The suffix ～{生|せい} is used for students at all levels: ⟦{小学生|しょうがくせい}→小学生：03069_shougakusei⟧ (elementary), ⟦{高校生|こうこうせい}→高校生：01580_koukousei⟧ (high school), ⟦{大学生|だいがくせい}→大学生：01653_daigakusei⟧ (university).\n\nJAPANESE SCHOOL SYSTEM:\n- ⟦{小学校|しょうがっこう}→小学校：01055_shougakkou⟧ — elementary school (6 years, ages 6-12)\n- ⟦{中学校|ちゅうがっこう}→中学校：01465_chuugakkou⟧ — middle school (3 years, ages 12-15)\n- ⟦{高校|こうこう}→高校：01083_koukou⟧ — high school (3 years, ages 15-18)\n\n{中学生|ちゅうがくせい} is often abbreviated to ⟦{中学|ちゅうがく}→中学：03477_chuugaku⟧ in casual speech: ⟦{中学|ちゅうがく}→中学：03477_chuugaku⟧⟦の→の：09472_no⟧とき (when I was in middle school).",
   "cross_references": [
     {
       "type": "related",
@@ -66,11 +66,18 @@
       "reading": "だいがくせい",
       "headword": "{大学生|だいがくせい}",
       "label": "university student"
+    },
+    {
+      "type": "related",
+      "target_id": "01465_chuugakkou",
+      "reading": "ちゅうがっこう",
+      "headword": "{中学校|ちゅうがっこう}",
+      "label": "junior high school"
     }
   ],
   "metadata": {
     "created": "2026-02-11T23:06:15Z",
-    "modified": "2026-08-15T00:33:36Z",
+    "modified": "2026-09-02T04:01:23Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

@@ -3,7 +3,7 @@
   "id": "14894_funshitsu",
   "headword": "{紛失|ふんしつ}",
   "reading": "ふんしつ",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "loss; losing (an item); misplacement",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "14894_funshitsu_ex1",
-      "japanese": "パスポートを{紛失|ふんしつ}した。",
+      "japanese": "⟦パスポート→パスポート：00341_pasupooto⟧⟦を→を：00422_wo⟧{紛失|ふんしつ}⟦した→する：00392_suru⟧。",
       "english": "I lost my passport.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "14894_funshitsu_ex2",
-      "japanese": "{鍵|かぎ}の{紛失|ふんしつ}を{届|とど}け{出|で}た。",
+      "japanese": "⟦{鍵|かぎ}→鍵：02189_kagi⟧⟦の→の：09472_no⟧{紛失|ふんしつ}⟦を→を：00422_wo⟧⟦{届|とど}け{出|で}た→届け出る：05910_todokederu⟧。",
       "english": "I reported the loss of my key.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "14894_funshitsu_ex3",
-      "japanese": "{書類|しょるい}を{紛失|ふんしつ}した{場合|ばあい}は、{速|すみ}やかに{担当者|たんとうしゃ}に{連絡|れんらく}してください。",
+      "japanese": "⟦{書類|しょるい}→書類：01103_shorui⟧⟦を→を：00422_wo⟧{紛失|ふんしつ}⟦した→する：00392_suru⟧⟦{場合|ばあい}→場合：01704_baai⟧⟦は→は：00079_ha⟧、⟦{速|すみ}やか→速やか：15283_sumiyaka⟧⟦に→に：00314_ni⟧⟦{担当者|たんとうしゃ}→担当者：09676_tantousha⟧⟦に→に：00314_ni⟧⟦{連絡|れんらく}して→連絡する：20202_renrakusuru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "If you lose any documents, please contact the person in charge immediately.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,19 @@
       ]
     }
   ],
-  "notes": "{紛失|ふんしつ} is a formal noun that also functions as a suru-verb ({紛失|ふんしつ}する). It is the standard formal word for losing a physical item.\n\nCOMMON COLLOCATIONS:\n- パスポートを{紛失|ふんしつ}する (to lose one's passport)\n- {紛失届|ふんしつとどけ} (a lost item report)\n- {紛失|ふんしつ}{届|とどけ}を{出|だ}す (to file a lost item report)\n- {紛失|ふんしつ}{防止|ぼうし} (loss prevention)\n\nRELATED WORDS:\n{なくす} is the everyday word for losing something. {紛失|ふんしつ} is more formal and is used in official reports, announcements, and business contexts. {遺失|いしつ} (loss of property) is even more formal and is used in legal contexts — {遺失物|いしつぶつ} means \"lost property.\"",
-  "cross_references": [],
+  "notes": "{紛失|ふんしつ} is a formal noun that also functions as a suru-verb ({紛失|ふんしつ}⟦する→する：00392_suru⟧). It is the standard formal word for losing a physical item.\n\nCOMMON COLLOCATIONS:\n- ⟦パスポート→パスポート：00341_pasupooto⟧⟦を→を：00422_wo⟧{紛失|ふんしつ}⟦する→する：00392_suru⟧ (to lose one's passport)\n- ⟦{紛失届|ふんしつとどけ}→紛失届：20685_funshitsutodoke⟧ (a lost item report)\n- {紛失|ふんしつ}{届|とどけ}⟦を→を：00422_wo⟧⟦{出|だ}す→出す：01087_dasu⟧ (to file a lost item report)\n- {紛失|ふんしつ}⟦{防止|ぼうし}→防止：14571_boushi⟧ (loss prevention)\n\nRELATED WORDS:\nなくす is the everyday word for losing something. {紛失|ふんしつ} is more formal and is used in official reports, announcements, and business contexts. {遺失|いしつ} (loss of property) is even more formal and is used in legal contexts — ⟦{遺失物|いしつぶつ}→遺失物：15652_ishitsubutsu⟧ means \"lost property.\"",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13351_shoushitsu",
+      "reading": "しょうしつ",
+      "headword": "{消失|しょうしつ}",
+      "label": "disappearance, vanishing"
+    }
+  ],
   "metadata": {
     "created": "2026-03-04T05:30:44Z",
-    "modified": "2026-03-29T03:08:18Z",
+    "modified": "2026-09-02T04:01:39Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -151,7 +159,8 @@
       "semantic": [
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

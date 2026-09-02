@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08466_nimensei_ex1",
-      "japanese": "{人間|にんげん}の{二面性|にめんせい}。",
+      "japanese": "⟦{人間|にんげん}→人間：03523_ningen⟧⟦の→の：09472_no⟧{二面性|にめんせい}。",
       "english": "The dual nature of humans.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "08466_nimensei_ex2",
-      "japanese": "{彼|かれ}には{二面性|にめんせい}がある。{会社|かいしゃ}では{優|やさ}しいが、{家|いえ}では{厳|きび}しい。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{二面性|にめんせい}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧{優|やさ}しい⟦が→が：00051_ga⟧、⟦{家|いえ}→家：00612_ie⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{厳|きび}しい→厳しい：01125_kibishii⟧。",
       "english": "He has a dual nature. He's kind at work but strict at home.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "08466_nimensei_ex3",
-      "japanese": "SNSで{見|み}せる{姿|すがた}と{実際|じっさい}の{姿|すがた}の{二面性|にめんせい}が{問題|もんだい}になっている。",
+      "japanese": "SNS⟦で→で：00502_de⟧⟦{見|み}せる→見せる：01988_miseru⟧⟦{姿|すがた}→姿：03363_sugata⟧⟦と→と：00512_to⟧⟦{実際|じっさい}→実際：02502_jissai⟧⟦の→の：09472_no⟧⟦{姿|すがた}→姿：03363_sugata⟧⟦の→の：09472_no⟧{二面性|にめんせい}⟦が→が：00051_ga⟧⟦{問題|もんだい}→問題：00797_mondai⟧になっている。",
       "english": "The discrepancy between one's online persona and real self has become an issue.",
       "sense_numbers": [
         1
@@ -43,7 +43,16 @@
       "notes": null
     }
   ],
-  "notes": "COMPOUND:\n{二面|にめん} (two sides) + {性|せい} (nature, quality)\n\nNUANCE:\nCan be neutral (describing contrasting aspects of something) or negative (implying hypocrisy or deception). Context determines the connotation.\n\n- Neutral: Describing the complexity of human nature or issues\n- Negative: Suggesting someone is fake or hypocritical\n\nRELATED:\n- {表裏|おもてうら} - front and back; public and private face\n- {本音|ほんね}と{建前|たてまえ} - true feelings vs. public stance\n- {裏表|うらおもて}がある - to have a hidden side\n- {多面性|ためんせい} - multifaceted nature",
+  "notes": "COMPOUNDS:\n{二面|にめん} (two sides) + ⟦{性|せい}→性：09880_sei⟧ (nature, quality)\n\nUSAGE:\nCan be neutral (describing contrasting aspects of something) or negative (implying hypocrisy or deception). Context determines the connotation.\n\n- Neutral: Describing the complexity of human nature or issues\n- Negative: Suggesting someone is fake or hypocritical\n\nRELATED WORDS:\n- ⟦{表裏|おもてうら}→表裏：06611_omoteura⟧ - front and back; public and private face\n- ⟦{本音|ほんね}→本音：06620_honne⟧⟦と→と：00512_to⟧⟦{建前|たてまえ}→建前：06621_tatemae⟧ - true feelings vs. public stance\n- ⟦{裏表|うらおもて}→裏表：07738_uraomote⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧ - to have a hidden side\n- {多面性|ためんせい} - multifaceted nature",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "06611_omoteura",
+      "reading": "おもてうら",
+      "headword": "{表裏|おもてうら}",
+      "label": "front and back"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -51,12 +60,13 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "personality",
         "cognition"
       ]
     },
     "created": "2026-01-27T03:47:32Z",
-    "modified": "2026-06-22T12:50:00Z"
+    "modified": "2026-09-02T04:01:15Z"
   }
 }

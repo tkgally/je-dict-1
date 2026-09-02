@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "12868_shimei_ex1",
-      "japanese": "{先生|せんせい}に{指名|しめい}された。",
+      "japanese": "⟦{先生|せんせい}→先生：00609_sensei⟧⟦に→に：00314_ni⟧{指名|しめい}⟦された→する：00392_suru⟧。",
       "english": "I was called on by the teacher.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "12868_shimei_ex2",
-      "japanese": "{監督|かんとく}が{次|つぎ}のキャプテンを{指名|しめい}した。",
+      "japanese": "⟦{監督|かんとく}→監督：00185_kantoku⟧⟦が→が：00051_ga⟧⟦{次|つぎ}→次：00819_tsugi⟧⟦の→の：09472_no⟧⟦キャプテン→キャプテン：00258_kyaputen⟧⟦を→を：00422_wo⟧{指名|しめい}⟦した→する：00392_suru⟧。",
       "english": "The coach designated the next captain.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "12868_shimei_ex3",
-      "japanese": "{指名|しめい}{手配|てはい}されていた{容疑者|ようぎしゃ}がようやく{逮捕|たいほ}された。",
+      "japanese": "{指名|しめい}⟦{手配|てはい}→手配：07604_tehai⟧⟦されていた→する：00392_suru⟧⟦{容疑者|ようぎしゃ}→容疑者：15039_yougisha⟧⟦が→が：00051_ga⟧ようやく⟦{逮捕|たいほ}→逮捕：03397_taiho⟧⟦された→する：00392_suru⟧。",
       "english": "The suspect who had been placed on the wanted list was finally arrested.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,19 @@
       ]
     }
   ],
-  "notes": "USAGE:\nUsed when someone is specifically selected by name, whether in a classroom, at work, or in official contexts. In baseball, {指名|しめい}{打者|だしゃ} means \"designated hitter.\" In law enforcement, {指名|しめい}{手配|てはい} means to put someone on a wanted list.\n\nCOMMON COLLOCATIONS:\n- {指名|しめい}する: to nominate, to designate\n- {指名|しめい}される: to be called on, to be nominated\n- {指名|しめい}{手配|てはい}: wanted (by police)\n- {指名|しめい}{打者|だしゃ}: designated hitter (baseball)\n\nSIMILAR WORDS:\n- {任命|にんめい}: appointment (to an official position, more formal)\n- {氏名|しめい}: full name (same reading, different meaning and kanji)",
-  "cross_references": [],
+  "notes": "USAGE:\nUsed when someone is specifically selected by name, whether in a classroom, at work, or in official contexts. In baseball, {指名|しめい}⟦{打者|だしゃ}→打者：06564_dasha⟧ means \"designated hitter.\" In law enforcement, {指名|しめい}⟦{手配|てはい}→手配：07604_tehai⟧ means to put someone on a wanted list.\n\nCOMMON COLLOCATIONS:\n- {指名|しめい}⟦する→する：00392_suru⟧: to nominate, to designate\n- {指名|しめい}⟦される→する：00392_suru⟧: to be called on, to be nominated\n- {指名|しめい}⟦{手配|てはい}→手配：07604_tehai⟧: wanted (by police)\n- {指名|しめい}⟦{打者|だしゃ}→打者：06564_dasha⟧: designated hitter (baseball)\n\nSIMILAR WORDS:\n- ⟦{任命|にんめい}→任命：09764_ninmei⟧: appointment (to an official position, more formal)\n- ⟦{氏名|しめい}→氏名：04033_shimei⟧: full name (same reading, different meaning and kanji)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09764_ninmei",
+      "reading": "にんめい",
+      "headword": "{任命|にんめい}",
+      "label": "appointment"
+    }
+  ],
   "metadata": {
     "created": "2026-02-22T12:41:18Z",
-    "modified": "2026-03-29T03:07:35Z",
+    "modified": "2026-09-02T04:01:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

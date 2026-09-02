@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26666_kanikamaboko_ex1",
-      "japanese": "サラダにカニカマボコを{入|い}れた。",
+      "japanese": "⟦サラダ→サラダ：01364_sarada⟧⟦に→に：00314_ni⟧カニカマボコ⟦を→を：00422_wo⟧⟦{入|い}れた→入れる：01098_ireru⟧。",
       "english": "I put imitation crab in the salad.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26666_kanikamaboko_ex2",
-      "japanese": "カニカマボコは{値段|ねだん}が{安|やす}くて{便利|べんり}だ。",
+      "japanese": "カニカマボコ⟦は→は：00079_ha⟧⟦{値段|ねだん}→値段：00871_nedan⟧⟦が→が：00051_ga⟧⟦{安|やす}くて→安い：00464_yasui⟧⟦{便利|べんり}→便利：00830_benri⟧だ。",
       "english": "Imitation crab is cheap and convenient.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26666_kanikamaboko_ex3",
-      "japanese": "{子供|こども}たちはカニカマボコが{大好|だいす}きで、お{弁当|べんとう}にもよく{入|い}れる。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧たち⟦は→は：00079_ha⟧カニカマボコ⟦が→が：00051_ga⟧⟦{大好|だいす}き→大好き：02911_daisuki⟧で、⟦お{弁当|べんとう}→お弁当：02864_obentou⟧⟦に→に：00314_ni⟧⟦も→も：00484_mo⟧⟦よく→よく：00601_yoku⟧⟦{入|い}れる→入れる：01098_ireru⟧。",
       "english": "The kids love imitation crab, so I often put it in their bento boxes.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "A compound of カニ (crab) and {蒲鉾|かまぼこ} (fish cake). Made from surimi (processed fish paste) that is shaped, colored, and flavored to resemble crab leg meat. A Japanese food invention from the 1970s that has become popular worldwide.\n\nCOMMON COLLOCATIONS:\n- カニカマボコのサラダ: imitation crab salad\n- カニカマボコの{天|てん}ぷら: imitation crab tempura\n- カニカマボコ{入|い}り: containing imitation crab\n\nSIMILAR WORDS:\n- カニカマ: imitation crab (common abbreviation)\n- {蒲鉾|かまぼこ}: fish cake (the base product)\n- すり{身|み}: surimi (the raw fish paste material)\n\nCULTURAL NOTES:\nInvented in Japan in 1972, カニカマボコ (usually called カニカマ) is one of Japan's most successful food exports. It is made from white fish such as {鱈|たら} (cod) and is valued for being high in protein, low in fat, and affordable. In Japan, it is a staple ingredient in {弁当|べんとう}, salads, and {寿司|すし}.",
+  "notes": "A compound of カニ (crab) and {蒲鉾|かまぼこ} (fish cake). Made from surimi (processed fish paste) that is shaped, colored, and flavored to resemble crab leg meat. A Japanese food invention from the 1970s that has become popular worldwide.\n\nCOMMON COLLOCATIONS:\n- カニカマボコ⟦の→の：09472_no⟧⟦サラダ→サラダ：01364_sarada⟧: imitation crab salad\n- カニカマボコ⟦の→の：09472_no⟧⟦{天|てん}ぷら→天ぷら：04948_tenpura⟧: imitation crab tempura\n- カニカマボコ{入|い}り: containing imitation crab\n\nSIMILAR WORDS:\n- ⟦カニカマ→カニカマ：10793_kanikama⟧: imitation crab (common abbreviation)\n- {蒲鉾|かまぼこ}: fish cake (the base product)\n- ⟦すり{身|み}→すり身：08774_surimi⟧: surimi (the raw fish paste material)\n\nCULTURAL NOTE:\nInvented in Japan in 1972, カニカマボコ (usually called ⟦カニカマ→カニカマ：10793_kanikama⟧) is one of Japan's most successful food exports. It is made from white fish such as {鱈|たら} (cod) and is valued for being high in protein, low in fat, and affordable. In Japan, it is a staple ingredient in ⟦{弁当|べんとう}→弁当：01014_bentou⟧, salads, and ⟦{寿司|すし}→寿司：04946_sushi⟧.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08774_surimi",
+      "reading": "すりみ",
+      "headword": "すり{身|み}",
+      "label": "surimi"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +68,6 @@
       ]
     },
     "created": "2026-05-04T11:25:07Z",
-    "modified": "2026-05-04T11:25:07Z"
+    "modified": "2026-09-02T04:02:27Z"
   }
 }

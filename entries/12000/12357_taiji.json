@@ -3,7 +3,7 @@
   "id": "12357_taiji",
   "headword": "{対峙|たいじ}",
   "reading": "たいじ",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "confrontation, facing off against",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "12357_taiji_ex1",
-      "japanese": "{二|ふた}つの{軍|ぐん}が{対峙|たいじ}している。",
+      "japanese": "⟦{二|ふた}つ→二つ：02953_futatsu⟧⟦の→の：09472_no⟧⟦{軍|ぐん}→軍：02677_gun⟧⟦が→が：00051_ga⟧{対峙|たいじ}⟦している→する：00392_suru⟧。",
       "english": "Two armies are facing off against each other.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "12357_taiji_ex2",
-      "japanese": "{困難|こんなん}に{対峙|たいじ}する{覚悟|かくご}が{必要|ひつよう}だ。",
+      "japanese": "⟦{困難|こんなん}→困難：01410_konnan⟧⟦に→に：00314_ni⟧{対峙|たいじ}⟦する→する：00392_suru⟧⟦{覚悟|かくご}→覚悟：02551_kakugo⟧⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧だ。",
       "english": "One needs the resolve to confront difficulties.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "12357_taiji_ex3",
-      "japanese": "{与党|よとう}と{野党|やとう}が{国会|こっかい}で{対峙|たいじ}し、{議論|ぎろん}は{深夜|しんや}まで{続|つづ}いた。",
+      "japanese": "⟦{与党|よとう}→与党：05241_yotou⟧⟦と→と：00512_to⟧⟦{野党|やとう}→野党：02438_yatou⟧⟦が→が：00051_ga⟧⟦{国会|こっかい}→国会：02761_kokkai⟧⟦で→で：00502_de⟧{対峙|たいじ}し、⟦{議論|ぎろん}→議論：02650_giron⟧⟦は→は：00079_ha⟧⟦{深夜|しんや}→深夜：00368_shinya⟧⟦まで→まで：00490_made⟧⟦{続|つづ}いた→続く：00903_tsuzuku⟧。",
       "english": "The ruling and opposition parties confronted each other in parliament, and the debate continued until late at night.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "ETYMOLOGY:\n{対|たい} means facing or opposing, and {峙|じ} means to stand tall (like a peak). Originally described mountains standing face to face, then extended to any opposing forces.\n\nCOLLOCATIONS:\n- {問題|もんだい}に{対峙|たいじ}する — to confront a problem\n- {敵|てき}と{対峙|たいじ}する — to face off against an enemy\n- {困難|こんなん}に{対峙|たいじ}する — to confront difficulties\n\nSIMILAR WORDS:\n{対決|たいけつ} implies a decisive showdown or battle. {対立|たいりつ} means opposition or conflict between views or groups. {対峙|たいじ} emphasizes the tense state of facing each other, not necessarily fighting.",
+  "notes": "ETYMOLOGY:\n⟦{対|たい}→対：03382_tai⟧ means facing or opposing, and {峙|じ} means to stand tall (like a peak). Originally described mountains standing face to face, then extended to any opposing forces.\n\nCOMMON COLLOCATIONS:\n- ⟦{問題|もんだい}→問題：00797_mondai⟧⟦に→に：00314_ni⟧{対峙|たいじ}⟦する→する：00392_suru⟧ — to confront a problem\n- ⟦{敵|てき}→敵：03546_teki⟧⟦と→と：00512_to⟧{対峙|たいじ}⟦する→する：00392_suru⟧ — to face off against an enemy\n- ⟦{困難|こんなん}→困難：01410_konnan⟧⟦に→に：00314_ni⟧{対峙|たいじ}⟦する→する：00392_suru⟧ — to confront difficulties\n\nSIMILAR WORDS:\n⟦{対決|たいけつ}→対決：12392_taiketsu⟧ implies a decisive showdown or battle. ⟦{対立|たいりつ}→対立：04500_tairitsu⟧ means opposition or conflict between views or groups. {対峙|たいじ} emphasizes the tense state of facing each other, not necessarily fighting.",
   "cross_references": [
     {
       "type": "synonym",
@@ -156,11 +156,32 @@
       "reading": "ちょくめん",
       "headword": "{直面|ちょくめん}",
       "label": "confronting a situation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06981_tachimukau",
+      "reading": "たちむかう",
+      "headword": "{立|た}ち{向|む}かう",
+      "label": "to confront"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21377_taimen",
+      "reading": "たいめん",
+      "headword": "{対面|たいめん}する",
+      "label": "to meet face-to-face"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23708_mukaiau",
+      "reading": "むかいあう",
+      "headword": "{向|む}かい{合|あ}う",
+      "label": "to face each other"
     }
   ],
   "metadata": {
     "created": "2026-02-21T05:24:17Z",
-    "modified": "2026-04-29T07:15:05Z",
+    "modified": "2026-09-02T04:01:28Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

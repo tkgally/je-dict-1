@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28319_nukemeganai_ex1",
-      "japanese": "{彼|かれ}は{抜|ぬ}け{目|め}がない。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{抜|ぬ}け{目|め}がない。",
       "english": "He doesn't miss a trick.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28319_nukemeganai_ex2",
-      "japanese": "{抜|ぬ}け{目|め}がない{商売|しょうばい}{人|にん}だ。",
+      "japanese": "{抜|ぬ}け{目|め}がない⟦{商売|しょうばい}{人|にん}→商売人：28054_shoubainin⟧だ。",
       "english": "He's a shrewd businessman.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28319_nukemeganai_ex3",
-      "japanese": "{彼女|かのじょ}は{抜|ぬ}け{目|め}がなく、どんなチャンスも{逃|のが}さない。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧{抜|ぬ}け{目|め}がなく、⟦どんな→どんな：02924_donna⟧⟦チャンス→チャンス：03857_chansu⟧⟦も→も：00484_mo⟧⟦{逃|のが}さない→逃す：04611_nogasu⟧。",
       "english": "She is sharp and never lets any opportunity slip by.",
       "sense_numbers": [
         1
@@ -44,8 +44,52 @@
       "notes": null
     }
   ],
-  "notes": "Literally \"there are no missed spots.\" {抜|ぬ}け{目|め} means an overlooked spot or oversight; with がない, the meaning is that the person leaves no openings or gaps.\n\nNUANCE:\nMost often used to describe people. Carries a slightly negative or sardonic edge — admires the cleverness while hinting at self-interest or calculation. Praise is usually mixed with caution.\n\nCOMMON COLLOCATIONS:\n- {抜|ぬ}け{目|め}のない{人|ひと}: a shrewd person\n- {抜|ぬ}け{目|め}なく{立|た}ち{回|まわ}る: to act shrewdly, work the situation\n- {商売|しょうばい}に{抜|ぬ}け{目|め}がない: shrewd in business\n\nSIMILAR WORDS:\n- ちゃっかり: cheekily shrewd — captures self-serving cleverness, often colloquial\n- {賢|かしこ}い: clever, wise — purely positive, no calculating nuance\n- {油断|ゆだん}{大敵|たいてき}: carelessness is the great enemy — proverb, focuses on avoiding mistakes rather than seizing advantages",
+  "notes": "Literally \"there are no missed spots.\" {抜|ぬ}け{目|め} means an overlooked spot or oversight; with ⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧, the meaning is that the person leaves no openings or gaps.\n\nUSAGE:\nMost often used to describe people. Carries a slightly negative or sardonic edge — admires the cleverness while hinting at self-interest or calculation. Praise is usually mixed with caution.\n\nCOMMON COLLOCATIONS:\n- {抜|ぬ}け{目|め}⟦の→の：09472_no⟧⟦ない→ない：01118_nai⟧⟦{人|ひと}→人：00476_hito⟧: a shrewd person\n- {抜|ぬ}け{目|め}⟦なく→ない：01118_nai⟧⟦{立|た}ち{回|まわ}る→立ち回る：18595_tachimawaru⟧: to act shrewdly, work the situation\n- ⟦{商売|しょうばい}→商売：03239_shoubai⟧⟦に→に：00314_ni⟧{抜|ぬ}け{目|め}がない: shrewd in business\n\nSIMILAR WORDS:\n- ⟦ちゃっかり→ちゃっかり：06277_chakkari⟧: cheekily shrewd — captures self-serving cleverness, often colloquial\n- ⟦{賢|かしこ}い→賢い：00192_kashikoi⟧: clever, wise — purely positive, no calculating nuance\n- ⟦{油断|ゆだん}{大敵|たいてき}→油断大敵：05669_yudantaiteki⟧: carelessness is the great enemy — proverb, focuses on avoiding mistakes rather than seizing advantages",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06277_chakkari",
+      "reading": "ちゃっかり",
+      "headword": "ちゃっかり",
+      "label": "cheekily shrewd"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00192_kashikoi",
+      "reading": "かしこい",
+      "headword": "{賢|かしこ}い",
+      "label": "clever, wise"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05669_yudantaiteki",
+      "reading": "ゆだんたいてき",
+      "headword": "{油断大敵|ゆだんたいてき}",
+      "label": "carelessness is the great enemy"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03929_zurui",
+      "reading": "ずるい",
+      "headword": "{狡|ずる}い",
+      "label": "sly, cunning, unfair"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20841_warugashikoi",
+      "reading": "わるがしこい",
+      "headword": "{悪賢|わるがしこ}い",
+      "label": "cunning"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22163_chakkarisuru",
+      "reading": "ちゃっかりする",
+      "headword": "ちゃっかりする",
+      "label": "to be shrewd"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +97,7 @@
         "expression"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "personality",
         "evaluation"
@@ -61,6 +105,6 @@
       "domain": []
     },
     "created": "2026-05-29T02:11:42Z",
-    "modified": "2026-05-29T02:11:42Z"
+    "modified": "2026-09-02T04:02:33Z"
   }
 }

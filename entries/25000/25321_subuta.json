@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25321_subuta_ex1",
-      "japanese": "{今日|きょう}の{夕食|ゆうしょく}は{酢豚|すぶた}にしよう。",
+      "japanese": "⟦{今日|きょう}→今日：00496_kyou⟧⟦の→の：09472_no⟧⟦{夕食|ゆうしょく}→夕食：03006_yuushoku⟧⟦は→は：00079_ha⟧{酢豚|すぶた}⟦に→に：00314_ni⟧⟦しよう→する：00392_suru⟧。",
       "english": "Let's have sweet and sour pork for dinner today.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25321_subuta_ex2",
-      "japanese": "{酢豚|すぶた}にパイナップルを{入|い}れるかどうかは{意見|いけん}が{分|わ}かれる。",
+      "japanese": "{酢豚|すぶた}⟦に→に：00314_ni⟧パイナップル⟦を→を：00422_wo⟧⟦{入|い}れる→入れる：01098_ireru⟧⟦かどうか→かどうか：28299_kadouka⟧⟦は→は：00079_ha⟧⟦{意見|いけん}→意見：01303_iken⟧⟦が→が：00051_ga⟧⟦{分|わ}かれる→分かれる：10976_wakareru⟧。",
       "english": "Opinions are divided on whether to put pineapple in sweet and sour pork.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25321_subuta_ex3",
-      "japanese": "この{中華|ちゅうか}レストランの{酢豚|すぶた}は{甘酸|あまず}っぱいタレが{絶品|ぜっぴん}だ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{中華|ちゅうか}→中華：11322_chuuka⟧⟦レストラン→レストラン：01048_resutoran⟧⟦の→の：09472_no⟧{酢豚|すぶた}⟦は→は：00079_ha⟧⟦{甘酸|あまず}っぱい→甘酸っぱい：05916_amazuppai⟧⟦タレ→タレ：10500_tare⟧⟦が→が：00051_ga⟧⟦{絶品|ぜっぴん}→絶品：13811_zeppin⟧だ。",
       "english": "The sweet and sour sauce on this Chinese restaurant's sweet and sour pork is superb.",
       "sense_numbers": [
         1
@@ -44,14 +44,25 @@
       "notes": null
     }
   ],
-  "notes": "A Chinese-origin dish popular in Japan, consisting of deep-fried pork pieces coated in a sweet and sour sauce with vegetables. Composed of {酢|す} (vinegar) and {豚|ぶた} (pork). It is one of the most recognized dishes in Japanese-style Chinese cuisine ({中華料理|ちゅうかりょうり}).\n\nCOMMON COLLOCATIONS:\n- {酢豚|すぶた}を{作|つく}る: make sweet and sour pork\n- {酢豚|すぶた}{定食|ていしょく}: sweet and sour pork set meal\n\nCULTURAL NOTE:\nWhether pineapple belongs in {酢豚|すぶた} is a famously divisive topic in Japan, similar to the pineapple-on-pizza debate in Western countries. The original Cantonese dish ({咕咾肉|グーラオロウ}) typically includes pineapple.\n\nRELATED TERMS:\n- {麻婆豆腐|まーぼーどうふ}: mapo tofu — another popular Chinese-origin dish\n- {回鍋肉|ほいこーろー}: twice-cooked pork\n- {青椒肉絲|ちんじゃおろーすー}: pepper steak",
+  "notes": "A Chinese-origin dish popular in Japan, consisting of deep-fried pork pieces coated in a sweet and sour sauce with vegetables. Composed of ⟦{酢|す}→酢：01057_su⟧ (vinegar) and ⟦{豚|ぶた}→豚：04710_buta⟧ (pork). It is one of the most recognized dishes in Japanese-style Chinese cuisine (⟦{中華料理|ちゅうかりょうり}→中華料理：18122_chuukaryouri⟧).\n\nCOMMON COLLOCATIONS:\n- {酢豚|すぶた}⟦を→を：00422_wo⟧⟦{作|つく}る→作る：00481_tsukuru⟧: make sweet and sour pork\n- {酢豚|すぶた}⟦{定食|ていしょく}→定食：03123_teishoku⟧: sweet and sour pork set meal\n\nCULTURAL NOTE:\nWhether pineapple belongs in {酢豚|すぶた} is a famously divisive topic in Japan, similar to the pineapple-on-pizza debate in Western countries. The original Cantonese dish ({咕咾肉|グーラオロウ}) typically includes pineapple.\n\nRELATED WORDS:\n- ⟦{麻婆豆腐|まーぼーどうふ}→麻婆豆腐：20258_maaboodoufu⟧: mapo tofu — another popular Chinese-origin dish\n- {回鍋肉|ほいこーろー}: twice-cooked pork\n- {青椒肉絲|ちんじゃおろーすー}: pepper steak",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "20258_maaboodoufu",
+      "reading": "まーぼーどうふ",
+      "headword": "{麻婆豆腐|まーぼーどうふ}",
+      "label": "mapo tofu"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "food"
       ],
@@ -60,6 +71,6 @@
       ]
     },
     "created": "2026-04-24T14:27:34Z",
-    "modified": "2026-08-04T12:59:53Z"
+    "modified": "2026-09-02T04:02:21Z"
   }
 }

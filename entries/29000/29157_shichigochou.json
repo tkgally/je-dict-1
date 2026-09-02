@@ -15,41 +15,60 @@
   "examples": [
     {
       "id": "29157_shichigochou_ex1",
-      "japanese": "{和歌|わか}は{七五調|しちごちょう}のリズムで{詠|よ}まれる。",
+      "japanese": "⟦{和歌|わか}→和歌：05230_waka⟧⟦は→は：00079_ha⟧{七五調|しちごちょう}⟦の→の：09472_no⟧⟦リズム→リズム：04746_rizumu⟧⟦で→で：00502_de⟧⟦{詠|よ}まれる→詠む：14186_yomu⟧。",
       "english": "Waka poetry is composed in a seven-five rhythm.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29157_shichigochou_ex2",
-      "japanese": "{演歌|えんか}の{歌詞|かし}には{七五調|しちごちょう}のパターンが{多|おお}く{使|つか}われる。",
+      "japanese": "⟦{演歌|えんか}→演歌：07082_enka⟧⟦の→の：09472_no⟧⟦{歌詞|かし}→歌詞：13160_kashi⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{七五調|しちごちょう}⟦の→の：09472_no⟧⟦パターン→パターン：05456_pataan⟧⟦が→が：00051_ga⟧⟦{多|おお}く→多い：01127_ooi⟧⟦{使|つか}われる→使う：00473_tsukau⟧。",
       "english": "The lyrics of enka songs frequently use the seven-five syllabic pattern.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29157_shichigochou_ex3",
-      "japanese": "{七五調|しちごちょう}のフレーズはリズムがよく、{記憶|きおく}に{残|のこ}りやすいため、{広告|こうこく}にも{使|つか}われる。",
+      "japanese": "{七五調|しちごちょう}⟦の→の：09472_no⟧⟦フレーズ→フレーズ：19999_fureezu⟧⟦は→は：00079_ha⟧⟦リズム→リズム：04746_rizumu⟧⟦が→が：00051_ga⟧⟦よく→よく：00601_yoku⟧、⟦{記憶|きおく}→記憶：00234_kioku⟧⟦に→に：00314_ni⟧⟦{残|のこ}り→残る：01187_nokoru⟧やすい⟦ため→ため：01145_tame⟧、⟦{広告|こうこく}→広告：02747_koukoku⟧⟦に→に：00314_ni⟧⟦も→も：00484_mo⟧⟦{使|つか}われる→使う：00473_tsukau⟧。",
       "english": "Seven-five phrases have a pleasing rhythm and are easy to remember, so they are also used in advertising.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "{七|しち} (seven) + {五|ご} (five) + {調|ちょう} (rhythm, meter). One of the defining rhythmic structures of Japanese literature and music.\n\nCULTURAL CONTEXT:\nWaka poetry (including tanka) follows a 5-7-5-7-7 syllable pattern, while haiku uses 5-7-5. The broader 7-5 unit ({七五調|しちごちょう}) is also prominent in:\n- {演歌|えんか} (enka) and folk song lyrics\n- {祭|まつり}の{掛|か}け{声|こえ}: festival chants\n- {早口|はやくち}ことば: tongue twisters\n- Traditional advertising slogans\n\nThe reverse pattern {五七調|ごしちちょう} (5-7) also exists but is less common in modern contexts.",
+  "notes": "{七|しち} (seven) + ⟦{五|ご}→五：00697_go⟧ (five) + {調|ちょう} (rhythm, meter). One of the defining rhythmic structures of Japanese literature and music.\n\nCULTURAL NOTE:\nWaka poetry (including tanka) follows a 5-7-5-7-7 syllable pattern, while haiku uses 5-7-5. The broader 7-5 unit ({七五調|しちごちょう}) is also prominent in:\n- ⟦{演歌|えんか}→演歌：07082_enka⟧ (enka) and folk song lyrics\n- {祭|まつり}⟦の→の：09472_no⟧{掛|か}け{声|こえ}: festival chants\n- ⟦{早口|はやくち}→早口：04321_hayakuchi⟧ことば: tongue twisters\n- Traditional advertising slogans\n\nThe reverse pattern {五七調|ごしちちょう} (5-7) also exists but is less common in modern contexts.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "26419_goshicchou",
+      "reading": "ごしっちょう",
+      "headword": "{五七調|ごしっちょう}",
+      "label": "five-seven meter"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["culture"],
+      "politeness": "plain",
+      "semantic": [
+        "culture"
+      ],
       "domain": []
     },
     "created": "2026-06-11T21:46:39Z",
-    "modified": "2026-06-11T21:46:39Z"
+    "modified": "2026-09-02T04:02:36Z"
   }
 }

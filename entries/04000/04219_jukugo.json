@@ -78,10 +78,33 @@
       ]
     }
   ],
-  "notes": "COMMON TYPES:\n・⟦{二字|にじ}→二字：noentry⟧{熟語|じゅくご} (two-character compounds, e.g., ⟦{勉強|べんきょう}→勉強：00770_benkyou⟧)\n・⟦{四字|よじ}→四字：noentry⟧{熟語|じゅくご} (four-character idioms, e.g., ⟦{一石二鳥|いっせきにちょう}→一石二鳥：04764_issekinichou⟧)\n\n⟦{四字|よじ}→四字：noentry⟧{熟語|じゅくご} are particularly important in Japanese:\n・Often derived from classical Chinese\n・Used to express complex ideas concisely\n・Commonly tested in schools\n\nCOMMON COLLOCATIONS:\n・{熟語|じゅくご}⟦を→を：00422_wo⟧⟦{覚|おぼ}える→覚える：00739_oboeru⟧ (to memorize compound words)\n・{熟語|じゅくご}⟦の→の：09472_no⟧⟦{意味|いみ}→意味：01155_imi⟧ (meaning of a compound)\n・{熟語|じゅくご}⟦を→を：00422_wo⟧⟦{作|つく}る→作る：00481_tsukuru⟧ (to form compound words)",
+  "notes": "TYPES:\n- ⟦{二字|にじ}→二字：noentry⟧{熟語|じゅくご} (two-character compounds, e.g., ⟦{勉強|べんきょう}→勉強：00770_benkyou⟧)\n- ⟦{四字|よじ}→四字：noentry⟧{熟語|じゅくご} (four-character idioms, e.g., ⟦{一石二鳥|いっせきにちょう}→一石二鳥：04764_issekinichou⟧)\n\n⟦{四字|よじ}→四字：noentry⟧{熟語|じゅくご} are particularly important in Japanese:\n- Often derived from classical Chinese\n- Used to express complex ideas concisely\n- Commonly tested in schools\n\nCOMMON COLLOCATIONS:\n- {熟語|じゅくご}⟦を→を：00422_wo⟧⟦{覚|おぼ}える→覚える：00739_oboeru⟧ (to memorize compound words)\n- {熟語|じゅくご}⟦の→の：09472_no⟧⟦{意味|いみ}→意味：01155_imi⟧ (meaning of a compound)\n- {熟語|じゅくご}⟦を→を：00422_wo⟧⟦{作|つく}る→作る：00481_tsukuru⟧ (to form compound words)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "03413_tango",
+      "reading": "たんご",
+      "headword": "{単語|たんご}",
+      "label": "word, vocabulary"
+    },
+    {
+      "type": "related",
+      "target_id": "10453_onyomi",
+      "reading": "おんよみ",
+      "headword": "{音読|おんよ}み",
+      "label": "on'yomi, Chinese reading of kanji"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23690_seigo",
+      "reading": "せいご",
+      "headword": "{成語|せいご}",
+      "label": "set phrase"
+    }
+  ],
   "metadata": {
     "created": "2026-01-13T13:58:45Z",
-    "modified": "2026-06-10T17:34:32Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

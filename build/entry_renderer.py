@@ -23,8 +23,12 @@ from html_utils import (
     generate_examples_script,
     generate_header_search_script,
     generate_wordlinks_script,
+    generate_tts_script,
     generate_goatcounter_script,
-    process_word_links as _process_word_links_base
+    process_word_links as _process_word_links_base,
+    plain_japanese_text as _plain_japanese_text_base,
+    unwrap_plain_braces,
+    semantic_tag_slug,
 )
 
 # Japan Standard Time (UTC+9)
@@ -49,6 +53,11 @@ def process_furigana(text: str, show_furigana: bool = True) -> str:
 def process_word_links(text: str, entries_dict: dict, relative_path: str = '../../') -> str:
     """Process word link markup in text and generate HTML with links."""
     return _process_word_links_base(text, entries_dict, relative_path, FURIGANA_PATTERN)
+
+
+def plain_japanese_text(text: str) -> str:
+    """Plain Japanese text: links -> surface form, furigana -> base text."""
+    return _plain_japanese_text_base(text, FURIGANA_PATTERN)
 
 
 def format_jst_datetime(iso_string: str) -> str:
@@ -107,7 +116,7 @@ def generate_conjugation_html(conjugation: dict) -> str:
         group_end = ' class="conj-group-end"' if label in _GROUP_LAST_ROWS else ''
         rows.append(
             f'<tr{group_end}>'
-            f'<td class="conj-label">{html.escape(label)}</td>'
+            f'<td class="conj-label" lang="en">{html.escape(label)}</td>'
             f'<td class="conj-form">{aff_html}</td>'
             f'<td class="conj-form">{neg_html}</td>'
             f'</tr>'
@@ -117,12 +126,14 @@ def generate_conjugation_html(conjugation: dict) -> str:
     return (
         '<details class="conjugation-details">\n'
         '<summary>Conjugation</summary>\n'
-        '<table class="conjugation-table">\n'
+        '<div class="table-wrap">\n'
+        '<table class="conjugation-table" lang="ja">\n'
         '<thead><tr>'
-        '<th></th><th>Affirmative</th><th>Negative</th>'
+        '<th lang="en"></th><th lang="en">Affirmative</th><th lang="en">Negative</th>'
         '</tr></thead>\n'
         f'<tbody>\n{table_html}\n</tbody>\n'
         '</table>\n'
+        '</div>\n'
         '</details>'
     )
 
@@ -174,7 +185,7 @@ def process_headword_with_kanji_links(text: str, relative_path: str = '../../') 
     for match in FURIGANA_PATTERN.finditer(text):
         # Add text before this match
         if match.start() > last_end:
-            before_text = text[last_end:match.start()]
+            before_text = unwrap_plain_braces(text[last_end:match.start()])
             # Process any kanji outside furigana notation
             processed_before = []
             for char in before_text:
@@ -189,7 +200,7 @@ def process_headword_with_kanji_links(text: str, relative_path: str = '../../') 
 
     # Add any remaining text after the last match
     if last_end < len(text):
-        remaining = text[last_end:]
+        remaining = unwrap_plain_braces(text[last_end:])
         processed_remaining = []
         for char in remaining:
             if is_kanji(char):
@@ -201,9 +212,57 @@ def process_headword_with_kanji_links(text: str, relative_path: str = '../../') 
     return ''.join(parts)
 
 
+# Notes section labels: an ALL-CAPS line ending in ':' (e.g. "USAGE:",
+# "COMMON COLLOCATIONS:") becomes a heading; "USAGE: text..." becomes an
+# inline label at the start of its paragraph.
+NOTES_LABEL_PATTERN = re.compile(r"^([A-Z][A-Z0-9 /&'()\-]{2,}):(?:\s+(\S.*))?$")
+# A short sentence-case label alone on a line ("Common collocations:", "Polite forms:")
+# is also a heading, provided it is at most four words and contains no function
+# word (so lead-in sentences such as "It can also mean:" stay paragraphs).
+NOTES_SUBHEADING_PATTERN = re.compile(r"^([A-Z][a-z][A-Za-z /&'()\-]{1,40}):$")
+_LABEL_FUNCTION_WORDS = {'is', 'are', 'can', 'also', 'the', 'a', 'an', 'to', 'of', 'in', 'with',
+                         'for', 'and', 'or', 'it', 'this', 'that', 'be', 'as', 'by', 'on', 'has',
+                         'have', 'when', 'from', 'used', 'means'}
+
+
+def _plain_label_heading(line: str):
+    """Return the heading text for a sentence-case label line, or None."""
+    match = NOTES_SUBHEADING_PATTERN.match(line)
+    if not match:
+        return None
+    words = match.group(1).split()
+    if len(words) > 4 or any(w.lower() in _LABEL_FUNCTION_WORDS for w in words):
+        return None
+    return match.group(1)
+
+
+# Words kept upper-case when a label is converted to sentence case.
+_LABEL_ACRONYMS = {'JLPT', 'NHK', 'SNS', 'TV', 'PC', 'AI', 'IT', 'OK', 'NG', 'TPO', 'ATM',
+                   'DIY', 'URL', 'USA', 'UK', 'US', 'CD', 'DVD', 'AC', 'DC',
+                   'N1', 'N2', 'N3', 'N4', 'N5'}
+
+
+def format_notes_label(label: str) -> str:
+    """'COMMON COLLOCATIONS' -> 'Common collocations' (acronyms and symbols kept)."""
+    words = []
+    for i, word in enumerate(label.split(' ')):
+        if word in _LABEL_ACRONYMS or not word.replace('-', '').isalpha():
+            words.append(word)
+        elif i == 0:
+            words.append(word[:1] + word[1:].lower())
+        else:
+            words.append(word.lower())
+    return ' '.join(words)
+
+
 def process_notes_text(text: str, entries_dict: dict = None, relative_path: str = '../../') -> str:
     """
     Process notes text with proper formatting.
+
+    Paragraphs are separated by blank lines. Within a paragraph, bullet lines
+    ("- " or "・") become a list, ALL-CAPS label lines ("USAGE:") become
+    <h3 class="notes-heading"> headings, and other consecutive lines are joined
+    with <br> into one paragraph.
 
     Args:
         text: The notes text to process
@@ -222,45 +281,103 @@ def process_notes_text(text: str, entries_dict: dict = None, relative_path: str 
             return process_word_links(t, entries_dict, relative_path)
         return process_furigana(t)
 
-    paragraphs = text.split('\n\n')
     result = []
+    text_lines = []   # consecutive plain lines -> one <p>
+    list_items = []   # consecutive bullet lines -> one <ul>
 
-    for para in paragraphs:
-        lines = para.split('\n')
-        has_bullets = any(line.strip().startswith('- ') or line.strip().startswith('・') for line in lines)
+    def flush():
+        if list_items:
+            result.append(f'<ul>{"".join(list_items)}</ul>')
+            list_items.clear()
+        if text_lines:
+            result.append(f'<p>{"<br>".join(text_lines)}</p>')
+            text_lines.clear()
 
-        if has_bullets:
-            html_parts = []
-            list_items = []
-
-            for line in lines:
-                trimmed = line.strip()
-                if trimmed.startswith('- ') or trimmed.startswith('・'):
-                    content = re.sub(r'^[-・]\s*', '', trimmed)
-                    list_items.append(f'<li>{process_text(content)}</li>')
-                elif trimmed:
-                    if list_items:
-                        html_parts.append(f'<ul>{"".join(list_items)}</ul>')
-                        list_items = []
-                    html_parts.append(f'<p>{process_text(trimmed)}</p>')
-
+    for para in text.split('\n\n'):
+        for line in para.split('\n'):
+            trimmed = line.strip()
+            if not trimmed:
+                continue
+            if trimmed.startswith('- ') or trimmed.startswith('・'):
+                if text_lines:
+                    flush()
+                content = re.sub(r'^[-・]\s*', '', trimmed)
+                list_items.append(f'<li>{process_text(content)}</li>')
+                continue
             if list_items:
-                html_parts.append(f'<ul>{"".join(list_items)}</ul>')
-
-            result.append(''.join(html_parts))
-        else:
-            processed = '<br>'.join(
-                process_text(line.strip())
-                for line in lines
-                if line.strip()
-            )
-            result.append(f'<p>{processed}</p>')
+                flush()
+            label_match = NOTES_LABEL_PATTERN.match(trimmed)
+            if label_match:
+                label = html.escape(format_notes_label(label_match.group(1)))
+                rest = label_match.group(2)
+                flush()
+                if rest:
+                    text_lines.append(f'<strong class="notes-label">{label}:</strong> {process_text(rest)}')
+                else:
+                    result.append(f'<h3 class="notes-heading">{label}</h3>')
+                continue
+            plain_heading = _plain_label_heading(trimmed)
+            if plain_heading:
+                flush()
+                result.append(f'<h3 class="notes-heading">{html.escape(plain_heading)}</h3>')
+                continue
+            text_lines.append(process_text(trimmed))
+        flush()
 
     return ''.join(result)
 
 
+# Badge text for the transitivity tag: (Japanese term, English label)
+TRANSITIVITY_BADGES = {
+    'transitive': ('他動詞', 'transitive'),
+    'intransitive': ('自動詞', 'intransitive'),
+    'both': ('自他動詞', 'transitive / intransitive'),
+}
+
+
+def generate_tag_badges(entry: dict, relative_path: str = '../../') -> str:
+    """Badges shown under the headword: transitivity, non-neutral formality,
+    non-plain politeness, style, domain, and semantic tags (linked to the
+    per-tag list pages under tags/)."""
+    tags = entry.get('metadata', {}).get('tags', {}) or {}
+    badges = []
+
+    transitivity = tags.get('transitivity')
+    if transitivity in TRANSITIVITY_BADGES:
+        ja, en = TRANSITIVITY_BADGES[transitivity]
+        badges.append(f'<span class="badge badge-transitivity"><span lang="ja">{ja}</span> {en}</span>')
+
+    formality = tags.get('formality')
+    if formality and formality != 'neutral':
+        badges.append(f'<span class="badge badge-formality">{html.escape(formality)}</span>')
+
+    politeness = tags.get('politeness')
+    if politeness and politeness != 'plain':
+        badges.append(f'<span class="badge badge-politeness">{html.escape(politeness)}</span>')
+
+    for style in tags.get('style') or []:
+        badges.append(f'<span class="badge badge-style">{html.escape(style)}</span>')
+
+    for domain in tags.get('domain') or []:
+        badges.append(f'<span class="badge badge-domain">{html.escape(domain)}</span>')
+
+    for tag in tags.get('semantic') or []:
+        if tag == 'general':
+            continue  # uninformative catch-all
+        slug = semantic_tag_slug(tag)
+        label = html.escape(tag)
+        if slug:
+            badges.append(f'<a class="badge badge-semantic" href="{relative_path}tags/{slug}.html">{label}</a>')
+        else:
+            badges.append(f'<span class="badge badge-semantic">{label}</span>')
+
+    if not badges:
+        return ''
+    return f'<div class="entry-badges">{"".join(badges)}</div>'
+
+
 def render_examples(examples_list, entries_dict: dict, relative_path: str = '../../'):
-    """Render a list of examples as HTML with word links."""
+    """Render a list of examples as HTML with word links and a read-aloud button."""
     parts = []
     for ex in examples_list:
         japanese = ex.get('japanese', '')
@@ -269,9 +386,14 @@ def render_examples(examples_list, entries_dict: dict, relative_path: str = '../
         # Use process_word_links to handle link markup (falls back to furigana if no links)
         japanese_html = process_word_links(japanese, entries_dict, relative_path)
         notes_html = process_word_links(notes, entries_dict, relative_path) if notes else ''
+        # Read-aloud button (hidden by CSS unless a Japanese voice is available; see generate_tts_script)
+        tts_button = (
+            f'<button type="button" class="tts-btn" data-text="{html.escape(plain_japanese_text(japanese))}" '
+            f'title="Listen" aria-label="Listen to this sentence">🔊</button>'
+        )
         parts.append(f'''
                 <div class="example-item">
-                    <div class="example-japanese">{japanese_html}</div>
+                    <div class="example-japanese" lang="ja">{japanese_html}{tts_button}</div>
                     <div class="example-english">{html.escape(english)}</div>
                     {f'<div class="example-notes">{notes_html}</div>' if notes else ''}
                 </div>
@@ -308,16 +430,17 @@ def generate_entry_html(entry: dict, entries_dict: dict, readings_to_entries: di
     # Entry header with kanji links in headword
     html_parts.append(f'''
         <div class="entry-header">
-            <h1 class="entry-headword">{process_headword_with_kanji_links(headword, relative_path)}</h1>
-            <div class="entry-reading">{html.escape(reading)}</div>
+            <h1 class="entry-headword" lang="ja">{process_headword_with_kanji_links(headword, relative_path)}</h1>
+            <div class="entry-reading" lang="ja">{html.escape(reading)}</div>
             <div class="entry-pos">{html.escape(entry.get('part_of_speech', ''))}</div>
             <div class="entry-gloss">{html.escape(entry.get('gloss', ''))}</div>
+            {generate_tag_badges(entry, relative_path)}
     ''')
 
     # Prominent see-also (high-visibility cross-references shown inside entry-header, above the border)
     prominent_refs = entry.get('prominent_see_also', [])
     if prominent_refs:
-        html_parts.append('<div class="prominent-see-also">')
+        html_parts.append('<div class="prominent-see-also" lang="ja">')
         ref_links = []
         for ref in prominent_refs:
             ref_reading = ref.get('reading', '')
@@ -348,7 +471,7 @@ def generate_entry_html(entry: dict, entries_dict: dict, readings_to_entries: di
             else:
                 ref_links.append(f'<span class="prominent-ref-pending">{display}</span>{note_text}')
 
-        html_parts.append(f'<span class="prominent-ref-label">See also:</span> ')
+        html_parts.append(f'<span class="prominent-ref-label" lang="en">See also:</span> ')
         html_parts.append(', '.join(ref_links))
         html_parts.append('</div>')
 
@@ -582,6 +705,7 @@ def generate_entry_html(entry: dict, entries_dict: dict, readings_to_entries: di
     html_parts.append(generate_furigana_script())
     html_parts.append(generate_examples_script())
     html_parts.append(generate_wordlinks_script())
+    html_parts.append(generate_tts_script())
     html_parts.append(generate_goatcounter_script())
     html_parts.append('</body>')
     html_parts.append('</html>')

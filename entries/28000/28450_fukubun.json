@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28450_fukubun_ex1",
-      "japanese": "{複文|ふくぶん}の{構造|こうぞう}を{学|まな}ぶ。",
+      "japanese": "{複文|ふくぶん}⟦の→の：09472_no⟧⟦{構造|こうぞう}→構造：02730_kouzou⟧⟦を→を：00422_wo⟧⟦{学|まな}ぶ→学ぶ：01987_manabu⟧。",
       "english": "To study the structure of complex sentences.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28450_fukubun_ex2",
-      "japanese": "この{文|ぶん}は{主文|しゅぶん}と{従属節|じゅうぞくせつ}からなる{複文|ふくぶん}だ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{文|ぶん}→文：03716_bun⟧⟦は→は：00079_ha⟧⟦{主文|しゅぶん}→主文：28451_shubun⟧⟦と→と：00512_to⟧{従属節|じゅうぞくせつ}⟦から→から：00504_kara⟧⟦なる→なる：01970_naru⟧{複文|ふくぶん}だ。",
       "english": "This sentence is a complex sentence made up of a main clause and a subordinate clause.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28450_fukubun_ex3",
-      "japanese": "{日本語|にほんご}の{複文|ふくぶん}では、{従属節|じゅうぞくせつ}が{主文|しゅぶん}の{前|まえ}に{置|お}かれることが{多|おお}い。",
+      "japanese": "⟦{日本語|にほんご}→日本語：00614_nihongo⟧⟦の→の：09472_no⟧{複文|ふくぶん}⟦で→で：00502_de⟧⟦は→は：00079_ha⟧、{従属節|じゅうぞくせつ}⟦が→が：00051_ga⟧⟦{主文|しゅぶん}→主文：28451_shubun⟧⟦の→の：09472_no⟧⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧⟦{置|お}かれる→置く：01092_oku⟧こと⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "In Japanese complex sentences, the subordinate clause is often placed before the main clause.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "Grammatical term. Compound of {複|ふく} (compound, multiple) + {文|ぶん} (sentence).\n\nRELATED GRAMMAR TERMS:\n- {単文|たんぶん}: simple sentence — one subject-predicate pair\n- {重文|じゅうぶん}: compound sentence — two or more coordinate clauses joined with conjunctions\n- {複文|ふくぶん}: complex sentence — a main clause plus one or more subordinate clauses\n- {主文|しゅぶん}: main clause\n- {従属節|じゅうぞくせつ}: subordinate clause",
+  "notes": "Grammatical term. Compound of {複|ふく} (compound, multiple) + ⟦{文|ぶん}→文：03716_bun⟧ (sentence).\n\nRELATED GRAMMAR TERMS:\n- {単文|たんぶん}: simple sentence — one subject-predicate pair\n- {重文|じゅうぶん}: compound sentence — two or more coordinate clauses joined with conjunctions\n- {複文|ふくぶん}: complex sentence — a main clause plus one or more subordinate clauses\n- ⟦{主文|しゅぶん}→主文：28451_shubun⟧: main clause\n- {従属節|じゅうぞくせつ}: subordinate clause",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "28451_shubun",
+      "reading": "しゅぶん",
+      "headword": "{主文|しゅぶん}",
+      "label": "main clause (grammar)"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +62,7 @@
         "noun"
       ],
       "formality": "formal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "grammatical",
         "language"
@@ -63,6 +72,6 @@
       ]
     },
     "created": "2026-05-31T03:09:05Z",
-    "modified": "2026-08-08T18:34:17Z"
+    "modified": "2026-09-02T04:02:33Z"
   }
 }

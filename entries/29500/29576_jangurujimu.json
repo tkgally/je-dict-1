@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29576_jangurujimu_ex1",
-      "japanese": "ジャングルジムに{登|のぼ}った。",
+      "japanese": "ジャングルジム⟦に→に：00314_ni⟧⟦{登|のぼ}った→登る：00660_noboru⟧。",
       "english": "I climbed the jungle gym.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29576_jangurujimu_ex2",
-      "japanese": "{子供|こども}たちがジャングルジムのてっぺんまで{登|のぼ}っていった。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧たち⟦が→が：00051_ga⟧ジャングルジム⟦の→の：09472_no⟧てっぺん⟦まで→まで：00490_made⟧⟦{登|のぼ}って→登る：00660_noboru⟧いった。",
       "english": "The children climbed all the way to the top of the jungle gym.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29576_jangurujimu_ex3",
-      "japanese": "ジャングルジムで{遊|あそ}ぶときは、{落|お}ちないように{気|き}をつけよう。",
+      "japanese": "ジャングルジム⟦で→で：00502_de⟧⟦{遊|あそ}ぶ→遊ぶ：00550_asobu⟧とき⟦は→は：00079_ha⟧、⟦{落|お}ちない→落ちる：01242_ochiru⟧よう⟦に→に：00314_ni⟧⟦{気|き}をつけよう→気をつける：09771_kiwotsukeru⟧。",
       "english": "When playing on the jungle gym, let's be careful not to fall.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "A lattice climbing structure found in parks and schoolyards, one of the standard pieces of playground equipment.\n\nCOMMON COLLOCATIONS:\n- ジャングルジムに{登|のぼ}る: to climb the jungle gym\n- ジャングルジムで{遊|あそ}ぶ: to play on the jungle gym\n- ジャングルジムのてっぺん: the top of the jungle gym",
+  "notes": "A lattice climbing structure found in parks and schoolyards, one of the standard pieces of playground equipment.\n\nCOMMON COLLOCATIONS:\n- ジャングルジム⟦に→に：00314_ni⟧⟦{登|のぼ}る→登る：00660_noboru⟧: to climb the jungle gym\n- ジャングルジム⟦で→で：00502_de⟧⟦{遊|あそ}ぶ→遊ぶ：00550_asobu⟧: to play on the jungle gym\n- ジャングルジム⟦の→の：09472_no⟧てっぺん: the top of the jungle gym",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "06324_buranko",
+      "reading": "ぶらんこ",
+      "headword": "ぶらんこ",
+      "label": "swing (playground equipment)"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +62,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "leisure"
       ],
       "domain": []
     },
     "created": "2026-06-29T18:19:55Z",
-    "modified": "2026-06-29T18:19:55Z"
+    "modified": "2026-09-02T04:02:37Z"
   }
 }

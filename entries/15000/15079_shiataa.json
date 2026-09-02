@@ -15,41 +15,66 @@
   "examples": [
     {
       "id": "15079_shiataa_ex1",
-      "japanese": "シアターで{映画|えいが}を{見|み}た。",
+      "japanese": "シアター⟦で→で：00502_de⟧⟦{映画|えいが}→映画：02273_eiga⟧⟦を→を：00422_wo⟧⟦{見|み}た→見る：00283_miru⟧。",
       "english": "I watched a movie at the theater.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15079_shiataa_ex2",
-      "japanese": "{駅前|えきまえ}に{新|あたら}しいシアターがオープンした。",
+      "japanese": "⟦{駅前|えきまえ}→駅前：09593_ekimae⟧⟦に→に：00314_ni⟧⟦{新|あたら}しい→新しい：00506_atarashii⟧シアター⟦が→が：00051_ga⟧⟦オープン→オープン：10831_oopun⟧⟦した→する：00392_suru⟧。",
       "english": "A new theater opened in front of the station.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15079_shiataa_ex3",
-      "japanese": "ホームシアターを{設置|せっち}して、{家|いえ}で{映画|えいが}を{楽|たの}しんでいる。",
+      "japanese": "⟦ホーム→ホーム：00113_hoomu⟧シアター⟦を→を：00422_wo⟧⟦{設置|せっち}して→設置する：26989_secchisuru⟧、⟦{家|いえ}→家：00612_ie⟧⟦で→で：00502_de⟧⟦{映画|えいが}→映画：02273_eiga⟧⟦を→を：00422_wo⟧⟦{楽|たの}しんでいる→楽しむ：01203_tanoshimu⟧。",
       "english": "I set up a home theater and enjoy movies at home.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nシアター refers to a venue for movies or live performances. It is often used in proper names of specific theaters or in compound words.\n\nCOMMON COLLOCATIONS:\n- ホームシアター (home theater)\n- シアタールーム (theater room)\n- IMAXシアター (IMAX theater)\n\nSIMILAR WORDS:\n{劇場|げきじょう} is the more general Japanese word for theater and covers both traditional and modern venues. シアター tends to sound more modern and is often used in commercial or brand contexts.",
-  "cross_references": [],
+  "notes": "USAGE:\nシアター refers to a venue for movies or live performances. It is often used in proper names of specific theaters or in compound words.\n\nCOMMON COLLOCATIONS:\n- ⟦ホーム→ホーム：00113_hoomu⟧シアター (home theater)\n- シアタールーム (theater room)\n- IMAXシアター (IMAX theater)\n\nSIMILAR WORDS:\n⟦{劇場|げきじょう}→劇場：02714_gekijou⟧ is the more general Japanese word for theater and covers both traditional and modern venues. シアター tends to sound more modern and is often used in commercial or brand contexts.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01024_eigakan",
+      "reading": "えいがかん",
+      "headword": "{映画館|えいがかん}",
+      "label": "movie theater"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10959_shinema",
+      "reading": "しねま",
+      "headword": "シネマ",
+      "label": "cinema"
+    }
+  ],
   "metadata": {
     "created": "2026-03-05T06:54:27Z",
-    "modified": "2026-03-05T06:54:27Z",
+    "modified": "2026-09-02T04:01:39Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["entertainment"]
+      "semantic": [
+        "entertainment"
+      ]
     }
   }
 }

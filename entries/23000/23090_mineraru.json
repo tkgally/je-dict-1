@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "23090_mineraru_ex1",
-      "japanese": "ミネラルが{不足|ぶそく}している。",
+      "japanese": "ミネラル⟦が→が：00051_ga⟧{不足|ぶそく}⟦している→する：00392_suru⟧。",
       "english": "I'm lacking minerals.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "23090_mineraru_ex2",
-      "japanese": "{海藻|かいそう}にはミネラルが{豊富|ほうふ}だ。",
+      "japanese": "⟦{海藻|かいそう}→海藻：06750_kaisou⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧ミネラル⟦が→が：00051_ga⟧⟦{豊富|ほうふ}→豊富：03620_houfu⟧だ。",
       "english": "Seaweed is rich in minerals.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "23090_mineraru_ex3",
-      "japanese": "ビタミンとミネラルをバランスよく{摂|と}ることが{大切|たいせつ}だ。",
+      "japanese": "⟦ビタミン→ビタミン：09770_bitamin⟧⟦と→と：00512_to⟧ミネラル⟦を→を：00422_wo⟧⟦バランス→バランス：03870_baransu⟧⟦よく→よく：00601_yoku⟧⟦{摂|と}る→摂る：29372_toru⟧こと⟦が→が：00051_ga⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧だ。",
       "english": "It's important to take in vitamins and minerals in a balanced way.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "A loanword from English 'mineral.' In Japanese, this word is most commonly used in the nutritional sense, referring to essential trace elements needed by the body such as calcium, iron, and zinc. The geological sense (a mineral substance found in rock) exists but is less common in everyday usage.\n\nCOMMON COLLOCATIONS:\n- ミネラルウォーター: mineral water\n- ミネラルが{豊富|ほうふ}: rich in minerals\n- ミネラル{不足|ぶそく}: mineral deficiency\n- ミネラル{補給|ほきゅう}: mineral replenishment\n- ミネラルを{摂|と}る: to take in minerals\n\nRELATED TERMS:\n- ビタミン: vitamin — often mentioned alongside ミネラル in health contexts\n- {鉱物|こうぶつ}: mineral (geological) — the Japanese word for minerals in the geological/scientific sense\n- {栄養素|えいようそ}: nutrient — broader term for nutritional components",
+  "notes": "A loanword from English 'mineral.' In Japanese, this word is most commonly used in the nutritional sense, referring to essential trace elements needed by the body such as calcium, iron, and zinc. The geological sense (a mineral substance found in rock) exists but is less common in everyday usage.\n\nCOMMON COLLOCATIONS:\n- ミネラルウォーター: mineral water\n- ミネラル⟦が→が：00051_ga⟧⟦{豊富|ほうふ}→豊富：03620_houfu⟧: rich in minerals\n- ミネラル{不足|ぶそく}: mineral deficiency\n- ミネラル⟦{補給|ほきゅう}→補給：14055_hokyuu⟧: mineral replenishment\n- ミネラル⟦を→を：00422_wo⟧⟦{摂|と}る→摂る：29372_toru⟧: to take in minerals\n\nRELATED WORDS:\n- ⟦ビタミン→ビタミン：09770_bitamin⟧: vitamin — often mentioned alongside ミネラル in health contexts\n- ⟦{鉱物|こうぶつ}→鉱物：04149_koubutsu⟧: mineral (geological) — the Japanese word for minerals in the geological/scientific sense\n- ⟦{栄養素|えいようそ}→栄養素：06207_eiyouso⟧: nutrient — broader term for nutritional components",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "09770_bitamin",
+      "reading": "びたみん",
+      "headword": "ビタミン",
+      "label": "vitamin"
+    },
+    {
+      "type": "related",
+      "target_id": "04149_koubutsu",
+      "reading": "こうぶつ",
+      "headword": "{鉱物|こうぶつ}",
+      "label": "mineral"
+    },
+    {
+      "type": "related",
+      "target_id": "06207_eiyouso",
+      "reading": "えいようそ",
+      "headword": "{栄養素|えいようそ}",
+      "label": "nutrient"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +83,6 @@
       ]
     },
     "created": "2026-04-08T18:31:59Z",
-    "modified": "2026-04-10T08:28:27Z"
+    "modified": "2026-09-02T04:02:11Z"
   }
 }

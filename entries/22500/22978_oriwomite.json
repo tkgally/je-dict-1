@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22978_oriwomite_ex1",
-      "japanese": "{折|おり}を{見|み}て{相談|そうだん}します。",
+      "japanese": "{折|おり}を{見|み}て⟦{相談|そうだん}します→相談する：01845_soudansuru⟧。",
       "english": "I'll consult with you when the time is right.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22978_oriwomite_ex2",
-      "japanese": "{折|おり}を{見|み}て{上司|じょうし}に{報告|ほうこく}しようと{思|おも}っている。",
+      "japanese": "{折|おり}を{見|み}て⟦{上司|じょうし}→上司：03286_joushi⟧⟦に→に：00314_ni⟧⟦{報告|ほうこく}しよう→報告する：05644_houkokusuru⟧⟦と→と：00512_to⟧⟦{思|おも}っている→思う：00492_omou⟧。",
       "english": "I'm planning to report to my supervisor when the opportunity arises.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22978_oriwomite_ex3",
-      "japanese": "{忙|いそが}しそうだったので、{折|おり}を{見|み}て{声|こえ}をかけることにした。",
+      "japanese": "{忙|いそが}しそうだった⟦の→の：09472_no⟧で、{折|おり}を{見|み}て⟦{声|こえ}をかける→声をかける：30589_koewokakeru⟧ことにした。",
       "english": "Since they looked busy, I decided to speak to them when the moment was right.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "A set expression built on {折|おり} (occasion, opportunity) and {見|み}て (watching for). Expresses the idea of waiting for a suitable opening rather than acting immediately. Common in both business and everyday contexts.\n\nCOMMON PATTERNS:\n- {折|おり}を{見|み}て + verb: to do something when the time is right\n- {折|おり}を{見|み}て{伝|つた}える: to tell someone when the opportunity arises\n- {折|おり}を{見|み}て{訪|たず}ねる: to visit when the time comes\n\nSIMILAR EXPRESSIONS:\n- {機会|きかい}を{見|み}て: when the opportunity comes — similar but slightly more formal\n- {頃合|ころあ}いを{見|み}て: judging the right moment — emphasizes reading the situation\n- タイミングを{見|み}て: watching for the right timing — more casual, uses loanword\n- {折|おり}に{触|ふ}れて: from time to time; whenever the occasion arises — means repeatedly, not just once\n\nREGISTER:\nPolite and measured. Often used in workplace communication to signal that one will act thoughtfully rather than rushing.",
+  "notes": "A set expression built on ⟦{折|おり}→折：10250_ori⟧ (occasion, opportunity) and ⟦{見|み}て→見る：00283_miru⟧ (watching for). Expresses the idea of waiting for a suitable opening rather than acting immediately. Common in both business and everyday contexts.\n\nCOMMON PATTERNS:\n- {折|おり}を{見|み}て + verb: to do something when the time is right\n- {折|おり}を{見|み}て⟦{伝|つた}える→伝える：01220_tsutaeru⟧: to tell someone when the opportunity arises\n- {折|おり}を{見|み}て⟦{訪|たず}ねる→訪ねる：01182_tazuneru⟧: to visit when the time comes\n\nSIMILAR WORDS:\n- ⟦{機会|きかい}→機会：01302_kikai⟧⟦を→を：00422_wo⟧⟦{見|み}て→見る：00283_miru⟧: when the opportunity comes — similar but slightly more formal\n- ⟦{頃合|ころあ}い→頃合い：14688_koroai⟧⟦を→を：00422_wo⟧⟦{見|み}て→見る：00283_miru⟧: judging the right moment — emphasizes reading the situation\n- ⟦タイミング→タイミング：17683_taimingu⟧⟦を→を：00422_wo⟧⟦{見|み}て→見る：00283_miru⟧: watching for the right timing — more casual, uses loanword\n- ⟦{折|おり}に{触|ふ}れて→折に触れて：19487_orinifurete⟧: from time to time; whenever the occasion arises — means repeatedly, not just once\n\nREGISTER:\nPolite and measured. Often used in workplace communication to signal that one will act thoughtfully rather than rushing.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19487_orinifurete",
+      "reading": "おりにふれて",
+      "headword": "{折|おり}に{触|ふ}れて",
+      "label": "from time to time"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +69,6 @@
       ]
     },
     "created": "2026-04-08T14:18:22Z",
-    "modified": "2026-07-31T00:22:50Z"
+    "modified": "2026-09-02T04:02:10Z"
   }
 }

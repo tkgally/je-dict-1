@@ -16,40 +16,58 @@
   "examples": [
     {
       "id": "29227_purosesuchiizu_ex1",
-      "japanese": "プロセスチーズを{一|ひと}{切|き}れ{食|た}べた。",
+      "japanese": "プロセスチーズ⟦を→を：00422_wo⟧{一|ひと}{切|き}れ⟦{食|た}べた→食べる：00396_taberu⟧。",
       "english": "I ate one slice of processed cheese.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29227_purosesuchiizu_ex2",
-      "japanese": "プロセスチーズは{個包装|こほうそう}されていて{便利|べんり}だ。",
+      "japanese": "プロセスチーズ⟦は→は：00079_ha⟧{個包装|こほうそう}⟦されていて→する：00392_suru⟧⟦{便利|べんり}→便利：00830_benri⟧だ。",
       "english": "Processed cheese is convenient because it's individually wrapped.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29227_purosesuchiizu_ex3",
-      "japanese": "プロセスチーズは{常温|じょうおん}でも{比較的|ひかくてき}{長持|ながも}ちするが、{開封後|かいふうご}は{冷蔵|れいぞう}が{必要|ひつよう}だ。",
+      "japanese": "プロセスチーズ⟦は→は：00079_ha⟧⟦{常温|じょうおん}→常温：14722_jouon⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧⟦{比較的|ひかくてき}→比較的：06172_hikakuteki⟧⟦{長持|ながも}ち→長持ち：14474_nagamochi⟧⟦する→する：00392_suru⟧⟦が→が：00051_ga⟧、{開封後|かいふうご}⟦は→は：00079_ha⟧⟦{冷蔵|れいぞう}→冷蔵：11731_reizou⟧⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧だ。",
       "english": "Processed cheese keeps relatively well at room temperature, but refrigeration is needed after opening.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "SIMILAR WORDS:\n- ナチュラルチーズ: natural cheese — made directly from milk without processing; richer flavor but shorter shelf life\n- {溶|とけ}るチーズ: melting cheese — cheese designed to melt, such as for pizza or gratin\n- スライスチーズ: sliced cheese — individually wrapped cheese slices (often processed cheese in Japan)",
-  "cross_references": [],
+  "notes": "SIMILAR WORDS:\n- ⟦ナチュラルチーズ→ナチュラルチーズ：27304_nachuraruchiizu⟧: natural cheese — made directly from milk without processing; richer flavor but shorter shelf life\n- {溶|とけ}る⟦チーズ→チーズ：00026_chiizu⟧: melting cheese — cheese designed to melt, such as for pizza or gratin\n- スライス⟦チーズ→チーズ：00026_chiizu⟧: sliced cheese — individually wrapped cheese slices (often processed cheese in Japan)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "27304_nachuraruchiizu",
+      "reading": "なちゅらるちーず",
+      "headword": "ナチュラルチーズ",
+      "label": "natural cheese"
+    }
+  ],
   "metadata": {
     "created": "2026-06-13T21:22:42Z",
-    "modified": "2026-06-13T21:22:42Z",
+    "modified": "2026-09-02T04:02:36Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food"],
+      "semantic": [
+        "food"
+      ],
       "domain": []
     }
   }

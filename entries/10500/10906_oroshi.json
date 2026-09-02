@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "10906_oroshi_ex1",
-      "japanese": "{卸|おろし}{価格|かかく}で{買|か}う。",
+      "japanese": "{卸|おろし}⟦{価格|かかく}→価格：00147_kakaku⟧⟦で→で：00502_de⟧⟦{買|か}う→買う：00489_kau⟧。",
       "english": "To buy at wholesale price.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "10906_oroshi_ex2",
-      "japanese": "この{店|みせ}は{卸|おろし}{専門|せんもん}だから{一般|いっぱん}{客|きゃく}は{入|はい}れない。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{店|みせ}→店：00497_mise⟧⟦は→は：00079_ha⟧{卸|おろし}⟦{専門|せんもん}→専門：01251_senmon⟧だ⟦から→から：00504_kara⟧⟦{一般|いっぱん}→一般：01737_ippan⟧⟦{客|きゃく}→客：00865_kyaku⟧⟦は→は：00079_ha⟧⟦{入|はい}れない→入る：00494_hairu⟧。",
       "english": "This store is wholesale only, so regular customers can't enter.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "10906_oroshi_ex3",
-      "japanese": "{青果|せいか}の{卸|おろし}{業者|ぎょうしゃ}がスーパーに{野菜|やさい}を{届|とど}けている。",
+      "japanese": "⟦{青果|せいか}→青果：14825_seika⟧⟦の→の：09472_no⟧⟦{卸|おろし}{業者|ぎょうしゃ}→卸業者：17776_oroshigyousha⟧⟦が→が：00051_ga⟧⟦スーパー→スーパー：01061_suupaa⟧⟦に→に：00314_ni⟧⟦{野菜|やさい}→野菜：02265_yasai⟧⟦を→を：00422_wo⟧⟦{届|とど}けている→届ける：01248_todokeru⟧。",
       "english": "The produce wholesaler delivers vegetables to the supermarket.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "{卸|おろし} refers to the selling of goods in bulk to retailers or businesses, not directly to consumers. Often used in compound forms.\n\nCOMMON COLLOCATIONS:\n- {卸売|おろしうり}: wholesale selling (the full form)\n- {卸|おろし}{業者|ぎょうしゃ}: wholesaler\n- {卸|おろし}{価格|かかく}: wholesale price\n- {卸売|おろしうり}{市場|しじょう}: wholesale market\n- {卸|おろし}{問屋|とんや}: wholesale dealer\n\nCONTRAST:\nOpposite of {小売|こうり} (retail). The pair {卸売|おろしうり} and {小売|こうり} is commonly used to describe the two sides of the distribution chain.\n\nCULTURAL NOTE:\nJapan has famous wholesale markets such as {築地|つきじ}{市場|しじょう} (Tsukiji Market) and {豊洲|とよす}{市場|しじょう} (Toyosu Market) for seafood and produce.",
+  "notes": "{卸|おろし} refers to the selling of goods in bulk to retailers or businesses, not directly to consumers. Often used in compound forms.\n\nCOMMON COLLOCATIONS:\n- ⟦{卸売|おろしうり}→卸売：05083_oroshiuri⟧: wholesale selling (the full form)\n- ⟦{卸|おろし}{業者|ぎょうしゃ}→卸業者：17776_oroshigyousha⟧: wholesaler\n- {卸|おろし}⟦{価格|かかく}→価格：00147_kakaku⟧: wholesale price\n- ⟦{卸売|おろしうり}{市場|しじょう}→卸売市場：25521_oroshiurishijou⟧: wholesale market\n- {卸|おろし}⟦{問屋|とんや}→問屋：07941_tonya⟧: wholesale dealer\n\nSIMILAR WORDS:\nOpposite of ⟦{小売|こうり}→小売：05084_kouri⟧ (retail). The pair ⟦{卸売|おろしうり}→卸売：05083_oroshiuri⟧ and ⟦{小売|こうり}→小売：05084_kouri⟧ is commonly used to describe the two sides of the distribution chain.\n\nCULTURAL NOTE:\nJapan has famous wholesale markets such as {築地|つきじ}⟦{市場|しじょう}→市場：09685_shijou⟧ (Tsukiji Market) and {豊洲|とよす}⟦{市場|しじょう}→市場：09685_shijou⟧ (Toyosu Market) for seafood and produce.",
   "prominent_see_also": [
     {
       "target_id": "05083_oroshiuri",
@@ -60,11 +60,18 @@
       "reading": "こうり",
       "headword": "{小売|こうり}",
       "label": "retail"
+    },
+    {
+      "type": "related",
+      "target_id": "07431_shiire",
+      "reading": "しいれ",
+      "headword": "{仕入|しい}れ",
+      "label": "stocking"
     }
   ],
   "metadata": {
     "created": "2026-02-11T12:59:52Z",
-    "modified": "2026-06-28T18:50:11Z",
+    "modified": "2026-09-02T04:01:23Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

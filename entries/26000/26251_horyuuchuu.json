@@ -3,7 +3,7 @@
   "headword": "{保留中|ほりゅうちゅう}",
   "reading": "ほりゅうちゅう",
   "romaji": "horyuuchuu",
-  "part_of_speech": "noun, adjective-no",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "on hold; pending",
   "definitions": [
     {
@@ -15,41 +15,70 @@
   "examples": [
     {
       "id": "26251_horyuuchuu_ex1",
-      "japanese": "{電話|でんわ}が{保留中|ほりゅうちゅう}です。",
+      "japanese": "⟦{電話|でんわ}→電話：01471_denwa⟧⟦が→が：00051_ga⟧{保留中|ほりゅうちゅう}です。",
       "english": "The call is on hold.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26251_horyuuchuu_ex2",
-      "japanese": "この{案件|あんけん}はまだ{保留中|ほりゅうちゅう}だ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{案件|あんけん}→案件：13109_anken⟧⟦は→は：00079_ha⟧⟦まだ→まだ：00603_mada⟧{保留中|ほりゅうちゅう}だ。",
       "english": "This matter is still pending.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26251_horyuuchuu_ex3",
-      "japanese": "{予算|よさん}の{承認|しょうにん}が{保留中|ほりゅうちゅう}のため、プロジェクトを{始|はじ}められない。",
+      "japanese": "⟦{予算|よさん}→予算：03663_yosan⟧⟦の→の：09472_no⟧⟦{承認|しょうにん}→承認：03237_shounin⟧⟦が→が：00051_ga⟧{保留中|ほりゅうちゅう}⟦の→の：09472_no⟧⟦ため→ため：01145_tame⟧、⟦プロジェクト→プロジェクト：06764_purojekuto⟧⟦を→を：00422_wo⟧⟦{始|はじ}められない→始める：00531_hajimeru⟧。",
       "english": "We can't start the project because budget approval is pending.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {保留|ほりゅう} (holding; reserving; deferring) and {中|ちゅう} (during; in the middle of). The suffix {中|ちゅう} indicates an ongoing state.\n\nCOMMON COLLOCATIONS:\n- {電話|でんわ}{保留中|ほりゅうちゅう}: call on hold\n- {審査|しんさ}{保留中|ほりゅうちゅう}: review pending\n- {判断|はんだん}{保留中|ほりゅうちゅう}: decision pending\n- {保留中|ほりゅうちゅう}の{案件|あんけん}: pending matter\n- {保留中|ほりゅうちゅう}のまま: left pending\n\nSIMILAR WORDS:\n- {未定|みてい}: undecided; not yet determined — no decision has been made, but there is no implication of active deferral\n- {審議中|しんぎちゅう}: under deliberation — actively being discussed, not deferred\n- {停止中|ていしちゅう}: suspended; stopped — implies a more definitive halt, not just a deferral\n- {検討中|けんとうちゅう}: under consideration — actively being examined, not shelved",
+  "notes": "Composed of ⟦{保留|ほりゅう}→保留：08364_horyuu⟧ (holding; reserving; deferring) and ⟦{中|ちゅう}→〜中：09840_chuu⟧ (during; in the middle of). The suffix ⟦{中|ちゅう}→〜中：09840_chuu⟧ indicates an ongoing state.\n\nCOMMON COLLOCATIONS:\n- ⟦{電話|でんわ}→電話：01471_denwa⟧{保留中|ほりゅうちゅう}: call on hold\n- ⟦{審査|しんさ}→審査：08375_shinsa⟧{保留中|ほりゅうちゅう}: review pending\n- ⟦{判断|はんだん}→判断：03571_handan⟧{保留中|ほりゅうちゅう}: decision pending\n- {保留中|ほりゅうちゅう}⟦の→の：09472_no⟧⟦{案件|あんけん}→案件：13109_anken⟧: pending matter\n- {保留中|ほりゅうちゅう}⟦の→の：09472_no⟧まま: left pending\n\nSIMILAR WORDS:\n- ⟦{未定|みてい}→未定：14985_mitei⟧: undecided; not yet determined — no decision has been made, but there is no implication of active deferral\n- {審議中|しんぎちゅう}: under deliberation — actively being discussed, not deferred\n- {停止中|ていしちゅう}: suspended; stopped — implies a more definitive halt, not just a deferral\n- ⟦{検討中|けんとうちゅう}→検討中：08718_kentouchuu⟧: under consideration — actively being examined, not shelved",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14985_mitei",
+      "reading": "みてい",
+      "headword": "{未定|みてい}",
+      "label": "undecided"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08718_kentouchuu",
+      "reading": "けんとうちゅう",
+      "headword": "{検討|けんとう}{中|ちゅう}",
+      "label": "under consideration"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-no"],
+      "pos": [
+        "noun",
+        "adjective-no"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["business"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "business"
+      ]
     },
     "created": "2026-04-30T13:39:16Z",
-    "modified": "2026-04-30T13:39:16Z"
+    "modified": "2026-09-02T04:02:25Z"
   }
 }

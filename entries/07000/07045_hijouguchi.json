@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "FORMATION:\n⟦{非常|ひじょう}→非常：01598_hijou⟧ (emergency) + ⟦{口|ぐち}→口：00560_kuchi⟧ (opening, exit; read ぐち here through rendaku)\n\nSIGN:\nEmergency exits in Japan are marked with a green pictogram showing a running figure. This follows the international standard ISO 7010.\n\nCOLLOCATIONS:\n・{非常口|ひじょうぐち}⟦を→を：00422_wo⟧⟦{確認|かくにん}する→確認する：25332_kakuninsuru⟧ - to check where the emergency exit is\n・{非常口|ひじょうぐち}⟦の→の：09472_no⟧⟦{表示|ひょうじ}→表示：03143_hyouji⟧ - emergency exit sign\n・{非常口|ひじょうぐち}⟦から→から：00504_kara⟧⟦{避難|ひなん}する→避難する：26827_hinansuru⟧ - to evacuate through the emergency exit\n・{非常口|ひじょうぐち}⟦を→を：00422_wo⟧⟦{塞|ふさ}ぐ→塞ぐ：00046_fusagu⟧ - to block the emergency exit (prohibited by law)\n\nRELATED TERMS:\n・⟦{避難経路|ひなんけいろ}→避難経路：07138_hinankeiro⟧ - evacuation route\n・⟦{非常階段|ひじょうかいだん}→非常階段：19207_hijoukaidan⟧ - emergency stairs, fire escape\n・⟦{誘導灯|ゆうどうとう}→誘導灯：23857_yuudoutou⟧ - illuminated exit-guidance sign",
+  "notes": "FORMS:\n⟦{非常|ひじょう}→非常：01598_hijou⟧ (emergency) + ⟦{口|ぐち}→口：00560_kuchi⟧ (opening, exit; read ぐち here through rendaku)\n\nSIGN:\nEmergency exits in Japan are marked with a green pictogram showing a running figure. This follows the international standard ISO 7010.\n\nCOMMON COLLOCATIONS:\n- {非常口|ひじょうぐち}⟦を→を：00422_wo⟧⟦{確認|かくにん}する→確認する：25332_kakuninsuru⟧ - to check where the emergency exit is\n- {非常口|ひじょうぐち}⟦の→の：09472_no⟧⟦{表示|ひょうじ}→表示：03143_hyouji⟧ - emergency exit sign\n- {非常口|ひじょうぐち}⟦から→から：00504_kara⟧⟦{避難|ひなん}する→避難する：26827_hinansuru⟧ - to evacuate through the emergency exit\n- {非常口|ひじょうぐち}⟦を→を：00422_wo⟧⟦{塞|ふさ}ぐ→塞ぐ：00046_fusagu⟧ - to block the emergency exit (prohibited by law)\n\nRELATED WORDS:\n- ⟦{避難経路|ひなんけいろ}→避難経路：07138_hinankeiro⟧ - evacuation route\n- ⟦{非常階段|ひじょうかいだん}→非常階段：19207_hijoukaidan⟧ - emergency stairs, fire escape\n- ⟦{誘導灯|ゆうどうとう}→誘導灯：23857_yuudoutou⟧ - illuminated exit-guidance sign",
   "cross_references": [
     {
       "type": "related",
@@ -72,11 +72,39 @@
       "reading": "ひじょう",
       "headword": "{非常|ひじょう}",
       "label": "emergency"
+    },
+    {
+      "type": "related",
+      "target_id": "19859_hijouberu",
+      "reading": "ひじょうべる",
+      "headword": "{非常|ひじょう}ベル",
+      "label": "emergency bell"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20472_tsuuyouguchi",
+      "reading": "つうようぐち",
+      "headword": "{通用口|つうようぐち}",
+      "label": "service entrance"
+    },
+    {
+      "type": "related",
+      "target_id": "27196_boukatobira",
+      "reading": "ぼうかとびら",
+      "headword": "{防火扉|ぼうかとびら}",
+      "label": "fire door"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30332_hinanguchi",
+      "reading": "ひなんぐち",
+      "headword": "{避難口|ひなんぐち}",
+      "label": "emergency exit"
     }
   ],
   "metadata": {
     "created": "2026-01-18T22:21:53Z",
-    "modified": "2026-08-29T00:24:24Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

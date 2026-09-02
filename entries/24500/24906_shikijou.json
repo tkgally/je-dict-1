@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24906_shikijou_ex1",
-      "japanese": "{色情|しきじょう}に{溺|おぼ}れる。",
+      "japanese": "{色情|しきじょう}⟦に→に：00314_ni⟧⟦{溺|おぼ}れる→溺れる：02026_oboreru⟧。",
       "english": "To drown in lust.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24906_shikijou_ex2",
-      "japanese": "その{小説|しょうせつ}は{色情|しきじょう}をテーマにしている。",
+      "japanese": "⟦その→その：00993_sono⟧⟦{小説|しょうせつ}→小説：01434_shousetsu⟧⟦は→は：00079_ha⟧{色情|しきじょう}⟦を→を：00422_wo⟧⟦テーマ→テーマ：17684_teema⟧にして⟦いる→いる：00495_iru⟧。",
       "english": "That novel has sensuality as its theme.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24906_shikijou_ex3",
-      "japanese": "{仏教|ぶっきょう}では{色情|しきじょう}は{煩悩|ぼんのう}の{一|ひと}つとされ、{悟|さと}りの{妨|さまた}げになると{教|おし}えられる。",
+      "japanese": "⟦{仏教|ぶっきょう}→仏教：11428_bukkyou⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧{色情|しきじょう}⟦は→は：00079_ha⟧⟦{煩悩|ぼんのう}→煩悩：14880_bonnou⟧⟦の→の：09472_no⟧⟦{一|ひと}つ→一つ：02948_hitotsu⟧⟦と→と：00512_to⟧⟦され→する：00392_suru⟧、⟦{悟|さと}り→悟り：07773_satori⟧⟦の→の：09472_no⟧⟦{妨|さまた}げ→妨げ：12235_samatage⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦と→と：00512_to⟧⟦{教|おし}えられる→教える：00526_oshieru⟧。",
       "english": "In Buddhism, lust is considered one of the worldly desires and is taught to be an obstacle to enlightenment.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {色|しき} (sensual desire; color) + {情|じょう} (emotion; passion). The kanji {色|しき} has long carried sexual connotations in Japanese, as in {色恋|いろこい} (love affair) and {好色|こうしょく} (lustful). {色情|しきじょう} is a literary or formal word; everyday speech uses {性欲|せいよく} instead.\n\nCOMMON COLLOCATIONS:\n- {色情|しきじょう}に{溺|おぼ}れる: to be consumed by lust\n- {色情|しきじょう}{狂|きょう}: sexual mania; nymphomania\n- {色情|しきじょう}{的|てき}: sensual; erotic\n\nSIMILAR WORDS:\n- {性欲|せいよく}: sexual desire — the standard modern term; more neutral and direct than the literary {色情|しきじょう}\n- {情欲|じょうよく}: passion; carnal desire — similar register to {色情|しきじょう}, also somewhat literary\n- {好色|こうしょく}: lustfulness; lechery — describes the tendency or character of being lustful, rather than the desire itself",
+  "notes": "Composed of {色|しき} (sensual desire; color) + ⟦{情|じょう}→情：03343_jou⟧ (emotion; passion). The kanji {色|しき} has long carried sexual connotations in Japanese, as in {色恋|いろこい} (love affair) and ⟦{好色|こうしょく}→好色：24816_koushoku⟧ (lustful). {色情|しきじょう} is a literary or formal word; everyday speech uses ⟦{性欲|せいよく}→性欲：23807_seiyoku⟧ instead.\n\nCOMMON COLLOCATIONS:\n- {色情|しきじょう}⟦に→に：00314_ni⟧⟦{溺|おぼ}れる→溺れる：02026_oboreru⟧: to be consumed by lust\n- {色情|しきじょう}{狂|きょう}: sexual mania; nymphomania\n- {色情|しきじょう}⟦{的|てき}→〜的：09839_teki⟧: sensual; erotic\n\nSIMILAR WORDS:\n- ⟦{性欲|せいよく}→性欲：23807_seiyoku⟧: sexual desire — the standard modern term; more neutral and direct than the literary {色情|しきじょう}\n- ⟦{情欲|じょうよく}→情欲：30104_jouyoku⟧: passion; carnal desire — similar register to {色情|しきじょう}, also somewhat literary\n- ⟦{好色|こうしょく}→好色：24816_koushoku⟧: lustfulness; lechery — describes the tendency or character of being lustful, rather than the desire itself",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23807_seiyoku",
+      "reading": "せいよく",
+      "headword": "{性欲|せいよく}",
+      "label": "sexual desire"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30104_jouyoku",
+      "reading": "じょうよく",
+      "headword": "{情欲|じょうよく}",
+      "label": "passion"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24816_koushoku",
+      "reading": "こうしょく",
+      "headword": "{好色|こうしょく}",
+      "label": "lustfulness"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +83,6 @@
       ]
     },
     "created": "2026-04-21T12:13:54Z",
-    "modified": "2026-06-16T12:23:55Z"
+    "modified": "2026-09-02T04:02:20Z"
   }
 }

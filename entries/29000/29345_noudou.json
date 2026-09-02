@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "29345_noudou_ex1",
-      "japanese": "{能動|のうどう}と{受動|じゅどう}は{対|つい}になる{概念|がいねん}だ。",
+      "japanese": "{能動|のうどう}⟦と→と：00512_to⟧⟦{受動|じゅどう}→受動：12070_judou⟧⟦は→は：00079_ha⟧⟦{対|つい}→対：00411_tsui⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦{概念|がいねん}→概念：04709_gainen⟧だ。",
       "english": "Active and passive are paired concepts.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29345_noudou_ex2",
-      "japanese": "{学習|がくしゅう}では{能動|のうどう}の{姿勢|しせい}が{大切|たいせつ}だ。",
+      "japanese": "⟦{学習|がくしゅう}→学習：02623_gakushuu⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧{能動|のうどう}⟦の→の：09472_no⟧⟦{姿勢|しせい}→姿勢：00371_shisei⟧⟦が→が：00051_ga⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧だ。",
       "english": "In learning, an active attitude is important.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29345_noudou_ex3",
-      "japanese": "{英語|えいご}の{文法|ぶんぽう}では、{能動|のうどう}と{受動|じゅどう}で{動詞|どうし}の{形|かたち}が{変|か}わる。",
+      "japanese": "⟦{英語|えいご}→英語：02274_eigo⟧⟦の→の：09472_no⟧⟦{文法|ぶんぽう}→文法：01506_bunpou⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧、{能動|のうどう}⟦と→と：00512_to⟧⟦{受動|じゅどう}→受動：12070_judou⟧⟦で→で：00502_de⟧⟦{動詞|どうし}→動詞：03472_doushi⟧⟦の→の：09472_no⟧⟦{形|かたち}→形：02193_katachi⟧⟦が→が：00051_ga⟧⟦{変|か}わる→変わる：00714_kawaru⟧。",
       "english": "In English grammar, the verb form changes between the active and passive voice.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "The antonym of {受動|じゅどう} (passive). Refers to acting of one's own will, and to the grammatical active voice. Most common in the form {能動的|のうどうてき} (proactive, active).\n\nCOMMON COLLOCATIONS:\n- {能動的|のうどうてき}: active; proactive\n- {能動|のうどう}{態|たい}: active voice (grammar)\n- {能動|のうどう}{喫煙|きつえん}: active smoking\n\nSIMILAR WORDS:\n- {受動|じゅどう}: passive — the direct antonym",
+  "notes": "The antonym of ⟦{受動|じゅどう}→受動：12070_judou⟧ (passive). Refers to acting of one's own will, and to the grammatical active voice. Most common in the form ⟦{能動的|のうどうてき}→能動的：13963_noudouteki⟧ (proactive, active).\n\nCOMMON COLLOCATIONS:\n- ⟦{能動的|のうどうてき}→能動的：13963_noudouteki⟧: active; proactive\n- {能動|のうどう}{態|たい}: active voice (grammar)\n- {能動|のうどう}⟦{喫煙|きつえん}→喫煙：17580_kitsuen⟧: active smoking\n\nSIMILAR WORDS:\n- ⟦{受動|じゅどう}→受動：12070_judou⟧: passive — the direct antonym",
   "cross_references": [
     {
       "type": "antonym",
@@ -46,18 +52,29 @@
       "reading": "じゅどう",
       "headword": "{受動|じゅどう}",
       "label": "passive"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19674_ukemi",
+      "reading": "うけみ",
+      "headword": "{受|う}け{身|み}",
+      "label": "passive"
     }
   ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
+      "semantic": [
+        "general"
+      ],
       "domain": []
     },
     "created": "2026-06-19T07:33:25Z",
-    "modified": "2026-06-19T07:33:25Z"
+    "modified": "2026-09-02T04:02:36Z"
   }
 }

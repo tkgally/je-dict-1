@@ -3,7 +3,7 @@
   "id": "14024_hokyou",
   "headword": "{補強|ほきょう}",
   "reading": "ほきょう",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "reinforcement; strengthening",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "14024_hokyou_ex1",
-      "japanese": "{地震|じしん}{対策|たいさく}として{壁|かべ}を{補強|ほきょう}した。",
+      "japanese": "⟦{地震|じしん}→地震：01608_jishin⟧⟦{対策|たいさく}→対策：02511_taisaku⟧⟦として→として：06802_toshite⟧⟦{壁|かべ}→壁：01290_kabe⟧⟦を→を：00422_wo⟧{補強|ほきょう}⟦した→する：00392_suru⟧。",
       "english": "I reinforced the walls as an earthquake countermeasure.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "14024_hokyou_ex2",
-      "japanese": "チームは{投手陣|とうしゅじん}の{補強|ほきょう}が{急務|きゅうむ}だ。",
+      "japanese": "⟦チーム→チーム：03858_chiimu⟧⟦は→は：00079_ha⟧{投手陣|とうしゅじん}⟦の→の：09472_no⟧{補強|ほきょう}⟦が→が：00051_ga⟧⟦{急務|きゅうむ}→急務：21059_kyuumu⟧だ。",
       "english": "Reinforcing the pitching staff is an urgent priority for the team.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "14024_hokyou_ex3",
-      "japanese": "データを{追加|ついか}して{論文|ろんぶん}の{主張|しゅちょう}を{補強|ほきょう}した。",
+      "japanese": "⟦データ→データ：03944_deeta⟧⟦を→を：00422_wo⟧⟦{追加|ついか}して→追加する：19646_tsuikasuru⟧⟦{論文|ろんぶん}→論文：03787_ronbun⟧⟦の→の：09472_no⟧⟦{主張|しゅちょう}→主張：03220_shuchou⟧⟦を→を：00422_wo⟧{補強|ほきょう}⟦した→する：00392_suru⟧。",
       "english": "I added data to reinforce the argument in my paper.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,26 @@
       ]
     }
   ],
-  "notes": "A compound of {補|ほ} (supplement, compensate) and {強|きょう} (strong). Can be used as a noun or as a suru verb ({補強|ほきょう}する).\n\nPARTICLE PATTERNS:\n- [thing]を{補強|ほきょう}する (reinforce something)\n\nCOMMON COLLOCATIONS:\n- {建物|たてもの}を{補強|ほきょう}する (reinforce a building)\n- {戦力|せんりょく}を{補強|ほきょう}する (strengthen one's fighting force/team)\n- {論拠|ろんきょ}を{補強|ほきょう}する (reinforce an argument)\n- {耐震|たいしん}{補強|ほきょう} (seismic reinforcement)\n- {補強|ほきょう}{工事|こうじ} (reinforcement construction)\n\nCommonly used in construction (earthquake-proofing), sports (strengthening a team roster through trades or signings), and academic or business contexts (bolstering an argument or position).",
-  "cross_references": [],
+  "notes": "A compound of {補|ほ} (supplement, compensate) and {強|きょう} (strong). Can be used as a noun or as a suru verb ({補強|ほきょう}⟦する→する：00392_suru⟧).\n\nCOMMON PATTERNS:\n- [thing]⟦を→を：00422_wo⟧{補強|ほきょう}⟦する→する：00392_suru⟧ (reinforce something)\n\nCOMMON COLLOCATIONS:\n- ⟦{建物|たてもの}→建物：01458_tatemono⟧⟦を→を：00422_wo⟧{補強|ほきょう}⟦する→する：00392_suru⟧ (reinforce a building)\n- ⟦{戦力|せんりょく}→戦力：18977_senryoku⟧⟦を→を：00422_wo⟧{補強|ほきょう}⟦する→する：00392_suru⟧ (strengthen one's fighting force/team)\n- {論拠|ろんきょ}⟦を→を：00422_wo⟧{補強|ほきょう}⟦する→する：00392_suru⟧ (reinforce an argument)\n- ⟦{耐震|たいしん}→耐震：06222_taishin⟧{補強|ほきょう} (seismic reinforcement)\n- {補強|ほきょう}⟦{工事|こうじ}→工事：00244_kouji⟧ (reinforcement construction)\n\nCommonly used in construction (earthquake-proofing), sports (strengthening a team roster through trades or signings), and academic or business contexts (bolstering an argument or position).",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19103_zoukyou",
+      "reading": "ぞうきょう",
+      "headword": "{増強|ぞうきょう}",
+      "label": "reinforcement"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25344_kyoukasuru",
+      "reading": "きょうかする",
+      "headword": "{強化|きょうか}する",
+      "label": "to strengthen"
+    }
+  ],
   "metadata": {
     "created": "2026-02-27T09:18:34Z",
-    "modified": "2026-03-29T03:08:18Z",
+    "modified": "2026-09-02T04:01:35Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

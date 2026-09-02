@@ -16,7 +16,7 @@
   "examples": [
     {
       "id": "24577_ruijiten_ex1",
-      "japanese": "{二|ふた}つの{事件|じけん}には{類似点|るいじてん}がある。",
+      "japanese": "⟦{二|ふた}つ→二つ：02953_futatsu⟧⟦の→の：09472_no⟧⟦{事件|じけん}→事件：01568_jiken⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{類似点|るいじてん}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There are similarities between the two cases.",
       "sense_numbers": [
         1
@@ -26,7 +26,7 @@
     },
     {
       "id": "24577_ruijiten_ex2",
-      "japanese": "{類似点|るいじてん}と{相違点|そういてん}を{比較|ひかく}してみよう。",
+      "japanese": "{類似点|るいじてん}⟦と→と：00512_to⟧⟦{相違点|そういてん}→相違点：17928_souiten⟧⟦を→を：00422_wo⟧⟦{比較|ひかく}→比較：03576_hikaku⟧⟦して→する：00392_suru⟧みよう。",
       "english": "Let's compare the similarities and differences.",
       "sense_numbers": [
         1
@@ -36,7 +36,7 @@
     },
     {
       "id": "24577_ruijiten_ex3",
-      "japanese": "{日本語|にほんご}と{韓国語|かんこくご}の{文法|ぶんぽう}には{多|おお}くの{類似点|るいじてん}が{見|み}られる。",
+      "japanese": "⟦{日本語|にほんご}→日本語：00614_nihongo⟧⟦と→と：00512_to⟧⟦{韓国語|かんこくご}→韓国語：25419_kankokugo⟧⟦の→の：09472_no⟧⟦{文法|ぶんぽう}→文法：01506_bunpou⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{多|おお}く⟦の→の：09472_no⟧{類似点|るいじてん}⟦が→が：00051_ga⟧⟦{見|み}られる→見る：00283_miru⟧。",
       "english": "Many similarities can be observed in the grammar of Japanese and Korean.",
       "sense_numbers": [
         1
@@ -45,11 +45,33 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {類似|るいじ} (resemblance/similarity) and {点|てん} (point/aspect). A formal, analytical term commonly used in academic writing, comparisons, and analysis. Often paired with its antonym {相違点|そういてん} (point of difference).\n\nCOMMON COLLOCATIONS:\n- {類似点|るいじてん}がある: there are similarities\n- {類似点|るいじてん}を{挙|あ}げる: to list similarities\n- {類似点|るいじてん}と{相違点|そういてん}: similarities and differences\n- {多|おお}くの{類似点|るいじてん}: many similarities\n\nSIMILAR WORDS:\n- {共通点|きょうつうてん}: common point — what things share, emphasizes what is the same\n- {相違点|そういてん}: point of difference — the opposite: where things differ\n- {類似性|るいじせい}: similarity — the abstract quality of being similar, not a specific point",
-  "cross_references": [],
+  "notes": "Composed of ⟦{類似|るいじ}→類似：14672_ruiji⟧ (resemblance/similarity) and ⟦{点|てん}→点：01553_ten⟧ (point/aspect). A formal, analytical term commonly used in academic writing, comparisons, and analysis. Often paired with its antonym ⟦{相違点|そういてん}→相違点：17928_souiten⟧ (point of difference).\n\nCOMMON COLLOCATIONS:\n- {類似点|るいじてん}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧: there are similarities\n- {類似点|るいじてん}⟦を→を：00422_wo⟧⟦{挙|あ}げる→挙げる：27889_ageru⟧: to list similarities\n- {類似点|るいじてん}⟦と→と：00512_to⟧⟦{相違点|そういてん}→相違点：17928_souiten⟧: similarities and differences\n- {多|おお}く⟦の→の：09472_no⟧{類似点|るいじてん}: many similarities\n\nSIMILAR WORDS:\n- ⟦{共通点|きょうつうてん}→共通点：03051_kyoutsuuten⟧: common point — what things share, emphasizes what is the same\n- ⟦{相違点|そういてん}→相違点：17928_souiten⟧: point of difference — the opposite: where things differ\n- ⟦{類似性|るいじせい}→類似性：21772_ruijisei⟧: similarity — the abstract quality of being similar, not a specific point",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03051_kyoutsuuten",
+      "reading": "きょうつうてん",
+      "headword": "{共通点|きょうつうてん}",
+      "label": "common point"
+    },
+    {
+      "type": "antonym",
+      "target_id": "17928_souiten",
+      "reading": "そういてん",
+      "headword": "{相違点|そういてん}",
+      "label": "point of difference"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21772_ruijisei",
+      "reading": "るいじせい",
+      "headword": "{類似性|るいじせい}",
+      "label": "similarity"
+    }
+  ],
   "metadata": {
     "created": "2026-04-19T15:20:13Z",
-    "modified": "2026-08-03T21:38:52Z",
+    "modified": "2026-09-02T04:02:18Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

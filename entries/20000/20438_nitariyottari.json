@@ -15,40 +15,59 @@
   "examples": [
     {
       "id": "20438_nitariyottari_ex1",
-      "japanese": "どちらも{似|に}たり{寄|よ}ったりだ。",
+      "japanese": "⟦どちらも→どちらも：08721_dochiramo⟧{似|に}たり{寄|よ}ったりだ。",
       "english": "They're both much the same.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20438_nitariyottari_ex2",
-      "japanese": "{値段|ねだん}はどの{店|みせ}も{似|に}たり{寄|よ}ったりだった。",
+      "japanese": "⟦{値段|ねだん}→値段：00871_nedan⟧⟦は→は：00079_ha⟧⟦どの→どの：00551_dono⟧⟦{店|みせ}→店：00497_mise⟧⟦も→も：00484_mo⟧{似|に}たり{寄|よ}ったりだった。",
       "english": "The prices were about the same at every store.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20438_nitariyottari_ex3",
-      "japanese": "{候補者|こうほしゃ}の{主張|しゅちょう}はどれも{似|に}たり{寄|よ}ったりで、{違|ちが}いがわからなかった。",
+      "japanese": "⟦{候補者|こうほしゃ}→候補者：20439_kouhosha⟧⟦の→の：09472_no⟧⟦{主張|しゅちょう}→主張：03220_shuchou⟧⟦は→は：00079_ha⟧⟦どれも→どれも：22934_doremo⟧{似|に}たり{寄|よ}ったりで、⟦{違|ちが}い→違い：03432_chigai⟧⟦が→が：00051_ga⟧わからなかった。",
       "english": "The candidates' positions were all much the same, and I couldn't tell the difference.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Combines {似|に}たり (being similar) and {寄|よ}ったり (being close), reinforcing the idea of near-identical similarity. The たり form of both verbs creates a rhythmic, set expression.\n\nUSAGE:\nOften carries a slightly dismissive or negative nuance — implying that none of the options stands out or that they are all equally mediocre. Used as a predicate with だ or as a modifier with の.\n\nCOMMON COLLOCATIONS:\n- どれも{似|に}たり{寄|よ}ったり — they're all much the same\n- {似|に}たり{寄|よ}ったりの{結果|けっか} — similar results\n- {似|に}たり{寄|よ}ったりの{内容|ないよう} — similar content\n\nSIMILAR WORDS:\n- {大同小異|だいどうしょうい} — much the same with minor differences (more formal, literary)\n- {五十歩百歩|ごじっぽひゃっぽ} — pot calling the kettle black; equally bad (stronger negative nuance)\n- {同|おな}じようなもの — about the same thing (plain, neutral)",
+  "notes": "Combines ⟦{似|に}→似る：01159_niru⟧たり (being similar) and ⟦{寄|よ}っ→寄る：02440_yoru⟧たり (being close), reinforcing the idea of near-identical similarity. The たり form of both verbs creates a rhythmic, set expression.\n\nUSAGE:\nOften carries a slightly dismissive or negative nuance — implying that none of the options stands out or that they are all equally mediocre. Used as a predicate with だ or as a modifier with ⟦の→の：09472_no⟧.\n\nCOMMON COLLOCATIONS:\n- ⟦どれも→どれも：22934_doremo⟧{似|に}たり{寄|よ}ったり — they're all much the same\n- {似|に}たり{寄|よ}ったり⟦の→の：09472_no⟧⟦{結果|けっか}→結果：02486_kekka⟧ — similar results\n- {似|に}たり{寄|よ}ったり⟦の→の：09472_no⟧⟦{内容|ないよう}→内容：01482_naiyou⟧ — similar content\n\nSIMILAR WORDS:\n- ⟦{大同小異|だいどうしょうい}→大同小異：07462_daidoushoui⟧ — much the same with minor differences (more formal, literary)\n- {五十歩百歩|ごじっぽひゃっぽ} — pot calling the kettle black; equally bad (stronger negative nuance)\n- ⟦{同|おな}じ→同じ：02857_onaji⟧ようなもの — about the same thing (plain, neutral)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07462_daidoushoui",
+      "reading": "だいどうしょうい",
+      "headword": "{大同小異|だいどうしょうい}",
+      "label": "much the same with minor differences"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["expression"],
+      "pos": [
+        "expression"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["idiom"]
+      "semantic": [
+        "idiom"
+      ]
     },
     "created": "2026-03-29T14:08:03Z",
-    "modified": "2026-03-29T14:08:03Z"
+    "modified": "2026-09-02T04:01:59Z"
   }
 }

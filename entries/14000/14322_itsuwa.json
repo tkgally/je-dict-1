@@ -1,69 +1,77 @@
 {
- "schema_version": "2.0",
- "id": "14322_itsuwa",
- "headword": "{逸話|いつわ}",
- "reading": "いつわ",
- "part_of_speech": "noun",
- "gloss": "anecdote; episode; memorable story",
- "definitions": [
-  {
-   "sense_number": 1,
-   "gloss": "anecdote; episode; memorable story",
-   "explanation": "A short, interesting story about a real person or event, especially one that reveals character or is not widely known."
+  "schema_version": "2.0",
+  "id": "14322_itsuwa",
+  "headword": "{逸話|いつわ}",
+  "reading": "いつわ",
+  "part_of_speech": "noun",
+  "gloss": "anecdote; episode; memorable story",
+  "definitions": [
+    {
+      "sense_number": 1,
+      "gloss": "anecdote; episode; memorable story",
+      "explanation": "A short, interesting story about a real person or event, especially one that reveals character or is not widely known."
+    }
+  ],
+  "examples": [
+    {
+      "id": "14322_itsuwa_ex1",
+      "japanese": "⟦{有名|ゆうめい}→有名：01106_yuumei⟧な{逸話|いつわ}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
+      "english": "There is a famous anecdote.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "14322_itsuwa_ex2",
+      "japanese": "⟦この→この：00962_kono⟧⟦{人物|じんぶつ}→人物：03356_jinbutsu⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{面白|おもしろ}い→面白い：00589_omoshiroi⟧{逸話|いつわ}⟦が→が：00051_ga⟧⟦{数多|かずおお}く→数多く：12948_kazuooku⟧⟦{残|のこ}っている→残る：01187_nokoru⟧。",
+      "english": "Many interesting anecdotes remain about this person.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "14322_itsuwa_ex3",
+      "japanese": "⟦{歴史|れきし}→歴史：02267_rekishi⟧⟦の→の：09472_no⟧⟦{教科書|きょうかしょ}→教科書：01085_kyoukasho⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{載|の}っていない→載る：27882_noru⟧⟦が→が：00051_ga⟧、⟦{当時|とうじ}→当時：01615_touji⟧⟦の→の：09472_no⟧⟦{様子|ようす}→様子：01521_yousu⟧⟦を→を：00422_wo⟧⟦{伝|つた}える→伝える：01220_tsutaeru⟧{逸話|いつわ}⟦が→が：00051_ga⟧⟦{地元|じもと}→地元：09941_jimoto⟧⟦に→に：00314_ni⟧⟦{語|かた}り{継|つ}がれている→語り継ぐ：22312_kataritsugu⟧。",
+      "english": "Though not in the history textbooks, anecdotes conveying the atmosphere of that era have been passed down locally.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    }
+  ],
+  "notes": "Refers to brief, revealing stories about real people or events. More literary than ⟦エピソード→エピソード：10729_episoodo⟧, which is used more casually.\n\nCOMMON COLLOCATIONS:\n- {逸話|いつわ}⟦が→が：00051_ga⟧⟦{残|のこ}る→残る：01187_nokoru⟧ (anecdotes remain)\n- {逸話|いつわ}⟦を→を：00422_wo⟧⟦{紹介|しょうかい}する→紹介する：05641_shoukaisuru⟧ (introduce an anecdote)\n- ⟦{有名|ゆうめい}→有名：01106_yuumei⟧な{逸話|いつわ} (a famous anecdote)\n- {逸話|いつわ}⟦に→に：00314_ni⟧⟦{事欠|ことか}かない→事欠く：11484_kotokaku⟧ (no shortage of anecdotes)\n\nOften used in biographies, history writing, and documentary narration. The word carries a positive nuance, suggesting stories that are charming, revealing, or worth telling.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17422_bidan",
+      "reading": "びだん",
+      "headword": "{美談|びだん}",
+      "label": "moving story, heartwarming tale"
+    }
+  ],
+  "metadata": {
+    "created": "2026-02-28T11:03:18Z",
+    "modified": "2026-09-02T04:01:36Z",
+    "ai_model": "claude-opus-4-6",
+    "vocabulary_tier": "general",
+    "tags": {
+      "pos": [
+        "noun"
+      ],
+      "formality": "formal",
+      "politeness": "plain",
+      "semantic": [
+        "communication",
+        "history"
+      ],
+      "style": [
+        "written"
+      ]
+    }
   }
- ],
- "examples": [
-  {
-   "id": "14322_itsuwa_ex1",
-   "japanese": "{有名|ゆうめい}な{逸話|いつわ}がある。",
-   "english": "There is a famous anecdote.",
-   "notes": null,
-   "has_audio": false,
-   "sense_numbers": [
-    1
-   ]
-  },
-  {
-   "id": "14322_itsuwa_ex2",
-   "japanese": "この{人物|じんぶつ}には{面白|おもしろ}い{逸話|いつわ}が{数多|かずおお}く{残|のこ}っている。",
-   "english": "Many interesting anecdotes remain about this person.",
-   "notes": null,
-   "has_audio": false,
-   "sense_numbers": [
-    1
-   ]
-  },
-  {
-   "id": "14322_itsuwa_ex3",
-   "japanese": "{歴史|れきし}の{教科書|きょうかしょ}には{載|の}っていないが、{当時|とうじ}の{様子|ようす}を{伝|つた}える{逸話|いつわ}が{地元|じもと}に{語|かた}り{継|つ}がれている。",
-   "english": "Though not in the history textbooks, anecdotes conveying the atmosphere of that era have been passed down locally.",
-   "notes": null,
-   "has_audio": false,
-   "sense_numbers": [
-    1
-   ]
-  }
- ],
- "notes": "Refers to brief, revealing stories about real people or events. More literary than エピソード, which is used more casually.\n\nCOMMON COLLOCATIONS:\n- {逸話|いつわ}が{残|のこ}る (anecdotes remain)\n- {逸話|いつわ}を{紹介|しょうかい}する (introduce an anecdote)\n- {有名|ゆうめい}な{逸話|いつわ} (a famous anecdote)\n- {逸話|いつわ}に{事欠|ことか}かない (no shortage of anecdotes)\n\nOften used in biographies, history writing, and documentary narration. The word carries a positive nuance, suggesting stories that are charming, revealing, or worth telling.",
- "cross_references": [],
- "metadata": {
-  "created": "2026-02-28T11:03:18Z",
-  "modified": "2026-07-13T16:04:21Z",
-  "ai_model": "claude-opus-4-6",
-  "vocabulary_tier": "general",
-  "tags": {
-   "pos": [
-    "noun"
-   ],
-   "formality": "formal",
-   "politeness": "plain",
-   "semantic": [
-    "communication",
-    "history"
-   ],
-   "style": [
-    "written"
-   ]
-  }
- }
 }

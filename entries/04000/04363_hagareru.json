@@ -114,7 +114,7 @@
     },
     {
       "id": "04363_hagareru_ex2",
-      "japanese": "⟦{壁|かべ}→壁：01290_kabe⟧⟦の→の：09472_no⟧⟦ペンキ→ペンキ：00342_penki⟧⟦が→が：00051_ga⟧{剥|は}がれている。",
+      "japanese": "⟦{壁|かべ}→壁：01290_kabe⟧⟦の→の：09472_no⟧⟦ペンキ→ペンキ：00342_penki⟧⟦が→が：00051_ga⟧{剥|は}がれて⟦いる→いる：00495_iru⟧。",
       "english": "The paint on the wall is peeling off.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
     },
     {
       "id": "04363_hagareru_ex4",
-      "japanese": "⟦{古|ふる}い→古い：00488_furui⟧⟦{建物|たてもの}→建物：01458_tatemono⟧⟦の→の：09472_no⟧⟦タイル→タイル：29719_tairu⟧⟦が→が：00051_ga⟧{剥|は}がれている。",
+      "japanese": "⟦{古|ふる}い→古い：00488_furui⟧⟦{建物|たてもの}→建物：01458_tatemono⟧⟦の→の：09472_no⟧⟦タイル→タイル：29719_tairu⟧⟦が→が：00051_ga⟧{剥|は}がれて⟦いる→いる：00495_iru⟧。",
       "english": "Tiles on the old building are coming off.",
       "notes": null,
       "has_audio": false,
@@ -153,8 +153,23 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive). Transitive pair: ⟦{剥|は}がす→剥がす：00081_hagasu⟧ (to peel off).\n\nASPECT: ている indicates resulting state. {剥|は}がれている = 'has peeled off' (state).\n\nCOMMON PATTERNS:\n- ⟦ペンキ→ペンキ：00342_penki⟧⟦が→が：00051_ga⟧{剥|は}がれる (paint peels off)\n- ⟦シール→シール：09597_shiiru⟧⟦が→が：00051_ga⟧{剥|は}がれる (sticker comes off)\n- ⟦{皮|かわ}→皮：02187_kawa⟧⟦が→が：00051_ga⟧{剥|は}がれる (skin peels)\n\nIDIOM: ⟦{化|ば}け→化ける：11849_bakeru⟧の⟦{皮|かわ}→皮：02187_kawa⟧が{剥|は}がれる - 'the disguise/mask comes off' - revealing one's true nature.\n\nTRANSITIVE PAIR:\n- {剥|は}がれる (intransitive) - to come off\n- ⟦{剥|は}がす→剥がす：00081_hagasu⟧ (transitive) - to peel off, remove",
-  "cross_references": [],
+  "notes": "TRANSITIVITY: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive). Transitive pair: ⟦{剥|は}がす→剥がす：00081_hagasu⟧ (to peel off).\n\nASPECT: て⟦いる→いる：00495_iru⟧ indicates resulting state. {剥|は}がれて⟦いる→いる：00495_iru⟧ = 'has peeled off' (state).\n\nCOMMON PATTERNS:\n- ⟦ペンキ→ペンキ：00342_penki⟧⟦が→が：00051_ga⟧{剥|は}がれる (paint peels off)\n- ⟦シール→シール：09597_shiiru⟧⟦が→が：00051_ga⟧{剥|は}がれる (sticker comes off)\n- ⟦{皮|かわ}→皮：02187_kawa⟧⟦が→が：00051_ga⟧{剥|は}がれる (skin peels)\n\nIDIOM: ⟦{化|ば}け→化ける：11849_bakeru⟧の⟦{皮|かわ}→皮：02187_kawa⟧⟦が→が：00051_ga⟧{剥|は}がれる - 'the disguise/mask comes off' - revealing one's true nature.\n\nTRANSITIVE PAIR:\n- {剥|は}がれる (intransitive) - to come off\n- ⟦{剥|は}がす→剥がす：00081_hagasu⟧ (transitive) - to peel off, remove",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19379_mukeru",
+      "reading": "むける",
+      "headword": "{剥|む}ける",
+      "label": "to peel off"
+    },
+    {
+      "type": "related",
+      "target_id": "20344_hageru",
+      "reading": "はげる",
+      "headword": "{禿|は}げる",
+      "label": "to go bald"
+    }
+  ],
   "prominent_see_also": [
     {
       "target_id": "00081_hagasu",
@@ -165,7 +180,7 @@
   ],
   "metadata": {
     "created": "2026-01-14T00:58:16Z",
-    "modified": "2026-08-14T18:20:10Z",
+    "modified": "2026-09-02T04:01:04Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

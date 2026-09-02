@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "27565_gamaguchi_ex1",
-      "japanese": "{祖母|そぼ}にがま{口|ぐち}をもらった。",
+      "japanese": "⟦{祖母|そぼ}→祖母：00813_sobo⟧⟦に→に：00314_ni⟧がま{口|ぐち}⟦を→を：00422_wo⟧⟦もらった→もらう：00520_morau⟧。",
       "english": "My grandmother gave me a clasp purse.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "27565_gamaguchi_ex2",
-      "japanese": "がま{口|ぐち}を{開|あ}けて{小銭|こぜに}を{出|だ}した。",
+      "japanese": "がま{口|ぐち}⟦を→を：00422_wo⟧⟦{開|あ}けて→開ける：00563_akeru⟧⟦{小銭|こぜに}→小銭：02759_kozeni⟧⟦を→を：00422_wo⟧⟦{出|だ}した→出す：01087_dasu⟧。",
       "english": "I opened the clasp purse and took out some coins.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "27565_gamaguchi_ex3",
-      "japanese": "{京都|きょうと}の{店|みせ}で、{和柄|わがら}のかわいいがま{口|ぐち}{財布|ざいふ}を{見|み}つけた。",
+      "japanese": "⟦{京都|きょうと}→京都：09484_kyouto⟧⟦の→の：09472_no⟧⟦{店|みせ}→店：00497_mise⟧で、⟦{和柄|わがら}→和柄：29241_wagara⟧⟦の→の：09472_no⟧⟦かわいい→かわいい：00857_kawaii⟧がま{口|ぐち}{財布|ざいふ}⟦を→を：00422_wo⟧⟦{見|み}つけた→見つける：01180_mitsukeru⟧。",
       "english": "At a shop in Kyoto, I found a cute clasp purse with a Japanese pattern.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Literally 'toad's mouth' — from がま (toad) + {口|くち} (mouth), so named because the metal frame opens like a frog or toad's wide mouth. Often associated with traditional Japanese craft fabrics.\n\nCOMMON COLLOCATIONS:\n- がま{口|ぐち}{財布|ざいふ}: clasp-style wallet\n- がま{口|ぐち}を{開|あ}ける: to open a clasp purse\n- {和柄|わがら}のがま{口|ぐち}: clasp purse with Japanese pattern\n\nSIMILAR WORDS:\n- {小銭入|こぜにい}れ: coin purse (general term)\n- {財布|さいふ}: wallet\n- {長財布|ながさいふ}: long wallet",
+  "notes": "Literally 'toad's mouth' — from ⟦がま→ガマ：28705_gama⟧ (toad) + ⟦{口|くち}→口：00560_kuchi⟧ (mouth), so named because the metal frame opens like a frog or toad's wide mouth. Often associated with traditional Japanese craft fabrics.\n\nCOMMON COLLOCATIONS:\n- がま{口|ぐち}{財布|ざいふ}: clasp-style wallet\n- がま{口|ぐち}⟦を→を：00422_wo⟧⟦{開|あ}ける→開ける：00563_akeru⟧: to open a clasp purse\n- ⟦{和柄|わがら}→和柄：29241_wagara⟧⟦の→の：09472_no⟧がま{口|ぐち}: clasp purse with Japanese pattern\n\nSIMILAR WORDS:\n- ⟦{小銭入|こぜにい}れ→小銭入れ：20896_kozeniire⟧: coin purse (general term)\n- ⟦{財布|さいふ}→財布：00663_saifu⟧: wallet\n- ⟦{長財布|ながさいふ}→長財布：27564_nagasaifu⟧: long wallet",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20896_kozeniire",
+      "reading": "こぜにいれ",
+      "headword": "{小銭入|こぜにい}れ",
+      "label": "coin purse"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00663_saifu",
+      "reading": "さいふ",
+      "headword": "{財布|さいふ}",
+      "label": "wallet"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27564_nagasaifu",
+      "reading": "ながさいふ",
+      "headword": "{長財布|ながさいふ}",
+      "label": "long wallet"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +76,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "daily-life",
         "clothing"
@@ -61,6 +84,6 @@
       "domain": []
     },
     "created": "2026-05-14T03:11:55Z",
-    "modified": "2026-08-07T16:10:18Z"
+    "modified": "2026-09-02T04:02:31Z"
   }
 }

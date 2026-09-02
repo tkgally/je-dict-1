@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "17271_yokomuki_ex1",
-      "japanese": "{横向|よこむ}きに{寝|ね}る。",
+      "japanese": "{横向|よこむ}き⟦に→に：00314_ni⟧⟦{寝|ね}る→寝る：00470_neru⟧。",
       "english": "To sleep on one's side.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "17271_yokomuki_ex2",
-      "japanese": "{写真|しゃしん}を{横向|よこむ}きに{撮|と}ってください。",
+      "japanese": "⟦{写真|しゃしん}→写真：00753_shashin⟧⟦を→を：00422_wo⟧{横向|よこむ}き⟦に→に：00314_ni⟧⟦{撮|と}って→撮る：00760_toru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please take the photo in landscape orientation.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "17271_yokomuki_ex3",
-      "japanese": "{赤|あか}ちゃんが{横向|よこむ}きで{気持|きも}ちよさそうに{眠|ねむ}っている。",
+      "japanese": "⟦{赤|あか}ちゃん→赤ちゃん：01282_akachan⟧⟦が→が：00051_ga⟧{横向|よこむ}き⟦で→で：00502_de⟧{気持|きも}ちよさそう⟦に→に：00314_ni⟧⟦{眠|ねむ}っている→眠る：01181_nemuru⟧。",
       "english": "The baby is sleeping comfortably on its side.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nOften followed by に or で to indicate orientation. Frequently used when describing sleeping positions, photography (landscape vs portrait), and the direction something faces.\n\nCOMMON COLLOCATIONS:\n- {横向|よこむ}きに{寝|ね}る (sleep on one's side)\n- {横向|よこむ}きに{置|お}く (place sideways)\n- {横向|よこむ}きの{写真|しゃしん} (landscape photo)\n\nRELATED ORIENTATIONS:\n- {上向|うわむ}き: facing up\n- {下向|したむ}き: facing down\n- {前向|まえむ}き: facing forward (also: positive attitude)\n- {後|うし}ろ{向|む}き: facing backward (also: negative attitude)",
+  "notes": "USAGE:\nOften followed by ⟦に→に：00314_ni⟧ or で to indicate orientation. Frequently used when describing sleeping positions, photography (landscape vs portrait), and the direction something faces.\n\nCOMMON COLLOCATIONS:\n- {横向|よこむ}き⟦に→に：00314_ni⟧⟦{寝|ね}る→寝る：00470_neru⟧ (sleep on one's side)\n- {横向|よこむ}き⟦に→に：00314_ni⟧⟦{置|お}く→置く：01092_oku⟧ (place sideways)\n- {横向|よこむ}き⟦の→の：09472_no⟧⟦{写真|しゃしん}→写真：00753_shashin⟧ (landscape photo)\n\nRELATED ORIENTATIONS:\n- ⟦{上向|うわむ}き→上向き：27459_uwamuki⟧: facing up\n- {下向|したむ}き: facing down\n- ⟦{前向|まえむ}き→前向き：10073_maemuki⟧: facing forward (also: positive attitude)\n- ⟦{後|うし}ろ{向|む}き→後ろ向き：16690_ushiromuki⟧: facing backward (also: negative attitude)",
   "cross_references": [
     {
       "type": "related",
@@ -52,11 +52,32 @@
       "reading": "よこ",
       "headword": "{横|よこ}",
       "label": "side, horizontal"
+    },
+    {
+      "type": "related",
+      "target_id": "27459_uwamuki",
+      "reading": "うわむき",
+      "headword": "{上向|うわむ}き",
+      "label": "facing up"
+    },
+    {
+      "type": "related",
+      "target_id": "10073_maemuki",
+      "reading": "まえむき",
+      "headword": "{前向|まえむ}き",
+      "label": "facing forward (also"
+    },
+    {
+      "type": "related",
+      "target_id": "16690_ushiromuki",
+      "reading": "うしろむき",
+      "headword": "{後|うし}ろ{向|む}き",
+      "label": "facing backward (also"
     }
   ],
   "metadata": {
     "created": "2026-03-17T04:26:31Z",
-    "modified": "2026-05-06T05:09:10Z",
+    "modified": "2026-09-02T04:01:47Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

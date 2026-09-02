@@ -15,40 +15,73 @@
   "examples": [
     {
       "id": "19087_toomawashini_ex1",
-      "japanese": "{遠回|とおまわ}しに{断|ことわ}った。",
+      "japanese": "{遠回|とおまわ}しに⟦{断|ことわ}った→断る：02102_kotowaru⟧。",
       "english": "I refused indirectly.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19087_toomawashini_ex2",
-      "japanese": "{彼女|かのじょ}は{遠回|とおまわ}しに{不満|ふまん}を{伝|つた}えた。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧{遠回|とおまわ}しに⟦{不満|ふまん}→不満：02497_fuman⟧⟦を→を：00422_wo⟧⟦{伝|つた}えた→伝える：01220_tsutaeru⟧。",
       "english": "She expressed her dissatisfaction in a roundabout way.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19087_toomawashini_ex3",
-      "japanese": "{遠回|とおまわ}しに{言|い}わないで、はっきり{言|い}ってください。",
+      "japanese": "{遠回|とおまわ}しに⟦{言|い}わないで→言う：00515_iu⟧、⟦はっきり→はっきり：01228_hakkiri⟧⟦{言|い}って→言う：00515_iu⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Don't beat around the bush — please say it clearly.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Reflects a characteristic aspect of Japanese communication where directness is often avoided to maintain harmony. Common collocations include {遠回|とおまわ}しに{言|い}う (to say indirectly), {遠回|とおまわ}しに{断|ことわ}る (to refuse indirectly), and {遠回|とおまわ}しな{表現|ひょうげん} (indirect expression). The な-adjective form {遠回|とおまわ}しな is also used. The opposite approach is expressed with はっきり{言|い}う (to say clearly/directly) or {直接的|ちょくせつてき}に{言|い}う (to say directly).",
+  "notes": "Reflects a characteristic aspect of Japanese communication where directness is often avoided to maintain harmony. Common collocations include {遠回|とおまわ}しに⟦{言|い}う→言う：00515_iu⟧ (to say indirectly), {遠回|とおまわ}しに⟦{断|ことわ}る→断る：02102_kotowaru⟧ (to refuse indirectly), and ⟦{遠回|とおまわ}し→遠回し：08054_toomawashi⟧な⟦{表現|ひょうげん}→表現：03584_hyougen⟧ (indirect expression). The な-adjective form ⟦{遠回|とおまわ}し→遠回し：08054_toomawashi⟧な is also used. The opposite approach is expressed with ⟦はっきり→はっきり：01228_hakkiri⟧⟦{言|い}う→言う：00515_iu⟧ (to say clearly/directly) or ⟦{直接的|ちょくせつてき}→直接的：06093_chokusetsuteki⟧⟦に→に：00314_ni⟧⟦{言|い}う→言う：00515_iu⟧ (to say directly).",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "08510_soretonaku",
+      "reading": "それとなく",
+      "headword": "それとなく",
+      "label": "indirectly"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12974_anni",
+      "reading": "あんに",
+      "headword": "{暗|あん}に",
+      "label": "implicitly, indirectly, by implication"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25578_enkyokuni",
+      "reading": "えんきょくに",
+      "headword": "{婉曲|えんきょく}に",
+      "label": "indirectly"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adverb"],
+      "pos": [
+        "adverb"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["communication"]
+      "semantic": [
+        "communication"
+      ]
     },
     "created": "2026-03-24T09:34:54Z",
-    "modified": "2026-03-24T09:34:54Z"
+    "modified": "2026-09-02T04:01:54Z"
   }
 }

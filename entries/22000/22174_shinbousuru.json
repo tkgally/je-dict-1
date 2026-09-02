@@ -3,7 +3,7 @@
   "headword": "{辛抱|しんぼう}する",
   "reading": "しんぼうする",
   "romaji": "shinbousuru",
-  "part_of_speech": "noun, suru verb, intransitive",
+  "part_of_speech": "noun, suru verb (intransitive)",
   "gloss": "to be patient; to endure; to persevere",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22174_shinbousuru_ex1",
-      "japanese": "もう{少|すこ}し{辛抱|しんぼう}してください。",
+      "japanese": "⟦もう→もう：00602_mou⟧⟦{少|すこ}し→少し：00596_sukoshi⟧{辛抱|しんぼう}して⟦ください→ください：02899_kudasai⟧。",
       "english": "Please be patient a little longer.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22174_shinbousuru_ex2",
-      "japanese": "{辛抱|しんぼう}すれば、きっといいことがある。",
+      "japanese": "{辛抱|しんぼう}すれば、⟦きっと→きっと：00860_kitto⟧⟦いい→いい：00118_ii⟧こと⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "If you persevere, good things will surely come.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22174_shinbousuru_ex3",
-      "japanese": "{給料|きゅうりょう}が{低|ひく}くても、{経験|けいけん}を{積|つ}むために{三年|さんねん}は{辛抱|しんぼう}しようと{決|き}めた。",
+      "japanese": "⟦{給料|きゅうりょう}→給料：01086_kyuuryou⟧⟦が→が：00051_ga⟧⟦{低|ひく}くて→低い：02947_hikui⟧⟦も→も：00484_mo⟧、⟦{経験|けいけん}→経験：01179_keiken⟧⟦を→を：00422_wo⟧⟦{積|つ}む→積む：02294_tsumu⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧⟦{三年|さんねん}→三年：10984_sannen⟧⟦は→は：00079_ha⟧{辛抱|しんぼう}しよう⟦と→と：00512_to⟧⟦{決|き}めた→決める：00858_kimeru⟧。",
       "english": "Even though the salary is low, I decided to endure it for three years to gain experience.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Emphasizes patient endurance of hardship or discomfort. Often used when encouraging someone to hang in there through a tough situation.\n\nCOMMON COLLOCATIONS:\n- {辛抱|しんぼう}{強|づよ}い — patient, persevering\n- {辛抱|しんぼう}が{足|た}りない — lacking patience\n- {辛抱|しんぼう}の{限界|げんかい} — the limit of one's patience\n- もう{少|すこ}しの{辛抱|しんぼう} — just a little more patience\n\nSIMILAR WORDS:\n- {我慢|がまん}する — to endure, tolerate; more about suppressing feelings or desires in the moment\n- {耐|た}える — to withstand, bear; focuses on physical or emotional resistance to something\n- {忍耐|にんたい}する — to be patient; more formal and literary than {辛抱|しんぼう}する",
+  "notes": "Emphasizes patient endurance of hardship or discomfort. Often used when encouraging someone to hang in there through a tough situation.\n\nCOMMON COLLOCATIONS:\n- ⟦{辛抱|しんぼう}{強|づよ}い→辛抱強い：18963_shinbouzuyoi⟧ — patient, persevering\n- ⟦{辛抱|しんぼう}→辛抱：05101_shinbou⟧⟦が→が：00051_ga⟧⟦{足|た}りない→足りる：01209_tariru⟧ — lacking patience\n- ⟦{辛抱|しんぼう}→辛抱：05101_shinbou⟧⟦の→の：09472_no⟧⟦{限界|げんかい}→限界：02715_genkai⟧ — the limit of one's patience\n- ⟦もう→もう：00602_mou⟧⟦{少|すこ}し→少し：00596_sukoshi⟧⟦の→の：09472_no⟧⟦{辛抱|しんぼう}→辛抱：05101_shinbou⟧ — just a little more patience\n\nSIMILAR WORDS:\n- ⟦{我慢|がまん}する→我慢する：25343_gamansuru⟧ — to endure, tolerate; more about suppressing feelings or desires in the moment\n- ⟦{耐|た}える→耐える：12087_taeru⟧ — to withstand, bear; focuses on physical or emotional resistance to something\n- ⟦{忍耐|にんたい}→忍耐：05212_nintai⟧⟦する→する：00392_suru⟧ — to be patient; more formal and literary than {辛抱|しんぼう}する",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25343_gamansuru",
+      "reading": "がまんする",
+      "headword": "{我慢|がまん}する",
+      "label": "to endure, tolerate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12087_taeru",
+      "reading": "たえる",
+      "headword": "{耐|た}える",
+      "label": "to withstand, bear"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05212_nintai",
+      "reading": "にんたい",
+      "headword": "{忍耐|にんたい}",
+      "label": "to be patient"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,7 +85,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-05T04:26:59Z",
-    "modified": "2026-04-05T04:26:59Z"
+    "modified": "2026-09-02T04:02:06Z"
   },
   "conjugation": {
     "type": "suru",

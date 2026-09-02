@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25463_yukazai_ex1",
-      "japanese": "{床材|ゆかざい}を{選|えら}ぶ。",
+      "japanese": "{床材|ゆかざい}⟦を→を：00422_wo⟧⟦{選|えら}ぶ→選ぶ：00835_erabu⟧。",
       "english": "To choose flooring material.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25463_yukazai_ex2",
-      "japanese": "{無垢|むく}の{木|き}の{床材|ゆかざい}は{温|あたた}かみがある。",
+      "japanese": "⟦{無垢|むく}→無垢：13421_muku⟧⟦の→の：09472_no⟧⟦{木|き}→木：00524_ki⟧⟦の→の：09472_no⟧{床材|ゆかざい}⟦は→は：00079_ha⟧⟦{温|あたた}かみ→温かみ：25336_atatakami⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "Solid wood flooring has warmth to it.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25463_yukazai_ex3",
-      "japanese": "リフォームで{床材|ゆかざい}をフローリングから{畳|たたみ}に{変|か}えることにした。",
+      "japanese": "⟦リフォーム→リフォーム：08821_rifoomu⟧⟦で→で：00502_de⟧{床材|ゆかざい}⟦を→を：00422_wo⟧⟦フローリング→フローリング：11125_furooringu⟧⟦から→から：00504_kara⟧⟦{畳|たたみ}→畳：02224_tatami⟧⟦に→に：00314_ni⟧⟦{変|か}える→変える：01089_kaeru⟧ことにした。",
       "english": "During the renovation, we decided to change the flooring from hardwood to tatami.",
       "sense_numbers": [
         1
@@ -44,19 +44,58 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {床|ゆか} (floor) and {材|ざい} (material). Commonly encountered in home building, renovation, and interior design contexts.\n\nCOMMON COLLOCATIONS:\n- {床材|ゆかざい}の{種類|しゅるい}: types of flooring material\n- {床材|ゆかざい}を{張|は}る: to lay flooring\n- {床材|ゆかざい}を{張|は}り{替|か}える: to replace flooring\n- {天然|てんねん}{木|もく}の{床材|ゆかざい}: natural wood flooring\n\nSIMILAR WORDS:\n- フローリング: flooring — specifically refers to wooden floor covering; also used generically\n- {床板|ゆかいた}: floorboard — the individual boards making up a wooden floor\n- {畳|たたみ}: tatami — traditional Japanese straw mat flooring",
+  "notes": "A compound of ⟦{床|ゆか}→床：03652_yuka⟧ (floor) and ⟦{材|ざい}→〜材：28347_zai⟧ (material). Commonly encountered in home building, renovation, and interior design contexts.\n\nCOMMON COLLOCATIONS:\n- {床材|ゆかざい}⟦の→の：09472_no⟧⟦{種類|しゅるい}→種類：01560_shurui⟧: types of flooring material\n- {床材|ゆかざい}⟦を→を：00422_wo⟧⟦{張|は}る→張る：12583_haru⟧: to lay flooring\n- {床材|ゆかざい}⟦を→を：00422_wo⟧⟦{張|は}り{替|か}える→張り替える：28418_harikaeru⟧: to replace flooring\n- ⟦{天然|てんねん}→天然：03560_tennen⟧{木|もく}⟦の→の：09472_no⟧{床材|ゆかざい}: natural wood flooring\n\nSIMILAR WORDS:\n- ⟦フローリング→フローリング：11125_furooringu⟧: flooring — specifically refers to wooden floor covering; also used generically\n- ⟦{床板|ゆかいた}→床板：25464_yukaita⟧: floorboard — the individual boards making up a wooden floor\n- ⟦{畳|たたみ}→畳：02224_tatami⟧: tatami — traditional Japanese straw mat flooring",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11125_furooringu",
+      "reading": "ふろーりんぐ",
+      "headword": "フローリング",
+      "label": "flooring"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25464_yukaita",
+      "reading": "ゆかいた",
+      "headword": "{床板|ゆかいた}",
+      "label": "floorboard"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02224_tatami",
+      "reading": "たたみ",
+      "headword": "{畳|たたみ}",
+      "label": "tatami"
+    },
+    {
+      "type": "related",
+      "target_id": "06425_naisou",
+      "reading": "ないそう",
+      "headword": "{内装|ないそう}",
+      "label": "interior, interior decoration"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29285_kabezai",
+      "reading": "かべざい",
+      "headword": "{壁材|かべざい}",
+      "label": "wall material"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "building"
       ]
     },
     "created": "2026-04-25T13:40:44Z",
-    "modified": "2026-08-04T12:59:53Z"
+    "modified": "2026-09-02T04:02:22Z"
   }
 }

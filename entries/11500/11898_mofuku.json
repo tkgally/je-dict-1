@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "11898_mofuku_ex1",
-      "japanese": "{喪服|もふく}を{着|き}て{葬儀|そうぎ}に{出|で}た。",
+      "japanese": "{喪服|もふく}⟦を→を：00422_wo⟧⟦{着|き}て→着る：00541_kiru⟧⟦{葬儀|そうぎ}→葬儀：15337_sougi⟧⟦に→に：00314_ni⟧⟦{出|で}た→出る：00513_deru⟧。",
       "english": "I wore mourning clothes and attended the funeral.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "11898_mofuku_ex2",
-      "japanese": "{急|きゅう}な{知|し}らせだったので{喪服|もふく}を{用意|ようい}する{時間|じかん}がなかった。",
+      "japanese": "⟦{急|きゅう}→急：13042_kyuu⟧な⟦{知|し}らせ→知らせ：03252_shirase⟧だった⟦の→の：09472_no⟧で{喪服|もふく}⟦を→を：00422_wo⟧⟦{用意|ようい}する→用意する：22428_youisuru⟧⟦{時間|じかん}→時間：00468_jikan⟧⟦が→が：00051_ga⟧⟦なかった→ない：01118_nai⟧。",
       "english": "It was such sudden news that there was no time to prepare mourning clothes.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "11898_mofuku_ex3",
-      "japanese": "{日本|にほん}では{喪服|もふく}は{黒|くろ}が{基本|きほん}で、{光|ひか}る{素材|そざい}やアクセサリーは{避|さ}ける。",
+      "japanese": "⟦{日本|にほん}→日本：03876_nihon⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧{喪服|もふく}⟦は→は：00079_ha⟧⟦{黒|くろ}→黒：02205_kuro⟧⟦が→が：00051_ga⟧⟦{基本|きほん}→基本：00226_kihon⟧⟦で→で：00502_de⟧、⟦{光|ひか}る→光る：01163_hikaru⟧⟦{素材|そざい}→素材：09492_sozai⟧や⟦アクセサリー→アクセサリー：01761_akusesarii⟧⟦は→は：00079_ha⟧⟦{避|さ}ける→避ける：02109_sakeru⟧。",
       "english": "In Japan, mourning clothes are basically black, and shiny materials or accessories are avoided.",
       "notes": null,
       "has_audio": false,
@@ -43,11 +43,19 @@
       ]
     }
   ],
-  "notes": "COMMON COLLOCATIONS:\n・{喪服|もふく}を{着|き}る (wear mourning clothes)\n・{喪服|もふく}を{用意|ようい}する (prepare mourning clothes)\n・{喪服|もふく}に{着替|きが}える (change into mourning clothes)\n\nJapanese mourning attire ({喪服|もふく}) is strictly black. For men, a black suit with a white shirt and black tie; for women, a black dress or suit. {真珠|しんじゅ} (pearls) are the only acceptable accessory. Many adults keep a set of {喪服|もふく} ready at all times for unexpected funerals.",
-  "cross_references": [],
+  "notes": "COMMON COLLOCATIONS:\n- {喪服|もふく}⟦を→を：00422_wo⟧⟦{着|き}る→着る：00541_kiru⟧ (wear mourning clothes)\n- {喪服|もふく}⟦を→を：00422_wo⟧⟦{用意|ようい}する→用意する：22428_youisuru⟧ (prepare mourning clothes)\n- {喪服|もふく}⟦に→に：00314_ni⟧⟦{着替|きが}える→着替える：04603_kigaeru⟧ (change into mourning clothes)\n\nJapanese mourning attire ({喪服|もふく}) is strictly black. For men, a black suit with a white shirt and black tie; for women, a black dress or suit. ⟦{真珠|しんじゅ}→真珠：19873_shinju⟧ (pearls) are the only acceptable accessory. Many adults keep a set of {喪服|もふく} ready at all times for unexpected funerals.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "18440_reifuku",
+      "reading": "れいふく",
+      "headword": "{礼服|れいふく}",
+      "label": "formal wear"
+    }
+  ],
   "metadata": {
     "created": "2026-02-18T14:04:48Z",
-    "modified": "2026-07-03T09:29:09Z",
+    "modified": "2026-09-02T04:01:26Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",

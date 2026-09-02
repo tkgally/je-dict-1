@@ -14,40 +14,59 @@
   "examples": [
     {
       "id": "11325_herumetto_ex1",
-      "japanese": "ヘルメットをかぶる。",
+      "japanese": "ヘルメット⟦を→を：00422_wo⟧⟦かぶる→かぶる：00709_kaburu⟧。",
       "english": "To put on a helmet.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11325_herumetto_ex2",
-      "japanese": "{工事|こうじ}{現場|げんば}ではヘルメットが{必要|ひつよう}です。",
+      "japanese": "⟦{工事|こうじ}{現場|げんば}→工事現場：26202_koujigenba⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧ヘルメット⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧です。",
       "english": "Helmets are required at construction sites.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11325_herumetto_ex3",
-      "japanese": "{自転車|じてんしゃ}に{乗|の}るときは、{安全|あんぜん}のためにヘルメットをかぶりましょう。",
+      "japanese": "⟦{自転車|じてんしゃ}→自転車：00633_jitensha⟧⟦に→に：00314_ni⟧⟦{乗|の}る→乗る：00511_noru⟧とき⟦は→は：00079_ha⟧、⟦{安全|あんぜん}→安全：01131_anzen⟧⟦の→の：09472_no⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧ヘルメット⟦を→を：00422_wo⟧⟦かぶりましょう→かぶる：00709_kaburu⟧。",
       "english": "When riding a bicycle, let's wear a helmet for safety.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "ヘルメット comes from English \"helmet\" and covers all types of protective headgear, from construction hard hats to motorcycle helmets.\n\nCOMMON COLLOCATIONS:\n- ヘルメットをかぶる: to put on/wear a helmet\n- ヘルメットを{外|はず}す: to take off a helmet\n- ヘルメット{着用|ちゃくよう}: helmet wearing (on signs and in regulations)\n- ヘルメット{着用|ちゃくよう}{義務|ぎむ}: helmet-wearing obligation\n\nTYPES:\n- {防災|ぼうさい}ヘルメット: disaster preparedness helmet\n- バイク{用|よう}ヘルメット: motorcycle helmet\n- {自転車|じてんしゃ}ヘルメット: bicycle helmet\n\nUSAGE:\nIn Japan, helmets are legally required for motorcycle riders. Since 2023, bicycle helmet use has been encouraged as a {努力|どりょく}{義務|ぎむ} (best-effort obligation) for all ages.",
+  "notes": "ヘルメット comes from English \"helmet\" and covers all types of protective headgear, from construction hard hats to motorcycle helmets.\n\nCOMMON COLLOCATIONS:\n- ヘルメット⟦を→を：00422_wo⟧⟦かぶる→かぶる：00709_kaburu⟧: to put on/wear a helmet\n- ヘルメット⟦を→を：00422_wo⟧⟦{外|はず}す→外す：02394_hazusu⟧: to take off a helmet\n- ヘルメット⟦{着用|ちゃくよう}→着用：13693_chakuyou⟧: helmet wearing (on signs and in regulations)\n- ヘルメット⟦{着用|ちゃくよう}→着用：13693_chakuyou⟧⟦{義務|ぎむ}→義務：02647_gimu⟧: helmet-wearing obligation\n\nTYPES:\n- ⟦{防災|ぼうさい}→防災：07907_bousai⟧ヘルメット: disaster preparedness helmet\n- ⟦バイク→バイク：05081_baiku⟧⟦{用|よう}→〜用：09842_you⟧ヘルメット: motorcycle helmet\n- ⟦{自転車|じてんしゃ}→自転車：00633_jitensha⟧ヘルメット: bicycle helmet\n\nUSAGE:\nIn Japan, helmets are legally required for motorcycle riders. Since 2023, bicycle helmet use has been encouraged as a ⟦{努力|どりょく}→努力：03490_doryoku⟧⟦{義務|ぎむ}→義務：02647_gimu⟧ (best-effort obligation) for all ages.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24184_anzengutsu",
+      "reading": "あんぜんぐつ",
+      "headword": "{安全靴|あんぜんぐつ}",
+      "label": "safety shoes"
+    }
+  ],
   "metadata": {
     "created": "2026-02-16T00:41:26Z",
-    "modified": "2026-03-29T07:15:08Z",
+    "modified": "2026-09-02T04:01:24Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["clothing"]
+      "semantic": [
+        "clothing"
+      ]
     }
   }
 }

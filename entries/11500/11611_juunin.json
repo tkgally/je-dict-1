@@ -14,30 +14,36 @@
   "examples": [
     {
       "id": "11611_juunin_ex1",
-      "japanese": "このマンションの{住人|じゅうにん}は{静|しず}かだ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦マンション→マンション：01035_manshon⟧⟦の→の：09472_no⟧{住人|じゅうにん}⟦は→は：00079_ha⟧⟦{静|しず}か→静か：00755_shizuka⟧だ。",
       "english": "The residents of this apartment building are quiet.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11611_juunin_ex2",
-      "japanese": "{島|しま}の{住人|じゅうにん}たちは{漁業|ぎょぎょう}で{生活|せいかつ}している。",
+      "japanese": "⟦{島|しま}→島：00885_shima⟧⟦の→の：09472_no⟧{住人|じゅうにん}たち⟦は→は：00079_ha⟧⟦{漁業|ぎょぎょう}→漁業：20496_gyogyou⟧⟦で→で：00502_de⟧⟦{生活|せいかつ}している→生活する：01839_seikatsusuru⟧。",
       "english": "The island's inhabitants make their living from fishing.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11611_juunin_ex3",
-      "japanese": "{長年|ながねん}の{住人|じゅうにん}によると、この{辺|あた}りは{昔|むかし}は{田|た}んぼだったそうだ。",
+      "japanese": "⟦{長年|ながねん}→長年：09684_naganen⟧⟦の→の：09472_no⟧{住人|じゅうにん}⟦によると→〜によると：03104_niyoruto⟧、⟦この→この：00962_kono⟧⟦{辺|あた}り→辺り：01770_atari⟧⟦は→は：00079_ha⟧⟦{昔|むかし}→昔：01515_mukashi⟧⟦は→は：00079_ha⟧⟦{田|た}んぼ→田んぼ：00402_tanbo⟧だったそうだ。",
       "english": "According to a long-time resident, this area used to be rice paddies.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "Similar to {住民|じゅうみん}, but {住人|じゅうにん} tends to refer to residents of a specific place such as a building or neighborhood, while {住民|じゅうみん} is more commonly used in administrative or official contexts for residents of a town, city, or region.\n\nCOMMON COLLOCATIONS:\n・マンションの{住人|じゅうにん} — apartment resident\n・{島|しま}の{住人|じゅうにん} — island inhabitant\n・{長年|ながねん}の{住人|じゅうにん} — long-time resident\n・{近隣|きんりん}の{住人|じゅうにん} — neighborhood resident",
+  "notes": "Similar to ⟦{住民|じゅうみん}→住民：03281_juumin⟧, but {住人|じゅうにん} tends to refer to residents of a specific place such as a building or neighborhood, while ⟦{住民|じゅうみん}→住民：03281_juumin⟧ is more commonly used in administrative or official contexts for residents of a town, city, or region.\n\nCOMMON COLLOCATIONS:\n- ⟦マンション→マンション：01035_manshon⟧⟦の→の：09472_no⟧{住人|じゅうにん} — apartment resident\n- ⟦{島|しま}→島：00885_shima⟧⟦の→の：09472_no⟧{住人|じゅうにん} — island inhabitant\n- ⟦{長年|ながねん}→長年：09684_naganen⟧⟦の→の：09472_no⟧{住人|じゅうにん} — long-time resident\n- ⟦{近隣|きんりん}→近隣：14361_kinrin⟧⟦の→の：09472_no⟧{住人|じゅうにん} — neighborhood resident",
   "cross_references": [
     {
       "type": "synonym",
@@ -45,19 +51,37 @@
       "reading": "じゅうみん",
       "headword": "{住民|じゅうみん}",
       "label": "resident (official/administrative)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16923_kyojuusha",
+      "reading": "きょじゅうしゃ",
+      "headword": "{居住者|きょじゅうしゃ}",
+      "label": "resident"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20979_nyuukyosha",
+      "reading": "にゅうきょしゃ",
+      "headword": "{入居者|にゅうきょしゃ}",
+      "label": "resident"
     }
   ],
   "metadata": {
     "created": "2026-02-17T14:36:15Z",
-    "modified": "2026-04-25T07:03:16Z",
+    "modified": "2026-09-02T04:01:25Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["person"]
+      "semantic": [
+        "person"
+      ]
     }
   }
 }

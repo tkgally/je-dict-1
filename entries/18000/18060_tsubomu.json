@@ -3,7 +3,7 @@
   "id": "18060_tsubomu",
   "headword": "つぼむ",
   "reading": "つぼむ",
-  "part_of_speech": "verb-godan",
+  "part_of_speech": "verb (godan)",
   "gloss": "to close up, to be in bud, to narrow",
   "conjugation": {
     "type": "godan",
@@ -110,7 +110,7 @@
   "examples": [
     {
       "id": "18060_tsubomu_ex1",
-      "japanese": "{花|はな}がまだつぼんでいる。",
+      "japanese": "⟦{花|はな}→花：00523_hana⟧⟦が→が：00051_ga⟧⟦まだ→まだ：00603_mada⟧つぼんで⟦いる→いる：00495_iru⟧。",
       "english": "The flower is still in bud.",
       "notes": null,
       "has_audio": false,
@@ -120,7 +120,7 @@
     },
     {
       "id": "18060_tsubomu_ex2",
-      "japanese": "{夕方|ゆうがた}になると{花|はな}びらがつぼむ。",
+      "japanese": "⟦{夕方|ゆうがた}→夕方：01010_yuugata⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦と→と：00512_to⟧⟦{花|はな}びら→花びら：13988_hanabira⟧⟦が→が：00051_ga⟧つぼむ。",
       "english": "The petals close up in the evening.",
       "notes": null,
       "has_audio": false,
@@ -130,7 +130,7 @@
     },
     {
       "id": "18060_tsubomu_ex3",
-      "japanese": "{朝顔|あさがお}は{午後|ごご}にはつぼんでしまう。",
+      "japanese": "⟦{朝顔|あさがお}→朝顔：05001_asagao⟧⟦は→は：00079_ha⟧⟦{午後|ごご}→午後：00544_gogo⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧つぼんでしまう。",
       "english": "Morning glories close up by the afternoon.",
       "notes": null,
       "has_audio": false,
@@ -140,7 +140,7 @@
     },
     {
       "id": "18060_tsubomu_ex4",
-      "japanese": "{口|くち}をつぼめる。",
+      "japanese": "⟦{口|くち}→口：00560_kuchi⟧⟦を→を：00422_wo⟧つぼめる。",
       "english": "To purse one's lips.",
       "notes": "Transitive form つぼめる.",
       "has_audio": false,
@@ -150,7 +150,7 @@
     },
     {
       "id": "18060_tsubomu_ex5",
-      "japanese": "{傘|かさ}をつぼめて{電車|でんしゃ}に{乗|の}った。",
+      "japanese": "⟦{傘|かさ}→傘：00639_kasa⟧⟦を→を：00422_wo⟧つぼめて⟦{電車|でんしゃ}→電車：00522_densha⟧⟦に→に：00314_ni⟧⟦{乗|の}った→乗る：00511_noru⟧。",
       "english": "I closed up my umbrella and got on the train.",
       "notes": "Transitive form つぼめる.",
       "has_audio": false,
@@ -160,7 +160,7 @@
     },
     {
       "id": "18060_tsubomu_ex6",
-      "japanese": "{風|かぜ}が{強|つよ}くなると、{花|はな}は{自然|しぜん}につぼんでしまう。",
+      "japanese": "⟦{風|かぜ}→風：00641_kaze⟧⟦が→が：00051_ga⟧⟦{強|つよ}く→強い：00820_tsuyoi⟧⟦なる→なる：01970_naru⟧⟦と→と：00512_to⟧、⟦{花|はな}→花：00523_hana⟧⟦は→は：00079_ha⟧⟦{自然|しぜん}→自然：01423_shizen⟧⟦に→に：00314_ni⟧つぼんでしまう。",
       "english": "When the wind gets strong, the flowers naturally close up.",
       "notes": null,
       "has_audio": false,
@@ -169,11 +169,19 @@
       ]
     }
   ],
-  "notes": "USAGE:\nMost commonly used for flowers closing or being in bud. The transitive form つぼめる is used for deliberately making something narrower (pursing lips, closing an umbrella).\n\nRELATED FORMS:\n- つぼめる (transitive): to make narrow, to purse, to close up\n- つぼみ (noun): bud, flower bud\n\nSIMILAR WORDS:\n- {閉|と}じる: to close (more general)\n- すぼむ: variant form with the same meaning\n- すぼめる: variant transitive form",
-  "cross_references": [],
+  "notes": "USAGE:\nMost commonly used for flowers closing or being in bud. The transitive form つぼめる is used for deliberately making something narrower (pursing lips, closing an umbrella).\n\nFORMS:\n- つぼめる (transitive): to make narrow, to purse, to close up\n- つぼみ (noun): bud, flower bud\n\nSIMILAR WORDS:\n- ⟦{閉|と}じる→閉じる：02303_tojiru⟧: to close (more general)\n- すぼむ: variant form with the same meaning\n- すぼめる: variant transitive form",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02303_tojiru",
+      "reading": "とじる",
+      "headword": "{閉|と}じる",
+      "label": "to close"
+    }
+  ],
   "metadata": {
     "created": "2026-03-20T01:05:42Z",
-    "modified": "2026-03-29T03:08:58Z",
+    "modified": "2026-09-02T04:01:50Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

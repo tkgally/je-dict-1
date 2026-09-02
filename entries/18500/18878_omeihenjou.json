@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "18878_omeihenjou_ex1",
-      "japanese": "{今度|こんど}こそ{汚名|おめい}{返上|へんじょう}だ。",
+      "japanese": "⟦{今度|こんど}→今度：01327_kondo⟧⟦こそ→こそ：12731_koso⟧{汚名|おめい}{返上|へんじょう}だ。",
       "english": "This time, I'll redeem myself for sure.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "18878_omeihenjou_ex2",
-      "japanese": "{汚名|おめい}{返上|へんじょう}を{果|は}たすために{全力|ぜんりょく}で{頑張|がんば}った。",
+      "japanese": "{汚名|おめい}{返上|へんじょう}⟦を→を：00422_wo⟧⟦{果|は}たす→果たす：10060_hatasu⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧⟦{全力|ぜんりょく}→全力：11637_zenryoku⟧⟦で→で：00502_de⟧⟦{頑張|がんば}った→頑張る：01222_ganbaru⟧。",
       "english": "I gave it my all to clear my name.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "18878_omeihenjou_ex3",
-      "japanese": "{前回|ぜんかい}の{大会|たいかい}で{惨敗|ざんぱい}した{選手|せんしゅ}が、{見事|みごと}に{汚名|おめい}{返上|へんじょう}を{果|は}たした。",
+      "japanese": "⟦{前回|ぜんかい}→前回：11817_zenkai⟧⟦の→の：09472_no⟧⟦{大会|たいかい}→大会：03386_taikai⟧⟦で→で：00502_de⟧⟦{惨敗|ざんぱい}→惨敗：08236_zanpai⟧⟦した→する：00392_suru⟧⟦{選手|せんしゅ}→選手：03823_senshu⟧⟦が→が：00051_ga⟧、⟦{見事|みごと}→見事：03744_migoto⟧⟦に→に：00314_ni⟧{汚名|おめい}{返上|へんじょう}⟦を→を：00422_wo⟧⟦{果|は}たした→果たす：10060_hatasu⟧。",
       "english": "The athlete who suffered a crushing defeat in the last tournament brilliantly redeemed themselves.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,26 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA four-character compound ({四字熟語|よじじゅくご}) often used in sports and competitive contexts. Frequently paired with を{果|は}たす (to achieve/accomplish).\n\nCOMMON COLLOCATIONS:\n- {汚名|おめい}{返上|へんじょう}を{果|は}たす (to successfully clear one's name)\n- {汚名|おめい}{返上|へんじょう}する (to redeem oneself)\n- {汚名|おめい}{返上|へんじょう}の{機会|きかい} (opportunity to redeem oneself)\n\nCOMMON MISTAKE:\nOften confused with {名誉|めいよ}{挽回|ばんかい} (recovering one's honor). Some people mistakenly say {汚名|おめい}{挽回|ばんかい}, which would literally mean \"recovering one's bad name\" — the opposite of the intended meaning. The correct forms are {汚名|おめい}{返上|へんじょう} and {名誉|めいよ}{挽回|ばんかい}.",
-  "cross_references": [],
+  "notes": "USAGE:\nA four-character compound (⟦{四字熟語|よじじゅくご}→四字熟語：15663_yojijukugo⟧) often used in sports and competitive contexts. Frequently paired with ⟦を→を：00422_wo⟧⟦{果|は}たす→果たす：10060_hatasu⟧ (to achieve/accomplish).\n\nCOMMON COLLOCATIONS:\n- {汚名|おめい}{返上|へんじょう}⟦を→を：00422_wo⟧⟦{果|は}たす→果たす：10060_hatasu⟧ (to successfully clear one's name)\n- {汚名|おめい}{返上|へんじょう}⟦する→する：00392_suru⟧ (to redeem oneself)\n- {汚名|おめい}{返上|へんじょう}⟦の→の：09472_no⟧⟦{機会|きかい}→機会：01302_kikai⟧ (opportunity to redeem oneself)\n\nWATCH OUT:\nOften confused with ⟦{名誉|めいよ}→名誉：10568_meiyo⟧⟦{挽回|ばんかい}→挽回：16313_bankai⟧ (recovering one's honor). Some people mistakenly say ⟦{汚名|おめい}{挽回|ばんかい}→汚名挽回：24676_omeibankai⟧, which would literally mean \"recovering one's bad name\" — the opposite of the intended meaning. The correct forms are {汚名|おめい}{返上|へんじょう} and ⟦{名誉|めいよ}→名誉：10568_meiyo⟧⟦{挽回|ばんかい}→挽回：16313_bankai⟧.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24641_meiyokaifuku",
+      "reading": "めいよかいふく",
+      "headword": "{名誉回復|めいよかいふく}",
+      "label": "restoration of honor"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24676_omeibankai",
+      "reading": "おめいばんかい",
+      "headword": "{汚名挽回|おめいばんかい}",
+      "label": "redeeming one's reputation"
+    }
+  ],
   "metadata": {
     "created": "2026-03-23T06:19:37Z",
-    "modified": "2026-03-29T03:08:58Z",
+    "modified": "2026-09-02T04:01:53Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

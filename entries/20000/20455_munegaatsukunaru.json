@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "20455_munegaatsukunaru_ex1",
-      "japanese": "あのスピーチを{聞|き}いて{胸|むね}が{熱|あつ}くなった。",
+      "japanese": "⟦あの→あの：00915_ano⟧⟦スピーチ→スピーチ：03852_supiichi⟧⟦を→を：00422_wo⟧⟦{聞|き}いて→聞く：00483_kiku⟧{胸|むね}が{熱|あつ}くなった。",
       "english": "I was deeply moved listening to that speech.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "20455_munegaatsukunaru_ex2",
-      "japanese": "{選手|せんしゅ}たちの{頑張|がんば}りを{見|み}て、{胸|むね}が{熱|あつ}くなった。",
+      "japanese": "⟦{選手|せんしゅ}→選手：03823_senshu⟧たち⟦の→の：09472_no⟧{頑張|がんば}り⟦を→を：00422_wo⟧⟦{見|み}て→見る：00283_miru⟧、{胸|むね}が{熱|あつ}くなった。",
       "english": "Watching the athletes' efforts, I felt my heart swell.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "20455_munegaatsukunaru_ex3",
-      "japanese": "{卒業式|そつぎょうしき}で{恩師|おんし}の{言葉|ことば}を{聞|き}き、{思|おも}わず{胸|むね}が{熱|あつ}くなって{涙|なみだ}がこぼれた。",
+      "japanese": "⟦{卒業式|そつぎょうしき}→卒業式：05584_sotsugyoushiki⟧⟦で→で：00502_de⟧⟦{恩師|おんし}→恩師：12598_onshi⟧⟦の→の：09472_no⟧⟦{言葉|ことば}→言葉：02880_kotoba⟧⟦を→を：00422_wo⟧⟦{聞|き}き→聞く：00483_kiku⟧、⟦{思|おも}わ→思う：00492_omou⟧ず{胸|むね}が{熱|あつ}くなって⟦{涙|なみだ}→涙：02235_namida⟧⟦が→が：00051_ga⟧⟦こぼれた→こぼれる：02105_koboreru⟧。",
       "english": "At the graduation ceremony, hearing my teacher's words, I was so moved that tears fell unbidden.",
       "sense_numbers": [
         1
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "Literally \"one's chest becomes hot\" — a physical metaphor for being emotionally moved. The {胸|むね} (chest/heart) is the seat of emotion in Japanese, similar to \"heart\" in English.\n\nUSAGE:\nUsed to describe being positively moved — by kindness, effort, beauty, or sacrifice. Stronger than simply being happy; implies that the emotion is deep enough to cause physical sensation. Often appears in descriptions of ceremonies, sports, films, and heartfelt moments.\n\nCOMMON COLLOCATIONS:\n- {胸|むね}が{熱|あつ}くなる{場面|ばめん} — a moving scene\n- {思|おも}わず{胸|むね}が{熱|あつ}くなる — to be moved despite oneself\n- {胸|むね}が{熱|あつ}くなる{思|おも}い — a feeling of being deeply touched\n\nRELATED EXPRESSIONS:\n- {胸|むね}を{打|う}たれる — to be struck in the heart; deeply moved\n- {感動|かんどう}する — to be moved, impressed (more general)\n- {胸|むね}がいっぱいになる — to be overwhelmed with emotion",
+  "notes": "Literally \"one's chest becomes hot\" — a physical metaphor for being emotionally moved. The ⟦{胸|むね}→胸：00972_mune⟧ (chest/heart) is the seat of emotion in Japanese, similar to \"heart\" in English.\n\nUSAGE:\nUsed to describe being positively moved — by kindness, effort, beauty, or sacrifice. Stronger than simply being happy; implies that the emotion is deep enough to cause physical sensation. Often appears in descriptions of ceremonies, sports, films, and heartfelt moments.\n\nCOMMON COLLOCATIONS:\n- {胸|むね}が{熱|あつ}くなる⟦{場面|ばめん}→場面：03702_bamen⟧ — a moving scene\n- ⟦{思|おも}わ→思う：00492_omou⟧ず{胸|むね}が{熱|あつ}くなる — to be moved despite oneself\n- {胸|むね}が{熱|あつ}くなる⟦{思|おも}い→思い：10248_omoi⟧ — a feeling of being deeply touched\n\nRELATED WORDS:\n- ⟦{胸|むね}→胸：00972_mune⟧⟦を→を：00422_wo⟧⟦{打|う}たれる→打つ：01221_utsu⟧ — to be struck in the heart; deeply moved\n- ⟦{感動|かんどう}する→感動する：21603_kandousuru⟧ — to be moved, impressed (more general)\n- ⟦{胸|むね}→胸：00972_mune⟧⟦が→が：00051_ga⟧いっぱい⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧ — to be overwhelmed with emotion",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "21603_kandousuru",
+      "reading": "かんどうする",
+      "headword": "{感動|かんどう}する",
+      "label": "to be moved, impressed"
+    },
+    {
+      "type": "related",
+      "target_id": "00167_kandou",
+      "reading": "かんどう",
+      "headword": "{感動|かんどう}",
+      "label": "being moved, emotion"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18127_megashiragaatsukunaru",
+      "reading": "めがしらがあつくなる",
+      "headword": "{目頭|めがしら}が{熱|あつ}くなる",
+      "label": "to be moved to tears"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25046_munegakyuntosuru",
+      "reading": "むねがきゅんとする",
+      "headword": "{胸|むね}がきゅんとする",
+      "label": "to feel a pang in one's heart"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +90,6 @@
       ]
     },
     "created": "2026-03-29T14:14:42Z",
-    "modified": "2026-07-28T09:34:52Z"
+    "modified": "2026-09-02T04:01:59Z"
   }
 }

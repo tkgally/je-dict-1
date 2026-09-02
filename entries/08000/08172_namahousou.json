@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08172_namahousou_ex1",
-      "japanese": "{生放送|なまほうそう}でお{届|とど}けします。",
+      "japanese": "{生放送|なまほうそう}⟦で→で：00502_de⟧お⟦{届|とど}け→届ける：01248_todokeru⟧⟦します→する：00392_suru⟧。",
       "english": "We are bringing this to you live.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "08172_namahousou_ex2",
-      "japanese": "この{番組|ばんぐみ}は{生放送|なまほうそう}です。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{番組|ばんぐみ}→番組：01705_bangumi⟧⟦は→は：00079_ha⟧{生放送|なまほうそう}です。",
       "english": "This program is live.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "08172_namahousou_ex3",
-      "japanese": "{生放送|なまほうそう}では{何|なに}が{起|お}こるか{分|わ}からない。",
+      "japanese": "{生放送|なまほうそう}⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{何|なに}→何：00498_nani⟧⟦が→が：00051_ga⟧⟦{起|お}こる→起こる：01910_okoru⟧⟦か→か：09473_ka⟧⟦{分|わ}からない→分かる：00463_wakaru⟧。",
       "english": "You never know what will happen during a live broadcast.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
     },
     {
       "id": "08172_namahousou_ex4",
-      "japanese": "{試合|しあい}の{生放送|なまほうそう}を{見|み}た。",
+      "japanese": "⟦{試合|しあい}→試合：01601_shiai⟧⟦の→の：09472_no⟧{生放送|なまほうそう}⟦を→を：00422_wo⟧⟦{見|み}た→見る：00283_miru⟧。",
       "english": "I watched the game live.",
       "sense_numbers": [
         1
@@ -54,7 +54,7 @@
     },
     {
       "id": "08172_namahousou_ex5",
-      "japanese": "{生放送中|なまほうそうちゅう}にハプニングがあった。",
+      "japanese": "{生放送中|なまほうそうちゅう}⟦に→に：00314_ni⟧ハプニング⟦が→が：00051_ga⟧⟦あった→ある：00006_aru⟧。",
       "english": "There was an unexpected incident during the live broadcast.",
       "sense_numbers": [
         1
@@ -63,13 +63,48 @@
       "notes": null
     }
   ],
-  "notes": "COMMON PATTERNS:\n- {生放送|なまほうそう}で{放送|ほうそう}する (to broadcast live)\n- {生放送|なまほうそう}を{見|み}る (to watch live)\n- {生放送中|なまほうそうちゅう} (during live broadcast)\n\nRELATED WORDS:\n- {録画|ろくが} (recording)\n- {再放送|さいほうそう} (rerun, rebroadcast)\n- {収録|しゅうろく} (recording - TV/audio)\n- ライブ (live - loanword)\n- {生配信|なまはいしん} (live streaming - internet)\n\nMODERN USAGE:\n{生放送|なまほうそう} is used for traditional TV/radio broadcasts. For internet streaming, {生配信|なまはいしん} or ライブ{配信|はいしん} is more common.",
+  "notes": "COMMON PATTERNS:\n- {生放送|なまほうそう}⟦で→で：00502_de⟧⟦{放送|ほうそう}する→放送する：01852_housousuru⟧ (to broadcast live)\n- {生放送|なまほうそう}⟦を→を：00422_wo⟧⟦{見|み}る→見る：00283_miru⟧ (to watch live)\n- {生放送中|なまほうそうちゅう} (during live broadcast)\n\nRELATED WORDS:\n- ⟦{録画|ろくが}→録画：04441_rokuga⟧ (recording)\n- ⟦{再放送|さいほうそう}→再放送：08173_saihousou⟧ (rerun, rebroadcast)\n- ⟦{収録|しゅうろく}→収録：08378_shuuroku⟧ (recording - TV/audio)\n- ⟦ライブ→ライブ：05412_raibu⟧ (live - loanword)\n- ⟦{生配信|なまはいしん}→生配信：05399_namahaishin⟧ (live streaming - internet)\n\nMODERN USAGE:\n{生放送|なまほうそう} is used for traditional TV/radio broadcasts. For internet streaming, ⟦{生配信|なまはいしん}→生配信：05399_namahaishin⟧ or ⟦ライブ{配信|はいしん}→ライブ配信：23746_raibuhaishin⟧ is more common.",
   "cross_references": [
     {
       "type": "antonym",
       "reading": "さいほうそう",
       "headword": "{再放送|さいほうそう}",
       "target_id": "08173_saihousou"
+    },
+    {
+      "type": "related",
+      "target_id": "04441_rokuga",
+      "reading": "ろくが",
+      "headword": "{録画|ろくが}",
+      "label": "recording"
+    },
+    {
+      "type": "related",
+      "target_id": "08378_shuuroku",
+      "reading": "しゅうろく",
+      "headword": "{収録|しゅうろく}",
+      "label": "recording"
+    },
+    {
+      "type": "related",
+      "target_id": "05412_raibu",
+      "reading": "らいぶ",
+      "headword": "ライブ",
+      "label": "live"
+    },
+    {
+      "type": "related",
+      "target_id": "05399_namahaishin",
+      "reading": "なまはいしん",
+      "headword": "{生配信|なまはいしん}",
+      "label": "live streaming"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06597_ondemando",
+      "reading": "おんでまんど",
+      "headword": "オンデマンド",
+      "label": "on-demand"
     }
   ],
   "metadata": {
@@ -79,12 +114,13 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "media",
         "television"
       ]
     },
     "created": "2026-01-25T07:33:27Z",
-    "modified": "2026-02-03T14:48:46Z"
+    "modified": "2026-09-02T04:01:14Z"
   }
 }

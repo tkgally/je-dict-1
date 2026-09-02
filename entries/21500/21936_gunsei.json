@@ -3,7 +3,7 @@
   "headword": "{群生|ぐんせい}",
   "reading": "ぐんせい",
   "romaji": "gunsei",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "growing in clusters; colony",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21936_gunsei_ex1",
-      "japanese": "{野原|のはら}に{花|はな}が{群生|ぐんせい}している。",
+      "japanese": "⟦{野原|のはら}→野原：14417_nohara⟧⟦に→に：00314_ni⟧⟦{花|はな}→花：00523_hana⟧⟦が→が：00051_ga⟧{群生|ぐんせい}⟦している→する：00392_suru⟧。",
       "english": "Flowers are growing in clusters in the field.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21936_gunsei_ex2",
-      "japanese": "{群生|ぐんせい}する{竹|たけ}の{林|はやし}は{美|うつく}しい{景色|けしき}だ。",
+      "japanese": "{群生|ぐんせい}⟦する→する：00392_suru⟧⟦{竹|たけ}→竹：02220_take⟧⟦の→の：09472_no⟧⟦{林|はやし}→林：01702_hayashi⟧⟦は→は：00079_ha⟧⟦{美|うつく}しい→美しい：01121_utsukushii⟧⟦{景色|けしき}→景色：01395_keshiki⟧だ。",
       "english": "A grove of bamboo growing in clusters is a beautiful sight.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21936_gunsei_ex3",
-      "japanese": "この{地域|ちいき}では{珍|めずら}しいキノコが{群生|ぐんせい}しているのが{発見|はっけん}された。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{地域|ちいき}→地域：01461_chiiki⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{珍|めずら}しい→珍しい：01200_mezurashii⟧キノコ⟦が→が：00051_ga⟧{群生|ぐんせい}⟦している→する：00392_suru⟧⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦{発見|はっけん}→発見：00085_hakken⟧⟦された→する：00392_suru⟧。",
       "english": "Rare mushrooms were discovered growing in clusters in this area.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {群|ぐん} (group, flock) and {生|せい} (growth, life). Describes plants, fungi, or other organisms growing together naturally in groups.\n\nCOMMON COLLOCATIONS:\n- {群生|ぐんせい}する: to grow in clusters\n- {群生|ぐんせい}{地|ち}: habitat where plants grow in clusters\n- {群生|ぐんせい}が{見|み}られる: clusters can be observed\n\nSIMILAR WORDS:\n- {密生|みっせい}: dense growth — emphasizes how tightly packed the growth is\n- {自生|じせい}: growing wild — emphasizes that plants grow naturally without cultivation\n- {群落|ぐんらく}: plant community — a more technical ecological term\n\nNOTE:\nOften used in nature descriptions, hiking guides, and botanical contexts. Seasonal flowers growing in clusters ({群生|ぐんせい}) are popular tourist attractions in Japan.",
+  "notes": "A compound of ⟦{群|ぐん}→群：02790_gun⟧ (group, flock) and {生|せい} (growth, life). Describes plants, fungi, or other organisms growing together naturally in groups.\n\nCOMMON COLLOCATIONS:\n- {群生|ぐんせい}⟦する→する：00392_suru⟧: to grow in clusters\n- {群生|ぐんせい}{地|ち}: habitat where plants grow in clusters\n- {群生|ぐんせい}⟦が→が：00051_ga⟧⟦{見|み}られる→見る：00283_miru⟧: clusters can be observed\n\nSIMILAR WORDS:\n- ⟦{密生|みっせい}→密生：21932_missei⟧: dense growth — emphasizes how tightly packed the growth is\n- ⟦{自生|じせい}→自生：18823_jisei⟧: growing wild — emphasizes that plants grow naturally without cultivation\n- ⟦{群落|ぐんらく}→群落：23999_gunraku⟧: plant community — a more technical ecological term\n\nUSAGE:\nOften used in nature descriptions, hiking guides, and botanical contexts. Seasonal flowers growing in clusters ({群生|ぐんせい}) are popular tourist attractions in Japan.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21932_missei",
+      "reading": "みっせい",
+      "headword": "{密生|みっせい}",
+      "label": "dense growth"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18823_jisei",
+      "reading": "じせい",
+      "headword": "{自生|じせい}",
+      "label": "growing wild"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23999_gunraku",
+      "reading": "ぐんらく",
+      "headword": "{群落|ぐんらく}",
+      "label": "plant community"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -58,10 +81,11 @@
       "semantic": [
         "nature"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     },
     "created": "2026-04-03T22:11:22Z",
-    "modified": "2026-04-03T22:11:22Z"
+    "modified": "2026-09-02T04:02:05Z"
   },
   "conjugation": {
     "type": "suru",

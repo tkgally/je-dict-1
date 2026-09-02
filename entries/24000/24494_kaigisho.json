@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24494_kaigisho_ex1",
-      "japanese": "{商工会議所|しょうこうかいぎしょ}に{相談|そうだん}した。",
+      "japanese": "⟦{商工会議所|しょうこうかいぎしょ}→商工会議所：30108_shoukoukaigisho⟧⟦に→に：00314_ni⟧⟦{相談|そうだん}した→相談する：01845_soudansuru⟧。",
       "english": "I consulted the chamber of commerce and industry.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24494_kaigisho_ex2",
-      "japanese": "{地元|じもと}の{会議所|かいぎしょ}で{説明会|せつめいかい}が{開|ひら}かれた。",
+      "japanese": "⟦{地元|じもと}→地元：09941_jimoto⟧⟦の→の：09472_no⟧{会議所|かいぎしょ}⟦で→で：00502_de⟧⟦{説明会|せつめいかい}→説明会：03087_setsumeikai⟧⟦が→が：00051_ga⟧⟦{開|ひら}かれた→開く：01979_hiraku⟧。",
       "english": "An information session was held at the local chamber.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24494_kaigisho_ex3",
-      "japanese": "{商工会議所|しょうこうかいぎしょ}は{中小企業|ちゅうしょうきぎょう}の{支援|しえん}や{地域経済|ちいきけいざい}の{活性化|かっせいか}に{取|と}り{組|く}んでいる。",
+      "japanese": "⟦{商工会議所|しょうこうかいぎしょ}→商工会議所：30108_shoukoukaigisho⟧⟦は→は：00079_ha⟧⟦{中小企業|ちゅうしょうきぎょう}→中小企業：24117_chuushoukigyou⟧⟦の→の：09472_no⟧⟦{支援|しえん}→支援：07778_shien⟧や{地域経済|ちいきけいざい}⟦の→の：09472_no⟧⟦{活性化|かっせいか}→活性化：07563_kasseika⟧⟦に→に：00314_ni⟧⟦{取|と}り{組|く}んでいる→取り組む：04225_torikumu⟧。",
       "english": "The chamber of commerce works on supporting small and medium businesses and revitalizing the regional economy.",
       "sense_numbers": [
         1
@@ -44,20 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "Most commonly encountered in the compound {商工会議所|しょうこうかいぎしょ} (chamber of commerce and industry), which is an organization that supports local businesses. Every major city in Japan has one. They offer services such as business consulting, certification exams (including the popular {簿記|ぼき} bookkeeping exam), and networking events.\n\nCOMMON COLLOCATIONS:\n- {商工会議所|しょうこうかいぎしょ}: chamber of commerce and industry\n- {国際商業会議所|こくさいしょうぎょうかいぎしょ}: International Chamber of Commerce (ICC)\n- {会議所|かいぎしょ}の{会員|かいいん}: chamber member\n\nRELATED TERMS:\n- {商工会|しょうこうかい}: commerce and industry association (for smaller municipalities)\n- {会議|かいぎ}: meeting; conference\n- {会議室|かいぎしつ}: meeting room",
+  "notes": "Most commonly encountered in the compound ⟦{商工会議所|しょうこうかいぎしょ}→商工会議所：30108_shoukoukaigisho⟧ (chamber of commerce and industry), which is an organization that supports local businesses. Every major city in Japan has one. They offer services such as business consulting, certification exams (including the popular ⟦{簿記|ぼき}→簿記：13786_boki⟧ bookkeeping exam), and networking events.\n\nCOMMON COLLOCATIONS:\n- ⟦{商工会議所|しょうこうかいぎしょ}→商工会議所：30108_shoukoukaigisho⟧: chamber of commerce and industry\n- {国際商業会議所|こくさいしょうぎょうかいぎしょ}: International Chamber of Commerce (ICC)\n- {会議所|かいぎしょ}⟦の→の：09472_no⟧⟦{会員|かいいん}→会員：02535_kaiin⟧: chamber member\n\nRELATED WORDS:\n- ⟦{商工会|しょうこうかい}→商工会：30125_shoukoukai⟧: commerce and industry association (for smaller municipalities)\n- ⟦{会議|かいぎ}→会議：00710_kaigi⟧: meeting; conference\n- ⟦{会議室|かいぎしつ}→会議室：01265_kaigishitsu⟧: meeting room",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "30125_shoukoukai",
+      "reading": "しょうこうかい",
+      "headword": "{商工会|しょうこうかい}",
+      "label": "commerce and industry association"
+    },
+    {
+      "type": "related",
+      "target_id": "01265_kaigishitsu",
+      "reading": "かいぎしつ",
+      "headword": "{会議室|かいぎしつ}",
+      "label": "meeting room"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "business",
         "society"
       ]
     },
     "created": "2026-04-19T12:32:13Z",
-    "modified": "2026-08-02T18:32:34Z"
+    "modified": "2026-09-02T04:02:18Z"
   }
 }

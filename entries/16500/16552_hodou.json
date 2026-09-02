@@ -3,7 +3,7 @@
   "id": "16552_hodou",
   "headword": "{補導|ほどう}",
   "reading": "ほどう",
-  "part_of_speech": "noun / verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "taking a minor into protective custody; guidance of juveniles",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "16552_hodou_ex1",
-      "japanese": "{中学生|ちゅうがくせい}が{補導|ほどう}された。",
+      "japanese": "⟦{中学生|ちゅうがくせい}→中学生：10973_chuugakusei⟧⟦が→が：00051_ga⟧{補導|ほどう}⟦された→する：00392_suru⟧。",
       "english": "A middle school student was taken into protective custody.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "16552_hodou_ex2",
-      "japanese": "{深夜|しんや}に{繁華街|はんかがい}をうろついていて{補導|ほどう}された。",
+      "japanese": "⟦{深夜|しんや}→深夜：00368_shinya⟧⟦に→に：00314_ni⟧⟦{繁華街|はんかがい}→繁華街：09392_hankagai⟧⟦を→を：00422_wo⟧⟦うろついていて→うろつく：16201_urotsuku⟧{補導|ほどう}⟦された→する：00392_suru⟧。",
       "english": "I was picked up by police for wandering around the entertainment district late at night.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "16552_hodou_ex3",
-      "japanese": "{夏休|なつやす}み{中|ちゅう}は{地域|ちいき}のボランティアが{夜回|よまわ}りをして{青少年|せいしょうねん}の{補導|ほどう}にあたる。",
+      "japanese": "⟦{夏休|なつやす}み→夏休み：02925_natsuyasumi⟧⟦{中|ちゅう}→〜中：09840_chuu⟧⟦は→は：00079_ha⟧⟦{地域|ちいき}→地域：01461_chiiki⟧⟦の→の：09472_no⟧⟦ボランティア→ボランティア：04834_borantia⟧⟦が→が：00051_ga⟧{夜回|よまわ}り⟦を→を：00422_wo⟧⟦して→する：00392_suru⟧⟦{青少年|せいしょうねん}→青少年：16559_seishounen⟧⟦の→の：09472_no⟧{補導|ほどう}⟦に→に：00314_ni⟧あたる。",
       "english": "During summer vacation, local volunteers patrol at night and help with juvenile guidance.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nUsed as a noun or with する. Specifically refers to minors (under 18/20 depending on the context). Not the same as {逮捕|たいほ} (arrest), which is a formal legal action. {補導|ほどう} is a protective measure — the minor is typically contacted, spoken to, and their parents or school are notified.\n\nCOMMON COLLOCATIONS:\n- {補導|ほどう}される (to be taken into custody)\n- {補導|ほどう}{員|いん} (juvenile guidance officer)\n- {街頭|がいとう}{補導|ほどう} (street patrol for juvenile guidance)\n\nSIMILAR WORDS:\n- {逮捕|たいほ}: arrest — a formal legal action, applicable to adults and serious offenses\n- {保護|ほご}: protection — broader term for taking someone into protective care",
+  "notes": "USAGE:\nUsed as a noun or with ⟦する→する：00392_suru⟧. Specifically refers to minors (under 18/20 depending on the context). Not the same as ⟦{逮捕|たいほ}→逮捕：03397_taiho⟧ (arrest), which is a formal legal action. {補導|ほどう} is a protective measure — the minor is typically contacted, spoken to, and their parents or school are notified.\n\nCOMMON COLLOCATIONS:\n- {補導|ほどう}⟦される→する：00392_suru⟧ (to be taken into custody)\n- {補導|ほどう}{員|いん} (juvenile guidance officer)\n- ⟦{街頭|がいとう}→街頭：19431_gaitou⟧{補導|ほどう} (street patrol for juvenile guidance)\n\nSIMILAR WORDS:\n- ⟦{逮捕|たいほ}→逮捕：03397_taiho⟧: arrest — a formal legal action, applicable to adults and serious offenses\n- ⟦{保護|ほご}→保護：03625_hogo⟧: protection — broader term for taking someone into protective care",
   "cross_references": [
     {
       "type": "contrast",
@@ -142,11 +142,18 @@
       "reading": "たいほ",
       "headword": "{逮捕|たいほ}",
       "label": "arrest (formal legal action)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03625_hogo",
+      "reading": "ほご",
+      "headword": "{保護|ほご}",
+      "label": "protection"
     }
   ],
   "metadata": {
     "created": "2026-03-13T06:51:16Z",
-    "modified": "2026-05-04T07:39:45Z",
+    "modified": "2026-09-02T04:01:45Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

@@ -3,7 +3,7 @@
   "headword": "{無表情|むひょうじょう}",
   "reading": "むひょうじょう",
   "romaji": "muhyoujou",
-  "part_of_speech": "noun, adjective-na, adjective-no",
+  "part_of_speech": "noun, na-adjective, no-adjective",
   "gloss": "expressionless; blank-faced; deadpan",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "23140_muhyoujou_ex1",
-      "japanese": "{彼|かれ}は{無表情|むひょうじょう}だった。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{無表情|むひょうじょう}だった。",
       "english": "He was expressionless.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "23140_muhyoujou_ex2",
-      "japanese": "{無表情|むひょうじょう}な{顔|かお}で{話|はな}し{続|つづ}けた。",
+      "japanese": "{無表情|むひょうじょう}な⟦{顔|かお}→顔：00558_kao⟧⟦で→で：00502_de⟧⟦{話|はな}し→話す：00467_hanasu⟧⟦{続|つづ}け→続く：00903_tsuzuku⟧た。",
       "english": "She kept talking with a blank expression.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "23140_muhyoujou_ex3",
-      "japanese": "{裁判官|さいばんかん}は{無表情|むひょうじょう}のまま{判決|はんけつ}を{読|よ}み{上|あ}げた。",
+      "japanese": "⟦{裁判官|さいばんかん}→裁判官：09562_saibankan⟧⟦は→は：00079_ha⟧{無表情|むひょうじょう}⟦の→の：09472_no⟧まま⟦{判決|はんけつ}→判決：05906_hanketsu⟧⟦を→を：00422_wo⟧⟦{読|よ}み{上|あ}げた→読み上げる：04604_yomiageru⟧。",
       "english": "The judge read the verdict without any expression on his face.",
       "sense_numbers": [
         1
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {無|む} (without) + {表情|ひょうじょう} (facial expression). Describes a face that reveals no emotion — whether from composure, shock, deliberate concealment, or personality. Common in fiction to describe characters and in daily life to describe people's reactions.\n\nCOMMON COLLOCATIONS:\n- {無表情|むひょうじょう}な{顔|かお}: expressionless face\n- {無表情|むひょうじょう}のまま: remaining expressionless\n- {無表情|むひょうじょう}に{見|み}える: to appear expressionless\n- {終始|しゅうし}{無表情|むひょうじょう}: expressionless throughout\n\nSIMILAR WORDS:\n- {表情|ひょうじょう}が{乏|とぼ}しい: lacking in expression — softer; suggests limited rather than zero expression\n- {能面|のうめん}のような: like a Noh mask — literary comparison emphasizing an eerie, frozen quality\n- {冷淡|れいたん}: cold, indifferent — focuses on emotional attitude rather than facial appearance",
+  "notes": "Composed of ⟦{無|む}→無：17750_mu⟧ (without) + ⟦{表情|ひょうじょう}→表情：03585_hyoujou⟧ (facial expression). Describes a face that reveals no emotion — whether from composure, shock, deliberate concealment, or personality. Common in fiction to describe characters and in daily life to describe people's reactions.\n\nCOMMON COLLOCATIONS:\n- {無表情|むひょうじょう}な⟦{顔|かお}→顔：00558_kao⟧: expressionless face\n- {無表情|むひょうじょう}⟦の→の：09472_no⟧まま: remaining expressionless\n- {無表情|むひょうじょう}⟦に→に：00314_ni⟧⟦{見|み}える→見える：01165_mieru⟧: to appear expressionless\n- ⟦{終始|しゅうし}→終始：15291_shuushi⟧{無表情|むひょうじょう}: expressionless throughout\n\nSIMILAR WORDS:\n- ⟦{表情|ひょうじょう}→表情：03585_hyoujou⟧⟦が→が：00051_ga⟧⟦{乏|とぼ}しい→乏しい：08153_toboshii⟧: lacking in expression — softer; suggests limited rather than zero expression\n- ⟦{能面|のうめん}→能面：27782_noumen⟧⟦の→の：09472_no⟧ような: like a Noh mask — literary comparison emphasizing an eerie, frozen quality\n- ⟦{冷淡|れいたん}→冷淡：16166_reitan⟧: cold, indifferent — focuses on emotional attitude rather than facial appearance",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16166_reitan",
+      "reading": "れいたん",
+      "headword": "{冷淡|れいたん}",
+      "label": "cold, indifferent"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05897_tantan",
+      "reading": "たんたん",
+      "headword": "{淡々|たんたん}",
+      "label": "calmly"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25619_mukanjou",
+      "reading": "むかんじょう",
+      "headword": "{無感情|むかんじょう}",
+      "label": "emotionless"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26700_sumashitakao",
+      "reading": "すましたかお",
+      "headword": "すました{顔|かお}",
+      "label": "composed face"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,6 +92,6 @@
       ]
     },
     "created": "2026-04-08T20:29:18Z",
-    "modified": "2026-07-31T18:20:34Z"
+    "modified": "2026-09-02T04:02:11Z"
   }
 }

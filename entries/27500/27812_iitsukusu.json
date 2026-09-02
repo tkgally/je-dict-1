@@ -3,7 +3,7 @@
   "headword": "{言|い}い{尽|つ}くす",
   "reading": "いいつくす",
   "romaji": "iitsukusu",
-  "part_of_speech": "verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to say everything; to express fully; to exhaust words",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "27812_iitsukusu_ex1",
-      "japanese": "{感謝|かんしゃ}の{気持|きも}ちは{言|い}い{尽|つ}くせない。",
+      "japanese": "⟦{感謝|かんしゃ}→感謝：00181_kansha⟧⟦の→の：09472_no⟧{気持|きも}ち⟦は→は：00079_ha⟧⟦{言|い}い→言う：00515_iu⟧⟦{尽|つ}くせない→尽くす：02077_tsukusu⟧。",
       "english": "I cannot fully express my gratitude.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "27812_iitsukusu_ex2",
-      "japanese": "{短|みじか}い{手紙|てがみ}では{思|おも}いを{言|い}い{尽|つ}くせなかった。",
+      "japanese": "⟦{短|みじか}い→短い：00510_mijikai⟧⟦{手紙|てがみ}→手紙：00675_tegami⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{思|おも}い→思い：10248_omoi⟧⟦を→を：00422_wo⟧⟦{言|い}い→言う：00515_iu⟧⟦{尽|つ}くせなかった→尽くす：02077_tsukusu⟧。",
       "english": "I couldn't say all I felt in a short letter.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "27812_iitsukusu_ex3",
-      "japanese": "{彼女|かのじょ}の{素晴|すば}らしさは、どんな{言葉|ことば}を{使|つか}っても{言|い}い{尽|つ}くせない。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦の→の：09472_no⟧{素晴|すば}らしさ⟦は→は：00079_ha⟧、⟦どんな→どんな：02924_donna⟧⟦{言葉|ことば}→言葉：02880_kotoba⟧⟦を→を：00422_wo⟧⟦{使|つか}って→使う：00473_tsukau⟧⟦も→も：00484_mo⟧⟦{言|い}い→言う：00515_iu⟧⟦{尽|つ}くせない→尽くす：02077_tsukusu⟧。",
       "english": "No matter what words I use, I can't fully express how wonderful she is.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {言|い}う (to say) + {尽|つ}くす (to exhaust, to use up completely). Most often appears in the negative potential form {言|い}い{尽|つ}くせない, describing feelings too deep to put fully into words.\n\nCOMMON COLLOCATIONS:\n- {言|い}い{尽|つ}くせない{思|おも}い: feelings beyond words\n- {感謝|かんしゃ}を{言|い}い{尽|つ}くす: to express one's full gratitude\n- {魅力|みりょく}を{言|い}い{尽|つ}くす: to describe every charm\n\nSIMILAR WORDS:\n- {語|かた}り{尽|つ}くす: to tell everything — focuses on narrating or discussing at length\n- {表現|ひょうげん}する: to express — neutral and general, without the nuance of completeness",
+  "notes": "Compound of ⟦{言|い}う→言う：00515_iu⟧ (to say) + ⟦{尽|つ}くす→尽くす：02077_tsukusu⟧ (to exhaust, to use up completely). Most often appears in the negative potential form ⟦{言|い}い→言う：00515_iu⟧⟦{尽|つ}くせない→尽くす：02077_tsukusu⟧, describing feelings too deep to put fully into words.\n\nCOMMON COLLOCATIONS:\n- ⟦{言|い}い→言う：00515_iu⟧⟦{尽|つ}くせない→尽くす：02077_tsukusu⟧⟦{思|おも}い→思い：10248_omoi⟧: feelings beyond words\n- ⟦{感謝|かんしゃ}→感謝：00181_kansha⟧⟦を→を：00422_wo⟧{言|い}い{尽|つ}くす: to express one's full gratitude\n- ⟦{魅力|みりょく}→魅力：03749_miryoku⟧⟦を→を：00422_wo⟧{言|い}い{尽|つ}くす: to describe every charm\n\nSIMILAR WORDS:\n- ⟦{語|かた}り→語る：01930_kataru⟧⟦{尽|つ}くす→尽くす：02077_tsukusu⟧: to tell everything — focuses on narrating or discussing at length\n- ⟦{表現|ひょうげん}→表現：03584_hyougen⟧⟦する→する：00392_suru⟧: to express — neutral and general, without the nuance of completeness",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03584_hyougen",
+      "reading": "ひょうげん",
+      "headword": "{表現|ひょうげん}",
+      "label": "to express"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +62,7 @@
         "verb-godan"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "communication"
       ],
@@ -62,7 +71,7 @@
       "verb_class": "godan-su"
     },
     "created": "2026-05-19T04:03:25Z",
-    "modified": "2026-05-19T04:03:25Z"
+    "modified": "2026-09-02T04:02:31Z"
   },
   "conjugation": {
     "type": "godan",

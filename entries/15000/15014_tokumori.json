@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "15014_tokumori_ex1",
-      "japanese": "{牛丼|ぎゅうどん}の{特盛|とくも}りを{注文|ちゅうもん}した。",
+      "japanese": "⟦{牛丼|ぎゅうどん}→牛丼：08600_gyuudon⟧⟦の→の：09472_no⟧{特盛|とくも}り⟦を→を：00422_wo⟧⟦{注文|ちゅうもん}した→注文する：21390_chuumon⟧。",
       "english": "I ordered an extra-large serving of beef bowl.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15014_tokumori_ex2",
-      "japanese": "{特盛|とくも}りにしたら{量|りょう}が{多|おお}すぎて{食|た}べきれなかった。",
+      "japanese": "{特盛|とくも}りにしたら⟦{量|りょう}→量：03799_ryou⟧⟦が→が：00051_ga⟧{多|おお}すぎて⟦{食|た}べ→食べる：00396_taberu⟧きれなかった。",
       "english": "I got the extra-large serving, but there was too much and I couldn't finish it.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15014_tokumori_ex3",
-      "japanese": "あの{店|みせ}の{特盛|とくも}りは{普通|ふつう}の{店|みせ}の{二倍|にばい}くらいの{量|りょう}がある。",
+      "japanese": "⟦あの→あの：00915_ano⟧⟦{店|みせ}→店：00497_mise⟧⟦の→の：09472_no⟧{特盛|とくも}り⟦は→は：00079_ha⟧⟦{普通|ふつう}→普通：01502_futsuu⟧⟦の→の：09472_no⟧⟦{店|みせ}→店：00497_mise⟧⟦の→の：09472_no⟧⟦{二倍|にばい}→二倍：01485_nibai⟧くらい⟦の→の：09472_no⟧⟦{量|りょう}→量：03799_ryou⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "The extra-large serving at that restaurant is about twice the amount of a normal restaurant's portion.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\n{特盛|とくも}り is widely used at chain restaurants, especially {牛丼|ぎゅうどん} (beef bowl) chains like {吉野家|よしのや}, {松屋|まつや}, and すき{家|や}. Knowing the portion size scale is useful for ordering.\n\nPORTION SIZE SCALE (common at restaurants):\n- {並盛|なみも}り ({並|なみ}): regular\n- {大盛|おおも}り: large\n- {特盛|とくも}り: extra-large\n- メガ{盛|も}り: mega-size (some shops)\n\nCOMMON COLLOCATIONS:\n- {特盛|とくも}りを{頼|たの}む (to order an extra-large)\n- {特盛|とくも}りにする (to go with the extra-large)\n- {特盛|とくも}り{無料|むりょう} (extra-large at no extra charge)\n\nRELATED WORDS:\n- {並盛|なみも}り: regular serving\n- {大盛|おおも}り: large serving\n- おかわり: second helping, refill",
+  "notes": "USAGE:\n{特盛|とくも}り is widely used at chain restaurants, especially ⟦{牛丼|ぎゅうどん}→牛丼：08600_gyuudon⟧ (beef bowl) chains like {吉野家|よしのや}, {松屋|まつや}, and すき{家|や}. Knowing the portion size scale is useful for ordering.\n\nPORTION SIZE SCALE (common at restaurants):\n- ⟦{並盛|なみも}り→並盛り：15015_namimori⟧ (⟦{並|なみ}→並：11374_nami⟧): regular\n- ⟦{大盛|おおも}り→大盛り：08162_oomori⟧: large\n- {特盛|とくも}り: extra-large\n- メガ⟦{盛|も}り→盛り：13696_mori⟧: mega-size (some shops)\n\nCOMMON COLLOCATIONS:\n- {特盛|とくも}り⟦を→を：00422_wo⟧⟦{頼|たの}む→頼む：01104_tanomu⟧ (to order an extra-large)\n- {特盛|とくも}り⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧ (to go with the extra-large)\n- {特盛|とくも}り⟦{無料|むりょう}→無料：01662_muryou⟧ (extra-large at no extra charge)\n\nRELATED WORDS:\n- ⟦{並盛|なみも}り→並盛り：15015_namimori⟧: regular serving\n- ⟦{大盛|おおも}り→大盛り：08162_oomori⟧: large serving\n- ⟦おかわり→おかわり：10967_okawari⟧: second helping, refill",
   "cross_references": [
     {
       "type": "related",
@@ -53,18 +59,30 @@
       "reading": "おおもり",
       "headword": "{大盛|おおも}り",
       "label": "large serving"
+    },
+    {
+      "type": "related",
+      "target_id": "10967_okawari",
+      "reading": "おかわり",
+      "headword": "おかわり",
+      "label": "second helping, refill"
     }
   ],
   "metadata": {
     "created": "2026-03-04T11:15:53Z",
-    "modified": "2026-05-01T05:08:10Z",
+    "modified": "2026-09-02T04:01:39Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "informal",
       "politeness": "plain",
-      "semantic": ["food", "quantity"]
+      "semantic": [
+        "food",
+        "quantity"
+      ]
     }
   }
 }

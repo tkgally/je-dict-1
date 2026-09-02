@@ -15,40 +15,74 @@
   "examples": [
     {
       "id": "20131_shichimi_ex1",
-      "japanese": "うどんに{七味|しちみ}をかける。",
+      "japanese": "⟦うどん→うどん：05182_udon⟧⟦に→に：00314_ni⟧{七味|しちみ}⟦を→を：00422_wo⟧⟦かける→かける：00854_kakeru⟧。",
       "english": "I sprinkle shichimi on udon.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20131_shichimi_ex2",
-      "japanese": "{七味|しちみ}を{少|すこ}し{多|おお}めに{入|い}れてください。",
+      "japanese": "{七味|しちみ}⟦を→を：00422_wo⟧⟦{少|すこ}し→少し：00596_sukoshi⟧⟦{多|おお}め→多め：28421_oome⟧⟦に→に：00314_ni⟧⟦{入|い}れて→入れる：01098_ireru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please put in a little extra shichimi.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20131_shichimi_ex3",
-      "japanese": "{京都|きょうと}の{老舗|しにせ}で{買|か}った{七味|しちみ}は{香|かお}りがとてもいい。",
+      "japanese": "⟦{京都|きょうと}→京都：09484_kyouto⟧⟦の→の：09472_no⟧⟦{老舗|しにせ}→老舗：16152_shinise⟧⟦で→で：00502_de⟧⟦{買|か}った→買う：00489_kau⟧{七味|しちみ}⟦は→は：00079_ha⟧⟦{香|かお}り→香り：00189_kaori⟧⟦が→が：00051_ga⟧⟦とても→とても：00593_totemo⟧⟦いい→いい：00118_ii⟧。",
       "english": "The shichimi I bought at a long-established shop in Kyoto has a wonderful aroma.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Short for {七味唐辛子|しちみとうがらし} (seven-flavor chili pepper). The seven ingredients vary by brand and region, but the base is always {唐辛子|とうがらし} (red chili pepper).\n\nCOMMON COLLOCATIONS:\n- {七味唐辛子|しちみとうがらし}: seven-spice chili pepper (full name)\n- {七味|しちみ}をかける: to sprinkle shichimi\n- {七味|しちみ}を{振|ふ}る: to shake on shichimi\n\nSIMILAR WORDS:\n- {一味|いちみ}: ichimi; pure chili pepper powder — contains only red chili pepper, without the other six spices\n- {山椒|さんしょう}: sansho pepper — one of the ingredients in {七味|しちみ}; used on its own for dishes like grilled eel\n- {唐辛子|とうがらし}: chili pepper — the main ingredient; also used as a general term for chili\n\nCULTURAL CONTEXT:\n{七味|しちみ} is an essential table condiment in Japan, found at most noodle shops and restaurants. Famous producers include Yagenbori in Tokyo (since 1625) and Shichimiya in Kyoto (since 1655). Each shop's blend is slightly different, and buying {七味|しちみ} is a popular souvenir activity.",
+  "notes": "Short for {七味唐辛子|しちみとうがらし} (seven-flavor chili pepper). The seven ingredients vary by brand and region, but the base is always ⟦{唐辛子|とうがらし}→唐辛子：11871_tougarashi⟧ (red chili pepper).\n\nCOMMON COLLOCATIONS:\n- {七味唐辛子|しちみとうがらし}: seven-spice chili pepper (full name)\n- {七味|しちみ}⟦を→を：00422_wo⟧⟦かける→かける：00854_kakeru⟧: to sprinkle shichimi\n- {七味|しちみ}⟦を→を：00422_wo⟧⟦{振|ふ}る→振る：01983_furu⟧: to shake on shichimi\n\nSIMILAR WORDS:\n- ⟦{一味|いちみ}→一味：11238_ichimi⟧: ichimi; pure chili pepper powder — contains only red chili pepper, without the other six spices\n- ⟦{山椒|さんしょう}→山椒：12412_sanshou⟧: sansho pepper — one of the ingredients in {七味|しちみ}; used on its own for dishes like grilled eel\n- ⟦{唐辛子|とうがらし}→唐辛子：11871_tougarashi⟧: chili pepper — the main ingredient; also used as a general term for chili\n\nCULTURAL NOTE:\n{七味|しちみ} is an essential table condiment in Japan, found at most noodle shops and restaurants. Famous producers include Yagenbori in Tokyo (since 1625) and Shichimiya in Kyoto (since 1655). Each shop's blend is slightly different, and buying {七味|しちみ} is a popular souvenir activity.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11238_ichimi",
+      "reading": "いちみ",
+      "headword": "{一味|いちみ}",
+      "label": "ichimi"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12412_sanshou",
+      "reading": "さんしょう",
+      "headword": "{山椒|さんしょう}",
+      "label": "sansho pepper"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11871_tougarashi",
+      "reading": "とうがらし",
+      "headword": "{唐辛子|とうがらし}",
+      "label": "chili pepper"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food", "culture"]
+      "semantic": [
+        "food",
+        "culture"
+      ]
     },
     "created": "2026-03-28T14:17:02Z",
-    "modified": "2026-03-28T14:17:02Z"
+    "modified": "2026-09-02T04:01:58Z"
   }
 }

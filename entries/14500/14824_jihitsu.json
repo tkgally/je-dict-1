@@ -15,42 +15,62 @@
   "examples": [
     {
       "id": "14824_jihitsu_ex1",
-      "japanese": "これは{作者|さくしゃ}の{自筆|じひつ}の{原稿|げんこう}です。",
+      "japanese": "⟦これ→これ：00963_kore⟧⟦は→は：00079_ha⟧⟦{作者|さくしゃ}→作者：04169_sakusha⟧⟦の→の：09472_no⟧{自筆|じひつ}⟦の→の：09472_no⟧⟦{原稿|げんこう}→原稿：00064_genkou⟧です。",
       "english": "This is the author's handwritten manuscript.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14824_jihitsu_ex2",
-      "japanese": "{自筆|じひつ}の{手紙|てがみ}には{特別|とくべつ}な{温|あたた}かみがある。",
+      "japanese": "{自筆|じひつ}⟦の→の：09472_no⟧⟦{手紙|てがみ}→手紙：00675_tegami⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{特別|とくべつ}→特別：01120_tokubetsu⟧な⟦{温|あたた}かみ→温かみ：25336_atatakami⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "A handwritten letter has a special warmth to it.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14824_jihitsu_ex3",
-      "japanese": "{遺言書|ゆいごんしょ}は{自筆|じひつ}で{書|か}かなければ{法的|ほうてき}に{有効|ゆうこう}にならない{場合|ばあい}がある。",
+      "japanese": "{遺言書|ゆいごんしょ}⟦は→は：00079_ha⟧{自筆|じひつ}⟦で→で：00502_de⟧⟦{書|か}かなければ→書く：00477_kaku⟧⟦{法的|ほうてき}→法的：13300_houteki⟧⟦に→に：00314_ni⟧⟦{有効|ゆうこう}→有効：03645_yuukou⟧⟦に→に：00314_ni⟧⟦ならない→なる：01970_naru⟧⟦{場合|ばあい}→場合：01704_baai⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "In some cases, a will must be written in one's own hand to be legally valid.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "A compound of {自|じ} (self) and {筆|ひつ} (brush, writing). Used as a noun modifier: {自筆|じひつ}の{手紙|てがみ} (handwritten letter).\n\nCOMMON COLLOCATIONS:\n- {自筆|じひつ}の{手紙|てがみ} (handwritten letter)\n- {自筆|じひつ}の{原稿|げんこう} (handwritten manuscript)\n- {自筆|じひつ}{証書|しょうしょ}{遺言|ゆいごん} (holographic will — a legal term)\n- {自筆|じひつ}で{書|か}く (to write in one's own hand)\n- {自筆|じひつ}サイン (personal autograph/signature)\n\nIn legal contexts, {自筆|じひつ}{証書|しょうしょ}{遺言|ゆいごん} refers to a will written entirely by the testator's own hand, which has specific legal requirements in Japanese law.",
-  "cross_references": [],
+  "notes": "A compound of {自|じ} (self) and {筆|ひつ} (brush, writing). Used as a noun modifier: {自筆|じひつ}⟦の→の：09472_no⟧⟦{手紙|てがみ}→手紙：00675_tegami⟧ (handwritten letter).\n\nCOMMON COLLOCATIONS:\n- {自筆|じひつ}⟦の→の：09472_no⟧⟦{手紙|てがみ}→手紙：00675_tegami⟧ (handwritten letter)\n- {自筆|じひつ}⟦の→の：09472_no⟧⟦{原稿|げんこう}→原稿：00064_genkou⟧ (handwritten manuscript)\n- {自筆|じひつ}⟦{証書|しょうしょ}→証書：18959_shousho⟧⟦{遺言|ゆいごん}→遺言：10896_yuigon⟧ (holographic will — a legal term)\n- {自筆|じひつ}⟦で→で：00502_de⟧⟦{書|か}く→書く：00477_kaku⟧ (to write in one's own hand)\n- {自筆|じひつ}⟦サイン→サイン：03846_sain⟧ (personal autograph/signature)\n\nIn legal contexts, {自筆|じひつ}⟦{証書|しょうしょ}→証書：18959_shousho⟧⟦{遺言|ゆいごん}→遺言：10896_yuigon⟧ refers to a will written entirely by the testator's own hand, which has specific legal requirements in Japanese law.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21841_jikihitsu",
+      "reading": "じきひつ",
+      "headword": "{直筆|じきひつ}",
+      "label": "one's own handwriting"
+    }
+  ],
   "metadata": {
     "created": "2026-03-04T04:06:30Z",
-    "modified": "2026-03-04T04:06:30Z",
+    "modified": "2026-09-02T04:01:38Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["communication"],
-      "style": ["written"]
+      "semantic": [
+        "communication"
+      ],
+      "style": [
+        "written"
+      ]
     }
   }
 }

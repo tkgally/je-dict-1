@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "10443_teiseisuru_ex1",
-      "japanese": "{間違|まちが}いを{訂正|ていせい}する。",
+      "japanese": "⟦{間違|まちが}い→間違い：03733_machigai⟧⟦を→を：00422_wo⟧{訂正|ていせい}する。",
       "english": "To correct a mistake.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "10443_teiseisuru_ex2",
-      "japanese": "{発言|はつげん}を{訂正|ていせい}させてください。",
+      "japanese": "⟦{発言|はつげん}→発言：05099_hatsugen⟧⟦を→を：00422_wo⟧{訂正|ていせい}させて⟦ください→ください：02899_kudasai⟧。",
       "english": "Please allow me to correct my statement.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "10443_teiseisuru_ex3",
-      "japanese": "{記事|きじ}の{誤|あやま}りが{見|み}つかったので、すぐに{訂正|ていせい}した。",
+      "japanese": "⟦{記事|きじ}→記事：00227_kiji⟧⟦の→の：09472_no⟧⟦{誤|あやま}り→誤り：01772_ayamari⟧⟦が→が：00051_ga⟧⟦{見|み}つかった→見つかる：01173_mitsukaru⟧⟦の→の：09472_no⟧で、⟦すぐ→すぐ：00814_sugu⟧⟦に→に：00314_ni⟧{訂正|ていせい}した。",
       "english": "An error was found in the article, so it was corrected immediately.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,47 @@
       ]
     }
   ],
-  "notes": "{訂正|ていせい}する is composed of {訂|てい} (correct) + {正|せい} (right, correct).\n\nTRANSITIVITY:\n- Type: Transitive ({他動詞|たどうし})\n- Pattern: 〜を{訂正|ていせい}する\n\nCOMMON COLLOCATIONS:\n- {間違|まちが}いを{訂正|ていせい}する: to correct a mistake\n- {誤字|ごじ}を{訂正|ていせい}する: to correct a typo\n- {発言|はつげん}を{訂正|ていせい}する: to correct a statement\n\nSIMILAR WORDS:\n- {訂正|ていせい}する: to correct (errors in text/statements)\n- {修正|しゅうせい}する: to revise, to modify (broader, includes improvements)\n- {直|なお}す: to fix (general, everyday)",
-  "cross_references": [],
+  "notes": "{訂正|ていせい}する is composed of {訂|てい} (correct) + ⟦{正|せい}→正：09511_sei⟧ (right, correct).\n\nTRANSITIVITY:\n- Type: Transitive (⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧)\n- Pattern: 〜⟦を→を：00422_wo⟧{訂正|ていせい}する\n\nCOMMON COLLOCATIONS:\n- ⟦{間違|まちが}い→間違い：03733_machigai⟧⟦を→を：00422_wo⟧{訂正|ていせい}する: to correct a mistake\n- ⟦{誤字|ごじ}→誤字：16131_goji⟧⟦を→を：00422_wo⟧{訂正|ていせい}する: to correct a typo\n- ⟦{発言|はつげん}→発言：05099_hatsugen⟧⟦を→を：00422_wo⟧{訂正|ていせい}する: to correct a statement\n\nSIMILAR WORDS:\n- {訂正|ていせい}する: to correct (errors in text/statements)\n- ⟦{修正|しゅうせい}する→修正する：25527_shuuseisuru⟧: to revise, to modify (broader, includes improvements)\n- {直|なお}す: to fix (general, everyday)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25527_shuuseisuru",
+      "reading": "しゅうせいする",
+      "headword": "{修正|しゅうせい}する",
+      "label": "to revise, to modify"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00869_naosu",
+      "reading": "なおす",
+      "headword": "{直|なお}す",
+      "label": "to fix"
+    },
+    {
+      "type": "related",
+      "target_id": "08256_iinaosu",
+      "reading": "いいなおす",
+      "headword": "{言|い}い{直|なお}す",
+      "label": "to rephrase"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10132_tadasu",
+      "reading": "ただす",
+      "headword": "{正|ただ}す",
+      "label": "to correct"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26798_hoseisuru",
+      "reading": "ほせいする",
+      "headword": "{補正|ほせい}する",
+      "label": "to correct"
+    }
+  ],
   "metadata": {
     "created": "2026-02-07T11:20:16Z",
-    "modified": "2026-03-29T03:07:35Z",
+    "modified": "2026-09-02T04:01:21Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

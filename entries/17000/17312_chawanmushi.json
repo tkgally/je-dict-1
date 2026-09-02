@@ -15,41 +15,66 @@
   "examples": [
     {
       "id": "17312_chawanmushi_ex1",
-      "japanese": "{茶碗蒸|ちゃわんむ}しが{大好|だいす}きだ。",
+      "japanese": "{茶碗蒸|ちゃわんむ}し⟦が→が：00051_ga⟧⟦{大好|だいす}き→大好き：02911_daisuki⟧だ。",
       "english": "I love chawanmushi.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17312_chawanmushi_ex2",
-      "japanese": "{寿司屋|すしや}で{茶碗蒸|ちゃわんむ}しを{注文|ちゅうもん}した。",
+      "japanese": "⟦{寿司屋|すしや}→寿司屋：10166_sushiya⟧⟦で→で：00502_de⟧{茶碗蒸|ちゃわんむ}し⟦を→を：00422_wo⟧⟦{注文|ちゅうもん}した→注文する：21390_chuumon⟧。",
       "english": "I ordered chawanmushi at the sushi restaurant.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17312_chawanmushi_ex3",
-      "japanese": "{祖母|そぼ}の{作|つく}る{茶碗蒸|ちゃわんむ}しは、{具|ぐ}がたっぷり{入|はい}っていて{美味|おい}しい。",
+      "japanese": "⟦{祖母|そぼ}→祖母：00813_sobo⟧⟦の→の：09472_no⟧⟦{作|つく}る→作る：00481_tsukuru⟧{茶碗蒸|ちゃわんむ}し⟦は→は：00079_ha⟧、⟦{具|ぐ}→具：07857_gu⟧⟦が→が：00051_ga⟧⟦たっぷり→たっぷり：03404_tappuri⟧⟦{入|はい}っていて→入る：00494_hairu⟧⟦{美味|おい}しい→美味しい：00740_oishii⟧。",
       "english": "My grandmother's chawanmushi is delicious, packed full of ingredients.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "CULTURE:\nA classic Japanese dish often served at {寿司屋|すしや} (sushi restaurants) and in {懐石料理|かいせきりょうり} (traditional multi-course meals). The name literally means \"tea bowl steamed\" — {茶碗|ちゃわん} (tea bowl/cup) + {蒸|む}し (steaming). Common ingredients include {鶏肉|とりにく} (chicken), {海老|えび} (shrimp), {椎茸|しいたけ} (shiitake mushrooms), {銀杏|ぎんなん} (ginkgo nuts), and {三|み}つ{葉|ば} (mitsuba herb).\n\nCOMMON COLLOCATIONS:\n- {茶碗蒸|ちゃわんむ}しを{作|つく}る (to make chawanmushi)\n- {茶碗蒸|ちゃわんむ}しの{具|ぐ} (chawanmushi ingredients)",
-  "cross_references": [],
+  "notes": "CULTURAL NOTE:\nA classic Japanese dish often served at ⟦{寿司屋|すしや}→寿司屋：10166_sushiya⟧ (sushi restaurants) and in {懐石料理|かいせきりょうり} (traditional multi-course meals). The name literally means \"tea bowl steamed\" — ⟦{茶碗|ちゃわん}→茶碗：01019_chawan⟧ (tea bowl/cup) + ⟦{蒸|む}し→蒸し：14266_mushi⟧ (steaming). Common ingredients include ⟦{鶏肉|とりにく}→鶏肉：02919_toriniku⟧ (chicken), ⟦{海老|えび}→海老：02272_ebi⟧ (shrimp), {椎茸|しいたけ} (shiitake mushrooms), ⟦{銀杏|ぎんなん}→銀杏：28490_ginnan⟧ (ginkgo nuts), and ⟦{三|み}つ{葉|ば}→三つ葉：11242_mitsuba⟧ (mitsuba herb).\n\nCOMMON COLLOCATIONS:\n- {茶碗蒸|ちゃわんむ}し⟦を→を：00422_wo⟧⟦{作|つく}る→作る：00481_tsukuru⟧ (to make chawanmushi)\n- {茶碗蒸|ちゃわんむ}し⟦の→の：09472_no⟧⟦{具|ぐ}→具：07857_gu⟧ (chawanmushi ingredients)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "02307_musu",
+      "reading": "むす",
+      "headword": "{蒸|む}す",
+      "label": "to steam, to be humid"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21371_dashimaki",
+      "reading": "だしまき",
+      "headword": "{出汁巻|だしま}き",
+      "label": "dashi-rolled omelette"
+    }
+  ],
   "metadata": {
     "created": "2026-03-17T05:57:49Z",
-    "modified": "2026-03-17T05:57:49Z",
+    "modified": "2026-09-02T04:01:48Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food"]
+      "semantic": [
+        "food"
+      ]
     }
   }
 }

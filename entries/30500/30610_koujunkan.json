@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30610_koujunkan_ex1",
-      "japanese": "{経済|けいざい}の{好|こう}{循環|じゅんかん}が{生|う}まれた。",
+      "japanese": "⟦{経済|けいざい}→経済：01394_keizai⟧⟦の→の：09472_no⟧{好|こう}{循環|じゅんかん}⟦が→が：00051_ga⟧⟦{生|う}まれた→生まれる：00905_umareru⟧。",
       "english": "A virtuous cycle has emerged in the economy.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30610_koujunkan_ex2",
-      "japanese": "{賃上|ちんあ}げと{消費|しょうひ}の{好|こう}{循環|じゅんかん}を{目指|めざ}す。",
+      "japanese": "⟦{賃上|ちんあ}げ→賃上げ：14256_chinage⟧⟦と→と：00512_to⟧⟦{消費|しょうひ}→消費：03240_shouhi⟧⟦の→の：09472_no⟧{好|こう}{循環|じゅんかん}⟦を→を：00422_wo⟧⟦{目指|めざ}す→目指す：10528_mezasu⟧。",
       "english": "We are aiming for a virtuous cycle of wage increases and consumption.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30610_koujunkan_ex3",
-      "japanese": "{社員|しゃいん}の{満足度|まんぞくど}が{上|あ}がればサービスの{質|しつ}も{上|あ}がるという{好|こう}{循環|じゅんかん}に{入|はい}っている。",
+      "japanese": "⟦{社員|しゃいん}→社員：03065_shain⟧⟦の→の：09472_no⟧{満足度|まんぞくど}⟦が→が：00051_ga⟧⟦{上|あ}がれば→上がる：00615_agaru⟧⟦サービス→サービス：01531_saabisu⟧⟦の→の：09472_no⟧⟦{質|しつ}→質：01425_shitsu⟧⟦も→も：00484_mo⟧⟦{上|あ}がる→上がる：00615_agaru⟧⟦という→という：09577_toiu⟧{好|こう}{循環|じゅんかん}⟦に→に：00314_ni⟧⟦{入|はい}っている→入る：00494_hairu⟧。",
       "english": "We have entered a virtuous cycle in which higher employee satisfaction raises the quality of service.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "COMMON COLLOCATIONS:\n- {好|こう}{循環|じゅんかん}を{生|う}む: to create a virtuous cycle\n- {好|こう}{循環|じゅんかん}に{入|はい}る: to enter a virtuous cycle\n- {好|こう}{循環|じゅんかん}が{回|まわ}り{始|はじ}める: for the cycle to start turning\n\nOPPOSITE:\n- {悪|あく}{循環|じゅんかん}: vicious cycle — the far more frequently used of the pair, and the word to learn first.\n\nUSAGE:\nMostly written and formal: economics reporting, policy statements, and business planning. In casual speech people describe the same idea with いい{流|なが}れ (a good run of things).",
+  "notes": "COMMON COLLOCATIONS:\n- {好|こう}{循環|じゅんかん}⟦を→を：00422_wo⟧⟦{生|う}む→生む：29531_umu⟧: to create a virtuous cycle\n- {好|こう}{循環|じゅんかん}⟦に→に：00314_ni⟧⟦{入|はい}る→入る：00494_hairu⟧: to enter a virtuous cycle\n- {好|こう}{循環|じゅんかん}⟦が→が：00051_ga⟧⟦{回|まわ}り→回る：01150_mawaru⟧{始|はじ}める: for the cycle to start turning\n\nSIMILAR WORDS:\n- ⟦{悪|あく}{循環|じゅんかん}→悪循環：12668_akujunkan⟧: vicious cycle — the far more frequently used of the pair, and the word to learn first.\n\nUSAGE:\nMostly written and formal: economics reporting, policy statements, and business planning. In casual speech people describe the same idea with ⟦いい→いい：00118_ii⟧⟦{流|なが}れ→流れ：03504_nagare⟧ (a good run of things).",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12668_akujunkan",
+      "reading": "あくじゅんかん",
+      "headword": "{悪循環|あくじゅんかん}",
+      "label": "vicious cycle"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +62,7 @@
         "noun"
       ],
       "formality": "formal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "economics",
         "abstract"
@@ -63,6 +72,6 @@
       ]
     },
     "created": "2026-08-13T00:22:39Z",
-    "modified": "2026-08-13T00:22:39Z"
+    "modified": "2026-09-02T04:02:40Z"
   }
 }

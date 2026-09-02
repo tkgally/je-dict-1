@@ -78,11 +78,47 @@
       "notes": null
     }
   ],
-  "notes": "{戦|たたか}い means battle, fight, or struggle - the noun form of ⟦{戦|たたか}う→戦う：02071_tatakau⟧ (to fight).\n\nUSES:\n- Military: {戦|たたか}い⟦に→に：00314_ni⟧⟦{勝|か}つ→勝つ：01199_katsu⟧ (to win a battle)\n- Sports: ⟦{優勝|ゆうしょう}→優勝：03647_yuushou⟧⟦を→を：00422_wo⟧⟦かけた→かける：00854_kakeru⟧{戦|たたか}い (a fight for the championship)\n- Figurative: ⟦{病気|びょうき}→病気：00771_byouki⟧⟦と→と：00512_to⟧⟦の→の：09472_no⟧{戦|たたか}い (fight against illness)\n\nCOMMON PATTERNS:\n- 〜⟦と→と：00512_to⟧⟦の→の：09472_no⟧{戦|たたか}い: fight/battle against ~\n- {戦|たたか}い⟦に→に：00314_ni⟧⟦{勝|か}つ→勝つ：01199_katsu⟧: to win a fight\n- {戦|たたか}い⟦に→に：00314_ni⟧⟦{負|ま}ける→負ける：01134_makeru⟧: to lose a fight\n- {戦|たたか}い⟦が→が：00051_ga⟧⟦{始|はじ}まる→始まる：00841_hajimaru⟧: the battle begins\n\nRELATED WORDS:\n- ⟦{戦|たたか}う→戦う：02071_tatakau⟧: to fight (verb)\n- ⟦{戦争|せんそう}→戦争：01450_sensou⟧: war\n- ⟦{闘|たたか}い→闘い：17305_tatakai⟧: fight (alternative kanji, same meaning)\n- ⟦{勝負|しょうぶ}→勝負：01437_shoubu⟧: match, contest",
-  "cross_references": [],
+  "notes": "{戦|たたか}い means battle, fight, or struggle - the noun form of ⟦{戦|たたか}う→戦う：02071_tatakau⟧ (to fight).\n\nFUNCTIONS:\n- Military: {戦|たたか}い⟦に→に：00314_ni⟧⟦{勝|か}つ→勝つ：01199_katsu⟧ (to win a battle)\n- Sports: ⟦{優勝|ゆうしょう}→優勝：03647_yuushou⟧⟦を→を：00422_wo⟧⟦かけた→かける：00854_kakeru⟧{戦|たたか}い (a fight for the championship)\n- Figurative: ⟦{病気|びょうき}→病気：00771_byouki⟧⟦と→と：00512_to⟧⟦の→の：09472_no⟧{戦|たたか}い (fight against illness)\n\nCOMMON PATTERNS:\n- 〜⟦と→と：00512_to⟧⟦の→の：09472_no⟧{戦|たたか}い: fight/battle against ~\n- {戦|たたか}い⟦に→に：00314_ni⟧⟦{勝|か}つ→勝つ：01199_katsu⟧: to win a fight\n- {戦|たたか}い⟦に→に：00314_ni⟧⟦{負|ま}ける→負ける：01134_makeru⟧: to lose a fight\n- {戦|たたか}い⟦が→が：00051_ga⟧⟦{始|はじ}まる→始まる：00841_hajimaru⟧: the battle begins\n\nRELATED WORDS:\n- ⟦{戦|たたか}う→戦う：02071_tatakau⟧: to fight (verb)\n- ⟦{戦争|せんそう}→戦争：01450_sensou⟧: war\n- ⟦{闘|たたか}い→闘い：17305_tatakai⟧: fight (alternative kanji, same meaning)\n- ⟦{勝負|しょうぶ}→勝負：01437_shoubu⟧: match, contest",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "02071_tatakau",
+      "reading": "たたかう",
+      "headword": "{戦|たたか}う",
+      "label": "to fight"
+    },
+    {
+      "type": "related",
+      "target_id": "01450_sensou",
+      "reading": "せんそう",
+      "headword": "{戦争|せんそう}",
+      "label": "war"
+    },
+    {
+      "type": "related",
+      "target_id": "01437_shoubu",
+      "reading": "しょうぶ",
+      "headword": "{勝負|しょうぶ}",
+      "label": "match, contest"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11452_soudatsusen",
+      "reading": "そうだつせん",
+      "headword": "{争奪戦|そうだつせん}",
+      "label": "contest, battle, scramble"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12639_sentou",
+      "reading": "せんとう",
+      "headword": "{戦闘|せんとう}",
+      "label": "combat, battle, fighting"
+    }
+  ],
   "metadata": {
     "created": "2026-01-09T12:50:54Z",
-    "modified": "2026-05-18T13:16:13Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

@@ -2,7 +2,7 @@
   "id": "03570_hansei",
   "headword": "{反省|はんせい}",
   "reading": "はんせい",
-  "part_of_speech": "noun, suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "reflection, self-examination",
   "conjugation": {
     "type": "suru",
@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "03570_hansei_ex1",
-      "japanese": "⟦{自分|じぶん}→自分：02887_jibun⟧⟦の→の：09472_no⟧⟦{行動|こうどう}→行動：02728_koudou⟧⟦を→を：00422_wo⟧{反省|はんせい}している。",
+      "japanese": "⟦{自分|じぶん}→自分：02887_jibun⟧⟦の→の：09472_no⟧⟦{行動|こうどう}→行動：02728_koudou⟧⟦を→を：00422_wo⟧{反省|はんせい}⟦している→する：00392_suru⟧。",
       "english": "I'm reflecting on my actions.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "03570_hansei_ex3",
-      "japanese": "⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦で→で：00502_de⟧⟦{今月|こんげつ}→今月：00720_kongetsu⟧⟦の→の：09472_no⟧{反省|はんせい}⟦を→を：00422_wo⟧した。",
+      "japanese": "⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦で→で：00502_de⟧⟦{今月|こんげつ}→今月：00720_kongetsu⟧⟦の→の：09472_no⟧{反省|はんせい}⟦を→を：00422_wo⟧⟦した→する：00392_suru⟧。",
       "english": "We reviewed this month's (performance) at the meeting.",
       "notes": null,
       "has_audio": false,
@@ -133,10 +133,10 @@
       ]
     }
   ],
-  "notes": "USAGE: {反省|はんせい} involves looking back on past actions critically. It often implies acknowledgment of mistakes and intention to improve.\n\nCOMMON PATTERNS:\n・{反省|はんせい}する (to reflect, to reconsider)\n・{反省|はんせい}⟦を→を：00422_wo⟧⟦{促|うなが}す→促す：10875_unagasu⟧ (to urge reflection)\n・{反省|はんせい}⟦の→の：09472_no⟧⟦{色|いろ}→色：00849_iro⟧⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧ (shows no remorse)\n・⟦{深|ふか}く→深い：01211_fukai⟧{反省|はんせい}する (to deeply reflect)\n\nCOMMON COMPOUNDS:\n・⟦{反省|はんせい}{会|かい}→反省会：28191_hanseikai⟧ (review meeting, debriefing)\n・⟦{反省|はんせい}{点|てん}→反省点：28214_hanseiten⟧ (points for reflection)\n・⟦{反省|はんせい}{文|ぶん}→反省文：20631_hanseibun⟧ (written apology/reflection)\n・⟦{自己|じこ}→自己：23357_jiko⟧{反省|はんせい} (self-reflection)\n\nCULTURAL NOTE: {反省|はんせい} is highly valued in Japanese culture. Publicly acknowledging mistakes and expressing remorse ({反省|はんせい}している) is expected in apologies.",
+  "notes": "USAGE: {反省|はんせい} involves looking back on past actions critically. It often implies acknowledgment of mistakes and intention to improve.\n\nCOMMON PATTERNS:\n- {反省|はんせい}⟦する→する：00392_suru⟧ (to reflect, to reconsider)\n- {反省|はんせい}⟦を→を：00422_wo⟧⟦{促|うなが}す→促す：10875_unagasu⟧ (to urge reflection)\n- {反省|はんせい}⟦の→の：09472_no⟧⟦{色|いろ}→色：00849_iro⟧⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧ (shows no remorse)\n- ⟦{深|ふか}く→深い：01211_fukai⟧{反省|はんせい}⟦する→する：00392_suru⟧ (to deeply reflect)\n\nCOMPOUNDS:\n- ⟦{反省|はんせい}{会|かい}→反省会：28191_hanseikai⟧ (review meeting, debriefing)\n- ⟦{反省|はんせい}{点|てん}→反省点：28214_hanseiten⟧ (points for reflection)\n- ⟦{反省|はんせい}{文|ぶん}→反省文：20631_hanseibun⟧ (written apology/reflection)\n- ⟦{自己|じこ}→自己：23357_jiko⟧{反省|はんせい} (self-reflection)\n\nCULTURAL NOTE: {反省|はんせい} is highly valued in Japanese culture. Publicly acknowledging mistakes and expressing remorse ({反省|はんせい}⟦している→する：00392_suru⟧) is expected in apologies.",
   "metadata": {
     "created": "2026-01-12T11:50:00Z",
-    "modified": "2026-08-13T15:50:29Z",
+    "modified": "2026-09-02T04:01:03Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -159,6 +159,48 @@
       "reading": "かえりみる",
       "headword": "{省|かえり}みる",
       "label": "to reflect on (literary)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02738_koukai",
+      "reading": "こうかい",
+      "headword": "{後悔|こうかい}",
+      "label": "regret, remorse"
+    },
+    {
+      "type": "related",
+      "target_id": "06592_kaikon",
+      "reading": "かいこん",
+      "headword": "{悔恨|かいこん}",
+      "label": "remorse"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12912_kaishin",
+      "reading": "かいしん",
+      "headword": "{改心|かいしん}",
+      "label": "change of heart, repentance, reform"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20401_jisei",
+      "reading": "じせい",
+      "headword": "{自省|じせい}",
+      "label": "self-reflection"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22766_jikohihan",
+      "reading": "じこひはん",
+      "headword": "{自己批判|じこひはん}",
+      "label": "self-criticism"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26125_naikan",
+      "reading": "ないかん",
+      "headword": "{内観|ないかん}",
+      "label": "introspection"
     }
   ]
 }

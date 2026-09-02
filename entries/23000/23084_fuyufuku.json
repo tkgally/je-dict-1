@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "23084_fuyufuku_ex1",
-      "japanese": "そろそろ{冬服|ふゆふく}を{出|だ}そう。",
+      "japanese": "⟦そろそろ→そろそろ：01259_sorosoro⟧{冬服|ふゆふく}⟦を→を：00422_wo⟧⟦{出|だ}そう→出す：01087_dasu⟧。",
       "english": "It's about time to get out the winter clothes.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "23084_fuyufuku_ex2",
-      "japanese": "{学校|がっこう}の{冬服|ふゆふく}はブレザーだ。",
+      "japanese": "⟦{学校|がっこう}→学校：00055_gakkou⟧⟦の→の：09472_no⟧{冬服|ふゆふく}⟦は→は：00079_ha⟧⟦ブレザー→ブレザー：28533_burezaa⟧だ。",
       "english": "The school's winter uniform is a blazer.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "23084_fuyufuku_ex3",
-      "japanese": "{冬服|ふゆふく}はかさばるので、{収納|しゅうのう}に{困|こま}る。",
+      "japanese": "{冬服|ふゆふく}⟦は→は：00079_ha⟧かさばる⟦の→の：09472_no⟧で、⟦{収納|しゅうのう}→収納：07497_shuunou⟧⟦に→に：00314_ni⟧⟦{困|こま}る→困る：00861_komaru⟧。",
       "english": "Winter clothes are bulky, so storage is a problem.",
       "sense_numbers": [
         1
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {冬|ふゆ} (winter) and {服|ふく} (clothes). In Japan, many schools and workplaces have designated periods for switching between {夏服|なつふく} (summer clothes) and {冬服|ふゆふく} (winter clothes), known as {衣替|ころもが}え.\n\nCOMMON COLLOCATIONS:\n- {冬服|ふゆふく}を{出|だ}す: to get out winter clothes (from storage)\n- {冬服|ふゆふく}に{替|か}える: to switch to winter clothes\n- {冬服|ふゆふく}をしまう: to put away winter clothes\n\nSIMILAR WORDS:\n- {夏服|なつふく}: summer clothes — the seasonal counterpart\n- {防寒着|ぼうかんぎ}: cold-weather gear — heavier protection against cold\n- {衣替|ころもが}え: seasonal wardrobe change — the practice of switching seasonal clothing",
+  "notes": "A compound of ⟦{冬|ふゆ}→冬：00623_fuyu⟧ (winter) and ⟦{服|ふく}→服：00695_fuku⟧ (clothes). In Japan, many schools and workplaces have designated periods for switching between ⟦{夏服|なつふく}→夏服：23421_natsufuku⟧ (summer clothes) and {冬服|ふゆふく} (winter clothes), known as ⟦{衣替|ころもが}え→衣替え：07709_koromogae⟧.\n\nCOMMON COLLOCATIONS:\n- {冬服|ふゆふく}⟦を→を：00422_wo⟧⟦{出|だ}す→出す：01087_dasu⟧: to get out winter clothes (from storage)\n- {冬服|ふゆふく}⟦に→に：00314_ni⟧⟦{替|か}える→替える：13399_kaeru⟧: to switch to winter clothes\n- {冬服|ふゆふく}⟦を→を：00422_wo⟧しまう: to put away winter clothes\n\nSIMILAR WORDS:\n- ⟦{夏服|なつふく}→夏服：23421_natsufuku⟧: summer clothes — the seasonal counterpart\n- ⟦{防寒着|ぼうかんぎ}→防寒着：20243_boukangi⟧: cold-weather gear — heavier protection against cold\n- ⟦{衣替|ころもが}え→衣替え：07709_koromogae⟧: seasonal wardrobe change — the practice of switching seasonal clothing",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23421_natsufuku",
+      "reading": "なつふく",
+      "headword": "{夏服|なつふく}",
+      "label": "summer clothes"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20243_boukangi",
+      "reading": "ぼうかんぎ",
+      "headword": "{防寒着|ぼうかんぎ}",
+      "label": "cold-weather gear"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07709_koromogae",
+      "reading": "ころもがえ",
+      "headword": "{衣替|ころもが}え",
+      "label": "seasonal wardrobe change"
+    },
+    {
+      "type": "related",
+      "target_id": "25728_boukanfuku",
+      "reading": "ぼうかんふく",
+      "headword": "{防寒服|ぼうかんふく}",
+      "label": "cold-weather clothing"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +90,6 @@
       ]
     },
     "created": "2026-04-08T18:29:50Z",
-    "modified": "2026-07-31T00:22:50Z"
+    "modified": "2026-09-02T04:02:10Z"
   }
 }

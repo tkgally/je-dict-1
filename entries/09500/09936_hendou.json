@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "09936_hendou_ex1",
-      "japanese": "{価格|かかく}が{変動|へんどう}する。",
+      "japanese": "⟦{価格|かかく}→価格：00147_kakaku⟧⟦が→が：00051_ga⟧{変動|へんどう}⟦する→する：00392_suru⟧。",
       "english": "Prices fluctuate.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "09936_hendou_ex2",
-      "japanese": "{気候|きこう}{変動|へんどう}が{問題|もんだい}だ。",
+      "japanese": "⟦{気候|きこう}→気候：00231_kikou⟧{変動|へんどう}⟦が→が：00051_ga⟧⟦{問題|もんだい}→問題：00797_mondai⟧だ。",
       "english": "Climate change is a problem.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "09936_hendou_ex3",
-      "japanese": "{為替|かわせ}{変動|へんどう}の{影響|えいきょう}を{受|う}けた。",
+      "japanese": "⟦{為替|かわせ}→為替：04021_kawase⟧{変動|へんどう}⟦の→の：09472_no⟧⟦{影響|えいきょう}→影響：01877_eikyou⟧⟦を→を：00422_wo⟧⟦{受|う}けた→受ける：01215_ukeru⟧。",
       "english": "We were affected by exchange rate fluctuations.",
       "notes": null,
       "has_audio": false,
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "{変動|へんどう} refers to fluctuation or change — often unpredictable shifts in values, conditions, or situations.\n\nWORD FORMATION:\n{変|へん} (change) + {動|どう} (movement).\n\nCOMMON COMPOUNDS:\n- {気候|きこう}{変動|へんどう}: climate change\n- {価格|かかく}{変動|へんどう}: price fluctuation\n- {為替|かわせ}{変動|へんどう}: exchange rate fluctuation\n- {変動|へんどう}{相場|そうば}: floating exchange rate\n- {変動|へんどう}{金利|きんり}: variable interest rate\n\nCOMMON PATTERNS:\n- {変動|へんどう}する: to fluctuate, to shift\n- {変動|へんどう}が{激|はげ}しい: fluctuations are severe\n- {変動|へんどう}が{大|おお}きい: large fluctuations\n\nSIMILAR WORDS:\n- {変動|へんどう}: fluctuation, change (emphasizes instability and movement)\n- {変化|へんか}: change (more general, can be gradual or stable)\n- {変遷|へんせん}: transition, historical change (long-term shifts)",
+  "notes": "{変動|へんどう} refers to fluctuation or change — often unpredictable shifts in values, conditions, or situations.\n\nFORMS:\n⟦{変|へん}→変：01124_hen⟧ (change) + {動|どう} (movement).\n\nCOMPOUNDS:\n- ⟦{気候|きこう}→気候：00231_kikou⟧{変動|へんどう}: climate change\n- ⟦{価格|かかく}→価格：00147_kakaku⟧{変動|へんどう}: price fluctuation\n- ⟦{為替|かわせ}→為替：04021_kawase⟧{変動|へんどう}: exchange rate fluctuation\n- {変動|へんどう}⟦{相場|そうば}→相場：07668_souba⟧: floating exchange rate\n- {変動|へんどう}{金利|きんり}: variable interest rate\n\nCOMMON PATTERNS:\n- {変動|へんどう}⟦する→する：00392_suru⟧: to fluctuate, to shift\n- {変動|へんどう}⟦が→が：00051_ga⟧⟦{激|はげ}しい→激しい：02348_hageshii⟧: fluctuations are severe\n- {変動|へんどう}⟦が→が：00051_ga⟧⟦{大|おお}きい→大きい：00335_ookii⟧: large fluctuations\n\nSIMILAR WORDS:\n- {変動|へんどう}: fluctuation, change (emphasizes instability and movement)\n- ⟦{変化|へんか}→変化：03615_henka⟧: change (more general, can be gradual or stable)\n- ⟦{変遷|へんせん}→変遷：05571_hensen⟧: transition, historical change (long-term shifts)",
   "cross_references": [
     {
       "type": "synonym",
@@ -148,11 +148,46 @@
       "reading": "へんせん",
       "headword": "{変遷|へんせん}",
       "label": "transition (historical)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09740_teigaku",
+      "reading": "ていがく",
+      "headword": "{定額|ていがく}",
+      "label": "flat rate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13371_gekidou",
+      "reading": "げきどう",
+      "headword": "{激動|げきどう}",
+      "label": "upheaval, turbulence"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20079_jougesuru",
+      "reading": "じょうげする",
+      "headword": "{上下|じょうげ}する",
+      "label": "to rise and fall"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20997_henkasuru",
+      "reading": "へんかする",
+      "headword": "{変化|へんか}する",
+      "label": "to change"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21087_kahen",
+      "reading": "かへん",
+      "headword": "{可変|かへん}",
+      "label": "variable"
     }
   ],
   "metadata": {
     "created": "2026-02-04T10:52:33Z",
-    "modified": "2026-04-23T08:17:03Z",
+    "modified": "2026-09-02T04:01:19Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

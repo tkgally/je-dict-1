@@ -15,40 +15,73 @@
   "examples": [
     {
       "id": "20460_shinzan_ex1",
-      "japanese": "{新参|しんざん}{者|もの}にはわからないことが{多|おお}い。",
+      "japanese": "{新参|しんざん}{者|もの}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧わからないこと⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "There's a lot that newcomers don't understand.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20460_shinzan_ex2",
-      "japanese": "この{業界|ぎょうかい}ではまだ{新参|しんざん}なので、{勉強|べんきょう}することが{山|やま}ほどある。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{業界|ぎょうかい}→業界：13129_gyoukai⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦まだ→まだ：00603_mada⟧{新参|しんざん}な⟦の→の：09472_no⟧で、⟦{勉強|べんきょう}する→勉強する：00527_benkyousuru⟧こと⟦が→が：00051_ga⟧⟦{山|やま}→山：02168_yama⟧ほど⟦ある→ある：00006_aru⟧。",
       "english": "I'm still a newcomer in this industry, so there's a mountain of things to learn.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20460_shinzan_ex3",
-      "japanese": "{新参|しんざん}のファンだが、この{作品|さくひん}の{魅力|みりょく}にすっかりはまってしまった。",
+      "japanese": "{新参|しんざん}⟦の→の：09472_no⟧⟦ファン→ファン：10065_fan⟧だ⟦が→が：00051_ga⟧、⟦この→この：00962_kono⟧⟦{作品|さくひん}→作品：02776_sakuhin⟧⟦の→の：09472_no⟧⟦{魅力|みりょく}→魅力：03749_miryoku⟧⟦に→に：00314_ni⟧⟦すっかり→すっかり：01270_sukkari⟧はまってしまった。",
       "english": "I'm a new fan, but I've completely fallen for the charm of this work.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {新|しん} (new) and {参|ざん} (joining, participating). Can be used as a standalone noun or as a modifier with の. The opposite is {古参|こさん} (old-timer, veteran member).\n\nUSAGE:\nCommon in both traditional and modern contexts. In online communities, {新参|しんざん} and {古参|こさん} are frequently used to distinguish between new and long-standing fans or members. Can carry a slight sense of being an outsider who hasn't yet earned full standing.\n\nCOMMON COLLOCATIONS:\n- {新参|しんざん}{者|もの} — newcomer (with the person suffix)\n- {新参|しんざん}ファン — new fan\n- {新参|しんざん}の{企業|きぎょう} — new entrant (company)\n- {新参|しんざん}お{断|ことわ}り — no newcomers allowed\n\nSIMILAR WORDS:\n- {古参|こさん} — old-timer, veteran member (opposite)\n- {新人|しんじん} — new person, rookie (more for workplace/professional contexts)\n- {新入|しんにゅう}り — newcomer, new arrival (more general, less about group dynamics)",
+  "notes": "A compound of {新|しん} (new) and {参|ざん} (joining, participating). Can be used as a standalone noun or as a modifier with ⟦の→の：09472_no⟧. The opposite is ⟦{古参|こさん}→古参：06288_kosan⟧ (old-timer, veteran member).\n\nUSAGE:\nCommon in both traditional and modern contexts. In online communities, {新参|しんざん} and ⟦{古参|こさん}→古参：06288_kosan⟧ are frequently used to distinguish between new and long-standing fans or members. Can carry a slight sense of being an outsider who hasn't yet earned full standing.\n\nCOMMON COLLOCATIONS:\n- {新参|しんざん}{者|もの} — newcomer (with the person suffix)\n- {新参|しんざん}⟦ファン→ファン：10065_fan⟧ — new fan\n- {新参|しんざん}⟦の→の：09472_no⟧⟦{企業|きぎょう}→企業：00225_kigyou⟧ — new entrant (company)\n- {新参|しんざん}お⟦{断|ことわ}り→断る：02102_kotowaru⟧ — no newcomers allowed\n\nSIMILAR WORDS:\n- ⟦{古参|こさん}→古参：06288_kosan⟧ — old-timer, veteran member (opposite)\n- ⟦{新人|しんじん}→新人：02500_shinjin⟧ — new person, rookie (more for workplace/professional contexts)\n- {新入|しんにゅう}り — newcomer, new arrival (more general, less about group dynamics)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "06288_kosan",
+      "reading": "こさん",
+      "headword": "{古参|こさん}",
+      "label": "old-timer, veteran member"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02500_shinjin",
+      "reading": "しんじん",
+      "headword": "{新人|しんじん}",
+      "label": "new person, rookie"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07458_shingao",
+      "reading": "しんがお",
+      "headword": "{新顔|しんがお}",
+      "label": "newcomer"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["society"]
+      "semantic": [
+        "society"
+      ]
     },
     "created": "2026-03-29T14:16:35Z",
-    "modified": "2026-03-29T14:16:35Z"
+    "modified": "2026-09-02T04:01:59Z"
   }
 }

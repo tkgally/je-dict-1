@@ -3,7 +3,7 @@
   "headword": "あれやこれや",
   "reading": "あれやこれや",
   "romaji": "areyakoreya",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, adverb",
   "gloss": "this and that; various things; one thing and another",
   "definitions": [
     {
@@ -15,39 +15,67 @@
   "examples": [
     {
       "id": "25982_areyakoreya_ex1",
-      "japanese": "あれやこれやと{忙|いそが}しい。",
+      "japanese": "あれやこれや⟦と→と：00512_to⟧⟦{忙|いそが}しい→忙しい：00591_isogashii⟧。",
       "english": "I'm busy with this and that.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "25982_areyakoreya_ex2",
-      "japanese": "あれやこれやと{考|かんが}えているうちに、{夜|よる}が{明|あ}けてしまった。",
+      "japanese": "あれやこれや⟦と→と：00512_to⟧⟦{考|かんが}えている→考える：00856_kangaeru⟧うち⟦に→に：00314_ni⟧、⟦{夜|よる}→夜：00487_yoru⟧⟦が→が：00051_ga⟧⟦{明|あ}けて→明ける：21288_akeru⟧しまった。",
       "english": "While I was thinking about one thing and another, dawn came.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "25982_areyakoreya_ex3",
-      "japanese": "{引|ひ}っ{越|こ}しの{準備|じゅんび}であれやこれやと{買|か}い{物|もの}をしていたら、{思|おも}った{以上|いじょう}にお{金|かね}がかかった。",
+      "japanese": "{引|ひ}っ{越|こ}し⟦の→の：09472_no⟧⟦{準備|じゅんび}→準備：01431_junbi⟧であれやこれや⟦と→と：00512_to⟧⟦{買|か}い{物|もの}→買い物：00853_kaimono⟧⟦を→を：00422_wo⟧⟦していたら→する：00392_suru⟧、⟦{思|おも}った→思う：00492_omou⟧⟦{以上|いじょう}→以上：01308_ijou⟧⟦に→に：00314_ni⟧⟦お{金|かね}→お金：00611_okane⟧⟦が→が：00051_ga⟧⟦かかった→かかる：00711_kakaru⟧。",
       "english": "Buying this and that in preparation for the move ended up costing more than I expected.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Formed from あれ (that) + や (and) + これ (this) + や (and). Often followed by the particle と when used adverbially. Conveys a sense of dealing with multiple scattered matters, often with a nuance of being overwhelmed or busy. Can be used both for physical things and abstract concerns.\n\nUSAGE:\n- あれやこれやと + verb: doing various things\n- あれやこれやで + result: because of various things\n\nSIMILAR WORDS:\n- あれこれ: this and that — shorter, more common form with essentially the same meaning\n- {色々|いろいろ}: various — more neutral, simply indicating variety without the scattered nuance\n- {何|なに}やかや: one thing or another — similar nuance of miscellaneous items or concerns",
-  "cross_references": [],
+  "notes": "Formed from ⟦あれ→あれ：00916_are⟧ (that) + や (and) + ⟦これ→これ：00963_kore⟧ (this) + や (and). Often followed by the particle ⟦と→と：00512_to⟧ when used adverbially. Conveys a sense of dealing with multiple scattered matters, often with a nuance of being overwhelmed or busy. Can be used both for physical things and abstract concerns.\n\nUSAGE:\n- あれやこれや⟦と→と：00512_to⟧ + verb: doing various things\n- あれやこれやで + result: because of various things\n\nSIMILAR WORDS:\n- ⟦あれこれ→あれこれ：22192_arekore⟧: this and that — shorter, more common form with essentially the same meaning\n- ⟦{色々|いろいろ}→色々：02352_iroiro⟧: various — more neutral, simply indicating variety without the scattered nuance\n- ⟦{何|なに}→何：00498_nani⟧や⟦か→か：09473_ka⟧や: one thing or another — similar nuance of miscellaneous items or concerns",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22192_arekore",
+      "reading": "あれこれ",
+      "headword": "あれこれ",
+      "label": "this and that"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02352_iroiro",
+      "reading": "いろいろ",
+      "headword": "{色々|いろいろ}",
+      "label": "various"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adverb"],
-      "semantic": ["communication"]
+      "pos": [
+        "noun",
+        "adverb"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "communication"
+      ]
     },
     "created": "2026-04-28T14:16:26Z",
-    "modified": "2026-04-28T14:16:26Z"
+    "modified": "2026-09-02T04:02:24Z"
   }
 }

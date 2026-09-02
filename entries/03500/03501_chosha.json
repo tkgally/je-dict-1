@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "SIMILAR WORDS:\n・{著者|ちょしゃ}: Author (of books, academic works)\n・⟦{作者|さくしゃ}→作者：04169_sakusha⟧: Author, creator (of literary works, manga, plays)\n・⟦{作家|さっか}→作家：01414_sakka⟧: Writer, novelist (professional title)\n・⟦{筆者|ひっしゃ}→筆者：04348_hissha⟧: Writer (of the text you're reading, often essays/articles)\n\nUSAGE NOTE:\n{著者|ちょしゃ} is commonly used in academic or formal contexts, while ⟦{作者|さくしゃ}→作者：04169_sakusha⟧ is broader and includes creative works.\n\nCOMMON PATTERNS:\n・{著者|ちょしゃ}⟦{紹介|しょうかい}→紹介：01432_shoukai⟧ (author introduction/bio)\n・{著者|ちょしゃ}⟦{名|めい}→名：noentry⟧ (author's name)",
+  "notes": "SIMILAR WORDS:\n- {著者|ちょしゃ}: Author (of books, academic works)\n- ⟦{作者|さくしゃ}→作者：04169_sakusha⟧: Author, creator (of literary works, manga, plays)\n- ⟦{作家|さっか}→作家：01414_sakka⟧: Writer, novelist (professional title)\n- ⟦{筆者|ひっしゃ}→筆者：04348_hissha⟧: Writer (of the text you're reading, often essays/articles)\n\nUSAGE:\n{著者|ちょしゃ} is commonly used in academic or formal contexts, while ⟦{作者|さくしゃ}→作者：04169_sakusha⟧ is broader and includes creative works.\n\nCOMMON PATTERNS:\n- {著者|ちょしゃ}⟦{紹介|しょうかい}→紹介：01432_shoukai⟧ (author introduction/bio)\n- {著者|ちょしゃ}⟦{名|めい}→名：noentry⟧ (author's name)",
   "cross_references": [
     {
       "type": "related",
@@ -58,11 +58,53 @@
       "headword": "{作家|さっか}",
       "label": "novelist",
       "target_id": "01414_sakka"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04348_hissha",
+      "reading": "ひっしゃ",
+      "headword": "{筆者|ひっしゃ}",
+      "label": "Writer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03070_shousetsuka",
+      "reading": "しょうせつか",
+      "headword": "{小説家|しょうせつか}",
+      "label": "novelist, fiction writer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22123_gensakusha",
+      "reading": "げんさくしゃ",
+      "headword": "{原作者|げんさくしゃ}",
+      "label": "original author"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22346_shippitsusha",
+      "reading": "しっぴつしゃ",
+      "headword": "{執筆者|しっぴつしゃ}",
+      "label": "author"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26418_hensansha",
+      "reading": "へんさんしゃ",
+      "headword": "{編纂者|へんさんしゃ}",
+      "label": "compiler"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27121_bunpitsuka",
+      "reading": "ぶんぴつか",
+      "headword": "{文筆家|ぶんぴつか}",
+      "label": "writer"
     }
   ],
   "metadata": {
     "created": "2026-01-12T09:25:00Z",
-    "modified": "2026-05-25T22:05:17Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

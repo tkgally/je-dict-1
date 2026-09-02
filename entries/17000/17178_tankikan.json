@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "17178_tankikan_ex1",
-      "japanese": "{短期間|たんきかん}で{日本語|にほんご}が{上達|じょうたつ}した。",
+      "japanese": "{短期間|たんきかん}⟦で→で：00502_de⟧⟦{日本語|にほんご}→日本語：00614_nihongo⟧⟦が→が：00051_ga⟧⟦{上達|じょうたつ}した→上達する：17981_joutatsusuru⟧。",
       "english": "My Japanese improved in a short period of time.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "17178_tankikan_ex2",
-      "japanese": "{短期間|たんきかん}の{留学|りゅうがく}でも{得|え}るものは{多|おお}い。",
+      "japanese": "{短期間|たんきかん}⟦の→の：09472_no⟧⟦{留学|りゅうがく}→留学：03677_ryuugaku⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧⟦{得|え}る→得る：02014_eru⟧もの⟦は→は：00079_ha⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "Even a short study-abroad period yields many benefits.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "17178_tankikan_ex3",
-      "japanese": "あの{会社|かいしゃ}は{短期間|たんきかん}のうちに{急成長|きゅうせいちょう}を{遂|と}げた。",
+      "japanese": "⟦あの→あの：00915_ano⟧⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦は→は：00079_ha⟧{短期間|たんきかん}のうち⟦に→に：00314_ni⟧⟦{急成長|きゅうせいちょう}→急成長：15841_kyuuseichou⟧⟦を→を：00422_wo⟧⟦{遂|と}げた→遂げる：14323_togeru⟧。",
       "english": "That company achieved rapid growth in a short period of time.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nOften used with で (in), の (of), or のうちに (within) to express that something happened in a short time frame. Frequently appears in business, education, and news contexts.\n\nCOMMON COLLOCATIONS:\n- {短期間|たんきかん}で (in a short period)\n- {短期間|たんきかん}のうちに (within a short period)\n- {短期間|たんきかん}の{集中|しゅうちゅう}{講座|こうざ} (short-term intensive course)\n\nCONTRAST:\n- {長期間|ちょうきかん}: long period of time — the opposite\n- {短期|たんき}: short-term — more compact form, often used as a modifier",
+  "notes": "USAGE:\nOften used with で (in), ⟦の→の：09472_no⟧ (of), or のうち⟦に→に：00314_ni⟧ (within) to express that something happened in a short time frame. Frequently appears in business, education, and news contexts.\n\nCOMMON COLLOCATIONS:\n- {短期間|たんきかん}⟦で→で：00502_de⟧ (in a short period)\n- {短期間|たんきかん}のうち⟦に→に：00314_ni⟧ (within a short period)\n- {短期間|たんきかん}⟦の→の：09472_no⟧⟦{集中|しゅうちゅう}→集中：03212_shuuchuu⟧⟦{講座|こうざ}→講座：09790_kouza⟧ (short-term intensive course)\n\nSIMILAR WORDS:\n- ⟦{長期間|ちょうきかん}→長期間：25696_choukikan⟧: long period of time — the opposite\n- ⟦{短期|たんき}→短期：04050_tanki⟧: short-term — more compact form, often used as a modifier",
   "cross_references": [
     {
       "type": "antonym",
@@ -59,11 +59,18 @@
       "reading": "たんき",
       "headword": "{短期|たんき}",
       "label": "short-term"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18286_tanjikan",
+      "reading": "たんじかん",
+      "headword": "{短時間|たんじかん}",
+      "label": "short time"
     }
   ],
   "metadata": {
     "created": "2026-03-16T05:45:23Z",
-    "modified": "2026-07-22T18:50:18Z",
+    "modified": "2026-09-02T04:01:47Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

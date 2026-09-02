@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "23241_kyojuukuukan_ex1",
-      "japanese": "{快適|かいてき}な{居住空間|きょじゅうくうかん}。",
+      "japanese": "⟦{快適|かいてき}→快適：00140_kaiteki⟧な{居住空間|きょじゅうくうかん}。",
       "english": "A comfortable living space.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "23241_kyojuukuukan_ex2",
-      "japanese": "{限|かぎ}られた{居住空間|きょじゅうくうかん}を{有効|ゆうこう}に{使|つか}う。",
+      "japanese": "⟦{限|かぎ}られた→限る：02033_kagiru⟧{居住空間|きょじゅうくうかん}⟦を→を：00422_wo⟧⟦{有効|ゆうこう}→有効：03645_yuukou⟧⟦に→に：00314_ni⟧⟦{使|つか}う→使う：00473_tsukau⟧。",
       "english": "To make effective use of a limited living space.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "23241_kyojuukuukan_ex3",
-      "japanese": "{家族|かぞく}が{増|ふ}えたので、{広|ひろ}い{居住空間|きょじゅうくうかん}のある{家|いえ}に{引|ひ}っ{越|こ}すことにした。",
+      "japanese": "⟦{家族|かぞく}→家族：00552_kazoku⟧⟦が→が：00051_ga⟧⟦{増|ふ}えた→増える：01183_fueru⟧⟦の→の：09472_no⟧で、⟦{広|ひろ}い→広い：00704_hiroi⟧{居住空間|きょじゅうくうかん}⟦の→の：09472_no⟧⟦ある→ある：00006_aru⟧⟦{家|いえ}→家：00612_ie⟧⟦に→に：00314_ni⟧⟦{引|ひ}っ{越|こ}す→引っ越す：01171_hikkosu⟧ことにした。",
       "english": "Because our family grew, we decided to move to a house with more living space.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {居住|きょじゅう} (residence, dwelling) and {空間|くうかん} (space). A somewhat formal and technical term used in architecture, interior design, and real estate contexts. In everyday casual speech, people more often talk about the {部屋|へや} (rooms), {間取|まど}り (floor plan), or simply the house's {広|ひろ}さ (size). {居住空間|きょじゅうくうかん} emphasizes the livable, usable area rather than raw square footage.\n\nCOMMON COLLOCATIONS:\n- {快適|かいてき}な{居住空間|きょじゅうくうかん}: a comfortable living space\n- {広|ひろ}い{居住空間|きょじゅうくうかん}: a spacious living area\n- {居住空間|きょじゅうくうかん}を{確保|かくほ}する: to secure living space\n- {居住空間|きょじゅうくうかん}を{有効活用|ゆうこうかつよう}する: to make effective use of living space\n\nSIMILAR WORDS:\n- {住空間|じゅうくうかん}: short form, same meaning\n- リビング: living room — specifically the common area\n- {間取|まど}り: floor plan, layout of a home\n- {住|す}まい: dwelling, residence — more abstract/emotional word for \"where one lives\"",
+  "notes": "Composed of ⟦{居住|きょじゅう}→居住：06812_kyojuu⟧ (residence, dwelling) and ⟦{空間|くうかん}→空間：13754_kuukan⟧ (space). A somewhat formal and technical term used in architecture, interior design, and real estate contexts. In everyday casual speech, people more often talk about the ⟦{部屋|へや}→部屋：00507_heya⟧ (rooms), ⟦{間取|まど}り→間取り：06078_madori⟧ (floor plan), or simply the house's ⟦{広|ひろ}さ→広さ：00105_hirosa⟧ (size). {居住空間|きょじゅうくうかん} emphasizes the livable, usable area rather than raw square footage.\n\nCOMMON COLLOCATIONS:\n- ⟦{快適|かいてき}→快適：00140_kaiteki⟧な{居住空間|きょじゅうくうかん}: a comfortable living space\n- ⟦{広|ひろ}い→広い：00704_hiroi⟧{居住空間|きょじゅうくうかん}: a spacious living area\n- {居住空間|きょじゅうくうかん}⟦を→を：00422_wo⟧⟦{確保|かくほ}→確保：13681_kakuho⟧⟦する→する：00392_suru⟧: to secure living space\n- {居住空間|きょじゅうくうかん}⟦を→を：00422_wo⟧{有効活用|ゆうこうかつよう}⟦する→する：00392_suru⟧: to make effective use of living space\n\nSIMILAR WORDS:\n- {住空間|じゅうくうかん}: short form, same meaning\n- ⟦リビング→リビング：11198_ribingu⟧: living room — specifically the common area\n- ⟦{間取|まど}り→間取り：06078_madori⟧: floor plan, layout of a home\n- ⟦{住|す}まい→住まい：11555_sumai⟧: dwelling, residence — more abstract/emotional word for \"where one lives\"",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11198_ribingu",
+      "reading": "りびんぐ",
+      "headword": "リビング",
+      "label": "living room"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06078_madori",
+      "reading": "まどり",
+      "headword": "{間取|まど}り",
+      "label": "floor plan, layout of a home"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11555_sumai",
+      "reading": "すまい",
+      "headword": "{住|す}まい",
+      "label": "dwelling, residence"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +83,6 @@
       "politeness": "plain"
     },
     "created": "2026-04-11T12:54:47Z",
-    "modified": "2026-07-31T18:20:34Z"
+    "modified": "2026-09-02T04:02:11Z"
   }
 }

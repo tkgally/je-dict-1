@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "14344_odoriko_ex1",
-      "japanese": "{舞台|ぶたい}の{踊|おど}り{子|こ}が{美|うつく}しかった。",
+      "japanese": "⟦{舞台|ぶたい}→舞台：03606_butai⟧⟦の→の：09472_no⟧{踊|おど}り{子|こ}⟦が→が：00051_ga⟧⟦{美|うつく}しかった→美しい：01121_utsukushii⟧。",
       "english": "The dancer on stage was beautiful.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14344_odoriko_ex2",
-      "japanese": "{祭|まつ}りで{踊|おど}り{子|こ}たちが{華|はな}やかに{踊|おど}った。",
+      "japanese": "⟦{祭|まつ}り→祭り：03735_matsuri⟧⟦で→で：00502_de⟧{踊|おど}り{子|こ}たち⟦が→が：00051_ga⟧⟦{華|はな}やか→華やか：06070_hanayaka⟧⟦に→に：00314_ni⟧⟦{踊|おど}った→踊る：01250_odoru⟧。",
       "english": "The dancers performed brilliantly at the festival.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14344_odoriko_ex3",
-      "japanese": "{川端康成|かわばたやすなり}の『{伊豆|いず}の{踊|おど}り{子|こ}』は{日本文学|にほんぶんがく}の{名作|めいさく}として{広|ひろ}く{知|し}られている。",
+      "japanese": "{川端康成|かわばたやすなり}⟦の→の：09472_no⟧『{伊豆|いず}⟦の→の：09472_no⟧{踊|おど}り{子|こ}』⟦は→は：00079_ha⟧{日本文学|にほんぶんがく}⟦の→の：09472_no⟧⟦{名作|めいさく}→名作：11869_meisaku⟧⟦として→として：06802_toshite⟧⟦{広|ひろ}く→広い：00704_hiroi⟧⟦{知|し}られている→知る：00458_shiru⟧。",
       "english": "Kawabata Yasunari's 'The Izu Dancer' is widely known as a masterpiece of Japanese literature.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "Compound of {踊|おど}り (dancing) + {子|こ} (person, child). The word carries a traditional, somewhat romantic connotation compared to the modern loanword ダンサー.\n\nCOMMON COLLOCATIONS:\n- {祭|まつ}りの{踊|おど}り{子|こ} (festival dancer)\n- {踊|おど}り{子|こ}たちが{舞|ま}う (dancers perform)\n\nCULTURAL NOTE:\n{川端康成|かわばたやすなり}の{短編|たんぺん}{小説|しょうせつ}『{伊豆|いず}の{踊|おど}り{子|こ}』(The Izu Dancer, 1926) is one of the most famous works in Japanese literature, telling the story of a student's encounter with a troupe of traveling performers. The word {踊|おど}り{子|こ} is strongly associated with this work.",
+  "notes": "Compound of ⟦{踊|おど}り→踊り：01347_odori⟧ (dancing) + ⟦{子|こ}→子：09851_ko⟧ (person, child). The word carries a traditional, somewhat romantic connotation compared to the modern loanword ⟦ダンサー→ダンサー：08801_dansaa⟧.\n\nCOMMON COLLOCATIONS:\n- ⟦{祭|まつ}り→祭り：03735_matsuri⟧⟦の→の：09472_no⟧{踊|おど}り{子|こ} (festival dancer)\n- {踊|おど}り{子|こ}たち⟦が→が：00051_ga⟧⟦{舞|ま}う→舞う：04573_mau⟧ (dancers perform)\n\nCULTURAL NOTE:\n{川端康成|かわばたやすなり}⟦の→の：09472_no⟧⟦{短編|たんぺん}{小説|しょうせつ}→短編小説：20776_tanpenshousetsu⟧『{伊豆|いず}⟦の→の：09472_no⟧{踊|おど}り{子|こ}』(The Izu Dancer, 1926) is one of the most famous works in Japanese literature, telling the story of a student's encounter with a troupe of traveling performers. The word {踊|おど}り{子|こ} is strongly associated with this work.",
   "cross_references": [
     {
       "type": "related",
@@ -53,18 +59,30 @@
       "reading": "おどる",
       "headword": "{踊|おど}る",
       "label": "to dance"
+    },
+    {
+      "type": "related",
+      "target_id": "08801_dansaa",
+      "reading": "だんさー",
+      "headword": "ダンサー",
+      "label": "dancer"
     }
   ],
   "metadata": {
     "created": "2026-02-28T12:14:36Z",
-    "modified": "2026-02-28T12:14:36Z",
+    "modified": "2026-09-02T04:01:37Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["person", "leisure"]
+      "semantic": [
+        "person",
+        "leisure"
+      ]
     }
   }
 }

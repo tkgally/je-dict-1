@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29399_taigigo_ex1",
-      "japanese": "「{大|おお}きい」の{対義語|たいぎご}は「{小|ちい}さい」だ。",
+      "japanese": "「⟦{大|おお}きい→大きい：00335_ookii⟧」⟦の→の：09472_no⟧{対義語|たいぎご}⟦は→は：00079_ha⟧「⟦{小|ちい}さい→小さい：00025_chiisai⟧」だ。",
       "english": "The antonym of \"big\" is \"small.\"",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29399_taigigo_ex2",
-      "japanese": "{対義語|たいぎご}を{覚|おぼ}えると{語彙|ごい}が{増|ふ}える。",
+      "japanese": "{対義語|たいぎご}⟦を→を：00422_wo⟧⟦{覚|おぼ}える→覚える：00739_oboeru⟧⟦と→と：00512_to⟧⟦{語彙|ごい}→語彙：14214_goi⟧⟦が→が：00051_ga⟧⟦{増|ふ}える→増える：01183_fueru⟧。",
       "english": "Learning antonyms increases your vocabulary.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29399_taigigo_ex3",
-      "japanese": "テストでは{単語|たんご}の{対義語|たいぎご}を{答|こた}える{問題|もんだい}が{出|で}た。",
+      "japanese": "⟦テスト→テスト：01065_tesuto⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{単語|たんご}→単語：03413_tango⟧⟦の→の：09472_no⟧{対義語|たいぎご}⟦を→を：00422_wo⟧⟦{答|こた}える→答える：01099_kotaeru⟧⟦{問題|もんだい}→問題：00797_mondai⟧⟦が→が：00051_ga⟧⟦{出|で}た→出る：00513_deru⟧。",
       "english": "The test had questions asking for the antonyms of words.",
       "sense_numbers": [
         1
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "A grammar and vocabulary term used in language study.\n\nSIMILAR WORDS:\n- {反対語|はんたいご}: antonym — an everyday synonym of {対義語|たいぎご}\n- {類義語|るいぎご}: synonym, near-synonym — the opposite concept\n- {同義語|どうぎご}: synonym (identical meaning)",
+  "notes": "A grammar and vocabulary term used in language study.\n\nSIMILAR WORDS:\n- ⟦{反対語|はんたいご}→反対語：29409_hantaigo⟧: antonym — an everyday synonym of {対義語|たいぎご}\n- ⟦{類義語|るいぎご}→類義語：15939_ruigigo⟧: synonym, near-synonym — the opposite concept\n- ⟦{同義語|どうぎご}→同義語：26263_dougigo⟧: synonym (identical meaning)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "29409_hantaigo",
+      "reading": "はんたいご",
+      "headword": "{反対語|はんたいご}",
+      "label": "antonym"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15939_ruigigo",
+      "reading": "るいぎご",
+      "headword": "{類義語|るいぎご}",
+      "label": "synonym, near-synonym"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26263_dougigo",
+      "reading": "どうぎご",
+      "headword": "{同義語|どうぎご}",
+      "label": "synonym"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24354_hanigo",
+      "reading": "はんいご",
+      "headword": "{反意語|はんいご}",
+      "label": "antonym"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +83,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "language"
       ],
       "domain": []
     },
     "created": "2026-06-22T01:45:27Z",
-    "modified": "2026-06-22T01:45:27Z"
+    "modified": "2026-09-02T04:02:36Z"
   }
 }

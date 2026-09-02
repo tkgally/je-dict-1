@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21823_senka_ex1",
-      "japanese": "{戦火|せんか}を{逃|のが}れる。",
+      "japanese": "{戦火|せんか}⟦を→を：00422_wo⟧⟦{逃|のが}れる→逃れる：10425_nogareru⟧。",
       "english": "To escape the flames of war.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21823_senka_ex2",
-      "japanese": "{街|まち}は{戦火|せんか}で{焼|や}け{野原|のはら}になった。",
+      "japanese": "⟦{街|まち}→街：17306_machi⟧⟦は→は：00079_ha⟧{戦火|せんか}⟦で→で：00502_de⟧⟦{焼|や}け→焼ける：01138_yakeru⟧⟦{野原|のはら}→野原：14417_nohara⟧になった。",
       "english": "The city was reduced to a burnt wasteland by war.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21823_senka_ex3",
-      "japanese": "{戦火|せんか}を{免|まぬが}れたこの{寺|てら}には、{何百年|なんびゃくねん}も{前|まえ}の{貴重|きちょう}な{文化財|ぶんかざい}が{今|いま}も{残|のこ}っている。",
+      "japanese": "{戦火|せんか}⟦を→を：00422_wo⟧⟦{免|まぬが}れた→免れる：10548_manugareru⟧⟦この→この：00962_kono⟧⟦{寺|てら}→寺：01676_tera⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧、{何百年|なんびゃくねん}⟦も→も：00484_mo⟧⟦{前|まえ}→前：02255_mae⟧⟦の→の：09472_no⟧⟦{貴重|きちょう}→貴重：00223_kichou⟧な⟦{文化財|ぶんかざい}→文化財：12932_bunkazai⟧⟦が→が：00051_ga⟧⟦{今|いま}→今：00945_ima⟧⟦も→も：00484_mo⟧⟦{残|のこ}っている→残る：01187_nokoru⟧。",
       "english": "This temple, which escaped the ravages of war, still preserves precious cultural artifacts from hundreds of years ago.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {戦|せん} (war, battle) and {火|か} (fire). A literary and somewhat formal word evoking the destructive power of war. Frequently appears in historical writing, news reporting on conflicts, and memorial contexts.\n\nCOMMON COLLOCATIONS:\n- {戦火|せんか}を{逃|のが}れる: to flee from war\n- {戦火|せんか}を{免|まぬが}れる: to be spared from wartime destruction\n- {戦火|せんか}に{巻|ま}き{込|こ}まれる: to be caught up in war\n- {戦火|せんか}が{広|ひろ}がる: the flames of war spread\n- {戦火|せんか}で{失|うしな}われた: lost to war\n\nSIMILAR WORDS:\n- {戦禍|せんか}: war damage, ravages of war — homophone with the same meaning, but written with {禍|か} (calamity) instead of {火|か} (fire)\n- {砲火|ほうか}: gunfire, bombardment — specifically the firing of weapons\n- {戦乱|せんらん}: war and chaos — focuses on the social upheaval caused by war",
+  "notes": "A compound of ⟦{戦|せん}→〜戦：28346_sen⟧ (war, battle) and {火|か} (fire). A literary and somewhat formal word evoking the destructive power of war. Frequently appears in historical writing, news reporting on conflicts, and memorial contexts.\n\nCOMMON COLLOCATIONS:\n- {戦火|せんか}⟦を→を：00422_wo⟧⟦{逃|のが}れる→逃れる：10425_nogareru⟧: to flee from war\n- {戦火|せんか}⟦を→を：00422_wo⟧⟦{免|まぬが}れる→免れる：10548_manugareru⟧: to be spared from wartime destruction\n- {戦火|せんか}⟦に→に：00314_ni⟧⟦{巻|ま}き{込|こ}まれる→巻き込む：05753_makikomu⟧: to be caught up in war\n- {戦火|せんか}⟦が→が：00051_ga⟧⟦{広|ひろ}がる→広がる：01980_hirogaru⟧: the flames of war spread\n- {戦火|せんか}⟦で→で：00502_de⟧⟦{失|うしな}われた→失う：01887_ushinau⟧: lost to war\n\nSIMILAR WORDS:\n- {戦禍|せんか}: war damage, ravages of war — homophone with the same meaning, but written with {禍|か} (calamity) instead of {火|か} (fire)\n- {砲火|ほうか}: gunfire, bombardment — specifically the firing of weapons\n- ⟦{戦乱|せんらん}→戦乱：13277_senran⟧: war and chaos — focuses on the social upheaval caused by war",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13277_senran",
+      "reading": "せんらん",
+      "headword": "{戦乱|せんらん}",
+      "label": "war and chaos"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +68,6 @@
       ]
     },
     "created": "2026-04-03T18:27:36Z",
-    "modified": "2026-07-29T12:35:11Z"
+    "modified": "2026-09-02T04:02:05Z"
   }
 }

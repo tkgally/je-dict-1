@@ -15,40 +15,59 @@
   "examples": [
     {
       "id": "18915_akibin_ex1",
-      "japanese": "{空|あ}き{瓶|びん}を{洗|あら}う。",
+      "japanese": "{空|あ}き{瓶|びん}⟦を→を：00422_wo⟧⟦{洗|あら}う→洗う：00827_arau⟧。",
       "english": "To wash empty bottles.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "18915_akibin_ex2",
-      "japanese": "{空|あ}き{瓶|びん}は{資源|しげん}ごみに{出|だ}してください。",
+      "japanese": "{空|あ}き{瓶|びん}⟦は→は：00079_ha⟧⟦{資源|しげん}ごみ→資源ごみ：09537_shigengomi⟧⟦に→に：00314_ni⟧⟦{出|だ}して→出す：01087_dasu⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please put empty bottles out with the recyclables.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "18915_akibin_ex3",
-      "japanese": "{庭|にわ}の{隅|すみ}に{空|あ}き{瓶|びん}がたくさん{転|ころ}がっていた。",
+      "japanese": "⟦{庭|にわ}→庭：02239_niwa⟧⟦の→の：09472_no⟧⟦{隅|すみ}→隅：01625_sumi⟧⟦に→に：00314_ni⟧{空|あ}き{瓶|びん}⟦が→が：00051_ga⟧⟦たくさん→たくさん：00597_takusan⟧⟦{転|ころ}がっていた→転がる：02571_korogaru⟧。",
       "english": "There were many empty bottles lying around in the corner of the yard.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {空|あ}き (empty, vacant) + {瓶|びん} (bottle). Part of a series with {空|あ}き{缶|かん} (empty can) and {空|あ}き{箱|ばこ} (empty box). In Japanese garbage separation systems, {空|あ}き{瓶|びん} are typically classified as {資源|しげん}ごみ (recyclable waste) and collected separately. The prefix {空|あ}き- is productive: {空|あ}き{家|や} (vacant house), {空|あ}き{地|ち} (vacant lot), {空|あ}き{室|しつ} (vacant room).",
+  "notes": "Composed of ⟦{空|あ}き→空く：11062_aku⟧ (empty, vacant) + ⟦{瓶|びん}→瓶：01016_bin⟧ (bottle). Part of a series with ⟦{空|あ}き{缶|かん}→空き缶：23052_akikan⟧ (empty can) and {空|あ}き{箱|ばこ} (empty box). In Japanese garbage separation systems, {空|あ}き{瓶|びん} are typically classified as ⟦{資源|しげん}ごみ→資源ごみ：09537_shigengomi⟧ (recyclable waste) and collected separately. The prefix ⟦{空|あ}き→空く：11062_aku⟧- is productive: ⟦{空|あ}き{家|や}→空き家：03007_akiya⟧ (vacant house), ⟦{空|あ}き{地|ち}→空き地：15270_akichi⟧ (vacant lot), {空|あ}き{室|しつ} (vacant room).",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "23052_akikan",
+      "reading": "あきかん",
+      "headword": "{空|あ}き{缶|かん}",
+      "label": "empty can"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     },
     "created": "2026-03-23T09:26:59Z",
-    "modified": "2026-03-23T09:26:59Z"
+    "modified": "2026-09-02T04:01:54Z"
   }
 }

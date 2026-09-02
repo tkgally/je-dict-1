@@ -3,7 +3,7 @@
   "headword": "しくじる",
   "reading": "しくじる",
   "romaji": "shikujiru",
-  "part_of_speech": "verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to fail; to blunder; to mess up",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25843_shikujiru_ex1",
-      "japanese": "{試験|しけん}でしくじった。",
+      "japanese": "⟦{試験|しけん}→試験：01422_shiken⟧⟦で→で：00502_de⟧しくじった。",
       "english": "I blew the exam.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25843_shikujiru_ex2",
-      "japanese": "{大事|だいじ}な{商談|しょうだん}でしくじってしまった。",
+      "japanese": "⟦{大事|だいじ}→大事：01253_daiji⟧な⟦{商談|しょうだん}→商談：04877_shoudan⟧⟦で→で：00502_de⟧しくじってしまった。",
       "english": "I messed up an important business deal.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25843_shikujiru_ex3",
-      "japanese": "{一度|いちど}しくじったぐらいであきらめるな。",
+      "japanese": "⟦{一度|いちど}→一度：01312_ichido⟧しくじった⟦ぐらい→ぐらい：02900_gurai⟧⟦で→で：00502_de⟧あきらめるな。",
       "english": "Don't give up just because you failed once.",
       "sense_numbers": [
         1
@@ -45,7 +45,7 @@
     },
     {
       "id": "25843_shikujiru_ex4",
-      "japanese": "{彼|かれ}は{投資|とうし}でしくじって{大金|たいきん}を{失|うしな}った。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{投資|とうし}→投資：04711_toushi⟧⟦で→で：00502_de⟧しくじって⟦{大金|たいきん}→大金：12192_taikin⟧⟦を→を：00422_wo⟧⟦{失|うしな}った→失う：01887_ushinau⟧。",
       "english": "He messed up with his investments and lost a large sum of money.",
       "sense_numbers": [
         1
@@ -54,8 +54,30 @@
       "notes": null
     }
   ],
-  "notes": "A colloquial verb with a blunt, honest tone. Often used when taking responsibility for one's own failure or when describing someone's mistake candidly. The TV show 「しくじり{先生|せんせい}」 (Shikujiri Sensei — \"Teachers Who Blew It\"), where celebrities talk about their past failures, made this word widely recognized.\n\nTRANSITIVITY:\nCan be used both transitively ({試験|しけん}をしくじる — to fail an exam) and intransitively ({商談|しょうだん}でしくじる — to mess up in a business deal).\n\nCOMMON COLLOCATIONS:\n- {仕事|しごと}をしくじる: to mess up at work\n- {試験|しけん}をしくじる: to fail an exam\n- しくじり{先生|せんせい}: a teacher who failed (TV show title)\n- {一度|いちど}しくじる: to fail once\n\nSIMILAR WORDS:\n- {失敗|しっぱい}する: to fail — neutral and widely used; lacks the colloquial punch of しくじる\n- へまをする: to make a blunder — colloquial, often for minor practical mistakes\n- やらかす: to screw up — very colloquial/slangy, often implies the mistake was embarrassing",
-  "cross_references": [],
+  "notes": "A colloquial verb with a blunt, honest tone. Often used when taking responsibility for one's own failure or when describing someone's mistake candidly. The TV show 「しくじり⟦{先生|せんせい}→先生：00609_sensei⟧」 (Shikujiri Sensei — \"Teachers Who Blew It\"), where celebrities talk about their past failures, made this word widely recognized.\n\nTRANSITIVITY:\nCan be used both transitively (⟦{試験|しけん}→試験：01422_shiken⟧⟦を→を：00422_wo⟧しくじる — to fail an exam) and intransitively (⟦{商談|しょうだん}→商談：04877_shoudan⟧⟦で→で：00502_de⟧しくじる — to mess up in a business deal).\n\nCOMMON COLLOCATIONS:\n- ⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦を→を：00422_wo⟧しくじる: to mess up at work\n- ⟦{試験|しけん}→試験：01422_shiken⟧⟦を→を：00422_wo⟧しくじる: to fail an exam\n- しくじり⟦{先生|せんせい}→先生：00609_sensei⟧: a teacher who failed (TV show title)\n- ⟦{一度|いちど}→一度：01312_ichido⟧しくじる: to fail once\n\nSIMILAR WORDS:\n- ⟦{失敗|しっぱい}→失敗：01636_shippai⟧⟦する→する：00392_suru⟧: to fail — neutral and widely used; lacks the colloquial punch of しくじる\n- へま⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧: to make a blunder — colloquial, often for minor practical mistakes\n- ⟦やらかす→やらかす：09375_yarakasu⟧: to screw up — very colloquial/slangy, often implies the mistake was embarrassing",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01636_shippai",
+      "reading": "しっぱい",
+      "headword": "{失敗|しっぱい}",
+      "label": "to fail"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09375_yarakasu",
+      "reading": "やらかす",
+      "headword": "やらかす",
+      "label": "to screw up"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17194_shisonjiru",
+      "reading": "しそんじる",
+      "headword": "{仕損|しそん}じる",
+      "label": "to fail"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -64,6 +86,7 @@
         "verb-godan"
       ],
       "formality": "informal",
+      "politeness": "plain",
       "semantic": [
         "daily-life"
       ],
@@ -71,7 +94,7 @@
       "transitivity": "both"
     },
     "created": "2026-04-27T15:11:13Z",
-    "modified": "2026-04-27T15:11:13Z"
+    "modified": "2026-09-02T04:02:24Z"
   },
   "conjugation": {
     "type": "godan",

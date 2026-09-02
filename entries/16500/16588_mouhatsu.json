@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "16588_mouhatsu_ex1",
-      "japanese": "{毛髪|もうはつ}{検査|けんさ}を{受|う}けた。",
+      "japanese": "{毛髪|もうはつ}⟦{検査|けんさ}→検査：02707_kensa⟧⟦を→を：00422_wo⟧⟦{受|う}けた→受ける：01215_ukeru⟧。",
       "english": "I had a hair analysis done.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "16588_mouhatsu_ex2",
-      "japanese": "{毛髪|もうはつ}のサンプルが{必要|ひつよう}です。",
+      "japanese": "{毛髪|もうはつ}⟦の→の：09472_no⟧⟦サンプル→サンプル：10939_sanpuru⟧⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧です。",
       "english": "A hair sample is required.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "16588_mouhatsu_ex3",
-      "japanese": "{加齢|かれい}とともに{毛髪|もうはつ}の{量|りょう}が{減少|げんしょう}することがある。",
+      "japanese": "⟦{加齢|かれい}→加齢：11821_karei⟧⟦とともに→とともに：30485_totomoni⟧{毛髪|もうはつ}⟦の→の：09472_no⟧⟦{量|りょう}→量：03799_ryou⟧⟦が→が：00051_ga⟧⟦{減少|げんしょう}する→減少する：19026_genshousuru⟧こと⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "The amount of hair may decrease with aging.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA formal and technical term for head hair. In everyday speech, {髪|かみ} or {髪|かみ}の{毛|け} is used instead. {毛髪|もうはつ} appears in medical, scientific, and legal contexts.\n\nCOMMON COLLOCATIONS:\n- {毛髪|もうはつ}{検査|けんさ} (hair analysis/test)\n- {毛髪|もうはつ}{鑑定|かんてい} (hair forensic analysis)\n- {毛髪|もうはつ}ケア (hair care)\n\nSIMILAR WORDS:\n- {髪|かみ}: everyday word for hair on the head\n- {髪|かみ}の{毛|け}: everyday word, slightly more specific\n- {体毛|たいもう}: body hair in general",
+  "notes": "USAGE:\nA formal and technical term for head hair. In everyday speech, ⟦{髪|かみ}→髪：02196_kami⟧ or ⟦{髪|かみ}の{毛|け}→髪の毛：02619_kaminoke⟧ is used instead. {毛髪|もうはつ} appears in medical, scientific, and legal contexts.\n\nCOMMON COLLOCATIONS:\n- {毛髪|もうはつ}⟦{検査|けんさ}→検査：02707_kensa⟧ (hair analysis/test)\n- {毛髪|もうはつ}⟦{鑑定|かんてい}→鑑定：16030_kantei⟧ (hair forensic analysis)\n- {毛髪|もうはつ}⟦ケア→ケア：10848_kea⟧ (hair care)\n\nSIMILAR WORDS:\n- ⟦{髪|かみ}→髪：02196_kami⟧: everyday word for hair on the head\n- ⟦{髪|かみ}の{毛|け}→髪の毛：02619_kaminoke⟧: everyday word, slightly more specific\n- ⟦{体毛|たいもう}→体毛：20542_taimou⟧: body hair in general",
   "cross_references": [
     {
       "type": "synonym",
@@ -59,11 +59,32 @@
       "reading": "たいもう",
       "headword": "{体毛|たいもう}",
       "label": "body hair"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02619_kaminoke",
+      "reading": "かみのけ",
+      "headword": "{髪|かみ}の{毛|け}",
+      "label": "everyday word, slightly more specific"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15488_touhatsu",
+      "reading": "とうはつ",
+      "headword": "{頭髪|とうはつ}",
+      "label": "hair (on the head)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26310_moukon",
+      "reading": "もうこん",
+      "headword": "{毛根|もうこん}",
+      "label": "hair root"
     }
   ],
   "metadata": {
     "created": "2026-03-14T01:36:58Z",
-    "modified": "2026-07-19T06:19:17Z",
+    "modified": "2026-09-02T04:01:45Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

@@ -2,7 +2,7 @@
   "id": "05836_hinyari",
   "headword": "ひんやり",
   "reading": "ひんやり",
-  "part_of_speech": "adverb, verb (suru)",
+  "part_of_speech": "adverb, suru verb",
   "gloss": "cool, chilly, refreshingly cold",
   "conjugation": {
     "type": "suru",
@@ -153,7 +153,7 @@
       ]
     }
   ],
-  "notes": "ONOMATOPOEIA:\nDescribes a pleasant, refreshing coolness. The sensation is typically comfortable rather than uncomfortably cold.\n\nUSAGE:\n- ひんやり⟦する→する：00392_suru⟧: to feel cool\n- ひんやり⟦した→する：00392_suru⟧～: cool ~ (adjective use)\n- ひんやり⟦と→と：00512_to⟧: coolly (adverb with と)\n\nCOMMON CONTEXTS:\n- ひんやり⟦した→する：00392_suru⟧⟦{風|かぜ}→風：00641_kaze⟧: cool breeze\n- ひんやり⟦した→する：00392_suru⟧⟦{空気|くうき}→空気：01390_kuuki⟧: cool air\n- ひんやり⟦した→する：00392_suru⟧⟦{床|ゆか}→床：03652_yuka⟧: cool floor\n- ひんやり⟦と→と：00512_to⟧⟦した→する：00392_suru⟧⟦{感触|かんしょく}→感触：12743_kanshoku⟧: cool sensation\n\nCONTRAST:\n- ⟦ぽかぽか→ぽかぽか：05784_pokapoka⟧: comfortably warm (opposite)\n- ⟦すーすー→すーすー：29047_suusuu⟧: cold draft sensation\n- ⟦ひやっと→ひやっと：29048_hiyatto⟧: suddenly cold (unpleasant)\n\nSIMILAR WORDS:\n- ⟦{涼|すず}しい→涼しい：00674_suzushii⟧: cool (temperature)\n- ⟦{冷|つめ}たい→冷たい：00681_tsumetai⟧: cold (touch)",
+  "notes": "ONOMATOPOEIA:\nDescribes a pleasant, refreshing coolness. The sensation is typically comfortable rather than uncomfortably cold.\n\nUSAGE:\n- ひんやり⟦する→する：00392_suru⟧: to feel cool\n- ひんやり⟦した→する：00392_suru⟧～: cool ~ (adjective use)\n- ひんやり⟦と→と：00512_to⟧: coolly (adverb with ⟦と→と：00512_to⟧)\n- ひんやり⟦した→する：00392_suru⟧⟦{風|かぜ}→風：00641_kaze⟧: cool breeze\n- ひんやり⟦した→する：00392_suru⟧⟦{空気|くうき}→空気：01390_kuuki⟧: cool air\n- ひんやり⟦した→する：00392_suru⟧⟦{床|ゆか}→床：03652_yuka⟧: cool floor\n- ひんやり⟦と→と：00512_to⟧⟦した→する：00392_suru⟧⟦{感触|かんしょく}→感触：12743_kanshoku⟧: cool sensation\n\nSIMILAR WORDS:\n- ⟦ぽかぽか→ぽかぽか：05784_pokapoka⟧: comfortably warm (opposite)\n- ⟦すーすー→すーすー：29047_suusuu⟧: cold draft sensation\n- ⟦ひやっと→ひやっと：29048_hiyatto⟧: suddenly cold (unpleasant)\n- ⟦{涼|すず}しい→涼しい：00674_suzushii⟧: cool (temperature)\n- ⟦{冷|つめ}たい→冷たい：00681_tsumetai⟧: cold (touch)",
   "cross_references": [
     {
       "type": "antonym",
@@ -175,11 +175,25 @@
       "headword": "{冷|つめ}たい",
       "label": "cold (to the touch)",
       "target_id": "00681_tsumetai"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29047_suusuu",
+      "reading": "すーすー",
+      "headword": "すーすー",
+      "label": "cold draft sensation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29048_hiyatto",
+      "reading": "ひやっと",
+      "headword": "ひやっと",
+      "label": "suddenly cold"
     }
   ],
   "metadata": {
     "created": "2026-01-16T13:45:22Z",
-    "modified": "2026-07-30T00:17:41Z",
+    "modified": "2026-09-02T04:01:07Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
@@ -193,7 +207,8 @@
         "onomatopoeia",
         "descriptive"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

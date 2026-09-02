@@ -2,7 +2,7 @@
   "id": "11961_hinin",
   "headword": "{否認|ひにん}",
   "reading": "ひにん",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "denial; disavowal; to deny",
   "conjugation": {
     "type": "suru",
@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "11961_hinin_ex1",
-      "japanese": "{容疑|ようぎ}を{否認|ひにん}する。",
+      "japanese": "⟦{容疑|ようぎ}→容疑：12317_yougi⟧⟦を→を：00422_wo⟧{否認|ひにん}⟦する→する：00392_suru⟧。",
       "english": "Deny the charges.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "11961_hinin_ex2",
-      "japanese": "{被告|ひこく}は{関与|かんよ}を{否認|ひにん}した。",
+      "japanese": "⟦{被告|ひこく}→被告：11080_hikoku⟧⟦は→は：00079_ha⟧⟦{関与|かんよ}→関与：08646_kanyo⟧⟦を→を：00422_wo⟧{否認|ひにん}⟦した→する：00392_suru⟧。",
       "english": "The defendant denied involvement.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "11961_hinin_ex3",
-      "japanese": "{政府|せいふ}は{報道|ほうどう}の{内容|ないよう}を{全面的|ぜんめんてき}に{否認|ひにん}した。",
+      "japanese": "⟦{政府|せいふ}→政府：03294_seifu⟧⟦は→は：00079_ha⟧⟦{報道|ほうどう}→報道：04438_houdou⟧⟦の→の：09472_no⟧⟦{内容|ないよう}→内容：01482_naiyou⟧⟦を→を：00422_wo⟧⟦{全面的|ぜんめんてき}→全面的：05673_zenmenteki⟧⟦に→に：00314_ni⟧{否認|ひにん}⟦した→する：00392_suru⟧。",
       "english": "The government completely denied the contents of the news report.",
       "notes": null,
       "has_audio": false,
@@ -133,11 +133,26 @@
       ]
     }
   ],
-  "notes": "COMMON COLLOCATIONS:\n・{容疑|ようぎ}を{否認|ひにん}する (deny allegations/charges)\n・{関与|かんよ}を{否認|ひにん}する (deny involvement)\n・{全面|ぜんめん}{否認|ひにん} (complete denial)\n・{事実|じじつ}を{否認|ひにん}する (deny the facts)\n\nSIMILAR WORDS:\n{否定|ひてい} (denial, negation) is a broader term — you can deny facts, ideas, or existence. {否認|ひにん} is more specific and formal, typically used for denying accusations, charges, or responsibility. In legal contexts, {否認|ひにん} is the standard term for a defendant's denial of charges.",
-  "cross_references": [],
+  "notes": "COMMON COLLOCATIONS:\n- ⟦{容疑|ようぎ}→容疑：12317_yougi⟧⟦を→を：00422_wo⟧{否認|ひにん}⟦する→する：00392_suru⟧ (deny allegations/charges)\n- ⟦{関与|かんよ}→関与：08646_kanyo⟧⟦を→を：00422_wo⟧{否認|ひにん}⟦する→する：00392_suru⟧ (deny involvement)\n- ⟦{全面|ぜんめん}→全面：22735_zenmen⟧{否認|ひにん} (complete denial)\n- ⟦{事実|じじつ}→事実：03271_jijitsu⟧⟦を→を：00422_wo⟧{否認|ひにん}⟦する→する：00392_suru⟧ (deny the facts)\n\nSIMILAR WORDS:\n⟦{否定|ひてい}→否定：03707_hitei⟧ (denial, negation) is a broader term — you can deny facts, ideas, or existence. {否認|ひにん} is more specific and formal, typically used for denying accusations, charges, or responsibility. In legal contexts, {否認|ひにん} is the standard term for a defendant's denial of charges.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03707_hitei",
+      "reading": "ひてい",
+      "headword": "{否定|ひてい}",
+      "label": "denial, negation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30336_fukyoka",
+      "reading": "ふきょか",
+      "headword": "{不許可|ふきょか}",
+      "label": "denial of permission"
+    }
+  ],
   "metadata": {
     "created": "2026-02-19T10:56:31Z",
-    "modified": "2026-03-29T03:07:35Z",
+    "modified": "2026-09-02T04:01:27Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
@@ -154,7 +169,8 @@
       "domain": [
         "legal"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

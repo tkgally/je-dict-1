@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "16613_gahaku_ex1",
-      "japanese": "{彼|かれ}は{日本画|にほんが}の{画伯|がはく}だ。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{日本画|にほんが}→日本画：18225_nihonga⟧⟦の→の：09472_no⟧{画伯|がはく}だ。",
       "english": "He is a master of Japanese-style painting.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "16613_gahaku_ex2",
-      "japanese": "{画伯|がはく}の{作品|さくひん}が{美術館|びじゅつかん}に{展示|てんじ}されている。",
+      "japanese": "{画伯|がはく}⟦の→の：09472_no⟧⟦{作品|さくひん}→作品：02776_sakuhin⟧⟦が→が：00051_ga⟧⟦{美術館|びじゅつかん}→美術館：01717_bijutsukan⟧⟦に→に：00314_ni⟧⟦{展示|てんじ}→展示：12401_tenji⟧⟦されている→する：00392_suru⟧。",
       "english": "The master painter's works are on display at the museum.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "16613_gahaku_ex3",
-      "japanese": "{子供|こども}の{描|か}いた{絵|え}を{見|み}て、「さすが{画伯|がはく}」と{冗談|じょうだん}を{言|い}った。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧⟦の→の：09472_no⟧⟦{描|か}いた→描く：28436_kaku⟧⟦{絵|え}→絵：02613_e⟧⟦を→を：00422_wo⟧⟦{見|み}て→見る：00283_miru⟧、「さすが{画伯|がはく}」⟦と→と：00512_to⟧⟦{冗談|じょうだん}→冗談：03347_joudan⟧⟦を→を：00422_wo⟧⟦{言|い}った→言う：00515_iu⟧。",
       "english": "Looking at the child's drawing, I jokingly said, 'What a master painter!'",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "{画伯|がはく} is an honorific title for a highly skilled and respected painter. It combines {画|が} (painting) + {伯|はく} (chief, elder).\n\nUSAGE:\nOriginally a respectful title for accomplished painters, similar to 'master painter.' In modern usage, it has developed a humorous or ironic use, especially online and among younger speakers, to refer to anyone who draws — even jokingly when the drawing is not particularly skilled.\n\nCOMMON COLLOCATIONS:\n- {画伯|がはく}の{作品|さくひん} (the master's works)\n- {画伯|がはく}と{呼|よ}ばれる (to be called a master painter)\n- ○○{画伯|がはく} (Master [Name] — used as a title after a name)\n\nSIMILAR WORDS:\n- {画家|がか}: painter, artist (neutral, standard term)\n- {巨匠|きょしょう}: master, maestro (broader, not limited to painting)\n- {画伯|がはく} carries more respect or formality than {画家|がか}, but its ironic use is now very common\n\nREGISTER:\nFormal when used seriously; playful or ironic in casual/internet contexts.",
+  "notes": "{画伯|がはく} is an honorific title for a highly skilled and respected painter. It combines {画|が} (painting) + {伯|はく} (chief, elder).\n\nUSAGE:\nOriginally a respectful title for accomplished painters, similar to 'master painter.' In modern usage, it has developed a humorous or ironic use, especially online and among younger speakers, to refer to anyone who draws — even jokingly when the drawing is not particularly skilled.\n\nCOMMON COLLOCATIONS:\n- {画伯|がはく}⟦の→の：09472_no⟧⟦{作品|さくひん}→作品：02776_sakuhin⟧ (the master's works)\n- {画伯|がはく}⟦と→と：00512_to⟧⟦{呼|よ}ばれる→呼ぶ：00766_yobu⟧ (to be called a master painter)\n- ○○{画伯|がはく} (Master [Name] — used as a title after a name)\n\nSIMILAR WORDS:\n- ⟦{画家|がか}→画家：02583_gaka⟧: painter, artist (neutral, standard term)\n- ⟦{巨匠|きょしょう}→巨匠：26809_kyoshou⟧: master, maestro (broader, not limited to painting)\n- {画伯|がはく} carries more respect or formality than ⟦{画家|がか}→画家：02583_gaka⟧, but its ironic use is now very common\n\nREGISTER:\nFormal when used seriously; playful or ironic in casual/internet contexts.",
   "cross_references": [
     {
       "type": "synonym",
@@ -52,11 +52,18 @@
       "reading": "がか",
       "headword": "{画家|がか}",
       "label": "painter (neutral)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26809_kyoshou",
+      "reading": "きょしょう",
+      "headword": "{巨匠|きょしょう}",
+      "label": "master, maestro"
     }
   ],
   "metadata": {
     "created": "2026-03-14T01:36:58Z",
-    "modified": "2026-05-04T08:25:28Z",
+    "modified": "2026-09-02T04:01:45Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

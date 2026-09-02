@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "16441_kankeisha_ex1",
-      "japanese": "{関係者|かんけいしゃ}{以外|いがい}{立入禁止|たちいりきんし}。",
+      "japanese": "{関係者|かんけいしゃ}⟦{以外|いがい}→以外：01297_igai⟧⟦{立入禁止|たちいりきんし}→立入禁止：09542_tachiirikinshi⟧。",
       "english": "No entry except for authorized persons.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "16441_kankeisha_ex2",
-      "japanese": "{事件|じけん}の{関係者|かんけいしゃ}から{話|はなし}を{聞|き}いた。",
+      "japanese": "⟦{事件|じけん}→事件：01568_jiken⟧⟦の→の：09472_no⟧{関係者|かんけいしゃ}⟦から→から：00504_kara⟧⟦{話|はなし}→話：01496_hanashi⟧⟦を→を：00422_wo⟧⟦{聞|き}いた→聞く：00483_kiku⟧。",
       "english": "I spoke with people involved in the incident.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "16441_kankeisha_ex3",
-      "japanese": "{学校|がっこう}の{関係者|かんけいしゃ}によると、{来年度|らいねんど}からカリキュラムが{大|おお}きく{変|か}わるそうだ。",
+      "japanese": "⟦{学校|がっこう}→学校：00055_gakkou⟧⟦の→の：09472_no⟧{関係者|かんけいしゃ}⟦によると→〜によると：03104_niyoruto⟧、⟦{来年度|らいねんど}→来年度：28221_rainendo⟧⟦から→から：00504_kara⟧⟦カリキュラム→カリキュラム：10947_karikyuramu⟧⟦が→が：00051_ga⟧⟦{大|おお}きく→大きい：00335_ookii⟧⟦{変|か}わる→変わる：00714_kawaru⟧そうだ。",
       "english": "According to school officials, the curriculum will change significantly starting next year.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,19 @@
       ]
     }
   ],
-  "notes": "{関係者|かんけいしゃ} is a compound of {関係|かんけい} (relation) + {者|しゃ} (person). It covers a broad range of meanings from \"authorized personnel\" (on signs) to \"parties involved\" (in news reports) to \"stakeholders\" (in business).\n\nCOMMON COLLOCATIONS:\n- {関係者|かんけいしゃ}{以外|いがい}{立入禁止|たちいりきんし}: no entry except authorized personnel\n- {関係者|かんけいしゃ}{各位|かくい}: to all concerned parties (formal notices)\n- {関係者|かんけいしゃ}によると: according to those involved\n- {関係者|かんけいしゃ}に{聞|き}く: to ask the people involved\n\nSIMILAR COMPOUNDS WITH {者|しゃ}:\n- {担当者|たんとうしゃ}: person in charge\n- {責任者|せきにんしゃ}: person responsible\n- {当事者|とうじしゃ}: the party directly concerned\n\nNOTE:\nThe sign {関係者|かんけいしゃ}{以外|いがい}{立入禁止|たちいりきんし} is one of the most commonly seen restriction signs in Japan.",
-  "cross_references": [],
+  "notes": "{関係者|かんけいしゃ} is a compound of ⟦{関係|かんけい}→関係：01298_kankei⟧ (relation) + ⟦{者|しゃ}→〜者：04662_sha⟧ (person). It covers a broad range of meanings from \"authorized personnel\" (on signs) to \"parties involved\" (in news reports) to \"stakeholders\" (in business).\n\nCOMMON COLLOCATIONS:\n- {関係者|かんけいしゃ}⟦{以外|いがい}→以外：01297_igai⟧⟦{立入禁止|たちいりきんし}→立入禁止：09542_tachiirikinshi⟧: no entry except authorized personnel\n- {関係者|かんけいしゃ}⟦{各位|かくい}→各位：12042_kakui⟧: to all concerned parties (formal notices)\n- {関係者|かんけいしゃ}⟦によると→〜によると：03104_niyoruto⟧: according to those involved\n- {関係者|かんけいしゃ}⟦に→に：00314_ni⟧⟦{聞|き}く→聞く：00483_kiku⟧: to ask the people involved\n\nSIMILAR COMPOUNDS WITH {者|しゃ}:\n- ⟦{担当者|たんとうしゃ}→担当者：09676_tantousha⟧: person in charge\n- ⟦{責任者|せきにんしゃ}→責任者：17175_sekininsha⟧: person responsible\n- ⟦{当事者|とうじしゃ}→当事者：12504_toujisha⟧: the party directly concerned\n\nUSAGE:\nThe sign {関係者|かんけいしゃ}⟦{以外|いがい}→以外：01297_igai⟧⟦{立入禁止|たちいりきんし}→立入禁止：09542_tachiirikinshi⟧ is one of the most commonly seen restriction signs in Japan.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25119_gaitousha",
+      "reading": "がいとうしゃ",
+      "headword": "{該当者|がいとうしゃ}",
+      "label": "person concerned"
+    }
+  ],
   "metadata": {
     "created": "2026-03-12T23:49:13Z",
-    "modified": "2026-07-20T00:31:17Z",
+    "modified": "2026-09-02T04:01:45Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "14969_dokushinsha_ex1",
-      "japanese": "{独身者|どくしんしゃ}{向|む}けのマンションが{増|ふ}えている。",
+      "japanese": "{独身者|どくしんしゃ}{向|む}け⟦の→の：09472_no⟧⟦マンション→マンション：01035_manshon⟧⟦が→が：00051_ga⟧⟦{増|ふ}えている→増える：01183_fueru⟧。",
       "english": "Apartments aimed at single people are increasing.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14969_dokushinsha_ex2",
-      "japanese": "{独身者|どくしんしゃ}の{割合|わりあい}は{年々|ねんねん}{増加|ぞうか}している。",
+      "japanese": "{独身者|どくしんしゃ}⟦の→の：09472_no⟧⟦{割合|わりあい}→割合：01760_wariai⟧⟦は→は：00079_ha⟧⟦{年々|ねんねん}→年々：10417_nennen⟧⟦{増加|ぞうか}→増加：03329_zouka⟧⟦している→する：00392_suru⟧。",
       "english": "The proportion of unmarried people is increasing year by year.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14969_dokushinsha_ex3",
-      "japanese": "{独身者|どくしんしゃ}の{食生活|しょくせいかつ}は{栄養|えいよう}が{偏|かたよ}りがちだと{言|い}われている。",
+      "japanese": "{独身者|どくしんしゃ}⟦の→の：09472_no⟧⟦{食生活|しょくせいかつ}→食生活：21071_shokuseikatsu⟧⟦は→は：00079_ha⟧⟦{栄養|えいよう}→栄養：01882_eiyou⟧⟦が→が：00051_ga⟧⟦{偏|かたよ}り→偏る：07872_katayoru⟧がちだ⟦と→と：00512_to⟧⟦{言|い}われている→言う：00515_iu⟧。",
       "english": "It is said that single people tend to have unbalanced diets.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "A compound of {独身|どくしん} (single, unmarried) and {者|しゃ} (person). More formal than {独身|どくしん} alone.\n\nSIMILAR WORDS:\n- {独身|どくしん} is the more common everyday word for 'single'\n- {未婚|みこん} emphasizes 'never married' (vs. divorced or widowed)\n- {独|ひと}り{身|み} means 'living alone' and may include divorced or widowed people\n\nCOMMON COLLOCATIONS:\n- {独身者|どくしんしゃ}{向|む}け (aimed at singles)\n- {独身者|どくしんしゃ}の{増加|ぞうか} (increase in singles)\n- {独身者|どくしんしゃ}{世帯|せたい} (single-person household)",
+  "notes": "A compound of ⟦{独身|どくしん}→独身：03486_dokushin⟧ (single, unmarried) and ⟦{者|しゃ}→〜者：04662_sha⟧ (person). More formal than ⟦{独身|どくしん}→独身：03486_dokushin⟧ alone.\n\nSIMILAR WORDS:\n- ⟦{独身|どくしん}→独身：03486_dokushin⟧ is the more common everyday word for 'single'\n- ⟦{未婚|みこん}→未婚：14933_mikon⟧ emphasizes 'never married' (vs. divorced or widowed)\n- ⟦{独|ひと}り{身|み}→独り身：17525_hitorimi⟧ means 'living alone' and may include divorced or widowed people\n\nCOMMON COLLOCATIONS:\n- {独身者|どくしんしゃ}{向|む}け (aimed at singles)\n- {独身者|どくしんしゃ}⟦の→の：09472_no⟧⟦{増加|ぞうか}→増加：03329_zouka⟧ (increase in singles)\n- {独身者|どくしんしゃ}⟦{世帯|せたい}→世帯：06870_setai⟧ (single-person household)",
   "cross_references": [
     {
       "type": "antonym",
@@ -46,18 +52,36 @@
       "reading": "きこんしゃ",
       "headword": "{既婚者|きこんしゃ}",
       "label": "married person"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14933_mikon",
+      "reading": "みこん",
+      "headword": "{未婚|みこん}",
+      "label": "emphasizes 'never married'"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17525_hitorimi",
+      "reading": "ひとりみ",
+      "headword": "{独|ひと}り{身|み}",
+      "label": "means 'living alone' and may include…"
     }
   ],
   "metadata": {
     "created": "2026-03-04T08:02:50Z",
-    "modified": "2026-04-25T05:07:08Z",
+    "modified": "2026-09-02T04:01:39Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["person"]
+      "semantic": [
+        "person"
+      ]
     }
   }
 }

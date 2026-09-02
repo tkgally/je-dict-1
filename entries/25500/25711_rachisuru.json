@@ -3,7 +3,7 @@
   "headword": "{拉致|らち}する",
   "reading": "らちする",
   "romaji": "rachisuru",
-  "part_of_speech": "verb",
+  "part_of_speech": "suru verb",
   "gloss": "to abduct; to kidnap",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25711_rachisuru_ex1",
-      "japanese": "{子供|こども}が{拉致|らち}された。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧⟦が→が：00051_ga⟧{拉致|らち}された。",
       "english": "A child was abducted.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25711_rachisuru_ex2",
-      "japanese": "{拉致|らち}{被害者|ひがいしゃ}の{家族|かぞく}が{解決|かいけつ}を{求|もと}めている。",
+      "japanese": "{拉致|らち}⟦{被害者|ひがいしゃ}→被害者：14106_higaisha⟧⟦の→の：09472_no⟧⟦{家族|かぞく}→家族：00552_kazoku⟧⟦が→が：00051_ga⟧⟦{解決|かいけつ}→解決：00136_kaiketsu⟧⟦を→を：00422_wo⟧⟦{求|もと}めている→求める：02316_motomeru⟧。",
       "english": "The families of abduction victims are seeking a resolution.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25711_rachisuru_ex3",
-      "japanese": "{拉致|らち}{問題|もんだい}は{長年|ながねん}にわたって{日本|にほん}の{外交|がいこう}{課題|かだい}となっている。",
+      "japanese": "{拉致|らち}⟦{問題|もんだい}→問題：00797_mondai⟧⟦は→は：00079_ha⟧⟦{長年|ながねん}→長年：09684_naganen⟧⟦に→に：00314_ni⟧わたって⟦{日本|にほん}→日本：03876_nihon⟧⟦の→の：09472_no⟧⟦{外交|がいこう}→外交：02627_gaikou⟧⟦{課題|かだい}→課題：00132_kadai⟧⟦と→と：00512_to⟧⟦なっている→なる：01970_naru⟧。",
       "english": "The abduction issue has been a diplomatic concern for Japan over many years.",
       "sense_numbers": [
         1
@@ -44,8 +44,30 @@
       "notes": null
     }
   ],
-  "notes": "{拉致|らち} (abduction) + する. A serious, formal term for the act of taking someone by force. Strongly associated in Japanese public discourse with the North Korean abductions of Japanese citizens in the 1970s and 1980s.\n\nCOMMON COLLOCATIONS:\n- {拉致|らち}{被害者|ひがいしゃ} — abduction victim\n- {拉致|らち}{問題|もんだい} — the abduction issue\n- {拉致|らち}{事件|じけん} — abduction case\n- {拉致|らち}{疑惑|ぎわく} — suspected abduction\n\nSIMILAR WORDS:\n- {誘拐|ゆうかい}する — to kidnap — the general word for kidnapping; often used for ransom-motivated crimes\n- さらう — to snatch; to carry off — more colloquial; used for both people and things\n- {連|つ}れ{去|さ}る — to take away; to carry off — descriptive verb, less formal",
-  "cross_references": [],
+  "notes": "{拉致|らち} (abduction) + ⟦する→する：00392_suru⟧. A serious, formal term for the act of taking someone by force. Strongly associated in Japanese public discourse with the North Korean abductions of Japanese citizens in the 1970s and 1980s.\n\nCOMMON COLLOCATIONS:\n- {拉致|らち}⟦{被害者|ひがいしゃ}→被害者：14106_higaisha⟧ — abduction victim\n- {拉致|らち}⟦{問題|もんだい}→問題：00797_mondai⟧ — the abduction issue\n- {拉致|らち}⟦{事件|じけん}→事件：01568_jiken⟧ — abduction case\n- {拉致|らち}⟦{疑惑|ぎわく}→疑惑：13602_giwaku⟧ — suspected abduction\n\nSIMILAR WORDS:\n- ⟦{誘拐|ゆうかい}→誘拐：14210_yuukai⟧⟦する→する：00392_suru⟧ — to kidnap — the general word for kidnapping; often used for ransom-motivated crimes\n- さらう — to snatch; to carry off — more colloquial; used for both people and things\n- ⟦{連|つ}れ{去|さ}る→連れ去る：21397_tsuresaru⟧ — to take away; to carry off — descriptive verb, less formal",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14210_yuukai",
+      "reading": "ゆうかい",
+      "headword": "{誘拐|ゆうかい}",
+      "label": "to kidnap"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10509_sarau",
+      "reading": "さらう",
+      "headword": "{攫|さら}う",
+      "label": "to snatch"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21397_tsuresaru",
+      "reading": "つれさる",
+      "headword": "{連|つ}れ{去|さ}る",
+      "label": "to take away"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,14 +75,16 @@
       "pos": [
         "verb-suru"
       ],
+      "politeness": "plain",
       "semantic": [
         "law",
         "politics"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-04-26T16:31:41Z",
-    "modified": "2026-08-04T21:23:34Z"
+    "modified": "2026-09-02T04:02:23Z"
   },
   "conjugation": {
     "type": "suru",

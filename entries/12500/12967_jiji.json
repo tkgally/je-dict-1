@@ -15,42 +15,69 @@
   "examples": [
     {
       "id": "12967_jiji_ex1",
-      "japanese": "{時事|じじ}ニュースを{毎日|まいにち}チェックしている。",
+      "japanese": "{時事|じじ}⟦ニュース→ニュース：04437_nyuusu⟧⟦を→を：00422_wo⟧⟦{毎日|まいにち}→毎日：00729_mainichi⟧⟦チェックしている→チェックする：04916_chekkusuru⟧。",
       "english": "I check the current affairs news every day.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12967_jiji_ex2",
-      "japanese": "{時事|じじ}{問題|もんだい}について{意見|いけん}を{求|もと}められた。",
+      "japanese": "{時事|じじ}{問題|もんだい}⟦について→〜について：03103_nitsuite⟧⟦{意見|いけん}→意見：01303_iken⟧⟦を→を：00422_wo⟧⟦{求|もと}められた→求める：02316_motomeru⟧。",
       "english": "I was asked for my opinion on current affairs.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12967_jiji_ex3",
-      "japanese": "{就職|しゅうしょく}{試験|しけん}では{時事|じじ}に{関|かん}する{知識|ちしき}が{問|と}われることが{多|おお}い。",
+      "japanese": "⟦{就職|しゅうしょく}→就職：03209_shuushoku⟧⟦{試験|しけん}→試験：01422_shiken⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧{時事|じじ}⟦に→に：00314_ni⟧⟦{関|かん}する→関する：02045_kansuru⟧⟦{知識|ちしき}→知識：01463_chishiki⟧⟦が→が：00051_ga⟧⟦{問|と}われる→問う：02299_tou⟧こと⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "Employment exams often test knowledge of current affairs.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nMost commonly used as a compound modifier: {時事|じじ} + noun. Rarely stands alone. Formal register, common in news media, education, and academic contexts.\n\nCOMMON COLLOCATIONS:\n- {時事|じじ}{問題|もんだい}: current affairs issues\n- {時事|じじ}ニュース: current affairs news\n- {時事|じじ}{解説|かいせつ}: current affairs commentary\n- {時事|じじ}{評論|ひょうろん}: current affairs criticism\n\nSIMILAR WORDS:\n- {時事|じじ}{通信|つうしん}: Jiji Press (major Japanese news agency — proper noun, not to be confused)\n- ニュース: news (general)\n- {世間|せけん}: the world, society (everyday)",
-  "cross_references": [],
+  "notes": "USAGE:\nMost commonly used as a compound modifier: {時事|じじ} + noun. Rarely stands alone. Formal register, common in news media, education, and academic contexts.\n\nCOMMON COLLOCATIONS:\n- {時事|じじ}{問題|もんだい}: current affairs issues\n- {時事|じじ}⟦ニュース→ニュース：04437_nyuusu⟧: current affairs news\n- {時事|じじ}⟦{解説|かいせつ}→解説：00138_kaisetsu⟧: current affairs commentary\n- {時事|じじ}⟦{評論|ひょうろん}→評論：05820_hyouron⟧: current affairs criticism\n\nSIMILAR WORDS:\n- {時事|じじ}⟦{通信|つうしん}→通信：03514_tsuushin⟧: Jiji Press (major Japanese news agency — proper noun, not to be confused)\n- ⟦ニュース→ニュース：04437_nyuusu⟧: news (general)\n- ⟦{世間|せけん}→世間：03299_seken⟧: the world, society (everyday)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04437_nyuusu",
+      "reading": "にゅーす",
+      "headword": "ニュース",
+      "label": "news"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03299_seken",
+      "reading": "せけん",
+      "headword": "{世間|せけん}",
+      "label": "the world, society"
+    }
+  ],
   "metadata": {
     "created": "2026-02-22T23:43:00Z",
-    "modified": "2026-02-22T23:43:00Z",
+    "modified": "2026-09-02T04:01:31Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "style": ["written"],
-      "semantic": ["general"]
+      "style": [
+        "written"
+      ],
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

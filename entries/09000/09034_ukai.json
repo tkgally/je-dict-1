@@ -19,7 +19,7 @@
   "examples": [
     {
       "id": "09034_ukai_ex1",
-      "japanese": "{工事中|こうじちゅう}のため{迂回|うかい}した。",
+      "japanese": "⟦{工事中|こうじちゅう}→工事中：09625_koujichuu⟧⟦の→の：09472_no⟧⟦ため→ため：01145_tame⟧{迂回|うかい}⟦した→する：00392_suru⟧。",
       "english": "I took a detour because of construction.",
       "notes": null,
       "has_audio": false,
@@ -29,7 +29,7 @@
     },
     {
       "id": "09034_ukai_ex2",
-      "japanese": "{迂回|うかい}{路|ろ}は{通常|つうじょう}より20{分|ぷん}{長|なが}くかかる。",
+      "japanese": "{迂回|うかい}{路|ろ}⟦は→は：00079_ha⟧⟦{通常|つうじょう}→通常：27316_tsuujou⟧⟦より→より：09476_yori⟧20{分|ぷん}⟦{長|なが}く→長い：00491_nagai⟧⟦かかる→かかる：00711_kakaru⟧。",
       "english": "The detour takes 20 minutes longer than usual.",
       "notes": null,
       "has_audio": false,
@@ -39,7 +39,7 @@
     },
     {
       "id": "09034_ukai_ex3",
-      "japanese": "{事故|じこ}{現場|げんば}を{迂回|うかい}するよう{指示|しじ}された。",
+      "japanese": "⟦{事故|じこ}→事故：00851_jiko⟧⟦{現場|げんば}→現場：02723_genba⟧⟦を→を：00422_wo⟧{迂回|うかい}⟦する→する：00392_suru⟧よう⟦{指示|しじ}→指示：09674_shiji⟧⟦された→する：00392_suru⟧。",
       "english": "We were directed to take a detour around the accident scene.",
       "notes": null,
       "has_audio": false,
@@ -49,7 +49,7 @@
     },
     {
       "id": "09034_ukai_ex4",
-      "japanese": "{迂回|うかい}{戦術|せんじゅつ}を{使|つか}う。",
+      "japanese": "{迂回|うかい}⟦{戦術|せんじゅつ}→戦術：12748_senjutsu⟧⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧。",
       "english": "To use indirect tactics.",
       "notes": null,
       "has_audio": false,
@@ -59,7 +59,7 @@
     },
     {
       "id": "09034_ukai_ex5",
-      "japanese": "{問題|もんだい}を{迂回|うかい}せずに{直接|ちょくせつ}{対処|たいしょ}すべきだ。",
+      "japanese": "⟦{問題|もんだい}→問題：00797_mondai⟧⟦を→を：00422_wo⟧{迂回|うかい}せず⟦に→に：00314_ni⟧⟦{直接|ちょくせつ}→直接：03499_chokusetsu⟧⟦{対処|たいしょ}→対処：05518_taisho⟧すべきだ。",
       "english": "We should address the problem directly instead of going around it.",
       "notes": null,
       "has_audio": false,
@@ -69,7 +69,7 @@
     },
     {
       "id": "09034_ukai_ex6",
-      "japanese": "{規制|きせい}を{迂回|うかい}する{方法|ほうほう}を{探|さが}している。",
+      "japanese": "⟦{規制|きせい}→規制：02598_kisei⟧⟦を→を：00422_wo⟧{迂回|うかい}⟦する→する：00392_suru⟧⟦{方法|ほうほう}→方法：03621_houhou⟧⟦を→を：00422_wo⟧⟦{探|さが}している→探す：00493_sagasu⟧。",
       "english": "I'm looking for a way to get around the regulations.",
       "notes": null,
       "has_audio": false,
@@ -78,7 +78,7 @@
       ]
     }
   ],
-  "notes": "{迂回|うかい} can be literal (physical route) or figurative (approach).\n\nCOMMON COLLOCATIONS:\n- {迂回|うかい}する: to make a detour, to go around\n- {迂回|うかい}{路|ろ}: detour route\n- {迂回|うかい}{路線|ろせん}: alternative route\n- {迂回|うかい}{戦術|せんじゅつ}: indirect tactics\n- {迂回|うかい}{輸入|ゆにゅう}: circumvention import (avoiding tariffs)\n\nFIGURATIVE USAGE:\n- Common in business and military contexts\n- Can imply avoiding confrontation or regulations",
+  "notes": "{迂回|うかい} can be literal (physical route) or figurative (approach).\n\nCOMMON COLLOCATIONS:\n- {迂回|うかい}⟦する→する：00392_suru⟧: to make a detour, to go around\n- {迂回|うかい}{路|ろ}: detour route\n- {迂回|うかい}⟦{路線|ろせん}→路線：11341_rosen⟧: alternative route\n- {迂回|うかい}⟦{戦術|せんじゅつ}→戦術：12748_senjutsu⟧: indirect tactics\n- {迂回|うかい}⟦{輸入|ゆにゅう}→輸入：01742_yunyuu⟧: circumvention import (avoiding tariffs)\n\nUSAGE:\n- Common in business and military contexts\n- Can imply avoiding confrontation or regulations",
   "cross_references": [
     {
       "type": "synonym",
@@ -86,11 +86,25 @@
       "reading": "まわりみち",
       "headword": "{回|まわ}り{道|みち}",
       "label": "detour; everyday"
+    },
+    {
+      "type": "related",
+      "target_id": "19920_tsuukoudome",
+      "reading": "つうこうどめ",
+      "headword": "{通行止|つうこうど}め",
+      "label": "road closure"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26434_rosenhenkou",
+      "reading": "ろせんへんこう",
+      "headword": "{路線|ろせん}{変更|へんこう}",
+      "label": "change of route"
     }
   ],
   "metadata": {
     "created": "2026-01-30T23:04:35Z",
-    "modified": "2026-08-12T21:25:53Z",
+    "modified": "2026-09-02T04:01:17Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

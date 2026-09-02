@@ -15,41 +15,60 @@
   "examples": [
     {
       "id": "16140_setake_ex1",
-      "japanese": "{背丈|せたけ}が{伸|の}びた。",
+      "japanese": "{背丈|せたけ}⟦が→が：00051_ga⟧⟦{伸|の}びた→伸びる：01974_nobiru⟧。",
       "english": "My height has grown.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16140_setake_ex2",
-      "japanese": "{彼女|かのじょ}は{母親|ははおや}と{同|おな}じくらいの{背丈|せたけ}だ。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧⟦{母親|ははおや}→母親：03564_hahaoya⟧⟦と→と：00512_to⟧⟦{同|おな}じ→同じ：02857_onaji⟧くらい⟦の→の：09472_no⟧{背丈|せたけ}だ。",
       "english": "She is about the same height as her mother.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16140_setake_ex3",
-      "japanese": "{草|くさ}が{背丈|せたけ}ほどに{伸|の}びていて、{前|まえ}が{見|み}えなかった。",
+      "japanese": "⟦{草|くさ}→草：02206_kusa⟧⟦が→が：00051_ga⟧{背丈|せたけ}ほど⟦に→に：00314_ni⟧⟦{伸|の}びていて→伸びる：01974_nobiru⟧、⟦{前|まえ}→前：02255_mae⟧⟦が→が：00051_ga⟧⟦{見|み}えなかった→見える：01165_mieru⟧。",
       "english": "The grass had grown to about my height, and I couldn't see ahead.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\n{背丈|せたけ} is used more in descriptive or narrative contexts, while {身長|しんちょう} is the standard term for exact height measurements (e.g., on medical forms). {背|せ} alone can also mean height in casual speech ({背|せ}が{高|たか}い — \"tall\").\n\nCOMMON COLLOCATIONS:\n- {背丈|せたけ}が{伸|の}びる (to grow taller)\n- {背丈|せたけ}ほどの{草|くさ} (grass as tall as a person)\n- {背丈|せたけ}に{合|あ}った (suited to one's height)\n- {同|おな}じ{背丈|せたけ} (the same height)",
-  "cross_references": [],
+  "notes": "USAGE:\n{背丈|せたけ} is used more in descriptive or narrative contexts, while ⟦{身長|しんちょう}→身長：03263_shinchou⟧ is the standard term for exact height measurements (e.g., on medical forms). ⟦{背|せ}→背：02907_se⟧ alone can also mean height in casual speech (⟦{背|せ}→背：02907_se⟧⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧ — \"tall\").\n\nCOMMON COLLOCATIONS:\n- {背丈|せたけ}⟦が→が：00051_ga⟧⟦{伸|の}びる→伸びる：01974_nobiru⟧ (to grow taller)\n- {背丈|せたけ}ほど⟦の→の：09472_no⟧⟦{草|くさ}→草：02206_kusa⟧ (grass as tall as a person)\n- {背丈|せたけ}⟦に→に：00314_ni⟧⟦{合|あ}った→合う：10466_au⟧ (suited to one's height)\n- ⟦{同|おな}じ→同じ：02857_onaji⟧{背丈|せたけ} (the same height)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "29022_senotakasa",
+      "reading": "せのたかさ",
+      "headword": "{背|せ}の{高|たか}さ",
+      "label": "(a person's) height"
+    }
+  ],
   "metadata": {
     "created": "2026-03-10T06:04:22Z",
-    "modified": "2026-03-10T06:04:22Z",
+    "modified": "2026-09-02T04:01:43Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["body-part", "size"]
+      "semantic": [
+        "body-part",
+        "size"
+      ]
     }
   }
 }

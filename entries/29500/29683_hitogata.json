@@ -3,7 +3,7 @@
   "headword": "{人型|ひとがた}",
   "reading": "ひとがた",
   "romaji": "hitogata",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "humanoid; human-shaped; human figure",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29683_hitogata_ex1",
-      "japanese": "{人型|ひとがた}のロボットが{歩|ある}く。",
+      "japanese": "{人型|ひとがた}⟦の→の：09472_no⟧⟦ロボット→ロボット：06404_robotto⟧⟦が→が：00051_ga⟧⟦{歩|ある}く→歩く：00538_aruku⟧。",
       "english": "A humanoid robot walks.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29683_hitogata_ex2",
-      "japanese": "この{機械|きかい}は{人型|ひとがた}をしている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{機械|きかい}→機械：02366_kikai⟧⟦は→は：00079_ha⟧{人型|ひとがた}⟦を→を：00422_wo⟧⟦している→する：00392_suru⟧。",
       "english": "This machine is shaped like a human.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29683_hitogata_ex3",
-      "japanese": "{最近|さいきん}の{人型|ひとがた}ロボットは、{人間|にんげん}のように{手足|てあし}を{動|うご}かせる。",
+      "japanese": "⟦{最近|さいきん}→最近：00881_saikin⟧⟦の→の：09472_no⟧{人型|ひとがた}⟦ロボット→ロボット：06404_robotto⟧⟦は→は：00079_ha⟧、⟦{人間|にんげん}→人間：03523_ningen⟧⟦のように→のように：30291_noyouni⟧⟦{手足|てあし}→手足：12799_teashi⟧⟦を→を：00422_wo⟧⟦{動|うご}かせる→動く：00904_ugoku⟧。",
       "english": "Recent humanoid robots can move their arms and legs like a human.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Describes something built or drawn in the shape of a human. Most often seen in compounds, especially {人型|ひとがた}ロボット.\n\nCOMMON COLLOCATIONS:\n- {人型|ひとがた}ロボット: humanoid robot\n- {人型|ひとがた}の{生|い}き{物|もの}: a human-shaped creature\n- {人型|ひとがた}をしている: to be shaped like a human\n\nSIMILAR WORDS:\n- ヒューマノイド: humanoid — a loanword used mainly for human-like robots\n- {人形|にんぎょう}: doll; figure — a physical doll or figurine, read differently and not used for shape in general",
+  "notes": "Describes something built or drawn in the shape of a human. Most often seen in compounds, especially {人型|ひとがた}⟦ロボット→ロボット：06404_robotto⟧.\n\nCOMMON COLLOCATIONS:\n- {人型|ひとがた}⟦ロボット→ロボット：06404_robotto⟧: humanoid robot\n- {人型|ひとがた}⟦の→の：09472_no⟧⟦{生|い}き{物|もの}→生き物：01783_ikimono⟧: a human-shaped creature\n- {人型|ひとがた}⟦を→を：00422_wo⟧⟦している→する：00392_suru⟧: to be shaped like a human\n\nSIMILAR WORDS:\n- ⟦ヒューマノイド→ヒューマノイド：29684_hyuumanoido⟧: humanoid — a loanword used mainly for human-like robots\n- ⟦{人形|にんぎょう}→人形：01487_ningyou⟧: doll; figure — a physical doll or figurine, read differently and not used for shape in general",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "29684_hyuumanoido",
+      "reading": "ひゅーまのいど",
+      "headword": "ヒューマノイド",
+      "label": "humanoid"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01487_ningyou",
+      "reading": "にんぎょう",
+      "headword": "{人形|にんぎょう}",
+      "label": "doll"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -54,13 +70,13 @@
         "adjective-no"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "appearance"
       ],
       "domain": []
     },
     "created": "2026-07-05T03:18:57Z",
-    "modified": "2026-07-05T03:18:57Z"
+    "modified": "2026-09-02T04:02:37Z"
   }
 }

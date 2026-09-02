@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "18250_shibetsu_ex1",
-      "japanese": "{父|ちち}と{死別|しべつ}したのは{十歳|じっさい}のときだった。",
+      "japanese": "⟦{父|ちち}→父：00566_chichi⟧⟦と→と：00512_to⟧{死別|しべつ}⟦した→する：00392_suru⟧⟦の→の：09472_no⟧⟦は→は：00079_ha⟧{十歳|じっさい}⟦の→の：09472_no⟧ときだった。",
       "english": "I was ten years old when I lost my father.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "18250_shibetsu_ex2",
-      "japanese": "{愛|あい}する{人|ひと}との{死別|しべつ}は{深|ふか}い{悲|かな}しみをもたらす。",
+      "japanese": "⟦{愛|あい}する→愛する：01811_aisuru⟧⟦{人|ひと}→人：00476_hito⟧⟦と→と：00512_to⟧⟦の→の：09472_no⟧{死別|しべつ}⟦は→は：00079_ha⟧⟦{深|ふか}い→深い：01211_fukai⟧⟦{悲|かな}しみ→悲しみ：05404_kanashimi⟧⟦を→を：00422_wo⟧⟦もたらす→もたらす：10546_motarasu⟧。",
       "english": "The loss of a loved one brings deep sorrow.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "18250_shibetsu_ex3",
-      "japanese": "{配偶者|はいぐうしゃ}との{死別|しべつ}を{経験|けいけん}した{人|ひと}を{支援|しえん}するグループがある。",
+      "japanese": "⟦{配偶者|はいぐうしゃ}→配偶者：07430_haiguusha⟧⟦と→と：00512_to⟧⟦の→の：09472_no⟧{死別|しべつ}⟦を→を：00422_wo⟧⟦{経験|けいけん}→経験：01179_keiken⟧⟦した→する：00392_suru⟧⟦{人|ひと}→人：00476_hito⟧⟦を→を：00422_wo⟧⟦{支援|しえん}する→支援する：25534_shiensuru⟧⟦グループ→グループ：03840_guruupu⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There are support groups for people who have experienced the death of a spouse.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,19 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA formal, somewhat literary word used to describe the specific type of separation caused by someone's death. Takes と to mark the person one was separated from: ～と{死別|しべつ}する.\n\nCOMMON COLLOCATIONS:\n- ～と{死別|しべつ}する (to be parted from ~ by death)\n- {死別|しべつ}を{経験|けいけん}する (to experience bereavement)\n- {親|おや}との{死別|しべつ} (losing a parent to death)\n\nSIMILAR WORDS:\n- {生|い}き{別|わか}れ: separation from a living person — being separated without death, typically due to circumstances\n- {別離|べつり}: separation; parting — literary term for separation in general",
-  "cross_references": [],
+  "notes": "USAGE:\nA formal, somewhat literary word used to describe the specific type of separation caused by someone's death. Takes ⟦と→と：00512_to⟧ to mark the person one was separated from: ～⟦と→と：00512_to⟧{死別|しべつ}⟦する→する：00392_suru⟧.\n\nCOMMON COLLOCATIONS:\n- ～⟦と→と：00512_to⟧{死別|しべつ}⟦する→する：00392_suru⟧ (to be parted from ~ by death)\n- {死別|しべつ}⟦を→を：00422_wo⟧⟦{経験|けいけん}→経験：01179_keiken⟧⟦する→する：00392_suru⟧ (to experience bereavement)\n- ⟦{親|おや}→親：01357_oya⟧⟦と→と：00512_to⟧⟦の→の：09472_no⟧{死別|しべつ} (losing a parent to death)\n\nSIMILAR WORDS:\n- {生|い}き{別|わか}れ: separation from a living person — being separated without death, typically due to circumstances\n- ⟦{別離|べつり}→別離：20188_betsuri⟧: separation; parting — literary term for separation in general",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20188_betsuri",
+      "reading": "べつり",
+      "headword": "{別離|べつり}",
+      "label": "separation"
+    }
+  ],
   "metadata": {
     "created": "2026-03-20T13:48:45Z",
-    "modified": "2026-03-29T03:08:58Z",
+    "modified": "2026-09-02T04:01:51Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

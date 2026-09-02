@@ -16,7 +16,7 @@
   "examples": [
     {
       "id": "30211_cheensoo_ex1",
-      "japanese": "チェーンソーで{木|き}を{切|き}る。",
+      "japanese": "チェーンソー⟦で→で：00502_de⟧⟦{木|き}→木：00524_ki⟧⟦を→を：00422_wo⟧⟦{切|き}る→切る：02693_kiru⟧。",
       "english": "I cut down a tree with a chainsaw.",
       "sense_numbers": [
         1
@@ -26,7 +26,7 @@
     },
     {
       "id": "30211_cheensoo_ex2",
-      "japanese": "チェーンソーの{音|おと}が{朝|あさ}から{山|やま}に{響|ひび}いていた。",
+      "japanese": "チェーンソー⟦の→の：09472_no⟧⟦{音|おと}→音：00743_oto⟧⟦が→が：00051_ga⟧⟦{朝|あさ}→朝：02277_asa⟧⟦から→から：00504_kara⟧⟦{山|やま}→山：02168_yama⟧⟦に→に：00314_ni⟧⟦{響|ひび}いていた→響く：00099_hibiku⟧。",
       "english": "The sound of a chainsaw echoed through the mountains from morning.",
       "sense_numbers": [
         1
@@ -36,7 +36,7 @@
     },
     {
       "id": "30211_cheensoo_ex3",
-      "japanese": "{台風|たいふう}で{倒|たお}れた{木|き}を、チェーンソーで{短|みじか}く{切|き}って{運|はこ}んだ。",
+      "japanese": "⟦{台風|たいふう}→台風：01455_taifuu⟧⟦で→で：00502_de⟧⟦{倒|たお}れた→倒れる：01160_taoreru⟧⟦{木|き}→木：00524_ki⟧⟦を→を：00422_wo⟧、チェーンソー⟦で→で：00502_de⟧⟦{短|みじか}く→短い：00510_mijikai⟧⟦{切|き}って→切る：02693_kiru⟧⟦{運|はこ}んだ→運ぶ：01088_hakobu⟧。",
       "english": "We cut the tree that fell in the typhoon into short pieces with a chainsaw and carried them away.",
       "sense_numbers": [
         1
@@ -46,7 +46,7 @@
     },
     {
       "id": "30211_cheensoo_ex4",
-      "japanese": "チェーンソーを{使|つか}う{作業|さぎょう}には{資格|しかく}が{必要|ひつよう}な{場合|ばあい}があるので、{事前|じぜん}に{確認|かくにん}したほうがいい。",
+      "japanese": "チェーンソー⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧⟦{作業|さぎょう}→作業：02775_sagyou⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{資格|しかく}→資格：02834_shikaku⟧⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧な⟦{場合|ばあい}→場合：01704_baai⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧⟦の→の：09472_no⟧で、⟦{事前|じぜん}→事前：07580_jizen⟧⟦に→に：00314_ni⟧⟦{確認|かくにん}した→確認する：25332_kakuninsuru⟧⟦ほうがいい→ほうがいい：10078_hougaii⟧。",
       "english": "Some chainsaw work requires certification, so it is best to check beforehand.",
       "sense_numbers": [
         1
@@ -55,7 +55,7 @@
       "notes": null
     }
   ],
-  "notes": "From English \"chain saw.\" Sometimes written チェンソー, and the native term {鎖鋸|くさりのこ} exists but is almost never used.\n\nCOMMON COLLOCATIONS:\n- チェーンソーで{切|き}る: to cut with a chainsaw\n- チェーンソーの{刃|は}: the chainsaw chain or blade\n- エンジン{式|しき}チェーンソー: engine-powered chainsaw\n\nSIMILAR WORDS:\n- のこぎり: handsaw — manual, for smaller work\n- {丸|まる}のこ: circular saw — for straight cuts in boards, not for felling trees\n- {草刈|くさか}り{機|き}: brush cutter — for grass and undergrowth rather than wood",
+  "notes": "From English \"chain saw.\" Sometimes written チェンソー, and the native term {鎖鋸|くさりのこ} exists but is almost never used.\n\nCOMMON COLLOCATIONS:\n- チェーンソー⟦で→で：00502_de⟧⟦{切|き}る→切る：02693_kiru⟧: to cut with a chainsaw\n- チェーンソー⟦の→の：09472_no⟧⟦{刃|は}→刃：09865_ha⟧: the chainsaw chain or blade\n- ⟦エンジン→エンジン：03835_enjin⟧{式|しき}チェーンソー: engine-powered chainsaw\n\nSIMILAR WORDS:\n- のこぎり: handsaw — manual, for smaller work\n- ⟦{丸|まる}のこ→丸のこ：30201_marunoko⟧: circular saw — for straight cuts in boards, not for felling trees\n- ⟦{草刈|くさか}り{機|き}→草刈り機：30228_kusakariki⟧: brush cutter — for grass and undergrowth rather than wood",
   "cross_references": [
     {
       "type": "related",
@@ -70,6 +70,20 @@
       "headword": "鋸",
       "label": "handsaw",
       "target_id": "05477_nokogiri"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30228_kusakariki",
+      "reading": "くさかりき",
+      "headword": "{草刈|くさか}り{機|き}",
+      "label": "brush cutter"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23980_dendounokogiri",
+      "reading": "でんどうのこぎり",
+      "headword": "{電動|でんどう}のこぎり",
+      "label": "power saw"
     }
   ],
   "metadata": {
@@ -79,7 +93,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "tool"
       ],
@@ -88,6 +102,6 @@
       ]
     },
     "created": "2026-07-29T03:20:59Z",
-    "modified": "2026-07-29T03:20:59Z"
+    "modified": "2026-09-02T04:02:39Z"
   }
 }

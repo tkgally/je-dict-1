@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "12633_hisan_ex1",
-      "japanese": "{悲惨|ひさん}な{事故|じこ}だった。",
+      "japanese": "{悲惨|ひさん}な⟦{事故|じこ}→事故：00851_jiko⟧だった。",
       "english": "It was a tragic accident.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "12633_hisan_ex2",
-      "japanese": "{戦争|せんそう}の{悲惨|ひさん}さを{伝|つた}える。",
+      "japanese": "⟦{戦争|せんそう}→戦争：01450_sensou⟧⟦の→の：09472_no⟧{悲惨|ひさん}さ⟦を→を：00422_wo⟧⟦{伝|つた}える→伝える：01220_tsutaeru⟧。",
       "english": "To convey the horrors of war.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "12633_hisan_ex3",
-      "japanese": "{被災地|ひさいち}の{悲惨|ひさん}な{状況|じょうきょう}を{目|め}の{当|あ}たりにして、{言葉|ことば}を{失|うしな}った。",
+      "japanese": "⟦{被災地|ひさいち}→被災地：27434_hisaichi⟧⟦の→の：09472_no⟧{悲惨|ひさん}な⟦{状況|じょうきょう}→状況：01576_joukyou⟧⟦を→を：00422_wo⟧{目|め}の{当|あ}たりにして、⟦{言葉|ことば}→言葉：02880_kotoba⟧⟦を→を：00422_wo⟧⟦{失|うしな}った→失う：01887_ushinau⟧。",
       "english": "Witnessing the devastating conditions in the disaster area, I was left speechless.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "{悲惨|ひさん} is a na-adjective describing extreme misery or tragedy.\n\nFORMS:\n- Modifier: {悲惨|ひさん}な\n- Adverbial: {悲惨|ひさん}に\n- Noun form: {悲惨|ひさん}さ (the wretchedness, the tragedy of)\n\nCOMMON COLLOCATIONS:\n- {悲惨|ひさん}な{事故|じこ}: tragic accident\n- {悲惨|ひさん}な{結末|けつまつ}: tragic ending\n- {悲惨|ひさん}な{状況|じょうきょう}: miserable conditions\n- {悲惨|ひさん}な{目|め}に{遭|あ}う: to suffer a terrible fate\n\nSIMILAR WORDS:\n- {悲惨|ひさん}: tragic, devastating (emphasizes suffering and misery)\n- {惨|むご}い: cruel, awful (emphasizes cruelty or harshness)\n- {悲|かな}しい: sad (emotional response, milder)\n- {痛|いた}ましい: pitiful, heartrending (evokes sympathy for the victim)",
+  "notes": "{悲惨|ひさん} is a na-adjective describing extreme misery or tragedy.\n\nFORMS:\n- Modifier: {悲惨|ひさん}な\n- Adverbial: {悲惨|ひさん}⟦に→に：00314_ni⟧\n- Noun form: {悲惨|ひさん}さ (the wretchedness, the tragedy of)\n\nCOMMON COLLOCATIONS:\n- {悲惨|ひさん}な⟦{事故|じこ}→事故：00851_jiko⟧: tragic accident\n- {悲惨|ひさん}な⟦{結末|けつまつ}→結末：15091_ketsumatsu⟧: tragic ending\n- {悲惨|ひさん}な⟦{状況|じょうきょう}→状況：01576_joukyou⟧: miserable conditions\n- {悲惨|ひさん}な⟦{目|め}に{遭|あ}う→目に遭う：25927_meniau⟧: to suffer a terrible fate\n\nSIMILAR WORDS:\n- {悲惨|ひさん}: tragic, devastating (emphasizes suffering and misery)\n- {惨|むご}い: cruel, awful (emphasizes cruelty or harshness)\n- ⟦{悲|かな}しい→悲しい：00783_kanashii⟧: sad (emotional response, milder)\n- {痛|いた}ましい: pitiful, heartrending (evokes sympathy for the victim)",
   "cross_references": [
     {
       "type": "synonym",
@@ -52,11 +52,39 @@
       "reading": "むざん",
       "headword": "{無惨|むざん}",
       "label": "cruel, wretched"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00783_kanashii",
+      "reading": "かなしい",
+      "headword": "{悲|かな}しい",
+      "label": "sad"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15648_seizetsu",
+      "reading": "せいぜつ",
+      "headword": "{凄絶|せいぜつ}",
+      "label": "ghastly"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27415_santan",
+      "reading": "さんたん",
+      "headword": "{惨憺|さんたん}",
+      "label": "wretched"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28215_higekiteki",
+      "reading": "ひげきてき",
+      "headword": "{悲劇的|ひげきてき}",
+      "label": "tragic"
     }
   ],
   "metadata": {
     "created": "2026-02-22T04:37:31Z",
-    "modified": "2026-04-29T05:15:51Z",
+    "modified": "2026-09-02T04:01:29Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

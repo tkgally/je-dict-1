@@ -99,7 +99,7 @@
     },
     {
       "id": "01359_orei_ex9",
-      "japanese": "お{礼|れい}⟦として→として：06802_toshite⟧⟦{お金|おかね}→お金：00611_okane⟧⟦を→を：00422_wo⟧⟦{渡|わた}した→渡す：02442_watasu⟧。",
+      "japanese": "お{礼|れい}⟦として→として：06802_toshite⟧⟦お{金|かね}→お金：00611_okane⟧⟦を→を：00422_wo⟧⟦{渡|わた}した→渡す：02442_watasu⟧。",
       "english": "I gave money as a reward.",
       "notes": null,
       "has_audio": false,
@@ -140,11 +140,31 @@
   ],
   "notes": "お{礼|れい} is the polite form of ⟦{礼|れい}→礼：02170_rei⟧, with the honorific お prefix. It covers both the feeling of gratitude and tangible expressions of thanks.\n\nCOMMON EXPRESSIONS:\n- お{礼|れい}⟦を→を：00422_wo⟧⟦{言|い}う→言う：00515_iu⟧: to say thank you\n- お{礼|れい}⟦を→を：00422_wo⟧⟦{述|の}べる→述べる：02389_noberu⟧: to express thanks (formal)\n- お{礼|れい}⟦を→を：00422_wo⟧⟦{申|もう}し{上|あ}げます→申し上げる：01734_moushiageru⟧: I express my gratitude (very formal/keigo)\n- お{礼|れい}⟦に→に：00314_ni⟧: in return, as thanks\n- お{礼|れい}⟦の→の：09472_no⟧⟦{品|しな}→品：03192_shina⟧: thank-you gift\n- ⟦お{礼|れい}{状|じょう}→礼状：15365_reijou⟧: thank-you letter (formal)\n\nMEANING DISTINCTION:\nSense 1 (gratitude) is far more common. Sense 2 (reward) often refers to money or gifts given in return for a favor, such as finding a lost item.\n\nREGISTER:\nAlways polite due to the お prefix. The plain form ⟦{礼|れい}→礼：02170_rei⟧ exists but is rarely used alone in modern speech.",
   "cross_references": [
-    {"type": "related", "target_id": "02170_rei", "reading": "れい", "headword": "{礼|れい}", "label": "plain form (without honorific お)"}
+    {
+      "type": "related",
+      "target_id": "02170_rei",
+      "reading": "れい",
+      "headword": "{礼|れい}",
+      "label": "plain form (without honorific お)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00181_kansha",
+      "reading": "かんしゃ",
+      "headword": "{感謝|かんしゃ}",
+      "label": "gratitude, thanks"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23324_sunshi",
+      "reading": "すんし",
+      "headword": "{寸志|すんし}",
+      "label": "small token of gratitude (money or gift)"
+    }
   ],
   "metadata": {
     "created": "2026-01-08T12:43:44Z",
-    "modified": "2026-05-15T13:13:32Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

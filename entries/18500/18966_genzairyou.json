@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "18966_genzairyou_ex1",
-      "japanese": "{原材料|げんざいりょう}の{価格|かかく}が{上|あ}がった。",
+      "japanese": "{原材料|げんざいりょう}⟦の→の：09472_no⟧⟦{価格|かかく}→価格：00147_kakaku⟧⟦が→が：00051_ga⟧⟦{上|あ}がった→上がる：00615_agaru⟧。",
       "english": "The price of raw materials has gone up.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "18966_genzairyou_ex2",
-      "japanese": "{食品|しょくひん}の{原材料|げんざいりょう}{表示|ひょうじ}を{確認|かくにん}した。",
+      "japanese": "⟦{食品|しょくひん}→食品：03247_shokuhin⟧⟦の→の：09472_no⟧{原材料|げんざいりょう}⟦{表示|ひょうじ}→表示：03143_hyouji⟧⟦を→を：00422_wo⟧⟦{確認|かくにん}した→確認する：25332_kakuninsuru⟧。",
       "english": "I checked the ingredients list on the food product.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "18966_genzairyou_ex3",
-      "japanese": "{原材料|げんざいりょう}の{高騰|こうとう}により、{製品|せいひん}の{値上|ねあ}げが{避|さ}けられない。",
+      "japanese": "{原材料|げんざいりょう}⟦の→の：09472_no⟧⟦{高騰|こうとう}→高騰：14647_koutou⟧⟦に→に：00314_ni⟧⟦より→より：09476_yori⟧、⟦{製品|せいひん}→製品：01445_seihin⟧⟦の→の：09472_no⟧⟦{値上|ねあ}げ→値上げ：07582_neage⟧⟦が→が：00051_ga⟧⟦{避|さ}けられない→避ける：02109_sakeru⟧。",
       "english": "Due to soaring raw material costs, price increases on products are unavoidable.",
       "sense_numbers": [
         1
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {原|げん} (original, raw) + {材料|ざいりょう} (material, ingredient).\n\nFOOD CONTEXT:\nVery commonly seen on Japanese food packaging under {原材料|げんざいりょう}{名|めい} (ingredient name), where all ingredients must be listed by law.\n\nMANUFACTURING/ECONOMICS:\n- {原材料|げんざいりょう}{費|ひ}: raw material costs\n- {原材料|げんざいりょう}の{調達|ちょうたつ}: procurement of raw materials\n- {原材料|げんざいりょう}の{高騰|こうとう}: soaring raw material prices\n\nSIMILAR WORDS:\n- {原料|げんりょう}: raw material (often for processed goods — chemicals, paper, etc.)\n- {材料|ざいりょう}: material, ingredient (general term)\n- {原材料|げんざいりょう}: raw materials (comprehensive term covering both {原料|げんりょう} and {材料|ざいりょう})\n- {食材|しょくざい}: food ingredient (for cooking)",
+  "notes": "Composed of {原|げん} (original, raw) + ⟦{材料|ざいりょう}→材料：02831_zairyou⟧ (material, ingredient).\n\nFOOD CONTEXT:\nVery commonly seen on Japanese food packaging under {原材料|げんざいりょう}{名|めい} (ingredient name), where all ingredients must be listed by law.\n\nMANUFACTURING/ECONOMICS:\n- {原材料|げんざいりょう}{費|ひ}: raw material costs\n- {原材料|げんざいりょう}⟦の→の：09472_no⟧⟦{調達|ちょうたつ}→調達：09938_choutatsu⟧: procurement of raw materials\n- {原材料|げんざいりょう}⟦の→の：09472_no⟧⟦{高騰|こうとう}→高騰：14647_koutou⟧: soaring raw material prices\n\nSIMILAR WORDS:\n- ⟦{原料|げんりょう}→原料：11802_genryou⟧: raw material (often for processed goods — chemicals, paper, etc.)\n- ⟦{材料|ざいりょう}→材料：02831_zairyou⟧: material, ingredient (general term)\n- {原材料|げんざいりょう}: raw materials (comprehensive term covering both ⟦{原料|げんりょう}→原料：11802_genryou⟧ and ⟦{材料|ざいりょう}→材料：02831_zairyou⟧)\n- ⟦{食材|しょくざい}→食材：04940_shokuzai⟧: food ingredient (for cooking)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11802_genryou",
+      "reading": "げんりょう",
+      "headword": "{原料|げんりょう}",
+      "label": "raw material (often for processed goods"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04940_shokuzai",
+      "reading": "しょくざい",
+      "headword": "{食材|しょくざい}",
+      "label": "food ingredient"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19470_shizai",
+      "reading": "しざい",
+      "headword": "{資材|しざい}",
+      "label": "materials"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26437_hanseihin",
+      "reading": "はんせいひん",
+      "headword": "{半製品|はんせいひん}",
+      "label": "semi-finished product"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +89,6 @@
       ]
     },
     "created": "2026-03-23T10:24:22Z",
-    "modified": "2026-07-26T09:39:42Z"
+    "modified": "2026-09-02T04:01:54Z"
   }
 }

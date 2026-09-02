@@ -15,41 +15,61 @@
   "examples": [
     {
       "id": "27724_keikougyou_ex1",
-      "japanese": "{軽工業|けいこうぎょう}が{発達|はったつ}する。",
+      "japanese": "{軽工業|けいこうぎょう}⟦が→が：00051_ga⟧⟦{発達|はったつ}→発達：03559_hattatsu⟧⟦する→する：00392_suru⟧。",
       "english": "Light industry develops.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27724_keikougyou_ex2",
-      "japanese": "この{町|まち}は{繊維|せんい}などの{軽工業|けいこうぎょう}で{栄|さか}えた。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{町|まち}→町：00613_machi⟧⟦は→は：00079_ha⟧⟦{繊維|せんい}→繊維：13857_seni⟧⟦など→〜など：03095_nado⟧⟦の→の：09472_no⟧{軽工業|けいこうぎょう}⟦で→で：00502_de⟧⟦{栄|さか}えた→栄える：13104_sakaeru⟧。",
       "english": "This town prospered through light industry such as textiles.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27724_keikougyou_ex3",
-      "japanese": "{経済|けいざい}の{初期|しょき}{段階|だんかい}では、{軽工業|けいこうぎょう}が{中心|ちゅうしん}になることが{多|おお}い。",
+      "japanese": "⟦{経済|けいざい}→経済：01394_keizai⟧⟦の→の：09472_no⟧⟦{初期|しょき}→初期：11742_shoki⟧⟦{段階|だんかい}→段階：04515_dankai⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧、{軽工業|けいこうぎょう}⟦が→が：00051_ga⟧⟦{中心|ちゅうしん}→中心：01467_chuushin⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧こと⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "In the early stages of an economy, light industry is often central.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {軽|けい} (light) + {工業|こうぎょう} (industry). Covers industries that make smaller, lighter consumer goods.\n\nCOMMON COLLOCATIONS:\n- {軽工業|けいこうぎょう}{製品|せいひん}: light-industrial products\n- {繊維|せんい}{産業|さんぎょう}などの{軽工業|けいこうぎょう}: light industry such as the textile industry\n- {軽工業|けいこうぎょう}から{重工業|じゅうこうぎょう}へ: from light industry to heavy industry\n\nSIMILAR WORDS:\n- {重工業|じゅうこうぎょう}: heavy industry — the contrasting term, producing large goods such as steel and machinery",
+  "notes": "Composed of {軽|けい} (light) + ⟦{工業|こうぎょう}→工業：01402_kougyou⟧ (industry). Covers industries that make smaller, lighter consumer goods.\n\nCOMMON COLLOCATIONS:\n- {軽工業|けいこうぎょう}{製品|せいひん}: light-industrial products\n- ⟦{繊維|せんい}→繊維：13857_seni⟧⟦{産業|さんぎょう}→産業：01419_sangyou⟧⟦など→〜など：03095_nado⟧⟦の→の：09472_no⟧{軽工業|けいこうぎょう}: light industry such as the textile industry\n- {軽工業|けいこうぎょう}⟦から→から：00504_kara⟧⟦{重工業|じゅうこうぎょう}→重工業：27723_juukougyou⟧⟦へ→へ：02473_he⟧: from light industry to heavy industry\n\nSIMILAR WORDS:\n- ⟦{重工業|じゅうこうぎょう}→重工業：27723_juukougyou⟧: heavy industry — the contrasting term, producing large goods such as steel and machinery",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "27723_juukougyou",
+      "reading": "じゅうこうぎょう",
+      "headword": "{重工業|じゅうこうぎょう}",
+      "label": "heavy industry"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["business", "work"],
+      "politeness": "plain",
+      "semantic": [
+        "business",
+        "work"
+      ],
       "domain": []
     },
     "created": "2026-05-17T04:06:49Z",
-    "modified": "2026-05-17T04:06:49Z"
+    "modified": "2026-09-02T04:02:31Z"
   }
 }

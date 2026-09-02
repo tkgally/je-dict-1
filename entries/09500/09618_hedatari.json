@@ -19,41 +19,80 @@
   "examples": [
     {
       "id": "09618_hedatari_ex1",
-      "japanese": "{両者|りょうしゃ}の{間|あいだ}には{大|おお}きな{隔|へだ}たりがある。",
+      "japanese": "⟦{両者|りょうしゃ}→両者：11357_ryousha⟧⟦の→の：09472_no⟧⟦{間|あいだ}→間：00914_aida⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{大|おお}きな→大きな：02849_ookina⟧{隔|へだ}たり⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There is a large gap between the two.",
       "has_audio": false,
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "notes": null
     },
     {
       "id": "09618_hedatari_ex2",
-      "japanese": "{世代間|せだいかん}の{隔|へだ}たりを{感|かん}じる。",
+      "japanese": "⟦{世代間|せだいかん}→世代間：28752_sedaikan⟧⟦の→の：09472_no⟧{隔|へだ}たり⟦を→を：00422_wo⟧⟦{感|かん}じる→感じる：02044_kanjiru⟧。",
       "english": "I feel the generational gap.",
       "has_audio": false,
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "notes": null
     },
     {
       "id": "09618_hedatari_ex3",
-      "japanese": "{意見|いけん}の{隔|へだ}たりが{埋|う}まらない。",
+      "japanese": "⟦{意見|いけん}→意見：01303_iken⟧⟦の→の：09472_no⟧{隔|へだ}たり⟦が→が：00051_ga⟧⟦{埋|う}まらない→埋まる：01897_umaru⟧。",
       "english": "The gap in opinions cannot be bridged.",
       "has_audio": false,
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "notes": null
     }
   ],
-  "notes": "{隔|へだ}たり refers to distance or gaps, often in relationships or views.\n\nCOMMON PATTERNS:\n- {隔|へだ}たりがある: there is a gap/distance\n- {隔|へだ}たりを{感|かん}じる: to feel distance\n- {隔|へだ}たりが{縮|ちぢ}まる: the gap narrows\n- {隔|へだ}たりを{埋|う}める: to bridge the gap\n\nRELATED TERMS:\n- {距離|きょり}: distance (neutral, physical)\n- {溝|みぞ}: gap, rift (emotional, negative)\n- {格差|かくさ}: disparity (social, economic)",
-  "cross_references": [],
+  "notes": "{隔|へだ}たり refers to distance or gaps, often in relationships or views.\n\nCOMMON PATTERNS:\n- {隔|へだ}たり⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧: there is a gap/distance\n- {隔|へだ}たり⟦を→を：00422_wo⟧⟦{感|かん}じる→感じる：02044_kanjiru⟧: to feel distance\n- {隔|へだ}たり⟦が→が：00051_ga⟧⟦{縮|ちぢ}まる→縮まる：18725_chijimaru⟧: the gap narrows\n- {隔|へだ}たり⟦を→を：00422_wo⟧⟦{埋|う}める→埋める：01901_umeru⟧: to bridge the gap\n\nRELATED WORDS:\n- ⟦{距離|きょり}→距離：05331_kyori⟧: distance (neutral, physical)\n- ⟦{溝|みぞ}→溝：09410_mizo⟧: gap, rift (emotional, negative)\n- ⟦{格差|かくさ}→格差：04839_kakusa⟧: disparity (social, economic)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "05331_kyori",
+      "reading": "きょり",
+      "headword": "{距離|きょり}",
+      "label": "distance"
+    },
+    {
+      "type": "related",
+      "target_id": "09410_mizo",
+      "reading": "みぞ",
+      "headword": "{溝|みぞ}",
+      "label": "gap, rift"
+    },
+    {
+      "type": "related",
+      "target_id": "04839_kakusa",
+      "reading": "かくさ",
+      "headword": "{格差|かくさ}",
+      "label": "disparity"
+    },
+    {
+      "type": "related",
+      "target_id": "18729_hedateru",
+      "reading": "へだてる",
+      "headword": "{隔|へだ}てる",
+      "label": "to separate"
+    }
+  ],
   "metadata": {
     "created": "2026-02-03T02:35:27Z",
-    "modified": "2026-02-03T02:35:27Z",
+    "modified": "2026-09-02T04:01:18Z",
     "ai_model": "opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

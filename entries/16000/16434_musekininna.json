@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "16434_musekininna_ex1",
-      "japanese": "{無責任|むせきにん}な{発言|はつげん}だ。",
+      "japanese": "{無責任|むせきにん}な⟦{発言|はつげん}→発言：05099_hatsugen⟧だ。",
       "english": "That's an irresponsible remark.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16434_musekininna_ex2",
-      "japanese": "そんな{無責任|むせきにん}な{態度|たいど}では{困|こま}る。",
+      "japanese": "⟦そんな→そんな：01645_sonna⟧{無責任|むせきにん}な⟦{態度|たいど}→態度：03396_taido⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{困|こま}る→困る：00861_komaru⟧。",
       "english": "Such an irresponsible attitude is a problem.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16434_musekininna_ex3",
-      "japanese": "{彼|かれ}は{仕事|しごと}を{途中|とちゅう}で{投|な}げ{出|だ}す{無責任|むせきにん}な{人|ひと}だ。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦を→を：00422_wo⟧⟦{途中|とちゅう}→途中：01684_tochuu⟧⟦で→で：00502_de⟧⟦{投|な}げ{出|だ}す→投げ出す：10589_nagedasu⟧{無責任|むせきにん}な⟦{人|ひと}→人：00476_hito⟧だ。",
       "english": "He is an irresponsible person who abandons work halfway through.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "Na-adjective formed from {無|む} (without) + {責任|せきにん} (responsibility). Describes people or behavior that shows a lack of accountability.\n\nFORMS:\n- {無責任|むせきにん}な〜: modifier\n- {無責任|むせきにん}に: adverbially (irresponsibly)\n- {無責任|むせきにん}: noun form (irresponsibility)\n\nCOMMON COLLOCATIONS:\n- {無責任|むせきにん}な{発言|はつげん}: irresponsible remark\n- {無責任|むせきにん}な{態度|たいど}: irresponsible attitude\n- {無責任|むせきにん}な{行動|こうどう}: irresponsible behavior\n- {無責任|むせきにん}な{人|ひと}: irresponsible person\n\nCONTRAST:\n- {責任感|せきにんかん}がある: having a sense of responsibility (positive counterpart)\n- {責任感|せきにんかん}がない: lacking responsibility (similar meaning, less blunt)\n- いいかげん: careless, sloppy (more casual criticism)",
+  "notes": "Na-adjective formed from ⟦{無|む}→無：17750_mu⟧ (without) + ⟦{責任|せきにん}→責任：03298_sekinin⟧ (responsibility). Describes people or behavior that shows a lack of accountability.\n\nFORMS:\n- {無責任|むせきにん}な〜: modifier\n- ⟦{無責任|むせきにん}→無責任：13474_musekinin⟧⟦に→に：00314_ni⟧: adverbially (irresponsibly)\n- ⟦{無責任|むせきにん}→無責任：13474_musekinin⟧: noun form (irresponsibility)\n\nCOMMON COLLOCATIONS:\n- {無責任|むせきにん}な⟦{発言|はつげん}→発言：05099_hatsugen⟧: irresponsible remark\n- {無責任|むせきにん}な⟦{態度|たいど}→態度：03396_taido⟧: irresponsible attitude\n- {無責任|むせきにん}な⟦{行動|こうどう}→行動：02728_koudou⟧: irresponsible behavior\n- {無責任|むせきにん}な⟦{人|ひと}→人：00476_hito⟧: irresponsible person\n\nSIMILAR WORDS:\n- ⟦{責任感|せきにんかん}→責任感：20441_sekininkan⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧: having a sense of responsibility (positive counterpart)\n- ⟦{責任感|せきにんかん}→責任感：20441_sekininkan⟧⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧: lacking responsibility (similar meaning, less blunt)\n- ⟦いい→いい：00118_ii⟧かげん: careless, sloppy (more casual criticism)",
   "cross_references": [
     {
       "type": "related",
@@ -46,18 +52,29 @@
       "reading": "せきにん",
       "headword": "{責任|せきにん}",
       "label": "responsibility (base word)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09353_iikagen",
+      "reading": "いいかげん",
+      "headword": "いい{加減|かげん}",
+      "label": "careless, sloppy"
     }
   ],
   "metadata": {
     "created": "2026-03-12T23:47:25Z",
-    "modified": "2026-05-03T10:12:13Z",
+    "modified": "2026-09-02T04:01:45Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-na"],
+      "pos": [
+        "adjective-na"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["descriptive"]
+      "semantic": [
+        "descriptive"
+      ]
     }
   }
 }

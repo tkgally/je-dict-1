@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "09198_kukkyou_ex1",
-      "japanese": "{屈強|くっきょう}な{男|おとこ}",
+      "japanese": "{屈強|くっきょう}な⟦{男|おとこ}→男：00561_otoko⟧",
       "english": "a brawny man",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "09198_kukkyou_ex2",
-      "japanese": "{屈強|くっきょう}な{体格|たいかく}の{警備員|けいびいん}が{立|た}っていた。",
+      "japanese": "{屈強|くっきょう}な⟦{体格|たいかく}→体格：16207_taikaku⟧⟦の→の：09472_no⟧⟦{警備員|けいびいん}→警備員：09867_keibiin⟧⟦が→が：00051_ga⟧⟦{立|た}っていた→立つ：00758_tatsu⟧。",
       "english": "A burly security guard was standing there.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "09198_kukkyou_ex3",
-      "japanese": "{屈強|くっきょう}な{若者|わかもの}たちが{荷物|にもつ}を{運|はこ}んでいた。",
+      "japanese": "{屈強|くっきょう}な⟦{若者|わかもの}→若者：03037_wakamono⟧たち⟦が→が：00051_ga⟧⟦{荷物|にもつ}→荷物：00737_nimotsu⟧⟦を→を：00422_wo⟧⟦{運|はこ}んでいた→運ぶ：01088_hakobu⟧。",
       "english": "Muscular young men were carrying the luggage.",
       "sense_numbers": [
         1
@@ -43,7 +43,7 @@
       "notes": null
     }
   ],
-  "notes": "ADJECTIVE TYPE: Na-adjective. Uses な before nouns: {屈強|くっきょう}な{体|からだ}.\n\nNUANCE: {屈強|くっきょう} emphasizes muscular, powerful build - the visual impression of physical strength. It's typically used for men and suggests an imposing physique rather than just good health.\n\nCOMMON COLLOCATIONS:\n- {屈強|くっきょう}な{男|おとこ} (brawny man)\n- {屈強|くっきょう}な{体格|たいかく} (sturdy build)\n- {屈強|くっきょう}な{若者|わかもの} (muscular youth)\n- {屈強|くっきょう}な{体|からだ} (powerful body)\n\nRELATED WORDS:\n- たくましい (sturdy, robust - more common)\n- {頑健|がんけん} (sturdy, robust - more about health)\n- がっしりした (solidly built)\n- {筋骨|きんこつ}{隆々|りゅうりゅう} (muscular, brawny)",
+  "notes": "ADJECTIVE TYPE: Na-adjective. Uses な before nouns: {屈強|くっきょう}な⟦{体|からだ}→体：00784_karada⟧.\n\nNUANCE: {屈強|くっきょう} emphasizes muscular, powerful build - the visual impression of physical strength. It's typically used for men and suggests an imposing physique rather than just good health.\n\nCOMMON COLLOCATIONS:\n- {屈強|くっきょう}な⟦{男|おとこ}→男：00561_otoko⟧ (brawny man)\n- {屈強|くっきょう}な⟦{体格|たいかく}→体格：16207_taikaku⟧ (sturdy build)\n- {屈強|くっきょう}な⟦{若者|わかもの}→若者：03037_wakamono⟧ (muscular youth)\n- {屈強|くっきょう}な⟦{体|からだ}→体：00784_karada⟧ (powerful body)\n\nRELATED WORDS:\n- ⟦たくましい→たくましい：06255_takumashii⟧ (sturdy, robust - more common)\n- ⟦{頑健|がんけん}→頑健：09197_ganken⟧ (sturdy, robust - more about health)\n- ⟦がっしり→がっしり：19940_gasshiri⟧⟦した→する：00392_suru⟧ (solidly built)\n- {筋骨|きんこつ}{隆々|りゅうりゅう} (muscular, brawny)",
   "cross_references": [
     {
       "type": "synonym",
@@ -51,11 +51,18 @@
       "reading": "がんけん",
       "headword": "{頑健|がんけん}",
       "label": "more about health"
+    },
+    {
+      "type": "related",
+      "target_id": "06255_takumashii",
+      "reading": "たくましい",
+      "headword": "たくましい",
+      "label": "sturdy, robust"
     }
   ],
   "metadata": {
     "created": "2026-02-01T01:43:45Z",
-    "modified": "2026-08-12T21:25:53Z",
+    "modified": "2026-09-02T04:01:17Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "11919_juuji_ex1",
-      "japanese": "{十字|じゅうじ}に{交|こう}わる{道|みち}。",
+      "japanese": "{十字|じゅうじ}⟦に→に：00314_ni⟧{交|こう}わる⟦{道|みち}→道：00505_michi⟧。",
       "english": "Roads that cross in the shape of a cross.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "11919_juuji_ex2",
-      "japanese": "{赤|あか}い{十字|じゅうじ}のマークが{見|み}えた。",
+      "japanese": "⟦{赤|あか}い→赤い：00585_akai⟧{十字|じゅうじ}⟦の→の：09472_no⟧⟦マーク→マーク：09478_maaku⟧⟦が→が：00051_ga⟧⟦{見|み}えた→見える：01165_mieru⟧。",
       "english": "I could see the red cross symbol.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "11919_juuji_ex3",
-      "japanese": "{腕|うで}を{十字|じゅうじ}に{組|く}んで{相手|あいて}の{攻撃|こうげき}を{防|ふせ}いだ。",
+      "japanese": "⟦{腕|うで}→腕：01006_ude⟧⟦を→を：00422_wo⟧{十字|じゅうじ}⟦に→に：00314_ni⟧⟦{組|く}んで→組む：02050_kumu⟧⟦{相手|あいて}→相手：01677_aite⟧⟦の→の：09472_no⟧⟦{攻撃|こうげき}→攻撃：02748_kougeki⟧⟦を→を：00422_wo⟧⟦{防|ふせ}いだ→防ぐ：02409_fusegu⟧。",
       "english": "He crossed his arms into a cross shape to block the opponent's attack.",
       "notes": null,
       "has_audio": false,
@@ -43,11 +43,19 @@
       ]
     }
   ],
-  "notes": "{十字|じゅうじ} refers to a cross or plus-sign shape, named for its resemblance to the kanji {十|じゅう}. It describes the shape itself, not exclusively the Christian cross.\n\nCOMMON COMPOUNDS:\n- {十字架|じゅうじか}: crucifix, cross (Christian)\n- {十字路|じゅうじろ}: crossroads, four-way intersection\n- {赤十字|せきじゅうじ}: Red Cross\n- {十字軍|じゅうじぐん}: Crusades\n\nCOMMON PATTERNS:\n- {十字|じゅうじ}に{交|まじ}わる: to cross in a plus shape\n- {十字|じゅうじ}を{切|き}る: to make the sign of the cross\n- {十字|じゅうじ}に{組|く}む: to cross (arms, etc.) in an X-shape\n\nUSAGE:\nAppears frequently in everyday vocabulary. {十字路|じゅうじろ} is a common word for a four-way intersection, and {赤十字|せきじゅうじ} is widely recognized. In martial arts and anime, {十字|じゅうじ}に{組|く}む describes crossing arms for blocking.",
-  "cross_references": [],
+  "notes": "{十字|じゅうじ} refers to a cross or plus-sign shape, named for its resemblance to the kanji ⟦{十|じゅう}→十：00708_juu⟧. It describes the shape itself, not exclusively the Christian cross.\n\nCOMPOUNDS:\n- ⟦{十字架|じゅうじか}→十字架：17853_juujika⟧: crucifix, cross (Christian)\n- ⟦{十字路|じゅうじろ}→十字路：09387_juujiro⟧: crossroads, four-way intersection\n- ⟦{赤十字|せきじゅうじ}→赤十字：18100_sekijuuji⟧: Red Cross\n- {十字軍|じゅうじぐん}: Crusades\n\nCOMMON PATTERNS:\n- {十字|じゅうじ}⟦に→に：00314_ni⟧⟦{交|まじ}わる→交わる：18379_majiwaru⟧: to cross in a plus shape\n- {十字|じゅうじ}⟦を→を：00422_wo⟧⟦{切|き}る→切る：02693_kiru⟧: to make the sign of the cross\n- {十字|じゅうじ}⟦に→に：00314_ni⟧⟦{組|く}む→組む：02050_kumu⟧: to cross (arms, etc.) in an X-shape\n\nUSAGE:\nAppears frequently in everyday vocabulary. ⟦{十字路|じゅうじろ}→十字路：09387_juujiro⟧ is a common word for a four-way intersection, and ⟦{赤十字|せきじゅうじ}→赤十字：18100_sekijuuji⟧ is widely recognized. In martial arts and anime, {十字|じゅうじ}⟦に→に：00314_ni⟧⟦{組|く}む→組む：02050_kumu⟧ describes crossing arms for blocking.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "27429_kurosu",
+      "reading": "くろす",
+      "headword": "クロス",
+      "label": "cloth"
+    }
+  ],
   "metadata": {
     "created": "2026-02-18T14:16:41Z",
-    "modified": "2026-08-15T21:27:10Z",
+    "modified": "2026-09-02T04:01:26Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",

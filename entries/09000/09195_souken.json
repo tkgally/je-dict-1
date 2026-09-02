@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "09195_souken_ex1",
-      "japanese": "ご{壮健|そうけん}で{何|なに}よりです",
+      "japanese": "ご{壮健|そうけん}で⟦{何|なに}→何：00498_nani⟧⟦より→より：09476_yori⟧です",
       "english": "I'm glad to see you in good health",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "09195_souken_ex2",
-      "japanese": "{祖父|そふ}は90{歳|さい}になっても{壮健|そうけん}だ。",
+      "japanese": "⟦{祖父|そふ}→祖父：01452_sofu⟧⟦は→は：00079_ha⟧90⟦{歳|さい}→歳：10017_sai⟧になって⟦も→も：00484_mo⟧{壮健|そうけん}だ。",
       "english": "My grandfather is still robust at 90 years old.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "09195_souken_ex3",
-      "japanese": "{皆様|みなさま}のご{壮健|そうけん}とご{多幸|たこう}をお{祈|いの}りします。",
+      "japanese": "⟦{皆様|みなさま}→皆様：15860_minasama⟧⟦の→の：09472_no⟧ご{壮健|そうけん}⟦と→と：00512_to⟧ご{多幸|たこう}⟦を→を：00422_wo⟧お⟦{祈|いの}り→祈る：01198_inoru⟧⟦します→する：00392_suru⟧。",
       "english": "I wish everyone good health and happiness.",
       "sense_numbers": [
         1
@@ -43,7 +43,7 @@
       "notes": null
     }
   ],
-  "notes": "ADJECTIVE TYPE: Na-adjective. Uses な before nouns: {壮健|そうけん}な{体|からだ}.\n\nFORMAL USAGE: {壮健|そうけん} is often used in formal contexts, especially in greetings (ご{壮健|そうけん}で), letters, and formal speeches. It's particularly appropriate when inquiring about or commenting on the health of elderly or respected persons.\n\nCOMMON COLLOCATIONS:\n- ご{壮健|そうけん}で (I hope you're well - greeting)\n- {壮健|そうけん}な{体|からだ} (healthy body)\n- ご{壮健|そうけん}をお{祈|いの}りする (to wish someone good health)\n\nRELATED WORDS:\n- {健康|けんこう} (healthy - more common)\n- {元気|げんき} (healthy, energetic - casual)\n- {頑健|がんけん} (sturdy, robust)\n- {矍鑠|かくしゃく} (hale and hearty - for elderly)",
+  "notes": "ADJECTIVE TYPE: Na-adjective. Uses な before nouns: {壮健|そうけん}な⟦{体|からだ}→体：00784_karada⟧.\n\nFORMAL USAGE: {壮健|そうけん} is often used in formal contexts, especially in greetings (ご{壮健|そうけん}で), letters, and formal speeches. It's particularly appropriate when inquiring about or commenting on the health of elderly or respected persons.\n\nCOMMON COLLOCATIONS:\n- ご{壮健|そうけん}で (I hope you're well - greeting)\n- {壮健|そうけん}な⟦{体|からだ}→体：00784_karada⟧ (healthy body)\n- ご{壮健|そうけん}⟦を→を：00422_wo⟧お⟦{祈|いの}り→祈る：01198_inoru⟧⟦する→する：00392_suru⟧ (to wish someone good health)\n\nRELATED WORDS:\n- ⟦{健康|けんこう}→健康：02706_kenkou⟧ (healthy - more common)\n- ⟦{元気|げんき}→元気：00696_genki⟧ (healthy, energetic - casual)\n- ⟦{頑健|がんけん}→頑健：09197_ganken⟧ (sturdy, robust)\n- ⟦{矍鑠|かくしゃく}→矍鑠：09902_kakushaku⟧ (hale and hearty - for elderly)",
   "cross_references": [
     {
       "type": "synonym",
@@ -65,11 +65,25 @@
       "reading": "きょじゃく",
       "headword": "{虚弱|きょじゃく}",
       "label": "frail, weak"
+    },
+    {
+      "type": "related",
+      "target_id": "00696_genki",
+      "reading": "げんき",
+      "headword": "{元気|げんき}",
+      "label": "healthy, energetic"
+    },
+    {
+      "type": "related",
+      "target_id": "09902_kakushaku",
+      "reading": "かくしゃく",
+      "headword": "{矍鑠|かくしゃく}",
+      "label": "hale and hearty"
     }
   ],
   "metadata": {
     "created": "2026-02-01T01:42:36Z",
-    "modified": "2026-08-12T21:25:53Z",
+    "modified": "2026-09-02T04:01:17Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

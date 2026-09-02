@@ -3,7 +3,7 @@
   "id": "12501_goudatsu",
   "headword": "{強奪|ごうだつ}",
   "reading": "ごうだつ",
-  "part_of_speech": "noun / suru verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "robbery, seizure, plunder",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "12501_goudatsu_ex1",
-      "japanese": "{現金|げんきん}を{強奪|ごうだつ}された。",
+      "japanese": "⟦{現金|げんきん}→現金：02716_genkin⟧⟦を→を：00422_wo⟧{強奪|ごうだつ}⟦された→する：00392_suru⟧。",
       "english": "The cash was stolen by force.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "12501_goudatsu_ex2",
-      "japanese": "{犯人|はんにん}は{銀行|ぎんこう}から{大金|たいきん}を{強奪|ごうだつ}して{逃走|とうそう}した。",
+      "japanese": "⟦{犯人|はんにん}→犯人：03572_hannin⟧⟦は→は：00079_ha⟧⟦{銀行|ぎんこう}→銀行：00578_ginkou⟧⟦から→から：00504_kara⟧⟦{大金|たいきん}→大金：12192_taikin⟧⟦を→を：00422_wo⟧{強奪|ごうだつ}⟦して→する：00392_suru⟧⟦{逃走|とうそう}→逃走：14403_tousou⟧⟦した→する：00392_suru⟧。",
       "english": "The criminal robbed a large sum from the bank and fled.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "12501_goudatsu_ex3",
-      "japanese": "{植民地|しょくみんち}{時代|じだい}には{多|おお}くの{資源|しげん}が{強奪|ごうだつ}された{歴史|れきし}がある。",
+      "japanese": "⟦{植民地|しょくみんち}→植民地：16073_shokuminchi⟧⟦{時代|じだい}→時代：01424_jidai⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{多|おお}く⟦の→の：09472_no⟧⟦{資源|しげん}→資源：03167_shigen⟧⟦が→が：00051_ga⟧{強奪|ごうだつ}⟦された→する：00392_suru⟧⟦{歴史|れきし}→歴史：02267_rekishi⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There is a history of many resources being plundered during the colonial era.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,40 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA strong word implying violence or the use of force. Used in both crime reporting and historical contexts. Functions as a noun or suru verb.\n\nCOMMON COLLOCATIONS:\n- {金品|きんぴん}を{強奪|ごうだつ}する: to rob someone of money and valuables\n- {領土|りょうど}の{強奪|ごうだつ}: seizure of territory\n- {権力|けんりょく}を{強奪|ごうだつ}する: to seize power by force\n\nSIMILAR WORDS:\n- {略奪|りゃくだつ}: plunder, looting (often large-scale, as in war)\n- {窃盗|せっとう}: theft (without force, stealthy)",
-  "cross_references": [],
+  "notes": "USAGE:\nA strong word implying violence or the use of force. Used in both crime reporting and historical contexts. Functions as a noun or suru verb.\n\nCOMMON COLLOCATIONS:\n- ⟦{金品|きんぴん}→金品：20022_kinpin⟧⟦を→を：00422_wo⟧{強奪|ごうだつ}⟦する→する：00392_suru⟧: to rob someone of money and valuables\n- ⟦{領土|りょうど}→領土：15711_ryoudo⟧⟦の→の：09472_no⟧{強奪|ごうだつ}: seizure of territory\n- ⟦{権力|けんりょく}→権力：10020_kenryoku⟧⟦を→を：00422_wo⟧{強奪|ごうだつ}⟦する→する：00392_suru⟧: to seize power by force\n\nSIMILAR WORDS:\n- ⟦{略奪|りゃくだつ}→略奪：13576_ryakudatsu⟧: plunder, looting (often large-scale, as in war)\n- ⟦{窃盗|せっとう}→窃盗：15280_settou⟧: theft (without force, stealthy)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13576_ryakudatsu",
+      "reading": "りゃくだつ",
+      "headword": "{略奪|りゃくだつ}",
+      "label": "plunder, looting"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15280_settou",
+      "reading": "せっとう",
+      "headword": "{窃盗|せっとう}",
+      "label": "theft"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01895_ubau",
+      "reading": "うばう",
+      "headword": "{奪|うば}う",
+      "label": "to snatch, to rob"
+    },
+    {
+      "type": "related",
+      "target_id": "02818_goutou",
+      "reading": "ごうとう",
+      "headword": "{強盗|ごうとう}",
+      "label": "robbery, robber"
+    }
+  ],
   "metadata": {
     "created": "2026-02-21T11:04:50Z",
-    "modified": "2026-03-29T03:07:35Z",
+    "modified": "2026-09-02T04:01:29Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -154,7 +183,8 @@
       "style": [
         "written"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

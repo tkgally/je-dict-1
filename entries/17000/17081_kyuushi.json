@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "17081_kyuushi_ex1",
-      "japanese": "サービスを{一時|いちじ}{休止|きゅうし}する。",
+      "japanese": "⟦サービス→サービス：01531_saabisu⟧⟦を→を：00422_wo⟧⟦{一時|いちじ}→一時：01799_ichiji⟧{休止|きゅうし}⟦する→する：00392_suru⟧。",
       "english": "To temporarily suspend the service.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "17081_kyuushi_ex2",
-      "japanese": "このバス{路線|ろせん}は{現在|げんざい}{休止|きゅうし}{中|ちゅう}です。",
+      "japanese": "⟦この→この：00962_kono⟧⟦バス→バス：00769_basu⟧⟦{路線|ろせん}→路線：11341_rosen⟧⟦は→は：00079_ha⟧⟦{現在|げんざい}→現在：01556_genzai⟧{休止|きゅうし}⟦{中|ちゅう}→〜中：09840_chuu⟧です。",
       "english": "This bus route is currently suspended.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "17081_kyuushi_ex3",
-      "japanese": "{工場|こうじょう}の{生産|せいさん}ラインが{部品|ぶひん}{不足|ぶそく}のため{休止|きゅうし}に{追|お}い{込|こ}まれた。",
+      "japanese": "⟦{工場|こうじょう}→工場：01082_koujou⟧⟦の→の：09472_no⟧⟦{生産|せいさん}→生産：01444_seisan⟧ライン⟦が→が：00051_ga⟧⟦{部品|ぶひん}→部品：00020_buhin⟧{不足|ぶそく}⟦の→の：09472_no⟧⟦ため→ため：01145_tame⟧{休止|きゅうし}⟦に→に：00314_ni⟧⟦{追|お}い{込|こ}まれた→追い込む：06371_oikomu⟧。",
       "english": "The factory production line was forced into a halt due to parts shortages.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nUsed for services, operations, and activities that are temporarily stopped. Common in business, transportation, and technology contexts. Different from {中止|ちゅうし}, which implies cancellation.\n\nCOMMON COLLOCATIONS:\n- {休止|きゅうし}{中|ちゅう} (currently suspended)\n- {一時|いちじ}{休止|きゅうし} (temporary suspension)\n- {活動|かつどう}{休止|きゅうし} (activity suspension, hiatus)\n- {休止|きゅうし}{状態|じょうたい} (suspended state)\n\nSIMILAR WORDS:\n- {中止|ちゅうし}: cancellation — implies the activity is called off, not just paused\n- {停止|ていし}: stop — a broader term, can be permanent or temporary\n- {中断|ちゅうだん}: interruption — implies being cut off mid-way through",
+  "notes": "USAGE:\nUsed for services, operations, and activities that are temporarily stopped. Common in business, transportation, and technology contexts. Different from ⟦{中止|ちゅうし}→中止：03481_chuushi⟧, which implies cancellation.\n\nCOMMON COLLOCATIONS:\n- {休止|きゅうし}⟦{中|ちゅう}→〜中：09840_chuu⟧ (currently suspended)\n- ⟦{一時|いちじ}→一時：01799_ichiji⟧{休止|きゅうし} (temporary suspension)\n- ⟦{活動|かつどう}→活動：00201_katsudou⟧{休止|きゅうし} (activity suspension, hiatus)\n- {休止|きゅうし}⟦{状態|じょうたい}→状態：03345_joutai⟧ (suspended state)\n\nSIMILAR WORDS:\n- ⟦{中止|ちゅうし}→中止：03481_chuushi⟧: cancellation — implies the activity is called off, not just paused\n- ⟦{停止|ていし}→停止：04067_teishi⟧: stop — a broader term, can be permanent or temporary\n- ⟦{中断|ちゅうだん}→中断：05218_chuudan⟧: interruption — implies being cut off mid-way through",
   "cross_references": [
     {
       "type": "homophone",
@@ -142,11 +142,39 @@
       "reading": "きゅうし",
       "headword": "{急死|きゅうし}",
       "label": "sudden death"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03481_chuushi",
+      "reading": "ちゅうし",
+      "headword": "{中止|ちゅうし}",
+      "label": "cancellation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04067_teishi",
+      "reading": "ていし",
+      "headword": "{停止|ていし}",
+      "label": "stop"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05218_chuudan",
+      "reading": "ちゅうだん",
+      "headword": "{中断|ちゅうだん}",
+      "label": "interruption"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22241_kyuumin",
+      "reading": "きゅうみん",
+      "headword": "{休眠|きゅうみん}",
+      "label": "dormancy"
     }
   ],
   "metadata": {
     "created": "2026-03-15T09:53:14Z",
-    "modified": "2026-04-11T00:58:17Z",
+    "modified": "2026-09-02T04:01:47Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

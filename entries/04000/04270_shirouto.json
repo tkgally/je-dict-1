@@ -34,7 +34,7 @@
     },
     {
       "id": "04270_shirouto_ex3",
-      "japanese": "{素人|しろうと}⟦{考|かんが}え→考える：00856_kangaeru⟧⟦で→で：00502_de⟧⟦{申|もう}し{訳|わけ}ありませんが→申し訳ない：20352_moushiwakenai⟧、⟦この→この：00962_kono⟧⟦{方法|ほうほう}→方法：03621_houhou⟧⟦は→は：00079_ha⟧⟦どう→どう：00543_dou⟧でしょうか。",
+      "japanese": "{素人|しろうと}⟦{考|かんが}え→考える：00856_kangaeru⟧⟦で→で：00502_de⟧⟦{申|もう}し{訳|わけ}ありませんが→申し訳ない：20352_moushiwakenai⟧、⟦この→この：00962_kono⟧⟦{方法|ほうほう}→方法：03621_houhou⟧⟦は→は：00079_ha⟧⟦どう→どう：00543_dou⟧でしょう⟦か→か：09473_ka⟧。",
       "english": "Excuse my amateur thinking, but how about this method?",
       "notes": "{素人|しろうと}⟦{考|かんが}え→考える：00856_kangaeru⟧ = amateur thinking/idea",
       "has_audio": false,
@@ -63,10 +63,10 @@
       ]
     }
   ],
-  "notes": "{素人|しろうと} refers to someone without professional training or expertise. It can describe both skill level and occupation status.\n\nCOMMON EXPRESSIONS:\n- {素人|しろうと}⟦{考|かんが}え→考える：00856_kangaeru⟧: amateur thinking/unprofessional idea\n- {素人|しろうと}⟦{目|め}→目：00525_me⟧: an untrained eye\n- {素人|しろうと}⟦{判断|はんだん}→判断：03571_handan⟧: layperson's judgment\n\nANTONYM:\n- ⟦{玄人|くろうと}→玄人：09079_kurouto⟧/⟦{専門家|せんもんか}→専門家：03088_senmonka⟧: professional, expert\n\nThe word comes from the contrast with ⟦{玄人|くろうと}→玄人：09079_kurouto⟧ (professional), where ⟦{白|しろ}→白：13854_shiro⟧ (white) suggests inexperience or blankness.",
+  "notes": "{素人|しろうと} refers to someone without professional training or expertise. It can describe both skill level and occupation status.\n\nCOMMON EXPRESSIONS:\n- {素人|しろうと}⟦{考|かんが}え→考える：00856_kangaeru⟧: amateur thinking/unprofessional idea\n- {素人|しろうと}⟦{目|め}→目：00525_me⟧: an untrained eye\n- {素人|しろうと}⟦{判断|はんだん}→判断：03571_handan⟧: layperson's judgment\n\nSIMILAR WORDS:\n- ⟦{玄人|くろうと}→玄人：09079_kurouto⟧/⟦{専門家|せんもんか}→専門家：03088_senmonka⟧: professional, expert\n\nThe word comes from the contrast with ⟦{玄人|くろうと}→玄人：09079_kurouto⟧ (professional), where ⟦{白|しろ}→白：13854_shiro⟧ (white) suggests inexperience or blankness.",
   "metadata": {
     "created": "2026-01-13T22:31:30Z",
-    "modified": "2026-05-30T16:12:37Z",
+    "modified": "2026-09-02T04:01:04Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
@@ -94,6 +94,62 @@
       "reading": "ぷろ",
       "headword": "プロ",
       "label": "professional"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03088_senmonka",
+      "reading": "せんもんか",
+      "headword": "{専門家|せんもんか}",
+      "label": "professional, expert"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10149_shoshinsha",
+      "reading": "しょしんしゃ",
+      "headword": "{初心者|しょしんしゃ}",
+      "label": "beginner"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10730_amachua",
+      "reading": "あまちゅあ",
+      "headword": "アマチュア",
+      "label": "amateur"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20030_nyuumonsha",
+      "reading": "にゅうもんしゃ",
+      "headword": "{入門者|にゅうもんしゃ}",
+      "label": "beginner"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22733_ippanjin",
+      "reading": "いっぱんじん",
+      "headword": "{一般人|いっぱんじん}",
+      "label": "ordinary person"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23187_mongai",
+      "reading": "もんがい",
+      "headword": "{門外|もんがい}",
+      "label": "outside the gate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26018_senmongai",
+      "reading": "せんもんがい",
+      "headword": "{専門外|せんもんがい}",
+      "label": "outside one's specialty"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26291_mikeikensha",
+      "reading": "みけいけんしゃ",
+      "headword": "{未経験者|みけいけんしゃ}",
+      "label": "inexperienced person"
     }
   ],
   "prominent_see_also": [

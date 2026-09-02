@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26569_nomigoro_ex1",
-      "japanese": "このワインは{今|いま}が{飲|の}み{頃|ごろ}だ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦ワイン→ワイン：01067_wain⟧⟦は→は：00079_ha⟧⟦{今|いま}→今：00945_ima⟧⟦が→が：00051_ga⟧{飲|の}み{頃|ごろ}だ。",
       "english": "This wine is at its best for drinking right now.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26569_nomigoro_ex2",
-      "japanese": "コーヒーが{少|すこ}し{冷|さ}めて{飲|の}み{頃|ごろ}になった。",
+      "japanese": "⟦コーヒー→コーヒー：00789_koohii⟧⟦が→が：00051_ga⟧⟦{少|すこ}し→少し：00596_sukoshi⟧⟦{冷|さ}めて→冷める：02114_sameru⟧{飲|の}み{頃|ごろ}になった。",
       "english": "The coffee cooled down a bit and is now at a good drinking temperature.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26569_nomigoro_ex3",
-      "japanese": "この{日本酒|にほんしゅ}は{冷|ひ}やして{飲|の}むのが{飲|の}み{頃|ごろ}の{温度|おんど}だと{言|い}われている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{日本酒|にほんしゅ}→日本酒：12954_nihonshu⟧⟦は→は：00079_ha⟧⟦{冷|ひ}やして→冷やす：02403_hiyasu⟧⟦{飲|の}む→飲む：00322_nomu⟧⟦の→の：09472_no⟧⟦が→が：00051_ga⟧{飲|の}み{頃|ごろ}⟦の→の：09472_no⟧⟦{温度|おんど}→温度：00333_ondo⟧だ⟦と→と：00512_to⟧⟦{言|い}われている→言う：00515_iu⟧。",
       "english": "It is said that this sake is at its ideal drinking temperature when served chilled.",
       "sense_numbers": [
         1
@@ -44,13 +44,20 @@
       "notes": null
     }
   ],
-  "notes": "Composed of the verb stem {飲|の}み (to drink) and the suffix {頃|ごろ} (suitable time, peak). Indicates the ideal moment to enjoy a beverage based on temperature, maturity, or freshness.\n\nCOMMON COLLOCATIONS:\n- {飲|の}み{頃|ごろ}の{温度|おんど}: ideal drinking temperature\n- {飲|の}み{頃|ごろ}になる: to reach the right point for drinking\n- {今|いま}が{飲|の}み{頃|ごろ}: now is the best time to drink it\n\nCONTEXTS:\n- Wine: refers to the aging period where flavor peaks\n- Tea: refers to the right steeping time and temperature\n- Coffee: refers to having cooled enough from scalding hot\n- Beer: refers to freshness or optimal serving temperature\n\nSIMILAR WORDS:\n- {食|た}べ{頃|ごろ}: ready to eat — the same pattern for food\n- {見|み}{頃|ごろ}: at its best for viewing — for flowers, scenery",
+  "notes": "Composed of the verb stem ⟦{飲|の}み→飲む：00322_nomu⟧ (to drink) and the suffix ⟦{頃|ごろ}→頃：00932_goro⟧ (suitable time, peak). Indicates the ideal moment to enjoy a beverage based on temperature, maturity, or freshness.\n\nCOMMON COLLOCATIONS:\n- {飲|の}み{頃|ごろ}⟦の→の：09472_no⟧⟦{温度|おんど}→温度：00333_ondo⟧: ideal drinking temperature\n- {飲|の}み{頃|ごろ}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧: to reach the right point for drinking\n- ⟦{今|いま}→今：00945_ima⟧⟦が→が：00051_ga⟧{飲|の}み{頃|ごろ}: now is the best time to drink it\n\nUSAGE:\n- Wine: refers to the aging period where flavor peaks\n- Tea: refers to the right steeping time and temperature\n- Coffee: refers to having cooled enough from scalding hot\n- Beer: refers to freshness or optimal serving temperature\n\nSIMILAR WORDS:\n- ⟦{食|た}べ{頃|ごろ}→食べ頃：26567_tabegoro⟧: ready to eat — the same pattern for food\n- ⟦{見|み}{頃|ごろ}→見頃：16868_migoro⟧: at its best for viewing — for flowers, scenery",
   "cross_references": [
     {
       "word": "食べ頃",
       "reading": "たべごろ",
       "type": "related",
       "target_id": "26567_tabegoro"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16868_migoro",
+      "reading": "みごろ",
+      "headword": "{見頃|みごろ}",
+      "label": "at its best for viewing"
     }
   ],
   "schema_version": "2.0",
@@ -70,6 +77,6 @@
       ]
     },
     "created": "2026-05-03T11:17:08Z",
-    "modified": "2026-06-19T03:23:54Z"
+    "modified": "2026-09-02T04:02:26Z"
   }
 }

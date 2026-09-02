@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08512_sorenishitemo_ex1",
-      "japanese": "それにしても{暑|あつ}いね。",
+      "japanese": "それにしても⟦{暑|あつ}い→暑い：00619_atsui⟧⟦ね→ね：09474_ne⟧。",
       "english": "Even so, it's hot, isn't it?",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "08512_sorenishitemo_ex3",
-      "japanese": "{忙|いそが}しいのは{分|わ}かるが、それにしても{連絡|れんらく}くらいできるだろう。",
+      "japanese": "⟦{忙|いそが}しい→忙しい：00591_isogashii⟧⟦の→の：09472_no⟧⟦は→は：00079_ha⟧⟦{分|わ}かる→分かる：00463_wakaru⟧⟦が→が：00051_ga⟧、それにしても⟦{連絡|れんらく}→連絡：01524_renraku⟧くらい⟦できる→できる：00557_dekiru⟧だろう。",
       "english": "I understand you're busy, but even so, you could at least get in touch.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
     },
     {
       "id": "08512_sorenishitemo_ex4",
-      "japanese": "{安|やす}いとは{聞|き}いていたが、それにしてもこの{値段|ねだん}は{驚|おどろ}きだ。",
+      "japanese": "⟦{安|やす}い→安い：00464_yasui⟧⟦と→と：00512_to⟧⟦は→は：00079_ha⟧⟦{聞|き}いていた→聞く：00483_kiku⟧⟦が→が：00051_ga⟧、それにしても⟦この→この：00962_kono⟧⟦{値段|ねだん}→値段：00871_nedan⟧⟦は→は：00079_ha⟧⟦{驚|おどろ}き→驚き：02562_odoroki⟧だ。",
       "english": "I'd heard it was cheap, but even so, this price is surprising.",
       "sense_numbers": [
         1
@@ -53,7 +53,30 @@
       "notes": null
     }
   ],
-  "notes": "USAGE:\nUsed at the beginning of a sentence to acknowledge a previous point while expressing surprise, emphasis, or contrast about what follows. Often used conversationally.\n\nPOSITION:\nTypically appears at the start of a clause or sentence.\n\nNUANCE:\nOften carries a tone of mild surprise or emphasis on the following statement.\n\nRELATED:\n- とはいえ - having said that\n- それでも - even so\n- しかし - however",
+  "notes": "USAGE:\nUsed at the beginning of a sentence to acknowledge a previous point while expressing surprise, emphasis, or contrast about what follows. Often used conversationally.\nOften carries a tone of mild surprise or emphasis on the following statement.\n\nPOSITION IN SENTENCE:\nTypically appears at the start of a clause or sentence.\n\nRELATED WORDS:\n- ⟦とはいえ→とはいえ：06282_tohaie⟧ - having said that\n- ⟦それ→それ：00994_sore⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧ - even so\n- ⟦しかし→しかし：00986_shikashi⟧ - however",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "06282_tohaie",
+      "reading": "とはいえ",
+      "headword": "とはいえ",
+      "label": "having said that"
+    },
+    {
+      "type": "related",
+      "target_id": "00382_soredemo",
+      "reading": "それでも",
+      "headword": "それでも",
+      "label": "even so"
+    },
+    {
+      "type": "related",
+      "target_id": "00986_shikashi",
+      "reading": "しかし",
+      "headword": "しかし",
+      "label": "however"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,11 +84,12 @@
         "conjunction"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "descriptive"
       ]
     },
     "created": "2026-01-27T10:33:10Z",
-    "modified": "2026-06-22T12:50:00Z"
+    "modified": "2026-09-02T04:01:15Z"
   }
 }

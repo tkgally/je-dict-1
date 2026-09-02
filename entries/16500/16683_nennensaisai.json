@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "16683_nennensaisai_ex1",
-      "japanese": "{年々歳々|ねんねんさいさい}{花|はな}は{同|おな}じだが、{人|ひと}は{変|か}わる。",
+      "japanese": "{年々歳々|ねんねんさいさい}⟦{花|はな}→花：00523_hana⟧⟦は→は：00079_ha⟧⟦{同|おな}じ→同じ：02857_onaji⟧だ⟦が→が：00051_ga⟧、⟦{人|ひと}→人：00476_hito⟧⟦は→は：00079_ha⟧⟦{変|か}わる→変わる：00714_kawaru⟧。",
       "english": "Year after year the flowers are the same, but people change.",
       "notes": "From a famous Chinese poem by Liu Xiyi.",
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "16683_nennensaisai_ex2",
-      "japanese": "{年々歳々|ねんねんさいさい}、この{町|まち}の{風景|ふうけい}は{変|か}わっていく。",
+      "japanese": "{年々歳々|ねんねんさいさい}、⟦この→この：00962_kono⟧⟦{町|まち}→町：00613_machi⟧⟦の→の：09472_no⟧⟦{風景|ふうけい}→風景：03591_fuukei⟧⟦は→は：00079_ha⟧⟦{変|か}わって→変わる：00714_kawaru⟧いく。",
       "english": "Year after year, the scenery of this town keeps changing.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "16683_nennensaisai_ex3",
-      "japanese": "{年々歳々|ねんねんさいさい}{技術|ぎじゅつ}が{進歩|しんぽ}して、{生活|せいかつ}は{便利|べんり}になっている。",
+      "japanese": "{年々歳々|ねんねんさいさい}⟦{技術|ぎじゅつ}→技術：01389_gijutsu⟧⟦が→が：00051_ga⟧⟦{進歩|しんぽ}→進歩：03265_shinpo⟧⟦して→する：00392_suru⟧、⟦{生活|せいかつ}→生活：01443_seikatsu⟧⟦は→は：00079_ha⟧⟦{便利|べんり}→便利：00830_benri⟧になっている。",
       "english": "With each passing year, technology advances and life becomes more convenient.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA literary four-character expression ({四字熟語|よじじゅくご}) originating from a Tang Dynasty Chinese poem. More emphatic and literary than the simpler {年々|ねんねん}. Often used in reflective or philosophical contexts about the passage of time.\n\nETYMOLOGY:\nFrom a poem by Liu Xiyi ({劉希夷|りゅうきい}): 「{年年歳歳|ねんねんさいさい}{花|はな}{相似|あいにたり}、{歳歳年年|さいさいねんねん}{人|ひと}{不同|おなじからず}」— \"Year after year the flowers are alike; year after year the people are different.\"\n\nSIMILAR WORDS:\n- {年々|ねんねん}: year by year — the simpler, more common form\n- {毎年|まいとし}: every year — a neutral, everyday expression",
+  "notes": "USAGE:\nA literary four-character expression (⟦{四字熟語|よじじゅくご}→四字熟語：15663_yojijukugo⟧) originating from a Tang Dynasty Chinese poem. More emphatic and literary than the simpler ⟦{年々|ねんねん}→年々：10417_nennen⟧. Often used in reflective or philosophical contexts about the passage of time.\n\nETYMOLOGY:\nFrom a poem by Liu Xiyi ({劉希夷|りゅうきい}): 「{年年歳歳|ねんねんさいさい}⟦{花|はな}→花：00523_hana⟧{相似|あいにたり}、{歳歳年年|さいさいねんねん}⟦{人|ひと}→人：00476_hito⟧{不同|おなじからず}」— \"Year after year the flowers are alike; year after year the people are different.\"\n\nSIMILAR WORDS:\n- ⟦{年々|ねんねん}→年々：10417_nennen⟧: year by year — the simpler, more common form\n- ⟦{毎年|まいとし}→毎年：00731_maitoshi⟧: every year — a neutral, everyday expression",
   "cross_references": [
     {
       "type": "related",
@@ -52,11 +52,18 @@
       "reading": "ねんねん",
       "headword": "{年々|ねんねん}",
       "label": "year by year (simpler)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00731_maitoshi",
+      "reading": "まいとし",
+      "headword": "{毎年|まいとし}",
+      "label": "every year"
     }
   ],
   "metadata": {
     "created": "2026-03-14T02:12:10Z",
-    "modified": "2026-07-20T13:24:52Z",
+    "modified": "2026-09-02T04:01:45Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

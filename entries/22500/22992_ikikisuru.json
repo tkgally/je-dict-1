@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22992_ikikisuru_ex1",
-      "japanese": "{人|ひと}が{行|い}き{来|き}している。",
+      "japanese": "⟦{人|ひと}→人：00476_hito⟧⟦が→が：00051_ga⟧{行|い}き{来|き}して⟦いる→いる：00495_iru⟧。",
       "english": "People are coming and going.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22992_ikikisuru_ex2",
-      "japanese": "{東京|とうきょう}と{大阪|おおさか}の{間|あいだ}を{行|い}き{来|き}する{生活|せいかつ}をしている。",
+      "japanese": "⟦{東京|とうきょう}→東京：09564_toukyou⟧⟦と→と：00512_to⟧⟦{大阪|おおさか}→大阪：09779_oosaka⟧⟦の→の：09472_no⟧⟦{間|あいだ}→間：00914_aida⟧⟦を→を：00422_wo⟧{行|い}き{来|き}する⟦{生活|せいかつ}→生活：01443_seikatsu⟧⟦を→を：00422_wo⟧⟦している→する：00392_suru⟧。",
       "english": "I live going back and forth between Tokyo and Osaka.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22992_ikikisuru_ex3",
-      "japanese": "{国境|こっきょう}を{自由|じゆう}に{行|い}き{来|き}できるようになったのは、つい{最近|さいきん}のことだ。",
+      "japanese": "⟦{国境|こっきょう}→国境：02762_kokkyou⟧⟦を→を：00422_wo⟧⟦{自由|じゆう}→自由：01148_jiyuu⟧⟦に→に：00314_ni⟧{行|い}き{来|き}できるようになった⟦の→の：09472_no⟧⟦は→は：00079_ha⟧、つい⟦{最近|さいきん}→最近：00881_saikin⟧⟦の→の：09472_no⟧ことだ。",
       "english": "It was only recently that people became able to freely travel back and forth across the border.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Describes repeated movement between two points, whether physical travel or regular contact between people. The noun form {行|い}き{来|き} is also common.\n\nCOMMON COLLOCATIONS:\n- {人|ひと}の{行|い}き{来|き}: people coming and going; foot traffic\n- {行|い}き{来|き}が{多|おお}い: lots of traffic; busy\n- {行|い}き{来|き}が{激|はげ}しい: heavy traffic\n- {自由|じゆう}に{行|い}き{来|き}する: to come and go freely\n\nSIMILAR WORDS:\n- {往復|おうふく}する: to make a round trip — emphasizes a single there-and-back journey rather than repeated movement\n- {通|かよ}う: to commute, go regularly — implies a habitual one-directional trip (e.g., to work or school)\n- {出入|でい}りする: to go in and out — focuses on entering and leaving a specific place\n\nUSAGE:\nCan describe both physical movement ({車|くるま}が{行|い}き{来|き}する) and social interaction ({手紙|てがみ}の{行|い}き{来|き} meaning 'exchange of letters').",
+  "notes": "Describes repeated movement between two points, whether physical travel or regular contact between people. The noun form ⟦{行|い}き{来|き}→行き来：14056_ikiki⟧ is also common.\n\nCOMMON COLLOCATIONS:\n- ⟦{人|ひと}→人：00476_hito⟧⟦の→の：09472_no⟧⟦{行|い}き{来|き}→行き来：14056_ikiki⟧: people coming and going; foot traffic\n- ⟦{行|い}き{来|き}→行き来：14056_ikiki⟧⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧: lots of traffic; busy\n- ⟦{行|い}き{来|き}→行き来：14056_ikiki⟧⟦が→が：00051_ga⟧⟦{激|はげ}しい→激しい：02348_hageshii⟧: heavy traffic\n- ⟦{自由|じゆう}→自由：01148_jiyuu⟧⟦に→に：00314_ni⟧{行|い}き{来|き}する: to come and go freely\n\nSIMILAR WORDS:\n- ⟦{往復|おうふく}→往復：04111_oufuku⟧⟦する→する：00392_suru⟧: to make a round trip — emphasizes a single there-and-back journey rather than repeated movement\n- ⟦{通|かよ}う→通う：01217_kayou⟧: to commute, go regularly — implies a habitual one-directional trip (e.g., to work or school)\n- ⟦{出入|でい}り→出入り：06609_deiri⟧⟦する→する：00392_suru⟧: to go in and out — focuses on entering and leaving a specific place\n\nUSAGE:\nCan describe both physical movement (⟦{車|くるま}→車：00516_kuruma⟧⟦が→が：00051_ga⟧{行|い}き{来|き}する) and social interaction (⟦{手紙|てがみ}→手紙：00675_tegami⟧⟦の→の：09472_no⟧⟦{行|い}き{来|き}→行き来：14056_ikiki⟧ meaning 'exchange of letters').",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04111_oufuku",
+      "reading": "おうふく",
+      "headword": "{往復|おうふく}",
+      "label": "to make a round trip"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01217_kayou",
+      "reading": "かよう",
+      "headword": "{通|かよ}う",
+      "label": "to commute, go regularly"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06609_deiri",
+      "reading": "でいり",
+      "headword": "{出入|でい}り",
+      "label": "to go in and out"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,7 +84,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-08T15:32:45Z",
-    "modified": "2026-04-08T15:32:45Z"
+    "modified": "2026-09-02T04:02:10Z"
   },
   "conjugation": {
     "type": "suru",

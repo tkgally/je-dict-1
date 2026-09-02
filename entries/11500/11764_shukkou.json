@@ -2,7 +2,7 @@
   "id": "11764_shukkou",
   "headword": "{出港|しゅっこう}",
   "reading": "しゅっこう",
-  "part_of_speech": "noun; noun (する)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "departure from port, setting sail",
   "conjugation": {
     "type": "suru",
@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "11764_shukkou_ex1",
-      "japanese": "{船|ふね}が{出港|しゅっこう}した。",
+      "japanese": "⟦{船|ふね}→船：00775_fune⟧⟦が→が：00051_ga⟧{出港|しゅっこう}⟦した→する：00392_suru⟧。",
       "english": "The ship departed from port.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "11764_shukkou_ex2",
-      "japanese": "{台風|たいふう}の{影響|えいきょう}で{出港|しゅっこう}が{延期|えんき}された。",
+      "japanese": "⟦{台風|たいふう}→台風：01455_taifuu⟧⟦の→の：09472_no⟧⟦{影響|えいきょう}→影響：01877_eikyou⟧⟦で→で：00502_de⟧{出港|しゅっこう}⟦が→が：00051_ga⟧⟦{延期|えんき}→延期：01888_enki⟧⟦された→する：00392_suru⟧。",
       "english": "The departure was postponed due to the typhoon.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "11764_shukkou_ex3",
-      "japanese": "フェリーは{毎朝|まいあさ}8{時|じ}に{横浜港|よこはまこう}を{出港|しゅっこう}する。",
+      "japanese": "⟦フェリー→フェリー：11168_ferii⟧⟦は→は：00079_ha⟧⟦{毎朝|まいあさ}→毎朝：00966_maiasa⟧8⟦{時|じ}→時：09869_ji⟧⟦に→に：00314_ni⟧{横浜港|よこはまこう}⟦を→を：00422_wo⟧{出港|しゅっこう}⟦する→する：00392_suru⟧。",
       "english": "The ferry departs from Yokohama Port every morning at 8 o'clock.",
       "notes": null,
       "has_audio": false,
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "The act of a ship leaving port. Used as both a noun and a する verb.\n\nWORD FORMATION:\n{出|しゅつ} (exit/leave) + {港|こう} (port/harbor)\n\nCOMMON COLLOCATIONS:\n- {出港|しゅっこう}する: to depart from port\n- {出港|しゅっこう}{時刻|じこく}: departure time\n- {出港|しゅっこう}{手続|てつづ}き: departure procedures\n- {出港|しゅっこう}を{見送|みおく}る: to see a ship off\n\nCONTRAST:\n- {入港|にゅうこう}: entering port (opposite)\n- {出航|しゅっこう}: setting sail (same reading, broader — can include aircraft or general departure)\n\nNote the homophone {出航|しゅっこう}: {出港|しゅっこう} specifically means leaving a port, while {出航|しゅっこう} means beginning a voyage and can apply more broadly.",
+  "notes": "The act of a ship leaving port. Used as both a noun and a ⟦する→する：00392_suru⟧ verb.\n\nFORMS:\n{出|しゅつ} (exit/leave) + {港|こう} (port/harbor)\n\nCOMMON COLLOCATIONS:\n- {出港|しゅっこう}⟦する→する：00392_suru⟧: to depart from port\n- {出港|しゅっこう}⟦{時刻|じこく}→時刻：03270_jikoku⟧: departure time\n- {出港|しゅっこう}⟦{手続|てつづ}き→手続き：05453_tetsuzuki⟧: departure procedures\n- {出港|しゅっこう}⟦を→を：00422_wo⟧⟦{見送|みおく}る→見送る：04240_miokuru⟧: to see a ship off\n\nSIMILAR WORDS:\n- ⟦{入港|にゅうこう}→入港：14771_nyuukou⟧: entering port (opposite)\n- ⟦{出航|しゅっこう}→出航：30231_shukkou⟧: setting sail (same reading, broader — can include aircraft or general departure)\n\nNote the homophone ⟦{出航|しゅっこう}→出航：30231_shukkou⟧: {出港|しゅっこう} specifically means leaving a port, while ⟦{出航|しゅっこう}→出航：30231_shukkou⟧ means beginning a voyage and can apply more broadly.",
   "cross_references": [
     {
       "type": "antonym",
@@ -141,11 +141,32 @@
       "reading": "にゅうこう",
       "headword": "{入港|にゅうこう}",
       "label": "entering port"
+    },
+    {
+      "type": "homophone",
+      "target_id": "30231_shukkou",
+      "reading": "しゅっこう",
+      "headword": "{出航|しゅっこう}",
+      "label": "setting sail (same reading, broader"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21067_kikou",
+      "reading": "きこう",
+      "headword": "{寄港|きこう}",
+      "label": "calling at a port"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30688_funade",
+      "reading": "ふなで",
+      "headword": "{船出|ふなで}",
+      "label": "setting sail"
     }
   ],
   "metadata": {
     "created": "2026-02-17T23:15:01Z",
-    "modified": "2026-04-25T08:21:10Z",
+    "modified": "2026-09-02T04:01:26Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",

@@ -15,41 +15,67 @@
   "examples": [
     {
       "id": "13054_kakikata_ex1",
-      "japanese": "この{漢字|かんじ}の{書|か}き{方|かた}を{教|おし}えて。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{漢字|かんじ}→漢字：09480_kanji⟧⟦の→の：09472_no⟧{書|か}き{方|かた}⟦を→を：00422_wo⟧⟦{教|おし}えて→教える：00526_oshieru⟧。",
       "english": "Teach me how to write this kanji.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13054_kakikata_ex2",
-      "japanese": "{履歴書|りれきしょ}の{書|か}き{方|かた}がわからない。",
+      "japanese": "⟦{履歴書|りれきしょ}→履歴書：04691_rirekisho⟧⟦の→の：09472_no⟧{書|か}き{方|かた}⟦が→が：00051_ga⟧わからない。",
       "english": "I don't know how to write a résumé.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13054_kakikata_ex3",
-      "japanese": "{小学校|しょうがっこう}では{正|ただ}しい{書|か}き{方|かた}を{一|いち}から{習|なら}うので、{書|か}き{順|じゅん}も{大切|たいせつ}にされる。",
+      "japanese": "⟦{小学校|しょうがっこう}→小学校：01055_shougakkou⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{正|ただ}しい→正しい：00893_tadashii⟧{書|か}き{方|かた}⟦を→を：00422_wo⟧⟦{一|いち}→一：00705_ichi⟧⟦から→から：00504_kara⟧⟦{習|なら}う→習う：00479_narau⟧⟦の→の：09472_no⟧で、⟦{書|か}き{順|じゅん}→書き順：26098_kakijun⟧⟦も→も：00484_mo⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧⟦に→に：00314_ni⟧⟦される→する：00392_suru⟧。",
       "english": "In elementary school, students learn correct writing from the basics, so stroke order is also valued.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\n{書|か}き{方|かた} follows the productive pattern of verb stem + {方|かた} (way of doing). It can refer to physical penmanship, stroke order, or the compositional approach to writing documents, letters, or essays.\n\nCOMMON COLLOCATIONS:\n- {漢字|かんじ}の{書|か}き{方|かた}: how to write kanji\n- {手紙|てがみ}の{書|か}き{方|かた}: how to write a letter\n- {履歴書|りれきしょ}の{書|か}き{方|かた}: how to write a résumé\n- {正|ただ}しい{書|か}き{方|かた}: correct way of writing\n- {書|か}き{方|かた}{教室|きょうしつ}: penmanship class\n\nNOTE:\nIn elementary education, {書|か}き{方|かた} often refers specifically to penmanship or calligraphy practice, as distinct from {作文|さくぶん} (composition/essay writing).",
-  "cross_references": [],
+  "notes": "USAGE:\n{書|か}き{方|かた} follows the productive pattern of verb stem + ⟦{方|かた}→方：10665_kata⟧ (way of doing). It can refer to physical penmanship, stroke order, or the compositional approach to writing documents, letters, or essays.\nIn elementary education, {書|か}き{方|かた} often refers specifically to penmanship or calligraphy practice, as distinct from ⟦{作文|さくぶん}→作文：02884_sakubun⟧ (composition/essay writing).\n\nCOMMON COLLOCATIONS:\n- ⟦{漢字|かんじ}→漢字：09480_kanji⟧⟦の→の：09472_no⟧{書|か}き{方|かた}: how to write kanji\n- ⟦{手紙|てがみ}→手紙：00675_tegami⟧⟦の→の：09472_no⟧{書|か}き{方|かた}: how to write a letter\n- ⟦{履歴書|りれきしょ}→履歴書：04691_rirekisho⟧⟦の→の：09472_no⟧{書|か}き{方|かた}: how to write a résumé\n- ⟦{正|ただ}しい→正しい：00893_tadashii⟧{書|か}き{方|かた}: correct way of writing\n- {書|か}き{方|かた}⟦{教室|きょうしつ}→教室：00794_kyoushitsu⟧: penmanship class",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "08081_susumekata",
+      "reading": "すすめかた",
+      "headword": "{進|すす}め{方|かた}",
+      "label": "way of proceeding"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24051_kakiburi",
+      "reading": "かきぶり",
+      "headword": "{書|か}きぶり",
+      "label": "writing style, manner of writing"
+    }
+  ],
   "metadata": {
     "created": "2026-02-23T10:04:19Z",
-    "modified": "2026-02-23T10:04:19Z",
+    "modified": "2026-09-02T04:01:31Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["communication", "education"]
+      "semantic": [
+        "communication",
+        "education"
+      ]
     }
   }
 }

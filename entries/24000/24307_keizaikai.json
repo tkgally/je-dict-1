@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24307_keizaikai_ex1",
-      "japanese": "{経済界|けいざいかい}から{批判|ひはん}の{声|こえ}が{上|あ}がった。",
+      "japanese": "{経済界|けいざいかい}⟦から→から：00504_kara⟧⟦{批判|ひはん}→批判：03580_hihan⟧⟦の→の：09472_no⟧⟦{声|こえ}→声：02207_koe⟧⟦が→が：00051_ga⟧⟦{上|あ}がった→上がる：00615_agaru⟧。",
       "english": "Criticism arose from the business community.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24307_keizaikai_ex2",
-      "japanese": "{経済界|けいざいかい}のリーダーたちが{政策|せいさく}{提言|ていげん}を{行|おこな}った。",
+      "japanese": "{経済界|けいざいかい}⟦の→の：09472_no⟧⟦リーダー→リーダー：24312_riidaa⟧たち⟦が→が：00051_ga⟧⟦{政策|せいさく}→政策：10070_seisaku⟧⟦{提言|ていげん}→提言：17132_teigen⟧⟦を→を：00422_wo⟧⟦{行|おこな}った→行う：01238_okonau⟧。",
       "english": "Leaders of the business world made policy proposals.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24307_keizaikai_ex3",
-      "japanese": "{新|しん}{首相|しゅしょう}の{政策|せいさく}に{対|たい}して、{経済界|けいざいかい}は{概|おおむ}ね{好意的|こういてき}な{反応|はんのう}を{示|しめ}した。",
+      "japanese": "{新|しん}⟦{首相|しゅしょう}→首相：03217_shushou⟧⟦の→の：09472_no⟧⟦{政策|せいさく}→政策：10070_seisaku⟧⟦に{対|たい}して→に対して：06800_nitaishite⟧、{経済界|けいざいかい}⟦は→は：00079_ha⟧⟦{概|おおむ}ね→概ね：05732_oomune⟧{好意的|こういてき}な⟦{反応|はんのう}→反応：04812_hannou⟧⟦を→を：00422_wo⟧⟦{示|しめ}した→示す：01948_shimesu⟧。",
       "english": "The business community showed a generally favorable reaction to the new prime minister's policies.",
       "sense_numbers": [
         1
@@ -44,20 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {経済|けいざい} (economy) + {界|かい} (world, sphere). Frequently appears in news reporting about the relationship between business and government. In Japan, {経済界|けいざいかい} often refers specifically to the major business federations such as {経団連|けいだんれん} (Keidanren) and their influence on policy.\n\nCOMMON COLLOCATIONS:\n- {経済界|けいざいかい}の{重鎮|じゅうちん} — heavyweight of the business world\n- {経済界|けいざいかい}の{反応|はんのう} — reaction from the business community\n- {経済界|けいざいかい}と{政界|せいかい} — the business world and political world\n- {経済界|けいざいかい}からの{要望|ようぼう} — demands from the business community\n\nSIMILAR WORDS:\n- {財界|ざいかい} — financial world, business circles; largely synonymous but slightly more emphasis on major corporate and financial leaders\n- {実業界|じつぎょうかい} — industrial world; more focused on actual industry and manufacturing\n- {政界|せいかい} — political world; the political counterpart to {経済界|けいざいかい}",
+  "notes": "Composed of ⟦{経済|けいざい}→経済：01394_keizai⟧ (economy) + ⟦{界|かい}→界：09651_kai⟧ (world, sphere). Frequently appears in news reporting about the relationship between business and government. In Japan, {経済界|けいざいかい} often refers specifically to the major business federations such as {経団連|けいだんれん} (Keidanren) and their influence on policy.\n\nCOMMON COLLOCATIONS:\n- {経済界|けいざいかい}⟦の→の：09472_no⟧{重鎮|じゅうちん} — heavyweight of the business world\n- {経済界|けいざいかい}⟦の→の：09472_no⟧⟦{反応|はんのう}→反応：04812_hannou⟧ — reaction from the business community\n- {経済界|けいざいかい}⟦と→と：00512_to⟧⟦{政界|せいかい}→政界：15196_seikai⟧ — the business world and political world\n- {経済界|けいざいかい}⟦から→から：00504_kara⟧⟦の→の：09472_no⟧⟦{要望|ようぼう}→要望：14111_youbou⟧ — demands from the business community\n\nSIMILAR WORDS:\n- ⟦{財界|ざいかい}→財界：22340_zaikai⟧ — financial world, business circles; largely synonymous but slightly more emphasis on major corporate and financial leaders\n- {実業界|じつぎょうかい} — industrial world; more focused on actual industry and manufacturing\n- ⟦{政界|せいかい}→政界：15196_seikai⟧ — political world; the political counterpart to {経済界|けいざいかい}",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22340_zaikai",
+      "reading": "ざいかい",
+      "headword": "{財界|ざいかい}",
+      "label": "financial world, business circles"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15196_seikai",
+      "reading": "せいかい",
+      "headword": "{政界|せいかい}",
+      "label": "political world"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "business",
         "society"
       ]
     },
     "created": "2026-04-18T13:17:49Z",
-    "modified": "2026-04-18T13:17:49Z"
+    "modified": "2026-09-02T04:02:17Z"
   }
 }

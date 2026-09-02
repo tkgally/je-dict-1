@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08445_kansetsuen_ex1",
-      "japanese": "{関節炎|かんせつえん}で{膝|ひざ}が{痛|いた}い。",
+      "japanese": "{関節炎|かんせつえん}⟦で→で：00502_de⟧⟦{膝|ひざ}→膝：00940_hiza⟧⟦が→が：00051_ga⟧⟦{痛|いた}い→痛い：01108_itai⟧。",
       "english": "My knee hurts from arthritis.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "08445_kansetsuen_ex2",
-      "japanese": "{年|とし}を{取|と}ると{関節炎|かんせつえん}になりやすい。",
+      "japanese": "⟦{年|とし}→年：00486_toshi⟧⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧⟦と→と：00512_to⟧{関節炎|かんせつえん}⟦に→に：00314_ni⟧⟦なり→なる：01970_naru⟧やすい。",
       "english": "You become more prone to arthritis as you age.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "08445_kansetsuen_ex3",
-      "japanese": "{関節炎|かんせつえん}の{治療|ちりょう}を{受|う}けている。",
+      "japanese": "{関節炎|かんせつえん}⟦の→の：09472_no⟧⟦{治療|ちりょう}→治療：03503_chiryou⟧⟦を→を：00422_wo⟧⟦{受|う}けている→受ける：01215_ukeru⟧。",
       "english": "I'm receiving treatment for arthritis.",
       "sense_numbers": [
         1
@@ -43,7 +43,16 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {関節|かんせつ} (joint) + {炎|えん} (inflammation). A medical term that follows the common Japanese pattern of body part + {炎|えん} for inflammatory conditions.\n\nCOMMON TYPES:\n- {変形性|へんけいせい}{関節症|かんせつしょう}: osteoarthritis\n- {関節|かんせつ}リウマチ: rheumatoid arthritis\n- {痛風|つうふう}: gout (also causes joint inflammation)\n\nSYMPTOMS:\n- {痛|いた}み: pain\n- {腫|は}れ: swelling\n- こわばり: stiffness\n\nCOMMON COLLOCATIONS:\n- {関節炎|かんせつえん}になる: to develop arthritis\n- {関節炎|かんせつえん}の{治療|ちりょう}: arthritis treatment\n- {関節炎|かんせつえん}が{悪化|あっか}する: arthritis worsens\n\nPATTERN:\nThe suffix {炎|えん} is productive in medical terms: {肺炎|はいえん} (pneumonia), {胃炎|いえん} (gastritis), {皮膚炎|ひふえん} (dermatitis).",
+  "notes": "Composed of ⟦{関節|かんせつ}→関節：09793_kansetsu⟧ (joint) + {炎|えん} (inflammation). A medical term that follows the common Japanese pattern of body part + {炎|えん} for inflammatory conditions.\n\nTYPES:\n- {変形性|へんけいせい}{関節症|かんせつしょう}: osteoarthritis\n- ⟦{関節|かんせつ}→関節：09793_kansetsu⟧リウマチ: rheumatoid arthritis\n- {痛風|つうふう}: gout (also causes joint inflammation)\n\nSYMPTOMS:\n- ⟦{痛|いた}み→痛み：01795_itami⟧: pain\n- {腫|は}れ: swelling\n- こわばり: stiffness\n\nCOMMON COLLOCATIONS:\n- {関節炎|かんせつえん}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧: to develop arthritis\n- {関節炎|かんせつえん}⟦の→の：09472_no⟧⟦{治療|ちりょう}→治療：03503_chiryou⟧: arthritis treatment\n- {関節炎|かんせつえん}⟦が→が：00051_ga⟧⟦{悪化|あっか}する→悪化する：18844_akkasuru⟧: arthritis worsens\n\nCOMMON PATTERNS:\nThe suffix {炎|えん} is productive in medical terms: ⟦{肺炎|はいえん}→肺炎：08443_haien⟧ (pneumonia), ⟦{胃炎|いえん}→胃炎：25491_ien⟧ (gastritis), ⟦{皮膚炎|ひふえん}→皮膚炎：23596_hifuen⟧ (dermatitis).",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "04651_kansetsutsuu",
+      "reading": "かんせつつう",
+      "headword": "{関節痛|かんせつつう}",
+      "label": "joint pain"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -51,12 +60,13 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "health",
         "body-part"
       ]
     },
     "created": "2026-01-27T00:58:00Z",
-    "modified": "2026-08-12T12:51:44Z"
+    "modified": "2026-09-02T04:01:15Z"
   }
 }

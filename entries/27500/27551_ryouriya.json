@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "27551_ryouriya_ex1",
-      "japanese": "{老舗|しにせ}の{料理屋|りょうりや}で{食事|しょくじ}をした。",
+      "japanese": "⟦{老舗|しにせ}→老舗：16152_shinise⟧⟦の→の：09472_no⟧{料理屋|りょうりや}⟦で→で：00502_de⟧⟦{食事|しょくじ}→食事：02087_shokuji⟧⟦を→を：00422_wo⟧⟦した→する：00392_suru⟧。",
       "english": "We had a meal at a long-established Japanese restaurant.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "27551_ryouriya_ex2",
-      "japanese": "この{町|まち}には{有名|ゆうめい}な{料理屋|りょうりや}が{多|おお}い。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{町|まち}→町：00613_machi⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{有名|ゆうめい}→有名：01106_yuumei⟧な{料理屋|りょうりや}⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "There are many famous restaurants in this town.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "27551_ryouriya_ex3",
-      "japanese": "{京都|きょうと}の{料理屋|りょうりや}で{季節|きせつ}の{料理|りょうり}を{楽|たの}しんだ。",
+      "japanese": "⟦{京都|きょうと}→京都：09484_kyouto⟧⟦の→の：09472_no⟧{料理屋|りょうりや}⟦で→で：00502_de⟧⟦{季節|きせつ}→季節：01304_kisetsu⟧⟦の→の：09472_no⟧⟦{料理|りょうり}→料理：01523_ryouri⟧⟦を→を：00422_wo⟧⟦{楽|たの}しんだ→楽しむ：01203_tanoshimu⟧。",
       "english": "I enjoyed seasonal cuisine at a restaurant in Kyoto.",
       "sense_numbers": [
         1
@@ -44,8 +44,45 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {料理|りょうり} (cuisine, cooking) + {屋|や} (shop, establishment). Typically refers to traditional Japanese restaurants, often with a slightly old-fashioned or refined feel. レストラン is preferred for Western-style restaurants.\n\nCOMMON COLLOCATIONS:\n- {老舗|しにせ}の{料理屋|りょうりや}: long-established restaurant\n- {高級|こうきゅう}{料理屋|りょうりや}: high-end restaurant\n- {小料理屋|こりょうりや}: small Japanese restaurant (intimate, often counter-style)\n- {日本|にほん}{料理屋|りょうりや}: Japanese-cuisine restaurant\n\nSIMILAR WORDS:\n- レストラン: restaurant — Western-style or general\n- {食堂|しょくどう}: cafeteria; simple eatery\n- {居酒屋|いざかや}: Japanese-style pub/bar\n- {割烹|かっぽう}: traditional Japanese restaurant (more upscale)\n- {料亭|りょうてい}: high-end traditional Japanese restaurant",
+  "notes": "Compound of ⟦{料理|りょうり}→料理：01523_ryouri⟧ (cuisine, cooking) + ⟦{屋|や}→〜屋：03096_ya⟧ (shop, establishment). Typically refers to traditional Japanese restaurants, often with a slightly old-fashioned or refined feel. ⟦レストラン→レストラン：01048_resutoran⟧ is preferred for Western-style restaurants.\n\nCOMMON COLLOCATIONS:\n- ⟦{老舗|しにせ}→老舗：16152_shinise⟧⟦の→の：09472_no⟧{料理屋|りょうりや}: long-established restaurant\n- ⟦{高級|こうきゅう}→高級：08644_koukyuu⟧{料理屋|りょうりや}: high-end restaurant\n- {小料理屋|こりょうりや}: small Japanese restaurant (intimate, often counter-style)\n- ⟦{日本|にほん}→日本：03876_nihon⟧{料理屋|りょうりや}: Japanese-cuisine restaurant\n\nSIMILAR WORDS:\n- ⟦レストラン→レストラン：01048_resutoran⟧: restaurant — Western-style or general\n- ⟦{食堂|しょくどう}→食堂：01054_shokudou⟧: cafeteria; simple eatery\n- ⟦{居酒屋|いざかや}→居酒屋：09635_izakaya⟧: Japanese-style pub/bar\n- ⟦{割烹|かっぽう}→割烹：11922_kappou⟧: traditional Japanese restaurant (more upscale)\n- ⟦{料亭|りょうてい}→料亭：21710_ryoutei⟧: high-end traditional Japanese restaurant",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01048_resutoran",
+      "reading": "れすとらん",
+      "headword": "レストラン",
+      "label": "restaurant"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01054_shokudou",
+      "reading": "しょくどう",
+      "headword": "{食堂|しょくどう}",
+      "label": "cafeteria"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09635_izakaya",
+      "reading": "いざかや",
+      "headword": "{居酒屋|いざかや}",
+      "label": "Japanese-style pub/bar"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11922_kappou",
+      "reading": "かっぽう",
+      "headword": "{割烹|かっぽう}",
+      "label": "traditional Japanese restaurant"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21710_ryoutei",
+      "reading": "りょうてい",
+      "headword": "{料亭|りょうてい}",
+      "label": "high-end traditional Japanese restaurant"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +90,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "food",
         "business"
@@ -61,6 +98,6 @@
       "domain": []
     },
     "created": "2026-05-14T01:41:20Z",
-    "modified": "2026-08-07T16:10:18Z"
+    "modified": "2026-09-02T04:02:31Z"
   }
 }

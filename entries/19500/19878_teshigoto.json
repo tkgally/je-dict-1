@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "19878_teshigoto_ex1",
-      "japanese": "{手仕事|てしごと}の{温|あたた}かみ。",
+      "japanese": "{手仕事|てしごと}⟦の→の：09472_no⟧⟦{温|あたた}かみ→温かみ：25336_atatakami⟧。",
       "english": "The warmth of handmade work.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "19878_teshigoto_ex2",
-      "japanese": "{祖母|そぼ}は{手仕事|てしごと}が{得意|とくい}だった。",
+      "japanese": "⟦{祖母|そぼ}→祖母：00813_sobo⟧⟦は→は：00079_ha⟧{手仕事|てしごと}⟦が→が：00051_ga⟧⟦{得意|とくい}→得意：03455_tokui⟧だった。",
       "english": "My grandmother was good at handicraft.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "19878_teshigoto_ex3",
-      "japanese": "{機械|きかい}にはない{手仕事|てしごと}ならではの{味|あじ}わいがある。",
+      "japanese": "⟦{機械|きかい}→機械：02366_kikai⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦ない→ない：01118_nai⟧{手仕事|てしごと}ならで⟦は→は：00079_ha⟧⟦の→の：09472_no⟧⟦{味|あじ}わい→味わい：11899_ajiwai⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There is a unique charm to handwork that machines cannot produce.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Combines {手|て} (hand) + {仕事|しごと} (work). Carries a positive connotation, emphasizing the human touch and craftsmanship that distinguishes handmade items from mass-produced ones. Often used when discussing traditional crafts, artisan work, or home crafts like knitting and sewing.\n\nCOMMON COLLOCATIONS:\n- {手仕事|てしごと}の{温|あたた}かみ — the warmth of handmade work\n- {手仕事|てしごと}の{品|しな} — handcrafted item\n- {丁寧|ていねい}な{手仕事|てしごと} — careful handiwork\n\nSIMILAR WORDS:\n- {手作|てづく}り — handmade; focuses on the homemade quality of something\n- {手芸|しゅげい} — needlework, textile crafts; specifically sewing, knitting, embroidery\n- {工芸|こうげい} — arts and crafts; refers to skilled decorative or fine arts",
+  "notes": "Combines ⟦{手|て}→手：00569_te⟧ (hand) + ⟦{仕事|しごと}→仕事：00480_shigoto⟧ (work). Carries a positive connotation, emphasizing the human touch and craftsmanship that distinguishes handmade items from mass-produced ones. Often used when discussing traditional crafts, artisan work, or home crafts like knitting and sewing.\n\nCOMMON COLLOCATIONS:\n- {手仕事|てしごと}⟦の→の：09472_no⟧⟦{温|あたた}かみ→温かみ：25336_atatakami⟧ — the warmth of handmade work\n- {手仕事|てしごと}⟦の→の：09472_no⟧⟦{品|しな}→品：03192_shina⟧ — handcrafted item\n- ⟦{丁寧|ていねい}→丁寧：00896_teinei⟧な{手仕事|てしごと} — careful handiwork\n\nSIMILAR WORDS:\n- ⟦{手作|てづく}り→手作り：08300_tezukuri⟧ — handmade; focuses on the homemade quality of something\n- ⟦{手芸|しゅげい}→手芸：07062_shugei⟧ — needlework, textile crafts; specifically sewing, knitting, embroidery\n- ⟦{工芸|こうげい}→工芸：04182_kougei⟧ — arts and crafts; refers to skilled decorative or fine arts",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08300_tezukuri",
+      "reading": "てづくり",
+      "headword": "{手作|てづく}り",
+      "label": "handmade"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07062_shugei",
+      "reading": "しゅげい",
+      "headword": "{手芸|しゅげい}",
+      "label": "needlework, textile crafts"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04182_kougei",
+      "reading": "こうげい",
+      "headword": "{工芸|こうげい}",
+      "label": "arts and crafts"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +83,6 @@
       ]
     },
     "created": "2026-03-27T05:09:12Z",
-    "modified": "2026-07-27T12:42:09Z"
+    "modified": "2026-09-02T04:01:57Z"
   }
 }

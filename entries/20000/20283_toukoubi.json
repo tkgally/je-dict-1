@@ -15,40 +15,50 @@
   "examples": [
     {
       "id": "20283_toukoubi_ex1",
-      "japanese": "{明日|あした}は{登校日|とうこうび}だ。",
+      "japanese": "⟦{明日|あした}→明日：00501_ashita⟧⟦は→は：00079_ha⟧{登校日|とうこうび}だ。",
       "english": "Tomorrow is a school day.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20283_toukoubi_ex2",
-      "japanese": "{夏休|なつやす}み{中|ちゅう}に{登校日|とうこうび}がある。",
+      "japanese": "⟦{夏休|なつやす}み→夏休み：02925_natsuyasumi⟧⟦{中|ちゅう}→〜中：09840_chuu⟧⟦に→に：00314_ni⟧{登校日|とうこうび}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There are school attendance days during summer vacation.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20283_toukoubi_ex3",
-      "japanese": "{夏休|なつやす}みの{登校日|とうこうび}に、{宿題|しゅくだい}の{進|すす}み{具合|ぐあい}を{先生|せんせい}に{報告|ほうこく}しなければならない。",
+      "japanese": "⟦{夏休|なつやす}み→夏休み：02925_natsuyasumi⟧⟦の→の：09472_no⟧{登校日|とうこうび}⟦に→に：00314_ni⟧、⟦{宿題|しゅくだい}→宿題：00812_shukudai⟧⟦の→の：09472_no⟧⟦{進|すす}み→進む：01225_susumu⟧⟦{具合|ぐあい}→具合：01391_guai⟧⟦を→を：00422_wo⟧⟦{先生|せんせい}→先生：00609_sensei⟧⟦に→に：00314_ni⟧⟦{報告|ほうこく}→報告：03618_houkoku⟧し⟦なければならない→なければならない：27600_nakerebanaranai⟧。",
       "english": "On the summer vacation school attendance day, we have to report our homework progress to the teacher.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Compound of {登校|とうこう} (attending school, going to school) + {日|び} (day). Particularly associated with the designated days during school breaks when students must come to school.\n\nUSAGE:\nIn Japanese schools, long vacations (especially summer break) often include one or more {登校日|とうこうび} — days when students come to school briefly for announcements, to submit homework, or to participate in activities. These are different from regular school days and usually involve shorter hours.\n\nCOMMON COLLOCATIONS:\n- {夏休|なつやす}みの{登校日|とうこうび} — summer vacation attendance day\n- {登校日|とうこうび}に{行|い}く — to go on a school attendance day\n- {全校|ぜんこう}{登校日|とうこうび} — whole-school attendance day\n\nSIMILAR WORDS:\n- {登校|とうこう} — going to school, attending school (the act itself)\n- {出席日|しゅっせきび} — attendance day (more formal, record-keeping context)\n- {休校日|きゅうこうび} — school closure day (the opposite)",
+  "notes": "Compound of ⟦{登校|とうこう}→登校：16560_toukou⟧ (attending school, going to school) + {日|び} (day). Particularly associated with the designated days during school breaks when students must come to school.\n\nUSAGE:\nIn Japanese schools, long vacations (especially summer break) often include one or more {登校日|とうこうび} — days when students come to school briefly for announcements, to submit homework, or to participate in activities. These are different from regular school days and usually involve shorter hours.\n\nCOMMON COLLOCATIONS:\n- ⟦{夏休|なつやす}み→夏休み：02925_natsuyasumi⟧⟦の→の：09472_no⟧{登校日|とうこうび} — summer vacation attendance day\n- {登校日|とうこうび}⟦に→に：00314_ni⟧⟦{行|い}く→行く：00119_iku⟧ — to go on a school attendance day\n- ⟦{全校|ぜんこう}→全校：28166_zenkou⟧{登校日|とうこうび} — whole-school attendance day\n\nSIMILAR WORDS:\n- ⟦{登校|とうこう}→登校：16560_toukou⟧ — going to school, attending school (the act itself)\n- {出席日|しゅっせきび} — attendance day (more formal, record-keeping context)\n- {休校日|きゅうこうび} — school closure day (the opposite)",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["education"]
+      "semantic": [
+        "education"
+      ]
     },
     "created": "2026-03-28T19:21:52Z",
-    "modified": "2026-03-28T19:21:52Z"
+    "modified": "2026-09-02T04:01:59Z"
   }
 }

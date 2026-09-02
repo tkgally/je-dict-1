@@ -15,41 +15,69 @@
   "examples": [
     {
       "id": "29446_shoyuuchi_ex1",
-      "japanese": "ここは{私|わたし}の{所有地|しょゆうち}だ。",
+      "japanese": "⟦ここ→ここ：00961_koko⟧⟦は→は：00079_ha⟧⟦{私|わたし}→私：02988_watashi⟧⟦の→の：09472_no⟧{所有地|しょゆうち}だ。",
       "english": "This is my land.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29446_shoyuuchi_ex2",
-      "japanese": "{会社|かいしゃ}の{所有地|しょゆうち}に{工場|こうじょう}を{建|た}てる。",
+      "japanese": "⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦の→の：09472_no⟧{所有地|しょゆうち}⟦に→に：00314_ni⟧⟦{工場|こうじょう}→工場：01082_koujou⟧⟦を→を：00422_wo⟧⟦{建|た}てる→建てる：01189_tateru⟧。",
       "english": "to build a factory on company-owned land.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29446_shoyuuchi_ex3",
-      "japanese": "{所有地|しょゆうち}の{境界|きょうかい}をめぐって{隣|となり}の{人|ひと}と{争|あらそ}いになった。",
+      "japanese": "{所有地|しょゆうち}⟦の→の：09472_no⟧⟦{境界|きょうかい}→境界：12096_kyoukai⟧をめぐって⟦{隣|となり}→隣：01003_tonari⟧⟦の→の：09472_no⟧⟦{人|ひと}→人：00476_hito⟧⟦と→と：00512_to⟧⟦{争|あらそ}い→争い：09992_arasoi⟧になった。",
       "english": "A dispute arose with the neighbor over the boundary of the property.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Stresses ownership of the land; used in real-estate, legal, and tax contexts.\n\nCOMMON COLLOCATIONS:\n- {所有地|しょゆうち}を{売|う}る: to sell one's land\n- {所有地|しょゆうち}の{面積|めんせき}: the area of the holding\n- {所有地|しょゆうち}{内|ない}: within one's property\n\nSIMILAR WORDS:\n- {私有地|しゆうち}: private land — contrasts private ownership with public land\n- {土地|とち}: land — the general word, with no emphasis on who owns it",
+  "notes": "Stresses ownership of the land; used in real-estate, legal, and tax contexts.\n\nCOMMON COLLOCATIONS:\n- {所有地|しょゆうち}⟦を→を：00422_wo⟧⟦{売|う}る→売る：00906_uru⟧: to sell one's land\n- {所有地|しょゆうち}⟦の→の：09472_no⟧⟦{面積|めんせき}→面積：05330_menseki⟧: the area of the holding\n- {所有地|しょゆうち}⟦{内|ない}→〜内：09853_nai⟧: within one's property\n\nSIMILAR WORDS:\n- ⟦{私有地|しゆうち}→私有地：22702_shiyuuchi⟧: private land — contrasts private ownership with public land\n- ⟦{土地|とち}→土地：02226_tochi⟧: land — the general word, with no emphasis on who owns it",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22702_shiyuuchi",
+      "reading": "しゆうち",
+      "headword": "{私有地|しゆうち}",
+      "label": "private land"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02226_tochi",
+      "reading": "とち",
+      "headword": "{土地|とち}",
+      "label": "land"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["society"],
-      "domain": ["legal"]
+      "politeness": "plain",
+      "semantic": [
+        "society"
+      ],
+      "domain": [
+        "legal"
+      ]
     },
     "created": "2026-06-24T00:19:16Z",
-    "modified": "2026-06-24T00:19:16Z"
+    "modified": "2026-09-02T04:02:37Z"
   }
 }

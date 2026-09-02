@@ -2,7 +2,7 @@
   "id": "02650_giron",
   "headword": "{議論|ぎろん}",
   "reading": "ぎろん",
-  "part_of_speech": "noun / suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "discussion, argument, debate",
   "definitions": [
     {
@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "02650_giron_ex1",
-      "japanese": "{議論|ぎろん}⟦が→が：00051_ga⟧{白熱|はくねつ}した。",
+      "japanese": "{議論|ぎろん}⟦が→が：00051_ga⟧{白熱|はくねつ}⟦した→する：00392_suru⟧。",
       "english": "The debate became heated.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{議論|ぎろん} refers to formal or serious discussions and debates.\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n- No standard transitive pair\n- Pattern: {議論|ぎろん}⟦する→する：00392_suru⟧\n\nCOMMON PATTERNS:\n- {議論|ぎろん}⟦する→する：00392_suru⟧ (to discuss, to debate)\n- {議論|ぎろん}⟦を→を：00422_wo⟧⟦{呼|よ}ぶ→呼ぶ：00766_yobu⟧ (to spark debate)\n- {議論|ぎろん}⟦が→が：00051_ga⟧⟦{分|わ}かれる→分かれる：10976_wakareru⟧ (opinions are divided)\n- {議論|ぎろん}⟦の→の：09472_no⟧⟦{余地|よち}→余地：07612_yochi⟧⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧ (no room for argument)\n\nCOMPOUND WORDS:\n- {議論|ぎろん}⟦{好|ず}き→好き：02355_suki⟧ (argumentative person)\n\nSIMILAR WORDS:\n- {議論|ぎろん}: discussion, debate (formal)\n- ⟦{話|はな}し{合|あ}い→話し合い：14176_hanashiai⟧: discussion (general)\n- ⟦{討論|とうろん}→討論：05100_touron⟧: debate (formal, structured)\n- ⟦{口論|こうろん}→口論：08371_kouron⟧: quarrel, verbal fight",
+  "notes": "{議論|ぎろん} refers to formal or serious discussions and debates.\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n- No standard transitive pair\n- Pattern: {議論|ぎろん}⟦する→する：00392_suru⟧\n\nCOMMON PATTERNS:\n- {議論|ぎろん}⟦する→する：00392_suru⟧ (to discuss, to debate)\n- {議論|ぎろん}⟦を→を：00422_wo⟧⟦{呼|よ}ぶ→呼ぶ：00766_yobu⟧ (to spark debate)\n- {議論|ぎろん}⟦が→が：00051_ga⟧⟦{分|わ}かれる→分かれる：10976_wakareru⟧ (opinions are divided)\n- {議論|ぎろん}⟦の→の：09472_no⟧⟦{余地|よち}→余地：07612_yochi⟧⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧ (no room for argument)\n\nCOMPOUNDS:\n- {議論|ぎろん}⟦{好|ず}き→好き：02355_suki⟧ (argumentative person)\n\nSIMILAR WORDS:\n- {議論|ぎろん}: discussion, debate (formal)\n- ⟦{話|はな}し{合|あ}い→話し合い：14176_hanashiai⟧: discussion (general)\n- ⟦{討論|とうろん}→討論：05100_touron⟧: debate (formal, structured)\n- ⟦{口論|こうろん}→口論：08371_kouron⟧: quarrel, verbal fight",
   "cross_references": [
     {
       "type": "synonym",
@@ -58,12 +58,40 @@
       "reading": "はなしあい",
       "headword": "{話|はな}し{合|あ}い",
       "label": "discussion"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08371_kouron",
+      "reading": "こうろん",
+      "headword": "{口論|こうろん}",
+      "label": "quarrel, verbal fight"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19112_shingi",
+      "reading": "しんぎ",
+      "headword": "{審議|しんぎ}",
+      "label": "deliberation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25322_tougi",
+      "reading": "とうぎ",
+      "headword": "{討議|とうぎ}",
+      "label": "discussion"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25422_touronkai",
+      "reading": "とうろんかい",
+      "headword": "{討論会|とうろんかい}",
+      "label": "debate"
     }
   ],
   "metadata": {
     "schema_version": "2.0",
     "created": "2026-01-11T06:58:10Z",
-    "modified": "2026-05-21T18:04:47Z",
+    "modified": "2026-09-02T04:01:02Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

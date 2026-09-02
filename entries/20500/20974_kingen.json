@@ -15,40 +15,80 @@
   "examples": [
     {
       "id": "20974_kingen_ex1",
-      "japanese": "これは{祖父|そふ}の{金言|きんげん}だ。",
+      "japanese": "⟦これ→これ：00963_kore⟧⟦は→は：00079_ha⟧⟦{祖父|そふ}→祖父：01452_sofu⟧⟦の→の：09472_no⟧{金言|きんげん}だ。",
       "english": "This is a wise saying from my grandfather.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20974_kingen_ex2",
-      "japanese": "{先生|せんせい}の{金言|きんげん}を{今|いま}でも{覚|おぼ}えている。",
+      "japanese": "⟦{先生|せんせい}→先生：00609_sensei⟧⟦の→の：09472_no⟧{金言|きんげん}⟦を→を：00422_wo⟧⟦{今|いま}→今：00945_ima⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧⟦{覚|おぼ}えている→覚える：00739_oboeru⟧。",
       "english": "I still remember my teacher's wise words.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20974_kingen_ex3",
-      "japanese": "「{失敗|しっぱい}は{成功|せいこう}のもと」という{金言|きんげん}は、{多|おお}くの{人|ひと}に{勇気|ゆうき}を{与|あた}えてきた。",
+      "japanese": "「⟦{失敗|しっぱい}→失敗：01636_shippai⟧⟦は→は：00079_ha⟧⟦{成功|せいこう}→成功：02638_seikou⟧⟦の→の：09472_no⟧もと」⟦という→という：09577_toiu⟧{金言|きんげん}⟦は→は：00079_ha⟧、{多|おお}く⟦の→の：09472_no⟧⟦{人|ひと}→人：00476_hito⟧⟦に→に：00314_ni⟧⟦{勇気|ゆうき}→勇気：02499_yuuki⟧⟦を→を：00422_wo⟧⟦{与|あた}えて→与える：01821_ataeru⟧きた。",
       "english": "The maxim 'failure is the mother of success' has given courage to many people.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Literally '{金|きん} (gold) + {言|げん} (words)' — words as precious as gold. Used for advice or sayings considered especially valuable or wise.\n\nCOMMON COLLOCATIONS:\n- {金言|きんげん}を{残|のこ}す: to leave behind wise words\n- {金言|きんげん}を{胸|むね}に{刻|きざ}む: to engrave wise words in one's heart\n- {人生|じんせい}の{金言|きんげん}: words of wisdom for life\n\nSIMILAR WORDS:\n- {格言|かくげん}: proverb, maxim — more formal; often refers to established, well-known sayings\n- {名言|めいげん}: famous quote — emphasizes that the words are well-known or by a famous person\n- {教訓|きょうくん}: lesson, moral — focuses on the practical lesson to be learned",
+  "notes": "Literally '{金|きん} (gold) + {言|げん} (words)' — words as precious as gold. Used for advice or sayings considered especially valuable or wise.\n\nCOMMON COLLOCATIONS:\n- {金言|きんげん}⟦を→を：00422_wo⟧⟦{残|のこ}す→残す：01975_nokosu⟧: to leave behind wise words\n- {金言|きんげん}⟦を→を：00422_wo⟧⟦{胸|むね}→胸：00972_mune⟧⟦に→に：00314_ni⟧⟦{刻|きざ}む→刻む：03918_kizamu⟧: to engrave wise words in one's heart\n- ⟦{人生|じんせい}→人生：03355_jinsei⟧⟦の→の：09472_no⟧{金言|きんげん}: words of wisdom for life\n\nSIMILAR WORDS:\n- ⟦{格言|かくげん}→格言：18936_kakugen⟧: proverb, maxim — more formal; often refers to established, well-known sayings\n- ⟦{名言|めいげん}→名言：20185_meigen⟧: famous quote — emphasizes that the words are well-known or by a famous person\n- ⟦{教訓|きょうくん}→教訓：12721_kyoukun⟧: lesson, moral — focuses on the practical lesson to be learned",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18936_kakugen",
+      "reading": "かくげん",
+      "headword": "{格言|かくげん}",
+      "label": "proverb, maxim"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20185_meigen",
+      "reading": "めいげん",
+      "headword": "{名言|めいげん}",
+      "label": "famous quote"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12721_kyoukun",
+      "reading": "きょうくん",
+      "headword": "{教訓|きょうくん}",
+      "label": "lesson, moral"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22461_keiku",
+      "reading": "けいく",
+      "headword": "{警句|けいく}",
+      "label": "epigram"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["language"]
+      "semantic": [
+        "language"
+      ]
     },
     "created": "2026-03-31T09:44:59Z",
-    "modified": "2026-03-31T09:44:59Z"
+    "modified": "2026-09-02T04:02:01Z"
   }
 }

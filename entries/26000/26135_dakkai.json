@@ -3,7 +3,7 @@
   "headword": "{脱会|だっかい}",
   "reading": "だっかい",
   "romaji": "dakkai",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "withdrawal from an organization; leaving a group",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26135_dakkai_ex1",
-      "japanese": "{彼|かれ}は{政党|せいとう}を{脱会|だっかい}した。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{政党|せいとう}→政党：04338_seitou⟧⟦を→を：00422_wo⟧{脱会|だっかい}⟦した→する：00392_suru⟧。",
       "english": "He withdrew from the political party.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26135_dakkai_ex2",
-      "japanese": "{脱会|だっかい}の{手続|てつづ}きは{書面|しょめん}で{行|おこな}う{必要|ひつよう}がある。",
+      "japanese": "{脱会|だっかい}⟦の→の：09472_no⟧⟦{手続|てつづ}き→手続き：05453_tetsuzuki⟧⟦は→は：00079_ha⟧⟦{書面|しょめん}→書面：13023_shomen⟧⟦で→で：00502_de⟧⟦{行|おこな}う→行う：01238_okonau⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "The withdrawal procedure must be done in writing.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26135_dakkai_ex3",
-      "japanese": "{活動|かつどう}{方針|ほうしん}に{不満|ふまん}を{持|も}った{会員|かいいん}が{相次|あいつ}いで{脱会|だっかい}した。",
+      "japanese": "⟦{活動|かつどう}→活動：00201_katsudou⟧⟦{方針|ほうしん}→方針：04871_houshin⟧⟦に→に：00314_ni⟧⟦{不満|ふまん}→不満：02497_fuman⟧⟦を→を：00422_wo⟧⟦{持|も}った→持つ：00478_motsu⟧⟦{会員|かいいん}→会員：02535_kaiin⟧⟦が→が：00051_ga⟧{相次|あいつ}いで{脱会|だっかい}⟦した→する：00392_suru⟧。",
       "english": "Members dissatisfied with the activity policies withdrew one after another.",
       "sense_numbers": [
         1
@@ -44,8 +44,30 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {脱|だつ} (escape, leave) and {会|かい} (association, group). Used for formal withdrawal from organized groups such as political parties, religious organizations, professional associations, or clubs.\n\nThe {脱|だつ} prefix conveys a sense of separating oneself from something, as seen in related compounds like {脱退|だったい} (withdrawal) and {脱党|だっとう} (leaving a political party).\n\nCOMMON COLLOCATIONS:\n- {脱会|だっかい}する: to withdraw from an organization\n- {脱会届|だっかいとどけ}: withdrawal notification form\n- {脱会|だっかい}の{手続|てつづ}き: withdrawal procedures\n- {脱会|だっかい}を{申|もう}し{出|で}る: to submit a withdrawal request\n\nSIMILAR WORDS:\n- {退会|たいかい}: leaving a group — the most common everyday word for canceling membership or leaving an organization; slightly less formal than {脱会|だっかい}\n- {脱退|だったい}: withdrawal — often used for larger-scale withdrawals such as leaving an international organization or union\n- {脱党|だっとう}: leaving a political party — specifically for departing from a political party\n- {入会|にゅうかい}: joining an organization — the opposite action, entering a group",
-  "cross_references": [],
+  "notes": "Composed of {脱|だつ} (escape, leave) and ⟦{会|かい}→会：27493_kai⟧ (association, group). Used for formal withdrawal from organized groups such as political parties, religious organizations, professional associations, or clubs.\n\nThe {脱|だつ} prefix conveys a sense of separating oneself from something, as seen in related compounds like ⟦{脱退|だったい}→脱退：05770_dattai⟧ (withdrawal) and {脱党|だっとう} (leaving a political party).\n\nCOMMON COLLOCATIONS:\n- {脱会|だっかい}⟦する→する：00392_suru⟧: to withdraw from an organization\n- {脱会届|だっかいとどけ}: withdrawal notification form\n- {脱会|だっかい}⟦の→の：09472_no⟧⟦{手続|てつづ}き→手続き：05453_tetsuzuki⟧: withdrawal procedures\n- {脱会|だっかい}⟦を→を：00422_wo⟧⟦{申|もう}し{出|で}る→申し出る：10465_moushideru⟧: to submit a withdrawal request\n\nSIMILAR WORDS:\n- ⟦{退会|たいかい}→退会：16082_taikai⟧: leaving a group — the most common everyday word for canceling membership or leaving an organization; slightly less formal than {脱会|だっかい}\n- ⟦{脱退|だったい}→脱退：05770_dattai⟧: withdrawal — often used for larger-scale withdrawals such as leaving an international organization or union\n- {脱党|だっとう}: leaving a political party — specifically for departing from a political party\n- ⟦{入会|にゅうかい}→入会：11671_nyuukai⟧: joining an organization — the opposite action, entering a group",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16082_taikai",
+      "reading": "たいかい",
+      "headword": "{退会|たいかい}",
+      "label": "leaving a group"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05770_dattai",
+      "reading": "だったい",
+      "headword": "{脱退|だったい}",
+      "label": "withdrawal"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11671_nyuukai",
+      "reading": "にゅうかい",
+      "headword": "{入会|にゅうかい}",
+      "label": "joining an organization"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -62,7 +84,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-29T14:38:51Z",
-    "modified": "2026-08-05T09:30:27Z"
+    "modified": "2026-09-02T04:02:25Z"
   },
   "conjugation": {
     "type": "suru",

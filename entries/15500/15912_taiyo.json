@@ -3,7 +3,7 @@
   "id": "15912_taiyo",
   "headword": "{貸与|たいよ}",
   "reading": "たいよ",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "lending, loan (formal)",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "15912_taiyo_ex1",
-      "japanese": "{会社|かいしゃ}からパソコンを{貸与|たいよ}された。",
+      "japanese": "⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦から→から：00504_kara⟧⟦パソコン→パソコン：01538_pasokon⟧⟦を→を：00422_wo⟧{貸与|たいよ}⟦された→する：00392_suru⟧。",
       "english": "I was provided a laptop by the company.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "15912_taiyo_ex2",
-      "japanese": "{奨学金|しょうがくきん}は{貸与|たいよ}{型|がた}と{給付|きゅうふ}{型|がた}がある。",
+      "japanese": "⟦{奨学金|しょうがくきん}→奨学金：03230_shougakukin⟧⟦は→は：00079_ha⟧{貸与|たいよ}{型|がた}⟦と→と：00512_to⟧⟦{給付|きゅうふ}→給付：13848_kyuufu⟧{型|がた}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There are loan-type and grant-type scholarships.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "15912_taiyo_ex3",
-      "japanese": "{社員|しゃいん}に{業務用|ぎょうむよう}のスマートフォンを{貸与|たいよ}し、{退職|たいしょく}の{際|さい}に{返却|へんきゃく}を{求|もと}めている。",
+      "japanese": "⟦{社員|しゃいん}→社員：03065_shain⟧⟦に→に：00314_ni⟧⟦{業務用|ぎょうむよう}→業務用：13148_gyoumuyou⟧⟦の→の：09472_no⟧⟦スマートフォン→スマートフォン：04434_sumaatofon⟧⟦を→を：00422_wo⟧{貸与|たいよ}し、⟦{退職|たいしょく}→退職：04559_taishoku⟧⟦の→の：09472_no⟧⟦{際|さい}→際：02819_sai⟧⟦に→に：00314_ni⟧⟦{返却|へんきゃく}→返却：03149_henkyaku⟧⟦を→を：00422_wo⟧⟦{求|もと}めている→求める：02316_motomeru⟧。",
       "english": "The company provides employees with work smartphones on loan and requires them to return them upon leaving.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE: {貸与|たいよ} is a formal word for lending, used in institutional and official contexts. It implies a temporary provision with the expectation of return, unlike {贈与|ぞうよ} (gift, grant).\n\nCOMMON COLLOCATIONS:\n- {貸与|たいよ}する: to lend, to provide on loan\n- {貸与|たいよ}される: to be provided on loan\n- {貸与|たいよ}{型|がた}{奨学金|しょうがくきん}: loan-type scholarship\n- {貸与|たいよ}{品|ひん}: loaned item, company-provided equipment\n\nSIMILAR WORDS:\n- {貸与|たいよ}: lending (formal, institutional)\n- {貸|か}し{出|だ}し: lending, checkout (library or equipment)\n- {融資|ゆうし}: financing, loan (monetary, from a bank)",
+  "notes": "USAGE: {貸与|たいよ} is a formal word for lending, used in institutional and official contexts. It implies a temporary provision with the expectation of return, unlike ⟦{贈与|ぞうよ}→贈与：27143_zouyo⟧ (gift, grant).\n\nCOMMON COLLOCATIONS:\n- {貸与|たいよ}⟦する→する：00392_suru⟧: to lend, to provide on loan\n- {貸与|たいよ}⟦される→する：00392_suru⟧: to be provided on loan\n- {貸与|たいよ}{型|がた}{奨学金|しょうがくきん}: loan-type scholarship\n- {貸与|たいよ}⟦{品|ひん}→品：03712_hin⟧: loaned item, company-provided equipment\n\nSIMILAR WORDS:\n- {貸与|たいよ}: lending (formal, institutional)\n- {貸|か}し{出|だ}し: lending, checkout (library or equipment)\n- ⟦{融資|ゆうし}→融資：04775_yuushi⟧: financing, loan (monetary, from a bank)",
   "cross_references": [
     {
       "type": "synonym",
@@ -160,7 +160,7 @@
   ],
   "metadata": {
     "created": "2026-03-08T14:03:06Z",
-    "modified": "2026-05-07T05:07:45Z",
+    "modified": "2026-09-02T04:01:43Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -179,7 +179,8 @@
       "semantic": [
         "business"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   },
   "prominent_see_also": [

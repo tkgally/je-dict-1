@@ -2,7 +2,7 @@
   "id": "03060_shishoku",
   "headword": "{試食|ししょく}",
   "reading": "ししょく",
-  "part_of_speech": "noun / suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "food sampling, tasting",
   "conjugation": {
     "type": "suru",
@@ -153,7 +153,7 @@
       ]
     }
   ],
-  "notes": "{試食|ししょく} combines ⟦{試|し}→試みる：01943_kokoromiru⟧ (try) + ⟦{食|しょく}→食べ物：noentry⟧ (eat).\n\nCOMMON PATTERNS:\n- {試食|ししょく}⟦する→する：00392_suru⟧ (to sample food)\n- {試食|ししょく}⟦コーナー→コーナー：10865_koonaa⟧ (tasting corner)\n- {試食|ししょく}⟦{品|ひん}→品：03712_hin⟧ (sample food)\n- {試食|ししょく}⟦{会|かい}→会：27493_kai⟧ (tasting event)\n\nRELATED COMPOUNDS:\n- ⟦{試飲|しいん}→試飲：08048_shiin⟧ (drink sampling)\n- ⟦{試着|しちゃく}→試着：07690_shichaku⟧ (trying on clothes)\n- ⟦{試乗|しじょう}→試乗：08448_shijou⟧ (test drive)\n- ⟦{試用|しよう}→試用：23966_shiyou⟧ (trial use)\n\nUSAGE NOTES:\n- Very common in Japanese supermarkets and department stores\n- Often offered on weekends and holidays to promote products",
+  "notes": "{試食|ししょく} combines ⟦{試|し}→試みる：01943_kokoromiru⟧ (try) + ⟦{食|しょく}→食べ物：noentry⟧ (eat).\n\nCOMMON PATTERNS:\n- {試食|ししょく}⟦する→する：00392_suru⟧ (to sample food)\n- {試食|ししょく}⟦コーナー→コーナー：10865_koonaa⟧ (tasting corner)\n- {試食|ししょく}⟦{品|ひん}→品：03712_hin⟧ (sample food)\n- {試食|ししょく}⟦{会|かい}→会：27493_kai⟧ (tasting event)\n\nCOMPOUNDS:\n- ⟦{試飲|しいん}→試飲：08048_shiin⟧ (drink sampling)\n- ⟦{試着|しちゃく}→試着：07690_shichaku⟧ (trying on clothes)\n- ⟦{試乗|しじょう}→試乗：08448_shijou⟧ (test drive)\n- ⟦{試用|しよう}→試用：23966_shiyou⟧ (trial use)\n\nUSAGE:\n- Very common in Japanese supermarkets and department stores\n- Often offered on weekends and holidays to promote products",
   "cross_references": [
     {
       "type": "related",
@@ -168,11 +168,32 @@
       "headword": "{味見|あじみ}",
       "label": "tasting while cooking; checking flavor",
       "target_id": "08158_ajimi"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04405_ajiwau",
+      "reading": "あじわう",
+      "headword": "{味|あじ}わう",
+      "label": "to taste, to savor"
+    },
+    {
+      "type": "related",
+      "target_id": "07690_shichaku",
+      "reading": "しちゃく",
+      "headword": "{試着|しちゃく}",
+      "label": "trying on clothes"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27222_tsumamigui",
+      "reading": "つまみぐい",
+      "headword": "つまみ{食|ぐ}い",
+      "label": "sneaking a taste"
     }
   ],
   "metadata": {
     "created": "2026-01-11T11:14:00Z",
-    "modified": "2026-05-23T18:11:35Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

@@ -15,41 +15,59 @@
   "examples": [
     {
       "id": "15439_hitaimen_ex1",
-      "japanese": "{非対面|ひたいめん}での{受|う}け{取|と}りが{可能|かのう}です。",
+      "japanese": "{非対面|ひたいめん}⟦で→で：00502_de⟧⟦の→の：09472_no⟧{受|う}け{取|と}り⟦が→が：00051_ga⟧⟦{可能|かのう}→可能：00175_kanou⟧です。",
       "english": "Contactless pickup is available.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15439_hitaimen_ex2",
-      "japanese": "{非対面|ひたいめん}{型|がた}の{営業|えいぎょう}スタイルが{増|ふ}えている。",
+      "japanese": "{非対面|ひたいめん}{型|がた}⟦の→の：09472_no⟧⟦{営業|えいぎょう}→営業：01878_eigyou⟧⟦スタイル→スタイル：03851_sutairu⟧⟦が→が：00051_ga⟧⟦{増|ふ}えている→増える：01183_fueru⟧。",
       "english": "Non-face-to-face sales styles are on the rise.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15439_hitaimen_ex3",
-      "japanese": "{感染|かんせん}{対策|たいさく}として、{非対面|ひたいめん}での{手続|てつづ}きをお{願|ねが}いしております。",
+      "japanese": "⟦{感染|かんせん}→感染：05977_kansen⟧⟦{対策|たいさく}→対策：02511_taisaku⟧⟦として→として：06802_toshite⟧、{非対面|ひたいめん}⟦で→で：00502_de⟧⟦の→の：09472_no⟧⟦{手続|てつづ}き→手続き：05453_tetsuzuki⟧⟦を→を：00422_wo⟧⟦お{願|ねが}いして→お願いする：05654_onegaisuru⟧⟦おります→おる：01324_oru⟧。",
       "english": "As an infection control measure, we ask that you complete procedures without face-to-face contact.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\n{非対面|ひたいめん} is used as a noun modifier (often with の or in compound form) to describe services, transactions, or interactions conducted remotely or without direct personal contact.\n\nCOMMON COLLOCATIONS:\n- {非対面|ひたいめん}での{対応|たいおう} (remote support)\n- {非対面|ひたいめん}{型|がた}サービス (contactless service)\n- {非対面|ひたいめん}{販売|はんばい} (non-face-to-face sales)\n\nCONTRAST:\nThe opposite is {対面|たいめん} (face-to-face, in-person). Both are common in business and administrative contexts.",
-  "cross_references": [],
+  "notes": "USAGE:\n{非対面|ひたいめん} is used as a noun modifier (often with ⟦の→の：09472_no⟧ or in compound form) to describe services, transactions, or interactions conducted remotely or without direct personal contact.\n\nCOMMON COLLOCATIONS:\n- {非対面|ひたいめん}⟦で→で：00502_de⟧⟦の→の：09472_no⟧⟦{対応|たいおう}→対応：02510_taiou⟧ (remote support)\n- {非対面|ひたいめん}{型|がた}⟦サービス→サービス：01531_saabisu⟧ (contactless service)\n- {非対面|ひたいめん}⟦{販売|はんばい}→販売：03573_hanbai⟧ (non-face-to-face sales)\n\nSIMILAR WORDS:\nThe opposite is ⟦{対面|たいめん}→対面：10377_taimen⟧ (face-to-face, in-person). Both are common in business and administrative contexts.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "15813_hisesshoku",
+      "reading": "ひせっしょく",
+      "headword": "{非接触|ひせっしょく}",
+      "label": "contactless"
+    }
+  ],
   "metadata": {
     "created": "2026-03-07T07:31:02Z",
-    "modified": "2026-03-07T07:31:02Z",
+    "modified": "2026-09-02T04:01:41Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["communication"]
+      "semantic": [
+        "communication"
+      ]
     }
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28180_meibamen_ex1",
-      "japanese": "この{映画|えいが}には{名場面|めいばめん}が{多|おお}い。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{映画|えいが}→映画：02273_eiga⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{名場面|めいばめん}⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "This movie has many famous scenes.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28180_meibamen_ex2",
-      "japanese": "あの{試合|しあい}の{逆転|ぎゃくてん}は{名場面|めいばめん}として{語|かた}り{継|つ}がれている。",
+      "japanese": "⟦あの→あの：00915_ano⟧⟦{試合|しあい}→試合：01601_shiai⟧⟦の→の：09472_no⟧⟦{逆転|ぎゃくてん}→逆転：06839_gyakuten⟧⟦は→は：00079_ha⟧{名場面|めいばめん}⟦として→として：06802_toshite⟧⟦{語|かた}り{継|つ}がれている→語り継ぐ：22312_kataritsugu⟧。",
       "english": "The comeback in that match is passed down as a memorable scene.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28180_meibamen_ex3",
-      "japanese": "{番組|ばんぐみ}の{最後|さいご}に、ドラマの{名場面|めいばめん}を{集|あつ}めた{特集|とくしゅう}が{放送|ほうそう}された。",
+      "japanese": "⟦{番組|ばんぐみ}→番組：01705_bangumi⟧⟦の→の：09472_no⟧⟦{最後|さいご}→最後：01413_saigo⟧⟦に→に：00314_ni⟧、⟦ドラマ→ドラマ：03867_dorama⟧⟦の→の：09472_no⟧{名場面|めいばめん}⟦を→を：00422_wo⟧⟦{集|あつ}めた→集める：01170_atsumeru⟧⟦{特集|とくしゅう}→特集：13468_tokushuu⟧⟦が→が：00051_ga⟧⟦{放送|ほうそう}→放送：02093_housou⟧⟦された→する：00392_suru⟧。",
       "english": "At the end of the program, a special collecting the drama's famous scenes was broadcast.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {名|めい} (famous, excellent) + {場面|ばめん} (scene). The prefix {名|めい} marks something as outstanding, as in {名|めい}{作|さく} (masterpiece) or {名|めい}{言|げん} (famous saying).\n\nCOMMON COLLOCATIONS:\n- {名場面|めいばめん}{集|しゅう}: collection of famous scenes\n- {数々|かずかず}の{名場面|めいばめん}: numerous memorable scenes\n- {名場面|めいばめん}を{振|ふ}り{返|かえ}る: to look back on the highlights\n\nSIMILAR WORDS:\n- {見|み}せ{場|ば}: highlight; showpiece moment — the part meant to impress, from the performer's side\n- ハイライト: highlights — borrowed word, often for sports or recap footage",
+  "notes": "Compound of {名|めい} (famous, excellent) + ⟦{場面|ばめん}→場面：03702_bamen⟧ (scene). The prefix {名|めい} marks something as outstanding, as in ⟦{名|めい}{作|さく}→名作：11869_meisaku⟧ (masterpiece) or ⟦{名|めい}{言|げん}→名言：20185_meigen⟧ (famous saying).\n\nCOMMON COLLOCATIONS:\n- {名場面|めいばめん}{集|しゅう}: collection of famous scenes\n- ⟦{数々|かずかず}→数々：12722_kazukazu⟧⟦の→の：09472_no⟧{名場面|めいばめん}: numerous memorable scenes\n- {名場面|めいばめん}⟦を→を：00422_wo⟧⟦{振|ふ}り{返|かえ}る→振り返る：04231_furikaeru⟧: to look back on the highlights\n\nSIMILAR WORDS:\n- ⟦{見|み}せ{場|ば}→見せ場：14112_miseba⟧: highlight; showpiece moment — the part meant to impress, from the performer's side\n- ハイライト: highlights — borrowed word, often for sports or recap footage",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14112_miseba",
+      "reading": "みせば",
+      "headword": "{見|み}せ{場|ば}",
+      "label": "highlight"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +62,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "entertainment"
       ],
       "domain": []
     },
     "created": "2026-05-27T02:07:43Z",
-    "modified": "2026-05-27T02:07:43Z"
+    "modified": "2026-09-02T04:02:32Z"
   }
 }

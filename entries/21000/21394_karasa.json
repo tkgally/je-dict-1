@@ -15,40 +15,66 @@
   "examples": [
     {
       "id": "21394_karasa_ex1",
-      "japanese": "{辛|から}さを{調整|ちょうせい}できますか。",
+      "japanese": "{辛|から}さ⟦を→を：00422_wo⟧⟦{調整|ちょうせい}→調整：14839_chousei⟧⟦できます→できる：00557_dekiru⟧⟦か→か：09473_ka⟧。",
       "english": "Can you adjust the spiciness?",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21394_karasa_ex2",
-      "japanese": "このカレーは{辛|から}さが{控|ひか}えめで{食|た}べやすい。",
+      "japanese": "⟦この→この：00962_kono⟧⟦カレー→カレー：02898_karee⟧⟦は→は：00079_ha⟧{辛|から}さ⟦が→が：00051_ga⟧⟦{控|ひか}えめ→控えめ：17234_hikaeme⟧で⟦{食|た}べやすい→食べやすい：21799_tabeyasui⟧。",
       "english": "This curry has mild spiciness and is easy to eat.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21394_karasa_ex3",
-      "japanese": "{唐辛子|とうがらし}の{辛|から}さは{品種|ひんしゅ}によって{大|おお}きく{異|こと}なり、マイルドなものから{激辛|げきから}までさまざまだ。",
+      "japanese": "⟦{唐辛子|とうがらし}→唐辛子：11871_tougarashi⟧⟦の→の：09472_no⟧{辛|から}さ⟦は→は：00079_ha⟧⟦{品種|ひんしゅ}→品種：11840_hinshu⟧⟦によって→によって：06801_niyotte⟧⟦{大|おお}きく→大きい：00335_ookii⟧⟦{異|こと}なり→異なる：02101_kotonaru⟧、マイルドなもの⟦から→から：00504_kara⟧⟦{激辛|げきから}→激辛：19465_gekikara⟧⟦まで→まで：00490_made⟧さまざまだ。",
       "english": "The spiciness of chili peppers varies greatly depending on the variety, ranging from mild to extremely hot.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "The noun form of the adjective {辛|から}い (spicy/hot). Describes the quality or degree of spiciness in food. Formed by dropping the い ending and adding さ.\n\nCOMMON COLLOCATIONS:\n- {辛|から}さを{調整|ちょうせい}する: to adjust the spiciness\n- {辛|から}さ{控|ひか}えめ: mild spiciness\n- {辛|から}さが{足|た}りない: not spicy enough\n- {辛|から}さレベル: spiciness level\n\nUSAGE:\nRestaurants often let customers choose their preferred {辛|から}さ level. Common scales include {甘口|あまくち} (mild), {中辛|ちゅうから} (medium), {辛口|からくち} (hot), and {激辛|げきから} (extremely hot).\n\nSIMILAR WORDS:\n- {甘|あま}さ: sweetness — the noun form of {甘|あま}い\n- {苦|にが}さ: bitterness — the noun form of {苦|にが}い\n- {酸|す}っぱさ: sourness — the noun form of {酸|す}っぱい",
+  "notes": "The noun form of the adjective ⟦{辛|から}い→辛い：00638_karai⟧ (spicy/hot). Describes the quality or degree of spiciness in food. Formed by dropping the い ending and adding さ.\n\nCOMMON COLLOCATIONS:\n- {辛|から}さ⟦を→を：00422_wo⟧⟦{調整|ちょうせい}する→調整する：10442_chouseisuru⟧: to adjust the spiciness\n- {辛|から}さ⟦{控|ひか}えめ→控えめ：17234_hikaeme⟧: mild spiciness\n- {辛|から}さ⟦が→が：00051_ga⟧⟦{足|た}りない→足りる：01209_tariru⟧: not spicy enough\n- {辛|から}さ⟦レベル→レベル：00352_reberu⟧: spiciness level\n\nUSAGE:\nRestaurants often let customers choose their preferred {辛|から}さ level. Common scales include ⟦{甘口|あまくち}→甘口：18197_amakuchi⟧ (mild), ⟦{中辛|ちゅうから}→中辛：18488_chuukara⟧ (medium), ⟦{辛口|からくち}→辛口：18794_karakuchi⟧ (hot), and ⟦{激辛|げきから}→激辛：19465_gekikara⟧ (extremely hot).\n\nSIMILAR WORDS:\n- {甘|あま}さ: sweetness — the noun form of ⟦{甘|あま}い→甘い：00617_amai⟧\n- {苦|にが}さ: bitterness — the noun form of ⟦{苦|にが}い→苦い：01201_nigai⟧\n- {酸|す}っぱさ: sourness — the noun form of {酸|す}っぱい",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21344_amasa",
+      "reading": "あまさ",
+      "headword": "{甘|あま}さ",
+      "label": "sweetness"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14292_karami",
+      "reading": "からみ",
+      "headword": "{辛味|からみ}",
+      "label": "spiciness"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food"]
+      "semantic": [
+        "food"
+      ]
     },
     "created": "2026-04-02T02:46:34Z",
-    "modified": "2026-04-02T02:46:34Z"
+    "modified": "2026-09-02T04:02:03Z"
   }
 }

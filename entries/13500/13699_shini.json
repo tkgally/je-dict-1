@@ -15,41 +15,73 @@
   "examples": [
     {
       "id": "13699_shini_ex1",
-      "japanese": "{彼|かれ}の{真意|しんい}がわからない。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧{真意|しんい}⟦が→が：00051_ga⟧わからない。",
       "english": "I can't understand his true intention.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13699_shini_ex2",
-      "japanese": "その{発言|はつげん}の{真意|しんい}を{探|さぐ}ろうとした。",
+      "japanese": "⟦その→その：00993_sono⟧⟦{発言|はつげん}→発言：05099_hatsugen⟧⟦の→の：09472_no⟧{真意|しんい}⟦を→を：00422_wo⟧⟦{探|さぐ}ろう→探る：03923_saguru⟧とした。",
       "english": "I tried to probe the real meaning behind that remark.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13699_shini_ex3",
-      "japanese": "{真意|しんい}が{伝|つた}わらず、{誤解|ごかい}を{招|まね}いてしまった。",
+      "japanese": "{真意|しんい}⟦が→が：00051_ga⟧⟦{伝|つた}わら→伝わる：01961_tsutawaru⟧ず、⟦{誤解|ごかい}→誤解：02769_gokai⟧⟦を→を：00422_wo⟧⟦{招|まね}いて→招く：02425_maneku⟧しまった。",
       "english": "My true intention didn't come across, and it led to a misunderstanding.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nUsed when referring to the genuine intention or underlying meaning that may not be immediately apparent. Often appears in contexts involving communication difficulties, political statements, or interpersonal misunderstandings.\n\nCOMMON COLLOCATIONS:\n- {真意|しんい}を{探|さぐ}る: to probe someone's true intention\n- {真意|しんい}を{問|と}う: to question the real meaning\n- {真意|しんい}が{伝|つた}わる: for one's true intention to be conveyed\n- {真意|しんい}を{測|はか}りかねる: to be unable to gauge the true intention",
-  "cross_references": [],
+  "notes": "USAGE:\nUsed when referring to the genuine intention or underlying meaning that may not be immediately apparent. Often appears in contexts involving communication difficulties, political statements, or interpersonal misunderstandings.\n\nCOMMON COLLOCATIONS:\n- {真意|しんい}⟦を→を：00422_wo⟧⟦{探|さぐ}る→探る：03923_saguru⟧: to probe someone's true intention\n- {真意|しんい}⟦を→を：00422_wo⟧⟦{問|と}う→問う：02299_tou⟧: to question the real meaning\n- {真意|しんい}⟦が→が：00051_ga⟧⟦{伝|つた}わる→伝わる：01961_tsutawaru⟧: for one's true intention to be conveyed\n- {真意|しんい}⟦を→を：00422_wo⟧⟦{測|はか}り→測る：01977_hakaru⟧かねる: to be unable to gauge the true intention",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12864_honshin",
+      "reading": "ほんしん",
+      "headword": "{本心|ほんしん}",
+      "label": "true feelings, real intentions"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17513_naii",
+      "reading": "ないい",
+      "headword": "{内意|ないい}",
+      "label": "real intention"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22651_honi",
+      "reading": "ほんい",
+      "headword": "{本意|ほんい}",
+      "label": "real intention"
+    }
+  ],
   "metadata": {
     "created": "2026-02-26T13:29:58Z",
-    "modified": "2026-02-26T13:29:58Z",
+    "modified": "2026-09-02T04:01:34Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["cognition"]
+      "semantic": [
+        "cognition"
+      ]
     }
   }
 }

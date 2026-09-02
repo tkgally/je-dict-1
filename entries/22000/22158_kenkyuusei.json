@@ -15,40 +15,66 @@
   "examples": [
     {
       "id": "22158_kenkyuusei_ex1",
-      "japanese": "{大学|だいがく}の{研究生|けんきゅうせい}になる。",
+      "japanese": "⟦{大学|だいがく}→大学：00608_daigaku⟧⟦の→の：09472_no⟧{研究生|けんきゅうせい}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧。",
       "english": "To become a research student at a university.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "22158_kenkyuusei_ex2",
-      "japanese": "{研究生|けんきゅうせい}として{一年間|いちねんかん}{日本|にほん}の{大学|だいがく}に{在籍|ざいせき}した。",
+      "japanese": "{研究生|けんきゅうせい}⟦として→として：06802_toshite⟧⟦{一年間|いちねんかん}→一年間：28882_ichinenkan⟧⟦{日本|にほん}→日本：03876_nihon⟧⟦の→の：09472_no⟧⟦{大学|だいがく}→大学：00608_daigaku⟧⟦に→に：00314_ni⟧⟦{在籍|ざいせき}→在籍：21436_zaiseki⟧⟦した→する：00392_suru⟧。",
       "english": "I was enrolled at a Japanese university as a research student for one year.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "22158_kenkyuusei_ex3",
-      "japanese": "{多|おお}くの{留学生|りゅうがくせい}は、まず{研究生|けんきゅうせい}として{来日|らいにち}し、その{後|あと}{大学院|だいがくいん}に{進学|しんがく}する。",
+      "japanese": "{多|おお}く⟦の→の：09472_no⟧⟦{留学生|りゅうがくせい}→留学生：02986_ryuugakusei⟧⟦は→は：00079_ha⟧、⟦まず→まず：00796_mazu⟧{研究生|けんきゅうせい}⟦として→として：06802_toshite⟧⟦{来日|らいにち}→来日：13060_rainichi⟧し、⟦その→その：00993_sono⟧⟦{後|あと}→後：09580_ato⟧⟦{大学院|だいがくいん}→大学院：04783_daigakuin⟧⟦に→に：00314_ni⟧⟦{進学|しんがく}→進学：03256_shingaku⟧⟦する→する：00392_suru⟧。",
       "english": "Many international students first come to Japan as research students and then advance to graduate school.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "In the Japanese university system, a {研究生|けんきゅうせい} is a special status for individuals who want to study or do research at a university without being enrolled in a degree program. This is distinct from a {大学院生|だいがくいんせい} (graduate student).\n\nCOMMON COLLOCATIONS:\n- {研究生|けんきゅうせい}{制度|せいど}: research student system\n- {研究生|けんきゅうせい}として{在籍|ざいせき}する: to be enrolled as a research student\n- {研究生|けんきゅうせい}{期間|きかん}: research student period\n\nSIMILAR WORDS:\n- {大学院生|だいがくいんせい}: graduate student — enrolled in a formal master's or doctoral program\n- {聴講生|ちょうこうせい}: auditor — attends lectures but does not earn credits\n- {留学生|りゅうがくせい}: international student — refers to nationality status, not enrollment type\n\nCULTURAL NOTE:\nThe {研究生|けんきゅうせい} system is particularly important for international students coming to Japan. Many use this period (typically 6 months to 2 years) to improve their Japanese, prepare for entrance exams, and build a relationship with their prospective supervisor.",
+  "notes": "In the Japanese university system, a {研究生|けんきゅうせい} is a special status for individuals who want to study or do research at a university without being enrolled in a degree program. This is distinct from a ⟦{大学院生|だいがくいんせい}→大学院生：20627_daigakuinsei⟧ (graduate student).\n\nCOMMON COLLOCATIONS:\n- {研究生|けんきゅうせい}⟦{制度|せいど}→制度：03291_seido⟧: research student system\n- {研究生|けんきゅうせい}⟦として→として：06802_toshite⟧⟦{在籍|ざいせき}→在籍：21436_zaiseki⟧⟦する→する：00392_suru⟧: to be enrolled as a research student\n- {研究生|けんきゅうせい}⟦{期間|きかん}→期間：00229_kikan⟧: research student period\n\nSIMILAR WORDS:\n- ⟦{大学院生|だいがくいんせい}→大学院生：20627_daigakuinsei⟧: graduate student — enrolled in a formal master's or doctoral program\n- {聴講生|ちょうこうせい}: auditor — attends lectures but does not earn credits\n- ⟦{留学生|りゅうがくせい}→留学生：02986_ryuugakusei⟧: international student — refers to nationality status, not enrollment type\n\nCULTURAL NOTE:\nThe {研究生|けんきゅうせい} system is particularly important for international students coming to Japan. Many use this period (typically 6 months to 2 years) to improve their Japanese, prepare for entrance exams, and build a relationship with their prospective supervisor.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20627_daigakuinsei",
+      "reading": "だいがくいんせい",
+      "headword": "{大学院生|だいがくいんせい}",
+      "label": "graduate student"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02986_ryuugakusei",
+      "reading": "りゅうがくせい",
+      "headword": "{留学生|りゅうがくせい}",
+      "label": "international student"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["education"]
+      "semantic": [
+        "education"
+      ]
     },
     "created": "2026-04-05T04:04:40Z",
-    "modified": "2026-06-15T07:58:48Z"
+    "modified": "2026-09-02T04:02:06Z"
   }
 }

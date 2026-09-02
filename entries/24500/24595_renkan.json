@@ -3,7 +3,7 @@
   "headword": "{連関|れんかん}",
   "reading": "れんかん",
   "romaji": "renkan",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "connection; interrelation; correlation; linkage",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24595_renkan_ex1",
-      "japanese": "{二|ふた}つの{事件|じけん}には{連関|れんかん}がある。",
+      "japanese": "⟦{二|ふた}つ→二つ：02953_futatsu⟧⟦の→の：09472_no⟧⟦{事件|じけん}→事件：01568_jiken⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{連関|れんかん}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There is a connection between the two incidents.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24595_renkan_ex2",
-      "japanese": "{経済|けいざい}と{政治|せいじ}は{密接|みっせつ}に{連関|れんかん}している。",
+      "japanese": "⟦{経済|けいざい}→経済：01394_keizai⟧⟦と→と：00512_to⟧⟦{政治|せいじ}→政治：01629_seiji⟧⟦は→は：00079_ha⟧⟦{密接|みっせつ}→密接：12289_missetsu⟧⟦に→に：00314_ni⟧{連関|れんかん}⟦している→する：00392_suru⟧。",
       "english": "Economics and politics are closely interrelated.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24595_renkan_ex3",
-      "japanese": "この{研究|けんきゅう}は{環境問題|かんきょうもんだい}と{健康被害|けんこうひがい}の{連関|れんかん}を{明|あき}らかにしようとしている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{研究|けんきゅう}→研究：01396_kenkyuu⟧⟦は→は：00079_ha⟧⟦{環境問題|かんきょうもんだい}→環境問題：10136_kankyoumondai⟧⟦と→と：00512_to⟧{健康被害|けんこうひがい}⟦の→の：09472_no⟧{連関|れんかん}⟦を→を：00422_wo⟧⟦{明|あき}らかにしよう→明らかにする：22256_akirakanisuru⟧⟦として→として：06802_toshite⟧⟦いる→いる：00495_iru⟧。",
       "english": "This research aims to clarify the interrelation between environmental problems and health damage.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "A formal, academic term for the mutual connection or interrelation between things. Frequently used in scholarly writing, research, and analysis. More formal than {関係|かんけい} or {関連|かんれん}, with an emphasis on the mutual or structural nature of the connection.\n\nCOMMON COLLOCATIONS:\n- {連関|れんかん}がある: to be connected\n- {連関|れんかん}を{示|しめ}す: to show a correlation\n- {密接|みっせつ}な{連関|れんかん}: close interrelation\n- {相互|そうご}{連関|れんかん}: mutual interrelation\n\nSIMILAR WORDS:\n- {関連|かんれん}: relation, connection — more common and less formal\n- {関係|かんけい}: relationship — broadest and most everyday term\n- {相関|そうかん}: correlation — more specifically statistical or quantitative",
+  "notes": "A formal, academic term for the mutual connection or interrelation between things. Frequently used in scholarly writing, research, and analysis. More formal than ⟦{関係|かんけい}→関係：01298_kankei⟧ or ⟦{関連|かんれん}→関連：00177_kanren⟧, with an emphasis on the mutual or structural nature of the connection.\n\nCOMMON COLLOCATIONS:\n- {連関|れんかん}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧: to be connected\n- {連関|れんかん}⟦を→を：00422_wo⟧⟦{示|しめ}す→示す：01948_shimesu⟧: to show a correlation\n- ⟦{密接|みっせつ}→密接：12289_missetsu⟧な{連関|れんかん}: close interrelation\n- ⟦{相互|そうご}→相互：04045_sougo⟧{連関|れんかん}: mutual interrelation\n\nSIMILAR WORDS:\n- ⟦{関連|かんれん}→関連：00177_kanren⟧: relation, connection — more common and less formal\n- ⟦{関係|かんけい}→関係：01298_kankei⟧: relationship — broadest and most everyday term\n- ⟦{相関|そうかん}→相関：10001_soukan⟧: correlation — more specifically statistical or quantitative",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00177_kanren",
+      "reading": "かんれん",
+      "headword": "{関連|かんれん}",
+      "label": "relation, connection"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01298_kankei",
+      "reading": "かんけい",
+      "headword": "{関係|かんけい}",
+      "label": "relationship"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10001_soukan",
+      "reading": "そうかん",
+      "headword": "{相関|そうかん}",
+      "label": "correlation"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -64,7 +87,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-19T16:26:45Z",
-    "modified": "2026-08-03T09:25:07Z"
+    "modified": "2026-09-02T04:02:18Z"
   },
   "conjugation": {
     "type": "suru",

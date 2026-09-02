@@ -19,7 +19,7 @@
   "examples": [
     {
       "id": "08028_katasukashi_ex1",
-      "japanese": "{肩透|かたすか}かしを{食|く}らった。",
+      "japanese": "{肩透|かたすか}かし⟦を→を：00422_wo⟧{食|く}らった。",
       "english": "I was let down / disappointed.",
       "sense_numbers": [
         1
@@ -29,7 +29,7 @@
     },
     {
       "id": "08028_katasukashi_ex2",
-      "japanese": "{期待|きたい}していたのに{肩透|かたすか}かしだった。",
+      "japanese": "⟦{期待|きたい}していた→期待する：06065_kitaisuru⟧⟦の→の：09472_no⟧⟦に→に：00314_ni⟧{肩透|かたすか}かしだった。",
       "english": "I was expecting something, but it was a letdown.",
       "sense_numbers": [
         1
@@ -39,7 +39,7 @@
     },
     {
       "id": "08028_katasukashi_ex3",
-      "japanese": "{彼|かれ}の{返事|へんじ}は{肩透|かたすか}かしだった。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧⟦{返事|へんじ}→返事：00844_henji⟧⟦は→は：00079_ha⟧{肩透|かたすか}かしだった。",
       "english": "His response was disappointing / evasive.",
       "sense_numbers": [
         1
@@ -49,7 +49,7 @@
     },
     {
       "id": "08028_katasukashi_ex4",
-      "japanese": "{相撲|すもう}で{肩透|かたすか}かしを{決|き}める。",
+      "japanese": "⟦{相撲|すもう}→相撲：00390_sumou⟧⟦で→で：00502_de⟧{肩透|かたすか}かし⟦を→を：00422_wo⟧⟦{決|き}める→決める：00858_kimeru⟧。",
       "english": "To execute a shoulder dodge in sumo.",
       "sense_numbers": [
         2
@@ -59,7 +59,7 @@
     },
     {
       "id": "08028_katasukashi_ex5",
-      "japanese": "{立|た}ち{合|あ}いで{肩透|かたすか}かしを{狙|ねら}う。",
+      "japanese": "{立|た}ち{合|あ}い⟦で→で：00502_de⟧{肩透|かたすか}かし⟦を→を：00422_wo⟧⟦{狙|ねら}う→狙う：00313_nerau⟧。",
       "english": "To aim for a shoulder dodge at the initial charge.",
       "sense_numbers": [
         2
@@ -69,7 +69,7 @@
     },
     {
       "id": "08028_katasukashi_ex6",
-      "japanese": "{見事|みごと}な{肩透|かたすか}かしで{勝利|しょうり}した。",
+      "japanese": "⟦{見事|みごと}→見事：03744_migoto⟧な{肩透|かたすか}かし⟦で→で：00502_de⟧⟦{勝利|しょうり}→勝利：11795_shouri⟧⟦した→する：00392_suru⟧。",
       "english": "Won with a splendid shoulder dodge.",
       "sense_numbers": [
         2
@@ -78,7 +78,7 @@
       "notes": null
     }
   ],
-  "notes": "{肩透|かたすか}かし comes from sumo but is commonly used figuratively.\n\nKANJI BREAKDOWN:\n- {肩|かた} (shoulder)\n- {透|すか}かし (letting through, dodging)\n\nETYMOLOGY:\nOriginally a sumo technique where a wrestler sidesteps at the initial charge ({立|た}ち{合|あ}い), causing the opponent to miss and lose balance.\n\nSENSE 1 (Figurative - disappointment):\n- {肩透|かたすか}かしを{食|く}う/くらう (to be let down)\n- {肩透|かたすか}かしを{食|く}わせる (to let someone down)\n\nSENSE 2 (Sumo technique):\nOne of the official winning techniques ({決|き}まり{手|て}) in sumo.\n\nSIMILAR EXPRESSIONS:\n- {拍子抜|ひょうしぬ}け (anticlimax)\n- がっかり (disappointment)\n- {期待|きたい}はずれ (unmet expectations)",
+  "notes": "{肩透|かたすか}かし comes from sumo but is commonly used figuratively.\n\nWRITING:\n- ⟦{肩|かた}→肩：02192_kata⟧ (shoulder)\n- {透|すか}かし (letting through, dodging)\n\nETYMOLOGY:\nOriginally a sumo technique where a wrestler sidesteps at the initial charge ({立|た}ち{合|あ}い), causing the opponent to miss and lose balance.\n\nSENSE 1 (Figurative - disappointment):\n- {肩透|かたすか}かし⟦を→を：00422_wo⟧⟦{食|く}う→食う：02657_kuu⟧/くらう (to be let down)\n- {肩透|かたすか}かし⟦を→を：00422_wo⟧⟦{食|く}わせる→食う：02657_kuu⟧ (to let someone down)\n\nSENSE 2 (Sumo technique):\nOne of the official winning techniques ({決|き}まり{手|て}) in sumo.\n\nSIMILAR WORDS:\n- ⟦{拍子抜|ひょうしぬ}け→拍子抜け：17589_hyoushinuke⟧ (anticlimax)\n- ⟦がっかり→がっかり：00054_gakkari⟧ (disappointment)\n- ⟦{期待|きたい}→期待：00238_kitai⟧はずれ (unmet expectations)",
   "cross_references": [
     {
       "type": "synonym",
@@ -86,6 +86,13 @@
       "headword": "{拍子抜|ひょうしぬ}け",
       "label": "anticlimax",
       "target_id": "17589_hyoushinuke"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23139_kitaihazure",
+      "reading": "きたいはずれ",
+      "headword": "{期待外|きたいはず}れ",
+      "label": "disappointment"
     }
   ],
   "metadata": {
@@ -95,12 +102,13 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "emotion",
         "sports"
       ]
     },
     "created": "2026-01-25T00:32:35Z",
-    "modified": "2026-08-11T09:37:41Z"
+    "modified": "2026-09-02T04:01:13Z"
   }
 }

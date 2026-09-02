@@ -15,41 +15,66 @@
   "examples": [
     {
       "id": "13850_sokou_ex1",
-      "japanese": "{素行|そこう}が{悪|わる}い。",
+      "japanese": "{素行|そこう}⟦が→が：00051_ga⟧⟦{悪|わる}い→悪い：00908_warui⟧。",
       "english": "His conduct is bad.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13850_sokou_ex2",
-      "japanese": "{素行|そこう}{調査|ちょうさ}を{依頼|いらい}した。",
+      "japanese": "{素行|そこう}⟦{調査|ちょうさ}→調査：03489_chousa⟧⟦を→を：00422_wo⟧⟦{依頼|いらい}した→依頼する：21376_irai⟧。",
       "english": "I requested a background investigation.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13850_sokou_ex3",
-      "japanese": "{彼|かれ}は{素行|そこう}に{問題|もんだい}があるとして{注意|ちゅうい}を{受|う}けた。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{素行|そこう}⟦に→に：00314_ni⟧⟦{問題|もんだい}→問題：00797_mondai⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧⟦として→として：06802_toshite⟧⟦{注意|ちゅうい}→注意：01464_chuui⟧⟦を→を：00422_wo⟧⟦{受|う}けた→受ける：01215_ukeru⟧。",
       "english": "He received a warning for having problems with his conduct.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nOften appears in negative contexts, especially in the collocation {素行|そこう}が{悪|わる}い (bad conduct). Also common in the compound {素行|そこう}{調査|ちょうさ} (background investigation), which refers to investigating someone's daily behavior and character.\n\nSIMILAR WORDS:\n- {行儀|ぎょうぎ}: manners (focus on etiquette and politeness)\n- {品行|ひんこう}: moral conduct (more literary)\n- {行状|ぎょうじょう}: conduct, behavior (formal, often historical)\n\nCOMMON COLLOCATIONS:\n- {素行|そこう}が{悪|わる}い: have bad conduct\n- {素行|そこう}{調査|ちょうさ}: background investigation\n- {素行|そこう}に{問題|もんだい}がある: have conduct problems\n- {素行|そこう}{不良|ふりょう}: misconduct, delinquency",
-  "cross_references": [],
+  "notes": "USAGE:\nOften appears in negative contexts, especially in the collocation {素行|そこう}⟦が→が：00051_ga⟧⟦{悪|わる}い→悪い：00908_warui⟧ (bad conduct). Also common in the compound {素行|そこう}⟦{調査|ちょうさ}→調査：03489_chousa⟧ (background investigation), which refers to investigating someone's daily behavior and character.\n\nSIMILAR WORDS:\n- ⟦{行儀|ぎょうぎ}→行儀：02662_gyougi⟧: manners (focus on etiquette and politeness)\n- ⟦{品行|ひんこう}→品行：20499_hinkou⟧: moral conduct (more literary)\n- {行状|ぎょうじょう}: conduct, behavior (formal, often historical)\n\nCOMMON COLLOCATIONS:\n- {素行|そこう}⟦が→が：00051_ga⟧⟦{悪|わる}い→悪い：00908_warui⟧: have bad conduct\n- {素行|そこう}⟦{調査|ちょうさ}→調査：03489_chousa⟧: background investigation\n- {素行|そこう}⟦に→に：00314_ni⟧⟦{問題|もんだい}→問題：00797_mondai⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧: have conduct problems\n- {素行|そこう}⟦{不良|ふりょう}→不良：11320_furyou⟧: misconduct, delinquency",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02662_gyougi",
+      "reading": "ぎょうぎ",
+      "headword": "{行儀|ぎょうぎ}",
+      "label": "manners"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20499_hinkou",
+      "reading": "ひんこう",
+      "headword": "{品行|ひんこう}",
+      "label": "moral conduct"
+    }
+  ],
   "metadata": {
     "created": "2026-02-27T05:42:06Z",
-    "modified": "2026-02-27T05:42:06Z",
+    "modified": "2026-09-02T04:01:34Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

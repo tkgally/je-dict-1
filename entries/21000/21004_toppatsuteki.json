@@ -15,40 +15,73 @@
   "examples": [
     {
       "id": "21004_toppatsuteki_ex1",
-      "japanese": "{突発的|とっぱつてき}な{事故|じこ}が{起|お}きた。",
+      "japanese": "{突発的|とっぱつてき}な⟦{事故|じこ}→事故：00851_jiko⟧⟦が→が：00051_ga⟧⟦{起|お}きた→起きる：00521_okiru⟧。",
       "english": "A sudden accident occurred.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21004_toppatsuteki_ex2",
-      "japanese": "{突発的|とっぱつてき}な{出費|しゅっぴ}に{備|そな}えて{貯金|ちょきん}している。",
+      "japanese": "{突発的|とっぱつてき}な⟦{出費|しゅっぴ}→出費：09205_shuppi⟧⟦に→に：00314_ni⟧⟦{備|そな}えて→備える：02125_sonaeru⟧⟦{貯金|ちょきん}→貯金：03497_chokin⟧⟦している→する：00392_suru⟧。",
       "english": "I'm saving money in case of unexpected expenses.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21004_toppatsuteki_ex3",
-      "japanese": "{突発的|とっぱつてき}に{発生|はっせい}した{停電|ていでん}で、{会議|かいぎ}が{中断|ちゅうだん}された。",
+      "japanese": "{突発的|とっぱつてき}⟦に→に：00314_ni⟧⟦{発生|はっせい}した→発生する：25529_hasseisuru⟧⟦{停電|ていでん}→停電：03544_teiden⟧⟦で→で：00502_de⟧、⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦が→が：00051_ga⟧⟦{中断|ちゅうだん}→中断：05218_chuudan⟧⟦された→する：00392_suru⟧。",
       "english": "The meeting was interrupted by a sudden power outage.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Formed from {突発|とっぱつ} (sudden occurrence) + {的|てき} (characteristic of). Describes events that happen abruptly and without any prior signs or planning. Commonly used in news, official reports, and everyday conversation about unexpected situations.\n\nCOMMON COLLOCATIONS:\n- {突発的|とっぱつてき}な{事故|じこ}: sudden accident\n- {突発的|とっぱつてき}な{出来事|できごと}: unexpected event\n- {突発的|とっぱつてき}に{発生|はっせい}する: to occur suddenly\n- {突発的|とっぱつてき}な{行動|こうどう}: impulsive action\n\nSIMILAR WORDS:\n- {急|きゅう}な: sudden, abrupt — more colloquial and broader in usage\n- {偶発的|ぐうはつてき}: accidental, incidental — emphasizes chance rather than suddenness\n- {計画的|けいかくてき}: planned, deliberate — the opposite, describing premeditated actions",
+  "notes": "Formed from ⟦{突発|とっぱつ}→突発：15656_toppatsu⟧ (sudden occurrence) + ⟦{的|てき}→〜的：09839_teki⟧ (characteristic of). Describes events that happen abruptly and without any prior signs or planning. Commonly used in news, official reports, and everyday conversation about unexpected situations.\n\nCOMMON COLLOCATIONS:\n- {突発的|とっぱつてき}な⟦{事故|じこ}→事故：00851_jiko⟧: sudden accident\n- {突発的|とっぱつてき}な⟦{出来事|できごと}→出来事：03446_dekigoto⟧: unexpected event\n- {突発的|とっぱつてき}⟦に→に：00314_ni⟧⟦{発生|はっせい}する→発生する：25529_hasseisuru⟧: to occur suddenly\n- {突発的|とっぱつてき}な⟦{行動|こうどう}→行動：02728_koudou⟧: impulsive action\n\nSIMILAR WORDS:\n- ⟦{急|きゅう}→急：13042_kyuu⟧な: sudden, abrupt — more colloquial and broader in usage\n- {偶発的|ぐうはつてき}: accidental, incidental — emphasizes chance rather than suddenness\n- ⟦{計画的|けいかくてき}→計画的：21003_keikakuteki⟧: planned, deliberate — the opposite, describing premeditated actions",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13042_kyuu",
+      "reading": "きゅう",
+      "headword": "{急|きゅう}",
+      "label": "sudden, abrupt"
+    },
+    {
+      "type": "antonym",
+      "target_id": "21003_keikakuteki",
+      "reading": "けいかくてき",
+      "headword": "{計画的|けいかくてき}",
+      "label": "planned, deliberate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23821_hossateki",
+      "reading": "ほっさてき",
+      "headword": "{発作的|ほっさてき}",
+      "label": "fit-like"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-na"],
+      "pos": [
+        "adjective-na"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["abstract"]
+      "semantic": [
+        "abstract"
+      ]
     },
     "created": "2026-03-31T14:07:40Z",
-    "modified": "2026-03-31T14:07:40Z"
+    "modified": "2026-09-02T04:02:01Z"
   }
 }

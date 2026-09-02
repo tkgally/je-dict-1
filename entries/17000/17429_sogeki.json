@@ -3,7 +3,7 @@
   "id": "17429_sogeki",
   "headword": "{狙撃|そげき}",
   "reading": "そげき",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "sniping, shooting",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "17429_sogeki_ex1",
-      "japanese": "{犯人|はんにん}はビルの{屋上|おくじょう}から{狙撃|そげき}した。",
+      "japanese": "⟦{犯人|はんにん}→犯人：03572_hannin⟧⟦は→は：00079_ha⟧⟦ビル→ビル：01500_biru⟧⟦の→の：09472_no⟧⟦{屋上|おくじょう}→屋上：01341_okujou⟧⟦から→から：00504_kara⟧{狙撃|そげき}⟦した→する：00392_suru⟧。",
       "english": "The perpetrator sniped from the rooftop of a building.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "17429_sogeki_ex2",
-      "japanese": "{狙撃|そげき}{手|しゅ}がビルに{配置|はいち}された。",
+      "japanese": "{狙撃|そげき}{手|しゅ}⟦が→が：00051_ga⟧⟦ビル→ビル：01500_biru⟧⟦に→に：00314_ni⟧⟦{配置|はいち}→配置：14409_haichi⟧⟦された→する：00392_suru⟧。",
       "english": "Snipers were positioned in the building.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "17429_sogeki_ex3",
-      "japanese": "{大統領|だいとうりょう}が{狙撃|そげき}されたというニュースが{世界中|せかいじゅう}を{駆|か}け{巡|めぐ}った。",
+      "japanese": "⟦{大統領|だいとうりょう}→大統領：03418_daitouryou⟧⟦が→が：00051_ga⟧{狙撃|そげき}⟦された→する：00392_suru⟧⟦という→という：09577_toiu⟧⟦ニュース→ニュース：04437_nyuusu⟧⟦が→が：00051_ga⟧⟦{世界中|せかいじゅう}→世界中：10171_sekaijuu⟧⟦を→を：00422_wo⟧⟦{駆|か}け{巡|めぐ}った→駆け巡る：08322_kakemeguru⟧。",
       "english": "News that the president had been shot spread around the world.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nAppears frequently in news reports, military contexts, and fiction (movies, games, novels). Implies a targeted, precise shot from a distance or concealed position.\n\nCOMMON COLLOCATIONS:\n- {狙撃|そげき}{手|しゅ} (sniper)\n- {狙撃|そげき}{銃|じゅう} (sniper rifle)\n- {狙撃|そげき}される (to be shot/sniped)\n- {狙撃|そげき}{事件|じけん} (shooting incident)\n\nSIMILAR WORDS:\n- {射撃|しゃげき}: shooting, firing — general term for shooting a gun\n- {狙撃|そげき}: sniping — specifically aiming at a target from a hidden position\n- {銃撃|じゅうげき}: gunfire — firing shots in general",
+  "notes": "USAGE:\nAppears frequently in news reports, military contexts, and fiction (movies, games, novels). Implies a targeted, precise shot from a distance or concealed position.\n\nCOMMON COLLOCATIONS:\n- {狙撃|そげき}{手|しゅ} (sniper)\n- {狙撃|そげき}{銃|じゅう} (sniper rifle)\n- {狙撃|そげき}⟦される→する：00392_suru⟧ (to be shot/sniped)\n- {狙撃|そげき}⟦{事件|じけん}→事件：01568_jiken⟧ (shooting incident)\n\nSIMILAR WORDS:\n- ⟦{射撃|しゃげき}→射撃：16089_shageki⟧: shooting, firing — general term for shooting a gun\n- {狙撃|そげき}: sniping — specifically aiming at a target from a hidden position\n- ⟦{銃撃|じゅうげき}→銃撃：27092_juugeki⟧: gunfire — firing shots in general",
   "cross_references": [
     {
       "type": "contrast",
@@ -142,11 +142,18 @@
       "reading": "しゃげき",
       "headword": "{射撃|しゃげき}",
       "label": "shooting (general)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27092_juugeki",
+      "reading": "じゅうげき",
+      "headword": "{銃撃|じゅうげき}",
+      "label": "gunfire"
     }
   ],
   "metadata": {
     "created": "2026-03-17T23:21:20Z",
-    "modified": "2026-07-23T19:02:37Z",
+    "modified": "2026-09-02T04:01:48Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -159,7 +166,8 @@
       "semantic": [
         "military"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

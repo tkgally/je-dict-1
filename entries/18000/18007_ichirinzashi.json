@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "18007_ichirinzashi_ex1",
-      "japanese": "{玄関|げんかん}に{一輪挿|いちりんざ}しを{飾|かざ}った。",
+      "japanese": "⟦{玄関|げんかん}→玄関：05003_genkan⟧⟦に→に：00314_ni⟧{一輪挿|いちりんざ}し⟦を→を：00422_wo⟧⟦{飾|かざ}った→飾る：01185_kazaru⟧。",
       "english": "I placed a bud vase in the entryway.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "18007_ichirinzashi_ex2",
-      "japanese": "{庭|にわ}の{花|はな}を{一輪|いちりん}{摘|つ}んで、{一輪挿|いちりんざ}しに{生|い}けた。",
+      "japanese": "⟦{庭|にわ}→庭：02239_niwa⟧⟦の→の：09472_no⟧⟦{花|はな}→花：00523_hana⟧⟦を→を：00422_wo⟧⟦{一輪|いちりん}→一輪：24283_ichirin⟧⟦{摘|つ}んで→摘む：02472_tsumu⟧、{一輪挿|いちりんざ}し⟦に→に：00314_ni⟧⟦{生|い}けた→生ける：10667_ikeru⟧。",
       "english": "I picked a single flower from the garden and arranged it in a bud vase.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "18007_ichirinzashi_ex3",
-      "japanese": "{陶芸|とうげい}{教室|きょうしつ}で{作|つく}った{一輪挿|いちりんざ}しに{季節|きせつ}の{花|はな}を{入|い}れて、{食卓|しょくたく}に{置|お}いている。",
+      "japanese": "⟦{陶芸|とうげい}→陶芸：04449_tougei⟧⟦{教室|きょうしつ}→教室：00794_kyoushitsu⟧⟦で→で：00502_de⟧⟦{作|つく}った→作る：00481_tsukuru⟧{一輪挿|いちりんざ}し⟦に→に：00314_ni⟧⟦{季節|きせつ}→季節：01304_kisetsu⟧⟦の→の：09472_no⟧⟦{花|はな}→花：00523_hana⟧⟦を→を：00422_wo⟧⟦{入|い}れて→入れる：01098_ireru⟧、⟦{食卓|しょくたく}→食卓：03246_shokutaku⟧⟦に→に：00314_ni⟧⟦{置|お}いている→置く：01092_oku⟧。",
       "english": "I put seasonal flowers in a bud vase I made at pottery class and keep it on the dining table.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA traditional Japanese decorative item often made of ceramic, glass, bamboo, or metal. Embodies the wabi-sabi aesthetic of finding beauty in simplicity. Popular as a handmade gift from pottery classes.\n\nCOMMON COLLOCATIONS:\n- {一輪挿|いちりんざ}しに{花|はな}を{生|い}ける (to arrange a flower in a bud vase)\n- {一輪挿|いちりんざ}しを{飾|かざ}る (to display a bud vase)\n- ガラスの{一輪挿|いちりんざ}し (glass bud vase)\n- {竹|たけ}の{一輪挿|いちりんざ}し (bamboo bud vase)\n\nSIMILAR WORDS:\n- {花瓶|かびん}: flower vase — a larger vase for multiple flowers\n- {花器|かき}: flower vessel — a more formal/artistic term for flower containers",
+  "notes": "USAGE:\nA traditional Japanese decorative item often made of ceramic, glass, bamboo, or metal. Embodies the wabi-sabi aesthetic of finding beauty in simplicity. Popular as a handmade gift from pottery classes.\n\nCOMMON COLLOCATIONS:\n- {一輪挿|いちりんざ}し⟦に→に：00314_ni⟧⟦{花|はな}→花：00523_hana⟧⟦を→を：00422_wo⟧⟦{生|い}け→生きる：01184_ikiru⟧る (to arrange a flower in a bud vase)\n- {一輪挿|いちりんざ}し⟦を→を：00422_wo⟧⟦{飾|かざ}る→飾る：01185_kazaru⟧ (to display a bud vase)\n- ⟦ガラス→ガラス：01777_garasu⟧⟦の→の：09472_no⟧{一輪挿|いちりんざ}し (glass bud vase)\n- ⟦{竹|たけ}→竹：02220_take⟧⟦の→の：09472_no⟧{一輪挿|いちりんざ}し (bamboo bud vase)\n\nSIMILAR WORDS:\n- ⟦{花瓶|かびん}→花瓶：02867_kabin⟧: flower vase — a larger vase for multiple flowers\n- ⟦{花器|かき}→花器：23100_kaki⟧: flower vessel — a more formal/artistic term for flower containers",
   "cross_references": [
     {
       "type": "contrast",
@@ -52,11 +52,18 @@
       "reading": "かびん",
       "headword": "{花瓶|かびん}",
       "label": "flower vase (larger)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23100_kaki",
+      "reading": "かき",
+      "headword": "{花器|かき}",
+      "label": "flower vessel"
     }
   ],
   "metadata": {
     "created": "2026-03-19T11:54:16Z",
-    "modified": "2026-05-08T04:12:06Z",
+    "modified": "2026-09-02T04:01:50Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

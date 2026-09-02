@@ -15,41 +15,101 @@
   "examples": [
     {
       "id": "13858_konayuki_ex1",
-      "japanese": "{粉雪|こなゆき}が{舞|ま}っている。",
+      "japanese": "{粉雪|こなゆき}⟦が→が：00051_ga⟧⟦{舞|ま}っている→舞う：04573_mau⟧。",
       "english": "Powder snow is fluttering in the air.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13858_konayuki_ex2",
-      "japanese": "{北海道|ほっかいどう}の{粉雪|こなゆき}は{世界的|せかいてき}に{有名|ゆうめい}だ。",
+      "japanese": "⟦{北海道|ほっかいどう}→北海道：11010_hokkaidou⟧⟦の→の：09472_no⟧{粉雪|こなゆき}⟦は→は：00079_ha⟧⟦{世界的|せかいてき}→世界的：20935_sekaiteki⟧⟦に→に：00314_ni⟧⟦{有名|ゆうめい}→有名：01106_yuumei⟧だ。",
       "english": "Hokkaido's powder snow is world-famous.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13858_konayuki_ex3",
-      "japanese": "{今朝|けさ}は{粉雪|こなゆき}が{降|ふ}って、{辺|あた}り{一面|いちめん}{真|ま}っ{白|しろ}になった。",
+      "japanese": "⟦{今朝|けさ}→今朝：02877_kesa⟧⟦は→は：00079_ha⟧{粉雪|こなゆき}⟦が→が：00051_ga⟧⟦{降|ふ}って→降る：00839_furu⟧、⟦{辺|あた}り→辺り：01770_atari⟧⟦{一面|いちめん}→一面：11184_ichimen⟧⟦{真|ま}っ{白|しろ}→真っ白：07613_masshiro⟧になった。",
       "english": "Fine snow fell this morning, and the whole area turned pure white.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nOften used in weather descriptions and skiing contexts. Hokkaido is famous for its {粉雪|こなゆき}, which attracts skiers from around the world. The word evokes lightness and beauty, and is sometimes used poetically.\n\nWORD FORMATION:\n{粉|こな} (powder) + {雪|ゆき} (snow).\n\nSIMILAR WORDS:\n- {牡丹雪|ぼたんゆき}: large flake snow (wet, heavy)\n- {吹雪|ふぶき}: blizzard, snowstorm\n- {初雪|はつゆき}: first snow of the season\n\nCOMMON COLLOCATIONS:\n- {粉雪|こなゆき}が{舞|ま}う: powder snow flutters\n- {粉雪|こなゆき}が{降|ふ}る: powder snow falls\n- さらさらの{粉雪|こなゆき}: fine, dry powder snow",
-  "cross_references": [],
+  "notes": "USAGE:\nOften used in weather descriptions and skiing contexts. Hokkaido is famous for its {粉雪|こなゆき}, which attracts skiers from around the world. The word evokes lightness and beauty, and is sometimes used poetically.\n\nFORMS:\n⟦{粉|こな}→粉：02766_kona⟧ (powder) + ⟦{雪|ゆき}→雪：00584_yuki⟧ (snow).\n\nSIMILAR WORDS:\n- ⟦{牡丹雪|ぼたんゆき}→牡丹雪：14939_botanyuki⟧: large flake snow (wet, heavy)\n- ⟦{吹雪|ふぶき}→吹雪：00040_fubuki⟧: blizzard, snowstorm\n- ⟦{初雪|はつゆき}→初雪：11784_hatsuyuki⟧: first snow of the season\n\nCOMMON COLLOCATIONS:\n- {粉雪|こなゆき}⟦が→が：00051_ga⟧⟦{舞|ま}う→舞う：04573_mau⟧: powder snow flutters\n- {粉雪|こなゆき}⟦が→が：00051_ga⟧⟦{降|ふ}る→降る：00839_furu⟧: powder snow falls\n- ⟦さらさら→さらさら：05255_sarasara⟧⟦の→の：09472_no⟧{粉雪|こなゆき}: fine, dry powder snow",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14939_botanyuki",
+      "reading": "ぼたんゆき",
+      "headword": "{牡丹雪|ぼたんゆき}",
+      "label": "large flake snow"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00040_fubuki",
+      "reading": "ふぶき",
+      "headword": "{吹雪|ふぶき}",
+      "label": "blizzard, snowstorm"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11784_hatsuyuki",
+      "reading": "はつゆき",
+      "headword": "{初雪|はつゆき}",
+      "label": "first snow of the season"
+    },
+    {
+      "type": "related",
+      "target_id": "03017_ooyuki",
+      "reading": "おおゆき",
+      "headword": "{大雪|おおゆき}",
+      "label": "heavy snow"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14989_awayuki",
+      "reading": "あわゆき",
+      "headword": "{淡雪|あわゆき}",
+      "label": "light snow"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22448_shinsetsu",
+      "reading": "しんせつ",
+      "headword": "{新雪|しんせつ}",
+      "label": "fresh snow"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22460_sasameyuki",
+      "reading": "ささめゆき",
+      "headword": "{細雪|ささめゆき}",
+      "label": "light snowfall"
+    }
+  ],
   "metadata": {
     "created": "2026-02-27T05:44:57Z",
-    "modified": "2026-02-27T05:44:57Z",
+    "modified": "2026-09-02T04:01:35Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["nature"]
+      "semantic": [
+        "nature"
+      ]
     }
   }
 }

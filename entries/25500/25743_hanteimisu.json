@@ -15,38 +15,58 @@
   "examples": [
     {
       "id": "25743_hanteimisu_ex1",
-      "japanese": "{審判|しんぱん}の{判定|はんてい}ミスで{試合|しあい}が{荒|あ}れた。",
+      "japanese": "⟦{審判|しんぱん}→審判：03331_shinpan⟧⟦の→の：09472_no⟧{判定|はんてい}ミス⟦で→で：00502_de⟧⟦{試合|しあい}→試合：01601_shiai⟧⟦が→が：00051_ga⟧⟦{荒|あ}れた→荒れる：04577_areru⟧。",
       "english": "The game got rough due to the referee's bad call.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "25743_hanteimisu_ex2",
-      "japanese": "ビデオ{判定|はんてい}で{判定|はんてい}ミスが{覆|くつがえ}った。",
+      "japanese": "⟦ビデオ→ビデオ：01499_bideo⟧⟦{判定|はんてい}→判定：09767_hantei⟧⟦で→で：00502_de⟧{判定|はんてい}ミス⟦が→が：00051_ga⟧⟦{覆|くつがえ}った→覆る：20833_kutsugaeru⟧。",
       "english": "The bad call was overturned by video review.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "25743_hanteimisu_ex3",
-      "japanese": "{監督|かんとく}は{判定|はんてい}ミスに{抗議|こうぎ}して{退場|たいじょう}になった。",
+      "japanese": "⟦{監督|かんとく}→監督：00185_kantoku⟧⟦は→は：00079_ha⟧{判定|はんてい}ミス⟦に→に：00314_ni⟧⟦{抗議|こうぎ}して→抗議する：26923_kougisuru⟧⟦{退場|たいじょう}→退場：14353_taijou⟧になった。",
       "english": "The manager was ejected for protesting the bad call.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {判定|はんてい} (judgment, ruling) + ミス (mistake, from English \"miss\"). Most frequently heard in sports commentary, especially in baseball, soccer, and combat sports where referee decisions are closely scrutinized.\n\nThe introduction of video replay systems (ビデオ{判定|はんてい}, VAR) has made {判定|はんてい}ミス a more prominent topic in sports discussions.\n\nCOMMON COLLOCATIONS:\n- {判定|はんてい}ミスをする: to make a judgment error\n- {判定|はんてい}ミスに{抗議|こうぎ}する: to protest a bad call\n- {明|あき}らかな{判定|はんてい}ミス: an obvious bad call\n- {判定|はんてい}ミスが{続|つづ}く: bad calls continue\n\nSIMILAR WORDS:\n- {誤審|ごしん}: misjudgment, wrong ruling — a more formal synonym commonly used in news reporting\n- {誤判定|ごはんてい}: incorrect judgment — a more formal compound\n- ミスジャッジ: misjudge — English loanword, used interchangeably in casual contexts",
+  "notes": "Composed of ⟦{判定|はんてい}→判定：09767_hantei⟧ (judgment, ruling) + ⟦ミス→ミス：00285_misu⟧ (mistake, from English \"miss\"). Most frequently heard in sports commentary, especially in baseball, soccer, and combat sports where referee decisions are closely scrutinized.\n\nThe introduction of video replay systems (⟦ビデオ→ビデオ：01499_bideo⟧⟦{判定|はんてい}→判定：09767_hantei⟧, VAR) has made {判定|はんてい}ミス a more prominent topic in sports discussions.\n\nCOMMON COLLOCATIONS:\n- {判定|はんてい}ミス⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧: to make a judgment error\n- {判定|はんてい}ミス⟦に→に：00314_ni⟧⟦{抗議|こうぎ}する→抗議する：26923_kougisuru⟧: to protest a bad call\n- ⟦{明|あき}らか→明らか：02351_akiraka⟧な{判定|はんてい}ミス: an obvious bad call\n- {判定|はんてい}ミス⟦が→が：00051_ga⟧⟦{続|つづ}く→続く：00903_tsuzuku⟧: bad calls continue\n\nSIMILAR WORDS:\n- ⟦{誤審|ごしん}→誤審：19183_goshin⟧: misjudgment, wrong ruling — a more formal synonym commonly used in news reporting\n- {誤判定|ごはんてい}: incorrect judgment — a more formal compound\n- ⟦ミス→ミス：00285_misu⟧⟦ジャッジ→ジャッジ：12830_jajji⟧: misjudge — English loanword, used interchangeably in casual contexts",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19183_goshin",
+      "reading": "ごしん",
+      "headword": "{誤審|ごしん}",
+      "label": "misjudgment, wrong ruling"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["sports"]
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "sports"
+      ]
     },
     "created": "2026-04-27T11:19:18Z",
-    "modified": "2026-04-27T11:19:18Z"
+    "modified": "2026-09-02T04:02:23Z"
   }
 }

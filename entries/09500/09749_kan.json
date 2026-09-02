@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "09749_kan_ex1",
-      "japanese": "{水道|すいどう}{管|かん}⟦を→を：00422_wo⟧⟦{修理|しゅうり}する→修理する：03214_shuuri⟧。",
+      "japanese": "⟦{水道|すいどう}{管|かん}→水道管：08094_suidoukan⟧⟦を→を：00422_wo⟧⟦{修理|しゅうり}する→修理する：03214_shuuri⟧。",
       "english": "To repair a water pipe.",
       "has_audio": false,
       "sense_numbers": [
@@ -23,7 +23,7 @@
     },
     {
       "id": "09749_kan_ex2",
-      "japanese": "{古|ふる}い{管|かん}⟦から→から：00504_kara⟧{水|みず}⟦が→が：00051_ga⟧{漏|も}れている。",
+      "japanese": "⟦{古|ふる}い→古い：00488_furui⟧{管|かん}⟦から→から：00504_kara⟧⟦{水|みず}→水：02258_mizu⟧⟦が→が：00051_ga⟧⟦{漏|も}れている→漏れる：02435_moreru⟧。",
       "english": "Water is leaking from the old pipe.",
       "has_audio": false,
       "sense_numbers": [
@@ -32,7 +32,7 @@
     },
     {
       "id": "09749_kan_ex3",
-      "japanese": "⟦{下水|げすい}→下水：00069_gesui⟧{管|かん}⟦が→が：00051_ga⟧{詰|つ}まった。",
+      "japanese": "⟦{下水|げすい}→下水：00069_gesui⟧{管|かん}⟦が→が：00051_ga⟧⟦{詰|つ}まった→詰まる：02079_tsumaru⟧。",
       "english": "The sewer pipe got clogged.",
       "has_audio": false,
       "sense_numbers": [
@@ -40,10 +40,10 @@
       ]
     }
   ],
-  "notes": "{管|かん} refers to a hollow cylindrical object — a pipe, tube, or duct. Used both as a standalone word and as a suffix in compounds.\n\nCOMMON COMPOUNDS:\n- {水道|すいどう}{管|かん}: water pipe\n- {下水|げすい}{管|かん}: sewer pipe\n- {排水|はいすい}{管|かん}: drainage pipe\n- {鉄|てつ}{管|かん}: iron pipe\n- {血|けっ}{管|かん}: blood vessel\n- {気|き}{管|かん}: windpipe, trachea\n\nCONTRAST WITH パイプ:\nパイプ (from English 'pipe') is used more casually and can also refer to smoking pipes or connections/channels (パイプ{役|やく} = go-between). {管|かん} is more technical and appears mainly in compound words.\n\nRELATED KANJI COMPOUNDS:\n- {管理|かんり}: management, control\n- {管轄|かんかつ}: jurisdiction\n- {管楽器|かんがっき}: wind instrument",
+  "notes": "{管|かん} refers to a hollow cylindrical object — a pipe, tube, or duct. Used both as a standalone word and as a suffix in compounds.\n\nCOMPOUNDS:\n- ⟦{水道|すいどう}{管|かん}→水道管：08094_suidoukan⟧: water pipe\n- ⟦{下水|げすい}→下水：00069_gesui⟧{管|かん}: sewer pipe\n- ⟦{排水|はいすい}{管|かん}→排水管：23157_haisuikan⟧: drainage pipe\n- {鉄|てつ}{管|かん}: iron pipe\n- ⟦{血|けっ}{管|かん}→血管：02742_kekkan⟧: blood vessel\n- ⟦{気|き}{管|かん}→気管：21172_kikan⟧: windpipe, trachea\n\nCONTRAST WITH パイプ:\n⟦パイプ→パイプ：00338_paipu⟧ (from English 'pipe') is used more casually and can also refer to smoking pipes or connections/channels (⟦パイプ→パイプ：00338_paipu⟧⟦{役|やく}→役：12557_yaku⟧ = go-between). {管|かん} is more technical and appears mainly in compound words.\n\nRELATED KANJI COMPOUNDS:\n- ⟦{管理|かんり}→管理：00178_kanri⟧: management, control\n- ⟦{管轄|かんかつ}→管轄：13825_kankatsu⟧: jurisdiction\n- ⟦{管楽器|かんがっき}→管楽器：07533_kangakki⟧: wind instrument",
   "metadata": {
     "created": "2026-02-03T09:58:52Z",
-    "modified": "2026-03-31T03:49:51Z",
+    "modified": "2026-09-02T04:01:19Z",
     "ai_model": "opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -71,6 +71,20 @@
       "reading": "けっかん",
       "headword": "{血管|けっかん}",
       "label": "blood vessel"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00338_paipu",
+      "reading": "ぱいぷ",
+      "headword": "パイプ",
+      "label": "from English 'pipe'"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25876_hoosu",
+      "reading": "ほーす",
+      "headword": "ホース",
+      "label": "hose (flexible tube for water, etc.)"
     }
   ]
 }

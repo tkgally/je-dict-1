@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "16108_koushuudenwa_ex1",
-      "japanese": "{公衆電話|こうしゅうでんわ}はどこですか。",
+      "japanese": "{公衆電話|こうしゅうでんわ}⟦は→は：00079_ha⟧⟦どこ→どこ：00539_doko⟧です⟦か→か：09473_ka⟧。",
       "english": "Where is the public telephone?",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "16108_koushuudenwa_ex2",
-      "japanese": "{駅|えき}の{前|まえ}に{公衆電話|こうしゅうでんわ}がある。",
+      "japanese": "⟦{駅|えき}→駅：02180_eki⟧⟦の→の：09472_no⟧⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧{公衆電話|こうしゅうでんわ}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There is a payphone in front of the station.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "16108_koushuudenwa_ex3",
-      "japanese": "{携帯|けいたい}の{電池|でんち}が{切|き}れたので、{公衆電話|こうしゅうでんわ}から{電話|でんわ}をかけた。",
+      "japanese": "⟦{携帯|けいたい}→携帯：00715_keitai⟧⟦の→の：09472_no⟧⟦{電池|でんち}→電池：01472_denchi⟧⟦が→が：00051_ga⟧⟦{切|き}れた→切れる：01936_kireru⟧⟦の→の：09472_no⟧で、{公衆電話|こうしゅうでんわ}⟦から→から：00504_kara⟧⟦{電話|でんわ}→電話：01471_denwa⟧⟦を→を：00422_wo⟧⟦かけた→かける：00854_kakeru⟧。",
       "english": "My phone battery died, so I made a call from a payphone.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,19 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{公衆電話|こうしゅうでんわ} combines {公衆|こうしゅう} (public) and {電話|でんわ} (telephone). Although their numbers have decreased with the spread of mobile phones, payphones remain in Japan for emergency use. Green payphones accept テレホンカード (telephone cards) and coins.\n\nCOMMON COLLOCATIONS:\n- {公衆電話|こうしゅうでんわ}をかける (to make a call from a payphone)\n- {公衆電話|こうしゅうでんわ}ボックス (phone booth)\n- {公衆電話|こうしゅうでんわ}の{設置場所|せっちばしょ} (payphone location)",
-  "cross_references": [],
+  "notes": "USAGE:\n{公衆電話|こうしゅうでんわ} combines ⟦{公衆|こうしゅう}→公衆：11660_koushuu⟧ (public) and ⟦{電話|でんわ}→電話：01471_denwa⟧ (telephone). Although their numbers have decreased with the spread of mobile phones, payphones remain in Japan for emergency use. Green payphones accept テレホン⟦カード→カード：03836_kaado⟧ (telephone cards) and coins.\n\nCOMMON COLLOCATIONS:\n- {公衆電話|こうしゅうでんわ}⟦を→を：00422_wo⟧⟦かける→かける：00854_kakeru⟧ (to make a call from a payphone)\n- {公衆電話|こうしゅうでんわ}⟦ボックス→ボックス：30522_bokkusu⟧ (phone booth)\n- {公衆電話|こうしゅうでんわ}⟦の→の：09472_no⟧{設置場所|せっちばしょ} (payphone location)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24259_denwabokkusu",
+      "reading": "でんわぼっくす",
+      "headword": "{電話|でんわ}ボックス",
+      "label": "phone booth"
+    }
+  ],
   "metadata": {
     "created": "2026-03-10T00:08:39Z",
-    "modified": "2026-07-18T04:38:47Z",
+    "modified": "2026-09-02T04:01:43Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

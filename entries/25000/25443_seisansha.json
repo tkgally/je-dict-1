@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25443_seisansha_ex1",
-      "japanese": "{地元|じもと}の{生産者|せいさんしゃ}を{応援|おうえん}する。",
+      "japanese": "⟦{地元|じもと}→地元：09941_jimoto⟧⟦の→の：09472_no⟧{生産者|せいさんしゃ}⟦を→を：00422_wo⟧⟦{応援|おうえん}する→応援する：21988_ouensuru⟧。",
       "english": "To support local producers.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25443_seisansha_ex2",
-      "japanese": "{生産者|せいさんしゃ}の{顔|かお}が{見|み}える{野菜|やさい}を{選|えら}ぶ。",
+      "japanese": "{生産者|せいさんしゃ}⟦の→の：09472_no⟧⟦{顔|かお}→顔：00558_kao⟧⟦が→が：00051_ga⟧⟦{見|み}える→見える：01165_mieru⟧⟦{野菜|やさい}→野菜：02265_yasai⟧⟦を→を：00422_wo⟧⟦{選|えら}ぶ→選ぶ：00835_erabu⟧。",
       "english": "To choose vegetables where you can see the producer's face.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25443_seisansha_ex3",
-      "japanese": "この{道|みち}の{駅|えき}では{生産者|せいさんしゃ}が{直接|ちょくせつ}{野菜|やさい}や{果物|くだもの}を{販売|はんばい}している。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{道|みち}→道：00505_michi⟧⟦の→の：09472_no⟧⟦{駅|えき}→駅：02180_eki⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧{生産者|せいさんしゃ}⟦が→が：00051_ga⟧⟦{直接|ちょくせつ}→直接：03499_chokusetsu⟧⟦{野菜|やさい}→野菜：02265_yasai⟧や⟦{果物|くだもの}→果物：00509_kudamono⟧⟦を→を：00422_wo⟧⟦{販売|はんばい}→販売：03573_hanbai⟧⟦している→する：00392_suru⟧。",
       "english": "At this roadside station, producers sell vegetables and fruits directly.",
       "sense_numbers": [
         1
@@ -44,19 +44,51 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {生産|せいさん} (production) and {者|しゃ} (person). Commonly used for farmers, fishermen, and other primary producers, but also applicable to manufacturers. In the food industry, {生産者|せいさんしゃ}の{顔|かお}が{見|み}える (being able to see the producer's face) has become a marketing concept emphasizing traceability and trust.\n\nCOMMON COLLOCATIONS:\n- {生産者|せいさんしゃ}{直売|ちょくばい}: direct sales from the producer\n- {生産者|せいさんしゃ}{価格|かかく}: producer price\n- {生産者|せいさんしゃ}{情報|じょうほう}: producer information\n- {地元|じもと}の{生産者|せいさんしゃ}: local producers\n- {生産者|せいさんしゃ}{団体|だんたい}: producers' association\n\nSIMILAR WORDS:\n- {消費者|しょうひしゃ}: consumer — the counterpart, one who uses/buys the product\n- {製造者|せいぞうしゃ}: manufacturer — specifically for factory-made goods\n- {農家|のうか}: farmer — specifically a farming household",
+  "notes": "A compound of ⟦{生産|せいさん}→生産：01444_seisan⟧ (production) and ⟦{者|しゃ}→〜者：04662_sha⟧ (person). Commonly used for farmers, fishermen, and other primary producers, but also applicable to manufacturers. In the food industry, {生産者|せいさんしゃ}⟦の→の：09472_no⟧⟦{顔|かお}→顔：00558_kao⟧⟦が→が：00051_ga⟧⟦{見|み}える→見える：01165_mieru⟧ (being able to see the producer's face) has become a marketing concept emphasizing traceability and trust.\n\nCOMMON COLLOCATIONS:\n- {生産者|せいさんしゃ}{直売|ちょくばい}: direct sales from the producer\n- {生産者|せいさんしゃ}⟦{価格|かかく}→価格：00147_kakaku⟧: producer price\n- {生産者|せいさんしゃ}⟦{情報|じょうほう}→情報：03348_jouhou⟧: producer information\n- ⟦{地元|じもと}→地元：09941_jimoto⟧⟦の→の：09472_no⟧{生産者|せいさんしゃ}: local producers\n- {生産者|せいさんしゃ}⟦{団体|だんたい}→団体：03426_dantai⟧: producers' association\n\nSIMILAR WORDS:\n- ⟦{消費者|しょうひしゃ}→消費者：09866_shouhisha⟧: consumer — the counterpart, one who uses/buys the product\n- {製造者|せいぞうしゃ}: manufacturer — specifically for factory-made goods\n- ⟦{農家|のうか}→農家：03539_nouka⟧: farmer — specifically a farming household",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09866_shouhisha",
+      "reading": "しょうひしゃ",
+      "headword": "{消費者|しょうひしゃ}",
+      "label": "consumer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03539_nouka",
+      "reading": "のうか",
+      "headword": "{農家|のうか}",
+      "label": "farmer"
+    },
+    {
+      "type": "related",
+      "target_id": "08437_shokumotsurensa",
+      "reading": "しょくもつれんさ",
+      "headword": "{食物連鎖|しょくもつれんさ}",
+      "label": "food chain"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24042_ringonouka",
+      "reading": "りんごのうか",
+      "headword": "りんご{農家|のうか}",
+      "label": "apple farmer"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "business"
       ]
     },
     "created": "2026-04-25T13:30:29Z",
-    "modified": "2026-08-04T12:59:53Z"
+    "modified": "2026-09-02T04:02:22Z"
   }
 }

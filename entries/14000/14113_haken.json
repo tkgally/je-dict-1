@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "14113_haken_ex1",
-      "japanese": "{覇権|はけん}を{握|にぎ}る。",
+      "japanese": "{覇権|はけん}⟦を→を：00422_wo⟧⟦{握|にぎ}る→握る：02383_nigiru⟧。",
       "english": "Seize hegemony.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14113_haken_ex2",
-      "japanese": "{二|ふた}つの{大国|たいこく}が{覇権|はけん}を{争|あらそ}っている。",
+      "japanese": "⟦{二|ふた}つ→二つ：02953_futatsu⟧⟦の→の：09472_no⟧⟦{大国|たいこく}→大国：12218_taikoku⟧⟦が→が：00051_ga⟧{覇権|はけん}⟦を→を：00422_wo⟧⟦{争|あらそ}っている→争う：01866_arasou⟧。",
       "english": "Two great powers are vying for supremacy.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14113_haken_ex3",
-      "japanese": "IT{業界|ぎょうかい}における{覇権|はけん}{争|あらそ}いは{年々|ねんねん}{激|はげ}しさを{増|ま}している。",
+      "japanese": "IT⟦{業界|ぎょうかい}→業界：13129_gyoukai⟧⟦における→〜における：21802_niokeru⟧{覇権|はけん}⟦{争|あらそ}い→争い：09992_arasoi⟧⟦は→は：00079_ha⟧⟦{年々|ねんねん}→年々：10417_nennen⟧{激|はげ}しさ⟦を→を：00422_wo⟧⟦{増|ま}している→増す：02422_masu⟧。",
       "english": "The struggle for dominance in the IT industry is growing fiercer year by year.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE NOTE:\n{覇権|はけん} originally refers to political or military dominance. In modern Japanese, it is also used more casually in sports (league dominance), business (market dominance), and pop culture (e.g., {覇権|はけん}アニメ — the dominant anime of a season).\n\nThe term {覇権|はけん}{主義|しゅぎ} (hegemonism) is used critically to describe a country's pursuit of dominance over others.\n\nCOMMON COLLOCATIONS:\n- {覇権|はけん}を{握|にぎ}る (grasp hegemony)\n- {覇権|はけん}を{争|あらそ}う (compete for supremacy)\n- {覇権|はけん}{争|あらそ}い (power struggle, contest for dominance)\n- {覇権|はけん}{主義|しゅぎ} (hegemonism)\n- {覇権|はけん}{国家|こっか} (hegemonic state)\n\nSIMILAR WORDS:\n- {支配|しはい}: control, rule (direct control over others)\n- {優位|ゆうい}: superiority, advantage (relative position)\n- {制覇|せいは}: conquest, domination (achieving complete control)",
+  "notes": "USAGE:\n{覇権|はけん} originally refers to political or military dominance. In modern Japanese, it is also used more casually in sports (league dominance), business (market dominance), and pop culture (e.g., {覇権|はけん}⟦アニメ→アニメ：01527_anime⟧ — the dominant anime of a season).\n\nThe term {覇権|はけん}⟦{主義|しゅぎ}→主義：03215_shugi⟧ (hegemonism) is used critically to describe a country's pursuit of dominance over others.\n\nCOMMON COLLOCATIONS:\n- {覇権|はけん}⟦を→を：00422_wo⟧⟦{握|にぎ}る→握る：02383_nigiru⟧ (grasp hegemony)\n- {覇権|はけん}⟦を→を：00422_wo⟧⟦{争|あらそ}う→争う：01866_arasou⟧ (compete for supremacy)\n- {覇権|はけん}⟦{争|あらそ}い→争い：09992_arasoi⟧ (power struggle, contest for dominance)\n- {覇権|はけん}⟦{主義|しゅぎ}→主義：03215_shugi⟧ (hegemonism)\n- {覇権|はけん}⟦{国家|こっか}→国家：02760_kokka⟧ (hegemonic state)\n\nSIMILAR WORDS:\n- ⟦{支配|しはい}→支配：01421_shihai⟧: control, rule (direct control over others)\n- ⟦{優位|ゆうい}→優位：11531_yuui⟧: superiority, advantage (relative position)\n- ⟦{制覇|せいは}→制覇：30027_seiha⟧: conquest, domination (achieving complete control)",
   "cross_references": [
     {
       "type": "related",
@@ -53,19 +59,39 @@
       "reading": "ゆうい",
       "headword": "{優位|ゆうい}",
       "label": "superiority, advantage"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30027_seiha",
+      "reading": "せいは",
+      "headword": "{制覇|せいは}",
+      "label": "conquest, domination"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23172_shihaiken",
+      "reading": "しはいけん",
+      "headword": "{支配権|しはいけん}",
+      "label": "control"
     }
   ],
   "metadata": {
     "created": "2026-02-28T00:53:19Z",
-    "modified": "2026-04-30T04:29:16Z",
+    "modified": "2026-09-02T04:01:36Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["academic"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "academic"
+      ]
     }
   }
 }

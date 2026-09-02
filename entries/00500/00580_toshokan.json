@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "{図書館|としょかん} is a library where books and materials can be read or borrowed.\n\nCOMMON EXPRESSIONS:\n- {図書館|としょかん}⟦で→で：00502_de⟧⟦{勉強|べんきょう}する→勉強する：00527_benkyousuru⟧: to study at the library\n- {図書館|としょかん}⟦で→で：00502_de⟧⟦{本|ほん}→本：00111_hon⟧⟦を→を：00422_wo⟧⟦{借|か}りる→借りる：00532_kariru⟧: to borrow a book from the library\n- {図書館|としょかん}⟦に→に：00314_ni⟧⟦{本|ほん}→本：00111_hon⟧⟦を→を：00422_wo⟧⟦{返|かえ}す→返す：09648_kaesu⟧: to return a book to the library\n\nTYPES:\n- ⟦{公立|こうりつ}→公立：08210_kouritsu⟧{図書館|としょかん}: public library\n- ⟦{大学|だいがく}→大学：00608_daigaku⟧{図書館|としょかん}: university library\n- ⟦{国立|こくりつ}→国立：04153_kokuritsu⟧{図書館|としょかん}: national library\n- ⟦{電子|でんし}→電子：03449_denshi⟧{図書館|としょかん}: digital library\n\nRELATED:\n- ⟦{司書|ししょ}→司書：07032_shisho⟧: librarian\n- ⟦{貸出|かしだし}→貸出：03043_kashidashi⟧: lending, checkout\n- ⟦{返却|へんきゃく}→返却：03149_henkyaku⟧: return",
+  "notes": "{図書館|としょかん} is a library where books and materials can be read or borrowed.\n\nCOMMON EXPRESSIONS:\n- {図書館|としょかん}⟦で→で：00502_de⟧⟦{勉強|べんきょう}する→勉強する：00527_benkyousuru⟧: to study at the library\n- {図書館|としょかん}⟦で→で：00502_de⟧⟦{本|ほん}→本：00111_hon⟧⟦を→を：00422_wo⟧⟦{借|か}りる→借りる：00532_kariru⟧: to borrow a book from the library\n- {図書館|としょかん}⟦に→に：00314_ni⟧⟦{本|ほん}→本：00111_hon⟧⟦を→を：00422_wo⟧⟦{返|かえ}す→返す：09648_kaesu⟧: to return a book to the library\n\nTYPES:\n- ⟦{公立|こうりつ}→公立：08210_kouritsu⟧{図書館|としょかん}: public library\n- ⟦{大学|だいがく}→大学：00608_daigaku⟧{図書館|としょかん}: university library\n- ⟦{国立|こくりつ}→国立：04153_kokuritsu⟧{図書館|としょかん}: national library\n- ⟦{電子|でんし}→電子：03449_denshi⟧{図書館|としょかん}: digital library\n\nRELATED WORDS:\n- ⟦{司書|ししょ}→司書：07032_shisho⟧: librarian\n- ⟦{貸出|かしだし}→貸出：03043_kashidashi⟧: lending, checkout\n- ⟦{返却|へんきゃく}→返却：03149_henkyaku⟧: return",
   "cross_references": [
     {
       "type": "related",
@@ -78,11 +78,39 @@
       "headword": "{司書|ししょ}",
       "label": "librarian",
       "target_id": "07032_shisho"
+    },
+    {
+      "type": "related",
+      "target_id": "03043_kashidashi",
+      "reading": "かしだし",
+      "headword": "{貸出|かしだし}",
+      "label": "lending, checkout"
+    },
+    {
+      "type": "related",
+      "target_id": "03149_henkyaku",
+      "reading": "へんきゃく",
+      "headword": "{返却|へんきゃく}",
+      "label": "return"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01717_bijutsukan",
+      "reading": "びじゅつかん",
+      "headword": "{美術館|びじゅつかん}",
+      "label": "art museum"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20143_shiryoukan",
+      "reading": "しりょうかん",
+      "headword": "{資料館|しりょうかん}",
+      "label": "archive"
     }
   ],
   "metadata": {
     "created": "2026-01-07T15:53:25Z",
-    "modified": "2026-08-27T12:49:51Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

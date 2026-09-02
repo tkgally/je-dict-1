@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22712_gurandopiano_ex1",
-      "japanese": "グランドピアノを{弾|ひ}く。",
+      "japanese": "グランドピアノ⟦を→を：00422_wo⟧⟦{弾|ひ}く→弾く：02444_hiku⟧。",
       "english": "To play a grand piano.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22712_gurandopiano_ex2",
-      "japanese": "コンサートホールにグランドピアノが{置|お}いてある。",
+      "japanese": "⟦コンサート→コンサート：01360_konsaato⟧⟦ホール→ホール：11169_hooru⟧⟦に→に：00314_ni⟧グランドピアノ⟦が→が：00051_ga⟧⟦{置|お}いてある→置く：01092_oku⟧。",
       "english": "There is a grand piano in the concert hall.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22712_gurandopiano_ex3",
-      "japanese": "{娘|むすめ}がピアノコンクールでグランドピアノを{演奏|えんそう}した。",
+      "japanese": "⟦{娘|むすめ}→娘：02263_musume⟧⟦が→が：00051_ga⟧⟦ピアノ→ピアノ：01376_piano⟧⟦コンクール→コンクール：28795_konkuuru⟧⟦で→で：00502_de⟧グランドピアノ⟦を→を：00422_wo⟧⟦{演奏|えんそう}した→演奏する：20349_ensousuru⟧。",
       "english": "My daughter performed on a grand piano at the piano competition.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "From English \"grand piano.\" Japan is one of the world's largest piano markets, and major manufacturers like Yamaha and Kawai are Japanese companies. Grand pianos are found in concert halls, music schools, and some homes.\n\nCOMMON COLLOCATIONS:\n- グランドピアノを{弾|ひ}く: to play a grand piano\n- グランドピアノの{音色|ねいろ}: the tone of a grand piano\n- コンサート{用|よう}グランドピアノ: concert grand piano\n\nSIMILAR WORDS:\n- アップライトピアノ: upright piano — a smaller, vertical piano more common in homes\n- {電子|でんし}ピアノ: digital piano — an electronic keyboard that simulates piano sound\n- ピアノ: piano — the general term for any type of piano",
+  "notes": "From English \"grand piano.\" Japan is one of the world's largest piano markets, and major manufacturers like Yamaha and Kawai are Japanese companies. Grand pianos are found in concert halls, music schools, and some homes.\n\nCOMMON COLLOCATIONS:\n- グランドピアノ⟦を→を：00422_wo⟧⟦{弾|ひ}く→弾く：02444_hiku⟧: to play a grand piano\n- グランドピアノ⟦の→の：09472_no⟧⟦{音色|ねいろ}→音色：07422_neiro⟧: the tone of a grand piano\n- ⟦コンサート→コンサート：01360_konsaato⟧⟦{用|よう}→〜用：09842_you⟧グランドピアノ: concert grand piano\n\nSIMILAR WORDS:\n- アップライト⟦ピアノ→ピアノ：01376_piano⟧: upright piano — a smaller, vertical piano more common in homes\n- ⟦{電子|でんし}→電子：03449_denshi⟧⟦ピアノ→ピアノ：01376_piano⟧: digital piano — an electronic keyboard that simulates piano sound\n- ⟦ピアノ→ピアノ：01376_piano⟧: piano — the general term for any type of piano",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "01376_piano",
+      "reading": "ぴあの",
+      "headword": "ピアノ",
+      "label": "piano"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,6 +70,6 @@
       "politeness": "plain"
     },
     "created": "2026-04-07T12:37:11Z",
-    "modified": "2026-08-01T06:41:09Z"
+    "modified": "2026-09-02T04:02:09Z"
   }
 }

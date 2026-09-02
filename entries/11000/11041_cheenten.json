@@ -15,42 +15,76 @@
   "examples": [
     {
       "id": "11041_cheenten_ex1",
-      "japanese": "あのラーメン{屋|や}はチェーン{店|てん}だ。",
+      "japanese": "⟦あの→あの：00915_ano⟧⟦ラーメン→ラーメン：05181_raamen⟧⟦{屋|や}→〜屋：03096_ya⟧⟦は→は：00079_ha⟧チェーン{店|てん}だ。",
       "english": "That ramen shop is a chain store.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11041_cheenten_ex2",
-      "japanese": "チェーン{店|てん}より{個人|こじん}{経営|けいえい}の{店|みせ}が{好|す}きだ。",
+      "japanese": "チェーン{店|てん}⟦より→より：09476_yori⟧⟦{個人|こじん}→個人：02758_kojin⟧⟦{経営|けいえい}→経営：02740_keiei⟧⟦の→の：09472_no⟧⟦{店|みせ}→店：00497_mise⟧⟦が→が：00051_ga⟧⟦{好|す}き→好き：02355_suki⟧だ。",
       "english": "I prefer independently run shops over chain stores.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11041_cheenten_ex3",
-      "japanese": "{駅前|えきまえ}にはコンビニや{飲食|いんしょく}のチェーン{店|てん}が{並|なら}んでいて{便利|べんり}だ。",
+      "japanese": "⟦{駅前|えきまえ}→駅前：09593_ekimae⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦コンビニ→コンビニ：01081_konbini⟧や⟦{飲食|いんしょく}→飲食：03010_inshoku⟧⟦の→の：09472_no⟧チェーン{店|てん}⟦が→が：00051_ga⟧⟦{並|なら}んでいて→並ぶ：00605_narabu⟧⟦{便利|べんり}→便利：00830_benri⟧だ。",
       "english": "There are convenience stores and restaurant chains lined up in front of the station, which is convenient.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nチェーン{店|てん} can refer to any store or restaurant that is part of a chain. It is sometimes shortened to just チェーン: 「あの{店|みせ}はチェーンだよ」 (That place is a chain). The word {個人|こじん}{店|てん} or {個人|こじん}{経営|けいえい} is the contrast for independent shops.\n\nCOMMON COLLOCATIONS:\n- {大手|おおて}チェーン{店|てん}: major chain store\n- チェーン{展開|てんかい}: chain expansion, rolling out a chain\n- {飲食|いんしょく}チェーン: restaurant chain\n- チェーン{店|てん}の{店長|てんちょう}: chain store manager",
-  "cross_references": [],
+  "notes": "USAGE:\nチェーン{店|てん} can refer to any store or restaurant that is part of a chain. It is sometimes shortened to just ⟦チェーン→チェーン：08833_cheen⟧: 「⟦あの→あの：00915_ano⟧⟦{店|みせ}→店：00497_mise⟧⟦は→は：00079_ha⟧⟦チェーン→チェーン：08833_cheen⟧だ⟦よ→よ：09475_yo⟧」 (That place is a chain). The word ⟦{個人|こじん}→個人：02758_kojin⟧⟦{店|てん}→店：10011_ten⟧ or ⟦{個人|こじん}→個人：02758_kojin⟧⟦{経営|けいえい}→経営：02740_keiei⟧ is the contrast for independent shops.\n\nCOMMON COLLOCATIONS:\n- ⟦{大手|おおて}→大手：12171_oote⟧チェーン{店|てん}: major chain store\n- ⟦チェーン→チェーン：08833_cheen⟧⟦{展開|てんかい}→展開：04542_tenkai⟧: chain expansion, rolling out a chain\n- ⟦{飲食|いんしょく}→飲食：03010_inshoku⟧⟦チェーン→チェーン：08833_cheen⟧: restaurant chain\n- チェーン{店|てん}⟦の→の：09472_no⟧⟦{店長|てんちょう}→店長：30461_tenchou⟧: chain store manager",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20702_furanchaizu",
+      "reading": "ふらんちゃいず",
+      "headword": "フランチャイズ",
+      "label": "franchise"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24025_keiretsuten",
+      "reading": "けいれつてん",
+      "headword": "{系列店|けいれつてん}",
+      "label": "affiliated store"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30574_tenpotenkai",
+      "reading": "てんぽてんかい",
+      "headword": "{店舗|てんぽ}{展開|てんかい}",
+      "label": "store rollout"
+    }
+  ],
   "metadata": {
     "created": "2026-02-12T20:10:50Z",
-    "modified": "2026-02-12T20:10:50Z",
+    "modified": "2026-09-02T04:01:23Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "domain": ["business"],
-      "semantic": ["building"]
+      "domain": [
+        "business"
+      ],
+      "semantic": [
+        "building"
+      ]
     }
   }
 }

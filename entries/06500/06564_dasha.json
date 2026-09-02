@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "ALTERNATIVE TERMS:\n・⟦バッター→バッター：27284_battaa⟧ (batter - loanword)\n・⟦{打|う}ち{手|て}→打ち手：noentry⟧ (hitter - less common)\n\nBATTING ORDER POSITIONS:\n・⟦{一番|いちばん}→一番：01140_ichiban⟧{打者|だしゃ} (leadoff hitter) - typically fast, high on-base percentage\n・⟦{二番|にばん}→二番：noentry⟧{打者|だしゃ} (second batter) - good bat control\n・⟦{三番|さんばん}→三番：noentry⟧{打者|だしゃ} (third batter) - best all-around hitter\n・⟦{四番|よんばん}→四番：30009_yonban⟧{打者|だしゃ} (cleanup hitter) - power hitter\n\nTYPES OF HITTERS:\n・⟦{強打者|きょうだしゃ}→強打者：23977_kyoudasha⟧ (power hitter)\n・⟦{好打者|こうだしゃ}→好打者：30007_koudasha⟧ (good hitter)\n・⟦{代打|だいだ}→代打：19621_daida⟧ (pinch hitter)\n・⟦{指名打者|しめいだしゃ}→指名打者：23978_shimeidasha⟧／DH (designated hitter)\n\nKEY STATISTICS:\n・⟦{打率|だりつ}→打率：07113_daritsu⟧ (batting average)\n・⟦{打点|だてん}→打点：08589_daten⟧ (RBI - runs batted in)\n・⟦{本塁打|ほんるいだ}→本塁打：24569_honruida⟧ (home run)\n\nCOMMON COLLOCATIONS:\n・{打者|だしゃ}⟦を→を：00422_wo⟧⟦{打|う}ち{取|と}る→打ち取る：30008_uchitoru⟧ (to get the batter out)\n・{打者|だしゃ}⟦が→が：00051_ga⟧⟦{三振|さんしん}→三振：08588_sanshin⟧⟦する→する：00392_suru⟧ (batter strikes out)\n・{打者|だしゃ}⟦を→を：00422_wo⟧⟦{敬遠|けいえん}→敬遠：12930_keien⟧⟦する→する：00392_suru⟧ (to intentionally walk the batter)",
+  "notes": "ALTERNATIVE TERMS:\n- ⟦バッター→バッター：27284_battaa⟧ (batter - loanword)\n- ⟦{打|う}ち{手|て}→打ち手：noentry⟧ (hitter - less common)\n\nBATTING ORDER POSITIONS:\n- ⟦{一番|いちばん}→一番：01140_ichiban⟧{打者|だしゃ} (leadoff hitter) - typically fast, high on-base percentage\n- ⟦{二番|にばん}→二番：noentry⟧{打者|だしゃ} (second batter) - good bat control\n- ⟦{三番|さんばん}→三番：noentry⟧{打者|だしゃ} (third batter) - best all-around hitter\n- ⟦{四番|よんばん}→四番：30009_yonban⟧{打者|だしゃ} (cleanup hitter) - power hitter\n\nTYPES OF HITTERS:\n- ⟦{強打者|きょうだしゃ}→強打者：23977_kyoudasha⟧ (power hitter)\n- ⟦{好打者|こうだしゃ}→好打者：30007_koudasha⟧ (good hitter)\n- ⟦{代打|だいだ}→代打：19621_daida⟧ (pinch hitter)\n- ⟦{指名打者|しめいだしゃ}→指名打者：23978_shimeidasha⟧／DH (designated hitter)\n\nKEY STATISTICS:\n- ⟦{打率|だりつ}→打率：07113_daritsu⟧ (batting average)\n- ⟦{打点|だてん}→打点：08589_daten⟧ (RBI - runs batted in)\n- ⟦{本塁打|ほんるいだ}→本塁打：24569_honruida⟧ (home run)\n\nCOMMON COLLOCATIONS:\n- {打者|だしゃ}⟦を→を：00422_wo⟧⟦{打|う}ち{取|と}る→打ち取る：30008_uchitoru⟧ (to get the batter out)\n- {打者|だしゃ}⟦が→が：00051_ga⟧⟦{三振|さんしん}→三振：08588_sanshin⟧⟦する→する：00392_suru⟧ (batter strikes out)\n- {打者|だしゃ}⟦を→を：00422_wo⟧⟦{敬遠|けいえん}→敬遠：12930_keien⟧⟦する→する：00392_suru⟧ (to intentionally walk the batter)",
   "cross_references": [
     {
       "type": "antonym",
@@ -78,11 +78,32 @@
       "headword": "{打席|だせき}",
       "label": "at-bat",
       "target_id": "06542_daseki"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27284_battaa",
+      "reading": "ばったー",
+      "headword": "バッター",
+      "label": "batter"
+    },
+    {
+      "type": "related",
+      "target_id": "09482_picchaa",
+      "reading": "ぴっちゃー",
+      "headword": "ピッチャー",
+      "label": "pitcher (baseball)"
+    },
+    {
+      "type": "related",
+      "target_id": "27334_tsuusutoraiku",
+      "reading": "つーすとらいく",
+      "headword": "ツーストライク",
+      "label": "(baseball) two strikes"
     }
   ],
   "metadata": {
     "created": "2026-01-18T00:32:33Z",
-    "modified": "2026-08-29T12:18:50Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

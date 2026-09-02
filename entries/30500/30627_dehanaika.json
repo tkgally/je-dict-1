@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30627_dehanaika_ex1",
-      "japanese": "それでいいではないか。",
+      "japanese": "⟦それ→それ：00994_sore⟧⟦で→で：00502_de⟧⟦いい→いい：00118_ii⟧ではないか。",
       "english": "Surely that's fine, isn't it?",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30627_dehanaika_ex2",
-      "japanese": "{彼|かれ}は{何|なに}か{隠|かく}しているのではないか。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{何|なに}か→何か：03873_nanika⟧⟦{隠|かく}している→隠す：02034_kakusu⟧⟦の→の：09472_no⟧ではないか。",
       "english": "Could it be that he's hiding something?",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30627_dehanaika_ex3",
-      "japanese": "{開|あ}けてみると、{中|なか}には{何|なに}も{入|はい}っていないではないか。",
+      "japanese": "⟦{開|あ}けて→開ける：00563_akeru⟧みる⟦と→と：00512_to⟧、⟦{中|なか}→中：00654_naka⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{何|なに}も→何も：03874_nanimo⟧⟦{入|はい}っていない→入る：00494_hairu⟧ではないか。",
       "english": "I opened it, and what do you know — there was nothing inside.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "USAGE:\nWritten and formal-sounding on its own; the everyday spoken equivalents are じゃないか and, more politely, ではありませんか / じゃないですか. With のではないか it becomes a hedged conjecture (\"I suspect that ...\"), the form most common in essays and reports.\n\nCOMMON PATTERNS:\n- 〜のではないか: I suspect that ...\n- 〜ではないかと{思|おも}う: I think it may be that ...\n- 〜ではないかと{心配|しんぱい}する: to worry that ...\n\nSIMILAR WORDS:\n- じゃないか: the casual contraction, also used to urge someone on (やってみようじゃないか)\n- でしょう: probably — a plain guess with none of the rhetorical push",
+  "notes": "USAGE:\nWritten and formal-sounding on its own; the everyday spoken equivalents are ⟦じゃないか→じゃないか：29707_janaika⟧ and, more politely, ⟦では→では：02945_deha⟧⟦ありません→ある：00006_aru⟧⟦か→か：09473_ka⟧ / ⟦じゃない→じゃない：28483_janai⟧です⟦か→か：09473_ka⟧. With ⟦の→の：09472_no⟧ではないか it becomes a hedged conjecture (\"I suspect that ...\"), the form most common in essays and reports.\n\nCOMMON PATTERNS:\n- 〜⟦の→の：09472_no⟧ではないか: I suspect that ...\n- 〜ではないか⟦と→と：00512_to⟧⟦{思|おも}う→思う：00492_omou⟧: I think it may be that ...\n- 〜ではないか⟦と→と：00512_to⟧⟦{心配|しんぱい}する→心配する：06066_shinpaisuru⟧: to worry that ...\n\nSIMILAR WORDS:\n- ⟦じゃないか→じゃないか：29707_janaika⟧: the casual contraction, also used to urge someone on (⟦やって→やる：02980_yaru⟧みよう⟦じゃないか→じゃないか：29707_janaika⟧)\n- でしょう: probably — a plain guess with none of the rhetorical push",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "29707_janaika",
+      "reading": "じゃないか",
+      "headword": "じゃないか",
+      "label": "the casual contraction, also used…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09887_deshou",
+      "reading": "でしょう",
+      "headword": "でしょう",
+      "label": "probably"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +69,13 @@
         "expression"
       ],
       "formality": "formal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "grammatical"
       ],
       "domain": []
     },
     "created": "2026-08-13T18:28:31Z",
-    "modified": "2026-08-13T18:28:31Z"
+    "modified": "2026-09-02T04:02:41Z"
   }
 }

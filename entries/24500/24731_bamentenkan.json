@@ -3,7 +3,7 @@
   "headword": "{場面転換|ばめんてんかん}",
   "reading": "ばめんてんかん",
   "romaji": "bamentenkan",
-  "part_of_speech": "noun; verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "scene change; change of scene",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24731_bamentenkan_ex1",
-      "japanese": "{場面転換|ばめんてんかん}が{多|おお}い{映画|えいが}だ。",
+      "japanese": "{場面転換|ばめんてんかん}⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧⟦{映画|えいが}→映画：02273_eiga⟧だ。",
       "english": "It's a film with many scene changes.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24731_bamentenkan_ex2",
-      "japanese": "{場面転換|ばめんてんかん}のタイミングが{上手|うま}い{脚本|きゃくほん}だ。",
+      "japanese": "{場面転換|ばめんてんかん}⟦の→の：09472_no⟧⟦タイミング→タイミング：17683_taimingu⟧⟦が→が：00051_ga⟧{上手|うま}い⟦{脚本|きゃくほん}→脚本：04459_kyakuhon⟧だ。",
       "english": "It's a screenplay with well-timed scene transitions.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24731_bamentenkan_ex3",
-      "japanese": "{急|きゅう}な{場面転換|ばめんてんかん}に{観客|かんきゃく}がついていけず、{混乱|こんらん}する{場面|ばめん}もあった。",
+      "japanese": "⟦{急|きゅう}→急：13042_kyuu⟧な{場面転換|ばめんてんかん}⟦に→に：00314_ni⟧⟦{観客|かんきゃく}→観客：02556_kankyaku⟧⟦が→が：00051_ga⟧⟦ついていけ→ついていく：10991_tsuiteiku⟧ず、⟦{混乱|こんらん}→混乱：02811_konran⟧⟦する→する：00392_suru⟧⟦{場面|ばめん}→場面：03702_bamen⟧⟦も→も：00484_mo⟧⟦あった→ある：00006_aru⟧。",
       "english": "There were moments where the audience couldn't follow the sudden scene changes and became confused.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {場面|ばめん} (scene, situation) + {転換|てんかん} (change, shift). Primarily a narrative/dramatic term, frequently used in discussions of film, theater, and literature.\n\nCOMMON COLLOCATIONS:\n- {場面転換|ばめんてんかん}が{早|はや}い: scene changes are rapid\n- {場面転換|ばめんてんかん}する: to change scenes\n- {場面転換|ばめんてんかん}の{技法|ぎほう}: scene transition technique\n- {急|きゅう}な{場面転換|ばめんてんかん}: abrupt scene change\n\nSIMILAR WORDS:\n- {場面|ばめん}チェンジ: scene change — more casual, uses English loanword\n- {転換|てんかん}: transition, shift — the generic term for any kind of change or conversion\n- カット: cut — specifically a film editing technique for transitions",
+  "notes": "A compound of ⟦{場面|ばめん}→場面：03702_bamen⟧ (scene, situation) + ⟦{転換|てんかん}→転換：19439_tenkan⟧ (change, shift). Primarily a narrative/dramatic term, frequently used in discussions of film, theater, and literature.\n\nCOMMON COLLOCATIONS:\n- {場面転換|ばめんてんかん}⟦が→が：00051_ga⟧⟦{早|はや}い→早い：00514_hayai⟧: scene changes are rapid\n- {場面転換|ばめんてんかん}⟦する→する：00392_suru⟧: to change scenes\n- {場面転換|ばめんてんかん}⟦の→の：09472_no⟧⟦{技法|ぎほう}→技法：12800_gihou⟧: scene transition technique\n- ⟦{急|きゅう}→急：13042_kyuu⟧な{場面転換|ばめんてんかん}: abrupt scene change\n\nSIMILAR WORDS:\n- ⟦{場面|ばめん}→場面：03702_bamen⟧チェンジ: scene change — more casual, uses English loanword\n- ⟦{転換|てんかん}→転換：19439_tenkan⟧: transition, shift — the generic term for any kind of change or conversion\n- ⟦カット→カット：10818_katto⟧: cut — specifically a film editing technique for transitions",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "10818_katto",
+      "reading": "かっと",
+      "headword": "カット",
+      "label": "cut"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -65,7 +74,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-20T13:15:42Z",
-    "modified": "2026-08-03T09:22:27Z"
+    "modified": "2026-09-02T04:02:19Z"
   },
   "conjugation": {
     "type": "suru",

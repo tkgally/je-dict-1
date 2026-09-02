@@ -15,41 +15,59 @@
   "examples": [
     {
       "id": "15078_udewa_ex1",
-      "japanese": "{銀|ぎん}の{腕輪|うでわ}をしている。",
+      "japanese": "⟦{銀|ぎん}→銀：02651_gin⟧⟦の→の：09472_no⟧{腕輪|うでわ}⟦を→を：00422_wo⟧⟦している→する：00392_suru⟧。",
       "english": "She is wearing a silver bracelet.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15078_udewa_ex2",
-      "japanese": "{旅行|りょこう}{先|さき}で{手作|てづく}りの{腕輪|うでわ}を{買|か}った。",
+      "japanese": "⟦{旅行|りょこう}{先|さき}→旅行先：28195_ryokousaki⟧⟦で→で：00502_de⟧⟦{手作|てづく}り→手作り：08300_tezukuri⟧⟦の→の：09472_no⟧{腕輪|うでわ}⟦を→を：00422_wo⟧⟦{買|か}った→買う：00489_kau⟧。",
       "english": "I bought a handmade bracelet at my travel destination.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15078_udewa_ex3",
-      "japanese": "{古代|こだい}の{遺跡|いせき}から{金|きん}の{腕輪|うでわ}が{出土|しゅつど}した。",
+      "japanese": "⟦{古代|こだい}→古代：05324_kodai⟧⟦の→の：09472_no⟧⟦{遺跡|いせき}→遺跡：09527_iseki⟧⟦から→から：00504_kara⟧{金|きん}⟦の→の：09472_no⟧{腕輪|うでわ}⟦が→が：00051_ga⟧⟦{出土|しゅつど}→出土：11760_shutsudo⟧⟦した→する：00392_suru⟧。",
       "english": "A gold bracelet was unearthed from ancient ruins.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\n{腕輪|うでわ} is the native Japanese word for bracelet. In modern everyday speech, ブレスレット (from English \"bracelet\") is more commonly used for fashion accessories, while {腕輪|うでわ} is preferred in historical, traditional, or formal contexts.\n\nCOMMON COLLOCATIONS:\n- {金|きん}の{腕輪|うでわ} (gold bracelet)\n- {腕輪|うでわ}をはめる (to put on a bracelet)\n- {腕輪|うでわ}を{外|はず}す (to take off a bracelet)\n\nWORD FORMATION:\n{腕|うで} (arm) + {輪|わ} (ring, circle). The {輪|わ} component appears in {指輪|ゆびわ} (ring [for fingers]).",
-  "cross_references": [],
+  "notes": "USAGE:\n{腕輪|うでわ} is the native Japanese word for bracelet. In modern everyday speech, ⟦ブレスレット→ブレスレット：04892_buresuretto⟧ (from English \"bracelet\") is more commonly used for fashion accessories, while {腕輪|うでわ} is preferred in historical, traditional, or formal contexts.\n\nCOMMON COLLOCATIONS:\n- {金|きん}⟦の→の：09472_no⟧{腕輪|うでわ} (gold bracelet)\n- {腕輪|うでわ}⟦を→を：00422_wo⟧はめる (to put on a bracelet)\n- {腕輪|うでわ}⟦を→を：00422_wo⟧⟦{外|はず}す→外す：02394_hazusu⟧ (to take off a bracelet)\n\nFORMS:\n⟦{腕|うで}→腕：01006_ude⟧ (arm) + ⟦{輪|わ}→輪：02142_wa⟧ (ring, circle). The ⟦{輪|わ}→輪：02142_wa⟧ component appears in ⟦{指輪|ゆびわ}→指輪：01744_yubiwa⟧ (ring [for fingers]).",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25074_banguru",
+      "reading": "ばんぐる",
+      "headword": "バングル",
+      "label": "bangle"
+    }
+  ],
   "metadata": {
     "created": "2026-03-05T06:30:15Z",
-    "modified": "2026-03-05T06:30:15Z",
+    "modified": "2026-09-02T04:01:39Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["clothing"]
+      "semantic": [
+        "clothing"
+      ]
     }
   }
 }

@@ -15,41 +15,51 @@
   "examples": [
     {
       "id": "28119_butai_ex1",
-      "japanese": "{部隊|ぶたい}が{出動|しゅつどう}した。",
+      "japanese": "{部隊|ぶたい}⟦が→が：00051_ga⟧⟦{出動|しゅつどう}→出動：28803_shutsudou⟧⟦した→する：00392_suru⟧。",
       "english": "The unit was deployed.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28119_butai_ex2",
-      "japanese": "{特殊|とくしゅ}{部隊|ぶたい}が{現場|げんば}に{向|む}かった。",
+      "japanese": "⟦{特殊|とくしゅ}→特殊：04566_tokushu⟧{部隊|ぶたい}⟦が→が：00051_ga⟧⟦{現場|げんば}→現場：02723_genba⟧⟦に→に：00314_ni⟧⟦{向|む}かった→向かう：01186_mukau⟧。",
       "english": "A special unit headed to the scene.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28119_butai_ex3",
-      "japanese": "{救助|きゅうじょ}{部隊|ぶたい}が{被災地|ひさいち}に{派遣|はけん}され、{昼夜|ちゅうや}を{問|と}わず{活動|かつどう}した。",
+      "japanese": "⟦{救助|きゅうじょ}→救助：02588_kyuujo⟧{部隊|ぶたい}⟦が→が：00051_ga⟧⟦{被災地|ひさいち}→被災地：27434_hisaichi⟧⟦に→に：00314_ni⟧⟦{派遣|はけん}→派遣：13273_haken⟧⟦され→する：00392_suru⟧、⟦{昼夜|ちゅうや}→昼夜：12993_chuuya⟧⟦を→を：00422_wo⟧⟦{問|と}わ→問う：02299_tou⟧ず⟦{活動|かつどう}→活動：00201_katsudou⟧⟦した→する：00392_suru⟧。",
       "english": "A rescue unit was dispatched to the disaster area and worked around the clock.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "{部隊|ぶたい} refers to an organized military unit, but is also used figuratively for any task team or squad.\n\nCOMMON COLLOCATIONS:\n- {特殊|とくしゅ}{部隊|ぶたい}: special forces unit\n- {部隊|ぶたい}を{派遣|はけん}する: to dispatch a unit\n- {機動|きどう}{部隊|ぶたい}: mobile unit; task force\n\nNOTE:\nNot to be confused with its homophone {舞台|ぶたい} (stage), written with different kanji.",
+  "notes": "{部隊|ぶたい} refers to an organized military unit, but is also used figuratively for any task team or squad.\n\nCOMMON COLLOCATIONS:\n- ⟦{特殊|とくしゅ}→特殊：04566_tokushu⟧{部隊|ぶたい}: special forces unit\n- {部隊|ぶたい}⟦を→を：00422_wo⟧⟦{派遣|はけん}→派遣：13273_haken⟧⟦する→する：00392_suru⟧: to dispatch a unit\n- {機動|きどう}{部隊|ぶたい}: mobile unit; task force\n\nUSAGE:\nNot to be confused with its homophone ⟦{舞台|ぶたい}→舞台：03606_butai⟧ (stage), written with different kanji.",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["general"],
+      "politeness": "plain",
+      "semantic": [
+        "general"
+      ],
       "domain": []
     },
     "created": "2026-05-26T02:06:25Z",
-    "modified": "2026-05-26T02:06:25Z"
+    "modified": "2026-09-02T04:02:32Z"
   }
 }

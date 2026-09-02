@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30403_marugeriita_ex1",
-      "japanese": "マルゲリータを{注文|ちゅうもん}した。",
+      "japanese": "マルゲリータ⟦を→を：00422_wo⟧⟦{注文|ちゅうもん}した→注文する：21390_chuumon⟧。",
       "english": "I ordered a margherita.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30403_marugeriita_ex2",
-      "japanese": "{初|はじ}めての{店|みせ}では、まずマルゲリータを{食|た}べてみる。",
+      "japanese": "⟦{初|はじ}めて→初めて：02932_hajimete⟧⟦の→の：09472_no⟧⟦{店|みせ}→店：00497_mise⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧、⟦まず→まず：00796_mazu⟧マルゲリータ⟦を→を：00422_wo⟧⟦{食|た}べて→食べる：00396_taberu⟧みる。",
       "english": "At a restaurant I'm visiting for the first time, I try the margherita first.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30403_marugeriita_ex3",
-      "japanese": "トマトとチーズとバジルだけのマルゲリータは、{材料|ざいりょう}の{質|しつ}がそのまま{味|あじ}に{出|で}る。",
+      "japanese": "⟦トマト→トマト：05192_tomato⟧⟦と→と：00512_to⟧⟦チーズ→チーズ：00026_chiizu⟧⟦と→と：00512_to⟧⟦バジル→バジル：25893_bajiru⟧⟦だけ→〜だけ：03093_dake⟧⟦の→の：09472_no⟧マルゲリータ⟦は→は：00079_ha⟧、⟦{材料|ざいりょう}→材料：02831_zairyou⟧⟦の→の：09472_no⟧⟦{質|しつ}→質：01425_shitsu⟧⟦が→が：00051_ga⟧⟦そのまま→そのまま：03322_sonomama⟧⟦{味|あじ}→味：00826_aji⟧⟦に→に：00314_ni⟧⟦{出|で}る→出る：00513_deru⟧。",
       "english": "With a margherita, made of nothing but tomato, cheese, and basil, the quality of the ingredients comes through directly in the taste.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Counted with 〜{枚|まい}. The name is said to come from Queen Margherita of Italy, the red, white, and green toppings matching the Italian flag.\n\nCOMMON COLLOCATIONS:\n- マルゲリータを{頼|たの}む: to order a margherita\n- マルゲリータピッツァ: margherita pizza (fuller name)\n- {定番|ていばん}のマルゲリータ: the standard margherita\n\nSIMILAR WORDS:\n- ピッツァ / ピザ: pizza — the general word; マルゲリータ is one specific kind\n- モッツァレラ: mozzarella — the cheese that defines the topping\n- マリナーラ: marinara — the other classic Neapolitan pizza, made without cheese",
+  "notes": "Counted with 〜⟦{枚|まい}→〜枚：00650_mai⟧. The name is said to come from Queen Margherita of Italy, the red, white, and green toppings matching the Italian flag.\n\nCOMMON COLLOCATIONS:\n- マルゲリータ⟦を→を：00422_wo⟧⟦{頼|たの}む→頼む：01104_tanomu⟧: to order a margherita\n- マルゲリータピッツァ: margherita pizza (fuller name)\n- ⟦{定番|ていばん}→定番：12265_teiban⟧⟦の→の：09472_no⟧マルゲリータ: the standard margherita\n\nSIMILAR WORDS:\n- ⟦ピッツァ→ピッツァ：30402_pittsa⟧ / ⟦ピザ→ピザ：06769_piza⟧: pizza — the general word; マルゲリータ is one specific kind\n- モッツァレラ: mozzarella — the cheese that defines the topping\n- マリナーラ: marinara — the other classic Neapolitan pizza, made without cheese",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "30402_pittsa",
+      "reading": "ぴっつぁ",
+      "headword": "ピッツァ",
+      "label": "pizza"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06769_piza",
+      "reading": "ぴざ",
+      "headword": "ピザ",
+      "label": "pizza"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +76,6 @@
       "domain": []
     },
     "created": "2026-08-05T00:20:41Z",
-    "modified": "2026-08-05T00:20:41Z"
+    "modified": "2026-09-02T04:02:40Z"
   }
 }

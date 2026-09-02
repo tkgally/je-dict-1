@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28833_gaaze_ex1",
-      "japanese": "{傷口|きずぐち}にガーゼを{当|あ}てた。",
+      "japanese": "⟦{傷口|きずぐち}→傷口：09517_kizuguchi⟧⟦に→に：00314_ni⟧ガーゼ⟦を→を：00422_wo⟧⟦{当|あ}てた→当てる：01864_ateru⟧。",
       "english": "I put gauze over the wound.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28833_gaaze_ex2",
-      "japanese": "ガーゼのハンカチは{肌|はだ}に{優|やさ}しい。",
+      "japanese": "ガーゼ⟦の→の：09472_no⟧⟦ハンカチ→ハンカチ：02937_hankachi⟧⟦は→は：00079_ha⟧⟦{肌|はだ}→肌：02243_hada⟧⟦に→に：00314_ni⟧{優|やさ}しい。",
       "english": "Gauze handkerchiefs are gentle on the skin.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28833_gaaze_ex3",
-      "japanese": "{赤|あか}ちゃんには{吸水性|きゅうすいせい}のいいガーゼ{素材|そざい}のタオルがおすすめだ。",
+      "japanese": "⟦{赤|あか}ちゃん→赤ちゃん：01282_akachan⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{吸水性|きゅうすいせい}⟦の→の：09472_no⟧⟦いい→いい：00118_ii⟧ガーゼ⟦{素材|そざい}→素材：09492_sozai⟧⟦の→の：09472_no⟧⟦タオル→タオル：01533_taoru⟧⟦が→が：00051_ga⟧⟦おすすめ→おすすめ：09746_osusume⟧だ。",
       "english": "For babies, gauze-material towels with good absorbency are recommended.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "From German 'Gaze'. Refers both to medical gauze sold in squares at pharmacies and to the soft, breathable cotton fabric used for baby items and warm-weather sleepwear.\n\nCOMMON COLLOCATIONS:\n- ガーゼを{当|あ}てる: to apply gauze\n- {滅菌|めっきん}ガーゼ: sterile gauze\n- ガーゼハンカチ: gauze handkerchief\n- ガーゼタオル: gauze towel (often for babies)\n- ガーゼ{素材|そざい}: gauze material\n\nSIMILAR WORDS:\n- {包帯|ほうたい}: bandage — for wrapping; ガーゼ is the absorbent pad placed first\n- ばんそうこう: adhesive bandage; band-aid — for small cuts\n- コットン: cotton pad — for skincare; usually denser than gauze",
+  "notes": "From German 'Gaze'. Refers both to medical gauze sold in squares at pharmacies and to the soft, breathable cotton fabric used for baby items and warm-weather sleepwear.\n\nCOMMON COLLOCATIONS:\n- ガーゼ⟦を→を：00422_wo⟧⟦{当|あ}てる→当てる：01864_ateru⟧: to apply gauze\n- ⟦{滅菌|めっきん}→滅菌：24175_mekkin⟧ガーゼ: sterile gauze\n- ガーゼ⟦ハンカチ→ハンカチ：02937_hankachi⟧: gauze handkerchief\n- ガーゼ⟦タオル→タオル：01533_taoru⟧: gauze towel (often for babies)\n- ガーゼ⟦{素材|そざい}→素材：09492_sozai⟧: gauze material\n\nSIMILAR WORDS:\n- ⟦{包帯|ほうたい}→包帯：05385_houtai⟧: bandage — for wrapping; ガーゼ is the absorbent pad placed first\n- ばんそうこう: adhesive bandage; band-aid — for small cuts\n- コットン: cotton pad — for skincare; usually denser than gauze",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05385_houtai",
+      "reading": "ほうたい",
+      "headword": "{包帯|ほうたい}",
+      "label": "bandage"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05386_bansoukou",
+      "reading": "ばんそうこう",
+      "headword": "{絆創膏|ばんそうこう}",
+      "label": "adhesive bandage"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +69,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "health",
         "tool"
@@ -61,6 +77,6 @@
       "domain": []
     },
     "created": "2026-06-06T02:07:42Z",
-    "modified": "2026-08-08T18:34:17Z"
+    "modified": "2026-09-02T04:02:35Z"
   }
 }

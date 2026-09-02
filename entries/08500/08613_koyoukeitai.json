@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08613_koyoukeitai_ex1",
-      "japanese": "{雇用形態|こようけいたい}を{確認|かくにん}する。",
+      "japanese": "{雇用形態|こようけいたい}⟦を→を：00422_wo⟧⟦{確認|かくにん}する→確認する：25332_kakuninsuru⟧。",
       "english": "Confirm the employment type.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "08613_koyoukeitai_ex2",
-      "japanese": "{雇用形態|こようけいたい}によって{給与|きゅうよ}が{違|ちが}う。",
+      "japanese": "{雇用形態|こようけいたい}⟦によって→によって：06801_niyotte⟧⟦{給与|きゅうよ}→給与：00264_kyuuyo⟧⟦が→が：00051_ga⟧⟦{違|ちが}う→違う：01957_chigau⟧。",
       "english": "Salary differs depending on employment type.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "08613_koyoukeitai_ex3",
-      "japanese": "この{求人|きゅうじん}の{雇用形態|こようけいたい}は{正社員|せいしゃいん}です。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{求人|きゅうじん}→求人：04690_kyuujin⟧⟦の→の：09472_no⟧{雇用形態|こようけいたい}⟦は→は：00079_ha⟧⟦{正社員|せいしゃいん}→正社員：13194_seishain⟧です。",
       "english": "The employment type for this job posting is full-time employee.",
       "sense_numbers": [
         1
@@ -43,7 +43,23 @@
       "notes": null
     }
   ],
-  "notes": "TYPES OF {雇用形態|こようけいたい}:\n- {正社員|せいしゃいん} - permanent full-time employee\n- {契約社員|けいやくしゃいん} - contract employee\n- {派遣社員|はけんしゃいん} - temporary staff (dispatched worker)\n- パート - part-time worker\n- アルバイト - part-time worker (often students)\n- {嘱託|しょくたく} - commissioned employee\n- {業務委託|ぎょうむいたく} - contractor\n\nDIFFERENCES:\n- {正規雇用|せいきこよう} - regular employment\n- {非正規雇用|ひせいきこよう} - non-regular employment\n\nCOMMON COLLOCATIONS:\n- {雇用形態|こようけいたい}を{変更|へんこう}する - change employment type\n- {雇用形態|こようけいたい}に{関|かか}わらず - regardless of employment type",
+  "notes": "TYPES OF {雇用形態|こようけいたい}:\n- ⟦{正社員|せいしゃいん}→正社員：13194_seishain⟧ - permanent full-time employee\n- ⟦{契約社員|けいやくしゃいん}→契約社員：12260_keiyakushain⟧ - contract employee\n- ⟦{派遣社員|はけんしゃいん}→派遣社員：18875_hakenshain⟧ - temporary staff (dispatched worker)\n- ⟦パート→パート：03106_paato⟧ - part-time worker\n- ⟦アルバイト→アルバイト：01528_arubaito⟧ - part-time worker (often students)\n- ⟦{嘱託|しょくたく}→嘱託：17155_shokutaku⟧ - commissioned employee\n- {業務委託|ぎょうむいたく} - contractor\n\nSIMILAR WORDS:\n- {正規雇用|せいきこよう} - regular employment\n- ⟦{非正規雇用|ひせいきこよう}→非正規雇用：20988_hiseikikoyou⟧ - non-regular employment\n\nCOMMON COLLOCATIONS:\n- {雇用形態|こようけいたい}⟦を→を：00422_wo⟧⟦{変更|へんこう}する→変更する：30779_henkousuru⟧ - change employment type\n- {雇用形態|こようけいたい}⟦に→に：00314_ni⟧⟦{関|かか}わら→関わる：03020_kakawaru⟧ず - regardless of employment type",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20988_hiseikikoyou",
+      "reading": "ひせいきこよう",
+      "headword": "{非正規雇用|ひせいきこよう}",
+      "label": "non-regular employment"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27106_kinmukeitai",
+      "reading": "きんむけいたい",
+      "headword": "{勤務形態|きんむけいたい}",
+      "label": "work arrangement"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -51,12 +67,13 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "business",
         "work"
       ]
     },
     "created": "2026-01-27T12:31:57Z",
-    "modified": "2026-06-22T12:50:00Z"
+    "modified": "2026-09-02T04:01:15Z"
   }
 }

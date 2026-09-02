@@ -15,41 +15,61 @@
   "examples": [
     {
       "id": "28702_furui_ex1",
-      "japanese": "{小麦粉|こむぎこ}をふるいにかける。",
+      "japanese": "⟦{小麦粉|こむぎこ}→小麦粉：04922_komugiko⟧⟦を→を：00422_wo⟧ふるい⟦に→に：00314_ni⟧⟦かける→かける：00854_kakeru⟧。",
       "english": "I sift the flour.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28702_furui_ex2",
-      "japanese": "ふるいで{粉砂糖|こなざとう}を{振|ふ}りかけた。",
+      "japanese": "ふるい⟦で→で：00502_de⟧{粉砂糖|こなざとう}⟦を→を：00422_wo⟧⟦{振|ふ}りかけた→振りかける：21485_furikakeru⟧。",
       "english": "I dusted on powdered sugar with a sieve.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28702_furui_ex3",
-      "japanese": "{細|こま}かい{砂利|じゃり}と{土|つち}を{分|わ}けるために、{庭|にわ}でふるいを{使|つか}った。",
+      "japanese": "⟦{細|こま}かい→細かい：01245_komakai⟧⟦{砂利|じゃり}→砂利：14948_jari⟧⟦と→と：00512_to⟧⟦{土|つち}→土：02229_tsuchi⟧⟦を→を：00422_wo⟧⟦{分|わ}ける→分ける：02333_wakeru⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧、⟦{庭|にわ}→庭：02239_niwa⟧⟦で→で：00502_de⟧ふるい⟦を→を：00422_wo⟧⟦{使|つか}った→使う：00473_tsukau⟧。",
       "english": "I used a sieve in the garden to separate fine gravel from soil.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Written in kanji as {篩|ふるい}, but the kana form is more common in everyday writing. The noun form of the verb {篩|ふる}う (to sift).\n\nCOMMON COLLOCATIONS:\n- ふるいにかける: to sift; to put through a sieve (also figurative: to screen, filter out)\n- {粉|こな}をふるう: to sift flour\n- ふるいでこす: to strain through a sieve\n\nFIGURATIVE USE:\nふるいにかける is also used figuratively for screening or filtering people or candidates: {応募者|おうぼしゃ}をふるいにかける (to screen applicants).\n\nSIMILAR WORDS:\n- ざる: colander; sieve basket — coarser mesh, typically for draining noodles or rinsing vegetables\n- こし{器|き}: strainer — for liquids, finer than ざる",
+  "notes": "Written in kanji as {篩|ふるい}, but the kana form is more common in everyday writing. The noun form of the verb {篩|ふる}う (to sift).\n\nCOMMON COLLOCATIONS:\n- ふるい⟦に→に：00314_ni⟧⟦かける→かける：00854_kakeru⟧: to sift; to put through a sieve (also figurative: to screen, filter out)\n- ⟦{粉|こな}→粉：02766_kona⟧⟦を→を：00422_wo⟧ふるう: to sift flour\n- ふるい⟦で→で：00502_de⟧こす: to strain through a sieve\n\nUSAGE:\nふるい⟦に→に：00314_ni⟧⟦かける→かける：00854_kakeru⟧ is also used figuratively for screening or filtering people or candidates: ⟦{応募者|おうぼしゃ}→応募者：20440_oubosha⟧⟦を→を：00422_wo⟧ふるい⟦に→に：00314_ni⟧⟦かける→かける：00854_kakeru⟧ (to screen applicants).\n\nSIMILAR WORDS:\n- ⟦ざる→ざる：04470_zaru⟧: colander; sieve basket — coarser mesh, typically for draining noodles or rinsing vegetables\n- こし{器|き}: strainer — for liquids, finer than ⟦ざる→ざる：04470_zaru⟧",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04470_zaru",
+      "reading": "ざる",
+      "headword": "ざる",
+      "label": "colander"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["tool", "cooking"],
+      "politeness": "plain",
+      "semantic": [
+        "tool",
+        "cooking"
+      ],
       "domain": []
     },
     "created": "2026-06-04T03:09:47Z",
-    "modified": "2026-06-04T03:09:47Z"
+    "modified": "2026-09-02T04:02:34Z"
   }
 }

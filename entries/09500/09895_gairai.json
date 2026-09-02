@@ -19,30 +19,36 @@
   "examples": [
     {
       "id": "09895_gairai_ex1",
-      "japanese": "{外来|がいらい}{患者|かんじゃ}は{朝|あさ}{早|はや}く{来|く}る{人|ひと}が{多|おお}い。",
+      "japanese": "{外来|がいらい}⟦{患者|かんじゃ}→患者：00170_kanja⟧⟦は→は：00079_ha⟧⟦{朝|あさ}→朝：02277_asa⟧⟦{早|はや}く→早い：00514_hayai⟧⟦{来|く}る→来る：00254_kuru⟧⟦{人|ひと}→人：00476_hito⟧⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "Many outpatients come early in the morning.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09895_gairai_ex2",
-      "japanese": "{今日|きょう}は{外来|がいらい}の{日|ひ}だ。",
+      "japanese": "⟦{今日|きょう}→今日：00496_kyou⟧⟦は→は：00079_ha⟧{外来|がいらい}⟦の→の：09472_no⟧⟦{日|ひ}→日：02249_hi⟧だ。",
       "english": "Today is my outpatient visit day.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09895_gairai_ex3",
-      "japanese": "{外来|がいらい}{種|しゅ}が{生態系|せいたいけい}に{影響|えいきょう}を{与|あた}えている。",
+      "japanese": "{外来|がいらい}{種|しゅ}⟦が→が：00051_ga⟧⟦{生態系|せいたいけい}→生態系：04626_seitaikei⟧⟦に→に：00314_ni⟧⟦{影響|えいきょう}→影響：01877_eikyou⟧⟦を→を：00422_wo⟧⟦{与|あた}えている→与える：01821_ataeru⟧。",
       "english": "Invasive species are affecting the ecosystem.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
-  "notes": "{外来|がいらい} has two main meanings: outpatient (medical) and foreign origin.\n\nSENSE 1 - Medical:\n- {外来|がいらい}{患者|かんじゃ}: outpatient\n- {外来|がいらい}{診療|しんりょう}: outpatient care\n- {外来|がいらい}{受付|うけつけ}: outpatient reception\n- {救急|きゅうきゅう}{外来|がいらい}: emergency outpatient\n\nOPPOSITE:\n- {入院|にゅういん}{患者|かんじゃ}: inpatient\n\nSENSE 2 - Foreign origin:\n- {外来|がいらい}{語|ご}: loanword (foreign-origin word)\n- {外来|がいらい}{種|しゅ}: invasive/introduced species\n- {外来|がいらい}{文化|ぶんか}: foreign culture\n\nNOTE:\nIn medical contexts, {外来|がいらい} alone often means \"outpatient department/services.\"",
+  "notes": "{外来|がいらい} has two main meanings: outpatient (medical) and foreign origin.\n\nSENSE 1 - Medical:\n- {外来|がいらい}⟦{患者|かんじゃ}→患者：00170_kanja⟧: outpatient\n- {外来|がいらい}⟦{診療|しんりょう}→診療：14183_shinryou⟧: outpatient care\n- {外来|がいらい}⟦{受付|うけつけ}→受付：01325_uketsuke⟧: outpatient reception\n- ⟦{救急|きゅうきゅう}→救急：15075_kyuukyuu⟧{外来|がいらい}: emergency outpatient\n\nSIMILAR WORDS:\n- ⟦{入院|にゅういん}{患者|かんじゃ}→入院患者：24805_nyuuinkanja⟧: inpatient\n\nSENSE 2 - Foreign origin:\n- {外来|がいらい}{語|ご}: loanword (foreign-origin word)\n- {外来|がいらい}{種|しゅ}: invasive/introduced species\n- {外来|がいらい}⟦{文化|ぶんか}→文化：01504_bunka⟧: foreign culture\n\nUSAGE:\nIn medical contexts, {外来|がいらい} alone often means \"outpatient department/services.\"",
   "cross_references": [
     {
       "type": "antonym",
@@ -50,17 +56,35 @@
       "reading": "にゅういん",
       "headword": "{入院|にゅういん}",
       "label": "hospitalization"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24805_nyuuinkanja",
+      "reading": "にゅういんかんじゃ",
+      "headword": "{入院|にゅういん}{患者|かんじゃ}",
+      "label": "inpatient"
+    },
+    {
+      "type": "related",
+      "target_id": "05975_tsuuin",
+      "reading": "つういん",
+      "headword": "{通院|つういん}",
+      "label": "visiting a hospital"
     }
   ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     },
     "created": "2026-02-04T03:55:03Z",
-    "modified": "2026-02-04T03:55:03Z"
+    "modified": "2026-09-02T04:01:19Z"
   }
 }

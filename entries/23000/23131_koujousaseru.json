@@ -3,7 +3,7 @@
   "headword": "{向上|こうじょう}させる",
   "reading": "こうじょうさせる",
   "romaji": "koujousaseru",
-  "part_of_speech": "verb",
+  "part_of_speech": "verb (ichidan)",
   "gloss": "to improve; to enhance; to raise",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "23131_koujousaseru_ex1",
-      "japanese": "{品質|ひんしつ}を{向上|こうじょう}させる。",
+      "japanese": "⟦{品質|ひんしつ}→品質：09507_hinshitsu⟧⟦を→を：00422_wo⟧{向上|こうじょう}させる。",
       "english": "To improve quality.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "23131_koujousaseru_ex2",
-      "japanese": "{社員|しゃいん}の{能力|のうりょく}を{向上|こうじょう}させるための{研修|けんしゅう}を{行|おこな}った。",
+      "japanese": "⟦{社員|しゃいん}→社員：03065_shain⟧⟦の→の：09472_no⟧⟦{能力|のうりょく}→能力：03541_nouryoku⟧⟦を→を：00422_wo⟧{向上|こうじょう}させる⟦ため→ため：01145_tame⟧⟦の→の：09472_no⟧⟦{研修|けんしゅう}→研修：05322_kenshuu⟧⟦を→を：00422_wo⟧⟦{行|おこな}った→行う：01238_okonau⟧。",
       "english": "We conducted training to improve employees' abilities.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "23131_koujousaseru_ex3",
-      "japanese": "サービスの{質|しつ}を{向上|こうじょう}させるために、{顧客|こきゃく}の{意見|いけん}を{積極的|せっきょくてき}に{取|と}り{入|い}れている。",
+      "japanese": "⟦サービス→サービス：01531_saabisu⟧⟦の→の：09472_no⟧⟦{質|しつ}→質：01425_shitsu⟧⟦を→を：00422_wo⟧{向上|こうじょう}させる⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧、⟦{顧客|こきゃく}→顧客：08632_kokyaku⟧⟦の→の：09472_no⟧⟦{意見|いけん}→意見：01303_iken⟧⟦を→を：00422_wo⟧⟦{積極的|せっきょくてき}→積極的：01585_sekkyokuteki⟧⟦に→に：00314_ni⟧⟦{取|と}り{入|い}れている→取り入れる：04221_toriireru⟧。",
       "english": "We actively incorporate customer feedback to enhance the quality of our service.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "The causative form of {向上|こうじょう}する (to improve, intransitive). While {向上|こうじょう}する means something improves on its own, {向上|こうじょう}させる means someone actively causes the improvement. This is a very common pattern in business and education.\n\nCOMMON COLLOCATIONS:\n- {品質|ひんしつ}を{向上|こうじょう}させる: to improve quality\n- {効率|こうりつ}を{向上|こうじょう}させる: to improve efficiency\n- {能力|のうりょく}を{向上|こうじょう}させる: to enhance abilities\n- {生産性|せいさんせい}を{向上|こうじょう}させる: to increase productivity\n\nSIMILAR WORDS:\n- {改善|かいぜん}する: to improve — focuses on fixing problems or correcting defects\n- {高|たか}める: to raise, to heighten — native Japanese verb with similar meaning; more versatile\n- {上達|じょうたつ}させる: to improve (someone's skill) — specifically for personal skills and abilities",
+  "notes": "The causative form of ⟦{向上|こうじょう}する→向上する：18997_koujousuru⟧ (to improve, intransitive). While ⟦{向上|こうじょう}する→向上する：18997_koujousuru⟧ means something improves on its own, {向上|こうじょう}させる means someone actively causes the improvement. This is a very common pattern in business and education.\n\nCOMMON COLLOCATIONS:\n- ⟦{品質|ひんしつ}→品質：09507_hinshitsu⟧⟦を→を：00422_wo⟧{向上|こうじょう}させる: to improve quality\n- ⟦{効率|こうりつ}→効率：11794_kouritsu⟧⟦を→を：00422_wo⟧{向上|こうじょう}させる: to improve efficiency\n- ⟦{能力|のうりょく}→能力：03541_nouryoku⟧⟦を→を：00422_wo⟧{向上|こうじょう}させる: to enhance abilities\n- ⟦{生産性|せいさんせい}→生産性：05574_seisansei⟧⟦を→を：00422_wo⟧{向上|こうじょう}させる: to increase productivity\n\nSIMILAR WORDS:\n- ⟦{改善|かいぜん}する→改善する：26828_kaizensuru⟧: to improve — focuses on fixing problems or correcting defects\n- ⟦{高|たか}める→高める：02065_takameru⟧: to raise, to heighten — native Japanese verb with similar meaning; more versatile\n- ⟦{上達|じょうたつ}させる→上達する：17981_joutatsusuru⟧: to improve (someone's skill) — specifically for personal skills and abilities",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "26828_kaizensuru",
+      "reading": "かいぜんする",
+      "headword": "{改善|かいぜん}する",
+      "label": "to improve"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02065_takameru",
+      "reading": "たかめる",
+      "headword": "{高|たか}める",
+      "label": "to raise, to heighten"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25344_kyoukasuru",
+      "reading": "きょうかする",
+      "headword": "{強化|きょうか}する",
+      "label": "to strengthen"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -58,10 +81,11 @@
       ],
       "formality": "neutral",
       "politeness": "plain",
-      "verb_class": "ichidan"
+      "verb_class": "ichidan",
+      "transitivity": "transitive"
     },
     "created": "2026-04-08T19:26:35Z",
-    "modified": "2026-04-08T19:26:35Z"
+    "modified": "2026-09-02T04:02:11Z"
   },
   "conjugation": {
     "type": "ichidan",

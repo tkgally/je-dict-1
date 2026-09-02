@@ -3,7 +3,7 @@
   "headword": "{降|ふ}り{始|はじ}める",
   "reading": "ふりはじめる",
   "romaji": "furihajimeru",
-  "part_of_speech": "verb",
+  "part_of_speech": "verb (ichidan)",
   "gloss": "to begin to fall (rain, snow); to start raining/snowing",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22638_furihajimeru_ex1",
-      "japanese": "{雨|あめ}が{降|ふ}り{始|はじ}めた。",
+      "japanese": "⟦{雨|あめ}→雨：00583_ame⟧⟦が→が：00051_ga⟧{降|ふ}り{始|はじ}めた。",
       "english": "It started raining.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22638_furihajimeru_ex2",
-      "japanese": "{夕方|ゆうがた}から{雪|ゆき}が{降|ふ}り{始|はじ}めるらしい。",
+      "japanese": "⟦{夕方|ゆうがた}→夕方：01010_yuugata⟧⟦から→から：00504_kara⟧⟦{雪|ゆき}→雪：00584_yuki⟧⟦が→が：00051_ga⟧{降|ふ}り{始|はじ}めるらしい。",
       "english": "I hear it's going to start snowing from evening.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22638_furihajimeru_ex3",
-      "japanese": "{試合|しあい}の{途中|とちゅう}で{激|はげ}しい{雨|あめ}が{降|ふ}り{始|はじ}め、{中断|ちゅうだん}になった。",
+      "japanese": "⟦{試合|しあい}→試合：01601_shiai⟧⟦の→の：09472_no⟧⟦{途中|とちゅう}→途中：01684_tochuu⟧⟦で→で：00502_de⟧⟦{激|はげ}しい→激しい：02348_hageshii⟧⟦{雨|あめ}→雨：00583_ame⟧⟦が→が：00051_ga⟧{降|ふ}り{始|はじ}め、⟦{中断|ちゅうだん}→中断：05218_chuudan⟧になった。",
       "english": "Heavy rain began falling in the middle of the game, and it was suspended.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "A compound verb formed from {降|ふ}る (to fall — rain, snow) and {始|はじ}める (to begin). Describes the onset of precipitation. This is a natural and very common compound using the V-stem + {始|はじ}める pattern that means \"to start doing.\"\n\nUSAGE:\nThe subject is always a form of precipitation ({雨|あめ}, {雪|ゆき}, {雹|ひょう}, etc.), marked by が.\n\nCOMMON COLLOCATIONS:\n- {雨|あめ}が{降|ふ}り{始|はじ}める: to start raining\n- {雪|ゆき}が{降|ふ}り{始|はじ}める: to start snowing\n- {急|きゅう}に{降|ふ}り{始|はじ}める: to suddenly start falling\n- ポツポツ{降|ふ}り{始|はじ}める: to start falling in scattered drops\n\nSIMILAR WORDS:\n- {降|ふ}り{出|だ}す: to start falling (rain/snow) — very similar, slightly more sudden/colloquial\n- {降|ふ}る: to fall (rain/snow) — the base verb, without the inceptive meaning\n- {降|ふ}り{止|や}む: to stop falling — the opposite, precipitation ending",
+  "notes": "A compound verb formed from ⟦{降|ふ}る→降る：00839_furu⟧ (to fall — rain, snow) and {始|はじ}める (to begin). Describes the onset of precipitation. This is a natural and very common compound using the V-stem + {始|はじ}める pattern that means \"to start doing.\"\n\nUSAGE:\nThe subject is always a form of precipitation (⟦{雨|あめ}→雨：00583_ame⟧, ⟦{雪|ゆき}→雪：00584_yuki⟧, ⟦{雹|ひょう}→雹：17632_hyou⟧, etc.), marked by が.\n\nCOMMON COLLOCATIONS:\n- ⟦{雨|あめ}→雨：00583_ame⟧⟦が→が：00051_ga⟧{降|ふ}り{始|はじ}める: to start raining\n- ⟦{雪|ゆき}→雪：00584_yuki⟧⟦が→が：00051_ga⟧{降|ふ}り{始|はじ}める: to start snowing\n- ⟦{急|きゅう}→急：13042_kyuu⟧⟦に→に：00314_ni⟧{降|ふ}り{始|はじ}める: to suddenly start falling\n- ポツポツ{降|ふ}り{始|はじ}める: to start falling in scattered drops\n\nSIMILAR WORDS:\n- ⟦{降|ふ}り{出|だ}す→降り出す：03004_furidasu⟧: to start falling (rain/snow) — very similar, slightly more sudden/colloquial\n- ⟦{降|ふ}る→降る：00839_furu⟧: to fall (rain/snow) — the base verb, without the inceptive meaning\n- ⟦{降|ふ}り{止|や}む→降り止む：27987_furiyamu⟧: to stop falling — the opposite, precipitation ending",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03004_furidasu",
+      "reading": "ふりだす",
+      "headword": "{降|ふ}り{出|だ}す",
+      "label": "to start falling"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00839_furu",
+      "reading": "ふる",
+      "headword": "{降|ふ}る",
+      "label": "to fall"
+    },
+    {
+      "type": "antonym",
+      "target_id": "27987_furiyamu",
+      "reading": "ふりやむ",
+      "headword": "{降|ふ}り{止|や}む",
+      "label": "to stop falling"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -57,10 +80,11 @@
       ],
       "formality": "neutral",
       "politeness": "plain",
-      "verb_class": "ichidan"
+      "verb_class": "ichidan",
+      "transitivity": "intransitive"
     },
     "created": "2026-04-06T20:29:45Z",
-    "modified": "2026-04-06T20:29:45Z"
+    "modified": "2026-09-02T04:02:09Z"
   },
   "conjugation": {
     "type": "ichidan",

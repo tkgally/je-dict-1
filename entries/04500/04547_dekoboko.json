@@ -78,11 +78,40 @@
       ]
     }
   ],
-  "notes": "{凸凹|でこぼこ} describes uneven surfaces or mismatched pairs.\n\nCOMMON EXPRESSIONS:\n- {凸凹|でこぼこ}した⟦{道|みち}→道：00505_michi⟧: bumpy road\n- {凸凹|でこぼこ}⟦コンビ→コンビ：27903_konbi⟧: mismatched pair, odd couple\n- {凸凹|でこぼこ}がある: to have bumps\n\nWRITING NOTE:\nAlso commonly written in hiragana (でこぼこ). The kanji 凸凹 visually represent the bumps (凸) and dips (凹).\n\nRELATED WORDS:\n- ⟦ガタガタ→がたがた：05274_gatagata⟧: rattling, rough\n- ⟦{平|たい}ら→平ら：03399_taira⟧: flat, even",
-  "cross_references": [],
+  "notes": "{凸凹|でこぼこ} describes uneven surfaces or mismatched pairs.\n\nCOMMON EXPRESSIONS:\n- {凸凹|でこぼこ}⟦した→する：00392_suru⟧⟦{道|みち}→道：00505_michi⟧: bumpy road\n- {凸凹|でこぼこ}⟦コンビ→コンビ：27903_konbi⟧: mismatched pair, odd couple\n- {凸凹|でこぼこ}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧: to have bumps\n\nWRITING:\nAlso commonly written in hiragana (でこぼこ). The kanji 凸凹 visually represent the bumps (凸) and dips (凹).\n\nRELATED WORDS:\n- ⟦ガタガタ→がたがた：05274_gatagata⟧: rattling, rough\n- ⟦{平|たい}ら→平ら：03399_taira⟧: flat, even",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "05274_gatagata",
+      "reading": "がたがた",
+      "headword": "がたがた",
+      "label": "rattling, rough"
+    },
+    {
+      "type": "related",
+      "target_id": "03399_taira",
+      "reading": "たいら",
+      "headword": "{平|たい}ら",
+      "label": "flat, even"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05174_zarazara",
+      "reading": "ざらざら",
+      "headword": "ざらざら",
+      "label": "rough"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10795_gizagiza",
+      "reading": "ぎざぎざ",
+      "headword": "ギザギザ",
+      "label": "jagged, serrated"
+    }
+  ],
   "metadata": {
     "created": "2026-01-14T00:33:36Z",
-    "modified": "2026-06-10T17:34:32Z",
+    "modified": "2026-09-02T04:01:05Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

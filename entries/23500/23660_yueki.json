@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "23660_yueki_ex1",
-      "japanese": "{患者|かんじゃ}に{輸液|ゆえき}を{始|はじ}めた。",
+      "japanese": "⟦{患者|かんじゃ}→患者：00170_kanja⟧⟦に→に：00314_ni⟧{輸液|ゆえき}⟦を→を：00422_wo⟧⟦{始|はじ}めた→始める：00531_hajimeru⟧。",
       "english": "We started an IV infusion on the patient.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "23660_yueki_ex2",
-      "japanese": "{脱水|だっすい}{症状|しょうじょう}があったので{輸液|ゆえき}{治療|ちりょう}を{受|う}けた。",
+      "japanese": "⟦{脱水|だっすい}{症状|しょうじょう}→脱水症状：30114_dassuishoujou⟧⟦が→が：00051_ga⟧⟦あった→ある：00006_aru⟧⟦の→の：09472_no⟧で{輸液|ゆえき}⟦{治療|ちりょう}→治療：03503_chiryou⟧⟦を→を：00422_wo⟧⟦{受|う}けた→受ける：01215_ukeru⟧。",
       "english": "I had dehydration symptoms, so I received IV therapy.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "23660_yueki_ex3",
-      "japanese": "{食事|しょくじ}が{取|と}れない{間|あいだ}は、{栄養|えいよう}を{輸液|ゆえき}で{補|おぎな}う{必要|ひつよう}がある。",
+      "japanese": "⟦{食事|しょくじ}→食事：02087_shokuji⟧⟦が→が：00051_ga⟧⟦{取|と}れない→取れる：02376_toreru⟧⟦{間|あいだ}→間：00914_aida⟧⟦は→は：00079_ha⟧、⟦{栄養|えいよう}→栄養：01882_eiyou⟧⟦を→を：00422_wo⟧{輸液|ゆえき}⟦で→で：00502_de⟧⟦{補|おぎな}う→補う：00329_oginau⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "While the patient cannot eat, nutrition has to be supplemented through IV infusion.",
       "sense_numbers": [
         1
@@ -45,7 +45,7 @@
     },
     {
       "id": "23660_yueki_ex4",
-      "japanese": "{術後|じゅつご}{管理|かんり}では、{輸液|ゆえき}の{種類|しゅるい}と{速度|そくど}を{患者|かんじゃ}の{状態|じょうたい}に{合|あ}わせて{細|こま}かく{調整|ちょうせい}する。",
+      "japanese": "⟦{術後|じゅつご}→術後：15639_jutsugo⟧⟦{管理|かんり}→管理：00178_kanri⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧、{輸液|ゆえき}⟦の→の：09472_no⟧⟦{種類|しゅるい}→種類：01560_shurui⟧⟦と→と：00512_to⟧⟦{速度|そくど}→速度：03319_sokudo⟧⟦を→を：00422_wo⟧⟦{患者|かんじゃ}→患者：00170_kanja⟧⟦の→の：09472_no⟧⟦{状態|じょうたい}→状態：03345_joutai⟧⟦に→に：00314_ni⟧⟦{合|あ}わせて→合わせる：01872_awaseru⟧⟦{細|こま}かく→細かい：01245_komakai⟧⟦{調整|ちょうせい}する→調整する：10442_chouseisuru⟧。",
       "english": "In postoperative care, the type and rate of IV infusion are finely adjusted to match the patient's condition.",
       "sense_numbers": [
         1
@@ -54,8 +54,31 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {輸|ゆ} (to transport; to convey, as in {輸送|ゆそう} 'transport') and {液|えき} (liquid). Literally 'transported liquid,' the term covers both the act of infusion and the bagged solution itself.\n\nUSAGE:\nA technical medical term used by doctors, nurses, pharmacists, and in patient charts. The everyday word a patient is more likely to use is {点滴|てんてき} (drip), which refers to the same procedure from the patient's point of view. {輸液|ゆえき} is preferred when discussing the formulation, volume, or rate ({輸液|ゆえき}{速度|そくど} 'infusion rate'), while {点滴|てんてき} is preferred when describing the bedside experience. Distinct from {輸血|ゆけつ}, which is the transfusion of blood specifically.\n\nCOMMON COLLOCATIONS:\n- {輸液|ゆえき}を{行|おこな}う: to perform an infusion\n- {輸液|ゆえき}{療法|りょうほう}: infusion therapy\n- {輸液|ゆえき}ポンプ: infusion pump\n- {維持|いじ}{輸液|ゆえき}: maintenance infusion (to maintain fluid balance)\n- {高|こう}カロリー{輸液|ゆえき}: high-calorie (parenteral) nutrition\n\nSIMILAR WORDS:\n- {点滴|てんてき}: IV drip — the everyday word; same procedure, less technical\n- {輸血|ゆけつ}: blood transfusion — infusion of blood specifically, not general fluid\n- {注射|ちゅうしゃ}: injection — a one-time push of medication, much smaller volume than {輸液|ゆえき}\n- {生理食塩水|せいりしょくえんすい}: physiological saline — the most common type of IV fluid",
+  "notes": "Composed of {輸|ゆ} (to transport; to convey, as in ⟦{輸送|ゆそう}→輸送：04084_yusou⟧ 'transport') and ⟦{液|えき}→液：02270_eki⟧ (liquid). Literally 'transported liquid,' the term covers both the act of infusion and the bagged solution itself.\n\nUSAGE:\nA technical medical term used by doctors, nurses, pharmacists, and in patient charts. The everyday word a patient is more likely to use is ⟦{点滴|てんてき}→点滴：10580_tenteki⟧ (drip), which refers to the same procedure from the patient's point of view. {輸液|ゆえき} is preferred when discussing the formulation, volume, or rate ({輸液|ゆえき}⟦{速度|そくど}→速度：03319_sokudo⟧ 'infusion rate'), while ⟦{点滴|てんてき}→点滴：10580_tenteki⟧ is preferred when describing the bedside experience. Distinct from ⟦{輸血|ゆけつ}→輸血：04083_yuketsu⟧, which is the transfusion of blood specifically.\n\nCOMMON COLLOCATIONS:\n- {輸液|ゆえき}⟦を→を：00422_wo⟧⟦{行|おこな}う→行う：01238_okonau⟧: to perform an infusion\n- {輸液|ゆえき}⟦{療法|りょうほう}→療法：13615_ryouhou⟧: infusion therapy\n- {輸液|ゆえき}⟦ポンプ→ポンプ：11594_ponpu⟧: infusion pump\n- ⟦{維持|いじ}→維持：01624_iji⟧{輸液|ゆえき}: maintenance infusion (to maintain fluid balance)\n- ⟦{高|こう}→高〜：03951_kou⟧⟦カロリー→カロリー：06109_karorii⟧{輸液|ゆえき}: high-calorie (parenteral) nutrition\n\nSIMILAR WORDS:\n- ⟦{点滴|てんてき}→点滴：10580_tenteki⟧: IV drip — the everyday word; same procedure, less technical\n- ⟦{輸血|ゆけつ}→輸血：04083_yuketsu⟧: blood transfusion — infusion of blood specifically, not general fluid\n- ⟦{注射|ちゅうしゃ}→注射：01665_chuusha⟧: injection — a one-time push of medication, much smaller volume than {輸液|ゆえき}\n- {生理食塩水|せいりしょくえんすい}: physiological saline — the most common type of IV fluid",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "10580_tenteki",
+      "reading": "てんてき",
+      "headword": "{点滴|てんてき}",
+      "label": "IV drip"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04083_yuketsu",
+      "reading": "ゆけつ",
+      "headword": "{輸血|ゆけつ}",
+      "label": "blood transfusion"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01665_chuusha",
+      "reading": "ちゅうしゃ",
+      "headword": "{注射|ちゅうしゃ}",
+      "label": "injection"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -69,6 +92,6 @@
       ]
     },
     "created": "2026-04-13T20:19:47Z",
-    "modified": "2026-08-02T06:24:09Z"
+    "modified": "2026-09-02T04:02:14Z"
   }
 }

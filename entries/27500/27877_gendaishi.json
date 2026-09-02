@@ -15,41 +15,68 @@
   "examples": [
     {
       "id": "27877_gendaishi_ex1",
-      "japanese": "{現代詩|げんだいし}を{読|よ}む。",
+      "japanese": "{現代詩|げんだいし}⟦を→を：00422_wo⟧⟦{読|よ}む→読む：00426_yomu⟧。",
       "english": "to read modern poetry.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27877_gendaishi_ex2",
-      "japanese": "{彼|かれ}は{現代詩|げんだいし}の{詩人|しじん}として{知|し}られている。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{現代詩|げんだいし}⟦の→の：09472_no⟧⟦{詩人|しじん}→詩人：03171_shijin⟧⟦として→として：06802_toshite⟧⟦{知|し}られている→知る：00458_shiru⟧。",
       "english": "He is known as a poet of contemporary free verse.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27877_gendaishi_ex3",
-      "japanese": "{現代詩|げんだいし}は{定型|ていけい}にとらわれず、{自由|じゆう}な{言葉|ことば}づかいで{書|か}かれることが{多|おお}い。",
+      "japanese": "{現代詩|げんだいし}⟦は→は：00079_ha⟧⟦{定型|ていけい}→定型：12349_teikei⟧⟦に→に：00314_ni⟧とらわれず、⟦{自由|じゆう}→自由：01148_jiyuu⟧な⟦{言葉|ことば}づかい→言葉づかい：14167_kotobazukai⟧⟦で→で：00502_de⟧⟦{書|か}かれる→書く：00477_kaku⟧こと⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "Modern poetry is often written in free language, unbound by fixed forms.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Poetry written in modern colloquial Japanese, typically as free verse without fixed syllable counts. It contrasts with traditional fixed forms.\n\nCOMMON COLLOCATIONS:\n- {現代詩|げんだいし}を{書|か}く: to write modern poetry\n- {現代詩|げんだいし}の{詩人|しじん}: a contemporary poet\n\nSIMILAR WORDS:\n- {短歌|たんか}: tanka — fixed 5-7-5-7-7 form\n- {俳句|はいく}: haiku — fixed 5-7-5 form\n- {詩|し}: poem; poetry — the general word, of which {現代詩|げんだいし} is one type",
+  "notes": "Poetry written in modern colloquial Japanese, typically as free verse without fixed syllable counts. It contrasts with traditional fixed forms.\n\nCOMMON COLLOCATIONS:\n- {現代詩|げんだいし}⟦を→を：00422_wo⟧⟦{書|か}く→書く：00477_kaku⟧: to write modern poetry\n- {現代詩|げんだいし}⟦の→の：09472_no⟧⟦{詩人|しじん}→詩人：03171_shijin⟧: a contemporary poet\n\nSIMILAR WORDS:\n- ⟦{短歌|たんか}→短歌：15358_tanka⟧: tanka — fixed 5-7-5-7-7 form\n- ⟦{俳句|はいく}→俳句：00083_haiku⟧: haiku — fixed 5-7-5 form\n- ⟦{詩|し}→詩：02139_shi⟧: poem; poetry — the general word, of which {現代詩|げんだいし} is one type",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15358_tanka",
+      "reading": "たんか",
+      "headword": "{短歌|たんか}",
+      "label": "tanka"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00083_haiku",
+      "reading": "はいく",
+      "headword": "{俳句|はいく}",
+      "label": "haiku"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["culture", "language"],
+      "politeness": "plain",
+      "semantic": [
+        "culture",
+        "language"
+      ],
       "domain": []
     },
     "created": "2026-05-21T04:04:20Z",
-    "modified": "2026-05-21T04:04:20Z"
+    "modified": "2026-09-02T04:02:32Z"
   }
 }

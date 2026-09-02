@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24886_soufuuki_ex1",
-      "japanese": "{工場|こうじょう}に{大型|おおがた}の{送風機|そうふうき}が{設置|せっち}されている。",
+      "japanese": "⟦{工場|こうじょう}→工場：01082_koujou⟧⟦に→に：00314_ni⟧⟦{大型|おおがた}→大型：03016_oogata⟧⟦の→の：09472_no⟧{送風機|そうふうき}⟦が→が：00051_ga⟧⟦{設置|せっち}→設置：09750_secchi⟧⟦されている→する：00392_suru⟧。",
       "english": "Large blowers are installed in the factory.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24886_soufuuki_ex2",
-      "japanese": "{送風機|そうふうき}を{回|まわ}して{室内|しつない}の{空気|くうき}を{入|い}れ{替|か}えた。",
+      "japanese": "{送風機|そうふうき}⟦を→を：00422_wo⟧⟦{回|まわ}して→回す：01158_mawasu⟧⟦{室内|しつない}→室内：03061_shitsunai⟧⟦の→の：09472_no⟧⟦{空気|くうき}→空気：01390_kuuki⟧⟦を→を：00422_wo⟧⟦{入|い}れ{替|か}えた→入れ替える：08227_irekaeru⟧。",
       "english": "I ran the ventilation fan to circulate the indoor air.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24886_soufuuki_ex3",
-      "japanese": "{塗装|とそう}{作業|さぎょう}のあとは{送風機|そうふうき}で{十分|じゅうぶん}に{乾燥|かんそう}させる{必要|ひつよう}がある。",
+      "japanese": "⟦{塗装|とそう}→塗装：06582_tosou⟧⟦{作業|さぎょう}→作業：02775_sagyou⟧⟦の→の：09472_no⟧あと⟦は→は：00079_ha⟧{送風機|そうふうき}⟦で→で：00502_de⟧⟦{十分|じゅうぶん}→十分：01614_juubun⟧⟦に→に：00314_ni⟧⟦{乾燥|かんそう}→乾燥：00184_kansou⟧⟦させる→する：00392_suru⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "After painting work, it's necessary to dry thoroughly using a blower.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {送風|そうふう} (sending air/ventilation) + {機|き} (machine). A technical term for dedicated air-moving equipment, distinct from household electric fans.\n\nCOMMON COLLOCATIONS:\n- {大型|おおがた}{送風機|そうふうき}: large blower\n- {工業用|こうぎょうよう}{送風機|そうふうき}: industrial blower\n- {送風機|そうふうき}を{回|まわ}す: to run a blower\n- {換気|かんき}{送風機|そうふうき}: ventilation fan\n\nSIMILAR WORDS:\n- {扇風機|せんぷうき}: electric fan — household fan for personal cooling\n- {換気扇|かんきせん}: ventilation fan — typically installed in walls or ceilings of kitchens and bathrooms\n- サーキュレーター: circulator fan — for circulating room air, often used with air conditioning\n- {空調|くうちょう}: air conditioning — broader climate control system",
+  "notes": "Compound of ⟦{送風|そうふう}→送風：23691_soufuu⟧ (sending air/ventilation) + ⟦{機|き}→〜機：09843_ki⟧ (machine). A technical term for dedicated air-moving equipment, distinct from household electric fans.\n\nCOMMON COLLOCATIONS:\n- ⟦{大型|おおがた}→大型：03016_oogata⟧{送風機|そうふうき}: large blower\n- {工業用|こうぎょうよう}{送風機|そうふうき}: industrial blower\n- {送風機|そうふうき}⟦を→を：00422_wo⟧⟦{回|まわ}す→回す：01158_mawasu⟧: to run a blower\n- ⟦{換気|かんき}→換気：00172_kanki⟧{送風機|そうふうき}: ventilation fan\n\nSIMILAR WORDS:\n- ⟦{扇風機|せんぷうき}→扇風機：05069_senpuuki⟧: electric fan — household fan for personal cooling\n- ⟦{換気扇|かんきせん}→換気扇：04678_kankisen⟧: ventilation fan — typically installed in walls or ceilings of kitchens and bathrooms\n- サーキュレーター: circulator fan — for circulating room air, often used with air conditioning\n- ⟦{空調|くうちょう}→空調：27362_kuuchou⟧: air conditioning — broader climate control system",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05069_senpuuki",
+      "reading": "せんぷうき",
+      "headword": "{扇風機|せんぷうき}",
+      "label": "electric fan"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04678_kankisen",
+      "reading": "かんきせん",
+      "headword": "{換気扇|かんきせん}",
+      "label": "ventilation fan"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27362_kuuchou",
+      "reading": "くうちょう",
+      "headword": "{空調|くうちょう}",
+      "label": "air conditioning"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +83,6 @@
       ]
     },
     "created": "2026-04-21T11:25:34Z",
-    "modified": "2026-08-03T09:22:27Z"
+    "modified": "2026-09-02T04:02:20Z"
   }
 }

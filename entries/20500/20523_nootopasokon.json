@@ -14,43 +14,80 @@
   "examples": [
     {
       "id": "20523_nootopasokon_ex1",
-      "japanese": "ノートパソコンを{買|か}った。",
+      "japanese": "ノートパソコン⟦を→を：00422_wo⟧⟦{買|か}った→買う：00489_kau⟧。",
       "english": "I bought a laptop.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20523_nootopasokon_ex2",
-      "japanese": "カフェでノートパソコンを{開|ひら}いて{仕事|しごと}をする。",
+      "japanese": "⟦カフェ→カフェ：06767_kafe⟧⟦で→で：00502_de⟧ノートパソコン⟦を→を：00422_wo⟧⟦{開|ひら}いて→開く：01979_hiraku⟧⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧。",
       "english": "I open my laptop at a café and work.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20523_nootopasokon_ex3",
-      "japanese": "{新|あたら}しいノートパソコンは{軽|かる}くて{持|も}ち{運|はこ}びやすい。",
+      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧ノートパソコン⟦は→は：00079_ha⟧⟦{軽|かる}くて→軽い：00785_karui⟧⟦{持|も}ち{運|はこ}び→持ち運ぶ：19699_mochihakobu⟧やすい。",
       "english": "The new laptop is light and easy to carry around.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A Japanese-coined compound (wasei-eigo) from 'notebook' + 'personal computer.' In English, the standard term is simply 'laptop,' while 'notebook PC' is sometimes used but less common.\n\nCOMMON COLLOCATIONS:\n- ノートパソコンを{開|ひら}く: to open a laptop\n- ノートパソコンを{閉|と}じる: to close a laptop\n- ノートパソコンを{持|も}ち{歩|ある}く: to carry a laptop around\n- ノートパソコンの{充電|じゅうでん}: laptop charging\n\nABBREVIATIONS:\nOften shortened to ノートPC or simply ノート in casual speech. The abbreviation パソコン itself comes from パーソナルコンピューター (personal computer) and is the standard Japanese word for PC.\n\nSIMILAR WORDS:\n- デスクトップ: desktop computer — the stationary counterpart\n- タブレット: tablet — smaller, touch-operated device without a physical keyboard",
+  "notes": "A Japanese-coined compound (wasei-eigo) from 'notebook' + 'personal computer.' In English, the standard term is simply 'laptop,' while 'notebook PC' is sometimes used but less common.\n\nCOMMON COLLOCATIONS:\n- ノートパソコン⟦を→を：00422_wo⟧⟦{開|ひら}く→開く：01979_hiraku⟧: to open a laptop\n- ノートパソコン⟦を→を：00422_wo⟧⟦{閉|と}じる→閉じる：02303_tojiru⟧: to close a laptop\n- ノートパソコン⟦を→を：00422_wo⟧⟦{持|も}ち{歩|ある}く→持ち歩く：05739_mochiaruku⟧: to carry a laptop around\n- ノートパソコン⟦の→の：09472_no⟧⟦{充電|じゅうでん}→充電：04427_juuden⟧: laptop charging\n\nFORMS:\nOften shortened to ノートPC or simply ⟦ノート→ノート：00738_nooto⟧ in casual speech. The abbreviation ⟦パソコン→パソコン：01538_pasokon⟧ itself comes from パーソナル⟦コンピューター→コンピューター：01530_konpyuutaa⟧ (personal computer) and is the standard Japanese word for PC.\n\nSIMILAR WORDS:\n- ⟦デスクトップ→デスクトップ：24418_desukutoppu⟧: desktop computer — the stationary counterpart\n- ⟦タブレット→タブレット：05281_taburetto⟧: tablet — smaller, touch-operated device without a physical keyboard",
   "cross_references": [
-    {"type": "related", "target_id": "01538_pasokon", "reading": "ぱそこん", "headword": "パソコン", "label": "PC (general)"}
+    {
+      "type": "related",
+      "target_id": "01538_pasokon",
+      "reading": "ぱそこん",
+      "headword": "パソコン",
+      "label": "PC (general)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24418_desukutoppu",
+      "reading": "ですくとっぷ",
+      "headword": "デスクトップ",
+      "label": "desktop computer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05281_taburetto",
+      "reading": "たぶれっと",
+      "headword": "タブレット",
+      "label": "tablet"
+    },
+    {
+      "type": "related",
+      "target_id": "01530_konpyuutaa",
+      "reading": "こんぴゅーたー",
+      "headword": "コンピューター",
+      "label": "computer"
+    }
   ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["technology"]
+      "semantic": [
+        "technology"
+      ]
     },
     "created": "2026-03-29T17:03:05Z",
-    "modified": "2026-05-15T21:22:13Z"
+    "modified": "2026-09-02T04:02:00Z"
   }
 }

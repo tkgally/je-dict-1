@@ -25,7 +25,7 @@
     },
     {
       "id": "25592_kushamigaderu_ex2",
-      "japanese": "{花粉|かふん}の{季節|きせつ}はくしゃみが{止|と}まらない。",
+      "japanese": "⟦{花粉|かふん}→花粉：04372_kafun⟧⟦の→の：09472_no⟧⟦{季節|きせつ}→季節：01304_kisetsu⟧⟦は→は：00079_ha⟧⟦くしゃみ→くしゃみ：04428_kushami⟧⟦が→が：00051_ga⟧⟦{止|と}まらない→止まる：00555_tomaru⟧。",
       "english": "During pollen season, I can't stop sneezing.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25592_kushamigaderu_ex3",
-      "japanese": "{急|きゅう}にくしゃみが{出|で}そうになって、{慌|あわ}てて{口|くち}を{手|て}で{押|お}さえた。",
+      "japanese": "⟦{急|きゅう}→急：13042_kyuu⟧⟦に→に：00314_ni⟧くしゃみが{出|で}そうになって、⟦{慌|あわ}てて→慌てる：01874_awateru⟧⟦{口|くち}→口：00560_kuchi⟧⟦を→を：00422_wo⟧⟦{手|て}→手：00569_te⟧⟦で→で：00502_de⟧⟦{押|お}さえた→押さえる：02021_osaeru⟧。",
       "english": "A sneeze suddenly felt like it was coming, and I hurriedly covered my mouth with my hand.",
       "sense_numbers": [
         1
@@ -44,19 +44,30 @@
       "notes": null
     }
   ],
-  "notes": "The natural Japanese way to say \"to sneeze.\" Unlike English where \"sneeze\" is a single verb, Japanese uses the expression くしゃみが{出|で}る (literally \"a sneeze comes out\"), treating the sneeze as something that happens involuntarily.\n\nThere is a popular Japanese superstition that if someone sneezes, it means someone is talking about them. One sneeze means someone is praising you, two means someone is criticizing you.\n\nCOMMON COLLOCATIONS:\n- くしゃみが{止|と}まらない: can't stop sneezing\n- くしゃみが{出|で}そう: feel like sneezing\n- {大|おお}きなくしゃみ: a big sneeze\n- くしゃみを{連発|れんぱつ}する: to sneeze repeatedly\n\nRELATED EXPRESSIONS:\n- {鼻水|はなみず}が{出|で}る: to have a runny nose — often occurs together with sneezing\n- {咳|せき}が{出|で}る: to cough — follows the same ～が{出|で}る pattern for involuntary body responses\n- {花粉症|かふんしょう}: hay fever — the most common cause of sneezing in spring in Japan",
+  "notes": "The natural Japanese way to say \"to sneeze.\" Unlike English where \"sneeze\" is a single verb, Japanese uses the expression くしゃみが{出|で}る (literally \"a sneeze comes out\"), treating the sneeze as something that happens involuntarily.\n\nThere is a popular Japanese superstition that if someone sneezes, it means someone is talking about them. One sneeze means someone is praising you, two means someone is criticizing you.\n\nCOMMON COLLOCATIONS:\n- ⟦くしゃみ→くしゃみ：04428_kushami⟧⟦が→が：00051_ga⟧⟦{止|と}まらない→止まる：00555_tomaru⟧: can't stop sneezing\n- くしゃみが{出|で}そう: feel like sneezing\n- ⟦{大|おお}きな→大きな：02849_ookina⟧⟦くしゃみ→くしゃみ：04428_kushami⟧: a big sneeze\n- ⟦くしゃみ→くしゃみ：04428_kushami⟧⟦を→を：00422_wo⟧⟦{連発|れんぱつ}する→連発する：21028_renpatsusuru⟧: to sneeze repeatedly\n\nRELATED WORDS:\n- ⟦{鼻水|はなみず}→鼻水：04430_hanamizu⟧⟦が→が：00051_ga⟧⟦{出|で}る→出る：00513_deru⟧: to have a runny nose — often occurs together with sneezing\n- ⟦{咳|せき}→咳：12007_seki⟧⟦が→が：00051_ga⟧⟦{出|で}る→出る：00513_deru⟧: to cough — follows the same ～⟦が→が：00051_ga⟧⟦{出|で}る→出る：00513_deru⟧ pattern for involuntary body responses\n- ⟦{花粉症|かふんしょう}→花粉症：04409_kafunshou⟧: hay fever — the most common cause of sneezing in spring in Japan",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "04409_kafunshou",
+      "reading": "かふんしょう",
+      "headword": "{花粉症|かふんしょう}",
+      "label": "hay fever"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "expression"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "health"
       ]
     },
     "created": "2026-04-26T12:32:21Z",
-    "modified": "2026-08-04T12:59:53Z"
+    "modified": "2026-09-02T04:02:23Z"
   }
 }

@@ -15,41 +15,69 @@
   "examples": [
     {
       "id": "27046_suisensha_ex1",
-      "japanese": "{推薦者|すいせんしゃ}の{名前|なまえ}を{書|か}いてください。",
+      "japanese": "{推薦者|すいせんしゃ}⟦の→の：09472_no⟧⟦{名前|なまえ}→名前：02234_namae⟧⟦を→を：00422_wo⟧⟦{書|か}いて→書く：00477_kaku⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please write the name of your recommender.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27046_suisensha_ex2",
-      "japanese": "{奨学金|しょうがくきん}の{申請|しんせい}には{推薦者|すいせんしゃ}が{二人|ふたり}{必要|ひつよう}です。",
+      "japanese": "⟦{奨学金|しょうがくきん}→奨学金：03230_shougakukin⟧⟦の→の：09472_no⟧⟦{申請|しんせい}→申請：04207_shinsei⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{推薦者|すいせんしゃ}⟦が→が：00051_ga⟧⟦{二人|ふたり}→二人：00622_futari⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧です。",
       "english": "Two recommenders are required for the scholarship application.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27046_suisensha_ex3",
-      "japanese": "{指導|しどう}{教員|きょういん}に{推薦者|すいせんしゃ}になってもらえるよう{お願|おねが}いした。",
+      "japanese": "⟦{指導|しどう}{教員|きょういん}→指導教員：09970_shidoukyouin⟧⟦に→に：00314_ni⟧{推薦者|すいせんしゃ}になって⟦もらえる→もらう：00520_morau⟧よう⟦お{願|ねが}いした→お願いする：05654_onegaisuru⟧。",
       "english": "I asked my academic advisor to serve as my recommender.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {推薦|すいせん} (recommendation) and {者|しゃ} (person). Most commonly encountered in academic and job application contexts, where a {推薦者|すいせんしゃ} provides a letter or verbal endorsement.\n\nCOMMON COLLOCATIONS:\n- {推薦者|すいせんしゃ}になる — to become a recommender\n- {推薦者|すいせんしゃ}を{探|さが}す — to find a recommender\n- {推薦者|すいせんしゃ}の{連絡先|れんらくさき} — recommender's contact information\n\nRELATED TERMS:\n- {推薦|すいせん} — recommendation\n- {推薦状|すいせんじょう} — letter of recommendation\n- {推薦入試|すいせんにゅうし} — admission by recommendation (a common university entrance pathway in Japan)\n- {被推薦者|ひすいせんしゃ} — the person being recommended (nominee)",
+  "notes": "A compound of ⟦{推薦|すいせん}→推薦：03358_suisen⟧ (recommendation) and ⟦{者|しゃ}→〜者：04662_sha⟧ (person). Most commonly encountered in academic and job application contexts, where a {推薦者|すいせんしゃ} provides a letter or verbal endorsement.\n\nCOMMON COLLOCATIONS:\n- {推薦者|すいせんしゃ}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧ — to become a recommender\n- {推薦者|すいせんしゃ}⟦を→を：00422_wo⟧⟦{探|さが}す→探す：00493_sagasu⟧ — to find a recommender\n- {推薦者|すいせんしゃ}⟦の→の：09472_no⟧⟦{連絡先|れんらくさき}→連絡先：03191_renrakusaki⟧ — recommender's contact information\n\nRELATED WORDS:\n- ⟦{推薦|すいせん}→推薦：03358_suisen⟧ — recommendation\n- ⟦{推薦状|すいせんじょう}→推薦状：15195_suisenjou⟧ — letter of recommendation\n- {推薦入試|すいせんにゅうし} — admission by recommendation (a common university entrance pathway in Japan)\n- {被推薦者|ひすいせんしゃ} — the person being recommended (nominee)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "15195_suisenjou",
+      "reading": "すいせんじょう",
+      "headword": "{推薦状|すいせんじょう}",
+      "label": "letter of recommendation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26178_shoukaisha",
+      "reading": "しょうかいしゃ",
+      "headword": "{紹介者|しょうかいしゃ}",
+      "label": "introducer"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["person"],
-      "domain": ["academic"]
+      "semantic": [
+        "person"
+      ],
+      "domain": [
+        "academic"
+      ]
     },
     "created": "2026-05-06T15:10:20Z",
-    "modified": "2026-05-06T15:10:20Z"
+    "modified": "2026-09-02T04:02:28Z"
   }
 }

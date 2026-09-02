@@ -15,40 +15,74 @@
   "examples": [
     {
       "id": "20221_naimaku_ex1",
-      "japanese": "{事件|じけん}の{内幕|ないまく}が{明|あき}らかになった。",
+      "japanese": "⟦{事件|じけん}→事件：01568_jiken⟧⟦の→の：09472_no⟧{内幕|ないまく}⟦が→が：00051_ga⟧⟦{明|あき}らか→明らか：02351_akiraka⟧になった。",
       "english": "The inside story of the incident came to light.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20221_naimaku_ex2",
-      "japanese": "{政治|せいじ}の{内幕|ないまく}を{暴露|ばくろ}する{本|ほん}が{話題|わだい}になっている。",
+      "japanese": "⟦{政治|せいじ}→政治：01629_seiji⟧⟦の→の：09472_no⟧{内幕|ないまく}⟦を→を：00422_wo⟧⟦{暴露|ばくろ}する→暴露する：18209_bakurosuru⟧{本|ほん}⟦が→が：00051_ga⟧⟦{話題|わだい}→話題：03793_wadai⟧になっている。",
       "english": "A book exposing the inside story of politics is attracting attention.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20221_naimaku_ex3",
-      "japanese": "{元社員|もとしゃいん}が{会社|かいしゃ}の{内幕|ないまく}をメディアに{語|かた}り、{経営陣|けいえいじん}の{不正|ふせい}が{次々|つぎつぎ}と{明|あき}るみに{出|で}た。",
+      "japanese": "{元社員|もとしゃいん}⟦が→が：00051_ga⟧⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦の→の：09472_no⟧{内幕|ないまく}⟦を→を：00422_wo⟧⟦メディア→メディア：11165_media⟧⟦に→に：00314_ni⟧⟦{語|かた}り→語る：01930_kataru⟧、⟦{経営陣|けいえいじん}→経営陣：20535_keieijin⟧⟦の→の：09472_no⟧⟦{不正|ふせい}→不正：01660_fusei⟧⟦が→が：00051_ga⟧⟦{次々|つぎつぎ}→次々：03522_tsugitsugi⟧⟦と→と：00512_to⟧{明|あき}るみ⟦に→に：00314_ni⟧⟦{出|で}た→出る：00513_deru⟧。",
       "english": "A former employee revealed the company's inside story to the media, and management's misconduct came out one after another.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Literally means \"inside the curtain\" — what happens behind the scenes, out of public view. Often used in journalism and political contexts for revealing hidden truths.\n\nCOMMON COLLOCATIONS:\n- {内幕|ないまく}を{暴|あば}く: to expose the inside story\n- {内幕|ないまく}を{明|あき}かす: to reveal behind-the-scenes details\n- {内幕|ないまく}を{知|し}る: to know the inside story\n- {内幕|ないまく}{話|ばなし}: an inside account\n- {政界|せいかい}の{内幕|ないまく}: the inside story of the political world\n\nSIMILAR WORDS:\n- {裏側|うらがわ}: the other side, behind the scenes — more everyday\n- {舞台裏|ぶたいうら}: backstage, behind the scenes — originally theatrical\n- {真相|しんそう}: the truth, the real story — focuses on the actual facts",
+  "notes": "Literally means \"inside the curtain\" — what happens behind the scenes, out of public view. Often used in journalism and political contexts for revealing hidden truths.\n\nCOMMON COLLOCATIONS:\n- {内幕|ないまく}⟦を→を：00422_wo⟧⟦{暴|あば}く→暴く：04607_abaku⟧: to expose the inside story\n- {内幕|ないまく}⟦を→を：00422_wo⟧{明|あき}かす: to reveal behind-the-scenes details\n- {内幕|ないまく}⟦を→を：00422_wo⟧⟦{知|し}る→知る：00458_shiru⟧: to know the inside story\n- {内幕|ないまく}{話|ばなし}: an inside account\n- ⟦{政界|せいかい}→政界：15196_seikai⟧⟦の→の：09472_no⟧{内幕|ないまく}: the inside story of the political world\n\nSIMILAR WORDS:\n- ⟦{裏側|うらがわ}→裏側：03042_uragawa⟧: the other side, behind the scenes — more everyday\n- ⟦{舞台裏|ぶたいうら}→舞台裏：08377_butaiura⟧: backstage, behind the scenes — originally theatrical\n- ⟦{真相|しんそう}→真相：17447_shinsou⟧: the truth, the real story — focuses on the actual facts",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03042_uragawa",
+      "reading": "うらがわ",
+      "headword": "{裏側|うらがわ}",
+      "label": "the other side, behind the scenes"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08377_butaiura",
+      "reading": "ぶたいうら",
+      "headword": "{舞台裏|ぶたいうら}",
+      "label": "backstage, behind the scenes"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17447_shinsou",
+      "reading": "しんそう",
+      "headword": "{真相|しんそう}",
+      "label": "the truth, the real story"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["society", "information"]
+      "semantic": [
+        "society",
+        "information"
+      ]
     },
     "created": "2026-03-28T17:13:44Z",
-    "modified": "2026-03-28T17:13:44Z"
+    "modified": "2026-09-02T04:01:58Z"
   }
 }

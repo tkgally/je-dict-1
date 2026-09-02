@@ -3,7 +3,7 @@
   "headword": "{雲隠|くもがく}れ",
   "reading": "くもがくれ",
   "romaji": "kumogakure",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "vanishing suddenly; disappearing from sight",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "27768_kumogakure_ex1",
-      "japanese": "{社長|しゃちょう}が{雲隠|くもがく}れした。",
+      "japanese": "⟦{社長|しゃちょう}→社長：01428_shachou⟧⟦が→が：00051_ga⟧{雲隠|くもがく}れ⟦した→する：00392_suru⟧。",
       "english": "The company president vanished.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "27768_kumogakure_ex2",
-      "japanese": "{借金|しゃっきん}を{残|のこ}して{彼|かれ}は{雲隠|くもがく}れした。",
+      "japanese": "⟦{借金|しゃっきん}→借金：03203_shakkin⟧⟦を→を：00422_wo⟧⟦{残|のこ}して→残す：01975_nokosu⟧⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{雲隠|くもがく}れ⟦した→する：00392_suru⟧。",
       "english": "He disappeared, leaving his debts behind.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "27768_kumogakure_ex3",
-      "japanese": "{事件|じけん}が{報道|ほうどう}された{後|あと}、その{政治家|せいじか}はしばらく{雲隠|くもがく}れしていた。",
+      "japanese": "⟦{事件|じけん}→事件：01568_jiken⟧⟦が→が：00051_ga⟧⟦{報道|ほうどう}→報道：04438_houdou⟧⟦された→する：00392_suru⟧⟦{後|あと}→後：09580_ato⟧、⟦その→その：00993_sono⟧⟦{政治家|せいじか}→政治家：03084_seijika⟧⟦は→は：00079_ha⟧⟦しばらく→しばらく：01267_shibaraku⟧{雲隠|くもがく}れ⟦していた→する：00392_suru⟧。",
       "english": "After the incident was reported, that politician lay low for a while.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "Literally 'hiding in the clouds.' Used when someone suddenly disappears to avoid responsibility, creditors, or public attention. Takes する to form a verb.\n\nCOMMON COLLOCATIONS:\n- {雲隠|くもがく}れする: to vanish; to go into hiding\n- {行方|ゆくえ}をくらまして{雲隠|くもがく}れする: to disappear without a trace\n\nSIMILAR WORDS:\n- {失踪|しっそう}: disappearance — a formal term for a person going missing\n- {姿|すがた}をくらます: to disappear from sight — a similar idiom with a slightly less negative tone",
+  "notes": "Literally 'hiding in the clouds.' Used when someone suddenly disappears to avoid responsibility, creditors, or public attention. Takes ⟦する→する：00392_suru⟧ to form a verb.\n\nCOMMON COLLOCATIONS:\n- {雲隠|くもがく}れ⟦する→する：00392_suru⟧: to vanish; to go into hiding\n- ⟦{行方|ゆくえ}→行方：04082_yukue⟧⟦を→を：00422_wo⟧くらまして{雲隠|くもがく}れ⟦する→する：00392_suru⟧: to disappear without a trace\n\nSIMILAR WORDS:\n- ⟦{失踪|しっそう}→失踪：12190_shissou⟧: disappearance — a formal term for a person going missing\n- ⟦{姿|すがた}→姿：03363_sugata⟧⟦を→を：00422_wo⟧くらます: to disappear from sight — a similar idiom with a slightly less negative tone",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12190_shissou",
+      "reading": "しっそう",
+      "headword": "{失踪|しっそう}",
+      "label": "disappearance"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -54,15 +63,16 @@
         "verb-suru"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "general"
       ],
       "domain": [],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     },
     "created": "2026-05-18T04:14:41Z",
-    "modified": "2026-05-18T04:14:41Z"
+    "modified": "2026-09-02T04:02:31Z"
   },
   "conjugation": {
     "type": "suru",

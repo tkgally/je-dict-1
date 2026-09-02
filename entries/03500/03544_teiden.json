@@ -2,7 +2,7 @@
   "id": "03544_teiden",
   "headword": "{停電|ていでん}",
   "reading": "ていでん",
-  "part_of_speech": "noun, suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "power outage, blackout",
   "conjugation": {
     "type": "suru",
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "COMMON PATTERNS:\n・{停電|ていでん}⟦する→する：00392_suru⟧ (there is a power outage)\n・{停電|ていでん}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧ (to become a blackout, for power to go out)\n・{停電|ていでん}⟦が→が：00051_ga⟧⟦{復旧|ふっきゅう}→復旧：07521_fukkyuu⟧⟦する→する：00392_suru⟧ (power is restored)\n\nRELATED TERMS:\n・⟦{計画|けいかく}→計画：01172_keikaku⟧{停電|ていでん} (planned power outage, rolling blackout)\n・⟦{大規模|だいきぼ}→大規模：12185_daikibo⟧{停電|ていでん} (large-scale blackout)\n・⟦{復旧|ふっきゅう}→復旧：07521_fukkyuu⟧ (restoration, recovery)\n\nUSAGE NOTE:\nIn Japan, ⟦{計画|けいかく}→計画：01172_keikaku⟧{停電|ていでん} (planned power outages) were implemented after the 2011 earthquake to manage electricity shortages.",
+  "notes": "COMMON PATTERNS:\n- {停電|ていでん}⟦する→する：00392_suru⟧ (there is a power outage)\n- {停電|ていでん}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧ (to become a blackout, for power to go out)\n- {停電|ていでん}⟦が→が：00051_ga⟧⟦{復旧|ふっきゅう}→復旧：07521_fukkyuu⟧⟦する→する：00392_suru⟧ (power is restored)\n\nRELATED WORDS:\n- ⟦{計画|けいかく}→計画：01172_keikaku⟧{停電|ていでん} (planned power outage, rolling blackout)\n- ⟦{大規模|だいきぼ}→大規模：12185_daikibo⟧{停電|ていでん} (large-scale blackout)\n- ⟦{復旧|ふっきゅう}→復旧：07521_fukkyuu⟧ (restoration, recovery)\n\nUSAGE:\nIn Japan, ⟦{計画|けいかく}→計画：01172_keikaku⟧{停電|ていでん} (planned power outages) were implemented after the 2011 earthquake to manage electricity shortages.",
   "cross_references": [
     {
       "type": "related",
@@ -141,11 +141,46 @@
       "headword": "{断水|だんすい}",
       "label": "water outage",
       "target_id": "04518_dansui"
+    },
+    {
+      "type": "related",
+      "target_id": "07521_fukkyuu",
+      "reading": "ふっきゅう",
+      "headword": "{復旧|ふっきゅう}",
+      "label": "restoration, recovery"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20692_dansen",
+      "reading": "だんせん",
+      "headword": "{断線|だんせん}",
+      "label": "disconnection"
+    },
+    {
+      "type": "related",
+      "target_id": "23851_denkikouji",
+      "reading": "でんきこうじ",
+      "headword": "{電気工事|でんきこうじ}",
+      "label": "electrical work"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26030_danden",
+      "reading": "だんでん",
+      "headword": "{断電|だんでん}",
+      "label": "power outage"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30050_tsuuden",
+      "reading": "つうでん",
+      "headword": "{通電|つうでん}",
+      "label": "energizing"
     }
   ],
   "metadata": {
     "created": "2026-01-12T09:35:30Z",
-    "modified": "2026-06-12T18:28:11Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "14390_katari_ex1",
-      "japanese": "{彼女|かのじょ}の{語|かた}りに{引|ひ}き{込|こ}まれた。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦の→の：09472_no⟧{語|かた}り⟦に→に：00314_ni⟧⟦{引|ひ}き{込|こ}まれた→引き込む：05736_hikikomu⟧。",
       "english": "I was drawn into her narration.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14390_katari_ex2",
-      "japanese": "この{映画|えいが}は{語|かた}りが{美|うつく}しい。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{映画|えいが}→映画：02273_eiga⟧⟦は→は：00079_ha⟧{語|かた}り⟦が→が：00051_ga⟧⟦{美|うつく}しい→美しい：01121_utsukushii⟧。",
       "english": "This film has beautiful narration.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14390_katari_ex3",
-      "japanese": "{祖母|そぼ}の{戦争|せんそう}{体験|たいけん}の{語|かた}りは、いつも{胸|むね}に{迫|せま}るものがあった。",
+      "japanese": "⟦{祖母|そぼ}→祖母：00813_sobo⟧⟦の→の：09472_no⟧⟦{戦争|せんそう}→戦争：01450_sensou⟧⟦{体験|たいけん}→体験：11443_taiken⟧⟦の→の：09472_no⟧{語|かた}り⟦は→は：00079_ha⟧、⟦いつも→いつも：00599_itsumo⟧⟦{胸|むね}→胸：00972_mune⟧⟦に→に：00314_ni⟧⟦{迫|せま}る→迫る：03928_semaru⟧もの⟦が→が：00051_ga⟧⟦あった→ある：00006_aru⟧。",
       "english": "My grandmother's narration of her wartime experiences was always deeply moving.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{語|かた}り is the noun form of {語|かた}る (to narrate, to tell). It refers both to the act of narration and to the narrative itself.\n\nCOMMON COLLOCATIONS:\n- {語|かた}り{部|べ} (storyteller; keeper of oral tradition)\n- {語|かた}り{口|くち} (way of speaking, narrative style)\n- {語|かた}り{手|て} (narrator, storyteller)\n- {物語|ものがたり}の{語|かた}り (narration of a tale)\n\nIn traditional Japanese performing arts, {語|かた}り refers to the narrative component of forms like {能|のう} and {浄瑠璃|じょうるり}, where a performer recites the story while others act or manipulate puppets.",
+  "notes": "{語|かた}り is the noun form of ⟦{語|かた}る→語る：01930_kataru⟧ (to narrate, to tell). It refers both to the act of narration and to the narrative itself.\n\nCOMMON COLLOCATIONS:\n- {語|かた}り{部|べ} (storyteller; keeper of oral tradition)\n- {語|かた}り{口|くち} (way of speaking, narrative style)\n- {語|かた}り{手|て} (narrator, storyteller)\n- ⟦{物語|ものがたり}→物語：03634_monogatari⟧⟦の→の：09472_no⟧{語|かた}り (narration of a tale)\n\nIn traditional Japanese performing arts, {語|かた}り refers to the narrative component of forms like ⟦{能|のう}→能：01927_nou⟧ and ⟦{浄瑠璃|じょうるり}→浄瑠璃：16585_joururi⟧, where a performer recites the story while others act or manipulate puppets.",
   "cross_references": [
     {
       "type": "related",
@@ -53,19 +59,37 @@
       "reading": "かたりくち",
       "headword": "{語|かた}り{口|くち}",
       "label": "narrative style"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22331_koudan",
+      "reading": "こうだん",
+      "headword": "{講談|こうだん}",
+      "label": "storytelling performance"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24412_nareeshon",
+      "reading": "なれーしょん",
+      "headword": "ナレーション",
+      "label": "narration"
     }
   ],
   "metadata": {
     "created": "2026-03-01T08:59:56Z",
-    "modified": "2026-03-01T08:59:56Z",
+    "modified": "2026-09-02T04:01:37Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "transitivity": null,
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["communication"]
+      "semantic": [
+        "communication"
+      ]
     }
   }
 }

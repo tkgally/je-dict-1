@@ -15,41 +15,62 @@
   "examples": [
     {
       "id": "29529_kyoutsuu_ex1",
-      "japanese": "{急|きゅう}に{胸痛|きょうつう}を{感|かん}じる。",
+      "japanese": "⟦{急|きゅう}→急：13042_kyuu⟧⟦に→に：00314_ni⟧{胸痛|きょうつう}⟦を→を：00422_wo⟧⟦{感|かん}じる→感じる：02044_kanjiru⟧。",
       "english": "To suddenly feel chest pain.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29529_kyoutsuu_ex2",
-      "japanese": "{胸痛|きょうつう}が{続|つづ}くなら{受診|じゅしん}したほうがいい。",
+      "japanese": "{胸痛|きょうつう}⟦が→が：00051_ga⟧⟦{続|つづ}く→続く：00903_tsuzuku⟧なら⟦{受診|じゅしん}→受診：11890_jushin⟧⟦した→する：00392_suru⟧⟦ほうがいい→ほうがいい：10078_hougaii⟧。",
       "english": "If the chest pain persists, you should see a doctor.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29529_kyoutsuu_ex3",
-      "japanese": "{激|はげ}しい{胸痛|きょうつう}は{心臓|しんぞう}の{病気|びょうき}のサインかもしれない。",
+      "japanese": "⟦{激|はげ}しい→激しい：02348_hageshii⟧{胸痛|きょうつう}⟦は→は：00079_ha⟧⟦{心臓|しんぞう}→心臓：03262_shinzou⟧⟦の→の：09472_no⟧⟦{病気|びょうき}→病気：00771_byouki⟧⟦の→の：09472_no⟧⟦サイン→サイン：03846_sain⟧⟦かもしれない→かもしれない：00164_kamoshirenai⟧。",
       "english": "Severe chest pain may be a sign of heart disease.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A clinical noun for pain in the chest, common in medical questionnaires and symptom reports. More formal than the everyday {胸|むね}が{痛|いた}い.\n\nCOMMON COLLOCATIONS:\n- {胸痛|きょうつう}を{訴|うった}える: to complain of chest pain\n- {胸痛|きょうつう}がする: to have chest pain\n- {激|はげ}しい{胸痛|きょうつう}: severe chest pain\n\nSIMILAR WORDS:\n- {胸|むね}が{痛|いた}い: one's chest hurts — the plain, everyday phrasing\n- {動悸|どうき}: palpitations — a racing or pounding heartbeat, a different chest symptom",
+  "notes": "A clinical noun for pain in the chest, common in medical questionnaires and symptom reports. More formal than the everyday ⟦{胸|むね}→胸：00972_mune⟧⟦が→が：00051_ga⟧⟦{痛|いた}い→痛い：01108_itai⟧.\n\nCOMMON COLLOCATIONS:\n- {胸痛|きょうつう}⟦を→を：00422_wo⟧⟦{訴|うった}える→訴える：01891_uttaeru⟧: to complain of chest pain\n- {胸痛|きょうつう}⟦が→が：00051_ga⟧⟦する→する：00392_suru⟧: to have chest pain\n- ⟦{激|はげ}しい→激しい：02348_hageshii⟧{胸痛|きょうつう}: severe chest pain\n\nSIMILAR WORDS:\n- ⟦{胸|むね}→胸：00972_mune⟧⟦が→が：00051_ga⟧⟦{痛|いた}い→痛い：01108_itai⟧: one's chest hurts — the plain, everyday phrasing\n- ⟦{動悸|どうき}→動悸：06299_douki⟧: palpitations — a racing or pounding heartbeat, a different chest symptom",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06299_douki",
+      "reading": "どうき",
+      "headword": "{動悸|どうき}",
+      "label": "palpitations"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
-      "politeness": null,
-      "semantic": ["health"],
-      "domain": ["medical"]
+      "politeness": "plain",
+      "semantic": [
+        "health"
+      ],
+      "domain": [
+        "medical"
+      ]
     },
     "created": "2026-06-27T18:18:39Z",
-    "modified": "2026-06-27T18:18:39Z"
+    "modified": "2026-09-02T04:02:37Z"
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "27972_suupaakonpyuuta_ex1",
-      "japanese": "スーパーコンピュータで{計算|けいさん}する。",
+      "japanese": "スーパーコンピュータ⟦で→で：00502_de⟧⟦{計算|けいさん}する→計算する：25526_keisansuru⟧。",
       "english": "We compute it on a supercomputer.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "27972_suupaakonpyuuta_ex2",
-      "japanese": "{天気予報|てんきよほう}にはスーパーコンピュータが{使|つか}われている。",
+      "japanese": "⟦{天気予報|てんきよほう}→天気予報：01678_tenkiyohou⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧スーパーコンピュータ⟦が→が：00051_ga⟧⟦{使|つか}われている→使う：00473_tsukau⟧。",
       "english": "Supercomputers are used for weather forecasting.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "27972_suupaakonpyuuta_ex3",
-      "japanese": "{最新|さいしん}のスーパーコンピュータは{一秒間|いちびょうかん}に{膨大|ぼうだい}な{計算|けいさん}をこなす。",
+      "japanese": "⟦{最新|さいしん}→最新：04831_saishin⟧⟦の→の：09472_no⟧スーパーコンピュータ⟦は→は：00079_ha⟧{一秒間|いちびょうかん}⟦に→に：00314_ni⟧⟦{膨大|ぼうだい}→膨大：08997_boudai⟧な⟦{計算|けいさん}→計算：02697_keisan⟧⟦を→を：00422_wo⟧⟦こなす→こなす：09897_konasu⟧。",
       "english": "The latest supercomputers carry out an enormous number of calculations per second.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "Often shortened to スパコン in news and conversation. Used for weather and climate modeling, drug discovery, physics simulations, and other tasks needing massive computing power.\n\nSIMILAR WORDS:\n- スパコン: supercomputer — common abbreviation\n- パソコン: personal computer — an everyday computer, vastly less powerful",
+  "notes": "Often shortened to スパコン in news and conversation. Used for weather and climate modeling, drug discovery, physics simulations, and other tasks needing massive computing power.\n\nSIMILAR WORDS:\n- スパコン: supercomputer — common abbreviation\n- ⟦パソコン→パソコン：01538_pasokon⟧: personal computer — an everyday computer, vastly less powerful",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01538_pasokon",
+      "reading": "ぱそこん",
+      "headword": "パソコン",
+      "label": "personal computer"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,6 +71,6 @@
       ]
     },
     "created": "2026-05-23T04:06:38Z",
-    "modified": "2026-05-23T04:06:38Z"
+    "modified": "2026-09-02T04:02:32Z"
   }
 }

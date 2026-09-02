@@ -14,38 +14,79 @@
   "examples": [
     {
       "id": "08542_mizoochi_ex1",
-      "japanese": "みぞおちを{殴|なぐ}られた。",
+      "japanese": "みぞおち⟦を→を：00422_wo⟧⟦{殴|なぐ}られた→殴る：02378_naguru⟧。",
       "english": "I was punched in the solar plexus.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "08542_mizoochi_ex2",
-      "japanese": "みぞおちに{痛|いた}みを{感|かん}じる。",
+      "japanese": "みぞおち⟦に→に：00314_ni⟧⟦{痛|いた}み→痛み：01795_itami⟧⟦を→を：00422_wo⟧⟦{感|かん}じる→感じる：02044_kanjiru⟧。",
       "english": "I feel pain in my solar plexus.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "08542_mizoochi_ex3",
-      "japanese": "みぞおちを{押|お}すと{胃|い}の{調子|ちょうし}がわかる。",
+      "japanese": "みぞおち⟦を→を：00422_wo⟧⟦{押|お}す→押す：02854_osu⟧⟦と→と：00512_to⟧⟦{胃|い}→胃：01706_i⟧⟦の→の：09472_no⟧⟦{調子|ちょうし}→調子：03491_choushi⟧⟦が→が：00051_ga⟧わかる。",
       "english": "You can tell the condition of your stomach by pressing the solar plexus area.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "BODY PART:\nみぞおち refers to the soft, vulnerable area in the upper abdomen, just below where the ribs meet. It is a sensitive area because the solar plexus nerve cluster is located there.\n\nWHY PAINFUL:\nA blow to the みぞおち can cause severe pain, difficulty breathing, and even loss of consciousness because it affects the diaphragm and solar plexus nerves.\n\nORTHOGRAPHY:\n- Usually written in hiragana\n- Can be written as {鳩尾|みぞおち} (literally \"pigeon tail\") but hiragana is more common\n\nMEDICAL NOTE:\nPain in the みぞおち area can indicate stomach problems, heartburn, or more serious conditions.\n\nRELATED:\n- {腹|はら}/お{腹|なか} - stomach/abdomen\n- {胃|い} - stomach (organ)\n- {胸|むね} - chest",
+  "notes": "BODY PART:\nみぞおち refers to the soft, vulnerable area in the upper abdomen, just below where the ribs meet. It is a sensitive area because the solar plexus nerve cluster is located there.\n\nWHY PAINFUL:\nA blow to the みぞおち can cause severe pain, difficulty breathing, and even loss of consciousness because it affects the diaphragm and solar plexus nerves.\n\nWRITING:\n- Usually written in hiragana\n- Can be written as {鳩尾|みぞおち} (literally \"pigeon tail\") but hiragana is more common\n\nMEDICAL NOTE:\nPain in the みぞおち area can indicate stomach problems, heartburn, or more serious conditions.\n\nRELATED WORDS:\n- ⟦{腹|はら}→腹：02165_hara⟧/⟦お{腹|なか}→お腹：00805_onaka⟧ - stomach/abdomen\n- ⟦{胃|い}→胃：01706_i⟧ - stomach (organ)\n- ⟦{胸|むね}→胸：00972_mune⟧ - chest",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "02165_hara",
+      "reading": "はら",
+      "headword": "{腹|はら}",
+      "label": "stomach/abdomen"
+    },
+    {
+      "type": "related",
+      "target_id": "00805_onaka",
+      "reading": "おなか",
+      "headword": "お{腹|なか}",
+      "label": "stomach/abdomen"
+    },
+    {
+      "type": "related",
+      "target_id": "01706_i",
+      "reading": "い",
+      "headword": "{胃|い}",
+      "label": "stomach"
+    },
+    {
+      "type": "related",
+      "target_id": "00972_mune",
+      "reading": "むね",
+      "headword": "{胸|むね}",
+      "label": "chest"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "semantic": ["body-part"]
+      "politeness": "plain",
+      "semantic": [
+        "body-part"
+      ]
     },
     "created": "2026-01-27T11:29:42Z",
-    "modified": "2026-07-03T15:18:32Z"
+    "modified": "2026-09-02T04:01:15Z"
   }
 }

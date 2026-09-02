@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "USAGE: {独身|どくしん} is a neutral term for being unmarried. It doesn't carry the same negative connotations that 'single' sometimes does in English.\n\nCOMMON PATTERNS:\n・{独身|どくしん}⟦だ→だ：09496_da⟧ (to be single)\n・{独身|どくしん}⟦の→の：09472_no⟧〜 (single ~)\n・{独身|どくしん}⟦{生活|せいかつ}→生活：01443_seikatsu⟧ (single life)\n・{独身|どくしん}⟦{時代|じだい}→時代：01424_jidai⟧ (single days/era)\n・{独身|どくしん}⟦{貴族|きぞく}→貴族：17414_kizoku⟧ (single aristocrat - term for carefree singles)\n・{独身|どくしん}⟦{寮|りょう}→寮：03800_ryou⟧ (singles' dormitory)\n\nANTONYM:\n・⟦{既婚|きこん}→既婚：16160_kikon⟧ (married)\n\nRELATED WORDS:\n・⟦{未婚|みこん}→未婚：14933_mikon⟧ (unmarried - formal)\n・⟦シングル→シングル：10949_shinguru⟧ (single - loanword)\n・⟦{結婚|けっこん}→結婚：02514_kekkon⟧ (marriage)\n・⟦バツイチ→バツイチ：11119_batsuichi⟧ (divorced once - colloquial)",
+  "notes": "USAGE: {独身|どくしん} is a neutral term for being unmarried. It doesn't carry the same negative connotations that 'single' sometimes does in English.\n\nCOMMON PATTERNS:\n- {独身|どくしん}⟦だ→だ：09496_da⟧ (to be single)\n- {独身|どくしん}⟦の→の：09472_no⟧〜 (single ~)\n- {独身|どくしん}⟦{生活|せいかつ}→生活：01443_seikatsu⟧ (single life)\n- {独身|どくしん}⟦{時代|じだい}→時代：01424_jidai⟧ (single days/era)\n- {独身|どくしん}⟦{貴族|きぞく}→貴族：17414_kizoku⟧ (single aristocrat - term for carefree singles)\n- {独身|どくしん}⟦{寮|りょう}→寮：03800_ryou⟧ (singles' dormitory)\n\nSIMILAR WORDS:\n- ⟦{既婚|きこん}→既婚：16160_kikon⟧ (married)\n\nRELATED WORDS:\n- ⟦{未婚|みこん}→未婚：14933_mikon⟧ (unmarried - formal)\n- ⟦シングル→シングル：10949_shinguru⟧ (single - loanword)\n- ⟦{結婚|けっこん}→結婚：02514_kekkon⟧ (marriage)\n- ⟦バツイチ→バツイチ：11119_batsuichi⟧ (divorced once - colloquial)",
   "cross_references": [
     {
       "type": "antonym",
@@ -58,11 +58,46 @@
       "headword": "{結婚|けっこん}",
       "label": "marriage",
       "target_id": "02514_kekkon"
+    },
+    {
+      "type": "related",
+      "target_id": "14933_mikon",
+      "reading": "みこん",
+      "headword": "{未婚|みこん}",
+      "label": "unmarried"
+    },
+    {
+      "type": "related",
+      "target_id": "10949_shinguru",
+      "reading": "しんぐる",
+      "headword": "シングル",
+      "label": "single"
+    },
+    {
+      "type": "related",
+      "target_id": "11119_batsuichi",
+      "reading": "ばついち",
+      "headword": "バツイチ",
+      "label": "divorced once"
+    },
+    {
+      "type": "related",
+      "target_id": "03142_hitorigurashi",
+      "reading": "ひとりぐらし",
+      "headword": "{一人暮|ひとりぐ}らし",
+      "label": "living alone"
+    },
+    {
+      "type": "related",
+      "target_id": "27329_batsuni",
+      "reading": "ばつに",
+      "headword": "バツニ",
+      "label": "divorced twice (slang)"
     }
   ],
   "metadata": {
     "created": "2026-01-12T09:58:00Z",
-    "modified": "2026-05-25T20:06:16Z",
+    "modified": "2026-09-02T03:02:30Z",
     "schema_version": "2.0",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30606_sokojikara_ex1",
-      "japanese": "チームの{底|そこ}{力|ぢから}を{見|み}せた。",
+      "japanese": "⟦チーム→チーム：03858_chiimu⟧⟦の→の：09472_no⟧{底|そこ}{力|ぢから}⟦を→を：00422_wo⟧⟦{見|み}せた→見せる：01988_miseru⟧。",
       "english": "The team showed its true strength.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30606_sokojikara_ex2",
-      "japanese": "{追|お}い{込|こ}まれてから{底|そこ}{力|ぢから}を{発揮|はっき}した。",
+      "japanese": "⟦{追|お}い{込|こ}まれて→追い込む：06371_oikomu⟧⟦から→から：00504_kara⟧{底|そこ}{力|ぢから}⟦を→を：00422_wo⟧⟦{発揮|はっき}した→発揮する：17267_hakkisuru⟧。",
       "english": "It was only once cornered that they showed their hidden strength.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30606_sokojikara_ex3",
-      "japanese": "{不況|ふきょう}の{中|なか}でも{雇用|こよう}を{守|まも}り{続|つづ}けたところに、この{会社|かいしゃ}の{底|そこ}{力|ぢから}がある。",
+      "japanese": "⟦{不況|ふきょう}→不況：04844_fukyou⟧⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧⟦{雇用|こよう}→雇用：04840_koyou⟧⟦を→を：00422_wo⟧⟦{守|まも}り→守る：01986_mamoru⟧⟦{続|つづ}け→続く：00903_tsuzuku⟧た⟦ところ→ところ：01137_tokoro⟧⟦に→に：00314_ni⟧、⟦この→この：00962_kono⟧⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦の→の：09472_no⟧{底|そこ}{力|ぢから}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "The company's underlying strength shows in the fact that it kept protecting jobs even through the recession.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "READING NOTE:\nThe second element is voiced to ぢから, not ちから — one of the few common words that keeps the ぢ spelling in modern orthography.\n\nCOMMON COLLOCATIONS:\n- {底|そこ}{力|ぢから}を{発揮|はっき}する: to display one's latent strength\n- {底|そこ}{力|ぢから}を{見|み}せる: to show what one is really made of\n- {日本|にほん}{経済|けいざい}の{底|そこ}{力|ぢから}: the underlying strength of the Japanese economy\n\nUSAGE:\nThe word implies adversity: it is used when strength appears in a pinch, so it fits comebacks, late rallies, and recoveries rather than steady everyday performance.",
+  "notes": "PRONUNCIATION:\nThe second element is voiced to ぢ⟦から→から：00504_kara⟧, not ちから — one of the few common words that keeps the ぢ spelling in modern orthography.\n\nCOMMON COLLOCATIONS:\n- {底|そこ}{力|ぢから}⟦を→を：00422_wo⟧⟦{発揮|はっき}する→発揮する：17267_hakkisuru⟧: to display one's latent strength\n- {底|そこ}{力|ぢから}⟦を→を：00422_wo⟧⟦{見|み}せる→見せる：01988_miseru⟧: to show what one is really made of\n- ⟦{日本|にほん}→日本：03876_nihon⟧⟦{経済|けいざい}→経済：01394_keizai⟧⟦の→の：09472_no⟧{底|そこ}{力|ぢから}: the underlying strength of the Japanese economy\n\nUSAGE:\nThe word implies adversity: it is used when strength appears in a pinch, so it fits comebacks, late rallies, and recoveries rather than steady everyday performance.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "26226_sougouryoku",
+      "reading": "そうごうりょく",
+      "headword": "{総合力|そうごうりょく}",
+      "label": "overall ability"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +62,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "abstract"
       ],
       "domain": []
     },
     "created": "2026-08-13T00:22:39Z",
-    "modified": "2026-08-13T00:22:39Z"
+    "modified": "2026-09-02T04:02:40Z"
   }
 }

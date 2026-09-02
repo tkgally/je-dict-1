@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28593_hizashita_ex1",
-      "japanese": "{膝下|ひざした}{丈|たけ}のスカートを{選|えら}んだ。",
+      "japanese": "{膝下|ひざした}⟦{丈|たけ}→丈：29841_take⟧⟦の→の：09472_no⟧⟦スカート→スカート：01060_sukaato⟧⟦を→を：00422_wo⟧⟦{選|えら}んだ→選ぶ：00835_erabu⟧。",
       "english": "I chose a knee-length skirt.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28593_hizashita_ex2",
-      "japanese": "{転|ころ}んで{膝下|ひざした}を{怪我|けが}した。",
+      "japanese": "⟦{転|ころ}んで→転ぶ：00863_korobu⟧{膝下|ひざした}⟦を→を：00422_wo⟧{怪我|けが}⟦した→する：00392_suru⟧。",
       "english": "I fell and injured myself below the knee.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28593_hizashita_ex3",
-      "japanese": "{制服|せいふく}の{規定|きてい}でスカートの{長|なが}さは{膝下|ひざした}{五|ご}センチまでと{決|き}められている。",
+      "japanese": "⟦{制服|せいふく}→制服：03086_seifuku⟧⟦の→の：09472_no⟧⟦{規定|きてい}→規定：14136_kitei⟧⟦で→で：00502_de⟧⟦スカート→スカート：01060_sukaato⟧⟦の→の：09472_no⟧⟦{長|なが}さ→長さ：05326_nagasa⟧⟦は→は：00079_ha⟧{膝下|ひざした}⟦{五|ご}→五：00697_go⟧⟦センチ→センチ：01372_senchi⟧⟦まで→まで：00490_made⟧⟦と→と：00512_to⟧⟦{決|き}められている→決める：00858_kimeru⟧。",
       "english": "School uniform rules specify that skirt length must be no more than five centimeters below the knee.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {膝|ひざ} (knee) + {下|した} (below). The same characters can also be read ひざもと in formal/literary contexts (meaning 'at one's knee' or 'in one's care'), but ひざした is the common reading in modern use.\n\nCOMMON COLLOCATIONS:\n- {膝下|ひざした}{丈|たけ}: knee-length\n- {膝下|ひざした}まで: to below the knee\n- {膝下|ひざした}ソックス: knee-high socks\n- {膝下|ひざした}{五|ご}センチ: five centimeters below the knee\n\nSIMILAR WORDS:\n- {膝上|ひざうえ}: above the knee — the opposite\n- {ふくらはぎ}: calf — the muscle on the back of the lower leg",
+  "notes": "Compound of ⟦{膝|ひざ}→膝：00940_hiza⟧ (knee) + ⟦{下|した}→下：00670_shita⟧ (below). The same characters can also be read ひざもと in formal/literary contexts (meaning 'at one's knee' or 'in one's care'), but ひざした is the common reading in modern use.\n\nCOMMON COLLOCATIONS:\n- {膝下|ひざした}⟦{丈|たけ}→丈：29841_take⟧: knee-length\n- {膝下|ひざした}⟦まで→まで：00490_made⟧: to below the knee\n- {膝下|ひざした}⟦ソックス→ソックス：29839_sokkusu⟧: knee-high socks\n- {膝下|ひざした}⟦{五|ご}→五：00697_go⟧⟦センチ→センチ：01372_senchi⟧: five centimeters below the knee\n\nSIMILAR WORDS:\n- {膝上|ひざうえ}: above the knee — the opposite\n- ⟦ふくらはぎ→ふくらはぎ：16894_fukurahagi⟧: calf — the muscle on the back of the lower leg",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16894_fukurahagi",
+      "reading": "ふくらはぎ",
+      "headword": "ふくらはぎ",
+      "label": "calf"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +62,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "body-part",
         "clothing"
@@ -61,6 +70,6 @@
       "domain": []
     },
     "created": "2026-06-02T04:07:08Z",
-    "modified": "2026-08-08T18:34:17Z"
+    "modified": "2026-09-02T04:02:34Z"
   }
 }

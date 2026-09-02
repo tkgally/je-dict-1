@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28486_kinshirei_ex1",
-      "japanese": "{外出|がいしゅつ}{禁止令|きんしれい}が{出|で}た。",
+      "japanese": "⟦{外出|がいしゅつ}→外出：02543_gaishutsu⟧{禁止令|きんしれい}⟦が→が：00051_ga⟧⟦{出|で}た→出る：00513_deru⟧。",
       "english": "A stay-at-home order was issued.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28486_kinshirei_ex2",
-      "japanese": "{母|はは}にゲーム{禁止令|きんしれい}を{出|だ}された。",
+      "japanese": "⟦{母|はは}→母：00549_haha⟧⟦に→に：00314_ni⟧⟦ゲーム→ゲーム：03842_geemu⟧{禁止令|きんしれい}⟦を→を：00422_wo⟧⟦{出|だ}された→出す：01087_dasu⟧。",
       "english": "My mother put a ban on video games.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28486_kinshirei_ex3",
-      "japanese": "{政府|せいふ}は{特定|とくてい}の{薬品|やくひん}の{販売|はんばい}に{禁止令|きんしれい}を{出|だ}した。",
+      "japanese": "⟦{政府|せいふ}→政府：03294_seifu⟧⟦は→は：00079_ha⟧⟦{特定|とくてい}→特定：04275_tokutei⟧⟦の→の：09472_no⟧⟦{薬品|やくひん}→薬品：11055_yakuhin⟧⟦の→の：09472_no⟧⟦{販売|はんばい}→販売：03573_hanbai⟧⟦に→に：00314_ni⟧{禁止令|きんしれい}⟦を→を：00422_wo⟧⟦{出|だ}した→出す：01087_dasu⟧。",
       "english": "The government issued a ban on the sale of certain drugs.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {禁止|きんし} + {令|れい} (\"order, decree\"). Often used in informal contexts for casual prohibitions imposed by a parent, partner, or boss, as well as for formal government orders.\n\nCOMMON COLLOCATIONS:\n- {禁止令|きんしれい}を{出|だ}す: to issue a ban\n- {禁止令|きんしれい}が{出|で}る: a ban is issued\n- {外出|がいしゅつ}{禁止令|きんしれい}: stay-at-home order; curfew\n- ゲーム{禁止令|きんしれい}: ban on video games (e.g., from parents)\n\nSIMILAR WORDS:\n- {禁止|きんし}: prohibition — the general noun; {禁止令|きんしれい} specifies a formal order\n- {命令|めいれい}: order; command — broader; any directive, not specifically prohibitive",
+  "notes": "Compound of ⟦{禁止|きんし}→禁止：02643_kinshi⟧ + {令|れい} (\"order, decree\"). Often used in informal contexts for casual prohibitions imposed by a parent, partner, or boss, as well as for formal government orders.\n\nCOMMON COLLOCATIONS:\n- {禁止令|きんしれい}⟦を→を：00422_wo⟧⟦{出|だ}す→出す：01087_dasu⟧: to issue a ban\n- {禁止令|きんしれい}⟦が→が：00051_ga⟧⟦{出|で}る→出る：00513_deru⟧: a ban is issued\n- ⟦{外出|がいしゅつ}→外出：02543_gaishutsu⟧{禁止令|きんしれい}: stay-at-home order; curfew\n- ⟦ゲーム→ゲーム：03842_geemu⟧{禁止令|きんしれい}: ban on video games (e.g., from parents)\n\nSIMILAR WORDS:\n- ⟦{禁止|きんし}→禁止：02643_kinshi⟧: prohibition — the general noun; {禁止令|きんしれい} specifies a formal order\n- ⟦{命令|めいれい}→命令：03754_meirei⟧: order; command — broader; any directive, not specifically prohibitive",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03754_meirei",
+      "reading": "めいれい",
+      "headword": "{命令|めいれい}",
+      "label": "order"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +62,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "politics",
         "law"
@@ -61,6 +70,6 @@
       "domain": []
     },
     "created": "2026-06-01T02:07:20Z",
-    "modified": "2026-08-08T18:34:17Z"
+    "modified": "2026-09-02T04:02:33Z"
   }
 }

@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "13933_wakiyaku_ex1",
-      "japanese": "{彼|かれ}は{脇役|わきやく}ながら{存在感|そんざいかん}がある。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{脇役|わきやく}⟦ながら→ながら：10530_nagara⟧⟦{存在感|そんざいかん}→存在感：19948_sonzaikan⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "Despite being in a supporting role, he has a strong presence.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13933_wakiyaku_ex2",
-      "japanese": "この{映画|えいが}は{脇役|わきやく}の{演技|えんぎ}が{光|ひか}っている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{映画|えいが}→映画：02273_eiga⟧⟦は→は：00079_ha⟧{脇役|わきやく}⟦の→の：09472_no⟧⟦{演技|えんぎ}→演技：01890_engi⟧⟦が→が：00051_ga⟧⟦{光|ひか}っている→光る：01163_hikaru⟧。",
       "english": "The supporting actors' performances shine in this film.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13933_wakiyaku_ex3",
-      "japanese": "{主役|しゅやく}を{引|ひ}き{立|た}てるのが{脇役|わきやく}の{仕事|しごと}だが、{時|とき}には{脇役|わきやく}が{物語|ものがたり}を{動|うご}かすこともある。",
+      "japanese": "⟦{主役|しゅやく}→主役：04199_shuyaku⟧⟦を→を：00422_wo⟧⟦{引|ひ}き{立|た}てる→引き立てる：12585_hikitateru⟧⟦の→の：09472_no⟧⟦が→が：00051_ga⟧{脇役|わきやく}⟦の→の：09472_no⟧⟦{仕事|しごと}→仕事：00480_shigoto⟧だ⟦が→が：00051_ga⟧、{時|とき}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{脇役|わきやく}⟦が→が：00051_ga⟧⟦{物語|ものがたり}→物語：03634_monogatari⟧⟦を→を：00422_wo⟧⟦{動|うご}かす→動かす：01885_ugokasu⟧こと⟦も→も：00484_mo⟧⟦ある→ある：00006_aru⟧。",
       "english": "The supporting actor's job is to make the lead shine, but sometimes the supporting cast drives the story.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE NOTE:\nAlso used figuratively outside of entertainment — for example, someone who plays a secondary role in a project or event. The figurative use is not necessarily negative.\n\nCOMMON COLLOCATIONS:\n- {脇役|わきやく}を{演|えん}じる (play a supporting role)\n- {脇役|わきやく}に{徹|てっ}する (commit fully to a supporting role)\n- {脇役|わきやく}ながら (though in a supporting role)\n\nCONTRAST:\n- {主役|しゅやく}: lead role, protagonist (opposite of {脇役|わきやく})\n- {端役|はやく}: bit part, minor role (even smaller than {脇役|わきやく})\n- {助演|じょえん}: supporting performance (used in award categories like {助演|じょえん}{男優|だんゆう}{賞|しょう})",
+  "notes": "USAGE:\nAlso used figuratively outside of entertainment — for example, someone who plays a secondary role in a project or event. The figurative use is not necessarily negative.\n\nCOMMON COLLOCATIONS:\n- {脇役|わきやく}⟦を→を：00422_wo⟧⟦{演|えん}じる→演じる：13330_enjiru⟧ (play a supporting role)\n- {脇役|わきやく}⟦に→に：00314_ni⟧⟦{徹|てっ}する→徹する：12567_tessuru⟧ (commit fully to a supporting role)\n- {脇役|わきやく}⟦ながら→ながら：10530_nagara⟧ (though in a supporting role)\n\nSIMILAR WORDS:\n- ⟦{主役|しゅやく}→主役：04199_shuyaku⟧: lead role, protagonist (opposite of {脇役|わきやく})\n- ⟦{端役|はやく}→端役：24247_hayaku⟧: bit part, minor role (even smaller than {脇役|わきやく})\n- ⟦{助演|じょえん}→助演：18098_joen⟧: supporting performance (used in award categories like ⟦{助演|じょえん}{男優|だんゆう}→助演男優：23856_joendanyuu⟧⟦{賞|しょう}→賞：03227_shou⟧)",
   "cross_references": [
     {
       "type": "antonym",
@@ -46,18 +52,50 @@
       "reading": "しゅやく",
       "headword": "{主役|しゅやく}",
       "label": "leading role"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24247_hayaku",
+      "reading": "はやく",
+      "headword": "{端役|はやく}",
+      "label": "bit part, minor role"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18098_joen",
+      "reading": "じょえん",
+      "headword": "{助演|じょえん}",
+      "label": "supporting performance"
+    },
+    {
+      "type": "related",
+      "target_id": "23856_joendanyuu",
+      "reading": "じょえんだんゆう",
+      "headword": "{助演男優|じょえんだんゆう}",
+      "label": "supporting actor (male)"
+    },
+    {
+      "type": "related",
+      "target_id": "24832_joenjoyuu",
+      "reading": "じょえんじょゆう",
+      "headword": "{助演|じょえん}{女優|じょゆう}",
+      "label": "supporting actress"
     }
   ],
   "metadata": {
     "created": "2026-02-27T07:07:11Z",
-    "modified": "2026-04-08T00:49:11Z",
+    "modified": "2026-09-02T04:01:35Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["leisure"]
+      "semantic": [
+        "leisure"
+      ]
     }
   }
 }

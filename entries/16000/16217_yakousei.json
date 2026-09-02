@@ -15,40 +15,58 @@
   "examples": [
     {
       "id": "16217_yakousei_ex1",
-      "japanese": "フクロウは{夜行性|やこうせい}の{鳥|とり}だ。",
+      "japanese": "フクロウ⟦は→は：00079_ha⟧{夜行性|やこうせい}⟦の→の：09472_no⟧⟦{鳥|とり}→鳥：00679_tori⟧だ。",
       "english": "Owls are nocturnal birds.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16217_yakousei_ex2",
-      "japanese": "{猫|ねこ}はもともと{夜行性|やこうせい}の{動物|どうぶつ}だ。",
+      "japanese": "⟦{猫|ねこ}→猫：02237_neko⟧⟦は→は：00079_ha⟧もともと{夜行性|やこうせい}⟦の→の：09472_no⟧⟦{動物|どうぶつ}→動物：01480_doubutsu⟧だ。",
       "english": "Cats are originally nocturnal animals.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16217_yakousei_ex3",
-      "japanese": "{夜行性|やこうせい}の{動物|どうぶつ}を{観察|かんさつ}するために、{動物園|どうぶつえん}がナイトツアーを{開催|かいさい}している。",
+      "japanese": "{夜行性|やこうせい}⟦の→の：09472_no⟧⟦{動物|どうぶつ}→動物：01480_doubutsu⟧⟦を→を：00422_wo⟧⟦{観察|かんさつ}する→観察する：21989_kansatsusuru⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧、⟦{動物園|どうぶつえん}→動物園：01686_doubutsuen⟧⟦が→が：00051_ga⟧ナイト⟦ツアー→ツアー：08285_tsuaa⟧⟦を→を：00422_wo⟧⟦{開催|かいさい}している→開催する：10441_kaisaisuru⟧。",
       "english": "The zoo holds night tours to observe nocturnal animals.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\n{夜行性|やこうせい} is primarily a biological term but is also used colloquially to describe people who are night owls. It modifies nouns with の.\n\nCOMMON COLLOCATIONS:\n- {夜行性|やこうせい}の{動物|どうぶつ}: nocturnal animal\n- {夜行性|やこうせい}の{生|い}き{物|もの}: nocturnal creature\n\nCONTRAST:\nThe opposite is {昼行性|ちゅうこうせい} (diurnal — active during the day).\n\nWORD FORMATION:\n{夜行|やこう} (traveling at night) + {性|せい} (nature, characteristic).",
-  "cross_references": [],
+  "notes": "USAGE:\n{夜行性|やこうせい} is primarily a biological term but is also used colloquially to describe people who are night owls. It modifies nouns with ⟦の→の：09472_no⟧.\n\nCOMMON COLLOCATIONS:\n- {夜行性|やこうせい}⟦の→の：09472_no⟧⟦{動物|どうぶつ}→動物：01480_doubutsu⟧: nocturnal animal\n- {夜行性|やこうせい}⟦の→の：09472_no⟧⟦{生|い}き{物|もの}→生き物：01783_ikimono⟧: nocturnal creature\n\nSIMILAR WORDS:\nThe opposite is ⟦{昼行性|ちゅうこうせい}→昼行性：24022_chuukousei⟧ (diurnal — active during the day).\n\nFORMS:\n⟦{夜行|やこう}→夜行：04078_yakou⟧ (traveling at night) + ⟦{性|せい}→性：09880_sei⟧ (nature, characteristic).",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "24022_chuukousei",
+      "reading": "ちゅうこうせい",
+      "headword": "{昼行性|ちゅうこうせい}",
+      "label": "diurnal habit"
+    }
+  ],
   "metadata": {
     "created": "2026-03-11T04:38:30Z",
-    "modified": "2026-03-11T04:38:30Z",
+    "modified": "2026-09-02T04:01:44Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["nature"]
+      "semantic": [
+        "nature"
+      ]
     }
   }
 }

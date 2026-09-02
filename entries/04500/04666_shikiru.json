@@ -2,7 +2,7 @@
   "id": "04666_shikiru",
   "headword": "{仕切|しき}る",
   "reading": "しきる",
-  "part_of_speech": "godan verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to partition, to manage, to take charge",
   "conjugation": {
     "type": "godan",
@@ -203,7 +203,7 @@
       ]
     }
   ],
-  "notes": "{仕切|しき}る is a transitive verb (⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧) meaning to partition, manage, or settle.\n\nCOMPOUND STRUCTURE:\n- {仕|し} (doing) + ⟦{切|き}る→切る：02693_kiru⟧ (to cut, to do completely) → to divide/control completely\n\nASPECT (ている):\n{仕切|しき}って⟦いる→いる：00495_iru⟧ indicates an ongoing state of being in charge or managing.\n\nCOMMON PATTERNS:\n- ⟦{部屋|へや}→部屋：00507_heya⟧⟦を→を：00422_wo⟧{仕切|しき}る (partition a room)\n- ⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦を→を：00422_wo⟧{仕切|しき}る (run a meeting)\n- ⟦{現場|げんば}→現場：02723_genba⟧⟦を→を：00422_wo⟧{仕切|しき}る (manage the site)\n- ⟦{仕切|しき}り→仕切り：11431_shikiri⟧⟦{直|なお}し→直す：18371_naosu⟧ (starting over, fresh start)\n\nRELATED NOUNS:\n- ⟦{仕切|しき}り→仕切り：11431_shikiri⟧: partition, divider; management\n- ⟦{仕切|しき}り→仕切り：11431_shikiri⟧⟦{板|いた}→板：01792_ita⟧: partition board\n- ⟦{仕切|しき}り→仕切り：11431_shikiri⟧⟦{直|なお}し→直す：18371_naosu⟧: fresh start, do-over\n\nNUANCE:\nWhen used for managing, implies taking complete control and directing things efficiently.",
+  "notes": "{仕切|しき}る is a transitive verb (⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧) meaning to partition, manage, or settle.\n\nETYMOLOGY:\n- {仕|し} (doing) + ⟦{切|き}る→切る：02693_kiru⟧ (to cut, to do completely) → to divide/control completely\n\nASPECT (ている):\n{仕切|しき}って⟦いる→いる：00495_iru⟧ indicates an ongoing state of being in charge or managing.\n\nCOMMON PATTERNS:\n- ⟦{部屋|へや}→部屋：00507_heya⟧⟦を→を：00422_wo⟧{仕切|しき}る (partition a room)\n- ⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦を→を：00422_wo⟧{仕切|しき}る (run a meeting)\n- ⟦{現場|げんば}→現場：02723_genba⟧⟦を→を：00422_wo⟧{仕切|しき}る (manage the site)\n- ⟦{仕切|しき}り→仕切り：11431_shikiri⟧⟦{直|なお}し→直す：18371_naosu⟧ (starting over, fresh start)\n\nRELATED WORDS:\n- ⟦{仕切|しき}り→仕切り：11431_shikiri⟧: partition, divider; management\n- ⟦{仕切|しき}り→仕切り：11431_shikiri⟧⟦{板|いた}→板：01792_ita⟧: partition board\n- ⟦{仕切|しき}り→仕切り：11431_shikiri⟧⟦{直|なお}し→直す：18371_naosu⟧: fresh start, do-over\n\nUSAGE:\nWhen used for managing, implies taking complete control and directing things efficiently.",
   "prominent_see_also": [
     {
       "target_id": "11431_shikiri",
@@ -212,10 +212,25 @@
       "note": "noun form"
     }
   ],
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "16259_shikirinaoshi",
+      "reading": "しきりなおし",
+      "headword": "{仕切|しき}り{直|なお}し",
+      "label": "fresh start, do-over"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11850_kugiru",
+      "reading": "くぎる",
+      "headword": "{区切|くぎ}る",
+      "label": "to punctuate"
+    }
+  ],
   "metadata": {
     "created": "2026-01-14T03:52:00Z",
-    "modified": "2026-06-10T17:34:32Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

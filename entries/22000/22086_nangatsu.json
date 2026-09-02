@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22086_nangatsu_ex1",
-      "japanese": "{誕生日|たんじょうび}は{何月|なんがつ}ですか。",
+      "japanese": "⟦{誕生日|たんじょうび}→誕生日：02910_tanjoubi⟧⟦は→は：00079_ha⟧{何月|なんがつ}です⟦か→か：09473_ka⟧。",
       "english": "What month is your birthday?",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22086_nangatsu_ex2",
-      "japanese": "{桜|さくら}は{何月|なんがつ}に{咲|さ}きますか。",
+      "japanese": "⟦{桜|さくら}→桜：02212_sakura⟧⟦は→は：00079_ha⟧{何月|なんがつ}⟦に→に：00314_ni⟧⟦{咲|さ}きます→咲く：08150_saku⟧⟦か→か：09473_ka⟧。",
       "english": "In what month do the cherry blossoms bloom?",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22086_nangatsu_ex3",
-      "japanese": "{何月|なんがつ}{何日|なんにち}に{届|とど}くか、まだ{連絡|れんらく}が{来|き}ていない。",
+      "japanese": "{何月|なんがつ}⟦{何日|なんにち}→何日：23870_nannichi⟧⟦に→に：00314_ni⟧⟦{届|とど}く→届く：00899_todoku⟧⟦か→か：09473_ka⟧、⟦まだ→まだ：00603_mada⟧⟦{連絡|れんらく}→連絡：01524_renraku⟧⟦が→が：00051_ga⟧⟦{来|き}ていない→来る：00254_kuru⟧。",
       "english": "I haven't received word yet about what month and day it will arrive.",
       "sense_numbers": [
         1
@@ -44,20 +44,52 @@
       "notes": null
     }
   ],
-  "notes": "The interrogative form for months, combining {何|なん} (what) with {月|がつ} (month). One of the most basic and frequently used question words for dates. Used when asking about specific months for events, schedules, seasons, etc.\n\nCOMMON PATTERNS:\n- {何月|なんがつ}ですか: what month is it?\n- {何月|なんがつ}に: in what month\n- {何月|なんがつ}{何日|なんにち}: what month and day\n- {何月|なんがつ}{頃|ごろ}: around what month\n\nRELATED DATE QUESTIONS:\n- {何日|なんにち} — what day (of the month)\n- {何曜日|なんようび} — what day of the week\n- {何年|なんねん} — what year\n- {何時|なんじ} — what time",
+  "notes": "The interrogative form for months, combining ⟦{何|なん}→何〜：03100_nan⟧ (what) with ⟦{月|がつ}→月：30418_gatsu⟧ (month). One of the most basic and frequently used question words for dates. Used when asking about specific months for events, schedules, seasons, etc.\n\nCOMMON PATTERNS:\n- {何月|なんがつ}です⟦か→か：09473_ka⟧: what month is it?\n- {何月|なんがつ}⟦に→に：00314_ni⟧: in what month\n- {何月|なんがつ}⟦{何日|なんにち}→何日：23870_nannichi⟧: what month and day\n- {何月|なんがつ}⟦{頃|ごろ}→頃：00932_goro⟧: around what month\n\nRELATED DATE QUESTIONS:\n- ⟦{何日|なんにち}→何日：23870_nannichi⟧ — what day (of the month)\n- ⟦{何曜日|なんようび}→何曜日：30346_nanyoubi⟧ — what day of the week\n- ⟦{何年|なんねん}→何年：12737_nannen⟧ — what year\n- ⟦{何時|なんじ}→何時：00973_nanji⟧ — what time",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "23870_nannichi",
+      "reading": "なんにち",
+      "headword": "{何日|なんにち}",
+      "label": "what day"
+    },
+    {
+      "type": "related",
+      "target_id": "30346_nanyoubi",
+      "reading": "なんようび",
+      "headword": "{何曜日|なんようび}",
+      "label": "what day of the week"
+    },
+    {
+      "type": "related",
+      "target_id": "12737_nannen",
+      "reading": "なんねん",
+      "headword": "{何年|なんねん}",
+      "label": "what year"
+    },
+    {
+      "type": "related",
+      "target_id": "00973_nanji",
+      "reading": "なんじ",
+      "headword": "{何時|なんじ}",
+      "label": "what time"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "time-general"
       ],
       "usage_context": []
     },
     "created": "2026-04-04T22:24:17Z",
-    "modified": "2026-07-30T03:35:34Z"
+    "modified": "2026-09-02T04:02:06Z"
   }
 }

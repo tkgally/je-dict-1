@@ -3,7 +3,7 @@
   "id": "13044_kaitei",
   "headword": "{改訂|かいてい}",
   "reading": "かいてい",
-  "part_of_speech": "noun / suru verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "revision (of a text or document)",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "13044_kaitei_ex1",
-      "japanese": "{教科書|きょうかしょ}を{改訂|かいてい}する。",
+      "japanese": "⟦{教科書|きょうかしょ}→教科書：01085_kyoukasho⟧⟦を→を：00422_wo⟧{改訂|かいてい}⟦する→する：00392_suru⟧。",
       "english": "To revise the textbook.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "13044_kaitei_ex2",
-      "japanese": "{改訂|かいてい}{版|ばん}が{来月|らいげつ}{出版|しゅっぱん}される。",
+      "japanese": "{改訂|かいてい}{版|ばん}⟦が→が：00051_ga⟧⟦{来月|らいげつ}→来月：00744_raigetsu⟧⟦{出版|しゅっぱん}→出版：03222_shuppan⟧⟦される→する：00392_suru⟧。",
       "english": "The revised edition will be published next month.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "13044_kaitei_ex3",
-      "japanese": "この{辞書|じしょ}は{十|じゅう}{年|ねん}ぶりに{大幅|おおはば}に{改訂|かいてい}され、{新語|しんご}が{多数|たすう}{追加|ついか}された。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{辞書|じしょ}→辞書：04707_jisho⟧⟦は→は：00079_ha⟧⟦{十|じゅう}→十：00708_juu⟧⟦{年|ねん}→年：09876_nen⟧⟦ぶり→〜ぶり：28358_buri⟧⟦に→に：00314_ni⟧⟦{大幅|おおはば}→大幅：12170_oohaba⟧⟦に→に：00314_ni⟧{改訂|かいてい}⟦され→する：00392_suru⟧、⟦{新語|しんご}→新語：21555_shingo⟧⟦が→が：00051_ga⟧⟦{多数|たすう}→多数：05612_tasuu⟧⟦{追加|ついか}→追加：04060_tsuika⟧⟦された→する：00392_suru⟧。",
       "english": "This dictionary underwent a major revision for the first time in ten years, with many new words added.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "CONTRAST:\n{改訂|かいてい} vs. {改定|かいてい}: Both are read かいてい but have different scopes. {改訂|かいてい} (with {訂|てい} meaning \"correct\") refers to revising the content of texts, books, and documents. {改定|かいてい} (with {定|てい} meaning \"fix, establish\") refers to changing rules, standards, prices, or regulations. For example, a textbook is {改訂|かいてい}される while a price is {改定|かいてい}される.\n\nCOMMON COLLOCATIONS:\n- {改訂|かいてい}{版|ばん}: revised edition\n- {大幅|おおはば}に{改訂|かいてい}する: to revise extensively\n- {改訂|かいてい}{作業|さぎょう}: revision work\n- {全面|ぜんめん}{改訂|かいてい}: complete revision",
+  "notes": "SIMILAR WORDS:\n{改訂|かいてい} vs. ⟦{改定|かいてい}→改定：13036_kaitei⟧: Both are read かいてい but have different scopes. {改訂|かいてい} (with {訂|てい} meaning \"correct\") refers to revising the content of texts, books, and documents. ⟦{改定|かいてい}→改定：13036_kaitei⟧ (with {定|てい} meaning \"fix, establish\") refers to changing rules, standards, prices, or regulations. For example, a textbook is {改訂|かいてい}⟦される→する：00392_suru⟧ while a price is ⟦{改定|かいてい}→改定：13036_kaitei⟧⟦される→する：00392_suru⟧.\n\nCOMMON COLLOCATIONS:\n- {改訂|かいてい}{版|ばん}: revised edition\n- ⟦{大幅|おおはば}→大幅：12170_oohaba⟧⟦に→に：00314_ni⟧{改訂|かいてい}⟦する→する：00392_suru⟧: to revise extensively\n- {改訂|かいてい}⟦{作業|さぎょう}→作業：02775_sagyou⟧: revision work\n- ⟦{全面|ぜんめん}→全面：22735_zenmen⟧{改訂|かいてい}: complete revision",
   "cross_references": [
     {
       "entry_id": "13036_kaitei",
@@ -147,7 +147,7 @@
   ],
   "metadata": {
     "created": "2026-02-23T10:00:15Z",
-    "modified": "2026-03-29T10:42:23Z",
+    "modified": "2026-09-02T04:01:31Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -163,7 +163,8 @@
       "domain": [
         "academic"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   },
   "prominent_see_also": [

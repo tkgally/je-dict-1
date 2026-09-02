@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29125_suranpu_ex1",
-      "japanese": "スランプを{脱|だっ}した。",
+      "japanese": "スランプ⟦を→を：00422_wo⟧⟦{脱|だっ}した→脱する：28650_dassuru⟧。",
       "english": "He got out of his slump.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29125_suranpu_ex2",
-      "japanese": "{打撃|だげき}スランプが{続|つづ}いて{打率|だりつ}が{下|さ}がった。",
+      "japanese": "⟦{打撃|だげき}→打撃：12775_dageki⟧スランプ⟦が→が：00051_ga⟧⟦{続|つづ}いて→続く：00903_tsuzuku⟧⟦{打率|だりつ}→打率：07113_daritsu⟧⟦が→が：00051_ga⟧⟦{下|さ}がった→下がる：01188_sagaru⟧。",
       "english": "A hitting slump continued and his batting average dropped.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29125_suranpu_ex3",
-      "japanese": "{長年|ながねん}の{作家|さっか}でも、{創作|そうさく}スランプに{陥|おちい}ることがある。",
+      "japanese": "⟦{長年|ながねん}→長年：09684_naganen⟧⟦の→の：09472_no⟧⟦{作家|さっか}→作家：01414_sakka⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧、⟦{創作|そうさく}→創作：04386_sousaku⟧スランプ⟦に→に：00314_ni⟧⟦{陥|おちい}る→陥る：14537_ochiiru⟧こと⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "Even a veteran writer can fall into a creative slump.",
       "sense_numbers": [
         1
@@ -44,8 +44,45 @@
       "notes": null
     }
   ],
-  "notes": "Used in sports, creative, and business contexts. Commonly appears as a compound modifier (打撃スランプ, 創作スランプ) or standalone.\n\nCOMMON COLLOCATIONS:\n- スランプを{脱|だっ}する: to get out of a slump\n- スランプに{陥|おちい}る: to fall into a slump\n- スランプが{続|つづ}く: slump continues\n- スランプから{抜|ぬ}け{出|だ}す: to break out of a slump\n\nSIMILAR WORDS:\n- {不調|ふちょう}: poor condition — more general; can refer to physical condition, machine malfunction, etc.\n- ビハインド: trailing (in score) — refers to current deficit, not a performance trend",
+  "notes": "Used in sports, creative, and business contexts. Commonly appears as a compound modifier (打撃スランプ, 創作スランプ) or standalone.\n\nCOMMON COLLOCATIONS:\n- スランプ⟦を→を：00422_wo⟧⟦{脱|だっ}する→脱する：28650_dassuru⟧: to get out of a slump\n- スランプ⟦に→に：00314_ni⟧⟦{陥|おちい}る→陥る：14537_ochiiru⟧: to fall into a slump\n- スランプ⟦が→が：00051_ga⟧⟦{続|つづ}く→続く：00903_tsuzuku⟧: slump continues\n- スランプ⟦から→から：00504_kara⟧⟦{抜|ぬ}け{出|だ}す→抜け出す：06040_nukedasu⟧: to break out of a slump\n\nSIMILAR WORDS:\n- ⟦{不調|ふちょう}→不調：11303_fuchou⟧: poor condition — more general; can refer to physical condition, machine malfunction, etc.\n- ⟦ビハインド→ビハインド：29128_bihaindo⟧: trailing (in score) — refers to current deficit, not a performance trend",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11303_fuchou",
+      "reading": "ふちょう",
+      "headword": "{不調|ふちょう}",
+      "label": "poor condition"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29128_bihaindo",
+      "reading": "びはいんど",
+      "headword": "ビハインド",
+      "label": "trailing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06529_renpai",
+      "reading": "れんぱい",
+      "headword": "{連敗|れんぱい}",
+      "label": "losing streak, consecutive losses"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29211_ochikomi",
+      "reading": "おちこみ",
+      "headword": "{落ち込|おちこ}み",
+      "label": "depression"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29858_teimeiki",
+      "reading": "ていめいき",
+      "headword": "低迷期",
+      "label": "slump period"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +90,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "general"
       ],
       "domain": []
     },
     "created": "2026-06-11T11:37:32Z",
-    "modified": "2026-06-11T11:47:28Z"
+    "modified": "2026-09-02T04:02:36Z"
   }
 }

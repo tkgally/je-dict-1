@@ -3,7 +3,7 @@
   "headword": "{肝心|かんじん}",
   "reading": "かんじん",
   "romaji": "kanjin",
-  "part_of_speech": "adjective-na",
+  "part_of_speech": "na-adjective",
   "gloss": "essential; crucial; most important",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21541_kanjin_ex1",
-      "japanese": "{肝心|かんじん}なのは{健康|けんこう}だ。",
+      "japanese": "{肝心|かんじん}な⟦の→の：09472_no⟧⟦は→は：00079_ha⟧⟦{健康|けんこう}→健康：02706_kenkou⟧だ。",
       "english": "What matters most is health.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21541_kanjin_ex2",
-      "japanese": "{肝心|かんじん}なところで{失敗|しっぱい}してしまった。",
+      "japanese": "{肝心|かんじん}な⟦ところ→ところ：01137_tokoro⟧⟦で→で：00502_de⟧⟦{失敗|しっぱい}→失敗：01636_shippai⟧⟦して→する：00392_suru⟧しまった。",
       "english": "I failed at the crucial moment.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21541_kanjin_ex3",
-      "japanese": "{肝心|かんじん}な{書類|しょるい}を{家|いえ}に{忘|わす}れてきてしまった。",
+      "japanese": "{肝心|かんじん}な⟦{書類|しょるい}→書類：01103_shorui⟧⟦を→を：00422_wo⟧⟦{家|いえ}→家：00612_ie⟧⟦に→に：00314_ni⟧⟦{忘|わす}れて→忘れる：00474_wasureru⟧きてしまった。",
       "english": "I accidentally left the important documents at home.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Describes what is most essential or crucial in a situation. Often used to highlight the key point that should not be overlooked or forgotten.\n\nCOMMON COLLOCATIONS:\n- {肝心|かんじん}なこと: the essential thing\n- {肝心|かんじん}なところ: the crucial point/moment\n- {肝心|かんじん}な{問題|もんだい}: the key issue\n- {肝心|かんじん}の{時|とき}に: at the critical moment\n\nUSAGE:\nUsed as a na-adjective modifying nouns with な. The form {肝心|かんじん}の is also very common, especially in the pattern {肝心|かんじん}の～が... where the crucial thing is the topic of the sentence.\n\nSIMILAR WORDS:\n- {大切|たいせつ}: important — general importance, often emotional\n- {重要|じゅうよう}: important — formal, objective importance\n- {肝心|かんじん}: crucial — emphasizes the single most critical point in context\n\nETYMOLOGY:\nOriginally written {肝腎|かんじん}, combining {肝|きも} (liver) and {腎|じん} (kidney) — the two organs considered most vital in traditional Chinese medicine. The modern spelling {肝心|かんじん} replaces {腎|じん} with {心|しん} (heart).",
+  "notes": "Describes what is most essential or crucial in a situation. Often used to highlight the key point that should not be overlooked or forgotten.\n\nCOMMON COLLOCATIONS:\n- {肝心|かんじん}なこと: the essential thing\n- {肝心|かんじん}な⟦ところ→ところ：01137_tokoro⟧: the crucial point/moment\n- {肝心|かんじん}な⟦{問題|もんだい}→問題：00797_mondai⟧: the key issue\n- {肝心|かんじん}⟦の→の：09472_no⟧{時|とき}⟦に→に：00314_ni⟧: at the critical moment\n\nUSAGE:\nUsed as a na-adjective modifying nouns with な. The form {肝心|かんじん}⟦の→の：09472_no⟧ is also very common, especially in the pattern {肝心|かんじん}⟦の→の：09472_no⟧～⟦が→が：00051_ga⟧... where the crucial thing is the topic of the sentence.\n\nSIMILAR WORDS:\n- ⟦{大切|たいせつ}→大切：01456_taisetsu⟧: important — general importance, often emotional\n- ⟦{重要|じゅうよう}→重要：01575_juuyou⟧: important — formal, objective importance\n- {肝心|かんじん}: crucial — emphasizes the single most critical point in context\n\nETYMOLOGY:\nOriginally written {肝腎|かんじん}, combining ⟦{肝|きも}→肝：10796_kimo⟧ (liver) and {腎|じん} (kidney) — the two organs considered most vital in traditional Chinese medicine. The modern spelling {肝心|かんじん} replaces {腎|じん} with {心|しん} (heart).",
   "cross_references": [
     {
       "type": "related",
@@ -52,6 +52,27 @@
       "reading": "きも",
       "headword": "{肝|きも}",
       "label": "key point; liver"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01456_taisetsu",
+      "reading": "たいせつ",
+      "headword": "{大切|たいせつ}",
+      "label": "important"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01575_juuyou",
+      "reading": "じゅうよう",
+      "headword": "{重要|じゅうよう}",
+      "label": "important"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27183_saijuuyou",
+      "reading": "さいじゅうよう",
+      "headword": "{最重要|さいじゅうよう}",
+      "label": "most important"
     }
   ],
   "schema_version": "2.0",
@@ -68,6 +89,6 @@
       ]
     },
     "created": "2026-04-02T16:11:04Z",
-    "modified": "2026-07-29T12:35:11Z"
+    "modified": "2026-09-02T04:02:04Z"
   }
 }

@@ -15,40 +15,74 @@
   "examples": [
     {
       "id": "20029_touchakuguchi_ex1",
-      "japanese": "{到着口|とうちゃくぐち}で{待|ま}っている。",
+      "japanese": "{到着口|とうちゃくぐち}⟦で→で：00502_de⟧⟦{待|ま}っている→待つ：00469_matsu⟧。",
       "english": "I'm waiting at the arrivals gate.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20029_touchakuguchi_ex2",
-      "japanese": "{到着口|とうちゃくぐち}は1{階|かい}にあります。",
+      "japanese": "{到着口|とうちゃくぐち}⟦は→は：00079_ha⟧1⟦{階|かい}→階：01034_kai⟧⟦に→に：00314_ni⟧⟦あります→ある：00006_aru⟧。",
       "english": "The arrivals exit is on the first floor.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20029_touchakuguchi_ex3",
-      "japanese": "{友人|ゆうじん}を{迎|むか}えに{空港|くうこう}の{到着口|とうちゃくぐち}まで{行|い}った。",
+      "japanese": "⟦{友人|ゆうじん}→友人：03649_yuujin⟧⟦を→を：00422_wo⟧⟦{迎|むか}え→迎える：01193_mukaeru⟧⟦に→に：00314_ni⟧⟦{空港|くうこう}→空港：00648_kuukou⟧⟦の→の：09472_no⟧{到着口|とうちゃくぐち}⟦まで→まで：00490_made⟧⟦{行|い}った→行く：00119_iku⟧。",
       "english": "I went to the airport arrivals gate to pick up my friend.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Compound of {到着|とうちゃく} (arrival) and {口|ぐち} (gate/exit/mouth). A practical travel vocabulary word seen on signs in airports and train stations.\n\nCOMMON COLLOCATIONS:\n- {到着口|とうちゃくぐち}で{待|ま}つ: to wait at the arrivals gate\n- {到着口|とうちゃくぐち}に{迎|むか}えに{行|い}く: to go to the arrivals gate to meet someone\n- {国際線|こくさいせん}{到着口|とうちゃくぐち}: international arrivals gate\n- {国内線|こくないせん}{到着口|とうちゃくぐち}: domestic arrivals gate\n\nRELATED WORDS:\n- {出発口|しゅっぱつぐち}: departure gate — the opposite\n- {到着|とうちゃく}: arrival\n- {到着|とうちゃく}ロビー: arrivals lobby\n- {搭乗口|とうじょうぐち}: boarding gate — where passengers board the plane\n\nSIMILAR WORDS:\n- {改札口|かいさつぐち}: ticket gate — at train stations\n- {出口|でぐち}: exit — general term for any exit\n- {入口|いりぐち}: entrance — general term for any entrance",
+  "notes": "Compound of ⟦{到着|とうちゃく}→到着：02526_touchaku⟧ (arrival) and {口|ぐち} (gate/exit/mouth). A practical travel vocabulary word seen on signs in airports and train stations.\n\nCOMMON COLLOCATIONS:\n- {到着口|とうちゃくぐち}⟦で→で：00502_de⟧⟦{待|ま}つ→待つ：00469_matsu⟧: to wait at the arrivals gate\n- {到着口|とうちゃくぐち}⟦に→に：00314_ni⟧⟦{迎|むか}えに{行|い}く→迎えに行く：25786_mukaeniiku⟧: to go to the arrivals gate to meet someone\n- ⟦{国際線|こくさいせん}→国際線：27502_kokusaisen⟧{到着口|とうちゃくぐち}: international arrivals gate\n- ⟦{国内線|こくないせん}→国内線：27501_kokunaisen⟧{到着口|とうちゃくぐち}: domestic arrivals gate\n\nRELATED WORDS:\n- {出発口|しゅっぱつぐち}: departure gate — the opposite\n- ⟦{到着|とうちゃく}→到着：02526_touchaku⟧: arrival\n- ⟦{到着|とうちゃく}→到着：02526_touchaku⟧⟦ロビー→ロビー：26995_robii⟧: arrivals lobby\n- ⟦{搭乗口|とうじょうぐち}→搭乗口：09927_toujouguchi⟧: boarding gate — where passengers board the plane\n\nSIMILAR WORDS:\n- ⟦{改札口|かいさつぐち}→改札口：09552_kaisatsuguchi⟧: ticket gate — at train stations\n- ⟦{出口|でぐち}→出口：02508_deguchi⟧: exit — general term for any exit\n- {入口|いりぐち}: entrance — general term for any entrance",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "09927_toujouguchi",
+      "reading": "とうじょうぐち",
+      "headword": "{搭乗口|とうじょうぐち}",
+      "label": "boarding gate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09552_kaisatsuguchi",
+      "reading": "かいさつぐち",
+      "headword": "{改札口|かいさつぐち}",
+      "label": "ticket gate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02508_deguchi",
+      "reading": "でぐち",
+      "headword": "{出口|でぐち}",
+      "label": "exit"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["travel", "place"]
+      "semantic": [
+        "travel",
+        "place"
+      ]
     },
     "created": "2026-03-28T05:27:30Z",
-    "modified": "2026-03-28T05:27:30Z"
+    "modified": "2026-09-02T04:01:58Z"
   }
 }

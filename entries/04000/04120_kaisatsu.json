@@ -78,7 +78,7 @@
       ]
     }
   ],
-  "notes": "USAGE: {改札|かいさつ} is an essential term for using trains in Japan.\n\nCOMMON COMPOUNDS:\n・{改札|かいさつ}⟦{口|ぐち}→口：00560_kuchi⟧ (ticket gate area/exit)\n・⟦{自動|じどう}→自動：03339_jidou⟧{改札|かいさつ} (automatic ticket gate)\n・⟦{有人|ゆうじん}→有人：noentry⟧{改札|かいさつ} (staffed ticket gate)\n・{改札|かいさつ}⟦{機|き}→機：noentry⟧ (ticket gate machine)\n・{改札|かいさつ}⟦{内|ない}→内：noentry⟧/⟦{外|そと}→外：00671_soto⟧ (inside/outside the ticket gates)\n\nIC CARDS: Modern ⟦{自動|じどう}→自動：03339_jidou⟧{改札|かいさつ} accept ⟦ICカード→ICカード：23527_aishiikaado⟧ (Suica, Pasmo, ICOCA, etc.) as well as traditional paper tickets.\n\nMEETING SPOTS:\n・{改札|かいさつ}⟦{口|ぐち}→口：00560_kuchi⟧⟦で→で：00502_de⟧⟦{待|ま}ち{合|あ}わせ→待ち合わせ：07397_machiawase⟧ (meeting at the ticket gate) is a common arrangement in Japan.",
+  "notes": "USAGE: {改札|かいさつ} is an essential term for using trains in Japan.\n\nCOMPOUNDS:\n- {改札|かいさつ}⟦{口|ぐち}→口：00560_kuchi⟧ (ticket gate area/exit)\n- ⟦{自動|じどう}→自動：03339_jidou⟧{改札|かいさつ} (automatic ticket gate)\n- ⟦{有人|ゆうじん}→有人：noentry⟧{改札|かいさつ} (staffed ticket gate)\n- {改札|かいさつ}⟦{機|き}→機：noentry⟧ (ticket gate machine)\n- {改札|かいさつ}⟦{内|ない}→内：noentry⟧/⟦{外|そと}→外：00671_soto⟧ (inside/outside the ticket gates)\n\nIC CARDS: Modern ⟦{自動|じどう}→自動：03339_jidou⟧{改札|かいさつ} accept ⟦ICカード→ICカード：23527_aishiikaado⟧ (Suica, Pasmo, ICOCA, etc.) as well as traditional paper tickets.\n\nMEETING SPOTS:\n- {改札|かいさつ}⟦{口|ぐち}→口：00560_kuchi⟧⟦で→で：00502_de⟧⟦{待|ま}ち{合|あ}わせ→待ち合わせ：07397_machiawase⟧ (meeting at the ticket gate) is a common arrangement in Japan.",
   "cross_references": [
     {
       "type": "related",
@@ -86,11 +86,25 @@
       "reading": "じどうかいさつき",
       "headword": "{自動改札機|じどうかいさつき}",
       "label": "automatic ticket gate"
+    },
+    {
+      "type": "related",
+      "target_id": "09593_ekimae",
+      "reading": "えきまえ",
+      "headword": "{駅前|えきまえ}",
+      "label": "in front of the station, station area"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10851_geeto",
+      "reading": "げーと",
+      "headword": "ゲート",
+      "label": "gate"
     }
   ],
   "metadata": {
     "created": "2026-01-13T12:42:08Z",
-    "modified": "2026-05-29T17:08:55Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

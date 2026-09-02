@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "11817_zenkai_ex1",
-      "japanese": "{前回|ぜんかい}は{失敗|しっぱい}した。",
+      "japanese": "{前回|ぜんかい}⟦は→は：00079_ha⟧⟦{失敗|しっぱい}→失敗：01636_shippai⟧⟦した→する：00392_suru⟧。",
       "english": "I failed last time.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "11817_zenkai_ex2",
-      "japanese": "{前回|ぜんかい}の{会議|かいぎ}で{決|き}まったことを{確認|かくにん}しよう。",
+      "japanese": "{前回|ぜんかい}⟦の→の：09472_no⟧⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦で→で：00502_de⟧⟦{決|き}まった→決まる：01233_kimaru⟧こと⟦を→を：00422_wo⟧⟦{確認|かくにん}しよう→確認する：25332_kakuninsuru⟧。",
       "english": "Let's confirm what was decided at the last meeting.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "11817_zenkai_ex3",
-      "japanese": "{前回|ぜんかい}の{試験|しけん}より{成績|せいせき}が{上|あ}がった。",
+      "japanese": "{前回|ぜんかい}⟦の→の：09472_no⟧⟦{試験|しけん}→試験：01422_shiken⟧⟦より→より：09476_yori⟧⟦{成績|せいせき}→成績：03379_seiseki⟧⟦が→が：00051_ga⟧⟦{上|あ}がった→上がる：00615_agaru⟧。",
       "english": "My grades improved compared to the last exam.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "Functions as an adverbial noun — can modify a sentence directly without a particle ({前回|ぜんかい}は or just {前回|ぜんかい} at the start of a clause). Pairs naturally with {次回|じかい} (next time) and {今回|こんかい} (this time).\n\nCOMMON COLLOCATIONS:\n・{前回|ぜんかい}の{結果|けっか} — last time's results\n・{前回|ぜんかい}の{反省|はんせい}を{活|い}かす — to learn from last time's mistakes\n・{前回|ぜんかい}と{比|くら}べて — compared to last time\n・{前回|ぜんかい}{同様|どうよう} — same as last time",
+  "notes": "Functions as an adverbial noun — can modify a sentence directly without a particle ({前回|ぜんかい}⟦は→は：00079_ha⟧ or just {前回|ぜんかい} at the start of a clause). Pairs naturally with ⟦{次回|じかい}→次回：13170_jikai⟧ (next time) and ⟦{今回|こんかい}→今回：01409_konkai⟧ (this time).\n\nCOMMON COLLOCATIONS:\n- {前回|ぜんかい}⟦の→の：09472_no⟧⟦{結果|けっか}→結果：02486_kekka⟧ — last time's results\n- {前回|ぜんかい}⟦の→の：09472_no⟧⟦{反省|はんせい}→反省：03570_hansei⟧⟦を→を：00422_wo⟧⟦{活|い}かす→活かす：10422_ikasu⟧ — to learn from last time's mistakes\n- {前回|ぜんかい}⟦と→と：00512_to⟧⟦{比|くら}べて→比べる：01237_kuraberu⟧ — compared to last time\n- {前回|ぜんかい}⟦{同様|どうよう}→同様：01654_douyou⟧ — same as last time",
   "cross_references": [
     {
       "type": "antonym",
@@ -59,11 +59,18 @@
       "headword": "{今回|こんかい}",
       "label": "this time",
       "target_id": "01409_konkai"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25259_konomae",
+      "reading": "このまえ",
+      "headword": "この{前|まえ}",
+      "label": "the other day"
     }
   ],
   "metadata": {
     "created": "2026-02-18T12:20:17Z",
-    "modified": "2026-08-02T12:18:13Z",
+    "modified": "2026-09-02T04:01:26Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

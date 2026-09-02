@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "07815_chuusharyoukin_ex1",
-      "japanese": "{駐車料金|ちゅうしゃりょうきん}は{一時間|いちじかん}300{円|えん}です。",
+      "japanese": "{駐車料金|ちゅうしゃりょうきん}⟦は→は：00079_ha⟧⟦{一時間|いちじかん}→一時間：00941_ichijikan⟧300⟦{円|えん}→円：00774_en⟧です。",
       "english": "The parking fee is 300 yen per hour.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "07815_chuusharyoukin_ex2",
-      "japanese": "{駐車料金|ちゅうしゃりょうきん}を{払|はら}ってから{出庫|しゅっこ}してください。",
+      "japanese": "{駐車料金|ちゅうしゃりょうきん}⟦を→を：00422_wo⟧⟦{払|はら}って→払う：00535_harau⟧⟦から→から：00504_kara⟧{出庫|しゅっこ}⟦して→する：00392_suru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please pay the parking fee before exiting.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "07815_chuusharyoukin_ex3",
-      "japanese": "この{店|みせ}で{買|か}い{物|もの}をすると{駐車料金|ちゅうしゃりょうきん}が{無料|むりょう}になる。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{店|みせ}→店：00497_mise⟧⟦で→で：00502_de⟧⟦{買|か}い{物|もの}→買い物：00853_kaimono⟧⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧⟦と→と：00512_to⟧{駐車料金|ちゅうしゃりょうきん}⟦が→が：00051_ga⟧⟦{無料|むりょう}→無料：01662_muryou⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧。",
       "english": "Parking is free if you shop at this store.",
       "sense_numbers": [
         1
@@ -43,7 +43,30 @@
       "notes": null
     }
   ],
-  "notes": "{駐車料金|ちゅうしゃりょうきん} is a compound noun combining {駐車|ちゅうしゃ} (parking) + {料金|りょうきん} (fee, charge). It's the standard term for parking fees in Japan.\n\nPARKING IN JAPAN:\n- コインパーキング (coin-operated parking lot) - common in urban areas\n- {立体|りったい}{駐車場|ちゅうしゃじょう} (multi-story parking garage)\n- {月極|つきぎめ}{駐車場|ちゅうしゃじょう} (monthly parking)\n\nCOMMON EXPRESSIONS:\n- {駐車料金|ちゅうしゃりょうきん}が{高|たか}い/{安|やす}い (parking fee is expensive/cheap)\n- {駐車料金|ちゅうしゃりょうきん}{無料|むりょう} (free parking)\n- {最大|さいだい}{駐車料金|ちゅうしゃりょうきん} (maximum parking fee - daily cap)\n\nSHOPPING DISCOUNT:\nMany stores offer {駐車料金|ちゅうしゃりょうきん}サービス (parking validation) where customers receive free or discounted parking with purchase.\n\nRELATED TERMS:\n- {駐車場|ちゅうしゃじょう} (parking lot)\n- パーキング (parking)\n- {駐車券|ちゅうしゃけん} (parking ticket/receipt)\n\nREGISTER: Neutral. Standard everyday vocabulary.",
+  "notes": "{駐車料金|ちゅうしゃりょうきん} is a compound noun combining ⟦{駐車|ちゅうしゃ}→駐車：01466_chuusha⟧ (parking) + ⟦{料金|りょうきん}→料金：03797_ryoukin⟧ (fee, charge). It's the standard term for parking fees in Japan.\n\nPARKING IN JAPAN:\n- ⟦コインパーキング→コインパーキング：24421_koinpaakingu⟧ (coin-operated parking lot) - common in urban areas\n- ⟦{立体|りったい}{駐車場|ちゅうしゃじょう}→立体駐車場：10183_rittaichuushajou⟧ (multi-story parking garage)\n- ⟦{月極|つきぎめ}{駐車場|ちゅうしゃじょう}→月極駐車場：19061_tsukigimechuushajou⟧ (monthly parking)\n\nCOMMON EXPRESSIONS:\n- {駐車料金|ちゅうしゃりょうきん}⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧/⟦{安|やす}い→安い：00464_yasui⟧ (parking fee is expensive/cheap)\n- {駐車料金|ちゅうしゃりょうきん}⟦{無料|むりょう}→無料：01662_muryou⟧ (free parking)\n- ⟦{最大|さいだい}→最大：04827_saidai⟧{駐車料金|ちゅうしゃりょうきん} (maximum parking fee - daily cap)\n\nSHOPPING DISCOUNT:\nMany stores offer {駐車料金|ちゅうしゃりょうきん}⟦サービス→サービス：01531_saabisu⟧ (parking validation) where customers receive free or discounted parking with purchase.\n\nRELATED WORDS:\n- ⟦{駐車場|ちゅうしゃじょう}→駐車場：01667_chuushajou⟧ (parking lot)\n- パーキング (parking)\n- ⟦{駐車券|ちゅうしゃけん}→駐車券：16538_chuushaken⟧ (parking ticket/receipt)\n\nREGISTER: Neutral. Standard everyday vocabulary.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "01667_chuushajou",
+      "reading": "ちゅうしゃじょう",
+      "headword": "{駐車場|ちゅうしゃじょう}",
+      "label": "parking lot"
+    },
+    {
+      "type": "related",
+      "target_id": "16538_chuushaken",
+      "reading": "ちゅうしゃけん",
+      "headword": "{駐車券|ちゅうしゃけん}",
+      "label": "parking ticket/receipt"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26235_chuushajoudai",
+      "reading": "ちゅうしゃじょうだい",
+      "headword": "{駐車場代|ちゅうしゃじょうだい}",
+      "label": "parking fee"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -58,6 +81,6 @@
       ]
     },
     "created": "2026-01-21T06:45:04Z",
-    "modified": "2026-07-01T03:20:01Z"
+    "modified": "2026-09-02T04:01:12Z"
   }
 }

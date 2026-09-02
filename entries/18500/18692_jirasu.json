@@ -3,7 +3,7 @@
   "headword": "{焦|じ}らす",
   "reading": "じらす",
   "romaji": "jirasu",
-  "part_of_speech": "verb-godan",
+  "part_of_speech": "verb (godan)",
   "gloss": "to tease; to keep in suspense; to tantalize",
   "conjugation": {
     "type": "godan",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "18692_jirasu_ex1",
-      "japanese": "そんなに{焦|じ}らさないで。",
+      "japanese": "⟦そんな→そんな：01645_sonna⟧⟦に→に：00314_ni⟧{焦|じ}らさないで。",
       "english": "Don't keep me in suspense like that.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "18692_jirasu_ex2",
-      "japanese": "{彼女|かのじょ}は{答|こた}えを{焦|じ}らしてから{教|おし}えた。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧⟦{答|こた}え→答え：00790_kotae⟧⟦を→を：00422_wo⟧{焦|じ}らして⟦から→から：00504_kara⟧⟦{教|おし}えた→教える：00526_oshieru⟧。",
       "english": "She kept me in suspense before telling me the answer.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "18692_jirasu_ex3",
-      "japanese": "{子|こ}どもを{焦|じ}らしてプレゼントをなかなか{渡|わた}さなかった。",
+      "japanese": "{子|こ}ども⟦を→を：00422_wo⟧{焦|じ}らして⟦プレゼント→プレゼント：01791_purezento⟧⟦を→を：00422_wo⟧⟦なかなか→なかなか：01547_nakanaka⟧⟦{渡|わた}さなかった→渡す：02442_watasu⟧。",
       "english": "I teased the child by not giving them the present right away.",
       "sense_numbers": [
         1
@@ -134,8 +134,17 @@
       "notes": null
     }
   ],
-  "notes": "{焦|じ}らす means to deliberately make someone wait or withhold something, causing impatience or frustration.\n\nTRANSITIVITY:\n- Type: {他動詞|たどうし} (transitive)\n- Pair: {焦|じ}れる (intransitive — to grow impatient)\n\nASPECT (ている):\n{焦|じ}らしている means \"is keeping someone in suspense\" (ongoing action).\n\nCOMMON PATTERNS:\n- {相手|あいて}を{焦|じ}らす: to keep someone in suspense\n- {焦|じ}らさないで: don't keep me waiting/don't tease me\n- じらしプレー: playing hard to get, teasing play\n\nRELATED WORDS:\n- {焦|じ}れる: to grow impatient (intransitive)\n- {焦|あせ}る: to be in a hurry, to feel anxious/impatient\n- じれったい: frustrating, exasperating (adjective)",
+  "notes": "{焦|じ}らす means to deliberately make someone wait or withhold something, causing impatience or frustration.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- Pair: {焦|じ}れる (intransitive — to grow impatient)\n\nASPECT (ている):\n{焦|じ}らして⟦いる→いる：00495_iru⟧ means \"is keeping someone in suspense\" (ongoing action).\n\nCOMMON PATTERNS:\n- ⟦{相手|あいて}→相手：01677_aite⟧⟦を→を：00422_wo⟧{焦|じ}らす: to keep someone in suspense\n- {焦|じ}らさないで: don't keep me waiting/don't tease me\n- じらし⟦プレー→プレー：29432_puree⟧: playing hard to get, teasing play\n\nRELATED WORDS:\n- {焦|じ}れる: to grow impatient (intransitive)\n- ⟦{焦|あせ}る→焦る：04619_aseru⟧: to be in a hurry, to feel anxious/impatient\n- ⟦じれったい→じれったい：22590_jirettai⟧: frustrating, exasperating (adjective)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "22590_jirettai",
+      "reading": "じれったい",
+      "headword": "じれったい",
+      "label": "frustrating, exasperating"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -152,6 +161,6 @@
       "verb_class": "godan-su"
     },
     "created": "2026-03-23T00:18:56Z",
-    "modified": "2026-07-26T09:39:42Z"
+    "modified": "2026-09-02T04:01:53Z"
   }
 }

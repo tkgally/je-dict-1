@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "09515_keihou_ex1",
-      "japanese": "{警報|けいほう}⟦が→が：00051_ga⟧{出|で}た。",
+      "japanese": "{警報|けいほう}⟦が→が：00051_ga⟧⟦{出|で}た→出る：00513_deru⟧。",
       "english": "A warning has been issued.",
       "has_audio": false,
       "sense_numbers": [
@@ -40,10 +40,10 @@
       ]
     }
   ],
-  "notes": "{警報|けいほう} is an official warning or alert issued by authorities, especially regarding weather or natural disasters. It indicates a higher level of danger than {注意報|ちゅういほう} (advisory).\n\nCOMMON TYPES:\n- {大雨|おおあめ}{警報|けいほう}: heavy rain warning\n- {暴風|ぼうふう}{警報|けいほう}: storm warning\n- {津波|つなみ}{警報|けいほう}: tsunami warning\n- {噴火|ふんか}{警報|けいほう}: volcanic eruption warning\n- {洪水|こうずい}{警報|けいほう}: flood warning\n\nCOMMON PATTERNS:\n- {警報|けいほう}が{出|で}る/{発令|はつれい}される: a warning is issued\n- {警報|けいほう}が{解除|かいじょ}される: a warning is lifted\n- {警報|けいほう}{発令中|はつれいちゅう}: warning in effect\n\nSEVERITY SCALE (weather):\n{注意報|ちゅういほう} (advisory) → {警報|けいほう} (warning) → {特別|とくべつ}{警報|けいほう} (emergency warning)",
+  "notes": "{警報|けいほう} is an official warning or alert issued by authorities, especially regarding weather or natural disasters. It indicates a higher level of danger than ⟦{注意報|ちゅういほう}→注意報：16464_chuuihou⟧ (advisory).\n\nTYPES:\n- {大雨|おおあめ}{警報|けいほう}: heavy rain warning\n- {暴風|ぼうふう}{警報|けいほう}: storm warning\n- ⟦{津波|つなみ}→津波：05064_tsunami⟧{警報|けいほう}: tsunami warning\n- ⟦{噴火|ふんか}→噴火：00045_funka⟧{警報|けいほう}: volcanic eruption warning\n- {洪水|こうずい}{警報|けいほう}: flood warning\n\nCOMMON PATTERNS:\n- {警報|けいほう}⟦が→が：00051_ga⟧⟦{出|で}る→出る：00513_deru⟧/⟦{発令|はつれい}→発令：09516_hatsurei⟧⟦される→する：00392_suru⟧: a warning is issued\n- {警報|けいほう}⟦が→が：00051_ga⟧⟦{解除|かいじょ}される→解除する：26843_kaijosuru⟧: a warning is lifted\n- {警報|けいほう}{発令中|はつれいちゅう}: warning in effect\n\nSEVERITY SCALE (weather):\n⟦{注意報|ちゅういほう}→注意報：16464_chuuihou⟧ (advisory) → {警報|けいほう} (warning) → {特別|とくべつ}{警報|けいほう} (emergency warning)",
   "metadata": {
     "created": "2026-02-02T10:21:20Z",
-    "modified": "2026-05-04T04:08:05Z",
+    "modified": "2026-09-02T04:01:18Z",
     "ai_model": "claude-opus-4-5-20251101",
     "vocabulary_tier": "general",
     "tags": {
@@ -71,6 +71,27 @@
       "reading": "ちゅういほう",
       "headword": "{注意報|ちゅういほう}",
       "label": "advisory (less severe)"
+    },
+    {
+      "type": "related",
+      "target_id": "01455_taifuu",
+      "reading": "たいふう",
+      "headword": "{台風|たいふう}",
+      "label": "typhoon"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26994_sairen",
+      "reading": "さいれん",
+      "headword": "サイレン",
+      "label": "siren"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27942_houchiki",
+      "reading": "ほうちき",
+      "headword": "{報知器|ほうちき}",
+      "label": "alarm"
     }
   ]
 }

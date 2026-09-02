@@ -2,7 +2,7 @@
   "id": "07782_hitoyasumi",
   "headword": "ひと{休|やす}み",
   "reading": "ひとやすみ",
-  "part_of_speech": "noun/suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "a short rest",
   "conjugation": {
     "type": "suru",
@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "07782_hitoyasumi_ex1",
-      "japanese": "ここでひと{休|やす}みしよう。",
+      "japanese": "⟦ここ→ここ：00961_koko⟧⟦で→で：00502_de⟧ひと{休|やす}み⟦しよう→する：00392_suru⟧。",
       "english": "Let's take a short rest here.",
       "sense_numbers": [
         1
@@ -114,7 +114,7 @@
     },
     {
       "id": "07782_hitoyasumi_ex2",
-      "japanese": "{登山|とざん}の{途中|とちゅう}でひと{休|やす}みした。",
+      "japanese": "⟦{登山|とざん}→登山：03457_tozan⟧⟦の→の：09472_no⟧⟦{途中|とちゅう}→途中：01684_tochuu⟧⟦で→で：00502_de⟧ひと{休|やす}み⟦した→する：00392_suru⟧。",
       "english": "We took a short break during the hike.",
       "sense_numbers": [
         1
@@ -124,7 +124,7 @@
     },
     {
       "id": "07782_hitoyasumi_ex3",
-      "japanese": "{午後|ごご}の{作業|さぎょう}の{前|まえ}に、お{茶|ちゃ}を{飲|の}んでひと{休|やす}みした。",
+      "japanese": "⟦{午後|ごご}→午後：00544_gogo⟧⟦の→の：09472_no⟧⟦{作業|さぎょう}→作業：02775_sagyou⟧⟦の→の：09472_no⟧⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧、⟦お{茶|ちゃ}→お茶：00576_ocha⟧⟦を→を：00422_wo⟧⟦{飲|の}んで→飲む：00322_nomu⟧ひと{休|やす}み⟦した→する：00392_suru⟧。",
       "english": "Before the afternoon work, I had some tea and took a brief rest.",
       "sense_numbers": [
         1
@@ -133,7 +133,7 @@
       "notes": null
     }
   ],
-  "notes": "Combines ひと (one, a single) + {休|やす}み (rest). Emphasizes the brevity — just one short rest before continuing.\n\nCOMMON PATTERNS:\n- ひと{休|やす}みする: to take a short rest\n- ひと{休|やす}みしよう: let's take a break\n- ひと{休|やす}み{入|い}れる: to put in a break\n\nSIMILAR ひと〜 WORDS:\nThis follows the productive ひと + noun pattern meaning \"one quick ~\":\n- {一息|ひといき}: a breather\n- ひと{眠|ねむ}り: a nap\n- ひと{走|はし}り: a quick run\n\nSIMILAR WORDS:\n- {休憩|きゅうけい}: break, rest (more general, longer)\n- {小休止|しょうきゅうし}: brief pause (formal)\n- {一服|いっぷく}: a break (originally for tea or smoking)",
+  "notes": "Combines ひと (one, a single) + ⟦{休|やす}み→休み：02266_yasumi⟧ (rest). Emphasizes the brevity — just one short rest before continuing.\n\nCOMMON PATTERNS:\n- ひと{休|やす}み⟦する→する：00392_suru⟧: to take a short rest\n- ひと{休|やす}み⟦しよう→する：00392_suru⟧: let's take a break\n- ひと{休|やす}み⟦{入|い}れる→入れる：01098_ireru⟧: to put in a break\n\nSIMILAR ひと〜 WORDS:\nThis follows the productive ひと + noun pattern meaning \"one quick ~\":\n- ⟦{一息|ひといき}→一息：07781_hitoiki⟧: a breather\n- ひと{眠|ねむ}り: a nap\n- ひと{走|はし}り: a quick run\n\nSIMILAR WORDS:\n- ⟦{休憩|きゅうけい}→休憩：00262_kyuukei⟧: break, rest (more general, longer)\n- ⟦{小休止|しょうきゅうし}→小休止：07855_shoukyuushi⟧: brief pause (formal)\n- ⟦{一服|いっぷく}→一服：17697_ippuku⟧: a break (originally for tea or smoking)",
   "cross_references": [
     {
       "type": "synonym",
@@ -141,6 +141,27 @@
       "reading": "ひといき",
       "headword": "{一息|ひといき}",
       "label": "a breather"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00262_kyuukei",
+      "reading": "きゅうけい",
+      "headword": "{休憩|きゅうけい}",
+      "label": "break, rest"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07855_shoukyuushi",
+      "reading": "しょうきゅうし",
+      "headword": "{小休止|しょうきゅうし}",
+      "label": "brief pause"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17697_ippuku",
+      "reading": "いっぷく",
+      "headword": "{一服|いっぷく}",
+      "label": "a break"
     }
   ],
   "metadata": {
@@ -158,6 +179,6 @@
       "verb_class": "suru"
     },
     "created": "2026-01-21T03:52:44Z",
-    "modified": "2026-04-18T08:05:14Z"
+    "modified": "2026-09-02T04:01:12Z"
   }
 }

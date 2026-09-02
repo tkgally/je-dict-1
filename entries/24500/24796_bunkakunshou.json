@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24796_bunkakunshou_ex1",
-      "japanese": "{文化勲章|ぶんかくんしょう}を{受章|じゅしょう}する。",
+      "japanese": "{文化勲章|ぶんかくんしょう}⟦を→を：00422_wo⟧⟦{受章|じゅしょう}→受章：22879_jushou⟧⟦する→する：00392_suru⟧。",
       "english": "Receive the Order of Culture.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24796_bunkakunshou_ex2",
-      "japanese": "{毎年|まいとし}{文化|ぶんか}の{日|ひ}に{文化勲章|ぶんかくんしょう}の{授与式|じゅよしき}が{行|おこな}われる。",
+      "japanese": "⟦{毎年|まいとし}→毎年：00731_maitoshi⟧⟦{文化|ぶんか}→文化：01504_bunka⟧⟦の→の：09472_no⟧⟦{日|ひ}→日：02249_hi⟧⟦に→に：00314_ni⟧{文化勲章|ぶんかくんしょう}⟦の→の：09472_no⟧{授与式|じゅよしき}⟦が→が：00051_ga⟧⟦{行|おこな}われる→行う：01238_okonau⟧。",
       "english": "The Order of Culture award ceremony is held every year on Culture Day.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24796_bunkakunshou_ex3",
-      "japanese": "ノーベル{賞|しょう}を{受賞|じゅしょう}した{科学者|かがくしゃ}が{文化勲章|ぶんかくんしょう}にも{選|えら}ばれた。",
+      "japanese": "ノーベル⟦{賞|しょう}→賞：03227_shou⟧⟦を→を：00422_wo⟧⟦{受賞|じゅしょう}→受賞：11867_jushou⟧⟦した→する：00392_suru⟧⟦{科学者|かがくしゃ}→科学者：19378_kagakusha⟧⟦が→が：00051_ga⟧{文化勲章|ぶんかくんしょう}⟦に→に：00314_ni⟧⟦も→も：00484_mo⟧⟦{選|えら}ばれた→選ぶ：00835_erabu⟧。",
       "english": "The scientist who won the Nobel Prize was also selected for the Order of Culture.",
       "sense_numbers": [
         1
@@ -44,14 +44,25 @@
       "notes": null
     }
   ],
-  "notes": "Japan's most prestigious cultural award, established in 1937. The medal is presented personally by the Emperor on November 3rd ({文化|ぶんか}の{日|ひ} — Culture Day). Recipients include novelists, artists, scientists, scholars, and other cultural figures.\n\nCOMMON COLLOCATIONS:\n- {文化勲章|ぶんかくんしょう}を{受章|じゅしょう}する — to receive the Order of Culture\n- {文化勲章|ぶんかくんしょう}{受章者|じゅしょうしゃ} — Order of Culture recipient\n- {文化勲章|ぶんかくんしょう}の{授与|じゅよ} — conferring the Order of Culture\n\nRELATED TERMS:\n- {文化|ぶんか}{功労者|こうろうしゃ} — Person of Cultural Merit (a separate, slightly lower honor often awarded alongside)\n- {人間|にんげん}{国宝|こくほう} — Living National Treasure (for traditional arts and crafts)\n- {勲章|くんしょう} — medal of honor; decoration (general term)",
+  "notes": "Japan's most prestigious cultural award, established in 1937. The medal is presented personally by the Emperor on November 3rd (⟦{文化|ぶんか}→文化：01504_bunka⟧⟦の→の：09472_no⟧⟦{日|ひ}→日：02249_hi⟧ — Culture Day). Recipients include novelists, artists, scientists, scholars, and other cultural figures.\n\nCOMMON COLLOCATIONS:\n- {文化勲章|ぶんかくんしょう}⟦を→を：00422_wo⟧⟦{受章|じゅしょう}→受章：22879_jushou⟧⟦する→する：00392_suru⟧ — to receive the Order of Culture\n- {文化勲章|ぶんかくんしょう}{受章者|じゅしょうしゃ} — Order of Culture recipient\n- {文化勲章|ぶんかくんしょう}⟦の→の：09472_no⟧⟦{授与|じゅよ}→授与：12900_juyo⟧ — conferring the Order of Culture\n\nRELATED WORDS:\n- ⟦{文化|ぶんか}→文化：01504_bunka⟧{功労者|こうろうしゃ} — Person of Cultural Merit (a separate, slightly lower honor often awarded alongside)\n- ⟦{人間|にんげん}{国宝|こくほう}→人間国宝：12663_ningenkokuhou⟧ — Living National Treasure (for traditional arts and crafts)\n- ⟦{勲章|くんしょう}→勲章：21244_kunshou⟧ — medal of honor; decoration (general term)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "12663_ningenkokuhou",
+      "reading": "にんげんこくほう",
+      "headword": "{人間国宝|にんげんこくほう}",
+      "label": "Living National Treasure"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "culture",
         "society"
@@ -61,6 +72,6 @@
       ]
     },
     "created": "2026-04-20T16:19:42Z",
-    "modified": "2026-08-03T09:22:27Z"
+    "modified": "2026-09-02T04:02:19Z"
   }
 }

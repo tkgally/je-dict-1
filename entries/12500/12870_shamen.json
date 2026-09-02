@@ -15,41 +15,66 @@
   "examples": [
     {
       "id": "12870_shamen_ex1",
-      "japanese": "{急|きゅう}な{斜面|しゃめん}を{登|のぼ}った。",
+      "japanese": "⟦{急|きゅう}→急：13042_kyuu⟧な{斜面|しゃめん}⟦を→を：00422_wo⟧⟦{登|のぼ}った→登る：00660_noboru⟧。",
       "english": "I climbed a steep slope.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12870_shamen_ex2",
-      "japanese": "{雪|ゆき}の{斜面|しゃめん}をスキーで{滑|すべ}り{降|お}りた。",
+      "japanese": "⟦{雪|ゆき}→雪：00584_yuki⟧⟦の→の：09472_no⟧{斜面|しゃめん}⟦を→を：00422_wo⟧⟦スキー→スキー：03849_sukii⟧⟦で→で：00502_de⟧⟦{滑|すべ}り{降|お}りた→滑り降りる：29571_suberioriru⟧。",
       "english": "I skied down the snowy slope.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12870_shamen_ex3",
-      "japanese": "{大雨|おおあめ}の{影響|えいきょう}で{斜面|しゃめん}が{崩|くず}れ、{道路|どうろ}が{通行止|つうこうど}めになった。",
+      "japanese": "⟦{大雨|おおあめ}→大雨：03015_ooame⟧⟦の→の：09472_no⟧⟦{影響|えいきょう}→影響：01877_eikyou⟧⟦で→で：00502_de⟧{斜面|しゃめん}⟦が→が：00051_ga⟧⟦{崩|くず}れ→崩れる：04248_kuzureru⟧、⟦{道路|どうろ}→道路：01481_douro⟧⟦が→が：00051_ga⟧⟦{通行止|つうこうど}め→通行止め：19920_tsuukoudome⟧になった。",
       "english": "The slope collapsed due to heavy rain, and the road was closed to traffic.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nA factual, somewhat technical term commonly used in geography, construction, disaster reporting, and skiing contexts. Frequently modified by {急|きゅう}な (steep) or {緩|ゆる}やかな (gentle).\n\nCOMMON COLLOCATIONS:\n- {急|きゅう}な{斜面|しゃめん}: steep slope\n- {緩|ゆる}やかな{斜面|しゃめん}: gentle slope\n- {斜面|しゃめん}が{崩|くず}れる: the slope collapses (landslide)\n- {斜面|しゃめん}を{登|のぼ}る: to climb a slope\n\nSIMILAR WORDS:\n- {坂|さか}: hill, slope (everyday word, usually refers to roads)\n- {傾斜|けいしゃ}: inclination, gradient (more technical/abstract)",
-  "cross_references": [],
+  "notes": "USAGE:\nA factual, somewhat technical term commonly used in geography, construction, disaster reporting, and skiing contexts. Frequently modified by ⟦{急|きゅう}→急：13042_kyuu⟧な (steep) or ⟦{緩|ゆる}やか→緩やか：13813_yuruyaka⟧な (gentle).\n\nCOMMON COLLOCATIONS:\n- ⟦{急|きゅう}→急：13042_kyuu⟧な{斜面|しゃめん}: steep slope\n- ⟦{緩|ゆる}やか→緩やか：13813_yuruyaka⟧な{斜面|しゃめん}: gentle slope\n- {斜面|しゃめん}⟦が→が：00051_ga⟧⟦{崩|くず}れる→崩れる：04248_kuzureru⟧: the slope collapses (landslide)\n- {斜面|しゃめん}⟦を→を：00422_wo⟧⟦{登|のぼ}る→登る：00660_noboru⟧: to climb a slope\n\nSIMILAR WORDS:\n- ⟦{坂|さか}→坂：01415_saka⟧: hill, slope (everyday word, usually refers to roads)\n- ⟦{傾斜|けいしゃ}→傾斜：05447_keisha⟧: inclination, gradient (more technical/abstract)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01415_saka",
+      "reading": "さか",
+      "headword": "{坂|さか}",
+      "label": "hill, slope"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05447_keisha",
+      "reading": "けいしゃ",
+      "headword": "{傾斜|けいしゃ}",
+      "label": "inclination, gradient"
+    }
+  ],
   "metadata": {
     "created": "2026-02-22T12:42:11Z",
-    "modified": "2026-02-22T12:42:11Z",
+    "modified": "2026-09-02T04:01:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["geography"]
+      "semantic": [
+        "geography"
+      ]
     }
   }
 }

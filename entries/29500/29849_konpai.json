@@ -3,7 +3,7 @@
   "headword": "{困憊|こんぱい}",
   "reading": "こんぱい",
   "romaji": "konpai",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "utter exhaustion; fatigue",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29849_konpai_ex1",
-      "japanese": "{疲労|ひろう}{困憊|こんぱい}で{動|うご}けない。",
+      "japanese": "{疲労|ひろう}{困憊|こんぱい}⟦で→で：00502_de⟧⟦{動|うご}けない→動く：00904_ugoku⟧。",
       "english": "I'm too exhausted to move.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29849_konpai_ex2",
-      "japanese": "{連日|れんじつ}の{残業|ざんぎょう}で{困憊|こんぱい}している。",
+      "japanese": "⟦{連日|れんじつ}→連日：14328_renjitsu⟧⟦の→の：09472_no⟧⟦{残業|ざんぎょう}→残業：01071_zangyou⟧⟦で→で：00502_de⟧{困憊|こんぱい}⟦している→する：00392_suru⟧。",
       "english": "I'm worn out from working overtime day after day.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29849_konpai_ex3",
-      "japanese": "{長時間|ちょうじかん}の{看病|かんびょう}で、{家族|かぞく}は{心身|しんしん}ともに{困憊|こんぱい}していた。",
+      "japanese": "⟦{長時間|ちょうじかん}→長時間：10165_choujikan⟧⟦の→の：09472_no⟧⟦{看病|かんびょう}→看病：16956_kanbyou⟧⟦で→で：00502_de⟧、⟦{家族|かぞく}→家族：00552_kazoku⟧⟦は→は：00079_ha⟧⟦{心身|しんしん}→心身：04206_shinshin⟧とも⟦に→に：00314_ni⟧{困憊|こんぱい}⟦していた→する：00392_suru⟧。",
       "english": "From the long hours of nursing care, the family was exhausted in both body and mind.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "A formal, written-style noun meaning utter exhaustion. In practice it rarely stands alone — it nearly always appears in the four-character phrase {疲労困憊|ひろうこんぱい}. Also used with する ({困憊|こんぱい}する).\n\nCOMMON COLLOCATIONS:\n- {疲労|ひろう}{困憊|こんぱい}: worn out with fatigue\n- {心身|しんしん}ともに{困憊|こんぱい}する: to be exhausted in body and mind\n- {困憊|こんぱい}しきる: to be completely worn out\n\nSIMILAR WORDS:\n- {疲労|ひろう}: fatigue; tiredness — everyday word; {困憊|こんぱい} is stronger and more literary\n- へとへと: worn out; dead tired — colloquial and vivid, used in casual speech",
+  "notes": "A formal, written-style noun meaning utter exhaustion. In practice it rarely stands alone — it nearly always appears in the four-character phrase ⟦{疲労困憊|ひろうこんぱい}→疲労困憊：13618_hiroukonpai⟧. Also used with ⟦する→する：00392_suru⟧ ({困憊|こんぱい}⟦する→する：00392_suru⟧).\n\nCOMMON COLLOCATIONS:\n- {疲労|ひろう}{困憊|こんぱい}: worn out with fatigue\n- ⟦{心身|しんしん}→心身：04206_shinshin⟧とも⟦に→に：00314_ni⟧{困憊|こんぱい}⟦する→する：00392_suru⟧: to be exhausted in body and mind\n- {困憊|こんぱい}しきる: to be completely worn out\n\nSIMILAR WORDS:\n- ⟦{疲労|ひろう}→疲労：13603_hirou⟧: fatigue; tiredness — everyday word; {困憊|こんぱい} is stronger and more literary\n- ⟦へとへと→へとへと：05273_hetoheto⟧: worn out; dead tired — colloquial and vivid, used in casual speech",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13603_hirou",
+      "reading": "ひろう",
+      "headword": "{疲労|ひろう}",
+      "label": "fatigue"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -54,7 +63,7 @@
         "verb-suru"
       ],
       "formality": "formal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "health"
       ],
@@ -62,7 +71,7 @@
       "verb_class": "suru"
     },
     "created": "2026-07-14T18:20:29Z",
-    "modified": "2026-07-14T18:20:29Z"
+    "modified": "2026-09-02T04:02:38Z"
   },
   "conjugation": {
     "type": "suru",

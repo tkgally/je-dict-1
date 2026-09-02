@@ -3,7 +3,7 @@
   "headword": "{被曝|ひばく}",
   "reading": "ひばく",
   "romaji": "hibaku",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "radiation exposure",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22759_hibaku_ex1",
-      "japanese": "{被曝量|ひばくりょう}を{測定|そくてい}する。",
+      "japanese": "{被曝量|ひばくりょう}⟦を→を：00422_wo⟧⟦{測定|そくてい}→測定：04398_sokutei⟧⟦する→する：00392_suru⟧。",
       "english": "To measure the radiation exposure dose.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22759_hibaku_ex2",
-      "japanese": "{作業員|さぎょういん}の{被曝|ひばく}を{最小限|さいしょうげん}に{抑|おさ}える。",
+      "japanese": "⟦{作業員|さぎょういん}→作業員：24136_sagyouin⟧⟦の→の：09472_no⟧{被曝|ひばく}⟦を→を：00422_wo⟧⟦{最小限|さいしょうげん}→最小限：13072_saishougen⟧⟦に→に：00314_ni⟧⟦{抑|おさ}える→抑える：12806_osaeru⟧。",
       "english": "To minimize the radiation exposure of the workers.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22759_hibaku_ex3",
-      "japanese": "{原発事故|げんぱつじこ}の{後|あと}、{住民|じゅうみん}の{被曝|ひばく}{線量|せんりょう}が{問題|もんだい}になった。",
+      "japanese": "{原発事故|げんぱつじこ}⟦の→の：09472_no⟧⟦{後|あと}→後：09580_ato⟧、⟦{住民|じゅうみん}→住民：03281_juumin⟧⟦の→の：09472_no⟧{被曝|ひばく}{線量|せんりょう}⟦が→が：00051_ga⟧⟦{問題|もんだい}→問題：00797_mondai⟧になった。",
       "english": "After the nuclear power plant accident, the radiation doses received by residents became an issue.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Written {被曝|ひばく} with {曝|ばく} (exposure to elements). This is distinct from {被爆|ひばく} (with {爆|ばく} meaning 'bomb'), which specifically means being affected by a bombing, especially an atomic bombing. The distinction is important:\n\n- {被曝|ひばく} ({曝|ばく} = exposure): radiation exposure from any source\n- {被爆|ひばく} ({爆|ばく} = bomb): being bombed, especially being affected by an atomic bomb\n\nCOMMON COLLOCATIONS:\n- {被曝量|ひばくりょう}: radiation exposure dose\n- {被曝|ひばく}{線量|せんりょう}: radiation dose\n- {被曝|ひばく}{限度|げんど}: exposure limit\n- {内部|ないぶ}{被曝|ひばく}: internal radiation exposure\n- {外部|がいぶ}{被曝|ひばく}: external radiation exposure\n\nSIMILAR WORDS:\n- {被爆|ひばく}: being bombed (atomic bombing) — same pronunciation, different kanji and meaning\n- {放射線|ほうしゃせん}: radiation — the radiation itself, not the exposure\n- {汚染|おせん}: contamination — broader term for contamination of any kind",
+  "notes": "Written {被曝|ひばく} with {曝|ばく} (exposure to elements). This is distinct from {被爆|ひばく} (with {爆|ばく} meaning 'bomb'), which specifically means being affected by a bombing, especially an atomic bombing. The distinction is important:\n\n- {被曝|ひばく} ({曝|ばく} = exposure): radiation exposure from any source\n- {被爆|ひばく} ({爆|ばく} = bomb): being bombed, especially being affected by an atomic bomb\n\nCOMMON COLLOCATIONS:\n- {被曝量|ひばくりょう}: radiation exposure dose\n- {被曝|ひばく}{線量|せんりょう}: radiation dose\n- {被曝|ひばく}⟦{限度|げんど}→限度：00063_gendo⟧: exposure limit\n- {内部|ないぶ}{被曝|ひばく}: internal radiation exposure\n- ⟦{外部|がいぶ}→外部：00052_gaibu⟧{被曝|ひばく}: external radiation exposure\n\nSIMILAR WORDS:\n- {被爆|ひばく}: being bombed (atomic bombing) — same pronunciation, different kanji and meaning\n- ⟦{放射線|ほうしゃせん}→放射線：14998_houshasen⟧: radiation — the radiation itself, not the exposure\n- ⟦{汚染|おせん}→汚染：02595_osen⟧: contamination — broader term for contamination of any kind",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14998_houshasen",
+      "reading": "ほうしゃせん",
+      "headword": "{放射線|ほうしゃせん}",
+      "label": "radiation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02595_osen",
+      "reading": "おせん",
+      "headword": "{汚染|おせん}",
+      "label": "contamination"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21162_shousha",
+      "reading": "しょうしゃ",
+      "headword": "{照射|しょうしゃ}",
+      "label": "irradiation"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,7 +85,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-07T14:20:29Z",
-    "modified": "2026-04-07T14:20:29Z"
+    "modified": "2026-09-02T04:02:09Z"
   },
   "conjugation": {
     "type": "suru",

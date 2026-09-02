@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "16019_ishuu_ex1",
-      "japanese": "{部屋|へや}から{異臭|いしゅう}がする。",
+      "japanese": "⟦{部屋|へや}→部屋：00507_heya⟧⟦から→から：00504_kara⟧{異臭|いしゅう}⟦が→が：00051_ga⟧⟦する→する：00392_suru⟧。",
       "english": "There is a strange smell coming from the room.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16019_ishuu_ex2",
-      "japanese": "{異臭|いしゅう}に{気|き}づいた{住民|じゅうみん}が{警察|けいさつ}に{通報|つうほう}した。",
+      "japanese": "{異臭|いしゅう}⟦に→に：00314_ni⟧{気|き}づいた⟦{住民|じゅうみん}→住民：03281_juumin⟧⟦が→が：00051_ga⟧⟦{警察|けいさつ}→警察：01393_keisatsu⟧⟦に→に：00314_ni⟧⟦{通報|つうほう}→通報：14318_tsuuhou⟧⟦した→する：00392_suru⟧。",
       "english": "A resident who noticed the strange smell called the police.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16019_ishuu_ex3",
-      "japanese": "{工場|こうじょう}から{異臭|いしゅう}が{漂|ただよ}い、{周辺|しゅうへん}の{住民|じゅうみん}から{苦情|くじょう}が{相次|あいつ}いだ。",
+      "japanese": "⟦{工場|こうじょう}→工場：01082_koujou⟧⟦から→から：00504_kara⟧{異臭|いしゅう}⟦が→が：00051_ga⟧⟦{漂|ただよ}い→漂う：04356_tadayou⟧、⟦{周辺|しゅうへん}→周辺：09896_shuuhen⟧⟦の→の：09472_no⟧⟦{住民|じゅうみん}→住民：03281_juumin⟧⟦から→から：00504_kara⟧⟦{苦情|くじょう}→苦情：00252_kujou⟧⟦が→が：00051_ga⟧⟦{相次|あいつ}いだ→相次ぐ：14869_aitsugu⟧。",
       "english": "A foul odor drifted from the factory, and complaints poured in from surrounding residents.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\n{異臭|いしゅう} is commonly found in news reports and official communications. The most typical pattern is {異臭|いしゅう}がする (there is a strange smell).\n\nCOMMON COLLOCATIONS:\n- {異臭|いしゅう}がする (there is a strange smell)\n- {異臭|いしゅう}を{放|はな}つ (to emit a foul odor)\n- {異臭|いしゅう}が{漂|ただよ}う (a stench wafts/drifts)\n- {異臭|いしゅう}{騒|さわ}ぎ (commotion over a strange smell)\n\nNUANCE:\nUnlike {臭|にお}い, which can be neutral (any smell), {異臭|いしゅう} always implies something abnormal and usually unpleasant. It often signals danger or something requiring investigation.",
+  "notes": "USAGE:\n{異臭|いしゅう} is commonly found in news reports and official communications. The most typical pattern is {異臭|いしゅう}⟦が→が：00051_ga⟧⟦する→する：00392_suru⟧ (there is a strange smell).\nUnlike {臭|にお}い, which can be neutral (any smell), {異臭|いしゅう} always implies something abnormal and usually unpleasant. It often signals danger or something requiring investigation.\n\nCOMMON COLLOCATIONS:\n- {異臭|いしゅう}⟦が→が：00051_ga⟧⟦する→する：00392_suru⟧ (there is a strange smell)\n- {異臭|いしゅう}⟦を→を：00422_wo⟧⟦{放|はな}つ→放つ：10062_hanatsu⟧ (to emit a foul odor)\n- {異臭|いしゅう}⟦が→が：00051_ga⟧⟦{漂|ただよ}う→漂う：04356_tadayou⟧ (a stench wafts/drifts)\n- {異臭|いしゅう}⟦{騒|さわ}ぎ→騒ぎ：02827_sawagi⟧ (commotion over a strange smell)",
   "cross_references": [
     {
       "type": "contrast",
@@ -53,18 +59,29 @@
       "reading": "くさい",
       "headword": "{臭|くさ}い",
       "label": "smelly, stinky"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15871_akushuu",
+      "reading": "あくしゅう",
+      "headword": "{悪臭|あくしゅう}",
+      "label": "stench"
     }
   ],
   "metadata": {
     "created": "2026-03-09T08:33:32Z",
-    "modified": "2026-05-02T10:22:31Z",
+    "modified": "2026-09-02T04:01:43Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

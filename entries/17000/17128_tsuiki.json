@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "17128_tsuiki_ex1",
-      "japanese": "{追記|ついき}があります。",
+      "japanese": "{追記|ついき}⟦が→が：00051_ga⟧⟦あります→ある：00006_aru⟧。",
       "english": "There is a postscript.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "17128_tsuiki_ex2",
-      "japanese": "{記事|きじ}に{情報|じょうほう}を{追記|ついき}した。",
+      "japanese": "⟦{記事|きじ}→記事：00227_kiji⟧⟦に→に：00314_ni⟧⟦{情報|じょうほう}→情報：03348_jouhou⟧⟦を→を：00422_wo⟧{追記|ついき}⟦した→する：00392_suru⟧。",
       "english": "I added additional information to the article.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "17128_tsuiki_ex3",
-      "japanese": "{間違|まちが}いがあったので、ブログの{最後|さいご}に{追記|ついき}を{入|い}れた。",
+      "japanese": "⟦{間違|まちが}い→間違い：03733_machigai⟧⟦が→が：00051_ga⟧⟦あった→ある：00006_aru⟧⟦の→の：09472_no⟧で、⟦ブログ→ブログ：05104_burogu⟧⟦の→の：09472_no⟧⟦{最後|さいご}→最後：01413_saigo⟧⟦に→に：00314_ni⟧{追記|ついき}⟦を→を：00422_wo⟧⟦{入|い}れた→入れる：01098_ireru⟧。",
       "english": "Since there was an error, I added a postscript at the end of the blog post.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA compound of {追|つい} (supplement, follow) + {記|き} (record, write). Used both as a noun and as a suru verb ({追記|ついき}する). Common in online writing, blogs, and official documents.\n\nCOMMON COLLOCATIONS:\n- {追記|ついき}する (to add a note)\n- {追記|ついき}を{入|い}れる (to insert a postscript)\n- {追記|ついき}{事項|じこう} (additional items)\n\nSIMILAR WORDS:\n- {補足|ほそく}: supplement — adding clarification to make something more complete\n- {付記|ふき}: appended note — a note attached to a document",
+  "notes": "USAGE:\nA compound of {追|つい} (supplement, follow) + {記|き} (record, write). Used both as a noun and as a suru verb ({追記|ついき}⟦する→する：00392_suru⟧). Common in online writing, blogs, and official documents.\n\nCOMMON COLLOCATIONS:\n- {追記|ついき}⟦する→する：00392_suru⟧ (to add a note)\n- {追記|ついき}⟦を→を：00422_wo⟧⟦{入|い}れる→入れる：01098_ireru⟧ (to insert a postscript)\n- {追記|ついき}⟦{事項|じこう}→事項：11469_jikou⟧ (additional items)\n\nSIMILAR WORDS:\n- ⟦{補足|ほそく}→補足：08386_hosoku⟧: supplement — adding clarification to make something more complete\n- {付記|ふき}: appended note — a note attached to a document",
   "cross_references": [
     {
       "type": "synonym",
@@ -142,11 +142,18 @@
       "reading": "ほそく",
       "headword": "{補足|ほそく}",
       "label": "supplement, clarification"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22619_kakikuwaeru",
+      "reading": "かきくわえる",
+      "headword": "{書|か}き{加|くわ}える",
+      "label": "to add (in writing)"
     }
   ],
   "metadata": {
     "created": "2026-03-16T03:05:00Z",
-    "modified": "2026-05-05T10:11:30Z",
+    "modified": "2026-09-02T04:01:47Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

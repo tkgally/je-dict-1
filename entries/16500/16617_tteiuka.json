@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "16617_tteiuka_ex1",
-      "japanese": "{疲|つか}れた、っていうか{眠|ねむ}い。",
+      "japanese": "⟦{疲|つか}れた→疲れる：00901_tsukareru⟧、っていうか⟦{眠|ねむ}い→眠い：00872_nemui⟧。",
       "english": "I'm tired, or rather, I'm sleepy.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "16617_tteiuka_ex2",
-      "japanese": "っていうか、そもそもなんで{来|き}たの？",
+      "japanese": "っていうか、⟦そもそも→そもそも：05211_somosomo⟧なんで⟦{来|き}た→来る：00254_kuru⟧⟦の→の：09472_no⟧？",
       "english": "I mean, why did you even come?",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "16617_tteiuka_ex3",
-      "japanese": "{面白|おもしろ}かった、っていうか{感動|かんどう}したって{言|い}った{方|ほう}がいいかな。",
+      "japanese": "⟦{面白|おもしろ}かった→面白い：00589_omoshiroi⟧、っていうか⟦{感動|かんどう}した→感動する：21603_kandousuru⟧⟦って→って：29146_tte⟧⟦{言|い}った→言う：00515_iu⟧⟦{方|ほう}→方：01139_hou⟧⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧⟦か→か：09473_ka⟧な。",
       "english": "It was interesting — or I should say I was moved.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,19 @@
       ]
     }
   ],
-  "notes": "っていうか is a casual conjunction used to rephrase, correct, or redirect what was just said. It functions similarly to English \"or rather\" or \"I mean.\"\n\nUSAGE:\n- Often placed at the start of a sentence to change direction or challenge a premise\n- Can appear mid-sentence to correct or refine a previous statement\n- Sometimes used as a filler or hedge, similar to English \"like\"\n- Can sound dismissive or confrontational if overused\n\nVARIATIONS (by formality):\n- というか: standard/polite form\n- ていうか: slightly less casual\n- っていうか: casual (most common in speech)\n- ってか: very casual, abbreviated\n\nSIMILAR WORDS:\n- むしろ: rather (more neutral, used in writing too)\n- {正確|せいかく}に{言|い}うと: to be precise (formal rephrasing)",
-  "cross_references": [],
+  "notes": "っていうか is a casual conjunction used to rephrase, correct, or redirect what was just said. It functions similarly to English \"or rather\" or \"I mean.\"\n\nUSAGE:\n- Often placed at the start of a sentence to change direction or challenge a premise\n- Can appear mid-sentence to correct or refine a previous statement\n- Sometimes used as a filler or hedge, similar to English \"like\"\n- Can sound dismissive or confrontational if overused\n\nVARIATIONS (by formality):\n- ⟦というか→というか：16105_toiuka⟧: standard/polite form\n- ⟦ていうか→ていうか：06920_teiuka⟧: slightly less casual\n- っていうか: casual (most common in speech)\n- ⟦って→って：29146_tte⟧⟦か→か：09473_ka⟧: very casual, abbreviated\n\nSIMILAR WORDS:\n- ⟦むしろ→むしろ：02364_mushiro⟧: rather (more neutral, used in writing too)\n- ⟦{正確|せいかく}→正確：03372_seikaku⟧⟦に→に：00314_ni⟧⟦{言|い}う→言う：00515_iu⟧⟦と→と：00512_to⟧: to be precise (formal rephrasing)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06284_teka",
+      "reading": "てか",
+      "headword": "てか",
+      "label": "or rather, I mean, actually"
+    }
+  ],
   "metadata": {
     "created": "2026-03-14T01:36:58Z",
-    "modified": "2026-07-20T00:31:17Z",
+    "modified": "2026-09-02T04:01:45Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

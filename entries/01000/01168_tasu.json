@@ -69,7 +69,7 @@
     },
     {
       "id": "01168_tasu_ex6",
-      "japanese": "⟦{味|あじ}→味：00826_aji⟧⟦が→が：00051_ga⟧⟦{薄|うす}かった→薄い：00764_usui⟧ので、⟦{少|すこ}し→少し：00596_sukoshi⟧⟦{醤油|しょうゆ}→醤油：01056_shouyu⟧⟦を→を：00422_wo⟧{足|た}した。",
+      "japanese": "⟦{味|あじ}→味：00826_aji⟧⟦が→が：00051_ga⟧⟦{薄|うす}かった→薄い：00764_usui⟧⟦の→の：09472_no⟧で、⟦{少|すこ}し→少し：00596_sukoshi⟧⟦{醤油|しょうゆ}→醤油：01056_shouyu⟧⟦を→を：00422_wo⟧{足|た}した。",
       "english": "The flavor was weak, so I added a little soy sauce.",
       "notes": null,
       "has_audio": false,
@@ -78,11 +78,33 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive). Pattern: X⟦を→を：00422_wo⟧{足|た}す (add X) / A⟦に→に：00314_ni⟧B⟦を→を：00422_wo⟧{足|た}す (add B to A).\n\nASPECT: ている indicates completed action. {足|た}している = 'has added.'\n\nCOMMON PATTERNS:\n・⟦{数|かず}→数：00204_kazu⟧⟦を→を：00422_wo⟧{足|た}す (add numbers)\n・A⟦に→に：00314_ni⟧B⟦を→を：00422_wo⟧{足|た}す (add B to A)\n・⟦{足|た}し{算|ざん}→足し算：05332_tashizan⟧ (addition—noun)\n・⟦{足|た}りない→足りる：01209_tariru⟧⟦もの→物：02259_mono⟧⟦を→を：00422_wo⟧{足|た}す (add what's missing)\n\nMATH VOCABULARY:\n・{足|た}す: add (+)\n・⟦{引|ひ}く→引く：01978_hiku⟧: subtract (−)\n・⟦{掛|か}ける→かける：00854_kakeru⟧: multiply (×)\n・⟦{割|わ}る→割る：02334_waru⟧: divide (÷)\n\nRELATED:\n・⟦{足|た}りる→足りる：01209_tariru⟧: to be sufficient (different verb)\n・⟦{足|た}し{算|ざん}→足し算：05332_tashizan⟧: addition (noun)",
-  "cross_references": [],
+  "notes": "TRANSITIVITY: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive). Pattern: X⟦を→を：00422_wo⟧{足|た}す (add X) / A⟦に→に：00314_ni⟧B⟦を→を：00422_wo⟧{足|た}す (add B to A).\n\nASPECT: て⟦いる→いる：00495_iru⟧ indicates completed action. {足|た}して⟦いる→いる：00495_iru⟧ = 'has added.'\n\nCOMMON PATTERNS:\n- ⟦{数|かず}→数：00204_kazu⟧⟦を→を：00422_wo⟧{足|た}す (add numbers)\n- A⟦に→に：00314_ni⟧B⟦を→を：00422_wo⟧{足|た}す (add B to A)\n- ⟦{足|た}し{算|ざん}→足し算：05332_tashizan⟧ (addition—noun)\n- ⟦{足|た}りない→足りる：01209_tariru⟧⟦もの→物：02259_mono⟧⟦を→を：00422_wo⟧{足|た}す (add what's missing)\n\nMATH VOCABULARY:\n- {足|た}す: add (+)\n- ⟦{引|ひ}く→引く：01978_hiku⟧: subtract (−)\n- ⟦{掛|か}ける→かける：00854_kakeru⟧: multiply (×)\n- ⟦{割|わ}る→割る：02334_waru⟧: divide (÷)\n\nRELATED WORDS:\n- ⟦{足|た}りる→足りる：01209_tariru⟧: to be sufficient (different verb)\n- ⟦{足|た}し{算|ざん}→足し算：05332_tashizan⟧: addition (noun)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "05332_tashizan",
+      "reading": "たしざん",
+      "headword": "{足|た}し{算|ざん}",
+      "label": "addition"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02410_fuyasu",
+      "reading": "ふやす",
+      "headword": "{増|ふ}やす",
+      "label": "to increase, to add to"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19646_tsuikasuru",
+      "reading": "ついかする",
+      "headword": "{追加|ついか}する",
+      "label": "to add"
+    }
+  ],
   "metadata": {
     "created": "2026-01-08T12:31:54Z",
-    "modified": "2026-05-14T15:12:54Z",
+    "modified": "2026-09-02T04:00:59Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

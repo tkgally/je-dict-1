@@ -2,7 +2,7 @@
   "id": "03833_intabyuu",
   "headword": "インタビュー",
   "reading": "いんたびゅー",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "interview",
   "conjugation": {
     "type": "suru",
@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "03833_intabyuu_ex1",
-      "japanese": "⟦{有名|ゆうめい}→有名：01106_yuumei⟧⟦な→な：noentry⟧⟦{俳優|はいゆう}→俳優：03547_haiyuu⟧⟦に→に：00314_ni⟧インタビューした。",
+      "japanese": "⟦{有名|ゆうめい}→有名：01106_yuumei⟧⟦な→な：noentry⟧⟦{俳優|はいゆう}→俳優：03547_haiyuu⟧⟦に→に：00314_ni⟧インタビュー⟦した→する：00392_suru⟧。",
       "english": "I interviewed a famous actor.",
       "notes": "インタビューする = to interview",
       "has_audio": false,
@@ -133,10 +133,33 @@
       ]
     }
   ],
-  "notes": "USAGE: インタビュー typically refers to media interviews (TV, newspaper, magazine) rather than job interviews. For job interviews, use ⟦{面接|めんせつ}→面接：01100_mensetsu⟧.\n\nCOMMON PATTERNS:\n・インタビューする (to interview)\n・インタビュー⟦に→に：00314_ni⟧⟦{答|こた}える→答える：01099_kotaeru⟧ (to respond to an interview)\n・インタビュー⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧ (to receive/be interviewed)\n・インタビュー⟦{記事|きじ}→記事：00227_kiji⟧ (interview article)\n\nRELATED WORDS:\n・⟦{面接|めんせつ}→面接：01100_mensetsu⟧ (job interview)\n・⟦{取材|しゅざい}→取材：05227_shuzai⟧ (news gathering, coverage)",
+  "notes": "USAGE: インタビュー typically refers to media interviews (TV, newspaper, magazine) rather than job interviews. For job interviews, use ⟦{面接|めんせつ}→面接：01100_mensetsu⟧.\n\nCOMMON PATTERNS:\n- インタビュー⟦する→する：00392_suru⟧ (to interview)\n- インタビュー⟦に→に：00314_ni⟧⟦{答|こた}える→答える：01099_kotaeru⟧ (to respond to an interview)\n- インタビュー⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧ (to receive/be interviewed)\n- インタビュー⟦{記事|きじ}→記事：00227_kiji⟧ (interview article)\n\nRELATED WORDS:\n- ⟦{面接|めんせつ}→面接：01100_mensetsu⟧ (job interview)\n- ⟦{取材|しゅざい}→取材：05227_shuzai⟧ (news gathering, coverage)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "01100_mensetsu",
+      "reading": "めんせつ",
+      "headword": "{面接|めんせつ}",
+      "label": "job interview"
+    },
+    {
+      "type": "related",
+      "target_id": "05227_shuzai",
+      "reading": "しゅざい",
+      "headword": "{取材|しゅざい}",
+      "label": "news gathering, coverage"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19950_taidan",
+      "reading": "たいだん",
+      "headword": "{対談|たいだん}",
+      "label": "dialogue"
+    }
+  ],
   "metadata": {
     "created": "2026-01-12T13:55:10Z",
-    "modified": "2026-05-27T19:32:25Z",
+    "modified": "2026-09-02T04:01:03Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

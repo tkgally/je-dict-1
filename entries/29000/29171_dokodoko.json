@@ -14,40 +14,73 @@
   "examples": [
     {
       "id": "29171_dokodoko_ex1",
-      "japanese": "どこどこの{国|くに}に{行|い}ってきたと{言|い}っていたよ。",
+      "japanese": "どこどこ⟦の→の：09472_no⟧⟦{国|くに}→国：02204_kuni⟧⟦に→に：00314_ni⟧⟦{行|い}って→行く：00119_iku⟧きた⟦と→と：00512_to⟧⟦{言|い}っていた→言う：00515_iu⟧⟦よ→よ：09475_yo⟧。",
       "english": "He said he went to some-such country.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29171_dokodoko_ex2",
-      "japanese": "「どこに{泊|と}まったの？」「えっと、どこどこだったかな。」",
+      "japanese": "「⟦どこ→どこ：00539_doko⟧⟦に→に：00314_ni⟧⟦{泊|と}まった→泊まる：10445_tomaru⟧⟦の→の：09472_no⟧？」「えっ⟦と→と：00512_to⟧、どこどこだった⟦か→か：09473_ka⟧な。」",
       "english": "\"Where did you stay?\" \"Hmm, it was... some place, I forget.\"",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29171_dokodoko_ex3",
-      "japanese": "どこどこに{住|す}んでいる{知人|ちじん}から{聞|き}いた{話|はなし}なんですが。",
+      "japanese": "どこどこ⟦に→に：00314_ni⟧⟦{住|す}んでいる→住む：00673_sumu⟧⟦{知人|ちじん}→知人：04056_chijin⟧⟦から→から：00504_kara⟧⟦{聞|き}いた→聞く：00483_kiku⟧⟦{話|はなし}→話：01496_hanashi⟧なんです⟦が→が：00051_ga⟧。",
       "english": "This is something I heard from an acquaintance who lives in a certain place.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Reduplication of どこ, used as a vague placeholder when the speaker cannot or does not wish to name a specific location. Common in informal speech.\n\nSIMILAR EXPRESSIONS:\n- なになに: such-and-such (vague placeholder for a name or thing)\n- だれだれ: such-and-such a person (vague placeholder for a name)\n- どこか: somewhere; some place — a definite but unspecified place",
+  "notes": "Reduplication of ⟦どこ→どこ：00539_doko⟧, used as a vague placeholder when the speaker cannot or does not wish to name a specific location. Common in informal speech.\n\nSIMILAR WORDS:\n- なになに: such-and-such (vague placeholder for a name or thing)\n- だれだれ: such-and-such a person (vague placeholder for a name)\n- ⟦どこか→どこか：02361_dokoka⟧: somewhere; some place — a definite but unspecified place",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04011_naninani",
+      "reading": "なになに",
+      "headword": "{何々|なになに}",
+      "label": "such-and-such"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18570_daredare",
+      "reading": "だれだれ",
+      "headword": "{誰々|だれだれ}",
+      "label": "such-and-such a person"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02361_dokoka",
+      "reading": "どこか",
+      "headword": "どこか",
+      "label": "somewhere"
+    }
+  ],
   "metadata": {
     "created": "2026-06-12T08:54:26Z",
-    "modified": "2026-06-12T08:54:26Z",
+    "modified": "2026-09-02T04:02:36Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["pronoun"],
+      "pos": [
+        "pronoun"
+      ],
       "formality": "informal",
       "politeness": "plain",
-      "semantic": ["general"],
+      "semantic": [
+        "general"
+      ],
       "domain": []
     }
   }

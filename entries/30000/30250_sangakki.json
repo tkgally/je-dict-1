@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30250_sangakki_ex1",
-      "japanese": "{三学期|さんがっき}が{始|はじ}まった。",
+      "japanese": "{三学期|さんがっき}⟦が→が：00051_ga⟧⟦{始|はじ}まった→始まる：00841_hajimaru⟧。",
       "english": "The third term has started.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30250_sangakki_ex2",
-      "japanese": "{三学期|さんがっき}は{短|みじか}いので、あっという{間|ま}に{終|お}わる。",
+      "japanese": "{三学期|さんがっき}⟦は→は：00079_ha⟧⟦{短|みじか}い→短い：00510_mijikai⟧⟦の→の：09472_no⟧で、⟦あっという{間|ま}に→あっという間に：25467_attoiumani⟧{終|お}わる。",
       "english": "The third term is short, so it's over in no time.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30250_sangakki_ex3",
-      "japanese": "{三学期|さんがっき}の{成績|せいせき}は、{卒業|そつぎょう}{後|ご}の{進路|しんろ}にも{関係|かんけい}してくる。",
+      "japanese": "{三学期|さんがっき}⟦の→の：09472_no⟧⟦{成績|せいせき}→成績：03379_seiseki⟧⟦は→は：00079_ha⟧、⟦{卒業|そつぎょう}→卒業：01643_sotsugyou⟧⟦{後|ご}→後：30157_go⟧⟦の→の：09472_no⟧⟦{進路|しんろ}→進路：14321_shinro⟧⟦に→に：00314_ni⟧⟦も→も：00484_mo⟧⟦{関係|かんけい}→関係：01298_kankei⟧⟦して→する：00392_suru⟧くる。",
       "english": "Your third-term grades also affect your path after graduation.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "{三|さん} (three) + {学期|がっき} (school term). Note the sound change: {学期|がっき} keeps its reading, but the compound is read さんがっき, not さんがくき.\n\nCOMMON COLLOCATIONS:\n- {三学期|さんがっき}が{始|はじ}まる: the third term begins\n- {三学期|さんがっき}の{終業式|しゅうぎょうしき}: the closing ceremony of the third term\n- {三学期|さんがっき}{制|せい}: the three-term system\n\nCULTURAL CONTEXT:\nMost Japanese elementary and junior high schools divide the year into {一学期|いちがっき} (April–July), {二学期|にがっき} (September–December), and {三学期|さんがっき} (January–March). Some schools have moved to a two-semester {二期制|にきせい} system, in which case {三学期|さんがっき} does not exist.",
+  "notes": "⟦{三|さん}→三：00749_san⟧ (three) + ⟦{学期|がっき}→学期：01073_gakki⟧ (school term). Note the sound change: ⟦{学期|がっき}→学期：01073_gakki⟧ keeps its reading, but the compound is read さんがっき, not さん⟦が→が：00051_ga⟧くき.\n\nCOMMON COLLOCATIONS:\n- {三学期|さんがっき}⟦が→が：00051_ga⟧⟦{始|はじ}まる→始まる：00841_hajimaru⟧: the third term begins\n- {三学期|さんがっき}⟦の→の：09472_no⟧⟦{終業式|しゅうぎょうしき}→終業式：08554_shuugyoushiki⟧: the closing ceremony of the third term\n- {三学期|さんがっき}⟦{制|せい}→〜制：30791_sei⟧: the three-term system\n\nCULTURAL NOTE:\nMost Japanese elementary and junior high schools divide the year into ⟦{一学期|いちがっき}→一学期：17203_ichigakki⟧ (April–July), ⟦{二学期|にがっき}→二学期：23891_nigakki⟧ (September–December), and {三学期|さんがっき} (January–March). Some schools have moved to a two-semester {二期制|にきせい} system, in which case {三学期|さんがっき} does not exist.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23891_nigakki",
+      "reading": "にがっき",
+      "headword": "{二学期|にがっき}",
+      "label": "second (school) term, second semester"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +62,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "education",
         "time-period"
@@ -61,6 +70,6 @@
       "domain": []
     },
     "created": "2026-07-30T12:18:26Z",
-    "modified": "2026-07-30T12:18:26Z"
+    "modified": "2026-09-02T04:02:39Z"
   }
 }

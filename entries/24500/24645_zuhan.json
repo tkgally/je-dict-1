@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24645_zuhan_ex1",
-      "japanese": "この{本|ほん}には{美|うつく}しい{図版|ずはん}が{多|おお}い。",
+      "japanese": "⟦この→この：00962_kono⟧{本|ほん}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{美|うつく}しい→美しい：01121_utsukushii⟧{図版|ずはん}⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "This book has many beautiful illustrations.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24645_zuhan_ex2",
-      "japanese": "{図版|ずはん}の{解説|かいせつ}は{巻末|かんまつ}にまとめられている。",
+      "japanese": "{図版|ずはん}⟦の→の：09472_no⟧⟦{解説|かいせつ}→解説：00138_kaisetsu⟧⟦は→は：00079_ha⟧⟦{巻末|かんまつ}→巻末：21973_kanmatsu⟧⟦に→に：00314_ni⟧⟦まとめられている→まとめる：02424_matomeru⟧。",
       "english": "The descriptions of the plates are compiled at the end of the volume.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24645_zuhan_ex3",
-      "japanese": "{美術書|びじゅつしょ}には{作品|さくひん}のカラー{図版|ずはん}が{百|ひゃく}{点以上|てんいじょう}{収録|しゅうろく}されている。",
+      "japanese": "{美術書|びじゅつしょ}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{作品|さくひん}→作品：02776_sakuhin⟧⟦の→の：09472_no⟧⟦カラー→カラー：10820_karaa⟧{図版|ずはん}⟦が→が：00051_ga⟧⟦{百|ひゃく}→百：00780_hyaku⟧{点以上|てんいじょう}⟦{収録|しゅうろく}→収録：08378_shuuroku⟧⟦されている→する：00392_suru⟧。",
       "english": "The art book contains more than one hundred color plates of the artworks.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {図|ず} (figure, drawing) and {版|はん} (printing plate, edition). Originally referred to the printing plate used to reproduce images, now refers to the printed image itself.\n\nUSAGE:\nCommon in publishing, art, and academic contexts. Art books, encyclopedias, and academic texts often list their {図版|ずはん} in a separate index. The word implies a certain level of quality or formality — casual photos in a magazine would not typically be called {図版|ずはん}.\n\nCOMMON COLLOCATIONS:\n- カラー{図版|ずはん}: color plate\n- {図版|ずはん}{目録|もくろく}: plate index; list of illustrations\n- {図版|ずはん}を{掲載|けいさい}する: to include an illustration\n- {図版|ずはん}{解説|かいせつ}: plate description; caption\n- {図版|ずはん}{一覧|いちらん}: list of figures\n\nSIMILAR WORDS:\n- {挿絵|さしえ}: illustration (in a book) — specifically an artistic drawing inserted into the text, often in fiction\n- {図表|ずひょう}: charts and figures — refers to diagrams, graphs, and tables rather than photographic or artistic reproductions\n- {写真|しゃしん}: photograph — a general term; {図版|ずはん} is more formal and can include non-photographic images",
+  "notes": "Composed of ⟦{図|ず}→図：03368_zu⟧ (figure, drawing) and ⟦{版|はん}→版：03698_han⟧ (printing plate, edition). Originally referred to the printing plate used to reproduce images, now refers to the printed image itself.\n\nUSAGE:\nCommon in publishing, art, and academic contexts. Art books, encyclopedias, and academic texts often list their {図版|ずはん} in a separate index. The word implies a certain level of quality or formality — casual photos in a magazine would not typically be called {図版|ずはん}.\n\nCOMMON COLLOCATIONS:\n- ⟦カラー→カラー：10820_karaa⟧{図版|ずはん}: color plate\n- {図版|ずはん}⟦{目録|もくろく}→目録：18979_mokuroku⟧: plate index; list of illustrations\n- {図版|ずはん}⟦を→を：00422_wo⟧⟦{掲載|けいさい}する→掲載する：19217_keisaisuru⟧: to include an illustration\n- {図版|ずはん}⟦{解説|かいせつ}→解説：00138_kaisetsu⟧: plate description; caption\n- {図版|ずはん}⟦{一覧|いちらん}→一覧：17694_ichiran⟧: list of figures\n\nSIMILAR WORDS:\n- ⟦{挿絵|さしえ}→挿絵：12818_sashie⟧: illustration (in a book) — specifically an artistic drawing inserted into the text, often in fiction\n- ⟦{図表|ずひょう}→図表：04317_zuhyou⟧: charts and figures — refers to diagrams, graphs, and tables rather than photographic or artistic reproductions\n- ⟦{写真|しゃしん}→写真：00753_shashin⟧: photograph — a general term; {図版|ずはん} is more formal and can include non-photographic images",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12818_sashie",
+      "reading": "さしえ",
+      "headword": "{挿絵|さしえ}",
+      "label": "illustration"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04317_zuhyou",
+      "reading": "ずひょう",
+      "headword": "{図表|ずひょう}",
+      "label": "charts and figures"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00753_shashin",
+      "reading": "しゃしん",
+      "headword": "{写真|しゃしん}",
+      "label": "photograph"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -63,6 +86,6 @@
       ]
     },
     "created": "2026-04-20T10:30:31Z",
-    "modified": "2026-08-03T09:22:27Z"
+    "modified": "2026-09-02T04:02:19Z"
   }
 }

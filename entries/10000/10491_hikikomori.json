@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "10491_hikikomori_ex1",
-      "japanese": "{息子|むすこ}が{引|ひ}きこもりになった。",
+      "japanese": "⟦{息子|むすこ}→息子：00799_musuko⟧⟦が→が：00051_ga⟧{引|ひ}きこもりになった。",
       "english": "My son became a shut-in.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "10491_hikikomori_ex2",
-      "japanese": "{引|ひ}きこもりの{人|ひと}を{支援|しえん}する{団体|だんたい}がある。",
+      "japanese": "{引|ひ}きこもり⟦の→の：09472_no⟧⟦{人|ひと}→人：00476_hito⟧⟦を→を：00422_wo⟧⟦{支援|しえん}する→支援する：25534_shiensuru⟧⟦{団体|だんたい}→団体：03426_dantai⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There are organizations that support people with social withdrawal.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "10491_hikikomori_ex3",
-      "japanese": "{日本|にほん}では{引|ひ}きこもりが{社会問題|しゃかいもんだい}になっており、{中高年|ちゅうこうねん}にも{広|ひろ}がっている。",
+      "japanese": "⟦{日本|にほん}→日本：03876_nihon⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧{引|ひ}きこもり⟦が→が：00051_ga⟧⟦{社会問題|しゃかいもんだい}→社会問題：25686_shakaimondai⟧になっており、⟦{中高年|ちゅうこうねん}→中高年：19988_chuukounen⟧⟦に→に：00314_ni⟧⟦も→も：00484_mo⟧⟦{広|ひろ}がっている→広がる：01980_hirogaru⟧。",
       "english": "In Japan, social withdrawal has become a social issue and is spreading to middle-aged and older people.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "{引|ひ}きこもり comes from the verb {引|ひ}きこもる (to shut oneself in). It can refer to both the condition and the person.\n\nCULTURAL NOTE:\nRecognized as a significant social phenomenon in Japan. The Japanese government defines it as staying at home and not participating in society for six months or more. It affects people of all ages, including the \"8050 problem\" where 80-year-old parents support 50-year-old children who are shut-ins.\n\nCOMMON COLLOCATIONS:\n- {引|ひ}きこもりになる: to become a shut-in\n- {引|ひ}きこもり{状態|じょうたい}: state of social withdrawal\n- {引|ひ}きこもり{支援|しえん}: support for shut-ins",
+  "notes": "{引|ひ}きこもり comes from the verb ⟦{引|ひ}きこもる→引きこもる：19546_hikikomoru⟧ (to shut oneself in). It can refer to both the condition and the person.\n\nCULTURAL NOTE:\nRecognized as a significant social phenomenon in Japan. The Japanese government defines it as staying at home and not participating in society for six months or more. It affects people of all ages, including the \"8050 problem\" where 80-year-old parents support 50-year-old children who are shut-ins.\n\nCOMMON COLLOCATIONS:\n- {引|ひ}きこもり⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧: to become a shut-in\n- {引|ひ}きこもり⟦{状態|じょうたい}→状態：03345_joutai⟧: state of social withdrawal\n- {引|ひ}きこもり⟦{支援|しえん}→支援：07778_shien⟧: support for shut-ins",
   "prominent_see_also": [
     {
       "target_id": "19546_hikikomoru",
@@ -53,10 +53,53 @@
       "note": "verb form"
     }
   ],
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17371_yosutebito",
+      "reading": "よすてびと",
+      "headword": "{世捨|よす}て{人|びと}",
+      "label": "hermit"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19327_debushou",
+      "reading": "でぶしょう",
+      "headword": "{出不精|でぶしょう}",
+      "label": "homebody"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20253_fuyugomori",
+      "reading": "ふゆごもり",
+      "headword": "{冬|ふゆ}ごもり",
+      "label": "staying indoors for winter"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22905_iegomori",
+      "reading": "いえごもり",
+      "headword": "{家|いえ}ごもり",
+      "label": "staying home"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24342_taijinkyoufu",
+      "reading": "たいじんきょうふ",
+      "headword": "{対人恐怖|たいじんきょうふ}",
+      "label": "social anxiety"
+    },
+    {
+      "type": "related",
+      "target_id": "24702_hikikomi",
+      "reading": "ひきこみ",
+      "headword": "{引|ひ}き{込|こ}み",
+      "label": "drawing in"
+    }
+  ],
   "metadata": {
     "created": "2026-02-07T21:20:27Z",
-    "modified": "2026-06-27T03:38:18Z",
+    "modified": "2026-09-02T04:01:21Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

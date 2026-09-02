@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08585_senseiten_ex1",
-      "japanese": "{先制点|せんせいてん}を{取|と}る。",
+      "japanese": "{先制点|せんせいてん}⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧。",
       "english": "Score the opening goal.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "08585_senseiten_ex2",
-      "japanese": "{前半|ぜんはん}10{分|ぷん}に{先制点|せんせいてん}を{決|き}めた。",
+      "japanese": "⟦{前半|ぜんはん}→前半：11875_zenhan⟧10{分|ぷん}⟦に→に：00314_ni⟧{先制点|せんせいてん}⟦を→を：00422_wo⟧⟦{決|き}めた→決める：00858_kimeru⟧。",
       "english": "They scored the opening goal at 10 minutes in the first half.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "08585_senseiten_ex3",
-      "japanese": "{先制点|せんせいてん}を{奪|うば}われたが{後半|こうはん}に{追|お}いついた。",
+      "japanese": "{先制点|せんせいてん}⟦を→を：00422_wo⟧⟦{奪|うば}われた→奪う：01895_ubau⟧⟦が→が：00051_ga⟧⟦{後半|こうはん}→後半：12555_kouhan⟧⟦に→に：00314_ni⟧{追|お}いついた。",
       "english": "They conceded the first goal but caught up in the second half.",
       "sense_numbers": [
         1
@@ -43,7 +43,37 @@
       "notes": null
     }
   ],
-  "notes": "SPORTS TERM:\n{先制点|せんせいてん} combines {先制|せんせい} (taking the initiative) + {点|てん} (point/score). Used across various sports.\n\nCOMMON COLLOCATIONS:\n- {先制点|せんせいてん}を{取|と}る/{決|き}める - to score first\n- {先制点|せんせいてん}を{奪|うば}う - to snatch the opening score\n- {先制点|せんせいてん}を{許|ゆる}す/{奪|うば}われる - to concede the first score\n\nIMPORTANCE:\nIn many sports, the team that scores {先制点|せんせいてん} has a psychological advantage and often wins the game.\n\nRELATED TERMS:\n- {追加点|ついかてん} - additional score\n- {同点|どうてん} - tie score\n- {決勝点|けっしょうてん} - winning/deciding score\n- {逆転|ぎゃくてん} - reversal/comeback",
+  "notes": "SPORTS TERM:\n{先制点|せんせいてん} combines {先制|せんせい} (taking the initiative) + ⟦{点|てん}→点：01553_ten⟧ (point/score). Used across various sports.\n\nCOMMON COLLOCATIONS:\n- {先制点|せんせいてん}⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧/⟦{決|き}める→決める：00858_kimeru⟧ - to score first\n- {先制点|せんせいてん}⟦を→を：00422_wo⟧⟦{奪|うば}う→奪う：01895_ubau⟧ - to snatch the opening score\n- {先制点|せんせいてん}⟦を→を：00422_wo⟧⟦{許|ゆる}す→許す：02325_yurusu⟧/⟦{奪|うば}われる→奪う：01895_ubau⟧ - to concede the first score\n\nIMPORTANCE:\nIn many sports, the team that scores {先制点|せんせいてん} has a psychological advantage and often wins the game.\n\nRELATED WORDS:\n- {追加点|ついかてん} - additional score\n- ⟦{同点|どうてん}→同点：08586_douten⟧ - tie score\n- {決勝点|けっしょうてん} - winning/deciding score\n- ⟦{逆転|ぎゃくてん}→逆転：06839_gyakuten⟧ - reversal/comeback",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "08586_douten",
+      "reading": "どうてん",
+      "headword": "{同点|どうてん}",
+      "label": "tie score"
+    },
+    {
+      "type": "related",
+      "target_id": "06839_gyakuten",
+      "reading": "ぎゃくてん",
+      "headword": "{逆転|ぎゃくてん}",
+      "label": "reversal/comeback"
+    },
+    {
+      "type": "related",
+      "target_id": "08584_gyakutengachi",
+      "reading": "ぎゃくてんがち",
+      "headword": "{逆転勝|ぎゃくてんが}ち",
+      "label": "comeback victory"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25573_senshuten",
+      "reading": "せんしゅてん",
+      "headword": "{先取点|せんしゅてん}",
+      "label": "opening goal"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -51,11 +81,12 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "sports"
       ]
     },
     "created": "2026-01-27T11:47:10Z",
-    "modified": "2026-06-22T12:50:00Z"
+    "modified": "2026-09-02T04:01:15Z"
   }
 }

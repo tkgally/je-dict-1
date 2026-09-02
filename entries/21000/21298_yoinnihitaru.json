@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21298_yoinnihitaru_ex1",
-      "japanese": "コンサートの{余韻|よいん}に{浸|ひた}った。",
+      "japanese": "⟦コンサート→コンサート：01360_konsaato⟧⟦の→の：09472_no⟧{余韻|よいん}に{浸|ひた}った。",
       "english": "I basked in the afterglow of the concert.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21298_yoinnihitaru_ex2",
-      "japanese": "{映画|えいが}を{見|み}{終|お}わった{後|あと}、しばらく{余韻|よいん}に{浸|ひた}っていた。",
+      "japanese": "⟦{映画|えいが}→映画：02273_eiga⟧⟦を→を：00422_wo⟧⟦{見|み}→見る：00283_miru⟧⟦{終|お}わった→終わる：00567_owaru⟧⟦{後|あと}→後：09580_ato⟧、⟦しばらく→しばらく：01267_shibaraku⟧{余韻|よいん}に{浸|ひた}って⟦いた→いる：00495_iru⟧。",
       "english": "After finishing the movie, I savored the lingering feeling for a while.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21298_yoinnihitaru_ex3",
-      "japanese": "{旅行|りょこう}から{帰|かえ}っても、まだ{余韻|よいん}に{浸|ひた}っていて{仕事|しごと}に{身|み}が{入|はい}らない。",
+      "japanese": "⟦{旅行|りょこう}→旅行：00748_ryokou⟧⟦から→から：00504_kara⟧⟦{帰|かえ}って→帰る：00508_kaeru⟧⟦も→も：00484_mo⟧、⟦まだ→まだ：00603_mada⟧{余韻|よいん}に{浸|ひた}って⟦いて→いる：00495_iru⟧⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦に→に：00314_ni⟧⟦{身|み}→身：01764_mi⟧⟦が→が：00051_ga⟧⟦{入|はい}らない→入る：00494_hairu⟧。",
       "english": "Even after returning from the trip, I'm still savoring the memories and can't concentrate on work.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "A common expression combining {余韻|よいん} (lingering resonance, afterglow) and {浸|ひた}る (to immerse oneself). Used to describe the pleasant state of reflecting on and savoring a past experience.\n\nCOMPONENTS:\n- {余韻|よいん}: originally the lingering sound after a bell or music stops; by extension, any pleasant feeling that remains after an experience\n- {浸|ひた}る: to soak, to immerse oneself — here used figuratively\n\nCOMMON CONTEXTS:\n- After concerts, movies, plays, or other performances\n- After trips or vacations\n- After emotional experiences (weddings, graduations, reunions)\n\nSIMILAR EXPRESSIONS:\n- {余韻|よいん}を{楽|たの}しむ: to enjoy the afterglow — similar but slightly more active\n- {余韻|よいん}が{残|のこ}る: the afterglow lingers — describes the feeling persisting\n- {感動|かんどう}に{浸|ひた}る: to be immersed in emotion — focuses on the emotional impact itself",
+  "notes": "A common expression combining ⟦{余韻|よいん}→余韻：10560_yoin⟧ (lingering resonance, afterglow) and ⟦{浸|ひた}る→浸る：13339_hitaru⟧ (to immerse oneself). Used to describe the pleasant state of reflecting on and savoring a past experience.\n\nETYMOLOGY:\n- ⟦{余韻|よいん}→余韻：10560_yoin⟧: originally the lingering sound after a bell or music stops; by extension, any pleasant feeling that remains after an experience\n- ⟦{浸|ひた}る→浸る：13339_hitaru⟧: to soak, to immerse oneself — here used figuratively\n\nUSAGE:\n- After concerts, movies, plays, or other performances\n- After trips or vacations\n- After emotional experiences (weddings, graduations, reunions)\n\nSIMILAR WORDS:\n- ⟦{余韻|よいん}→余韻：10560_yoin⟧⟦を→を：00422_wo⟧⟦{楽|たの}しむ→楽しむ：01203_tanoshimu⟧: to enjoy the afterglow — similar but slightly more active\n- ⟦{余韻|よいん}が{残|のこ}る→余韻が残る：23132_yoinganokoru⟧: the afterglow lingers — describes the feeling persisting\n- ⟦{感動|かんどう}→感動：00167_kandou⟧⟦に→に：00314_ni⟧⟦{浸|ひた}る→浸る：13339_hitaru⟧: to be immersed in emotion — focuses on the emotional impact itself",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23132_yoinganokoru",
+      "reading": "よいんがのこる",
+      "headword": "{余韻|よいん}が{残|のこ}る",
+      "label": "the afterglow lingers"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +69,6 @@
       ]
     },
     "created": "2026-04-01T17:25:14Z",
-    "modified": "2026-07-29T00:22:41Z"
+    "modified": "2026-09-02T04:02:02Z"
   }
 }

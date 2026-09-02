@@ -15,40 +15,67 @@
   "examples": [
     {
       "id": "21249_kanpuu_ex1",
-      "japanese": "{寒風|かんぷう}が{吹|ふ}きすさぶ。",
+      "japanese": "{寒風|かんぷう}⟦が→が：00051_ga⟧{吹|ふ}きすさぶ。",
       "english": "The cold wind howls.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21249_kanpuu_ex2",
-      "japanese": "{寒風|かんぷう}の{中|なか}、{行列|ぎょうれつ}に{並|なら}んだ。",
+      "japanese": "{寒風|かんぷう}⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧、⟦{行列|ぎょうれつ}→行列：09699_gyouretsu⟧⟦に→に：00314_ni⟧⟦{並|なら}んだ→並ぶ：00605_narabu⟧。",
       "english": "I stood in line in the bitter wind.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21249_kanpuu_ex3",
-      "japanese": "{寒風|かんぷう}{吹|ふ}きすさぶ{冬|ふゆ}の{海岸|かいがん}を{一人|ひとり}で{歩|ある}いた。",
+      "japanese": "{寒風|かんぷう}{吹|ふ}きすさぶ⟦{冬|ふゆ}→冬：00623_fuyu⟧⟦の→の：09472_no⟧⟦{海岸|かいがん}→海岸：00852_kaigan⟧⟦を→を：00422_wo⟧⟦{一人|ひとり}→一人：00630_hitori⟧⟦で→で：00502_de⟧⟦{歩|ある}いた→歩く：00538_aruku⟧。",
       "english": "I walked alone along the winter coast where bitter winds were blowing.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A literary/formal word for a harsh cold wind. More evocative and literary than simply {冷|つめ}たい{風|かぜ} (cold wind). Often used in descriptive writing and news reports about winter weather.\n\nCOMMON COLLOCATIONS:\n- {寒風|かんぷう}が{吹|ふ}く: a cold wind blows\n- {寒風|かんぷう}が{吹|ふ}きすさぶ: bitter wind howls\n- {寒風|かんぷう}にさらされる: to be exposed to the bitter wind\n- {寒風|かんぷう}の{中|なか}: in the bitter cold wind\n\nSIMILAR WORDS:\n- {北風|きたかぜ}: north wind — specifies direction; not necessarily literary\n- {木枯|こが}らし: cold wintry wind — specifically the first cold wind of late autumn/early winter\n- {烈風|れっぷう}: fierce wind — emphasizes violence of the wind, not necessarily cold\n\nFORMATION:\n{寒|かん} (cold) + {風|ぷう} (wind)",
+  "notes": "A literary/formal word for a harsh cold wind. More evocative and literary than simply ⟦{冷|つめ}たい→冷たい：00681_tsumetai⟧⟦{風|かぜ}→風：00641_kaze⟧ (cold wind). Often used in descriptive writing and news reports about winter weather.\n\nCOMMON COLLOCATIONS:\n- {寒風|かんぷう}⟦が→が：00051_ga⟧⟦{吹|ふ}く→吹く：02445_fuku⟧: a cold wind blows\n- {寒風|かんぷう}⟦が→が：00051_ga⟧{吹|ふ}きすさぶ: bitter wind howls\n- {寒風|かんぷう}⟦に→に：00314_ni⟧さらされる: to be exposed to the bitter wind\n- {寒風|かんぷう}⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧: in the bitter cold wind\n\nSIMILAR WORDS:\n- ⟦{北風|きたかぜ}→北風：21247_kitakaze⟧: north wind — specifies direction; not necessarily literary\n- ⟦{木枯|こが}らし→木枯らし：08557_kogarashi⟧: cold wintry wind — specifically the first cold wind of late autumn/early winter\n- {烈風|れっぷう}: fierce wind — emphasizes violence of the wind, not necessarily cold\n\nFORMS:\n{寒|かん} (cold) + {風|ぷう} (wind)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21247_kitakaze",
+      "reading": "きたかぜ",
+      "headword": "{北風|きたかぜ}",
+      "label": "north wind"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08557_kogarashi",
+      "reading": "こがらし",
+      "headword": "{木枯|こが}らし",
+      "label": "cold wintry wind"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["nature", "weather"]
+      "semantic": [
+        "nature",
+        "weather"
+      ]
     },
     "created": "2026-04-01T15:27:46Z",
-    "modified": "2026-04-01T15:27:46Z"
+    "modified": "2026-09-02T04:02:02Z"
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21158_kinyuukikan_ex1",
-      "japanese": "{金融機関|きんゆうきかん}に{口座|こうざ}を{開|ひら}く。",
+      "japanese": "{金融機関|きんゆうきかん}⟦に→に：00314_ni⟧⟦{口座|こうざ}→口座：05419_kouza⟧⟦を→を：00422_wo⟧⟦{開|ひら}く→開く：01979_hiraku⟧。",
       "english": "To open an account at a financial institution.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21158_kinyuukikan_ex2",
-      "japanese": "{複数|ふくすう}の{金融機関|きんゆうきかん}から{融資|ゆうし}を{受|う}けている。",
+      "japanese": "⟦{複数|ふくすう}→複数：14236_fukusuu⟧⟦の→の：09472_no⟧{金融機関|きんゆうきかん}⟦から→から：00504_kara⟧⟦{融資|ゆうし}→融資：04775_yuushi⟧⟦を→を：00422_wo⟧⟦{受|う}けている→受ける：01215_ukeru⟧。",
       "english": "We are receiving loans from multiple financial institutions.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21158_kinyuukikan_ex3",
-      "japanese": "{金融機関|きんゆうきかん}はマネーロンダリング{対策|たいさく}を{強化|きょうか}するよう{求|もと}められている。",
+      "japanese": "{金融機関|きんゆうきかん}⟦は→は：00079_ha⟧⟦マネー→マネー：29549_manee⟧ロンダリング⟦{対策|たいさく}→対策：02511_taisaku⟧⟦を→を：00422_wo⟧⟦{強化|きょうか}する→強化する：25344_kyoukasuru⟧よう⟦{求|もと}められている→求める：02316_motomeru⟧。",
       "english": "Financial institutions are being required to strengthen anti-money laundering measures.",
       "sense_numbers": [
         1
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {金融|きんゆう} (finance) + {機関|きかん} (institution, organization). A broad term encompassing banks, credit unions, insurance companies, securities firms, and other organizations that handle financial transactions.\n\nCOMMON COLLOCATIONS:\n- {金融機関|きんゆうきかん}に{預|あず}ける: to deposit at a financial institution\n- {金融機関|きんゆうきかん}の{窓口|まどぐち}: counter at a financial institution\n- {指定|してい}{金融機関|きんゆうきかん}: designated financial institution\n\nRELATED WORDS:\n- {銀行|ぎんこう}: bank — the most common type of financial institution\n- {信用金庫|しんようきんこ}: credit union — a smaller, community-based financial institution\n- {証券会社|しょうけんがいしゃ}: securities company — handles stock trading and investments",
+  "notes": "Composed of ⟦{金融|きんゆう}→金融：02664_kinyuu⟧ (finance) + ⟦{機関|きかん}→機関：02630_kikan⟧ (institution, organization). A broad term encompassing banks, credit unions, insurance companies, securities firms, and other organizations that handle financial transactions.\n\nCOMMON COLLOCATIONS:\n- {金融機関|きんゆうきかん}⟦に→に：00314_ni⟧⟦{預|あず}ける→預ける：01819_azukeru⟧: to deposit at a financial institution\n- {金融機関|きんゆうきかん}⟦の→の：09472_no⟧⟦{窓口|まどぐち}→窓口：03154_madoguchi⟧: counter at a financial institution\n- ⟦{指定|してい}→指定：00373_shitei⟧{金融機関|きんゆうきかん}: designated financial institution\n\nRELATED WORDS:\n- ⟦{銀行|ぎんこう}→銀行：00578_ginkou⟧: bank — the most common type of financial institution\n- ⟦{信用金庫|しんようきんこ}→信用金庫：24783_shinyoukinko⟧: credit union — a smaller, community-based financial institution\n- ⟦{証券会社|しょうけんがいしゃ}→証券会社：24780_shoukengaisha⟧: securities company — handles stock trading and investments",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "00578_ginkou",
+      "reading": "ぎんこう",
+      "headword": "{銀行|ぎんこう}",
+      "label": "bank"
+    },
+    {
+      "type": "related",
+      "target_id": "24783_shinyoukinko",
+      "reading": "しんようきんこ",
+      "headword": "{信用金庫|しんようきんこ}",
+      "label": "credit union"
+    },
+    {
+      "type": "related",
+      "target_id": "24780_shoukengaisha",
+      "reading": "しょうけんがいしゃ",
+      "headword": "{証券会社|しょうけんがいしゃ}",
+      "label": "securities company"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22802_saikensha",
+      "reading": "さいけんしゃ",
+      "headword": "{債権者|さいけんしゃ}",
+      "label": "creditor"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +89,6 @@
       ]
     },
     "created": "2026-03-31T21:38:42Z",
-    "modified": "2026-07-29T00:22:41Z"
+    "modified": "2026-09-02T04:02:02Z"
   }
 }

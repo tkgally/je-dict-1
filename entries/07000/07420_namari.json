@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "07420_namari_ex1",
-      "japanese": "{彼|かれ}の{話|はな}し{方|かた}には{訛|なま}りがある。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧⟦{話|はな}し{方|かた}→話し方：15767_hanashikata⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{訛|なま}り⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "He has an accent in his speech.",
       "has_audio": false,
       "sense_numbers": [
@@ -23,7 +23,7 @@
     },
     {
       "id": "07420_namari_ex2",
-      "japanese": "{東京|とうきょう}に{住|す}んで{長|なが}いのに、まだ{訛|なま}りが{抜|ぬ}けない。",
+      "japanese": "⟦{東京|とうきょう}→東京：09564_toukyou⟧⟦に→に：00314_ni⟧⟦{住|す}んで→住む：00673_sumu⟧⟦{長|なが}い→長い：00491_nagai⟧⟦の→の：09472_no⟧⟦に→に：00314_ni⟧、⟦まだ→まだ：00603_mada⟧{訛|なま}り⟦が→が：00051_ga⟧⟦{抜|ぬ}けない→抜ける：02385_nukeru⟧。",
       "english": "Even though I've lived in Tokyo for a long time, I still can't shake my accent.",
       "has_audio": false,
       "sense_numbers": [
@@ -32,7 +32,7 @@
     },
     {
       "id": "07420_namari_ex3",
-      "japanese": "どこの{訛|なま}りですか？",
+      "japanese": "⟦どこ→どこ：00539_doko⟧⟦の→の：09472_no⟧{訛|なま}りです⟦か→か：09473_ka⟧？",
       "english": "Where is your accent from?",
       "has_audio": false,
       "sense_numbers": [
@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "notes": "DERIVED FROM:\nThe verb {訛|なま}る (to speak with an accent, to pronounce differently from standard).\n\nCOMMON EXPRESSIONS:\n・{訛|なま}りがある - to have an accent\n・{訛|なま}りが{抜|ぬ}けない - can't lose one's accent\n・{訛|なま}りが{強|つよ}い - to have a strong accent\n・{訛|なま}りが{出|で}る - accent comes out (unintentionally)\n\nNUANCE:\n{訛|なま}り focuses on pronunciation differences from standard, while {方言|ほうげん} encompasses all aspects of regional language including vocabulary and grammar.\n\nRELATED VOCABULARY:\n・{訛|なま}る - to speak with an accent (verb)\n・{方言|ほうげん} - dialect (broader term)\n・{標準語|ひょうじゅんご} - standard language\n・{イントネーション} - intonation\n\nCULTURAL NOTE:\n{訛|なま}り can sometimes be a source of self-consciousness when speaking with people from other regions, but it's also often a point of regional pride and identity.\n\nREGISTER:\nNeutral. Common in everyday conversation.",
+  "notes": "DERIVED FROM:\nThe verb {訛|なま}る (to speak with an accent, to pronounce differently from standard).\n\nCOMMON EXPRESSIONS:\n- {訛|なま}り⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧ - to have an accent\n- {訛|なま}り⟦が→が：00051_ga⟧⟦{抜|ぬ}けない→抜ける：02385_nukeru⟧ - can't lose one's accent\n- {訛|なま}り⟦が→が：00051_ga⟧⟦{強|つよ}い→強い：00820_tsuyoi⟧ - to have a strong accent\n- {訛|なま}り⟦が→が：00051_ga⟧⟦{出|で}る→出る：00513_deru⟧ - accent comes out (unintentionally)\n\nUSAGE:\n{訛|なま}り focuses on pronunciation differences from standard, while ⟦{方言|ほうげん}→方言：07419_hougen⟧ encompasses all aspects of regional language including vocabulary and grammar.\n\nRELATED WORDS:\n- {訛|なま}る - to speak with an accent (verb)\n- ⟦{方言|ほうげん}→方言：07419_hougen⟧ - dialect (broader term)\n- ⟦{標準語|ひょうじゅんご}→標準語：07421_hyoujungo⟧ - standard language\n- ⟦イントネーション→イントネーション：25970_intoneeshon⟧ - intonation\n\nCULTURAL NOTE:\n{訛|なま}り can sometimes be a source of self-consciousness when speaking with people from other regions, but it's also often a point of regional pride and identity.\n\nREGISTER:\nNeutral. Common in everyday conversation.",
   "cross_references": [
     {
       "type": "related",
@@ -55,11 +55,18 @@
       "headword": "{標準語|ひょうじゅんご}",
       "label": "standard language",
       "target_id": "07421_hyoujungo"
+    },
+    {
+      "type": "related",
+      "target_id": "25970_intoneeshon",
+      "reading": "いんとねーしょん",
+      "headword": "イントネーション",
+      "label": "intonation"
     }
   ],
   "metadata": {
     "created": "2026-01-19T08:12:41Z",
-    "modified": "2026-08-10T18:32:12Z",
+    "modified": "2026-09-02T04:01:11Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

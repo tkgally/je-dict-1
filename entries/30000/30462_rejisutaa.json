@@ -15,41 +15,63 @@
   "examples": [
     {
       "id": "30462_rejisutaa_ex1",
-      "japanese": "レジスターが{壊|こわ}れた。",
+      "japanese": "レジスター⟦が→が：00051_ga⟧⟦{壊|こわ}れた→壊れる：00791_kowareru⟧。",
       "english": "The cash register broke.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "30462_rejisutaa_ex2",
-      "japanese": "{新|あたら}しいレジスターを{導入|どうにゅう}した。",
+      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧レジスター⟦を→を：00422_wo⟧⟦{導入|どうにゅう}した→導入する：16055_dounyuusuru⟧。",
       "english": "We introduced a new cash register.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "30462_rejisutaa_ex3",
-      "japanese": "この{店|みせ}のレジスターは{在庫|ざいこ}{管理|かんり}システムとつながっている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{店|みせ}→店：00497_mise⟧⟦の→の：09472_no⟧レジスター⟦は→は：00079_ha⟧⟦{在庫|ざいこ}→在庫：04701_zaiko⟧⟦{管理|かんり}→管理：00178_kanri⟧⟦システム→システム：08428_shisutemu⟧⟦と→と：00512_to⟧つながって⟦いる→いる：00495_iru⟧。",
       "english": "This shop's cash register is connected to the inventory management system.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "From English \"register\". The full form is largely confined to written and technical contexts — product catalogs, accounting documents, equipment lists.\n\nCOMMON COLLOCATIONS:\n- レジスターを{打|う}つ: to ring something up\n- レジスターを{導入|どうにゅう}する: to install a cash register\n- {電子|でんし}レジスター: electronic cash register\n\nSIMILAR WORDS:\n- レジ: the everyday clipped form — used for the machine, the counter, and the checkout queue alike (レジに{並|なら}ぶ \"to line up at the checkout\")\n- {金銭|きんせん}{登録機|とうろくき}: the formal Japanese term, seen in legal and tax documents",
+  "notes": "From English \"register\". The full form is largely confined to written and technical contexts — product catalogs, accounting documents, equipment lists.\n\nCOMMON COLLOCATIONS:\n- レジスター⟦を→を：00422_wo⟧⟦{打|う}つ→打つ：01221_utsu⟧: to ring something up\n- レジスター⟦を→を：00422_wo⟧⟦{導入|どうにゅう}する→導入する：16055_dounyuusuru⟧: to install a cash register\n- ⟦{電子|でんし}→電子：03449_denshi⟧レジスター: electronic cash register\n\nSIMILAR WORDS:\n- ⟦レジ→レジ：00879_reji⟧: the everyday clipped form — used for the machine, the counter, and the checkout queue alike (⟦レジ→レジ：00879_reji⟧⟦に→に：00314_ni⟧⟦{並|なら}ぶ→並ぶ：00605_narabu⟧ \"to line up at the checkout\")\n- ⟦{金銭|きんせん}→金銭：02684_kinsen⟧{登録機|とうろくき}: the formal Japanese term, seen in legal and tax documents",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "00879_reji",
+      "reading": "れじ",
+      "headword": "レジ",
+      "label": "the everyday clipped form"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["tool", "shopping"],
-      "domain": ["business"]
+      "politeness": "plain",
+      "semantic": [
+        "tool",
+        "shopping"
+      ],
+      "domain": [
+        "business"
+      ]
     },
     "created": "2026-08-07T00:23:55Z",
-    "modified": "2026-08-07T00:23:55Z"
+    "modified": "2026-09-02T04:02:40Z"
   }
 }

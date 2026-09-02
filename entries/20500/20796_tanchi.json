@@ -3,7 +3,7 @@
   "headword": "{探知|たんち}",
   "reading": "たんち",
   "romaji": "tanchi",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "detection; sensing; discovering",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "20796_tanchi_ex1",
-      "japanese": "ガス{漏|も}れを{探知|たんち}する。",
+      "japanese": "⟦ガス→ガス：01344_gasu⟧⟦{漏|も}れ→漏れ：13362_more⟧⟦を→を：00422_wo⟧{探知|たんち}⟦する→する：00392_suru⟧。",
       "english": "To detect a gas leak.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "20796_tanchi_ex2",
-      "japanese": "レーダーで{敵|てき}の{飛行機|ひこうき}を{探知|たんち}した。",
+      "japanese": "⟦レーダー→レーダー：11708_reedaa⟧⟦で→で：00502_de⟧⟦{敵|てき}→敵：03546_teki⟧⟦の→の：09472_no⟧⟦{飛行機|ひこうき}→飛行機：00629_hikouki⟧⟦を→を：00422_wo⟧{探知|たんち}⟦した→する：00392_suru⟧。",
       "english": "We detected the enemy aircraft with radar.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "20796_tanchi_ex3",
-      "japanese": "{金属|きんぞく}{探知|たんち}{機|き}を{使|つか}って{地中|ちちゅう}の{遺物|いぶつ}を{探|さが}した。",
+      "japanese": "⟦{金属|きんぞく}→金属：02645_kinzoku⟧{探知|たんち}{機|き}⟦を→を：00422_wo⟧⟦{使|つか}って→使う：00473_tsukau⟧⟦{地中|ちちゅう}→地中：12135_chichuu⟧⟦の→の：09472_no⟧⟦{遺物|いぶつ}→遺物：14545_ibutsu⟧⟦を→を：00422_wo⟧⟦{探|さが}した→探す：00493_sagasu⟧。",
       "english": "We searched for underground artifacts using a metal detector.",
       "sense_numbers": [
         1
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {探|たん} (search, probe) + {知|ち} (know, detect). Often used with する to function as a verb. Implies using instruments, technology, or careful methods to find something not easily visible.\n\nCOMMON COLLOCATIONS:\n- {探知|たんち}する: to detect\n- {探知|たんち}{機|き}: detector (device)\n- {金属|きんぞく}{探知|たんち}{機|き}: metal detector\n- {地雷|じらい}{探知|たんち}: mine detection\n- ガス{探知|たんち}{器|き}: gas detector\n\nSIMILAR WORDS:\n- {検知|けんち}: detection — similar but more technical/scientific, often used for automated detection systems\n- {発見|はっけん}: discovery — broader, includes accidental finding\n- {感知|かんち}: sensing — perceiving through senses or sensors (e.g., smoke sensor)\n- {察知|さっち}: perceiving, sensing — detecting through intuition or indirect signs",
+  "notes": "Composed of {探|たん} (search, probe) + {知|ち} (know, detect). Often used with ⟦する→する：00392_suru⟧ to function as a verb. Implies using instruments, technology, or careful methods to find something not easily visible.\n\nCOMMON COLLOCATIONS:\n- {探知|たんち}⟦する→する：00392_suru⟧: to detect\n- {探知|たんち}{機|き}: detector (device)\n- ⟦{金属|きんぞく}→金属：02645_kinzoku⟧{探知|たんち}{機|き}: metal detector\n- ⟦{地雷|じらい}→地雷：22476_jirai⟧{探知|たんち}: mine detection\n- ⟦ガス→ガス：01344_gasu⟧{探知|たんち}{器|き}: gas detector\n\nSIMILAR WORDS:\n- ⟦{検知|けんち}→検知：18762_kenchi⟧: detection — similar but more technical/scientific, often used for automated detection systems\n- ⟦{発見|はっけん}→発見：00085_hakken⟧: discovery — broader, includes accidental finding\n- ⟦{感知|かんち}→感知：18254_kanchi⟧: sensing — perceiving through senses or sensors (e.g., smoke sensor)\n- ⟦{察知|さっち}→察知：21208_sacchi⟧: perceiving, sensing — detecting through intuition or indirect signs",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18762_kenchi",
+      "reading": "けんち",
+      "headword": "{検知|けんち}",
+      "label": "detection"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00085_hakken",
+      "reading": "はっけん",
+      "headword": "{発見|はっけん}",
+      "label": "discovery"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18254_kanchi",
+      "reading": "かんち",
+      "headword": "{感知|かんち}",
+      "label": "sensing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21208_sacchi",
+      "reading": "さっち",
+      "headword": "{察知|さっち}",
+      "label": "perceiving, sensing"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -58,10 +88,11 @@
       "semantic": [
         "abstract"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-03-30T16:15:10Z",
-    "modified": "2026-03-30T16:15:10Z"
+    "modified": "2026-09-02T04:02:01Z"
   },
   "conjugation": {
     "type": "suru",

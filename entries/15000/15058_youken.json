@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "15058_youken_ex1",
-      "japanese": "ご{用件|ようけん}は{何|なん}でしょうか。",
+      "japanese": "ご{用件|ようけん}⟦は→は：00079_ha⟧⟦{何|なん}→何〜：03100_nan⟧でしょう⟦か→か：09473_ka⟧。",
       "english": "How may I help you? / What is the matter?",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "15058_youken_ex2",
-      "japanese": "{用件|ようけん}だけ{伝|つた}えて{電話|でんわ}を{切|き}った。",
+      "japanese": "{用件|ようけん}⟦だけ→〜だけ：03093_dake⟧⟦{伝|つた}えて→伝える：01220_tsutaeru⟧⟦{電話|でんわ}→電話：01471_denwa⟧⟦を→を：00422_wo⟧⟦{切|き}った→切る：02693_kiru⟧。",
       "english": "I just stated my business and hung up the phone.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "15058_youken_ex3",
-      "japanese": "{急|いそ}ぎの{用件|ようけん}があるので、{手短|てみじか}にお{願|ねが}いします。",
+      "japanese": "{急|いそ}ぎ⟦の→の：09472_no⟧{用件|ようけん}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧⟦の→の：09472_no⟧で、{手短|てみじか}⟦に→に：00314_ni⟧お{願|ねが}いします。",
       "english": "I have urgent business, so please keep it brief.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,19 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{用件|ようけん} refers to the specific matter or purpose someone has when making contact. It is commonly used in business phone calls, reception desks, and email communication. ご{用件|ようけん} is the polite form.\n\nCOMMON COLLOCATIONS:\n- ご{用件|ようけん}は？ (What is your business?)\n- {用件|ようけん}を{伝|つた}える (to convey one's business)\n- {用件|ようけん}を{済|す}ませる (to take care of one's business)\n- {急|いそ}ぎの{用件|ようけん} (urgent matter)\n\nSIMILAR WORDS:\n{要件|ようけん} (same pronunciation) means \"requirement\" or \"condition\" — a common source of confusion. {用事|ようじ} is a more casual word for \"errand\" or \"something to do.\"",
-  "cross_references": [],
+  "notes": "USAGE:\n{用件|ようけん} refers to the specific matter or purpose someone has when making contact. It is commonly used in business phone calls, reception desks, and email communication. ご{用件|ようけん} is the polite form.\n\nCOMMON COLLOCATIONS:\n- ご{用件|ようけん}⟦は→は：00079_ha⟧？ (What is your business?)\n- {用件|ようけん}⟦を→を：00422_wo⟧⟦{伝|つた}える→伝える：01220_tsutaeru⟧ (to convey one's business)\n- {用件|ようけん}⟦を→を：00422_wo⟧⟦{済|す}ませる→済む：01950_sumu⟧ (to take care of one's business)\n- {急|いそ}ぎ⟦の→の：09472_no⟧{用件|ようけん} (urgent matter)\n\nSIMILAR WORDS:\n⟦{要件|ようけん}→要件：14237_youken⟧ (same pronunciation) means \"requirement\" or \"condition\" — a common source of confusion. ⟦{用事|ようじ}→用事：01520_youji⟧ is a more casual word for \"errand\" or \"something to do.\"",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21238_shoyou",
+      "reading": "しょよう",
+      "headword": "{所用|しょよう}",
+      "label": "business"
+    }
+  ],
   "metadata": {
     "created": "2026-03-05T06:22:02Z",
-    "modified": "2026-03-05T06:22:02Z",
+    "modified": "2026-09-02T04:01:39Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

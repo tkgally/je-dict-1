@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "30680_jichinsai_ex1",
-      "japanese": "{来週|らいしゅう}、{地鎮祭|じちんさい}を{行|おこな}います。",
+      "japanese": "⟦{来週|らいしゅう}→来週：00746_raishuu⟧、{地鎮祭|じちんさい}⟦を→を：00422_wo⟧⟦{行|おこな}います→行う：01238_okonau⟧。",
       "english": "We will hold the ground-breaking ceremony next week.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "30680_jichinsai_ex2",
-      "japanese": "{地鎮祭|じちんさい}には{神主|かんぬし}さんに{来|き}てもらった。",
+      "japanese": "{地鎮祭|じちんさい}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{神主|かんぬし}→神主：16732_kannushi⟧さん⟦に→に：00314_ni⟧⟦{来|き}て→来る：00254_kuru⟧⟦もらった→もらう：00520_morau⟧。",
       "english": "We had a Shinto priest come for the ground-breaking ceremony.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "30680_jichinsai_ex3",
-      "japanese": "{工事|こうじ}の{安全|あんぜん}を{祈|いの}って、{施主|せしゅ}と{工務店|こうむてん}の{担当者|たんとうしゃ}が{地鎮祭|じちんさい}に{出席|しゅっせき}した。",
+      "japanese": "⟦{工事|こうじ}→工事：00244_kouji⟧⟦の→の：09472_no⟧⟦{安全|あんぜん}→安全：01131_anzen⟧⟦を→を：00422_wo⟧⟦{祈|いの}って→祈る：01198_inoru⟧、{施主|せしゅ}⟦と→と：00512_to⟧{工務店|こうむてん}⟦の→の：09472_no⟧⟦{担当者|たんとうしゃ}→担当者：09676_tantousha⟧⟦が→が：00051_ga⟧{地鎮祭|じちんさい}⟦に→に：00314_ni⟧⟦{出席|しゅっせき}した→出席する：01830_shussekisuru⟧。",
       "english": "Praying for safety during construction, the client and the builder's representative attended the ground-breaking ceremony.",
       "sense_numbers": [
         1
@@ -43,8 +43,24 @@
       "notes": null
     }
   ],
-  "notes": "{地|じ} (land) + {鎮|ちん} (to calm) + {祭|さい} (rite): a rite to calm the land.\n\nCOMMON COLLOCATIONS:\n- {地鎮祭|じちんさい}を{行|おこな}う: to hold a ground-breaking ceremony\n- {地鎮祭|じちんさい}に{出席|しゅっせき}する: to attend the ceremony\n- {地鎮祭|じちんさい}の{準備|じゅんび}: preparations for the ceremony\n\nCULTURAL CONTEXT:\nStill routine when a house or public building goes up, even for people who are not otherwise religious; skipping it is a conscious decision. The parallel rite held when the frame is raised is {上棟式|じょうとうしき}, and the one on completion is {竣工式|しゅんこうしき}.",
+  "notes": "{地|じ} (land) + {鎮|ちん} (to calm) + {祭|さい} (rite): a rite to calm the land.\n\nCOMMON COLLOCATIONS:\n- {地鎮祭|じちんさい}⟦を→を：00422_wo⟧⟦{行|おこな}う→行う：01238_okonau⟧: to hold a ground-breaking ceremony\n- {地鎮祭|じちんさい}⟦に→に：00314_ni⟧⟦{出席|しゅっせき}する→出席する：01830_shussekisuru⟧: to attend the ceremony\n- {地鎮祭|じちんさい}⟦の→の：09472_no⟧⟦{準備|じゅんび}→準備：01431_junbi⟧: preparations for the ceremony\n\nCULTURAL NOTE:\nStill routine when a house or public building goes up, even for people who are not otherwise religious; skipping it is a conscious decision. The parallel rite held when the frame is raised is {上棟式|じょうとうしき}, and the one on completion is {竣工式|しゅんこうしき}.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "23578_kikoushiki",
+      "reading": "きこうしき",
+      "headword": "{起工式|きこうしき}",
+      "label": "groundbreaking ceremony"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24392_kikou",
+      "reading": "きこう",
+      "headword": "{起工|きこう}",
+      "label": "commencement of construction"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -52,7 +68,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "religion",
         "culture"
@@ -60,6 +76,6 @@
       "domain": []
     },
     "created": "2026-08-16T06:19:38Z",
-    "modified": "2026-08-16T06:19:38Z"
+    "modified": "2026-09-02T04:02:41Z"
   }
 }

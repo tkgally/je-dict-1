@@ -15,41 +15,67 @@
   "examples": [
     {
       "id": "17224_kagai_ex1",
-      "japanese": "{京都|きょうと}には{有名|ゆうめい}な{花街|かがい}がある。",
+      "japanese": "⟦{京都|きょうと}→京都：09484_kyouto⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{有名|ゆうめい}→有名：01106_yuumei⟧な{花街|かがい}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "Kyoto has famous geisha districts.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17224_kagai_ex2",
-      "japanese": "{花街|かがい}の{文化|ぶんか}を{守|まも}る{活動|かつどう}が{続|つづ}いている。",
+      "japanese": "{花街|かがい}⟦の→の：09472_no⟧⟦{文化|ぶんか}→文化：01504_bunka⟧⟦を→を：00422_wo⟧⟦{守|まも}る→守る：01986_mamoru⟧⟦{活動|かつどう}→活動：00201_katsudou⟧⟦が→が：00051_ga⟧⟦{続|つづ}いている→続く：00903_tsuzuku⟧。",
       "english": "Efforts to preserve the culture of the geisha districts continue.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17224_kagai_ex3",
-      "japanese": "{祇園|ぎおん}は{日本|にほん}で{最|もっと}も{有名|ゆうめい}な{花街|かがい}で、{舞妓|まいこ}さんの{姿|すがた}を{見|み}ることができる。",
+      "japanese": "{祇園|ぎおん}⟦は→は：00079_ha⟧⟦{日本|にほん}→日本：03876_nihon⟧⟦で→で：00502_de⟧⟦{最|もっと}も→最も：01736_mottomo⟧⟦{有名|ゆうめい}→有名：01106_yuumei⟧な{花街|かがい}で、⟦{舞妓|まいこ}→舞妓：15099_maiko⟧さん⟦の→の：09472_no⟧⟦{姿|すがた}→姿：03363_sugata⟧⟦を→を：00422_wo⟧⟦{見|み}る→見る：00283_miru⟧こと⟦が→が：00051_ga⟧⟦できる→できる：00557_dekiru⟧。",
       "english": "Gion is Japan's most famous geisha district, where you can see apprentice geisha.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "WORD FORMATION:\n{花|か} (flower) + {街|がい} (district, quarter). The 'flower' metaphor refers to the beauty and refinement of the arts practiced there.\n\nCULTURAL NOTE:\nKyoto's five major {花街|かがい} are {祇園甲部|ぎおんこうぶ}, {祇園東|ぎおんひがし}, {先斗町|ぽんとちょう}, {上七軒|かみしちけん}, and {宮川町|みやがわちょう}. Tokyo also had its own {花街|かがい}, such as {新橋|しんばし} and {赤坂|あかさか}. These districts are associated with traditional arts including {日本舞踊|にほんぶよう}, {三味線|しゃみせん}, and the tea ceremony.\n\nALTERNATE READING:\nAlso read as はなまち, which is more colloquial.\n\nCOMMON COLLOCATIONS:\n- {花街|かがい}の{文化|ぶんか} (culture of the geisha districts)\n- {花街|かがい}の{伝統|でんとう} (traditions of the geisha districts)\n- {京都|きょうと}の{花街|かがい} (Kyoto's geisha districts)",
-  "cross_references": [],
+  "notes": "FORMS:\n{花|か} (flower) + {街|がい} (district, quarter). The 'flower' metaphor refers to the beauty and refinement of the arts practiced there.\n\nCULTURAL NOTE:\nKyoto's five major {花街|かがい} are {祇園甲部|ぎおんこうぶ}, {祇園東|ぎおんひがし}, {先斗町|ぽんとちょう}, {上七軒|かみしちけん}, and {宮川町|みやがわちょう}. Tokyo also had its own {花街|かがい}, such as {新橋|しんばし} and {赤坂|あかさか}. These districts are associated with traditional arts including ⟦{日本舞踊|にほんぶよう}→日本舞踊：28381_nihonbuyou⟧, ⟦{三味線|しゃみせん}→三味線：04464_shamisen⟧, and the tea ceremony.\n\nALTERNATE READING:\nAlso read as はなまち, which is more colloquial.\n\nCOMMON COLLOCATIONS:\n- {花街|かがい}⟦の→の：09472_no⟧⟦{文化|ぶんか}→文化：01504_bunka⟧ (culture of the geisha districts)\n- {花街|かがい}⟦の→の：09472_no⟧⟦{伝統|でんとう}→伝統：09585_dentou⟧ (traditions of the geisha districts)\n- ⟦{京都|きょうと}→京都：09484_kyouto⟧⟦の→の：09472_no⟧{花街|かがい} (Kyoto's geisha districts)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "22957_okiya",
+      "reading": "おきや",
+      "headword": "{置屋|おきや}",
+      "label": "geisha house"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25059_kuruwa",
+      "reading": "くるわ",
+      "headword": "{廓|くるわ}",
+      "label": "pleasure quarter"
+    }
+  ],
   "metadata": {
     "created": "2026-03-17T00:13:33Z",
-    "modified": "2026-03-17T00:13:33Z",
+    "modified": "2026-09-02T04:01:47Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["culture", "geography"]
+      "semantic": [
+        "culture",
+        "geography"
+      ]
     }
   }
 }

@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "12476_toshiake_ex1",
-      "japanese": "{年明|としあ}けに{会|あ}いましょう。",
+      "japanese": "{年明|としあ}け⟦に→に：00314_ni⟧⟦{会|あ}いましょう→会う：00482_au⟧。",
       "english": "Let's meet in the new year.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12476_toshiake_ex2",
-      "japanese": "{年明|としあ}け{早々|そうそう}に{仕事|しごと}が{始|はじ}まる。",
+      "japanese": "{年明|としあ}け⟦{早々|そうそう}→早々：12959_sousou⟧⟦に→に：00314_ni⟧⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦が→が：00051_ga⟧⟦{始|はじ}まる→始まる：00841_hajimaru⟧。",
       "english": "Work starts right at the beginning of the new year.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12476_toshiake_ex3",
-      "japanese": "{新|あたら}しいプロジェクトは{年明|としあ}けから{本格的|ほんかくてき}にスタートする{予定|よてい}だ。",
+      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦プロジェクト→プロジェクト：06764_purojekuto⟧⟦は→は：00079_ha⟧{年明|としあ}け⟦から→から：00504_kara⟧⟦{本格的|ほんかくてき}→本格的：05681_honkakuteki⟧⟦に→に：00314_ni⟧⟦スタート→スタート：11053_sutaato⟧⟦する→する：00392_suru⟧⟦{予定|よてい}→予定：00824_yotei⟧だ。",
       "english": "The new project is scheduled to start in earnest after the new year.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nTypically refers to early January. The expression {年明|としあ}け{早々|そうそう} (right at the start of the new year) is very common. Often used in business and daily conversation to schedule things for early in the coming year. Contrast with {年越|としこ}し (seeing in the new year / New Year's Eve).\n\nCOMMON COLLOCATIONS:\n- {年明|としあ}け{早々|そうそう}: right at the start of the new year\n- {年明|としあ}けから: from the new year\n- {年明|としあ}けに: at the beginning of the new year\n- {年明|としあ}け{後|ご}: after the start of the new year",
+  "notes": "USAGE:\nTypically refers to early January. The expression {年明|としあ}け⟦{早々|そうそう}→早々：12959_sousou⟧ (right at the start of the new year) is very common. Often used in business and daily conversation to schedule things for early in the coming year. Contrast with ⟦{年越|としこ}し→年越し：12477_toshikoshi⟧ (seeing in the new year / New Year's Eve).\n\nCOMMON COLLOCATIONS:\n- {年明|としあ}け⟦{早々|そうそう}→早々：12959_sousou⟧: right at the start of the new year\n- {年明|としあ}け⟦から→から：00504_kara⟧: from the new year\n- {年明|としあ}け⟦に→に：00314_ni⟧: at the beginning of the new year\n- {年明|としあ}け⟦{後|ご}→後：30157_go⟧: after the start of the new year",
   "cross_references": [
     {
       "type": "related",
@@ -46,18 +52,29 @@
       "reading": "としこし",
       "headword": "{年越|としこ}し",
       "label": "New Year's Eve"
+    },
+    {
+      "type": "related",
+      "target_id": "15521_shuuake",
+      "reading": "しゅうあけ",
+      "headword": "{週明|しゅうあ}け",
+      "label": "beginning of the week"
     }
   ],
   "metadata": {
     "created": "2026-02-21T10:32:05Z",
-    "modified": "2026-04-27T05:19:15Z",
+    "modified": "2026-09-02T04:01:29Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["time-general"]
+      "semantic": [
+        "time-general"
+      ]
     }
   }
 }

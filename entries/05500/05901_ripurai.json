@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "05901_ripurai_ex1",
-      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦の→の：09472_no⟧⟦{投稿|とうこう}→投稿：04733_toukou⟧⟦に→に：00314_ni⟧リプライした。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦の→の：09472_no⟧⟦{投稿|とうこう}→投稿：04733_toukou⟧⟦に→に：00314_ni⟧リプライ⟦した→する：00392_suru⟧。",
       "english": "I replied to her post.",
       "notes": null,
       "has_audio": false,
@@ -133,11 +133,47 @@
       ]
     }
   ],
-  "notes": "From English \"reply.\" Used almost exclusively in social media contexts (X/Twitter, Instagram, etc.), not for email or formal correspondence.\n\nABBREVIATIONS:\n- リプ: casual abbreviation (most common in practice)\n- リプる: to reply (slang verb, adding る to the abbreviation)\n\nCOMMON PATTERNS:\n- リプライ⟦を→を：00422_wo⟧⟦{送|おく}る→送る：00742_okuru⟧: to send a reply\n- リプライ⟦が→が：00051_ga⟧⟦{来|く}る→来る：00254_kuru⟧: to receive a reply\n- リプライ⟦{欄|らん}→欄：03901_ran⟧: the replies section\n\nCONTRAST WITH ⟦{返信|へんしん}→返信：14350_henshin⟧:\n⟦{返信|へんしん}→返信：14350_henshin⟧ is the general word for \"reply\" used in email, messaging, and formal contexts. リプライ is specific to social media platforms.\n\nRELATED SOCIAL MEDIA TERMS:\n- ⟦コメント→コメント：06956_komento⟧: comment\n- ⟦いいね→いいね：05865_iine⟧: like\n- ⟦リツイート→リツイート：08796_ritsuiito⟧ / ⟦リポスト→リポスト：08615_riposuto⟧: retweet/repost\n- ⟦フォロー→フォロー：04730_foroo⟧: follow",
-  "cross_references": [],
+  "notes": "From English \"reply.\" Used almost exclusively in social media contexts (X/Twitter, Instagram, etc.), not for email or formal correspondence.\n\nFORMS:\n- リプ: casual abbreviation (most common in practice)\n- リプる: to reply (slang verb, adding る to the abbreviation)\n\nCOMMON PATTERNS:\n- リプライ⟦を→を：00422_wo⟧⟦{送|おく}る→送る：00742_okuru⟧: to send a reply\n- リプライ⟦が→が：00051_ga⟧⟦{来|く}る→来る：00254_kuru⟧: to receive a reply\n- リプライ⟦{欄|らん}→欄：03901_ran⟧: the replies section\n\nCONTRAST WITH ⟦{返信|へんしん}→返信：14350_henshin⟧:\n⟦{返信|へんしん}→返信：14350_henshin⟧ is the general word for \"reply\" used in email, messaging, and formal contexts. リプライ is specific to social media platforms.\n\nRELATED SOCIAL MEDIA TERMS:\n- ⟦コメント→コメント：06956_komento⟧: comment\n- ⟦いいね→いいね：05865_iine⟧: like\n- ⟦リツイート→リツイート：08796_ritsuiito⟧ / ⟦リポスト→リポスト：08615_riposuto⟧: retweet/repost\n- ⟦フォロー→フォロー：04730_foroo⟧: follow",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "06956_komento",
+      "reading": "こめんと",
+      "headword": "コメント",
+      "label": "comment"
+    },
+    {
+      "type": "related",
+      "target_id": "05865_iine",
+      "reading": "いいね",
+      "headword": "いいね",
+      "label": "like (social media), sounds good"
+    },
+    {
+      "type": "related",
+      "target_id": "08796_ritsuiito",
+      "reading": "りついーと",
+      "headword": "リツイート",
+      "label": "retweet/repost"
+    },
+    {
+      "type": "related",
+      "target_id": "08615_riposuto",
+      "reading": "りぽすと",
+      "headword": "リポスト",
+      "label": "retweet/repost"
+    },
+    {
+      "type": "related",
+      "target_id": "04730_foroo",
+      "reading": "ふぉろー",
+      "headword": "フォロー",
+      "label": "follow"
+    }
+  ],
   "metadata": {
     "created": "2026-01-16T14:51:32Z",
-    "modified": "2026-06-08T20:05:27Z",
+    "modified": "2026-09-02T04:01:07Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

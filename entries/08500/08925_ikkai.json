@@ -19,7 +19,7 @@
   "examples": [
     {
       "id": "08925_ikkai_ex1",
-      "japanese": "{一回|いっかい}だけ{試|ため}してみる。",
+      "japanese": "{一回|いっかい}⟦だけ→〜だけ：03093_dake⟧⟦{試|ため}して→試す：02130_tamesu⟧みる。",
       "english": "I'll try it just once.",
       "notes": null,
       "has_audio": false,
@@ -29,7 +29,7 @@
     },
     {
       "id": "08925_ikkai_ex2",
-      "japanese": "{一回|いっかい}{会|あ}ったことがある。",
+      "japanese": "{一回|いっかい}⟦{会|あ}った→会う：00482_au⟧こと⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "I've met them once before.",
       "notes": null,
       "has_audio": false,
@@ -39,7 +39,7 @@
     },
     {
       "id": "08925_ikkai_ex3",
-      "japanese": "{週|しゅう}に{一回|いっかい}{運動|うんどう}する。",
+      "japanese": "⟦{週|しゅう}→週：03204_shuu⟧⟦に→に：00314_ni⟧{一回|いっかい}⟦{運動|うんどう}→運動：00821_undou⟧⟦する→する：00392_suru⟧。",
       "english": "I exercise once a week.",
       "notes": null,
       "has_audio": false,
@@ -49,7 +49,7 @@
     },
     {
       "id": "08925_ikkai_ex4",
-      "japanese": "{一回|いっかい}{表|おもて}の{攻撃|こうげき}。",
+      "japanese": "{一回|いっかい}⟦{表|おもて}→表：01355_omote⟧⟦の→の：09472_no⟧⟦{攻撃|こうげき}→攻撃：02748_kougeki⟧。",
       "english": "The top of the first inning.",
       "notes": null,
       "has_audio": false,
@@ -59,7 +59,7 @@
     },
     {
       "id": "08925_ikkai_ex5",
-      "japanese": "{一回戦|いっかいせん}で{負|ま}けてしまった。",
+      "japanese": "⟦{一回戦|いっかいせん}→一回戦：08960_ikkaisen⟧⟦で→で：00502_de⟧⟦{負|ま}けて→負ける：01134_makeru⟧しまった。",
       "english": "We lost in the first round.",
       "notes": null,
       "has_audio": false,
@@ -69,7 +69,7 @@
     },
     {
       "id": "08925_ikkai_ex6",
-      "japanese": "ドラマの{第|だい}{一回|いっかい}を{見|み}る。",
+      "japanese": "⟦ドラマ→ドラマ：03867_dorama⟧⟦の→の：09472_no⟧⟦{第|だい}→第〜：03960_dai⟧{一回|いっかい}⟦を→を：00422_wo⟧⟦{見|み}る→見る：00283_miru⟧。",
       "english": "I watch the first episode of the drama.",
       "notes": null,
       "has_audio": false,
@@ -78,11 +78,19 @@
       ]
     }
   ],
-  "notes": "{一回|いっかい} means 'once' or 'first round/inning.'\n\nSENSE 1 - ONCE/ONE TIME:\n- {一回|いっかい}だけ: just once\n- もう{一回|いっかい}: one more time\n- {一回|いっかい}{目|め}: the first time\n- {週|しゅう}に{一回|いっかい}: once a week\n\nSENSE 2 - FIRST INNING/ROUND:\n- {一回|いっかい}{表|おもて}: top of the first (baseball)\n- {一回|いっかい}{裏|うら}: bottom of the first (baseball)\n- {一回戦|いっかいせん}: first round (tournament)\n- {第|だい}{一回|いっかい}: the first (episode/event)\n\nCOUNTING:\n- {一回|いっかい}、{二回|にかい}、{三回|さんかい}...\n- {何回|なんかい}: how many times",
-  "cross_references": [],
+  "notes": "{一回|いっかい} means 'once' or 'first round/inning.'\n\nSENSE 1 - ONCE/ONE TIME:\n- {一回|いっかい}⟦だけ→〜だけ：03093_dake⟧: just once\n- ⟦もう→もう：00602_mou⟧{一回|いっかい}: one more time\n- {一回|いっかい}⟦{目|め}→目：00525_me⟧: the first time\n- ⟦{週|しゅう}→週：03204_shuu⟧⟦に→に：00314_ni⟧{一回|いっかい}: once a week\n\nSENSE 2 - FIRST INNING/ROUND:\n- {一回|いっかい}⟦{表|おもて}→表：01355_omote⟧: top of the first (baseball)\n- {一回|いっかい}⟦{裏|うら}→裏：02178_ura⟧: bottom of the first (baseball)\n- ⟦{一回戦|いっかいせん}→一回戦：08960_ikkaisen⟧: first round (tournament)\n- ⟦{第|だい}→第〜：03960_dai⟧{一回|いっかい}: the first (episode/event)\n\nCOUNTING PATTERNS:\n- {一回|いっかい}、⟦{二回|にかい}→二回：27625_nikai⟧、⟦{三回|さんかい}→三回：30448_sankai⟧...\n- ⟦{何回|なんかい}→何回：08497_nankai⟧: how many times",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22068_ippen",
+      "reading": "いっぺん",
+      "headword": "{一遍|いっぺん}",
+      "label": "once"
+    }
+  ],
   "metadata": {
     "created": "2026-01-29T03:42:03Z",
-    "modified": "2026-06-23T01:38:10Z",
+    "modified": "2026-09-02T04:01:16Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

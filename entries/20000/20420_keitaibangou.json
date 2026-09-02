@@ -15,40 +15,74 @@
   "examples": [
     {
       "id": "20420_keitaibangou_ex1",
-      "japanese": "{携帯番号|けいたいばんごう}を{教|おし}えてください。",
+      "japanese": "{携帯番号|けいたいばんごう}⟦を→を：00422_wo⟧⟦{教|おし}えて→教える：00526_oshieru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please tell me your mobile phone number.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20420_keitaibangou_ex2",
-      "japanese": "{携帯番号|けいたいばんごう}が{変|か}わったので{連絡|れんらく}します。",
+      "japanese": "{携帯番号|けいたいばんごう}⟦が→が：00051_ga⟧⟦{変|か}わった→変わる：00714_kawaru⟧⟦の→の：09472_no⟧で⟦{連絡|れんらく}します→連絡する：20202_renrakusuru⟧。",
       "english": "I'm letting you know because my cell phone number has changed.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20420_keitaibangou_ex3",
-      "japanese": "{個人情報|こじんじょうほう}なので、{携帯番号|けいたいばんごう}は{他人|たにん}に{教|おし}えないほうがいい。",
+      "japanese": "⟦{個人情報|こじんじょうほう}→個人情報：18842_kojinjouhou⟧な⟦の→の：09472_no⟧で、{携帯番号|けいたいばんごう}⟦は→は：00079_ha⟧⟦{他人|たにん}→他人：01459_tanin⟧⟦に→に：00314_ni⟧⟦{教|おし}えない→教える：00526_oshieru⟧⟦ほうがいい→ほうがいい：10078_hougaii⟧。",
       "english": "Since it's personal information, you shouldn't give your mobile number to strangers.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {携帯|けいたい} (mobile phone, short for {携帯電話|けいたいでんわ}) + {番号|ばんごう} (number). Extremely common in everyday conversation.\n\nCOMMON COLLOCATIONS:\n- {携帯番号|けいたいばんごう}を{教|おし}える: to give one's mobile number\n- {携帯番号|けいたいばんごう}を{変|か}える: to change one's mobile number\n- {携帯番号|けいたいばんごう}を{登録|とうろく}する: to register a mobile number\n- {携帯番号|けいたいばんごう}で{認証|にんしょう}する: to verify by mobile number\n\nJAPAN NOTE:\nJapanese mobile numbers begin with 070, 080, or 090. Number portability ({番号|ばんごう}ポータビリティ) allows users to keep their number when switching carriers.\n\nRELATED TERMS:\n- {携帯電話|けいたいでんわ}: mobile phone — the full form\n- {携帯|けいたい}: mobile phone — the common abbreviation\n- スマホ: smartphone — the modern abbreviation of スマートフォン\n- {電話番号|でんわばんごう}: phone number — the general term including landlines",
+  "notes": "Composed of ⟦{携帯|けいたい}→携帯：00715_keitai⟧ (mobile phone, short for ⟦{携帯電話|けいたいでんわ}→携帯電話：04433_keitaidenwa⟧) + ⟦{番号|ばんごう}→番号：02939_bangou⟧ (number). Extremely common in everyday conversation.\n\nCOMMON COLLOCATIONS:\n- {携帯番号|けいたいばんごう}⟦を→を：00422_wo⟧⟦{教|おし}える→教える：00526_oshieru⟧: to give one's mobile number\n- {携帯番号|けいたいばんごう}⟦を→を：00422_wo⟧⟦{変|か}える→変える：01089_kaeru⟧: to change one's mobile number\n- {携帯番号|けいたいばんごう}⟦を→を：00422_wo⟧⟦{登録|とうろく}する→登録する：25227_tourokusuru⟧: to register a mobile number\n- {携帯番号|けいたいばんごう}⟦で→で：00502_de⟧⟦{認証|にんしょう}→認証：05909_ninshou⟧⟦する→する：00392_suru⟧: to verify by mobile number\n\nJAPAN NOTE:\nJapanese mobile numbers begin with 070, 080, or 090. Number portability (⟦{番号|ばんごう}→番号：02939_bangou⟧ポータビリティ) allows users to keep their number when switching carriers.\n\nRELATED WORDS:\n- ⟦{携帯電話|けいたいでんわ}→携帯電話：04433_keitaidenwa⟧: mobile phone — the full form\n- ⟦{携帯|けいたい}→携帯：00715_keitai⟧: mobile phone — the common abbreviation\n- ⟦スマホ→スマホ：04721_sumaho⟧: smartphone — the modern abbreviation of ⟦スマートフォン→スマートフォン：04434_sumaatofon⟧\n- ⟦{電話番号|でんわばんごう}→電話番号：10159_denwabangou⟧: phone number — the general term including landlines",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "04433_keitaidenwa",
+      "reading": "けいたいでんわ",
+      "headword": "{携帯電話|けいたいでんわ}",
+      "label": "mobile phone"
+    },
+    {
+      "type": "related",
+      "target_id": "04721_sumaho",
+      "reading": "すまほ",
+      "headword": "スマホ",
+      "label": "smartphone"
+    },
+    {
+      "type": "related",
+      "target_id": "10159_denwabangou",
+      "reading": "でんわばんごう",
+      "headword": "{電話番号|でんわばんごう}",
+      "label": "phone number"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["technology", "daily-life"]
+      "semantic": [
+        "technology",
+        "daily-life"
+      ]
     },
     "created": "2026-03-29T13:03:57Z",
-    "modified": "2026-03-29T13:03:57Z"
+    "modified": "2026-09-02T04:01:59Z"
   }
 }

@@ -15,40 +15,67 @@
   "examples": [
     {
       "id": "24898_yoyakuken_ex1",
-      "japanese": "{予約券|よやくけん}を{見|み}せる。",
+      "japanese": "{予約券|よやくけん}⟦を→を：00422_wo⟧⟦{見|み}せる→見せる：01988_miseru⟧。",
       "english": "To show a reservation ticket.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "24898_yoyakuken_ex2",
-      "japanese": "{受付|うけつけ}で{予約券|よやくけん}を{提示|ていじ}してください。",
+      "japanese": "⟦{受付|うけつけ}→受付：01325_uketsuke⟧⟦で→で：00502_de⟧{予約券|よやくけん}⟦を→を：00422_wo⟧⟦{提示|ていじ}して→提示する：26842_teijisuru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please present your reservation slip at the reception desk.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "24898_yoyakuken_ex3",
-      "japanese": "{人気|にんき}のレストランでは{予約券|よやくけん}がないと{入|はい}れないことがある。",
+      "japanese": "⟦{人気|にんき}→人気：01488_ninki⟧⟦の→の：09472_no⟧⟦レストラン→レストラン：01048_resutoran⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧{予約券|よやくけん}⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧⟦と→と：00512_to⟧⟦{入|はい}れない→入る：00494_hairu⟧こと⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "At popular restaurants, you sometimes can't get in without a reservation ticket.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A physical or digital ticket that proves a reservation has been made. Common at hospitals (as a numbered waiting slip), popular restaurants (for walk-in queuing systems), and events. Composed of {予約|よやく} (reservation) + {券|けん} (ticket).\n\nCOMMON COLLOCATIONS:\n- {予約券|よやくけん}を{取|と}る: to get a reservation ticket\n- {予約券|よやくけん}を{発行|はっこう}する: to issue a reservation ticket\n- {予約券|よやくけん}の{番号|ばんごう}: reservation ticket number\n\nSIMILAR WORDS:\n- {整理券|せいりけん}: numbered ticket — a queuing ticket distributed in order of arrival, common on buses and at busy venues\n- {予約確認書|よやくかくにんしょ}: reservation confirmation — a more formal document confirming a booking, often used for hotels or flights\n- {引換券|ひきかえけん}: redemption ticket — a voucher for exchanging or picking up goods",
+  "notes": "A physical or digital ticket that proves a reservation has been made. Common at hospitals (as a numbered waiting slip), popular restaurants (for walk-in queuing systems), and events. Composed of ⟦{予約|よやく}→予約：01522_yoyaku⟧ (reservation) + ⟦{券|けん}→券：02150_ken⟧ (ticket).\n\nCOMMON COLLOCATIONS:\n- {予約券|よやくけん}⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧: to get a reservation ticket\n- {予約券|よやくけん}⟦を→を：00422_wo⟧⟦{発行|はっこう}する→発行する：19236_hakkousuru⟧: to issue a reservation ticket\n- {予約券|よやくけん}⟦の→の：09472_no⟧⟦{番号|ばんごう}→番号：02939_bangou⟧: reservation ticket number\n\nSIMILAR WORDS:\n- ⟦{整理券|せいりけん}→整理券：08288_seiriken⟧: numbered ticket — a queuing ticket distributed in order of arrival, common on buses and at busy venues\n- {予約確認書|よやくかくにんしょ}: reservation confirmation — a more formal document confirming a booking, often used for hotels or flights\n- ⟦{引換券|ひきかえけん}→引換券：19009_hikikaeken⟧: redemption ticket — a voucher for exchanging or picking up goods",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08288_seiriken",
+      "reading": "せいりけん",
+      "headword": "{整理券|せいりけん}",
+      "label": "numbered ticket"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19009_hikikaeken",
+      "reading": "ひきかえけん",
+      "headword": "{引換券|ひきかえけん}",
+      "label": "redemption ticket"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["daily-life", "travel"]
+      "semantic": [
+        "daily-life",
+        "travel"
+      ]
     },
     "created": "2026-04-21T12:10:48Z",
-    "modified": "2026-04-21T12:10:48Z"
+    "modified": "2026-09-02T04:02:20Z"
   }
 }

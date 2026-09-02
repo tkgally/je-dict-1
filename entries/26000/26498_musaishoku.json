@@ -15,41 +15,59 @@
   "examples": [
     {
       "id": "26498_musaishoku_ex1",
-      "japanese": "{白|しろ}、{黒|くろ}、グレーは{無彩色|むさいしょく}だ。",
+      "japanese": "⟦{白|しろ}→白：13854_shiro⟧、⟦{黒|くろ}→黒：02205_kuro⟧、⟦グレー→グレー：24406_guree⟧⟦は→は：00079_ha⟧{無彩色|むさいしょく}だ。",
       "english": "White, black, and gray are achromatic colors.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26498_musaishoku_ex2",
-      "japanese": "{無彩色|むさいしょく}でまとめたインテリアは{落|お}ち{着|つ}いた{印象|いんしょう}を{与|あた}える。",
+      "japanese": "{無彩色|むさいしょく}⟦で→で：00502_de⟧⟦まとめた→まとめる：02424_matomeru⟧⟦インテリア→インテリア：22335_interia⟧⟦は→は：00079_ha⟧⟦{落|お}ち{着|つ}いた→落ち着く：04670_ochitsuku⟧⟦{印象|いんしょう}→印象：01846_inshou⟧⟦を→を：00422_wo⟧⟦{与|あた}える→与える：01821_ataeru⟧。",
       "english": "An interior decorated in neutral colors gives a calm impression.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26498_musaishoku_ex3",
-      "japanese": "{無彩色|むさいしょく}をベースにして{差|さ}し{色|いろ}に{赤|あか}を{使|つか}うと、デザインに{メリハリ|めりはり}が{出|で}る。",
+      "japanese": "{無彩色|むさいしょく}⟦を→を：00422_wo⟧⟦ベース→ベース：08762_beesu⟧にして{差|さ}し{色|いろ}⟦に→に：00314_ni⟧⟦{赤|あか}→赤：02842_aka⟧⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧⟦と→と：00512_to⟧、⟦デザイン→デザイン：03860_dezain⟧⟦に→に：00314_ni⟧メリハリ⟦が→が：00051_ga⟧⟦{出|で}る→出る：00513_deru⟧。",
       "english": "Using a neutral color base with red as an accent creates contrast in the design.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {無|む} (without) + {彩色|さいしょく} (coloring, hue). The opposite of {有彩色|ゆうさいしょく} (chromatic color). In color theory, {無彩色|むさいしょく} refers to colors on the grayscale axis from pure white to pure black. Widely used in art, design, fashion, and interior decoration.\n\nCOMMON COLLOCATIONS:\n- {無彩色|むさいしょく}のコーディネート: neutral-color coordination\n- {無彩色|むさいしょく}をベースにする: to use neutral colors as a base\n- {無彩色|むさいしょく}と{有彩色|ゆうさいしょく}: achromatic and chromatic colors\n\nSIMILAR WORDS:\n- {有彩色|ゆうさいしょく}: chromatic color — any color with hue, the opposite of {無彩色|むさいしょく}\n- モノトーン: monotone — a design scheme using variations of a single color, often {無彩色|むさいしょく}\n- {中間色|ちゅうかんしょく}: intermediate color — colors created by mixing two hues; a different concept from {無彩色|むさいしょく}",
-  "cross_references": [],
+  "notes": "Composed of ⟦{無|む}→無：17750_mu⟧ (without) + ⟦{彩色|さいしょく}→彩色：21817_saishoku⟧ (coloring, hue). The opposite of {有彩色|ゆうさいしょく} (chromatic color). In color theory, {無彩色|むさいしょく} refers to colors on the grayscale axis from pure white to pure black. Widely used in art, design, fashion, and interior decoration.\n\nCOMMON COLLOCATIONS:\n- {無彩色|むさいしょく}⟦の→の：09472_no⟧コーディネート: neutral-color coordination\n- {無彩色|むさいしょく}⟦を→を：00422_wo⟧⟦ベース→ベース：08762_beesu⟧⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧: to use neutral colors as a base\n- {無彩色|むさいしょく}⟦と→と：00512_to⟧{有彩色|ゆうさいしょく}: achromatic and chromatic colors\n\nSIMILAR WORDS:\n- {有彩色|ゆうさいしょく}: chromatic color — any color with hue, the opposite of {無彩色|むさいしょく}\n- モノトーン: monotone — a design scheme using variations of a single color, often {無彩色|むさいしょく}\n- ⟦{中間色|ちゅうかんしょく}→中間色：24784_chuukanshoku⟧: intermediate color — colors created by mixing two hues; a different concept from {無彩色|むさいしょく}",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24784_chuukanshoku",
+      "reading": "ちゅうかんしょく",
+      "headword": "{中間色|ちゅうかんしょく}",
+      "label": "intermediate color"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["color"]
+      "semantic": [
+        "color"
+      ]
     },
     "created": "2026-05-02T12:24:54Z",
-    "modified": "2026-05-02T12:24:54Z"
+    "modified": "2026-09-02T04:02:26Z"
   }
 }

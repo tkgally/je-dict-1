@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "11946_torishikiru_ex1",
-      "japanese": "{式|しき}を{取|と}り{仕切|しき}る。",
+      "japanese": "{式|しき}⟦を→を：00422_wo⟧{取|と}り{仕切|しき}る。",
       "english": "Preside over a ceremony.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "11946_torishikiru_ex2",
-      "japanese": "イベントの{準備|じゅんび}は{彼女|かのじょ}が{取|と}り{仕切|しき}っている。",
+      "japanese": "⟦イベント→イベント：09594_ibento⟧⟦の→の：09472_no⟧⟦{準備|じゅんび}→準備：01431_junbi⟧⟦は→は：00079_ha⟧⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦が→が：00051_ga⟧{取|と}り{仕切|しき}って⟦いる→いる：00495_iru⟧。",
       "english": "She is managing the event preparations.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "11946_torishikiru_ex3",
-      "japanese": "{葬儀|そうぎ}はすべて{長男|ちょうなん}が{取|と}り{仕切|しき}った。",
+      "japanese": "⟦{葬儀|そうぎ}→葬儀：15337_sougi⟧⟦は→は：00079_ha⟧すべて⟦{長男|ちょうなん}→長男：14519_chounan⟧⟦が→が：00051_ga⟧{取|と}り{仕切|しき}った。",
       "english": "The eldest son managed all aspects of the funeral.",
       "notes": null,
       "has_audio": false,
@@ -133,11 +133,19 @@
       ]
     }
   ],
-  "notes": "COMMON COLLOCATIONS:\n・{式|しき}を{取|と}り{仕切|しき}る (preside over a ceremony)\n・{現場|げんば}を{取|と}り{仕切|しき}る (manage the work site)\n・{全体|ぜんたい}を{取|と}り{仕切|しき}る (run the whole operation)\n\nUSAGE NOTES:\nImplies a hands-on management role where the person is actively coordinating and directing. Different from simply being in charge on paper — {取|と}り{仕切|しき}る conveys that the person is actively involved in making things happen. Often used for ceremonies, events, funerals, and business operations.",
-  "cross_references": [],
+  "notes": "COMMON COLLOCATIONS:\n- {式|しき}⟦を→を：00422_wo⟧{取|と}り{仕切|しき}る (preside over a ceremony)\n- ⟦{現場|げんば}→現場：02723_genba⟧⟦を→を：00422_wo⟧{取|と}り{仕切|しき}る (manage the work site)\n- ⟦{全体|ぜんたい}→全体：03314_zentai⟧⟦を→を：00422_wo⟧{取|と}り{仕切|しき}る (run the whole operation)\n\nUSAGE:\nImplies a hands-on management role where the person is actively coordinating and directing. Different from simply being in charge on paper — {取|と}り{仕切|しき}る conveys that the person is actively involved in making things happen. Often used for ceremonies, events, funerals, and business operations.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "08259_sahai",
+      "reading": "さはい",
+      "headword": "{差配|さはい}",
+      "label": "management"
+    }
+  ],
   "metadata": {
     "created": "2026-02-19T10:51:47Z",
-    "modified": "2026-03-29T03:07:35Z",
+    "modified": "2026-09-02T04:01:27Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",

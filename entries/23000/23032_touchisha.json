@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "23032_touchisha_ex1",
-      "japanese": "{統治者|とうちしゃ}が{代|か}わった。",
+      "japanese": "{統治者|とうちしゃ}⟦が→が：00051_ga⟧⟦{代|か}わった→代わる：11718_kawaru⟧。",
       "english": "The ruler changed.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "23032_touchisha_ex2",
-      "japanese": "{統治者|とうちしゃ}は{国民|こくみん}の{声|こえ}に{耳|みみ}を{傾|かたむ}けるべきだ。",
+      "japanese": "{統治者|とうちしゃ}⟦は→は：00079_ha⟧⟦{国民|こくみん}→国民：02757_kokumin⟧⟦の→の：09472_no⟧⟦{声|こえ}→声：02207_koe⟧⟦に→に：00314_ni⟧⟦{耳|みみ}を{傾|かたむ}ける→耳を傾ける：06903_mimiwokatamukeru⟧べきだ。",
       "english": "A ruler should listen to the voice of the people.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "23032_touchisha_ex3",
-      "japanese": "{歴史|れきし}を{振|ふ}り{返|かえ}ると、{優|すぐ}れた{統治者|とうちしゃ}は{民|たみ}の{生活|せいかつ}を{第一|だいいち}に{考|かんが}えていた。",
+      "japanese": "⟦{歴史|れきし}→歴史：02267_rekishi⟧⟦を→を：00422_wo⟧⟦{振|ふ}り{返|かえ}る→振り返る：04231_furikaeru⟧⟦と→と：00512_to⟧、⟦{優|すぐ}れた→優れる：02119_sugureru⟧{統治者|とうちしゃ}⟦は→は：00079_ha⟧⟦{民|たみ}→民：13246_tami⟧⟦の→の：09472_no⟧⟦{生活|せいかつ}→生活：01443_seikatsu⟧⟦を→を：00422_wo⟧⟦{第一|だいいち}に→第一に：19173_daiichini⟧⟦{考|かんが}えていた→考える：00856_kangaeru⟧。",
       "english": "Looking back at history, excellent rulers put the lives of the people first.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "A neutral, formal term for someone who governs. Composed of {統治|とうち} (governance, rule) and {者|しゃ} (person). Unlike {支配者|しはいしゃ}, which often carries connotations of domination, {統治者|とうちしゃ} is more neutral and commonly used in academic and political writing.\n\nCOMMON COLLOCATIONS:\n- {統治者|とうちしゃ}としての{責任|せきにん}: responsibility as a ruler\n- {統治者|とうちしゃ}の{権力|けんりょく}: the ruler's power\n- {植民地|しょくみんち}の{統治者|とうちしゃ}: colonial ruler\n- {優|すぐ}れた{統治者|とうちしゃ}: an excellent ruler\n\nSIMILAR WORDS:\n- {支配者|しはいしゃ}: ruler, dominator — implies control or domination, often with a negative nuance\n- {君主|くんしゅ}: monarch, sovereign — specifically a hereditary ruler such as a king or emperor\n- {為政者|いせいしゃ}: politician in power, statesman — focuses on the person making political decisions",
+  "notes": "A neutral, formal term for someone who governs. Composed of ⟦{統治|とうち}→統治：13842_touchi⟧ (governance, rule) and ⟦{者|しゃ}→〜者：04662_sha⟧ (person). Unlike ⟦{支配者|しはいしゃ}→支配者：23113_shihaisha⟧, which often carries connotations of domination, {統治者|とうちしゃ} is more neutral and commonly used in academic and political writing.\n\nCOMMON COLLOCATIONS:\n- {統治者|とうちしゃ}⟦として→として：06802_toshite⟧⟦の→の：09472_no⟧⟦{責任|せきにん}→責任：03298_sekinin⟧: responsibility as a ruler\n- {統治者|とうちしゃ}⟦の→の：09472_no⟧⟦{権力|けんりょく}→権力：10020_kenryoku⟧: the ruler's power\n- ⟦{植民地|しょくみんち}→植民地：16073_shokuminchi⟧⟦の→の：09472_no⟧{統治者|とうちしゃ}: colonial ruler\n- ⟦{優|すぐ}れた→優れる：02119_sugureru⟧{統治者|とうちしゃ}: an excellent ruler\n\nSIMILAR WORDS:\n- ⟦{支配者|しはいしゃ}→支配者：23113_shihaisha⟧: ruler, dominator — implies control or domination, often with a negative nuance\n- ⟦{君主|くんしゅ}→君主：15298_kunshu⟧: monarch, sovereign — specifically a hereditary ruler such as a king or emperor\n- {為政者|いせいしゃ}: politician in power, statesman — focuses on the person making political decisions",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23113_shihaisha",
+      "reading": "しはいしゃ",
+      "headword": "{支配者|しはいしゃ}",
+      "label": "ruler, dominator"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15298_kunshu",
+      "reading": "くんしゅ",
+      "headword": "{君主|くんしゅ}",
+      "label": "monarch, sovereign"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,6 +77,6 @@
       ]
     },
     "created": "2026-04-08T16:29:02Z",
-    "modified": "2026-07-31T00:22:50Z"
+    "modified": "2026-09-02T04:02:10Z"
   }
 }

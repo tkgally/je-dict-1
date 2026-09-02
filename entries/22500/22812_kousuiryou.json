@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22812_kousuiryou_ex1",
-      "japanese": "{今月|こんげつ}の{降水量|こうすいりょう}は{多|おお}い。",
+      "japanese": "⟦{今月|こんげつ}→今月：00720_kongetsu⟧⟦の→の：09472_no⟧{降水量|こうすいりょう}⟦は→は：00079_ha⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "This month's precipitation is high.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22812_kousuiryou_ex2",
-      "japanese": "{年間|ねんかん}{降水量|こうすいりょう}が{増|ふ}えている。",
+      "japanese": "⟦{年間|ねんかん}→年間：00974_nenkan⟧{降水量|こうすいりょう}⟦が→が：00051_ga⟧⟦{増|ふ}えている→増える：01183_fueru⟧。",
       "english": "Annual precipitation is increasing.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22812_kousuiryou_ex3",
-      "japanese": "この{地域|ちいき}は{降水量|こうすいりょう}が{少|すく}なく、{乾燥|かんそう}した{気候|きこう}だ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{地域|ちいき}→地域：01461_chiiki⟧⟦は→は：00079_ha⟧{降水量|こうすいりょう}⟦が→が：00051_ga⟧⟦{少|すく}なく→少ない：01136_sukunai⟧、⟦{乾燥|かんそう}→乾燥：00184_kansou⟧⟦した→する：00392_suru⟧⟦{気候|きこう}→気候：00231_kikou⟧だ。",
       "english": "This region has little precipitation and a dry climate.",
       "sense_numbers": [
         1
@@ -44,20 +44,45 @@
       "notes": null
     }
   ],
-  "notes": "The measured amount of rain, snow, or other forms of water that fall from the sky, typically expressed in millimeters. A compound of {降水|こうすい} (precipitation) and {量|りょう} (amount).\n\nCOMMON COLLOCATIONS:\n- {年間|ねんかん}{降水量|こうすいりょう}: annual precipitation\n- {月間|げっかん}{降水量|こうすいりょう}: monthly precipitation\n- {降水量|こうすいりょう}が{多|おお}い: precipitation is high\n- {降水量|こうすいりょう}が{少|すく}ない: precipitation is low\n- {平均|へいきん}{降水量|こうすいりょう}: average precipitation\n\nRELATED TERMS:\n- {降雨量|こううりょう}: rainfall amount (rain only, not snow)\n- {積雪量|せきせつりょう}: snowfall amount\n- {梅雨|つゆ}: rainy season",
+  "notes": "The measured amount of rain, snow, or other forms of water that fall from the sky, typically expressed in millimeters. A compound of ⟦{降水|こうすい}→降水：09807_kousui⟧ (precipitation) and ⟦{量|りょう}→量：03799_ryou⟧ (amount).\n\nCOMMON COLLOCATIONS:\n- ⟦{年間|ねんかん}→年間：00974_nenkan⟧{降水量|こうすいりょう}: annual precipitation\n- ⟦{月間|げっかん}→月間：13077_gekkan⟧{降水量|こうすいりょう}: monthly precipitation\n- {降水量|こうすいりょう}⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧: precipitation is high\n- {降水量|こうすいりょう}⟦が→が：00051_ga⟧⟦{少|すく}ない→少ない：01136_sukunai⟧: precipitation is low\n- ⟦{平均|へいきん}→平均：03614_heikin⟧{降水量|こうすいりょう}: average precipitation\n\nRELATED WORDS:\n- {降雨量|こううりょう}: rainfall amount (rain only, not snow)\n- {積雪量|せきせつりょう}: snowfall amount\n- ⟦{梅雨|つゆ}→梅雨：02232_tsuyu⟧: rainy season",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "02232_tsuyu",
+      "reading": "つゆ",
+      "headword": "{梅雨|つゆ}",
+      "label": "rainy season"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24555_uryou",
+      "reading": "うりょう",
+      "headword": "{雨量|うりょう}",
+      "label": "rainfall"
+    },
+    {
+      "type": "related",
+      "target_id": "25563_kousuikakuritsu",
+      "reading": "こうすいかくりつ",
+      "headword": "{降水確率|こうすいかくりつ}",
+      "label": "chance of precipitation"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "weather",
         "science"
       ]
     },
     "created": "2026-04-07T17:06:21Z",
-    "modified": "2026-04-07T17:06:21Z"
+    "modified": "2026-09-02T04:02:09Z"
   }
 }

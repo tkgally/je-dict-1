@@ -2,7 +2,7 @@
   "id": "08502_sonomae",
   "headword": "その{前|まえ}",
   "reading": "そのまえ",
-  "part_of_speech": "adverb / noun",
+  "part_of_speech": "adverb, noun",
   "gloss": "before that; previously",
   "definitions": [
     {
@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08502_sonomae_ex1",
-      "japanese": "{東京|とうきょう}に{引|ひ}っ{越|こ}す{前|まえ}、その{前|まえ}は{大阪|おおさか}に{住|す}んでいた。",
+      "japanese": "⟦{東京|とうきょう}→東京：09564_toukyou⟧⟦に→に：00314_ni⟧⟦{引|ひ}っ{越|こ}す→引っ越す：01171_hikkosu⟧⟦{前|まえ}→前：02255_mae⟧、その{前|まえ}⟦は→は：00079_ha⟧⟦{大阪|おおさか}→大阪：09779_oosaka⟧⟦に→に：00314_ni⟧⟦{住|す}んでいた→住む：00673_sumu⟧。",
       "english": "Before moving to Tokyo, before that I lived in Osaka.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "08502_sonomae_ex2",
-      "japanese": "{会議|かいぎ}が{始|はじ}まる。その{前|まえ}に{資料|しりょう}を{確認|かくにん}しよう。",
+      "japanese": "⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦が→が：00051_ga⟧⟦{始|はじ}まる→始まる：00841_hajimaru⟧。その{前|まえ}⟦に→に：00314_ni⟧⟦{資料|しりょう}→資料：04166_shiryou⟧⟦を→を：00422_wo⟧⟦{確認|かくにん}しよう→確認する：25332_kakuninsuru⟧。",
       "english": "The meeting will start. Let's check the documents before that.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "08502_sonomae_ex3",
-      "japanese": "その{前|まえ}の{週|しゅう}は{忙|いそが}しかった。",
+      "japanese": "その{前|まえ}⟦の→の：09472_no⟧⟦{週|しゅう}→週：03204_shuu⟧⟦は→は：00079_ha⟧⟦{忙|いそが}しかった→忙しい：00591_isogashii⟧。",
       "english": "The week before that was busy.",
       "sense_numbers": [
         1
@@ -43,7 +43,7 @@
       "notes": null
     }
   ],
-  "notes": "Compound of その (that) + {前|まえ} (before). Refers to the time period before a previously mentioned event.\n\nUSAGE:\n- Time: before that event — その{前|まえ}に{準備|じゅんび}する (prepare before that)\n- Position: in front of that — その{前|まえ}に{立|た}つ (stand in front of that)\n- Noun modifier: その{前|まえ}の + noun — その{前|まえ}の{週|しゅう} (the week before that)\n\nRELATED その + NOUN PATTERNS:\n- その{後|ご}/{後|あと}: after that\n- その{間|あいだ}: meanwhile, during that time\n- その{時|とき}: at that time\n- そのため: therefore, for that reason\n\nCONTRAST:\n- その{前|まえ}: before that (specific reference)\n- {以前|いぜん}: before, previously (more formal, can be vaguer)",
+  "notes": "Compound of ⟦その→その：00993_sono⟧ (that) + ⟦{前|まえ}→前：02255_mae⟧ (before). Refers to the time period before a previously mentioned event.\n\nUSAGE:\n- Time: before that event — その{前|まえ}⟦に→に：00314_ni⟧⟦{準備|じゅんび}する→準備する：22427_junbisuru⟧ (prepare before that)\n- Position: in front of that — その{前|まえ}⟦に→に：00314_ni⟧⟦{立|た}つ→立つ：00758_tatsu⟧ (stand in front of that)\n- Noun modifier: その{前|まえ}⟦の→の：09472_no⟧ + noun — その{前|まえ}⟦の→の：09472_no⟧⟦{週|しゅう}→週：03204_shuu⟧ (the week before that)\n\nRELATED その + NOUN PATTERNS:\n- ⟦その{後|ご}→その後：08501_sonogo⟧/⟦{後|あと}→後：09580_ato⟧: after that\n- ⟦その{間|あいだ}→その間：08503_sonoaida⟧: meanwhile, during that time\n- ⟦その→その：00993_sono⟧{時|とき}: at that time\n- ⟦そのため→そのため：08500_sonotame⟧: therefore, for that reason\n\nSIMILAR WORDS:\n- その{前|まえ}: before that (specific reference)\n- ⟦{以前|いぜん}→以前：01790_izen⟧: before, previously (more formal, can be vaguer)",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -52,12 +52,13 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "time-general"
       ]
     },
     "created": "2026-01-27T08:12:28Z",
-    "modified": "2026-06-22T12:50:00Z"
+    "modified": "2026-09-02T04:01:15Z"
   },
   "cross_references": [
     {
@@ -66,6 +67,13 @@
       "reading": "そのご",
       "headword": "その{後|ご}",
       "label": "after that"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01790_izen",
+      "reading": "いぜん",
+      "headword": "{以前|いぜん}",
+      "label": "before, previously"
     }
   ]
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24291_hesowomageru_ex1",
-      "japanese": "{彼|かれ}はすぐへそを{曲|ま}げる。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦すぐ→すぐ：00814_sugu⟧へそを{曲|ま}げる。",
       "english": "He gets offended easily.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24291_hesowomageru_ex2",
-      "japanese": "{冗談|じょうだん}を{言|い}ったら、へそを{曲|ま}げてしまった。",
+      "japanese": "⟦{冗談|じょうだん}→冗談：03347_joudan⟧⟦を→を：00422_wo⟧⟦{言|い}ったら→言う：00515_iu⟧、へそを{曲|ま}げてしまった。",
       "english": "I made a joke and she got offended.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24291_hesowomageru_ex3",
-      "japanese": "{子|こ}どもがへそを{曲|ま}げて{何|なに}を{言|い}っても{聞|き}かなくなってしまった。",
+      "japanese": "{子|こ}ども⟦が→が：00051_ga⟧へそを{曲|ま}げて⟦{何|なに}→何：00498_nani⟧⟦を→を：00422_wo⟧⟦{言|い}って→言う：00515_iu⟧⟦も→も：00484_mo⟧⟦{聞|き}かなく→聞く：00483_kiku⟧⟦なって→なる：01970_naru⟧しまった。",
       "english": "The child got sulky and wouldn't listen to anything anyone said.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "An idiomatic expression literally meaning 'to bend one's navel.' The image is that when one's center (へそ, navel) is bent or crooked, the person's attitude becomes twisted and uncooperative. Written in kanji as {臍|へそ}を{曲|ま}げる, but the hiragana spelling is more common.\n\nUSAGE:\n- Describes relatively mild, petty sulking rather than serious anger\n- Often used for children or people who get upset over small things\n- The expression implies the person's reaction is somewhat unreasonable or disproportionate\n- Can describe both the moment of getting offended and the resulting sulky state\n\nCOMMON COLLOCATIONS:\n- すぐへそを{曲|ま}げる: to get offended easily\n- へそを{曲|ま}げてしまう: to end up sulking\n- へそを{曲|ま}げた{顔|かお}: a sulky face\n- また へそを{曲|ま}げた: there they go sulking again\n\nSIMILAR WORDS:\n- すねる: to sulk; to pout — describes sulky behavior, often childish; less idiomatic\n- {機嫌|きげん}を{損|そこ}ねる: to offend someone; to put someone in a bad mood — focuses on the cause rather than the result\n- むくれる: to pout; to get sulky — casual, describes visibly pouty, unresponsive behavior",
+  "notes": "An idiomatic expression literally meaning 'to bend one's navel.' The image is that when one's center (へそ, navel) is bent or crooked, the person's attitude becomes twisted and uncooperative. Written in kanji as ⟦{臍|へそ}→臍：02247_heso⟧⟦を→を：00422_wo⟧⟦{曲|ま}げる→曲げる：02529_mageru⟧, but the hiragana spelling is more common.\n\nUSAGE:\n- Describes relatively mild, petty sulking rather than serious anger\n- Often used for children or people who get upset over small things\n- The expression implies the person's reaction is somewhat unreasonable or disproportionate\n- Can describe both the moment of getting offended and the resulting sulky state\n\nCOMMON COLLOCATIONS:\n- ⟦すぐ→すぐ：00814_sugu⟧へそを{曲|ま}げる: to get offended easily\n- へそを{曲|ま}げてしまう: to end up sulking\n- へそを{曲|ま}げた⟦{顔|かお}→顔：00558_kao⟧: a sulky face\n- ⟦また→また：00969_mata⟧ へそを{曲|ま}げた: there they go sulking again\n\nSIMILAR WORDS:\n- ⟦すねる→すねる：09364_suneru⟧: to sulk; to pout — describes sulky behavior, often childish; less idiomatic\n- ⟦{機嫌|きげん}を{損|そこ}ねる→機嫌を損ねる：18866_kigenwosokoneru⟧: to offend someone; to put someone in a bad mood — focuses on the cause rather than the result\n- むくれる: to pout; to get sulky — casual, describes visibly pouty, unresponsive behavior",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09364_suneru",
+      "reading": "すねる",
+      "headword": "すねる",
+      "label": "to sulk"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18866_kigenwosokoneru",
+      "reading": "きげんをそこねる",
+      "headword": "{機嫌|きげん}を{損|そこ}ねる",
+      "label": "to offend someone"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +76,6 @@
       "domain": []
     },
     "created": "2026-04-18T12:30:06Z",
-    "modified": "2026-08-02T18:32:34Z"
+    "modified": "2026-09-02T04:02:17Z"
   }
 }

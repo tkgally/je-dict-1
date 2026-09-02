@@ -20,7 +20,7 @@
   "examples": [
     {
       "id": "24426_supuringu_ex1",
-      "japanese": "マットレスのスプリングが{壊|こわ}れた。",
+      "japanese": "⟦マットレス→マットレス：07098_mattoresu⟧⟦の→の：09472_no⟧スプリング⟦が→が：00051_ga⟧⟦{壊|こわ}れた→壊れる：00791_kowareru⟧。",
       "english": "The mattress spring broke.",
       "sense_numbers": [
         1
@@ -30,7 +30,7 @@
     },
     {
       "id": "24426_supuringu_ex2",
-      "japanese": "ボールペンのスプリングを{交換|こうかん}する。",
+      "japanese": "⟦ボールペン→ボールペン：00691_boorupen⟧⟦の→の：09472_no⟧スプリング⟦を→を：00422_wo⟧⟦{交換|こうかん}→交換：02746_koukan⟧⟦する→する：00392_suru⟧。",
       "english": "To replace the spring of a ballpoint pen.",
       "sense_numbers": [
         1
@@ -40,7 +40,7 @@
     },
     {
       "id": "24426_supuringu_ex3",
-      "japanese": "この{椅子|いす}はスプリングが{効|き}いていて{座|すわ}り{心地|ごこち}がいい。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{椅子|いす}→椅子：00706_isu⟧⟦は→は：00079_ha⟧スプリング⟦が→が：00051_ga⟧⟦{効|き}いていて→効く：01932_kiku⟧⟦{座|すわ}り{心地|ごこち}→座り心地：10669_suwarigokochi⟧⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧。",
       "english": "This chair has good springs and is comfortable to sit in.",
       "sense_numbers": [
         1
@@ -50,7 +50,7 @@
     },
     {
       "id": "24426_supuringu_ex4",
-      "japanese": "スプリングコートを{羽織|はお}る。",
+      "japanese": "スプリング⟦コート→コート：01358_kooto⟧⟦を→を：00422_wo⟧⟦{羽織|はお}る→羽織る：13901_haoru⟧。",
       "english": "To put on a spring coat.",
       "sense_numbers": [
         2
@@ -60,7 +60,7 @@
     },
     {
       "id": "24426_supuringu_ex5",
-      "japanese": "スプリングセールが{始|はじ}まった。",
+      "japanese": "スプリング⟦セール→セール：07780_seeru⟧⟦が→が：00051_ga⟧⟦{始|はじ}まった→始まる：00841_hajimaru⟧。",
       "english": "The spring sale has started.",
       "sense_numbers": [
         2
@@ -70,7 +70,7 @@
     },
     {
       "id": "24426_supuringu_ex6",
-      "japanese": "スプリングコレクションの{新作|しんさく}が{入荷|にゅうか}しました。",
+      "japanese": "スプリング⟦コレクション→コレクション：07327_korekushon⟧⟦の→の：09472_no⟧⟦{新作|しんさく}→新作：09523_shinsaku⟧⟦が→が：00051_ga⟧⟦{入荷|にゅうか}→入荷：07939_nyuuka⟧⟦しました→する：00392_suru⟧。",
       "english": "New items from the spring collection have arrived.",
       "sense_numbers": [
         2
@@ -79,8 +79,31 @@
       "notes": null
     }
   ],
-  "notes": "A loanword from English \"spring.\" The coil/mechanical sense is the primary standalone usage. For the season, Japanese normally uses {春|はる}, but スプリング appears in fashion and commercial compounds where English loanwords add a modern or stylish feel.\n\nCOMMON COLLOCATIONS:\n- スプリングコート: spring coat (light outerwear)\n- スプリングセール: spring sale\n- スプリングマットレス: spring mattress\n- コイルスプリング: coil spring\n- スプリングが{効|き}く: the springs work well\n\nSIMILAR WORDS:\n- ばね ({発条|ばね}): spring — the native Japanese word for the mechanical device\n- {春|はる}: spring — the standard word for the season\n- コイル: coil — the shape, but not necessarily elastic",
+  "notes": "A loanword from English \"spring.\" The coil/mechanical sense is the primary standalone usage. For the season, Japanese normally uses ⟦{春|はる}→春：00627_haru⟧, but スプリング appears in fashion and commercial compounds where English loanwords add a modern or stylish feel.\n\nCOMMON COLLOCATIONS:\n- スプリング⟦コート→コート：01358_kooto⟧: spring coat (light outerwear)\n- スプリング⟦セール→セール：07780_seeru⟧: spring sale\n- スプリング⟦マットレス→マットレス：07098_mattoresu⟧: spring mattress\n- コイルスプリング: coil spring\n- スプリング⟦が→が：00051_ga⟧⟦{効|き}く→効く：01932_kiku⟧: the springs work well\n\nSIMILAR WORDS:\n- ば⟦ね→ね：09474_ne⟧ ({発条|ばね}): spring — the native Japanese word for the mechanical device\n- ⟦{春|はる}→春：00627_haru⟧: spring — the standard word for the season\n- ⟦コイル→コイル：27287_koiru⟧: coil — the shape, but not necessarily elastic",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00011_bane",
+      "reading": "ばね",
+      "headword": "ばね",
+      "label": "spring (coil)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00627_haru",
+      "reading": "はる",
+      "headword": "{春|はる}",
+      "label": "spring"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27287_koiru",
+      "reading": "こいる",
+      "headword": "コイル",
+      "label": "coil"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -94,6 +117,6 @@
       ]
     },
     "created": "2026-04-19T09:22:14Z",
-    "modified": "2026-04-19T09:22:14Z"
+    "modified": "2026-09-02T04:02:18Z"
   }
 }

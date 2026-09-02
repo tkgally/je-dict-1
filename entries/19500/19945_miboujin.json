@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "19945_miboujin_ex1",
-      "japanese": "{戦争|せんそう}{未亡人|みぼうじん}が{多|おお}かった。",
+      "japanese": "⟦{戦争|せんそう}→戦争：01450_sensou⟧{未亡人|みぼうじん}⟦が→が：00051_ga⟧⟦{多|おお}かった→多い：01127_ooi⟧。",
       "english": "There were many war widows.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "19945_miboujin_ex2",
-      "japanese": "{未亡人|みぼうじん}として{子供|こども}を{育|そだ}てた。",
+      "japanese": "{未亡人|みぼうじん}⟦として→として：06802_toshite⟧⟦{子供|こども}→子供：00554_kodomo⟧⟦を→を：00422_wo⟧⟦{育|そだ}てた→育てる：01235_sodateru⟧。",
       "english": "She raised the children as a widow.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "19945_miboujin_ex3",
-      "japanese": "{彼女|かのじょ}は{若|わか}くして{未亡人|みぼうじん}になり、{一人|ひとり}で{家|いえ}を{守|まも}ってきた。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧⟦{若|わか}く→若い：00823_wakai⟧⟦して→する：00392_suru⟧{未亡人|みぼうじん}⟦に→に：00314_ni⟧⟦なり→なる：01970_naru⟧、⟦{一人|ひとり}→一人：00630_hitori⟧⟦で→で：00502_de⟧⟦{家|いえ}→家：00612_ie⟧⟦を→を：00422_wo⟧⟦{守|まも}って→守る：01986_mamoru⟧きた。",
       "english": "She became a widow at a young age and has kept the household together on her own.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "The literal characters mean \"person who has not yet died\" ({未|み} = not yet, {亡|ぼう} = dead, {人|じん} = person), reflecting the old idea that a wife should follow her husband in death. Because of this etymology, some consider the word outdated or problematic. In modern usage, alternatives like {夫|おっと}を{亡|な}くした{女性|じょせい} (a woman who lost her husband) are sometimes preferred in formal or sensitive contexts.\n\nUSAGE NOTE:\nStill widely understood and used in literature, news, and everyday conversation. However, be aware of its traditional connotations when writing formally.\n\nRELATED TERMS:\n- やもめ: widow or widower — gender-neutral in modern usage\n- {寡婦|かふ}: widow — legal/formal term\n- {遺族|いぞく}: bereaved family — broader term",
+  "notes": "The literal characters mean \"person who has not yet died\" (⟦{未|み}→未〜：00277_mi⟧ = not yet, {亡|ぼう} = dead, ⟦{人|じん}→〜人：09849_jin⟧ = person), reflecting the old idea that a wife should follow her husband in death. Because of this etymology, some consider the word outdated or problematic. In modern usage, alternatives like ⟦{夫|おっと}→夫：00982_otto⟧⟦を→を：00422_wo⟧⟦{亡|な}くした→亡くす：30483_nakusu⟧⟦{女性|じょせい}→女性：01617_josei⟧ (a woman who lost her husband) are sometimes preferred in formal or sensitive contexts.\n\nUSAGE:\nStill widely understood and used in literature, news, and everyday conversation. However, be aware of its traditional connotations when writing formally.\n\nRELATED WORDS:\n- やもめ: widow or widower — gender-neutral in modern usage\n- {寡婦|かふ}: widow — legal/formal term\n- ⟦{遺族|いぞく}→遺族：14886_izoku⟧: bereaved family — broader term",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "14886_izoku",
+      "reading": "いぞく",
+      "headword": "{遺族|いぞく}",
+      "label": "bereaved family"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +68,6 @@
       ]
     },
     "created": "2026-03-27T06:09:33Z",
-    "modified": "2026-07-27T12:42:09Z"
+    "modified": "2026-09-02T04:01:57Z"
   }
 }

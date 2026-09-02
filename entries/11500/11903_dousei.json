@@ -2,7 +2,7 @@
   "id": "11903_dousei",
   "headword": "{同棲|どうせい}",
   "reading": "どうせい",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "cohabitation, living together",
   "conjugation": {
     "type": "suru",
@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "11903_dousei_ex1",
-      "japanese": "{二人|ふたり}は{同棲|どうせい}を{始|はじ}めた。",
+      "japanese": "⟦{二人|ふたり}→二人：00622_futari⟧⟦は→は：00079_ha⟧{同棲|どうせい}⟦を→を：00422_wo⟧⟦{始|はじ}めた→始める：00531_hajimeru⟧。",
       "english": "The two of them started living together.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "11903_dousei_ex2",
-      "japanese": "{結婚|けっこん}{前|まえ}に{同棲|どうせい}するカップルが{増|ふ}えている。",
+      "japanese": "⟦{結婚|けっこん}→結婚：02514_kekkon⟧⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧{同棲|どうせい}⟦する→する：00392_suru⟧⟦カップル→カップル：19414_kappuru⟧⟦が→が：00051_ga⟧⟦{増|ふ}えている→増える：01183_fueru⟧。",
       "english": "More and more couples are living together before getting married.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "11903_dousei_ex3",
-      "japanese": "{彼女|かのじょ}と{同棲|どうせい}して{初|はじ}めて、{生活|せいかつ}{習慣|しゅうかん}の{違|ちが}いに{気|き}づいた。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦と→と：00512_to⟧{同棲|どうせい}⟦して→する：00392_suru⟧⟦{初|はじ}めて→初めて：02932_hajimete⟧、⟦{生活|せいかつ}{習慣|しゅうかん}→生活習慣：19568_seikatsushuukan⟧⟦の→の：09472_no⟧⟦{違|ちが}い→違い：03432_chigai⟧⟦に→に：00314_ni⟧{気|き}づいた。",
       "english": "It wasn't until I moved in with my girlfriend that I noticed the differences in our daily habits.",
       "notes": null,
       "has_audio": false,
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "COMMON COLLOCATIONS:\n・{同棲|どうせい}を{始|はじ}める (start living together)\n・{同棲|どうせい}{生活|せいかつ} (life of cohabitation)\n・{同棲|どうせい}{相手|あいて} (live-in partner)\n・{同棲|どうせい}を{解消|かいしょう}する (end cohabitation, move out)\n\nWhile becoming more socially accepted, cohabitation before marriage still carries some stigma in traditional contexts in Japan. The word specifically implies a romantic relationship — for non-romantic shared living, {同居|どうきょ} or ルームシェア is used instead.",
+  "notes": "COMMON COLLOCATIONS:\n- {同棲|どうせい}⟦を→を：00422_wo⟧{始|はじ}める (start living together)\n- {同棲|どうせい}⟦{生活|せいかつ}→生活：01443_seikatsu⟧ (life of cohabitation)\n- {同棲|どうせい}⟦{相手|あいて}→相手：01677_aite⟧ (live-in partner)\n- {同棲|どうせい}⟦を→を：00422_wo⟧⟦{解消|かいしょう}する→解消する：21324_kaishousuru⟧ (end cohabitation, move out)\n\nWhile becoming more socially accepted, cohabitation before marriage still carries some stigma in traditional contexts in Japan. The word specifically implies a romantic relationship — for non-romantic shared living, ⟦{同居|どうきょ}→同居：09730_doukyo⟧ or ⟦ルームシェア→ルームシェア：09731_ruumushea⟧ is used instead.",
   "cross_references": [
     {
       "type": "contrast",
@@ -148,11 +148,32 @@
       "headword": "{別居|べっきょ}",
       "label": "living apart",
       "target_id": "11879_bekkyo"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09731_ruumushea",
+      "reading": "るーむしぇあ",
+      "headword": "ルームシェア",
+      "label": "room sharing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24978_kyoudouseikatsu",
+      "reading": "きょうどうせいかつ",
+      "headword": "{共同生活|きょうどうせいかつ}",
+      "label": "communal living"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25710_naien",
+      "reading": "ないえん",
+      "headword": "{内縁|ないえん}",
+      "label": "common-law marriage"
     }
   ],
   "metadata": {
     "created": "2026-02-18T14:06:25Z",
-    "modified": "2026-08-15T21:27:10Z",
+    "modified": "2026-09-02T04:01:26Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",

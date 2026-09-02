@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "16874_ijou_ex1",
-      "japanese": "{権限|けんげん}の{移譲|いじょう}が{行|おこな}われた。",
+      "japanese": "⟦{権限|けんげん}→権限：10600_kengen⟧⟦の→の：09472_no⟧{移譲|いじょう}⟦が→が：00051_ga⟧⟦{行|おこな}われた→行う：01238_okonau⟧。",
       "english": "A transfer of authority was carried out.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "16874_ijou_ex2",
-      "japanese": "{主権|しゅけん}の{移譲|いじょう}は{慎重|しんちょう}に{進|すす}める{必要|ひつよう}がある。",
+      "japanese": "⟦{主権|しゅけん}→主権：18294_shuken⟧⟦の→の：09472_no⟧{移譲|いじょう}⟦は→は：00079_ha⟧⟦{慎重|しんちょう}→慎重：03264_shinchou⟧⟦に→に：00314_ni⟧⟦{進|すす}める→進める：01949_susumeru⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "The transfer of sovereignty must be carried out carefully.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "16874_ijou_ex3",
-      "japanese": "{中央|ちゅうおう}から{地方|ちほう}への{権限|けんげん}{移譲|いじょう}が{議論|ぎろん}されている。",
+      "japanese": "⟦{中央|ちゅうおう}→中央：03475_chuuou⟧⟦から→から：00504_kara⟧⟦{地方|ちほう}→地方：02369_chihou⟧⟦へ→へ：02473_he⟧⟦の→の：09472_no⟧{権限|けんげん}{移譲|いじょう}⟦が→が：00051_ga⟧⟦{議論|ぎろん}→議論：02650_giron⟧⟦されている→する：00392_suru⟧。",
       "english": "The transfer of authority from central to local government is being discussed.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,26 @@
       ]
     }
   ],
-  "notes": "A formal term for the official transfer of rights, authority, or property. Used in political, legal, and business contexts.\n\nTRANSITIVITY:\n- {移譲|いじょう}する is transitive: {権限|けんげん}を{移譲|いじょう}する\n- Passive common: {権限|けんげん}が{移譲|いじょう}される\n\nCOMMON COLLOCATIONS:\n- {権限|けんげん}{移譲|いじょう}: transfer of authority (devolution)\n- {主権|しゅけん}の{移譲|いじょう}: transfer of sovereignty\n- {技術|ぎじゅつ}{移譲|いじょう}: technology transfer\n- {財産|ざいさん}の{移譲|いじょう}: transfer of property\n\nSIMILAR WORDS:\n- {委譲|いじょう}: delegation (of authority — same reading, different nuance)\n- {譲渡|じょうと}: transfer, conveyance (more common for property/assets)\n- {引|ひ}き{渡|わた}し: handover (more concrete, physical)\n\nREGISTER:\nFormal/written. Common in political discourse, particularly regarding {地方分権|ちほうぶんけん} (decentralization) in Japan.",
-  "cross_references": [],
+  "notes": "A formal term for the official transfer of rights, authority, or property. Used in political, legal, and business contexts.\n\nTRANSITIVITY:\n- {移譲|いじょう}⟦する→する：00392_suru⟧ is transitive: ⟦{権限|けんげん}→権限：10600_kengen⟧⟦を→を：00422_wo⟧{移譲|いじょう}⟦する→する：00392_suru⟧\n- Passive common: ⟦{権限|けんげん}→権限：10600_kengen⟧⟦が→が：00051_ga⟧{移譲|いじょう}⟦される→する：00392_suru⟧\n\nCOMMON COLLOCATIONS:\n- {権限|けんげん}{移譲|いじょう}: transfer of authority (devolution)\n- ⟦{主権|しゅけん}→主権：18294_shuken⟧⟦の→の：09472_no⟧{移譲|いじょう}: transfer of sovereignty\n- ⟦{技術|ぎじゅつ}→技術：01389_gijutsu⟧{移譲|いじょう}: technology transfer\n- ⟦{財産|ざいさん}→財産：01635_zaisan⟧⟦の→の：09472_no⟧{移譲|いじょう}: transfer of property\n\nSIMILAR WORDS:\n- ⟦{委譲|いじょう}→委譲：12372_ijou⟧: delegation (of authority — same reading, different nuance)\n- ⟦{譲渡|じょうと}→譲渡：15629_jouto⟧: transfer, conveyance (more common for property/assets)\n- ⟦{引|ひ}き{渡|わた}し→引き渡し：30090_hikiwatashi⟧: handover (more concrete, physical)\n\nREGISTER:\nFormal/written. Common in political discourse, particularly regarding {地方分権|ちほうぶんけん} (decentralization) in Japan.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15629_jouto",
+      "reading": "じょうと",
+      "headword": "{譲渡|じょうと}",
+      "label": "transfer, conveyance"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30090_hikiwatashi",
+      "reading": "ひきわたし",
+      "headword": "{引|ひ}き{渡|わた}し",
+      "label": "handover"
+    }
+  ],
   "metadata": {
     "created": "2026-03-15T00:18:56Z",
-    "modified": "2026-04-10T06:37:10Z",
+    "modified": "2026-09-02T04:01:46Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

@@ -3,7 +3,7 @@
   "headword": "{出航|しゅっこう}",
   "reading": "しゅっこう",
   "romaji": "shukkou",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "setting sail; departure (of a ship or aircraft)",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30231_shukkou_ex1",
-      "japanese": "{船|ふね}が{出航|しゅっこう}した。",
+      "japanese": "⟦{船|ふね}→船：00775_fune⟧⟦が→が：00051_ga⟧{出航|しゅっこう}⟦した→する：00392_suru⟧。",
       "english": "The ship set sail.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30231_shukkou_ex2",
-      "japanese": "{台風|たいふう}のため{出航|しゅっこう}が{延期|えんき}された。",
+      "japanese": "⟦{台風|たいふう}→台風：01455_taifuu⟧⟦の→の：09472_no⟧⟦ため→ため：01145_tame⟧{出航|しゅっこう}⟦が→が：00051_ga⟧⟦{延期|えんき}→延期：01888_enki⟧⟦された→する：00392_suru⟧。",
       "english": "The departure was postponed because of the typhoon.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30231_shukkou_ex3",
-      "japanese": "{朝|あさ}の{九時|くじ}に{出航|しゅっこう}する{予定|よてい}なので、{一時間前|いちじかんまえ}には{乗|の}ってください。",
+      "japanese": "⟦{朝|あさ}→朝：02277_asa⟧⟦の→の：09472_no⟧⟦{九時|くじ}→九時：10980_kuji⟧⟦に→に：00314_ni⟧{出航|しゅっこう}⟦する→する：00392_suru⟧⟦{予定|よてい}→予定：00824_yotei⟧な⟦の→の：09472_no⟧で、{一時間前|いちじかんまえ}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{乗|の}って→乗る：00511_noru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "We are scheduled to sail at nine in the morning, so please board an hour beforehand.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "{出|しゅつ} (go out) + {航|こう} (voyage, navigation). Used as a noun and with する.\n\nCOMMON COLLOCATIONS:\n- {出航|しゅっこう}する: to set sail\n- {出航|しゅっこう}{時刻|じこく}: departure time\n- {出航|しゅっこう}を{見合|みあ}わせる: to hold off on sailing\n\nSIMILAR WORDS:\n- {出港|しゅっこう}: leaving port — a homophone that focuses on the ship leaving the harbor itself; often interchangeable in practice\n- {出発|しゅっぱつ}: departure — the general word, used for any traveler or vehicle\n- {入港|にゅうこう}: entering port — the opposite movement",
+  "notes": "{出|しゅつ} (go out) + {航|こう} (voyage, navigation). Used as a noun and with ⟦する→する：00392_suru⟧.\n\nCOMMON COLLOCATIONS:\n- {出航|しゅっこう}⟦する→する：00392_suru⟧: to set sail\n- {出航|しゅっこう}⟦{時刻|じこく}→時刻：03270_jikoku⟧: departure time\n- {出航|しゅっこう}⟦を→を：00422_wo⟧⟦{見合|みあ}わせる→見合わせる：09450_miawaseru⟧: to hold off on sailing\n\nSIMILAR WORDS:\n- ⟦{出港|しゅっこう}→出港：11764_shukkou⟧: leaving port — a homophone that focuses on the ship leaving the harbor itself; often interchangeable in practice\n- ⟦{出発|しゅっぱつ}→出発：02085_shuppatsu⟧: departure — the general word, used for any traveler or vehicle\n- ⟦{入港|にゅうこう}→入港：14771_nyuukou⟧: entering port — the opposite movement",
   "cross_references": [
     {
       "type": "homophone",
@@ -57,6 +57,13 @@
       "target_id": "02085_shuppatsu",
       "reading": "しゅっぱつ",
       "headword": "{出発|しゅっぱつ}"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14771_nyuukou",
+      "reading": "にゅうこう",
+      "headword": "{入港|にゅうこう}",
+      "label": "entering port"
     }
   ],
   "schema_version": "2.0",
@@ -68,16 +75,17 @@
         "verb-suru"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "transportation",
         "movement"
       ],
       "domain": [],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     },
     "created": "2026-07-29T18:17:31Z",
-    "modified": "2026-07-29T18:17:31Z"
+    "modified": "2026-09-02T04:02:39Z"
   },
   "conjugation": {
     "type": "suru",

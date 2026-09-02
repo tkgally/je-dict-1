@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30668_gotoni_ex1",
-      "japanese": "{三時間|さんじかん}ごとに{薬|くすり}を{飲|の}む。",
+      "japanese": "⟦{三時間|さんじかん}→三時間：30478_sanjikan⟧ごとに⟦{薬|くすり}→薬：00793_kusuri⟧⟦を→を：00422_wo⟧⟦{飲|の}む→飲む：00322_nomu⟧。",
       "english": "I take the medicine every three hours.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30668_gotoni_ex2",
-      "japanese": "{会|あ}うごとに{彼|かれ}は{元気|げんき}になっていく。",
+      "japanese": "⟦{会|あ}う→会う：00482_au⟧ごとに⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{元気|げんき}→元気：00696_genki⟧になっていく。",
       "english": "Every time I see him he seems healthier.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30668_gotoni_ex3",
-      "japanese": "{駅|えき}ごとに{乗客|じょうきゃく}が{降|お}りていき、{車内|しゃない}はしだいに{静|しず}かになった。",
+      "japanese": "⟦{駅|えき}→駅：02180_eki⟧ごとに⟦{乗客|じょうきゃく}→乗客：03284_joukyaku⟧⟦が→が：00051_ga⟧⟦{降|お}りて→降りる：00568_oriru⟧いき、⟦{車内|しゃない}→車内：06203_shanai⟧⟦は→は：00079_ha⟧しだい⟦に→に：00314_ni⟧⟦{静|しず}か→静か：00755_shizuka⟧になった。",
       "english": "Passengers got off at each station, and the train gradually grew quiet.",
       "sense_numbers": [
         1
@@ -44,13 +44,20 @@
       "notes": null
     }
   ],
-  "notes": "Distributive: it picks out every member of a set, one after another, without skipping any.\n\nCOMMON PATTERNS:\n- {一年|いちねん}ごとに: every year, at one-year intervals\n- {人|ひと}ごとに{違|ちが}う: to differ from person to person\n- {日|ひ}ごとに{寒|さむ}くなる: to grow colder day by day\n\nCOMMON MISTAKE — ごとに vs おきに:\nおきに means \"skipping one in between,\" so the two are easy to confuse:\n- {一日|いちにち}ごとに = every day (each and every one)\n- {一日|いちにち}おきに = every other day (one day on, one day off)",
+  "notes": "Distributive: it picks out every member of a set, one after another, without skipping any.\n\nCOMMON PATTERNS:\n- ⟦{一年|いちねん}→一年：10994_ichinen⟧ごとに: every year, at one-year intervals\n- {人|ひと}ごとに⟦{違|ちが}う→違う：01957_chigau⟧: to differ from person to person\n- {日|ひ}ごとに⟦{寒|さむ}く→寒い：00664_samui⟧⟦なる→なる：01970_naru⟧: to grow colder day by day\n\nCOMMON MISTAKE — ごとに vs おき⟦に→に：00314_ni⟧:\nおき⟦に→に：00314_ni⟧ means \"skipping one in between,\" so the two are easy to confuse:\n- ⟦{一日|いちにち}→一日：00942_ichinichi⟧ごとに = every day (each and every one)\n- ⟦{一日|いちにち}→一日：00942_ichinichi⟧おき⟦に→に：00314_ni⟧ = every other day (one day on, one day off)",
   "cross_references": [
     {
       "type": "contrast",
       "reading": "おきに",
       "headword": "おきに",
       "label": "every other"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22222_tabini",
+      "reading": "たびに",
+      "headword": "たびに",
+      "label": "every time"
     }
   ],
   "schema_version": "2.0",
@@ -61,13 +68,13 @@
         "suffix"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "grammatical"
       ],
       "domain": []
     },
     "created": "2026-08-15T12:20:22Z",
-    "modified": "2026-08-15T12:20:22Z"
+    "modified": "2026-09-02T04:02:41Z"
   }
 }

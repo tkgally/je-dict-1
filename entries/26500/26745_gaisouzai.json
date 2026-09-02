@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26745_gaisouzai_ex1",
-      "japanese": "{外装材|がいそうざい}の{色|いろ}を{選|えら}ぶ。",
+      "japanese": "{外装材|がいそうざい}⟦の→の：09472_no⟧⟦{色|いろ}→色：00849_iro⟧⟦を→を：00422_wo⟧⟦{選|えら}ぶ→選ぶ：00835_erabu⟧。",
       "english": "Choose the color of the exterior material.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26745_gaisouzai_ex2",
-      "japanese": "{耐久性|たいきゅうせい}の{高|たか}い{外装材|がいそうざい}を{使|つか}うことが{大切|たいせつ}だ。",
+      "japanese": "⟦{耐久性|たいきゅうせい}→耐久性：20042_taikyuusei⟧⟦の→の：09472_no⟧⟦{高|たか}い→高い：00500_takai⟧{外装材|がいそうざい}⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧こと⟦が→が：00051_ga⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧だ。",
       "english": "It is important to use highly durable exterior materials.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26745_gaisouzai_ex3",
-      "japanese": "{台風|たいふう}で{外装材|がいそうざい}の{一部|いちぶ}が{剥|は}がれたので、{業者|ぎょうしゃ}に{修理|しゅうり}を{依頼|いらい}した。",
+      "japanese": "⟦{台風|たいふう}→台風：01455_taifuu⟧⟦で→で：00502_de⟧{外装材|がいそうざい}⟦の→の：09472_no⟧⟦{一部|いちぶ}→一部：06783_ichibu⟧⟦が→が：00051_ga⟧⟦{剥|は}がれた→剥がれる：04363_hagareru⟧⟦の→の：09472_no⟧で、⟦{業者|ぎょうしゃ}→業者：13130_gyousha⟧⟦に→に：00314_ni⟧⟦{修理|しゅうり}→修理：03214_shuuri⟧⟦を→を：00422_wo⟧⟦{依頼|いらい}した→依頼する：21376_irai⟧。",
       "english": "Part of the exterior cladding came off in the typhoon, so we asked a contractor to repair it.",
       "sense_numbers": [
         1
@@ -44,8 +44,23 @@
       "notes": null
     }
   ],
-  "notes": "A construction term composed of {外装|がいそう} (exterior finish) and {材|ざい} (material). Common exterior materials in Japan include サイディング (siding panels), タイル (tiles), {漆喰|しっくい} (plaster), and {板張|いたば}り (wood cladding).\n\nCOMMON COLLOCATIONS:\n- {外装材|がいそうざい}の{張|は}り{替|か}え: replacing exterior cladding\n- {外装材|がいそうざい}の{選定|せんてい}: selection of exterior materials\n- {金属|きんぞく}{外装材|がいそうざい}: metal cladding\n- {外装材|がいそうざい}メーカー: exterior material manufacturer\n\nRELATED TERMS:\n- {外壁|がいへき}: exterior wall — the wall itself, not just the surface material\n- {内装材|ないそうざい}: interior material — the counterpart for indoor finishes\n- {外装|がいそう}: exterior finish — the broader concept including design and construction",
-  "cross_references": [],
+  "notes": "A construction term composed of ⟦{外装|がいそう}→外装：18662_gaisou⟧ (exterior finish) and ⟦{材|ざい}→〜材：28347_zai⟧ (material). Common exterior materials in Japan include ⟦サイディング→サイディング：29717_saidingu⟧ (siding panels), ⟦タイル→タイル：29719_tairu⟧ (tiles), {漆喰|しっくい} (plaster), and {板張|いたば}り (wood cladding).\n\nCOMMON COLLOCATIONS:\n- {外装材|がいそうざい}⟦の→の：09472_no⟧{張|は}り{替|か}え: replacing exterior cladding\n- {外装材|がいそうざい}⟦の→の：09472_no⟧⟦{選定|せんてい}→選定：14452_sentei⟧: selection of exterior materials\n- ⟦{金属|きんぞく}→金属：02645_kinzoku⟧{外装材|がいそうざい}: metal cladding\n- {外装材|がいそうざい}⟦メーカー→メーカー：11158_meekaa⟧: exterior material manufacturer\n\nRELATED WORDS:\n- ⟦{外壁|がいへき}→外壁：06426_gaiheki⟧: exterior wall — the wall itself, not just the surface material\n- ⟦{内装材|ないそうざい}→内装材：29250_naisouzai⟧: interior material — the counterpart for indoor finishes\n- ⟦{外装|がいそう}→外装：18662_gaisou⟧: exterior finish — the broader concept including design and construction",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "06426_gaiheki",
+      "reading": "がいへき",
+      "headword": "{外壁|がいへき}",
+      "label": "exterior wall"
+    },
+    {
+      "type": "related",
+      "target_id": "29250_naisouzai",
+      "reading": "ないそうざい",
+      "headword": "{内装材|ないそうざい}",
+      "label": "interior material"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -63,6 +78,6 @@
       ]
     },
     "created": "2026-05-04T15:33:30Z",
-    "modified": "2026-05-04T15:33:30Z"
+    "modified": "2026-09-02T04:02:27Z"
   }
 }

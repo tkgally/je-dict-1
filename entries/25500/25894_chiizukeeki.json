@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "25894_chiizukeeki_ex1",
-      "japanese": "チーズケーキを{一|ひと}つください。",
+      "japanese": "チーズケーキ⟦を→を：00422_wo⟧⟦{一|ひと}つ→一つ：02948_hitotsu⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "One cheesecake, please.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "25894_chiizukeeki_ex2",
-      "japanese": "このカフェのチーズケーキは{濃厚|のうこう}で{美味|おい}しい。",
+      "japanese": "⟦この→この：00962_kono⟧⟦カフェ→カフェ：06767_kafe⟧⟦の→の：09472_no⟧チーズケーキ⟦は→は：00079_ha⟧⟦{濃厚|のうこう}→濃厚：07905_noukou⟧で⟦{美味|おい}しい→美味しい：00740_oishii⟧。",
       "english": "This café's cheesecake is rich and delicious.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "25894_chiizukeeki_ex3",
-      "japanese": "{誕生日|たんじょうび}に{手作|てづく}りのチーズケーキを{焼|や}いてプレゼントした。",
+      "japanese": "⟦{誕生日|たんじょうび}→誕生日：02910_tanjoubi⟧⟦に→に：00314_ni⟧⟦{手作|てづく}り→手作り：08300_tezukuri⟧⟦の→の：09472_no⟧チーズケーキ⟦を→を：00422_wo⟧⟦{焼|や}いて→焼く：01123_yaku⟧⟦プレゼント→プレゼント：01791_purezento⟧⟦した→する：00392_suru⟧。",
       "english": "I baked a homemade cheesecake as a birthday present.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "From English \"cheesecake.\" An extremely popular dessert in Japan, found in cafés, convenience stores, and patisseries. Japan distinguishes several types that learners will encounter on menus.\n\nTYPES:\n- ベイクドチーズケーキ: baked cheesecake — dense and rich, the classic Western style\n- レアチーズケーキ: no-bake cheesecake — lighter, chilled, not baked\n- スフレチーズケーキ: soufflé cheesecake — light and fluffy, a Japanese specialty\n- バスクチーズケーキ: Basque cheesecake — caramelized top, became a major trend in Japan\n\nCOMMON COLLOCATIONS:\n- チーズケーキを{焼|や}く: to bake a cheesecake\n- {濃厚|のうこう}なチーズケーキ: rich cheesecake\n- チーズケーキ{専門店|せんもんてん}: cheesecake specialty shop\n\nSIMILAR WORDS:\n- ショートケーキ: shortcake — Japan's most iconic cake, a sponge cake with strawberries and cream\n- ティラミス: tiramisu — another popular cream-based Western dessert\n- タルト: tart — pastry-based dessert, sometimes with cheese filling",
+  "notes": "From English \"cheesecake.\" An extremely popular dessert in Japan, found in cafés, convenience stores, and patisseries. Japan distinguishes several types that learners will encounter on menus.\n\nTYPES:\n- ベイクドチーズケーキ: baked cheesecake — dense and rich, the classic Western style\n- レアチーズケーキ: no-bake cheesecake — lighter, chilled, not baked\n- スフレチーズケーキ: soufflé cheesecake — light and fluffy, a Japanese specialty\n- バスクチーズケーキ: Basque cheesecake — caramelized top, became a major trend in Japan\n\nCOMMON COLLOCATIONS:\n- チーズケーキ⟦を→を：00422_wo⟧⟦{焼|や}く→焼く：01123_yaku⟧: to bake a cheesecake\n- ⟦{濃厚|のうこう}→濃厚：07905_noukou⟧なチーズケーキ: rich cheesecake\n- チーズケーキ⟦{専門店|せんもんてん}→専門店：15924_senmonten⟧: cheesecake specialty shop\n\nSIMILAR WORDS:\n- ⟦ショートケーキ→ショートケーキ：27694_shootokeeki⟧: shortcake — Japan's most iconic cake, a sponge cake with strawberries and cream\n- ティラミス: tiramisu — another popular cream-based Western dessert\n- ⟦タルト→タルト：27311_taruto⟧: tart — pastry-based dessert, sometimes with cheese filling",
   "cross_references": [
     {
       "type": "related",
@@ -53,16 +59,36 @@
       "reading": "けーき",
       "headword": "ケーキ",
       "label": "cake (compound base)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27694_shootokeeki",
+      "reading": "しょーとけーき",
+      "headword": "ショートケーキ",
+      "label": "shortcake"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27311_taruto",
+      "reading": "たると",
+      "headword": "タルト",
+      "label": "tart"
     }
   ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["food"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "food"
+      ]
     },
     "created": "2026-04-28T11:25:22Z",
-    "modified": "2026-05-09T00:37:10Z"
+    "modified": "2026-09-02T04:02:24Z"
   }
 }

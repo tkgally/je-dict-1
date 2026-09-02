@@ -34,7 +34,7 @@
     },
     {
       "id": "01474_denpou_ex3",
-      "japanese": "{急用|きゅうよう}を{知|し}らせるため、{父|ちち}から{電報|でんぽう}が{届|とど}いた。",
+      "japanese": "{急用|きゅうよう}⟦を→を：00422_wo⟧⟦{知|し}らせる→知る：00458_shiru⟧⟦ため→ため：01145_tame⟧、⟦{父|ちち}→父：00566_chichi⟧⟦から→から：00504_kara⟧{電報|でんぽう}⟦が→が：00051_ga⟧⟦{届|とど}いた→届く：00899_todoku⟧。",
       "english": "A telegram arrived from my father to let me know about an urgent matter.",
       "notes": null,
       "has_audio": false,
@@ -43,11 +43,26 @@
       ]
     }
   ],
-  "notes": "{電報|でんぽう} refers to telegrams, which are still used in Japan for formal occasions.\n\nCOMMON EXPRESSIONS:\n- {電報|でんぽう}⟦を→を：00422_wo⟧⟦{送|おく}る→送る：00742_okuru⟧/⟦{打|う}つ→打つ：01221_utsu⟧: to send a telegram\n- {電報|でんぽう}⟦が→が：00051_ga⟧⟦{届|とど}く→届く：00899_todoku⟧: telegram arrives\n- {電報|でんぽう}⟦を→を：00422_wo⟧⟦{受|う}け{取|と}る→受け取る：01883_uketoru⟧: to receive a telegram\n\nTYPES:\n- ⟦{祝電|しゅくでん}→祝電：22862_shukuden⟧: congratulatory telegram (weddings, etc.)\n- ⟦{弔電|ちょうでん}→弔電：22863_chouden⟧: condolence telegram (funerals)\n\nCULTURE:\nWhile telegrams are obsolete for everyday communication, they remain important for formal Japanese occasions. Sending a ⟦{祝電|しゅくでん}→祝電：22862_shukuden⟧ to weddings is still a common practice.\n\nNote: NTT still offers telegram services in Japan.",
-  "cross_references": [],
+  "notes": "{電報|でんぽう} refers to telegrams, which are still used in Japan for formal occasions.\n\nCOMMON EXPRESSIONS:\n- {電報|でんぽう}⟦を→を：00422_wo⟧⟦{送|おく}る→送る：00742_okuru⟧/⟦{打|う}つ→打つ：01221_utsu⟧: to send a telegram\n- {電報|でんぽう}⟦が→が：00051_ga⟧⟦{届|とど}く→届く：00899_todoku⟧: telegram arrives\n- {電報|でんぽう}⟦を→を：00422_wo⟧⟦{受|う}け{取|と}る→受け取る：01883_uketoru⟧: to receive a telegram\n\nTYPES:\n- ⟦{祝電|しゅくでん}→祝電：22862_shukuden⟧: congratulatory telegram (weddings, etc.)\n- ⟦{弔電|ちょうでん}→弔電：22863_chouden⟧: condolence telegram (funerals)\n\nCULTURAL NOTE:\nWhile telegrams are obsolete for everyday communication, they remain important for formal Japanese occasions. Sending a ⟦{祝電|しゅくでん}→祝電：22862_shukuden⟧ to weddings is still a common practice.\n\nNote: NTT still offers telegram services in Japan.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22862_shukuden",
+      "reading": "しゅくでん",
+      "headword": "{祝電|しゅくでん}",
+      "label": "congratulatory telegram"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22884_daden",
+      "reading": "だでん",
+      "headword": "{打電|だでん}",
+      "label": "sending a telegram"
+    }
+  ],
   "metadata": {
     "created": "2026-01-08T12:20:37Z",
-    "modified": "2026-06-12T12:41:12Z",
+    "modified": "2026-09-02T04:00:59Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

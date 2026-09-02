@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "17913_denchuu_ex1",
-      "japanese": "{電柱|でんちゅう}に{車|くるま}がぶつかった。",
+      "japanese": "{電柱|でんちゅう}⟦に→に：00314_ni⟧⟦{車|くるま}→車：00516_kuruma⟧⟦が→が：00051_ga⟧⟦ぶつかった→ぶつかる：02412_butsukaru⟧。",
       "english": "A car crashed into a utility pole.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "17913_denchuu_ex2",
-      "japanese": "この{通|とお}りには{電柱|でんちゅう}が{多|おお}すぎる。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{通|とお}り→通り：01475_toori⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{電柱|でんちゅう}⟦が→が：00051_ga⟧{多|おお}すぎる。",
       "english": "There are too many utility poles on this street.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "17913_denchuu_ex3",
-      "japanese": "{市|し}は{景観|けいかん}{改善|かいぜん}のために{電柱|でんちゅう}の{地中化|ちちゅうか}を{進|すす}めている。",
+      "japanese": "⟦{市|し}→市：01599_shi⟧⟦は→は：00079_ha⟧⟦{景観|けいかん}→景観：12976_keikan⟧⟦{改善|かいぜん}→改善：00144_kaizen⟧⟦の→の：09472_no⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧{電柱|でんちゅう}⟦の→の：09472_no⟧{地中化|ちちゅうか}⟦を→を：00422_wo⟧⟦{進|すす}めている→進める：01949_susumeru⟧。",
       "english": "The city is promoting the undergrounding of utility poles to improve the landscape.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nUtility poles are a distinctive feature of Japanese cityscapes. In recent years, there has been a movement to bury power lines underground ({無電柱化|むでんちゅうか} or {電柱|でんちゅう}の{地中化|ちちゅうか}) to improve aesthetics and disaster resilience. The word covers both power poles and telephone poles.\n\nCOMMON COLLOCATIONS:\n- {電柱|でんちゅう}の{地中化|ちちゅうか} (undergrounding of utility poles)\n- {電柱|でんちゅう}にぶつかる (to crash into a pole)\n- {電柱|でんちゅう}が{立|た}つ (a pole stands)",
+  "notes": "USAGE:\nUtility poles are a distinctive feature of Japanese cityscapes. In recent years, there has been a movement to bury power lines underground ({無電柱化|むでんちゅうか} or {電柱|でんちゅう}⟦の→の：09472_no⟧{地中化|ちちゅうか}) to improve aesthetics and disaster resilience. The word covers both power poles and telephone poles.\n\nCOMMON COLLOCATIONS:\n- {電柱|でんちゅう}⟦の→の：09472_no⟧{地中化|ちちゅうか} (undergrounding of utility poles)\n- {電柱|でんちゅう}⟦に→に：00314_ni⟧⟦ぶつかる→ぶつかる：02412_butsukaru⟧ (to crash into a pole)\n- {電柱|でんちゅう}⟦が→が：00051_ga⟧⟦{立|た}つ→立つ：00758_tatsu⟧ (a pole stands)",
   "cross_references": [
     {
       "type": "related",
@@ -52,11 +52,18 @@
       "reading": "でんせん",
       "headword": "{電線|でんせん}",
       "label": "electric wire"
+    },
+    {
+      "type": "related",
+      "target_id": "26750_haidensen",
+      "reading": "はいでんせん",
+      "headword": "{配電線|はいでんせん}",
+      "label": "power distribution line"
     }
   ],
   "metadata": {
     "created": "2026-03-19T09:10:11Z",
-    "modified": "2026-07-25T06:43:21Z",
+    "modified": "2026-09-02T04:01:50Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

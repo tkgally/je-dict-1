@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29134_junnousei_ex1",
-      "japanese": "{順応性|じゅんのうせい}が{高|たか}い{人|ひと}だ。",
+      "japanese": "{順応性|じゅんのうせい}⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧⟦{人|ひと}→人：00476_hito⟧だ。",
       "english": "This person has high adaptability.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29134_junnousei_ex2",
-      "japanese": "その{会社|かいしゃ}の{強|つよ}みは{環境|かんきょう}{変化|へんか}への{順応性|じゅんのうせい}の{高|たか}さにある。",
+      "japanese": "⟦その→その：00993_sono⟧⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦の→の：09472_no⟧⟦{強|つよ}み→強み：12499_tsuyomi⟧⟦は→は：00079_ha⟧⟦{環境|かんきょう}→環境：00174_kankyou⟧⟦{変化|へんか}→変化：03615_henka⟧⟦へ→へ：02473_he⟧⟦の→の：09472_no⟧{順応性|じゅんのうせい}⟦の→の：09472_no⟧⟦{高|たか}さ→高さ：05327_takasa⟧⟦に→に：00314_ni⟧⟦ある→ある：00006_aru⟧。",
       "english": "The company's strength lies in its high adaptability to environmental changes.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29134_junnousei_ex3",
-      "japanese": "{外国|がいこく}での{生活|せいかつ}で{順応性|じゅんのうせい}を{鍛|きた}えられ、どんな{環境|かんきょう}でも{対応|たいおう}できるようになった。",
+      "japanese": "⟦{外国|がいこく}→外国：02868_gaikoku⟧⟦で→で：00502_de⟧⟦の→の：09472_no⟧⟦{生活|せいかつ}→生活：01443_seikatsu⟧⟦で→で：00502_de⟧{順応性|じゅんのうせい}⟦を→を：00422_wo⟧⟦{鍛|きた}えられ→鍛える：12326_kitaeru⟧、⟦どんな→どんな：02924_donna⟧⟦{環境|かんきょう}→環境：00174_kankyou⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧⟦{対応|たいおう}→対応：02510_taiou⟧⟦できる→できる：00557_dekiru⟧ようになった。",
       "english": "Living abroad honed my adaptability, and I became able to handle any environment.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "COMMON COLLOCATIONS:\n- {順応性|じゅんのうせい}が{高|たか}い: highly adaptable\n- {順応性|じゅんのうせい}が{低|ひく}い: poorly adaptable; rigid\n- {順応性|じゅんのうせい}を{養|やしな}う: to develop adaptability\n- {高|たか}い{順応性|じゅんのうせい}: great adaptability\n\nSIMILAR WORDS:\n- {適応力|てきおうりょく}: adaptive capacity — emphasizes ability/power to adapt, often used in biology and psychology\n- {柔軟性|じゅうなんせい}: flexibility — can refer to both mental flexibility and physical pliability",
+  "notes": "COMMON COLLOCATIONS:\n- {順応性|じゅんのうせい}⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧: highly adaptable\n- {順応性|じゅんのうせい}⟦が→が：00051_ga⟧⟦{低|ひく}い→低い：02947_hikui⟧: poorly adaptable; rigid\n- {順応性|じゅんのうせい}⟦を→を：00422_wo⟧⟦{養|やしな}う→養う：04478_yashinau⟧: to develop adaptability\n- ⟦{高|たか}い→高い：00500_takai⟧{順応性|じゅんのうせい}: great adaptability\n\nSIMILAR WORDS:\n- ⟦{適応力|てきおうりょく}→適応力：14971_tekiouryoku⟧: adaptive capacity — emphasizes ability/power to adapt, often used in biology and psychology\n- ⟦{柔軟性|じゅうなんせい}→柔軟性：05796_juunansei⟧: flexibility — can refer to both mental flexibility and physical pliability",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14971_tekiouryoku",
+      "reading": "てきおうりょく",
+      "headword": "{適応力|てきおうりょく}",
+      "label": "adaptive capacity"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05796_juunansei",
+      "reading": "じゅうなんせい",
+      "headword": "{柔軟性|じゅうなんせい}",
+      "label": "flexibility"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05799_tekiousei",
+      "reading": "てきおうせい",
+      "headword": "{適応性|てきおうせい}",
+      "label": "adaptability"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +76,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "cognition"
       ],
       "domain": []
     },
     "created": "2026-06-11T11:40:13Z",
-    "modified": "2026-06-11T11:47:28Z"
+    "modified": "2026-09-02T04:02:36Z"
   }
 }

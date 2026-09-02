@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "09678_hitojichi_ex1",
-      "japanese": "{人質|ひとじち}が{解放|かいほう}された。",
+      "japanese": "{人質|ひとじち}⟦が→が：00051_ga⟧⟦{解放|かいほう}→解放：00135_kaihou⟧⟦された→する：00392_suru⟧。",
       "english": "The hostage was released.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "09678_hitojichi_ex2",
-      "japanese": "{人質|ひとじち}を{取|と}る。",
+      "japanese": "{人質|ひとじち}⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧。",
       "english": "To take hostages.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "09678_hitojichi_ex3",
-      "japanese": "{人質|ひとじち}の{安全|あんぜん}を{確保|かくほ}することが{最|もっと}も{大切|たいせつ}だ。",
+      "japanese": "{人質|ひとじち}⟦の→の：09472_no⟧⟦{安全|あんぜん}→安全：01131_anzen⟧⟦を→を：00422_wo⟧⟦{確保|かくほ}→確保：13681_kakuho⟧⟦する→する：00392_suru⟧こと⟦が→が：00051_ga⟧⟦{最|もっと}も→最も：01736_mottomo⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧だ。",
       "english": "Ensuring the hostages' safety is the most important thing.",
       "notes": null,
       "has_audio": false,
@@ -43,18 +43,46 @@
       ]
     }
   ],
-  "notes": "{人質|ひとじち} combines {人|ひと} (person) and {質|しち} (pledge/pawn/collateral). Literally \"a person used as collateral.\"\n\nCOMMON COLLOCATIONS:\n- {人質|ひとじち}を{取|と}る: to take hostages\n- {人質|ひとじち}を{解放|かいほう}する: to release hostages\n- {人質|ひとじち}にする: to hold someone hostage\n- {人質|ひとじち}{事件|じけん}: hostage incident/crisis\n- {人質|ひとじち}{救出|きゅうしゅつ}: hostage rescue\n- {人質|ひとじち}{交渉|こうしょう}: hostage negotiations\n\nHISTORICAL NOTE:\nIn feudal Japan, {人質|ひとじち} referred to family members (often wives and children of feudal lords) held as guarantees of loyalty. This was a formal political practice, not a criminal act.\n\nRELATED TERMS:\n- {誘拐|ゆうかい}: kidnapping\n- {身代金|みのしろきん}: ransom",
+  "notes": "{人質|ひとじち} combines ⟦{人|ひと}→人：00476_hito⟧ (person) and {質|しち} (pledge/pawn/collateral). Literally \"a person used as collateral.\"\n\nCOMMON COLLOCATIONS:\n- {人質|ひとじち}⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧: to take hostages\n- {人質|ひとじち}⟦を→を：00422_wo⟧⟦{解放|かいほう}する→解放する：22170_kaihousuru⟧: to release hostages\n- {人質|ひとじち}⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧: to hold someone hostage\n- {人質|ひとじち}⟦{事件|じけん}→事件：01568_jiken⟧: hostage incident/crisis\n- {人質|ひとじち}⟦{救出|きゅうしゅつ}→救出：12918_kyuushutsu⟧: hostage rescue\n- {人質|ひとじち}⟦{交渉|こうしょう}→交渉：02727_koushou⟧: hostage negotiations\n\nETYMOLOGY:\nIn feudal Japan, {人質|ひとじち} referred to family members (often wives and children of feudal lords) held as guarantees of loyalty. This was a formal political practice, not a criminal act.\n\nRELATED WORDS:\n- ⟦{誘拐|ゆうかい}→誘拐：14210_yuukai⟧: kidnapping\n- ⟦{身代金|みのしろきん}→身代金：14302_minoshirokin⟧: ransom",
   "cross_references": [
     {
       "type": "related",
       "reading": "かいほう",
       "target_id": "00135_kaihou",
       "headword": "{解放|かいほう}"
+    },
+    {
+      "type": "related",
+      "target_id": "14210_yuukai",
+      "reading": "ゆうかい",
+      "headword": "{誘拐|ゆうかい}",
+      "label": "kidnapping"
+    },
+    {
+      "type": "related",
+      "target_id": "14302_minoshirokin",
+      "reading": "みのしろきん",
+      "headword": "{身代金|みのしろきん}",
+      "label": "ransom"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20662_horyo",
+      "reading": "ほりょ",
+      "headword": "{捕虜|ほりょ}",
+      "label": "prisoner of war"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29448_ryoshuu",
+      "reading": "りょしゅう",
+      "headword": "虜囚",
+      "label": "captive"
     }
   ],
   "metadata": {
     "created": "2026-02-03T05:02:44Z",
-    "modified": "2026-03-25T06:54:04Z",
+    "modified": "2026-09-02T04:01:19Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

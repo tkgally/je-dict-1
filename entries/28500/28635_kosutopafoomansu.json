@@ -15,41 +15,61 @@
   "examples": [
     {
       "id": "28635_kosutopafoomansu_ex1",
-      "japanese": "この{店|みせ}はコストパフォーマンスがいい。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{店|みせ}→店：00497_mise⟧⟦は→は：00079_ha⟧コストパフォーマンス⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧。",
       "english": "This shop has good value for money.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28635_kosutopafoomansu_ex2",
-      "japanese": "{値段|ねだん}のわりにコストパフォーマンスが{悪|わる}い。",
+      "japanese": "⟦{値段|ねだん}→値段：00871_nedan⟧⟦の→の：09472_no⟧わり⟦に→に：00314_ni⟧コストパフォーマンス⟦が→が：00051_ga⟧⟦{悪|わる}い→悪い：00908_warui⟧。",
       "english": "The value for money is poor relative to the price.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28635_kosutopafoomansu_ex3",
-      "japanese": "コストパフォーマンスを{重視|じゅうし}して{家電|かでん}を{選|えら}んでいる。",
+      "japanese": "コストパフォーマンス⟦を→を：00422_wo⟧⟦{重視|じゅうし}して→重視する：26832_juushisuru⟧⟦{家電|かでん}→家電：04966_kaden⟧⟦を→を：00422_wo⟧⟦{選|えら}んでいる→選ぶ：00835_erabu⟧。",
       "english": "I choose home appliances with an emphasis on cost-performance.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Loanword from English. In conversation, the clipped form コスパ is far more common; the full form appears in writing and formal speech.\n\nCOMMON COLLOCATIONS:\n- コストパフォーマンスがいい / {高|たか}い: good cost-performance\n- コストパフォーマンスが{悪|わる}い: poor cost-performance\n- コストパフォーマンスを{重視|じゅうし}する: to prioritize value for money\n\nSIMILAR WORDS:\n- コスパ: clipped colloquial form — much more common in speech\n- {割|わり}に{合|あ}う: to be worth it — verb-phrase synonym",
+  "notes": "Loanword from English. In conversation, the clipped form ⟦コスパ→コスパ：04739_kosupa⟧ is far more common; the full form appears in writing and formal speech.\n\nCOMMON COLLOCATIONS:\n- コストパフォーマンス⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧ / ⟦{高|たか}い→高い：00500_takai⟧: good cost-performance\n- コストパフォーマンス⟦が→が：00051_ga⟧⟦{悪|わる}い→悪い：00908_warui⟧: poor cost-performance\n- コストパフォーマンス⟦を→を：00422_wo⟧⟦{重視|じゅうし}する→重視する：26832_juushisuru⟧: to prioritize value for money\n\nSIMILAR WORDS:\n- ⟦コスパ→コスパ：04739_kosupa⟧: clipped colloquial form — much more common in speech\n- ⟦{割|わり}→割：03194_wari⟧⟦に→に：00314_ni⟧⟦{合|あ}う→合う：10466_au⟧: to be worth it — verb-phrase synonym",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04739_kosupa",
+      "reading": "こすぱ",
+      "headword": "コスパ",
+      "label": "clipped colloquial form"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["business", "daily-life"],
+      "politeness": "plain",
+      "semantic": [
+        "business",
+        "daily-life"
+      ],
       "domain": []
     },
     "created": "2026-06-03T03:08:24Z",
-    "modified": "2026-06-03T03:08:24Z"
+    "modified": "2026-09-02T04:02:34Z"
   }
 }

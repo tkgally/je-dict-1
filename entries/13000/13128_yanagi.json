@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "13128_yanagi_ex1",
-      "japanese": "{川|かわ}のそばに{柳|やなぎ}が{生|は}えている。",
+      "japanese": "⟦{川|かわ}→川：02186_kawa⟧⟦の→の：09472_no⟧そば⟦に→に：00314_ni⟧{柳|やなぎ}⟦が→が：00051_ga⟧⟦{生|は}えている→生える：02392_haeru⟧。",
       "english": "Willow trees grow by the river.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "13128_yanagi_ex2",
-      "japanese": "{柳|やなぎ}の{枝|えだ}が{風|かぜ}に{揺|ゆ}れている。",
+      "japanese": "{柳|やなぎ}⟦の→の：09472_no⟧⟦{枝|えだ}→枝：02181_eda⟧⟦が→が：00051_ga⟧⟦{風|かぜ}→風：00641_kaze⟧⟦に→に：00314_ni⟧⟦{揺|ゆ}れている→揺れる：01161_yureru⟧。",
       "english": "The willow branches are swaying in the wind.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "13128_yanagi_ex3",
-      "japanese": "{柳|やなぎ}の{下|した}にいつも{泥鰌|どじょう}がいるとは{限|かぎ}らない。",
+      "japanese": "{柳|やなぎ}⟦の→の：09472_no⟧⟦{下|した}→下：00670_shita⟧⟦に→に：00314_ni⟧⟦いつも→いつも：00599_itsumo⟧{泥鰌|どじょう}⟦が→が：00051_ga⟧⟦いる→いる：00495_iru⟧⟦と→と：00512_to⟧⟦は→は：00079_ha⟧⟦{限|かぎ}らない→限る：02033_kagiru⟧。",
       "english": "There isn't always a loach under the willow.",
       "notes": "Proverb meaning that just because something worked once doesn't mean it will work again.",
       "has_audio": false,
@@ -44,11 +44,19 @@
       ]
     }
   ],
-  "notes": "CULTURE:\n{柳|やなぎ} is a common motif in Japanese art, poetry, and ghost stories. In traditional imagery, drooping willows by water create an atmospheric, slightly eerie mood, and ghosts ({幽霊|ゆうれい}) are often depicted beneath willow trees.\n\nPROVERB:\n{柳|やなぎ}の{下|した}にいつも{泥鰌|どじょう}はいない — \"There isn't always a loach under the willow.\" Meaning: just because you had luck once in a certain way doesn't mean you can repeat it.\n\nThe {柳|やなぎ} is also associated with suppleness and flexibility, as in the expression {柳|やなぎ}に{風|かぜ} (willow in the wind), meaning to let things roll off you without resisting.",
-  "cross_references": [],
+  "notes": "CULTURAL NOTE:\n{柳|やなぎ} is a common motif in Japanese art, poetry, and ghost stories. In traditional imagery, drooping willows by water create an atmospheric, slightly eerie mood, and ghosts (⟦{幽霊|ゆうれい}→幽霊：10648_yuurei⟧) are often depicted beneath willow trees.\n\nPROVERB:\n{柳|やなぎ}⟦の→の：09472_no⟧⟦{下|した}→下：00670_shita⟧⟦に→に：00314_ni⟧⟦いつも→いつも：00599_itsumo⟧{泥鰌|どじょう}はいない — \"There isn't always a loach under the willow.\" Meaning: just because you had luck once in a certain way doesn't mean you can repeat it.\n\nThe {柳|やなぎ} is also associated with suppleness and flexibility, as in the expression {柳|やなぎ}⟦に→に：00314_ni⟧⟦{風|かぜ}→風：00641_kaze⟧ (willow in the wind), meaning to let things roll off you without resisting.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23441_shidare",
+      "reading": "しだれ",
+      "headword": "{枝垂|しだ}れ",
+      "label": "weeping (tree)"
+    }
+  ],
   "metadata": {
     "created": "2026-02-23T11:16:43Z",
-    "modified": "2026-07-08T17:24:36Z",
+    "modified": "2026-09-02T04:01:31Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

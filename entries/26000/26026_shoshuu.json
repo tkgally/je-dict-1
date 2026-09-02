@@ -15,39 +15,80 @@
   "examples": [
     {
       "id": "26026_shoshuu_ex1",
-      "japanese": "{初秋|しょしゅう}の{風|かぜ}が{心地|ここち}よい。",
+      "japanese": "{初秋|しょしゅう}⟦の→の：09472_no⟧⟦{風|かぜ}→風：00641_kaze⟧⟦が→が：00051_ga⟧⟦{心地|ここち}よい→心地よい：12515_kokochiyoi⟧。",
       "english": "The early autumn breeze is pleasant.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26026_shoshuu_ex2",
-      "japanese": "{初秋|しょしゅう}とはいえ、まだ{暑|あつ}い{日|ひ}が{続|つづ}く。",
+      "japanese": "{初秋|しょしゅう}⟦とはいえ→とはいえ：06282_tohaie⟧、⟦まだ→まだ：00603_mada⟧⟦{暑|あつ}い→暑い：00619_atsui⟧⟦{日|ひ}→日：02249_hi⟧⟦が→が：00051_ga⟧⟦{続|つづ}く→続く：00903_tsuzuku⟧。",
       "english": "Although it's early fall, the hot days continue.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26026_shoshuu_ex3",
-      "japanese": "{初秋|しょしゅう}のころ、{空|そら}の{色|いろ}が{少|すこ}しずつ{変|か}わり{始|はじ}める。",
+      "japanese": "{初秋|しょしゅう}⟦の→の：09472_no⟧⟦ころ→〜ころ：03091_koro⟧、⟦{空|そら}→空：02216_sora⟧⟦の→の：09472_no⟧⟦{色|いろ}→色：00849_iro⟧⟦が→が：00051_ga⟧⟦{少|すこ}し→少し：00596_sukoshi⟧⟦ずつ→〜ずつ：03092_zutsu⟧⟦{変|か}わり→変わる：00714_kawaru⟧{始|はじ}める。",
       "english": "Around early autumn, the color of the sky begins to change little by little.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A literary and seasonal word used in writing, haiku, and weather reports. Part of a series of seasonal divisions: {初秋|しょしゅう} (early), {仲秋|ちゅうしゅう} (mid), {晩秋|ばんしゅう} (late autumn). The same pattern applies to other seasons.\n\nCOMMON COLLOCATIONS:\n- {初秋|しょしゅう}の{風|かぜ}: early autumn breeze\n- {初秋|しょしゅう}の{候|こう}: the early autumn season (epistolary)\n- {初秋|しょしゅう}の{空|そら}: the early autumn sky\n\nRELATED SEASONAL TERMS:\n- {仲秋|ちゅうしゅう}: mid-autumn — the middle period, associated with the harvest moon\n- {晩秋|ばんしゅう}: late autumn — the final stretch before winter\n- {初夏|しょか}: early summer — the same pattern applied to summer\n- {立秋|りっしゅう}: start of autumn — a specific date in the traditional calendar (around August 7)",
-  "cross_references": [],
+  "notes": "A literary and seasonal word used in writing, haiku, and weather reports. Part of a series of seasonal divisions: {初秋|しょしゅう} (early), {仲秋|ちゅうしゅう} (mid), ⟦{晩秋|ばんしゅう}→晩秋：08561_banshuu⟧ (late autumn). The same pattern applies to other seasons.\n\nCOMMON COLLOCATIONS:\n- {初秋|しょしゅう}⟦の→の：09472_no⟧⟦{風|かぜ}→風：00641_kaze⟧: early autumn breeze\n- {初秋|しょしゅう}⟦の→の：09472_no⟧{候|こう}: the early autumn season (epistolary)\n- {初秋|しょしゅう}⟦の→の：09472_no⟧⟦{空|そら}→空：02216_sora⟧: the early autumn sky\n\nRELATED SEASONAL TERMS:\n- {仲秋|ちゅうしゅう}: mid-autumn — the middle period, associated with the harvest moon\n- ⟦{晩秋|ばんしゅう}→晩秋：08561_banshuu⟧: late autumn — the final stretch before winter\n- ⟦{初夏|しょか}→初夏：11740_shoka⟧: early summer — the same pattern applied to summer\n- ⟦{立秋|りっしゅう}→立秋：26285_risshuu⟧: start of autumn — a specific date in the traditional calendar (around August 7)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "08561_banshuu",
+      "reading": "ばんしゅう",
+      "headword": "{晩秋|ばんしゅう}",
+      "label": "late autumn"
+    },
+    {
+      "type": "related",
+      "target_id": "11740_shoka",
+      "reading": "しょか",
+      "headword": "{初夏|しょか}",
+      "label": "early summer"
+    },
+    {
+      "type": "related",
+      "target_id": "26285_risshuu",
+      "reading": "りっしゅう",
+      "headword": "{立秋|りっしゅう}",
+      "label": "start of autumn"
+    },
+    {
+      "type": "related",
+      "target_id": "27638_chuushuu",
+      "reading": "ちゅうしゅう",
+      "headword": "{中秋|ちゅうしゅう}",
+      "label": "mid-autumn"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["time-season", "nature"]
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "time-season",
+        "nature"
+      ]
     },
     "created": "2026-04-28T16:15:58Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T04:02:24Z"
   }
 }

@@ -15,40 +15,80 @@
   "examples": [
     {
       "id": "19856_kagakubusshitsu_ex1",
-      "japanese": "{化学物質|かがくぶっしつ}を{含|ふく}む{製品|せいひん}。",
+      "japanese": "{化学物質|かがくぶっしつ}⟦を→を：00422_wo⟧⟦{含|ふく}む→含む：01982_fukumu⟧⟦{製品|せいひん}→製品：01445_seihin⟧。",
       "english": "A product containing chemical substances.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19856_kagakubusshitsu_ex2",
-      "japanese": "{有害|ゆうがい}な{化学物質|かがくぶっしつ}は{使|つか}われていない。",
+      "japanese": "⟦{有害|ゆうがい}→有害：13002_yuugai⟧な{化学物質|かがくぶっしつ}⟦は→は：00079_ha⟧⟦{使|つか}われていない→使う：00473_tsukau⟧。",
       "english": "No harmful chemicals are used.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19856_kagakubusshitsu_ex3",
-      "japanese": "{化学物質|かがくぶっしつ}による{環境汚染|かんきょうおせん}が{問題|もんだい}になっている。",
+      "japanese": "{化学物質|かがくぶっしつ}⟦による→による：28349_niyoru⟧⟦{環境汚染|かんきょうおせん}→環境汚染：21102_kankyouosen⟧⟦が→が：00051_ga⟧⟦{問題|もんだい}→問題：00797_mondai⟧になっている。",
       "english": "Environmental pollution caused by chemical substances has become a problem.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "In everyday Japanese, {化学物質|かがくぶっしつ} often carries a negative connotation, implying something artificial or potentially harmful — similar to how \"chemicals\" is used in English. In scientific contexts, it is a neutral term.\n\nCOMMON COLLOCATIONS:\n- {有害|ゆうがい}{化学物質|かがくぶっしつ} — harmful chemical substance\n- {化学物質|かがくぶっしつ}{過敏症|かびんしょう} — chemical sensitivity\n- {化学物質|かがくぶっしつ}の{規制|きせい} — regulation of chemicals\n\nSIMILAR WORDS:\n- {薬品|やくひん} — chemicals, medicines\n- {化合物|かごうぶつ} — chemical compound (technical)\n- {物質|ぶっしつ} — substance, matter (general)",
+  "notes": "In everyday Japanese, {化学物質|かがくぶっしつ} often carries a negative connotation, implying something artificial or potentially harmful — similar to how \"chemicals\" is used in English. In scientific contexts, it is a neutral term.\n\nCOMMON COLLOCATIONS:\n- ⟦{有害|ゆうがい}→有害：13002_yuugai⟧{化学物質|かがくぶっしつ} — harmful chemical substance\n- {化学物質|かがくぶっしつ}{過敏症|かびんしょう} — chemical sensitivity\n- {化学物質|かがくぶっしつ}⟦の→の：09472_no⟧⟦{規制|きせい}→規制：02598_kisei⟧ — regulation of chemicals\n\nSIMILAR WORDS:\n- ⟦{薬品|やくひん}→薬品：11055_yakuhin⟧ — chemicals, medicines\n- ⟦{化合物|かごうぶつ}→化合物：25020_kagoubutsu⟧ — chemical compound (technical)\n- ⟦{物質|ぶっしつ}→物質：03608_busshitsu⟧ — substance, matter (general)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11055_yakuhin",
+      "reading": "やくひん",
+      "headword": "{薬品|やくひん}",
+      "label": "chemicals, medicines"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25020_kagoubutsu",
+      "reading": "かごうぶつ",
+      "headword": "{化合物|かごうぶつ}",
+      "label": "chemical compound"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22132_yuugaibusshitsu",
+      "reading": "ゆうがいぶっしつ",
+      "headword": "{有害物質|ゆうがいぶっしつ}",
+      "label": "harmful substance"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24813_kagakuyakuhin",
+      "reading": "かがくやくひん",
+      "headword": "{化学|かがく}{薬品|やくひん}",
+      "label": "chemical product"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["science"]
+      "semantic": [
+        "science"
+      ]
     },
     "created": "2026-03-27T03:28:13Z",
-    "modified": "2026-03-27T03:28:13Z"
+    "modified": "2026-09-02T04:01:57Z"
   }
 }

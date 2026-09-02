@@ -14,38 +14,71 @@
   "examples": [
     {
       "id": "24779_hinadori_ex1",
-      "japanese": "{雛鳥|ひなどり}が{巣|す}にいる。",
+      "japanese": "{雛鳥|ひなどり}⟦が→が：00051_ga⟧⟦{巣|す}→巣：02140_su⟧⟦に→に：00314_ni⟧⟦いる→いる：00495_iru⟧。",
       "english": "There are chicks in the nest.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "24779_hinadori_ex2",
-      "japanese": "{雛鳥|ひなどり}が{親鳥|おやどり}にエサをもらっている。",
+      "japanese": "{雛鳥|ひなどり}⟦が→が：00051_ga⟧⟦{親鳥|おやどり}→親鳥：25490_oyadori⟧⟦に→に：00314_ni⟧エサ⟦を→を：00422_wo⟧⟦もらっている→もらう：00520_morau⟧。",
       "english": "The chick is being fed by its parent.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "24779_hinadori_ex3",
-      "japanese": "{巣|す}から{落|お}ちた{雛鳥|ひなどり}を{見|み}つけたが、{触|さわ}らないほうがいいと{言|い}われた。",
+      "japanese": "⟦{巣|す}→巣：02140_su⟧⟦から→から：00504_kara⟧⟦{落|お}ちた→落ちる：01242_ochiru⟧{雛鳥|ひなどり}⟦を→を：00422_wo⟧⟦{見|み}つけた→見つける：01180_mitsukeru⟧⟦が→が：00051_ga⟧、⟦{触|さわ}らない→触る：00808_sawaru⟧⟦ほうがいい→ほうがいい：10078_hougaii⟧⟦と→と：00512_to⟧⟦{言|い}われた→言う：00515_iu⟧。",
       "english": "I found a chick that had fallen from its nest, but was told it's better not to touch it.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "Refers to any young bird, from just hatched to fledgling stage. Can also be used figuratively to describe someone young and inexperienced.\n\nCOMMON COLLOCATIONS:\n- {雛鳥|ひなどり}が{孵|かえ}る: a chick hatches\n- {雛鳥|ひなどり}を{育|そだ}てる: to raise a chick\n- {雛鳥|ひなどり}が{巣立|すだ}つ: a fledgling leaves the nest\n\nSIMILAR WORDS:\n- ひよこ: chick (especially a newly hatched domestic fowl; also used as a cute term)\n- {幼鳥|ようちょう}: young bird (more scientific/formal)\n- {親鳥|おやどり}: parent bird (opposite)",
+  "notes": "Refers to any young bird, from just hatched to fledgling stage. Can also be used figuratively to describe someone young and inexperienced.\n\nCOMMON COLLOCATIONS:\n- {雛鳥|ひなどり}⟦が→が：00051_ga⟧{孵|かえ}る: a chick hatches\n- {雛鳥|ひなどり}⟦を→を：00422_wo⟧⟦{育|そだ}てる→育てる：01235_sodateru⟧: to raise a chick\n- {雛鳥|ひなどり}⟦が→が：00051_ga⟧⟦{巣立|すだ}つ→巣立つ：27798_sudatsu⟧: a fledgling leaves the nest\n\nSIMILAR WORDS:\n- ⟦ひよこ→ひよこ：10501_hiyoko⟧: chick (especially a newly hatched domestic fowl; also used as a cute term)\n- ⟦{幼鳥|ようちょう}→幼鳥：26318_youchou⟧: young bird (more scientific/formal)\n- ⟦{親鳥|おやどり}→親鳥：25490_oyadori⟧: parent bird (opposite)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "10501_hiyoko",
+      "reading": "ひよこ",
+      "headword": "ひよこ",
+      "label": "chick (especially a newly hatched…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26318_youchou",
+      "reading": "ようちょう",
+      "headword": "{幼鳥|ようちょう}",
+      "label": "young bird"
+    },
+    {
+      "type": "antonym",
+      "target_id": "25490_oyadori",
+      "reading": "おやどり",
+      "headword": "{親鳥|おやどり}",
+      "label": "parent bird"
+    }
+  ],
   "metadata": {
     "created": "2026-04-20T15:25:54Z",
-    "modified": "2026-04-20T15:25:54Z",
+    "modified": "2026-09-02T04:02:19Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["nature"]
+      "semantic": [
+        "nature"
+      ]
     }
   }
 }

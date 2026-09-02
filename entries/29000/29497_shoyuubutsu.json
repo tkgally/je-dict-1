@@ -15,41 +15,67 @@
   "examples": [
     {
       "id": "29497_shoyuubutsu_ex1",
-      "japanese": "{個人|こじん}の{所有物|しょゆうぶつ}。",
+      "japanese": "⟦{個人|こじん}→個人：02758_kojin⟧⟦の→の：09472_no⟧{所有物|しょゆうぶつ}。",
       "english": "personal belongings.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29497_shoyuubutsu_ex2",
-      "japanese": "この{土地|とち}は{会社|かいしゃ}の{所有物|しょゆうぶつ}だ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{土地|とち}→土地：02226_tochi⟧⟦は→は：00079_ha⟧⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦の→の：09472_no⟧{所有物|しょゆうぶつ}だ。",
       "english": "This land is company property.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29497_shoyuubutsu_ex3",
-      "japanese": "{他人|たにん}の{所有物|しょゆうぶつ}を{勝手|かって}に{使|つか}ってはいけない。",
+      "japanese": "⟦{他人|たにん}→他人：01459_tanin⟧⟦の→の：09472_no⟧{所有物|しょゆうぶつ}⟦を→を：00422_wo⟧⟦{勝手|かって}→勝手：03021_katte⟧⟦に→に：00314_ni⟧⟦{使|つか}って→使う：00473_tsukau⟧⟦は→は：00079_ha⟧いけない。",
       "english": "You must not use other people's belongings without permission.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Combines {所有|しょゆう} (ownership, possession) + {物|ぶつ} (thing, object). A thing that belongs to someone; stresses the fact of ownership.\n\nCOMMON COLLOCATIONS:\n- {個人|こじん}の{所有物|しょゆうぶつ}: personal property\n- {所有物|しょゆうぶつ}を{管理|かんり}する: to manage one's possessions\n- {会社|かいしゃ}の{所有物|しょゆうぶつ}: company property\n\nSIMILAR WORDS:\n- {持|も}ち{物|もの}: belongings — everyday word, often for things one carries\n- {財産|ざいさん}: property; assets — emphasizes value and wealth, including money and land",
+  "notes": "Combines ⟦{所有|しょゆう}→所有：12752_shoyuu⟧ (ownership, possession) + ⟦{物|ぶつ}→〜物：28336_butsu⟧ (thing, object). A thing that belongs to someone; stresses the fact of ownership.\n\nCOMMON COLLOCATIONS:\n- ⟦{個人|こじん}→個人：02758_kojin⟧⟦の→の：09472_no⟧{所有物|しょゆうぶつ}: personal property\n- {所有物|しょゆうぶつ}⟦を→を：00422_wo⟧⟦{管理|かんり}する→管理する：21910_kanrisuru⟧: to manage one's possessions\n- ⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦の→の：09472_no⟧{所有物|しょゆうぶつ}: company property\n\nSIMILAR WORDS:\n- ⟦{持|も}ち{物|もの}→持ち物：03165_mochimono⟧: belongings — everyday word, often for things one carries\n- ⟦{財産|ざいさん}→財産：01635_zaisan⟧: property; assets — emphasizes value and wealth, including money and land",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03165_mochimono",
+      "reading": "もちもの",
+      "headword": "{持|も}ち{物|もの}",
+      "label": "belongings"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01635_zaisan",
+      "reading": "ざいさん",
+      "headword": "{財産|ざいさん}",
+      "label": "property"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["abstract"],
+      "politeness": "plain",
+      "semantic": [
+        "abstract"
+      ],
       "domain": []
     },
     "created": "2026-06-26T09:20:43Z",
-    "modified": "2026-06-26T09:20:43Z"
+    "modified": "2026-09-02T04:02:37Z"
   }
 }

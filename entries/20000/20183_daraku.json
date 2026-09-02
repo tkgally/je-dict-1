@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "20183_daraku_ex1",
-      "japanese": "{堕落|だらく}した{生活|せいかつ}を{送|おく}る。",
+      "japanese": "{堕落|だらく}⟦した→する：00392_suru⟧⟦{生活|せいかつ}→生活：01443_seikatsu⟧⟦を→を：00422_wo⟧⟦{送|おく}る→送る：00742_okuru⟧。",
       "english": "To lead a dissolute life.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "20183_daraku_ex2",
-      "japanese": "{人間|にんげん}は{楽|らく}をすると{堕落|だらく}する。",
+      "japanese": "⟦{人間|にんげん}→人間：03523_ningen⟧⟦は→は：00079_ha⟧⟦{楽|らく}→楽：02169_raku⟧⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧⟦と→と：00512_to⟧{堕落|だらく}⟦する→する：00392_suru⟧。",
       "english": "People become corrupted when they take the easy way out.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "20183_daraku_ex3",
-      "japanese": "{権力|けんりょく}を{持|も}つと{堕落|だらく}しやすいと{言|い}われている。",
+      "japanese": "⟦{権力|けんりょく}→権力：10020_kenryoku⟧⟦を→を：00422_wo⟧⟦{持|も}つ→持つ：00478_motsu⟧⟦と→と：00512_to⟧{堕落|だらく}しやすい⟦と→と：00512_to⟧⟦{言|い}われている→言う：00515_iu⟧。",
       "english": "It is said that holding power tends to lead to corruption.",
       "sense_numbers": [
         1
@@ -134,8 +134,24 @@
       "notes": null
     }
   ],
-  "notes": "Refers to moral or behavioral decline, often with a strong negative connotation. The kanji {堕|だ} means \"to fall\" (as in {堕|お}ちる) and {落|らく} also means \"to fall,\" reinforcing the image of a downward slide.\n\nCOMMON COLLOCATIONS:\n- {堕落|だらく}する: to become corrupt, to degenerate\n- {堕落|だらく}した{生活|せいかつ}: a dissolute lifestyle\n- {道徳|どうとく}の{堕落|だらく}: moral decline\n- {堕落|だらく}の{道|みち}: the path of corruption\n\nSIMILAR WORDS:\n- {腐敗|ふはい}: corruption — often used for institutional or political corruption\n- {退廃|たいはい}: decadence — focuses on cultural or artistic decline\n- {頽廃|たいはい}: same as above, with an older kanji variant\n\n{堕落|だらく} emphasizes personal moral decline, while {腐敗|ふはい} is more commonly used for systemic corruption.",
+  "notes": "Refers to moral or behavioral decline, often with a strong negative connotation. The kanji {堕|だ} means \"to fall\" (as in {堕|お}ちる) and {落|らく} also means \"to fall,\" reinforcing the image of a downward slide.\n\nCOMMON COLLOCATIONS:\n- {堕落|だらく}⟦する→する：00392_suru⟧: to become corrupt, to degenerate\n- {堕落|だらく}⟦した→する：00392_suru⟧⟦{生活|せいかつ}→生活：01443_seikatsu⟧: a dissolute lifestyle\n- ⟦{道徳|どうとく}→道徳：03478_doutoku⟧⟦の→の：09472_no⟧{堕落|だらく}: moral decline\n- {堕落|だらく}⟦の→の：09472_no⟧⟦{道|みち}→道：00505_michi⟧: the path of corruption\n\nSIMILAR WORDS:\n- ⟦{腐敗|ふはい}→腐敗：07997_fuhai⟧: corruption — often used for institutional or political corruption\n- ⟦{退廃|たいはい}→退廃：19671_taihai⟧: decadence — focuses on cultural or artistic decline\n- {頽廃|たいはい}: same as above, with an older kanji variant\n\n{堕落|だらく} emphasizes personal moral decline, while ⟦{腐敗|ふはい}→腐敗：07997_fuhai⟧ is more commonly used for systemic corruption.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07997_fuhai",
+      "reading": "ふはい",
+      "headword": "{腐敗|ふはい}",
+      "label": "corruption"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19671_taihai",
+      "reading": "たいはい",
+      "headword": "{退廃|たいはい}",
+      "label": "decadence"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -151,6 +167,6 @@
       "verb_class": "suru"
     },
     "created": "2026-03-28T16:15:41Z",
-    "modified": "2026-03-28T16:15:41Z"
+    "modified": "2026-09-02T04:01:58Z"
   }
 }

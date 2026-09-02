@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "15792_kanden_ex1",
-      "japanese": "{濡|ぬ}れた{手|て}でコンセントに{触|さわ}ると{感電|かんでん}する。",
+      "japanese": "⟦{濡|ぬ}れた→濡れる：00800_nureru⟧⟦{手|て}→手：00569_te⟧⟦で→で：00502_de⟧⟦コンセント→コンセント：04431_konsento⟧⟦に→に：00314_ni⟧⟦{触|さわ}る→触る：00808_sawaru⟧⟦と→と：00512_to⟧{感電|かんでん}⟦する→する：00392_suru⟧。",
       "english": "You'll get an electric shock if you touch an outlet with wet hands.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "15792_kanden_ex2",
-      "japanese": "{工事|こうじ}{現場|げんば}で{感電|かんでん}{事故|じこ}が{起|お}きた。",
+      "japanese": "⟦{工事|こうじ}{現場|げんば}→工事現場：26202_koujigenba⟧⟦で→で：00502_de⟧{感電|かんでん}⟦{事故|じこ}→事故：00851_jiko⟧⟦が→が：00051_ga⟧⟦{起|お}きた→起きる：00521_okiru⟧。",
       "english": "An electrocution accident occurred at the construction site.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "15792_kanden_ex3",
-      "japanese": "{古|ふる}い{家電|かでん}は{感電|かんでん}の{危険|きけん}があるので、{定期的|ていきてき}に{点検|てんけん}したほうがいい。",
+      "japanese": "⟦{古|ふる}い→古い：00488_furui⟧⟦{家電|かでん}→家電：04966_kaden⟧⟦は→は：00079_ha⟧{感電|かんでん}⟦の→の：09472_no⟧⟦{危険|きけん}→危険：01141_kiken⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧⟦の→の：09472_no⟧で、⟦{定期的|ていきてき}→定期的：06173_teikiteki⟧⟦に→に：00314_ni⟧⟦{点検|てんけん}→点検：09765_tenken⟧⟦した→する：00392_suru⟧⟦ほうがいい→ほうがいい：10078_hougaii⟧。",
       "english": "Old appliances can be a shock hazard, so it's a good idea to inspect them regularly.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,19 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{感電|かんでん} can be used as a noun ({感電|かんでん}{事故|じこ} — electrocution accident) or as a suru-verb ({感電|かんでん}する — to get shocked). It covers the full range from a mild static shock to a dangerous or fatal electrocution.\n\nCOMMON COLLOCATIONS:\n- {感電|かんでん}する (get an electric shock)\n- {感電|かんでん}{事故|じこ} (electrocution accident)\n- {感電|かんでん}{死|し} (death by electrocution)\n- {感電|かんでん}の{危険|きけん} (risk of electric shock)\n- {感電|かんでん}{防止|ぼうし} (shock prevention)",
-  "cross_references": [],
+  "notes": "USAGE:\n{感電|かんでん} can be used as a noun ({感電|かんでん}⟦{事故|じこ}→事故：00851_jiko⟧ — electrocution accident) or as a suru-verb ({感電|かんでん}⟦する→する：00392_suru⟧ — to get shocked). It covers the full range from a mild static shock to a dangerous or fatal electrocution.\n\nCOMMON COLLOCATIONS:\n- {感電|かんでん}⟦する→する：00392_suru⟧ (get an electric shock)\n- {感電|かんでん}⟦{事故|じこ}→事故：00851_jiko⟧ (electrocution accident)\n- {感電|かんでん}⟦{死|し}→死：13248_shi⟧ (death by electrocution)\n- {感電|かんでん}⟦の→の：09472_no⟧⟦{危険|きけん}→危険：01141_kiken⟧ (risk of electric shock)\n- {感電|かんでん}⟦{防止|ぼうし}→防止：14571_boushi⟧ (shock prevention)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "19289_houden",
+      "reading": "ほうでん",
+      "headword": "{放電|ほうでん}",
+      "label": "electrical discharge"
+    }
+  ],
   "metadata": {
     "created": "2026-03-08T09:48:00Z",
-    "modified": "2026-07-18T04:02:53Z",
+    "modified": "2026-09-02T04:01:42Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

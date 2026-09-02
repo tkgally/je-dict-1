@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28328_juusei_ex1",
-      "japanese": "{銃声|じゅうせい}が{聞|き}こえた。",
+      "japanese": "{銃声|じゅうせい}⟦が→が：00051_ga⟧⟦{聞|き}こえた→聞こえる：01229_kikoeru⟧。",
       "english": "I heard a gunshot.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28328_juusei_ex2",
-      "japanese": "{遠|とお}くで{銃声|じゅうせい}が{響|ひび}いた。",
+      "japanese": "{遠|とお}く⟦で→で：00502_de⟧{銃声|じゅうせい}⟦が→が：00051_ga⟧⟦{響|ひび}いた→響く：00099_hibiku⟧。",
       "english": "A gunshot rang out in the distance.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28328_juusei_ex3",
-      "japanese": "{深夜|しんや}、{連続|れんぞく}した{銃声|じゅうせい}に{住民|じゅうみん}が{驚|おどろ}いて{警察|けいさつ}に{通報|つうほう}した。",
+      "japanese": "⟦{深夜|しんや}→深夜：00368_shinya⟧、⟦{連続|れんぞく}した→連続する：22173_renzokusuru⟧{銃声|じゅうせい}⟦に→に：00314_ni⟧⟦{住民|じゅうみん}→住民：03281_juumin⟧⟦が→が：00051_ga⟧⟦{驚|おどろ}いて→驚く：01255_odoroku⟧⟦{警察|けいさつ}→警察：01393_keisatsu⟧⟦に→に：00314_ni⟧⟦{通報|つうほう}→通報：14318_tsuuhou⟧⟦した→する：00392_suru⟧。",
       "english": "Late at night, residents were startled by repeated gunshots and reported it to the police.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {銃|じゅう} (gun) + {声|せい} (voice, sound). Here {声|せい} takes the sense of a characteristic sound rather than a human voice.\n\nCOMMON COLLOCATIONS:\n- {銃声|じゅうせい}が{聞|き}こえる: to hear a gunshot\n- {銃声|じゅうせい}が{響|ひび}く: a gunshot rings out\n- {銃声|じゅうせい}が{鳴|な}り{響|ひび}く: gunshots reverberate\n- {一発|いっぱつ}の{銃声|じゅうせい}: a single gunshot\n\nSIMILAR WORDS:\n- {発砲音|はっぽうおん}: discharge sound — more technical, used in police/military reports\n- {爆発音|ばくはつおん}: explosion sound — for larger, broader blasts\n- {銃撃|じゅうげき}{戦|せん}: gun battle, shootout — the event, not the sound",
+  "notes": "Compound of ⟦{銃|じゅう}→銃：10463_juu⟧ (gun) + {声|せい} (voice, sound). Here {声|せい} takes the sense of a characteristic sound rather than a human voice.\n\nCOMMON COLLOCATIONS:\n- {銃声|じゅうせい}⟦が→が：00051_ga⟧⟦{聞|き}こえる→聞こえる：01229_kikoeru⟧: to hear a gunshot\n- {銃声|じゅうせい}⟦が→が：00051_ga⟧⟦{響|ひび}く→響く：00099_hibiku⟧: a gunshot rings out\n- {銃声|じゅうせい}⟦が→が：00051_ga⟧⟦{鳴|な}り{響|ひび}く→鳴り響く：09125_narihibiku⟧: gunshots reverberate\n- ⟦{一発|いっぱつ}→一発：08895_ippatsu⟧⟦の→の：09472_no⟧{銃声|じゅうせい}: a single gunshot\n\nSIMILAR WORDS:\n- {発砲音|はっぽうおん}: discharge sound — more technical, used in police/military reports\n- ⟦{爆発音|ばくはつおん}→爆発音：28327_bakuhatsuon⟧: explosion sound — for larger, broader blasts\n- ⟦{銃撃|じゅうげき}{戦|せん}→銃撃戦：23581_juugekisen⟧: gun battle, shootout — the event, not the sound",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "28327_bakuhatsuon",
+      "reading": "ばくはつおん",
+      "headword": "{爆発音|ばくはつおん}",
+      "label": "explosion sound"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23581_juugekisen",
+      "reading": "じゅうげきせん",
+      "headword": "{銃撃戦|じゅうげきせん}",
+      "label": "gun battle, shootout"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +69,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "military"
       ],
       "domain": []
     },
     "created": "2026-05-29T02:14:27Z",
-    "modified": "2026-08-08T03:27:39Z"
+    "modified": "2026-09-02T04:02:33Z"
   }
 }

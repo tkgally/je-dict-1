@@ -3,7 +3,7 @@
   "headword": "{小賢|こざか}しい",
   "reading": "こざかしい",
   "romaji": "kozakashii",
-  "part_of_speech": "adjective",
+  "part_of_speech": "i-adjective",
   "gloss": "impudently clever; cunning",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "23201_kozakashii_ex1",
-      "japanese": "{小賢|こざか}しい{真似|まね}はやめろ。",
+      "japanese": "{小賢|こざか}しい⟦{真似|まね}→真似：03736_mane⟧はやめろ。",
       "english": "Stop playing your petty tricks.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "23201_kozakashii_ex2",
-      "japanese": "あの{子|こ}は{小賢|こざか}しいことを{言|い}う。",
+      "japanese": "⟦あの→あの：00915_ano⟧⟦{子|こ}→子：09851_ko⟧⟦は→は：00079_ha⟧{小賢|こざか}しいこと⟦を→を：00422_wo⟧⟦{言|い}う→言う：00515_iu⟧。",
       "english": "That kid says annoyingly clever things.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "23201_kozakashii_ex3",
-      "japanese": "{小賢|こざか}しい{手段|しゅだん}で{人|ひと}を{騙|だま}そうとするやつは{信用|しんよう}できない。",
+      "japanese": "{小賢|こざか}しい⟦{手段|しゅだん}→手段：03219_shudan⟧⟦で→で：00502_de⟧⟦{人|ひと}→人：00476_hito⟧⟦を→を：00422_wo⟧⟦{騙|だま}そう→騙す：02286_damasu⟧⟦と→と：00512_to⟧⟦する→する：00392_suru⟧⟦やつ→やつ：10782_yatsu⟧⟦は→は：00079_ha⟧⟦{信用|しんよう}できない→信用する：25371_shinyousuru⟧。",
       "english": "You can't trust someone who tries to fool people with petty cunning.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "The prefix {小|こ} adds a diminutive, contemptuous nuance to {賢|かしこ}い (clever, smart). While {賢|かしこ}い is positive, {小賢|こざか}しい is always negative — it implies cleverness that is petty, irritating, or presumptuous.\n\nCOMMON COLLOCATIONS:\n- {小賢|こざか}しい{真似|まね}: petty tricks\n- {小賢|こざか}しい{手段|しゅだん}: cunning methods\n- {小賢|こざか}しいことを{言|い}う: to say annoyingly clever things\n- {小賢|こざか}しい{子|こ}ども: a precociously clever child (pejorative)\n\nSIMILAR WORDS:\n- {賢|かしこ}い: clever, smart — positive evaluation\n- {狡|ずる}い: sly, cunning — focuses on unfair advantage\n- {生意気|なまいき}: cheeky, impudent — focuses on disrespect toward superiors",
+  "notes": "The prefix ⟦{小|こ}→小〜：00240_ko⟧ adds a diminutive, contemptuous nuance to ⟦{賢|かしこ}い→賢い：00192_kashikoi⟧ (clever, smart). While ⟦{賢|かしこ}い→賢い：00192_kashikoi⟧ is positive, {小賢|こざか}しい is always negative — it implies cleverness that is petty, irritating, or presumptuous.\n\nCOMMON COLLOCATIONS:\n- {小賢|こざか}しい⟦{真似|まね}→真似：03736_mane⟧: petty tricks\n- {小賢|こざか}しい⟦{手段|しゅだん}→手段：03219_shudan⟧: cunning methods\n- {小賢|こざか}しいこと⟦を→を：00422_wo⟧⟦{言|い}う→言う：00515_iu⟧: to say annoyingly clever things\n- {小賢|こざか}しい{子|こ}ども: a precociously clever child (pejorative)\n\nSIMILAR WORDS:\n- ⟦{賢|かしこ}い→賢い：00192_kashikoi⟧: clever, smart — positive evaluation\n- ⟦{狡|ずる}い→狡い：03929_zurui⟧: sly, cunning — focuses on unfair advantage\n- ⟦{生意気|なまいき}→生意気：08271_namaiki⟧: cheeky, impudent — focuses on disrespect toward superiors",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00192_kashikoi",
+      "reading": "かしこい",
+      "headword": "{賢|かしこ}い",
+      "label": "clever, smart"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03929_zurui",
+      "reading": "ずるい",
+      "headword": "{狡|ずる}い",
+      "label": "sly, cunning"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08271_namaiki",
+      "reading": "なまいき",
+      "headword": "{生意気|なまいき}",
+      "label": "cheeky, impudent"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,7 +82,7 @@
       ]
     },
     "created": "2026-04-10T03:37:13Z",
-    "modified": "2026-04-10T03:37:13Z"
+    "modified": "2026-09-02T04:02:11Z"
   },
   "conjugation": {
     "type": "i-adjective",

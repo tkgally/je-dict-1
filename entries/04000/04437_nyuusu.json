@@ -118,7 +118,7 @@
       ]
     }
   ],
-  "notes": "From English \"news.\"\n\nCOMMON COLLOCATIONS:\n・ニュース⟦を→を：00422_wo⟧⟦{見|み}る→見る：00283_miru⟧ (to watch the news)\n・ニュース⟦を→を：00422_wo⟧⟦{聞|き}く→聞く：00483_kiku⟧ (to listen to the news)\n・ニュース⟦を→を：00422_wo⟧⟦{読|よ}む→読む：00426_yomu⟧ (to read the news)\n・ニュース⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧ (to become news)\n・⟦{最新|さいしん}→最新：04831_saishin⟧ニュース (latest news)\n・⟦{速報|そくほう}→速報：14319_sokuhou⟧ニュース (breaking news)\n\nTYPES:\n・⟦{国際|こくさい}→国際：01406_kokusai⟧ニュース (international news)\n・⟦スポーツ→スポーツ：04740_supootsu⟧ニュース (sports news)\n・⟦{経済|けいざい}→経済：01394_keizai⟧ニュース (economic news)\n・⟦フェイク→フェイク：11282_feiku⟧ニュース (fake news)\n\nRELATED TERMS:\n・⟦{報道|ほうどう}→報道：04438_houdou⟧ (news coverage, reporting)\n・⟦{記事|きじ}→記事：00227_kiji⟧ (article)",
+  "notes": "From English \"news.\"\n\nCOMMON COLLOCATIONS:\n- ニュース⟦を→を：00422_wo⟧⟦{見|み}る→見る：00283_miru⟧ (to watch the news)\n- ニュース⟦を→を：00422_wo⟧⟦{聞|き}く→聞く：00483_kiku⟧ (to listen to the news)\n- ニュース⟦を→を：00422_wo⟧⟦{読|よ}む→読む：00426_yomu⟧ (to read the news)\n- ニュース⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧ (to become news)\n- ⟦{最新|さいしん}→最新：04831_saishin⟧ニュース (latest news)\n- ⟦{速報|そくほう}→速報：14319_sokuhou⟧ニュース (breaking news)\n\nTYPES:\n- ⟦{国際|こくさい}→国際：01406_kokusai⟧ニュース (international news)\n- ⟦スポーツ→スポーツ：04740_supootsu⟧ニュース (sports news)\n- ⟦{経済|けいざい}→経済：01394_keizai⟧ニュース (economic news)\n- ⟦フェイク→フェイク：11282_feiku⟧ニュース (fake news)\n\nRELATED WORDS:\n- ⟦{報道|ほうどう}→報道：04438_houdou⟧ (news coverage, reporting)\n- ⟦{記事|きじ}→記事：00227_kiji⟧ (article)",
   "cross_references": [
     {
       "type": "related",
@@ -133,11 +133,39 @@
       "headword": "{記事|きじ}",
       "label": "article",
       "target_id": "00227_kiji"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03252_shirase",
+      "reading": "しらせ",
+      "headword": "{知|し}らせ",
+      "label": "notice, notification"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03348_jouhou",
+      "reading": "じょうほう",
+      "headword": "{情報|じょうほう}",
+      "label": "information, news, intelligence"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12967_jiji",
+      "reading": "じじ",
+      "headword": "{時事|じじ}",
+      "label": "current affairs, current events"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22156_jijimondai",
+      "reading": "じじもんだい",
+      "headword": "{時事|じじ}{問題|もんだい}",
+      "label": "current affairs"
     }
   ],
   "metadata": {
     "created": "2026-01-14T14:59:53Z",
-    "modified": "2026-06-10T17:34:32Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

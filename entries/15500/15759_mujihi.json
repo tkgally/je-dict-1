@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "15759_mujihi_ex1",
-      "japanese": "{無慈悲|むじひ}な{仕打|しう}ちに{耐|た}えた。",
+      "japanese": "{無慈悲|むじひ}な{仕打|しう}ち⟦に→に：00314_ni⟧⟦{耐|た}えた→耐える：12087_taeru⟧。",
       "english": "I endured merciless treatment.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "15759_mujihi_ex2",
-      "japanese": "{自然|しぜん}{災害|さいがい}は{無慈悲|むじひ}に{人々|ひとびと}の{生活|せいかつ}を{奪|うば}う。",
+      "japanese": "⟦{自然|しぜん}{災害|さいがい}→自然災害：29290_shizensaigai⟧⟦は→は：00079_ha⟧{無慈悲|むじひ}⟦に→に：00314_ni⟧⟦{人々|ひとびと}→人々：03141_hitobito⟧⟦の→の：09472_no⟧⟦{生活|せいかつ}→生活：01443_seikatsu⟧⟦を→を：00422_wo⟧⟦{奪|うば}う→奪う：01895_ubau⟧。",
       "english": "Natural disasters mercilessly rob people of their livelihoods.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "15759_mujihi_ex3",
-      "japanese": "{戦争|せんそう}の{無慈悲|むじひ}な{現実|げんじつ}を{伝|つた}えるドキュメンタリーが{放送|ほうそう}された。",
+      "japanese": "⟦{戦争|せんそう}→戦争：01450_sensou⟧⟦の→の：09472_no⟧{無慈悲|むじひ}な⟦{現実|げんじつ}→現実：02720_genjitsu⟧⟦を→を：00422_wo⟧⟦{伝|つた}える→伝える：01220_tsutaeru⟧⟦ドキュメンタリー→ドキュメンタリー：05250_dokyumentarii⟧⟦が→が：00051_ga⟧⟦{放送|ほうそう}→放送：02093_housou⟧⟦された→する：00392_suru⟧。",
       "english": "A documentary conveying the merciless reality of war was broadcast.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{無慈悲|むじひ} is a na-adjective: {無慈悲|むじひ}な (attributive) and {無慈悲|むじひ}に (adverbial). It is a literary or formal word, more commonly found in writing, news, and dramatic contexts than in casual conversation.\n\nCOMMON COLLOCATIONS:\n- {無慈悲|むじひ}な{攻撃|こうげき} (merciless attack)\n- {無慈悲|むじひ}な{仕打|しう}ち (cruel treatment)\n- {無慈悲|むじひ}に{切|き}り{捨|す}てる (ruthlessly discard)\n- {無慈悲|むじひ}な{現実|げんじつ} (merciless reality)\n\nSIMILAR WORDS:\n{冷酷|れいこく} means \"cold-hearted\" or \"ruthless\" with an emphasis on emotional coldness. {残酷|ざんこく} means \"cruel\" or \"brutal\" and emphasizes the infliction of suffering. {非情|ひじょう} means \"heartless\" or \"unfeeling.\"",
+  "notes": "USAGE:\n{無慈悲|むじひ} is a na-adjective: {無慈悲|むじひ}な (attributive) and {無慈悲|むじひ}⟦に→に：00314_ni⟧ (adverbial). It is a literary or formal word, more commonly found in writing, news, and dramatic contexts than in casual conversation.\n\nCOMMON COLLOCATIONS:\n- {無慈悲|むじひ}な⟦{攻撃|こうげき}→攻撃：02748_kougeki⟧ (merciless attack)\n- {無慈悲|むじひ}な{仕打|しう}ち (cruel treatment)\n- {無慈悲|むじひ}⟦に→に：00314_ni⟧⟦{切|き}り{捨|す}てる→切り捨てる：05747_kirisuteru⟧ (ruthlessly discard)\n- {無慈悲|むじひ}な⟦{現実|げんじつ}→現実：02720_genjitsu⟧ (merciless reality)\n\nSIMILAR WORDS:\n⟦{冷酷|れいこく}→冷酷：15089_reikoku⟧ means \"cold-hearted\" or \"ruthless\" with an emphasis on emotional coldness. ⟦{残酷|ざんこく}→残酷：13201_zankoku⟧ means \"cruel\" or \"brutal\" and emphasizes the infliction of suffering. ⟦{非情|ひじょう}→非情：16027_hijou⟧ means \"heartless\" or \"unfeeling.\"",
   "cross_references": [
     {
       "type": "antonym",
@@ -73,11 +73,25 @@
       "reading": "ひじょう",
       "headword": "{非情|ひじょう}",
       "label": "heartless; unfeeling"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22136_nasakeyoushanai",
+      "reading": "なさけようしゃない",
+      "headword": "{情|なさ}け{容赦|ようしゃ}ない",
+      "label": "merciless"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25556_zankokuna",
+      "reading": "ざんこくな",
+      "headword": "{残酷|ざんこく}な",
+      "label": "cruel"
     }
   ],
   "metadata": {
     "created": "2026-03-08T09:14:38Z",
-    "modified": "2026-05-02T05:13:00Z",
+    "modified": "2026-09-02T04:01:42Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

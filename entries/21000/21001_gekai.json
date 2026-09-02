@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21001_gekai_ex1",
-      "japanese": "{外科医|げかい}になりたい。",
+      "japanese": "{外科医|げかい}⟦に→に：00314_ni⟧⟦なりたい→なる：01970_naru⟧。",
       "english": "I want to become a surgeon.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21001_gekai_ex2",
-      "japanese": "{外科医|げかい}が{手術|しゅじゅつ}の{説明|せつめい}をしてくれた。",
+      "japanese": "{外科医|げかい}⟦が→が：00051_ga⟧⟦{手術|しゅじゅつ}→手術：03218_shujutsu⟧⟦の→の：09472_no⟧⟦{説明|せつめい}→説明：01449_setsumei⟧⟦を→を：00422_wo⟧⟦して→する：00392_suru⟧⟦くれた→くれる：00724_kureru⟧。",
       "english": "The surgeon explained the operation to me.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21001_gekai_ex3",
-      "japanese": "{腕|うで}のいい{外科医|げかい}がいると{聞|き}いて、わざわざその{病院|びょういん}まで{通|かよ}っている。",
+      "japanese": "⟦{腕|うで}→腕：01006_ude⟧⟦の→の：09472_no⟧⟦いい→いい：00118_ii⟧{外科医|げかい}⟦が→が：00051_ga⟧⟦いる→いる：00495_iru⟧⟦と→と：00512_to⟧⟦{聞|き}いて→聞く：00483_kiku⟧、⟦わざわざ→わざわざ：06073_wazawaza⟧⟦その→その：00993_sono⟧⟦{病院|びょういん}→病院：00577_byouin⟧⟦まで→まで：00490_made⟧⟦{通|かよ}っている→通う：01217_kayou⟧。",
       "english": "I heard there's a skilled surgeon there, so I go out of my way to visit that hospital.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {外科|げか} (surgery, the surgical department) + {医|い} (doctor). Refers specifically to a doctor who performs surgery, as opposed to one who treats patients through medication or other non-surgical means.\n\nCOMMON COLLOCATIONS:\n- {心臓|しんぞう}{外科医|げかい}: cardiac surgeon\n- {脳|のう}{外科医|げかい}: neurosurgeon\n- {整形|せいけい}{外科医|げかい}: orthopedic surgeon\n- {腕|うで}のいい{外科医|げかい}: skilled surgeon\n\nSIMILAR WORDS:\n- {内科医|ないかい}: internist — a doctor who treats diseases without surgery\n- {医師|いし}: physician, doctor — the general term for a medical doctor\n- {執刀医|しっとうい}: operating surgeon — the doctor who actually performs the surgery (more specific)",
+  "notes": "Composed of ⟦{外科|げか}→外科：03983_geka⟧ (surgery, the surgical department) + {医|い} (doctor). Refers specifically to a doctor who performs surgery, as opposed to one who treats patients through medication or other non-surgical means.\n\nCOMMON COLLOCATIONS:\n- ⟦{心臓|しんぞう}→心臓：03262_shinzou⟧{外科医|げかい}: cardiac surgeon\n- ⟦{脳|のう}→脳：03537_nou⟧{外科医|げかい}: neurosurgeon\n- ⟦{整形|せいけい}→整形：09493_seikei⟧{外科医|げかい}: orthopedic surgeon\n- ⟦{腕|うで}→腕：01006_ude⟧⟦の→の：09472_no⟧⟦いい→いい：00118_ii⟧{外科医|げかい}: skilled surgeon\n\nSIMILAR WORDS:\n- {内科医|ないかい}: internist — a doctor who treats diseases without surgery\n- ⟦{医師|いし}→医師：11851_ishi⟧: physician, doctor — the general term for a medical doctor\n- ⟦{執刀医|しっとうい}→執刀医：17895_shittoui⟧: operating surgeon — the doctor who actually performs the surgery (more specific)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11851_ishi",
+      "reading": "いし",
+      "headword": "{医師|いし}",
+      "label": "physician, doctor"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17895_shittoui",
+      "reading": "しっとうい",
+      "headword": "{執刀医|しっとうい}",
+      "label": "operating surgeon"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +75,6 @@
       ]
     },
     "created": "2026-03-31T14:06:28Z",
-    "modified": "2026-07-29T00:22:41Z"
+    "modified": "2026-09-02T04:02:01Z"
   }
 }

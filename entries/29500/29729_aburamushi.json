@@ -15,41 +15,60 @@
   "examples": [
     {
       "id": "29729_aburamushi_ex1",
-      "japanese": "{葉|は}にアブラムシがつく。",
+      "japanese": "⟦{葉|は}→葉：02241_ha⟧⟦に→に：00314_ni⟧アブラムシ⟦が→が：00051_ga⟧つく。",
       "english": "Aphids get on the leaves.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29729_aburamushi_ex2",
-      "japanese": "バラにアブラムシがたくさんついている。",
+      "japanese": "バラ⟦に→に：00314_ni⟧アブラムシ⟦が→が：00051_ga⟧⟦たくさん→たくさん：00597_takusan⟧ついて⟦いる→いる：00495_iru⟧。",
       "english": "There are lots of aphids on the roses.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29729_aburamushi_ex3",
-      "japanese": "アブラムシは{植物|しょくぶつ}の{汁|しる}を{吸|す}って{弱|よわ}らせるので、{早|はや}めに{駆除|くじょ}したほうがよい。",
+      "japanese": "アブラムシ⟦は→は：00079_ha⟧⟦{植物|しょくぶつ}→植物：03248_shokubutsu⟧⟦の→の：09472_no⟧⟦{汁|しる}→汁：10462_shiru⟧⟦を→を：00422_wo⟧⟦{吸|す}って→吸う：04394_suu⟧⟦{弱|よわ}らせる→弱る：02439_yowaru⟧⟦の→の：09472_no⟧で、⟦{早|はや}め→早め：11176_hayame⟧⟦に→に：00314_ni⟧⟦{駆除|くじょ}した→駆除する：21319_kujosuru⟧ほう⟦が→が：00051_ga⟧よい。",
       "english": "Aphids weaken plants by sucking their sap, so it is best to get rid of them early.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Usually written in katakana. A widespread pest on garden plants and crops; it sucks sap and can spread plant diseases.\n\nCOMMON COLLOCATIONS:\n- アブラムシがつく: aphids infest (a plant)\n- アブラムシを{駆除|くじょ}する: to exterminate aphids\n- アブラムシの{大量|たいりょう}{発生|はっせい}: an aphid outbreak\n\nSIMILAR WORDS:\n- {害虫|がいちゅう}: pest — the general category; アブラムシ is a specific example",
+  "notes": "Usually written in katakana. A widespread pest on garden plants and crops; it sucks sap and can spread plant diseases.\n\nCOMMON COLLOCATIONS:\n- アブラムシ⟦が→が：00051_ga⟧つく: aphids infest (a plant)\n- アブラムシ⟦を→を：00422_wo⟧⟦{駆除|くじょ}する→駆除する：21319_kujosuru⟧: to exterminate aphids\n- アブラムシ⟦の→の：09472_no⟧⟦{大量|たいりょう}→大量：03112_tairyou⟧⟦{発生|はっせい}→発生：03133_hassei⟧: an aphid outbreak\n\nSIMILAR WORDS:\n- ⟦{害虫|がいちゅう}→害虫：06430_gaichuu⟧: pest — the general category; アブラムシ is a specific example",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06430_gaichuu",
+      "reading": "がいちゅう",
+      "headword": "{害虫|がいちゅう}",
+      "label": "pest"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["animal-insect"],
+      "politeness": "plain",
+      "semantic": [
+        "animal-insect"
+      ],
       "domain": []
     },
     "created": "2026-07-09T03:19:05Z",
-    "modified": "2026-07-09T03:19:05Z"
+    "modified": "2026-09-02T04:02:37Z"
   }
 }

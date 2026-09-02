@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "18169_saininshiki_ex1",
-      "japanese": "{健康|けんこう}の{大切|たいせつ}さを{再認識|さいにんしき}した。",
+      "japanese": "⟦{健康|けんこう}→健康：02706_kenkou⟧⟦の→の：09472_no⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧さ⟦を→を：00422_wo⟧{再認識|さいにんしき}⟦した→する：00392_suru⟧。",
       "english": "I gained a renewed appreciation for the importance of health.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "18169_saininshiki_ex2",
-      "japanese": "{今回|こんかい}の{旅|たび}で{日本|にほん}の{良|よ}さを{再認識|さいにんしき}した。",
+      "japanese": "⟦{今回|こんかい}→今回：01409_konkai⟧⟦の→の：09472_no⟧⟦{旅|たび}→旅：03407_tabi⟧⟦で→で：00502_de⟧⟦{日本|にほん}→日本：03876_nihon⟧⟦の→の：09472_no⟧{良|よ}さ⟦を→を：00422_wo⟧{再認識|さいにんしき}⟦した→する：00392_suru⟧。",
       "english": "On this trip, I gained a fresh appreciation for the good things about Japan.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "18169_saininshiki_ex3",
-      "japanese": "{災害|さいがい}を{経験|けいけん}して、{地域|ちいき}のつながりの{重要性|じゅうようせい}を{再認識|さいにんしき}させられた。",
+      "japanese": "⟦{災害|さいがい}→災害：09636_saigai⟧⟦を→を：00422_wo⟧⟦{経験|けいけん}→経験：01179_keiken⟧⟦して→する：00392_suru⟧、⟦{地域|ちいき}→地域：01461_chiiki⟧⟦の→の：09472_no⟧つながり⟦の→の：09472_no⟧⟦{重要性|じゅうようせい}→重要性：04823_juuyousei⟧⟦を→を：00422_wo⟧{再認識|さいにんしき}⟦させられた→する：00392_suru⟧。",
       "english": "Experiencing the disaster made me realize anew the importance of community ties.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nVery common in essays, speeches, and reflective writing. The typical pattern is \"X を{再認識|さいにんしき}する\" — to gain a renewed appreciation for X. Often triggered by an event or experience that shifts one's perspective.\n\nCOMMON COLLOCATIONS:\n- {再認識|さいにんしき}する (to recognize anew)\n- {再認識|さいにんしき}させられる (to be made to realize anew)\n- {重要性|じゅうようせい}を{再認識|さいにんしき}する (to re-appreciate the importance of)\n\nSIMILAR WORDS:\n- {再確認|さいかくにん}: reconfirmation — checking or verifying something again, more factual\n- {見直|みなお}す: to reconsider — broader; can mean re-evaluating upward or reassessing a plan",
+  "notes": "USAGE:\nVery common in essays, speeches, and reflective writing. The typical pattern is \"X ⟦を→を：00422_wo⟧{再認識|さいにんしき}⟦する→する：00392_suru⟧\" — to gain a renewed appreciation for X. Often triggered by an event or experience that shifts one's perspective.\n\nCOMMON COLLOCATIONS:\n- {再認識|さいにんしき}⟦する→する：00392_suru⟧ (to recognize anew)\n- {再認識|さいにんしき}⟦させられる→する：00392_suru⟧ (to be made to realize anew)\n- ⟦{重要性|じゅうようせい}→重要性：04823_juuyousei⟧⟦を→を：00422_wo⟧{再認識|さいにんしき}⟦する→する：00392_suru⟧ (to re-appreciate the importance of)\n\nSIMILAR WORDS:\n- ⟦{再確認|さいかくにん}→再確認：16446_saikakunin⟧: reconfirmation — checking or verifying something again, more factual\n- ⟦{見直|みなお}す→見直す：04579_minaosu⟧: to reconsider — broader; can mean re-evaluating upward or reassessing a plan",
   "cross_references": [
     {
       "type": "synonym",
@@ -142,11 +142,18 @@
       "reading": "さいかくにん",
       "headword": "{再確認|さいかくにん}",
       "label": "reconfirmation (factual)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04579_minaosu",
+      "reading": "みなおす",
+      "headword": "{見直|みなお}す",
+      "label": "to reconsider"
     }
   ],
   "metadata": {
     "created": "2026-03-20T08:58:05Z",
-    "modified": "2026-05-08T06:14:38Z",
+    "modified": "2026-09-02T04:01:51Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -159,7 +166,8 @@
       "semantic": [
         "cognition"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

@@ -15,41 +15,60 @@
   "examples": [
     {
       "id": "27490_kyuusuisha_ex1",
-      "japanese": "{給水車|きゅうすいしゃ}が{到着|とうちゃく}した。",
+      "japanese": "{給水車|きゅうすいしゃ}⟦が→が：00051_ga⟧⟦{到着|とうちゃく}→到着：02526_touchaku⟧⟦した→する：00392_suru⟧。",
       "english": "The water tanker truck has arrived.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27490_kyuusuisha_ex2",
-      "japanese": "{断水|だんすい}のため{給水車|きゅうすいしゃ}を{呼|よ}んだ。",
+      "japanese": "⟦{断水|だんすい}→断水：04518_dansui⟧⟦の→の：09472_no⟧⟦ため→ため：01145_tame⟧{給水車|きゅうすいしゃ}⟦を→を：00422_wo⟧⟦{呼|よ}んだ→呼ぶ：00766_yobu⟧。",
       "english": "We called for a water tanker because the water was cut off.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27490_kyuusuisha_ex3",
-      "japanese": "{地震|じしん}の{後|あと}、{被災地|ひさいち}には{毎日|まいにち}{何台|なんだい}もの{給水車|きゅうすいしゃ}が{派遣|はけん}された。",
+      "japanese": "⟦{地震|じしん}→地震：01608_jishin⟧⟦の→の：09472_no⟧⟦{後|あと}→後：09580_ato⟧、⟦{被災地|ひさいち}→被災地：27434_hisaichi⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{毎日|まいにち}→毎日：00729_mainichi⟧{何台|なんだい}⟦も→も：00484_mo⟧⟦の→の：09472_no⟧{給水車|きゅうすいしゃ}⟦が→が：00051_ga⟧⟦{派遣|はけん}→派遣：13273_haken⟧⟦された→する：00392_suru⟧。",
       "english": "After the earthquake, several water tanker trucks were dispatched to the affected area every day.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Compound of {給水|きゅうすい} (water supply) + {車|しゃ} (vehicle).\n\nCOMMON COLLOCATIONS:\n- {給水車|きゅうすいしゃ}が{来|く}る: a water tanker arrives\n- {給水車|きゅうすいしゃ}を{派遣|はけん}する: to dispatch water tankers\n- {給水車|きゅうすいしゃ}に{並|なら}ぶ: to line up at the water tanker\n\nUSAGE CONTEXT:\nMost commonly seen in disaster-relief news. After a major earthquake or typhoon damages the water supply, local governments and the Self-Defense Forces dispatch {給水車|きゅうすいしゃ} so residents can fill containers with drinking water.",
+  "notes": "Compound of ⟦{給水|きゅうすい}→給水：15031_kyuusui⟧ (water supply) + ⟦{車|しゃ}→車：09874_sha⟧ (vehicle).\n\nCOMMON COLLOCATIONS:\n- {給水車|きゅうすいしゃ}⟦が→が：00051_ga⟧⟦{来|く}る→来る：00254_kuru⟧: a water tanker arrives\n- {給水車|きゅうすいしゃ}⟦を→を：00422_wo⟧⟦{派遣|はけん}→派遣：13273_haken⟧⟦する→する：00392_suru⟧: to dispatch water tankers\n- {給水車|きゅうすいしゃ}⟦に→に：00314_ni⟧⟦{並|なら}ぶ→並ぶ：00605_narabu⟧: to line up at the water tanker\n\nUSAGE:\nMost commonly seen in disaster-relief news. After a major earthquake or typhoon damages the water supply, local governments and the Self-Defense Forces dispatch {給水車|きゅうすいしゃ} so residents can fill containers with drinking water.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "04518_dansui",
+      "reading": "だんすい",
+      "headword": "{断水|だんすい}",
+      "label": "water outage, water cutoff"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["transportation"],
+      "politeness": "plain",
+      "semantic": [
+        "transportation"
+      ],
       "domain": []
     },
     "created": "2026-05-12T23:55:21Z",
-    "modified": "2026-05-12T23:55:21Z"
+    "modified": "2026-09-02T04:02:30Z"
   }
 }

@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08361_momegoto_ex1",
-      "japanese": "{揉|も}め{事|ごと}を{避|さ}けたい。",
+      "japanese": "{揉|も}め{事|ごと}⟦を→を：00422_wo⟧⟦{避|さ}けたい→避ける：02109_sakeru⟧。",
       "english": "I want to avoid trouble.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "08361_momegoto_ex2",
-      "japanese": "{隣人|りんじん}との{揉|も}め{事|ごと}がある。",
+      "japanese": "⟦{隣人|りんじん}→隣人：10007_rinjin⟧⟦と→と：00512_to⟧⟦の→の：09472_no⟧{揉|も}め{事|ごと}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "I have a dispute with my neighbor.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "08361_momegoto_ex3",
-      "japanese": "{遺産相続|いさんそうぞく}の{揉|も}め{事|ごと}で{兄弟|きょうだい}が{疎遠|そえん}になった。",
+      "japanese": "{遺産相続|いさんそうぞく}⟦の→の：09472_no⟧{揉|も}め{事|ごと}⟦で→で：00502_de⟧⟦{兄弟|きょうだい}→兄弟：00964_kyoudai⟧⟦が→が：00051_ga⟧⟦{疎遠|そえん}→疎遠：08372_soen⟧になった。",
       "english": "The siblings became estranged due to an inheritance dispute.",
       "sense_numbers": [
         1
@@ -43,7 +43,7 @@
       "notes": null
     }
   ],
-  "notes": "FORMATION:\n{揉|も}める (to quarrel, to have friction) + {事|ごと} (matter, thing) → a matter of dispute\n\nVERB FORM:\n{揉|も}める - to quarrel, to have trouble\n\nRELATED WORDS:\n- {諍|いさか}い (quarrel, dispute)\n- {喧嘩|けんか} (fight, quarrel)\n- {トラブル} (trouble)\n- {紛争|ふんそう} (conflict, dispute - more formal/serious)\n\nCOLLOCATIONS:\n- {揉|も}め{事|ごと}を{起|お}こす (to cause trouble)\n- {揉|も}め{事|ごと}に{巻|ま}き{込|こ}まれる (to get involved in a dispute)\n- {揉|も}め{事|ごと}を{収|おさ}める (to settle a dispute)",
+  "notes": "FORMS:\n⟦{揉|も}める→揉める：07385_momeru⟧ (to quarrel, to have friction) + {事|ごと} (matter, thing) → a matter of dispute\n⟦{揉|も}める→揉める：07385_momeru⟧ - to quarrel, to have trouble\n\nRELATED WORDS:\n- {諍|いさか}い (quarrel, dispute)\n- ⟦{喧嘩|けんか}→喧嘩：02996_kenka⟧ (fight, quarrel)\n- ⟦トラブル→トラブル：07061_toraburu⟧ (trouble)\n- ⟦{紛争|ふんそう}→紛争：05758_funsou⟧ (conflict, dispute - more formal/serious)\n\nCOMMON COLLOCATIONS:\n- {揉|も}め{事|ごと}⟦を→を：00422_wo⟧⟦{起|お}こす→起こす：01234_okosu⟧ (to cause trouble)\n- {揉|も}め{事|ごと}⟦に→に：00314_ni⟧⟦{巻|ま}き{込|こ}まれる→巻き込む：05753_makikomu⟧ (to get involved in a dispute)\n- {揉|も}め{事|ごと}⟦を→を：00422_wo⟧⟦{収|おさ}める→収める：02022_osameru⟧ (to settle a dispute)",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -51,13 +51,14 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "society",
         "communication"
       ]
     },
     "created": "2026-01-26T04:46:09Z",
-    "modified": "2026-08-12T12:50:50Z"
+    "modified": "2026-09-02T04:01:14Z"
   },
   "cross_references": [
     {
@@ -73,6 +74,27 @@
       "reading": "けんか",
       "headword": "{喧嘩|けんか}",
       "label": "fight, quarrel"
+    },
+    {
+      "type": "related",
+      "target_id": "07061_toraburu",
+      "reading": "とらぶる",
+      "headword": "トラブル",
+      "label": "trouble"
+    },
+    {
+      "type": "related",
+      "target_id": "05758_funsou",
+      "reading": "ふんそう",
+      "headword": "{紛争|ふんそう}",
+      "label": "conflict, dispute"
+    },
+    {
+      "type": "related",
+      "target_id": "07385_momeru",
+      "reading": "もめる",
+      "headword": "{揉|も}める",
+      "label": "to have trouble"
     }
   ]
 }

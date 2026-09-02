@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "19875_naisen_ex1",
-      "japanese": "{内戦|ないせん}が{続|つづ}いている。",
+      "japanese": "{内戦|ないせん}⟦が→が：00051_ga⟧⟦{続|つづ}いている→続く：00903_tsuzuku⟧。",
       "english": "The civil war is continuing.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "19875_naisen_ex2",
-      "japanese": "{長|なが}い{内戦|ないせん}で{国|くに}は{荒|あ}れた。",
+      "japanese": "⟦{長|なが}い→長い：00491_nagai⟧{内戦|ないせん}⟦で→で：00502_de⟧⟦{国|くに}→国：02204_kuni⟧⟦は→は：00079_ha⟧⟦{荒|あ}れた→荒れる：04577_areru⟧。",
       "english": "The country was devastated by a long civil war.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "19875_naisen_ex3",
-      "japanese": "{内戦|ないせん}の{影響|えいきょう}で{多|おお}くの{人|ひと}が{国外|こくがい}に{逃|に}げた。",
+      "japanese": "{内戦|ないせん}⟦の→の：09472_no⟧⟦{影響|えいきょう}→影響：01877_eikyou⟧⟦で→で：00502_de⟧{多|おお}く⟦の→の：09472_no⟧⟦{人|ひと}→人：00476_hito⟧⟦が→が：00051_ga⟧⟦{国外|こくがい}→国外：20936_kokugai⟧⟦に→に：00314_ni⟧⟦{逃|に}げた→逃げる：01151_nigeru⟧。",
       "english": "Many people fled the country due to the effects of the civil war.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Refers specifically to armed conflict within a single nation, as opposed to wars between countries. Frequently used in news reporting about international affairs.\n\nCOMMON COLLOCATIONS:\n- {内戦|ないせん}が{勃発|ぼっぱつ}する — a civil war breaks out\n- {内戦|ないせん}が{終結|しゅうけつ}する — a civil war ends\n- {内戦|ないせん}{状態|じょうたい} — a state of civil war\n- {内戦|ないせん}の{犠牲者|ぎせいしゃ} — victims of a civil war\n\nSIMILAR WORDS:\n- {戦争|せんそう} — war; the general term, usually for international conflict\n- {紛争|ふんそう} — conflict, dispute; broader term that includes non-military clashes\n- {内乱|ないらん} — internal revolt, insurrection; emphasizes disorder and rebellion",
+  "notes": "Refers specifically to armed conflict within a single nation, as opposed to wars between countries. Frequently used in news reporting about international affairs.\n\nCOMMON COLLOCATIONS:\n- {内戦|ないせん}⟦が→が：00051_ga⟧⟦{勃発|ぼっぱつ}→勃発：11823_boppatsu⟧⟦する→する：00392_suru⟧ — a civil war breaks out\n- {内戦|ないせん}⟦が→が：00051_ga⟧⟦{終結|しゅうけつ}→終結：13851_shuuketsu⟧⟦する→する：00392_suru⟧ — a civil war ends\n- {内戦|ないせん}⟦{状態|じょうたい}→状態：03345_joutai⟧ — a state of civil war\n- {内戦|ないせん}⟦の→の：09472_no⟧⟦{犠牲者|ぎせいしゃ}→犠牲者：18769_giseisha⟧ — victims of a civil war\n\nSIMILAR WORDS:\n- ⟦{戦争|せんそう}→戦争：01450_sensou⟧ — war; the general term, usually for international conflict\n- ⟦{紛争|ふんそう}→紛争：05758_funsou⟧ — conflict, dispute; broader term that includes non-military clashes\n- ⟦{内乱|ないらん}→内乱：11749_nairan⟧ — internal revolt, insurrection; emphasizes disorder and rebellion",
   "cross_references": [
     {
       "type": "homophone",
@@ -59,6 +59,20 @@
       "reading": "ないらん",
       "headword": "{内乱|ないらん}",
       "label": "formal, legal term"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01450_sensou",
+      "reading": "せんそう",
+      "headword": "{戦争|せんそう}",
+      "label": "war"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05758_funsou",
+      "reading": "ふんそう",
+      "headword": "{紛争|ふんそう}",
+      "label": "conflict, dispute"
     }
   ],
   "schema_version": "2.0",
@@ -76,6 +90,6 @@
       ]
     },
     "created": "2026-03-27T05:09:12Z",
-    "modified": "2026-03-29T10:42:23Z"
+    "modified": "2026-09-02T04:01:57Z"
   }
 }

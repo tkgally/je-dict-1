@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26640_sangaidate_ex1",
-      "japanese": "{三階建|さんがいだ}ての{家|いえ}に{住|す}んでいる。",
+      "japanese": "{三階建|さんがいだ}て⟦の→の：09472_no⟧⟦{家|いえ}→家：00612_ie⟧⟦に→に：00314_ni⟧⟦{住|す}んでいる→住む：00673_sumu⟧。",
       "english": "I live in a three-story house.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26640_sangaidate_ex2",
-      "japanese": "この{辺|あた}りは{三階建|さんがいだ}てのアパートが{多|おお}い。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{辺|あた}り→辺り：01770_atari⟧⟦は→は：00079_ha⟧{三階建|さんがいだ}て⟦の→の：09472_no⟧⟦アパート→アパート：01012_apaato⟧⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "There are many three-story apartment buildings in this area.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26640_sangaidate_ex3",
-      "japanese": "{新|あたら}しい{校舎|こうしゃ}は{三階建|さんがいだ}てで、{屋上|おくじょう}にプールが{付|つ}いている。",
+      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦{校舎|こうしゃ}→校舎：02801_kousha⟧⟦は→は：00079_ha⟧{三階建|さんがいだ}て⟦で→で：00502_de⟧、⟦{屋上|おくじょう}→屋上：01341_okujou⟧⟦に→に：00314_ni⟧⟦プール→プール：02958_puuru⟧⟦が→が：00051_ga⟧⟦{付|つ}いている→付く：01960_tsuku⟧。",
       "english": "The new school building is three stories tall and has a pool on the roof.",
       "sense_numbers": [
         1
@@ -44,8 +44,16 @@
       "notes": null
     }
   ],
-  "notes": "Part of the productive ～{階建|かいだ}て pattern used to describe the number of stories in a building. The pattern is: number + {階|かい} + {建|だ}て.\n\nCOMMON PATTERN EXAMPLES:\n- {二階建|にかいだ}て: two-story\n- {三階建|さんがいだ}て: three-story\n- {五階建|ごかいだ}て: five-story\n- {十階建|じゅっかいだ}て: ten-story\n\nUSAGE:\nThis compound functions as a noun that modifies other nouns with の, or is used as a prenominal modifier with の omitted. In real estate listings and architecture, this is one of the most basic building specifications. Note that {三階|さんがい} uses the reading がい (not かい) due to sequential voicing (rendaku) after さん.\n\nSIMILAR WORDS:\n- {三階|さんがい}: third floor — refers to a specific floor rather than the building's total number of stories\n- {平屋|ひらや}: single-story house — a specific architectural term rather than a numbered description",
-  "cross_references": [],
+  "notes": "Part of the productive ～⟦{階建|かいだ}て→階建て：29226_kaidate⟧ pattern used to describe the number of stories in a building. The pattern is: number + ⟦{階|かい}→階：01034_kai⟧ + {建|だ}て.\n\nCOMMON PATTERN EXAMPLES:\n- ⟦{二階建|にかいだ}て→二階建て：03001_nikaidate⟧: two-story\n- {三階建|さんがいだ}て: three-story\n- ⟦{五階建|ごかいだ}て→五階建て：28474_gokaidate⟧: five-story\n- {十階建|じゅっかいだ}て: ten-story\n\nUSAGE:\nThis compound functions as a noun that modifies other nouns with ⟦の→の：09472_no⟧, or is used as a prenominal modifier with ⟦の→の：09472_no⟧ omitted. In real estate listings and architecture, this is one of the most basic building specifications. Note that ⟦{三階|さんがい}→三階：27617_sangai⟧ uses the reading がい (not かい) due to sequential voicing (rendaku) after さん.\n\nSIMILAR WORDS:\n- ⟦{三階|さんがい}→三階：27617_sangai⟧: third floor — refers to a specific floor rather than the building's total number of stories\n- ⟦{平屋|ひらや}→平屋：15682_hiraya⟧: single-story house — a specific architectural term rather than a numbered description",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15682_hiraya",
+      "reading": "ひらや",
+      "headword": "{平屋|ひらや}",
+      "label": "single-story house"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -60,6 +68,6 @@
       ]
     },
     "created": "2026-05-03T16:09:42Z",
-    "modified": "2026-05-03T16:09:42Z"
+    "modified": "2026-09-02T04:02:27Z"
   }
 }

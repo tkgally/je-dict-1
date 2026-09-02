@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21220_hinshitsukanri_ex1",
-      "japanese": "{品質管理|ひんしつかんり}を{徹底|てってい}する。",
+      "japanese": "{品質管理|ひんしつかんり}⟦を→を：00422_wo⟧⟦{徹底|てってい}する→徹底する：21452_tetteisuru⟧。",
       "english": "To thoroughly enforce quality control.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21220_hinshitsukanri_ex2",
-      "japanese": "この{工場|こうじょう}では{厳|きび}しい{品質管理|ひんしつかんり}が{行|おこな}われている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{工場|こうじょう}→工場：01082_koujou⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{厳|きび}しい→厳しい：01125_kibishii⟧{品質管理|ひんしつかんり}⟦が→が：00051_ga⟧⟦{行|おこな}われている→行う：01238_okonau⟧。",
       "english": "Strict quality control is carried out at this factory.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21220_hinshitsukanri_ex3",
-      "japanese": "{品質管理|ひんしつかんり}{部門|ぶもん}が{不良品|ふりょうひん}の{原因|げんいん}を{調査|ちょうさ}している。",
+      "japanese": "{品質管理|ひんしつかんり}{部門|ぶもん}⟦が→が：00051_ga⟧⟦{不良品|ふりょうひん}→不良品：19452_furyouhin⟧⟦の→の：09472_no⟧⟦{原因|げんいん}→原因：01400_genin⟧⟦を→を：00422_wo⟧⟦{調査|ちょうさ}→調査：03489_chousa⟧⟦している→する：00392_suru⟧。",
       "english": "The quality control department is investigating the cause of the defective products.",
       "sense_numbers": [
         1
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {品質|ひんしつ} (quality) + {管理|かんり} (management, control). Often abbreviated as QC in Japanese business contexts.\n\nCOMMON COLLOCATIONS:\n- {品質管理|ひんしつかんり}{部門|ぶもん}: quality control department\n- {品質管理|ひんしつかんり}を{徹底|てってい}する: to ensure thorough quality control\n- {品質管理|ひんしつかんり}{基準|きじゅん}: quality control standards\n- {品質管理|ひんしつかんり}{体制|たいせい}: quality control system\n\nRELATED WORDS:\n- {品質保証|ひんしつほしょう}: quality assurance (QA) — broader than QC, covers the entire system for maintaining quality\n- {検品|けんぴん}: inspection of goods — the physical act of checking products\n- {不良品|ふりょうひん}: defective product — what quality control aims to prevent\n\nCULTURAL NOTE:\nJapanese manufacturing is world-renowned for its quality control practices. The concept of {改善|かいぜん} (continuous improvement) and QC circles ({品質管理|ひんしつかんり}サークル), where small groups of workers regularly meet to discuss quality improvements, originated in Japanese factories and became globally influential.",
+  "notes": "Compound of ⟦{品質|ひんしつ}→品質：09507_hinshitsu⟧ (quality) + ⟦{管理|かんり}→管理：00178_kanri⟧ (management, control). Often abbreviated as QC in Japanese business contexts.\n\nCOMMON COLLOCATIONS:\n- {品質管理|ひんしつかんり}{部門|ぶもん}: quality control department\n- {品質管理|ひんしつかんり}⟦を→を：00422_wo⟧⟦{徹底|てってい}する→徹底する：21452_tetteisuru⟧: to ensure thorough quality control\n- {品質管理|ひんしつかんり}⟦{基準|きじゅん}→基準：00228_kijun⟧: quality control standards\n- {品質管理|ひんしつかんり}⟦{体制|たいせい}→体制：04490_taisei⟧: quality control system\n\nRELATED WORDS:\n- ⟦{品質保証|ひんしつほしょう}→品質保証：22065_hinshitsuhoshou⟧: quality assurance (QA) — broader than QC, covers the entire system for maintaining quality\n- ⟦{検品|けんぴん}→検品：17217_kenpin⟧: inspection of goods — the physical act of checking products\n- ⟦{不良品|ふりょうひん}→不良品：19452_furyouhin⟧: defective product — what quality control aims to prevent\n\nCULTURAL NOTE:\nJapanese manufacturing is world-renowned for its quality control practices. The concept of ⟦{改善|かいぜん}→改善：00144_kaizen⟧ (continuous improvement) and QC circles ({品質管理|ひんしつかんり}⟦サークル→サークル：10933_saakuru⟧), where small groups of workers regularly meet to discuss quality improvements, originated in Japanese factories and became globally influential.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "22065_hinshitsuhoshou",
+      "reading": "ひんしつほしょう",
+      "headword": "{品質保証|ひんしつほしょう}",
+      "label": "quality assurance"
+    },
+    {
+      "type": "related",
+      "target_id": "17217_kenpin",
+      "reading": "けんぴん",
+      "headword": "{検品|けんぴん}",
+      "label": "inspection of goods"
+    },
+    {
+      "type": "related",
+      "target_id": "19452_furyouhin",
+      "reading": "ふりょうひん",
+      "headword": "{不良品|ふりょうひん}",
+      "label": "defective product"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23551_anzenkanri",
+      "reading": "あんぜんかんり",
+      "headword": "{安全|あんぜん}{管理|かんり}",
+      "label": "safety management"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +90,6 @@
       ]
     },
     "created": "2026-04-01T14:16:10Z",
-    "modified": "2026-07-29T00:22:41Z"
+    "modified": "2026-09-02T04:02:02Z"
   }
 }

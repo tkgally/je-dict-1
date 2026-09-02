@@ -3,7 +3,7 @@
   "id": "14770_shukuga",
   "headword": "{祝賀|しゅくが}",
   "reading": "しゅくが",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "celebration; congratulation",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "14770_shukuga_ex1",
-      "japanese": "{優勝|ゆうしょう}を{祝賀|しゅくが}する。",
+      "japanese": "⟦{優勝|ゆうしょう}→優勝：03647_yuushou⟧⟦を→を：00422_wo⟧{祝賀|しゅくが}⟦する→する：00392_suru⟧。",
       "english": "To celebrate the championship victory.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "14770_shukuga_ex2",
-      "japanese": "{祝賀|しゅくが}パーティーが{盛大|せいだい}に{行|おこな}われた。",
+      "japanese": "{祝賀|しゅくが}⟦パーティー→パーティー：02946_paatii⟧⟦が→が：00051_ga⟧⟦{盛大|せいだい}→盛大：13644_seidai⟧⟦に→に：00314_ni⟧⟦{行|おこな}われた→行う：01238_okonau⟧。",
       "english": "A grand celebration party was held.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "14770_shukuga_ex3",
-      "japanese": "{新年|しんねん}の{祝賀|しゅくが}{行事|ぎょうじ}には{多|おお}くの{市民|しみん}が{参加|さんか}し、{広場|ひろば}は{賑|にぎ}わいを{見|み}せた。",
+      "japanese": "⟦{新年|しんねん}→新年：09787_shinnen⟧⟦の→の：09472_no⟧{祝賀|しゅくが}⟦{行事|ぎょうじ}→行事：00078_gyouji⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{多|おお}く⟦の→の：09472_no⟧⟦{市民|しみん}→市民：01426_shimin⟧⟦が→が：00051_ga⟧⟦{参加|さんか}→参加：02498_sanka⟧し、⟦{広場|ひろば}→広場：00104_hiroba⟧⟦は→は：00079_ha⟧⟦{賑|にぎ}わい→賑わい：26838_nigiwai⟧⟦を→を：00422_wo⟧⟦{見|み}せた→見せる：01988_miseru⟧。",
       "english": "Many citizens participated in the New Year celebration events, and the plaza was bustling.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE: {祝賀|しゅくが} is a formal word used for official celebrations and ceremonies. In everyday conversation, {お{祝|いわ}い} is more natural.\n\nCOMMON COLLOCATIONS:\n- {祝賀|しゅくが}{会|かい} (celebration gathering/reception)\n- {祝賀|しゅくが}パーティー (celebration party)\n- {祝賀|しゅくが}{行事|ぎょうじ} (celebratory event)\n- {祝賀|しゅくが}ムード (celebratory mood)\n- {祝賀|しゅくが}{式典|しきてん} (celebration ceremony)\n\nSIMILAR WORDS: Compare with {祝辞|しゅくじ} (congratulatory speech), which is the address given at a celebration. {祝賀|しゅくが} refers to the celebration itself, while {祝辞|しゅくじ} is one element within it.",
+  "notes": "USAGE: {祝賀|しゅくが} is a formal word used for official celebrations and ceremonies. In everyday conversation, ⟦お{祝|いわ}い→お祝い：01339_oiwai⟧ is more natural.\n\nCOMMON COLLOCATIONS:\n- {祝賀|しゅくが}{会|かい} (celebration gathering/reception)\n- {祝賀|しゅくが}⟦パーティー→パーティー：02946_paatii⟧ (celebration party)\n- {祝賀|しゅくが}⟦{行事|ぎょうじ}→行事：00078_gyouji⟧ (celebratory event)\n- {祝賀|しゅくが}⟦ムード→ムード：11160_muudo⟧ (celebratory mood)\n- {祝賀|しゅくが}⟦{式典|しきてん}→式典：09526_shikiten⟧ (celebration ceremony)\n\nSIMILAR WORDS: Compare with ⟦{祝辞|しゅくじ}→祝辞：14759_shukuji⟧ (congratulatory speech), which is the address given at a celebration. {祝賀|しゅくが} refers to the celebration itself, while ⟦{祝辞|しゅくじ}→祝辞：14759_shukuji⟧ is one element within it.",
   "cross_references": [
     {
       "entry_id": "14759_shukuji",
@@ -143,11 +143,18 @@
       "type": "related",
       "notes": "Congratulatory speech — given at a celebration",
       "target_id": "14759_shukuji"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19725_keishuku",
+      "reading": "けいしゅく",
+      "headword": "{慶祝|けいしゅく}",
+      "label": "celebration"
     }
   ],
   "metadata": {
     "created": "2026-03-03T11:27:25Z",
-    "modified": "2026-03-29T10:42:23Z",
+    "modified": "2026-09-02T04:01:38Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -160,7 +167,8 @@
       "semantic": [
         "general"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

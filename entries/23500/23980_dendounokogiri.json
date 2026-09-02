@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "23980_dendounokogiri_ex1",
-      "japanese": "{電動|でんどう}のこぎりで{木|き}を{切|き}る。",
+      "japanese": "{電動|でんどう}のこぎり⟦で→で：00502_de⟧⟦{木|き}→木：00524_ki⟧⟦を→を：00422_wo⟧⟦{切|き}る→切る：02693_kiru⟧。",
       "english": "To cut wood with a power saw.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "23980_dendounokogiri_ex2",
-      "japanese": "ホームセンターで{電動|でんどう}のこぎりを{買|か}った。",
+      "japanese": "⟦ホームセンター→ホームセンター：11152_hoomusentaa⟧⟦で→で：00502_de⟧{電動|でんどう}のこぎり⟦を→を：00422_wo⟧⟦{買|か}った→買う：00489_kau⟧。",
       "english": "I bought a power saw at the home center.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "23980_dendounokogiri_ex3",
-      "japanese": "{電動|でんどう}のこぎりを{使|つか}うときは{必|かなら}ず{保護|ほご}メガネを{着用|ちゃくよう}してください。",
+      "japanese": "{電動|でんどう}のこぎり⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧とき⟦は→は：00079_ha⟧⟦{必|かなら}ず→必ず：01249_kanarazu⟧⟦{保護|ほご}→保護：03625_hogo⟧メガネ⟦を→を：00422_wo⟧⟦{着用|ちゃくよう}して→着用する：26849_chakuyousuru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Be sure to wear safety goggles when using a power saw.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {電動|でんどう} ('electrically powered') and のこぎり ('saw'). The word のこぎり is almost always written in hiragana, even though the kanji {鋸|のこぎり} exists. A common DIY and hardware-store term.\n\nUSAGE:\n- Covers most handheld electric saws in everyday speech. For specialized tools, more specific terms are used: {丸|まる}のこ (circular saw), ジグソー (jigsaw), チェーンソー (chainsaw), レシプロソー (reciprocating saw).\n- Frequently seen in DIY magazines, construction contexts, and product listings.\n- Contrasts with {手|て}のこぎり (hand saw), operated by arm motion alone.\n\nCOMMON COLLOCATIONS:\n- {電動|でんどう}のこぎりで{切|き}る: to cut with a power saw\n- {電動|でんどう}のこぎりを{使|つか}う: to use a power saw\n- {電動|でんどう}のこぎりの{刃|は}: the blade of a power saw\n- コードレス{電動|でんどう}のこぎり: cordless power saw\n\nSIMILAR WORDS:\n- {手|て}のこぎり: hand saw — manually operated, non-electric.\n- {丸|まる}のこ: circular saw — saw with a round rotating blade.\n- チェーンソー: chainsaw — specifically for felling trees and heavy cutting.\n- ジグソー: jigsaw — for cutting curves in wood.",
+  "notes": "Compound of ⟦{電動|でんどう}→電動：06412_dendou⟧ ('electrically powered') and のこぎり ('saw'). The word のこぎり is almost always written in hiragana, even though the kanji ⟦{鋸|のこぎり}→鋸：05477_nokogiri⟧ exists. A common DIY and hardware-store term.\n\nUSAGE:\n- Covers most handheld electric saws in everyday speech. For specialized tools, more specific terms are used: ⟦{丸|まる}のこ→丸のこ：30201_marunoko⟧ (circular saw), ジグソー (jigsaw), ⟦チェーンソー→チェーンソー：30211_cheensoo⟧ (chainsaw), レシプロソー (reciprocating saw).\n- Frequently seen in DIY magazines, construction contexts, and product listings.\n- Contrasts with ⟦{手|て}→手：00569_te⟧のこぎり (hand saw), operated by arm motion alone.\n\nCOMMON COLLOCATIONS:\n- {電動|でんどう}のこぎり⟦で→で：00502_de⟧⟦{切|き}る→切る：02693_kiru⟧: to cut with a power saw\n- {電動|でんどう}のこぎり⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧: to use a power saw\n- {電動|でんどう}のこぎり⟦の→の：09472_no⟧⟦{刃|は}→刃：09865_ha⟧: the blade of a power saw\n- コードレス{電動|でんどう}のこぎり: cordless power saw\n\nSIMILAR WORDS:\n- ⟦{手|て}→手：00569_te⟧のこぎり: hand saw — manually operated, non-electric.\n- ⟦{丸|まる}のこ→丸のこ：30201_marunoko⟧: circular saw — saw with a round rotating blade.\n- ⟦チェーンソー→チェーンソー：30211_cheensoo⟧: chainsaw — specifically for felling trees and heavy cutting.\n- ジグソー: jigsaw — for cutting curves in wood.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "30201_marunoko",
+      "reading": "まるのこ",
+      "headword": "丸のこ",
+      "label": "circular saw"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30211_cheensoo",
+      "reading": "ちぇーんそー",
+      "headword": "チェーンソー",
+      "label": "chainsaw"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +75,6 @@
       ]
     },
     "created": "2026-04-15T17:16:44Z",
-    "modified": "2026-08-02T18:32:34Z"
+    "modified": "2026-09-02T04:02:16Z"
   }
 }

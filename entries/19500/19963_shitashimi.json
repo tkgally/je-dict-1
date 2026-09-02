@@ -15,40 +15,80 @@
   "examples": [
     {
       "id": "19963_shitashimi_ex1",
-      "japanese": "{親|した}しみを{感|かん}じる。",
+      "japanese": "{親|した}しみ⟦を→を：00422_wo⟧⟦{感|かん}じる→感じる：02044_kanjiru⟧。",
       "english": "To feel a sense of familiarity.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19963_shitashimi_ex2",
-      "japanese": "あの{先生|せんせい}は{親|した}しみやすい{人|ひと}だ。",
+      "japanese": "⟦あの→あの：00915_ano⟧⟦{先生|せんせい}→先生：00609_sensei⟧⟦は→は：00079_ha⟧{親|した}しみやすい⟦{人|ひと}→人：00476_hito⟧だ。",
       "english": "That teacher is an approachable person.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19963_shitashimi_ex3",
-      "japanese": "{地元|じもと}の{方言|ほうげん}を{聞|き}くと、{懐|なつ}かしさと{親|した}しみがこみ{上|あ}げてくる。",
+      "japanese": "⟦{地元|じもと}→地元：09941_jimoto⟧⟦の→の：09472_no⟧⟦{方言|ほうげん}→方言：07419_hougen⟧⟦を→を：00422_wo⟧⟦{聞|き}く→聞く：00483_kiku⟧⟦と→と：00512_to⟧、{懐|なつ}かしさ⟦と→と：00512_to⟧{親|した}しみ⟦が→が：00051_ga⟧こみ{上|あ}げてくる。",
       "english": "When I hear the local dialect, nostalgia and a warm sense of familiarity well up inside me.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "The noun form of the verb {親|した}しむ (to feel close to, to be familiar with). Describes a warm, approachable quality in people, places, or things.\n\nCOMMON COLLOCATIONS:\n- {親|した}しみを{感|かん}じる: to feel familiarity/affection\n- {親|した}しみを{込|こ}めて: with affection, affectionately\n- {親|した}しみやすい: approachable, easy to feel close to\n- {親|した}しみのある{笑顔|えがお}: a friendly smile\n- {親|した}しみが{湧|わ}く: to feel warmth toward someone\n\nSIMILAR WORDS:\n- {愛着|あいちゃく}: attachment (deeper emotional bond, often to objects or places)\n- {好意|こうい}: goodwill, favorable feeling (more formal; can imply romantic interest)\n- {親近感|しんきんかん}: feeling of closeness (similar but slightly more formal; often used toward public figures)",
+  "notes": "The noun form of the verb ⟦{親|した}しむ→親しむ：14139_shitashimu⟧ (to feel close to, to be familiar with). Describes a warm, approachable quality in people, places, or things.\n\nCOMMON COLLOCATIONS:\n- {親|した}しみ⟦を→を：00422_wo⟧⟦{感|かん}じる→感じる：02044_kanjiru⟧: to feel familiarity/affection\n- {親|した}しみ⟦を→を：00422_wo⟧⟦{込|こ}めて→込める：01945_komeru⟧: with affection, affectionately\n- {親|した}しみやすい: approachable, easy to feel close to\n- {親|した}しみ⟦の→の：09472_no⟧⟦ある→ある：00006_aru⟧⟦{笑顔|えがお}→笑顔：01884_egao⟧: a friendly smile\n- {親|した}しみ⟦が→が：00051_ga⟧⟦{湧|わ}く→湧く：13321_waku_welling⟧: to feel warmth toward someone\n\nSIMILAR WORDS:\n- ⟦{愛着|あいちゃく}→愛着：04858_aichaku⟧: attachment (deeper emotional bond, often to objects or places)\n- ⟦{好意|こうい}→好意：12207_koui⟧: goodwill, favorable feeling (more formal; can imply romantic interest)\n- ⟦{親近感|しんきんかん}→親近感：19224_shinkinkan⟧: feeling of closeness (similar but slightly more formal; often used toward public figures)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04858_aichaku",
+      "reading": "あいちゃく",
+      "headword": "{愛着|あいちゃく}",
+      "label": "attachment"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12207_koui",
+      "reading": "こうい",
+      "headword": "{好意|こうい}",
+      "label": "goodwill, favorable feeling (more formal"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19224_shinkinkan",
+      "reading": "しんきんかん",
+      "headword": "{親近感|しんきんかん}",
+      "label": "feeling of closeness (similar but…"
+    },
+    {
+      "type": "related",
+      "target_id": "02345_shitashii",
+      "reading": "したしい",
+      "headword": "{親|した}しい",
+      "label": "intimate, close"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["emotion"]
+      "semantic": [
+        "emotion"
+      ]
     },
     "created": "2026-03-27T07:20:04Z",
-    "modified": "2026-03-27T07:20:04Z"
+    "modified": "2026-09-02T04:01:57Z"
   }
 }

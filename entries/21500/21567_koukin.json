@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21567_koukin_ex1",
-      "japanese": "{抗菌|こうきん}{加工|かこう}がされている。",
+      "japanese": "{抗菌|こうきん}⟦{加工|かこう}→加工：11793_kakou⟧⟦が→が：00051_ga⟧⟦されている→する：00392_suru⟧。",
       "english": "It has been given antibacterial treatment.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21567_koukin_ex2",
-      "japanese": "このまな{板|いた}は{抗菌|こうきん}{仕様|しよう}で{衛生的|えいせいてき}だ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦まな{板|いた}→まな板：04977_manaita⟧⟦は→は：00079_ha⟧{抗菌|こうきん}⟦{仕様|しよう}→仕様：00472_shiyou⟧⟦で→で：00502_de⟧⟦{衛生的|えいせいてき}→衛生的：27737_eiseiteki⟧だ。",
       "english": "This cutting board has antibacterial specifications and is hygienic.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21567_koukin_ex3",
-      "japanese": "{最近|さいきん}は{抗菌|こうきん}・{消臭|しょうしゅう}{機能|きのう}がついた{靴下|くつした}が{人気|にんき}だ。",
+      "japanese": "⟦{最近|さいきん}→最近：00881_saikin⟧⟦は→は：00079_ha⟧{抗菌|こうきん}・⟦{消臭|しょうしゅう}→消臭：21552_shoushuu⟧⟦{機能|きのう}→機能：13165_kinou⟧⟦が→が：00051_ga⟧ついた⟦{靴下|くつした}→靴下：00726_kutsushita⟧⟦が→が：00051_ga⟧⟦{人気|にんき}→人気：01488_ninki⟧だ。",
       "english": "Recently, socks with antibacterial and deodorizing functions have become popular.",
       "sense_numbers": [
         1
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {抗|こう} (anti-, resist) and {菌|きん} (bacteria, germs). Very common on product labels in Japan, especially for household items.\n\nCOMMON COLLOCATIONS:\n- {抗菌|こうきん}{加工|かこう}: antibacterial treatment/finish\n- {抗菌|こうきん}{仕様|しよう}: antibacterial specification\n- {抗菌|こうきん}{作用|さよう}: antibacterial action\n- {抗菌|こうきん}{剤|ざい}/{抗菌|こうきん}{薬|やく}: antibacterial agent/drug\n- {抗菌|こうきん}・{防臭|ぼうしゅう}: antibacterial and deodorant\n\nSIMILAR WORDS:\n- {抗菌|こうきん}: antibacterial — inhibiting bacterial growth\n- {殺菌|さっきん}: sterilization — killing bacteria\n- {除菌|じょきん}: sanitizing — removing bacteria\n- {滅菌|めっきん}: sterilization — completely destroying all microorganisms (medical/lab use)\n- {消毒|しょうどく}: disinfection — eliminating pathogens\n\nNOTE:\nJapan has a strong market for {抗菌|こうきん} products. The term appears on everything from phone cases and keyboards to socks, towels, and cutting boards.",
+  "notes": "Composed of {抗|こう} (anti-, resist) and ⟦{菌|きん}→菌：02682_kin⟧ (bacteria, germs). Very common on product labels in Japan, especially for household items.\n\nCOMMON COLLOCATIONS:\n- {抗菌|こうきん}⟦{加工|かこう}→加工：11793_kakou⟧: antibacterial treatment/finish\n- {抗菌|こうきん}⟦{仕様|しよう}→仕様：00472_shiyou⟧: antibacterial specification\n- {抗菌|こうきん}⟦{作用|さよう}→作用：05761_sayou⟧: antibacterial action\n- {抗菌|こうきん}⟦{剤|ざい}→〜剤：30790_zai⟧/{抗菌|こうきん}{薬|やく}: antibacterial agent/drug\n- {抗菌|こうきん}・{防臭|ぼうしゅう}: antibacterial and deodorant\n\nSIMILAR WORDS:\n- {抗菌|こうきん}: antibacterial — inhibiting bacterial growth\n- ⟦{殺菌|さっきん}→殺菌：09781_sakkin⟧: sterilization — killing bacteria\n- ⟦{除菌|じょきん}→除菌：07789_jokin⟧: sanitizing — removing bacteria\n- ⟦{滅菌|めっきん}→滅菌：24175_mekkin⟧: sterilization — completely destroying all microorganisms (medical/lab use)\n- ⟦{消毒|しょうどく}→消毒：07591_shoudoku⟧: disinfection — eliminating pathogens\n\nUSAGE:\nJapan has a strong market for {抗菌|こうきん} products. The term appears on everything from phone cases and keyboards to socks, towels, and cutting boards.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09781_sakkin",
+      "reading": "さっきん",
+      "headword": "{殺菌|さっきん}",
+      "label": "sterilization"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07789_jokin",
+      "reading": "じょきん",
+      "headword": "{除菌|じょきん}",
+      "label": "sanitizing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24175_mekkin",
+      "reading": "めっきん",
+      "headword": "{滅菌|めっきん}",
+      "label": "sterilization"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07591_shoudoku",
+      "reading": "しょうどく",
+      "headword": "{消毒|しょうどく}",
+      "label": "disinfection"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +90,6 @@
       ]
     },
     "created": "2026-04-02T16:19:52Z",
-    "modified": "2026-07-29T12:35:11Z"
+    "modified": "2026-09-02T04:02:04Z"
   }
 }

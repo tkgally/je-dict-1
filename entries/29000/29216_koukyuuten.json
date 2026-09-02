@@ -16,39 +16,65 @@
   "examples": [
     {
       "id": "29216_koukyuuten_ex1",
-      "japanese": "{高級店|こうきゅうてん}でディナーを{食|た}べた。",
+      "japanese": "{高級店|こうきゅうてん}⟦で→で：00502_de⟧⟦ディナー→ディナー：27996_dinaa⟧⟦を→を：00422_wo⟧⟦{食|た}べた→食べる：00396_taberu⟧。",
       "english": "I had dinner at an upscale restaurant.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29216_koukyuuten_ex2",
-      "japanese": "{銀座|ぎんざ}には{高級店|こうきゅうてん}が{立|た}ち{並|なら}んでいる。",
+      "japanese": "⟦{銀座|ぎんざ}→銀座：30631_ginza⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{高級店|こうきゅうてん}⟦が→が：00051_ga⟧{立|た}ち{並|なら}んで⟦いる→いる：00495_iru⟧。",
       "english": "Upscale shops line the streets of Ginza.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29216_koukyuuten_ex3",
-      "japanese": "{高級店|こうきゅうてん}とはいえ、サービスに{見合|みあ}う{価値|かち}があるかどうかは{別問題|べつもんだい}だ。",
+      "japanese": "{高級店|こうきゅうてん}⟦とはいえ→とはいえ：06282_tohaie⟧、⟦サービス→サービス：01531_saabisu⟧⟦に→に：00314_ni⟧⟦{見合|みあ}う→見合う：14391_miau⟧⟦{価値|かち}→価値：00131_kachi⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧⟦かどうか→かどうか：28299_kadouka⟧⟦は→は：00079_ha⟧{別問題|べつもんだい}だ。",
       "english": "Even if it is an upscale establishment, whether it offers value for the service is a separate question.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "SIMILAR WORDS:\n- {高級|こうきゅう}レストラン: high-end restaurant (more specific to dining)\n- {老舗|しにせ}: long-established shop — emphasizes history and tradition rather than price or luxury\n- {デパート|でぱーと}: department store — may contain high-end sections but is not itself a 高級店\n\nCOMMON COLLOCATIONS:\n- {高級店|こうきゅうてん}に{行く|いく}: to go to an upscale establishment\n- {高級|こうきゅう}{和食店|わしょくてん}: high-end Japanese restaurant\n- {高級|こうきゅう}ブランド{店|てん}: luxury brand store",
+  "notes": "SIMILAR WORDS:\n- ⟦{高級|こうきゅう}→高級：08644_koukyuu⟧⟦レストラン→レストラン：01048_resutoran⟧: high-end restaurant (more specific to dining)\n- ⟦{老舗|しにせ}→老舗：16152_shinise⟧: long-established shop — emphasizes history and tradition rather than price or luxury\n- ⟦デパート→デパート：01022_depaato⟧: department store — may contain high-end sections but is not itself a 高級店\n\nCOMMON COLLOCATIONS:\n- {高級店|こうきゅうてん}⟦に→に：00314_ni⟧⟦{行|い}く→行く：00119_iku⟧: to go to an upscale establishment\n- ⟦{高級|こうきゅう}→高級：08644_koukyuu⟧⟦{和食店|わしょくてん}→和食店：25455_washokuten⟧: high-end Japanese restaurant\n- ⟦{高級|こうきゅう}→高級：08644_koukyuu⟧⟦ブランド→ブランド：05221_burando⟧⟦{店|てん}→店：10011_ten⟧: luxury brand store",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16152_shinise",
+      "reading": "しにせ",
+      "headword": "{老舗|しにせ}",
+      "label": "long-established shop"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01022_depaato",
+      "reading": "でぱーと",
+      "headword": "デパート",
+      "label": "department store"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["shopping"]
+      "semantic": [
+        "shopping"
+      ]
     },
     "created": "2026-06-13T03:44:40Z",
-    "modified": "2026-06-13T03:48:15Z"
+    "modified": "2026-09-02T04:02:36Z"
   }
 }

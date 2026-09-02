@@ -2,7 +2,7 @@
   "id": "00693_dame",
   "headword": "だめ",
   "reading": "だめ",
-  "part_of_speech": "adjective (na-adjective), noun",
+  "part_of_speech": "na-adjective, noun",
   "gloss": "no good, useless, not allowed",
   "definitions": [
     {
@@ -118,7 +118,7 @@
       ]
     }
   ],
-  "notes": "だめ is a na-adjective/noun meaning \"no good\" or \"not allowed.\" Usually written in hiragana, though the kanji {駄目|だめ} exists.\n\nKEY PATTERNS:\n- 〜てはだめ: must not do (prohibition)\n- 〜ちゃだめ: casual form of 〜てはだめ\n- だめ⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧: to go bad, to break down\n- だめ⟦だった→だ：09496_da⟧: it didn't work out\n\nUSAGE NOTES:\n- Very direct; can sound harsh to children or in formal situations\n- For polite prohibition, 〜ては⟦いけません→いけない：02335_ikenai⟧ is softer\n- Xがだめ means \"bad at X\" or \"can't handle X\": ⟦{私|わたし}→私：02988_watashi⟧⟦は→は：00079_ha⟧⟦{朝|あさ}→朝：02277_asa⟧⟦が→が：00051_ga⟧だめ (I'm not a morning person)\n\nRELATED:\n- ⟦{無理|むり}→無理：01558_muri⟧: impossible, unreasonable\n- ⟦いけない→いけない：02335_ikenai⟧: not allowed (slightly softer)",
+  "notes": "だめ is a na-adjective/noun meaning \"no good\" or \"not allowed.\" Usually written in hiragana, though the kanji {駄目|だめ} exists.\n\nCOMMON PATTERNS:\n- 〜てはだめ: must not do (prohibition)\n- 〜ちゃだめ: casual form of 〜てはだめ\n- だめ⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧: to go bad, to break down\n- だめ⟦だった→だ：09496_da⟧: it didn't work out\n\nUSAGE:\n- Very direct; can sound harsh to children or in formal situations\n- For polite prohibition, 〜ては⟦いけません→いけない：02335_ikenai⟧ is softer\n- X⟦が→が：00051_ga⟧だめ means \"bad at X\" or \"can't handle X\": ⟦{私|わたし}→私：02988_watashi⟧⟦は→は：00079_ha⟧⟦{朝|あさ}→朝：02277_asa⟧⟦が→が：00051_ga⟧だめ (I'm not a morning person)\n\nRELATED WORDS:\n- ⟦{無理|むり}→無理：01558_muri⟧: impossible, unreasonable\n- ⟦いけない→いけない：02335_ikenai⟧: not allowed (slightly softer)",
   "cross_references": [
     {
       "type": "related",
@@ -126,11 +126,39 @@
       "reading": "あかん",
       "headword": "あかん",
       "label": "Kansai dialect"
+    },
+    {
+      "type": "related",
+      "target_id": "01558_muri",
+      "reading": "むり",
+      "headword": "{無理|むり}",
+      "label": "impossible, unreasonable"
+    },
+    {
+      "type": "related",
+      "target_id": "02335_ikenai",
+      "reading": "いけない",
+      "headword": "いけない",
+      "label": "not allowed"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02643_kinshi",
+      "reading": "きんし",
+      "headword": "{禁止|きんし}",
+      "label": "prohibition, ban"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09415_heboi",
+      "reading": "へぼい",
+      "headword": "へぼい",
+      "label": "lousy, crappy, incompetent"
     }
   ],
   "metadata": {
     "created": "2026-01-07T12:22:27Z",
-    "modified": "2026-05-12T16:12:28Z",
+    "modified": "2026-09-02T04:00:58Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

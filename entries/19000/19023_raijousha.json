@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "19023_raijousha_ex1",
-      "japanese": "{来場者|らいじょうしゃ}が{増|ふ}えている。",
+      "japanese": "{来場者|らいじょうしゃ}⟦が→が：00051_ga⟧⟦{増|ふ}えている→増える：01183_fueru⟧。",
       "english": "The number of visitors is increasing.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "19023_raijousha_ex2",
-      "japanese": "{来場者|らいじょうしゃ}にアンケートを{配|くば}った。",
+      "japanese": "{来場者|らいじょうしゃ}⟦に→に：00314_ni⟧⟦アンケート→アンケート：03829_ankeeto⟧⟦を→を：00422_wo⟧⟦{配|くば}った→配る：03921_kubaru⟧。",
       "english": "We distributed a survey to the visitors.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "19023_raijousha_ex3",
-      "japanese": "{今年|ことし}のイベントは{来場者|らいじょうしゃ}{数|すう}が{過去最多|かこさいた}を{記録|きろく}した。",
+      "japanese": "⟦{今年|ことし}→今年：00722_kotoshi⟧⟦の→の：09472_no⟧⟦イベント→イベント：09594_ibento⟧⟦は→は：00079_ha⟧{来場者|らいじょうしゃ}⟦{数|すう}→数：03360_suu⟧⟦が→が：00051_ga⟧{過去最多|かこさいた}⟦を→を：00422_wo⟧⟦{記録|きろく}した→記録する：25341_kirokusuru⟧。",
       "english": "This year's event recorded the highest number of visitors ever.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,61 @@
       ]
     }
   ],
-  "notes": "{来場者|らいじょうしゃ} refers to a person who visits or attends an event, exhibition, or venue. It is a formal compound used in official contexts.\n\nWORD FORMATION:\n{来場|らいじょう} (coming to a venue) + {者|しゃ} (person). The {者|しゃ} suffix creates a formal \"person who...\" compound.\n\nCOMMON COLLOCATIONS:\n- {来場者|らいじょうしゃ}{数|すう}: number of visitors/attendees\n- {来場者|らいじょうしゃ}アンケート: visitor survey\n- {来場者|らいじょうしゃ}{全員|ぜんいん}: all visitors\n- {来場者|らいじょうしゃ}{向|む}けの: aimed at visitors\n\nSIMILAR WORDS:\n- お{客|きゃく}さん: customer/visitor (casual, broader)\n- {参加者|さんかしゃ}: participant (emphasizes active involvement)\n- {観客|かんきゃく}: spectator, audience member (for shows/sports)\n- {入場者|にゅうじょうしゃ}: person entering a venue (focuses on admission)",
-  "cross_references": [],
+  "notes": "{来場者|らいじょうしゃ} refers to a person who visits or attends an event, exhibition, or venue. It is a formal compound used in official contexts.\n\nFORMS:\n⟦{来場|らいじょう}→来場：17703_raijou⟧ (coming to a venue) + ⟦{者|しゃ}→〜者：04662_sha⟧ (person). The ⟦{者|しゃ}→〜者：04662_sha⟧ suffix creates a formal \"person who...\" compound.\n\nCOMMON COLLOCATIONS:\n- {来場者|らいじょうしゃ}⟦{数|すう}→数：03360_suu⟧: number of visitors/attendees\n- {来場者|らいじょうしゃ}⟦アンケート→アンケート：03829_ankeeto⟧: visitor survey\n- {来場者|らいじょうしゃ}⟦{全員|ぜんいん}→全員：03310_zenin⟧: all visitors\n- {来場者|らいじょうしゃ}{向|む}け⟦の→の：09472_no⟧: aimed at visitors\n\nSIMILAR WORDS:\n- ⟦お{客|きゃく}さん→お客さん：10253_okyakusan⟧: customer/visitor (casual, broader)\n- ⟦{参加者|さんかしゃ}→参加者：03059_sankasha⟧: participant (emphasizes active involvement)\n- ⟦{観客|かんきゃく}→観客：02556_kankyaku⟧: spectator, audience member (for shows/sports)\n- ⟦{入場者|にゅうじょうしゃ}→入場者：23599_nyuujousha⟧: person entering a venue (focuses on admission)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "10253_okyakusan",
+      "reading": "おきゃくさん",
+      "headword": "お{客|きゃく}さん",
+      "label": "customer/visitor"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03059_sankasha",
+      "reading": "さんかしゃ",
+      "headword": "{参加者|さんかしゃ}",
+      "label": "participant"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02556_kankyaku",
+      "reading": "かんきゃく",
+      "headword": "{観客|かんきゃく}",
+      "label": "spectator, audience member"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23599_nyuujousha",
+      "reading": "にゅうじょうしゃ",
+      "headword": "{入場者|にゅうじょうしゃ}",
+      "label": "person entering a venue"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20975_shussekisha",
+      "reading": "しゅっせきしゃ",
+      "headword": "{出席者|しゅっせきしゃ}",
+      "label": "attendee"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23179_raikansha",
+      "reading": "らいかんしゃ",
+      "headword": "{来館者|らいかんしゃ}",
+      "label": "visitor (to a museum, library, or facility)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30194_raitenkyaku",
+      "reading": "らいてんきゃく",
+      "headword": "来店客",
+      "label": "customer visiting a store"
+    }
+  ],
   "metadata": {
     "created": "2026-03-24T01:01:35Z",
-    "modified": "2026-07-26T09:39:42Z",
+    "modified": "2026-09-02T04:01:54Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

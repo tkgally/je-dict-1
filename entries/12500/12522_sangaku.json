@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "12522_sangaku_ex1",
-      "japanese": "{山岳|さんがく}{地帯|ちたい}を{進|すす}む。",
+      "japanese": "{山岳|さんがく}⟦{地帯|ちたい}→地帯：04057_chitai⟧⟦を→を：00422_wo⟧⟦{進|すす}む→進む：01225_susumu⟧。",
       "english": "Advance through the mountainous region.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "12522_sangaku_ex2",
-      "japanese": "{山岳|さんがく}{救助|きゅうじょ}チームが{出動|しゅつどう}した。",
+      "japanese": "{山岳|さんがく}⟦{救助|きゅうじょ}→救助：02588_kyuujo⟧⟦チーム→チーム：03858_chiimu⟧⟦が→が：00051_ga⟧⟦{出動|しゅつどう}→出動：28803_shutsudou⟧⟦した→する：00392_suru⟧。",
       "english": "The mountain rescue team was dispatched.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "12522_sangaku_ex3",
-      "japanese": "{日本|にほん}の{山岳|さんがく}{信仰|しんこう}は{古|ふる}くから{続|つづ}いており、{多|おお}くの{山|やま}が{御神体|ごしんたい}とされている。",
+      "japanese": "⟦{日本|にほん}→日本：03876_nihon⟧⟦の→の：09472_no⟧{山岳|さんがく}⟦{信仰|しんこう}→信仰：03685_shinkou⟧⟦は→は：00079_ha⟧⟦{古|ふる}く→古い：00488_furui⟧⟦から→から：00504_kara⟧⟦{続|つづ}いて→続く：00903_tsuzuku⟧おり、{多|おお}く⟦の→の：09472_no⟧⟦{山|やま}→山：02168_yama⟧⟦が→が：00051_ga⟧⟦{御神体|ごしんたい}→御神体：23465_goshintai⟧⟦と→と：00512_to⟧⟦されている→する：00392_suru⟧。",
       "english": "Mountain worship in Japan has continued since ancient times, and many mountains are regarded as sacred objects.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,19 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA formal, literary term for mountains. In everyday speech, {山|やま} is more common, but {山岳|さんがく} appears frequently in compound words related to mountaineering, geography, and nature.\n\nCOMMON COLLOCATIONS:\n- {山岳|さんがく}{地帯|ちたい}: mountainous region\n- {山岳|さんがく}{部|ぶ}: mountaineering club\n- {山岳|さんがく}{救助|きゅうじょ}: mountain rescue\n- {山岳|さんがく}{信仰|しんこう}: mountain worship\n- {山岳|さんがく}ガイド: mountain guide",
-  "cross_references": [],
+  "notes": "USAGE:\nA formal, literary term for mountains. In everyday speech, ⟦{山|やま}→山：02168_yama⟧ is more common, but {山岳|さんがく} appears frequently in compound words related to mountaineering, geography, and nature.\n\nCOMMON COLLOCATIONS:\n- {山岳|さんがく}⟦{地帯|ちたい}→地帯：04057_chitai⟧: mountainous region\n- {山岳|さんがく}{部|ぶ}: mountaineering club\n- {山岳|さんがく}⟦{救助|きゅうじょ}→救助：02588_kyuujo⟧: mountain rescue\n- {山岳|さんがく}⟦{信仰|しんこう}→信仰：03685_shinkou⟧: mountain worship\n- {山岳|さんがく}⟦ガイド→ガイド：05116_gaido⟧: mountain guide",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24746_kouzan",
+      "reading": "こうざん",
+      "headword": "{高山|こうざん}",
+      "label": "high mountain"
+    }
+  ],
   "metadata": {
     "created": "2026-02-21T11:54:19Z",
-    "modified": "2026-07-06T12:49:19Z",
+    "modified": "2026-09-02T04:01:29Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "14825_seika_ex1",
-      "japanese": "{青果|せいか}コーナーで{野菜|やさい}を{選|えら}んだ。",
+      "japanese": "{青果|せいか}⟦コーナー→コーナー：10865_koonaa⟧⟦で→で：00502_de⟧⟦{野菜|やさい}→野菜：02265_yasai⟧⟦を→を：00422_wo⟧⟦{選|えら}んだ→選ぶ：00835_erabu⟧。",
       "english": "I picked out vegetables in the produce section.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14825_seika_ex2",
-      "japanese": "この{市場|いちば}は{青果|せいか}の{品揃|しなぞろ}えが{豊富|ほうふ}だ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{市場|いちば}→市場：01803_ichiba⟧⟦は→は：00079_ha⟧{青果|せいか}⟦の→の：09472_no⟧⟦{品揃|しなぞろ}え→品揃え：11844_shinazoroe⟧⟦が→が：00051_ga⟧⟦{豊富|ほうふ}→豊富：03620_houfu⟧だ。",
       "english": "This market has a rich selection of fresh produce.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14825_seika_ex3",
-      "japanese": "{駅前|えきまえ}に{新|あたら}しい{青果|せいか}{店|てん}がオープンして、{新鮮|しんせん}な{地元|じもと}の{野菜|やさい}や{果物|くだもの}が{手|て}に{入|はい}るようになった。",
+      "japanese": "⟦{駅前|えきまえ}→駅前：09593_ekimae⟧⟦に→に：00314_ni⟧⟦{新|あたら}しい→新しい：00506_atarashii⟧{青果|せいか}⟦{店|てん}→店：10011_ten⟧⟦が→が：00051_ga⟧⟦オープン→オープン：10831_oopun⟧⟦して→する：00392_suru⟧、⟦{新鮮|しんせん}→新鮮：03261_shinsen⟧な⟦{地元|じもと}→地元：09941_jimoto⟧⟦の→の：09472_no⟧⟦{野菜|やさい}→野菜：02265_yasai⟧や⟦{果物|くだもの}→果物：00509_kudamono⟧⟦が→が：00051_ga⟧⟦{手|て}→手：00569_te⟧⟦に→に：00314_ni⟧⟦{入|はい}る→入る：00494_hairu⟧ようになった。",
       "english": "A new produce shop opened near the station, making it possible to get fresh local vegetables and fruits.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "A compound of {青|せい} (green, fresh) and {果|か} (fruit). Used primarily in commercial and business contexts rather than casual conversation.\n\nCOMMON COLLOCATIONS:\n- {青果|せいか}{店|てん} (produce shop, greengrocer)\n- {青果|せいか}{市場|しじょう} (produce market, wholesale fruit and vegetable market)\n- {青果|せいか}コーナー (produce section in a supermarket)\n- {青果|せいか}{売|う}り{場|ば} (produce sales area)\n\nIn supermarkets, the produce section is typically labeled {青果|せいか} alongside {精肉|せいにく} (meat), {鮮魚|せんぎょ} (fresh fish), and {惣菜|そうざい} (deli/prepared foods). In everyday conversation, people usually say {野菜|やさい}と{果物|くだもの} rather than {青果|せいか}.",
+  "notes": "A compound of {青|せい} (green, fresh) and {果|か} (fruit). Used primarily in commercial and business contexts rather than casual conversation.\n\nCOMMON COLLOCATIONS:\n- {青果|せいか}⟦{店|てん}→店：10011_ten⟧ (produce shop, greengrocer)\n- {青果|せいか}⟦{市場|しじょう}→市場：09685_shijou⟧ (produce market, wholesale fruit and vegetable market)\n- {青果|せいか}⟦コーナー→コーナー：10865_koonaa⟧ (produce section in a supermarket)\n- {青果|せいか}⟦{売|う}り{場|ば}→売り場：01331_uriba⟧ (produce sales area)\n\nIn supermarkets, the produce section is typically labeled {青果|せいか} alongside ⟦{精肉|せいにく}→精肉：14826_seiniku⟧ (meat), ⟦{鮮魚|せんぎょ}→鮮魚：16483_sengyo⟧ (fresh fish), and ⟦{惣菜|そうざい}→惣菜：05827_souzai⟧ (deli/prepared foods). In everyday conversation, people usually say ⟦{野菜|やさい}→野菜：02265_yasai⟧⟦と→と：00512_to⟧⟦{果物|くだもの}→果物：00509_kudamono⟧ rather than {青果|せいか}.",
   "cross_references": [
     {
       "type": "related",
@@ -46,18 +52,29 @@
       "reading": "せいにく",
       "headword": "{精肉|せいにく}",
       "label": "meat (store department)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23482_kasai",
+      "reading": "かさい",
+      "headword": "{果菜|かさい}",
+      "label": "fruit vegetable"
     }
   ],
   "metadata": {
     "created": "2026-03-04T04:06:54Z",
-    "modified": "2026-05-01T04:26:51Z",
+    "modified": "2026-09-02T04:01:38Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food"]
+      "semantic": [
+        "food"
+      ]
     }
   }
 }

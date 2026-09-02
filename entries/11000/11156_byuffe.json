@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "11156_byuffe_ex1",
-      "japanese": "ビュッフェ{形式|けいしき}のランチだ。",
+      "japanese": "ビュッフェ⟦{形式|けいしき}→形式：00211_keishiki⟧⟦の→の：09472_no⟧⟦ランチ→ランチ：11196_ranchi⟧だ。",
       "english": "It's a buffet-style lunch.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "11156_byuffe_ex2",
-      "japanese": "ホテルの{朝食|ちょうしょく}はビュッフェだった。",
+      "japanese": "⟦ホテル→ホテル：01027_hoteru⟧⟦の→の：09472_no⟧⟦{朝食|ちょうしょく}→朝食：03122_choushoku⟧⟦は→は：00079_ha⟧ビュッフェだった。",
       "english": "The hotel breakfast was a buffet.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "11156_byuffe_ex3",
-      "japanese": "このレストランはスイーツビュッフェが{人気|にんき}で、{週末|しゅうまつ}は{予約|よやく}が{取|と}りにくい。",
+      "japanese": "⟦この→この：00962_kono⟧⟦レストラン→レストラン：01048_resutoran⟧⟦は→は：00079_ha⟧⟦スイーツ→スイーツ：27370_suiitsu⟧ビュッフェ⟦が→が：00051_ga⟧⟦{人気|にんき}→人気：01488_ninki⟧⟦で→で：00502_de⟧、⟦{週末|しゅうまつ}→週末：03030_shuumatsu⟧⟦は→は：00079_ha⟧⟦{予約|よやく}→予約：01522_yoyaku⟧⟦が→が：00051_ga⟧⟦{取|と}り→取る：00565_toru⟧にくい。",
       "english": "This restaurant's dessert buffet is popular, and it's hard to get a weekend reservation.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "ETYMOLOGY:\nFrom French buffet. The pronunciation follows the French original more closely than バフェ or バフェット.\n\nVARIANTS:\nバイキング is another common Japanese word for buffet-style dining, especially all-you-can-eat restaurants. バイキング is wasei-eigo originating from a 1957 Imperial Hotel promotion inspired by a Scandinavian smörgåsbord. ビュッフェ tends to sound more upscale.\n\nCOMMON COLLOCATIONS:\n- ビュッフェ{形式|けいしき}: buffet style\n- {朝食|ちょうしょく}ビュッフェ: breakfast buffet\n- スイーツビュッフェ: dessert buffet\n- ディナービュッフェ: dinner buffet\n- ビュッフェ{台|だい}: buffet table",
+  "notes": "ETYMOLOGY:\nFrom French buffet. The pronunciation follows the French original more closely than バフェ or バフェット.\n\nFORMS:\n⟦バイキング→バイキング：21783_baikingu⟧ is another common Japanese word for buffet-style dining, especially all-you-can-eat restaurants. ⟦バイキング→バイキング：21783_baikingu⟧ is wasei-eigo originating from a 1957 Imperial Hotel promotion inspired by a Scandinavian smörgåsbord. ビュッフェ tends to sound more upscale.\n\nCOMMON COLLOCATIONS:\n- ビュッフェ⟦{形式|けいしき}→形式：00211_keishiki⟧: buffet style\n- ⟦{朝食|ちょうしょく}→朝食：03122_choushoku⟧ビュッフェ: breakfast buffet\n- ⟦スイーツ→スイーツ：27370_suiitsu⟧ビュッフェ: dessert buffet\n- ⟦ディナー→ディナー：27996_dinaa⟧ビュッフェ: dinner buffet\n- ビュッフェ{台|だい}: buffet table",
   "cross_references": [
     {
       "type": "synonym",
@@ -52,11 +52,25 @@
       "reading": "ばいきんぐ",
       "headword": "バイキング",
       "label": "buffet (wasei-eigo)"
+    },
+    {
+      "type": "related",
+      "target_id": "23784_shokudousha",
+      "reading": "しょくどうしゃ",
+      "headword": "{食堂車|しょくどうしゃ}",
+      "label": "dining car (on a train)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28026_baikingukeishiki",
+      "reading": "ばいきんぐけいしき",
+      "headword": "バイキング形式",
+      "label": "buffet style"
     }
   ],
   "metadata": {
     "created": "2026-02-14T05:12:51Z",
-    "modified": "2026-04-25T04:12:08Z",
+    "modified": "2026-09-02T04:01:24Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

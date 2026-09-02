@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "15876_sugatami_ex1",
-      "japanese": "{姿見|すがたみ}で{全身|ぜんしん}をチェックした。",
+      "japanese": "{姿見|すがたみ}⟦で→で：00502_de⟧⟦{全身|ぜんしん}→全身：03313_zenshin⟧⟦を→を：00422_wo⟧⟦チェックした→チェックする：04916_chekkusuru⟧。",
       "english": "I checked my whole body in the full-length mirror.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "15876_sugatami_ex2",
-      "japanese": "{玄関|げんかん}に{姿見|すがたみ}を{置|お}いている。",
+      "japanese": "⟦{玄関|げんかん}→玄関：05003_genkan⟧⟦に→に：00314_ni⟧{姿見|すがたみ}⟦を→を：00422_wo⟧⟦{置|お}いている→置く：01092_oku⟧。",
       "english": "I have a full-length mirror in the entryway.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "15876_sugatami_ex3",
-      "japanese": "{出|で}かける{前|まえ}に{姿見|すがたみ}の{前|まえ}に{立|た}って、{服装|ふくそう}に{問題|もんだい}がないか{確認|かくにん}する。",
+      "japanese": "⟦{出|で}かける→出かける：00833_dekakeru⟧⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧{姿見|すがたみ}⟦の→の：09472_no⟧⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧⟦{立|た}って→立つ：00758_tatsu⟧、⟦{服装|ふくそう}→服装：03594_fukusou⟧⟦に→に：00314_ni⟧⟦{問題|もんだい}→問題：00797_mondai⟧⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧⟦か→か：09473_ka⟧⟦{確認|かくにん}する→確認する：25332_kakuninsuru⟧。",
       "english": "Before going out, I stand in front of the full-length mirror and check that there is nothing wrong with my outfit.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "A compound of {姿|すがた} (figure, appearance) + {見|み} (seeing, viewing) — literally a mirror for seeing one's full figure. {姿見|すがたみ} specifically refers to a tall mirror that shows the entire body.\n\nCOMMON COLLOCATIONS:\n- {姿見|すがたみ}の{前|まえ}に{立|た}つ: to stand in front of a full-length mirror\n- {姿見|すがたみ}に{映|うつ}る: to be reflected in a full-length mirror\n- {姿見|すがたみ}を{置|お}く: to place a full-length mirror\n\nVS. OTHER MIRROR WORDS:\n- {鏡|かがみ}: mirror (general term — any size)\n- {姿見|すがたみ}: full-length mirror specifically\n- {手鏡|てかがみ}: hand mirror\n\nCULTURE:\nCommonly placed in the {玄関|げんかん} (entryway) of Japanese homes for a final outfit check before going out.",
+  "notes": "A compound of ⟦{姿|すがた}→姿：03363_sugata⟧ (figure, appearance) + ⟦{見|み}→見る：00283_miru⟧ (seeing, viewing) — literally a mirror for seeing one's full figure. {姿見|すがたみ} specifically refers to a tall mirror that shows the entire body.\n\nCOMMON COLLOCATIONS:\n- {姿見|すがたみ}⟦の→の：09472_no⟧⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧⟦{立|た}つ→立つ：00758_tatsu⟧: to stand in front of a full-length mirror\n- {姿見|すがたみ}⟦に→に：00314_ni⟧⟦{映|うつ}る→映る：12964_utsuru⟧: to be reflected in a full-length mirror\n- {姿見|すがたみ}⟦を→を：00422_wo⟧⟦{置|お}く→置く：01092_oku⟧: to place a full-length mirror\n\nVS. OTHER MIRROR WORDS:\n- ⟦{鏡|かがみ}→鏡：02190_kagami⟧: mirror (general term — any size)\n- {姿見|すがたみ}: full-length mirror specifically\n- ⟦{手鏡|てかがみ}→手鏡：16020_tekagami⟧: hand mirror\n\nCULTURAL NOTE:\nCommonly placed in the ⟦{玄関|げんかん}→玄関：05003_genkan⟧ (entryway) of Japanese homes for a final outfit check before going out.",
   "cross_references": [
     {
       "type": "related",
@@ -52,11 +52,39 @@
       "reading": "かがみ",
       "headword": "{鏡|かがみ}",
       "label": "mirror (general)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16020_tekagami",
+      "reading": "てかがみ",
+      "headword": "{手鏡|てかがみ}",
+      "label": "hand mirror"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24837_keshoukyou",
+      "reading": "けしょうきょう",
+      "headword": "{化粧|けしょう}{鏡|きょう}",
+      "label": "vanity mirror"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25746_miraa",
+      "reading": "みらー",
+      "headword": "ミラー",
+      "label": "mirror"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26442_takujoukyou",
+      "reading": "たくじょうきょう",
+      "headword": "{卓上|たくじょう}{鏡|きょう}",
+      "label": "tabletop mirror"
     }
   ],
   "metadata": {
     "created": "2026-03-08T13:21:32Z",
-    "modified": "2026-07-18T04:02:53Z",
+    "modified": "2026-09-02T04:01:42Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

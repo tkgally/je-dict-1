@@ -15,41 +15,60 @@
   "examples": [
     {
       "id": "28883_ninenkan_ex1",
-      "japanese": "{二年間|にねんかん}{頑張|がんば}った。",
+      "japanese": "{二年間|にねんかん}⟦{頑張|がんば}った→頑張る：01222_ganbaru⟧。",
       "english": "I worked hard for two years.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28883_ninenkan_ex2",
-      "japanese": "{彼|かれ}は{二年間|にねんかん}この{会社|かいしゃ}で{働|はたら}いた。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{二年間|にねんかん}⟦この→この：00962_kono⟧⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦で→で：00502_de⟧⟦{働|はたら}いた→働く：00503_hataraku⟧。",
       "english": "He worked at this company for two years.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28883_ninenkan_ex3",
-      "japanese": "{修士|しゅうし}{課程|かてい}は{二年間|にねんかん}で、{修了|しゅうりょう}には{論文|ろんぶん}の{提出|ていしゅつ}が{必要|ひつよう}だ。",
+      "japanese": "⟦{修士|しゅうし}→修士：11098_shuushi⟧⟦{課程|かてい}→課程：02653_katei⟧⟦は→は：00079_ha⟧{二年間|にねんかん}⟦で→で：00502_de⟧、⟦{修了|しゅうりょう}→修了：11655_shuuryou⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{論文|ろんぶん}→論文：03787_ronbun⟧⟦の→の：09472_no⟧⟦{提出|ていしゅつ}→提出：03542_teishutsu⟧⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧だ。",
       "english": "A master's program is two years long, and completion requires submitting a thesis.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Adds the duration suffix {間|かん} to {二年|にねん}, making the meaning unambiguously 'for two years' rather than 'second year.'\n\nCOMMON PATTERNS:\n- {二年間|にねんかん}の{経験|けいけん}: two years of experience\n- {二年間|にねんかん}{続|つづ}ける: to continue for two years\n- {二年間|にねんかん}の{留学|りゅうがく}: a two-year study-abroad period\n\nSIMILAR WORDS:\n- {二年|にねん}: two years; second year — shorter form, can be ambiguous between duration and ordinal\n- {二年生|にねんせい}: second-year student — ordinal, not duration",
+  "notes": "Adds the duration suffix ⟦{間|かん}→〜間：28469_kan⟧ to ⟦{二年|にねん}→二年：28862_ninen⟧, making the meaning unambiguously 'for two years' rather than 'second year.'\n\nCOMMON PATTERNS:\n- {二年間|にねんかん}⟦の→の：09472_no⟧⟦{経験|けいけん}→経験：01179_keiken⟧: two years of experience\n- {二年間|にねんかん}⟦{続|つづ}ける→続く：00903_tsuzuku⟧: to continue for two years\n- {二年間|にねんかん}⟦の→の：09472_no⟧⟦{留学|りゅうがく}→留学：03677_ryuugaku⟧: a two-year study-abroad period\n\nSIMILAR WORDS:\n- ⟦{二年|にねん}→二年：28862_ninen⟧: two years; second year — shorter form, can be ambiguous between duration and ordinal\n- ⟦{二年生|にねんせい}→二年生：27586_ninensei⟧: second-year student — ordinal, not duration",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "27586_ninensei",
+      "reading": "にねんせい",
+      "headword": "{二年生|にねんせい}",
+      "label": "second-year student"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["time-period"],
+      "politeness": "plain",
+      "semantic": [
+        "time-period"
+      ],
       "domain": []
     },
     "created": "2026-06-06T04:04:02Z",
-    "modified": "2026-06-06T04:04:02Z"
+    "modified": "2026-09-02T04:02:35Z"
   }
 }

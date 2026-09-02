@@ -3,7 +3,7 @@
   "id": "12808_daha",
   "headword": "{打破|だは}",
   "reading": "だは",
-  "part_of_speech": "noun / suru verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "breakthrough; overcoming",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "12808_daha_ex1",
-      "japanese": "{記録|きろく}を{打破|だは}する。",
+      "japanese": "⟦{記録|きろく}→記録：02490_kiroku⟧⟦を→を：00422_wo⟧{打破|だは}⟦する→する：00392_suru⟧。",
       "english": "To break a record.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "12808_daha_ex2",
-      "japanese": "{現状|げんじょう}を{打破|だは}しなければならない。",
+      "japanese": "⟦{現状|げんじょう}→現状：02721_genjou⟧⟦を→を：00422_wo⟧{打破|だは}し⟦なければならない→なければならない：27600_nakerebanaranai⟧。",
       "english": "We must break through the current situation.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "12808_daha_ex3",
-      "japanese": "{古|ふる}い{慣習|かんしゅう}を{打破|だは}して、{新|あたら}しい{仕組|しく}みを{作|つく}ろう。",
+      "japanese": "⟦{古|ふる}い→古い：00488_furui⟧⟦{慣習|かんしゅう}→慣習：05523_kanshuu⟧⟦を→を：00422_wo⟧{打破|だは}⟦して→する：00392_suru⟧、⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦{仕組|しく}み→仕組み：07168_shikumi⟧⟦を→を：00422_wo⟧⟦{作|つく}ろう→作る：00481_tsukuru⟧。",
       "english": "Let's smash the old customs and create a new system.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,19 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{打破|だは} has a forceful nuance — it implies actively smashing through barriers rather than quietly overcoming them. It is commonly used in formal or written contexts, especially in news and speeches.\n\nCOMMON COLLOCATIONS:\n- {記録|きろく}を{打破|だは}する: to break a record\n- {現状|げんじょう}{打破|だは}: breaking through the status quo\n- {偏見|へんけん}を{打破|だは}する: to smash prejudice\n- {慣習|かんしゅう}を{打破|だは}する: to break old customs\n- {壁|かべ}を{打破|だは}する: to break through a barrier",
-  "cross_references": [],
+  "notes": "USAGE:\n{打破|だは} has a forceful nuance — it implies actively smashing through barriers rather than quietly overcoming them. It is commonly used in formal or written contexts, especially in news and speeches.\n\nCOMMON COLLOCATIONS:\n- ⟦{記録|きろく}→記録：02490_kiroku⟧⟦を→を：00422_wo⟧{打破|だは}⟦する→する：00392_suru⟧: to break a record\n- ⟦{現状|げんじょう}→現状：02721_genjou⟧{打破|だは}: breaking through the status quo\n- ⟦{偏見|へんけん}→偏見：06025_henken⟧⟦を→を：00422_wo⟧{打破|だは}⟦する→する：00392_suru⟧: to smash prejudice\n- ⟦{慣習|かんしゅう}→慣習：05523_kanshuu⟧⟦を→を：00422_wo⟧{打破|だは}⟦する→する：00392_suru⟧: to break old customs\n- ⟦{壁|かべ}→壁：01290_kabe⟧⟦を→を：00422_wo⟧{打破|だは}⟦する→する：00392_suru⟧: to break through a barrier",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25363_toppasuru",
+      "reading": "とっぱする",
+      "headword": "{突破|とっぱ}する",
+      "label": "to break through"
+    }
+  ],
   "metadata": {
     "created": "2026-02-22T11:05:14Z",
-    "modified": "2026-03-29T03:07:35Z",
+    "modified": "2026-09-02T04:01:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -151,7 +159,8 @@
       "semantic": [
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

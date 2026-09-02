@@ -2,7 +2,7 @@
   "id": "05464_haisou",
   "headword": "{配送|はいそう}",
   "reading": "はいそう",
-  "part_of_speech": "noun / suru verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "delivery; shipping",
   "conjugation": {
     "type": "suru",
@@ -162,11 +162,39 @@
       "reading": "たくはい",
       "headword": "{宅配|たくはい}",
       "label": "home delivery"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03176_yuusou",
+      "reading": "ゆうそう",
+      "headword": "{郵送|ゆうそう}",
+      "label": "mailing, postal delivery"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05137_butsuryuu",
+      "reading": "ぶつりゅう",
+      "headword": "{物流|ぶつりゅう}",
+      "label": "logistics"
+    },
+    {
+      "type": "related",
+      "target_id": "09231_unpan",
+      "reading": "うんぱん",
+      "headword": "{運搬|うんぱん}",
+      "label": "transport, conveyance, carrying"
+    },
+    {
+      "type": "related",
+      "target_id": "09723_haitatsujoukyou",
+      "reading": "はいたつじょうきょう",
+      "headword": "{配達|はいたつ}{状況|じょうきょう}",
+      "label": "delivery status"
     }
   ],
   "metadata": {
     "created": "2026-01-16T07:40:15Z",
-    "modified": "2026-06-06T16:08:59Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

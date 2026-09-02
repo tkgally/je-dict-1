@@ -3,7 +3,7 @@
   "id": "14403_tousou",
   "headword": "{逃走|とうそう}",
   "reading": "とうそう",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "escape; flight; running away",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "14403_tousou_ex1",
-      "japanese": "{犯人|はんにん}は{現場|げんば}から{逃走|とうそう}した。",
+      "japanese": "⟦{犯人|はんにん}→犯人：03572_hannin⟧⟦は→は：00079_ha⟧⟦{現場|げんば}→現場：02723_genba⟧⟦から→から：00504_kara⟧{逃走|とうそう}⟦した→する：00392_suru⟧。",
       "english": "The criminal fled from the scene.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "14403_tousou_ex2",
-      "japanese": "{逃走|とうそう}{中|ちゅう}の{容疑者|ようぎしゃ}が{捕|つか}まった。",
+      "japanese": "{逃走|とうそう}{中|ちゅう}⟦の→の：09472_no⟧⟦{容疑者|ようぎしゃ}→容疑者：15039_yougisha⟧⟦が→が：00051_ga⟧⟦{捕|つか}まった→捕まる：01959_tsukamaru⟧。",
       "english": "The suspect who was on the run was caught.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "14403_tousou_ex3",
-      "japanese": "{動物園|どうぶつえん}からライオンが{逃走|とうそう}し、{周辺|しゅうへん}の{住民|じゅうみん}に{避難|ひなん}{勧告|かんこく}が{出|で}された。",
+      "japanese": "⟦{動物園|どうぶつえん}→動物園：01686_doubutsuen⟧⟦から→から：00504_kara⟧⟦ライオン→ライオン：05197_raion⟧⟦が→が：00051_ga⟧{逃走|とうそう}し、⟦{周辺|しゅうへん}→周辺：09896_shuuhen⟧⟦の→の：09472_no⟧⟦{住民|じゅうみん}→住民：03281_juumin⟧⟦に→に：00314_ni⟧⟦{避難|ひなん}{勧告|かんこく}→避難勧告：16642_hinankankoku⟧⟦が→が：00051_ga⟧{出|で}された。",
       "english": "A lion escaped from the zoo, and an evacuation advisory was issued to nearby residents.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "{逃走|とうそう} is a noun that can function as a suru verb ({逃走|とうそう}する). It implies running away with urgency, often from pursuit or confinement.\n\nCOMMON COLLOCATIONS:\n- {逃走|とうそう}{中|ちゅう} (on the run, at large)\n- {逃走|とうそう}{経路|けいろ} (escape route)\n- {逃走|とうそう}{劇|げき} (a dramatic escape/chase)\n- {逃走|とうそう}{車両|しゃりょう} (getaway vehicle)\n\nDistinct from {逃避|とうひ} (evasion, escapism), which often refers to avoiding responsibilities or reality rather than physically running away. Also distinct from {逃亡|とうぼう} (flight, absconding), which emphasizes disappearing to avoid capture over a longer period.",
+  "notes": "{逃走|とうそう} is a noun that can function as a suru verb ({逃走|とうそう}⟦する→する：00392_suru⟧). It implies running away with urgency, often from pursuit or confinement.\n\nCOMMON COLLOCATIONS:\n- {逃走|とうそう}{中|ちゅう} (on the run, at large)\n- {逃走|とうそう}⟦{経路|けいろ}→経路：13796_keiro⟧ (escape route)\n- {逃走|とうそう}⟦{劇|げき}→劇：02713_geki⟧ (a dramatic escape/chase)\n- {逃走|とうそう}⟦{車両|しゃりょう}→車両：05297_sharyou⟧ (getaway vehicle)\n\nDistinct from ⟦{逃避|とうひ}→逃避：14419_touhi⟧ (evasion, escapism), which often refers to avoiding responsibilities or reality rather than physically running away. Also distinct from ⟦{逃亡|とうぼう}→逃亡：14367_toubou⟧ (flight, absconding), which emphasizes disappearing to avoid capture over a longer period.",
   "cross_references": [
     {
       "type": "synonym",
@@ -156,11 +156,18 @@
       "reading": "にげる",
       "headword": "{逃|に}げる",
       "label": "to run away"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26624_ransou",
+      "reading": "らんそう",
+      "headword": "{乱走|らんそう}",
+      "label": "reckless driving"
     }
   ],
   "metadata": {
     "created": "2026-03-01T09:05:05Z",
-    "modified": "2026-04-30T07:28:10Z",
+    "modified": "2026-09-02T04:01:37Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

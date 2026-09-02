@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "09571_takuhai_ex1",
-      "japanese": "{宅配|たくはい}{便|びん}⟦で→で：00502_de⟧{荷物|にもつ}⟦を→を：00422_wo⟧⟦{送|おく}る→送る：00742_okuru⟧。",
+      "japanese": "{宅配|たくはい}{便|びん}⟦で→で：00502_de⟧⟦{荷物|にもつ}→荷物：00737_nimotsu⟧⟦を→を：00422_wo⟧⟦{送|おく}る→送る：00742_okuru⟧。",
       "english": "To send a package by home delivery service.",
       "has_audio": false,
       "sense_numbers": [
@@ -23,7 +23,7 @@
     },
     {
       "id": "09571_takuhai_ex2",
-      "japanese": "{宅配|たくはい}ピザ⟦を→を：00422_wo⟧{頼|たの}んだ。",
+      "japanese": "{宅配|たくはい}⟦ピザ→ピザ：06769_piza⟧⟦を→を：00422_wo⟧⟦{頼|たの}んだ→頼む：01104_tanomu⟧。",
       "english": "I ordered pizza delivery.",
       "has_audio": false,
       "sense_numbers": [
@@ -32,7 +32,7 @@
     },
     {
       "id": "09571_takuhai_ex3",
-      "japanese": "{宅配|たくはい}ボックス⟦に→に：00314_ni⟧{届|とど}いていた。",
+      "japanese": "{宅配|たくはい}⟦ボックス→ボックス：30522_bokkusu⟧⟦に→に：00314_ni⟧⟦{届|とど}いていた→届く：00899_todoku⟧。",
       "english": "It had been delivered to the delivery box.",
       "has_audio": false,
       "sense_numbers": [
@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "notes": "{宅配|たくはい} means home delivery — delivering goods directly to a person's residence. A compound of {宅|たく} (home) + {配|はい} (distribute).\n\nCOMMON COMPOUNDS:\n- {宅配便|たくはいびん}: home delivery service (parcel delivery)\n- {宅配|たくはい}ボックス: delivery locker/box\n- {宅配|たくはい}ピザ: delivery pizza\n- {宅配|たくはい}{業者|ぎょうしゃ}: delivery company\n\nUSAGE:\nJapan has a highly developed home delivery infrastructure. Major carriers include ヤマト{運輸|うんゆ} ({宅急便|たっきゅうびん}), {佐川|さがわ}{急便|きゅうびん}, and {日本郵便|にほんゆうびん}.\n\nSIMILAR WORDS:\n- {配達|はいたつ}: delivery (general)\n- {出前|でまえ}: food delivery (traditional term)\n- デリバリー: delivery (loanword)",
+  "notes": "{宅配|たくはい} means home delivery — delivering goods directly to a person's residence. A compound of ⟦{宅|たく}→宅：12302_taku⟧ (home) + {配|はい} (distribute).\n\nCOMPOUNDS:\n- ⟦{宅配便|たくはいびん}→宅配便：09534_takuhaibin⟧: home delivery service (parcel delivery)\n- {宅配|たくはい}⟦ボックス→ボックス：30522_bokkusu⟧: delivery locker/box\n- {宅配|たくはい}⟦ピザ→ピザ：06769_piza⟧: delivery pizza\n- {宅配|たくはい}{業者|ぎょうしゃ}: delivery company\n\nUSAGE:\nJapan has a highly developed home delivery infrastructure. Major carriers include ヤマト{運輸|うんゆ} (⟦{宅急便|たっきゅうびん}→宅急便：17396_takkyuubin⟧), {佐川|さがわ}{急便|きゅうびん}, and {日本郵便|にほんゆうびん}.\n\nSIMILAR WORDS:\n- ⟦{配達|はいたつ}→配達：00084_haitatsu⟧: delivery (general)\n- ⟦{出前|でまえ}→出前：08155_demae⟧: food delivery (traditional term)\n- ⟦デリバリー→デリバリー：06181_deribarii⟧: delivery (loanword)",
   "cross_references": [
     {
       "type": "synonym",
@@ -48,11 +48,32 @@
       "reading": "はいたつ",
       "headword": "{配達|はいたつ}",
       "label": "delivery (general)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08155_demae",
+      "reading": "でまえ",
+      "headword": "{出前|でまえ}",
+      "label": "food delivery"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06181_deribarii",
+      "reading": "でりばりー",
+      "headword": "デリバリー",
+      "label": "delivery"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21738_haisousuru",
+      "reading": "はいそうする",
+      "headword": "{配送|はいそう}する",
+      "label": "to deliver"
     }
   ],
   "metadata": {
     "created": "2026-02-03T00:56:33Z",
-    "modified": "2026-04-23T05:18:28Z",
+    "modified": "2026-09-02T04:01:18Z",
     "ai_model": "opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

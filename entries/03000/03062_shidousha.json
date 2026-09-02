@@ -118,7 +118,7 @@
       ]
     }
   ],
-  "notes": "{指導者|しどうしゃ} combines ⟦{指導|しどう}→指導：03190_shidou⟧ (guidance/instruction) + ⟦{者|しゃ}→〜者：04662_sha⟧ (person).\n\nCOMMON CONTEXTS:\n- ⟦{政治|せいじ}→政治：01629_seiji⟧{指導者|しどうしゃ} (political leader)\n- ⟦スポーツ→スポーツ：04740_supootsu⟧⟦の→の：09472_no⟧{指導者|しどうしゃ} (sports coach)\n- ⟦{宗教|しゅうきょう}→宗教：03208_shuukyou⟧{指導者|しどうしゃ} (religious leader)\n\nSIMILAR WORDS:\n- {指導者|しどうしゃ}: leader/instructor (general, formal)\n- ⟦リーダー→リーダー：24312_riidaa⟧: leader (casual, from English)\n- ⟦{監督|かんとく}→監督：00185_kantoku⟧: director, manager (sports/film)\n- ⟦コーチ→コーチ：03844_koochi⟧: coach (sports)\n\nRELATED TERMS:\n- ⟦{指導|しどう}→指導：03190_shidou⟧ (guidance, instruction)\n- ⟦{指導|しどう}→指導：03190_shidou⟧⟦する→する：00392_suru⟧ (to instruct, to lead)",
+  "notes": "{指導者|しどうしゃ} combines ⟦{指導|しどう}→指導：03190_shidou⟧ (guidance/instruction) + ⟦{者|しゃ}→〜者：04662_sha⟧ (person).\n\nUSAGE:\n- ⟦{政治|せいじ}→政治：01629_seiji⟧{指導者|しどうしゃ} (political leader)\n- ⟦スポーツ→スポーツ：04740_supootsu⟧⟦の→の：09472_no⟧{指導者|しどうしゃ} (sports coach)\n- ⟦{宗教|しゅうきょう}→宗教：03208_shuukyou⟧{指導者|しどうしゃ} (religious leader)\n\nSIMILAR WORDS:\n- {指導者|しどうしゃ}: leader/instructor (general, formal)\n- ⟦リーダー→リーダー：24312_riidaa⟧: leader (casual, from English)\n- ⟦{監督|かんとく}→監督：00185_kantoku⟧: director, manager (sports/film)\n- ⟦コーチ→コーチ：03844_koochi⟧: coach (sports)\n\nRELATED WORDS:\n- ⟦{指導|しどう}→指導：03190_shidou⟧ (guidance, instruction)\n- ⟦{指導|しどう}→指導：03190_shidou⟧⟦する→する：00392_suru⟧ (to instruct, to lead)",
   "cross_references": [
     {
       "type": "related",
@@ -126,11 +126,67 @@
       "headword": "{指導|しどう}",
       "label": "guidance",
       "target_id": "03190_shidou"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24312_riidaa",
+      "reading": "りーだー",
+      "headword": "リーダー",
+      "label": "leader"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00185_kantoku",
+      "reading": "かんとく",
+      "headword": "{監督|かんとく}",
+      "label": "director, manager"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03844_koochi",
+      "reading": "こーち",
+      "headword": "コーチ",
+      "label": "coach"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15631_shunou",
+      "reading": "しゅのう",
+      "headword": "{首脳|しゅのう}",
+      "label": "head"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20595_shihan",
+      "reading": "しはん",
+      "headword": "{師範|しはん}",
+      "label": "master instructor"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25264_kyouikusha",
+      "reading": "きょういくしゃ",
+      "headword": "{教育者|きょういくしゃ}",
+      "label": "educator"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27273_sendousha",
+      "reading": "せんどうしゃ",
+      "headword": "{先導者|せんどうしゃ}",
+      "label": "leader"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29850_tousotsusha",
+      "reading": "とうそつしゃ",
+      "headword": "{統率者|とうそつしゃ}",
+      "label": "leader"
     }
   ],
   "metadata": {
     "created": "2026-01-11T11:14:00Z",
-    "modified": "2026-06-12T09:58:22Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

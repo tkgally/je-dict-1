@@ -63,18 +63,39 @@
       ]
     }
   ],
-  "notes": "COMPOUND: ⟦{電|でん}→電：noentry⟧ (electricity) + ⟦{球|きゅう}→球：noentry⟧ (ball, bulb)\n\nCOMMON COLLOCATIONS:\n- {電球|でんきゅう}⟦が→が：00051_ga⟧⟦{切|き}れる→切れる：01936_kireru⟧ (light bulb burns out)\n- {電球|でんきゅう}⟦を→を：00422_wo⟧⟦{換|か}える→換える：13346_kaeru⟧/⟦{交換|こうかん}→交換：02746_koukan⟧⟦する→する：00392_suru⟧ (change/replace a bulb)\n- {電球|でんきゅう}⟦を→を：00422_wo⟧⟦つける→つける：00562_tsukeru⟧ (turn on the light)\n- LED{電球|でんきゅう} (LED bulb)\n- ⟦{蛍光|けいこう}{灯|とう}→蛍光灯：09624_keikoutou⟧ (fluorescent light)\n\nRELATED TERMS:\n- ⟦{電気|でんき}→電気：09780_denki⟧ (electricity, electric light)\n- ⟦ランプ→ランプ：11260_ranpu⟧ (lamp)\n- ⟦{照明|しょうめい}→照明：03243_shoumei⟧ (lighting, illumination)",
+  "notes": "COMPOUND: ⟦{電|でん}→電：noentry⟧ (electricity) + ⟦{球|きゅう}→球：noentry⟧ (ball, bulb)\n\nCOMMON COLLOCATIONS:\n- {電球|でんきゅう}⟦が→が：00051_ga⟧⟦{切|き}れる→切れる：01936_kireru⟧ (light bulb burns out)\n- {電球|でんきゅう}⟦を→を：00422_wo⟧⟦{換|か}える→換える：13346_kaeru⟧/⟦{交換|こうかん}→交換：02746_koukan⟧⟦する→する：00392_suru⟧ (change/replace a bulb)\n- {電球|でんきゅう}⟦を→を：00422_wo⟧⟦つける→つける：00562_tsukeru⟧ (turn on the light)\n- LED{電球|でんきゅう} (LED bulb)\n- ⟦{蛍光|けいこう}{灯|とう}→蛍光灯：09624_keikoutou⟧ (fluorescent light)\n\nRELATED WORDS:\n- ⟦{電気|でんき}→電気：09780_denki⟧ (electricity, electric light)\n- ⟦ランプ→ランプ：11260_ranpu⟧ (lamp)\n- ⟦{照明|しょうめい}→照明：03243_shoumei⟧ (lighting, illumination)",
   "cross_references": [
     {
       "type": "related",
       "reading": "でんき",
       "headword": "{電気|でんき}",
       "target_id": "09780_denki"
+    },
+    {
+      "type": "related",
+      "target_id": "11260_ranpu",
+      "reading": "らんぷ",
+      "headword": "ランプ",
+      "label": "lamp"
+    },
+    {
+      "type": "related",
+      "target_id": "03243_shoumei",
+      "reading": "しょうめい",
+      "headword": "{照明|しょうめい}",
+      "label": "lighting, illumination"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23585_hakkoudaioodo",
+      "reading": "はっこうだいおーど",
+      "headword": "{発光|はっこう}ダイオード",
+      "label": "light-emitting diode"
     }
   ],
   "metadata": {
     "created": "2026-01-11T12:24:31Z",
-    "modified": "2026-05-23T22:08:55Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

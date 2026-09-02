@@ -15,41 +15,67 @@
   "examples": [
     {
       "id": "29953_shoubaihanjou_ex1",
-      "japanese": "{商|しょう}{売|ばい}{繁|はん}{盛|じょう}を{祈|いの}る。",
+      "japanese": "{商|しょう}{売|ばい}{繁|はん}{盛|じょう}⟦を→を：00422_wo⟧⟦{祈|いの}る→祈る：01198_inoru⟧。",
       "english": "To pray for business prosperity.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29953_shoubaihanjou_ex2",
-      "japanese": "この{神社|じんじゃ}は{商|しょう}{売|ばい}{繁|はん}{盛|じょう}のご{利益|りやく}で{有名|ゆうめい}だ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{神社|じんじゃ}→神社：01620_jinja⟧⟦は→は：00079_ha⟧{商|しょう}{売|ばい}{繁|はん}{盛|じょう}⟦の→の：09472_no⟧ご{利益|りやく}⟦で→で：00502_de⟧⟦{有名|ゆうめい}→有名：01106_yuumei⟧だ。",
       "english": "This shrine is famous for its blessing of business prosperity.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29953_shoubaihanjou_ex3",
-      "japanese": "{店先|みせさき}に{招|まね}き{猫|ねこ}を{飾|かざ}って、{商|しょう}{売|ばい}{繁|はん}{盛|じょう}を{願|ねが}った。",
+      "japanese": "⟦{店先|みせさき}→店先：20728_misesaki⟧⟦に→に：00314_ni⟧⟦{招|まね}き{猫|ねこ}→招き猫：06538_manekineko⟧⟦を→を：00422_wo⟧⟦{飾|かざ}って→飾る：01185_kazaru⟧、{商|しょう}{売|ばい}{繁|はん}{盛|じょう}⟦を→を：00422_wo⟧⟦{願|ねが}った→願う：02387_negau⟧。",
       "english": "They placed a beckoning cat at the storefront, wishing for a thriving business.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A fixed four-character phrase used mainly in the context of prayers, charms, and good wishes for a store or company. Often seen on {縁起物|えんぎもの} (lucky charms) and shrine {お札|ふだ} (talismans).\n\nCOMMON COLLOCATIONS:\n- {商|しょう}{売|ばい}{繁|はん}{盛|じょう}を{祈|いの}る: to pray for business success\n- {商|しょう}{売|ばい}{繁|はん}{盛|じょう}のお{守|まも}り: a charm for prosperous business\n- {商|しょう}{売|ばい}{繁|はん}{盛|じょう}の{神様|かみさま}: a deity of commercial success",
+  "notes": "A fixed four-character phrase used mainly in the context of prayers, charms, and good wishes for a store or company. Often seen on ⟦{縁起物|えんぎもの}→縁起物：15731_engimono⟧ (lucky charms) and shrine {お札|ふだ} (talismans).\n\nCOMMON COLLOCATIONS:\n- {商|しょう}{売|ばい}{繁|はん}{盛|じょう}⟦を→を：00422_wo⟧⟦{祈|いの}る→祈る：01198_inoru⟧: to pray for business success\n- {商|しょう}{売|ばい}{繁|はん}{盛|じょう}⟦の→の：09472_no⟧⟦お{守|まも}り→お守り：05955_omamori⟧: a charm for prosperous business\n- {商|しょう}{売|ばい}{繁|はん}{盛|じょう}⟦の→の：09472_no⟧⟦{神様|かみさま}→神様：00161_kamisama⟧: a deity of commercial success",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "06538_manekineko",
+      "reading": "まねきねこ",
+      "headword": "{招|まね}き{猫|ねこ}",
+      "label": "beckoning cat, lucky cat figurine"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29954_senkyakubanrai",
+      "reading": "せんきゃくばんらい",
+      "headword": "{千|せん}{客|きゃく}{万|ばん}{来|らい}",
+      "label": "doing a roaring trade"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["business"],
+      "semantic": [
+        "business"
+      ],
       "domain": []
     },
     "created": "2026-07-19T18:17:15Z",
-    "modified": "2026-07-19T18:17:15Z"
+    "modified": "2026-09-02T04:02:38Z"
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "19500_mamerui_ex1",
-      "japanese": "{豆類|まめるい}は{体|からだ}にいい。",
+      "japanese": "{豆類|まめるい}⟦は→は：00079_ha⟧⟦{体|からだ}→体：00784_karada⟧⟦に→に：00314_ni⟧⟦いい→いい：00118_ii⟧。",
       "english": "Legumes are good for you.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "19500_mamerui_ex2",
-      "japanese": "{豆類|まめるい}にはたんぱく{質|しつ}が{豊富|ほうふ}に{含|ふく}まれている。",
+      "japanese": "{豆類|まめるい}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧たんぱく⟦{質|しつ}→質：01425_shitsu⟧⟦が→が：00051_ga⟧⟦{豊富|ほうふ}→豊富：03620_houfu⟧⟦に→に：00314_ni⟧⟦{含|ふく}まれている→含む：01982_fukumu⟧。",
       "english": "Legumes are rich in protein.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "19500_mamerui_ex3",
-      "japanese": "{日本|にほん}の{食文化|しょくぶんか}では、{大豆|だいず}をはじめとする{豆類|まめるい}が{欠|か}かせない。",
+      "japanese": "⟦{日本|にほん}→日本：03876_nihon⟧⟦の→の：09472_no⟧⟦{食文化|しょくぶんか}→食文化：29223_shokubunka⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧、⟦{大豆|だいず}→大豆：10536_daizu⟧⟦を→を：00422_wo⟧はじめ⟦と→と：00512_to⟧⟦する→する：00392_suru⟧{豆類|まめるい}⟦が→が：00051_ga⟧⟦{欠|か}かせない→欠かす：10138_kakasu⟧。",
       "english": "In Japanese food culture, legumes — especially soybeans — are indispensable.",
       "sense_numbers": [
         1
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {豆|まめ} (bean) and {類|るい} (kind, category). The standard collective term for beans and legumes, commonly used in nutrition, cooking, and agriculture contexts.\n\nCULTURAL CONTEXT:\n{豆類|まめるい} are central to Japanese cuisine. {大豆|だいず} (soybeans) alone form the basis for {豆腐|とうふ}, {味噌|みそ}, {醤油|しょうゆ}, {納豆|なっとう}, and {枝豆|えだまめ}. {小豆|あずき} (azuki beans) are essential for traditional sweets.\n\nCOMMON COLLOCATIONS:\n- {豆類|まめるい}を{食|た}べる — to eat legumes\n- {豆類|まめるい}を{栽培|さいばい}する — to cultivate legumes\n- {乾燥|かんそう}{豆類|まめるい} — dried beans\n\nRELATED TERMS:\n- {大豆|だいず} — soybean; the most important legume in Japanese cuisine\n- {小豆|あずき} — azuki bean; used for sweet red bean paste\n- {穀類|こくるい} — grains, cereals; a parallel food category",
+  "notes": "A compound of ⟦{豆|まめ}→豆：03738_mame⟧ (bean) and ⟦{類|るい}→類：15121_rui⟧ (kind, category). The standard collective term for beans and legumes, commonly used in nutrition, cooking, and agriculture contexts.\n\nCULTURAL NOTE:\n{豆類|まめるい} are central to Japanese cuisine. ⟦{大豆|だいず}→大豆：10536_daizu⟧ (soybeans) alone form the basis for ⟦{豆腐|とうふ}→豆腐：04928_toufu⟧, ⟦{味噌|みそ}→味噌：01037_miso⟧, ⟦{醤油|しょうゆ}→醤油：01056_shouyu⟧, ⟦{納豆|なっとう}→納豆：04930_nattou⟧, and ⟦{枝豆|えだまめ}→枝豆：21197_edamame⟧. ⟦{小豆|あずき}→小豆：10209_azuki⟧ (azuki beans) are essential for traditional sweets.\n\nCOMMON COLLOCATIONS:\n- {豆類|まめるい}⟦を→を：00422_wo⟧⟦{食|た}べる→食べる：00396_taberu⟧ — to eat legumes\n- {豆類|まめるい}⟦を→を：00422_wo⟧⟦{栽培|さいばい}する→栽培する：09860_saibaisuru⟧ — to cultivate legumes\n- ⟦{乾燥|かんそう}→乾燥：00184_kansou⟧{豆類|まめるい} — dried beans\n\nRELATED WORDS:\n- ⟦{大豆|だいず}→大豆：10536_daizu⟧ — soybean; the most important legume in Japanese cuisine\n- ⟦{小豆|あずき}→小豆：10209_azuki⟧ — azuki bean; used for sweet red bean paste\n- ⟦{穀類|こくるい}→穀類：19477_kokurui⟧ — grains, cereals; a parallel food category",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "10536_daizu",
+      "reading": "だいず",
+      "headword": "{大豆|だいず}",
+      "label": "soybean"
+    },
+    {
+      "type": "related",
+      "target_id": "10209_azuki",
+      "reading": "あずき",
+      "headword": "{小豆|あずき}",
+      "label": "azuki bean"
+    },
+    {
+      "type": "related",
+      "target_id": "19477_kokurui",
+      "reading": "こくるい",
+      "headword": "{穀類|こくるい}",
+      "label": "grains, cereals"
+    },
+    {
+      "type": "related",
+      "target_id": "20882_yousai",
+      "reading": "ようさい",
+      "headword": "{葉菜|ようさい}",
+      "label": "leafy vegetable, leaf vegetable"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +90,6 @@
       ]
     },
     "created": "2026-03-26T02:40:48Z",
-    "modified": "2026-06-09T15:41:11Z"
+    "modified": "2026-09-02T04:01:56Z"
   }
 }

@@ -3,7 +3,7 @@
   "id": "20876_hisuishou",
   "headword": "{非推奨|ひすいしょう}",
   "reading": "ひすいしょう",
-  "part_of_speech": "noun / na-adjective",
+  "part_of_speech": "noun, na-adjective",
   "gloss": "deprecated, not recommended, discouraged",
   "definitions": [
     {
@@ -15,41 +15,67 @@
   "examples": [
     {
       "id": "20876_hisuishou_ex1",
-      "japanese": "この{関数|かんすう}は{非推奨|ひすいしょう}です。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{関数|かんすう}→関数：04796_kansuu⟧⟦は→は：00079_ha⟧{非推奨|ひすいしょう}です。",
       "english": "This function is deprecated.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "20876_hisuishou_ex2",
-      "japanese": "{非推奨|ひすいしょう}のAPIを{使|つか}い{続|つづ}けるのは{危険|きけん}だ。",
+      "japanese": "{非推奨|ひすいしょう}⟦の→の：09472_no⟧API⟦を→を：00422_wo⟧⟦{使|つか}い→使う：00473_tsukau⟧⟦{続|つづ}ける→続く：00903_tsuzuku⟧⟦の→の：09472_no⟧⟦は→は：00079_ha⟧⟦{危険|きけん}→危険：01141_kiken⟧だ。",
       "english": "Continuing to use a deprecated API is risky.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "20876_hisuishou_ex3",
-      "japanese": "このライブラリは{非推奨|ひすいしょう}になったので、{代替|だいたい}のライブラリに{移行|いこう}してください。",
+      "japanese": "⟦この→この：00962_kono⟧ライブラリ⟦は→は：00079_ha⟧{非推奨|ひすいしょう}になった⟦の→の：09472_no⟧で、⟦{代替|だいたい}→代替：11550_daitai⟧⟦の→の：09472_no⟧ライブラリ⟦に→に：00314_ni⟧⟦{移行|いこう}→移行：13776_ikou⟧⟦して→する：00392_suru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "This library has been deprecated, so please migrate to an alternative library.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "Formed from {非|ひ} (non-, not) + {推奨|すいしょう} (recommendation). Primarily used in IT, software development, and technical documentation as a direct equivalent of English \"deprecated.\" Outside of tech, it can be used more generally for anything that is not recommended.\n\nIn software contexts, {非推奨|ひすいしょう} typically means a feature still works but will be removed in a future version and should be replaced with a newer alternative.\n\nCOMMON COLLOCATIONS:\n- {非推奨|ひすいしょう}になる: to become deprecated\n- {非推奨|ひすいしょう}のAPI: deprecated API\n- {非推奨|ひすいしょう}の{機能|きのう}: deprecated feature\n- {非推奨|ひすいしょう}{警告|けいこく}: deprecation warning\n\nSIMILAR WORDS:\n- {推奨|すいしょう}: recommended — the positive counterpart\n- {廃止|はいし}: abolished, discontinued — stronger than {非推奨|ひすいしょう}; the feature has been completely removed\n- {旧式|きゅうしき}: outdated, old-fashioned — describes something old but without the explicit discouragement",
-  "cross_references": [],
+  "notes": "Formed from ⟦{非|ひ}→非：28419_hi⟧ (non-, not) + ⟦{推奨|すいしょう}→推奨：12907_suishou⟧ (recommendation). Primarily used in IT, software development, and technical documentation as a direct equivalent of English \"deprecated.\" Outside of tech, it can be used more generally for anything that is not recommended.\n\nIn software contexts, {非推奨|ひすいしょう} typically means a feature still works but will be removed in a future version and should be replaced with a newer alternative.\n\nCOMMON COLLOCATIONS:\n- {非推奨|ひすいしょう}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧: to become deprecated\n- {非推奨|ひすいしょう}⟦の→の：09472_no⟧API: deprecated API\n- {非推奨|ひすいしょう}⟦の→の：09472_no⟧⟦{機能|きのう}→機能：13165_kinou⟧: deprecated feature\n- {非推奨|ひすいしょう}⟦{警告|けいこく}→警告：02696_keikoku⟧: deprecation warning\n\nSIMILAR WORDS:\n- ⟦{推奨|すいしょう}→推奨：12907_suishou⟧: recommended — the positive counterpart\n- ⟦{廃止|はいし}→廃止：12483_haishi⟧: abolished, discontinued — stronger than {非推奨|ひすいしょう}; the feature has been completely removed\n- ⟦{旧式|きゅうしき}→旧式：28150_kyuushiki⟧: outdated, old-fashioned — describes something old but without the explicit discouragement",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12483_haishi",
+      "reading": "はいし",
+      "headword": "{廃止|はいし}",
+      "label": "abolished, discontinued"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28150_kyuushiki",
+      "reading": "きゅうしき",
+      "headword": "{旧式|きゅうしき}",
+      "label": "outdated, old-fashioned"
+    }
+  ],
   "metadata": {
     "created": "2026-03-30T19:10:52Z",
-    "modified": "2026-03-30T19:10:52Z",
+    "modified": "2026-09-02T04:02:01Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-na"],
+      "pos": [
+        "noun",
+        "adjective-na"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["technology"]
+      "semantic": [
+        "technology"
+      ]
     }
   }
 }

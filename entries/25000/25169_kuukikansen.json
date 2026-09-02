@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25169_kuukikansen_ex1",
-      "japanese": "{結核|けっかく}は{空気感染|くうきかんせん}する{病気|びょうき}だ。",
+      "japanese": "{結核|けっかく}⟦は→は：00079_ha⟧{空気感染|くうきかんせん}⟦する→する：00392_suru⟧⟦{病気|びょうき}→病気：00771_byouki⟧だ。",
       "english": "Tuberculosis is an airborne disease.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25169_kuukikansen_ex2",
-      "japanese": "{空気感染|くうきかんせん}を{防|ふせ}ぐにはマスクが{有効|ゆうこう}です。",
+      "japanese": "{空気感染|くうきかんせん}⟦を→を：00422_wo⟧⟦{防|ふせ}ぐ→防ぐ：02409_fusegu⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦マスク→マスク：05075_masuku⟧⟦が→が：00051_ga⟧⟦{有効|ゆうこう}→有効：03645_yuukou⟧です。",
       "english": "Masks are effective in preventing airborne transmission.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25169_kuukikansen_ex3",
-      "japanese": "{換気|かんき}が{不十分|ふじゅうぶん}な{室内|しつない}では、{空気感染|くうきかんせん}のリスクが{高|たか}まるため{注意|ちゅうい}が{必要|ひつよう}だ。",
+      "japanese": "⟦{換気|かんき}→換気：00172_kanki⟧⟦が→が：00051_ga⟧⟦{不十分|ふじゅうぶん}→不十分：05616_fujuubun⟧な⟦{室内|しつない}→室内：03061_shitsunai⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧、{空気感染|くうきかんせん}⟦の→の：09472_no⟧⟦リスク→リスク：06752_risuku⟧⟦が→が：00051_ga⟧⟦{高|たか}まる→高まる：02066_takamaru⟧⟦ため→ため：01145_tame⟧⟦{注意|ちゅうい}→注意：01464_chuui⟧⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧だ。",
       "english": "In rooms with insufficient ventilation, the risk of airborne transmission increases, so caution is needed.",
       "sense_numbers": [
         1
@@ -44,20 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {空気|くうき} (air) and {感染|かんせん} (infection, transmission). Refers specifically to transmission via microscopic particles that float in the air, as opposed to larger droplets that fall quickly.\n\nClassic examples of airborne diseases include {結核|けっかく} (tuberculosis), {麻疹|ましん} (measles), and {水痘|すいとう} (chickenpox).\n\nCOMMON COLLOCATIONS:\n- {空気感染|くうきかんせん}する{病気|びょうき}: airborne disease\n- {空気感染|くうきかんせん}を{防|ふせ}ぐ: to prevent airborne transmission\n- {空気感染|くうきかんせん}の{可能性|かのうせい}: possibility of airborne infection\n- {空気感染|くうきかんせん}{対策|たいさく}: airborne infection countermeasures\n\nSIMILAR WORDS:\n- {飛沫感染|ひまつかんせん}: droplet transmission — spread through larger respiratory droplets that fall within about 2 meters\n- {接触感染|せっしょくかんせん}: contact transmission — spread through physical contact\n- {経気道感染|けいきどうかんせん}: respiratory tract infection — a broader category of infections entering through the airways",
+  "notes": "A compound of ⟦{空気|くうき}→空気：01390_kuuki⟧ (air) and ⟦{感染|かんせん}→感染：05977_kansen⟧ (infection, transmission). Refers specifically to transmission via microscopic particles that float in the air, as opposed to larger droplets that fall quickly.\n\nClassic examples of airborne diseases include {結核|けっかく} (tuberculosis), {麻疹|ましん} (measles), and {水痘|すいとう} (chickenpox).\n\nCOMMON COLLOCATIONS:\n- {空気感染|くうきかんせん}⟦する→する：00392_suru⟧⟦{病気|びょうき}→病気：00771_byouki⟧: airborne disease\n- {空気感染|くうきかんせん}⟦を→を：00422_wo⟧⟦{防|ふせ}ぐ→防ぐ：02409_fusegu⟧: to prevent airborne transmission\n- {空気感染|くうきかんせん}⟦の→の：09472_no⟧⟦{可能性|かのうせい}→可能性：04818_kanousei⟧: possibility of airborne infection\n- {空気感染|くうきかんせん}⟦{対策|たいさく}→対策：02511_taisaku⟧: airborne infection countermeasures\n\nSIMILAR WORDS:\n- ⟦{飛沫感染|ひまつかんせん}→飛沫感染：24192_himatsukansen⟧: droplet transmission — spread through larger respiratory droplets that fall within about 2 meters\n- ⟦{接触感染|せっしょくかんせん}→接触感染：25168_sesshokukansen⟧: contact transmission — spread through physical contact\n- {経気道感染|けいきどうかんせん}: respiratory tract infection — a broader category of infections entering through the airways",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24192_himatsukansen",
+      "reading": "ひまつかんせん",
+      "headword": "{飛沫感染|ひまつかんせん}",
+      "label": "droplet transmission"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25168_sesshokukansen",
+      "reading": "せっしょくかんせん",
+      "headword": "{接触感染|せっしょくかんせん}",
+      "label": "contact transmission"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "health",
         "science"
       ]
     },
     "created": "2026-04-23T13:22:19Z",
-    "modified": "2026-06-15T07:59:16Z"
+    "modified": "2026-09-02T04:02:21Z"
   }
 }

@@ -3,7 +3,7 @@
   "headword": "{本質的|ほんしつてき}",
   "reading": "ほんしつてき",
   "romaji": "honshitsuteki",
-  "part_of_speech": "adjective-na",
+  "part_of_speech": "na-adjective",
   "gloss": "essential; intrinsic",
   "definitions": [
     {
@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "21259_honshitsuteki_ex1",
-      "japanese": "これは{本質的|ほんしつてき}な{問題|もんだい}だ。",
+      "japanese": "⟦これ→これ：00963_kore⟧⟦は→は：00079_ha⟧{本質的|ほんしつてき}な⟦{問題|もんだい}→問題：00797_mondai⟧だ。",
       "english": "This is a fundamental problem.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21259_honshitsuteki_ex2",
-      "japanese": "{二|ふた}つの{考|かんが}え{方|かた}に{本質的|ほんしつてき}な{違|ちが}いはない。",
+      "japanese": "⟦{二|ふた}つ→二つ：02953_futatsu⟧⟦の→の：09472_no⟧⟦{考|かんが}え{方|かた}→考え方：10169_kangaekata⟧⟦に→に：00314_ni⟧{本質的|ほんしつてき}な⟦{違|ちが}い→違い：03432_chigai⟧⟦は→は：00079_ha⟧⟦ない→ない：01118_nai⟧。",
       "english": "There is no essential difference between the two ways of thinking.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21259_honshitsuteki_ex3",
-      "japanese": "{表面的|ひょうめんてき}な{改善|かいぜん}ではなく、{本質的|ほんしつてき}な{解決策|かいけつさく}を{考|かんが}えるべきだ。",
+      "japanese": "⟦{表面的|ひょうめんてき}→表面的：18749_hyoumenteki⟧な⟦{改善|かいぜん}→改善：00144_kaizen⟧⟦ではなく→ではなく：09578_dehanaku⟧、{本質的|ほんしつてき}な⟦{解決策|かいけつさく}→解決策：19395_kaiketsusaku⟧⟦を→を：00422_wo⟧⟦{考|かんが}える→考える：00856_kangaeru⟧べきだ。",
       "english": "We should think about a fundamental solution, not a superficial improvement.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Derived from {本質|ほんしつ} (essence, true nature) + {的|てき} (-al, -tic). Used in academic, intellectual, and analytical discussions to distinguish what is fundamental from what is superficial or secondary.\n\nCOMMON COLLOCATIONS:\n- {本質的|ほんしつてき}な{問題|もんだい}: a fundamental problem\n- {本質的|ほんしつてき}な{違|ちが}い: an essential difference\n- {本質的|ほんしつてき}な{変化|へんか}: a fundamental change\n- {本質的|ほんしつてき}に{同|おな}じ: essentially the same\n\nSIMILAR WORDS:\n- {根本的|こんぽんてき}: fundamental, radical — emphasizes the root cause; often used with reform or change\n- {基本的|きほんてき}: basic, fundamental — more about foundational principles; less philosophical than {本質的|ほんしつてき}\n- {表面的|ひょうめんてき}: superficial — the antonym, referring to surface-level characteristics only",
+  "notes": "Derived from ⟦{本質|ほんしつ}→本質：04810_honshitsu⟧ (essence, true nature) + ⟦{的|てき}→〜的：09839_teki⟧ (-al, -tic). Used in academic, intellectual, and analytical discussions to distinguish what is fundamental from what is superficial or secondary.\n\nCOMMON COLLOCATIONS:\n- {本質的|ほんしつてき}な⟦{問題|もんだい}→問題：00797_mondai⟧: a fundamental problem\n- {本質的|ほんしつてき}な⟦{違|ちが}い→違い：03432_chigai⟧: an essential difference\n- {本質的|ほんしつてき}な⟦{変化|へんか}→変化：03615_henka⟧: a fundamental change\n- {本質的|ほんしつてき}⟦に→に：00314_ni⟧⟦{同|おな}じ→同じ：02857_onaji⟧: essentially the same\n\nSIMILAR WORDS:\n- ⟦{根本的|こんぽんてき}→根本的：17920_konponteki⟧: fundamental, radical — emphasizes the root cause; often used with reform or change\n- ⟦{基本的|きほんてき}→基本的：04787_kihonteki⟧: basic, fundamental — more about foundational principles; less philosophical than {本質的|ほんしつてき}\n- ⟦{表面的|ひょうめんてき}→表面的：18749_hyoumenteki⟧: superficial — the antonym, referring to surface-level characteristics only",
   "prominent_see_also": [
     {
       "target_id": "04810_honshitsu",
@@ -48,15 +54,56 @@
     }
   ],
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17920_konponteki",
+      "reading": "こんぽんてき",
+      "headword": "{根本的|こんぽんてき}",
+      "label": "fundamental, radical"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04787_kihonteki",
+      "reading": "きほんてき",
+      "headword": "{基本的|きほんてき}",
+      "label": "basic, fundamental"
+    },
+    {
+      "type": "antonym",
+      "target_id": "18749_hyoumenteki",
+      "reading": "ひょうめんてき",
+      "headword": "{表面的|ひょうめんてき}",
+      "label": "superficial"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06171_jisshitsuteki",
+      "reading": "じっしつてき",
+      "headword": "{実質的|じっしつてき}",
+      "label": "substantial, practical"
+    },
+    {
+      "type": "antonym",
+      "target_id": "24035_genshouteki",
+      "reading": "げんしょうてき",
+      "headword": "{現象的|げんしょうてき}",
+      "label": "phenomenal"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-na"],
+      "pos": [
+        "adjective-na"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["descriptive"]
+      "semantic": [
+        "descriptive"
+      ]
     },
     "created": "2026-04-01T16:10:55Z",
-    "modified": "2026-04-08T12:34:10Z"
+    "modified": "2026-09-02T04:02:02Z"
   }
 }

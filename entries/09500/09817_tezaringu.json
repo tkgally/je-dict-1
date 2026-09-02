@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "09817_tezaringu_ex1",
-      "japanese": "テザリングで{繋|つな}いでいい？",
+      "japanese": "テザリング⟦で→で：00502_de⟧⟦{繋|つな}いで→繋ぐ：01962_tsunagu⟧⟦いい→いい：00118_ii⟧？",
       "english": "Can I connect via tethering?",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "09817_tezaringu_ex2",
-      "japanese": "Wi-Fiがないからテザリングを{使|つか}おう。",
+      "japanese": "Wi-Fi⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧⟦から→から：00504_kara⟧テザリング⟦を→を：00422_wo⟧⟦{使|つか}おう→使う：00473_tsukau⟧。",
       "english": "There's no Wi-Fi, so let's use tethering.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "09817_tezaringu_ex3",
-      "japanese": "テザリングを{使|つか}いすぎると{通信|つうしん}{制限|せいげん}がかかる。",
+      "japanese": "テザリング⟦を→を：00422_wo⟧⟦{使|つか}い→使う：00473_tsukau⟧すぎる⟦と→と：00512_to⟧⟦{通信|つうしん}{制限|せいげん}→通信制限：09815_tsuushinseigen⟧⟦が→が：00051_ga⟧⟦かかる→かかる：00711_kakaru⟧。",
       "english": "If you use tethering too much, you'll hit your data cap.",
       "notes": null,
       "has_audio": false,
@@ -43,10 +43,26 @@
       ]
     }
   ],
-  "notes": "テザリング allows you to share your phone's internet connection with other devices. Some mobile plans charge extra for tethering or require a separate option to be enabled.\n\nCOMMON COLLOCATIONS:\n- テザリング{機能|きのう} (tethering feature)\n- テザリングをオンにする (to turn on tethering)\n- テザリング{対応|たいおう} (tethering capable)\n\nRELATED TERMS:\n- インターネット{共有|きょうゆう}: internet sharing\n- モバイルホットスポット: mobile hotspot\n- {通信|つうしん}{制限|せいげん}: data throttling",
+  "notes": "テザリング allows you to share your phone's internet connection with other devices. Some mobile plans charge extra for tethering or require a separate option to be enabled.\n\nCOMMON COLLOCATIONS:\n- テザリング⟦{機能|きのう}→機能：13165_kinou⟧ (tethering feature)\n- テザリング⟦を→を：00422_wo⟧⟦オン→オン：29843_on⟧⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧ (to turn on tethering)\n- テザリング⟦{対応|たいおう}→対応：02510_taiou⟧ (tethering capable)\n\nRELATED WORDS:\n- ⟦インターネット→インターネット：04723_intaanetto⟧⟦{共有|きょうゆう}→共有：11666_kyouyuu⟧: internet sharing\n- モバイルホットスポット: mobile hotspot\n- ⟦{通信|つうしん}{制限|せいげん}→通信制限：09815_tsuushinseigen⟧: data throttling",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "09815_tsuushinseigen",
+      "reading": "つうしんせいげん",
+      "headword": "{通信|つうしん}{制限|せいげん}",
+      "label": "data throttling"
+    },
+    {
+      "type": "related",
+      "target_id": "09816_furiiwaifai",
+      "reading": "ふりーわいふぁい",
+      "headword": "フリーWi-Fi",
+      "label": "free Wi-Fi"
+    }
+  ],
   "metadata": {
     "created": "2026-02-03T12:23:06Z",
-    "modified": "2026-07-10T00:20:58Z",
+    "modified": "2026-09-02T04:01:19Z",
     "ai_model": "claude-opus-4-5-20251101",
     "vocabulary_tier": "general",
     "tags": {

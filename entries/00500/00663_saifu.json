@@ -63,11 +63,54 @@
       ]
     }
   ],
-  "notes": "{財布|さいふ} refers to a wallet or purse used to carry money, cards, and small items.\n\nKANJI:\nThe kanji ⟦{財|ざい}→財：noentry⟧ means 'wealth/money' and ⟦{布|ぬの}→布：01489_nuno⟧ means 'cloth.'\n\nCOMMON EXPRESSIONS:\n- {財布|さいふ}⟦を→を：00422_wo⟧⟦{忘|わす}れる→忘れる：00474_wasureru⟧: to forget one's wallet\n- {財布|さいふ}⟦を→を：00422_wo⟧⟦なくす→なくす：01110_nakusu⟧: to lose one's wallet\n- {財布|さいふ}⟦を→を：00422_wo⟧⟦{落|お}とす→落とす：01246_otosu⟧: to drop one's wallet\n- {財布|さいふ}⟦に→に：00314_ni⟧⟦{入|い}れる→入れる：01098_ireru⟧: to put in one's wallet\n\nTYPES:\n- ⟦{長財布|ながさいふ}→長財布：27564_nagasaifu⟧: long wallet\n- ⟦{二|ふた}つ{折|お}り→二つ折り：noentry⟧{財布|さいふ}: bifold wallet\n- ⟦がま{口|ぐち}→がま口：27565_gamaguchi⟧: coin purse (with clasp)\n\nCULTURAL NOTE:\nJapan remains largely cash-based, making wallets essential daily items. Many people carry substantial cash.",
-  "cross_references": [],
+  "notes": "{財布|さいふ} refers to a wallet or purse used to carry money, cards, and small items.\n\nWRITING:\nThe kanji ⟦{財|ざい}→財：noentry⟧ means 'wealth/money' and ⟦{布|ぬの}→布：01489_nuno⟧ means 'cloth.'\n\nCOMMON EXPRESSIONS:\n- {財布|さいふ}⟦を→を：00422_wo⟧⟦{忘|わす}れる→忘れる：00474_wasureru⟧: to forget one's wallet\n- {財布|さいふ}⟦を→を：00422_wo⟧⟦なくす→なくす：01110_nakusu⟧: to lose one's wallet\n- {財布|さいふ}⟦を→を：00422_wo⟧⟦{落|お}とす→落とす：01246_otosu⟧: to drop one's wallet\n- {財布|さいふ}⟦に→に：00314_ni⟧⟦{入|い}れる→入れる：01098_ireru⟧: to put in one's wallet\n\nTYPES:\n- ⟦{長財布|ながさいふ}→長財布：27564_nagasaifu⟧: long wallet\n- ⟦{二|ふた}つ{折|お}り→二つ折り：noentry⟧{財布|さいふ}: bifold wallet\n- ⟦がま{口|ぐち}→がま口：27565_gamaguchi⟧: coin purse (with clasp)\n\nCULTURAL NOTE:\nJapan remains largely cash-based, making wallets essential daily items. Many people carry substantial cash.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "00611_okane",
+      "reading": "おかね",
+      "headword": "お{金|かね}",
+      "label": "money"
+    },
+    {
+      "type": "related",
+      "target_id": "01375_handobaggu",
+      "reading": "はんどばっぐ",
+      "headword": "ハンドバッグ",
+      "label": "handbag"
+    },
+    {
+      "type": "related",
+      "target_id": "20896_kozeniire",
+      "reading": "こぜにいれ",
+      "headword": "{小銭入|こぜにい}れ",
+      "label": "coin purse"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22582_satsuire",
+      "reading": "さついれ",
+      "headword": "{札入|さつい}れ",
+      "label": "billfold"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27565_gamaguchi",
+      "reading": "がまぐち",
+      "headword": "がま{口|ぐち}",
+      "label": "clasp purse"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29677_woretto",
+      "reading": "うぉれっと",
+      "headword": "ウォレット",
+      "label": "(digital) wallet"
+    }
+  ],
   "metadata": {
     "created": "2026-01-07T12:03:22Z",
-    "modified": "2026-08-09T12:31:09Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

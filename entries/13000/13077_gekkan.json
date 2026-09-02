@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "13077_gekkan_ex1",
-      "japanese": "{交通|こうつう}{安全|あんぜん}{月間|げっかん}が{始|はじ}まった。",
+      "japanese": "⟦{交通|こうつう}{安全|あんぜん}→交通安全：22217_koutsuuanzen⟧{月間|げっかん}⟦が→が：00051_ga⟧⟦{始|はじ}まった→始まる：00841_hajimaru⟧。",
       "english": "Traffic Safety Month has started.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "13077_gekkan_ex2",
-      "japanese": "{月間|げっかん}{売上|うりあげ}が{過去|かこ}{最高|さいこう}を{記録|きろく}した。",
+      "japanese": "{月間|げっかん}⟦{売上|うりあげ}→売上：04102_uriage⟧⟦が→が：00051_ga⟧⟦{過去|かこ}→過去：00152_kako⟧⟦{最高|さいこう}→最高：02637_saikou⟧⟦を→を：00422_wo⟧⟦{記録|きろく}した→記録する：25341_kirokusuru⟧。",
       "english": "Monthly sales set an all-time record.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "13077_gekkan_ex3",
-      "japanese": "{十月|じゅうがつ}は{読書|どくしょ}{推進|すいしん}{月間|げっかん}で、{図書館|としょかん}では{様々|さまざま}なイベントが{開|ひら}かれる。",
+      "japanese": "⟦{十月|じゅうがつ}→十月：00634_juugatsu⟧⟦は→は：00079_ha⟧⟦{読書|どくしょ}→読書：03484_dokusho⟧⟦{推進|すいしん}→推進：12908_suishin⟧{月間|げっかん}⟦で→で：00502_de⟧、⟦{図書館|としょかん}→図書館：00580_toshokan⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{様々|さまざま}→様々：01559_samazama⟧な⟦イベント→イベント：09594_ibento⟧⟦が→が：00051_ga⟧⟦{開|ひら}かれる→開く：01979_hiraku⟧。",
       "english": "October is Reading Promotion Month, and various events are held at libraries.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,19 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{月間|げっかん} has two main uses:\n1. As a suffix for designated awareness/campaign months: 〜{月間|げっかん}\n2. As a modifier meaning \"monthly\" or \"for the month\": {月間|げっかん} + noun\n\nCommon designated months in Japan include {防災|ぼうさい}{月間|げっかん} (Disaster Prevention Month) and {環境|かんきょう}{月間|げっかん} (Environment Month).\n\nCOMMON COLLOCATIONS:\n- {交通|こうつう}{安全|あんぜん}{月間|げっかん}: Traffic Safety Month\n- {防災|ぼうさい}{月間|げっかん}: Disaster Prevention Month\n- {月間|げっかん}{売上|うりあげ}: monthly sales\n- {月間|げっかん}アクセス{数|すう}: monthly page views",
-  "cross_references": [],
+  "notes": "USAGE:\n{月間|げっかん} has two main uses:\n1. As a suffix for designated awareness/campaign months: 〜{月間|げっかん}\n2. As a modifier meaning \"monthly\" or \"for the month\": {月間|げっかん} + noun\n\nCommon designated months in Japan include ⟦{防災|ぼうさい}→防災：07907_bousai⟧{月間|げっかん} (Disaster Prevention Month) and ⟦{環境|かんきょう}→環境：00174_kankyou⟧{月間|げっかん} (Environment Month).\n\nCOMMON COLLOCATIONS:\n- ⟦{交通|こうつう}{安全|あんぜん}→交通安全：22217_koutsuuanzen⟧{月間|げっかん}: Traffic Safety Month\n- ⟦{防災|ぼうさい}→防災：07907_bousai⟧{月間|げっかん}: Disaster Prevention Month\n- {月間|げっかん}⟦{売上|うりあげ}→売上：04102_uriage⟧: monthly sales\n- {月間|げっかん}⟦アクセス→アクセス：10696_akusesu⟧⟦{数|すう}→数：03360_suu⟧: monthly page views",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "08327_ruikei",
+      "reading": "るいけい",
+      "headword": "{累計|るいけい}",
+      "label": "cumulative total"
+    }
+  ],
   "metadata": {
     "created": "2026-02-23T10:41:08Z",
-    "modified": "2026-02-23T10:41:08Z",
+    "modified": "2026-09-02T04:01:31Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

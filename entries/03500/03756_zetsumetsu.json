@@ -2,7 +2,7 @@
   "id": "03756_zetsumetsu",
   "headword": "{絶滅|ぜつめつ}",
   "reading": "ぜつめつ",
-  "part_of_speech": "noun / suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "extinction, extermination",
   "conjugation": {
     "type": "suru",
@@ -168,10 +168,61 @@
       ]
     }
   ],
-  "notes": "COMMON COLLOCATIONS:\n・{絶滅|ぜつめつ}⟦する→する：00392_suru⟧ (to become extinct)\n・{絶滅|ぜつめつ}⟦させる→する：00392_suru⟧ (to cause extinction)\n・{絶滅|ぜつめつ}⟦{危惧種|きぐしゅ}→危惧種：28265_kigushu⟧ (endangered species)\n・{絶滅|ぜつめつ}⟦の→の：09472_no⟧⟦{危機|きき}→危機：11798_kiki⟧ (danger of extinction)\n・{絶滅|ぜつめつ}⟦に→に：00314_ni⟧⟦{瀕|ひん}する→瀕する：13401_hinsuru⟧ (to be on the brink of extinction)\n\nRELATED TERMS:\n・⟦{希少種|きしょうしゅ}→希少種：28286_kishoushu⟧ (rare species)\n・⟦{保護|ほご}→保護：03625_hogo⟧ (protection)\n・⟦{生態系|せいたいけい}→生態系：04626_seitaikei⟧ (ecosystem)\n・⟦{生物多様性|せいぶつたようせい}→生物多様性：04639_seibutsutayousei⟧ (biodiversity)\n\nCOMPONENTS:\n⟦{絶|ぜつ}→絶：noentry⟧ = to cut off, discontinue\n⟦{滅|めつ}→滅：noentry⟧ = to destroy, perish",
+  "notes": "COMMON COLLOCATIONS:\n- {絶滅|ぜつめつ}⟦する→する：00392_suru⟧ (to become extinct)\n- {絶滅|ぜつめつ}⟦させる→する：00392_suru⟧ (to cause extinction)\n- {絶滅|ぜつめつ}⟦{危惧種|きぐしゅ}→危惧種：28265_kigushu⟧ (endangered species)\n- {絶滅|ぜつめつ}⟦の→の：09472_no⟧⟦{危機|きき}→危機：11798_kiki⟧ (danger of extinction)\n- {絶滅|ぜつめつ}⟦に→に：00314_ni⟧⟦{瀕|ひん}する→瀕する：13401_hinsuru⟧ (to be on the brink of extinction)\n\nRELATED WORDS:\n- ⟦{希少種|きしょうしゅ}→希少種：28286_kishoushu⟧ (rare species)\n- ⟦{保護|ほご}→保護：03625_hogo⟧ (protection)\n- ⟦{生態系|せいたいけい}→生態系：04626_seitaikei⟧ (ecosystem)\n- ⟦{生物多様性|せいぶつたようせい}→生物多様性：04639_seibutsutayousei⟧ (biodiversity)\n\nETYMOLOGY:\n⟦{絶|ぜつ}→絶：noentry⟧ = to cut off, discontinue\n⟦{滅|めつ}→滅：noentry⟧ = to destroy, perish",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "28286_kishoushu",
+      "reading": "きしょうしゅ",
+      "headword": "{希少種|きしょうしゅ}",
+      "label": "rare species"
+    },
+    {
+      "type": "related",
+      "target_id": "03625_hogo",
+      "reading": "ほご",
+      "headword": "{保護|ほご}",
+      "label": "protection"
+    },
+    {
+      "type": "related",
+      "target_id": "04626_seitaikei",
+      "reading": "せいたいけい",
+      "headword": "{生態系|せいたいけい}",
+      "label": "ecosystem"
+    },
+    {
+      "type": "related",
+      "target_id": "04639_seibutsutayousei",
+      "reading": "せいぶつたようせい",
+      "headword": "{生物多様性|せいぶつたようせい}",
+      "label": "biodiversity"
+    },
+    {
+      "type": "related",
+      "target_id": "04642_zetsumetsukigushu",
+      "reading": "ぜつめつきぐしゅ",
+      "headword": "{絶滅危惧種|ぜつめつきぐしゅ}",
+      "label": "endangered species"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22366_shoumetsusuru",
+      "reading": "しょうめつする",
+      "headword": "{消滅|しょうめつ}する",
+      "label": "to disappear"
+    },
+    {
+      "type": "related",
+      "target_id": "26600_koseibutsu",
+      "reading": "こせいぶつ",
+      "headword": "{古生物|こせいぶつ}",
+      "label": "fossil organism"
+    }
+  ],
   "metadata": {
     "created": "2026-01-12T12:48:00Z",
-    "modified": "2026-08-13T15:50:29Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

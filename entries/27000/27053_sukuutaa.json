@@ -15,40 +15,80 @@
   "examples": [
     {
       "id": "27053_sukuutaa_ex1",
-      "japanese": "スクーターで{通勤|つうきん}している。",
+      "japanese": "スクーター⟦で→で：00502_de⟧⟦{通勤|つうきん}→通勤：03512_tsuukin⟧⟦している→する：00392_suru⟧。",
       "english": "I commute by scooter.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27053_sukuutaa_ex2",
-      "japanese": "{駅前|えきまえ}にスクーターが{何台|なんだい}も{停|と}めてあった。",
+      "japanese": "⟦{駅前|えきまえ}→駅前：09593_ekimae⟧⟦に→に：00314_ni⟧スクーター⟦が→が：00051_ga⟧{何台|なんだい}⟦も→も：00484_mo⟧{停|と}めて⟦あった→ある：00006_aru⟧。",
       "english": "Several scooters were parked in front of the station.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27053_sukuutaa_ex3",
-      "japanese": "50ccのスクーターなら{原付免許|げんつきめんきょ}で{乗|の}れるので、{高校生|こうこうせい}にも{人気|にんき}がある。",
+      "japanese": "50cc⟦の→の：09472_no⟧スクーターなら{原付免許|げんつきめんきょ}⟦で→で：00502_de⟧⟦{乗|の}れる→乗る：00511_noru⟧⟦の→の：09472_no⟧で、⟦{高校生|こうこうせい}→高校生：01580_koukousei⟧⟦に→に：00314_ni⟧⟦も→も：00484_mo⟧⟦{人気|にんき}→人気：01488_ninki⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "You can ride a 50cc scooter with a moped license, so they're popular among high school students.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "From English \"scooter.\" In Japan, motor scooters are a very common form of transportation, especially in cities. They are classified by engine displacement: 50cc and under ({原付|げんつき}, moped class) can be ridden with any driver's license, while larger models require a motorcycle license.\n\nCOMMON COLLOCATIONS:\n- スクーターに{乗|の}る — to ride a scooter\n- スクーターで{行|い}く — to go by scooter\n- {電動|でんどう}スクーター — electric scooter\n- スクーターを{停|と}める — to park a scooter\n\nSIMILAR WORDS:\n- {原付|げんつき} — moped (50cc or under; colloquial abbreviation of {原動機付自転車|げんどうきつきじてんしゃ})\n- バイク — motorcycle (general loanword for motorcycles of all sizes)\n- {自動二輪車|じどうにりんしゃ} — motorcycle (formal/official term)\n- キックボード — kick scooter (non-motorized, human-powered scooter)",
+  "notes": "From English \"scooter.\" In Japan, motor scooters are a very common form of transportation, especially in cities. They are classified by engine displacement: 50cc and under (⟦{原付|げんつき}→原付：26791_gentsuki⟧, moped class) can be ridden with any driver's license, while larger models require a motorcycle license.\n\nCOMMON COLLOCATIONS:\n- スクーター⟦に→に：00314_ni⟧⟦{乗|の}る→乗る：00511_noru⟧ — to ride a scooter\n- スクーター⟦で→で：00502_de⟧⟦{行|い}く→行く：00119_iku⟧ — to go by scooter\n- ⟦{電動|でんどう}→電動：06412_dendou⟧スクーター — electric scooter\n- スクーター⟦を→を：00422_wo⟧{停|と}める — to park a scooter\n\nSIMILAR WORDS:\n- ⟦{原付|げんつき}→原付：26791_gentsuki⟧ — moped (50cc or under; colloquial abbreviation of {原動機付自転車|げんどうきつきじてんしゃ})\n- ⟦バイク→バイク：05081_baiku⟧ — motorcycle (general loanword for motorcycles of all sizes)\n- ⟦{自動二輪車|じどうにりんしゃ}→自動二輪車：29138_jidounirinsha⟧ — motorcycle (formal/official term)\n- ⟦キックボード→キックボード：29695_kikkuboodo⟧ — kick scooter (non-motorized, human-powered scooter)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "26791_gentsuki",
+      "reading": "げんつき",
+      "headword": "{原付|げんつき}",
+      "label": "moped (50cc or under"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05081_baiku",
+      "reading": "ばいく",
+      "headword": "バイク",
+      "label": "motorcycle"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29138_jidounirinsha",
+      "reading": "じどうにりんしゃ",
+      "headword": "{自動二輪車|じどうにりんしゃ}",
+      "label": "motorcycle"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29695_kikkuboodo",
+      "reading": "きっくぼーど",
+      "headword": "キックボード",
+      "label": "kick scooter"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["transportation"]
+      "semantic": [
+        "transportation"
+      ]
     },
     "created": "2026-05-06T15:12:31Z",
-    "modified": "2026-05-06T15:12:31Z"
+    "modified": "2026-09-02T04:02:28Z"
   }
 }

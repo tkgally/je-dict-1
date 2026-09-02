@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "15514_anshitsu_ex1",
-      "japanese": "{暗室|あんしつ}でフィルムを{現像|げんぞう}する。",
+      "japanese": "{暗室|あんしつ}⟦で→で：00502_de⟧⟦フィルム→フィルム：02951_firumu⟧⟦を→を：00422_wo⟧⟦{現像|げんぞう}→現像：06362_genzou⟧⟦する→する：00392_suru⟧。",
       "english": "Develop film in the darkroom.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "15514_anshitsu_ex2",
-      "japanese": "{大学|だいがく}の{写真部|しゃしんぶ}には{暗室|あんしつ}が{用意|ようい}されている。",
+      "japanese": "⟦{大学|だいがく}→大学：00608_daigaku⟧⟦の→の：09472_no⟧{写真部|しゃしんぶ}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{暗室|あんしつ}⟦が→が：00051_ga⟧⟦{用意|ようい}→用意：01746_youi⟧⟦されている→する：00392_suru⟧。",
       "english": "The university photography club has a darkroom available.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "15514_anshitsu_ex3",
-      "japanese": "デジタルカメラの{普及|ふきゅう}で{暗室|あんしつ}を{使|つか}う{人|ひと}は{少|すく}なくなった。",
+      "japanese": "⟦デジタルカメラ→デジタルカメラ：28544_dejitarukamera⟧⟦の→の：09472_no⟧⟦{普及|ふきゅう}→普及：07592_fukyuu⟧⟦で→で：00502_de⟧{暗室|あんしつ}⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧⟦{人|ひと}→人：00476_hito⟧⟦は→は：00079_ha⟧⟦{少|すく}なく→少ない：01136_sukunai⟧⟦なった→なる：01970_naru⟧。",
       "english": "With the spread of digital cameras, fewer people use darkrooms.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,19 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{暗室|あんしつ} is primarily associated with traditional film photography, where light-sensitive materials must be handled in complete darkness. While less common in the digital age, the word still appears in photography, art, and science contexts.\n\nCOMMON COLLOCATIONS:\n- {暗室|あんしつ}で{現像|げんぞう}する (to develop in a darkroom)\n- {暗室|あんしつ}{作業|さぎょう} (darkroom work)\n- {暗室|あんしつ}を{設|もう}ける (to set up a darkroom)",
-  "cross_references": [],
+  "notes": "USAGE:\n{暗室|あんしつ} is primarily associated with traditional film photography, where light-sensitive materials must be handled in complete darkness. While less common in the digital age, the word still appears in photography, art, and science contexts.\n\nCOMMON COLLOCATIONS:\n- {暗室|あんしつ}⟦で→で：00502_de⟧⟦{現像|げんぞう}→現像：06362_genzou⟧⟦する→する：00392_suru⟧ (to develop in a darkroom)\n- {暗室|あんしつ}⟦{作業|さぎょう}→作業：02775_sagyou⟧ (darkroom work)\n- {暗室|あんしつ}⟦を→を：00422_wo⟧⟦{設|もう}ける→設ける：14220_moukeru⟧ (to set up a darkroom)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23824_shashinshitsu",
+      "reading": "しゃしんしつ",
+      "headword": "{写真室|しゃしんしつ}",
+      "label": "photo studio"
+    }
+  ],
   "metadata": {
     "created": "2026-03-07T09:34:07Z",
-    "modified": "2026-07-16T15:31:26Z",
+    "modified": "2026-09-02T04:01:41Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

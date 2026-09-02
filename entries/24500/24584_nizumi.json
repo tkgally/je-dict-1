@@ -4,7 +4,7 @@
   "headword": "{荷積|にづ}み",
   "reading": "にづみ",
   "romaji": "nizumi",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "loading; loading cargo; shipment",
   "definitions": [
     {
@@ -16,7 +16,7 @@
   "examples": [
     {
       "id": "24584_nizumi_ex1",
-      "japanese": "トラックへの{荷積|にづ}みが{始|はじ}まった。",
+      "japanese": "⟦トラック→トラック：03863_torakku⟧⟦へ→へ：02473_he⟧⟦の→の：09472_no⟧{荷積|にづ}み⟦が→が：00051_ga⟧⟦{始|はじ}まった→始まる：00841_hajimaru⟧。",
       "english": "Loading onto the truck has begun.",
       "sense_numbers": [
         1
@@ -26,7 +26,7 @@
     },
     {
       "id": "24584_nizumi_ex2",
-      "japanese": "{荷積|にづ}み{作業|さぎょう}は{午前中|ごぜんちゅう}に{終|お}わる{予定|よてい}だ。",
+      "japanese": "{荷積|にづ}み⟦{作業|さぎょう}→作業：02775_sagyou⟧⟦は→は：00079_ha⟧⟦{午前中|ごぜんちゅう}→午前中：11495_gozenchuu⟧⟦に→に：00314_ni⟧{終|お}わる⟦{予定|よてい}→予定：00824_yotei⟧だ。",
       "english": "The loading work is scheduled to finish by noon.",
       "sense_numbers": [
         1
@@ -36,7 +36,7 @@
     },
     {
       "id": "24584_nizumi_ex3",
-      "japanese": "{港|みなと}では{大型|おおがた}{船舶|せんぱく}への{荷積|にづ}みが{昼夜|ちゅうや}を{問|と}わず{行|おこな}われている。",
+      "japanese": "⟦{港|みなと}→港：01512_minato⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{大型|おおがた}→大型：03016_oogata⟧{船舶|せんぱく}⟦へ→へ：02473_he⟧⟦の→の：09472_no⟧{荷積|にづ}み⟦が→が：00051_ga⟧⟦{昼夜|ちゅうや}→昼夜：12993_chuuya⟧⟦を→を：00422_wo⟧⟦{問|と}わ→問う：02299_tou⟧ず⟦{行|おこな}われている→行う：01238_okonau⟧。",
       "english": "At the port, cargo is loaded onto large ships around the clock.",
       "sense_numbers": [
         1
@@ -45,7 +45,7 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {荷|に} (cargo/freight) and {積|づ}み (loading/stacking, from {積|つ}む). Refers specifically to the process of loading goods onto a transport vehicle. The opposite operation is {荷降|にお}ろし (unloading).\n\nCOMMON COLLOCATIONS:\n- {荷積|にづ}み{作業|さぎょう}: loading work\n- {荷積|にづ}みを{行|おこな}う: to carry out loading\n- {荷積|にづ}み{場所|ばしょ}: loading area\n- トラックに{荷積|にづ}みする: to load onto a truck\n\nSIMILAR WORDS:\n- {積|つ}み{込|こ}み: loading, stowing — similar but emphasizes putting items into a container or vehicle\n- {荷降|にお}ろし: unloading — the reverse process of removing cargo\n- {積載|せきさい}: loading, carrying — a more formal/technical term for carrying a load",
+  "notes": "Composed of ⟦{荷|に}→荷：28294_ni⟧ (cargo/freight) and {積|づ}み (loading/stacking, from ⟦{積|つ}む→積む：02294_tsumu⟧). Refers specifically to the process of loading goods onto a transport vehicle. The opposite operation is {荷降|にお}ろし (unloading).\n\nCOMMON COLLOCATIONS:\n- {荷積|にづ}み⟦{作業|さぎょう}→作業：02775_sagyou⟧: loading work\n- {荷積|にづ}み⟦を→を：00422_wo⟧⟦{行|おこな}う→行う：01238_okonau⟧: to carry out loading\n- {荷積|にづ}み⟦{場所|ばしょ}→場所：00829_basho⟧: loading area\n- ⟦トラック→トラック：03863_torakku⟧⟦に→に：00314_ni⟧{荷積|にづ}み⟦する→する：00392_suru⟧: to load onto a truck\n\nSIMILAR WORDS:\n- ⟦{積|つ}み{込|こ}み→積み込み：09264_tsumikomi⟧: loading, stowing — similar but emphasizes putting items into a container or vehicle\n- {荷降|にお}ろし: unloading — the reverse process of removing cargo\n- ⟦{積載|せきさい}→積載：15883_sekisai⟧: loading, carrying — a more formal/technical term for carrying a load",
   "cross_references": [
     {
       "type": "antonym",
@@ -53,11 +53,25 @@
       "reading": "におろし",
       "headword": "{荷下|にお}ろし",
       "label": "unloading cargo"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09264_tsumikomi",
+      "reading": "つみこみ",
+      "headword": "{積|つ}み{込|こ}み",
+      "label": "loading, stowing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15883_sekisai",
+      "reading": "せきさい",
+      "headword": "{積載|せきさい}",
+      "label": "loading, carrying"
     }
   ],
   "metadata": {
     "created": "2026-04-19T15:23:26Z",
-    "modified": "2026-08-03T09:22:27Z",
+    "modified": "2026-09-02T04:02:18Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

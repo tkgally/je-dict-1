@@ -3,7 +3,7 @@
   "headword": "{取捨|しゅしゃ}",
   "reading": "しゅしゃ",
   "romaji": "shusha",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "selection; choosing what to keep and what to discard",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "27153_shusha_ex1",
-      "japanese": "{情報|じょうほう}の{取捨|しゅしゃ}{選択|せんたく}が{大切|たいせつ}だ。",
+      "japanese": "⟦{情報|じょうほう}→情報：03348_jouhou⟧⟦の→の：09472_no⟧{取捨|しゅしゃ}⟦{選択|せんたく}→選択：03306_sentaku⟧⟦が→が：00051_ga⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧だ。",
       "english": "It's important to sort and select information.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "27153_shusha_ex2",
-      "japanese": "{何|なに}を{取捨|しゅしゃ}するかは{自分|じぶん}で{決|き}める。",
+      "japanese": "⟦{何|なに}→何：00498_nani⟧⟦を→を：00422_wo⟧{取捨|しゅしゃ}⟦する→する：00392_suru⟧⟦か→か：09473_ka⟧⟦は→は：00079_ha⟧⟦{自分|じぶん}→自分：02887_jibun⟧⟦で→で：00502_de⟧⟦{決|き}める→決める：00858_kimeru⟧。",
       "english": "I decide for myself what to keep and what to discard.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "27153_shusha_ex3",
-      "japanese": "{膨大|ぼうだい}なデータの{中|なか}から{必要|ひつよう}な{情報|じょうほう}を{取捨|しゅしゃ}{選択|せんたく}する{能力|のうりょく}が{求|もと}められている。",
+      "japanese": "⟦{膨大|ぼうだい}→膨大：08997_boudai⟧な⟦データ→データ：03944_deeta⟧⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧⟦から→から：00504_kara⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧な⟦{情報|じょうほう}→情報：03348_jouhou⟧⟦を→を：00422_wo⟧{取捨|しゅしゃ}⟦{選択|せんたく}→選択：03306_sentaku⟧⟦する→する：00392_suru⟧⟦{能力|のうりょく}→能力：03541_nouryoku⟧⟦が→が：00051_ga⟧⟦{求|もと}められている→求める：02316_motomeru⟧。",
       "english": "The ability to sort through vast amounts of data and select the necessary information is being sought.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {取|と}る (to take) and {捨|す}てる (to discard). Almost always appears in the four-character compound {取捨選択|しゅしゃせんたく} (sorting and selecting). Used alone less frequently, and typically in formal or written contexts.\n\nCOMMON COLLOCATIONS:\n- {取捨|しゅしゃ}{選択|せんたく} — selection, sorting out (the most common usage by far)\n- {取捨|しゅしゃ}{選択|せんたく}する — to sort and select\n- {情報|じょうほう}の{取捨|しゅしゃ}{選択|せんたく} — sorting and selecting information\n- {取捨|しゅしゃ}を{誤|あやま}る — to make the wrong choice about what to keep\n\nSIMILAR WORDS:\n- {選択|せんたく} — choice, selection; broader term for choosing, without the nuance of discarding\n- {選別|せんべつ} — sorting, screening; separating things into categories, especially by quality\n- {淘汰|とうた} — winnowing, natural selection; elimination of the unfit or unnecessary",
+  "notes": "Composed of ⟦{取|と}る→取る：00565_toru⟧ (to take) and ⟦{捨|す}てる→捨てる：00892_suteru⟧ (to discard). Almost always appears in the four-character compound ⟦{取捨選択|しゅしゃせんたく}→取捨選択：06341_shushasentaku⟧ (sorting and selecting). Used alone less frequently, and typically in formal or written contexts.\n\nCOMMON COLLOCATIONS:\n- {取捨|しゅしゃ}⟦{選択|せんたく}→選択：03306_sentaku⟧ — selection, sorting out (the most common usage by far)\n- {取捨|しゅしゃ}⟦{選択|せんたく}→選択：03306_sentaku⟧⟦する→する：00392_suru⟧ — to sort and select\n- ⟦{情報|じょうほう}→情報：03348_jouhou⟧⟦の→の：09472_no⟧{取捨|しゅしゃ}⟦{選択|せんたく}→選択：03306_sentaku⟧ — sorting and selecting information\n- {取捨|しゅしゃ}⟦を→を：00422_wo⟧⟦{誤|あやま}る→誤る：27433_ayamaru⟧ — to make the wrong choice about what to keep\n\nSIMILAR WORDS:\n- ⟦{選択|せんたく}→選択：03306_sentaku⟧ — choice, selection; broader term for choosing, without the nuance of discarding\n- ⟦{選別|せんべつ}→選別：09616_senbetsu⟧ — sorting, screening; separating things into categories, especially by quality\n- ⟦{淘汰|とうた}→淘汰：07942_touta⟧ — winnowing, natural selection; elimination of the unfit or unnecessary",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03306_sentaku",
+      "reading": "せんたく",
+      "headword": "{選択|せんたく}",
+      "label": "choice, selection"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09616_senbetsu",
+      "reading": "せんべつ",
+      "headword": "{選別|せんべつ}",
+      "label": "sorting, screening"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07942_touta",
+      "reading": "とうた",
+      "headword": "{淘汰|とうた}",
+      "label": "winnowing, natural selection"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -58,10 +81,11 @@
       "semantic": [
         "cognition"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-05-07T13:13:47Z",
-    "modified": "2026-05-07T13:13:47Z"
+    "modified": "2026-09-02T04:02:29Z"
   },
   "conjugation": {
     "type": "suru",

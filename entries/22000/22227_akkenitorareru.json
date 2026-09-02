@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22227_akkenitorareru_ex1",
-      "japanese": "あっけにとられて{見|み}ていた。",
+      "japanese": "あっけにとられて⟦{見|み}ていた→見る：00283_miru⟧。",
       "english": "I watched in stunned silence.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22227_akkenitorareru_ex2",
-      "japanese": "{突然|とつぜん}の{告白|こくはく}にあっけにとられた。",
+      "japanese": "⟦{突然|とつぜん}→突然：00409_totsuzen⟧⟦の→の：09472_no⟧⟦{告白|こくはく}→告白：06742_kokuhaku⟧⟦に→に：00314_ni⟧あっけにとられた。",
       "english": "I was dumbfounded by the sudden confession.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22227_akkenitorareru_ex3",
-      "japanese": "{彼|かれ}の{大胆|だいたん}な{発言|はつげん}に、{会場|かいじょう}の{全員|ぜんいん}があっけにとられた。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧⟦{大胆|だいたん}→大胆：07609_daitan⟧な⟦{発言|はつげん}→発言：05099_hatsugen⟧⟦に→に：00314_ni⟧、⟦{会場|かいじょう}→会場：01269_kaijou⟧⟦の→の：09472_no⟧⟦{全員|ぜんいん}→全員：03310_zenin⟧⟦が→が：00051_ga⟧あっけにとられた。",
       "english": "Everyone in the venue was stunned by his bold remarks.",
       "sense_numbers": [
         1
@@ -45,7 +45,7 @@
     },
     {
       "id": "22227_akkenitorareru_ex4",
-      "japanese": "あまりにも{予想外|よそうがい}の{展開|てんかい}に、しばらくあっけにとられて{動|うご}けなかった。",
+      "japanese": "あまり⟦に→に：00314_ni⟧⟦も→も：00484_mo⟧⟦{予想外|よそうがい}→予想外：03188_yosougai⟧⟦の→の：09472_no⟧⟦{展開|てんかい}→展開：04542_tenkai⟧⟦に→に：00314_ni⟧、⟦しばらく→しばらく：01267_shibaraku⟧あっけにとられて⟦{動|うご}けなかった→動く：00904_ugoku⟧。",
       "english": "The turn of events was so unexpected that I was dumbfounded and couldn't move for a while.",
       "sense_numbers": [
         1
@@ -54,8 +54,31 @@
       "notes": null
     }
   ],
-  "notes": "A set expression describing the state of being so surprised that one freezes or goes speechless. The あっけ part relates to surprise or being caught off guard, and とられる (to be taken) indicates being seized by that feeling.\n\nCOMMON COLLOCATIONS:\n- あっけにとられて{見|み}る: to watch in stunned silence\n- あっけにとられて{立|た}ちすくむ: to stand rooted in shock\n- あっけにとられて{何|なに}も{言|い}えない: to be so stunned one can't say anything\n\nUSAGE:\nOften used in the past tense (あっけにとられた) or in the て-form describing a state (あっけにとられて...). The surprise is usually at something absurd, audacious, or completely unexpected — not necessarily negative.\n\nSIMILAR WORDS:\n- {唖然|あぜん}とする: to be dumbstruck — similar meaning but slightly more literary\n- {呆然|ぼうぜん}とする: to be stunned; dazed — implies a longer-lasting state of shock\n- {驚|おどろ}く: to be surprised — general surprise without the speechless, frozen quality",
+  "notes": "A set expression describing the state of being so surprised that one freezes or goes speechless. The あっけ part relates to surprise or being caught off guard, and とられる (to be taken) indicates being seized by that feeling.\n\nCOMMON COLLOCATIONS:\n- あっけにとられて⟦{見|み}る→見る：00283_miru⟧: to watch in stunned silence\n- あっけにとられて⟦{立|た}ちすくむ→立ちすくむ：18704_tachisukumu⟧: to stand rooted in shock\n- あっけにとられて⟦{何|なに}も→何も：03874_nanimo⟧⟦{言|い}えない→言う：00515_iu⟧: to be so stunned one can't say anything\n\nUSAGE:\nOften used in the past tense (あっけにとられた) or in the て-form describing a state (あっけにとられて...). The surprise is usually at something absurd, audacious, or completely unexpected — not necessarily negative.\n\nSIMILAR WORDS:\n- ⟦{唖然|あぜん}→唖然：09404_azen⟧⟦と→と：00512_to⟧⟦する→する：00392_suru⟧: to be dumbstruck — similar meaning but slightly more literary\n- ⟦{呆然|ぼうぜん}とする→呆然とする：19548_bouzentosuru⟧: to be stunned; dazed — implies a longer-lasting state of shock\n- ⟦{驚|おどろ}く→驚く：01255_odoroku⟧: to be surprised — general surprise without the speechless, frozen quality",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19548_bouzentosuru",
+      "reading": "ぼうぜんとする",
+      "headword": "{呆然|ぼうぜん}とする",
+      "label": "to be stunned"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01255_odoroku",
+      "reading": "おどろく",
+      "headword": "{驚|おどろ}く",
+      "label": "to be surprised"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21457_pokantosuru",
+      "reading": "ぽかんとする",
+      "headword": "ぽかんとする",
+      "label": "to look blank"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -69,6 +92,6 @@
       ]
     },
     "created": "2026-04-05T15:13:24Z",
-    "modified": "2026-04-10T08:28:27Z"
+    "modified": "2026-09-02T04:02:07Z"
   }
 }

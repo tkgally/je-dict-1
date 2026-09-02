@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "タップ is a loanword from English \"tap,\" used specifically for touchscreen interactions on smartphones and tablets. It functions as a する verb (タップする).\n\nCONTRAST WITH クリック:\nタップ is for touchscreens (finger), while ⟦クリック→クリック：05275_kurikku⟧ is for mouse actions on computers. In smartphone contexts, always use タップ.\n\nRELATED TOUCH ACTIONS:\n- ⟦ダブルタップ→ダブルタップ：noentry⟧: double tap\n- ⟦{長押|ながお}し→長押し：28889_nagaoshi⟧: long press\n- ⟦スワイプ→スワイプ：06182_suwaipu⟧: swipe\n- ⟦ピンチ→ピンチ：11143_pinchi⟧: pinch (zoom gesture)\n- ⟦フリック→フリック：28776_furikku⟧: flick\n\nCOMMON PATTERNS:\n- ⟦アイコン→アイコン：28888_aikon⟧をタップ⟦する→する：00392_suru⟧: to tap an icon\n- ⟦{画面|がめん}→画面：04406_gamen⟧をタップ⟦する→する：00392_suru⟧: to tap the screen\n- タップ⟦して→する：00392_suru⟧⟦{選択|せんたく}→選択：03306_sentaku⟧⟦する→する：00392_suru⟧: to tap to select",
+  "notes": "タップ is a loanword from English \"tap,\" used specifically for touchscreen interactions on smartphones and tablets. It functions as a ⟦する→する：00392_suru⟧ verb (タップ⟦する→する：00392_suru⟧).\n\nCONTRAST WITH クリック:\nタップ is for touchscreens (finger), while ⟦クリック→クリック：05275_kurikku⟧ is for mouse actions on computers. In smartphone contexts, always use タップ.\n\nRELATED TOUCH ACTIONS:\n- ⟦ダブルタップ→ダブルタップ：noentry⟧: double tap\n- ⟦{長押|ながお}し→長押し：28889_nagaoshi⟧: long press\n- ⟦スワイプ→スワイプ：06182_suwaipu⟧: swipe\n- ⟦ピンチ→ピンチ：11143_pinchi⟧: pinch (zoom gesture)\n- ⟦フリック→フリック：28776_furikku⟧: flick\n\nCOMMON PATTERNS:\n- ⟦アイコン→アイコン：28888_aikon⟧⟦を→を：00422_wo⟧タップ⟦する→する：00392_suru⟧: to tap an icon\n- ⟦{画面|がめん}→画面：04406_gamen⟧⟦を→を：00422_wo⟧タップ⟦する→する：00392_suru⟧: to tap the screen\n- タップ⟦して→する：00392_suru⟧⟦{選択|せんたく}→選択：03306_sentaku⟧⟦する→する：00392_suru⟧: to tap to select",
   "cross_references": [
     {
       "type": "contrast",
@@ -58,11 +58,60 @@
       "reading": "すわいぷ",
       "headword": "スワイプ",
       "label": "swipe"
+    },
+    {
+      "type": "related",
+      "target_id": "28889_nagaoshi",
+      "reading": "ながおし",
+      "headword": "{長押|なが}し",
+      "label": "long press"
+    },
+    {
+      "type": "related",
+      "target_id": "11143_pinchi",
+      "reading": "ぴんち",
+      "headword": "ピンチ",
+      "label": "pinch"
+    },
+    {
+      "type": "related",
+      "target_id": "28776_furikku",
+      "reading": "ふりっく",
+      "headword": "フリック",
+      "label": "flick"
+    },
+    {
+      "type": "related",
+      "target_id": "05226_tacchipaneru",
+      "reading": "たっちぱねる",
+      "headword": "タッチパネル",
+      "label": "touch panel"
+    },
+    {
+      "type": "related",
+      "target_id": "06183_sukurooru",
+      "reading": "すくろーる",
+      "headword": "スクロール",
+      "label": "scroll"
+    },
+    {
+      "type": "related",
+      "target_id": "07807_puragu",
+      "reading": "ぷらぐ",
+      "headword": "プラグ",
+      "label": "plug"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26395_daburukurikku",
+      "reading": "だぶるくりっく",
+      "headword": "ダブルクリック",
+      "label": "double-click"
     }
   ],
   "metadata": {
     "created": "2026-01-16T05:48:20Z",
-    "modified": "2026-08-20T06:21:38Z",
+    "modified": "2026-09-02T04:01:06Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

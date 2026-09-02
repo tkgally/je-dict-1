@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "13126_kakuheiki_ex1",
-      "japanese": "{核兵器|かくへいき}の{廃絶|はいぜつ}を{訴|うった}える。",
+      "japanese": "{核兵器|かくへいき}⟦の→の：09472_no⟧⟦{廃絶|はいぜつ}→廃絶：28187_haizetsu⟧⟦を→を：00422_wo⟧⟦{訴|うった}える→訴える：01891_uttaeru⟧。",
       "english": "To call for the abolition of nuclear weapons.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "13126_kakuheiki_ex2",
-      "japanese": "{核兵器|かくへいき}の{使用|しよう}は{許|ゆる}されない。",
+      "japanese": "{核兵器|かくへいき}⟦の→の：09472_no⟧⟦{使用|しよう}→使用：01637_shiyou⟧⟦は→は：00079_ha⟧⟦{許|ゆる}されない→許す：02325_yurusu⟧。",
       "english": "The use of nuclear weapons is unacceptable.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "13126_kakuheiki_ex3",
-      "japanese": "{世界|せかい}から{核兵器|かくへいき}をなくすために、{多|おお}くの{国|くに}が{条約|じょうやく}に{署名|しょめい}した。",
+      "japanese": "⟦{世界|せかい}→世界：01447_sekai⟧⟦から→から：00504_kara⟧{核兵器|かくへいき}⟦を→を：00422_wo⟧なくす⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧、{多|おお}く⟦の→の：09472_no⟧⟦{国|くに}→国：02204_kuni⟧⟦が→が：00051_ga⟧⟦{条約|じょうやく}→条約：04912_jouyaku⟧⟦に→に：00314_ni⟧⟦{署名|しょめい}した→署名する：22432_shomeisuru⟧。",
       "english": "Many countries signed the treaty in order to eliminate nuclear weapons from the world.",
       "notes": null,
       "has_audio": false,
@@ -44,18 +44,67 @@
       ]
     }
   ],
-  "notes": "COMMON COLLOCATIONS:\n- {核兵器|かくへいき}の{廃絶|はいぜつ}: abolition of nuclear weapons\n- {核兵器|かくへいき}の{禁止|きんし}: prohibition of nuclear weapons\n- {核兵器|かくへいき}を{保有|ほゆう}する: to possess nuclear weapons\n- {核兵器|かくへいき}{禁止|きんし}{条約|じょうやく}: Treaty on the Prohibition of Nuclear Weapons\n\nCULTURE:\nAs the only country to have experienced atomic bombings ({広島|ひろしま} and {長崎|ながさき} in 1945), Japan has a particularly strong cultural and political sensitivity toward nuclear weapons. The phrase {非核三原則|ひかくさんげんそく} (Three Non-Nuclear Principles) — not possessing, not producing, and not permitting the introduction of nuclear weapons — is a cornerstone of Japan's postwar policy.\n\nETYMOLOGY:\n{核|かく} (nuclear) + {兵器|へいき} (weapons).",
+  "notes": "COMMON COLLOCATIONS:\n- {核兵器|かくへいき}⟦の→の：09472_no⟧⟦{廃絶|はいぜつ}→廃絶：28187_haizetsu⟧: abolition of nuclear weapons\n- {核兵器|かくへいき}⟦の→の：09472_no⟧⟦{禁止|きんし}→禁止：02643_kinshi⟧: prohibition of nuclear weapons\n- {核兵器|かくへいき}⟦を→を：00422_wo⟧⟦{保有|ほゆう}→保有：11615_hoyuu⟧⟦する→する：00392_suru⟧: to possess nuclear weapons\n- {核兵器|かくへいき}⟦{禁止|きんし}→禁止：02643_kinshi⟧⟦{条約|じょうやく}→条約：04912_jouyaku⟧: Treaty on the Prohibition of Nuclear Weapons\n\nCULTURAL NOTE:\nAs the only country to have experienced atomic bombings (⟦{広島|ひろしま}→広島：28985_hiroshima⟧ and ⟦{長崎|ながさき}→長崎：30731_nagasaki⟧ in 1945), Japan has a particularly strong cultural and political sensitivity toward nuclear weapons. The phrase {非核三原則|ひかくさんげんそく} (Three Non-Nuclear Principles) — not possessing, not producing, and not permitting the introduction of nuclear weapons — is a cornerstone of Japan's postwar policy.\n\nETYMOLOGY:\n⟦{核|かく}→核：13127_kaku⟧ (nuclear) + ⟦{兵器|へいき}→兵器：11679_heiki⟧ (weapons).",
   "cross_references": [
     {
       "type": "related",
       "reading": "かく",
       "headword": "{核|かく}",
       "target_id": "13127_kaku"
+    },
+    {
+      "type": "related",
+      "target_id": "22697_genshibakudan",
+      "reading": "げんしばくだん",
+      "headword": "{原子爆弾|げんしばくだん}",
+      "label": "atomic bomb"
+    },
+    {
+      "type": "related",
+      "target_id": "23237_kakugunshuku",
+      "reading": "かくぐんしゅく",
+      "headword": "{核軍縮|かくぐんしゅく}",
+      "label": "nuclear disarmament"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23262_kakudantou",
+      "reading": "かくだんとう",
+      "headword": "{核弾頭|かくだんとう}",
+      "label": "nuclear warhead"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23787_kakubakudan",
+      "reading": "かくばくだん",
+      "headword": "{核爆弾|かくばくだん}",
+      "label": "nuclear bomb"
+    },
+    {
+      "type": "related",
+      "target_id": "24809_kagakuheiki",
+      "reading": "かがくへいき",
+      "headword": "{化学|かがく}{兵器|へいき}",
+      "label": "chemical weapon"
+    },
+    {
+      "type": "related",
+      "target_id": "26606_kakukakusan",
+      "reading": "かくかくさん",
+      "headword": "{核拡散|かくかくさん}",
+      "label": "nuclear proliferation"
+    },
+    {
+      "type": "related",
+      "target_id": "29316_kakumisairu",
+      "reading": "かくみさいる",
+      "headword": "{核|かく}ミサイル",
+      "label": "nuclear missile"
     }
   ],
   "metadata": {
     "created": "2026-02-23T11:16:43Z",
-    "modified": "2026-03-29T10:42:23Z",
+    "modified": "2026-09-02T04:01:31Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

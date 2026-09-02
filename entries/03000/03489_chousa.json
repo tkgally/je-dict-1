@@ -2,7 +2,7 @@
   "id": "03489_chousa",
   "headword": "{調査|ちょうさ}",
   "reading": "ちょうさ",
-  "part_of_speech": "noun, suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "investigation, survey",
   "conjugation": {
     "type": "suru",
@@ -129,7 +129,7 @@
     },
     {
       "id": "03489_chousa_ex3",
-      "japanese": "⟦{問題|もんだい}→問題：00797_mondai⟧⟦が→が：00051_ga⟧⟦{見|み}つかった→見つかる：01173_mitsukaru⟧ので、⟦{詳|くわ}しく→詳しい：02483_kuwashii⟧{調査|ちょうさ}⟦する→する：00392_suru⟧ことに⟦なった→なる：01970_naru⟧。",
+      "japanese": "⟦{問題|もんだい}→問題：00797_mondai⟧⟦が→が：00051_ga⟧⟦{見|み}つかった→見つかる：01173_mitsukaru⟧⟦の→の：09472_no⟧で、⟦{詳|くわ}しく→詳しい：02483_kuwashii⟧{調査|ちょうさ}⟦する→する：00392_suru⟧こと⟦に→に：00314_ni⟧⟦なった→なる：01970_naru⟧。",
       "english": "A problem was found, so a detailed investigation was decided upon.",
       "notes": null,
       "has_audio": false,
@@ -168,7 +168,7 @@
       ]
     }
   ],
-  "notes": "COMMON PATTERNS:\n・{調査|ちょうさ}⟦する→する：00392_suru⟧ (to investigate, to survey)\n・{調査|ちょうさ}⟦を→を：00422_wo⟧⟦{行|おこな}う→行う：01238_okonau⟧ (to conduct a survey)\n・{調査|ちょうさ}⟦の→の：09472_no⟧⟦{結果|けっか}→結果：02486_kekka⟧ (survey/investigation results)\n\nCOMMON COMPOUND WORDS:\n・⟦{世論|よろん}→世論：16145_yoron⟧{調査|ちょうさ} (public opinion poll)\n・⟦{市場|しじょう}→市場：09685_shijou⟧{調査|ちょうさ} (market research)\n・⟦{実態|じったい}→実態：10567_jittai⟧{調査|ちょうさ} (fact-finding survey)\n・⟦{現地|げんち}→現地：13502_genchi⟧{調査|ちょうさ} (field survey)\n・{調査|ちょうさ}⟦{報告|ほうこく}→報告：03618_houkoku⟧ (investigation report)\n\nSIMILAR WORDS:\n・{調査|ちょうさ}: Investigation, survey (formal, systematic)\n・⟦{捜査|そうさ}→捜査：03688_sousa⟧: Criminal investigation (police work)",
+  "notes": "COMMON PATTERNS:\n- {調査|ちょうさ}⟦する→する：00392_suru⟧ (to investigate, to survey)\n- {調査|ちょうさ}⟦を→を：00422_wo⟧⟦{行|おこな}う→行う：01238_okonau⟧ (to conduct a survey)\n- {調査|ちょうさ}⟦の→の：09472_no⟧⟦{結果|けっか}→結果：02486_kekka⟧ (survey/investigation results)\n\nCOMPOUNDS:\n- ⟦{世論|よろん}→世論：16145_yoron⟧{調査|ちょうさ} (public opinion poll)\n- ⟦{市場|しじょう}→市場：09685_shijou⟧{調査|ちょうさ} (market research)\n- ⟦{実態|じったい}→実態：10567_jittai⟧{調査|ちょうさ} (fact-finding survey)\n- ⟦{現地|げんち}→現地：13502_genchi⟧{調査|ちょうさ} (field survey)\n- {調査|ちょうさ}⟦{報告|ほうこく}→報告：03618_houkoku⟧ (investigation report)\n\nSIMILAR WORDS:\n- {調査|ちょうさ}: Investigation, survey (formal, systematic)\n- ⟦{捜査|そうさ}→捜査：03688_sousa⟧: Criminal investigation (police work)",
   "cross_references": [
     {
       "type": "contrast",
@@ -176,11 +176,67 @@
       "headword": "{捜査|そうさ}",
       "label": "criminal investigation",
       "target_id": "03688_sousa"
+    },
+    {
+      "type": "related",
+      "target_id": "01213_shiraberu",
+      "reading": "しらべる",
+      "headword": "{調|しら}べる",
+      "label": "to investigate, to look up"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03071_shirabemono",
+      "reading": "しらべもの",
+      "headword": "{調|しら}べ{物|もの}",
+      "label": "research, investigation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07519_seisa",
+      "reading": "せいさ",
+      "headword": "{精査|せいさ}",
+      "label": "close examination"
+    },
+    {
+      "type": "related",
+      "target_id": "08375_shinsa",
+      "reading": "しんさ",
+      "headword": "{審査|しんさ}",
+      "label": "examination"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16075_kaiseki",
+      "reading": "かいせき",
+      "headword": "{解析|かいせき}",
+      "label": "analysis"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16562_shisatsu",
+      "reading": "しさつ",
+      "headword": "{視察|しさつ}",
+      "label": "inspection"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23802_sasatsu",
+      "reading": "ささつ",
+      "headword": "{査察|ささつ}",
+      "label": "inspection (official)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27233_jouhoushuushuu",
+      "reading": "じょうほうしゅうしゅう",
+      "headword": "{情報|じょうほう}{収集|しゅうしゅう}",
+      "label": "information gathering"
     }
   ],
   "metadata": {
     "created": "2026-01-12T09:22:00Z",
-    "modified": "2026-05-25T20:06:16Z",
+    "modified": "2026-09-02T04:01:03Z",
     "schema_version": "2.0",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
@@ -196,7 +252,8 @@
         "education",
         "geography"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

@@ -14,43 +14,77 @@
   "examples": [
     {
       "id": "11622_ganrai_ex1",
-      "japanese": "{彼|かれ}は{元来|がんらい}{真面目|まじめ}な{人|ひと}だ。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{元来|がんらい}⟦{真面目|まじめ}→真面目：01206_majime⟧な⟦{人|ひと}→人：00476_hito⟧だ。",
       "english": "He is by nature a serious person.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11622_ganrai_ex2",
-      "japanese": "この{土地|とち}は{元来|がんらい}{農地|のうち}だった。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{土地|とち}→土地：02226_tochi⟧⟦は→は：00079_ha⟧{元来|がんらい}⟦{農地|のうち}→農地：14354_nouchi⟧だった。",
       "english": "This land was originally farmland.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11622_ganrai_ex3",
-      "japanese": "{元来|がんらい}{体|からだ}が{丈夫|じょうぶ}だったので、{大|おお}きな{病気|びょうき}をしたことがない。",
+      "japanese": "{元来|がんらい}⟦{体|からだ}→体：00784_karada⟧⟦が→が：00051_ga⟧⟦{丈夫|じょうぶ}→丈夫：01156_joubu⟧だった⟦の→の：09472_no⟧で、⟦{大|おお}きな→大きな：02849_ookina⟧⟦{病気|びょうき}→病気：00771_byouki⟧⟦を→を：00422_wo⟧⟦した→する：00392_suru⟧こと⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧。",
       "english": "Since I was inherently healthy, I've never had a serious illness.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{元来|がんらい} is a formal/literary adverb meaning \"originally\" or \"by nature.\" It emphasizes that something has been true from the very beginning or is an innate quality.\n\nCOMMON PATTERNS:\n- {元来|がんらい}〜な{性格|せいかく}だ: is by nature a ~ personality\n- {元来|がんらい}〜だった: was originally ~\n- {元来|がんらい}の{目的|もくてき}: the original purpose\n\nSIMILAR WORDS:\n- もともと: originally, by nature (everyday, casual — most common in speech)\n- {元来|がんらい}: originally, by nature (formal, literary)\n- {本来|ほんらい}: originally, properly, by rights (formal, often implies \"should be\")\n- そもそも: in the first place, to begin with (often used when questioning assumptions)\n\nREGISTER:\nAppears mainly in written language, essays, and formal speech. In everyday conversation, もともと is preferred.",
-  "cross_references": [],
+  "notes": "{元来|がんらい} is a formal/literary adverb meaning \"originally\" or \"by nature.\" It emphasizes that something has been true from the very beginning or is an innate quality.\n\nCOMMON PATTERNS:\n- {元来|がんらい}〜な⟦{性格|せいかく}→性格：03371_seikaku⟧だ: is by nature a ~ personality\n- {元来|がんらい}〜だった: was originally ~\n- {元来|がんらい}⟦の→の：09472_no⟧⟦{目的|もくてき}→目的：02433_mokuteki⟧: the original purpose\n\nSIMILAR WORDS:\n- もともと: originally, by nature (everyday, casual — most common in speech)\n- {元来|がんらい}: originally, by nature (formal, literary)\n- ⟦{本来|ほんらい}→本来：09644_honrai⟧: originally, properly, by rights (formal, often implies \"should be\")\n- ⟦そもそも→そもそも：05211_somosomo⟧: in the first place, to begin with (often used when questioning assumptions)\n\nREGISTER:\nAppears mainly in written language, essays, and formal speech. In everyday conversation, もともと is preferred.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00294_motomoto",
+      "reading": "もともと",
+      "headword": "{元々|もともと}",
+      "label": "originally, by nature (everyday, casual"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09644_honrai",
+      "reading": "ほんらい",
+      "headword": "{本来|ほんらい}",
+      "label": "originally, properly, by rights"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05211_somosomo",
+      "reading": "そもそも",
+      "headword": "そもそも",
+      "label": "in the first place, to begin with"
+    }
+  ],
   "metadata": {
     "created": "2026-02-17T14:41:10Z",
-    "modified": "2026-03-28T07:51:23Z",
+    "modified": "2026-09-02T04:01:25Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
     "tags": {
-      "pos": ["adverb"],
+      "pos": [
+        "adverb"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["time-general"],
-      "style": ["written"]
+      "semantic": [
+        "time-general"
+      ],
+      "style": [
+        "written"
+      ]
     }
   }
 }

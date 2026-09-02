@@ -15,41 +15,67 @@
   "examples": [
     {
       "id": "17998_teijiro_ex1",
-      "japanese": "{丁字路|ていじろ}を{右|みぎ}に{曲|ま}がる。",
+      "japanese": "{丁字路|ていじろ}⟦を→を：00422_wo⟧⟦{右|みぎ}→右：02257_migi⟧⟦に→に：00314_ni⟧⟦{曲|ま}がる→曲がる：00649_magaru⟧。",
       "english": "Turn right at the T-junction.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17998_teijiro_ex2",
-      "japanese": "この{先|さき}の{丁字路|ていじろ}を{左|ひだり}に{行|い}くと{駅|えき}に{着|つ}きます。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{先|さき}→先：02883_saki⟧⟦の→の：09472_no⟧{丁字路|ていじろ}⟦を→を：00422_wo⟧⟦{左|ひだり}→左：00628_hidari⟧⟦に→に：00314_ni⟧⟦{行|い}く→行く：00119_iku⟧⟦と→と：00512_to⟧⟦{駅|えき}→駅：02180_eki⟧⟦に→に：00314_ni⟧⟦{着|つ}きます→着く：00680_tsuku⟧。",
       "english": "If you go left at the T-junction up ahead, you'll reach the station.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17998_teijiro_ex3",
-      "japanese": "{丁字路|ていじろ}は{見通|みとお}しが{悪|わる}いことが{多|おお}いので、{一時|いちじ}{停止|ていし}して{左右|さゆう}を{確認|かくにん}してください。",
+      "japanese": "{丁字路|ていじろ}⟦は→は：00079_ha⟧⟦{見通|みとお}し→見通し：10566_mitooshi⟧⟦が→が：00051_ga⟧⟦{悪|わる}い→悪い：00908_warui⟧こと⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧⟦の→の：09472_no⟧で、⟦{一時|いちじ}{停止|ていし}→一時停止：05401_ichijiteishi⟧⟦して→する：00392_suru⟧⟦{左右|さゆう}→左右：02826_sayuu⟧⟦を→を：00422_wo⟧⟦{確認|かくにん}して→確認する：25332_kakuninsuru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "T-junctions often have poor visibility, so please stop and check both directions.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nAlso commonly written and said as T{字路|じろ} (using the Roman letter T). Both forms are widely understood. Appears frequently in driving directions and traffic regulations.\n\nCOMMON COLLOCATIONS:\n- {丁字路|ていじろ}を{曲|ま}がる (to turn at a T-junction)\n- {丁字路|ていじろ}に{差|さ}しかかる (to come to a T-junction)\n- {丁字路|ていじろ}{交差点|こうさてん} (T-junction intersection)\n\nSIMILAR WORDS:\n- {十字路|じゅうじろ}: crossroads — a four-way intersection\n- {交差点|こうさてん}: intersection — the general term for any intersection",
-  "cross_references": [],
+  "notes": "USAGE:\nAlso commonly written and said as T{字路|じろ} (using the Roman letter T). Both forms are widely understood. Appears frequently in driving directions and traffic regulations.\n\nCOMMON COLLOCATIONS:\n- {丁字路|ていじろ}⟦を→を：00422_wo⟧⟦{曲|ま}がる→曲がる：00649_magaru⟧ (to turn at a T-junction)\n- {丁字路|ていじろ}⟦に→に：00314_ni⟧{差|さ}しかかる (to come to a T-junction)\n- {丁字路|ていじろ}⟦{交差点|こうさてん}→交差点：01404_kousaten⟧ (T-junction intersection)\n\nSIMILAR WORDS:\n- ⟦{十字路|じゅうじろ}→十字路：09387_juujiro⟧: crossroads — a four-way intersection\n- ⟦{交差点|こうさてん}→交差点：01404_kousaten⟧: intersection — the general term for any intersection",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09387_juujiro",
+      "reading": "じゅうじろ",
+      "headword": "{十字路|じゅうじろ}",
+      "label": "crossroads"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01404_kousaten",
+      "reading": "こうさてん",
+      "headword": "{交差点|こうさてん}",
+      "label": "intersection"
+    }
+  ],
   "metadata": {
     "created": "2026-03-19T11:50:56Z",
-    "modified": "2026-03-19T11:50:56Z",
+    "modified": "2026-09-02T04:01:50Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["transportation", "geography"]
+      "semantic": [
+        "transportation",
+        "geography"
+      ]
     }
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30266_nettokafe_ex1",
-      "japanese": "ネットカフェで{資料|しりょう}を{印刷|いんさつ}した。",
+      "japanese": "ネットカフェ⟦で→で：00502_de⟧⟦{資料|しりょう}→資料：04166_shiryou⟧⟦を→を：00422_wo⟧⟦{印刷|いんさつ}した→印刷する：21677_insatsusuru⟧。",
       "english": "I printed the documents at an internet cafe.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "30266_nettokafe_ex2",
-      "japanese": "この{辺|あた}りは{夜中|よなか}でも{開|あ}いているネットカフェがある。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{辺|あた}り→辺り：01770_atari⟧⟦は→は：00079_ha⟧⟦{夜中|よなか}→夜中：01008_yonaka⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧⟦{開|あ}いている→開く：00689_aku⟧ネットカフェ⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "Around here there are internet cafes open even in the middle of the night.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "30266_nettokafe_ex3",
-      "japanese": "{住|す}む{場所|ばしょ}がなく、ネットカフェで{寝泊|ねと}まりしている{人|ひと}も{少|すく}なくないという。",
+      "japanese": "⟦{住|す}む→住む：00673_sumu⟧⟦{場所|ばしょ}→場所：00829_basho⟧⟦が→が：00051_ga⟧⟦なく→ない：01118_nai⟧、ネットカフェ⟦で→で：00502_de⟧{寝泊|ねと}まり⟦している→する：00392_suru⟧⟦{人|ひと}→人：00476_hito⟧⟦も→も：00484_mo⟧⟦{少|すく}なくない→少ない：01136_sukunai⟧⟦という→という：09577_toiu⟧。",
       "english": "It is said that quite a few people with nowhere to live sleep at internet cafes.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "From English \"net cafe\"; the fuller インターネットカフェ appears in formal writing. The compound ネットカフェ{難民|なんみん} (\"internet cafe refugees\") is a well-known term for people who live in such booths for lack of housing.\n\nCOMMON COLLOCATIONS:\n- ネットカフェに{寄|よ}る: to stop by an internet cafe\n- ネットカフェで{夜|よ}を{明|あ}かす: to spend the night at an internet cafe\n- ネットカフェの{会員|かいいん}{証|しょう}: an internet cafe membership card\n\nSIMILAR WORDS:\n- {漫画喫茶|まんがきっさ}: manga cafe — the same kind of shop, named for its manga library instead\n- カフェ: cafe — an ordinary coffee shop, with no per-hour booth rental",
+  "notes": "From English \"net cafe\"; the fuller インターネットカフェ appears in formal writing. The compound ネットカフェ{難民|なんみん} (\"internet cafe refugees\") is a well-known term for people who live in such booths for lack of housing.\n\nCOMMON COLLOCATIONS:\n- ネットカフェ⟦に→に：00314_ni⟧⟦{寄|よ}る→寄る：02440_yoru⟧: to stop by an internet cafe\n- ネットカフェ⟦で→で：00502_de⟧{夜|よ}⟦を→を：00422_wo⟧⟦{明|あ}かす→明かす：12961_akasu⟧: to spend the night at an internet cafe\n- ネットカフェ⟦の→の：09472_no⟧⟦{会員|かいいん}{証|しょう}→会員証：22898_kaiinshou⟧: an internet cafe membership card\n\nSIMILAR WORDS:\n- ⟦{漫画喫茶|まんがきっさ}→漫画喫茶：30265_mangakissa⟧: manga cafe — the same kind of shop, named for its manga library instead\n- ⟦カフェ→カフェ：06767_kafe⟧: cafe — an ordinary coffee shop, with no per-hour booth rental",
   "cross_references": [
     {
       "type": "related",
@@ -52,6 +52,13 @@
       "reading": "かふぇ",
       "headword": "カフェ",
       "label": "cafe"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30265_mangakissa",
+      "reading": "まんがきっさ",
+      "headword": "{漫画喫茶|まんがきっさ}",
+      "label": "manga cafe"
     }
   ],
   "metadata": {
@@ -69,6 +76,6 @@
       "domain": []
     },
     "created": "2026-07-31T06:19:07Z",
-    "modified": "2026-07-31T06:19:07Z"
+    "modified": "2026-09-02T04:02:39Z"
   }
 }

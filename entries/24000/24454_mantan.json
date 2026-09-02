@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24454_mantan_ex1",
-      "japanese": "ガソリン{満|まん}タンで。",
+      "japanese": "⟦ガソリン→ガソリン：01346_gasorin⟧{満|まん}タン⟦で→で：00502_de⟧。",
       "english": "Fill it up with gas, please.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24454_mantan_ex2",
-      "japanese": "{出発|しゅっぱつ}{前|まえ}に{満|まん}タンにしておこう。",
+      "japanese": "⟦{出発|しゅっぱつ}→出発：02085_shuppatsu⟧⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧{満|まん}タンにしておこう。",
       "english": "Let's fill up the tank before we leave.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24454_mantan_ex3",
-      "japanese": "{満|まん}タンにしたのに、もう{半分|はんぶん}しか{残|のこ}っていない。",
+      "japanese": "{満|まん}タンにした⟦の→の：09472_no⟧⟦に→に：00314_ni⟧、⟦もう→もう：00602_mou⟧⟦{半分|はんぶん}→半分：02938_hanbun⟧しか⟦{残|のこ}っていない→残る：01187_nokoru⟧。",
       "english": "Even though I filled it up, only half is left already.",
       "sense_numbers": [
         1
@@ -45,7 +45,7 @@
     },
     {
       "id": "24454_mantan_ex4",
-      "japanese": "このレンタカーは{満|まん}タン{返|がえ}しが{条件|じょうけん}です。",
+      "japanese": "⟦この→この：00962_kono⟧⟦レンタカー→レンタカー：23193_rentakaa⟧⟦は→は：00079_ha⟧{満|まん}タン{返|がえ}し⟦が→が：00051_ga⟧⟦{条件|じょうけん}→条件：03285_jouken⟧です。",
       "english": "This rental car requires a full-tank return.",
       "sense_numbers": [
         1
@@ -54,20 +54,30 @@
       "notes": null
     }
   ],
-  "notes": "Written with the kanji {満|まん} plus the katakana タン (from English \"tank\"). Refers to a completely full tank, most commonly of gasoline. The word is a hybrid of Japanese and English elements, reflecting the loanword origin of タンク (tank).\n\nCOMMON COLLOCATIONS:\n- ガソリン{満|まん}タン: full tank of gas\n- {満|まん}タンにする: to fill up (a tank)\n- {満|まん}タン{返|がえ}し: full-tank return (rental car policy)\n\nUSAGE:\nAt gas stations, simply saying 「{満|まん}タンで」 is the standard way to request a full tank. Can also be used figuratively to describe being completely full of energy or food, though this is informal and humorous.",
+  "notes": "Written with the kanji {満|まん} plus the katakana タン (from English \"tank\"). Refers to a completely full tank, most commonly of gasoline. The word is a hybrid of Japanese and English elements, reflecting the loanword origin of ⟦タンク→タンク：23095_tanku⟧ (tank).\n\nCOMMON COLLOCATIONS:\n- ⟦ガソリン→ガソリン：01346_gasorin⟧{満|まん}タン: full tank of gas\n- {満|まん}タン⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧: to fill up (a tank)\n- {満|まん}タン{返|がえ}し: full-tank return (rental car policy)\n\nUSAGE:\nAt gas stations, simply saying 「{満|まん}タン⟦で→で：00502_de⟧」 is the standard way to request a full tank. Can also be used figuratively to describe being completely full of energy or food, though this is informal and humorous.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23934_nenryouhokyuu",
+      "reading": "ねんりょうほきゅう",
+      "headword": "{燃料補給|ねんりょうほきゅう}",
+      "label": "refueling"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "transportation",
         "daily-life"
       ]
     },
     "created": "2026-04-19T11:11:22Z",
-    "modified": "2026-04-19T11:11:22Z"
+    "modified": "2026-09-02T04:02:18Z"
   }
 }

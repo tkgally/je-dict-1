@@ -78,10 +78,33 @@
       ]
     }
   ],
-  "notes": "{水産|すいさん} encompasses all products from aquatic sources and the industry surrounding them. Japan, being an island nation, has a significant fisheries sector.\n\nCOMMON COMPOUNDS:\n- {水産|すいさん}⟦{業|ぎょう}→業：noentry⟧: fishing industry\n- {水産|すいさん}⟦{物|ぶつ}→〜物：28336_butsu⟧: marine products, seafood\n- {水産|すいさん}⟦{加工|かこう}→加工：11793_kakou⟧: seafood processing\n- {水産|すいさん}⟦{資源|しげん}→資源：03167_shigen⟧: marine resources\n- {水産|すいさん}⟦{庁|ちょう}→庁：noentry⟧: Fisheries Agency (government)\n\nRELATED WORDS:\n- ⟦{漁業|ぎょぎょう}→漁業：20496_gyogyou⟧: fishing industry\n- ⟦{養殖|ようしょく}→養殖：08648_youshoku⟧: aquaculture, fish farming\n- ⟦{海産物|かいさんぶつ}→海産物：13394_kaisanbutsu⟧: marine products (specifically from the sea)",
+  "notes": "{水産|すいさん} encompasses all products from aquatic sources and the industry surrounding them. Japan, being an island nation, has a significant fisheries sector.\n\nCOMPOUNDS:\n- {水産|すいさん}⟦{業|ぎょう}→業：noentry⟧: fishing industry\n- {水産|すいさん}⟦{物|ぶつ}→〜物：28336_butsu⟧: marine products, seafood\n- {水産|すいさん}⟦{加工|かこう}→加工：11793_kakou⟧: seafood processing\n- {水産|すいさん}⟦{資源|しげん}→資源：03167_shigen⟧: marine resources\n- {水産|すいさん}⟦{庁|ちょう}→庁：noentry⟧: Fisheries Agency (government)\n\nRELATED WORDS:\n- ⟦{漁業|ぎょぎょう}→漁業：20496_gyogyou⟧: fishing industry\n- ⟦{養殖|ようしょく}→養殖：08648_youshoku⟧: aquaculture, fish farming\n- ⟦{海産物|かいさんぶつ}→海産物：13394_kaisanbutsu⟧: marine products (specifically from the sea)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "20496_gyogyou",
+      "reading": "ぎょぎょう",
+      "headword": "{漁業|ぎょぎょう}",
+      "label": "fishing industry"
+    },
+    {
+      "type": "related",
+      "target_id": "08648_youshoku",
+      "reading": "ようしょく",
+      "headword": "{養殖|ようしょく}",
+      "label": "aquaculture, fish farming"
+    },
+    {
+      "type": "related",
+      "target_id": "13394_kaisanbutsu",
+      "reading": "かいさんぶつ",
+      "headword": "{海産物|かいさんぶつ}",
+      "label": "marine products"
+    }
+  ],
   "metadata": {
     "created": "2026-01-13T22:31:30Z",
-    "modified": "2026-05-30T18:11:57Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

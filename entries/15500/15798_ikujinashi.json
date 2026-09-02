@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "15798_ikujinashi_ex1",
-      "japanese": "{意気地|いくじ}なしと{言|い}われた。",
+      "japanese": "{意気地|いくじ}なし⟦と→と：00512_to⟧⟦{言|い}われた→言う：00515_iu⟧。",
       "english": "I was called a coward.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "15798_ikujinashi_ex2",
-      "japanese": "{告白|こくはく}できないなんて、{自分|じぶん}は{本当|ほんとう}に{意気地|いくじ}なしだ。",
+      "japanese": "⟦{告白|こくはく}できない→告白する：19631_kokuhakusuru⟧⟦なんて→なんて：06918_nante⟧、⟦{自分|じぶん}→自分：02887_jibun⟧⟦は→は：00079_ha⟧⟦{本当|ほんとう}→本当：00779_hontou⟧⟦に→に：00314_ni⟧{意気地|いくじ}なしだ。",
       "english": "I can't even confess my feelings — I'm such a coward.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "15798_ikujinashi_ex3",
-      "japanese": "{意気地|いくじ}なしと{思|おも}われたくなくて、{無理|むり}をして{挑戦|ちょうせん}した。",
+      "japanese": "{意気地|いくじ}なし⟦と→と：00512_to⟧⟦{思|おも}われたくなくて→思う：00492_omou⟧、⟦{無理|むり}→無理：01558_muri⟧⟦を→を：00422_wo⟧⟦して→する：00392_suru⟧⟦{挑戦|ちょうせん}した→挑戦する：21602_chousensuru⟧。",
       "english": "I pushed myself to try because I didn't want to be seen as a coward.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{意気地|いくじ}なし can function as a noun ({意気地|いくじ}なしだ — is a coward) or as a na-adjective ({意気地|いくじ}なしな{人|ひと} — a spineless person). The reading いくじ is irregular — the word {意気地|いきじ} exists as a separate term meaning \"spirit\" or \"willpower.\"\n\nCOMMON COLLOCATIONS:\n- {意気地|いくじ}なしと{言|い}われる (be called a coward)\n- {意気地|いくじ}なしと{思|おも}われる (be seen as spineless)\n\nSIMILAR WORDS:\n{臆病|おくびょう} means \"timid\" or \"cowardly\" and is a more formal na-adjective. {弱虫|よわむし} means \"crybaby\" or \"weakling\" and is more commonly used by or about children. {意気地|いくじ}なし is used for adults and implies a failure of willpower.",
+  "notes": "USAGE:\n{意気地|いくじ}なし can function as a noun ({意気地|いくじ}なしだ — is a coward) or as a na-adjective ({意気地|いくじ}なしな⟦{人|ひと}→人：00476_hito⟧ — a spineless person). The reading いくじ is irregular — the word {意気地|いきじ} exists as a separate term meaning \"spirit\" or \"willpower.\"\n\nCOMMON COLLOCATIONS:\n- {意気地|いくじ}なし⟦と→と：00512_to⟧⟦{言|い}われる→言う：00515_iu⟧ (be called a coward)\n- {意気地|いくじ}なし⟦と→と：00512_to⟧⟦{思|おも}われる→思う：00492_omou⟧ (be seen as spineless)\n\nSIMILAR WORDS:\n⟦{臆病|おくびょう}→臆病：07608_okubyou⟧ means \"timid\" or \"cowardly\" and is a more formal na-adjective. ⟦{弱虫|よわむし}→弱虫：20009_yowamushi⟧ means \"crybaby\" or \"weakling\" and is more commonly used by or about children. {意気地|いくじ}なし is used for adults and implies a failure of willpower.",
   "cross_references": [
     {
       "type": "synonym",
@@ -59,11 +59,32 @@
       "reading": "よわむし",
       "headword": "{弱虫|よわむし}",
       "label": "weakling; for children"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04345_hikyou",
+      "reading": "ひきょう",
+      "headword": "{卑怯|ひきょう}",
+      "label": "cowardly, unfair"
+    },
+    {
+      "type": "related",
+      "target_id": "09096_nakimushi",
+      "reading": "なきむし",
+      "headword": "なきむし",
+      "label": "crybaby"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20912_hetare",
+      "reading": "へたれ",
+      "headword": "へたれ",
+      "label": "wimp"
     }
   ],
   "metadata": {
     "created": "2026-03-08T09:50:20Z",
-    "modified": "2026-05-02T05:13:00Z",
+    "modified": "2026-09-02T04:01:42Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

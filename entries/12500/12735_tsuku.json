@@ -110,7 +110,7 @@
   "examples": [
     {
       "id": "12735_tsuku_ex1",
-      "japanese": "{棒|ぼう}で{突|つ}いた。",
+      "japanese": "⟦{棒|ぼう}→棒：03726_bou⟧⟦で→で：00502_de⟧{突|つ}いた。",
       "english": "I poked it with a stick.",
       "notes": null,
       "has_audio": false,
@@ -120,7 +120,7 @@
     },
     {
       "id": "12735_tsuku_ex2",
-      "japanese": "{嘘|うそ}を{突|つ}く。",
+      "japanese": "⟦{嘘|うそ}→嘘：01796_uso⟧⟦を→を：00422_wo⟧{突|つ}く。",
       "english": "To tell a lie.",
       "notes": "{嘘|うそ}をつく is a fixed expression. Often written in kana only.",
       "has_audio": false,
@@ -130,7 +130,7 @@
     },
     {
       "id": "12735_tsuku_ex3",
-      "japanese": "{肘|ひじ}をテーブルに{突|つ}かないでください。",
+      "japanese": "⟦{肘|ひじ}→肘：00938_hiji⟧⟦を→を：00422_wo⟧⟦テーブル→テーブル：04488_teeburu⟧⟦に→に：00314_ni⟧{突|つ}かないで⟦ください→ください：02899_kudasai⟧。",
       "english": "Please don't put your elbows on the table.",
       "notes": null,
       "has_audio": false,
@@ -140,7 +140,7 @@
     },
     {
       "id": "12735_tsuku_ex4",
-      "japanese": "{杖|つえ}を{突|つ}きながら{歩|ある}く。",
+      "japanese": "⟦{杖|つえ}→杖：12862_tsue⟧⟦を→を：00422_wo⟧{突|つ}き⟦ながら→ながら：10530_nagara⟧⟦{歩|ある}く→歩く：00538_aruku⟧。",
       "english": "To walk while using a cane.",
       "notes": null,
       "has_audio": false,
@@ -150,7 +150,7 @@
     },
     {
       "id": "12735_tsuku_ex5",
-      "japanese": "{子供|こども}が{肘|ひじ}をテーブルに{突|つ}くのを{見|み}て、{母|はは}が{注意|ちゅうい}した。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧⟦が→が：00051_ga⟧⟦{肘|ひじ}→肘：00938_hiji⟧⟦を→を：00422_wo⟧⟦テーブル→テーブル：04488_teeburu⟧⟦に→に：00314_ni⟧{突|つ}く⟦の→の：09472_no⟧⟦を→を：00422_wo⟧⟦{見|み}て→見る：00283_miru⟧、⟦{母|はは}→母：00549_haha⟧⟦が→が：00051_ga⟧⟦{注意|ちゅうい}→注意：01464_chuui⟧⟦した→する：00392_suru⟧。",
       "english": "Seeing the child prop their elbows on the table, the mother scolded them.",
       "notes": null,
       "has_audio": false,
@@ -159,7 +159,7 @@
       ]
     }
   ],
-  "notes": "{突|つ}く means to poke or thrust with a forward motion. It is also used for propping or leaning body parts on a surface.\n\nTRANSITIVITY:\n- Type: {他動詞|たどうし} (transitive)\n\nCOMMON EXPRESSIONS:\n- {嘘|うそ}をつく: to tell a lie\n- {肘|ひじ}をつく: to put one's elbows (on a table)\n- {杖|つえ}をつく: to use a cane\n- {膝|ひざ}をつく: to kneel (put one's knees to the ground)\n- {溜|た}め{息|いき}をつく: to sigh\n\nNOTE: Many of these expressions are commonly written in kana (つく) rather than with the kanji {突|つ}く.\n\nHOMOPHONES:\n- {付|つ}く: to be attached, to stick\n- {着|つ}く: to arrive\n- {就|つ}く: to take up (a position)",
+  "notes": "{突|つ}く means to poke or thrust with a forward motion. It is also used for propping or leaning body parts on a surface.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n\nCOMMON EXPRESSIONS:\n- ⟦{嘘|うそ}をつく→嘘をつく：21763_usowotsuku⟧: to tell a lie\n- ⟦{肘|ひじ}をつく→肘をつく：22275_hijiwotsuku⟧: to put one's elbows (on a table)\n- ⟦{杖|つえ}→杖：12862_tsue⟧⟦を→を：00422_wo⟧つく: to use a cane\n- ⟦{膝|ひざ}→膝：00940_hiza⟧⟦を→を：00422_wo⟧つく: to kneel (put one's knees to the ground)\n- {溜|た}め{息|いき}⟦を→を：00422_wo⟧つく: to sigh\n\nNOTE: Many of these expressions are commonly written in kana (つく) rather than with the kanji {突|つ}く.\n\nWATCH OUT:\n- ⟦{付|つ}く→付く：01960_tsuku⟧: to be attached, to stick\n- ⟦{着|つ}く→着く：00680_tsuku⟧: to arrive\n- ⟦{就|つ}く→就く：10123_tsuku⟧: to take up (a position)",
   "cross_references": [
     {
       "type": "homophone",
@@ -188,11 +188,18 @@
       "reading": "つきだす",
       "headword": "{突|つ}き{出|だ}す",
       "label": "to thrust out; to hand over"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20719_tsuttsuku",
+      "reading": "つっつく",
+      "headword": "{突|つ}っつく",
+      "label": "to poke"
     }
   ],
   "metadata": {
     "created": "2026-02-22T06:51:21Z",
-    "modified": "2026-08-08T15:28:51Z",
+    "modified": "2026-09-02T04:01:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

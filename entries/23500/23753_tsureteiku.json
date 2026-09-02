@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "23753_tsureteiku_ex1",
-      "japanese": "{子|こ}どもを{公園|こうえん}に{連|つ}れていく。",
+      "japanese": "{子|こ}ども⟦を→を：00422_wo⟧⟦{公園|こうえん}→公園：00581_kouen⟧⟦に→に：00314_ni⟧{連|つ}れていく。",
       "english": "I'll take the kids to the park.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "23753_tsureteiku_ex2",
-      "japanese": "{犬|いぬ}を{散歩|さんぽ}に{連|つ}れていきます。",
+      "japanese": "⟦{犬|いぬ}→犬：00632_inu⟧⟦を→を：00422_wo⟧⟦{散歩|さんぽ}→散歩：02885_sanpo⟧⟦に→に：00314_ni⟧{連|つ}れていきます。",
       "english": "I take the dog for a walk.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "23753_tsureteiku_ex3",
-      "japanese": "{今度|こんど}の{週末|しゅうまつ}、{彼女|かのじょ}を{新|あたら}しいレストランに{連|つ}れていくつもりだ。",
+      "japanese": "⟦{今度|こんど}→今度：01327_kondo⟧⟦の→の：09472_no⟧⟦{週末|しゅうまつ}→週末：03030_shuumatsu⟧、⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦を→を：00422_wo⟧⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦レストラン→レストラン：01048_resutoran⟧⟦に→に：00314_ni⟧{連|つ}れていく⟦つもり→つもり：01152_tsumori⟧だ。",
       "english": "I'm planning to take my girlfriend to the new restaurant this weekend.",
       "sense_numbers": [
         1
@@ -45,7 +45,7 @@
     },
     {
       "id": "23753_tsureteiku_ex4",
-      "japanese": "{会議|かいぎ}には{通訳|つうやく}を{連|つ}れていったほうがいいだろう。",
+      "japanese": "⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{通訳|つうやく}→通訳：03516_tsuuyaku⟧⟦を→を：00422_wo⟧{連|つ}れていった⟦ほうがいい→ほうがいい：10078_hougaii⟧だろう。",
       "english": "You should probably take an interpreter with you to the meeting.",
       "sense_numbers": [
         1
@@ -54,8 +54,38 @@
       "notes": null
     }
   ],
-  "notes": "Compound of the て form of {連|つ}れる ('to take/lead someone along') + いく ('to go'). The combination expresses motion away from the speaker's reference point while accompanying another person. Often written {連|つ}れて{行|い}く with kanji; the kana form {連|つ}れていく is also very common, especially in casual writing.\n\nThe object is almost always a person or animal, marked with を. For inanimate objects, use {持|も}っていく instead.\n\nCOMMON COLLOCATIONS:\n- {子|こ}どもを{連|つ}れていく: to take the children along\n- {犬|いぬ}を{散歩|さんぽ}に{連|つ}れていく: to take the dog for a walk\n- {病院|びょういん}に{連|つ}れていく: to take (someone) to the hospital\n- {一緒|いっしょ}に{連|つ}れていく: to take along together\n- {無理|むり}やり{連|つ}れていく: to take (someone) by force\n\nDIRECTION:\n- {連|つ}れていく: take someone away from here (speaker's viewpoint stays here)\n- {連|つ}れてくる: bring someone here (speaker's viewpoint is at destination)\n\nSIMILAR WORDS:\n- {連|つ}れる: to accompany/lead — the base verb, often used in attributive forms like {連|つ}れの ({人|ひと}) 'accompanying (person)'\n- {持|も}っていく: to take along — used for inanimate objects, not people\n- {案内|あんない}する: to guide, show around — emphasizes showing the way rather than accompanying\n- {同行|どうこう}する: to accompany — more formal; used in written or business contexts\n\nUSAGE:\nThe て form of いく follows standard godan-ku conjugation: {連|つ}れていって ({連|つ}れて + いって), {連|つ}れていった (past), {連|つ}れていかない (negative). Note the irregular いく→いって contraction.",
+  "notes": "Compound of the て form of ⟦{連|つ}れる→連れる：01240_tsureru⟧ ('to take/lead someone along') + いく ('to go'). The combination expresses motion away from the speaker's reference point while accompanying another person. Often written ⟦{連|つ}れて→連れる：01240_tsureru⟧⟦{行|い}く→行く：00119_iku⟧ with kanji; the kana form {連|つ}れていく is also very common, especially in casual writing.\n\nThe object is almost always a person or animal, marked with ⟦を→を：00422_wo⟧. For inanimate objects, use ⟦{持|も}っていく→持っていく：27431_motteiku⟧ instead.\n\nCOMMON COLLOCATIONS:\n- {子|こ}ども⟦を→を：00422_wo⟧{連|つ}れていく: to take the children along\n- ⟦{犬|いぬ}→犬：00632_inu⟧⟦を→を：00422_wo⟧⟦{散歩|さんぽ}→散歩：02885_sanpo⟧⟦に→に：00314_ni⟧{連|つ}れていく: to take the dog for a walk\n- ⟦{病院|びょういん}→病院：00577_byouin⟧⟦に→に：00314_ni⟧{連|つ}れていく: to take (someone) to the hospital\n- ⟦{一緒|いっしょ}→一緒：02848_issho⟧⟦に→に：00314_ni⟧{連|つ}れていく: to take along together\n- ⟦{無理|むり}やり→無理やり：10526_muriyari⟧{連|つ}れていく: to take (someone) by force\n\nDIRECTION:\n- {連|つ}れていく: take someone away from here (speaker's viewpoint stays here)\n- ⟦{連|つ}れて→連れる：01240_tsureru⟧くる: bring someone here (speaker's viewpoint is at destination)\n\nSIMILAR WORDS:\n- ⟦{連|つ}れる→連れる：01240_tsureru⟧: to accompany/lead — the base verb, often used in attributive forms like ⟦{連|つ}れ→連れ：03534_tsure⟧⟦の→の：09472_no⟧ (⟦{人|ひと}→人：00476_hito⟧) 'accompanying (person)'\n- ⟦{持|も}っていく→持っていく：27431_motteiku⟧: to take along — used for inanimate objects, not people\n- ⟦{案内|あんない}する→案内する：20203_annaisuru⟧: to guide, show around — emphasizes showing the way rather than accompanying\n- ⟦{同行|どうこう}する→同行する：21427_doukousuru⟧: to accompany — more formal; used in written or business contexts\n\nUSAGE:\nThe て form of いく follows standard godan-ku conjugation: {連|つ}れていって (⟦{連|つ}れて→連れる：01240_tsureru⟧ + いって), {連|つ}れていった (past), {連|つ}れていかない (negative). Note the irregular いく→いって contraction.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01240_tsureru",
+      "reading": "つれる",
+      "headword": "{連|つ}れる",
+      "label": "to accompany/lead"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27431_motteiku",
+      "reading": "もっていく",
+      "headword": "{持|も}っていく",
+      "label": "to take along"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20203_annaisuru",
+      "reading": "あんないする",
+      "headword": "{案内|あんない}する",
+      "label": "to guide, show around"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21427_doukousuru",
+      "reading": "どうこうする",
+      "headword": "{同行|どうこう}する",
+      "label": "to accompany"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -67,10 +97,11 @@
       "semantic": [
         "movement"
       ],
-      "verb_class": "godan-ku"
+      "verb_class": "godan-ku",
+      "transitivity": "transitive"
     },
     "created": "2026-04-14T18:04:30Z",
-    "modified": "2026-08-02T06:24:09Z"
+    "modified": "2026-09-02T04:02:14Z"
   },
   "conjugation": {
     "type": "godan",

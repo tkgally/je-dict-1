@@ -15,41 +15,74 @@
   "examples": [
     {
       "id": "28946_fotogurafaa_ex1",
-      "japanese": "{彼|かれ}はフリーランスのフォトグラファーだ。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦フリーランス→フリーランス：06152_furiiransu⟧⟦の→の：09472_no⟧フォトグラファーだ。",
       "english": "He is a freelance photographer.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28946_fotogurafaa_ex2",
-      "japanese": "{結婚式|けっこんしき}のフォトグラファーを{予約|よやく}した。",
+      "japanese": "⟦{結婚式|けっこんしき}→結婚式：05493_kekkonshiki⟧⟦の→の：09472_no⟧フォトグラファー⟦を→を：00422_wo⟧⟦{予約|よやく}した→予約する：22989_yoyakusuru⟧。",
       "english": "I booked a photographer for the wedding.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28946_fotogurafaa_ex3",
-      "japanese": "{有名|ゆうめい}フォトグラファーが{撮|と}った{写真|しゃしん}が{雑誌|ざっし}に{載|の}った。",
+      "japanese": "⟦{有名|ゆうめい}→有名：01106_yuumei⟧フォトグラファー⟦が→が：00051_ga⟧⟦{撮|と}った→撮る：00760_toru⟧⟦{写真|しゃしん}→写真：00753_shashin⟧⟦が→が：00051_ga⟧⟦{雑誌|ざっし}→雑誌：00686_zasshi⟧⟦に→に：00314_ni⟧⟦{載|の}った→載る：27882_noru⟧。",
       "english": "Photos taken by a famous photographer were featured in the magazine.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Loanword from English \"photographer.\" Used especially in commercial, fashion, and freelance contexts. For an amateur or someone just taking photos as a hobby, the everyday word is カメラマン.\n\nCOMMON COLLOCATIONS:\n- {人気|にんき}フォトグラファー: popular photographer\n- ウェディングフォトグラファー: wedding photographer\n- ポートレートフォトグラファー: portrait photographer\n\nSIMILAR WORDS:\n- カメラマン: cameraman; photographer — general everyday term, also used for video\n- {写真家|しゃしんか}: photographer — native term, often used for fine-art photographers",
+  "notes": "Loanword from English \"photographer.\" Used especially in commercial, fashion, and freelance contexts. For an amateur or someone just taking photos as a hobby, the everyday word is ⟦カメラマン→カメラマン：28387_kameraman⟧.\n\nCOMMON COLLOCATIONS:\n- ⟦{人気|にんき}→人気：01488_ninki⟧フォトグラファー: popular photographer\n- ⟦ウェディング→ウェディング：09522_wedingu⟧フォトグラファー: wedding photographer\n- ポートレートフォトグラファー: portrait photographer\n\nSIMILAR WORDS:\n- ⟦カメラマン→カメラマン：28387_kameraman⟧: cameraman; photographer — general everyday term, also used for video\n- ⟦{写真家|しゃしんか}→写真家：05501_shashinka⟧: photographer — native term, often used for fine-art photographers",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "28387_kameraman",
+      "reading": "かめらまん",
+      "headword": "カメラマン",
+      "label": "cameraman"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05501_shashinka",
+      "reading": "しゃしんか",
+      "headword": "{写真家|しゃしんか}",
+      "label": "photographer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26286_satsueisha",
+      "reading": "さつえいしゃ",
+      "headword": "{撮影者|さつえいしゃ}",
+      "label": "photographer"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["occupation"],
+      "semantic": [
+        "occupation"
+      ],
       "domain": []
     },
     "created": "2026-06-07T04:11:17Z",
-    "modified": "2026-06-07T04:11:17Z"
+    "modified": "2026-09-02T04:02:35Z"
   }
 }

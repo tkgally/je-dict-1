@@ -3,7 +3,7 @@
   "id": "15556_aitou",
   "headword": "{哀悼|あいとう}",
   "reading": "あいとう",
-  "part_of_speech": "noun / verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "condolence; mourning; grief for the deceased",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "15556_aitou_ex1",
-      "japanese": "{哀悼|あいとう}の{意|い}を{表|ひょう}します。",
+      "japanese": "{哀悼|あいとう}⟦の→の：09472_no⟧⟦{意|い}→意：30489_i⟧⟦を→を：00422_wo⟧{表|ひょう}します。",
       "english": "I express my condolences.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "15556_aitou_ex2",
-      "japanese": "{犠牲者|ぎせいしゃ}に{深|ふか}い{哀悼|あいとう}の{念|ねん}を{捧|ささ}げる。",
+      "japanese": "⟦{犠牲者|ぎせいしゃ}→犠牲者：18769_giseisha⟧⟦に→に：00314_ni⟧⟦{深|ふか}い→深い：01211_fukai⟧{哀悼|あいとう}⟦の→の：09472_no⟧⟦{念|ねん}→念：12766_nen⟧⟦を→を：00422_wo⟧⟦{捧|ささ}げる→捧げる：02055_sasageru⟧。",
       "english": "We offer our deepest condolences to the victims.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "15556_aitou_ex3",
-      "japanese": "{首相|しゅしょう}は{声明|せいめい}の{中|なか}で{亡|な}くなった{方々|かたがた}を{哀悼|あいとう}した。",
+      "japanese": "⟦{首相|しゅしょう}→首相：03217_shushou⟧⟦は→は：00079_ha⟧⟦{声明|せいめい}→声明：03763_seimei⟧⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧⟦で→で：00502_de⟧⟦{亡|な}くなった→亡くなる：02639_nakunaru⟧⟦{方々|かたがた}→方々：02778_katagata⟧⟦を→を：00422_wo⟧{哀悼|あいとう}⟦した→する：00392_suru⟧。",
       "english": "The prime minister mourned those who had died in a statement.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA formal, dignified word used in official contexts such as funeral speeches, press statements, and memorial ceremonies. Not used in casual conversation.\n\nCOMMON COLLOCATIONS:\n- {哀悼|あいとう}の{意|い}を{表|ひょう}する (to express condolences)\n- {哀悼|あいとう}の{念|ねん} (feelings of mourning)\n- {深|ふか}い{哀悼|あいとう} (deep condolence)\n- {哀悼|あいとう}の{言葉|ことば} (words of condolence)\n\nSIMILAR WORDS:\nお{悔|く}やみ is the everyday word for offering condolences to someone. {哀悼|あいとう} is more formal and used in public, official contexts. {追悼|ついとう} (commemoration) focuses on honoring and remembering the deceased, often in memorial events.",
+  "notes": "USAGE:\nA formal, dignified word used in official contexts such as funeral speeches, press statements, and memorial ceremonies. Not used in casual conversation.\n\nCOMMON COLLOCATIONS:\n- {哀悼|あいとう}⟦の→の：09472_no⟧⟦{意|い}→意：30489_i⟧⟦を→を：00422_wo⟧{表|ひょう}する (to express condolences)\n- {哀悼|あいとう}⟦の→の：09472_no⟧⟦{念|ねん}→念：12766_nen⟧ (feelings of mourning)\n- ⟦{深|ふか}い→深い：01211_fukai⟧{哀悼|あいとう} (deep condolence)\n- {哀悼|あいとう}⟦の→の：09472_no⟧⟦{言葉|ことば}→言葉：02880_kotoba⟧ (words of condolence)\n\nSIMILAR WORDS:\n⟦お{悔|く}やみ→お悔やみ：15866_okuyami⟧ is the everyday word for offering condolences to someone. {哀悼|あいとう} is more formal and used in public, official contexts. ⟦{追悼|ついとう}→追悼：14312_tsuitou⟧ (commemoration) focuses on honoring and remembering the deceased, often in memorial events.",
   "cross_references": [
     {
       "type": "contrast",
@@ -149,11 +149,25 @@
       "reading": "おくやみ",
       "headword": "お{悔|く}やみ",
       "label": "condolences (everyday)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21435_hitan",
+      "reading": "ひたん",
+      "headword": "{悲嘆|ひたん}",
+      "label": "grief"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22545_choui",
+      "reading": "ちょうい",
+      "headword": "{弔意|ちょうい}",
+      "label": "condolence"
     }
   ],
   "metadata": {
     "created": "2026-03-07T10:13:44Z",
-    "modified": "2026-05-01T08:11:13Z",
+    "modified": "2026-09-02T04:01:41Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "27408_gari_ex1",
-      "japanese": "ガリをひと{切|き}れ{口|くち}に{入|い}れた。",
+      "japanese": "ガリ⟦を→を：00422_wo⟧ひと{切|き}れ{口|くち}⟦に→に：00314_ni⟧⟦{入|い}れた→入れる：01098_ireru⟧。",
       "english": "I put a piece of pickled ginger in my mouth.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "27408_gari_ex2",
-      "japanese": "{寿司|すし}にはガリと{緑茶|りょくちゃ}が{付|つ}いてくる。",
+      "japanese": "⟦{寿司|すし}→寿司：04946_sushi⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧ガリ⟦と→と：00512_to⟧⟦{緑茶|りょくちゃ}→緑茶：10971_ryokucha⟧⟦が→が：00051_ga⟧⟦{付|つ}いてくる→付いてくる：29670_tsuitekuru⟧。",
       "english": "The sushi comes with pickled ginger and green tea.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "27408_gari_ex3",
-      "japanese": "{次|つぎ}のネタを{食|た}べる{前|まえ}に、ガリで{口直|くちなお}しをするのが{通|つう}な{食|た}べ{方|かた}だ。",
+      "japanese": "⟦{次|つぎ}→次：00819_tsugi⟧⟦の→の：09472_no⟧⟦ネタ→ネタ：06309_neta⟧⟦を→を：00422_wo⟧⟦{食|た}べる→食べる：00396_taberu⟧⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧、ガリ⟦で→で：00502_de⟧⟦{口直|くちなお}し→口直し：29907_kuchinaoshi⟧⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦{通|つう}→〜通：04025_tsuu⟧な⟦{食|た}べ{方|かた}→食べ方：27437_tabekata⟧だ。",
       "english": "Cleansing the palate with pickled ginger before the next piece is the connoisseur's way to eat sushi.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "Originally sushi-restaurant slang ({業界用語|ぎょうかいようご}). The name is said to come from the gari-gari sound made when chewing or slicing the firm ginger. The standard term is {甘酢|あまず}{生姜|しょうが} (\"sweet-vinegar ginger\"), but ガリ is far more common in everyday use.\n\nFUNCTION:\nGari is a palate cleanser eaten between pieces of sushi to refresh the mouth, not a topping to be placed on the sushi itself.\n\nCOMMON COLLOCATIONS:\n- ガリをつまむ: to nibble on pickled ginger\n- ガリを{食|た}べる: to eat pickled ginger\n- ガリで{口直|くちなお}しする: to cleanse the palate with gari\n- お{代|か}わりのガリ: a refill of pickled ginger\n\nSIMILAR WORDS:\n- {紅|べに}しょうが: red pickled ginger — bright red, finely cut; topping for {牛丼|ぎゅうどん}, {焼|や}きそば, etc.; different style and use\n- {新生姜|しんしょうが}: young ginger — the raw ingredient ガリ is made from",
+  "notes": "Originally sushi-restaurant slang ({業界用語|ぎょうかいようご}). The name is said to come from the gari-gari sound made when chewing or slicing the firm ginger. The standard term is ⟦{甘酢|あまず}→甘酢：14851_amazu⟧⟦{生姜|しょうが}→生姜：05191_shouga⟧ (\"sweet-vinegar ginger\"), but ガリ is far more common in everyday use.\n\nFUNCTIONS:\nGari is a palate cleanser eaten between pieces of sushi to refresh the mouth, not a topping to be placed on the sushi itself.\n\nCOMMON COLLOCATIONS:\n- ガリ⟦を→を：00422_wo⟧⟦つまむ→つまむ：10374_tsumamu⟧: to nibble on pickled ginger\n- ガリ⟦を→を：00422_wo⟧⟦{食|た}べる→食べる：00396_taberu⟧: to eat pickled ginger\n- ガリ⟦で→で：00502_de⟧⟦{口直|くちなお}し→口直し：29907_kuchinaoshi⟧⟦する→する：00392_suru⟧: to cleanse the palate with gari\n- お⟦{代|か}わり→代わり：01296_kawari⟧⟦の→の：09472_no⟧ガリ: a refill of pickled ginger\n\nSIMILAR WORDS:\n- ⟦{紅|べに}→紅：13862_beni⟧しょうが: red pickled ginger — bright red, finely cut; topping for ⟦{牛丼|ぎゅうどん}→牛丼：08600_gyuudon⟧, ⟦{焼|や}きそば→焼きそば：13405_yakisoba⟧, etc.; different style and use\n- {新生姜|しんしょうが}: young ginger — the raw ingredient ガリ is made from",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "28782_benishouga",
+      "reading": "べにしょうが",
+      "headword": "{紅生姜|べにしょうが}",
+      "label": "pickled red ginger"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +62,13 @@
         "noun"
       ],
       "formality": "informal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "food"
       ],
       "domain": []
     },
     "created": "2026-05-11T07:08:28Z",
-    "modified": "2026-05-11T07:08:28Z"
+    "modified": "2026-09-02T04:02:30Z"
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "19776_hikishime_ex1",
-      "japanese": "{金融|きんゆう}{引|ひ}き{締|し}めが{続|つづ}いている。",
+      "japanese": "⟦{金融|きんゆう}→金融：02664_kinyuu⟧{引|ひ}き{締|し}め⟦が→が：00051_ga⟧⟦{続|つづ}いている→続く：00903_tsuzuku⟧。",
       "english": "Monetary tightening continues.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "19776_hikishime_ex2",
-      "japanese": "{夏|なつ}に{向|む}けて{体|からだ}の{引|ひ}き{締|し}めを{始|はじ}めた。",
+      "japanese": "⟦{夏|なつ}→夏：02236_natsu⟧⟦に→に：00314_ni⟧⟦{向|む}けて→向ける：02306_mukeru⟧⟦{体|からだ}→体：00784_karada⟧⟦の→の：09472_no⟧{引|ひ}き{締|し}め⟦を→を：00422_wo⟧⟦{始|はじ}めた→始める：00531_hajimeru⟧。",
       "english": "I started toning my body for summer.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "19776_hikishime_ex3",
-      "japanese": "{不祥事|ふしょうじ}を{受|う}けて、{社内|しゃない}の{規律|きりつ}{引|ひ}き{締|し}めが{図|はか}られた。",
+      "japanese": "⟦{不祥事|ふしょうじ}→不祥事：14981_fushouji⟧⟦を→を：00422_wo⟧⟦{受|う}けて→受ける：01215_ukeru⟧、⟦{社内|しゃない}→社内：13731_shanai⟧⟦の→の：09472_no⟧⟦{規律|きりつ}→規律：00236_kiritsu⟧{引|ひ}き{締|し}め⟦が→が：00051_ga⟧⟦{図|はか}られた→図る：12006_hakaru⟧。",
       "english": "Following the scandal, efforts were made to tighten discipline within the company.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "The noun form of {引|ひ}き{締|し}める (to tighten, to firm up). Used across a wide range of contexts — from economics and policy to fitness and personal discipline.\n\nCOMMON COLLOCATIONS:\n- {金融|きんゆう}{引|ひ}き{締|し}め — monetary tightening\n- {財政|ざいせい}{引|ひ}き{締|し}め — fiscal austerity\n- {体|からだ}の{引|ひ}き{締|し}め — body toning, firming up\n- {規律|きりつ}の{引|ひ}き{締|し}め — tightening of discipline\n- {引|ひ}き{締|し}め{策|さく} — austerity measures\n\nUSAGE:\nIn economic news, {引|ひ}き{締|し}め typically refers to central bank policies that restrict money supply (raising interest rates, reducing lending). In fitness and beauty contexts, it refers to toning muscles or firming skin. In organizational contexts, it means enforcing stricter discipline.\n\nRELATED TERMS:\n- {引|ひ}き{締|し}める — to tighten (the verb form)\n- {緩和|かんわ} — easing, relaxation; the antonym in economic policy\n- {締|し}め{付|つ}け — crackdown, restriction; harsher connotation",
+  "notes": "The noun form of {引|ひ}き{締|し}める (to tighten, to firm up). Used across a wide range of contexts — from economics and policy to fitness and personal discipline.\n\nCOMMON COLLOCATIONS:\n- ⟦{金融|きんゆう}→金融：02664_kinyuu⟧{引|ひ}き{締|し}め — monetary tightening\n- ⟦{財政|ざいせい}→財政：05757_zaisei⟧{引|ひ}き{締|し}め — fiscal austerity\n- ⟦{体|からだ}→体：00784_karada⟧⟦の→の：09472_no⟧{引|ひ}き{締|し}め — body toning, firming up\n- ⟦{規律|きりつ}→規律：00236_kiritsu⟧⟦の→の：09472_no⟧{引|ひ}き{締|し}め — tightening of discipline\n- {引|ひ}き{締|し}め⟦{策|さく}→策：09997_saku⟧ — austerity measures\n\nUSAGE:\nIn economic news, {引|ひ}き{締|し}め typically refers to central bank policies that restrict money supply (raising interest rates, reducing lending). In fitness and beauty contexts, it refers to toning muscles or firming skin. In organizational contexts, it means enforcing stricter discipline.\n\nRELATED WORDS:\n- {引|ひ}き{締|し}める — to tighten (the verb form)\n- ⟦{緩和|かんわ}→緩和：13846_kanwa⟧ — easing, relaxation; the antonym in economic policy\n- {締|し}め{付|つ}け — crackdown, restriction; harsher connotation",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "13846_kanwa",
+      "reading": "かんわ",
+      "headword": "{緩和|かんわ}",
+      "label": "easing, relaxation"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +69,6 @@
       ]
     },
     "created": "2026-03-26T23:27:03Z",
-    "modified": "2026-07-27T12:42:09Z"
+    "modified": "2026-09-02T04:01:57Z"
   }
 }

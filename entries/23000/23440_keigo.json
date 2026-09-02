@@ -3,7 +3,7 @@
   "headword": "{警護|けいご}",
   "reading": "けいご",
   "romaji": "keigo",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "guarding; protection; bodyguarding",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "23440_keigo_ex1",
-      "japanese": "{要人|ようじん}を{警護|けいご}する。",
+      "japanese": "{要人|ようじん}⟦を→を：00422_wo⟧{警護|けいご}⟦する→する：00392_suru⟧。",
       "english": "To guard a VIP.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "23440_keigo_ex2",
-      "japanese": "{警護|けいご}の{警官|けいかん}が{周囲|しゅうい}を{見回|みまわ}した。",
+      "japanese": "{警護|けいご}⟦の→の：09472_no⟧⟦{警官|けいかん}→警官：02876_keikan⟧⟦が→が：00051_ga⟧⟦{周囲|しゅうい}→周囲：03206_shuui⟧⟦を→を：00422_wo⟧⟦{見回|みまわ}した→見回す：05545_mimawasu⟧。",
       "english": "The guarding officer looked around the area.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "23440_keigo_ex3",
-      "japanese": "{大統領|だいとうりょう}の{来日|らいにち}に{合|あ}わせて、{厳重|げんじゅう}な{警護|けいご}{態勢|たいせい}が{敷|し}かれた。",
+      "japanese": "⟦{大統領|だいとうりょう}→大統領：03418_daitouryou⟧⟦の→の：09472_no⟧⟦{来日|らいにち}→来日：13060_rainichi⟧⟦に→に：00314_ni⟧⟦{合|あ}わせて→合わせる：01872_awaseru⟧、⟦{厳重|げんじゅう}→厳重：11887_genjuu⟧な{警護|けいご}⟦{態勢|たいせい}→態勢：12937_taisei⟧⟦が→が：00051_ga⟧⟦{敷|し}かれた→敷く：00366_shiku⟧。",
       "english": "Tight security was put in place for the president's visit to Japan.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {警|けい} (guard, warn) and {護|ご} (protect). Specifically refers to the protective security around a person (like a political leader or dignitary), as opposed to general security of a building or area.\n\nCOMMON COLLOCATIONS:\n- {要人|ようじん}{警護|けいご}: VIP protection\n- {身辺|しんぺん}{警護|けいご}: personal security, close protection\n- {警護|けいご}{態勢|たいせい}: security posture, protective formation\n- {厳重|げんじゅう}な{警護|けいご}: tight security\n- {警護|けいご}にあたる: to be assigned to guard duty\n\nSIMILAR WORDS:\n- {警備|けいび}: security, guard duty — broader term covering buildings, events, and areas, not just people\n- {護衛|ごえい}: escort, guard — often military; used for armed escorts of ships or convoys\n- ボディーガード: bodyguard — the person themselves, not the act of guarding\n- {防犯|ぼうはん}: crime prevention — focuses on preventing crime in general, not personal protection\n\nNOTE:\nNot to be confused with the homophone {敬語|けいご} (honorific language), which has completely different kanji and meaning.",
+  "notes": "A compound of {警|けい} (guard, warn) and {護|ご} (protect). Specifically refers to the protective security around a person (like a political leader or dignitary), as opposed to general security of a building or area.\n\nCOMMON COLLOCATIONS:\n- {要人|ようじん}{警護|けいご}: VIP protection\n- ⟦{身辺|しんぺん}→身辺：14823_shinpen⟧{警護|けいご}: personal security, close protection\n- {警護|けいご}⟦{態勢|たいせい}→態勢：12937_taisei⟧: security posture, protective formation\n- ⟦{厳重|げんじゅう}→厳重：11887_genjuu⟧な{警護|けいご}: tight security\n- {警護|けいご}⟦に→に：00314_ni⟧あたる: to be assigned to guard duty\n\nSIMILAR WORDS:\n- ⟦{警備|けいび}→警備：00208_keibi⟧: security, guard duty — broader term covering buildings, events, and areas, not just people\n- ⟦{護衛|ごえい}→護衛：14225_goei⟧: escort, guard — often military; used for armed escorts of ships or convoys\n- ボディーガード: bodyguard — the person themselves, not the act of guarding\n- ⟦{防犯|ぼうはん}→防犯：08192_bouhan⟧: crime prevention — focuses on preventing crime in general, not personal protection\n\nUSAGE:\nNot to be confused with the homophone ⟦{敬語|けいご}→敬語：04022_keigo⟧ (honorific language), which has completely different kanji and meaning.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00208_keibi",
+      "reading": "けいび",
+      "headword": "{警備|けいび}",
+      "label": "security, guard duty"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14225_goei",
+      "reading": "ごえい",
+      "headword": "{護衛|ごえい}",
+      "label": "escort, guard"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08192_bouhan",
+      "reading": "ぼうはん",
+      "headword": "{防犯|ぼうはん}",
+      "label": "crime prevention"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -58,10 +81,11 @@
       "semantic": [
         "society"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-04-12T06:54:25Z",
-    "modified": "2026-04-12T06:54:25Z"
+    "modified": "2026-09-02T04:02:13Z"
   },
   "conjugation": {
     "type": "suru",

@@ -3,7 +3,7 @@
   "headword": "あんぐり",
   "reading": "あんぐり",
   "romaji": "anguri",
-  "part_of_speech": "adverb",
+  "part_of_speech": "adverb, onomatopoeia",
   "gloss": "gaping; open-mouthed; agape",
   "definitions": [
     {
@@ -15,40 +15,68 @@
   "examples": [
     {
       "id": "23074_anguri_ex1",
-      "japanese": "あんぐり{口|くち}を{開|あ}ける。",
+      "japanese": "あんぐり⟦{口|くち}を{開|あ}ける→口を開ける：23832_kuchiwoakeru⟧。",
       "english": "To gape open-mouthed.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "23074_anguri_ex2",
-      "japanese": "{請求書|せいきゅうしょ}の{金額|きんがく}を{見|み}てあんぐりした。",
+      "japanese": "⟦{請求書|せいきゅうしょ}→請求書：04698_seikyuusho⟧⟦の→の：09472_no⟧⟦{金額|きんがく}→金額：02665_kingaku⟧⟦を→を：00422_wo⟧⟦{見|み}て→見る：00283_miru⟧あんぐり⟦した→する：00392_suru⟧。",
       "english": "I was left gaping when I saw the amount on the bill.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "23074_anguri_ex3",
-      "japanese": "{彼|かれ}の{突拍子|とっぴょうし}もない{発言|はつげん}に、{全員|ぜんいん}があんぐりと{口|くち}を{開|あ}けた。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧{突拍子|とっぴょうし}⟦も→も：00484_mo⟧⟦ない→ない：01118_nai⟧⟦{発言|はつげん}→発言：05099_hatsugen⟧⟦に→に：00314_ni⟧、⟦{全員|ぜんいん}→全員：03310_zenin⟧⟦が→が：00051_ga⟧あんぐり⟦と→と：00512_to⟧⟦{口|くち}→口：00560_kuchi⟧⟦を→を：00422_wo⟧⟦{開|あ}けた→開ける：00563_akeru⟧。",
       "english": "Everyone gaped open-mouthed at his outrageous remark.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A mimetic word that vividly evokes the image of a mouth hanging open in shock. Often used with {口|くち}を{開|あ}ける (to open one's mouth) or simply as あんぐりする.\n\nCOMMON PATTERNS:\n- あんぐりする: to gape, to be left open-mouthed\n- あんぐり{口|くち}を{開|あ}ける: to gape with mouth wide open\n- あんぐりと{口|くち}を{開|あ}けた: gaped open-mouthed\n\nSIMILAR WORDS:\n- ぽかんと: blankly — mouth open from being dazed or spacing out; less shock\n- {唖然|あぜん}と: speechless — formal word for being struck dumb with shock\n- {開|あ}いた{口|くち}が{塞|ふさ}がらない: jaw-dropping (idiom) — so shocked one can't close one's mouth\n- びっくり: surprised — general surprise; not specifically about the mouth",
+  "notes": "A mimetic word that vividly evokes the image of a mouth hanging open in shock. Often used with ⟦{口|くち}を{開|あ}ける→口を開ける：23832_kuchiwoakeru⟧ (to open one's mouth) or simply as あんぐり⟦する→する：00392_suru⟧.\n\nCOMMON PATTERNS:\n- あんぐり⟦する→する：00392_suru⟧: to gape, to be left open-mouthed\n- あんぐり⟦{口|くち}を{開|あ}ける→口を開ける：23832_kuchiwoakeru⟧: to gape with mouth wide open\n- あんぐり⟦と→と：00512_to⟧⟦{口|くち}→口：00560_kuchi⟧⟦を→を：00422_wo⟧⟦{開|あ}けた→開ける：00563_akeru⟧: gaped open-mouthed\n\nSIMILAR WORDS:\n- ぽかん⟦と→と：00512_to⟧: blankly — mouth open from being dazed or spacing out; less shock\n- ⟦{唖然|あぜん}→唖然：09404_azen⟧⟦と→と：00512_to⟧: speechless — formal word for being struck dumb with shock\n- ⟦{開|あ}いた→開く：00689_aku⟧⟦{口|くち}→口：00560_kuchi⟧⟦が→が：00051_ga⟧⟦{塞|ふさ}がらない→塞がる：14872_fusagaru⟧: jaw-dropping (idiom) — so shocked one can't close one's mouth\n- ⟦びっくり→びっくり：03003_bikkuri⟧: surprised — general surprise; not specifically about the mouth",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17866_pokanto",
+      "reading": "ぽかんと",
+      "headword": "ポカンと",
+      "label": "blankly"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03003_bikkuri",
+      "reading": "びっくり",
+      "headword": "びっくり",
+      "label": "surprised"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adverb", "onomatopoeia"],
+      "pos": [
+        "adverb",
+        "onomatopoeia"
+      ],
       "formality": "informal",
       "politeness": "plain",
-      "semantic": ["descriptive", "emotion"]
+      "semantic": [
+        "descriptive",
+        "emotion"
+      ]
     },
     "created": "2026-04-08T17:36:08Z",
-    "modified": "2026-07-31T00:25:02Z"
+    "modified": "2026-09-02T04:02:10Z"
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22720_kougyouchitai_ex1",
-      "japanese": "{京浜|けいひん}{工業地帯|こうぎょうちたい}は{有名|ゆうめい}だ。",
+      "japanese": "{京浜|けいひん}{工業地帯|こうぎょうちたい}⟦は→は：00079_ha⟧⟦{有名|ゆうめい}→有名：01106_yuumei⟧だ。",
       "english": "The Keihin Industrial Zone is famous.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22720_kougyouchitai_ex2",
-      "japanese": "{工業地帯|こうぎょうちたい}には{大|おお}きな{工場|こうじょう}が{並|なら}んでいる。",
+      "japanese": "{工業地帯|こうぎょうちたい}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{大|おお}きな→大きな：02849_ookina⟧⟦{工場|こうじょう}→工場：01082_koujou⟧⟦が→が：00051_ga⟧⟦{並|なら}んでいる→並ぶ：00605_narabu⟧。",
       "english": "Large factories line the industrial zone.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22720_kougyouchitai_ex3",
-      "japanese": "この{地域|ちいき}はかつて{工業地帯|こうぎょうちたい}だったが、{今|いま}は{住宅地|じゅうたくち}に{変|か}わった。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{地域|ちいき}→地域：01461_chiiki⟧⟦は→は：00079_ha⟧⟦かつて→かつて：10303_katsute⟧{工業地帯|こうぎょうちたい}だった⟦が→が：00051_ga⟧、⟦{今|いま}→今：00945_ima⟧⟦は→は：00079_ha⟧⟦{住宅地|じゅうたくち}→住宅地：10158_juutakuchi⟧⟦に→に：00314_ni⟧⟦{変|か}わった→変わる：00714_kawaru⟧。",
       "english": "This area used to be an industrial zone, but it has now turned into a residential area.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {工業|こうぎょう} (industry, manufacturing) + {地帯|ちたい} (zone, belt, area). Japan's major industrial zones are a standard topic in school geography. The four main ones are {京浜|けいひん} (Tokyo-Yokohama), {中京|ちゅうきょう} (Nagoya area), {阪神|はんしん} (Osaka-Kobe), and {北九州|きたきゅうしゅう} (northern Kyushu).\n\nCOMMON COLLOCATIONS:\n- {京浜|けいひん}{工業地帯|こうぎょうちたい}: Keihin Industrial Zone\n- {中京|ちゅうきょう}{工業地帯|こうぎょうちたい}: Chukyo Industrial Zone\n- {臨海|りんかい}{工業地帯|こうぎょうちたい}: coastal industrial zone\n\nSIMILAR WORDS:\n- {工業地域|こうぎょうちいき}: industrial region — similar meaning but less specific than {工業地帯|こうぎょうちたい}, which implies a formally recognized concentration\n- {工場地帯|こうじょうちたい}: factory district — more colloquial, emphasizing the presence of factories\n- {商業地域|しょうぎょうちいき}: commercial district — an area focused on retail and business rather than manufacturing",
+  "notes": "A compound of ⟦{工業|こうぎょう}→工業：01402_kougyou⟧ (industry, manufacturing) + ⟦{地帯|ちたい}→地帯：04057_chitai⟧ (zone, belt, area). Japan's major industrial zones are a standard topic in school geography. The four main ones are {京浜|けいひん} (Tokyo-Yokohama), {中京|ちゅうきょう} (Nagoya area), {阪神|はんしん} (Osaka-Kobe), and {北九州|きたきゅうしゅう} (northern Kyushu).\n\nCOMMON COLLOCATIONS:\n- {京浜|けいひん}{工業地帯|こうぎょうちたい}: Keihin Industrial Zone\n- {中京|ちゅうきょう}{工業地帯|こうぎょうちたい}: Chukyo Industrial Zone\n- {臨海|りんかい}{工業地帯|こうぎょうちたい}: coastal industrial zone\n\nSIMILAR WORDS:\n- {工業地域|こうぎょうちいき}: industrial region — similar meaning but less specific than {工業地帯|こうぎょうちたい}, which implies a formally recognized concentration\n- {工場地帯|こうじょうちたい}: factory district — more colloquial, emphasizing the presence of factories\n- {商業地域|しょうぎょうちいき}: commercial district — an area focused on retail and business rather than manufacturing",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -61,6 +61,6 @@
       "politeness": "plain"
     },
     "created": "2026-04-07T12:40:30Z",
-    "modified": "2026-08-01T06:41:09Z"
+    "modified": "2026-09-02T04:02:09Z"
   }
 }

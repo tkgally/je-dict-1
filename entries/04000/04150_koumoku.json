@@ -69,7 +69,7 @@
     },
     {
       "id": "04150_koumoku_ex6",
-      "japanese": "⟦この→この：00962_kono⟧⟦{調査|ちょうさ}→調査：03489_chousa⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{全部|ぜんぶ}→全部：02888_zenbu⟧⟦で→で：00502_de⟧{五十|ごじゅう}⟦の→の：09472_no⟧{項目|こうもく}⟦が→が：00051_ga⟧⟦あり→ある：00006_aru⟧、⟦それぞれ→それぞれ：01453_sorezore⟧⟦に→に：00314_ni⟧⟦{回答|かいとう}する→回答する：00142_kaitou⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{調査|ちょうさ}→調査：03489_chousa⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{全部|ぜんぶ}→全部：02888_zenbu⟧⟦で→で：00502_de⟧⟦{五十|ごじゅう}→五十：00930_gojuu⟧⟦の→の：09472_no⟧{項目|こうもく}⟦が→が：00051_ga⟧⟦あり→ある：00006_aru⟧、⟦それぞれ→それぞれ：01453_sorezore⟧⟦に→に：00314_ni⟧⟦{回答|かいとう}する→回答する：00142_kaitou⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "This survey has fifty categories in total, and each one needs to be answered.",
       "notes": null,
       "has_audio": false,
@@ -78,10 +78,19 @@
       ]
     }
   ],
-  "notes": "{項目|こうもく} refers to an item, heading, or category in lists, forms, or documents.\n\nWORD STRUCTURE:\n{項|こう} (heading/clause) + {目|もく} (item/category)\n\nCOMMON COLLOCATIONS:\n- {項目|こうもく}⟦を→を：00422_wo⟧⟦{選|えら}ぶ→選ぶ：00835_erabu⟧: to select an item\n- {項目|こうもく}⟦に→に：00314_ni⟧⟦{記入|きにゅう}する→記入する：02624_kinyuu⟧: to fill in an item\n- {項目|こうもく}⟦を→を：00422_wo⟧⟦{追加|ついか}する→追加する：04060_tsuika⟧: to add an item\n- {項目|こうもく}⟦を→を：00422_wo⟧⟦{削除|さくじょ}する→削除する：04171_sakujo⟧: to delete an item\n- {項目|こうもく}⟦{別|べつ}→別：01216_betsu⟧: by item, itemized\n\nCOMMON COMPOUNDS:\n- ⟦{必須|ひっす}→必須：12516_hissu⟧{項目|こうもく}: required field\n- ⟦{入力|にゅうりょく}→入力：04769_nyuuryoku⟧{項目|こうもく}: input field\n- ⟦{検索|けんさく}→検索：04729_kensaku⟧{項目|こうもく}: search field\n- ⟦{重要|じゅうよう}→重要：01575_juuyou⟧{項目|こうもく}: important items\n\nUSAGE:\nCommonly used in forms, surveys, menus, and documents to refer to individual fields or sections.",
+  "notes": "{項目|こうもく} refers to an item, heading, or category in lists, forms, or documents.\n\nETYMOLOGY:\n{項|こう} (heading/clause) + {目|もく} (item/category)\n\nCOMMON COLLOCATIONS:\n- {項目|こうもく}⟦を→を：00422_wo⟧⟦{選|えら}ぶ→選ぶ：00835_erabu⟧: to select an item\n- {項目|こうもく}⟦に→に：00314_ni⟧⟦{記入|きにゅう}する→記入する：02624_kinyuu⟧: to fill in an item\n- {項目|こうもく}⟦を→を：00422_wo⟧⟦{追加|ついか}する→追加する：04060_tsuika⟧: to add an item\n- {項目|こうもく}⟦を→を：00422_wo⟧⟦{削除|さくじょ}する→削除する：04171_sakujo⟧: to delete an item\n- {項目|こうもく}⟦{別|べつ}→別：01216_betsu⟧: by item, itemized\n\nCOMPOUNDS:\n- ⟦{必須|ひっす}→必須：12516_hissu⟧{項目|こうもく}: required field\n- ⟦{入力|にゅうりょく}→入力：04769_nyuuryoku⟧{項目|こうもく}: input field\n- ⟦{検索|けんさく}→検索：04729_kensaku⟧{項目|こうもく}: search field\n- ⟦{重要|じゅうよう}→重要：01575_juuyou⟧{項目|こうもく}: important items\n\nUSAGE:\nCommonly used in forms, surveys, menus, and documents to refer to individual fields or sections.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "16989_kajougaki",
+      "reading": "かじょうがき",
+      "headword": "{箇条書|かじょうが}き",
+      "label": "bulleted list"
+    }
+  ],
   "metadata": {
     "created": "2026-01-13T14:00:34Z",
-    "modified": "2026-05-29T19:08:35Z",
+    "modified": "2026-09-02T04:01:04Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

@@ -14,30 +14,36 @@
   "examples": [
     {
       "id": "09165_iatsu_ex1",
-      "japanese": "{威圧|いあつ}{的|てき}な{態度|たいど}",
+      "japanese": "{威圧|いあつ}{的|てき}な⟦{態度|たいど}→態度：03396_taido⟧",
       "english": "an intimidating attitude",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "09165_iatsu_ex2",
-      "japanese": "{彼|かれ}の{威圧|いあつ}{感|かん}に{圧倒|あっとう}された。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧{威圧|いあつ}⟦{感|かん}→〜感：28578_kan⟧⟦に→に：00314_ni⟧⟦{圧倒|あっとう}された→圧倒される：15413_attousareru⟧。",
       "english": "I was overwhelmed by his imposing presence.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "09165_iatsu_ex3",
-      "japanese": "{上司|じょうし}に{威圧|いあつ}されて、{意見|いけん}を{言|い}えなかった。",
+      "japanese": "⟦{上司|じょうし}→上司：03286_joushi⟧⟦に→に：00314_ni⟧{威圧|いあつ}⟦されて→する：00392_suru⟧、⟦{意見|いけん}→意見：01303_iken⟧⟦を→を：00422_wo⟧⟦{言|い}えなかった→言う：00515_iu⟧。",
       "english": "I was intimidated by my boss and couldn't voice my opinion.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "USAGE: Used as a noun or with する to form the verb {威圧|いあつ}する (to coerce, to intimidate). Also commonly appears in the compound {威圧|いあつ}{感|かん} (sense of intimidation, imposing presence).\n\nNUANCE: {威圧|いあつ} implies using power or authority to suppress others. Unlike {威嚇|いかく} (active threatening), {威圧|いあつ} can describe a more passive overwhelming presence.\n\nCOMMON COLLOCATIONS:\n- {威圧|いあつ}する (to coerce, intimidate)\n- {威圧|いあつ}{的|てき} (intimidating, coercive)\n- {威圧|いあつ}{感|かん} (sense of intimidation, imposing presence)\n- {威圧|いあつ}される (to be intimidated - passive)\n\nRELATED WORDS:\n- {威嚇|いかく} (intimidation, threat - more active)\n- {圧力|あつりょく} (pressure)\n- {高圧|こうあつ}{的|てき} (high-handed, overbearing)\n- {迫力|はくりょく} (force, impact - can be positive)",
+  "notes": "USAGE: Used as a noun or with ⟦する→する：00392_suru⟧ to form the verb {威圧|いあつ}⟦する→する：00392_suru⟧ (to coerce, to intimidate). Also commonly appears in the compound {威圧|いあつ}⟦{感|かん}→〜感：28578_kan⟧ (sense of intimidation, imposing presence).\n\nNUANCE: {威圧|いあつ} implies using power or authority to suppress others. Unlike ⟦{威嚇|いかく}→威嚇：09164_ikaku⟧ (active threatening), {威圧|いあつ} can describe a more passive overwhelming presence.\n\nCOMMON COLLOCATIONS:\n- {威圧|いあつ}⟦する→する：00392_suru⟧ (to coerce, intimidate)\n- {威圧|いあつ}{的|てき} (intimidating, coercive)\n- {威圧|いあつ}⟦{感|かん}→〜感：28578_kan⟧ (sense of intimidation, imposing presence)\n- {威圧|いあつ}⟦される→する：00392_suru⟧ (to be intimidated - passive)\n\nRELATED WORDS:\n- ⟦{威嚇|いかく}→威嚇：09164_ikaku⟧ (intimidation, threat - more active)\n- ⟦{圧力|あつりょく}→圧力：12014_atsuryoku⟧ (pressure)\n- ⟦{高圧|こうあつ}{的|てき}→高圧的：18279_kouatsuteki⟧ (high-handed, overbearing)\n- ⟦{迫力|はくりょく}→迫力：14310_hakuryoku⟧ (force, impact - can be positive)",
   "cross_references": [
     {
       "type": "synonym",
@@ -52,18 +58,43 @@
       "reading": "あつりょく",
       "headword": "{圧力|あつりょく}",
       "label": "pressure"
+    },
+    {
+      "type": "related",
+      "target_id": "18279_kouatsuteki",
+      "reading": "こうあつてき",
+      "headword": "{高圧的|こうあつてき}",
+      "label": "high-handed, overbearing"
+    },
+    {
+      "type": "related",
+      "target_id": "14310_hakuryoku",
+      "reading": "はくりょく",
+      "headword": "{迫力|はくりょく}",
+      "label": "force, impact"
+    },
+    {
+      "type": "related",
+      "target_id": "06373_iatsuteki",
+      "reading": "いあつてき",
+      "headword": "{威圧的|いあつてき}",
+      "label": "intimidating, overbearing"
     }
   ],
   "metadata": {
     "created": "2026-01-31T11:33:48Z",
-    "modified": "2026-04-22T08:20:33Z",
+    "modified": "2026-09-02T04:01:17Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["abstract"]
+      "semantic": [
+        "abstract"
+      ]
     }
   }
 }

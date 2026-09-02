@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "13554_tokui_ex1",
-      "japanese": "{彼|かれ}は{特異|とくい}な{才能|さいのう}の{持|も}ち{主|ぬし}だ。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{特異|とくい}な⟦{才能|さいのう}→才能：02772_sainou⟧⟦の→の：09472_no⟧⟦{持|も}ち{主|ぬし}→持ち主：10439_mochinushi⟧だ。",
       "english": "He is a person with a unique talent.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "13554_tokui_ex2",
-      "japanese": "この{地域|ちいき}には{特異|とくい}な{生態系|せいたいけい}が{広|ひろ}がっている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{地域|ちいき}→地域：01461_chiiki⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{特異|とくい}な⟦{生態系|せいたいけい}→生態系：04626_seitaikei⟧⟦が→が：00051_ga⟧⟦{広|ひろ}がっている→広がる：01980_hirogaru⟧。",
       "english": "A unique ecosystem spreads across this region.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "13554_tokui_ex3",
-      "japanese": "{特異|とくい}{体質|たいしつ}のため、この{薬|くすり}を{服用|ふくよう}すると{副作用|ふくさよう}が{出|で}やすい{患者|かんじゃ}もいる。",
+      "japanese": "{特異|とくい}⟦{体質|たいしつ}→体質：08243_taishitsu⟧⟦の→の：09472_no⟧⟦ため→ため：01145_tame⟧、⟦この→この：00962_kono⟧⟦{薬|くすり}→薬：00793_kusuri⟧⟦を→を：00422_wo⟧⟦{服用|ふくよう}する→服用する：21605_fukuyousuru⟧⟦と→と：00512_to⟧⟦{副作用|ふくさよう}→副作用：05015_fukusayou⟧⟦が→が：00051_ga⟧⟦{出|で}→出る：00513_deru⟧やすい⟦{患者|かんじゃ}→患者：00170_kanja⟧⟦も→も：00484_mo⟧⟦いる→いる：00495_iru⟧。",
       "english": "Due to their peculiar constitution, some patients are prone to side effects when taking this medication.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nUsed as a na-adjective ({特異|とくい}な) to describe people, phenomena, or things that are distinctly different. Common in academic, scientific, and medical contexts.\n\nCOMMON COLLOCATIONS:\n- {特異|とくい}な{才能|さいのう} (unique talent)\n- {特異|とくい}{体質|たいしつ} (peculiar constitution)\n- {特異|とくい}{点|てん} (singular point — used in mathematics and science)\n- {特異|とくい}な{存在|そんざい} (unique existence/being)\n\nSIMILAR WORDS:\n- {独特|どくとく}: distinctive, characteristic (neutral, emphasizes individuality)\n- {特殊|とくしゅ}: special, specialized (implies requiring special handling or expertise)\n- {得意|とくい}: good at, skilled in (same reading but different kanji and meaning)",
+  "notes": "USAGE:\nUsed as a na-adjective ({特異|とくい}な) to describe people, phenomena, or things that are distinctly different. Common in academic, scientific, and medical contexts.\n\nCOMMON COLLOCATIONS:\n- {特異|とくい}な⟦{才能|さいのう}→才能：02772_sainou⟧ (unique talent)\n- {特異|とくい}⟦{体質|たいしつ}→体質：08243_taishitsu⟧ (peculiar constitution)\n- {特異|とくい}{点|てん} (singular point — used in mathematics and science)\n- {特異|とくい}な⟦{存在|そんざい}→存在：03326_sonzai⟧ (unique existence/being)\n\nSIMILAR WORDS:\n- ⟦{独特|どくとく}→独特：01656_dokutoku⟧: distinctive, characteristic (neutral, emphasizes individuality)\n- ⟦{特殊|とくしゅ}→特殊：04566_tokushu⟧: special, specialized (implies requiring special handling or expertise)\n- ⟦{得意|とくい}→得意：03455_tokui⟧: good at, skilled in (same reading but different kanji and meaning)",
   "cross_references": [
     {
       "type": "contrast",
@@ -59,11 +59,18 @@
       "headword": "{独特|どくとく}",
       "label": "distinctive",
       "target_id": "01656_dokutoku"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04566_tokushu",
+      "reading": "とくしゅ",
+      "headword": "{特殊|とくしゅ}",
+      "label": "special, specialized"
     }
   ],
   "metadata": {
     "created": "2026-02-25T14:25:51Z",
-    "modified": "2026-03-29T10:42:23Z",
+    "modified": "2026-09-02T04:01:33Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

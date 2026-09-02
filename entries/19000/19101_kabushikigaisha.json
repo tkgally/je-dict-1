@@ -15,41 +15,69 @@
   "examples": [
     {
       "id": "19101_kabushikigaisha_ex1",
-      "japanese": "{株式会社|かぶしきがいしゃ}を{設立|せつりつ}した。",
+      "japanese": "{株式会社|かぶしきがいしゃ}⟦を→を：00422_wo⟧⟦{設立|せつりつ}した→設立する：17473_setsuritsusuru⟧。",
       "english": "I established a corporation.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19101_kabushikigaisha_ex2",
-      "japanese": "{彼|かれ}は{株式会社|かぶしきがいしゃ}ABCの{社長|しゃちょう}です。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{株式会社|かぶしきがいしゃ}ABC⟦の→の：09472_no⟧⟦{社長|しゃちょう}→社長：01428_shachou⟧です。",
       "english": "He is the president of ABC Corporation.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19101_kabushikigaisha_ex3",
-      "japanese": "{日本|にほん}で{株式会社|かぶしきがいしゃ}を{作|つく}るには、{資本金|しほんきん}が{一円|いちえん}から{可能|かのう}になった。",
+      "japanese": "⟦{日本|にほん}→日本：03876_nihon⟧⟦で→で：00502_de⟧{株式会社|かぶしきがいしゃ}⟦を→を：00422_wo⟧⟦{作|つく}る→作る：00481_tsukuru⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧、{資本金|しほんきん}⟦が→が：00051_ga⟧{一円|いちえん}⟦から→から：00504_kara⟧⟦{可能|かのう}→可能：00175_kanou⟧になった。",
       "english": "In Japan, it has become possible to create a corporation with as little as one yen in capital.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Often abbreviated as ({株|かぶ}) in written contexts, placed either before or after the company name: {株式会社|かぶしきがいしゃ}トヨタ or トヨタ{株式会社|かぶしきがいしゃ}. The position (before or after) is determined by the company's official registration. Other Japanese corporate forms include {合同会社|ごうどうがいしゃ} (LLC, abbreviated {合|ごう}), {合資会社|ごうしがいしゃ} (limited partnership), and {合名会社|ごうめいがいしゃ} (general partnership). Colloquially often shortened to {株|かぶ} when referring to shares or the stock market.",
+  "notes": "Often abbreviated as ({株|かぶ}) in written contexts, placed either before or after the company name: {株式会社|かぶしきがいしゃ}トヨタ or トヨタ{株式会社|かぶしきがいしゃ}. The position (before or after) is determined by the company's official registration. Other Japanese corporate forms include {合同会社|ごうどうがいしゃ} (LLC, abbreviated ⟦{合|ごう}→合：27628_gou⟧), {合資会社|ごうしがいしゃ} (limited partnership), and {合名会社|ごうめいがいしゃ} (general partnership). Colloquially often shortened to ⟦{株|かぶ}→株：02592_kabu⟧ when referring to shares or the stock market.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24678_eirihoujin",
+      "reading": "えいりほうじん",
+      "headword": "{営利法人|えいりほうじん}",
+      "label": "for-profit corporation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27499_yuugengaisha",
+      "reading": "ゆうげんがいしゃ",
+      "headword": "{有限会社|ゆうげんがいしゃ}",
+      "label": "limited liability company"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["work"],
-      "domain": ["business"]
+      "semantic": [
+        "work"
+      ],
+      "domain": [
+        "business"
+      ]
     },
     "created": "2026-03-24T09:39:14Z",
-    "modified": "2026-03-24T09:39:14Z"
+    "modified": "2026-09-02T04:01:54Z"
   }
 }

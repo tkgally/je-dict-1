@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "20208_nyuunen_ex1",
-      "japanese": "{入念|にゅうねん}に{準備|じゅんび}した。",
+      "japanese": "{入念|にゅうねん}⟦に→に：00314_ni⟧⟦{準備|じゅんび}した→準備する：22427_junbisuru⟧。",
       "english": "I prepared thoroughly.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "20208_nyuunen_ex2",
-      "japanese": "{入念|にゅうねん}な{調査|ちょうさ}が{必要|ひつよう}だ。",
+      "japanese": "{入念|にゅうねん}な⟦{調査|ちょうさ}→調査：03489_chousa⟧⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧だ。",
       "english": "A thorough investigation is necessary.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "20208_nyuunen_ex3",
-      "japanese": "{彼|かれ}は{入念|にゅうねん}に{計画|けいかく}を{練|ね}り、{一|ひと}つも{見落|みお}としがないようにした。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{入念|にゅうねん}⟦に→に：00314_ni⟧⟦{計画|けいかく}→計画：01172_keikaku⟧⟦を→を：00422_wo⟧⟦{練|ね}り→練る：09751_neru⟧、⟦{一|ひと}つ→一つ：02948_hitotsu⟧⟦も→も：00484_mo⟧⟦{見落|みお}とし→見落とし：14273_miotoshi⟧⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧ようにした。",
       "english": "He carefully refined his plan, making sure not to overlook a single thing.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "A な-adjective that emphasizes meticulous care and thoroughness. Used primarily as a modifier ({入念|にゅうねん}な + noun) or adverbially ({入念|にゅうねん}に + verb). Common in both spoken and written Japanese.\n\nCOMMON COLLOCATIONS:\n- {入念|にゅうねん}な{準備|じゅんび}: thorough preparation\n- {入念|にゅうねん}な{調査|ちょうさ}: careful investigation\n- {入念|にゅうねん}な{計画|けいかく}: meticulous plan\n- {入念|にゅうねん}に{確認|かくにん}する: to check carefully\n- {入念|にゅうねん}に{手入|てい}れする: to maintain carefully\n\nSIMILAR WORDS:\n- {丁寧|ていねい}: polite, careful — broader, includes politeness in manner\n- {慎重|しんちょう}: cautious, prudent — emphasizes avoiding mistakes or risk\n- {念入|ねんい}り: thorough, careful — very close synonym, slightly more common in everyday speech",
+  "notes": "A な-adjective that emphasizes meticulous care and thoroughness. Used primarily as a modifier ({入念|にゅうねん}な + noun) or adverbially ({入念|にゅうねん}⟦に→に：00314_ni⟧ + verb). Common in both spoken and written Japanese.\n\nCOMMON COLLOCATIONS:\n- {入念|にゅうねん}な⟦{準備|じゅんび}→準備：01431_junbi⟧: thorough preparation\n- {入念|にゅうねん}な⟦{調査|ちょうさ}→調査：03489_chousa⟧: careful investigation\n- {入念|にゅうねん}な⟦{計画|けいかく}→計画：01172_keikaku⟧: meticulous plan\n- {入念|にゅうねん}⟦に→に：00314_ni⟧⟦{確認|かくにん}する→確認する：25332_kakuninsuru⟧: to check carefully\n- {入念|にゅうねん}⟦に→に：00314_ni⟧⟦{手入|てい}れ→手入れ：07178_teire⟧⟦する→する：00392_suru⟧: to maintain carefully\n\nSIMILAR WORDS:\n- ⟦{丁寧|ていねい}→丁寧：00896_teinei⟧: polite, careful — broader, includes politeness in manner\n- ⟦{慎重|しんちょう}→慎重：03264_shinchou⟧: cautious, prudent — emphasizes avoiding mistakes or risk\n- ⟦{念入|ねんい}り→念入り：14892_neniri⟧: thorough, careful — very close synonym, slightly more common in everyday speech",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00896_teinei",
+      "reading": "ていねい",
+      "headword": "{丁寧|ていねい}",
+      "label": "polite, careful"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03264_shinchou",
+      "reading": "しんちょう",
+      "headword": "{慎重|しんちょう}",
+      "label": "cautious, prudent"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14892_neniri",
+      "reading": "ねんいり",
+      "headword": "{念入|ねんい}り",
+      "label": "thorough, careful"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +83,6 @@
       ]
     },
     "created": "2026-03-28T17:09:33Z",
-    "modified": "2026-03-28T17:09:33Z"
+    "modified": "2026-09-02T04:01:58Z"
   }
 }

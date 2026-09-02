@@ -15,40 +15,66 @@
   "examples": [
     {
       "id": "21058_shurui_ex1",
-      "japanese": "{酒類|しゅるい}の{販売|はんばい}は{禁止|きんし}されています。",
+      "japanese": "{酒類|しゅるい}⟦の→の：09472_no⟧⟦{販売|はんばい}→販売：03573_hanbai⟧⟦は→は：00079_ha⟧⟦{禁止|きんし}→禁止：02643_kinshi⟧⟦されています→する：00392_suru⟧。",
       "english": "The sale of alcoholic beverages is prohibited.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21058_shurui_ex2",
-      "japanese": "この{店|みせ}では{酒類|しゅるい}の{持|も}ち{込|こ}みはできません。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{店|みせ}→店：00497_mise⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧{酒類|しゅるい}⟦の→の：09472_no⟧⟦{持|も}ち{込|こ}み→持ち込み：08293_mochikomi⟧⟦は→は：00079_ha⟧⟦できません→できる：00557_dekiru⟧。",
       "english": "Bringing your own alcohol is not allowed at this establishment.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21058_shurui_ex3",
-      "japanese": "{未成年者|みせいねんしゃ}への{酒類|しゅるい}の{提供|ていきょう}は{法律|ほうりつ}で{禁|きん}じられている。",
+      "japanese": "{未成年者|みせいねんしゃ}⟦へ→へ：02473_he⟧⟦の→の：09472_no⟧{酒類|しゅるい}⟦の→の：09472_no⟧⟦{提供|ていきょう}→提供：12909_teikyou⟧⟦は→は：00079_ha⟧⟦{法律|ほうりつ}→法律：01722_houritsu⟧⟦で→で：00502_de⟧⟦{禁|きん}じられている→禁ずる：19600_kinzuru⟧。",
       "english": "Providing alcoholic beverages to minors is prohibited by law.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "An official, formal term for alcoholic beverages as a category. Commonly encountered on store signs, in legal texts, and in business/regulatory contexts. In casual speech, お{酒|さけ} is used instead.\n\nCOMMON COLLOCATIONS:\n- {酒類|しゅるい}の{販売|はんばい}: sale of alcohol\n- {酒類|しゅるい}{提供|ていきょう}: serving of alcohol\n- {酒類|しゅるい}{免許|めんきょ}: liquor license\n- {酒類|しゅるい}の{持|も}ち{込|こ}み: bringing in one's own alcohol\n- {酒類|しゅるい}{取扱店|とりあつかいてん}: establishment licensed to sell alcohol\n\nHOMOPHONE NOTE:\nNot to be confused with {種類|しゅるい} (type, kind), which has the same reading but entirely different meaning and kanji.\n\nSIMILAR WORDS:\n- お{酒|さけ}: alcohol, sake — everyday term for alcoholic drinks\n- アルコール: alcohol — also used in everyday speech and on product labels\n- {酒類|しゅるい}: the formal/regulatory category term",
+  "notes": "An official, formal term for alcoholic beverages as a category. Commonly encountered on store signs, in legal texts, and in business/regulatory contexts. In casual speech, ⟦お{酒|さけ}→お酒：01045_osake⟧ is used instead.\n\nCOMMON COLLOCATIONS:\n- {酒類|しゅるい}⟦の→の：09472_no⟧⟦{販売|はんばい}→販売：03573_hanbai⟧: sale of alcohol\n- {酒類|しゅるい}⟦{提供|ていきょう}→提供：12909_teikyou⟧: serving of alcohol\n- {酒類|しゅるい}⟦{免許|めんきょ}→免許：03808_menkyo⟧: liquor license\n- {酒類|しゅるい}⟦の→の：09472_no⟧⟦{持|も}ち{込|こ}み→持ち込み：08293_mochikomi⟧: bringing in one's own alcohol\n- {酒類|しゅるい}⟦{取扱店|とりあつかいてん}→取扱店：24107_toriatsukaiten⟧: establishment licensed to sell alcohol\n\nWATCH OUT:\nNot to be confused with ⟦{種類|しゅるい}→種類：01560_shurui⟧ (type, kind), which has the same reading but entirely different meaning and kanji.\n\nSIMILAR WORDS:\n- ⟦お{酒|さけ}→お酒：01045_osake⟧: alcohol, sake — everyday term for alcoholic drinks\n- ⟦アルコール→アルコール：01771_arukooru⟧: alcohol — also used in everyday speech and on product labels\n- {酒類|しゅるい}: the formal/regulatory category term",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01045_osake",
+      "reading": "おさけ",
+      "headword": "お{酒|さけ}",
+      "label": "alcohol, sake"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01771_arukooru",
+      "reading": "あるこーる",
+      "headword": "アルコール",
+      "label": "alcohol"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["food"]
+      "semantic": [
+        "food"
+      ]
     },
     "created": "2026-03-31T16:20:34Z",
-    "modified": "2026-07-26T03:19:02Z"
+    "modified": "2026-09-02T04:02:02Z"
   }
 }

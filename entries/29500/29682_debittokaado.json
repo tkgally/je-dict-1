@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29682_debittokaado_ex1",
-      "japanese": "{買|か}い{物|もの}でデビットカードを{使|つか}う。",
+      "japanese": "⟦{買|か}い{物|もの}→買い物：00853_kaimono⟧⟦で→で：00502_de⟧デビットカード⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧。",
       "english": "I use a debit card for shopping.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29682_debittokaado_ex2",
-      "japanese": "デビットカードなら{口座|こうざ}からすぐに{引|ひ}き{落|お}とされる。",
+      "japanese": "デビットカードなら⟦{口座|こうざ}→口座：05419_kouza⟧⟦から→から：00504_kara⟧⟦すぐ→すぐ：00814_sugu⟧⟦に→に：00314_ni⟧⟦{引|ひ}き{落|お}とされる→引き落とす：23710_hikiotosu⟧。",
       "english": "With a debit card, the money is withdrawn from your account right away.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29682_debittokaado_ex3",
-      "japanese": "クレジットカードと{違|ちが}って、デビットカードは{使|つか}った{分|ぶん}だけ{口座|こうざ}から{引|ひ}かれるので、{使|つか}いすぎを{防|ふせ}げる。",
+      "japanese": "⟦クレジットカード→クレジットカード：06968_kurejittokaado⟧⟦と→と：00512_to⟧⟦{違|ちが}って→違う：01957_chigau⟧、デビットカード⟦は→は：00079_ha⟧⟦{使|つか}った→使う：00473_tsukau⟧⟦{分|ぶん}→分：26216_bun⟧⟦だけ→〜だけ：03093_dake⟧⟦{口座|こうざ}→口座：05419_kouza⟧⟦から→から：00504_kara⟧⟦{引|ひ}かれる→引く：01978_hiku⟧⟦の→の：09472_no⟧で、⟦{使|つか}い→使う：00473_tsukau⟧すぎ⟦を→を：00422_wo⟧⟦{防|ふせ}げる→防ぐ：02409_fusegu⟧。",
       "english": "Unlike a credit card, a debit card draws only what you spend from your account, so it helps prevent overspending.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "A card linked to a bank account that deducts the purchase amount immediately, so spending is limited to the balance available.\n\nCOMMON COLLOCATIONS:\n- デビットカードで{支払|しはら}う: to pay with a debit card\n- デビットカードを{発行|はっこう}する: to issue a debit card\n- デビットカードが{使|つか}える{店|みせ}: a shop that accepts debit cards\n\nSIMILAR WORDS:\n- クレジットカード: credit card — the amount is billed later rather than drawn immediately\n- キャッシュカード: cash card — used mainly to withdraw cash at an ATM, not to make purchases",
+  "notes": "A card linked to a bank account that deducts the purchase amount immediately, so spending is limited to the balance available.\n\nCOMMON COLLOCATIONS:\n- デビットカード⟦で→で：00502_de⟧⟦{支払|しはら}う→支払う：02116_shiharau⟧: to pay with a debit card\n- デビットカード⟦を→を：00422_wo⟧⟦{発行|はっこう}する→発行する：19236_hakkousuru⟧: to issue a debit card\n- デビットカード⟦が→が：00051_ga⟧⟦{使|つか}える→使う：00473_tsukau⟧⟦{店|みせ}→店：00497_mise⟧: a shop that accepts debit cards\n\nSIMILAR WORDS:\n- ⟦クレジットカード→クレジットカード：06968_kurejittokaado⟧: credit card — the amount is billed later rather than drawn immediately\n- ⟦キャッシュカード→キャッシュカード：10836_kyasshukaado⟧: cash card — used mainly to withdraw cash at an ATM, not to make purchases",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06968_kurejittokaado",
+      "reading": "くれじっとかーど",
+      "headword": "クレジットカード",
+      "label": "credit card"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10836_kyasshukaado",
+      "reading": "きゃっしゅかーど",
+      "headword": "キャッシュカード",
+      "label": "cash card"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +69,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "money"
       ],
       "domain": []
     },
     "created": "2026-07-05T03:18:57Z",
-    "modified": "2026-07-05T03:18:57Z"
+    "modified": "2026-09-02T04:02:37Z"
   }
 }

@@ -3,7 +3,7 @@
   "headword": "{夢想|むそう}",
   "reading": "むそう",
   "romaji": "musou",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "daydream; fantasy; reverie",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21442_musou_ex1",
-      "japanese": "{将来|しょうらい}のことを{夢想|むそう}する。",
+      "japanese": "⟦{将来|しょうらい}→将来：01438_shourai⟧⟦の→の：09472_no⟧こと⟦を→を：00422_wo⟧{夢想|むそう}⟦する→する：00392_suru⟧。",
       "english": "To daydream about the future.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21442_musou_ex2",
-      "japanese": "{彼|かれ}は{窓|まど}の{外|そと}を{眺|なが}めながら{夢想|むそう}にふけっていた。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{窓|まど}→窓：02254_mado⟧⟦の→の：09472_no⟧⟦{外|そと}→外：00671_soto⟧⟦を→を：00422_wo⟧⟦{眺|なが}め→眺める：02132_nagameru⟧⟦ながら→ながら：10530_nagara⟧{夢想|むそう}⟦に→に：00314_ni⟧ふけって⟦いた→いる：00495_iru⟧。",
       "english": "He was lost in reverie, gazing out the window.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21442_musou_ex3",
-      "japanese": "{世界|せかい}{平和|へいわ}なんて{夢想|むそう}にすぎないと{言|い}う{人|ひと}もいるが、{理想|りそう}を{持|も}つことは{大切|たいせつ}だ。",
+      "japanese": "⟦{世界|せかい}→世界：01447_sekai⟧⟦{平和|へいわ}→平和：01507_heiwa⟧⟦なんて→なんて：06918_nante⟧{夢想|むそう}⟦に→に：00314_ni⟧すぎない⟦と→と：00512_to⟧⟦{言|い}う→言う：00515_iu⟧⟦{人|ひと}→人：00476_hito⟧⟦も→も：00484_mo⟧⟦いる→いる：00495_iru⟧⟦が→が：00051_ga⟧、⟦{理想|りそう}→理想：03676_risou⟧⟦を→を：00422_wo⟧⟦{持|も}つ→持つ：00478_motsu⟧こと⟦は→は：00079_ha⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧だ。",
       "english": "Some say world peace is nothing but a fantasy, but it is important to have ideals.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {夢|む} (dream) and {想|そう} (thought, imagination). The verb form is {夢想|むそう}する. Has a literary tone and often carries a nuance of unrealistic thinking, though it can also be used more neutrally for imaginative contemplation.\n\nCOMMON COLLOCATIONS:\n- {夢想|むそう}にふける: to be lost in daydreams\n- {夢想|むそう}{家|か}: a dreamer, a visionary\n- {夢想|むそう}にすぎない: to be nothing but a fantasy\n- {夢想|むそう}する: to daydream, to fantasize\n\nSIMILAR WORDS:\n- {空想|くうそう}: fantasy, daydream — very similar but slightly more neutral; also used in {空想|くうそう}{科学|かがく}{小説|しょうせつ} (science fiction)\n- {妄想|もうそう}: delusion, paranoid fantasy — stronger negative nuance, implies irrational or obsessive thinking\n- {幻想|げんそう}: illusion, fantasy — emphasizes something illusory or enchanting",
+  "notes": "A compound of {夢|む} (dream) and {想|そう} (thought, imagination). The verb form is {夢想|むそう}⟦する→する：00392_suru⟧. Has a literary tone and often carries a nuance of unrealistic thinking, though it can also be used more neutrally for imaginative contemplation.\n\nCOMMON COLLOCATIONS:\n- {夢想|むそう}⟦に→に：00314_ni⟧⟦ふける→ふける：09960_fukeru⟧: to be lost in daydreams\n- {夢想|むそう}{家|か}: a dreamer, a visionary\n- {夢想|むそう}⟦に→に：00314_ni⟧すぎない: to be nothing but a fantasy\n- {夢想|むそう}⟦する→する：00392_suru⟧: to daydream, to fantasize\n\nSIMILAR WORDS:\n- ⟦{空想|くうそう}→空想：00256_kuusou⟧: fantasy, daydream — very similar but slightly more neutral; also used in ⟦{空想|くうそう}{科学|かがく}→空想科学：26119_kuusoukagaku⟧⟦{小説|しょうせつ}→小説：01434_shousetsu⟧ (science fiction)\n- ⟦{妄想|もうそう}→妄想：06813_mousou⟧: delusion, paranoid fantasy — stronger negative nuance, implies irrational or obsessive thinking\n- ⟦{幻想|げんそう}→幻想：06753_gensou⟧: illusion, fantasy — emphasizes something illusory or enchanting",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00256_kuusou",
+      "reading": "くうそう",
+      "headword": "{空想|くうそう}",
+      "label": "fantasy, daydream"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06813_mousou",
+      "reading": "もうそう",
+      "headword": "{妄想|もうそう}",
+      "label": "delusion, paranoid fantasy"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06753_gensou",
+      "reading": "げんそう",
+      "headword": "{幻想|げんそう}",
+      "label": "illusion, fantasy"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,7 +85,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-02T03:25:34Z",
-    "modified": "2026-04-02T03:25:34Z"
+    "modified": "2026-09-02T04:02:03Z"
   },
   "conjugation": {
     "type": "suru",

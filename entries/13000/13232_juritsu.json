@@ -3,7 +3,7 @@
   "id": "13232_juritsu",
   "headword": "{樹立|じゅりつ}",
   "reading": "じゅりつ",
-  "part_of_speech": "noun / suru verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "to establish, to set (a record)",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "13232_juritsu_ex1",
-      "japanese": "{世界|せかい}{記録|きろく}を{樹立|じゅりつ}した。",
+      "japanese": "⟦{世界|せかい}→世界：01447_sekai⟧⟦{記録|きろく}→記録：02490_kiroku⟧⟦を→を：00422_wo⟧{樹立|じゅりつ}⟦した→する：00392_suru⟧。",
       "english": "A world record was set.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "13232_juritsu_ex2",
-      "japanese": "{両国|りょうこく}は{外交|がいこう}{関係|かんけい}を{樹立|じゅりつ}した。",
+      "japanese": "⟦{両国|りょうこく}→両国：10010_ryoukoku⟧⟦は→は：00079_ha⟧⟦{外交|がいこう}→外交：02627_gaikou⟧⟦{関係|かんけい}→関係：01298_kankei⟧⟦を→を：00422_wo⟧{樹立|じゅりつ}⟦した→する：00392_suru⟧。",
       "english": "The two countries established diplomatic relations.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "13232_juritsu_ex3",
-      "japanese": "{彼女|かのじょ}はオリンピックで{新記録|しんきろく}を{樹立|じゅりつ}し、{金|きん}メダルを{獲得|かくとく}した。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧⟦オリンピック→オリンピック：09899_orinpikku⟧⟦で→で：00502_de⟧⟦{新記録|しんきろく}→新記録：16705_shinkiroku⟧⟦を→を：00422_wo⟧{樹立|じゅりつ}し、⟦{金|きん}メダル→金メダル：20781_kinmedaru⟧⟦を→を：00422_wo⟧⟦{獲得|かくとく}→獲得：05624_kakutoku⟧⟦した→する：00392_suru⟧。",
       "english": "She set a new record at the Olympics and won a gold medal.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,19 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA formal suru verb ({樹立|じゅりつ}する). Most commonly used for setting records ({記録|きろく}を{樹立|じゅりつ}する) or establishing formal relations or systems. The kanji {樹|じゅ} (tree) conveys the metaphor of planting something that will stand firm.\n\nCOMMON COLLOCATIONS:\n- {記録|きろく}を{樹立|じゅりつ}する: to set a record\n- {世界|せかい}{記録|きろく}を{樹立|じゅりつ}する: to set a world record\n- {外交|がいこう}{関係|かんけい}を{樹立|じゅりつ}する: to establish diplomatic relations\n- {政権|せいけん}を{樹立|じゅりつ}する: to establish a government",
-  "cross_references": [],
+  "notes": "USAGE:\nA formal suru verb ({樹立|じゅりつ}⟦する→する：00392_suru⟧). Most commonly used for setting records (⟦{記録|きろく}→記録：02490_kiroku⟧⟦を→を：00422_wo⟧{樹立|じゅりつ}⟦する→する：00392_suru⟧) or establishing formal relations or systems. The kanji {樹|じゅ} (tree) conveys the metaphor of planting something that will stand firm.\n\nCOMMON COLLOCATIONS:\n- ⟦{記録|きろく}→記録：02490_kiroku⟧⟦を→を：00422_wo⟧{樹立|じゅりつ}⟦する→する：00392_suru⟧: to set a record\n- ⟦{世界|せかい}→世界：01447_sekai⟧⟦{記録|きろく}→記録：02490_kiroku⟧⟦を→を：00422_wo⟧{樹立|じゅりつ}⟦する→する：00392_suru⟧: to set a world record\n- ⟦{外交|がいこう}→外交：02627_gaikou⟧⟦{関係|かんけい}→関係：01298_kankei⟧⟦を→を：00422_wo⟧{樹立|じゅりつ}⟦する→する：00392_suru⟧: to establish diplomatic relations\n- ⟦{政権|せいけん}→政権：12883_seiken⟧⟦を→を：00422_wo⟧{樹立|じゅりつ}⟦する→する：00392_suru⟧: to establish a government",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12774_uchitateru",
+      "reading": "うちたてる",
+      "headword": "{打|う}ち{立|た}てる",
+      "label": "to establish, to set up"
+    }
+  ],
   "metadata": {
     "created": "2026-02-24T06:43:47Z",
-    "modified": "2026-03-29T03:07:35Z",
+    "modified": "2026-09-02T04:01:32Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -154,7 +162,8 @@
       "semantic": [
         "abstract"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

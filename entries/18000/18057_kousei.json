@@ -3,7 +3,7 @@
   "id": "18057_kousei",
   "headword": "{更生|こうせい}",
   "reading": "こうせい",
-  "part_of_speech": "noun / verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "rehabilitation, turning over a new leaf",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "18057_kousei_ex1",
-      "japanese": "{犯罪者|はんざいしゃ}の{更生|こうせい}を{支援|しえん}する。",
+      "japanese": "⟦{犯罪者|はんざいしゃ}→犯罪者：19219_hanzaisha⟧⟦の→の：09472_no⟧{更生|こうせい}⟦を→を：00422_wo⟧⟦{支援|しえん}する→支援する：25534_shiensuru⟧。",
       "english": "Support the rehabilitation of criminals.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "18057_kousei_ex2",
-      "japanese": "{彼|かれ}は{刑務所|けいむしょ}を{出|で}てから{更生|こうせい}した。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{刑務所|けいむしょ}→刑務所：19074_keimusho⟧⟦を→を：00422_wo⟧⟦{出|で}て→出る：00513_deru⟧⟦から→から：00504_kara⟧{更生|こうせい}⟦した→する：00392_suru⟧。",
       "english": "He reformed after getting out of prison.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "18057_kousei_ex3",
-      "japanese": "{少年|しょうねん}の{更生|こうせい}を{目的|もくてき}とした{施設|しせつ}が{各地|かくち}にある。",
+      "japanese": "⟦{少年|しょうねん}→少年：03238_shounen⟧⟦の→の：09472_no⟧{更生|こうせい}⟦を→を：00422_wo⟧⟦{目的|もくてき}→目的：02433_mokuteki⟧とした⟦{施設|しせつ}→施設：02503_shisetsu⟧⟦が→が：00051_ga⟧⟦{各地|かくち}→各地：00155_kakuchi⟧⟦に→に：00314_ni⟧⟦ある→ある：00006_aru⟧。",
       "english": "There are facilities in various areas aimed at rehabilitating juveniles.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nPrimarily used in legal and social welfare contexts. The word carries a strong nuance of moral reform and returning to society as a productive member.\n\nWORD FORMATION:\n{更|こう} (renew, change) + {生|せい} (life). Literally \"renewing one's life.\"\n\nHOMOPHONES:\nSeveral words share the reading こうせい — {公正|こうせい} (fairness), {構成|こうせい} (composition), {恒星|こうせい} (fixed star). The kanji {更生|こうせい} specifically refers to rehabilitation.\n\nCOMMON COLLOCATIONS:\n- {更生|こうせい}{施設|しせつ}: rehabilitation facility\n- {更生|こうせい}{保護|ほご}: rehabilitation and protection\n- {社会|しゃかい}{復帰|ふっき}と{更生|こうせい}: social reintegration and rehabilitation\n- {更生|こうせい}の{道|みち}: the path to reform",
+  "notes": "USAGE:\nPrimarily used in legal and social welfare contexts. The word carries a strong nuance of moral reform and returning to society as a productive member.\n\nFORMS:\n{更|こう} (renew, change) + {生|せい} (life). Literally \"renewing one's life.\"\n\nWATCH OUT:\nSeveral words share the reading こうせい — ⟦{公正|こうせい}→公正：01751_kousei⟧ (fairness), ⟦{構成|こうせい}→構成：02729_kousei⟧ (composition), ⟦{恒星|こうせい}→恒星：13043_kousei⟧ (fixed star). The kanji {更生|こうせい} specifically refers to rehabilitation.\n\nCOMMON COLLOCATIONS:\n- {更生|こうせい}⟦{施設|しせつ}→施設：02503_shisetsu⟧: rehabilitation facility\n- {更生|こうせい}⟦{保護|ほご}→保護：03625_hogo⟧: rehabilitation and protection\n- ⟦{社会|しゃかい}{復帰|ふっき}→社会復帰：20417_shakaifukki⟧⟦と→と：00512_to⟧{更生|こうせい}: social reintegration and rehabilitation\n- {更生|こうせい}⟦の→の：09472_no⟧⟦{道|みち}→道：00505_michi⟧: the path to reform",
   "cross_references": [
     {
       "type": "homophone",
@@ -147,11 +147,32 @@
       "target_id": "02729_kousei",
       "reading": "こうせい",
       "headword": "{構成|こうせい}"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12912_kaishin",
+      "reading": "かいしん",
+      "headword": "{改心|かいしん}",
+      "label": "change of heart, repentance, reform"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20417_shakaifukki",
+      "reading": "しゃかいふっき",
+      "headword": "{社会復帰|しゃかいふっき}",
+      "label": "return to society"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24672_hogokansatsu",
+      "reading": "ほごかんさつ",
+      "headword": "{保護観察|ほごかんさつ}",
+      "label": "probation"
     }
   ],
   "metadata": {
     "created": "2026-03-20T01:04:40Z",
-    "modified": "2026-03-29T03:08:58Z",
+    "modified": "2026-09-02T04:01:50Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30029_chinryou_ex1",
-      "japanese": "{賃料|ちんりょう}を{払|はら}う。",
+      "japanese": "{賃料|ちんりょう}⟦を→を：00422_wo⟧⟦{払|はら}う→払う：00535_harau⟧。",
       "english": "Pay the rent.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30029_chinryou_ex2",
-      "japanese": "{毎月|まいつき}の{賃料|ちんりょう}は{十|じゅう}{万|まん}{円|えん}だ。",
+      "japanese": "⟦{毎月|まいつき}→毎月：00732_maitsuki⟧⟦の→の：09472_no⟧{賃料|ちんりょう}⟦は→は：00079_ha⟧⟦{十|じゅう}{万|まん}→十万：30469_juuman⟧⟦{円|えん}→円：00774_en⟧だ。",
       "english": "The monthly rent is 100,000 yen.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30029_chinryou_ex3",
-      "japanese": "{契約|けいやく}{更新|こうしん}のとき、{賃料|ちんりょう}が{値上|ねあ}げされた。",
+      "japanese": "⟦{契約|けいやく}→契約：02698_keiyaku⟧⟦{更新|こうしん}→更新：04765_koushin⟧⟦の→の：09472_no⟧とき、{賃料|ちんりょう}⟦が→が：00051_ga⟧⟦{値上|ねあ}げ→値上げ：07582_neage⟧⟦された→する：00392_suru⟧。",
       "english": "When the contract was renewed, the rent was raised.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Formed from {賃|ちん} (fee, wages) + {料|りょう} (charge). Common in contracts and law.\n\nCOMMON COLLOCATIONS:\n- {賃料|ちんりょう}を{支払|しはら}う: to pay rent\n- {賃料|ちんりょう}の{値上|ねあ}げ: rent increase\n- {賃料|ちんりょう}{相場|そうば}: market rent\n\nSIMILAR WORDS:\n- {家賃|やちん}: rent — the everyday word, used mainly for housing\n- {地代|ちだい}: land rent — specifically for renting land\n- {賃料|ちんりょう} is broader and more formal, covering both land and buildings.",
+  "notes": "Formed from ⟦{賃|ちん}→〜賃：28343_chin⟧ (fee, wages) + ⟦{料|りょう}→料：28172_ryou⟧ (charge). Common in contracts and law.\n\nCOMMON COLLOCATIONS:\n- {賃料|ちんりょう}⟦を→を：00422_wo⟧⟦{支払|しはら}う→支払う：02116_shiharau⟧: to pay rent\n- {賃料|ちんりょう}⟦の→の：09472_no⟧⟦{値上|ねあ}げ→値上げ：07582_neage⟧: rent increase\n- {賃料|ちんりょう}⟦{相場|そうば}→相場：07668_souba⟧: market rent\n\nSIMILAR WORDS:\n- ⟦{家賃|やちん}→家賃：03639_yachin⟧: rent — the everyday word, used mainly for housing\n- {地代|ちだい}: land rent — specifically for renting land\n- {賃料|ちんりょう} is broader and more formal, covering both land and buildings.",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,14 +53,14 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "money"
       ],
       "domain": []
     },
     "created": "2026-07-22T12:20:02Z",
-    "modified": "2026-08-08T15:20:02Z"
+    "modified": "2026-09-02T04:02:38Z"
   },
   "cross_references": [
     {
@@ -69,6 +69,13 @@
       "reading": "やちん",
       "headword": "{家賃|やちん}",
       "label": "rent"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29636_shiyouryou",
+      "reading": "しようりょう",
+      "headword": "{使用料|しようりょう}",
+      "label": "usage fee"
     }
   ]
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22004_shuuhatsu_ex1",
-      "japanese": "{終発|しゅうはつ}は{何時|なんじ}ですか。",
+      "japanese": "{終発|しゅうはつ}⟦は→は：00079_ha⟧⟦{何時|なんじ}→何時：00973_nanji⟧です⟦か→か：09473_ka⟧。",
       "english": "What time is the last departure?",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22004_shuuhatsu_ex2",
-      "japanese": "{終発|しゅうはつ}に{間|ま}に{合|あ}わなかった。",
+      "japanese": "{終発|しゅうはつ}⟦に→に：00314_ni⟧⟦{間|ま}に{合|あ}わなかった→間に合う：01142_maniau⟧。",
       "english": "I didn't make it in time for the last train.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22004_shuuhatsu_ex3",
-      "japanese": "{飲|の}み{会|かい}が{長引|ながび}いて、{終発|しゅうはつ}を{逃|のが}してタクシーで{帰|かえ}った。",
+      "japanese": "⟦{飲|の}み{会|かい}→飲み会：09371_nomikai⟧⟦が→が：00051_ga⟧⟦{長引|ながび}いて→長引く：14473_nagabiku⟧、{終発|しゅうはつ}⟦を→を：00422_wo⟧⟦{逃|のが}して→逃す：04611_nogasu⟧⟦タクシー→タクシー：00816_takushii⟧⟦で→で：00502_de⟧⟦{帰|かえ}った→帰る：00508_kaeru⟧。",
       "english": "The drinking party dragged on, so I missed the last train and went home by taxi.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "The counterpart of {始発|しはつ} (first departure). While {終電|しゅうでん} (last train) is more commonly used in everyday conversation for trains specifically, {終発|しゅうはつ} is the general term that applies to any mode of transport.\n\nCOMMON COLLOCATIONS:\n- {終発|しゅうはつ}に{乗|の}る: to catch the last departure\n- {終発|しゅうはつ}を{逃|のが}す: to miss the last departure\n- {終発|しゅうはつ}に{間|ま}に{合|あ}う: to make it in time for the last departure\n- {終発|しゅうはつ}{時刻|じこく}: last departure time\n\nSIMILAR WORDS:\n- {終電|しゅうでん}: last train — specifically for electric trains; more common in everyday speech\n- {終バス|しゅうばす}: last bus — specifically for buses\n- {始発|しはつ}: first departure — the opposite; the first service of the day\n- {最終|さいしゅう}: last; final — often used as {最終|さいしゅう}{便|びん} for the last flight",
+  "notes": "The counterpart of ⟦{始発|しはつ}→始発：03063_shihatsu⟧ (first departure). While ⟦{終電|しゅうでん}→終電：05296_shuuden⟧ (last train) is more commonly used in everyday conversation for trains specifically, {終発|しゅうはつ} is the general term that applies to any mode of transport.\n\nCOMMON COLLOCATIONS:\n- {終発|しゅうはつ}⟦に→に：00314_ni⟧⟦{乗|の}る→乗る：00511_noru⟧: to catch the last departure\n- {終発|しゅうはつ}⟦を→を：00422_wo⟧⟦{逃|のが}す→逃す：04611_nogasu⟧: to miss the last departure\n- {終発|しゅうはつ}⟦に→に：00314_ni⟧⟦{間|ま}に{合|あ}う→間に合う：01142_maniau⟧: to make it in time for the last departure\n- {終発|しゅうはつ}⟦{時刻|じこく}→時刻：03270_jikoku⟧: last departure time\n\nSIMILAR WORDS:\n- ⟦{終電|しゅうでん}→終電：05296_shuuden⟧: last train — specifically for electric trains; more common in everyday speech\n- {終バス|しゅうばす}: last bus — specifically for buses\n- ⟦{始発|しはつ}→始発：03063_shihatsu⟧: first departure — the opposite; the first service of the day\n- ⟦{最終|さいしゅう}→最終：02820_saishuu⟧: last; final — often used as ⟦{最終|さいしゅう}→最終：02820_saishuu⟧⟦{便|びん}→便：28160_bin⟧ for the last flight",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05296_shuuden",
+      "reading": "しゅうでん",
+      "headword": "{終電|しゅうでん}",
+      "label": "last train"
+    },
+    {
+      "type": "antonym",
+      "target_id": "03063_shihatsu",
+      "reading": "しはつ",
+      "headword": "{始発|しはつ}",
+      "label": "first departure"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02820_saishuu",
+      "reading": "さいしゅう",
+      "headword": "{最終|さいしゅう}",
+      "label": "last"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +82,6 @@
       ]
     },
     "created": "2026-04-04T20:20:14Z",
-    "modified": "2026-07-30T03:35:34Z"
+    "modified": "2026-09-02T04:02:06Z"
   }
 }

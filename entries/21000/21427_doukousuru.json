@@ -3,7 +3,7 @@
   "headword": "{同行|どうこう}する",
   "reading": "どうこうする",
   "romaji": "doukousuru",
-  "part_of_speech": "verb",
+  "part_of_speech": "suru verb",
   "gloss": "to accompany; to go together",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21427_doukousuru_ex1",
-      "japanese": "{通訳|つうやく}が{同行|どうこう}する。",
+      "japanese": "⟦{通訳|つうやく}→通訳：03516_tsuuyaku⟧⟦が→が：00051_ga⟧{同行|どうこう}する。",
       "english": "An interpreter will accompany us.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21427_doukousuru_ex2",
-      "japanese": "{出張|しゅっちょう}に{部下|ぶか}を{同行|どうこう}させた。",
+      "japanese": "⟦{出張|しゅっちょう}→出張：01094_shucchou⟧⟦に→に：00314_ni⟧⟦{部下|ぶか}→部下：06453_buka⟧⟦を→を：00422_wo⟧{同行|どうこう}させた。",
       "english": "I had my subordinate accompany me on the business trip.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21427_doukousuru_ex3",
-      "japanese": "{警察|けいさつ}{官|かん}が{容疑者|ようぎしゃ}の{自宅|じたく}まで{同行|どうこう}し、{家宅捜索|かたくそうさく}を{行|おこな}った。",
+      "japanese": "⟦{警察|けいさつ}{官|かん}→警察官：05056_keisatsukan⟧⟦が→が：00051_ga⟧⟦{容疑者|ようぎしゃ}→容疑者：15039_yougisha⟧⟦の→の：09472_no⟧⟦{自宅|じたく}→自宅：00129_jitaku⟧⟦まで→まで：00490_made⟧{同行|どうこう}し、{家宅捜索|かたくそうさく}⟦を→を：00422_wo⟧⟦{行|おこな}った→行う：01238_okonau⟧。",
       "english": "Police officers accompanied the suspect to their home and conducted a house search.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {同|どう} (same, together) and {行|こう} (go). More formal than {一緒|いっしょ}に{行|い}く. Often used in business, travel, and official contexts where someone goes along in a professional role.\n\nCOMMON COLLOCATIONS:\n- {出張|しゅっちょう}に{同行|どうこう}する: to accompany on a business trip\n- {取材|しゅざい}に{同行|どうこう}する: to accompany on a news report\n- {同行者|どうこうしゃ}: companion, person accompanying\n- {同行|どうこう}を{求|もと}める: to request someone's company\n\nSIMILAR WORDS:\n- {付|つ}き{添|そ}う: to attend, to escort — implies providing care or support\n- {随行|ずいこう}する: to accompany (a superior) — more formal, specifically following a person of higher status\n- {一緒|いっしょ}に{行|い}く: to go together — the casual everyday expression",
+  "notes": "A compound of ⟦{同|どう}→同〜：03962_dou⟧ (same, together) and {行|こう} (go). More formal than ⟦{一緒|いっしょ}→一緒：02848_issho⟧⟦に→に：00314_ni⟧⟦{行|い}く→行く：00119_iku⟧. Often used in business, travel, and official contexts where someone goes along in a professional role.\n\nCOMMON COLLOCATIONS:\n- ⟦{出張|しゅっちょう}→出張：01094_shucchou⟧⟦に→に：00314_ni⟧{同行|どうこう}する: to accompany on a business trip\n- ⟦{取材|しゅざい}→取材：05227_shuzai⟧⟦に→に：00314_ni⟧{同行|どうこう}する: to accompany on a news report\n- {同行者|どうこうしゃ}: companion, person accompanying\n- ⟦{同行|どうこう}→同行：12028_doukou⟧⟦を→を：00422_wo⟧⟦{求|もと}める→求める：02316_motomeru⟧: to request someone's company\n\nSIMILAR WORDS:\n- ⟦{付|つ}き{添|そ}う→付き添う：10585_tsukisou⟧: to attend, to escort — implies providing care or support\n- {随行|ずいこう}⟦する→する：00392_suru⟧: to accompany (a superior) — more formal, specifically following a person of higher status\n- ⟦{一緒|いっしょ}→一緒：02848_issho⟧⟦に→に：00314_ni⟧⟦{行|い}く→行く：00119_iku⟧: to go together — the casual everyday expression",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "10585_tsukisou",
+      "reading": "つきそう",
+      "headword": "{付|つ}き{添|そ}う",
+      "label": "to attend, to escort"
+    },
+    {
+      "type": "related",
+      "target_id": "08736_otomosuru",
+      "reading": "おともする",
+      "headword": "お{供|とも}する",
+      "label": "to accompany (humble)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23753_tsureteiku",
+      "reading": "つれていく",
+      "headword": "{連|つ}れていく",
+      "label": "to take (someone) along"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,7 +84,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-02T03:20:30Z",
-    "modified": "2026-07-29T12:35:11Z"
+    "modified": "2026-09-02T04:02:03Z"
   },
   "conjugation": {
     "type": "suru",

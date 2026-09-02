@@ -39,7 +39,7 @@
     },
     {
       "id": "02343_kuyashii_ex3",
-      "japanese": "⟦{試合|しあい}→試合：01601_shiai⟧⟦に→に：00314_ni⟧⟦{負|ま}けて→負ける：01134_makeru⟧{悔|くや}しい⟦{思|おも}い→思い：10248_omoi⟧⟦を→を：00422_wo⟧した。",
+      "japanese": "⟦{試合|しあい}→試合：01601_shiai⟧⟦に→に：00314_ni⟧⟦{負|ま}けて→負ける：01134_makeru⟧{悔|くや}しい⟦{思|おも}い→思い：10248_omoi⟧⟦を→を：00422_wo⟧⟦した→する：00392_suru⟧。",
       "english": "I felt frustrated after losing the match.",
       "notes": null,
       "has_audio": false,
@@ -59,7 +59,7 @@
     },
     {
       "id": "02343_kuyashii_ex5",
-      "japanese": "もっと⟦{勉強|べんきょう}→勉強：00770_benkyou⟧すればよかった⟦と→と：00512_to⟧{悔|くや}しい。",
+      "japanese": "⟦もっと→もっと：00798_motto⟧⟦{勉強|べんきょう}→勉強：00770_benkyou⟧⟦すれば→する：00392_suru⟧⟦よかった→いい：00118_ii⟧⟦と→と：00512_to⟧{悔|くや}しい。",
       "english": "I regret not having studied more.",
       "notes": null,
       "has_audio": false,
@@ -69,7 +69,7 @@
     },
     {
       "id": "02343_kuyashii_ex6",
-      "japanese": "あの⟦{時|とき}→時：02918_toki⟧⟦{言|い}い{返|かえ}せなかった→言い返す：16418_iikaesu⟧⟦の→の：09472_no⟧⟦が→が：00051_ga⟧{悔|くや}しい。",
+      "japanese": "⟦あの→あの：00915_ano⟧⟦{時|とき}→時：02918_toki⟧⟦{言|い}い{返|かえ}せなかった→言い返す：16418_iikaesu⟧⟦の→の：09472_no⟧⟦が→が：00051_ga⟧{悔|くや}しい。",
       "english": "I regret not being able to talk back at that time.",
       "notes": null,
       "has_audio": false,
@@ -78,7 +78,7 @@
       ]
     }
   ],
-  "notes": "{悔|くや}しい is an i-adjective expressing frustration, especially over defeat, failure, or unfair situations.\n\nFORMS:\n- Adverbial: {悔|くや}しく\n- Te-form: {悔|くや}しくて\n- Noun form: ⟦{悔|くや}しさ→悔しさ：06789_kuyashisa⟧ (frustration)\n\nCOMMON EXPRESSIONS:\n- {悔|くや}しい⟦{思|おも}い→思い：10248_omoi⟧⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧: to feel frustrated\n- {悔|くや}しくて⟦{泣|な}く→泣く：00655_naku⟧: to cry from frustration\n- {悔|くや}しさ⟦を→を：00422_wo⟧⟦バネ→ばね：00011_bane⟧にする: to use frustration as motivation\n\nUSAGE:\nOften used in competitive contexts (sports, games, exams). The feeling can be a positive motivator to try harder next time.\n\nRELATED WORDS:\n- ⟦{悔|く}やむ→悔やむ：14725_kuyamu⟧: to regret (verb)\n- ⟦{悔|く}い→悔い：06648_kui⟧: regret, remorse (noun)\n- ⟦{残念|ざんねん}→残念：01244_zannen⟧: disappointing, unfortunate",
+  "notes": "{悔|くや}しい is an i-adjective expressing frustration, especially over defeat, failure, or unfair situations.\n\nFORMS:\n- Adverbial: {悔|くや}しく\n- Te-form: {悔|くや}しくて\n- Noun form: ⟦{悔|くや}しさ→悔しさ：06789_kuyashisa⟧ (frustration)\n\nCOMMON EXPRESSIONS:\n- {悔|くや}しい⟦{思|おも}い→思い：10248_omoi⟧⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧: to feel frustrated\n- {悔|くや}しくて⟦{泣|な}く→泣く：00655_naku⟧: to cry from frustration\n- {悔|くや}しさ⟦を→を：00422_wo⟧⟦バネ→ばね：00011_bane⟧⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧: to use frustration as motivation\n\nUSAGE:\nOften used in competitive contexts (sports, games, exams). The feeling can be a positive motivator to try harder next time.\n\nRELATED WORDS:\n- ⟦{悔|く}やむ→悔やむ：14725_kuyamu⟧: to regret (verb)\n- ⟦{悔|く}い→悔い：06648_kui⟧: regret, remorse (noun)\n- ⟦{残念|ざんねん}→残念：01244_zannen⟧: disappointing, unfortunate",
   "cross_references": [
     {
       "type": "related",
@@ -93,11 +93,46 @@
       "reading": "ざんねん",
       "headword": "{残念|ざんねん}",
       "label": "disappointing, unfortunate"
+    },
+    {
+      "type": "related",
+      "target_id": "06648_kui",
+      "reading": "くい",
+      "headword": "{悔|く}い",
+      "label": "regret, remorse"
+    },
+    {
+      "type": "related",
+      "target_id": "08547_hagishiri",
+      "reading": "はぎしり",
+      "headword": "{歯|は}ぎしり",
+      "label": "teeth grinding"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21455_haradatashii",
+      "reading": "はらだたしい",
+      "headword": "{腹立|はらだ}たしい",
+      "label": "irritating"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21526_kuyashigaru",
+      "reading": "くやしがる",
+      "headword": "{悔|くや}しがる",
+      "label": "to show frustration"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23220_urameshii",
+      "reading": "うらめしい",
+      "headword": "{恨|うら}めしい",
+      "label": "resentful"
     }
   ],
   "metadata": {
     "created": "2026-01-09T08:23:41Z",
-    "modified": "2026-05-20T14:12:34Z",
+    "modified": "2026-09-02T04:01:01Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

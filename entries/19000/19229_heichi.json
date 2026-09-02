@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "19229_heichi_ex1",
-      "japanese": "{平地|へいち}に{家|いえ}を{建|た}てる。",
+      "japanese": "{平地|へいち}⟦に→に：00314_ni⟧⟦{家|いえ}→家：00612_ie⟧⟦を→を：00422_wo⟧⟦{建|た}てる→建てる：01189_tateru⟧。",
       "english": "To build a house on flat land.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19229_heichi_ex2",
-      "japanese": "この{辺|あた}りは{平地|へいち}が{少|すく}ない。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{辺|あた}り→辺り：01770_atari⟧⟦は→は：00079_ha⟧{平地|へいち}⟦が→が：00051_ga⟧⟦{少|すく}ない→少ない：01136_sukunai⟧。",
       "english": "There is little flat land around here.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19229_heichi_ex3",
-      "japanese": "{日本|にほん}は{山|やま}が{多|おお}く、{平地|へいち}は{国土|こくど}の{約|やく}{三|さん}{割|わり}しかない。",
+      "japanese": "⟦{日本|にほん}→日本：03876_nihon⟧⟦は→は：00079_ha⟧⟦{山|やま}→山：02168_yama⟧⟦が→が：00051_ga⟧⟦{多|おお}く→多い：01127_ooi⟧、{平地|へいち}⟦は→は：00079_ha⟧⟦{国土|こくど}→国土：12036_kokudo⟧⟦の→の：09472_no⟧⟦{約|やく}→約：09563_yaku⟧⟦{三|さん}→三：00749_san⟧⟦{割|わり}→割：03194_wari⟧⟦しかない→〜しかない：30533_shikanai⟧。",
       "english": "Japan has many mountains, and flat land makes up only about 30% of the country.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Flat, level ground without significant elevation changes.\n\nWORD FORMATION:\n{平|へい} (flat) + {地|ち} (ground/land)\n\nCOMMON PATTERNS:\n- {平地|へいち}に{建|た}てる: to build on flat land\n- {平地|へいち}が{少|すく}ない: little flat land\n- {平地|へいち}を{走|はし}る: to run on flat ground\n\nRELATED TERMS:\n- {平野|へいや}: plain (a broad geographic region of flat terrain)\n- {高地|こうち}: highlands\n- {低地|ていち}: lowlands\n- {山地|さんち}: mountainous terrain\n\nCONTRAST:\n{平地|へいち} emphasizes the quality of being flat, while {平野|へいや} refers to a named geographic region. Japan is about 70% mountainous, making {平地|へいち} a relatively limited and valued resource.",
+  "notes": "Flat, level ground without significant elevation changes.\n\nFORMS:\n{平|へい} (flat) + {地|ち} (ground/land)\n\nCOMMON PATTERNS:\n- {平地|へいち}⟦に→に：00314_ni⟧⟦{建|た}てる→建てる：01189_tateru⟧: to build on flat land\n- {平地|へいち}⟦が→が：00051_ga⟧⟦{少|すく}ない→少ない：01136_sukunai⟧: little flat land\n- {平地|へいち}⟦を→を：00422_wo⟧⟦{走|はし}る→走る：00519_hashiru⟧: to run on flat ground\n\nRELATED WORDS:\n- ⟦{平野|へいや}→平野：00096_heiya⟧: plain (a broad geographic region of flat terrain)\n- ⟦{高地|こうち}→高地：29340_kouchi⟧: highlands\n- ⟦{低地|ていち}→低地：15551_teichi⟧: lowlands\n- ⟦{山地|さんち}→山地：12647_sanchi⟧: mountainous terrain\n\nSIMILAR WORDS:\n{平地|へいち} emphasizes the quality of being flat, while ⟦{平野|へいや}→平野：00096_heiya⟧ refers to a named geographic region. Japan is about 70% mountainous, making {平地|へいち} a relatively limited and valued resource.",
   "cross_references": [
     {
       "type": "related",
@@ -46,18 +52,44 @@
       "reading": "ていち",
       "headword": "{低地|ていち}",
       "label": "lowland"
+    },
+    {
+      "type": "related",
+      "target_id": "00096_heiya",
+      "reading": "へいや",
+      "headword": "{平野|へいや}",
+      "label": "plain"
+    },
+    {
+      "type": "related",
+      "target_id": "29340_kouchi",
+      "reading": "こうち",
+      "headword": "{高地|こうち}",
+      "label": "highlands"
+    },
+    {
+      "type": "related",
+      "target_id": "12647_sanchi",
+      "reading": "さんち",
+      "headword": "{山地|さんち}",
+      "label": "mountainous terrain"
     }
   ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["geography", "nature"]
+      "semantic": [
+        "geography",
+        "nature"
+      ]
     },
     "created": "2026-03-25T01:36:52Z",
-    "modified": "2026-05-01T08:11:13Z"
+    "modified": "2026-09-02T04:01:55Z"
   }
 }

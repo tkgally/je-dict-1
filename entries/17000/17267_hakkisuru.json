@@ -3,7 +3,7 @@
   "id": "17267_hakkisuru",
   "headword": "{発揮|はっき}する",
   "reading": "はっきする",
-  "part_of_speech": "verb-suru",
+  "part_of_speech": "suru verb",
   "gloss": "to demonstrate; to display; to exhibit",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "17267_hakkisuru_ex1",
-      "japanese": "{実力|じつりょく}を{発揮|はっき}する。",
+      "japanese": "⟦{実力|じつりょく}→実力：03277_jitsuryoku⟧⟦を→を：00422_wo⟧{発揮|はっき}する。",
       "english": "To demonstrate one's true ability.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "17267_hakkisuru_ex2",
-      "japanese": "チームワークを{発揮|はっき}して{試合|しあい}に{勝|か}った。",
+      "japanese": "⟦チームワーク→チームワーク：10995_chiimuwaaku⟧⟦を→を：00422_wo⟧{発揮|はっき}して⟦{試合|しあい}→試合：01601_shiai⟧⟦に→に：00314_ni⟧⟦{勝|か}った→勝つ：01199_katsu⟧。",
       "english": "We won the game by demonstrating teamwork.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "17267_hakkisuru_ex3",
-      "japanese": "{緊張|きんちょう}していたが、{本番|ほんばん}では{持|も}ち{前|まえ}の{集中力|しゅうちゅうりょく}を{発揮|はっき}することができた。",
+      "japanese": "⟦{緊張|きんちょう}していた→緊張する：20557_kinchousuru⟧⟦が→が：00051_ga⟧、⟦{本番|ほんばん}→本番：19392_honban⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{持|も}ち{前|まえ}→持ち前：22765_mochimae⟧⟦の→の：09472_no⟧⟦{集中力|しゅうちゅうりょく}→集中力：17614_shuuchuuryoku⟧⟦を→を：00422_wo⟧{発揮|はっき}すること⟦が→が：00051_ga⟧⟦できた→できる：00557_dekiru⟧。",
       "english": "I was nervous, but during the actual performance I was able to display my natural concentration.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,26 @@
       ]
     }
   ],
-  "notes": "USAGE:\nAlmost always used with を to mark the quality being demonstrated. The subject brings out something they inherently possess — it is not used for acquiring new skills, but for making existing ones visible or effective.\n\nCOMMON COLLOCATIONS:\n- {実力|じつりょく}を{発揮|はっき}する (demonstrate one's ability)\n- {能力|のうりょく}を{発揮|はっき}する (display one's talent)\n- {力|ちから}を{発揮|はっき}する (exert one's strength)\n- リーダーシップを{発揮|はっき}する (show leadership)\n- {威力|いりょく}を{発揮|はっき}する (demonstrate power/effectiveness)\n\nSIMILAR WORDS:\n- {示|しめ}す: to show — more general; can show things to others, not limited to inherent qualities\n- {見|み}せる: to show/display — focuses on making something visible to others, while {発揮|はっき}する emphasizes bringing out latent ability",
-  "cross_references": [],
+  "notes": "USAGE:\nAlmost always used with ⟦を→を：00422_wo⟧ to mark the quality being demonstrated. The subject brings out something they inherently possess — it is not used for acquiring new skills, but for making existing ones visible or effective.\n\nCOMMON COLLOCATIONS:\n- ⟦{実力|じつりょく}→実力：03277_jitsuryoku⟧⟦を→を：00422_wo⟧{発揮|はっき}する (demonstrate one's ability)\n- ⟦{能力|のうりょく}→能力：03541_nouryoku⟧⟦を→を：00422_wo⟧{発揮|はっき}する (display one's talent)\n- ⟦{力|ちから}→力：01661_chikara⟧⟦を→を：00422_wo⟧{発揮|はっき}する (exert one's strength)\n- ⟦リーダーシップ→リーダーシップ：09596_riidaashippu⟧⟦を→を：00422_wo⟧{発揮|はっき}する (show leadership)\n- ⟦{威力|いりょく}→威力：19611_iryoku⟧⟦を→を：00422_wo⟧{発揮|はっき}する (demonstrate power/effectiveness)\n\nSIMILAR WORDS:\n- ⟦{示|しめ}す→示す：01948_shimesu⟧: to show — more general; can show things to others, not limited to inherent qualities\n- ⟦{見|み}せる→見せる：01988_miseru⟧: to show/display — focuses on making something visible to others, while {発揮|はっき}する emphasizes bringing out latent ability",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01948_shimesu",
+      "reading": "しめす",
+      "headword": "{示|しめ}す",
+      "label": "to show"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01988_miseru",
+      "reading": "みせる",
+      "headword": "{見|み}せる",
+      "label": "to show/display"
+    }
+  ],
   "metadata": {
     "created": "2026-03-17T04:25:01Z",
-    "modified": "2026-03-29T03:08:18Z",
+    "modified": "2026-09-02T04:01:47Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

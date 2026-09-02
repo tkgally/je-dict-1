@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22859_hazuki_ex1",
-      "japanese": "{葉月|はづき}の{空|そら}は{高|たか}い。",
+      "japanese": "{葉月|はづき}⟦の→の：09472_no⟧⟦{空|そら}→空：02216_sora⟧⟦は→は：00079_ha⟧⟦{高|たか}い→高い：00500_takai⟧。",
       "english": "The sky in August is high.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22859_hazuki_ex2",
-      "japanese": "{旧暦|きゅうれき}では{葉月|はづき}は{八月|はちがつ}のことだ。",
+      "japanese": "⟦{旧暦|きゅうれき}→旧暦：12958_kyuureki⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧{葉月|はづき}⟦は→は：00079_ha⟧⟦{八月|はちがつ}→八月：00626_hachigatsu⟧⟦の→の：09472_no⟧ことだ。",
       "english": "In the old calendar, hazuki refers to the eighth month.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22859_hazuki_ex3",
-      "japanese": "{葉月|はづき}という{名前|なまえ}は{女|おんな}の{子|こ}に{人気|にんき}がある。",
+      "japanese": "{葉月|はづき}⟦という→という：09577_toiu⟧⟦{名前|なまえ}→名前：02234_namae⟧⟦は→は：00079_ha⟧⟦{女|おんな}の{子|こ}→女の子：02865_onnanoko⟧⟦に→に：00314_ni⟧⟦{人気|にんき}→人気：01488_ninki⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "The name Hazuki is popular for girls.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "One of the traditional Japanese month names ({和風月名|わふうげつめい}). {葉月|はづき} literally means \"leaf month,\" believed to refer to leaves beginning to fall as autumn approaches in the lunar calendar.\n\nTRADITIONAL MONTH NAMES:\n- {睦月|むつき}: January\n- {如月|きさらぎ}: February\n- {弥生|やよい}: March\n- {卯月|うづき}: April\n- {皐月|さつき}: May\n- {水無月|みなづき}: June\n- {文月|ふみづき}: July\n- {葉月|はづき}: August\n- {長月|ながつき}: September\n- {神無月|かんなづき}: October\n- {霜月|しもつき}: November\n- {師走|しわす}: December\n\nUSAGE:\nThese names appear in literature, seasonal greetings, and traditional contexts. {葉月|はづき} is also commonly used as a given name for girls.",
+  "notes": "One of the traditional Japanese month names ({和風月名|わふうげつめい}). {葉月|はづき} literally means \"leaf month,\" believed to refer to leaves beginning to fall as autumn approaches in the lunar calendar.\n\nTRADITIONAL MONTH NAMES:\n- ⟦{睦月|むつき}→睦月：18674_mutsuki⟧: January\n- ⟦{如月|きさらぎ}→如月：20361_kisaragi⟧: February\n- ⟦{弥生|やよい}→弥生：20353_yayoi⟧: March\n- {卯月|うづき}: April\n- {皐月|さつき}: May\n- ⟦{水無月|みなづき}→水無月：21764_minazuki⟧: June\n- {文月|ふみづき}: July\n- {葉月|はづき}: August\n- {長月|ながつき}: September\n- ⟦{神無月|かんなづき}→神無月：20362_kannazuki⟧: October\n- {霜月|しもつき}: November\n- ⟦{師走|しわす}→師走：16153_shiwasu⟧: December\n\nUSAGE:\nThese names appear in literature, seasonal greetings, and traditional contexts. {葉月|はづき} is also commonly used as a given name for girls.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "18465_fuzuki",
+      "reading": "ふづき",
+      "headword": "{文月|ふづき}",
+      "label": "July (traditional calendar name)"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +69,6 @@
       ]
     },
     "created": "2026-04-07T19:16:05Z",
-    "modified": "2026-07-30T15:20:15Z"
+    "modified": "2026-09-02T04:02:10Z"
   }
 }

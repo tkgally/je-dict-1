@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{騒音|そうおん} specifically refers to noise that is bothersome or disruptive.\n\nCOMMON COLLOCATIONS:\n- {騒音|そうおん}⟦{問題|もんだい}→問題：00797_mondai⟧ (noise problem)\n- {騒音|そうおん}⟦{規制|きせい}→規制：02598_kisei⟧ (noise regulation)\n- {騒音|そうおん}⟦{公害|こうがい}→公害：14944_kougai⟧ (noise pollution)\n- ⟦{交通|こうつう}→交通：01584_koutsuu⟧{騒音|そうおん} (traffic noise)\n- {騒音|そうおん}⟦を→を：00422_wo⟧⟦{立|た}てる→立てる：01196_tateru⟧ (to make noise)\n\nCOMPARISON:\n- {騒音|そうおん}: noise (bothersome, disruptive)\n- ⟦{音|おと}→音：00743_oto⟧: sound (neutral)\n- ⟦{物音|ものおと}→物音：03633_monooto⟧: sounds, noises (general sounds)",
+  "notes": "{騒音|そうおん} specifically refers to noise that is bothersome or disruptive.\n\nCOMMON COLLOCATIONS:\n- {騒音|そうおん}⟦{問題|もんだい}→問題：00797_mondai⟧ (noise problem)\n- {騒音|そうおん}⟦{規制|きせい}→規制：02598_kisei⟧ (noise regulation)\n- {騒音|そうおん}⟦{公害|こうがい}→公害：14944_kougai⟧ (noise pollution)\n- ⟦{交通|こうつう}→交通：01584_koutsuu⟧{騒音|そうおん} (traffic noise)\n- {騒音|そうおん}⟦を→を：00422_wo⟧⟦{立|た}てる→立てる：01196_tateru⟧ (to make noise)\n\nSIMILAR WORDS:\n- {騒音|そうおん}: noise (bothersome, disruptive)\n- ⟦{音|おと}→音：00743_oto⟧: sound (neutral)\n- ⟦{物音|ものおと}→物音：03633_monooto⟧: sounds, noises (general sounds)",
   "cross_references": [
     {
       "type": "contrast",
@@ -65,11 +65,46 @@
       "reading": "おと",
       "headword": "{音|おと}",
       "label": "sound (general)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03633_monooto",
+      "reading": "ものおと",
+      "headword": "{物音|ものおと}",
+      "label": "sounds, noises"
+    },
+    {
+      "type": "related",
+      "target_id": "09054_kensou",
+      "reading": "けんそう",
+      "headword": "{喧噪|けんそう}",
+      "label": "clamor"
+    },
+    {
+      "type": "related",
+      "target_id": "19505_otomore",
+      "reading": "おともれ",
+      "headword": "{音漏|おとも}れ",
+      "label": "sound leakage"
+    },
+    {
+      "type": "antonym",
+      "target_id": "21098_seion",
+      "reading": "せいおん",
+      "headword": "{静音|せいおん}",
+      "label": "silent operation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25906_daionkyou",
+      "reading": "だいおんきょう",
+      "headword": "{大|だい}{音響|おんきょう}",
+      "label": "loud sound"
     }
   ],
   "metadata": {
     "created": "2026-01-12T01:13:25Z",
-    "modified": "2026-08-13T03:20:24Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "schema_version": "2.0",
     "vocabulary_tier": "general",

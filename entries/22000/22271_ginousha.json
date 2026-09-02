@@ -15,40 +15,66 @@
   "examples": [
     {
       "id": "22271_ginousha_ex1",
-      "japanese": "{熟練|じゅくれん}した{技能者|ぎのうしゃ}が{不足|ふそく}している。",
+      "japanese": "⟦{熟練|じゅくれん}→熟練：09081_jukuren⟧⟦した→する：00392_suru⟧{技能者|ぎのうしゃ}⟦が→が：00051_ga⟧⟦{不足|ふそく}→不足：03598_fusoku⟧⟦している→する：00392_suru⟧。",
       "english": "There is a shortage of skilled workers.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "22271_ginousha_ex2",
-      "japanese": "{外国人|がいこくじん}{技能者|ぎのうしゃ}を{受|う}け{入|い}れる。",
+      "japanese": "⟦{外国人|がいこくじん}→外国人：02869_gaikokujin⟧{技能者|ぎのうしゃ}⟦を→を：00422_wo⟧⟦{受|う}け{入|い}れる→受け入れる：05755_ukeireru⟧。",
       "english": "To accept foreign skilled workers.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "22271_ginousha_ex3",
-      "japanese": "{技能者|ぎのうしゃ}の{育成|いくせい}は{日本|にほん}の{製造業|せいぞうぎょう}にとって{重要|じゅうよう}な{課題|かだい}だ。",
+      "japanese": "{技能者|ぎのうしゃ}⟦の→の：09472_no⟧⟦{育成|いくせい}→育成：13928_ikusei⟧⟦は→は：00079_ha⟧⟦{日本|にほん}→日本：03876_nihon⟧⟦の→の：09472_no⟧⟦{製造業|せいぞうぎょう}→製造業：14148_seizougyou⟧⟦にとって→にとって：06803_nitotte⟧⟦{重要|じゅうよう}→重要：01575_juuyou⟧な⟦{課題|かだい}→課題：00132_kadai⟧だ。",
       "english": "Training skilled workers is an important issue for Japan's manufacturing industry.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A formal term for someone with specialized hands-on skills. Frequently used in government policy, immigration, and labor contexts.\n\nCOMMON COLLOCATIONS:\n- {熟練|じゅくれん}{技能者|ぎのうしゃ}: skilled/experienced technician\n- {外国人|がいこくじん}{技能者|ぎのうしゃ}: foreign skilled worker\n- {技能者|ぎのうしゃ}の{育成|いくせい}: training of skilled workers\n- {技能者|ぎのうしゃ}{不足|ふそく}: shortage of skilled workers\n\nSIMILAR WORDS:\n- {技術者|ぎじゅつしゃ}: engineer, technologist — emphasizes theoretical/technical knowledge\n- {職人|しょくにん}: craftsman, artisan — emphasizes traditional craftsmanship\n- {技能者|ぎのうしゃ} emphasizes practical, hands-on skill rather than theoretical expertise\n\nCONTEXT:\nThe term appears frequently in discussions about Japan's {技能実習|ぎのうじっしゅう} (technical intern training) program, which brings foreign workers to Japan.",
+  "notes": "A formal term for someone with specialized hands-on skills. Frequently used in government policy, immigration, and labor contexts.\n\nCOMMON COLLOCATIONS:\n- ⟦{熟練|じゅくれん}→熟練：09081_jukuren⟧{技能者|ぎのうしゃ}: skilled/experienced technician\n- ⟦{外国人|がいこくじん}→外国人：02869_gaikokujin⟧{技能者|ぎのうしゃ}: foreign skilled worker\n- {技能者|ぎのうしゃ}⟦の→の：09472_no⟧⟦{育成|いくせい}→育成：13928_ikusei⟧: training of skilled workers\n- {技能者|ぎのうしゃ}⟦{不足|ふそく}→不足：03598_fusoku⟧: shortage of skilled workers\n\nSIMILAR WORDS:\n- ⟦{技術者|ぎじゅつしゃ}→技術者：17049_gijutsusha⟧: engineer, technologist — emphasizes theoretical/technical knowledge\n- ⟦{職人|しょくにん}→職人：09868_shokunin⟧: craftsman, artisan — emphasizes traditional craftsmanship\n- {技能者|ぎのうしゃ} emphasizes practical, hands-on skill rather than theoretical expertise\n\nUSAGE:\nThe term appears frequently in discussions about Japan's {技能実習|ぎのうじっしゅう} (technical intern training) program, which brings foreign workers to Japan.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17049_gijutsusha",
+      "reading": "ぎじゅつしゃ",
+      "headword": "{技術者|ぎじゅつしゃ}",
+      "label": "engineer, technologist"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09868_shokunin",
+      "reading": "しょくにん",
+      "headword": "{職人|しょくにん}",
+      "label": "craftsman, artisan"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["work"]
+      "semantic": [
+        "work"
+      ]
     },
     "created": "2026-04-05T16:33:00Z",
-    "modified": "2026-04-05T16:33:00Z"
+    "modified": "2026-09-02T04:02:07Z"
   }
 }

@@ -3,7 +3,7 @@
   "headword": "{屈辱的|くつじょくてき}",
   "reading": "くつじょくてき",
   "romaji": "kutsujokuteki",
-  "part_of_speech": "adjective-na",
+  "part_of_speech": "na-adjective",
   "gloss": "humiliating; degrading",
   "definitions": [
     {
@@ -15,41 +15,74 @@
   "examples": [
     {
       "id": "28647_kutsujokuteki_ex1",
-      "japanese": "{屈辱的|くつじょくてき}な{敗北|はいぼく}を{喫|きっ}した。",
+      "japanese": "{屈辱的|くつじょくてき}な⟦{敗北|はいぼく}→敗北：12872_haiboku⟧⟦を→を：00422_wo⟧⟦{喫|きっ}した→喫する：29124_kissuru⟧。",
       "english": "We suffered a humiliating defeat.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28647_kutsujokuteki_ex2",
-      "japanese": "{皆|みな}の{前|まえ}で{叱|しか}られて{屈辱的|くつじょくてき}だった。",
+      "japanese": "⟦{皆|みな}→皆：01810_mina⟧⟦の→の：09472_no⟧⟦{前|まえ}→前：02255_mae⟧⟦で→で：00502_de⟧⟦{叱|しか}られて→叱る：01202_shikaru⟧{屈辱的|くつじょくてき}だった。",
       "english": "Being scolded in front of everyone was humiliating.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28647_kutsujokuteki_ex3",
-      "japanese": "{屈辱的|くつじょくてき}な{条件|じょうけん}を{受|う}け{入|い}れるしかなかった。",
+      "japanese": "{屈辱的|くつじょくてき}な⟦{条件|じょうけん}→条件：03285_jouken⟧⟦を→を：00422_wo⟧⟦{受|う}け{入|い}れる→受け入れる：05755_ukeireru⟧しかなかった。",
       "english": "I had no choice but to accept humiliating conditions.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Compound of {屈辱|くつじょく} (humiliation) + suffix {的|てき} (-like; -al). Stronger than {恥|は}ずかしい (embarrassing) — implies that one's dignity has been actively trampled, not merely that one feels awkward.\n\nCOMMON COLLOCATIONS:\n- {屈辱的|くつじょくてき}な{敗北|はいぼく}: humiliating defeat\n- {屈辱的|くつじょくてき}な{扱|あつか}い: humiliating treatment\n- {屈辱的|くつじょくてき}な{条件|じょうけん}: humiliating conditions\n- {屈辱的|くつじょくてき}な{思|おも}い: a humiliating experience (lit. \"feelings\")\n\nSIMILAR WORDS:\n- {恥|は}ずかしい: embarrassing — milder; about personal feeling\n- みじめ: miserable; pathetic — about a wretched, pitiful state, not specifically about humiliation\n- {不名誉|ふめいよ}な: dishonorable — focuses on damage to reputation",
+  "notes": "Compound of ⟦{屈辱|くつじょく}→屈辱：04853_kutsujoku⟧ (humiliation) + suffix ⟦{的|てき}→〜的：09839_teki⟧ (-like; -al). Stronger than ⟦{恥|は}ずかしい→恥ずかしい：00843_hazukashii⟧ (embarrassing) — implies that one's dignity has been actively trampled, not merely that one feels awkward.\n\nCOMMON COLLOCATIONS:\n- {屈辱的|くつじょくてき}な⟦{敗北|はいぼく}→敗北：12872_haiboku⟧: humiliating defeat\n- {屈辱的|くつじょくてき}な⟦{扱|あつか}い→扱い：12777_atsukai⟧: humiliating treatment\n- {屈辱的|くつじょくてき}な⟦{条件|じょうけん}→条件：03285_jouken⟧: humiliating conditions\n- {屈辱的|くつじょくてき}な⟦{思|おも}い→思い：10248_omoi⟧: a humiliating experience (lit. \"feelings\")\n\nSIMILAR WORDS:\n- ⟦{恥|は}ずかしい→恥ずかしい：00843_hazukashii⟧: embarrassing — milder; about personal feeling\n- みじめ: miserable; pathetic — about a wretched, pitiful state, not specifically about humiliation\n- ⟦{不名誉|ふめいよ}→不名誉：18739_fumeiyo⟧な: dishonorable — focuses on damage to reputation",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00843_hazukashii",
+      "reading": "はずかしい",
+      "headword": "{恥|は}ずかしい",
+      "label": "embarrassing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04851_mijime",
+      "reading": "みじめ",
+      "headword": "{惨|みじ}め",
+      "label": "miserable"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18739_fumeiyo",
+      "reading": "ふめいよ",
+      "headword": "{不名誉|ふめいよ}",
+      "label": "dishonorable"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-na"],
+      "pos": [
+        "adjective-na"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["emotion"],
+      "politeness": "plain",
+      "semantic": [
+        "emotion"
+      ],
       "domain": []
     },
     "created": "2026-06-03T03:15:27Z",
-    "modified": "2026-06-03T03:15:27Z"
+    "modified": "2026-09-02T04:02:34Z"
   }
 }

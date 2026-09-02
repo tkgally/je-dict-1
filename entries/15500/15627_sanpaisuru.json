@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "15627_sanpaisuru_ex1",
-      "japanese": "{初詣|はつもうで}で{神社|じんじゃ}に{参拝|さんぱい}した。",
+      "japanese": "{初詣|はつもうで}で⟦{神社|じんじゃ}→神社：01620_jinja⟧⟦に→に：00314_ni⟧{参拝|さんぱい}した。",
       "english": "I visited the shrine for the New Year's first worship.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "15627_sanpaisuru_ex2",
-      "japanese": "{毎朝|まいあさ}{近|ちか}くの{寺|てら}に{参拝|さんぱい}するのが{日課|にっか}だ。",
+      "japanese": "⟦{毎朝|まいあさ}→毎朝：00966_maiasa⟧{近|ちか}く⟦の→の：09472_no⟧⟦{寺|てら}→寺：01676_tera⟧⟦に→に：00314_ni⟧{参拝|さんぱい}する⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦{日課|にっか}→日課：00317_nikka⟧だ。",
       "english": "It's my daily routine to visit the nearby temple every morning.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "15627_sanpaisuru_ex3",
-      "japanese": "{旅行|りょこう}で{京都|きょうと}を{訪|おとず}れ、{有名|ゆうめい}な{神社|じんじゃ}や{寺|てら}を{参拝|さんぱい}した。",
+      "japanese": "⟦{旅行|りょこう}→旅行：00748_ryokou⟧⟦で→で：00502_de⟧⟦{京都|きょうと}→京都：09484_kyouto⟧⟦を→を：00422_wo⟧⟦{訪|おとず}れ→訪れる：07678_otozureru⟧、⟦{有名|ゆうめい}→有名：01106_yuumei⟧な⟦{神社|じんじゃ}→神社：01620_jinja⟧や⟦{寺|てら}→寺：01676_tera⟧⟦を→を：00422_wo⟧{参拝|さんぱい}した。",
       "english": "I visited Kyoto on a trip and worshipped at famous shrines and temples.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,33 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{参拝|さんぱい}する is used for both Shinto shrines ({神社|じんじゃ}) and Buddhist temples ({寺|てら}). It implies a respectful, purposeful visit for worship or prayer, not merely sightseeing.\n\nCOMMON COLLOCATIONS:\n- {神社|じんじゃ}に{参拝|さんぱい}する (to worship at a shrine)\n- {寺|てら}に{参拝|さんぱい}する (to visit a temple for worship)\n- {参拝|さんぱい}{客|きゃく} (worshippers, visitors)\n- {参拝|さんぱい}{者|しゃ} (worshippers)\n\nSIMILAR WORDS:\n- お{参|まい}りする: to visit a shrine/temple (casual, everyday)\n- {礼拝|れいはい}する: to worship (more formal, also used for Christian worship)",
-  "cross_references": [],
+  "notes": "USAGE:\n{参拝|さんぱい}する is used for both Shinto shrines (⟦{神社|じんじゃ}→神社：01620_jinja⟧) and Buddhist temples (⟦{寺|てら}→寺：01676_tera⟧). It implies a respectful, purposeful visit for worship or prayer, not merely sightseeing.\n\nCOMMON COLLOCATIONS:\n- ⟦{神社|じんじゃ}→神社：01620_jinja⟧⟦に→に：00314_ni⟧{参拝|さんぱい}する (to worship at a shrine)\n- ⟦{寺|てら}→寺：01676_tera⟧⟦に→に：00314_ni⟧{参拝|さんぱい}する (to visit a temple for worship)\n- ⟦{参拝|さんぱい}→参拝：10634_sanpai⟧⟦{客|きゃく}→客：00865_kyaku⟧ (worshippers, visitors)\n- ⟦{参拝|さんぱい}{者|しゃ}→参拝者：21620_sanpaisha⟧ (worshippers)\n\nSIMILAR WORDS:\n- ⟦お{参|まい}り→お参り：16837_omairi⟧⟦する→する：00392_suru⟧: to visit a shrine/temple (casual, everyday)\n- ⟦{礼拝|れいはい}→礼拝：16972_reihai⟧⟦する→する：00392_suru⟧: to worship (more formal, also used for Christian worship)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16837_omairi",
+      "reading": "おまいり",
+      "headword": "お{参|まい}り",
+      "label": "to visit a shrine/temple"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16972_reihai",
+      "reading": "れいはい",
+      "headword": "{礼拝|れいはい}",
+      "label": "to worship"
+    },
+    {
+      "type": "related",
+      "target_id": "21620_sanpaisha",
+      "reading": "さんぱいしゃ",
+      "headword": "{参拝者|さんぱいしゃ}",
+      "label": "worshipper"
+    }
+  ],
   "metadata": {
     "created": "2026-03-07T13:43:42Z",
-    "modified": "2026-07-16T12:18:52Z",
+    "modified": "2026-09-02T04:01:41Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

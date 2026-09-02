@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "ログイン is a loanword from English \"login,\" used for accessing accounts on computers, websites, and apps. It functions as a noun and する verb.\n\nCOMMON PATTERNS:\n- ログイン⟦する→する：00392_suru⟧: to log in\n- ログイン⟦{画面|がめん}→画面：04406_gamen⟧: login screen\n- ログイン⟦{情報|じょうほう}→情報：03348_jouhou⟧: login credentials\n- ⟦{自動|じどう}→自動：03339_jidou⟧ログイン: automatic login\n- ログイン⟦{状態|じょうたい}→状態：03345_joutai⟧: logged-in state\n- ログイン⟦できない→できる：00557_dekiru⟧: unable to log in\n\nRELATED IT TERMS:\n- ⟦ログアウト→ログアウト：08795_roguauto⟧: logout (opposite)\n- ⟦サインイン→サインイン：23589_sainin⟧: sign in (alternative, often used by Microsoft)\n- ⟦パスワード→パスワード：05277_pasuwaado⟧: password\n- ⟦アカウント→アカウント：05103_akaunto⟧: account\n- ⟦{認証|にんしょう}→認証：05909_ninshou⟧: authentication\n\nNOTE:\nIn Japanese IT contexts, ログイン/⟦ログアウト→ログアウト：08795_roguauto⟧ is the most common pair. ⟦サインイン→サインイン：23589_sainin⟧/サインアウト is also used, especially on certain platforms.",
+  "notes": "ログイン is a loanword from English \"login,\" used for accessing accounts on computers, websites, and apps. It functions as a noun and ⟦する→する：00392_suru⟧ verb.\n\nCOMMON PATTERNS:\n- ログイン⟦する→する：00392_suru⟧: to log in\n- ログイン⟦{画面|がめん}→画面：04406_gamen⟧: login screen\n- ログイン⟦{情報|じょうほう}→情報：03348_jouhou⟧: login credentials\n- ⟦{自動|じどう}→自動：03339_jidou⟧ログイン: automatic login\n- ログイン⟦{状態|じょうたい}→状態：03345_joutai⟧: logged-in state\n- ログイン⟦できない→できる：00557_dekiru⟧: unable to log in\n\nRELATED IT TERMS:\n- ⟦ログアウト→ログアウト：08795_roguauto⟧: logout (opposite)\n- ⟦サインイン→サインイン：23589_sainin⟧: sign in (alternative, often used by Microsoft)\n- ⟦パスワード→パスワード：05277_pasuwaado⟧: password\n- ⟦アカウント→アカウント：05103_akaunto⟧: account\n- ⟦{認証|にんしょう}→認証：05909_ninshou⟧: authentication\n\nUSAGE:\nIn Japanese IT contexts, ログイン/⟦ログアウト→ログアウト：08795_roguauto⟧ is the most common pair. ⟦サインイン→サインイン：23589_sainin⟧/⟦サインアウト→サインアウト：24723_sainauto⟧ is also used, especially on certain platforms.",
   "cross_references": [
     {
       "type": "antonym",
@@ -155,11 +155,39 @@
       "reading": "あかうんと",
       "headword": "アカウント",
       "label": "account"
+    },
+    {
+      "type": "related",
+      "target_id": "23589_sainin",
+      "reading": "さいんいん",
+      "headword": "サインイン",
+      "label": "sign in"
+    },
+    {
+      "type": "related",
+      "target_id": "05909_ninshou",
+      "reading": "にんしょう",
+      "headword": "{認証|にんしょう}",
+      "label": "authentication"
+    },
+    {
+      "type": "related",
+      "target_id": "22815_kaiintouroku",
+      "reading": "かいいんとうろく",
+      "headword": "{会員登録|かいいんとうろく}",
+      "label": "membership registration"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24723_sainauto",
+      "reading": "さいんあうと",
+      "headword": "サインアウト",
+      "label": "sign out"
     }
   ],
   "metadata": {
     "created": "2026-01-16T05:20:28Z",
-    "modified": "2026-06-05T14:18:02Z",
+    "modified": "2026-09-02T04:01:06Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

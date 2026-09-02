@@ -15,41 +15,67 @@
   "examples": [
     {
       "id": "30044_yokakatsudou_ex1",
-      "japanese": "{余暇活動|よかかつどう}を{楽|たの}しむ。",
+      "japanese": "{余暇活動|よかかつどう}⟦を→を：00422_wo⟧⟦{楽|たの}しむ→楽しむ：01203_tanoshimu⟧。",
       "english": "Enjoy leisure activities.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "30044_yokakatsudou_ex2",
-      "japanese": "{退職|たいしょく}{後|ご}の{余暇活動|よかかつどう}を{考|かんが}える。",
+      "japanese": "⟦{退職|たいしょく}→退職：04559_taishoku⟧⟦{後|ご}→後：30157_go⟧⟦の→の：09472_no⟧{余暇活動|よかかつどう}⟦を→を：00422_wo⟧⟦{考|かんが}える→考える：00856_kangaeru⟧。",
       "english": "Think about leisure activities after retirement.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "30044_yokakatsudou_ex3",
-      "japanese": "{読書|どくしょ}や{園芸|えんげい}など、{様々|さまざま}な{余暇活動|よかかつどう}に{時間|じかん}を{使|つか}う。",
+      "japanese": "⟦{読書|どくしょ}→読書：03484_dokusho⟧や⟦{園芸|えんげい}→園芸：04105_engei⟧⟦など→〜など：03095_nado⟧、⟦{様々|さまざま}→様々：01559_samazama⟧な{余暇活動|よかかつどう}⟦に→に：00314_ni⟧⟦{時間|じかん}→時間：00468_jikan⟧⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧。",
       "english": "I spend time on various leisure activities such as reading and gardening.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Formed from {余暇|よか} (free time, leisure) + {活動|かつどう} (activity).\n\nCOMMON COLLOCATIONS:\n- {余暇活動|よかかつどう}を{楽|たの}しむ: to enjoy leisure activities\n- {余暇活動|よかかつどう}の{充実|じゅうじつ}: enriching one's leisure\n\nSIMILAR WORDS:\n- {趣味|しゅみ}: hobby — a specific pastime, narrower than the broad {余暇活動|よかかつどう}\n- レジャー: leisure — a loanword, often implying outings and recreation",
+  "notes": "Formed from ⟦{余暇|よか}→余暇：15194_yoka⟧ (free time, leisure) + ⟦{活動|かつどう}→活動：00201_katsudou⟧ (activity).\n\nCOMMON COLLOCATIONS:\n- {余暇活動|よかかつどう}⟦を→を：00422_wo⟧⟦{楽|たの}しむ→楽しむ：01203_tanoshimu⟧: to enjoy leisure activities\n- {余暇活動|よかかつどう}⟦の→の：09472_no⟧⟦{充実|じゅうじつ}→充実：04845_juujitsu⟧: enriching one's leisure\n\nSIMILAR WORDS:\n- ⟦{趣味|しゅみ}→趣味：00889_shumi⟧: hobby — a specific pastime, narrower than the broad {余暇活動|よかかつどう}\n- ⟦レジャー→レジャー：11200_rejaa⟧: leisure — a loanword, often implying outings and recreation",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00889_shumi",
+      "reading": "しゅみ",
+      "headword": "{趣味|しゅみ}",
+      "label": "hobby"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11200_rejaa",
+      "reading": "れじゃー",
+      "headword": "レジャー",
+      "label": "leisure"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["leisure"],
+      "politeness": "plain",
+      "semantic": [
+        "leisure"
+      ],
       "domain": []
     },
     "created": "2026-07-22T12:20:02Z",
-    "modified": "2026-07-22T12:20:02Z"
+    "modified": "2026-09-02T04:02:38Z"
   }
 }

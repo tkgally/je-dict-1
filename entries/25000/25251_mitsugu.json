@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25251_mitsugu_ex1",
-      "japanese": "{彼女|かのじょ}に{貢|みつ}いでいる。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦に→に：00314_ni⟧{貢|みつ}いで⟦いる→いる：00495_iru⟧。",
       "english": "He's spending lavishly on his girlfriend.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25251_mitsugu_ex2",
-      "japanese": "ホストに{貢|みつ}ぐ{女性|じょせい}もいる。",
+      "japanese": "⟦ホスト→ホスト：25722_hosuto⟧⟦に→に：00314_ni⟧{貢|みつ}ぐ⟦{女性|じょせい}→女性：01617_josei⟧⟦も→も：00484_mo⟧⟦いる→いる：00495_iru⟧。",
       "english": "Some women lavish money on host club workers.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25251_mitsugu_ex3",
-      "japanese": "{好|す}きな{人|ひと}に{貢|みつ}ぎすぎて{貯金|ちょきん}がなくなった。",
+      "japanese": "⟦{好|す}き→好き：02355_suki⟧な⟦{人|ひと}→人：00476_hito⟧⟦に→に：00314_ni⟧{貢|みつ}ぎすぎて⟦{貯金|ちょきん}→貯金：03497_chokin⟧⟦が→が：00051_ga⟧なくなった。",
       "english": "I spent so much on the person I liked that I ran out of savings.",
       "sense_numbers": [
         1
@@ -45,7 +45,7 @@
     },
     {
       "id": "25251_mitsugu_ex4",
-      "japanese": "{友人|ゆうじん}は{推|お}しのアイドルに{何百万|なんびゃくまん}も{貢|みつ}いでいる。",
+      "japanese": "⟦{友人|ゆうじん}→友人：03649_yuujin⟧⟦は→は：00079_ha⟧⟦{推|お}し→推す：12798_osu⟧⟦の→の：09472_no⟧⟦アイドル→アイドル：05111_aidoru⟧⟦に→に：00314_ni⟧{何百万|なんびゃくまん}⟦も→も：00484_mo⟧{貢|みつ}いで⟦いる→いる：00495_iru⟧。",
       "english": "My friend has spent millions of yen on their favorite idol.",
       "sense_numbers": [
         1
@@ -54,22 +54,41 @@
       "notes": null
     }
   ],
-  "notes": "Originally meant to offer tribute or pay taxes to a lord. In modern Japanese, the meaning has shifted to describe lavishing money or gifts on someone, almost always in the context of a one-sided romantic or parasocial relationship.\n\nCOMMON COLLOCATIONS:\n- {彼女|かのじょ}に{貢|みつ}ぐ: to lavish gifts on one's girlfriend\n- ホストに{貢|みつ}ぐ: to spend lavishly at a host club\n- {推|お}しに{貢|みつ}ぐ: to spend money supporting one's favorite celebrity\n- {貢|みつ}ぎすぎる: to overspend on someone\n\nCULTURAL CONTEXT:\nThe word appears frequently in discussions about the \"host/hostess club\" industry and idol fan culture, where fans spend large sums to support their favorites. The derived noun {貢|みつ}ぎ{物|もの} means tribute or a gift given to someone of higher status.\n\nSIMILAR WORDS:\n- おごる: to treat someone to a meal or drink; a normal social act without the negative connotation of {貢|みつ}ぐ\n- {養|やしな}う: to support or provide for someone (e.g., a family); implies a legitimate responsibility",
+  "notes": "Originally meant to offer tribute or pay taxes to a lord. In modern Japanese, the meaning has shifted to describe lavishing money or gifts on someone, almost always in the context of a one-sided romantic or parasocial relationship.\n\nCOMMON COLLOCATIONS:\n- ⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦に→に：00314_ni⟧{貢|みつ}ぐ: to lavish gifts on one's girlfriend\n- ⟦ホスト→ホスト：25722_hosuto⟧⟦に→に：00314_ni⟧{貢|みつ}ぐ: to spend lavishly at a host club\n- ⟦{推|お}し→推す：12798_osu⟧⟦に→に：00314_ni⟧{貢|みつ}ぐ: to spend money supporting one's favorite celebrity\n- {貢|みつ}ぎすぎる: to overspend on someone\n\nCULTURAL NOTE:\nThe word appears frequently in discussions about the \"host/hostess club\" industry and idol fan culture, where fans spend large sums to support their favorites. The derived noun {貢|みつ}ぎ{物|もの} means tribute or a gift given to someone of higher status.\n\nSIMILAR WORDS:\n- ⟦おごる→おごる：08157_ogoru⟧: to treat someone to a meal or drink; a normal social act without the negative connotation of {貢|みつ}ぐ\n- ⟦{養|やしな}う→養う：04478_yashinau⟧: to support or provide for someone (e.g., a family); implies a legitimate responsibility",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08157_ogoru",
+      "reading": "おごる",
+      "headword": "おごる",
+      "label": "to treat someone to a meal or drink"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04478_yashinau",
+      "reading": "やしなう",
+      "headword": "{養|やしな}う",
+      "label": "to support or provide for someone"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "verb-godan"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "money",
         "society"
       ],
-      "verb_class": "godan-gu"
+      "verb_class": "godan-gu",
+      "transitivity": "transitive"
     },
     "created": "2026-04-24T12:11:46Z",
-    "modified": "2026-08-04T12:59:53Z"
+    "modified": "2026-09-02T04:02:21Z"
   },
   "conjugation": {
     "type": "godan",

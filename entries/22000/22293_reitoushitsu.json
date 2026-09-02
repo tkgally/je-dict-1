@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22293_reitoushitsu_ex1",
-      "japanese": "{冷凍室|れいとうしつ}に{入|い}れておいて。",
+      "japanese": "{冷凍室|れいとうしつ}⟦に→に：00314_ni⟧⟦{入|い}れて→入れる：01098_ireru⟧おいて。",
       "english": "Put it in the freezer.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22293_reitoushitsu_ex2",
-      "japanese": "{冷凍室|れいとうしつ}がいっぱいになった。",
+      "japanese": "{冷凍室|れいとうしつ}⟦が→が：00051_ga⟧いっぱいになった。",
       "english": "The freezer is full.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22293_reitoushitsu_ex3",
-      "japanese": "{肉|にく}を{冷凍室|れいとうしつ}から{出|だ}して{解凍|かいとう}してください。",
+      "japanese": "⟦{肉|にく}→肉：02240_niku⟧⟦を→を：00422_wo⟧{冷凍室|れいとうしつ}⟦から→から：00504_kara⟧⟦{出|だ}して→出す：01087_dasu⟧⟦{解凍|かいとう}→解凍：19085_kaitou⟧⟦して→する：00392_suru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please take the meat out of the freezer and defrost it.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {冷凍|れいとう} (freezing) and {室|しつ} (room, compartment). Refers to either the freezer section of a household refrigerator or a commercial/industrial freezer room.\n\nCOMMON COLLOCATIONS:\n- {冷凍室|れいとうしつ}に{入|い}れる: to put in the freezer\n- {冷凍室|れいとうしつ}から{出|だ}す: to take out of the freezer\n- {冷凍室|れいとうしつ}の{温度|おんど}: freezer temperature\n- {冷凍室|れいとうしつ}の{整理|せいり}: organizing the freezer\n\nSIMILAR WORDS:\n- {冷凍庫|れいとうこ}: freezer — essentially the same meaning; {冷凍庫|れいとうこ} is more common in everyday speech for standalone freezers\n- {冷蔵室|れいぞうしつ}: refrigerator compartment — the chilled (not frozen) section of a fridge\n- {冷蔵庫|れいぞうこ}: refrigerator — the entire appliance including both fridge and freezer sections",
+  "notes": "Compound of ⟦{冷凍|れいとう}→冷凍：11730_reitou⟧ (freezing) and ⟦{室|しつ}→室：09946_shitsu⟧ (room, compartment). Refers to either the freezer section of a household refrigerator or a commercial/industrial freezer room.\n\nCOMMON COLLOCATIONS:\n- {冷凍室|れいとうしつ}⟦に→に：00314_ni⟧⟦{入|い}れる→入れる：01098_ireru⟧: to put in the freezer\n- {冷凍室|れいとうしつ}⟦から→から：00504_kara⟧⟦{出|だ}す→出す：01087_dasu⟧: to take out of the freezer\n- {冷凍室|れいとうしつ}⟦の→の：09472_no⟧⟦{温度|おんど}→温度：00333_ondo⟧: freezer temperature\n- {冷凍室|れいとうしつ}⟦の→の：09472_no⟧⟦{整理|せいり}→整理：03297_seiri⟧: organizing the freezer\n\nSIMILAR WORDS:\n- ⟦{冷凍庫|れいとうこ}→冷凍庫：14721_reitouko⟧: freezer — essentially the same meaning; ⟦{冷凍庫|れいとうこ}→冷凍庫：14721_reitouko⟧ is more common in everyday speech for standalone freezers\n- {冷蔵室|れいぞうしつ}: refrigerator compartment — the chilled (not frozen) section of a fridge\n- ⟦{冷蔵庫|れいぞうこ}→冷蔵庫：01046_reizouko⟧: refrigerator — the entire appliance including both fridge and freezer sections",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14721_reitouko",
+      "reading": "れいとうこ",
+      "headword": "{冷凍庫|れいとうこ}",
+      "label": "freezer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01046_reizouko",
+      "reading": "れいぞうこ",
+      "headword": "{冷蔵庫|れいぞうこ}",
+      "label": "refrigerator"
+    },
+    {
+      "type": "related",
+      "target_id": "27549_yasaishitsu",
+      "reading": "やさいしつ",
+      "headword": "{野菜室|やさいしつ}",
+      "label": "vegetable compartment (in a refrigerator)"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +83,6 @@
       ]
     },
     "created": "2026-04-05T17:03:27Z",
-    "modified": "2026-04-10T08:28:27Z"
+    "modified": "2026-09-02T04:02:07Z"
   }
 }

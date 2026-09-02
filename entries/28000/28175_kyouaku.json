@@ -3,7 +3,7 @@
   "headword": "{凶悪|きょうあく}",
   "reading": "きょうあく",
   "romaji": "kyouaku",
-  "part_of_speech": "adjective-na",
+  "part_of_speech": "na-adjective",
   "gloss": "atrocious; heinous; vicious",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28175_kyouaku_ex1",
-      "japanese": "その{犯罪|はんざい}は{凶悪|きょうあく}だ。",
+      "japanese": "⟦その→その：00993_sono⟧⟦{犯罪|はんざい}→犯罪：03569_hanzai⟧⟦は→は：00079_ha⟧{凶悪|きょうあく}だ。",
       "english": "That crime is heinous.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28175_kyouaku_ex2",
-      "japanese": "{凶悪|きょうあく}な{事件|じけん}が{続|つづ}いている。",
+      "japanese": "{凶悪|きょうあく}な⟦{事件|じけん}→事件：01568_jiken⟧⟦が→が：00051_ga⟧⟦{続|つづ}いている→続く：00903_tsuzuku⟧。",
       "english": "Heinous incidents have been continuing.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28175_kyouaku_ex3",
-      "japanese": "{凶悪|きょうあく}な{犯人|はんにん}がついに{警察|けいさつ}に{逮捕|たいほ}された。",
+      "japanese": "{凶悪|きょうあく}な⟦{犯人|はんにん}→犯人：03572_hannin⟧⟦が→が：00051_ga⟧ついに⟦{警察|けいさつ}→警察：01393_keisatsu⟧⟦に→に：00314_ni⟧⟦{逮捕|たいほ}→逮捕：03397_taiho⟧⟦された→する：00392_suru⟧。",
       "english": "The vicious criminal was finally arrested by the police.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "A na-adjective used almost exclusively for serious, violent wrongdoing. It typically modifies nouns such as crime, criminal, or incident.\n\nCOMMON COLLOCATIONS:\n- {凶悪|きょうあく}{犯罪|はんざい}: violent crime\n- {凶悪|きょうあく}{犯|はん}: vicious criminal\n- {凶悪|きょうあく}{事件|じけん}: heinous incident\n\nCONJUGATION:\n- Negative: {凶悪|きょうあく}ではない\n- Te-form: {凶悪|きょうあく}で\n- Past: {凶悪|きょうあく}だった\n\nSIMILAR WORDS:\n- {残酷|ざんこく}: cruel — emphasizes mercilessness; broader, not limited to crime\n- {悪質|あくしつ}: malicious — emphasizes bad intent; used for fraud and dishonest acts",
+  "notes": "A na-adjective used almost exclusively for serious, violent wrongdoing. It typically modifies nouns such as crime, criminal, or incident.\n\nCOMMON COLLOCATIONS:\n- {凶悪|きょうあく}⟦{犯罪|はんざい}→犯罪：03569_hanzai⟧: violent crime\n- {凶悪|きょうあく}{犯|はん}: vicious criminal\n- {凶悪|きょうあく}⟦{事件|じけん}→事件：01568_jiken⟧: heinous incident\n\nCONJUGATION:\n- Negative: {凶悪|きょうあく}で⟦は→は：00079_ha⟧⟦ない→ない：01118_nai⟧\n- Te-form: {凶悪|きょうあく}で\n- Past: {凶悪|きょうあく}だった\n\nSIMILAR WORDS:\n- ⟦{残酷|ざんこく}→残酷：13201_zankoku⟧: cruel — emphasizes mercilessness; broader, not limited to crime\n- ⟦{悪質|あくしつ}→悪質：20553_akushitsu⟧: malicious — emphasizes bad intent; used for fraud and dishonest acts",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13201_zankoku",
+      "reading": "ざんこく",
+      "headword": "{残酷|ざんこく}",
+      "label": "cruel"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20553_akushitsu",
+      "reading": "あくしつ",
+      "headword": "{悪質|あくしつ}",
+      "label": "malicious"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13214_gokuaku",
+      "reading": "ごくあく",
+      "headword": "{極悪|ごくあく}",
+      "label": "heinous, extremely wicked, atrocious"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +83,6 @@
       "domain": []
     },
     "created": "2026-05-27T02:07:43Z",
-    "modified": "2026-05-27T02:07:43Z"
+    "modified": "2026-09-02T04:02:32Z"
   }
 }

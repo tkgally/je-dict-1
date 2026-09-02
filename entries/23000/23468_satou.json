@@ -15,40 +15,74 @@
   "examples": [
     {
       "id": "23468_satou_ex1",
-      "japanese": "{父|ちち}は{根|ね}っからの{左党|さとう}だ。",
+      "japanese": "⟦{父|ちち}→父：00566_chichi⟧⟦は→は：00079_ha⟧⟦{根|ね}→根：03525_ne⟧っから⟦の→の：09472_no⟧{左党|さとう}だ。",
       "english": "My father is a drinker through and through.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "23468_satou_ex2",
-      "japanese": "デザートより{酒|さけ}が{好|す}きな{左党|さとう}の{人|ひと}も{多|おお}い。",
+      "japanese": "⟦デザート→デザート：00036_dezaato⟧⟦より→より：09476_yori⟧⟦{酒|さけ}→酒：02211_sake⟧⟦が→が：00051_ga⟧⟦{好|す}き→好き：02355_suki⟧な{左党|さとう}⟦の→の：09472_no⟧⟦{人|ひと}→人：00476_hito⟧⟦も→も：00484_mo⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "There are many drinkers who prefer alcohol over dessert.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "23468_satou_ex3",
-      "japanese": "{左党|さとう}の{彼|かれ}にケーキを{贈|おく}っても{喜|よろこ}ばれないだろう。",
+      "japanese": "{左党|さとう}⟦の→の：09472_no⟧⟦{彼|かれ}→彼：01292_kare⟧⟦に→に：00314_ni⟧⟦ケーキ→ケーキ：01356_keeki⟧⟦を→を：00422_wo⟧⟦{贈|おく}って→贈る：09862_okuru⟧⟦も→も：00484_mo⟧⟦{喜|よろこ}ばれない→喜ぶ：01169_yorokobu⟧だろう。",
       "english": "Giving cake to him, a confirmed drinker, probably won't make him happy.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Literally 'left party' ({左|さ} = left, {党|とう} = party, group). The origin is debated, but one popular explanation relates to how a sake cup is held — using the left hand — while rice is eaten with the right hand held with chopsticks. Thus a person of the 'left party' favors sake.\n\nCOMMON COLLOCATIONS:\n- {根|ね}っからの{左党|さとう}: a drinker through and through\n- {左党|さとう}の{人|ひと}: a person who loves alcohol\n- {左党|さとう}には{嬉|うれ}しい: pleasing to a drinker\n\nSIMILAR WORDS:\n- {甘党|あまとう}: person with a sweet tooth — the counterpart of {左党|さとう}; a person who prefers sweets over alcohol\n- {酒好|さけず}き: sake lover — a more straightforward and common term for someone who likes drinking\n- {飲兵衛|のんべえ}: heavy drinker — more informal and slightly pejorative; implies drinking too much\n\nNOTE:\nThis word is a homophone of {砂糖|さとう} (sugar) and the surname {佐藤|さとう}. The kanji make the meaning clear in writing. The word has a slightly old-fashioned or literary flavor and is more commonly encountered in written descriptions than in everyday conversation.",
+  "notes": "Literally 'left party' ({左|さ} = left, {党|とう} = party, group). The origin is debated, but one popular explanation relates to how a sake cup is held — using the left hand — while rice is eaten with the right hand held with chopsticks. Thus a person of the 'left party' favors sake.\n\nCOMMON COLLOCATIONS:\n- ⟦{根|ね}→根：03525_ne⟧っから⟦の→の：09472_no⟧{左党|さとう}: a drinker through and through\n- {左党|さとう}⟦の→の：09472_no⟧⟦{人|ひと}→人：00476_hito⟧: a person who loves alcohol\n- {左党|さとう}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{嬉|うれ}しい→嬉しい：00822_ureshii⟧: pleasing to a drinker\n\nSIMILAR WORDS:\n- ⟦{甘党|あまとう}→甘党：08339_amatou⟧: person with a sweet tooth — the counterpart of {左党|さとう}; a person who prefers sweets over alcohol\n- ⟦{酒好|さけず}き→酒好き：23176_sakezuki⟧: sake lover — a more straightforward and common term for someone who likes drinking\n- {飲兵衛|のんべえ}: heavy drinker — more informal and slightly pejorative; implies drinking too much\n\nUSAGE:\nThis word is a homophone of ⟦{砂糖|さとう}→砂糖：00884_satou⟧ (sugar) and the surname ⟦{佐藤|さとう}→佐藤：27597_satou⟧. The kanji make the meaning clear in writing. The word has a slightly old-fashioned or literary flavor and is more commonly encountered in written descriptions than in everyday conversation.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08339_amatou",
+      "reading": "あまとう",
+      "headword": "{甘党|あまとう}",
+      "label": "person with a sweet tooth"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23176_sakezuki",
+      "reading": "さけずき",
+      "headword": "{酒好|さけず}き",
+      "label": "sake lover"
+    },
+    {
+      "type": "antonym",
+      "target_id": "26473_utou",
+      "reading": "うとう",
+      "headword": "{右党|うとう}",
+      "label": "tea drinker"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food", "personality"]
+      "semantic": [
+        "food",
+        "personality"
+      ]
     },
     "created": "2026-04-12T07:45:37Z",
-    "modified": "2026-04-12T07:45:37Z"
+    "modified": "2026-09-02T04:02:13Z"
   }
 }

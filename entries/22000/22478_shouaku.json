@@ -3,7 +3,7 @@
   "headword": "{掌握|しょうあく}",
   "reading": "しょうあく",
   "romaji": "shouaku",
-  "part_of_speech": "noun (verbal)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "to grasp; to seize control of; to have in one's grip",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22478_shouaku_ex1",
-      "japanese": "{権力|けんりょく}を{掌握|しょうあく}する。",
+      "japanese": "⟦{権力|けんりょく}→権力：10020_kenryoku⟧⟦を→を：00422_wo⟧{掌握|しょうあく}⟦する→する：00392_suru⟧。",
       "english": "To seize power.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22478_shouaku_ex2",
-      "japanese": "{彼|かれ}は{組織|そしき}を{完全|かんぜん}に{掌握|しょうあく}している。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{組織|そしき}→組織：03320_soshiki⟧⟦を→を：00422_wo⟧⟦{完全|かんぜん}→完全：01552_kanzen⟧⟦に→に：00314_ni⟧{掌握|しょうあく}⟦している→する：00392_suru⟧。",
       "english": "He has the organization completely under his control.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22478_shouaku_ex3",
-      "japanese": "{新|あたら}しいリーダーが{実権|じっけん}を{掌握|しょうあく}するまでに{時間|じかん}がかかった。",
+      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦リーダー→リーダー：24312_riidaa⟧⟦が→が：00051_ga⟧{実権|じっけん}⟦を→を：00422_wo⟧{掌握|しょうあく}⟦する→する：00392_suru⟧⟦まで→まで：00490_made⟧⟦に→に：00314_ni⟧⟦{時間|じかん}→時間：00468_jikan⟧⟦が→が：00051_ga⟧⟦かかった→かかる：00711_kakaru⟧。",
       "english": "It took time for the new leader to seize real power.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Literally means \"to hold in the palm of one's hand\" ({掌|てのひら} = palm, {握|にぎ}る = to grip). Used in formal and written contexts to describe gaining or maintaining control, especially over organizations, power, or situations.\n\nCOMMON COLLOCATIONS:\n- {権力|けんりょく}を{掌握|しょうあく}する: to seize power\n- {実権|じっけん}を{掌握|しょうあく}する: to seize real authority\n- {主導権|しゅどうけん}を{掌握|しょうあく}する: to take the initiative\n- {状況|じょうきょう}を{掌握|しょうあく}する: to grasp the situation\n\nSIMILAR WORDS:\n- {把握|はあく}: grasp, comprehension — more commonly used for understanding situations or information, less about political control\n- {支配|しはい}: rule, domination — emphasizes governing or controlling others rather than seizing control",
+  "notes": "Literally means \"to hold in the palm of one's hand\" ({掌|てのひら} = palm, ⟦{握|にぎ}る→握る：02383_nigiru⟧ = to grip). Used in formal and written contexts to describe gaining or maintaining control, especially over organizations, power, or situations.\n\nCOMMON COLLOCATIONS:\n- ⟦{権力|けんりょく}→権力：10020_kenryoku⟧⟦を→を：00422_wo⟧{掌握|しょうあく}⟦する→する：00392_suru⟧: to seize power\n- {実権|じっけん}⟦を→を：00422_wo⟧{掌握|しょうあく}⟦する→する：00392_suru⟧: to seize real authority\n- ⟦{主導権|しゅどうけん}→主導権：11451_shudouken⟧⟦を→を：00422_wo⟧{掌握|しょうあく}⟦する→する：00392_suru⟧: to take the initiative\n- ⟦{状況|じょうきょう}→状況：01576_joukyou⟧⟦を→を：00422_wo⟧{掌握|しょうあく}⟦する→する：00392_suru⟧: to grasp the situation\n\nSIMILAR WORDS:\n- ⟦{把握|はあく}→把握：05625_haaku⟧: grasp, comprehension — more commonly used for understanding situations or information, less about political control\n- ⟦{支配|しはい}→支配：01421_shihai⟧: rule, domination — emphasizes governing or controlling others rather than seizing control",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05625_haaku",
+      "reading": "はあく",
+      "headword": "{把握|はあく}",
+      "label": "grasp, comprehension"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01421_shihai",
+      "reading": "しはい",
+      "headword": "{支配|しはい}",
+      "label": "rule, domination"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -58,10 +74,11 @@
       ],
       "formality": "formal",
       "politeness": "plain",
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-04-06T14:20:58Z",
-    "modified": "2026-08-01T06:42:57Z"
+    "modified": "2026-09-02T04:02:08Z"
   },
   "conjugation": {
     "type": "suru",

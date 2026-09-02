@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "13104_sakaeru_ex1",
-      "japanese": "この{町|まち}は{商業|しょうぎょう}で{栄|さか}えた。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{町|まち}→町：00613_machi⟧⟦は→は：00079_ha⟧⟦{商業|しょうぎょう}→商業：09940_shougyou⟧⟦で→で：00502_de⟧{栄|さか}えた。",
       "english": "This town prospered through commerce.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "13104_sakaeru_ex2",
-      "japanese": "{文化|ぶんか}が{栄|さか}えた{時代|じだい}だった。",
+      "japanese": "⟦{文化|ぶんか}→文化：01504_bunka⟧⟦が→が：00051_ga⟧{栄|さか}えた⟦{時代|じだい}→時代：01424_jidai⟧だった。",
       "english": "It was an era when culture flourished.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "13104_sakaeru_ex3",
-      "japanese": "かつて{貿易|ぼうえき}で{栄|さか}えたこの{港町|みなとまち}も、{今|いま}は{静|しず}かになった。",
+      "japanese": "⟦かつて→かつて：10303_katsute⟧⟦{貿易|ぼうえき}→貿易：01727_boueki⟧⟦で→で：00502_de⟧{栄|さか}えた⟦この→この：00962_kono⟧⟦{港町|みなとまち}→港町：14845_minatomachi⟧⟦も→も：00484_mo⟧、⟦{今|いま}→今：00945_ima⟧⟦は→は：00079_ha⟧⟦{静|しず}か→静か：00755_shizuka⟧になった。",
       "english": "This port town, which once thrived on trade, has now become quiet.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "Ichidan verb ({一段動詞|いちだんどうし}).\n- Negative: {栄|さか}えない\n- Polite: {栄|さか}えます\n- Te-form: {栄|さか}えて\n- Past: {栄|さか}えた\n\nCOMMON COLLOCATIONS:\n- {商業|しょうぎょう}で{栄|さか}える: to prosper through commerce\n- {貿易|ぼうえき}で{栄|さか}える: to thrive on trade\n- {文化|ぶんか}が{栄|さか}える: culture flourishes\n\nRELATED FORMS:\n{栄|さか}え (noun form): prosperity, glory. The kanji {栄|さか} also appears in {栄光|えいこう} (glory) and {栄養|えいよう} (nutrition).",
+  "notes": "Ichidan verb ({一段動詞|いちだんどうし}).\n- Negative: {栄|さか}えない\n- Polite: {栄|さか}えます\n- Te-form: {栄|さか}えて\n- Past: {栄|さか}えた\n\nCOMMON COLLOCATIONS:\n- ⟦{商業|しょうぎょう}→商業：09940_shougyou⟧⟦で→で：00502_de⟧{栄|さか}える: to prosper through commerce\n- ⟦{貿易|ぼうえき}→貿易：01727_boueki⟧⟦で→で：00502_de⟧{栄|さか}える: to thrive on trade\n- ⟦{文化|ぶんか}→文化：01504_bunka⟧⟦が→が：00051_ga⟧{栄|さか}える: culture flourishes\n\nFORMS:\n{栄|さか}え (noun form): prosperity, glory. The kanji {栄|さか} also appears in ⟦{栄光|えいこう}→栄光：20495_eikou⟧ (glory) and ⟦{栄養|えいよう}→栄養：01882_eiyou⟧ (nutrition).",
   "cross_references": [
     {
       "type": "synonym",
@@ -149,11 +149,18 @@
       "reading": "おとろえる",
       "headword": "{衰|おとろ}える",
       "label": "to decline"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19547_hanjousuru",
+      "reading": "はんじょうする",
+      "headword": "{繁盛|はんじょう}する",
+      "label": "to prosper"
     }
   ],
   "metadata": {
     "created": "2026-02-23T11:16:43Z",
-    "modified": "2026-04-28T05:17:26Z",
+    "modified": "2026-09-02T04:01:31Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

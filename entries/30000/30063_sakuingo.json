@@ -15,41 +15,67 @@
   "examples": [
     {
       "id": "30063_sakuingo_ex1",
-      "japanese": "{索引語|さくいんご}を{選|えら}ぶ。",
+      "japanese": "{索引語|さくいんご}⟦を→を：00422_wo⟧⟦{選|えら}ぶ→選ぶ：00835_erabu⟧。",
       "english": "Choose index terms.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "30063_sakuingo_ex2",
-      "japanese": "{論文|ろんぶん}に{索引語|さくいんご}をつける。",
+      "japanese": "⟦{論文|ろんぶん}→論文：03787_ronbun⟧⟦に→に：00314_ni⟧{索引語|さくいんご}⟦を→を：00422_wo⟧⟦つける→つける：00562_tsukeru⟧。",
       "english": "Attach index terms to a paper.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "30063_sakuingo_ex3",
-      "japanese": "{適切|てきせつ}な{索引語|さくいんご}をつけると、{文献|ぶんけん}が{検索|けんさく}しやすくなる。",
+      "japanese": "⟦{適切|てきせつ}→適切：01621_tekisetsu⟧な{索引語|さくいんご}⟦を→を：00422_wo⟧⟦つける→つける：00562_tsukeru⟧⟦と→と：00512_to⟧、⟦{文献|ぶんけん}→文献：12885_bunken⟧⟦が→が：00051_ga⟧⟦{検索|けんさく}→検索：04729_kensaku⟧しやすく⟦なる→なる：01970_naru⟧。",
       "english": "Assigning appropriate index terms makes documents easier to search.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Combines {索引|さくいん} (index) with {語|ご} (word, term). A term used to index or retrieve a document, in publishing and information science.\n\nCOMMON COLLOCATIONS:\n- {索引語|さくいんご}をつける: to assign index terms\n- {索引語|さくいんご}の{選定|せんてい}: selection of index terms\n\nSIMILAR WORDS:\n- キーワード: keyword — the everyday, broader term\n- {見出|みだ}し{語|ご}: headword — the word that heads a dictionary or index entry",
+  "notes": "Combines ⟦{索引|さくいん}→索引：04168_sakuin⟧ (index) with ⟦{語|ご}→〜語：09841_go⟧ (word, term). A term used to index or retrieve a document, in publishing and information science.\n\nCOMMON COLLOCATIONS:\n- {索引語|さくいんご}⟦を→を：00422_wo⟧⟦つける→つける：00562_tsukeru⟧: to assign index terms\n- {索引語|さくいんご}⟦の→の：09472_no⟧⟦{選定|せんてい}→選定：14452_sentei⟧: selection of index terms\n\nSIMILAR WORDS:\n- ⟦キーワード→キーワード：10832_kiiwaado⟧: keyword — the everyday, broader term\n- ⟦{見出|みだ}し{語|ご}→見出し語：24989_midashigo⟧: headword — the word that heads a dictionary or index entry",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "10832_kiiwaado",
+      "reading": "きーわーど",
+      "headword": "キーワード",
+      "label": "keyword"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24989_midashigo",
+      "reading": "みだしご",
+      "headword": "{見出|みだ}し{語|ご}",
+      "label": "headword"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["language"],
+      "politeness": "plain",
+      "semantic": [
+        "language"
+      ],
       "domain": []
     },
     "created": "2026-07-23T00:19:28Z",
-    "modified": "2026-07-23T00:19:28Z"
+    "modified": "2026-09-02T04:02:38Z"
   }
 }

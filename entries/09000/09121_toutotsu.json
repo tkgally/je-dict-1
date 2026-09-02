@@ -14,30 +14,36 @@
   "examples": [
     {
       "id": "09121_toutotsu_ex1",
-      "japanese": "{唐突|とうとつ}な{質問|しつもん}",
+      "japanese": "{唐突|とうとつ}な⟦{質問|しつもん}→質問：00888_shitsumon⟧",
       "english": "an abrupt question",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "09121_toutotsu_ex2",
-      "japanese": "{唐突|とうとつ}ですが、ご{結婚|けっこん}されていますか。",
+      "japanese": "{唐突|とうとつ}です⟦が→が：00051_ga⟧、ご⟦{結婚|けっこん}→結婚：02514_kekkon⟧⟦されています→する：00392_suru⟧⟦か→か：09473_ka⟧。",
       "english": "This is sudden, but are you married?",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "09121_toutotsu_ex3",
-      "japanese": "{会議|かいぎ}{中|ちゅう}に{彼|かれ}は{唐突|とうとつ}に{辞職|じしょく}を{発表|はっぴょう}した。",
+      "japanese": "⟦{会議|かいぎ}{中|ちゅう}→会議中：16781_kaigichuu⟧⟦に→に：00314_ni⟧⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{唐突|とうとつ}⟦に→に：00314_ni⟧⟦{辞職|じしょく}→辞職：06157_jishoku⟧⟦を→を：00422_wo⟧⟦{発表|はっぴょう}した→発表する：25231_happyousuru⟧。",
       "english": "He abruptly announced his resignation during the meeting.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "USAGE: {唐突|とうとつ} often implies social awkwardness or a break in expected conversational flow. The phrase {唐突|とうとつ}ですが is commonly used to acknowledge that a question or statement comes without proper lead-in.\n\nCOMMON COLLOCATIONS:\n- {唐突|とうとつ}な{質問|しつもん}/{発言|はつげん}/{訪問|ほうもん} (abrupt question/remark/visit)\n- {唐突|とうとつ}ですが... (this is sudden, but...)\n- {唐突|とうとつ}に{始|はじ}まる/{終|お}わる (to start/end abruptly)\n\nRELATED WORDS:\n- {突然|とつぜん} (sudden - more neutral, less socially loaded)\n- {急|きゅう} (sudden, hasty - emphasizes speed)\n- {藪|やぶ}から{棒|ぼう} (out of nowhere - idiomatic)",
+  "notes": "USAGE: {唐突|とうとつ} often implies social awkwardness or a break in expected conversational flow. The phrase {唐突|とうとつ}です⟦が→が：00051_ga⟧ is commonly used to acknowledge that a question or statement comes without proper lead-in.\n\nCOMMON COLLOCATIONS:\n- {唐突|とうとつ}な⟦{質問|しつもん}→質問：00888_shitsumon⟧/⟦{発言|はつげん}→発言：05099_hatsugen⟧/⟦{訪問|ほうもん}→訪問：03622_houmon⟧ (abrupt question/remark/visit)\n- {唐突|とうとつ}です⟦が→が：00051_ga⟧... (this is sudden, but...)\n- {唐突|とうとつ}⟦に→に：00314_ni⟧⟦{始|はじ}まる→始まる：00841_hajimaru⟧/{終|お}わる (to start/end abruptly)\n\nRELATED WORDS:\n- ⟦{突然|とつぜん}→突然：00409_totsuzen⟧ (sudden - more neutral, less socially loaded)\n- ⟦{急|きゅう}→急：13042_kyuu⟧ (sudden, hasty - emphasizes speed)\n- {藪|やぶ}⟦から→から：00504_kara⟧⟦{棒|ぼう}→棒：03726_bou⟧ (out of nowhere - idiomatic)",
   "cross_references": [
     {
       "type": "synonym",
@@ -45,18 +51,29 @@
       "reading": "とつぜん",
       "headword": "{突然|とつぜん}",
       "label": "sudden (neutral)"
+    },
+    {
+      "type": "related",
+      "target_id": "13042_kyuu",
+      "reading": "きゅう",
+      "headword": "{急|きゅう}",
+      "label": "sudden, hasty"
     }
   ],
   "metadata": {
     "created": "2026-01-31T10:46:27Z",
-    "modified": "2026-04-22T07:28:30Z",
+    "modified": "2026-09-02T04:01:17Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-na"],
+      "pos": [
+        "adjective-na"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["descriptive"]
+      "semantic": [
+        "descriptive"
+      ]
     }
   }
 }

@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "18189_kyuushi_ex1",
-      "japanese": "{同僚|どうりょう}が{急死|きゅうし}して{皆|みな}{驚|おどろ}いた。",
+      "japanese": "⟦{同僚|どうりょう}→同僚：01023_douryou⟧⟦が→が：00051_ga⟧{急死|きゅうし}⟦して→する：00392_suru⟧⟦{皆|みな}→皆：01810_mina⟧⟦{驚|おどろ}いた→驚く：01255_odoroku⟧。",
       "english": "Everyone was shocked when our colleague died suddenly.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "18189_kyuushi_ex2",
-      "japanese": "{心臓|しんぞう}{発作|ほっさ}による{急死|きゅうし}だった。",
+      "japanese": "⟦{心臓|しんぞう}→心臓：03262_shinzou⟧⟦{発作|ほっさ}→発作：15023_hossa⟧⟦による→による：28349_niyoru⟧{急死|きゅうし}だった。",
       "english": "It was a sudden death from a heart attack.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "18189_kyuushi_ex3",
-      "japanese": "{若|わか}いスポーツ{選手|せんしゅ}の{急死|きゅうし}が{相次|あいつ}ぎ、{健康|けんこう}{管理|かんり}の{重要性|じゅうようせい}が{問|と}われている。",
+      "japanese": "{若|わか}い⟦スポーツ→スポーツ：04740_supootsu⟧⟦{選手|せんしゅ}→選手：03823_senshu⟧⟦の→の：09472_no⟧{急死|きゅうし}⟦が→が：00051_ga⟧{相次|あいつ}ぎ、⟦{健康|けんこう}{管理|かんり}→健康管理：21662_kenkoukanri⟧⟦の→の：09472_no⟧⟦{重要性|じゅうようせい}→重要性：04823_juuyousei⟧⟦が→が：00051_ga⟧⟦{問|と}われている→問う：02299_tou⟧。",
       "english": "A string of sudden deaths among young athletes has raised questions about the importance of health management.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nUsed in news reports and medical contexts. Often associated with heart-related conditions, overwork ({過労死|かろうし}), or hidden health problems. Can be used as a する verb: {急死|きゅうし}する (to die suddenly).\n\nCOMMON COLLOCATIONS:\n- {急死|きゅうし}する (to die suddenly)\n- {突然|とつぜん}の{急死|きゅうし} (a sudden, unexpected death)\n- {心臓|しんぞう}{急死|きゅうし} (cardiac sudden death)\n\nSIMILAR WORDS:\n- {突然死|とつぜんし}: sudden death — very similar; slightly more emphasis on the unexpectedness\n- {過労死|かろうし}: death from overwork — a specific cause of sudden death, well-known internationally",
+  "notes": "USAGE:\nUsed in news reports and medical contexts. Often associated with heart-related conditions, overwork (⟦{過労死|かろうし}→過労死：14324_karoushi⟧), or hidden health problems. Can be used as a ⟦する→する：00392_suru⟧ verb: {急死|きゅうし}⟦する→する：00392_suru⟧ (to die suddenly).\n\nCOMMON COLLOCATIONS:\n- {急死|きゅうし}⟦する→する：00392_suru⟧ (to die suddenly)\n- ⟦{突然|とつぜん}→突然：00409_totsuzen⟧⟦の→の：09472_no⟧{急死|きゅうし} (a sudden, unexpected death)\n- ⟦{心臓|しんぞう}→心臓：03262_shinzou⟧{急死|きゅうし} (cardiac sudden death)\n\nSIMILAR WORDS:\n- ⟦{突然死|とつぜんし}→突然死：20490_totsuzenshi⟧: sudden death — very similar; slightly more emphasis on the unexpectedness\n- ⟦{過労死|かろうし}→過労死：14324_karoushi⟧: death from overwork — a specific cause of sudden death, well-known internationally",
   "cross_references": [
     {
       "type": "homophone",
@@ -155,11 +155,25 @@
       "reading": "かろうし",
       "headword": "{過労死|かろうし}",
       "label": "death from overwork"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22006_byoushi",
+      "reading": "びょうし",
+      "headword": "{病死|びょうし}",
+      "label": "death from illness"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23678_jikoshi",
+      "reading": "じこし",
+      "headword": "{事故死|じこし}",
+      "label": "accidental death"
     }
   ],
   "metadata": {
     "created": "2026-03-20T09:06:27Z",
-    "modified": "2026-05-08T07:08:06Z",
+    "modified": "2026-09-02T04:01:51Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -175,7 +189,8 @@
       "domain": [
         "medical"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

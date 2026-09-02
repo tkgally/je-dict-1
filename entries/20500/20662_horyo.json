@@ -25,7 +25,7 @@
     },
     {
       "id": "20662_horyo_ex2",
-      "japanese": "{捕虜|ほりょ}の{交換|こうかん}が{行|おこな}われた。",
+      "japanese": "{捕虜|ほりょ}⟦の→の：09472_no⟧⟦{交換|こうかん}→交換：02746_koukan⟧⟦が→が：00051_ga⟧⟦{行|おこな}われた→行う：01238_okonau⟧。",
       "english": "A prisoner exchange was carried out.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "20662_horyo_ex3",
-      "japanese": "{戦争|せんそう}が{終|お}わった{後|あと}、{多|おお}くの{捕虜|ほりょ}が{故郷|こきょう}に{帰|かえ}ることができた。",
+      "japanese": "⟦{戦争|せんそう}→戦争：01450_sensou⟧⟦が→が：00051_ga⟧⟦{終|お}わった→終わる：00567_owaru⟧⟦{後|あと}→後：09580_ato⟧、{多|おお}く⟦の→の：09472_no⟧{捕虜|ほりょ}⟦が→が：00051_ga⟧⟦{故郷|こきょう}→故郷：02733_kokyou⟧⟦に→に：00314_ni⟧⟦{帰|かえ}る→帰る：00508_kaeru⟧こと⟦が→が：00051_ga⟧⟦できた→できる：00557_dekiru⟧。",
       "english": "After the war ended, many prisoners of war were able to return to their homeland.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "A formal word used in military and historical contexts. Frequently appears in news reporting, history textbooks, and discussions about international law and the Geneva Conventions.\n\nCOMMON COLLOCATIONS:\n- {捕虜|ほりょ}になる: to become a prisoner of war\n- {捕虜|ほりょ}を{取|と}る: to take prisoners\n- {捕虜|ほりょ}{収容所|しゅうようじょ}: POW camp\n- {捕虜|ほりょ}の{交換|こうかん}: prisoner exchange\n- {捕虜|ほりょ}を{解放|かいほう}する: to release prisoners of war\n\nSIMILAR WORDS:\n- {囚人|しゅうじん}: prisoner — a person imprisoned for a crime, not specifically war-related\n- {人質|ひとじち}: hostage — a person held for ransom or leverage\n- {俘虜|ふりょ}: prisoner of war — an older, more literary synonym rarely used today",
+  "notes": "A formal word used in military and historical contexts. Frequently appears in news reporting, history textbooks, and discussions about international law and the Geneva Conventions.\n\nCOMMON COLLOCATIONS:\n- {捕虜|ほりょ}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧: to become a prisoner of war\n- {捕虜|ほりょ}⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧: to take prisoners\n- {捕虜|ほりょ}⟦{収容所|しゅうようじょ}→収容所：22753_shuuyoujo⟧: POW camp\n- {捕虜|ほりょ}⟦の→の：09472_no⟧⟦{交換|こうかん}→交換：02746_koukan⟧: prisoner exchange\n- {捕虜|ほりょ}⟦を→を：00422_wo⟧⟦{解放|かいほう}する→解放する：22170_kaihousuru⟧: to release prisoners of war\n\nSIMILAR WORDS:\n- ⟦{囚人|しゅうじん}→囚人：20680_shuujin⟧: prisoner — a person imprisoned for a crime, not specifically war-related\n- ⟦{人質|ひとじち}→人質：09678_hitojichi⟧: hostage — a person held for ransom or leverage\n- {俘虜|ふりょ}: prisoner of war — an older, more literary synonym rarely used today",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20680_shuujin",
+      "reading": "しゅうじん",
+      "headword": "{囚人|しゅうじん}",
+      "label": "prisoner"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09678_hitojichi",
+      "reading": "ひとじち",
+      "headword": "{人質|ひとじち}",
+      "label": "hostage"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29448_ryoshuu",
+      "reading": "りょしゅう",
+      "headword": "虜囚",
+      "label": "captive"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +76,13 @@
         "noun"
       ],
       "formality": "formal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "military",
         "history"
       ]
     },
     "created": "2026-03-30T06:32:23Z",
-    "modified": "2026-03-30T06:32:23Z"
+    "modified": "2026-09-02T04:02:00Z"
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26521_butaikyoufushou_ex1",
-      "japanese": "{彼|かれ}は{舞台|ぶたい}{恐怖症|きょうふしょう}だ。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{舞台|ぶたい}{恐怖症|きょうふしょう}だ。",
       "english": "He has stage fright.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26521_butaikyoufushou_ex2",
-      "japanese": "{舞台|ぶたい}{恐怖症|きょうふしょう}を{克服|こくふく}するために{練習|れんしゅう}を{重|かさ}ねた。",
+      "japanese": "{舞台|ぶたい}{恐怖症|きょうふしょう}⟦を→を：00422_wo⟧⟦{克服|こくふく}する→克服する：15863_kokufukusuru⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧⟦{練習|れんしゅう}→練習：05323_renshuu⟧⟦を→を：00422_wo⟧⟦{重|かさ}ねた→重ねる：02039_kasaneru⟧。",
       "english": "I practiced extensively to overcome my stage fright.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26521_butaikyoufushou_ex3",
-      "japanese": "{子|こ}どもの{頃|ころ}から{舞台|ぶたい}{恐怖症|きょうふしょう}で、{人前|ひとまえ}で{話|はな}すのが{苦手|にがて}だった。",
+      "japanese": "{子|こ}ども⟦の→の：09472_no⟧{頃|ころ}⟦から→から：00504_kara⟧{舞台|ぶたい}{恐怖症|きょうふしょう}⟦で→で：00502_de⟧、⟦{人前|ひとまえ}→人前：19380_hitomae⟧⟦で→で：00502_de⟧⟦{話|はな}す→話す：00467_hanasu⟧⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦{苦手|にがて}→苦手：03513_nigate⟧だった。",
       "english": "I've had stage fright since childhood and have always struggled with speaking in front of people.",
       "sense_numbers": [
         1
@@ -44,8 +44,23 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {舞台|ぶたい} (stage) and {恐怖症|きょうふしょう} (phobia). While the literal meaning refers to stages, it applies broadly to any situation involving performing or presenting in front of others.\n\nCOMMON COLLOCATIONS:\n- {舞台|ぶたい}{恐怖症|きょうふしょう}を{克服|こくふく}する: to overcome stage fright\n- {舞台|ぶたい}{恐怖症|きょうふしょう}に{悩|なや}む: to suffer from stage fright\n- {軽|かる}い{舞台|ぶたい}{恐怖症|きょうふしょう}: mild stage fright\n\nSIMILAR WORDS:\n- あがり{症|しょう}: tendency to get nervous — more colloquial and broader than stage-specific fear\n- {対人|たいじん}{恐怖症|きょうふしょう}: social phobia — fear of social interaction in general, not limited to performance\n- {緊張|きんちょう}: nervousness — a milder, more general term for being tense",
-  "cross_references": [],
+  "notes": "A compound of ⟦{舞台|ぶたい}→舞台：03606_butai⟧ (stage) and ⟦{恐怖症|きょうふしょう}→恐怖症：27678_kyoufushou⟧ (phobia). While the literal meaning refers to stages, it applies broadly to any situation involving performing or presenting in front of others.\n\nCOMMON COLLOCATIONS:\n- {舞台|ぶたい}{恐怖症|きょうふしょう}⟦を→を：00422_wo⟧⟦{克服|こくふく}する→克服する：15863_kokufukusuru⟧: to overcome stage fright\n- {舞台|ぶたい}{恐怖症|きょうふしょう}⟦に→に：00314_ni⟧⟦{悩|なや}む→悩む：02380_nayamu⟧: to suffer from stage fright\n- ⟦{軽|かる}い→軽い：00785_karui⟧{舞台|ぶたい}{恐怖症|きょうふしょう}: mild stage fright\n\nSIMILAR WORDS:\n- ⟦あがり{症|しょう}→あがり症：21562_agarishou⟧: tendency to get nervous — more colloquial and broader than stage-specific fear\n- ⟦{対人|たいじん}→対人：28357_taijin⟧⟦{恐怖症|きょうふしょう}→恐怖症：27678_kyoufushou⟧: social phobia — fear of social interaction in general, not limited to performance\n- ⟦{緊張|きんちょう}→緊張：02494_kinchou⟧: nervousness — a milder, more general term for being tense",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21562_agarishou",
+      "reading": "あがりしょう",
+      "headword": "あがり{症|しょう}",
+      "label": "tendency to get nervous"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02494_kinchou",
+      "reading": "きんちょう",
+      "headword": "{緊張|きんちょう}",
+      "label": "nervousness"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,12 +68,13 @@
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "health",
         "emotion"
       ]
     },
     "created": "2026-05-02T14:31:23Z",
-    "modified": "2026-08-06T00:43:53Z"
+    "modified": "2026-09-02T04:02:26Z"
   }
 }

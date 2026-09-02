@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "16751_tsumikomu_ex1",
-      "japanese": "{荷物|にもつ}を{車|くるま}に{積|つ}み{込|こ}んだ。",
+      "japanese": "⟦{荷物|にもつ}→荷物：00737_nimotsu⟧⟦を→を：00422_wo⟧⟦{車|くるま}→車：00516_kuruma⟧⟦に→に：00314_ni⟧{積|つ}み{込|こ}んだ。",
       "english": "I loaded the luggage into the car.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "16751_tsumikomu_ex2",
-      "japanese": "トラックに{大量|たいりょう}の{段|だん}ボールを{積|つ}み{込|こ}む。",
+      "japanese": "⟦トラック→トラック：03863_torakku⟧⟦に→に：00314_ni⟧⟦{大量|たいりょう}→大量：03112_tairyou⟧⟦の→の：09472_no⟧⟦{段|だん}ボール→段ボール：18885_danbooru⟧⟦を→を：00422_wo⟧{積|つ}み{込|こ}む。",
       "english": "To load a large number of cardboard boxes onto a truck.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "16751_tsumikomu_ex3",
-      "japanese": "{引|ひ}っ{越|こ}しの{日|ひ}、{朝|あさ}から{家具|かぐ}をトラックに{積|つ}み{込|こ}む{作業|さぎょう}に{追|お}われた。",
+      "japanese": "{引|ひ}っ{越|こ}し⟦の→の：09472_no⟧⟦{日|ひ}→日：02249_hi⟧、⟦{朝|あさ}→朝：02277_asa⟧⟦から→から：00504_kara⟧⟦{家具|かぐ}→家具：12314_kagu⟧⟦を→を：00422_wo⟧⟦トラック→トラック：03863_torakku⟧⟦に→に：00314_ni⟧{積|つ}み{込|こ}む⟦{作業|さぎょう}→作業：02775_sagyou⟧⟦に→に：00314_ni⟧⟦{追|お}われた→追う：02016_ou⟧。",
       "english": "On moving day, I was busy loading furniture onto the truck from early morning.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "{積|つ}み{込|こ}む means to load or pack cargo into a vehicle or container.\n\nTRANSITIVITY:\n- Type: {他動詞|たどうし} (transitive)\n- Pattern: [object]を[destination]に{積|つ}み{込|こ}む\n\nASPECT (ている):\n{積|つ}み{込|こ}んでいる can mean either \"is in the process of loading\" or \"has been loaded\" (resulting state), depending on context.\n\nFORMATION:\nA compound verb from {積|つ}む (to pile up, to load) + {込|こ}む (into). The ～{込|こ}む suffix adds the nuance of packing things into a confined space.\n\nCOMMON COLLOCATIONS:\n- {荷物|にもつ}を{積|つ}み{込|こ}む: to load luggage\n- {車|くるま}に{積|つ}み{込|こ}む: to load into a car\n- トラックに{積|つ}み{込|こ}む: to load onto a truck\n\nCONTRAST:\n- {積|つ}み{下|お}ろす / {荷下|におろ}し: unloading (the opposite action)\n- {積|つ}む: simply to stack or load (without the \"into\" nuance)",
+  "notes": "{積|つ}み{込|こ}む means to load or pack cargo into a vehicle or container.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- Pattern: [object]⟦を→を：00422_wo⟧[destination]⟦に→に：00314_ni⟧{積|つ}み{込|こ}む\n\nASPECT (ている):\n{積|つ}み{込|こ}んで⟦いる→いる：00495_iru⟧ can mean either \"is in the process of loading\" or \"has been loaded\" (resulting state), depending on context.\n\nFORMS:\nA compound verb from ⟦{積|つ}む→積む：02294_tsumu⟧ (to pile up, to load) + ⟦{込|こ}む→込む：00719_komu⟧ (into). The ～⟦{込|こ}む→込む：00719_komu⟧ suffix adds the nuance of packing things into a confined space.\n\nCOMMON COLLOCATIONS:\n- ⟦{荷物|にもつ}→荷物：00737_nimotsu⟧⟦を→を：00422_wo⟧{積|つ}み{込|こ}む: to load luggage\n- ⟦{車|くるま}→車：00516_kuruma⟧⟦に→に：00314_ni⟧{積|つ}み{込|こ}む: to load into a car\n- ⟦トラック→トラック：03863_torakku⟧⟦に→に：00314_ni⟧{積|つ}み{込|こ}む: to load onto a truck\n\nSIMILAR WORDS:\n- {積|つ}み{下|お}ろす / {荷下|におろ}し: unloading (the opposite action)\n- ⟦{積|つ}む→積む：02294_tsumu⟧: simply to stack or load (without the \"into\" nuance)",
   "cross_references": [
     {
       "type": "related",
@@ -142,11 +142,18 @@
       "reading": "つむ",
       "headword": "{積|つ}む",
       "label": "to pile up, to load"
+    },
+    {
+      "type": "related",
+      "target_id": "09264_tsumikomi",
+      "reading": "つみこみ",
+      "headword": "{積|つ}み{込|こ}み",
+      "label": "loading, shipment"
     }
   ],
   "metadata": {
     "created": "2026-03-14T06:28:39Z",
-    "modified": "2026-07-21T06:41:24Z",
+    "modified": "2026-09-02T04:01:46Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

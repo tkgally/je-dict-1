@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25279_howaitodee_ex1",
-      "japanese": "ホワイトデーの{お返|おかえ}しを{買|か}った。",
+      "japanese": "ホワイトデー⟦の→の：09472_no⟧⟦お{返|かえ}し→お返し：08354_okaeshi⟧⟦を→を：00422_wo⟧⟦{買|か}った→買う：00489_kau⟧。",
       "english": "I bought return gifts for White Day.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25279_howaitodee_ex2",
-      "japanese": "ホワイトデーには{何|なに}を{贈|おく}ればいいだろう。",
+      "japanese": "ホワイトデー⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{何|なに}→何：00498_nani⟧⟦を→を：00422_wo⟧⟦{贈|おく}れば→贈る：09862_okuru⟧⟦いい→いい：00118_ii⟧だろう。",
       "english": "I wonder what I should give for White Day.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25279_howaitodee_ex3",
-      "japanese": "ホワイトデーのお{返|かえ}しは、もらったチョコの{三倍返|さんばいがえ}しが{理想|りそう}だと{言|い}われている。",
+      "japanese": "ホワイトデー⟦の→の：09472_no⟧⟦お{返|かえ}し→お返し：08354_okaeshi⟧⟦は→は：00079_ha⟧、⟦もらった→もらう：00520_morau⟧チョコ⟦の→の：09472_no⟧{三倍返|さんばいがえ}し⟦が→が：00051_ga⟧⟦{理想|りそう}→理想：03676_risou⟧だ⟦と→と：00512_to⟧⟦{言|い}われている→言う：00515_iu⟧。",
       "english": "It's said that the ideal White Day return gift should be worth three times the chocolate you received.",
       "sense_numbers": [
         1
@@ -44,20 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "A holiday unique to Japan (and some other East Asian countries). Created by the confectionery industry in the late 1970s as a counterpart to Valentine's Day. On March 14th, men who received chocolate on Valentine's Day are expected to give return gifts.\n\nCOMMON COLLOCATIONS:\n- ホワイトデーの{お返|おかえ}し: White Day return gift\n- ホワイトデーに{贈|おく}る: to give on White Day\n- {三倍返|さんばいがえ}し: returning three times the value\n- ホワイトデーのプレゼント: White Day present\n\nCULTURAL NOTE:\nTraditional return gifts include cookies, candy, marshmallows, or accessories. There is an unwritten expectation that the return gift should be of equal or greater value than the chocolate received. In workplace contexts, men often give group gifts in return for {義理|ぎり}チョコ received. The concept of {倍返|ばいがえ}し (returning double or triple the value) adds social pressure to the occasion.\n\nRELATED:\n- バレンタインデー: Valentine's Day (February 14th) — when women give chocolate to men",
+  "notes": "A holiday unique to Japan (and some other East Asian countries). Created by the confectionery industry in the late 1970s as a counterpart to Valentine's Day. On March 14th, men who received chocolate on Valentine's Day are expected to give return gifts.\n\nCOMMON COLLOCATIONS:\n- ホワイトデー⟦の→の：09472_no⟧⟦お{返|かえ}し→お返し：08354_okaeshi⟧: White Day return gift\n- ホワイトデー⟦に→に：00314_ni⟧⟦{贈|おく}る→贈る：09862_okuru⟧: to give on White Day\n- {三倍返|さんばいがえ}し: returning three times the value\n- ホワイトデー⟦の→の：09472_no⟧⟦プレゼント→プレゼント：01791_purezento⟧: White Day present\n\nCULTURAL NOTE:\nTraditional return gifts include cookies, candy, marshmallows, or accessories. There is an unwritten expectation that the return gift should be of equal or greater value than the chocolate received. In workplace contexts, men often give group gifts in return for ⟦{義理|ぎり}→義理：10891_giri⟧チョコ received. The concept of ⟦{倍返|ばいがえ}し→倍返し：18081_baigaeshi⟧ (returning double or triple the value) adds social pressure to the occasion.\n\nRELATED WORDS:\n- ⟦バレンタインデー→バレンタインデー：25278_barentaindee⟧: Valentine's Day (February 14th) — when women give chocolate to men",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "25278_barentaindee",
+      "reading": "ばれんたいんでー",
+      "headword": "バレンタインデー",
+      "label": "Valentine's Day"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "culture",
         "time-general"
       ]
     },
     "created": "2026-04-24T13:14:23Z",
-    "modified": "2026-08-04T12:59:53Z"
+    "modified": "2026-09-02T04:02:21Z"
   }
 }

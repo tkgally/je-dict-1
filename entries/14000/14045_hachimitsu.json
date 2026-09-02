@@ -15,41 +15,73 @@
   "examples": [
     {
       "id": "14045_hachimitsu_ex1",
-      "japanese": "パンに{蜂蜜|はちみつ}を{塗|ぬ}る。",
+      "japanese": "⟦パン→パン：00553_pan⟧⟦に→に：00314_ni⟧{蜂蜜|はちみつ}⟦を→を：00422_wo⟧⟦{塗|ぬ}る→塗る：01174_nuru⟧。",
       "english": "Spread honey on bread.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14045_hachimitsu_ex2",
-      "japanese": "{紅茶|こうちゃ}に{蜂蜜|はちみつ}を{入|い}れて{飲|の}むのが{好|す}きだ。",
+      "japanese": "⟦{紅茶|こうちゃ}→紅茶：02878_koucha⟧⟦に→に：00314_ni⟧{蜂蜜|はちみつ}⟦を→を：00422_wo⟧⟦{入|い}れて→入れる：01098_ireru⟧⟦{飲|の}む→飲む：00322_nomu⟧⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦{好|す}き→好き：02355_suki⟧だ。",
       "english": "I like drinking tea with honey.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14045_hachimitsu_ex3",
-      "japanese": "この{地域|ちいき}の{養蜂家|ようほうか}が{作|つく}った{蜂蜜|はちみつ}は、{花|はな}の{香|かお}りが{豊|ゆた}かで{人気|にんき}がある。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{地域|ちいき}→地域：01461_chiiki⟧⟦の→の：09472_no⟧{養蜂家|ようほうか}⟦が→が：00051_ga⟧⟦{作|つく}った→作る：00481_tsukuru⟧{蜂蜜|はちみつ}⟦は→は：00079_ha⟧、⟦{花|はな}→花：00523_hana⟧⟦の→の：09472_no⟧⟦{香|かお}り→香り：00189_kaori⟧⟦が→が：00051_ga⟧⟦{豊|ゆた}か→豊か：03654_yutaka⟧で⟦{人気|にんき}→人気：01488_ninki⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "The honey made by beekeepers in this region is popular for its rich floral aroma.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nOften written in hiragana as はちみつ on product labels for readability. The kanji {蜂|はち} means \"bee\" and {蜜|みつ} means \"nectar/honey.\"\n\nHEALTH NOTE:\nIn Japan, {蜂蜜|はちみつ} is widely known to be unsafe for infants under one year old due to the risk of botulism.\n\nCOMMON COLLOCATIONS:\n- {蜂蜜|はちみつ}レモン: honey lemon (drink)\n- {蜂蜜|はちみつ}を{塗|ぬ}る: to spread honey\n- {国産|こくさん}{蜂蜜|はちみつ}: domestic honey",
-  "cross_references": [],
+  "notes": "USAGE:\nOften written in hiragana as はちみつ on product labels for readability. The kanji ⟦{蜂|はち}→蜂：02242_hachi⟧ means \"bee\" and ⟦{蜜|みつ}→蜜：14085_mitsu⟧ means \"nectar/honey.\"\n\nHEALTH NOTE:\nIn Japan, {蜂蜜|はちみつ} is widely known to be unsafe for infants under one year old due to the risk of botulism.\n\nCOMMON COLLOCATIONS:\n- {蜂蜜|はちみつ}⟦レモン→レモン：10456_remon⟧: honey lemon (drink)\n- {蜂蜜|はちみつ}⟦を→を：00422_wo⟧⟦{塗|ぬ}る→塗る：01174_nuru⟧: to spread honey\n- ⟦{国産|こくさん}→国産：12017_kokusan⟧{蜂蜜|はちみつ}: domestic honey",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "01779_jamu",
+      "reading": "じゃむ",
+      "headword": "ジャム",
+      "label": "jam"
+    },
+    {
+      "type": "related",
+      "target_id": "06514_mitsubachi",
+      "reading": "みつばち",
+      "headword": "{蜜蜂|みつばち}",
+      "label": "honeybee"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24332_kuromitsu",
+      "reading": "くろみつ",
+      "headword": "{黒蜜|くろみつ}",
+      "label": "black sugar syrup"
+    }
+  ],
   "metadata": {
     "created": "2026-02-27T10:14:05Z",
-    "modified": "2026-02-27T10:14:05Z",
+    "modified": "2026-09-02T04:01:35Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food"]
+      "semantic": [
+        "food"
+      ]
     }
   }
 }

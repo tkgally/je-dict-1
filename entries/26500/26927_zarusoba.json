@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26927_zarusoba_ex1",
-      "japanese": "ざるそばを{注文|ちゅうもん}した。",
+      "japanese": "ざるそば⟦を→を：00422_wo⟧⟦{注文|ちゅうもん}した→注文する：21390_chuumon⟧。",
       "english": "I ordered cold soba noodles.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26927_zarusoba_ex2",
-      "japanese": "{暑|あつ}い{日|ひ}にはざるそばが{食|た}べたくなる。",
+      "japanese": "⟦{暑|あつ}い→暑い：00619_atsui⟧⟦{日|ひ}→日：02249_hi⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧ざるそば⟦が→が：00051_ga⟧⟦{食|た}べたく→食べる：00396_taberu⟧⟦なる→なる：01970_naru⟧。",
       "english": "On hot days, I crave cold soba noodles.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26927_zarusoba_ex3",
-      "japanese": "この{店|みせ}のざるそばは{手打|てう}ちで、のどごしがよくて{人気|にんき}がある。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{店|みせ}→店：00497_mise⟧⟦の→の：09472_no⟧ざるそば⟦は→は：00079_ha⟧⟦{手打|てう}ち→手打ち：13451_teuchi⟧で、のどごし⟦が→が：00051_ga⟧⟦よくて→いい：00118_ii⟧⟦{人気|にんき}→人気：01488_ninki⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "This shop's cold soba is handmade, has a smooth texture, and is popular.",
       "sense_numbers": [
         1
@@ -44,8 +44,16 @@
       "notes": null
     }
   ],
-  "notes": "Named after the ざる (bamboo strainer basket) on which the noodles are served. The noodles are boiled, rinsed in cold water, and placed on the basket. Eaten by dipping into つゆ (dipping sauce) with condiments like {刻|きざ}みねぎ (chopped green onion) and わさび.\n\nCOMMON COLLOCATIONS:\n- ざるそば{一枚|いちまい}: one serving of cold soba (counted with {枚|まい})\n- {大盛|おおも}りざるそば: large serving of cold soba\n- {手打|てう}ちざるそば: handmade cold soba\n\nSIMILAR WORDS:\n- もりそば: plain cold soba — very similar, but traditionally served without nori seaweed topping; the distinction has blurred in modern usage\n- かけそば: hot soba in broth — soba served in hot soup, the warm counterpart to ざるそば\n- つけめん: dipping noodles — a ramen variant with the same dipping style but using wheat noodles and richer broth",
-  "cross_references": [],
+  "notes": "Named after the ⟦ざる→ざる：04470_zaru⟧ (bamboo strainer basket) on which the noodles are served. The noodles are boiled, rinsed in cold water, and placed on the basket. Eaten by dipping into つゆ (dipping sauce) with condiments like {刻|きざ}みねぎ (chopped green onion) and わさび.\n\nCOMMON COLLOCATIONS:\n- ざるそば⟦{一枚|いちまい}→一枚：08889_ichimai⟧: one serving of cold soba (counted with ⟦{枚|まい}→〜枚：00650_mai⟧)\n- ⟦{大盛|おおも}り→大盛り：08162_oomori⟧ざるそば: large serving of cold soba\n- ⟦{手打|てう}ち→手打ち：13451_teuchi⟧ざるそば: handmade cold soba\n\nSIMILAR WORDS:\n- もりそば: plain cold soba — very similar, but traditionally served without nori seaweed topping; the distinction has blurred in modern usage\n- かけそば: hot soba in broth — soba served in hot soup, the warm counterpart to ざるそば\n- つけめん: dipping noodles — a ramen variant with the same dipping style but using wheat noodles and richer broth",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "10484_tsukemen",
+      "reading": "つけめん",
+      "headword": "つけ{麺|めん}",
+      "label": "dipping noodles"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -61,6 +69,6 @@
       "domain": []
     },
     "created": "2026-05-05T16:16:57Z",
-    "modified": "2026-05-05T16:16:57Z"
+    "modified": "2026-09-02T04:02:28Z"
   }
 }

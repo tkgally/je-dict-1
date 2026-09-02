@@ -43,11 +43,33 @@
       ]
     }
   ],
-  "notes": "インク (from English 'ink') refers to ink used for writing or printing. For traditional East Asian ink (solid ink sticks ground with water), ⟦{墨|すみ}→墨：02155_sumi⟧ is used instead.\n\nCOMMON USES:\n- インク⟦が→が：00051_ga⟧⟦{切|き}れる→切れる：01936_kireru⟧: to run out of ink\n- インク⟦を→を：00422_wo⟧⟦{補充|ほじゅう}→補充：14037_hojuu⟧⟦する→する：00392_suru⟧: to refill ink\n- インク⟦カートリッジ→カートリッジ：08142_kaatorijji⟧: ink cartridge\n- ⟦インクジェット→インクジェット：noentry⟧: inkjet (printer)\n\nRELATED:\n- ⟦{墨|すみ}→墨：02155_sumi⟧: ink (traditional Japanese/Chinese)\n- ⟦{墨汁|ぼくじゅう}→墨汁：17748_bokujuu⟧: liquid ink (for calligraphy)",
-  "cross_references": [],
+  "notes": "インク (from English 'ink') refers to ink used for writing or printing. For traditional East Asian ink (solid ink sticks ground with water), ⟦{墨|すみ}→墨：02155_sumi⟧ is used instead.\n\nCOMMON COLLOCATIONS:\n- インク⟦が→が：00051_ga⟧⟦{切|き}れる→切れる：01936_kireru⟧: to run out of ink\n- インク⟦を→を：00422_wo⟧⟦{補充|ほじゅう}→補充：14037_hojuu⟧⟦する→する：00392_suru⟧: to refill ink\n- インク⟦カートリッジ→カートリッジ：08142_kaatorijji⟧: ink cartridge\n- ⟦インクジェット→インクジェット：noentry⟧: inkjet (printer)\n\nRELATED WORDS:\n- ⟦{墨|すみ}→墨：02155_sumi⟧: ink (traditional Japanese/Chinese)\n- ⟦{墨汁|ぼくじゅう}→墨汁：17748_bokujuu⟧: liquid ink (for calligraphy)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "02155_sumi",
+      "reading": "すみ",
+      "headword": "{墨|すみ}",
+      "label": "ink"
+    },
+    {
+      "type": "related",
+      "target_id": "17748_bokujuu",
+      "reading": "ぼくじゅう",
+      "headword": "{墨汁|ぼくじゅう}",
+      "label": "liquid ink"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07493_tonaa",
+      "reading": "となー",
+      "headword": "トナー",
+      "label": "toner"
+    }
+  ],
   "metadata": {
     "created": "2026-01-12T23:49:28Z",
-    "modified": "2026-05-09T16:15:04Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "11553_ninki_ex1",
-      "japanese": "{任期|にんき}は{四年|よねん}だ。",
+      "japanese": "{任期|にんき}⟦は→は：00079_ha⟧{四年|よねん}だ。",
       "english": "The term of office is four years.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "11553_ninki_ex2",
-      "japanese": "{大統領|だいとうりょう}の{任期|にんき}が{満了|まんりょう}した。",
+      "japanese": "⟦{大統領|だいとうりょう}→大統領：03418_daitouryou⟧⟦の→の：09472_no⟧{任期|にんき}⟦が→が：00051_ga⟧⟦{満了|まんりょう}→満了：13357_manryou⟧⟦した→する：00392_suru⟧。",
       "english": "The president's term of office has expired.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "11553_ninki_ex3",
-      "japanese": "{彼女|かのじょ}は{任期|にんき}{中|ちゅう}に{多|おお}くの{改革|かいかく}を{実現|じつげん}した。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧{任期|にんき}⟦{中|ちゅう}→〜中：09840_chuu⟧⟦に→に：00314_ni⟧{多|おお}く⟦の→の：09472_no⟧⟦{改革|かいかく}→改革：04815_kaikaku⟧⟦を→を：00422_wo⟧⟦{実現|じつげん}→実現：03276_jitsugen⟧⟦した→する：00392_suru⟧。",
       "english": "She accomplished many reforms during her term in office.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "Commonly used in political and organizational contexts. Not to be confused with the homophone {人気|にんき} (popularity), which has the same reading but entirely different meaning and kanji.\n\nCOMMON COLLOCATIONS:\n・{任期|にんき}{満了|まんりょう} (expiration of term)\n・{任期|にんき}{中|ちゅう} (during one's term)\n・{任期|にんき}を{終|お}える (complete one's term)\n・{任期|にんき}を{延長|えんちょう}する (extend one's term)\n・{任期|にんき}{制限|せいげん} (term limits)",
+  "notes": "Commonly used in political and organizational contexts. Not to be confused with the homophone ⟦{人気|にんき}→人気：01488_ninki⟧ (popularity), which has the same reading but entirely different meaning and kanji.\n\nCOMMON COLLOCATIONS:\n- {任期|にんき}⟦{満了|まんりょう}→満了：13357_manryou⟧ (expiration of term)\n- {任期|にんき}⟦{中|ちゅう}→〜中：09840_chuu⟧ (during one's term)\n- {任期|にんき}⟦を→を：00422_wo⟧⟦{終|お}える→終える：02019_oeru⟧ (complete one's term)\n- {任期|にんき}⟦を→を：00422_wo⟧⟦{延長|えんちょう}→延長：06447_enchou⟧⟦する→する：00392_suru⟧ (extend one's term)\n- {任期|にんき}⟦{制限|せいげん}→制限：03375_seigen⟧ (term limits)",
   "prominent_see_also": [
     {
       "target_id": "01488_ninki",
@@ -52,10 +52,18 @@
       "note": "popularity (homophone)"
     }
   ],
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "28018_kaiki",
+      "reading": "かいき",
+      "headword": "会期",
+      "label": "session"
+    }
+  ],
   "metadata": {
     "created": "2026-02-17T13:16:41Z",
-    "modified": "2026-07-01T09:49:53Z",
+    "modified": "2026-09-02T04:01:25Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",

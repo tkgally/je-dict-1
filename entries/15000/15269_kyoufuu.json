@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "15269_kyoufuu_ex1",
-      "japanese": "{強風|きょうふう}で{傘|かさ}が{壊|こわ}れた。",
+      "japanese": "{強風|きょうふう}⟦で→で：00502_de⟧⟦{傘|かさ}→傘：00639_kasa⟧⟦が→が：00051_ga⟧⟦{壊|こわ}れた→壊れる：00791_kowareru⟧。",
       "english": "My umbrella broke in the strong wind.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "15269_kyoufuu_ex2",
-      "japanese": "{強風|きょうふう}のため、{電車|でんしゃ}が{運休|うんきゅう}になった。",
+      "japanese": "{強風|きょうふう}⟦の→の：09472_no⟧⟦ため→ため：01145_tame⟧、⟦{電車|でんしゃ}→電車：00522_densha⟧⟦が→が：00051_ga⟧⟦{運休|うんきゅう}→運休：06807_unkyuu⟧になった。",
       "english": "Trains were suspended due to strong winds.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "15269_kyoufuu_ex3",
-      "japanese": "{台風|たいふう}の{影響|えいきょう}で{強風|きょうふう}が{吹|ふ}き{荒|あ}れ、{各地|かくち}で{被害|ひがい}が{出|で}た。",
+      "japanese": "⟦{台風|たいふう}→台風：01455_taifuu⟧⟦の→の：09472_no⟧⟦{影響|えいきょう}→影響：01877_eikyou⟧⟦で→で：00502_de⟧{強風|きょうふう}⟦が→が：00051_ga⟧⟦{吹|ふ}き{荒|あ}れ→吹き荒れる：08316_fukiareru⟧、⟦{各地|かくち}→各地：00155_kakuchi⟧⟦で→で：00502_de⟧⟦{被害|ひがい}→被害：02572_higai⟧⟦が→が：00051_ga⟧⟦{出|で}た→出る：00513_deru⟧。",
       "english": "Strong winds raged due to the typhoon, causing damage in various areas.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{強風|きょうふう} is a compound of {強|きょう} (strong) and {風|ふう} (wind). It is frequently used in weather forecasts and transportation announcements.\n\nCOMMON COLLOCATIONS:\n- {強風|きょうふう}が{吹|ふ}く (strong winds blow)\n- {強風|きょうふう}{注意報|ちゅういほう} (strong wind advisory)\n- {強風|きょうふう}のため (due to strong winds)\n- {強風|きょうふう}に{煽|あお}られる (to be buffeted by strong winds)\n\nSIMILAR WORDS:\n- {強風|きょうふう}: strong wind (neutral, weather term)\n- {暴風|ぼうふう}: violent wind, storm-force wind (more extreme)\n- {突風|とっぷう}: gust of wind (sudden, brief)\n- {微風|びふう}: gentle breeze (opposite end of scale)",
+  "notes": "USAGE:\n{強風|きょうふう} is a compound of {強|きょう} (strong) and {風|ふう} (wind). It is frequently used in weather forecasts and transportation announcements.\n\nCOMMON COLLOCATIONS:\n- {強風|きょうふう}⟦が→が：00051_ga⟧⟦{吹|ふ}く→吹く：02445_fuku⟧ (strong winds blow)\n- {強風|きょうふう}{注意報|ちゅういほう} (strong wind advisory)\n- {強風|きょうふう}⟦の→の：09472_no⟧⟦ため→ため：01145_tame⟧ (due to strong winds)\n- {強風|きょうふう}⟦に→に：00314_ni⟧⟦{煽|あお}られる→煽る：07924_aoru⟧ (to be buffeted by strong winds)\n\nSIMILAR WORDS:\n- {強風|きょうふう}: strong wind (neutral, weather term)\n- ⟦{暴風|ぼうふう}→暴風：07951_boufuu⟧: violent wind, storm-force wind (more extreme)\n- ⟦{突風|とっぷう}→突風：15921_toppuu⟧: gust of wind (sudden, brief)\n- ⟦{微風|びふう}→微風：21286_bifuu⟧: gentle breeze (opposite end of scale)",
   "cross_references": [
     {
       "type": "antonym",
@@ -52,11 +52,25 @@
       "reading": "びふう",
       "headword": "{微風|びふう}",
       "label": "light breeze"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07951_boufuu",
+      "reading": "ぼうふう",
+      "headword": "{暴風|ぼうふう}",
+      "label": "violent wind, storm-force wind"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15921_toppuu",
+      "reading": "とっぷう",
+      "headword": "{突風|とっぷう}",
+      "label": "gust of wind"
     }
   ],
   "metadata": {
     "created": "2026-03-06T08:11:33Z",
-    "modified": "2026-05-01T06:14:09Z",
+    "modified": "2026-09-02T04:01:40Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

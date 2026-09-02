@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08887_hitoban_ex1",
-      "japanese": "{一晩|ひとばん}{泊|と}まった。",
+      "japanese": "{一晩|ひとばん}⟦{泊|と}まった→泊まる：10445_tomaru⟧。",
       "english": "I stayed one night.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "08887_hitoban_ex2",
-      "japanese": "{一晩|ひとばん}{寝|ね}かせてから{食|た}べる。",
+      "japanese": "{一晩|ひとばん}⟦{寝|ね}かせて→寝かせる：12322_nekaseru⟧⟦から→から：00504_kara⟧⟦{食|た}べる→食べる：00396_taberu⟧。",
       "english": "Let it sit overnight before eating.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "08887_hitoban_ex3",
-      "japanese": "{一晩|ひとばん}で{仕上|しあ}げなければならない。",
+      "japanese": "{一晩|ひとばん}⟦で→で：00502_de⟧⟦{仕上|しあ}げ→仕上げる：04664_shiageru⟧⟦なければならない→なければならない：27600_nakerebanaranai⟧。",
       "english": "I have to finish it in one night.",
       "notes": null,
       "has_audio": false,
@@ -43,11 +43,26 @@
       ]
     }
   ],
-  "notes": "{一晩|ひとばん} refers to the duration of one night.\n\nCOMMON PATTERNS:\n- {一晩|ひとばん}{泊|と}まる: to stay one night\n- {一晩|ひとばん}{寝|ね}かせる: to let sit overnight\n- {一晩|ひとばん}{中|じゅう}: all night long ({一晩中|ひとばんじゅう})\n- {一晩|ひとばん}で: in one night\n- {一晩|ひとばん}かけて: taking one night\n\nRELATED TIME EXPRESSIONS:\n- {二晩|ふたばん}: two nights\n- {何晩|なんばん}: how many nights\n- {毎晩|まいばん}: every night\n\nThe related term {一晩中|ひとばんじゅう} means \"all night long\" or \"throughout the night.\"",
-  "cross_references": [],
+  "notes": "{一晩|ひとばん} refers to the duration of one night.\n\nCOMMON PATTERNS:\n- {一晩|ひとばん}⟦{泊|と}まる→泊まる：10445_tomaru⟧: to stay one night\n- {一晩|ひとばん}⟦{寝|ね}かせる→寝かせる：12322_nekaseru⟧: to let sit overnight\n- {一晩|ひとばん}{中|じゅう}: all night long ({一晩中|ひとばんじゅう})\n- {一晩|ひとばん}⟦で→で：00502_de⟧: in one night\n- {一晩|ひとばん}⟦かけて→かける：00854_kakeru⟧: taking one night\n\nRELATED TIME EXPRESSIONS:\n- {二晩|ふたばん}: two nights\n- {何晩|なんばん}: how many nights\n- ⟦{毎晩|まいばん}→毎晩：00967_maiban⟧: every night\n\nThe related term {一晩中|ひとばんじゅう} means \"all night long\" or \"throughout the night.\"",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "00967_maiban",
+      "reading": "まいばん",
+      "headword": "{毎晩|まいばん}",
+      "label": "every night"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08961_ichiya",
+      "reading": "いちや",
+      "headword": "{一夜|いちや}",
+      "label": "one night"
+    }
+  ],
   "metadata": {
     "created": "2026-01-29T02:49:58Z",
-    "modified": "2026-06-23T01:38:10Z",
+    "modified": "2026-09-02T04:01:16Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

@@ -3,7 +3,7 @@
   "id": "17968_bichousei",
   "headword": "{微調整|びちょうせい}",
   "reading": "びちょうせい",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "fine-tuning; minor adjustment",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "17968_bichousei_ex1",
-      "japanese": "カメラの{焦点|しょうてん}を{微調整|びちょうせい}した。",
+      "japanese": "⟦カメラ→カメラ：04417_kamera⟧⟦の→の：09472_no⟧⟦{焦点|しょうてん}→焦点：13413_shouten⟧⟦を→を：00422_wo⟧{微調整|びちょうせい}⟦した→する：00392_suru⟧。",
       "english": "I fine-tuned the camera's focus.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "17968_bichousei_ex2",
-      "japanese": "スケジュールの{微調整|びちょうせい}が{必要|ひつよう}です。",
+      "japanese": "⟦スケジュール→スケジュール：03850_sukejuuru⟧⟦の→の：09472_no⟧{微調整|びちょうせい}⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧です。",
       "english": "Minor adjustments to the schedule are needed.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "17968_bichousei_ex3",
-      "japanese": "{完成|かんせい}{間近|まぢか}のプロジェクトだが、まだいくつか{微調整|びちょうせい}すべき{点|てん}が{残|のこ}っている。",
+      "japanese": "⟦{完成|かんせい}→完成：01550_kansei⟧⟦{間近|まぢか}→間近：14527_majika⟧⟦の→の：09472_no⟧⟦プロジェクト→プロジェクト：06764_purojekuto⟧だ⟦が→が：00051_ga⟧、⟦まだ→まだ：00603_mada⟧いくつ⟦か→か：09473_ka⟧{微調整|びちょうせい}すべき⟦{点|てん}→点：01553_ten⟧⟦が→が：00051_ga⟧⟦{残|のこ}っている→残る：01187_nokoru⟧。",
       "english": "The project is nearly complete, but there are still a few points that need fine-tuning.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nImplies that the main work is done and only small refinements remain. Commonly used in business, engineering, creative work, and everyday planning.\n\nCOMMON COLLOCATIONS:\n- {微調整|びちょうせい}を{行|おこな}う (carry out fine adjustments)\n- {微調整|びちょうせい}を{加|くわ}える (add fine adjustments)\n- {微調整|びちょうせい}が{必要|ひつよう} (fine-tuning is needed)\n- {最後|さいご}の{微調整|びちょうせい} (final fine-tuning)\n\nSIMILAR WORDS:\n- {調整|ちょうせい}: adjustment — broader and more general; can refer to major adjustments too\n- {修正|しゅうせい}: correction — fixing something that is wrong, rather than optimizing something that is mostly right",
+  "notes": "USAGE:\nImplies that the main work is done and only small refinements remain. Commonly used in business, engineering, creative work, and everyday planning.\n\nCOMMON COLLOCATIONS:\n- {微調整|びちょうせい}⟦を→を：00422_wo⟧⟦{行|おこな}う→行う：01238_okonau⟧ (carry out fine adjustments)\n- {微調整|びちょうせい}⟦を→を：00422_wo⟧⟦{加|くわ}える→加える：01941_kuwaeru⟧ (add fine adjustments)\n- {微調整|びちょうせい}⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧ (fine-tuning is needed)\n- ⟦{最後|さいご}→最後：01413_saigo⟧⟦の→の：09472_no⟧{微調整|びちょうせい} (final fine-tuning)\n\nSIMILAR WORDS:\n- ⟦{調整|ちょうせい}→調整：14839_chousei⟧: adjustment — broader and more general; can refer to major adjustments too\n- ⟦{修正|しゅうせい}→修正：03210_shuusei⟧: correction — fixing something that is wrong, rather than optimizing something that is mostly right",
   "cross_references": [
     {
       "type": "related",
@@ -142,11 +142,18 @@
       "reading": "ちょうせい",
       "headword": "{調整|ちょうせい}",
       "label": "adjustment (general)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03210_shuusei",
+      "reading": "しゅうせい",
+      "headword": "{修正|しゅうせい}",
+      "label": "correction"
     }
   ],
   "metadata": {
     "created": "2026-03-19T10:05:24Z",
-    "modified": "2026-05-07T10:07:56Z",
+    "modified": "2026-09-02T04:01:50Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

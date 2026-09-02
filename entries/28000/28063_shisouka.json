@@ -15,41 +15,68 @@
   "examples": [
     {
       "id": "28063_shisouka_ex1",
-      "japanese": "{有名|ゆうめい}な{思想家|しそうか}。",
+      "japanese": "⟦{有名|ゆうめい}→有名：01106_yuumei⟧な{思想家|しそうか}。",
       "english": "A famous thinker.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28063_shisouka_ex2",
-      "japanese": "{彼|かれ}は{時代|じだい}を{代表|だいひょう}する{思想家|しそうか}だ。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{時代|じだい}→時代：01424_jidai⟧⟦を→を：00422_wo⟧⟦{代表|だいひょう}→代表：03419_daihyou⟧⟦する→する：00392_suru⟧{思想家|しそうか}だ。",
       "english": "He is a thinker who represents his era.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28063_shisouka_ex3",
-      "japanese": "その{思想家|しそうか}の{考|かんが}えは{後|のち}の{社会|しゃかい}に{大|おお}きな{影響|えいきょう}を{与|あた}えた。",
+      "japanese": "⟦その→その：00993_sono⟧{思想家|しそうか}⟦の→の：09472_no⟧⟦{考|かんが}え→考え：00855_kangae⟧⟦は→は：00079_ha⟧⟦{後|のち}→後：03545_nochi⟧⟦の→の：09472_no⟧⟦{社会|しゃかい}→社会：01427_shakai⟧⟦に→に：00314_ni⟧⟦{大|おお}きな→大きな：02849_ookina⟧⟦{影響|えいきょう}→影響：01877_eikyou⟧⟦を→を：00422_wo⟧⟦{与|あた}えた→与える：01821_ataeru⟧。",
       "english": "That thinker's ideas had a great influence on later society.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "The suffix 〜{家|か} marks a specialist or practitioner. {思想家|しそうか} stresses original thought rather than academic credentials.\n\nCOMMON COLLOCATIONS:\n- {時代|じだい}を{代表|だいひょう}する{思想家|しそうか}: a thinker representative of an era\n- {啓蒙|けいもう}{思想家|しそうか}: an Enlightenment thinker\n\nSIMILAR WORDS:\n- {哲学者|てつがくしゃ}: philosopher — focuses on philosophy as a discipline\n- {評論家|ひょうろんか}: critic; commentator — comments on current affairs and culture",
+  "notes": "The suffix 〜⟦{家|か}→〜家：28339_ka⟧ marks a specialist or practitioner. {思想家|しそうか} stresses original thought rather than academic credentials.\n\nCOMMON COLLOCATIONS:\n- ⟦{時代|じだい}→時代：01424_jidai⟧⟦を→を：00422_wo⟧⟦{代表|だいひょう}→代表：03419_daihyou⟧⟦する→する：00392_suru⟧{思想家|しそうか}: a thinker representative of an era\n- {啓蒙|けいもう}{思想家|しそうか}: an Enlightenment thinker\n\nSIMILAR WORDS:\n- ⟦{哲学者|てつがくしゃ}→哲学者：23941_tetsugakusha⟧: philosopher — focuses on philosophy as a discipline\n- ⟦{評論家|ひょうろんか}→評論家：16405_hyouronka⟧: critic; commentator — comments on current affairs and culture",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23941_tetsugakusha",
+      "reading": "てつがくしゃ",
+      "headword": "{哲学者|てつがくしゃ}",
+      "label": "philosopher"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16405_hyouronka",
+      "reading": "ひょうろんか",
+      "headword": "{評論家|ひょうろんか}",
+      "label": "critic"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["occupation", "person"],
+      "politeness": "plain",
+      "semantic": [
+        "occupation",
+        "person"
+      ],
       "domain": []
     },
     "created": "2026-05-25T02:04:35Z",
-    "modified": "2026-05-25T02:04:35Z"
+    "modified": "2026-09-02T04:02:32Z"
   }
 }

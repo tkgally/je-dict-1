@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "17123_jouba_ex1",
-      "japanese": "{乗馬|じょうば}を{習|なら}っている。",
+      "japanese": "{乗馬|じょうば}⟦を→を：00422_wo⟧⟦{習|なら}っている→習う：00479_narau⟧。",
       "english": "I'm taking horse riding lessons.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "17123_jouba_ex2",
-      "japanese": "{週末|しゅうまつ}に{乗馬|じょうば}クラブに{通|かよ}っている。",
+      "japanese": "⟦{週末|しゅうまつ}→週末：03030_shuumatsu⟧⟦に→に：00314_ni⟧{乗馬|じょうば}⟦クラブ→クラブ：10812_kurabu⟧⟦に→に：00314_ni⟧⟦{通|かよ}っている→通う：01217_kayou⟧。",
       "english": "I go to a riding club on weekends.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "17123_jouba_ex3",
-      "japanese": "{北海道|ほっかいどう}で{初|はじ}めて{乗馬|じょうば}{体験|たいけん}をしたが、{馬|うま}の{背中|せなか}は{思|おも}ったより{高|たか}くて{怖|こわ}かった。",
+      "japanese": "⟦{北海道|ほっかいどう}→北海道：11010_hokkaidou⟧⟦で→で：00502_de⟧⟦{初|はじ}めて→初めて：02932_hajimete⟧{乗馬|じょうば}⟦{体験|たいけん}→体験：11443_taiken⟧⟦を→を：00422_wo⟧⟦した→する：00392_suru⟧⟦が→が：00051_ga⟧、⟦{馬|うま}→馬：01865_uma⟧⟦の→の：09472_no⟧⟦{背中|せなか}→背中：00810_senaka⟧⟦は→は：00079_ha⟧⟦{思|おも}った→思う：00492_omou⟧⟦より→より：09476_yori⟧⟦{高|たか}くて→高い：00500_takai⟧⟦{怖|こわ}かった→怖い：00864_kowai⟧。",
       "english": "I tried horse riding for the first time in Hokkaido, and the horse's back was higher and scarier than I expected.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nUsed both for casual recreational riding and competitive equestrian sports. Can function as a verbal noun with する: {乗馬|じょうば}する (to ride a horse). Also used as a modifier: {乗馬|じょうば}クラブ (riding club), {乗馬|じょうば}{体験|たいけん} (riding experience).\n\nCOMMON COLLOCATIONS:\n- {乗馬|じょうば}クラブ (riding club)\n- {乗馬|じょうば}{体験|たいけん} (horse riding experience)\n- {乗馬|じょうば}する (to ride a horse)\n- {乗馬|じょうば}{教室|きょうしつ} (riding school)\n\nSIMILAR WORDS:\n- {騎馬|きば}: horseback, mounted — more historical/military\n- {馬術|ばじゅつ}: horsemanship, equestrian art — competitive/technical term",
+  "notes": "USAGE:\nUsed both for casual recreational riding and competitive equestrian sports. Can function as a verbal noun with ⟦する→する：00392_suru⟧: {乗馬|じょうば}⟦する→する：00392_suru⟧ (to ride a horse). Also used as a modifier: {乗馬|じょうば}⟦クラブ→クラブ：10812_kurabu⟧ (riding club), {乗馬|じょうば}⟦{体験|たいけん}→体験：11443_taiken⟧ (riding experience).\n\nCOMMON COLLOCATIONS:\n- {乗馬|じょうば}⟦クラブ→クラブ：10812_kurabu⟧ (riding club)\n- {乗馬|じょうば}⟦{体験|たいけん}→体験：11443_taiken⟧ (horse riding experience)\n- {乗馬|じょうば}⟦する→する：00392_suru⟧ (to ride a horse)\n- {乗馬|じょうば}⟦{教室|きょうしつ}→教室：00794_kyoushitsu⟧ (riding school)\n\nSIMILAR WORDS:\n- ⟦{騎馬|きば}→騎馬：24597_kiba⟧: horseback, mounted — more historical/military\n- {馬術|ばじゅつ}: horsemanship, equestrian art — competitive/technical term",
   "cross_references": [
     {
       "type": "related",
@@ -142,11 +142,18 @@
       "reading": "きば",
       "headword": "{騎馬|きば}",
       "label": "mounted, historical/military"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25138_kijou",
+      "reading": "きじょう",
+      "headword": "{騎乗|きじょう}",
+      "label": "horse riding"
     }
   ],
   "metadata": {
     "created": "2026-03-16T00:48:50Z",
-    "modified": "2026-07-22T18:50:18Z",
+    "modified": "2026-09-02T04:01:47Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

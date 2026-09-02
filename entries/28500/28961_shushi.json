@@ -15,44 +15,74 @@
   "examples": [
     {
       "id": "28961_shushi_ex1",
-      "japanese": "{論文|ろんぶん}の{主旨|しゅし}。",
+      "japanese": "⟦{論文|ろんぶん}→論文：03787_ronbun⟧⟦の→の：09472_no⟧{主旨|しゅし}。",
       "english": "The main point of the paper.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28961_shushi_ex2",
-      "japanese": "{主旨|しゅし}を{述|の}べる。",
+      "japanese": "{主旨|しゅし}⟦を→を：00422_wo⟧⟦{述|の}べる→述べる：02389_noberu⟧。",
       "english": "To state the main point.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28961_shushi_ex3",
-      "japanese": "{彼|かれ}の{発言|はつげん}の{主旨|しゅし}は{予算|よさん}{削減|さくげん}の{必要性|ひつようせい}だ。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧⟦{発言|はつげん}→発言：05099_hatsugen⟧⟦の→の：09472_no⟧{主旨|しゅし}⟦は→は：00079_ha⟧⟦{予算|よさん}→予算：03663_yosan⟧⟦{削減|さくげん}→削減：11789_sakugen⟧⟦の→の：09472_no⟧⟦{必要性|ひつようせい}→必要性：04821_hitsuyousei⟧だ。",
       "english": "The main point of his remarks is the need for budget cuts.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Written form often confused with {趣旨|しゅし} (purpose, intent). Both share the reading and overlap heavily, but {主旨|しゅし} leans toward 'central message of what was said' while {趣旨|しゅし} leans toward 'underlying purpose or aim'.\n\nCOMMON COLLOCATIONS:\n- {主旨|しゅし}を{述|の}べる: to state the main point\n- {主旨|しゅし}を{伝|つた}える: to convey the gist\n- {発言|はつげん}の{主旨|しゅし}: the gist of the remark\n\nSIMILAR WORDS:\n- {趣旨|しゅし}: purpose; intent — overlaps; preferred when emphasizing aim or rationale\n- {要旨|ようし}: summary; abstract — the summarized substance, often of a paper or speech",
+  "notes": "Written form often confused with ⟦{趣旨|しゅし}→趣旨：05629_shushi⟧ (purpose, intent). Both share the reading and overlap heavily, but {主旨|しゅし} leans toward 'central message of what was said' while ⟦{趣旨|しゅし}→趣旨：05629_shushi⟧ leans toward 'underlying purpose or aim'.\n\nCOMMON COLLOCATIONS:\n- {主旨|しゅし}⟦を→を：00422_wo⟧⟦{述|の}べる→述べる：02389_noberu⟧: to state the main point\n- {主旨|しゅし}⟦を→を：00422_wo⟧⟦{伝|つた}える→伝える：01220_tsutaeru⟧: to convey the gist\n- ⟦{発言|はつげん}→発言：05099_hatsugen⟧⟦の→の：09472_no⟧{主旨|しゅし}: the gist of the remark\n\nSIMILAR WORDS:\n- ⟦{趣旨|しゅし}→趣旨：05629_shushi⟧: purpose; intent — overlaps; preferred when emphasizing aim or rationale\n- ⟦{要旨|ようし}→要旨：04087_youshi⟧: summary; abstract — the summarized substance, often of a paper or speech",
   "schema_version": "2.0",
   "cross_references": [
-    {"type": "synonym", "target_id": "05629_shushi", "reading": "しゅし", "headword": "{趣旨|しゅし}", "label": "alt. kanji"}
+    {
+      "type": "synonym",
+      "target_id": "05629_shushi",
+      "reading": "しゅし",
+      "headword": "{趣旨|しゅし}",
+      "label": "alt. kanji"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04087_youshi",
+      "reading": "ようし",
+      "headword": "{要旨|ようし}",
+      "label": "summary"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23346_ronshi",
+      "reading": "ろんし",
+      "headword": "{論旨|ろんし}",
+      "label": "the point of an argument"
+    }
   ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
-      "politeness": null,
-      "semantic": ["abstract"],
+      "politeness": "plain",
+      "semantic": [
+        "abstract"
+      ],
       "domain": []
     },
     "created": "2026-06-08T04:06:16Z",
-    "modified": "2026-06-08T04:06:16Z"
+    "modified": "2026-09-02T04:02:35Z"
   }
 }

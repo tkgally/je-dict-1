@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "07623_honnou_ex1",
-      "japanese": "{本能|ほんのう}に{従|したが}う。",
+      "japanese": "{本能|ほんのう}⟦に→に：00314_ni⟧⟦{従|したが}う→従う：02059_shitagau⟧。",
       "english": "To follow one's instincts.",
       "has_audio": false,
       "sense_numbers": [
@@ -23,7 +23,7 @@
     },
     {
       "id": "07623_honnou_ex2",
-      "japanese": "{人間|にんげん}には{生存|せいぞん}{本能|ほんのう}がある。",
+      "japanese": "⟦{人間|にんげん}→人間：03523_ningen⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{生存|せいぞん}→生存：04335_seizon⟧{本能|ほんのう}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "Humans have a survival instinct.",
       "has_audio": false,
       "sense_numbers": [
@@ -32,7 +32,7 @@
     },
     {
       "id": "07623_honnou_ex3",
-      "japanese": "{危険|きけん}を{察知|さっち}するのは{本能|ほんのう}{的|てき}な{反応|はんのう}だ。",
+      "japanese": "⟦{危険|きけん}→危険：01141_kiken⟧⟦を→を：00422_wo⟧⟦{察知|さっち}→察知：21208_sacchi⟧⟦する→する：00392_suru⟧⟦の→の：09472_no⟧⟦は→は：00079_ha⟧{本能|ほんのう}⟦{的|てき}→〜的：09839_teki⟧な⟦{反応|はんのう}→反応：04812_hannou⟧だ。",
       "english": "Sensing danger is an instinctive reaction.",
       "has_audio": false,
       "sense_numbers": [
@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "notes": "COMMON COLLOCATIONS:\n・{本能|ほんのう}に{従|したが}う - to follow one's instincts\n・{本能|ほんのう}に{逆|さか}らう - to go against instinct\n・{本能|ほんのう}{的|てき}（な） - instinctive\n・{生存|せいぞん}{本能|ほんのう} - survival instinct\n・{母性|ぼせい}{本能|ほんのう} - maternal instinct\n・{防衛|ぼうえい}{本能|ほんのう} - defensive instinct\n\nCONTRAST WITH {直感|ちょっかん}:\n・{本能|ほんのう} - refers to innate, biological drives and behaviors\n・{直感|ちょっかん} - refers to immediate understanding or intuition (cognitive)\n\nThe adjectival form {本能|ほんのう}{的|てき}（な） means \"instinctive\" and is very common.",
+  "notes": "COMMON COLLOCATIONS:\n- {本能|ほんのう}⟦に→に：00314_ni⟧⟦{従|したが}う→従う：02059_shitagau⟧ - to follow one's instincts\n- {本能|ほんのう}⟦に→に：00314_ni⟧⟦{逆|さか}らう→逆らう：02106_sakarau⟧ - to go against instinct\n- {本能|ほんのう}{的|てき}（な） - instinctive\n- ⟦{生存|せいぞん}→生存：04335_seizon⟧{本能|ほんのう} - survival instinct\n- ⟦{母性|ぼせい}→母性：15688_bosei⟧{本能|ほんのう} - maternal instinct\n- ⟦{防衛|ぼうえい}→防衛：09783_bouei⟧{本能|ほんのう} - defensive instinct\n\nCONTRAST WITH {直感|ちょっかん}:\n- {本能|ほんのう} - refers to innate, biological drives and behaviors\n- ⟦{直感|ちょっかん}→直感：07624_chokkan⟧ - refers to immediate understanding or intuition (cognitive)\n\nThe adjectival form {本能|ほんのう}{的|てき}（な） means \"instinctive\" and is very common.",
   "cross_references": [
     {
       "type": "related",
@@ -48,11 +48,18 @@
       "headword": "{直感|ちょっかん}",
       "label": "intuition",
       "target_id": "07624_chokkan"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23367_tensei",
+      "reading": "てんせい",
+      "headword": "{天性|てんせい}",
+      "label": "innate nature"
     }
   ],
   "metadata": {
     "created": "2026-01-20T13:21:59Z",
-    "modified": "2026-08-11T09:37:41Z",
+    "modified": "2026-09-02T04:01:12Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +67,7 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "cognition",
         "science"

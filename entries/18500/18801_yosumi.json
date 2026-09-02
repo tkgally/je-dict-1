@@ -15,43 +15,62 @@
   "examples": [
     {
       "id": "18801_yosumi_ex1",
-      "japanese": "{部屋|へや}の{四隅|よすみ}を{掃除|そうじ}した。",
+      "japanese": "⟦{部屋|へや}→部屋：00507_heya⟧⟦の→の：09472_no⟧{四隅|よすみ}⟦を→を：00422_wo⟧⟦{掃除|そうじ}→掃除：02889_souji⟧⟦した→する：00392_suru⟧。",
       "english": "I cleaned the four corners of the room.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "18801_yosumi_ex2",
-      "japanese": "テーブルクロスの{四隅|よすみ}を{押|お}さえてください。",
+      "japanese": "テーブルクロス⟦の→の：09472_no⟧{四隅|よすみ}⟦を→を：00422_wo⟧⟦{押|お}さえて→押さえる：02021_osaeru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please hold down the four corners of the tablecloth.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "18801_yosumi_ex3",
-      "japanese": "{運動場|うんどうじょう}の{四隅|よすみ}にコーンが{置|お}かれている。",
+      "japanese": "⟦{運動場|うんどうじょう}→運動場：21813_undoujou⟧⟦の→の：09472_no⟧{四隅|よすみ}⟦に→に：00314_ni⟧⟦コーン→コーン：28894_koon⟧⟦が→が：00051_ga⟧⟦{置|お}かれている→置く：01092_oku⟧。",
       "english": "Cones are placed at the four corners of the playing field.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "{四隅|よすみ} refers to the four corners of any rectangular or square space or object.\n\nREADING:\nThe {四|よ} is a native Japanese (kun'yomi) reading, as in {四|よ}つ. The on'yomi compound {四隅|しぐう} does not exist — {四隅|よすみ} is the standard form.\n\nCOMMON PATTERNS:\n- {四隅|よすみ}に: at the four corners\n- {四隅|よすみ}を: the four corners (as object)\n- {四隅|よすみ}に{置|お}く: to place at the four corners\n\nTypically used for rooms, tables, pages, fields, envelopes, and other rectangular spaces.\n\nRELATED:\n- {隅|すみ}: corner (single)\n- {角|かど}: corner, edge (of a building or street)",
+  "notes": "{四隅|よすみ} refers to the four corners of any rectangular or square space or object.\n\nPRONUNCIATION:\nThe {四|よ} is a native Japanese (kun'yomi) reading, as in {四|よ}つ. The on'yomi compound {四隅|しぐう} does not exist — {四隅|よすみ} is the standard form.\n\nCOMMON PATTERNS:\n- {四隅|よすみ}⟦に→に：00314_ni⟧: at the four corners\n- {四隅|よすみ}⟦を→を：00422_wo⟧: the four corners (as object)\n- {四隅|よすみ}⟦に→に：00314_ni⟧⟦{置|お}く→置く：01092_oku⟧: to place at the four corners\n\nTypically used for rooms, tables, pages, fields, envelopes, and other rectangular spaces.\n\nRELATED WORDS:\n- ⟦{隅|すみ}→隅：01625_sumi⟧: corner (single)\n- ⟦{角|かど}→角：02195_kado⟧: corner, edge (of a building or street)",
   "synonyms": [],
   "antonyms": [],
   "related": [],
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "02195_kado",
+      "reading": "かど",
+      "headword": "{角|かど}",
+      "label": "corner, edge"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["direction"]
+      "semantic": [
+        "direction"
+      ]
     },
     "created": "2026-03-23T04:38:50Z",
-    "modified": "2026-03-25T12:24:31Z"
+    "modified": "2026-09-02T04:01:53Z"
   }
 }

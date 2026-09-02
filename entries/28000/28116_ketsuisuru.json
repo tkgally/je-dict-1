@@ -3,7 +3,7 @@
   "headword": "{決意|けつい}する",
   "reading": "けついする",
   "romaji": "ketsuisuru",
-  "part_of_speech": "verb-suru",
+  "part_of_speech": "suru verb",
   "gloss": "to resolve; to make up one's mind",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28116_ketsuisuru_ex1",
-      "japanese": "{留学|りゅうがく}を{決意|けつい}する。",
+      "japanese": "⟦{留学|りゅうがく}→留学：03677_ryuugaku⟧⟦を→を：00422_wo⟧{決意|けつい}する。",
       "english": "I resolve to study abroad.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28116_ketsuisuru_ex2",
-      "japanese": "{彼|かれ}は{独立|どくりつ}を{決意|けつい}した。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{独立|どくりつ}→独立：03488_dokuritsu⟧⟦を→を：00422_wo⟧{決意|けつい}した。",
       "english": "He made up his mind to become independent.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28116_ketsuisuru_ex3",
-      "japanese": "{何度|なんど}も{悩|なや}んだ{末|すえ}に、{会社|かいしゃ}を{辞|や}めることを{決意|けつい}した。",
+      "japanese": "⟦{何度|なんど}→何度：17592_nando⟧⟦も→も：00484_mo⟧⟦{悩|なや}んだ→悩む：02380_nayamu⟧⟦{末|すえ}→末：03362_sue⟧⟦に→に：00314_ni⟧、⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦を→を：00422_wo⟧{辞|や}めること⟦を→を：00422_wo⟧{決意|けつい}した。",
       "english": "After agonizing many times, I resolved to quit the company.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "{決意|けつい}する is a transitive suru-verb expressing a firm, weighty decision. The thing decided is marked with を, or a clause + ことを.\n\nCOMMON COLLOCATIONS:\n- {辞職|じしょく}を{決意|けつい}する: to resolve to resign\n- 〜することを{決意|けつい}する: to make up one's mind to do ~\n- {固|かた}く{決意|けつい}する: to be firmly resolved\n\nSIMILAR WORDS:\n- {決|き}める: to decide — everyday and lighter, for choices large and small\n- {決断|けつだん}する: to make a (difficult) decision — emphasizes choosing between options",
+  "notes": "{決意|けつい}する is a transitive suru-verb expressing a firm, weighty decision. The thing decided is marked with ⟦を→を：00422_wo⟧, or a clause + こと⟦を→を：00422_wo⟧.\n\nCOMMON COLLOCATIONS:\n- ⟦{辞職|じしょく}→辞職：06157_jishoku⟧⟦を→を：00422_wo⟧{決意|けつい}する: to resolve to resign\n- 〜⟦する→する：00392_suru⟧こと⟦を→を：00422_wo⟧{決意|けつい}する: to make up one's mind to do ~\n- ⟦{固|かた}く→固い：12090_katai⟧{決意|けつい}する: to be firmly resolved\n\nSIMILAR WORDS:\n- ⟦{決|き}める→決める：00858_kimeru⟧: to decide — everyday and lighter, for choices large and small\n- ⟦{決断|けつだん}→決断：13250_ketsudan⟧⟦する→する：00392_suru⟧: to make a (difficult) decision — emphasizes choosing between options",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00858_kimeru",
+      "reading": "きめる",
+      "headword": "{決|き}める",
+      "label": "to decide"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13250_ketsudan",
+      "reading": "けつだん",
+      "headword": "{決断|けつだん}",
+      "label": "to make a (difficult) decision"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,7 +78,7 @@
       "domain": []
     },
     "created": "2026-05-26T02:06:25Z",
-    "modified": "2026-06-09T15:41:12Z"
+    "modified": "2026-09-02T04:02:32Z"
   },
   "conjugation": {
     "type": "suru",

@@ -1,5 +1,11 @@
 # Pipeline Configuration
 
+> **Note (2026-09-02):** this prompt predates the current process. Where it says `make build` or
+> to commit `docs/`, run `make index` instead — the site is built by GitHub Actions after the merge
+> and `docs/` is no longer tracked. Where it says to place inline links or `noentry` markers by hand,
+> run `python3 build/auto_link.py --ids <ids> --apply` instead and add missing words as candidates.
+> The scheduled Routine is `prompts/routine2.md`; see `enhancement/assessment-2026-09-02.md`.
+
 Automated task queue for je-dict-1 dictionary maintenance. A pipeline config defines an ordered list of tasks that a runner script can execute sequentially, committing after each successful invocation.
 
 ## Files
@@ -151,7 +157,7 @@ After all tasks complete:
 | `example-sentences` | Basic/core entries have ≥ 3 examples |
 | `furigana-completeness` | `find_missing_furigana.py` gap report |
 | `furigana-correctness` | Baseline validation (manual review recommended) |
-| `semantic-labels` | `validate_tags.py` + `check_tag_consistency.py` |
+| `semantic-labels` | `validate_tags.py` |
 | `noentry-resolution` | Same as `new-entries` |
 | `expand-short-notes` | `find_missing_furigana.py` for notes fields |
 

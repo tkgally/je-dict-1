@@ -2,7 +2,7 @@
   "id": "18030_shutsudai",
   "headword": "{出題|しゅつだい}",
   "reading": "しゅつだい",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "setting a question; posing a problem",
   "conjugation": {
     "type": "suru",
@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "18030_shutsudai_ex1",
-      "japanese": "{先生|せんせい}が{問題|もんだい}を{出題|しゅつだい}する。",
+      "japanese": "⟦{先生|せんせい}→先生：00609_sensei⟧⟦が→が：00051_ga⟧⟦{問題|もんだい}→問題：00797_mondai⟧⟦を→を：00422_wo⟧{出題|しゅつだい}⟦する→する：00392_suru⟧。",
       "english": "The teacher sets the questions.",
       "sense_numbers": [
         1
@@ -114,7 +114,7 @@
     },
     {
       "id": "18030_shutsudai_ex2",
-      "japanese": "{出題|しゅつだい}{範囲|はんい}は{教科書|きょうかしょ}の3{章|しょう}までです。",
+      "japanese": "{出題|しゅつだい}⟦{範囲|はんい}→範囲：03567_hani⟧⟦は→は：00079_ha⟧⟦{教科書|きょうかしょ}→教科書：01085_kyoukasho⟧⟦の→の：09472_no⟧3⟦{章|しょう}→章：03768_shou⟧⟦まで→まで：00490_made⟧です。",
       "english": "The exam covers up to chapter 3 of the textbook.",
       "sense_numbers": [
         1
@@ -124,7 +124,7 @@
     },
     {
       "id": "18030_shutsudai_ex3",
-      "japanese": "{今年|ことし}の{入試|にゅうし}では{難|むずか}しい{問題|もんだい}が{出題|しゅつだい}されたらしい。",
+      "japanese": "⟦{今年|ことし}→今年：00722_kotoshi⟧⟦の→の：09472_no⟧⟦{入試|にゅうし}→入試：04705_nyuushi⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{難|むずか}しい→難しい：00517_muzukashii⟧⟦{問題|もんだい}→問題：00797_mondai⟧⟦が→が：00051_ga⟧{出題|しゅつだい}⟦された→する：00392_suru⟧らしい。",
       "english": "Apparently difficult questions were set in this year's entrance exam.",
       "sense_numbers": [
         1
@@ -133,7 +133,7 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {出|しゅつ} (put out) + {題|だい} (question/topic). Refers to creating and presenting questions in exams, quizzes, or competitions.\n\nCOMMON COLLOCATIONS:\n- {出題|しゅつだい}{範囲|はんい}: scope of the exam\n- {出題|しゅつだい}{傾向|けいこう}: question trends/patterns\n- {出題|しゅつだい}{者|しゃ}: question setter\n- {出題|しゅつだい}{形式|けいしき}: question format\n- {出題|しゅつだい}する: to set questions\n- {出題|しゅつだい}される: questions are set (passive)\n\nCONTRAST:\n- {出題|しゅつだい}: setting questions (examiner side)\n- {解答|かいとう}: answering (test-taker side)",
+  "notes": "A compound of {出|しゅつ} (put out) + {題|だい} (question/topic). Refers to creating and presenting questions in exams, quizzes, or competitions.\n\nCOMMON COLLOCATIONS:\n- {出題|しゅつだい}⟦{範囲|はんい}→範囲：03567_hani⟧: scope of the exam\n- {出題|しゅつだい}⟦{傾向|けいこう}→傾向：02695_keikou⟧: question trends/patterns\n- {出題|しゅつだい}{者|しゃ}: question setter\n- {出題|しゅつだい}⟦{形式|けいしき}→形式：00211_keishiki⟧: question format\n- {出題|しゅつだい}⟦する→する：00392_suru⟧: to set questions\n- {出題|しゅつだい}⟦される→する：00392_suru⟧: questions are set (passive)\n\nSIMILAR WORDS:\n- {出題|しゅつだい}: setting questions (examiner side)\n- ⟦{解答|かいとう}→解答：00447_kaitou⟧: answering (test-taker side)",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -147,10 +147,11 @@
       "semantic": [
         "education"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-03-19T12:16:57Z",
-    "modified": "2026-05-08T04:12:06Z"
+    "modified": "2026-09-02T04:01:50Z"
   },
   "cross_references": [
     {
@@ -159,6 +160,20 @@
       "reading": "かいとう",
       "headword": "{解答|かいとう}",
       "label": "answering (test-taker side)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22062_shikenmondai",
+      "reading": "しけんもんだい",
+      "headword": "{試験問題|しけんもんだい}",
+      "label": "exam question"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22077_setsumon",
+      "reading": "せつもん",
+      "headword": "{設問|せつもん}",
+      "label": "question (on a test or survey)"
     }
   ]
 }

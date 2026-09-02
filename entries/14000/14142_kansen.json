@@ -3,7 +3,7 @@
   "id": "14142_kansen",
   "headword": "{観戦|かんせん}",
   "reading": "かんせん",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "watching a game, spectating",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "14142_kansen_ex1",
-      "japanese": "{野球|やきゅう}を{観戦|かんせん}する。",
+      "japanese": "⟦{野球|やきゅう}→野球：04727_yakyuu⟧⟦を→を：00422_wo⟧{観戦|かんせん}⟦する→する：00392_suru⟧。",
       "english": "I watch a baseball game.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "14142_kansen_ex2",
-      "japanese": "{週末|しゅうまつ}はサッカーの{観戦|かんせん}に{行|い}く{予定|よてい}だ。",
+      "japanese": "⟦{週末|しゅうまつ}→週末：03030_shuumatsu⟧⟦は→は：00079_ha⟧⟦サッカー→サッカー：04726_sakkaa⟧⟦の→の：09472_no⟧{観戦|かんせん}⟦に→に：00314_ni⟧⟦{行|い}く→行く：00119_iku⟧⟦{予定|よてい}→予定：00824_yotei⟧だ。",
       "english": "I plan to go watch a soccer match this weekend.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "14142_kansen_ex3",
-      "japanese": "{初|はじ}めて{相撲|すもう}を{生|なま}で{観戦|かんせん}したが、テレビとは{迫力|はくりょく}が{全然|ぜんぜん}{違|ちが}った。",
+      "japanese": "⟦{初|はじ}めて→初めて：02932_hajimete⟧⟦{相撲|すもう}→相撲：00390_sumou⟧⟦を→を：00422_wo⟧⟦{生|なま}→生：03509_nama⟧で{観戦|かんせん}⟦した→する：00392_suru⟧⟦が→が：00051_ga⟧、⟦テレビ→テレビ：01536_terebi⟧⟦と→と：00512_to⟧⟦は→は：00079_ha⟧⟦{迫力|はくりょく}→迫力：14310_hakuryoku⟧⟦が→が：00051_ga⟧⟦{全然|ぜんぜん}→全然：00598_zenzen⟧⟦{違|ちが}った→違う：01957_chigau⟧。",
       "english": "I watched sumo live for the first time, and the intensity was completely different from TV.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,19 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{観戦|かんせん} is specifically for watching competitive events (sports, battles, matches). For watching performances like concerts or movies, use {鑑賞|かんしょう} or {観賞|かんしょう} instead. Do not confuse with the homophone {感染|かんせん} (infection).\n\nCOMMON COLLOCATIONS:\n- {観戦|かんせん}する: to watch a game/match\n- {観戦|かんせん}に{行|い}く: to go watch a game\n- {生|なま}{観戦|かんせん}: watching live (in person)\n- {観戦|かんせん}チケット: spectator ticket\n- {観戦|かんせん}{記|き}: game/match report",
-  "cross_references": [],
+  "notes": "USAGE:\n{観戦|かんせん} is specifically for watching competitive events (sports, battles, matches). For watching performances like concerts or movies, use ⟦{鑑賞|かんしょう}→鑑賞：14516_kanshou⟧ or ⟦{観賞|かんしょう}→観賞：14195_kanshou⟧ instead. Do not confuse with the homophone ⟦{感染|かんせん}→感染：05977_kansen⟧ (infection).\n\nCOMMON COLLOCATIONS:\n- {観戦|かんせん}⟦する→する：00392_suru⟧: to watch a game/match\n- {観戦|かんせん}⟦に→に：00314_ni⟧⟦{行|い}く→行く：00119_iku⟧: to go watch a game\n- ⟦{生|なま}→生：03509_nama⟧{観戦|かんせん}: watching live (in person)\n- {観戦|かんせん}⟦チケット→チケット：11014_chiketto⟧: spectator ticket\n- {観戦|かんせん}{記|き}: game/match report",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "08382_kanran",
+      "reading": "かんらん",
+      "headword": "{観覧|かんらん}",
+      "label": "viewing"
+    }
+  ],
   "metadata": {
     "created": "2026-02-28T01:21:03Z",
-    "modified": "2026-03-29T03:08:18Z",
+    "modified": "2026-09-02T04:01:36Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -151,7 +159,8 @@
       "semantic": [
         "leisure"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   },
   "prominent_see_also": [

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "11408_shushoku_ex1",
-      "japanese": "{日本|にほん}の{主食|しゅしょく}は{米|こめ}だ。",
+      "japanese": "⟦{日本|にほん}→日本：03876_nihon⟧⟦の→の：09472_no⟧{主食|しゅしょく}⟦は→は：00079_ha⟧⟦{米|こめ}→米：01323_kome⟧だ。",
       "english": "The staple food of Japan is rice.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "11408_shushoku_ex2",
-      "japanese": "{主食|しゅしょく}は{米|こめ}にしますか、パンにしますか。",
+      "japanese": "{主食|しゅしょく}⟦は→は：00079_ha⟧⟦{米|こめ}→米：01323_kome⟧にします⟦か→か：09473_ka⟧、⟦パン→パン：00553_pan⟧にします⟦か→か：09473_ka⟧。",
       "english": "Would you like rice or bread as your main carb?",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "11408_shushoku_ex3",
-      "japanese": "ダイエット{中|ちゅう}は{主食|しゅしょく}の{量|りょう}を{減|へ}らして、{野菜|やさい}を{多|おお}く{食|た}べるようにしている。",
+      "japanese": "⟦ダイエット→ダイエット：17678_daietto⟧⟦{中|ちゅう}→〜中：09840_chuu⟧⟦は→は：00079_ha⟧{主食|しゅしょく}⟦の→の：09472_no⟧⟦{量|りょう}→量：03799_ryou⟧⟦を→を：00422_wo⟧⟦{減|へ}らして→減らす：02414_herasu⟧、⟦{野菜|やさい}→野菜：02265_yasai⟧⟦を→を：00422_wo⟧⟦{多|おお}く→多い：01127_ooi⟧⟦{食|た}べる→食べる：00396_taberu⟧ようにして⟦いる→いる：00495_iru⟧。",
       "english": "While dieting, I try to reduce the amount of staple carbs and eat more vegetables.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "In Japanese dietary culture, meals are structured around {主食|しゅしょく} (staple carbohydrate), {主菜|しゅさい} (main dish, usually protein), and {副菜|ふくさい} (side dishes). The {主食|しゅしょく} is typically {米|こめ} (rice), パン (bread), or {麺|めん} (noodles).\n\nCOMMON COLLOCATIONS:\n- {主食|しゅしょく}を{食|た}べる (to eat one's staple food)\n- {主食|しゅしょく}を{抜|ぬ}く (to skip the staple food)\n- {主食|しゅしょく}の{量|りょう}を{減|へ}らす (to reduce staple food intake)",
+  "notes": "In Japanese dietary culture, meals are structured around {主食|しゅしょく} (staple carbohydrate), ⟦{主菜|しゅさい}→主菜：04995_shusai⟧ (main dish, usually protein), and ⟦{副菜|ふくさい}→副菜：04993_fukusai⟧ (side dishes). The {主食|しゅしょく} is typically ⟦{米|こめ}→米：01323_kome⟧ (rice), ⟦パン→パン：00553_pan⟧ (bread), or ⟦{麺|めん}→麺：14644_men⟧ (noodles).\n\nCOMMON COLLOCATIONS:\n- {主食|しゅしょく}⟦を→を：00422_wo⟧⟦{食|た}べる→食べる：00396_taberu⟧ (to eat one's staple food)\n- {主食|しゅしょく}⟦を→を：00422_wo⟧⟦{抜|ぬ}く→抜く：02384_nuku⟧ (to skip the staple food)\n- {主食|しゅしょく}⟦の→の：09472_no⟧⟦{量|りょう}→量：03799_ryou⟧⟦を→を：00422_wo⟧⟦{減|へ}らす→減らす：02414_herasu⟧ (to reduce staple food intake)",
   "cross_references": [
     {
       "type": "related",
@@ -66,11 +66,18 @@
       "reading": "ふくしょく",
       "headword": "{副食|ふくしょく}",
       "label": "side dishes"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19477_kokurui",
+      "reading": "こくるい",
+      "headword": "{穀類|こくるい}",
+      "label": "grains"
     }
   ],
   "metadata": {
     "created": "2026-02-16T07:35:11Z",
-    "modified": "2026-05-05T10:11:30Z",
+    "modified": "2026-09-02T04:01:25Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

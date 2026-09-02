@@ -63,11 +63,54 @@
       ]
     }
   ],
-  "notes": "{今朝|けさ} means this morning. Note the irregular reading.\n\nREADING:\nRead as けさ (NOT こんあさ or いまあさ). This is a special compound reading.\n\nRELATED TIME EXPRESSIONS:\n- ⟦{今日|きょう}→今日：00496_kyou⟧: today\n- ⟦{今晩|こんばん}→今晩：02882_konban⟧: tonight\n- ⟦{今夜|こんや}→今夜：01411_konya⟧: tonight\n- ⟦{昨日|きのう}→昨日：00859_kinou⟧: yesterday\n- ⟦{明日|あした}→明日：00501_ashita⟧: tomorrow\n\nCOMMON PATTERNS:\n- {今朝|けさ}⟦の→の：09472_no⟧⟦{新聞|しんぶん}→新聞：01440_shinbun⟧: this morning's newspaper\n- {今朝|けさ}⟦から→から：00504_kara⟧: since this morning\n- {今朝|けさ}⟦は→は：00079_ha⟧⟦{早|はや}く→速い／早い：00514_hayai⟧⟦{起|お}きた→起きる：00521_okiru⟧: I woke up early this morning\n\nSIMILAR IRREGULAR READINGS:\n- ⟦{今日|きょう}→今日：00496_kyou⟧: today (not こんにち)\n- ⟦{昨日|きのう}→昨日：00859_kinou⟧: yesterday (not さくじつ)",
-  "cross_references": [],
+  "notes": "{今朝|けさ} means this morning. Note the irregular reading.\n\nPRONUNCIATION:\nRead as けさ (NOT こんあさ or いまあさ). This is a special compound reading.\n\nRELATED TIME EXPRESSIONS:\n- ⟦{今日|きょう}→今日：00496_kyou⟧: today\n- ⟦{今晩|こんばん}→今晩：02882_konban⟧: tonight\n- ⟦{今夜|こんや}→今夜：01411_konya⟧: tonight\n- ⟦{昨日|きのう}→昨日：00859_kinou⟧: yesterday\n- ⟦{明日|あした}→明日：00501_ashita⟧: tomorrow\n\nCOMMON PATTERNS:\n- {今朝|けさ}⟦の→の：09472_no⟧⟦{新聞|しんぶん}→新聞：01440_shinbun⟧: this morning's newspaper\n- {今朝|けさ}⟦から→から：00504_kara⟧: since this morning\n- {今朝|けさ}⟦は→は：00079_ha⟧⟦{早|はや}く→速い／早い：00514_hayai⟧⟦{起|お}きた→起きる：00521_okiru⟧: I woke up early this morning\n\nSIMILAR IRREGULAR READINGS:\n- ⟦{今日|きょう}→今日：00496_kyou⟧: today (not こんにち)\n- ⟦{昨日|きのう}→昨日：00859_kinou⟧: yesterday (not さくじつ)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "00496_kyou",
+      "reading": "きょう",
+      "headword": "{今日|きょう}",
+      "label": "today"
+    },
+    {
+      "type": "related",
+      "target_id": "02882_konban",
+      "reading": "こんばん",
+      "headword": "{今晩|こんばん}",
+      "label": "tonight"
+    },
+    {
+      "type": "related",
+      "target_id": "01411_konya",
+      "reading": "こんや",
+      "headword": "{今夜|こんや}",
+      "label": "tonight"
+    },
+    {
+      "type": "related",
+      "target_id": "00859_kinou",
+      "reading": "きのう",
+      "headword": "{昨日|きのう}",
+      "label": "yesterday"
+    },
+    {
+      "type": "related",
+      "target_id": "00501_ashita",
+      "reading": "あした",
+      "headword": "{明日|あした}",
+      "label": "tomorrow"
+    },
+    {
+      "type": "related",
+      "target_id": "00721_konshuu",
+      "reading": "こんしゅう",
+      "headword": "{今週|こんしゅう}",
+      "label": "this week"
+    }
+  ],
   "metadata": {
     "created": "2026-01-11T09:35:00Z",
-    "modified": "2026-07-29T21:21:40Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

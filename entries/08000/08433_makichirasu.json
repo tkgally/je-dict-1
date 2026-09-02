@@ -2,7 +2,7 @@
   "id": "08433_makichirasu",
   "headword": "{撒|ま}き{散|ち}らす",
   "reading": "まきちらす",
-  "part_of_speech": "godan verb",
+  "part_of_speech": "verb (godan)",
   "verb_type": "godan verb",
   "transitivity": "transitive",
   "gloss": "to scatter; to spread around; to strew",
@@ -111,7 +111,7 @@
   "examples": [
     {
       "id": "08433_makichirasu_ex1",
-      "japanese": "{種|たね}を{撒|ま}き{散|ち}らす。",
+      "japanese": "⟦{種|たね}→種：02157_tane⟧⟦を→を：00422_wo⟧{撒|ま}き{散|ち}らす。",
       "english": "To scatter seeds.",
       "sense_numbers": [
         1
@@ -121,7 +121,7 @@
     },
     {
       "id": "08433_makichirasu_ex2",
-      "japanese": "{子供|こども}がおもちゃを{部屋中|へやじゅう}に{撒|ま}き{散|ち}らした。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧⟦が→が：00051_ga⟧⟦おもちゃ→おもちゃ：01334_omocha⟧⟦を→を：00422_wo⟧{部屋中|へやじゅう}⟦に→に：00314_ni⟧{撒|ま}き{散|ち}らした。",
       "english": "The child scattered toys all over the room.",
       "sense_numbers": [
         1
@@ -131,7 +131,7 @@
     },
     {
       "id": "08433_makichirasu_ex3",
-      "japanese": "{風|かぜ}が{落|お}ち{葉|ば}を{撒|ま}き{散|ち}らした。",
+      "japanese": "⟦{風|かぜ}→風：00641_kaze⟧⟦が→が：00051_ga⟧⟦{落|お}ち{葉|ば}→落ち葉：14108_ochiba⟧⟦を→を：00422_wo⟧{撒|ま}き{散|ち}らした。",
       "english": "The wind scattered the fallen leaves.",
       "sense_numbers": [
         1
@@ -141,7 +141,7 @@
     },
     {
       "id": "08433_makichirasu_ex4",
-      "japanese": "{噂|うわさ}を{撒|ま}き{散|ち}らす。",
+      "japanese": "⟦{噂|うわさ}→噂：01871_uwasa⟧⟦を→を：00422_wo⟧{撒|ま}き{散|ち}らす。",
       "english": "To spread rumors.",
       "sense_numbers": [
         2
@@ -150,7 +150,30 @@
       "notes": null
     }
   ],
-  "notes": "COMPOUND VERB:\nCombines {撒|ま}く (to scatter, sow) + {散|ち}らす (to scatter about). The combination intensifies the scattering action — things are spread widely and messily.\n\nTRANSITIVITY:\n- Type: {他動詞|たどうし} (transitive)\n- Takes を particle: 〜を{撒|ま}き{散|ち}らす\n\nASPECT (ている):\n{撒|ま}き{散|ち}らしている describes an ongoing scattering action or a resulting state of things being scattered about.\n\nRELATED TERMS:\n- {撒|ま}く: to scatter, sow (basic)\n- {散|ち}らす: to scatter (basic)\n- {散|ち}らばる: to be scattered (intransitive)\n- ばらまく: to scatter, hand out indiscriminately",
+  "notes": "COMPOUND VERB:\nCombines ⟦{撒|ま}く→撒く：12711_maku⟧ (to scatter, sow) + ⟦{散|ち}らす→散らす：02288_chirasu⟧ (to scatter about). The combination intensifies the scattering action — things are spread widely and messily.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- Takes ⟦を→を：00422_wo⟧ particle: 〜⟦を→を：00422_wo⟧{撒|ま}き{散|ち}らす\n\nASPECT (ている):\n{撒|ま}き{散|ち}らして⟦いる→いる：00495_iru⟧ describes an ongoing scattering action or a resulting state of things being scattered about.\n\nRELATED WORDS:\n- ⟦{撒|ま}く→撒く：12711_maku⟧: to scatter, sow (basic)\n- ⟦{散|ち}らす→散らす：02288_chirasu⟧: to scatter (basic)\n- ⟦{散|ち}らばる→散らばる：12713_chirabaru⟧: to be scattered (intransitive)\n- ばらまく: to scatter, hand out indiscriminately",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "12711_maku",
+      "reading": "まく",
+      "headword": "{撒|ま}く",
+      "label": "to scatter, sow"
+    },
+    {
+      "type": "related",
+      "target_id": "12713_chirabaru",
+      "reading": "ちらばる",
+      "headword": "{散|ち}らばる",
+      "label": "to be scattered"
+    },
+    {
+      "type": "related",
+      "target_id": "10489_baramaku",
+      "reading": "ばらまく",
+      "headword": "ばら{撒|ま}く",
+      "label": "to scatter, hand out indiscriminately"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -159,6 +182,7 @@
       ],
       "transitivity": "transitive",
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "action",
         "movement"
@@ -166,6 +190,6 @@
       "verb_class": "godan-su"
     },
     "created": "2026-01-27T00:58:00Z",
-    "modified": "2026-08-12T12:51:44Z"
+    "modified": "2026-09-02T04:01:15Z"
   }
 }

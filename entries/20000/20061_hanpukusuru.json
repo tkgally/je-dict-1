@@ -3,7 +3,7 @@
   "headword": "{反復|はんぷく}する",
   "reading": "はんぷくする",
   "romaji": "hanpuku suru",
-  "part_of_speech": "verb (suru)",
+  "part_of_speech": "suru verb",
   "gloss": "to repeat; to reiterate; to do over and over",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "20061_hanpukusuru_ex1",
-      "japanese": "{同|おな}じミスを{反復|はんぷく}する。",
+      "japanese": "⟦{同|おな}じ→同じ：02857_onaji⟧⟦ミス→ミス：00285_misu⟧⟦を→を：00422_wo⟧{反復|はんぷく}する。",
       "english": "To repeat the same mistake.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "20061_hanpukusuru_ex2",
-      "japanese": "{反復|はんぷく}{練習|れんしゅう}で{技術|ぎじゅつ}を{身|み}につける。",
+      "japanese": "⟦{反復|はんぷく}{練習|れんしゅう}→反復練習：22063_hanpukurenshuu⟧⟦で→で：00502_de⟧⟦{技術|ぎじゅつ}→技術：01389_gijutsu⟧⟦を→を：00422_wo⟧⟦{身|み}につける→身につける：03158_minitsukeru⟧。",
       "english": "To acquire skills through repeated practice.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "20061_hanpukusuru_ex3",
-      "japanese": "この{作業|さぎょう}は{何度|なんど}も{反復|はんぷく}して{行|おこな}う{必要|ひつよう}がある。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{作業|さぎょう}→作業：02775_sagyou⟧⟦は→は：00079_ha⟧⟦{何度|なんど}→何度：17592_nando⟧⟦も→も：00484_mo⟧{反復|はんぷく}して⟦{行|おこな}う→行う：01238_okonau⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "This task needs to be carried out repeatedly.",
       "sense_numbers": [
         1
@@ -134,8 +134,24 @@
       "notes": null
     }
   ],
-  "notes": "To do the same thing again and again in a systematic or deliberate way. More formal than {繰|く}り{返|かえ}す and often implies purposeful repetition for learning or practice.\n\nCOMMON COLLOCATIONS:\n- {反復|はんぷく}{練習|れんしゅう}: repeated practice, drill\n- {反復|はんぷく}{学習|がくしゅう}: repetitive learning\n- {反復|はんぷく}{作業|さぎょう}: repetitive work\n- {反復|はんぷく}して{行|おこな}う: to carry out repeatedly\n\nSIMILAR WORDS:\n- {繰|く}り{返|かえ}す: to repeat — the everyday word for repetition; much more common in conversation\n- {反復|はんぷく}: more formal and written; emphasizes systematic, deliberate repetition\n- {再|ふたた}び: again — simply means once more, without the \"over and over\" nuance",
+  "notes": "To do the same thing again and again in a systematic or deliberate way. More formal than ⟦{繰|く}り{返|かえ}す→繰り返す：02051_kurikaesu⟧ and often implies purposeful repetition for learning or practice.\n\nCOMMON COLLOCATIONS:\n- ⟦{反復|はんぷく}{練習|れんしゅう}→反復練習：22063_hanpukurenshuu⟧: repeated practice, drill\n- ⟦{反復|はんぷく}→反復：11096_hanpuku⟧⟦{学習|がくしゅう}→学習：02623_gakushuu⟧: repetitive learning\n- ⟦{反復|はんぷく}→反復：11096_hanpuku⟧⟦{作業|さぎょう}→作業：02775_sagyou⟧: repetitive work\n- {反復|はんぷく}して⟦{行|おこな}う→行う：01238_okonau⟧: to carry out repeatedly\n\nSIMILAR WORDS:\n- ⟦{繰|く}り{返|かえ}す→繰り返す：02051_kurikaesu⟧: to repeat — the everyday word for repetition; much more common in conversation\n- ⟦{反復|はんぷく}→反復：11096_hanpuku⟧: more formal and written; emphasizes systematic, deliberate repetition\n- ⟦{再|ふたた}び→再び：03600_futatabi⟧: again — simply means once more, without the \"over and over\" nuance",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02051_kurikaesu",
+      "reading": "くりかえす",
+      "headword": "{繰|く}り{返|かえ}す",
+      "label": "to repeat"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03600_futatabi",
+      "reading": "ふたたび",
+      "headword": "{再|ふたた}び",
+      "label": "again"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -147,9 +163,10 @@
       "semantic": [
         "abstract"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-03-28T06:15:15Z",
-    "modified": "2026-03-28T06:15:15Z"
+    "modified": "2026-09-02T04:01:58Z"
   }
 }

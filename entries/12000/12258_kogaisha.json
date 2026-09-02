@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "12258_kogaisha_ex1",
-      "japanese": "{子会社|こがいしゃ}を{設立|せつりつ}する。",
+      "japanese": "{子会社|こがいしゃ}⟦を→を：00422_wo⟧⟦{設立|せつりつ}する→設立する：17473_setsuritsusuru⟧。",
       "english": "To establish a subsidiary.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12258_kogaisha_ex2",
-      "japanese": "あの{会社|かいしゃ}は{大手|おおて}メーカーの{子会社|こがいしゃ}だ。",
+      "japanese": "⟦あの→あの：00915_ano⟧⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦は→は：00079_ha⟧⟦{大手|おおて}→大手：12171_oote⟧⟦メーカー→メーカー：11158_meekaa⟧⟦の→の：09472_no⟧{子会社|こがいしゃ}だ。",
       "english": "That company is a subsidiary of a major manufacturer.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12258_kogaisha_ex3",
-      "japanese": "{親会社|おやがいしゃ}が{経営|けいえい}{不振|ふしん}になり、{子会社|こがいしゃ}も{売却|ばいきゃく}されることになった。",
+      "japanese": "⟦{親会社|おやがいしゃ}→親会社：19734_oyagaisha⟧⟦が→が：00051_ga⟧⟦{経営|けいえい}→経営：02740_keiei⟧⟦{不振|ふしん}→不振：07771_fushin⟧⟦に→に：00314_ni⟧⟦なり→なる：01970_naru⟧、{子会社|こがいしゃ}⟦も→も：00484_mo⟧⟦{売却|ばいきゃく}→売却：12123_baikyaku⟧⟦される→する：00392_suru⟧ことになった。",
       "english": "The parent company fell into financial trouble, and the subsidiary was to be sold off as well.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nA business term using the metaphor of parent and child: {親会社|おやがいしゃ} (parent company) and {子会社|こがいしゃ} (child company / subsidiary). There is also {孫会社|まごがいしゃ} (grandchild company), a subsidiary of a subsidiary.\n\nCOMMON COLLOCATIONS:\n- {子会社|こがいしゃ}を{設立|せつりつ}する: to establish a subsidiary\n- {完全|かんぜん}{子会社|こがいしゃ}: wholly owned subsidiary\n- {連結|れんけつ}{子会社|こがいしゃ}: consolidated subsidiary\n- {子会社|こがいしゃ}{化|か}する: to make into a subsidiary\n\nRELATED TERMS:\n{親会社|おやがいしゃ} (parent company), {関連|かんれん}{会社|がいしゃ} (affiliated company), {孫会社|まごがいしゃ} (sub-subsidiary).",
+  "notes": "USAGE:\nA business term using the metaphor of parent and child: ⟦{親会社|おやがいしゃ}→親会社：19734_oyagaisha⟧ (parent company) and {子会社|こがいしゃ} (child company / subsidiary). There is also {孫会社|まごがいしゃ} (grandchild company), a subsidiary of a subsidiary.\n\nCOMMON COLLOCATIONS:\n- {子会社|こがいしゃ}⟦を→を：00422_wo⟧⟦{設立|せつりつ}する→設立する：17473_setsuritsusuru⟧: to establish a subsidiary\n- ⟦{完全|かんぜん}→完全：01552_kanzen⟧{子会社|こがいしゃ}: wholly owned subsidiary\n- ⟦{連結|れんけつ}→連結：14388_renketsu⟧{子会社|こがいしゃ}: consolidated subsidiary\n- {子会社|こがいしゃ}⟦{化|か}→〜化：28335_ka⟧⟦する→する：00392_suru⟧: to make into a subsidiary\n\nRELATED WORDS:\n⟦{親会社|おやがいしゃ}→親会社：19734_oyagaisha⟧ (parent company), ⟦{関連|かんれん}{会社|がいしゃ}→関連会社：19758_kanrengaisha⟧ (affiliated company), {孫会社|まごがいしゃ} (sub-subsidiary).",
   "prominent_see_also": [
     {
       "target_id": "19734_oyagaisha",
@@ -47,18 +53,32 @@
       "note": "parent company"
     }
   ],
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "19758_kanrengaisha",
+      "reading": "かんれんがいしゃ",
+      "headword": "{関連会社|かんれんがいしゃ}",
+      "label": "affiliated company"
+    }
+  ],
   "metadata": {
     "created": "2026-02-20T13:42:05Z",
-    "modified": "2026-04-26T08:07:12Z",
+    "modified": "2026-09-02T04:01:28Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["work"],
-      "domain": ["business"]
+      "semantic": [
+        "work"
+      ],
+      "domain": [
+        "business"
+      ]
     }
   }
 }

@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "20187_rippuku_ex1",
-      "japanese": "{彼|かれ}は{立腹|りっぷく}している。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{立腹|りっぷく}⟦している→する：00392_suru⟧。",
       "english": "He is angry.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "20187_rippuku_ex2",
-      "japanese": "{無礼|ぶれい}な{態度|たいど}に{立腹|りっぷく}した。",
+      "japanese": "⟦{無礼|ぶれい}→無礼：15041_burei⟧な⟦{態度|たいど}→態度：03396_taido⟧⟦に→に：00314_ni⟧{立腹|りっぷく}⟦した→する：00392_suru⟧。",
       "english": "I was offended by the rude attitude.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "20187_rippuku_ex3",
-      "japanese": "お{客様|きゃくさま}が{対応|たいおう}の{悪|わる}さに{大変|たいへん}{立腹|りっぷく}されているようです。",
+      "japanese": "⟦お{客様|きゃくさま}→お客様：08780_okyakusama⟧⟦が→が：00051_ga⟧⟦{対応|たいおう}→対応：02510_taiou⟧⟦の→の：09472_no⟧{悪|わる}さ⟦に→に：00314_ni⟧⟦{大変|たいへん}→大変：00594_taihen⟧{立腹|りっぷく}⟦されている→する：00392_suru⟧ようです。",
       "english": "The customer appears to be very upset about the poor service.",
       "sense_numbers": [
         1
@@ -134,8 +134,38 @@
       "notes": null
     }
   ],
-  "notes": "A relatively formal way to express anger. Composed of {立|りつ} (to rise) + {腹|ぷく} (belly/stomach), literally \"the stomach rises\" — related to the Japanese association of the belly with emotions.\n\nCOMMON COLLOCATIONS:\n- {立腹|りっぷく}する: to be angered, to take offense\n- {大変|たいへん}{立腹|りっぷく}する: to be very angry\n- ご{立腹|りっぷく}: your anger (respectful)\n\nSIMILAR WORDS:\n- {怒|いか}り: anger — the most general word for anger\n- {憤慨|ふんがい}: indignation — anger at something perceived as unjust\n- {激怒|げきど}: fury, rage — much stronger intensity\n\nREGISTER:\n{立腹|りっぷく} is more formal and restrained than {怒|おこ}る. It often appears in business or formal contexts, especially in the respectful form ご{立腹|りっぷく}.",
+  "notes": "A relatively formal way to express anger. Composed of {立|りつ} (to rise) + {腹|ぷく} (belly/stomach), literally \"the stomach rises\" — related to the Japanese association of the belly with emotions.\n\nCOMMON COLLOCATIONS:\n- {立腹|りっぷく}⟦する→する：00392_suru⟧: to be angered, to take offense\n- ⟦{大変|たいへん}→大変：00594_taihen⟧{立腹|りっぷく}⟦する→する：00392_suru⟧: to be very angry\n- ご{立腹|りっぷく}: your anger (respectful)\n\nSIMILAR WORDS:\n- ⟦{怒|いか}り→怒り：01780_ikari⟧: anger — the most general word for anger\n- ⟦{憤慨|ふんがい}→憤慨：06436_fungai⟧: indignation — anger at something perceived as unjust\n- ⟦{激怒|げきど}→激怒：08681_gekido⟧: fury, rage — much stronger intensity\n\nREGISTER:\n{立腹|りっぷく} is more formal and restrained than ⟦{怒|おこ}る→怒る：00876_okoru⟧. It often appears in business or formal contexts, especially in the respectful form ご{立腹|りっぷく}.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01780_ikari",
+      "reading": "いかり",
+      "headword": "{怒|いか}り",
+      "label": "anger"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06436_fungai",
+      "reading": "ふんがい",
+      "headword": "{憤慨|ふんがい}",
+      "label": "indignation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08681_gekido",
+      "reading": "げきど",
+      "headword": "{激怒|げきど}",
+      "label": "fury, rage"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20111_haradachi",
+      "reading": "はらだち",
+      "headword": "{腹立|はらだ}ち",
+      "label": "anger"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -151,6 +181,6 @@
       "verb_class": "suru"
     },
     "created": "2026-03-28T16:17:08Z",
-    "modified": "2026-06-16T12:23:55Z"
+    "modified": "2026-09-02T04:01:58Z"
   }
 }

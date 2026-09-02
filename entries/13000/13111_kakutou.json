@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "13111_kakutou_ex1",
-      "japanese": "{格闘|かくとう}{技|ぎ}を{習|なら}っている。",
+      "japanese": "{格闘|かくとう}{技|ぎ}⟦を→を：00422_wo⟧⟦{習|なら}っている→習う：00479_narau⟧。",
       "english": "I'm learning martial arts.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "13111_kakutou_ex2",
-      "japanese": "{犯人|はんにん}と{格闘|かくとう}して{取|と}り{押|おさ}えた。",
+      "japanese": "⟦{犯人|はんにん}→犯人：03572_hannin⟧⟦と→と：00512_to⟧{格闘|かくとう}⟦して→する：00392_suru⟧{取|と}り{押|おさ}えた。",
       "english": "I wrestled with the criminal and subdued him.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "13111_kakutou_ex3",
-      "japanese": "{難|むずか}しい{数学|すうがく}の{問題|もんだい}と{格闘|かくとう}して、やっと{答|こた}えが{出|で}た。",
+      "japanese": "⟦{難|むずか}しい→難しい：00517_muzukashii⟧⟦{数学|すうがく}→数学：01442_suugaku⟧⟦の→の：09472_no⟧⟦{問題|もんだい}→問題：00797_mondai⟧⟦と→と：00512_to⟧{格闘|かくとう}⟦して→する：00392_suru⟧、⟦やっと→やっと：01561_yatto⟧⟦{答|こた}え→答え：00790_kotae⟧⟦が→が：00051_ga⟧⟦{出|で}た→出る：00513_deru⟧。",
       "english": "After grappling with the difficult math problem, I finally found the answer.",
       "notes": "Figurative usage.",
       "has_audio": false,
@@ -134,11 +134,26 @@
       ]
     }
   ],
-  "notes": "COMMON COLLOCATIONS:\n- {格闘|かくとう}{技|ぎ}: martial arts, combat sports\n- {格闘|かくとう}ゲーム: fighting game (video games)\n- {格闘|かくとう}{家|か}: fighter, martial artist\n- 〜と{格闘|かくとう}する: to grapple with ~\n\nUSAGE:\nThe literal meaning involves physical combat, but {格闘|かくとう}する is commonly used figuratively to describe struggling intensely with a task or problem, similar to English \"wrestling with\" an issue.",
-  "cross_references": [],
+  "notes": "COMMON COLLOCATIONS:\n- {格闘|かくとう}{技|ぎ}: martial arts, combat sports\n- {格闘|かくとう}⟦ゲーム→ゲーム：03842_geemu⟧: fighting game (video games)\n- {格闘|かくとう}{家|か}: fighter, martial artist\n- 〜⟦と→と：00512_to⟧{格闘|かくとう}⟦する→する：00392_suru⟧: to grapple with ~\n\nUSAGE:\nThe literal meaning involves physical combat, but {格闘|かくとう}⟦する→する：00392_suru⟧ is commonly used figuratively to describe struggling intensely with a task or problem, similar to English \"wrestling with\" an issue.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15364_kutou",
+      "reading": "くとう",
+      "headword": "{苦闘|くとう}",
+      "label": "hard struggle"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21235_rantou",
+      "reading": "らんとう",
+      "headword": "{乱闘|らんとう}",
+      "label": "brawl"
+    }
+  ],
   "metadata": {
     "created": "2026-02-23T11:16:43Z",
-    "modified": "2026-03-29T03:07:35Z",
+    "modified": "2026-09-02T04:01:31Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

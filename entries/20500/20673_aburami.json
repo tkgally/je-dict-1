@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "20673_aburami_ex1",
-      "japanese": "{脂身|あぶらみ}が{多|おお}い{肉|にく}だ。",
+      "japanese": "{脂身|あぶらみ}⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧⟦{肉|にく}→肉：02240_niku⟧だ。",
       "english": "This is meat with a lot of fat.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "20673_aburami_ex2",
-      "japanese": "{脂身|あぶらみ}の{少|すく}ない{赤身|あかみ}の{肉|にく}が{好|す}きだ。",
+      "japanese": "{脂身|あぶらみ}⟦の→の：09472_no⟧⟦{少|すく}ない→少ない：01136_sukunai⟧⟦{赤身|あかみ}→赤身：19617_akami⟧⟦の→の：09472_no⟧⟦{肉|にく}→肉：02240_niku⟧⟦が→が：00051_ga⟧⟦{好|す}き→好き：02355_suki⟧だ。",
       "english": "I like lean meat with little fat.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "20673_aburami_ex3",
-      "japanese": "{和牛|わぎゅう}の{脂身|あぶらみ}は{口|くち}の{中|なか}でとろけるように{柔|やわ}らかい。",
+      "japanese": "⟦{和牛|わぎゅう}→和牛：27668_wagyuu⟧⟦の→の：09472_no⟧{脂身|あぶらみ}⟦は→は：00079_ha⟧⟦{口|くち}→口：00560_kuchi⟧⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧⟦で→で：00502_de⟧⟦とろける→とろける：28626_torokeru⟧よう⟦に→に：00314_ni⟧⟦{柔|やわ}らかい→柔らかい：01096_yawarakai⟧。",
       "english": "The fat on wagyu beef is so soft it melts in your mouth.",
       "sense_numbers": [
         1
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "An essential food vocabulary word. In Japanese cuisine, the quality and marbling of fat ({霜降|しもふ}り) is highly valued, especially in beef. The balance between {脂身|あぶらみ} and {赤身|あかみ} (lean meat) is a key topic when discussing meat quality.\n\nCOMMON COLLOCATIONS:\n- {脂身|あぶらみ}が{多|おお}い: fatty, high in fat\n- {脂身|あぶらみ}が{少|すく}ない: lean, low in fat\n- {脂身|あぶらみ}を{取|と}り{除|のぞ}く: to trim the fat\n- {脂身|あぶらみ}と{赤身|あかみ}: fat and lean portions\n\nSIMILAR WORDS:\n- {赤身|あかみ}: lean meat — the opposite, the red, lean portion\n- {脂肪|しぼう}: fat (as a substance) — more scientific/nutritional term\n- {霜降|しもふ}り: marbling — the fine distribution of fat within lean meat, highly prized in wagyu",
+  "notes": "An essential food vocabulary word. In Japanese cuisine, the quality and marbling of fat (⟦{霜降|しもふ}り→霜降り：18934_shimofuri⟧) is highly valued, especially in beef. The balance between {脂身|あぶらみ} and ⟦{赤身|あかみ}→赤身：19617_akami⟧ (lean meat) is a key topic when discussing meat quality.\n\nCOMMON COLLOCATIONS:\n- {脂身|あぶらみ}⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧: fatty, high in fat\n- {脂身|あぶらみ}⟦が→が：00051_ga⟧⟦{少|すく}ない→少ない：01136_sukunai⟧: lean, low in fat\n- {脂身|あぶらみ}⟦を→を：00422_wo⟧⟦{取|と}り{除|のぞ}く→取り除く：04222_torinozoku⟧: to trim the fat\n- {脂身|あぶらみ}⟦と→と：00512_to⟧⟦{赤身|あかみ}→赤身：19617_akami⟧: fat and lean portions\n\nSIMILAR WORDS:\n- ⟦{赤身|あかみ}→赤身：19617_akami⟧: lean meat — the opposite, the red, lean portion\n- ⟦{脂肪|しぼう}→脂肪：03199_shibou⟧: fat (as a substance) — more scientific/nutritional term\n- ⟦{霜降|しもふ}り→霜降り：18934_shimofuri⟧: marbling — the fine distribution of fat within lean meat, highly prized in wagyu",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "19617_akami",
+      "reading": "あかみ",
+      "headword": "{赤身|あかみ}",
+      "label": "lean meat"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03199_shibou",
+      "reading": "しぼう",
+      "headword": "{脂肪|しぼう}",
+      "label": "fat"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18934_shimofuri",
+      "reading": "しもふり",
+      "headword": "{霜降|しもふ}り",
+      "label": "marbling"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24379_gyuushi",
+      "reading": "ぎゅうし",
+      "headword": "{牛脂|ぎゅうし}",
+      "label": "beef tallow"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +83,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "food",
         "cooking"
       ]
     },
     "created": "2026-03-30T06:37:59Z",
-    "modified": "2026-03-30T06:37:59Z"
+    "modified": "2026-09-02T04:02:00Z"
   }
 }

@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "16259_shikirinaoshi_ex1",
-      "japanese": "{仕切|しき}り{直|なお}しが{必要|ひつよう}だ。",
+      "japanese": "{仕切|しき}り{直|なお}し⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧だ。",
       "english": "We need a fresh start.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16259_shikirinaoshi_ex2",
-      "japanese": "{計画|けいかく}がうまくいかなかったので、{仕切|しき}り{直|なお}しすることにした。",
+      "japanese": "⟦{計画|けいかく}→計画：01172_keikaku⟧⟦が→が：00051_ga⟧⟦うまく→うまい：01279_umai⟧いかなかった⟦の→の：09472_no⟧で、{仕切|しき}り{直|なお}し⟦する→する：00392_suru⟧ことにした。",
       "english": "The plan didn't work out, so we decided to start over.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16259_shikirinaoshi_ex3",
-      "japanese": "{交渉|こうしょう}が{行|い}き{詰|づ}まったが、{来週|らいしゅう}{仕切|しき}り{直|なお}して{再|さい}スタートする{予定|よてい}だ。",
+      "japanese": "⟦{交渉|こうしょう}→交渉：02727_koushou⟧⟦が→が：00051_ga⟧⟦{行|い}き{詰|づ}まった→行き詰まる：09346_ikizumaru⟧⟦が→が：00051_ga⟧、⟦{来週|らいしゅう}→来週：00746_raishuu⟧{仕切|しき}り{直|なお}して⟦{再|さい}→再〜：03953_sai⟧⟦スタート→スタート：11053_sutaato⟧⟦する→する：00392_suru⟧⟦{予定|よてい}→予定：00824_yotei⟧だ。",
       "english": "The negotiations hit a dead end, but we plan to start fresh again next week.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "ORIGIN: Originally a sumo term. When wrestlers fail to charge at each other properly at the start of a bout, the referee calls for a {仕切|しき}り{直|なお}し — both wrestlers return to the starting lines and begin again.\n\nCOMMON PATTERNS:\n- {仕切|しき}り{直|なお}しする: to start over, to redo\n- {仕切|しき}り{直|なお}しを{図|はか}る: to aim for a fresh start\n\nUSAGE: Widely used beyond sumo in everyday conversation, business, and politics to describe restarting something that has stalled or failed. It implies a complete reset rather than a minor adjustment.",
+  "notes": "ORIGIN: Originally a sumo term. When wrestlers fail to charge at each other properly at the start of a bout, the referee calls for a {仕切|しき}り{直|なお}し — both wrestlers return to the starting lines and begin again.\n\nCOMMON PATTERNS:\n- {仕切|しき}り{直|なお}し⟦する→する：00392_suru⟧: to start over, to redo\n- {仕切|しき}り{直|なお}し⟦を→を：00422_wo⟧⟦{図|はか}る→図る：12006_hakaru⟧: to aim for a fresh start\n\nUSAGE: Widely used beyond sumo in everyday conversation, business, and politics to describe restarting something that has stalled or failed. It implies a complete reset rather than a minor adjustment.",
   "cross_references": [
     {
       "type": "related",
@@ -46,17 +52,28 @@
       "reading": "やりなおす",
       "headword": "やり{直|なお}す",
       "label": "to redo"
+    },
+    {
+      "type": "related",
+      "target_id": "04666_shikiru",
+      "reading": "しきる",
+      "headword": "{仕切|しき}る",
+      "label": "to partition, to manage, to take charge"
     }
   ],
   "metadata": {
     "created": "2026-03-11T10:32:22Z",
-    "modified": "2026-05-03T07:09:48Z",
+    "modified": "2026-09-02T04:01:44Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action"]
+      "semantic": [
+        "action"
+      ]
     }
   }
 }

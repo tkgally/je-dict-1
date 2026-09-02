@@ -3,7 +3,7 @@
   "id": "17453_fukigen",
   "headword": "{不機嫌|ふきげん}",
   "reading": "ふきげん",
-  "part_of_speech": "noun, adjective-na",
+  "part_of_speech": "noun, na-adjective",
   "gloss": "bad mood; displeasure; sulkiness",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "17453_fukigen_ex1",
-      "japanese": "{今日|きょう}は{朝|あさ}から{不機嫌|ふきげん}だ。",
+      "japanese": "⟦{今日|きょう}→今日：00496_kyou⟧⟦は→は：00079_ha⟧⟦{朝|あさ}→朝：02277_asa⟧⟦から→から：00504_kara⟧{不機嫌|ふきげん}だ。",
       "english": "He's been in a bad mood since this morning.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "17453_fukigen_ex2",
-      "japanese": "{母|はは}が{不機嫌|ふきげん}な{顔|かお}をしていたので、{何|なに}も{言|い}えなかった。",
+      "japanese": "⟦{母|はは}→母：00549_haha⟧⟦が→が：00051_ga⟧{不機嫌|ふきげん}な⟦{顔|かお}→顔：00558_kao⟧⟦を→を：00422_wo⟧⟦していた→する：00392_suru⟧⟦の→の：09472_no⟧で、⟦{何|なに}も→何も：03874_nanimo⟧⟦{言|い}えなかった→言う：00515_iu⟧。",
       "english": "My mother had a displeased expression, so I couldn't say anything.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "17453_fukigen_ex3",
-      "japanese": "{上司|じょうし}の{不機嫌|ふきげん}な{態度|たいど}に、{職場|しょくば}の{雰囲気|ふんいき}が{悪|わる}くなった。",
+      "japanese": "⟦{上司|じょうし}→上司：03286_joushi⟧⟦の→の：09472_no⟧{不機嫌|ふきげん}な⟦{態度|たいど}→態度：03396_taido⟧⟦に→に：00314_ni⟧、⟦{職場|しょくば}→職場：04164_shokuba⟧⟦の→の：09472_no⟧⟦{雰囲気|ふんいき}→雰囲気：03604_funiki⟧⟦が→が：00051_ga⟧⟦{悪|わる}く→悪い：00908_warui⟧⟦なった→なる：01970_naru⟧。",
       "english": "The boss's grumpy attitude made the workplace atmosphere uncomfortable.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nThe opposite of {機嫌|きげん}がいい (being in a good mood) or {上機嫌|じょうきげん} (being in high spirits). Very common in daily conversation to describe someone's observable mood.\n\nCOMMON COLLOCATIONS:\n- {不機嫌|ふきげん}な{顔|かお} (a displeased face)\n- {不機嫌|ふきげん}な{態度|たいど} (a sulky attitude)\n- {不機嫌|ふきげん}になる (to become grumpy)\n- {不機嫌|ふきげん}そうな (looking displeased)\n\nSIMILAR WORDS:\n- {機嫌|きげん}が{悪|わる}い: in a bad mood — same meaning, more conversational\n- {不満|ふまん}: dissatisfaction — focuses on the cause, not the visible mood\n- {上機嫌|じょうきげん}: in high spirits — the opposite",
+  "notes": "USAGE:\nThe opposite of ⟦{機嫌|きげん}→機嫌：02367_kigen⟧⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧ (being in a good mood) or ⟦{上機嫌|じょうきげん}→上機嫌：24293_joukigen⟧ (being in high spirits). Very common in daily conversation to describe someone's observable mood.\n\nCOMMON COLLOCATIONS:\n- {不機嫌|ふきげん}な⟦{顔|かお}→顔：00558_kao⟧ (a displeased face)\n- {不機嫌|ふきげん}な⟦{態度|たいど}→態度：03396_taido⟧ (a sulky attitude)\n- {不機嫌|ふきげん}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧ (to become grumpy)\n- {不機嫌|ふきげん}そうな (looking displeased)\n\nSIMILAR WORDS:\n- ⟦{機嫌|きげん}が{悪|わる}い→機嫌が悪い：19531_kigengawarui⟧: in a bad mood — same meaning, more conversational\n- ⟦{不満|ふまん}→不満：02497_fuman⟧: dissatisfaction — focuses on the cause, not the visible mood\n- ⟦{上機嫌|じょうきげん}→上機嫌：24293_joukigen⟧: in high spirits — the opposite",
   "cross_references": [
     {
       "type": "antonym",
@@ -52,11 +52,32 @@
       "reading": "じょうきげん",
       "headword": "{上機嫌|じょうきげん}",
       "label": "good mood"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19531_kigengawarui",
+      "reading": "きげんがわるい",
+      "headword": "{機嫌|きげん}が{悪|わる}い",
+      "label": "in a bad mood"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02497_fuman",
+      "reading": "ふまん",
+      "headword": "{不満|ふまん}",
+      "label": "dissatisfaction"
+    },
+    {
+      "type": "related",
+      "target_id": "04824_musutto",
+      "reading": "むすっと",
+      "headword": "むすっと",
+      "label": "sullenly, grumpily"
     }
   ],
   "metadata": {
     "created": "2026-03-18T02:02:30Z",
-    "modified": "2026-05-06T07:07:17Z",
+    "modified": "2026-09-02T04:01:48Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

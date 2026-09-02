@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22726_sakkinzai_ex1",
-      "japanese": "{殺菌剤|さっきんざい}で{手|て}を{消毒|しょうどく}する。",
+      "japanese": "{殺菌剤|さっきんざい}⟦で→で：00502_de⟧⟦{手|て}→手：00569_te⟧⟦を→を：00422_wo⟧⟦{消毒|しょうどく}する→消毒する：17818_shoudokusuru⟧。",
       "english": "To disinfect hands with a germicide.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22726_sakkinzai_ex2",
-      "japanese": "{農業|のうぎょう}で{殺菌剤|さっきんざい}を{使|つか}う。",
+      "japanese": "⟦{農業|のうぎょう}→農業：01491_nougyou⟧⟦で→で：00502_de⟧{殺菌剤|さっきんざい}⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧。",
       "english": "To use a germicide in agriculture.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22726_sakkinzai_ex3",
-      "japanese": "プールの{水|みず}には{殺菌剤|さっきんざい}として{塩素|えんそ}が{加|くわ}えられている。",
+      "japanese": "⟦プール→プール：02958_puuru⟧⟦の→の：09472_no⟧⟦{水|みず}→水：02258_mizu⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{殺菌剤|さっきんざい}⟦として→として：06802_toshite⟧⟦{塩素|えんそ}→塩素：12143_enso⟧⟦が→が：00051_ga⟧⟦{加|くわ}えられている→加える：01941_kuwaeru⟧。",
       "english": "Chlorine is added to pool water as a disinfectant.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {殺菌|さっきん} (sterilization, killing bacteria) + {剤|ざい} (agent, preparation). Used in both medical/household contexts (disinfectants) and agricultural contexts (fungicides for crops). The suffix {剤|ざい} is productive and appears in many chemical/pharmaceutical compounds.\n\nCOMMON COLLOCATIONS:\n- {殺菌剤|さっきんざい}を{散布|さんぷ}する: to spray disinfectant/fungicide\n- {殺菌剤|さっきんざい}を{塗|ぬ}る: to apply disinfectant\n- {農薬|のうやく}{殺菌剤|さっきんざい}: agricultural fungicide\n\nSIMILAR WORDS:\n- {消毒剤|しょうどくざい}: disinfectant — very similar in household/medical use, but {消毒|しょうどく} implies making something harmless rather than killing organisms\n- {除菌剤|じょきんざい}: antibacterial agent — removes bacteria rather than killing them\n- {殺虫剤|さっちゅうざい}: insecticide — kills insects rather than bacteria",
+  "notes": "A compound of ⟦{殺菌|さっきん}→殺菌：09781_sakkin⟧ (sterilization, killing bacteria) + ⟦{剤|ざい}→〜剤：30790_zai⟧ (agent, preparation). Used in both medical/household contexts (disinfectants) and agricultural contexts (fungicides for crops). The suffix ⟦{剤|ざい}→〜剤：30790_zai⟧ is productive and appears in many chemical/pharmaceutical compounds.\n\nCOMMON COLLOCATIONS:\n- {殺菌剤|さっきんざい}⟦を→を：00422_wo⟧⟦{散布|さんぷ}する→散布する：21621_sanpusuru⟧: to spray disinfectant/fungicide\n- {殺菌剤|さっきんざい}⟦を→を：00422_wo⟧⟦{塗|ぬ}る→塗る：01174_nuru⟧: to apply disinfectant\n- ⟦{農薬|のうやく}→農薬：04295_nouyaku⟧{殺菌剤|さっきんざい}: agricultural fungicide\n\nSIMILAR WORDS:\n- ⟦{消毒剤|しょうどくざい}→消毒剤：22728_shoudokuzai⟧: disinfectant — very similar in household/medical use, but ⟦{消毒|しょうどく}→消毒：07591_shoudoku⟧ implies making something harmless rather than killing organisms\n- {除菌剤|じょきんざい}: antibacterial agent — removes bacteria rather than killing them\n- ⟦{殺虫剤|さっちゅうざい}→殺虫剤：07036_sacchuuzai⟧: insecticide — kills insects rather than bacteria",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22728_shoudokuzai",
+      "reading": "しょうどくざい",
+      "headword": "{消毒剤|しょうどくざい}",
+      "label": "disinfectant"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07036_sacchuuzai",
+      "reading": "さっちゅうざい",
+      "headword": "{殺虫剤|さっちゅうざい}",
+      "label": "insecticide"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26144_koukinyaku",
+      "reading": "こうきんやく",
+      "headword": "{抗菌薬|こうきんやく}",
+      "label": "antibacterial drug"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,6 +84,6 @@
       "politeness": "plain"
     },
     "created": "2026-04-07T12:42:22Z",
-    "modified": "2026-08-01T06:43:50Z"
+    "modified": "2026-09-02T04:02:09Z"
   }
 }

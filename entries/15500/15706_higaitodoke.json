@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "15706_higaitodoke_ex1",
-      "japanese": "{警察|けいさつ}に{被害届|ひがいとどけ}を{出|だ}した。",
+      "japanese": "⟦{警察|けいさつ}→警察：01393_keisatsu⟧⟦に→に：00314_ni⟧{被害届|ひがいとどけ}⟦を→を：00422_wo⟧⟦{出|だ}した→出す：01087_dasu⟧。",
       "english": "I filed a report with the police.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "15706_higaitodoke_ex2",
-      "japanese": "{盗難|とうなん}に{遭|あ}ったので、すぐに{被害届|ひがいとどけ}を{提出|ていしゅつ}した。",
+      "japanese": "⟦{盗難|とうなん}→盗難：04562_tounan⟧⟦に→に：00314_ni⟧⟦{遭|あ}った→遭う：09500_au⟧⟦の→の：09472_no⟧で、⟦すぐ→すぐ：00814_sugu⟧⟦に→に：00314_ni⟧{被害届|ひがいとどけ}⟦を→を：00422_wo⟧⟦{提出|ていしゅつ}した→提出する：19644_teishutsusuru⟧。",
       "english": "I was the victim of theft, so I immediately filed a police report.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "15706_higaitodoke_ex3",
-      "japanese": "{被害届|ひがいとどけ}を{出|だ}さないと、{保険|ほけん}の{請求|せいきゅう}ができない{場合|ばあい}がある。",
+      "japanese": "{被害届|ひがいとどけ}⟦を→を：00422_wo⟧⟦{出|だ}さない→出す：01087_dasu⟧⟦と→と：00512_to⟧、⟦{保険|ほけん}→保険：01509_hoken⟧⟦の→の：09472_no⟧⟦{請求|せいきゅう}→請求：03374_seikyuu⟧⟦が→が：00051_ga⟧⟦できない→できる：00557_dekiru⟧⟦{場合|ばあい}→場合：01704_baai⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "In some cases, you cannot file an insurance claim without submitting a police report.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nFiling a {被害届|ひがいとどけ} at a police station is an important practical step in Japan when one is a victim of crime or property damage. It does not automatically trigger a criminal investigation but is often necessary for insurance claims and official records.\n\nCOMMON COLLOCATIONS:\n- {被害届|ひがいとどけ}を{出|だ}す (to file a police report)\n- {被害届|ひがいとどけ}を{提出|ていしゅつ}する (to submit a police report, formal)\n- {被害届|ひがいとどけ}を{受理|じゅり}する (to accept a police report)\n- {被害届|ひがいとどけ}を{取|と}り{下|さ}げる (to withdraw a police report)\n\nSIMILAR WORDS:\n- {告訴|こくそ}: criminal complaint (stronger, formally requesting prosecution)\n- {届出|とどけで}: notification, report (general administrative term)",
+  "notes": "USAGE:\nFiling a {被害届|ひがいとどけ} at a police station is an important practical step in Japan when one is a victim of crime or property damage. It does not automatically trigger a criminal investigation but is often necessary for insurance claims and official records.\n\nCOMMON COLLOCATIONS:\n- {被害届|ひがいとどけ}⟦を→を：00422_wo⟧⟦{出|だ}す→出す：01087_dasu⟧ (to file a police report)\n- {被害届|ひがいとどけ}⟦を→を：00422_wo⟧⟦{提出|ていしゅつ}する→提出する：19644_teishutsusuru⟧ (to submit a police report, formal)\n- {被害届|ひがいとどけ}⟦を→を：00422_wo⟧⟦{受理|じゅり}→受理：12032_juri⟧⟦する→する：00392_suru⟧ (to accept a police report)\n- {被害届|ひがいとどけ}⟦を→を：00422_wo⟧{取|と}り{下|さ}げる (to withdraw a police report)\n\nSIMILAR WORDS:\n- ⟦{告訴|こくそ}→告訴：08010_kokuso⟧: criminal complaint (stronger, formally requesting prosecution)\n- ⟦{届出|とどけで}→届出：07555_todokede⟧: notification, report (general administrative term)",
   "cross_references": [
     {
       "type": "related",
@@ -52,11 +52,25 @@
       "reading": "ひがい",
       "headword": "{被害|ひがい}",
       "label": "damage, harm"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08010_kokuso",
+      "reading": "こくそ",
+      "headword": "{告訴|こくそ}",
+      "label": "criminal complaint"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07555_todokede",
+      "reading": "とどけで",
+      "headword": "{届出|とどけで}",
+      "label": "notification, report"
     }
   ],
   "metadata": {
     "created": "2026-03-08T07:42:05Z",
-    "modified": "2026-07-17T12:56:16Z",
+    "modified": "2026-09-02T04:01:42Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

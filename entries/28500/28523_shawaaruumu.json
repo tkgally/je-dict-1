@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28523_shawaaruumu_ex1",
-      "japanese": "ホテルの{部屋|へや}にシャワールームがある。",
+      "japanese": "⟦ホテル→ホテル：01027_hoteru⟧⟦の→の：09472_no⟧⟦{部屋|へや}→部屋：00507_heya⟧⟦に→に：00314_ni⟧シャワールーム⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "The hotel room has a shower room.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28523_shawaaruumu_ex2",
-      "japanese": "ジムのシャワールームは24{時間|じかん}{利用|りよう}できる。",
+      "japanese": "⟦ジム→ジム：04735_jimu⟧⟦の→の：09472_no⟧シャワールーム⟦は→は：00079_ha⟧24⟦{時間|じかん}→時間：00468_jikan⟧⟦{利用|りよう}できる→利用する：21735_riyousuru⟧。",
       "english": "The gym's shower room is available 24 hours.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28523_shawaaruumu_ex3",
-      "japanese": "この{部屋|へや}は{浴槽|よくそう}がなくシャワールームのみだ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{部屋|へや}→部屋：00507_heya⟧⟦は→は：00079_ha⟧⟦{浴槽|よくそう}→浴槽：04985_yokusou⟧⟦が→が：00051_ga⟧⟦なく→ない：01118_nai⟧シャワールーム⟦のみ→のみ：06546_nomi⟧だ。",
       "english": "This room has no bathtub—only a shower stall.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Loanword from English \"shower room.\" Implies the absence of a bathtub; if both are present, Japanese usage favors {浴室|よくしつ} or バスルーム.\n\nCOMMON COLLOCATIONS:\n- シャワールーム{付|つ}き: with a shower room (apartment/hotel feature)\n- シャワールームを{使|つか}う: to use the shower room\n- {共用|きょうよう}シャワールーム: shared shower room\n\nSIMILAR WORDS:\n- バスルーム: bathroom — usually with bathtub\n- {浴室|よくしつ}: bathroom — Japanese term, typically with bathtub\n- {脱衣所|だついじょ}: changing room — adjacent room for undressing",
+  "notes": "Loanword from English \"shower room.\" Implies the absence of a bathtub; if both are present, Japanese usage favors ⟦{浴室|よくしつ}→浴室：05301_yokushitsu⟧ or バスルーム.\n\nCOMMON COLLOCATIONS:\n- シャワールーム⟦{付|つ}き→付き：26333_tsuki⟧: with a shower room (apartment/hotel feature)\n- シャワールーム⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧: to use the shower room\n- ⟦{共用|きょうよう}→共用：21529_kyouyou⟧シャワールーム: shared shower room\n\nSIMILAR WORDS:\n- バスルーム: bathroom — usually with bathtub\n- ⟦{浴室|よくしつ}→浴室：05301_yokushitsu⟧: bathroom — Japanese term, typically with bathtub\n- ⟦{脱衣所|だついじょ}→脱衣所：17619_datsuijo⟧: changing room — adjacent room for undressing",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05301_yokushitsu",
+      "reading": "よくしつ",
+      "headword": "{浴室|よくしつ}",
+      "label": "bathroom"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17619_datsuijo",
+      "reading": "だついじょ",
+      "headword": "{脱衣所|だついじょ}",
+      "label": "changing room"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +69,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "building",
         "daily-life"
@@ -61,6 +77,6 @@
       "domain": []
     },
     "created": "2026-06-01T03:10:14Z",
-    "modified": "2026-08-08T18:34:17Z"
+    "modified": "2026-09-02T04:02:34Z"
   }
 }

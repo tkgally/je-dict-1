@@ -34,7 +34,7 @@
     },
     {
       "id": "05358_hatto_ex3",
-      "japanese": "はっとするような⟦{美|うつく}しさ→美しい：01121_utsukushii⟧だった。",
+      "japanese": "はっと⟦する→する：00392_suru⟧ような⟦{美|うつく}しさ→美しい：01121_utsukushii⟧だった。",
       "english": "It was a breathtaking beauty.",
       "notes": "はっとする = to be startled/struck",
       "has_audio": false,
@@ -44,7 +44,7 @@
     },
     {
       "id": "05358_hatto_ex4",
-      "japanese": "⟦{後|うし}ろ→後ろ：00683_ushiro⟧⟦から→から：00504_kara⟧⟦{声|こえ}→声：02207_koe⟧⟦を→を：00422_wo⟧かけられてはっとした。",
+      "japanese": "⟦{後|うし}ろ→後ろ：00683_ushiro⟧⟦から→から：00504_kara⟧⟦{声|こえ}→声：02207_koe⟧⟦を→を：00422_wo⟧かけられてはっと⟦した→する：00392_suru⟧。",
       "english": "I was startled when someone called out to me from behind.",
       "notes": null,
       "has_audio": false,
@@ -54,7 +54,7 @@
     },
     {
       "id": "05358_hatto_ex5",
-      "japanese": "⟦{寝坊|ねぼう}→寝坊：01692_nebou⟧したことにはっと⟦{気|き}がついて→気がつく：21794_kigatsuku⟧、⟦{急|いそ}いで→急ぐ：01191_isogu⟧⟦{家|いえ}→家：00612_ie⟧⟦を→を：00422_wo⟧⟦{出|で}た→出る：00513_deru⟧。",
+      "japanese": "⟦{寝坊|ねぼう}→寝坊：01692_nebou⟧⟦した→する：00392_suru⟧こと⟦に→に：00314_ni⟧はっと⟦{気|き}がついて→気がつく：21794_kigatsuku⟧、⟦{急|いそ}いで→急ぐ：01191_isogu⟧⟦{家|いえ}→家：00612_ie⟧⟦を→を：00422_wo⟧⟦{出|で}た→出る：00513_deru⟧。",
       "english": "I suddenly realized I had overslept and hurried out of the house.",
       "notes": null,
       "has_audio": false,
@@ -63,11 +63,33 @@
       ]
     }
   ],
-  "notes": "はっと describes the psychological moment of sudden realization, awareness, or being startled. It captures the instant \"jolt\" of recognition.\n\nCOMMON PATTERNS:\n- はっと⟦{気|き}がつく→気がつく：21794_kigatsuku⟧: to suddenly notice/realize\n- はっとする: to be startled, to have a sudden realization\n- はっと⟦{目|め}→目：00525_me⟧⟦が→が：00051_ga⟧⟦{覚|さ}める→目が覚める：23498_megasameru⟧: to suddenly wake up (startled awake)\n- はっとさせられる: to be struck by (something that makes you realize)\n- はっと⟦{息|いき}→息：02176_iki⟧⟦を→を：00422_wo⟧⟦のむ→息をのむ：06902_ikiwonomu⟧: to gasp (in surprise)\n\nUSAGE:\nUsed for both pleasant surprises (sudden beauty) and alarming realizations (noticing danger). Always implies the reaction is instantaneous and involuntary.\n\nSIMILAR WORDS:\n- ⟦びっくり→びっくり：03003_bikkuri⟧: surprised, startled (more about shock)\n- ⟦ぎくっと→ぎくっと：noentry⟧: startled with a jolt (often from guilt or fear)\n- ⟦ふと→ふと：00048_futo⟧: casually, by chance (less intense)",
-  "cross_references": [],
+  "notes": "はっと describes the psychological moment of sudden realization, awareness, or being startled. It captures the instant \"jolt\" of recognition.\n\nCOMMON PATTERNS:\n- はっと⟦{気|き}がつく→気がつく：21794_kigatsuku⟧: to suddenly notice/realize\n- はっと⟦する→する：00392_suru⟧: to be startled, to have a sudden realization\n- はっと⟦{目|め}→目：00525_me⟧⟦が→が：00051_ga⟧⟦{覚|さ}める→目が覚める：23498_megasameru⟧: to suddenly wake up (startled awake)\n- はっと⟦させられる→する：00392_suru⟧: to be struck by (something that makes you realize)\n- はっと⟦{息|いき}→息：02176_iki⟧⟦を→を：00422_wo⟧⟦のむ→息をのむ：06902_ikiwonomu⟧: to gasp (in surprise)\n\nUSAGE:\nUsed for both pleasant surprises (sudden beauty) and alarming realizations (noticing danger). Always implies the reaction is instantaneous and involuntary.\n\nSIMILAR WORDS:\n- ⟦びっくり→びっくり：03003_bikkuri⟧: surprised, startled (more about shock)\n- ⟦ぎくっと→ぎくっと：noentry⟧: startled with a jolt (often from guilt or fear)\n- ⟦ふと→ふと：00048_futo⟧: casually, by chance (less intense)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03003_bikkuri",
+      "reading": "びっくり",
+      "headword": "びっくり",
+      "label": "surprised, startled"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00048_futo",
+      "reading": "ふと",
+      "headword": "ふと",
+      "label": "casually, by chance"
+    },
+    {
+      "type": "related",
+      "target_id": "27331_kaubooihatto",
+      "reading": "かうぼーいはっと",
+      "headword": "カウボーイハット",
+      "label": "cowboy hat"
+    }
+  ],
   "metadata": {
     "created": "2026-01-16T05:48:20Z",
-    "modified": "2026-06-05T19:07:26Z",
+    "modified": "2026-09-02T04:01:06Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

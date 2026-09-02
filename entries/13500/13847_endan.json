@@ -15,41 +15,66 @@
   "examples": [
     {
       "id": "13847_endan_ex1",
-      "japanese": "{縁談|えんだん}が{持|も}ち{込|こ}まれた。",
+      "japanese": "{縁談|えんだん}⟦が→が：00051_ga⟧⟦{持|も}ち{込|こ}まれた→持ち込む：04226_mochikomu⟧。",
       "english": "A marriage proposal was brought to us.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13847_endan_ex2",
-      "japanese": "{親戚|しんせき}から{良|よ}い{縁談|えんだん}があると{聞|き}いた。",
+      "japanese": "⟦{親戚|しんせき}→親戚：03260_shinseki⟧⟦から→から：00504_kara⟧⟦{良|よ}い→良い：02350_yoi⟧{縁談|えんだん}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧⟦と→と：00512_to⟧⟦{聞|き}いた→聞く：00483_kiku⟧。",
       "english": "I heard from a relative that there's a good marriage prospect.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13847_endan_ex3",
-      "japanese": "{娘|むすめ}は{何度|なんど}も{縁談|えんだん}を{断|ことわ}って、{自分|じぶん}で{相手|あいて}を{見|み}つけると{言|い}い{張|は}っている。",
+      "japanese": "⟦{娘|むすめ}→娘：02263_musume⟧⟦は→は：00079_ha⟧⟦{何度|なんど}→何度：17592_nando⟧⟦も→も：00484_mo⟧{縁談|えんだん}⟦を→を：00422_wo⟧⟦{断|ことわ}って→断る：02102_kotowaru⟧、⟦{自分|じぶん}→自分：02887_jibun⟧⟦で→で：00502_de⟧⟦{相手|あいて}→相手：01677_aite⟧⟦を→を：00422_wo⟧⟦{見|み}つける→見つける：01180_mitsukeru⟧⟦と→と：00512_to⟧⟦{言|い}い{張|は}っている→言い張る：29079_iiharu⟧。",
       "english": "My daughter has turned down numerous marriage proposals and insists on finding a partner on her own.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "CULTURAL NOTE:\nTraditionally, marriages in Japan were often arranged through intermediaries ({仲人|なこうど}), and {縁談|えんだん} was the proposal or match brought by such go-betweens. While arranged marriages have become less common in modern Japan, the word is still used and understood, appearing in period dramas, novels, and when families still facilitate introductions.\n\nCOMMON COLLOCATIONS:\n- {縁談|えんだん}が{持|も}ち{込|こ}まれる: a marriage proposal is brought\n- {縁談|えんだん}を{断|ことわ}る: to turn down a marriage proposal\n- {縁談|えんだん}が{まとまる}: a marriage arrangement is settled\n- {縁談|えんだん}を{進|すす}める: to advance a marriage proposal\n- {良|よ}い{縁談|えんだん}: a good match",
-  "cross_references": [],
+  "notes": "CULTURAL NOTE:\nTraditionally, marriages in Japan were often arranged through intermediaries (⟦{仲人|なこうど}→仲人：16691_nakoudo⟧), and {縁談|えんだん} was the proposal or match brought by such go-betweens. While arranged marriages have become less common in modern Japan, the word is still used and understood, appearing in period dramas, novels, and when families still facilitate introductions.\n\nCOMMON COLLOCATIONS:\n- {縁談|えんだん}⟦が→が：00051_ga⟧⟦{持|も}ち{込|こ}まれる→持ち込む：04226_mochikomu⟧: a marriage proposal is brought\n- {縁談|えんだん}⟦を→を：00422_wo⟧⟦{断|ことわ}る→断る：02102_kotowaru⟧: to turn down a marriage proposal\n- {縁談|えんだん}⟦が→が：00051_ga⟧⟦まとまる→まとまる：01642_matomaru⟧: a marriage arrangement is settled\n- {縁談|えんだん}⟦を→を：00422_wo⟧⟦{進|すす}める→進める：01949_susumeru⟧: to advance a marriage proposal\n- ⟦{良|よ}い→良い：02350_yoi⟧{縁談|えんだん}: a good match",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22459_ryouen",
+      "reading": "りょうえん",
+      "headword": "{良縁|りょうえん}",
+      "label": "good match"
+    },
+    {
+      "type": "homophone",
+      "target_id": "22662_endan",
+      "reading": "えんだん",
+      "headword": "{演壇|えんだん}",
+      "label": "podium"
+    }
+  ],
   "metadata": {
     "created": "2026-02-27T05:15:05Z",
-    "modified": "2026-02-27T05:15:05Z",
+    "modified": "2026-09-02T04:01:34Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["family"]
+      "semantic": [
+        "family"
+      ]
     }
   }
 }

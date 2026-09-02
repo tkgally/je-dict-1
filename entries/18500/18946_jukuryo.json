@@ -3,7 +3,7 @@
   "headword": "{熟慮|じゅくりょ}",
   "reading": "じゅくりょ",
   "romaji": "jukuryo",
-  "part_of_speech": "noun / する verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "careful deliberation; thorough consideration",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "18946_jukuryo_ex1",
-      "japanese": "{熟慮|じゅくりょ}の{末|すえ}、{転職|てんしょく}を{決|き}めた。",
+      "japanese": "{熟慮|じゅくりょ}⟦の→の：09472_no⟧⟦{末|すえ}→末：03362_sue⟧、⟦{転職|てんしょく}→転職：04557_tenshoku⟧⟦を→を：00422_wo⟧⟦{決|き}めた→決める：00858_kimeru⟧。",
       "english": "After careful deliberation, I decided to change jobs.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "18946_jukuryo_ex2",
-      "japanese": "もう{少|すこ}し{熟慮|じゅくりょ}してから{返事|へんじ}をしたい。",
+      "japanese": "⟦もう→もう：00602_mou⟧⟦{少|すこ}し→少し：00596_sukoshi⟧{熟慮|じゅくりょ}⟦して→する：00392_suru⟧⟦から→から：00504_kara⟧⟦{返事|へんじ}→返事：00844_henji⟧⟦を→を：00422_wo⟧⟦したい→する：00392_suru⟧。",
       "english": "I'd like to think it over more carefully before giving my answer.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "18946_jukuryo_ex3",
-      "japanese": "{重大|じゅうだい}な{決断|けつだん}には{熟慮|じゅくりょ}が{必要|ひつよう}だ。",
+      "japanese": "⟦{重大|じゅうだい}→重大：01641_juudai⟧な⟦{決断|けつだん}→決断：13250_ketsudan⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{熟慮|じゅくりょ}⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧だ。",
       "english": "Important decisions require careful deliberation.",
       "sense_numbers": [
         1
@@ -134,8 +134,38 @@
       "notes": null
     }
   ],
-  "notes": "{熟慮|じゅくりょ} means careful, thorough deliberation — taking time to think through all aspects before deciding. It implies mature, unhurried thought rather than quick judgment.\n\nETYMOLOGY:\nComposed of {熟|じゅく} (mature, ripen) + {慮|りょ} (consider, think).\n\nCOMMON PATTERNS:\n- {熟慮|じゅくりょ}の{末|すえ}: after careful deliberation (used when explaining a weighty decision)\n- {熟慮|じゅくりょ}を{重|かさ}ねる: to deliberate repeatedly\n- {熟慮|じゅくりょ}に{熟慮|じゅくりょ}を{重|かさ}ねる: to deliberate with extreme care\n\nREGISTER:\nFormal and written. Common in business contexts, official statements, and serious personal decisions. In casual speech, よく{考|かんが}える is more natural.\n\nSIMILAR WORDS:\n- {熟考|じゅっこう}: deep reflection (slightly more literary)\n- {検討|けんとう}: examination, review (less personal, more procedural)",
+  "notes": "{熟慮|じゅくりょ} means careful, thorough deliberation — taking time to think through all aspects before deciding. It implies mature, unhurried thought rather than quick judgment.\n\nETYMOLOGY:\nComposed of {熟|じゅく} (mature, ripen) + {慮|りょ} (consider, think).\n\nCOMMON PATTERNS:\n- {熟慮|じゅくりょ}⟦の→の：09472_no⟧⟦{末|すえ}→末：03362_sue⟧: after careful deliberation (used when explaining a weighty decision)\n- {熟慮|じゅくりょ}⟦を→を：00422_wo⟧⟦{重|かさ}ねる→重ねる：02039_kasaneru⟧: to deliberate repeatedly\n- {熟慮|じゅくりょ}⟦に→に：00314_ni⟧{熟慮|じゅくりょ}⟦を→を：00422_wo⟧⟦{重|かさ}ねる→重ねる：02039_kasaneru⟧: to deliberate with extreme care\n\nREGISTER:\nFormal and written. Common in business contexts, official statements, and serious personal decisions. In casual speech, ⟦よく→よく：00601_yoku⟧⟦{考|かんが}える→考える：00856_kangaeru⟧ is more natural.\n\nSIMILAR WORDS:\n- ⟦{熟考|じゅっこう}→熟考：07966_jukkou⟧: deep reflection (slightly more literary)\n- ⟦{検討|けんとう}→検討：02710_kentou⟧: examination, review (less personal, more procedural)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07966_jukkou",
+      "reading": "じゅっこう",
+      "headword": "{熟考|じゅっこう}",
+      "label": "deep reflection"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02710_kentou",
+      "reading": "けんとう",
+      "headword": "{検討|けんとう}",
+      "label": "examination, review"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24992_shinkou",
+      "reading": "しんこう",
+      "headword": "{深考|しんこう}",
+      "label": "deep thought"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25316_shiryo",
+      "reading": "しりょ",
+      "headword": "{思慮|しりょ}",
+      "label": "prudence"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -151,6 +181,6 @@
       "verb_class": "suru"
     },
     "created": "2026-03-23T10:18:32Z",
-    "modified": "2026-07-26T09:39:42Z"
+    "modified": "2026-09-02T04:01:54Z"
   }
 }

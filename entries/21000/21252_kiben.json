@@ -15,40 +15,67 @@
   "examples": [
     {
       "id": "21252_kiben_ex1",
-      "japanese": "それは{詭弁|きべん}にすぎない。",
+      "japanese": "⟦それ→それ：00994_sore⟧⟦は→は：00079_ha⟧{詭弁|きべん}⟦に→に：00314_ni⟧すぎない。",
       "english": "That is nothing but sophistry.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21252_kiben_ex2",
-      "japanese": "{彼|かれ}の{主張|しゅちょう}は{詭弁|きべん}だと{批判|ひはん}された。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧⟦{主張|しゅちょう}→主張：03220_shuchou⟧⟦は→は：00079_ha⟧{詭弁|きべん}だ⟦と→と：00512_to⟧⟦{批判|ひはん}→批判：03580_hihan⟧⟦された→する：00392_suru⟧。",
       "english": "His argument was criticized as sophistry.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21252_kiben_ex3",
-      "japanese": "{詭弁|きべん}を{弄|ろう}しても、{事実|じじつ}は{変|か}わらない。",
+      "japanese": "{詭弁|きべん}⟦を→を：00422_wo⟧{弄|ろう}して⟦も→も：00484_mo⟧、⟦{事実|じじつ}→事実：03271_jijitsu⟧⟦は→は：00079_ha⟧⟦{変|か}わらない→変わる：00714_kawaru⟧。",
       "english": "No matter how much you resort to sophistry, the facts don't change.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A word with roots in ancient Greek philosophy — the Sophists were known for using clever but misleading arguments. In Japanese, it always carries a negative connotation, implying intellectual dishonesty.\n\nCOMMON COLLOCATIONS:\n- {詭弁|きべん}を{弄|ろう}する: to resort to sophistry; to use specious arguments\n- {詭弁|きべん}にすぎない: to be nothing but sophistry\n- {詭弁|きべん}を{使|つか}う: to use fallacious reasoning\n- {詭弁|きべん}{家|か}: sophist; person who uses sophistry\n\nSIMILAR WORDS:\n- {屁理屈|へりくつ}: quibble; nonsensical logic — more colloquial and less intellectual\n- {言|い}い{訳|わけ}: excuse — focuses on avoiding blame rather than logical manipulation\n- {論点|ろんてん}ずらし: changing the subject; moving the goalposts — a specific type of fallacy\n\nETYMOLOGY:\n{詭|き} (deceive, mislead) + {弁|べん} (speech, argument) — deceptive speech.",
+  "notes": "A word with roots in ancient Greek philosophy — the Sophists were known for using clever but misleading arguments. In Japanese, it always carries a negative connotation, implying intellectual dishonesty.\n\nCOMMON COLLOCATIONS:\n- {詭弁|きべん}⟦を→を：00422_wo⟧{弄|ろう}する: to resort to sophistry; to use specious arguments\n- {詭弁|きべん}⟦に→に：00314_ni⟧すぎない: to be nothing but sophistry\n- {詭弁|きべん}⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧: to use fallacious reasoning\n- {詭弁|きべん}⟦{家|か}→〜家：28339_ka⟧: sophist; person who uses sophistry\n\nSIMILAR WORDS:\n- ⟦{屁理屈|へりくつ}→屁理屈：15530_herikutsu⟧: quibble; nonsensical logic — more colloquial and less intellectual\n- ⟦{言|い}い{訳|わけ}→言い訳：04653_iiwake⟧: excuse — focuses on avoiding blame rather than logical manipulation\n- ⟦{論点|ろんてん}→論点：21049_ronten⟧⟦ずらし→ずらす：20836_zurasu⟧: changing the subject; moving the goalposts — a specific type of fallacy\n\nETYMOLOGY:\n{詭|き} (deceive, mislead) + {弁|べん} (speech, argument) — deceptive speech.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15530_herikutsu",
+      "reading": "へりくつ",
+      "headword": "{屁理屈|へりくつ}",
+      "label": "quibble"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04653_iiwake",
+      "reading": "いいわけ",
+      "headword": "{言|い}い{訳|わけ}",
+      "label": "excuse"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["communication", "abstract"]
+      "semantic": [
+        "communication",
+        "abstract"
+      ]
     },
     "created": "2026-04-01T15:29:01Z",
-    "modified": "2026-04-01T15:29:01Z"
+    "modified": "2026-09-02T04:02:02Z"
   }
 }

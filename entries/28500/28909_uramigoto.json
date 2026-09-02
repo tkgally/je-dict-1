@@ -15,41 +15,74 @@
   "examples": [
     {
       "id": "28909_uramigoto_ex1",
-      "japanese": "{恨|うら}み{言|ごと}を{言|い}う。",
+      "japanese": "{恨|うら}み{言|ごと}⟦を→を：00422_wo⟧⟦{言|い}う→言う：00515_iu⟧。",
       "english": "To voice resentment.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28909_uramigoto_ex2",
-      "japanese": "{彼女|かのじょ}は{一言|ひとこと}も{恨|うら}み{言|ごと}を{口|くち}にしなかった。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧⟦{一言|ひとこと}→一言：03708_hitokoto⟧⟦も→も：00484_mo⟧{恨|うら}み{言|ごと}⟦を→を：00422_wo⟧⟦{口|くち}にしなかった→口にする：21471_kuchinisuru⟧。",
       "english": "She did not say a single word of reproach.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28909_uramigoto_ex3",
-      "japanese": "{別|わか}れた{後|あと}になって{長|なが}い{恨|うら}み{言|ごと}のメールが{届|とど}いた。",
+      "japanese": "⟦{別|わか}れた→別れる：01113_wakareru⟧⟦{後|あと}→後：09580_ato⟧になって⟦{長|なが}い→長い：00491_nagai⟧{恨|うら}み{言|ごと}⟦の→の：09472_no⟧⟦メール→メール：04435_meeru⟧⟦が→が：00051_ga⟧⟦{届|とど}いた→届く：00899_todoku⟧。",
       "english": "After we broke up, a long resentful email arrived.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Compound of {恨|うら}み (grudge) + {言|ごと} (words). The {言|ごと} suffix forms nouns meaning \"words/talk of —\" ({独|ひと}り{言|ごと}, {寝言|ねごと}).\n\nCOMMON COLLOCATIONS:\n- {恨|うら}み{言|ごと}を{言|い}う: to voice resentment\n- {恨|うら}み{言|ごと}を{並|なら}べる: to reel off complaints\n- {恨|うら}み{言|ごと}を{聞|き}く: to listen to someone's grievances\n- {恨|うら}み{言|ごと}{一|ひと}つ{言|い}わない: to not utter a single word of complaint\n\nSIMILAR WORDS:\n- {愚痴|ぐち}: griping — about life or circumstances in general, not directed at a specific person\n- {文句|もんく}: complaint — broader; can be about a product or situation\n- {悪口|わるぐち}: bad-mouthing — speaking ill of someone behind their back",
+  "notes": "Compound of ⟦{恨|うら}み→恨み：00414_urami⟧ (grudge) + {言|ごと} (words). The {言|ごと} suffix forms nouns meaning \"words/talk of —\" (⟦{独|ひと}り{言|ごと}→独り言：07022_hitorigoto⟧, ⟦{寝言|ねごと}→寝言：07393_negoto⟧).\n\nCOMMON COLLOCATIONS:\n- {恨|うら}み{言|ごと}⟦を→を：00422_wo⟧⟦{言|い}う→言う：00515_iu⟧: to voice resentment\n- {恨|うら}み{言|ごと}⟦を→を：00422_wo⟧⟦{並|なら}べる→並べる：01091_naraberu⟧: to reel off complaints\n- {恨|うら}み{言|ごと}⟦を→を：00422_wo⟧⟦{聞|き}く→聞く：00483_kiku⟧: to listen to someone's grievances\n- {恨|うら}み{言|ごと}⟦{一|ひと}つ→一つ：02948_hitotsu⟧⟦{言|い}わない→言う：00515_iu⟧: to not utter a single word of complaint\n\nSIMILAR WORDS:\n- ⟦{愚痴|ぐち}→愚痴：06623_guchi⟧: griping — about life or circumstances in general, not directed at a specific person\n- ⟦{文句|もんく}→文句：03636_monku⟧: complaint — broader; can be about a product or situation\n- ⟦{悪口|わるぐち}→悪口：12672_waruguchi⟧: bad-mouthing — speaking ill of someone behind their back",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06623_guchi",
+      "reading": "ぐち",
+      "headword": "{愚痴|ぐち}",
+      "label": "griping"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03636_monku",
+      "reading": "もんく",
+      "headword": "{文句|もんく}",
+      "label": "complaint"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12672_waruguchi",
+      "reading": "わるぐち",
+      "headword": "{悪口|わるぐち}",
+      "label": "bad-mouthing"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["emotion"],
+      "politeness": "plain",
+      "semantic": [
+        "emotion"
+      ],
       "domain": []
     },
     "created": "2026-06-07T03:04:58Z",
-    "modified": "2026-06-07T03:04:58Z"
+    "modified": "2026-09-02T04:02:35Z"
   }
 }

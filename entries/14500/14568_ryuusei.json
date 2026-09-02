@@ -15,42 +15,62 @@
   "examples": [
     {
       "id": "14568_ryuusei_ex1",
-      "japanese": "この{時代|じだい}は{文化|ぶんか}の{隆盛|りゅうせい}を{極|きわ}めた。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{時代|じだい}→時代：01424_jidai⟧⟦は→は：00079_ha⟧⟦{文化|ぶんか}→文化：01504_bunka⟧⟦の→の：09472_no⟧{隆盛|りゅうせい}⟦を→を：00422_wo⟧⟦{極|きわ}めた→極める：13139_kiwameru⟧。",
       "english": "This era reached the height of cultural flourishing.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14568_ryuusei_ex2",
-      "japanese": "かつての{隆盛|りゅうせい}ぶりは{今|いま}では{見|み}る{影|かげ}もない。",
+      "japanese": "⟦かつて→かつて：10303_katsute⟧⟦の→の：09472_no⟧{隆盛|りゅうせい}⟦ぶり→〜ぶり：28358_buri⟧⟦は→は：00079_ha⟧⟦{今|いま}→今：00945_ima⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{見|み}る→見る：00283_miru⟧⟦{影|かげ}→影：02191_kage⟧⟦も→も：00484_mo⟧⟦ない→ない：01118_nai⟧。",
       "english": "There is no trace of the prosperity it once enjoyed.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14568_ryuusei_ex3",
-      "japanese": "{産業|さんぎょう}の{隆盛|りゅうせい}とともに{町|まち}は{急速|きゅうそく}に{発展|はってん}した。",
+      "japanese": "⟦{産業|さんぎょう}→産業：01419_sangyou⟧⟦の→の：09472_no⟧{隆盛|りゅうせい}⟦とともに→とともに：30485_totomoni⟧⟦{町|まち}→町：00613_machi⟧⟦は→は：00079_ha⟧⟦{急速|きゅうそく}→急速：02634_kyuusoku⟧⟦に→に：00314_ni⟧⟦{発展|はってん}した→発展する：25331_hattensuru⟧。",
       "english": "The town developed rapidly along with the thriving of industry.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "A formal and literary word often used in historical and cultural writing. Conveys a grand sense of flourishing or being at one's peak.\n\nCOMMON COLLOCATIONS:\n- {隆盛|りゅうせい}を{極|きわ}める (to reach the height of prosperity)\n- {隆盛|りゅうせい}を{誇|ほこ}る (to boast prosperity)\n- {文化|ぶんか}の{隆盛|りゅうせい} (cultural flourishing)\n- {栄枯|えいこ}{盛衰|せいすい} (rise and fall — a related four-character compound)\n\nDo not confuse with the homophone {流星|りゅうせい} (shooting star/meteor), which has completely different kanji and meaning.",
-  "cross_references": [],
+  "notes": "A formal and literary word often used in historical and cultural writing. Conveys a grand sense of flourishing or being at one's peak.\n\nCOMMON COLLOCATIONS:\n- {隆盛|りゅうせい}⟦を→を：00422_wo⟧⟦{極|きわ}める→極める：13139_kiwameru⟧ (to reach the height of prosperity)\n- {隆盛|りゅうせい}⟦を→を：00422_wo⟧⟦{誇|ほこ}る→誇る：14180_hokoru⟧ (to boast prosperity)\n- ⟦{文化|ぶんか}→文化：01504_bunka⟧⟦の→の：09472_no⟧{隆盛|りゅうせい} (cultural flourishing)\n- ⟦{栄枯|えいこ}{盛衰|せいすい}→栄枯盛衰：07122_eikoseisui⟧ (rise and fall — a related four-character compound)\n\nDo not confuse with the homophone ⟦{流星|りゅうせい}→流星：06310_ryuusei⟧ (shooting star/meteor), which has completely different kanji and meaning.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16899_kouryuu",
+      "reading": "こうりゅう",
+      "headword": "{興隆|こうりゅう}",
+      "label": "rise"
+    }
+  ],
   "metadata": {
     "created": "2026-03-02T07:15:48Z",
-    "modified": "2026-03-02T07:15:48Z",
+    "modified": "2026-09-02T04:01:37Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"],
-      "style": ["written"]
+      "semantic": [
+        "general"
+      ],
+      "style": [
+        "written"
+      ]
     }
   }
 }

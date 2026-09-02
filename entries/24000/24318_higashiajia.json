@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24318_higashiajia_ex1",
-      "japanese": "{東|ひがし}アジアの{文化|ぶんか}に{興味|きょうみ}がある。",
+      "japanese": "{東|ひがし}アジア⟦の→の：09472_no⟧⟦{文化|ぶんか}→文化：01504_bunka⟧⟦に→に：00314_ni⟧⟦{興味|きょうみ}→興味：01316_kyoumi⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "I'm interested in East Asian culture.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24318_higashiajia_ex2",
-      "japanese": "{東|ひがし}アジアの{経済|けいざい}{成長|せいちょう}は{目覚|めざ}ましい。",
+      "japanese": "{東|ひがし}アジア⟦の→の：09472_no⟧⟦{経済|けいざい}{成長|せいちょう}→経済成長：20453_keizaiseichou⟧⟦は→は：00079_ha⟧⟦{目覚|めざ}ましい→目覚ましい：13628_mezamashii⟧。",
       "english": "East Asia's economic growth has been remarkable.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24318_higashiajia_ex3",
-      "japanese": "{大学|だいがく}で{東|ひがし}アジアの{歴史|れきし}と{国際関係|こくさいかんけい}について{研究|けんきゅう}している。",
+      "japanese": "⟦{大学|だいがく}→大学：00608_daigaku⟧⟦で→で：00502_de⟧{東|ひがし}アジア⟦の→の：09472_no⟧⟦{歴史|れきし}→歴史：02267_rekishi⟧⟦と→と：00512_to⟧{国際関係|こくさいかんけい}⟦について→〜について：03103_nitsuite⟧⟦{研究|けんきゅう}→研究：01396_kenkyuu⟧⟦している→する：00392_suru⟧。",
       "english": "I'm studying the history and international relations of East Asia at university.",
       "sense_numbers": [
         1
@@ -44,19 +44,36 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {東|ひがし} (east) + アジア (Asia). A standard geographical and geopolitical term used in academic, news, and everyday contexts. Also written as {東亜|とうあ} in older or more formal texts, though that form can carry historical connotations from the wartime era.\n\nCOMMON COLLOCATIONS:\n- {東|ひがし}アジア{地域|ちいき} — East Asian region\n- {東|ひがし}アジア{諸国|しょこく} — East Asian nations\n- {東|ひがし}アジア{文化|ぶんか} — East Asian culture\n- {東|ひがし}アジア{情勢|じょうせい} — East Asian situation/affairs\n\nSIMILAR WORDS:\n- {東南|とうなん}アジア — Southeast Asia; the neighboring region to the south\n- {極東|きょくとう} — Far East; a Western-centric geographical term that includes East Asia and sometimes parts of Southeast Asia\n- アジア{太平洋|たいへいよう} — Asia-Pacific; a broader geopolitical grouping",
+  "notes": "Composed of ⟦{東|ひがし}→東：02250_higashi⟧ (east) + ⟦アジア→アジア：01763_ajia⟧ (Asia). A standard geographical and geopolitical term used in academic, news, and everyday contexts. Also written as {東亜|とうあ} in older or more formal texts, though that form can carry historical connotations from the wartime era.\n\nCOMMON COLLOCATIONS:\n- {東|ひがし}アジア⟦{地域|ちいき}→地域：01461_chiiki⟧ — East Asian region\n- {東|ひがし}アジア⟦{諸国|しょこく}→諸国：15992_shokoku⟧ — East Asian nations\n- {東|ひがし}アジア⟦{文化|ぶんか}→文化：01504_bunka⟧ — East Asian culture\n- {東|ひがし}アジア⟦{情勢|じょうせい}→情勢：12739_jousei⟧ — East Asian situation/affairs\n\nSIMILAR WORDS:\n- ⟦{東南|とうなん}アジア→東南アジア：16277_tounanajia⟧ — Southeast Asia; the neighboring region to the south\n- {極東|きょくとう} — Far East; a Western-centric geographical term that includes East Asia and sometimes parts of Southeast Asia\n- ⟦アジア→アジア：01763_ajia⟧⟦{太平洋|たいへいよう}→太平洋：09680_taiheiyou⟧ — Asia-Pacific; a broader geopolitical grouping",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16277_tounanajia",
+      "reading": "とうなんあじあ",
+      "headword": "{東南|とうなん}アジア",
+      "label": "Southeast Asia"
+    },
+    {
+      "type": "related",
+      "target_id": "29334_minamiajia",
+      "reading": "みなみあじあ",
+      "headword": "{南|みなみ}アジア",
+      "label": "South Asia"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "geography"
       ]
     },
     "created": "2026-04-18T13:22:10Z",
-    "modified": "2026-08-02T18:32:34Z"
+    "modified": "2026-09-02T04:02:17Z"
   }
 }

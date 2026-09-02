@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "20152_tayouna_ex1",
-      "japanese": "{多様|たよう}な{意見|いけん}がある。",
+      "japanese": "{多様|たよう}な⟦{意見|いけん}→意見：01303_iken⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There are diverse opinions.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "20152_tayouna_ex2",
-      "japanese": "{多様|たよう}な{働|はたら}き{方|かた}が{求|もと}められている。",
+      "japanese": "{多様|たよう}な⟦{働|はたら}き{方|かた}→働き方：25439_hatarakikata⟧⟦が→が：00051_ga⟧⟦{求|もと}められている→求める：02316_motomeru⟧。",
       "english": "Diverse ways of working are being sought.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "20152_tayouna_ex3",
-      "japanese": "この{地域|ちいき}には{多様|たよう}な{文化|ぶんか}を{持|も}つ{人々|ひとびと}が{暮|く}らしている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{地域|ちいき}→地域：01461_chiiki⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{多様|たよう}な⟦{文化|ぶんか}→文化：01504_bunka⟧⟦を→を：00422_wo⟧⟦{持|も}つ→持つ：00478_motsu⟧⟦{人々|ひとびと}→人々：03141_hitobito⟧⟦が→が：00051_ga⟧⟦{暮|く}らしている→暮らす：01937_kurasu⟧。",
       "english": "People with diverse cultures live in this area.",
       "sense_numbers": [
         1
@@ -44,8 +44,45 @@
       "notes": null
     }
   ],
-  "notes": "A な-adjective formed from {多様|たよう}, a compound of {多|た} (many) and {様|よう} (manner, form). Very common in formal writing, news, and discussions about society, education, and business.\n\nCOMMON COLLOCATIONS:\n- {多様|たよう}な{価値観|かちかん} — diverse values\n- {多様|たよう}な{ニーズ} — diverse needs\n- {多様|たよう}な{人材|じんざい} — diverse talent/personnel\n- {多様|たよう}な{選択肢|せんたくし} — various options\n- {多様性|たようせい} — diversity (noun form)\n\nSIMILAR WORDS:\n- {様々|さまざま}な — various (slightly more casual, very common)\n- {色々|いろいろ}な — various (more casual, everyday use)\n- {多彩|たさい}な — colorful, varied (emphasizes richness)",
+  "notes": "A な-adjective formed from ⟦{多様|たよう}→多様：12180_tayou⟧, a compound of {多|た} (many) and {様|よう} (manner, form). Very common in formal writing, news, and discussions about society, education, and business.\n\nCOMMON COLLOCATIONS:\n- {多様|たよう}な⟦{価値観|かちかん}→価値観：10431_kachikan⟧ — diverse values\n- {多様|たよう}な⟦ニーズ→ニーズ：11244_niizu⟧ — diverse needs\n- {多様|たよう}な⟦{人材|じんざい}→人材：11426_jinzai⟧ — diverse talent/personnel\n- {多様|たよう}な⟦{選択肢|せんたくし}→選択肢：14418_sentakushi⟧ — various options\n- ⟦{多様性|たようせい}→多様性：04825_tayousei⟧ — diversity (noun form)\n\nSIMILAR WORDS:\n- ⟦{様々|さまざま}→様々：01559_samazama⟧な — various (slightly more casual, very common)\n- ⟦{色々|いろいろ}→色々：02352_iroiro⟧な — various (more casual, everyday use)\n- ⟦{多彩|たさい}→多彩：12165_tasai⟧な — colorful, varied (emphasizes richness)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01559_samazama",
+      "reading": "さまざま",
+      "headword": "{様々|さまざま}",
+      "label": "various"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02352_iroiro",
+      "reading": "いろいろ",
+      "headword": "{色々|いろいろ}",
+      "label": "various"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12165_tasai",
+      "reading": "たさい",
+      "headword": "{多彩|たさい}",
+      "label": "colorful, varied"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18612_henkanitomu",
+      "reading": "へんかにとむ",
+      "headword": "{変化|へんか}に{富|と}む",
+      "label": "varied"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25552_tayoukasuru",
+      "reading": "たようかする",
+      "headword": "{多様化|たようか}する",
+      "label": "to diversify"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +96,6 @@
       ]
     },
     "created": "2026-03-28T15:12:49Z",
-    "modified": "2026-07-28T00:51:36Z"
+    "modified": "2026-09-02T04:01:58Z"
   }
 }

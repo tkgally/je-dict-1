@@ -129,7 +129,7 @@
     },
     {
       "id": "01762_doushi_ex12",
-      "japanese": "⟦{親|おや}→親：01357_oya⟧{同志|どうし}⟦で→で：00502_de⟧⟦{子|こ}ども→子供：00554_kodomo⟧⟦の→の：09472_no⟧⟦{教育|きょういく}→教育：01313_kyouiku⟧について⟦{話|はな}し{合|あ}った→話す：00467_hanasu⟧。",
+      "japanese": "⟦{親|おや}→親：01357_oya⟧{同志|どうし}⟦で→で：00502_de⟧⟦{子|こ}ども→子供：00554_kodomo⟧⟦の→の：09472_no⟧⟦{教育|きょういく}→教育：01313_kyouiku⟧⟦について→〜について：03103_nitsuite⟧⟦{話|はな}し{合|あ}った→話す：00467_hanasu⟧。",
       "english": "As fellow parents, we discussed our children's education.",
       "notes": null,
       "has_audio": false,
@@ -138,11 +138,33 @@
       ]
     }
   ],
-  "notes": "{同志|どうし} refers to people who share common goals or beliefs.\n\nCOMMON PATTERNS:\n- {同志|どうし}⟦を→を：00422_wo⟧⟦{集|あつ}める→集める：01170_atsumeru⟧ (gather like-minded people)\n- {同志|どうし}⟦として→として：06802_toshite⟧ (as comrades)\n\nUSAGE NOTE:\n- Can have political connotations (communist/socialist movements)\n- Also used more generally for allies with shared goals\n\nSIMILAR WORDS:\n- ⟦{仲間|なかま}→仲間：03498_nakama⟧: companion, colleague (everyday)\n- {同志|どうし}: comrade (ideological connotation)\n- ⟦{同胞|どうほう}→同胞：23023_douhou⟧: compatriot, fellow countryman",
-  "cross_references": [],
+  "notes": "{同志|どうし} refers to people who share common goals or beliefs.\n\nCOMMON PATTERNS:\n- {同志|どうし}⟦を→を：00422_wo⟧⟦{集|あつ}める→集める：01170_atsumeru⟧ (gather like-minded people)\n- {同志|どうし}⟦として→として：06802_toshite⟧ (as comrades)\n\nUSAGE:\n- Can have political connotations (communist/socialist movements)\n- Also used more generally for allies with shared goals\n\nSIMILAR WORDS:\n- ⟦{仲間|なかま}→仲間：03498_nakama⟧: companion, colleague (everyday)\n- {同志|どうし}: comrade (ideological connotation)\n- ⟦{同胞|どうほう}→同胞：23023_douhou⟧: compatriot, fellow countryman",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03498_nakama",
+      "reading": "なかま",
+      "headword": "{仲間|なかま}",
+      "label": "companion, colleague"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23023_douhou",
+      "reading": "どうほう",
+      "headword": "{同胞|どうほう}",
+      "label": "compatriot, fellow countryman"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20019_senyuu",
+      "reading": "せんゆう",
+      "headword": "{戦友|せんゆう}",
+      "label": "comrade-in-arms"
+    }
+  ],
   "metadata": {
     "created": "2026-01-09T12:15:00Z",
-    "modified": "2026-06-11T10:45:00Z",
+    "modified": "2026-09-02T04:01:00Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

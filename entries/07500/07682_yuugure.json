@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "07682_yuugure_ex1",
-      "japanese": "{夕暮|ゆうぐ}れが{近|ちか}づいてきた。",
+      "japanese": "{夕暮|ゆうぐ}れ⟦が→が：00051_ga⟧⟦{近|ちか}づいて→近づく：01958_chikazuku⟧きた。",
       "english": "Dusk is approaching.",
       "has_audio": false,
       "sense_numbers": [
@@ -23,7 +23,7 @@
     },
     {
       "id": "07682_yuugure_ex2",
-      "japanese": "{夕暮|ゆうぐ}れの{空|そら}が{美|うつく}しい。",
+      "japanese": "{夕暮|ゆうぐ}れ⟦の→の：09472_no⟧⟦{空|そら}→空：02216_sora⟧⟦が→が：00051_ga⟧⟦{美|うつく}しい→美しい：01121_utsukushii⟧。",
       "english": "The twilight sky is beautiful.",
       "has_audio": false,
       "sense_numbers": [
@@ -32,7 +32,7 @@
     },
     {
       "id": "07682_yuugure_ex3",
-      "japanese": "{夕暮|ゆうぐ}れ{時|どき}に{散歩|さんぽ}するのが{好|す}きだ。",
+      "japanese": "{夕暮|ゆうぐ}れ{時|どき}⟦に→に：00314_ni⟧⟦{散歩|さんぽ}する→散歩する：26840_sanposuru⟧⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦{好|す}き→好き：02355_suki⟧だ。",
       "english": "I like taking walks at dusk.",
       "has_audio": false,
       "sense_numbers": [
@@ -40,10 +40,68 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{夕暮|ゆうぐ}れ{時|どき} is a common compound meaning \"at twilight/dusk.\"\n\nRELATED TIME EXPRESSIONS:\n・{夕方|ゆうがた} - evening (broader term, more commonly used)\n・{日暮|ひぐ}れ - sunset, nightfall\n・{黄昏|たそがれ} - twilight (more literary)\n・{暁|あかつき} - dawn (opposite time)\n\nNUANCE:\n{夕暮|ゆうぐ}れ has a poetic, atmospheric quality often associated with nostalgia or melancholy in Japanese literature and art.",
+  "notes": "USAGE:\n{夕暮|ゆうぐ}れ{時|どき} is a common compound meaning \"at twilight/dusk.\"\n{夕暮|ゆうぐ}れ has a poetic, atmospheric quality often associated with nostalgia or melancholy in Japanese literature and art.\n\nRELATED TIME EXPRESSIONS:\n- ⟦{夕方|ゆうがた}→夕方：01010_yuugata⟧ - evening (broader term, more commonly used)\n- ⟦{日暮|ひぐ}れ→日暮れ：10086_higure⟧ - sunset, nightfall\n- ⟦{黄昏|たそがれ}→黄昏：05046_tasogare⟧ - twilight (more literary)\n- ⟦{暁|あかつき}→暁：10036_akatsuki⟧ - dawn (opposite time)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "01010_yuugata",
+      "reading": "ゆうがた",
+      "headword": "{夕方|ゆうがた}",
+      "label": "evening"
+    },
+    {
+      "type": "related",
+      "target_id": "10086_higure",
+      "reading": "ひぐれ",
+      "headword": "{日暮|ひぐ}れ",
+      "label": "sunset, nightfall"
+    },
+    {
+      "type": "related",
+      "target_id": "05046_tasogare",
+      "reading": "たそがれ",
+      "headword": "{黄昏|たそがれ}",
+      "label": "twilight"
+    },
+    {
+      "type": "related",
+      "target_id": "10036_akatsuki",
+      "reading": "あかつき",
+      "headword": "{暁|あかつき}",
+      "label": "dawn"
+    },
+    {
+      "type": "related",
+      "target_id": "05045_yuuyake",
+      "reading": "ゆうやけ",
+      "headword": "{夕焼|ゆうや}け",
+      "label": "sunset glow, evening glow"
+    },
+    {
+      "type": "related",
+      "target_id": "16774_higakureru",
+      "reading": "ひがくれる",
+      "headword": "{日|ひ}が{暮|く}れる",
+      "label": "the sun sets"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19129_yuuyami",
+      "reading": "ゆうやみ",
+      "headword": "{夕闇|ゆうやみ}",
+      "label": "evening darkness"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25609_hakumei",
+      "reading": "はくめい",
+      "headword": "{薄明|はくめい}",
+      "label": "twilight"
+    }
+  ],
   "metadata": {
     "created": "2026-01-20T23:30:51Z",
-    "modified": "2026-06-19T21:43:28Z",
+    "modified": "2026-09-02T04:01:12Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -51,6 +109,7 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "time-general",
         "nature"

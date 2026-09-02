@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "18852_chiguhagu_ex1",
-      "japanese": "{靴下|くつした}がちぐはぐだ。",
+      "japanese": "⟦{靴下|くつした}→靴下：00726_kutsushita⟧⟦が→が：00051_ga⟧ちぐはぐだ。",
       "english": "My socks are mismatched.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "18852_chiguhagu_ex2",
-      "japanese": "{二人|ふたり}の{会話|かいわ}がちぐはぐで、かみ{合|あ}わなかった。",
+      "japanese": "⟦{二人|ふたり}→二人：00622_futari⟧⟦の→の：09472_no⟧⟦{会話|かいわ}→会話：01271_kaiwa⟧⟦が→が：00051_ga⟧ちぐはぐで、かみ{合|あ}わなかった。",
       "english": "Their conversation was out of sync and didn't connect.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "18852_chiguhagu_ex3",
-      "japanese": "{部署|ぶしょ}ごとの{対応|たいおう}がちぐはぐで、お{客|きゃく}さんに{迷惑|めいわく}をかけてしまった。",
+      "japanese": "⟦{部署|ぶしょ}→部署：08187_busho⟧ごと⟦の→の：09472_no⟧⟦{対応|たいおう}→対応：02510_taiou⟧⟦が→が：00051_ga⟧ちぐはぐで、⟦お{客|きゃく}さん→お客さん：10253_okyakusan⟧⟦に→に：00314_ni⟧⟦{迷惑|めいわく}→迷惑：02432_meiwaku⟧⟦を→を：00422_wo⟧⟦かけて→かける：00854_kakeru⟧しまった。",
       "english": "The responses from different departments were inconsistent, causing trouble for the customer.",
       "sense_numbers": [
         1
@@ -44,11 +44,34 @@
       "notes": null
     }
   ],
-  "notes": "ちぐはぐ describes things that should match or coordinate but don't — out of sync, mismatched, or oddly inconsistent.\n\nUSAGE:\n- Functions as a な-adjective and adverbially with に.\n- Originally referred to mismatched footwear (left and right shoes that didn't go together), and the imagery of two things that should be a pair but aren't still pervades the word.\n- Can describe physical objects, conversations, responses, impressions, or coordination between people.\n\nPREDICATE VS. MODIFIER:\n- Modifier: ちぐはぐな{対応|たいおう} (an inconsistent response), ちぐはぐな{服装|ふくそう} (a mismatched outfit), ちぐはぐな{印象|いんしょう} (a disjointed impression)\n- Adverbial: ちぐはぐに{動|うご}く (to move out of sync)\n- Predicate: {話|はなし}がちぐはぐだ (the story doesn't add up); {上下|じょうげ}がちぐはぐだ (the top and bottom don't go together)\n\nSIMILAR ADJECTIVES:\n- {不|ふ}{揃|ぞろ}い: uneven, not uniform (often about physical objects in a set).\n- {ばらばら}: scattered, disjointed (broader and more dramatic; often used for groups falling apart).\n- {不|ふ}{一致|いっち}: inconsistent, mismatched (more formal and abstract).",
+  "notes": "ちぐはぐ describes things that should match or coordinate but don't — out of sync, mismatched, or oddly inconsistent.\n\nUSAGE:\n- Functions as a な-adjective and adverbially with ⟦に→に：00314_ni⟧.\n- Originally referred to mismatched footwear (left and right shoes that didn't go together), and the imagery of two things that should be a pair but aren't still pervades the word.\n- Can describe physical objects, conversations, responses, impressions, or coordination between people.\n- Modifier: ちぐはぐな⟦{対応|たいおう}→対応：02510_taiou⟧ (an inconsistent response), ちぐはぐな⟦{服装|ふくそう}→服装：03594_fukusou⟧ (a mismatched outfit), ちぐはぐな⟦{印象|いんしょう}→印象：01846_inshou⟧ (a disjointed impression)\n- Adverbial: ちぐはぐ⟦に→に：00314_ni⟧⟦{動|うご}く→動く：00904_ugoku⟧ (to move out of sync)\n- Predicate: ⟦{話|はなし}→話：01496_hanashi⟧⟦が→が：00051_ga⟧ちぐはぐだ (the story doesn't add up); ⟦{上下|じょうげ}→上下：04282_jouge⟧⟦が→が：00051_ga⟧ちぐはぐだ (the top and bottom don't go together)\n\nSIMILAR WORDS:\n- ⟦{不|ふ}{揃|ぞろ}い→不揃い：11387_fuzoroi⟧: uneven, not uniform (often about physical objects in a set).\n- ⟦ばらばら→ばらばら：05165_barabara⟧: scattered, disjointed (broader and more dramatic; often used for groups falling apart).\n- ⟦{不|ふ}{一致|いっち}→不一致：15246_fuicchi⟧: inconsistent, mismatched (more formal and abstract).",
   "synonyms": [],
   "antonyms": [],
   "related": [],
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11387_fuzoroi",
+      "reading": "ふぞろい",
+      "headword": "{不揃|ふぞろ}い",
+      "label": "uneven, not uniform (often…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15246_fuicchi",
+      "reading": "ふいっち",
+      "headword": "{不一致|ふいっち}",
+      "label": "inconsistent, mismatched (more formal…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20504_tonchinkan",
+      "reading": "とんちんかん",
+      "headword": "{頓珍漢|とんちんかん}",
+      "label": "nonsensical"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,6 +85,6 @@
       ]
     },
     "created": "2026-03-23T05:32:28Z",
-    "modified": "2026-04-10T13:28:57Z"
+    "modified": "2026-09-02T04:01:53Z"
   }
 }

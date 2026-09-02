@@ -2,7 +2,7 @@
   "id": "00460_shuushoku",
   "headword": "{修飾|しゅうしょく}",
   "reading": "しゅうしょく",
-  "part_of_speech": "noun, suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "modification (grammar), ornamentation",
   "conjugation": {
     "type": "suru",
@@ -109,7 +109,7 @@
   "examples": [
     {
       "id": "00460_shuushoku_ex1",
-      "japanese": "⟦{形容詞|けいようし}→形容詞：10419_keiyoushi⟧⟦は→は：00079_ha⟧⟦{名詞|めいし}→名詞：10420_meishi⟧⟦を→を：00422_wo⟧{修飾|しゅうしょく}する。",
+      "japanese": "⟦{形容詞|けいようし}→形容詞：10419_keiyoushi⟧⟦は→は：00079_ha⟧⟦{名詞|めいし}→名詞：10420_meishi⟧⟦を→を：00422_wo⟧{修飾|しゅうしょく}⟦する→する：00392_suru⟧。",
       "english": "Adjectives modify nouns.",
       "notes": null,
       "has_audio": false,
@@ -119,7 +119,7 @@
     },
     {
       "id": "00460_shuushoku_ex2",
-      "japanese": "「⟦{美|うつく}しい→美しい：01121_utsukushii⟧」⟦は→は：00079_ha⟧「⟦{花|はな}→花：00523_hana⟧」⟦を→を：00422_wo⟧{修飾|しゅうしょく}している。",
+      "japanese": "「⟦{美|うつく}しい→美しい：01121_utsukushii⟧」⟦は→は：00079_ha⟧「⟦{花|はな}→花：00523_hana⟧」⟦を→を：00422_wo⟧{修飾|しゅうしょく}⟦している→する：00392_suru⟧。",
       "english": "'Beautiful' modifies 'flower.'",
       "notes": null,
       "has_audio": false,
@@ -139,7 +139,7 @@
     },
     {
       "id": "00460_shuushoku_ex4",
-      "japanese": "⟦{過度|かど}→過度：14377_kado⟧⟦な→な：09497_na⟧{修飾|しゅうしょく}⟦は→は：00079_ha⟧⟦{文章|ぶんしょう}→文章：02957_bunshou⟧⟦を→を：00422_wo⟧わかりにくくする。",
+      "japanese": "⟦{過度|かど}→過度：14377_kado⟧⟦な→な：09497_na⟧{修飾|しゅうしょく}⟦は→は：00079_ha⟧⟦{文章|ぶんしょう}→文章：02957_bunshou⟧⟦を→を：00422_wo⟧わかりにくく⟦する→する：00392_suru⟧。",
       "english": "Excessive embellishment makes writing hard to understand.",
       "notes": null,
       "has_audio": false,
@@ -149,7 +149,7 @@
     },
     {
       "id": "00460_shuushoku_ex5",
-      "japanese": "{修飾|しゅうしょく}⟦を→を：00422_wo⟧⟦{加|くわ}えて→加える：01941_kuwaeru⟧⟦{部屋|へや}→部屋：00507_heya⟧⟦を→を：00422_wo⟧⟦{華|はな}やかに→華やかな：18036_hanayakana⟧した。",
+      "japanese": "{修飾|しゅうしょく}⟦を→を：00422_wo⟧⟦{加|くわ}えて→加える：01941_kuwaeru⟧⟦{部屋|へや}→部屋：00507_heya⟧⟦を→を：00422_wo⟧⟦{華|はな}やかに→華やかな：18036_hanayakana⟧⟦した→する：00392_suru⟧。",
       "english": "I added ornamentation to make the room more elegant.",
       "notes": null,
       "has_audio": false,
@@ -168,11 +168,26 @@
       ]
     }
   ],
-  "notes": "{修飾|しゅうしょく} is primarily used as a grammatical term in Japanese language study. It describes how adjectives, adverbs, and relative clauses add information to other words.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- No standard intransitive pair\n- Pattern: [noun]を{修飾|しゅうしょく}する\n\nGRAMMAR TERMS:\n- {修飾|しゅうしょく}{語|ご}: modifier\n- {被|ひ}{修飾|しゅうしょく}{語|ご}: word being modified\n- {連体|れんたい}{修飾|しゅうしょく}: noun modification\n- {連用|れんよう}{修飾|しゅうしょく}: verb/adverb modification\n\nThe second meaning (ornamentation) is less common in everyday usage.",
-  "cross_references": [],
+  "notes": "{修飾|しゅうしょく} is primarily used as a grammatical term in Japanese language study. It describes how adjectives, adverbs, and relative clauses add information to other words.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- No standard intransitive pair\n- Pattern: [noun]⟦を→を：00422_wo⟧{修飾|しゅうしょく}⟦する→する：00392_suru⟧\n\nGRAMMAR TERMS:\n- {修飾|しゅうしょく}{語|ご}: modifier\n- {被|ひ}{修飾|しゅうしょく}{語|ご}: word being modified\n- {連体|れんたい}{修飾|しゅうしょく}: noun modification\n- {連用|れんよう}{修飾|しゅうしょく}: verb/adverb modification\n\nThe second meaning (ornamentation) is less common in everyday usage.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14104_soushoku",
+      "reading": "そうしょく",
+      "headword": "{装飾|そうしょく}",
+      "label": "decoration, ornamentation"
+    },
+    {
+      "type": "related",
+      "target_id": "21309_shuushokugo",
+      "reading": "しゅうしょくご",
+      "headword": "{修飾語|しゅうしょくご}",
+      "label": "modifier (grammar)"
+    }
+  ],
   "metadata": {
     "created": "2026-01-12T23:49:28Z",
-    "modified": "2026-06-10T03:02:09Z",
+    "modified": "2026-09-02T04:00:57Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

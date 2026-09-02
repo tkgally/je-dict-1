@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "19641_kanwasuru_ex1",
-      "japanese": "{痛|いた}みを{緩和|かんわ}する。",
+      "japanese": "⟦{痛|いた}み→痛み：01795_itami⟧⟦を→を：00422_wo⟧{緩和|かんわ}する。",
       "english": "To alleviate pain.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "19641_kanwasuru_ex2",
-      "japanese": "{規制|きせい}が{緩和|かんわ}された。",
+      "japanese": "⟦{規制|きせい}→規制：02598_kisei⟧⟦が→が：00051_ga⟧{緩和|かんわ}された。",
       "english": "The regulations were relaxed.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "19641_kanwasuru_ex3",
-      "japanese": "マッサージで{肩|かた}の{緊張|きんちょう}を{緩和|かんわ}することができる。",
+      "japanese": "⟦マッサージ→マッサージ：00272_massaaji⟧⟦で→で：00502_de⟧⟦{肩|かた}→肩：02192_kata⟧⟦の→の：09472_no⟧⟦{緊張|きんちょう}→緊張：02494_kinchou⟧⟦を→を：00422_wo⟧{緩和|かんわ}すること⟦が→が：00051_ga⟧⟦できる→できる：00557_dekiru⟧。",
       "english": "You can relieve shoulder tension with a massage.",
       "sense_numbers": [
         1
@@ -134,11 +134,33 @@
       "notes": null
     }
   ],
-  "notes": "Used across medical, policy, and everyday contexts. Both transitive (to ease something) and intransitive (something eases) uses are common.\n\nCOMMON COLLOCATIONS:\n- {規制|きせい}{緩和|かんわ}: deregulation, easing of regulations\n- {金融|きんゆう}{緩和|かんわ}: monetary easing\n- {緩和|かんわ}ケア: palliative care\n- {緊張|きんちょう}{緩和|かんわ}: detente, easing of tensions\n- {痛|いた}みの{緩和|かんわ}: pain relief\n\nSIMILAR WORDS:\n- {和|やわ}らげる: to soften, to ease — native Japanese word, more general\n- {緩和|かんわ}する: to ease, to relax — Sino-Japanese, more formal, often used in policy and medical contexts\n- {軽減|けいげん}する: to reduce, to lessen — focuses on making a burden lighter",
-  "cross_references": [],
+  "notes": "Used across medical, policy, and everyday contexts. Both transitive (to ease something) and intransitive (something eases) uses are common.\n\nCOMMON COLLOCATIONS:\n- ⟦{規制|きせい}→規制：02598_kisei⟧⟦{緩和|かんわ}→緩和：13846_kanwa⟧: deregulation, easing of regulations\n- ⟦{金融|きんゆう}{緩和|かんわ}→金融緩和：24263_kinyuukanwa⟧: monetary easing\n- ⟦{緩和|かんわ}→緩和：13846_kanwa⟧⟦ケア→ケア：10848_kea⟧: palliative care\n- ⟦{緊張|きんちょう}→緊張：02494_kinchou⟧⟦{緩和|かんわ}→緩和：13846_kanwa⟧: detente, easing of tensions\n- ⟦{痛|いた}み→痛み：01795_itami⟧⟦の→の：09472_no⟧⟦{緩和|かんわ}→緩和：13846_kanwa⟧: pain relief\n\nSIMILAR WORDS:\n- ⟦{和|やわ}らげる→和らげる：07897_yawarageru⟧: to soften, to ease — native Japanese word, more general\n- {緩和|かんわ}する: to ease, to relax — Sino-Japanese, more formal, often used in policy and medical contexts\n- ⟦{軽減|けいげん}する→軽減する：25372_keigensuru⟧: to reduce, to lessen — focuses on making a burden lighter",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07897_yawarageru",
+      "reading": "やわらげる",
+      "headword": "{和|やわ}らげる",
+      "label": "to soften, to ease"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25372_keigensuru",
+      "reading": "けいげんする",
+      "headword": "{軽減|けいげん}する",
+      "label": "to reduce, to lessen"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21324_kaishousuru",
+      "reading": "かいしょうする",
+      "headword": "{解消|かいしょう}する",
+      "label": "to resolve"
+    }
+  ],
   "metadata": {
     "created": "2026-03-26T09:38:04Z",
-    "modified": "2026-03-29T03:08:58Z",
+    "modified": "2026-09-02T04:01:56Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

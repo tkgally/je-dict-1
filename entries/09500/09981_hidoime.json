@@ -14,41 +14,59 @@
   "examples": [
     {
       "id": "09981_hidoime_ex1",
-      "japanese": "{酷|ひど}い{目|め}に{遭|あ}った。",
+      "japanese": "{酷|ひど}い{目|め}⟦に→に：00314_ni⟧⟦{遭|あ}った→遭う：09500_au⟧。",
       "english": "I had a terrible experience.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09981_hidoime_ex2",
-      "japanese": "{詐欺|さぎ}に{遭|あ}って{酷|ひど}い{目|め}を{見|み}た。",
+      "japanese": "⟦{詐欺|さぎ}→詐欺：09789_sagi⟧⟦に→に：00314_ni⟧⟦{遭|あ}って→遭う：09500_au⟧{酷|ひど}い{目|め}⟦を→を：00422_wo⟧⟦{見|み}た→見る：00283_miru⟧。",
       "english": "I fell victim to fraud and had an awful experience.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09981_hidoime_ex3",
-      "japanese": "{彼|かれ}には{散々|さんざん}{酷|ひど}い{目|め}に{遭|あ}わされた。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{散々|さんざん}→散々：10323_sanzan⟧{酷|ひど}い{目|め}⟦に→に：00314_ni⟧{遭|あ}わされた。",
       "english": "I was put through terrible experiences by him time and again.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{酷|ひど}い{目|め} is a common expression for bad experiences.\n\nCOMMON PATTERNS:\n- {酷|ひど}い{目|め}に{遭|あ}う: to have a terrible experience\n- {酷|ひど}い{目|め}を{見|み}る: to experience something terrible\n- {酷|ひど}い{目|め}に{遭|あ}わせる: to put someone through a terrible experience\n\nRELATED EXPRESSIONS:\n- {痛|いた}い{目|め}に{遭|あ}う: to learn a painful lesson\n- {嫌|いや}な{思|おも}いをする: to have an unpleasant experience\n- {苦|にが}い{経験|けいけん}: bitter experience\n\nKANJI NOTE:\n{酷|ひど}い is often written in hiragana as ひどい.",
-  "cross_references": [],
+  "notes": "{酷|ひど}い{目|め} is a common expression for bad experiences.\n\nCOMMON PATTERNS:\n- {酷|ひど}い{目|め}⟦に→に：00314_ni⟧⟦{遭|あ}う→遭う：09500_au⟧: to have a terrible experience\n- {酷|ひど}い{目|め}⟦を→を：00422_wo⟧⟦{見|み}る→見る：00283_miru⟧: to experience something terrible\n- {酷|ひど}い{目|め}⟦に→に：00314_ni⟧⟦{遭|あ}わせる→遭う：09500_au⟧: to put someone through a terrible experience\n\nRELATED WORDS:\n- ⟦{痛|いた}い→痛い：01108_itai⟧⟦{目|め}に{遭|あ}う→目に遭う：25927_meniau⟧: to learn a painful lesson\n- ⟦{嫌|いや}→嫌：10232_iya⟧な⟦{思|おも}い→思い：10248_omoi⟧⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧: to have an unpleasant experience\n- ⟦{苦|にが}い{経験|けいけん}→苦い経験：09982_nigaikeiken⟧: bitter experience\n\nWRITING:\n{酷|ひど}い is often written in hiragana as ⟦ひどい→ひどい：01097_hidoi⟧.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "09982_nigaikeiken",
+      "reading": "にがいけいけん",
+      "headword": "{苦|にが}い{経験|けいけん}",
+      "label": "bitter experience"
+    }
+  ],
   "metadata": {
     "created": "2026-02-04T12:07:15Z",
-    "modified": "2026-02-04T12:07:15Z",
+    "modified": "2026-09-02T04:01:19Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["emotion"]
+      "semantic": [
+        "emotion"
+      ]
     }
   }
 }

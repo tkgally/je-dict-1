@@ -3,7 +3,7 @@
   "headword": "{離陸|りりく}する",
   "reading": "りりくする",
   "romaji": "ririkusuru",
-  "part_of_speech": "verb-suru",
+  "part_of_speech": "suru verb",
   "gloss": "to take off (aircraft)",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22506_ririkusuru_ex1",
-      "japanese": "{飛行機|ひこうき}が{離陸|りりく}した。",
+      "japanese": "⟦{飛行機|ひこうき}→飛行機：00629_hikouki⟧⟦が→が：00051_ga⟧{離陸|りりく}した。",
       "english": "The airplane took off.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22506_ririkusuru_ex2",
-      "japanese": "{悪天候|あくてんこう}のため{離陸|りりく}が{遅|おく}れている。",
+      "japanese": "⟦{悪天候|あくてんこう}→悪天候：16184_akutenkou⟧⟦の→の：09472_no⟧⟦ため→ため：01145_tame⟧⟦{離陸|りりく}→離陸：05981_ririku⟧⟦が→が：00051_ga⟧⟦{遅|おく}れている→遅れる：00741_okureru⟧。",
       "english": "The takeoff is delayed due to bad weather.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22506_ririkusuru_ex3",
-      "japanese": "{滑走路|かっそうろ}を{走|はし}り{始|はじ}めてから{離陸|りりく}するまで{約|やく}30{秒|びょう}かかった。",
+      "japanese": "⟦{滑走路|かっそうろ}→滑走路：05980_kassouro⟧⟦を→を：00422_wo⟧⟦{走|はし}り→走る：00519_hashiru⟧⟦{始|はじ}めて→始める：00531_hajimeru⟧⟦から→から：00504_kara⟧{離陸|りりく}する⟦まで→まで：00490_made⟧⟦{約|やく}→約：09563_yaku⟧30⟦{秒|びょう}→秒：00921_byou⟧⟦かかった→かかる：00711_kakaru⟧。",
       "english": "It took about 30 seconds from starting down the runway to takeoff.",
       "sense_numbers": [
         1
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "Used specifically for aircraft leaving the ground. The noun form {離陸|りりく} is commonly used on its own, as in {離陸|りりく}{時間|じかん} (takeoff time). This is the standard aviation term and is also used in news and travel contexts.\n\nCOMMON COLLOCATIONS:\n- {離陸|りりく}{時間|じかん}: takeoff time\n- {離陸|りりく}{準備|じゅんび}: takeoff preparations\n- {離陸|りりく}{直後|ちょくご}: immediately after takeoff\n- {緊急|きんきゅう}{離陸|りりく}: emergency takeoff\n\nSIMILAR WORDS:\n- {着陸|ちゃくりく}する: to land — the opposite, when an aircraft touches down\n- {飛|と}び{立|た}つ: to fly off; to take flight — a more literary or general expression, also used for birds\n- {出発|しゅっぱつ}する: to depart — a broader term for departure that applies to any mode of transport",
+  "notes": "Used specifically for aircraft leaving the ground. The noun form ⟦{離陸|りりく}→離陸：05981_ririku⟧ is commonly used on its own, as in ⟦{離陸|りりく}→離陸：05981_ririku⟧⟦{時間|じかん}→時間：00468_jikan⟧ (takeoff time). This is the standard aviation term and is also used in news and travel contexts.\n\nCOMMON COLLOCATIONS:\n- ⟦{離陸|りりく}→離陸：05981_ririku⟧⟦{時間|じかん}→時間：00468_jikan⟧: takeoff time\n- ⟦{離陸|りりく}→離陸：05981_ririku⟧⟦{準備|じゅんび}→準備：01431_junbi⟧: takeoff preparations\n- ⟦{離陸|りりく}→離陸：05981_ririku⟧⟦{直後|ちょくご}→直後：04525_chokugo⟧: immediately after takeoff\n- ⟦{緊急|きんきゅう}→緊急：11327_kinkyuu⟧⟦{離陸|りりく}→離陸：05981_ririku⟧: emergency takeoff\n\nSIMILAR WORDS:\n- ⟦{着陸|ちゃくりく}→着陸：05982_chakuriku⟧⟦する→する：00392_suru⟧: to land — the opposite, when an aircraft touches down\n- ⟦{飛|と}び{立|た}つ→飛び立つ：19322_tobitatsu⟧: to fly off; to take flight — a more literary or general expression, also used for birds\n- ⟦{出発|しゅっぱつ}する→出発する：01832_shuppatsusuru⟧: to depart — a broader term for departure that applies to any mode of transport",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "05982_chakuriku",
+      "reading": "ちゃくりく",
+      "headword": "{着陸|ちゃくりく}",
+      "label": "to land"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19322_tobitatsu",
+      "reading": "とびたつ",
+      "headword": "{飛|と}び{立|た}つ",
+      "label": "to fly off"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01832_shuppatsusuru",
+      "reading": "しゅっぱつする",
+      "headword": "{出発|しゅっぱつ}する",
+      "label": "to depart"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21033_hasshinsuru",
+      "reading": "はっしんする",
+      "headword": "{発進|はっしん}する",
+      "label": "to depart"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -58,10 +88,11 @@
       "domain": [],
       "formality": "neutral",
       "politeness": "plain",
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     },
     "created": "2026-04-06T16:51:39Z",
-    "modified": "2026-08-01T06:41:09Z"
+    "modified": "2026-09-02T04:02:08Z"
   },
   "conjugation": {
     "type": "suru",

@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "14314_taiji_ex1",
-      "japanese": "ゴキブリを{退治|たいじ}する。",
+      "japanese": "⟦ゴキブリ→ゴキブリ：05131_gokiburi⟧⟦を→を：00422_wo⟧{退治|たいじ}⟦する→する：00392_suru⟧。",
       "english": "To get rid of cockroaches.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "14314_taiji_ex2",
-      "japanese": "{桃太郎|ももたろう}は{鬼|おに}を{退治|たいじ}した。",
+      "japanese": "{桃太郎|ももたろう}⟦は→は：00079_ha⟧⟦{鬼|おに}→鬼：02184_oni⟧⟦を→を：00422_wo⟧{退治|たいじ}⟦した→する：00392_suru⟧。",
       "english": "Momotaro slayed the demons.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "14314_taiji_ex3",
-      "japanese": "{庭|にわ}の{害虫|がいちゅう}を{退治|たいじ}するために、{専門|せんもん}{業者|ぎょうしゃ}に{依頼|いらい}した。",
+      "japanese": "⟦{庭|にわ}→庭：02239_niwa⟧⟦の→の：09472_no⟧⟦{害虫|がいちゅう}→害虫：06430_gaichuu⟧⟦を→を：00422_wo⟧{退治|たいじ}⟦する→する：00392_suru⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧、⟦{専門|せんもん}→専門：01251_senmon⟧⟦{業者|ぎょうしゃ}→業者：13130_gyousha⟧⟦に→に：00314_ni⟧⟦{依頼|いらい}した→依頼する：21376_irai⟧。",
       "english": "I hired a professional to exterminate the pests in the garden.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "Used for defeating or eliminating threats, from everyday pests to legendary monsters. A key word in Japanese folklore and fairy tales.\n\nCOMMON COLLOCATIONS:\n- {鬼|おに}{退治|たいじ} (demon slaying)\n- {害虫|がいちゅう}{退治|たいじ} (pest extermination)\n- ゴキブリ{退治|たいじ} (cockroach extermination)\n- {退治|たいじ}する (to exterminate, to slay)\n\nFamous in the folktale of {桃太郎|ももたろう} ({鬼退治|おにたいじ}). In everyday life, most commonly used for dealing with household pests. Not to be confused with {対峙|たいじ} (confrontation), which is a homophone.",
+  "notes": "Used for defeating or eliminating threats, from everyday pests to legendary monsters. A key word in Japanese folklore and fairy tales.\n\nCOMMON COLLOCATIONS:\n- ⟦{鬼|おに}→鬼：02184_oni⟧{退治|たいじ} (demon slaying)\n- ⟦{害虫|がいちゅう}→害虫：06430_gaichuu⟧{退治|たいじ} (pest extermination)\n- ⟦ゴキブリ→ゴキブリ：05131_gokiburi⟧{退治|たいじ} (cockroach extermination)\n- {退治|たいじ}⟦する→する：00392_suru⟧ (to exterminate, to slay)\n\nFamous in the folktale of {桃太郎|ももたろう} ({鬼退治|おにたいじ}). In everyday life, most commonly used for dealing with household pests. Not to be confused with ⟦{対峙|たいじ}→対峙：12357_taiji⟧ (confrontation), which is a homophone.",
   "prominent_see_also": [
     {
       "target_id": "12357_taiji",
@@ -154,7 +154,7 @@
   ],
   "metadata": {
     "created": "2026-02-28T11:00:18Z",
-    "modified": "2026-03-29T03:08:18Z",
+    "modified": "2026-09-02T04:01:36Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -167,7 +167,8 @@
       "semantic": [
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

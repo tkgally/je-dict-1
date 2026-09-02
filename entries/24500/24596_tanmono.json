@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24596_tanmono_ex1",
-      "japanese": "{反物|たんもの}を{選|えら}んで{着物|きもの}を{仕立|した}てる。",
+      "japanese": "{反物|たんもの}⟦を→を：00422_wo⟧⟦{選|えら}んで→選ぶ：00835_erabu⟧⟦{着物|きもの}→着物：01309_kimono⟧⟦を→を：00422_wo⟧⟦{仕立|した}てる→仕立てる：09525_shitateru⟧。",
       "english": "Choose a bolt of cloth and have a kimono tailored.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24596_tanmono_ex2",
-      "japanese": "この{反物|たんもの}は{絹|きぬ}でできていて、{手触|てざわ}りがいい。",
+      "japanese": "⟦この→この：00962_kono⟧{反物|たんもの}⟦は→は：00079_ha⟧⟦{絹|きぬ}→絹：01383_kinu⟧⟦で→で：00502_de⟧⟦できていて→できる：00557_dekiru⟧、⟦{手触|てざわ}り→手触り：12758_tezawari⟧⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧。",
       "english": "This bolt of fabric is made of silk and feels nice to the touch.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24596_tanmono_ex3",
-      "japanese": "{祖母|そぼ}の{家|いえ}の{押|お}し{入|い}れには、まだ{仕立|した}てていない{反物|たんもの}が{何本|なんほん}も{残|のこ}っていた。",
+      "japanese": "⟦{祖母|そぼ}→祖母：00813_sobo⟧⟦の→の：09472_no⟧⟦{家|いえ}→家：00612_ie⟧⟦の→の：09472_no⟧{押|お}し{入|い}れ⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧、⟦まだ→まだ：00603_mada⟧⟦{仕立|した}てていない→仕立てる：09525_shitateru⟧{反物|たんもの}⟦が→が：00051_ga⟧{何本|なんほん}⟦も→も：00484_mo⟧⟦{残|のこ}っていた→残る：01187_nokoru⟧。",
       "english": "In my grandmother's closet, there were still several uncut bolts of fabric remaining.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "A bolt or roll of cloth, typically about 36 cm wide and 12 meters long, used primarily for making Japanese garments like kimono, yukata, and obi. The standard width is called {並幅|なみはば}. The {反|たん} is a traditional unit of cloth measurement.\n\nCOMMON COLLOCATIONS:\n- {反物|たんもの}を{仕立|した}てる: to tailor fabric into a garment\n- {反物|たんもの}を{選|えら}ぶ: to choose a bolt of fabric\n- {絹|きぬ}の{反物|たんもの}: silk fabric bolt\n- {反物|たんもの}{屋|や}: fabric shop (traditional)\n\nSIMILAR WORDS:\n- {生地|きじ}: fabric, cloth — general term for any fabric, not specifically in bolt form\n- {布|ぬの}: cloth — the broadest, most everyday word for cloth or fabric\n- {織物|おりもの}: woven fabric — emphasizes that the fabric is woven",
+  "notes": "A bolt or roll of cloth, typically about 36 cm wide and 12 meters long, used primarily for making Japanese garments like kimono, yukata, and obi. The standard width is called {並幅|なみはば}. The {反|たん} is a traditional unit of cloth measurement.\n\nCOMMON COLLOCATIONS:\n- {反物|たんもの}⟦を→を：00422_wo⟧⟦{仕立|した}てる→仕立てる：09525_shitateru⟧: to tailor fabric into a garment\n- {反物|たんもの}⟦を→を：00422_wo⟧⟦{選|えら}ぶ→選ぶ：00835_erabu⟧: to choose a bolt of fabric\n- ⟦{絹|きぬ}→絹：01383_kinu⟧⟦の→の：09472_no⟧{反物|たんもの}: silk fabric bolt\n- {反物|たんもの}⟦{屋|や}→〜屋：03096_ya⟧: fabric shop (traditional)\n\nSIMILAR WORDS:\n- ⟦{生地|きじ}→生地：02631_kiji⟧: fabric, cloth — general term for any fabric, not specifically in bolt form\n- ⟦{布|ぬの}→布：01489_nuno⟧: cloth — the broadest, most everyday word for cloth or fabric\n- ⟦{織物|おりもの}→織物：10583_orimono⟧: woven fabric — emphasizes that the fabric is woven",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02631_kiji",
+      "reading": "きじ",
+      "headword": "{生地|きじ}",
+      "label": "fabric, cloth"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01489_nuno",
+      "reading": "ぬの",
+      "headword": "{布|ぬの}",
+      "label": "cloth"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10583_orimono",
+      "reading": "おりもの",
+      "headword": "{織物|おりもの}",
+      "label": "woven fabric"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -63,6 +86,6 @@
       ]
     },
     "created": "2026-04-19T16:27:05Z",
-    "modified": "2026-04-19T16:27:05Z"
+    "modified": "2026-09-02T04:02:18Z"
   }
 }

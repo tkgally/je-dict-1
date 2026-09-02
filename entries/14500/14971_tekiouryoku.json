@@ -15,41 +15,66 @@
   "examples": [
     {
       "id": "14971_tekiouryoku_ex1",
-      "japanese": "{彼|かれ}は{適応力|てきおうりょく}が{高|たか}い。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{適応力|てきおうりょく}⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧。",
       "english": "He has high adaptability.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14971_tekiouryoku_ex2",
-      "japanese": "{子供|こども}は{大人|おとな}より{適応力|てきおうりょく}があると{言|い}われている。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧⟦は→は：00079_ha⟧⟦{大人|おとな}→大人：02856_otona⟧⟦より→より：09476_yori⟧{適応力|てきおうりょく}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧⟦と→と：00512_to⟧⟦{言|い}われている→言う：00515_iu⟧。",
       "english": "Children are said to be more adaptable than adults.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14971_tekiouryoku_ex3",
-      "japanese": "{海外|かいがい}{赴任|ふにん}では{語学力|ごがくりょく}だけでなく{異文化|いぶんか}への{適応力|てきおうりょく}も{求|もと}められる。",
+      "japanese": "⟦{海外|かいがい}→海外：00134_kaigai⟧⟦{赴任|ふにん}→赴任：10601_funin⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{語学力|ごがくりょく}→語学力：29443_gogakuryoku⟧⟦だけでなく→〜だけでなく：18373_dakedenaku⟧⟦{異文化|いぶんか}→異文化：15703_ibunka⟧⟦へ→へ：02473_he⟧⟦の→の：09472_no⟧{適応力|てきおうりょく}⟦も→も：00484_mo⟧⟦{求|もと}められる→求める：02316_motomeru⟧。",
       "english": "Overseas assignments require not only language skills but also the ability to adapt to different cultures.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "A compound of {適応|てきおう} (adaptation) and {力|りょく} (power, ability). Follows the productive Japanese pattern of adding {力|りょく} to abstract nouns to form 'ability to X.'\n\nSIMILAR WORDS:\n- {順応力|じゅんのうりょく} is a close synonym, slightly more passive\n- {柔軟性|じゅうなんせい} means flexibility, a related quality\n\nCOMMON COLLOCATIONS:\n- {適応力|てきおうりょく}が{高|たか}い (highly adaptable)\n- {適応力|てきおうりょく}がある (to have adaptability)\n- {適応力|てきおうりょく}に{優|すぐ}れた (excellent in adaptability)\n- {環境|かんきょう}への{適応力|てきおうりょく} (adaptability to the environment)",
-  "cross_references": [],
+  "notes": "A compound of ⟦{適応|てきおう}→適応：14382_tekiou⟧ (adaptation) and {力|りょく} (power, ability). Follows the productive Japanese pattern of adding {力|りょく} to abstract nouns to form 'ability to X.'\n\nSIMILAR WORDS:\n- {順応力|じゅんのうりょく} is a close synonym, slightly more passive\n- ⟦{柔軟性|じゅうなんせい}→柔軟性：05796_juunansei⟧ means flexibility, a related quality\n\nCOMMON COLLOCATIONS:\n- {適応力|てきおうりょく}⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧ (highly adaptable)\n- {適応力|てきおうりょく}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧ (to have adaptability)\n- {適応力|てきおうりょく}⟦に→に：00314_ni⟧⟦{優|すぐ}れた→優れる：02119_sugureru⟧ (excellent in adaptability)\n- ⟦{環境|かんきょう}→環境：00174_kankyou⟧⟦へ→へ：02473_he⟧⟦の→の：09472_no⟧{適応力|てきおうりょく} (adaptability to the environment)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05796_juunansei",
+      "reading": "じゅうなんせい",
+      "headword": "{柔軟性|じゅうなんせい}",
+      "label": "means flexibility, a related quality"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29134_junnousei",
+      "reading": "じゅんのうせい",
+      "headword": "{順応性|じゅんのうせい}",
+      "label": "adaptability"
+    }
+  ],
   "metadata": {
     "created": "2026-03-04T08:03:32Z",
-    "modified": "2026-03-04T08:03:32Z",
+    "modified": "2026-09-02T04:01:39Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["cognition"]
+      "semantic": [
+        "cognition"
+      ]
     }
   }
 }

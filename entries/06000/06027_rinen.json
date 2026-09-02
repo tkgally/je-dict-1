@@ -43,11 +43,40 @@
       ]
     }
   ],
-  "notes": "{理念|りねん} refers to a guiding principle or fundamental philosophy that shapes an organization's direction or a person's actions. Commonly used in business, education, and politics.\n\nCOMPOUND: {理|り} (reason/principle) + {念|ねん} (thought/idea)\n\nCOMMON COMPOUNDS:\n- ⟦{経営|けいえい}→経営：02740_keiei⟧{理念|りねん}: management philosophy\n- ⟦{教育|きょういく}→教育：01313_kyouiku⟧{理念|りねん}: educational philosophy\n- ⟦{基本|きほん}→基本：00226_kihon⟧{理念|りねん}: fundamental principle\n- ⟦{設立|せつりつ}→設立：14171_setsuritsu⟧{理念|りねん}: founding philosophy\n\nCOMMON PATTERNS:\n- {理念|りねん}⟦を→を：00422_wo⟧⟦{掲|かか}げる→掲げる：12791_kakageru⟧: to set forth a principle\n- {理念|りねん}⟦に→に：00314_ni⟧⟦{基|もと}づく→基づく：02315_motozuku⟧: based on a principle\n- {理念|りねん}⟦と→と：00512_to⟧⟦{現実|げんじつ}→現実：02720_genjitsu⟧: ideals and reality\n\nSIMILAR WORDS:\n- ⟦{信念|しんねん}→信念：03074_shinnen⟧: personal conviction or belief\n- ⟦{思想|しそう}→思想：03173_shisou⟧: ideology, thought (broader, more political)\n- ⟦{哲学|てつがく}→哲学：03548_tetsugaku⟧: philosophy (academic discipline or personal approach)",
-  "cross_references": [],
+  "notes": "{理念|りねん} refers to a guiding principle or fundamental philosophy that shapes an organization's direction or a person's actions. Commonly used in business, education, and politics.\n\nCOMPOUND: {理|り} (reason/principle) + ⟦{念|ねん}→念：12766_nen⟧ (thought/idea)\n\nCOMPOUNDS:\n- ⟦{経営|けいえい}→経営：02740_keiei⟧{理念|りねん}: management philosophy\n- ⟦{教育|きょういく}→教育：01313_kyouiku⟧{理念|りねん}: educational philosophy\n- ⟦{基本|きほん}→基本：00226_kihon⟧{理念|りねん}: fundamental principle\n- ⟦{設立|せつりつ}→設立：14171_setsuritsu⟧{理念|りねん}: founding philosophy\n\nCOMMON PATTERNS:\n- {理念|りねん}⟦を→を：00422_wo⟧⟦{掲|かか}げる→掲げる：12791_kakageru⟧: to set forth a principle\n- {理念|りねん}⟦に→に：00314_ni⟧⟦{基|もと}づく→基づく：02315_motozuku⟧: based on a principle\n- {理念|りねん}⟦と→と：00512_to⟧⟦{現実|げんじつ}→現実：02720_genjitsu⟧: ideals and reality\n\nSIMILAR WORDS:\n- ⟦{信念|しんねん}→信念：03074_shinnen⟧: personal conviction or belief\n- ⟦{思想|しそう}→思想：03173_shisou⟧: ideology, thought (broader, more political)\n- ⟦{哲学|てつがく}→哲学：03548_tetsugaku⟧: philosophy (academic discipline or personal approach)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03074_shinnen",
+      "reading": "しんねん",
+      "headword": "{信念|しんねん}",
+      "label": "personal conviction or belief"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03173_shisou",
+      "reading": "しそう",
+      "headword": "{思想|しそう}",
+      "label": "ideology, thought"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03548_tetsugaku",
+      "reading": "てつがく",
+      "headword": "{哲学|てつがく}",
+      "label": "philosophy"
+    },
+    {
+      "type": "related",
+      "target_id": "04709_gainen",
+      "reading": "がいねん",
+      "headword": "{概念|がいねん}",
+      "label": "concept"
+    }
+  ],
   "metadata": {
     "created": "2026-01-16T21:25:32Z",
-    "modified": "2026-06-10T21:51:21Z",
+    "modified": "2026-09-02T04:01:07Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

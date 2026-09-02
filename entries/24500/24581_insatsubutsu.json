@@ -16,7 +16,7 @@
   "examples": [
     {
       "id": "24581_insatsubutsu_ex1",
-      "japanese": "{印刷物|いんさつぶつ}は{安|やす}い{郵便|ゆうびん}{料金|りょうきん}で{送|おく}れる。",
+      "japanese": "{印刷物|いんさつぶつ}⟦は→は：00079_ha⟧⟦{安|やす}い→安い：00464_yasui⟧⟦{郵便|ゆうびん}→郵便：03803_yuubin⟧⟦{料金|りょうきん}→料金：03797_ryoukin⟧⟦で→で：00502_de⟧⟦{送|おく}れる→送る：00742_okuru⟧。",
       "english": "Printed matter can be sent at a cheaper postal rate.",
       "sense_numbers": [
         1
@@ -26,7 +26,7 @@
     },
     {
       "id": "24581_insatsubutsu_ex2",
-      "japanese": "{大量|たいりょう}の{印刷物|いんさつぶつ}を{配布|はいふ}した。",
+      "japanese": "⟦{大量|たいりょう}→大量：03112_tairyou⟧⟦の→の：09472_no⟧{印刷物|いんさつぶつ}⟦を→を：00422_wo⟧⟦{配布|はいふ}→配布：14410_haifu⟧⟦した→する：00392_suru⟧。",
       "english": "A large amount of printed material was distributed.",
       "sense_numbers": [
         1
@@ -36,7 +36,7 @@
     },
     {
       "id": "24581_insatsubutsu_ex3",
-      "japanese": "デジタル{化|か}が{進|すす}んでも、{印刷物|いんさつぶつ}の{需要|じゅよう}は{完全|かんぜん}にはなくならない。",
+      "japanese": "⟦デジタル{化|か}→デジタル化：08829_dejitaruka⟧⟦が→が：00051_ga⟧⟦{進|すす}んで→進む：01225_susumu⟧⟦も→も：00484_mo⟧、{印刷物|いんさつぶつ}⟦の→の：09472_no⟧⟦{需要|じゅよう}→需要：02616_juyou⟧⟦は→は：00079_ha⟧⟦{完全|かんぜん}→完全：01552_kanzen⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧なくならない。",
       "english": "Even as digitalization progresses, the demand for printed materials will not completely disappear.",
       "sense_numbers": [
         1
@@ -45,11 +45,33 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {印刷|いんさつ} (printing) and {物|ぶつ} (thing/object). A general term for anything that has been printed. In postal contexts, {印刷物|いんさつぶつ} is a specific mail category with lower rates than regular letters, similar to \"printed matter\" classification in international mail.\n\nCOMMON COLLOCATIONS:\n- {印刷物|いんさつぶつ}を{配布|はいふ}する: to distribute printed materials\n- {印刷物|いんさつぶつ}{郵便|ゆうびん}: printed matter mail\n- {大量|たいりょう}の{印刷物|いんさつぶつ}: large quantity of printed matter\n- {印刷物|いんさつぶつ}の{制作|せいさく}: production of printed materials\n\nSIMILAR WORDS:\n- {刊行物|かんこうぶつ}: publication — formally published works like books and journals\n- {出版物|しゅっぱんぶつ}: published material — commercially published works\n- {配布物|はいふぶつ}: handouts, distributed materials — items given out, whether printed or not",
-  "cross_references": [],
+  "notes": "Composed of ⟦{印刷|いんさつ}→印刷：01844_insatsu⟧ (printing) and ⟦{物|ぶつ}→〜物：28336_butsu⟧ (thing/object). A general term for anything that has been printed. In postal contexts, {印刷物|いんさつぶつ} is a specific mail category with lower rates than regular letters, similar to \"printed matter\" classification in international mail.\n\nCOMMON COLLOCATIONS:\n- {印刷物|いんさつぶつ}⟦を→を：00422_wo⟧⟦{配布|はいふ}→配布：14410_haifu⟧⟦する→する：00392_suru⟧: to distribute printed materials\n- {印刷物|いんさつぶつ}⟦{郵便|ゆうびん}→郵便：03803_yuubin⟧: printed matter mail\n- ⟦{大量|たいりょう}→大量：03112_tairyou⟧⟦の→の：09472_no⟧{印刷物|いんさつぶつ}: large quantity of printed matter\n- {印刷物|いんさつぶつ}⟦の→の：09472_no⟧⟦{制作|せいさく}→制作：04320_seisaku⟧: production of printed materials\n\nSIMILAR WORDS:\n- ⟦{刊行物|かんこうぶつ}→刊行物：24580_kankoubutsu⟧: publication — formally published works like books and journals\n- ⟦{出版物|しゅっぱんぶつ}→出版物：15497_shuppanbutsu⟧: published material — commercially published works\n- ⟦{配布物|はいふぶつ}→配布物：18105_haifubutsu⟧: handouts, distributed materials — items given out, whether printed or not",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24580_kankoubutsu",
+      "reading": "かんこうぶつ",
+      "headword": "{刊行物|かんこうぶつ}",
+      "label": "publication"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15497_shuppanbutsu",
+      "reading": "しゅっぱんぶつ",
+      "headword": "{出版物|しゅっぱんぶつ}",
+      "label": "published material"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18105_haifubutsu",
+      "reading": "はいふぶつ",
+      "headword": "{配布物|はいふぶつ}",
+      "label": "handouts, distributed materials"
+    }
+  ],
   "metadata": {
     "created": "2026-04-19T15:21:56Z",
-    "modified": "2026-08-03T09:22:27Z",
+    "modified": "2026-09-02T04:02:18Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

@@ -3,7 +3,7 @@
   "headword": "{自家用|じかよう}",
   "reading": "じかよう",
   "romaji": "jikayou",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "for personal use; private",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21401_jikayou_ex1",
-      "japanese": "{自家用車|じかようしゃ}で{通勤|つうきん}している。",
+      "japanese": "⟦{自家用車|じかようしゃ}→自家用車：23550_jikayousha⟧⟦で→で：00502_de⟧⟦{通勤|つうきん}→通勤：03512_tsuukin⟧⟦している→する：00392_suru⟧。",
       "english": "I commute by private car.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21401_jikayou_ex2",
-      "japanese": "これは{自家用|じかよう}の{野菜|やさい}なので{売|う}り{物|もの}ではありません。",
+      "japanese": "⟦これ→これ：00963_kore⟧⟦は→は：00079_ha⟧{自家用|じかよう}⟦の→の：09472_no⟧⟦{野菜|やさい}→野菜：02265_yasai⟧な⟦の→の：09472_no⟧で{売|う}り{物|もの}⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦ありません→ある：00006_aru⟧。",
       "english": "These are vegetables for personal use, so they are not for sale.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21401_jikayou_ex3",
-      "japanese": "{自家用|じかよう}ジェットを{持|も}っているのは、よほどの{富裕層|ふゆうそう}に{限|かぎ}られる。",
+      "japanese": "{自家用|じかよう}ジェット⟦を→を：00422_wo⟧⟦{持|も}っている→持つ：00478_motsu⟧⟦の→の：09472_no⟧⟦は→は：00079_ha⟧、よほど⟦の→の：09472_no⟧⟦{富裕層|ふゆうそう}→富裕層：12390_fuyuusou⟧⟦に→に：00314_ni⟧⟦{限|かぎ}られる→限る：02033_kagiru⟧。",
       "english": "Owning a private jet is limited to the extremely wealthy.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {自家|じか} (one's own house/family) and {用|よう} (use/purpose). Used as a prefix-like modifier to indicate something is for private rather than commercial use.\n\nCOMMON COLLOCATIONS:\n- {自家用車|じかようしゃ}: private car, personal vehicle\n- {自家用|じかよう}ジェット: private jet\n- {自家用|じかよう}{操縦士|そうじゅうし}: private pilot\n- {自家用|じかよう}{野菜|やさい}: home-grown vegetables (for personal consumption)\n\nSIMILAR WORDS:\n- {私用|しよう}: for private/personal use — broader in meaning, covers any personal purpose\n- {営業用|えいぎょうよう}: for business use — the opposite, indicating commercial purpose\n- {社用|しゃよう}: for company use — specifically for business/corporate purposes",
+  "notes": "A compound of ⟦{自家|じか}→自家：14071_jika⟧ (one's own house/family) and ⟦{用|よう}→〜用：09842_you⟧ (use/purpose). Used as a prefix-like modifier to indicate something is for private rather than commercial use.\n\nCOMMON COLLOCATIONS:\n- ⟦{自家用車|じかようしゃ}→自家用車：23550_jikayousha⟧: private car, personal vehicle\n- {自家用|じかよう}ジェット: private jet\n- {自家用|じかよう}⟦{操縦士|そうじゅうし}→操縦士：20748_soujuushi⟧: private pilot\n- {自家用|じかよう}⟦{野菜|やさい}→野菜：02265_yasai⟧: home-grown vegetables (for personal consumption)\n\nSIMILAR WORDS:\n- ⟦{私用|しよう}→私用：00459_shiyou⟧: for private/personal use — broader in meaning, covers any personal purpose\n- {営業用|えいぎょうよう}: for business use — the opposite, indicating commercial purpose\n- {社用|しゃよう}: for company use — specifically for business/corporate purposes",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00459_shiyou",
+      "reading": "しよう",
+      "headword": "{私用|しよう}",
+      "label": "for private/personal use"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +69,6 @@
       ]
     },
     "created": "2026-04-02T02:48:54Z",
-    "modified": "2026-04-02T02:48:54Z"
+    "modified": "2026-09-02T04:02:03Z"
   }
 }

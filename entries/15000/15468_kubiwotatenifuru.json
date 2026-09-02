@@ -15,41 +15,66 @@
   "examples": [
     {
       "id": "15468_kubiwotatenifuru_ex1",
-      "japanese": "{彼|かれ}はなかなか{首|くび}を{縦|たて}に{振|ふ}らない。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦なかなか→なかなか：01547_nakanaka⟧{首|くび}を{縦|たて}に{振|ふ}らない。",
       "english": "He refuses to say yes.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15468_kubiwotatenifuru_ex2",
-      "japanese": "やっと{父|ちち}が{首|くび}を{縦|たて}に{振|ふ}ってくれた。",
+      "japanese": "⟦やっと→やっと：01561_yatto⟧⟦{父|ちち}→父：00566_chichi⟧⟦が→が：00051_ga⟧{首|くび}を{縦|たて}に{振|ふ}って⟦くれた→くれる：00724_kureru⟧。",
       "english": "My father finally gave his approval.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15468_kubiwotatenifuru_ex3",
-      "japanese": "どんなに{説得|せっとく}しても、{彼女|かのじょ}は{首|くび}を{縦|たて}に{振|ふ}ろうとしなかった。",
+      "japanese": "⟦どんな→どんな：02924_donna⟧⟦に→に：00314_ni⟧⟦{説得|せっとく}して→説得する：21139_settokusuru⟧⟦も→も：00484_mo⟧、⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧{首|くび}を{縦|たて}に{振|ふ}ろうとしなかった。",
       "english": "No matter how much I tried to persuade her, she wouldn't agree.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nMore often used in the NEGATIVE ({首|くび}を{縦|たて}に{振|ふ}らない) to describe refusal or reluctance to agree. The affirmative is used when emphasizing that consent was finally obtained.\n\nCONTRAST:\n- {首|くび}を{縦|たて}に{振|ふ}る (to nod yes)\n- {首|くび}を{横|よこ}に{振|ふ}る (to shake one's head no)\n\nCOMMON PATTERNS:\n- なかなか{首|くび}を{縦|たて}に{振|ふ}らない (won't easily agree)\n- やっと{首|くび}を{縦|たて}に{振|ふ}る (to finally agree)\n- {首|くび}を{縦|たて}に{振|ふ}ろうとしない (to refuse to agree)\n\nNUANCE:\nMore vivid and emphatic than simply {同意|どうい}する (to agree) or うなずく (to nod). Often used when the agreement or refusal is significant or hard-won.",
-  "cross_references": [],
+  "notes": "USAGE:\nMore often used in the NEGATIVE ({首|くび}を{縦|たて}に{振|ふ}らない) to describe refusal or reluctance to agree. The affirmative is used when emphasizing that consent was finally obtained.\nMore vivid and emphatic than simply ⟦{同意|どうい}する→同意する：06056_douisuru⟧ (to agree) or うなずく (to nod). Often used when the agreement or refusal is significant or hard-won.\n\nSIMILAR WORDS:\n- {首|くび}を{縦|たて}に{振|ふ}る (to nod yes)\n- ⟦{首|くび}を{横|よこ}に{振|ふ}る→首を横に振る：19743_kubiwoyokonifuru⟧ (to shake one's head no)\n\nCOMMON PATTERNS:\n- ⟦なかなか→なかなか：01547_nakanaka⟧{首|くび}を{縦|たて}に{振|ふ}らない (won't easily agree)\n- ⟦やっと→やっと：01561_yatto⟧{首|くび}を{縦|たて}に{振|ふ}る (to finally agree)\n- {首|くび}を{縦|たて}に{振|ふ}ろうとしない (to refuse to agree)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19743_kubiwoyokonifuru",
+      "reading": "くびをよこにふる",
+      "headword": "{首|くび}を{横|よこ}に{振|ふ}る",
+      "label": "to shake one's head no"
+    },
+    {
+      "type": "related",
+      "target_id": "05544_unazuku",
+      "reading": "うなずく",
+      "headword": "{頷|うなず}く",
+      "label": "to nod"
+    }
+  ],
   "metadata": {
     "created": "2026-03-07T07:42:40Z",
-    "modified": "2026-03-07T07:42:40Z",
+    "modified": "2026-09-02T04:01:41Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["expression"],
+      "pos": [
+        "expression"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["communication"]
+      "semantic": [
+        "communication"
+      ]
     }
   }
 }

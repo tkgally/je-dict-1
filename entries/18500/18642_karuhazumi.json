@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "18642_karuhazumi_ex1",
-      "japanese": "{軽|かる}はずみな{発言|はつげん}をしてしまった。",
+      "japanese": "{軽|かる}はずみな⟦{発言|はつげん}→発言：05099_hatsugen⟧⟦を→を：00422_wo⟧⟦して→する：00392_suru⟧しまった。",
       "english": "I made a careless remark.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "18642_karuhazumi_ex2",
-      "japanese": "{軽|かる}はずみな{行動|こうどう}は{慎|つつし}んでください。",
+      "japanese": "{軽|かる}はずみな⟦{行動|こうどう}→行動：02728_koudou⟧⟦は→は：00079_ha⟧⟦{慎|つつし}んで→慎む：09158_tsutsushimu⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please refrain from rash behavior.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "18642_karuhazumi_ex3",
-      "japanese": "{軽|かる}はずみに{約束|やくそく}してしまい、あとで{後悔|こうかい}した。",
+      "japanese": "{軽|かる}はずみ⟦に→に：00314_ni⟧⟦{約束|やくそく}して→約束する：05643_yakusokusuru⟧しまい、あと⟦で→で：00502_de⟧⟦{後悔|こうかい}→後悔：02738_koukai⟧⟦した→する：00392_suru⟧。",
       "english": "I thoughtlessly made a promise and regretted it later.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,26 @@
       ]
     }
   ],
-  "notes": "{軽|かる}はずみ describes acting or speaking impulsively without considering the consequences. Always carries a negative connotation.\n\nFORMS:\n- {軽|かる}はずみな〜: na-adjective modifier\n- {軽|かる}はずみに: adverbially (rashly, thoughtlessly)\n- {軽|かる}はずみ: noun (rashness, thoughtlessness)\n\nCOMMON COLLOCATIONS:\n- {軽|かる}はずみな{発言|はつげん}: careless remark\n- {軽|かる}はずみな{行動|こうどう}: rash behavior\n- {軽|かる}はずみに{約束|やくそく}する: to promise rashly\n- {軽|かる}はずみに{口|くち}にする: to blurt out thoughtlessly\n\nSIMILAR WORDS:\n- うかつ: careless, negligent (about overlooking something)\n- {早|はや}まる: to be hasty, to act prematurely\n- {無謀|むぼう}: reckless (more extreme, about dangerous actions)",
-  "cross_references": [],
+  "notes": "{軽|かる}はずみ describes acting or speaking impulsively without considering the consequences. Always carries a negative connotation.\n\nFORMS:\n- {軽|かる}はずみな〜: na-adjective modifier\n- {軽|かる}はずみ⟦に→に：00314_ni⟧: adverbially (rashly, thoughtlessly)\n- {軽|かる}はずみ: noun (rashness, thoughtlessness)\n\nCOMMON COLLOCATIONS:\n- {軽|かる}はずみな⟦{発言|はつげん}→発言：05099_hatsugen⟧: careless remark\n- {軽|かる}はずみな⟦{行動|こうどう}→行動：02728_koudou⟧: rash behavior\n- {軽|かる}はずみ⟦に→に：00314_ni⟧⟦{約束|やくそく}する→約束する：05643_yakusokusuru⟧: to promise rashly\n- {軽|かる}はずみ⟦に→に：00314_ni⟧⟦{口|くち}にする→口にする：21471_kuchinisuru⟧: to blurt out thoughtlessly\n\nSIMILAR WORDS:\n- うかつ: careless, negligent (about overlooking something)\n- ⟦{早|はや}まる→早まる：04585_hayamaru⟧: to be hasty, to act prematurely\n- ⟦{無謀|むぼう}→無謀：13423_mubou⟧: reckless (more extreme, about dangerous actions)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04585_hayamaru",
+      "reading": "はやまる",
+      "headword": "{早|はや}まる",
+      "label": "to be hasty, to act prematurely"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13423_mubou",
+      "reading": "むぼう",
+      "headword": "{無謀|むぼう}",
+      "label": "reckless"
+    }
+  ],
   "metadata": {
     "created": "2026-03-22T10:41:08Z",
-    "modified": "2026-07-25T21:35:01Z",
+    "modified": "2026-09-02T04:01:53Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

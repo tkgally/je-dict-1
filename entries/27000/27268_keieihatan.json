@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "27268_keieihatan_ex1",
-      "japanese": "その{会社|かいしゃ}は{経営|けいえい}{破綻|はたん}に{追|お}い{込|こ}まれた。",
+      "japanese": "⟦その→その：00993_sono⟧⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦は→は：00079_ha⟧{経営|けいえい}{破綻|はたん}⟦に→に：00314_ni⟧⟦{追|お}い{込|こ}まれた→追い込む：06371_oikomu⟧。",
       "english": "The company was driven into business failure.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "27268_keieihatan_ex2",
-      "japanese": "{経営|けいえい}{破綻|はたん}した{銀行|ぎんこう}の{預金者|よきんしゃ}は{不安|ふあん}を{感|かん}じている。",
+      "japanese": "{経営|けいえい}{破綻|はたん}⟦した→する：00392_suru⟧⟦{銀行|ぎんこう}→銀行：00578_ginkou⟧⟦の→の：09472_no⟧{預金者|よきんしゃ}⟦は→は：00079_ha⟧⟦{不安|ふあん}→不安：00836_fuan⟧⟦を→を：00422_wo⟧⟦{感|かん}じている→感じる：02044_kanjiru⟧。",
       "english": "Depositors of the failed bank are feeling anxious.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "27268_keieihatan_ex3",
-      "japanese": "{過大|かだい}な{投資|とうし}と{売上|うりあげ}の{減少|げんしょう}が{重|かさ}なり、{経営|けいえい}{破綻|はたん}に{至|いた}った。",
+      "japanese": "{過大|かだい}な⟦{投資|とうし}→投資：04711_toushi⟧⟦と→と：00512_to⟧⟦{売上|うりあげ}→売上：04102_uriage⟧⟦の→の：09472_no⟧⟦{減少|げんしょう}→減少：02719_genshou⟧⟦が→が：00051_ga⟧⟦{重|かさ}なり→重なる：02038_kasanaru⟧、{経営|けいえい}{破綻|はたん}⟦に→に：00314_ni⟧⟦{至|いた}った→至る：02009_itaru⟧。",
       "english": "Excessive investment combined with declining sales led to corporate collapse.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {経営|けいえい} (management; business operation) + {破綻|はたん} (failure; collapse; breakdown). A formal term seen frequently in news reports, financial articles, and legal contexts.\n\nCOMMON COLLOCATIONS:\n- {経営|けいえい}{破綻|はたん}に{陥|おちい}る: to fall into business failure\n- {経営|けいえい}{破綻|はたん}に{追|お}い{込|こ}まれる: to be driven to collapse\n- {経営|けいえい}{破綻|はたん}に{至|いた}る: to result in business failure\n- {経営|けいえい}{破綻|はたん}した{企業|きぎょう}: a company that has failed\n- {経営|けいえい}{破綻|はたん}を{防|ふせ}ぐ: to prevent business failure\n\nSIMILAR WORDS:\n- {倒産|とうさん}: bankruptcy; going out of business — more common in everyday speech, specifically means ceasing operations\n- {破産|はさん}: bankruptcy (legal) — a legal declaration of inability to pay debts\n- {廃業|はいぎょう}: closing a business — voluntary cessation, not necessarily due to financial failure",
+  "notes": "Compound of ⟦{経営|けいえい}→経営：02740_keiei⟧ (management; business operation) + ⟦{破綻|はたん}→破綻：09066_hatan⟧ (failure; collapse; breakdown). A formal term seen frequently in news reports, financial articles, and legal contexts.\n\nCOMMON COLLOCATIONS:\n- {経営|けいえい}{破綻|はたん}⟦に→に：00314_ni⟧⟦{陥|おちい}る→陥る：14537_ochiiru⟧: to fall into business failure\n- {経営|けいえい}{破綻|はたん}⟦に→に：00314_ni⟧⟦{追|お}い{込|こ}まれる→追い込む：06371_oikomu⟧: to be driven to collapse\n- {経営|けいえい}{破綻|はたん}⟦に→に：00314_ni⟧⟦{至|いた}る→至る：02009_itaru⟧: to result in business failure\n- {経営|けいえい}{破綻|はたん}⟦した→する：00392_suru⟧⟦{企業|きぎょう}→企業：00225_kigyou⟧: a company that has failed\n- {経営|けいえい}{破綻|はたん}⟦を→を：00422_wo⟧⟦{防|ふせ}ぐ→防ぐ：02409_fusegu⟧: to prevent business failure\n\nSIMILAR WORDS:\n- ⟦{倒産|とうさん}→倒産：03452_tousan⟧: bankruptcy; going out of business — more common in everyday speech, specifically means ceasing operations\n- ⟦{破産|はさん}→破産：03555_hasan⟧: bankruptcy (legal) — a legal declaration of inability to pay debts\n- ⟦{廃業|はいぎょう}→廃業：20645_haigyou⟧: closing a business — voluntary cessation, not necessarily due to financial failure",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03452_tousan",
+      "reading": "とうさん",
+      "headword": "{倒産|とうさん}",
+      "label": "bankruptcy"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03555_hasan",
+      "reading": "はさん",
+      "headword": "{破産|はさん}",
+      "label": "bankruptcy"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20645_haigyou",
+      "reading": "はいぎょう",
+      "headword": "{廃業|はいぎょう}",
+      "label": "closing a business"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +76,7 @@
         "noun"
       ],
       "formality": "formal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "work"
       ],
@@ -62,6 +85,6 @@
       ]
     },
     "created": "2026-05-08T12:11:05Z",
-    "modified": "2026-05-08T12:11:05Z"
+    "modified": "2026-09-02T04:02:29Z"
   }
 }

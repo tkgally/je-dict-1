@@ -15,40 +15,73 @@
   "examples": [
     {
       "id": "24239_kaapetto_ex1",
-      "japanese": "カーペットに{染|し}みがついた。",
+      "japanese": "カーペット⟦に→に：00314_ni⟧⟦{染|し}み→染み：05426_shimi⟧⟦が→が：00051_ga⟧ついた。",
       "english": "A stain got on the carpet.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "24239_kaapetto_ex2",
-      "japanese": "{新|あたら}しいカーペットを{敷|し}いた。",
+      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧カーペット⟦を→を：00422_wo⟧⟦{敷|し}いた→敷く：00366_shiku⟧。",
       "english": "We laid a new carpet.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "24239_kaapetto_ex3",
-      "japanese": "このカーペットは{毎日|まいにち}{掃除機|そうじき}をかけないと{埃|ほこり}が{溜|た}まる。",
+      "japanese": "⟦この→この：00962_kono⟧カーペット⟦は→は：00079_ha⟧⟦{毎日|まいにち}→毎日：00729_mainichi⟧⟦{掃除機|そうじき}→掃除機：04967_soujiki⟧⟦を→を：00422_wo⟧⟦かけない→かける：00854_kakeru⟧⟦と→と：00512_to⟧⟦{埃|ほこり}→埃：03624_hokori⟧⟦が→が：00051_ga⟧⟦{溜|た}まる→溜まる：02067_tamaru⟧。",
       "english": "If you don't vacuum this carpet every day, dust builds up.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Loanword from English 'carpet.' In Japan, カーペット typically refers to wall-to-wall or large area carpeting, as distinct from smaller floor coverings.\n\nCOMMON COLLOCATIONS:\n- カーペットを{敷|し}く: to lay/spread a carpet\n- カーペットに{掃除機|そうじき}をかける: to vacuum a carpet\n- カーペットを{張|は}り{替|か}える: to replace carpet\n- {電気|でんき}カーペット: heated carpet (a popular winter item in Japan)\n- タイルカーペット: carpet tiles\n\nSIMILAR WORDS:\n- {絨毯|じゅうたん}: carpet; rug — a more traditional Japanese word for carpet, often implying a finer or more decorative floor covering\n- ラグ: rug — a smaller floor covering that does not span the entire room\n- マット: mat — a small, functional floor covering placed at entrances or in bathrooms\n- {敷物|しきもの}: floor covering — a general native Japanese term for anything spread on a floor",
+  "notes": "Loanword from English 'carpet.' In Japan, カーペット typically refers to wall-to-wall or large area carpeting, as distinct from smaller floor coverings.\n\nCOMMON COLLOCATIONS:\n- カーペット⟦を→を：00422_wo⟧⟦{敷|し}く→敷く：00366_shiku⟧: to lay/spread a carpet\n- カーペット⟦に→に：00314_ni⟧⟦{掃除機|そうじき}→掃除機：04967_soujiki⟧⟦を→を：00422_wo⟧⟦かける→かける：00854_kakeru⟧: to vacuum a carpet\n- カーペット⟦を→を：00422_wo⟧⟦{張|は}り{替|か}える→張り替える：28418_harikaeru⟧: to replace carpet\n- ⟦{電気|でんき}→電気：09780_denki⟧カーペット: heated carpet (a popular winter item in Japan)\n- ⟦タイル→タイル：29719_tairu⟧カーペット: carpet tiles\n\nSIMILAR WORDS:\n- ⟦{絨毯|じゅうたん}→絨毯：04497_juutan⟧: carpet; rug — a more traditional Japanese word for carpet, often implying a finer or more decorative floor covering\n- ラグ: rug — a smaller floor covering that does not span the entire room\n- ⟦マット→マット：21812_matto⟧: mat — a small, functional floor covering placed at entrances or in bathrooms\n- ⟦{敷物|しきもの}→敷物：17130_shikimono⟧: floor covering — a general native Japanese term for anything spread on a floor",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04497_juutan",
+      "reading": "じゅうたん",
+      "headword": "{絨毯|じゅうたん}",
+      "label": "carpet"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21812_matto",
+      "reading": "まっと",
+      "headword": "マット",
+      "label": "mat"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17130_shikimono",
+      "reading": "しきもの",
+      "headword": "{敷物|しきもの}",
+      "label": "floor covering"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["furniture"]
+      "semantic": [
+        "furniture"
+      ]
     },
     "created": "2026-04-18T11:19:33Z",
-    "modified": "2026-04-18T11:19:33Z"
+    "modified": "2026-09-02T04:02:17Z"
   }
 }

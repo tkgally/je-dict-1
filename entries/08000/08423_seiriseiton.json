@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "08423_seiriseiton_ex1",
-      "japanese": "{部屋|へや}の{整理整頓|せいりせいとん}をする。",
+      "japanese": "⟦{部屋|へや}→部屋：00507_heya⟧⟦の→の：09472_no⟧{整理整頓|せいりせいとん}⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧。",
       "english": "To tidy up the room.",
       "sense_numbers": [
         1
@@ -114,7 +114,7 @@
     },
     {
       "id": "08423_seiriseiton_ex2",
-      "japanese": "{整理整頓|せいりせいとん}が{苦手|にがて}だ。",
+      "japanese": "{整理整頓|せいりせいとん}⟦が→が：00051_ga⟧⟦{苦手|にがて}→苦手：03513_nigate⟧だ。",
       "english": "I'm bad at organizing things.",
       "sense_numbers": [
         1
@@ -124,7 +124,7 @@
     },
     {
       "id": "08423_seiriseiton_ex3",
-      "japanese": "{仕事|しごと}を{始|はじ}める{前|まえ}に{机|つくえ}の{整理整頓|せいりせいとん}をした。",
+      "japanese": "⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦を→を：00422_wo⟧{始|はじ}める⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧⟦{机|つくえ}→机：00762_tsukue⟧⟦の→の：09472_no⟧{整理整頓|せいりせいとん}⟦を→を：00422_wo⟧⟦した→する：00392_suru⟧。",
       "english": "I tidied up my desk before starting work.",
       "sense_numbers": [
         1
@@ -133,7 +133,7 @@
       "notes": null
     }
   ],
-  "notes": "A {四字熟語|よじじゅくご} combining {整理|せいり} (sorting, organizing — deciding what to keep) and {整頓|せいとん} (arranging neatly — putting things in their place). Together they emphasize thorough organization.\n\nCOMMON PATTERNS:\n- {整理整頓|せいりせいとん}する: to organize and tidy up\n- {整理整頓|せいりせいとん}が{行|い}き{届|とど}く: to be thoroughly organized\n- {整理整頓|せいりせいとん}が{苦手|にがて}: to be bad at organizing\n\nCULTURAL NOTE:\nOften seen on signs in schools and workplaces. {整理整頓|せいりせいとん} is considered a fundamental virtue in Japanese culture, taught from elementary school onward.\n\nRELATED:\n- {片|かた}づける: to tidy up (casual, everyday)\n- {断捨離|だんしゃり}: decluttering (modern concept, minimalism-oriented)\n- {整理|せいり}: organizing/sorting (used alone as well)",
+  "notes": "A ⟦{四字熟語|よじじゅくご}→四字熟語：15663_yojijukugo⟧ combining ⟦{整理|せいり}→整理：03297_seiri⟧ (sorting, organizing — deciding what to keep) and ⟦{整頓|せいとん}→整頓：07617_seiton⟧ (arranging neatly — putting things in their place). Together they emphasize thorough organization.\n\nCOMMON PATTERNS:\n- {整理整頓|せいりせいとん}⟦する→する：00392_suru⟧: to organize and tidy up\n- {整理整頓|せいりせいとん}⟦が→が：00051_ga⟧⟦{行|い}き{届|とど}く→行き届く：30420_ikitodoku⟧: to be thoroughly organized\n- {整理整頓|せいりせいとん}⟦が→が：00051_ga⟧⟦{苦手|にがて}→苦手：03513_nigate⟧: to be bad at organizing\n\nCULTURAL NOTE:\nOften seen on signs in schools and workplaces. {整理整頓|せいりせいとん} is considered a fundamental virtue in Japanese culture, taught from elementary school onward.\n\nRELATED WORDS:\n- {片|かた}づける: to tidy up (casual, everyday)\n- ⟦{断捨離|だんしゃり}→断捨離：08348_danshari⟧: decluttering (modern concept, minimalism-oriented)\n- ⟦{整理|せいり}→整理：03297_seiri⟧: organizing/sorting (used alone as well)",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -142,6 +142,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "daily-life",
         "action"
@@ -149,7 +150,7 @@
       "verb_class": "suru"
     },
     "created": "2026-01-27T00:58:00Z",
-    "modified": "2026-08-12T12:50:50Z"
+    "modified": "2026-09-02T04:01:15Z"
   },
   "cross_references": [
     {
@@ -165,6 +166,20 @@
       "reading": "せいとん",
       "headword": "{整頓|せいとん}",
       "label": "tidying up"
+    },
+    {
+      "type": "related",
+      "target_id": "08348_danshari",
+      "reading": "だんしゃり",
+      "headword": "{断捨離|だんしゃり}",
+      "label": "decluttering"
+    },
+    {
+      "type": "related",
+      "target_id": "08347_oosouji",
+      "reading": "おおそうじ",
+      "headword": "{大掃除|おおそうじ}",
+      "label": "major cleaning"
     }
   ]
 }

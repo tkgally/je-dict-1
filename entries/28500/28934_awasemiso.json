@@ -15,41 +15,67 @@
   "examples": [
     {
       "id": "28934_awasemiso_ex1",
-      "japanese": "{今日|きょう}の{味噌汁|みそしる}は{合|あ}わせ{味噌|みそ}で{作|つく}った。",
+      "japanese": "⟦{今日|きょう}→今日：00496_kyou⟧⟦の→の：09472_no⟧⟦{味噌汁|みそしる}→味噌汁：04954_misoshiru⟧⟦は→は：00079_ha⟧{合|あ}わせ{味噌|みそ}⟦で→で：00502_de⟧⟦{作|つく}った→作る：00481_tsukuru⟧。",
       "english": "I made today's miso soup with blended miso.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28934_awasemiso_ex2",
-      "japanese": "{合|あ}わせ{味噌|みそ}はクセが{少|すく}なくて{使|つか}いやすい。",
+      "japanese": "{合|あ}わせ{味噌|みそ}⟦は→は：00079_ha⟧クセ⟦が→が：00051_ga⟧⟦{少|すく}なくて→少ない：01136_sukunai⟧⟦{使|つか}いやすい→使いやすい：30380_tsukaiyasui⟧。",
       "english": "Blended miso has less of a strong flavor and is easy to use.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28934_awasemiso_ex3",
-      "japanese": "{白味噌|しろみそ}と{赤味噌|あかみそ}を{半分|はんぶん}ずつ{混|ま}ぜて{合|あ}わせ{味噌|みそ}にした。",
+      "japanese": "⟦{白味噌|しろみそ}→白味噌：28917_shiromiso⟧⟦と→と：00512_to⟧⟦{赤味噌|あかみそ}→赤味噌：28918_akamiso⟧⟦を→を：00422_wo⟧⟦{半分|はんぶん}→半分：02938_hanbun⟧⟦ずつ→〜ずつ：03092_zutsu⟧⟦{混|ま}ぜて→混ぜる：02423_mazeru⟧{合|あ}わせ{味噌|みそ}にした。",
       "english": "I mixed white and red miso in equal parts to make blended miso.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "The verb stem {合|あ}わせ (\"combining\") + {味噌|みそ}. Most miso sold in supermarkets is actually {合|あ}わせ{味噌|みそ}, since pure single-type miso has a stronger character that not everyone prefers.\n\nCOMMON COLLOCATIONS:\n- {合|あ}わせ{味噌|みそ}{仕立|じた}て: prepared with blended miso (on menus)\n- {自家製|じかせい}{合|あ}わせ{味噌|みそ}: homemade blended miso\n\nSIMILAR WORDS:\n- {白味噌|しろみそ}: white miso — milder and sweeter\n- {赤味噌|あかみそ}: red miso — saltier and stronger; aged longer",
+  "notes": "The verb stem {合|あ}わせ (\"combining\") + ⟦{味噌|みそ}→味噌：01037_miso⟧. Most miso sold in supermarkets is actually {合|あ}わせ{味噌|みそ}, since pure single-type miso has a stronger character that not everyone prefers.\n\nCOMMON COLLOCATIONS:\n- {合|あ}わせ{味噌|みそ}{仕立|じた}て: prepared with blended miso (on menus)\n- ⟦{自家製|じかせい}→自家製：13947_jikasei⟧{合|あ}わせ{味噌|みそ}: homemade blended miso\n\nSIMILAR WORDS:\n- ⟦{白味噌|しろみそ}→白味噌：28917_shiromiso⟧: white miso — milder and sweeter\n- ⟦{赤味噌|あかみそ}→赤味噌：28918_akamiso⟧: red miso — saltier and stronger; aged longer",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "28917_shiromiso",
+      "reading": "しろみそ",
+      "headword": "{白味噌|しろみそ}",
+      "label": "white miso"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28918_akamiso",
+      "reading": "あかみそ",
+      "headword": "{赤味噌|あかみそ}",
+      "label": "red miso"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food"],
+      "semantic": [
+        "food"
+      ],
       "domain": []
     },
     "created": "2026-06-07T04:07:08Z",
-    "modified": "2026-06-07T04:07:08Z"
+    "modified": "2026-09-02T04:02:35Z"
   }
 }

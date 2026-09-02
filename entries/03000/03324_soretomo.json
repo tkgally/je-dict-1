@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "03324_soretomo_ex1",
-      "japanese": "⟦{コーヒー|こーひー}→コーヒー：00789_koohii⟧⟦に→に：00314_ni⟧⟦します→する：00392_suru⟧⟦か→か：09473_ka⟧、それとも⟦{紅茶|こうちゃ}→紅茶：02878_koucha⟧⟦に→に：00314_ni⟧⟦します→する：00392_suru⟧⟦か→か：09473_ka⟧。",
+      "japanese": "⟦コーヒー→コーヒー：00789_koohii⟧⟦に→に：00314_ni⟧⟦します→する：00392_suru⟧⟦か→か：09473_ka⟧、それとも⟦{紅茶|こうちゃ}→紅茶：02878_koucha⟧⟦に→に：00314_ni⟧⟦します→する：00392_suru⟧⟦か→か：09473_ka⟧。",
       "english": "Would you like coffee, or would you like tea?",
       "notes": null,
       "has_audio": false,
@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nそれとも is used between two options in questions to offer an alternative. It connects two complete question clauses.\n\nPATTERN:\nOption A + ⟦か→か：09473_ka⟧、それとも + Option B + ⟦か→か：09473_ka⟧\n\nCOMPARISON:\n- それとも: or (in questions, between two alternatives)\n- ⟦または→または：01808_mataha⟧: or (formal, in statements or questions)\n- ⟦あるいは→あるいは：03825_aruiha⟧: or, possibly (formal, literary)\n- ⟦か→か：09473_ka⟧: or (simple alternative marker)\n\nNOTE:\nそれとも is primarily used in questions. For statements, use または or あるいは.",
+  "notes": "USAGE:\nそれとも is used between two options in questions to offer an alternative. It connects two complete question clauses.\nそれとも is primarily used in questions. For statements, use ⟦また→また：00969_mata⟧⟦は→は：00079_ha⟧ or ⟦あるいは→あるいは：03825_aruiha⟧.\n\nCOMMON PATTERNS:\nOption A + ⟦か→か：09473_ka⟧、それとも + Option B + ⟦か→か：09473_ka⟧\n\nSIMILAR WORDS:\n- それとも: or (in questions, between two alternatives)\n- ⟦または→または：01808_mataha⟧: or (formal, in statements or questions)\n- ⟦あるいは→あるいは：03825_aruiha⟧: or, possibly (formal, literary)\n- ⟦か→か：09473_ka⟧: or (simple alternative marker)",
   "cross_references": [
     {
       "type": "contrast",
@@ -71,11 +71,18 @@
       "reading": "あるいは",
       "headword": "あるいは",
       "label": "or (formal, statement)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01808_mataha",
+      "reading": "または",
+      "headword": "または",
+      "label": "or"
     }
   ],
   "metadata": {
     "created": "2026-01-12T01:14:10Z",
-    "modified": "2026-05-24T23:25:02Z",
+    "modified": "2026-09-02T04:01:03Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

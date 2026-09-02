@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "20226_yakudatazu_ex1",
-      "japanese": "この{役立|やくだ}たず！",
+      "japanese": "⟦この→この：00962_kono⟧{役立|やくだ}たず！",
       "english": "You're useless!",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "20226_yakudatazu_ex2",
-      "japanese": "{役立|やくだ}たずと{言|い}われて{悔|くや}しかった。",
+      "japanese": "{役立|やくだ}たず⟦と→と：00512_to⟧⟦{言|い}われて→言う：00515_iu⟧⟦{悔|くや}しかった→悔しい：02343_kuyashii⟧。",
       "english": "I felt frustrated at being called a good-for-nothing.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "20226_yakudatazu_ex3",
-      "japanese": "{壊|こわ}れた{傘|かさ}はもう{役立|やくだ}たずだから{捨|す}てよう。",
+      "japanese": "⟦{壊|こわ}れた→壊れる：00791_kowareru⟧⟦{傘|かさ}→傘：00639_kasa⟧⟦は→は：00079_ha⟧⟦もう→もう：00602_mou⟧{役立|やくだ}たずだ⟦から→から：00504_kara⟧⟦{捨|す}てよう→捨てる：00892_suteru⟧。",
       "english": "The broken umbrella is useless now, so let's throw it away.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "Formed from {役|やく}に{立|た}つ (to be useful) + ず (classical negative suffix). Literally \"one that doesn't serve a purpose.\" When directed at people, it is a strong insult. Can also describe objects that have lost their function.\n\nCOMMON COLLOCATIONS:\n- {役立|やくだ}たずの{道具|どうぐ}: a useless tool\n- {役立|やくだ}たず{扱|あつか}い: treated as useless\n- {役立|やくだ}たずと{呼|よ}ばれる: to be called useless\n\nUSAGE:\nA harsh, insulting word when directed at people. Often appears in fiction, drama, and anime. In real life, calling someone {役立|やくだ}たず is quite offensive. Can be used self-deprecatingly in a humorous context.\n\nSIMILAR WORDS:\n- {無能|むのう}: incompetent — more formal insult\n- {使|つか}い{物|もの}にならない: unusable, no good — describes things or people that don't function\n- {駄目|だめ}: no good — broader and less harsh",
+  "notes": "Formed from ⟦{役|やく}に{立|た}つ→役に立つ：01130_yakunitatsu⟧ (to be useful) + ず (classical negative suffix). Literally \"one that doesn't serve a purpose.\" When directed at people, it is a strong insult. Can also describe objects that have lost their function.\n\nCOMMON COLLOCATIONS:\n- {役立|やくだ}たず⟦の→の：09472_no⟧⟦{道具|どうぐ}→道具：01479_dougu⟧: a useless tool\n- {役立|やくだ}たず⟦{扱|あつか}い→扱い：12777_atsukai⟧: treated as useless\n- {役立|やくだ}たず⟦と→と：00512_to⟧⟦{呼|よ}ばれる→呼ぶ：00766_yobu⟧: to be called useless\n\nUSAGE:\nA harsh, insulting word when directed at people. Often appears in fiction, drama, and anime. In real life, calling someone {役立|やくだ}たず is quite offensive. Can be used self-deprecatingly in a humorous context.\n\nSIMILAR WORDS:\n- ⟦{無能|むのう}→無能：13476_munou⟧: incompetent — more formal insult\n- {使|つか}い{物|もの}⟦に→に：00314_ni⟧⟦ならない→なる：01970_naru⟧: unusable, no good — describes things or people that don't function\n- {駄目|だめ}: no good — broader and less harsh",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13476_munou",
+      "reading": "むのう",
+      "headword": "{無能|むのう}",
+      "label": "incompetent"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +69,6 @@
       ]
     },
     "created": "2026-03-28T17:15:37Z",
-    "modified": "2026-07-28T00:51:36Z"
+    "modified": "2026-09-02T04:01:58Z"
   }
 }

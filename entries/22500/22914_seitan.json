@@ -15,40 +15,66 @@
   "examples": [
     {
       "id": "22914_seitan_ex1",
-      "japanese": "{生誕|せいたん}100{年|ねん}を{祝|いわ}う。",
+      "japanese": "{生誕|せいたん}100⟦{年|ねん}→年：09876_nen⟧⟦を→を：00422_wo⟧⟦{祝|いわ}う→祝う：01881_iwau⟧。",
       "english": "We celebrate the 100th anniversary of his birth.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "22914_seitan_ex2",
-      "japanese": "モーツァルトの{生誕|せいたん}{記念|きねん}コンサートが{開|ひら}かれた。",
+      "japanese": "モーツァルト⟦の→の：09472_no⟧{生誕|せいたん}⟦{記念|きねん}→記念：00232_kinen⟧⟦コンサート→コンサート：01360_konsaato⟧⟦が→が：00051_ga⟧⟦{開|ひら}かれた→開く：01979_hiraku⟧。",
       "english": "A concert commemorating Mozart's birth was held.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "22914_seitan_ex3",
-      "japanese": "この{美術館|びじゅつかん}は{画家|がか}の{生誕|せいたん}200{周年|しゅうねん}を{記念|きねん}して{建|た}てられた。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{美術館|びじゅつかん}→美術館：01717_bijutsukan⟧⟦は→は：00079_ha⟧⟦{画家|がか}→画家：02583_gaka⟧⟦の→の：09472_no⟧{生誕|せいたん}200⟦{周年|しゅうねん}→周年：09520_shuunen⟧⟦を→を：00422_wo⟧⟦{記念|きねん}→記念：00232_kinen⟧⟦して→する：00392_suru⟧⟦{建|た}てられた→建てる：01189_tateru⟧。",
       "english": "This art museum was built to commemorate the 200th anniversary of the painter's birth.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A formal, literary word for birth, used almost exclusively for notable or historical figures — not for everyday births. Composed of {生|せい} (life, birth) and {誕|たん} (birth, be born).\n\nCOMMON COLLOCATIONS:\n- {生誕|せいたん}100{年|ねん}: 100th birth anniversary\n- {生誕|せいたん}{記念|きねん}: birth commemoration\n- {生誕|せいたん}の{地|ち}: birthplace\n- {生誕|せいたん}{祭|さい}: birth festival\n\nSIMILAR WORDS:\n- {誕生|たんじょう}: birth — the standard, everyday word for being born; used for both people and things (e.g., the birth of a new era)\n- {出生|しゅっしょう}: birth — formal/official, used in legal and demographic contexts (birth rate, birth certificate)\n- {降誕|こうたん}: nativity — specifically for the birth of religious figures such as Christ or Buddha",
+  "notes": "A formal, literary word for birth, used almost exclusively for notable or historical figures — not for everyday births. Composed of {生|せい} (life, birth) and {誕|たん} (birth, be born).\n\nCOMMON COLLOCATIONS:\n- {生誕|せいたん}100⟦{年|ねん}→年：09876_nen⟧: 100th birth anniversary\n- {生誕|せいたん}⟦{記念|きねん}→記念：00232_kinen⟧: birth commemoration\n- {生誕|せいたん}⟦の→の：09472_no⟧{地|ち}: birthplace\n- {生誕|せいたん}{祭|さい}: birth festival\n\nSIMILAR WORDS:\n- ⟦{誕生|たんじょう}→誕生：01460_tanjou⟧: birth — the standard, everyday word for being born; used for both people and things (e.g., the birth of a new era)\n- ⟦{出生|しゅっしょう}→出生：11766_shusshou⟧: birth — formal/official, used in legal and demographic contexts (birth rate, birth certificate)\n- {降誕|こうたん}: nativity — specifically for the birth of religious figures such as Christ or Buddha",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01460_tanjou",
+      "reading": "たんじょう",
+      "headword": "{誕生|たんじょう}",
+      "label": "birth"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11766_shusshou",
+      "reading": "しゅっしょう",
+      "headword": "{出生|しゅっしょう}",
+      "label": "birth"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["existence"],
+      "pos": [
+        "noun"
+      ],
+      "semantic": [
+        "existence"
+      ],
       "formality": "formal",
       "politeness": "plain"
     },
     "created": "2026-04-07T21:09:31Z",
-    "modified": "2026-07-31T00:22:30Z"
+    "modified": "2026-09-02T04:02:10Z"
   }
 }

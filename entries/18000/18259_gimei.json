@@ -15,41 +15,73 @@
   "examples": [
     {
       "id": "18259_gimei_ex1",
-      "japanese": "{偽名|ぎめい}でホテルに{泊|と}まった。",
+      "japanese": "{偽名|ぎめい}⟦で→で：00502_de⟧⟦ホテル→ホテル：01027_hoteru⟧⟦に→に：00314_ni⟧⟦{泊|と}まった→泊まる：10445_tomaru⟧。",
       "english": "He stayed at the hotel under a false name.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18259_gimei_ex2",
-      "japanese": "{犯人|はんにん}は{偽名|ぎめい}を{使|つか}って{逃|に}げていた。",
+      "japanese": "⟦{犯人|はんにん}→犯人：03572_hannin⟧⟦は→は：00079_ha⟧{偽名|ぎめい}⟦を→を：00422_wo⟧⟦{使|つか}って→使う：00473_tsukau⟧⟦{逃|に}げていた→逃げる：01151_nigeru⟧。",
       "english": "The criminal had been on the run using a false name.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18259_gimei_ex3",
-      "japanese": "{偽名|ぎめい}で{契約|けいやく}を{結|むす}ぶことは{法律|ほうりつ}{違反|いはん}になる{場合|ばあい}がある。",
+      "japanese": "{偽名|ぎめい}⟦で→で：00502_de⟧⟦{契約|けいやく}を{結|むす}ぶ→契約を結ぶ：18695_keiyakuwomusubu⟧こと⟦は→は：00079_ha⟧⟦{法律|ほうりつ}→法律：01722_houritsu⟧⟦{違反|いはん}→違反：01824_ihan⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦{場合|ばあい}→場合：01704_baai⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "Entering a contract under a false name can be a legal violation.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nCarries a negative nuance implying deception. Used in news, crime reports, and fiction. For non-deceptive alternative names, Japanese uses different terms.\n\nCOMMON COLLOCATIONS:\n- {偽名|ぎめい}を{使|つか}う (to use a false name)\n- {偽名|ぎめい}で～する (to do something under a false name)\n- {偽名|ぎめい}を{名乗|なの}る (to go by a false name)\n\nSIMILAR WORDS:\n- {芸名|げいめい}: stage name — used openly by entertainers, no deceptive intent\n- ペンネーム: pen name — used openly by writers\n- {仮名|かめい}: pseudonym; alias — more neutral, used in news to protect identity",
-  "cross_references": [],
+  "notes": "USAGE:\nCarries a negative nuance implying deception. Used in news, crime reports, and fiction. For non-deceptive alternative names, Japanese uses different terms.\n\nCOMMON COLLOCATIONS:\n- {偽名|ぎめい}⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧ (to use a false name)\n- {偽名|ぎめい}⟦で→で：00502_de⟧～⟦する→する：00392_suru⟧ (to do something under a false name)\n- {偽名|ぎめい}⟦を→を：00422_wo⟧⟦{名乗|なの}る→名乗る：11874_nanoru⟧ (to go by a false name)\n\nSIMILAR WORDS:\n- ⟦{芸名|げいめい}→芸名：25284_geimei⟧: stage name — used openly by entertainers, no deceptive intent\n- ⟦ペンネーム→ペンネーム：25452_penneemu⟧: pen name — used openly by writers\n- {仮名|かめい}: pseudonym; alias — more neutral, used in news to protect identity",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25284_geimei",
+      "reading": "げいめい",
+      "headword": "{芸名|げいめい}",
+      "label": "stage name"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25452_penneemu",
+      "reading": "ぺんねーむ",
+      "headword": "ペンネーム",
+      "label": "pen name"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13034_honmyou",
+      "reading": "ほんみょう",
+      "headword": "{本名|ほんみょう}",
+      "label": "real name, true name"
+    }
+  ],
   "metadata": {
     "created": "2026-03-20T13:51:51Z",
-    "modified": "2026-03-20T13:51:51Z",
+    "modified": "2026-09-02T04:01:51Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

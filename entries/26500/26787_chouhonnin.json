@@ -15,42 +15,81 @@
   "examples": [
     {
       "id": "26787_chouhonnin_ex1",
-      "japanese": "{騒|さわ}ぎの{張本人|ちょうほんにん}は{彼|かれ}だ。",
+      "japanese": "⟦{騒|さわ}ぎ→騒ぎ：02827_sawagi⟧⟦の→の：09472_no⟧{張本人|ちょうほんにん}⟦は→は：00079_ha⟧⟦{彼|かれ}→彼：01292_kare⟧だ。",
       "english": "He's the one who started all the trouble.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26787_chouhonnin_ex2",
-      "japanese": "この{問題|もんだい}の{張本人|ちょうほんにん}が{誰|だれ}なのか{調|しら}べている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{問題|もんだい}→問題：00797_mondai⟧⟦の→の：09472_no⟧{張本人|ちょうほんにん}⟦が→が：00051_ga⟧⟦{誰|だれ}→誰：00534_dare⟧な⟦の→の：09472_no⟧⟦か→か：09473_ka⟧⟦{調|しら}べている→調べる：01213_shiraberu⟧。",
       "english": "We're investigating who's primarily responsible for this problem.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26787_chouhonnin_ex3",
-      "japanese": "{情報|じょうほう}{漏洩|ろうえい}の{張本人|ちょうほんにん}は{社内|しゃない}にいると{考|かんが}えられている。",
+      "japanese": "⟦{情報|じょうほう}{漏洩|ろうえい}→情報漏洩：19198_jouhourouei⟧⟦の→の：09472_no⟧{張本人|ちょうほんにん}⟦は→は：00079_ha⟧⟦{社内|しゃない}→社内：13731_shanai⟧⟦に→に：00314_ni⟧⟦いる→いる：00495_iru⟧⟦と→と：00512_to⟧⟦{考|かんが}えられている→考える：00856_kangaeru⟧。",
       "english": "It is believed that the person responsible for the information leak is inside the company.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A formal word with strong negative connotations, used to identify the person most responsible for something bad. Composed of {張本|ちょうほん} (origin of trouble) + {人|にん} (person).\n\nCOMMON COLLOCATIONS:\n- {事件|じけん}の{張本人|ちょうほんにん}: the person behind the incident\n- {騒|さわ}ぎの{張本人|ちょうほんにん}: the one who caused the commotion\n- {張本人|ちょうほんにん}を{突|つ}き{止|と}める: to identify the culprit\n\nUSAGE:\nAlmost exclusively negative. Unlike {犯人|はんにん} (criminal), which implies a legal crime, {張本人|ちょうほんにん} is broader and can refer to the instigator of any trouble, scandal, or undesirable situation.\n\nSIMILAR WORDS:\n- {犯人|はんにん}: criminal; perpetrator — specifically refers to someone who committed a crime\n- {首謀者|しゅぼうしゃ}: mastermind — implies planning and leadership of a group\n- {元凶|げんきょう}: root cause; source of evil — can refer to a person or thing",
-  "cross_references": [],
+  "notes": "A formal word with strong negative connotations, used to identify the person most responsible for something bad. Composed of {張本|ちょうほん} (origin of trouble) + ⟦{人|にん}→〜人：00658_nin⟧ (person).\n\nCOMMON COLLOCATIONS:\n- ⟦{事件|じけん}→事件：01568_jiken⟧⟦の→の：09472_no⟧{張本人|ちょうほんにん}: the person behind the incident\n- ⟦{騒|さわ}ぎ→騒ぎ：02827_sawagi⟧⟦の→の：09472_no⟧{張本人|ちょうほんにん}: the one who caused the commotion\n- {張本人|ちょうほんにん}⟦を→を：00422_wo⟧⟦{突|つ}き{止|と}める→突き止める：09344_tsukitomeru⟧: to identify the culprit\n\nUSAGE:\nAlmost exclusively negative. Unlike ⟦{犯人|はんにん}→犯人：03572_hannin⟧ (criminal), which implies a legal crime, {張本人|ちょうほんにん} is broader and can refer to the instigator of any trouble, scandal, or undesirable situation.\n\nSIMILAR WORDS:\n- ⟦{犯人|はんにん}→犯人：03572_hannin⟧: criminal; perpetrator — specifically refers to someone who committed a crime\n- ⟦{首謀者|しゅぼうしゃ}→首謀者：19171_shubousha⟧: mastermind — implies planning and leadership of a group\n- ⟦{元凶|げんきょう}→元凶：11533_genkyou⟧: root cause; source of evil — can refer to a person or thing",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03572_hannin",
+      "reading": "はんにん",
+      "headword": "{犯人|はんにん}",
+      "label": "criminal"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19171_shubousha",
+      "reading": "しゅぼうしゃ",
+      "headword": "{首謀者|しゅぼうしゃ}",
+      "label": "mastermind"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11533_genkyou",
+      "reading": "げんきょう",
+      "headword": "{元凶|げんきょう}",
+      "label": "root cause"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22551_shubou",
+      "reading": "しゅぼう",
+      "headword": "{首謀|しゅぼう}",
+      "label": "masterminding"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"],
+      "semantic": [
+        "general"
+      ],
       "domain": []
     },
     "created": "2026-05-05T11:07:26Z",
-    "modified": "2026-05-05T11:07:26Z"
+    "modified": "2026-09-02T04:02:27Z"
   }
 }

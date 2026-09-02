@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08708_mizumaki_ex1",
-      "japanese": "{毎朝|まいあさ}{庭|にわ}の{水撒|みずま}きをする。",
+      "japanese": "⟦{毎朝|まいあさ}→毎朝：00966_maiasa⟧⟦{庭|にわ}→庭：02239_niwa⟧⟦の→の：09472_no⟧{水撒|みずま}き⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧。",
       "english": "I water the garden every morning.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "08708_mizumaki_ex2",
-      "japanese": "{夏|なつ}は{水撒|みずま}きで{道路|どうろ}を{冷|ひ}やす{習慣|しゅうかん}がある。",
+      "japanese": "⟦{夏|なつ}→夏：02236_natsu⟧⟦は→は：00079_ha⟧{水撒|みずま}き⟦で→で：00502_de⟧⟦{道路|どうろ}→道路：01481_douro⟧⟦を→を：00422_wo⟧⟦{冷|ひ}やす→冷やす：02403_hiyasu⟧⟦{習慣|しゅうかん}→習慣：01429_shuukan⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "In summer, there's a custom of cooling the streets by sprinkling water.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "08708_mizumaki_ex3",
-      "japanese": "{留守中|るすちゅう}の{水撒|みずま}きを{隣人|りんじん}にお{願|ねが}いした。",
+      "japanese": "{留守中|るすちゅう}⟦の→の：09472_no⟧{水撒|みずま}き⟦を→を：00422_wo⟧⟦{隣人|りんじん}→隣人：10007_rinjin⟧⟦に→に：00314_ni⟧⟦お{願|ねが}いした→お願いする：05654_onegaisuru⟧。",
       "english": "I asked my neighbor to water (the plants) while I'm away.",
       "sense_numbers": [
         1
@@ -43,7 +43,30 @@
       "notes": null
     }
   ],
-  "notes": "COMPOUND:\n{水|みず} (water) + {撒|ま}き (sprinkling)\n\nUSES:\n- {庭|にわ}の{水撒|みずま}き - watering the garden\n- {道|みち}の{水撒|みずま}き - sprinkling water on the street (\"uchimizu\" custom)\n- {花|はな}への{水撒|みずま}き - watering flowers\n\nJAPANESE CUSTOM:\n{打|う}ち{水|みず} (uchimizu) is a traditional Japanese practice of sprinkling water on streets and gardens to cool the surroundings in summer. This practice reduces temperature through evaporation.\n\nRELATED HOUSEHOLD CHORES:\n- {草取|くさと}り - weeding\n- {芝刈|しばか}り - lawn mowing\n- {掃除|そうじ} - cleaning",
+  "notes": "COMPOUNDS:\n⟦{水|みず}→水：02258_mizu⟧ (water) + {撒|ま}き (sprinkling)\n\nFUNCTIONS:\n- ⟦{庭|にわ}→庭：02239_niwa⟧⟦の→の：09472_no⟧{水撒|みずま}き - watering the garden\n- ⟦{道|みち}→道：00505_michi⟧⟦の→の：09472_no⟧{水撒|みずま}き - sprinkling water on the street (\"uchimizu\" custom)\n- ⟦{花|はな}→花：00523_hana⟧⟦へ→へ：02473_he⟧⟦の→の：09472_no⟧{水撒|みずま}き - watering flowers\n\nJAPANESE CUSTOM:\n⟦{打|う}ち{水|みず}→打ち水：28517_uchimizu⟧ (uchimizu) is a traditional Japanese practice of sprinkling water on streets and gardens to cool the surroundings in summer. This practice reduces temperature through evaporation.\n\nRELATED HOUSEHOLD CHORES:\n- ⟦{草取|くさと}り→草取り：08533_kusatori⟧ - weeding\n- ⟦{芝刈|しばか}り→芝刈り：08532_shibakari⟧ - lawn mowing\n- ⟦{掃除|そうじ}→掃除：02889_souji⟧ - cleaning",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "08533_kusatori",
+      "reading": "くさとり",
+      "headword": "{草取|くさと}り",
+      "label": "weeding"
+    },
+    {
+      "type": "related",
+      "target_id": "08532_shibakari",
+      "reading": "しばかり",
+      "headword": "{芝刈|しばか}り",
+      "label": "lawn mowing"
+    },
+    {
+      "type": "related",
+      "target_id": "02889_souji",
+      "reading": "そうじ",
+      "headword": "{掃除|そうじ}",
+      "label": "cleaning"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -51,12 +74,13 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "daily-life",
         "plant-general"
       ]
     },
     "created": "2026-01-28T02:49:47Z",
-    "modified": "2026-08-12T12:51:44Z"
+    "modified": "2026-09-02T04:01:16Z"
   }
 }

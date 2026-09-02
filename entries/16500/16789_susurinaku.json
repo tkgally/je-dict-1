@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "16789_susurinaku_ex1",
-      "japanese": "{彼女|かのじょ}はすすり{泣|な}いていた。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧すすり{泣|な}いて⟦いた→いる：00495_iru⟧。",
       "english": "She was sobbing quietly.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "16789_susurinaku_ex2",
-      "japanese": "{映画|えいが}のラストシーンで{観客|かんきゃく}がすすり{泣|な}いた。",
+      "japanese": "⟦{映画|えいが}→映画：02273_eiga⟧⟦の→の：09472_no⟧⟦ラスト→ラスト：30487_rasuto⟧⟦シーン→シーン：08914_shiin⟧⟦で→で：00502_de⟧⟦{観客|かんきゃく}→観客：02556_kankyaku⟧⟦が→が：00051_ga⟧すすり{泣|な}いた。",
       "english": "The audience sobbed at the last scene of the movie.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "16789_susurinaku_ex3",
-      "japanese": "{隣|となり}の{部屋|へや}から{小|ちい}さくすすり{泣|な}く{声|こえ}が{聞|き}こえてきて、{心配|しんぱい}になった。",
+      "japanese": "⟦{隣|となり}→隣：01003_tonari⟧⟦の→の：09472_no⟧⟦{部屋|へや}→部屋：00507_heya⟧⟦から→から：00504_kara⟧⟦{小|ちい}さく→小さい：00025_chiisai⟧すすり{泣|な}く⟦{声|こえ}→声：02207_koe⟧⟦が→が：00051_ga⟧⟦{聞|き}こえて→聞こえる：01229_kikoeru⟧きて、⟦{心配|しんぱい}→心配：00811_shinpai⟧になった。",
       "english": "I could hear the faint sound of sobbing from the next room, and I became worried.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nDescribes quiet, restrained crying. Often used in literature and descriptions of emotional scenes. The verb conjugates as a godan verb (すすり{泣|な}かない, すすり{泣|な}いて, etc.).\n\nCOMMON COLLOCATIONS:\n- すすり{泣|な}く{声|こえ} (the sound of sobbing)\n- {静|しず}かにすすり{泣|な}く (to sob quietly)\n\nSIMILAR WORDS:\n- {泣|な}く: to cry — general term for crying\n- {嗚咽|おえつ}する: to choke with sobs — more intense, convulsive crying\n- しくしく{泣|な}く: to whimper — similar quiet crying, but more childlike",
+  "notes": "USAGE:\nDescribes quiet, restrained crying. Often used in literature and descriptions of emotional scenes. The verb conjugates as a godan verb (すすり{泣|な}かない, すすり{泣|な}いて, etc.).\n\nCOMMON COLLOCATIONS:\n- すすり{泣|な}く⟦{声|こえ}→声：02207_koe⟧ (the sound of sobbing)\n- ⟦{静|しず}か→静か：00755_shizuka⟧⟦に→に：00314_ni⟧すすり{泣|な}く (to sob quietly)\n\nSIMILAR WORDS:\n- ⟦{泣|な}く→泣く：00655_naku⟧: to cry — general term for crying\n- ⟦{嗚咽|おえつ}→嗚咽：16567_oetsu⟧⟦する→する：00392_suru⟧: to choke with sobs — more intense, convulsive crying\n- ⟦しくしく→しくしく：05373_shikushiku⟧⟦{泣|な}く→泣く：00655_naku⟧: to whimper — similar quiet crying, but more childlike",
   "cross_references": [
     {
       "type": "related",
@@ -149,11 +149,25 @@
       "reading": "おえつ",
       "headword": "{嗚咽|おえつ}",
       "label": "choking with sobs; more intense"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13341_nakijakuru",
+      "reading": "なきじゃくる",
+      "headword": "{泣|な}きじゃくる",
+      "label": "to sob, to cry convulsively"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24461_musebinaku",
+      "reading": "むせびなく",
+      "headword": "むせび{泣|な}く",
+      "label": "to sob"
     }
   ],
   "metadata": {
     "created": "2026-03-14T10:32:03Z",
-    "modified": "2026-05-05T04:05:07Z",
+    "modified": "2026-09-02T04:01:46Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

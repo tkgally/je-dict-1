@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "16431_koukan_ex1",
-      "japanese": "{彼|かれ}に{好感|こうかん}を{持|も}った。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦に→に：00314_ni⟧{好感|こうかん}⟦を→を：00422_wo⟧⟦{持|も}った→持つ：00478_motsu⟧。",
       "english": "I took a liking to him.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "16431_koukan_ex2",
-      "japanese": "{誠実|せいじつ}な{態度|たいど}が{好感|こうかん}を{持|も}たれる。",
+      "japanese": "⟦{誠実|せいじつ}→誠実：14211_seijitsu⟧な⟦{態度|たいど}→態度：03396_taido⟧⟦が→が：00051_ga⟧{好感|こうかん}⟦を→を：00422_wo⟧⟦{持|も}たれる→持つ：00478_motsu⟧。",
       "english": "A sincere attitude earns a favorable impression.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "16431_koukan_ex3",
-      "japanese": "あの{芸能人|げいのうじん}は{好感度|こうかんど}ランキングで{常|つね}に{上位|じょうい}にいる。",
+      "japanese": "⟦あの→あの：00915_ano⟧⟦{芸能人|げいのうじん}→芸能人：14959_geinoujin⟧⟦は→は：00079_ha⟧{好感度|こうかんど}⟦ランキング→ランキング：11195_rankingu⟧⟦で→で：00502_de⟧⟦{常|つね}→常：28958_tsune⟧⟦に→に：00314_ni⟧⟦{上位|じょうい}→上位：11188_joui⟧⟦に→に：00314_ni⟧⟦いる→いる：00495_iru⟧。",
       "english": "That celebrity is always near the top of the likability rankings.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nThe most common patterns are {好感|こうかん}を{持|も}つ (to have a favorable feeling toward) and {好感|こうかん}が{持|も}てる (to be able to feel favorable toward). The compound {好感度|こうかんど} (likability rating) is widely used in media.\n\nCOMMON COLLOCATIONS:\n- {好感|こうかん}を{持|も}つ (to feel favorably toward)\n- {好感|こうかん}が{持|も}てる (to find likable)\n- {好感|こうかん}を{抱|いだ}く (to harbor a favorable feeling — more formal)\n- {好感度|こうかんど} (likability; favorability rating)\n- {好感度|こうかんど}が{高|たか}い (to have high likability)\n\nNOTE:\nDo not confuse with the homophone {交換|こうかん} (exchange).",
+  "notes": "USAGE:\nThe most common patterns are {好感|こうかん}⟦を→を：00422_wo⟧⟦{持|も}つ→持つ：00478_motsu⟧ (to have a favorable feeling toward) and {好感|こうかん}⟦が→が：00051_ga⟧⟦{持|も}てる→持つ：00478_motsu⟧ (to be able to feel favorable toward). The compound {好感度|こうかんど} (likability rating) is widely used in media.\nDo not confuse with the homophone ⟦{交換|こうかん}→交換：02746_koukan⟧ (exchange).\n\nCOMMON COLLOCATIONS:\n- {好感|こうかん}⟦を→を：00422_wo⟧⟦{持|も}つ→持つ：00478_motsu⟧ (to feel favorably toward)\n- {好感|こうかん}⟦が→が：00051_ga⟧⟦{持|も}てる→持つ：00478_motsu⟧ (to find likable)\n- {好感|こうかん}⟦を→を：00422_wo⟧⟦{抱|いだ}く→抱く：02010_idaku⟧ (to harbor a favorable feeling — more formal)\n- {好感度|こうかんど} (likability; favorability rating)\n- {好感度|こうかんど}⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧ (to have high likability)",
   "cross_references": [
     {
       "type": "antonym",
@@ -52,11 +52,25 @@
       "reading": "はんかん",
       "headword": "{反感|はんかん}",
       "label": "antipathy; dislike"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19224_shinkinkan",
+      "reading": "しんきんかん",
+      "headword": "{親近感|しんきんかん}",
+      "label": "feeling of closeness"
+    },
+    {
+      "type": "antonym",
+      "target_id": "23182_akukan",
+      "reading": "あくかん",
+      "headword": "{悪感|あくかん}",
+      "label": "bad feeling"
     }
   ],
   "metadata": {
     "created": "2026-03-12T09:06:49Z",
-    "modified": "2026-05-03T10:12:13Z",
+    "modified": "2026-09-02T04:01:44Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

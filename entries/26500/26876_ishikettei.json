@@ -3,7 +3,7 @@
   "headword": "{意思決定|いしけってい}",
   "reading": "いしけってい",
   "romaji": "ishikettei",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "decision-making; decision",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26876_ishikettei_ex1",
-      "japanese": "{迅速|じんそく}な{意思決定|いしけってい}が{求|もと}められる。",
+      "japanese": "⟦{迅速|じんそく}→迅速：14294_jinsoku⟧な{意思決定|いしけってい}⟦が→が：00051_ga⟧⟦{求|もと}められる→求める：02316_motomeru⟧。",
       "english": "Quick decision-making is required.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26876_ishikettei_ex2",
-      "japanese": "{会社|かいしゃ}の{意思決定|いしけってい}プロセスが{遅|おそ}い。",
+      "japanese": "⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦の→の：09472_no⟧{意思決定|いしけってい}⟦プロセス→プロセス：11291_purosesu⟧⟦が→が：00051_ga⟧⟦{遅|おそ}い→遅い：00533_osoi⟧。",
       "english": "The company's decision-making process is slow.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26876_ishikettei_ex3",
-      "japanese": "データに{基|もと}づいた{意思決定|いしけってい}を{行|おこな}う。",
+      "japanese": "⟦データ→データ：03944_deeta⟧⟦に→に：00314_ni⟧⟦{基|もと}づいた→基づく：02315_motozuku⟧{意思決定|いしけってい}⟦を→を：00422_wo⟧⟦{行|おこな}う→行う：01238_okonau⟧。",
       "english": "To make decisions based on data.",
       "sense_numbers": [
         1
@@ -45,7 +45,7 @@
     },
     {
       "id": "26876_ishikettei_ex4",
-      "japanese": "{最終的|さいしゅうてき}な{意思決定|いしけってい}は{社長|しゃちょう}に{委|ゆだ}ねられた。",
+      "japanese": "⟦{最終的|さいしゅうてき}→最終的：13013_saishuuteki⟧な{意思決定|いしけってい}⟦は→は：00079_ha⟧⟦{社長|しゃちょう}→社長：01428_shachou⟧⟦に→に：00314_ni⟧⟦{委|ゆだ}ねられた→委ねる：10877_yudaneru⟧。",
       "english": "The final decision was left to the company president.",
       "sense_numbers": [
         1
@@ -54,8 +54,23 @@
       "notes": null
     }
   ],
-  "notes": "A key term in business, management, and political discourse. Compound of 意思 (will, intention) + 決定 (determination, decision). Often used in discussions about organizational governance, leadership, and strategic planning. Corresponds closely to the English management concept of 'decision-making.'\n\nCOMMON COLLOCATIONS:\n- {意思決定|いしけってい}プロセス: decision-making process\n- {意思決定|いしけってい}を{行|おこな}う: to make a decision\n- {意思決定|いしけってい}{機関|きかん}: decision-making body\n- {迅速|じんそく}な{意思決定|いしけってい}: swift decision-making\n- {合理的|ごうりてき}な{意思決定|いしけってい}: rational decision-making\n\nSIMILAR WORDS:\n- {決定|けってい}: decision — simpler; the result rather than the process\n- {判断|はんだん}: judgment — emphasizes evaluating and reaching a conclusion\n- {決断|けつだん}: resolution; decisive action — emphasizes courage and firmness in deciding",
-  "cross_references": [],
+  "notes": "A key term in business, management, and political discourse. Compound of 意思 (will, intention) + 決定 (determination, decision). Often used in discussions about organizational governance, leadership, and strategic planning. Corresponds closely to the English management concept of 'decision-making.'\n\nCOMMON COLLOCATIONS:\n- {意思決定|いしけってい}⟦プロセス→プロセス：11291_purosesu⟧: decision-making process\n- {意思決定|いしけってい}⟦を→を：00422_wo⟧⟦{行|おこな}う→行う：01238_okonau⟧: to make a decision\n- {意思決定|いしけってい}⟦{機関|きかん}→機関：02630_kikan⟧: decision-making body\n- ⟦{迅速|じんそく}→迅速：14294_jinsoku⟧な{意思決定|いしけってい}: swift decision-making\n- ⟦{合理的|ごうりてき}→合理的：06199_gouriteki⟧な{意思決定|いしけってい}: rational decision-making\n\nSIMILAR WORDS:\n- ⟦{決定|けってい}→決定：02701_kettei⟧: decision — simpler; the result rather than the process\n- ⟦{判断|はんだん}→判断：03571_handan⟧: judgment — emphasizes evaluating and reaching a conclusion\n- ⟦{決断|けつだん}→決断：13250_ketsudan⟧: resolution; decisive action — emphasizes courage and firmness in deciding",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03571_handan",
+      "reading": "はんだん",
+      "headword": "{判断|はんだん}",
+      "label": "judgment"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13250_ketsudan",
+      "reading": "けつだん",
+      "headword": "{決断|けつだん}",
+      "label": "resolution"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -72,7 +87,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-05T14:18:36Z",
-    "modified": "2026-06-15T07:59:37Z"
+    "modified": "2026-09-02T04:02:28Z"
   },
   "conjugation": {
     "type": "suru",

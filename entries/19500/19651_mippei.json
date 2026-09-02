@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "19651_mippei_ex1",
-      "japanese": "{密閉|みっぺい}{容器|ようき}に{入|い}れる。",
+      "japanese": "{密閉|みっぺい}⟦{容器|ようき}→容器：03656_youki⟧⟦に→に：00314_ni⟧⟦{入|い}れる→入れる：01098_ireru⟧。",
       "english": "To put it in an airtight container.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "19651_mippei_ex2",
-      "japanese": "ふたを{密閉|みっぺい}してから{冷蔵庫|れいぞうこ}に{入|い}れてください。",
+      "japanese": "ふた⟦を→を：00422_wo⟧{密閉|みっぺい}⟦して→する：00392_suru⟧⟦から→から：00504_kara⟧⟦{冷蔵庫|れいぞうこ}→冷蔵庫：01046_reizouko⟧⟦に→に：00314_ni⟧⟦{入|い}れて→入れる：01098_ireru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please seal the lid tightly before putting it in the refrigerator.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "19651_mippei_ex3",
-      "japanese": "{密閉|みっぺい}された{空間|くうかん}では{酸素|さんそ}がなくなる{危険|きけん}がある。",
+      "japanese": "{密閉|みっぺい}⟦された→する：00392_suru⟧⟦{空間|くうかん}→空間：13754_kuukan⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{酸素|さんそ}→酸素：02830_sanso⟧⟦が→が：00051_ga⟧なくなる⟦{危険|きけん}→危険：01141_kiken⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "In a sealed space, there is a risk of running out of oxygen.",
       "sense_numbers": [
         1
@@ -134,7 +134,7 @@
       "notes": null
     }
   ],
-  "notes": "A practical word used in food storage, safety instructions, and science contexts. Also functions as a する verb ({密閉|みっぺい}する = to seal airtight).\n\nCOMMON COLLOCATIONS:\n- {密閉|みっぺい}{容器|ようき}: airtight container\n- {密閉|みっぺい}{空間|くうかん}: sealed/enclosed space\n- {密閉|みっぺい}{状態|じょうたい}: sealed state\n- {密閉|みっぺい}する: to seal airtight\n- {密閉|みっぺい}{性|せい}: airtightness\n\nSIMILAR WORDS:\n- {密封|みっぷう}: sealed (often for packaging) — similar but more about wrapping/enclosing\n- {密閉|みっぺい}: airtight seal — emphasizes complete closure preventing air exchange\n- {気密|きみつ}: airtightness — technical term used in construction and engineering",
+  "notes": "A practical word used in food storage, safety instructions, and science contexts. Also functions as a ⟦する→する：00392_suru⟧ verb ({密閉|みっぺい}⟦する→する：00392_suru⟧ = to seal airtight).\n\nCOMMON COLLOCATIONS:\n- {密閉|みっぺい}⟦{容器|ようき}→容器：03656_youki⟧: airtight container\n- {密閉|みっぺい}⟦{空間|くうかん}→空間：13754_kuukan⟧: sealed/enclosed space\n- {密閉|みっぺい}⟦{状態|じょうたい}→状態：03345_joutai⟧: sealed state\n- {密閉|みっぺい}⟦する→する：00392_suru⟧: to seal airtight\n- {密閉|みっぺい}⟦{性|せい}→性：09880_sei⟧: airtightness\n\nSIMILAR WORDS:\n- ⟦{密封|みっぷう}→密封：18258_mippuu⟧: sealed (often for packaging) — similar but more about wrapping/enclosing\n- {密閉|みっぺい}: airtight seal — emphasizes complete closure preventing air exchange\n- {気密|きみつ}: airtightness — technical term used in construction and engineering",
   "cross_references": [
     {
       "type": "synonym",
@@ -146,7 +146,7 @@
   ],
   "metadata": {
     "created": "2026-03-26T09:41:10Z",
-    "modified": "2026-05-08T08:12:00Z",
+    "modified": "2026-09-02T04:01:56Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
@@ -158,7 +158,8 @@
       "semantic": [
         "daily-life"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

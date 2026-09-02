@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08030_sakiokuri_ex1",
-      "japanese": "{問題|もんだい}の{先送|さきおく}りは{良|よ}くない。",
+      "japanese": "⟦{問題|もんだい}→問題：00797_mondai⟧⟦の→の：09472_no⟧{先送|さきおく}り⟦は→は：00079_ha⟧⟦{良|よ}くない→良い：02350_yoi⟧。",
       "english": "Putting off problems is not good.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "08030_sakiokuri_ex2",
-      "japanese": "{決定|けってい}が{先送|さきおく}りにされた。",
+      "japanese": "⟦{決定|けってい}→決定：02701_kettei⟧⟦が→が：00051_ga⟧{先送|さきおく}り⟦に→に：00314_ni⟧⟦された→する：00392_suru⟧。",
       "english": "The decision was postponed.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "08030_sakiokuri_ex3",
-      "japanese": "{政府|せいふ}は{増税|ぞうぜい}の{先送|さきおく}りを{発表|はっぴょう}した。",
+      "japanese": "⟦{政府|せいふ}→政府：03294_seifu⟧⟦は→は：00079_ha⟧⟦{増税|ぞうぜい}→増税：12091_zouzei⟧⟦の→の：09472_no⟧{先送|さきおく}り⟦を→を：00422_wo⟧⟦{発表|はっぴょう}した→発表する：25231_happyousuru⟧。",
       "english": "The government announced a postponement of the tax increase.",
       "sense_numbers": [
         1
@@ -43,7 +43,7 @@
       "notes": null
     }
   ],
-  "notes": "USAGE:\n- {先送|さきおく}りにする (to postpone, to put off)\n- {先送|さきおく}りにされる (to be postponed)\n- {先送|さきおく}りを{続|つづ}ける (to keep postponing)\n\nCONTEXT:\nOften used in business and political contexts when decisions or difficult issues are delayed. Frequently carries a negative nuance, implying avoidance of responsibility.\n\nCOLLOCATIONS:\n- {問題|もんだい}の{先送|さきおく}り (putting off problems)\n- {判断|はんだん}の{先送|さきおく}り (deferring a decision)\n- {課題|かだい}の{先送|さきおく}り (postponing issues)",
+  "notes": "USAGE:\n- {先送|さきおく}り⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧ (to postpone, to put off)\n- {先送|さきおく}り⟦に→に：00314_ni⟧⟦される→する：00392_suru⟧ (to be postponed)\n- {先送|さきおく}り⟦を→を：00422_wo⟧⟦{続|つづ}ける→続く：00903_tsuzuku⟧ (to keep postponing)\nOften used in business and political contexts when decisions or difficult issues are delayed. Frequently carries a negative nuance, implying avoidance of responsibility.\n\nCOMMON COLLOCATIONS:\n- ⟦{問題|もんだい}→問題：00797_mondai⟧⟦の→の：09472_no⟧{先送|さきおく}り (putting off problems)\n- ⟦{判断|はんだん}→判断：03571_handan⟧⟦の→の：09472_no⟧{先送|さきおく}り (deferring a decision)\n- ⟦{課題|かだい}→課題：00132_kadai⟧⟦の→の：09472_no⟧{先送|さきおく}り (postponing issues)",
   "cross_references": [
     {
       "type": "synonym",
@@ -51,6 +51,20 @@
       "headword": "{棚上|たなあ}げ",
       "label": "shelving; tabling",
       "target_id": "08031_tanaage"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01888_enki",
+      "reading": "えんき",
+      "headword": "{延期|えんき}",
+      "label": "postponement, delay"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27225_hikinobashi",
+      "reading": "ひきのばし",
+      "headword": "{引|ひ}き{延|の}ばし",
+      "label": "prolonging"
     }
   ],
   "metadata": {
@@ -60,12 +74,13 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "time-general",
         "action"
       ]
     },
     "created": "2026-01-25T00:49:49Z",
-    "modified": "2026-06-21T00:53:31Z"
+    "modified": "2026-09-02T04:01:13Z"
   }
 }

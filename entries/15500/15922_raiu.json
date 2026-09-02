@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "15922_raiu_ex1",
-      "japanese": "{午後|ごご}から{雷雨|らいう}になった。",
+      "japanese": "⟦{午後|ごご}→午後：00544_gogo⟧⟦から→から：00504_kara⟧{雷雨|らいう}になった。",
       "english": "There was a thunderstorm from the afternoon.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15922_raiu_ex2",
-      "japanese": "{激|はげ}しい{雷雨|らいう}で{試合|しあい}が{中止|ちゅうし}になった。",
+      "japanese": "⟦{激|はげ}しい→激しい：02348_hageshii⟧{雷雨|らいう}⟦で→で：00502_de⟧⟦{試合|しあい}→試合：01601_shiai⟧⟦が→が：00051_ga⟧⟦{中止|ちゅうし}→中止：03481_chuushi⟧になった。",
       "english": "The game was canceled due to a heavy thunderstorm.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15922_raiu_ex3",
-      "japanese": "{天気予報|てんきよほう}によると、{今夜|こんや}は{雷雨|らいう}の{可能性|かのうせい}があるそうだ。",
+      "japanese": "⟦{天気予報|てんきよほう}→天気予報：01678_tenkiyohou⟧⟦によると→〜によると：03104_niyoruto⟧、⟦{今夜|こんや}→今夜：01411_konya⟧⟦は→は：00079_ha⟧{雷雨|らいう}⟦の→の：09472_no⟧⟦{可能性|かのうせい}→可能性：04818_kanousei⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧そうだ。",
       "english": "According to the weather forecast, there's a possibility of thunderstorms tonight.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\n{雷雨|らいう} specifically refers to rain accompanied by thunder and lightning. It is a standard weather term used in both everyday conversation and weather forecasts.\n\nCOMMON COLLOCATIONS:\n- {激|はげ}しい{雷雨|らいう} (heavy thunderstorm)\n- {雷雨|らいう}に{見舞|みま}われる (to be hit by a thunderstorm)\n- {雷雨|らいう}{注意報|ちゅういほう} (thunderstorm advisory)\n\nSIMILAR WORDS:\n{雷|かみなり} refers to thunder or lightning alone, while {雷雨|らいう} specifically means a rainstorm with thunder. {夕立|ゆうだち} is a sudden evening shower, which may or may not include thunder.",
+  "notes": "USAGE:\n{雷雨|らいう} specifically refers to rain accompanied by thunder and lightning. It is a standard weather term used in both everyday conversation and weather forecasts.\n\nCOMMON COLLOCATIONS:\n- ⟦{激|はげ}しい→激しい：02348_hageshii⟧{雷雨|らいう} (heavy thunderstorm)\n- {雷雨|らいう}⟦に→に：00314_ni⟧⟦{見舞|みま}われる→見舞う：14133_mimau⟧ (to be hit by a thunderstorm)\n- {雷雨|らいう}⟦{注意報|ちゅういほう}→注意報：16464_chuuihou⟧ (thunderstorm advisory)\n\nSIMILAR WORDS:\n⟦{雷|かみなり}→雷：02197_kaminari⟧ refers to thunder or lightning alone, while {雷雨|らいう} specifically means a rainstorm with thunder. ⟦{夕立|ゆうだち}→夕立：05862_yuudachi⟧ is a sudden evening shower, which may or may not include thunder.",
   "cross_references": [
     {
       "type": "related",
@@ -53,18 +59,43 @@
       "reading": "ゆうだち",
       "headword": "{夕立|ゆうだち}",
       "label": "sudden evening shower"
+    },
+    {
+      "type": "related",
+      "target_id": "06188_raimei",
+      "reading": "らいめい",
+      "headword": "{雷鳴|らいめい}",
+      "label": "thunder, thunderclap"
+    },
+    {
+      "type": "related",
+      "target_id": "07379_rakurai",
+      "reading": "らくらい",
+      "headword": "{落雷|らくらい}",
+      "label": "lightning strike"
+    },
+    {
+      "type": "related",
+      "target_id": "27189_raiun",
+      "reading": "らいうん",
+      "headword": "{雷雲|らいうん}",
+      "label": "thundercloud"
     }
   ],
   "metadata": {
     "created": "2026-03-09T00:35:31Z",
-    "modified": "2026-05-02T08:18:57Z",
+    "modified": "2026-09-02T04:01:43Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["weather"]
+      "semantic": [
+        "weather"
+      ]
     }
   }
 }

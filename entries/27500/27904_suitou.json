@@ -15,41 +15,53 @@
   "examples": [
     {
       "id": "27904_suitou_ex1",
-      "japanese": "{現金|げんきん}の{出納|すいとう}を{記録|きろく}する。",
+      "japanese": "⟦{現金|げんきん}→現金：02716_genkin⟧⟦の→の：09472_no⟧{出納|すいとう}⟦を→を：00422_wo⟧⟦{記録|きろく}する→記録する：25341_kirokusuru⟧。",
       "english": "To record cash receipts and payments.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27904_suitou_ex2",
-      "japanese": "{毎日|まいにち}{出納帳|すいとうちょう}をつけている。",
+      "japanese": "⟦{毎日|まいにち}→毎日：00729_mainichi⟧{出納帳|すいとうちょう}⟦を→を：00422_wo⟧⟦つけている→つける：00562_tsukeru⟧。",
       "english": "I keep a cashbook every day.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27904_suitou_ex3",
-      "japanese": "{経理|けいり}{担当者|たんとうしゃ}が{毎月|まいつき}{出納|すいとう}を{締|し}めて{報告|ほうこく}する。",
+      "japanese": "⟦{経理|けいり}→経理：06439_keiri⟧⟦{担当者|たんとうしゃ}→担当者：09676_tantousha⟧⟦が→が：00051_ga⟧⟦{毎月|まいつき}→毎月：00732_maitsuki⟧{出納|すいとう}⟦を→を：00422_wo⟧⟦{締|し}めて→締める：10057_shimeru⟧⟦{報告|ほうこく}する→報告する：05644_houkokusuru⟧。",
       "english": "The accounting staff close the books each month and report the receipts and payments.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Note the irregular reading: {出|すい} (not しゅつ). From {出|すい} (out) + {納|とう} (take in).\n\nCOMMON COLLOCATIONS:\n- {出納帳|すいとうちょう}: cashbook, account book\n- {現金|げんきん}{出納|すいとう}: cash receipts and payments\n- {出納|すいとう}{係|がかり}: cashier; teller\n\nNOTE: A fairly formal, accounting-specific term; in everyday speech one would simply say お{金|かね}の{管理|かんり} (managing money).",
+  "notes": "Note the irregular reading: {出|すい} (not しゅつ). From {出|すい} (out) + {納|とう} (take in).\n\nCOMMON COLLOCATIONS:\n- {出納帳|すいとうちょう}: cashbook, account book\n- ⟦{現金|げんきん}→現金：02716_genkin⟧{出納|すいとう}: cash receipts and payments\n- {出納|すいとう}{係|がかり}: cashier; teller\n\nNOTE: A fairly formal, accounting-specific term; in everyday speech one would simply say ⟦お{金|かね}→お金：00611_okane⟧⟦の→の：09472_no⟧⟦{管理|かんり}→管理：00178_kanri⟧ (managing money).",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["business"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "business"
+      ]
     },
     "created": "2026-05-22T03:04:31Z",
-    "modified": "2026-05-22T03:04:31Z"
+    "modified": "2026-09-02T04:02:32Z"
   }
 }

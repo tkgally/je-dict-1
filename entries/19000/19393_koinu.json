@@ -15,40 +15,73 @@
   "examples": [
     {
       "id": "19393_koinu_ex1",
-      "japanese": "{子犬|こいぬ}がしっぽを{振|ふ}っている。",
+      "japanese": "{子犬|こいぬ}⟦が→が：00051_ga⟧⟦しっぽ→しっぽ：09089_shippo⟧⟦を→を：00422_wo⟧⟦{振|ふ}っている→振る：01983_furu⟧。",
       "english": "The puppy is wagging its tail.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19393_koinu_ex2",
-      "japanese": "{隣|となり}の{家|いえ}で{子犬|こいぬ}が{生|う}まれたので、{見|み}に{行|い}った。",
+      "japanese": "⟦{隣|となり}→隣：01003_tonari⟧⟦の→の：09472_no⟧⟦{家|いえ}→家：00612_ie⟧⟦で→で：00502_de⟧{子犬|こいぬ}⟦が→が：00051_ga⟧⟦{生|う}まれた→生まれる：00905_umareru⟧⟦の→の：09472_no⟧で、⟦{見|み}→見る：00283_miru⟧⟦に→に：00314_ni⟧⟦{行|い}った→行く：00119_iku⟧。",
       "english": "Puppies were born at the neighbor's house, so I went to see them.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19393_koinu_ex3",
-      "japanese": "ペットショップで{見|み}た{子犬|こいぬ}がかわいくて、つい{飼|か}いたくなってしまった。",
+      "japanese": "⟦ペット→ペット：02959_petto⟧⟦ショップ→ショップ：08913_shoppu⟧⟦で→で：00502_de⟧⟦{見|み}た→見る：00283_miru⟧{子犬|こいぬ}⟦が→が：00051_ga⟧⟦かわいくて→かわいい：00857_kawaii⟧、つい⟦{飼|か}いたく→飼う：08151_kau⟧⟦なって→なる：01970_naru⟧しまった。",
       "english": "The puppy I saw at the pet shop was so cute that I couldn't help wanting to keep it.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "{子犬|こいぬ} refers to a young dog, typically under one year old. It is formed from {子|こ} (child, young) + {犬|いぬ} (dog), following a productive pattern used for other young animals: {子猫|こねこ} (kitten), {子馬|こうま} (foal).\n\nCOMMON COLLOCATIONS:\n- {子犬|こいぬ}を{飼|か}う: to keep/raise a puppy\n- {子犬|こいぬ}を{拾|ひろ}う: to find/pick up a stray puppy\n- {子犬|こいぬ}が{生|う}まれる: puppies are born\n\nCOUNTER: {匹|ひき} (for small animals).",
+  "notes": "{子犬|こいぬ} refers to a young dog, typically under one year old. It is formed from ⟦{子|こ}→子：09851_ko⟧ (child, young) + ⟦{犬|いぬ}→犬：00632_inu⟧ (dog), following a productive pattern used for other young animals: {子猫|こねこ} (kitten), ⟦{子馬|こうま}→子馬：19287_kouma⟧ (foal).\n\nCOMMON COLLOCATIONS:\n- {子犬|こいぬ}⟦を→を：00422_wo⟧⟦{飼|か}う→飼う：08151_kau⟧: to keep/raise a puppy\n- {子犬|こいぬ}⟦を→を：00422_wo⟧⟦{拾|ひろ}う→拾う：00845_hirou⟧: to find/pick up a stray puppy\n- {子犬|こいぬ}⟦が→が：00051_ga⟧⟦{生|う}まれる→生まれる：00905_umareru⟧: puppies are born\n\nCOUNTER: ⟦{匹|ひき}→匹：00939_hiki⟧ (for small animals).",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "19287_kouma",
+      "reading": "こうま",
+      "headword": "{子馬|こうま}",
+      "label": "foal"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24479_koneko",
+      "reading": "こねこ",
+      "headword": "{仔猫|こねこ}",
+      "label": "kitten"
+    },
+    {
+      "type": "related",
+      "target_id": "25471_kobuta",
+      "reading": "こぶた",
+      "headword": "{子豚|こぶた}",
+      "label": "piglet"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["animal-mammal"]
+      "semantic": [
+        "animal-mammal"
+      ]
     },
     "created": "2026-03-25T13:28:10Z",
-    "modified": "2026-07-26T21:31:07Z"
+    "modified": "2026-09-02T04:01:55Z"
   }
 }

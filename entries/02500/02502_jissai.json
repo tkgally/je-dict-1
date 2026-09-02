@@ -19,7 +19,7 @@
   "examples": [
     {
       "id": "02502_jissai_ex1",
-      "japanese": "{実際|じっさい}⟦に→に：00314_ni⟧⟦{見|み}て→見る：00283_miru⟧みないと⟦{分|わ}からない→分かる：00463_wakaru⟧。",
+      "japanese": "{実際|じっさい}⟦に→に：00314_ni⟧⟦{見|み}て→見る：00283_miru⟧みない⟦と→と：00512_to⟧⟦{分|わ}からない→分かる：00463_wakaru⟧。",
       "english": "You won't understand unless you actually see it.",
       "notes": null,
       "has_audio": false,
@@ -86,11 +86,32 @@
       "headword": "{実|じつ}は",
       "label": "actually, to be honest",
       "target_id": "02524_jitsuha"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02575_hontouha",
+      "reading": "ほんとうは",
+      "headword": "{本当|ほんとう}は",
+      "label": "really, in truth"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02720_genjitsu",
+      "reading": "げんじつ",
+      "headword": "{現実|げんじつ}",
+      "label": "reality"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04213_jikkan",
+      "reading": "じっかん",
+      "headword": "{実感|じっかん}",
+      "label": "real feeling, realization"
     }
   ],
   "metadata": {
     "created": "2026-01-11T12:19:22Z",
-    "modified": "2026-05-20T20:09:11Z",
+    "modified": "2026-09-02T04:01:01Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

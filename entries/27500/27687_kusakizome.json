@@ -15,41 +15,60 @@
   "examples": [
     {
       "id": "27687_kusakizome_ex1",
-      "japanese": "{草木染|くさきぞ}めのスカーフを{買|か}った。",
+      "japanese": "{草木染|くさきぞ}め⟦の→の：09472_no⟧スカーフ⟦を→を：00422_wo⟧⟦{買|か}った→買う：00489_kau⟧。",
       "english": "I bought a plant-dyed scarf.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27687_kusakizome_ex2",
-      "japanese": "{玉|たま}ねぎの{皮|かわ}で{草木染|くさきぞ}めをした。",
+      "japanese": "{玉|たま}ねぎ⟦の→の：09472_no⟧⟦{皮|かわ}→皮：02187_kawa⟧⟦で→で：00502_de⟧{草木染|くさきぞ}め⟦を→を：00422_wo⟧⟦した→する：00392_suru⟧。",
       "english": "I did plant dyeing with onion skins.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27687_kusakizome_ex3",
-      "japanese": "{草木染|くさきぞ}めは{化学染料|かがくせんりょう}にはない{自然|しぜん}な{色合|いろあ}いが{魅力|みりょく}だ。",
+      "japanese": "{草木染|くさきぞ}め⟦は→は：00079_ha⟧{化学染料|かがくせんりょう}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦ない→ない：01118_nai⟧⟦{自然|しぜん}→自然：01423_shizen⟧な⟦{色合|いろあ}い→色合い：13950_iroai⟧⟦が→が：00051_ga⟧⟦{魅力|みりょく}→魅力：03749_miryoku⟧だ。",
       "english": "The appeal of plant dyeing is the natural shades that chemical dyes cannot produce.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {草木|くさき} (plants, literally grass and trees) + {染|ぞ}め (dyeing). Refers to dyeing with natural plant-based dyes, valued for soft, natural colors. A traditional craft still practiced as a hobby and in artisan textiles.\n\nCOMMON COLLOCATIONS:\n- {草木染|くさきぞ}めをする: to do plant dyeing\n- {草木染|くさきぞ}めの{布|ぬの}: plant-dyed cloth\n\nSIMILAR WORDS:\n- {藍染|あいぞ}め: indigo dyeing — a specific, well-known type of plant dyeing using the indigo plant\n- {染|そ}め{物|もの}: dyed goods; dyeing — the general term for dyed fabric or the craft",
+  "notes": "Composed of ⟦{草木|くさき}→草木：14089_kusaki⟧ (plants, literally grass and trees) + {染|ぞ}め (dyeing). Refers to dyeing with natural plant-based dyes, valued for soft, natural colors. A traditional craft still practiced as a hobby and in artisan textiles.\n\nCOMMON COLLOCATIONS:\n- {草木染|くさきぞ}め⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧: to do plant dyeing\n- {草木染|くさきぞ}め⟦の→の：09472_no⟧⟦{布|ぬの}→布：01489_nuno⟧: plant-dyed cloth\n\nSIMILAR WORDS:\n- ⟦{藍染|あいぞ}め→藍染め：23047_aizome⟧: indigo dyeing — a specific, well-known type of plant dyeing using the indigo plant\n- {染|そ}め{物|もの}: dyed goods; dyeing — the general term for dyed fabric or the craft",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23047_aizome",
+      "reading": "あいぞめ",
+      "headword": "{藍染|あいぞ}め",
+      "label": "indigo dyeing"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["culture"],
+      "politeness": "plain",
+      "semantic": [
+        "culture"
+      ],
       "domain": []
     },
     "created": "2026-05-16T04:08:30Z",
-    "modified": "2026-05-16T04:08:30Z"
+    "modified": "2026-09-02T04:02:31Z"
   }
 }

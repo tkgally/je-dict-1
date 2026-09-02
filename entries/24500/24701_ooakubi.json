@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24701_ooakubi_ex1",
-      "japanese": "{大|おお}あくびをした。",
+      "japanese": "{大|おお}あくび⟦を→を：00422_wo⟧⟦した→する：00392_suru⟧。",
       "english": "I gave a big yawn.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24701_ooakubi_ex2",
-      "japanese": "{会議中|かいぎちゅう}に{大|おお}あくびをして{注意|ちゅうい}された。",
+      "japanese": "⟦{会議中|かいぎちゅう}→会議中：16781_kaigichuu⟧⟦に→に：00314_ni⟧{大|おお}あくび⟦を→を：00422_wo⟧⟦して→する：00392_suru⟧⟦{注意|ちゅうい}→注意：01464_chuui⟧⟦された→する：00392_suru⟧。",
       "english": "I was told off for yawning wide during a meeting.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24701_ooakubi_ex3",
-      "japanese": "{退屈|たいくつ}な{映画|えいが}を{見|み}ながら、{何度|なんど}も{大|おお}あくびを{繰|く}り{返|かえ}した。",
+      "japanese": "⟦{退屈|たいくつ}→退屈：03389_taikutsu⟧な⟦{映画|えいが}→映画：02273_eiga⟧⟦を→を：00422_wo⟧⟦{見|み}→見る：00283_miru⟧⟦ながら→ながら：10530_nagara⟧、⟦{何度|なんど}→何度：17592_nando⟧⟦も→も：00484_mo⟧{大|おお}あくび⟦を→を：00422_wo⟧⟦{繰|く}り{返|かえ}した→繰り返す：02051_kurikaesu⟧。",
       "english": "While watching the boring movie, I yawned widely again and again.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "Combines the prefix {大|おお} (big, great) with あくび (yawn). Emphasizes the conspicuous size of the yawn. Often used when the yawning is noticed by others and considered rude or inappropriate in context.\n\nCOMMON COLLOCATIONS:\n- {大|おお}あくびをする: to give a big yawn\n- {大|おお}あくびを{繰|く}り{返|かえ}す: to yawn repeatedly\n- {大|おお}あくびが{出|で}る: a big yawn comes out (involuntarily)\n- {大|おお}あくびを{噛|か}み{殺|ころ}す: to stifle a big yawn\n\nSIMILAR WORDS:\n- あくび: yawn — the plain form without emphasis on size\n- {欠伸|あくび}: yawn — kanji spelling, same word as あくび",
+  "notes": "Combines the prefix {大|おお} (big, great) with あくび (yawn). Emphasizes the conspicuous size of the yawn. Often used when the yawning is noticed by others and considered rude or inappropriate in context.\n\nCOMMON COLLOCATIONS:\n- {大|おお}あくび⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧: to give a big yawn\n- {大|おお}あくび⟦を→を：00422_wo⟧⟦{繰|く}り{返|かえ}す→繰り返す：02051_kurikaesu⟧: to yawn repeatedly\n- {大|おお}あくび⟦が→が：00051_ga⟧⟦{出|で}る→出る：00513_deru⟧: a big yawn comes out (involuntarily)\n- {大|おお}あくび⟦を→を：00422_wo⟧⟦{噛|か}み{殺|ころ}す→噛み殺す：29106_kamikorosu⟧: to stifle a big yawn\n\nSIMILAR WORDS:\n- あくび: yawn — the plain form without emphasis on size\n- ⟦{欠伸|あくび}→欠伸：06484_akubi⟧: yawn — kanji spelling, same word as あくび",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06484_akubi",
+      "reading": "あくび",
+      "headword": "{欠伸|あくび}",
+      "label": "yawn"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,7 +71,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-20T12:13:40Z",
-    "modified": "2026-08-03T21:38:52Z"
+    "modified": "2026-09-02T04:02:19Z"
   },
   "conjugation": {
     "type": "suru",

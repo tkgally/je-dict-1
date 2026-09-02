@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "23582_ryokakuressha_ex1",
-      "japanese": "{次|つぎ}に{来|く}るのは{旅客列車|りょかくれっしゃ}です。",
+      "japanese": "⟦{次|つぎ}→次：00819_tsugi⟧⟦に→に：00314_ni⟧⟦{来|く}る→来る：00254_kuru⟧⟦の→の：09472_no⟧⟦は→は：00079_ha⟧{旅客列車|りょかくれっしゃ}です。",
       "english": "The next train to arrive is a passenger train.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "23582_ryokakuressha_ex2",
-      "japanese": "この{路線|ろせん}では{旅客列車|りょかくれっしゃ}と{貨物列車|かもつれっしゃ}が{共用|きょうよう}している。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{路線|ろせん}→路線：11341_rosen⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧{旅客列車|りょかくれっしゃ}⟦と→と：00512_to⟧⟦{貨物列車|かもつれっしゃ}→貨物列車：16297_kamotsuressha⟧⟦が→が：00051_ga⟧⟦{共用|きょうよう}→共用：21529_kyouyou⟧⟦している→する：00392_suru⟧。",
       "english": "Passenger and freight trains share this line.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "23582_ryokakuressha_ex3",
-      "japanese": "{昭和|しょうわ}の{時代|じだい}には、{長距離|ちょうきょり}の{旅客列車|りょかくれっしゃ}に{食堂車|しょくどうしゃ}が{連結|れんけつ}されていた。",
+      "japanese": "⟦{昭和|しょうわ}→昭和：28079_shouwa⟧⟦の→の：09472_no⟧⟦{時代|じだい}→時代：01424_jidai⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧、⟦{長距離|ちょうきょり}→長距離：09271_choukyori⟧⟦の→の：09472_no⟧{旅客列車|りょかくれっしゃ}⟦に→に：00314_ni⟧⟦{食堂車|しょくどうしゃ}→食堂車：23784_shokudousha⟧⟦が→が：00051_ga⟧⟦{連結|れんけつ}→連結：14388_renketsu⟧⟦されていた→する：00392_suru⟧。",
       "english": "During the Showa era, long-distance passenger trains had dining cars attached.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "A technical railway term combining {旅客|りょかく} (passenger) and {列車|れっしゃ} (train). Found in timetables, railway announcements, and news about rail accidents. In everyday speech people usually just say {電車|でんしゃ} instead.\n\nCOMMON COLLOCATIONS:\n- {旅客列車|りょかくれっしゃ}が{通過|つうか}する: a passenger train passes through\n- {旅客列車|りょかくれっしゃ}の{運行|うんこう}: operation of passenger trains\n- {長距離|ちょうきょり}{旅客列車|りょかくれっしゃ}: long-distance passenger train\n\nSIMILAR WORDS:\n- {電車|でんしゃ}: train — the everyday word; preferred in conversation\n- {貨物列車|かもつれっしゃ}: freight train — the counterpart that carries cargo instead of passengers\n- {特急|とっきゅう}{列車|れっしゃ}: limited express train — a type of passenger train that stops only at major stations",
+  "notes": "A technical railway term combining ⟦{旅客|りょかく}→旅客：12950_ryokaku⟧ (passenger) and ⟦{列車|れっしゃ}→列車：01670_ressha⟧ (train). Found in timetables, railway announcements, and news about rail accidents. In everyday speech people usually just say ⟦{電車|でんしゃ}→電車：00522_densha⟧ instead.\n\nCOMMON COLLOCATIONS:\n- {旅客列車|りょかくれっしゃ}⟦が→が：00051_ga⟧⟦{通過|つうか}する→通過する：22435_tsuukasuru⟧: a passenger train passes through\n- {旅客列車|りょかくれっしゃ}⟦の→の：09472_no⟧⟦{運行|うんこう}→運行：14375_unkou⟧: operation of passenger trains\n- ⟦{長距離|ちょうきょり}→長距離：09271_choukyori⟧{旅客列車|りょかくれっしゃ}: long-distance passenger train\n\nSIMILAR WORDS:\n- ⟦{電車|でんしゃ}→電車：00522_densha⟧: train — the everyday word; preferred in conversation\n- ⟦{貨物列車|かもつれっしゃ}→貨物列車：16297_kamotsuressha⟧: freight train — the counterpart that carries cargo instead of passengers\n- ⟦{特急|とっきゅう}{列車|れっしゃ}→特急列車：25987_tokkyuuressha⟧: limited express train — a type of passenger train that stops only at major stations",
   "cross_references": [
     {
       "type": "antonym",
@@ -52,6 +52,20 @@
       "reading": "かもつれっしゃ",
       "headword": "{貨物列車|かもつれっしゃ}",
       "label": "freight train"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00522_densha",
+      "reading": "でんしゃ",
+      "headword": "{電車|でんしゃ}",
+      "label": "train"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25987_tokkyuuressha",
+      "reading": "とっきゅうれっしゃ",
+      "headword": "{特急列車|とっきゅうれっしゃ}",
+      "label": "limited express train"
     }
   ],
   "schema_version": "2.0",
@@ -68,6 +82,6 @@
       ]
     },
     "created": "2026-04-12T18:10:09Z",
-    "modified": "2026-08-01T21:36:06Z"
+    "modified": "2026-09-02T04:02:13Z"
   }
 }

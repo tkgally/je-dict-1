@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "10127_dounyuu_ex1",
-      "japanese": "{私鉄|してつ}{各社|かくしゃ}がICカードを{導入|どうにゅう}した。",
+      "japanese": "⟦{私鉄|してつ}→私鉄：00374_shitetsu⟧⟦{各社|かくしゃ}→各社：11057_kakusha⟧⟦が→が：00051_ga⟧ICカード⟦を→を：00422_wo⟧{導入|どうにゅう}⟦した→する：00392_suru⟧。",
       "english": "Each private railway company introduced IC cards.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "10127_dounyuu_ex2",
-      "japanese": "{新|あたら}しいシステムを{導入|どうにゅう}する。",
+      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦システム→システム：08428_shisutemu⟧⟦を→を：00422_wo⟧{導入|どうにゅう}⟦する→する：00392_suru⟧。",
       "english": "We will implement a new system.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "10127_dounyuu_ex3",
-      "japanese": "{導入|どうにゅう}コストが{高|たか}い。",
+      "japanese": "{導入|どうにゅう}コスト⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧。",
       "english": "The implementation cost is high.",
       "notes": null,
       "has_audio": false,
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "USAGE: Often used in business and technical contexts for implementing new systems, technologies, or policies.\n\nCOMMON COLLOCATIONS:\n・{導入|どうにゅう}する (to introduce/implement)\n・{導入|どうにゅう}コスト (implementation cost)\n・{導入|どうにゅう}{事例|じれい} (case studies of implementation)\n・{段階的|だんかいてき}{導入|どうにゅう} (phased implementation)\n\nSIMILAR WORDS:\n・{採用|さいよう} (adoption)\n・{実施|じっし} (implementation - for policies/plans)",
+  "notes": "USAGE: Often used in business and technical contexts for implementing new systems, technologies, or policies.\n\nCOMMON COLLOCATIONS:\n- {導入|どうにゅう}⟦する→する：00392_suru⟧ (to introduce/implement)\n- {導入|どうにゅう}コスト (implementation cost)\n- {導入|どうにゅう}{事例|じれい} (case studies of implementation)\n- ⟦{段階的|だんかいてき}→段階的：06174_dankaiteki⟧{導入|どうにゅう} (phased implementation)\n\nSIMILAR WORDS:\n- ⟦{採用|さいよう}→採用：04563_saiyou⟧ (adoption)\n- ⟦{実施|じっし}→実施：03275_jisshi⟧ (implementation - for policies/plans)",
   "cross_references": [
     {
       "type": "synonym",
@@ -148,11 +148,32 @@
       "reading": "じっし",
       "headword": "{実施|じっし}",
       "label": "implementation"
+    },
+    {
+      "type": "related",
+      "target_id": "07704_maeoki",
+      "reading": "まえおき",
+      "headword": "{前置|まえお}き",
+      "label": "preamble"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12895_tounyuu",
+      "reading": "とうにゅう",
+      "headword": "{投入|とうにゅう}",
+      "label": "throwing in"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23169_joron",
+      "reading": "じょろん",
+      "headword": "{序論|じょろん}",
+      "label": "introduction"
     }
   ],
   "metadata": {
     "created": "2026-02-05T08:37:56Z",
-    "modified": "2026-04-24T04:04:43Z",
+    "modified": "2026-09-02T04:01:20Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -165,7 +186,8 @@
       "semantic": [
         "work"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   },
   "prominent_see_also": [

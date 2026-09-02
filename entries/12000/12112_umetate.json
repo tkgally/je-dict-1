@@ -15,41 +15,67 @@
   "examples": [
     {
       "id": "12112_umetate_ex1",
-      "japanese": "この{島|しま}は{埋|う}め{立|た}てで{作|つく}られた。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{島|しま}→島：00885_shima⟧⟦は→は：00079_ha⟧{埋|う}め{立|た}て⟦で→で：00502_de⟧⟦{作|つく}られた→作る：00481_tsukuru⟧。",
       "english": "This island was created through land reclamation.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12112_umetate_ex2",
-      "japanese": "{埋|う}め{立|た}て{地|ち}にマンションが{建|た}ち{並|なら}んでいる。",
+      "japanese": "{埋|う}め{立|た}て{地|ち}⟦に→に：00314_ni⟧⟦マンション→マンション：01035_manshon⟧⟦が→が：00051_ga⟧⟦{建|た}ち{並|なら}んでいる→建ち並ぶ：20170_tachinarabu⟧。",
       "english": "Apartment buildings line the reclaimed land.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12112_umetate_ex3",
-      "japanese": "{東京湾|とうきょうわん}の{埋|う}め{立|た}て{工事|こうじ}によって、{広大|こうだい}な{土地|とち}が{生|う}み{出|だ}された。",
+      "japanese": "{東京湾|とうきょうわん}⟦の→の：09472_no⟧{埋|う}め{立|た}て⟦{工事|こうじ}→工事：00244_kouji⟧⟦によって→によって：06801_niyotte⟧、⟦{広大|こうだい}→広大：11328_koudai⟧な⟦{土地|とち}→土地：02226_tochi⟧⟦が→が：00051_ga⟧⟦{生|う}み{出|だ}された→生み出す：10423_umidasu⟧。",
       "english": "Vast areas of land were created through the landfill construction in Tokyo Bay.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nMuch of Tokyo's waterfront, including Odaiba and parts of the port area, was created through {埋|う}め{立|た}て. The word can refer to both the process and the resulting land. {埋|う}め{立|た}て{地|ち} (reclaimed land) and {埋|う}め{立|た}て{処分場|しょぶんじょう} (landfill disposal site) are common compound forms.\n\nCOMMON COLLOCATIONS:\n- {埋|う}め{立|た}て{地|ち}: reclaimed land\n- {埋|う}め{立|た}て{処分場|しょぶんじょう}: landfill disposal site\n- {埋|う}め{立|た}て{工事|こうじ}: landfill construction\n- {海|うみ}を{埋|う}め{立|た}てる: reclaim land from the sea\n- {埋|う}め{立|た}てゴミ: landfill waste",
-  "cross_references": [],
+  "notes": "USAGE:\nMuch of Tokyo's waterfront, including Odaiba and parts of the port area, was created through {埋|う}め{立|た}て. The word can refer to both the process and the resulting land. {埋|う}め{立|た}て{地|ち} (reclaimed land) and {埋|う}め{立|た}て{処分場|しょぶんじょう} (landfill disposal site) are common compound forms.\n\nCOMMON COLLOCATIONS:\n- {埋|う}め{立|た}て{地|ち}: reclaimed land\n- {埋|う}め{立|た}て{処分場|しょぶんじょう}: landfill disposal site\n- {埋|う}め{立|た}て⟦{工事|こうじ}→工事：00244_kouji⟧: landfill construction\n- ⟦{海|うみ}→海：00556_umi⟧⟦を→を：00422_wo⟧{埋|う}め{立|た}てる: reclaim land from the sea\n- {埋|う}め{立|た}て⟦ゴミ→ゴミ：00840_gomi⟧: landfill waste",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "08099_umetatechi",
+      "reading": "うめたてち",
+      "headword": "{埋立地|うめたてち}",
+      "label": "reclaimed land"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28986_kantaku",
+      "reading": "かんたく",
+      "headword": "{干拓|かんたく}",
+      "label": "land reclamation (by draining)"
+    }
+  ],
   "metadata": {
     "created": "2026-02-20T05:29:21Z",
-    "modified": "2026-02-20T05:29:21Z",
+    "modified": "2026-09-02T04:01:27Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["geography", "general"]
+      "semantic": [
+        "geography",
+        "general"
+      ]
     }
   }
 }

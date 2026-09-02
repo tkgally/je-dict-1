@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "20624_nemohamonai_ex1",
-      "japanese": "それは{根|ね}も{葉|は}もない{噂|うわさ}だ。",
+      "japanese": "⟦それ→それ：00994_sore⟧⟦は→は：00079_ha⟧{根|ね}も{葉|は}もない⟦{噂|うわさ}→噂：01871_uwasa⟧だ。",
       "english": "That's a completely groundless rumor.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "20624_nemohamonai_ex2",
-      "japanese": "{根|ね}も{葉|は}もないことを{言|い}わないでほしい。",
+      "japanese": "{根|ね}も{葉|は}もないこと⟦を→を：00422_wo⟧⟦{言|い}わないで→言う：00515_iu⟧ほしい。",
       "english": "I wish you wouldn't say things that have no basis in fact.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "20624_nemohamonai_ex3",
-      "japanese": "ネットに{根|ね}も{葉|は}もない{情報|じょうほう}が{広|ひろ}まって、{本人|ほんにん}はとても{迷惑|めいわく}している。",
+      "japanese": "⟦ネット→ネット：05279_netto⟧⟦に→に：00314_ni⟧{根|ね}も{葉|は}もない⟦{情報|じょうほう}→情報：03348_jouhou⟧⟦が→が：00051_ga⟧⟦{広|ひろ}まって→広まる：02404_hiromaru⟧、⟦{本人|ほんにん}→本人：03627_honnin⟧⟦は→は：00079_ha⟧⟦とても→とても：00593_totemo⟧⟦{迷惑|めいわく}→迷惑：02432_meiwaku⟧⟦している→する：00392_suru⟧。",
       "english": "Baseless information has spread online, and the person involved is very troubled by it.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,26 @@
       ]
     }
   ],
-  "notes": "Literally means \"has neither roots nor leaves\" — like a plant with no substance at all. The metaphor conveys that the claim in question has absolutely nothing supporting it.\n\nCOMMON COLLOCATIONS:\n- {根|ね}も{葉|は}もない{噂|うわさ} (groundless rumor)\n- {根|ね}も{葉|は}もない{話|はなし} (baseless story)\n- {根|ね}も{葉|は}もないことを{言|い}う (to say something groundless)\n- {根|ね}も{葉|は}もない{情報|じょうほう} (baseless information)\n\nSIMILAR WORDS:\n- {根拠|こんきょ}のない — without grounds; more formal and analytical\n- {事実無根|じじつむこん} — completely untrue, baseless; a formal four-character compound often used in official denials\n- {的外|まとはず}れ — off the mark; implies inaccuracy rather than total fabrication\n\nUSAGE:\nThis is a vivid and commonly used expression for dismissing false claims. It is stronger than simply saying {嘘|うそ} (a lie) because it emphasizes the complete absence of any factual basis. Often used when someone is frustrated or indignant about a false rumor.",
-  "cross_references": [],
+  "notes": "Literally means \"has neither roots nor leaves\" — like a plant with no substance at all. The metaphor conveys that the claim in question has absolutely nothing supporting it.\n\nCOMMON COLLOCATIONS:\n- {根|ね}も{葉|は}もない⟦{噂|うわさ}→噂：01871_uwasa⟧ (groundless rumor)\n- {根|ね}も{葉|は}もない⟦{話|はなし}→話：01496_hanashi⟧ (baseless story)\n- {根|ね}も{葉|は}もないこと⟦を→を：00422_wo⟧⟦{言|い}う→言う：00515_iu⟧ (to say something groundless)\n- {根|ね}も{葉|は}もない⟦{情報|じょうほう}→情報：03348_jouhou⟧ (baseless information)\n\nSIMILAR WORDS:\n- ⟦{根拠|こんきょ}→根拠：10147_konkyo⟧⟦の→の：09472_no⟧⟦ない→ない：01118_nai⟧ — without grounds; more formal and analytical\n- ⟦{事実無根|じじつむこん}→事実無根：26816_jijitsumukon⟧ — completely untrue, baseless; a formal four-character compound often used in official denials\n- ⟦{的外|まとはず}れ→的外れ：16719_matohazure⟧ — off the mark; implies inaccuracy rather than total fabrication\n\nUSAGE:\nThis is a vivid and commonly used expression for dismissing false claims. It is stronger than simply saying ⟦{嘘|うそ}→嘘：01796_uso⟧ (a lie) because it emphasizes the complete absence of any factual basis. Often used when someone is frustrated or indignant about a false rumor.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "26816_jijitsumukon",
+      "reading": "じじつむこん",
+      "headword": "{事実無根|じじつむこん}",
+      "label": "completely untrue, baseless"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16719_matohazure",
+      "reading": "まとはずれ",
+      "headword": "{的外|まとはず}れ",
+      "label": "off the mark"
+    }
+  ],
   "metadata": {
     "created": "2026-03-29T20:07:41Z",
-    "modified": "2026-03-29T20:07:41Z",
+    "modified": "2026-09-02T04:02:00Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

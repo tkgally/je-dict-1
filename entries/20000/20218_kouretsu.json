@@ -15,40 +15,73 @@
   "examples": [
     {
       "id": "20218_kouretsu_ex1",
-      "japanese": "{後列|こうれつ}に{座|すわ}った。",
+      "japanese": "{後列|こうれつ}⟦に→に：00314_ni⟧⟦{座|すわ}った→座る：00757_suwaru⟧。",
       "english": "I sat in the back row.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20218_kouretsu_ex2",
-      "japanese": "{後列|こうれつ}からは{舞台|ぶたい}が{見|み}えにくい。",
+      "japanese": "{後列|こうれつ}⟦から→から：00504_kara⟧⟦は→は：00079_ha⟧⟦{舞台|ぶたい}→舞台：03606_butai⟧⟦が→が：00051_ga⟧⟦{見|み}え→見える：01165_mieru⟧にくい。",
       "english": "It's hard to see the stage from the back row.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20218_kouretsu_ex3",
-      "japanese": "{背|せ}の{高|たか}い{人|ひと}は{後列|こうれつ}に{回|まわ}ってもらえると、{前|まえ}の{人|ひと}が{見|み}やすくなります。",
+      "japanese": "⟦{背|せ}→背：02907_se⟧⟦の→の：09472_no⟧⟦{高|たか}い→高い：00500_takai⟧⟦{人|ひと}→人：00476_hito⟧⟦は→は：00079_ha⟧{後列|こうれつ}⟦に→に：00314_ni⟧⟦{回|まわ}って→回る：01150_mawaru⟧⟦もらえる→もらう：00520_morau⟧⟦と→と：00512_to⟧、⟦{前|まえ}→前：02255_mae⟧⟦の→の：09472_no⟧⟦{人|ひと}→人：00476_hito⟧⟦が→が：00051_ga⟧⟦{見|み}→見る：00283_miru⟧やすく⟦なります→なる：01970_naru⟧。",
       "english": "If taller people move to the back row, it will be easier for those in front to see.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A straightforward compound of {後|こう} (back, rear) + {列|れつ} (row, line). The counterpart of {前列|ぜんれつ} (front row).\n\nCOMMON COLLOCATIONS:\n- {後列|こうれつ}の{席|せき}: back row seat\n- {最後列|さいこうれつ}: the very back row\n- {後列|こうれつ}に{並|なら}ぶ: to line up in the back row\n- {後列|こうれつ}に{移動|いどう}する: to move to the back row\n\nSIMILAR WORDS:\n- {前列|ぜんれつ}: front row — the antonym\n- {後方|こうほう}: the rear (area) — refers to a general area, not a specific row\n- {最後尾|さいこうび}: the very end of a line — specifically the tail of a queue",
+  "notes": "A straightforward compound of {後|こう} (back, rear) + ⟦{列|れつ}→列：02171_retsu⟧ (row, line). The counterpart of ⟦{前列|ぜんれつ}→前列：20217_zenretsu⟧ (front row).\n\nCOMMON COLLOCATIONS:\n- {後列|こうれつ}⟦の→の：09472_no⟧⟦{席|せき}→席：02215_seki⟧: back row seat\n- {最後列|さいこうれつ}: the very back row\n- {後列|こうれつ}⟦に→に：00314_ni⟧⟦{並|なら}ぶ→並ぶ：00605_narabu⟧: to line up in the back row\n- {後列|こうれつ}⟦に→に：00314_ni⟧⟦{移動|いどう}する→移動する：22430_idousuru⟧: to move to the back row\n\nSIMILAR WORDS:\n- ⟦{前列|ぜんれつ}→前列：20217_zenretsu⟧: front row — the antonym\n- ⟦{後方|こうほう}→後方：19126_kouhou⟧: the rear (area) — refers to a general area, not a specific row\n- ⟦{最後尾|さいこうび}→最後尾：21693_saikoubi⟧: the very end of a line — specifically the tail of a queue",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "20217_zenretsu",
+      "reading": "ぜんれつ",
+      "headword": "{前列|ぜんれつ}",
+      "label": "front row"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19126_kouhou",
+      "reading": "こうほう",
+      "headword": "{後方|こうほう}",
+      "label": "the rear"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21693_saikoubi",
+      "reading": "さいこうび",
+      "headword": "{最後尾|さいこうび}",
+      "label": "the very end of a line"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["position"]
+      "semantic": [
+        "position"
+      ]
     },
     "created": "2026-03-28T17:12:54Z",
-    "modified": "2026-03-28T17:12:54Z"
+    "modified": "2026-09-02T04:01:58Z"
   }
 }

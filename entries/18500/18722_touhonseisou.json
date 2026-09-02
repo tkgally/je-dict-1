@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "18722_touhonseisou_ex1",
-      "japanese": "{東奔西走|とうほんせいそう}する{毎日|まいにち}だ。",
+      "japanese": "{東奔西走|とうほんせいそう}⟦する→する：00392_suru⟧⟦{毎日|まいにち}→毎日：00729_mainichi⟧だ。",
       "english": "Every day is spent rushing about.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "18722_touhonseisou_ex2",
-      "japanese": "{資金集|しきんあつ}めのために{東奔西走|とうほんせいそう}した。",
+      "japanese": "{資金集|しきんあつ}め⟦の→の：09472_no⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧{東奔西走|とうほんせいそう}⟦した→する：00392_suru⟧。",
       "english": "I ran around everywhere to raise funds.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "18722_touhonseisou_ex3",
-      "japanese": "イベントの{準備|じゅんび}で{東奔西走|とうほんせいそう}して、{疲|つか}れ{果|は}てた。",
+      "japanese": "⟦イベント→イベント：09594_ibento⟧⟦の→の：09472_no⟧⟦{準備|じゅんび}→準備：01431_junbi⟧⟦で→で：00502_de⟧{東奔西走|とうほんせいそう}⟦して→する：00392_suru⟧、⟦{疲|つか}れ{果|は}てた→疲れ果てる：17963_tsukarehateru⟧。",
       "english": "I was completely exhausted from rushing around preparing for the event.",
       "sense_numbers": [
         1
@@ -134,8 +134,24 @@
       "notes": null
     }
   ],
-  "notes": "A {四字熟語|よじじゅくご} (four-character compound) meaning to rush about in all directions. Literally: {東|ひがし} (east) + {奔|ほん} (run) + {西|にし} (west) + {走|そう} (run) — \"running east and running west.\"\n\nUSAGE:\nUsed as a する verb: {東奔西走|とうほんせいそう}する. Implies being extremely busy going from place to place to handle various matters. Often used for work-related hustle, fundraising, or event preparation.\n\nCOMMON PATTERNS:\n- {東奔西走|とうほんせいそう}する{毎日|まいにち}: days spent rushing about\n- 〜のために{東奔西走|とうほんせいそう}する: to rush around for ~\n- {東奔西走|とうほんせいそう}して{疲|つか}れる: to be tired from rushing about\n\nREGISTER:\nFairly literary/formal. More vivid and emphatic than simply saying {忙|いそが}しい (busy). Often appears in written narratives and formal speech.\n\nRELATED:\n- {奔走|ほんそう}する: to run about, to make efforts (two-character version, more common)\n- {駆|か}け{回|まわ}る: to run around (everyday equivalent)",
+  "notes": "A ⟦{四字熟語|よじじゅくご}→四字熟語：15663_yojijukugo⟧ (four-character compound) meaning to rush about in all directions. Literally: ⟦{東|ひがし}→東：02250_higashi⟧ (east) + {奔|ほん} (run) + ⟦{西|にし}→西：00659_nishi⟧ (west) + {走|そう} (run) — \"running east and running west.\"\n\nUSAGE:\nUsed as a ⟦する→する：00392_suru⟧ verb: {東奔西走|とうほんせいそう}⟦する→する：00392_suru⟧. Implies being extremely busy going from place to place to handle various matters. Often used for work-related hustle, fundraising, or event preparation.\n\nCOMMON PATTERNS:\n- {東奔西走|とうほんせいそう}⟦する→する：00392_suru⟧⟦{毎日|まいにち}→毎日：00729_mainichi⟧: days spent rushing about\n- 〜⟦の→の：09472_no⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧{東奔西走|とうほんせいそう}⟦する→する：00392_suru⟧: to rush around for ~\n- {東奔西走|とうほんせいそう}⟦して→する：00392_suru⟧⟦{疲|つか}れる→疲れる：00901_tsukareru⟧: to be tired from rushing about\n\nREGISTER:\nFairly literary/formal. More vivid and emphatic than simply saying ⟦{忙|いそが}しい→忙しい：00591_isogashii⟧ (busy). Often appears in written narratives and formal speech.\n\nRELATED WORDS:\n- ⟦{奔走|ほんそう}する→奔走する：25550_honsousuru⟧: to run about, to make efforts (two-character version, more common)\n- ⟦{駆|か}け{回|まわ}る→駆け回る：06113_kakemawaru⟧: to run around (everyday equivalent)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "25550_honsousuru",
+      "reading": "ほんそうする",
+      "headword": "{奔走|ほんそう}する",
+      "label": "to run about, to make efforts"
+    },
+    {
+      "type": "related",
+      "target_id": "06113_kakemawaru",
+      "reading": "かけまわる",
+      "headword": "{駆|か}け{回|まわ}る",
+      "label": "to run around"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -152,6 +168,6 @@
       "verb_class": "suru"
     },
     "created": "2026-03-23T00:27:19Z",
-    "modified": "2026-03-27T14:29:18Z"
+    "modified": "2026-09-02T04:01:53Z"
   }
 }

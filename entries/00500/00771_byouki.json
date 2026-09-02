@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "{病気|びょうき} refers to illness or disease, covering both minor and serious conditions.\n\nCOMMON EXPRESSIONS:\n- {病気|びょうき}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧: to get sick\n- {病気|びょうき}⟦が→が：00051_ga⟧⟦{治|なお}る→治る：19598_naoru⟧: to recover from illness\n- {病気|びょうき}⟦で→で：00502_de⟧⟦{休|やす}む→休む：00606_yasumu⟧: to be absent due to illness\n\nCONTRAST WITH けが:\n- {病気|びょうき}: illness (internal causes)\n- ⟦けが→けが：00787_kega⟧: injury (external causes)\n\nRELATED VOCABULARY:\n- ⟦{病院|びょういん}→病院：00577_byouin⟧: hospital\n- ⟦{病人|びょうにん}→病人：09784_byounin⟧: sick person\n- ⟦{入院|にゅういん}→入院：02091_nyuuin⟧: hospitalization\n- ⟦{通院|つういん}→通院：05975_tsuuin⟧: outpatient visits",
+  "notes": "{病気|びょうき} refers to illness or disease, covering both minor and serious conditions.\n\nCOMMON EXPRESSIONS:\n- {病気|びょうき}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧: to get sick\n- {病気|びょうき}⟦が→が：00051_ga⟧⟦{治|なお}る→治る：19598_naoru⟧: to recover from illness\n- {病気|びょうき}⟦で→で：00502_de⟧⟦{休|やす}む→休む：00606_yasumu⟧: to be absent due to illness\n\nCONTRAST WITH けが:\n- {病気|びょうき}: illness (internal causes)\n- ⟦けが→けが：00787_kega⟧: injury (external causes)\n\nRELATED WORDS:\n- ⟦{病院|びょういん}→病院：00577_byouin⟧: hospital\n- ⟦{病人|びょうにん}→病人：09784_byounin⟧: sick person\n- ⟦{入院|にゅういん}→入院：02091_nyuuin⟧: hospitalization\n- ⟦{通院|つういん}→通院：05975_tsuuin⟧: outpatient visits",
   "cross_references": [
     {
       "type": "antonym",
@@ -85,11 +85,46 @@
       "reading": "やまい",
       "headword": "{病|やまい}",
       "label": "illness (literary)"
+    },
+    {
+      "type": "related",
+      "target_id": "00577_byouin",
+      "reading": "びょういん",
+      "headword": "{病院|びょういん}",
+      "label": "hospital"
+    },
+    {
+      "type": "related",
+      "target_id": "09784_byounin",
+      "reading": "びょうにん",
+      "headword": "{病人|びょうにん}",
+      "label": "sick person"
+    },
+    {
+      "type": "related",
+      "target_id": "02091_nyuuin",
+      "reading": "にゅういん",
+      "headword": "{入院|にゅういん}",
+      "label": "hospitalization"
+    },
+    {
+      "type": "related",
+      "target_id": "05975_tsuuin",
+      "reading": "つういん",
+      "headword": "{通院|つういん}",
+      "label": "outpatient visits"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20233_taichoufuryou",
+      "reading": "たいちょうふりょう",
+      "headword": "{体調不良|たいちょうふりょう}",
+      "label": "poor physical condition"
     }
   ],
   "metadata": {
     "created": "2026-01-07T12:42:15Z",
-    "modified": "2026-06-12T01:39:16Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

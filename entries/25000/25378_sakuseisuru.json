@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25378_sakuseisuru_ex1",
-      "japanese": "{報告書|ほうこくしょ}を{作成|さくせい}する。",
+      "japanese": "⟦{報告書|ほうこくしょ}→報告書：06744_houkokusho⟧⟦を→を：00422_wo⟧{作成|さくせい}する。",
       "english": "To prepare a report.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25378_sakuseisuru_ex2",
-      "japanese": "{新|あたら}しいアカウントを{作成|さくせい}してください。",
+      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦アカウント→アカウント：05103_akaunto⟧⟦を→を：00422_wo⟧{作成|さくせい}して⟦ください→ください：02899_kudasai⟧。",
       "english": "Please create a new account.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25378_sakuseisuru_ex3",
-      "japanese": "{予算案|よさんあん}を{作成|さくせい}するのに{一週間|いっしゅうかん}かかった。",
+      "japanese": "⟦{予算案|よさんあん}→予算案：09761_yosanan⟧⟦を→を：00422_wo⟧{作成|さくせい}する⟦の→の：09472_no⟧⟦に→に：00314_ni⟧⟦{一週間|いっしゅうかん}→一週間：10979_isshuukan⟧⟦かかった→かかる：00711_kakaru⟧。",
       "english": "It took a week to draw up the budget proposal.",
       "sense_numbers": [
         1
@@ -45,7 +45,7 @@
     },
     {
       "id": "25378_sakuseisuru_ex4",
-      "japanese": "データベースから{自動的|じどうてき}にグラフが{作成|さくせい}される。",
+      "japanese": "⟦データベース→データベース：04720_deetabeesu⟧⟦から→から：00504_kara⟧⟦{自動的|じどうてき}→自動的：25589_jidouteki⟧⟦に→に：00314_ni⟧⟦グラフ→グラフ：04864_gurafu⟧⟦が→が：00051_ga⟧{作成|さくせい}される。",
       "english": "Graphs are automatically generated from the database.",
       "sense_numbers": [
         1
@@ -54,8 +54,31 @@
       "notes": null
     }
   ],
-  "notes": "The most common word for creating documents, reports, plans, and digital content in professional contexts. In computing, it's the standard word for creating files, accounts, and data. More formal than {作|つく}る.\n\nCOMMON COLLOCATIONS:\n- {書類|しょるい}を{作成|さくせい}する: to prepare documents\n- {計画|けいかく}を{作成|さくせい}する: to draw up a plan\n- {資料|しりょう}{作成|さくせい}: preparation of materials\n- ファイルを{作成|さくせい}する: to create a file\n- {作成|さくせい}{日|び}: date of creation\n- {作成者|さくせいしゃ}: author, creator\n\nSIMILAR WORDS:\n- {作|つく}る: to make — the everyday general word for making anything\n- {制作|せいさく}する: to produce — used for creative or artistic works (films, art, music)\n- {製作|せいさく}する: to manufacture — used for physical products and industrial production\n- {策定|さくてい}する: to formulate — used specifically for policies, plans, and strategies",
+  "notes": "The most common word for creating documents, reports, plans, and digital content in professional contexts. In computing, it's the standard word for creating files, accounts, and data. More formal than ⟦{作|つく}る→作る：00481_tsukuru⟧.\n\nCOMMON COLLOCATIONS:\n- ⟦{書類|しょるい}→書類：01103_shorui⟧⟦を→を：00422_wo⟧{作成|さくせい}する: to prepare documents\n- ⟦{計画|けいかく}→計画：01172_keikaku⟧⟦を→を：00422_wo⟧{作成|さくせい}する: to draw up a plan\n- ⟦{資料|しりょう}→資料：04166_shiryou⟧⟦{作成|さくせい}→作成：04186_sakusei⟧: preparation of materials\n- ⟦ファイル→ファイル：05280_fairu⟧⟦を→を：00422_wo⟧{作成|さくせい}する: to create a file\n- ⟦{作成|さくせい}→作成：04186_sakusei⟧{日|び}: date of creation\n- {作成者|さくせいしゃ}: author, creator\n\nSIMILAR WORDS:\n- ⟦{作|つく}る→作る：00481_tsukuru⟧: to make — the everyday general word for making anything\n- ⟦{制作|せいさく}する→制作する：25535_seisakusuru⟧: to produce — used for creative or artistic works (films, art, music)\n- ⟦{製作|せいさく}→製作：04322_seisaku⟧⟦する→する：00392_suru⟧: to manufacture — used for physical products and industrial production\n- {策定|さくてい}⟦する→する：00392_suru⟧: to formulate — used specifically for policies, plans, and strategies",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00481_tsukuru",
+      "reading": "つくる",
+      "headword": "{作|つく}る",
+      "label": "to make"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25535_seisakusuru",
+      "reading": "せいさくする",
+      "headword": "{制作|せいさく}する",
+      "label": "to produce"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04322_seisaku",
+      "reading": "せいさく",
+      "headword": "{製作|せいさく}",
+      "label": "to manufacture"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -69,10 +92,11 @@
         "work",
         "technology"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-04-24T16:18:55Z",
-    "modified": "2026-04-24T16:18:55Z"
+    "modified": "2026-09-02T04:02:22Z"
   },
   "conjugation": {
     "type": "suru",

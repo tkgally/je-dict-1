@@ -2,7 +2,7 @@
   "id": "11296_joushou",
   "headword": "{上昇|じょうしょう}",
   "reading": "じょうしょう",
-  "part_of_speech": "noun / verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "rise, ascent",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "11296_joushou_ex1",
-      "japanese": "{気温|きおん}が{上昇|じょうしょう}した。",
+      "japanese": "⟦{気温|きおん}→気温：00235_kion⟧⟦が→が：00051_ga⟧{上昇|じょうしょう}⟦した→する：00392_suru⟧。",
       "english": "The temperature rose.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "11296_joushou_ex2",
-      "japanese": "{株価|かぶか}が{急|きゅう}に{上昇|じょうしょう}している。",
+      "japanese": "⟦{株価|かぶか}→株価：05154_kabuka⟧⟦が→が：00051_ga⟧⟦{急|きゅう}→急：13042_kyuu⟧⟦に→に：00314_ni⟧{上昇|じょうしょう}⟦している→する：00392_suru⟧。",
       "english": "Stock prices are rising sharply.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "11296_joushou_ex3",
-      "japanese": "{飛行機|ひこうき}が{雲|くも}の{上|うえ}まで{上昇|じょうしょう}すると、{窓|まど}の{外|そと}は{真|ま}っ{青|さお}だった。",
+      "japanese": "⟦{飛行機|ひこうき}→飛行機：00629_hikouki⟧⟦が→が：00051_ga⟧⟦{雲|くも}→雲：02202_kumo⟧⟦の→の：09472_no⟧⟦{上|うえ}→上：00682_ue⟧⟦まで→まで：00490_made⟧{上昇|じょうしょう}⟦する→する：00392_suru⟧⟦と→と：00512_to⟧、⟦{窓|まど}→窓：02254_mado⟧⟦の→の：09472_no⟧⟦{外|そと}→外：00671_soto⟧⟦は→は：00079_ha⟧⟦{真|ま}っ{青|さお}→真っ青：07615_massao⟧だった。",
       "english": "When the airplane ascended above the clouds, it was completely blue outside the window.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "{上昇|じょうしょう} describes upward movement or increase, used for both physical ascent and abstract increases.\n\nCOMMON COLLOCATIONS:\n- {気温|きおん}が{上昇|じょうしょう}する (temperature rises)\n- {株価|かぶか}が{上昇|じょうしょう}する (stock prices rise)\n- {物価|ぶっか}の{上昇|じょうしょう} (price increase)\n- {上昇|じょうしょう}{気流|きりゅう} (updraft, rising air current)\n- {急|きゅう}{上昇|じょうしょう} (sharp rise)\n\nCONTRAST WITH SIMILAR WORDS:\n- {上昇|じょうしょう}: neutral, factual — used in news and data\n- {上|あ}がる: everyday language for going up\n- {増加|ぞうか}: specifically about quantity increasing",
+  "notes": "{上昇|じょうしょう} describes upward movement or increase, used for both physical ascent and abstract increases.\n\nCOMMON COLLOCATIONS:\n- ⟦{気温|きおん}→気温：00235_kion⟧⟦が→が：00051_ga⟧{上昇|じょうしょう}⟦する→する：00392_suru⟧ (temperature rises)\n- ⟦{株価|かぶか}→株価：05154_kabuka⟧⟦が→が：00051_ga⟧{上昇|じょうしょう}⟦する→する：00392_suru⟧ (stock prices rise)\n- ⟦{物価|ぶっか}→物価：03607_bukka⟧⟦の→の：09472_no⟧{上昇|じょうしょう} (price increase)\n- {上昇|じょうしょう}⟦{気流|きりゅう}→気流：27360_kiryuu⟧ (updraft, rising air current)\n- {急|きゅう}{上昇|じょうしょう} (sharp rise)\n\nCONTRAST WITH SIMILAR WORDS:\n- {上昇|じょうしょう}: neutral, factual — used in news and data\n- ⟦{上|あ}がる→上がる：00615_agaru⟧: everyday language for going up\n- ⟦{増加|ぞうか}→増加：03329_zouka⟧: specifically about quantity increasing",
   "cross_references": [
     {
       "type": "antonym",
@@ -149,11 +149,46 @@
       "reading": "げらく",
       "headword": "{下落|げらく}",
       "label": "decline, drop"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00615_agaru",
+      "reading": "あがる",
+      "headword": "{上|あ}がる",
+      "label": "everyday language for going up"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03329_zouka",
+      "reading": "ぞうか",
+      "headword": "{増加|ぞうか}",
+      "label": "specifically about quantity increasing"
+    },
+    {
+      "type": "related",
+      "target_id": "09397_yokobai",
+      "reading": "よこばい",
+      "headword": "{横這|よこば}い",
+      "label": "sideways movement, staying flat, moving sideways"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25038_agari",
+      "reading": "あがり",
+      "headword": "{上|あ}がり",
+      "label": "rise"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27459_uwamuki",
+      "reading": "うわむき",
+      "headword": "{上向|うわむ}き",
+      "label": "facing upward"
     }
   ],
   "metadata": {
     "created": "2026-02-15T22:35:57Z",
-    "modified": "2026-04-25T04:12:08Z",
+    "modified": "2026-09-02T04:01:24Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
@@ -165,7 +200,8 @@
       "semantic": [
         "movement"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

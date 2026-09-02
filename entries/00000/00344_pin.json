@@ -33,7 +33,7 @@
     },
     {
       "id": "00344_pin_ex2",
-      "japanese": "⟦ボウリング→ボウリング：10164_bouringu⟧⟦で→で：00502_de⟧{全|ぜん}ピン⟦を→を：00422_wo⟧⟦{倒|たお}した→倒す：01954_taosu⟧。",
+      "japanese": "⟦ボウリング→ボウリング：10164_bouringu⟧⟦で→で：00502_de⟧⟦{全|ぜん}→全〜：28337_zen⟧ピン⟦を→を：00422_wo⟧⟦{倒|たお}した→倒す：01954_taosu⟧。",
       "english": "I knocked down all the pins in bowling.",
       "has_audio": false,
       "sense_numbers": [
@@ -110,10 +110,19 @@
       ]
     }
   ],
-  "notes": "ピン refers to various types of pins depending on context.\n\nCOMMON TYPES:\n- ⟦ヘアピン→ヘアピン：noentry⟧ (hairpin)\n- ⟦{安全|あんぜん}→安全：01131_anzen⟧ピン (safety pin)\n- ⟦ボウリング→ボウリング：10164_bouringu⟧のピン (bowling pin)\n- ⟦ピアスピン→ピアスピン：noentry⟧ (earring post)\n\nEXPRESSIONS:\n- ⟦ピンからキリまで→ピンからキリまで：noentry⟧ (from the best to the worst; running the gamut)\n- ⟦ピンとくる→ピンとくる：noentry⟧ (to click; to suddenly understand)\n- ⟦ピンとこない→ピンとくる：noentry⟧ (to not quite get it)\n\nNote: ピンとくる/こない are common idiomatic expressions meaning to understand/not understand intuitively.",
+  "notes": "ピン refers to various types of pins depending on context.\n\nTYPES:\n- ⟦ヘアピン→ヘアピン：noentry⟧ (hairpin)\n- ⟦{安全|あんぜん}→安全：01131_anzen⟧ピン (safety pin)\n- ⟦ボウリング→ボウリング：10164_bouringu⟧⟦の→の：09472_no⟧ピン (bowling pin)\n- ⟦ピアスピン→ピアスピン：noentry⟧ (earring post)\n\nCOMMON EXPRESSIONS:\n- ⟦ピンからキリまで→ピンからキリまで：noentry⟧ (from the best to the worst; running the gamut)\n- ⟦ピンとくる→ピンとくる：noentry⟧ (to click; to suddenly understand)\n- ⟦ピンとこない→ピンとくる：noentry⟧ (to not quite get it)\n\nNote: ピン⟦と→と：00512_to⟧くる/こない are common idiomatic expressions meaning to understand/not understand intuitively.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19616_gabyou",
+      "reading": "がびょう",
+      "headword": "{画鋲|がびょう}",
+      "label": "thumbtack"
+    }
+  ],
   "metadata": {
     "created": "2026-01-13T03:14:22Z",
-    "modified": "2026-08-08T09:25:02Z",
+    "modified": "2026-09-02T04:00:57Z",
     "ai_model": "claude-opus-4-5-20251101",
     "vocabulary_tier": "general",
     "tags": {

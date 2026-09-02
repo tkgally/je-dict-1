@@ -2,7 +2,7 @@
   "id": "11766_shusshou",
   "headword": "{出生|しゅっしょう}",
   "reading": "しゅっしょう",
-  "part_of_speech": "noun; noun (する)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "birth",
   "conjugation": {
     "type": "suru",
@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "11766_shusshou_ex1",
-      "japanese": "{出生|しゅっしょう}{届|とどけ}を{出|だ}した。",
+      "japanese": "{出生|しゅっしょう}{届|とどけ}⟦を→を：00422_wo⟧⟦{出|だ}した→出す：01087_dasu⟧。",
       "english": "I submitted a birth registration.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "11766_shusshou_ex2",
-      "japanese": "{日本|にほん}の{出生|しゅっしょう}{率|りつ}は{年々|ねんねん}{低下|ていか}している。",
+      "japanese": "⟦{日本|にほん}→日本：03876_nihon⟧⟦の→の：09472_no⟧{出生|しゅっしょう}{率|りつ}⟦は→は：00079_ha⟧⟦{年々|ねんねん}→年々：10417_nennen⟧⟦{低下|ていか}→低下：04065_teika⟧⟦している→する：00392_suru⟧。",
       "english": "Japan's birth rate is declining year by year.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "11766_shusshou_ex3",
-      "japanese": "{出生|しゅっしょう}{時|じ}の{体重|たいじゅう}は3,200グラムだった。",
+      "japanese": "{出生|しゅっしょう}{時|じ}⟦の→の：09472_no⟧⟦{体重|たいじゅう}→体重：03395_taijuu⟧⟦は→は：00079_ha⟧3,200⟦グラム→グラム：01354_guramu⟧だった。",
       "english": "The birth weight was 3,200 grams.",
       "notes": null,
       "has_audio": false,
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "A formal, official term for birth used in legal, demographic, and statistical contexts. Everyday conversation uses {生|う}まれる (to be born) or {誕生|たんじょう} (birth, more celebratory).\n\nREADING NOTE:\nThe standard reading is しゅっしょう. The reading しゅっせい is also used, especially in medical contexts.\n\nCOMMON COLLOCATIONS:\n- {出生|しゅっしょう}{届|とどけ}: birth registration\n- {出生|しゅっしょう}{率|りつ}: birth rate\n- {出生|しゅっしょう}{地|ち}: birthplace\n- {出生|しゅっしょう}{証明書|しょうめいしょ}: birth certificate\n- {出生|しゅっしょう}{数|すう}: number of births\n\nSIMILAR WORDS:\n- {誕生|たんじょう}: birth (celebratory, used for birthdays)\n- {生|う}まれ: birth, origin (informal/conversational)",
+  "notes": "A formal, official term for birth used in legal, demographic, and statistical contexts. Everyday conversation uses ⟦{生|う}まれる→生まれる：00905_umareru⟧ (to be born) or ⟦{誕生|たんじょう}→誕生：01460_tanjou⟧ (birth, more celebratory).\n\nPRONUNCIATION:\nThe standard reading is しゅっしょう. The reading しゅっせい is also used, especially in medical contexts.\n\nCOMMON COLLOCATIONS:\n- {出生|しゅっしょう}{届|とどけ}: birth registration\n- {出生|しゅっしょう}{率|りつ}: birth rate\n- {出生|しゅっしょう}{地|ち}: birthplace\n- {出生|しゅっしょう}⟦{証明書|しょうめいしょ}→証明書：09785_shoumeisho⟧: birth certificate\n- {出生|しゅっしょう}{数|すう}: number of births\n\nSIMILAR WORDS:\n- ⟦{誕生|たんじょう}→誕生：01460_tanjou⟧: birth (celebratory, used for birthdays)\n- ⟦{生|う}まれ→生まれ：01867_umare⟧: birth, origin (informal/conversational)",
   "cross_references": [
     {
       "type": "contrast",
@@ -141,11 +141,25 @@
       "reading": "たんじょう",
       "headword": "{誕生|たんじょう}",
       "label": "birth (celebratory)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01867_umare",
+      "reading": "うまれ",
+      "headword": "{生|う}まれ",
+      "label": "birth, origin"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22914_seitan",
+      "reading": "せいたん",
+      "headword": "{生誕|せいたん}",
+      "label": "birth"
     }
   ],
   "metadata": {
     "created": "2026-02-17T23:15:01Z",
-    "modified": "2026-08-15T21:25:25Z",
+    "modified": "2026-09-02T04:01:26Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",

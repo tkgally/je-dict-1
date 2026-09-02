@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24231_pafoomaa_ex1",
-      "japanese": "{駅前|えきまえ}にパフォーマーがいた。",
+      "japanese": "⟦{駅前|えきまえ}→駅前：09593_ekimae⟧⟦に→に：00314_ni⟧パフォーマーがいた。",
       "english": "There was a performer in front of the station.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24231_pafoomaa_ex2",
-      "japanese": "{大道芸|だいどうげい}のパフォーマーが{子|こ}どもたちに{大人気|だいにんき}だ。",
+      "japanese": "⟦{大道芸|だいどうげい}→大道芸：12252_daidougei⟧⟦の→の：09472_no⟧パフォーマー⟦が→が：00051_ga⟧{子|こ}どもたち⟦に→に：00314_ni⟧⟦{大人気|だいにんき}→大人気：12205_daininki⟧だ。",
       "english": "The street performer is very popular with children.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24231_pafoomaa_ex3",
-      "japanese": "プロのパフォーマーとして{活動|かつどう}するために、{毎日|まいにち}{練習|れんしゅう}を{欠|か}かさない。",
+      "japanese": "⟦プロ→プロ：03871_puro⟧⟦の→の：09472_no⟧パフォーマー⟦として→として：06802_toshite⟧⟦{活動|かつどう}→活動：00201_katsudou⟧⟦する→する：00392_suru⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧、⟦{毎日|まいにち}→毎日：00729_mainichi⟧⟦{練習|れんしゅう}→練習：05323_renshuu⟧⟦を→を：00422_wo⟧⟦{欠|か}かさない→欠かす：10138_kakasu⟧。",
       "english": "To work as a professional performer, I never miss a day of practice.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "A loanword from English \"performer.\" Covers a broad range of performance types in Japanese.\n\nUSAGE:\nパフォーマー in Japanese is used broadly for anyone who performs publicly — street performers, circus acts, dancers, DJs, and live entertainers. It does not usually refer to actors in films or TV dramas ({俳優|はいゆう} is used for those) or classical musicians ({演奏者|えんそうしゃ}). The word has a modern, entertainment-industry feel.\n\nCOMMON COLLOCATIONS:\n- ストリートパフォーマー: street performer\n- {大道芸|だいどうげい}パフォーマー: street entertainer\n- パフォーマーとして{活動|かつどう}する: to work as a performer\n- トップパフォーマー: top performer\n\nSIMILAR WORDS:\n- {芸人|げいにん}: entertainer, comedian — usually refers to comedians and variety show performers\n- {演者|えんじゃ}: performer, actor — a more formal native word covering performers in traditional and modern arts\n- アーティスト: artist — broader term encompassing musicians, visual artists, and creative performers",
+  "notes": "A loanword from English \"performer.\" Covers a broad range of performance types in Japanese.\n\nUSAGE:\nパフォーマー in Japanese is used broadly for anyone who performs publicly — street performers, circus acts, dancers, DJs, and live entertainers. It does not usually refer to actors in films or TV dramas (⟦{俳優|はいゆう}→俳優：03547_haiyuu⟧ is used for those) or classical musicians (⟦{演奏者|えんそうしゃ}→演奏者：25426_ensousha⟧). The word has a modern, entertainment-industry feel.\n\nCOMMON COLLOCATIONS:\n- ストリートパフォーマー: street performer\n- ⟦{大道芸|だいどうげい}→大道芸：12252_daidougei⟧パフォーマー: street entertainer\n- パフォーマー⟦として→として：06802_toshite⟧⟦{活動|かつどう}→活動：00201_katsudou⟧⟦する→する：00392_suru⟧: to work as a performer\n- ⟦トップ→トップ：03862_toppu⟧パフォーマー: top performer\n\nSIMILAR WORDS:\n- ⟦{芸人|げいにん}→芸人：13958_geinin⟧: entertainer, comedian — usually refers to comedians and variety show performers\n- ⟦{演者|えんじゃ}→演者：13436_enja⟧: performer, actor — a more formal native word covering performers in traditional and modern arts\n- ⟦アーティスト→アーティスト：10712_aatisuto⟧: artist — broader term encompassing musicians, visual artists, and creative performers",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13958_geinin",
+      "reading": "げいにん",
+      "headword": "{芸人|げいにん}",
+      "label": "entertainer, comedian"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13436_enja",
+      "reading": "えんじゃ",
+      "headword": "{演者|えんじゃ}",
+      "label": "performer, actor"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10712_aatisuto",
+      "reading": "あーてぃすと",
+      "headword": "アーティスト",
+      "label": "artist"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +83,6 @@
       ]
     },
     "created": "2026-04-18T10:29:37Z",
-    "modified": "2026-08-02T18:32:34Z"
+    "modified": "2026-09-02T04:02:17Z"
   }
 }

@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "notes": "{請求書|せいきゅうしょ} is a compound: ⟦{請求|せいきゅう}→請求：03374_seikyuu⟧ (billing/claim) + ⟦{書|しょ}→〜書：28467_sho⟧ (document).\n\nCONTRAST:\n- {請求書|せいきゅうしょ} (invoice - request for payment)\n- ⟦{領収書|りょうしゅうしょ}→領収書：04697_ryoushuusho⟧ (receipt - proof of payment received)\n- ⟦{見積書|みつもりしょ}→見積書：07484_mitsumorisho⟧ (estimate/quote)\n- ⟦{納品書|のうひんしょ}→納品書：06594_nouhinsho⟧ (delivery slip)\n\nCOMMON COLLOCATIONS:\n- {請求書|せいきゅうしょ}⟦を→を：00422_wo⟧⟦{送|おく}る→送る：00742_okuru⟧ (to send an invoice)\n- {請求書|せいきゅうしょ}⟦を→を：00422_wo⟧⟦{発行|はっこう}する→発行する：19236_hakkousuru⟧ (to issue an invoice)\n- {請求書|せいきゅうしょ}⟦を→を：00422_wo⟧⟦{払|はら}う→払う：00535_harau⟧ (to pay an invoice)\n- {請求書|せいきゅうしょ}⟦{払|ばら}い→払い：18738_harai⟧ (payment by invoice)\n\nMODERN USAGE:\n⟦{電子|でんし}→電子：03449_denshi⟧{請求書|せいきゅうしょ} (electronic invoice) is becoming more common in business.",
+  "notes": "{請求書|せいきゅうしょ} is a compound: ⟦{請求|せいきゅう}→請求：03374_seikyuu⟧ (billing/claim) + ⟦{書|しょ}→〜書：28467_sho⟧ (document).\n\nSIMILAR WORDS:\n- {請求書|せいきゅうしょ} (invoice - request for payment)\n- ⟦{領収書|りょうしゅうしょ}→領収書：04697_ryoushuusho⟧ (receipt - proof of payment received)\n- ⟦{見積書|みつもりしょ}→見積書：07484_mitsumorisho⟧ (estimate/quote)\n- ⟦{納品書|のうひんしょ}→納品書：06594_nouhinsho⟧ (delivery slip)\n\nCOMMON COLLOCATIONS:\n- {請求書|せいきゅうしょ}⟦を→を：00422_wo⟧⟦{送|おく}る→送る：00742_okuru⟧ (to send an invoice)\n- {請求書|せいきゅうしょ}⟦を→を：00422_wo⟧⟦{発行|はっこう}する→発行する：19236_hakkousuru⟧ (to issue an invoice)\n- {請求書|せいきゅうしょ}⟦を→を：00422_wo⟧⟦{払|はら}う→払う：00535_harau⟧ (to pay an invoice)\n- {請求書|せいきゅうしょ}⟦{払|ばら}い→払い：18738_harai⟧ (payment by invoice)\n\nMODERN USAGE:\n⟦{電子|でんし}→電子：03449_denshi⟧{請求書|せいきゅうしょ} (electronic invoice) is becoming more common in business.",
   "cross_references": [
     {
       "type": "related",
@@ -48,11 +48,67 @@
       "headword": "{領収書|りょうしゅうしょ}",
       "label": "receipt",
       "target_id": "04697_ryoushuusho"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07484_mitsumorisho",
+      "reading": "みつもりしょ",
+      "headword": "{見積書|みつもりしょ}",
+      "label": "estimate/quote"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06594_nouhinsho",
+      "reading": "のうひんしょ",
+      "headword": "{納品書|のうひんしょ}",
+      "label": "delivery slip"
+    },
+    {
+      "type": "related",
+      "target_id": "06448_meisai",
+      "reading": "めいさい",
+      "headword": "{明細|めいさい}",
+      "label": "details, itemization, statement"
+    },
+    {
+      "type": "related",
+      "target_id": "08069_hacchuusho",
+      "reading": "はっちゅうしょ",
+      "headword": "{発注書|はっちゅうしょ}",
+      "label": "purchase order"
+    },
+    {
+      "type": "related",
+      "target_id": "08126_chuumonsho",
+      "reading": "ちゅうもんしょ",
+      "headword": "{注文書|ちゅうもんしょ}",
+      "label": "order form"
+    },
+    {
+      "type": "related",
+      "target_id": "08640_ryoushuu",
+      "reading": "りょうしゅう",
+      "headword": "{領収|りょうしゅう}",
+      "label": "receipt"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20280_okurijou",
+      "reading": "おくりじょう",
+      "headword": "{送|おく}り{状|じょう}",
+      "label": "shipping label"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29867_tokusokujou",
+      "reading": "とくそくじょう",
+      "headword": "督促状",
+      "label": "reminder letter"
     }
   ],
   "metadata": {
     "created": "2026-01-15T23:11:09Z",
-    "modified": "2026-06-01T21:08:01Z",
+    "modified": "2026-09-02T03:02:30Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

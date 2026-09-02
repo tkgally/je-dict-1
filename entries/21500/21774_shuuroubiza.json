@@ -14,40 +14,60 @@
   "examples": [
     {
       "id": "21774_shuuroubiza_ex1",
-      "japanese": "{就労|しゅうろう}ビザを{取得|しゅとく}した。",
+      "japanese": "{就労|しゅうろう}ビザ⟦を→を：00422_wo⟧⟦{取得|しゅとく}した→取得する：10444_shutokusuru⟧。",
       "english": "I obtained a work visa.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21774_shuuroubiza_ex2",
-      "japanese": "{就労|しゅうろう}ビザがないと{日本|にほん}で{働|はたら}けない。",
+      "japanese": "{就労|しゅうろう}ビザ⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧⟦と→と：00512_to⟧⟦{日本|にほん}→日本：03876_nihon⟧⟦で→で：00502_de⟧⟦{働|はたら}けない→働く：00503_hataraku⟧。",
       "english": "You can't work in Japan without a work visa.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21774_shuuroubiza_ex3",
-      "japanese": "{就労|しゅうろう}ビザの{更新|こうしん}{手続|てつづ}きを{入国管理局|にゅうこくかんりきょく}で{行|おこな}った。",
+      "japanese": "{就労|しゅうろう}ビザ⟦の→の：09472_no⟧⟦{更新|こうしん}→更新：04765_koushin⟧⟦{手続|てつづ}き→手続き：05453_tetsuzuki⟧⟦を→を：00422_wo⟧⟦{入国管理局|にゅうこくかんりきょく}→入国管理局：24934_nyuukokukanrikyoku⟧⟦で→で：00502_de⟧⟦{行|おこな}った→行う：01238_okonau⟧。",
       "english": "I carried out the work visa renewal procedure at the immigration bureau.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {就労|しゅうろう} (employment, working) + ビザ (visa). In Japanese immigration law, the formal term is {在留資格|ざいりゅうしかく} (residence status) rather than ビザ (visa), but {就労|しゅうろう}ビザ is widely used in everyday conversation. Japan has multiple categories of work-related residence statuses.\n\nCOMMON COLLOCATIONS:\n- {就労|しゅうろう}ビザを{取得|しゅとく}する: to obtain a work visa\n- {就労|しゅうろう}ビザを{更新|こうしん}する: to renew a work visa\n- {就労|しゅうろう}ビザの{申請|しんせい}: work visa application\n- {就労|しゅうろう}ビザの{種類|しゅるい}: types of work visas\n\nRELATED TERMS:\n- {在留資格|ざいりゅうしかく}: residence status (formal/legal term)\n- {労働許可|ろうどうきょか}: work permit\n- {留学|りゅうがく}ビザ: student visa\n- {観光|かんこう}ビザ: tourist visa",
+  "notes": "Composed of {就労|しゅうろう} (employment, working) + ⟦ビザ→ビザ：08283_biza⟧ (visa). In Japanese immigration law, the formal term is ⟦{在留資格|ざいりゅうしかく}→在留資格：18891_zairyuushikaku⟧ (residence status) rather than ⟦ビザ→ビザ：08283_biza⟧ (visa), but {就労|しゅうろう}ビザ is widely used in everyday conversation. Japan has multiple categories of work-related residence statuses.\n\nCOMMON COLLOCATIONS:\n- {就労|しゅうろう}ビザ⟦を→を：00422_wo⟧⟦{取得|しゅとく}する→取得する：10444_shutokusuru⟧: to obtain a work visa\n- {就労|しゅうろう}ビザ⟦を→を：00422_wo⟧⟦{更新|こうしん}する→更新する：27994_koushinsuru⟧: to renew a work visa\n- {就労|しゅうろう}ビザ⟦の→の：09472_no⟧⟦{申請|しんせい}→申請：04207_shinsei⟧: work visa application\n- {就労|しゅうろう}ビザ⟦の→の：09472_no⟧⟦{種類|しゅるい}→種類：01560_shurui⟧: types of work visas\n\nRELATED WORDS:\n- ⟦{在留資格|ざいりゅうしかく}→在留資格：18891_zairyuushikaku⟧: residence status (formal/legal term)\n- {労働許可|ろうどうきょか}: work permit\n- ⟦{留学|りゅうがく}→留学：03677_ryuugaku⟧⟦ビザ→ビザ：08283_biza⟧: student visa\n- ⟦{観光|かんこう}→観光：00173_kankou⟧⟦ビザ→ビザ：08283_biza⟧: tourist visa",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "18891_zairyuushikaku",
+      "reading": "ざいりゅうしかく",
+      "headword": "{在留|ざいりゅう}{資格|しかく}",
+      "label": "residence status"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["law", "society"]
+      "semantic": [
+        "law",
+        "society"
+      ]
     },
     "created": "2026-04-03T16:14:00Z",
-    "modified": "2026-04-03T16:14:00Z"
+    "modified": "2026-09-02T04:02:05Z"
   }
 }

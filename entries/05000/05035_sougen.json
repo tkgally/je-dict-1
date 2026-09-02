@@ -64,7 +64,7 @@
   "notes": "{草原|そうげん} refers to grassland or prairie. {草|そう} means 'grass' and {原|げん} means 'field/plain.'\n\nTYPES OF GRASSLANDS:\n- ⟦{大草原|だいそうげん}→大草原：noentry⟧: vast grassland/prairie\n- ⟦サバンナ→サバンナ：28719_sabanna⟧: savanna\n- ⟦ステップ→ステップ：11579_suteppu⟧: steppe\n- ⟦{牧草地|ぼくそうち}→牧草地：noentry⟧: pasture\n\nCOMMON EXPRESSIONS:\n- {草原|そうげん}⟦を→を：00422_wo⟧⟦{駆|か}け{回|まわ}る→駆け回る：06113_kakemawaru⟧: to run around the grassland\n- {草原|そうげん}⟦の→の：09472_no⟧⟦{風|かぜ}→風：00641_kaze⟧: wind on the prairie\n- {草原|そうげん}⟦{地帯|ちたい}→地帯：04057_chitai⟧: grassland zone\n\nRELATED LANDSCAPES:\n- ⟦{森林|しんりん}→森林：01441_shinrin⟧: forest\n- ⟦{砂漠|さばく}→砂漠：09508_sabaku⟧: desert\n- ⟦{湿地|しっち}→湿地：05036_shicchi⟧: wetland\n- ⟦{平野|へいや}→平野：00096_heiya⟧: plain",
   "metadata": {
     "created": "2026-01-14T10:37:17Z",
-    "modified": "2026-08-13T12:39:01Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
@@ -85,6 +85,62 @@
       "reading": "くさ",
       "headword": "{草|くさ}",
       "label": "grass, weeds, herbs (the general word for small plants)"
+    },
+    {
+      "type": "related",
+      "target_id": "01441_shinrin",
+      "reading": "しんりん",
+      "headword": "{森林|しんりん}",
+      "label": "forest"
+    },
+    {
+      "type": "related",
+      "target_id": "09508_sabaku",
+      "reading": "さばく",
+      "headword": "{砂漠|さばく}",
+      "label": "desert"
+    },
+    {
+      "type": "related",
+      "target_id": "05036_shicchi",
+      "reading": "しっち",
+      "headword": "{湿地|しっち}",
+      "label": "wetland"
+    },
+    {
+      "type": "related",
+      "target_id": "00096_heiya",
+      "reading": "へいや",
+      "headword": "{平野|へいや}",
+      "label": "plain"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21821_kusachi",
+      "reading": "くさち",
+      "headword": "{草地|くさち}",
+      "label": "grassland"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27685_heigen",
+      "reading": "へいげん",
+      "headword": "{平原|へいげん}",
+      "label": "plain"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28719_sabanna",
+      "reading": "さばんな",
+      "headword": "サバンナ",
+      "label": "savanna"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30153_kusappara",
+      "reading": "くさっぱら",
+      "headword": "{草|くさ}っ{原|ぱら}",
+      "label": "grassy patch"
     }
   ]
 }

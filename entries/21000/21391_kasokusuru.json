@@ -3,7 +3,7 @@
   "headword": "{加速|かそく}する",
   "reading": "かそくする",
   "romaji": "kasokusuru",
-  "part_of_speech": "verb",
+  "part_of_speech": "suru verb",
   "gloss": "to accelerate; to speed up",
   "conjugation_class": "suru",
   "transitivity": "both",
@@ -17,7 +17,7 @@
   "examples": [
     {
       "id": "21391_kasokusuru_ex1",
-      "japanese": "{車|くるま}が{加速|かそく}した。",
+      "japanese": "⟦{車|くるま}→車：00516_kuruma⟧⟦が→が：00051_ga⟧{加速|かそく}した。",
       "english": "The car accelerated.",
       "sense_numbers": [
         1
@@ -27,7 +27,7 @@
     },
     {
       "id": "21391_kasokusuru_ex2",
-      "japanese": "{経済|けいざい}{成長|せいちょう}が{加速|かそく}している。",
+      "japanese": "⟦{経済|けいざい}{成長|せいちょう}→経済成長：20453_keizaiseichou⟧⟦が→が：00051_ga⟧{加速|かそく}して⟦いる→いる：00495_iru⟧。",
       "english": "Economic growth is accelerating.",
       "sense_numbers": [
         1
@@ -37,7 +37,7 @@
     },
     {
       "id": "21391_kasokusuru_ex3",
-      "japanese": "{技術|ぎじゅつ}{革新|かくしん}のスピードが{年々|ねんねん}{加速|かそく}して、{社会|しゃかい}の{変化|へんか}が{激|はげ}しくなっている。",
+      "japanese": "⟦{技術|ぎじゅつ}{革新|かくしん}→技術革新：12892_gijutsukakushin⟧⟦の→の：09472_no⟧⟦スピード→スピード：11048_supiido⟧⟦が→が：00051_ga⟧⟦{年々|ねんねん}→年々：10417_nennen⟧{加速|かそく}して、⟦{社会|しゃかい}→社会：01427_shakai⟧⟦の→の：09472_no⟧⟦{変化|へんか}→変化：03615_henka⟧⟦が→が：00051_ga⟧⟦{激|はげ}しく→激しい：02348_hageshii⟧⟦なっている→なる：01970_naru⟧。",
       "english": "The pace of technological innovation is accelerating year by year, and social change is intensifying.",
       "sense_numbers": [
         1
@@ -46,8 +46,24 @@
       "notes": null
     }
   ],
-  "notes": "Describes an increase in speed or rate. Used both for physical acceleration (vehicles, objects) and for abstract processes gaining momentum (trends, reforms, decline).\n\nCOMMON COLLOCATIONS:\n- {変化|へんか}が{加速|かそく}する: change accelerates\n- {成長|せいちょう}を{加速|かそく}させる: to accelerate growth\n- {少子化|しょうしか}が{加速|かそく}する: declining birthrate accelerates\n- {開発|かいはつ}を{加速|かそく}する: to accelerate development\n\nTRANSITIVITY:\nUsed both intransitively ({車|くるま}が{加速|かそく}する, the car accelerates) and transitively with させる or を ({改革|かいかく}を{加速|かそく}する, to accelerate reform). The させる causative form is also common for transitive use: {成長|せいちょう}を{加速|かそく}させる.\n\nSIMILAR WORDS:\n- {速|はや}める: to hasten — emphasizes making something happen sooner rather than increasing rate\n- {促進|そくしん}する: to promote/facilitate — focuses on actively pushing a process forward\n- {減速|げんそく}する: to decelerate — the opposite, slowing down",
+  "notes": "Describes an increase in speed or rate. Used both for physical acceleration (vehicles, objects) and for abstract processes gaining momentum (trends, reforms, decline).\n\nCOMMON COLLOCATIONS:\n- ⟦{変化|へんか}→変化：03615_henka⟧⟦が→が：00051_ga⟧{加速|かそく}する: change accelerates\n- ⟦{成長|せいちょう}→成長：03290_seichou⟧⟦を→を：00422_wo⟧{加速|かそく}させる: to accelerate growth\n- ⟦{少子化|しょうしか}→少子化：04807_shoushika⟧⟦が→が：00051_ga⟧{加速|かそく}する: declining birthrate accelerates\n- ⟦{開発|かいはつ}→開発：06746_kaihatsu⟧⟦を→を：00422_wo⟧{加速|かそく}する: to accelerate development\n\nTRANSITIVITY:\nUsed both intransitively (⟦{車|くるま}→車：00516_kuruma⟧⟦が→が：00051_ga⟧{加速|かそく}する, the car accelerates) and transitively with ⟦させる→する：00392_suru⟧ or ⟦を→を：00422_wo⟧ (⟦{改革|かいかく}→改革：04815_kaikaku⟧⟦を→を：00422_wo⟧{加速|かそく}する, to accelerate reform). The ⟦させる→する：00392_suru⟧ causative form is also common for transitive use: ⟦{成長|せいちょう}→成長：03290_seichou⟧⟦を→を：00422_wo⟧{加速|かそく}させる.\n\nSIMILAR WORDS:\n- {速|はや}める: to hasten — emphasizes making something happen sooner rather than increasing rate\n- ⟦{促進|そくしん}する→促進する：19632_sokushinsuru⟧: to promote/facilitate — focuses on actively pushing a process forward\n- ⟦{減速|げんそく}→減速：13336_gensoku_deceleration⟧⟦する→する：00392_suru⟧: to decelerate — the opposite, slowing down",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19632_sokushinsuru",
+      "reading": "そくしんする",
+      "headword": "{促進|そくしん}する",
+      "label": "to promote/facilitate"
+    },
+    {
+      "type": "antonym",
+      "target_id": "13336_gensoku_deceleration",
+      "reading": "げんそく",
+      "headword": "{減速|げんそく}",
+      "label": "to decelerate"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -64,7 +80,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-02T02:45:33Z",
-    "modified": "2026-04-10T06:37:10Z"
+    "modified": "2026-09-02T04:02:03Z"
   },
   "conjugation": {
     "type": "suru",

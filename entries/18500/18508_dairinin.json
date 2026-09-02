@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "18508_dairinin_ex1",
-      "japanese": "{弁護士|べんごし}が{代理人|だいりにん}を{務|つと}める。",
+      "japanese": "⟦{弁護士|べんごし}→弁護士：03150_bengoshi⟧⟦が→が：00051_ga⟧{代理人|だいりにん}⟦を→を：00422_wo⟧⟦{務|つと}める→務める：10446_tsutomeru⟧。",
       "english": "A lawyer serves as the representative.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "18508_dairinin_ex2",
-      "japanese": "{本人|ほんにん}が{来|こ}られない{場合|ばあい}は{代理人|だいりにん}でも{構|かま}いません。",
+      "japanese": "⟦{本人|ほんにん}→本人：03627_honnin⟧⟦が→が：00051_ga⟧⟦{来|こ}られない→来る：00254_kuru⟧⟦{場合|ばあい}→場合：01704_baai⟧⟦は→は：00079_ha⟧{代理人|だいりにん}で⟦も→も：00484_mo⟧{構|かま}いません。",
       "english": "If the person cannot come, a proxy is also acceptable.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "18508_dairinin_ex3",
-      "japanese": "{選手|せんしゅ}の{代理人|だいりにん}が{契約|けいやく}{交渉|こうしょう}を{行|おこな}った。",
+      "japanese": "⟦{選手|せんしゅ}→選手：03823_senshu⟧⟦の→の：09472_no⟧{代理人|だいりにん}⟦が→が：00051_ga⟧⟦{契約|けいやく}→契約：02698_keiyaku⟧⟦{交渉|こうしょう}→交渉：02727_koushou⟧⟦を→を：00422_wo⟧⟦{行|おこな}った→行う：01238_okonau⟧。",
       "english": "The player's agent conducted contract negotiations.",
       "sense_numbers": [
         1
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "Used across legal, business, and sports contexts. In legal contexts, {代理人|だいりにん} specifically refers to someone with legal authority to act on another's behalf ({法定|ほうてい}{代理人|だいりにん} — legal representative). In sports, it corresponds to 'agent.' Related terms: {代理|だいり} (acting on behalf of), {委任状|いにんじょう} (power of attorney/letter of authorization — often required when sending a proxy).",
+  "notes": "Used across legal, business, and sports contexts. In legal contexts, {代理人|だいりにん} specifically refers to someone with legal authority to act on another's behalf ({法定|ほうてい}{代理人|だいりにん} — legal representative). In sports, it corresponds to 'agent.' Related terms: ⟦{代理|だいり}→代理：03422_dairi⟧ (acting on behalf of), ⟦{委任状|いにんじょう}→委任状：07962_ininjou⟧ (power of attorney/letter of authorization — often required when sending a proxy).",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03116_daihyousha",
+      "reading": "だいひょうしゃ",
+      "headword": "{代表者|だいひょうしゃ}",
+      "label": "representative, delegate"
+    },
+    {
+      "type": "related",
+      "target_id": "10752_eejento",
+      "reading": "えーじぇんと",
+      "headword": "エージェント",
+      "label": "agent"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21690_dairiten",
+      "reading": "だいりてん",
+      "headword": "{代理店|だいりてん}",
+      "label": "agency"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29299_juninsha",
+      "reading": "じゅにんしゃ",
+      "headword": "{受任者|じゅにんしゃ}",
+      "label": "person entrusted with a task"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,6 +92,6 @@
       ]
     },
     "created": "2026-03-22T03:19:04Z",
-    "modified": "2026-05-08T10:08:08Z"
+    "modified": "2026-09-02T04:01:52Z"
   }
 }

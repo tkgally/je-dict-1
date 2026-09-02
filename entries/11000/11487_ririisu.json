@@ -3,7 +3,7 @@
   "id": "11487_ririisu",
   "headword": "リリース",
   "reading": "りりーす",
-  "part_of_speech": "noun / verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "release",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "11487_ririisu_ex1",
-      "japanese": "{新曲|しんきょく}がリリースされた。",
+      "japanese": "⟦{新曲|しんきょく}→新曲：12983_shinkyoku⟧⟦が→が：00051_ga⟧リリース⟦された→する：00392_suru⟧。",
       "english": "A new song was released.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "11487_ririisu_ex2",
-      "japanese": "アプリの{最新|さいしん}バージョンがリリースされた。",
+      "japanese": "⟦アプリ→アプリ：04722_apuri⟧⟦の→の：09472_no⟧⟦{最新|さいしん}→最新：04831_saishin⟧⟦バージョン→バージョン：11286_baajon⟧⟦が→が：00051_ga⟧リリース⟦された→する：00392_suru⟧。",
       "english": "The latest version of the app was released.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "11487_ririisu_ex3",
-      "japanese": "{来月|らいげつ}リリース{予定|よてい}の{新商品|しんしょうひん}について{記者会見|きしゃかいけん}が{行|おこな}われた。",
+      "japanese": "⟦{来月|らいげつ}→来月：00744_raigetsu⟧リリース⟦{予定|よてい}→予定：00824_yotei⟧⟦の→の：09472_no⟧⟦{新商品|しんしょうひん}→新商品：11504_shinshouhin⟧⟦について→〜について：03103_nitsuite⟧⟦{記者会見|きしゃかいけん}→記者会見：19954_kishakaiken⟧⟦が→が：00051_ga⟧⟦{行|おこな}われた→行う：01238_okonau⟧。",
       "english": "A press conference was held about the new product scheduled for release next month.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,19 @@
       ]
     }
   ],
-  "notes": "USAGE:\nリリース is widely used in the music industry, software/tech, and general product launches. It has largely replaced the Japanese word {発売|はつばい} in some contexts, especially for digital products.\n\nIn the press/media context, プレスリリース means \"press release.\"\n\nCOMMON COLLOCATIONS:\n- {新曲|しんきょく}をリリースする: to release a new song\n- リリース{日|び}: release date\n- リリース{予定|よてい}: scheduled release\n- プレスリリース: press release\n- {最新|さいしん}リリース: latest release",
-  "cross_references": [],
+  "notes": "USAGE:\nリリース is widely used in the music industry, software/tech, and general product launches. It has largely replaced the Japanese word ⟦{発売|はつばい}→発売：04315_hatsubai⟧ in some contexts, especially for digital products.\n\nIn the press/media context, プレスリリース means \"press release.\"\n\nCOMMON COLLOCATIONS:\n- ⟦{新曲|しんきょく}→新曲：12983_shinkyoku⟧⟦を→を：00422_wo⟧リリース⟦する→する：00392_suru⟧: to release a new song\n- リリース{日|び}: release date\n- リリース⟦{予定|よてい}→予定：00824_yotei⟧: scheduled release\n- プレスリリース: press release\n- ⟦{最新|さいしん}→最新：04831_saishin⟧リリース: latest release",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07822_roonchi",
+      "reading": "ろーんち",
+      "headword": "ローンチ",
+      "label": "launch"
+    }
+  ],
   "metadata": {
     "created": "2026-02-16T14:12:10Z",
-    "modified": "2026-03-29T03:07:35Z",
+    "modified": "2026-09-02T04:01:25Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

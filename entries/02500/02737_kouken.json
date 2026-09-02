@@ -2,7 +2,7 @@
   "id": "02737_kouken",
   "headword": "{貢献|こうけん}",
   "reading": "こうけん",
-  "part_of_speech": "noun / suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "contribution",
   "conjugation": {
     "type": "suru",
@@ -133,11 +133,26 @@
       ]
     }
   ],
-  "notes": "{貢献|こうけん} means contribution - helping to achieve something or improve a situation. Functions as both noun and suru-verb.\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n- No standard transitive pair\n- Pattern: {貢献|こうけん}⟦する→する：00392_suru⟧\n\nKEY PATTERN:\n〜⟦に→に：00314_ni⟧{貢献|こうけん}⟦する→する：00392_suru⟧: to contribute to ~\n\nCOMMON EXPRESSIONS:\n- ⟦{社会|しゃかい}→社会：01427_shakai⟧⟦に→に：00314_ni⟧{貢献|こうけん}⟦する→する：00392_suru⟧: to contribute to society\n- ⟦{大|おお}きな→大きな：02849_ookina⟧{貢献|こうけん}: great contribution\n- {貢献|こうけん}⟦{度|ど}→〜度：09845_do⟧: degree/level of contribution\n- ⟦{社会|しゃかい}→社会：01427_shakai⟧{貢献|こうけん}⟦{活動|かつどう}→活動：00201_katsudou⟧: social contribution activities\n\nCONTEXTS:\n- Business: ⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦の→の：09472_no⟧⟦{発展|はってん}→発展：03561_hatten⟧⟦に→に：00314_ni⟧{貢献|こうけん}⟦する→する：00392_suru⟧\n- Research: ⟦{科学|かがく}→科学：01277_kagaku⟧⟦の→の：09472_no⟧⟦{発展|はってん}→発展：03561_hatten⟧⟦に→に：00314_ni⟧{貢献|こうけん}⟦する→する：00392_suru⟧\n- Sports: ⟦チーム→チーム：03858_chiimu⟧⟦の→の：09472_no⟧⟦{勝利|しょうり}→勝利：11795_shouri⟧⟦に→に：00314_ni⟧{貢献|こうけん}⟦する→する：00392_suru⟧\n\nREGISTER:\nSlightly formal; common in business, academic, and official contexts.",
-  "cross_references": [],
+  "notes": "{貢献|こうけん} means contribution - helping to achieve something or improve a situation. Functions as both noun and suru-verb.\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n- No standard transitive pair\n- Pattern: {貢献|こうけん}⟦する→する：00392_suru⟧\n\nKEY PATTERN:\n〜⟦に→に：00314_ni⟧{貢献|こうけん}⟦する→する：00392_suru⟧: to contribute to ~\n\nCOMMON EXPRESSIONS:\n- ⟦{社会|しゃかい}→社会：01427_shakai⟧⟦に→に：00314_ni⟧{貢献|こうけん}⟦する→する：00392_suru⟧: to contribute to society\n- ⟦{大|おお}きな→大きな：02849_ookina⟧{貢献|こうけん}: great contribution\n- {貢献|こうけん}⟦{度|ど}→〜度：09845_do⟧: degree/level of contribution\n- ⟦{社会|しゃかい}→社会：01427_shakai⟧{貢献|こうけん}⟦{活動|かつどう}→活動：00201_katsudou⟧: social contribution activities\n\nUSAGE:\n- Business: ⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦の→の：09472_no⟧⟦{発展|はってん}→発展：03561_hatten⟧⟦に→に：00314_ni⟧{貢献|こうけん}⟦する→する：00392_suru⟧\n- Research: ⟦{科学|かがく}→科学：01277_kagaku⟧⟦の→の：09472_no⟧⟦{発展|はってん}→発展：03561_hatten⟧⟦に→に：00314_ni⟧{貢献|こうけん}⟦する→する：00392_suru⟧\n- Sports: ⟦チーム→チーム：03858_chiimu⟧⟦の→の：09472_no⟧⟦{勝利|しょうり}→勝利：11795_shouri⟧⟦に→に：00314_ni⟧{貢献|こうけん}⟦する→する：00392_suru⟧\n\nREGISTER:\nSlightly formal; common in business, academic, and official contexts.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04143_kouseki",
+      "reading": "こうせき",
+      "headword": "{功績|こうせき}",
+      "label": "achievements, merits, distinguished service"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11237_ichijo",
+      "reading": "いちじょ",
+      "headword": "{一助|いちじょ}",
+      "label": "a help, some assistance, contribution"
+    }
+  ],
   "metadata": {
     "created": "2026-01-11T07:29:30Z",
-    "modified": "2026-05-21T21:25:33Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

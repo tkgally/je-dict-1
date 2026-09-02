@@ -3,7 +3,7 @@
   "id": "17535_jukudoku",
   "headword": "{熟読|じゅくどく}",
   "reading": "じゅくどく",
-  "part_of_speech": "noun / verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "reading carefully; thorough reading",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "17535_jukudoku_ex1",
-      "japanese": "{契約書|けいやくしょ}を{熟読|じゅくどく}してください。",
+      "japanese": "⟦{契約書|けいやくしょ}→契約書：06416_keiyakusho⟧⟦を→を：00422_wo⟧{熟読|じゅくどく}⟦して→する：00392_suru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please read the contract carefully.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "17535_jukudoku_ex2",
-      "japanese": "{説明書|せつめいしょ}を{熟読|じゅくどく}してから{組|く}み{立|た}てた。",
+      "japanese": "⟦{説明書|せつめいしょ}→説明書：19368_setsumeisho⟧⟦を→を：00422_wo⟧{熟読|じゅくどく}⟦して→する：00392_suru⟧⟦から→から：00504_kara⟧⟦{組|く}み{立|た}てた→組み立てる：04661_kumitateru⟧。",
       "english": "I assembled it after reading the instructions thoroughly.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "17535_jukudoku_ex3",
-      "japanese": "この{本|ほん}は{何度|なんど}も{熟読|じゅくどく}する{価値|かち}がある。",
+      "japanese": "⟦この→この：00962_kono⟧{本|ほん}⟦は→は：00079_ha⟧⟦{何度|なんど}→何度：17592_nando⟧⟦も→も：00484_mo⟧{熟読|じゅくどく}⟦する→する：00392_suru⟧⟦{価値|かち}→価値：00131_kachi⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "This book is worth reading carefully many times.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA formal word emphasizing careful, attentive reading. Often used in instructions telling the reader to read something thoroughly before proceeding. The {熟|じゅく} character conveys the meaning of \"thorough\" or \"mature.\"\n\nCOMMON COLLOCATIONS:\n- {熟読|じゅくどく}する (to read carefully)\n- {熟読|じゅくどく}{玩味|がんみ} (reading and savoring — a set phrase for deep appreciation)\n- ～を{熟読|じゅくどく}してください (please read ~ carefully)\n\nCONTRAST:\n- {速読|そくどく}: speed reading — reading quickly, the opposite approach\n- {拾|ひろ}い{読|よ}み: skimming, selective reading — only reading parts\n- {通読|つうどく}: reading through — reading from start to finish without deep analysis\n- {精読|せいどく}: close reading — very similar, slightly more academic",
+  "notes": "USAGE:\nA formal word emphasizing careful, attentive reading. Often used in instructions telling the reader to read something thoroughly before proceeding. The {熟|じゅく} character conveys the meaning of \"thorough\" or \"mature.\"\n\nCOMMON COLLOCATIONS:\n- {熟読|じゅくどく}⟦する→する：00392_suru⟧ (to read carefully)\n- {熟読|じゅくどく}{玩味|がんみ} (reading and savoring — a set phrase for deep appreciation)\n- ～⟦を→を：00422_wo⟧{熟読|じゅくどく}⟦して→する：00392_suru⟧⟦ください→ください：02899_kudasai⟧ (please read ~ carefully)\n\nSIMILAR WORDS:\n- ⟦{速読|そくどく}→速読：22402_sokudoku⟧: speed reading — reading quickly, the opposite approach\n- ⟦{拾|ひろ}い{読|よ}み→拾い読み：17927_hiroiyomi⟧: skimming, selective reading — only reading parts\n- ⟦{通読|つうどく}→通読：19800_tsuudoku⟧: reading through — reading from start to finish without deep analysis\n- ⟦{精読|せいどく}→精読：15982_seidoku⟧: close reading — very similar, slightly more academic",
   "cross_references": [
     {
       "type": "antonym",
@@ -156,11 +156,18 @@
       "reading": "つうどく",
       "headword": "{通読|つうどく}",
       "label": "reading through"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17927_hiroiyomi",
+      "reading": "ひろいよみ",
+      "headword": "{拾|ひろ}い{読|よ}み",
+      "label": "skimming, selective reading"
     }
   ],
   "metadata": {
     "created": "2026-03-18T08:04:15Z",
-    "modified": "2026-05-06T09:07:22Z",
+    "modified": "2026-09-02T04:01:48Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "09826_yoyakuchuumon_ex1",
-      "japanese": "{予約|よやく}{注文|ちゅうもん}を{受|う}け{付|つ}けています。",
+      "japanese": "{予約|よやく}{注文|ちゅうもん}⟦を→を：00422_wo⟧⟦{受|う}け{付|つ}けています→受け付ける：05683_uketsukeru⟧。",
       "english": "We are accepting pre-orders.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "09826_yoyakuchuumon_ex2",
-      "japanese": "{新作|しんさく}ゲームの{予約|よやく}{注文|ちゅうもん}をした。",
+      "japanese": "⟦{新作|しんさく}→新作：09523_shinsaku⟧⟦ゲーム→ゲーム：03842_geemu⟧⟦の→の：09472_no⟧{予約|よやく}{注文|ちゅうもん}⟦を→を：00422_wo⟧⟦した→する：00392_suru⟧。",
       "english": "I pre-ordered the new game.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "09826_yoyakuchuumon_ex3",
-      "japanese": "{予約|よやく}{注文|ちゅうもん}すると{発売日|はつばいび}に{届|とど}く。",
+      "japanese": "{予約|よやく}{注文|ちゅうもん}⟦する→する：00392_suru⟧⟦と→と：00512_to⟧⟦{発売日|はつばいび}→発売日：10160_hatsubaibi⟧⟦に→に：00314_ni⟧⟦{届|とど}く→届く：00899_todoku⟧。",
       "english": "If you pre-order, it arrives on the release date.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{予約|よやく}{注文|ちゅうもん} is common for games, books, limited edition items, and products with high demand. Pre-ordering often comes with bonuses or guarantees availability.\n\nCOMMON COLLOCATIONS:\n- {予約|よやく}{注文|ちゅうもん}を{入|い}れる (to place a pre-order)\n- {予約|よやく}{注文|ちゅうもん}{受付|うけつけ}{中|ちゅう} (now accepting pre-orders)\n- {予約|よやく}{注文|ちゅうもん}{特典|とくてん} (pre-order bonus)\n\nRELATED TERMS:\n- {発売日|はつばいび}: release date\n- {入荷|にゅうか}{待|ま}ち: waiting for stock\n- お{取|と}り{寄|よ}せ: special order",
+  "notes": "{予約|よやく}{注文|ちゅうもん} is common for games, books, limited edition items, and products with high demand. Pre-ordering often comes with bonuses or guarantees availability.\n\nCOMMON COLLOCATIONS:\n- {予約|よやく}{注文|ちゅうもん}⟦を→を：00422_wo⟧⟦{入|い}れる→入れる：01098_ireru⟧ (to place a pre-order)\n- {予約|よやく}{注文|ちゅうもん}⟦{受付|うけつけ}→受付：01325_uketsuke⟧⟦{中|ちゅう}→〜中：09840_chuu⟧ (now accepting pre-orders)\n- {予約|よやく}{注文|ちゅうもん}⟦{特典|とくてん}→特典：13469_tokuten⟧ (pre-order bonus)\n\nRELATED WORDS:\n- ⟦{発売日|はつばいび}→発売日：10160_hatsubaibi⟧: release date\n- ⟦{入荷|にゅうか}{待|ま}ち→入荷待ち：09825_nyuukamachi⟧: waiting for stock\n- ⟦お{取|と}り{寄|よ}せ→お取り寄せ：09827_otoriyose⟧: special order",
   "cross_references": [
     {
       "type": "related",
@@ -58,11 +58,32 @@
       "reading": "ちゅうもん",
       "headword": "{注文|ちゅうもん}",
       "label": "order"
+    },
+    {
+      "type": "related",
+      "target_id": "10160_hatsubaibi",
+      "reading": "はつばいび",
+      "headword": "{発売日|はつばいび}",
+      "label": "release date"
+    },
+    {
+      "type": "related",
+      "target_id": "09825_nyuukamachi",
+      "reading": "にゅうかまち",
+      "headword": "{入荷|にゅうか}{待|ま}ち",
+      "label": "waiting for stock"
+    },
+    {
+      "type": "related",
+      "target_id": "09827_otoriyose",
+      "reading": "おとりよせ",
+      "headword": "お{取|と}り{寄|よ}せ",
+      "label": "special order"
     }
   ],
   "metadata": {
     "created": "2026-02-03T12:23:06Z",
-    "modified": "2026-06-26T03:27:23Z",
+    "modified": "2026-09-02T04:01:19Z",
     "ai_model": "claude-opus-4-5-20251101",
     "vocabulary_tier": "general",
     "tags": {

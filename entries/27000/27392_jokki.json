@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "27392_jokki_ex1",
-      "japanese": "ビールをジョッキで{頼|たの}んだ。",
+      "japanese": "⟦ビール→ビール：01015_biiru⟧⟦を→を：00422_wo⟧ジョッキ⟦で→で：00502_de⟧⟦{頼|たの}んだ→頼む：01104_tanomu⟧。",
       "english": "I ordered the beer in a mug.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "27392_jokki_ex2",
-      "japanese": "{中|ちゅう}ジョッキを{二|ふた}つください。",
+      "japanese": "⟦{中|ちゅう}→〜中：09840_chuu⟧ジョッキ⟦を→を：00422_wo⟧⟦{二|ふた}つ→二つ：02953_futatsu⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Two medium mugs of beer, please.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "27392_jokki_ex3",
-      "japanese": "{暑|あつ}い{日|ひ}に{冷|ひ}えたジョッキで{飲|の}むビールは{格別|かくべつ}だ。",
+      "japanese": "⟦{暑|あつ}い→暑い：00619_atsui⟧⟦{日|ひ}→日：02249_hi⟧⟦に→に：00314_ni⟧⟦{冷|ひ}えた→冷える：01154_hieru⟧ジョッキ⟦で→で：00502_de⟧⟦{飲|の}む→飲む：00322_nomu⟧⟦ビール→ビール：01015_biiru⟧⟦は→は：00079_ha⟧⟦{格別|かくべつ}→格別：00154_kakubetsu⟧だ。",
       "english": "Beer drunk from a chilled mug on a hot day is something special.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "From English \"jug,\" reshaped in Japanese pronunciation. Refers specifically to a beer mug with a handle, not a pitcher. At izakaya, ジョッキ is the default vessel for draft beer ({生|なま}ビール).\n\nCOMMON SIZES AND COLLOCATIONS:\n- {中|ちゅう}ジョッキ: medium mug (~435 ml; the standard size)\n- {大|だい}ジョッキ: large mug (~700 ml and up)\n- ジョッキビール: beer served in a mug\n- ジョッキで{乾杯|かんぱい}: to toast with mugs\n- {冷|ひ}えたジョッキ: a chilled mug (kept in the freezer)\n\nSIMILAR WORDS:\n- グラス: glass — generic term for a drinking glass\n- ピッチャー: pitcher — used for sharing; not a personal vessel",
+  "notes": "From English \"jug,\" reshaped in Japanese pronunciation. Refers specifically to a beer mug with a handle, not a pitcher. At izakaya, ジョッキ is the default vessel for draft beer (⟦{生|なま}ビール→生ビール：23496_namabiiru⟧).\n\nCOMMON SIZES AND COLLOCATIONS:\n- ⟦{中|ちゅう}→〜中：09840_chuu⟧ジョッキ: medium mug (~435 ml; the standard size)\n- {大|だい}ジョッキ: large mug (~700 ml and up)\n- ジョッキ⟦ビール→ビール：01015_biiru⟧: beer served in a mug\n- ジョッキ⟦で→で：00502_de⟧⟦{乾杯|かんぱい}→乾杯：00176_kanpai⟧: to toast with mugs\n- ⟦{冷|ひ}えた→冷える：01154_hieru⟧ジョッキ: a chilled mug (kept in the freezer)\n\nSIMILAR WORDS:\n- ⟦グラス→グラス：00076_gurasu⟧: glass — generic term for a drinking glass\n- ⟦ピッチャー→ピッチャー：09482_picchaa⟧: pitcher — used for sharing; not a personal vessel",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00076_gurasu",
+      "reading": "ぐらす",
+      "headword": "グラス",
+      "label": "glass"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09482_picchaa",
+      "reading": "ぴっちゃー",
+      "headword": "ピッチャー",
+      "label": "pitcher"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +69,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "tool",
         "food"
@@ -61,6 +77,6 @@
       "domain": []
     },
     "created": "2026-05-11T07:03:15Z",
-    "modified": "2026-08-07T16:10:18Z"
+    "modified": "2026-09-02T04:02:30Z"
   }
 }

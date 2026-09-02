@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "12082_donichi_ex1",
-      "japanese": "{土日|どにち}は{休|やす}みです。",
+      "japanese": "{土日|どにち}⟦は→は：00079_ha⟧⟦{休|やす}み→休み：02266_yasumi⟧です。",
       "english": "Saturday and Sunday are days off.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12082_donichi_ex2",
-      "japanese": "{土日|どにち}はいつも{混|こ}んでいるので{平日|へいじつ}に{行|い}こう。",
+      "japanese": "{土日|どにち}⟦は→は：00079_ha⟧⟦いつも→いつも：00599_itsumo⟧⟦{混|こ}んでいる→混む：02574_komu⟧⟦の→の：09472_no⟧で⟦{平日|へいじつ}→平日：03033_heijitsu⟧⟦に→に：00314_ni⟧⟦{行|い}こう→行く：00119_iku⟧。",
       "english": "It's always crowded on weekends, so let's go on a weekday.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12082_donichi_ex3",
-      "japanese": "この{店|みせ}は{土日|どにち}{祝日|しゅくじつ}も{営業|えいぎょう}しているので、{仕事|しごと}の{後|あと}でなくても{利用|りよう}できる。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{店|みせ}→店：00497_mise⟧⟦は→は：00079_ha⟧{土日|どにち}{祝日|しゅくじつ}⟦も→も：00484_mo⟧⟦{営業|えいぎょう}→営業：01878_eigyou⟧⟦している→する：00392_suru⟧⟦の→の：09472_no⟧で、⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦の→の：09472_no⟧⟦{後|あと}→後：09580_ato⟧でなくて⟦も→も：00484_mo⟧⟦{利用|りよう}できる→利用する：21735_riyousuru⟧。",
       "english": "This shop is open on weekends and holidays too, so you can visit even if it's not after work.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nA very common abbreviation in everyday Japanese. Often seen on signs, schedules, and in conversation. Frequently combined with {祝日|しゅくじつ} (national holidays) as {土日祝|どにちしゅく} or {土日|どにち}{祝日|しゅくじつ}.\n\nCOMMON COLLOCATIONS:\n- {土日|どにち}{休|やす}み: weekends off\n- {土日|どにち}{祝日|しゅくじつ}: weekends and holidays\n- {土日|どにち}も{営業|えいぎょう}: open on weekends too\n- {土日|どにち}に{働|はたら}く: to work on weekends\n\nSIMILAR WORDS:\n{土日|どにち} specifically means Saturday and Sunday. {週末|しゅうまつ} (weekend) is slightly more general and can sometimes include Friday evening. {休日|きゅうじつ} (day off, holiday) refers to any non-working day.",
+  "notes": "USAGE:\nA very common abbreviation in everyday Japanese. Often seen on signs, schedules, and in conversation. Frequently combined with ⟦{祝日|しゅくじつ}→祝日：07588_shukujitsu⟧ (national holidays) as {土日祝|どにちしゅく} or {土日|どにち}{祝日|しゅくじつ}.\n\nCOMMON COLLOCATIONS:\n- {土日|どにち}⟦{休|やす}み→休み：02266_yasumi⟧: weekends off\n- {土日|どにち}{祝日|しゅくじつ}: weekends and holidays\n- {土日|どにち}⟦も→も：00484_mo⟧⟦{営業|えいぎょう}→営業：01878_eigyou⟧: open on weekends too\n- {土日|どにち}⟦に→に：00314_ni⟧⟦{働|はたら}く→働く：00503_hataraku⟧: to work on weekends\n\nSIMILAR WORDS:\n{土日|どにち} specifically means Saturday and Sunday. ⟦{週末|しゅうまつ}→週末：03030_shuumatsu⟧ (weekend) is slightly more general and can sometimes include Friday evening. ⟦{休日|きゅうじつ}→休日：03028_kyuujitsu⟧ (day off, holiday) refers to any non-working day.",
   "cross_references": [
     {
       "type": "synonym",
@@ -64,14 +70,18 @@
   ],
   "metadata": {
     "created": "2026-02-20T04:37:47Z",
-    "modified": "2026-04-26T06:29:08Z",
+    "modified": "2026-09-02T04:01:27Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["time-day-of-week"]
+      "semantic": [
+        "time-day-of-week"
+      ]
     }
   }
 }

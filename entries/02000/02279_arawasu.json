@@ -2,7 +2,7 @@
   "id": "02279_arawasu",
   "headword": "{著|あらわ}す",
   "reading": "あらわす",
-  "part_of_speech": "godan verb, transitive",
+  "part_of_speech": "verb (godan, transitive)",
   "gloss": "to write, to publish, to author",
   "conjugation": {
     "type": "godan",
@@ -134,7 +134,7 @@
     },
     {
       "id": "02279_arawasu_ex4",
-      "japanese": "⟦その→その：00993_sono⟧⟦{学者|がくしゃ}→学者：02544_gakusha⟧⟦は→は：00079_ha⟧⟦{歴史|れきし}→歴史：02267_rekishi⟧⟦に→に：00314_ni⟧⟦{関|かん}する→関する：02045_kansuru⟧⟦{本|ほん}→本：00111_hon⟧⟦を→を：00422_wo⟧⟦{何冊|なんさつ}→何冊：08778_nansatsu⟧⟦も→も：00484_mo⟧{著|あらわ}している。",
+      "japanese": "⟦その→その：00993_sono⟧⟦{学者|がくしゃ}→学者：02544_gakusha⟧⟦は→は：00079_ha⟧⟦{歴史|れきし}→歴史：02267_rekishi⟧⟦に→に：00314_ni⟧⟦{関|かん}する→関する：02045_kansuru⟧⟦{本|ほん}→本：00111_hon⟧⟦を→を：00422_wo⟧⟦{何冊|なんさつ}→何冊：08778_nansatsu⟧⟦も→も：00484_mo⟧{著|あらわ}して⟦いる→いる：00495_iru⟧。",
       "english": "That scholar has authored many books on history.",
       "notes": null,
       "has_audio": false,
@@ -154,10 +154,18 @@
     }
   ],
   "notes": "{著|あらわ}す is a formal verb meaning to write and publish a book or scholarly work.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- Pattern: [work]⟦を→を：00422_wo⟧{著|あらわ}す\n\nHOMOPHONE DISTINCTIONS:\nThree verbs read 'あらわす' with different meanings:\n- {著|あらわ}す: to author, publish (books/papers)\n- ⟦{表|あらわ}す→表す：01868_arawasu⟧: to express, represent\n- ⟦{現|あらわ}す→現す：02097_arawasu⟧: to reveal, make appear\n\nREGISTER:\nThis is formal/literary language. In everyday conversation, ⟦{本|ほん}→本：00111_hon⟧⟦を→を：00422_wo⟧⟦{書|か}く→書く：00477_kaku⟧ (to write a book) is more common.\n\nCOMMON PATTERNS:\n- ⟦{本|ほん}→本：00111_hon⟧⟦を→を：00422_wo⟧{著|あらわ}す: to publish a book\n- ⟦{論文|ろんぶん}→論文：03787_ronbun⟧⟦を→を：00422_wo⟧{著|あらわ}す: to author a paper\n- ⟦{著書|ちょしょ}→著書：14083_chosho⟧: authored work, one's publications\n- ⟦{著者|ちょしゃ}→著者：03501_chosha⟧: author",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25397_shippitsusuru",
+      "reading": "しっぴつする",
+      "headword": "{執筆|しっぴつ}する",
+      "label": "to write"
+    }
+  ],
   "metadata": {
     "created": "2026-01-09T08:15:18Z",
-    "modified": "2026-05-18T23:16:04Z",
+    "modified": "2026-09-02T04:01:01Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

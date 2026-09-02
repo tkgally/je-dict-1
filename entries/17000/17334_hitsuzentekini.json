@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "17334_hitsuzentekini_ex1",
-      "japanese": "{必然的|ひつぜんてき}にそうなる。",
+      "japanese": "{必然的|ひつぜんてき}にそう⟦なる→なる：01970_naru⟧。",
       "english": "It will inevitably turn out that way.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "17334_hitsuzentekini_ex2",
-      "japanese": "{人口|じんこう}が{増|ふ}えれば、{必然的|ひつぜんてき}に{食料|しょくりょう}の{需要|じゅよう}も{増|ふ}える。",
+      "japanese": "⟦{人口|じんこう}→人口：01618_jinkou⟧⟦が→が：00051_ga⟧⟦{増|ふ}えれば→増える：01183_fueru⟧、{必然的|ひつぜんてき}に⟦{食料|しょくりょう}→食料：03250_shokuryou⟧⟦の→の：09472_no⟧⟦{需要|じゅよう}→需要：02616_juyou⟧⟦も→も：00484_mo⟧⟦{増|ふ}える→増える：01183_fueru⟧。",
       "english": "If the population increases, the demand for food will inevitably increase as well.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "17334_hitsuzentekini_ex3",
-      "japanese": "グローバル{化|か}が{進|すす}めば、{必然的|ひつぜんてき}に{異文化|いぶんか}との{接触|せっしょく}が{増|ふ}えていく。",
+      "japanese": "⟦グローバル{化|か}→グローバル化：30240_guroobaruka⟧⟦が→が：00051_ga⟧⟦{進|すす}めば→進む：01225_susumu⟧、{必然的|ひつぜんてき}に⟦{異文化|いぶんか}→異文化：15703_ibunka⟧⟦と→と：00512_to⟧⟦の→の：09472_no⟧⟦{接触|せっしょく}→接触：12904_sesshoku⟧⟦が→が：00051_ga⟧⟦{増|ふ}えて→増える：01183_fueru⟧いく。",
       "english": "As globalization advances, contact with different cultures inevitably increases.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{必然|ひつぜん} means \"inevitability\" or \"necessity\" and {的|てき}に makes it an adverb. Used in logical arguments, analysis, and formal writing to describe outcomes that follow naturally from given conditions. More formal and analytical than {必|かなら}ず (certainly, always).\n\nThe na-adjective form {必然的|ひつぜんてき}な is also common: {必然的|ひつぜんてき}な{結果|けっか} (an inevitable result).\n\nCOMMON COLLOCATIONS:\n- {必然的|ひつぜんてき}に{生|う}まれる (to arise inevitably)\n- {必然的|ひつぜんてき}な{結果|けっか} (an inevitable result)\n- {必然的|ひつぜんてき}な{流|なが}れ (an inevitable trend)\n\nSIMILAR WORDS:\n- {必|かなら}ず: certainly, always — more everyday, less analytical\n- {当然|とうぜん}: naturally, of course — implies something is expected or obvious\n- {不可避|ふかひ}: unavoidable — a more formal noun/na-adjective",
+  "notes": "USAGE:\n⟦{必然|ひつぜん}→必然：05533_hitsuzen⟧ means \"inevitability\" or \"necessity\" and ⟦{的|てき}→〜的：09839_teki⟧⟦に→に：00314_ni⟧ makes it an adverb. Used in logical arguments, analysis, and formal writing to describe outcomes that follow naturally from given conditions. More formal and analytical than ⟦{必|かなら}ず→必ず：01249_kanarazu⟧ (certainly, always).\n\nThe na-adjective form {必然的|ひつぜんてき}な is also common: {必然的|ひつぜんてき}な⟦{結果|けっか}→結果：02486_kekka⟧ (an inevitable result).\n\nCOMMON COLLOCATIONS:\n- {必然的|ひつぜんてき}に⟦{生|う}まれる→生まれる：00905_umareru⟧ (to arise inevitably)\n- {必然的|ひつぜんてき}な⟦{結果|けっか}→結果：02486_kekka⟧ (an inevitable result)\n- {必然的|ひつぜんてき}な⟦{流|なが}れ→流れ：03504_nagare⟧ (an inevitable trend)\n\nSIMILAR WORDS:\n- ⟦{必|かなら}ず→必ず：01249_kanarazu⟧: certainly, always — more everyday, less analytical\n- ⟦{当然|とうぜん}→当然：01591_touzen⟧: naturally, of course — implies something is expected or obvious\n- ⟦{不可避|ふかひ}→不可避：15524_fukahi⟧: unavoidable — a more formal noun/na-adjective",
   "cross_references": [
     {
       "type": "synonym",
@@ -52,11 +52,25 @@
       "reading": "とうぜん",
       "headword": "{当然|とうぜん}",
       "label": "naturally"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01249_kanarazu",
+      "reading": "かならず",
+      "headword": "{必|かなら}ず",
+      "label": "certainly, always"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15524_fukahi",
+      "reading": "ふかひ",
+      "headword": "{不可避|ふかひ}",
+      "label": "unavoidable"
     }
   ],
   "metadata": {
     "created": "2026-03-17T06:05:38Z",
-    "modified": "2026-05-06T06:14:35Z",
+    "modified": "2026-09-02T04:01:48Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

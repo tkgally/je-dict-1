@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "18427_nousagi_ex1",
-      "japanese": "{山|やま}で{野兎|のうさぎ}を{見|み}た。",
+      "japanese": "⟦{山|やま}→山：02168_yama⟧⟦で→で：00502_de⟧{野兎|のうさぎ}⟦を→を：00422_wo⟧⟦{見|み}た→見る：00283_miru⟧。",
       "english": "I saw a wild rabbit in the mountains.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "18427_nousagi_ex2",
-      "japanese": "{野兎|のうさぎ}が{畑|はたけ}の{野菜|やさい}を{食|た}べてしまう。",
+      "japanese": "{野兎|のうさぎ}⟦が→が：00051_ga⟧⟦{畑|はたけ}→畑：00842_hatake⟧⟦の→の：09472_no⟧⟦{野菜|やさい}→野菜：02265_yasai⟧⟦を→を：00422_wo⟧⟦{食|た}べて→食べる：00396_taberu⟧しまう。",
       "english": "Wild rabbits eat the vegetables in the field.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "18427_nousagi_ex3",
-      "japanese": "{冬|ふゆ}になると、{雪国|ゆきぐに}の{野兎|のうさぎ}は{白|しろ}い{毛|け}に{生|は}え{変|か}わる。",
+      "japanese": "⟦{冬|ふゆ}→冬：00623_fuyu⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦と→と：00512_to⟧、⟦{雪国|ゆきぐに}→雪国：14608_yukiguni⟧⟦の→の：09472_no⟧{野兎|のうさぎ}⟦は→は：00079_ha⟧⟦{白|しろ}い→白い：00587_shiroi⟧⟦{毛|け}→毛：01392_ke⟧⟦に→に：00314_ni⟧{生|は}え{変|か}わる。",
       "english": "In winter, wild hares in snowy regions grow white fur.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "{野兎|のうさぎ} combines {野|の} (wild, field) + {兎|うさぎ} (rabbit). Refers specifically to wild hares and rabbits, as distinct from domesticated pet rabbits.\n\nCOUNTER:\nRabbits are counted with {羽|わ} (the counter for birds), a convention dating back to when rabbit meat was classified as poultry for Buddhist dietary purposes.\n\nCULTURAL NOTE:\nThe Japanese hare (ニホンノウサギ) is native throughout Japan. In snowy regions, it changes its coat from brown to white in winter for camouflage.\n\nCOMMON COLLOCATIONS:\n- {野兎|のうさぎ}を{見|み}かける (to spot a wild rabbit)\n- {野兎|のうさぎ}が{走|はし}る (a wild rabbit runs)\n- {野兎|のうさぎ}{狩|が}り (rabbit hunting)\n\nRELATED WORDS:\n- うさぎ/{兎|うさぎ}: rabbit (general, including pets)\n- {飼|か}いうさぎ: pet/domesticated rabbit\n- ペットうさぎ: pet rabbit",
+  "notes": "{野兎|のうさぎ} combines ⟦{野|の}→野：03535_no⟧ (wild, field) + ⟦{兎|うさぎ}→兎：01854_usagi⟧ (rabbit). Refers specifically to wild hares and rabbits, as distinct from domesticated pet rabbits.\n\nCOUNTER:\nRabbits are counted with ⟦{羽|わ}→羽：01007_wa⟧ (the counter for birds), a convention dating back to when rabbit meat was classified as poultry for Buddhist dietary purposes.\n\nCULTURAL NOTE:\nThe Japanese hare (ニホンノウサギ) is native throughout Japan. In snowy regions, it changes its coat from brown to white in winter for camouflage.\n\nCOMMON COLLOCATIONS:\n- {野兎|のうさぎ}⟦を→を：00422_wo⟧⟦{見|み}かける→見かける：01644_mikakeru⟧ (to spot a wild rabbit)\n- {野兎|のうさぎ}⟦が→が：00051_ga⟧⟦{走|はし}る→走る：00519_hashiru⟧ (a wild rabbit runs)\n- {野兎|のうさぎ}{狩|が}り (rabbit hunting)\n\nRELATED WORDS:\n- うさぎ/⟦{兎|うさぎ}→兎：01854_usagi⟧: rabbit (general, including pets)\n- {飼|か}いうさぎ: pet/domesticated rabbit\n- ⟦ペット→ペット：02959_petto⟧うさぎ: pet rabbit",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "01854_usagi",
+      "reading": "うさぎ",
+      "headword": "{兎|うさぎ}",
+      "label": "rabbit"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +68,6 @@
       ]
     },
     "created": "2026-03-22T00:46:06Z",
-    "modified": "2026-05-08T10:08:08Z"
+    "modified": "2026-09-02T04:01:52Z"
   }
 }

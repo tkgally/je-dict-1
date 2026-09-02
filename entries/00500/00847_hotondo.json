@@ -118,11 +118,33 @@
       ]
     }
   ],
-  "notes": "ほとんど is an adverb meaning 'almost' or 'most,' with different nuances in positive and negative contexts.\n\nKANJI:\nCan be written as {殆|ほとん}ど but hiragana is more common.\n\nUSAGE:\n- With positive: 'almost, mostly' (ほとんど⟦{終|お}わった→終わる：00567_owaru⟧: almost finished)\n- With negative: 'hardly, barely' (ほとんど⟦{食|た}べられない→食べる：00396_taberu⟧: can hardly eat)\n\nPATTERNS:\n- ほとんど⟦の→の：09472_no⟧ + noun: most of the ~ (ほとんど⟦の→の：09472_no⟧⟦{人|ひと}→人：00476_hito⟧: most people)\n- ほとんど + verb: almost completely\n\nSIMILAR:\n- ⟦だいたい→だいたい：00831_daitai⟧: roughly, approximately\n- ⟦たいてい→たいてい：01129_taitei⟧: usually, mostly",
-  "cross_references": [],
+  "notes": "ほとんど is an adverb meaning 'almost' or 'most,' with different nuances in positive and negative contexts.\n\nWRITING:\nCan be written as {殆|ほとん}ど but hiragana is more common.\n\nUSAGE:\n- With positive: 'almost, mostly' (ほとんど⟦{終|お}わった→終わる：00567_owaru⟧: almost finished)\n- With negative: 'hardly, barely' (ほとんど⟦{食|た}べられない→食べる：00396_taberu⟧: can hardly eat)\n\nCOMMON PATTERNS:\n- ほとんど⟦の→の：09472_no⟧ + noun: most of the ~ (ほとんど⟦の→の：09472_no⟧⟦{人|ひと}→人：00476_hito⟧: most people)\n- ほとんど + verb: almost completely\n\nSIMILAR:\n- ⟦だいたい→だいたい：00831_daitai⟧: roughly, approximately\n- ⟦たいてい→たいてい：01129_taitei⟧: usually, mostly",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00831_daitai",
+      "reading": "だいたい",
+      "headword": "だいたい",
+      "label": "roughly, approximately"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01129_taitei",
+      "reading": "たいてい",
+      "headword": "たいてい",
+      "label": "usually, mostly"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03420_daibubun",
+      "reading": "だいぶぶん",
+      "headword": "{大部分|だいぶぶん}",
+      "label": "most part, majority"
+    }
+  ],
   "metadata": {
     "created": "2026-01-07T12:19:12Z",
-    "modified": "2026-05-12T22:18:10Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

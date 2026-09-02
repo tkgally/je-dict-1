@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "USAGE: {図書|としょ} is primarily used in compound words related to libraries and book collections. For 'book' in general, ⟦{本|ほん}→本：00111_hon⟧ is more common.\n\nCOMMON COMPOUNDS:\n・⟦{図書館|としょかん}→図書館：00580_toshokan⟧ (library - public building)\n・{図書|としょ}⟦{室|しつ}→室：09946_shitsu⟧ (library room - in schools)\n・{図書|としょ}⟦カード→カード：03836_kaado⟧ (library card)\n・{図書|としょ}⟦{券|けん}→券：02150_ken⟧ (book voucher/gift certificate)\n・{図書|としょ}⟦{委員|いいん}→委員：01708_iin⟧ (library committee member)\n・{図書|としょ}⟦{目録|もくろく}→目録：18979_mokuroku⟧ (book catalog)\n・⟦{参考|さんこう}→参考：02828_sankou⟧{図書|としょ} (reference books)\n\nSIMILAR WORDS:\n・⟦{本|ほん}→本：00111_hon⟧ - book (everyday word)\n・⟦{書籍|しょせき}→書籍：04203_shoseki⟧ - books (formal)\n・⟦{書物|しょもつ}→書物：03683_shomotsu⟧ - books (literary/formal)\n・⟦{文献|ぶんけん}→文献：12885_bunken⟧ - literature, documents (academic)",
+  "notes": "USAGE: {図書|としょ} is primarily used in compound words related to libraries and book collections. For 'book' in general, ⟦{本|ほん}→本：00111_hon⟧ is more common.\n\nCOMPOUNDS:\n- ⟦{図書館|としょかん}→図書館：00580_toshokan⟧ (library - public building)\n- {図書|としょ}⟦{室|しつ}→室：09946_shitsu⟧ (library room - in schools)\n- {図書|としょ}⟦カード→カード：03836_kaado⟧ (library card)\n- {図書|としょ}⟦{券|けん}→券：02150_ken⟧ (book voucher/gift certificate)\n- {図書|としょ}⟦{委員|いいん}→委員：01708_iin⟧ (library committee member)\n- {図書|としょ}⟦{目録|もくろく}→目録：18979_mokuroku⟧ (book catalog)\n- ⟦{参考|さんこう}→参考：02828_sankou⟧{図書|としょ} (reference books)\n\nSIMILAR WORDS:\n- ⟦{本|ほん}→本：00111_hon⟧ - book (everyday word)\n- ⟦{書籍|しょせき}→書籍：04203_shoseki⟧ - books (formal)\n- ⟦{書物|しょもつ}→書物：03683_shomotsu⟧ - books (literary/formal)\n- ⟦{文献|ぶんけん}→文献：12885_bunken⟧ - literature, documents (academic)",
   "cross_references": [
     {
       "type": "related",
@@ -78,11 +78,32 @@
       "headword": "{図書館|としょかん}",
       "label": "library",
       "target_id": "00580_toshokan"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04203_shoseki",
+      "reading": "しょせき",
+      "headword": "{書籍|しょせき}",
+      "label": "books"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03683_shomotsu",
+      "reading": "しょもつ",
+      "headword": "{書物|しょもつ}",
+      "label": "books"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12885_bunken",
+      "reading": "ぶんけん",
+      "headword": "{文献|ぶんけん}",
+      "label": "literature, documents"
     }
   ],
   "metadata": {
     "created": "2026-01-12T09:44:00Z",
-    "modified": "2026-08-13T15:50:29Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

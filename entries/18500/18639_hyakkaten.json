@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "18639_hyakkaten_ex1",
-      "japanese": "{駅前|えきまえ}の{百貨店|ひゃっかてん}で{買|か}い{物|もの}をした。",
+      "japanese": "⟦{駅前|えきまえ}→駅前：09593_ekimae⟧⟦の→の：09472_no⟧{百貨店|ひゃっかてん}⟦で→で：00502_de⟧⟦{買|か}い{物|もの}→買い物：00853_kaimono⟧⟦を→を：00422_wo⟧⟦した→する：00392_suru⟧。",
       "english": "I shopped at the department store in front of the station.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "18639_hyakkaten_ex2",
-      "japanese": "{老舗|しにせ}の{百貨店|ひゃっかてん}が{閉店|へいてん}することになった。",
+      "japanese": "⟦{老舗|しにせ}→老舗：16152_shinise⟧⟦の→の：09472_no⟧{百貨店|ひゃっかてん}⟦が→が：00051_ga⟧⟦{閉店|へいてん}→閉店：09698_heiten⟧⟦する→する：00392_suru⟧ことになった。",
       "english": "A long-established department store is going to close.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "18639_hyakkaten_ex3",
-      "japanese": "{百貨店|ひゃっかてん}の{地下|ちか}{食品|しょくひん}{売|う}り{場|ば}は、いつも{賑|にぎ}わっている。",
+      "japanese": "{百貨店|ひゃっかてん}⟦の→の：09472_no⟧⟦{地下|ちか}→地下：03429_chika⟧⟦{食品|しょくひん}→食品：03247_shokuhin⟧⟦{売|う}り{場|ば}→売り場：01331_uriba⟧⟦は→は：00079_ha⟧、⟦いつも→いつも：00599_itsumo⟧⟦{賑|にぎ}わっている→賑わう：14235_nigiwau⟧。",
       "english": "The basement food floor of the department store is always bustling.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,26 @@
       ]
     }
   ],
-  "notes": "USAGE:\nMore formal than the commonly used loanword デパート. Often used in news, business contexts, and official names. Major Japanese department stores include {三越|みつこし}, {伊勢丹|いせたん}, {高島屋|たかしまや}, and {大丸|だいまる}. The {地下|ちか}{食品|しょくひん}{売|う}り{場|ば} (basement food hall), nicknamed デパ{地下|ちか}, is a distinctive feature of Japanese department stores.\n\nCOMMON COLLOCATIONS:\n- {百貨店|ひゃっかてん}{業界|ぎょうかい} (department store industry)\n- {大手|おおて}{百貨店|ひゃっかてん} (major department store)\n- {百貨店|ひゃっかてん}の{売|う}り{上|あ}げ (department store sales)",
-  "cross_references": [],
+  "notes": "USAGE:\nMore formal than the commonly used loanword ⟦デパート→デパート：01022_depaato⟧. Often used in news, business contexts, and official names. Major Japanese department stores include {三越|みつこし}, {伊勢丹|いせたん}, {高島屋|たかしまや}, and {大丸|だいまる}. The ⟦{地下|ちか}→地下：03429_chika⟧⟦{食品|しょくひん}→食品：03247_shokuhin⟧⟦{売|う}り{場|ば}→売り場：01331_uriba⟧ (basement food hall), nicknamed ⟦デパ{地下|ちか}→デパ地下：08828_depachika⟧, is a distinctive feature of Japanese department stores.\n\nCOMMON COLLOCATIONS:\n- {百貨店|ひゃっかてん}⟦{業界|ぎょうかい}→業界：13129_gyoukai⟧ (department store industry)\n- ⟦{大手|おおて}→大手：12171_oote⟧{百貨店|ひゃっかてん} (major department store)\n- {百貨店|ひゃっかてん}⟦の→の：09472_no⟧{売|う}り{上|あ}げ (department store sales)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20498_ryouhanten",
+      "reading": "りょうはんてん",
+      "headword": "{量販店|りょうはんてん}",
+      "label": "mass retailer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27403_suupaamaaketto",
+      "reading": "すーぱーまーけっと",
+      "headword": "スーパーマーケット",
+      "label": "supermarket"
+    }
+  ],
   "metadata": {
     "created": "2026-03-22T10:41:08Z",
-    "modified": "2026-07-25T21:35:01Z",
+    "modified": "2026-09-02T04:01:53Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

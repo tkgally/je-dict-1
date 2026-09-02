@@ -15,42 +15,62 @@
   "examples": [
     {
       "id": "17035_taimenjugyou_ex1",
-      "japanese": "{来週|らいしゅう}から{対面授業|たいめんじゅぎょう}が{再開|さいかい}する。",
+      "japanese": "⟦{来週|らいしゅう}→来週：00746_raishuu⟧⟦から→から：00504_kara⟧{対面授業|たいめんじゅぎょう}⟦が→が：00051_ga⟧⟦{再開|さいかい}する→再開する：25532_saikaisuru⟧。",
       "english": "In-person classes resume starting next week.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17035_taimenjugyou_ex2",
-      "japanese": "{対面授業|たいめんじゅぎょう}のほうが{集中|しゅうちゅう}しやすい。",
+      "japanese": "{対面授業|たいめんじゅぎょう}⟦の→の：09472_no⟧ほう⟦が→が：00051_ga⟧⟦{集中|しゅうちゅう}→集中：03212_shuuchuu⟧しやすい。",
       "english": "It is easier to concentrate in face-to-face classes.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17035_taimenjugyou_ex3",
-      "japanese": "この{大学|だいがく}ではオンライン{授業|じゅぎょう}と{対面授業|たいめんじゅぎょう}を{組|く}み{合|あ}わせたハイブリッド{方式|ほうしき}を{採用|さいよう}している。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{大学|だいがく}→大学：00608_daigaku⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦オンライン→オンライン：05278_onrain⟧⟦{授業|じゅぎょう}→授業：00781_jugyou⟧⟦と→と：00512_to⟧{対面授業|たいめんじゅぎょう}⟦を→を：00422_wo⟧⟦{組|く}み{合|あ}わせた→組み合わせる：04659_kumiawaseru⟧⟦ハイブリッド→ハイブリッド：11391_haiburiddo⟧⟦{方式|ほうしき}→方式：05454_houshiki⟧⟦を→を：00422_wo⟧⟦{採用|さいよう}→採用：04563_saiyou⟧⟦している→する：00392_suru⟧。",
       "english": "This university uses a hybrid format combining online and in-person classes.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nBecame an everyday term after 2020 when schools and universities shifted to online learning. Often contrasted with オンライン{授業|じゅぎょう} (online classes) or {遠隔授業|えんかくじゅぎょう} (remote classes). Many institutions now use a hybrid approach.\n\nCOMMON COLLOCATIONS:\n- {対面授業|たいめんじゅぎょう}を{再開|さいかい}する (to resume in-person classes)\n- {対面授業|たいめんじゅぎょう}に{戻|もど}す (to return to in-person classes)\n- {対面授業|たいめんじゅぎょう}とオンライン{授業|じゅぎょう} (in-person and online classes)",
-  "cross_references": [],
+  "notes": "USAGE:\nBecame an everyday term after 2020 when schools and universities shifted to online learning. Often contrasted with ⟦オンライン→オンライン：05278_onrain⟧⟦{授業|じゅぎょう}→授業：00781_jugyou⟧ (online classes) or ⟦{遠隔授業|えんかくじゅぎょう}→遠隔授業：08603_enkakujugyou⟧ (remote classes). Many institutions now use a hybrid approach.\n\nCOMMON COLLOCATIONS:\n- {対面授業|たいめんじゅぎょう}⟦を→を：00422_wo⟧⟦{再開|さいかい}する→再開する：25532_saikaisuru⟧ (to resume in-person classes)\n- {対面授業|たいめんじゅぎょう}⟦に→に：00314_ni⟧⟦{戻|もど}す→戻す：02317_modosu⟧ (to return to in-person classes)\n- {対面授業|たいめんじゅぎょう}⟦と→と：00512_to⟧⟦オンライン→オンライン：05278_onrain⟧⟦{授業|じゅぎょう}→授業：00781_jugyou⟧ (in-person and online classes)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "08603_enkakujugyou",
+      "reading": "えんかくじゅぎょう",
+      "headword": "{遠隔授業|えんかくじゅぎょう}",
+      "label": "remote classes"
+    }
+  ],
   "metadata": {
     "created": "2026-03-15T07:20:58Z",
-    "modified": "2026-03-15T07:20:58Z",
+    "modified": "2026-09-02T04:01:47Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "domain": ["academic"],
-      "semantic": ["education"]
+      "domain": [
+        "academic"
+      ],
+      "semantic": [
+        "education"
+      ]
     }
   }
 }

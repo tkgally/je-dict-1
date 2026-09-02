@@ -15,41 +15,69 @@
   "examples": [
     {
       "id": "28997_pakutto_ex1",
-      "japanese": "{犬|いぬ}がパンをぱくっと{食|た}べた。",
+      "japanese": "⟦{犬|いぬ}→犬：00632_inu⟧⟦が→が：00051_ga⟧⟦パン→パン：00553_pan⟧⟦を→を：00422_wo⟧ぱくっと⟦{食|た}べた→食べる：00396_taberu⟧。",
       "english": "The dog snapped up the bread in one bite.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28997_pakutto_ex2",
-      "japanese": "おにぎりをぱくっとほおばった。",
+      "japanese": "⟦おにぎり→おにぎり：04956_onigiri⟧⟦を→を：00422_wo⟧ぱくっとほおばった。",
       "english": "I stuffed the rice ball into my mouth in one big bite.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28997_pakutto_ex3",
-      "japanese": "{鯉|こい}が{餌|えさ}を{水面|すいめん}でぱくっと{食|く}いついた。",
+      "japanese": "⟦{鯉|こい}→鯉：02209_koi⟧⟦が→が：00051_ga⟧⟦{餌|えさ}→餌：01886_esa⟧⟦を→を：00422_wo⟧⟦{水面|すいめん}→水面：04307_suimen⟧⟦で→で：00502_de⟧ぱくっと{食|く}いついた。",
       "english": "The carp snapped at the bait right at the surface of the water.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Refers to a single action of biting, in contrast to the repeated ぱくぱく (\"chomping away\"). Often used playfully or to describe an eager bite.\n\nCOMMON COLLOCATIONS:\n- ぱくっと{食|た}べる: to eat in one bite\n- ぱくっとほおばる: to stuff one's mouth in a single bite\n- ぱくっと{食|く}いつく: to snap at; to bite onto\n- ぱくっと{開|ひら}く: to open wide (mouth, lid)\n\nSIMILAR WORDS:\n- ぱくぱく: chomping repeatedly — sustained eating\n- がぶっと: biting hard and deep — more aggressive\n- もぐもぐ: chewing with the mouth closed — quiet, sustained chewing",
+  "notes": "Refers to a single action of biting, in contrast to the repeated ⟦ぱくぱく→ぱくぱく：05723_pakupaku⟧ (\"chomping away\"). Often used playfully or to describe an eager bite.\n\nCOMMON COLLOCATIONS:\n- ぱくっと⟦{食|た}べる→食べる：00396_taberu⟧: to eat in one bite\n- ぱくっとほおばる: to stuff one's mouth in a single bite\n- ぱくっと{食|く}いつく: to snap at; to bite onto\n- ぱくっと⟦{開|ひら}く→開く：01979_hiraku⟧: to open wide (mouth, lid)\n\nSIMILAR WORDS:\n- ⟦ぱくぱく→ぱくぱく：05723_pakupaku⟧: chomping repeatedly — sustained eating\n- がぶっ⟦と→と：00512_to⟧: biting hard and deep — more aggressive\n- ⟦もぐもぐ→もぐもぐ：05775_mogumogu⟧: chewing with the mouth closed — quiet, sustained chewing",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05723_pakupaku",
+      "reading": "ぱくぱく",
+      "headword": "ぱくぱく",
+      "label": "chomping repeatedly"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05775_mogumogu",
+      "reading": "もぐもぐ",
+      "headword": "もぐもぐ",
+      "label": "chewing with the mouth closed"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adverb", "onomatopoeia"],
+      "pos": [
+        "adverb",
+        "onomatopoeia"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["descriptive", "onomatopoeia"],
+      "politeness": "plain",
+      "semantic": [
+        "descriptive",
+        "onomatopoeia"
+      ],
       "domain": []
     },
     "created": "2026-06-08T07:55:39Z",
-    "modified": "2026-06-08T07:55:39Z"
+    "modified": "2026-09-02T04:02:35Z"
   }
 }

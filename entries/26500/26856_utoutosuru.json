@@ -3,7 +3,7 @@
   "headword": "うとうとする",
   "reading": "うとうとする",
   "romaji": "utoutosuru",
-  "part_of_speech": "verb-suru",
+  "part_of_speech": "suru verb",
   "gloss": "to doze off; to nod off; to drowse",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26856_utoutosuru_ex1",
-      "japanese": "{電車|でんしゃ}でうとうとした。",
+      "japanese": "⟦{電車|でんしゃ}→電車：00522_densha⟧⟦で→で：00502_de⟧うとうとした。",
       "english": "I dozed off on the train.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26856_utoutosuru_ex2",
-      "japanese": "{授業中|じゅぎょうちゅう}にうとうとしてしまった。",
+      "japanese": "⟦{授業中|じゅぎょうちゅう}→授業中：20544_jugyouchuu⟧⟦に→に：00314_ni⟧うとうとしてしまった。",
       "english": "I accidentally nodded off during class.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26856_utoutosuru_ex3",
-      "japanese": "ソファーでうとうとしていたら、{気|き}づいたら{朝|あさ}になっていた。",
+      "japanese": "⟦ソファー→ソファー：05607_sofaa⟧⟦で→で：00502_de⟧うとうとして⟦いたら→いる：00495_iru⟧、{気|き}づいたら⟦{朝|あさ}→朝：02277_asa⟧になっていた。",
       "english": "I was dozing on the sofa, and before I knew it, morning had come.",
       "sense_numbers": [
         1
@@ -45,7 +45,7 @@
     },
     {
       "id": "26856_utoutosuru_ex4",
-      "japanese": "{昼食後|ちゅうしょくご}はいつもうとうとしてしまう。",
+      "japanese": "{昼食後|ちゅうしょくご}⟦は→は：00079_ha⟧⟦いつも→いつも：00599_itsumo⟧うとうとしてしまう。",
       "english": "I always end up dozing off after lunch.",
       "sense_numbers": [
         1
@@ -54,8 +54,37 @@
       "notes": null
     }
   ],
-  "notes": "Mimetic word describing the state of repeatedly drifting into and out of light sleep. The reduplication うとうと conveys the wavering, unstable quality of half-sleep. Unlike deliberate napping, this word implies an involuntary drowsiness.\n\nCOMMON COLLOCATIONS:\n- うとうとし{始|はじ}める: to start nodding off\n- うとうとしていたら: while dozing off...\n- {思|おも}わずうとうとする: to involuntarily doze off\n- うとうとしてしまう: to end up dozing off (with regret)\n\nSIMILAR WORDS:\n- {居眠|いねむ}りする: to doze (while seated) — more deliberate or longer sleep, often used for sleeping at one's desk or workplace\n- うたた{寝|ね}する: to take a nap unintentionally — implies actually falling asleep, not just drifting\n- まどろむ: to slumber — literary, poetic; a pleasant light sleep",
-  "cross_references": [],
+  "notes": "Mimetic word describing the state of repeatedly drifting into and out of light sleep. The reduplication ⟦うとうと→うとうと：05270_utouto⟧ conveys the wavering, unstable quality of half-sleep. Unlike deliberate napping, this word implies an involuntary drowsiness.\n\nCOMMON COLLOCATIONS:\n- うとうとし{始|はじ}める: to start nodding off\n- うとうとして⟦いたら→いる：00495_iru⟧: while dozing off...\n- ⟦{思|おも}わ→思う：00492_omou⟧ずうとうとする: to involuntarily doze off\n- うとうとしてしまう: to end up dozing off (with regret)\n\nSIMILAR WORDS:\n- ⟦{居眠|いねむ}り→居眠り：01822_inemuri⟧⟦する→する：00392_suru⟧: to doze (while seated) — more deliberate or longer sleep, often used for sleeping at one's desk or workplace\n- ⟦うたた{寝|ね}→うたた寝：08036_utatane⟧⟦する→する：00392_suru⟧: to take a nap unintentionally — implies actually falling asleep, not just drifting\n- まどろむ: to slumber — literary, poetic; a pleasant light sleep",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01822_inemuri",
+      "reading": "いねむり",
+      "headword": "{居眠|いねむ}り",
+      "label": "to doze"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08036_utatane",
+      "reading": "うたたね",
+      "headword": "うたた{寝|ね}",
+      "label": "to take a nap unintentionally"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12514_madoromu",
+      "reading": "まどろむ",
+      "headword": "{微睡|まどろ}む",
+      "label": "to slumber"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26887_boottosuru",
+      "reading": "ぼーっとする",
+      "headword": "ぼーっとする",
+      "label": "to space out"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -68,10 +97,11 @@
       "semantic": [
         "daily-life"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     },
     "created": "2026-05-05T14:09:06Z",
-    "modified": "2026-05-05T14:09:06Z"
+    "modified": "2026-09-02T04:02:28Z"
   },
   "conjugation": {
     "type": "suru",

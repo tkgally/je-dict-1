@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "11500_hiteikei_ex1",
-      "japanese": "「{食|た}べる」の{否定形|ひていけい}は「{食|た}べない」です。",
+      "japanese": "「⟦{食|た}べる→食べる：00396_taberu⟧」⟦の→の：09472_no⟧{否定形|ひていけい}⟦は→は：00079_ha⟧「⟦{食|た}べない→食べる：00396_taberu⟧」です。",
       "english": "The negative form of 'taberu' is 'tabenai'.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "11500_hiteikei_ex2",
-      "japanese": "{否定形|ひていけい}の{作|つく}り{方|かた}を{練習|れんしゅう}しましょう。",
+      "japanese": "{否定形|ひていけい}⟦の→の：09472_no⟧⟦{作|つく}り{方|かた}→作り方：27938_tsukurikata⟧⟦を→を：00422_wo⟧⟦{練習|れんしゅう}しましょう→練習する：22991_renshuusuru⟧。",
       "english": "Let's practice how to make the negative form.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "11500_hiteikei_ex3",
-      "japanese": "この{副詞|ふくし}は{否定形|ひていけい}と{一緒|いっしょ}に{使|つか}うことが{多|おお}い。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{副詞|ふくし}→副詞：00441_fukushi⟧⟦は→は：00079_ha⟧{否定形|ひていけい}⟦と→と：00512_to⟧⟦{一緒|いっしょ}→一緒：02848_issho⟧⟦に→に：00314_ni⟧⟦{使|つか}う→使う：00473_tsukau⟧こと⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "This adverb is often used together with the negative form.",
       "notes": null,
       "has_audio": false,
@@ -43,11 +43,33 @@
       ]
     }
   ],
-  "notes": "{否定形|ひていけい} is a grammar term meaning \"negative form.\" It combines {否定|ひてい} (negation) + {形|けい} (form). Commonly encountered in Japanese language textbooks and classes.\n\nEXAMPLES OF NEGATIVE FORMS:\n- {食|た}べる → {食|た}べない (ichidan verb)\n- {書|か}く → {書|か}かない (godan verb)\n- する → しない (irregular)\n- いい → よくない (i-adjective)\n- {静|しず}かだ → {静|しず}かではない (na-adjective)\n\nRELATED GRAMMAR TERMS (〜{形|けい}):\n- {肯定形|こうていけい}: affirmative form\n- {過去形|かこけい}: past form\n- {丁寧形|ていねいけい}: polite form\n- {普通形|ふつうけい}: plain form\n- {命令形|めいれいけい}: imperative form\n- {可能形|かのうけい}: potential form\n\nUSAGE:\nPrimarily a classroom/textbook term. In everyday conversation, people would say 「ないの{形|かたち}」 or simply describe the pattern rather than using this technical term.",
-  "cross_references": [],
+  "notes": "{否定形|ひていけい} is a grammar term meaning \"negative form.\" It combines ⟦{否定|ひてい}→否定：03707_hitei⟧ (negation) + {形|けい} (form). Commonly encountered in Japanese language textbooks and classes.\n\nEXAMPLES OF NEGATIVE FORMS:\n- ⟦{食|た}べる→食べる：00396_taberu⟧ → ⟦{食|た}べない→食べる：00396_taberu⟧ (ichidan verb)\n- ⟦{書|か}く→書く：00477_kaku⟧ → ⟦{書|か}かない→書く：00477_kaku⟧ (godan verb)\n- ⟦する→する：00392_suru⟧ → ⟦しない→する：00392_suru⟧ (irregular)\n- ⟦いい→いい：00118_ii⟧ → ⟦よくない→いい：00118_ii⟧ (i-adjective)\n- ⟦{静|しず}か→静か：00755_shizuka⟧だ → ⟦{静|しず}か→静か：00755_shizuka⟧で⟦は→は：00079_ha⟧⟦ない→ない：01118_nai⟧ (na-adjective)\n\nRELATED GRAMMAR TERMS (〜{形|けい}):\n- ⟦{肯定形|こうていけい}→肯定形：22947_kouteikei⟧: affirmative form\n- ⟦{過去形|かこけい}→過去形：23881_kakokei⟧: past form\n- {丁寧形|ていねいけい}: polite form\n- {普通形|ふつうけい}: plain form\n- ⟦{命令形|めいれいけい}→命令形：22948_meireikei⟧: imperative form\n- {可能形|かのうけい}: potential form\n\nUSAGE:\nPrimarily a classroom/textbook term. In everyday conversation, people would say 「⟦ない→ない：01118_nai⟧⟦の→の：09472_no⟧⟦{形|かたち}→形：02193_katachi⟧」 or simply describe the pattern rather than using this technical term.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "22268_gimonkei",
+      "reading": "ぎもんけい",
+      "headword": "{疑問形|ぎもんけい}",
+      "label": "interrogative form"
+    },
+    {
+      "type": "antonym",
+      "target_id": "22947_kouteikei",
+      "reading": "こうていけい",
+      "headword": "{肯定形|こうていけい}",
+      "label": "affirmative form"
+    },
+    {
+      "type": "related",
+      "target_id": "22948_meireikei",
+      "reading": "めいれいけい",
+      "headword": "{命令形|めいれいけい}",
+      "label": "imperative form"
+    }
+  ],
   "metadata": {
     "created": "2026-02-17T01:54:44Z",
-    "modified": "2026-06-30T18:44:39Z",
+    "modified": "2026-09-02T04:01:25Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",

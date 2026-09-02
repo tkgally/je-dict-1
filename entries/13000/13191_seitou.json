@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "13191_seitou_ex1",
-      "japanese": "{正当|せいとう}な{理由|りゆう}がなければ{欠席|けっせき}できない。",
+      "japanese": "{正当|せいとう}な⟦{理由|りゆう}→理由：01102_riyuu⟧⟦が→が：00051_ga⟧⟦なければ→ない：01118_nai⟧⟦{欠席|けっせき}できない→欠席する：22283_kessekisuru⟧。",
       "english": "You cannot be absent without a legitimate reason.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "13191_seitou_ex2",
-      "japanese": "{彼女|かのじょ}の{努力|どりょく}は{正当|せいとう}に{評価|ひょうか}されるべきだ。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦の→の：09472_no⟧⟦{努力|どりょく}→努力：03490_doryoku⟧⟦は→は：00079_ha⟧{正当|せいとう}⟦に→に：00314_ni⟧⟦{評価|ひょうか}→評価：03583_hyouka⟧⟦される→する：00392_suru⟧べきだ。",
       "english": "Her efforts should be fairly evaluated.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "13191_seitou_ex3",
-      "japanese": "{正当|せいとう}{防衛|ぼうえい}として{認|みと}められるかどうかは{裁判所|さいばんしょ}が{判断|はんだん}する。",
+      "japanese": "{正当|せいとう}⟦{防衛|ぼうえい}→防衛：09783_bouei⟧⟦として→として：06802_toshite⟧⟦{認|みと}められる→認める：02429_mitomeru⟧⟦かどうか→かどうか：28299_kadouka⟧⟦は→は：00079_ha⟧⟦{裁判所|さいばんしょ}→裁判所：09665_saibansho⟧⟦が→が：00051_ga⟧⟦{判断|はんだん}する→判断する：06062_handansuru⟧。",
       "english": "Whether it is recognized as self-defense is decided by the court.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nUsed as a na-adjective ({正当|せいとう}な) to modify nouns, or adverbially with に ({正当|せいとう}に). Very common in legal, ethical, and formal contexts.\n\nCOMMON COLLOCATIONS:\n- {正当|せいとう}な{理由|りゆう}: legitimate reason\n- {正当|せいとう}な{権利|けんり}: rightful claim/right\n- {正当|せいとう}{防衛|ぼうえい}: self-defense (legal term)\n- {正当|せいとう}に{評価|ひょうか}する: to evaluate fairly\n- {正当|せいとう}な{手段|しゅだん}: legitimate means\n\nSIMILAR WORDS:\n- {正統|せいとう}: orthodox, authentic (same reading but different kanji — refers to tradition/lineage rather than fairness)\n- {適正|てきせい}: proper, appropriate (more about correctness of procedure)\n- {妥当|だとう}: reasonable, valid (emphasizes being sensible rather than morally right)",
+  "notes": "USAGE:\nUsed as a na-adjective ({正当|せいとう}な) to modify nouns, or adverbially with ⟦に→に：00314_ni⟧ ({正当|せいとう}⟦に→に：00314_ni⟧). Very common in legal, ethical, and formal contexts.\n\nCOMMON COLLOCATIONS:\n- {正当|せいとう}な⟦{理由|りゆう}→理由：01102_riyuu⟧: legitimate reason\n- {正当|せいとう}な⟦{権利|けんり}→権利：02711_kenri⟧: rightful claim/right\n- {正当|せいとう}⟦{防衛|ぼうえい}→防衛：09783_bouei⟧: self-defense (legal term)\n- {正当|せいとう}⟦に→に：00314_ni⟧⟦{評価|ひょうか}→評価：03583_hyouka⟧⟦する→する：00392_suru⟧: to evaluate fairly\n- {正当|せいとう}な⟦{手段|しゅだん}→手段：03219_shudan⟧: legitimate means\n\nSIMILAR WORDS:\n- ⟦{正統|せいとう}→正統：13220_seitou⟧: orthodox, authentic (same reading but different kanji — refers to tradition/lineage rather than fairness)\n- ⟦{適正|てきせい}→適正：09686_tekisei⟧: proper, appropriate (more about correctness of procedure)\n- ⟦{妥当|だとう}→妥当：04053_datou⟧: reasonable, valid (emphasizes being sensible rather than morally right)",
   "cross_references": [
     {
       "type": "antonym",
@@ -52,11 +52,25 @@
       "reading": "ふとう",
       "headword": "{不当|ふとう}",
       "label": "unjust, unfair"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09686_tekisei",
+      "reading": "てきせい",
+      "headword": "{適正|てきせい}",
+      "label": "proper, appropriate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04053_datou",
+      "reading": "だとう",
+      "headword": "{妥当|だとう}",
+      "label": "reasonable, valid"
     }
   ],
   "metadata": {
     "created": "2026-02-24T06:08:12Z",
-    "modified": "2026-04-28T06:26:02Z",
+    "modified": "2026-09-02T04:01:32Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

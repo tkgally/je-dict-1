@@ -3,7 +3,7 @@
   "id": "13778_rikkouho",
   "headword": "{立候補|りっこうほ}",
   "reading": "りっこうほ",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "candidacy, running for office",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "13778_rikkouho_ex1",
-      "japanese": "{市長|しちょう}{選|せん}に{立候補|りっこうほ}する。",
+      "japanese": "⟦{市長|しちょう}→市長：12472_shichou⟧⟦{選|せん}→選：09879_sen⟧⟦に→に：00314_ni⟧{立候補|りっこうほ}⟦する→する：00392_suru⟧。",
       "english": "To run for mayor.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "13778_rikkouho_ex2",
-      "japanese": "{彼女|かのじょ}は{来年|らいねん}の{選挙|せんきょ}に{立候補|りっこうほ}を{表明|ひょうめい}した。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧⟦{来年|らいねん}→来年：00745_rainen⟧⟦の→の：09472_no⟧⟦{選挙|せんきょ}→選挙：03303_senkyo⟧⟦に→に：00314_ni⟧{立候補|りっこうほ}⟦を→を：00422_wo⟧⟦{表明|ひょうめい}→表明：14052_hyoumei⟧⟦した→する：00392_suru⟧。",
       "english": "She announced her candidacy for next year's election.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "13778_rikkouho_ex3",
-      "japanese": "{今回|こんかい}の{選挙|せんきょ}には{五人|ごにん}が{立候補|りっこうほ}しており、{接戦|せっせん}が{予想|よそう}される。",
+      "japanese": "⟦{今回|こんかい}→今回：01409_konkai⟧⟦の→の：09472_no⟧⟦{選挙|せんきょ}→選挙：03303_senkyo⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{五人|ごにん}→五人：30567_gonin⟧⟦が→が：00051_ga⟧{立候補|りっこうほ}⟦して→する：00392_suru⟧おり、⟦{接戦|せっせん}→接戦：08176_sessen⟧⟦が→が：00051_ga⟧⟦{予想|よそう}される→予想する：06064_yosousuru⟧。",
       "english": "Five people are running in this election, and a close race is expected.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,26 @@
       ]
     }
   ],
-  "notes": "USAGE:\nAs a する verb, {立候補|りっこうほ}する means \"to run for office\" or \"to stand as a candidate.\" The election or position is marked with に: ～に{立候補|りっこうほ}する.\n\nCOMMON COLLOCATIONS:\n- ～に{立候補|りっこうほ}する: to run for ~\n- {立候補|りっこうほ}を{表明|ひょうめい}する: to announce one's candidacy\n- {立候補|りっこうほ}{届|とど}け{出|で}: candidacy registration/filing\n- {立候補|りっこうほ}を{取|と}り{下|さ}げる: to withdraw one's candidacy\n- {立候補|りっこうほ}{者|しゃ}: candidate",
-  "cross_references": [],
+  "notes": "USAGE:\nAs a ⟦する→する：00392_suru⟧ verb, {立候補|りっこうほ}⟦する→する：00392_suru⟧ means \"to run for office\" or \"to stand as a candidate.\" The election or position is marked with ⟦に→に：00314_ni⟧: ～⟦に→に：00314_ni⟧{立候補|りっこうほ}⟦する→する：00392_suru⟧.\n\nCOMMON COLLOCATIONS:\n- ～⟦に→に：00314_ni⟧{立候補|りっこうほ}⟦する→する：00392_suru⟧: to run for ~\n- {立候補|りっこうほ}⟦を→を：00422_wo⟧⟦{表明|ひょうめい}→表明：14052_hyoumei⟧⟦する→する：00392_suru⟧: to announce one's candidacy\n- {立候補|りっこうほ}{届|とど}け{出|で}: candidacy registration/filing\n- {立候補|りっこうほ}⟦を→を：00422_wo⟧{取|と}り{下|さ}げる: to withdraw one's candidacy\n- {立候補|りっこうほ}{者|しゃ}: candidate",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "03303_senkyo",
+      "reading": "せんきょ",
+      "headword": "{選挙|せんきょ}",
+      "label": "election"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21784_nanorideru",
+      "reading": "なのりでる",
+      "headword": "{名乗|なの}り{出|で}る",
+      "label": "to come forward"
+    }
+  ],
   "metadata": {
     "created": "2026-02-27T03:15:29Z",
-    "modified": "2026-03-29T03:07:35Z",
+    "modified": "2026-09-02T04:01:34Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

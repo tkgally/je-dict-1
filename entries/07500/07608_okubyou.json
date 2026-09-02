@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "07608_okubyou_ex1",
-      "japanese": "{臆病|おくびょう}な{性格|せいかく}を{直|なお}したい。",
+      "japanese": "{臆病|おくびょう}な⟦{性格|せいかく}→性格：03371_seikaku⟧⟦を→を：00422_wo⟧{直|なお}したい。",
       "english": "I want to fix my timid personality.",
       "has_audio": false,
       "sense_numbers": [
@@ -23,7 +23,7 @@
     },
     {
       "id": "07608_okubyou_ex2",
-      "japanese": "この{犬|いぬ}は{臆病|おくびょう}で、{大|おお}きな{音|おと}を{怖|こわ}がる。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{犬|いぬ}→犬：00632_inu⟧⟦は→は：00079_ha⟧{臆病|おくびょう}で、⟦{大|おお}きな→大きな：02849_ookina⟧⟦{音|おと}→音：00743_oto⟧⟦を→を：00422_wo⟧{怖|こわ}⟦がる→〜がる：03089_garu⟧。",
       "english": "This dog is timid and is afraid of loud sounds.",
       "has_audio": false,
       "sense_numbers": [
@@ -32,7 +32,7 @@
     },
     {
       "id": "07608_okubyou_ex3",
-      "japanese": "{臆病|おくびょう}{風|かぜ}に{吹|ふ}かれて、{挑戦|ちょうせん}をやめてしまった。",
+      "japanese": "{臆病|おくびょう}⟦{風|かぜ}→風：00641_kaze⟧⟦に→に：00314_ni⟧⟦{吹|ふ}かれて→吹く：02445_fuku⟧、⟦{挑戦|ちょうせん}→挑戦：03495_chousen⟧⟦を→を：00422_wo⟧⟦やめて→やめる：00909_yameru⟧しまった。",
       "english": "I got cold feet and gave up on the challenge.",
       "has_audio": false,
       "sense_numbers": [
@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "notes": "ETYMOLOGY:\n{臆|おく} (hesitate) + {病|びょう} (illness, condition) - literally \"condition of hesitation\"\n\nCOMMON EXPRESSIONS:\n・{臆病|おくびょう}{者|もの} - coward\n・{臆病|おくびょう}{風|かぜ}に{吹|ふ}かれる - to get cold feet (lit. blown by the wind of cowardice)\n・{臆病|おくびょう}な{心|こころ} - timid heart\n\nUSAGE:\nGenerally used negatively, though sometimes sympathetically.\n\nANTONYM:\n・{大胆|だいたん} - bold, daring\n・{勇敢|ゆうかん} - brave, courageous\n\nRELATED:\n・{弱虫|よわむし} - weakling, coward (informal)\n・{怖|こわ}がり - scaredy-cat",
+  "notes": "ETYMOLOGY:\n{臆|おく} (hesitate) + {病|びょう} (illness, condition) - literally \"condition of hesitation\"\n\nCOMMON EXPRESSIONS:\n- {臆病|おくびょう}{者|もの} - coward\n- {臆病|おくびょう}⟦{風|かぜ}→風：00641_kaze⟧⟦に→に：00314_ni⟧⟦{吹|ふ}かれる→吹く：02445_fuku⟧ - to get cold feet (lit. blown by the wind of cowardice)\n- {臆病|おくびょう}な⟦{心|こころ}→心：01321_kokoro⟧ - timid heart\n\nUSAGE:\nGenerally used negatively, though sometimes sympathetically.\n\nSIMILAR WORDS:\n- ⟦{大胆|だいたん}→大胆：07609_daitan⟧ - bold, daring\n- ⟦{勇敢|ゆうかん}→勇敢：07637_yuukan⟧ - brave, courageous\n\nRELATED WORDS:\n- ⟦{弱虫|よわむし}→弱虫：20009_yowamushi⟧ - weakling, coward (informal)\n- {怖|こわ}⟦がり→ガリ：27408_gari⟧ - scaredy-cat",
   "cross_references": [
     {
       "type": "antonym",
@@ -55,11 +55,46 @@
       "reading": "いくじなし",
       "headword": "{意気地|いくじ}なし",
       "label": "coward; spineless"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07637_yuukan",
+      "reading": "ゆうかん",
+      "headword": "{勇敢|ゆうかん}",
+      "label": "brave, courageous"
+    },
+    {
+      "type": "related",
+      "target_id": "20009_yowamushi",
+      "reading": "よわむし",
+      "headword": "{弱虫|よわむし}",
+      "label": "weakling, coward"
+    },
+    {
+      "type": "related",
+      "target_id": "08342_kowagari",
+      "reading": "こわがり",
+      "headword": "{怖|こわ}がり",
+      "label": "scaredy-cat"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20739_shoushin",
+      "reading": "しょうしん",
+      "headword": "{小心|しょうしん}",
+      "label": "timid"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30281_kigayowai",
+      "reading": "きがよわい",
+      "headword": "{気|き}が{弱|よわ}い",
+      "label": "timid"
     }
   ],
   "metadata": {
     "created": "2026-01-20T12:57:12Z",
-    "modified": "2026-05-02T05:13:00Z",
+    "modified": "2026-09-02T04:01:12Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -68,6 +103,7 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "personality",
         "emotion"

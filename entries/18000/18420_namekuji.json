@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "18420_namekuji_ex1",
-      "japanese": "{庭|にわ}になめくじがいた。",
+      "japanese": "⟦{庭|にわ}→庭：02239_niwa⟧⟦に→に：00314_ni⟧なめくじがいた。",
       "english": "There was a slug in the garden.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "18420_namekuji_ex2",
-      "japanese": "{梅雨|つゆ}の{時期|じき}はなめくじが{多|おお}い。",
+      "japanese": "⟦{梅雨|つゆ}→梅雨：02232_tsuyu⟧⟦の→の：09472_no⟧⟦{時期|じき}→時期：03269_jiki⟧⟦は→は：00079_ha⟧なめくじ⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "There are many slugs during the rainy season.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "18420_namekuji_ex3",
-      "japanese": "なめくじに{塩|しお}をかけると{溶|と}けるように{小|ちい}さくなる。",
+      "japanese": "なめくじ⟦に→に：00314_ni⟧⟦{塩|しお}→塩：00887_shio⟧⟦を→を：00422_wo⟧⟦かける→かける：00854_kakeru⟧⟦と→と：00512_to⟧⟦{溶|と}ける→溶ける：02302_tokeru⟧よう⟦に→に：00314_ni⟧⟦{小|ちい}さく→小さい：00025_chiisai⟧⟦なる→なる：01970_naru⟧。",
       "english": "If you put salt on a slug, it shrinks as if it were melting.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Usually written in hiragana as なめくじ. The kanji {蛞蝓|なめくじ} exists but is rarely used.\n\nCOMMON EXPRESSIONS:\n- なめくじに{塩|しお} — putting salt on a slug (describes someone who shrivels up or becomes timid, often from embarrassment or fear)\n\nThe expression なめくじに{塩|しお} is used figuratively to describe someone who shrinks back or loses confidence, similar to the English \"like a deer in headlights\" (though the nuance is different — it emphasizes shrinking rather than freezing).\n\nRELATED WORDS:\n- かたつむり — snail (with a shell)\n- ナメクジ — sometimes written in katakana in scientific contexts",
+  "notes": "Usually written in hiragana as なめくじ. The kanji {蛞蝓|なめくじ} exists but is rarely used.\n\nCOMMON EXPRESSIONS:\n- なめくじ⟦に→に：00314_ni⟧⟦{塩|しお}→塩：00887_shio⟧ — putting salt on a slug (describes someone who shrivels up or becomes timid, often from embarrassment or fear)\n\nThe expression なめくじ⟦に→に：00314_ni⟧⟦{塩|しお}→塩：00887_shio⟧ is used figuratively to describe someone who shrinks back or loses confidence, similar to the English \"like a deer in headlights\" (though the nuance is different — it emphasizes shrinking rather than freezing).\n\nRELATED WORDS:\n- かたつむり — snail (with a shell)\n- ナメクジ — sometimes written in katakana in scientific contexts",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "04297_katatsumuri",
+      "reading": "かたつむり",
+      "headword": "{蝸牛|かたつむり}",
+      "label": "snail"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23395_makigai",
+      "reading": "まきがい",
+      "headword": "{巻|ま}き{貝|がい}",
+      "label": "univalve"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +75,6 @@
       ]
     },
     "created": "2026-03-22T00:43:45Z",
-    "modified": "2026-05-08T10:08:08Z"
+    "modified": "2026-09-02T04:01:52Z"
   }
 }

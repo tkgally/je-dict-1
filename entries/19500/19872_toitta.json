@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "19872_toitta_ex1",
-      "japanese": "{英語|えいご}や{中国語|ちゅうごくご}といった{言語|げんご}。",
+      "japanese": "⟦{英語|えいご}→英語：02274_eigo⟧や⟦{中国語|ちゅうごくご}→中国語：10966_chuugokugo⟧といった⟦{言語|げんご}→言語：02717_gengo⟧。",
       "english": "Languages such as English and Chinese.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "19872_toitta_ex2",
-      "japanese": "{東京|とうきょう}や{大阪|おおさか}といった{大都市|だいとし}は{人口|じんこう}が{多|おお}い。",
+      "japanese": "⟦{東京|とうきょう}→東京：09564_toukyou⟧や⟦{大阪|おおさか}→大阪：09779_oosaka⟧といった⟦{大都市|だいとし}→大都市：12204_daitoshi⟧⟦は→は：00079_ha⟧⟦{人口|じんこう}→人口：01618_jinkou⟧⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "Major cities such as Tokyo and Osaka have large populations.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "19872_toitta_ex3",
-      "japanese": "{糖尿病|とうにょうびょう}や{高血圧|こうけつあつ}といった{生活習慣病|せいかつしゅうかんびょう}の{予防|よぼう}が{大切|たいせつ}だ。",
+      "japanese": "⟦{糖尿病|とうにょうびょう}→糖尿病：04414_tounyoubyou⟧や⟦{高血圧|こうけつあつ}→高血圧：04415_kouketsuatsu⟧といった⟦{生活習慣病|せいかつしゅうかんびょう}→生活習慣病：08620_seikatsushuukanbyou⟧⟦の→の：09472_no⟧⟦{予防|よぼう}→予防：03669_yobou⟧⟦が→が：00051_ga⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧だ。",
       "english": "It's important to prevent lifestyle diseases such as diabetes and hypertension.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "A common expression used to give examples. The pattern is: A や B といった NOUN. Grammatically, と is the quotation particle, いった is the past tense of {言|い}う (to say), so it literally means \"things called A and B\" or \"things that one would call A and B.\"\n\nPATTERN:\n- A や B といった N — N such as A and B\n- A といった N — N like A\n\nSIMILAR EXPRESSIONS:\n- などの — such as (more neutral, slightly less formal)\n- のような — like, similar to (focuses on resemblance)\n- たとえば — for example (introduces examples as a sentence adverb)",
+  "notes": "A common expression used to give examples. The pattern is: A や B といった NOUN. Grammatically, ⟦と→と：00512_to⟧ is the quotation particle, いった is the past tense of ⟦{言|い}う→言う：00515_iu⟧ (to say), so it literally means \"things called A and B\" or \"things that one would call A and B.\"\n\nCOMMON PATTERNS:\n- A や B といった N — N such as A and B\n- A といった N — N like A\n\nSIMILAR WORDS:\n- ⟦など→〜など：03095_nado⟧⟦の→の：09472_no⟧ — such as (more neutral, slightly less formal)\n- ⟦の→の：09472_no⟧ような — like, similar to (focuses on resemblance)\n- たとえば — for example (introduces examples as a sentence adverb)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00999_tatoeba",
+      "reading": "たとえば",
+      "headword": "{例|たと}えば",
+      "label": "for example"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +68,6 @@
       ]
     },
     "created": "2026-03-27T03:33:50Z",
-    "modified": "2026-07-27T12:42:09Z"
+    "modified": "2026-09-02T04:01:57Z"
   }
 }

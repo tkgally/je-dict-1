@@ -15,40 +15,73 @@
   "examples": [
     {
       "id": "19507_yuubae_ex1",
-      "japanese": "{山|やま}が{夕映|ゆうば}えに{染|そ}まった。",
+      "japanese": "⟦{山|やま}→山：02168_yama⟧⟦が→が：00051_ga⟧{夕映|ゆうば}え⟦に→に：00314_ni⟧⟦{染|そ}まった→染まる：04254_somaru⟧。",
       "english": "The mountain was bathed in the evening glow.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19507_yuubae_ex2",
-      "japanese": "{美|うつく}しい{夕映|ゆうば}えを{眺|なが}めていた。",
+      "japanese": "⟦{美|うつく}しい→美しい：01121_utsukushii⟧{夕映|ゆうば}え⟦を→を：00422_wo⟧⟦{眺|なが}めていた→眺める：02132_nagameru⟧。",
       "english": "I was gazing at the beautiful sunset glow.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19507_yuubae_ex3",
-      "japanese": "{湖面|こめん}に{映|うつ}る{夕映|ゆうば}えが、{息|いき}をのむほど{美|うつく}しかった。",
+      "japanese": "⟦{湖面|こめん}→湖面：27150_komen⟧⟦に→に：00314_ni⟧⟦{映|うつ}る→映る：12964_utsuru⟧{夕映|ゆうば}え⟦が→が：00051_ga⟧、⟦{息|いき}→息：02176_iki⟧⟦を→を：00422_wo⟧のむほど⟦{美|うつく}しかった→美しい：01121_utsukushii⟧。",
       "english": "The sunset glow reflected on the lake's surface was breathtakingly beautiful.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {夕|ゆう} (evening) and {映|は}え (reflection, glow). Refers specifically to the warm light of the setting sun reflected on surfaces — not the sunset itself, but the glow it casts on clouds, mountains, water, and buildings. A word with strong poetic and literary associations.\n\nUSAGE:\nFrequently used in literature, poetry, and scenic descriptions. It conveys a sense of transient beauty and the fleeting quality of dusk. Also used in photography and art contexts.\n\nCOMMON COLLOCATIONS:\n- {夕映|ゆうば}えに{染|そ}まる — to be dyed in the sunset glow\n- {夕映|ゆうば}えの{空|そら} — the evening-glowing sky\n- {夕映|ゆうば}えが{美|うつく}しい — the sunset glow is beautiful\n\nSIMILAR WORDS:\n- {夕焼|ゆうや}け — sunset, evening glow; the most common everyday word for a red sunset sky\n- {朝焼|あさや}け — morning glow; the sunrise equivalent\n- {茜色|あかねいろ} — madder red; the deep red color associated with sunset skies",
+  "notes": "A compound of {夕|ゆう} (evening) and {映|は}え (reflection, glow). Refers specifically to the warm light of the setting sun reflected on surfaces — not the sunset itself, but the glow it casts on clouds, mountains, water, and buildings. A word with strong poetic and literary associations.\n\nUSAGE:\nFrequently used in literature, poetry, and scenic descriptions. It conveys a sense of transient beauty and the fleeting quality of dusk. Also used in photography and art contexts.\n\nCOMMON COLLOCATIONS:\n- {夕映|ゆうば}え⟦に→に：00314_ni⟧⟦{染|そ}まる→染まる：04254_somaru⟧ — to be dyed in the sunset glow\n- {夕映|ゆうば}え⟦の→の：09472_no⟧⟦{空|そら}→空：02216_sora⟧ — the evening-glowing sky\n- {夕映|ゆうば}え⟦が→が：00051_ga⟧⟦{美|うつく}しい→美しい：01121_utsukushii⟧ — the sunset glow is beautiful\n\nSIMILAR WORDS:\n- ⟦{夕焼|ゆうや}け→夕焼け：05045_yuuyake⟧ — sunset, evening glow; the most common everyday word for a red sunset sky\n- ⟦{朝焼|あさや}け→朝焼け：04655_asayake⟧ — morning glow; the sunrise equivalent\n- ⟦{茜色|あかねいろ}→茜色：22033_akaneiro⟧ — madder red; the deep red color associated with sunset skies",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05045_yuuyake",
+      "reading": "ゆうやけ",
+      "headword": "{夕焼|ゆうや}け",
+      "label": "sunset, evening glow"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04655_asayake",
+      "reading": "あさやけ",
+      "headword": "{朝焼|あさや}け",
+      "label": "morning glow"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22033_akaneiro",
+      "reading": "あかねいろ",
+      "headword": "{茜色|あかねいろ}",
+      "label": "madder red"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["nature"]
+      "semantic": [
+        "nature"
+      ]
     },
     "created": "2026-03-26T02:43:23Z",
-    "modified": "2026-03-26T02:43:23Z"
+    "modified": "2026-09-02T04:01:56Z"
   }
 }

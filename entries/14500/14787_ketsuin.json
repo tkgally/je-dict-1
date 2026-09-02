@@ -15,41 +15,59 @@
   "examples": [
     {
       "id": "14787_ketsuin_ex1",
-      "japanese": "{欠員|けついん}が{出|で}た。",
+      "japanese": "{欠員|けついん}⟦が→が：00051_ga⟧⟦{出|で}た→出る：00513_deru⟧。",
       "english": "A vacancy has opened up.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14787_ketsuin_ex2",
-      "japanese": "{欠員|けついん}を{補充|ほじゅう}するために{募集|ぼしゅう}をかけた。",
+      "japanese": "{欠員|けついん}⟦を→を：00422_wo⟧⟦{補充|ほじゅう}する→補充する：25240_hojuusuru⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧⟦{募集|ぼしゅう}→募集：03035_boshuu⟧⟦を→を：00422_wo⟧⟦かけた→かける：00854_kakeru⟧。",
       "english": "We put out a recruitment call to fill the vacancy.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14787_ketsuin_ex3",
-      "japanese": "{退職|たいしょく}による{欠員|けついん}が{続|つづ}いており、{現場|げんば}の{負担|ふたん}が{増|ふ}えている。",
+      "japanese": "⟦{退職|たいしょく}→退職：04559_taishoku⟧⟦による→による：28349_niyoru⟧{欠員|けついん}⟦が→が：00051_ga⟧⟦{続|つづ}いて→続く：00903_tsuzuku⟧おり、⟦{現場|げんば}→現場：02723_genba⟧⟦の→の：09472_no⟧⟦{負担|ふたん}→負担：09752_futan⟧⟦が→が：00051_ga⟧⟦{増|ふ}えている→増える：01183_fueru⟧。",
       "english": "Vacancies due to resignations keep piling up, increasing the burden on those still working.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "A formal term commonly used in workplace and organizational contexts.\n\nCOMMON COLLOCATIONS:\n- {欠員|けついん}が{出|で}る (a vacancy opens up)\n- {欠員|けついん}を{補充|ほじゅう}する (to fill a vacancy)\n- {欠員|けついん}{補充|ほじゅう} (filling a vacancy)\n- {欠員|けついん}{募集|ぼしゅう} (recruitment for a vacancy)\n\nUSAGE NOTE:\nUsed in formal and business contexts. In casual conversation, people would more likely say {人|ひと}が{足|た}りない (we're short-staffed) or ポストが{空|あ}いている (the position is open).",
-  "cross_references": [],
+  "notes": "A formal term commonly used in workplace and organizational contexts.\n\nCOMMON COLLOCATIONS:\n- {欠員|けついん}⟦が→が：00051_ga⟧⟦{出|で}る→出る：00513_deru⟧ (a vacancy opens up)\n- {欠員|けついん}⟦を→を：00422_wo⟧⟦{補充|ほじゅう}する→補充する：25240_hojuusuru⟧ (to fill a vacancy)\n- {欠員|けついん}⟦{補充|ほじゅう}→補充：14037_hojuu⟧ (filling a vacancy)\n- {欠員|けついん}⟦{募集|ぼしゅう}→募集：03035_boshuu⟧ (recruitment for a vacancy)\n\nUSAGE:\nUsed in formal and business contexts. In casual conversation, people would more likely say ⟦{人|ひと}→人：00476_hito⟧⟦が→が：00051_ga⟧⟦{足|た}りない→足りる：01209_tariru⟧ (we're short-staffed) or ⟦ポスト→ポスト：02965_posuto⟧⟦が→が：00051_ga⟧⟦{空|あ}いている→空く：11062_aku⟧ (the position is open).",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "07586_kuuseki",
+      "reading": "くうせき",
+      "headword": "{空席|くうせき}",
+      "label": "empty seat"
+    }
+  ],
   "metadata": {
     "created": "2026-03-03T12:47:43Z",
-    "modified": "2026-03-03T12:47:43Z",
+    "modified": "2026-09-02T04:01:38Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["work"]
+      "semantic": [
+        "work"
+      ]
     }
   }
 }

@@ -5,21 +5,39 @@
   "reading": "りょうきんひょう",
   "part_of_speech": "noun",
   "gloss": "price list; fee schedule; rate table",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11166_menyuu",
+      "reading": "めにゅー",
+      "headword": "メニュー",
+      "label": "menu"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07484_mitsumorisho",
+      "reading": "みつもりしょ",
+      "headword": "{見積書|みつもりしょ}",
+      "label": "estimate, quotation"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "business",
         "economics"
       ]
     },
     "created": "2026-04-03T21:33:49Z",
-    "modified": "2026-04-03T21:33:49Z"
+    "modified": "2026-09-02T04:02:05Z"
   },
-  "notes": "A practical compound noun used in everyday business and consumer contexts. Found in hotels, restaurants, clinics, transportation services, and other businesses that display their charges.\n\nCOMMON COLLOCATIONS:\n- {料金表|りょうきんひょう}を{確認|かくにん}する: to check the price list\n- {料金表|りょうきんひょう}を{作成|さくせい}する: to create a fee schedule\n- {料金表|りょうきんひょう}に{基|もと}づく: based on the rate table\n- {最新|さいしん}の{料金表|りょうきんひょう}: latest price list\n- {郵便|ゆうびん}{料金表|りょうきんひょう}: postal rate chart\n\nSIMILAR WORDS:\n- {価格表|かかくひょう}: price list — very similar; {価格|かかく} emphasizes the price of goods, while {料金|りょうきん} often refers to fees for services\n- メニュー: menu — specifically for restaurants; includes both items and prices\n- {見積書|みつもりしょ}: estimate, quotation — a document with prices for a specific job or order\n\nETYMOLOGY:\nComposed of {料金|りょうきん} (fee, charge) + {表|ひょう} (table, chart, list).",
+  "notes": "A practical compound noun used in everyday business and consumer contexts. Found in hotels, restaurants, clinics, transportation services, and other businesses that display their charges.\n\nCOMMON COLLOCATIONS:\n- {料金表|りょうきんひょう}⟦を→を：00422_wo⟧⟦{確認|かくにん}する→確認する：25332_kakuninsuru⟧: to check the price list\n- {料金表|りょうきんひょう}⟦を→を：00422_wo⟧⟦{作成|さくせい}する→作成する：25378_sakuseisuru⟧: to create a fee schedule\n- {料金表|りょうきんひょう}⟦に→に：00314_ni⟧⟦{基|もと}づく→基づく：02315_motozuku⟧: based on the rate table\n- ⟦{最新|さいしん}→最新：04831_saishin⟧⟦の→の：09472_no⟧{料金表|りょうきんひょう}: latest price list\n- ⟦{郵便|ゆうびん}→郵便：03803_yuubin⟧{料金表|りょうきんひょう}: postal rate chart\n\nSIMILAR WORDS:\n- {価格表|かかくひょう}: price list — very similar; ⟦{価格|かかく}→価格：00147_kakaku⟧ emphasizes the price of goods, while ⟦{料金|りょうきん}→料金：03797_ryoukin⟧ often refers to fees for services\n- ⟦メニュー→メニュー：11166_menyuu⟧: menu — specifically for restaurants; includes both items and prices\n- ⟦{見積書|みつもりしょ}→見積書：07484_mitsumorisho⟧: estimate, quotation — a document with prices for a specific job or order\n\nETYMOLOGY:\nComposed of ⟦{料金|りょうきん}→料金：03797_ryoukin⟧ (fee, charge) + ⟦{表|ひょう}→表：19354_hyou⟧ (table, chart, list).",
   "definitions": [
     {
       "sense_number": 1,
@@ -30,7 +48,7 @@
   "examples": [
     {
       "id": "21923_ryoukinhyou_ex1",
-      "japanese": "{料金表|りょうきんひょう}を{見|み}せてください。",
+      "japanese": "{料金表|りょうきんひょう}⟦を→を：00422_wo⟧⟦{見|み}せて→見せる：01988_miseru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please show me the price list.",
       "sense_numbers": [
         1
@@ -40,7 +58,7 @@
     },
     {
       "id": "21923_ryoukinhyou_ex2",
-      "japanese": "ホテルの{料金表|りょうきんひょう}はウェブサイトで{確認|かくにん}できる。",
+      "japanese": "⟦ホテル→ホテル：01027_hoteru⟧⟦の→の：09472_no⟧{料金表|りょうきんひょう}⟦は→は：00079_ha⟧⟦ウェブサイト→ウェブサイト：05152_webusaito⟧⟦で→で：00502_de⟧⟦{確認|かくにん}できる→確認する：25332_kakuninsuru⟧。",
       "english": "You can check the hotel rate table on their website.",
       "sense_numbers": [
         1
@@ -50,7 +68,7 @@
     },
     {
       "id": "21923_ryoukinhyou_ex3",
-      "japanese": "{新|あたら}しい{料金表|りょうきんひょう}は{来月|らいげつ}から{適用|てきよう}される{予定|よてい}です。",
+      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧{料金表|りょうきんひょう}⟦は→は：00079_ha⟧⟦{来月|らいげつ}→来月：00744_raigetsu⟧⟦から→から：00504_kara⟧⟦{適用|てきよう}される→適用する：21739_tekiyousuru⟧⟦{予定|よてい}→予定：00824_yotei⟧です。",
       "english": "The new price list is scheduled to take effect next month.",
       "sense_numbers": [
         1

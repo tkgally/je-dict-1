@@ -14,30 +14,36 @@
   "examples": [
     {
       "id": "10156_gizen_ex1",
-      "japanese": "それは{偽善|ぎぜん}だ。",
+      "japanese": "⟦それ→それ：00994_sore⟧⟦は→は：00079_ha⟧{偽善|ぎぜん}だ。",
       "english": "That's hypocrisy.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10156_gizen_ex2",
-      "japanese": "{彼|かれ}の{言動|げんどう}は{偽善|ぎぜん}に{満|み}ちている。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧⟦{言動|げんどう}→言動：14147_gendou⟧⟦は→は：00079_ha⟧{偽善|ぎぜん}⟦に→に：00314_ni⟧⟦{満|み}ちている→満ちる：02428_michiru⟧。",
       "english": "His words and actions are full of hypocrisy.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10156_gizen_ex3",
-      "japanese": "{偽善|ぎぜん}{者|しゃ}だと{批判|ひはん}された。",
+      "japanese": "{偽善|ぎぜん}{者|しゃ}だ⟦と→と：00512_to⟧⟦{批判|ひはん}→批判：03580_hihan⟧⟦された→する：00392_suru⟧。",
       "english": "He was criticized as a hypocrite.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{偽善|ぎぜん} is a strongly negative term describing false virtue — pretending to be good or moral while acting otherwise. The kanji break down as {偽|ぎ} (false) + {善|ぜん} (goodness, virtue).\n\nCOMMON EXPRESSIONS:\n- {偽善|ぎぜん}{者|しゃ}: hypocrite (person)\n- {偽善|ぎぜん}{的|てき}（な）: hypocritical\n- {偽善|ぎぜん}に{満|み}ちた: full of hypocrisy\n\nCOMMON PATTERNS:\n- {偽善|ぎぜん}だと{批判|ひはん}する: to criticize as hypocrisy\n- {偽善|ぎぜん}に{過|す}ぎない: to be nothing but hypocrisy\n\nCONTRAST:\n- {善意|ぜんい}: goodwill, good intentions (genuine)\n- {偽善|ぎぜん}: pretended goodness (false)\n\nUSAGE:\nOften used to accuse someone of insincere kindness or charity, particularly in public discourse. Calling something {偽善|ぎぜん} is a serious accusation.",
+  "notes": "{偽善|ぎぜん} is a strongly negative term describing false virtue — pretending to be good or moral while acting otherwise. The kanji break down as {偽|ぎ} (false) + ⟦{善|ぜん}→善：00465_zen⟧ (goodness, virtue).\n\nCOMMON EXPRESSIONS:\n- {偽善|ぎぜん}{者|しゃ}: hypocrite (person)\n- {偽善|ぎぜん}{的|てき}（な）: hypocritical\n- {偽善|ぎぜん}⟦に→に：00314_ni⟧⟦{満|み}ちた→満ちる：02428_michiru⟧: full of hypocrisy\n\nCOMMON PATTERNS:\n- {偽善|ぎぜん}だ⟦と→と：00512_to⟧⟦{批判|ひはん}する→批判する：21993_hihansuru⟧: to criticize as hypocrisy\n- {偽善|ぎぜん}⟦に→に：00314_ni⟧⟦{過|す}ぎない→過ぎる：01219_sugiru⟧: to be nothing but hypocrisy\n\nSIMILAR WORDS:\n- ⟦{善意|ぜんい}→善意：11813_zeni⟧: goodwill, good intentions (genuine)\n- {偽善|ぎぜん}: pretended goodness (false)\n\nUSAGE:\nOften used to accuse someone of insincere kindness or charity, particularly in public discourse. Calling something {偽善|ぎぜん} is a serious accusation.",
   "cross_references": [
     {
       "type": "related",
@@ -45,17 +51,28 @@
       "reading": "にせ",
       "headword": "{偽|にせ}",
       "label": "fake, counterfeit"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11813_zeni",
+      "reading": "ぜんい",
+      "headword": "{善意|ぜんい}",
+      "label": "goodwill, good intentions"
     }
   ],
   "metadata": {
     "created": "2026-02-05T11:49:02Z",
-    "modified": "2026-03-25T04:08:57Z",
+    "modified": "2026-09-02T04:01:20Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

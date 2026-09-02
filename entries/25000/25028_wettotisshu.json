@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25028_wettotisshu_ex1",
-      "japanese": "ウェットティッシュで{手|て}を{拭|ふ}く。",
+      "japanese": "ウェットティッシュ⟦で→で：00502_de⟧⟦{手|て}→手：00569_te⟧⟦を→を：00422_wo⟧⟦{拭|ふ}く→拭く：04261_fuku⟧。",
       "english": "Wipe your hands with a wet wipe.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25028_wettotisshu_ex2",
-      "japanese": "ウェットティッシュを{持|も}ってきてよかった。",
+      "japanese": "ウェットティッシュ⟦を→を：00422_wo⟧⟦{持|も}って→持つ：00478_motsu⟧きて⟦よかった→いい：00118_ii⟧。",
       "english": "I'm glad I brought wet wipes.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25028_wettotisshu_ex3",
-      "japanese": "{子|こ}どもが{食|た}べこぼしたから、ウェットティッシュでテーブルを{拭|ふ}いた。",
+      "japanese": "{子|こ}ども⟦が→が：00051_ga⟧{食|た}べこぼした⟦から→から：00504_kara⟧、ウェットティッシュ⟦で→で：00502_de⟧⟦テーブル→テーブル：04488_teeburu⟧⟦を→を：00422_wo⟧⟦{拭|ふ}いた→拭く：04261_fuku⟧。",
       "english": "The child spilled food, so I wiped the table with a wet wipe.",
       "sense_numbers": [
         1
@@ -44,20 +44,52 @@
       "notes": null
     }
   ],
-  "notes": "A loanword from English (wet + tissue). Japan has a strong culture of cleanliness, and wet wipes are ubiquitous — many restaurants provide {おしぼり|おしぼり} (hot towels), and people commonly carry portable packs of ウェットティッシュ.\n\nCOMMON COLLOCATIONS:\n- ウェットティッシュで{拭|ふ}く: wipe with a wet tissue\n- {除菌|じょきん}ウェットティッシュ: antibacterial wet wipes\n- {携帯用|けいたいよう}ウェットティッシュ: portable wet wipes\n- ノンアルコールウェットティッシュ: alcohol-free wet wipes\n\nRELATED TERMS:\n- おしぼり: hot/cold hand towel — provided at restaurants, reusable\n- ティッシュ: tissue — dry tissue paper\n- {除菌|じょきん}シート: antibacterial sheet — functional synonym",
+  "notes": "A loanword from English (wet + tissue). Japan has a strong culture of cleanliness, and wet wipes are ubiquitous — many restaurants provide ⟦おしぼり→おしぼり：09726_oshibori⟧ (hot towels), and people commonly carry portable packs of ウェットティッシュ.\n\nCOMMON COLLOCATIONS:\n- ウェットティッシュ⟦で→で：00502_de⟧⟦{拭|ふ}く→拭く：04261_fuku⟧: wipe with a wet tissue\n- ⟦{除菌|じょきん}→除菌：07789_jokin⟧ウェットティッシュ: antibacterial wet wipes\n- {携帯用|けいたいよう}ウェットティッシュ: portable wet wipes\n- ノンアルコールウェットティッシュ: alcohol-free wet wipes\n\nRELATED WORDS:\n- ⟦おしぼり→おしぼり：09726_oshibori⟧: hot/cold hand towel — provided at restaurants, reusable\n- ⟦ティッシュ→ティッシュ：08816_tisshu⟧: tissue — dry tissue paper\n- ⟦{除菌|じょきん}→除菌：07789_jokin⟧⟦シート→シート：10945_shiito⟧: antibacterial sheet — functional synonym",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "09726_oshibori",
+      "reading": "おしぼり",
+      "headword": "おしぼり",
+      "label": "hot/cold hand towel"
+    },
+    {
+      "type": "related",
+      "target_id": "08816_tisshu",
+      "reading": "てぃっしゅ",
+      "headword": "ティッシュ",
+      "label": "tissue"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24995_peepaataoru",
+      "reading": "ぺーぱーたおる",
+      "headword": "ペーパータオル",
+      "label": "paper towel"
+    },
+    {
+      "type": "related",
+      "target_id": "26511_hakotisshu",
+      "reading": "はこてぃっしゅ",
+      "headword": "{箱|はこ}ティッシュ",
+      "label": "box tissues"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "daily-life",
         "health"
       ]
     },
     "created": "2026-04-22T11:26:10Z",
-    "modified": "2026-08-03T09:22:27Z"
+    "modified": "2026-09-02T04:02:20Z"
   }
 }

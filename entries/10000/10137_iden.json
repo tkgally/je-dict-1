@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "10137_iden_ex1",
-      "japanese": "{若|わか}いのに{白髪|しらが}があるのは{遺伝|いでん}かもしれない。",
+      "japanese": "{若|わか}い⟦の→の：09472_no⟧⟦に→に：00314_ni⟧⟦{白髪|しらが}→白髪：00369_shiraga⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧⟦の→の：09472_no⟧⟦は→は：00079_ha⟧{遺伝|いでん}⟦かもしれない→かもしれない：00164_kamoshirenai⟧。",
       "english": "Having gray hair at a young age might be genetic.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "10137_iden_ex2",
-      "japanese": "{遺伝|いでん}の{影響|えいきょう}は{大|おお}きい。",
+      "japanese": "{遺伝|いでん}⟦の→の：09472_no⟧⟦{影響|えいきょう}→影響：01877_eikyou⟧⟦は→は：00079_ha⟧⟦{大|おお}きい→大きい：00335_ookii⟧。",
       "english": "The influence of heredity is significant.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "10137_iden_ex3",
-      "japanese": "この{病気|びょうき}は{遺伝|いでん}する。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{病気|びょうき}→病気：00771_byouki⟧⟦は→は：00079_ha⟧{遺伝|いでん}⟦する→する：00392_suru⟧。",
       "english": "This disease is hereditary.",
       "notes": null,
       "has_audio": false,
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "{遺伝|いでん} refers to the biological process of passing traits from parents to offspring. Used both as a noun and with する to mean 'to be hereditary.'\n\nCOMMON COMPOUNDS:\n- {遺伝|いでん}{子|し}: gene\n- {遺伝|いでん}{情報|じょうほう}: genetic information\n- {遺伝|いでん}{病|びょう}: hereditary disease\n- {遺伝|いでん}{子|し}{検査|けんさ}: genetic testing\n- {遺伝|いでん}{学|がく}: genetics (the field of study)\n- {遺伝|いでん}{子|し}{組|く}み{換|か}え: genetic modification/GMO\n\nCOMMON PATTERNS:\n- {遺伝|いでん}する: to be hereditary\n- {親|おや}から{遺伝|いでん}する: to inherit from one's parents\n- {遺伝|いでん}の{影響|えいきょう}: influence of heredity\n\nUSAGE:\nIn everyday conversation, often used when discussing traits like appearance or health conditions that run in families.",
+  "notes": "{遺伝|いでん} refers to the biological process of passing traits from parents to offspring. Used both as a noun and with ⟦する→する：00392_suru⟧ to mean 'to be hereditary.'\n\nCOMPOUNDS:\n- {遺伝|いでん}{子|し}: gene\n- {遺伝|いでん}⟦{情報|じょうほう}→情報：03348_jouhou⟧: genetic information\n- {遺伝|いでん}{病|びょう}: hereditary disease\n- {遺伝|いでん}{子|し}⟦{検査|けんさ}→検査：02707_kensa⟧: genetic testing\n- {遺伝|いでん}{学|がく}: genetics (the field of study)\n- {遺伝|いでん}{子|し}{組|く}み{換|か}え: genetic modification/GMO\n\nCOMMON PATTERNS:\n- {遺伝|いでん}⟦する→する：00392_suru⟧: to be hereditary\n- ⟦{親|おや}→親：01357_oya⟧⟦から→から：00504_kara⟧{遺伝|いでん}⟦する→する：00392_suru⟧: to inherit from one's parents\n- {遺伝|いでん}⟦の→の：09472_no⟧⟦{影響|えいきょう}→影響：01877_eikyou⟧: influence of heredity\n\nUSAGE:\nIn everyday conversation, often used when discussing traits like appearance or health conditions that run in families.",
   "cross_references": [
     {
       "type": "related",
@@ -141,11 +141,18 @@
       "reading": "いでんし",
       "headword": "{遺伝子|いでんし}",
       "label": "gene"
+    },
+    {
+      "type": "related",
+      "target_id": "22636_wakashiraga",
+      "reading": "わかしらが",
+      "headword": "{若白髪|わかしらが}",
+      "label": "premature gray hair"
     }
   ],
   "metadata": {
     "created": "2026-02-05T08:37:56Z",
-    "modified": "2026-04-24T04:04:43Z",
+    "modified": "2026-09-02T04:01:20Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -158,7 +165,8 @@
       "semantic": [
         "general"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

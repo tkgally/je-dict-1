@@ -15,41 +15,74 @@
   "examples": [
     {
       "id": "30057_sabu_ex1",
-      "japanese": "{今日|きょう}はサブに{回|まわ}る。",
+      "japanese": "⟦{今日|きょう}→今日：00496_kyou⟧⟦は→は：00079_ha⟧サブ⟦に→に：00314_ni⟧⟦{回|まわ}る→回る：01150_mawaru⟧。",
       "english": "Today I'm on the bench as a sub.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "30057_sabu_ex2",
-      "japanese": "メインが{使|つか}えないときは、サブの{機器|きき}を{使|つか}う。",
+      "japanese": "⟦メイン→メイン：11164_mein⟧⟦が→が：00051_ga⟧⟦{使|つか}えない→使う：00473_tsukau⟧とき⟦は→は：00079_ha⟧、サブ⟦の→の：09472_no⟧⟦{機器|きき}→機器：13180_kiki⟧⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧。",
       "english": "When the main one is unavailable, we use the backup device.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "30057_sabu_ex3",
-      "japanese": "{試合|しあい}では、サブの{選手|せんしゅ}が{後半|こうはん}から{出場|しゅつじょう}した。",
+      "japanese": "⟦{試合|しあい}→試合：01601_shiai⟧で⟦は→は：00079_ha⟧、サブ⟦の→の：09472_no⟧⟦{選手|せんしゅ}→選手：03823_senshu⟧⟦が→が：00051_ga⟧⟦{後半|こうはん}→後半：12555_kouhan⟧⟦から→から：00504_kara⟧⟦{出場|しゅつじょう}した→出場する：20348_shutsujousuru⟧。",
       "english": "In the match, a substitute player came on from the second half.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A clipped form of English 'sub(stitute)'. Used on its own for a backup player or spare, and as a prefix サブ〜 for anything secondary.\n\nCOMMON COLLOCATIONS:\n- サブに{回|まわ}る: to be moved to backup or the bench\n- サブアカウント: a secondary (social media) account\n- サブの{選手|せんしゅ}: a substitute player\n\nSIMILAR WORDS:\n- {控|ひか}え: reserve, backup — a native equivalent, e.g. a reserve player\n- メイン: main — the opposite; the primary one",
+  "notes": "A clipped form of English 'sub(stitute)'. Used on its own for a backup player or spare, and as a prefix サブ〜 for anything secondary.\n\nCOMMON COLLOCATIONS:\n- サブ⟦に→に：00314_ni⟧⟦{回|まわ}る→回る：01150_mawaru⟧: to be moved to backup or the bench\n- サブアカウント: a secondary (social media) account\n- サブ⟦の→の：09472_no⟧⟦{選手|せんしゅ}→選手：03823_senshu⟧: a substitute player\n\nSIMILAR WORDS:\n- ⟦{控|ひか}え→控える：10054_hikaeru⟧: reserve, backup — a native equivalent, e.g. a reserve player\n- ⟦メイン→メイン：11164_mein⟧: main — the opposite; the primary one",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15908_hikae",
+      "reading": "ひかえ",
+      "headword": "{控|ひか}え",
+      "label": "reserve, backup"
+    },
+    {
+      "type": "antonym",
+      "target_id": "11164_mein",
+      "reading": "めいん",
+      "headword": "メイン",
+      "label": "main"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06589_sutamen",
+      "reading": "すためん",
+      "headword": "スタメン",
+      "label": "starting lineup"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["general"],
+      "politeness": "plain",
+      "semantic": [
+        "general"
+      ],
       "domain": []
     },
     "created": "2026-07-23T00:19:28Z",
-    "modified": "2026-07-23T00:19:28Z"
+    "modified": "2026-09-02T04:02:38Z"
   }
 }

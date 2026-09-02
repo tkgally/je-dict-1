@@ -92,7 +92,6 @@ def rebuild_kanji_json(kanji_chars: set = None):
                 })
 
     # Generate JSON files
-    timestamp = datetime.now(timezone.utc).isoformat().replace('+00:00', 'Z')
     kanji_dir = Path('kanji')
 
     for k in kanji_chars:
@@ -111,8 +110,7 @@ def rebuild_kanji_json(kanji_chars: set = None):
                 'onyomi': kanji_info['onyomi'],
                 'kunyomi': kanji_info['kunyomi'],
                 'gloss': kanji_info['gloss'],
-                'entry_count': len(entries_sorted),
-                'generated': timestamp
+                'entry_count': len(entries_sorted)
             },
             'entries': entries_sorted
         }

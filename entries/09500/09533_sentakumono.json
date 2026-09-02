@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "09533_sentakumono_ex1",
-      "japanese": "{洗濯物|せんたくもの}を{干|ほ}す。",
+      "japanese": "{洗濯物|せんたくもの}⟦を→を：00422_wo⟧⟦{干|ほ}す→干す：00115_hosu⟧。",
       "english": "To hang the laundry out to dry.",
       "has_audio": false,
       "sense_numbers": [
@@ -23,7 +23,7 @@
     },
     {
       "id": "09533_sentakumono_ex2",
-      "japanese": "{洗濯物|せんたくもの}が{乾|かわ}いた。",
+      "japanese": "{洗濯物|せんたくもの}⟦が→が：00051_ga⟧⟦{乾|かわ}いた→乾く：00786_kawaku⟧。",
       "english": "The laundry has dried.",
       "has_audio": false,
       "sense_numbers": [
@@ -32,7 +32,7 @@
     },
     {
       "id": "09533_sentakumono_ex3",
-      "japanese": "{雨|あめ}が{降|ふ}りそうだから、{洗濯物|せんたくもの}を{取|と}り{込|こ}まなきゃ。",
+      "japanese": "⟦{雨|あめ}→雨：00583_ame⟧⟦が→が：00051_ga⟧⟦{降|ふ}り→降る：00839_furu⟧そうだ⟦から→から：00504_kara⟧、{洗濯物|せんたくもの}⟦を→を：00422_wo⟧⟦{取|と}り{込|こ}まなきゃ→取り込む：05871_torikomu⟧。",
       "english": "It looks like it might rain, so I need to bring in the laundry.",
       "has_audio": false,
       "sense_numbers": [
@@ -40,10 +40,10 @@
       ]
     }
   ],
-  "notes": "COMMON COLLOCATIONS:\n- {洗濯物|せんたくもの}を{干|ほ}す: to hang laundry\n- {洗濯物|せんたくもの}を{取|と}り{込|こ}む: to bring in laundry\n- {洗濯物|せんたくもの}をたたむ: to fold laundry\n\nUSAGE NOTE:\nRefers to clothes in any stage of the laundry process - waiting to be washed, currently washing, or drying. In Japan, hanging laundry outside to dry is common.\n\nRELATED:\n- {洗濯|せんたく}: laundry (action), washing\n- {物干|ものほ}し: drying rack/line",
+  "notes": "COMMON COLLOCATIONS:\n- {洗濯物|せんたくもの}⟦を→を：00422_wo⟧⟦{干|ほ}す→干す：00115_hosu⟧: to hang laundry\n- {洗濯物|せんたくもの}⟦を→を：00422_wo⟧⟦{取|と}り{込|こ}む→取り込む：05871_torikomu⟧: to bring in laundry\n- {洗濯物|せんたくもの}⟦を→を：00422_wo⟧たたむ: to fold laundry\n\nUSAGE:\nRefers to clothes in any stage of the laundry process - waiting to be washed, currently washing, or drying. In Japan, hanging laundry outside to dry is common.\n\nRELATED WORDS:\n- ⟦{洗濯|せんたく}→洗濯：13283_sentaku⟧: laundry (action), washing\n- ⟦{物干|ものほ}し→物干し：07094_monohoshi⟧: drying rack/line",
   "metadata": {
     "created": "2026-02-02T10:38:47Z",
-    "modified": "2026-08-27T12:49:51Z",
+    "modified": "2026-09-02T04:01:18Z",
     "ai_model": "claude-opus-4-5-20251101",
     "vocabulary_tier": "general",
     "tags": {
@@ -71,6 +71,27 @@
       "headword": "{洗濯|せんたく}ばさみ",
       "label": "clothespin",
       "target_id": "07041_sentakubasami"
+    },
+    {
+      "type": "related",
+      "target_id": "07094_monohoshi",
+      "reading": "ものほし",
+      "headword": "{物干|ものほ}し",
+      "label": "drying rack/line"
+    },
+    {
+      "type": "related",
+      "target_id": "08019_monohoshizao",
+      "reading": "ものほしざお",
+      "headword": "{物干|ものほ}し{竿|ざお}",
+      "label": "laundry pole"
+    },
+    {
+      "type": "related",
+      "target_id": "08171_araimono",
+      "reading": "あらいもの",
+      "headword": "{洗|あら}い{物|もの}",
+      "label": "dishes to wash"
     }
   ]
 }

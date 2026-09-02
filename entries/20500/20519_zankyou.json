@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "20519_zankyou_ex1",
-      "japanese": "{教会|きょうかい}の{残響|ざんきょう}が{美|うつく}しい。",
+      "japanese": "⟦{教会|きょうかい}→教会：01387_kyoukai⟧⟦の→の：09472_no⟧{残響|ざんきょう}⟦が→が：00051_ga⟧⟦{美|うつく}しい→美しい：01121_utsukushii⟧。",
       "english": "The reverberation in the church is beautiful.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "20519_zankyou_ex2",
-      "japanese": "コンサートホールの{残響|ざんきょう}{時間|じかん}は{約|やく}{二秒|にびょう}だ。",
+      "japanese": "⟦コンサート→コンサート：01360_konsaato⟧⟦ホール→ホール：11169_hooru⟧⟦の→の：09472_no⟧{残響|ざんきょう}⟦{時間|じかん}→時間：00468_jikan⟧⟦は→は：00079_ha⟧⟦{約|やく}→約：09563_yaku⟧{二秒|にびょう}だ。",
       "english": "The reverberation time of the concert hall is about two seconds.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "20519_zankyou_ex3",
-      "japanese": "ピアノの{最後|さいご}の{音|おと}が{消|き}え、しばらく{残響|ざんきょう}だけがホールに{漂|ただよ}っていた。",
+      "japanese": "⟦ピアノ→ピアノ：01376_piano⟧⟦の→の：09472_no⟧⟦{最後|さいご}→最後：01413_saigo⟧⟦の→の：09472_no⟧⟦{音|おと}→音：00743_oto⟧⟦が→が：00051_ga⟧⟦{消|き}え→消える：02520_kieru⟧、⟦しばらく→しばらく：01267_shibaraku⟧{残響|ざんきょう}⟦だけ→〜だけ：03093_dake⟧⟦が→が：00051_ga⟧⟦ホール→ホール：11169_hooru⟧⟦に→に：00314_ni⟧⟦{漂|ただよ}っていた→漂う：04356_tadayou⟧。",
       "english": "The last piano note faded, and for a while only the reverberation lingered in the hall.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "The lingering sound that remains after the original sound source has stopped. Composed of {残|ざん} (remain/linger) + {響|きょう} (sound/echo). Used both as a technical term in acoustics and architecture, and in literary or poetic contexts.\n\nCOMMON COLLOCATIONS:\n- {残響|ざんきょう}{時間|じかん}: reverberation time (a key measure in acoustics)\n- {残響|ざんきょう}が{長|なが}い: long reverberation\n- {残響|ざんきょう}が{豊|ゆた}か: rich reverberation\n- {残響|ざんきょう}を{抑|おさ}える: to dampen reverberation\n\nSIMILAR WORDS:\n- {反響|はんきょう}: echo, reverberation — also used figuratively for \"response\" or \"reaction\"\n- こだま: echo — the natural echo off mountains or valleys\n- {余韻|よいん}: lingering resonance — used figuratively for the emotional aftereffect of an experience\n- エコー: echo — the loanword, used in everyday and audio contexts\n\nNOTE:\nIn music and audio engineering, {残響|ざんきょう} corresponds to \"reverb.\" The {残響|ざんきょう}{時間|じかん} (reverberation time, often called RT60) is a crucial specification for concert halls and recording studios.",
+  "notes": "The lingering sound that remains after the original sound source has stopped. Composed of {残|ざん} (remain/linger) + {響|きょう} (sound/echo). Used both as a technical term in acoustics and architecture, and in literary or poetic contexts.\n\nCOMMON COLLOCATIONS:\n- {残響|ざんきょう}⟦{時間|じかん}→時間：00468_jikan⟧: reverberation time (a key measure in acoustics)\n- {残響|ざんきょう}⟦が→が：00051_ga⟧⟦{長|なが}い→長い：00491_nagai⟧: long reverberation\n- {残響|ざんきょう}⟦が→が：00051_ga⟧⟦{豊|ゆた}か→豊か：03654_yutaka⟧: rich reverberation\n- {残響|ざんきょう}⟦を→を：00422_wo⟧⟦{抑|おさ}える→抑える：12806_osaeru⟧: to dampen reverberation\n\nSIMILAR WORDS:\n- ⟦{反響|はんきょう}→反響：09126_hankyou⟧: echo, reverberation — also used figuratively for \"response\" or \"reaction\"\n- ⟦こだま→こだま：27592_kodama⟧: echo — the natural echo off mountains or valleys\n- ⟦{余韻|よいん}→余韻：10560_yoin⟧: lingering resonance — used figuratively for the emotional aftereffect of an experience\n- エコー: echo — the loanword, used in everyday and audio contexts\n\nUSAGE:\nIn music and audio engineering, {残響|ざんきょう} corresponds to \"reverb.\" The {残響|ざんきょう}⟦{時間|じかん}→時間：00468_jikan⟧ (reverberation time, often called RT60) is a crucial specification for concert halls and recording studios.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09126_hankyou",
+      "reading": "はんきょう",
+      "headword": "{反響|はんきょう}",
+      "label": "echo, reverberation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27592_kodama",
+      "reading": "こだま",
+      "headword": "こだま",
+      "label": "echo"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10560_yoin",
+      "reading": "よいん",
+      "headword": "{余韻|よいん}",
+      "label": "lingering resonance"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +83,6 @@
       ]
     },
     "created": "2026-03-29T16:26:44Z",
-    "modified": "2026-07-28T09:35:50Z"
+    "modified": "2026-09-02T04:02:00Z"
   }
 }

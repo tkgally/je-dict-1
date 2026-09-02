@@ -3,7 +3,7 @@
   "headword": "{思|おも}いとどまる",
   "reading": "おもいとどまる",
   "romaji": "omoitodomaru",
-  "part_of_speech": "verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to think better of it; to hold back from doing; to give up on an idea",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30705_omoitodomaru_ex1",
-      "japanese": "{最後|さいご}に{思|おも}いとどまった。",
+      "japanese": "⟦{最後|さいご}→最後：01413_saigo⟧⟦に→に：00314_ni⟧{思|おも}いとどまった。",
       "english": "At the last moment he thought better of it.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30705_omoitodomaru_ex2",
-      "japanese": "{友人|ゆうじん}に{説得|せっとく}されて{退職|たいしょく}を{思|おも}いとどまった。",
+      "japanese": "⟦{友人|ゆうじん}→友人：03649_yuujin⟧⟦に→に：00314_ni⟧⟦{説得|せっとく}→説得：14219_settoku⟧⟦されて→する：00392_suru⟧⟦{退職|たいしょく}→退職：04559_taishoku⟧⟦を→を：00422_wo⟧{思|おも}いとどまった。",
       "english": "A friend talked her out of it, and she gave up on resigning.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30705_omoitodomaru_ex3",
-      "japanese": "{家|いえ}を{売|う}るつもりだったが、{家族|かぞく}の{反対|はんたい}で{思|おも}いとどまることにした。",
+      "japanese": "⟦{家|いえ}→家：00612_ie⟧⟦を→を：00422_wo⟧⟦{売|う}る→売る：00906_uru⟧⟦つもり→つもり：01152_tsumori⟧だった⟦が→が：00051_ga⟧、⟦{家族|かぞく}→家族：00552_kazoku⟧⟦の→の：09472_no⟧⟦{反対|はんたい}→反対：01497_hantai⟧⟦で→で：00502_de⟧{思|おも}いとどまることにした。",
       "english": "I had intended to sell the house, but my family objected so I decided against it.",
       "sense_numbers": [
         1
@@ -44,8 +44,23 @@
       "notes": null
     }
   ],
-  "notes": "TRANSITIVITY:\n- Transitive: the abandoned plan takes を ({退職|たいしょく}を{思|おも}いとどまる). It is also very common with no object at all, when the plan is clear from context.\n\nCOMMON COLLOCATIONS:\n- {説得|せっとく}されて{思|おも}いとどまる: to be talked out of it\n- {思|おも}いとどまるよう{説得|せっとく}する: to persuade someone to reconsider\n- {寸前|すんぜん}で{思|おも}いとどまる: to stop oneself at the last second\n\nSIMILAR WORDS:\n- あきらめる: to give up — to abandon a hope, often because it turned out to be impossible; {思|おも}いとどまる is a deliberate choice to hold back\n- やめる: to quit, to stop — plain and neutral, with none of the sense of restraining oneself",
-  "cross_references": [],
+  "notes": "TRANSITIVITY:\n- Transitive: the abandoned plan takes ⟦を→を：00422_wo⟧ (⟦{退職|たいしょく}→退職：04559_taishoku⟧⟦を→を：00422_wo⟧{思|おも}いとどまる). It is also very common with no object at all, when the plan is clear from context.\n\nCOMMON COLLOCATIONS:\n- ⟦{説得|せっとく}→説得：14219_settoku⟧⟦されて→する：00392_suru⟧{思|おも}いとどまる: to be talked out of it\n- {思|おも}いとどまるよう⟦{説得|せっとく}する→説得する：21139_settokusuru⟧: to persuade someone to reconsider\n- ⟦{寸前|すんぜん}→寸前：12356_sunzen⟧⟦で→で：00502_de⟧{思|おも}いとどまる: to stop oneself at the last second\n\nSIMILAR WORDS:\n- あきらめる: to give up — to abandon a hope, often because it turned out to be impossible; {思|おも}いとどまる is a deliberate choice to hold back\n- ⟦やめる→やめる：00909_yameru⟧: to quit, to stop — plain and neutral, with none of the sense of restraining oneself",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01813_akirameru",
+      "reading": "あきらめる",
+      "headword": "{諦|あきら}める",
+      "label": "to give up"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00909_yameru",
+      "reading": "やめる",
+      "headword": "やめる",
+      "label": "to quit, to stop"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -55,7 +70,7 @@
       ],
       "transitivity": "transitive",
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "cognition",
         "action"
@@ -64,7 +79,7 @@
       "verb_class": "godan-ru"
     },
     "created": "2026-08-20T02:40:41Z",
-    "modified": "2026-08-20T02:40:41Z"
+    "modified": "2026-09-02T04:02:41Z"
   },
   "conjugation": {
     "type": "godan",

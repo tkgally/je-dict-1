@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "18480_danro_ex1",
-      "japanese": "{暖炉|だんろ}に{火|ひ}をつける。",
+      "japanese": "{暖炉|だんろ}⟦に→に：00314_ni⟧⟦{火|ひ}をつける→火をつける：22628_hiwotsukeru⟧。",
       "english": "To light a fire in the fireplace.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "18480_danro_ex2",
-      "japanese": "{暖炉|だんろ}の{前|まえ}で{本|ほん}を{読|よ}む。",
+      "japanese": "{暖炉|だんろ}⟦の→の：09472_no⟧⟦{前|まえ}→前：02255_mae⟧⟦で→で：00502_de⟧{本|ほん}⟦を→を：00422_wo⟧⟦{読|よ}む→読む：00426_yomu⟧。",
       "english": "To read a book in front of the fireplace.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "18480_danro_ex3",
-      "japanese": "{冬|ふゆ}になると、{暖炉|だんろ}のある{山小屋|やまごや}で{過|す}ごすのが{楽|たの}しみだ。",
+      "japanese": "⟦{冬|ふゆ}→冬：00623_fuyu⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦と→と：00512_to⟧、{暖炉|だんろ}⟦の→の：09472_no⟧⟦ある→ある：00006_aru⟧⟦{山小屋|やまごや}→山小屋：18402_yamagoya⟧⟦で→で：00502_de⟧⟦{過|す}ごす→過ごす：02062_sugosu⟧⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦{楽|たの}しみ→楽しみ：01651_tanoshimi⟧だ。",
       "english": "In winter, I look forward to spending time in a mountain lodge with a fireplace.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Traditional Japanese homes use different heating methods such as {囲炉裏|いろり} (open hearth sunk into the floor) and こたつ (heated table). {暖炉|だんろ} specifically refers to the Western-style fireplace built into a wall with a chimney. Common collocations: {暖炉|だんろ}に{火|ひ}をつける (to light the fireplace), {暖炉|だんろ}の{前|まえ} (in front of the fireplace), {暖炉|だんろ}の{火|ひ} (the fire in the fireplace).",
+  "notes": "Traditional Japanese homes use different heating methods such as ⟦{囲炉裏|いろり}→囲炉裏：12008_irori⟧ (open hearth sunk into the floor) and こたつ (heated table). {暖炉|だんろ} specifically refers to the Western-style fireplace built into a wall with a chimney. Common collocations: {暖炉|だんろ}⟦に→に：00314_ni⟧⟦{火|ひ}をつける→火をつける：22628_hiwotsukeru⟧ (to light the fireplace), {暖炉|だんろ}⟦の→の：09472_no⟧⟦{前|まえ}→前：02255_mae⟧ (in front of the fireplace), {暖炉|だんろ}⟦の→の：09472_no⟧⟦{火|ひ}→火：02248_hi⟧ (the fire in the fireplace).",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -59,7 +59,7 @@
       ]
     },
     "created": "2026-03-22T03:09:33Z",
-    "modified": "2026-04-29T05:15:51Z"
+    "modified": "2026-09-02T04:01:52Z"
   },
   "cross_references": [
     {
@@ -68,6 +68,13 @@
       "reading": "ろ",
       "headword": "{炉|ろ}",
       "label": "furnace, hearth"
+    },
+    {
+      "type": "related",
+      "target_id": "02271_entotsu",
+      "reading": "えんとつ",
+      "headword": "{煙突|えんとつ}",
+      "label": "chimney, smokestack"
     }
   ]
 }

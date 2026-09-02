@@ -15,41 +15,51 @@
   "examples": [
     {
       "id": "29997_hire_ex1",
-      "japanese": "{魚|さかな}は{鰭|ひれ}を{使|つか}って{泳|およ}ぐ。",
+      "japanese": "⟦{魚|さかな}→魚：00499_sakana⟧⟦は→は：00079_ha⟧{鰭|ひれ}⟦を→を：00422_wo⟧⟦{使|つか}って→使う：00473_tsukau⟧⟦{泳|およ}ぐ→泳ぐ：00545_oyogu⟧。",
       "english": "Fish swim using their fins.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29997_hire_ex2",
-      "japanese": "サメの{背|せ}{鰭|びれ}が{水面|すいめん}に{現|あらわ}れた。",
+      "japanese": "サメ⟦の→の：09472_no⟧{背|せ}{鰭|びれ}⟦が→が：00051_ga⟧⟦{水面|すいめん}→水面：04307_suimen⟧⟦に→に：00314_ni⟧⟦{現|あらわ}れた→現れる：01870_arawareru⟧。",
       "english": "A shark's dorsal fin appeared at the surface.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29997_hire_ex3",
-      "japanese": "イルカは{鰭|ひれ}で{方向|ほうこう}を{変|か}えながら{泳|およ}ぐ。",
+      "japanese": "イルカ⟦は→は：00079_ha⟧{鰭|ひれ}⟦で→で：00502_de⟧⟦{方向|ほうこう}→方向：03617_houkou⟧⟦を→を：00422_wo⟧⟦{変|か}え→変える：01089_kaeru⟧⟦ながら→ながら：10530_nagara⟧⟦{泳|およ}ぐ→泳ぐ：00545_oyogu⟧。",
       "english": "Dolphins swim while changing direction with their fins.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "The swimming appendage of fish and other aquatic animals. In compounds the reading usually voices to -びれ.\n\nCOMMON COMPOUNDS:\n- {背|せ}{鰭|びれ}: dorsal fin\n- {尾|お}{鰭|びれ}: tail fin\n- {胸|むな}{鰭|びれ}: pectoral fin",
+  "notes": "The swimming appendage of fish and other aquatic animals. In compounds the reading usually voices to -びれ.\n\nCOMPOUNDS:\n- {背|せ}{鰭|びれ}: dorsal fin\n- {尾|お}{鰭|びれ}: tail fin\n- {胸|むな}{鰭|びれ}: pectoral fin",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["animal-fish"],
+      "politeness": "plain",
+      "semantic": [
+        "animal-fish"
+      ],
       "domain": []
     },
     "created": "2026-07-21T00:17:50Z",
-    "modified": "2026-07-21T00:17:50Z"
+    "modified": "2026-09-02T04:02:38Z"
   }
 }

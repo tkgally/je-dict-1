@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "10481_susuki_ex1",
-      "japanese": "すすきが{風|かぜ}に{揺|ゆ}れている。",
+      "japanese": "すすき⟦が→が：00051_ga⟧⟦{風|かぜ}→風：00641_kaze⟧⟦に→に：00314_ni⟧⟦{揺|ゆ}れている→揺れる：01161_yureru⟧。",
       "english": "The pampas grass is swaying in the wind.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "10481_susuki_ex2",
-      "japanese": "{月見|つきみ}にはすすきを{飾|かざ}る。",
+      "japanese": "⟦{月見|つきみ}→月見：13001_tsukimi⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧すすき⟦を→を：00422_wo⟧⟦{飾|かざ}る→飾る：01185_kazaru⟧。",
       "english": "We decorate with pampas grass for moon viewing.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "10481_susuki_ex3",
-      "japanese": "{秋|あき}の{高原|こうげん}には{一面|いちめん}のすすきが{広|ひろ}がり、{銀色|ぎんいろ}に{輝|かがや}いていた。",
+      "japanese": "⟦{秋|あき}→秋：02276_aki⟧⟦の→の：09472_no⟧⟦{高原|こうげん}→高原：05497_kougen⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{一面|いちめん}→一面：11184_ichimen⟧⟦の→の：09472_no⟧すすき⟦が→が：00051_ga⟧⟦{広|ひろ}がり→広がる：01980_hirogaru⟧、⟦{銀色|ぎんいろ}→銀色：05068_giniro⟧⟦に→に：00314_ni⟧⟦{輝|かがや}いていた→輝く：02032_kagayaku⟧。",
       "english": "The highland in autumn was covered with pampas grass, shining silver.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,19 @@
       ]
     }
   ],
-  "notes": "The kanji form is {薄|すすき} or {芒|すすき}, but hiragana or katakana (ススキ) is more common.\n\nCULTURAL NOTE:\nすすき is one of the {秋|あき}の{七草|ななくさ} (seven grasses of autumn) and is closely associated with {月見|つきみ} (moon viewing). It is traditionally displayed alongside {月見団子|つきみだんご} during the mid-autumn festival.\n\nRELATED:\n- {月見|つきみ}: moon viewing\n- {秋|あき}の{七草|ななくさ}: seven grasses of autumn",
-  "cross_references": [],
+  "notes": "The kanji form is {薄|すすき} or {芒|すすき}, but hiragana or katakana (ススキ) is more common.\n\nCULTURAL NOTE:\nすすき is one of the ⟦{秋|あき}→秋：02276_aki⟧⟦の→の：09472_no⟧⟦{七草|ななくさ}→七草：11190_nanakusa⟧ (seven grasses of autumn) and is closely associated with ⟦{月見|つきみ}→月見：13001_tsukimi⟧ (moon viewing). It is traditionally displayed alongside {月見団子|つきみだんご} during the mid-autumn festival.\n\nRELATED WORDS:\n- ⟦{月見|つきみ}→月見：13001_tsukimi⟧: moon viewing\n- ⟦{秋|あき}→秋：02276_aki⟧⟦の→の：09472_no⟧⟦{七草|ななくさ}→七草：11190_nanakusa⟧: seven grasses of autumn",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "13001_tsukimi",
+      "reading": "つきみ",
+      "headword": "{月見|つきみ}",
+      "label": "moon viewing"
+    }
+  ],
   "metadata": {
     "created": "2026-02-07T21:20:27Z",
-    "modified": "2026-06-27T03:38:18Z",
+    "modified": "2026-09-02T04:01:21Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

@@ -2,7 +2,7 @@
   "id": "01437_shoubu",
   "headword": "{勝負|しょうぶ}",
   "reading": "しょうぶ",
-  "part_of_speech": "noun (verbal)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "match, contest",
   "conjugation": {
     "type": "suru",
@@ -168,7 +168,7 @@
       ]
     }
   ],
-  "notes": "{勝負|しょうぶ} means a match or contest, combining ⟦{勝|か}つ→勝つ：01199_katsu⟧ (win) and ⟦{負|ま}ける→負ける：01134_makeru⟧ (lose).\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n- No standard transitive pair\n- Pattern: {勝負|しょうぶ}⟦する→する：00392_suru⟧\n\nVERBAL USAGE:\n{勝負|しょうぶ}⟦する→する：00392_suru⟧ means to compete, to have a match.\n\nCOMMON EXPRESSIONS:\n- {勝負|しょうぶ}⟦しよう→する：00392_suru⟧: Let's have a match!\n- {勝負|しょうぶ}⟦が→が：00051_ga⟧⟦つく→付く：01960_tsuku⟧: the match is decided\n- {勝負|しょうぶ}⟦が→が：00051_ga⟧⟦つかない→付く：01960_tsuku⟧: the match isn't decided (a draw)\n- ⟦{真剣|しんけん}→真剣：01565_shinken⟧{勝負|しょうぶ}: serious match\n- ⟦{一発|いっぱつ}→一発：08895_ippatsu⟧{勝負|しょうぶ}: one-shot deal, all or nothing\n\nIDIOMS:\n- {勝負|しょうぶ}⟦は→は：00079_ha⟧⟦{時|とき}→時：02918_toki⟧⟦の→の：09472_no⟧⟦{運|うん}→運：02143_un⟧: Victory depends on luck\n\nRELATED WORDS:\n- ⟦{試合|しあい}→試合：01601_shiai⟧: match, game (sports)\n- ⟦{対決|たいけつ}→対決：12392_taiketsu⟧: confrontation, showdown",
+  "notes": "{勝負|しょうぶ} means a match or contest, combining ⟦{勝|か}つ→勝つ：01199_katsu⟧ (win) and ⟦{負|ま}ける→負ける：01134_makeru⟧ (lose).\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n- No standard transitive pair\n- Pattern: {勝負|しょうぶ}⟦する→する：00392_suru⟧\n\nVERBAL USAGE:\n{勝負|しょうぶ}⟦する→する：00392_suru⟧ means to compete, to have a match.\n\nCOMMON EXPRESSIONS:\n- {勝負|しょうぶ}⟦しよう→する：00392_suru⟧: Let's have a match!\n- {勝負|しょうぶ}⟦が→が：00051_ga⟧⟦つく→付く：01960_tsuku⟧: the match is decided\n- {勝負|しょうぶ}⟦が→が：00051_ga⟧⟦つかない→付く：01960_tsuku⟧: the match isn't decided (a draw)\n- ⟦{真剣|しんけん}→真剣：01565_shinken⟧{勝負|しょうぶ}: serious match\n- ⟦{一発|いっぱつ}→一発：08895_ippatsu⟧{勝負|しょうぶ}: one-shot deal, all or nothing\n- {勝負|しょうぶ}⟦は→は：00079_ha⟧⟦{時|とき}→時：02918_toki⟧⟦の→の：09472_no⟧⟦{運|うん}→運：02143_un⟧: Victory depends on luck\n\nRELATED WORDS:\n- ⟦{試合|しあい}→試合：01601_shiai⟧: match, game (sports)\n- ⟦{対決|たいけつ}→対決：12392_taiketsu⟧: confrontation, showdown",
   "cross_references": [
     {
       "type": "related",
@@ -183,11 +183,39 @@
       "reading": "まける",
       "headword": "{負|ま}ける",
       "label": "to lose"
+    },
+    {
+      "type": "related",
+      "target_id": "01601_shiai",
+      "reading": "しあい",
+      "headword": "{試合|しあい}",
+      "label": "match, game"
+    },
+    {
+      "type": "related",
+      "target_id": "12392_taiketsu",
+      "reading": "たいけつ",
+      "headword": "{対決|たいけつ}",
+      "label": "confrontation, showdown"
+    },
+    {
+      "type": "related",
+      "target_id": "02070_tatakai",
+      "reading": "たたかい",
+      "headword": "{戦|たたか}い",
+      "label": "battle, fight, struggle"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04905_shouhai",
+      "reading": "しょうはい",
+      "headword": "{勝敗|しょうはい}",
+      "label": "victory or defeat"
     }
   ],
   "metadata": {
     "created": "2026-01-08T12:27:18Z",
-    "modified": "2026-05-15T16:27:20Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

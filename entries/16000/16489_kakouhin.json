@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "16489_kakouhin_ex1",
-      "japanese": "{加工品|かこうひん}の{原材料|げんざいりょう}を{確認|かくにん}する。",
+      "japanese": "{加工品|かこうひん}⟦の→の：09472_no⟧⟦{原材料|げんざいりょう}→原材料：18966_genzairyou⟧⟦を→を：00422_wo⟧⟦{確認|かくにん}する→確認する：25332_kakuninsuru⟧。",
       "english": "To check the raw materials of a processed product.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "16489_kakouhin_ex2",
-      "japanese": "この{地域|ちいき}は{農産物|のうさんぶつ}の{加工品|かこうひん}で{有名|ゆうめい}だ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{地域|ちいき}→地域：01461_chiiki⟧⟦は→は：00079_ha⟧⟦{農産物|のうさんぶつ}→農産物：14360_nousanbutsu⟧⟦の→の：09472_no⟧{加工品|かこうひん}⟦で→で：00502_de⟧⟦{有名|ゆうめい}→有名：01106_yuumei⟧だ。",
       "english": "This region is famous for its processed agricultural products.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "16489_kakouhin_ex3",
-      "japanese": "{食品|しょくひん}{加工品|かこうひん}には{添加物|てんかぶつ}が{含|ふく}まれていることが{多|おお}いので、{表示|ひょうじ}をよく{読|よ}んだほうがいい。",
+      "japanese": "⟦{食品|しょくひん}→食品：03247_shokuhin⟧{加工品|かこうひん}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{添加物|てんかぶつ}→添加物：06479_tenkabutsu⟧⟦が→が：00051_ga⟧⟦{含|ふく}まれている→含む：01982_fukumu⟧こと⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧⟦の→の：09472_no⟧で、⟦{表示|ひょうじ}→表示：03143_hyouji⟧⟦を→を：00422_wo⟧⟦よく→よく：00601_yoku⟧⟦{読|よ}んだ→読む：00426_yomu⟧⟦ほうがいい→ほうがいい：10078_hougaii⟧。",
       "english": "Processed food products often contain additives, so it's better to read the labels carefully.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nOften used in food-related contexts. {加工|かこう}{食品|しょくひん} (processed food) is a near-synonym but focuses specifically on food, while {加工品|かこうひん} can refer to any processed item.\n\nCOMMON COLLOCATIONS:\n- {食品|しょくひん}{加工品|かこうひん} (processed food products)\n- {農産|のうさん}{加工品|かこうひん} (processed agricultural products)\n- {水産|すいさん}{加工品|かこうひん} (processed marine products)\n\nSIMILAR WORDS:\n- {加工|かこう}{食品|しょくひん}: processed food — specifically food that has been processed\n- {製品|せいひん}: product, manufactured goods — broader term for any commercially made item",
+  "notes": "USAGE:\nOften used in food-related contexts. ⟦{加工|かこう}{食品|しょくひん}→加工食品：06605_kakoushokuhin⟧ (processed food) is a near-synonym but focuses specifically on food, while {加工品|かこうひん} can refer to any processed item.\n\nCOMMON COLLOCATIONS:\n- ⟦{食品|しょくひん}→食品：03247_shokuhin⟧{加工品|かこうひん} (processed food products)\n- {農産|のうさん}{加工品|かこうひん} (processed agricultural products)\n- ⟦{水産|すいさん}→水産：04290_suisan⟧{加工品|かこうひん} (processed marine products)\n\nSIMILAR WORDS:\n- ⟦{加工|かこう}{食品|しょくひん}→加工食品：06605_kakoushokuhin⟧: processed food — specifically food that has been processed\n- ⟦{製品|せいひん}→製品：01445_seihin⟧: product, manufactured goods — broader term for any commercially made item",
   "cross_references": [
     {
       "type": "related",
@@ -52,11 +52,18 @@
       "reading": "せいひん",
       "headword": "{製品|せいひん}",
       "label": "manufactured goods (broader)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06605_kakoushokuhin",
+      "reading": "かこうしょくひん",
+      "headword": "{加工|かこう}{食品|しょくひん}",
+      "label": "processed food"
     }
   ],
   "metadata": {
     "created": "2026-03-13T02:10:53Z",
-    "modified": "2026-07-20T00:31:17Z",
+    "modified": "2026-09-02T04:01:45Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

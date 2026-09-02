@@ -3,7 +3,7 @@
   "id": "13565_sanran",
   "headword": "{産卵|さんらん}",
   "reading": "さんらん",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "egg-laying, spawning",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "13565_sanran_ex1",
-      "japanese": "ウミガメが{砂浜|すなはま}で{産卵|さんらん}する。",
+      "japanese": "ウミガメ⟦が→が：00051_ga⟧⟦{砂浜|すなはま}→砂浜：12333_sunahama⟧⟦で→で：00502_de⟧{産卵|さんらん}⟦する→する：00392_suru⟧。",
       "english": "Sea turtles lay eggs on the sandy beach.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "13565_sanran_ex2",
-      "japanese": "{鮭|さけ}は{川|かわ}を{遡|さかのぼ}って{産卵|さんらん}する{習性|しゅうせい}がある。",
+      "japanese": "⟦{鮭|さけ}→鮭：19337_sake⟧⟦は→は：00079_ha⟧⟦{川|かわ}→川：02186_kawa⟧⟦を→を：00422_wo⟧⟦{遡|さかのぼ}って→遡る：04003_sakanoboru⟧{産卵|さんらん}⟦する→する：00392_suru⟧⟦{習性|しゅうせい}→習性：13924_shuusei⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "Salmon have the habit of swimming upstream to spawn.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "13565_sanran_ex3",
-      "japanese": "{産卵|さんらん}{期|き}になると、この{地域|ちいき}の{海岸|かいがん}は{立|た}ち{入|い}り{禁止|きんし}になり、ボランティアが{卵|たまご}を{保護|ほご}する{活動|かつどう}を{行|おこな}っている。",
+      "japanese": "{産卵|さんらん}{期|き}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦と→と：00512_to⟧、⟦この→この：00962_kono⟧⟦{地域|ちいき}→地域：01461_chiiki⟧⟦の→の：09472_no⟧⟦{海岸|かいがん}→海岸：00852_kaigan⟧⟦は→は：00079_ha⟧⟦{立|た}ち{入|い}り→立ち入る：26367_tachiiru⟧⟦{禁止|きんし}→禁止：02643_kinshi⟧⟦に→に：00314_ni⟧⟦なり→なる：01970_naru⟧、⟦ボランティア→ボランティア：04834_borantia⟧⟦が→が：00051_ga⟧⟦{卵|たまご}→卵：02222_tamago⟧⟦を→を：00422_wo⟧⟦{保護|ほご}する→保護する：25374_hogosuru⟧⟦{活動|かつどう}→活動：00201_katsudou⟧⟦を→を：00422_wo⟧⟦{行|おこな}っている→行う：01238_okonau⟧。",
       "english": "During the spawning season, this area's coastline is closed off, and volunteers carry out activities to protect the eggs.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,26 @@
       ]
     }
   ],
-  "notes": "USAGE:\nUsed as a noun ({産卵|さんらん}) or suru-verb ({産卵|さんらん}する). This is a biological and nature term, not used for human birth. Common in nature documentaries, wildlife conservation, and science contexts.\n\nCOMMON COLLOCATIONS:\n- {産卵|さんらん}{期|き} (spawning season, egg-laying season)\n- {産卵|さんらん}{場所|ばしょ} (spawning ground, nesting site)\n- {産卵|さんらん}する (to lay eggs, to spawn)\n- {産卵|さんらん}{数|すう} (number of eggs laid)\n\nSIMILAR WORDS:\n- {卵|たまご}を{産|う}む: to lay eggs (more common in casual speech)\n- {孵化|ふか}: hatching (the process of eggs opening)\n- {繁殖|はんしょく}: breeding, reproduction (broader term for animal reproduction)",
-  "cross_references": [],
+  "notes": "USAGE:\nUsed as a noun ({産卵|さんらん}) or suru-verb ({産卵|さんらん}⟦する→する：00392_suru⟧). This is a biological and nature term, not used for human birth. Common in nature documentaries, wildlife conservation, and science contexts.\n\nCOMMON COLLOCATIONS:\n- {産卵|さんらん}{期|き} (spawning season, egg-laying season)\n- {産卵|さんらん}⟦{場所|ばしょ}→場所：00829_basho⟧ (spawning ground, nesting site)\n- {産卵|さんらん}⟦する→する：00392_suru⟧ (to lay eggs, to spawn)\n- {産卵|さんらん}{数|すう} (number of eggs laid)\n\nSIMILAR WORDS:\n- ⟦{卵|たまご}→卵：02222_tamago⟧⟦を→を：00422_wo⟧⟦{産|う}む→産む：01899_umu⟧: to lay eggs (more common in casual speech)\n- ⟦{孵化|ふか}→孵化：19845_fuka⟧: hatching (the process of eggs opening)\n- ⟦{繁殖|はんしょく}→繁殖：08671_hanshoku⟧: breeding, reproduction (broader term for animal reproduction)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19845_fuka",
+      "reading": "ふか",
+      "headword": "{孵化|ふか}",
+      "label": "hatching"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08671_hanshoku",
+      "reading": "はんしょく",
+      "headword": "{繁殖|はんしょく}",
+      "label": "breeding, reproduction"
+    }
+  ],
   "metadata": {
     "created": "2026-02-25T14:30:09Z",
-    "modified": "2026-03-29T03:07:35Z",
+    "modified": "2026-09-02T04:01:33Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

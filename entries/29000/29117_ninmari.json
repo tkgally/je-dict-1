@@ -3,7 +3,7 @@
   "headword": "にんまり",
   "reading": "にんまり",
   "romaji": "ninmari",
-  "part_of_speech": "adverb",
+  "part_of_speech": "adverb, onomatopoeia",
   "gloss": "with a satisfied grin; smilingly",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29117_ninmari_ex1",
-      "japanese": "にんまりと{笑|わら}う。",
+      "japanese": "にんまり⟦と→と：00512_to⟧⟦{笑|わら}う→笑う：00685_warau⟧。",
       "english": "To smile with satisfaction.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29117_ninmari_ex2",
-      "japanese": "{試合|しあい}に{勝|か}って、にんまりした。",
+      "japanese": "⟦{試合|しあい}→試合：01601_shiai⟧⟦に→に：00314_ni⟧⟦{勝|か}って→勝つ：01199_katsu⟧、にんまり⟦した→する：00392_suru⟧。",
       "english": "He smiled smugly after winning the match.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29117_ninmari_ex3",
-      "japanese": "{値引|ねび}きしてもらえたので、にんまりしながら{店|みせ}を{出|で}た。",
+      "japanese": "⟦{値引|ねび}き→値引き：05424_nebiki⟧⟦して→する：00392_suru⟧⟦もらえた→もらう：00520_morau⟧⟦の→の：09472_no⟧で、にんまりし⟦ながら→ながら：10530_nagara⟧⟦{店|みせ}→店：00497_mise⟧⟦を→を：00422_wo⟧⟦{出|で}た→出る：00513_deru⟧。",
       "english": "I left the shop with a satisfied grin after getting a discount.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "An onomatopoeic/mimetic adverb describing a self-satisfied smile. Has a slightly smug or scheming quality that makes it distinct from simply smiling happily. Often used with する or と{笑|わら}う.\n\nCOMMON PATTERNS:\n- にんまりする: to grin with satisfaction\n- にんまりと{笑|わら}う: to smile smugly\n- にんまりした{顔|かお}: a self-satisfied expression\n\nSIMILAR WORDS:\n- にっこり: smiling brightly — warm and open, not self-satisfied\n- ニヤリ: grinning slyly — more sinister or mischievous\n- にやにや: smirking — sustained, often unsettling grin",
+  "notes": "An onomatopoeic/mimetic adverb describing a self-satisfied smile. Has a slightly smug or scheming quality that makes it distinct from simply smiling happily. Often used with ⟦する→する：00392_suru⟧ or ⟦と→と：00512_to⟧⟦{笑|わら}う→笑う：00685_warau⟧.\n\nCOMMON PATTERNS:\n- にんまり⟦する→する：00392_suru⟧: to grin with satisfaction\n- にんまり⟦と→と：00512_to⟧⟦{笑|わら}う→笑う：00685_warau⟧: to smile smugly\n- にんまり⟦した→する：00392_suru⟧⟦{顔|かお}→顔：00558_kao⟧: a self-satisfied expression\n\nSIMILAR WORDS:\n- ⟦にっこり→にっこり：03517_nikkori⟧: smiling brightly — warm and open, not self-satisfied\n- ニヤリ: grinning slyly — more sinister or mischievous\n- ⟦にやにや→にやにや：05766_niyaniya⟧: smirking — sustained, often unsettling grin",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03517_nikkori",
+      "reading": "にっこり",
+      "headword": "にっこり",
+      "label": "smiling brightly"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05766_niyaniya",
+      "reading": "にやにや",
+      "headword": "にやにや",
+      "label": "smirking"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -54,13 +70,13 @@
         "onomatopoeia"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "descriptive"
       ],
       "domain": []
     },
     "created": "2026-06-10T19:40:12Z",
-    "modified": "2026-06-10T19:46:18Z"
+    "modified": "2026-09-02T04:02:36Z"
   }
 }

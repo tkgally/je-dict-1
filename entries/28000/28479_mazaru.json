@@ -3,7 +3,7 @@
   "headword": "{交|ま}ざる",
   "reading": "まざる",
   "romaji": "mazaru",
-  "part_of_speech": "verb-godan",
+  "part_of_speech": "verb (godan)",
   "gloss": "to mingle; to be mixed in (people, group)",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28479_mazaru_ex1",
-      "japanese": "{大人|おとな}に{交|ま}ざって{遊|あそ}んだ。",
+      "japanese": "⟦{大人|おとな}→大人：02856_otona⟧⟦に→に：00314_ni⟧{交|ま}ざって⟦{遊|あそ}んだ→遊ぶ：00550_asobu⟧。",
       "english": "I played mingled in with the adults.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28479_mazaru_ex2",
-      "japanese": "{外国|がいこく}{人|じん}の{中|なか}に{日本|にほん}{人|じん}が{一人|ひとり}{交|ま}ざっていた。",
+      "japanese": "⟦{外国|がいこく}{人|じん}→外国人：02869_gaikokujin⟧⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧⟦に→に：00314_ni⟧⟦{日本|にほん}{人|じん}→日本人：10112_nihonjin⟧⟦が→が：00051_ga⟧⟦{一人|ひとり}→一人：00630_hitori⟧{交|ま}ざって⟦いた→いる：00495_iru⟧。",
       "english": "There was one Japanese person mixed in among the foreigners.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28479_mazaru_ex3",
-      "japanese": "{子供|こども}たちの{歓声|かんせい}に、{先生|せんせい}の{笑|わら}い{声|ごえ}も{交|ま}ざって{聞|き}こえた。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧たち⟦の→の：09472_no⟧⟦{歓声|かんせい}→歓声：02686_kansei⟧⟦に→に：00314_ni⟧、⟦{先生|せんせい}→先生：00609_sensei⟧⟦の→の：09472_no⟧⟦{笑|わら}い{声|ごえ}→笑い声：24414_waraigoe⟧⟦も→も：00484_mo⟧{交|ま}ざって⟦{聞|き}こえた→聞こえる：01229_kikoeru⟧。",
       "english": "The teacher's laughter could be heard mixed in with the children's cheers.",
       "sense_numbers": [
         1
@@ -44,8 +44,25 @@
       "notes": null
     }
   ],
-  "notes": "Kanji variant of {混|ま}ざる. The {交|まじ}わる kanji ('to cross, to associate') is preferred when one thing joins a group of similar distinguishable things — especially people mingling — rather than substances blending uniformly.\n\nTRANSITIVITY:\n- Type: intransitive\n- Pair: {交|ま}ぜる (transitive — to mix in)\n\nPARTICLE PATTERNS:\n- AがBに{交|ま}ざる: A mingles with / is mixed into B\n\nWHEN TO USE WHICH KANJI:\n- {混|ま}ざる: substances blending homogeneously (sugar in water)\n- {交|ま}ざる: distinguishable items or people joining a group\nThe two kanji forms are often interchangeable, and {混|ま}ざる is the more common spelling overall.\n\nSIMILAR WORDS:\n- {混|ま}じる ／ {交|ま}じる: parallel form emphasizing the presence of something within a group; slightly more literary",
+  "notes": "Kanji variant of ⟦{混|ま}ざる→混ざる：02420_mazaru⟧. The ⟦{交|まじ}わる→交わる：18379_majiwaru⟧ kanji ('to cross, to associate') is preferred when one thing joins a group of similar distinguishable things — especially people mingling — rather than substances blending uniformly.\n\nTRANSITIVITY:\n- Type: intransitive\n- Pair: ⟦{交|ま}ぜる→交ぜる：28480_mazeru⟧ (transitive — to mix in)\n\nCOMMON PATTERNS:\n- A⟦が→が：00051_ga⟧B⟦に→に：00314_ni⟧{交|ま}ざる: A mingles with / is mixed into B\n\nWHEN TO USE WHICH KANJI:\n- ⟦{混|ま}ざる→混ざる：02420_mazaru⟧: substances blending homogeneously (sugar in water)\n- {交|ま}ざる: distinguishable items or people joining a group\nThe two kanji forms are often interchangeable, and ⟦{混|ま}ざる→混ざる：02420_mazaru⟧ is the more common spelling overall.\n\nSIMILAR WORDS:\n- ⟦{混|ま}じる→混じる：02421_majiru⟧ ／ {交|ま}じる: parallel form emphasizing the presence of something within a group; slightly more literary",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02421_majiru",
+      "reading": "まじる",
+      "headword": "{混|ま}じる",
+      "label": "parallel form emphasizing the presence…"
+    }
+  ],
+  "prominent_see_also": [
+    {
+      "target_id": "28480_mazeru",
+      "reading": "まぜる",
+      "headword": "{交|ま}ぜる",
+      "note": "transitive"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,7 +79,7 @@
       "domain": []
     },
     "created": "2026-05-31T04:10:13Z",
-    "modified": "2026-05-31T04:10:13Z"
+    "modified": "2026-09-02T04:02:33Z"
   },
   "conjugation": {
     "type": "godan",

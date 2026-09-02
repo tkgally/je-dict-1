@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "19670_heigou_ex1",
-      "japanese": "{二|ふた}つの{会社|かいしゃ}が{併合|へいごう}した。",
+      "japanese": "⟦{二|ふた}つ→二つ：02953_futatsu⟧⟦の→の：09472_no⟧⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦が→が：00051_ga⟧{併合|へいごう}⟦した→する：00392_suru⟧。",
       "english": "The two companies merged.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "19670_heigou_ex2",
-      "japanese": "{近隣|きんりん}の{町|まち}と{併合|へいごう}して{市|し}になった。",
+      "japanese": "⟦{近隣|きんりん}→近隣：14361_kinrin⟧⟦の→の：09472_no⟧⟦{町|まち}→町：00613_machi⟧⟦と→と：00512_to⟧{併合|へいごう}⟦して→する：00392_suru⟧⟦{市|し}→市：01599_shi⟧になった。",
       "english": "It merged with neighboring towns and became a city.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "19670_heigou_ex3",
-      "japanese": "1910{年|ねん}の{日韓|にっかん}{併合|へいごう}は、{両国|りょうこく}の{関係|かんけい}に{大|おお}きな{影響|えいきょう}を{与|あた}えた。",
+      "japanese": "1910⟦{年|ねん}→年：09876_nen⟧⟦の→の：09472_no⟧{日韓|にっかん}{併合|へいごう}⟦は→は：00079_ha⟧、⟦{両国|りょうこく}→両国：10010_ryoukoku⟧⟦の→の：09472_no⟧⟦{関係|かんけい}→関係：01298_kankei⟧⟦に→に：00314_ni⟧⟦{大|おお}きな→大きな：02849_ookina⟧⟦{影響|えいきょう}→影響：01877_eikyou⟧⟦を→を：00422_wo⟧⟦{与|あた}えた→与える：01821_ataeru⟧。",
       "english": "The Japan-Korea annexation of 1910 had a major impact on relations between the two countries.",
       "sense_numbers": [
         1
@@ -134,8 +134,31 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {併|へい} (to combine, to merge) and {合|ごう} (to join). Used across political, corporate, and administrative contexts.\n\nUSAGE:\nIn political/historical contexts, {併合|へいごう} specifically means annexation — one state absorbing another. In business, it refers to mergers where companies combine. In local government, it describes municipal mergers where towns combine into cities.\n\nCOMMON COLLOCATIONS:\n- {併合|へいごう}する — to annex, to merge\n- {市町村|しちょうそん}{併合|へいごう} — municipal merger\n- {企業|きぎょう}{併合|へいごう} — corporate merger\n- {併合|へいごう}{条約|じょうやく} — annexation treaty\n\nSIMILAR WORDS:\n- {合併|がっぺい} — merger, consolidation; more common for business and municipal mergers\n- {統合|とうごう} — integration, unification; broader, often for systems or organizations\n- {吸収|きゅうしゅう} — absorption; one entity absorbing another completely",
+  "notes": "A compound of {併|へい} (to combine, to merge) and ⟦{合|ごう}→合：27628_gou⟧ (to join). Used across political, corporate, and administrative contexts.\n\nUSAGE:\nIn political/historical contexts, {併合|へいごう} specifically means annexation — one state absorbing another. In business, it refers to mergers where companies combine. In local government, it describes municipal mergers where towns combine into cities.\n\nCOMMON COLLOCATIONS:\n- {併合|へいごう}⟦する→する：00392_suru⟧ — to annex, to merge\n- ⟦{市町村|しちょうそん}→市町村：16065_shichouson⟧{併合|へいごう} — municipal merger\n- ⟦{企業|きぎょう}→企業：00225_kigyou⟧{併合|へいごう} — corporate merger\n- {併合|へいごう}⟦{条約|じょうやく}→条約：04912_jouyaku⟧ — annexation treaty\n\nSIMILAR WORDS:\n- ⟦{合併|がっぺい}→合併：04778_gappei⟧ — merger, consolidation; more common for business and municipal mergers\n- ⟦{統合|とうごう}→統合：09615_tougou⟧ — integration, unification; broader, often for systems or organizations\n- ⟦{吸収|きゅうしゅう}→吸収：02608_kyuushuu⟧ — absorption; one entity absorbing another completely",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04778_gappei",
+      "reading": "がっぺい",
+      "headword": "{合併|がっぺい}",
+      "label": "merger, consolidation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09615_tougou",
+      "reading": "とうごう",
+      "headword": "{統合|とうごう}",
+      "label": "integration, unification"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02608_kyuushuu",
+      "reading": "きゅうしゅう",
+      "headword": "{吸収|きゅうしゅう}",
+      "label": "absorption"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -149,9 +172,10 @@
         "politics",
         "business"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     },
     "created": "2026-03-26T11:45:51Z",
-    "modified": "2026-03-26T11:45:51Z"
+    "modified": "2026-09-02T04:01:56Z"
   }
 }

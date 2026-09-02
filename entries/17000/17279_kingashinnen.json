@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "17279_kingashinnen_ex1",
-      "japanese": "{年賀状|ねんがじょう}に「{謹賀新年|きんがしんねん}」と{書|か}いた。",
+      "japanese": "⟦{年賀状|ねんがじょう}→年賀状：06227_nengajou⟧⟦に→に：00314_ni⟧「{謹賀新年|きんがしんねん}」⟦と→と：00512_to⟧⟦{書|か}いた→書く：00477_kaku⟧。",
       "english": "I wrote 'Happy New Year' on the New Year's card.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17279_kingashinnen_ex2",
-      "japanese": "{会社|かいしゃ}の{入|い}り{口|ぐち}に「{謹賀新年|きんがしんねん}」の{飾|かざ}りが{出|で}ている。",
+      "japanese": "⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦の→の：09472_no⟧⟦{入|い}り{口|ぐち}→入り口：02507_iriguchi⟧⟦に→に：00314_ni⟧「{謹賀新年|きんがしんねん}」⟦の→の：09472_no⟧⟦{飾|かざ}り→飾り：02539_kazari⟧⟦が→が：00051_ga⟧⟦{出|で}ている→出る：00513_deru⟧。",
       "english": "There's a 'Happy New Year' decoration at the entrance of the company.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17279_kingashinnen_ex3",
-      "japanese": "{目上|めうえ}の{方|かた}への{年賀状|ねんがじょう}には、「{謹賀新年|きんがしんねん}」のように{四文字|よもじ}の{賀詞|がし}を{使|つか}うのが{正式|せいしき}とされている。",
+      "japanese": "⟦{目上|めうえ}→目上：03804_meue⟧⟦の→の：09472_no⟧⟦{方|かた}→方：10665_kata⟧⟦へ→へ：02473_he⟧⟦の→の：09472_no⟧⟦{年賀状|ねんがじょう}→年賀状：06227_nengajou⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧、「{謹賀新年|きんがしんねん}」⟦のように→のように：30291_noyouni⟧{四文字|よもじ}⟦の→の：09472_no⟧{賀詞|がし}⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦{正式|せいしき}→正式：03376_seishiki⟧⟦と→と：00512_to⟧⟦されている→する：00392_suru⟧。",
       "english": "For New Year's cards to superiors, it is considered proper to use four-character greetings like 'Kinga Shinnen.'",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nThis is the most common formal four-character New Year's greeting ({賀詞|がし}). It is primarily written, not spoken. Appears on {年賀状|ねんがじょう} (New Year's postcards), store decorations, and company greetings.\n\nFORMALITY:\nFour-character greetings like {謹賀新年|きんがしんねん} and {恭賀新年|きょうがしんねん} are appropriate for superiors and formal contexts. Two-character greetings like {賀正|がしょう} and {迎春|げいしゅん} are considered less formal and should not be used toward superiors.\n\nCULTURE:\nJapanese New Year's cards ({年賀状|ねんがじょう}) are sent to arrive on January 1st. The greeting printed on the card reflects the relationship between sender and recipient.",
+  "notes": "USAGE:\nThis is the most common formal four-character New Year's greeting ({賀詞|がし}). It is primarily written, not spoken. Appears on ⟦{年賀状|ねんがじょう}→年賀状：06227_nengajou⟧ (New Year's postcards), store decorations, and company greetings.\n\nREGISTER:\nFour-character greetings like {謹賀新年|きんがしんねん} and {恭賀新年|きょうがしんねん} are appropriate for superiors and formal contexts. Two-character greetings like ⟦{賀正|がしょう}→賀正：14993_gashou⟧ and ⟦{迎春|げいしゅん}→迎春：14994_geishun⟧ are considered less formal and should not be used toward superiors.\n\nCULTURAL NOTE:\nJapanese New Year's cards (⟦{年賀状|ねんがじょう}→年賀状：06227_nengajou⟧) are sent to arrive on January 1st. The greeting printed on the card reflects the relationship between sender and recipient.",
   "cross_references": [
     {
       "type": "related",
@@ -46,18 +52,36 @@
       "reading": "ねんがじょう",
       "headword": "{年賀状|ねんがじょう}",
       "label": "New Year's card"
+    },
+    {
+      "type": "related",
+      "target_id": "14993_gashou",
+      "reading": "がしょう",
+      "headword": "{賀正|がしょう}",
+      "label": "New Year's greeting"
+    },
+    {
+      "type": "related",
+      "target_id": "14994_geishun",
+      "reading": "げいしゅん",
+      "headword": "{迎春|げいしゅん}",
+      "label": "welcoming the New Year"
     }
   ],
   "metadata": {
     "created": "2026-03-17T04:30:46Z",
-    "modified": "2026-05-06T06:14:35Z",
+    "modified": "2026-09-02T04:01:47Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["expression"],
+      "pos": [
+        "expression"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["greeting"]
+      "semantic": [
+        "greeting"
+      ]
     }
   }
 }

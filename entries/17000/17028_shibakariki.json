@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "17028_shibakariki_ex1",
-      "japanese": "{芝刈|しばか}り{機|き}で{庭|にわ}の{芝生|しばふ}を{刈|か}った。",
+      "japanese": "{芝刈|しばか}り{機|き}⟦で→で：00502_de⟧⟦{庭|にわ}→庭：02239_niwa⟧⟦の→の：09472_no⟧⟦{芝生|しばふ}→芝生：03196_shibafu⟧⟦を→を：00422_wo⟧⟦{刈|か}った→刈る：02043_karu⟧。",
       "english": "I mowed the lawn in the garden with a lawn mower.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "17028_shibakariki_ex2",
-      "japanese": "{新|あたら}しい{芝刈|しばか}り{機|き}は{音|おと}が{静|しず}かだ。",
+      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧{芝刈|しばか}り{機|き}⟦は→は：00079_ha⟧⟦{音|おと}→音：00743_oto⟧⟦が→が：00051_ga⟧⟦{静|しず}か→静か：00755_shizuka⟧だ。",
       "english": "The new lawn mower is quiet.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "17028_shibakariki_ex3",
-      "japanese": "{週末|しゅうまつ}になると{近所|きんじょ}から{芝刈|しばか}り{機|き}の{音|おと}が{聞|き}こえてくる。",
+      "japanese": "⟦{週末|しゅうまつ}→週末：03030_shuumatsu⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦と→と：00512_to⟧⟦{近所|きんじょ}→近所：01318_kinjo⟧⟦から→から：00504_kara⟧{芝刈|しばか}り{機|き}⟦の→の：09472_no⟧⟦{音|おと}→音：00743_oto⟧⟦が→が：00051_ga⟧⟦{聞|き}こえて→聞こえる：01229_kikoeru⟧くる。",
       "english": "On weekends, you can hear the sound of lawn mowers from the neighborhood.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,26 @@
       ]
     }
   ],
-  "notes": "USAGE:\nLess common in Japanese daily life than in Western countries due to smaller yard sizes, but still used for parks, sports fields, golf courses, and suburban homes. Robot lawn mowers (ロボット{芝刈|しばか}り{機|き}) have become popular.\n\nCOMMON COLLOCATIONS:\n- {芝刈|しばか}り{機|き}をかける (to run the lawn mower)\n- {電動|でんどう}{芝刈|しばか}り{機|き} (electric lawn mower)\n- {手動|しゅどう}{芝刈|しばか}り{機|き} (manual push mower)",
-  "cross_references": [],
+  "notes": "USAGE:\nLess common in Japanese daily life than in Western countries due to smaller yard sizes, but still used for parks, sports fields, golf courses, and suburban homes. Robot lawn mowers (⟦ロボット→ロボット：06404_robotto⟧{芝刈|しばか}り{機|き}) have become popular.\n\nCOMMON COLLOCATIONS:\n- {芝刈|しばか}り{機|き}⟦を→を：00422_wo⟧⟦かける→かける：00854_kakeru⟧ (to run the lawn mower)\n- ⟦{電動|でんどう}→電動：06412_dendou⟧{芝刈|しばか}り{機|き} (electric lawn mower)\n- ⟦{手動|しゅどう}→手動：12890_shudou⟧{芝刈|しばか}り{機|き} (manual push mower)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "19341_shiba",
+      "reading": "しば",
+      "headword": "{芝|しば}",
+      "label": "turf"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30245_kariharaiki",
+      "reading": "かりはらいき",
+      "headword": "{刈|か}り{払|はら}い{機|き}",
+      "label": "brush cutter"
+    }
+  ],
   "metadata": {
     "created": "2026-03-15T07:20:58Z",
-    "modified": "2026-07-22T03:30:08Z",
+    "modified": "2026-09-02T04:01:47Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

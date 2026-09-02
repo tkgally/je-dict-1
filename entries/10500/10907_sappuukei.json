@@ -3,7 +3,7 @@
   "id": "10907_sappuukei",
   "headword": "{殺風景|さっぷうけい}",
   "reading": "さっぷうけい",
-  "part_of_speech": "adjective (na)",
+  "part_of_speech": "na-adjective",
   "gloss": "bleak, dreary, bare",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "10907_sappuukei_ex1",
-      "japanese": "{殺風景|さっぷうけい}な{部屋|へや}だ。",
+      "japanese": "{殺風景|さっぷうけい}な⟦{部屋|へや}→部屋：00507_heya⟧だ。",
       "english": "It's a dreary room.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "10907_sappuukei_ex2",
-      "japanese": "{壁|かべ}に{何|なに}も{飾|かざ}っていないので{殺風景|さっぷうけい}に{見|み}える。",
+      "japanese": "⟦{壁|かべ}→壁：01290_kabe⟧⟦に→に：00314_ni⟧⟦{何|なに}も→何も：03874_nanimo⟧⟦{飾|かざ}っていない→飾る：01185_kazaru⟧⟦の→の：09472_no⟧で{殺風景|さっぷうけい}⟦に→に：00314_ni⟧⟦{見|み}える→見える：01165_mieru⟧。",
       "english": "It looks bleak because nothing is hung on the walls.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "10907_sappuukei_ex3",
-      "japanese": "{花|はな}を{置|お}いたら、{殺風景|さっぷうけい}だったオフィスが{明|あか}るくなった。",
+      "japanese": "⟦{花|はな}→花：00523_hana⟧⟦を→を：00422_wo⟧⟦{置|お}いたら→置く：01092_oku⟧、{殺風景|さっぷうけい}だった⟦オフィス→オフィス：00327_ofisu⟧⟦が→が：00051_ga⟧⟦{明|あか}るく→明るい：00616_akarui⟧⟦なった→なる：01970_naru⟧。",
       "english": "Once I put flowers out, the dreary office brightened up.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,40 @@
       ]
     }
   ],
-  "notes": "FORMS:\n- Predicative: {殺風景|さっぷうけい}だ\n- Modifier: {殺風景|さっぷうけい}な + noun\n- Adverbial: not commonly used adverbially\n\nETYMOLOGY:\nLiterally \"killing the scenery\" ({殺|さつ} kill + {風景|ふうけい} scenery). The word describes a scene that destroys any sense of aesthetic pleasure.\n\nUSAGE:\nTypically describes rooms, buildings, landscapes, or views that feel empty, cold, or unwelcoming. It implies a lack of charm or personality rather than actual ugliness.",
-  "cross_references": [],
+  "notes": "FORMS:\n- Predicative: {殺風景|さっぷうけい}だ\n- Modifier: {殺風景|さっぷうけい}な + noun\n- Adverbial: not commonly used adverbially\n\nETYMOLOGY:\nLiterally \"killing the scenery\" ({殺|さつ} kill + ⟦{風景|ふうけい}→風景：03591_fuukei⟧ scenery). The word describes a scene that destroys any sense of aesthetic pleasure.\n\nUSAGE:\nTypically describes rooms, buildings, landscapes, or views that feel empty, cold, or unwelcoming. It implies a lack of charm or personality rather than actual ugliness.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19700_mukishitsu",
+      "reading": "むきしつ",
+      "headword": "{無機質|むきしつ}",
+      "label": "inorganic"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19858_mukishitsuna",
+      "reading": "むきしつな",
+      "headword": "{無機質|むきしつ}な",
+      "label": "cold"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21135_kouryou",
+      "reading": "こうりょう",
+      "headword": "{荒涼|こうりょう}",
+      "label": "desolate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21289_satsubatsu",
+      "reading": "さつばつ",
+      "headword": "{殺伐|さつばつ}",
+      "label": "bleak"
+    }
+  ],
   "metadata": {
     "created": "2026-02-11T12:59:52Z",
-    "modified": "2026-06-28T18:50:11Z",
+    "modified": "2026-09-02T04:01:23Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

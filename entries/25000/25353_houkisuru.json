@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25353_houkisuru_ex1",
-      "japanese": "{権利|けんり}を{放棄|ほうき}する。",
+      "japanese": "⟦{権利|けんり}→権利：02711_kenri⟧⟦を→を：00422_wo⟧{放棄|ほうき}する。",
       "english": "To relinquish a right.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25353_houkisuru_ex2",
-      "japanese": "{彼|かれ}は{試合|しあい}を{途中|とちゅう}で{放棄|ほうき}した。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{試合|しあい}→試合：01601_shiai⟧⟦を→を：00422_wo⟧⟦{途中|とちゅう}→途中：01684_tochuu⟧⟦で→で：00502_de⟧{放棄|ほうき}した。",
       "english": "He abandoned the match midway through.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25353_houkisuru_ex3",
-      "japanese": "{責任|せきにん}を{放棄|ほうき}するわけにはいかない。",
+      "japanese": "⟦{責任|せきにん}→責任：03298_sekinin⟧⟦を→を：00422_wo⟧{放棄|ほうき}するわけ⟦に→に：00314_ni⟧はいかない。",
       "english": "I can't just abandon my responsibilities.",
       "sense_numbers": [
         1
@@ -45,7 +45,7 @@
     },
     {
       "id": "25353_houkisuru_ex4",
-      "japanese": "{相続|そうぞく}{放棄|ほうき}の{手続|てつづ}きは{家庭|かてい}{裁判所|さいばんしょ}で{行|おこな}う。",
+      "japanese": "⟦{相続|そうぞく}→相続：03690_souzoku⟧⟦{放棄|ほうき}→放棄：12825_houki⟧⟦の→の：09472_no⟧⟦{手続|てつづ}き→手続き：05453_tetsuzuki⟧⟦は→は：00079_ha⟧⟦{家庭|かてい}→家庭：12315_katei⟧⟦{裁判所|さいばんしょ}→裁判所：09665_saibansho⟧⟦で→で：00502_de⟧⟦{行|おこな}う→行う：01238_okonau⟧。",
       "english": "The procedure for renouncing an inheritance is done at family court.",
       "sense_numbers": [
         1
@@ -54,8 +54,31 @@
       "notes": null
     }
   ],
-  "notes": "A formal word for giving up or relinquishing something deliberately. Often used in legal and official contexts. The noun {放棄|ほうき} is frequently used in compound forms.\n\nCOMMON COLLOCATIONS:\n- {権利|けんり}を{放棄|ほうき}する: to waive a right\n- {責任|せきにん}{放棄|ほうき}: abandonment of responsibility\n- {相続|そうぞく}{放棄|ほうき}: renunciation of inheritance\n- {試合|しあい}{放棄|ほうき}: forfeiting a match\n- {核|かく}{放棄|ほうき}: nuclear disarmament\n\nSIMILAR WORDS:\n- {諦|あきら}める: to give up — more emotional and personal; implies accepting defeat\n- {捨|す}てる: to throw away — more concrete; implies discarding something\n- {断念|だんねん}する: to abandon (a plan) — focuses on reluctantly giving up an ambition or plan",
+  "notes": "A formal word for giving up or relinquishing something deliberately. Often used in legal and official contexts. The noun ⟦{放棄|ほうき}→放棄：12825_houki⟧ is frequently used in compound forms.\n\nCOMMON COLLOCATIONS:\n- ⟦{権利|けんり}→権利：02711_kenri⟧⟦を→を：00422_wo⟧{放棄|ほうき}する: to waive a right\n- ⟦{責任|せきにん}→責任：03298_sekinin⟧⟦{放棄|ほうき}→放棄：12825_houki⟧: abandonment of responsibility\n- ⟦{相続|そうぞく}→相続：03690_souzoku⟧⟦{放棄|ほうき}→放棄：12825_houki⟧: renunciation of inheritance\n- ⟦{試合|しあい}→試合：01601_shiai⟧⟦{放棄|ほうき}→放棄：12825_houki⟧: forfeiting a match\n- ⟦{核|かく}→核：13127_kaku⟧⟦{放棄|ほうき}→放棄：12825_houki⟧: nuclear disarmament\n\nSIMILAR WORDS:\n- ⟦{諦|あきら}める→諦める：01813_akirameru⟧: to give up — more emotional and personal; implies accepting defeat\n- ⟦{捨|す}てる→捨てる：00892_suteru⟧: to throw away — more concrete; implies discarding something\n- ⟦{断念|だんねん}する→断念する：20717_dannensuru⟧: to abandon (a plan) — focuses on reluctantly giving up an ambition or plan",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01813_akirameru",
+      "reading": "あきらめる",
+      "headword": "{諦|あきら}める",
+      "label": "to give up"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00892_suteru",
+      "reading": "すてる",
+      "headword": "{捨|す}てる",
+      "label": "to throw away"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20717_dannensuru",
+      "reading": "だんねんする",
+      "headword": "{断念|だんねん}する",
+      "label": "to abandon"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -69,10 +92,11 @@
         "abstract",
         "law"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-04-24T16:07:28Z",
-    "modified": "2026-04-24T16:07:28Z"
+    "modified": "2026-09-02T04:02:22Z"
   },
   "conjugation": {
     "type": "suru",

@@ -2,7 +2,7 @@
   "id": "21338_torinogasu",
   "headword": "{取|と}り{逃|のが}す",
   "reading": "とりのがす",
-  "part_of_speech": "godan verb, transitive",
+  "part_of_speech": "verb (godan, transitive)",
   "gloss": "to miss catching; to let escape; to fail to obtain",
   "definitions": [
     {
@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "21338_torinogasu_ex1",
-      "japanese": "{犯人|はんにん}を{取|と}り{逃|のが}した。",
+      "japanese": "⟦{犯人|はんにん}→犯人：03572_hannin⟧⟦を→を：00422_wo⟧{取|と}り{逃|のが}した。",
       "english": "They let the criminal escape.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "21338_torinogasu_ex2",
-      "japanese": "チャンスを{取|と}り{逃|のが}してしまった。",
+      "japanese": "⟦チャンス→チャンス：03857_chansu⟧⟦を→を：00422_wo⟧{取|と}り{逃|のが}してしまった。",
       "english": "I missed the opportunity.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "21338_torinogasu_ex3",
-      "japanese": "{限定|げんてい}{商品|しょうひん}を{取|と}り{逃|のが}さないように{早|はや}めに{並|なら}んだ。",
+      "japanese": "⟦{限定|げんてい}→限定：10997_gentei⟧⟦{商品|しょうひん}→商品：01436_shouhin⟧⟦を→を：00422_wo⟧{取|と}り{逃|のが}さないよう⟦に→に：00314_ni⟧⟦{早|はや}め→早め：11176_hayame⟧⟦に→に：00314_ni⟧⟦{並|なら}んだ→並ぶ：00605_narabu⟧。",
       "english": "I lined up early so as not to miss the limited-edition product.",
       "sense_numbers": [
         1
@@ -43,8 +43,24 @@
       "notes": null
     }
   ],
-  "notes": "Compound verb of {取|と}る (to take, to catch) + {逃|のが}す (to let escape, to miss). Godan verb conjugating on the す row. Implies that one had a chance to obtain or capture something but failed.\n\nCOMMON COLLOCATIONS:\n- {犯人|はんにん}を{取|と}り{逃|のが}す: to let a criminal escape\n- チャンスを{取|と}り{逃|のが}す: to miss an opportunity\n- {獲物|えもの}を{取|と}り{逃|のが}す: to let prey escape\n- {勝利|しょうり}を{取|と}り{逃|のが}す: to let victory slip away\n\nSIMILAR WORDS:\n- {逃|のが}す: to miss, to let escape (simpler; the base verb)\n- {見逃|みのが}す: to overlook, to miss seeing\n- {乗|の}り{遅|おく}れる: to miss (a vehicle — train, bus)",
+  "notes": "Compound verb of ⟦{取|と}る→取る：00565_toru⟧ (to take, to catch) + ⟦{逃|のが}す→逃す：04611_nogasu⟧ (to let escape, to miss). Godan verb conjugating on the す row. Implies that one had a chance to obtain or capture something but failed.\n\nCOMMON COLLOCATIONS:\n- ⟦{犯人|はんにん}→犯人：03572_hannin⟧⟦を→を：00422_wo⟧{取|と}り{逃|のが}す: to let a criminal escape\n- ⟦チャンス→チャンス：03857_chansu⟧⟦を→を：00422_wo⟧{取|と}り{逃|のが}す: to miss an opportunity\n- ⟦{獲物|えもの}→獲物：08638_emono⟧⟦を→を：00422_wo⟧{取|と}り{逃|のが}す: to let prey escape\n- ⟦{勝利|しょうり}→勝利：11795_shouri⟧⟦を→を：00422_wo⟧{取|と}り{逃|のが}す: to let victory slip away\n\nSIMILAR WORDS:\n- ⟦{逃|のが}す→逃す：04611_nogasu⟧: to miss, to let escape (simpler; the base verb)\n- ⟦{見逃|みのが}す→見逃す：04576_minogasu⟧: to overlook, to miss seeing\n- ⟦{乗|の}り{遅|おく}れる→乗り遅れる：04621_noriokureru⟧: to miss (a vehicle — train, bus)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04576_minogasu",
+      "reading": "みのがす",
+      "headword": "{見逃|みのが}す",
+      "label": "to overlook, to miss seeing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04621_noriokureru",
+      "reading": "のりおくれる",
+      "headword": "{乗|の}り{遅|おく}れる",
+      "label": "to miss (a vehicle"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,7 +76,7 @@
       "verb_class": "godan-su"
     },
     "created": "2026-04-02T01:04:31Z",
-    "modified": "2026-04-02T01:04:31Z"
+    "modified": "2026-09-02T04:02:03Z"
   },
   "conjugation": {
     "type": "godan",

@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "14785_maruanki_ex1",
-      "japanese": "{公式|こうしき}を{丸暗記|まるあんき}した。",
+      "japanese": "⟦{公式|こうしき}→公式：04167_koushiki⟧⟦を→を：00422_wo⟧{丸暗記|まるあんき}⟦した→する：00392_suru⟧。",
       "english": "I memorized the formula by rote.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "14785_maruanki_ex2",
-      "japanese": "{丸暗記|まるあんき}では{応用|おうよう}が{利|き}かない。",
+      "japanese": "{丸暗記|まるあんき}⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{応用|おうよう}→応用：04135_ouyou⟧⟦が→が：00051_ga⟧⟦{利|き}かない→利く：11845_kiku⟧。",
       "english": "Rote memorization doesn't help with practical application.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "14785_maruanki_ex3",
-      "japanese": "{教科書|きょうかしょ}を{丸暗記|まるあんき}するよりも、{理解|りかい}して{覚|おぼ}えたほうがいい。",
+      "japanese": "⟦{教科書|きょうかしょ}→教科書：01085_kyoukasho⟧⟦を→を：00422_wo⟧{丸暗記|まるあんき}⟦する→する：00392_suru⟧⟦より→より：09476_yori⟧⟦も→も：00484_mo⟧、⟦{理解|りかい}して→理解する：06059_rikaisuru⟧⟦{覚|おぼ}えた→覚える：00739_oboeru⟧⟦ほうがいい→ほうがいい：10078_hougaii⟧。",
       "english": "Rather than memorizing the textbook word for word, it's better to learn by understanding.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,19 @@
       ]
     }
   ],
-  "notes": "The prefix {丸|まる} adds the sense of \"whole\" or \"entirely,\" meaning something is memorized in its entirety without modification or analysis.\n\nCOMMON COLLOCATIONS:\n- {丸暗記|まるあんき}する (to memorize by rote)\n- {丸暗記|まるあんき}に{頼|たよ}る (to rely on rote memorization)\n- {教科書|きょうかしょ}を{丸暗記|まるあんき}する (to memorize a textbook word for word)\n\nUSAGE NOTE:\nOften used with a negative nuance, implying that merely memorizing without understanding is insufficient. Common in discussions about education and study methods.",
-  "cross_references": [],
+  "notes": "The prefix ⟦{丸|まる}→丸：02167_maru⟧ adds the sense of \"whole\" or \"entirely,\" meaning something is memorized in its entirety without modification or analysis.\n\nCOMMON COLLOCATIONS:\n- {丸暗記|まるあんき}⟦する→する：00392_suru⟧ (to memorize by rote)\n- {丸暗記|まるあんき}⟦に→に：00314_ni⟧⟦{頼|たよ}る→頼る：02069_tayoru⟧ (to rely on rote memorization)\n- ⟦{教科書|きょうかしょ}→教科書：01085_kyoukasho⟧⟦を→を：00422_wo⟧{丸暗記|まるあんき}⟦する→する：00392_suru⟧ (to memorize a textbook word for word)\n\nUSAGE:\nOften used with a negative nuance, implying that merely memorizing without understanding is insufficient. Common in discussions about education and study methods.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14270_tsumekomi",
+      "reading": "つめこみ",
+      "headword": "{詰|つ}め{込|こ}み",
+      "label": "cramming"
+    }
+  ],
   "metadata": {
     "created": "2026-03-03T12:47:02Z",
-    "modified": "2026-03-29T03:08:18Z",
+    "modified": "2026-09-02T04:01:38Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -154,7 +162,8 @@
       "domain": [
         "academic"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

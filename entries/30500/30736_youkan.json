@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30736_youkan_ex1",
-      "japanese": "{丘|おか}の{上|うえ}に{古|ふる}い{洋館|ようかん}がある。",
+      "japanese": "⟦{丘|おか}→丘：02183_oka⟧⟦の→の：09472_no⟧⟦{上|うえ}→上：00682_ue⟧⟦に→に：00314_ni⟧⟦{古|ふる}い→古い：00488_furui⟧{洋館|ようかん}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There is an old Western-style house on the hill.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30736_youkan_ex2",
-      "japanese": "{明治時代|めいじじだい}の{洋館|ようかん}が{今|いま}も{住宅|じゅうたく}として{使|つか}われている。",
+      "japanese": "⟦{明治時代|めいじじだい}→明治時代：28080_meijijidai⟧⟦の→の：09472_no⟧{洋館|ようかん}⟦が→が：00051_ga⟧⟦{今|いま}→今：00945_ima⟧⟦も→も：00484_mo⟧⟦{住宅|じゅうたく}→住宅：03280_juutaku⟧⟦として→として：06802_toshite⟧⟦{使|つか}われている→使う：00473_tsukau⟧。",
       "english": "A Western-style house from the Meiji era is still in use today.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30736_youkan_ex3",
-      "japanese": "{横浜|よこはま}の{山手|やまて}には{当時|とうじ}の{洋館|ようかん}が{何|なん}{軒|げん}も{保存|ほぞん}されていて、{中|なか}を{見学|けんがく}できる。",
+      "japanese": "⟦{横浜|よこはま}→横浜：28138_yokohama⟧⟦の→の：09472_no⟧{山手|やまて}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{当時|とうじ}→当時：01615_touji⟧⟦の→の：09472_no⟧{洋館|ようかん}⟦が→が：00051_ga⟧⟦{何|なん}→何〜：03100_nan⟧{軒|げん}⟦も→も：00484_mo⟧⟦{保存|ほぞん}→保存：03626_hozon⟧⟦されていて→する：00392_suru⟧、⟦{中|なか}→中：00654_naka⟧⟦を→を：00422_wo⟧⟦{見学|けんがく}→見学：00214_kengaku⟧⟦できる→できる：00557_dekiru⟧。",
       "english": "Several period Western-style houses are preserved in the Yamate district of Yokohama, and you can tour the interiors.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "{洋|よう} (Western) + {館|かん} (building). Contrast {和館|わかん}, the Japanese-style wing that often stood beside it on the same estate.\n\nCOMMON COLLOCATIONS:\n- {古|ふる}い{洋館|ようかん}: an old Western-style house\n- {明治|めいじ}の{洋館|ようかん}: a Meiji-era Western-style house\n- {洋館|ようかん}{風|ふう}のカフェ: a cafe done up like a period Western house\n\nSIMILAR WORDS:\n- {洋風|ようふう}の{家|いえ}: a Western-style home — the neutral term for any modern house in Western style\n- {屋敷|やしき}: a mansion, an estate — large and imposing, but not necessarily Western\n\nCULTURAL CONTEXT:\nPreserved {洋館|ようかん} in Yokohama, Kobe, and Nagasaki are tourist attractions, and the word is a stock ingredient of mystery and ghost stories, where the isolated old {洋館|ようかん} is the standard setting.",
+  "notes": "⟦{洋|よう}→洋：28890_you⟧ (Western) + ⟦{館|かん}→館：17308_kan⟧ (building). Contrast {和館|わかん}, the Japanese-style wing that often stood beside it on the same estate.\n\nCOMMON COLLOCATIONS:\n- ⟦{古|ふる}い→古い：00488_furui⟧{洋館|ようかん}: an old Western-style house\n- ⟦{明治|めいじ}→明治：19860_meiji⟧⟦の→の：09472_no⟧{洋館|ようかん}: a Meiji-era Western-style house\n- {洋館|ようかん}{風|ふう}⟦の→の：09472_no⟧⟦カフェ→カフェ：06767_kafe⟧: a cafe done up like a period Western house\n\nSIMILAR WORDS:\n- ⟦{洋風|ようふう}→洋風：13282_youfuu⟧⟦の→の：09472_no⟧⟦{家|いえ}→家：00612_ie⟧: a Western-style home — the neutral term for any modern house in Western style\n- ⟦{屋敷|やしき}→屋敷：12395_yashiki⟧: a mansion, an estate — large and imposing, but not necessarily Western\n\nCULTURAL NOTE:\nPreserved {洋館|ようかん} in Yokohama, Kobe, and Nagasaki are tourist attractions, and the word is a stock ingredient of mystery and ghost stories, where the isolated old {洋館|ようかん} is the standard setting.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12395_yashiki",
+      "reading": "やしき",
+      "headword": "{屋敷|やしき}",
+      "label": "a mansion, an estate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30716_ijinkan",
+      "reading": "いじんかん",
+      "headword": "{異人館|いじんかん}",
+      "label": "Western-style residence built for foreign residents"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +69,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "building"
       ],
       "domain": []
     },
     "created": "2026-08-25T12:29:46Z",
-    "modified": "2026-08-25T12:29:46Z"
+    "modified": "2026-09-02T04:02:41Z"
   }
 }

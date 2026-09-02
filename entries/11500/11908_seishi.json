@@ -2,7 +2,7 @@
   "id": "11908_seishi",
   "headword": "{制止|せいし}",
   "reading": "せいし",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "restraint, stopping, holding back",
   "conjugation": {
     "type": "suru",
@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "11908_seishi_ex1",
-      "japanese": "{周|まわ}りの{人|ひと}が{制止|せいし}した。",
+      "japanese": "⟦{周|まわ}り→周り：01732_mawari⟧⟦の→の：09472_no⟧⟦{人|ひと}→人：00476_hito⟧⟦が→が：00051_ga⟧{制止|せいし}⟦した→する：00392_suru⟧。",
       "english": "The people around held him back.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "11908_seishi_ex2",
-      "japanese": "{警備員|けいびいん}の{制止|せいし}を{振|ふ}り{切|き}って{走|はし}り{出|だ}した。",
+      "japanese": "⟦{警備員|けいびいん}→警備員：09867_keibiin⟧⟦の→の：09472_no⟧{制止|せいし}⟦を→を：00422_wo⟧⟦{振|ふ}り{切|き}って→振り切る：06703_furikiru⟧⟦{走|はし}り{出|だ}した→走り出す：06679_hashiridasu⟧。",
       "english": "He broke free from the security guard's restraint and ran out.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "11908_seishi_ex3",
-      "japanese": "{友人|ゆうじん}の{制止|せいし}も{聞|き}かず、{彼|かれ}は{危険|きけん}な{場所|ばしょ}に{向|む}かった。",
+      "japanese": "⟦{友人|ゆうじん}→友人：03649_yuujin⟧⟦の→の：09472_no⟧{制止|せいし}⟦も→も：00484_mo⟧⟦{聞|き}か→聞く：00483_kiku⟧ず、⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{危険|きけん}→危険：01141_kiken⟧な⟦{場所|ばしょ}→場所：00829_basho⟧⟦に→に：00314_ni⟧⟦{向|む}かった→向かう：01186_mukau⟧。",
       "english": "Ignoring his friend's attempts to stop him, he headed for the dangerous area.",
       "notes": null,
       "has_audio": false,
@@ -133,11 +133,26 @@
       ]
     }
   ],
-  "notes": "Often appears in news and literary contexts describing scenes where someone is being physically or verbally restrained.\n\nCOMMON PATTERNS:\n・{制止|せいし}する (to restrain, to stop someone)\n・{制止|せいし}を{振|ふ}り{切|き}る (to shake off restraint)\n・{制止|せいし}を{無視|むし}する (to ignore attempts to stop one)\n・{制止|せいし}も{聞|き}かず (ignoring attempts to stop one)\n\nSIMILAR WORDS:\n・{制止|せいし} — stopping someone from acting (physical/verbal intervention)\n・{抑制|よくせい} — suppression, restraint (broader; includes self-restraint and systemic controls)",
-  "cross_references": [],
+  "notes": "Often appears in news and literary contexts describing scenes where someone is being physically or verbally restrained.\n\nCOMMON PATTERNS:\n- {制止|せいし}⟦する→する：00392_suru⟧ (to restrain, to stop someone)\n- {制止|せいし}⟦を→を：00422_wo⟧⟦{振|ふ}り{切|き}る→振り切る：06703_furikiru⟧ (to shake off restraint)\n- {制止|せいし}⟦を→を：00422_wo⟧⟦{無視|むし}する→無視する：17288_mushisuru⟧ (to ignore attempts to stop one)\n- {制止|せいし}⟦も→も：00484_mo⟧⟦{聞|き}か→聞く：00483_kiku⟧ず (ignoring attempts to stop one)\n\nSIMILAR WORDS:\n- {制止|せいし} — stopping someone from acting (physical/verbal intervention)\n- ⟦{抑制|よくせい}→抑制：05635_yokusei⟧ — suppression, restraint (broader; includes self-restraint and systemic controls)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05635_yokusei",
+      "reading": "よくせい",
+      "headword": "{抑制|よくせい}",
+      "label": "suppression, restraint (broader"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22563_oshitodomeru",
+      "reading": "おしとどめる",
+      "headword": "{押|お}し{留|とど}める",
+      "label": "to restrain"
+    }
+  ],
   "metadata": {
     "created": "2026-02-18T14:13:17Z",
-    "modified": "2026-03-29T03:07:35Z",
+    "modified": "2026-09-02T04:01:26Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",

@@ -3,7 +3,7 @@
   "headword": "{祈念|きねん}",
   "reading": "きねん",
   "romaji": "kinen",
-  "part_of_speech": "noun (suru verb)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "prayer; wish; supplication",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30737_kinen_ex1",
-      "japanese": "{平和|へいわ}を{祈念|きねん}する。",
+      "japanese": "⟦{平和|へいわ}→平和：01507_heiwa⟧⟦を→を：00422_wo⟧{祈念|きねん}⟦する→する：00392_suru⟧。",
       "english": "To pray for peace.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30737_kinen_ex2",
-      "japanese": "{皆様|みなさま}のご{健康|けんこう}を{祈念|きねん}いたします。",
+      "japanese": "⟦{皆様|みなさま}→皆様：15860_minasama⟧⟦の→の：09472_no⟧ご⟦{健康|けんこう}→健康：02706_kenkou⟧⟦を→を：00422_wo⟧{祈念|きねん}⟦いたします→いたす：01314_itasu⟧。",
       "english": "I pray for everyone's good health.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30737_kinen_ex3",
-      "japanese": "{式典|しきてん}では{被災地|ひさいち}の{一日|いちにち}も{早|はや}い{復興|ふっこう}が{祈念|きねん}された。",
+      "japanese": "⟦{式典|しきてん}→式典：09526_shikiten⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{被災地|ひさいち}→被災地：27434_hisaichi⟧⟦の→の：09472_no⟧⟦{一日|いちにち}→一日：00942_ichinichi⟧⟦も→も：00484_mo⟧⟦{早|はや}い→早い：00514_hayai⟧⟦{復興|ふっこう}→復興：07590_fukkou⟧⟦が→が：00051_ga⟧{祈念|きねん}⟦された→する：00392_suru⟧。",
       "english": "At the ceremony, prayers were offered for the earliest possible recovery of the disaster-stricken area.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Do not confuse with its homophone {記念|きねん} (commemoration), which is far more common. The two appear side by side in names such as {平和|へいわ}{祈念|きねん}{像|ぞう} (Peace Prayer Statue) versus {記念|きねん}{館|かん} (memorial hall).\n\nCOMMON COLLOCATIONS:\n- {平和|へいわ}を{祈念|きねん}する: to pray for peace\n- ご{多幸|たこう}を{祈念|きねん}{申|もう}し{上|あ}げます: I wish you every happiness (set closing phrase)\n- {安全|あんぜん}{祈念|きねん}: prayer for safety\n- {祈念|きねん}{式典|しきてん}: a memorial prayer ceremony\n\nREGISTER:\nWritten and ceremonial. In speech, ordinary people say {祈|いの}る; {祈念|きねん}する belongs to speeches, formal letters, and ceremonies.",
+  "notes": "Do not confuse with its homophone ⟦{記念|きねん}→記念：00232_kinen⟧ (commemoration), which is far more common. The two appear side by side in names such as ⟦{平和|へいわ}→平和：01507_heiwa⟧{祈念|きねん}⟦{像|ぞう}→像：03691_zou⟧ (Peace Prayer Statue) versus ⟦{記念|きねん}→記念：00232_kinen⟧⟦{館|かん}→館：17308_kan⟧ (memorial hall).\n\nCOMMON COLLOCATIONS:\n- ⟦{平和|へいわ}→平和：01507_heiwa⟧⟦を→を：00422_wo⟧{祈念|きねん}⟦する→する：00392_suru⟧: to pray for peace\n- ご{多幸|たこう}⟦を→を：00422_wo⟧{祈念|きねん}⟦{申|もう}し{上|あ}げます→申し上げる：01734_moushiageru⟧: I wish you every happiness (set closing phrase)\n- ⟦{安全|あんぜん}→安全：01131_anzen⟧{祈念|きねん}: prayer for safety\n- {祈念|きねん}⟦{式典|しきてん}→式典：09526_shikiten⟧: a memorial prayer ceremony\n\nREGISTER:\nWritten and ceremonial. In speech, ordinary people say ⟦{祈|いの}る→祈る：01198_inoru⟧; {祈念|きねん}⟦する→する：00392_suru⟧ belongs to speeches, formal letters, and ceremonies.",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -54,16 +54,17 @@
         "verb-suru"
       ],
       "formality": "formal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "religion",
         "action"
       ],
       "domain": [],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-08-25T12:29:46Z",
-    "modified": "2026-08-25T12:29:46Z"
+    "modified": "2026-09-02T04:02:41Z"
   },
   "conjugation": {
     "type": "suru",

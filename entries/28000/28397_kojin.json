@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28397_kojin_ex1",
-      "japanese": "{古人|こじん}の{知恵|ちえ}に{学|まな}ぶ。",
+      "japanese": "{古人|こじん}⟦の→の：09472_no⟧⟦{知恵|ちえ}→知恵：03428_chie⟧⟦に→に：00314_ni⟧⟦{学|まな}ぶ→学ぶ：01987_manabu⟧。",
       "english": "Learn from the wisdom of the ancients.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28397_kojin_ex2",
-      "japanese": "{古人|こじん}いわく、{時|とき}は{金|かね}なり。",
+      "japanese": "{古人|こじん}いわく、{時|とき}⟦は→は：00079_ha⟧⟦{金|かね}→金：02618_kane⟧なり。",
       "english": "As the ancients said, time is money.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28397_kojin_ex3",
-      "japanese": "この{言葉|ことば}は{古人|こじん}が{残|のこ}した{教|おし}えである。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{言葉|ことば}→言葉：02880_kotoba⟧⟦は→は：00079_ha⟧{古人|こじん}⟦が→が：00051_ga⟧⟦{残|のこ}した→残す：01975_nokosu⟧⟦{教|おし}え→教え：01909_oshie⟧⟦である→である：09855_dearu⟧。",
       "english": "These words are a teaching left by people of old.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Literary and formal. Appears most often in proverbs, essays, and quotations of classical sayings.\n\nCOMMON COLLOCATIONS:\n- {古人|こじん}いわく: as the ancients said\n- {古人|こじん}の{知恵|ちえ}: wisdom of the ancients\n- {古人|こじん}の{教|おし}え: teachings of the ancients\n- {古人|こじん}に{学|まな}ぶ: learn from the ancients\n\nSIMILAR WORDS:\n- {昔|むかし}の{人|ひと}: people of the past — everyday, neutral register\n- {先人|せんじん}: predecessors — emphasizes those who came before in a specific tradition or field\n- {故人|こじん}: the deceased — same reading but different meaning; refers to a specific dead person",
+  "notes": "Literary and formal. Appears most often in proverbs, essays, and quotations of classical sayings.\n\nCOMMON COLLOCATIONS:\n- {古人|こじん}いわく: as the ancients said\n- {古人|こじん}⟦の→の：09472_no⟧⟦{知恵|ちえ}→知恵：03428_chie⟧: wisdom of the ancients\n- {古人|こじん}⟦の→の：09472_no⟧⟦{教|おし}え→教え：01909_oshie⟧: teachings of the ancients\n- {古人|こじん}⟦に→に：00314_ni⟧⟦{学|まな}ぶ→学ぶ：01987_manabu⟧: learn from the ancients\n\nSIMILAR WORDS:\n- ⟦{昔|むかし}→昔：01515_mukashi⟧⟦の→の：09472_no⟧⟦{人|ひと}→人：00476_hito⟧: people of the past — everyday, neutral register\n- ⟦{先人|せんじん}→先人：23803_senjin⟧: predecessors — emphasizes those who came before in a specific tradition or field\n- ⟦{故人|こじん}→故人：02807_kojin⟧: the deceased — same reading but different meaning; refers to a specific dead person",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23803_senjin",
+      "reading": "せんじん",
+      "headword": "{先人|せんじん}",
+      "label": "predecessors"
+    },
+    {
+      "type": "homophone",
+      "target_id": "02807_kojin",
+      "reading": "こじん",
+      "headword": "{故人|こじん}",
+      "label": "the deceased"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +69,7 @@
         "noun"
       ],
       "formality": "formal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "person",
         "history"
@@ -61,6 +77,6 @@
       "domain": []
     },
     "created": "2026-05-30T04:08:44Z",
-    "modified": "2026-08-08T18:34:17Z"
+    "modified": "2026-09-02T04:02:33Z"
   }
 }

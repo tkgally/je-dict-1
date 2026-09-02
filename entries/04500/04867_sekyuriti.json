@@ -79,11 +79,33 @@
       ]
     }
   ],
-  "notes": "セキュリティ is a loanword from English \"security,\" used in both IT and physical security contexts.\n\nTWO MAIN USES:\n1. Cybersecurity: protection of computer systems and data\n2. Physical security: protection of buildings and locations\n\nCOMMON EXPRESSIONS:\n- セキュリティ⟦{対策|たいさく}→対策：02511_taisaku⟧: security measures\n- セキュリティ⟦を→を：00422_wo⟧⟦{強化|きょうか}する→強化する：25344_kyoukasuru⟧: to strengthen security\n- ⟦サイバー→サイバー：28281_saibaa⟧セキュリティ: cybersecurity\n- セキュリティ⟦ホール→ホール：11169_hooru⟧: security hole/vulnerability\n- ⟦ホーム→ホーム：00113_hoomu⟧セキュリティ: home security\n- セキュリティ⟦カード→カード：03836_kaado⟧: security card/access card\n\nCOMPOUNDS:\n- セキュリティ⟦{会社|かいしゃ}→会社：00607_kaisha⟧: security company\n- セキュリティ⟦チェック→チェック：03000_chekku⟧: security check",
-  "cross_references": [],
+  "notes": "セキュリティ is a loanword from English \"security,\" used in both IT and physical security contexts.\n\nFUNCTIONS:\n1. Cybersecurity: protection of computer systems and data\n2. Physical security: protection of buildings and locations\n\nCOMMON EXPRESSIONS:\n- セキュリティ⟦{対策|たいさく}→対策：02511_taisaku⟧: security measures\n- セキュリティ⟦を→を：00422_wo⟧⟦{強化|きょうか}する→強化する：25344_kyoukasuru⟧: to strengthen security\n- ⟦サイバー→サイバー：28281_saibaa⟧セキュリティ: cybersecurity\n- セキュリティ⟦ホール→ホール：11169_hooru⟧: security hole/vulnerability\n- ⟦ホーム→ホーム：00113_hoomu⟧セキュリティ: home security\n- セキュリティ⟦カード→カード：03836_kaado⟧: security card/access card\n\nCOMPOUNDS:\n- セキュリティ⟦{会社|かいしゃ}→会社：00607_kaisha⟧: security company\n- セキュリティ⟦チェック→チェック：03000_chekku⟧: security check",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "08192_bouhan",
+      "reading": "ぼうはん",
+      "headword": "{防犯|ぼうはん}",
+      "label": "crime prevention"
+    },
+    {
+      "type": "related",
+      "target_id": "08415_angouka",
+      "reading": "あんごうか",
+      "headword": "{暗号化|あんごうか}",
+      "label": "encryption"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11657_hoan",
+      "reading": "ほあん",
+      "headword": "{保安|ほあん}",
+      "label": "security, public safety"
+    }
+  ],
   "metadata": {
     "created": "2026-01-16T00:32:58Z",
-    "modified": "2026-06-02T21:17:05Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

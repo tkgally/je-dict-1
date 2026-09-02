@@ -19,7 +19,7 @@
   "examples": [
     {
       "id": "07531_akan_ex1",
-      "japanese": "もうあかんわ。",
+      "japanese": "⟦もう→もう：00602_mou⟧あかんわ。",
       "english": "It's no good anymore.",
       "has_audio": false,
       "sense_numbers": [
@@ -29,7 +29,7 @@
     },
     {
       "id": "07531_akan_ex2",
-      "japanese": "この{機械|きかい}、あかんわ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{機械|きかい}→機械：02366_kikai⟧、あかんわ。",
       "english": "This machine is no good.",
       "has_audio": false,
       "sense_numbers": [
@@ -39,7 +39,7 @@
     },
     {
       "id": "07531_akan_ex3",
-      "japanese": "{今日|きょう}は{体調|たいちょう}があかんねん。",
+      "japanese": "⟦{今日|きょう}→今日：00496_kyou⟧⟦は→は：00079_ha⟧⟦{体調|たいちょう}→体調：04644_taichou⟧⟦が→が：00051_ga⟧あかんねん。",
       "english": "I'm not feeling well today.",
       "has_audio": false,
       "sense_numbers": [
@@ -49,7 +49,7 @@
     },
     {
       "id": "07531_akan_ex4",
-      "japanese": "ここで{走|はし}ったらあかん。",
+      "japanese": "⟦ここ→ここ：00961_koko⟧⟦で→で：00502_de⟧⟦{走|はし}ったら→走る：00519_hashiru⟧あかん。",
       "english": "You must not run here.",
       "has_audio": false,
       "sense_numbers": [
@@ -59,7 +59,7 @@
     },
     {
       "id": "07531_akan_ex5",
-      "japanese": "ここでタバコ{吸|す}ったらあかんで。",
+      "japanese": "⟦ここ→ここ：00961_koko⟧⟦で→で：00502_de⟧タバコ⟦{吸|す}ったら→吸う：04394_suu⟧あかん⟦で→で：00502_de⟧。",
       "english": "You must not smoke here.",
       "has_audio": false,
       "sense_numbers": [
@@ -69,7 +69,7 @@
     },
     {
       "id": "07531_akan_ex6",
-      "japanese": "{遅刻|ちこく}したらあかんから、{早|はや}めに{出|で}よう。",
+      "japanese": "⟦{遅刻|ちこく}したら→遅刻する：22282_chikokusuru⟧あかん⟦から→から：00504_kara⟧、⟦{早|はや}め→早め：11176_hayame⟧⟦に→に：00314_ni⟧⟦{出|で}よう→出る：00513_deru⟧。",
       "english": "We shouldn't be late, so let's leave early.",
       "has_audio": false,
       "sense_numbers": [
@@ -78,10 +78,10 @@
       "notes": null
     }
   ],
-  "notes": "DIALECT:\nKansai ({関西|かんさい}) dialect, widely used throughout the region.\n\nORIGIN:\nFrom {埒|らち}が{明|あ}かぬ (rachi ga akanu - \"the fence won't open,\" meaning no progress), contracted to あかん.\n\nSTANDARD EQUIVALENT:\nだめ / いけない (standard Japanese)\n\nCOMMON PATTERNS:\n・〜したらあかん - must not do ~\n・〜せんとあかん - must do ~\n・あかんわ - it's no good (emphatic)\n・あかんかった - was no good (past)\n・あかんやん - it's no good, isn't it\n\nIDIOMATIC:\n・もうあかん - I give up / It's hopeless\n・あかん{子|こ}ほどかわいい - The worse the child, the more you love them\n\nNOTE:\nOne of the most recognizable Kansai expressions, frequently heard in media and comedy.",
+  "notes": "DIALECT:\nKansai (⟦{関西|かんさい}→関西：00179_kansai⟧) dialect, widely used throughout the region.\n\nETYMOLOGY:\nFrom {埒|らち}⟦が→が：00051_ga⟧{明|あ}かぬ (rachi ga akanu - \"the fence won't open,\" meaning no progress), contracted to あかん.\n\nSTANDARD EQUIVALENT:\n⟦だめ→だめ：00693_dame⟧ / いけない (standard Japanese)\n\nCOMMON PATTERNS:\n- 〜⟦したら→する：00392_suru⟧あかん - must not do ~\n- 〜せん⟦と→と：00512_to⟧あかん - must do ~\n- あかんわ - it's no good (emphatic)\n- あかんかった - was no good (past)\n- あかん⟦やん→やん：29708_yan⟧ - it's no good, isn't it\n\nIDIOMATIC:\n- ⟦もう→もう：00602_mou⟧あかん - I give up / It's hopeless\n- あかん{子|こ}ほど⟦かわいい→かわいい：00857_kawaii⟧ - The worse the child, the more you love them\n\nUSAGE:\nOne of the most recognizable Kansai expressions, frequently heard in media and comedy.",
   "metadata": {
     "created": "2026-01-20T08:22:58Z",
-    "modified": "2026-04-19T06:26:07Z",
+    "modified": "2026-09-02T04:01:11Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -89,6 +89,7 @@
         "expression"
       ],
       "formality": "informal",
+      "politeness": "plain",
       "semantic": [
         "expression"
       ],
@@ -112,6 +113,13 @@
       "reading": "ええやん",
       "headword": "ええやん",
       "label": "it's good"
+    },
+    {
+      "type": "related",
+      "target_id": "17646_dameda",
+      "reading": "だめだ",
+      "headword": "だめだ",
+      "label": "it's no good, I can't"
     }
   ]
 }

@@ -15,40 +15,73 @@
   "examples": [
     {
       "id": "19430_hihyouka_ex1",
-      "japanese": "{有名|ゆうめい}な{映画|えいが}{批評家|ひひょうか}。",
+      "japanese": "⟦{有名|ゆうめい}→有名：01106_yuumei⟧な⟦{映画|えいが}→映画：02273_eiga⟧{批評家|ひひょうか}。",
       "english": "A famous film critic.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19430_hihyouka_ex2",
-      "japanese": "{批評家|ひひょうか}の{評価|ひょうか}は{高|たか}いが、{観客|かんきゃく}の{反応|はんのう}はいまひとつだった。",
+      "japanese": "{批評家|ひひょうか}⟦の→の：09472_no⟧⟦{評価|ひょうか}→評価：03583_hyouka⟧⟦は→は：00079_ha⟧⟦{高|たか}い→高い：00500_takai⟧⟦が→が：00051_ga⟧、⟦{観客|かんきゃく}→観客：02556_kankyaku⟧⟦の→の：09472_no⟧⟦{反応|はんのう}→反応：04812_hannou⟧⟦は→は：00079_ha⟧⟦いまひとつ→いまひとつ：10742_imahitotsu⟧だった。",
       "english": "The critics rated it highly, but the audience response was lukewarm.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19430_hihyouka_ex3",
-      "japanese": "{文学|ぶんがく}{批評家|ひひょうか}として{活躍|かつやく}し、{多|おお}くの{著書|ちょしょ}がある。",
+      "japanese": "⟦{文学|ぶんがく}→文学：01505_bungaku⟧{批評家|ひひょうか}⟦として→として：06802_toshite⟧⟦{活躍|かつやく}→活躍：02541_katsuyaku⟧し、{多|おお}く⟦の→の：09472_no⟧⟦{著書|ちょしょ}→著書：14083_chosho⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "Active as a literary critic, the person has written many books.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "{批評家|ひひょうか} refers to a person who professionally analyzes and evaluates creative works such as literature, film, music, or art. Unlike a casual reviewer, a {批評家|ひひょうか} is expected to offer informed, expert judgment.\n\nWORD STRUCTURE:\nA compound of {批評|ひひょう} (criticism, review) + {家|か} (specialist, expert). The {家|か} suffix denotes a professional or specialist.\n\nCOMMON TYPES:\n- {映画|えいが}{批評家|ひひょうか}: film critic\n- {文学|ぶんがく}{批評家|ひひょうか}: literary critic\n- {音楽|おんがく}{批評家|ひひょうか}: music critic\n- {美術|びじゅつ}{批評家|ひひょうか}: art critic\n\nSIMILAR WORDS:\n- {評論家|ひょうろんか}: critic, commentator (broader, includes political/social commentary)\n- レビュアー: reviewer (from English)",
+  "notes": "{批評家|ひひょうか} refers to a person who professionally analyzes and evaluates creative works such as literature, film, music, or art. Unlike a casual reviewer, a {批評家|ひひょうか} is expected to offer informed, expert judgment.\n\nETYMOLOGY:\nA compound of ⟦{批評|ひひょう}→批評：03581_hihyou⟧ (criticism, review) + ⟦{家|か}→〜家：28339_ka⟧ (specialist, expert). The ⟦{家|か}→〜家：28339_ka⟧ suffix denotes a professional or specialist.\n\nTYPES:\n- ⟦{映画|えいが}→映画：02273_eiga⟧{批評家|ひひょうか}: film critic\n- ⟦{文学|ぶんがく}→文学：01505_bungaku⟧{批評家|ひひょうか}: literary critic\n- ⟦{音楽|おんがく}→音楽：00661_ongaku⟧{批評家|ひひょうか}: music critic\n- ⟦{美術|びじゅつ}→美術：04447_bijutsu⟧{批評家|ひひょうか}: art critic\n\nSIMILAR WORDS:\n- ⟦{評論家|ひょうろんか}→評論家：16405_hyouronka⟧: critic, commentator (broader, includes political/social commentary)\n- レビュアー: reviewer (from English)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16405_hyouronka",
+      "reading": "ひょうろんか",
+      "headword": "{評論家|ひょうろんか}",
+      "label": "critic, commentator"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22771_hihanka",
+      "reading": "ひはんか",
+      "headword": "{批判家|ひはんか}",
+      "label": "critic"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26937_hinikuya",
+      "reading": "ひにくや",
+      "headword": "{皮肉屋|ひにくや}",
+      "label": "cynic"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["occupation"]
+      "semantic": [
+        "occupation"
+      ]
     },
     "created": "2026-03-25T13:28:10Z",
-    "modified": "2026-03-25T13:28:10Z"
+    "modified": "2026-09-02T04:01:55Z"
   }
 }

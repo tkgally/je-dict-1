@@ -78,11 +78,33 @@
       ]
     }
   ],
-  "notes": "{籠|かご} refers to both baskets and cages, depending on context.\n\nTYPES:\n- ⟦{鳥|とり}{籠|かご}→鳥籠：19574_torikago⟧ (birdcage)\n- ⟦{買|か}い{物|もの}→買い物：00853_kaimono⟧{籠|かご} (shopping basket)\n- ⟦{竹|たけ}→竹：02220_take⟧{籠|かご} (bamboo basket)\n- ⟦{洗濯|せんたく}→洗濯：13283_sentaku⟧{籠|かご} (laundry basket)\n\nKANJI NOTES:\n- Often written in hiragana (かご)\n- {篭|かご} is an alternative kanji\n\nCOUNTER:\n- Baskets: ⟦{個|こ}→個：00645_ko⟧ or {籠|かご}\n- Cages: ⟦{個|こ}→個：00645_ko⟧\n\nRELATED:\n- ⟦ザル→ザル：04470_zaru⟧ (colander, strainer basket)\n- ⟦バスケット→バスケット：27718_basuketto⟧ (basket - loanword)",
-  "cross_references": [],
+  "notes": "{籠|かご} refers to both baskets and cages, depending on context.\n\nTYPES:\n- ⟦{鳥|とり}{籠|かご}→鳥籠：19574_torikago⟧ (birdcage)\n- ⟦{買|か}い{物|もの}→買い物：00853_kaimono⟧{籠|かご} (shopping basket)\n- ⟦{竹|たけ}→竹：02220_take⟧{籠|かご} (bamboo basket)\n- ⟦{洗濯|せんたく}→洗濯：13283_sentaku⟧{籠|かご} (laundry basket)\n\nWRITING:\n- Often written in hiragana (かご)\n- {篭|かご} is an alternative kanji\n\nCOUNTER:\n- Baskets: ⟦{個|こ}→個：00645_ko⟧ or {籠|かご}\n- Cages: ⟦{個|こ}→個：00645_ko⟧\n\nRELATED WORDS:\n- ⟦ザル→ザル：04470_zaru⟧ (colander, strainer basket)\n- ⟦バスケット→バスケット：27718_basuketto⟧ (basket - loanword)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "04470_zaru",
+      "reading": "ざる",
+      "headword": "ざる",
+      "label": "colander, strainer basket"
+    },
+    {
+      "type": "related",
+      "target_id": "27718_basuketto",
+      "reading": "ばすけっと",
+      "headword": "バスケット",
+      "label": "basket"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28564_ori",
+      "reading": "おり",
+      "headword": "{檻|おり}",
+      "label": "cage"
+    }
+  ],
   "metadata": {
     "created": "2026-01-11T10:14:45Z",
-    "modified": "2026-06-11T18:03:17Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

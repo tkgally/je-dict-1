@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "07760_emutii_ex1",
-      "japanese": "MT{車|しゃ}を{運転|うんてん}できる?",
+      "japanese": "MT⟦{車|しゃ}→車：09874_sha⟧⟦を→を：00422_wo⟧⟦{運転|うんてん}できる→運転する：20318_untensuru⟧?",
       "english": "Can you drive a manual?",
       "has_audio": false,
       "sense_numbers": [
@@ -23,7 +23,7 @@
     },
     {
       "id": "07760_emutii_ex2",
-      "japanese": "MTの{方|ほう}が{運転|うんてん}が{楽|たの}しい。",
+      "japanese": "MT⟦の→の：09472_no⟧⟦{方|ほう}→方：01139_hou⟧⟦が→が：00051_ga⟧⟦{運転|うんてん}→運転：01335_unten⟧⟦が→が：00051_ga⟧⟦{楽|たの}しい→楽しい：00817_tanoshii⟧。",
       "english": "Driving a manual is more fun.",
       "has_audio": false,
       "sense_numbers": [
@@ -32,7 +32,7 @@
     },
     {
       "id": "07760_emutii_ex3",
-      "japanese": "MT{免許|めんきょ}を{持|も}っていれば、AT{車|しゃ}も{運転|うんてん}できる。",
+      "japanese": "MT⟦{免許|めんきょ}→免許：03808_menkyo⟧⟦を→を：00422_wo⟧⟦{持|も}っていれば→持つ：00478_motsu⟧、AT⟦{車|しゃ}→車：09874_sha⟧⟦も→も：00484_mo⟧⟦{運転|うんてん}できる→運転する：20318_untensuru⟧。",
       "english": "If you have an MT license, you can also drive automatic cars.",
       "has_audio": false,
       "sense_numbers": [
@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "notes": "Abbreviation of \"Manual Transmission.\" In Japan, MT cars are becoming rare but driving enthusiasts still prefer them.\n\nCOMMON COMPOUNDS:\n- MT{車|しゃ}: manual transmission car\n- MT{免許|めんきょ}: MT driver's license\n- MT{限定|げんてい}{解除|かいじょ}: removing the AT-only restriction on a license\n\nLICENSING IN JAPAN:\nJapanese driver's licenses come in two types:\n- MT{免許|めんきょ}: allows driving both MT and AT vehicles\n- AT{限定|げんてい}{免許|めんきょ}: allows driving only AT vehicles\n\nMany people now choose the AT-only license since almost all passenger cars in Japan are automatic.\n\nCONTRAST:\n- MT (マニュアル): manual transmission\n- AT (オートマ): automatic transmission",
+  "notes": "Abbreviation of \"Manual Transmission.\" In Japan, MT cars are becoming rare but driving enthusiasts still prefer them.\n\nCOMPOUNDS:\n- MT⟦{車|しゃ}→車：09874_sha⟧: manual transmission car\n- MT⟦{免許|めんきょ}→免許：03808_menkyo⟧: MT driver's license\n- MT⟦{限定|げんてい}→限定：10997_gentei⟧⟦{解除|かいじょ}→解除：05762_kaijo⟧: removing the AT-only restriction on a license\n\nLICENSING IN JAPAN:\nJapanese driver's licenses come in two types:\n- MT⟦{免許|めんきょ}→免許：03808_menkyo⟧: allows driving both MT and AT vehicles\n- AT⟦{限定|げんてい}{免許|めんきょ}→限定免許：24957_genteimenkyo⟧: allows driving only AT vehicles\n\nMany people now choose the AT-only license since almost all passenger cars in Japan are automatic.\n\nSIMILAR WORDS:\n- MT (⟦マニュアル→マニュアル：26993_manyuaru⟧): manual transmission\n- AT (⟦オートマ→オートマ：29984_ootoma⟧): automatic transmission",
   "cross_references": [
     {
       "type": "antonym",
@@ -52,7 +52,7 @@
   ],
   "metadata": {
     "created": "2026-01-21T01:00:47Z",
-    "modified": "2026-06-19T21:43:28Z",
+    "modified": "2026-09-02T04:01:12Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +60,7 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "transportation",
         "technology"

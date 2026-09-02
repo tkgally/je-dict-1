@@ -3,7 +3,7 @@
   "id": "10601_funin",
   "headword": "{赴任|ふにん}",
   "reading": "ふにん",
-  "part_of_speech": "noun / verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "taking up a new post, assignment",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "10601_funin_ex1",
-      "japanese": "{来月|らいげつ}{大阪|おおさか}に{赴任|ふにん}する。",
+      "japanese": "⟦{来月|らいげつ}→来月：00744_raigetsu⟧⟦{大阪|おおさか}→大阪：09779_oosaka⟧⟦に→に：00314_ni⟧{赴任|ふにん}⟦する→する：00392_suru⟧。",
       "english": "I'm taking up a new post in Osaka next month.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "10601_funin_ex2",
-      "japanese": "{海外|かいがい}{赴任|ふにん}が{決|き}まった。",
+      "japanese": "{海外|かいがい}{赴任|ふにん}⟦が→が：00051_ga⟧⟦{決|き}まった→決まる：01233_kimaru⟧。",
       "english": "My overseas assignment has been decided.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "10601_funin_ex3",
-      "japanese": "{単身|たんしん}{赴任|ふにん}で{家族|かぞく}と{離|はな}れて{暮|く}らすことになった。",
+      "japanese": "{単身|たんしん}{赴任|ふにん}⟦で→で：00502_de⟧⟦{家族|かぞく}→家族：00552_kazoku⟧⟦と→と：00512_to⟧⟦{離|はな}れて→離れる：02397_hanareru⟧⟦{暮|く}らす→暮らす：01937_kurasu⟧ことになった。",
       "english": "Due to an unaccompanied transfer, I ended up living apart from my family.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nUsed as a する verb: {赴任|ふにん}する (to take up a new post). Implies relocation — simply starting a new job at the same location would not be {赴任|ふにん}.\n\nCOMMON COLLOCATIONS:\n- {赴任|ふにん}する: to take up a new post\n- {海外|かいがい}{赴任|ふにん}: overseas assignment\n- {単身|たんしん}{赴任|ふにん}: unaccompanied transfer (going alone without family)\n- {赴任先|ふにんさき}: assignment location, new post\n- {赴任|ふにん}{手当|てあて}: relocation allowance\n\nCULTURAL NOTE:\n{単身|たんしん}{赴任|ふにん} (living apart from family due to a work transfer) is a common phenomenon in Japanese corporate life, where employees may be transferred to distant offices. The family often stays behind due to children's schooling or housing.",
+  "notes": "USAGE:\nUsed as a ⟦する→する：00392_suru⟧ verb: {赴任|ふにん}⟦する→する：00392_suru⟧ (to take up a new post). Implies relocation — simply starting a new job at the same location would not be {赴任|ふにん}.\n\nCOMMON COLLOCATIONS:\n- {赴任|ふにん}⟦する→する：00392_suru⟧: to take up a new post\n- {海外|かいがい}{赴任|ふにん}: overseas assignment\n- {単身|たんしん}{赴任|ふにん}: unaccompanied transfer (going alone without family)\n- {赴任先|ふにんさき}: assignment location, new post\n- {赴任|ふにん}{手当|てあて}: relocation allowance\n\nCULTURAL NOTE:\n{単身|たんしん}{赴任|ふにん} (living apart from family due to a work transfer) is a common phenomenon in Japanese corporate life, where employees may be transferred to distant offices. The family often stays behind due to children's schooling or housing.",
   "cross_references": [
     {
       "type": "synonym",
@@ -142,11 +142,32 @@
       "reading": "ちゅうざい",
       "headword": "{駐在|ちゅうざい}",
       "label": "being posted (abroad)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14905_chakunin",
+      "reading": "ちゃくにん",
+      "headword": "{着任|ちゃくにん}",
+      "label": "taking up a new post"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21579_tennin",
+      "reading": "てんにん",
+      "headword": "{転任|てんにん}",
+      "label": "transfer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26986_shucchousuru",
+      "reading": "しゅっちょうする",
+      "headword": "{出張|しゅっちょう}する",
+      "label": "to go on a business trip"
     }
   ],
   "metadata": {
     "created": "2026-02-08T05:27:45Z",
-    "modified": "2026-05-08T07:08:06Z",
+    "modified": "2026-09-02T04:01:21Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

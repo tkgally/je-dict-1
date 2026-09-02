@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "16938_kadou_ex1",
-      "japanese": "この{工場|こうじょう}は24{時間|じかん}{稼働|かどう}している。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{工場|こうじょう}→工場：01082_koujou⟧⟦は→は：00079_ha⟧24⟦{時間|じかん}→時間：00468_jikan⟧{稼働|かどう}⟦している→する：00392_suru⟧。",
       "english": "This factory operates 24 hours a day.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "16938_kadou_ex2",
-      "japanese": "サーバーの{稼働|かどう}{率|りつ}は99.9%を{維持|いじ}している。",
+      "japanese": "⟦サーバー→サーバー：04755_saabaa⟧⟦の→の：09472_no⟧{稼働|かどう}{率|りつ}⟦は→は：00079_ha⟧99.9%⟦を→を：00422_wo⟧⟦{維持|いじ}している→維持する：17311_ijisuru⟧。",
       "english": "The server maintains an uptime of 99.9%.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "16938_kadou_ex3",
-      "japanese": "{老朽化|ろうきゅうか}した{原子力発電所|げんしりょくはつでんしょ}の{稼働|かどう}を{継続|けいぞく}するかどうかが{議論|ぎろん}になっている。",
+      "japanese": "⟦{老朽化|ろうきゅうか}→老朽化：07646_roukyuuka⟧⟦した→する：00392_suru⟧{原子力発電所|げんしりょくはつでんしょ}⟦の→の：09472_no⟧{稼働|かどう}⟦を→を：00422_wo⟧⟦{継続|けいぞく}する→継続する：26971_keizokusuru⟧⟦かどうか→かどうか：28299_kadouka⟧⟦が→が：00051_ga⟧⟦{議論|ぎろん}→議論：02650_giron⟧になっている。",
       "english": "Whether to continue operating the aging nuclear power plant is a matter of debate.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nUsed for machines, factories, power plants, servers, and other systems that run continuously. Also used in business for labor metrics like {稼働|かどう}{時間|じかん} (working hours) and {稼働|かどう}{率|りつ} (utilization rate / uptime).\n\nCOMMON COLLOCATIONS:\n- {稼働|かどう}する (to operate, to run)\n- {稼働|かどう}{率|りつ} (utilization rate, uptime)\n- {稼働|かどう}{時間|じかん} (operating hours)\n- {稼働|かどう}{日数|にっすう} (number of working days)\n- {本格的|ほんかくてき}に{稼働|かどう}する (to begin full-scale operation)\n\nDO NOT CONFUSE:\n- {華道|かどう}: the art of flower arrangement — same reading, completely different meaning",
+  "notes": "USAGE:\nUsed for machines, factories, power plants, servers, and other systems that run continuously. Also used in business for labor metrics like {稼働|かどう}⟦{時間|じかん}→時間：00468_jikan⟧ (working hours) and {稼働|かどう}{率|りつ} (utilization rate / uptime).\n\nCOMMON COLLOCATIONS:\n- {稼働|かどう}⟦する→する：00392_suru⟧ (to operate, to run)\n- {稼働|かどう}{率|りつ} (utilization rate, uptime)\n- {稼働|かどう}⟦{時間|じかん}→時間：00468_jikan⟧ (operating hours)\n- {稼働|かどう}⟦{日数|にっすう}→日数：12953_nissuu⟧ (number of working days)\n- ⟦{本格的|ほんかくてき}→本格的：05681_honkakuteki⟧⟦に→に：00314_ni⟧{稼働|かどう}⟦する→する：00392_suru⟧ (to begin full-scale operation)\n\nWATCH OUT:\n- ⟦{華道|かどう}→華道：04450_kadou⟧: the art of flower arrangement — same reading, completely different meaning",
   "cross_references": [
     {
       "type": "homophone",
@@ -142,11 +142,25 @@
       "reading": "かどう",
       "headword": "{可動|かどう}",
       "label": "movable"
+    },
+    {
+      "type": "related",
+      "target_id": "02040_kasegu",
+      "reading": "かせぐ",
+      "headword": "{稼|かせ}ぐ",
+      "label": "to earn, to make money"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11692_sadou",
+      "reading": "さどう",
+      "headword": "{作動|さどう}",
+      "label": "operation, activation (of machinery)"
     }
   ],
   "metadata": {
     "created": "2026-03-15T02:16:44Z",
-    "modified": "2026-04-11T00:58:17Z",
+    "modified": "2026-09-02T04:01:46Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

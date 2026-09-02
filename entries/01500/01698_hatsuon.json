@@ -2,7 +2,7 @@
   "id": "01698_hatsuon",
   "headword": "{発音|はつおん}",
   "reading": "はつおん",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "pronunciation",
   "conjugation": {
     "type": "suru",
@@ -133,11 +133,61 @@
       ]
     }
   ],
-  "notes": "{発音|はつおん} is composed of {発|はつ} (emit) + {音|おん} (sound).\n\nTRANSITIVITY:\n- Type: {他動詞|たどうし} (transitive)\n- No standard intransitive pair\n- Pattern: [noun]を{発音|はつおん}する\n\nCOMMON PATTERNS:\n- {発音|はつおん}⟦する→する：00392_suru⟧: to pronounce\n- {発音|はつおん}⟦が→が：00051_ga⟧⟦{良|よ}い→良い：02350_yoi⟧/⟦{悪|わる}い→悪い：00908_warui⟧: good/bad pronunciation\n- ⟦{正|ただ}しい→正しい：00893_tadashii⟧{発音|はつおん}: correct pronunciation\n- {発音|はつおん}⟦を→を：00422_wo⟧⟦{練習|れんしゅう}→練習：05323_renshuu⟧⟦する→する：00392_suru⟧: to practice pronunciation\n- {発音|はつおん}⟦{記号|きごう}→記号：00224_kigou⟧: phonetic symbols\n\nRELATED TERMS:\n- ⟦アクセント→アクセント：10697_akusento⟧: accent, stress\n- ⟦イントネーション→イントネーション：25970_intoneeshon⟧: intonation\n- ⟦{言|い}い{方|かた}→言い方：14165_iikata⟧: way of saying",
-  "cross_references": [],
+  "notes": "{発音|はつおん} is composed of ⟦{発|はつ}→〜発：04026_hatsu⟧ (emit) + {音|おん} (sound).\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- No standard intransitive pair\n- Pattern: [noun]⟦を→を：00422_wo⟧{発音|はつおん}⟦する→する：00392_suru⟧\n\nCOMMON PATTERNS:\n- {発音|はつおん}⟦する→する：00392_suru⟧: to pronounce\n- {発音|はつおん}⟦が→が：00051_ga⟧⟦{良|よ}い→良い：02350_yoi⟧/⟦{悪|わる}い→悪い：00908_warui⟧: good/bad pronunciation\n- ⟦{正|ただ}しい→正しい：00893_tadashii⟧{発音|はつおん}: correct pronunciation\n- {発音|はつおん}⟦を→を：00422_wo⟧⟦{練習|れんしゅう}→練習：05323_renshuu⟧⟦する→する：00392_suru⟧: to practice pronunciation\n- {発音|はつおん}⟦{記号|きごう}→記号：00224_kigou⟧: phonetic symbols\n\nRELATED WORDS:\n- ⟦アクセント→アクセント：10697_akusento⟧: accent, stress\n- ⟦イントネーション→イントネーション：25970_intoneeshon⟧: intonation\n- ⟦{言|い}い{方|かた}→言い方：14165_iikata⟧: way of saying",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "10697_akusento",
+      "reading": "あくせんと",
+      "headword": "アクセント",
+      "label": "accent, stress"
+    },
+    {
+      "type": "related",
+      "target_id": "25970_intoneeshon",
+      "reading": "いんとねーしょん",
+      "headword": "イントネーション",
+      "label": "intonation"
+    },
+    {
+      "type": "related",
+      "target_id": "14165_iikata",
+      "reading": "いいかた",
+      "headword": "{言|い}い{方|かた}",
+      "label": "way of saying"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14269_yomikata",
+      "reading": "よみかた",
+      "headword": "{読|よ}み{方|かた}",
+      "label": "way of reading"
+    },
+    {
+      "type": "homophone",
+      "target_id": "23467_hatsuon",
+      "reading": "はつおん",
+      "headword": "{撥音|はつおん}",
+      "label": "nasal sound"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27124_hatsuwa",
+      "reading": "はつわ",
+      "headword": "{発話|はつわ}",
+      "label": "utterance"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30041_hatsugo",
+      "reading": "はつご",
+      "headword": "発語",
+      "label": "utterance"
+    }
+  ],
   "metadata": {
     "created": "2026-01-09T12:37:21Z",
-    "modified": "2026-05-16T19:11:35Z",
+    "modified": "2026-09-02T04:01:00Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

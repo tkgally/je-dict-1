@@ -15,41 +15,67 @@
   "examples": [
     {
       "id": "27742_chuuouamerika_ex1",
-      "japanese": "{中央|ちゅうおう}アメリカを{旅|たび}した。",
+      "japanese": "{中央|ちゅうおう}アメリカ⟦を→を：00422_wo⟧⟦{旅|たび}→旅：03407_tabi⟧⟦した→する：00392_suru⟧。",
       "english": "I traveled through Central America.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27742_chuuouamerika_ex2",
-      "japanese": "コーヒーは{中央|ちゅうおう}アメリカの{重要|じゅうよう}な{産品|さんぴん}だ。",
+      "japanese": "⟦コーヒー→コーヒー：00789_koohii⟧⟦は→は：00079_ha⟧{中央|ちゅうおう}アメリカ⟦の→の：09472_no⟧⟦{重要|じゅうよう}→重要：01575_juuyou⟧な{産品|さんぴん}だ。",
       "english": "Coffee is an important product of Central America.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27742_chuuouamerika_ex3",
-      "japanese": "{中央|ちゅうおう}アメリカは{北|きた}アメリカと{南|みなみ}アメリカをつなぐ{細|ほそ}い{陸地|りくち}だ。",
+      "japanese": "{中央|ちゅうおう}アメリカ⟦は→は：00079_ha⟧⟦{北|きた}アメリカ→北アメリカ：26752_kitaamerika⟧⟦と→と：00512_to⟧⟦{南|みなみ}アメリカ→南アメリカ：26753_minamiamerika⟧⟦を→を：00422_wo⟧つなぐ⟦{細|ほそ}い→細い：02962_hosoi⟧⟦{陸地|りくち}→陸地：14691_rikuchi⟧だ。",
       "english": "Central America is a narrow strip of land connecting North and South America.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "The land bridge between North and South America, often counted as the southern part of North America.\n\nUSAGE:\n- {中央|ちゅうおう}アメリカ{諸国|しょこく}: the Central American countries\n- {中央|ちゅうおう}アメリカの{国々|くにぐに}: the nations of Central America\n\nSIMILAR WORDS:\n- {中米|ちゅうべい}: Central America — a contracted form using the kanji {米|べい} for アメリカ; interchangeable in most contexts",
+  "notes": "The land bridge between North and South America, often counted as the southern part of North America.\n\nUSAGE:\n- {中央|ちゅうおう}アメリカ⟦{諸国|しょこく}→諸国：15992_shokoku⟧: the Central American countries\n- {中央|ちゅうおう}アメリカ⟦の→の：09472_no⟧⟦{国々|くにぐに}→国々：04806_kuniguni⟧: the nations of Central America\n\nSIMILAR WORDS:\n- ⟦{中米|ちゅうべい}→中米：25663_chuubei⟧: Central America — a contracted form using the kanji ⟦{米|べい}→米：28297_bei⟧ for ⟦アメリカ→アメリカ：01769_amerika⟧; interchangeable in most contexts",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25663_chuubei",
+      "reading": "ちゅうべい",
+      "headword": "{中米|ちゅうべい}",
+      "label": "Central America"
+    },
+    {
+      "type": "related",
+      "target_id": "19053_chuunanbei",
+      "reading": "ちゅうなんべい",
+      "headword": "{中南米|ちゅうなんべい}",
+      "label": "Central and South America"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["geography"],
+      "semantic": [
+        "geography"
+      ],
       "domain": []
     },
     "created": "2026-05-18T03:04:42Z",
-    "modified": "2026-05-18T03:04:42Z"
+    "modified": "2026-09-02T04:02:31Z"
   }
 }

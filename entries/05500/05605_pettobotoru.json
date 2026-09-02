@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "05605_pettobotoru_ex1",
-      "japanese": "ペットボトル⟦を→を：00422_wo⟧⟦リサイクル→リサイクル：04624_risaikuru⟧する。",
+      "japanese": "ペットボトル⟦を→を：00422_wo⟧⟦リサイクル→リサイクル：04624_risaikuru⟧⟦する→する：00392_suru⟧。",
       "english": "To recycle plastic bottles.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "05605_pettobotoru_ex3",
-      "japanese": "ペットボトル⟦の→の：09472_no⟧キャップ⟦を→を：00422_wo⟧⟦{外|はず}す→外す：02394_hazusu⟧。",
+      "japanese": "ペットボトル⟦の→の：09472_no⟧⟦キャップ→キャップ：05435_kyappu⟧⟦を→を：00422_wo⟧⟦{外|はず}す→外す：02394_hazusu⟧。",
       "english": "To remove the cap from a plastic bottle.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "ペットボトル is a Japanese-English compound: PET (polyethylene terephthalate) + ボトル (bottle).\n\nCOMMON EXPRESSIONS:\n- ペットボトル⟦の→の：09472_no⟧⟦{水|みず}→水：02258_mizu⟧/⟦{お茶|ちゃ}→茶：03433_cha⟧: bottled water/tea\n- ペットボトル⟦を→を：00422_wo⟧⟦{捨|す}てる→捨てる：00892_suteru⟧: to throw away a plastic bottle\n- ペットボトル⟦の→の：09472_no⟧キャップ: bottle cap\n\nRECYCLING IN JAPAN:\nPET bottles require specific disposal:\n- ⟦{中|なか}→中：00654_naka⟧⟦を→を：00422_wo⟧すすぐ: rinse inside\n- ラベル⟦を→を：00422_wo⟧⟦{剥|は}がす→剥がす：00081_hagasu⟧: remove label\n- キャップ⟦を→を：00422_wo⟧⟦{外|はず}す→外す：02394_hazusu⟧: remove cap\nCaps, labels, and bottles often go in separate recycling bins.\n\nRELATED:\n- ⟦{缶|かん}→缶：01076_kan⟧: can\n- ⟦{瓶|びん}→瓶：01016_bin⟧: glass bottle\n- ⟦リサイクル→リサイクル：04624_risaikuru⟧: recycling",
+  "notes": "ペットボトル is a Japanese-English compound: PET (polyethylene terephthalate) + ⟦ボトル→ボトル：11270_botoru⟧ (bottle).\n\nCOMMON EXPRESSIONS:\n- ペットボトル⟦の→の：09472_no⟧⟦{水|みず}→水：02258_mizu⟧/⟦{お茶|ちゃ}→茶：03433_cha⟧: bottled water/tea\n- ペットボトル⟦を→を：00422_wo⟧⟦{捨|す}てる→捨てる：00892_suteru⟧: to throw away a plastic bottle\n- ペットボトル⟦の→の：09472_no⟧⟦キャップ→キャップ：05435_kyappu⟧: bottle cap\n\nRECYCLING IN JAPAN:\nPET bottles require specific disposal:\n- ⟦{中|なか}→中：00654_naka⟧⟦を→を：00422_wo⟧すすぐ: rinse inside\n- ⟦ラベル→ラベル：00348_raberu⟧⟦を→を：00422_wo⟧⟦{剥|は}がす→剥がす：00081_hagasu⟧: remove label\n- ⟦キャップ→キャップ：05435_kyappu⟧⟦を→を：00422_wo⟧⟦{外|はず}す→外す：02394_hazusu⟧: remove cap\nCaps, labels, and bottles often go in separate recycling bins.\n\nRELATED WORDS:\n- ⟦{缶|かん}→缶：01076_kan⟧: can\n- ⟦{瓶|びん}→瓶：01016_bin⟧: glass bottle\n- ⟦リサイクル→リサイクル：04624_risaikuru⟧: recycling",
   "cross_references": [
     {
       "type": "related",
@@ -65,11 +65,18 @@
       "reading": "りさいくる",
       "headword": "リサイクル",
       "label": "recycling"
+    },
+    {
+      "type": "related",
+      "target_id": "04299_suitou",
+      "reading": "すいとう",
+      "headword": "{水筒|すいとう}",
+      "label": "water bottle, canteen"
     }
   ],
   "metadata": {
     "created": "2026-01-16T08:18:53Z",
-    "modified": "2026-06-07T15:09:38Z",
+    "modified": "2026-09-02T04:01:07Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

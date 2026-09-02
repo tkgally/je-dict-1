@@ -15,41 +15,69 @@
   "examples": [
     {
       "id": "27186_keizaitaikoku_ex1",
-      "japanese": "{日本|にほん}は{世界有数|せかいゆうすう}の{経済大国|けいざいたいこく}だ。",
+      "japanese": "⟦{日本|にほん}→日本：03876_nihon⟧⟦は→は：00079_ha⟧{世界有数|せかいゆうすう}⟦の→の：09472_no⟧{経済大国|けいざいたいこく}だ。",
       "english": "Japan is one of the world's leading economic superpowers.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27186_keizaitaikoku_ex2",
-      "japanese": "{経済大国|けいざいたいこく}として{国際社会|こくさいしゃかい}での{責任|せきにん}も{大|おお}きい。",
+      "japanese": "{経済大国|けいざいたいこく}⟦として→として：06802_toshite⟧{国際社会|こくさいしゃかい}⟦で→で：00502_de⟧⟦の→の：09472_no⟧⟦{責任|せきにん}→責任：03298_sekinin⟧⟦も→も：00484_mo⟧⟦{大|おお}きい→大きい：00335_ookii⟧。",
       "english": "As an economic superpower, it also bears great responsibility in the international community.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27186_keizaitaikoku_ex3",
-      "japanese": "{中国|ちゅうごく}は{急速|きゅうそく}な{成長|せいちょう}を{遂|と}げ、{世界第二位|せかいだいにい}の{経済大国|けいざいたいこく}になった。",
+      "japanese": "⟦{中国|ちゅうごく}→中国：28300_chuugoku⟧⟦は→は：00079_ha⟧⟦{急速|きゅうそく}→急速：02634_kyuusoku⟧な⟦{成長|せいちょう}→成長：03290_seichou⟧⟦を→を：00422_wo⟧⟦{遂|と}げ→遂げる：14323_togeru⟧、{世界第二位|せかいだいにい}⟦の→の：09472_no⟧{経済大国|けいざいたいこく}になった。",
       "english": "China achieved rapid growth and became the world's second-largest economic power.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {経済|けいざい} (economy) + {大国|たいこく} (great power/major nation). Frequently used in news and political discussions about Japan's postwar identity and international role.\n\nCOMMON COLLOCATIONS:\n- {世界|せかい}の{経済大国|けいざいたいこく}: world economic power\n- {経済大国|けいざいたいこく}としての{責任|せきにん}: responsibility as an economic superpower\n- {経済大国|けいざいたいこく}になる: to become an economic superpower\n- {経済大国|けいざいたいこく}の{地位|ちい}: status as an economic power\n\nCULTURAL CONTEXT:\nJapan is often described as an {経済大国|けいざいたいこく} in contrast to a {軍事大国|ぐんじたいこく} (military power), reflecting its postwar constitution and the emphasis on economic development over military expansion.\n\nRELATED TERMS:\n- {大国|たいこく}: major power, great nation\n- {先進国|せんしんこく}: developed country\n- {新興国|しんこうこく}: emerging nation",
+  "notes": "A compound of ⟦{経済|けいざい}→経済：01394_keizai⟧ (economy) + ⟦{大国|たいこく}→大国：12218_taikoku⟧ (great power/major nation). Frequently used in news and political discussions about Japan's postwar identity and international role.\n\nCOMMON COLLOCATIONS:\n- ⟦{世界|せかい}→世界：01447_sekai⟧⟦の→の：09472_no⟧{経済大国|けいざいたいこく}: world economic power\n- {経済大国|けいざいたいこく}⟦として→として：06802_toshite⟧⟦の→の：09472_no⟧⟦{責任|せきにん}→責任：03298_sekinin⟧: responsibility as an economic superpower\n- {経済大国|けいざいたいこく}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧: to become an economic superpower\n- {経済大国|けいざいたいこく}⟦の→の：09472_no⟧⟦{地位|ちい}→地位：03427_chii⟧: status as an economic power\n\nCULTURAL NOTE:\nJapan is often described as an {経済大国|けいざいたいこく} in contrast to a {軍事大国|ぐんじたいこく} (military power), reflecting its postwar constitution and the emphasis on economic development over military expansion.\n\nRELATED WORDS:\n- ⟦{大国|たいこく}→大国：12218_taikoku⟧: major power, great nation\n- ⟦{先進国|せんしんこく}→先進国：11624_senshinkoku⟧: developed country\n- ⟦{新興国|しんこうこく}→新興国：21746_shinkoukoku⟧: emerging nation",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "11624_senshinkoku",
+      "reading": "せんしんこく",
+      "headword": "{先進国|せんしんこく}",
+      "label": "developed country"
+    },
+    {
+      "type": "related",
+      "target_id": "21746_shinkoukoku",
+      "reading": "しんこうこく",
+      "headword": "{新興国|しんこうこく}",
+      "label": "emerging nation"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["economics"],
-      "domain": ["business"]
+      "semantic": [
+        "economics"
+      ],
+      "domain": [
+        "business"
+      ]
     },
     "created": "2026-05-07T15:18:57Z",
-    "modified": "2026-08-07T06:30:05Z"
+    "modified": "2026-09-02T04:02:29Z"
   }
 }

@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "12099_henshin_ex1",
-      "japanese": "ヒーローが{変身|へんしん}した。",
+      "japanese": "⟦ヒーロー→ヒーロー：11262_hiiroo⟧⟦が→が：00051_ga⟧{変身|へんしん}⟦した→する：00392_suru⟧。",
       "english": "The hero transformed.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "12099_henshin_ex2",
-      "japanese": "ダイエットで{別人|べつじん}のように{変身|へんしん}した。",
+      "japanese": "⟦ダイエット→ダイエット：17678_daietto⟧⟦で→で：00502_de⟧⟦{別人|べつじん}→別人：11877_betsujin⟧⟦のように→のように：30291_noyouni⟧{変身|へんしん}⟦した→する：00392_suru⟧。",
       "english": "Through dieting, she transformed as if into a different person.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "12099_henshin_ex3",
-      "japanese": "その{静|しず}かな{町|まち}は{観光地|かんこうち}として{大|おお}きく{変身|へんしん}を{遂|と}げた。",
+      "japanese": "⟦その→その：00993_sono⟧⟦{静|しず}か→静か：00755_shizuka⟧な⟦{町|まち}→町：00613_machi⟧⟦は→は：00079_ha⟧⟦{観光地|かんこうち}→観光地：14163_kankouchi⟧⟦として→として：06802_toshite⟧⟦{大|おお}きく→大きい：00335_ookii⟧{変身|へんしん}⟦を→を：00422_wo⟧⟦{遂|と}げた→遂げる：14323_togeru⟧。",
       "english": "That quiet town underwent a great transformation as a tourist destination.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nIconically associated with Japanese tokusatsu (live-action superhero) shows where heroes shout \"{変身|へんしん}!\" to trigger their transformation. Beyond fiction, used for dramatic real-life makeovers (fashion, weight loss) and figurative transformations of places or organizations.\n\nCOMMON COLLOCATIONS:\n- {変身|へんしん}する: to transform\n- {変身|へんしん}を{遂|と}げる: to undergo a transformation\n- {華麗|かれい}な{変身|へんしん}: splendid transformation\n- {劇的|げきてき}な{変身|へんしん}: dramatic transformation\n- {変身|へんしん}ポーズ: transformation pose (tokusatsu)\n\nSIMILAR WORDS:\n{変身|へんしん} implies a dramatic, visible change in form or appearance. {変装|へんそう} (disguise) is about altering appearance to hide identity. {変容|へんよう} (transformation) is more formal and used for gradual, abstract changes.",
+  "notes": "USAGE:\nIconically associated with Japanese tokusatsu (live-action superhero) shows where heroes shout \"{変身|へんしん}!\" to trigger their transformation. Beyond fiction, used for dramatic real-life makeovers (fashion, weight loss) and figurative transformations of places or organizations.\n\nCOMMON COLLOCATIONS:\n- {変身|へんしん}⟦する→する：00392_suru⟧: to transform\n- {変身|へんしん}⟦を→を：00422_wo⟧⟦{遂|と}げる→遂げる：14323_togeru⟧: to undergo a transformation\n- ⟦{華麗|かれい}→華麗：09199_karei⟧な{変身|へんしん}: splendid transformation\n- ⟦{劇的|げきてき}→劇的：06830_gekiteki⟧な{変身|へんしん}: dramatic transformation\n- {変身|へんしん}⟦ポーズ→ポーズ：11268_poozu⟧: transformation pose (tokusatsu)\n\nSIMILAR WORDS:\n{変身|へんしん} implies a dramatic, visible change in form or appearance. ⟦{変装|へんそう}→変装：12098_hensou⟧ (disguise) is about altering appearance to hide identity. ⟦{変容|へんよう}→変容：12115_henyou⟧ (transformation) is more formal and used for gradual, abstract changes.",
   "cross_references": [
     {
       "type": "contrast",
@@ -153,7 +153,7 @@
   ],
   "metadata": {
     "created": "2026-02-20T04:57:02Z",
-    "modified": "2026-04-26T06:29:08Z",
+    "modified": "2026-09-02T04:01:27Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -166,7 +166,8 @@
       "semantic": [
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   },
   "prominent_see_also": [

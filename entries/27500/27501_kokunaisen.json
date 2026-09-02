@@ -15,41 +15,68 @@
   "examples": [
     {
       "id": "27501_kokunaisen_ex1",
-      "japanese": "{国内線|こくないせん}のターミナルはこちらです。",
+      "japanese": "{国内線|こくないせん}⟦の→の：09472_no⟧⟦ターミナル→ターミナル：11037_taaminaru⟧⟦は→は：00079_ha⟧⟦こちら→こちら：00960_kochira⟧です。",
       "english": "The domestic terminal is this way.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27501_kokunaisen_ex2",
-      "japanese": "{国内線|こくないせん}を{利用|りよう}して{大阪|おおさか}に{行|い}く。",
+      "japanese": "{国内線|こくないせん}⟦を→を：00422_wo⟧⟦{利用|りよう}して→利用する：21735_riyousuru⟧⟦{大阪|おおさか}→大阪：09779_oosaka⟧⟦に→に：00314_ni⟧⟦{行|い}く→行く：00119_iku⟧。",
       "english": "I'll take a domestic flight to Osaka.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27501_kokunaisen_ex3",
-      "japanese": "{台風|たいふう}の{影響|えいきょう}で、{国内線|こくないせん}の{多|おお}くが{欠航|けっこう}になった。",
+      "japanese": "⟦{台風|たいふう}→台風：01455_taifuu⟧⟦の→の：09472_no⟧⟦{影響|えいきょう}→影響：01877_eikyou⟧⟦で→で：00502_de⟧、{国内線|こくないせん}⟦の→の：09472_no⟧{多|おお}く⟦が→が：00051_ga⟧⟦{欠航|けっこう}→欠航：09509_kekkou⟧になった。",
       "english": "Because of the typhoon, many domestic flights were cancelled.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Compound of {国内|こくない} (domestic) + {線|せん} (line; route). Used for airlines and occasionally trains, but the airline sense dominates.\n\nCOMMON COLLOCATIONS:\n- {国内線|こくないせん}に{乗|の}る: to take a domestic flight\n- {国内線|こくないせん}ターミナル: domestic terminal\n- {国内線|こくないせん}{専用|せんよう}: domestic-only\n- {国内線|こくないせん}{予約|よやく}: domestic booking\n\nSIMILAR WORDS:\n- {国際線|こくさいせん}: international flight — the counterpart for flights that cross national borders\n- {国内便|こくないびん}: domestic flight — refers to a specific flight rather than the route as a whole",
+  "notes": "Compound of ⟦{国内|こくない}→国内：02998_kokunai⟧ (domestic) + ⟦{線|せん}→線：09901_sen⟧ (line; route). Used for airlines and occasionally trains, but the airline sense dominates.\n\nCOMMON COLLOCATIONS:\n- {国内線|こくないせん}⟦に→に：00314_ni⟧⟦{乗|の}る→乗る：00511_noru⟧: to take a domestic flight\n- {国内線|こくないせん}⟦ターミナル→ターミナル：11037_taaminaru⟧: domestic terminal\n- {国内線|こくないせん}⟦{専用|せんよう}→専用：12385_senyou⟧: domestic-only\n- {国内線|こくないせん}⟦{予約|よやく}→予約：01522_yoyaku⟧: domestic booking\n\nSIMILAR WORDS:\n- ⟦{国際線|こくさいせん}→国際線：27502_kokusaisen⟧: international flight — the counterpart for flights that cross national borders\n- {国内便|こくないびん}: domestic flight — refers to a specific flight rather than the route as a whole",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "27502_kokusaisen",
+      "reading": "こくさいせん",
+      "headword": "{国際線|こくさいせん}",
+      "label": "international flight"
+    },
+    {
+      "type": "related",
+      "target_id": "00629_hikouki",
+      "reading": "ひこうき",
+      "headword": "{飛行機|ひこうき}",
+      "label": "airplane"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["travel", "transportation"],
+      "politeness": "plain",
+      "semantic": [
+        "travel",
+        "transportation"
+      ],
       "domain": []
     },
     "created": "2026-05-13T03:06:10Z",
-    "modified": "2026-05-13T03:06:10Z"
+    "modified": "2026-09-02T04:02:30Z"
   }
 }

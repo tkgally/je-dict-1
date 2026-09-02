@@ -14,38 +14,78 @@
   "examples": [
     {
       "id": "24783_shinyoukinko_ex1",
-      "japanese": "{信用金庫|しんようきんこ}に{預金|よきん}した。",
+      "japanese": "{信用金庫|しんようきんこ}⟦に→に：00314_ni⟧⟦{預金|よきん}→預金：05420_yokin⟧⟦した→する：00392_suru⟧。",
       "english": "I deposited money at the credit union.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "24783_shinyoukinko_ex2",
-      "japanese": "{地元|じもと}の{信用金庫|しんようきんこ}から{融資|ゆうし}を{受|う}けた。",
+      "japanese": "⟦{地元|じもと}→地元：09941_jimoto⟧⟦の→の：09472_no⟧{信用金庫|しんようきんこ}⟦から→から：00504_kara⟧⟦{融資|ゆうし}→融資：04775_yuushi⟧⟦を→を：00422_wo⟧⟦{受|う}けた→受ける：01215_ukeru⟧。",
       "english": "I received a loan from the local credit union.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "24783_shinyoukinko_ex3",
-      "japanese": "この{信用金庫|しんようきんこ}は{地域|ちいき}の{中小企業|ちゅうしょうきぎょう}を{支援|しえん}することを{目的|もくてき}としている。",
+      "japanese": "⟦この→この：00962_kono⟧{信用金庫|しんようきんこ}⟦は→は：00079_ha⟧⟦{地域|ちいき}→地域：01461_chiiki⟧⟦の→の：09472_no⟧⟦{中小企業|ちゅうしょうきぎょう}→中小企業：24117_chuushoukigyou⟧⟦を→を：00422_wo⟧⟦{支援|しえん}する→支援する：25534_shiensuru⟧こと⟦を→を：00422_wo⟧⟦{目的|もくてき}→目的：02433_mokuteki⟧⟦として→として：06802_toshite⟧⟦いる→いる：00495_iru⟧。",
       "english": "This credit union aims to support small and medium businesses in the area.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "A type of cooperative financial institution ({協同組織|きょうどうそしき}) unique to Japan's financial system. Unlike banks, {信用金庫|しんようきんこ} are member-owned and focused on serving local communities. Often abbreviated to {信金|しんきん}.\n\nCOMMON COLLOCATIONS:\n- {信用金庫|しんようきんこ}に{口座|こうざ}を{開|ひら}く: to open an account at a credit union\n- {地元|じもと}の{信用金庫|しんようきんこ}: local credit union\n- {信金|しんきん}: abbreviated form\n\nSIMILAR WORDS:\n- {銀行|ぎんこう}: bank (larger, publicly traded, nationwide)\n- {信用組合|しんようくみあい}: credit cooperative (even smaller scale than {信用金庫|しんようきんこ})\n- {農協|のうきょう}: agricultural cooperative (serves farmers specifically)",
+  "notes": "A type of cooperative financial institution ({協同組織|きょうどうそしき}) unique to Japan's financial system. Unlike banks, {信用金庫|しんようきんこ} are member-owned and focused on serving local communities. Often abbreviated to {信金|しんきん}.\n\nCOMMON COLLOCATIONS:\n- {信用金庫|しんようきんこ}⟦に→に：00314_ni⟧⟦{口座|こうざ}→口座：05419_kouza⟧⟦を→を：00422_wo⟧⟦{開|ひら}く→開く：01979_hiraku⟧: to open an account at a credit union\n- ⟦{地元|じもと}→地元：09941_jimoto⟧⟦の→の：09472_no⟧{信用金庫|しんようきんこ}: local credit union\n- {信金|しんきん}: abbreviated form\n\nSIMILAR WORDS:\n- ⟦{銀行|ぎんこう}→銀行：00578_ginkou⟧: bank (larger, publicly traded, nationwide)\n- {信用組合|しんようくみあい}: credit cooperative (even smaller scale than {信用金庫|しんようきんこ})\n- ⟦{農協|のうきょう}→農協：27727_noukyou⟧: agricultural cooperative (serves farmers specifically)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00578_ginkou",
+      "reading": "ぎんこう",
+      "headword": "{銀行|ぎんこう}",
+      "label": "bank"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27727_noukyou",
+      "reading": "のうきょう",
+      "headword": "{農協|のうきょう}",
+      "label": "agricultural cooperative"
+    },
+    {
+      "type": "related",
+      "target_id": "21158_kinyuukikan",
+      "reading": "きんゆうきかん",
+      "headword": "{金融機関|きんゆうきかん}",
+      "label": "financial institution"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24780_shoukengaisha",
+      "reading": "しょうけんがいしゃ",
+      "headword": "{証券会社|しょうけんがいしゃ}",
+      "label": "securities company, brokerage firm"
+    }
+  ],
   "metadata": {
     "created": "2026-04-20T15:28:03Z",
-    "modified": "2026-04-20T15:28:03Z",
+    "modified": "2026-09-02T04:02:19Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["business"]
+      "semantic": [
+        "business"
+      ]
     }
   }
 }

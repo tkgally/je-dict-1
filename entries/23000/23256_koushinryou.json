@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "23256_koushinryou_ex1",
-      "japanese": "{更新料|こうしんりょう}を{払|はら}う。",
+      "japanese": "{更新料|こうしんりょう}⟦を→を：00422_wo⟧⟦{払|はら}う→払う：00535_harau⟧。",
       "english": "To pay a renewal fee.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "23256_koushinryou_ex2",
-      "japanese": "{家賃|やちん}の{更新料|こうしんりょう}は{一|いっ}ヶ{月分|げつぶん}です。",
+      "japanese": "⟦{家賃|やちん}→家賃：03639_yachin⟧⟦の→の：09472_no⟧{更新料|こうしんりょう}⟦は→は：00079_ha⟧{一|いっ}ヶ{月分|げつぶん}です。",
       "english": "The rent renewal fee is equivalent to one month's rent.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "23256_koushinryou_ex3",
-      "japanese": "{更新料|こうしんりょう}の{負担|ふたん}が{大|おお}きいので、{引|ひ}っ{越|こ}しを{検討|けんとう}している。",
+      "japanese": "{更新料|こうしんりょう}⟦の→の：09472_no⟧⟦{負担|ふたん}→負担：09752_futan⟧⟦が→が：00051_ga⟧⟦{大|おお}きい→大きい：00335_ookii⟧⟦の→の：09472_no⟧で、{引|ひ}っ{越|こ}し⟦を→を：00422_wo⟧⟦{検討|けんとう}している→検討する：17455_kentousuru⟧。",
       "english": "Because the burden of the renewal fee is heavy, I'm considering moving.",
       "sense_numbers": [
         1
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {更新|こうしん} (renewal, update) and {料|りょう} (fee, charge). In everyday Japanese life, {更新料|こうしんりょう} most often refers to the contract renewal fee on rental apartments, which is a well-known — and frequently grumbled-about — feature of the Japanese housing system. It is typically paid to the landlord once every two years when the lease is renewed, on top of the regular rent.\n\nCULTURAL NOTE:\nThe practice is common especially in the Kanto area, but much less so in other regions. In some rental contracts (particularly in the Kansai area), there is no {更新料|こうしんりょう} at all, and the tenant instead pays a relatively higher monthly rent or other fees.\n\nCOMMON COLLOCATIONS:\n- {更新料|こうしんりょう}を{払|はら}う: to pay a renewal fee\n- {更新料|こうしんりょう}なし: no renewal fee (often used as a selling point in rental listings)\n- {家賃|やちん}{一|いっ}ヶ{月分|げつぶん}の{更新料|こうしんりょう}: a renewal fee equal to one month's rent\n- {契約|けいやく}{更新|こうしん}{時|じ}の{更新料|こうしんりょう}: renewal fee at contract renewal\n\nSIMILAR WORDS:\n- {礼金|れいきん}: \"key money\" — non-refundable gift to the landlord paid when moving in\n- {敷金|しききん}: security deposit — refundable, used to cover damages\n- {仲介|ちゅうかい}{手数料|てすうりょう}: broker's commission\n- {家賃|やちん}: monthly rent",
+  "notes": "Composed of ⟦{更新|こうしん}→更新：04765_koushin⟧ (renewal, update) and ⟦{料|りょう}→料：28172_ryou⟧ (fee, charge). In everyday Japanese life, {更新料|こうしんりょう} most often refers to the contract renewal fee on rental apartments, which is a well-known — and frequently grumbled-about — feature of the Japanese housing system. It is typically paid to the landlord once every two years when the lease is renewed, on top of the regular rent.\n\nCULTURAL NOTE:\nThe practice is common especially in the Kanto area, but much less so in other regions. In some rental contracts (particularly in the Kansai area), there is no {更新料|こうしんりょう} at all, and the tenant instead pays a relatively higher monthly rent or other fees.\n\nCOMMON COLLOCATIONS:\n- {更新料|こうしんりょう}⟦を→を：00422_wo⟧⟦{払|はら}う→払う：00535_harau⟧: to pay a renewal fee\n- {更新料|こうしんりょう}なし: no renewal fee (often used as a selling point in rental listings)\n- ⟦{家賃|やちん}→家賃：03639_yachin⟧{一|いっ}ヶ{月分|げつぶん}⟦の→の：09472_no⟧{更新料|こうしんりょう}: a renewal fee equal to one month's rent\n- ⟦{契約|けいやく}→契約：02698_keiyaku⟧⟦{更新|こうしん}→更新：04765_koushin⟧⟦{時|じ}→時：09869_ji⟧⟦の→の：09472_no⟧{更新料|こうしんりょう}: renewal fee at contract renewal\n\nSIMILAR WORDS:\n- ⟦{礼金|れいきん}→礼金：06080_reikin⟧: \"key money\" — non-refundable gift to the landlord paid when moving in\n- ⟦{敷金|しききん}→敷金：06079_shikikin⟧: security deposit — refundable, used to cover damages\n- ⟦{仲介|ちゅうかい}{手数料|てすうりょう}→仲介手数料：10290_chuukaitesuuryou⟧: broker's commission\n- ⟦{家賃|やちん}→家賃：03639_yachin⟧: monthly rent",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06080_reikin",
+      "reading": "れいきん",
+      "headword": "{礼金|れいきん}",
+      "label": "\"key money\""
+    },
+    {
+      "type": "contrast",
+      "target_id": "06079_shikikin",
+      "reading": "しききん",
+      "headword": "{敷金|しききん}",
+      "label": "security deposit"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10290_chuukaitesuuryou",
+      "reading": "ちゅうかいてすうりょう",
+      "headword": "{仲介手数料|ちゅうかいてすうりょう}",
+      "label": "broker's commission"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03639_yachin",
+      "reading": "やちん",
+      "headword": "{家賃|やちん}",
+      "label": "monthly rent"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,6 +91,6 @@
       "politeness": "plain"
     },
     "created": "2026-04-11T14:19:23Z",
-    "modified": "2026-07-31T18:20:34Z"
+    "modified": "2026-09-02T04:02:11Z"
   }
 }

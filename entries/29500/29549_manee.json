@@ -9,47 +9,73 @@
     {
       "sense_number": 1,
       "gloss": "money (financial/economic term)",
-      "explanation": "Money, especially in financial, economic, or compound contexts; a loanword that sounds more modern or technical than {お金|おかね}."
+      "explanation": "Money, especially in financial, economic, or compound contexts; a loanword that sounds more modern or technical than お{金|かね}."
     }
   ],
   "examples": [
     {
       "id": "29549_manee_ex1",
-      "japanese": "{電子|でんし}マネーで{払|はら}う。",
+      "japanese": "{電子|でんし}マネー⟦で→で：00502_de⟧⟦{払|はら}う→払う：00535_harau⟧。",
       "english": "Pay with electronic money.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29549_manee_ex2",
-      "japanese": "マネーの{流|なが}れが{経済|けいざい}を{動|うご}かす。",
+      "japanese": "マネー⟦の→の：09472_no⟧⟦{流|なが}れ→流れ：03504_nagare⟧⟦が→が：00051_ga⟧⟦{経済|けいざい}→経済：01394_keizai⟧⟦を→を：00422_wo⟧⟦{動|うご}かす→動かす：01885_ugokasu⟧。",
       "english": "The flow of money drives the economy.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29549_manee_ex3",
-      "japanese": "{最近|さいきん}はスマホの{電子|でんし}マネーで{買|か}い{物|もの}をする{人|ひと}が{増|ふ}えた。",
+      "japanese": "⟦{最近|さいきん}→最近：00881_saikin⟧⟦は→は：00079_ha⟧⟦スマホ→スマホ：04721_sumaho⟧⟦の→の：09472_no⟧{電子|でんし}マネー⟦で→で：00502_de⟧⟦{買|か}い{物|もの}→買い物：00853_kaimono⟧⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧⟦{人|ひと}→人：00476_hito⟧⟦が→が：00051_ga⟧⟦{増|ふ}えた→増える：01183_fueru⟧。",
       "english": "Lately more people shop using electronic money on their smartphones.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A loanword from English for money. Everyday cash is usually {お金|おかね}; マネー appears mainly in compounds and in finance or economics contexts.\n\nCOMMON COLLOCATIONS:\n- {電子|でんし}マネー: electronic money\n- マネーロンダリング: money laundering\n- マネー{市場|しじょう}: the money market\n\nSIMILAR WORDS:\n- {お金|おかね}: money — the ordinary everyday word\n- {現金|げんきん}: cash — physical notes and coins",
+  "notes": "A loanword from English for money. Everyday cash is usually ⟦お{金|かね}→お金：00611_okane⟧; マネー appears mainly in compounds and in finance or economics contexts.\n\nCOMMON COLLOCATIONS:\n- {電子|でんし}マネー: electronic money\n- マネーロンダリング: money laundering\n- マネー⟦{市場|しじょう}→市場：09685_shijou⟧: the money market\n\nSIMILAR WORDS:\n- ⟦お{金|かね}→お金：00611_okane⟧: money — the ordinary everyday word\n- ⟦{現金|げんきん}→現金：02716_genkin⟧: cash — physical notes and coins",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00611_okane",
+      "reading": "おかね",
+      "headword": "お{金|かね}",
+      "label": "money"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02716_genkin",
+      "reading": "げんきん",
+      "headword": "{現金|げんきん}",
+      "label": "cash"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["money"],
+      "politeness": "plain",
+      "semantic": [
+        "money"
+      ],
       "domain": []
     },
     "created": "2026-06-28T09:18:52Z",
-    "modified": "2026-06-28T09:18:52Z"
+    "modified": "2026-09-02T04:02:37Z"
   }
 }

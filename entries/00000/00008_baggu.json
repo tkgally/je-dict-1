@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "notes": "バッグ refers to bags in general, especially handbags and fashion bags.\n\nCOMMON TYPES:\n- ⟦ハンドバッグ→ハンドバッグ：01375_handobaggu⟧ (handbag)\n- ⟦ショルダーバッグ→ショルダーバッグ：08987_shorudaabaggu⟧ (shoulder bag)\n- ⟦トートバッグ→トートバッグ：23089_tootobaggu⟧ (tote bag)\n- ⟦エコバッグ→エコバッグ：08937_ekobaggu⟧ (reusable shopping bag)\n- ⟦ボストンバッグ→ボストンバッグ：27285_bosutonbaggu⟧ (Boston bag / duffel bag)\n\nRELATED WORDS:\n- ⟦かばん→かばん：00637_kaban⟧ / ⟦{鞄|かばん}→かばん：00637_kaban⟧ - general word for bag (including briefcases)\n- ⟦リュック→リュック：04541_ryukku⟧ - backpack\n- ⟦ポーチ→ポーチ：09488_poochi⟧ - pouch\n\nCOUNTER: ⟦{個|こ}→個：00645_ko⟧ or ⟦{点|てん}→点：01553_ten⟧",
+  "notes": "バッグ refers to bags in general, especially handbags and fashion bags.\n\nTYPES:\n- ⟦ハンドバッグ→ハンドバッグ：01375_handobaggu⟧ (handbag)\n- ⟦ショルダーバッグ→ショルダーバッグ：08987_shorudaabaggu⟧ (shoulder bag)\n- ⟦トートバッグ→トートバッグ：23089_tootobaggu⟧ (tote bag)\n- ⟦エコバッグ→エコバッグ：08937_ekobaggu⟧ (reusable shopping bag)\n- ⟦ボストンバッグ→ボストンバッグ：27285_bosutonbaggu⟧ (Boston bag / duffel bag)\n\nRELATED WORDS:\n- ⟦かばん→かばん：00637_kaban⟧ / ⟦{鞄|かばん}→かばん：00637_kaban⟧ - general word for bag (including briefcases)\n- ⟦リュック→リュック：04541_ryukku⟧ - backpack\n- ⟦ポーチ→ポーチ：09488_poochi⟧ - pouch\n\nCOUNTER: ⟦{個|こ}→個：00645_ko⟧ or ⟦{点|てん}→点：01553_ten⟧",
   "cross_references": [
     {
       "type": "related",
@@ -48,6 +48,27 @@
       "headword": "かばん",
       "label": "bag (general)",
       "target_id": "00637_kaban"
+    },
+    {
+      "type": "related",
+      "target_id": "04541_ryukku",
+      "reading": "りゅっく",
+      "headword": "リュック",
+      "label": "backpack"
+    },
+    {
+      "type": "related",
+      "target_id": "09488_poochi",
+      "reading": "ぽーち",
+      "headword": "ポーチ",
+      "label": "pouch"
+    },
+    {
+      "type": "related",
+      "target_id": "01375_handobaggu",
+      "reading": "はんどばっぐ",
+      "headword": "ハンドバッグ",
+      "label": "handbag"
     }
   ],
   "prominent_see_also": [
@@ -60,7 +81,7 @@
   ],
   "metadata": {
     "created": "2026-01-13T03:14:22Z",
-    "modified": "2026-08-08T09:25:02Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5-20251101",
     "vocabulary_tier": "general",
     "tags": {

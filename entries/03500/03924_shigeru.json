@@ -2,7 +2,7 @@
   "id": "03924_shigeru",
   "headword": "{茂|しげ}る",
   "reading": "しげる",
-  "part_of_speech": "godan verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to grow thick, to be overgrown",
   "conjugation": {
     "type": "godan",
@@ -124,7 +124,7 @@
     },
     {
       "id": "03924_shigeru_ex3",
-      "japanese": "⟦{庭|にわ}→庭：02239_niwa⟧⟦に→に：00314_ni⟧⟦{雑草|ざっそう}→雑草：04996_zassou⟧⟦が→が：00051_ga⟧{茂|しげ}っている。",
+      "japanese": "⟦{庭|にわ}→庭：02239_niwa⟧⟦に→に：00314_ni⟧⟦{雑草|ざっそう}→雑草：04996_zassou⟧⟦が→が：00051_ga⟧{茂|しげ}って⟦いる→いる：00495_iru⟧。",
       "english": "Weeds are growing thick in the garden.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
     },
     {
       "id": "03924_shigeru_ex4",
-      "japanese": "⟦{山道|やまみち}→山道：12406_yamamichi⟧⟦の→の：09472_no⟧⟦{両側|りょうがわ}→両側：28877_ryougawa⟧⟦に→に：00314_ni⟧⟦{木|き}→木：00524_ki⟧⟦が→が：00051_ga⟧{茂|しげ}っていて⟦{暗|くら}かった→暗い：00647_kurai⟧。",
+      "japanese": "⟦{山道|やまみち}→山道：12406_yamamichi⟧⟦の→の：09472_no⟧⟦{両側|りょうがわ}→両側：28877_ryougawa⟧⟦に→に：00314_ni⟧⟦{木|き}→木：00524_ki⟧⟦が→が：00051_ga⟧{茂|しげ}って⟦いて→いる：00495_iru⟧⟦{暗|くら}かった→暗い：00647_kurai⟧。",
       "english": "Trees grew thick on both sides of the mountain path and it was dark.",
       "notes": null,
       "has_audio": false,
@@ -153,10 +153,26 @@
       ]
     }
   ],
-  "notes": "{茂|しげ}る means for vegetation to grow thickly or luxuriantly.\n\nTRANSITIVITY:\n- Type: Intransitive (⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧)\n- No common transitive pair\n- Pattern: X⟦が→が：00051_ga⟧{茂|しげ}る\n\nASPECT:\n- {茂|しげ}っている: Is overgrown (resulting state)\n\nCOMMON EXPRESSIONS:\n- ⟦{草|くさ}→草：02206_kusa⟧⟦が→が：00051_ga⟧{茂|しげ}る (grass grows thick)\n- ⟦{木|き}→木：00524_ki⟧⟦が→が：00051_ga⟧{茂|しげ}る (trees grow thick)\n- ⟦うっそうと→うっそうと：noentry⟧{茂|しげ}る (to grow luxuriantly)\n- ⟦{生|お}い{茂|しげ}る→生い茂る：22515_oishigeru⟧ (to grow thickly, to be overgrown)\n\nRELATED VOCABULARY:\n- ⟦{生|は}える→生える：02392_haeru⟧ (to grow, sprout)\n- ⟦{伸|の}びる→伸びる：01974_nobiru⟧ (to grow, extend)",
+  "notes": "{茂|しげ}る means for vegetation to grow thickly or luxuriantly.\n\nTRANSITIVITY:\n- Type: Intransitive (⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧)\n- No common transitive pair\n- Pattern: X⟦が→が：00051_ga⟧{茂|しげ}る\n\nASPECT (ている):\n- {茂|しげ}って⟦いる→いる：00495_iru⟧: Is overgrown (resulting state)\n\nCOMMON EXPRESSIONS:\n- ⟦{草|くさ}→草：02206_kusa⟧⟦が→が：00051_ga⟧{茂|しげ}る (grass grows thick)\n- ⟦{木|き}→木：00524_ki⟧⟦が→が：00051_ga⟧{茂|しげ}る (trees grow thick)\n- ⟦うっそうと→うっそうと：noentry⟧{茂|しげ}る (to grow luxuriantly)\n- ⟦{生|お}い{茂|しげ}る→生い茂る：22515_oishigeru⟧ (to grow thickly, to be overgrown)\n\nRELATED WORDS:\n- ⟦{生|は}える→生える：02392_haeru⟧ (to grow, sprout)\n- ⟦{伸|の}びる→伸びる：01974_nobiru⟧ (to grow, extend)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "02392_haeru",
+      "reading": "はえる",
+      "headword": "{生|は}える",
+      "label": "to grow, sprout"
+    },
+    {
+      "type": "related",
+      "target_id": "01974_nobiru",
+      "reading": "のびる",
+      "headword": "{伸|の}びる",
+      "label": "to grow, extend"
+    }
+  ],
   "metadata": {
     "created": "2026-01-13T01:47:32Z",
-    "modified": "2026-08-14T18:20:10Z",
+    "modified": "2026-09-02T04:01:03Z",
     "vocabulary_tier": "core",
     "tags": {
       "pos": [

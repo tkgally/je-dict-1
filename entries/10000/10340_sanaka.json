@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "10340_sanaka_ex1",
-      "japanese": "{会議|かいぎ}の{最中|さなか}に{電話|でんわ}が{鳴|な}った。",
+      "japanese": "⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦の→の：09472_no⟧{最中|さなか}⟦に→に：00314_ni⟧⟦{電話|でんわ}→電話：01471_denwa⟧⟦が→が：00051_ga⟧⟦{鳴|な}った→鳴る：01143_naru⟧。",
       "english": "The phone rang in the middle of the meeting.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "10340_sanaka_ex2",
-      "japanese": "{夏|なつ}の{最中|さなか}に{停電|ていでん}が{起|お}きた。",
+      "japanese": "⟦{夏|なつ}→夏：02236_natsu⟧⟦の→の：09472_no⟧{最中|さなか}⟦に→に：00314_ni⟧⟦{停電|ていでん}→停電：03544_teiden⟧⟦が→が：00051_ga⟧⟦{起|お}きた→起きる：00521_okiru⟧。",
       "english": "A power outage happened at the height of summer.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "10340_sanaka_ex3",
-      "japanese": "{試験|しけん}{勉強|べんきょう}の{最中|さなか}に{友|とも}だちから{誘|さそ}いの{連絡|れんらく}が{来|き}て、{集中|しゅうちゅう}できなかった。",
+      "japanese": "⟦{試験|しけん}→試験：01422_shiken⟧⟦{勉強|べんきょう}→勉強：00770_benkyou⟧⟦の→の：09472_no⟧{最中|さなか}⟦に→に：00314_ni⟧{友|とも}だち⟦から→から：00504_kara⟧⟦{誘|さそ}い→誘い：14200_sasoi⟧⟦の→の：09472_no⟧⟦{連絡|れんらく}→連絡：01524_renraku⟧⟦が→が：00051_ga⟧⟦{来|き}て→来る：00254_kuru⟧、⟦{集中|しゅうちゅう}→集中：03212_shuuchuu⟧⟦できなかった→できる：00557_dekiru⟧。",
       "english": "A friend contacted me with an invitation while I was in the middle of studying for exams, so I couldn't concentrate.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "READING NOTE: The same kanji {最中|さいちゅう} (read さいちゅう) is more commonly used in everyday speech, especially in the pattern 〜している{最中|さいちゅう}. The reading さなか is more literary.\n\nCOMMON PATTERNS:\n- 〜の{最中|さなか}に: in the midst of ...\n- 〜の{最中|さなか}で: in the middle of ...\n\nCOMPARISON:\n- {最中|さなか}: literary, emphasizes being at the peak or critical point\n- {最中|さいちゅう}: neutral, common in everyday speech\n- {途中|とちゅう}: in the middle of (a process, journey)",
+  "notes": "READING NOTE: The same kanji {最中|さいちゅう} (read さいちゅう) is more commonly used in everyday speech, especially in the pattern 〜⟦している→する：00392_suru⟧{最中|さいちゅう}. The reading さなか is more literary.\n\nCOMMON PATTERNS:\n- 〜⟦の→の：09472_no⟧{最中|さなか}⟦に→に：00314_ni⟧: in the midst of ...\n- 〜⟦の→の：09472_no⟧{最中|さなか}⟦で→で：00502_de⟧: in the middle of ...\n\nSIMILAR WORDS:\n- {最中|さなか}: literary, emphasizes being at the peak or critical point\n- {最中|さいちゅう}: neutral, common in everyday speech\n- ⟦{途中|とちゅう}→途中：01684_tochuu⟧: in the middle of (a process, journey)",
   "cross_references": [
     {
       "type": "contrast",
@@ -52,17 +52,25 @@
       "headword": "{最中|さいちゅう}",
       "label": "same kanji, more common reading",
       "target_id": "02821_saichuu"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01684_tochuu",
+      "reading": "とちゅう",
+      "headword": "{途中|とちゅう}",
+      "label": "in the middle of"
     }
   ],
   "metadata": {
     "created": "2026-02-07T06:48:21Z",
-    "modified": "2026-02-19T12:42:20Z",
+    "modified": "2026-09-02T04:01:20Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "style": [
         "written"
       ],

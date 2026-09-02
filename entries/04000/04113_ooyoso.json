@@ -118,10 +118,10 @@
       ]
     }
   ],
-  "notes": "USAGE: {大凡|おおよそ} is often written in hiragana (おおよそ) in modern usage.\n\nPOSITION: Usually appears before numbers or nouns.\n\nCOMMON PATTERNS:\n・{大凡|おおよそ}⟦の→の：09472_no⟧⟦{見当|けんとう}→見当：02795_kentou⟧ (rough idea)\n・{大凡|おおよそ}⟦の→の：09472_no⟧⟦{数|かず}→数：00204_kazu⟧ (approximate number)\n・{大凡|おおよそ}⟦{想像|そうぞう}→想像：02489_souzou⟧⟦が→が：00051_ga⟧⟦つく→付く：01960_tsuku⟧ (can roughly imagine)\n\nSIMILAR WORDS:\n・⟦{約|やく}→約：09563_yaku⟧〜 - about, approximately (more common for numbers)\n・⟦だいたい→だいたい：00831_daitai⟧ - roughly, generally (more casual)\n・⟦およそ→およそ：02534_oyoso⟧ - approximately (similar but can also mean 'at all' in negative contexts)\n・⟦ざっと→ざっと：02833_zatto⟧ - roughly, at a glance",
+  "notes": "USAGE: {大凡|おおよそ} is often written in hiragana (おおよそ) in modern usage.\n\nPOSITION: Usually appears before numbers or nouns.\n\nCOMMON PATTERNS:\n- {大凡|おおよそ}⟦の→の：09472_no⟧⟦{見当|けんとう}→見当：02795_kentou⟧ (rough idea)\n- {大凡|おおよそ}⟦の→の：09472_no⟧⟦{数|かず}→数：00204_kazu⟧ (approximate number)\n- {大凡|おおよそ}⟦{想像|そうぞう}→想像：02489_souzou⟧⟦が→が：00051_ga⟧⟦つく→付く：01960_tsuku⟧ (can roughly imagine)\n\nSIMILAR WORDS:\n- ⟦{約|やく}→約：09563_yaku⟧〜 - about, approximately (more common for numbers)\n- ⟦だいたい→だいたい：00831_daitai⟧ - roughly, generally (more casual)\n- ⟦およそ→およそ：02534_oyoso⟧ - approximately (similar but can also mean 'at all' in negative contexts)\n- ⟦ざっと→ざっと：02833_zatto⟧ - roughly, at a glance",
   "metadata": {
     "created": "2026-01-13T12:42:08Z",
-    "modified": "2026-05-29T17:08:55Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
@@ -143,6 +143,27 @@
       "reading": "だいたい",
       "headword": "だいたい",
       "label": "roughly (casual)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02534_oyoso",
+      "reading": "およそ",
+      "headword": "およそ",
+      "label": "approximately"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02833_zatto",
+      "reading": "ざっと",
+      "headword": "ざっと",
+      "label": "roughly, at a glance"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24883_gaisuu",
+      "reading": "がいすう",
+      "headword": "{概数|がいすう}",
+      "label": "approximate number"
     }
   ]
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "16870_kensou_ex1",
-      "japanese": "{都会|とかい}の{喧騒|けんそう}を{離|はな}れる。",
+      "japanese": "⟦{都会|とかい}→都会：02475_tokai⟧⟦の→の：09472_no⟧{喧騒|けんそう}⟦を→を：00422_wo⟧⟦{離|はな}れる→離れる：02397_hanareru⟧。",
       "english": "To get away from the hustle and bustle of the city.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "16870_kensou_ex2",
-      "japanese": "{窓|まど}を{閉|し}めても{外|そと}の{喧騒|けんそう}が{聞|き}こえる。",
+      "japanese": "⟦{窓|まど}→窓：02254_mado⟧⟦を→を：00422_wo⟧⟦{閉|し}めて→閉める：00485_shimeru⟧⟦も→も：00484_mo⟧⟦{外|そと}→外：00671_soto⟧⟦の→の：09472_no⟧{喧騒|けんそう}⟦が→が：00051_ga⟧⟦{聞|き}こえる→聞こえる：01229_kikoeru⟧。",
       "english": "Even with the window closed, I can hear the noise outside.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "16870_kensou_ex3",
-      "japanese": "{祭|まつ}りの{喧騒|けんそう}が{終|お}わり、{静|しず}かな{夜|よる}が{戻|もど}ってきた。",
+      "japanese": "⟦{祭|まつ}り→祭り：03735_matsuri⟧⟦の→の：09472_no⟧{喧騒|けんそう}⟦が→が：00051_ga⟧{終|お}わり、⟦{静|しず}か→静か：00755_shizuka⟧な⟦{夜|よる}→夜：00487_yoru⟧⟦が→が：00051_ga⟧⟦{戻|もど}って→戻る：01117_modoru⟧きた。",
       "english": "The clamor of the festival ended, and a quiet night returned.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,19 @@
       ]
     }
   ],
-  "notes": "{喧騒|けんそう} refers to the loud, chaotic noise of busy places — not just volume, but the lively commotion of crowds, traffic, and activity mixed together.\n\nUSAGE:\nOften used in literary or descriptive writing to portray the noise and energy of cities, crowds, or events. Frequently appears in contrast with {静|しず}けさ (quietness) or {自然|しぜん} (nature).\n\nCOMMON COLLOCATIONS:\n- {都会|とかい}の{喧騒|けんそう}: hustle and bustle of the city\n- {喧騒|けんそう}を{離|はな}れる: to escape the noise/bustle\n- {喧騒|けんそう}に{包|つつ}まれる: to be engulfed in noise\n- {喧騒|けんそう}から{逃|のが}れる: to flee from the commotion\n\nKANJI VARIANT:\nAlso written as {喧噪|けんそう}. Both forms are standard, though {喧騒|けんそう} is more common in modern usage.",
-  "cross_references": [],
+  "notes": "{喧騒|けんそう} refers to the loud, chaotic noise of busy places — not just volume, but the lively commotion of crowds, traffic, and activity mixed together.\n\nUSAGE:\nOften used in literary or descriptive writing to portray the noise and energy of cities, crowds, or events. Frequently appears in contrast with ⟦{静|しず}けさ→静けさ：14614_shizukesa⟧ (quietness) or ⟦{自然|しぜん}→自然：01423_shizen⟧ (nature).\n\nCOMMON COLLOCATIONS:\n- ⟦{都会|とかい}→都会：02475_tokai⟧⟦の→の：09472_no⟧{喧騒|けんそう}: hustle and bustle of the city\n- {喧騒|けんそう}⟦を→を：00422_wo⟧⟦{離|はな}れる→離れる：02397_hanareru⟧: to escape the noise/bustle\n- {喧騒|けんそう}⟦に→に：00314_ni⟧⟦{包|つつ}まれる→包む：01226_tsutsumu⟧: to be engulfed in noise\n- {喧騒|けんそう}⟦から→から：00504_kara⟧⟦{逃|のが}れる→逃れる：10425_nogareru⟧: to flee from the commotion\n\nWRITING:\nAlso written as ⟦{喧噪|けんそう}→喧噪：09054_kensou⟧. Both forms are standard, though {喧騒|けんそう} is more common in modern usage.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "10375_zawameki",
+      "reading": "ざわめき",
+      "headword": "ざわめき",
+      "label": "commotion"
+    }
+  ],
   "metadata": {
     "created": "2026-03-15T00:18:56Z",
-    "modified": "2026-04-04T10:40:23Z",
+    "modified": "2026-09-02T04:01:46Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

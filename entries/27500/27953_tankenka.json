@@ -15,41 +15,82 @@
   "examples": [
     {
       "id": "27953_tankenka_ex1",
-      "japanese": "{有名|ゆうめい}な{探検家|たんけんか}の{話|はなし}を{聞|き}く。",
+      "japanese": "⟦{有名|ゆうめい}→有名：01106_yuumei⟧な{探検家|たんけんか}⟦の→の：09472_no⟧⟦{話|はなし}→話：01496_hanashi⟧⟦を→を：00422_wo⟧⟦{聞|き}く→聞く：00483_kiku⟧。",
       "english": "I listen to a famous explorer's story.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27953_tankenka_ex2",
-      "japanese": "{子|こ}どものころ、{探検家|たんけんか}になりたかった。",
+      "japanese": "{子|こ}ども⟦の→の：09472_no⟧⟦ころ→〜ころ：03091_koro⟧、{探検家|たんけんか}⟦に→に：00314_ni⟧⟦なりたかった→なる：01970_naru⟧。",
       "english": "When I was a child, I wanted to become an explorer.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27953_tankenka_ex3",
-      "japanese": "その{探検家|たんけんか}は、{誰|だれ}も{足|あし}を{踏|ふ}み{入|い}れたことのない{土地|とち}を{目指|めざ}した。",
+      "japanese": "⟦その→その：00993_sono⟧{探検家|たんけんか}⟦は→は：00079_ha⟧、⟦{誰|だれ}も→誰も：18610_daremo⟧⟦{足|あし}→足：00575_ashi⟧⟦を→を：00422_wo⟧{踏|ふ}み{入|い}れたこと⟦の→の：09472_no⟧⟦ない→ない：01118_nai⟧⟦{土地|とち}→土地：02226_tochi⟧⟦を→を：00422_wo⟧⟦{目指|めざ}した→目指す：10528_mezasu⟧。",
       "english": "That explorer set out for a land no one had ever set foot in.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Compound of {探検|たんけん} (exploration) + {家|か} (a person who does ~, as a profession or pursuit).\n\nCOMMON COLLOCATIONS:\n- {探検家|たんけんか}になる: to become an explorer\n- {冒険家|ぼうけんか}と{探検家|たんけんか}: adventurers and explorers\n\nSIMILAR WORDS:\n- {冒険家|ぼうけんか}: adventurer — emphasizes thrill and risk over investigation\n- {探検隊|たんけんたい}: an expedition team",
+  "notes": "Compound of ⟦{探検|たんけん}→探検：17461_tanken⟧ (exploration) + ⟦{家|か}→〜家：28339_ka⟧ (a person who does ~, as a profession or pursuit).\n\nCOMMON COLLOCATIONS:\n- {探検家|たんけんか}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧: to become an explorer\n- ⟦{冒険家|ぼうけんか}→冒険家：20564_boukenka⟧⟦と→と：00512_to⟧{探検家|たんけんか}: adventurers and explorers\n\nSIMILAR WORDS:\n- ⟦{冒険家|ぼうけんか}→冒険家：20564_boukenka⟧: adventurer — emphasizes thrill and risk over investigation\n- ⟦{探検隊|たんけんたい}→探検隊：25022_tankentai⟧: an expedition team",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20564_boukenka",
+      "reading": "ぼうけんか",
+      "headword": "{冒険家|ぼうけんか}",
+      "label": "adventurer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25022_tankentai",
+      "reading": "たんけんたい",
+      "headword": "{探検隊|たんけんたい}",
+      "label": "an expedition team"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21166_boukensha",
+      "reading": "ぼうけんしゃ",
+      "headword": "{冒険者|ぼうけんしゃ}",
+      "label": "adventurer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25605_tankensha",
+      "reading": "たんけんしゃ",
+      "headword": "{探検者|たんけんしゃ}",
+      "label": "explorer"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["occupation", "person"],
+      "politeness": "plain",
+      "semantic": [
+        "occupation",
+        "person"
+      ],
       "domain": []
     },
     "created": "2026-05-23T03:06:48Z",
-    "modified": "2026-05-23T03:06:48Z"
+    "modified": "2026-09-02T04:02:32Z"
   }
 }

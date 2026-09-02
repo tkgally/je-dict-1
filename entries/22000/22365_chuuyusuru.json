@@ -3,7 +3,7 @@
   "headword": "{注油|ちゅうゆ}する",
   "reading": "ちゅうゆする",
   "romaji": "chuuyusuru",
-  "part_of_speech": "noun, verb (する)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "to oil; to lubricate; oiling",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22365_chuuyusuru_ex1",
-      "japanese": "{自転車|じてんしゃ}のチェーンに{注油|ちゅうゆ}する。",
+      "japanese": "⟦{自転車|じてんしゃ}→自転車：00633_jitensha⟧⟦の→の：09472_no⟧⟦チェーン→チェーン：08833_cheen⟧⟦に→に：00314_ni⟧{注油|ちゅうゆ}する。",
       "english": "Oil the bicycle chain.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22365_chuuyusuru_ex2",
-      "japanese": "ドアの{蝶番|ちょうつがい}がきしむので{注油|ちゅうゆ}した。",
+      "japanese": "⟦ドア→ドア：00773_doa⟧⟦の→の：09472_no⟧{蝶番|ちょうつがい}⟦が→が：00051_ga⟧きしむ⟦の→の：09472_no⟧で{注油|ちゅうゆ}した。",
       "english": "The door hinges were squeaking, so I oiled them.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22365_chuuyusuru_ex3",
-      "japanese": "{機械|きかい}の{寿命|じゅみょう}を{延|の}ばすためには、{定期的|ていきてき}に{注油|ちゅうゆ}することが{大切|たいせつ}だ。",
+      "japanese": "⟦{機械|きかい}→機械：02366_kikai⟧⟦の→の：09472_no⟧⟦{寿命|じゅみょう}→寿命：12359_jumyou⟧⟦を→を：00422_wo⟧⟦{延|の}ばす→延ばす：28291_nobasu⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧、⟦{定期的|ていきてき}→定期的：06173_teikiteki⟧⟦に→に：00314_ni⟧{注油|ちゅうゆ}すること⟦が→が：00051_ga⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧だ。",
       "english": "To extend the life of machinery, it's important to lubricate it regularly.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "A practical term for the act of applying oil or lubricant to mechanical parts. Common in maintenance manuals, bicycle care, and industrial contexts.\n\nCOMMON COLLOCATIONS:\n- {注油|ちゅうゆ}{口|ぐち}: oil fill port; lubrication point\n- {定期的|ていきてき}に{注油|ちゅうゆ}する: to oil regularly\n- {注油|ちゅうゆ}が{必要|ひつよう}: needs oiling\n\nSIMILAR WORDS:\n- {潤滑|じゅんかつ}: lubrication — more technical term\n- {油|あぶら}を{差|さ}す: to oil; to grease — everyday expression with the same meaning\n- {給油|きゅうゆ}: refueling — adding fuel (gasoline), not lubricating oil\n\nFORMATION:\n{注|ちゅう} (pour) + {油|ゆ} (oil). Literally 'pour oil.'",
+  "notes": "A practical term for the act of applying oil or lubricant to mechanical parts. Common in maintenance manuals, bicycle care, and industrial contexts.\n\nCOMMON COLLOCATIONS:\n- ⟦{注油|ちゅうゆ}→注油：18571_chuuyu⟧{口|ぐち}: oil fill port; lubrication point\n- ⟦{定期的|ていきてき}→定期的：06173_teikiteki⟧⟦に→に：00314_ni⟧{注油|ちゅうゆ}する: to oil regularly\n- ⟦{注油|ちゅうゆ}→注油：18571_chuuyu⟧⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧: needs oiling\n\nSIMILAR WORDS:\n- ⟦{潤滑|じゅんかつ}→潤滑：23861_junkatsu⟧: lubrication — more technical term\n- ⟦{油|あぶら}→油：01693_abura⟧⟦を→を：00422_wo⟧⟦{差|さ}す→差す：17637_sasu⟧: to oil; to grease — everyday expression with the same meaning\n- ⟦{給油|きゅうゆ}→給油：18553_kyuuyu⟧: refueling — adding fuel (gasoline), not lubricating oil\n\nFORMS:\n⟦{注|ちゅう}→注：03434_chuu⟧ (pour) + {油|ゆ} (oil). Literally 'pour oil.'",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23861_junkatsu",
+      "reading": "じゅんかつ",
+      "headword": "{潤滑|じゅんかつ}",
+      "label": "lubrication"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18553_kyuuyu",
+      "reading": "きゅうゆ",
+      "headword": "{給油|きゅうゆ}",
+      "label": "refueling"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,7 +77,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-05T19:27:19Z",
-    "modified": "2026-04-05T19:27:19Z"
+    "modified": "2026-09-02T04:02:07Z"
   },
   "conjugation": {
     "type": "suru",

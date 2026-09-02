@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "09822_suuryougentei_ex1",
-      "japanese": "{数量|すうりょう}{限定|げんてい}で{販売|はんばい}します。",
+      "japanese": "{数量|すうりょう}{限定|げんてい}⟦で→で：00502_de⟧⟦{販売|はんばい}→販売：03573_hanbai⟧⟦します→する：00392_suru⟧。",
       "english": "It will be sold in limited quantities.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "09822_suuryougentei_ex2",
-      "japanese": "{数量|すうりょう}{限定|げんてい}100{個|こ}だからお{早|はや}めに。",
+      "japanese": "{数量|すうりょう}{限定|げんてい}100⟦{個|こ}→〜個：00645_ko⟧だ⟦から→から：00504_kara⟧お⟦{早|はや}め→早め：11176_hayame⟧⟦に→に：00314_ni⟧。",
       "english": "Limited to 100 units, so hurry!",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "09822_suuryougentei_ex3",
-      "japanese": "{数量|すうりょう}{限定|げんてい}の{商品|しょうひん}はすぐ{売|う}り{切|き}れる。",
+      "japanese": "{数量|すうりょう}{限定|げんてい}⟦の→の：09472_no⟧⟦{商品|しょうひん}→商品：01436_shouhin⟧⟦は→は：00079_ha⟧⟦すぐ→すぐ：00814_sugu⟧⟦{売|う}り{切|き}れる→売り切れる：03012_urikireru⟧。",
       "english": "Limited quantity items sell out quickly.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{数量|すうりょう}{限定|げんてい} is a common marketing term in Japan, often seen on signs and advertisements to indicate scarcity and encourage quick purchases.\n\nCOMMON COLLOCATIONS:\n- {数量|すうりょう}{限定|げんてい}{商品|しょうひん} (limited quantity product)\n- {数量|すうりょう}{限定|げんてい}{販売|はんばい} (limited quantity sale)\n- {数量|すうりょう}{限定|げんてい}○{個|こ} (limited to X units)\n\nRELATED TERMS:\n- {期間|きかん}{限定|げんてい}: limited time\n- {初回|しょかい}{限定|げんてい}: first-time only\n- {売|う}り{切|き}れ: sold out",
+  "notes": "{数量|すうりょう}{限定|げんてい} is a common marketing term in Japan, often seen on signs and advertisements to indicate scarcity and encourage quick purchases.\n\nCOMMON COLLOCATIONS:\n- {数量|すうりょう}{限定|げんてい}⟦{商品|しょうひん}→商品：01436_shouhin⟧ (limited quantity product)\n- {数量|すうりょう}{限定|げんてい}⟦{販売|はんばい}→販売：03573_hanbai⟧ (limited quantity sale)\n- {数量|すうりょう}{限定|げんてい}○⟦{個|こ}→〜個：00645_ko⟧ (limited to X units)\n\nRELATED WORDS:\n- ⟦{期間|きかん}{限定|げんてい}→期間限定：09744_kikangentei⟧: limited time\n- ⟦{初回|しょかい}{限定|げんてい}→初回限定：09821_shokaigentei⟧: first-time only\n- ⟦{売|う}り{切|き}れ→売り切れ：09556_urikire⟧: sold out",
   "cross_references": [
     {
       "type": "related",
@@ -58,11 +58,18 @@
       "reading": "しょかいげんてい",
       "headword": "{初回|しょかい}{限定|げんてい}",
       "label": "first-time only"
+    },
+    {
+      "type": "related",
+      "target_id": "09556_urikire",
+      "reading": "うりきれ",
+      "headword": "{売|う}り{切|き}れ",
+      "label": "sold out"
     }
   ],
   "metadata": {
     "created": "2026-02-03T12:23:06Z",
-    "modified": "2026-07-10T00:20:58Z",
+    "modified": "2026-09-02T04:01:19Z",
     "ai_model": "claude-opus-4-5-20251101",
     "vocabulary_tier": "general",
     "tags": {

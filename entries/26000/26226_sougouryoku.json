@@ -15,41 +15,73 @@
   "examples": [
     {
       "id": "26226_sougouryoku_ex1",
-      "japanese": "チームの{総合力|そうごうりょく}で{勝|か}った。",
+      "japanese": "⟦チーム→チーム：03858_chiimu⟧⟦の→の：09472_no⟧{総合力|そうごうりょく}⟦で→で：00502_de⟧⟦{勝|か}った→勝つ：01199_katsu⟧。",
       "english": "We won with the team's overall strength.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26226_sougouryoku_ex2",
-      "japanese": "{個人|こじん}の{能力|のうりょく}よりも{総合力|そうごうりょく}が{大切|たいせつ}だ。",
+      "japanese": "⟦{個人|こじん}→個人：02758_kojin⟧⟦の→の：09472_no⟧⟦{能力|のうりょく}→能力：03541_nouryoku⟧⟦より→より：09476_yori⟧⟦も→も：00484_mo⟧{総合力|そうごうりょく}⟦が→が：00051_ga⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧だ。",
       "english": "Overall team capability is more important than individual ability.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26226_sougouryoku_ex3",
-      "japanese": "{我|わ}がチームは{一人一人|ひとりひとり}のスキルは{高|たか}くないが、{総合力|そうごうりょく}では{負|ま}けない{自信|じしん}がある。",
+      "japanese": "⟦{我|わ}が→我が〜：03971_waga⟧⟦チーム→チーム：03858_chiimu⟧⟦は→は：00079_ha⟧⟦{一人一人|ひとりひとり}→一人一人：03711_hitorihitori⟧⟦の→の：09472_no⟧⟦スキル→スキル：08815_sukiru⟧⟦は→は：00079_ha⟧⟦{高|たか}くない→高い：00500_takai⟧⟦が→が：00051_ga⟧、{総合力|そうごうりょく}⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{負|ま}けない→負ける：01134_makeru⟧⟦{自信|じしん}→自信：10143_jishin⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "Our team's individual skills aren't the highest, but we're confident we won't lose in overall capability.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {総合|そうごう} (comprehensive, overall) and {力|りょく} (power, ability). Frequently used in sports commentary, business evaluations, and educational contexts to emphasize that well-rounded capability matters more than any single outstanding trait.\n\nThe word implies a holistic assessment — not just one dimension of strength but the combination of many.\n\nCOMMON COLLOCATIONS:\n- {総合力|そうごうりょく}で{勝負|しょうぶ}する: to compete on overall strength\n- {総合力|そうごうりょく}を{高|たか}める: to raise one's overall capability\n- {総合力|そうごうりょく}に{優|すぐ}れる: to excel in overall ability\n- {総合力|そうごうりょく}の{差|さ}: the gap in overall strength\n\nSIMILAR WORDS:\n- {実力|じつりょく}: real ability; true capability — focuses on proven skill\n- {戦力|せんりょく}: fighting strength; lineup strength — specifically about competitive power\n- {底力|そこぢから}: latent power; hidden reserves — strength that emerges under pressure",
-  "cross_references": [],
+  "notes": "Composed of ⟦{総合|そうごう}→総合：16986_sougou⟧ (comprehensive, overall) and {力|りょく} (power, ability). Frequently used in sports commentary, business evaluations, and educational contexts to emphasize that well-rounded capability matters more than any single outstanding trait.\n\nThe word implies a holistic assessment — not just one dimension of strength but the combination of many.\n\nCOMMON COLLOCATIONS:\n- {総合力|そうごうりょく}⟦で→で：00502_de⟧⟦{勝負|しょうぶ}→勝負：01437_shoubu⟧⟦する→する：00392_suru⟧: to compete on overall strength\n- {総合力|そうごうりょく}⟦を→を：00422_wo⟧⟦{高|たか}める→高める：02065_takameru⟧: to raise one's overall capability\n- {総合力|そうごうりょく}⟦に→に：00314_ni⟧⟦{優|すぐ}れる→優れる：02119_sugureru⟧: to excel in overall ability\n- {総合力|そうごうりょく}⟦の→の：09472_no⟧⟦{差|さ}→差：02771_sa⟧: the gap in overall strength\n\nSIMILAR WORDS:\n- ⟦{実力|じつりょく}→実力：03277_jitsuryoku⟧: real ability; true capability — focuses on proven skill\n- ⟦{戦力|せんりょく}→戦力：18977_senryoku⟧: fighting strength; lineup strength — specifically about competitive power\n- ⟦{底力|そこぢから}→底力：30606_sokojikara⟧: latent power; hidden reserves — strength that emerges under pressure",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03277_jitsuryoku",
+      "reading": "じつりょく",
+      "headword": "{実力|じつりょく}",
+      "label": "real ability"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18977_senryoku",
+      "reading": "せんりょく",
+      "headword": "{戦力|せんりょく}",
+      "label": "fighting strength"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30606_sokojikara",
+      "reading": "そこぢから",
+      "headword": "{底|そこ}{力|ぢから}",
+      "label": "latent power"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["descriptive"]
+      "semantic": [
+        "descriptive"
+      ]
     },
     "created": "2026-04-30T12:16:11Z",
-    "modified": "2026-04-30T12:16:11Z"
+    "modified": "2026-09-02T04:02:25Z"
   }
 }

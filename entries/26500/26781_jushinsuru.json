@@ -3,7 +3,7 @@
   "headword": "{受信|じゅしん}する",
   "reading": "じゅしんする",
   "romaji": "jushinsuru",
-  "part_of_speech": "verb-suru",
+  "part_of_speech": "suru verb",
   "gloss": "to receive (a message, signal)",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26781_jushinsuru_ex1",
-      "japanese": "メールを{受信|じゅしん}した。",
+      "japanese": "⟦メール→メール：04435_meeru⟧⟦を→を：00422_wo⟧{受信|じゅしん}した。",
       "english": "I received an email.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26781_jushinsuru_ex2",
-      "japanese": "この{部屋|へや}では{電波|でんぱ}を{受信|じゅしん}しにくい。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{部屋|へや}→部屋：00507_heya⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{電波|でんぱ}→電波：04070_denpa⟧⟦を→を：00422_wo⟧{受信|じゅしん}しにくい。",
       "english": "It's hard to receive a signal in this room.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26781_jushinsuru_ex3",
-      "japanese": "{緊急|きんきゅう}{地震|じしん}{速報|そくほう}を{受信|じゅしん}すると、スマホから{警告音|けいこくおん}が{鳴|な}る。",
+      "japanese": "⟦{緊急|きんきゅう}→緊急：11327_kinkyuu⟧⟦{地震|じしん}{速報|そくほう}→地震速報：20820_jishinsokuhou⟧⟦を→を：00422_wo⟧{受信|じゅしん}する⟦と→と：00512_to⟧、⟦スマホ→スマホ：04721_sumaho⟧⟦から→から：00504_kara⟧{警告音|けいこくおん}⟦が→が：00051_ga⟧⟦{鳴|な}る→鳴る：01143_naru⟧。",
       "english": "When an emergency earthquake alert is received, a warning sound goes off on the smartphone.",
       "sense_numbers": [
         1
@@ -44,8 +44,23 @@
       "notes": null
     }
   ],
-  "notes": "The counterpart of {送信|そうしん}する (to send/transmit). Used for receiving electronic communications, broadcast signals, or data. The noun form {受信|じゅしん} is also common in compound words.\n\nCOMMON COLLOCATIONS:\n- メールを{受信|じゅしん}する: to receive an email\n- {電波|でんぱ}を{受信|じゅしん}する: to receive a radio signal\n- {受信|じゅしん}トレイ: inbox\n- {受信|じゅしん}{拒否|きょひ}: blocking reception (of calls/messages)\n- {受信|じゅしん}{料|りょう}: reception fee (e.g., NHK)\n\nSIMILAR WORDS:\n- {受|う}け{取|と}る: to receive — general-purpose; includes physical items\n- {着信|ちゃくしん}: incoming call/message — specifically for phone calls and notifications\n- {傍受|ぼうじゅ}する: to intercept — receiving communications not intended for you",
-  "cross_references": [],
+  "notes": "The counterpart of ⟦{送信|そうしん}する→送信する：26780_soushinsuru⟧ (to send/transmit). Used for receiving electronic communications, broadcast signals, or data. The noun form ⟦{受信|じゅしん}→受信：04896_jushin⟧ is also common in compound words.\n\nCOMMON COLLOCATIONS:\n- ⟦メール→メール：04435_meeru⟧⟦を→を：00422_wo⟧{受信|じゅしん}する: to receive an email\n- ⟦{電波|でんぱ}→電波：04070_denpa⟧⟦を→を：00422_wo⟧{受信|じゅしん}する: to receive a radio signal\n- ⟦{受信|じゅしん}→受信：04896_jushin⟧トレイ: inbox\n- ⟦{受信|じゅしん}→受信：04896_jushin⟧⟦{拒否|きょひ}→拒否：08242_kyohi⟧: blocking reception (of calls/messages)\n- ⟦{受信|じゅしん}→受信：04896_jushin⟧⟦{料|りょう}→料：28172_ryou⟧: reception fee (e.g., NHK)\n\nSIMILAR WORDS:\n- ⟦{受|う}け{取|と}る→受け取る：01883_uketoru⟧: to receive — general-purpose; includes physical items\n- ⟦{着信|ちゃくしん}→着信：07685_chakushin⟧: incoming call/message — specifically for phone calls and notifications\n- {傍受|ぼうじゅ}⟦する→する：00392_suru⟧: to intercept — receiving communications not intended for you",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01883_uketoru",
+      "reading": "うけとる",
+      "headword": "{受|う}け{取|と}る",
+      "label": "to receive"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07685_chakushin",
+      "reading": "ちゃくしん",
+      "headword": "{着信|ちゃくしん}",
+      "label": "incoming call/message"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -59,10 +74,11 @@
         "technology"
       ],
       "domain": [],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-05-05T11:05:15Z",
-    "modified": "2026-05-05T11:05:15Z"
+    "modified": "2026-09-02T04:02:27Z"
   },
   "conjugation": {
     "type": "suru",

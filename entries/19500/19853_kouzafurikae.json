@@ -15,40 +15,88 @@
   "examples": [
     {
       "id": "19853_kouzafurikae_ex1",
-      "japanese": "{口座振替|こうざふりかえ}で{支払|しはら}う。",
+      "japanese": "{口座振替|こうざふりかえ}⟦で→で：00502_de⟧⟦{支払|しはら}う→支払う：02116_shiharau⟧。",
       "english": "I pay by automatic bank transfer.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19853_kouzafurikae_ex2",
-      "japanese": "{電気代|でんきだい}を{口座振替|こうざふりかえ}にした。",
+      "japanese": "⟦{電気代|でんきだい}→電気代：09543_denkidai⟧⟦を→を：00422_wo⟧{口座振替|こうざふりかえ}にした。",
       "english": "I set up my electricity bill for direct debit.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19853_kouzafurikae_ex3",
-      "japanese": "{口座振替|こうざふりかえ}の{手続|てつづ}きには{届出印|とどけでいん}が{必要|ひつよう}です。",
+      "japanese": "{口座振替|こうざふりかえ}⟦の→の：09472_no⟧⟦{手続|てつづ}き→手続き：05453_tetsuzuki⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{届出印|とどけでいん}⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧です。",
       "english": "A registered seal is required for the direct debit application process.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A standard payment method in Japan for recurring bills. Most utility companies, insurance providers, and subscription services offer {口座振替|こうざふりかえ} as a payment option. Setting it up typically requires filling out a form at the bank or service provider.\n\nCOMMON COLLOCATIONS:\n- {口座振替|こうざふりかえ}の{申|もう}し{込|こ}み — direct debit application\n- {口座振替|こうざふりかえ}{日|び} — direct debit date\n- {口座振替|こうざふりかえ}{依頼書|いらいしょ} — direct debit request form\n\nSIMILAR WORDS:\n- {振込|ふりこみ} — bank transfer (manual, one-time)\n- {引|ひ}き{落|お}とし — automatic deduction (often interchangeable)\n- {自動引落|じどうひきおと}し — automatic withdrawal",
+  "notes": "A standard payment method in Japan for recurring bills. Most utility companies, insurance providers, and subscription services offer {口座振替|こうざふりかえ} as a payment option. Setting it up typically requires filling out a form at the bank or service provider.\n\nCOMMON COLLOCATIONS:\n- {口座振替|こうざふりかえ}⟦の→の：09472_no⟧⟦{申|もう}し{込|こ}み→申し込み：03161_moushikomi⟧ — direct debit application\n- {口座振替|こうざふりかえ}{日|び} — direct debit date\n- {口座振替|こうざふりかえ}{依頼書|いらいしょ} — direct debit request form\n\nSIMILAR WORDS:\n- ⟦{振込|ふりこみ}→振込：05421_furikomi⟧ — bank transfer (manual, one-time)\n- {引|ひ}き{落|お}とし — automatic deduction (often interchangeable)\n- {自動引落|じどうひきおと}し — automatic withdrawal",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05421_furikomi",
+      "reading": "ふりこみ",
+      "headword": "{振込|ふりこみ}",
+      "label": "bank transfer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07556_hikiotoshi",
+      "reading": "ひきおとし",
+      "headword": "{引落|ひきおと}し",
+      "label": "automatic deduction"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22061_jidouhikiotoshi",
+      "reading": "じどうひきおとし",
+      "headword": "{自動|じどう}{引|ひ}き{落|お}とし",
+      "label": "automatic withdrawal"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23156_jidoufurikomi",
+      "reading": "じどうふりこみ",
+      "headword": "{自動振込|じどうふりこみ}",
+      "label": "automatic bank transfer"
+    },
+    {
+      "type": "related",
+      "target_id": "25648_ginkoufurikomi",
+      "reading": "ぎんこうふりこみ",
+      "headword": "{銀行|ぎんこう}{振込|ふりこみ}",
+      "label": "bank transfer"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["money", "daily-life"]
+      "semantic": [
+        "money",
+        "daily-life"
+      ]
     },
     "created": "2026-03-27T03:27:11Z",
-    "modified": "2026-03-27T03:27:11Z"
+    "modified": "2026-09-02T04:01:57Z"
   }
 }

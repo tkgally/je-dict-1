@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "15437_hatsubutai_ex1",
-      "japanese": "{五歳|ごさい}で{初舞台|はつぶたい}を{踏|ふ}んだ。",
+      "japanese": "{五歳|ごさい}⟦で→で：00502_de⟧{初舞台|はつぶたい}⟦を→を：00422_wo⟧⟦{踏|ふ}んだ→踏む：01197_fumu⟧。",
       "english": "She made her stage debut at age five.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "15437_hatsubutai_ex2",
-      "japanese": "{初舞台|はつぶたい}は{緊張|きんちょう}で{足|あし}が{震|ふる}えた。",
+      "japanese": "{初舞台|はつぶたい}⟦は→は：00079_ha⟧⟦{緊張|きんちょう}→緊張：02494_kinchou⟧⟦で→で：00502_de⟧⟦{足|あし}→足：00575_ashi⟧⟦が→が：00051_ga⟧⟦{震|ふる}えた→震える：02411_furueru⟧。",
       "english": "On my first stage appearance, my legs were shaking with nervousness.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "15437_hatsubutai_ex3",
-      "japanese": "{彼|かれ}は{初舞台|はつぶたい}にもかかわらず{堂々|どうどう}とした{演技|えんぎ}を{見|み}せて、{観客|かんきゃく}を{魅了|みりょう}した。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{初舞台|はつぶたい}にもかかわらず⟦{堂々|どうどう}→堂々：05895_doudou⟧とした⟦{演技|えんぎ}→演技：01890_engi⟧⟦を→を：00422_wo⟧⟦{見|み}せて→見せる：01988_miseru⟧、⟦{観客|かんきゃく}→観客：02556_kankyaku⟧⟦を→を：00422_wo⟧⟦{魅了|みりょう}した→魅了する：19016_miryousuru⟧。",
       "english": "Despite it being his debut, he gave a commanding performance that captivated the audience.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,33 @@
       ]
     }
   ],
-  "notes": "USAGE:\nThe most common expression is {初舞台|はつぶたい}を{踏|ふ}む (literally, to step on one's first stage). This is the standard way to say \"to make one's debut performance.\" Can also be used figuratively for any first-time public appearance or first attempt in a new arena.\n\nCOMMON COLLOCATIONS:\n- {初舞台|はつぶたい}を{踏|ふ}む (to make one's stage debut)\n- {初舞台|はつぶたい}を{飾|かざ}る (to mark one's debut)\n- {初舞台|はつぶたい}の{思|おも}い{出|で} (memories of one's debut)\n\nRELATED WORDS:\n- デビュー: debut (loanword)\n- {舞台|ぶたい}: stage\n- {初|はつ}{出演|しゅつえん}: first appearance (in a show)\n- {初|はつ}{登場|とうじょう}: first appearance",
-  "cross_references": [],
+  "notes": "USAGE:\nThe most common expression is {初舞台|はつぶたい}⟦を→を：00422_wo⟧⟦{踏|ふ}む→踏む：01197_fumu⟧ (literally, to step on one's first stage). This is the standard way to say \"to make one's debut performance.\" Can also be used figuratively for any first-time public appearance or first attempt in a new arena.\n\nCOMMON COLLOCATIONS:\n- {初舞台|はつぶたい}⟦を→を：00422_wo⟧⟦{踏|ふ}む→踏む：01197_fumu⟧ (to make one's stage debut)\n- {初舞台|はつぶたい}⟦を→を：00422_wo⟧⟦{飾|かざ}る→飾る：01185_kazaru⟧ (to mark one's debut)\n- {初舞台|はつぶたい}⟦の→の：09472_no⟧⟦{思|おも}い{出|で}→思い出：00331_omoide⟧ (memories of one's debut)\n\nRELATED WORDS:\n- ⟦デビュー→デビュー：11016_debyuu⟧: debut (loanword)\n- ⟦{舞台|ぶたい}→舞台：03606_butai⟧: stage\n- ⟦{初|はつ}{出演|しゅつえん}→初出演：22908_hatsushutsuen⟧: first appearance (in a show)\n- ⟦{初|はつ}→初：10632_hatsu⟧⟦{登場|とうじょう}→登場：13625_toujou⟧: first appearance",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "11016_debyuu",
+      "reading": "でびゅー",
+      "headword": "デビュー",
+      "label": "debut"
+    },
+    {
+      "type": "related",
+      "target_id": "22908_hatsushutsuen",
+      "reading": "はつしゅつえん",
+      "headword": "{初出演|はつしゅつえん}",
+      "label": "first appearance"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21889_uijin",
+      "reading": "ういじん",
+      "headword": "{初陣|ういじん}",
+      "label": "first battle"
+    }
+  ],
   "metadata": {
     "created": "2026-03-06T13:51:39Z",
-    "modified": "2026-03-06T13:51:39Z",
+    "modified": "2026-09-02T04:01:41Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

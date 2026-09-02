@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25271_kabure_ex1",
-      "japanese": "{漆|うるし}かぶれがひどい。",
+      "japanese": "{漆|うるし}かぶれ⟦が→が：00051_ga⟧⟦ひどい→ひどい：01097_hidoi⟧。",
       "english": "The lacquer rash is severe.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25271_kabure_ex2",
-      "japanese": "{化粧品|けしょうひん}のかぶれで{病院|びょういん}に{行|い}った。",
+      "japanese": "⟦{化粧品|けしょうひん}→化粧品：05119_keshouhin⟧⟦の→の：09472_no⟧かぶれ⟦で→で：00502_de⟧⟦{病院|びょういん}→病院：00577_byouin⟧⟦に→に：00314_ni⟧⟦{行|い}った→行く：00119_iku⟧。",
       "english": "I went to the hospital because of a rash from cosmetics.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25271_kabure_ex3",
-      "japanese": "{金属|きんぞく}アレルギーでかぶれが{出|で}たので、アクセサリーをはずした。",
+      "japanese": "⟦{金属|きんぞく}→金属：02645_kinzoku⟧⟦アレルギー→アレルギー：04645_arerugii⟧⟦で→で：00502_de⟧かぶれ⟦が→が：00051_ga⟧⟦{出|で}た→出る：00513_deru⟧⟦の→の：09472_no⟧で、⟦アクセサリー→アクセサリー：01761_akusesarii⟧⟦を→を：00422_wo⟧はずした。",
       "english": "I got a rash from a metal allergy, so I took off my accessories.",
       "sense_numbers": [
         1
@@ -44,20 +44,59 @@
       "notes": null
     }
   ],
-  "notes": "Refers to skin irritation caused by direct contact with an irritant or allergen, rather than a rash from internal causes. The corresponding verb is かぶれる (to break out in a rash).\n\nCOMMON COLLOCATIONS:\n- {漆|うるし}かぶれ: lacquer rash\n- {化粧品|けしょうひん}かぶれ: cosmetic dermatitis\n- かぶれが{出|で}る: to develop a rash\n- かぶれが{治|なお}る: for a rash to heal\n- かぶれを{起|お}こす: to cause a rash\n\nSIMILAR WORDS:\n- {湿疹|しっしん}: eczema — a broader term for skin inflammation, not necessarily from contact\n- {発疹|はっしん}: rash — general medical term for any skin eruption\n- {蕁麻疹|じんましん}: hives — raised, itchy welts often from allergic reactions or stress\n\nNOTE: かぶれ can also mean being overly influenced by foreign culture (e.g., {西洋|せいよう}かぶれ, someone infatuated with Western culture), but that usage is a separate figurative sense of かぶれる.",
+  "notes": "Refers to skin irritation caused by direct contact with an irritant or allergen, rather than a rash from internal causes. The corresponding verb is かぶれる (to break out in a rash).\n\nCOMMON COLLOCATIONS:\n- {漆|うるし}かぶれ: lacquer rash\n- ⟦{化粧品|けしょうひん}→化粧品：05119_keshouhin⟧かぶれ: cosmetic dermatitis\n- かぶれ⟦が→が：00051_ga⟧⟦{出|で}る→出る：00513_deru⟧: to develop a rash\n- かぶれ⟦が→が：00051_ga⟧⟦{治|なお}る→治る：19598_naoru⟧: for a rash to heal\n- かぶれ⟦を→を：00422_wo⟧⟦{起|お}こす→起こす：01234_okosu⟧: to cause a rash\n\nSIMILAR WORDS:\n- ⟦{湿疹|しっしん}→湿疹：06951_shisshin⟧: eczema — a broader term for skin inflammation, not necessarily from contact\n- ⟦{発疹|はっしん}→発疹：20451_hasshin⟧: rash — general medical term for any skin eruption\n- ⟦{蕁麻疹|じんましん}→蕁麻疹：15182_jinmashin⟧: hives — raised, itchy welts often from allergic reactions or stress\n\nNOTE: かぶれ can also mean being overly influenced by foreign culture (e.g., ⟦{西洋|せいよう}→西洋：01446_seiyou⟧かぶれ, someone infatuated with Western culture), but that usage is a separate figurative sense of かぶれる.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06951_shisshin",
+      "reading": "しっしん",
+      "headword": "{湿疹|しっしん}",
+      "label": "eczema"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20451_hasshin",
+      "reading": "はっしん",
+      "headword": "{発疹|はっしん}",
+      "label": "rash"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15182_jinmashin",
+      "reading": "じんましん",
+      "headword": "{蕁麻疹|じんましん}",
+      "label": "hives"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23115_hosshin",
+      "reading": "ほっしん",
+      "headword": "{発疹|ほっしん}",
+      "label": "rash"
+    },
+    {
+      "type": "related",
+      "target_id": "23596_hifuen",
+      "reading": "ひふえん",
+      "headword": "{皮膚炎|ひふえん}",
+      "label": "dermatitis"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "health",
         "body-part"
       ]
     },
     "created": "2026-04-24T13:10:24Z",
-    "modified": "2026-08-04T12:59:53Z"
+    "modified": "2026-09-02T04:02:21Z"
   }
 }

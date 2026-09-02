@@ -43,11 +43,26 @@
       ]
     }
   ],
-  "notes": "USAGE: {半島|はんとう} combines ⟦{半|はん}→半：10460_han⟧ (half) and ⟦{島|とう}→島：00885_shima⟧ (island), describing land that is partially surrounded by water.\n\nJAPANESE PENINSULAS:\n- ⟦{房総|ぼうそう}→房総：noentry⟧{半島|はんとう} (Boso Peninsula)\n- ⟦{伊豆|いず}→伊豆：noentry⟧{半島|はんとう} (Izu Peninsula)\n- ⟦{能登|のと}→能登：noentry⟧{半島|はんとう} (Noto Peninsula)\n- ⟦{紀伊|きい}→紀伊：noentry⟧{半島|はんとう} (Kii Peninsula)\n\nWORLD GEOGRAPHY:\n- ⟦{朝鮮|ちょうせん}→朝鮮：noentry⟧{半島|はんとう} (Korean Peninsula)\n- ⟦アラビア→アラビア：noentry⟧{半島|はんとう} (Arabian Peninsula)\n- ⟦バルカン→バルカン：noentry⟧{半島|はんとう} (Balkan Peninsula)\n\nRELATED TERMS:\n- ⟦{島|しま}→島：00885_shima⟧ - island\n- ⟦{大陸|たいりく}→大陸：03400_tairiku⟧ - continent\n- ⟦{岬|みさき}→岬：03911_misaki⟧ - cape, promontory",
-  "cross_references": [],
+  "notes": "USAGE: {半島|はんとう} combines ⟦{半|はん}→半：10460_han⟧ (half) and ⟦{島|とう}→島：00885_shima⟧ (island), describing land that is partially surrounded by water.\n\nJAPANESE PENINSULAS:\n- ⟦{房総|ぼうそう}→房総：noentry⟧{半島|はんとう} (Boso Peninsula)\n- ⟦{伊豆|いず}→伊豆：noentry⟧{半島|はんとう} (Izu Peninsula)\n- ⟦{能登|のと}→能登：noentry⟧{半島|はんとう} (Noto Peninsula)\n- ⟦{紀伊|きい}→紀伊：noentry⟧{半島|はんとう} (Kii Peninsula)\n\nWORLD GEOGRAPHY:\n- ⟦{朝鮮|ちょうせん}→朝鮮：noentry⟧{半島|はんとう} (Korean Peninsula)\n- ⟦アラビア→アラビア：noentry⟧{半島|はんとう} (Arabian Peninsula)\n- ⟦バルカン→バルカン：noentry⟧{半島|はんとう} (Balkan Peninsula)\n\nRELATED WORDS:\n- ⟦{島|しま}→島：00885_shima⟧ - island\n- ⟦{大陸|たいりく}→大陸：03400_tairiku⟧ - continent\n- ⟦{岬|みさき}→岬：03911_misaki⟧ - cape, promontory",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "03400_tairiku",
+      "reading": "たいりく",
+      "headword": "{大陸|たいりく}",
+      "label": "continent"
+    },
+    {
+      "type": "related",
+      "target_id": "03911_misaki",
+      "reading": "みさき",
+      "headword": "{岬|みさき}",
+      "label": "cape, promontory"
+    }
+  ],
   "metadata": {
     "created": "2026-01-14T00:58:16Z",
-    "modified": "2026-05-30T21:10:09Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

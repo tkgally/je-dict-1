@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "17179_onsha_ex1",
-      "japanese": "{御社|おんしゃ}の{事業|じぎょう}に{興味|きょうみ}があります。",
+      "japanese": "{御社|おんしゃ}⟦の→の：09472_no⟧⟦{事業|じぎょう}→事業：11421_jigyou⟧⟦に→に：00314_ni⟧⟦{興味|きょうみ}→興味：01316_kyoumi⟧⟦が→が：00051_ga⟧⟦あります→ある：00006_aru⟧。",
       "english": "I am interested in your company's business.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "17179_onsha_ex2",
-      "japanese": "{御社|おんしゃ}で{働|はたら}きたいと{思|おも}い、{応募|おうぼ}いたしました。",
+      "japanese": "{御社|おんしゃ}⟦で→で：00502_de⟧⟦{働|はたら}きたい→働く：00503_hataraku⟧⟦と→と：00512_to⟧⟦{思|おも}い→思う：00492_omou⟧、⟦{応募|おうぼ}→応募：03014_oubo⟧⟦いたしました→いたす：01314_itasu⟧。",
       "english": "I applied because I would like to work at your company.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "17179_onsha_ex3",
-      "japanese": "{御社|おんしゃ}の{企業理念|きぎょうりねん}に{共感|きょうかん}し、ぜひ{貢献|こうけん}したいと{考|かんが}えております。",
+      "japanese": "{御社|おんしゃ}⟦の→の：09472_no⟧{企業理念|きぎょうりねん}⟦に→に：00314_ni⟧⟦{共感|きょうかん}→共感：09050_kyoukan⟧し、ぜひ⟦{貢献|こうけん}→貢献：02737_kouken⟧⟦したい→する：00392_suru⟧⟦と→と：00512_to⟧⟦{考|かんが}えて→考える：00856_kangaeru⟧⟦おります→おる：01324_oru⟧。",
       "english": "I sympathize with your company's corporate philosophy and would very much like to contribute.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{御社|おんしゃ} is used in SPOKEN contexts (interviews, meetings, phone calls). For WRITTEN contexts (cover letters, emails, formal documents), use {貴社|きしゃ} instead. This distinction is important and frequently tested in Japanese business etiquette.\n\nNOTE: Both words are keigo (honorific language) and should only be used to refer to someone else's company, never your own. To refer to your own company humbly, use {弊社|へいしゃ} (our company, humble).\n\nCOMMON COLLOCATIONS:\n- {御社|おんしゃ}の{事業|じぎょう} (your company's business)\n- {御社|おんしゃ}で{働|はたら}く (to work at your company)\n- {御社|おんしゃ}に{応募|おうぼ}する (to apply to your company)\n\nSIMILAR WORDS:\n- {貴社|きしゃ}: your company (written honorific) — used in letters and documents\n- {弊社|へいしゃ}: our company (humble) — used when referring to one's own company",
+  "notes": "USAGE:\n{御社|おんしゃ} is used in SPOKEN contexts (interviews, meetings, phone calls). For WRITTEN contexts (cover letters, emails, formal documents), use ⟦{貴社|きしゃ}→貴社：15664_kisha⟧ instead. This distinction is important and frequently tested in Japanese business etiquette.\n\nNOTE: Both words are keigo (honorific language) and should only be used to refer to someone else's company, never your own. To refer to your own company humbly, use ⟦{弊社|へいしゃ}→弊社：17404_heisha⟧ (our company, humble).\n\nCOMMON COLLOCATIONS:\n- {御社|おんしゃ}⟦の→の：09472_no⟧⟦{事業|じぎょう}→事業：11421_jigyou⟧ (your company's business)\n- {御社|おんしゃ}⟦で→で：00502_de⟧⟦{働|はたら}く→働く：00503_hataraku⟧ (to work at your company)\n- {御社|おんしゃ}⟦に→に：00314_ni⟧⟦{応募|おうぼ}→応募：03014_oubo⟧⟦する→する：00392_suru⟧ (to apply to your company)\n\nSIMILAR WORDS:\n- ⟦{貴社|きしゃ}→貴社：15664_kisha⟧: your company (written honorific) — used in letters and documents\n- ⟦{弊社|へいしゃ}→弊社：17404_heisha⟧: our company (humble) — used when referring to one's own company",
   "prominent_see_also": [
     {
       "target_id": "15664_kisha",
@@ -66,11 +66,25 @@
       "reading": "へいしゃ",
       "headword": "{弊社|へいしゃ}",
       "label": "our company (humble)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22449_tousha",
+      "reading": "とうしゃ",
+      "headword": "{当社|とうしゃ}",
+      "label": "our company"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24279_shousha",
+      "reading": "しょうしゃ",
+      "headword": "{小社|しょうしゃ}",
+      "label": "our company (humble)"
     }
   ],
   "metadata": {
     "created": "2026-03-16T05:45:42Z",
-    "modified": "2026-05-06T07:07:17Z",
+    "modified": "2026-09-02T04:01:47Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30550_sunagimo_ex1",
-      "japanese": "{砂肝|すなぎも}を{二本|にほん}ください。",
+      "japanese": "{砂肝|すなぎも}⟦を→を：00422_wo⟧{二本|にほん}⟦ください→ください：02899_kudasai⟧。",
       "english": "Two gizzard skewers, please.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30550_sunagimo_ex2",
-      "japanese": "{砂肝|すなぎも}のこりこりした{食感|しょっかん}が{好|す}きだ。",
+      "japanese": "{砂肝|すなぎも}⟦の→の：09472_no⟧⟦こりこり→コリコリ：06846_korikori⟧⟦した→する：00392_suru⟧⟦{食感|しょっかん}→食感：06636_shokkan⟧⟦が→が：00051_ga⟧⟦{好|す}き→好き：02355_suki⟧だ。",
       "english": "I like the crunchy texture of chicken gizzard.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30550_sunagimo_ex3",
-      "japanese": "この{店|みせ}では{砂肝|すなぎも}を{塩|しお}で{焼|や}いて、レモンを{添|そ}えて{出|だ}してくれる。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{店|みせ}→店：00497_mise⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧{砂肝|すなぎも}⟦を→を：00422_wo⟧⟦{塩|しお}→塩：00887_shio⟧⟦で→で：00502_de⟧⟦{焼|や}いて→焼く：01123_yaku⟧、⟦レモン→レモン：10456_remon⟧⟦を→を：00422_wo⟧⟦{添|そ}えて→添える：13315_soeru⟧⟦{出|だ}して→出す：01087_dasu⟧⟦くれる→くれる：00724_kureru⟧。",
       "english": "At this restaurant they grill the gizzard with salt and serve it with lemon.",
       "sense_numbers": [
         1
@@ -44,13 +44,20 @@
       "notes": null
     }
   ],
-  "notes": "Literally \"sand liver,\" from the grit birds keep in the organ to grind their food. Despite the name it is not liver; {砂肝|すなぎも} and レバー are different items on a yakitori menu.\n\nCOMMON COLLOCATIONS:\n- {砂肝|すなぎも}の{塩焼|しおや}き: salt-grilled gizzard\n- {砂肝|すなぎも}のこりこりした{食感|しょっかん}: the crunchy texture of gizzard\n- {砂肝|すなぎも}を{串|くし}に{刺|さ}す: to put gizzard on a skewer\n\nSIMILAR WORDS:\n- {砂嚢|さのう}: gizzard — the anatomical term, not used on menus\n- レバー: liver — soft and rich, the usual point of contrast on a yakitori order",
+  "notes": "Literally \"sand liver,\" from the grit birds keep in the organ to grind their food. Despite the name it is not liver; {砂肝|すなぎも} and ⟦レバー→レバー：11263_rebaa⟧ are different items on a yakitori menu.\n\nCOMMON COLLOCATIONS:\n- {砂肝|すなぎも}⟦の→の：09472_no⟧⟦{塩焼|しおや}き→塩焼き：12120_shioyaki⟧: salt-grilled gizzard\n- {砂肝|すなぎも}⟦の→の：09472_no⟧⟦こりこり→コリコリ：06846_korikori⟧⟦した→する：00392_suru⟧⟦{食感|しょっかん}→食感：06636_shokkan⟧: the crunchy texture of gizzard\n- {砂肝|すなぎも}⟦を→を：00422_wo⟧⟦{串|くし}→串：19339_kushi⟧⟦に→に：00314_ni⟧⟦{刺|さ}す→刺す：02111_sasu⟧: to put gizzard on a skewer\n\nSIMILAR WORDS:\n- {砂嚢|さのう}: gizzard — the anatomical term, not used on menus\n- ⟦レバー→レバー：11263_rebaa⟧: liver — soft and rich, the usual point of contrast on a yakitori order",
   "cross_references": [
     {
       "type": "related",
       "target_id": "30551_negima",
       "reading": "ねぎま",
       "headword": "ねぎま"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11263_rebaa",
+      "reading": "ればー",
+      "headword": "レバー",
+      "label": "liver"
     }
   ],
   "schema_version": "2.0",
@@ -61,13 +68,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "food"
       ],
       "domain": []
     },
     "created": "2026-08-10T09:22:29Z",
-    "modified": "2026-08-10T09:22:29Z"
+    "modified": "2026-09-02T04:02:40Z"
   }
 }

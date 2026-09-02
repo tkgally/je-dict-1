@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "18633_kaijo_ex1",
-      "japanese": "{食事|しょくじ}の{介助|かいじょ}をする。",
+      "japanese": "⟦{食事|しょくじ}→食事：02087_shokuji⟧⟦の→の：09472_no⟧{介助|かいじょ}⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧。",
       "english": "To assist with eating.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "18633_kaijo_ex2",
-      "japanese": "{入浴|にゅうよく}{介助|かいじょ}には{資格|しかく}が{必要|ひつよう}だ。",
+      "japanese": "⟦{入浴|にゅうよく}→入浴：11642_nyuuyoku⟧{介助|かいじょ}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{資格|しかく}→資格：02834_shikaku⟧⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧だ。",
       "english": "A qualification is needed for bathing assistance.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "18633_kaijo_ex3",
-      "japanese": "{祖母|そぼ}は{歩行|ほこう}の{介助|かいじょ}が{必要|ひつよう}になり、{介助|かいじょ}{犬|けん}を{飼|か}い{始|はじ}めた。",
+      "japanese": "⟦{祖母|そぼ}→祖母：00813_sobo⟧⟦は→は：00079_ha⟧⟦{歩行|ほこう}→歩行：21865_hokou⟧⟦の→の：09472_no⟧{介助|かいじょ}⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧⟦に→に：00314_ni⟧⟦なり→なる：01970_naru⟧、{介助|かいじょ}{犬|けん}⟦を→を：00422_wo⟧⟦{飼|か}い→飼う：08151_kau⟧⟦{始|はじ}めた→始める：00531_hajimeru⟧。",
       "english": "My grandmother needed walking assistance, so she started keeping an assistance dog.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,19 @@
       ]
     }
   ],
-  "notes": "USAGE:\nDistinct from {介護|かいご} (nursing care), which covers broader long-term care including planning and management. {介助|かいじょ} focuses specifically on direct physical assistance. Common in healthcare and eldercare settings.\n\nCOMMON COLLOCATIONS:\n- {食事|しょくじ}{介助|かいじょ} (mealtime assistance)\n- {入浴|にゅうよく}{介助|かいじょ} (bathing assistance)\n- {歩行|ほこう}{介助|かいじょ} (walking assistance)\n- {介助|かいじょ}{犬|けん} (assistance dog)\n- {介助|かいじょ}{者|しゃ} (caregiver, assistant)",
-  "cross_references": [],
+  "notes": "USAGE:\nDistinct from ⟦{介護|かいご}→介護：04805_kaigo⟧ (nursing care), which covers broader long-term care including planning and management. {介助|かいじょ} focuses specifically on direct physical assistance. Common in healthcare and eldercare settings.\n\nCOMMON COLLOCATIONS:\n- {食事|しょくじ}{介助|かいじょ} (mealtime assistance)\n- ⟦{入浴|にゅうよく}→入浴：11642_nyuuyoku⟧{介助|かいじょ} (bathing assistance)\n- ⟦{歩行|ほこう}→歩行：21865_hokou⟧{介助|かいじょ} (walking assistance)\n- {介助|かいじょ}{犬|けん} (assistance dog)\n- {介助|かいじょ}⟦{者|しゃ}→〜者：04662_sha⟧ (caregiver, assistant)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "10533_kurumaisu",
+      "reading": "くるまいす",
+      "headword": "{車椅子|くるまいす}",
+      "label": "wheelchair"
+    }
+  ],
   "metadata": {
     "created": "2026-03-22T10:41:08Z",
-    "modified": "2026-07-25T21:35:01Z",
+    "modified": "2026-09-02T04:01:52Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "11327_kinkyuu_ex1",
-      "japanese": "{緊急|きんきゅう}{事態|じたい}が{発生|はっせい}した。",
+      "japanese": "{緊急|きんきゅう}{事態|じたい}⟦が→が：00051_ga⟧⟦{発生|はっせい}した→発生する：25529_hasseisuru⟧。",
       "english": "An emergency situation has occurred.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "11327_kinkyuu_ex2",
-      "japanese": "{緊急|きんきゅう}の{連絡|れんらく}が{入|はい}りました。",
+      "japanese": "{緊急|きんきゅう}⟦の→の：09472_no⟧⟦{連絡|れんらく}→連絡：01524_renraku⟧⟦が→が：00051_ga⟧⟦{入|はい}りました→入る：00494_hairu⟧。",
       "english": "An urgent message has come in.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "11327_kinkyuu_ex3",
-      "japanese": "{地震|じしん}のあと、{政府|せいふ}は{緊急|きんきゅう}{会議|かいぎ}を{開|ひら}いて{対策|たいさく}を{話|はな}し{合|あ}った。",
+      "japanese": "⟦{地震|じしん}→地震：01608_jishin⟧⟦の→の：09472_no⟧あと、⟦{政府|せいふ}→政府：03294_seifu⟧⟦は→は：00079_ha⟧{緊急|きんきゅう}⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦を→を：00422_wo⟧⟦{開|ひら}いて→開く：01979_hiraku⟧⟦{対策|たいさく}→対策：02511_taisaku⟧⟦を→を：00422_wo⟧⟦{話|はな}し{合|あ}った→話し合う：02396_hanashiau⟧。",
       "english": "After the earthquake, the government held an emergency meeting to discuss countermeasures.",
       "notes": null,
       "has_audio": false,
@@ -43,11 +43,34 @@
       ]
     }
   ],
-  "notes": "{緊急|きんきゅう} indicates something requiring immediate attention or action.\n\nWORD FORMATION:\n{緊|きん} (tense, tight) + {急|きゅう} (urgent, sudden)\n\nCOMMON COLLOCATIONS:\n- {緊急|きんきゅう}{事態|じたい}: emergency situation\n- {緊急|きんきゅう}{会議|かいぎ}: emergency meeting\n- {緊急|きんきゅう}{速報|そくほう}: breaking news, emergency bulletin\n- {緊急|きんきゅう}{連絡|れんらく}: urgent communication\n- {緊急|きんきゅう}{搬送|はんそう}: emergency transport (ambulance)\n- {緊急|きんきゅう}{着陸|ちゃくりく}: emergency landing\n\nSIMILAR WORDS:\n- {急|きゅう}: sudden, urgent (more casual)\n- {至急|しきゅう}: urgent, immediately (used in business/written contexts)",
+  "notes": "{緊急|きんきゅう} indicates something requiring immediate attention or action.\n\nFORMS:\n{緊|きん} (tense, tight) + ⟦{急|きゅう}→急：13042_kyuu⟧ (urgent, sudden)\n\nCOMMON COLLOCATIONS:\n- {緊急|きんきゅう}{事態|じたい}: emergency situation\n- {緊急|きんきゅう}⟦{会議|かいぎ}→会議：00710_kaigi⟧: emergency meeting\n- {緊急|きんきゅう}⟦{速報|そくほう}→速報：14319_sokuhou⟧: breaking news, emergency bulletin\n- {緊急|きんきゅう}⟦{連絡|れんらく}→連絡：01524_renraku⟧: urgent communication\n- {緊急|きんきゅう}⟦{搬送|はんそう}→搬送：24543_hansou⟧: emergency transport (ambulance)\n- {緊急|きんきゅう}⟦{着陸|ちゃくりく}→着陸：05982_chakuriku⟧: emergency landing\n\nSIMILAR WORDS:\n- ⟦{急|きゅう}→急：13042_kyuu⟧: sudden, urgent (more casual)\n- ⟦{至急|しきゅう}→至急：03679_shikyuu⟧: urgent, immediately (used in business/written contexts)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03679_shikyuu",
+      "reading": "しきゅう",
+      "headword": "{至急|しきゅう}",
+      "label": "urgent, immediately"
+    },
+    {
+      "type": "related",
+      "target_id": "08193_oukyuu",
+      "reading": "おうきゅう",
+      "headword": "{応急|おうきゅう}",
+      "label": "emergency"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21059_kyuumu",
+      "reading": "きゅうむ",
+      "headword": "{急務|きゅうむ}",
+      "label": "urgent task"
+    }
+  ],
   "metadata": {
     "created": "2026-02-16T00:41:26Z",
-    "modified": "2026-02-19T12:32:33Z",
+    "modified": "2026-09-02T04:01:24Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

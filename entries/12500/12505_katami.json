@@ -15,41 +15,66 @@
   "examples": [
     {
       "id": "12505_katami_ex1",
-      "japanese": "{祖母|そぼ}の{形見|かたみ}の{指輪|ゆびわ}を{大切|たいせつ}にしている。",
+      "japanese": "⟦{祖母|そぼ}→祖母：00813_sobo⟧⟦の→の：09472_no⟧{形見|かたみ}⟦の→の：09472_no⟧⟦{指輪|ゆびわ}→指輪：01744_yubiwa⟧⟦を→を：00422_wo⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧にして⟦いる→いる：00495_iru⟧。",
       "english": "I treasure the ring my grandmother left me as a keepsake.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12505_katami_ex2",
-      "japanese": "この{時計|とけい}は{亡|な}き{父|ちち}の{形見|かたみ}だ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{時計|とけい}→時計：00677_tokei⟧⟦は→は：00079_ha⟧{亡|な}き⟦{父|ちち}→父：00566_chichi⟧⟦の→の：09472_no⟧{形見|かたみ}だ。",
       "english": "This watch is a memento of my late father.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12505_katami_ex3",
-      "japanese": "{形見|かたみ}{分|わ}けで、{母|はは}の{着物|きもの}を{姉妹|しまい}で{分|わ}けた。",
+      "japanese": "{形見|かたみ}{分|わ}けで、⟦{母|はは}→母：00549_haha⟧⟦の→の：09472_no⟧⟦{着物|きもの}→着物：01309_kimono⟧⟦を→を：00422_wo⟧⟦{姉妹|しまい}→姉妹：03201_shimai⟧⟦で→で：00502_de⟧⟦{分|わ}けた→分ける：02333_wakeru⟧。",
       "english": "In dividing up the keepsakes, my sisters and I shared our mother's kimonos.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nUnlike the English \"memento\" or \"souvenir,\" {形見|かたみ} specifically refers to an object left behind by someone who has died or permanently departed. It is not used for souvenirs from trips or gifts between living people. The compound {形見|かたみ}{分|わ}け refers to the custom of distributing a deceased person's belongings among family and close friends as keepsakes.\n\nCOMMON COLLOCATIONS:\n- {形見|かたみ}の{品|しな}: keepsake item\n- {形見|かたみ}{分|わ}け: distributing keepsakes of the deceased\n- 〜の{形見|かたみ}: memento of (someone deceased)",
-  "cross_references": [],
+  "notes": "USAGE:\nUnlike the English \"memento\" or \"souvenir,\" {形見|かたみ} specifically refers to an object left behind by someone who has died or permanently departed. It is not used for souvenirs from trips or gifts between living people. The compound {形見|かたみ}{分|わ}け refers to the custom of distributing a deceased person's belongings among family and close friends as keepsakes.\n\nCOMMON COLLOCATIONS:\n- {形見|かたみ}⟦の→の：09472_no⟧⟦{品|しな}→品：03192_shina⟧: keepsake item\n- {形見|かたみ}{分|わ}け: distributing keepsakes of the deceased\n- 〜⟦の→の：09472_no⟧{形見|かたみ}: memento of (someone deceased)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03049_kinenhin",
+      "reading": "きねんひん",
+      "headword": "{記念品|きねんひん}",
+      "label": "souvenir, memento"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25049_yosuga",
+      "reading": "よすが",
+      "headword": "よすが",
+      "label": "means of support"
+    }
+  ],
   "metadata": {
     "created": "2026-02-21T11:06:20Z",
-    "modified": "2026-02-21T11:06:20Z",
+    "modified": "2026-09-02T04:01:29Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

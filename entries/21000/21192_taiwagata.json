@@ -15,41 +15,60 @@
   "examples": [
     {
       "id": "21192_taiwagata_ex1",
-      "japanese": "{対話型|たいわがた}のAIが{普及|ふきゅう}している。",
+      "japanese": "{対話型|たいわがた}⟦の→の：09472_no⟧AI⟦が→が：00051_ga⟧⟦{普及|ふきゅう}している→普及する：22182_fukyuusuru⟧。",
       "english": "Interactive AI is becoming widespread.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "21192_taiwagata_ex2",
-      "japanese": "{対話型|たいわがた}の{授業|じゅぎょう}は{学生|がくせい}に{人気|にんき}がある。",
+      "japanese": "{対話型|たいわがた}⟦の→の：09472_no⟧⟦{授業|じゅぎょう}→授業：00781_jugyou⟧⟦は→は：00079_ha⟧⟦{学生|がくせい}→学生：00610_gakusei⟧⟦に→に：00314_ni⟧⟦{人気|にんき}→人気：01488_ninki⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "Dialogue-based classes are popular with students.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "21192_taiwagata_ex3",
-      "japanese": "この{美術館|びじゅつかん}では{対話型|たいわがた}の{展示|てんじ}を{取|と}り{入|い}れて{来場者|らいじょうしゃ}の{関心|かんしん}を{引|ひ}いている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{美術館|びじゅつかん}→美術館：01717_bijutsukan⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧{対話型|たいわがた}⟦の→の：09472_no⟧⟦{展示|てんじ}→展示：12401_tenji⟧⟦を→を：00422_wo⟧⟦{取|と}り{入|い}れて→取り入れる：04221_toriireru⟧⟦{来場者|らいじょうしゃ}→来場者：19023_raijousha⟧⟦の→の：09472_no⟧⟦{関心|かんしん}→関心：00182_kanshin⟧⟦を→を：00422_wo⟧⟦{引|ひ}いている→引く：01978_hiku⟧。",
       "english": "This museum uses interactive exhibits to attract visitors' interest.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{対話|たいわ} means 'dialogue' or 'conversation,' and {型|がた} means 'type' or 'style.' {対話型|たいわがた} describes any system, approach, or format that involves back-and-forth interaction rather than one-way delivery.\n\nCOMMON COLLOCATIONS:\n- {対話型|たいわがた}AI (interactive AI, conversational AI)\n- {対話型|たいわがた}{授業|じゅぎょう} (dialogue-based class)\n- {対話型|たいわがた}インターフェース (interactive interface)\n- {対話型|たいわがた}{展示|てんじ} (interactive exhibit)\n- {対話型|たいわがた}プログラム (interactive program)\n\nSIMILAR WORDS:\n- インタラクティブ — interactive (loanword; used especially in tech and media contexts)\n- {双方向|そうほうこう} — bidirectional, two-way (emphasizes the two-way nature of communication)\n- {参加型|さんかがた} — participatory (emphasizes audience involvement rather than dialogue)",
-  "cross_references": [],
+  "notes": "⟦{対話|たいわ}→対話：12400_taiwa⟧ means 'dialogue' or 'conversation,' and {型|がた} means 'type' or 'style.' {対話型|たいわがた} describes any system, approach, or format that involves back-and-forth interaction rather than one-way delivery.\n\nCOMMON COLLOCATIONS:\n- {対話型|たいわがた}AI (interactive AI, conversational AI)\n- {対話型|たいわがた}⟦{授業|じゅぎょう}→授業：00781_jugyou⟧ (dialogue-based class)\n- {対話型|たいわがた}⟦インターフェース→インターフェース：08793_intaafeesu⟧ (interactive interface)\n- {対話型|たいわがた}⟦{展示|てんじ}→展示：12401_tenji⟧ (interactive exhibit)\n- {対話型|たいわがた}⟦プログラム→プログラム：01540_puroguramu⟧ (interactive program)\n\nSIMILAR WORDS:\n- インタラクティブ — interactive (loanword; used especially in tech and media contexts)\n- {双方向|そうほうこう} — bidirectional, two-way (emphasizes the two-way nature of communication)\n- ⟦{参加型|さんかがた}→参加型：24317_sankagata⟧ — participatory (emphasizes audience involvement rather than dialogue)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24317_sankagata",
+      "reading": "さんかがた",
+      "headword": "{参加型|さんかがた}",
+      "label": "participatory"
+    }
+  ],
   "metadata": {
     "created": "2026-03-31T22:21:30Z",
-    "modified": "2026-03-31T22:21:30Z",
+    "modified": "2026-09-02T04:02:02Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-no"],
+      "pos": [
+        "noun",
+        "adjective-no"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["technology"]
+      "semantic": [
+        "technology"
+      ]
     }
   }
 }

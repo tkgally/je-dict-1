@@ -3,7 +3,7 @@
   "headword": "なりすます",
   "reading": "なりすます",
   "romaji": "narisumasu",
-  "part_of_speech": "godan verb, intransitive",
+  "part_of_speech": "verb (godan, intransitive)",
   "gloss": "to impersonate; to pose as; to pretend to be",
   "conjugation": {
     "type": "godan",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "20291_narisumasu_ex1",
-      "japanese": "{他人|たにん}になりすます。",
+      "japanese": "⟦{他人|たにん}→他人：01459_tanin⟧⟦に→に：00314_ni⟧なりすます。",
       "english": "To impersonate someone else.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "20291_narisumasu_ex2",
-      "japanese": "{警察官|けいさつかん}になりすまして{家|いえ}に{入|はい}った。",
+      "japanese": "⟦{警察官|けいさつかん}→警察官：05056_keisatsukan⟧⟦に→に：00314_ni⟧なりすまして⟦{家|いえ}→家：00612_ie⟧⟦に→に：00314_ni⟧⟦{入|はい}った→入る：00494_hairu⟧。",
       "english": "He posed as a police officer and entered the house.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "20291_narisumasu_ex3",
-      "japanese": "SNSで{有名人|ゆうめいじん}になりすましたアカウントが{増|ふ}えている。",
+      "japanese": "SNS⟦で→で：00502_de⟧⟦{有名人|ゆうめいじん}→有名人：17812_yuumeijin⟧⟦に→に：00314_ni⟧なりすました⟦アカウント→アカウント：05103_akaunto⟧⟦が→が：00051_ga⟧⟦{増|ふ}えている→増える：01183_fueru⟧。",
       "english": "There is an increasing number of accounts impersonating celebrities on social media.",
       "sense_numbers": [
         1
@@ -134,8 +134,31 @@
       "notes": null
     }
   ],
-  "notes": "Literally \"to completely become\" — from なる (to become) + すます (to complete/finish). The word implies deliberately assuming a false identity, not merely acting or role-playing.\n\nUSAGE:\nVery common in news and online contexts. The noun form なりすまし is widely used for identity fraud and fake accounts. Often takes に to mark the person being impersonated.\n\nCOMMON COLLOCATIONS:\n- なりすまし{詐欺|さぎ} — impersonation fraud\n- なりすましアカウント — fake account, impersonation account\n- なりすまし{犯罪|はんざい} — identity crime\n- {本人|ほんにん}になりすます — to pose as the real person\n\nSIMILAR WORDS:\n- {装|よそお}う — to pretend, to feign (broader; can be emotions or appearances, not just identity)\n- {偽|いつわ}る — to deceive, to falsify (more formal; focuses on the dishonesty rather than the disguise)\n- ふりをする — to pretend, to act as if (lighter nuance; can be playful or casual)",
+  "notes": "Literally \"to completely become\" — from なる (to become) + すます (to complete/finish). The word implies deliberately assuming a false identity, not merely acting or role-playing.\n\nUSAGE:\nVery common in news and online contexts. The noun form なりすまし is widely used for identity fraud and fake accounts. Often takes ⟦に→に：00314_ni⟧ to mark the person being impersonated.\n\nCOMMON COLLOCATIONS:\n- なりすまし⟦{詐欺|さぎ}→詐欺：09789_sagi⟧ — impersonation fraud\n- なりすまし⟦アカウント→アカウント：05103_akaunto⟧ — fake account, impersonation account\n- なりすまし⟦{犯罪|はんざい}→犯罪：03569_hanzai⟧ — identity crime\n- ⟦{本人|ほんにん}→本人：03627_honnin⟧⟦に→に：00314_ni⟧なりすます — to pose as the real person\n\nSIMILAR WORDS:\n- ⟦{装|よそお}う→装う：09152_yosoou⟧ — to pretend, to feign (broader; can be emotions or appearances, not just identity)\n- ⟦{偽|いつわ}る→偽る：10882_itsuwaru⟧ — to deceive, to falsify (more formal; focuses on the dishonesty rather than the disguise)\n- ふり⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧ — to pretend, to act as if (lighter nuance; can be playful or casual)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09152_yosoou",
+      "reading": "よそおう",
+      "headword": "{装|よそお}う",
+      "label": "to pretend, to feign (broader"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10882_itsuwaru",
+      "reading": "いつわる",
+      "headword": "{偽|いつわ}る",
+      "label": "to deceive, to falsify (more formal"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25601_sashousuru",
+      "reading": "さしょうする",
+      "headword": "{詐称|さしょう}する",
+      "label": "to misrepresent"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -151,6 +174,6 @@
       "verb_class": "godan-su"
     },
     "created": "2026-03-28T20:07:07Z",
-    "modified": "2026-03-28T20:07:07Z"
+    "modified": "2026-09-02T04:01:59Z"
   }
 }

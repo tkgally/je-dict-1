@@ -3,7 +3,7 @@
   "headword": "{社会復帰|しゃかいふっき}",
   "reading": "しゃかいふっき",
   "romaji": "shakaifukki",
-  "part_of_speech": "noun; noun (する verb)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "return to society; rehabilitation; reintegration",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "20417_shakaifukki_ex1",
-      "japanese": "{社会復帰|しゃかいふっき}を{目指|めざ}している。",
+      "japanese": "{社会復帰|しゃかいふっき}⟦を→を：00422_wo⟧⟦{目指|めざ}している→目指す：10528_mezasu⟧。",
       "english": "I am aiming to return to society.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "20417_shakaifukki_ex2",
-      "japanese": "リハビリを{続|つづ}けて、ようやく{社会復帰|しゃかいふっき}できた。",
+      "japanese": "⟦リハビリ→リハビリ：11192_rihabiri⟧⟦を→を：00422_wo⟧⟦{続|つづ}け→続く：00903_tsuzuku⟧て、ようやく{社会復帰|しゃかいふっき}⟦できた→できる：00557_dekiru⟧。",
       "english": "After continuing rehabilitation, I was finally able to return to society.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "20417_shakaifukki_ex3",
-      "japanese": "{受刑者|じゅけいしゃ}の{社会復帰|しゃかいふっき}を{支援|しえん}するプログラムが{必要|ひつよう}だと{言|い}われている。",
+      "japanese": "{受刑者|じゅけいしゃ}⟦の→の：09472_no⟧{社会復帰|しゃかいふっき}⟦を→を：00422_wo⟧⟦{支援|しえん}する→支援する：25534_shiensuru⟧⟦プログラム→プログラム：01540_puroguramu⟧⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧だ⟦と→と：00512_to⟧⟦{言|い}われている→言う：00515_iu⟧。",
       "english": "It is said that programs to support the reintegration of inmates into society are needed.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {社会|しゃかい} (society) + {復帰|ふっき} (return, reinstatement). A widely used term in medical rehabilitation, criminal justice, and general conversation about people resuming normal life.\n\nCOMMON COLLOCATIONS:\n- {社会復帰|しゃかいふっき}する: to return to society\n- {社会復帰|しゃかいふっき}を{目指|めざ}す: to aim for reintegration into society\n- {社会復帰|しゃかいふっき}を{支援|しえん}する: to support someone's return to society\n- {社会復帰|しゃかいふっき}プログラム: reintegration program\n\nUSAGE:\nUsed for people returning to normal life after: serious illness or injury (especially long hospital stays), mental health issues, substance abuse, imprisonment, or long periods of social withdrawal ({引|ひ}きこもり).\n\nSIMILAR WORDS:\n- {復帰|ふっき}: return, comeback — the more general term for returning to any role or position\n- {更生|こうせい}: rehabilitation, reform — emphasizes moral or behavioral change, especially for offenders\n- {社会参加|しゃかいさんか}: social participation — broader concept of engaging in society",
+  "notes": "Composed of ⟦{社会|しゃかい}→社会：01427_shakai⟧ (society) + ⟦{復帰|ふっき}→復帰：12564_fukki⟧ (return, reinstatement). A widely used term in medical rehabilitation, criminal justice, and general conversation about people resuming normal life.\n\nCOMMON COLLOCATIONS:\n- {社会復帰|しゃかいふっき}⟦する→する：00392_suru⟧: to return to society\n- {社会復帰|しゃかいふっき}⟦を→を：00422_wo⟧⟦{目指|めざ}す→目指す：10528_mezasu⟧: to aim for reintegration into society\n- {社会復帰|しゃかいふっき}⟦を→を：00422_wo⟧⟦{支援|しえん}する→支援する：25534_shiensuru⟧: to support someone's return to society\n- {社会復帰|しゃかいふっき}⟦プログラム→プログラム：01540_puroguramu⟧: reintegration program\n\nUSAGE:\nUsed for people returning to normal life after: serious illness or injury (especially long hospital stays), mental health issues, substance abuse, imprisonment, or long periods of social withdrawal (⟦{引|ひ}きこもり→引きこもり：10491_hikikomori⟧).\n\nSIMILAR WORDS:\n- ⟦{復帰|ふっき}→復帰：12564_fukki⟧: return, comeback — the more general term for returning to any role or position\n- ⟦{更生|こうせい}→更生：18057_kousei⟧: rehabilitation, reform — emphasizes moral or behavioral change, especially for offenders\n- ⟦{社会参加|しゃかいさんか}→社会参加：25435_shakaisanka⟧: social participation — broader concept of engaging in society",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18057_kousei",
+      "reading": "こうせい",
+      "headword": "{更生|こうせい}",
+      "label": "rehabilitation, reform"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25435_shakaisanka",
+      "reading": "しゃかいさんか",
+      "headword": "{社会参加|しゃかいさんか}",
+      "label": "social participation"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,7 +78,7 @@
       "verb_class": "suru"
     },
     "created": "2026-03-29T13:02:56Z",
-    "modified": "2026-07-28T00:51:36Z"
+    "modified": "2026-09-02T04:01:59Z"
   },
   "conjugation": {
     "type": "suru",

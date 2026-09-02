@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "19842_bimi_ex1",
-      "japanese": "{美味|びみ}な{料理|りょうり}を{堪能|たんのう}した。",
+      "japanese": "{美味|びみ}な⟦{料理|りょうり}→料理：01523_ryouri⟧⟦を→を：00422_wo⟧⟦{堪能|たんのう}→堪能：12081_tannou⟧⟦した→する：00392_suru⟧。",
       "english": "I savored the delicious cuisine.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "19842_bimi_ex2",
-      "japanese": "この{地方|ちほう}の{美味|びみ}を{楽|たの}しんでください。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{地方|ちほう}→地方：02369_chihou⟧⟦の→の：09472_no⟧{美味|びみ}⟦を→を：00422_wo⟧⟦{楽|たの}しんで→楽しむ：01203_tanoshimu⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please enjoy the fine flavors of this region.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "19842_bimi_ex3",
-      "japanese": "{旬|しゅん}の{食材|しょくざい}を{使|つか}った{美味|びみ}な{一品|いっぴん}を{提供|ていきょう}しています。",
+      "japanese": "⟦{旬|しゅん}→旬：12716_shun⟧⟦の→の：09472_no⟧⟦{食材|しょくざい}→食材：04940_shokuzai⟧⟦を→を：00422_wo⟧⟦{使|つか}った→使う：00473_tsukau⟧{美味|びみ}な⟦{一品|いっぴん}→一品：08919_ippin⟧⟦を→を：00422_wo⟧⟦{提供|ていきょう}しています→提供する：21736_teikyousuru⟧。",
       "english": "We serve exquisite dishes using seasonal ingredients.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,33 @@
       ]
     }
   ],
-  "notes": "A literary and refined way to say delicious. Used more in writing, menus, and food descriptions than in everyday conversation. Can function as a noun (meaning delicious food/a delicacy) or as a na-adjective.\n\nCOMMON COLLOCATIONS:\n- {美味|びみ}な{料理|りょうり} — delicious cuisine\n- {美味|びみ}を{堪能|たんのう}する — to savor a delicacy\n- {美味|びみ}を{味|あじ}わう — to savor fine food\n- {珍味|ちんみ}{美味|びみ} — rare delicacies\n\nSIMILAR WORDS:\n- おいしい — delicious (everyday, most common)\n- {美味|おい}しい — delicious (same kanji, colloquial reading)\n- {絶品|ぜっぴん} — superb dish, masterpiece (stronger praise)\n- {旨|うま}い — delicious, tasty (informal)\n\nREGISTER:\nMore formal and literary than おいしい. Often seen in restaurant descriptions, food writing, travel brochures, and formal dining contexts.",
-  "cross_references": [],
+  "notes": "A literary and refined way to say delicious. Used more in writing, menus, and food descriptions than in everyday conversation. Can function as a noun (meaning delicious food/a delicacy) or as a na-adjective.\n\nCOMMON COLLOCATIONS:\n- {美味|びみ}な⟦{料理|りょうり}→料理：01523_ryouri⟧ — delicious cuisine\n- {美味|びみ}⟦を→を：00422_wo⟧⟦{堪能|たんのう}→堪能：12081_tannou⟧⟦する→する：00392_suru⟧ — to savor a delicacy\n- {美味|びみ}⟦を→を：00422_wo⟧⟦{味|あじ}わう→味わう：04405_ajiwau⟧ — to savor fine food\n- ⟦{珍味|ちんみ}→珍味：05752_chinmi⟧{美味|びみ} — rare delicacies\n\nSIMILAR WORDS:\n- おいしい — delicious (everyday, most common)\n- {美味|おい}しい — delicious (same kanji, colloquial reading)\n- ⟦{絶品|ぜっぴん}→絶品：13811_zeppin⟧ — superb dish, masterpiece (stronger praise)\n- {旨|うま}い — delicious, tasty (informal)\n\nREGISTER:\nMore formal and literary than おいしい. Often seen in restaurant descriptions, food writing, travel brochures, and formal dining contexts.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00740_oishii",
+      "reading": "おいしい",
+      "headword": "{美味|おい}しい",
+      "label": "delicious"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13811_zeppin",
+      "reading": "ぜっぴん",
+      "headword": "{絶品|ぜっぴん}",
+      "label": "superb dish, masterpiece"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21361_kanro",
+      "reading": "かんろ",
+      "headword": "{甘露|かんろ}",
+      "label": "sweet dew"
+    }
+  ],
   "metadata": {
     "created": "2026-03-27T02:14:21Z",
-    "modified": "2026-07-27T12:42:09Z",
+    "modified": "2026-09-02T04:01:57Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

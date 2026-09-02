@@ -15,40 +15,67 @@
   "examples": [
     {
       "id": "19501_kigengakireru_ex1",
-      "japanese": "パスポートの{期限|きげん}が{切|き}れた。",
+      "japanese": "⟦パスポート→パスポート：00341_pasupooto⟧⟦の→の：09472_no⟧{期限|きげん}が{切|き}れた。",
       "english": "My passport has expired.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19501_kigengakireru_ex2",
-      "japanese": "この{牛乳|ぎゅうにゅう}は{賞味|しょうみ}{期限|きげん}が{切|き}れている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{牛乳|ぎゅうにゅう}→牛乳：00777_gyuunyuu⟧⟦は→は：00079_ha⟧⟦{賞味|しょうみ}{期限|きげん}→賞味期限：06076_shoumikigen⟧⟦が→が：00051_ga⟧⟦{切|き}れている→切れる：01936_kireru⟧。",
       "english": "This milk is past its expiration date.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19501_kigengakireru_ex3",
-      "japanese": "クレジットカードの{有効|ゆうこう}{期限|きげん}が{切|き}れる{前|まえ}に、{新|あたら}しいカードを{申|もう}し{込|こ}まないといけない。",
+      "japanese": "⟦クレジットカード→クレジットカード：06968_kurejittokaado⟧⟦の→の：09472_no⟧{有効|ゆうこう}{期限|きげん}が{切|き}れる⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧、⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦カード→カード：03836_kaado⟧⟦を→を：00422_wo⟧⟦{申|もう}し{込|こ}まない→申し込む：02311_moushikomu⟧⟦と→と：00512_to⟧いけない。",
       "english": "I need to apply for a new card before my credit card expires.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A very common expression combining {期限|きげん} (time limit, deadline) with {切|き}れる (to run out, to be exhausted). Essential for everyday life in Japan, where expiration dates appear on food, medicine, transit passes, and official documents.\n\nUSAGE:\nThe past tense {期限|きげん}が{切|き}れた or the progressive {期限|きげん}が{切|き}れている are the most common forms, indicating something has already expired. The dictionary form is used when talking about future expiration.\n\nCOMMON COLLOCATIONS:\n- {賞味|しょうみ}{期限|きげん}が{切|き}れる — the best-before date expires\n- {消費|しょうひ}{期限|きげん}が{切|き}れる — the use-by date expires\n- {有効|ゆうこう}{期限|きげん}が{切|き}れる — the validity period expires\n- {期限切|きげんぎ}れ — expired (noun/adjective form)\n\nSIMILAR WORDS:\n- {失効|しっこう}する — to become invalid, to lapse; more formal, often used for legal documents\n- {満了|まんりょう}する — to expire (of a contract or term); neutral, planned completion",
+  "notes": "A very common expression combining ⟦{期限|きげん}→期限：12861_kigen⟧ (time limit, deadline) with ⟦{切|き}れる→切れる：01936_kireru⟧ (to run out, to be exhausted). Essential for everyday life in Japan, where expiration dates appear on food, medicine, transit passes, and official documents.\n\nUSAGE:\nThe past tense {期限|きげん}が{切|き}れた or the progressive {期限|きげん}が{切|き}れて⟦いる→いる：00495_iru⟧ are the most common forms, indicating something has already expired. The dictionary form is used when talking about future expiration.\n\nCOMMON COLLOCATIONS:\n- {賞味|しょうみ}{期限|きげん}が{切|き}れる — the best-before date expires\n- {消費|しょうひ}{期限|きげん}が{切|き}れる — the use-by date expires\n- {有効|ゆうこう}{期限|きげん}が{切|き}れる — the validity period expires\n- ⟦{期限切|きげんぎ}れ→期限切れ：15893_kigengire⟧ — expired (noun/adjective form)\n\nSIMILAR WORDS:\n- ⟦{失効|しっこう}→失効：17129_shikkou⟧⟦する→する：00392_suru⟧ — to become invalid, to lapse; more formal, often used for legal documents\n- ⟦{満了|まんりょう}→満了：13357_manryou⟧⟦する→する：00392_suru⟧ — to expire (of a contract or term); neutral, planned completion",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17129_shikkou",
+      "reading": "しっこう",
+      "headword": "{失効|しっこう}",
+      "label": "to become invalid, to lapse"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13357_manryou",
+      "reading": "まんりょう",
+      "headword": "{満了|まんりょう}",
+      "label": "to expire"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["expression"],
+      "pos": [
+        "expression"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["time", "daily-life"]
+      "semantic": [
+        "time",
+        "daily-life"
+      ]
     },
     "created": "2026-03-26T02:41:10Z",
-    "modified": "2026-03-26T02:41:10Z"
+    "modified": "2026-09-02T04:01:56Z"
   }
 }

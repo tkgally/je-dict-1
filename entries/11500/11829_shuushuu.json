@@ -2,7 +2,7 @@
   "id": "11829_shuushuu",
   "headword": "{収集|しゅうしゅう}",
   "reading": "しゅうしゅう",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "collection, gathering",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "11829_shuushuu_ex1",
-      "japanese": "{切手|きって}を{収集|しゅうしゅう}している。",
+      "japanese": "⟦{切手|きって}→切手：00718_kitte⟧⟦を→を：00422_wo⟧{収集|しゅうしゅう}⟦している→する：00392_suru⟧。",
       "english": "I collect stamps.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "11829_shuushuu_ex2",
-      "japanese": "{情報|じょうほう}{収集|しゅうしゅう}に{時間|じかん}がかかった。",
+      "japanese": "⟦{情報|じょうほう}→情報：03348_jouhou⟧{収集|しゅうしゅう}⟦に→に：00314_ni⟧⟦{時間|じかん}→時間：00468_jikan⟧⟦が→が：00051_ga⟧⟦かかった→かかる：00711_kakaru⟧。",
       "english": "It took time to gather information.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "11829_shuushuu_ex3",
-      "japanese": "{市|し}では{毎週|まいしゅう}{火曜日|かようび}にゴミの{収集|しゅうしゅう}が{行|おこな}われている。",
+      "japanese": "⟦{市|し}→市：01599_shi⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{毎週|まいしゅう}→毎週：00730_maishuu⟧⟦{火曜日|かようび}→火曜日：00640_kayoubi⟧⟦に→に：00314_ni⟧⟦ゴミ→ゴミ：00840_gomi⟧⟦の→の：09472_no⟧{収集|しゅうしゅう}⟦が→が：00051_ga⟧⟦{行|おこな}われている→行う：01238_okonau⟧。",
       "english": "The city collects garbage every Tuesday.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,33 @@
       ]
     }
   ],
-  "notes": "A versatile word used across many contexts — from hobby collecting ({切手|きって}{収集|しゅうしゅう}, stamp collecting) to data gathering ({情報|じょうほう}{収集|しゅうしゅう}) to municipal waste collection (ゴミ{収集|しゅうしゅう}). The person who collects as a hobby is called a {収集家|しゅうしゅうか} (collector).\n\nCOMMON COLLOCATIONS:\n・{情報|じょうほう}{収集|しゅうしゅう} — information gathering\n・{資料|しりょう}{収集|しゅうしゅう} — data/material collection\n・ゴミ{収集|しゅうしゅう} — garbage collection\n・{収集家|しゅうしゅうか} — collector (hobbyist)\n・{収集|しゅうしゅう}{癖|へき} — collecting habit, hoarding tendency",
-  "cross_references": [],
+  "notes": "A versatile word used across many contexts — from hobby collecting (⟦{切手|きって}→切手：00718_kitte⟧{収集|しゅうしゅう}, stamp collecting) to data gathering (⟦{情報|じょうほう}→情報：03348_jouhou⟧{収集|しゅうしゅう}) to municipal waste collection (⟦ゴミ→ゴミ：00840_gomi⟧{収集|しゅうしゅう}). The person who collects as a hobby is called a ⟦{収集家|しゅうしゅうか}→収集家：16941_shuushuuka⟧ (collector).\n\nCOMMON COLLOCATIONS:\n- ⟦{情報|じょうほう}→情報：03348_jouhou⟧{収集|しゅうしゅう} — information gathering\n- ⟦{資料|しりょう}→資料：04166_shiryou⟧{収集|しゅうしゅう} — data/material collection\n- ⟦ゴミ→ゴミ：00840_gomi⟧{収集|しゅうしゅう} — garbage collection\n- ⟦{収集家|しゅうしゅうか}→収集家：16941_shuushuuka⟧ — collector (hobbyist)\n- {収集|しゅうしゅう}{癖|へき} — collecting habit, hoarding tendency",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "07327_korekushon",
+      "reading": "これくしょん",
+      "headword": "コレクション",
+      "label": "collection"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12901_saishu",
+      "reading": "さいしゅ",
+      "headword": "{採取|さいしゅ}",
+      "label": "collection, sampling, extraction"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21142_kaishuusuru",
+      "reading": "かいしゅうする",
+      "headword": "{回収|かいしゅう}する",
+      "label": "to collect"
+    }
+  ],
   "metadata": {
     "created": "2026-02-18T12:24:15Z",
-    "modified": "2026-03-29T03:07:35Z",
+    "modified": "2026-09-02T04:01:26Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

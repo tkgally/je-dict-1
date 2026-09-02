@@ -43,10 +43,61 @@
       ]
     }
   ],
-  "notes": "USAGE: {園芸|えんげい} covers both hobby gardening and professional horticulture.\n\nCOMMON COMPOUNDS:\n・{園芸|えんげい}⟦{店|てん}→店：10011_ten⟧ (garden center, nursery)\n・{園芸|えんげい}⟦{用品|ようひん}→用品：13526_youhin⟧ (gardening supplies)\n・{園芸|えんげい}⟦{植物|しょくぶつ}→植物：03248_shokubutsu⟧ (garden plants)\n・{園芸|えんげい}⟦{農家|のうか}→農家：03539_nouka⟧ (horticultural farmer)\n\nACTIVITIES:\n・{園芸|えんげい}⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧ (to do gardening)\n・{園芸|えんげい}⟦に→に：00314_ni⟧⟦{凝|こ}る→凝る：08180_koru⟧ (to be into gardening)\n\nRELATED:\n・⟦ガーデニング→ガーデニング：07816_gaadeningu⟧ - gardening (Western-style, from English)\n・⟦{農業|のうぎょう}→農業：01491_nougyou⟧ - agriculture (larger scale)\n・⟦{造園|ぞうえん}→造園：16707_zouen⟧ - landscaping",
+  "notes": "USAGE: {園芸|えんげい} covers both hobby gardening and professional horticulture.\n\nCOMPOUNDS:\n- {園芸|えんげい}⟦{店|てん}→店：10011_ten⟧ (garden center, nursery)\n- {園芸|えんげい}⟦{用品|ようひん}→用品：13526_youhin⟧ (gardening supplies)\n- {園芸|えんげい}⟦{植物|しょくぶつ}→植物：03248_shokubutsu⟧ (garden plants)\n- {園芸|えんげい}⟦{農家|のうか}→農家：03539_nouka⟧ (horticultural farmer)\n\nACTIVITIES:\n- {園芸|えんげい}⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧ (to do gardening)\n- {園芸|えんげい}⟦に→に：00314_ni⟧⟦{凝|こ}る→凝る：08180_koru⟧ (to be into gardening)\n\nRELATED WORDS:\n- ⟦ガーデニング→ガーデニング：07816_gaadeningu⟧ - gardening (Western-style, from English)\n- ⟦{農業|のうぎょう}→農業：01491_nougyou⟧ - agriculture (larger scale)\n- ⟦{造園|ぞうえん}→造園：16707_zouen⟧ - landscaping",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "07816_gaadeningu",
+      "reading": "がーでにんぐ",
+      "headword": "ガーデニング",
+      "label": "gardening"
+    },
+    {
+      "type": "related",
+      "target_id": "01491_nougyou",
+      "reading": "のうぎょう",
+      "headword": "{農業|のうぎょう}",
+      "label": "agriculture"
+    },
+    {
+      "type": "related",
+      "target_id": "16707_zouen",
+      "reading": "ぞうえん",
+      "headword": "{造園|ぞうえん}",
+      "label": "landscaping"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20710_niwashigoto",
+      "reading": "にわしごと",
+      "headword": "{庭仕事|にわしごと}",
+      "label": "garden work"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22814_niwaijiri",
+      "reading": "にわいじり",
+      "headword": "{庭|にわ}いじり",
+      "label": "puttering in the garden"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23270_suikousaibai",
+      "reading": "すいこうさいばい",
+      "headword": "{水耕栽培|すいこうさいばい}",
+      "label": "hydroponics"
+    },
+    {
+      "type": "related",
+      "target_id": "29583_baiyoudo",
+      "reading": "ばいようど",
+      "headword": "{培養土|ばいようど}",
+      "label": "potting soil"
+    }
+  ],
   "metadata": {
     "created": "2026-01-13T12:42:08Z",
-    "modified": "2026-01-19T12:17:42.753348Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

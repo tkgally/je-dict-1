@@ -9,47 +9,67 @@
     {
       "sense_number": 1,
       "gloss": "four thousand; 4,000",
-      "explanation": "The number 4,000, formed as {四|よん} (four) × {千|せん} (1,000). No sound change occurs, and {よん} is used rather than {し}."
+      "explanation": "The number 4,000, formed as {四|よん} (four) × {千|せん} (1,000). No sound change occurs, and よん is used rather than し."
     }
   ],
   "examples": [
     {
       "id": "30474_yonsen_ex1",
-      "japanese": "{四千|よんせん}{円|えん}です。",
+      "japanese": "{四千|よんせん}⟦{円|えん}→円：00774_en⟧です。",
       "english": "That will be four thousand yen.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "30474_yonsen_ex2",
-      "japanese": "この{町|まち}の{人口|じんこう}は{四千|よんせん}{人|にん}ほどだ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{町|まち}→町：00613_machi⟧⟦の→の：09472_no⟧⟦{人口|じんこう}→人口：01618_jinkou⟧⟦は→は：00079_ha⟧{四千|よんせん}⟦{人|にん}→〜人：00658_nin⟧ほどだ。",
       "english": "This town has a population of about four thousand.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "30474_yonsen_ex3",
-      "japanese": "{山頂|さんちょう}までは{四千|よんせん}{段|だん}の{階段|かいだん}を{上|のぼ}らなければならない。",
+      "japanese": "⟦{山頂|さんちょう}→山頂：09942_sanchou⟧⟦まで→まで：00490_made⟧⟦は→は：00079_ha⟧{四千|よんせん}⟦{段|だん}→段：03424_dan⟧⟦の→の：09472_no⟧⟦{階段|かいだん}→階段：00782_kaidan⟧⟦を→を：00422_wo⟧⟦{上|のぼ}ら→上る：21460_noboru⟧⟦なければならない→なければならない：27600_nakerebanaranai⟧。",
       "english": "To reach the summit you have to climb four thousand steps.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Formed as {四|よん} × {千|せん}. Always {よんせん}, never しせん — {し} is avoided here because it is a homophone of {死|し} (death) and because {よん} is the default counting form before counters.\n\nSOUND CHANGES IN THE THOUSANDS:\n- {三千|さんぜん}: 3,000 — {せん} voices to {ぜん}\n- {八千|はっせん}: 8,000 — {はち} shortens to {はっ}\n- {一千|いっせん}: 1,000 — {いち} shortens to {いっ}\n- {四千|よんせん}, {五千|ごせん}, {六千|ろくせん}, {七千|ななせん}, {九千|きゅうせん}: regular\n\nCOMMON EXPRESSIONS:\n- {四千|よんせん}{円|えん}: four thousand yen\n- {四千|よんせん}{人|にん}: four thousand people\n- {四千|よんせん}メートル{級|きゅう}: in the four-thousand-metre class (of mountains)",
+  "notes": "Formed as ⟦{四|よん}→四：00767_yon⟧ × ⟦{千|せん}→千：00809_sen⟧. Always よんせん, never ⟦しせん→する：00392_suru⟧ — し is avoided here because it is a homophone of ⟦{死|し}→死：13248_shi⟧ (death) and because よん is the default counting form before counters.\n\nSOUND CHANGES IN THE THOUSANDS:\n- ⟦{三千|さんぜん}→三千：00985_sanzen⟧: 3,000 — せん voices to ぜん\n- ⟦{八千|はっせん}→八千：30471_hassen⟧: 8,000 — はち shortens to はっ\n- ⟦{一千|いっせん}→一千：30472_issen⟧: 1,000 — いち shortens to いっ\n- {四千|よんせん}, ⟦{五千|ごせん}→五千：30470_gosen⟧, ⟦{六千|ろくせん}→六千：30475_rokusen⟧, ⟦{七千|ななせん}→七千：30476_nanasen⟧, ⟦{九千|きゅうせん}→九千：30477_kyuusen⟧: regular\n\nCOMMON EXPRESSIONS:\n- {四千|よんせん}⟦{円|えん}→円：00774_en⟧: four thousand yen\n- {四千|よんせん}⟦{人|にん}→〜人：00658_nin⟧: four thousand people\n- {四千|よんせん}⟦メートル→メートル：02975_meetoru⟧⟦{級|きゅう}→級：28171_kyuu⟧: in the four-thousand-metre class (of mountains)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "01009_yonjuu",
+      "reading": "よんじゅう",
+      "headword": "{四十|よんじゅう}",
+      "label": "forty"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["number"],
+      "pos": [
+        "number"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["number", "quantity"],
+      "semantic": [
+        "number",
+        "quantity"
+      ],
       "domain": []
     },
     "created": "2026-08-07T18:18:04Z",
-    "modified": "2026-08-07T18:18:04Z"
+    "modified": "2026-09-02T04:02:40Z"
   }
 }

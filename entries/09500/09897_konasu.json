@@ -2,7 +2,7 @@
   "id": "09897_konasu",
   "headword": "こなす",
   "reading": "こなす",
-  "part_of_speech": "verb-godan",
+  "part_of_speech": "verb (godan)",
   "gloss": "to handle; to manage; to master; to digest",
   "conjugation": {
     "type": "godan",
@@ -109,7 +109,7 @@
   "examples": [
     {
       "id": "09897_konasu_ex1",
-      "japanese": "{彼|かれ}は{仕事|しごと}をうまくこなす。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦を→を：00422_wo⟧⟦うまく→うまい：01279_umai⟧こなす。",
       "english": "He handles his work well.",
       "notes": null,
       "has_audio": false,
@@ -119,7 +119,7 @@
     },
     {
       "id": "09897_konasu_ex2",
-      "japanese": "{大量|たいりょう}の{書類|しょるい}をこなさなければならない。",
+      "japanese": "⟦{大量|たいりょう}→大量：03112_tairyou⟧⟦の→の：09472_no⟧⟦{書類|しょるい}→書類：01103_shorui⟧⟦を→を：00422_wo⟧こなさ⟦なければならない→なければならない：27600_nakerebanaranai⟧。",
       "english": "I have to get through a large amount of paperwork.",
       "notes": null,
       "has_audio": false,
@@ -129,7 +129,7 @@
     },
     {
       "id": "09897_konasu_ex3",
-      "japanese": "{彼女|かのじょ}は{三|さん}か{国|こく}{語|ご}をこなす。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧⟦{三|さん}→三：00749_san⟧か{国|こく}⟦{語|ご}→〜語：09841_go⟧⟦を→を：00422_wo⟧こなす。",
       "english": "She is proficient in three languages.",
       "notes": null,
       "has_audio": false,
@@ -138,8 +138,23 @@
       ]
     }
   ],
-  "notes": "こなす means to handle, manage, or master something.\n\nTRANSITIVITY:\n- Type: Transitive ({他動詞|たどうし})\n- Pattern: Xをこなす\n\nNUANCES:\n- Implies competent handling or skilled management\n- Often suggests dealing with a large volume or difficulty\n- Can imply getting through or completing tasks\n\nCOMMON PATTERNS:\n- {仕事|しごと}をこなす: handle work\n- {量|りょう}をこなす: get through volume\n- {役割|やくわり}をこなす: fulfill a role\n- うまくこなす: handle well\n- {難|むずか}しい{仕事|しごと}をこなす: handle difficult work\n\nWRITING:\n- Usually written in hiragana\n- Can be written as {熟|こな}す (rarely used)\n\nRELATED:\n- {処理|しょり}する: to process, handle\n- {対応|たいおう}する: to deal with\n- {使|つか}いこなす: to master using",
-  "cross_references": [],
+  "notes": "こなす means to handle, manage, or master something.\n\nTRANSITIVITY:\n- Type: Transitive (⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧)\n- Pattern: X⟦を→を：00422_wo⟧こなす\n\nUSAGE:\n- Implies competent handling or skilled management\n- Often suggests dealing with a large volume or difficulty\n- Can imply getting through or completing tasks\n\nCOMMON PATTERNS:\n- ⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦を→を：00422_wo⟧こなす: handle work\n- ⟦{量|りょう}→量：03799_ryou⟧⟦を→を：00422_wo⟧こなす: get through volume\n- ⟦{役割|やくわり}→役割：03638_yakuwari⟧⟦を→を：00422_wo⟧こなす: fulfill a role\n- ⟦うまく→うまい：01279_umai⟧こなす: handle well\n- ⟦{難|むずか}しい→難しい：00517_muzukashii⟧⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦を→を：00422_wo⟧こなす: handle difficult work\n\nWRITING:\n- Usually written in hiragana\n- Can be written as {熟|こな}す (rarely used)\n\nRELATED WORDS:\n- ⟦{処理|しょり}する→処理する：25531_shorisuru⟧: to process, handle\n- ⟦{対応|たいおう}→対応：02510_taiou⟧⟦する→する：00392_suru⟧: to deal with\n- {使|つか}いこなす: to master using",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "25531_shorisuru",
+      "reading": "しょりする",
+      "headword": "{処理|しょり}する",
+      "label": "to process, handle"
+    },
+    {
+      "type": "related",
+      "target_id": "02510_taiou",
+      "reading": "たいおう",
+      "headword": "{対応|たいおう}",
+      "label": "to deal with"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -155,6 +170,6 @@
       "verb_class": "godan-su"
     },
     "created": "2026-02-04T03:55:03Z",
-    "modified": "2026-02-04T03:55:03Z"
+    "modified": "2026-09-02T04:01:19Z"
   }
 }

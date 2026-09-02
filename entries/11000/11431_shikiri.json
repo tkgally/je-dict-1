@@ -20,46 +20,56 @@
   "examples": [
     {
       "id": "11431_shikiri_ex1",
-      "japanese": "{部屋|へや}に{仕切|しき}りを{入|い}れた。",
+      "japanese": "⟦{部屋|へや}→部屋：00507_heya⟧⟦に→に：00314_ni⟧{仕切|しき}り⟦を→を：00422_wo⟧⟦{入|い}れた→入れる：01098_ireru⟧。",
       "english": "I put a partition in the room.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11431_shikiri_ex2",
-      "japanese": "カーテンで{仕切|しき}りを{作|つく}った。",
+      "japanese": "⟦カーテン→カーテン：01342_kaaten⟧⟦で→で：00502_de⟧{仕切|しき}り⟦を→を：00422_wo⟧⟦{作|つく}った→作る：00481_tsukuru⟧。",
       "english": "I made a divider with a curtain.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11431_shikiri_ex3",
-      "japanese": "オフィスの{仕切|しき}りを{外|はず}して、{広|ひろ}い{空間|くうかん}にした。",
+      "japanese": "⟦オフィス→オフィス：00327_ofisu⟧⟦の→の：09472_no⟧{仕切|しき}り⟦を→を：00422_wo⟧⟦{外|はず}して→外す：02394_hazusu⟧、⟦{広|ひろ}い→広い：00704_hiroi⟧⟦{空間|くうかん}→空間：13754_kuukan⟧にした。",
       "english": "We removed the office partitions to create a wide open space.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11431_shikiri_ex4",
-      "japanese": "{彼|かれ}がこの{会議|かいぎ}の{仕切|しき}り{役|やく}だ。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦が→が：00051_ga⟧⟦この→この：00962_kono⟧⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦の→の：09472_no⟧{仕切|しき}り⟦{役|やく}→役：12557_yaku⟧だ。",
       "english": "He is the one running this meeting.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "11431_shikiri_ex5",
-      "japanese": "イベントの{仕切|しき}りがうまい。",
+      "japanese": "⟦イベント→イベント：09594_ibento⟧⟦の→の：09472_no⟧{仕切|しき}り⟦が→が：00051_ga⟧⟦うまい→うまい：01279_umai⟧。",
       "english": "She's good at managing events.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
-  "notes": "{仕切|しき}り has two distinct meanings: a physical partition and the act of managing/running something.\n\nSENSE 1 — PARTITION:\n- {仕切|しき}りを{入|い}れる: to install a partition\n- {仕切|しき}り{壁|かべ}: partition wall\n- {仕切|しき}りを{外|はず}す: to remove a partition\n\nSENSE 2 — MANAGEMENT:\nDerived from the verb {仕切|しき}る (to take charge, to run things).\n- {仕切|しき}り{役|やく}: person in charge, MC, organizer\n- {仕切|しき}りがうまい: good at managing/running things\n\nRELATED:\n- {仕切|しき}り{直|なお}す: to start over, to reset (used for both physical rearrangement and figurative fresh starts)\n- {仕切|しき}り{線|せん}: dividing line",
+  "notes": "{仕切|しき}り has two distinct meanings: a physical partition and the act of managing/running something.\n\nSENSE 1 — PARTITION:\n- {仕切|しき}り⟦を→を：00422_wo⟧⟦{入|い}れる→入れる：01098_ireru⟧: to install a partition\n- {仕切|しき}り⟦{壁|かべ}→壁：01290_kabe⟧: partition wall\n- {仕切|しき}り⟦を→を：00422_wo⟧⟦{外|はず}す→外す：02394_hazusu⟧: to remove a partition\n\nSENSE 2 — MANAGEMENT:\nDerived from the verb ⟦{仕切|しき}る→仕切る：04666_shikiru⟧ (to take charge, to run things).\n- {仕切|しき}り⟦{役|やく}→役：12557_yaku⟧: person in charge, MC, organizer\n- {仕切|しき}り⟦が→が：00051_ga⟧⟦うまい→うまい：01279_umai⟧: good at managing/running things\n\nRELATED WORDS:\n- {仕切|しき}り{直|なお}す: to start over, to reset (used for both physical rearrangement and figurative fresh starts)\n- {仕切|しき}り{線|せん}: dividing line",
   "prominent_see_also": [
     {
       "target_id": "04666_shikiru",
@@ -71,14 +81,19 @@
   "cross_references": [],
   "metadata": {
     "created": "2026-02-16T07:35:11Z",
-    "modified": "2026-08-15T09:21:38Z",
+    "modified": "2026-09-02T04:01:25Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["building", "general"]
+      "semantic": [
+        "building",
+        "general"
+      ]
     }
   }
 }

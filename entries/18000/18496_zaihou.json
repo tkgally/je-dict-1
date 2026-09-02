@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "18496_zaihou_ex1",
-      "japanese": "{海賊|かいぞく}の{財宝|ざいほう}を{探|さが}す。",
+      "japanese": "⟦{海賊|かいぞく}→海賊：13288_kaizoku⟧⟦の→の：09472_no⟧{財宝|ざいほう}⟦を→を：00422_wo⟧⟦{探|さが}す→探す：00493_sagasu⟧。",
       "english": "To search for pirate treasure.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "18496_zaihou_ex2",
-      "japanese": "{古|ふる}い{城|しろ}から{財宝|ざいほう}が{発見|はっけん}された。",
+      "japanese": "⟦{古|ふる}い→古い：00488_furui⟧⟦{城|しろ}→城：03255_shiro⟧⟦から→から：00504_kara⟧{財宝|ざいほう}⟦が→が：00051_ga⟧⟦{発見|はっけん}→発見：00085_hakken⟧⟦された→する：00392_suru⟧。",
       "english": "Treasure was discovered in an old castle.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "18496_zaihou_ex3",
-      "japanese": "{伝説|でんせつ}によると、この{島|しま}のどこかに{莫大|ばくだい}な{財宝|ざいほう}が{埋|う}められているという。",
+      "japanese": "⟦{伝説|でんせつ}→伝説：11446_densetsu⟧⟦によると→〜によると：03104_niyoruto⟧、⟦この→この：00962_kono⟧⟦{島|しま}→島：00885_shima⟧⟦の→の：09472_no⟧⟦どこか→どこか：02361_dokoka⟧⟦に→に：00314_ni⟧⟦{莫大|ばくだい}→莫大：03700_bakudai⟧な{財宝|ざいほう}⟦が→が：00051_ga⟧⟦{埋|う}められている→埋める：01901_umeru⟧⟦という→という：09577_toiu⟧。",
       "english": "According to legend, an enormous treasure is buried somewhere on this island.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {財|ざい} (wealth) + {宝|ほう} (treasure). A somewhat literary word for valuable possessions such as gold, jewels, and precious objects.\n\nCOMMON COLLOCATIONS:\n- {財宝|ざいほう}を{探|さが}す: to search for treasure\n- {埋蔵|まいぞう}{財宝|ざいほう}: buried treasure\n- {財宝|ざいほう}を{発見|はっけん}する: to discover treasure\n- {財宝|ざいほう}を{守|まも}る: to protect treasure\n- {海賊|かいぞく}の{財宝|ざいほう}: pirate treasure\n\nREGISTER:\nUsed in adventure stories, legends, historical contexts, and news about archaeological discoveries. Not commonly used in casual everyday speech.\n\nSIMILAR WORDS:\n- {宝物|たからもの}: treasure, prized possession (everyday word, also used for personal valuables)\n- {宝|たから}: treasure (general, broader use)\n- {財産|ざいさん}: assets, property, fortune (more practical/legal)\n- お{宝|たから}: treasure, valuable find (casual, also used for rare collectibles)",
+  "notes": "Composed of {財|ざい} (wealth) + {宝|ほう} (treasure). A somewhat literary word for valuable possessions such as gold, jewels, and precious objects.\n\nCOMMON COLLOCATIONS:\n- {財宝|ざいほう}⟦を→を：00422_wo⟧⟦{探|さが}す→探す：00493_sagasu⟧: to search for treasure\n- {埋蔵|まいぞう}{財宝|ざいほう}: buried treasure\n- {財宝|ざいほう}⟦を→を：00422_wo⟧⟦{発見|はっけん}する→発見する：26929_hakkensuru⟧: to discover treasure\n- {財宝|ざいほう}⟦を→を：00422_wo⟧⟦{守|まも}る→守る：01986_mamoru⟧: to protect treasure\n- ⟦{海賊|かいぞく}→海賊：13288_kaizoku⟧⟦の→の：09472_no⟧{財宝|ざいほう}: pirate treasure\n\nREGISTER:\nUsed in adventure stories, legends, historical contexts, and news about archaeological discoveries. Not commonly used in casual everyday speech.\n\nSIMILAR WORDS:\n- ⟦{宝物|たからもの}→宝物：12269_takaramono⟧: treasure, prized possession (everyday word, also used for personal valuables)\n- ⟦{宝|たから}→宝：03401_takara⟧: treasure (general, broader use)\n- ⟦{財産|ざいさん}→財産：01635_zaisan⟧: assets, property, fortune (more practical/legal)\n- お⟦{宝|たから}→宝：03401_takara⟧: treasure, valuable find (casual, also used for rare collectibles)",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -59,7 +59,7 @@
       ]
     },
     "created": "2026-03-22T03:13:56Z",
-    "modified": "2026-05-08T10:08:08Z"
+    "modified": "2026-09-02T04:01:52Z"
   },
   "cross_references": [
     {
@@ -75,6 +75,13 @@
       "reading": "ざいさん",
       "headword": "{財産|ざいさん}",
       "label": "assets, property"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13829_hihou",
+      "reading": "ひほう",
+      "headword": "{秘宝|ひほう}",
+      "label": "hidden treasure, secret treasure"
     }
   ]
 }

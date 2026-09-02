@@ -15,41 +15,67 @@
   "examples": [
     {
       "id": "29725_yousui_ex1",
-      "japanese": "{田|た}んぼに{用水|ようすい}を{引|ひ}く。",
+      "japanese": "⟦{田|た}んぼ→田んぼ：00402_tanbo⟧⟦に→に：00314_ni⟧{用水|ようすい}⟦を→を：00422_wo⟧⟦{引|ひ}く→引く：01978_hiku⟧。",
       "english": "Bring irrigation water to the rice paddies.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29725_yousui_ex2",
-      "japanese": "{農業|のうぎょう}{用水|ようすい}が{不足|ふそく}している。",
+      "japanese": "⟦{農業|のうぎょう}→農業：01491_nougyou⟧{用水|ようすい}⟦が→が：00051_ga⟧⟦{不足|ふそく}→不足：03598_fusoku⟧⟦している→する：00392_suru⟧。",
       "english": "Agricultural water is in short supply.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29725_yousui_ex3",
-      "japanese": "この{地域|ちいき}では{昔|むかし}から{用水路|ようすいろ}を{通|とお}して{田|た}に{水|みず}を{引|ひ}いてきた。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{地域|ちいき}→地域：01461_chiiki⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{昔|むかし}→昔：01515_mukashi⟧⟦から→から：00504_kara⟧⟦{用水路|ようすいろ}→用水路：19104_yousuiro⟧⟦を→を：00422_wo⟧⟦{通|とお}して→通す：02300_toosu⟧⟦{田|た}→田：03380_ta⟧⟦に→に：00314_ni⟧⟦{水|みず}→水：02258_mizu⟧⟦を→を：00422_wo⟧⟦{引|ひ}いて→引く：01978_hiku⟧きた。",
       "english": "In this region, water has long been drawn to the paddies through irrigation channels.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Water deliberately drawn and channeled for a set purpose; the purpose is usually shown by a prefix.\n\nCOMMON COMPOUNDS:\n- {農業|のうぎょう}{用水|ようすい}: agricultural (irrigation) water\n- {工業|こうぎょう}{用水|ようすい}: industrial water\n- {用水路|ようすいろ}: irrigation or water-supply channel\n- {防火|ぼうか}{用水|ようすい}: firefighting water reserve",
+  "notes": "Water deliberately drawn and channeled for a set purpose; the purpose is usually shown by a prefix.\n\nCOMPOUNDS:\n- ⟦{農業|のうぎょう}→農業：01491_nougyou⟧{用水|ようすい}: agricultural (irrigation) water\n- {工業|こうぎょう}{用水|ようすい}: industrial water\n- ⟦{用水路|ようすいろ}→用水路：19104_yousuiro⟧: irrigation or water-supply channel\n- ⟦{防火|ぼうか}→防火：21169_bouka⟧{用水|ようすい}: firefighting water reserve",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "06429_kangai",
+      "reading": "かんがい",
+      "headword": "{灌漑|かんがい}",
+      "label": "irrigation"
+    },
+    {
+      "type": "homophone",
+      "target_id": "29738_yousui",
+      "reading": "ようすい",
+      "headword": "{揚水|ようすい}",
+      "label": "pumping water up"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["nature"],
+      "politeness": "plain",
+      "semantic": [
+        "nature"
+      ],
       "domain": []
     },
     "created": "2026-07-09T03:19:05Z",
-    "modified": "2026-07-09T03:19:05Z"
+    "modified": "2026-09-02T04:02:37Z"
   }
 }

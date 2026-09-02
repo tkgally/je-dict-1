@@ -3,7 +3,7 @@
   "headword": "{成功|せいこう}する",
   "reading": "せいこうする",
   "romaji": "seikousuru",
-  "part_of_speech": "verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "to succeed; to be successful",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21445_seikousuru_ex1",
-      "japanese": "{実験|じっけん}が{成功|せいこう}した。",
+      "japanese": "⟦{実験|じっけん}→実験：03273_jikken⟧⟦が→が：00051_ga⟧{成功|せいこう}した。",
       "english": "The experiment succeeded.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21445_seikousuru_ex2",
-      "japanese": "{彼|かれ}は{努力|どりょく}の{末|すえ}に{事業|じぎょう}を{成功|せいこう}させた。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{努力|どりょく}→努力：03490_doryoku⟧⟦の→の：09472_no⟧⟦{末|すえ}→末：03362_sue⟧⟦に→に：00314_ni⟧⟦{事業|じぎょう}→事業：11421_jigyou⟧⟦を→を：00422_wo⟧{成功|せいこう}させた。",
       "english": "He made the business a success after much effort.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21445_seikousuru_ex3",
-      "japanese": "{何度|なんど}も{失敗|しっぱい}を{繰|く}り{返|かえ}したが、{最後|さいご}には{成功|せいこう}して{世界中|せかいじゅう}から{注目|ちゅうもく}を{集|あつ}めた。",
+      "japanese": "⟦{何度|なんど}→何度：17592_nando⟧⟦も→も：00484_mo⟧⟦{失敗|しっぱい}→失敗：01636_shippai⟧⟦を→を：00422_wo⟧⟦{繰|く}り{返|かえ}した→繰り返す：02051_kurikaesu⟧⟦が→が：00051_ga⟧、⟦{最後|さいご}→最後：01413_saigo⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{成功|せいこう}して⟦{世界中|せかいじゅう}→世界中：10171_sekaijuu⟧⟦から→から：00504_kara⟧⟦{注目|ちゅうもく}→注目：03483_chuumoku⟧⟦を→を：00422_wo⟧⟦{集|あつ}めた→集める：01170_atsumeru⟧。",
       "english": "They failed many times, but in the end succeeded and drew attention from around the world.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {成|せい} (to become, to achieve) and {功|こう} (merit, achievement). One of the most fundamental words for expressing success. The noun form {成功|せいこう} is equally common. The causative form {成功|せいこう}させる (to make something succeed) is frequently used.\n\nCOMMON COLLOCATIONS:\n- {大|おお}{成功|せいこう}: great success\n- {成功|せいこう}を{収|おさ}める: to achieve success\n- {成功|せいこう}{体験|たいけん}: experience of success\n- {成功|せいこう}の{秘訣|ひけつ}: the secret to success\n- {成功|せいこう}{率|りつ}: success rate\n\nSIMILAR WORDS:\n- {うまくいく}: to go well — casual, everyday expression for things working out\n- {達成|たっせい}する: to achieve, to accomplish — focuses on reaching a specific goal or target\n- {失敗|しっぱい}する: to fail — the antonym",
+  "notes": "A compound of {成|せい} (to become, to achieve) and {功|こう} (merit, achievement). One of the most fundamental words for expressing success. The noun form ⟦{成功|せいこう}→成功：02638_seikou⟧ is equally common. The causative form {成功|せいこう}させる (to make something succeed) is frequently used.\n\nCOMMON COLLOCATIONS:\n- {大|おお}{成功|せいこう}: great success\n- ⟦{成功|せいこう}→成功：02638_seikou⟧⟦を→を：00422_wo⟧⟦{収|おさ}める→収める：02022_osameru⟧: to achieve success\n- ⟦{成功|せいこう}→成功：02638_seikou⟧⟦{体験|たいけん}→体験：11443_taiken⟧: experience of success\n- ⟦{成功|せいこう}→成功：02638_seikou⟧⟦の→の：09472_no⟧⟦{秘訣|ひけつ}→秘訣：13750_hiketsu⟧: the secret to success\n- ⟦{成功|せいこう}→成功：02638_seikou⟧⟦{率|りつ}→率：03802_ritsu⟧: success rate\n\nSIMILAR WORDS:\n- ⟦うまく→うまい：01279_umai⟧いく: to go well — casual, everyday expression for things working out\n- ⟦{達成|たっせい}する→達成する：22183_tasseisuru⟧: to achieve, to accomplish — focuses on reaching a specific goal or target\n- ⟦{失敗|しっぱい}→失敗：01636_shippai⟧⟦する→する：00392_suru⟧: to fail — the antonym",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21787_umakuiku",
+      "reading": "うまくいく",
+      "headword": "{上手|うま}くいく",
+      "label": "to go well"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22183_tasseisuru",
+      "reading": "たっせいする",
+      "headword": "{達成|たっせい}する",
+      "label": "to achieve, to accomplish"
+    },
+    {
+      "type": "antonym",
+      "target_id": "01636_shippai",
+      "reading": "しっぱい",
+      "headword": "{失敗|しっぱい}",
+      "label": "to fail"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -58,10 +81,11 @@
       "semantic": [
         "abstract"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "both"
     },
     "created": "2026-04-02T03:26:45Z",
-    "modified": "2026-04-02T03:26:45Z"
+    "modified": "2026-09-02T04:02:03Z"
   },
   "conjugation": {
     "type": "suru",

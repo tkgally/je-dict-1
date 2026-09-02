@@ -15,41 +15,66 @@
   "examples": [
     {
       "id": "13175_hyoukou_ex1",
-      "japanese": "{標高|ひょうこう}3,776メートル。",
+      "japanese": "{標高|ひょうこう}3,776⟦メートル→メートル：02975_meetoru⟧。",
       "english": "An elevation of 3,776 meters.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13175_hyoukou_ex2",
-      "japanese": "{富士山|ふじさん}の{標高|ひょうこう}は{日本|にほん}で{一番|いちばん}{高|たか}い。",
+      "japanese": "⟦{富士山|ふじさん}→富士山：09514_fujisan⟧⟦の→の：09472_no⟧{標高|ひょうこう}⟦は→は：00079_ha⟧⟦{日本|にほん}→日本：03876_nihon⟧⟦で→で：00502_de⟧⟦{一番|いちばん}→一番：01140_ichiban⟧⟦{高|たか}い→高い：00500_takai⟧。",
       "english": "The elevation of Mt. Fuji is the highest in Japan.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13175_hyoukou_ex3",
-      "japanese": "{標高|ひょうこう}が{上|あ}がるにつれて{気温|きおん}が{下|さ}がり、{植物|しょくぶつ}の{種類|しゅるい}も{変|か}わっていく。",
+      "japanese": "{標高|ひょうこう}⟦が→が：00051_ga⟧⟦{上|あ}がる→上がる：00615_agaru⟧⟦につれて→につれて：28400_nitsurete⟧⟦{気温|きおん}→気温：00235_kion⟧⟦が→が：00051_ga⟧⟦{下|さ}がり→下がる：01188_sagaru⟧、⟦{植物|しょくぶつ}→植物：03248_shokubutsu⟧⟦の→の：09472_no⟧⟦{種類|しゅるい}→種類：01560_shurui⟧⟦も→も：00484_mo⟧⟦{変|か}わって→変わる：00714_kawaru⟧いく。",
       "english": "As the altitude increases, the temperature drops and the types of plants change.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "ETYMOLOGY:\n{標|ひょう} (mark, indicator) + {高|こう} (height). Literally \"marked height\" — the height as officially measured and recorded.\n\nUSAGE:\n{標高|ひょうこう} specifically means height above sea level ({海抜|かいばつ}). It is the standard term used on maps, signs, and in geographic descriptions. Mountain signs in Japan typically show {標高|ひょうこう} followed by the height in meters.\n\nCOMMON COLLOCATIONS:\n- {標高|ひょうこう}〜メートル: ~ meters in elevation\n- {標高|ひょうこう}が{高|たか}い: high altitude\n- {標高|ひょうこう}が{低|ひく}い: low altitude\n- {標高|ひょうこう}の{高|たか}い{場所|ばしょ}: high-altitude location\n\nSIMILAR WORDS:\n- {海抜|かいばつ}: above sea level (synonym, slightly more technical)\n- {高度|こうど}: altitude (used for aircraft, more general)",
-  "cross_references": [],
+  "notes": "ETYMOLOGY:\n{標|ひょう} (mark, indicator) + ⟦{高|こう}→高〜：03951_kou⟧ (height). Literally \"marked height\" — the height as officially measured and recorded.\n\nUSAGE:\n{標高|ひょうこう} specifically means height above sea level (⟦{海抜|かいばつ}→海抜：19118_kaibatsu⟧). It is the standard term used on maps, signs, and in geographic descriptions. Mountain signs in Japan typically show {標高|ひょうこう} followed by the height in meters.\n\nCOMMON COLLOCATIONS:\n- {標高|ひょうこう}〜⟦メートル→メートル：02975_meetoru⟧: ~ meters in elevation\n- {標高|ひょうこう}⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧: high altitude\n- {標高|ひょうこう}⟦が→が：00051_ga⟧⟦{低|ひく}い→低い：02947_hikui⟧: low altitude\n- {標高|ひょうこう}⟦の→の：09472_no⟧⟦{高|たか}い→高い：00500_takai⟧⟦{場所|ばしょ}→場所：00829_basho⟧: high-altitude location\n\nSIMILAR WORDS:\n- ⟦{海抜|かいばつ}→海抜：19118_kaibatsu⟧: above sea level (synonym, slightly more technical)\n- ⟦{高度|こうど}→高度：00243_koudo⟧: altitude (used for aircraft, more general)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19118_kaibatsu",
+      "reading": "かいばつ",
+      "headword": "{海抜|かいばつ}",
+      "label": "above sea level"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00243_koudo",
+      "reading": "こうど",
+      "headword": "{高度|こうど}",
+      "label": "altitude"
+    }
+  ],
   "metadata": {
     "created": "2026-02-23T12:23:05Z",
-    "modified": "2026-02-23T12:23:05Z",
+    "modified": "2026-09-02T04:01:32Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["geography"]
+      "semantic": [
+        "geography"
+      ]
     }
   }
 }

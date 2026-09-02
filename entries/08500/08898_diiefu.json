@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08898_diiefu_ex1",
-      "japanese": "DFがシュートをブロックした。",
+      "japanese": "DF⟦が→が：00051_ga⟧⟦シュート→シュート：05926_shuuto⟧⟦を→を：00422_wo⟧⟦ブロック→ブロック：05902_burokku⟧⟦した→する：00392_suru⟧。",
       "english": "The defender blocked the shot.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "08898_diiefu_ex2",
-      "japanese": "{彼女|かのじょ}はDFとして{活躍|かつやく}している。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧DF⟦として→として：06802_toshite⟧⟦{活躍|かつやく}している→活躍する：25354_katsuyakusuru⟧。",
       "english": "She is active as a defender.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "08898_diiefu_ex3",
-      "japanese": "DFラインが{崩|くず}れて{失点|しってん}した。",
+      "japanese": "DFライン⟦が→が：00051_ga⟧⟦{崩|くず}れて→崩れる：04248_kuzureru⟧⟦{失点|しってん}→失点：19150_shitten⟧⟦した→する：00392_suru⟧。",
       "english": "The defense line collapsed and we conceded a goal.",
       "notes": null,
       "has_audio": false,
@@ -43,11 +43,26 @@
       ]
     }
   ],
-  "notes": "DF stands for Defender. It is the standard abbreviation for the defensive position in soccer.\n\nCOMMON COLLOCATIONS:\n- DFライン: defense line\n- センターバック (CB): center back\n- サイドバック (SB): side back\n- DF{陣|じん}: defensive line\n\nALTERNATIVE TERMS:\n- ディフェンダー: defender (full word)\n- {守備|しゅび}{陣|じん}: defensive line\n- バック: back\n\nSOCCER POSITIONS:\n- GK: goalkeeper\n- DF: defender\n- MF: midfielder\n- FW: forward",
-  "cross_references": [],
+  "notes": "DF stands for Defender. It is the standard abbreviation for the defensive position in soccer.\n\nCOMMON COLLOCATIONS:\n- DFライン: defense line\n- ⟦センターバック→センターバック：30058_sentaabakku⟧ (CB): center back\n- ⟦サイドバック→サイドバック：30059_saidobakku⟧ (SB): side back\n- DF⟦{陣|じん}→陣：30535_jin⟧: defensive line\n\nALTERNATIVE TERMS:\n- ⟦ディフェンダー→ディフェンダー：06588_difendaa⟧: defender (full word)\n- ⟦{守備|しゅび}→守備：15509_shubi⟧⟦{陣|じん}→陣：30535_jin⟧: defensive line\n- ⟦バック→バック：12378_bakku⟧: back\n\nSOCCER POSITIONS:\n- GK: goalkeeper\n- DF: defender\n- MF: midfielder\n- FW: forward",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06588_difendaa",
+      "reading": "でぃふぇんだー",
+      "headword": "ディフェンダー",
+      "label": "defender"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12378_bakku",
+      "reading": "ばっく",
+      "headword": "バック",
+      "label": "back"
+    }
+  ],
   "metadata": {
     "created": "2026-01-29T02:54:54Z",
-    "modified": "2026-06-23T01:38:10Z",
+    "modified": "2026-09-02T04:01:16Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

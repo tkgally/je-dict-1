@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{製造|せいぞう}⟦する→する：00392_suru⟧ is used as a する-verb meaning \"to manufacture.\"\n\nCOMMON COLLOCATIONS:\n- {製造|せいぞう}⟦{業|ぎょう}→業：noentry⟧ (manufacturing industry)\n- {製造|せいぞう}⟦{年月日|ねんがっぴ}→年月日：25761_nengappi⟧ (date of manufacture)\n- {製造|せいぞう}⟦{元|もと}→元：03878_moto⟧ (manufacturer)\n- {製造|せいぞう}⟦{工程|こうてい}→工程：12415_koutei⟧ (manufacturing process)\n- {製造|せいぞう}⟦{コスト|こすと}→コスト：06666_kosuto⟧ (manufacturing cost)\n- ⟦{国内|こくない}→国内：02998_kokunai⟧{製造|せいぞう} (domestic manufacture)\n\nRELATED:\n- {製造|せいぞう}⟦{物|ぶつ}→物：02259_mono⟧⟦{責任|せきにん}→責任：03298_sekinin⟧⟦{法|ほう}→法：13620_hou⟧ (Product Liability Law, PL⟦{法|ほう}→法：13620_hou⟧)",
+  "notes": "{製造|せいぞう}⟦する→する：00392_suru⟧ is used as a ⟦する→する：00392_suru⟧-verb meaning \"to manufacture.\"\n\nCOMMON COLLOCATIONS:\n- {製造|せいぞう}⟦{業|ぎょう}→業：noentry⟧ (manufacturing industry)\n- {製造|せいぞう}⟦{年月日|ねんがっぴ}→年月日：25761_nengappi⟧ (date of manufacture)\n- {製造|せいぞう}⟦{元|もと}→元：03878_moto⟧ (manufacturer)\n- {製造|せいぞう}⟦{工程|こうてい}→工程：12415_koutei⟧ (manufacturing process)\n- {製造|せいぞう}⟦コスト→コスト：06666_kosuto⟧ (manufacturing cost)\n- ⟦{国内|こくない}→国内：02998_kokunai⟧{製造|せいぞう} (domestic manufacture)\n\nRELATED WORDS:\n- {製造|せいぞう}⟦{物|ぶつ}→物：02259_mono⟧⟦{責任|せきにん}→責任：03298_sekinin⟧⟦{法|ほう}→法：13620_hou⟧ (Product Liability Law, PL⟦{法|ほう}→法：13620_hou⟧)",
   "cross_references": [
     {
       "type": "synonym",
@@ -51,11 +51,46 @@
       "reading": "せいさん",
       "headword": "{生産|せいさん}",
       "label": "production"
+    },
+    {
+      "type": "related",
+      "target_id": "01082_koujou",
+      "reading": "こうじょう",
+      "headword": "{工場|こうじょう}",
+      "label": "factory"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21559_seisei",
+      "reading": "せいせい",
+      "headword": "{精製|せいせい}",
+      "label": "refining"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23244_chuuzou",
+      "reading": "ちゅうぞう",
+      "headword": "{鋳造|ちゅうぞう}",
+      "label": "casting"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25223_kakousuru",
+      "reading": "かこうする",
+      "headword": "{加工|かこう}する",
+      "label": "to process"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25535_seisakusuru",
+      "reading": "せいさくする",
+      "headword": "{制作|せいさく}する",
+      "label": "to produce"
     }
   ],
   "metadata": {
     "created": "2026-01-12T01:11:15Z",
-    "modified": "2026-05-24T20:11:38Z",
+    "modified": "2026-09-02T04:01:03Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

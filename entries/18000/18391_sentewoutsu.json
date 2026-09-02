@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "18391_sentewoutsu_ex1",
-      "japanese": "{先手|せんて}を{打|う}って{交渉|こうしょう}を{始|はじ}めた。",
+      "japanese": "{先手|せんて}を{打|う}って⟦{交渉|こうしょう}→交渉：02727_koushou⟧⟦を→を：00422_wo⟧⟦{始|はじ}めた→始める：00531_hajimeru⟧。",
       "english": "I took the initiative and started negotiations.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "18391_sentewoutsu_ex2",
-      "japanese": "{競合|きょうごう}より{先手|せんて}を{打|う}って{新商品|しんしょうひん}を{発表|はっぴょう}した。",
+      "japanese": "⟦{競合|きょうごう}→競合：05082_kyougou⟧⟦より→より：09476_yori⟧{先手|せんて}を{打|う}って⟦{新商品|しんしょうひん}→新商品：11504_shinshouhin⟧⟦を→を：00422_wo⟧⟦{発表|はっぴょう}した→発表する：25231_happyousuru⟧。",
       "english": "We got ahead of our competitors by announcing the new product first.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "18391_sentewoutsu_ex3",
-      "japanese": "{問題|もんだい}が{大|おお}きくなる{前|まえ}に{先手|せんて}を{打|う}って{対策|たいさく}を{講|こう}じるべきだ。",
+      "japanese": "⟦{問題|もんだい}→問題：00797_mondai⟧⟦が→が：00051_ga⟧⟦{大|おお}きく→大きい：00335_ookii⟧⟦なる→なる：01970_naru⟧⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧{先手|せんて}を{打|う}って⟦{対策|たいさく}→対策：02511_taisaku⟧⟦を→を：00422_wo⟧⟦{講|こう}じる→講じる：27841_koujiru⟧べきだ。",
       "english": "We should take preemptive action and implement countermeasures before the problem grows.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "ORIGIN:\nFrom board game terminology. In shogi and go, {先手|せんて} refers to the player who moves first, which is considered an advantage. {先手|せんて}を{打|う}つ means to secure that first-mover advantage.\n\nCONTRAST:\n- {先手|せんて}を{打|う}つ vs. {後手|ごて}に{回|まわ}る: Opposite expressions. {先手|せんて}を{打|う}つ is proactive; {後手|ごて}に{回|まわ}る is reactive and disadvantageous.\n\nCOMMON COLLOCATIONS:\n- {先手|せんて}を{打|う}って{対応|たいおう}する (to respond proactively)\n- {先手|せんて}を{打|う}って{動|うご}く (to act preemptively)\n\nSIMILAR WORDS:\n- {先|さき}を{越|こ}す: To get ahead of someone — focuses on outpacing rather than strategic positioning.\n- {先制|せんせい}する: To strike first, to preempt — more aggressive, often used in military or sports contexts.",
+  "notes": "ETYMOLOGY:\nFrom board game terminology. In shogi and go, ⟦{先手|せんて}→先手：10556_sente⟧ refers to the player who moves first, which is considered an advantage. {先手|せんて}を{打|う}つ means to secure that first-mover advantage.\n\nSIMILAR WORDS:\n- {先手|せんて}を{打|う}つ vs. ⟦{後手|ごて}に{回|まわ}る→後手に回る：18387_gotenimawaru⟧: Opposite expressions. {先手|せんて}を{打|う}つ is proactive; ⟦{後手|ごて}に{回|まわ}る→後手に回る：18387_gotenimawaru⟧ is reactive and disadvantageous.\n- ⟦{先|さき}を{越|こ}す→先を越す：16921_sakiwokosu⟧: To get ahead of someone — focuses on outpacing rather than strategic positioning.\n- {先制|せんせい}⟦する→する：00392_suru⟧: To strike first, to preempt — more aggressive, often used in military or sports contexts.\n\nCOMMON COLLOCATIONS:\n- {先手|せんて}を{打|う}って⟦{対応|たいおう}→対応：02510_taiou⟧⟦する→する：00392_suru⟧ (to respond proactively)\n- {先手|せんて}を{打|う}って⟦{動|うご}く→動く：00904_ugoku⟧ (to act preemptively)",
   "cross_references": [
     {
       "type": "antonym",
@@ -59,11 +59,25 @@
       "reading": "さきをこす",
       "headword": "{先|さき}を{越|こ}す",
       "label": "get ahead of"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20161_dashinuku",
+      "reading": "だしぬく",
+      "headword": "{出|だ}し{抜|ぬ}く",
+      "label": "to outsmart"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25673_sakimawari",
+      "reading": "さきまわり",
+      "headword": "{先回|さきまわ}り",
+      "label": "going ahead"
     }
   ],
   "metadata": {
     "created": "2026-03-21T10:59:52Z",
-    "modified": "2026-05-08T10:08:08Z",
+    "modified": "2026-09-02T04:01:52Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

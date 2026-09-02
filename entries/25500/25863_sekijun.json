@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25863_sekijun_ex1",
-      "japanese": "{席順|せきじゅん}を{決|き}めてください。",
+      "japanese": "{席順|せきじゅん}⟦を→を：00422_wo⟧⟦{決|き}めて→決める：00858_kimeru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please decide the seating order.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25863_sekijun_ex2",
-      "japanese": "{結婚式|けっこんしき}の{席順|せきじゅん}を{考|かんが}えるのは{大変|たいへん}だ。",
+      "japanese": "⟦{結婚式|けっこんしき}→結婚式：05493_kekkonshiki⟧⟦の→の：09472_no⟧{席順|せきじゅん}⟦を→を：00422_wo⟧⟦{考|かんが}える→考える：00856_kangaeru⟧⟦の→の：09472_no⟧⟦は→は：00079_ha⟧⟦{大変|たいへん}→大変：00594_taihen⟧だ。",
       "english": "Figuring out the seating arrangement for the wedding is tough.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25863_sekijun_ex3",
-      "japanese": "{会議|かいぎ}の{席順|せきじゅん}は{役職|やくしょく}の{順|じゅん}に{並|なら}んでいる。",
+      "japanese": "⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦の→の：09472_no⟧{席順|せきじゅん}⟦は→は：00079_ha⟧⟦{役職|やくしょく}→役職：05514_yakushoku⟧⟦の→の：09472_no⟧⟦{順|じゅん}→順：03342_jun⟧⟦に→に：00314_ni⟧⟦{並|なら}んでいる→並ぶ：00605_narabu⟧。",
       "english": "The seating at the meeting is arranged by job title.",
       "sense_numbers": [
         1
@@ -45,7 +45,7 @@
     },
     {
       "id": "25863_sekijun_ex4",
-      "japanese": "{席順|せきじゅん}を{間違|まちが}えると{失礼|しつれい}になることがあるので{気|き}をつけよう。",
+      "japanese": "{席順|せきじゅん}⟦を→を：00422_wo⟧⟦{間違|まちが}える→間違える：01109_machigaeru⟧⟦と→と：00512_to⟧⟦{失礼|しつれい}→失礼：01247_shitsurei⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧こと⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧⟦の→の：09472_no⟧で⟦{気|き}をつけよう→気をつける：09771_kiwotsukeru⟧。",
       "english": "Getting the seating order wrong can be rude, so let's be careful.",
       "sense_numbers": [
         1
@@ -54,8 +54,37 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {席|せき} (seat) + {順|じゅん} (order). In Japanese business and social culture, seating order carries significant meaning. The most honored seat ({上座|かみざ}) is typically farthest from the door, while the lowest-ranking seat ({下座|しもざ}) is nearest the entrance.\n\nCOMMON COLLOCATIONS:\n- {席順|せきじゅん}を{決|き}める: decide the seating order\n- {席順|せきじゅん}を{考|かんが}える: think about/plan the seating order\n- {席順|せきじゅん}{表|ひょう}: seating chart\n- {席順|せきじゅん}に{座|すわ}る: sit according to the seating order\n\nRELATED CONCEPTS:\n- {上座|かみざ}: seat of honor (far from door)\n- {下座|しもざ}: lower seat (near door)\n- {席替|せきが}え: changing seats (in school classrooms)\n- {座席|ざせき}{指定|してい}: assigned seating",
-  "cross_references": [],
+  "notes": "Composed of ⟦{席|せき}→席：02215_seki⟧ (seat) + ⟦{順|じゅん}→順：03342_jun⟧ (order). In Japanese business and social culture, seating order carries significant meaning. The most honored seat (⟦{上座|かみざ}→上座：11295_kamiza⟧) is typically farthest from the door, while the lowest-ranking seat ({下座|しもざ}) is nearest the entrance.\n\nCOMMON COLLOCATIONS:\n- {席順|せきじゅん}⟦を→を：00422_wo⟧⟦{決|き}める→決める：00858_kimeru⟧: decide the seating order\n- {席順|せきじゅん}⟦を→を：00422_wo⟧⟦{考|かんが}える→考える：00856_kangaeru⟧: think about/plan the seating order\n- {席順|せきじゅん}⟦{表|ひょう}→表：19354_hyou⟧: seating chart\n- {席順|せきじゅん}⟦に→に：00314_ni⟧⟦{座|すわ}る→座る：00757_suwaru⟧: sit according to the seating order\n\nRELATED WORDS:\n- ⟦{上座|かみざ}→上座：11295_kamiza⟧: seat of honor (far from door)\n- {下座|しもざ}: lower seat (near door)\n- ⟦{席替|せきが}え→席替え：29987_sekigae⟧: changing seats (in school classrooms)\n- ⟦{座席|ざせき}{指定|してい}→座席指定：09701_zasekishitei⟧: assigned seating",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "11295_kamiza",
+      "reading": "かみざ",
+      "headword": "{上座|かみざ}",
+      "label": "seat of honor"
+    },
+    {
+      "type": "related",
+      "target_id": "29987_sekigae",
+      "reading": "せきがえ",
+      "headword": "{席替|せきが}え",
+      "label": "changing seats"
+    },
+    {
+      "type": "related",
+      "target_id": "09701_zasekishitei",
+      "reading": "ざせきしてい",
+      "headword": "{座席指定|ざせきしてい}",
+      "label": "assigned seating"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24968_sekiji",
+      "reading": "せきじ",
+      "headword": "{席次|せきじ}",
+      "label": "seating order"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -63,12 +92,13 @@
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "society",
         "business"
       ]
     },
     "created": "2026-04-27T16:21:44Z",
-    "modified": "2026-04-27T16:21:44Z"
+    "modified": "2026-09-02T04:02:24Z"
   }
 }

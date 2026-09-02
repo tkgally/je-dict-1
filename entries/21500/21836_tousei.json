@@ -3,8 +3,38 @@
   "id": "21836_tousei",
   "headword": "{統制|とうせい}",
   "reading": "とうせい",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "control; regulation; coordination",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00178_kanri",
+      "reading": "かんり",
+      "headword": "{管理|かんり}",
+      "label": "management"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02598_kisei",
+      "reading": "きせい",
+      "headword": "{規制|きせい}",
+      "label": "regulation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11816_seigyo",
+      "reading": "せいぎょ",
+      "headword": "{制御|せいぎょ}",
+      "label": "control"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13842_touchi",
+      "reading": "とうち",
+      "headword": "{統治|とうち}",
+      "label": "rule, governance, administration"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -12,16 +42,19 @@
         "noun",
         "verb-suru"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "politics",
         "society"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-04-03T19:21:58Z",
-    "modified": "2026-07-29T12:35:11Z"
+    "modified": "2026-09-02T04:02:05Z"
   },
-  "notes": "Implies centralized or systematic control, often by an authority. Frequently used in political, military, and economic contexts. The word carries connotations of top-down regulation, making it common in discussions of wartime policies and government intervention.\n\nCOMMON COLLOCATIONS:\n- {統制|とうせい}を{取|と}る: to maintain coordination\n- {統制|とうせい}が{取|と}れている: to be well-coordinated\n- {価格|かかく}{統制|とうせい}: price control\n- {統制|とうせい}{経済|けいざい}: controlled economy\n- {品質|ひんしつ}{統制|とうせい}: quality control\n\nSIMILAR WORDS:\n- {管理|かんり}: management — broader, covering day-to-day administration\n- {規制|きせい}: regulation — focuses on rules and restrictions, often legal\n- {制御|せいぎょ}: control — more technical, used for machines and systems",
+  "notes": "Implies centralized or systematic control, often by an authority. Frequently used in political, military, and economic contexts. The word carries connotations of top-down regulation, making it common in discussions of wartime policies and government intervention.\n\nCOMMON COLLOCATIONS:\n- {統制|とうせい}⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧: to maintain coordination\n- {統制|とうせい}⟦が→が：00051_ga⟧⟦{取|と}れている→取れる：02376_toreru⟧: to be well-coordinated\n- ⟦{価格|かかく}→価格：00147_kakaku⟧{統制|とうせい}: price control\n- {統制|とうせい}⟦{経済|けいざい}→経済：01394_keizai⟧: controlled economy\n- ⟦{品質|ひんしつ}→品質：09507_hinshitsu⟧{統制|とうせい}: quality control\n\nSIMILAR WORDS:\n- ⟦{管理|かんり}→管理：00178_kanri⟧: management — broader, covering day-to-day administration\n- ⟦{規制|きせい}→規制：02598_kisei⟧: regulation — focuses on rules and restrictions, often legal\n- ⟦{制御|せいぎょ}→制御：11816_seigyo⟧: control — more technical, used for machines and systems",
   "conjugation": {
     "type": "suru",
     "forms": [
@@ -122,7 +155,7 @@
   "examples": [
     {
       "id": "21836_tousei_ex1",
-      "japanese": "{価格|かかく}を{統制|とうせい}する。",
+      "japanese": "⟦{価格|かかく}→価格：00147_kakaku⟧⟦を→を：00422_wo⟧{統制|とうせい}⟦する→する：00392_suru⟧。",
       "english": "To control prices.",
       "sense_numbers": [
         1
@@ -132,7 +165,7 @@
     },
     {
       "id": "21836_tousei_ex2",
-      "japanese": "{政府|せいふ}が{物資|ぶっし}の{統制|とうせい}を{行|おこな}った。",
+      "japanese": "⟦{政府|せいふ}→政府：03294_seifu⟧⟦が→が：00051_ga⟧⟦{物資|ぶっし}→物資：07863_busshi⟧⟦の→の：09472_no⟧{統制|とうせい}⟦を→を：00422_wo⟧⟦{行|おこな}った→行う：01238_okonau⟧。",
       "english": "The government carried out controls on materials.",
       "sense_numbers": [
         1
@@ -142,7 +175,7 @@
     },
     {
       "id": "21836_tousei_ex3",
-      "japanese": "{戦時中|せんじちゅう}は{食料|しょくりょう}が{統制|とうせい}されていた。",
+      "japanese": "⟦{戦時中|せんじちゅう}→戦時中：28629_senjichuu⟧⟦は→は：00079_ha⟧⟦{食料|しょくりょう}→食料：03250_shokuryou⟧⟦が→が：00051_ga⟧{統制|とうせい}⟦されていた→する：00392_suru⟧。",
       "english": "During wartime, food was under government control.",
       "sense_numbers": [
         1
@@ -152,7 +185,7 @@
     },
     {
       "id": "21836_tousei_ex4",
-      "japanese": "{統制|とうせい}のとれたチームは{強|つよ}い。",
+      "japanese": "{統制|とうせい}⟦の→の：09472_no⟧とれた⟦チーム→チーム：03858_chiimu⟧⟦は→は：00079_ha⟧⟦{強|つよ}い→強い：00820_tsuyoi⟧。",
       "english": "A well-coordinated team is strong.",
       "sense_numbers": [
         1

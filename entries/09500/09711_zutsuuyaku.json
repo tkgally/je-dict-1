@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "09711_zutsuuyaku_ex1",
-      "japanese": "{頭痛薬|ずつうやく}を{飲|の}んだ。",
+      "japanese": "{頭痛薬|ずつうやく}⟦を→を：00422_wo⟧⟦{飲|の}んだ→飲む：00322_nomu⟧。",
       "english": "I took some headache medicine.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "09711_zutsuuyaku_ex2",
-      "japanese": "{頭痛薬|ずつうやく}はどこに{売|う}っていますか。",
+      "japanese": "{頭痛薬|ずつうやく}⟦は→は：00079_ha⟧⟦どこ→どこ：00539_doko⟧⟦に→に：00314_ni⟧⟦{売|う}っています→売る：00906_uru⟧⟦か→か：09473_ka⟧。",
       "english": "Where can I buy headache medicine?",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "09711_zutsuuyaku_ex3",
-      "japanese": "{頭痛|ずつう}がひどいので、{頭痛薬|ずつうやく}をいつも{持|も}ち{歩|ある}いている。",
+      "japanese": "⟦{頭痛|ずつう}→頭痛：03369_zutsuu⟧⟦が→が：00051_ga⟧⟦ひどい→ひどい：01097_hidoi⟧⟦の→の：09472_no⟧で、{頭痛薬|ずつうやく}⟦を→を：00422_wo⟧⟦いつも→いつも：00599_itsumo⟧⟦{持|も}ち{歩|ある}いている→持ち歩く：05739_mochiaruku⟧。",
       "english": "I always carry headache medicine with me because I get bad headaches.",
       "notes": null,
       "has_audio": false,
@@ -43,10 +43,10 @@
       ]
     }
   ],
-  "notes": "Composed of {頭痛|ずつう} (headache) + {薬|やく} (medicine). Available over the counter at {薬局|やっきょく} (pharmacies) and ドラッグストア (drugstores) in Japan.\n\nCOMMON COLLOCATIONS:\n- {頭痛薬|ずつうやく}を{飲|の}む: to take headache medicine\n- {頭痛薬|ずつうやく}を{買|か}う: to buy headache medicine\n- {頭痛薬|ずつうやく}が{効|き}く: the headache medicine works\n\nCOMMON BRANDS IN JAPAN:\n- バファリン (Bufferin)\n- イブ (Eve)\n- ロキソニン (Loxonin)\n\nRELATED TERMS:\n- {頭痛|ずつう}: headache\n- {鎮痛剤|ちんつうざい}: painkiller (broader — any pain)\n- {市販薬|しはんやく}: over-the-counter medicine\n- {処方薬|しょほうやく}: prescription medicine",
+  "notes": "Composed of ⟦{頭痛|ずつう}→頭痛：03369_zutsuu⟧ (headache) + {薬|やく} (medicine). Available over the counter at ⟦{薬局|やっきょく}→薬局：01069_yakkyoku⟧ (pharmacies) and ⟦ドラッグストア→ドラッグストア：09710_doraggusutoa⟧ (drugstores) in Japan.\n\nCOMMON COLLOCATIONS:\n- {頭痛薬|ずつうやく}⟦を→を：00422_wo⟧⟦{飲|の}む→飲む：00322_nomu⟧: to take headache medicine\n- {頭痛薬|ずつうやく}⟦を→を：00422_wo⟧⟦{買|か}う→買う：00489_kau⟧: to buy headache medicine\n- {頭痛薬|ずつうやく}⟦が→が：00051_ga⟧⟦{効|き}く→効く：01932_kiku⟧: the headache medicine works\n\nCOMMON BRANDS IN JAPAN:\n- バファリン (Bufferin)\n- イブ (Eve)\n- ロキソニン (Loxonin)\n\nRELATED WORDS:\n- ⟦{頭痛|ずつう}→頭痛：03369_zutsuu⟧: headache\n- ⟦{鎮痛剤|ちんつうざい}→鎮痛剤：15451_chintsuuzai⟧: painkiller (broader — any pain)\n- ⟦{市販薬|しはんやく}→市販薬：09834_shihanyaku⟧: over-the-counter medicine\n- ⟦{処方薬|しょほうやく}→処方薬：18860_shohouyaku⟧: prescription medicine",
   "metadata": {
     "created": "2026-02-03T06:54:51Z",
-    "modified": "2026-06-24T18:40:49Z",
+    "modified": "2026-09-02T04:01:19Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -74,6 +74,41 @@
       "reading": "かぜぐすり",
       "headword": "{風邪薬|かぜぐすり}",
       "label": "cold medicine"
+    },
+    {
+      "type": "related",
+      "target_id": "15451_chintsuuzai",
+      "reading": "ちんつうざい",
+      "headword": "{鎮痛剤|ちんつうざい}",
+      "label": "painkiller (broader"
+    },
+    {
+      "type": "related",
+      "target_id": "09834_shihanyaku",
+      "reading": "しはんやく",
+      "headword": "{市販薬|しはんやく}",
+      "label": "over-the-counter medicine"
+    },
+    {
+      "type": "related",
+      "target_id": "18860_shohouyaku",
+      "reading": "しょほうやく",
+      "headword": "{処方薬|しょほうやく}",
+      "label": "prescription medicine"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23833_asupirin",
+      "reading": "あすぴりん",
+      "headword": "アスピリン",
+      "label": "aspirin"
+    },
+    {
+      "type": "related",
+      "target_id": "26782_igusuri",
+      "reading": "いぐすり",
+      "headword": "{胃薬|いぐすり}",
+      "label": "stomach medicine"
     }
   ]
 }

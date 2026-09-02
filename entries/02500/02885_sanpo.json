@@ -2,7 +2,7 @@
   "id": "02885_sanpo",
   "headword": "{散歩|さんぽ}",
   "reading": "さんぽ",
-  "part_of_speech": "noun / suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "walk, stroll",
   "conjugation": {
     "type": "suru",
@@ -160,11 +160,60 @@
       "reading": "あるく",
       "headword": "{歩|ある}く",
       "target_id": "00538_aruku"
+    },
+    {
+      "type": "related",
+      "target_id": "05240_wookingu",
+      "reading": "うぉーきんぐ",
+      "headword": "ウォーキング",
+      "label": "walking"
+    },
+    {
+      "type": "related",
+      "target_id": "09037_haikai",
+      "reading": "はいかい",
+      "headword": "{徘徊|はいかい}",
+      "label": "wandering"
+    },
+    {
+      "type": "related",
+      "target_id": "02075_chiru",
+      "reading": "ちる",
+      "headword": "{散|ち}る",
+      "label": "to scatter, to fall (leaves/petals)"
+    },
+    {
+      "type": "related",
+      "target_id": "03869_haikingu",
+      "reading": "はいきんぐ",
+      "headword": "ハイキング",
+      "label": "hiking"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21865_hokou",
+      "reading": "ほこう",
+      "headword": "{歩行|ほこう}",
+      "label": "walking"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24224_manpo",
+      "reading": "まんぽ",
+      "headword": "{漫歩|まんぽ}",
+      "label": "stroll"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25658_yuuho",
+      "reading": "ゆうほ",
+      "headword": "{遊歩|ゆうほ}",
+      "label": "stroll"
     }
   ],
   "metadata": {
     "created": "2026-01-11T09:35:00Z",
-    "modified": "2026-07-30T18:19:44Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

@@ -109,7 +109,7 @@
   "examples": [
     {
       "id": "00526_oshieru_ex1",
-      "japanese": "⟦{田中|たなか}→田中：09528_tanaka⟧⟦{先生|せんせい}→先生：00609_sensei⟧⟦は→は：00079_ha⟧⟦{数学|すうがく}→数学：01442_suugaku⟧⟦を→を：00422_wo⟧{教|おし}えています。",
+      "japanese": "⟦{田中|たなか}→田中：09528_tanaka⟧⟦{先生|せんせい}→先生：00609_sensei⟧⟦は→は：00079_ha⟧⟦{数学|すうがく}→数学：01442_suugaku⟧⟦を→を：00422_wo⟧{教|おし}えて⟦います→いる：00495_iru⟧。",
       "english": "Mr. Tanaka teaches mathematics.",
       "notes": null,
       "has_audio": false,
@@ -189,7 +189,7 @@
     },
     {
       "id": "00526_oshieru_ex9",
-      "japanese": "⟦{大学|だいがく}→大学：00608_daigaku⟧⟦で→で：00502_de⟧⟦{英語|えいご}→英語：02274_eigo⟧⟦を→を：00422_wo⟧{教|おし}えています。",
+      "japanese": "⟦{大学|だいがく}→大学：00608_daigaku⟧⟦で→で：00502_de⟧⟦{英語|えいご}→英語：02274_eigo⟧⟦を→を：00422_wo⟧{教|おし}えて⟦います→いる：00495_iru⟧。",
       "english": "I teach English at a university.",
       "notes": null,
       "has_audio": false,
@@ -218,7 +218,7 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive). No pair verb. Pattern: X⟦に→に：00314_ni⟧Y⟦を→を：00422_wo⟧{教|おし}える (teach Y to X).\n\nASPECT: ている indicates ongoing action or occupation. {教|おし}えている = 'is teaching' or 'teaches (as a profession).'\n\nCOMMON PATTERNS:\n- ⟦{日本語|にほんご}→日本語：00614_nihongo⟧⟦を→を：00422_wo⟧{教|おし}える (teach Japanese)\n- ⟦{学生|がくせい}→学生：00610_gakusei⟧⟦に→に：00314_ni⟧{教|おし}える (teach students)\n- ⟦{道|みち}→道：00505_michi⟧⟦を→を：00422_wo⟧{教|おし}える (tell/show the way)\n- {教|おし}えて⟦ください→ください：02899_kudasai⟧ (please tell me)\n\nCounterpart: ⟦{習|なら}う→習う：00479_narau⟧ (to learn from a teacher).",
+  "notes": "TRANSITIVITY: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive). No pair verb. Pattern: X⟦に→に：00314_ni⟧Y⟦を→を：00422_wo⟧{教|おし}える (teach Y to X).\n\nASPECT: て⟦いる→いる：00495_iru⟧ indicates ongoing action or occupation. {教|おし}えて⟦いる→いる：00495_iru⟧ = 'is teaching' or 'teaches (as a profession).'\n\nCOMMON PATTERNS:\n- ⟦{日本語|にほんご}→日本語：00614_nihongo⟧⟦を→を：00422_wo⟧{教|おし}える (teach Japanese)\n- ⟦{学生|がくせい}→学生：00610_gakusei⟧⟦に→に：00314_ni⟧{教|おし}える (teach students)\n- ⟦{道|みち}→道：00505_michi⟧⟦を→を：00422_wo⟧{教|おし}える (tell/show the way)\n- {教|おし}えて⟦ください→ください：02899_kudasai⟧ (please tell me)\n\nCounterpart: ⟦{習|なら}う→習う：00479_narau⟧ (to learn from a teacher).",
   "cross_references": [
     {
       "type": "contrast",
@@ -226,11 +226,18 @@
       "reading": "ならう",
       "headword": "{習|なら}う",
       "label": "to learn (from teacher)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19335_oshiekomu",
+      "reading": "おしえこむ",
+      "headword": "{教|おし}え{込|こ}む",
+      "label": "to drill into"
     }
   ],
   "metadata": {
     "created": "2026-01-07T12:55:27Z",
-    "modified": "2026-08-15T15:20:47Z",
+    "modified": "2026-09-02T04:00:57Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22534_chuuken_ex1",
-      "japanese": "{忠犬|ちゅうけん}ハチ{公|こう}の{像|ぞう}は{渋谷|しぶや}にある。",
+      "japanese": "{忠犬|ちゅうけん}ハチ{公|こう}⟦の→の：09472_no⟧⟦{像|ぞう}→像：03691_zou⟧⟦は→は：00079_ha⟧⟦{渋谷|しぶや}→渋谷：30632_shibuya⟧⟦に→に：00314_ni⟧⟦ある→ある：00006_aru⟧。",
       "english": "The statue of Hachikō, the faithful dog, is in Shibuya.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22534_chuuken_ex2",
-      "japanese": "あの{犬|いぬ}はまさに{忠犬|ちゅうけん}だ。",
+      "japanese": "⟦あの→あの：00915_ano⟧⟦{犬|いぬ}→犬：00632_inu⟧⟦は→は：00079_ha⟧⟦まさに→まさに：00270_masani⟧{忠犬|ちゅうけん}だ。",
       "english": "That dog is truly a loyal dog.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22534_chuuken_ex3",
-      "japanese": "{忠犬|ちゅうけん}ハチ{公|こう}の{物語|ものがたり}は{海外|かいがい}でも{映画|えいが}になって{知|し}られている。",
+      "japanese": "{忠犬|ちゅうけん}ハチ{公|こう}⟦の→の：09472_no⟧⟦{物語|ものがたり}→物語：03634_monogatari⟧⟦は→は：00079_ha⟧⟦{海外|かいがい}→海外：00134_kaigai⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧⟦{映画|えいが}→映画：02273_eiga⟧になって⟦{知|し}られている→知る：00458_shiru⟧。",
       "english": "The story of Hachikō the loyal dog is known overseas as well, having been made into a movie.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {忠|ちゅう} (loyalty, faithfulness) + {犬|けん} (dog). Almost inseparable from the story of {忠犬|ちゅうけん}ハチ{公|こう} (Hachikō), the Akita dog who continued to wait at Shibuya Station every day for his owner, Professor Ueno, even after the professor died in 1925. A bronze statue of Hachikō at Shibuya Station is one of Tokyo's most famous meeting spots.\n\nCOMMON COLLOCATIONS:\n- {忠犬|ちゅうけん}ハチ{公|こう}: Hachikō, the loyal dog\n- {忠犬|ちゅうけん}ハチ{公|こう}の{像|ぞう}: statue of Hachikō\n- {忠犬|ちゅうけん}ハチ{公|こう}{前|まえ}: in front of the Hachikō statue (common meeting spot)\n\nCULTURAL NOTE:\nThe Hachikō story is one of Japan's most beloved tales of animal loyalty and is taught in schools. The phrase {忠犬|ちゅうけん} is sometimes used figuratively to describe a person who is extremely loyal or devoted.",
+  "notes": "Composed of {忠|ちゅう} (loyalty, faithfulness) + {犬|けん} (dog). Almost inseparable from the story of {忠犬|ちゅうけん}ハチ{公|こう} (Hachikō), the Akita dog who continued to wait at Shibuya Station every day for his owner, Professor Ueno, even after the professor died in 1925. A bronze statue of Hachikō at Shibuya Station is one of Tokyo's most famous meeting spots.\n\nCOMMON COLLOCATIONS:\n- {忠犬|ちゅうけん}ハチ{公|こう}: Hachikō, the loyal dog\n- {忠犬|ちゅうけん}ハチ{公|こう}⟦の→の：09472_no⟧⟦{像|ぞう}→像：03691_zou⟧: statue of Hachikō\n- {忠犬|ちゅうけん}ハチ{公|こう}⟦{前|まえ}→前：02255_mae⟧: in front of the Hachikō statue (common meeting spot)\n\nCULTURAL NOTE:\nThe Hachikō story is one of Japan's most beloved tales of animal loyalty and is taught in schools. The phrase {忠犬|ちゅうけん} is sometimes used figuratively to describe a person who is extremely loyal or devoted.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22378_banken",
+      "reading": "ばんけん",
+      "headword": "{番犬|ばんけん}",
+      "label": "guard dog"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +69,6 @@
       ]
     },
     "created": "2026-04-06T17:27:56Z",
-    "modified": "2026-07-30T15:20:15Z"
+    "modified": "2026-09-02T04:02:08Z"
   }
 }

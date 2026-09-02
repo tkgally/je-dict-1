@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "06174_dankaiteki_ex1",
-      "japanese": "{段階的|だんかいてき}に⟦{導入|どうにゅう}して→導入する：10127_dounyuu⟧⟦いく→行く：00119_iku⟧⟦{予定|よてい}→予定：00824_yotei⟧⟦だ→だ：09496_da⟧。",
+      "japanese": "{段階的|だんかいてき}⟦に→に：00314_ni⟧⟦{導入|どうにゅう}して→導入する：10127_dounyuu⟧⟦いく→行く：00119_iku⟧⟦{予定|よてい}→予定：00824_yotei⟧⟦だ→だ：09496_da⟧。",
       "english": "We plan to introduce it in stages.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "06174_dankaiteki_ex3",
-      "japanese": "⟦{規制|きせい}→規制：02598_kisei⟧⟦を→を：00422_wo⟧{段階的|だんかいてき}に⟦{緩和|かんわ}する→緩和する：13846_kanwa⟧。",
+      "japanese": "⟦{規制|きせい}→規制：02598_kisei⟧⟦を→を：00422_wo⟧{段階的|だんかいてき}⟦に→に：00314_ni⟧⟦{緩和|かんわ}する→緩和する：13846_kanwa⟧。",
       "english": "We will ease regulations step by step.",
       "notes": null,
       "has_audio": false,
@@ -43,18 +43,46 @@
       ]
     }
   ],
-  "notes": "FORMS:\n・Adverbial: {段階的|だんかいてき}に (gradually, in stages)\n・Noun: ⟦{段階|だんかい}→段階：04515_dankai⟧ (stage, phase, step)\n\nCOMMON PATTERNS:\n・{段階的|だんかいてき}に⟦{導入|どうにゅう}→導入：10127_dounyuu⟧⟦する→する：00392_suru⟧ (introduce in phases)\n・{段階的|だんかいてき}な⟦{移行|いこう}→移行：13776_ikou⟧ (gradual transition)\n・{段階的|だんかいてき}に⟦{進|すす}める→進める：01949_susumeru⟧ (proceed step by step)\n\nUSAGE: Often used in business, policy, and technical contexts to describe phased implementation or gradual changes.\n\nSIMILAR WORDS:\n・⟦{徐々|じょじょ}に→徐々に：04131_jojoni⟧: Gradually (emphasizes slowness)\n・{段階的|だんかいてき}に: Step by step (emphasizes distinct stages)",
+  "notes": "FORMS:\n- Adverbial: {段階的|だんかいてき}⟦に→に：00314_ni⟧ (gradually, in stages)\n- Noun: ⟦{段階|だんかい}→段階：04515_dankai⟧ (stage, phase, step)\n\nCOMMON PATTERNS:\n- {段階的|だんかいてき}⟦に→に：00314_ni⟧⟦{導入|どうにゅう}→導入：10127_dounyuu⟧⟦する→する：00392_suru⟧ (introduce in phases)\n- {段階的|だんかいてき}な⟦{移行|いこう}→移行：13776_ikou⟧ (gradual transition)\n- {段階的|だんかいてき}⟦に→に：00314_ni⟧⟦{進|すす}める→進める：01949_susumeru⟧ (proceed step by step)\n\nUSAGE: Often used in business, policy, and technical contexts to describe phased implementation or gradual changes.\n\nSIMILAR WORDS:\n- ⟦{徐々|じょじょ}に→徐々に：04131_jojoni⟧: Gradually (emphasizes slowness)\n- {段階的|だんかいてき}⟦に→に：00314_ni⟧: Step by step (emphasizes distinct stages)",
   "cross_references": [
     {
       "type": "related",
       "reading": "だんかい",
       "headword": "{段階|だんかい}",
       "target_id": "04515_dankai"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04131_jojoni",
+      "reading": "じょじょに",
+      "headword": "{徐々|じょじょ}に",
+      "label": "Gradually"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05531_shidaini",
+      "reading": "しだいに",
+      "headword": "{次第|しだい}に",
+      "label": "gradually"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21964_zenshinteki",
+      "reading": "ぜんしんてき",
+      "headword": "{漸進的|ぜんしんてき}",
+      "label": "gradual"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27381_ruishin",
+      "reading": "るいしん",
+      "headword": "{累進|るいしん}",
+      "label": "graduated, progressive (esp. of taxation, fees, or rates that increase by tier)"
     }
   ],
   "metadata": {
     "created": "2026-01-17T04:29:29Z",
-    "modified": "2026-06-18T12:21:14Z",
+    "modified": "2026-09-02T04:01:08Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

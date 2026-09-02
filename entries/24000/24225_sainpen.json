@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24225_sainpen_ex1",
-      "japanese": "サインペンで{名前|なまえ}を{書|か}く。",
+      "japanese": "サインペン⟦で→で：00502_de⟧⟦{名前|なまえ}→名前：02234_namae⟧⟦を→を：00422_wo⟧⟦{書|か}く→書く：00477_kaku⟧。",
       "english": "Write your name with a felt-tip pen.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24225_sainpen_ex2",
-      "japanese": "{赤|あか}いサインペンで{丸|まる}をつける。",
+      "japanese": "⟦{赤|あか}い→赤い：00585_akai⟧サインペン⟦で→で：00502_de⟧⟦{丸|まる}→丸：02167_maru⟧⟦を→を：00422_wo⟧⟦つける→つける：00562_tsukeru⟧。",
       "english": "Mark it with a circle using a red felt-tip pen.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24225_sainpen_ex3",
-      "japanese": "{子|こ}どもがサインペンで{壁|かべ}に{絵|え}を{描|か}いてしまった。",
+      "japanese": "{子|こ}ども⟦が→が：00051_ga⟧サインペン⟦で→で：00502_de⟧⟦{壁|かべ}→壁：01290_kabe⟧⟦に→に：00314_ni⟧⟦{絵|え}→絵：02613_e⟧⟦を→を：00422_wo⟧⟦{描|か}いて→描く：28436_kaku⟧しまった。",
       "english": "The child drew pictures on the wall with a felt-tip pen.",
       "sense_numbers": [
         1
@@ -44,8 +44,59 @@
       "notes": null
     }
   ],
-  "notes": "A wasei-eigo blend of \"sign\" + \"pen.\" Originally a registered trademark of Pentel Corporation (1963), it became the generic term in Japanese for felt-tip pens.\n\nUSAGE:\nサインペン is the everyday word for a fine- to medium-tip felt pen in Japan. It is distinct from a {油性|ゆせい}マーカー (permanent marker) in that サインペン typically refers to water-based felt-tip pens. The name comes from the pen being marketed as ideal for signing documents.\n\nCOMMON COLLOCATIONS:\n- {水性|すいせい}サインペン: water-based felt-tip pen\n- {油性|ゆせい}サインペン: oil-based felt-tip pen\n- サインペンで{書|か}く: to write with a felt-tip pen\n- {細字|ほそじ}サインペン: fine-point felt-tip pen\n\nSIMILAR WORDS:\n- マーカー: marker — often refers to thicker, bolder markers including highlighters\n- {蛍光|けいこう}ペン: highlighter — a fluorescent marker for highlighting text\n- ボールペン: ballpoint pen — uses a rolling ball mechanism, not a felt tip\n- {万年筆|まんねんひつ}: fountain pen — uses liquid ink with a nib",
+  "notes": "A wasei-eigo blend of \"sign\" + \"pen.\" Originally a registered trademark of Pentel Corporation (1963), it became the generic term in Japanese for felt-tip pens.\n\nUSAGE:\nサインペン is the everyday word for a fine- to medium-tip felt pen in Japan. It is distinct from a ⟦{油性|ゆせい}→油性：24068_yusei⟧⟦マーカー→マーカー：21828_maakaa⟧ (permanent marker) in that サインペン typically refers to water-based felt-tip pens. The name comes from the pen being marketed as ideal for signing documents.\n\nCOMMON COLLOCATIONS:\n- {水性|すいせい}サインペン: water-based felt-tip pen\n- ⟦{油性|ゆせい}→油性：24068_yusei⟧サインペン: oil-based felt-tip pen\n- サインペン⟦で→で：00502_de⟧⟦{書|か}く→書く：00477_kaku⟧: to write with a felt-tip pen\n- {細字|ほそじ}サインペン: fine-point felt-tip pen\n\nSIMILAR WORDS:\n- ⟦マーカー→マーカー：21828_maakaa⟧: marker — often refers to thicker, bolder markers including highlighters\n- ⟦{蛍光|けいこう}ペン→蛍光ペン：07069_keikoupen⟧: highlighter — a fluorescent marker for highlighting text\n- ⟦ボールペン→ボールペン：00691_boorupen⟧: ballpoint pen — uses a rolling ball mechanism, not a felt tip\n- ⟦{万年筆|まんねんひつ}→万年筆：02968_mannenhitsu⟧: fountain pen — uses liquid ink with a nib",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21828_maakaa",
+      "reading": "まーかー",
+      "headword": "マーカー",
+      "label": "marker"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07069_keikoupen",
+      "reading": "けいこうぺん",
+      "headword": "{蛍光|けいこう}ペン",
+      "label": "highlighter"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00691_boorupen",
+      "reading": "ぼーるぺん",
+      "headword": "ボールペン",
+      "label": "ballpoint pen"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02968_mannenhitsu",
+      "reading": "まんねんひつ",
+      "headword": "{万年筆|まんねんひつ}",
+      "label": "fountain pen"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19744_yuseipen",
+      "reading": "ゆせいぺん",
+      "headword": "{油性|ゆせい}ペン",
+      "label": "permanent marker"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25091_suiseipen",
+      "reading": "すいせいぺん",
+      "headword": "{水性|すいせい}ペン",
+      "label": "water-based pen"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27998_fudepen",
+      "reading": "ふでぺん",
+      "headword": "{筆|ふで}ペン",
+      "label": "brush pen"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +110,6 @@
       ]
     },
     "created": "2026-04-18T10:27:05Z",
-    "modified": "2026-08-02T18:32:34Z"
+    "modified": "2026-09-02T04:02:17Z"
   }
 }

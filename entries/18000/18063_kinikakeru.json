@@ -15,41 +15,59 @@
   "examples": [
     {
       "id": "18063_kinikakeru_ex1",
-      "japanese": "{母|はは}はいつも{私|わたし}のことを{気|き}にかけている。",
+      "japanese": "⟦{母|はは}→母：00549_haha⟧⟦は→は：00079_ha⟧⟦いつも→いつも：00599_itsumo⟧⟦{私|わたし}→私：02988_watashi⟧⟦の→の：09472_no⟧こと⟦を→を：00422_wo⟧{気|き}にかけて⟦いる→いる：00495_iru⟧。",
       "english": "My mother is always concerned about me.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18063_kinikakeru_ex2",
-      "japanese": "そんなに{気|き}にかけなくても{大丈夫|だいじょうぶ}ですよ。",
+      "japanese": "⟦そんな→そんな：01645_sonna⟧⟦に→に：00314_ni⟧{気|き}にかけなくて⟦も→も：00484_mo⟧⟦{大丈夫|だいじょうぶ}→大丈夫：00772_daijoubu⟧です⟦よ→よ：09475_yo⟧。",
       "english": "You don't need to worry about it that much.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18063_kinikakeru_ex3",
-      "japanese": "{入院|にゅういん}している{友人|ゆうじん}のことが{気|き}にかかって{仕方|しかた}がない。",
+      "japanese": "⟦{入院|にゅういん}している→入院する：01849_nyuuinsuru⟧⟦{友人|ゆうじん}→友人：03649_yuujin⟧⟦の→の：09472_no⟧こと⟦が→が：00051_ga⟧⟦{気|き}→気：02199_ki⟧⟦に→に：00314_ni⟧⟦かかって→かかる：00711_kakaru⟧⟦{仕方|しかた}→仕方：01603_shikata⟧⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧。",
       "english": "I can't stop worrying about my friend who's in the hospital.",
       "notes": "Uses the intransitive form {気|き}にかかる.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nA warm expression implying genuine care or concern. Often used to describe how someone keeps another person in their thoughts.\n\nRELATED FORMS:\n- {気|き}にかかる (intransitive): to weigh on one's mind, to be worried about\n- {気|き}にする: to mind, to worry about (more neutral, can include self-conscious worry)\n- {気|き}になる: to be curious about; to be concerned about\n\nCOMMON PATTERNS:\n- 〜のことを{気|き}にかける: to be concerned about someone/something\n- いつも{気|き}にかけてくれる: always cares about (me/us)",
-  "cross_references": [],
+  "notes": "USAGE:\nA warm expression implying genuine care or concern. Often used to describe how someone keeps another person in their thoughts.\n\nFORMS:\n- ⟦{気|き}→気：02199_ki⟧⟦に→に：00314_ni⟧⟦かかる→かかる：00711_kakaru⟧ (intransitive): to weigh on one's mind, to be worried about\n- ⟦{気|き}にする→気にする：03026_kinisuru⟧: to mind, to worry about (more neutral, can include self-conscious worry)\n- ⟦{気|き}になる→気になる：03027_kininaru⟧: to be curious about; to be concerned about\n\nCOMMON PATTERNS:\n- 〜⟦の→の：09472_no⟧こと⟦を→を：00422_wo⟧{気|き}にかける: to be concerned about someone/something\n- ⟦いつも→いつも：00599_itsumo⟧{気|き}にかけて⟦くれる→くれる：00724_kureru⟧: always cares about (me/us)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25831_kiwotsukau",
+      "reading": "きをつかう",
+      "headword": "{気|き}を{遣|つか}う",
+      "label": "to be considerate"
+    }
+  ],
   "metadata": {
     "created": "2026-03-20T01:06:45Z",
-    "modified": "2026-03-20T01:06:45Z",
+    "modified": "2026-09-02T04:01:50Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["expression"],
+      "pos": [
+        "expression"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["emotion"]
+      "semantic": [
+        "emotion"
+      ]
     }
   }
 }

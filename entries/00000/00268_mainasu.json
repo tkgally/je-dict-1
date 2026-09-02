@@ -2,7 +2,7 @@
   "id": "00268_mainasu",
   "headword": "マイナス",
   "reading": "まいなす",
-  "part_of_speech": "noun; na-adjective",
+  "part_of_speech": "noun, na-adjective",
   "gloss": "minus; negative",
   "definitions": [
     {
@@ -130,11 +130,32 @@
       "headword": "プラス",
       "label": "plus",
       "target_id": "00346_purasu"
+    },
+    {
+      "type": "related",
+      "target_id": "01011_zero",
+      "reading": "ぜろ",
+      "headword": "ゼロ",
+      "label": "zero"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17542_reika",
+      "reading": "れいか",
+      "headword": "{零下|れいか}",
+      "label": "below zero"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27531_reido",
+      "reading": "れいど",
+      "headword": "{零度|れいど}",
+      "label": "zero degrees"
     }
   ],
   "metadata": {
     "created": "2026-01-13T03:14:22Z",
-    "modified": "2026-05-10T13:22:26Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5-20251101",
     "vocabulary_tier": "general",
     "tags": {

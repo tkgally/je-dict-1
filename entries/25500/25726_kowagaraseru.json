@@ -3,7 +3,7 @@
   "headword": "{怖|こわ}がらせる",
   "reading": "こわがらせる",
   "romaji": "kowagaraseru",
-  "part_of_speech": "verb",
+  "part_of_speech": "verb (ichidan)",
   "gloss": "to frighten; to scare",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25726_kowagaraseru_ex1",
-      "japanese": "{子|こ}どもを{怖|こわ}がらせないで。",
+      "japanese": "{子|こ}ども⟦を→を：00422_wo⟧{怖|こわ}がらせないで。",
       "english": "Don't scare the children.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25726_kowagaraseru_ex2",
-      "japanese": "{暗|くら}い{話|はなし}で{友達|ともだち}を{怖|こわ}がらせた。",
+      "japanese": "⟦{暗|くら}い→暗い：00647_kurai⟧⟦{話|はなし}→話：01496_hanashi⟧⟦で→で：00502_de⟧⟦{友達|ともだち}→友達：01478_tomodachi⟧⟦を→を：00422_wo⟧{怖|こわ}がらせた。",
       "english": "I scared my friend with a dark story.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25726_kowagaraseru_ex3",
-      "japanese": "わざと{大|おお}きな{声|こえ}を{出|だ}して{弟|おとうと}を{怖|こわ}がらせるのはやめなさい。",
+      "japanese": "⟦わざと→わざと：03791_wazato⟧⟦{大|おお}きな→大きな：02849_ookina⟧⟦{声|こえ}→声：02207_koe⟧⟦を→を：00422_wo⟧⟦{出|だ}して→出す：01087_dasu⟧⟦{弟|おとうと}→弟：00572_otouto⟧⟦を→を：00422_wo⟧{怖|こわ}がらせる⟦の→の：09472_no⟧はやめ⟦なさい→なさる：01307_nasaru⟧。",
       "english": "Stop deliberately scaring your little brother by making loud noises.",
       "sense_numbers": [
         1
@@ -44,21 +44,33 @@
       "notes": null
     }
   ],
-  "notes": "A causative form of {怖|こわ}がる (to be scared). While {怖|こわ}がる describes someone feeling fear, {怖|こわ}がらせる means to cause that fear in another person. Often used when describing pranks, intimidation, or unintentional frightening.\n\nCOMMON COLLOCATIONS:\n- {子|こ}どもを{怖|こわ}がらせる: to scare a child\n- {人|ひと}を{怖|こわ}がらせる: to frighten someone\n- わざと{怖|こわ}がらせる: to scare on purpose\n- {脅|おど}して{怖|こわ}がらせる: to threaten and frighten\n\nSIMILAR WORDS:\n- {脅|おど}かす: to startle or threaten — focuses on the sudden, shocking action rather than the resulting fear\n- {怯|おび}えさせる: to terrify — stronger, implies deep or lasting fear\n- {驚|おどろ}かす: to surprise — neutral; not necessarily negative, can be a pleasant surprise",
+  "notes": "A causative form of {怖|こわ}⟦がる→〜がる：03089_garu⟧ (to be scared). While {怖|こわ}⟦がる→〜がる：03089_garu⟧ describes someone feeling fear, {怖|こわ}がらせる means to cause that fear in another person. Often used when describing pranks, intimidation, or unintentional frightening.\n\nCOMMON COLLOCATIONS:\n- {子|こ}ども⟦を→を：00422_wo⟧{怖|こわ}がらせる: to scare a child\n- ⟦{人|ひと}→人：00476_hito⟧⟦を→を：00422_wo⟧{怖|こわ}がらせる: to frighten someone\n- ⟦わざと→わざと：03791_wazato⟧{怖|こわ}がらせる: to scare on purpose\n- ⟦{脅|おど}して→脅す：27206_odosu⟧{怖|こわ}がらせる: to threaten and frighten\n\nSIMILAR WORDS:\n- {脅|おど}かす: to startle or threaten — focuses on the sudden, shocking action rather than the resulting fear\n- ⟦{怯|おび}えさせる→怯える：06037_obieru⟧: to terrify — stronger, implies deep or lasting fear\n- ⟦{驚|おどろ}かす→驚かす：01918_odorokasu⟧: to surprise — neutral; not necessarily negative, can be a pleasant surprise",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01918_odorokasu",
+      "reading": "おどろかす",
+      "headword": "{驚|おどろ}かす",
+      "label": "to surprise"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "verb-ichidan"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "emotion"
       ],
-      "verb_class": "ichidan"
+      "verb_class": "ichidan",
+      "transitivity": "transitive"
     },
     "created": "2026-04-27T11:12:43Z",
-    "modified": "2026-04-27T11:12:43Z"
+    "modified": "2026-09-02T04:02:23Z"
   },
   "conjugation": {
     "type": "ichidan",

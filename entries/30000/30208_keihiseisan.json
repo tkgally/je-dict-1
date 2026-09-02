@@ -4,7 +4,7 @@
   "headword": "経費精算",
   "reading": "けいひせいさん",
   "romaji": "keihiseisan",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "expense reimbursement; settling expense claims",
   "definitions": [
     {
@@ -16,7 +16,7 @@
   "examples": [
     {
       "id": "30208_keihiseisan_ex1",
-      "japanese": "{経費精算|けいひせいさん}を{忘|わす}れていた。",
+      "japanese": "{経費精算|けいひせいさん}⟦を→を：00422_wo⟧⟦{忘|わす}れていた→忘れる：00474_wasureru⟧。",
       "english": "I forgot to file my expense claim.",
       "sense_numbers": [
         1
@@ -26,7 +26,7 @@
     },
     {
       "id": "30208_keihiseisan_ex2",
-      "japanese": "{出張|しゅっちょう}の{領収書|りょうしゅうしょ}をまとめて{経費精算|けいひせいさん}した。",
+      "japanese": "⟦{出張|しゅっちょう}→出張：01094_shucchou⟧⟦の→の：09472_no⟧⟦{領収書|りょうしゅうしょ}→領収書：04697_ryoushuusho⟧⟦を→を：00422_wo⟧⟦まとめて→まとめる：02424_matomeru⟧{経費精算|けいひせいさん}⟦した→する：00392_suru⟧。",
       "english": "I gathered the receipts from my business trip and filed the expense claim.",
       "sense_numbers": [
         1
@@ -36,7 +36,7 @@
     },
     {
       "id": "30208_keihiseisan_ex3",
-      "japanese": "{経費精算|けいひせいさん}の{締|し}め{切|き}りは{毎月|まいつき}{五日|いつか}です。",
+      "japanese": "{経費精算|けいひせいさん}⟦の→の：09472_no⟧⟦{締|し}め{切|き}り→締め切り：04162_shimekiri⟧⟦は→は：00079_ha⟧⟦{毎月|まいつき}→毎月：00732_maitsuki⟧⟦{五日|いつか}→五日：28460_itsuka⟧です。",
       "english": "The deadline for expense claims is the fifth of every month.",
       "sense_numbers": [
         1
@@ -46,7 +46,7 @@
     },
     {
       "id": "30208_keihiseisan_ex4",
-      "japanese": "{紙|かみ}の{申請書|しんせいしょ}をやめてから、{経費精算|けいひせいさん}がずいぶん{楽|らく}になった。",
+      "japanese": "⟦{紙|かみ}→紙：00712_kami⟧⟦の→の：09472_no⟧⟦{申請書|しんせいしょ}→申請書：07486_shinseisho⟧⟦を→を：00422_wo⟧⟦やめて→やめる：00909_yameru⟧⟦から→から：00504_kara⟧、{経費精算|けいひせいさん}⟦が→が：00051_ga⟧ずいぶん⟦{楽|らく}→楽：02169_raku⟧になった。",
       "english": "Since we stopped using paper forms, expense reimbursement has become much easier.",
       "sense_numbers": [
         1
@@ -55,7 +55,7 @@
       "notes": null
     }
   ],
-  "notes": "Formed from {経費|けいひ} (business expenses) + {精算|せいさん} (settling up). Takes する. Note the kanji: {精算|せいさん} means settling an amount exactly, while the homophone {清算|せいさん} means liquidating or winding up.\n\nCOMMON COLLOCATIONS:\n- {経費精算|けいひせいさん}をする: to file an expense claim\n- {経費精算|けいひせいさん}システム: expense reimbursement system\n- {経費|けいひ}で{落|お}とす: to put something on the company's expenses\n\nSIMILAR WORDS:\n- {立替|たてか}え: paying on someone's behalf — the outlay that the reimbursement repays\n- {仮払|かりばら}い: cash advance — money paid out before the expense is incurred\n- {領収書|りょうしゅうしょ}: receipt — the document a claim normally requires",
+  "notes": "Formed from ⟦{経費|けいひ}→経費：04696_keihi⟧ (business expenses) + ⟦{精算|せいさん}→精算：10899_seisan⟧ (settling up). Takes ⟦する→する：00392_suru⟧. Note the kanji: ⟦{精算|せいさん}→精算：10899_seisan⟧ means settling an amount exactly, while the homophone ⟦{清算|せいさん}→清算：17092_seisan⟧ means liquidating or winding up.\n\nCOMMON COLLOCATIONS:\n- {経費精算|けいひせいさん}⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧: to file an expense claim\n- {経費精算|けいひせいさん}システム: expense reimbursement system\n- ⟦{経費|けいひ}→経費：04696_keihi⟧⟦で→で：00502_de⟧⟦{落|お}とす→落とす：01246_otosu⟧: to put something on the company's expenses\n\nSIMILAR WORDS:\n- ⟦{立替|たてか}え→立替え：10197_tatekae⟧: paying on someone's behalf — the outlay that the reimbursement repays\n- ⟦{仮払|かりばら}い→仮払い：30226_karibarai⟧: cash advance — money paid out before the expense is incurred\n- ⟦{領収書|りょうしゅうしょ}→領収書：04697_ryoushuusho⟧: receipt — the document a claim normally requires",
   "cross_references": [
     {
       "type": "related",
@@ -70,6 +70,41 @@
       "headword": "精算",
       "label": "settlement of an amount",
       "target_id": "10899_seisan"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10197_tatekae",
+      "reading": "たてかえ",
+      "headword": "{立替|たてか}え",
+      "label": "paying on someone's behalf"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30226_karibarai",
+      "reading": "かりばらい",
+      "headword": "{仮払|かりばら}い",
+      "label": "cash advance"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04697_ryoushuusho",
+      "reading": "りょうしゅうしょ",
+      "headword": "{領収書|りょうしゅうしょ}",
+      "label": "receipt"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23347_tatekaebarai",
+      "reading": "たてかえばらい",
+      "headword": "{立替|たてか}え{払|ばら}い",
+      "label": "paying on someone's behalf (to be reimbursed later)"
+    },
+    {
+      "type": "related",
+      "target_id": "23618_tatekaekin",
+      "reading": "たてかえきん",
+      "headword": "{立替金|たてかえきん}",
+      "label": "money paid on someone else's behalf"
     }
   ],
   "metadata": {
@@ -80,7 +115,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "work",
         "money"
@@ -91,7 +126,7 @@
       "verb_class": "suru"
     },
     "created": "2026-07-29T03:20:59Z",
-    "modified": "2026-07-29T03:20:59Z"
+    "modified": "2026-09-02T04:02:39Z"
   },
   "conjugation": {
     "type": "suru",

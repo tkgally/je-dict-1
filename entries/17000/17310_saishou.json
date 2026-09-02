@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "17310_saishou_ex1",
-      "japanese": "{最少|さいしょう}の{人数|にんずう}で{対応|たいおう}する。",
+      "japanese": "{最少|さいしょう}⟦の→の：09472_no⟧⟦{人数|にんずう}→人数：03132_ninzuu⟧⟦で→で：00502_de⟧⟦{対応|たいおう}→対応：02510_taiou⟧⟦する→する：00392_suru⟧。",
       "english": "To handle it with the fewest number of people.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "17310_saishou_ex2",
-      "japanese": "{参加者|さんかしゃ}は{過去|かこ}{最少|さいしょう}だった。",
+      "japanese": "⟦{参加者|さんかしゃ}→参加者：03059_sankasha⟧⟦は→は：00079_ha⟧⟦{過去|かこ}→過去：00152_kako⟧{最少|さいしょう}だった。",
       "english": "The number of participants was the lowest on record.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "17310_saishou_ex3",
-      "japanese": "{被害|ひがい}を{最少|さいしょう}に{抑|おさ}えるために、{早|はや}めに{避難|ひなん}してください。",
+      "japanese": "⟦{被害|ひがい}→被害：02572_higai⟧⟦を→を：00422_wo⟧{最少|さいしょう}⟦に→に：00314_ni⟧⟦{抑|おさ}える→抑える：12806_osaeru⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧、⟦{早|はや}め→早め：11176_hayame⟧⟦に→に：00314_ni⟧⟦{避難|ひなん}して→避難する：26827_hinansuru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please evacuate early in order to minimize the damage.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{最少|さいしょう} refers to the fewest in number or quantity, while {最小|さいしょう} refers to the smallest in physical size or scale. Both are read さいしょう but use different kanji: {少|しょう} (few) versus {小|しょう} (small).\n\nCOMMON COLLOCATIONS:\n- {最少|さいしょう}{人数|にんずう} (minimum number of people)\n- {過去|かこ}{最少|さいしょう} (historic low / fewest ever)\n- {最少|さいしょう}に{抑|おさ}える (to minimize, to keep to a minimum)\n\nSIMILAR WORDS:\n- {最小|さいしょう}: the smallest — refers to physical size or scale, not count\n- {最低|さいてい}: the lowest — refers to the lowest value, grade, or standard",
+  "notes": "USAGE:\n{最少|さいしょう} refers to the fewest in number or quantity, while ⟦{最小|さいしょう}→最小：04828_saishou⟧ refers to the smallest in physical size or scale. Both are read さいしょう but use different kanji: {少|しょう} (few) versus {小|しょう} (small).\n\nCOMMON COLLOCATIONS:\n- {最少|さいしょう}⟦{人数|にんずう}→人数：03132_ninzuu⟧ (minimum number of people)\n- ⟦{過去|かこ}→過去：00152_kako⟧{最少|さいしょう} (historic low / fewest ever)\n- {最少|さいしょう}⟦に→に：00314_ni⟧⟦{抑|おさ}える→抑える：12806_osaeru⟧ (to minimize, to keep to a minimum)\n\nSIMILAR WORDS:\n- ⟦{最小|さいしょう}→最小：04828_saishou⟧: the smallest — refers to physical size or scale, not count\n- ⟦{最低|さいてい}→最低：01412_saitei⟧: the lowest — refers to the lowest value, grade, or standard",
   "cross_references": [
     {
       "type": "contrast",
@@ -52,11 +52,25 @@
       "headword": "{最小|さいしょう}",
       "label": "smallest in size",
       "target_id": "04828_saishou"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01412_saitei",
+      "reading": "さいてい",
+      "headword": "{最低|さいてい}",
+      "label": "the lowest"
+    },
+    {
+      "type": "antonym",
+      "target_id": "28216_saita",
+      "reading": "さいた",
+      "headword": "{最多|さいた}",
+      "label": "the most"
     }
   ],
   "metadata": {
     "created": "2026-03-17T05:57:10Z",
-    "modified": "2026-03-29T10:42:23Z",
+    "modified": "2026-09-02T04:01:48Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

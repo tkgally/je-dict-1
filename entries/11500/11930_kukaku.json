@@ -2,7 +2,7 @@
   "id": "11930_kukaku",
   "headword": "{区画|くかく}",
   "reading": "くかく",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "block, section, lot, partition",
   "conjugation": {
     "type": "suru",
@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "11930_kukaku_ex1",
-      "japanese": "{駐車場|ちゅうしゃじょう}の{区画|くかく}に{車|くるま}を{停|と}めた。",
+      "japanese": "⟦{駐車場|ちゅうしゃじょう}→駐車場：01667_chuushajou⟧⟦の→の：09472_no⟧{区画|くかく}⟦に→に：00314_ni⟧⟦{車|くるま}→車：00516_kuruma⟧⟦を→を：00422_wo⟧{停|と}めた。",
       "english": "I parked my car in a parking space.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "11930_kukaku_ex2",
-      "japanese": "{住宅地|じゅうたくち}が{整然|せいぜん}と{区画|くかく}されている。",
+      "japanese": "⟦{住宅地|じゅうたくち}→住宅地：10158_juutakuchi⟧⟦が→が：00051_ga⟧⟦{整然|せいぜん}→整然：09210_seizen⟧⟦と→と：00512_to⟧{区画|くかく}⟦されている→する：00392_suru⟧。",
       "english": "The residential area is neatly divided into lots.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "11930_kukaku_ex3",
-      "japanese": "{再開発|さいかいはつ}で{区画|くかく}{整理|せいり}が{行|おこな}われ、{道|みち}が{広|ひろ}くなった。",
+      "japanese": "⟦{再開発|さいかいはつ}→再開発：17066_saikaihatsu⟧⟦で→で：00502_de⟧{区画|くかく}⟦{整理|せいり}→整理：03297_seiri⟧⟦が→が：00051_ga⟧⟦{行|おこな}われ→行う：01238_okonau⟧、⟦{道|みち}→道：00505_michi⟧⟦が→が：00051_ga⟧⟦{広|ひろ}く→広い：00704_hiroi⟧⟦なった→なる：01970_naru⟧。",
       "english": "Through redevelopment and land readjustment, the roads became wider.",
       "notes": null,
       "has_audio": false,
@@ -133,11 +133,33 @@
       ]
     }
   ],
-  "notes": "A divided section or lot of land, space, or area. Also used as a する verb meaning to partition or divide into sections.\n\nCOMMON COLLOCATIONS:\n- {区画|くかく}{整理|せいり}: land readjustment (urban planning term)\n- {駐車|ちゅうしゃ}{区画|くかく}: parking space/bay\n- {区画|くかく}を{分|わ}ける: to divide into sections\n- {区画|くかく}する: to partition, to section off\n- {区画|くかく}{番号|ばんごう}: lot/section number\n\nUSAGE:\nMost commonly encountered in urban planning, real estate, and parking contexts. Each distinct section is one {区画|くかく}.\n\nSIMILAR WORDS:\n- {区域|くいき}: area, zone (broader, defined by boundaries)\n- {区分|くぶん}: classification, division (more abstract)\n- {敷地|しきち}: premises, site (a specific piece of land)",
-  "cross_references": [],
+  "notes": "A divided section or lot of land, space, or area. Also used as a ⟦する→する：00392_suru⟧ verb meaning to partition or divide into sections.\n\nCOMMON COLLOCATIONS:\n- {区画|くかく}⟦{整理|せいり}→整理：03297_seiri⟧: land readjustment (urban planning term)\n- {駐車|ちゅうしゃ}{区画|くかく}: parking space/bay\n- {区画|くかく}⟦を→を：00422_wo⟧⟦{分|わ}ける→分ける：02333_wakeru⟧: to divide into sections\n- {区画|くかく}⟦する→する：00392_suru⟧: to partition, to section off\n- {区画|くかく}⟦{番号|ばんごう}→番号：02939_bangou⟧: lot/section number\n\nUSAGE:\nMost commonly encountered in urban planning, real estate, and parking contexts. Each distinct section is one {区画|くかく}.\n\nSIMILAR WORDS:\n- ⟦{区域|くいき}→区域：00251_kuiki⟧: area, zone (broader, defined by boundaries)\n- ⟦{区分|くぶん}→区分：00248_kubun⟧: classification, division (more abstract)\n- ⟦{敷地|しきち}→敷地：00365_shikichi⟧: premises, site (a specific piece of land)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00251_kuiki",
+      "reading": "くいき",
+      "headword": "{区域|くいき}",
+      "label": "area, zone"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00248_kubun",
+      "reading": "くぶん",
+      "headword": "{区分|くぶん}",
+      "label": "classification, division"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00365_shikichi",
+      "reading": "しきち",
+      "headword": "{敷地|しきち}",
+      "label": "premises, site"
+    }
+  ],
   "metadata": {
     "created": "2026-02-18T14:20:10Z",
-    "modified": "2026-03-29T03:07:35Z",
+    "modified": "2026-09-02T04:01:27Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",

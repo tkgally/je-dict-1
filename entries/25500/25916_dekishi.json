@@ -3,7 +3,7 @@
   "headword": "{溺死|できし}",
   "reading": "できし",
   "romaji": "dekishi",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "death by drowning; drowning",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25916_dekishi_ex1",
-      "japanese": "{溺死|できし}{事故|じこ}が{報告|ほうこく}された。",
+      "japanese": "{溺死|できし}⟦{事故|じこ}→事故：00851_jiko⟧⟦が→が：00051_ga⟧⟦{報告|ほうこく}→報告：03618_houkoku⟧⟦された→する：00392_suru⟧。",
       "english": "A drowning accident was reported.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25916_dekishi_ex2",
-      "japanese": "{被害者|ひがいしゃ}の{死因|しいん}は{溺死|できし}と{判定|はんてい}された。",
+      "japanese": "⟦{被害者|ひがいしゃ}→被害者：14106_higaisha⟧⟦の→の：09472_no⟧⟦{死因|しいん}→死因：13224_shiin⟧⟦は→は：00079_ha⟧{溺死|できし}⟦と→と：00512_to⟧⟦{判定|はんてい}→判定：09767_hantei⟧⟦された→する：00392_suru⟧。",
       "english": "The victim's cause of death was determined to be drowning.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25916_dekishi_ex3",
-      "japanese": "{子供|こども}の{溺死|できし}を{防|ふせ}ぐために、プールでは{必|かなら}ず{監視員|かんしいん}が{配置|はいち}されている。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧⟦の→の：09472_no⟧{溺死|できし}⟦を→を：00422_wo⟧⟦{防|ふせ}ぐ→防ぐ：02409_fusegu⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧、⟦プール→プール：02958_puuru⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{必|かなら}ず→必ず：01249_kanarazu⟧{監視員|かんしいん}⟦が→が：00051_ga⟧⟦{配置|はいち}→配置：14409_haichi⟧⟦されている→する：00392_suru⟧。",
       "english": "To prevent children from drowning, lifeguards are always stationed at the pool.",
       "sense_numbers": [
         1
@@ -44,8 +44,16 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {溺|でき} (drowning) + {死|し} (death). A formal, clinical term used in news reports, medical contexts, and legal proceedings. The everyday way to express the concept is {溺|おぼ}れて{死|し}ぬ.\n\nCOMMON COLLOCATIONS:\n- {溺死|できし}{事故|じこ}: drowning accident\n- {溺死|できし}{体|たい}: drowned body\n- {溺死|できし}する: to drown (to death)\n- {溺死|できし}を{防|ふせ}ぐ: to prevent drowning\n\nSIMILAR WORDS:\n- {溺|おぼ}れる: to drown; to nearly drown — the general verb, doesn't necessarily imply death\n- {水死|すいし}: death by drowning — a synonym; slightly less formal\n- {入水|じゅすい}: drowning oneself — specifically suicide by entering water",
-  "cross_references": [],
+  "notes": "Composed of {溺|でき} (drowning) + ⟦{死|し}→死：13248_shi⟧ (death). A formal, clinical term used in news reports, medical contexts, and legal proceedings. The everyday way to express the concept is ⟦{溺|おぼ}れて→溺れる：02026_oboreru⟧⟦{死|し}ぬ→死ぬ：00669_shinu⟧.\n\nCOMMON COLLOCATIONS:\n- {溺死|できし}⟦{事故|じこ}→事故：00851_jiko⟧: drowning accident\n- {溺死|できし}⟦{体|たい}→体：09872_tai⟧: drowned body\n- {溺死|できし}⟦する→する：00392_suru⟧: to drown (to death)\n- {溺死|できし}⟦を→を：00422_wo⟧⟦{防|ふせ}ぐ→防ぐ：02409_fusegu⟧: to prevent drowning\n\nSIMILAR WORDS:\n- ⟦{溺|おぼ}れる→溺れる：02026_oboreru⟧: to drown; to nearly drown — the general verb, doesn't necessarily imply death\n- {水死|すいし}: death by drowning — a synonym; slightly less formal\n- {入水|じゅすい}: drowning oneself — specifically suicide by entering water",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02026_oboreru",
+      "reading": "おぼれる",
+      "headword": "{溺|おぼ}れる",
+      "label": "to drown"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -54,13 +62,14 @@
         "noun",
         "verb-suru"
       ],
+      "politeness": "plain",
       "semantic": [
         "health"
       ],
       "verb_class": "suru"
     },
     "created": "2026-04-28T12:23:36Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T04:02:24Z"
   },
   "conjugation": {
     "type": "suru",

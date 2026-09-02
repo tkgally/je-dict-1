@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "19576_mankitsu_ex1",
-      "japanese": "{休日|きゅうじつ}を{満喫|まんきつ}した。",
+      "japanese": "⟦{休日|きゅうじつ}→休日：03028_kyuujitsu⟧⟦を→を：00422_wo⟧{満喫|まんきつ}⟦した→する：00392_suru⟧。",
       "english": "I thoroughly enjoyed my day off.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "19576_mankitsu_ex2",
-      "japanese": "{温泉|おんせん}を{満喫|まんきつ}してリフレッシュした。",
+      "japanese": "⟦{温泉|おんせん}→温泉：04117_onsen⟧⟦を→を：00422_wo⟧{満喫|まんきつ}⟦して→する：00392_suru⟧⟦リフレッシュ→リフレッシュ：11261_rifuresshu⟧⟦した→する：00392_suru⟧。",
       "english": "I refreshed myself by fully enjoying the hot springs.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "19576_mankitsu_ex3",
-      "japanese": "{旅行先|りょこうさき}で{地元|じもと}の{料理|りょうり}を{満喫|まんきつ}することができた。",
+      "japanese": "⟦{旅行先|りょこうさき}→旅行先：28195_ryokousaki⟧⟦で→で：00502_de⟧⟦{地元|じもと}→地元：09941_jimoto⟧⟦の→の：09472_no⟧⟦{料理|りょうり}→料理：01523_ryouri⟧⟦を→を：00422_wo⟧{満喫|まんきつ}⟦する→する：00392_suru⟧こと⟦が→が：00051_ga⟧⟦できた→できる：00557_dekiru⟧。",
       "english": "I was able to relish the local cuisine at my travel destination.",
       "sense_numbers": [
         1
@@ -134,7 +134,7 @@
       "notes": null
     }
   ],
-  "notes": "A する noun meaning to enjoy something to the fullest extent. Composed of {満|まん} (full) and {喫|きつ} (to receive, to consume). Conveys deep, complete satisfaction rather than casual enjoyment.\n\nCOMMON COLLOCATIONS:\n- {休日|きゅうじつ}を{満喫|まんきつ}する — to fully enjoy a holiday\n- {自然|しぜん}を{満喫|まんきつ}する — to savor nature\n- {旅|たび}を{満喫|まんきつ}する — to relish a trip\n- {人生|じんせい}を{満喫|まんきつ}する — to enjoy life to the fullest\n\nSIMILAR WORDS:\n- {楽|たの}しむ — to enjoy; more general and everyday, while {満喫|まんきつ} emphasizes completeness and deep satisfaction\n- {堪能|たんのう} — to enjoy fully; very close in meaning but {堪能|たんのう} also means \"proficient\" and has a slightly more literary feel",
+  "notes": "A ⟦する→する：00392_suru⟧ noun meaning to enjoy something to the fullest extent. Composed of {満|まん} (full) and {喫|きつ} (to receive, to consume). Conveys deep, complete satisfaction rather than casual enjoyment.\n\nCOMMON COLLOCATIONS:\n- ⟦{休日|きゅうじつ}→休日：03028_kyuujitsu⟧⟦を→を：00422_wo⟧{満喫|まんきつ}⟦する→する：00392_suru⟧ — to fully enjoy a holiday\n- ⟦{自然|しぜん}→自然：01423_shizen⟧⟦を→を：00422_wo⟧{満喫|まんきつ}⟦する→する：00392_suru⟧ — to savor nature\n- ⟦{旅|たび}→旅：03407_tabi⟧⟦を→を：00422_wo⟧{満喫|まんきつ}⟦する→する：00392_suru⟧ — to relish a trip\n- ⟦{人生|じんせい}→人生：03355_jinsei⟧⟦を→を：00422_wo⟧{満喫|まんきつ}⟦する→する：00392_suru⟧ — to enjoy life to the fullest\n\nSIMILAR WORDS:\n- ⟦{楽|たの}しむ→楽しむ：01203_tanoshimu⟧ — to enjoy; more general and everyday, while {満喫|まんきつ} emphasizes completeness and deep satisfaction\n- ⟦{堪能|たんのう}→堪能：12081_tannou⟧ — to enjoy fully; very close in meaning but ⟦{堪能|たんのう}→堪能：12081_tannou⟧ also means \"proficient\" and has a slightly more literary feel",
   "cross_references": [
     {
       "type": "synonym",
@@ -142,6 +142,13 @@
       "reading": "たんのう",
       "headword": "{堪能|たんのう}",
       "label": "enjoy fully (also: proficient)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01203_tanoshimu",
+      "reading": "たのしむ",
+      "headword": "{楽|たの}しむ",
+      "label": "to enjoy"
     }
   ],
   "schema_version": "2.0",
@@ -158,9 +165,10 @@
         "emotion",
         "leisure"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-03-26T07:21:07Z",
-    "modified": "2026-07-26T21:31:07Z"
+    "modified": "2026-09-02T04:01:56Z"
   }
 }

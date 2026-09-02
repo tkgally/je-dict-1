@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "07480_shirataki_ex1",
-      "japanese": "すき{焼|や}きにしらたきを{入|い}れる。",
+      "japanese": "⟦すき{焼|や}き→すき焼き：10368_sukiyaki⟧⟦に→に：00314_ni⟧しらたき⟦を→を：00422_wo⟧⟦{入|い}れる→入れる：01098_ireru⟧。",
       "english": "Add shirataki noodles to the sukiyaki.",
       "has_audio": false,
       "sense_numbers": [
@@ -23,7 +23,7 @@
     },
     {
       "id": "07480_shirataki_ex2",
-      "japanese": "しらたきは{低|てい}カロリーでダイエットに{向|む}いている。",
+      "japanese": "しらたき⟦は→は：00079_ha⟧⟦{低|てい}→低〜：03961_tei⟧⟦カロリー→カロリー：06109_karorii⟧⟦で→で：00502_de⟧⟦ダイエット→ダイエット：17678_daietto⟧⟦に→に：00314_ni⟧⟦{向|む}いている→向く：02304_muku⟧。",
       "english": "Shirataki is low in calories and good for dieting.",
       "has_audio": false,
       "sense_numbers": [
@@ -32,7 +32,7 @@
     },
     {
       "id": "07480_shirataki_ex3",
-      "japanese": "しらたきを{下茹|したゆ}でして{臭|くさ}みを{取|と}る。",
+      "japanese": "しらたき⟦を→を：00422_wo⟧{下茹|したゆ}で⟦して→する：00392_suru⟧{臭|くさ}み⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧。",
       "english": "Parboil the shirataki to remove the smell.",
       "has_audio": false,
       "sense_numbers": [
@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "notes": "ETYMOLOGY:\nFrom {白滝|しらたき} - literally \"white waterfall,\" describing how the thin noodles pour out during production, resembling a white waterfall.\n\nUsually written in hiragana.\n\nMADE FROM:\nこんにゃく (konjac/konnyaku) - a yam-like plant. The starch is processed into a gelatinous substance and extruded into noodle form.\n\nNUTRITIONAL VALUE:\n・Almost zero calories\n・High in fiber\n・Very filling\n・Popular for diet/weight loss\n\nPREPARATION TIP:\nしらたき has a slight smell from the konjac. It's best to:\n1. Rinse well\n2. {下茹|したゆ}で (parboil briefly)\n3. Dry-fry to remove excess moisture\n\nCOMMON DISHES:\n・すき{焼|や}き - sukiyaki (most common use)\n・{肉|にく}じゃが - nikujaga\n・{煮物|にもの} - simmered dishes\n・{炒|いた}め{物|もの} - stir-fries\n\nINTERNATIONAL POPULARITY:\nKnown abroad as \"miracle noodles\" or \"zero-calorie noodles\" - popular as a low-carb pasta substitute.",
+  "notes": "ETYMOLOGY:\nFrom {白滝|しらたき} - literally \"white waterfall,\" describing how the thin noodles pour out during production, resembling a white waterfall.\n\nUsually written in hiragana.\n\nMADE FROM:\n⟦こんにゃく→こんにゃく：04931_konnyaku⟧ (konjac/konnyaku) - a yam-like plant. The starch is processed into a gelatinous substance and extruded into noodle form.\n\nNUTRITIONAL VALUE:\n- Almost zero calories\n- High in fiber\n- Very filling\n- Popular for diet/weight loss\n\nPREPARATION TIP:\nしらたき has a slight smell from the konjac. It's best to:\n1. Rinse well\n2. {下茹|したゆ}で (parboil briefly)\n3. Dry-fry to remove excess moisture\n\nCOMMON DISHES:\n- ⟦すき{焼|や}き→すき焼き：10368_sukiyaki⟧ - sukiyaki (most common use)\n- ⟦{肉|にく}じゃが→肉じゃが：17620_nikujaga⟧ - nikujaga\n- ⟦{煮物|にもの}→煮物：04971_nimono⟧ - simmered dishes\n- ⟦{炒|いた}め{物|もの}→炒め物：08537_itamemono⟧ - stir-fries\n\nINTERNATIONAL POPULARITY:\nKnown abroad as \"miracle noodles\" or \"zero-calorie noodles\" - popular as a low-carb pasta substitute.",
   "cross_references": [
     {
       "type": "related",
@@ -48,11 +48,18 @@
       "headword": "こんにゃく",
       "label": "konjac",
       "target_id": "04931_konnyaku"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14995_itokonnyaku",
+      "reading": "いとこんにゃく",
+      "headword": "{糸|いと}こんにゃく",
+      "label": "shredded konjac noodles"
     }
   ],
   "metadata": {
     "created": "2026-01-20T05:43:45Z",
-    "modified": "2026-08-10T18:29:45Z",
+    "modified": "2026-09-02T04:01:11Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +67,7 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "food"
       ],

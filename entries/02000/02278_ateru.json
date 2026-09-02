@@ -2,7 +2,7 @@
   "id": "02278_ateru",
   "headword": "{宛|あ}てる",
   "reading": "あてる",
-  "part_of_speech": "ichidan verb, transitive",
+  "part_of_speech": "verb (ichidan, transitive)",
   "gloss": "to address (a letter), to direct at",
   "conjugation": {
     "type": "ichidan",
@@ -109,7 +109,7 @@
   "examples": [
     {
       "id": "02278_ateru_ex1",
-      "japanese": "⟦{手紙|てがみ}→手紙：00675_tegami⟧⟦を→を：00422_wo⟧{田中|たなか}さん{宛|あ}て⟦に→に：00314_ni⟧⟦{送|おく}る→送る：00742_okuru⟧。",
+      "japanese": "⟦{手紙|てがみ}→手紙：00675_tegami⟧⟦を→を：00422_wo⟧⟦{田中|たなか}→田中：09528_tanaka⟧さん{宛|あ}て⟦に→に：00314_ni⟧⟦{送|おく}る→送る：00742_okuru⟧。",
       "english": "To send a letter addressed to Mr. Tanaka.",
       "notes": null,
       "has_audio": false,
@@ -119,7 +119,7 @@
     },
     {
       "id": "02278_ateru_ex2",
-      "japanese": "⟦{荷物|にもつ}→荷物：00737_nimotsu⟧⟦を→を：00422_wo⟧{山田|やまだ}さん{宛|あ}て⟦に→に：00314_ni⟧⟦{送|おく}った→送る：00742_okuru⟧。",
+      "japanese": "⟦{荷物|にもつ}→荷物：00737_nimotsu⟧⟦を→を：00422_wo⟧⟦{山田|やまだ}→山田：09529_yamada⟧さん{宛|あ}て⟦に→に：00314_ni⟧⟦{送|おく}った→送る：00742_okuru⟧。",
       "english": "I sent the package addressed to Ms. Yamada.",
       "notes": null,
       "has_audio": false,
@@ -168,11 +168,26 @@
       ]
     }
   ],
-  "notes": "{宛|あ}てる means to address (a letter) or to allocate/direct something toward a purpose.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- Takes ⟦を→を：00422_wo⟧ and ⟦に→に：00314_ni⟧ particles\n\nCOMMON PATTERNS:\n- ⟦{手紙|てがみ}→手紙：00675_tegami⟧⟦を→を：00422_wo⟧～{宛|あ}て⟦に→に：00314_ni⟧⟦{送|おく}る→送る：00742_okuru⟧: to send a letter addressed to ~\n- ⟦{時間|じかん}→時間：00468_jikan⟧⟦を→を：00422_wo⟧～⟦に→に：00314_ni⟧{宛|あ}てる: to allocate time to ~\n- ⟦{資金|しきん}→資金：09937_shikin⟧⟦を→を：00422_wo⟧～⟦に→に：00314_ni⟧{宛|あ}てる: to allocate funds to ~\n\nRELATED EXPRESSIONS:\n- ⟦{宛先|あてさき}→宛先：12275_atesaki⟧: address, recipient (on mail)\n- ⟦{宛名|あてな}→宛名：03995_atena⟧: addressee's name\n- ～{宛|あて}: addressed to ~ (suffix)\n\nNOTE:\nDon't confuse with ⟦{当|あ}てる→当てる：01864_ateru⟧ (to hit, to apply) or ⟦{充|あ}てる→充てる：18707_ateru⟧ (to assign, to fill a role).",
-  "cross_references": [],
+  "notes": "{宛|あ}てる means to address (a letter) or to allocate/direct something toward a purpose.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- Takes ⟦を→を：00422_wo⟧ and ⟦に→に：00314_ni⟧ particles\n\nCOMMON PATTERNS:\n- ⟦{手紙|てがみ}→手紙：00675_tegami⟧⟦を→を：00422_wo⟧～{宛|あ}て⟦に→に：00314_ni⟧⟦{送|おく}る→送る：00742_okuru⟧: to send a letter addressed to ~\n- ⟦{時間|じかん}→時間：00468_jikan⟧⟦を→を：00422_wo⟧～⟦に→に：00314_ni⟧{宛|あ}てる: to allocate time to ~\n- ⟦{資金|しきん}→資金：09937_shikin⟧⟦を→を：00422_wo⟧～⟦に→に：00314_ni⟧{宛|あ}てる: to allocate funds to ~\n\nRELATED WORDS:\n- ⟦{宛先|あてさき}→宛先：12275_atesaki⟧: address, recipient (on mail)\n- ⟦{宛名|あてな}→宛名：03995_atena⟧: addressee's name\n- ～{宛|あて}: addressed to ~ (suffix)\n\nUSAGE:\nDon't confuse with ⟦{当|あ}てる→当てる：01864_ateru⟧ (to hit, to apply) or ⟦{充|あ}てる→充てる：18707_ateru⟧ (to assign, to fill a role).",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "12275_atesaki",
+      "reading": "あてさき",
+      "headword": "{宛先|あてさき}",
+      "label": "address, recipient"
+    },
+    {
+      "type": "related",
+      "target_id": "03995_atena",
+      "reading": "あてな",
+      "headword": "{宛名|あてな}",
+      "label": "addressee's name"
+    }
+  ],
   "metadata": {
     "created": "2026-01-09T08:15:18Z",
-    "modified": "2026-05-18T23:16:04Z",
+    "modified": "2026-09-02T04:01:01Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

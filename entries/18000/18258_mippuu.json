@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "18258_mippuu_ex1",
-      "japanese": "{食品|しょくひん}を{密封|みっぷう}して{保存|ほぞん}する。",
+      "japanese": "⟦{食品|しょくひん}→食品：03247_shokuhin⟧⟦を→を：00422_wo⟧{密封|みっぷう}⟦して→する：00392_suru⟧⟦{保存|ほぞん}→保存：03626_hozon⟧⟦する→する：00392_suru⟧。",
       "english": "I store food by sealing it airtight.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "18258_mippuu_ex2",
-      "japanese": "{密封|みっぷう}された{容器|ようき}に{入|い}れてください。",
+      "japanese": "{密封|みっぷう}⟦された→する：00392_suru⟧⟦{容器|ようき}→容器：03656_youki⟧⟦に→に：00314_ni⟧⟦{入|い}れて→入れる：01098_ireru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please put it in a sealed container.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "18258_mippuu_ex3",
-      "japanese": "{開封後|かいふうご}は{密封|みっぷう}して{冷蔵庫|れいぞうこ}で{保管|ほかん}してください。",
+      "japanese": "{開封後|かいふうご}⟦は→は：00079_ha⟧{密封|みっぷう}⟦して→する：00392_suru⟧⟦{冷蔵庫|れいぞうこ}→冷蔵庫：01046_reizouko⟧⟦で→で：00502_de⟧⟦{保管|ほかん}して→保管する：25536_hokansuru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "After opening, seal it airtight and store in the refrigerator.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nCommonly seen on food packaging and product instructions. Also used in scientific and industrial contexts.\n\nCOMMON COLLOCATIONS:\n- {密封|みっぷう}する (to seal airtight)\n- {密封|みっぷう}{容器|ようき} (sealed container; airtight container)\n- {密封|みっぷう}{保存|ほぞん} (airtight storage)\n- {密封|みっぷう}された (sealed; hermetically sealed)\n\nSIMILAR WORDS:\n- {封印|ふういん}: seal — broader meaning including figurative sealing (sealing away a memory, technique)\n- {密閉|みっぺい}: airtight closure — very similar, but more commonly used for rooms or spaces",
+  "notes": "USAGE:\nCommonly seen on food packaging and product instructions. Also used in scientific and industrial contexts.\n\nCOMMON COLLOCATIONS:\n- {密封|みっぷう}⟦する→する：00392_suru⟧ (to seal airtight)\n- {密封|みっぷう}⟦{容器|ようき}→容器：03656_youki⟧ (sealed container; airtight container)\n- {密封|みっぷう}⟦{保存|ほぞん}→保存：03626_hozon⟧ (airtight storage)\n- {密封|みっぷう}⟦された→する：00392_suru⟧ (sealed; hermetically sealed)\n\nSIMILAR WORDS:\n- ⟦{封印|ふういん}→封印：12384_fuuin⟧: seal — broader meaning including figurative sealing (sealing away a memory, technique)\n- ⟦{密閉|みっぺい}→密閉：19651_mippei⟧: airtight closure — very similar, but more commonly used for rooms or spaces",
   "cross_references": [
     {
       "type": "synonym",
@@ -142,11 +142,18 @@
       "reading": "みっぺい",
       "headword": "{密閉|みっぺい}",
       "label": "airtight (rooms/spaces)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12384_fuuin",
+      "reading": "ふういん",
+      "headword": "{封印|ふういん}",
+      "label": "seal"
     }
   ],
   "metadata": {
     "created": "2026-03-20T13:51:31Z",
-    "modified": "2026-05-08T08:12:00Z",
+    "modified": "2026-09-02T04:01:51Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -159,7 +166,8 @@
       "semantic": [
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

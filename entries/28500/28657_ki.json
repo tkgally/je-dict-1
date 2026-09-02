@@ -15,41 +15,51 @@
   "examples": [
     {
       "id": "28657_ki_ex1",
-      "japanese": "{既|き}{婚|こん}{者|しゃ}{向|む}けのアンケートです。",
+      "japanese": "⟦{既|き}{婚|こん}{者|しゃ}→既婚者：11335_kikonsha⟧{向|む}け⟦の→の：09472_no⟧⟦アンケート→アンケート：03829_ankeeto⟧です。",
       "english": "This survey is for married people.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28657_ki_ex2",
-      "japanese": "{既|き}{存|そん}のシステムを{活用|かつよう}したい。",
+      "japanese": "⟦{既|き}{存|そん}→既存：27736_kison⟧⟦の→の：09472_no⟧⟦システム→システム：08428_shisutemu⟧⟦を→を：00422_wo⟧⟦{活用|かつよう}→活用：02620_katsuyou⟧⟦したい→する：00392_suru⟧。",
       "english": "I want to make use of the existing system.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28657_ki_ex3",
-      "japanese": "{既|き}{発表|はっぴょう}の{論文|ろんぶん}は{審査|しんさ}{対象外|たいしょうがい}です。",
+      "japanese": "{既|き}⟦{発表|はっぴょう}→発表：03562_happyou⟧⟦の→の：09472_no⟧⟦{論文|ろんぶん}→論文：03787_ronbun⟧⟦は→は：00079_ha⟧⟦{審査|しんさ}→審査：08375_shinsa⟧⟦{対象外|たいしょうがい}→対象外：10019_taishougai⟧です。",
       "english": "Already-published papers are excluded from review.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Bound prefix, never used standalone. Marks a state as already established or completed.\n\nCOMMON COMPOUNDS:\n- {既|き}{婚|こん}: married (already wed)\n- {既|き}{存|そん}: existing; pre-existing\n- {既|き}{成|せい}: ready-made; established\n- {既|き}{知|ち}: known; already-known\n- {既|き}{往|おう}{歴|れき}: medical history (literally 'already-past history')\n\nSIMILAR PREFIXES:\n- {未|み}〜: not yet; un- — the direct antonym ({未|み}{婚|こん} unmarried, {未|み}{知|ち} unknown)\n- {旧|きゅう}〜: former; old- — focuses on what something used to be, not on completion",
+  "notes": "Bound prefix, never used standalone. Marks a state as already established or completed.\n\nCOMPOUNDS:\n- ⟦{既|き}{婚|こん}→既婚：16160_kikon⟧: married (already wed)\n- ⟦{既|き}{存|そん}→既存：27736_kison⟧: existing; pre-existing\n- {既|き}{成|せい}: ready-made; established\n- ⟦{既|き}{知|ち}→既知：19828_kichi⟧: known; already-known\n- ⟦{既|き}{往|おう}{歴|れき}→既往歴：26536_kioureki⟧: medical history (literally 'already-past history')\n\nSIMILAR PREFIXES:\n- ⟦{未|み}→未〜：00277_mi⟧〜: not yet; un- — the direct antonym (⟦{未|み}{婚|こん}→未婚：14933_mikon⟧ unmarried, ⟦{未|み}{知|ち}→未知：13014_michi⟧ unknown)\n- ⟦{旧|きゅう}→旧：19346_kyuu⟧〜: former; old- — focuses on what something used to be, not on completion",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["prefix"],
+      "pos": [
+        "prefix"
+      ],
       "formality": "formal",
-      "politeness": null,
-      "semantic": ["abstract"],
+      "politeness": "plain",
+      "semantic": [
+        "abstract"
+      ],
       "domain": []
     },
     "created": "2026-06-03T04:13:26Z",
-    "modified": "2026-06-03T04:13:26Z"
+    "modified": "2026-09-02T04:02:34Z"
   }
 }

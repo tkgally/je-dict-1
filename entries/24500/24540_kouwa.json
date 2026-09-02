@@ -4,7 +4,7 @@
   "headword": "{講和|こうわ}",
   "reading": "こうわ",
   "romaji": "kouwa",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "peace; peace treaty; reconciliation (between warring parties)",
   "definitions": [
     {
@@ -16,7 +16,7 @@
   "examples": [
     {
       "id": "24540_kouwa_ex1",
-      "japanese": "{講和|こうわ}{条約|じょうやく}が{結|むす}ばれた。",
+      "japanese": "{講和|こうわ}⟦{条約|じょうやく}→条約：04912_jouyaku⟧⟦が→が：00051_ga⟧⟦{結|むす}ばれた→結ぶ：02308_musubu⟧。",
       "english": "A peace treaty was concluded.",
       "sense_numbers": [
         1
@@ -26,7 +26,7 @@
     },
     {
       "id": "24540_kouwa_ex2",
-      "japanese": "{両国|りょうこく}は{講和|こうわ}{交渉|こうしょう}を{始|はじ}めた。",
+      "japanese": "⟦{両国|りょうこく}→両国：10010_ryoukoku⟧⟦は→は：00079_ha⟧{講和|こうわ}⟦{交渉|こうしょう}→交渉：02727_koushou⟧⟦を→を：00422_wo⟧⟦{始|はじ}めた→始める：00531_hajimeru⟧。",
       "english": "The two countries began peace negotiations.",
       "sense_numbers": [
         1
@@ -36,7 +36,7 @@
     },
     {
       "id": "24540_kouwa_ex3",
-      "japanese": "{長|なが}い{戦争|せんそう}の{末|すえ}、ようやく{講和|こうわ}が{成立|せいりつ}した。",
+      "japanese": "⟦{長|なが}い→長い：00491_nagai⟧⟦{戦争|せんそう}→戦争：01450_sensou⟧⟦の→の：09472_no⟧⟦{末|すえ}→末：03362_sue⟧、ようやく{講和|こうわ}⟦が→が：00051_ga⟧⟦{成立|せいりつ}した→成立する：25497_seiritsusuru⟧。",
       "english": "After a long war, peace was finally established.",
       "sense_numbers": [
         1
@@ -45,7 +45,7 @@
       "notes": null
     }
   ],
-  "notes": "Refers specifically to the formal process of making peace between nations or groups that have been at war. Often encountered in historical contexts, particularly regarding the San Francisco Peace Treaty ({サンフランシスコ}{講和|こうわ}{条約|じょうやく}).\n\nCOMMON COLLOCATIONS:\n- {講和|こうわ}{条約|じょうやく}: peace treaty\n- {講和|こうわ}{交渉|こうしょう}: peace negotiations\n- {講和|こうわ}{会議|かいぎ}: peace conference\n- {講和|こうわ}が{成立|せいりつ}する: peace is established\n- {講和|こうわ}を{結|むす}ぶ: to conclude peace\n\nSIMILAR WORDS:\n- {和平|わへい}: peace — broader term for peaceful resolution, not limited to formal treaties\n- {停戦|ていせん}: ceasefire — temporary halt in fighting, not the formal end of conflict\n- {平和|へいわ}: peace — general state of peace, not the process of achieving it",
+  "notes": "Refers specifically to the formal process of making peace between nations or groups that have been at war. Often encountered in historical contexts, particularly regarding the San Francisco Peace Treaty (サンフランシスコ{講和|こうわ}⟦{条約|じょうやく}→条約：04912_jouyaku⟧).\n\nCOMMON COLLOCATIONS:\n- {講和|こうわ}⟦{条約|じょうやく}→条約：04912_jouyaku⟧: peace treaty\n- {講和|こうわ}⟦{交渉|こうしょう}→交渉：02727_koushou⟧: peace negotiations\n- {講和|こうわ}⟦{会議|かいぎ}→会議：00710_kaigi⟧: peace conference\n- {講和|こうわ}⟦が→が：00051_ga⟧⟦{成立|せいりつ}する→成立する：25497_seiritsusuru⟧: peace is established\n- {講和|こうわ}⟦を→を：00422_wo⟧⟦{結|むす}ぶ→結ぶ：02308_musubu⟧: to conclude peace\n\nSIMILAR WORDS:\n- {和平|わへい}: peace — broader term for peaceful resolution, not limited to formal treaties\n- ⟦{停戦|ていせん}→停戦：24539_teisen⟧: ceasefire — temporary halt in fighting, not the formal end of conflict\n- ⟦{平和|へいわ}→平和：01507_heiwa⟧: peace — general state of peace, not the process of achieving it",
   "cross_references": [
     {
       "type": "related",
@@ -53,11 +53,25 @@
       "reading": "ていせん",
       "headword": "{停戦|ていせん}",
       "label": "ceasefire (temporary halt in fighting)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01507_heiwa",
+      "reading": "へいわ",
+      "headword": "{平和|へいわ}",
+      "label": "peace"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22965_waboku",
+      "reading": "わぼく",
+      "headword": "{和睦|わぼく}",
+      "label": "peace"
     }
   ],
   "metadata": {
     "created": "2026-04-19T14:13:11Z",
-    "modified": "2026-08-03T09:22:27Z",
+    "modified": "2026-09-02T04:02:18Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

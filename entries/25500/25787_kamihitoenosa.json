@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25787_kamihitoenosa_ex1",
-      "japanese": "{勝敗|しょうはい}は{紙一重|かみひとえ}の{差|さ}だった。",
+      "japanese": "⟦{勝敗|しょうはい}→勝敗：04905_shouhai⟧⟦は→は：00079_ha⟧{紙一重|かみひとえ}の{差|さ}だった。",
       "english": "The difference between victory and defeat was paper-thin.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25787_kamihitoenosa_ex2",
-      "japanese": "{天才|てんさい}と{狂気|きょうき}は{紙一重|かみひとえ}の{差|さ}だと{言|い}われる。",
+      "japanese": "⟦{天才|てんさい}→天才：09934_tensai⟧⟦と→と：00512_to⟧⟦{狂気|きょうき}→狂気：27800_kyouki⟧⟦は→は：00079_ha⟧{紙一重|かみひとえ}の{差|さ}だ⟦と→と：00512_to⟧⟦{言|い}われる→言う：00515_iu⟧。",
       "english": "They say the line between genius and madness is paper-thin.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25787_kamihitoenosa_ex3",
-      "japanese": "{合格|ごうかく}と{不合格|ふごうかく}は{紙一重|かみひとえ}の{差|さ}で、あと{一点|いってん}{足|た}りなかった。",
+      "japanese": "⟦{合格|ごうかく}→合格：02816_goukaku⟧⟦と→と：00512_to⟧⟦{不合格|ふごうかく}→不合格：05139_fugoukaku⟧⟦は→は：00079_ha⟧{紙一重|かみひとえ}の{差|さ}⟦で→で：00502_de⟧、あと⟦{一点|いってん}→一点：08894_itten⟧⟦{足|た}りなかった→足りる：01209_tariru⟧。",
       "english": "The gap between passing and failing was razor-thin — I was just one point short.",
       "sense_numbers": [
         1
@@ -44,8 +44,16 @@
       "notes": null
     }
   ],
-  "notes": "Literally 'the difference of a single layer of paper,' this expression vividly captures how thin the margin can be between two outcomes. The underlying word {紙一重|かみひとえ} (paper-thin) is the core metaphor and can also be used on its own as a noun.\n\nUSAGE:\n- Frequently appears in the pattern AとBは{紙一重|かみひとえ}の{差|さ} (the difference between A and B is paper-thin)\n- Classic pairings: {成功|せいこう}と{失敗|しっぱい} (success and failure), {天才|てんさい}と{狂気|きょうき} (genius and madness)\n\nCOMMON COLLOCATIONS:\n- {紙一重|かみひとえ}の{差|さ}で{勝|か}つ: to win by a hair's breadth\n- {紙一重|かみひとえ}の{差|さ}で{負|ま}ける: to lose by a hair's breadth\n- {紙一重|かみひとえ}の{差|さ}で{助|たす}かる: to narrowly escape\n\nSIMILAR EXPRESSIONS:\n- {僅差|きんさ}: narrow margin — a neutral, factual term without the vivid imagery\n- {際|きわ}どい: close; narrow — describes the closeness of a margin in a more colloquial way",
-  "cross_references": [],
+  "notes": "Literally 'the difference of a single layer of paper,' this expression vividly captures how thin the margin can be between two outcomes. The underlying word ⟦{紙一重|かみひとえ}→紙一重：20434_kamihitoe⟧ (paper-thin) is the core metaphor and can also be used on its own as a noun.\n\nUSAGE:\n- Frequently appears in the pattern A⟦と→と：00512_to⟧B⟦は→は：00079_ha⟧{紙一重|かみひとえ}の{差|さ} (the difference between A and B is paper-thin)\n- Classic pairings: ⟦{成功|せいこう}→成功：02638_seikou⟧⟦と→と：00512_to⟧⟦{失敗|しっぱい}→失敗：01636_shippai⟧ (success and failure), ⟦{天才|てんさい}→天才：09934_tensai⟧⟦と→と：00512_to⟧⟦{狂気|きょうき}→狂気：27800_kyouki⟧ (genius and madness)\n\nCOMMON COLLOCATIONS:\n- {紙一重|かみひとえ}の{差|さ}⟦で→で：00502_de⟧⟦{勝|か}つ→勝つ：01199_katsu⟧: to win by a hair's breadth\n- {紙一重|かみひとえ}の{差|さ}⟦で→で：00502_de⟧⟦{負|ま}ける→負ける：01134_makeru⟧: to lose by a hair's breadth\n- {紙一重|かみひとえ}の{差|さ}⟦で→で：00502_de⟧⟦{助|たす}かる→助かる：01956_tasukaru⟧: to narrowly escape\n\nSIMILAR WORDS:\n- ⟦{僅差|きんさ}→僅差：11526_kinsa⟧: narrow margin — a neutral, factual term without the vivid imagery\n- {際|きわ}どい: close; narrow — describes the closeness of a margin in a more colloquial way",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11526_kinsa",
+      "reading": "きんさ",
+      "headword": "{僅差|きんさ}",
+      "label": "narrow margin"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,11 +61,12 @@
       "pos": [
         "expression"
       ],
+      "politeness": "plain",
       "semantic": [
         "quantity"
       ]
     },
     "created": "2026-04-27T13:11:41Z",
-    "modified": "2026-08-04T21:28:28Z"
+    "modified": "2026-09-02T04:02:23Z"
   }
 }

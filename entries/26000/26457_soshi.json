@@ -15,39 +15,74 @@
   "examples": [
     {
       "id": "26457_soshi_ex1",
-      "japanese": "{半導体|はんどうたい}{素子|そし}の{性能|せいのう}が{向上|こうじょう}した。",
+      "japanese": "⟦{半導体|はんどうたい}→半導体：09248_handoutai⟧{素子|そし}⟦の→の：09472_no⟧⟦{性能|せいのう}→性能：04340_seinou⟧⟦が→が：00051_ga⟧⟦{向上|こうじょう}した→向上する：18997_koujousuru⟧。",
       "english": "The performance of semiconductor devices has improved.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26457_soshi_ex2",
-      "japanese": "この{回路|かいろ}は{複数|ふくすう}の{素子|そし}で{構成|こうせい}されている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{回路|かいろ}→回路：12038_kairo⟧⟦は→は：00079_ha⟧⟦{複数|ふくすう}→複数：14236_fukusuu⟧⟦の→の：09472_no⟧{素子|そし}⟦で→で：00502_de⟧⟦{構成|こうせい}→構成：02729_kousei⟧⟦されている→する：00392_suru⟧。",
       "english": "This circuit is composed of multiple components.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26457_soshi_ex3",
-      "japanese": "{受光|じゅこう}{素子|そし}がカメラのセンサーの{中心的|ちゅうしんてき}な{役割|やくわり}を{果|は}たす。",
+      "japanese": "{受光|じゅこう}{素子|そし}⟦が→が：00051_ga⟧⟦カメラ→カメラ：04417_kamera⟧⟦の→の：09472_no⟧⟦センサー→センサー：29781_sensaa⟧⟦の→の：09472_no⟧⟦{中心的|ちゅうしんてき}→中心的：05676_chuushinteki⟧な⟦{役割|やくわり}を{果|は}たす→役割を果たす：19503_yakuwariwohatasu⟧。",
       "english": "The photosensitive element plays a central role in the camera sensor.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {素|そ} (element, base) and {子|し} (small thing, child). In electronics and physics, {素子|そし} refers to an individual functional component. The character {子|し} here functions as a suffix indicating a small discrete unit, similar to its use in {粒子|りゅうし} (particle) or {電子|でんし} (electron).\n\nCOMMON COLLOCATIONS:\n- {半導体|はんどうたい}{素子|そし}: semiconductor device\n- {受光|じゅこう}{素子|そし}: light-receiving element, photosensor\n- {発光|はっこう}{素子|そし}: light-emitting element\n- {素子|そし}の{集積|しゅうせき}: integration of components\n\nSIMILAR WORDS:\n- {部品|ぶひん}: part, component — a general word for mechanical or electronic parts\n- {要素|ようそ}: element, factor — used more abstractly for constituent elements of a concept or system\n- {電子|でんし}: electron — shares the {子|し} suffix but refers specifically to the subatomic particle",
-  "cross_references": [],
+  "notes": "Composed of {素|そ} (element, base) and {子|し} (small thing, child). In electronics and physics, {素子|そし} refers to an individual functional component. The character {子|し} here functions as a suffix indicating a small discrete unit, similar to its use in ⟦{粒子|りゅうし}→粒子：14970_ryuushi⟧ (particle) or ⟦{電子|でんし}→電子：03449_denshi⟧ (electron).\n\nCOMMON COLLOCATIONS:\n- ⟦{半導体|はんどうたい}→半導体：09248_handoutai⟧{素子|そし}: semiconductor device\n- {受光|じゅこう}{素子|そし}: light-receiving element, photosensor\n- ⟦{発光|はっこう}→発光：17472_hakkou⟧{素子|そし}: light-emitting element\n- {素子|そし}⟦の→の：09472_no⟧{集積|しゅうせき}: integration of components\n\nSIMILAR WORDS:\n- ⟦{部品|ぶひん}→部品：00020_buhin⟧: part, component — a general word for mechanical or electronic parts\n- ⟦{要素|ようそ}→要素：03661_youso⟧: element, factor — used more abstractly for constituent elements of a concept or system\n- ⟦{電子|でんし}→電子：03449_denshi⟧: electron — shares the {子|し} suffix but refers specifically to the subatomic particle",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00020_buhin",
+      "reading": "ぶひん",
+      "headword": "{部品|ぶひん}",
+      "label": "part, component"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03661_youso",
+      "reading": "ようそ",
+      "headword": "{要素|ようそ}",
+      "label": "element, factor"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03449_denshi",
+      "reading": "でんし",
+      "headword": "{電子|でんし}",
+      "label": "electron"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["science", "technology"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "science",
+        "technology"
+      ]
     },
     "created": "2026-05-02T11:29:20Z",
-    "modified": "2026-05-02T11:29:20Z"
+    "modified": "2026-09-02T04:02:26Z"
   }
 }

@@ -15,41 +15,67 @@
   "examples": [
     {
       "id": "28094_tonkatsu_ex1",
-      "japanese": "{昼|ひる}ごはんにとんかつを{食|た}べた。",
+      "japanese": "{昼|ひる}ごはん⟦に→に：00314_ni⟧とんかつ⟦を→を：00422_wo⟧⟦{食|た}べた→食べる：00396_taberu⟧。",
       "english": "I had tonkatsu for lunch.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28094_tonkatsu_ex2",
-      "japanese": "とんかつにソースをたっぷりかけた。",
+      "japanese": "とんかつ⟦に→に：00314_ni⟧⟦ソース→ソース：17673_soosu⟧⟦を→を：00422_wo⟧⟦たっぷり→たっぷり：03404_tappuri⟧⟦かけた→かける：00854_kakeru⟧。",
       "english": "I poured plenty of sauce over the tonkatsu.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28094_tonkatsu_ex3",
-      "japanese": "この{店|みせ}のとんかつは{衣|ころも}がサクサクで{肉|にく}が{柔|やわ}らかい。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{店|みせ}→店：00497_mise⟧⟦の→の：09472_no⟧とんかつ⟦は→は：00079_ha⟧⟦{衣|ころも}→衣：14162_koromo⟧⟦が→が：00051_ga⟧サクサク⟦で→で：00502_de⟧⟦{肉|にく}→肉：02240_niku⟧⟦が→が：00051_ga⟧⟦{柔|やわ}らかい→柔らかい：01096_yawarakai⟧。",
       "english": "This restaurant's tonkatsu has a crispy coating and tender meat.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A deep-fried, panko-breaded pork cutlet ({豚|ぶた} 'pork' + カツ from English \"cutlet\"). A staple of casual Japanese dining, usually served with shredded cabbage, rice, and a thick sauce.\n\nCOMMON COLLOCATIONS:\n- とんかつを{揚|あ}げる: to deep-fry tonkatsu\n- とんかつ{定食|ていしょく}: tonkatsu set meal\n- ロースとんかつ: loin cutlet\n\nRELATED DISHES:\n- カツ{丼|どん}: tonkatsu served over rice in a bowl\n- カツカレー: tonkatsu with curry",
+  "notes": "A deep-fried, panko-breaded pork cutlet (⟦{豚|ぶた}→豚：04710_buta⟧ 'pork' + カツ from English \"cutlet\"). A staple of casual Japanese dining, usually served with shredded cabbage, rice, and a thick sauce.\n\nCOMMON COLLOCATIONS:\n- とんかつ⟦を→を：00422_wo⟧⟦{揚|あ}げる→揚げる：16879_ageru⟧: to deep-fry tonkatsu\n- とんかつ⟦{定食|ていしょく}→定食：03123_teishoku⟧: tonkatsu set meal\n- ロースとんかつ: loin cutlet\n\nRELATED DISHES:\n- ⟦カツ{丼|どん}→カツ丼：08539_katsudon⟧: tonkatsu served over rice in a bowl\n- カツカレー: tonkatsu with curry",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "08539_katsudon",
+      "reading": "かつどん",
+      "headword": "カツ{丼|どん}",
+      "label": "tonkatsu served over rice in a bowl"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15300_menchikatsu",
+      "reading": "めんちかつ",
+      "headword": "メンチカツ",
+      "label": "minced meat cutlet"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food"],
+      "semantic": [
+        "food"
+      ],
       "domain": []
     },
     "created": "2026-05-25T04:08:01Z",
-    "modified": "2026-05-25T04:08:01Z"
+    "modified": "2026-09-02T04:02:32Z"
   }
 }

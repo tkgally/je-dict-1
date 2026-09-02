@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "15131_rougo_ex1",
-      "japanese": "{老後|ろうご}のために{貯金|ちょきん}している。",
+      "japanese": "{老後|ろうご}⟦の→の：09472_no⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧⟦{貯金|ちょきん}→貯金：03497_chokin⟧⟦している→する：00392_suru⟧。",
       "english": "I am saving money for my retirement years.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "15131_rougo_ex2",
-      "japanese": "{老後|ろうご}は{田舎|いなか}で{暮|く}らしたい。",
+      "japanese": "{老後|ろうご}⟦は→は：00079_ha⟧⟦{田舎|いなか}→田舎：01320_inaka⟧⟦で→で：00502_de⟧⟦{暮|く}らしたい→暮らす：01937_kurasu⟧。",
       "english": "I want to live in the countryside in my old age.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "15131_rougo_ex3",
-      "japanese": "{老後|ろうご}の{生活|せいかつ}に{不安|ふあん}を{感|かん}じる{人|ひと}が{増|ふ}えている。",
+      "japanese": "{老後|ろうご}⟦の→の：09472_no⟧⟦{生活|せいかつ}→生活：01443_seikatsu⟧⟦に→に：00314_ni⟧⟦{不安|ふあん}→不安：00836_fuan⟧⟦を→を：00422_wo⟧⟦{感|かん}じる→感じる：02044_kanjiru⟧⟦{人|ひと}→人：00476_hito⟧⟦が→が：00051_ga⟧⟦{増|ふ}えている→増える：01183_fueru⟧。",
       "english": "More and more people feel anxious about their post-retirement life.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,33 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{老後|ろうご} is a very common word in discussions about life planning, finances, and social welfare. The phrase {老後|ろうご}{資金|しきん} (retirement funds) and concerns about {老後|ろうご}{破産|はさん} (retirement bankruptcy) are frequent topics in Japanese media.\n\nCOMMON COLLOCATIONS:\n- {老後|ろうご}{資金|しきん} (retirement funds)\n- {老後|ろうご}の{備|そな}え (preparing for old age)\n- {老後|ろうご}の{生活|せいかつ} (post-retirement life)\n- {老後|ろうご}{破産|はさん} (retirement bankruptcy)\n- {老後|ろうご}を{過|す}ごす (to spend one's later years)",
-  "cross_references": [],
+  "notes": "USAGE:\n{老後|ろうご} is a very common word in discussions about life planning, finances, and social welfare. The phrase {老後|ろうご}⟦{資金|しきん}→資金：09937_shikin⟧ (retirement funds) and concerns about {老後|ろうご}⟦{破産|はさん}→破産：03555_hasan⟧ (retirement bankruptcy) are frequent topics in Japanese media.\n\nCOMMON COLLOCATIONS:\n- {老後|ろうご}⟦{資金|しきん}→資金：09937_shikin⟧ (retirement funds)\n- {老後|ろうご}⟦の→の：09472_no⟧⟦{備|そな}え→備え：11620_sonae⟧ (preparing for old age)\n- {老後|ろうご}⟦の→の：09472_no⟧⟦{生活|せいかつ}→生活：01443_seikatsu⟧ (post-retirement life)\n- {老後|ろうご}⟦{破産|はさん}→破産：03555_hasan⟧ (retirement bankruptcy)\n- {老後|ろうご}⟦を→を：00422_wo⟧⟦{過|す}ごす→過ごす：02062_sugosu⟧ (to spend one's later years)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20239_yosei",
+      "reading": "よせい",
+      "headword": "{余生|よせい}",
+      "label": "remaining years of life"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23970_rounenki",
+      "reading": "ろうねんき",
+      "headword": "{老年期|ろうねんき}",
+      "label": "old age"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27495_bannen",
+      "reading": "ばんねん",
+      "headword": "{晩年|ばんねん}",
+      "label": "one's later years"
+    }
+  ],
   "metadata": {
     "created": "2026-03-05T07:57:00Z",
-    "modified": "2026-07-15T03:29:10Z",
+    "modified": "2026-09-02T04:01:40Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

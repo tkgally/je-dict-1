@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29123_gachi_ex1",
-      "japanese": "{彼女|かのじょ}は{忘|わす}れがちだ。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧⟦{忘|わす}れ→忘れる：00474_wasureru⟧がちだ。",
       "english": "She tends to be forgetful.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29123_gachi_ex2",
-      "japanese": "{冬|ふゆ}は{運動|うんどう}がおろそかになりがちだ。",
+      "japanese": "⟦{冬|ふゆ}→冬：00623_fuyu⟧⟦は→は：00079_ha⟧⟦{運動|うんどう}→運動：00821_undou⟧⟦が→が：00051_ga⟧おろそか⟦に→に：00314_ni⟧⟦なり→なる：01970_naru⟧がちだ。",
       "english": "In winter, exercise tends to get neglected.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29123_gachi_ex3",
-      "japanese": "{リーダー|りーだー}が{いない|いない}と、{プロジェクト|ぷろじぇくと}は{迷走|めいそう}しがちだ。",
+      "japanese": "⟦リーダー→リーダー：24312_riidaa⟧がいない⟦と→と：00512_to⟧、⟦プロジェクト→プロジェクト：06764_purojekuto⟧⟦は→は：00079_ha⟧⟦{迷走|めいそう}→迷走：07441_meisou⟧しがちだ。",
       "english": "Without a leader, a project tends to lose its direction.",
       "sense_numbers": [
         1
@@ -45,7 +45,7 @@
     },
     {
       "id": "29123_gachi_ex4",
-      "japanese": "{初心者|しょしんしゃ}は{発音|はつおん}を{軽視|けいし}しがちだが、それは{後|のち}に{苦労|くろう}につながる。",
+      "japanese": "⟦{初心者|しょしんしゃ}→初心者：10149_shoshinsha⟧⟦は→は：00079_ha⟧⟦{発音|はつおん}→発音：01698_hatsuon⟧⟦を→を：00422_wo⟧⟦{軽視|けいし}→軽視：14305_keishi⟧しがちだ⟦が→が：00051_ga⟧、⟦それ→それ：00994_sore⟧⟦は→は：00079_ha⟧⟦{後|のち}→後：03545_nochi⟧⟦に→に：00314_ni⟧⟦{苦労|くろう}→苦労：02672_kurou⟧⟦に→に：00314_ni⟧つながる。",
       "english": "Beginners tend to neglect pronunciation, which leads to trouble later.",
       "sense_numbers": [
         1
@@ -54,7 +54,7 @@
       "notes": null
     }
   ],
-  "notes": "Attaches to the verb masu-stem: {忘|わす}れる → {忘|わす}れがち, {遅|おく}れる → {遅|おく}れがち, する → しがち.\n\nCOMMON PATTERNS:\n- ～がちだ: tends to [do/be]\n- ～がちな: tending to [do/be] (noun modifier)\n- ～がちに: in a way that tends toward ~\n\nCOMMON EXAMPLES:\n- {忘|わす}れがち: tending to forget\n- {遅|おく}れがち: tending to be late\n- {曇|くも}りがち: tending to be cloudy\n- しがち: tending to do (for suru-verb compounds)\n\nOriginates from {勝|が}ち (winning, prevailing), suggesting the tendency \"wins out\" over other outcomes. Now functions as a productive suffix with a slightly negative nuance in many uses.",
+  "notes": "Attaches to the verb masu-stem: ⟦{忘|わす}れる→忘れる：00474_wasureru⟧ → ⟦{忘|わす}れ→忘れる：00474_wasureru⟧がち, ⟦{遅|おく}れる→遅れる：00741_okureru⟧ → ⟦{遅|おく}れ→遅れる：00741_okureru⟧がち, ⟦する→する：00392_suru⟧ → しがち.\n\nCOMMON PATTERNS:\n- ～がちだ: tends to [do/be]\n- ～がちな: tending to [do/be] (noun modifier)\n- ～がち⟦に→に：00314_ni⟧: in a way that tends toward ~\n\nCOMMON EXAMPLES:\n- ⟦{忘|わす}れ→忘れる：00474_wasureru⟧がち: tending to forget\n- ⟦{遅|おく}れ→遅れる：00741_okureru⟧がち: tending to be late\n- ⟦{曇|くも}り→曇る：00723_kumoru⟧がち: tending to be cloudy\n- しがち: tending to do (for suru-verb compounds)\n\nOriginates from {勝|が}ち (winning, prevailing), suggesting the tendency \"wins out\" over other outcomes. Now functions as a productive suffix with a slightly negative nuance in many uses.",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -63,13 +63,13 @@
         "suffix"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "grammatical"
       ],
       "domain": []
     },
     "created": "2026-06-11T11:36:52Z",
-    "modified": "2026-08-09T06:33:11Z"
+    "modified": "2026-09-02T04:02:36Z"
   }
 }

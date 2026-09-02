@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "15284_sotsugyousei_ex1",
-      "japanese": "{卒業生|そつぎょうせい}を{代表|だいひょう}して{挨拶|あいさつ}した。",
+      "japanese": "{卒業生|そつぎょうせい}⟦を→を：00422_wo⟧⟦{代表|だいひょう}→代表：03419_daihyou⟧⟦して→する：00392_suru⟧⟦{挨拶|あいさつ}した→挨拶する：01797_aisatsusuru⟧。",
       "english": "I gave a speech as the representative of the graduates.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "15284_sotsugyousei_ex2",
-      "japanese": "この{大学|だいがく}の{卒業生|そつぎょうせい}は{各分野|かくぶんや}で{活躍|かつやく}している。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{大学|だいがく}→大学：00608_daigaku⟧⟦の→の：09472_no⟧{卒業生|そつぎょうせい}⟦は→は：00079_ha⟧{各分野|かくぶんや}⟦で→で：00502_de⟧⟦{活躍|かつやく}している→活躍する：25354_katsuyakusuru⟧。",
       "english": "Graduates of this university are active in various fields.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "15284_sotsugyousei_ex3",
-      "japanese": "{卒業生|そつぎょうせい}が{母校|ぼこう}に{集|あつ}まって{同窓会|どうそうかい}を{開|ひら}き、{懐|なつ}かしい{思|おも}い{出|で}を{語|かた}り{合|あ}った。",
+      "japanese": "{卒業生|そつぎょうせい}⟦が→が：00051_ga⟧⟦{母校|ぼこう}→母校：14958_bokou⟧⟦に→に：00314_ni⟧⟦{集|あつ}まって→集まる：01162_atsumaru⟧⟦{同窓会|どうそうかい}→同窓会：15875_dousoukai⟧⟦を→を：00422_wo⟧⟦{開|ひら}き→開く：01979_hiraku⟧、⟦{懐|なつ}かしい→懐かしい：02484_natsukashii⟧⟦{思|おも}い{出|で}→思い出：00331_omoide⟧⟦を→を：00422_wo⟧⟦{語|かた}り{合|あ}った→語り合う：03045_katariau⟧。",
       "english": "Graduates gathered at their alma mater for a reunion and shared fond memories.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{卒業生|そつぎょうせい} is a compound of {卒業|そつぎょう} (graduation) and {生|せい} (student/person). It refers to someone who has already graduated, in contrast to {在校生|ざいこうせい} (current students).\n\nCOMMON COLLOCATIONS:\n- {卒業生|そつぎょうせい}{代表|だいひょう} (representative of the graduating class)\n- {卒業生|そつぎょうせい}{一同|いちどう} (all graduates)\n- {有名|ゆうめい}な{卒業生|そつぎょうせい} (famous alumni)\n- {卒業生|そつぎょうせい}を{送|おく}り{出|だ}す (to send off graduates)\n\nSIMILAR WORDS:\n- {卒業生|そつぎょうせい}: graduate, alumnus (general)\n- OB/OG: old boy / old girl (informal Japanese abbreviations for alumni)\n- {同窓生|どうそうせい}: fellow alumni (emphasizes shared school connection)",
+  "notes": "USAGE:\n{卒業生|そつぎょうせい} is a compound of ⟦{卒業|そつぎょう}→卒業：01643_sotsugyou⟧ (graduation) and {生|せい} (student/person). It refers to someone who has already graduated, in contrast to ⟦{在校生|ざいこうせい}→在校生：17792_zaikousei⟧ (current students).\n\nCOMMON COLLOCATIONS:\n- {卒業生|そつぎょうせい}⟦{代表|だいひょう}→代表：03419_daihyou⟧ (representative of the graduating class)\n- {卒業生|そつぎょうせい}⟦{一同|いちどう}→一同：08918_ichidou⟧ (all graduates)\n- ⟦{有名|ゆうめい}→有名：01106_yuumei⟧な{卒業生|そつぎょうせい} (famous alumni)\n- {卒業生|そつぎょうせい}⟦を→を：00422_wo⟧⟦{送|おく}り{出|だ}す→送り出す：06085_okuridasu⟧ (to send off graduates)\n\nSIMILAR WORDS:\n- {卒業生|そつぎょうせい}: graduate, alumnus (general)\n- OB/OG: old boy / old girl (informal Japanese abbreviations for alumni)\n- ⟦{同窓生|どうそうせい}→同窓生：21773_dousousei⟧: fellow alumni (emphasizes shared school connection)",
   "cross_references": [
     {
       "type": "antonym",
@@ -52,11 +52,32 @@
       "reading": "ざいこうせい",
       "headword": "{在校生|ざいこうせい}",
       "label": "current student"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21773_dousousei",
+      "reading": "どうそうせい",
+      "headword": "{同窓生|どうそうせい}",
+      "label": "fellow alumni"
+    },
+    {
+      "type": "related",
+      "target_id": "03073_shinnyuusei",
+      "reading": "しんにゅうせい",
+      "headword": "{新入生|しんにゅうせい}",
+      "label": "new student, freshman"
+    },
+    {
+      "type": "related",
+      "target_id": "15875_dousoukai",
+      "reading": "どうそうかい",
+      "headword": "{同窓会|どうそうかい}",
+      "label": "class reunion"
     }
   ],
   "metadata": {
     "created": "2026-03-06T08:16:57Z",
-    "modified": "2026-07-16T07:06:35Z",
+    "modified": "2026-09-02T04:01:40Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

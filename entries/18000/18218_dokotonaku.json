@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "18218_dokotonaku_ex1",
-      "japanese": "どことなく{寂|さび}しい{雰囲気|ふんいき}がある。",
+      "japanese": "どことなく⟦{寂|さび}しい→寂しい：00880_sabishii⟧⟦{雰囲気|ふんいき}→雰囲気：03604_funiki⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There's a somehow lonely atmosphere.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "18218_dokotonaku_ex2",
-      "japanese": "あの{二人|ふたり}はどことなく{似|に}ている。",
+      "japanese": "⟦あの→あの：00915_ano⟧⟦{二人|ふたり}→二人：00622_futari⟧⟦は→は：00079_ha⟧どことなく⟦{似|に}ている→似る：01159_niru⟧。",
       "english": "Those two somehow resemble each other.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "18218_dokotonaku_ex3",
-      "japanese": "{今日|きょう}の{彼|かれ}はどことなく{元気|げんき}がないように{見|み}えたので、{声|こえ}をかけてみた。",
+      "japanese": "⟦{今日|きょう}→今日：00496_kyou⟧⟦の→の：09472_no⟧⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧どことなく⟦{元気|げんき}がない→元気がない：19488_genkiganai⟧よう⟦に→に：00314_ni⟧⟦{見|み}えた→見える：01165_mieru⟧⟦の→の：09472_no⟧で、⟦{声|こえ}→声：02207_koe⟧⟦を→を：00422_wo⟧⟦かけて→かける：00854_kakeru⟧みた。",
       "english": "He seemed somehow lacking in energy today, so I tried talking to him.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nLiterally 'from no particular place.' Often modifies adjectives and verbs of perception. Conveys a subtle, intuitive impression rather than a clear observation. Common in both spoken and written Japanese.\n\nCOMMON COLLOCATIONS:\n- どことなく{似|に}ている (somehow resembling)\n- どことなく{寂|さび}しい (somehow lonely)\n- どことなく{懐|なつ}かしい (somehow nostalgic)\n- どことなく{不安|ふあん}な (somehow uneasy)\n\nSIMILAR WORDS:\n- なんとなく: somehow, for no particular reason — very similar but slightly more casual; often implies doing something without clear intent\n- どこか: somewhere; in some way — can overlap in meaning but is broader in usage",
+  "notes": "USAGE:\nLiterally 'from no particular place.' Often modifies adjectives and verbs of perception. Conveys a subtle, intuitive impression rather than a clear observation. Common in both spoken and written Japanese.\n\nCOMMON COLLOCATIONS:\n- どことなく⟦{似|に}ている→似る：01159_niru⟧ (somehow resembling)\n- どことなく⟦{寂|さび}しい→寂しい：00880_sabishii⟧ (somehow lonely)\n- どことなく⟦{懐|なつ}かしい→懐かしい：02484_natsukashii⟧ (somehow nostalgic)\n- どことなく⟦{不安|ふあん}→不安：00836_fuan⟧な (somehow uneasy)\n\nSIMILAR WORDS:\n- なんとなく: somehow, for no particular reason — very similar but slightly more casual; often implies doing something without clear intent\n- ⟦どこか→どこか：02361_dokoka⟧: somewhere; in some way — can overlap in meaning but is broader in usage",
   "cross_references": [
     {
       "type": "contrast",
@@ -52,11 +52,32 @@
       "reading": "どこか",
       "headword": "どこか",
       "label": "somewhere; broader usage"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08702_nantonaku",
+      "reading": "なんとなく",
+      "headword": "{何|なん}となく",
+      "label": "somehow, for no particular reason"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16712_nandaka",
+      "reading": "なんだか",
+      "headword": "{何|なん}だか",
+      "label": "somehow, for some reason"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19323_kokoronashika",
+      "reading": "こころなしか",
+      "headword": "{心|こころ}なしか",
+      "label": "somehow"
     }
   ],
   "metadata": {
     "created": "2026-03-20T12:21:07Z",
-    "modified": "2026-06-08T02:21:06Z",
+    "modified": "2026-09-02T04:01:51Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

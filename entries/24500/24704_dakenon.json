@@ -15,40 +15,59 @@
   "examples": [
     {
       "id": "24704_dakenon_ex1",
-      "japanese": "{打鍵音|だけんおん}がうるさい。",
+      "japanese": "{打鍵音|だけんおん}⟦が→が：00051_ga⟧⟦うるさい→うるさい：00763_urusai⟧。",
       "english": "The typing noise is loud.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "24704_dakenon_ex2",
-      "japanese": "{静|しず}かな{打鍵音|だけんおん}のキーボードを{探|さが}している。",
+      "japanese": "⟦{静|しず}か→静か：00755_shizuka⟧な{打鍵音|だけんおん}⟦の→の：09472_no⟧⟦キーボード→キーボード：04410_kiiboodo⟧⟦を→を：00422_wo⟧⟦{探|さが}している→探す：00493_sagasu⟧。",
       "english": "I'm looking for a keyboard with quiet keystrokes.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "24704_dakenon_ex3",
-      "japanese": "カフェで{仕事|しごと}するときは、{打鍵音|だけんおん}に{気|き}を{使|つか}ったほうがいい。",
+      "japanese": "⟦カフェ→カフェ：06767_kafe⟧⟦で→で：00502_de⟧⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦する→する：00392_suru⟧とき⟦は→は：00079_ha⟧、{打鍵音|だけんおん}⟦に→に：00314_ni⟧⟦{気|き}→気：02199_ki⟧⟦を→を：00422_wo⟧⟦{使|つか}った→使う：00473_tsukau⟧⟦ほうがいい→ほうがいい：10078_hougaii⟧。",
       "english": "When working at a café, you should be mindful of your typing noise.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Combines {打鍵|だけん} (keystroke, key press) and {音|おん} (sound). A modern term that has become more common with the rise of remote work, shared office spaces, and the mechanical keyboard hobby community.\n\nCOMMON COLLOCATIONS:\n- {打鍵音|だけんおん}がうるさい: typing noise is loud\n- {打鍵音|だけんおん}が{静|しず}か: typing noise is quiet\n- {打鍵音|だけんおん}を{抑|おさ}える: to reduce typing noise\n- {打鍵音|だけんおん}が{気|き}になる: the typing noise bothers me\n\nRELATED TERMS:\n- {打鍵|だけん}: keystroke, key press — the base noun without the sound component\n- タイピング: typing — the loanword, more casual\n- {入力|にゅうりょく}: input — broader term for data entry of any kind",
+  "notes": "Combines ⟦{打鍵|だけん}→打鍵：19204_daken⟧ (keystroke, key press) and {音|おん} (sound). A modern term that has become more common with the rise of remote work, shared office spaces, and the mechanical keyboard hobby community.\n\nCOMMON COLLOCATIONS:\n- {打鍵音|だけんおん}⟦が→が：00051_ga⟧⟦うるさい→うるさい：00763_urusai⟧: typing noise is loud\n- {打鍵音|だけんおん}⟦が→が：00051_ga⟧⟦{静|しず}か→静か：00755_shizuka⟧: typing noise is quiet\n- {打鍵音|だけんおん}⟦を→を：00422_wo⟧⟦{抑|おさ}える→抑える：12806_osaeru⟧: to reduce typing noise\n- {打鍵音|だけんおん}⟦が→が：00051_ga⟧⟦{気|き}になる→気になる：03027_kininaru⟧: the typing noise bothers me\n\nRELATED WORDS:\n- ⟦{打鍵|だけん}→打鍵：19204_daken⟧: keystroke, key press — the base noun without the sound component\n- タイピング: typing — the loanword, more casual\n- ⟦{入力|にゅうりょく}→入力：04769_nyuuryoku⟧: input — broader term for data entry of any kind",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "04769_nyuuryoku",
+      "reading": "にゅうりょく",
+      "headword": "{入力|にゅうりょく}",
+      "label": "input"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["electronics"]
+      "semantic": [
+        "electronics"
+      ]
     },
     "created": "2026-04-20T12:15:05Z",
-    "modified": "2026-04-20T12:15:05Z"
+    "modified": "2026-09-02T04:02:19Z"
   }
 }

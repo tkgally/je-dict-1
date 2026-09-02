@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{硬貨|こうか} refers to metal coins.\n\nJAPANESE COINS:\n- 1⟦{円|えん}→円：00774_en⟧{硬貨|こうか} (1-yen coin - aluminum)\n- 5⟦{円|えん}→円：00774_en⟧{硬貨|こうか} (5-yen coin - brass, has a hole)\n- 10⟦{円|えん}→円：00774_en⟧{硬貨|こうか} (10-yen coin - bronze)\n- 50⟦{円|えん}→円：00774_en⟧{硬貨|こうか} (50-yen coin - cupronickel, has a hole)\n- 100⟦{円|えん}→円：00774_en⟧{硬貨|こうか} (100-yen coin - cupronickel)\n- 500⟦{円|えん}→円：00774_en⟧{硬貨|こうか} (500-yen coin - nickel-brass)\n\nCONTRAST:\n- {硬貨|こうか} (coins) ↔ ⟦{紙幣|しへい}→紙幣：00363_shihei⟧/⟦{札|さつ}→札：02153_satsu⟧ (paper money, bills)\n\nRELATED:\n- ⟦{小銭|こぜに}→小銭：02759_kozeni⟧ (coins, small change - casual term)",
+  "notes": "{硬貨|こうか} refers to metal coins.\n\nJAPANESE COINS:\n- 1⟦{円|えん}→円：00774_en⟧{硬貨|こうか} (1-yen coin - aluminum)\n- 5⟦{円|えん}→円：00774_en⟧{硬貨|こうか} (5-yen coin - brass, has a hole)\n- 10⟦{円|えん}→円：00774_en⟧{硬貨|こうか} (10-yen coin - bronze)\n- 50⟦{円|えん}→円：00774_en⟧{硬貨|こうか} (50-yen coin - cupronickel, has a hole)\n- 100⟦{円|えん}→円：00774_en⟧{硬貨|こうか} (100-yen coin - cupronickel)\n- 500⟦{円|えん}→円：00774_en⟧{硬貨|こうか} (500-yen coin - nickel-brass)\n\nSIMILAR WORDS:\n- {硬貨|こうか} (coins) ↔ ⟦{紙幣|しへい}→紙幣：00363_shihei⟧/⟦{札|さつ}→札：02153_satsu⟧ (paper money, bills)\n\nRELATED WORDS:\n- ⟦{小銭|こぜに}→小銭：02759_kozeni⟧ (coins, small change - casual term)",
   "cross_references": [
     {
       "type": "antonym",
@@ -58,11 +58,46 @@
       "reading": "こいん",
       "headword": "コイン",
       "label": "loanword"
+    },
+    {
+      "type": "related",
+      "target_id": "02759_kozeni",
+      "reading": "こぜに",
+      "headword": "{小銭|こぜに}",
+      "label": "coins, small change"
+    },
+    {
+      "type": "related",
+      "target_id": "14466_kinka",
+      "reading": "きんか",
+      "headword": "{金貨|きんか}",
+      "label": "gold coin"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27314_kosen",
+      "reading": "こせん",
+      "headword": "{古銭|こせん}",
+      "label": "old coin"
+    },
+    {
+      "type": "related",
+      "target_id": "27344_endama",
+      "reading": "えんだま",
+      "headword": "{円玉|えんだま}",
+      "label": "yen coin (used after a denomination, e.g. 100{円玉|えんだま} \"100-yen coin\")"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27588_nipponginkouken",
+      "reading": "にっぽんぎんこうけん",
+      "headword": "{日本銀行券|にっぽんぎんこうけん}",
+      "label": "Bank of Japan note"
     }
   ],
   "metadata": {
     "created": "2026-01-11T07:48:45Z",
-    "modified": "2026-06-12T04:00:00Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

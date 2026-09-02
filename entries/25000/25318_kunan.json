@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25318_kunan_ex1",
-      "japanese": "{多|おお}くの{苦難|くなん}を{乗|の}り{越|こ}えてきた。",
+      "japanese": "{多|おお}く⟦の→の：09472_no⟧{苦難|くなん}⟦を→を：00422_wo⟧⟦{乗|の}り{越|こ}えて→乗り越える：04620_norikoeru⟧きた。",
       "english": "I have overcome many hardships.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25318_kunan_ex2",
-      "japanese": "{苦難|くなん}の{時代|じだい}を{生|い}き{抜|ぬ}いた{人々|ひとびと}の{話|はなし}を{聞|き}いた。",
+      "japanese": "{苦難|くなん}⟦の→の：09472_no⟧⟦{時代|じだい}→時代：01424_jidai⟧⟦を→を：00422_wo⟧⟦{生|い}き→生きる：01184_ikiru⟧⟦{抜|ぬ}いた→抜く：02384_nuku⟧⟦{人々|ひとびと}→人々：03141_hitobito⟧⟦の→の：09472_no⟧⟦{話|はなし}→話：01496_hanashi⟧⟦を→を：00422_wo⟧⟦{聞|き}いた→聞く：00483_kiku⟧。",
       "english": "I listened to the stories of people who lived through times of adversity.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25318_kunan_ex3",
-      "japanese": "{苦難|くなん}に{立|た}ち{向|む}かう{勇気|ゆうき}を{持|も}つことが{人|ひと}を{成長|せいちょう}させる。",
+      "japanese": "{苦難|くなん}⟦に→に：00314_ni⟧⟦{立|た}ち{向|む}かう→立ち向かう：06981_tachimukau⟧⟦{勇気|ゆうき}→勇気：02499_yuuki⟧⟦を→を：00422_wo⟧⟦{持|も}つ→持つ：00478_motsu⟧こと⟦が→が：00051_ga⟧⟦{人|ひと}→人：00476_hito⟧⟦を→を：00422_wo⟧⟦{成長|せいちょう}→成長：03290_seichou⟧⟦させる→する：00392_suru⟧。",
       "english": "Having the courage to face adversity helps a person grow.",
       "sense_numbers": [
         1
@@ -44,19 +44,50 @@
       "notes": null
     }
   ],
-  "notes": "A somewhat literary word for serious suffering or difficult circumstances. Composed of {苦|く} (suffering) and {難|なん} (difficulty). Carries a weightier tone than casual words for difficulty, often used to describe prolonged or significant challenges that test character.\n\nCOMMON COLLOCATIONS:\n- {苦難|くなん}を{乗|の}り{越|こ}える: overcome hardship\n- {苦難|くなん}に{立|た}ち{向|む}かう: face adversity\n- {苦難|くなん}の{道|みち}: a path of hardship\n- {苦難|くなん}に{耐|た}える: endure hardship\n\nSIMILAR WORDS:\n- {困難|こんなん}: difficulty — more neutral, used for problems and obstacles in general\n- {苦労|くろう}: hardship, trouble — more everyday, often includes personal effort\n- {試練|しれん}: trial, ordeal — emphasizes the testing or challenging aspect",
+  "notes": "A somewhat literary word for serious suffering or difficult circumstances. Composed of {苦|く} (suffering) and ⟦{難|なん}→難：00452_nan⟧ (difficulty). Carries a weightier tone than casual words for difficulty, often used to describe prolonged or significant challenges that test character.\n\nCOMMON COLLOCATIONS:\n- {苦難|くなん}⟦を→を：00422_wo⟧⟦{乗|の}り{越|こ}える→乗り越える：04620_norikoeru⟧: overcome hardship\n- {苦難|くなん}⟦に→に：00314_ni⟧⟦{立|た}ち{向|む}かう→立ち向かう：06981_tachimukau⟧: face adversity\n- {苦難|くなん}⟦の→の：09472_no⟧⟦{道|みち}→道：00505_michi⟧: a path of hardship\n- {苦難|くなん}⟦に→に：00314_ni⟧⟦{耐|た}える→耐える：12087_taeru⟧: endure hardship\n\nSIMILAR WORDS:\n- ⟦{困難|こんなん}→困難：01410_konnan⟧: difficulty — more neutral, used for problems and obstacles in general\n- ⟦{苦労|くろう}→苦労：02672_kurou⟧: hardship, trouble — more everyday, often includes personal effort\n- ⟦{試練|しれん}→試練：14173_shiren⟧: trial, ordeal — emphasizes the testing or challenging aspect",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01410_konnan",
+      "reading": "こんなん",
+      "headword": "{困難|こんなん}",
+      "label": "difficulty"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02672_kurou",
+      "reading": "くろう",
+      "headword": "{苦労|くろう}",
+      "label": "hardship, trouble"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14173_shiren",
+      "reading": "しれん",
+      "headword": "{試練|しれん}",
+      "label": "trial, ordeal"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27156_konku",
+      "reading": "こんく",
+      "headword": "{困苦|こんく}",
+      "label": "hardship"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "emotion"
       ]
     },
     "created": "2026-04-24T14:26:17Z",
-    "modified": "2026-08-04T12:59:53Z"
+    "modified": "2026-09-02T04:02:21Z"
   }
 }

@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "20806_kyuufukin_ex1",
-      "japanese": "{給付金|きゅうふきん}を{申請|しんせい}した。",
+      "japanese": "{給付金|きゅうふきん}⟦を→を：00422_wo⟧⟦{申請|しんせい}した→申請する：25228_shinseisuru⟧。",
       "english": "I applied for the benefit payment.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "20806_kyuufukin_ex2",
-      "japanese": "{給付金|きゅうふきん}の{支給|しきゅう}が{始|はじ}まった。",
+      "japanese": "{給付金|きゅうふきん}⟦の→の：09472_no⟧⟦{支給|しきゅう}→支給：02835_shikyuu⟧⟦が→が：00051_ga⟧⟦{始|はじ}まった→始まる：00841_hajimaru⟧。",
       "english": "Distribution of the benefit payments has begun.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "20806_kyuufukin_ex3",
-      "japanese": "{政府|せいふ}は{低所得世帯|ていしょとくせたい}に{一人|ひとり}{当|あ}たり{十万円|じゅうまんえん}の{給付金|きゅうふきん}を{支給|しきゅう}すると{発表|はっぴょう}した。",
+      "japanese": "⟦{政府|せいふ}→政府：03294_seifu⟧⟦は→は：00079_ha⟧{低所得世帯|ていしょとくせたい}⟦に→に：00314_ni⟧⟦{一人|ひとり}→一人：00630_hitori⟧⟦{当|あ}たり→当たり：01919_atari⟧{十万円|じゅうまんえん}⟦の→の：09472_no⟧{給付金|きゅうふきん}⟦を→を：00422_wo⟧⟦{支給|しきゅう}→支給：02835_shikyuu⟧⟦する→する：00392_suru⟧⟦と→と：00512_to⟧⟦{発表|はっぴょう}した→発表する：25231_happyousuru⟧。",
       "english": "The government announced it would provide 100,000 yen per person in benefits to low-income households.",
       "sense_numbers": [
         1
@@ -43,8 +43,37 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {給付|きゅうふ} (provision/benefit) and {金|きん} (money). Became extremely common in everyday Japanese during and after the COVID-19 pandemic, when the government distributed {特別定額給付金|とくべつていがくきゅうふきん} (special cash payments) to residents.\n\nCOMMON COLLOCATIONS:\n- {給付金|きゅうふきん}を{申請|しんせい}する: to apply for a benefit payment\n- {給付金|きゅうふきん}を{受|う}け{取|と}る: to receive a benefit payment\n- {給付金|きゅうふきん}の{支給|しきゅう}: distribution of benefits\n- {給付金|きゅうふきん}{詐欺|さぎ}: benefit fraud\n\nSIMILAR WORDS:\n- {補助金|ほじょきん}: subsidy — typically for businesses or projects\n- {助成金|じょせいきん}: grant — for specific programs or research\n- {手当|てあて}: allowance — regular payments like child or housing allowance",
-  "cross_references": [],
+  "notes": "A compound of ⟦{給付|きゅうふ}→給付：13848_kyuufu⟧ (provision/benefit) and {金|きん} (money). Became extremely common in everyday Japanese during and after the COVID-19 pandemic, when the government distributed {特別定額給付金|とくべつていがくきゅうふきん} (special cash payments) to residents.\n\nCOMMON COLLOCATIONS:\n- {給付金|きゅうふきん}⟦を→を：00422_wo⟧⟦{申請|しんせい}する→申請する：25228_shinseisuru⟧: to apply for a benefit payment\n- {給付金|きゅうふきん}⟦を→を：00422_wo⟧⟦{受|う}け{取|と}る→受け取る：01883_uketoru⟧: to receive a benefit payment\n- {給付金|きゅうふきん}⟦の→の：09472_no⟧⟦{支給|しきゅう}→支給：02835_shikyuu⟧: distribution of benefits\n- {給付金|きゅうふきん}⟦{詐欺|さぎ}→詐欺：09789_sagi⟧: benefit fraud\n\nSIMILAR WORDS:\n- ⟦{補助金|ほじょきん}→補助金：19222_hojokin⟧: subsidy — typically for businesses or projects\n- ⟦{助成金|じょせいきん}→助成金：11343_joseikin⟧: grant — for specific programs or research\n- ⟦{手当|てあて}→手当：04881_teate⟧: allowance — regular payments like child or housing allowance",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19222_hojokin",
+      "reading": "ほじょきん",
+      "headword": "{補助金|ほじょきん}",
+      "label": "subsidy"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11343_joseikin",
+      "reading": "じょせいきん",
+      "headword": "{助成金|じょせいきん}",
+      "label": "grant"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04881_teate",
+      "reading": "てあて",
+      "headword": "{手当|てあて}",
+      "label": "allowance"
+    },
+    {
+      "type": "related",
+      "target_id": "23617_hihokensha",
+      "reading": "ひほけんしゃ",
+      "headword": "{被保険者|ひほけんしゃ}",
+      "label": "the insured"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -60,6 +89,6 @@
       "domain": []
     },
     "created": "2026-03-30T17:10:34Z",
-    "modified": "2026-03-30T17:10:34Z"
+    "modified": "2026-09-02T04:02:01Z"
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "15345_chokinbako_ex1",
-      "japanese": "{貯金箱|ちょきんばこ}にお{金|かね}を{入|い}れた。",
+      "japanese": "{貯金箱|ちょきんばこ}⟦に→に：00314_ni⟧⟦お{金|かね}→お金：00611_okane⟧⟦を→を：00422_wo⟧⟦{入|い}れた→入れる：01098_ireru⟧。",
       "english": "I put money in the piggy bank.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "15345_chokinbako_ex2",
-      "japanese": "{子供|こども}がブタの{貯金箱|ちょきんばこ}を{持|も}っている。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧⟦が→が：00051_ga⟧ブタ⟦の→の：09472_no⟧{貯金箱|ちょきんばこ}⟦を→を：00422_wo⟧⟦{持|も}っている→持つ：00478_motsu⟧。",
       "english": "The child has a pig-shaped piggy bank.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "15345_chokinbako_ex3",
-      "japanese": "{貯金箱|ちょきんばこ}を{割|わ}ったら、{三万円|さんまんえん}も{入|はい}っていた。",
+      "japanese": "{貯金箱|ちょきんばこ}⟦を→を：00422_wo⟧⟦{割|わ}ったら→割る：02334_waru⟧、{三万円|さんまんえん}⟦も→も：00484_mo⟧⟦{入|はい}っていた→入る：00494_hairu⟧。",
       "english": "When I broke open the piggy bank, there was 30,000 yen inside.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA common everyday word. Traditional Japanese {貯金箱|ちょきんばこ} come in various shapes; some are designed to be broken open ({割|わ}る) when full.\n\nCOMMON COLLOCATIONS:\n- {貯金箱|ちょきんばこ}にお{金|かね}を{入|い}れる (to put money in a piggy bank)\n- {貯金箱|ちょきんばこ}を{割|わ}る (to break open a piggy bank)\n- {貯金箱|ちょきんばこ}が{一杯|いっぱい}になる (for a piggy bank to become full)\n\nWORD FORMATION:\n{貯金|ちょきん} (savings) + {箱|はこ} (box). The は becomes ば due to rendaku.",
+  "notes": "USAGE:\nA common everyday word. Traditional Japanese {貯金箱|ちょきんばこ} come in various shapes; some are designed to be broken open (⟦{割|わ}る→割る：02334_waru⟧) when full.\n\nCOMMON COLLOCATIONS:\n- {貯金箱|ちょきんばこ}⟦に→に：00314_ni⟧⟦お{金|かね}→お金：00611_okane⟧⟦を→を：00422_wo⟧⟦{入|い}れる→入れる：01098_ireru⟧ (to put money in a piggy bank)\n- {貯金箱|ちょきんばこ}⟦を→を：00422_wo⟧⟦{割|わ}る→割る：02334_waru⟧ (to break open a piggy bank)\n- {貯金箱|ちょきんばこ}⟦が→が：00051_ga⟧⟦{一杯|いっぱい}→一杯：01793_ippai⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧ (for a piggy bank to become full)\n\nFORMS:\n⟦{貯金|ちょきん}→貯金：03497_chokin⟧ (savings) + ⟦{箱|はこ}→箱：02162_hako⟧ (box). The ⟦は→は：00079_ha⟧ becomes ば due to rendaku.",
   "cross_references": [
     {
       "type": "related",
@@ -56,7 +56,7 @@
   ],
   "metadata": {
     "created": "2026-03-06T09:54:17Z",
-    "modified": "2026-05-01T06:14:09Z",
+    "modified": "2026-09-02T04:01:40Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -64,6 +64,7 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "money",
         "daily-life"

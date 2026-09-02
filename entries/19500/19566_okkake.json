@@ -15,40 +15,60 @@
   "examples": [
     {
       "id": "19566_okkake_ex1",
-      "japanese": "{彼女|かのじょ}はあのアイドルの{追|お}っかけだ。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧⟦あの→あの：00915_ano⟧⟦アイドル→アイドル：05111_aidoru⟧⟦の→の：09472_no⟧{追|お}っかけだ。",
       "english": "She's a devoted fan of that idol.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19566_okkake_ex2",
-      "japanese": "{若|わか}い{頃|ころ}はバンドの{追|お}っかけをしていた。",
+      "japanese": "{若|わか}い{頃|ころ}⟦は→は：00079_ha⟧⟦バンド→バンド：05508_bando⟧⟦の→の：09472_no⟧{追|お}っかけ⟦を→を：00422_wo⟧⟦していた→する：00392_suru⟧。",
       "english": "When I was young, I used to follow bands around.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19566_okkake_ex3",
-      "japanese": "{全国|ぜんこく}ツアーの{全|すべ}ての{会場|かいじょう}に{行|い}く{追|お}っかけファンも{少|すく}なくない。",
+      "japanese": "⟦{全国|ぜんこく}→全国：03311_zenkoku⟧⟦ツアー→ツアー：08285_tsuaa⟧⟦の→の：09472_no⟧⟦{全|すべ}て→全て：03822_subete⟧⟦の→の：09472_no⟧⟦{会場|かいじょう}→会場：01269_kaijou⟧⟦に→に：00314_ni⟧⟦{行|い}く→行く：00119_iku⟧{追|お}っかけ⟦ファン→ファン：10065_fan⟧⟦も→も：00484_mo⟧⟦{少|すく}なくない→少ない：01136_sukunai⟧。",
       "english": "There are quite a few devoted fans who go to every venue on the nationwide tour.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Derived from the verb {追|お}いかける (to chase after), with the casual sound change おいかけ → おっかけ. The word describes fans who physically follow celebrities to events, concerts, and appearances. While it can be used lightheartedly, it sometimes carries a slightly negative nuance of obsessiveness.\n\nUSAGE:\nCan be used as a noun ({追|お}っかけ) to describe the person, or as a verb phrase ({追|お}っかけをする) to describe the activity. {追|お}っかけファン is a common reinforced form.\n\nCOMMON COLLOCATIONS:\n- {追|お}っかけをする — to follow (a celebrity) around\n- {追|お}っかけファン — devoted/obsessive fan\n- アイドルの{追|お}っかけ — an idol's devoted follower\n\nCULTURAL NOTE:\nThe concept is particularly associated with Japan's idol culture, where fans travel across the country to attend handshake events, concerts, and public appearances. The term predates the internet era and reflects a tradition of physically present fandom.\n\nSIMILAR WORDS:\n- ファン — fan; general term without the \"following around\" nuance\n- {熱狂的|ねっきょうてき}ファン — fanatical fan; emphasizes intensity of emotion\n- ストーカー — stalker; much more negative, implies criminal behavior",
+  "notes": "Derived from the verb ⟦{追|お}いかける→追いかける：16734_oikakeru⟧ (to chase after), with the casual sound change おいかけ → おっかけ. The word describes fans who physically follow celebrities to events, concerts, and appearances. While it can be used lightheartedly, it sometimes carries a slightly negative nuance of obsessiveness.\n\nUSAGE:\nCan be used as a noun ({追|お}っかけ) to describe the person, or as a verb phrase ({追|お}っかけ⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧) to describe the activity. {追|お}っかけ⟦ファン→ファン：10065_fan⟧ is a common reinforced form.\n\nCOMMON COLLOCATIONS:\n- {追|お}っかけ⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧ — to follow (a celebrity) around\n- {追|お}っかけ⟦ファン→ファン：10065_fan⟧ — devoted/obsessive fan\n- ⟦アイドル→アイドル：05111_aidoru⟧⟦の→の：09472_no⟧{追|お}っかけ — an idol's devoted follower\n\nCULTURAL NOTE:\nThe concept is particularly associated with Japan's idol culture, where fans travel across the country to attend handshake events, concerts, and public appearances. The term predates the internet era and reflects a tradition of physically present fandom.\n\nSIMILAR WORDS:\n- ⟦ファン→ファン：10065_fan⟧ — fan; general term without the \"following around\" nuance\n- ⟦{熱狂的|ねっきょうてき}→熱狂的：21900_nekkyouteki⟧⟦ファン→ファン：10065_fan⟧ — fanatical fan; emphasizes intensity of emotion\n- ストーカー — stalker; much more negative, implies criminal behavior",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "10065_fan",
+      "reading": "ふぁん",
+      "headword": "ファン",
+      "label": "fan"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "informal",
       "politeness": "plain",
-      "semantic": ["entertainment", "society"]
+      "semantic": [
+        "entertainment",
+        "society"
+      ]
     },
     "created": "2026-03-26T05:17:32Z",
-    "modified": "2026-07-26T21:31:07Z"
+    "modified": "2026-09-02T04:01:56Z"
   }
 }

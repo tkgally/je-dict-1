@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "10847_guroobaru_ex1",
-      "japanese": "グローバルな{視点|してん}が{大切|たいせつ}だ。",
+      "japanese": "グローバルな⟦{視点|してん}→視点：03187_shiten⟧⟦が→が：00051_ga⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧だ。",
       "english": "A global perspective is important.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10847_guroobaru_ex2",
-      "japanese": "グローバル{企業|きぎょう}で{働|はたら}きたい。",
+      "japanese": "グローバル⟦{企業|きぎょう}→企業：00225_kigyou⟧⟦で→で：00502_de⟧⟦{働|はたら}きたい→働く：00503_hataraku⟧。",
       "english": "I want to work at a global company.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10847_guroobaru_ex3",
-      "japanese": "グローバル{化|か}が{進|すす}む{中|なか}で、{語学力|ごがくりょく}はますます{重要|じゅうよう}になっている。",
+      "japanese": "グローバル{化|か}⟦が→が：00051_ga⟧⟦{進|すす}む→進む：01225_susumu⟧⟦{中|なか}→中：00654_naka⟧⟦で→で：00502_de⟧、⟦{語学力|ごがくりょく}→語学力：29443_gogakuryoku⟧⟦は→は：00079_ha⟧⟦ますます→ますます：01604_masumasu⟧⟦{重要|じゅうよう}→重要：01575_juuyou⟧になっている。",
       "english": "As globalization advances, language skills are becoming increasingly important.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "グローバル comes from English \"global\" and is widely used in business and media.\n\nUSAGE:\n- グローバルな + noun: global ~\n- グローバル + noun (compound): global ~ (no な needed)\n\nCOMMON COMPOUNDS:\n- グローバル{化|か}: globalization\n- グローバル{企業|きぎょう}: global company, multinational corporation\n- グローバル{人材|じんざい}: globally-minded talent\n- グローバルスタンダード: global standard\n\nSIMILAR WORDS:\n- {国際的|こくさいてき}: international (more formal, commonly used in official contexts)\n- {世界的|せかいてき}: worldwide (emphasizes scale)\n- グローバル: global (emphasizes interconnectedness, commonly used in business)",
+  "notes": "グローバル comes from English \"global\" and is widely used in business and media.\n\nUSAGE:\n- グローバルな + noun: global ~\n- グローバル + noun (compound): global ~ (no な needed)\n\nCOMPOUNDS:\n- グローバル{化|か}: globalization\n- グローバル⟦{企業|きぎょう}→企業：00225_kigyou⟧: global company, multinational corporation\n- グローバル{人材|じんざい}: globally-minded talent\n- グローバルスタンダード: global standard\n\nSIMILAR WORDS:\n- ⟦{国際的|こくさいてき}→国際的：06457_kokusaiteki⟧: international (more formal, commonly used in official contexts)\n- ⟦{世界的|せかいてき}→世界的：20935_sekaiteki⟧: worldwide (emphasizes scale)\n- グローバル: global (emphasizes interconnectedness, commonly used in business)",
   "cross_references": [
     {
       "type": "synonym",
@@ -46,18 +52,38 @@
       "reading": "こくさいてき",
       "headword": "{国際的|こくさいてき}",
       "label": "international (formal)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20935_sekaiteki",
+      "reading": "せかいてき",
+      "headword": "{世界的|せかいてき}",
+      "label": "worldwide"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26685_chikyuuteki",
+      "reading": "ちきゅうてき",
+      "headword": "{地球的|ちきゅうてき}",
+      "label": "global"
     }
   ],
   "metadata": {
     "created": "2026-02-11T06:42:06Z",
-    "modified": "2026-04-24T09:07:32Z",
+    "modified": "2026-09-02T04:01:22Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-na"],
+      "pos": [
+        "adjective-na"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "domain": ["business"],
-      "semantic": ["descriptive"]
+      "domain": [
+        "business"
+      ],
+      "semantic": [
+        "descriptive"
+      ]
     }
   }
 }

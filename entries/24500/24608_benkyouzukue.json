@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24608_benkyouzukue_ex1",
-      "japanese": "{子供|こども}に{勉強机|べんきょうづくえ}を{買|か}ってあげた。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧⟦に→に：00314_ni⟧{勉強机|べんきょうづくえ}⟦を→を：00422_wo⟧⟦{買|か}って→買う：00489_kau⟧⟦あげた→あげる：00546_ageru⟧。",
       "english": "I bought a study desk for my child.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24608_benkyouzukue_ex2",
-      "japanese": "{勉強机|べんきょうづくえ}の{上|うえ}が{散|ち}らかっていて{集中|しゅうちゅう}できない。",
+      "japanese": "{勉強机|べんきょうづくえ}⟦の→の：09472_no⟧⟦{上|うえ}→上：00682_ue⟧⟦が→が：00051_ga⟧⟦{散|ち}らかっていて→散らかる：04357_chirakaru⟧⟦{集中|しゅうちゅう}できない→集中する：21908_shuuchuusuru⟧。",
       "english": "My desk is so cluttered I can't concentrate.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24608_benkyouzukue_ex3",
-      "japanese": "{入学|にゅうがく}のお{祝|いわ}いに{祖父母|そふぼ}から{勉強机|べんきょうづくえ}をプレゼントしてもらうのが、{日本|にほん}では{一般的|いっぱんてき}だ。",
+      "japanese": "⟦{入学|にゅうがく}→入学：02092_nyuugaku⟧⟦の→の：09472_no⟧⟦お{祝|いわ}い→お祝い：01339_oiwai⟧⟦に→に：00314_ni⟧⟦{祖父母|そふぼ}→祖父母：03110_sofubo⟧⟦から→から：00504_kara⟧{勉強机|べんきょうづくえ}⟦を→を：00422_wo⟧⟦プレゼント→プレゼント：01791_purezento⟧⟦して→する：00392_suru⟧⟦もらう→もらう：00520_morau⟧⟦の→の：09472_no⟧⟦が→が：00051_ga⟧、⟦{日本|にほん}→日本：03876_nihon⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{一般的|いっぱんてき}→一般的：04784_ippanteki⟧だ。",
       "english": "In Japan, it is common to receive a study desk as a gift from grandparents to celebrate starting school.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "A desk designed for studying, typically purchased for children entering elementary school. In Japan, buying a {勉強机|べんきょうづくえ} is a traditional milestone associated with a child's school entrance, often given by grandparents as an entrance gift.\n\nCOMMON COLLOCATIONS:\n- {勉強机|べんきょうづくえ}に{向|む}かう: to sit down at one's study desk\n- {勉強机|べんきょうづくえ}を{片付|かたづ}ける: to tidy up one's desk\n- {勉強机|べんきょうづくえ}を{選|えら}ぶ: to choose a study desk\n- {子供用|こどもよう}{勉強机|べんきょうづくえ}: children's study desk\n\nSIMILAR WORDS:\n- {机|つくえ}: desk — general term for any desk or table\n- {書斎|しょさい}: study, home office — the room itself\n- {学習机|がくしゅうづくえ}: study desk — synonym, often used in product names",
+  "notes": "A desk designed for studying, typically purchased for children entering elementary school. In Japan, buying a {勉強机|べんきょうづくえ} is a traditional milestone associated with a child's school entrance, often given by grandparents as an entrance gift.\n\nCOMMON COLLOCATIONS:\n- {勉強机|べんきょうづくえ}⟦に→に：00314_ni⟧⟦{向|む}かう→向かう：01186_mukau⟧: to sit down at one's study desk\n- {勉強机|べんきょうづくえ}⟦を→を：00422_wo⟧⟦{片付|かたづ}ける→片付ける：01192_katazukeru⟧: to tidy up one's desk\n- {勉強机|べんきょうづくえ}⟦を→を：00422_wo⟧⟦{選|えら}ぶ→選ぶ：00835_erabu⟧: to choose a study desk\n- {子供用|こどもよう}{勉強机|べんきょうづくえ}: children's study desk\n\nSIMILAR WORDS:\n- ⟦{机|つくえ}→机：00762_tsukue⟧: desk — general term for any desk or table\n- ⟦{書斎|しょさい}→書斎：03760_shosai⟧: study, home office — the room itself\n- ⟦{学習机|がくしゅうづくえ}→学習机：16663_gakushuuzukue⟧: study desk — synonym, often used in product names",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03760_shosai",
+      "reading": "しょさい",
+      "headword": "{書斎|しょさい}",
+      "label": "study, home office"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16663_gakushuuzukue",
+      "reading": "がくしゅうづくえ",
+      "headword": "{学習机|がくしゅうづくえ}",
+      "label": "study desk"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -63,6 +79,6 @@
       ]
     },
     "created": "2026-04-19T16:32:30Z",
-    "modified": "2026-04-19T16:32:30Z"
+    "modified": "2026-09-02T04:02:19Z"
   }
 }

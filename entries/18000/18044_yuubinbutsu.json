@@ -14,40 +14,73 @@
   "examples": [
     {
       "id": "18044_yuubinbutsu_ex1",
-      "japanese": "{郵便物|ゆうびんぶつ}が{届|とど}いた。",
+      "japanese": "{郵便物|ゆうびんぶつ}⟦が→が：00051_ga⟧⟦{届|とど}いた→届く：00899_todoku⟧。",
       "english": "The mail arrived.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "18044_yuubinbutsu_ex2",
-      "japanese": "{不在|ふざい}で{郵便物|ゆうびんぶつ}を{受|う}け{取|と}れなかった。",
+      "japanese": "⟦{不在|ふざい}→不在：11302_fuzai⟧⟦で→で：00502_de⟧{郵便物|ゆうびんぶつ}⟦を→を：00422_wo⟧⟦{受|う}け{取|と}れなかった→受け取る：01883_uketoru⟧。",
       "english": "I was out and couldn't receive the mail.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "18044_yuubinbutsu_ex3",
-      "japanese": "{大量|たいりょう}の{郵便物|ゆうびんぶつ}が{毎日|まいにち}{届|とど}くので、{仕分|しわ}けが{大変|たいへん}だ。",
+      "japanese": "⟦{大量|たいりょう}→大量：03112_tairyou⟧⟦の→の：09472_no⟧{郵便物|ゆうびんぶつ}⟦が→が：00051_ga⟧⟦{毎日|まいにち}→毎日：00729_mainichi⟧⟦{届|とど}く→届く：00899_todoku⟧⟦の→の：09472_no⟧で、⟦{仕分|しわ}け→仕分け：07917_shiwake⟧⟦が→が：00051_ga⟧⟦{大変|たいへん}→大変：00594_taihen⟧だ。",
       "english": "A large volume of mail arrives every day, so sorting it is quite a task.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "The standard term for physical mail of all types — letters, packages, postcards, etc. More formal and comprehensive than {手紙|てがみ} (letter) or {荷物|にもつ} (package).\n\nWORD FORMATION:\n{郵便|ゆうびん} (postal service) + {物|ぶつ} (item, thing)\n\nCOMMON COLLOCATIONS:\n- {郵便物|ゆうびんぶつ}が{届|とど}く: mail arrives\n- {郵便物|ゆうびんぶつ}を{届|とど}ける: to deliver mail\n- {郵便物|ゆうびんぶつ}の{転送|てんそう}: mail forwarding\n- {書留|かきとめ}{郵便物|ゆうびんぶつ}: registered mail\n- {郵便物|ゆうびんぶつ}を{受|う}け{取|と}る: to receive mail\n\nRELATED:\n- {郵便|ゆうびん}{受|う}け/{郵便|ゆうびん}ポスト: mailbox\n- {宅配便|たくはいびん}: home delivery service (courier)\n- {小包|こづつみ}: parcel, small package",
+  "notes": "The standard term for physical mail of all types — letters, packages, postcards, etc. More formal and comprehensive than ⟦{手紙|てがみ}→手紙：00675_tegami⟧ (letter) or ⟦{荷物|にもつ}→荷物：00737_nimotsu⟧ (package).\n\nFORMS:\n⟦{郵便|ゆうびん}→郵便：03803_yuubin⟧ (postal service) + ⟦{物|ぶつ}→〜物：28336_butsu⟧ (item, thing)\n\nCOMMON COLLOCATIONS:\n- {郵便物|ゆうびんぶつ}⟦が→が：00051_ga⟧⟦{届|とど}く→届く：00899_todoku⟧: mail arrives\n- {郵便物|ゆうびんぶつ}⟦を→を：00422_wo⟧⟦{届|とど}ける→届ける：01248_todokeru⟧: to deliver mail\n- {郵便物|ゆうびんぶつ}⟦の→の：09472_no⟧⟦{転送|てんそう}→転送：14792_tensou⟧: mail forwarding\n- ⟦{書留|かきとめ}→書留：00150_kakitome⟧{郵便物|ゆうびんぶつ}: registered mail\n- {郵便物|ゆうびんぶつ}⟦を→を：00422_wo⟧⟦{受|う}け{取|と}る→受け取る：01883_uketoru⟧: to receive mail\n\nRELATED WORDS:\n- ⟦{郵便|ゆうびん}{受|う}け→郵便受け：04889_yuubinuke⟧/⟦{郵便|ゆうびん}→郵便：03803_yuubin⟧⟦ポスト→ポスト：02965_posuto⟧: mailbox\n- ⟦{宅配便|たくはいびん}→宅配便：09534_takuhaibin⟧: home delivery service (courier)\n- ⟦{小包|こづつみ}→小包：02764_kozutsumi⟧: parcel, small package",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "04889_yuubinuke",
+      "reading": "ゆうびんうけ",
+      "headword": "{郵便受|ゆうびんう}け",
+      "label": "mailbox"
+    },
+    {
+      "type": "related",
+      "target_id": "09534_takuhaibin",
+      "reading": "たくはいびん",
+      "headword": "{宅配便|たくはいびん}",
+      "label": "home delivery service"
+    },
+    {
+      "type": "related",
+      "target_id": "02764_kozutsumi",
+      "reading": "こづつみ",
+      "headword": "{小包|こづつみ}",
+      "label": "parcel, small package"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     },
     "created": "2026-03-19T12:21:12Z",
-    "modified": "2026-03-28T09:49:25Z"
+    "modified": "2026-09-02T04:01:50Z"
   }
 }

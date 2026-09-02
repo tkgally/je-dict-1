@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "16673_yuwakashiki_ex1",
-      "japanese": "{湯沸|ゆわ}かし{器|き}が{壊|こわ}れた。",
+      "japanese": "{湯沸|ゆわ}かし{器|き}⟦が→が：00051_ga⟧⟦{壊|こわ}れた→壊れる：00791_kowareru⟧。",
       "english": "The water heater broke.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "16673_yuwakashiki_ex2",
-      "japanese": "キッチンに{湯沸|ゆわ}かし{器|き}を{取|と}り{付|つ}けた。",
+      "japanese": "⟦キッチン→キッチン：10815_kicchin⟧⟦に→に：00314_ni⟧{湯沸|ゆわ}かし{器|き}⟦を→を：00422_wo⟧⟦{取|と}り{付|つ}けた→取り付ける：06797_toritsukeru⟧。",
       "english": "We installed a water heater in the kitchen.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "16673_yuwakashiki_ex3",
-      "japanese": "{古|ふる}い{湯沸|ゆわ}かし{器|き}は{安全|あんぜん}のために{早|はや}めに{交換|こうかん}した{方|ほう}がいい。",
+      "japanese": "⟦{古|ふる}い→古い：00488_furui⟧{湯沸|ゆわ}かし{器|き}⟦は→は：00079_ha⟧⟦{安全|あんぜん}→安全：01131_anzen⟧⟦の→の：09472_no⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧⟦{早|はや}め→早め：11176_hayame⟧⟦に→に：00314_ni⟧⟦{交換|こうかん}→交換：02746_koukan⟧⟦した→する：00392_suru⟧⟦{方|ほう}→方：01139_hou⟧⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧。",
       "english": "It is better to replace an old water heater early for safety reasons.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,33 @@
       ]
     }
   ],
-  "notes": "USAGE:\nOften refers to a small gas water heater ({瞬間|しゅんかん}{湯沸|ゆわ}かし{器|き}) installed above a kitchen sink, which was common in older Japanese apartments. Can also refer to electric water boilers.\n\nCOMMON COLLOCATIONS:\n- {湯沸|ゆわ}かし{器|き}を{交換|こうかん}する (to replace a water heater)\n- ガス{湯沸|ゆわ}かし{器|き} (gas water heater)\n- {瞬間|しゅんかん}{湯沸|ゆわ}かし{器|き} (instant water heater)\n\nSIMILAR WORDS:\n- {給湯器|きゅうとうき}: hot water heater — a more modern/formal term for the same appliance\n- ポット: electric pot — an appliance that boils and keeps water warm",
-  "cross_references": [],
+  "notes": "USAGE:\nOften refers to a small gas water heater (⟦{瞬間|しゅんかん}→瞬間：03226_shunkan⟧{湯沸|ゆわ}かし{器|き}) installed above a kitchen sink, which was common in older Japanese apartments. Can also refer to electric water boilers.\n\nCOMMON COLLOCATIONS:\n- {湯沸|ゆわ}かし{器|き}⟦を→を：00422_wo⟧⟦{交換|こうかん}→交換：02746_koukan⟧⟦する→する：00392_suru⟧ (to replace a water heater)\n- ⟦ガス→ガス：01344_gasu⟧{湯沸|ゆわ}かし{器|き} (gas water heater)\n- ⟦{瞬間|しゅんかん}→瞬間：03226_shunkan⟧{湯沸|ゆわ}かし{器|き} (instant water heater)\n\nSIMILAR WORDS:\n- ⟦{給湯器|きゅうとうき}→給湯器：04904_kyuutouki⟧: hot water heater — a more modern/formal term for the same appliance\n- ⟦ポット→ポット：05286_potto⟧: electric pot — an appliance that boils and keeps water warm",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04904_kyuutouki",
+      "reading": "きゅうとうき",
+      "headword": "{給湯器|きゅうとうき}",
+      "label": "hot water heater"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05286_potto",
+      "reading": "ぽっと",
+      "headword": "ポット",
+      "label": "electric pot"
+    },
+    {
+      "type": "related",
+      "target_id": "05285_ketoru",
+      "reading": "けとる",
+      "headword": "ケトル",
+      "label": "kettle"
+    }
+  ],
   "metadata": {
     "created": "2026-03-14T02:12:10Z",
-    "modified": "2026-07-20T13:24:52Z",
+    "modified": "2026-09-02T04:01:45Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

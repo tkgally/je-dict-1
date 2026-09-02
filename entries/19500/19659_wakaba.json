@@ -15,40 +15,80 @@
   "examples": [
     {
       "id": "19659_wakaba_ex1",
-      "japanese": "{若葉|わかば}が{芽吹|めぶ}いた。",
+      "japanese": "{若葉|わかば}⟦が→が：00051_ga⟧⟦{芽吹|めぶ}いた→芽吹く：13995_mebuku⟧。",
       "english": "Young leaves have sprouted.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19659_wakaba_ex2",
-      "japanese": "{若葉|わかば}の{緑|みどり}がまぶしい。",
+      "japanese": "{若葉|わかば}⟦の→の：09472_no⟧⟦{緑|みどり}→緑：00970_midori⟧⟦が→が：00051_ga⟧⟦まぶしい→まぶしい：03737_mabushii⟧。",
       "english": "The green of the young leaves is dazzling.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19659_wakaba_ex3",
-      "japanese": "{五月|ごがつ}になると、{山|やま}は{若葉|わかば}で{美|うつく}しく{彩|いろど}られる。",
+      "japanese": "⟦{五月|ごがつ}→五月：00625_gogatsu⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦と→と：00512_to⟧、⟦{山|やま}→山：02168_yama⟧⟦は→は：00079_ha⟧{若葉|わかば}⟦で→で：00502_de⟧⟦{美|うつく}しく→美しい：01121_utsukushii⟧⟦{彩|いろど}られる→彩る：12542_irodoru⟧。",
       "english": "In May, the mountains are beautifully colored with fresh green leaves.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {若|わか}い (young) and {葉|は} (leaf). A seasonal word strongly associated with late spring and early summer.\n\nCULTURAL CONTEXT:\n{若葉|わかば} is a {季語|きご} (seasonal word) for early summer in haiku. The sight of fresh green leaves is celebrated in Japanese culture as a symbol of vitality and renewal. {若葉|わかば}マーク is also used informally to mean a beginner's mark — the green and yellow V-shaped sticker that new drivers must display.\n\nCOMMON COLLOCATIONS:\n- {若葉|わかば}が{茂|しげ}る — young leaves grow thick\n- {若葉|わかば}の{季節|きせつ} — the season of fresh green leaves\n- {若葉|わかば}マーク — beginner's mark (for new drivers)\n\nRELATED TERMS:\n- {新緑|しんりょく} — fresh greenery; the broader concept of spring/early summer foliage\n- {青葉|あおば} — green leaves; mature green foliage, slightly later in season\n- {紅葉|こうよう} — autumn leaves; the seasonal counterpart",
+  "notes": "A compound of {若|わか}い (young) and ⟦{葉|は}→葉：02241_ha⟧ (leaf). A seasonal word strongly associated with late spring and early summer.\n\nCULTURAL NOTE:\n{若葉|わかば} is a ⟦{季語|きご}→季語：09561_kigo⟧ (seasonal word) for early summer in haiku. The sight of fresh green leaves is celebrated in Japanese culture as a symbol of vitality and renewal. {若葉|わかば}⟦マーク→マーク：09478_maaku⟧ is also used informally to mean a beginner's mark — the green and yellow V-shaped sticker that new drivers must display.\n\nCOMMON COLLOCATIONS:\n- {若葉|わかば}⟦が→が：00051_ga⟧⟦{茂|しげ}る→茂る：03924_shigeru⟧ — young leaves grow thick\n- {若葉|わかば}⟦の→の：09472_no⟧⟦{季節|きせつ}→季節：01304_kisetsu⟧ — the season of fresh green leaves\n- {若葉|わかば}⟦マーク→マーク：09478_maaku⟧ — beginner's mark (for new drivers)\n\nRELATED WORDS:\n- ⟦{新緑|しんりょく}→新緑：12724_shinryoku⟧ — fresh greenery; the broader concept of spring/early summer foliage\n- ⟦{青葉|あおば}→青葉：20092_aoba⟧ — green leaves; mature green foliage, slightly later in season\n- ⟦{紅葉|こうよう}→紅葉：04151_kouyou⟧ — autumn leaves; the seasonal counterpart",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "12724_shinryoku",
+      "reading": "しんりょく",
+      "headword": "{新緑|しんりょく}",
+      "label": "fresh greenery"
+    },
+    {
+      "type": "related",
+      "target_id": "20092_aoba",
+      "reading": "あおば",
+      "headword": "{青葉|あおば}",
+      "label": "green leaves"
+    },
+    {
+      "type": "related",
+      "target_id": "04151_kouyou",
+      "reading": "こうよう",
+      "headword": "{紅葉|こうよう}",
+      "label": "autumn leaves"
+    },
+    {
+      "type": "related",
+      "target_id": "13028_shinme",
+      "reading": "しんめ",
+      "headword": "{新芽|しんめ}",
+      "label": "new bud, new sprout"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["nature"]
+      "semantic": [
+        "nature"
+      ]
     },
     "created": "2026-03-26T11:42:18Z",
-    "modified": "2026-03-26T11:42:18Z"
+    "modified": "2026-09-02T04:01:56Z"
   }
 }

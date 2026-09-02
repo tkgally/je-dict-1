@@ -15,41 +15,66 @@
   "examples": [
     {
       "id": "13190_shoutai_ex1",
-      "japanese": "{犯人|はんにん}の{正体|しょうたい}がわかった。",
+      "japanese": "⟦{犯人|はんにん}→犯人：03572_hannin⟧⟦の→の：09472_no⟧{正体|しょうたい}⟦が→が：00051_ga⟧わかった。",
       "english": "The criminal's true identity was discovered.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13190_shoutai_ex2",
-      "japanese": "あの{怪|あや}しい{音|おと}の{正体|しょうたい}は{猫|ねこ}だった。",
+      "japanese": "⟦あの→あの：00915_ano⟧⟦{怪|あや}しい→怪しい：10267_ayashii⟧⟦{音|おと}→音：00743_oto⟧⟦の→の：09472_no⟧{正体|しょうたい}⟦は→は：00079_ha⟧⟦{猫|ねこ}→猫：02237_neko⟧だった。",
       "english": "The source of that mysterious sound turned out to be a cat.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13190_shoutai_ex3",
-      "japanese": "{彼|かれ}は{正体|しょうたい}を{隠|かく}して{別人|べつじん}のふりをしていた。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{正体|しょうたい}⟦を→を：00422_wo⟧⟦{隠|かく}して→隠す：02034_kakusu⟧⟦{別人|べつじん}→別人：11877_betsujin⟧⟦の→の：09472_no⟧ふり⟦を→を：00422_wo⟧⟦していた→する：00392_suru⟧。",
       "english": "He was hiding his true identity and pretending to be someone else.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nOften appears in the pattern {正体|しょうたい}を{現|あらわ}す (to reveal one's true nature) or {正体|しょうたい}が{分|わ}かる/{判明|はんめい}する (to discover the true identity). Also used in {正体|しょうたい}{不明|ふめい} (identity unknown). The word carries an inherent nuance that the truth was previously concealed or obscured.\n\nCOMMON COLLOCATIONS:\n- {正体|しょうたい}を{現|あらわ}す: to reveal one's true nature\n- {正体|しょうたい}を{隠|かく}す: to hide one's true identity\n- {正体|しょうたい}{不明|ふめい}: of unknown identity\n- {正体|しょうたい}を{暴|あば}く: to expose the true identity\n\nRELATED EXPRESSION:\n{正体|しょうたい}をなくす means \"to lose consciousness\" (from drinking or exhaustion), a distinct idiomatic usage.",
-  "cross_references": [],
+  "notes": "USAGE:\nOften appears in the pattern {正体|しょうたい}⟦を→を：00422_wo⟧⟦{現|あらわ}す→現す：02097_arawasu⟧ (to reveal one's true nature) or {正体|しょうたい}⟦が→が：00051_ga⟧⟦{分|わ}かる→分かる：00463_wakaru⟧/⟦{判明|はんめい}→判明：11785_hanmei⟧⟦する→する：00392_suru⟧ (to discover the true identity). Also used in {正体|しょうたい}⟦{不明|ふめい}→不明：11352_fumei⟧ (identity unknown). The word carries an inherent nuance that the truth was previously concealed or obscured.\n\nCOMMON COLLOCATIONS:\n- {正体|しょうたい}⟦を→を：00422_wo⟧⟦{現|あらわ}す→現す：02097_arawasu⟧: to reveal one's true nature\n- {正体|しょうたい}⟦を→を：00422_wo⟧⟦{隠|かく}す→隠す：02034_kakusu⟧: to hide one's true identity\n- {正体|しょうたい}⟦{不明|ふめい}→不明：11352_fumei⟧: of unknown identity\n- {正体|しょうたい}⟦を→を：00422_wo⟧⟦{暴|あば}く→暴く：04607_abaku⟧: to expose the true identity\n\nRELATED WORDS:\n{正体|しょうたい}⟦を→を：00422_wo⟧なくす means \"to lose consciousness\" (from drinking or exhaustion), a distinct idiomatic usage.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12873_honshou",
+      "reading": "ほんしょう",
+      "headword": "{本性|ほんしょう}",
+      "label": "true nature, true character"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24810_sujougashireru",
+      "reading": "すじょうがしれる",
+      "headword": "{素性|すじょう}が{知|し}れる",
+      "label": "one's true background or origin becomes known"
+    }
+  ],
   "metadata": {
     "created": "2026-02-24T06:07:12Z",
-    "modified": "2026-02-24T06:07:12Z",
+    "modified": "2026-09-02T04:01:32Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

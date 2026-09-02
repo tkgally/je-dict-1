@@ -3,7 +3,7 @@
   "id": "15114_ketsubou",
   "headword": "{欠乏|けつぼう}",
   "reading": "けつぼう",
-  "part_of_speech": "noun / suru verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "deficiency; shortage; lack",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "15114_ketsubou_ex1",
-      "japanese": "ビタミンCが{欠乏|けつぼう}している。",
+      "japanese": "⟦ビタミン→ビタミン：09770_bitamin⟧C⟦が→が：00051_ga⟧{欠乏|けつぼう}⟦している→する：00392_suru⟧。",
       "english": "There is a deficiency of vitamin C.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "15114_ketsubou_ex2",
-      "japanese": "{水|みず}の{欠乏|けつぼう}は{深刻|しんこく}な{問題|もんだい}だ。",
+      "japanese": "⟦{水|みず}→水：02258_mizu⟧⟦の→の：09472_no⟧{欠乏|けつぼう}⟦は→は：00079_ha⟧⟦{深刻|しんこく}→深刻：01567_shinkoku⟧な⟦{問題|もんだい}→問題：00797_mondai⟧だ。",
       "english": "Water shortage is a serious problem.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "15114_ketsubou_ex3",
-      "japanese": "{長期間|ちょうきかん}の{栄養|えいよう}{欠乏|けつぼう}が{健康|けんこう}に{悪影響|あくえいきょう}を{与|あた}えた。",
+      "japanese": "⟦{長期間|ちょうきかん}→長期間：25696_choukikan⟧⟦の→の：09472_no⟧⟦{栄養|えいよう}→栄養：01882_eiyou⟧{欠乏|けつぼう}⟦が→が：00051_ga⟧⟦{健康|けんこう}→健康：02706_kenkou⟧⟦に→に：00314_ni⟧⟦{悪影響|あくえいきょう}→悪影響：16840_akueikyou⟧⟦を→を：00422_wo⟧⟦{与|あた}えた→与える：01821_ataeru⟧。",
       "english": "Long-term nutritional deficiency had a negative effect on health.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{欠乏|けつぼう} is typically used for essential things like nutrients, resources, and supplies. It is more formal than {不足|ふそく} and often implies a more severe or critical shortage. As a suru verb, it takes the pattern ～が{欠乏|けつぼう}する.\n\nCOMMON COLLOCATIONS:\n- {栄養|えいよう}{欠乏|けつぼう} (nutritional deficiency)\n- {欠乏|けつぼう}{症|しょう} (deficiency disease)\n- {鉄分|てつぶん}の{欠乏|けつぼう} (iron deficiency)\n- {酸素|さんそ}{欠乏|けつぼう} (oxygen deprivation)\n\nNUANCE:\n{欠乏|けつぼう} implies a critical or dangerous shortage, while {不足|ふそく} is a more general and milder term for insufficiency.",
+  "notes": "USAGE:\n{欠乏|けつぼう} is typically used for essential things like nutrients, resources, and supplies. It is more formal than ⟦{不足|ふそく}→不足：03598_fusoku⟧ and often implies a more severe or critical shortage. As a suru verb, it takes the pattern ～⟦が→が：00051_ga⟧{欠乏|けつぼう}⟦する→する：00392_suru⟧.\n{欠乏|けつぼう} implies a critical or dangerous shortage, while ⟦{不足|ふそく}→不足：03598_fusoku⟧ is a more general and milder term for insufficiency.\n\nCOMMON COLLOCATIONS:\n- ⟦{栄養|えいよう}→栄養：01882_eiyou⟧{欠乏|けつぼう} (nutritional deficiency)\n- {欠乏|けつぼう}{症|しょう} (deficiency disease)\n- ⟦{鉄分|てつぶん}→鉄分：19444_tetsubun⟧⟦の→の：09472_no⟧{欠乏|けつぼう} (iron deficiency)\n- {酸素|さんそ}{欠乏|けつぼう} (oxygen deprivation)",
   "cross_references": [
     {
       "type": "related",
@@ -142,11 +142,25 @@
       "reading": "ふそく",
       "headword": "{不足|ふそく}",
       "label": "shortage (milder)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13208_ketsujo",
+      "reading": "けつじょ",
+      "headword": "{欠如|けつじょ}",
+      "label": "lack, absence, deficiency"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23776_shokuryoubusoku",
+      "reading": "しょくりょうぶそく",
+      "headword": "{食糧不足|しょくりょうぶそく}",
+      "label": "food shortage"
     }
   ],
   "metadata": {
     "created": "2026-03-05T07:51:05Z",
-    "modified": "2026-08-09T18:18:20Z",
+    "modified": "2026-09-02T04:01:40Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -160,7 +174,8 @@
         "quantity",
         "existence"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

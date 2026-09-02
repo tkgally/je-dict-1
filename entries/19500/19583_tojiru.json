@@ -3,7 +3,7 @@
   "headword": "{綴|と}じる",
   "reading": "とじる",
   "romaji": "tojiru",
-  "part_of_speech": "ichidan verb",
+  "part_of_speech": "verb (ichidan)",
   "gloss": "to bind; to staple; to fasten together",
   "conjugation": {
     "type": "ichidan",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "19583_tojiru_ex1",
-      "japanese": "{書類|しょるい}をホチキスで{綴|と}じた。",
+      "japanese": "⟦{書類|しょるい}→書類：01103_shorui⟧⟦を→を：00422_wo⟧⟦ホチキス→ホチキス：20403_hochikisu⟧⟦で→で：00502_de⟧{綴|と}じた。",
       "english": "I stapled the documents together.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "19583_tojiru_ex2",
-      "japanese": "プリントを{一|ひと}つにまとめて{綴|と}じてください。",
+      "japanese": "⟦プリント→プリント：01539_purinto⟧⟦を→を：00422_wo⟧⟦{一|ひと}つ→一つ：02948_hitotsu⟧⟦に→に：00314_ni⟧⟦まとめて→まとめる：02424_matomeru⟧{綴|と}じて⟦ください→ください：02899_kudasai⟧。",
       "english": "Please gather the printouts and bind them together.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "19583_tojiru_ex3",
-      "japanese": "{報告書|ほうこくしょ}をファイルに{綴|と}じて{棚|たな}に{戻|もど}しておいた。",
+      "japanese": "⟦{報告書|ほうこくしょ}→報告書：06744_houkokusho⟧⟦を→を：00422_wo⟧⟦ファイル→ファイル：05280_fairu⟧⟦に→に：00314_ni⟧{綴|と}じて⟦{棚|たな}→棚：01650_tana⟧⟦に→に：00314_ni⟧⟦{戻|もど}して→戻す：02317_modosu⟧おいた。",
       "english": "I filed the report in a binder and put it back on the shelf.",
       "sense_numbers": [
         1
@@ -134,7 +134,7 @@
       "notes": null
     }
   ],
-  "notes": "An ichidan verb meaning to fasten pages or documents together. A common office and school vocabulary word. Not to be confused with the homophone {閉|と}じる (to close, to shut).\n\nKANJI NOTE:\nThe kanji {綴|つづり} (spelling, binding) has the {糸|いと} radical, reflecting the original meaning of sewing or stitching together.\n\nCOMMON COLLOCATIONS:\n- {書類|しょるい}を{綴|と}じる — to bind documents\n- ファイルに{綴|と}じる — to file in a binder\n- ホチキスで{綴|と}じる — to staple together\n- {糸|いと}で{綴|と}じる — to sew together\n\nSIMILAR WORDS:\n- {閉|と}じる — to close, to shut; a homophone with a completely different meaning (closing a door, a book, one's eyes, etc.)\n- {束|たば}ねる — to bundle together; used for grouping items into a bundle, while {綴|と}じる specifically implies fastening flat items like paper",
+  "notes": "An ichidan verb meaning to fasten pages or documents together. A common office and school vocabulary word. Not to be confused with the homophone ⟦{閉|と}じる→閉じる：02303_tojiru⟧ (to close, to shut).\n\nWRITING:\nThe kanji {綴|つづり} (spelling, binding) has the ⟦{糸|いと}→糸：01315_ito⟧ radical, reflecting the original meaning of sewing or stitching together.\n\nCOMMON COLLOCATIONS:\n- ⟦{書類|しょるい}→書類：01103_shorui⟧⟦を→を：00422_wo⟧{綴|と}じる — to bind documents\n- ⟦ファイル→ファイル：05280_fairu⟧⟦に→に：00314_ni⟧{綴|と}じる — to file in a binder\n- ⟦ホチキス→ホチキス：20403_hochikisu⟧⟦で→で：00502_de⟧{綴|と}じる — to staple together\n- ⟦{糸|いと}→糸：01315_ito⟧⟦で→で：00502_de⟧{綴|と}じる — to sew together\n\nSIMILAR WORDS:\n- ⟦{閉|と}じる→閉じる：02303_tojiru⟧ — to close, to shut; a homophone with a completely different meaning (closing a door, a book, one's eyes, etc.)\n- ⟦{束|たば}ねる→束ねる：13059_tabaneru⟧ — to bundle together; used for grouping items into a bundle, while {綴|と}じる specifically implies fastening flat items like paper",
   "prominent_see_also": [
     {
       "target_id": "02303_tojiru",
@@ -144,6 +144,15 @@
     }
   ],
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13059_tabaneru",
+      "reading": "たばねる",
+      "headword": "{束|たば}ねる",
+      "label": "to bundle together"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -156,9 +165,10 @@
         "work",
         "action"
       ],
-      "verb_class": "ichidan"
+      "verb_class": "ichidan",
+      "transitivity": "transitive"
     },
     "created": "2026-03-26T07:23:47Z",
-    "modified": "2026-04-01T03:32:30Z"
+    "modified": "2026-09-02T04:01:56Z"
   }
 }

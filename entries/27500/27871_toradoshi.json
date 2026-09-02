@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "27871_toradoshi_ex1",
-      "japanese": "{来年|らいねん}は{寅年|とらどし}だ。",
+      "japanese": "⟦{来年|らいねん}→来年：00745_rainen⟧⟦は→は：00079_ha⟧{寅年|とらどし}だ。",
       "english": "Next year is the Year of the Tiger.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "27871_toradoshi_ex2",
-      "japanese": "{私|わたし}は{寅年|とらどし}{生|う}まれです。",
+      "japanese": "⟦{私|わたし}→私：02988_watashi⟧⟦は→は：00079_ha⟧{寅年|とらどし}⟦{生|う}まれ→生まれ：01867_umare⟧です。",
       "english": "I was born in the Year of the Tiger.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "27871_toradoshi_ex3",
-      "japanese": "{年賀状|ねんがじょう}には、{寅年|とらどし}にちなんでかわいい{虎|とら}のイラストを{描|か}いた。",
+      "japanese": "⟦{年賀状|ねんがじょう}→年賀状：06227_nengajou⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧、{寅年|とらどし}⟦に→に：00314_ni⟧⟦ちなんで→ちなむ：10386_chinamu⟧⟦かわいい→かわいい：00857_kawaii⟧⟦{虎|とら}→虎：02228_tora⟧⟦の→の：09472_no⟧⟦イラスト→イラスト：10717_irasuto⟧⟦を→を：00422_wo⟧⟦{描|か}いた→描く：28436_kaku⟧。",
       "english": "On my New Year's cards I drew a cute tiger illustration in honor of the Year of the Tiger.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "One of the twelve zodiac years ({十二支|じゅうにし}); the tiger is the third sign. People often mention their zodiac year as an indirect way of referring to their age.\n\nCOMMON COLLOCATIONS:\n- {寅年|とらどし}{生|う}まれ: born in the Year of the Tiger\n- {今年|ことし}は{寅年|とらどし}: this year is the Year of the Tiger\n\nNOTE:\nThe zodiac uses the special kanji {寅|とら} rather than the everyday {虎|とら} for 'tiger,' though both are read とら.",
+  "notes": "One of the twelve zodiac years (⟦{十二支|じゅうにし}→十二支：27602_juunishi⟧); the tiger is the third sign. People often mention their zodiac year as an indirect way of referring to their age.\n\nCOMMON COLLOCATIONS:\n- {寅年|とらどし}⟦{生|う}まれ→生まれ：01867_umare⟧: born in the Year of the Tiger\n- ⟦{今年|ことし}→今年：00722_kotoshi⟧⟦は→は：00079_ha⟧{寅年|とらどし}: this year is the Year of the Tiger\n\nUSAGE:\nThe zodiac uses the special kanji {寅|とら} rather than the everyday ⟦{虎|とら}→虎：02228_tora⟧ for 'tiger,' though both are read とら.",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,7 +53,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "culture",
         "time-period"
@@ -61,6 +61,6 @@
       "domain": []
     },
     "created": "2026-05-21T04:04:20Z",
-    "modified": "2026-08-08T03:27:39Z"
+    "modified": "2026-09-02T04:02:32Z"
   }
 }

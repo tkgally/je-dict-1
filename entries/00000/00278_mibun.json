@@ -23,7 +23,9 @@
       "english": "To be of high status.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "00278_mibun_ex2",
@@ -31,7 +33,9 @@
       "english": "To live while hiding one's status.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "00278_mibun_ex3",
@@ -39,7 +43,9 @@
       "english": "As a student, I can't afford such luxuries.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "00278_mibun_ex4",
@@ -47,7 +53,9 @@
       "english": "To carry ID.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "00278_mibun_ex5",
@@ -55,7 +63,9 @@
       "english": "Please show me your ID.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "00278_mibun_ex6",
@@ -63,7 +73,9 @@
       "english": "Please bring something that can verify your identity when entering.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "{身分|みぶん} relates to both social standing and personal identity.\n\nCommon compounds:\n- {身分|みぶん}⟦{証明書|しょうめいしょ}→証明書：09785_shoumeisho⟧ (ID card, identification)\n- {身分|みぶん}⟦{証|しょう}→証：noentry⟧ (ID - abbreviated)\n- {身分|みぶん}⟦を→を：00422_wo⟧⟦{隠|かく}す→隠す：02034_kakusu⟧ (to hide one's identity)\n- {身分|みぶん}⟦{相応|そうおう}→相応：13714_souou⟧ (befitting one's status)\n\nHistorical context:\n{身分|みぶん}⟦{制度|せいど}→制度：03291_seido⟧ (status system) was important in pre-modern Japan, with strict divisions between samurai, farmers, artisans, and merchants.\n\nRelated terms:\n- ⟦{地位|ちい}→地位：03427_chii⟧ (position, status - more modern/workplace-focused)\n- ⟦{立場|たちば}→立場：03403_tachiba⟧ (standpoint, position)",
@@ -75,12 +87,41 @@
       "headword": "{身元|みもと}",
       "label": "identity, background"
     },
-    {"type": "related", "reading": "ちい", "target_id": "03427_chii"},
-    {"type": "related", "reading": "たちば", "target_id": "03403_tachiba"}
+    {
+      "type": "related",
+      "reading": "ちい",
+      "target_id": "03427_chii"
+    },
+    {
+      "type": "related",
+      "reading": "たちば",
+      "target_id": "03403_tachiba"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18288_minohodo",
+      "reading": "みのほど",
+      "headword": "{身|み}の{程|ほど}",
+      "label": "one's place"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18599_minoue",
+      "reading": "みのうえ",
+      "headword": "{身|み}の{上|うえ}",
+      "label": "one's circumstances"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25205_monchi",
+      "reading": "もんち",
+      "headword": "{門地|もんち}",
+      "label": "family status"
+    }
   ],
   "metadata": {
     "created": "2026-01-13T11:59:29Z",
-    "modified": "2026-05-10T14:08:28Z",
+    "modified": "2026-09-02T03:02:30Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

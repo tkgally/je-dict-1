@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "23929_sankabutsu_ex1",
-      "japanese": "{鉄|てつ}の{酸化物|さんかぶつ}はさびだ。",
+      "japanese": "⟦{鉄|てつ}→鉄：02225_tetsu⟧⟦の→の：09472_no⟧{酸化物|さんかぶつ}⟦は→は：00079_ha⟧さびだ。",
       "english": "An oxide of iron is rust.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "23929_sankabutsu_ex2",
-      "japanese": "{金属|きんぞく}は{空気中|くうきちゅう}で{酸化物|さんかぶつ}になりやすい。",
+      "japanese": "⟦{金属|きんぞく}→金属：02645_kinzoku⟧⟦は→は：00079_ha⟧{空気中|くうきちゅう}⟦で→で：00502_de⟧{酸化物|さんかぶつ}⟦に→に：00314_ni⟧⟦なり→なる：01970_naru⟧やすい。",
       "english": "Metals easily turn into oxides in the air.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "23929_sankabutsu_ex3",
-      "japanese": "この{電池|でんち}の{電極|でんきょく}にはリチウムの{酸化物|さんかぶつ}が{使|つか}われている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{電池|でんち}→電池：01472_denchi⟧⟦の→の：09472_no⟧{電極|でんきょく}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧リチウム⟦の→の：09472_no⟧{酸化物|さんかぶつ}⟦が→が：00051_ga⟧⟦{使|つか}われている→使う：00473_tsukau⟧。",
       "english": "A lithium oxide is used in the electrodes of this battery.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {酸化|さんか} (oxidation) and the suffix {〜物|ぶつ} (substance, thing), literally \"an oxidized substance.\" The word is a neutral technical term used in chemistry, physics, and engineering contexts; it is not used figuratively.\n\nCOMMON COLLOCATIONS:\n- {金属|きんぞく}{酸化物|さんかぶつ}: metal oxide\n- {鉄|てつ}の{酸化物|さんかぶつ}: iron oxide\n- {酸化物|さんかぶつ}{半導体|はんどうたい}: oxide semiconductor\n- {酸化物|さんかぶつ}になる: to become an oxide\n- {酸化物|さんかぶつ}を{還元|かんげん}する: to reduce an oxide\n\nRELATED TERMS:\n- {酸化|さんか}: oxidation — the process itself\n- {還元|かんげん}: reduction — the chemical opposite of oxidation\n- {化合物|かごうぶつ}: compound — any substance formed by chemical union\n- {酸化鉄|さんかてつ}: iron oxide — a specific example; rust is a form of this",
+  "notes": "Composed of ⟦{酸化|さんか}→酸化：00453_sanka⟧ (oxidation) and the suffix {〜物|ぶつ} (substance, thing), literally \"an oxidized substance.\" The word is a neutral technical term used in chemistry, physics, and engineering contexts; it is not used figuratively.\n\nCOMMON COLLOCATIONS:\n- ⟦{金属|きんぞく}→金属：02645_kinzoku⟧{酸化物|さんかぶつ}: metal oxide\n- ⟦{鉄|てつ}→鉄：02225_tetsu⟧⟦の→の：09472_no⟧{酸化物|さんかぶつ}: iron oxide\n- {酸化物|さんかぶつ}⟦{半導体|はんどうたい}→半導体：09248_handoutai⟧: oxide semiconductor\n- {酸化物|さんかぶつ}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧: to become an oxide\n- {酸化物|さんかぶつ}⟦を→を：00422_wo⟧⟦{還元|かんげん}→還元：08021_kangen⟧⟦する→する：00392_suru⟧: to reduce an oxide\n\nRELATED WORDS:\n- ⟦{酸化|さんか}→酸化：00453_sanka⟧: oxidation — the process itself\n- ⟦{還元|かんげん}→還元：08021_kangen⟧: reduction — the chemical opposite of oxidation\n- ⟦{化合物|かごうぶつ}→化合物：25020_kagoubutsu⟧: compound — any substance formed by chemical union\n- {酸化鉄|さんかてつ}: iron oxide — a specific example; rust is a form of this",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "08021_kangen",
+      "reading": "かんげん",
+      "headword": "{還元|かんげん}",
+      "label": "reduction"
+    },
+    {
+      "type": "related",
+      "target_id": "25020_kagoubutsu",
+      "reading": "かごうぶつ",
+      "headword": "{化合物|かごうぶつ}",
+      "label": "compound"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +75,6 @@
       ]
     },
     "created": "2026-04-15T14:03:17Z",
-    "modified": "2026-08-02T18:32:34Z"
+    "modified": "2026-09-02T04:02:15Z"
   }
 }

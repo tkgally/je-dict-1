@@ -14,30 +14,36 @@
   "examples": [
     {
       "id": "09998_kyouka_ex1",
-      "japanese": "{好|す}きな{教科|きょうか}は{何|なん}ですか。",
+      "japanese": "⟦{好|す}き→好き：02355_suki⟧な{教科|きょうか}⟦は→は：00079_ha⟧⟦{何|なん}→何〜：03100_nan⟧です⟦か→か：09473_ka⟧。",
       "english": "What is your favorite subject?",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09998_kyouka_ex2",
-      "japanese": "{数学|すうがく}は{苦手|にがて}な{教科|きょうか}だ。",
+      "japanese": "⟦{数学|すうがく}→数学：01442_suugaku⟧⟦は→は：00079_ha⟧⟦{苦手|にがて}→苦手：03513_nigate⟧な{教科|きょうか}だ。",
       "english": "Math is a subject I'm weak at.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09998_kyouka_ex3",
-      "japanese": "{小学校|しょうがっこう}では、{国語|こくご}や{算数|さんすう}などの{教科|きょうか}を{学|まな}ぶ。",
+      "japanese": "⟦{小学校|しょうがっこう}→小学校：01055_shougakkou⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧、⟦{国語|こくご}→国語：02739_kokugo⟧や⟦{算数|さんすう}→算数：04170_sansuu⟧⟦など→〜など：03095_nado⟧⟦の→の：09472_no⟧{教科|きょうか}⟦を→を：00422_wo⟧⟦{学|まな}ぶ→学ぶ：01987_manabu⟧。",
       "english": "In elementary school, students study subjects like Japanese and arithmetic.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{教科|きょうか} refers to subjects taught in the school curriculum, typically at elementary and secondary school levels.\n\nCOMMON COMPOUNDS:\n- {教科書|きょうかしょ}: textbook\n- {主要|しゅよう}{教科|きょうか}: main subjects\n- {必修|ひっしゅう}{教科|きょうか}: required subjects\n\nSIMILAR WORDS:\n- {科目|かもく}: course, subject (more often used at university level)\n- {授業|じゅぎょう}: class, lesson\n\nCOMMON SCHOOL SUBJECTS:\n- {国語|こくご}: Japanese language\n- {算数|さんすう} / {数学|すうがく}: arithmetic / mathematics\n- {理科|りか}: science\n- {社会|しゃかい}: social studies\n- {英語|えいご}: English\n- {体育|たいいく}: physical education",
+  "notes": "{教科|きょうか} refers to subjects taught in the school curriculum, typically at elementary and secondary school levels.\n\nCOMPOUNDS:\n- ⟦{教科書|きょうかしょ}→教科書：01085_kyoukasho⟧: textbook\n- ⟦{主要|しゅよう}→主要：01649_shuyou⟧{教科|きょうか}: main subjects\n- ⟦{必修|ひっしゅう}→必修：08641_hisshuu⟧{教科|きょうか}: required subjects\n\nSIMILAR WORDS:\n- ⟦{科目|かもく}→科目：00163_kamoku⟧: course, subject (more often used at university level)\n- ⟦{授業|じゅぎょう}→授業：00781_jugyou⟧: class, lesson\n\nCOMMON SCHOOL SUBJECTS:\n- ⟦{国語|こくご}→国語：02739_kokugo⟧: Japanese language\n- ⟦{算数|さんすう}→算数：04170_sansuu⟧ / ⟦{数学|すうがく}→数学：01442_suugaku⟧: arithmetic / mathematics\n- ⟦{理科|りか}→理科：03994_rika⟧: science\n- ⟦{社会|しゃかい}→社会：01427_shakai⟧: social studies\n- ⟦{英語|えいご}→英語：02274_eigo⟧: English\n- ⟦{体育|たいいく}→体育：03384_taiiku⟧: physical education",
   "cross_references": [
     {
       "type": "contrast",
@@ -45,17 +51,35 @@
       "reading": "かもく",
       "headword": "{科目|かもく}",
       "label": "subject (university)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00781_jugyou",
+      "reading": "じゅぎょう",
+      "headword": "{授業|じゅぎょう}",
+      "label": "class, lesson"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00053_gakka",
+      "reading": "がっか",
+      "headword": "{学科|がっか}",
+      "label": "academic subject"
     }
   ],
   "metadata": {
     "created": "2026-02-04T13:51:51Z",
-    "modified": "2026-04-23T08:17:03Z",
+    "modified": "2026-09-02T04:01:19Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["education"]
+      "semantic": [
+        "education"
+      ]
     }
   }
 }

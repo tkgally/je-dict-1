@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "13310_suichuu_ex1",
-      "japanese": "{水中|すいちゅう}で{目|め}を{開|あ}けた。",
+      "japanese": "{水中|すいちゅう}⟦で→で：00502_de⟧⟦{目|め}→目：00525_me⟧⟦を→を：00422_wo⟧⟦{開|あ}けた→開ける：00563_akeru⟧。",
       "english": "I opened my eyes underwater.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "13310_suichuu_ex2",
-      "japanese": "{水中|すいちゅう}カメラで{魚|さかな}の{写真|しゃしん}を{撮|と}った。",
+      "japanese": "{水中|すいちゅう}⟦カメラ→カメラ：04417_kamera⟧⟦で→で：00502_de⟧⟦{魚|さかな}→魚：00499_sakana⟧⟦の→の：09472_no⟧⟦{写真|しゃしん}→写真：00753_shashin⟧⟦を→を：00422_wo⟧⟦{撮|と}った→撮る：00760_toru⟧。",
       "english": "I took photos of fish with an underwater camera.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "13310_suichuu_ex3",
-      "japanese": "この{遺跡|いせき}は{長|なが}い{間|あいだ}{水中|すいちゅう}に{沈|しず}んでいた。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{遺跡|いせき}→遺跡：09527_iseki⟧⟦は→は：00079_ha⟧⟦{長|なが}い→長い：00491_nagai⟧⟦{間|あいだ}→間：00914_aida⟧{水中|すいちゅう}⟦に→に：00314_ni⟧⟦{沈|しず}んでいた→沈む：02061_shizumu⟧。",
       "english": "These ruins had been submerged underwater for a long time.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nUsed both as a standalone noun ({水中|すいちゅう}で — in the water) and as a noun modifier ({水中|すいちゅう}の — underwater [adjective]). Common in compound words related to aquatic activities and equipment.\n\nCOMMON COLLOCATIONS:\n- {水中|すいちゅう}カメラ: underwater camera\n- {水中|すいちゅう}{眼鏡|めがね}: swimming goggles\n- {水中|すいちゅう}{撮影|さつえい}: underwater photography\n- {水中|すいちゅう}に{沈|しず}む: to sink underwater",
+  "notes": "USAGE:\nUsed both as a standalone noun ({水中|すいちゅう}⟦で→で：00502_de⟧ — in the water) and as a noun modifier ({水中|すいちゅう}⟦の→の：09472_no⟧ — underwater [adjective]). Common in compound words related to aquatic activities and equipment.\n\nCOMMON COLLOCATIONS:\n- {水中|すいちゅう}⟦カメラ→カメラ：04417_kamera⟧: underwater camera\n- {水中|すいちゅう}⟦{眼鏡|めがね}→眼鏡：00651_megane⟧: swimming goggles\n- {水中|すいちゅう}⟦{撮影|さつえい}→撮影：04175_satsuei⟧: underwater photography\n- {水中|すいちゅう}⟦に→に：00314_ni⟧⟦{沈|しず}む→沈む：02061_shizumu⟧: to sink underwater",
   "cross_references": [
     {
       "type": "contrast",
@@ -52,11 +52,18 @@
       "reading": "すいじょう",
       "headword": "{水上|すいじょう}",
       "label": "on the water"
+    },
+    {
+      "type": "homophone",
+      "target_id": "26578_suichuu",
+      "reading": "すいちゅう",
+      "headword": "{水柱|すいちゅう}",
+      "label": "water column"
     }
   ],
   "metadata": {
     "created": "2026-02-24T10:00:26Z",
-    "modified": "2026-07-09T15:31:23Z",
+    "modified": "2026-09-02T04:01:32Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

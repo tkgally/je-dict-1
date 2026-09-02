@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "07310_mudazukai_ex1",
-      "japanese": "{無駄遣|むだづか}いをやめて{貯金|ちょきん}する。",
+      "japanese": "{無駄遣|むだづか}い⟦を→を：00422_wo⟧⟦やめて→やめる：00909_yameru⟧⟦{貯金|ちょきん}→貯金：03497_chokin⟧⟦する→する：00392_suru⟧。",
       "english": "To stop wasteful spending and start saving.",
       "has_audio": false,
       "sense_numbers": [
@@ -23,7 +23,7 @@
     },
     {
       "id": "07310_mudazukai_ex2",
-      "japanese": "それは{時間|じかん}の{無駄遣|むだづか}いだ。",
+      "japanese": "⟦それ→それ：00994_sore⟧⟦は→は：00079_ha⟧⟦{時間|じかん}→時間：00468_jikan⟧⟦の→の：09472_no⟧{無駄遣|むだづか}いだ。",
       "english": "That's a waste of time.",
       "has_audio": false,
       "sense_numbers": [
@@ -32,7 +32,7 @@
     },
     {
       "id": "07310_mudazukai_ex3",
-      "japanese": "{税金|ぜいきん}の{無駄遣|むだづか}いをなくすべきだ。",
+      "japanese": "⟦{税金|ぜいきん}→税金：03308_zeikin⟧⟦の→の：09472_no⟧{無駄遣|むだづか}い⟦を→を：00422_wo⟧なくすべきだ。",
       "english": "We should eliminate wasteful spending of tax money.",
       "has_audio": false,
       "sense_numbers": [
@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "notes": "WORD FORMATION:\n{無駄|むだ} (waste, uselessness) + {遣|つか}い (use, spending) → wasteful use = squandering\n\nCOMMON EXPRESSIONS:\n・{無駄遣|むだづか}いをする - to waste (money, time, etc.)\n・{無駄遣|むだづか}いをやめる - to stop wasting\n・{時間|じかん}の{無駄遣|むだづか}い - waste of time\n・{税金|ぜいきん}の{無駄遣|むだづか}い - wasteful spending of taxes\n・お{金|かね}の{無駄遣|むだづか}い - wasteful spending of money\n\nNUANCE:\nCan apply to money, time, energy, resources, or talent. Often used critically when someone or something (like the government) is perceived as spending carelessly.",
+  "notes": "FORMS:\n⟦{無駄|むだ}→無駄：02512_muda⟧ (waste, uselessness) + {遣|つか}い (use, spending) → wasteful use = squandering\n\nCOMMON EXPRESSIONS:\n- {無駄遣|むだづか}い⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧ - to waste (money, time, etc.)\n- {無駄遣|むだづか}い⟦を→を：00422_wo⟧⟦やめる→やめる：00909_yameru⟧ - to stop wasting\n- ⟦{時間|じかん}→時間：00468_jikan⟧⟦の→の：09472_no⟧{無駄遣|むだづか}い - waste of time\n- ⟦{税金|ぜいきん}→税金：03308_zeikin⟧⟦の→の：09472_no⟧{無駄遣|むだづか}い - wasteful spending of taxes\n- ⟦お{金|かね}→お金：00611_okane⟧⟦の→の：09472_no⟧{無駄遣|むだづか}い - wasteful spending of money\n\nUSAGE:\nCan apply to money, time, energy, resources, or talent. Often used critically when someone or something (like the government) is perceived as spending carelessly.",
   "cross_references": [
     {
       "type": "related",
@@ -48,11 +48,18 @@
       "headword": "{無駄|むだ}",
       "label": "waste",
       "target_id": "02512_muda"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25239_rouhisuru",
+      "reading": "ろうひする",
+      "headword": "{浪費|ろうひ}する",
+      "label": "to waste"
     }
   ],
   "metadata": {
     "created": "2026-01-19T04:10:10Z",
-    "modified": "2026-01-24T14:24:36Z",
+    "modified": "2026-09-02T04:01:10Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

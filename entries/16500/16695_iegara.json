@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "16695_iegara_ex1",
-      "japanese": "{家柄|いえがら}のいい{家庭|かてい}。",
+      "japanese": "{家柄|いえがら}⟦の→の：09472_no⟧⟦いい→いい：00118_ii⟧⟦{家庭|かてい}→家庭：12315_katei⟧。",
       "english": "A family of good standing.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16695_iegara_ex2",
-      "japanese": "{家柄|いえがら}を{気|き}にする{親|おや}もいる。",
+      "japanese": "{家柄|いえがら}⟦を→を：00422_wo⟧⟦{気|き}にする→気にする：03026_kinisuru⟧⟦{親|おや}→親：01357_oya⟧⟦も→も：00484_mo⟧⟦いる→いる：00495_iru⟧。",
       "english": "There are parents who care about family lineage.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16695_iegara_ex3",
-      "japanese": "{家柄|いえがら}よりも{本人|ほんにん}の{人柄|ひとがら}が{大事|だいじ}だ。",
+      "japanese": "{家柄|いえがら}⟦より→より：09476_yori⟧⟦も→も：00484_mo⟧⟦{本人|ほんにん}→本人：03627_honnin⟧⟦の→の：09472_no⟧⟦{人柄|ひとがら}→人柄：08163_hitogara⟧⟦が→が：00051_ga⟧⟦{大事|だいじ}→大事：01253_daiji⟧だ。",
       "english": "One's own character is more important than family pedigree.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{家柄|いえがら} refers to the social standing, reputation, and heritage of a family. It is often considered in the context of marriage and social class in Japan.\n\nWORD FORMATION:\n{家|いえ} (house/family) + {柄|がら} (pattern/character). The suffix ～{柄|がら} indicates the inherent character or nature of something.\n\nCOLLOCATIONS:\n- {家柄|いえがら}がいい: of good family, well-bred\n- {家柄|いえがら}を{気|き}にする: to care about family background\n- {家柄|いえがら}を{重|おも}んじる: to value family lineage\n\nSIMILAR WORDS WITH ～{柄|がら}:\n- {人柄|ひとがら}: personality, character (of a person)\n- {土地柄|とちがら}: character of a place, local customs\n- {国柄|くにがら}: national character\n\nCULTURAL NOTE:\nWhile {家柄|いえがら} remains relevant in some traditional contexts (especially marriage), its importance has diminished in modern Japanese society. It comes up most often when discussing {結婚|けっこん} (marriage) and {見合|みあ}い (arranged meetings for marriage).",
+  "notes": "{家柄|いえがら} refers to the social standing, reputation, and heritage of a family. It is often considered in the context of marriage and social class in Japan.\n\nFORMS:\n⟦{家|いえ}→家：00612_ie⟧ (house/family) + ⟦{柄|がら}→柄：02609_gara⟧ (pattern/character). The suffix ～⟦{柄|がら}→柄：02609_gara⟧ indicates the inherent character or nature of something.\n\nCOMMON COLLOCATIONS:\n- {家柄|いえがら}⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧: of good family, well-bred\n- {家柄|いえがら}⟦を→を：00422_wo⟧⟦{気|き}にする→気にする：03026_kinisuru⟧: to care about family background\n- {家柄|いえがら}⟦を→を：00422_wo⟧⟦{重|おも}んじる→重んじる：14445_omonjiru⟧: to value family lineage\n\nSIMILAR WORDS WITH ～{柄|がら}:\n- ⟦{人柄|ひとがら}→人柄：08163_hitogara⟧: personality, character (of a person)\n- ⟦{土地柄|とちがら}→土地柄：12138_tochigara⟧: character of a place, local customs\n- {国柄|くにがら}: national character\n\nCULTURAL NOTE:\nWhile {家柄|いえがら} remains relevant in some traditional contexts (especially marriage), its importance has diminished in modern Japanese society. It comes up most often when discussing ⟦{結婚|けっこん}→結婚：02514_kekkon⟧ (marriage) and ⟦{見合|みあ}い→見合い：14159_miai⟧ (arranged meetings for marriage).",
   "cross_references": [
     {
       "type": "related",
@@ -46,17 +52,70 @@
       "reading": "ひとがら",
       "headword": "{人柄|ひとがら}",
       "label": "personality, character"
+    },
+    {
+      "type": "related",
+      "target_id": "12138_tochigara",
+      "reading": "とちがら",
+      "headword": "{土地柄|とちがら}",
+      "label": "character of a place, local customs"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10130_kakei",
+      "reading": "かけい",
+      "headword": "{家系|かけい}",
+      "label": "family lineage"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20751_shutsuji",
+      "reading": "しゅつじ",
+      "headword": "{出自|しゅつじ}",
+      "label": "origin"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22423_chisuji",
+      "reading": "ちすじ",
+      "headword": "{血筋|ちすじ}",
+      "label": "bloodline"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23910_meika",
+      "reading": "めいか",
+      "headword": "{名家|めいか}",
+      "label": "distinguished family"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24695_jigara",
+      "reading": "じがら",
+      "headword": "{地柄|じがら}",
+      "label": "character of an area"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25205_monchi",
+      "reading": "もんち",
+      "headword": "{門地|もんち}",
+      "label": "family status"
     }
   ],
   "metadata": {
     "created": "2026-03-14T04:25:57Z",
-    "modified": "2026-05-04T09:30:08Z",
+    "modified": "2026-09-02T04:01:45Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["family"]
+      "semantic": [
+        "family"
+      ]
     }
   }
 }

@@ -15,40 +15,66 @@
   "examples": [
     {
       "id": "27088_mukashimukashi_ex1",
-      "japanese": "{昔々|むかしむかし}、あるところに…",
+      "japanese": "{昔々|むかしむかし}、⟦ある→ある：00006_aru⟧⟦ところ→ところ：01137_tokoro⟧⟦に→に：00314_ni⟧…",
       "english": "Once upon a time, in a certain place...",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27088_mukashimukashi_ex2",
-      "japanese": "{昔々|むかしむかし}、おじいさんとおばあさんがいました。",
+      "japanese": "{昔々|むかしむかし}、⟦おじいさん→おじいさん：02860_ojiisan⟧とおばあさんがいました。",
       "english": "Long, long ago, there lived an old man and an old woman.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27088_mukashimukashi_ex3",
-      "japanese": "「{昔々|むかしむかし}、{山|やま}のふもとに{小|ちい}さな{村|むら}がありました」と{祖母|そぼ}が{話|はな}し{始|はじ}めた。",
+      "japanese": "「{昔々|むかしむかし}、⟦{山|やま}→山：02168_yama⟧⟦の→の：09472_no⟧ふもと⟦に→に：00314_ni⟧⟦{小|ちい}さな→小さな：02913_chiisana⟧⟦{村|むら}→村：02261_mura⟧⟦が→が：00051_ga⟧⟦ありました→ある：00006_aru⟧」⟦と→と：00512_to⟧⟦{祖母|そぼ}→祖母：00813_sobo⟧⟦が→が：00051_ga⟧⟦{話|はな}し→話す：00467_hanasu⟧⟦{始|はじ}めた→始める：00531_hajimeru⟧。",
       "english": "\"Long, long ago, at the foot of a mountain there was a small village,\" my grandmother began.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "The standard opening formula for Japanese folktales ({昔話|むかしばなし}), used the same way as English \"once upon a time.\" Almost always followed by あるところに (\"in a certain place\") to complete the opening formula.\n\nCOMMON PATTERNS:\n- {昔々|むかしむかし}、あるところに…: Once upon a time, in a certain place...\n- {昔々|むかしむかし}、おじいさんとおばあさんがいました: Long, long ago, there lived an old man and an old woman\n\nCULTURAL CONTEXT:\nThis phrase is deeply associated with Japanese folktales such as {桃太郎|ももたろう} (Momotaro), {浦島太郎|うらしまたろう} (Urashima Taro), and {花咲|はなさ}かじいさん (The Old Man Who Made Flowers Bloom). Japanese children recognize this opening instantly, much like English-speaking children recognize \"once upon a time.\"\n\nRELATED TERMS:\n- {昔|むかし}: the base word meaning \"the past; long ago\"\n- {昔話|むかしばなし}: folktale; fairy tale\n- めでたし、めでたし: \"happily ever after\" — the traditional ending formula that pairs with this opening",
+  "notes": "The standard opening formula for Japanese folktales (⟦{昔話|むかしばなし}→昔話：12718_mukashibanashi⟧), used the same way as English \"once upon a time.\" Almost always followed by ⟦ある→ある：00006_aru⟧⟦ところ→ところ：01137_tokoro⟧⟦に→に：00314_ni⟧ (\"in a certain place\") to complete the opening formula.\n\nCOMMON PATTERNS:\n- {昔々|むかしむかし}、⟦ある→ある：00006_aru⟧⟦ところ→ところ：01137_tokoro⟧⟦に→に：00314_ni⟧…: Once upon a time, in a certain place...\n- {昔々|むかしむかし}、⟦おじいさん→おじいさん：02860_ojiisan⟧とおばあさんがいました: Long, long ago, there lived an old man and an old woman\n\nCULTURAL NOTE:\nThis phrase is deeply associated with Japanese folktales such as {桃太郎|ももたろう} (Momotaro), {浦島太郎|うらしまたろう} (Urashima Taro), and {花咲|はなさ}⟦か→か：09473_ka⟧じいさん (The Old Man Who Made Flowers Bloom). Japanese children recognize this opening instantly, much like English-speaking children recognize \"once upon a time.\"\n\nRELATED WORDS:\n- ⟦{昔|むかし}→昔：01515_mukashi⟧: the base word meaning \"the past; long ago\"\n- ⟦{昔話|むかしばなし}→昔話：12718_mukashibanashi⟧: folktale; fairy tale\n- めでたし、めでたし: \"happily ever after\" — the traditional ending formula that pairs with this opening",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "12718_mukashibanashi",
+      "reading": "むかしばなし",
+      "headword": "{昔話|むかしばなし}",
+      "label": "folktale"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27055_tooimukashi",
+      "reading": "とおいむかし",
+      "headword": "{遠|とお}い{昔|むかし}",
+      "label": "long ago"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["expression"],
+      "pos": [
+        "expression"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["expression"]
+      "semantic": [
+        "expression"
+      ]
     },
     "created": "2026-05-07T11:11:14Z",
-    "modified": "2026-05-07T11:11:14Z"
+    "modified": "2026-09-02T04:02:29Z"
   }
 }

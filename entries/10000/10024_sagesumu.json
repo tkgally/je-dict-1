@@ -2,7 +2,7 @@
   "id": "10024_sagesumu",
   "headword": "{蔑|さげす}む",
   "reading": "さげすむ",
-  "part_of_speech": "godan verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to despise, to scorn, to look down on",
   "conjugation": {
     "type": "godan",
@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "10024_sagesumu_ex1",
-      "japanese": "{人|ひと}を{蔑|さげす}むな。",
+      "japanese": "⟦{人|ひと}→人：00476_hito⟧⟦を→を：00422_wo⟧{蔑|さげす}むな。",
       "english": "Don't look down on people.",
       "sense_numbers": [
         1
@@ -114,7 +114,7 @@
     },
     {
       "id": "10024_sagesumu_ex2",
-      "japanese": "{蔑|さげす}むような{目|め}で{見|み}られた。",
+      "japanese": "{蔑|さげす}むような⟦{目|め}→目：00525_me⟧⟦で→で：00502_de⟧⟦{見|み}られた→見る：00283_miru⟧。",
       "english": "I was looked at with contemptuous eyes.",
       "sense_numbers": [
         1
@@ -124,7 +124,7 @@
     },
     {
       "id": "10024_sagesumu_ex3",
-      "japanese": "{彼|かれ}は{貧|まず}しい{人|ひと}たちを{蔑|さげす}んでいる。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{貧|まず}しい→貧しい：02349_mazushii⟧⟦{人|ひと}→人：00476_hito⟧たち⟦を→を：00422_wo⟧{蔑|さげす}んで⟦いる→いる：00495_iru⟧。",
       "english": "He despises poor people.",
       "sense_numbers": [
         1
@@ -134,7 +134,7 @@
     },
     {
       "id": "10024_sagesumu_ex4",
-      "japanese": "{弱者|じゃくしゃ}を{蔑|さげす}む{社会|しゃかい}は{健全|けんぜん}ではない。",
+      "japanese": "⟦{弱者|じゃくしゃ}→弱者：12535_jakusha⟧⟦を→を：00422_wo⟧{蔑|さげす}む⟦{社会|しゃかい}→社会：01427_shakai⟧⟦は→は：00079_ha⟧⟦{健全|けんぜん}→健全：11539_kenzen⟧で⟦は→は：00079_ha⟧⟦ない→ない：01118_nai⟧。",
       "english": "A society that scorns the weak is not healthy.",
       "sense_numbers": [
         1
@@ -143,7 +143,7 @@
       "notes": null
     }
   ],
-  "notes": "{蔑|さげす}む expresses contempt or looking down on someone.\n\nTRANSITIVITY:\n- Type: {他動詞|たどうし} (transitive)\n\nREGISTER:\nFairly formal or literary; the casual equivalent would be {馬鹿|ばか}にする or {見下|みくだ}す.\n\nCOMMON PATTERNS:\n- {人|ひと}を{蔑|さげす}む: to despise someone\n- {蔑|さげす}むような{目|め}: contemptuous eyes\n- {蔑|さげす}んだ{態度|たいど}: scornful attitude\n\nRELATED:\n- {蔑|ないがしろ}にする: to neglect, to disregard\n- {侮蔑|ぶべつ}: contempt, disdain (noun)\n- {見下|みくだ}す: to look down on",
+  "notes": "{蔑|さげす}む expresses contempt or looking down on someone.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n\nREGISTER:\nFairly formal or literary; the casual equivalent would be ⟦{馬鹿|ばか}→馬鹿：03574_baka⟧⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧ or ⟦{見下|みくだ}す→見下す：09911_mikudasu⟧.\n\nCOMMON PATTERNS:\n- ⟦{人|ひと}→人：00476_hito⟧⟦を→を：00422_wo⟧{蔑|さげす}む: to despise someone\n- {蔑|さげす}むような⟦{目|め}→目：00525_me⟧: contemptuous eyes\n- {蔑|さげす}んだ⟦{態度|たいど}→態度：03396_taido⟧: scornful attitude\n\nRELATED WORDS:\n- ⟦{蔑|ないがしろ}→蔑：09446_naigashiro⟧⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧: to neglect, to disregard\n- ⟦{侮蔑|ぶべつ}→侮蔑：10031_bubetsu⟧: contempt, disdain (noun)\n- ⟦{見下|みくだ}す→見下す：09911_mikudasu⟧: to look down on",
   "cross_references": [
     {
       "type": "synonym",
@@ -158,11 +158,32 @@
       "reading": "たっとぶ",
       "headword": "{尊|たっと}ぶ",
       "label": "to value, to respect"
+    },
+    {
+      "type": "related",
+      "target_id": "10031_bubetsu",
+      "reading": "ぶべつ",
+      "headword": "{侮蔑|ぶべつ}",
+      "label": "contempt, disdain"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04849_keibetsu",
+      "reading": "けいべつ",
+      "headword": "{軽蔑|けいべつ}",
+      "label": "contempt, scorn"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15622_karonjiru",
+      "reading": "かろんじる",
+      "headword": "{軽|かろ}んじる",
+      "label": "to look down on"
     }
   ],
   "metadata": {
     "created": "2026-02-04T14:18:11Z",
-    "modified": "2026-04-23T09:22:17Z",
+    "modified": "2026-09-02T04:01:19Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24422_kirisuto_ex1",
-      "japanese": "キリスト{教|きょう}を{信|しん}じている。",
+      "japanese": "キリスト{教|きょう}⟦を→を：00422_wo⟧⟦{信|しん}じている→信じる：01111_shinjiru⟧。",
       "english": "I believe in Christianity.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24422_kirisuto_ex2",
-      "japanese": "クリスマスはキリストの{誕生|たんじょう}を{祝|いわ}う{日|ひ}だ。",
+      "japanese": "⟦クリスマス→クリスマス：03839_kurisumasu⟧⟦は→は：00079_ha⟧キリスト⟦の→の：09472_no⟧⟦{誕生|たんじょう}→誕生：01460_tanjou⟧⟦を→を：00422_wo⟧⟦{祝|いわ}う→祝う：01881_iwau⟧⟦{日|ひ}→日：02249_hi⟧だ。",
       "english": "Christmas is a day to celebrate the birth of Christ.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24422_kirisuto_ex3",
-      "japanese": "{日本|にほん}のキリスト{教徒|きょうと}の{割合|わりあい}は{全|ぜん}{人口|じんこう}の{約|やく}1パーセントと{言|い}われている。",
+      "japanese": "⟦{日本|にほん}→日本：03876_nihon⟧⟦の→の：09472_no⟧キリスト{教徒|きょうと}⟦の→の：09472_no⟧⟦{割合|わりあい}→割合：01760_wariai⟧⟦は→は：00079_ha⟧⟦{全|ぜん}→全〜：28337_zen⟧⟦{人口|じんこう}→人口：01618_jinkou⟧⟦の→の：09472_no⟧⟦{約|やく}→約：09563_yaku⟧1⟦パーセント→パーセント：01537_paasento⟧⟦と→と：00512_to⟧⟦{言|い}われている→言う：00515_iu⟧。",
       "english": "It is said that the proportion of Christians in Japan is about 1 percent of the total population.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "From Portuguese \"Cristo\" (Christ), introduced by Portuguese missionaries in the 16th century. One of the oldest loanwords in Japanese. Even though Japan has a small Christian population, キリスト appears frequently in daily life through terms like キリスト{教|きょう} (Christianity), which is taught in schools and appears in news.\n\nCOMMON COLLOCATIONS:\n- キリスト{教|きょう}: Christianity\n- キリスト{教徒|きょうと}: Christian (person)\n- キリスト{教会|きょうかい}: Christian church\n- イエス・キリスト: Jesus Christ\n- キリスト{教|きょう}{系|けい}: Christian-affiliated\n\nSIMILAR WORDS:\n- イエス: Jesus — the personal name, sometimes used alone\n- {救世主|きゅうせいしゅ}: savior, messiah — the meaning of \"Christ\" as a title\n\nETYMOLOGY:\nDerived from Portuguese \"Cristo,\" not directly from English. This is why the katakana spelling follows Portuguese pronunciation patterns rather than English ones.",
+  "notes": "From Portuguese \"Cristo\" (Christ), introduced by Portuguese missionaries in the 16th century. One of the oldest loanwords in Japanese. Even though Japan has a small Christian population, キリスト appears frequently in daily life through terms like キリスト{教|きょう} (Christianity), which is taught in schools and appears in news.\n\nCOMMON COLLOCATIONS:\n- キリスト{教|きょう}: Christianity\n- キリスト{教徒|きょうと}: Christian (person)\n- キリスト⟦{教会|きょうかい}→教会：01387_kyoukai⟧: Christian church\n- イエス・キリスト: Jesus Christ\n- キリスト{教|きょう}⟦{系|けい}→〜系：28466_kei⟧: Christian-affiliated\n\nSIMILAR WORDS:\n- イエス: Jesus — the personal name, sometimes used alone\n- ⟦{救世主|きゅうせいしゅ}→救世主：27799_kyuuseishu⟧: savior, messiah — the meaning of \"Christ\" as a title\n\nETYMOLOGY:\nDerived from Portuguese \"Cristo,\" not directly from English. This is why the katakana spelling follows Portuguese pronunciation patterns rather than English ones.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "27799_kyuuseishu",
+      "reading": "きゅうせいしゅ",
+      "headword": "{救世主|きゅうせいしゅ}",
+      "label": "savior, messiah"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +68,6 @@
       ]
     },
     "created": "2026-04-19T09:20:46Z",
-    "modified": "2026-04-19T09:20:46Z"
+    "modified": "2026-09-02T04:02:18Z"
   }
 }

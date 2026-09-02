@@ -34,7 +34,7 @@
     },
     {
       "id": "02535_kaiin_ex3",
-      "japanese": "{会員|かいいん}⟦{登録|とうろく}→登録：05703_touroku⟧⟦を→を：00422_wo⟧⟦したい→する：00392_suru⟧のですが。",
+      "japanese": "{会員|かいいん}⟦{登録|とうろく}→登録：05703_touroku⟧⟦を→を：00422_wo⟧⟦したい→する：00392_suru⟧⟦の→の：09472_no⟧です⟦が→が：00051_ga⟧。",
       "english": "I would like to register as a member.",
       "notes": null,
       "has_audio": false,
@@ -54,7 +54,7 @@
     },
     {
       "id": "02535_kaiin_ex5",
-      "japanese": "⟦この→この：00962_kono⟧⟦サービス→サービス：01531_saabisu⟧⟦は→は：00079_ha⟧{会員|かいいん}でなくて⟦も→も：00484_mo⟧⟦{利用|りよう}→利用：01752_riyou⟧⟦できます→できる：00557_dekiru⟧が、{会員|かいいん}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{特別|とくべつ}な→特別：01120_tokubetsu⟧⟦{特典|とくてん}→特典：13469_tokuten⟧⟦が→が：00051_ga⟧⟦あります→ある：00006_aru⟧。",
+      "japanese": "⟦この→この：00962_kono⟧⟦サービス→サービス：01531_saabisu⟧⟦は→は：00079_ha⟧{会員|かいいん}でなくて⟦も→も：00484_mo⟧⟦{利用|りよう}→利用：01752_riyou⟧⟦できます→できる：00557_dekiru⟧⟦が→が：00051_ga⟧、{会員|かいいん}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{特別|とくべつ}な→特別：01120_tokubetsu⟧⟦{特典|とくてん}→特典：13469_tokuten⟧⟦が→が：00051_ga⟧⟦あります→ある：00006_aru⟧。",
       "english": "This service is available even to non-members, but members receive special benefits.",
       "notes": null,
       "has_audio": false,
@@ -63,11 +63,68 @@
       ]
     }
   ],
-  "notes": "{会員|かいいん} means member, typically of a club, organization, or membership service.\n\nCOMMON COLLOCATIONS:\n- {会員|かいいん}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧ (to become a member)\n- {会員|かいいん}⟦{登録|とうろく}→登録：05703_touroku⟧ (membership registration)\n- {会員|かいいん}⟦{証|しょう}→証：noentry⟧ (membership card)\n- {会員|かいいん}⟦{限定|げんてい}→限定：10997_gentei⟧ (members only)\n- {会員|かいいん}⟦{番号|ばんごう}→番号：02939_bangou⟧ (member number)\n- ⟦{年会費|ねんかいひ}→年会費：06414_nenkaihi⟧ (annual membership fee)\n\nCOMPOUND WORDS:\n- ⟦{正会員|せいかいいん}→正会員：noentry⟧ (regular/full member)\n- ⟦{準会員|じゅんかいいん}→準会員：noentry⟧ (associate member)\n- ⟦{新規会員|しんきかいいん}→新規会員：noentry⟧ (new member)\n\nCOUNTER: ⟦{人|にん}→〜人：00658_nin⟧ or ⟦{名|めい}→〜名：04015_mei⟧",
-  "cross_references": [],
+  "notes": "{会員|かいいん} means member, typically of a club, organization, or membership service.\n\nCOMMON COLLOCATIONS:\n- {会員|かいいん}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧ (to become a member)\n- {会員|かいいん}⟦{登録|とうろく}→登録：05703_touroku⟧ (membership registration)\n- {会員|かいいん}⟦{証|しょう}→証：noentry⟧ (membership card)\n- {会員|かいいん}⟦{限定|げんてい}→限定：10997_gentei⟧ (members only)\n- {会員|かいいん}⟦{番号|ばんごう}→番号：02939_bangou⟧ (member number)\n- ⟦{年会費|ねんかいひ}→年会費：06414_nenkaihi⟧ (annual membership fee)\n\nCOMPOUNDS:\n- ⟦{正会員|せいかいいん}→正会員：noentry⟧ (regular/full member)\n- ⟦{準会員|じゅんかいいん}→準会員：noentry⟧ (associate member)\n- ⟦{新規会員|しんきかいいん}→新規会員：noentry⟧ (new member)\n\nCOUNTER: ⟦{人|にん}→〜人：00658_nin⟧ or ⟦{名|めい}→〜名：04015_mei⟧",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "00275_menbaa",
+      "reading": "めんばー",
+      "headword": "メンバー",
+      "label": "member"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15240_kouseiin",
+      "reading": "こうせいいん",
+      "headword": "{構成員|こうせいいん}",
+      "label": "member"
+    },
+    {
+      "type": "related",
+      "target_id": "22913_kanyuusha",
+      "reading": "かにゅうしゃ",
+      "headword": "{加入者|かにゅうしゃ}",
+      "label": "subscriber"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23732_danin",
+      "reading": "だんいん",
+      "headword": "{団員|だんいん}",
+      "label": "member (of a group, troupe, or organization)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26097_seiin",
+      "reading": "せいいん",
+      "headword": "{成員|せいいん}",
+      "label": "member"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26241_tourokusha",
+      "reading": "とうろくしゃ",
+      "headword": "{登録者|とうろくしゃ}",
+      "label": "registered person"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27409_buin",
+      "reading": "ぶいん",
+      "headword": "{部員|ぶいん}",
+      "label": "club member"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29440_kameidantai",
+      "reading": "かめいだんたい",
+      "headword": "{加盟団体|かめいだんたい}",
+      "label": "member organization"
+    }
+  ],
   "metadata": {
     "created": "2026-01-11T09:28:09Z",
-    "modified": "2026-05-20T22:35:00Z",
+    "modified": "2026-09-02T04:01:01Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

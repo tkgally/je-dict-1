@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "15726_manshitsu_ex1",
-      "japanese": "ホテルは{満室|まんしつ}だった。",
+      "japanese": "⟦ホテル→ホテル：01027_hoteru⟧⟦は→は：00079_ha⟧{満室|まんしつ}だった。",
       "english": "The hotel was fully booked.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "15726_manshitsu_ex2",
-      "japanese": "{連休中|れんきゅうちゅう}はどこも{満室|まんしつ}で{予約|よやく}が{取|と}れない。",
+      "japanese": "{連休中|れんきゅうちゅう}⟦は→は：00079_ha⟧⟦どこ→どこ：00539_doko⟧⟦も→も：00484_mo⟧{満室|まんしつ}⟦で→で：00502_de⟧⟦{予約|よやく}→予約：01522_yoyaku⟧⟦が→が：00051_ga⟧⟦{取|と}れない→取れる：02376_toreru⟧。",
       "english": "During the holiday period, everywhere is fully booked and I can't make a reservation.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "15726_manshitsu_ex3",
-      "japanese": "{人気|にんき}の{旅館|りょかん}は{半年|はんとし}{前|まえ}から{満室|まんしつ}になることもある。",
+      "japanese": "⟦{人気|にんき}→人気：01488_ninki⟧⟦の→の：09472_no⟧⟦{旅館|りょかん}→旅館：01049_ryokan⟧⟦は→は：00079_ha⟧⟦{半年|はんとし}→半年：03139_hantoshi⟧⟦{前|まえ}→前：02255_mae⟧⟦から→から：00504_kara⟧{満室|まんしつ}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧こと⟦も→も：00484_mo⟧⟦ある→ある：00006_aru⟧。",
       "english": "Popular inns can be fully booked as early as six months in advance.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nCommonly seen on signs at hotels and parking garages (for the latter, {満車|まんしゃ} is used instead). The opposite is {空室|くうしつ} (vacancy).\n\nCOMMON COLLOCATIONS:\n- {満室|まんしつ}になる (to become fully booked)\n- {満室|まんしつ}{御礼|おんれい} (fully booked — thank you)\n- {空室|くうしつ}/{満室|まんしつ} (vacancy / no vacancy)\n\nSIMILAR WORDS:\n{満車|まんしゃ} (no parking spaces available), {満席|まんせき} (no seats available), {満員|まんいん} (full capacity of people).",
+  "notes": "USAGE:\nCommonly seen on signs at hotels and parking garages (for the latter, ⟦{満車|まんしゃ}→満車：15487_mansha⟧ is used instead). The opposite is ⟦{空室|くうしつ}→空室：14798_kuushitsu⟧ (vacancy).\n\nCOMMON COLLOCATIONS:\n- {満室|まんしつ}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧ (to become fully booked)\n- {満室|まんしつ}{御礼|おんれい} (fully booked — thank you)\n- ⟦{空室|くうしつ}→空室：14798_kuushitsu⟧/{満室|まんしつ} (vacancy / no vacancy)\n\nSIMILAR WORDS:\n⟦{満車|まんしゃ}→満車：15487_mansha⟧ (no parking spaces available), ⟦{満席|まんせき}→満席：07585_manseki⟧ (no seats available), ⟦{満員|まんいん}→満員：07584_manin⟧ (full capacity of people).",
   "cross_references": [
     {
       "type": "antonym",
@@ -66,11 +66,18 @@
       "reading": "まんいん",
       "headword": "{満員|まんいん}",
       "label": "full capacity"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15487_mansha",
+      "reading": "まんしゃ",
+      "headword": "{満車|まんしゃ}",
+      "label": "no parking spaces available"
     }
   ],
   "metadata": {
     "created": "2026-03-08T08:51:20Z",
-    "modified": "2026-05-02T04:22:54Z",
+    "modified": "2026-09-02T04:01:42Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

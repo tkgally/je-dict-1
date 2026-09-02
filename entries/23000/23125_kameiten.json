@@ -15,40 +15,88 @@
   "examples": [
     {
       "id": "23125_kameiten_ex1",
-      "japanese": "この{加盟店|かめいてん}で{使|つか}えます。",
+      "japanese": "⟦この→この：00962_kono⟧{加盟店|かめいてん}⟦で→で：00502_de⟧⟦{使|つか}えます→使う：00473_tsukau⟧。",
       "english": "You can use it at this member store.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "23125_kameiten_ex2",
-      "japanese": "{加盟店|かめいてん}の{一覧|いちらん}はウェブサイトで{確認|かくにん}できる。",
+      "japanese": "{加盟店|かめいてん}⟦の→の：09472_no⟧⟦{一覧|いちらん}→一覧：17694_ichiran⟧⟦は→は：00079_ha⟧⟦ウェブサイト→ウェブサイト：05152_webusaito⟧⟦で→で：00502_de⟧⟦{確認|かくにん}できる→確認する：25332_kakuninsuru⟧。",
       "english": "You can check the list of participating stores on the website.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "23125_kameiten_ex3",
-      "japanese": "このクレジットカードは{全国|ぜんこく}の{加盟店|かめいてん}で{利用|りよう}できる。",
+      "japanese": "⟦この→この：00962_kono⟧⟦クレジットカード→クレジットカード：06968_kurejittokaado⟧⟦は→は：00079_ha⟧⟦{全国|ぜんこく}→全国：03311_zenkoku⟧⟦の→の：09472_no⟧{加盟店|かめいてん}⟦で→で：00502_de⟧⟦{利用|りよう}できる→利用する：21735_riyousuru⟧。",
       "english": "This credit card can be used at affiliated shops throughout the country.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {加盟|かめい} (joining, affiliation) and {店|てん} (shop, store). Very commonly seen in everyday life in Japan on signs and websites for credit card networks, point card systems, and franchise businesses.\n\nCOMMON COLLOCATIONS:\n- {加盟店|かめいてん}{一覧|いちらん}: list of member stores\n- {加盟店|かめいてん}で{利用|りよう}する: to use at a member store\n- {加盟店|かめいてん}になる: to become a member store\n- {加盟店|かめいてん}{手数料|てすうりょう}: merchant processing fee\n\nSIMILAR WORDS:\n- {提携店|ていけいてん}: partner store — a store that cooperates with another business through a specific agreement\n- {直営店|ちょくえいてん}: directly managed store — a store operated directly by the parent company, not a franchise\n- フランチャイズ{店|てん}: franchise store — specifically a franchised outlet",
+  "notes": "Composed of ⟦{加盟|かめい}→加盟：05769_kamei⟧ (joining, affiliation) and ⟦{店|てん}→店：10011_ten⟧ (shop, store). Very commonly seen in everyday life in Japan on signs and websites for credit card networks, point card systems, and franchise businesses.\n\nCOMMON COLLOCATIONS:\n- {加盟店|かめいてん}⟦{一覧|いちらん}→一覧：17694_ichiran⟧: list of member stores\n- {加盟店|かめいてん}⟦で→で：00502_de⟧⟦{利用|りよう}する→利用する：21735_riyousuru⟧: to use at a member store\n- {加盟店|かめいてん}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧: to become a member store\n- {加盟店|かめいてん}⟦{手数料|てすうりょう}→手数料：05423_tesuuryou⟧: merchant processing fee\n\nSIMILAR WORDS:\n- ⟦{提携店|ていけいてん}→提携店：24942_teikeiten⟧: partner store — a store that cooperates with another business through a specific agreement\n- ⟦{直営店|ちょくえいてん}→直営店：20450_chokueiten⟧: directly managed store — a store operated directly by the parent company, not a franchise\n- ⟦フランチャイズ→フランチャイズ：20702_furanchaizu⟧⟦{店|てん}→店：10011_ten⟧: franchise store — specifically a franchised outlet",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24942_teikeiten",
+      "reading": "ていけいてん",
+      "headword": "{提携店|ていけいてん}",
+      "label": "partner store"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20450_chokueiten",
+      "reading": "ちょくえいてん",
+      "headword": "{直営店|ちょくえいてん}",
+      "label": "directly managed store"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20702_furanchaizu",
+      "reading": "ふらんちゃいず",
+      "headword": "フランチャイズ",
+      "label": "franchise"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24025_keiretsuten",
+      "reading": "けいれつてん",
+      "headword": "{系列店|けいれつてん}",
+      "label": "affiliated store"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29644_furanchaijii",
+      "reading": "ふらんちゃいじー",
+      "headword": "フランチャイジー",
+      "label": "franchisee"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["business", "shopping"],
+      "pos": [
+        "noun"
+      ],
+      "semantic": [
+        "business",
+        "shopping"
+      ],
       "formality": "neutral",
       "politeness": "plain"
     },
     "created": "2026-04-08T19:24:38Z",
-    "modified": "2026-04-08T19:24:38Z"
+    "modified": "2026-09-02T04:02:11Z"
   }
 }

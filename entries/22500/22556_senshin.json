@@ -3,7 +3,7 @@
   "headword": "{先進|せんしん}",
   "reading": "せんしん",
   "romaji": "senshin",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "advanced; leading; pioneering",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22556_senshin_ex1",
-      "japanese": "{先進国|せんしんこく}の{経済|けいざい}は{減速|げんそく}している。",
+      "japanese": "⟦{先進国|せんしんこく}→先進国：11624_senshinkoku⟧⟦の→の：09472_no⟧⟦{経済|けいざい}→経済：01394_keizai⟧⟦は→は：00079_ha⟧⟦{減速|げんそく}→減速：13336_gensoku_deceleration⟧⟦している→する：00392_suru⟧。",
       "english": "The economies of developed nations are slowing down.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22556_senshin_ex2",
-      "japanese": "{先進的|せんしんてき}な{技術|ぎじゅつ}を{導入|どうにゅう}した。",
+      "japanese": "⟦{先進的|せんしんてき}→先進的：20024_senshinteki⟧な⟦{技術|ぎじゅつ}→技術：01389_gijutsu⟧⟦を→を：00422_wo⟧⟦{導入|どうにゅう}した→導入する：16055_dounyuusuru⟧。",
       "english": "We introduced advanced technology.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22556_senshin_ex3",
-      "japanese": "この{分野|ぶんや}では{日本|にほん}が{先進|せんしん}の{役割|やくわり}を{果|は}たしてきた。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{分野|ぶんや}→分野：03612_bunya⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{日本|にほん}→日本：03876_nihon⟧⟦が→が：00051_ga⟧{先進|せんしん}⟦の→の：09472_no⟧⟦{役割|やくわり}→役割：03638_yakuwari⟧⟦を→を：00422_wo⟧⟦{果|は}たして→果たす：10060_hatasu⟧きた。",
       "english": "Japan has played a leading role in this field.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {先|せん} (ahead, prior) + {進|しん} (advance, progress). Most frequently appears in the compound {先進国|せんしんこく} (developed/advanced nation), one of the most common political and economic terms in Japanese. The opposite is {後進|こうしん} (underdeveloped) or {途上|とじょう} (developing).\n\nCOMMON COLLOCATIONS:\n- {先進国|せんしんこく}: developed/advanced nation\n- {先進的|せんしんてき}: advanced, pioneering (adjective)\n- {先進|せんしん}{技術|ぎじゅつ}: advanced technology\n- {先進|せんしん}{事例|じれい}: advanced case study, leading example\n- G7{先進国|せんしんこく}: the G7 advanced nations\n\nSIMILAR WORDS:\n- {最先端|さいせんたん}: cutting-edge — the very latest, most advanced\n- {先端|せんたん}: leading edge — at the forefront of development\n- {後進|こうしん}: underdeveloped — the opposite; lagging behind\n- {発展途上|はってんとじょう}: developing — nations or areas still developing",
+  "notes": "Composed of {先|せん} (ahead, prior) + {進|しん} (advance, progress). Most frequently appears in the compound ⟦{先進国|せんしんこく}→先進国：11624_senshinkoku⟧ (developed/advanced nation), one of the most common political and economic terms in Japanese. The opposite is {後進|こうしん} (underdeveloped) or {途上|とじょう} (developing).\n\nCOMMON COLLOCATIONS:\n- ⟦{先進国|せんしんこく}→先進国：11624_senshinkoku⟧: developed/advanced nation\n- ⟦{先進的|せんしんてき}→先進的：20024_senshinteki⟧: advanced, pioneering (adjective)\n- {先進|せんしん}⟦{技術|ぎじゅつ}→技術：01389_gijutsu⟧: advanced technology\n- {先進|せんしん}⟦{事例|じれい}→事例：11417_jirei⟧: advanced case study, leading example\n- G7⟦{先進国|せんしんこく}→先進国：11624_senshinkoku⟧: the G7 advanced nations\n\nSIMILAR WORDS:\n- ⟦{最先端|さいせんたん}→最先端：13011_saisentan⟧: cutting-edge — the very latest, most advanced\n- ⟦{先端|せんたん}→先端：04370_sentan⟧: leading edge — at the forefront of development\n- {後進|こうしん}: underdeveloped — the opposite; lagging behind\n- {発展途上|はってんとじょう}: developing — nations or areas still developing",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13011_saisentan",
+      "reading": "さいせんたん",
+      "headword": "{最先端|さいせんたん}",
+      "label": "cutting-edge"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04370_sentan",
+      "reading": "せんたん",
+      "headword": "{先端|せんたん}",
+      "label": "leading edge"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,6 +77,6 @@
       ]
     },
     "created": "2026-04-06T17:37:37Z",
-    "modified": "2026-04-10T08:28:27Z"
+    "modified": "2026-09-02T04:02:08Z"
   }
 }

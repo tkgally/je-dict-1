@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26752_kitaamerika_ex1",
-      "japanese": "{北|きた}アメリカは{広|ひろ}い。",
+      "japanese": "{北|きた}アメリカ⟦は→は：00079_ha⟧⟦{広|ひろ}い→広い：00704_hiroi⟧。",
       "english": "North America is vast.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26752_kitaamerika_ex2",
-      "japanese": "{北|きた}アメリカ{大陸|たいりく}には{多|おお}くの{国|くに}がある。",
+      "japanese": "{北|きた}アメリカ{大陸|たいりく}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{多|おお}く⟦の→の：09472_no⟧⟦{国|くに}→国：02204_kuni⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There are many countries on the North American continent.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26752_kitaamerika_ex3",
-      "japanese": "{彼|かれ}は{北|きた}アメリカを{一周|いっしゅう}する{旅|たび}に{出|で}た。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{北|きた}アメリカ⟦を→を：00422_wo⟧⟦{一周|いっしゅう}→一周：08917_isshuu⟧⟦する→する：00392_suru⟧⟦{旅|たび}→旅：03407_tabi⟧⟦に→に：00314_ni⟧⟦{出|で}た→出る：00513_deru⟧。",
       "english": "He set out on a trip around North America.",
       "sense_numbers": [
         1
@@ -44,8 +44,23 @@
       "notes": null
     }
   ],
-  "notes": "Written either as {北|きた}アメリカ or {北米|ほくべい}. The full form {北|きた}アメリカ is more common in everyday speech and writing, while {北米|ほくべい} is a Sino-Japanese abbreviation used in news, formal writing, and compound terms.\n\nCOMMON COLLOCATIONS:\n- {北|きた}アメリカ{大陸|たいりく}: the North American continent\n- {北|きた}アメリカ{諸国|しょこく}: North American countries\n- {北|きた}アメリカ{原産|げんさん}: native to North America\n\nSIMILAR WORDS:\n- {北米|ほくべい}: North America — Sino-Japanese abbreviation; more formal and compact\n- {南|みなみ}アメリカ: South America — the southern counterpart\n- {中|ちゅう}アメリカ: Central America — the region between North and South America",
-  "cross_references": [],
+  "notes": "Written either as {北|きた}アメリカ or ⟦{北米|ほくべい}→北米：17097_hokubei⟧. The full form {北|きた}アメリカ is more common in everyday speech and writing, while ⟦{北米|ほくべい}→北米：17097_hokubei⟧ is a Sino-Japanese abbreviation used in news, formal writing, and compound terms.\n\nCOMMON COLLOCATIONS:\n- {北|きた}アメリカ{大陸|たいりく}: the North American continent\n- {北|きた}アメリカ⟦{諸国|しょこく}→諸国：15992_shokoku⟧: North American countries\n- {北|きた}アメリカ⟦{原産|げんさん}→原産：04180_gensan⟧: native to North America\n\nSIMILAR WORDS:\n- ⟦{北米|ほくべい}→北米：17097_hokubei⟧: North America — Sino-Japanese abbreviation; more formal and compact\n- ⟦{南|みなみ}アメリカ→南アメリカ：26753_minamiamerika⟧: South America — the southern counterpart\n- ⟦{中|ちゅう}→〜中：09840_chuu⟧⟦アメリカ→アメリカ：01769_amerika⟧: Central America — the region between North and South America",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17097_hokubei",
+      "reading": "ほくべい",
+      "headword": "{北米|ほくべい}",
+      "label": "North America"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26753_minamiamerika",
+      "reading": "みなみあめりか",
+      "headword": "{南|みなみ}アメリカ",
+      "label": "South America"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -61,6 +76,6 @@
       "domain": []
     },
     "created": "2026-05-04T16:16:39Z",
-    "modified": "2026-08-06T12:46:55Z"
+    "modified": "2026-09-02T04:02:27Z"
   }
 }

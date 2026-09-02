@@ -15,40 +15,59 @@
   "examples": [
     {
       "id": "27652_wotaishouni_ex1",
-      "japanese": "{学生|がくせい}を{対象|たいしょう}にした{調査|ちょうさ}。",
+      "japanese": "⟦{学生|がくせい}→学生：00610_gakusei⟧を{対象|たいしょう}に⟦した→する：00392_suru⟧⟦{調査|ちょうさ}→調査：03489_chousa⟧。",
       "english": "A survey targeting students.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27652_wotaishouni_ex2",
-      "japanese": "{子|こ}どもを{対象|たいしょう}に{英語|えいご}{教室|きょうしつ}を{開|ひら}く。",
+      "japanese": "{子|こ}どもを{対象|たいしょう}に⟦{英語|えいご}→英語：02274_eigo⟧⟦{教室|きょうしつ}→教室：00794_kyoushitsu⟧⟦を→を：00422_wo⟧⟦{開|ひら}く→開く：01979_hiraku⟧。",
       "english": "To open an English class aimed at children.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27652_wotaishouni_ex3",
-      "japanese": "この{割引|わりびき}は{初|はじ}めて{利用|りよう}するお{客様|きゃくさま}を{対象|たいしょう}にしています。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{割引|わりびき}→割引：01526_waribiki⟧⟦は→は：00079_ha⟧⟦{初|はじ}めて→初めて：02932_hajimete⟧⟦{利用|りよう}する→利用する：21735_riyousuru⟧⟦お{客様|きゃくさま}→お客様：08780_okyakusama⟧を{対象|たいしょう}に⟦しています→する：00392_suru⟧。",
       "english": "This discount is intended for customers using the service for the first time.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Often appears as {対象|たいしょう}にした or {対象|たいしょう}にして modifying a following noun. The fuller form is を{対象|たいしょう}にして; を{対象|たいしょう}に is the common shortened version.\n\nCOMMON PATTERNS:\n- ...を{対象|たいしょう}にした{調査|ちょうさ}: a survey targeting ...\n- ...を{対象|たいしょう}にして{行|おこな}う: to carry out aimed at ...\n- {全社員|ぜんしゃいん}を{対象|たいしょう}に: targeting all employees\n\nSIMILAR WORDS:\n- {向|む}け: aimed at — attaches directly to a noun ({子|こ}ども{向|む}け); more casual\n- を{中心|ちゅうしん}に: centered on — emphasizes the focal point rather than the target group",
+  "notes": "Often appears as ⟦{対象|たいしょう}→対象：03393_taishou⟧にした or ⟦{対象|たいしょう}→対象：03393_taishou⟧にして modifying a following noun. The fuller form is を{対象|たいしょう}に⟦して→する：00392_suru⟧; を{対象|たいしょう}に is the common shortened version.\n\nCOMMON PATTERNS:\n- ...を{対象|たいしょう}に⟦した→する：00392_suru⟧⟦{調査|ちょうさ}→調査：03489_chousa⟧: a survey targeting ...\n- ...を{対象|たいしょう}に⟦して→する：00392_suru⟧⟦{行|おこな}う→行う：01238_okonau⟧: to carry out aimed at ...\n- {全社員|ぜんしゃいん}を{対象|たいしょう}に: targeting all employees\n\nSIMILAR WORDS:\n- ⟦{向|む}け→向ける：02306_mukeru⟧: aimed at — attaches directly to a noun ({子|こ}ども{向|む}け); more casual\n- ⟦を→を：00422_wo⟧⟦{中心|ちゅうしん}→中心：01467_chuushin⟧⟦に→に：00314_ni⟧: centered on — emphasizes the focal point rather than the target group",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11011_muke",
+      "reading": "むけ",
+      "headword": "{向|む}け",
+      "label": "aimed at"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["expression"],
+      "pos": [
+        "expression"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["expression"]
+      "semantic": [
+        "expression"
+      ]
     },
     "created": "2026-05-16T03:10:15Z",
-    "modified": "2026-05-16T03:10:15Z"
+    "modified": "2026-09-02T04:02:31Z"
   }
 }

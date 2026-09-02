@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "09073_kyoushu_ex1",
-      "japanese": "{興趣|きょうしゅ}に{富|と}んだ{話|はなし}だった。",
+      "japanese": "{興趣|きょうしゅ}⟦に→に：00314_ni⟧⟦{富|と}んだ→富む：12343_tomu⟧⟦{話|はなし}→話：01496_hanashi⟧だった。",
       "english": "It was an interesting story.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "09073_kyoushu_ex2",
-      "japanese": "{旅|たび}に{興趣|きょうしゅ}を{添|そ}える{出会|であ}いがあった。",
+      "japanese": "⟦{旅|たび}→旅：03407_tabi⟧⟦に→に：00314_ni⟧{興趣|きょうしゅ}⟦を→を：00422_wo⟧⟦{添|そ}える→添える：13315_soeru⟧⟦{出会|であ}い→出会い：03445_deai⟧⟦が→が：00051_ga⟧⟦あった→ある：00006_aru⟧。",
       "english": "There were encounters that added charm to the journey.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "09073_kyoushu_ex3",
-      "japanese": "{興趣|きょうしゅ}を{感|かん}じさせる{展示|てんじ}だった。",
+      "japanese": "{興趣|きょうしゅ}⟦を→を：00422_wo⟧⟦{感|かん}じさせる→感じる：02044_kanjiru⟧⟦{展示|てんじ}→展示：12401_tenji⟧だった。",
       "english": "It was an exhibition that evoked interest.",
       "notes": null,
       "has_audio": false,
@@ -43,11 +43,26 @@
       ]
     }
   ],
-  "notes": "{興趣|きょうしゅ} describes the quality of being interesting or appealing.\n\nWORD FORMATION:\n- {興|きょう} (interest, excitement) + {趣|しゅ} (charm, taste)\n\nCOMMON COLLOCATIONS:\n- {興趣|きょうしゅ}に{富|と}む: to be rich in interest\n- {興趣|きょうしゅ}を{添|そ}える: to add flavor/interest\n- {興趣|きょうしゅ}を{感|かん}じる: to feel interest/charm\n- {興趣|きょうしゅ}{深|ぶか}い: deeply interesting\n\nUSAGE NOTE:\n{興趣|きょうしゅ} is a literary/formal word. In everyday speech, {面白|おもしろ}い or {興味深|きょうみぶか}い are more common.\n\nRELATED WORDS:\n- {趣|おもむき}: charm, flavor\n- {趣味|しゅみ}: hobby, interest\n- {興味|きょうみ}: interest (more common)",
-  "cross_references": [],
+  "notes": "{興趣|きょうしゅ} describes the quality of being interesting or appealing.\n\nFORMS:\n- {興|きょう} (interest, excitement) + {趣|しゅ} (charm, taste)\n\nCOMMON COLLOCATIONS:\n- {興趣|きょうしゅ}⟦に→に：00314_ni⟧⟦{富|と}む→富む：12343_tomu⟧: to be rich in interest\n- {興趣|きょうしゅ}⟦を→を：00422_wo⟧⟦{添|そ}える→添える：13315_soeru⟧: to add flavor/interest\n- {興趣|きょうしゅ}⟦を→を：00422_wo⟧⟦{感|かん}じる→感じる：02044_kanjiru⟧: to feel interest/charm\n- {興趣|きょうしゅ}{深|ぶか}い: deeply interesting\n\nUSAGE:\n{興趣|きょうしゅ} is a literary/formal word. In everyday speech, ⟦{面白|おもしろ}い→面白い：00589_omoshiroi⟧ or ⟦{興味深|きょうみぶか}い→興味深い：20118_kyoumibukai⟧ are more common.\n\nRELATED WORDS:\n- ⟦{趣|おもむき}→趣：09072_omomuki⟧: charm, flavor\n- ⟦{趣味|しゅみ}→趣味：00889_shumi⟧: hobby, interest\n- ⟦{興味|きょうみ}→興味：01316_kyoumi⟧: interest (more common)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "00889_shumi",
+      "reading": "しゅみ",
+      "headword": "{趣味|しゅみ}",
+      "label": "hobby, interest"
+    },
+    {
+      "type": "related",
+      "target_id": "01316_kyoumi",
+      "reading": "きょうみ",
+      "headword": "{興味|きょうみ}",
+      "label": "interest"
+    }
+  ],
   "metadata": {
     "created": "2026-01-31T02:26:11Z",
-    "modified": "2026-08-12T21:25:53Z",
+    "modified": "2026-09-02T04:01:17Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

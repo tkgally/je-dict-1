@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28394_ueno_ex1",
-      "japanese": "{上野|うえの}{公園|こうえん}で{花見|はなみ}をした。",
+      "japanese": "{上野|うえの}{公園|こうえん}⟦で→で：00502_de⟧⟦{花見|はなみ}→花見：01700_hanami⟧⟦を→を：00422_wo⟧⟦した→する：00392_suru⟧。",
       "english": "We went cherry-blossom viewing in Ueno Park.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28394_ueno_ex2",
-      "japanese": "{上野|うえの}{駅|えき}から{新幹線|しんかんせん}に{乗|の}った。",
+      "japanese": "{上野|うえの}{駅|えき}⟦から→から：00504_kara⟧⟦{新幹線|しんかんせん}→新幹線：01053_shinkansen⟧⟦に→に：00314_ni⟧⟦{乗|の}った→乗る：00511_noru⟧。",
       "english": "I caught the Shinkansen from Ueno Station.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28394_ueno_ex3",
-      "japanese": "{上野|うえの}{動物園|どうぶつえん}はパンダで{有名|ゆうめい}だ。",
+      "japanese": "{上野|うえの}{動物園|どうぶつえん}⟦は→は：00079_ha⟧⟦パンダ→パンダ：11257_panda⟧⟦で→で：00502_de⟧⟦{有名|ゆうめい}→有名：01106_yuumei⟧だ。",
       "english": "Ueno Zoo is famous for its pandas.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Located in Taito Ward ({台東区|たいとうく}), adjacent to {浅草|あさくさ}. Ueno Station is a terminus for many northbound JR lines.\n\nKEY LANDMARKS:\n- {上野|うえの}{公園|こうえん}: Ueno Park (with museums and the zoo)\n- {上野|うえの}{動物園|どうぶつえん}: Ueno Zoo\n- {国立|こくりつ}{西洋|せいよう}{美術館|びじゅつかん}: National Museum of Western Art\n- {東京国立博物館|とうきょうこくりつはくぶつかん}: Tokyo National Museum\n- {アメ横|あめよこ}: Ameyoko Market (cheap food, snacks, and goods)\n\nCULTURAL NOTE:\nAlong with {浅草|あさくさ}, Ueno is part of Tokyo's eastern {下町|したまち} (old downtown). It is one of the city's most popular {花見|はなみ} (cherry-blossom viewing) spots in spring.",
+  "notes": "Located in Taito Ward ({台東区|たいとうく}), adjacent to ⟦{浅草|あさくさ}→浅草：28393_asakusa⟧. Ueno Station is a terminus for many northbound JR lines.\n\nKEY LANDMARKS:\n- {上野|うえの}{公園|こうえん}: Ueno Park (with museums and the zoo)\n- {上野|うえの}{動物園|どうぶつえん}: Ueno Zoo\n- ⟦{国立|こくりつ}→国立：04153_kokuritsu⟧⟦{西洋|せいよう}→西洋：01446_seiyou⟧⟦{美術館|びじゅつかん}→美術館：01717_bijutsukan⟧: National Museum of Western Art\n- {東京国立博物館|とうきょうこくりつはくぶつかん}: Tokyo National Museum\n- {アメ横|あめよこ}: Ameyoko Market (cheap food, snacks, and goods)\n\nCULTURAL NOTE:\nAlong with ⟦{浅草|あさくさ}→浅草：28393_asakusa⟧, Ueno is part of Tokyo's eastern ⟦{下町|したまち}→下町：04193_shitamachi⟧ (old downtown). It is one of the city's most popular ⟦{花見|はなみ}→花見：01700_hanami⟧ (cherry-blossom viewing) spots in spring.",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,7 +53,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "geography",
         "proper-noun",
@@ -62,6 +62,6 @@
       "domain": []
     },
     "created": "2026-05-30T03:13:52Z",
-    "modified": "2026-08-11T04:24:46Z"
+    "modified": "2026-09-02T04:02:33Z"
   }
 }

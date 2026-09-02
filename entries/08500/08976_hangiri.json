@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08976_hangiri_ex1",
-      "japanese": "トマトを{半切|はんぎ}りにする。",
+      "japanese": "⟦トマト→トマト：05192_tomato⟧⟦を→を：00422_wo⟧{半切|はんぎ}り⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧。",
       "english": "Cut the tomato in half.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "08976_hangiri_ex2",
-      "japanese": "レモンの{半切|はんぎ}りを{添|そ}えた。",
+      "japanese": "⟦レモン→レモン：10456_remon⟧⟦の→の：09472_no⟧{半切|はんぎ}り⟦を→を：00422_wo⟧⟦{添|そ}えた→添える：13315_soeru⟧。",
       "english": "I added a lemon cut in half.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "08976_hangiri_ex3",
-      "japanese": "アボカドの{半切|はんぎ}りに{塩|しお}をかけて{食|た}べる。",
+      "japanese": "⟦アボカド→アボカド：10704_abokado⟧⟦の→の：09472_no⟧{半切|はんぎ}り⟦に→に：00314_ni⟧⟦{塩|しお}→塩：00887_shio⟧⟦を→を：00422_wo⟧⟦かけて→かける：00854_kakeru⟧⟦{食|た}べる→食べる：00396_taberu⟧。",
       "english": "Eat half an avocado with salt.",
       "notes": null,
       "has_audio": false,
@@ -43,11 +43,40 @@
       ]
     }
   ],
-  "notes": "{半切|はんぎ}り means cutting something in half, or the resulting halved piece. It appears almost exclusively in cooking and recipe contexts.\n\nCOMMON PATTERNS:\n- {半切|はんぎ}りにする: to cut in half\n- {縦|たて}{半切|はんぎ}り: cut in half lengthwise\n- {横|よこ}{半切|はんぎ}り: cut in half crosswise\n- {半切|はんぎ}りレモン: a lemon half\n\nRELATED CUTTING TERMS:\n- {薄切|うすぎ}り: thin slices\n- {輪切|わぎ}り: round slices\n- {千切|せんぎ}り: julienne/shredded\n- {乱切|らんぎ}り: irregular chunks\n- {四|よ}つ{切|ぎ}り: quartered\n\nNOTE:\nNot to be confused with the homophone {半切|はんぎり}, a flat-bottomed wooden tub used for mixing {酢飯|すめし} (sushi rice). That word is also written {半桶|はんぎり}.",
-  "cross_references": [],
+  "notes": "{半切|はんぎ}り means cutting something in half, or the resulting halved piece. It appears almost exclusively in cooking and recipe contexts.\n\nCOMMON PATTERNS:\n- {半切|はんぎ}り⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧: to cut in half\n- ⟦{縦|たて}→縦：17236_tate⟧{半切|はんぎ}り: cut in half lengthwise\n- ⟦{横|よこ}→横：02984_yoko⟧{半切|はんぎ}り: cut in half crosswise\n- {半切|はんぎ}り⟦レモン→レモン：10456_remon⟧: a lemon half\n\nRELATED CUTTING TERMS:\n- ⟦{薄切|うすぎ}り→薄切り：07475_usugiri⟧: thin slices\n- ⟦{輪切|わぎ}り→輪切り：07474_wagiri⟧: round slices\n- ⟦{千切|せんぎ}り→千切り：07473_sengiri⟧: julienne/shredded\n- ⟦{乱切|らんぎ}り→乱切り：08067_rangiri⟧: irregular chunks\n- {四|よ}つ{切|ぎ}り: quartered\n\nUSAGE:\nNot to be confused with the homophone {半切|はんぎり}, a flat-bottomed wooden tub used for mixing ⟦{酢飯|すめし}→酢飯：14460_sumeshi⟧ (sushi rice). That word is also written {半桶|はんぎり}.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "07475_usugiri",
+      "reading": "うすぎり",
+      "headword": "{薄切|うすぎ}り",
+      "label": "thin slices"
+    },
+    {
+      "type": "related",
+      "target_id": "07474_wagiri",
+      "reading": "わぎり",
+      "headword": "{輪切|わぎ}り",
+      "label": "round slices"
+    },
+    {
+      "type": "related",
+      "target_id": "07473_sengiri",
+      "reading": "せんぎり",
+      "headword": "{千切|せんぎ}り",
+      "label": "julienne/shredded"
+    },
+    {
+      "type": "related",
+      "target_id": "08067_rangiri",
+      "reading": "らんぎり",
+      "headword": "{乱切|らんぎ}り",
+      "label": "irregular chunks"
+    }
+  ],
   "metadata": {
     "created": "2026-01-29T11:07:47Z",
-    "modified": "2026-04-08T10:57:53Z",
+    "modified": "2026-09-02T04:01:16Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

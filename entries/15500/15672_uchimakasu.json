@@ -3,7 +3,7 @@
   "id": "15672_uchimakasu",
   "headword": "{打|う}ち{負|ま}かす",
   "reading": "うちまかす",
-  "part_of_speech": "godan verb, transitive",
+  "part_of_speech": "verb (godan, transitive)",
   "gloss": "to defeat; to beat",
   "conjugation": {
     "type": "godan",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "15672_uchimakasu_ex1",
-      "japanese": "{強豪|きょうごう}チームを{打|う}ち{負|ま}かした。",
+      "japanese": "{強豪|きょうごう}⟦チーム→チーム：03858_chiimu⟧⟦を→を：00422_wo⟧{打|う}ち{負|ま}かした。",
       "english": "They defeated the powerhouse team.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "15672_uchimakasu_ex2",
-      "japanese": "{相手|あいて}を{打|う}ち{負|ま}かして{決勝|けっしょう}に{進|すす}んだ。",
+      "japanese": "⟦{相手|あいて}→相手：01677_aite⟧⟦を→を：00422_wo⟧{打|う}ち{負|ま}かして⟦{決勝|けっしょう}→決勝：04742_kesshou⟧⟦に→に：00314_ni⟧⟦{進|すす}んだ→進む：01225_susumu⟧。",
       "english": "They beat their opponent and advanced to the finals.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "15672_uchimakasu_ex3",
-      "japanese": "ライバル{企業|きぎょう}を{打|う}ち{負|ま}かして{市場|しじょう}シェアを{獲得|かくとく}した。",
+      "japanese": "⟦ライバル→ライバル：11197_raibaru⟧⟦{企業|きぎょう}→企業：00225_kigyou⟧⟦を→を：00422_wo⟧{打|う}ち{負|ま}かして⟦{市場|しじょう}→市場：09685_shijou⟧⟦シェア→シェア：07882_shea⟧⟦を→を：00422_wo⟧⟦{獲得|かくとく}→獲得：05624_kakutoku⟧⟦した→する：00392_suru⟧。",
       "english": "They beat the rival company and captured market share.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "GRAMMAR:\nGodan verb ({打|う}ち{負|ま}かす → {打|う}ち{負|ま}かさない → {打|う}ち{負|ま}かして). Transitive: takes を to mark the defeated party.\n\nUSAGE:\nThe {打|う}ち〜 prefix adds emphasis and forcefulness, similar to English \"beat soundly\" or \"trounce.\" Stronger than {勝|か}つ (to win) and implies a more decisive victory.\n\nSIMILAR WORDS:\n- {勝|か}つ: to win (neutral)\n- {負|ま}かす: to defeat (less emphatic)\n- {倒|たお}す: to defeat, to bring down (also emphatic)",
+  "notes": "COMMON PATTERNS:\nGodan verb ({打|う}ち{負|ま}かす → {打|う}ち{負|ま}かさない → {打|う}ち{負|ま}かして). Transitive: takes ⟦を→を：00422_wo⟧ to mark the defeated party.\n\nUSAGE:\nThe {打|う}ち〜 prefix adds emphasis and forcefulness, similar to English \"beat soundly\" or \"trounce.\" Stronger than ⟦{勝|か}つ→勝つ：01199_katsu⟧ (to win) and implies a more decisive victory.\n\nSIMILAR WORDS:\n- ⟦{勝|か}つ→勝つ：01199_katsu⟧: to win (neutral)\n- {負|ま}かす: to defeat (less emphatic)\n- ⟦{倒|たお}す→倒す：01954_taosu⟧: to defeat, to bring down (also emphatic)",
   "cross_references": [
     {
       "type": "synonym",
@@ -149,11 +149,18 @@
       "reading": "たおす",
       "headword": "{倒|たお}す",
       "label": "to defeat, bring down"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17122_attousuru",
+      "reading": "あっとうする",
+      "headword": "{圧倒|あっとう}する",
+      "label": "to overwhelm"
     }
   ],
   "metadata": {
     "created": "2026-03-08T06:48:14Z",
-    "modified": "2026-05-01T10:15:30Z",
+    "modified": "2026-09-02T04:01:42Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

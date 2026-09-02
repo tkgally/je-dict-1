@@ -15,41 +15,73 @@
   "examples": [
     {
       "id": "12849_ninjutsu_ex1",
-      "japanese": "{忍術|にんじゅつ}を{使|つか}う。",
+      "japanese": "{忍術|にんじゅつ}⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧。",
       "english": "Use ninjutsu.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12849_ninjutsu_ex2",
-      "japanese": "{忍術|にんじゅつ}には{様々|さまざま}な{技|わざ}がある。",
+      "japanese": "{忍術|にんじゅつ}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{様々|さまざま}→様々：01559_samazama⟧な⟦{技|わざ}→技：02172_waza⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There are various techniques in ninjutsu.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12849_ninjutsu_ex3",
-      "japanese": "{忍術|にんじゅつ}は{戦国時代|せんごくじだい}に{発展|はってん}した{諜報|ちょうほう}と{戦闘|せんとう}の{技術|ぎじゅつ}だ。",
+      "japanese": "{忍術|にんじゅつ}⟦は→は：00079_ha⟧⟦{戦国時代|せんごくじだい}→戦国時代：19200_sengokujidai⟧⟦に→に：00314_ni⟧⟦{発展|はってん}した→発展する：25331_hattensuru⟧⟦{諜報|ちょうほう}→諜報：14253_chouhou⟧⟦と→と：00512_to⟧⟦{戦闘|せんとう}→戦闘：12639_sentou⟧⟦の→の：09472_no⟧⟦{技術|ぎじゅつ}→技術：01389_gijutsu⟧だ。",
       "english": "Ninjutsu is a set of espionage and combat techniques that developed during the Warring States period.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nCommonly encountered in manga, anime, and games (notably NARUTO), where {忍術|にんじゅつ} often refers to supernatural abilities. Historically, it referred to real espionage and survival techniques used by the {忍|しの}び (ninja) of feudal Japan.\n\nCOMMON COLLOCATIONS:\n- {忍術|にんじゅつ}を{使|つか}う: to use ninjutsu\n- {忍術|にんじゅつ}を{学|まな}ぶ: to learn ninjutsu\n- {忍術|にんじゅつ}{道場|どうじょう}: ninjutsu training hall\n\nRELATED TERMS:\n- {忍者|にんじゃ}: ninja\n- {手裏剣|しゅりけん}: shuriken, throwing star",
-  "cross_references": [],
+  "notes": "USAGE:\nCommonly encountered in manga, anime, and games (notably NARUTO), where {忍術|にんじゅつ} often refers to supernatural abilities. Historically, it referred to real espionage and survival techniques used by the ⟦{忍|しの}び→忍び：12606_shinobi⟧ (ninja) of feudal Japan.\n\nCOMMON COLLOCATIONS:\n- {忍術|にんじゅつ}⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧: to use ninjutsu\n- {忍術|にんじゅつ}⟦を→を：00422_wo⟧⟦{学|まな}ぶ→学ぶ：01987_manabu⟧: to learn ninjutsu\n- {忍術|にんじゅつ}⟦{道場|どうじょう}→道場：14326_doujou⟧: ninjutsu training hall\n\nRELATED WORDS:\n- ⟦{忍者|にんじゃ}→忍者：11112_ninja⟧: ninja\n- ⟦{手裏剣|しゅりけん}→手裏剣：12851_shuriken⟧: shuriken, throwing star",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "11112_ninja",
+      "reading": "にんじゃ",
+      "headword": "{忍者|にんじゃ}",
+      "label": "ninja"
+    },
+    {
+      "type": "related",
+      "target_id": "12851_shuriken",
+      "reading": "しゅりけん",
+      "headword": "{手裏剣|しゅりけん}",
+      "label": "shuriken, throwing star"
+    },
+    {
+      "type": "related",
+      "target_id": "24983_genjutsu",
+      "reading": "げんじゅつ",
+      "headword": "{幻術|げんじゅつ}",
+      "label": "illusionism"
+    }
+  ],
   "metadata": {
     "created": "2026-02-22T11:58:05Z",
-    "modified": "2026-02-22T11:58:05Z",
+    "modified": "2026-09-02T04:01:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "17580_kitsuen_ex1",
-      "japanese": "{喫煙|きつえん}は{健康|けんこう}に{悪|わる}い。",
+      "japanese": "{喫煙|きつえん}⟦は→は：00079_ha⟧⟦{健康|けんこう}→健康：02706_kenkou⟧⟦に→に：00314_ni⟧⟦{悪|わる}い→悪い：00908_warui⟧。",
       "english": "Smoking is bad for your health.",
       "sense_numbers": [
         1
@@ -114,7 +114,7 @@
     },
     {
       "id": "17580_kitsuen_ex2",
-      "japanese": "{喫煙|きつえん}{所|じょ}はどこですか。",
+      "japanese": "{喫煙|きつえん}{所|じょ}⟦は→は：00079_ha⟧⟦どこ→どこ：00539_doko⟧です⟦か→か：09473_ka⟧。",
       "english": "Where is the smoking area?",
       "sense_numbers": [
         1
@@ -124,7 +124,7 @@
     },
     {
       "id": "17580_kitsuen_ex3",
-      "japanese": "{公共|こうきょう}{施設|しせつ}での{喫煙|きつえん}は{禁止|きんし}されている。",
+      "japanese": "⟦{公共|こうきょう}{施設|しせつ}→公共施設：17944_koukyoushisetsu⟧⟦で→で：00502_de⟧⟦の→の：09472_no⟧{喫煙|きつえん}⟦は→は：00079_ha⟧⟦{禁止|きんし}→禁止：02643_kinshi⟧⟦されている→する：00392_suru⟧。",
       "english": "Smoking in public facilities is prohibited.",
       "sense_numbers": [
         1
@@ -133,7 +133,7 @@
       "notes": null
     }
   ],
-  "notes": "{喫煙|きつえん} is the formal term for smoking, commonly used in public signage and official contexts.\n\nKANJI BREAKDOWN:\n- {喫|きつ} (to consume, to drink/smoke)\n- {煙|えん} (smoke)\n\nCOMMON COMPOUNDS:\n- {喫煙|きつえん}{所|じょ}/{喫煙|きつえん}{室|しつ} (smoking area/room)\n- {喫煙|きつえん}{者|しゃ} (smoker)\n- {喫煙|きつえん}{席|せき} (smoking seats)\n- {喫煙|きつえん}{習慣|しゅうかん} (smoking habit)\n- {受動|じゅどう}{喫煙|きつえん} (passive smoking, secondhand smoke)\n\nUSAGE:\n- {喫煙|きつえん}する (to smoke - suru verb)\n- {喫煙|きつえん}{可|か} (smoking allowed)\n- {喫煙|きつえん}{不可|ふか} (no smoking)\n\nCULTURAL NOTE:\nJapan has increasingly restricted smoking in public spaces. Many train stations, restaurants, and public buildings now have designated {喫煙|きつえん}{所|じょ} (smoking areas) or are entirely {禁煙|きんえん} (non-smoking).",
+  "notes": "{喫煙|きつえん} is the formal term for smoking, commonly used in public signage and official contexts.\n\nWRITING:\n- {喫|きつ} (to consume, to drink/smoke)\n- {煙|えん} (smoke)\n\nCOMPOUNDS:\n- {喫煙|きつえん}{所|じょ}/{喫煙|きつえん}{室|しつ} (smoking area/room)\n- {喫煙|きつえん}{者|しゃ} (smoker)\n- {喫煙|きつえん}{席|せき} (smoking seats)\n- {喫煙|きつえん}⟦{習慣|しゅうかん}→習慣：01429_shuukan⟧ (smoking habit)\n- {受動|じゅどう}{喫煙|きつえん} (passive smoking, secondhand smoke)\n\nUSAGE:\n- {喫煙|きつえん}⟦する→する：00392_suru⟧ (to smoke - suru verb)\n- {喫煙|きつえん}{可|か} (smoking allowed)\n- {喫煙|きつえん}⟦{不可|ふか}→不可：01922_fuka⟧ (no smoking)\n\nCULTURAL NOTE:\nJapan has increasingly restricted smoking in public spaces. Many train stations, restaurants, and public buildings now have designated {喫煙|きつえん}{所|じょ} (smoking areas) or are entirely ⟦{禁煙|きんえん}→禁煙：02644_kinen⟧ (non-smoking).",
   "cross_references": [
     {
       "type": "antonym",
@@ -162,6 +162,34 @@
       "reading": "きつえんじょ",
       "headword": "{喫煙所|きつえんじょ}",
       "label": "smoking area"
+    },
+    {
+      "type": "related",
+      "target_id": "02930_haizara",
+      "reading": "はいざら",
+      "headword": "{灰皿|はいざら}",
+      "label": "ashtray"
+    },
+    {
+      "type": "related",
+      "target_id": "20832_bunen",
+      "reading": "ぶんえん",
+      "headword": "{分煙|ぶんえん}",
+      "label": "separation of smoking and non-smoking areas"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21189_danen",
+      "reading": "だんえん",
+      "headword": "{断煙|だんえん}",
+      "label": "quitting smoking"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26626_kuwaetabako",
+      "reading": "くわえたばこ",
+      "headword": "{咥|くわ}え{煙草|たばこ}",
+      "label": "cigarette dangling from the mouth"
     }
   ],
   "metadata": {
@@ -172,6 +200,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "health",
         "action"
@@ -179,6 +208,6 @@
       "verb_class": "suru"
     },
     "created": "2026-01-25T00:27:27Z",
-    "modified": "2026-08-29T00:23:24Z"
+    "modified": "2026-09-02T04:01:49Z"
   }
 }

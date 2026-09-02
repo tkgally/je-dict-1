@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22889_kiriganai_ex1",
-      "japanese": "{言|い}い{出|だ}したら{切|き}りがない。",
+      "japanese": "⟦{言|い}い{出|だ}したら→言い出す：04593_iidasu⟧{切|き}りがない。",
       "english": "Once you start talking about it, there's no end.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22889_kiriganai_ex2",
-      "japanese": "{心配|しんぱい}しても{切|き}りがないから、{寝|ね}よう。",
+      "japanese": "⟦{心配|しんぱい}して→心配する：06066_shinpaisuru⟧⟦も→も：00484_mo⟧{切|き}りがない⟦から→から：00504_kara⟧、⟦{寝|ね}よう→寝る：00470_neru⟧。",
       "english": "There's no end to worrying, so let's go to sleep.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22889_kiriganai_ex3",
-      "japanese": "{欲|ほ}しいものを{数|かぞ}えたら{切|き}りがないので、{予算|よさん}を{決|き}めてから{買|か}い{物|もの}に{行|い}こう。",
+      "japanese": "⟦{欲|ほ}しい→欲しい：01107_hoshii⟧もの⟦を→を：00422_wo⟧⟦{数|かぞ}えたら→数える：01926_kazoeru⟧{切|き}りがない⟦の→の：09472_no⟧で、⟦{予算|よさん}→予算：03663_yosan⟧⟦を→を：00422_wo⟧⟦{決|き}めて→決める：00858_kimeru⟧⟦から→から：00504_kara⟧⟦{買|か}い{物|もの}→買い物：00853_kaimono⟧⟦に→に：00314_ni⟧⟦{行|い}こう→行く：00119_iku⟧。",
       "english": "If you count all the things you want, there's no end, so let's set a budget before going shopping.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "A very common expression meaning there is no end or limit to something, often implying futility. The {切|き}り refers to a natural stopping or breaking point. Used when one recognizes that continuing an action would be pointless because it could go on forever.\n\nCOMMON PATTERNS:\n- ～たら{切|き}りがない: if you start doing X, there's no end\n- ～ても{切|き}りがない: even if you do X, there's no end\n- ～{出|だ}したら{切|き}りがない: once you start X-ing, there's no end\n\nCOMMON COLLOCATIONS:\n- {言|い}い{出|だ}したら{切|き}りがない: once you start listing things, there's no end\n- {数|かぞ}えたら{切|き}りがない: if you count them, there's no end\n- {挙|あ}げたら{切|き}りがない: if you list them, there's no end\n\nSIMILAR WORDS:\n- {際限|さいげん}がない: limitless — more formal, often used in written Japanese\n- {果|は}てしない: endless — emphasizes physical or temporal vastness\n- きりがない is the most conversational and commonly used in daily speech",
+  "notes": "A very common expression meaning there is no end or limit to something, often implying futility. The {切|き}り refers to a natural stopping or breaking point. Used when one recognizes that continuing an action would be pointless because it could go on forever.\n\nCOMMON PATTERNS:\n- ～たら{切|き}りがない: if you start doing X, there's no end\n- ～て⟦も→も：00484_mo⟧{切|き}りがない: even if you do X, there's no end\n- ～⟦{出|だ}したら→出す：01087_dasu⟧{切|き}りがない: once you start X-ing, there's no end\n\nCOMMON COLLOCATIONS:\n- ⟦{言|い}い{出|だ}したら→言い出す：04593_iidasu⟧{切|き}りがない: once you start listing things, there's no end\n- ⟦{数|かぞ}えたら→数える：01926_kazoeru⟧{切|き}りがない: if you count them, there's no end\n- ⟦{挙|あ}げたら→挙げる：27889_ageru⟧{切|き}りがない: if you list them, there's no end\n\nSIMILAR WORDS:\n- ⟦{際限|さいげん}→際限：14535_saigen⟧⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧: limitless — more formal, often used in written Japanese\n- ⟦{果|は}てしない→果てしない：21980_hateshinai⟧: endless — emphasizes physical or temporal vastness\n- きりがない is the most conversational and commonly used in daily speech",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21980_hateshinai",
+      "reading": "はてしない",
+      "headword": "{果|は}てしない",
+      "label": "endless"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +68,6 @@
       ]
     },
     "created": "2026-04-07T20:17:00Z",
-    "modified": "2026-04-10T08:28:27Z"
+    "modified": "2026-09-02T04:02:10Z"
   }
 }

@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "07307_tsuyogari_ex1",
-      "japanese": "{強|つよ}がりを{言|い}わないで。",
+      "japanese": "{強|つよ}がり⟦を→を：00422_wo⟧⟦{言|い}わないで→言う：00515_iu⟧。",
       "english": "Don't pretend to be tough./Don't put on a brave face.",
       "has_audio": false,
       "notes": null,
@@ -24,7 +24,7 @@
     },
     {
       "id": "07307_tsuyogari_ex2",
-      "japanese": "{彼|かれ}の{強|つよ}がりは{見|み}ていて{痛々|いたいた}しい。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧{強|つよ}がり⟦は→は：00079_ha⟧⟦{見|み}ていて→見る：00283_miru⟧⟦{痛々|いたいた}しい→痛々しい：08221_itaitashii⟧。",
       "english": "His bravado is painful to watch.",
       "has_audio": false,
       "notes": null,
@@ -34,7 +34,7 @@
     },
     {
       "id": "07307_tsuyogari_ex3",
-      "japanese": "{本当|ほんとう}は{悲|かな}しいのに{強|つよ}がりをしている。",
+      "japanese": "⟦{本当|ほんとう}→本当：00779_hontou⟧⟦は→は：00079_ha⟧⟦{悲|かな}しい→悲しい：00783_kanashii⟧⟦の→の：09472_no⟧⟦に→に：00314_ni⟧{強|つよ}がり⟦を→を：00422_wo⟧⟦している→する：00392_suru⟧。",
       "english": "She's putting on a brave face even though she's really sad.",
       "has_audio": false,
       "notes": null,
@@ -44,7 +44,7 @@
     },
     {
       "id": "07307_tsuyogari_ex4",
-      "japanese": "{強|つよ}がりをやめて、{素直|すなお}に{助|たす}けを{求|もと}めよう。",
+      "japanese": "{強|つよ}がり⟦を→を：00422_wo⟧⟦やめて→やめる：00909_yameru⟧、⟦{素直|すなお}→素直：00391_sunao⟧⟦に→に：00314_ni⟧⟦{助|たす}け→助け：07777_tasuke⟧⟦を→を：00422_wo⟧⟦{求|もと}めよう→求める：02316_motomeru⟧。",
       "english": "Let's stop putting on a brave face and honestly ask for help.",
       "has_audio": false,
       "notes": null,
@@ -54,7 +54,7 @@
     },
     {
       "id": "07307_tsuyogari_ex5",
-      "japanese": "「{大丈夫|だいじょうぶ}」と{言|い}ったが、あれは{強|つよ}がりだったと{思|おも}う。",
+      "japanese": "「⟦{大丈夫|だいじょうぶ}→大丈夫：00772_daijoubu⟧」⟦と→と：00512_to⟧⟦{言|い}った→言う：00515_iu⟧⟦が→が：00051_ga⟧、⟦あれ→あれ：00916_are⟧⟦は→は：00079_ha⟧{強|つよ}がりだった⟦と→と：00512_to⟧⟦{思|おも}う→思う：00492_omou⟧。",
       "english": "He said \"I'm fine,\" but I think that was just bravado.",
       "has_audio": false,
       "notes": null,
@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "WORD FORMATION:\n{強|つよ}がる (to act tough) + り (noun-forming suffix) → acting tough = bravado\n\nCOMMON EXPRESSIONS:\n・{強|つよ}がりを{言|い}う - to say something brave/tough (when one doesn't feel it)\n・{強|つよ}がりをする - to put on a brave face\n・{強|つよ}がりをやめる - to stop pretending to be tough\n\nRELATED VERB:\n・{強|つよ}がる - to act tough, to put on a brave front\n\nNUANCE:\n{強|つよ}がり describes hiding one's true vulnerable feelings behind a facade of strength. It often carries a slightly sympathetic or sad connotation.",
+  "notes": "FORMS:\n{強|つよ}がる (to act tough) + り (noun-forming suffix) → acting tough = bravado\n\nCOMMON EXPRESSIONS:\n- {強|つよ}がり⟦を→を：00422_wo⟧⟦{言|い}う→言う：00515_iu⟧ - to say something brave/tough (when one doesn't feel it)\n- {強|つよ}がり⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧ - to put on a brave face\n- {強|つよ}がり⟦を→を：00422_wo⟧⟦やめる→やめる：00909_yameru⟧ - to stop pretending to be tough\n\nRELATED VERB:\n- ⟦{強|つよ}がる→強がる：15929_tsuyogaru⟧ - to act tough, to put on a brave front\n\nUSAGE:\n{強|つよ}がり describes hiding one's true vulnerable feelings behind a facade of strength. It often carries a slightly sympathetic or sad connotation.",
   "cross_references": [
     {
       "type": "related",
@@ -71,11 +71,18 @@
       "headword": "{負|ま}け{惜|お}しみ",
       "label": "sour grapes",
       "target_id": "07308_makeoshimi"
+    },
+    {
+      "type": "related",
+      "target_id": "15929_tsuyogaru",
+      "reading": "つよがる",
+      "headword": "{強|つよ}がる",
+      "label": "to act tough, to put on a brave front"
     }
   ],
   "metadata": {
     "created": "2026-01-19T04:09:14Z",
-    "modified": "2026-08-10T18:32:12Z",
+    "modified": "2026-09-02T04:01:10Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "19250_fukkireru_ex1",
-      "japanese": "やっと{吹|ふ}っ{切|き}れた。",
+      "japanese": "⟦やっと→やっと：01561_yatto⟧{吹|ふ}っ{切|き}れた。",
       "english": "I've finally gotten over it.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "19250_fukkireru_ex2",
-      "japanese": "{彼|かれ}は{迷|まよ}いが{吹|ふ}っ{切|き}れたようだ。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{迷|まよ}い→迷い：19437_mayoi⟧⟦が→が：00051_ga⟧{吹|ふ}っ{切|き}れたようだ。",
       "english": "He seems to have shaken off his hesitation.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "19250_fukkireru_ex3",
-      "japanese": "{失恋|しつれん}の{悲|かな}しみから{吹|ふ}っ{切|き}れるまで{時間|じかん}がかかった。",
+      "japanese": "⟦{失恋|しつれん}→失恋：04195_shitsuren⟧⟦の→の：09472_no⟧⟦{悲|かな}しみ→悲しみ：05404_kanashimi⟧⟦から→から：00504_kara⟧{吹|ふ}っ{切|き}れる⟦まで→まで：00490_made⟧⟦{時間|じかん}→時間：00468_jikan⟧⟦が→が：00051_ga⟧⟦かかった→かかる：00711_kakaru⟧。",
       "english": "It took time to get over the sadness of the breakup.",
       "sense_numbers": [
         1
@@ -134,8 +134,17 @@
       "notes": null
     }
   ],
-  "notes": "Describes a mental or emotional breakthrough where lingering negative feelings, doubts, or attachments are finally overcome. Often used when someone has been struggling with a decision or painful experience and reaches a point of resolution.\n\nCOMMON COLLOCATIONS:\n- {迷|まよ}いが{吹|ふ}っ{切|き}れる: to shake off indecision\n- {未練|みれん}が{吹|ふ}っ{切|き}れる: to get over lingering attachment\n- すっかり{吹|ふ}っ{切|き}れる: to completely get over it\n\nSIMILAR WORDS:\n- {乗|の}り{越|こ}える: to overcome — broader usage, not limited to emotional/mental obstacles\n- {踏|ふ}ん{切|ぎ}りがつく: to make up one's mind — focuses more on the decision-making aspect\n\nASPECT:\nThe ている form ({吹|ふ}っ{切|き}れている) indicates the resulting state of having gotten over something.",
+  "notes": "Describes a mental or emotional breakthrough where lingering negative feelings, doubts, or attachments are finally overcome. Often used when someone has been struggling with a decision or painful experience and reaches a point of resolution.\n\nCOMMON COLLOCATIONS:\n- ⟦{迷|まよ}い→迷い：19437_mayoi⟧⟦が→が：00051_ga⟧{吹|ふ}っ{切|き}れる: to shake off indecision\n- ⟦{未練|みれん}→未練：04866_miren⟧⟦が→が：00051_ga⟧{吹|ふ}っ{切|き}れる: to get over lingering attachment\n- ⟦すっかり→すっかり：01270_sukkari⟧{吹|ふ}っ{切|き}れる: to completely get over it\n\nSIMILAR WORDS:\n- ⟦{乗|の}り{越|こ}える→乗り越える：04620_norikoeru⟧: to overcome — broader usage, not limited to emotional/mental obstacles\n- {踏|ふ}ん{切|ぎ}り⟦が→が：00051_ga⟧つく: to make up one's mind — focuses more on the decision-making aspect\n\nASPECT (ている):\nThe て⟦いる→いる：00495_iru⟧ form ({吹|ふ}っ{切|き}れて⟦いる→いる：00495_iru⟧) indicates the resulting state of having gotten over something.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04620_norikoeru",
+      "reading": "のりこえる",
+      "headword": "{乗|の}り{越|こ}える",
+      "label": "to overcome"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -147,9 +156,10 @@
       "semantic": [
         "emotion"
       ],
-      "verb_class": "ichidan"
+      "verb_class": "ichidan",
+      "transitivity": "intransitive"
     },
     "created": "2026-03-25T03:40:33Z",
-    "modified": "2026-03-25T03:40:33Z"
+    "modified": "2026-09-02T04:01:55Z"
   }
 }

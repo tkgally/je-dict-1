@@ -3,7 +3,7 @@
   "id": "13632_risutoappu",
   "headword": "リストアップ",
   "reading": "りすとあっぷ",
-  "part_of_speech": "noun; verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "listing; making a list",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "13632_risutoappu_ex1",
-      "japanese": "{必要|ひつよう}な{物|もの}をリストアップした。",
+      "japanese": "⟦{必要|ひつよう}→必要：00846_hitsuyou⟧な⟦{物|もの}→物：02259_mono⟧⟦を→を：00422_wo⟧リストアップ⟦した→する：00392_suru⟧。",
       "english": "I made a list of the things I need.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "13632_risutoappu_ex2",
-      "japanese": "{候補者|こうほしゃ}をリストアップして{会議|かいぎ}で{検討|けんとう}する。",
+      "japanese": "⟦{候補者|こうほしゃ}→候補者：20439_kouhosha⟧⟦を→を：00422_wo⟧リストアップ⟦して→する：00392_suru⟧⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦で→で：00502_de⟧⟦{検討|けんとう}する→検討する：17455_kentousuru⟧。",
       "english": "We'll list the candidates and discuss them at the meeting.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "13632_risutoappu_ex3",
-      "japanese": "{旅行|りょこう}の{前|まえ}に、{行|い}きたい{場所|ばしょ}をすべてリストアップしておくと{効率|こうりつ}がいい。",
+      "japanese": "⟦{旅行|りょこう}→旅行：00748_ryokou⟧⟦の→の：09472_no⟧⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧、⟦{行|い}きたい→行く：00119_iku⟧⟦{場所|ばしょ}→場所：00829_basho⟧⟦を→を：00422_wo⟧すべてリストアップ⟦して→する：00392_suru⟧おく⟦と→と：00512_to⟧⟦{効率|こうりつ}→効率：11794_kouritsu⟧⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧。",
       "english": "It's efficient to list all the places you want to visit before a trip.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,11 @@
       ]
     }
   ],
-  "notes": "WASEI-EIGO:\nリストアップ is a Japanese-coined expression combining \"list\" and \"up.\" In English, the natural equivalent would be \"to make a list\" or \"to list\" — \"list up\" is not standard English.\n\nUSAGE:\nFunctions as a する verb: リストアップする. Very commonly used in business and everyday contexts when compiling or organizing information.\n\nCOMMON COLLOCATIONS:\n- リストアップする: to list, to compile a list\n- {候補|こうほ}をリストアップする: to list/shortlist candidates\n- {問題点|もんだいてん}をリストアップする: to list problems/issues\n- リストアップされた{項目|こうもく}: listed items",
+  "notes": "WASEI-EIGO:\nリストアップ is a Japanese-coined expression combining \"list\" and \"up.\" In English, the natural equivalent would be \"to make a list\" or \"to list\" — \"list up\" is not standard English.\n\nUSAGE:\nFunctions as a ⟦する→する：00392_suru⟧ verb: リストアップ⟦する→する：00392_suru⟧. Very commonly used in business and everyday contexts when compiling or organizing information.\n\nCOMMON COLLOCATIONS:\n- リストアップ⟦する→する：00392_suru⟧: to list, to compile a list\n- ⟦{候補|こうほ}→候補：02804_kouho⟧⟦を→を：00422_wo⟧リストアップ⟦する→する：00392_suru⟧: to list/shortlist candidates\n- ⟦{問題点|もんだいてん}→問題点：20619_mondaiten⟧⟦を→を：00422_wo⟧リストアップ⟦する→する：00392_suru⟧: to list problems/issues\n- リストアップ⟦された→する：00392_suru⟧⟦{項目|こうもく}→項目：04150_koumoku⟧: listed items",
   "cross_references": [],
   "metadata": {
     "created": "2026-02-26T10:39:08Z",
-    "modified": "2026-03-29T03:07:35Z",
+    "modified": "2026-09-02T04:01:34Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -151,7 +151,8 @@
       "semantic": [
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

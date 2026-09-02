@@ -2,7 +2,7 @@
   "id": "11915_kanyuu",
   "headword": "{加入|かにゅう}",
   "reading": "かにゅう",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "joining, enrollment, subscription",
   "conjugation": {
     "type": "suru",
@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "11915_kanyuu_ex1",
-      "japanese": "{保険|ほけん}に{加入|かにゅう}した。",
+      "japanese": "⟦{保険|ほけん}→保険：01509_hoken⟧⟦に→に：00314_ni⟧{加入|かにゅう}⟦した→する：00392_suru⟧。",
       "english": "I enrolled in insurance.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "11915_kanyuu_ex2",
-      "japanese": "{組合|くみあい}への{加入|かにゅう}を{検討|けんとう}している。",
+      "japanese": "⟦{組合|くみあい}→組合：02669_kumiai⟧⟦へ→へ：02473_he⟧⟦の→の：09472_no⟧{加入|かにゅう}⟦を→を：00422_wo⟧⟦{検討|けんとう}している→検討する：17455_kentousuru⟧。",
       "english": "I'm considering joining the union.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "11915_kanyuu_ex3",
-      "japanese": "この{国|くに}は{来年|らいねん}、{国際機関|こくさいきかん}に{正式|せいしき}に{加入|かにゅう}する{予定|よてい}だ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{国|くに}→国：02204_kuni⟧⟦は→は：00079_ha⟧⟦{来年|らいねん}→来年：00745_rainen⟧、{国際機関|こくさいきかん}⟦に→に：00314_ni⟧⟦{正式|せいしき}→正式：03376_seishiki⟧⟦に→に：00314_ni⟧{加入|かにゅう}⟦する→する：00392_suru⟧⟦{予定|よてい}→予定：00824_yotei⟧だ。",
       "english": "This country is scheduled to formally join the international organization next year.",
       "notes": null,
       "has_audio": false,
@@ -133,11 +133,40 @@
       ]
     }
   ],
-  "notes": "Used for formal, institutional membership — not for casually joining a group of friends. The particle に marks what is being joined, and the particle に or への introduces the target.\n\nCOMMON PATTERNS:\n・〜に{加入|かにゅう}する (to join ~)\n・〜への{加入|かにゅう} (joining ~)\n・{加入|かにゅう}{者|しゃ} (member, subscriber)\n・{加入|かにゅう}{手続|てつづ}き (enrollment procedure)\n\nSIMILAR WORDS:\n・{加入|かにゅう} — joining a group/plan/service (formal membership)\n・{入会|にゅうかい} — joining a club or association\n・{参加|さんか} — participating in an event or activity",
-  "cross_references": [],
+  "notes": "Used for formal, institutional membership — not for casually joining a group of friends. The particle ⟦に→に：00314_ni⟧ marks what is being joined, and the particle ⟦に→に：00314_ni⟧ or ⟦へ→へ：02473_he⟧⟦の→の：09472_no⟧ introduces the target.\n\nCOMMON PATTERNS:\n- 〜⟦に→に：00314_ni⟧{加入|かにゅう}⟦する→する：00392_suru⟧ (to join ~)\n- 〜⟦へ→へ：02473_he⟧⟦の→の：09472_no⟧{加入|かにゅう} (joining ~)\n- {加入|かにゅう}{者|しゃ} (member, subscriber)\n- {加入|かにゅう}⟦{手続|てつづ}き→手続き：05453_tetsuzuki⟧ (enrollment procedure)\n\nSIMILAR WORDS:\n- {加入|かにゅう} — joining a group/plan/service (formal membership)\n- ⟦{入会|にゅうかい}→入会：11671_nyuukai⟧ — joining a club or association\n- ⟦{参加|さんか}→参加：02498_sanka⟧ — participating in an event or activity",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11671_nyuukai",
+      "reading": "にゅうかい",
+      "headword": "{入会|にゅうかい}",
+      "label": "joining a club or association"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02498_sanka",
+      "reading": "さんか",
+      "headword": "{参加|さんか}",
+      "label": "participating in an event or activity"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05770_dattai",
+      "reading": "だったい",
+      "headword": "{脱退|だったい}",
+      "label": "withdrawal"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07323_nakamairi",
+      "reading": "なかまいり",
+      "headword": "{仲間入|なかまい}り",
+      "label": "joining a group"
+    }
+  ],
   "metadata": {
     "created": "2026-02-18T14:15:31Z",
-    "modified": "2026-03-29T03:07:35Z",
+    "modified": "2026-09-02T04:01:26Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",

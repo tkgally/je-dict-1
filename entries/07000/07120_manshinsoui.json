@@ -2,7 +2,7 @@
   "id": "07120_manshinsoui",
   "headword": "{満身創痍|まんしんそうい}",
   "reading": "まんしんそうい",
-  "part_of_speech": "noun; na-adjective",
+  "part_of_speech": "noun, na-adjective",
   "gloss": "covered in wounds; battered",
   "definitions": [
     {
@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "07120_manshinsoui_ex1",
-      "japanese": "{選手|せんしゅ}は{満身創痍|まんしんそうい}で{試合|しあい}を{終|お}えた。",
+      "japanese": "⟦{選手|せんしゅ}→選手：03823_senshu⟧⟦は→は：00079_ha⟧{満身創痍|まんしんそうい}⟦で→で：00502_de⟧⟦{試合|しあい}→試合：01601_shiai⟧⟦を→を：00422_wo⟧⟦{終|お}えた→終える：02019_oeru⟧。",
       "english": "The athlete finished the match battered and bruised.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "07120_manshinsoui_ex2",
-      "japanese": "{会社|かいしゃ}は{満身創痍|まんしんそうい}の{状態|じょうたい}だが、まだ{倒産|とうさん}はしていない。",
+      "japanese": "⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦は→は：00079_ha⟧{満身創痍|まんしんそうい}⟦の→の：09472_no⟧⟦{状態|じょうたい}→状態：03345_joutai⟧だ⟦が→が：00051_ga⟧、⟦まだ→まだ：00603_mada⟧⟦{倒産|とうさん}→倒産：03452_tousan⟧はして⟦いない→いる：00495_iru⟧。",
       "english": "The company is in a battered state, but hasn't gone bankrupt yet.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "07120_manshinsoui_ex3",
-      "japanese": "{満身創痍|まんしんそうい}になりながらも{最後|さいご}まで{戦|たたか}った。",
+      "japanese": "{満身創痍|まんしんそうい}⟦に→に：00314_ni⟧⟦なり→なる：01970_naru⟧⟦ながら→ながら：10530_nagara⟧⟦も→も：00484_mo⟧⟦{最後|さいご}→最後：01413_saigo⟧⟦まで→まで：00490_made⟧⟦{戦|たたか}った→戦う：02071_tatakau⟧。",
       "english": "Despite being covered in wounds, they fought until the end.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "YOJIJUKUGO ({四字熟語|よじじゅくご}): This is a four-character compound idiom.\n\nCHARACTER BREAKDOWN:\n・{満|まん} - full, covered\n・{身|しん} - body\n・{創|そう} - wound, injury\n・{痍|い} - wound, scar\n\nUSAGE PATTERNS:\n・{満身創痍|まんしんそうい}の{状態|じょうたい} (in a battered state)\n・{満身創痍|まんしんそうい}になる (to become covered in wounds)\n・{満身創痍|まんしんそうい}で〜する (to do ~ while battered)\n\nFIGURATIVE USE: Commonly used metaphorically to describe:\n- Athletes after a grueling match\n- Companies or organizations facing multiple problems\n- Politicians weathering scandals\n- Projects with many setbacks\n\nSIMILAR EXPRESSIONS:\n・ボロボロ (worn out, tattered - colloquial)\n・{傷|きず}だらけ (covered in wounds - literal)\n・{疲弊|ひへい}した (exhausted, depleted)",
+  "notes": "YOJIJUKUGO (⟦{四字熟語|よじじゅくご}→四字熟語：15663_yojijukugo⟧): This is a four-character compound idiom.\n\nWRITING:\n- {満|まん} - full, covered\n- {身|しん} - body\n- {創|そう} - wound, injury\n- {痍|い} - wound, scar\n\nCOMMON PATTERNS:\n- {満身創痍|まんしんそうい}⟦の→の：09472_no⟧⟦{状態|じょうたい}→状態：03345_joutai⟧ (in a battered state)\n- {満身創痍|まんしんそうい}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧ (to become covered in wounds)\n- {満身創痍|まんしんそうい}で〜⟦する→する：00392_suru⟧ (to do ~ while battered)\n\nFIGURATIVE USE: Commonly used metaphorically to describe:\n- Athletes after a grueling match\n- Companies or organizations facing multiple problems\n- Politicians weathering scandals\n- Projects with many setbacks\n\nSIMILAR WORDS:\n- ボロボロ (worn out, tattered - colloquial)\n- ⟦{傷|きず}だらけ→傷だらけ：26862_kizudarake⟧ (covered in wounds - literal)\n- ⟦{疲弊|ひへい}→疲弊：07524_hihei⟧⟦した→する：00392_suru⟧ (exhausted, depleted)",
   "cross_references": [
     {
       "type": "related",
@@ -51,11 +51,25 @@
       "headword": "{波乱万丈|はらんばんじょう}",
       "label": "eventful, stormy",
       "target_id": "06378_haranbanjou"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26862_kizudarake",
+      "reading": "きずだらけ",
+      "headword": "{傷|きず}だらけ",
+      "label": "covered in wounds"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07524_hihei",
+      "reading": "ひへい",
+      "headword": "{疲弊|ひへい}",
+      "label": "exhausted, depleted"
     }
   ],
   "metadata": {
     "created": "2026-01-18T23:54:32Z",
-    "modified": "2026-06-17T01:28:38Z",
+    "modified": "2026-09-02T04:01:10Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

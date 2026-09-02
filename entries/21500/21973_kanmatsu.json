@@ -15,40 +15,73 @@
   "examples": [
     {
       "id": "21973_kanmatsu_ex1",
-      "japanese": "{巻末|かんまつ}に{索引|さくいん}がある。",
+      "japanese": "{巻末|かんまつ}⟦に→に：00314_ni⟧⟦{索引|さくいん}→索引：04168_sakuin⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There is an index at the end of the book.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21973_kanmatsu_ex2",
-      "japanese": "{巻末|かんまつ}の{付録|ふろく}を{参照|さんしょう}してください。",
+      "japanese": "{巻末|かんまつ}⟦の→の：09472_no⟧⟦{付録|ふろく}→付録：06206_furoku⟧⟦を→を：00422_wo⟧⟦{参照|さんしょう}→参照：11866_sanshou⟧⟦して→する：00392_suru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please refer to the appendix at the back of the book.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21973_kanmatsu_ex3",
-      "japanese": "{巻末|かんまつ}には{著者|ちょしゃ}によるあとがきと{参考文献|さんこうぶんけん}リストが{掲載|けいさい}されている。",
+      "japanese": "{巻末|かんまつ}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{著者|ちょしゃ}→著者：03501_chosha⟧⟦による→による：28349_niyoru⟧⟦あとがき→あとがき：21507_atogaki⟧⟦と→と：00512_to⟧⟦{参考文献|さんこうぶんけん}→参考文献：09288_sankoubunken⟧⟦リスト→リスト：09786_risuto⟧⟦が→が：00051_ga⟧⟦{掲載|けいさい}→掲載：08993_keisai⟧⟦されている→する：00392_suru⟧。",
       "english": "The back of the book contains an afterword by the author and a bibliography.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {巻|かん} (volume, scroll) + {末|まつ} (end). Refers to the back portion of a book or publication where supplementary material is placed.\n\nCOMMON COLLOCATIONS:\n- {巻末|かんまつ}の{付録|ふろく}: appendix at the end of a book\n- {巻末|かんまつ}の{索引|さくいん}: index at the back\n- {巻末|かんまつ}に{収録|しゅうろく}する: to include at the end of the volume\n- {巻末|かんまつ}{資料|しりょう}: back-matter materials\n\nSIMILAR WORDS:\n- {巻頭|かんとう}: beginning of a book — the opposite of {巻末|かんまつ}\n- {末尾|まつび}: the very end — more general; can refer to the end of any text or sequence\n- あとがき: afterword — a specific type of content often found at the {巻末|かんまつ}",
+  "notes": "Composed of {巻|かん} (volume, scroll) + {末|まつ} (end). Refers to the back portion of a book or publication where supplementary material is placed.\n\nCOMMON COLLOCATIONS:\n- {巻末|かんまつ}⟦の→の：09472_no⟧⟦{付録|ふろく}→付録：06206_furoku⟧: appendix at the end of a book\n- {巻末|かんまつ}⟦の→の：09472_no⟧⟦{索引|さくいん}→索引：04168_sakuin⟧: index at the back\n- {巻末|かんまつ}⟦に→に：00314_ni⟧⟦{収録|しゅうろく}→収録：08378_shuuroku⟧⟦する→する：00392_suru⟧: to include at the end of the volume\n- {巻末|かんまつ}⟦{資料|しりょう}→資料：04166_shiryou⟧: back-matter materials\n\nSIMILAR WORDS:\n- {巻頭|かんとう}: beginning of a book — the opposite of {巻末|かんまつ}\n- ⟦{末尾|まつび}→末尾：13065_matsubi⟧: the very end — more general; can refer to the end of any text or sequence\n- ⟦あとがき→あとがき：21507_atogaki⟧: afterword — a specific type of content often found at the {巻末|かんまつ}",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13065_matsubi",
+      "reading": "まつび",
+      "headword": "{末尾|まつび}",
+      "label": "the very end"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21507_atogaki",
+      "reading": "あとがき",
+      "headword": "あとがき",
+      "label": "afterword"
+    },
+    {
+      "type": "related",
+      "target_id": "06206_furoku",
+      "reading": "ふろく",
+      "headword": "{付録|ふろく}",
+      "label": "appendix, supplement"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["books"]
+      "semantic": [
+        "books"
+      ]
     },
     "created": "2026-04-04T18:26:28Z",
-    "modified": "2026-07-26T03:19:02Z"
+    "modified": "2026-09-02T04:02:06Z"
   }
 }

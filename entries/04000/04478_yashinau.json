@@ -2,7 +2,7 @@
   "id": "04478_yashinau",
   "headword": "{養|やしな}う",
   "reading": "やしなう",
-  "part_of_speech": "godan verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to support, to nourish, to cultivate",
   "conjugation": {
     "type": "godan",
@@ -204,10 +204,46 @@
     }
   ],
   "notes": "{養|やしな}う has meanings related to support, nourishment, and cultivation.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n\nCOMMON PATTERNS:\n- ⟦{家族|かぞく}→家族：00552_kazoku⟧⟦を→を：00422_wo⟧{養|やしな}う: to support one's family\n- ⟦{力|ちから}→力：01661_chikara⟧⟦を→を：00422_wo⟧{養|やしな}う: to build up one's strength\n- ⟦{教養|きょうよう}→教養：09788_kyouyou⟧⟦を→を：00422_wo⟧{養|やしな}う: to cultivate one's education\n- ⟦{目|め}→目：00525_me⟧⟦を→を：00422_wo⟧{養|やしな}う: to develop an eye for (something)\n\nRELATED WORDS:\n- ⟦{育|そだ}て→育つ：01951_sodatsu⟧る: to raise, bring up\n- ⟦{扶養|ふよう}→扶養：21549_fuyou⟧⟦する→する：00392_suru⟧: to support (formal)\n- ⟦{栄養|えいよう}→栄養：01882_eiyou⟧: nutrition",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "01235_sodateru",
+      "reading": "そだてる",
+      "headword": "{育|そだ}てる",
+      "label": "to raise, bring up"
+    },
+    {
+      "type": "related",
+      "target_id": "21549_fuyou",
+      "reading": "ふよう",
+      "headword": "{扶養|ふよう}",
+      "label": "to support"
+    },
+    {
+      "type": "related",
+      "target_id": "01882_eiyou",
+      "reading": "えいよう",
+      "headword": "{栄養|えいよう}",
+      "label": "nutrition"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07926_tsuchikau",
+      "reading": "つちかう",
+      "headword": "{培|つちか}う",
+      "label": "to cultivate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25251_mitsugu",
+      "reading": "みつぐ",
+      "headword": "{貢|みつ}ぐ",
+      "label": "to support financially"
+    }
+  ],
   "metadata": {
     "created": "2026-01-14T00:33:36Z",
-    "modified": "2026-08-05T18:23:09Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

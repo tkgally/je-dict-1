@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25298_keiran_ex1",
-      "japanese": "{鶏卵|けいらん}の{値段|ねだん}が{上|あ}がっている。",
+      "japanese": "{鶏卵|けいらん}⟦の→の：09472_no⟧⟦{値段|ねだん}→値段：00871_nedan⟧⟦が→が：00051_ga⟧⟦{上|あ}がっている→上がる：00615_agaru⟧。",
       "english": "The price of eggs is going up.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25298_keiran_ex2",
-      "japanese": "{鶏卵|けいらん}アレルギーの{子供|こども}は{給食|きゅうしょく}に{注意|ちゅうい}が{必要|ひつよう}だ。",
+      "japanese": "{鶏卵|けいらん}⟦アレルギー→アレルギー：04645_arerugii⟧⟦の→の：09472_no⟧⟦{子供|こども}→子供：00554_kodomo⟧⟦は→は：00079_ha⟧⟦{給食|きゅうしょく}→給食：13800_kyuushoku⟧⟦に→に：00314_ni⟧⟦{注意|ちゅうい}→注意：01464_chuui⟧⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧だ。",
       "english": "Children with egg allergies need to be careful with school lunches.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25298_keiran_ex3",
-      "japanese": "{日本|にほん}は{世界|せかい}でも{有数|ゆうすう}の{鶏卵|けいらん}{消費国|しょうひこく}で、{一人当|ひとりあ}たり{年間|ねんかん}{約|やく}300{個|こ}を{消費|しょうひ}する。",
+      "japanese": "⟦{日本|にほん}→日本：03876_nihon⟧⟦は→は：00079_ha⟧⟦{世界|せかい}→世界：01447_sekai⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧⟦{有数|ゆうすう}→有数：13006_yuusuu⟧⟦の→の：09472_no⟧{鶏卵|けいらん}{消費国|しょうひこく}⟦で→で：00502_de⟧、{一人当|ひとりあ}たり⟦{年間|ねんかん}→年間：00974_nenkan⟧⟦{約|やく}→約：09563_yaku⟧300⟦{個|こ}→〜個：00645_ko⟧⟦を→を：00422_wo⟧⟦{消費|しょうひ}する→消費する：25230_shouhisuru⟧。",
       "english": "Japan is one of the world's leading egg-consuming countries, with each person consuming about 300 eggs per year.",
       "sense_numbers": [
         1
@@ -44,19 +44,29 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {鶏|けい} (chicken) + {卵|らん} (egg). A formal or technical term for chicken eggs, used in food industry, allergy labeling, agricultural statistics, and scientific contexts. In everyday conversation, {卵|たまご} alone usually refers to chicken eggs.\n\nCOMMON COLLOCATIONS:\n- {鶏卵|けいらん}アレルギー: egg allergy\n- {鶏卵|けいらん}の{生産|せいさん}: egg production\n- {鶏卵|けいらん}{価格|かかく}: egg prices\n- {鶏卵|けいらん}を{使用|しよう}: uses eggs (food labeling)\n\nSIMILAR WORDS:\n- {卵|たまご}: egg — the everyday word; usually means chicken egg unless specified otherwise\n- {生卵|なまたまご}: raw egg — an uncooked egg, commonly eaten in Japan\n- {玉子|たまご}: egg (as a cooked ingredient) — often used for dishes like {玉子焼|たまごや}き\n- {うずらの{卵|たまご}}: quail egg",
+  "notes": "Composed of {鶏|けい} (chicken) + {卵|らん} (egg). A formal or technical term for chicken eggs, used in food industry, allergy labeling, agricultural statistics, and scientific contexts. In everyday conversation, ⟦{卵|たまご}→卵：02222_tamago⟧ alone usually refers to chicken eggs.\n\nCOMMON COLLOCATIONS:\n- {鶏卵|けいらん}⟦アレルギー→アレルギー：04645_arerugii⟧: egg allergy\n- {鶏卵|けいらん}⟦の→の：09472_no⟧⟦{生産|せいさん}→生産：01444_seisan⟧: egg production\n- {鶏卵|けいらん}⟦{価格|かかく}→価格：00147_kakaku⟧: egg prices\n- {鶏卵|けいらん}⟦を→を：00422_wo⟧⟦{使用|しよう}→使用：01637_shiyou⟧: uses eggs (food labeling)\n\nSIMILAR WORDS:\n- ⟦{卵|たまご}→卵：02222_tamago⟧: egg — the everyday word; usually means chicken egg unless specified otherwise\n- ⟦{生卵|なまたまご}→生卵：19011_namatamago⟧: raw egg — an uncooked egg, commonly eaten in Japan\n- {玉子|たまご}: egg (as a cooked ingredient) — often used for dishes like {玉子焼|たまごや}き\n- うずら⟦の→の：09472_no⟧⟦{卵|たまご}→卵：02222_tamago⟧: quail egg",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19011_namatamago",
+      "reading": "なまたまご",
+      "headword": "{生卵|なまたまご}",
+      "label": "raw egg"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "food"
       ]
     },
     "created": "2026-04-24T13:24:21Z",
-    "modified": "2026-08-04T12:59:53Z"
+    "modified": "2026-09-02T04:02:21Z"
   }
 }

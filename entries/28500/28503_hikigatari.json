@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28503_hikigatari_ex1",
-      "japanese": "ギターで{弾|ひ}き{語|がた}りをする。",
+      "japanese": "⟦ギター→ギター：04461_gitaa⟧⟦で→で：00502_de⟧{弾|ひ}き{語|がた}り⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧。",
       "english": "I sing while playing the guitar.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28503_hikigatari_ex2",
-      "japanese": "{彼女|かのじょ}のピアノ{弾|ひ}き{語|がた}りは{心|こころ}に{響|ひび}いた。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦の→の：09472_no⟧⟦ピアノ→ピアノ：01376_piano⟧{弾|ひ}き{語|がた}り⟦は→は：00079_ha⟧⟦{心|こころ}→心：01321_kokoro⟧⟦に→に：00314_ni⟧⟦{響|ひび}いた→響く：00099_hibiku⟧。",
       "english": "Her piano-and-vocal performance struck a chord with me.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28503_hikigatari_ex3",
-      "japanese": "ライブハウスでは{若|わか}いミュージシャンが{弾|ひ}き{語|がた}りで{自作|じさく}の{歌|うた}を{披露|ひろう}していた。",
+      "japanese": "⟦ライブ→ライブ：05412_raibu⟧ハウス⟦で→で：00502_de⟧⟦は→は：00079_ha⟧{若|わか}いミュージシャン⟦が→が：00051_ga⟧{弾|ひ}き{語|がた}り⟦で→で：00502_de⟧⟦{自作|じさく}→自作：13968_jisaku⟧⟦の→の：09472_no⟧⟦{歌|うた}→歌：02179_uta⟧⟦を→を：00422_wo⟧⟦{披露|ひろう}していた→披露する：20927_hirousuru⟧。",
       "english": "At the live house, young musicians were performing their own songs solo on instrument and vocals.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {弾|ひ}く (to play a stringed/keyed instrument) + {語|かた}る (to narrate, recite). The {語|かた}る element preserves an older sense of \"singing a narrative,\" though today it covers any singing accompanied by self-played instrument.\n\nCOMMON COLLOCATIONS:\n- ギター{弾|ひ}き{語|がた}り: solo guitar-and-vocal performance\n- ピアノ{弾|ひ}き{語|がた}り: solo piano-and-vocal performance\n- {弾|ひ}き{語|がた}りライブ: a solo singer-musician live show\n- {弾|ひ}き{語|がた}りで{歌|うた}う: to sing while accompanying oneself\n\nSIMILAR WORDS:\n- {弾|ひ}く: to play (a stringed/keyed instrument) — just the playing\n- {歌|うた}う: to sing — just the singing\n- アコースティックライブ: acoustic live — overlapping but broader; may have multiple performers",
+  "notes": "Compound of ⟦{弾|ひ}く→弾く：02444_hiku⟧ (to play a stringed/keyed instrument) + ⟦{語|かた}る→語る：01930_kataru⟧ (to narrate, recite). The ⟦{語|かた}る→語る：01930_kataru⟧ element preserves an older sense of \"singing a narrative,\" though today it covers any singing accompanied by self-played instrument.\n\nCOMMON COLLOCATIONS:\n- ⟦ギター→ギター：04461_gitaa⟧{弾|ひ}き{語|がた}り: solo guitar-and-vocal performance\n- ⟦ピアノ→ピアノ：01376_piano⟧{弾|ひ}き{語|がた}り: solo piano-and-vocal performance\n- {弾|ひ}き{語|がた}り⟦ライブ→ライブ：05412_raibu⟧: a solo singer-musician live show\n- {弾|ひ}き{語|がた}り⟦で→で：00502_de⟧⟦{歌|うた}う→歌う：00684_utau⟧: to sing while accompanying oneself\n\nSIMILAR WORDS:\n- ⟦{弾|ひ}く→弾く：02444_hiku⟧: to play (a stringed/keyed instrument) — just the playing\n- ⟦{歌|うた}う→歌う：00684_utau⟧: to sing — just the singing\n- アコースティック⟦ライブ→ライブ：05412_raibu⟧: acoustic live — overlapping but broader; may have multiple performers",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02444_hiku",
+      "reading": "ひく",
+      "headword": "{弾|ひ}く",
+      "label": "to play"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00684_utau",
+      "reading": "うたう",
+      "headword": "{歌|うた}う",
+      "label": "to sing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27385_shingaasonguraitaa",
+      "reading": "しんがーそんぐらいたー",
+      "headword": "シンガーソングライター",
+      "label": "singer-songwriter (a musician who writes and performs their own songs)"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +76,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "music",
         "entertainment"
@@ -61,6 +84,6 @@
       "domain": []
     },
     "created": "2026-06-01T02:13:47Z",
-    "modified": "2026-06-01T02:13:47Z"
+    "modified": "2026-09-02T04:02:33Z"
   }
 }

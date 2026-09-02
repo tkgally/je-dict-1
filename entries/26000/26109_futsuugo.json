@@ -15,39 +15,72 @@
   "examples": [
     {
       "id": "26109_futsuugo_ex1",
-      "japanese": "{普通語|ふつうご}で{話|はな}してください。",
+      "japanese": "{普通語|ふつうご}⟦で→で：00502_de⟧⟦{話|はな}して→話す：00467_hanasu⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please speak in standard language.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26109_futsuugo_ex2",
-      "japanese": "{方言|ほうげん}ではなく{普通語|ふつうご}で{書|か}かれた{文章|ぶんしょう}だ。",
+      "japanese": "⟦{方言|ほうげん}→方言：07419_hougen⟧⟦ではなく→ではなく：09578_dehanaku⟧{普通語|ふつうご}⟦で→で：00502_de⟧⟦{書|か}かれた→書く：00477_kaku⟧⟦{文章|ぶんしょう}→文章：02957_bunshou⟧だ。",
       "english": "This is a text written in standard language, not dialect.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26109_futsuugo_ex3",
-      "japanese": "{専門|せんもん}{用語|ようご}を{避|さ}けて{普通語|ふつうご}で{説明|せつめい}するよう{心|こころ}がけている。",
+      "japanese": "⟦{専門|せんもん}{用語|ようご}→専門用語：22120_senmonyougo⟧⟦を→を：00422_wo⟧⟦{避|さ}けて→避ける：02109_sakeru⟧{普通語|ふつうご}⟦で→で：00502_de⟧⟦{説明|せつめい}する→説明する：05639_setsumeisuru⟧よう⟦{心|こころ}がけている→心がける：10015_kokorogakeru⟧。",
       "english": "I try to explain things in everyday language, avoiding technical terms.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {普通|ふつう} (ordinary; common) and {語|ご} (language; word). Can refer to either the standard/common form of a language (as opposed to dialects) or to everyday vocabulary (as opposed to jargon). In Chinese linguistics, {普通語|ふつうご} specifically refers to Mandarin Chinese (Putonghua), and this usage also appears in Japanese texts about Chinese language.\n\nCOMMON COLLOCATIONS:\n- {普通語|ふつうご}で{話|はな}す: to speak in standard language\n- {普通語|ふつうご}に{直|なお}す: to convert to standard language\n- {普通語|ふつうご}と{方言|ほうげん}: standard language and dialect\n\nSIMILAR WORDS:\n- {標準語|ひょうじゅんご}: standard language — the officially designated national standard, more formal term\n- {共通語|きょうつうご}: common language — language understood across regions; emphasizes mutual intelligibility\n- {口語|こうご}: spoken language; colloquial language — contrasts with written or literary language",
-  "cross_references": [],
+  "notes": "A compound of ⟦{普通|ふつう}→普通：01502_futsuu⟧ (ordinary; common) and ⟦{語|ご}→〜語：09841_go⟧ (language; word). Can refer to either the standard/common form of a language (as opposed to dialects) or to everyday vocabulary (as opposed to jargon). In Chinese linguistics, {普通語|ふつうご} specifically refers to Mandarin Chinese (Putonghua), and this usage also appears in Japanese texts about Chinese language.\n\nCOMMON COLLOCATIONS:\n- {普通語|ふつうご}⟦で→で：00502_de⟧⟦{話|はな}す→話す：00467_hanasu⟧: to speak in standard language\n- {普通語|ふつうご}⟦に→に：00314_ni⟧{直|なお}す: to convert to standard language\n- {普通語|ふつうご}⟦と→と：00512_to⟧⟦{方言|ほうげん}→方言：07419_hougen⟧: standard language and dialect\n\nSIMILAR WORDS:\n- ⟦{標準語|ひょうじゅんご}→標準語：07421_hyoujungo⟧: standard language — the officially designated national standard, more formal term\n- ⟦{共通語|きょうつうご}→共通語：16600_kyoutsuugo⟧: common language — language understood across regions; emphasizes mutual intelligibility\n- ⟦{口語|こうご}→口語：12033_kougo⟧: spoken language; colloquial language — contrasts with written or literary language",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07421_hyoujungo",
+      "reading": "ひょうじゅんご",
+      "headword": "{標準語|ひょうじゅんご}",
+      "label": "standard language"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16600_kyoutsuugo",
+      "reading": "きょうつうご",
+      "headword": "{共通語|きょうつうご}",
+      "label": "common language"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12033_kougo",
+      "reading": "こうご",
+      "headword": "{口語|こうご}",
+      "label": "spoken language"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["language"]
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "language"
+      ]
     },
     "created": "2026-04-29T13:37:32Z",
-    "modified": "2026-04-29T13:37:32Z"
+    "modified": "2026-09-02T04:02:25Z"
   }
 }

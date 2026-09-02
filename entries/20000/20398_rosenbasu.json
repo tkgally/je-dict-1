@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "20398_rosenbasu_ex1",
-      "japanese": "{路線|ろせん}バスで{通勤|つうきん}している。",
+      "japanese": "{路線|ろせん}バス⟦で→で：00502_de⟧⟦{通勤|つうきん}→通勤：03512_tsuukin⟧⟦している→する：00392_suru⟧。",
       "english": "I commute by local bus.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "20398_rosenbasu_ex2",
-      "japanese": "この{地域|ちいき}は{路線|ろせん}バスの{本数|ほんすう}が{少|すく}ない。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{地域|ちいき}→地域：01461_chiiki⟧⟦は→は：00079_ha⟧{路線|ろせん}バス⟦の→の：09472_no⟧⟦{本数|ほんすう}→本数：13154_honsuu⟧⟦が→が：00051_ga⟧⟦{少|すく}ない→少ない：01136_sukunai⟧。",
       "english": "This area has few local bus services.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "20398_rosenbasu_ex3",
-      "japanese": "{人口|じんこう}{減少|げんしょう}で{路線|ろせん}バスの{廃止|はいし}が{全国|ぜんこく}で{相次|あいつ}いでいる。",
+      "japanese": "⟦{人口|じんこう}{減少|げんしょう}→人口減少：24385_jinkougenshou⟧⟦で→で：00502_de⟧{路線|ろせん}バス⟦の→の：09472_no⟧⟦{廃止|はいし}→廃止：12483_haishi⟧⟦が→が：00051_ga⟧⟦{全国|ぜんこく}→全国：03311_zenkoku⟧⟦で→で：00502_de⟧⟦{相次|あいつ}いでいる→相次ぐ：14869_aitsugu⟧。",
       "english": "Local bus routes are being discontinued one after another across the country due to population decline.",
       "sense_numbers": [
         1
@@ -44,8 +44,45 @@
       "notes": null
     }
   ],
-  "notes": "An important part of daily transportation in Japan, especially in areas without train service. In recent years, {路線|ろせん}バスの{廃止|はいし} (discontinuation of bus routes) has become a major social issue in rural Japan as population decline makes routes financially unviable.\n\nFORMATION:\n{路線|ろせん} (route, line) + バス (bus)\n\nCOMMON COLLOCATIONS:\n- {路線|ろせん}バスに{乗|の}る: to ride a local bus\n- {路線|ろせん}バスの{時刻表|じこくひょう}: local bus timetable\n- {路線|ろせん}バスの{運賃|うんちん}: local bus fare\n- {路線|ろせん}バスが{廃止|はいし}になる: a bus route is discontinued\n\nSIMILAR WORDS:\n- {高速|こうそく}バス: express bus, highway bus — long-distance, between cities\n- {貸切|かしきり}バス: chartered bus — for private group use\n- コミュニティバス: community bus — small buses serving local neighborhoods, often subsidized",
+  "notes": "An important part of daily transportation in Japan, especially in areas without train service. In recent years, {路線|ろせん}バス⟦の→の：09472_no⟧⟦{廃止|はいし}→廃止：12483_haishi⟧ (discontinuation of bus routes) has become a major social issue in rural Japan as population decline makes routes financially unviable.\n\nFORMS:\n⟦{路線|ろせん}→路線：11341_rosen⟧ (route, line) + ⟦バス→バス：00769_basu⟧ (bus)\n\nCOMMON COLLOCATIONS:\n- {路線|ろせん}バス⟦に→に：00314_ni⟧⟦{乗|の}る→乗る：00511_noru⟧: to ride a local bus\n- {路線|ろせん}バス⟦の→の：09472_no⟧⟦{時刻表|じこくひょう}→時刻表：01031_jikokuhyou⟧: local bus timetable\n- {路線|ろせん}バス⟦の→の：09472_no⟧⟦{運賃|うんちん}→運賃：05299_unchin⟧: local bus fare\n- {路線|ろせん}バス⟦が→が：00051_ga⟧⟦{廃止|はいし}→廃止：12483_haishi⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧: a bus route is discontinued\n\nSIMILAR WORDS:\n- ⟦{高速|こうそく}バス→高速バス：20782_kousokubasu⟧: express bus, highway bus — long-distance, between cities\n- ⟦{貸切|かしきり}バス→貸切バス：22719_kashikiribasu⟧: chartered bus — for private group use\n- コミュニティバス: community bus — small buses serving local neighborhoods, often subsidized",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20782_kousokubasu",
+      "reading": "こうそくばす",
+      "headword": "{高速|こうそく}バス",
+      "label": "express bus, highway bus"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22719_kashikiribasu",
+      "reading": "かしきりばす",
+      "headword": "{貸切|かしきり}バス",
+      "label": "chartered bus"
+    },
+    {
+      "type": "related",
+      "target_id": "19025_kankoubasu",
+      "reading": "かんこうばす",
+      "headword": "{観光|かんこう}バス",
+      "label": "tour bus"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25055_noriaibasu",
+      "reading": "のりあいばす",
+      "headword": "{乗合|のりあい}バス",
+      "label": "public bus"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30786_sougeibasu",
+      "reading": "そうげいばす",
+      "headword": "{送迎|そうげい}バス",
+      "label": "shuttle bus"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +96,6 @@
       ]
     },
     "created": "2026-03-29T12:11:21Z",
-    "modified": "2026-07-28T00:51:36Z"
+    "modified": "2026-09-02T04:01:59Z"
   }
 }

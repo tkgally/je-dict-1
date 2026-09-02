@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26258_funnyuu_ex1",
-      "japanese": "{粉乳|ふんにゅう}をお{湯|ゆ}で{溶|と}かす。",
+      "japanese": "{粉乳|ふんにゅう}⟦を→を：00422_wo⟧⟦お{湯|ゆ}→お湯：02518_oyu⟧⟦で→で：00502_de⟧⟦{溶|と}かす→溶かす：08264_tokasu⟧。",
       "english": "Dissolve the powdered milk in hot water.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26258_funnyuu_ex2",
-      "japanese": "{脱脂|だっし}{粉乳|ふんにゅう}は{保存|ほぞん}がきく。",
+      "japanese": "{脱脂|だっし}{粉乳|ふんにゅう}⟦は→は：00079_ha⟧⟦{保存|ほぞん}→保存：03626_hozon⟧⟦が→が：00051_ga⟧きく。",
       "english": "Skim milk powder keeps well.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26258_funnyuu_ex3",
-      "japanese": "{戦後|せんご}、{学校|がっこう}{給食|きゅうしょく}では{脱脂|だっし}{粉乳|ふんにゅう}が{出|だ}されていた。",
+      "japanese": "⟦{戦後|せんご}→戦後：12853_sengo⟧、⟦{学校|がっこう}→学校：00055_gakkou⟧⟦{給食|きゅうしょく}→給食：13800_kyuushoku⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧{脱脂|だっし}{粉乳|ふんにゅう}⟦が→が：00051_ga⟧⟦{出|だ}されていた→出す：01087_dasu⟧。",
       "english": "After the war, skim milk powder was served in school lunches.",
       "sense_numbers": [
         1
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {粉|ふん} (powder) and {乳|にゅう} (milk). The on'yomi compound is the standard technical and commercial term.\n\nCOMMON COLLOCATIONS:\n- {脱脂|だっし}{粉乳|ふんにゅう}: skim milk powder\n- {全脂|ぜんし}{粉乳|ふんにゅう}: whole milk powder\n- {調製|ちょうせい}{粉乳|ふんにゅう}: modified/prepared milk powder (infant formula)\n- {粉乳|ふんにゅう}を{溶|と}かす: to dissolve powdered milk\n\nCULTURAL NOTE:\n{脱脂|だっし}{粉乳|ふんにゅう} is strongly associated with the postwar school lunch program in Japan, when powdered skim milk provided by the United States was served to students. Many older Japanese have vivid (often unpleasant) memories of its taste.\n\nSIMILAR WORDS:\n- {粉|こな}ミルク: powdered milk — the everyday term, especially for infant formula\n- ミルク: milk — the general loanword\n- {牛乳|ぎゅうにゅう}: cow's milk — fresh liquid milk\n- {練乳|れんにゅう}: condensed milk — a different preserved milk product (sweetened and concentrated)",
+  "notes": "Composed of {粉|ふん} (powder) and ⟦{乳|にゅう}→乳：28296_nyuu⟧ (milk). The on'yomi compound is the standard technical and commercial term.\n\nCOMMON COLLOCATIONS:\n- {脱脂|だっし}{粉乳|ふんにゅう}: skim milk powder\n- {全脂|ぜんし}{粉乳|ふんにゅう}: whole milk powder\n- {調製|ちょうせい}{粉乳|ふんにゅう}: modified/prepared milk powder (infant formula)\n- {粉乳|ふんにゅう}⟦を→を：00422_wo⟧⟦{溶|と}かす→溶かす：08264_tokasu⟧: to dissolve powdered milk\n\nCULTURAL NOTE:\n{脱脂|だっし}{粉乳|ふんにゅう} is strongly associated with the postwar school lunch program in Japan, when powdered skim milk provided by the United States was served to students. Many older Japanese have vivid (often unpleasant) memories of its taste.\n\nSIMILAR WORDS:\n- ⟦{粉|こな}ミルク→粉ミルク：21060_konamiruku⟧: powdered milk — the everyday term, especially for infant formula\n- ⟦ミルク→ミルク：00284_miruku⟧: milk — the general loanword\n- ⟦{牛乳|ぎゅうにゅう}→牛乳：00777_gyuunyuu⟧: cow's milk — fresh liquid milk\n- ⟦{練乳|れんにゅう}→練乳：21061_rennyuu⟧: condensed milk — a different preserved milk product (sweetened and concentrated)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21060_konamiruku",
+      "reading": "こなみるく",
+      "headword": "{粉|こな}ミルク",
+      "label": "powdered milk"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00284_miruku",
+      "reading": "みるく",
+      "headword": "ミルク",
+      "label": "milk"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00777_gyuunyuu",
+      "reading": "ぎゅうにゅう",
+      "headword": "{牛乳|ぎゅうにゅう}",
+      "label": "cow's milk"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21061_rennyuu",
+      "reading": "れんにゅう",
+      "headword": "{練乳|れんにゅう}",
+      "label": "condensed milk"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +89,6 @@
       ]
     },
     "created": "2026-04-30T13:43:35Z",
-    "modified": "2026-06-16T12:23:55Z"
+    "modified": "2026-09-02T04:02:25Z"
   }
 }

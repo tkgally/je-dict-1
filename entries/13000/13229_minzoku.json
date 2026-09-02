@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "13229_minzoku_ex1",
-      "japanese": "{多|おお}くの{民族|みんぞく}が{共存|きょうぞん}している。",
+      "japanese": "{多|おお}く⟦の→の：09472_no⟧{民族|みんぞく}⟦が→が：00051_ga⟧⟦{共存|きょうぞん}→共存：11675_kyouzon⟧⟦している→する：00392_suru⟧。",
       "english": "Many ethnic groups coexist.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "13229_minzoku_ex2",
-      "japanese": "この{地域|ちいき}には{少数|しょうすう}{民族|みんぞく}が{暮|く}らしている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{地域|ちいき}→地域：01461_chiiki⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{少数|しょうすう}→少数：05611_shousuu⟧{民族|みんぞく}⟦が→が：00051_ga⟧⟦{暮|く}らしている→暮らす：01937_kurasu⟧。",
       "english": "Ethnic minorities live in this region.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "13229_minzoku_ex3",
-      "japanese": "{民族|みんぞく}の{文化|ぶんか}や{伝統|でんとう}を{次|つぎ}の{世代|せだい}に{伝|つた}えることは{大切|たいせつ}だ。",
+      "japanese": "{民族|みんぞく}⟦の→の：09472_no⟧⟦{文化|ぶんか}→文化：01504_bunka⟧や⟦{伝統|でんとう}→伝統：09585_dentou⟧⟦を→を：00422_wo⟧⟦{次|つぎ}→次：00819_tsugi⟧⟦の→の：09472_no⟧⟦{世代|せだい}→世代：05102_sedai⟧⟦に→に：00314_ni⟧⟦{伝|つた}える→伝える：01220_tsutaeru⟧こと⟦は→は：00079_ha⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧だ。",
       "english": "It is important to pass on a people's culture and traditions to the next generation.",
       "notes": null,
       "has_audio": false,
@@ -52,7 +52,7 @@
       "note": "folklore, folk customs"
     }
   ],
-  "notes": "SIMILAR WORDS:\n{民俗|みんぞく} (same reading) means 'folklore, folk customs' — referring to cultural practices and traditions. {民族|みんぞく} means 'ethnic group, people' — referring to the group of people itself. The kanji differ: {族|ぞく} (clan/tribe) vs. {俗|ぞく} (customs).\n\nCOMMON COLLOCATIONS:\n- {少数|しょうすう}{民族|みんぞく}: ethnic minority\n- {民族|みんぞく}{衣装|いしょう}: ethnic costume, traditional dress\n- {民族|みんぞく}{音楽|おんがく}: ethnic music, folk music\n- {民族|みんぞく}{紛争|ふんそう}: ethnic conflict\n- {多|た}{民族|みんぞく}{国家|こっか}: multiethnic nation",
+  "notes": "SIMILAR WORDS:\n⟦{民俗|みんぞく}→民俗：13238_minzoku⟧ (same reading) means 'folklore, folk customs' — referring to cultural practices and traditions. {民族|みんぞく} means 'ethnic group, people' — referring to the group of people itself. The kanji differ: {族|ぞく} (clan/tribe) vs. ⟦{俗|ぞく}→俗：24364_zoku⟧ (customs).\n\nCOMMON COLLOCATIONS:\n- ⟦{少数|しょうすう}→少数：05611_shousuu⟧{民族|みんぞく}: ethnic minority\n- {民族|みんぞく}⟦{衣装|いしょう}→衣装：14102_ishou⟧: ethnic costume, traditional dress\n- {民族|みんぞく}{音楽|おんがく}: ethnic music, folk music\n- {民族|みんぞく}⟦{紛争|ふんそう}→紛争：05758_funsou⟧: ethnic conflict\n- {多|た}{民族|みんぞく}⟦{国家|こっか}→国家：02760_kokka⟧: multiethnic nation",
   "cross_references": [
     {
       "type": "homophone",
@@ -67,11 +67,18 @@
       "headword": "{人種|じんしゅ}",
       "label": "race (biological)",
       "target_id": "03354_jinshu"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02760_kokka",
+      "reading": "こっか",
+      "headword": "{国家|こっか}",
+      "label": "state, nation, country"
     }
   ],
   "metadata": {
     "created": "2026-02-24T06:42:45Z",
-    "modified": "2026-04-28T08:04:59Z",
+    "modified": "2026-09-02T04:01:32Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

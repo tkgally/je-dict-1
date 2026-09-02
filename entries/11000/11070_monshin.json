@@ -3,7 +3,7 @@
   "id": "11070_monshin",
   "headword": "{問診|もんしん}",
   "reading": "もんしん",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "medical interview, patient history-taking",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "11070_monshin_ex1",
-      "japanese": "まず{問診|もんしん}から{始|はじ}めます。",
+      "japanese": "⟦まず→まず：00796_mazu⟧{問診|もんしん}⟦から→から：00504_kara⟧⟦{始|はじ}めます→始める：00531_hajimeru⟧。",
       "english": "We'll start with the medical interview.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "11070_monshin_ex2",
-      "japanese": "{問診票|もんしんひょう}に{記入|きにゅう}してください。",
+      "japanese": "⟦{問診票|もんしんひょう}→問診票：09708_monshinhyou⟧⟦に→に：00314_ni⟧⟦{記入|きにゅう}→記入：02624_kinyuu⟧⟦して→する：00392_suru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please fill out the medical questionnaire.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "11070_monshin_ex3",
-      "japanese": "{丁寧|ていねい}な{問診|もんしん}のおかげで、{正確|せいかく}な{診断|しんだん}を{受|う}けることができた。",
+      "japanese": "⟦{丁寧|ていねい}→丁寧：00896_teinei⟧な{問診|もんしん}⟦の→の：09472_no⟧⟦おかげ→おかげ：01362_okage⟧で、⟦{正確|せいかく}→正確：03372_seikaku⟧な⟦{診断|しんだん}→診断：04209_shindan⟧⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧こと⟦が→が：00051_ga⟧⟦できた→できる：00557_dekiru⟧。",
       "english": "Thanks to a thorough medical interview, I was able to receive an accurate diagnosis.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nAt Japanese clinics and hospitals, patients typically fill out a {問診票|もんしんひょう} (medical questionnaire) before seeing the doctor. This form asks about symptoms, allergies, current medications, and medical history. The doctor then follows up with verbal questions during the {問診|もんしん}.\n\nCOMMON COLLOCATIONS:\n- {問診票|もんしんひょう}: medical questionnaire\n- {問診|もんしん}を{受|う}ける: to undergo a medical interview\n- {問診|もんしん}する: to conduct a medical interview\n- {予診|よしん}: preliminary examination (similar but broader)",
+  "notes": "USAGE:\nAt Japanese clinics and hospitals, patients typically fill out a ⟦{問診票|もんしんひょう}→問診票：09708_monshinhyou⟧ (medical questionnaire) before seeing the doctor. This form asks about symptoms, allergies, current medications, and medical history. The doctor then follows up with verbal questions during the {問診|もんしん}.\n\nCOMMON COLLOCATIONS:\n- ⟦{問診票|もんしんひょう}→問診票：09708_monshinhyou⟧: medical questionnaire\n- {問診|もんしん}⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧: to undergo a medical interview\n- {問診|もんしん}⟦する→する：00392_suru⟧: to conduct a medical interview\n- {予診|よしん}: preliminary examination (similar but broader)",
   "cross_references": [
     {
       "type": "related",
@@ -142,11 +142,18 @@
       "headword": "カルテ",
       "label": "medical chart",
       "target_id": "11069_karute"
+    },
+    {
+      "type": "related",
+      "target_id": "03259_shinsatsu",
+      "reading": "しんさつ",
+      "headword": "{診察|しんさつ}",
+      "label": "medical examination"
     }
   ],
   "metadata": {
     "created": "2026-02-13T05:17:28Z",
-    "modified": "2026-03-29T03:07:35Z",
+    "modified": "2026-09-02T04:01:23Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

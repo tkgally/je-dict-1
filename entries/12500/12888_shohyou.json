@@ -15,42 +15,83 @@
   "examples": [
     {
       "id": "12888_shohyou_ex1",
-      "japanese": "{新聞|しんぶん}の{書評|しょひょう}を{読|よ}んで{興味|きょうみ}を{持|も}った。",
+      "japanese": "⟦{新聞|しんぶん}→新聞：01440_shinbun⟧⟦の→の：09472_no⟧{書評|しょひょう}⟦を→を：00422_wo⟧⟦{読|よ}んで→読む：00426_yomu⟧⟦{興味|きょうみ}→興味：01316_kyoumi⟧⟦を→を：00422_wo⟧⟦{持|も}った→持つ：00478_motsu⟧。",
       "english": "I became interested after reading the book review in the newspaper.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12888_shohyou_ex2",
-      "japanese": "{書評|しょひょう}を{書|か}くのは{本|ほん}を{読|よ}むのとは{違|ちが}う{難|むずか}しさがある。",
+      "japanese": "{書評|しょひょう}⟦を→を：00422_wo⟧⟦{書|か}く→書く：00477_kaku⟧⟦の→の：09472_no⟧⟦は→は：00079_ha⟧{本|ほん}⟦を→を：00422_wo⟧⟦{読|よ}む→読む：00426_yomu⟧⟦の→の：09472_no⟧⟦と→と：00512_to⟧⟦は→は：00079_ha⟧⟦{違|ちが}う→違う：01957_chigau⟧{難|むずか}しさ⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "Writing a book review involves a different kind of difficulty from reading a book.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12888_shohyou_ex3",
-      "japanese": "あの{作家|さっか}の{新作|しんさく}は{書評|しょひょう}で{高|たか}い{評価|ひょうか}を{受|う}け、{売|う}れ{行|ゆ}きも{好調|こうちょう}だ。",
+      "japanese": "⟦あの→あの：00915_ano⟧⟦{作家|さっか}→作家：01414_sakka⟧⟦の→の：09472_no⟧⟦{新作|しんさく}→新作：09523_shinsaku⟧⟦は→は：00079_ha⟧{書評|しょひょう}⟦で→で：00502_de⟧⟦{高|たか}い→高い：00500_takai⟧⟦{評価|ひょうか}→評価：03583_hyouka⟧⟦を→を：00422_wo⟧⟦{受|う}け→受ける：01215_ukeru⟧、⟦{売|う}れ{行|ゆ}き→売れ行き：14897_ureyuki⟧⟦も→も：00484_mo⟧⟦{好調|こうちょう}→好調：12209_kouchou⟧だ。",
       "english": "That author's new work received high praise in reviews and is selling well.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nA standard literary and publishing term. Major Japanese newspapers have dedicated {書評|しょひょう} sections, usually published weekly. Also common in academic contexts for scholarly book reviews.\n\nCOMMON COLLOCATIONS:\n- {書評|しょひょう}を{書|か}く: to write a book review\n- {書評|しょひょう}{欄|らん}: book review column/section\n- {書評|しょひょう}{家|か}: book reviewer, book critic\n\nSIMILAR WORDS:\n- レビュー: review (loanword, used for books, products, etc.)\n- {批評|ひひょう}: criticism, critique (broader, not limited to books)\n- {感想|かんそう}{文|ぶん}: personal impressions/essay (less formal, subjective)",
-  "cross_references": [],
+  "notes": "USAGE:\nA standard literary and publishing term. Major Japanese newspapers have dedicated {書評|しょひょう} sections, usually published weekly. Also common in academic contexts for scholarly book reviews.\n\nCOMMON COLLOCATIONS:\n- {書評|しょひょう}⟦を→を：00422_wo⟧⟦{書|か}く→書く：00477_kaku⟧: to write a book review\n- {書評|しょひょう}⟦{欄|らん}→欄：03901_ran⟧: book review column/section\n- {書評|しょひょう}⟦{家|か}→〜家：28339_ka⟧: book reviewer, book critic\n\nSIMILAR WORDS:\n- ⟦レビュー→レビュー：11193_rebyuu⟧: review (loanword, used for books, products, etc.)\n- ⟦{批評|ひひょう}→批評：03581_hihyou⟧: criticism, critique (broader, not limited to books)\n- ⟦{感想|かんそう}{文|ぶん}→感想文：19527_kansoubun⟧: personal impressions/essay (less formal, subjective)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11193_rebyuu",
+      "reading": "れびゅー",
+      "headword": "レビュー",
+      "label": "review"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03581_hihyou",
+      "reading": "ひひょう",
+      "headword": "{批評|ひひょう}",
+      "label": "criticism, critique"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19527_kansoubun",
+      "reading": "かんそうぶん",
+      "headword": "{感想文|かんそうぶん}",
+      "label": "personal impressions/essay"
+    },
+    {
+      "type": "related",
+      "target_id": "18443_ronpyou",
+      "reading": "ろんぴょう",
+      "headword": "{論評|ろんぴょう}",
+      "label": "criticism"
+    }
+  ],
   "metadata": {
     "created": "2026-02-22T12:48:44Z",
-    "modified": "2026-02-22T12:48:44Z",
+    "modified": "2026-09-02T04:01:31Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["academic"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "academic"
+      ]
     }
   }
 }

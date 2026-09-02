@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "19028_shinseikatsu_ex1",
-      "japanese": "{四月|しがつ}から{新生活|しんせいかつ}が{始|はじ}まる。",
+      "japanese": "⟦{四月|しがつ}→四月：00668_shigatsu⟧⟦から→から：00504_kara⟧{新生活|しんせいかつ}⟦が→が：00051_ga⟧⟦{始|はじ}まる→始まる：00841_hajimaru⟧。",
       "english": "My new life begins in April.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "19028_shinseikatsu_ex2",
-      "japanese": "{新生活|しんせいかつ}に{必要|ひつよう}なものをそろえた。",
+      "japanese": "{新生活|しんせいかつ}⟦に→に：00314_ni⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧なもの⟦を→を：00422_wo⟧そろえた。",
       "english": "I prepared the things needed for my new life.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "19028_shinseikatsu_ex3",
-      "japanese": "{新生活|しんせいかつ}への{期待|きたい}と{不安|ふあん}が{入|い}り{混|ま}じっている。",
+      "japanese": "{新生活|しんせいかつ}⟦へ→へ：02473_he⟧⟦の→の：09472_no⟧⟦{期待|きたい}→期待：00238_kitai⟧⟦と→と：00512_to⟧⟦{不安|ふあん}→不安：00836_fuan⟧⟦が→が：00051_ga⟧⟦{入|い}り{混|ま}じっている→入り混じる：11626_irimajiru⟧。",
       "english": "Excitement and anxiety about the new life are mixed together.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,19 @@
       ]
     }
   ],
-  "notes": "CULTURE:\nIn Japan, April marks the start of the fiscal and academic year. {新生活|しんせいかつ} is closely associated with this season, when many people move, start new jobs, or enter school. Stores run {新生活|しんせいかつ}セール (new life sales) promoting furniture, appliances, and household goods.\n\nCOMMON COLLOCATIONS:\n- {新生活|しんせいかつ}を{始|はじ}める: to start a new life\n- {新生活|しんせいかつ}の{準備|じゅんび}: preparations for a new life\n- {新生活|しんせいかつ}セール: new-life sale\n- {新生活|しんせいかつ}{応援|おうえん}: new-life support (marketing term)",
-  "cross_references": [],
+  "notes": "CULTURAL NOTE:\nIn Japan, April marks the start of the fiscal and academic year. {新生活|しんせいかつ} is closely associated with this season, when many people move, start new jobs, or enter school. Stores run {新生活|しんせいかつ}⟦セール→セール：07780_seeru⟧ (new life sales) promoting furniture, appliances, and household goods.\n\nCOMMON COLLOCATIONS:\n- {新生活|しんせいかつ}⟦を→を：00422_wo⟧{始|はじ}める: to start a new life\n- {新生活|しんせいかつ}⟦の→の：09472_no⟧⟦{準備|じゅんび}→準備：01431_junbi⟧: preparations for a new life\n- {新生活|しんせいかつ}⟦セール→セール：07780_seeru⟧: new-life sale\n- {新生活|しんせいかつ}⟦{応援|おうえん}→応援：01900_ouen⟧: new-life support (marketing term)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "08332_gogatsubyou",
+      "reading": "ごがつびょう",
+      "headword": "{五月病|ごがつびょう}",
+      "label": "May blues"
+    }
+  ],
   "metadata": {
     "created": "2026-03-24T01:03:07Z",
-    "modified": "2026-07-26T09:39:42Z",
+    "modified": "2026-09-02T04:01:54Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

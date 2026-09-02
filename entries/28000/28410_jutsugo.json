@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28410_jutsugo_ex1",
-      "japanese": "{専門|せんもん}の{術語|じゅつご}を{覚|おぼ}える。",
+      "japanese": "⟦{専門|せんもん}→専門：01251_senmon⟧⟦の→の：09472_no⟧{術語|じゅつご}⟦を→を：00422_wo⟧⟦{覚|おぼ}える→覚える：00739_oboeru⟧。",
       "english": "Memorize the specialist terms of one's field.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28410_jutsugo_ex2",
-      "japanese": "この{論文|ろんぶん}は{術語|じゅつご}が{多|おお}くて{読|よ}みにくい。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{論文|ろんぶん}→論文：03787_ronbun⟧⟦は→は：00079_ha⟧{術語|じゅつご}⟦が→が：00051_ga⟧⟦{多|おお}くて→多い：01127_ooi⟧⟦{読|よ}み→読む：00426_yomu⟧にくい。",
       "english": "This paper is hard to read because it contains many technical terms.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28410_jutsugo_ex3",
-      "japanese": "{専門家以外|せんもんかいがい}にも{分|わ}かるように、{術語|じゅつご}を{簡単|かんたん}に{言|い}い{換|か}える{必要|ひつよう}がある。",
+      "japanese": "{専門家以外|せんもんかいがい}⟦に→に：00314_ni⟧⟦も→も：00484_mo⟧⟦{分|わ}かる→分かる：00463_wakaru⟧よう⟦に→に：00314_ni⟧、{術語|じゅつご}⟦を→を：00422_wo⟧⟦{簡単|かんたん}→簡単：00713_kantan⟧⟦に→に：00314_ni⟧⟦{言|い}い{換|か}える→言い換える：04595_iikaeru⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "We need to paraphrase the technical terms in simple words so non-specialists can understand.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {術|じゅつ} (art, technique) + {語|ご} (word).\n\nREGISTER:\nFormal and somewhat academic. In everyday speech, {専門用語|せんもんようご} is more common.\n\nCOMMON COLLOCATIONS:\n- {医学|いがく}の{術語|じゅつご}: medical terminology\n- {術語|じゅつご}を{使|つか}う: use technical terms\n- {術語|じゅつご}を{定義|ていぎ}する: define a technical term\n\nSIMILAR WORDS:\n- {専門用語|せんもんようご}: technical term — everyday equivalent; broader and more common\n- {用語|ようご}: term — general word for a name or label used in a field\n- {学術用語|がくじゅつようご}: academic term — specifically scholarly vocabulary",
+  "notes": "Compound of ⟦{術|じゅつ}→術：14265_jutsu⟧ (art, technique) + ⟦{語|ご}→〜語：09841_go⟧ (word).\n\nREGISTER:\nFormal and somewhat academic. In everyday speech, ⟦{専門用語|せんもんようご}→専門用語：22120_senmonyougo⟧ is more common.\n\nCOMMON COLLOCATIONS:\n- ⟦{医学|いがく}→医学：01301_igaku⟧⟦の→の：09472_no⟧{術語|じゅつご}: medical terminology\n- {術語|じゅつご}⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧: use technical terms\n- {術語|じゅつご}⟦を→を：00422_wo⟧⟦{定義|ていぎ}→定義：04789_teigi⟧⟦する→する：00392_suru⟧: define a technical term\n\nSIMILAR WORDS:\n- ⟦{専門用語|せんもんようご}→専門用語：22120_senmonyougo⟧: technical term — everyday equivalent; broader and more common\n- ⟦{用語|ようご}→用語：04086_yougo⟧: term — general word for a name or label used in a field\n- {学術用語|がくじゅつようご}: academic term — specifically scholarly vocabulary",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22120_senmonyougo",
+      "reading": "せんもんようご",
+      "headword": "{専門用語|せんもんようご}",
+      "label": "technical term"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04086_yougo",
+      "reading": "ようご",
+      "headword": "{用語|ようご}",
+      "label": "term"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26277_kagigo",
+      "reading": "かぎご",
+      "headword": "{鍵語|かぎご}",
+      "label": "keyword"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +76,7 @@
         "noun"
       ],
       "formality": "formal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "language",
         "education"
@@ -61,6 +84,6 @@
       "domain": []
     },
     "created": "2026-05-30T04:08:44Z",
-    "modified": "2026-08-08T18:34:17Z"
+    "modified": "2026-09-02T04:02:33Z"
   }
 }

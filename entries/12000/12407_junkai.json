@@ -3,7 +3,7 @@
   "id": "12407_junkai",
   "headword": "{巡回|じゅんかい}",
   "reading": "じゅんかい",
-  "part_of_speech": "noun / suru verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "patrol, making rounds",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "12407_junkai_ex1",
-      "japanese": "{警備員|けいびいん}が{巡回|じゅんかい}する。",
+      "japanese": "⟦{警備員|けいびいん}→警備員：09867_keibiin⟧⟦が→が：00051_ga⟧{巡回|じゅんかい}⟦する→する：00392_suru⟧。",
       "english": "The security guard makes rounds.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "12407_junkai_ex2",
-      "japanese": "{巡回|じゅんかい}バスが{町|まち}の{中|なか}を{走|はし}っている。",
+      "japanese": "{巡回|じゅんかい}⟦バス→バス：00769_basu⟧⟦が→が：00051_ga⟧⟦{町|まち}→町：00613_machi⟧⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧⟦を→を：00422_wo⟧⟦{走|はし}っている→走る：00519_hashiru⟧。",
       "english": "A shuttle bus runs through the town.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "12407_junkai_ex3",
-      "japanese": "あの{美術展|びじゅつてん}は{全国|ぜんこく}の{主要|しゅよう}{都市|とし}を{巡回|じゅんかい}しており、{来月|らいげつ}は{大阪|おおさか}で{開催|かいさい}される{予定|よてい}だ。",
+      "japanese": "⟦あの→あの：00915_ano⟧{美術展|びじゅつてん}⟦は→は：00079_ha⟧⟦{全国|ぜんこく}→全国：03311_zenkoku⟧⟦の→の：09472_no⟧⟦{主要|しゅよう}→主要：01649_shuyou⟧⟦{都市|とし}→都市：01477_toshi⟧⟦を→を：00422_wo⟧{巡回|じゅんかい}⟦して→する：00392_suru⟧おり、⟦{来月|らいげつ}→来月：00744_raigetsu⟧⟦は→は：00079_ha⟧⟦{大阪|おおさか}→大阪：09779_oosaka⟧⟦で→で：00502_de⟧⟦{開催|かいさい}される→開催する：10441_kaisaisuru⟧⟦{予定|よてい}→予定：00824_yotei⟧だ。",
       "english": "That art exhibition is touring major cities nationwide and is scheduled to be held in Osaka next month.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "STRUCTURE:\n{巡|じゅん} (go around, patrol) + {回|かい} (turn, rotate).\n\nUSAGE:\n{巡回|じゅんかい} is used both as a noun and as a する verb ({巡回|じゅんかい}する). It covers two main contexts: security or inspection patrols (police, guards making rounds), and traveling events (exhibitions, performances) that visit multiple locations.\n\nCOMMON COLLOCATIONS:\n- {巡回|じゅんかい}する: to patrol, to make rounds\n- {巡回|じゅんかい}{展|てん}: traveling exhibition\n- {巡回|じゅんかい}{公演|こうえん}: touring performance\n- {巡回|じゅんかい}バス: shuttle bus, circuit bus\n- {夜間|やかん}{巡回|じゅんかい}: night patrol",
+  "notes": "COMMON PATTERNS:\n{巡|じゅん} (go around, patrol) + ⟦{回|かい}→回：00957_kai⟧ (turn, rotate).\n\nUSAGE:\n{巡回|じゅんかい} is used both as a noun and as a ⟦する→する：00392_suru⟧ verb ({巡回|じゅんかい}⟦する→する：00392_suru⟧). It covers two main contexts: security or inspection patrols (police, guards making rounds), and traveling events (exhibitions, performances) that visit multiple locations.\n\nCOMMON COLLOCATIONS:\n- {巡回|じゅんかい}⟦する→する：00392_suru⟧: to patrol, to make rounds\n- {巡回|じゅんかい}⟦{展|てん}→〜展：28468_ten⟧: traveling exhibition\n- {巡回|じゅんかい}⟦{公演|こうえん}→公演：11639_kouen⟧: touring performance\n- {巡回|じゅんかい}⟦バス→バス：00769_basu⟧: shuttle bus, circuit bus\n- ⟦{夜間|やかん}→夜間：04133_yakan⟧{巡回|じゅんかい}: night patrol",
   "cross_references": [
     {
       "type": "related",
@@ -142,11 +142,18 @@
       "reading": "めぐる",
       "headword": "{巡|めぐ}る",
       "label": "to go around"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25376_junkansuru",
+      "reading": "じゅんかんする",
+      "headword": "{循環|じゅんかん}する",
+      "label": "to circulate"
     }
   ],
   "metadata": {
     "created": "2026-02-21T06:12:01Z",
-    "modified": "2026-04-26T10:06:49Z",
+    "modified": "2026-09-02T04:01:28Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

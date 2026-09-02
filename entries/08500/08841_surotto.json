@@ -19,7 +19,7 @@
   "examples": [
     {
       "id": "08841_surotto_ex1",
-      "japanese": "スロットで{遊|あそ}ぶ。",
+      "japanese": "スロット⟦で→で：00502_de⟧⟦{遊|あそ}ぶ→遊ぶ：00550_asobu⟧。",
       "english": "To play the slot machines.",
       "sense_numbers": [
         1
@@ -29,7 +29,7 @@
     },
     {
       "id": "08841_surotto_ex2",
-      "japanese": "スロットが{揃|そろ}った。",
+      "japanese": "スロット⟦が→が：00051_ga⟧⟦{揃|そろ}った→揃う：01953_sorou⟧。",
       "english": "The slot reels lined up (won).",
       "sense_numbers": [
         1
@@ -39,7 +39,7 @@
     },
     {
       "id": "08841_surotto_ex3",
-      "japanese": "パチンコ{店|てん}でスロットを{打|う}つ。",
+      "japanese": "⟦パチンコ→パチンコ：07325_pachinko⟧⟦{店|てん}→店：10011_ten⟧⟦で→で：00502_de⟧スロット⟦を→を：00422_wo⟧⟦{打|う}つ→打つ：01221_utsu⟧。",
       "english": "To play slots at a pachinko parlor.",
       "sense_numbers": [
         1
@@ -49,7 +49,7 @@
     },
     {
       "id": "08841_surotto_ex4",
-      "japanese": "メモリスロットに{挿入|そうにゅう}する。",
+      "japanese": "⟦メモリ→メモリ：04893_memori⟧スロット⟦に→に：00314_ni⟧⟦{挿入|そうにゅう}→挿入：12828_sounyuu⟧⟦する→する：00392_suru⟧。",
       "english": "To insert into the memory slot.",
       "sense_numbers": [
         2
@@ -59,7 +59,7 @@
     },
     {
       "id": "08841_surotto_ex5",
-      "japanese": "SDカードスロットがある。",
+      "japanese": "SD⟦カード→カード：03836_kaado⟧スロット⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "It has an SD card slot.",
       "sense_numbers": [
         2
@@ -69,7 +69,7 @@
     },
     {
       "id": "08841_surotto_ex6",
-      "japanese": "{拡張|かくちょう}スロットに{追加|ついか}する。",
+      "japanese": "⟦{拡張|かくちょう}→拡張：12812_kakuchou⟧スロット⟦に→に：00314_ni⟧⟦{追加|ついか}する→追加する：19646_tsuikasuru⟧。",
       "english": "To add to the expansion slot.",
       "sense_numbers": [
         2
@@ -78,7 +78,16 @@
       "notes": null
     }
   ],
-  "notes": "GAMBLING (SENSE 1):\nIn Japan, スロット typically refers to pachislot (パチスロ), which is found in pachinko parlors. Due to gambling laws, winnings are exchanged for prizes rather than cash directly.\n\nRELATED TERMS:\n- パチスロ - pachislot (パチンコスロット)\n- スロット{台|だい} - slot machine unit\n- スロットを{打|う}つ - to play slots\n- {大当|おおあ}たり / ジャックポット - jackpot\n\nTECHNOLOGY (SENSE 2):\n- SDカードスロット - SD card slot\n- メモリスロット - memory slot\n- {拡張|かくちょう}スロット - expansion slot\n- SIMスロット - SIM slot\n\nTIME SCHEDULING:\n- タイムスロット - time slot",
+  "notes": "GAMBLING (SENSE 1):\nIn Japan, スロット typically refers to pachislot (パチスロ), which is found in pachinko parlors. Due to gambling laws, winnings are exchanged for prizes rather than cash directly.\n\nRELATED WORDS:\n- パチスロ - pachislot (⟦パチンコ→パチンコ：07325_pachinko⟧スロット)\n- スロット{台|だい} - slot machine unit\n- スロット⟦を→を：00422_wo⟧⟦{打|う}つ→打つ：01221_utsu⟧ - to play slots\n- ⟦{大当|おおあ}たり→大当たり：15927_ooatari⟧ / ジャック⟦ポット→ポット：05286_potto⟧ - jackpot\n\nTECHNOLOGY (SENSE 2):\n- SD⟦カード→カード：03836_kaado⟧スロット - SD card slot\n- ⟦メモリ→メモリ：04893_memori⟧スロット - memory slot\n- ⟦{拡張|かくちょう}→拡張：12812_kakuchou⟧スロット - expansion slot\n- SIMスロット - SIM slot\n\nTIME SCHEDULING:\n- ⟦タイム→タイム：23539_taimu⟧スロット - time slot",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "15927_ooatari",
+      "reading": "おおあたり",
+      "headword": "{大当|おおあ}たり",
+      "label": "jackpot"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -93,6 +102,6 @@
       ]
     },
     "created": "2026-01-28T14:45:41Z",
-    "modified": "2026-08-12T12:52:42Z"
+    "modified": "2026-09-02T04:01:16Z"
   }
 }

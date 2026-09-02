@@ -15,41 +15,67 @@
   "examples": [
     {
       "id": "27566_mizuame_ex1",
-      "japanese": "{祭|まつり}りで{水飴|みずあめ}を{買|か}った。",
+      "japanese": "{祭|まつり}り⟦で→で：00502_de⟧{水飴|みずあめ}⟦を→を：00422_wo⟧⟦{買|か}った→買う：00489_kau⟧。",
       "english": "I bought some starch-syrup candy at the festival.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27566_mizuame_ex2",
-      "japanese": "{砂糖|さとう}の{代|か}わりに{水飴|みずあめ}を{使|つか}うとつやが{出|で}る。",
+      "japanese": "⟦{砂糖|さとう}→砂糖：00884_satou⟧⟦の→の：09472_no⟧⟦{代|か}わり→代わり：01296_kawari⟧⟦に→に：00314_ni⟧{水飴|みずあめ}⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧⟦と→と：00512_to⟧つや⟦が→が：00051_ga⟧⟦{出|で}る→出る：00513_deru⟧。",
       "english": "Using starch syrup instead of sugar gives the dish a glossy finish.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27566_mizuame_ex3",
-      "japanese": "{昔|むかし}は{駄菓子屋|だがしや}でわりばしに{巻|ま}いた{水飴|みずあめ}が{売|う}られていた。",
+      "japanese": "⟦{昔|むかし}→昔：01515_mukashi⟧⟦は→は：00079_ha⟧{駄菓子屋|だがしや}⟦で→で：00502_de⟧わりばし⟦に→に：00314_ni⟧⟦{巻|ま}いた→巻く：02418_maku⟧{水飴|みずあめ}⟦が→が：00051_ga⟧⟦{売|う}られていた→売る：00906_uru⟧。",
       "english": "In the old days, starch-syrup candy wound onto chopsticks was sold at cheap-candy shops.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Literally 'water candy' — {水|みず} (water) + {飴|あめ} (candy). The 'water' refers to its liquid, syrupy form rather than hard candy.\n\nCOMMON COLLOCATIONS:\n- {水飴|みずあめ}を{舐|な}める: to lick starch syrup\n- {水飴|みずあめ}を{加|くわ}える: to add starch syrup (in cooking)\n- {水飴|みずあめ}{状|じょう}: syrupy; like starch syrup\n\nCULTURAL CONTEXT:\nA classic festival treat in Japan, sometimes served wound around a chopstick or with shaved ice. Also a traditional sweetener that pre-dates refined sugar in Japanese cooking.\n\nSIMILAR WORDS:\n- {飴|あめ}: candy (general; usually hard candy)\n- シロップ: syrup (modern loanword, used for drinks and desserts)",
+  "notes": "Literally 'water candy' — ⟦{水|みず}→水：02258_mizu⟧ (water) + ⟦{飴|あめ}→飴：00687_ame⟧ (candy). The 'water' refers to its liquid, syrupy form rather than hard candy.\n\nCOMMON COLLOCATIONS:\n- {水飴|みずあめ}⟦を→を：00422_wo⟧⟦{舐|な}める→舐める：04399_nameru⟧: to lick starch syrup\n- {水飴|みずあめ}⟦を→を：00422_wo⟧⟦{加|くわ}える→加える：01941_kuwaeru⟧: to add starch syrup (in cooking)\n- {水飴|みずあめ}⟦{状|じょう}→状：09878_jou⟧: syrupy; like starch syrup\n\nCULTURAL NOTE:\nA classic festival treat in Japan, sometimes served wound around a chopstick or with shaved ice. Also a traditional sweetener that pre-dates refined sugar in Japanese cooking.\n\nSIMILAR WORDS:\n- ⟦{飴|あめ}→飴：00687_ame⟧: candy (general; usually hard candy)\n- ⟦シロップ→シロップ：21577_shiroppu⟧: syrup (modern loanword, used for drinks and desserts)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21577_shiroppu",
+      "reading": "しろっぷ",
+      "headword": "シロップ",
+      "label": "syrup"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24332_kuromitsu",
+      "reading": "くろみつ",
+      "headword": "{黒蜜|くろみつ}",
+      "label": "black sugar syrup"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["food"],
+      "politeness": "plain",
+      "semantic": [
+        "food"
+      ],
       "domain": []
     },
     "created": "2026-05-14T03:12:12Z",
-    "modified": "2026-05-14T03:12:12Z"
+    "modified": "2026-09-02T04:02:31Z"
   }
 }

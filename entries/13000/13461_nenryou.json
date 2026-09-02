@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "13461_nenryou_ex1",
-      "japanese": "{燃料|ねんりょう}が{足|た}りない。",
+      "japanese": "{燃料|ねんりょう}⟦が→が：00051_ga⟧⟦{足|た}りない→足りる：01209_tariru⟧。",
       "english": "There isn't enough fuel.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "13461_nenryou_ex2",
-      "japanese": "{飛行機|ひこうき}は{燃料|ねんりょう}を{補給|ほきゅう}するために{着陸|ちゃくりく}した。",
+      "japanese": "⟦{飛行機|ひこうき}→飛行機：00629_hikouki⟧⟦は→は：00079_ha⟧{燃料|ねんりょう}⟦を→を：00422_wo⟧⟦{補給|ほきゅう}→補給：14055_hokyuu⟧⟦する→する：00392_suru⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧⟦{着陸|ちゃくりく}→着陸：05982_chakuriku⟧⟦した→する：00392_suru⟧。",
       "english": "The airplane landed to refuel.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "13461_nenryou_ex3",
-      "japanese": "{化石|かせき}{燃料|ねんりょう}に{頼|たよ}らない{社会|しゃかい}を{目指|めざ}すべきだ。",
+      "japanese": "⟦{化石|かせき}→化石：11796_kaseki⟧{燃料|ねんりょう}⟦に→に：00314_ni⟧⟦{頼|たよ}らない→頼る：02069_tayoru⟧⟦{社会|しゃかい}→社会：01427_shakai⟧⟦を→を：00422_wo⟧⟦{目指|めざ}す→目指す：10528_mezasu⟧べきだ。",
       "english": "We should aim for a society that does not rely on fossil fuels.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,40 @@
       ]
     }
   ],
-  "notes": "{燃料|ねんりょう} is a general term for any substance burned to produce heat or power. It covers everything from gasoline and diesel to wood and nuclear material.\n\nCOMMON COLLOCATIONS:\n- {燃料|ねんりょう}を{補給|ほきゅう}する: to refuel\n- {燃料|ねんりょう}が{切|き}れる: to run out of fuel\n- {化石|かせき}{燃料|ねんりょう}: fossil fuel\n- {燃料|ねんりょう}{電池|でんち}: fuel cell\n- {燃料|ねんりょう}{費|ひ}: fuel cost\n- {燃料|ねんりょう}タンク: fuel tank\n- {核|かく}{燃料|ねんりょう}: nuclear fuel\n\nSIMILAR WORDS:\n- ガソリン: gasoline (a specific type of fuel)\n- {石油|せきゆ}: petroleum, oil (raw material, broader than fuel)\n- エネルギー: energy (the abstract concept, not the physical substance)\n\nUSAGE:\nFrequent in news about energy policy, environmental issues, and transportation. The compound {燃料|ねんりょう}{費|ひ} (fuel cost) is especially common when discussing car efficiency or airline expenses.",
-  "cross_references": [],
+  "notes": "{燃料|ねんりょう} is a general term for any substance burned to produce heat or power. It covers everything from gasoline and diesel to wood and nuclear material.\n\nCOMMON COLLOCATIONS:\n- {燃料|ねんりょう}⟦を→を：00422_wo⟧⟦{補給|ほきゅう}→補給：14055_hokyuu⟧⟦する→する：00392_suru⟧: to refuel\n- {燃料|ねんりょう}⟦が→が：00051_ga⟧⟦{切|き}れる→切れる：01936_kireru⟧: to run out of fuel\n- ⟦{化石|かせき}→化石：11796_kaseki⟧{燃料|ねんりょう}: fossil fuel\n- {燃料|ねんりょう}⟦{電池|でんち}→電池：01472_denchi⟧: fuel cell\n- {燃料|ねんりょう}{費|ひ}: fuel cost\n- {燃料|ねんりょう}⟦タンク→タンク：23095_tanku⟧: fuel tank\n- {核|かく}{燃料|ねんりょう}: nuclear fuel\n\nSIMILAR WORDS:\n- ⟦ガソリン→ガソリン：01346_gasorin⟧: gasoline (a specific type of fuel)\n- ⟦{石油|せきゆ}→石油：01448_sekiyu⟧: petroleum, oil (raw material, broader than fuel)\n- ⟦エネルギー→エネルギー：03834_enerugii⟧: energy (the abstract concept, not the physical substance)\n\nUSAGE:\nFrequent in news about energy policy, environmental issues, and transportation. The compound {燃料|ねんりょう}{費|ひ} (fuel cost) is especially common when discussing car efficiency or airline expenses.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01346_gasorin",
+      "reading": "がそりん",
+      "headword": "ガソリン",
+      "label": "gasoline"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01448_sekiyu",
+      "reading": "せきゆ",
+      "headword": "{石油|せきゆ}",
+      "label": "petroleum, oil"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03834_enerugii",
+      "reading": "えねるぎー",
+      "headword": "エネルギー",
+      "label": "energy"
+    },
+    {
+      "type": "related",
+      "target_id": "18969_nenpi",
+      "reading": "ねんぴ",
+      "headword": "{燃費|ねんぴ}",
+      "label": "fuel efficiency"
+    }
+  ],
   "metadata": {
     "created": "2026-02-24T13:29:04Z",
-    "modified": "2026-07-10T04:36:00Z",
+    "modified": "2026-09-02T04:01:33Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

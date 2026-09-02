@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29096_kaiyou_ex1",
-      "japanese": "{胃|い}{潰瘍|かいよう}と{診断|しんだん}された。",
+      "japanese": "{胃|い}{潰瘍|かいよう}⟦と→と：00512_to⟧⟦{診断|しんだん}→診断：04209_shindan⟧⟦された→する：00392_suru⟧。",
       "english": "I was diagnosed with a gastric ulcer.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29096_kaiyou_ex2",
-      "japanese": "{潰瘍|かいよう}が{悪化|あっか}して{入院|にゅういん}することになった。",
+      "japanese": "{潰瘍|かいよう}⟦が→が：00051_ga⟧⟦{悪化|あっか}して→悪化する：18844_akkasuru⟧⟦{入院|にゅういん}する→入院する：01849_nyuuinsuru⟧ことになった。",
       "english": "The ulcer worsened and I had to be hospitalized.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29096_kaiyou_ex3",
-      "japanese": "{胃|い}{潰瘍|かいよう}はストレスや{暴飲暴食|ぼういんぼうしょく}が{原因|げんいん}になることが{多|おお}い。",
+      "japanese": "{胃|い}{潰瘍|かいよう}⟦は→は：00079_ha⟧⟦ストレス→ストレス：03827_sutoresu⟧や⟦{暴飲暴食|ぼういんぼうしょく}→暴飲暴食：08061_bouinboushoku⟧⟦が→が：00051_ga⟧⟦{原因|げんいん}→原因：01400_genin⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧こと⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "Gastric ulcers are often caused by stress and excessive eating and drinking.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Standard medical term for ulcers of various types.\n\nCOMMON TYPES:\n- {胃|い}{潰瘍|かいよう}: gastric ulcer\n- {十二指腸|じゅうにしちょう}{潰瘍|かいよう}: duodenal ulcer\n- {口内|こうない}{潰瘍|かいよう}: oral ulcer, mouth sore\n- {皮膚|ひふ}{潰瘍|かいよう}: skin ulcer\n\nNOTE: The homophone {海洋|かいよう} (ocean) has the same pronunciation — context distinguishes them.",
+  "notes": "Standard medical term for ulcers of various types.\n\nTYPES:\n- {胃|い}{潰瘍|かいよう}: gastric ulcer\n- ⟦{十二指腸|じゅうにしちょう}→十二指腸：29068_juunishichou⟧{潰瘍|かいよう}: duodenal ulcer\n- {口内|こうない}{潰瘍|かいよう}: oral ulcer, mouth sore\n- ⟦{皮膚|ひふ}→皮膚：03987_hifu⟧{潰瘍|かいよう}: skin ulcer\n\nNOTE: The homophone ⟦{海洋|かいよう}→海洋：00143_kaiyou⟧ (ocean) has the same pronunciation — context distinguishes them.",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,7 +53,7 @@
         "noun"
       ],
       "formality": "formal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "health"
       ],
@@ -62,6 +62,6 @@
       ]
     },
     "created": "2026-06-10T12:34:55Z",
-    "modified": "2026-08-09T06:33:11Z"
+    "modified": "2026-09-02T04:02:35Z"
   }
 }

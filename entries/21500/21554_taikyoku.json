@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21554_taikyoku_ex1",
-      "japanese": "{大局|たいきょく}を{見|み}て{判断|はんだん}する。",
+      "japanese": "{大局|たいきょく}⟦を→を：00422_wo⟧⟦{見|み}て→見る：00283_miru⟧⟦{判断|はんだん}する→判断する：06062_handansuru⟧。",
       "english": "To judge by looking at the big picture.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21554_taikyoku_ex2",
-      "japanese": "{大局|たいきょく}{的|てき}な{視点|してん}が{必要|ひつよう}だ。",
+      "japanese": "{大局|たいきょく}⟦{的|てき}→〜的：09839_teki⟧な⟦{視点|してん}→視点：03187_shiten⟧⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧だ。",
       "english": "A big-picture perspective is necessary.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21554_taikyoku_ex3",
-      "japanese": "{細|こま}かいことにこだわらず、{大局|たいきょく}を{見失|みうしな}わないようにしなければならない。",
+      "japanese": "⟦{細|こま}かい→細かい：01245_komakai⟧こと⟦に→に：00314_ni⟧⟦こだわら→こだわる：10319_kodawaru⟧ず、{大局|たいきょく}⟦を→を：00422_wo⟧⟦{見失|みうしな}わない→見失う：14129_miushinau⟧ようにし⟦なければならない→なければならない：27600_nakerebanaranai⟧。",
       "english": "We must not get caught up in the details and lose sight of the big picture.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {大|たい} (big) and {局|きょく} (situation, phase). Used for strategic thinking where one steps back from details to consider the whole.\n\nCOMMON COLLOCATIONS:\n- {大局|たいきょく}を{見|み}る: to look at the big picture\n- {大局|たいきょく}{的|てき}: big-picture, from an overall perspective\n- {大局|たいきょく}を{見失|みうしな}う: to lose sight of the big picture\n- {大局|たいきょく}{観|かん}: a broad perspective\n- {大局|たいきょく}に{立|た}つ: to take a big-picture standpoint\n\nUSAGE:\nOften used in business, politics, and strategic discussions. The derived form {大局|たいきょく}{的|てき} (big-picture, overall) is very common as an adjectival modifier.\n\nSIMILAR WORDS:\n- {全体|ぜんたい}: the whole — more concrete, refers to all parts combined\n- {大局|たいきょく}: big picture — strategic overview, more abstract\n- {全貌|ぜんぼう}: full picture — complete view of something being investigated\n- {概観|がいかん}: general survey — an overview or broad look\n\nNOTE:\nThe homophone {対局|たいきょく} means a game (of go, shogi, etc.) — completely different meaning.",
+  "notes": "Composed of {大|たい} (big) and ⟦{局|きょく}→局：02687_kyoku⟧ (situation, phase). Used for strategic thinking where one steps back from details to consider the whole.\n\nCOMMON COLLOCATIONS:\n- {大局|たいきょく}⟦を→を：00422_wo⟧⟦{見|み}る→見る：00283_miru⟧: to look at the big picture\n- {大局|たいきょく}⟦{的|てき}→〜的：09839_teki⟧: big-picture, from an overall perspective\n- {大局|たいきょく}⟦を→を：00422_wo⟧⟦{見失|みうしな}う→見失う：14129_miushinau⟧: to lose sight of the big picture\n- {大局|たいきょく}{観|かん}: a broad perspective\n- {大局|たいきょく}⟦に→に：00314_ni⟧⟦{立|た}つ→立つ：00758_tatsu⟧: to take a big-picture standpoint\n\nUSAGE:\nOften used in business, politics, and strategic discussions. The derived form {大局|たいきょく}⟦{的|てき}→〜的：09839_teki⟧ (big-picture, overall) is very common as an adjectival modifier.\nThe homophone ⟦{対局|たいきょく}→対局：17420_taikyoku⟧ means a game (of go, shogi, etc.) — completely different meaning.\n\nSIMILAR WORDS:\n- ⟦{全体|ぜんたい}→全体：03314_zentai⟧: the whole — more concrete, refers to all parts combined\n- {大局|たいきょく}: big picture — strategic overview, more abstract\n- ⟦{全貌|ぜんぼう}→全貌：21553_zenbou⟧: full picture — complete view of something being investigated\n- {概観|がいかん}: general survey — an overview or broad look",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03314_zentai",
+      "reading": "ぜんたい",
+      "headword": "{全体|ぜんたい}",
+      "label": "the whole"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21553_zenbou",
+      "reading": "ぜんぼう",
+      "headword": "{全貌|ぜんぼう}",
+      "label": "full picture"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +76,6 @@
       ]
     },
     "created": "2026-04-02T16:15:29Z",
-    "modified": "2026-07-29T12:35:11Z"
+    "modified": "2026-09-02T04:02:04Z"
   }
 }

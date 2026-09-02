@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "13895_hantaiji_ex1",
-      "japanese": "{台湾|たいわん}では{繁体字|はんたいじ}が{使|つか}われている。",
+      "japanese": "{台湾|たいわん}⟦で→で：00502_de⟧⟦は→は：00079_ha⟧{繁体字|はんたいじ}⟦が→が：00051_ga⟧⟦{使|つか}われている→使う：00473_tsukau⟧。",
       "english": "Traditional characters are used in Taiwan.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "13895_hantaiji_ex2",
-      "japanese": "{繁体字|はんたいじ}は{画数|かくすう}が{多|おお}くて{書|か}くのが{難|むずか}しい。",
+      "japanese": "{繁体字|はんたいじ}⟦は→は：00079_ha⟧⟦{画数|かくすう}→画数：13581_kakusuu⟧⟦が→が：00051_ga⟧⟦{多|おお}くて→多い：01127_ooi⟧⟦{書|か}く→書く：00477_kaku⟧⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦{難|むずか}しい→難しい：00517_muzukashii⟧。",
       "english": "Traditional characters have many strokes and are difficult to write.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "13895_hantaiji_ex3",
-      "japanese": "{日本|にほん}の{漢字|かんじ}は{繁体字|はんたいじ}に{近|ちか}いものが{多|おお}いが、{独自|どくじ}の{略字|りゃくじ}もある。",
+      "japanese": "⟦{日本|にほん}→日本：03876_nihon⟧⟦の→の：09472_no⟧⟦{漢字|かんじ}→漢字：09480_kanji⟧⟦は→は：00079_ha⟧{繁体字|はんたいじ}⟦に→に：00314_ni⟧⟦{近|ちか}い→近い：00530_chikai⟧もの⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧⟦が→が：00051_ga⟧、⟦{独自|どくじ}→独自：05614_dokuji⟧⟦の→の：09472_no⟧{略字|りゃくじ}⟦も→も：00484_mo⟧⟦ある→ある：00006_aru⟧。",
       "english": "Many Japanese kanji are close to traditional characters, but there are also uniquely simplified forms.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,19 @@
       ]
     }
   ],
-  "notes": "USAGE:\nAlso called {正体字|せいたいじ} (standard-form characters) in Taiwan. Japanese kanji overlap significantly with traditional characters but are not identical — Japan carried out its own simplification reforms after World War II.\n\nCOMMON COLLOCATIONS:\n- {繁体字|はんたいじ}で{書|か}く: to write in traditional characters\n- {繁体字|はんたいじ}{圏|けん}: traditional character regions\n- {繁体字|はんたいじ}{表記|ひょうき}: traditional character notation",
-  "cross_references": [],
+  "notes": "USAGE:\nAlso called {正体字|せいたいじ} (standard-form characters) in Taiwan. Japanese kanji overlap significantly with traditional characters but are not identical — Japan carried out its own simplification reforms after World War II.\n\nCOMMON COLLOCATIONS:\n- {繁体字|はんたいじ}⟦で→で：00502_de⟧⟦{書|か}く→書く：00477_kaku⟧: to write in traditional characters\n- {繁体字|はんたいじ}⟦{圏|けん}→圏：21183_ken⟧: traditional character regions\n- {繁体字|はんたいじ}⟦{表記|ひょうき}→表記：14123_hyouki⟧: traditional character notation",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "27161_kyuujitai",
+      "reading": "きゅうじたい",
+      "headword": "{旧字体|きゅうじたい}",
+      "label": "old-form kanji"
+    }
+  ],
   "metadata": {
     "created": "2026-02-27T06:29:44Z",
-    "modified": "2026-04-11T02:03:14Z",
+    "modified": "2026-09-02T04:01:35Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

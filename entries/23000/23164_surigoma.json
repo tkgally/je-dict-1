@@ -15,40 +15,66 @@
   "examples": [
     {
       "id": "23164_surigoma_ex1",
-      "japanese": "サラダにすりごまをかける。",
+      "japanese": "⟦サラダ→サラダ：01364_sarada⟧⟦に→に：00314_ni⟧すりごま⟦を→を：00422_wo⟧⟦かける→かける：00854_kakeru⟧。",
       "english": "Sprinkle ground sesame on the salad.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "23164_surigoma_ex2",
-      "japanese": "{胡麻|ごま}{和|あ}えにはすりごまを{使|つか}う。",
+      "japanese": "⟦{胡麻|ごま}→胡麻：10337_goma⟧{和|あ}え⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧すりごま⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧。",
       "english": "Ground sesame is used for sesame-dressed vegetables.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "23164_surigoma_ex3",
-      "japanese": "すりごまは{風味|ふうみ}が{良|よ}いので、{味噌汁|みそしる}の{仕上|しあ}げにも{合|あ}う。",
+      "japanese": "すりごま⟦は→は：00079_ha⟧⟦{風味|ふうみ}→風味：14622_fuumi⟧⟦が→が：00051_ga⟧⟦{良|よ}い→良い：02350_yoi⟧⟦の→の：09472_no⟧で、⟦{味噌汁|みそしる}→味噌汁：04954_misoshiru⟧⟦の→の：09472_no⟧⟦{仕上|しあ}げ→仕上げ：11519_shiage⟧⟦に→に：00314_ni⟧⟦も→も：00484_mo⟧⟦{合|あ}う→合う：10466_au⟧。",
       "english": "Ground sesame has great flavor, so it also works well as a finishing touch for miso soup.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Written as すりごま (hiragana) or {擂|す}り{胡麻|ごま} (kanji). Made by grinding {胡麻|ごま} (sesame seeds) in a {擂|す}り{鉢|ばち} (mortar). Pre-ground sesame is also sold in supermarkets.\n\nSESAME FORMS IN JAPANESE COOKING:\n- {炒|い}りごま: toasted whole sesame seeds\n- すりごま: ground sesame seeds\n- {練|ね}りごま: sesame paste (tahini-like)\n- ごま{油|あぶら}: sesame oil\n\nCOMMON COLLOCATIONS:\n- すりごまをかける: to sprinkle ground sesame\n- すりごまを{混|ま}ぜる: to mix in ground sesame\n- {胡麻|ごま}{和|あ}え: sesame-dressed vegetables (made with ground sesame)\n- すりごまで{和|あ}える: to dress with ground sesame\n\nSIMILAR WORDS:\n- {炒|い}りごま: toasted sesame — whole seeds that have been dry-roasted; crunchy texture\n- {練|ね}りごま: sesame paste — ground further into a smooth paste; used in sauces and dressings\n- ごま: sesame — the general term for sesame seeds",
+  "notes": "Written as すりごま (hiragana) or {擂|す}り⟦{胡麻|ごま}→胡麻：10337_goma⟧ (kanji). Made by grinding ⟦{胡麻|ごま}→胡麻：10337_goma⟧ (sesame seeds) in a ⟦{擂|す}り{鉢|ばち}→擂り鉢：07504_suribachi⟧ (mortar). Pre-ground sesame is also sold in supermarkets.\n\nSESAME FORMS IN JAPANESE COOKING:\n- ⟦{炒|い}りごま→炒りごま：23447_irigoma⟧: toasted whole sesame seeds\n- すりごま: ground sesame seeds\n- ⟦{練|ね}り→練る：09751_neru⟧ごま: sesame paste (tahini-like)\n- ごま⟦{油|あぶら}→油：01693_abura⟧: sesame oil\n\nCOMMON COLLOCATIONS:\n- すりごま⟦を→を：00422_wo⟧⟦かける→かける：00854_kakeru⟧: to sprinkle ground sesame\n- すりごま⟦を→を：00422_wo⟧⟦{混|ま}ぜる→混ぜる：02423_mazeru⟧: to mix in ground sesame\n- ⟦{胡麻|ごま}→胡麻：10337_goma⟧{和|あ}え: sesame-dressed vegetables (made with ground sesame)\n- すりごま⟦で→で：00502_de⟧⟦{和|あ}える→和える：05824_aeru⟧: to dress with ground sesame\n\nSIMILAR WORDS:\n- ⟦{炒|い}りごま→炒りごま：23447_irigoma⟧: toasted sesame — whole seeds that have been dry-roasted; crunchy texture\n- ⟦{練|ね}り→練る：09751_neru⟧ごま: sesame paste — ground further into a smooth paste; used in sauces and dressings\n- ごま: sesame — the general term for sesame seeds",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23447_irigoma",
+      "reading": "いりごま",
+      "headword": "{炒|い}りごま",
+      "label": "toasted sesame"
+    },
+    {
+      "type": "related",
+      "target_id": "23454_shirogoma",
+      "reading": "しろごま",
+      "headword": "{白|しろ}ごま",
+      "label": "white sesame seeds"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food"]
+      "semantic": [
+        "food"
+      ]
     },
     "created": "2026-04-08T20:40:07Z",
-    "modified": "2026-04-08T20:40:07Z"
+    "modified": "2026-09-02T04:02:11Z"
   }
 }

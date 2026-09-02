@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "27648_rokujuunichi_ex1",
-      "japanese": "{支払|しはら}いは{六十日|ろくじゅうにち}{以内|いない}にお{願|ねが}いします。",
+      "japanese": "{支払|しはら}い⟦は→は：00079_ha⟧{六十日|ろくじゅうにち}⟦{以内|いない}→以内：01317_inai⟧⟦に→に：00314_ni⟧お{願|ねが}いします。",
       "english": "Please make payment within sixty days.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "27648_rokujuunichi_ex2",
-      "japanese": "ビザの{有効期間|ゆうこうきかん}は{六十日|ろくじゅうにち}{間|かん}だ。",
+      "japanese": "⟦ビザ→ビザ：08283_biza⟧⟦の→の：09472_no⟧{有効期間|ゆうこうきかん}⟦は→は：00079_ha⟧{六十日|ろくじゅうにち}{間|かん}だ。",
       "english": "The visa is valid for sixty days.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "27648_rokujuunichi_ex3",
-      "japanese": "{契約書|けいやくしょ}には{六十日|ろくじゅうにち}{前|まえ}までに{解約|かいやく}を{通知|つうち}するよう{書|か}かれている。",
+      "japanese": "⟦{契約書|けいやくしょ}→契約書：06416_keiyakusho⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{六十日|ろくじゅうにち}⟦{前|まえ}→前：02255_mae⟧⟦まで→まで：00490_made⟧⟦に→に：00314_ni⟧⟦{解約|かいやく}→解約：06129_kaiyaku⟧⟦を→を：00422_wo⟧⟦{通知|つうち}する→通知する：19645_tsuuchisuru⟧よう⟦{書|か}かれている→書く：00477_kaku⟧。",
       "english": "The contract states that cancellation must be given at least sixty days in advance.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "{六十|ろくじゅう} (sixty) + {日|にち} (day). For 'sixty days' as a duration, the form {六十日間|ろくじゅうにちかん} with {間|かん} is also common when clarity is needed.\n\nUSAGE: 60 days is a standard interval in many Japanese administrative and business contexts:\n- {支払期限|しはらいきげん}: payment terms (often 30, 60, or 90 days)\n- {予告期間|よこくきかん}: notice periods for contract changes\n- {有効期間|ゆうこうきかん}: validity periods for some visas and permits\n\nRELATED:\n- {三十日|さんじゅうにち}: thirty days\n- {九十日|きゅうじゅうにち}: ninety days\n- {二|に}ヶ{月|げつ}: two months — approximately equivalent in everyday speech",
+  "notes": "{六十|ろくじゅう} (sixty) + ⟦{日|にち}→日：12732_nichi⟧ (day). For 'sixty days' as a duration, the form {六十日間|ろくじゅうにちかん} with ⟦{間|かん}→〜間：28469_kan⟧ is also common when clarity is needed.\n\nUSAGE: 60 days is a standard interval in many Japanese administrative and business contexts:\n- {支払期限|しはらいきげん}: payment terms (often 30, 60, or 90 days)\n- {予告期間|よこくきかん}: notice periods for contract changes\n- {有効期間|ゆうこうきかん}: validity periods for some visas and permits\n\nRELATED WORDS:\n- {三十日|さんじゅうにち}: thirty days\n- {九十日|きゅうじゅうにち}: ninety days\n- ⟦{二|に}→二：00736_ni⟧ヶ{月|げつ}: two months — approximately equivalent in everyday speech",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,13 +53,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "time-general"
       ],
       "domain": []
     },
     "created": "2026-05-15T04:12:19Z",
-    "modified": "2026-08-07T15:50:37Z"
+    "modified": "2026-09-02T04:02:31Z"
   }
 }

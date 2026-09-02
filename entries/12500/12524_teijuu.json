@@ -3,7 +3,7 @@
   "id": "12524_teijuu",
   "headword": "{定住|ていじゅう}",
   "reading": "ていじゅう",
-  "part_of_speech": "noun / suru verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "permanent residence, settling down",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "12524_teijuu_ex1",
-      "japanese": "この{町|まち}に{定住|ていじゅう}する。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{町|まち}→町：00613_machi⟧⟦に→に：00314_ni⟧{定住|ていじゅう}⟦する→する：00392_suru⟧。",
       "english": "Settle down in this town.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "12524_teijuu_ex2",
-      "japanese": "{外国人|がいこくじん}の{定住|ていじゅう}{促進|そくしん}{策|さく}が{議論|ぎろん}されている。",
+      "japanese": "⟦{外国人|がいこくじん}→外国人：02869_gaikokujin⟧⟦の→の：09472_no⟧{定住|ていじゅう}⟦{促進|そくしん}→促進：05632_sokushin⟧⟦{策|さく}→策：09997_saku⟧⟦が→が：00051_ga⟧⟦{議論|ぎろん}→議論：02650_giron⟧⟦されている→する：00392_suru⟧。",
       "english": "Measures to promote permanent settlement of foreigners are being discussed.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "12524_teijuu_ex3",
-      "japanese": "{縄文|じょうもん}{時代|じだい}の{人々|ひとびと}は{狩猟|しゅりょう}{採集|さいしゅう}をしながらも、ある{程度|ていど}{定住|ていじゅう}{生活|せいかつ}を{送|おく}っていた。",
+      "japanese": "⟦{縄文|じょうもん}{時代|じだい}→縄文時代：18895_joumonjidai⟧⟦の→の：09472_no⟧⟦{人々|ひとびと}→人々：03141_hitobito⟧⟦は→は：00079_ha⟧⟦{狩猟|しゅりょう}→狩猟：13507_shuryou⟧⟦{採集|さいしゅう}→採集：00355_saishuu⟧⟦を→を：00422_wo⟧し⟦ながら→ながら：10530_nagara⟧⟦も→も：00484_mo⟧、⟦ある→ある：00006_aru⟧⟦{程度|ていど}→程度：01468_teido⟧{定住|ていじゅう}⟦{生活|せいかつ}→生活：01443_seikatsu⟧⟦を→を：00422_wo⟧⟦{送|おく}っていた→送る：00742_okuru⟧。",
       "english": "People in the Jomon period led a somewhat settled lifestyle while practicing hunting and gathering.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,19 @@
       ]
     }
   ],
-  "notes": "USAGE:\nUsed as a noun or with する as a verb. Common in discussions of migration, regional policy, and historical anthropology. Local governments in Japan often use this term in policies aimed at attracting and retaining residents.\n\nCOMMON COLLOCATIONS:\n- {定住|ていじゅう}{促進|そくしん}: settlement promotion\n- {定住|ていじゅう}{人口|じんこう}: resident population\n- {定住|ていじゅう}{生活|せいかつ}: settled lifestyle\n- {定住|ていじゅう}{者|しゃ}: permanent resident, settler\n- {定住|ていじゅう}{外国人|がいこくじん}: foreign permanent resident",
-  "cross_references": [],
+  "notes": "USAGE:\nUsed as a noun or with ⟦する→する：00392_suru⟧ as a verb. Common in discussions of migration, regional policy, and historical anthropology. Local governments in Japan often use this term in policies aimed at attracting and retaining residents.\n\nCOMMON COLLOCATIONS:\n- {定住|ていじゅう}⟦{促進|そくしん}→促進：05632_sokushin⟧: settlement promotion\n- {定住|ていじゅう}⟦{人口|じんこう}→人口：01618_jinkou⟧: resident population\n- {定住|ていじゅう}⟦{生活|せいかつ}→生活：01443_seikatsu⟧: settled lifestyle\n- {定住|ていじゅう}{者|しゃ}: permanent resident, settler\n- {定住|ていじゅう}⟦{外国人|がいこくじん}→外国人：02869_gaikokujin⟧: foreign permanent resident",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24901_joujuu",
+      "reading": "じょうじゅう",
+      "headword": "{常住|じょうじゅう}",
+      "label": "permanent residence"
+    }
+  ],
   "metadata": {
     "created": "2026-02-21T11:55:02Z",
-    "modified": "2026-07-06T12:49:19Z",
+    "modified": "2026-09-02T04:01:29Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

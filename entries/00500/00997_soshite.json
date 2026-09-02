@@ -18,7 +18,9 @@
       "english": "And then I went home.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "00997_soshite_ex2",
@@ -26,7 +28,9 @@
       "english": "I ate breakfast. And then I went to school.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "00997_soshite_ex3",
@@ -34,7 +38,9 @@
       "english": "He is smart. And he is kind.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "00997_soshite_ex4",
@@ -42,7 +48,9 @@
       "english": "I studied, worked, and then went to sleep.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "00997_soshite_ex5",
@@ -50,10 +58,12 @@
       "english": "At first it was difficult. And it also took time. But in the end I did it.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "そして is a conjunction meaning 'and' or 'and then,' connecting sentences to show sequence or addition.\n\nPOSITION:\nUsed at the beginning of a new sentence (not within a sentence).\n\nSIMILAR CONJUNCTIONS:\n- そして: and, and then (neutral)\n- ⟦それから→それから：00996_sorekara⟧: after that, and then (more casual, sequential)\n- ⟦また→また：00969_mata⟧: also, moreover (additive)\n- ⟦さらに→更に：03817_sarani⟧: furthermore (formal, emphatic)\n\nEXAMPLE PATTERN:\n[Sentence A]\u3002そして、[Sentence B]\u3002\n⟦{食|た}べた→食べる：00396_taberu⟧。そして、⟦{寝|ね}た→寝る：00470_neru⟧。(I ate. And then I slept.)\n\nNOTE:\nMore formal/written than ⟦それから→それから：00996_sorekara⟧. Often used in storytelling.",
+  "notes": "そして is a conjunction meaning 'and' or 'and then,' connecting sentences to show sequence or addition.\n\nPOSITION IN SENTENCE:\nUsed at the beginning of a new sentence (not within a sentence).\n\nSIMILAR CONJUNCTIONS:\n- そして: and, and then (neutral)\n- ⟦それから→それから：00996_sorekara⟧: after that, and then (more casual, sequential)\n- ⟦また→また：00969_mata⟧: also, moreover (additive)\n- ⟦さらに→更に：03817_sarani⟧: furthermore (formal, emphatic)\n\nEXAMPLE PATTERN:\n[Sentence A]。そして、[Sentence B]。\n⟦{食|た}べた→食べる：00396_taberu⟧。そして、⟦{寝|ね}た→寝る：00470_neru⟧。(I ate. And then I slept.)\n\nUSAGE:\nMore formal/written than ⟦それから→それから：00996_sorekara⟧. Often used in storytelling.",
   "cross_references": [
     {
       "type": "synonym",
@@ -68,11 +78,39 @@
       "reading": "また",
       "headword": "また",
       "label": "also, moreover"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03817_sarani",
+      "reading": "さらに",
+      "headword": "{更|さら}に",
+      "label": "furthermore"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02943_soushite",
+      "reading": "そうして",
+      "headword": "そうして",
+      "label": "and, and then"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06931_hiiteha",
+      "reading": "ひいては",
+      "headword": "ひいては",
+      "label": "and eventually, by extension, furthermore"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19906_katsu",
+      "reading": "かつ",
+      "headword": "かつ",
+      "label": "and, moreover, at the same time"
     }
   ],
   "metadata": {
     "created": "2026-01-07T12:51:46Z",
-    "modified": "2026-04-01T01:21:38Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

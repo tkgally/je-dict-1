@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "18310_hikeme_ex1",
-      "japanese": "{学歴|がくれき}に{引|ひ}け{目|め}を{感|かん}じる。",
+      "japanese": "⟦{学歴|がくれき}→学歴：02628_gakureki⟧⟦に→に：00314_ni⟧{引|ひ}け{目|め}⟦を→を：00422_wo⟧⟦{感|かん}じる→感じる：02044_kanjiru⟧。",
       "english": "I feel inferior about my educational background.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "18310_hikeme_ex2",
-      "japanese": "{何|なに}も{引|ひ}け{目|め}に{感|かん}じることはない。",
+      "japanese": "⟦{何|なに}も→何も：03874_nanimo⟧{引|ひ}け{目|め}⟦に→に：00314_ni⟧⟦{感|かん}じる→感じる：02044_kanjiru⟧こと⟦は→は：00079_ha⟧⟦ない→ない：01118_nai⟧。",
       "english": "There's nothing to feel inferior about.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "18310_hikeme_ex3",
-      "japanese": "{周|まわ}りが{優秀|ゆうしゅう}な{人|ひと}ばかりで、いつも{引|ひ}け{目|め}を{感|かん}じていた。",
+      "japanese": "⟦{周|まわ}り→周り：01732_mawari⟧⟦が→が：00051_ga⟧⟦{優秀|ゆうしゅう}→優秀：03646_yuushuu⟧な⟦{人|ひと}→人：00476_hito⟧⟦ばかり→〜ばかり：02006_bakari⟧で、⟦いつも→いつも：00599_itsumo⟧{引|ひ}け{目|め}⟦を→を：00422_wo⟧⟦{感|かん}じていた→感じる：02044_kanjiru⟧。",
       "english": "Everyone around me was so talented that I always felt inadequate.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nAlmost always used with を{感|かん}じる. Expresses a subjective feeling of being at a disadvantage or not being good enough compared to others. Not as strong as {劣等感|れっとうかん} (inferiority complex).\n\nCOMMON COLLOCATIONS:\n- {引|ひ}け{目|め}を{感|かん}じる (to feel inferior)\n- {引|ひ}け{目|め}がない (to have no sense of inadequacy)\n- {引|ひ}け{目|め}を{取|と}らない (to be no less than, to hold one's own)\n\nSIMILAR WORDS:\n- {劣等感|れっとうかん}: inferiority complex — stronger and more psychological\n- {負|ま}い{目|め}: feeling of guilt, sense of obligation — involves moral responsibility rather than comparison",
+  "notes": "USAGE:\nAlmost always used with ⟦を→を：00422_wo⟧⟦{感|かん}じる→感じる：02044_kanjiru⟧. Expresses a subjective feeling of being at a disadvantage or not being good enough compared to others. Not as strong as ⟦{劣等感|れっとうかん}→劣等感：05954_rettoukan⟧ (inferiority complex).\n\nCOMMON COLLOCATIONS:\n- {引|ひ}け{目|め}⟦を→を：00422_wo⟧⟦{感|かん}じる→感じる：02044_kanjiru⟧ (to feel inferior)\n- {引|ひ}け{目|め}⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧ (to have no sense of inadequacy)\n- {引|ひ}け{目|め}⟦を→を：00422_wo⟧⟦{取|と}らない→取る：00565_toru⟧ (to be no less than, to hold one's own)\n\nSIMILAR WORDS:\n- ⟦{劣等感|れっとうかん}→劣等感：05954_rettoukan⟧: inferiority complex — stronger and more psychological\n- {負|ま}い{目|め}: feeling of guilt, sense of obligation — involves moral responsibility rather than comparison",
   "cross_references": [
     {
       "type": "synonym",
@@ -52,11 +52,18 @@
       "reading": "れっとうかん",
       "headword": "{劣等感|れっとうかん}",
       "label": "inferiority complex (stronger)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10863_konpurekkusu",
+      "reading": "こんぷれっくす",
+      "headword": "コンプレックス",
+      "label": "complex, insecurity, hang-up"
     }
   ],
   "metadata": {
     "created": "2026-03-21T09:09:03Z",
-    "modified": "2026-05-08T08:12:00Z",
+    "modified": "2026-09-02T04:01:51Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

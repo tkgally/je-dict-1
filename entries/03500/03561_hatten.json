@@ -2,7 +2,7 @@
   "id": "03561_hatten",
   "headword": "{発展|はってん}",
   "reading": "はってん",
-  "part_of_speech": "noun, suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "development, growth, progress",
   "conjugation": {
     "type": "suru",
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "USAGE: {発展|はってん} emphasizes broader societal, economic, or relational progress. Compare with ⟦{発達|はったつ}→発達：03559_hattatsu⟧ which focuses on organic/individual development.\n\nCOMMON PATTERNS:\n・{発展|はってん}⟦する→する：00392_suru⟧ (to develop, to expand)\n・{発展|はってん}⟦させる→する：00392_suru⟧ (to develop something)\n・{発展|はってん}に⟦{貢献|こうけん}→貢献：02737_kouken⟧⟦する→する：00392_suru⟧ (to contribute to development)\n\nCOMMON COMPOUNDS:\n・{発展|はってん}⟦{途上国|とじょうこく}→途上国：14424_tojoukoku⟧ (developing country)\n・⟦{経済|けいざい}→経済：01394_keizai⟧{発展|はってん} (economic development)\n・⟦{持続|じぞく}{可能|かのう}→持続可能：04637_jizokukanou⟧な{発展|はってん} (sustainable development)\n\nCONTRAST:\n・{発展|はってん} - development (scale, society, relationships)\n・⟦{発達|はったつ}→発達：03559_hattatsu⟧ - development (organic, individual)\n・⟦{開発|かいはつ}→開発：06746_kaihatsu⟧ - development (creating new things)\n・⟦{進歩|しんぽ}→進歩：03265_shinpo⟧ - progress",
+  "notes": "USAGE: {発展|はってん} emphasizes broader societal, economic, or relational progress. Compare with ⟦{発達|はったつ}→発達：03559_hattatsu⟧ which focuses on organic/individual development.\n\nCOMMON PATTERNS:\n- {発展|はってん}⟦する→する：00392_suru⟧ (to develop, to expand)\n- {発展|はってん}⟦させる→する：00392_suru⟧ (to develop something)\n- {発展|はってん}⟦に→に：00314_ni⟧⟦{貢献|こうけん}→貢献：02737_kouken⟧⟦する→する：00392_suru⟧ (to contribute to development)\n\nCOMPOUNDS:\n- {発展|はってん}⟦{途上国|とじょうこく}→途上国：14424_tojoukoku⟧ (developing country)\n- ⟦{経済|けいざい}→経済：01394_keizai⟧{発展|はってん} (economic development)\n- ⟦{持続|じぞく}{可能|かのう}→持続可能：04637_jizokukanou⟧な{発展|はってん} (sustainable development)\n\nSIMILAR WORDS:\n- {発展|はってん} - development (scale, society, relationships)\n- ⟦{発達|はったつ}→発達：03559_hattatsu⟧ - development (organic, individual)\n- ⟦{開発|かいはつ}→開発：06746_kaihatsu⟧ - development (creating new things)\n- ⟦{進歩|しんぽ}→進歩：03265_shinpo⟧ - progress",
   "cross_references": [
     {
       "type": "related",
@@ -155,11 +155,67 @@
       "reading": "てんかい",
       "headword": "{展開|てんかい}",
       "label": "development, expansion"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03265_shinpo",
+      "reading": "しんぽ",
+      "headword": "{進歩|しんぽ}",
+      "label": "progress"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02731_koujou",
+      "reading": "こうじょう",
+      "headword": "{向上|こうじょう}",
+      "label": "improvement, advancement"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03758_zenshin",
+      "reading": "ぜんしん",
+      "headword": "{前進|ぜんしん}",
+      "label": "advance, progress"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06029_shinka",
+      "reading": "しんか",
+      "headword": "{進化|しんか}",
+      "label": "evolution"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07427_teitai",
+      "reading": "ていたい",
+      "headword": "{停滞|ていたい}",
+      "label": "stagnation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07428_suitai",
+      "reading": "すいたい",
+      "headword": "{衰退|すいたい}",
+      "label": "decline"
+    },
+    {
+      "type": "related",
+      "target_id": "07429_yakushin",
+      "reading": "やくしん",
+      "headword": "{躍進|やくしん}",
+      "label": "rapid advance"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20453_keizaiseichou",
+      "reading": "けいざいせいちょう",
+      "headword": "{経済成長|けいざいせいちょう}",
+      "label": "economic growth"
     }
   ],
   "metadata": {
     "created": "2026-01-12T11:32:00Z",
-    "modified": "2026-06-01T13:09:35Z",
+    "modified": "2026-09-02T04:01:03Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -172,7 +228,8 @@
       "semantic": [
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

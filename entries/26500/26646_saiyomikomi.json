@@ -3,7 +3,7 @@
   "headword": "{再読|さいよ}み{込|こ}み",
   "reading": "さいよみこみ",
   "romaji": "saiyomikomi",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "reload; refresh; re-reading (data)",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26646_saiyomikomi_ex1",
-      "japanese": "ページの{再読|さいよ}み{込|こ}みをしてください。",
+      "japanese": "⟦ページ→ページ：02961_peeji⟧⟦の→の：09472_no⟧{再読|さいよ}み{込|こ}み⟦を→を：00422_wo⟧⟦して→する：00392_suru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please reload the page.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26646_saiyomikomi_ex2",
-      "japanese": "{画面|がめん}が{正|ただ}しく{表示|ひょうじ}されないときは、{再読|さいよ}み{込|こ}みを{試|ため}してみよう。",
+      "japanese": "⟦{画面|がめん}→画面：04406_gamen⟧⟦が→が：00051_ga⟧⟦{正|ただ}しく→正しい：00893_tadashii⟧⟦{表示|ひょうじ}されない→表示する：26973_hyoujisuru⟧とき⟦は→は：00079_ha⟧、{再読|さいよ}み{込|こ}み⟦を→を：00422_wo⟧⟦{試|ため}して→試す：02130_tamesu⟧みよう。",
       "english": "When the screen doesn't display correctly, try doing a reload.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26646_saiyomikomi_ex3",
-      "japanese": "ブラウザの{再読|さいよ}み{込|こ}みボタンを{押|お}すか、F5キーを{押|お}すと{最新|さいしん}の{情報|じょうほう}に{更新|こうしん}される。",
+      "japanese": "⟦ブラウザ→ブラウザ：04872_burauza⟧⟦の→の：09472_no⟧{再読|さいよ}み{込|こ}み⟦ボタン→ボタン：02963_botan⟧⟦を→を：00422_wo⟧⟦{押|お}す→押す：02854_osu⟧⟦か→か：09473_ka⟧、F5⟦キー→キー：10869_kii⟧⟦を→を：00422_wo⟧⟦{押|お}す→押す：02854_osu⟧⟦と→と：00512_to⟧⟦{最新|さいしん}→最新：04831_saishin⟧⟦の→の：09472_no⟧⟦{情報|じょうほう}→情報：03348_jouhou⟧⟦に→に：00314_ni⟧⟦{更新|こうしん}される→更新する：27994_koushinsuru⟧。",
       "english": "Pressing the browser's reload button or the F5 key will update the information to the latest version.",
       "sense_numbers": [
         1
@@ -44,8 +44,23 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {再|さい} (again, re-) and {読|よ}み{込|こ}み (reading/loading in). A common computing term that appears in web browsers, applications, and technical documentation. The verb form is {再読|さいよ}み{込|こ}みする.\n\nCOMMON COLLOCATIONS:\n- {再読|さいよ}み{込|こ}みする: to reload, to refresh\n- {再読|さいよ}み{込|こ}みボタン: reload/refresh button\n- {自動|じどう}{再読|さいよ}み{込|こ}み: auto-refresh\n- {強制|きょうせい}{再読|さいよ}み{込|こ}み: hard reload/force refresh\n\nSIMILAR WORDS:\n- {更新|こうしん}: update — a broader term covering any kind of update, not limited to reloading\n- リロード: reload — the English loanword, used more casually in tech contexts\n- リフレッシュ: refresh — the English loanword for refresh",
-  "cross_references": [],
+  "notes": "Composed of ⟦{再|さい}→再〜：03953_sai⟧ (again, re-) and ⟦{読|よ}み{込|こ}み→読み込み：09224_yomikomi⟧ (reading/loading in). A common computing term that appears in web browsers, applications, and technical documentation. The verb form is {再読|さいよ}み{込|こ}み⟦する→する：00392_suru⟧.\n\nCOMMON COLLOCATIONS:\n- {再読|さいよ}み{込|こ}み⟦する→する：00392_suru⟧: to reload, to refresh\n- {再読|さいよ}み{込|こ}み⟦ボタン→ボタン：02963_botan⟧: reload/refresh button\n- ⟦{自動|じどう}→自動：03339_jidou⟧{再読|さいよ}み{込|こ}み: auto-refresh\n- ⟦{強制|きょうせい}→強制：12500_kyousei⟧{再読|さいよ}み{込|こ}み: hard reload/force refresh\n\nSIMILAR WORDS:\n- ⟦{更新|こうしん}→更新：04765_koushin⟧: update — a broader term covering any kind of update, not limited to reloading\n- リロード: reload — the English loanword, used more casually in tech contexts\n- ⟦リフレッシュ→リフレッシュ：11261_rifuresshu⟧: refresh — the English loanword for refresh",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04765_koushin",
+      "reading": "こうしん",
+      "headword": "{更新|こうしん}",
+      "label": "update"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11261_rifuresshu",
+      "reading": "りふれっしゅ",
+      "headword": "リフレッシュ",
+      "label": "refresh"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -65,7 +80,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-03T16:12:02Z",
-    "modified": "2026-05-03T16:12:02Z"
+    "modified": "2026-09-02T04:02:27Z"
   },
   "conjugation": {
     "type": "suru",

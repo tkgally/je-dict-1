@@ -3,8 +3,31 @@
   "id": "21853_gosui",
   "headword": "{午睡|ごすい}",
   "reading": "ごすい",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "afternoon nap; siesta",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00106_hirune",
+      "reading": "ひるね",
+      "headword": "{昼寝|ひるね}",
+      "label": "daytime nap"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08333_kamin",
+      "reading": "かみん",
+      "headword": "{仮眠|かみん}",
+      "label": "short nap, catnap"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01822_inemuri",
+      "reading": "いねむり",
+      "headword": "{居眠|いねむ}り",
+      "label": "dozing off"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -12,6 +35,7 @@
         "noun",
         "verb-suru"
       ],
+      "politeness": "plain",
       "semantic": [
         "daily-life",
         "health"
@@ -19,9 +43,9 @@
       "verb_class": "suru"
     },
     "created": "2026-04-03T19:21:58Z",
-    "modified": "2026-04-03T19:21:58Z"
+    "modified": "2026-09-02T04:02:05Z"
   },
-  "notes": "A literary or formal word for an afternoon nap. Composed of {午|ご} (noon) and {睡|すい} (sleep). Commonly used in childcare settings for scheduled nap time. In everyday speech, {昼寝|ひるね} is more common.\n\nCOMMON COLLOCATIONS:\n- {午睡|ごすい}をとる: to take an afternoon nap\n- {午睡|ごすい}の{時間|じかん}: nap time\n- {午睡|ごすい}から{覚|さ}める: to wake from an afternoon nap\n\nSIMILAR WORDS:\n- {昼寝|ひるね}: daytime nap — the everyday equivalent, much more common in casual speech\n- {仮眠|かみん}: short nap, catnap — emphasizes brevity, used at any time of day\n- {居眠|いねむ}り: dozing off — unintentional napping, especially while sitting",
+  "notes": "A literary or formal word for an afternoon nap. Composed of {午|ご} (noon) and {睡|すい} (sleep). Commonly used in childcare settings for scheduled nap time. In everyday speech, ⟦{昼寝|ひるね}→昼寝：00106_hirune⟧ is more common.\n\nCOMMON COLLOCATIONS:\n- {午睡|ごすい}⟦を→を：00422_wo⟧とる: to take an afternoon nap\n- {午睡|ごすい}⟦の→の：09472_no⟧⟦{時間|じかん}→時間：00468_jikan⟧: nap time\n- {午睡|ごすい}⟦から→から：00504_kara⟧⟦{覚|さ}める→覚める：02058_sameru⟧: to wake from an afternoon nap\n\nSIMILAR WORDS:\n- ⟦{昼寝|ひるね}→昼寝：00106_hirune⟧: daytime nap — the everyday equivalent, much more common in casual speech\n- ⟦{仮眠|かみん}→仮眠：08333_kamin⟧: short nap, catnap — emphasizes brevity, used at any time of day\n- ⟦{居眠|いねむ}り→居眠り：01822_inemuri⟧: dozing off — unintentional napping, especially while sitting",
   "conjugation": {
     "type": "suru",
     "forms": [
@@ -122,7 +146,7 @@
   "examples": [
     {
       "id": "21853_gosui_ex1",
-      "japanese": "{午睡|ごすい}をとる。",
+      "japanese": "{午睡|ごすい}⟦を→を：00422_wo⟧とる。",
       "english": "To take an afternoon nap.",
       "sense_numbers": [
         1
@@ -132,7 +156,7 @@
     },
     {
       "id": "21853_gosui_ex2",
-      "japanese": "{子供|こども}たちが{午睡|ごすい}している。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧たち⟦が→が：00051_ga⟧{午睡|ごすい}⟦している→する：00392_suru⟧。",
       "english": "The children are having their afternoon nap.",
       "sense_numbers": [
         1
@@ -142,7 +166,7 @@
     },
     {
       "id": "21853_gosui_ex3",
-      "japanese": "{保育園|ほいくえん}では{午後|ごご}に{午睡|ごすい}の{時間|じかん}が{設|もう}けられている。",
+      "japanese": "⟦{保育園|ほいくえん}→保育園：04704_hoikuen⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{午後|ごご}→午後：00544_gogo⟧⟦に→に：00314_ni⟧{午睡|ごすい}⟦の→の：09472_no⟧⟦{時間|じかん}→時間：00468_jikan⟧⟦が→が：00051_ga⟧⟦{設|もう}けられている→設ける：14220_moukeru⟧。",
       "english": "At daycare, an afternoon nap time is provided.",
       "sense_numbers": [
         1

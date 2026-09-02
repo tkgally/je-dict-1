@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29128_bihaindo_ex1",
-      "japanese": "3{点|てん}ビハインドだ。",
+      "japanese": "3⟦{点|てん}→点：01553_ten⟧ビハインドだ。",
       "english": "They're trailing by 3 points.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29128_bihaindo_ex2",
-      "japanese": "ビハインドを{背負|せお}いながら{逆転|ぎゃくてん}を{狙|ねら}う。",
+      "japanese": "ビハインド⟦を→を：00422_wo⟧⟦{背負|せお}い→背負う：16159_seou⟧⟦ながら→ながら：10530_nagara⟧⟦{逆転|ぎゃくてん}→逆転：06839_gyakuten⟧⟦を→を：00422_wo⟧⟦{狙|ねら}う→狙う：00313_nerau⟧。",
       "english": "While trailing, they aim for a comeback.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29128_bihaindo_ex3",
-      "japanese": "{大幅|おおはば}なビハインドから{追|お}いついてみせた{選手|せんしゅ}たちの{粘|ねば}りは{見事|みごと}だった。",
+      "japanese": "⟦{大幅|おおはば}→大幅：12170_oohaba⟧なビハインド⟦から→から：00504_kara⟧{追|お}いついてみせた⟦{選手|せんしゅ}→選手：03823_senshu⟧たち⟦の→の：09472_no⟧{粘|ねば}り⟦は→は：00079_ha⟧⟦{見事|みごと}→見事：03744_migoto⟧だった。",
       "english": "The tenacity of the players who came back from a large deficit was impressive.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Sports jargon for trailing in score. Most commonly heard in baseball, soccer, and other score-based sports broadcasting.\n\nCOMMON COLLOCATIONS:\n- ～{点|てん}ビハインド: trailing by ~ points/runs\n- ビハインドを{背負|せお}う: to carry a deficit; to be trailing\n- ビハインドから{逆転|ぎゃくてん}: a comeback from behind\n- 大ビハインド: a large deficit\n\nSIMILAR WORDS:\n- スランプ: slump — refers to a sustained period of poor form, not a point deficit in a specific game\n- {劣勢|れっせい}: disadvantage — broader term for being at a disadvantage; not score-specific",
+  "notes": "Sports jargon for trailing in score. Most commonly heard in baseball, soccer, and other score-based sports broadcasting.\n\nCOMMON COLLOCATIONS:\n- ～⟦{点|てん}→点：01553_ten⟧ビハインド: trailing by ~ points/runs\n- ビハインド⟦を→を：00422_wo⟧⟦{背負|せお}う→背負う：16159_seou⟧: to carry a deficit; to be trailing\n- ビハインド⟦から→から：00504_kara⟧⟦{逆転|ぎゃくてん}→逆転：06839_gyakuten⟧: a comeback from behind\n- 大ビハインド: a large deficit\n\nSIMILAR WORDS:\n- ⟦スランプ→スランプ：29125_suranpu⟧: slump — refers to a sustained period of poor form, not a point deficit in a specific game\n- ⟦{劣勢|れっせい}→劣勢：08647_ressei⟧: disadvantage — broader term for being at a disadvantage; not score-specific",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "29125_suranpu",
+      "reading": "すらんぷ",
+      "headword": "スランプ",
+      "label": "slump"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08647_ressei",
+      "reading": "れっせい",
+      "headword": "{劣勢|れっせい}",
+      "label": "disadvantage"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +69,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "leisure"
       ],
       "domain": []
     },
     "created": "2026-06-11T11:38:25Z",
-    "modified": "2026-06-11T11:47:28Z"
+    "modified": "2026-09-02T04:02:36Z"
   }
 }

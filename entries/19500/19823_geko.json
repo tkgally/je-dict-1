@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "19823_geko_ex1",
-      "japanese": "{私|わたし}は{下戸|げこ}です。",
+      "japanese": "⟦{私|わたし}→私：02988_watashi⟧⟦は→は：00079_ha⟧{下戸|げこ}です。",
       "english": "I don't drink alcohol.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "19823_geko_ex2",
-      "japanese": "{下戸|げこ}だから{飲|の}み{会|かい}はちょっと{苦手|にがて}だ。",
+      "japanese": "{下戸|げこ}だ⟦から→から：00504_kara⟧⟦{飲|の}み{会|かい}→飲み会：09371_nomikai⟧⟦は→は：00079_ha⟧⟦ちょっと→ちょっと：00595_chotto⟧⟦{苦手|にがて}→苦手：03513_nigate⟧だ。",
       "english": "I'm a non-drinker, so drinking parties are a bit tough for me.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "19823_geko_ex3",
-      "japanese": "{彼|かれ}は{下戸|げこ}なのに{飲|の}み{会|かい}の{幹事|かんじ}をいつも{引|ひ}き{受|う}けてくれる。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{下戸|げこ}な⟦の→の：09472_no⟧⟦に→に：00314_ni⟧⟦{飲|の}み{会|かい}→飲み会：09371_nomikai⟧⟦の→の：09472_no⟧⟦{幹事|かんじ}→幹事：16378_kanji⟧⟦を→を：00422_wo⟧⟦いつも→いつも：00599_itsumo⟧⟦{引|ひ}き{受|う}けて→引き受ける：03140_hikiukeru⟧⟦くれる→くれる：00724_kureru⟧。",
       "english": "Even though he's a non-drinker, he always takes on the role of organizer for drinking parties.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,19 @@
       ]
     }
   ],
-  "notes": "A traditional word for someone who cannot or does not drink alcohol. The term is not derogatory and is often used by non-drinkers to describe themselves.\n\nCOMMON COLLOCATIONS:\n- {下戸|げこ}だから — because I'm a non-drinker\n- {下戸|げこ}でも{楽|たの}しめる — enjoyable even for non-drinkers\n- {生|う}まれつきの{下戸|げこ} — a born non-drinker\n\nOPPOSITE:\n- {上戸|じょうご} — a heavy drinker, someone who can hold their liquor\n\nETYMOLOGY:\nOriginally referred to lower-ranking households in the old tax system, which were allotted less sake. The ranking system gave more sake to higher-ranking ({上戸|じょうご}) households and less to lower-ranking ({下戸|げこ}) ones.\n\nCULTURAL NOTE:\nIn Japan's drinking culture, being a {下戸|げこ} can feel socially awkward at company events ({飲|の}み{会|かい}), though attitudes have become more accepting in recent years.",
-  "cross_references": [],
+  "notes": "A traditional word for someone who cannot or does not drink alcohol. The term is not derogatory and is often used by non-drinkers to describe themselves.\n\nCOMMON COLLOCATIONS:\n- {下戸|げこ}だ⟦から→から：00504_kara⟧ — because I'm a non-drinker\n- {下戸|げこ}⟦で→で：00502_de⟧⟦も→も：00484_mo⟧⟦{楽|たの}しめる→楽しむ：01203_tanoshimu⟧ — enjoyable even for non-drinkers\n- ⟦{生|う}まれつき→生まれつき：21201_umaretsuki⟧⟦の→の：09472_no⟧{下戸|げこ} — a born non-drinker\n\nSIMILAR WORDS:\n- {上戸|じょうご} — a heavy drinker, someone who can hold their liquor\n\nETYMOLOGY:\nOriginally referred to lower-ranking households in the old tax system, which were allotted less sake. The ranking system gave more sake to higher-ranking ({上戸|じょうご}) households and less to lower-ranking ({下戸|げこ}) ones.\n\nCULTURAL NOTE:\nIn Japan's drinking culture, being a {下戸|げこ} can feel socially awkward at company events (⟦{飲|の}み{会|かい}→飲み会：09371_nomikai⟧), though attitudes have become more accepting in recent years.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "26473_utou",
+      "reading": "うとう",
+      "headword": "{右党|うとう}",
+      "label": "tea drinker"
+    }
+  ],
   "metadata": {
     "created": "2026-03-27T02:08:03Z",
-    "modified": "2026-07-27T12:42:09Z",
+    "modified": "2026-09-02T04:01:57Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

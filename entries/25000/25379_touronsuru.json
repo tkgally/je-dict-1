@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25379_touronsuru_ex1",
-      "japanese": "この{問題|もんだい}について{討論|とうろん}する。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{問題|もんだい}→問題：00797_mondai⟧⟦について→〜について：03103_nitsuite⟧{討論|とうろん}する。",
       "english": "To debate this issue.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25379_touronsuru_ex2",
-      "japanese": "{国会|こっかい}で{法案|ほうあん}について{討論|とうろん}が{行|おこな}われた。",
+      "japanese": "⟦{国会|こっかい}→国会：02761_kokkai⟧⟦で→で：00502_de⟧⟦{法案|ほうあん}→法案：09758_houan⟧⟦について→〜について：03103_nitsuite⟧⟦{討論|とうろん}→討論：05100_touron⟧⟦が→が：00051_ga⟧⟦{行|おこな}われた→行う：01238_okonau⟧。",
       "english": "A debate on the bill was held in the Diet.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25379_touronsuru_ex3",
-      "japanese": "{学生|がくせい}たちは{環境|かんきょう}{問題|もんだい}について{活発|かっぱつ}に{討論|とうろん}した。",
+      "japanese": "⟦{学生|がくせい}→学生：00610_gakusei⟧たち⟦は→は：00079_ha⟧⟦{環境|かんきょう}{問題|もんだい}→環境問題：10136_kankyoumondai⟧⟦について→〜について：03103_nitsuite⟧⟦{活発|かっぱつ}→活発：13272_kappatsu⟧⟦に→に：00314_ni⟧{討論|とうろん}した。",
       "english": "The students debated environmental issues vigorously.",
       "sense_numbers": [
         1
@@ -45,7 +45,7 @@
     },
     {
       "id": "25379_touronsuru_ex4",
-      "japanese": "{賛成派|さんせいは}と{反対派|はんたいは}が{討論|とうろん}{番組|ばんぐみ}で{対決|たいけつ}した。",
+      "japanese": "⟦{賛成派|さんせいは}→賛成派：30540_sanseiha⟧⟦と→と：00512_to⟧⟦{反対派|はんたいは}→反対派：30532_hantaiha⟧⟦が→が：00051_ga⟧⟦{討論|とうろん}→討論：05100_touron⟧⟦{番組|ばんぐみ}→番組：01705_bangumi⟧⟦で→で：00502_de⟧⟦{対決|たいけつ}→対決：12392_taiketsu⟧⟦した→する：00392_suru⟧。",
       "english": "The proponents and opponents faced off on a debate program.",
       "sense_numbers": [
         1
@@ -54,8 +54,31 @@
       "notes": null
     }
   ],
-  "notes": "Implies a formal, structured exchange with opposing viewpoints. More confrontational and formal than {議論|ぎろん}, which can be more collaborative. Often associated with parliamentary debate, academic discussion, and TV debate shows.\n\nCOMMON COLLOCATIONS:\n- {討論会|とうろんかい}: debate meeting, forum\n- {討論|とうろん}{番組|ばんぐみ}: debate program\n- {党首|とうしゅ}{討論|とうろん}: party leaders' debate\n- {活発|かっぱつ}な{討論|とうろん}: lively debate\n- {公開|こうかい}{討論|とうろん}: public debate\n\nSIMILAR WORDS:\n- {議論|ぎろん}する: to discuss, to argue — broader; can be collaborative discussion or heated argument\n- {話|はな}し{合|あ}う: to talk it over — implies cooperative discussion to reach agreement\n- {論争|ろんそう}する: to dispute, to be in controversy — implies prolonged, unresolved disagreement",
+  "notes": "Implies a formal, structured exchange with opposing viewpoints. More confrontational and formal than ⟦{議論|ぎろん}→議論：02650_giron⟧, which can be more collaborative. Often associated with parliamentary debate, academic discussion, and TV debate shows.\n\nCOMMON COLLOCATIONS:\n- ⟦{討論会|とうろんかい}→討論会：25422_touronkai⟧: debate meeting, forum\n- ⟦{討論|とうろん}→討論：05100_touron⟧⟦{番組|ばんぐみ}→番組：01705_bangumi⟧: debate program\n- ⟦{党首|とうしゅ}→党首：17742_toushu⟧⟦{討論|とうろん}→討論：05100_touron⟧: party leaders' debate\n- ⟦{活発|かっぱつ}→活発：13272_kappatsu⟧な⟦{討論|とうろん}→討論：05100_touron⟧: lively debate\n- ⟦{公開|こうかい}→公開：11665_koukai⟧⟦{討論|とうろん}→討論：05100_touron⟧: public debate\n\nSIMILAR WORDS:\n- ⟦{議論|ぎろん}する→議論する：06058_gironsuru⟧: to discuss, to argue — broader; can be collaborative discussion or heated argument\n- ⟦{話|はな}し{合|あ}う→話し合う：02396_hanashiau⟧: to talk it over — implies cooperative discussion to reach agreement\n- ⟦{論争|ろんそう}→論争：03786_ronsou⟧⟦する→する：00392_suru⟧: to dispute, to be in controversy — implies prolonged, unresolved disagreement",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06058_gironsuru",
+      "reading": "ぎろんする",
+      "headword": "{議論|ぎろん}する",
+      "label": "to discuss, to argue"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02396_hanashiau",
+      "reading": "はなしあう",
+      "headword": "{話|はな}し{合|あ}う",
+      "label": "to talk it over"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03786_ronsou",
+      "reading": "ろんそう",
+      "headword": "{論争|ろんそう}",
+      "label": "to dispute, to be in controversy"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -72,7 +95,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-24T16:19:19Z",
-    "modified": "2026-04-24T16:19:19Z"
+    "modified": "2026-09-02T04:02:22Z"
   },
   "conjugation": {
     "type": "suru",

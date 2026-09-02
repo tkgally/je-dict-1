@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "10479_shabushabu_ex1",
-      "japanese": "{今夜|こんや}はしゃぶしゃぶにしよう。",
+      "japanese": "⟦{今夜|こんや}→今夜：01411_konya⟧⟦は→は：00079_ha⟧しゃぶしゃぶ⟦に→に：00314_ni⟧⟦しよう→する：00392_suru⟧。",
       "english": "Let's have shabu-shabu tonight.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "10479_shabushabu_ex2",
-      "japanese": "{薄切|うすぎ}りの{肉|にく}をしゃぶしゃぶにした。",
+      "japanese": "⟦{薄切|うすぎ}り→薄切り：07475_usugiri⟧⟦の→の：09472_no⟧⟦{肉|にく}→肉：02240_niku⟧⟦を→を：00422_wo⟧しゃぶしゃぶにした。",
       "english": "We had shabu-shabu with thinly sliced meat.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "10479_shabushabu_ex3",
-      "japanese": "{冬|ふゆ}は{家族|かぞく}みんなでしゃぶしゃぶを{囲|かこ}むのが{楽|たの}しみだ。",
+      "japanese": "⟦{冬|ふゆ}→冬：00623_fuyu⟧⟦は→は：00079_ha⟧⟦{家族|かぞく}→家族：00552_kazoku⟧⟦みんな→みんな：02972_minna⟧⟦で→で：00502_de⟧しゃぶしゃぶ⟦を→を：00422_wo⟧⟦{囲|かこ}む→囲む：02037_kakomu⟧⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦{楽|たの}しみ→楽しみ：01651_tanoshimi⟧だ。",
       "english": "In winter, I look forward to gathering around shabu-shabu with the whole family.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,47 @@
       ]
     }
   ],
-  "notes": "The name しゃぶしゃぶ is onomatopoeia for the sound of swishing thin meat slices back and forth in hot broth.\n\nHOW IT IS EATEN:\nThin slices of beef or pork are briefly dipped in boiling broth (usually kombu-based) until just cooked, then dipped in ponzu or sesame sauce.\n\nCOMMON COLLOCATIONS:\n- しゃぶしゃぶ{用|よう}の{肉|にく}: meat for shabu-shabu\n- しゃぶしゃぶ{鍋|なべ}: shabu-shabu pot\n- {豚|ぶた}しゃぶ: pork shabu-shabu\n\nRELATED:\n- すき{焼|や}き: sukiyaki (another hot pot dish, sweeter broth)\n- {鍋|なべ}: hot pot (general term)",
-  "cross_references": [],
+  "notes": "The name しゃぶしゃぶ is onomatopoeia for the sound of swishing thin meat slices back and forth in hot broth.\n\nHOW IT IS EATEN:\nThin slices of beef or pork are briefly dipped in boiling broth (usually kombu-based) until just cooked, then dipped in ponzu or sesame sauce.\n\nCOMMON COLLOCATIONS:\n- しゃぶしゃぶ⟦{用|よう}→〜用：09842_you⟧⟦の→の：09472_no⟧⟦{肉|にく}→肉：02240_niku⟧: meat for shabu-shabu\n- しゃぶしゃぶ⟦{鍋|なべ}→鍋：01038_nabe⟧: shabu-shabu pot\n- {豚|ぶた}しゃぶ: pork shabu-shabu\n\nRELATED WORDS:\n- ⟦すき{焼|や}き→すき焼き：10368_sukiyaki⟧: sukiyaki (another hot pot dish, sweeter broth)\n- ⟦{鍋|なべ}→鍋：01038_nabe⟧: hot pot (general term)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "10368_sukiyaki",
+      "reading": "すきやき",
+      "headword": "すき{焼|や}き",
+      "label": "sukiyaki"
+    },
+    {
+      "type": "related",
+      "target_id": "01038_nabe",
+      "reading": "なべ",
+      "headword": "{鍋|なべ}",
+      "label": "hot pot"
+    },
+    {
+      "type": "related",
+      "target_id": "22816_yosenabe",
+      "reading": "よせなべ",
+      "headword": "{寄|よ}せ{鍋|なべ}",
+      "label": "mixed hot pot"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26092_hinabe",
+      "reading": "ひなべ",
+      "headword": "{火鍋|ひなべ}",
+      "label": "Chinese hot pot"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28920_mizutaki",
+      "reading": "みずたき",
+      "headword": "{水炊|みずた}き",
+      "label": "mizutaki (chicken hot pot)"
+    }
+  ],
   "metadata": {
     "created": "2026-02-07T21:20:27Z",
-    "modified": "2026-06-27T03:38:18Z",
+    "modified": "2026-09-02T04:01:21Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

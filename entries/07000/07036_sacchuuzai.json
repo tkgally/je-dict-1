@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{殺虫剤|さっちゅうざい} is insecticide — a product that kills insects, as opposed to one that merely keeps them away. Formation: ⟦{殺虫|さっちゅう}→殺虫：24750_sacchuu⟧ 'killing insects' + {剤|ざい} 'agent'.\n\nForms sold in Japan:\n- ⟦スプレー→スプレー：11581_supuree⟧⟦{式|しき}→式：noentry⟧: aerosol spray, the everyday kind\n- ⟦{煙|けむり}→煙：02705_kemuri⟧⟦タイプ→タイプ：01534_taipu⟧: fumigators, set off in a sealed room and left for hours\n- ⟦{置|お}き→置く：01092_oku⟧⟦{型|がた}→型：02146_kata⟧: bait traps and plug-in units left in place\n\nCollocations:\n- {殺虫剤|さっちゅうざい}⟦を→を：00422_wo⟧⟦{撒|ま}く→撒く：12711_maku⟧: to spread insecticide over an area\n- {殺虫剤|さっちゅうざい}⟦を→を：00422_wo⟧⟦かける→かける：00854_kakeru⟧: to spray it directly onto an insect\n\nCompare ⟦{防虫剤|ぼうちゅうざい}→防虫剤：24303_bouchuuzai⟧, which repels rather than kills — mothballs and drawer sachets. ⟦{蚊取|かと}り{線香|せんこう}→蚊取り線香：06751_katorisenkou⟧, the coil burned on a summer evening, sits between the two: it kills mosquitoes but is used as a preventive.",
+  "notes": "{殺虫剤|さっちゅうざい} is insecticide — a product that kills insects, as opposed to one that merely keeps them away. Formation: ⟦{殺虫|さっちゅう}→殺虫：24750_sacchuu⟧ 'killing insects' + ⟦{剤|ざい}→〜剤：30790_zai⟧ 'agent'.\n\nForms sold in Japan:\n- ⟦スプレー→スプレー：11581_supuree⟧⟦{式|しき}→式：noentry⟧: aerosol spray, the everyday kind\n- ⟦{煙|けむり}→煙：02705_kemuri⟧⟦タイプ→タイプ：01534_taipu⟧: fumigators, set off in a sealed room and left for hours\n- ⟦{置|お}き→置く：01092_oku⟧⟦{型|がた}→型：02146_kata⟧: bait traps and plug-in units left in place\n\nCollocations:\n- {殺虫剤|さっちゅうざい}⟦を→を：00422_wo⟧⟦{撒|ま}く→撒く：12711_maku⟧: to spread insecticide over an area\n- {殺虫剤|さっちゅうざい}⟦を→を：00422_wo⟧⟦かける→かける：00854_kakeru⟧: to spray it directly onto an insect\n\nCompare ⟦{防虫剤|ぼうちゅうざい}→防虫剤：24303_bouchuuzai⟧, which repels rather than kills — mothballs and drawer sachets. ⟦{蚊取|かと}り{線香|せんこう}→蚊取り線香：06751_katorisenkou⟧, the coil burned on a summer evening, sits between the two: it kills mosquitoes but is used as a preventive.",
   "cross_references": [
     {
       "type": "related",
@@ -51,11 +51,39 @@
       "headword": "{防虫剤|ぼうちゅうざい}",
       "label": "insect repellent",
       "target_id": "24303_bouchuuzai"
+    },
+    {
+      "type": "related",
+      "target_id": "06430_gaichuu",
+      "reading": "がいちゅう",
+      "headword": "{害虫|がいちゅう}",
+      "label": "pest, harmful insect"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22726_sakkinzai",
+      "reading": "さっきんざい",
+      "headword": "{殺菌剤|さっきんざい}",
+      "label": "disinfectant"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24124_josouzai",
+      "reading": "じょそうざい",
+      "headword": "{除草剤|じょそうざい}",
+      "label": "herbicide"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29950_boujozai",
+      "reading": "ぼうじょざい",
+      "headword": "{防除剤|ぼうじょざい}",
+      "label": "pest-control agent"
     }
   ],
   "metadata": {
     "created": "2026-01-18T22:21:53Z",
-    "modified": "2026-08-27T12:46:38Z",
+    "modified": "2026-09-02T04:01:10Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

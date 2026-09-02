@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21392_asagata_ex1",
-      "japanese": "{朝方|あさがた}まで{起|お}きていた。",
+      "japanese": "{朝方|あさがた}⟦まで→まで：00490_made⟧⟦{起|お}きていた→起きる：00521_okiru⟧。",
       "english": "I was up until early morning.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21392_asagata_ex2",
-      "japanese": "{朝方|あさがた}に{急|きゅう}に{気温|きおん}が{下|さ}がった。",
+      "japanese": "{朝方|あさがた}⟦に→に：00314_ni⟧⟦{急|きゅう}→急：13042_kyuu⟧⟦に→に：00314_ni⟧⟦{気温|きおん}→気温：00235_kion⟧⟦が→が：00051_ga⟧⟦{下|さ}がった→下がる：01188_sagaru⟧。",
       "english": "The temperature dropped suddenly in the early morning.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21392_asagata_ex3",
-      "japanese": "{昨日|きのう}は{朝方|あさがた}まで{友達|ともだち}と{話|はな}し{込|こ}んでしまい、{寝不足|ねぶそく}で{一日|いちにち}{辛|つら}かった。",
+      "japanese": "⟦{昨日|きのう}→昨日：00859_kinou⟧⟦は→は：00079_ha⟧{朝方|あさがた}⟦まで→まで：00490_made⟧⟦{友達|ともだち}→友達：01478_tomodachi⟧⟦と→と：00512_to⟧⟦{話|はな}し{込|こ}んで→話し込む：20658_hanashikomu⟧しまい、⟦{寝不足|ねぶそく}→寝不足：07692_nebusoku⟧⟦で→で：00502_de⟧⟦{一日|いちにち}→一日：00942_ichinichi⟧⟦{辛|つら}かった→辛い：01112_tsurai⟧。",
       "english": "Yesterday I ended up talking with friends until early morning, and the lack of sleep made the whole day tough.",
       "sense_numbers": [
         1
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "Refers to the period of very early morning, roughly from around 3 AM to sunrise. It emphasizes the transitional time from night to morning, rather than the morning after waking up.\n\nCOMMON COLLOCATIONS:\n- {朝方|あさがた}に: in the early morning\n- {朝方|あさがた}まで: until early morning\n- {朝方|あさがた}から: from early morning\n\nSIMILAR WORDS:\n- {朝型|あさがた}: morning person — a lifestyle type, not a time of day (same reading but different kanji)\n- {早朝|そうちょう}: early morning — more formal, used in news and official contexts\n- {明|あ}け{方|がた}: dawn, daybreak — more specifically the time just as the sky starts to brighten\n- {未明|みめい}: before dawn — formal/news usage, typically for events occurring in the predawn hours",
+  "notes": "Refers to the period of very early morning, roughly from around 3 AM to sunrise. It emphasizes the transitional time from night to morning, rather than the morning after waking up.\n\nCOMMON COLLOCATIONS:\n- {朝方|あさがた}⟦に→に：00314_ni⟧: in the early morning\n- {朝方|あさがた}⟦まで→まで：00490_made⟧: until early morning\n- {朝方|あさがた}⟦から→から：00504_kara⟧: from early morning\n\nSIMILAR WORDS:\n- ⟦{朝型|あさがた}→朝型：16867_asagata⟧: morning person — a lifestyle type, not a time of day (same reading but different kanji)\n- ⟦{早朝|そうちょう}→早朝：03109_souchou⟧: early morning — more formal, used in news and official contexts\n- ⟦{明|あ}け{方|がた}→明け方：17595_akegata⟧: dawn, daybreak — more specifically the time just as the sky starts to brighten\n- ⟦{未明|みめい}→未明：27573_mimei⟧: before dawn — formal/news usage, typically for events occurring in the predawn hours",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "homophone",
+      "target_id": "16867_asagata",
+      "reading": "あさがた",
+      "headword": "{朝型|あさがた}",
+      "label": "morning person"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03109_souchou",
+      "reading": "そうちょう",
+      "headword": "{早朝|そうちょう}",
+      "label": "early morning"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17595_akegata",
+      "reading": "あけがた",
+      "headword": "{明|あ}け{方|がた}",
+      "label": "dawn, daybreak"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27573_mimei",
+      "reading": "みめい",
+      "headword": "{未明|みめい}",
+      "label": "before dawn"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +89,6 @@
       ]
     },
     "created": "2026-04-02T02:45:56Z",
-    "modified": "2026-07-29T12:35:11Z"
+    "modified": "2026-09-02T04:02:03Z"
   }
 }

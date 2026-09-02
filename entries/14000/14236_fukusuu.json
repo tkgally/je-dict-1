@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "14236_fukusuu_ex1",
-      "japanese": "{複数|ふくすう}の{候補|こうほ}から{選|えら}ぶ。",
+      "japanese": "{複数|ふくすう}⟦の→の：09472_no⟧⟦{候補|こうほ}→候補：02804_kouho⟧⟦から→から：00504_kara⟧⟦{選|えら}ぶ→選ぶ：00835_erabu⟧。",
       "english": "Choose from multiple candidates.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14236_fukusuu_ex2",
-      "japanese": "{英語|えいご}では{名詞|めいし}に{単数|たんすう}と{複数|ふくすう}の{区別|くべつ}がある。",
+      "japanese": "⟦{英語|えいご}→英語：02274_eigo⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{名詞|めいし}→名詞：10420_meishi⟧⟦に→に：00314_ni⟧⟦{単数|たんすう}→単数：04510_tansuu⟧⟦と→と：00512_to⟧{複数|ふくすう}⟦の→の：09472_no⟧⟦{区別|くべつ}→区別：01555_kubetsu⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "In English, nouns have a distinction between singular and plural.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14236_fukusuu_ex3",
-      "japanese": "{複数|ふくすう}の{目撃者|もくげきしゃ}が{同|おな}じ{証言|しょうげん}をした。",
+      "japanese": "{複数|ふくすう}⟦の→の：09472_no⟧⟦{目撃者|もくげきしゃ}→目撃者：09652_mokugekisha⟧⟦が→が：00051_ga⟧⟦{同|おな}じ→同じ：02857_onaji⟧⟦{証言|しょうげん}→証言：11088_shougen⟧⟦を→を：00422_wo⟧⟦した→する：00392_suru⟧。",
       "english": "Multiple witnesses gave the same testimony.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\n{複数|ふくすう} is commonly used as a pre-noun modifier: {複数|ふくすう}の + noun. In grammar, it refers to the plural form. In everyday use, it is a slightly formal way to say \"multiple\" or \"several.\" Japanese nouns do not have grammatical plural forms, so this concept is mainly encountered when learning other languages.\n\nCOMMON COLLOCATIONS:\n- {複数|ふくすう}の{人|ひと}: multiple people\n- {複数|ふくすう}{形|けい}: plural form (grammar)\n- {複数|ふくすう}{回|かい}: multiple times\n- {複数|ふくすう}の{選択肢|せんたくし}: multiple options\n- {単数|たんすう}・{複数|ふくすう}: singular and plural\n\nSIMILAR WORDS:\n{複数|ふくすう} is somewhat formal. In casual speech, {何人|なんにん}か (some people), いくつか (some, several), or {数|すう}〜 (several ~) are more natural. {多数|たすう} (majority, many) implies a larger quantity than {複数|ふくすう}.",
+  "notes": "USAGE:\n{複数|ふくすう} is commonly used as a pre-noun modifier: {複数|ふくすう}⟦の→の：09472_no⟧ + noun. In grammar, it refers to the plural form. In everyday use, it is a slightly formal way to say \"multiple\" or \"several.\" Japanese nouns do not have grammatical plural forms, so this concept is mainly encountered when learning other languages.\n\nCOMMON COLLOCATIONS:\n- {複数|ふくすう}⟦の→の：09472_no⟧⟦{人|ひと}→人：00476_hito⟧: multiple people\n- {複数|ふくすう}{形|けい}: plural form (grammar)\n- {複数|ふくすう}{回|かい}: multiple times\n- {複数|ふくすう}⟦の→の：09472_no⟧⟦{選択肢|せんたくし}→選択肢：14418_sentakushi⟧: multiple options\n- ⟦{単数|たんすう}→単数：04510_tansuu⟧・{複数|ふくすう}: singular and plural\n\nSIMILAR WORDS:\n{複数|ふくすう} is somewhat formal. In casual speech, ⟦{何人|なんにん}→何人：17593_nannin⟧⟦か→か：09473_ka⟧ (some people), いくつ⟦か→か：09473_ka⟧ (some, several), or ⟦{数|すう}→数：03360_suu⟧〜 (several ~) are more natural. ⟦{多数|たすう}→多数：05612_tasuu⟧ (majority, many) implies a larger quantity than {複数|ふくすう}.",
   "cross_references": [
     {
       "type": "antonym",
@@ -46,18 +52,29 @@
       "reading": "たんすう",
       "headword": "{単数|たんすう}",
       "label": "singular"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19772_tajuu",
+      "reading": "たじゅう",
+      "headword": "{多重|たじゅう}",
+      "label": "multiple"
     }
   ],
   "metadata": {
     "created": "2026-02-28T03:13:27Z",
-    "modified": "2026-04-08T02:45:29Z",
+    "modified": "2026-09-02T04:01:36Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["quantity"]
+      "semantic": [
+        "quantity"
+      ]
     }
   }
 }

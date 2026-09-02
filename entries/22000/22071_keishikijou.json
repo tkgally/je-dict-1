@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22071_keishikijou_ex1",
-      "japanese": "{形式上|けいしきじょう}は{問題|もんだい}ない。",
+      "japanese": "{形式上|けいしきじょう}⟦は→は：00079_ha⟧⟦{問題|もんだい}ない→問題ない：26594_mondainai⟧。",
       "english": "There is no problem formally.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22071_keishikijou_ex2",
-      "japanese": "{形式上|けいしきじょう}、{書類|しょるい}にサインが{必要|ひつよう}です。",
+      "japanese": "{形式上|けいしきじょう}、⟦{書類|しょるい}→書類：01103_shorui⟧⟦に→に：00314_ni⟧⟦サイン→サイン：03846_sain⟧⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧です。",
       "english": "As a formality, a signature on the document is required.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22071_keishikijou_ex3",
-      "japanese": "{形式上|けいしきじょう}は{退職|たいしょく}したことになっているが、{実際|じっさい}はまだ{働|はたら}いている。",
+      "japanese": "{形式上|けいしきじょう}⟦は→は：00079_ha⟧⟦{退職|たいしょく}→退職：04559_taishoku⟧⟦した→する：00392_suru⟧ことになっている⟦が→が：00051_ga⟧、⟦{実際|じっさい}→実際：02502_jissai⟧⟦は→は：00079_ha⟧⟦まだ→まだ：00603_mada⟧⟦{働|はたら}いている→働く：00503_hataraku⟧。",
       "english": "On paper he has retired, but in reality he is still working.",
       "sense_numbers": [
         1
@@ -44,14 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "An adverb meaning \"in form\" or \"as a formality,\" often implying that the reality may differ from what official records or procedures show. Commonly used in business, legal, and bureaucratic contexts. Often paired with a contrasting statement about the actual situation.\n\nCOMMON PATTERNS:\n- {形式上|けいしきじょう}は～だが: formally it is ~, but...\n- {形式上|けいしきじょう}の{手続|てつづ}き: a formality; formal procedure\n- {形式上|けいしきじょう}{問題|もんだい}ない: no problem formally/on paper\n\nSIMILAR WORDS:\n- {名目上|めいもくじょう} — nominally; in name only (focuses on titles/labels rather than procedures)\n- {表向|おもてむ}き — outwardly; officially (what is shown to others)\n- {建前|たてまえ}として — as a public stance (social facade)",
+  "notes": "An adverb meaning \"in form\" or \"as a formality,\" often implying that the reality may differ from what official records or procedures show. Commonly used in business, legal, and bureaucratic contexts. Often paired with a contrasting statement about the actual situation.\n\nCOMMON PATTERNS:\n- {形式上|けいしきじょう}⟦は→は：00079_ha⟧～だ⟦が→が：00051_ga⟧: formally it is ~, but...\n- {形式上|けいしきじょう}⟦の→の：09472_no⟧⟦{手続|てつづ}き→手続き：05453_tetsuzuki⟧: a formality; formal procedure\n- {形式上|けいしきじょう}⟦{問題|もんだい}ない→問題ない：26594_mondainai⟧: no problem formally/on paper\n\nSIMILAR WORDS:\n- ⟦{名目上|めいもくじょう}→名目上：22060_meimokujou⟧ — nominally; in name only (focuses on titles/labels rather than procedures)\n- ⟦{表向|おもてむ}き→表向き：17918_omotemuki⟧ — outwardly; officially (what is shown to others)\n- ⟦{建前|たてまえ}→建前：06621_tatemae⟧⟦として→として：06802_toshite⟧ — as a public stance (social facade)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22060_meimokujou",
+      "reading": "めいもくじょう",
+      "headword": "{名目上|めいもくじょう}",
+      "label": "nominally"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17918_omotemuki",
+      "reading": "おもてむき",
+      "headword": "{表向|おもてむ}き",
+      "label": "outwardly"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "adverb"
       ],
+      "politeness": "plain",
       "semantic": [
         "formal-language"
       ],
@@ -61,6 +78,6 @@
       ]
     },
     "created": "2026-04-04T22:19:20Z",
-    "modified": "2026-04-04T22:19:20Z"
+    "modified": "2026-09-02T04:02:06Z"
   }
 }

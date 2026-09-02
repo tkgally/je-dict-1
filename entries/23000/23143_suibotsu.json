@@ -3,7 +3,7 @@
   "headword": "{水没|すいぼつ}",
   "reading": "すいぼつ",
   "romaji": "suibotsu",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "submersion; flooding; being submerged underwater",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "23143_suibotsu_ex1",
-      "japanese": "{道路|どうろ}が{水没|すいぼつ}した。",
+      "japanese": "⟦{道路|どうろ}→道路：01481_douro⟧⟦が→が：00051_ga⟧{水没|すいぼつ}⟦した→する：00392_suru⟧。",
       "english": "The road was flooded.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "23143_suibotsu_ex2",
-      "japanese": "{台風|たいふう}で{地下|ちか}{駐車場|ちゅうしゃじょう}が{水没|すいぼつ}した。",
+      "japanese": "⟦{台風|たいふう}→台風：01455_taifuu⟧⟦で→で：00502_de⟧⟦{地下|ちか}{駐車場|ちゅうしゃじょう}→地下駐車場：17882_chikachuushajou⟧⟦が→が：00051_ga⟧{水没|すいぼつ}⟦した→する：00392_suru⟧。",
       "english": "The underground parking garage was flooded by the typhoon.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "23143_suibotsu_ex3",
-      "japanese": "ダム{建設|けんせつ}によって、いくつかの{村|むら}が{水没|すいぼつ}する{予定|よてい}だ。",
+      "japanese": "⟦ダム→ダム：00034_damu⟧⟦{建設|けんせつ}→建設：02708_kensetsu⟧⟦によって→によって：06801_niyotte⟧、いくつ⟦か→か：09473_ka⟧⟦の→の：09472_no⟧⟦{村|むら}→村：02261_mura⟧⟦が→が：00051_ga⟧{水没|すいぼつ}⟦する→する：00392_suru⟧⟦{予定|よてい}→予定：00824_yotei⟧だ。",
       "english": "Several villages are scheduled to be submerged due to dam construction.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {水|すい} (water) + {没|ぼつ} (sink, submerge). Describes things being covered or engulfed by water. Commonly used in news reports about flood damage, climate change, and infrastructure damage.\n\nCOMMON COLLOCATIONS:\n- {道路|どうろ}が{水没|すいぼつ}する: a road floods/becomes submerged\n- {車|くるま}が{水没|すいぼつ}する: a car gets submerged\n- {水没|すいぼつ}{被害|ひがい}: flood damage\n- {水没|すいぼつ}{地域|ちいき}: flooded/submerged area\n\nSIMILAR WORDS:\n- {浸水|しんすい}: flooding, inundation — water entering a building or area; focuses on water intrusion rather than complete submersion\n- {冠水|かんすい}: inundation — fields or roads covered with water; often used for agricultural and road flooding\n- {沈没|ちんぼつ}: sinking — used for ships and vessels sinking; implies going down rather than being covered",
+  "notes": "Composed of {水|すい} (water) + {没|ぼつ} (sink, submerge). Describes things being covered or engulfed by water. Commonly used in news reports about flood damage, climate change, and infrastructure damage.\n\nCOMMON COLLOCATIONS:\n- ⟦{道路|どうろ}→道路：01481_douro⟧⟦が→が：00051_ga⟧{水没|すいぼつ}⟦する→する：00392_suru⟧: a road floods/becomes submerged\n- ⟦{車|くるま}→車：00516_kuruma⟧⟦が→が：00051_ga⟧{水没|すいぼつ}⟦する→する：00392_suru⟧: a car gets submerged\n- {水没|すいぼつ}⟦{被害|ひがい}→被害：02572_higai⟧: flood damage\n- {水没|すいぼつ}⟦{地域|ちいき}→地域：01461_chiiki⟧: flooded/submerged area\n\nSIMILAR WORDS:\n- ⟦{浸水|しんすい}→浸水：14945_shinsui⟧: flooding, inundation — water entering a building or area; focuses on water intrusion rather than complete submersion\n- ⟦{冠水|かんすい}→冠水：20916_kansui⟧: inundation — fields or roads covered with water; often used for agricultural and road flooding\n- ⟦{沈没|ちんぼつ}→沈没：17516_chinbotsu⟧: sinking — used for ships and vessels sinking; implies going down rather than being covered",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14945_shinsui",
+      "reading": "しんすい",
+      "headword": "{浸水|しんすい}",
+      "label": "flooding, inundation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20916_kansui",
+      "reading": "かんすい",
+      "headword": "{冠水|かんすい}",
+      "label": "inundation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17516_chinbotsu",
+      "reading": "ちんぼつ",
+      "headword": "{沈没|ちんぼつ}",
+      "label": "sinking"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -58,10 +81,11 @@
       "semantic": [
         "nature"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     },
     "created": "2026-04-08T20:30:46Z",
-    "modified": "2026-04-08T20:30:46Z"
+    "modified": "2026-09-02T04:02:11Z"
   },
   "conjugation": {
     "type": "suru",

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29411_chaseki_ex1",
-      "japanese": "{茶席|ちゃせき}に{招|まね}かれた。",
+      "japanese": "{茶席|ちゃせき}⟦に→に：00314_ni⟧⟦{招|まね}かれた→招く：02425_maneku⟧。",
       "english": "I was invited to a tea gathering.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29411_chaseki_ex2",
-      "japanese": "{茶席|ちゃせき}では{静|しず}かに{振|ふ}る{舞|ま}う。",
+      "japanese": "{茶席|ちゃせき}⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{静|しず}か→静か：00755_shizuka⟧⟦に→に：00314_ni⟧⟦{振|ふ}る{舞|ま}う→振る舞う：04233_furumau⟧。",
       "english": "One behaves quietly at a tea gathering.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29411_chaseki_ex3",
-      "japanese": "{文化祭|ぶんかさい}で{茶道部|さどうぶ}が{茶席|ちゃせき}を{設|もう}けた。",
+      "japanese": "⟦{文化祭|ぶんかさい}→文化祭：05589_bunkasai⟧⟦で→で：00502_de⟧{茶道部|さどうぶ}⟦が→が：00051_ga⟧{茶席|ちゃせき}⟦を→を：00422_wo⟧⟦{設|もう}けた→設ける：14220_moukeru⟧。",
       "english": "The tea ceremony club set up a tea gathering at the school festival.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Refers both to the tea gathering itself and to the physical space (room or seat) where tea is served. Common in the context of {茶道|さどう} (the way of tea).\n\nCOMMON COLLOCATIONS:\n- {茶席|ちゃせき}を{設|もう}ける: to hold a tea gathering\n- {茶席|ちゃせき}に{招|まね}く: to invite to a tea gathering\n- {茶席|ちゃせき}に{出|で}る: to attend a tea gathering\n\nSIMILAR WORDS:\n- {茶会|ちゃかい}: tea party; tea gathering — emphasizes the event and its guests\n- {茶室|ちゃしつ}: tea room — the dedicated room itself",
+  "notes": "Refers both to the tea gathering itself and to the physical space (room or seat) where tea is served. Common in the context of ⟦{茶道|さどう}→茶道：04451_sadou⟧ (the way of tea).\n\nCOMMON COLLOCATIONS:\n- {茶席|ちゃせき}⟦を→を：00422_wo⟧⟦{設|もう}ける→設ける：14220_moukeru⟧: to hold a tea gathering\n- {茶席|ちゃせき}⟦に→に：00314_ni⟧⟦{招|まね}く→招く：02425_maneku⟧: to invite to a tea gathering\n- {茶席|ちゃせき}⟦に→に：00314_ni⟧⟦{出|で}る→出る：00513_deru⟧: to attend a tea gathering\n\nSIMILAR WORDS:\n- ⟦{茶会|ちゃかい}→茶会：14116_chakai⟧: tea party; tea gathering — emphasizes the event and its guests\n- ⟦{茶室|ちゃしつ}→茶室：14081_chashitsu⟧: tea room — the dedicated room itself",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14116_chakai",
+      "reading": "ちゃかい",
+      "headword": "{茶会|ちゃかい}",
+      "label": "tea party"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14081_chashitsu",
+      "reading": "ちゃしつ",
+      "headword": "{茶室|ちゃしつ}",
+      "label": "tea room"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +69,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "culture"
       ],
       "domain": []
     },
     "created": "2026-06-22T15:18:50Z",
-    "modified": "2026-06-22T15:18:50Z"
+    "modified": "2026-09-02T04:02:36Z"
   }
 }

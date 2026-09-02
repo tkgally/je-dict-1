@@ -15,40 +15,73 @@
   "examples": [
     {
       "id": "19994_kakuseiki_ex1",
-      "japanese": "{拡声器|かくせいき}で{呼|よ}びかける。",
+      "japanese": "{拡声器|かくせいき}⟦で→で：00502_de⟧⟦{呼|よ}びかける→呼びかける：06480_yobikakeru⟧。",
       "english": "To call out through a megaphone.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19994_kakuseiki_ex2",
-      "japanese": "{警察|けいさつ}が{拡声器|かくせいき}を{使|つか}って{避難|ひなん}を{呼|よ}びかけた。",
+      "japanese": "⟦{警察|けいさつ}→警察：01393_keisatsu⟧⟦が→が：00051_ga⟧{拡声器|かくせいき}⟦を→を：00422_wo⟧⟦{使|つか}って→使う：00473_tsukau⟧⟦{避難|ひなん}→避難：07908_hinan⟧⟦を→を：00422_wo⟧⟦{呼|よ}びかけた→呼びかける：06480_yobikakeru⟧。",
       "english": "The police used a loudspeaker to call for evacuation.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19994_kakuseiki_ex3",
-      "japanese": "{選挙|せんきょ}カーが{拡声器|かくせいき}で{候補者|こうほしゃ}の{名前|なまえ}を{連呼|れんこ}していた。",
+      "japanese": "⟦{選挙|せんきょ}→選挙：03303_senkyo⟧⟦カー→カー：00130_kaa⟧⟦が→が：00051_ga⟧{拡声器|かくせいき}⟦で→で：00502_de⟧⟦{候補者|こうほしゃ}→候補者：20439_kouhosha⟧⟦の→の：09472_no⟧⟦{名前|なまえ}→名前：02234_namae⟧⟦を→を：00422_wo⟧{連呼|れんこ}⟦していた→する：00392_suru⟧。",
       "english": "The campaign car was repeatedly broadcasting the candidate's name through a loudspeaker.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {拡声|かくせい} (amplifying sound) and {器|き} (device). Covers both handheld megaphones and mounted loudspeaker systems.\n\nCULTURAL CONTEXT:\n{拡声器|かくせいき} are commonly associated with {選挙|せんきょ}カー (campaign vehicles) during elections, {防災|ぼうさい}{無線|むせん} (disaster prevention broadcasts), and public announcements at stations and events.\n\nCOMMON COLLOCATIONS:\n- {拡声器|かくせいき}で{呼|よ}びかける — to call out through a loudspeaker\n- {拡声器|かくせいき}を{使|つか}う — to use a megaphone\n- {拡声器|かくせいき}を{通|とお}して — through a loudspeaker\n\nRELATED TERMS:\n- スピーカー — speaker (loanword, more casual)\n- メガホン — megaphone (loanword)\n- マイク — microphone",
+  "notes": "A compound of {拡声|かくせい} (amplifying sound) and {器|き} (device). Covers both handheld megaphones and mounted loudspeaker systems.\n\nCULTURAL NOTE:\n{拡声器|かくせいき} are commonly associated with ⟦{選挙|せんきょ}→選挙：03303_senkyo⟧⟦カー→カー：00130_kaa⟧ (campaign vehicles) during elections, ⟦{防災|ぼうさい}→防災：07907_bousai⟧⟦{無線|むせん}→無線：09226_musen⟧ (disaster prevention broadcasts), and public announcements at stations and events.\n\nCOMMON COLLOCATIONS:\n- {拡声器|かくせいき}⟦で→で：00502_de⟧⟦{呼|よ}びかける→呼びかける：06480_yobikakeru⟧ — to call out through a loudspeaker\n- {拡声器|かくせいき}⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧ — to use a megaphone\n- {拡声器|かくせいき}⟦を→を：00422_wo⟧⟦{通|とお}して→通す：02300_toosu⟧ — through a loudspeaker\n\nRELATED WORDS:\n- ⟦スピーカー→スピーカー：04420_supiikaa⟧ — speaker (loanword, more casual)\n- メガホン — megaphone (loanword)\n- ⟦マイク→マイク：00267_maiku⟧ — microphone",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "04420_supiikaa",
+      "reading": "すぴーかー",
+      "headword": "スピーカー",
+      "label": "speaker"
+    },
+    {
+      "type": "related",
+      "target_id": "00267_maiku",
+      "reading": "まいく",
+      "headword": "マイク",
+      "label": "microphone"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23890_zoufukuki",
+      "reading": "ぞうふくき",
+      "headword": "{増幅器|ぞうふくき}",
+      "label": "amplifier (electronic)"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["technology"]
+      "semantic": [
+        "technology"
+      ]
     },
     "created": "2026-03-28T04:34:49Z",
-    "modified": "2026-03-28T04:34:49Z"
+    "modified": "2026-09-02T04:01:58Z"
   }
 }

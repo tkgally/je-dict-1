@@ -2,7 +2,7 @@
   "id": "12778_shoudaku",
   "headword": "{承諾|しょうだく}",
   "reading": "しょうだく",
-  "part_of_speech": "noun / verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "consent, acceptance, agreement",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "12778_shoudaku_ex1",
-      "japanese": "{承諾|しょうだく}を{得|え}た。",
+      "japanese": "{承諾|しょうだく}⟦を→を：00422_wo⟧⟦{得|え}た→得る：02014_eru⟧。",
       "english": "I obtained consent.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "12778_shoudaku_ex2",
-      "japanese": "{本人|ほんにん}の{承諾|しょうだく}なしに{個人情報|こじんじょうほう}を{公開|こうかい}してはいけない。",
+      "japanese": "⟦{本人|ほんにん}→本人：03627_honnin⟧⟦の→の：09472_no⟧{承諾|しょうだく}なし⟦に→に：00314_ni⟧⟦{個人情報|こじんじょうほう}→個人情報：18842_kojinjouhou⟧⟦を→を：00422_wo⟧⟦{公開|こうかい}→公開：11665_koukai⟧⟦して→する：00392_suru⟧⟦は→は：00079_ha⟧いけない。",
       "english": "You must not disclose personal information without the individual's consent.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "12778_shoudaku_ex3",
-      "japanese": "{上司|じょうし}に{企画|きかく}の{承諾|しょうだく}をもらうまでに{時間|じかん}がかかった。",
+      "japanese": "⟦{上司|じょうし}→上司：03286_joushi⟧⟦に→に：00314_ni⟧⟦{企画|きかく}→企画：04879_kikaku⟧⟦の→の：09472_no⟧{承諾|しょうだく}⟦を→を：00422_wo⟧⟦もらう→もらう：00520_morau⟧⟦まで→まで：00490_made⟧⟦に→に：00314_ni⟧⟦{時間|じかん}→時間：00468_jikan⟧⟦が→が：00051_ga⟧⟦かかった→かかる：00711_kakaru⟧。",
       "english": "It took time to get my boss's approval for the project.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "{承諾|しょうだく} is a formal word for consent or agreement. It is commonly used in business, legal, and contractual contexts.\n\nCOMMON COLLOCATIONS:\n- {承諾|しょうだく}する: to consent, to agree\n- {承諾|しょうだく}を{得|え}る: to obtain consent\n- {承諾|しょうだく}を{求|もと}める: to seek consent\n- {承諾|しょうだく}{書|しょ}: written consent, consent form\n- {快|こころよ}く{承諾|しょうだく}する: to readily agree\n\nSIMILAR WORDS:\n- {同意|どうい}: agreement, consent (emphasizes shared understanding)\n- {了承|りょうしょう}: acknowledgment, acceptance (understanding and accepting)\n- {許可|きょか}: permission (official authorization)\n- {合意|ごうい}: mutual agreement (both parties reaching consensus)",
+  "notes": "{承諾|しょうだく} is a formal word for consent or agreement. It is commonly used in business, legal, and contractual contexts.\n\nCOMMON COLLOCATIONS:\n- {承諾|しょうだく}⟦する→する：00392_suru⟧: to consent, to agree\n- {承諾|しょうだく}⟦を→を：00422_wo⟧⟦{得|え}る→得る：02014_eru⟧: to obtain consent\n- {承諾|しょうだく}⟦を→を：00422_wo⟧⟦{求|もと}める→求める：02316_motomeru⟧: to seek consent\n- {承諾|しょうだく}{書|しょ}: written consent, consent form\n- ⟦{快|こころよ}く→快い：12571_kokoroyoi⟧{承諾|しょうだく}⟦する→する：00392_suru⟧: to readily agree\n\nSIMILAR WORDS:\n- ⟦{同意|どうい}→同意：05092_doui⟧: agreement, consent (emphasizes shared understanding)\n- ⟦{了承|りょうしょう}→了承：11415_ryoushou⟧: acknowledgment, acceptance (understanding and accepting)\n- ⟦{許可|きょか}→許可：00259_kyoka⟧: permission (official authorization)\n- ⟦{合意|ごうい}→合意：05093_goui⟧: mutual agreement (both parties reaching consensus)",
   "cross_references": [
     {
       "type": "synonym",
@@ -156,11 +156,32 @@
       "reading": "きょぜつ",
       "headword": "{拒絶|きょぜつ}",
       "label": "rejection, refusal"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00259_kyoka",
+      "reading": "きょか",
+      "headword": "{許可|きょか}",
+      "label": "permission"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05093_goui",
+      "reading": "ごうい",
+      "headword": "{合意|ごうい}",
+      "label": "mutual agreement"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21084_kyodaku",
+      "reading": "きょだく",
+      "headword": "{許諾|きょだく}",
+      "label": "permission"
     }
   ],
   "metadata": {
     "created": "2026-02-22T10:28:07Z",
-    "modified": "2026-04-27T08:29:13Z",
+    "modified": "2026-09-02T04:01:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

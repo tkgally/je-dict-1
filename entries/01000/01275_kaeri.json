@@ -19,7 +19,7 @@
   "examples": [
     {
       "id": "01275_kaeri_ex1",
-      "japanese": "{帰|かえ}り⟦に→に：00314_ni⟧⟦{買|か}い{物|もの}→買い物：00853_kaimono⟧⟦を→を：00422_wo⟧した。",
+      "japanese": "{帰|かえ}り⟦に→に：00314_ni⟧⟦{買|か}い{物|もの}→買い物：00853_kaimono⟧⟦を→を：00422_wo⟧⟦した→する：00392_suru⟧。",
       "english": "I did some shopping on my way home.",
       "notes": null,
       "has_audio": false,
@@ -80,7 +80,7 @@
     },
     {
       "id": "01275_kaeri_ex7",
-      "japanese": "{帰|かえ}り⟦は→は：00079_ha⟧⟦{何時|なんじ}→何時：00973_nanji⟧ですか？",
+      "japanese": "{帰|かえ}り⟦は→は：00079_ha⟧⟦{何時|なんじ}→何時：00973_nanji⟧です⟦か→か：09473_ka⟧？",
       "english": "What time will you be back?",
       "notes": null,
       "has_audio": false,
@@ -120,7 +120,7 @@
     },
     {
       "id": "01275_kaeri_ex11",
-      "japanese": "⟦{父|ちち}→父：00566_chichi⟧⟦の→の：09472_no⟧{帰|かえ}り⟦が→が：00051_ga⟧⟦{遅|おそ}い→遅い：00533_osoi⟧ので、⟦{母|はは}→母：00549_haha⟧⟦は→は：00079_ha⟧⟦{心配|しんぱい}している→心配する：00811_shinpai⟧。",
+      "japanese": "⟦{父|ちち}→父：00566_chichi⟧⟦の→の：09472_no⟧{帰|かえ}り⟦が→が：00051_ga⟧⟦{遅|おそ}い→遅い：00533_osoi⟧⟦の→の：09472_no⟧で、⟦{母|はは}→母：00549_haha⟧⟦は→は：00079_ha⟧⟦{心配|しんぱい}している→心配する：00811_shinpai⟧。",
       "english": "Father's return is late, so Mother is worried.",
       "notes": null,
       "has_audio": false,
@@ -129,7 +129,7 @@
       ]
     }
   ],
-  "notes": "{帰|かえ}り is a noun meaning 'return' or 'way home,' derived from the verb ⟦{帰|かえ}る→帰る：00508_kaeru⟧.\n\nCOMMON PATTERNS:\n- {帰|かえ}り⟦に→に：00314_ni⟧: on the way home\n- 〜の{帰|かえ}り⟦に→に：00314_ni⟧: on the way back from ~\n- {帰|かえ}り⟦{道|みち}→道：00505_michi⟧: the way home (route)\n- ⟦{行|い}き→行き：02614_iki⟧{帰|かえ}り: round trip, there and back\n- {帰|かえ}り⟦が→が：00051_ga⟧⟦{遅|おそ}い→遅い：00533_osoi⟧: (someone's) return is late\n\nEXAMPLES OF USAGE:\n- ⟦{仕事|しごと}→仕事：00480_shigoto⟧の{帰|かえ}り⟦に→に：00314_ni⟧: on the way home from work\n- ⟦{学校|がっこう}→学校：00055_gakkou⟧の{帰|かえ}り⟦に→に：00314_ni⟧: on the way home from school\n\nCONTRAST:\n- ⟦{行|い}き→行き：02614_iki⟧: going, outward journey (antonym)\n- ⟦{帰|かえ}る→帰る：00508_kaeru⟧: to return (verb form)",
+  "notes": "{帰|かえ}り is a noun meaning 'return' or 'way home,' derived from the verb ⟦{帰|かえ}る→帰る：00508_kaeru⟧.\n\nCOMMON PATTERNS:\n- {帰|かえ}り⟦に→に：00314_ni⟧: on the way home\n- 〜⟦の→の：09472_no⟧{帰|かえ}り⟦に→に：00314_ni⟧: on the way back from ~\n- {帰|かえ}り⟦{道|みち}→道：00505_michi⟧: the way home (route)\n- ⟦{行|い}き→行き：02614_iki⟧{帰|かえ}り: round trip, there and back\n- {帰|かえ}り⟦が→が：00051_ga⟧⟦{遅|おそ}い→遅い：00533_osoi⟧: (someone's) return is late\n\nEXAMPLES OF USAGE:\n- ⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦の→の：09472_no⟧{帰|かえ}り⟦に→に：00314_ni⟧: on the way home from work\n- ⟦{学校|がっこう}→学校：00055_gakkou⟧⟦の→の：09472_no⟧{帰|かえ}り⟦に→に：00314_ni⟧: on the way home from school\n\nSIMILAR WORDS:\n- ⟦{行|い}き→行き：02614_iki⟧: going, outward journey (antonym)\n- ⟦{帰|かえ}る→帰る：00508_kaeru⟧: to return (verb form)",
   "cross_references": [
     {
       "type": "see_also",
@@ -143,11 +143,18 @@
       "headword": "{行|い}き",
       "label": "going, outward journey",
       "target_id": "02614_iki"
+    },
+    {
+      "type": "related",
+      "target_id": "20538_fukuro",
+      "reading": "ふくろ",
+      "headword": "{復路|ふくろ}",
+      "label": "return trip"
     }
   ],
   "metadata": {
     "created": "2026-01-08T12:16:18Z",
-    "modified": "2026-05-14T20:28:00Z",
+    "modified": "2026-09-02T04:00:59Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "core",
     "tags": {

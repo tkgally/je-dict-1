@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22015_denrei_ex1",
-      "japanese": "{伝令|でんれい}が{届|とど}いた。",
+      "japanese": "{伝令|でんれい}⟦が→が：00051_ga⟧⟦{届|とど}いた→届く：00899_todoku⟧。",
       "english": "A dispatch arrived.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22015_denrei_ex2",
-      "japanese": "{伝令|でんれい}を{走|はし}らせて{援軍|えんぐん}を{求|もと}めた。",
+      "japanese": "{伝令|でんれい}⟦を→を：00422_wo⟧⟦{走|はし}らせて→走る：00519_hashiru⟧{援軍|えんぐん}⟦を→を：00422_wo⟧⟦{求|もと}めた→求める：02316_motomeru⟧。",
       "english": "They sent a messenger running to request reinforcements.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22015_denrei_ex3",
-      "japanese": "{将軍|しょうぐん}は{伝令|でんれい}を{通|つう}じて{全軍|ぜんぐん}に{撤退|てったい}{命令|めいれい}を{出|だ}した。",
+      "japanese": "⟦{将軍|しょうぐん}→将軍：12386_shougun⟧⟦は→は：00079_ha⟧{伝令|でんれい}⟦を→を：00422_wo⟧⟦{通|つう}じて→通じる：02289_tsuujiru⟧{全軍|ぜんぐん}⟦に→に：00314_ni⟧⟦{撤退|てったい}→撤退：12822_tettai⟧⟦{命令|めいれい}→命令：03754_meirei⟧⟦を→を：00422_wo⟧⟦{出|だ}した→出す：01087_dasu⟧。",
       "english": "The general issued a retreat order to the entire army through a messenger.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "Primarily a military and historical term. Refers both to the person carrying the message and to the message or order itself. Commonly encountered in historical novels, war narratives, and period dramas.\n\nCOMMON COLLOCATIONS:\n- {伝令|でんれい}を{出|だ}す: to send a dispatch\n- {伝令|でんれい}を{走|はし}らせる: to send a messenger running\n- {伝令|でんれい}{兵|へい}: messenger soldier; orderly\n- {伝令|でんれい}が{届|とど}く: a dispatch arrives\n- {伝令|でんれい}{役|やく}: the role of messenger\n\nSIMILAR WORDS:\n- {使者|ししゃ}: envoy; messenger — a more general term for someone sent on a mission, not limited to military contexts\n- {飛脚|ひきゃく}: express messenger — a historical courier in the Edo period\n- {令|れい}: order; command — the order itself, not the person carrying it",
+  "notes": "Primarily a military and historical term. Refers both to the person carrying the message and to the message or order itself. Commonly encountered in historical novels, war narratives, and period dramas.\n\nCOMMON COLLOCATIONS:\n- {伝令|でんれい}⟦を→を：00422_wo⟧⟦{出|だ}す→出す：01087_dasu⟧: to send a dispatch\n- {伝令|でんれい}⟦を→を：00422_wo⟧⟦{走|はし}らせる→走る：00519_hashiru⟧: to send a messenger running\n- {伝令|でんれい}⟦{兵|へい}→兵：29510_hei⟧: messenger soldier; orderly\n- {伝令|でんれい}⟦が→が：00051_ga⟧⟦{届|とど}く→届く：00899_todoku⟧: a dispatch arrives\n- {伝令|でんれい}⟦{役|やく}→役：12557_yaku⟧: the role of messenger\n\nSIMILAR WORDS:\n- ⟦{使者|ししゃ}→使者：21530_shisha⟧: envoy; messenger — a more general term for someone sent on a mission, not limited to military contexts\n- {飛脚|ひきゃく}: express messenger — a historical courier in the Edo period\n- {令|れい}: order; command — the order itself, not the person carrying it",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21530_shisha",
+      "reading": "ししゃ",
+      "headword": "{使者|ししゃ}",
+      "label": "envoy"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +69,6 @@
       ]
     },
     "created": "2026-04-04T20:24:21Z",
-    "modified": "2026-04-10T08:28:27Z"
+    "modified": "2026-09-02T04:02:06Z"
   }
 }

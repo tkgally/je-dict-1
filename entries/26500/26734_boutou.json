@@ -15,42 +15,69 @@
   "examples": [
     {
       "id": "26734_boutou_ex1",
-      "japanese": "{防凍|ぼうとう}{液|えき}を{補充|ほじゅう}する。",
+      "japanese": "{防凍|ぼうとう}{液|えき}⟦を→を：00422_wo⟧⟦{補充|ほじゅう}する→補充する：25240_hojuusuru⟧。",
       "english": "Top up the antifreeze fluid.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26734_boutou_ex2",
-      "japanese": "{冬|ふゆ}になる{前|まえ}に{水道管|すいどうかん}の{防凍|ぼうとう}{対策|たいさく}をしておく。",
+      "japanese": "⟦{冬|ふゆ}→冬：00623_fuyu⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧⟦{水道管|すいどうかん}→水道管：08094_suidoukan⟧⟦の→の：09472_no⟧{防凍|ぼうとう}⟦{対策|たいさく}→対策：02511_taisaku⟧⟦を→を：00422_wo⟧⟦して→する：00392_suru⟧おく。",
       "english": "Take freeze-prevention measures for the water pipes before winter arrives.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26734_boutou_ex3",
-      "japanese": "{寒冷地|かんれいち}では{防凍|ぼうとう}{剤|ざい}を{入|い}れないとエンジンが{壊|こわ}れる{恐|おそ}れがある。",
+      "japanese": "{寒冷地|かんれいち}⟦で→で：00502_de⟧⟦は→は：00079_ha⟧{防凍|ぼうとう}{剤|ざい}⟦を→を：00422_wo⟧⟦{入|い}れない→入れる：01098_ireru⟧⟦と→と：00512_to⟧⟦エンジン→エンジン：03835_enjin⟧⟦が→が：00051_ga⟧⟦{壊|こわ}れる→壊れる：00791_kowareru⟧{恐|おそ}れ⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "In cold regions, the engine may be damaged if antifreeze is not added.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A technical term combining {防|ぼう} (prevention) and {凍|とう} (freezing). Used in automotive, plumbing, and construction contexts for measures and substances that protect against freeze damage.\n\nCOMMON COLLOCATIONS:\n- {防凍|ぼうとう}{液|えき}: antifreeze fluid\n- {防凍|ぼうとう}{剤|ざい}: antifreeze agent\n- {防凍|ぼうとう}{対策|たいさく}: freeze-prevention measures\n- {防凍|ぼうとう}{工事|こうじ}: freeze-proofing work\n\nRELATED TERMS:\n- {凍結|とうけつ}: freezing — the phenomenon that {防凍|ぼうとう} aims to prevent\n- {不凍液|ふとうえき}: antifreeze liquid — another common term for the same substance",
-  "cross_references": [],
+  "notes": "A technical term combining ⟦{防|ぼう}→防〜：03967_bou⟧ (prevention) and {凍|とう} (freezing). Used in automotive, plumbing, and construction contexts for measures and substances that protect against freeze damage.\n\nCOMMON COLLOCATIONS:\n- {防凍|ぼうとう}{液|えき}: antifreeze fluid\n- {防凍|ぼうとう}{剤|ざい}: antifreeze agent\n- {防凍|ぼうとう}⟦{対策|たいさく}→対策：02511_taisaku⟧: freeze-prevention measures\n- {防凍|ぼうとう}⟦{工事|こうじ}→工事：00244_kouji⟧: freeze-proofing work\n\nRELATED WORDS:\n- ⟦{凍結|とうけつ}→凍結：09613_touketsu⟧: freezing — the phenomenon that {防凍|ぼうとう} aims to prevent\n- {不凍液|ふとうえき}: antifreeze liquid — another common term for the same substance",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "09613_touketsu",
+      "reading": "とうけつ",
+      "headword": "{凍結|とうけつ}",
+      "label": "freezing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24157_futou",
+      "reading": "ふとう",
+      "headword": "{不凍|ふとう}",
+      "label": "non-freezing"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["technical"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "technical"
+      ]
     },
     "created": "2026-05-04T15:30:07Z",
-    "modified": "2026-05-04T15:30:07Z"
+    "modified": "2026-09-02T04:02:27Z"
   }
 }

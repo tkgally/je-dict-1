@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26581_menshi_ex1",
-      "japanese": "この{布|ぬの}は{綿糸|めんし}で{織|お}られている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{布|ぬの}→布：01489_nuno⟧⟦は→は：00079_ha⟧{綿糸|めんし}⟦で→で：00502_de⟧⟦{織|お}られている→織る：04373_oru⟧。",
       "english": "This cloth is woven with cotton yarn.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26581_menshi_ex2",
-      "japanese": "{綿糸|めんし}は{肌|はだ}に{優|やさ}しいので{赤|あか}ちゃんの{服|ふく}によく{使|つか}われる。",
+      "japanese": "{綿糸|めんし}⟦は→は：00079_ha⟧⟦{肌|はだ}→肌：02243_hada⟧⟦に→に：00314_ni⟧{優|やさ}しい⟦の→の：09472_no⟧で⟦{赤|あか}ちゃん→赤ちゃん：01282_akachan⟧⟦の→の：09472_no⟧⟦{服|ふく}→服：00695_fuku⟧⟦に→に：00314_ni⟧⟦よく→よく：00601_yoku⟧⟦{使|つか}われる→使う：00473_tsukau⟧。",
       "english": "Cotton yarn is gentle on the skin, so it is often used for baby clothes.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26581_menshi_ex3",
-      "japanese": "{明治|めいじ}{時代|じだい}、{日本|にほん}の{綿糸|めんし}{生産|せいさん}は{急速|きゅうそく}に{発展|はってん}し、{主要|しゅよう}な{輸出品|ゆしゅつひん}の{一|ひと}つとなった。",
+      "japanese": "⟦{明治|めいじ}{時代|じだい}→明治時代：28080_meijijidai⟧、⟦{日本|にほん}→日本：03876_nihon⟧⟦の→の：09472_no⟧{綿糸|めんし}⟦{生産|せいさん}→生産：01444_seisan⟧⟦は→は：00079_ha⟧⟦{急速|きゅうそく}→急速：02634_kyuusoku⟧⟦に→に：00314_ni⟧⟦{発展|はってん}→発展：03561_hatten⟧し、⟦{主要|しゅよう}→主要：01649_shuyou⟧な{輸出品|ゆしゅつひん}⟦の→の：09472_no⟧⟦{一|ひと}つ→一つ：02948_hitotsu⟧⟦と→と：00512_to⟧⟦なった→なる：01970_naru⟧。",
       "english": "During the Meiji era, Japan's cotton yarn production developed rapidly and became one of the major exports.",
       "sense_numbers": [
         1
@@ -44,8 +44,23 @@
       "notes": null
     }
   ],
-  "notes": "Combines {綿|めん} (cotton) and {糸|し} (thread, yarn). An important term in Japanese economic history, as cotton spinning was one of the first modern industries in Meiji-era Japan. Today used in textile and craft contexts.\n\nCOMMON COLLOCATIONS:\n- {綿糸|めんし}{紡績|ぼうせき}: cotton spinning\n- {綿糸|めんし}で{編|あ}む: to knit with cotton yarn\n- {綿糸|めんし}の{生産|せいさん}: cotton yarn production\n- {太|ふと}{番手|ばんて}の{綿糸|めんし}: thick-count cotton yarn\n\nSIMILAR WORDS:\n- {絹糸|けんし}: silk thread — a more luxurious fiber\n- {毛糸|けいと}: wool yarn — used for knitting, read with kun'yomi\n- {木綿|もめん}: cotton (fabric) — the finished textile rather than the yarn",
-  "cross_references": [],
+  "notes": "Combines ⟦{綿|めん}→綿：03807_men⟧ (cotton) and {糸|し} (thread, yarn). An important term in Japanese economic history, as cotton spinning was one of the first modern industries in Meiji-era Japan. Today used in textile and craft contexts.\n\nCOMMON COLLOCATIONS:\n- {綿糸|めんし}{紡績|ぼうせき}: cotton spinning\n- {綿糸|めんし}⟦で→で：00502_de⟧⟦{編|あ}む→編む：00002_amu⟧: to knit with cotton yarn\n- {綿糸|めんし}⟦の→の：09472_no⟧⟦{生産|せいさん}→生産：01444_seisan⟧: cotton yarn production\n- {太|ふと}{番手|ばんて}⟦の→の：09472_no⟧{綿糸|めんし}: thick-count cotton yarn\n\nSIMILAR WORDS:\n- {絹糸|けんし}: silk thread — a more luxurious fiber\n- ⟦{毛糸|けいと}→毛糸：00212_keito⟧: wool yarn — used for knitting, read with kun'yomi\n- ⟦{木綿|もめん}→木綿：01738_momen⟧: cotton (fabric) — the finished textile rather than the yarn",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00212_keito",
+      "reading": "けいと",
+      "headword": "{毛糸|けいと}",
+      "label": "wool yarn"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01738_momen",
+      "reading": "もめん",
+      "headword": "{木綿|もめん}",
+      "label": "cotton"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -60,6 +75,6 @@
       ]
     },
     "created": "2026-05-03T12:31:02Z",
-    "modified": "2026-05-03T12:31:02Z"
+    "modified": "2026-09-02T04:02:26Z"
   }
 }

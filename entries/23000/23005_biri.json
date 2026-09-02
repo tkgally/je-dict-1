@@ -15,40 +15,73 @@
   "examples": [
     {
       "id": "23005_biri_ex1",
-      "japanese": "マラソンでビリだった。",
+      "japanese": "⟦マラソン→マラソン：04732_marason⟧⟦で→で：00502_de⟧ビリだった。",
       "english": "I came in last in the marathon.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "23005_biri_ex2",
-      "japanese": "テストの{成績|せいせき}がクラスでビリだった。",
+      "japanese": "⟦テスト→テスト：01065_tesuto⟧⟦の→の：09472_no⟧⟦{成績|せいせき}→成績：03379_seiseki⟧⟦が→が：00051_ga⟧⟦クラス→クラス：01084_kurasu⟧⟦で→で：00502_de⟧ビリだった。",
       "english": "My test score was the lowest in the class.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "23005_biri_ex3",
-      "japanese": "ビリから{二番目|にばんめ}だったから、ビリよりはましだと{自分|じぶん}を{慰|なぐさ}めた。",
+      "japanese": "ビリ⟦から→から：00504_kara⟧⟦{二番目|にばんめ}→二番目：30362_nibanme⟧だった⟦から→から：00504_kara⟧、ビリ⟦より→より：09476_yori⟧⟦は→は：00079_ha⟧⟦まし→まし：11145_mashi⟧だ⟦と→と：00512_to⟧⟦{自分|じぶん}→自分：02887_jibun⟧⟦を→を：00422_wo⟧⟦{慰|なぐさ}めた→慰める：02133_nagusameru⟧。",
       "english": "I was second to last, so I consoled myself that at least it was better than being dead last.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A casual, colloquial word for being in last place. It has a somewhat lighthearted tone and is commonly used in everyday conversation, especially among children and students.\n\nCOMMON COLLOCATIONS:\n- ビリになる: to come in last\n- ビリから{二番目|にばんめ}: second to last\n- ビリっけつ: dead last (slang, emphatic; from ビリ + {尻|けつ} 'butt')\n- {万年|まんねん}ビリ: perennially last place\n\nSIMILAR WORDS:\n- {最下位|さいかい}: last place — formal equivalent; used in official rankings and sports standings\n- ドベ: dead last — dialectal (Nagoya/Kansai area) variant with the same meaning\n- {最後|さいご}: last — broader meaning; can mean 'last' in sequence, not necessarily worst\n\nREGISTER:\nInformal and conversational. Not used in formal writing or official contexts. Written in katakana (ビリ).",
+  "notes": "A casual, colloquial word for being in last place. It has a somewhat lighthearted tone and is commonly used in everyday conversation, especially among children and students.\n\nCOMMON COLLOCATIONS:\n- ビリ⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧: to come in last\n- ビリ⟦から→から：00504_kara⟧⟦{二番目|にばんめ}→二番目：30362_nibanme⟧: second to last\n- ビリ⟦っけ→っけ：10739_kke⟧つ: dead last (slang, emphatic; from ビリ + {尻|けつ} 'butt')\n- ⟦{万年|まんねん}→万年：28146_mannen⟧ビリ: perennially last place\n\nSIMILAR WORDS:\n- ⟦{最下位|さいかい}→最下位：20709_saikai⟧: last place — formal equivalent; used in official rankings and sports standings\n- ドベ: dead last — dialectal (Nagoya/Kansai area) variant with the same meaning\n- ⟦{最後|さいご}→最後：01413_saigo⟧: last — broader meaning; can mean 'last' in sequence, not necessarily worst\n\nREGISTER:\nInformal and conversational. Not used in formal writing or official contexts. Written in katakana (ビリ).",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20709_saikai",
+      "reading": "さいかい",
+      "headword": "{最下位|さいかい}",
+      "label": "last place"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01413_saigo",
+      "reading": "さいご",
+      "headword": "{最後|さいご}",
+      "label": "last"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16685_donjiri",
+      "reading": "どんじり",
+      "headword": "どん{尻|じり}",
+      "label": "the very last"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "informal",
       "politeness": "plain",
-      "semantic": ["abstract"]
+      "semantic": [
+        "abstract"
+      ]
     },
     "created": "2026-04-08T15:38:59Z",
-    "modified": "2026-04-08T15:38:59Z"
+    "modified": "2026-09-02T04:02:10Z"
   }
 }

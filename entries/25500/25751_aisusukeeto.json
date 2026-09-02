@@ -15,38 +15,74 @@
   "examples": [
     {
       "id": "25751_aisusukeeto_ex1",
-      "japanese": "アイススケートに{行|い}きませんか。",
+      "japanese": "アイススケート⟦に→に：00314_ni⟧⟦{行|い}きません→行く：00119_iku⟧⟦か→か：09473_ka⟧。",
       "english": "Would you like to go ice skating?",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "25751_aisusukeeto_ex2",
-      "japanese": "{冬|ふゆ}はアイススケートが{楽|たの}しい{季節|きせつ}だ。",
+      "japanese": "⟦{冬|ふゆ}→冬：00623_fuyu⟧⟦は→は：00079_ha⟧アイススケート⟦が→が：00051_ga⟧⟦{楽|たの}しい→楽しい：00817_tanoshii⟧⟦{季節|きせつ}→季節：01304_kisetsu⟧だ。",
       "english": "Winter is the season for enjoying ice skating.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "25751_aisusukeeto_ex3",
-      "japanese": "{子|こ}どもの{頃|ころ}にアイススケートを{習|なら}っていたので、{今|いま}でも{上手|じょうず}に{滑|すべ}れる。",
+      "japanese": "{子|こ}ども⟦の→の：09472_no⟧{頃|ころ}⟦に→に：00314_ni⟧アイススケート⟦を→を：00422_wo⟧⟦{習|なら}っていた→習う：00479_narau⟧⟦の→の：09472_no⟧で、⟦{今|いま}→今：00945_ima⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧⟦{上手|じょうず}→上手：00707_jouzu⟧⟦に→に：00314_ni⟧⟦{滑|すべ}れる→滑る：01230_suberu⟧。",
       "english": "Since I took ice skating lessons as a child, I can still skate well now.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "From English \"ice skate/skating.\" In everyday Japanese, the shorter form スケート is more common and usually implies ice skating unless otherwise specified. アイススケート is used when distinguishing from ローラースケート (roller skating) or when emphasizing that the activity takes place on ice.\n\nFigure skating ({フィギュアスケート|ふぃぎゅあすけーと}) is extremely popular in Japan, and Japanese athletes have won numerous Olympic medals in the sport.\n\nCOMMON COLLOCATIONS:\n- アイススケートをする: to go ice skating\n- アイススケートに{行|い}く: to go to ice skating\n- アイススケート{場|じょう}: ice skating rink\n- アイススケート{靴|ぐつ}: ice skates\n\nSIMILAR WORDS:\n- スケート: skating — the short form, typically implies ice skating\n- フィギュアスケート: figure skating — the competitive artistic form\n- スピードスケート: speed skating — the racing form\n- ローラースケート: roller skating — skating on wheels, not ice",
+  "notes": "From English \"ice skate/skating.\" In everyday Japanese, the shorter form ⟦スケート→スケート：00388_sukeeto⟧ is more common and usually implies ice skating unless otherwise specified. アイススケート is used when distinguishing from ⟦ローラースケート→ローラースケート：26359_rooraasukeeto⟧ (roller skating) or when emphasizing that the activity takes place on ice.\n\nFigure skating (⟦フィギュアスケート→フィギュアスケート：27428_figyuasukeeto⟧) is extremely popular in Japan, and Japanese athletes have won numerous Olympic medals in the sport.\n\nCOMMON COLLOCATIONS:\n- アイススケート⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧: to go ice skating\n- アイススケート⟦に→に：00314_ni⟧⟦{行|い}く→行く：00119_iku⟧: to go to ice skating\n- アイススケート{場|じょう}: ice skating rink\n- アイススケート{靴|ぐつ}: ice skates\n\nSIMILAR WORDS:\n- ⟦スケート→スケート：00388_sukeeto⟧: skating — the short form, typically implies ice skating\n- ⟦フィギュアスケート→フィギュアスケート：27428_figyuasukeeto⟧: figure skating — the competitive artistic form\n- ⟦スピード→スピード：11048_supiido⟧⟦スケート→スケート：00388_sukeeto⟧: speed skating — the racing form\n- ⟦ローラースケート→ローラースケート：26359_rooraasukeeto⟧: roller skating — skating on wheels, not ice",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "00388_sukeeto",
+      "reading": "すけーと",
+      "headword": "スケート",
+      "label": "skating"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27428_figyuasukeeto",
+      "reading": "ふぃぎゅあすけーと",
+      "headword": "フィギュアスケート",
+      "label": "figure skating"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26359_rooraasukeeto",
+      "reading": "ろーらーすけーと",
+      "headword": "ローラースケート",
+      "label": "roller skating"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["sports", "leisure"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "sports",
+        "leisure"
+      ]
     },
     "created": "2026-04-27T11:22:12Z",
-    "modified": "2026-04-27T11:22:12Z"
+    "modified": "2026-09-02T04:02:23Z"
   }
 }

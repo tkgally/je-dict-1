@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "05202_niwatori_ex1",
-      "japanese": "{鶏|にわとり}⟦が→が：00051_ga⟧「コケコッコー」⟦と→と：00512_to⟧⟦{鳴|な}く→鳴く：04388_naku⟧。",
+      "japanese": "{鶏|にわとり}⟦が→が：00051_ga⟧「⟦コケコッコー→コケコッコー：29112_kokekokkoo⟧」⟦と→と：00512_to⟧⟦{鳴|な}く→鳴く：04388_naku⟧。",
       "english": "The rooster crows 'cock-a-doodle-doo.'",
       "notes": null,
       "has_audio": false,
@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "{鶏|にわとり} refers to the domestic chicken as a living bird. When referring to chicken as food, ⟦{鶏肉|とりにく}→鶏肉：02919_toriniku⟧ or simply ⟦{鶏|とり}→鳥：00679_tori⟧ is used instead.\n\nSPECIFIC TERMS:\n- ⟦{雄鶏|おんどり}→雄鶏：noentry⟧: rooster\n- ⟦{雌鶏|めんどり}→雌鶏：noentry⟧: hen\n- ⟦ひよこ→ひよこ：10501_hiyoko⟧: chick\n\nAS FOOD (⟦{鶏|とり}→鳥：00679_tori⟧):\n- ⟦{鶏肉|とりにく}→鶏肉：02919_toriniku⟧: chicken meat\n- ⟦{鶏|とり}→鳥：00679_tori⟧もも⟦{肉|にく}→肉：02240_niku⟧: chicken thigh\n- ⟦{鶏|とり}→鳥：00679_tori⟧むね⟦{肉|にく}→肉：02240_niku⟧: chicken breast\n- ⟦{焼|や}き{鳥|とり}→焼き鳥：04952_yakitori⟧: grilled chicken skewers\n\nONOMATOPOEIA:\n- コケコッコー: rooster crow\n- コッコッ: hen clucking\n\nKANJI NOTE:\nThe kanji {鶏|にわとり} can also be read as とり when used for food. The word ⟦{鳥|とり}→鳥：00679_tori⟧ (bird) uses a different kanji.",
+  "notes": "{鶏|にわとり} refers to the domestic chicken as a living bird. When referring to chicken as food, ⟦{鶏肉|とりにく}→鶏肉：02919_toriniku⟧ or simply ⟦{鶏|とり}→鳥：00679_tori⟧ is used instead.\n\nSPECIFIC TERMS:\n- ⟦{雄鶏|おんどり}→雄鶏：noentry⟧: rooster\n- ⟦{雌鶏|めんどり}→雌鶏：noentry⟧: hen\n- ⟦ひよこ→ひよこ：10501_hiyoko⟧: chick\n\nAS FOOD (⟦{鶏|とり}→鳥：00679_tori⟧):\n- ⟦{鶏肉|とりにく}→鶏肉：02919_toriniku⟧: chicken meat\n- ⟦{鶏|とり}→鳥：00679_tori⟧もも⟦{肉|にく}→肉：02240_niku⟧: chicken thigh\n- ⟦{鶏|とり}→鳥：00679_tori⟧むね⟦{肉|にく}→肉：02240_niku⟧: chicken breast\n- ⟦{焼|や}き{鳥|とり}→焼き鳥：04952_yakitori⟧: grilled chicken skewers\n\nONOMATOPOEIA:\n- ⟦コケコッコー→コケコッコー：29112_kokekokkoo⟧: rooster crow\n- コッコッ: hen clucking\n\nWRITING:\nThe kanji {鶏|にわとり} can also be read as とり when used for food. The word ⟦{鳥|とり}→鳥：00679_tori⟧ (bird) uses a different kanji.",
   "cross_references": [
     {
       "type": "related",
@@ -78,11 +78,18 @@
       "reading": "とり",
       "headword": "{鳥|とり}",
       "label": "bird; chicken (meat)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23161_kiji",
+      "reading": "きじ",
+      "headword": "{雉|きじ}",
+      "label": "pheasant"
     }
   ],
   "metadata": {
     "created": "2026-01-16T03:26:34Z",
-    "modified": "2026-08-05T12:27:45Z",
+    "modified": "2026-09-02T04:01:06Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

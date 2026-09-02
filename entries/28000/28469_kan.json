@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28469_kan_ex1",
-      "japanese": "{三日|みっか}{間|かん}{休|やす}んだ。",
+      "japanese": "{三日|みっか}{間|かん}⟦{休|やす}んだ→休む：00606_yasumu⟧。",
       "english": "I rested for three days.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28469_kan_ex2",
-      "japanese": "{一週|いっしゅう}{間|かん}{旅行|りょこう}に{行|い}く。",
+      "japanese": "⟦{一週|いっしゅう}{間|かん}→一週間：10979_isshuukan⟧⟦{旅行|りょこう}→旅行：00748_ryokou⟧⟦に→に：00314_ni⟧⟦{行|い}く→行く：00119_iku⟧。",
       "english": "I'll go on a trip for one week.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28469_kan_ex3",
-      "japanese": "{留学|りゅうがく}{中|ちゅう}の{三年|さんねん}{間|かん}は、{人生|じんせい}で{最|もっと}も{大切|たいせつ}な{時期|じき}だった。",
+      "japanese": "⟦{留学|りゅうがく}→留学：03677_ryuugaku⟧⟦{中|ちゅう}→〜中：09840_chuu⟧⟦の→の：09472_no⟧⟦{三年|さんねん}{間|かん}→三年間：28861_sannenkan⟧⟦は→は：00079_ha⟧、⟦{人生|じんせい}→人生：03355_jinsei⟧⟦で→で：00502_de⟧⟦{最|もっと}も→最も：01736_mottomo⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧な⟦{時期|じき}→時期：03269_jiki⟧だった。",
       "english": "The three years I spent studying abroad were the most important period of my life.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Attaches to time-unit counters to mark a duration. Compare {十日|とおか} (the tenth of the month) vs. {十日|とおか}{間|かん} (for ten days).\n\nCOMMON COMPOUNDS:\n- {一週|いっしゅう}{間|かん}: for one week\n- {三日|みっか}{間|かん}: for three days\n- {十年|じゅうねん}{間|かん}: for ten years\n- {数|すう}{時間|じかん}: for several hours\n- {長|なが}い{間|あいだ}: for a long time (read あいだ, not かん)\n\nUSAGE:\nNot used with point-in-time expressions ({三時|さんじ}, {月曜日|げつようび}). When the time unit already implies duration ({時間|じかん}, {年間|ねんかん}), {間|かん} is built in and not added again.\n\nSIMILAR WORDS:\n- {間|あいだ}: interval; while — different reading, refers to the time/space between two points",
+  "notes": "Attaches to time-unit counters to mark a duration. Compare ⟦{十日|とおか}→十日：02917_tooka⟧ (the tenth of the month) vs. {十日|とおか}{間|かん} (for ten days).\n\nCOMPOUNDS:\n- ⟦{一週|いっしゅう}{間|かん}→一週間：10979_isshuukan⟧: for one week\n- {三日|みっか}{間|かん}: for three days\n- {十年|じゅうねん}{間|かん}: for ten years\n- ⟦{数|すう}{時間|じかん}→数時間：21622_suujikan⟧: for several hours\n- ⟦{長|なが}い→長い：00491_nagai⟧⟦{間|あいだ}→間：00914_aida⟧: for a long time (read あいだ, not かん)\n\nUSAGE:\nNot used with point-in-time expressions (⟦{三時|さんじ}→三時：10983_sanji⟧, ⟦{月曜日|げつようび}→月曜日：00624_getsuyoubi⟧). When the time unit already implies duration (⟦{時間|じかん}→時間：00468_jikan⟧, ⟦{年間|ねんかん}→年間：00974_nenkan⟧), {間|かん} is built in and not added again.\n\nSIMILAR WORDS:\n- ⟦{間|あいだ}→間：00914_aida⟧: interval; while — different reading, refers to the time/space between two points",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,13 +53,13 @@
         "suffix"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "time-general"
       ],
       "domain": []
     },
     "created": "2026-05-31T04:10:13Z",
-    "modified": "2026-08-08T18:34:17Z"
+    "modified": "2026-09-02T04:02:33Z"
   }
 }

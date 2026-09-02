@@ -3,7 +3,7 @@
   "id": "13938_shigoku",
   "headword": "{至極|しごく}",
   "reading": "しごく",
-  "part_of_speech": "adverb; noun",
+  "part_of_speech": "adverb, noun",
   "gloss": "extremely; the utmost; very much",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "13938_shigoku_ex1",
-      "japanese": "{至極|しごく}{当然|とうぜん}のことだ。",
+      "japanese": "{至極|しごく}⟦{当然|とうぜん}→当然：01591_touzen⟧⟦の→の：09472_no⟧ことだ。",
       "english": "It's a perfectly natural thing.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "13938_shigoku_ex2",
-      "japanese": "あなたの{意見|いけん}は{至極|しごく}もっともだ。",
+      "japanese": "⟦あなた→あなた：02565_anata⟧⟦の→の：09472_no⟧⟦{意見|いけん}→意見：01303_iken⟧⟦は→は：00079_ha⟧{至極|しごく}もっともだ。",
       "english": "Your opinion is entirely reasonable.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "13938_shigoku_ex3",
-      "japanese": "{彼|かれ}の{説明|せつめい}は{至極|しごく}{簡潔|かんけつ}で{分|わ}かりやすく、{聞|き}いている{全員|ぜんいん}が{納得|なっとく}した。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧⟦{説明|せつめい}→説明：01449_setsumei⟧⟦は→は：00079_ha⟧{至極|しごく}⟦{簡潔|かんけつ}→簡潔：05621_kanketsu⟧で⟦{分|わ}かり→分かる：00463_wakaru⟧やすく、⟦{聞|き}いている→聞く：00483_kiku⟧⟦{全員|ぜんいん}→全員：03310_zenin⟧⟦が→が：00051_ga⟧⟦{納得|なっとく}した→納得する：26805_nattokusuru⟧。",
       "english": "His explanation was extremely concise and easy to understand, and everyone listening was convinced.",
       "notes": null,
       "has_audio": false,
@@ -44,10 +44,33 @@
       ]
     }
   ],
-  "notes": "USAGE NOTE:\nA somewhat formal or literary intensifier. The most common collocation by far is {至極|しごく}{当然|とうぜん} (perfectly natural/obvious) and {至極|しごく}もっとも (entirely reasonable). Less commonly used than {非常|ひじょう}に or とても in everyday speech.\n\nCOMMON COLLOCATIONS:\n- {至極|しごく}{当然|とうぜん} (perfectly natural)\n- {至極|しごく}もっとも (entirely reasonable)\n- {至極|しごく}{簡単|かんたん} (extremely simple)\n- {至極|しごく}{真|ま}っ{当|とう}な (very proper/legitimate)\n\nSIMILAR WORDS:\n- {非常|ひじょう}に: extremely (standard formal intensifier)\n- {極|きわ}めて: extremely (formal, written)\n- とても: very (casual, everyday)",
+  "notes": "USAGE:\nA somewhat formal or literary intensifier. The most common collocation by far is {至極|しごく}⟦{当然|とうぜん}→当然：01591_touzen⟧ (perfectly natural/obvious) and {至極|しごく}もっとも (entirely reasonable). Less commonly used than ⟦{非常|ひじょう}→非常：01598_hijou⟧⟦に→に：00314_ni⟧ or ⟦とても→とても：00593_totemo⟧ in everyday speech.\n\nCOMMON COLLOCATIONS:\n- {至極|しごく}⟦{当然|とうぜん}→当然：01591_touzen⟧ (perfectly natural)\n- {至極|しごく}もっとも (entirely reasonable)\n- {至極|しごく}⟦{簡単|かんたん}→簡単：00713_kantan⟧ (extremely simple)\n- {至極|しごく}⟦{真|ま}っ{当|とう}→真っ当：15295_mattou⟧な (very proper/legitimate)\n\nSIMILAR WORDS:\n- ⟦{非常|ひじょう}→非常：01598_hijou⟧⟦に→に：00314_ni⟧: extremely (standard formal intensifier)\n- {極|きわ}めて: extremely (formal, written)\n- ⟦とても→とても：00593_totemo⟧: very (casual, everyday)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01223_hijouni",
+      "reading": "ひじょうに",
+      "headword": "{非常|ひじょう}に",
+      "label": "extremely"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05529_kiwamete",
+      "reading": "きわめて",
+      "headword": "{極|きわ}めて",
+      "label": "extremely"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00593_totemo",
+      "reading": "とても",
+      "headword": "とても",
+      "label": "very"
+    }
+  ],
   "metadata": {
     "created": "2026-02-27T07:09:44Z",
-    "modified": "2026-07-12T12:35:36Z",
+    "modified": "2026-09-02T04:01:35Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

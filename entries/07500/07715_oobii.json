@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "07715_oobii_ex1",
-      "japanese": "OBが{来校|らいこう}した。",
+      "japanese": "OB⟦が→が：00051_ga⟧{来校|らいこう}⟦した→する：00392_suru⟧。",
       "english": "Alumni visited the school.",
       "has_audio": false,
       "sense_numbers": [
@@ -23,7 +23,7 @@
     },
     {
       "id": "07715_oobii_ex2",
-      "japanese": "{野球部|やきゅうぶ}のOBが{指導|しどう}に{来|き}た。",
+      "japanese": "⟦{野球部|やきゅうぶ}→野球部：27441_yakyuubu⟧⟦の→の：09472_no⟧OB⟦が→が：00051_ga⟧⟦{指導|しどう}→指導：03190_shidou⟧⟦に→に：00314_ni⟧⟦{来|き}た→来る：00254_kuru⟧。",
       "english": "Baseball club alumni came to coach.",
       "has_audio": false,
       "sense_numbers": [
@@ -32,7 +32,7 @@
     },
     {
       "id": "07715_oobii_ex3",
-      "japanese": "OB{会|かい}に{参加|さんか}した。",
+      "japanese": "OB{会|かい}⟦に→に：00314_ni⟧⟦{参加|さんか}した→参加する：25408_sankasuru⟧。",
       "english": "I attended the alumni association meeting.",
       "has_audio": false,
       "sense_numbers": [
@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "notes": "ETYMOLOGY:\nAbbreviation of English 'old boy', a British term for male alumni. Adopted in Japan primarily for school and club contexts.\n\nUSAGE:\nCommonly used for:\n・School alumni (especially sports clubs)\n・Company former employees\n・Organization former members\n\nGENDER NOTE:\nOB is specifically for males. The female equivalent is OG ('old girl').\n\nCOMMON COMPOUNDS:\n・OB{会|かい} - alumni association\n・OB{戦|せん} - alumni game/match\n・OB{訪問|ほうもん} - visiting alumni (for job hunting advice)\n\nRELATED:\n・OG - female alumna",
+  "notes": "ETYMOLOGY:\nAbbreviation of English 'old boy', a British term for male alumni. Adopted in Japan primarily for school and club contexts.\n\nUSAGE:\nCommonly used for:\n- School alumni (especially sports clubs)\n- Company former employees\n- Organization former members\n\nGENDER NOTE:\nOB is specifically for males. The female equivalent is OG ('old girl').\n\nCOMPOUNDS:\n- OB{会|かい} - alumni association\n- OB{戦|せん} - alumni game/match\n- OB{訪問|ほうもん} - visiting alumni (for job hunting advice)\n\nRELATED WORDS:\n- OG - female alumna",
   "cross_references": [
     {
       "type": "related",
@@ -52,7 +52,7 @@
   ],
   "metadata": {
     "created": "2026-01-21T00:23:15Z",
-    "modified": "2026-07-01T03:20:01Z",
+    "modified": "2026-09-02T04:01:12Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +60,7 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "education",
         "society"

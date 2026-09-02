@@ -15,41 +15,51 @@
   "examples": [
     {
       "id": "27879_youkoso_ex1",
-      "japanese": "ようこそ{日本|にほん}へ。",
+      "japanese": "ようこそ⟦{日本|にほん}→日本：03876_nihon⟧⟦へ→へ：02473_he⟧。",
       "english": "Welcome to Japan.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27879_youkoso_ex2",
-      "japanese": "ようこそ{我|わ}が{家|や}へ。",
+      "japanese": "ようこそ⟦{我|わ}が{家|や}→我が家：03038_wagaya⟧⟦へ→へ：02473_he⟧。",
       "english": "Welcome to our home.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27879_youkoso_ex3",
-      "japanese": "{店長|てんちょう}は「ようこそお{越|こ}しくださいました」と{深々|ふかぶか}と{頭|あたま}を{下|さ}げた。",
+      "japanese": "⟦{店長|てんちょう}→店長：30461_tenchou⟧⟦は→は：00079_ha⟧「ようこそ⟦お{越|こ}し→お越し：07322_okoshi⟧⟦くださいました→くださる：01305_kudasaru⟧」⟦と→と：00512_to⟧{深々|ふかぶか}⟦と→と：00512_to⟧⟦{頭|あたま}→頭：00574_atama⟧⟦を→を：00422_wo⟧⟦{下|さ}げた→下げる：00807_sageru⟧。",
       "english": "The manager bowed deeply and said, 'Welcome, thank you for coming.'",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "An expression of welcome to a visitor or guest, frequently followed by a destination with へ: ようこそ〜へ ('welcome to ~').\n\nCOMMON COLLOCATIONS:\n- ようこそ{日本|にほん}へ: welcome to Japan\n- ようこそお{越|こ}しくださいました: welcome, thank you for coming (polite)\n- ようこそいらっしゃいました: welcome (polite)\n\nNUANCE:\nWarmer and more personal than the routine shop greeting いらっしゃいませ, which is called out to any customer entering a store.",
+  "notes": "An expression of welcome to a visitor or guest, frequently followed by a destination with ⟦へ→へ：02473_he⟧: ようこそ〜⟦へ→へ：02473_he⟧ ('welcome to ~').\n\nCOMMON COLLOCATIONS:\n- ようこそ⟦{日本|にほん}→日本：03876_nihon⟧⟦へ→へ：02473_he⟧: welcome to Japan\n- ようこそ⟦お{越|こ}し→お越し：07322_okoshi⟧⟦くださいました→くださる：01305_kudasaru⟧: welcome, thank you for coming (polite)\n- ようこそ⟦いらっしゃいました→いらっしゃる：01295_irassharu⟧: welcome (polite)\n\nUSAGE:\nWarmer and more personal than the routine shop greeting ⟦いらっしゃいませ→いらっしゃる：01295_irassharu⟧, which is called out to any customer entering a store.",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["expression"],
+      "pos": [
+        "expression"
+      ],
       "formality": "neutral",
       "politeness": "polite",
-      "semantic": ["communication"],
+      "semantic": [
+        "communication"
+      ],
       "domain": []
     },
     "created": "2026-05-21T04:04:20Z",
-    "modified": "2026-05-21T04:04:20Z"
+    "modified": "2026-09-02T04:02:32Z"
   }
 }

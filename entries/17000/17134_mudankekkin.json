@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "17134_mudankekkin_ex1",
-      "japanese": "{無断欠勤|むだんけっきん}は{許|ゆる}されない。",
+      "japanese": "{無断欠勤|むだんけっきん}⟦は→は：00079_ha⟧⟦{許|ゆる}されない→許す：02325_yurusu⟧。",
       "english": "Unauthorized absence from work is not tolerated.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "17134_mudankekkin_ex2",
-      "japanese": "{彼|かれ}は{三日間|みっかかん}{無断欠勤|むだんけっきん}した。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{三日間|みっかかん}{無断欠勤|むだんけっきん}⟦した→する：00392_suru⟧。",
       "english": "He was absent from work for three days without notice.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "17134_mudankekkin_ex3",
-      "japanese": "{無断欠勤|むだんけっきん}が{続|つづ}くと、{解雇|かいこ}の{理由|りゆう}になることがある。",
+      "japanese": "{無断欠勤|むだんけっきん}⟦が→が：00051_ga⟧⟦{続|つづ}く→続く：00903_tsuzuku⟧⟦と→と：00512_to⟧、⟦{解雇|かいこ}→解雇：04561_kaiko⟧⟦の→の：09472_no⟧⟦{理由|りゆう}→理由：01102_riyuu⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧こと⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "Continued unauthorized absences can become grounds for dismissal.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA four-character compound of {無断|むだん} (without permission) + {欠勤|けっきん} (absence from work). Used as a suru verb ({無断欠勤|むだんけっきん}する). This is considered a serious infraction in Japanese workplaces.\n\nCOMMON COLLOCATIONS:\n- {無断欠勤|むだんけっきん}する (to be absent without notice)\n- {無断欠勤|むだんけっきん}が{続|つづ}く (unauthorized absences continue)\n- {無断欠勤|むだんけっきん}を{繰|く}り{返|かえ}す (to repeatedly be absent without notice)\n\nSIMILAR WORDS:\n- {欠勤|けっきん}: absence from work — the general term, not necessarily unauthorized\n- {無断|むだん}{欠席|けっせき}: unauthorized absence — used for school or meetings rather than work",
+  "notes": "USAGE:\nA four-character compound of ⟦{無断|むだん}→無断：13382_mudan⟧ (without permission) + ⟦{欠勤|けっきん}→欠勤：07732_kekkin⟧ (absence from work). Used as a suru verb ({無断欠勤|むだんけっきん}⟦する→する：00392_suru⟧). This is considered a serious infraction in Japanese workplaces.\n\nCOMMON COLLOCATIONS:\n- {無断欠勤|むだんけっきん}⟦する→する：00392_suru⟧ (to be absent without notice)\n- {無断欠勤|むだんけっきん}⟦が→が：00051_ga⟧⟦{続|つづ}く→続く：00903_tsuzuku⟧ (unauthorized absences continue)\n- {無断欠勤|むだんけっきん}⟦を→を：00422_wo⟧⟦{繰|く}り{返|かえ}す→繰り返す：02051_kurikaesu⟧ (to repeatedly be absent without notice)\n\nSIMILAR WORDS:\n- ⟦{欠勤|けっきん}→欠勤：07732_kekkin⟧: absence from work — the general term, not necessarily unauthorized\n- ⟦{無断|むだん}{欠席|けっせき}→無断欠席：21256_mudankesseki⟧: unauthorized absence — used for school or meetings rather than work",
   "cross_references": [
     {
       "type": "related",
@@ -142,11 +142,18 @@
       "reading": "けっきん",
       "headword": "{欠勤|けっきん}",
       "label": "absence from work (general)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21256_mudankesseki",
+      "reading": "むだんけっせき",
+      "headword": "{無断欠席|むだんけっせき}",
+      "label": "unauthorized absence"
     }
   ],
   "metadata": {
     "created": "2026-03-16T03:06:49Z",
-    "modified": "2026-05-05T10:11:30Z",
+    "modified": "2026-09-02T04:01:47Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

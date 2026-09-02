@@ -2,7 +2,7 @@
   "id": "04586_kikiireru",
   "headword": "{聞|き}き{入|い}れる",
   "reading": "ききいれる",
-  "part_of_speech": "ichidan verb",
+  "part_of_speech": "verb (ichidan)",
   "gloss": "to accept, to grant, to comply with",
   "conjugation": {
     "type": "ichidan",
@@ -149,7 +149,7 @@
     },
     {
       "id": "04586_kikiireru_ex5",
-      "japanese": "⟦{親|おや}→親：01357_oya⟧⟦の→の：09472_no⟧⟦{言|い}う→言う：00515_iu⟧⟦こと→こと：01164_koto⟧⟦を→を：00422_wo⟧{聞|き}き{入|い}れなさい。",
+      "japanese": "⟦{親|おや}→親：01357_oya⟧⟦の→の：09472_no⟧⟦{言|い}う→言う：00515_iu⟧⟦こと→こと：01164_koto⟧⟦を→を：00422_wo⟧{聞|き}き{入|い}れ⟦なさい→なさる：01307_nasaru⟧。",
       "english": "Listen to what your parents say and follow it.",
       "notes": null,
       "has_audio": false,
@@ -168,11 +168,19 @@
       ]
     }
   ],
-  "notes": "{聞|き}き{入|い}れる is a transitive verb (⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧) meaning to accept or comply with a request.\n\nCOMPOUND STRUCTURE:\n- ⟦{聞|き}く→聞く：00483_kiku⟧ (to listen) + ⟦{入|い}れる→入れる：01098_ireru⟧ (to put in, to accept) → to take in what one hears\n\nASPECT (ている):\n{聞|き}き{入|い}れている is not commonly used; the simple form or past tense is more typical.\n\nCOMMON PATTERNS:\n- ⟦{要望|ようぼう}→要望：14111_youbou⟧⟦を→を：00422_wo⟧{聞|き}き{入|い}れる (accept a request)\n- ⟦{意見|いけん}→意見：01303_iken⟧⟦を→を：00422_wo⟧{聞|き}き{入|い}れる (accept an opinion)\n- ⟦{願|ねが}い→願い：03529_negai⟧⟦を→を：00422_wo⟧{聞|き}き{入|い}れる (grant a wish)\n- ⟦{忠告|ちゅうこく}→忠告：05462_chuukoku⟧⟦を→を：00422_wo⟧{聞|き}き{入|い}れる (heed advice)\n\nSIMILAR WORDS:\n- ⟦{受|う}け{入|い}れる→受け入れる：05755_ukeireru⟧: to accept (more general)\n- {聞|き}き{入|い}れる implies listening to a request and then accepting it",
-  "cross_references": [],
+  "notes": "{聞|き}き{入|い}れる is a transitive verb (⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧) meaning to accept or comply with a request.\n\nETYMOLOGY:\n- ⟦{聞|き}く→聞く：00483_kiku⟧ (to listen) + ⟦{入|い}れる→入れる：01098_ireru⟧ (to put in, to accept) → to take in what one hears\n\nASPECT (ている):\n{聞|き}き{入|い}れて⟦いる→いる：00495_iru⟧ is not commonly used; the simple form or past tense is more typical.\n\nCOMMON PATTERNS:\n- ⟦{要望|ようぼう}→要望：14111_youbou⟧⟦を→を：00422_wo⟧{聞|き}き{入|い}れる (accept a request)\n- ⟦{意見|いけん}→意見：01303_iken⟧⟦を→を：00422_wo⟧{聞|き}き{入|い}れる (accept an opinion)\n- ⟦{願|ねが}い→願い：03529_negai⟧⟦を→を：00422_wo⟧{聞|き}き{入|い}れる (grant a wish)\n- ⟦{忠告|ちゅうこく}→忠告：05462_chuukoku⟧⟦を→を：00422_wo⟧{聞|き}き{入|い}れる (heed advice)\n\nSIMILAR WORDS:\n- ⟦{受|う}け{入|い}れる→受け入れる：05755_ukeireru⟧: to accept (more general)\n- {聞|き}き{入|い}れる implies listening to a request and then accepting it",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05755_ukeireru",
+      "reading": "うけいれる",
+      "headword": "{受|う}け{入|い}れる",
+      "label": "to accept"
+    }
+  ],
   "metadata": {
     "created": "2026-01-14T03:52:00Z",
-    "modified": "2026-06-01T15:39:15Z",
+    "modified": "2026-09-02T04:01:05Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

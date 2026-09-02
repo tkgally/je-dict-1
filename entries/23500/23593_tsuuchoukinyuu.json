@@ -3,7 +3,7 @@
   "headword": "{通帳記入|つうちょうきにゅう}",
   "reading": "つうちょうきにゅう",
   "romaji": "tsuuchoukinyuu",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "passbook update; printing transactions in a bankbook",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "23593_tsuuchoukinyuu_ex1",
-      "japanese": "ATMで{通帳記入|つうちょうきにゅう}をする。",
+      "japanese": "ATM⟦で→で：00502_de⟧{通帳記入|つうちょうきにゅう}⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧。",
       "english": "To update the passbook at an ATM.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "23593_tsuuchoukinyuu_ex2",
-      "japanese": "{久|ひさ}しぶりに{通帳記入|つうちょうきにゅう}したら{記録|きろく}がたくさん{出|で}てきた。",
+      "japanese": "⟦{久|ひさ}しぶり→久しぶり：01711_hisashiburi⟧⟦に→に：00314_ni⟧{通帳記入|つうちょうきにゅう}⟦したら→する：00392_suru⟧⟦{記録|きろく}→記録：02490_kiroku⟧⟦が→が：00051_ga⟧⟦たくさん→たくさん：00597_takusan⟧⟦{出|で}て→出る：00513_deru⟧きた。",
       "english": "When I updated my passbook after a long time, a lot of entries came out at once.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "23593_tsuuchoukinyuu_ex3",
-      "japanese": "{通帳記入|つうちょうきにゅう}は{窓口|まどぐち}ではなく{専用|せんよう}のATMで{無料|むりょう}でできます。",
+      "japanese": "{通帳記入|つうちょうきにゅう}⟦は→は：00079_ha⟧⟦{窓口|まどぐち}→窓口：03154_madoguchi⟧⟦ではなく→ではなく：09578_dehanaku⟧⟦{専用|せんよう}→専用：12385_senyou⟧⟦の→の：09472_no⟧ATM⟦で→で：00502_de⟧⟦{無料|むりょう}→無料：01662_muryou⟧⟦で→で：00502_de⟧⟦できます→できる：00557_dekiru⟧。",
       "english": "Passbook updates can be done free of charge at dedicated ATMs, not at the counter.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {通帳|つうちょう} (passbook) and {記入|きにゅう} (filling in, entering). The label appears on Japanese ATM menus and is a routine banking task. When too many transactions have accumulated while the passbook was not updated, the ATM may print a summary line instead of every transaction.\n\nCOMMON COLLOCATIONS:\n- {通帳記入|つうちょうきにゅう}をする: to update the passbook\n- {通帳記入|つうちょうきにゅう}を{済|す}ませる: to finish updating the passbook\n- {通帳記入|つうちょうきにゅう}{機|き}: dedicated passbook-update machine\n- {未記帳|みきちょう}{分|ぶん}の{通帳記入|つうちょうきにゅう}: updating with not-yet-printed transactions\n\nRELATED TERMS:\n- {通帳|つうちょう}: passbook — the booklet being updated\n- {記帳|きちょう}: bookkeeping; making an entry in a book — a near-synonym that also appears on ATM menus as {記帳|きちょう}\n- {預金通帳|よきんつうちょう}: bank passbook — the more formal full form",
+  "notes": "Compound of ⟦{通帳|つうちょう}→通帳：09924_tsuuchou⟧ (passbook) and ⟦{記入|きにゅう}→記入：02624_kinyuu⟧ (filling in, entering). The label appears on Japanese ATM menus and is a routine banking task. When too many transactions have accumulated while the passbook was not updated, the ATM may print a summary line instead of every transaction.\n\nCOMMON COLLOCATIONS:\n- {通帳記入|つうちょうきにゅう}⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧: to update the passbook\n- {通帳記入|つうちょうきにゅう}⟦を→を：00422_wo⟧⟦{済|す}ませる→済ませる：02121_sumaseru⟧: to finish updating the passbook\n- {通帳記入|つうちょうきにゅう}⟦{機|き}→〜機：09843_ki⟧: dedicated passbook-update machine\n- {未記帳|みきちょう}⟦{分|ぶん}→分：26216_bun⟧⟦の→の：09472_no⟧{通帳記入|つうちょうきにゅう}: updating with not-yet-printed transactions\n\nRELATED WORDS:\n- ⟦{通帳|つうちょう}→通帳：09924_tsuuchou⟧: passbook — the booklet being updated\n- ⟦{記帳|きちょう}→記帳：18809_kichou⟧: bookkeeping; making an entry in a book — a near-synonym that also appears on ATM menus as ⟦{記帳|きちょう}→記帳：18809_kichou⟧\n- ⟦{預金通帳|よきんつうちょう}→預金通帳：23587_yokintsuuchou⟧: bank passbook — the more formal full form",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "18809_kichou",
+      "reading": "きちょう",
+      "headword": "{記帳|きちょう}",
+      "label": "bookkeeping"
+    },
+    {
+      "type": "related",
+      "target_id": "23587_yokintsuuchou",
+      "reading": "よきんつうちょう",
+      "headword": "{預金通帳|よきんつうちょう}",
+      "label": "bank passbook"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -65,7 +81,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-12T18:13:54Z",
-    "modified": "2026-08-01T21:36:06Z"
+    "modified": "2026-09-02T04:02:13Z"
   },
   "conjugation": {
     "type": "suru",

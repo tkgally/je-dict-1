@@ -15,39 +15,66 @@
   "examples": [
     {
       "id": "26115_koukanbuhin_ex1",
-      "japanese": "{交換|こうかん}{部品|ぶひん}を{注文|ちゅうもん}する。",
+      "japanese": "{交換|こうかん}{部品|ぶひん}⟦を→を：00422_wo⟧⟦{注文|ちゅうもん}する→注文する：21390_chuumon⟧。",
       "english": "To order a replacement part.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26115_koukanbuhin_ex2",
-      "japanese": "この{機種|きしゅ}の{交換|こうかん}{部品|ぶひん}はもう{手|て}に{入|はい}らない。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{機種|きしゅ}→機種：13211_kishu⟧⟦の→の：09472_no⟧{交換|こうかん}{部品|ぶひん}⟦は→は：00079_ha⟧⟦もう→もう：00602_mou⟧⟦{手|て}→手：00569_te⟧⟦に→に：00314_ni⟧⟦{入|はい}らない→入る：00494_hairu⟧。",
       "english": "Replacement parts for this model are no longer available.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26115_koukanbuhin_ex3",
-      "japanese": "{修理|しゅうり}には{交換|こうかん}{部品|ぶひん}の{費用|ひよう}と{工賃|こうちん}が{別途|べっと}かかります。",
+      "japanese": "⟦{修理|しゅうり}→修理：03214_shuuri⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{交換|こうかん}{部品|ぶひん}⟦の→の：09472_no⟧⟦{費用|ひよう}→費用：03588_hiyou⟧⟦と→と：00512_to⟧⟦{工賃|こうちん}→工賃：23036_kouchin⟧⟦が→が：00051_ga⟧⟦{別途|べっと}→別途：11881_betto⟧⟦かかります→かかる：00711_kakaru⟧。",
       "english": "The repair will incur separate costs for the replacement part and labor.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {交換|こうかん} (exchange; replacement) and {部品|ぶひん} (parts; components). Used in maintenance, repair, and manufacturing contexts. Essential vocabulary when dealing with car maintenance, appliance repair, or technical support in Japan.\n\nCOMMON COLLOCATIONS:\n- {交換|こうかん}{部品|ぶひん}を{取|と}り{寄|よ}せる: to order a replacement part\n- {交換|こうかん}{部品|ぶひん}の{在庫|ざいこ}: replacement parts inventory\n- {純正|じゅんせい}{交換|こうかん}{部品|ぶひん}: genuine replacement parts\n- {交換|こうかん}{部品|ぶひん}{代|だい}: cost of replacement parts\n\nSIMILAR WORDS:\n- スペアパーツ: spare parts — loanword, often used in automotive contexts\n- {予備|よび}{部品|ぶひん}: spare parts — parts kept in reserve as backup\n- {消耗品|しょうもうひん}: consumable parts — parts designed to be replaced regularly through normal use",
-  "cross_references": [],
+  "notes": "A compound of ⟦{交換|こうかん}→交換：02746_koukan⟧ (exchange; replacement) and ⟦{部品|ぶひん}→部品：00020_buhin⟧ (parts; components). Used in maintenance, repair, and manufacturing contexts. Essential vocabulary when dealing with car maintenance, appliance repair, or technical support in Japan.\n\nCOMMON COLLOCATIONS:\n- {交換|こうかん}{部品|ぶひん}⟦を→を：00422_wo⟧⟦{取|と}り{寄|よ}せる→取り寄せる：26804_toriyoseru⟧: to order a replacement part\n- {交換|こうかん}{部品|ぶひん}⟦の→の：09472_no⟧⟦{在庫|ざいこ}→在庫：04701_zaiko⟧: replacement parts inventory\n- ⟦{純正|じゅんせい}→純正：21689_junsei⟧{交換|こうかん}{部品|ぶひん}: genuine replacement parts\n- {交換|こうかん}{部品|ぶひん}⟦{代|だい}→〜代：28331_dai⟧: cost of replacement parts\n\nSIMILAR WORDS:\n- スペア⟦パーツ→パーツ：11272_paatsu⟧: spare parts — loanword, often used in automotive contexts\n- ⟦{予備|よび}{部品|ぶひん}→予備部品：25108_yobibuhin⟧: spare parts — parts kept in reserve as backup\n- ⟦{消耗品|しょうもうひん}→消耗品：09548_shoumouhin⟧: consumable parts — parts designed to be replaced regularly through normal use",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25108_yobibuhin",
+      "reading": "よびぶひん",
+      "headword": "{予備部品|よびぶひん}",
+      "label": "spare parts"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09548_shoumouhin",
+      "reading": "しょうもうひん",
+      "headword": "{消耗品|しょうもうひん}",
+      "label": "consumable parts"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["technology"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "technology"
+      ]
     },
     "created": "2026-04-29T13:40:28Z",
-    "modified": "2026-04-29T13:40:28Z"
+    "modified": "2026-09-02T04:02:25Z"
   }
 }

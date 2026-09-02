@@ -15,39 +15,60 @@
   "examples": [
     {
       "id": "26190_choukokutou_ex1",
-      "japanese": "{彫刻刀|ちょうこくとう}で{木|き}を{彫|ほ}る。",
+      "japanese": "{彫刻刀|ちょうこくとう}⟦で→で：00502_de⟧⟦{木|き}→木：00524_ki⟧⟦を→を：00422_wo⟧⟦{彫|ほ}る→彫る：00114_horu⟧。",
       "english": "To carve wood with a chisel.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26190_choukokutou_ex2",
-      "japanese": "{小学校|しょうがっこう}の{図工|ずこう}の{時間|じかん}に{彫刻刀|ちょうこくとう}を{使|つか}った。",
+      "japanese": "⟦{小学校|しょうがっこう}→小学校：01055_shougakkou⟧⟦の→の：09472_no⟧⟦{図工|ずこう}→図工：19698_zukou⟧⟦の→の：09472_no⟧⟦{時間|じかん}→時間：00468_jikan⟧⟦に→に：00314_ni⟧{彫刻刀|ちょうこくとう}⟦を→を：00422_wo⟧⟦{使|つか}った→使う：00473_tsukau⟧。",
       "english": "I used carving chisels during arts and crafts class in elementary school.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26190_choukokutou_ex3",
-      "japanese": "{彫刻刀|ちょうこくとう}の{刃|は}が{欠|か}けたので{新|あたら}しいものを{買|か}いに{行|い}った。",
+      "japanese": "{彫刻刀|ちょうこくとう}⟦の→の：09472_no⟧⟦{刃|は}→刃：09865_ha⟧⟦が→が：00051_ga⟧⟦{欠|か}けた→欠ける：13167_kakeru⟧⟦の→の：09472_no⟧で⟦{新|あたら}しい→新しい：00506_atarashii⟧もの⟦を→を：00422_wo⟧⟦{買|か}い→買う：00489_kau⟧⟦に→に：00314_ni⟧⟦{行|い}った→行く：00119_iku⟧。",
       "english": "The blade on my carving chisel chipped, so I went to buy a new one.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "In Japanese schools, students typically use a set of {彫刻刀|ちょうこくとう} during art class ({図工|ずこう}) for woodblock printing ({版画|はんが}). Standard school sets include several blade types such as {丸刀|まるとう} (round gouge), {平刀|ひらとう} (flat chisel), {三角刀|さんかくとう} (V-gouge), and {切出|きりだ}し{刀|とう} (cutting knife).\n\nCOMMON COLLOCATIONS:\n- {彫刻刀|ちょうこくとう}で{彫|ほ}る — to carve with a chisel\n- {彫刻刀|ちょうこくとう}セット — carving chisel set\n- {彫刻刀|ちょうこくとう}の{刃|は} — chisel blade\n- {彫刻刀|ちょうこくとう}を{研|と}ぐ — to sharpen a chisel\n\nRELATED TERMS:\n- {彫刻|ちょうこく} — sculpture; carving\n- {版画|はんが} — woodblock print\n- {のみ} — chisel (for larger woodworking)",
-  "cross_references": [],
+  "notes": "In Japanese schools, students typically use a set of {彫刻刀|ちょうこくとう} during art class (⟦{図工|ずこう}→図工：19698_zukou⟧) for woodblock printing (⟦{版画|はんが}→版画：10582_hanga⟧). Standard school sets include several blade types such as {丸刀|まるとう} (round gouge), {平刀|ひらとう} (flat chisel), {三角刀|さんかくとう} (V-gouge), and {切出|きりだ}し{刀|とう} (cutting knife).\n\nCOMMON COLLOCATIONS:\n- {彫刻刀|ちょうこくとう}⟦で→で：00502_de⟧⟦{彫|ほ}る→彫る：00114_horu⟧ — to carve with a chisel\n- {彫刻刀|ちょうこくとう}⟦セット→セット：03853_setto⟧ — carving chisel set\n- {彫刻刀|ちょうこくとう}⟦の→の：09472_no⟧⟦{刃|は}→刃：09865_ha⟧ — chisel blade\n- {彫刻刀|ちょうこくとう}⟦を→を：00422_wo⟧⟦{研|と}ぐ→研ぐ：04377_togu⟧ — to sharpen a chisel\n\nRELATED WORDS:\n- ⟦{彫刻|ちょうこく}→彫刻：04448_choukoku⟧ — sculpture; carving\n- ⟦{版画|はんが}→版画：10582_hanga⟧ — woodblock print\n- ⟦のみ→のみ：06546_nomi⟧ — chisel (for larger woodworking)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "10582_hanga",
+      "reading": "はんが",
+      "headword": "{版画|はんが}",
+      "label": "woodblock print"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["art", "tool"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "art",
+        "tool"
+      ]
     },
     "created": "2026-04-30T11:26:37Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T04:02:25Z"
   }
 }

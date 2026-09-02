@@ -15,41 +15,61 @@
   "examples": [
     {
       "id": "27878_moppu_ex1",
-      "japanese": "モップで{床|ゆか}を{拭|ふ}く。",
+      "japanese": "モップ⟦で→で：00502_de⟧⟦{床|ゆか}→床：03652_yuka⟧⟦を→を：00422_wo⟧⟦{拭|ふ}く→拭く：04261_fuku⟧。",
       "english": "to mop the floor.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27878_moppu_ex2",
-      "japanese": "{掃除|そうじ}の{時間|じかん}に、モップで{廊下|ろうか}をきれいにした。",
+      "japanese": "⟦{掃除|そうじ}→掃除：02889_souji⟧⟦の→の：09472_no⟧⟦{時間|じかん}→時間：00468_jikan⟧⟦に→に：00314_ni⟧、モップ⟦で→で：00502_de⟧⟦{廊下|ろうか}→廊下：05005_rouka⟧⟦を→を：00422_wo⟧⟦きれい→きれい：00717_kirei⟧にした。",
       "english": "During cleaning time, I cleaned the hallway with a mop.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27878_moppu_ex3",
-      "japanese": "{水|みず}をこぼしてしまったので、モップで{手早|てばや}く{拭|ふ}き{取|と}ってから{乾|かわ}いた{布|ぬの}で{仕上|しあ}げた。",
+      "japanese": "⟦{水|みず}→水：02258_mizu⟧⟦を→を：00422_wo⟧⟦こぼして→こぼす：02104_kobosu⟧しまった⟦の→の：09472_no⟧で、モップ⟦で→で：00502_de⟧{手早|てばや}く⟦{拭|ふ}き{取|と}って→拭き取る：18690_fukitoru⟧⟦から→から：00504_kara⟧⟦{乾|かわ}いた→乾く：00786_kawaku⟧⟦{布|ぬの}→布：01489_nuno⟧⟦で→で：00502_de⟧⟦{仕上|しあ}げた→仕上げる：04664_shiageru⟧。",
       "english": "I spilled water, so I quickly wiped it up with a mop and finished with a dry cloth.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Loanword from English 'mop.' A long-handled tool for cleaning floors, used either dry or with water and cleaner.\n\nCOMMON COLLOCATIONS:\n- モップをかける: to mop (a floor)\n- モップで{拭|ふ}く: to wipe with a mop\n- フロアモップ: a flat floor mop\n\nSIMILAR WORDS:\n- {雑巾|ぞうきん}: a cleaning cloth — used by hand, on a smaller scale\n- ほうき: broom — for sweeping up dry dirt rather than wiping",
+  "notes": "Loanword from English 'mop.' A long-handled tool for cleaning floors, used either dry or with water and cleaner.\n\nCOMMON COLLOCATIONS:\n- モップ⟦を→を：00422_wo⟧⟦かける→かける：00854_kakeru⟧: to mop (a floor)\n- モップ⟦で→で：00502_de⟧⟦{拭|ふ}く→拭く：04261_fuku⟧: to wipe with a mop\n- フロアモップ: a flat floor mop\n\nSIMILAR WORDS:\n- ⟦{雑巾|ぞうきん}→雑巾：04408_zoukin⟧: a cleaning cloth — used by hand, on a smaller scale\n- ほうき: broom — for sweeping up dry dirt rather than wiping",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04408_zoukin",
+      "reading": "ぞうきん",
+      "headword": "{雑巾|ぞうきん}",
+      "label": "a cleaning cloth"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["tool", "daily-life"],
+      "politeness": "plain",
+      "semantic": [
+        "tool",
+        "daily-life"
+      ],
       "domain": []
     },
     "created": "2026-05-21T04:04:20Z",
-    "modified": "2026-05-21T04:04:20Z"
+    "modified": "2026-09-02T04:02:32Z"
   }
 }

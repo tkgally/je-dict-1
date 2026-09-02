@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "15628_tewatashi_ex1",
-      "japanese": "{書類|しょるい}を{手渡|てわた}しした。",
+      "japanese": "⟦{書類|しょるい}→書類：01103_shorui⟧⟦を→を：00422_wo⟧{手渡|てわた}し⟦した→する：00392_suru⟧。",
       "english": "I handed over the documents in person.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "15628_tewatashi_ex2",
-      "japanese": "{大切|たいせつ}なものだから、{手渡|てわた}しで{届|とど}けたい。",
+      "japanese": "⟦{大切|たいせつ}→大切：01456_taisetsu⟧なものだ⟦から→から：00504_kara⟧、{手渡|てわた}し⟦で→で：00502_de⟧⟦{届|とど}けたい→届ける：01248_todokeru⟧。",
       "english": "Since it's something important, I want to deliver it by hand.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "15628_tewatashi_ex3",
-      "japanese": "{給料|きゅうりょう}は{銀行|ぎんこう}{振込|ふりこ}みではなく{手渡|てわた}しで{支払|しはら}われた。",
+      "japanese": "⟦{給料|きゅうりょう}→給料：01086_kyuuryou⟧⟦は→は：00079_ha⟧⟦{銀行|ぎんこう}→銀行：00578_ginkou⟧{振込|ふりこ}み⟦ではなく→ではなく：09578_dehanaku⟧{手渡|てわた}し⟦で→で：00502_de⟧⟦{支払|しはら}われた→支払う：02116_shiharau⟧。",
       "english": "The salary was paid by hand rather than by bank transfer.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,19 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{手渡|てわた}し functions both as a noun and as the stem of the verb {手渡|てわた}しする (to hand over directly). It emphasizes the directness and personal nature of the delivery.\n\nCOMMON COLLOCATIONS:\n- {手渡|てわた}しで{渡|わた}す (to pass by hand)\n- {手渡|てわた}しで{届|とど}ける (to deliver in person)\n- {手渡|てわた}しする (to hand over directly)\n- {給料|きゅうりょう}の{手渡|てわた}し (hand delivery of salary)\n\nSIMILAR WORDS:\n- {直接|ちょくせつ}{渡|わた}す: to hand over directly (phrase)\n- {配達|はいたつ}: delivery (by courier or mail)",
-  "cross_references": [],
+  "notes": "USAGE:\n{手渡|てわた}し functions both as a noun and as the stem of the verb {手渡|てわた}し⟦する→する：00392_suru⟧ (to hand over directly). It emphasizes the directness and personal nature of the delivery.\n\nCOMMON COLLOCATIONS:\n- {手渡|てわた}し⟦で→で：00502_de⟧⟦{渡|わた}す→渡す：02442_watasu⟧ (to pass by hand)\n- {手渡|てわた}し⟦で→で：00502_de⟧⟦{届|とど}ける→届ける：01248_todokeru⟧ (to deliver in person)\n- {手渡|てわた}し⟦する→する：00392_suru⟧ (to hand over directly)\n- ⟦{給料|きゅうりょう}→給料：01086_kyuuryou⟧⟦の→の：09472_no⟧{手渡|てわた}し (hand delivery of salary)\n\nSIMILAR WORDS:\n- ⟦{直接|ちょくせつ}→直接：03499_chokusetsu⟧⟦{渡|わた}す→渡す：02442_watasu⟧: to hand over directly (phrase)\n- ⟦{配達|はいたつ}→配達：00084_haitatsu⟧: delivery (by courier or mail)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00084_haitatsu",
+      "reading": "はいたつ",
+      "headword": "{配達|はいたつ}",
+      "label": "delivery"
+    }
+  ],
   "metadata": {
     "created": "2026-03-07T13:43:42Z",
-    "modified": "2026-03-29T03:08:43Z",
+    "modified": "2026-09-02T04:01:41Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -151,7 +159,8 @@
       "semantic": [
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22118_gakushuujuku_ex1",
-      "japanese": "{子|こ}どもを{学習塾|がくしゅうじゅく}に{通|かよ}わせている。",
+      "japanese": "{子|こ}ども⟦を→を：00422_wo⟧{学習塾|がくしゅうじゅく}⟦に→に：00314_ni⟧⟦{通|かよ}わせている→通う：01217_kayou⟧。",
       "english": "I'm sending my child to a cram school.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22118_gakushuujuku_ex2",
-      "japanese": "{学習塾|がくしゅうじゅく}の{月謝|げっしゃ}は{結構|けっこう}{高|たか}い。",
+      "japanese": "{学習塾|がくしゅうじゅく}⟦の→の：09472_no⟧⟦{月謝|げっしゃ}→月謝：16421_gessha⟧⟦は→は：00079_ha⟧⟦{結構|けっこう}→結構：10387_kekkou⟧⟦{高|たか}い→高い：00500_takai⟧。",
       "english": "The monthly tuition for cram school is quite expensive.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22118_gakushuujuku_ex3",
-      "japanese": "{中学|ちゅうがく}{受験|じゅけん}のために、{小学|しょうがく}4{年生|ねんせい}から{学習塾|がくしゅうじゅく}に{通|かよ}い{始|はじ}める{子|こ}どもが{多|おお}い。",
+      "japanese": "⟦{中学|ちゅうがく}→中学：03477_chuugaku⟧⟦{受験|じゅけん}→受験：04272_juken⟧⟦の→の：09472_no⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧、⟦{小学|しょうがく}→小学：29351_shougaku⟧4⟦{年生|ねんせい}→年生：30431_nensei⟧⟦から→から：00504_kara⟧{学習塾|がくしゅうじゅく}⟦に→に：00314_ni⟧⟦{通|かよ}い→通う：01217_kayou⟧{始|はじ}める{子|こ}ども⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "Many children start attending cram school from the fourth grade of elementary school in preparation for middle school entrance exams.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {学習|がくしゅう} (study, learning) + {塾|じゅく} (private school). This is the formal term for cram schools; in everyday conversation, people often say simply {塾|じゅく}.\n\nCOMMON COLLOCATIONS:\n- {学習塾|がくしゅうじゅく}に{通|かよ}う: to attend a cram school\n- {学習塾|がくしゅうじゅく}の{講師|こうし}: cram school instructor\n- {学習塾|がくしゅうじゅく}の{月謝|げっしゃ}: cram school monthly tuition\n- {個別|こべつ}{指導|しどう}{塾|じゅく}: individual tutoring school\n\nSIMILAR WORDS:\n- {塾|じゅく}: cram school — shorter, more casual version of the same concept\n- {予備校|よびこう}: prep school — specifically for university entrance exam preparation, typically for high school students\n- {進学塾|しんがくじゅく}: advancement-oriented cram school — focused specifically on entrance exam preparation\n\nCULTURAL NOTE:\nCram schools are a major part of Japanese education culture. According to surveys, over half of Japanese middle school students attend some form of {塾|じゅく}. The industry is large, with major chains like {河合塾|かわいじゅく} and {日能研|にちのうけん} being household names.",
+  "notes": "Composed of ⟦{学習|がくしゅう}→学習：02623_gakushuu⟧ (study, learning) + ⟦{塾|じゅく}→塾：04702_juku⟧ (private school). This is the formal term for cram schools; in everyday conversation, people often say simply ⟦{塾|じゅく}→塾：04702_juku⟧.\n\nCOMMON COLLOCATIONS:\n- {学習塾|がくしゅうじゅく}⟦に→に：00314_ni⟧⟦{通|かよ}う→通う：01217_kayou⟧: to attend a cram school\n- {学習塾|がくしゅうじゅく}⟦の→の：09472_no⟧⟦{講師|こうし}→講師：00451_koushi⟧: cram school instructor\n- {学習塾|がくしゅうじゅく}⟦の→の：09472_no⟧⟦{月謝|げっしゃ}→月謝：16421_gessha⟧: cram school monthly tuition\n- ⟦{個別|こべつ}{指導|しどう}→個別指導：17360_kobetsushidou⟧⟦{塾|じゅく}→塾：04702_juku⟧: individual tutoring school\n\nSIMILAR WORDS:\n- ⟦{塾|じゅく}→塾：04702_juku⟧: cram school — shorter, more casual version of the same concept\n- ⟦{予備校|よびこう}→予備校：04785_yobikou⟧: prep school — specifically for university entrance exam preparation, typically for high school students\n- {進学塾|しんがくじゅく}: advancement-oriented cram school — focused specifically on entrance exam preparation\n\nCULTURAL NOTE:\nCram schools are a major part of Japanese education culture. According to surveys, over half of Japanese middle school students attend some form of ⟦{塾|じゅく}→塾：04702_juku⟧. The industry is large, with major chains like {河合塾|かわいじゅく} and {日能研|にちのうけん} being household names.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04785_yobikou",
+      "reading": "よびこう",
+      "headword": "{予備校|よびこう}",
+      "label": "prep school"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +68,6 @@
       ]
     },
     "created": "2026-04-05T03:31:52Z",
-    "modified": "2026-04-10T08:28:27Z"
+    "modified": "2026-09-02T04:02:06Z"
   }
 }

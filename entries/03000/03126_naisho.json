@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "USAGE PATTERNS:\n- {内緒|ないしょ}⟦で→で：00502_de⟧ (secretly, without telling)\n- {内緒|ないしょ}⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧ (to keep secret)\n- 〜⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{内緒|ないしょ}⟦で→で：00502_de⟧ (without telling ~)\n- {内緒|ないしょ}⟦の→の：09472_no⟧⟦{話|はなし}→話：01496_hanashi⟧ (a secret matter)\n\nCOMMON EXPRESSIONS:\n- {内緒|ないしょ}⟦に→に：00314_ni⟧⟦して→する：00392_suru⟧⟦おく→おく：01092_oku⟧ (keep it secret)\n- ⟦ここだけ→ここだけ：noentry⟧⟦の→の：09472_no⟧{内緒|ないしょ} (just between us)\n\nSIMILAR WORDS:\n- ⟦{秘密|ひみつ}→秘密：02504_himitsu⟧ (secret - more formal)\n- ⟦{機密|きみつ}→機密：13179_kimitsu⟧ (classified information, confidential)\n\n{内緒|ないしょ} is more casual and commonly used in everyday conversation compared to ⟦{秘密|ひみつ}→秘密：02504_himitsu⟧.",
+  "notes": "COMMON PATTERNS:\n- {内緒|ないしょ}⟦で→で：00502_de⟧ (secretly, without telling)\n- {内緒|ないしょ}⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧ (to keep secret)\n- 〜⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{内緒|ないしょ}⟦で→で：00502_de⟧ (without telling ~)\n- {内緒|ないしょ}⟦の→の：09472_no⟧⟦{話|はなし}→話：01496_hanashi⟧ (a secret matter)\n\nCOMMON EXPRESSIONS:\n- {内緒|ないしょ}⟦に→に：00314_ni⟧⟦して→する：00392_suru⟧⟦おく→おく：01092_oku⟧ (keep it secret)\n- ⟦ここだけ→ここだけ：noentry⟧⟦の→の：09472_no⟧{内緒|ないしょ} (just between us)\n\nSIMILAR WORDS:\n- ⟦{秘密|ひみつ}→秘密：02504_himitsu⟧ (secret - more formal)\n- ⟦{機密|きみつ}→機密：13179_kimitsu⟧ (classified information, confidential)\n\n{内緒|ないしょ} is more casual and commonly used in everyday conversation compared to ⟦{秘密|ひみつ}→秘密：02504_himitsu⟧.",
   "cross_references": [
     {
       "type": "synonym",
@@ -51,11 +51,25 @@
       "headword": "{秘密|ひみつ}",
       "label": "formal",
       "target_id": "02504_himitsu"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13179_kimitsu",
+      "reading": "きみつ",
+      "headword": "{機密|きみつ}",
+      "label": "classified information, confidential"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28148_kokodake",
+      "reading": "ここだけ",
+      "headword": "ここだけ",
+      "label": "just between us"
     }
   ],
   "metadata": {
     "created": "2026-01-11T12:45:39Z",
-    "modified": "2026-05-23T22:10:06Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

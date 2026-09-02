@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "30491_warabi_ex1",
-      "japanese": "{山|やま}で{蕨|わらび}を{採|と}った。",
+      "japanese": "⟦{山|やま}→山：02168_yama⟧⟦で→で：00502_de⟧{蕨|わらび}⟦を→を：00422_wo⟧⟦{採|と}った→採る：20862_toru⟧。",
       "english": "We picked bracken in the mountains.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "30491_warabi_ex2",
-      "japanese": "{蕨|わらび}は{灰汁|あく}{抜|ぬ}きをしてから{食|た}べる。",
+      "japanese": "{蕨|わらび}⟦は→は：00079_ha⟧⟦{灰汁|あく}{抜|ぬ}き→灰汁抜き：06818_akunuki⟧⟦を→を：00422_wo⟧⟦して→する：00392_suru⟧⟦から→から：00504_kara⟧⟦{食|た}べる→食べる：00396_taberu⟧。",
       "english": "Bracken is eaten after removing its bitterness.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "30491_warabi_ex3",
-      "japanese": "{春|はる}になると、{祖母|そぼ}が{蕨|わらび}やぜんまいを{煮物|にもの}にしてくれた。",
+      "japanese": "⟦{春|はる}→春：00627_haru⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦と→と：00512_to⟧、⟦{祖母|そぼ}→祖母：00813_sobo⟧⟦が→が：00051_ga⟧{蕨|わらび}や⟦ぜんまい→ぜんまい：30495_zenmai⟧⟦を→を：00422_wo⟧⟦{煮物|にもの}→煮物：04971_nimono⟧にして⟦くれた→くれる：00724_kureru⟧。",
       "english": "When spring came, my grandmother would cook bracken and royal fern into simmered dishes.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Usually written in kana or katakana in recipes, since {蕨|わらび} is not a common-use kanji. The shoots are picked in early spring and are a classic sign of the season.\n\nCOMMON COLLOCATIONS:\n- {蕨|わらび}{採|と}り: bracken picking\n- {蕨|わらび}の{灰汁|あく}{抜|ぬ}き: removing bracken's harshness (with ash or baking soda)\n- {蕨|わらび}{餅|もち}: warabi-mochi, a jelly-like sweet originally made from bracken starch\n\nRELATED WILD VEGETABLES:\n- ぜんまい: royal fern — another spring {山菜|さんさい}, similar in use\n- たけのこ: bamboo shoots — also requires {灰汁|あく}{抜|ぬ}き\n- ふきのとう: butterbur bud — bitter early-spring shoot",
+  "notes": "Usually written in kana or katakana in recipes, since {蕨|わらび} is not a common-use kanji. The shoots are picked in early spring and are a classic sign of the season.\n\nCOMMON COLLOCATIONS:\n- {蕨|わらび}{採|と}り: bracken picking\n- {蕨|わらび}⟦の→の：09472_no⟧⟦{灰汁|あく}{抜|ぬ}き→灰汁抜き：06818_akunuki⟧: removing bracken's harshness (with ash or baking soda)\n- {蕨|わらび}{餅|もち}: warabi-mochi, a jelly-like sweet originally made from bracken starch\n\nRELATED WILD VEGETABLES:\n- ⟦ぜんまい→ぜんまい：30495_zenmai⟧: royal fern — another spring ⟦{山菜|さんさい}→山菜：12404_sansai⟧, similar in use\n- たけのこ: bamboo shoots — also requires ⟦{灰汁|あく}{抜|ぬ}き→灰汁抜き：06818_akunuki⟧\n- ⟦ふきのとう→ふきのとう：30496_fukinotou⟧: butterbur bud — bitter early-spring shoot",
   "cross_references": [
     {
       "type": "see_also",
@@ -46,19 +52,45 @@
       "reading": "あくぬき",
       "headword": "{灰汁|あく}{抜|ぬ}き",
       "label": "removing bitterness before cooking"
+    },
+    {
+      "type": "related",
+      "target_id": "30495_zenmai",
+      "reading": "ぜんまい",
+      "headword": "ぜんまい",
+      "label": "royal fern"
+    },
+    {
+      "type": "related",
+      "target_id": "17667_takenoko",
+      "reading": "たけのこ",
+      "headword": "{筍|たけのこ}",
+      "label": "bamboo shoots"
+    },
+    {
+      "type": "related",
+      "target_id": "30496_fukinotou",
+      "reading": "ふきのとう",
+      "headword": "ふきのとう",
+      "label": "butterbur bud"
     }
   ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["plant-general", "food"],
+      "politeness": "plain",
+      "semantic": [
+        "plant-general",
+        "food"
+      ],
       "domain": []
     },
     "created": "2026-08-07T18:18:04Z",
-    "modified": "2026-08-07T18:18:04Z"
+    "modified": "2026-09-02T04:02:40Z"
   }
 }

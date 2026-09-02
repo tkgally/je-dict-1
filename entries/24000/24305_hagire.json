@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24305_hagire_ex1",
-      "japanese": "{端切|はぎ}れで{小物|こもの}を{作|つく}った。",
+      "japanese": "{端切|はぎ}れ⟦で→で：00502_de⟧⟦{小物|こもの}→小物：17814_komono⟧⟦を→を：00422_wo⟧⟦{作|つく}った→作る：00481_tsukuru⟧。",
       "english": "I made small items from fabric scraps.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24305_hagire_ex2",
-      "japanese": "{手芸|しゅげい}{店|てん}で{きれい|きれい}な{端切|はぎ}れを{安|やす}く{買|か}えた。",
+      "japanese": "⟦{手芸|しゅげい}→手芸：07062_shugei⟧⟦{店|てん}→店：10011_ten⟧⟦で→で：00502_de⟧⟦きれい→きれい：00717_kirei⟧な{端切|はぎ}れ⟦を→を：00422_wo⟧⟦{安|やす}く→安い：00464_yasui⟧⟦{買|か}えた→買う：00489_kau⟧。",
       "english": "I was able to buy pretty fabric remnants cheaply at the craft store.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24305_hagire_ex3",
-      "japanese": "{祖母|そぼ}は{端切|はぎ}れを{集|あつ}めてパッチワークの{布団|ふとん}カバーを{縫|ぬ}った。",
+      "japanese": "⟦{祖母|そぼ}→祖母：00813_sobo⟧⟦は→は：00079_ha⟧{端切|はぎ}れ⟦を→を：00422_wo⟧⟦{集|あつ}めて→集める：01170_atsumeru⟧パッチワーク⟦の→の：09472_no⟧⟦{布団|ふとん}カバー→布団カバー：16624_futonkabaa⟧⟦を→を：00422_wo⟧⟦{縫|ぬ}った→縫う：00326_nuu⟧。",
       "english": "My grandmother collected fabric scraps and sewed a patchwork futon cover.",
       "sense_numbers": [
         1
@@ -44,20 +44,44 @@
       "notes": null
     }
   ],
-  "notes": "Written {端切|はぎ}れ or はぎれ. Refers to small pieces of fabric left over from cutting larger pieces. Popular in Japanese craft culture for making small pouches, patchwork, and decorative items. Craft stores often sell collections of coordinated {端切|はぎ}れ.\n\nCOMMON COLLOCATIONS:\n- {端切|はぎ}れで{作|つく}る — make from scraps\n- {端切|はぎ}れセット — assorted fabric scrap set\n- {端切|はぎ}れを{利用|りよう}する — make use of fabric remnants\n- {端切|はぎ}れ{活用|かつよう} — utilizing fabric scraps\n\nSIMILAR WORDS:\n- {布切|ぬのき}れ — piece of cloth; a more general term for any piece of fabric, not necessarily a leftover\n- {余|あま}り{布|ぬの} — leftover fabric; emphasizes that the fabric is surplus, not specifically a small scrap\n- {裁|た}ち{落|お}とし — cutting scraps; the pieces that fall away when fabric is cut to pattern",
+  "notes": "Written {端切|はぎ}れ or はぎれ. Refers to small pieces of fabric left over from cutting larger pieces. Popular in Japanese craft culture for making small pouches, patchwork, and decorative items. Craft stores often sell collections of coordinated {端切|はぎ}れ.\n\nCOMMON COLLOCATIONS:\n- {端切|はぎ}れ⟦で→で：00502_de⟧⟦{作|つく}る→作る：00481_tsukuru⟧ — make from scraps\n- {端切|はぎ}れ⟦セット→セット：03853_setto⟧ — assorted fabric scrap set\n- {端切|はぎ}れ⟦を→を：00422_wo⟧⟦{利用|りよう}する→利用する：21735_riyousuru⟧ — make use of fabric remnants\n- {端切|はぎ}れ⟦{活用|かつよう}→活用：02620_katsuyou⟧ — utilizing fabric scraps\n\nSIMILAR WORDS:\n- ⟦{布切|ぬのき}れ→布切れ：24358_nunokire⟧ — piece of cloth; a more general term for any piece of fabric, not necessarily a leftover\n- {余|あま}り{布|ぬの} — leftover fabric; emphasizes that the fabric is surplus, not specifically a small scrap\n- {裁|た}ち{落|お}とし — cutting scraps; the pieces that fall away when fabric is cut to pattern",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24358_nunokire",
+      "reading": "ぬのきれ",
+      "headword": "{布切|ぬのき}れ",
+      "label": "piece of cloth"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21149_kirehashi",
+      "reading": "きれはし",
+      "headword": "{切|き}れ{端|はし}",
+      "label": "scrap"
+    },
+    {
+      "type": "related",
+      "target_id": "22090_kamikire",
+      "reading": "かみきれ",
+      "headword": "{紙切|かみき}れ",
+      "label": "scrap of paper"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "art",
         "clothing"
       ]
     },
     "created": "2026-04-18T13:17:03Z",
-    "modified": "2026-08-02T18:32:34Z"
+    "modified": "2026-09-02T04:02:17Z"
   }
 }

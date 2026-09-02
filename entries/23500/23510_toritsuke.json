@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "23510_toritsuke_ex1",
-      "japanese": "エアコンの{取|と}り{付|つ}けを{頼|たの}んだ。",
+      "japanese": "⟦エアコン→エアコン：05282_eakon⟧⟦の→の：09472_no⟧{取|と}り{付|つ}け⟦を→を：00422_wo⟧⟦{頼|たの}んだ→頼む：01104_tanomu⟧。",
       "english": "I requested air conditioner installation.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "23510_toritsuke_ex2",
-      "japanese": "{棚|たな}の{取|と}り{付|つ}けは{自分|じぶん}でやった。",
+      "japanese": "⟦{棚|たな}→棚：01650_tana⟧⟦の→の：09472_no⟧{取|と}り{付|つ}け⟦は→は：00079_ha⟧⟦{自分|じぶん}→自分：02887_jibun⟧⟦で→で：00502_de⟧⟦やった→やる：02980_yaru⟧。",
       "english": "I installed the shelf myself.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "23510_toritsuke_ex3",
-      "japanese": "{取|と}り{付|つ}け{工事|こうじ}には{約|やく}2{時間|じかん}かかります。",
+      "japanese": "{取|と}り{付|つ}け⟦{工事|こうじ}→工事：00244_kouji⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{約|やく}→約：09563_yaku⟧2⟦{時間|じかん}→時間：00468_jikan⟧⟦かかります→かかる：00711_kakaru⟧。",
       "english": "The installation work takes about 2 hours.",
       "sense_numbers": [
         1
@@ -45,7 +45,7 @@
     },
     {
       "id": "23510_toritsuke_ex4",
-      "japanese": "{取|と}り{付|つ}け{説明書|せつめいしょ}をよく{読|よ}んでから{作業|さぎょう}を{始|はじ}めてください。",
+      "japanese": "{取|と}り{付|つ}け⟦{説明書|せつめいしょ}→説明書：19368_setsumeisho⟧⟦を→を：00422_wo⟧⟦よく→よく：00601_yoku⟧⟦{読|よ}んで→読む：00426_yomu⟧⟦から→から：00504_kara⟧⟦{作業|さぎょう}→作業：02775_sagyou⟧⟦を→を：00422_wo⟧⟦{始|はじ}めて→始める：00531_hajimeru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please read the installation manual carefully before starting work.",
       "sense_numbers": [
         1
@@ -54,8 +54,24 @@
       "notes": null
     }
   ],
-  "notes": "The noun form of the verb {取|と}り{付|つ}ける (to install, attach, mount). A very practical word for anyone living in Japan, since appliance installation ({取|と}り{付|つ}け) and removal ({取|と}り{外|はず}し) are common when moving into apartments — Japanese rentals often don't come with air conditioners or lighting fixtures pre-installed.\n\nThe word covers both professional installation services and DIY work. Online shopping sites often offer {取|と}り{付|つ}け{工事|こうじ} (installation service) as an add-on when purchasing appliances.\n\nCOMMON COLLOCATIONS:\n- {取|と}り{付|つ}け{工事|こうじ}: installation work\n- {取|と}り{付|つ}け{説明書|せつめいしょ}: installation manual\n- {取|と}り{付|つ}け{方法|ほうほう}: installation method\n- {取|と}り{付|つ}け{費用|ひよう}: installation cost\n- {取|と}り{付|つ}け{位置|いち}: mounting position\n\nSIMILAR WORDS:\n- {設置|せっち}: installation, setup — more formal; used for larger systems, equipment, and facilities\n- {取|と}り{外|はず}し: removal, detachment — the opposite action\n- {据|す}え{付|つ}け: permanent installation — implies something fixed in place, harder to move",
+  "notes": "The noun form of the verb {取|と}り{付|つ}ける (to install, attach, mount). A very practical word for anyone living in Japan, since appliance installation ({取|と}り{付|つ}け) and removal ({取|と}り{外|はず}し) are common when moving into apartments — Japanese rentals often don't come with air conditioners or lighting fixtures pre-installed.\n\nThe word covers both professional installation services and DIY work. Online shopping sites often offer {取|と}り{付|つ}け⟦{工事|こうじ}→工事：00244_kouji⟧ (installation service) as an add-on when purchasing appliances.\n\nCOMMON COLLOCATIONS:\n- {取|と}り{付|つ}け⟦{工事|こうじ}→工事：00244_kouji⟧: installation work\n- {取|と}り{付|つ}け⟦{説明書|せつめいしょ}→説明書：19368_setsumeisho⟧: installation manual\n- {取|と}り{付|つ}け⟦{方法|ほうほう}→方法：03621_houhou⟧: installation method\n- {取|と}り{付|つ}け⟦{費用|ひよう}→費用：03588_hiyou⟧: installation cost\n- {取|と}り{付|つ}け⟦{位置|いち}→位置：11554_ichi⟧: mounting position\n\nSIMILAR WORDS:\n- ⟦{設置|せっち}→設置：09750_secchi⟧: installation, setup — more formal; used for larger systems, equipment, and facilities\n- {取|と}り{外|はず}し: removal, detachment — the opposite action\n- {据|す}え{付|つ}け: permanent installation — implies something fixed in place, harder to move",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09750_secchi",
+      "reading": "せっち",
+      "headword": "{設置|せっち}",
+      "label": "installation, setup"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22099_sotozuke",
+      "reading": "そとづけ",
+      "headword": "{外付|そとづ}け",
+      "label": "external"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -70,6 +86,6 @@
       ]
     },
     "created": "2026-04-12T14:12:30Z",
-    "modified": "2026-08-01T21:36:06Z"
+    "modified": "2026-09-02T04:02:13Z"
   }
 }

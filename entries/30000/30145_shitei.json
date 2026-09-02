@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30145_shitei_ex1",
-      "japanese": "{首相|しゅしょう}は{私邸|してい}に{戻|もど}った。",
+      "japanese": "⟦{首相|しゅしょう}→首相：03217_shushou⟧⟦は→は：00079_ha⟧{私邸|してい}⟦に→に：00314_ni⟧⟦{戻|もど}った→戻る：01117_modoru⟧。",
       "english": "The prime minister returned to his private residence.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30145_shitei_ex2",
-      "japanese": "{記者|きしゃ}たちが{私邸|してい}の{前|まえ}で{待|ま}っていた。",
+      "japanese": "⟦{記者|きしゃ}→記者：14170_kisha⟧たち⟦が→が：00051_ga⟧{私邸|してい}⟦の→の：09472_no⟧⟦{前|まえ}→前：02255_mae⟧⟦で→で：00502_de⟧⟦{待|ま}っていた→待つ：00469_matsu⟧。",
       "english": "Reporters were waiting in front of the private residence.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30145_shitei_ex3",
-      "japanese": "{公邸|こうてい}ではなく{私邸|してい}から{通|かよ}うことにしたと{発表|はっぴょう}された。",
+      "japanese": "⟦{公邸|こうてい}→公邸：30126_koutei⟧⟦ではなく→ではなく：09578_dehanaku⟧{私邸|してい}⟦から→から：00504_kara⟧⟦{通|かよ}う→通う：01217_kayou⟧ことにした⟦と→と：00512_to⟧⟦{発表|はっぴょう}→発表：03562_happyou⟧⟦された→する：00392_suru⟧。",
       "english": "It was announced that he had decided to commute from his private residence rather than the official one.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "{私|し} (private) + {邸|てい} (mansion, residence). Almost always used in contrast with {公邸|こうてい}, the official residence that comes with a government post.\n\nCOMMON COLLOCATIONS:\n- {私邸|してい}に{戻|もど}る: to return to one's private residence\n- {私邸|してい}を{訪|おとず}れる: to visit someone's private residence\n- {議員|ぎいん}の{私邸|してい}: a lawmaker's private residence\n\nSIMILAR WORDS:\n- {邸宅|ていたく}: mansion — a large impressive house, with no public/private contrast\n- {自宅|じたく}: one's own home — the everyday word, used of anyone",
+  "notes": "{私|し} (private) + ⟦{邸|てい}→邸：23029_tei⟧ (mansion, residence). Almost always used in contrast with ⟦{公邸|こうてい}→公邸：30126_koutei⟧, the official residence that comes with a government post.\n\nCOMMON COLLOCATIONS:\n- {私邸|してい}⟦に→に：00314_ni⟧⟦{戻|もど}る→戻る：01117_modoru⟧: to return to one's private residence\n- {私邸|してい}⟦を→を：00422_wo⟧⟦{訪|おとず}れる→訪れる：07678_otozureru⟧: to visit someone's private residence\n- ⟦{議員|ぎいん}→議員：02660_giin⟧⟦の→の：09472_no⟧{私邸|してい}: a lawmaker's private residence\n\nSIMILAR WORDS:\n- ⟦{邸宅|ていたく}→邸宅：14434_teitaku⟧: mansion — a large impressive house, with no public/private contrast\n- ⟦{自宅|じたく}→自宅：00129_jitaku⟧: one's own home — the everyday word, used of anyone",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14434_teitaku",
+      "reading": "ていたく",
+      "headword": "{邸宅|ていたく}",
+      "label": "mansion"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00129_jitaku",
+      "reading": "じたく",
+      "headword": "{自宅|じたく}",
+      "label": "one's own home"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30126_koutei",
+      "reading": "こうてい",
+      "headword": "{公邸|こうてい}",
+      "label": "official residence"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +76,7 @@
         "noun"
       ],
       "formality": "formal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "building",
         "politics"
@@ -61,6 +84,6 @@
       "domain": []
     },
     "created": "2026-07-27T03:18:27Z",
-    "modified": "2026-07-27T03:18:27Z"
+    "modified": "2026-09-02T04:02:38Z"
   }
 }

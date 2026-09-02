@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{白米|はくまい} is polished rice, the most common form of rice eaten in Japan. The word ⟦{精白米|せいはくまい}→精白米：noentry⟧ is a more formal/technical term.\n\nCOMMON PATTERNS:\n・{白米|はくまい}⟦を→を：00422_wo⟧⟦{炊|た}く→炊く：02127_taku⟧ (cook white rice)\n・{白米|はくまい}⟦を→を：00422_wo⟧⟦{研|と}ぐ→研ぐ：04377_togu⟧ (rinse white rice)\n・⟦{炊|た}きたて→炊きたて：15234_takitate⟧⟦の→の：09472_no⟧{白米|はくまい} (freshly cooked white rice)\n\nRELATED TERMS:\n・⟦ご{飯|はん}→ご飯：00776_gohan⟧ (cooked rice - everyday word)\n・⟦{米|こめ}→米：01323_kome⟧ (uncooked rice - general)\n・⟦{精米|せいまい}→精米：06615_seimai⟧ (rice polishing/polished rice)",
+  "notes": "USAGE:\n{白米|はくまい} is polished rice, the most common form of rice eaten in Japan. The word ⟦{精白米|せいはくまい}→精白米：noentry⟧ is a more formal/technical term.\n\nCOMMON PATTERNS:\n- {白米|はくまい}⟦を→を：00422_wo⟧⟦{炊|た}く→炊く：02127_taku⟧ (cook white rice)\n- {白米|はくまい}⟦を→を：00422_wo⟧⟦{研|と}ぐ→研ぐ：04377_togu⟧ (rinse white rice)\n- ⟦{炊|た}きたて→炊きたて：15234_takitate⟧⟦の→の：09472_no⟧{白米|はくまい} (freshly cooked white rice)\n\nRELATED WORDS:\n- ⟦ご{飯|はん}→ご飯：00776_gohan⟧ (cooked rice - everyday word)\n- ⟦{米|こめ}→米：01323_kome⟧ (uncooked rice - general)\n- ⟦{精米|せいまい}→精米：06615_seimai⟧ (rice polishing/polished rice)",
   "cross_references": [
     {
       "type": "related",
@@ -78,11 +78,32 @@
       "headword": "{米|こめ}",
       "label": "rice (general)",
       "target_id": "01323_kome"
+    },
+    {
+      "type": "related",
+      "target_id": "00776_gohan",
+      "reading": "ごはん",
+      "headword": "ご{飯|はん}",
+      "label": "cooked rice"
+    },
+    {
+      "type": "related",
+      "target_id": "06615_seimai",
+      "reading": "せいまい",
+      "headword": "{精米|せいまい}",
+      "label": "rice polishing/polished rice"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28489_musenmai",
+      "reading": "むせんまい",
+      "headword": "{無洗米|むせんまい}",
+      "label": "no-wash rice"
     }
   ],
   "metadata": {
     "created": "2026-01-17T03:13:44Z",
-    "modified": "2026-06-13T06:38:32Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

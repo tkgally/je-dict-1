@@ -15,41 +15,60 @@
   "examples": [
     {
       "id": "29913_kyuumeikoushuu_ex1",
-      "japanese": "{会社|かいしゃ}で{救命講習|きゅうめいこうしゅう}を{受|う}けた。",
+      "japanese": "⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦で→で：00502_de⟧{救命講習|きゅうめいこうしゅう}⟦を→を：00422_wo⟧⟦{受|う}けた→受ける：01215_ukeru⟧。",
       "english": "I took a lifesaving course at my company.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29913_kyuumeikoushuu_ex2",
-      "japanese": "{消防署|しょうぼうしょ}が{救命講習|きゅうめいこうしゅう}を{開|ひら}いている。",
+      "japanese": "⟦{消防署|しょうぼうしょ}→消防署：06454_shoubousho⟧⟦が→が：00051_ga⟧{救命講習|きゅうめいこうしゅう}⟦を→を：00422_wo⟧⟦{開|ひら}いている→開く：01979_hiraku⟧。",
       "english": "The fire station holds lifesaving courses.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29913_kyuumeikoushuu_ex3",
-      "japanese": "{救命講習|きゅうめいこうしゅう}で、{人形|にんぎょう}を{使|つか}って{心臓|しんぞう}マッサージの{練習|れんしゅう}をした。",
+      "japanese": "{救命講習|きゅうめいこうしゅう}⟦で→で：00502_de⟧、⟦{人形|にんぎょう}→人形：01487_ningyou⟧⟦を→を：00422_wo⟧⟦{使|つか}って→使う：00473_tsukau⟧⟦{心臓|しんぞう}→心臓：03262_shinzou⟧⟦マッサージ→マッサージ：00272_massaaji⟧⟦の→の：09472_no⟧⟦{練習|れんしゅう}→練習：05323_renshuu⟧⟦を→を：00422_wo⟧⟦した→する：00392_suru⟧。",
       "english": "In the lifesaving course, we practiced chest compressions using a mannequin.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A course teaching emergency first aid, most often run by the local {消防署|しょうぼうしょ} (fire station). Completing certain courses earns a {修了証|しゅうりょうしょう} (certificate).\n\nCOMMON COLLOCATIONS:\n- {救命講習|きゅうめいこうしゅう}を{受|う}ける: to take a lifesaving course\n- {普通|ふつう}{救命講習|きゅうめいこうしゅう}: standard lifesaving course\n- {救命講習|きゅうめいこうしゅう}の{修了証|しゅうりょうしょう}: certificate of completion",
+  "notes": "A course teaching emergency first aid, most often run by the local ⟦{消防署|しょうぼうしょ}→消防署：06454_shoubousho⟧ (fire station). Completing certain courses earns a {修了証|しゅうりょうしょう} (certificate).\n\nCOMMON COLLOCATIONS:\n- {救命講習|きゅうめいこうしゅう}⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧: to take a lifesaving course\n- ⟦{普通|ふつう}→普通：01502_futsuu⟧{救命講習|きゅうめいこうしゅう}: standard lifesaving course\n- {救命講習|きゅうめいこうしゅう}⟦の→の：09472_no⟧{修了証|しゅうりょうしょう}: certificate of completion",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "06519_oukyuushochi",
+      "reading": "おうきゅうしょち",
+      "headword": "{応急処置|おうきゅうしょち}",
+      "label": "first aid, emergency treatment"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["health"],
+      "politeness": "plain",
+      "semantic": [
+        "health"
+      ],
       "domain": []
     },
     "created": "2026-07-17T21:17:43Z",
-    "modified": "2026-07-17T21:17:43Z"
+    "modified": "2026-09-02T04:02:38Z"
   }
 }

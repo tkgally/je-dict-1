@@ -43,11 +43,19 @@
       ]
     }
   ],
-  "notes": "USAGE:\nAttaches directly to time expressions without particles.\n\nEXAMPLES:\n- ⟦{七時|しちじ}→七時：10114_shichiji⟧{頃|ごろ}: around 7 o'clock\n- ⟦{昼|ひる}→昼：00540_hiru⟧{頃|ごろ}: around noon\n- ⟦{来週|らいしゅう}→来週：00746_raishuu⟧{頃|ごろ}: around next week\n- ⟦{子供|こども}→子供：00554_kodomo⟧⟦の→の：09472_no⟧{頃|ころ}: when I was a child\n\nCOMPARISON:\n- {頃|ごろ}: approximate time (suffix)\n- ⟦ぐらい→ぐらい：02900_gurai⟧/⟦くらい→ぐらい：02900_gurai⟧: approximate amount/degree\n- {頃|ごろ} is more natural for clock times\n\nNOTE:\nReading is ごろ as suffix, but ころ in {頃|ころ}⟦に→に：00314_ni⟧ or standalone.\n\nRELATED:\n- ⟦いつ→いつ：00536_itsu⟧{頃|ごろ}: around when?\n- ⟦その→その：00993_sono⟧{頃|ころ}: around that time\n- ⟦この→この：00962_kono⟧{頃|ごろ}: these days",
-  "cross_references": [],
+  "notes": "USAGE:\nAttaches directly to time expressions without particles.\nReading is ごろ as suffix, but ⟦ころ→〜ころ：03091_koro⟧ in {頃|ころ}⟦に→に：00314_ni⟧ or standalone.\n\nEXAMPLES:\n- ⟦{七時|しちじ}→七時：10114_shichiji⟧{頃|ごろ}: around 7 o'clock\n- ⟦{昼|ひる}→昼：00540_hiru⟧{頃|ごろ}: around noon\n- ⟦{来週|らいしゅう}→来週：00746_raishuu⟧{頃|ごろ}: around next week\n- ⟦{子供|こども}→子供：00554_kodomo⟧⟦の→の：09472_no⟧{頃|ころ}: when I was a child\n\nSIMILAR WORDS:\n- {頃|ごろ}: approximate time (suffix)\n- ⟦ぐらい→ぐらい：02900_gurai⟧/⟦くらい→ぐらい：02900_gurai⟧: approximate amount/degree\n- {頃|ごろ} is more natural for clock times\n\nRELATED WORDS:\n- ⟦いつ→いつ：00536_itsu⟧{頃|ごろ}: around when?\n- ⟦その→その：00993_sono⟧{頃|ころ}: around that time\n- ⟦この→この：00962_kono⟧{頃|ごろ}: these days",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02900_gurai",
+      "reading": "ぐらい",
+      "headword": "ぐらい",
+      "label": "approximate amount/degree"
+    }
+  ],
   "metadata": {
     "created": "2026-01-07T12:08:11Z",
-    "modified": "2026-05-13T15:16:20Z",
+    "modified": "2026-09-02T04:00:58Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

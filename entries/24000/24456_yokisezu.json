@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24456_yokisezu_ex1",
-      "japanese": "{予期|よき}せず{出会|であ}った。",
+      "japanese": "{予期|よき}せず⟦{出会|であ}った→出会う：02298_deau⟧。",
       "english": "We met unexpectedly.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24456_yokisezu_ex2",
-      "japanese": "{予期|よき}せぬ{事態|じたい}に{備|そな}える{必要|ひつよう}がある。",
+      "japanese": "⟦{予期|よき}せぬ→予期せぬ：15189_yokisenu⟧⟦{事態|じたい}→事態：10151_jitai⟧⟦に→に：00314_ni⟧⟦{備|そな}える→備える：02125_sonaeru⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "We need to prepare for unforeseen situations.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24456_yokisezu_ex3",
-      "japanese": "{予期|よき}せぬ{来客|らいきゃく}があり、{会議|かいぎ}が{中断|ちゅうだん}された。",
+      "japanese": "⟦{予期|よき}せぬ→予期せぬ：15189_yokisenu⟧⟦{来客|らいきゃく}→来客：13061_raikyaku⟧⟦が→が：00051_ga⟧⟦あり→ある：00006_aru⟧、⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦が→が：00051_ga⟧⟦{中断|ちゅうだん}→中断：05218_chuudan⟧⟦された→する：00392_suru⟧。",
       "english": "An unexpected visitor arrived and the meeting was interrupted.",
       "sense_numbers": [
         1
@@ -44,19 +44,50 @@
       "notes": null
     }
   ],
-  "notes": "Formed from {予期|よき}する (to anticipate) plus the classical negative せず/せぬ. The prenominal form {予期|よき}せぬ modifies nouns directly, while {予期|よき}せず functions adverbially.\n\nCOMMON COLLOCATIONS:\n- {予期|よき}せぬ{事態|じたい}: unforeseen situation\n- {予期|よき}せぬ{出来事|できごと}: unexpected event\n- {予期|よき}せぬ{展開|てんかい}: unexpected development\n- {予期|よき}せず{訪|おとず}れる: to arrive unexpectedly\n\nSIMILAR WORDS:\n- {思|おも}いがけず: unexpectedly (more conversational and emotional)\n- {不意|ふい}に: suddenly, without warning (emphasizes surprise)\n- {突然|とつぜん}: suddenly (neutral, very common)\n- {予想外|よそうがい}に: beyond expectations (emphasizes exceeding predictions)",
+  "notes": "Formed from ⟦{予期|よき}→予期：03662_yoki⟧⟦する→する：00392_suru⟧ (to anticipate) plus the classical negative せず/⟦せぬ→する：00392_suru⟧. The prenominal form ⟦{予期|よき}せぬ→予期せぬ：15189_yokisenu⟧ modifies nouns directly, while {予期|よき}せず functions adverbially.\n\nCOMMON COLLOCATIONS:\n- ⟦{予期|よき}せぬ→予期せぬ：15189_yokisenu⟧⟦{事態|じたい}→事態：10151_jitai⟧: unforeseen situation\n- ⟦{予期|よき}せぬ→予期せぬ：15189_yokisenu⟧⟦{出来事|できごと}→出来事：03446_dekigoto⟧: unexpected event\n- ⟦{予期|よき}せぬ→予期せぬ：15189_yokisenu⟧⟦{展開|てんかい}→展開：04542_tenkai⟧: unexpected development\n- {予期|よき}せず⟦{訪|おとず}れる→訪れる：07678_otozureru⟧: to arrive unexpectedly\n\nSIMILAR WORDS:\n- {思|おも}いがけず: unexpectedly (more conversational and emotional)\n- ⟦{不意|ふい}→不意：11351_fui⟧⟦に→に：00314_ni⟧: suddenly, without warning (emphasizes surprise)\n- ⟦{突然|とつぜん}→突然：00409_totsuzen⟧: suddenly (neutral, very common)\n- ⟦{予想外|よそうがい}→予想外：03188_yosougai⟧⟦に→に：00314_ni⟧: beyond expectations (emphasizes exceeding predictions)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07152_omoigakezu",
+      "reading": "おもいがけず",
+      "headword": "{思|おも}いがけず",
+      "label": "unexpectedly"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16855_fuini",
+      "reading": "ふいに",
+      "headword": "{不意|ふい}に",
+      "label": "suddenly, without warning"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00409_totsuzen",
+      "reading": "とつぜん",
+      "headword": "{突然|とつぜん}",
+      "label": "suddenly"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03188_yosougai",
+      "reading": "よそうがい",
+      "headword": "{予想外|よそうがい}",
+      "label": "beyond expectations"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "adverb"
       ],
+      "politeness": "plain",
       "semantic": [
         "time-general"
       ]
     },
     "created": "2026-04-19T11:12:19Z",
-    "modified": "2026-08-02T18:32:34Z"
+    "modified": "2026-09-02T04:02:18Z"
   }
 }

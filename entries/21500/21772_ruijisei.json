@@ -14,40 +14,66 @@
   "examples": [
     {
       "id": "21772_ruijisei_ex1",
-      "japanese": "{二|ふた}つの{言語|げんご}には{類似性|るいじせい}がある。",
+      "japanese": "⟦{二|ふた}つ→二つ：02953_futatsu⟧⟦の→の：09472_no⟧⟦{言語|げんご}→言語：02717_gengo⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{類似性|るいじせい}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There is a similarity between the two languages.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21772_ruijisei_ex2",
-      "japanese": "{両者|りょうしゃ}の{類似性|るいじせい}を{比較|ひかく}{検討|けんとう}した。",
+      "japanese": "⟦{両者|りょうしゃ}→両者：11357_ryousha⟧⟦の→の：09472_no⟧{類似性|るいじせい}⟦を→を：00422_wo⟧⟦{比較|ひかく}{検討|けんとう}→比較検討：10291_hikakukentou⟧⟦した→する：00392_suru⟧。",
       "english": "We compared and examined the similarities between the two.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21772_ruijisei_ex3",
-      "japanese": "この{二|ふた}つの{事件|じけん}には{偶然|ぐうぜん}とは{思|おも}えない{類似性|るいじせい}が{見|み}られる。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{二|ふた}つ→二つ：02953_futatsu⟧⟦の→の：09472_no⟧⟦{事件|じけん}→事件：01568_jiken⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{偶然|ぐうぜん}→偶然：02674_guuzen⟧⟦と→と：00512_to⟧⟦は→は：00079_ha⟧⟦{思|おも}えない→思う：00492_omou⟧{類似性|るいじせい}⟦が→が：00051_ga⟧⟦{見|み}られる→見る：00283_miru⟧。",
       "english": "These two cases show similarities that cannot be dismissed as coincidence.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {類似|るいじ} (similarity, resemblance) + {性|せい} (nature, quality). A formal, academic word used in research papers, legal contexts, and analytical discussions.\n\nCOMMON COLLOCATIONS:\n- {類似性|るいじせい}がある: to have similarity\n- {類似性|るいじせい}が{高|たか}い: to be highly similar\n- {類似性|るいじせい}を{指摘|してき}する: to point out a similarity\n- {構造的|こうぞうてき}{類似性|るいじせい}: structural similarity\n\nSIMILAR WORDS:\n- {類似点|るいじてん}: point of similarity — focuses on specific shared features\n- {共通性|きょうつうせい}: commonality — emphasizes what is shared\n- {類|たぐ}い: kind, sort — more literary; used in expressions like {類|たぐ}いのない (unparalleled)\n- {相似|そうじ}: similarity — used especially in mathematics for geometric similarity",
+  "notes": "Composed of ⟦{類似|るいじ}→類似：14672_ruiji⟧ (similarity, resemblance) + ⟦{性|せい}→性：09880_sei⟧ (nature, quality). A formal, academic word used in research papers, legal contexts, and analytical discussions.\n\nCOMMON COLLOCATIONS:\n- {類似性|るいじせい}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧: to have similarity\n- {類似性|るいじせい}⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧: to be highly similar\n- {類似性|るいじせい}⟦を→を：00422_wo⟧⟦{指摘|してき}する→指摘する：27890_shitekisuru⟧: to point out a similarity\n- {構造的|こうぞうてき}{類似性|るいじせい}: structural similarity\n\nSIMILAR WORDS:\n- ⟦{類似点|るいじてん}→類似点：24577_ruijiten⟧: point of similarity — focuses on specific shared features\n- {共通性|きょうつうせい}: commonality — emphasizes what is shared\n- {類|たぐ}い: kind, sort — more literary; used in expressions like {類|たぐ}い⟦の→の：09472_no⟧⟦ない→ない：01118_nai⟧ (unparalleled)\n- ⟦{相似|そうじ}→相似：23057_souji⟧: similarity — used especially in mathematics for geometric similarity",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24577_ruijiten",
+      "reading": "るいじてん",
+      "headword": "{類似点|るいじてん}",
+      "label": "point of similarity"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23057_souji",
+      "reading": "そうじ",
+      "headword": "{相似|そうじ}",
+      "label": "similarity"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["abstract"]
+      "semantic": [
+        "abstract"
+      ]
     },
     "created": "2026-04-03T16:13:14Z",
-    "modified": "2026-04-03T16:13:14Z"
+    "modified": "2026-09-02T04:02:05Z"
   }
 }

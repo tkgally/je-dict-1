@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25775_baishun_ex1",
-      "japanese": "{売春|ばいしゅん}は{法律|ほうりつ}で{禁止|きんし}されている。",
+      "japanese": "{売春|ばいしゅん}⟦は→は：00079_ha⟧⟦{法律|ほうりつ}→法律：01722_houritsu⟧⟦で→で：00502_de⟧⟦{禁止|きんし}→禁止：02643_kinshi⟧⟦されている→する：00392_suru⟧。",
       "english": "Prostitution is prohibited by law.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25775_baishun_ex2",
-      "japanese": "{売春防止法|ばいしゅんぼうしほう}は1956{年|ねん}に{制定|せいてい}された。",
+      "japanese": "{売春防止法|ばいしゅんぼうしほう}⟦は→は：00079_ha⟧1956⟦{年|ねん}→年：09876_nen⟧⟦に→に：00314_ni⟧⟦{制定|せいてい}→制定：11907_seitei⟧⟦された→する：00392_suru⟧。",
       "english": "The Anti-Prostitution Act was enacted in 1956.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25775_baishun_ex3",
-      "japanese": "{人身売買|じんしんばいばい}と{売春|ばいしゅん}の{問題|もんだい}は{国際的|こくさいてき}な{課題|かだい}となっている。",
+      "japanese": "{人身売買|じんしんばいばい}⟦と→と：00512_to⟧{売春|ばいしゅん}⟦の→の：09472_no⟧⟦{問題|もんだい}→問題：00797_mondai⟧⟦は→は：00079_ha⟧⟦{国際的|こくさいてき}→国際的：06457_kokusaiteki⟧な⟦{課題|かだい}→課題：00132_kadai⟧⟦と→と：00512_to⟧⟦なっている→なる：01970_naru⟧。",
       "english": "The issues of human trafficking and prostitution have become international challenges.",
       "sense_numbers": [
         1
@@ -44,8 +44,16 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {売|ばい} (to sell) and {春|しゅん} (spring), where \"spring\" is a literary euphemism for sexual activity. A formal term used in legal, news, and academic contexts.\n\nCOMMON COLLOCATIONS:\n- {売春防止法|ばいしゅんぼうしほう}: Anti-Prostitution Act\n- {売春|ばいしゅん}を{強要|きょうよう}する: to force into prostitution\n- {売春|ばいしゅん}{行為|こうい}: act of prostitution\n- {児童|じどう}{売春|ばいしゅん}: child prostitution\n\nSIMILAR WORDS:\n- {買春|ばいしゅん}: buying sex — the counterpart viewed from the buyer's side; sometimes read かいしゅん to distinguish it\n- {援助交際|えんじょこうさい}: compensated dating — a euphemism sometimes used for transactional sexual relationships\n- {風俗|ふうぞく}: the sex industry — colloquial shorthand for {風俗営業|ふうぞくえいぎょう}\n\nETYMOLOGY:\nThe use of {春|しゅん} (spring) as a euphemism for sexual matters comes from classical Chinese literary tradition, where spring symbolized romantic and sexual love.",
-  "cross_references": [],
+  "notes": "Composed of {売|ばい} (to sell) and {春|しゅん} (spring), where \"spring\" is a literary euphemism for sexual activity. A formal term used in legal, news, and academic contexts.\n\nCOMMON COLLOCATIONS:\n- {売春防止法|ばいしゅんぼうしほう}: Anti-Prostitution Act\n- {売春|ばいしゅん}⟦を→を：00422_wo⟧⟦{強要|きょうよう}→強要：12538_kyouyou⟧⟦する→する：00392_suru⟧: to force into prostitution\n- {売春|ばいしゅん}⟦{行為|こうい}→行為：10021_koui⟧: act of prostitution\n- ⟦{児童|じどう}→児童：03340_jidou⟧{売春|ばいしゅん}: child prostitution\n\nSIMILAR WORDS:\n- {買春|ばいしゅん}: buying sex — the counterpart viewed from the buyer's side; sometimes read かいしゅん to distinguish it\n- {援助交際|えんじょこうさい}: compensated dating — a euphemism sometimes used for transactional sexual relationships\n- ⟦{風俗|ふうぞく}→風俗：14694_fuuzoku⟧: the sex industry — colloquial shorthand for {風俗営業|ふうぞくえいぎょう}\n\nETYMOLOGY:\nThe use of {春|しゅん} (spring) as a euphemism for sexual matters comes from classical Chinese literary tradition, where spring symbolized romantic and sexual love.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14694_fuuzoku",
+      "reading": "ふうぞく",
+      "headword": "{風俗|ふうぞく}",
+      "label": "the sex industry"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,12 +61,13 @@
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "law",
         "society"
       ]
     },
     "created": "2026-04-27T12:21:46Z",
-    "modified": "2026-06-16T12:23:55Z"
+    "modified": "2026-09-02T04:02:23Z"
   }
 }

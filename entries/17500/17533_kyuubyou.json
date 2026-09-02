@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "17533_kyuubyou_ex1",
-      "japanese": "{急病|きゅうびょう}で{会議|かいぎ}を{欠席|けっせき}した。",
+      "japanese": "{急病|きゅうびょう}⟦で→で：00502_de⟧⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦を→を：00422_wo⟧⟦{欠席|けっせき}した→欠席する：22283_kessekisuru⟧。",
       "english": "I was absent from the meeting due to a sudden illness.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17533_kyuubyou_ex2",
-      "japanese": "{出演者|しゅつえんしゃ}が{急病|きゅうびょう}のため{公演|こうえん}が{中止|ちゅうし}になった。",
+      "japanese": "⟦{出演者|しゅつえんしゃ}→出演者：11340_shutsuensha⟧⟦が→が：00051_ga⟧{急病|きゅうびょう}⟦の→の：09472_no⟧⟦ため→ため：01145_tame⟧⟦{公演|こうえん}→公演：11639_kouen⟧⟦が→が：00051_ga⟧⟦{中止|ちゅうし}→中止：03481_chuushi⟧になった。",
       "english": "The performance was canceled because the performer fell suddenly ill.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17533_kyuubyou_ex3",
-      "japanese": "{急病|きゅうびょう}の{患者|かんじゃ}を{救急車|きゅうきゅうしゃ}で{病院|びょういん}に{運|はこ}んだ。",
+      "japanese": "{急病|きゅうびょう}⟦の→の：09472_no⟧⟦{患者|かんじゃ}→患者：00170_kanja⟧⟦を→を：00422_wo⟧⟦{救急車|きゅうきゅうしゃ}→救急車：05077_kyuukyuusha⟧⟦で→で：00502_de⟧⟦{病院|びょういん}→病院：00577_byouin⟧⟦に→に：00314_ni⟧⟦{運|はこ}んだ→運ぶ：01088_hakobu⟧。",
       "english": "The patient with a sudden illness was transported to the hospital by ambulance.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nA formal compound used in official explanations for absences or cancellations. In everyday speech, people might say {急|きゅう}に{具合|ぐあい}が{悪|わる}くなった (suddenly felt unwell) instead.\n\nCOMMON COLLOCATIONS:\n- {急病|きゅうびょう}のため (due to sudden illness)\n- {急病|きゅうびょう}で{倒|たお}れる (to collapse from sudden illness)\n- {急病|きゅうびょう}{人|にん} (person with sudden illness)\n- {急病|きゅうびょう}で{欠席|けっせき}する (to be absent due to sudden illness)\n\nSIMILAR WORDS:\n- {持病|じびょう}: chronic illness — long-term condition, opposite of sudden\n- {仮病|けびょう}: feigned illness — pretending to be sick\n- {急患|きゅうかん}: emergency patient — the person, not the condition",
+  "notes": "USAGE:\nA formal compound used in official explanations for absences or cancellations. In everyday speech, people might say ⟦{急|きゅう}→急：13042_kyuu⟧⟦に→に：00314_ni⟧⟦{具合|ぐあい}→具合：01391_guai⟧⟦が→が：00051_ga⟧⟦{悪|わる}く→悪い：00908_warui⟧⟦なった→なる：01970_naru⟧ (suddenly felt unwell) instead.\n\nCOMMON COLLOCATIONS:\n- {急病|きゅうびょう}⟦の→の：09472_no⟧⟦ため→ため：01145_tame⟧ (due to sudden illness)\n- {急病|きゅうびょう}⟦で→で：00502_de⟧⟦{倒|たお}れる→倒れる：01160_taoreru⟧ (to collapse from sudden illness)\n- {急病|きゅうびょう}{人|にん} (person with sudden illness)\n- {急病|きゅうびょう}⟦で→で：00502_de⟧⟦{欠席|けっせき}する→欠席する：22283_kessekisuru⟧ (to be absent due to sudden illness)\n\nSIMILAR WORDS:\n- ⟦{持病|じびょう}→持病：07280_jibyou⟧: chronic illness — long-term condition, opposite of sudden\n- {仮病|けびょう}: feigned illness — pretending to be sick\n- {急患|きゅうかん}: emergency patient — the person, not the condition",
   "cross_references": [
     {
       "type": "antonym",
@@ -50,15 +56,21 @@
   ],
   "metadata": {
     "created": "2026-03-18T08:03:33Z",
-    "modified": "2026-05-06T09:07:22Z",
+    "modified": "2026-09-02T04:01:48Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["medical"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "medical"
+      ]
     }
   }
 }

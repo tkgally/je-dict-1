@@ -3,7 +3,7 @@
   "headword": "プレー",
   "reading": "ぷれー",
   "romaji": "puree",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "play; performance (in sports)",
   "definitions": [
     {
@@ -25,7 +25,7 @@
     },
     {
       "id": "29432_puree_ex2",
-      "japanese": "{彼|かれ}のプレーは{素晴|すば}らしい。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧プレー⟦は→は：00079_ha⟧⟦{素晴|すば}らしい→素晴らしい：01119_subarashii⟧。",
       "english": "His play is wonderful.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29432_puree_ex3",
-      "japanese": "{選手|せんしゅ}たちは{最後|さいご}まで{全力|ぜんりょく}でプレーした。",
+      "japanese": "⟦{選手|せんしゅ}→選手：03823_senshu⟧たち⟦は→は：00079_ha⟧⟦{最後|さいご}→最後：01413_saigo⟧⟦まで→まで：00490_made⟧⟦{全力|ぜんりょく}→全力：11637_zenryoku⟧⟦で→で：00502_de⟧プレー⟦した→する：00392_suru⟧。",
       "english": "The players played with all their might until the very end.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Loanword from English \"play.\" Refers to action in sports and games; with する it means to play (a sport).\n\nCOMMON COLLOCATIONS:\n- ナイスプレー: nice play (a good move)\n- ファインプレー: a fine play; a brilliant move\n- フェアプレー: fair play; sportsmanship\n- プレーする: to play (a sport or game)\n\nSIMILAR WORDS:\n- {演技|えんぎ}: performance, acting — used for figure skating and gymnastics routines, and for stage acting\n- {試合|しあい}: match, game — the whole contest, not an individual play within it",
+  "notes": "Loanword from English \"play.\" Refers to action in sports and games; with ⟦する→する：00392_suru⟧ it means to play (a sport).\n\nCOMMON COLLOCATIONS:\n- ナイスプレー: nice play (a good move)\n- ファインプレー: a fine play; a brilliant move\n- フェアプレー: fair play; sportsmanship\n- プレー⟦する→する：00392_suru⟧: to play (a sport or game)\n\nSIMILAR WORDS:\n- ⟦{演技|えんぎ}→演技：01890_engi⟧: performance, acting — used for figure skating and gymnastics routines, and for stage acting\n- ⟦{試合|しあい}→試合：01601_shiai⟧: match, game — the whole contest, not an individual play within it",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01890_engi",
+      "reading": "えんぎ",
+      "headword": "{演技|えんぎ}",
+      "label": "performance, acting"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01601_shiai",
+      "reading": "しあい",
+      "headword": "{試合|しあい}",
+      "label": "match, game"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -54,7 +70,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "sports"
       ],
@@ -62,7 +78,7 @@
       "verb_class": "suru"
     },
     "created": "2026-06-23T09:24:58Z",
-    "modified": "2026-06-23T09:24:58Z"
+    "modified": "2026-09-02T04:02:36Z"
   },
   "conjugation": {
     "type": "suru",

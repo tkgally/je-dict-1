@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "09489_biora_ex1",
-      "japanese": "ビオラ⟦を→を：00422_wo⟧{弾|ひ}く。",
+      "japanese": "ビオラ⟦を→を：00422_wo⟧⟦{弾|ひ}く→弾く：02444_hiku⟧。",
       "english": "To play the viola.",
       "has_audio": false,
       "sense_numbers": [
@@ -23,7 +23,7 @@
     },
     {
       "id": "09489_biora_ex2",
-      "japanese": "{彼女|かのじょ}⟦は→は：00079_ha⟧ビオラ⟦を→を：00422_wo⟧{習|なら}っている。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧ビオラ⟦を→を：00422_wo⟧⟦{習|なら}っている→習う：00479_narau⟧。",
       "english": "She is learning the viola.",
       "has_audio": false,
       "sense_numbers": [
@@ -32,7 +32,7 @@
     },
     {
       "id": "09489_biora_ex3",
-      "japanese": "ビオラ⟦は→は：00079_ha⟧バイオリンより⟦{大|おお}きい→大きい：00335_ookii⟧。",
+      "japanese": "ビオラ⟦は→は：00079_ha⟧⟦バイオリン→バイオリン：00009_baiorin⟧⟦より→より：09476_yori⟧⟦{大|おお}きい→大きい：00335_ookii⟧。",
       "english": "The viola is larger than the violin.",
       "has_audio": false,
       "sense_numbers": [
@@ -40,10 +40,10 @@
       ]
     }
   ],
-  "notes": "ビオラ is the Japanese name for the viola, a bowed string instrument slightly larger than a violin with a deeper, warmer tone.\n\nSTRING FAMILY (high to low):\n- バイオリン (violin) — highest pitch\n- ビオラ (viola)\n- ⟦チェロ→チェロ：08115_chero⟧ (cello)\n- ⟦コントラバス→コントラバス：08149_kontorabasu⟧ (double bass) — lowest pitch\n\nCOMMON COLLOCATIONS:\n- ビオラを{弾|ひ}く: to play the viola\n- ビオラ{奏者|そうしゃ}: viola player\n- ビオラパート: viola section/part\n\nNOTE:\nThe same word ビオラ also refers to violas and pansies (flowers). Context makes the meaning clear — the musical instrument is far more common in everyday usage.",
+  "notes": "ビオラ is the Japanese name for the viola, a bowed string instrument slightly larger than a violin with a deeper, warmer tone.\n\nSTRING FAMILY (high to low):\n- ⟦バイオリン→バイオリン：00009_baiorin⟧ (violin) — highest pitch\n- ビオラ (viola)\n- ⟦チェロ→チェロ：08115_chero⟧ (cello)\n- ⟦コントラバス→コントラバス：08149_kontorabasu⟧ (double bass) — lowest pitch\n\nCOMMON COLLOCATIONS:\n- ビオラ⟦を→を：00422_wo⟧⟦{弾|ひ}く→弾く：02444_hiku⟧: to play the viola\n- ビオラ⟦{奏者|そうしゃ}→奏者：06964_sousha⟧: viola player\n- ビオラ⟦パート→パート：03106_paato⟧: viola section/part\n\nUSAGE:\nThe same word ビオラ also refers to violas and pansies (flowers). Context makes the meaning clear — the musical instrument is far more common in everyday usage.",
   "metadata": {
     "created": "2026-02-02T07:47:12Z",
-    "modified": "2026-06-24T06:55:10Z",
+    "modified": "2026-09-02T04:01:18Z",
     "ai_model": "claude-opus-4-5-20251101",
     "vocabulary_tier": "general",
     "tags": {
@@ -64,6 +64,13 @@
       "reading": "ばいおりん",
       "headword": "バイオリン",
       "label": "violin"
+    },
+    {
+      "type": "related",
+      "target_id": "08149_kontorabasu",
+      "reading": "こんとらばす",
+      "headword": "コントラバス",
+      "label": "double bass"
     }
   ]
 }

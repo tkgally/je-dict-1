@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "11896_kichijitsu_ex1",
-      "japanese": "{大安|たいあん}は{吉日|きちじつ}とされる。",
+      "japanese": "⟦{大安|たいあん}→大安：16753_taian⟧⟦は→は：00079_ha⟧{吉日|きちじつ}⟦と→と：00512_to⟧⟦される→する：00392_suru⟧。",
       "english": "Taian is considered an auspicious day.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "11896_kichijitsu_ex2",
-      "japanese": "{結婚式|けっこんしき}は{吉日|きちじつ}に{行|おこな}いたい。",
+      "japanese": "⟦{結婚式|けっこんしき}→結婚式：05493_kekkonshiki⟧⟦は→は：00079_ha⟧{吉日|きちじつ}⟦に→に：00314_ni⟧⟦{行|おこな}いたい→行う：01238_okonau⟧。",
       "english": "I want to hold the wedding on an auspicious day.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "11896_kichijitsu_ex3",
-      "japanese": "{引|ひ}っ{越|こ}しの{日取|ひど}りは{吉日|きちじつ}を{選|えら}んで{決|き}めた。",
+      "japanese": "{引|ひ}っ{越|こ}し⟦の→の：09472_no⟧⟦{日取|ひど}り→日取り：12952_hidori⟧⟦は→は：00079_ha⟧{吉日|きちじつ}⟦を→を：00422_wo⟧⟦{選|えら}んで→選ぶ：00835_erabu⟧⟦{決|き}めた→決める：00858_kimeru⟧。",
       "english": "We chose an auspicious day for the moving date.",
       "notes": null,
       "has_audio": false,
@@ -43,11 +43,19 @@
       ]
     }
   ],
-  "notes": "COMMON COLLOCATIONS:\n・{大安|たいあん}{吉日|きちじつ} (most auspicious day on the six-day calendar)\n・{吉日|きちじつ}を{選|えら}ぶ (choose a lucky day)\n・{吉日|きちじつ}に{行|おこな}う (carry out on an auspicious day)\n\nAlso read as きちにち. The traditional {六曜|ろくよう} (six-day) calendar cycle determines which days are considered lucky or unlucky. {大安|たいあん} is the most auspicious day, while {仏滅|ぶつめつ} is the most inauspicious. Many Japanese still consult the calendar for weddings and other ceremonies.",
-  "cross_references": [],
+  "notes": "COMMON COLLOCATIONS:\n- {大安|たいあん}{吉日|きちじつ} (most auspicious day on the six-day calendar)\n- {吉日|きちじつ}⟦を→を：00422_wo⟧⟦{選|えら}ぶ→選ぶ：00835_erabu⟧ (choose a lucky day)\n- {吉日|きちじつ}⟦に→に：00314_ni⟧⟦{行|おこな}う→行う：01238_okonau⟧ (carry out on an auspicious day)\n\nAlso read as きちにち. The traditional ⟦{六曜|ろくよう}→六曜：29161_rokuyou⟧ (six-day) calendar cycle determines which days are considered lucky or unlucky. ⟦{大安|たいあん}→大安：16753_taian⟧ is the most auspicious day, while ⟦{仏滅|ぶつめつ}→仏滅：16754_butsumetsu⟧ is the most inauspicious. Many Japanese still consult the calendar for weddings and other ceremonies.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "26613_ryoujitsu",
+      "reading": "りょうじつ",
+      "headword": "{良日|りょうじつ}",
+      "label": "auspicious day"
+    }
+  ],
   "metadata": {
     "created": "2026-02-18T14:04:12Z",
-    "modified": "2026-07-03T09:29:09Z",
+    "modified": "2026-09-02T04:01:26Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",

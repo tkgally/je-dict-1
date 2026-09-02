@@ -3,7 +3,7 @@
   "headword": "{一度|いちど}きり",
   "reading": "いちどきり",
   "romaji": "ichidokiri",
-  "part_of_speech": "expression",
+  "part_of_speech": "expression, adverb",
   "gloss": "only once; just one time",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22058_ichidokiri_ex1",
-      "japanese": "{人生|じんせい}は{一度|いちど}きりだ。",
+      "japanese": "⟦{人生|じんせい}→人生：03355_jinsei⟧⟦は→は：00079_ha⟧{一度|いちど}きりだ。",
       "english": "You only live once.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22058_ichidokiri_ex2",
-      "japanese": "そのチャンスは{一度|いちど}きりだった。",
+      "japanese": "⟦その→その：00993_sono⟧⟦チャンス→チャンス：03857_chansu⟧⟦は→は：00079_ha⟧{一度|いちど}きりだった。",
       "english": "That chance only came once.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22058_ichidokiri_ex3",
-      "japanese": "{一度|いちど}きりの{出会|であ}いを{大切|たいせつ}にしたい。",
+      "japanese": "{一度|いちど}きり⟦の→の：09472_no⟧⟦{出会|であ}い→出会い：03445_deai⟧⟦を→を：00422_wo⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧にしたい。",
       "english": "I want to cherish this one-time encounter.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "An expression emphasizing that something happens only once and cannot be repeated. Combines {一度|いちど} (once) with きり (only, nothing more). Often carries a sense of preciousness or urgency — the one chance should not be wasted.\n\nCOMMON PATTERNS:\n- {人生|じんせい}は{一度|いちど}きり: you only live once\n- {一度|いちど}きりの{体験|たいけん}: a once-in-a-lifetime experience\n- {一度|いちど}きりしかない: there is only one chance\n\nSIMILAR WORDS:\n- {一回|いっかい}きり — same meaning but slightly more casual\n- たった{一度|いちど} — emphasizes \"just once\" with a different nuance of smallness\n- {二度|にど}とない — never again; emphasizes irreversibility",
+  "notes": "An expression emphasizing that something happens only once and cannot be repeated. Combines ⟦{一度|いちど}→一度：01312_ichido⟧ (once) with きり (only, nothing more). Often carries a sense of preciousness or urgency — the one chance should not be wasted.\n\nCOMMON PATTERNS:\n- ⟦{人生|じんせい}→人生：03355_jinsei⟧⟦は→は：00079_ha⟧{一度|いちど}きり: you only live once\n- {一度|いちど}きり⟦の→の：09472_no⟧⟦{体験|たいけん}→体験：11443_taiken⟧: a once-in-a-lifetime experience\n- {一度|いちど}きり⟦しかない→〜しかない：30533_shikanai⟧: there is only one chance\n\nSIMILAR WORDS:\n- ⟦{一回|いっかい}→一回：08925_ikkai⟧きり — same meaning but slightly more casual\n- ⟦たった→たった：00403_tatta⟧⟦{一度|いちど}→一度：01312_ichido⟧ — emphasizes \"just once\" with a different nuance of smallness\n- ⟦{二度|にど}と→二度と：06482_nidoto⟧⟦ない→ない：01118_nai⟧ — never again; emphasizes irreversibility",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18045_ikkaikiri",
+      "reading": "いっかいきり",
+      "headword": "{一回|いっかい}きり",
+      "label": "same meaning but slightly more casual"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20533_ikkaikagiri",
+      "reading": "いっかいかぎり",
+      "headword": "{一回限|いっかいかぎ}り",
+      "label": "one time only"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20543_tanpatsu",
+      "reading": "たんぱつ",
+      "headword": "{単発|たんぱつ}",
+      "label": "one-time"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,12 +76,13 @@
         "expression",
         "adverb"
       ],
+      "politeness": "plain",
       "semantic": [
         "time-general"
       ],
       "usage_context": []
     },
     "created": "2026-04-04T22:14:04Z",
-    "modified": "2026-07-30T03:35:34Z"
+    "modified": "2026-09-02T04:02:06Z"
   }
 }

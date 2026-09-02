@@ -15,39 +15,66 @@
   "examples": [
     {
       "id": "26100_shouhizai_ex1",
-      "japanese": "{消費財|しょうひざい}の{価格|かかく}が{上昇|じょうしょう}している。",
+      "japanese": "{消費財|しょうひざい}⟦の→の：09472_no⟧⟦{価格|かかく}→価格：00147_kakaku⟧⟦が→が：00051_ga⟧⟦{上昇|じょうしょう}している→上昇する：21681_joushousuru⟧。",
       "english": "Consumer goods prices are rising.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26100_shouhizai_ex2",
-      "japanese": "{食料品|しょくりょうひん}は{代表的|だいひょうてき}な{消費財|しょうひざい}である。",
+      "japanese": "⟦{食料品|しょくりょうひん}→食料品：01439_shokuryouhin⟧⟦は→は：00079_ha⟧⟦{代表的|だいひょうてき}→代表的：05670_daihyouteki⟧な{消費財|しょうひざい}⟦である→である：09855_dearu⟧。",
       "english": "Food products are a typical example of consumer goods.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26100_shouhizai_ex3",
-      "japanese": "{消費財|しょうひざい}の{需要|じゅよう}は{景気|けいき}の{動向|どうこう}に{大|おお}きく{左右|さゆう}される。",
+      "japanese": "{消費財|しょうひざい}⟦の→の：09472_no⟧⟦{需要|じゅよう}→需要：02616_juyou⟧⟦は→は：00079_ha⟧⟦{景気|けいき}→景気：02694_keiki⟧⟦の→の：09472_no⟧⟦{動向|どうこう}→動向：05580_doukou⟧⟦に→に：00314_ni⟧⟦{大|おお}きく→大きい：00335_ookii⟧⟦{左右|さゆう}される→左右される：26073_sayuusareru⟧。",
       "english": "Demand for consumer goods is greatly influenced by economic trends.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "An economics term composed of {消費|しょうひ} (consumption) and {財|ざい} (goods; assets). Refers to goods purchased by end consumers for personal use. Contrasted with {生産財|せいさんざい} (capital goods/producer goods) used in manufacturing.\n\nCOMMON COLLOCATIONS:\n- {耐久|たいきゅう}{消費財|しょうひざい}: durable consumer goods (appliances, cars)\n- {非耐久|ひたいきゅう}{消費財|しょうひざい}: non-durable consumer goods (food, toiletries)\n- {消費財|しょうひざい}{市場|しじょう}: consumer goods market\n- {消費財|しょうひざい}メーカー: consumer goods manufacturer\n\nSIMILAR WORDS:\n- {生産財|せいさんざい}: capital goods; producer goods — goods used to produce other goods\n- {日用品|にちようひん}: daily necessities — overlaps with non-durable consumer goods but focuses on everyday household items\n- {商品|しょうひん}: goods; merchandise — a broader term for any product for sale",
-  "cross_references": [],
+  "notes": "An economics term composed of ⟦{消費|しょうひ}→消費：03240_shouhi⟧ (consumption) and {財|ざい} (goods; assets). Refers to goods purchased by end consumers for personal use. Contrasted with {生産財|せいさんざい} (capital goods/producer goods) used in manufacturing.\n\nCOMMON COLLOCATIONS:\n- ⟦{耐久|たいきゅう}→耐久：18768_taikyuu⟧{消費財|しょうひざい}: durable consumer goods (appliances, cars)\n- {非耐久|ひたいきゅう}{消費財|しょうひざい}: non-durable consumer goods (food, toiletries)\n- {消費財|しょうひざい}⟦{市場|しじょう}→市場：09685_shijou⟧: consumer goods market\n- {消費財|しょうひざい}⟦メーカー→メーカー：11158_meekaa⟧: consumer goods manufacturer\n\nSIMILAR WORDS:\n- {生産財|せいさんざい}: capital goods; producer goods — goods used to produce other goods\n- ⟦{日用品|にちようひん}→日用品：09547_nichiyouhin⟧: daily necessities — overlaps with non-durable consumer goods but focuses on everyday household items\n- ⟦{商品|しょうひん}→商品：01436_shouhin⟧: goods; merchandise — a broader term for any product for sale",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09547_nichiyouhin",
+      "reading": "にちようひん",
+      "headword": "{日用品|にちようひん}",
+      "label": "daily necessities"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01436_shouhin",
+      "reading": "しょうひん",
+      "headword": "{商品|しょうひん}",
+      "label": "goods"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["economics"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "economics"
+      ]
     },
     "created": "2026-04-29T13:33:44Z",
-    "modified": "2026-04-29T13:33:44Z"
+    "modified": "2026-09-02T04:02:25Z"
   }
 }

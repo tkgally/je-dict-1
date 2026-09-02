@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "12225_iyagarase_ex1",
-      "japanese": "{嫌|いや}がらせはやめてください。",
+      "japanese": "{嫌|いや}がらせはやめて⟦ください→ください：02899_kudasai⟧。",
       "english": "Please stop the harassment.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12225_iyagarase_ex2",
-      "japanese": "{職場|しょくば}での{嫌|いや}がらせに{悩|なや}んでいる。",
+      "japanese": "⟦{職場|しょくば}→職場：04164_shokuba⟧⟦で→で：00502_de⟧⟦の→の：09472_no⟧{嫌|いや}がらせ⟦に→に：00314_ni⟧⟦{悩|なや}んでいる→悩む：02380_nayamu⟧。",
       "english": "I am troubled by harassment at work.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12225_iyagarase_ex3",
-      "japanese": "{隣人|りんじん}から{嫌|いや}がらせを{受|う}けていたが、{警察|けいさつ}に{相談|そうだん}してようやく{止|と}まった。",
+      "japanese": "⟦{隣人|りんじん}→隣人：10007_rinjin⟧⟦から→から：00504_kara⟧{嫌|いや}がらせ⟦を→を：00422_wo⟧⟦{受|う}けていた→受ける：01215_ukeru⟧⟦が→が：00051_ga⟧、⟦{警察|けいさつ}→警察：01393_keisatsu⟧⟦に→に：00314_ni⟧⟦{相談|そうだん}して→相談する：01845_soudansuru⟧ようやく⟦{止|と}まった→止まる：00555_tomaru⟧。",
       "english": "I had been receiving harassment from my neighbor, but it finally stopped after I consulted the police.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "Derived from the verb {嫌|いや}がる (to dislike, to be reluctant) with the causative nuance of making someone feel unpleasant.\n\nCOMMON COLLOCATIONS:\n- {嫌|いや}がらせを{受|う}ける: to receive harassment\n- {嫌|いや}がらせをする: to harass\n- {嫌|いや}がらせ{行為|こうい}: acts of harassment\n- {嫌|いや}がらせ{電話|でんわ}: harassing phone calls\n- {嫌|いや}がらせメール: harassing emails/messages\n\nUSAGE:\nBroader than English \"harassment\" — it covers everything from a child's petty teasing to serious workplace intimidation. In workplace contexts, it overlaps with パワハラ (power harassment) and セクハラ (sexual harassment), though {嫌|いや}がらせ is the native Japanese term and applies to any form of deliberate hostility.",
+  "notes": "Derived from the verb ⟦{嫌|いや}がる→嫌がる：03041_iyagaru⟧ (to dislike, to be reluctant) with the causative nuance of making someone feel unpleasant.\n\nCOMMON COLLOCATIONS:\n- {嫌|いや}がらせ⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧: to receive harassment\n- {嫌|いや}がらせ⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧: to harass\n- {嫌|いや}がらせ⟦{行為|こうい}→行為：10021_koui⟧: acts of harassment\n- {嫌|いや}がらせ⟦{電話|でんわ}→電話：01471_denwa⟧: harassing phone calls\n- {嫌|いや}がらせ⟦メール→メール：04435_meeru⟧: harassing emails/messages\n\nUSAGE:\nBroader than English \"harassment\" — it covers everything from a child's petty teasing to serious workplace intimidation. In workplace contexts, it overlaps with ⟦パワハラ→パワハラ：05904_pawahara⟧ (power harassment) and ⟦セクハラ→セクハラ：05905_sekuhara⟧ (sexual harassment), though {嫌|いや}がらせ is the native Japanese term and applies to any form of deliberate hostility.",
   "cross_references": [
     {
       "type": "related",
@@ -46,18 +52,29 @@
       "reading": "いやがる",
       "headword": "{嫌|いや}がる",
       "label": "verb stem"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23092_ibiri",
+      "reading": "いびり",
+      "headword": "いびり",
+      "label": "bullying"
     }
   ],
   "metadata": {
     "created": "2026-02-20T13:10:38Z",
-    "modified": "2026-04-26T08:07:12Z",
+    "modified": "2026-09-02T04:01:28Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["communication"]
+      "semantic": [
+        "communication"
+      ]
     }
   }
 }

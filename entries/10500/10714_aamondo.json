@@ -15,41 +15,59 @@
   "examples": [
     {
       "id": "10714_aamondo_ex1",
-      "japanese": "アーモンドを{食|た}べる。",
+      "japanese": "アーモンド⟦を→を：00422_wo⟧⟦{食|た}べる→食べる：00396_taberu⟧。",
       "english": "To eat almonds.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10714_aamondo_ex2",
-      "japanese": "アーモンドミルクを{牛乳|ぎゅうにゅう}の{代|か}わりに{使|つか}う。",
+      "japanese": "アーモンド⟦ミルク→ミルク：00284_miruku⟧⟦を→を：00422_wo⟧⟦{牛乳|ぎゅうにゅう}→牛乳：00777_gyuunyuu⟧⟦の→の：09472_no⟧⟦{代|か}わり→代わり：01296_kawari⟧⟦に→に：00314_ni⟧⟦{使|つか}う→使う：00473_tsukau⟧。",
       "english": "I use almond milk instead of cow's milk.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10714_aamondo_ex3",
-      "japanese": "チョコレートの{中|なか}にアーモンドが{丸|まる}ごと{一粒|ひとつぶ}{入|はい}っているお{菓子|かし}が{好|す}きだ。",
+      "japanese": "⟦チョコレート→チョコレート：05183_chokoreeto⟧⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧⟦に→に：00314_ni⟧アーモンド⟦が→が：00051_ga⟧⟦{丸|まる}ごと→丸ごと：10545_marugoto⟧⟦{一粒|ひとつぶ}→一粒：27642_hitotsubu⟧⟦{入|はい}っている→入る：00494_hairu⟧⟦お{菓子|かし}→お菓子：02852_okashi⟧⟦が→が：00051_ga⟧⟦{好|す}き→好き：02355_suki⟧だ。",
       "english": "I like sweets that have a whole almond inside the chocolate.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "アーモンド is the Japanese word for almond, borrowed from English. It refers to both the nut itself and products made from it.\n\nUSAGE:\nWidely available in Japan as a snack, in chocolate confections, and increasingly as a dairy alternative. Also used in {和菓子|わがし}-inspired fusion sweets.\n\nCOMMON COLLOCATIONS:\n- {素焼|すや}きアーモンド: roasted almonds (unseasoned)\n- アーモンドミルク: almond milk\n- アーモンドチョコ: almond chocolate\n- スライスアーモンド: sliced almonds\n- アーモンドプードル: almond flour (from French \"poudre\")\n\nCOUNTING:\nIndividual almonds are counted with {粒|つぶ} ({一粒|ひとつぶ}, {二粒|ふたつぶ}). Bags or packages use {袋|ふくろ}.",
-  "cross_references": [],
+  "notes": "アーモンド is the Japanese word for almond, borrowed from English. It refers to both the nut itself and products made from it.\n\nUSAGE:\nWidely available in Japan as a snack, in chocolate confections, and increasingly as a dairy alternative. Also used in ⟦{和菓子|わがし}→和菓子：04962_wagashi⟧-inspired fusion sweets.\n\nCOMMON COLLOCATIONS:\n- ⟦{素焼|すや}き→素焼き：24657_suyaki⟧アーモンド: roasted almonds (unseasoned)\n- アーモンド⟦ミルク→ミルク：00284_miruku⟧: almond milk\n- アーモンドチョコ: almond chocolate\n- スライスアーモンド: sliced almonds\n- アーモンドプードル: almond flour (from French \"poudre\")\n\nCOUNTING PATTERNS:\nIndividual almonds are counted with ⟦{粒|つぶ}→粒：03892_tsubu⟧ (⟦{一粒|ひとつぶ}→一粒：27642_hitotsubu⟧, {二粒|ふたつぶ}). Bags or packages use ⟦{袋|ふくろ}→袋：00837_fukuro⟧.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "25069_kashuunattsu",
+      "reading": "かしゅーなっつ",
+      "headword": "カシューナッツ",
+      "label": "cashew nut"
+    }
+  ],
   "metadata": {
     "created": "2026-02-09T07:23:05Z",
-    "modified": "2026-04-04T10:40:23Z",
+    "modified": "2026-09-02T04:01:22Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food"]
+      "semantic": [
+        "food"
+      ]
     }
   }
 }

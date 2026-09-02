@@ -15,41 +15,74 @@
   "examples": [
     {
       "id": "15809_nidaime_ex1",
-      "japanese": "{二代目|にだいめ}が{店|みせ}を{継|つ}いだ。",
+      "japanese": "{二代目|にだいめ}⟦が→が：00051_ga⟧⟦{店|みせ}→店：00497_mise⟧⟦を→を：00422_wo⟧⟦{継|つ}いだ→継ぐ：02292_tsugu⟧。",
       "english": "The second-generation owner took over the shop.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15809_nidaime_ex2",
-      "japanese": "{彼|かれ}は{二代目|にだいめ}{社長|しゃちょう}として{会社|かいしゃ}を{大|おお}きくした。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{二代目|にだいめ}⟦{社長|しゃちょう}→社長：01428_shachou⟧⟦として→として：06802_toshite⟧⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦を→を：00422_wo⟧⟦{大|おお}きく→大きい：00335_ookii⟧⟦した→する：00392_suru⟧。",
       "english": "As the second-generation president, he grew the company.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15809_nidaime_ex3",
-      "japanese": "この{老舗|しにせ}は{二代目|にだいめ}の{時代|じだい}に{全国的|ぜんこくてき}に{名|な}が{知|し}られるようになった。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{老舗|しにせ}→老舗：16152_shinise⟧⟦は→は：00079_ha⟧{二代目|にだいめ}⟦の→の：09472_no⟧⟦{時代|じだい}→時代：01424_jidai⟧⟦に→に：00314_ni⟧⟦{全国的|ぜんこくてき}→全国的：20017_zenkokuteki⟧⟦に→に：00314_ni⟧⟦{名|な}→名：03496_na⟧⟦が→が：00051_ga⟧⟦{知|し}られる→知る：00458_shiru⟧ようになった。",
       "english": "This long-established shop became nationally known during the second generation's era.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\n{二代目|にだいめ} can be used on its own to refer to the successor, or before a title: {二代目|にだいめ}{社長|しゃちょう} (second-generation president). The pattern extends to other numbers: {三代目|さんだいめ} (third generation), {初代|しょだい} (the first/founding generation). In traditional performing arts like {歌舞伎|かぶき}, stage names are inherited across generations.\n\nCOMMON COLLOCATIONS:\n- {二代目|にだいめ}{社長|しゃちょう} (second-generation company president)\n- {二代目|にだいめ}を{継|つ}ぐ (succeed as the second generation)\n- {二代目|にだいめ}が{店|みせ}を{継|つ}ぐ (the successor takes over the shop)\n\nRELATED TERMS:\n- {初代|しょだい} refers to the founder or first holder of a title.\n- {三代目|さんだいめ} is the third generation.\n- {跡継|あとつ}ぎ is a general term for successor or heir.",
-  "cross_references": [],
+  "notes": "USAGE:\n{二代目|にだいめ} can be used on its own to refer to the successor, or before a title: {二代目|にだいめ}⟦{社長|しゃちょう}→社長：01428_shachou⟧ (second-generation president). The pattern extends to other numbers: ⟦{三代目|さんだいめ}→三代目：25201_sandaime⟧ (third generation), ⟦{初代|しょだい}→初代：11778_shodai⟧ (the first/founding generation). In traditional performing arts like ⟦{歌舞伎|かぶき}→歌舞伎：04455_kabuki⟧, stage names are inherited across generations.\n\nCOMMON COLLOCATIONS:\n- {二代目|にだいめ}⟦{社長|しゃちょう}→社長：01428_shachou⟧ (second-generation company president)\n- {二代目|にだいめ}⟦を→を：00422_wo⟧⟦{継|つ}ぐ→継ぐ：02292_tsugu⟧ (succeed as the second generation)\n- {二代目|にだいめ}⟦が→が：00051_ga⟧⟦{店|みせ}→店：00497_mise⟧⟦を→を：00422_wo⟧⟦{継|つ}ぐ→継ぐ：02292_tsugu⟧ (the successor takes over the shop)\n\nRELATED WORDS:\n- ⟦{初代|しょだい}→初代：11778_shodai⟧ refers to the founder or first holder of a title.\n- ⟦{三代目|さんだいめ}→三代目：25201_sandaime⟧ is the third generation.\n- ⟦{跡継|あとつ}ぎ→跡継ぎ：14299_atotsugi⟧ is a general term for successor or heir.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "11778_shodai",
+      "reading": "しょだい",
+      "headword": "{初代|しょだい}",
+      "label": "refers to the founder or first holder…"
+    },
+    {
+      "type": "related",
+      "target_id": "25201_sandaime",
+      "reading": "さんだいめ",
+      "headword": "{三代目|さんだいめ}",
+      "label": "is the third generation."
+    },
+    {
+      "type": "related",
+      "target_id": "14299_atotsugi",
+      "reading": "あとつぎ",
+      "headword": "{跡継|あとつ}ぎ",
+      "label": "is a general term for successor or heir."
+    }
+  ],
   "metadata": {
     "created": "2026-03-08T10:08:31Z",
-    "modified": "2026-03-08T10:08:31Z",
+    "modified": "2026-09-02T04:01:42Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["family", "business"]
+      "semantic": [
+        "family",
+        "business"
+      ]
     }
   }
 }

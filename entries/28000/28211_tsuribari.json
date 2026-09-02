@@ -15,41 +15,60 @@
   "examples": [
     {
       "id": "28211_tsuribari_ex1",
-      "japanese": "{釣|つ}り{針|ばり}に{餌|えさ}をつける。",
+      "japanese": "{釣|つ}り{針|ばり}⟦に→に：00314_ni⟧⟦{餌|えさ}→餌：01886_esa⟧⟦を→を：00422_wo⟧⟦つける→つける：00562_tsukeru⟧。",
       "english": "To put bait on the fishhook.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28211_tsuribari_ex2",
-      "japanese": "{魚|さかな}が{釣|つ}り{針|ばり}にかかった。",
+      "japanese": "⟦{魚|さかな}→魚：00499_sakana⟧⟦が→が：00051_ga⟧{釣|つ}り{針|ばり}⟦に→に：00314_ni⟧⟦かかった→かかる：00711_kakaru⟧。",
       "english": "A fish got caught on the hook.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28211_tsuribari_ex3",
-      "japanese": "{海|うみ}で{釣|つ}りをしていたら、{釣|つ}り{針|ばり}が{岩|いわ}に{引|ひ}っかかってしまった。",
+      "japanese": "⟦{海|うみ}→海：00556_umi⟧⟦で→で：00502_de⟧⟦{釣|つ}り→釣り：03439_tsuri⟧⟦を→を：00422_wo⟧⟦していたら→する：00392_suru⟧、{釣|つ}り{針|ばり}⟦が→が：00051_ga⟧⟦{岩|いわ}→岩：00850_iwa⟧⟦に→に：00314_ni⟧⟦{引|ひ}っかかって→引っかかる：12455_hikkakaru⟧しまった。",
       "english": "While fishing in the sea, my hook got caught on a rock.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "From {釣|つ}る (to fish) plus {針|はり} (needle, hook); は voices to ば in the compound.\n\nCOMMON COLLOCATIONS:\n- {釣|つ}り{針|ばり}に{餌|えさ}をつける: to bait a hook\n- {釣|つ}り{針|ばり}にかかる: to be hooked / to take the bait\n- {釣|つ}り{針|ばり}を{外|はず}す: to remove the hook\n\nNOTE:\n{釣|つ}り{針|ばり}にかかる is also used figuratively to mean 'to fall for a trick or lure'.",
+  "notes": "From ⟦{釣|つ}る→釣る：01236_tsuru⟧ (to fish) plus ⟦{針|はり}→針：03566_hari⟧ (needle, hook); ⟦は→は：00079_ha⟧ voices to ば in the compound.\n\nCOMMON COLLOCATIONS:\n- {釣|つ}り{針|ばり}⟦に→に：00314_ni⟧⟦{餌|えさ}→餌：01886_esa⟧⟦を→を：00422_wo⟧⟦つける→つける：00562_tsukeru⟧: to bait a hook\n- {釣|つ}り{針|ばり}⟦に→に：00314_ni⟧⟦かかる→かかる：00711_kakaru⟧: to be hooked / to take the bait\n- {釣|つ}り{針|ばり}⟦を→を：00422_wo⟧⟦{外|はず}す→外す：02394_hazusu⟧: to remove the hook\n\nUSAGE:\n{釣|つ}り{針|ばり}⟦に→に：00314_ni⟧⟦かかる→かかる：00711_kakaru⟧ is also used figuratively to mean 'to fall for a trick or lure'.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25895_fukku",
+      "reading": "ふっく",
+      "headword": "フック",
+      "label": "hook"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["tool"],
+      "politeness": "plain",
+      "semantic": [
+        "tool"
+      ],
       "domain": []
     },
     "created": "2026-05-27T03:08:15Z",
-    "modified": "2026-05-27T03:08:15Z"
+    "modified": "2026-09-02T04:02:32Z"
   }
 }

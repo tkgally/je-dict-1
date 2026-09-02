@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "20703_tanrakuteki_ex1",
-      "japanese": "{短絡的|たんらくてき}な{考|かんが}え{方|かた}はよくない。",
+      "japanese": "{短絡的|たんらくてき}な⟦{考|かんが}え{方|かた}→考え方：10169_kangaekata⟧⟦は→は：00079_ha⟧⟦よくない→いい：00118_ii⟧。",
       "english": "Simplistic thinking is not good.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "20703_tanrakuteki_ex2",
-      "japanese": "{問題|もんだい}を{短絡的|たんらくてき}に{解決|かいけつ}しようとしてはいけない。",
+      "japanese": "⟦{問題|もんだい}→問題：00797_mondai⟧⟦を→を：00422_wo⟧{短絡的|たんらくてき}⟦に→に：00314_ni⟧⟦{解決|かいけつ}しよう→解決する：17191_kaiketsusuru⟧⟦として→として：06802_toshite⟧⟦は→は：00079_ha⟧いけない。",
       "english": "You shouldn't try to solve problems in a hasty, simplistic way.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "20703_tanrakuteki_ex3",
-      "japanese": "{成績|せいせき}が{悪|わる}いからといって{短絡的|たんらくてき}に{塾|じゅく}に{通|かよ}わせるのではなく、まず{原因|げんいん}を{考|かんが}えるべきだ。",
+      "japanese": "⟦{成績|せいせき}→成績：03379_seiseki⟧⟦が→が：00051_ga⟧⟦{悪|わる}い→悪い：00908_warui⟧⟦からといって→からといって：30623_karatoitte⟧{短絡的|たんらくてき}⟦に→に：00314_ni⟧⟦{塾|じゅく}→塾：04702_juku⟧⟦に→に：00314_ni⟧⟦{通|かよ}わせる→通う：01217_kayou⟧⟦の→の：09472_no⟧⟦ではなく→ではなく：09578_dehanaku⟧、⟦まず→まず：00796_mazu⟧⟦{原因|げんいん}→原因：01400_genin⟧⟦を→を：00422_wo⟧⟦{考|かんが}える→考える：00856_kangaeru⟧べきだ。",
       "english": "Rather than hastily sending them to cram school just because their grades are bad, you should first think about the cause.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "From {短絡|たんらく} (short circuit) + {的|てき} (adjectival suffix). Just as a short circuit bypasses the normal path of electricity, {短絡的|たんらくてき} thinking bypasses careful reasoning and jumps straight to a conclusion.\n\nETYMOLOGY:\n{短絡|たんらく} originally means 'short circuit' in electrical engineering — when current takes a shortcut, bypassing the intended circuit. The figurative meaning extends to thinking that 'short-circuits' logical steps.\n\nCOMMON COLLOCATIONS:\n- {短絡的|たんらくてき}な{考|かんが}え{方|かた}: simplistic way of thinking\n- {短絡的|たんらくてき}な{判断|はんだん}: hasty judgment\n- {短絡的|たんらくてき}な{結論|けつろん}: a hasty conclusion\n- {短絡的|たんらくてき}に{結|むす}びつける: to jump to a connection\n\nSIMILAR WORDS:\n- {安直|あんちょく}: simplistic, easy-going — implies lazy or convenient thinking\n- {早計|そうけい}: premature, hasty — focuses on acting or deciding too quickly\n- {浅|あさ}はか: shallow, thoughtless — emphasizes lack of depth in thinking",
+  "notes": "From ⟦{短絡|たんらく}→短絡：16366_tanraku⟧ (short circuit) + ⟦{的|てき}→〜的：09839_teki⟧ (adjectival suffix). Just as a short circuit bypasses the normal path of electricity, {短絡的|たんらくてき} thinking bypasses careful reasoning and jumps straight to a conclusion.\n\nETYMOLOGY:\n⟦{短絡|たんらく}→短絡：16366_tanraku⟧ originally means 'short circuit' in electrical engineering — when current takes a shortcut, bypassing the intended circuit. The figurative meaning extends to thinking that 'short-circuits' logical steps.\n\nCOMMON COLLOCATIONS:\n- {短絡的|たんらくてき}な⟦{考|かんが}え{方|かた}→考え方：10169_kangaekata⟧: simplistic way of thinking\n- {短絡的|たんらくてき}な⟦{判断|はんだん}→判断：03571_handan⟧: hasty judgment\n- {短絡的|たんらくてき}な⟦{結論|けつろん}→結論：02704_ketsuron⟧: a hasty conclusion\n- {短絡的|たんらくてき}⟦に→に：00314_ni⟧⟦{結|むす}びつける→結びつく：13797_musubitsuku⟧: to jump to a connection\n\nSIMILAR WORDS:\n- ⟦{安直|あんちょく}→安直：19121_anchoku⟧: simplistic, easy-going — implies lazy or convenient thinking\n- {早計|そうけい}: premature, hasty — focuses on acting or deciding too quickly\n- ⟦{浅|あさ}はか→浅はか：13313_asahaka⟧: shallow, thoughtless — emphasizes lack of depth in thinking",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19121_anchoku",
+      "reading": "あんちょく",
+      "headword": "{安直|あんちょく}",
+      "label": "simplistic, easy-going"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13313_asahaka",
+      "reading": "あさはか",
+      "headword": "{浅|あさ}はか",
+      "label": "shallow, thoughtless"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06866_keisotsu",
+      "reading": "けいそつ",
+      "headword": "{軽率|けいそつ}",
+      "label": "rash"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +82,6 @@
       ]
     },
     "created": "2026-03-30T07:52:56Z",
-    "modified": "2026-07-24T15:18:20Z"
+    "modified": "2026-09-02T04:02:00Z"
   }
 }

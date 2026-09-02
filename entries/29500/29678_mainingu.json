@@ -3,7 +3,7 @@
   "headword": "マイニング",
   "reading": "まいにんぐ",
   "romaji": "mainingu",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "mining (of cryptocurrency)",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29678_mainingu_ex1",
-      "japanese": "マイニングで{暗号資産|あんごうしさん}を{得|え}る。",
+      "japanese": "マイニング⟦で→で：00502_de⟧⟦{暗号資産|あんごうしさん}→暗号資産：16614_angoushisan⟧⟦を→を：00422_wo⟧⟦{得|え}る→得る：02014_eru⟧。",
       "english": "You earn cryptocurrency through mining.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29678_mainingu_ex2",
-      "japanese": "マイニングには{大量|たいりょう}の{電力|でんりょく}が{必要|ひつよう}だ。",
+      "japanese": "マイニング⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{大量|たいりょう}→大量：03112_tairyou⟧⟦の→の：09472_no⟧⟦{電力|でんりょく}→電力：14609_denryoku⟧⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧だ。",
       "english": "Mining requires a huge amount of electricity.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29678_mainingu_ex3",
-      "japanese": "{個人|こじん}でマイニングして{利益|りえき}を{出|だ}すのは{難|むずか}しくなっている。",
+      "japanese": "⟦{個人|こじん}→個人：02758_kojin⟧⟦で→で：00502_de⟧マイニング⟦して→する：00392_suru⟧⟦{利益|りえき}→利益：03673_rieki⟧⟦を→を：00422_wo⟧⟦{出|だ}す→出す：01087_dasu⟧⟦の→の：09472_no⟧⟦は→は：00079_ha⟧⟦{難|むずか}しく→難しい：00517_muzukashii⟧⟦なっている→なる：01970_naru⟧。",
       "english": "It's becoming difficult to turn a profit mining as an individual.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "From English \"mining.\" In cryptocurrency it names the process of confirming transactions and issuing new coins. Often used as a する-verb (マイニングする).\n\nCOMMON COLLOCATIONS:\n- マイニングする: to mine (cryptocurrency)\n- マイニングマシン: mining machine\n- マイニングプール: mining pool\n\nSIMILAR WORDS:\n- {採掘|さいくつ}: mining; extraction — the literal digging of ore; マイニング is the crypto sense borrowed from it",
+  "notes": "From English \"mining.\" In cryptocurrency it names the process of confirming transactions and issuing new coins. Often used as a ⟦する→する：00392_suru⟧-verb (マイニング⟦する→する：00392_suru⟧).\n\nCOMMON COLLOCATIONS:\n- マイニング⟦する→する：00392_suru⟧: to mine (cryptocurrency)\n- マイニングマシン: mining machine\n- マイニング⟦プール→プール：02958_puuru⟧: mining pool\n\nSIMILAR WORDS:\n- ⟦{採掘|さいくつ}→採掘：07996_saikutsu⟧: mining; extraction — the literal digging of ore; マイニング is the crypto sense borrowed from it",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07996_saikutsu",
+      "reading": "さいくつ",
+      "headword": "{採掘|さいくつ}",
+      "label": "mining"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -54,7 +63,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "technology"
       ],
@@ -64,7 +73,7 @@
       "verb_class": "suru"
     },
     "created": "2026-07-04T12:17:32Z",
-    "modified": "2026-07-04T12:17:32Z"
+    "modified": "2026-09-02T04:02:37Z"
   },
   "conjugation": {
     "type": "suru",

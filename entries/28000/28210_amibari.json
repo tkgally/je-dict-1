@@ -15,41 +15,67 @@
   "examples": [
     {
       "id": "28210_amibari_ex1",
-      "japanese": "{編|あ}み{針|ばり}でマフラーを{編|あ}む。",
+      "japanese": "{編|あ}み{針|ばり}⟦で→で：00502_de⟧⟦マフラー→マフラー：04533_mafuraa⟧⟦を→を：00422_wo⟧⟦{編|あ}む→編む：00002_amu⟧。",
       "english": "To knit a scarf with knitting needles.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28210_amibari_ex2",
-      "japanese": "{毛糸|けいと}と{編|あ}み{針|ばり}を{買|か}ってきた。",
+      "japanese": "⟦{毛糸|けいと}→毛糸：00212_keito⟧⟦と→と：00512_to⟧{編|あ}み{針|ばり}⟦を→を：00422_wo⟧⟦{買|か}って→買う：00489_kau⟧きた。",
       "english": "I bought yarn and knitting needles.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28210_amibari_ex3",
-      "japanese": "{祖母|そぼ}は{編|あ}み{針|ばり}を{動|うご}かしながら{昔|むかし}の{話|はなし}をしてくれた。",
+      "japanese": "⟦{祖母|そぼ}→祖母：00813_sobo⟧⟦は→は：00079_ha⟧{編|あ}み{針|ばり}⟦を→を：00422_wo⟧⟦{動|うご}かし→動かす：01885_ugokasu⟧⟦ながら→ながら：10530_nagara⟧⟦{昔|むかし}→昔：01515_mukashi⟧⟦の→の：09472_no⟧⟦{話|はなし}→話：01496_hanashi⟧⟦を→を：00422_wo⟧⟦して→する：00392_suru⟧⟦くれた→くれる：00724_kureru⟧。",
       "english": "My grandmother told old stories while working her knitting needles.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "From {編|あ}む (to knit) plus {針|はり} (needle); the は voices to ば in the compound.\n\nCOMMON COLLOCATIONS:\n- {編|あ}み{針|ばり}で{編|あ}む: to knit with needles\n- {棒針|ぼうばり}: straight knitting needle\n- かぎ{針|ばり}: crochet hook\n\nRELATED WORDS:\n- {縫|ぬ}い{針|ばり}: sewing needle\n- {毛糸|けいと}: knitting yarn",
+  "notes": "From ⟦{編|あ}む→編む：00002_amu⟧ (to knit) plus ⟦{針|はり}→針：03566_hari⟧ (needle); the ⟦は→は：00079_ha⟧ voices to ば in the compound.\n\nCOMMON COLLOCATIONS:\n- {編|あ}み{針|ばり}⟦で→で：00502_de⟧⟦{編|あ}む→編む：00002_amu⟧: to knit with needles\n- {棒針|ぼうばり}: straight knitting needle\n- かぎ{針|ばり}: crochet hook\n\nRELATED WORDS:\n- ⟦{縫|ぬ}い{針|ばり}→縫い針：28209_nuibari⟧: sewing needle\n- ⟦{毛糸|けいと}→毛糸：00212_keito⟧: knitting yarn",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "28209_nuibari",
+      "reading": "ぬいばり",
+      "headword": "{縫|ぬ}い{針|ばり}",
+      "label": "sewing needle"
+    },
+    {
+      "type": "related",
+      "target_id": "00212_keito",
+      "reading": "けいと",
+      "headword": "{毛糸|けいと}",
+      "label": "knitting yarn"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["tool"],
+      "politeness": "plain",
+      "semantic": [
+        "tool"
+      ],
       "domain": []
     },
     "created": "2026-05-27T03:08:15Z",
-    "modified": "2026-05-27T03:08:15Z"
+    "modified": "2026-09-02T04:02:32Z"
   }
 }

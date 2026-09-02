@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "13423_mubou_ex1",
-      "japanese": "{無謀|むぼう}な{運転|うんてん}はやめてほしい。",
+      "japanese": "{無謀|むぼう}な⟦{運転|うんてん}→運転：01335_unten⟧はやめてほしい。",
       "english": "I wish you'd stop driving recklessly.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "13423_mubou_ex2",
-      "japanese": "{準備|じゅんび}なしで{登山|とざん}するのは{無謀|むぼう}だ。",
+      "japanese": "⟦{準備|じゅんび}→準備：01431_junbi⟧なし⟦で→で：00502_de⟧⟦{登山|とざん}→登山：03457_tozan⟧⟦する→する：00392_suru⟧⟦の→の：09472_no⟧⟦は→は：00079_ha⟧{無謀|むぼう}だ。",
       "english": "Climbing a mountain without preparation is reckless.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "13423_mubou_ex3",
-      "japanese": "{周囲|しゅうい}からは{無謀|むぼう}だと{言|い}われたが、{彼|かれ}は{計画|けいかく}を{実行|じっこう}に{移|うつ}し、{見事|みごと}に{成功|せいこう}させた。",
+      "japanese": "⟦{周囲|しゅうい}→周囲：03206_shuui⟧⟦から→から：00504_kara⟧⟦は→は：00079_ha⟧{無謀|むぼう}だ⟦と→と：00512_to⟧⟦{言|い}われた→言う：00515_iu⟧⟦が→が：00051_ga⟧、⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{計画|けいかく}→計画：01172_keikaku⟧⟦を→を：00422_wo⟧⟦{実行|じっこう}→実行：03274_jikkou⟧⟦に→に：00314_ni⟧⟦{移|うつ}し→移す：10122_utsusu⟧、⟦{見事|みごと}→見事：03744_migoto⟧⟦に→に：00314_ni⟧⟦{成功|せいこう}→成功：02638_seikou⟧⟦させた→する：00392_suru⟧。",
       "english": "People around him said it was reckless, but he put the plan into action and succeeded brilliantly.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "GRAMMAR:\nNa-adjective. Used as {無謀|むぼう}な + noun (modifier) or {無謀|むぼう}だ (predicate).\n\nDISTINCTION:\n- {無謀|むぼう}: reckless due to lack of planning or foresight; implies the action is unreasonable\n- {大胆|だいたん}: bold, daring; can be positive (courageous) or negative depending on context\n- {無鉄砲|むてっぽう}: reckless, heedless; more colloquial, often describes personality traits\n\nCOMMON COLLOCATIONS:\n- {無謀|むぼう}な{計画|けいかく}: a reckless plan\n- {無謀|むぼう}な{運転|うんてん}: reckless driving\n- {無謀|むぼう}な{挑戦|ちょうせん}: a reckless challenge\n- {無謀|むぼう}な{行動|こうどう}: reckless behavior",
+  "notes": "COMMON PATTERNS:\nNa-adjective. Used as {無謀|むぼう}な + noun (modifier) or {無謀|むぼう}だ (predicate).\n\nSIMILAR WORDS:\n- {無謀|むぼう}: reckless due to lack of planning or foresight; implies the action is unreasonable\n- ⟦{大胆|だいたん}→大胆：07609_daitan⟧: bold, daring; can be positive (courageous) or negative depending on context\n- ⟦{無鉄砲|むてっぽう}→無鉄砲：20334_muteppou⟧: reckless, heedless; more colloquial, often describes personality traits\n\nCOMMON COLLOCATIONS:\n- {無謀|むぼう}な⟦{計画|けいかく}→計画：01172_keikaku⟧: a reckless plan\n- {無謀|むぼう}な⟦{運転|うんてん}→運転：01335_unten⟧: reckless driving\n- {無謀|むぼう}な⟦{挑戦|ちょうせん}→挑戦：03495_chousen⟧: a reckless challenge\n- {無謀|むぼう}な⟦{行動|こうどう}→行動：02728_koudou⟧: reckless behavior",
   "cross_references": [
     {
       "type": "antonym",
@@ -59,11 +59,46 @@
       "headword": "{軽率|けいそつ}",
       "label": "rash, thoughtless",
       "target_id": "06866_keisotsu"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07609_daitan",
+      "reading": "だいたん",
+      "headword": "{大胆|だいたん}",
+      "label": "bold, daring"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20334_muteppou",
+      "reading": "むてっぽう",
+      "headword": "{無鉄砲|むてっぽう}",
+      "label": "reckless, heedless"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06278_keikyomoudou",
+      "reading": "けいきょもうどう",
+      "headword": "{軽挙妄動|けいきょもうどう}",
+      "label": "rash action, reckless behavior"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18642_karuhazumi",
+      "reading": "かるはずみ",
+      "headword": "{軽|かる}はずみ",
+      "label": "rashness"
+    },
+    {
+      "type": "homophone",
+      "target_id": "26353_mubou",
+      "reading": "むぼう",
+      "headword": "{無帽|むぼう}",
+      "label": "bareheaded"
     }
   ],
   "metadata": {
     "created": "2026-02-24T11:44:05Z",
-    "modified": "2026-08-11T06:31:23Z",
+    "modified": "2026-09-02T04:01:33Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

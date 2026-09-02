@@ -14,30 +14,36 @@
   "examples": [
     {
       "id": "09655_barai_ex1",
-      "japanese": "{給料|きゅうりょう}は{月末|げつまつ}{払|ばら}いです。",
+      "japanese": "⟦{給料|きゅうりょう}→給料：01086_kyuuryou⟧⟦は→は：00079_ha⟧⟦{月末|げつまつ}→月末：00070_getsumatsu⟧{払|ばら}いです。",
       "english": "Salaries are paid at the end of the month.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09655_barai_ex2",
-      "japanese": "{現金|げんきん}{払|ばら}いでお{願|ねが}いします。",
+      "japanese": "{現金|げんきん}{払|ばら}い⟦で→で：00502_de⟧お{願|ねが}いします。",
       "english": "Cash payment, please.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09655_barai_ex3",
-      "japanese": "{分割|ぶんかつ}{払|ばら}いは{可能|かのう}ですか。",
+      "japanese": "⟦{分割|ぶんかつ}→分割：11745_bunkatsu⟧{払|ばら}い⟦は→は：00079_ha⟧⟦{可能|かのう}→可能：00175_kanou⟧です⟦か→か：09473_ka⟧。",
       "english": "Is installment payment possible?",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{払|はら}い (read as ばらい when used as a suffix) indicates a method or timing of payment. Derived from the verb {払|はら}う (to pay).\n\nCOMMON COMPOUNDS:\n- {現金|げんきん}{払|ばら}い: cash payment\n- カード{払|ばら}い: card payment\n- {分割|ぶんかつ}{払|ばら}い: installment payment\n- {一括|いっかつ}{払|ばら}い: lump-sum payment\n- {月末|げつまつ}{払|ばら}い: end-of-month payment\n- {後|あと}{払|ばら}い: deferred payment\n- {前|まえ}{払|ばら}い: advance payment\n\nREADING NOTE:\nAs a standalone noun, read as はらい. As a suffix in compounds, read as ばらい (rendaku/sequential voicing).\n\nSIMILAR WORDS:\n- {払|はら}い/〜{払|ばら}い: payment (everyday, often suffix)\n- {支払|しはら}い: payment (more formal, used in contracts and invoices)\n- {決済|けっさい}: settlement, payment processing (business/financial term)",
+  "notes": "{払|はら}い (read as ばらい when used as a suffix) indicates a method or timing of payment. Derived from the verb ⟦{払|はら}う→払う：00535_harau⟧ (to pay).\n\nCOMPOUNDS:\n- {現金|げんきん}{払|ばら}い: cash payment\n- カード{払|ばら}い: card payment\n- ⟦{分割|ぶんかつ}→分割：11745_bunkatsu⟧{払|ばら}い: installment payment\n- {一括|いっかつ}{払|ばら}い: lump-sum payment\n- ⟦{月末|げつまつ}→月末：00070_getsumatsu⟧{払|ばら}い: end-of-month payment\n- {後|あと}{払|ばら}い: deferred payment\n- {前|まえ}{払|ばら}い: advance payment\n\nPRONUNCIATION:\nAs a standalone noun, read as はらい. As a suffix in compounds, read as ばらい (rendaku/sequential voicing).\n\nSIMILAR WORDS:\n- {払|はら}い/〜{払|ばら}い: payment (everyday, often suffix)\n- {支払|しはら}い: payment (more formal, used in contracts and invoices)\n- ⟦{決済|けっさい}→決済：05466_kessai⟧: settlement, payment processing (business/financial term)",
   "cross_references": [
     {
       "type": "related",
@@ -52,18 +58,30 @@
       "reading": "しはらい",
       "headword": "{支払|しはら}い",
       "label": "payment (formal)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05466_kessai",
+      "reading": "けっさい",
+      "headword": "{決済|けっさい}",
+      "label": "settlement, payment processing"
     }
   ],
   "metadata": {
     "created": "2026-02-03T02:58:32Z",
-    "modified": "2026-04-23T06:13:56Z",
+    "modified": "2026-09-02T04:01:19Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "suffix"],
+      "pos": [
+        "noun",
+        "suffix"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

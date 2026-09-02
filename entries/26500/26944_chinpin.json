@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26944_chinpin_ex1",
-      "japanese": "この{店|みせ}には{珍品|ちんぴん}が{多|おお}い。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{店|みせ}→店：00497_mise⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{珍品|ちんぴん}⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "This shop has many rare items.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26944_chinpin_ex2",
-      "japanese": "{骨董市|こっとういち}で{思|おも}いがけない{珍品|ちんぴん}を{見|み}つけた。",
+      "japanese": "{骨董市|こっとういち}⟦で→で：00502_de⟧{思|おも}いがけない{珍品|ちんぴん}⟦を→を：00422_wo⟧⟦{見|み}つけた→見つける：01180_mitsukeru⟧。",
       "english": "I found an unexpected rarity at the antique market.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26944_chinpin_ex3",
-      "japanese": "{世界中|せかいじゅう}から{集|あつ}めた{珍品|ちんぴん}のコレクションが{博物館|はくぶつかん}に{展示|てんじ}されている。",
+      "japanese": "⟦{世界中|せかいじゅう}→世界中：10171_sekaijuu⟧⟦から→から：00504_kara⟧⟦{集|あつ}めた→集める：01170_atsumeru⟧{珍品|ちんぴん}⟦の→の：09472_no⟧⟦コレクション→コレクション：07327_korekushon⟧⟦が→が：00051_ga⟧⟦{博物館|はくぶつかん}→博物館：01494_hakubutsukan⟧⟦に→に：00314_ni⟧⟦{展示|てんじ}→展示：12401_tenji⟧⟦されている→する：00392_suru⟧。",
       "english": "A collection of rare items gathered from around the world is on display at the museum.",
       "sense_numbers": [
         1
@@ -44,8 +44,23 @@
       "notes": null
     }
   ],
-  "notes": "Combines {珍|ちん} (rare, unusual) and {品|ぴん} (item, article). Used to describe objects valued primarily for their scarcity or novelty rather than practical usefulness. Commonly encountered at antique shops, flea markets, specialty stores, and in descriptions of museum collections.\n\nCOMMON COLLOCATIONS:\n- {珍品|ちんぴん}を{集|あつ}める: to collect rare items\n- {珍品|ちんぴん}を{見|み}つける: to find a rarity\n- {珍品|ちんぴん}ぞろい: full of rare items\n- {世界|せかい}の{珍品|ちんぴん}: curiosities of the world\n\nSIMILAR WORDS:\n- {珍味|ちんみ}: rare delicacy — specifically for unusual foods\n- {逸品|いっぴん}: gem, masterpiece — emphasizes quality rather than rarity\n- {希少品|きしょうひん}: scarce item — more neutral, often used commercially",
-  "cross_references": [],
+  "notes": "Combines {珍|ちん} (rare, unusual) and {品|ぴん} (item, article). Used to describe objects valued primarily for their scarcity or novelty rather than practical usefulness. Commonly encountered at antique shops, flea markets, specialty stores, and in descriptions of museum collections.\n\nCOMMON COLLOCATIONS:\n- {珍品|ちんぴん}⟦を→を：00422_wo⟧⟦{集|あつ}める→集める：01170_atsumeru⟧: to collect rare items\n- {珍品|ちんぴん}⟦を→を：00422_wo⟧⟦{見|み}つける→見つける：01180_mitsukeru⟧: to find a rarity\n- {珍品|ちんぴん}ぞろい: full of rare items\n- ⟦{世界|せかい}→世界：01447_sekai⟧⟦の→の：09472_no⟧{珍品|ちんぴん}: curiosities of the world\n\nSIMILAR WORDS:\n- ⟦{珍味|ちんみ}→珍味：05752_chinmi⟧: rare delicacy — specifically for unusual foods\n- ⟦{逸品|いっぴん}→逸品：19463_ippin⟧: gem, masterpiece — emphasizes quality rather than rarity\n- {希少品|きしょうひん}: scarce item — more neutral, often used commercially",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05752_chinmi",
+      "reading": "ちんみ",
+      "headword": "{珍味|ちんみ}",
+      "label": "rare delicacy"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19463_ippin",
+      "reading": "いっぴん",
+      "headword": "{逸品|いっぴん}",
+      "label": "gem, masterpiece"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -61,6 +76,6 @@
       "domain": []
     },
     "created": "2026-05-06T11:06:45Z",
-    "modified": "2026-05-06T11:06:45Z"
+    "modified": "2026-09-02T04:02:28Z"
   }
 }

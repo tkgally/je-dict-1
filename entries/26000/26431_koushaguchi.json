@@ -15,39 +15,80 @@
   "examples": [
     {
       "id": "26431_koushaguchi_ex1",
-      "japanese": "{降車口|こうしゃぐち}は{前|まえ}です。",
+      "japanese": "{降車口|こうしゃぐち}⟦は→は：00079_ha⟧⟦{前|まえ}→前：02255_mae⟧です。",
       "english": "The exit is at the front.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26431_koushaguchi_ex2",
-      "japanese": "{降車口|こうしゃぐち}の{近|ちか}くに{立|た}っていてください。",
+      "japanese": "{降車口|こうしゃぐち}⟦の→の：09472_no⟧{近|ちか}く⟦に→に：00314_ni⟧⟦{立|た}っていて→立つ：00758_tatsu⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please stand near the exit door.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26431_koushaguchi_ex3",
-      "japanese": "バスの{降車口|こうしゃぐち}で{料金|りょうきん}を{払|はら}うのを{忘|わす}れないでください。",
+      "japanese": "⟦バス→バス：00769_basu⟧⟦の→の：09472_no⟧{降車口|こうしゃぐち}⟦で→で：00502_de⟧⟦{料金|りょうきん}→料金：03797_ryoukin⟧⟦を→を：00422_wo⟧⟦{払|はら}う→払う：00535_harau⟧⟦の→の：09472_no⟧⟦を→を：00422_wo⟧⟦{忘|わす}れないで→忘れる：00474_wasureru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please don't forget to pay the fare at the bus exit door.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {降車|こうしゃ} (alighting from a vehicle) and {口|ぐち} (opening, entrance/exit). Commonly seen as signage on buses and trains.\n\nCOMMON COLLOCATIONS:\n- {降車口|こうしゃぐち}は{前|まえ}: the exit is at the front\n- {降車口|こうしゃぐち}から{降|お}りる: to get off through the exit door\n- {降車口|こうしゃぐち}{付近|ふきん}: near the exit door\n\nSIMILAR WORDS:\n- {乗車口|じょうしゃぐち}: boarding door — the door for getting on, typically at the rear on buses\n- {出口|でぐち}: exit — general exit for buildings and stations, not specifically for vehicles\n- {改札口|かいさつぐち}: ticket gate — the barrier at train stations, not on the vehicle itself",
-  "cross_references": [],
+  "notes": "A compound of ⟦{降車|こうしゃ}→降車：20612_kousha⟧ (alighting from a vehicle) and {口|ぐち} (opening, entrance/exit). Commonly seen as signage on buses and trains.\n\nCOMMON COLLOCATIONS:\n- {降車口|こうしゃぐち}⟦は→は：00079_ha⟧⟦{前|まえ}→前：02255_mae⟧: the exit is at the front\n- {降車口|こうしゃぐち}⟦から→から：00504_kara⟧⟦{降|お}りる→降りる：00568_oriru⟧: to get off through the exit door\n- {降車口|こうしゃぐち}⟦{付近|ふきん}→付近：00044_fukin⟧: near the exit door\n\nSIMILAR WORDS:\n- ⟦{乗車口|じょうしゃぐち}→乗車口：27272_joushaguchi⟧: boarding door — the door for getting on, typically at the rear on buses\n- ⟦{出口|でぐち}→出口：02508_deguchi⟧: exit — general exit for buildings and stations, not specifically for vehicles\n- ⟦{改札口|かいさつぐち}→改札口：09552_kaisatsuguchi⟧: ticket gate — the barrier at train stations, not on the vehicle itself",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "27272_joushaguchi",
+      "reading": "じょうしゃぐち",
+      "headword": "{乗車口|じょうしゃぐち}",
+      "label": "boarding door"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02508_deguchi",
+      "reading": "でぐち",
+      "headword": "{出口|でぐち}",
+      "label": "exit"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09552_kaisatsuguchi",
+      "reading": "かいさつぐち",
+      "headword": "{改札口|かいさつぐち}",
+      "label": "ticket gate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21306_joukouguchi",
+      "reading": "じょうこうぐち",
+      "headword": "{乗降口|じょうこうぐち}",
+      "label": "boarding entrance"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["transportation"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "transportation"
+      ]
     },
     "created": "2026-05-01T16:19:00Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T04:02:26Z"
   }
 }

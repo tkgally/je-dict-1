@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "19263_nanigenaku_ex1",
-      "japanese": "{何気|なにげ}なく{窓|まど}の{外|そと}を{見|み}た。",
+      "japanese": "{何気|なにげ}なく⟦{窓|まど}→窓：02254_mado⟧⟦の→の：09472_no⟧⟦{外|そと}→外：00671_soto⟧⟦を→を：00422_wo⟧⟦{見|み}た→見る：00283_miru⟧。",
       "english": "I casually glanced out the window.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "19263_nanigenaku_ex2",
-      "japanese": "{何気|なにげ}なく{言|い}った{一言|ひとこと}が{相手|あいて}を{傷|きず}つけた。",
+      "japanese": "{何気|なにげ}なく⟦{言|い}った→言う：00515_iu⟧⟦{一言|ひとこと}→一言：03708_hitokoto⟧⟦が→が：00051_ga⟧⟦{相手|あいて}→相手：01677_aite⟧⟦を→を：00422_wo⟧⟦{傷|きず}つけた→傷つける：01935_kizutsukeru⟧。",
       "english": "A casual remark I made hurt the other person.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "19263_nanigenaku_ex3",
-      "japanese": "{何気|なにげ}なくテレビをつけたら、{好|す}きな{番組|ばんぐみ}がやっていた。",
+      "japanese": "{何気|なにげ}なく⟦テレビ→テレビ：01536_terebi⟧⟦を→を：00422_wo⟧⟦つけたら→つける：00562_tsukeru⟧、⟦{好|す}き→好き：02355_suki⟧な⟦{番組|ばんぐみ}→番組：01705_bangumi⟧⟦が→が：00051_ga⟧⟦やっていた→やる：02980_yaru⟧。",
       "english": "I turned on the TV without thinking, and my favorite show was on.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Describes doing something without particular intention or awareness. Very common in narratives to describe how someone stumbled upon something or did something significant without realizing it.\n\nCOMMON COLLOCATIONS:\n- {何気|なにげ}なく{見|み}る: to glance casually\n- {何気|なにげ}なく{言|い}う: to say offhandedly\n- {何気|なにげ}なく{聞|き}く: to ask casually\n- {何気|なにげ}ない{一言|ひとこと}: an offhand remark\n\nRELATED FORMS:\n- {何気|なにげ}ない: the adjective form (casual, unintentional)\n- {何気|なにげ}に: colloquial/casual variant, sometimes used to mean \"actually\" or \"surprisingly\" — considered non-standard by some\n\nSIMILAR WORDS:\n- さりげなく: unobtrusively, in a subtle way — implies deliberate subtlety, while {何気|なにげ}なく implies lack of deliberation\n- ふと: suddenly, by chance — focuses on the spontaneous moment rather than the casual manner",
+  "notes": "Describes doing something without particular intention or awareness. Very common in narratives to describe how someone stumbled upon something or did something significant without realizing it.\n\nCOMMON COLLOCATIONS:\n- {何気|なにげ}なく⟦{見|み}る→見る：00283_miru⟧: to glance casually\n- {何気|なにげ}なく⟦{言|い}う→言う：00515_iu⟧: to say offhandedly\n- {何気|なにげ}なく⟦{聞|き}く→聞く：00483_kiku⟧: to ask casually\n- ⟦{何気|なにげ}ない→何気ない：10576_nanigenai⟧⟦{一言|ひとこと}→一言：03708_hitokoto⟧: an offhand remark\n\nFORMS:\n- ⟦{何気|なにげ}ない→何気ない：10576_nanigenai⟧: the adjective form (casual, unintentional)\n- {何気|なにげ}⟦に→に：00314_ni⟧: colloquial/casual variant, sometimes used to mean \"actually\" or \"surprisingly\" — considered non-standard by some\n\nSIMILAR WORDS:\n- ⟦さりげなく→さりげない：07575_sarigenai⟧: unobtrusively, in a subtle way — implies deliberate subtlety, while {何気|なにげ}なく implies lack of deliberation\n- ⟦ふと→ふと：00048_futo⟧: suddenly, by chance — focuses on the spontaneous moment rather than the casual manner",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20322_sarigenaku",
+      "reading": "さりげなく",
+      "headword": "さりげなく",
+      "label": "unobtrusively, in a subtle way"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00048_futo",
+      "reading": "ふと",
+      "headword": "ふと",
+      "label": "suddenly, by chance"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19892_muishikini",
+      "reading": "むいしきに",
+      "headword": "{無意識|むいしき}に",
+      "label": "unconsciously, involuntarily"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +82,6 @@
       ]
     },
     "created": "2026-03-25T03:40:33Z",
-    "modified": "2026-06-08T02:21:06Z"
+    "modified": "2026-09-02T04:01:55Z"
   }
 }

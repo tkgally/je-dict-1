@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "15205_souridaijin_ex1",
-      "japanese": "{新|あたら}しい{総理大臣|そうりだいじん}が{決|き}まった。",
+      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧{総理大臣|そうりだいじん}⟦が→が：00051_ga⟧⟦{決|き}まった→決まる：01233_kimaru⟧。",
       "english": "A new Prime Minister has been chosen.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15205_souridaijin_ex2",
-      "japanese": "{総理大臣|そうりだいじん}が{記者会見|きしゃかいけん}を{開|ひら}いた。",
+      "japanese": "{総理大臣|そうりだいじん}⟦が→が：00051_ga⟧⟦{記者会見|きしゃかいけん}→記者会見：19954_kishakaiken⟧⟦を→を：00422_wo⟧⟦{開|ひら}いた→開く：01979_hiraku⟧。",
       "english": "The Prime Minister held a press conference.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15205_souridaijin_ex3",
-      "japanese": "{日本|にほん}の{総理大臣|そうりだいじん}は{国会|こっかい}の{議決|ぎけつ}で{指名|しめい}される。",
+      "japanese": "⟦{日本|にほん}→日本：03876_nihon⟧⟦の→の：09472_no⟧{総理大臣|そうりだいじん}⟦は→は：00079_ha⟧⟦{国会|こっかい}→国会：02761_kokkai⟧⟦の→の：09472_no⟧⟦{議決|ぎけつ}→議決：15220_giketsu⟧⟦で→で：00502_de⟧⟦{指名|しめい}→指名：12868_shimei⟧⟦される→する：00392_suru⟧。",
       "english": "Japan's Prime Minister is nominated by a vote of the Diet.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nThe full formal title is {内閣総理大臣|ないかくそうりだいじん}. In everyday speech, {総理|そうり} alone is the most common short form. {首相|しゅしょう} is a near-synonym used more in news reporting.\n\nCOMMON COLLOCATIONS:\n- {総理大臣|そうりだいじん}に{就任|しゅうにん}する (to take office as Prime Minister)\n- {総理大臣|そうりだいじん}を{辞任|じにん}する (to resign as Prime Minister)\n- {総理大臣|そうりだいじん}が{指名|しめい}される (to be nominated as Prime Minister)",
+  "notes": "USAGE:\nThe full formal title is {内閣総理大臣|ないかくそうりだいじん}. In everyday speech, ⟦{総理|そうり}→総理：13856_souri⟧ alone is the most common short form. ⟦{首相|しゅしょう}→首相：03217_shushou⟧ is a near-synonym used more in news reporting.\n\nCOMMON COLLOCATIONS:\n- {総理大臣|そうりだいじん}⟦に→に：00314_ni⟧⟦{就任|しゅうにん}→就任：12368_shuunin⟧⟦する→する：00392_suru⟧ (to take office as Prime Minister)\n- {総理大臣|そうりだいじん}⟦を→を：00422_wo⟧⟦{辞任|じにん}→辞任：10144_jinin⟧⟦する→する：00392_suru⟧ (to resign as Prime Minister)\n- {総理大臣|そうりだいじん}⟦が→が：00051_ga⟧⟦{指名|しめい}→指名：12868_shimei⟧⟦される→する：00392_suru⟧ (to be nominated as Prime Minister)",
   "prominent_see_also": [
     {
       "target_id": "13856_souri",
@@ -54,18 +60,29 @@
       "reading": "しゅしょう",
       "headword": "{首相|しゅしょう}",
       "label": "prime minister (news/general)"
+    },
+    {
+      "type": "related",
+      "target_id": "03467_chiji",
+      "reading": "ちじ",
+      "headword": "{知事|ちじ}",
+      "label": "prefectural governor"
     }
   ],
   "metadata": {
     "created": "2026-03-05T09:35:07Z",
-    "modified": "2026-05-01T06:14:09Z",
+    "modified": "2026-09-02T04:01:40Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["politics"]
+      "semantic": [
+        "politics"
+      ]
     }
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26310_moukon_ex1",
-      "japanese": "{毛根|もうこん}がしっかりしていれば{髪|かみ}は{抜|ぬ}けにくい。",
+      "japanese": "{毛根|もうこん}⟦が→が：00051_ga⟧⟦しっかりして→しっかりする：21456_shikkarisuru⟧⟦いれば→いる：00495_iru⟧⟦{髪|かみ}→髪：02196_kami⟧⟦は→は：00079_ha⟧⟦{抜|ぬ}け→抜ける：02385_nukeru⟧にくい。",
       "english": "If the hair roots are strong, hair is less likely to fall out.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26310_moukon_ex2",
-      "japanese": "このシャンプーは{毛根|もうこん}に{栄養|えいよう}を{与|あた}える。",
+      "japanese": "⟦この→この：00962_kono⟧⟦シャンプー→シャンプー：04507_shanpuu⟧⟦は→は：00079_ha⟧{毛根|もうこん}⟦に→に：00314_ni⟧⟦{栄養|えいよう}→栄養：01882_eiyou⟧⟦を→を：00422_wo⟧⟦{与|あた}える→与える：01821_ataeru⟧。",
       "english": "This shampoo nourishes the hair roots.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26310_moukon_ex3",
-      "japanese": "{毛根|もうこん}が{死|し}んでしまうと、そこからは{二度|にど}と{髪|かみ}が{生|は}えてこないと{言|い}われている。",
+      "japanese": "{毛根|もうこん}⟦が→が：00051_ga⟧⟦{死|し}んで→死ぬ：00669_shinu⟧しまう⟦と→と：00512_to⟧、⟦そこ→そこ：00991_soko⟧⟦から→から：00504_kara⟧⟦は→は：00079_ha⟧⟦{二度|にど}と→二度と：06482_nidoto⟧⟦{髪|かみ}→髪：02196_kami⟧⟦が→が：00051_ga⟧⟦{生|は}えて→生える：02392_haeru⟧こない⟦と→と：00512_to⟧⟦{言|い}われている→言う：00515_iu⟧。",
       "english": "It is said that once the hair roots die, hair will never grow back from that spot.",
       "sense_numbers": [
         1
@@ -44,8 +44,23 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {毛|もう} (hair; fur) + {根|こん} (root). Commonly discussed in the context of hair care, hair loss prevention, and dermatology. Hair care advertisements in Japan frequently reference {毛根|もうこん} health.\n\nCOMMON COLLOCATIONS:\n- {毛根|もうこん}を{鍛|きた}える: to strengthen hair roots\n- {毛根|もうこん}に{栄養|えいよう}を{与|あた}える: to nourish the hair roots\n- {毛根|もうこん}が{弱|よわ}る: hair roots weaken\n- {毛根|もうこん}が{死|し}ぬ: hair roots die\n\nSIMILAR WORDS:\n- {毛穴|けあな}: pore — the opening in the skin from which hair grows\n- {毛髪|もうはつ}: hair (formal/medical) — the hair itself rather than its root\n- {頭皮|とうひ}: scalp — the skin on the head where hair roots are embedded",
-  "cross_references": [],
+  "notes": "Composed of {毛|もう} (hair; fur) + {根|こん} (root). Commonly discussed in the context of hair care, hair loss prevention, and dermatology. Hair care advertisements in Japan frequently reference {毛根|もうこん} health.\n\nCOMMON COLLOCATIONS:\n- {毛根|もうこん}⟦を→を：00422_wo⟧⟦{鍛|きた}える→鍛える：12326_kitaeru⟧: to strengthen hair roots\n- {毛根|もうこん}⟦に→に：00314_ni⟧⟦{栄養|えいよう}→栄養：01882_eiyou⟧⟦を→を：00422_wo⟧⟦{与|あた}える→与える：01821_ataeru⟧: to nourish the hair roots\n- {毛根|もうこん}⟦が→が：00051_ga⟧⟦{弱|よわ}る→弱る：02439_yowaru⟧: hair roots weaken\n- {毛根|もうこん}⟦が→が：00051_ga⟧⟦{死|し}ぬ→死ぬ：00669_shinu⟧: hair roots die\n\nSIMILAR WORDS:\n- ⟦{毛穴|けあな}→毛穴：16138_keana⟧: pore — the opening in the skin from which hair grows\n- ⟦{毛髪|もうはつ}→毛髪：16588_mouhatsu⟧: hair (formal/medical) — the hair itself rather than its root\n- {頭皮|とうひ}: scalp — the skin on the head where hair roots are embedded",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16138_keana",
+      "reading": "けあな",
+      "headword": "{毛穴|けあな}",
+      "label": "pore"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16588_mouhatsu",
+      "reading": "もうはつ",
+      "headword": "{毛髪|もうはつ}",
+      "label": "hair"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -60,6 +75,6 @@
       ]
     },
     "created": "2026-04-30T15:36:55Z",
-    "modified": "2026-08-06T00:44:09Z"
+    "modified": "2026-09-02T04:02:25Z"
   }
 }

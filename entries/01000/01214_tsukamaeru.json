@@ -208,11 +208,54 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive). Pair: ⟦{捕|つか}まる→捕まる：01959_tsukamaru⟧ (intransitive, to be caught). Pattern: X⟦を→を：00422_wo⟧{捕|つか}まえる (catch X).\n\nASPECT: ている indicates completed action with result. {捕|つか}まえて⟦いる→いる：00495_iru⟧ = 'has caught' or 'is holding.'\n\nCOMMON PATTERNS:\n・⟦{虫|むし}→虫：02262_mushi⟧⟦を→を：00422_wo⟧{捕|つか}まえる (catch a bug)\n・⟦{犯人|はんにん}→犯人：03572_hannin⟧⟦を→を：00422_wo⟧{捕|つか}まえる (catch a criminal)\n・⟦タクシー→タクシー：00816_takushii⟧⟦を→を：00422_wo⟧{捕|つか}まえる (catch a taxi)\n・⟦{魚|さかな}→魚：00499_sakana⟧⟦を→を：00422_wo⟧{捕|つか}まえる (catch a fish)\n\nCONTRAST:\n・{捕|つか}まえる (transitive): catch X\n・⟦{捕|つか}まる→捕まる：01959_tsukamaru⟧ (intransitive): be caught, get caught\n\nExample pair:\n・⟦{警察|けいさつ}→警察：01393_keisatsu⟧⟦が→が：00051_ga⟧⟦{犯人|はんにん}→犯人：03572_hannin⟧⟦を→を：00422_wo⟧{捕|つか}まえた (Police caught the criminal)\n・⟦{犯人|はんにん}→犯人：03572_hannin⟧⟦が→が：00051_ga⟧{捕|つか}まった (The criminal was caught)",
-  "cross_references": [],
+  "notes": "TRANSITIVITY: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive). Pair: ⟦{捕|つか}まる→捕まる：01959_tsukamaru⟧ (intransitive, to be caught). Pattern: X⟦を→を：00422_wo⟧{捕|つか}まえる (catch X).\n\nASPECT: て⟦いる→いる：00495_iru⟧ indicates completed action with result. {捕|つか}まえて⟦いる→いる：00495_iru⟧ = 'has caught' or 'is holding.'\n\nCOMMON PATTERNS:\n- ⟦{虫|むし}→虫：02262_mushi⟧⟦を→を：00422_wo⟧{捕|つか}まえる (catch a bug)\n- ⟦{犯人|はんにん}→犯人：03572_hannin⟧⟦を→を：00422_wo⟧{捕|つか}まえる (catch a criminal)\n- ⟦タクシー→タクシー：00816_takushii⟧⟦を→を：00422_wo⟧{捕|つか}まえる (catch a taxi)\n- ⟦{魚|さかな}→魚：00499_sakana⟧⟦を→を：00422_wo⟧{捕|つか}まえる (catch a fish)\n\nSIMILAR WORDS:\n- {捕|つか}まえる (transitive): catch X\n- ⟦{捕|つか}まる→捕まる：01959_tsukamaru⟧ (intransitive): be caught, get caught\n\nExample pair:\n- ⟦{警察|けいさつ}→警察：01393_keisatsu⟧⟦が→が：00051_ga⟧⟦{犯人|はんにん}→犯人：03572_hannin⟧⟦を→を：00422_wo⟧{捕|つか}まえた (Police caught the criminal)\n- ⟦{犯人|はんにん}→犯人：03572_hannin⟧⟦が→が：00051_ga⟧⟦{捕|つか}まった→捕まる：01959_tsukamaru⟧ (The criminal was caught)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02290_tsukamu",
+      "reading": "つかむ",
+      "headword": "{掴|つか}む",
+      "label": "to grab, to grasp, to seize"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12881_hokaku",
+      "reading": "ほかく",
+      "headword": "{捕獲|ほかく}",
+      "label": "capture, seizure"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26830_taihosuru",
+      "reading": "たいほする",
+      "headword": "{逮捕|たいほ}する",
+      "label": "to arrest"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27767_karu",
+      "reading": "かる",
+      "headword": "{狩|か}る",
+      "label": "to hunt"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28563_toriosaeru",
+      "reading": "とりおさえる",
+      "headword": "{取|と}り{押|お}さえる",
+      "label": "to restrain"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28715_toru",
+      "reading": "とる",
+      "headword": "{捕|と}る",
+      "label": "to catch"
+    }
+  ],
   "metadata": {
     "created": "2026-01-08T12:35:43Z",
-    "modified": "2026-05-14T18:11:23Z",
+    "modified": "2026-09-02T04:00:59Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

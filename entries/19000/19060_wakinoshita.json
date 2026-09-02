@@ -15,40 +15,59 @@
   "examples": [
     {
       "id": "19060_wakinoshita_ex1",
-      "japanese": "{脇|わき}の{下|した}で{体温|たいおん}を{測|はか}る。",
+      "japanese": "{脇|わき}の{下|した}⟦で→で：00502_de⟧⟦{体温|たいおん}→体温：03385_taion⟧⟦を→を：00422_wo⟧⟦{測|はか}る→測る：01977_hakaru⟧。",
       "english": "To take one's temperature under the armpit.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19060_wakinoshita_ex2",
-      "japanese": "{脇|わき}の{下|した}に{汗|あせ}をかいた。",
+      "japanese": "{脇|わき}の{下|した}⟦に→に：00314_ni⟧⟦{汗|あせ}→汗：02173_ase⟧⟦を→を：00422_wo⟧かいた。",
       "english": "I sweated under my arms.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19060_wakinoshita_ex3",
-      "japanese": "{脇|わき}の{下|した}に{体温計|たいおんけい}を{挟|はさ}んで{五分|ごふん}{待|ま}ってください。",
+      "japanese": "{脇|わき}の{下|した}⟦に→に：00314_ni⟧⟦{体温計|たいおんけい}→体温計：05484_taionkei⟧⟦を→を：00422_wo⟧⟦{挟|はさ}んで→挟む：00091_hasamu⟧⟦{五分|ごふん}→五分：09573_gofun⟧⟦{待|ま}って→待つ：00469_matsu⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please place the thermometer under your arm and wait five minutes.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "In Japan, the standard way to measure body temperature is under the armpit ({脇|わき}の{下|した}で{測|はか}る), unlike in some Western countries where oral thermometers are common. Common collocations: {脇|わき}の{下|した}に{汗|あせ}をかく (to sweat under the arms), {脇|わき}の{下|した}に{挟|はさ}む (to hold under the arm). Also written as {腋|わき}の{下|した} with a different kanji. Sometimes shortened to simply {脇|わき} in casual speech.",
+  "notes": "In Japan, the standard way to measure body temperature is under the armpit ({脇|わき}の{下|した}⟦で→で：00502_de⟧⟦{測|はか}る→測る：01977_hakaru⟧), unlike in some Western countries where oral thermometers are common. Common collocations: {脇|わき}の{下|した}⟦に→に：00314_ni⟧⟦{汗|あせ}をかく→汗をかく：16925_asewokaku⟧ (to sweat under the arms), {脇|わき}の{下|した}⟦に→に：00314_ni⟧⟦{挟|はさ}む→挟む：00091_hasamu⟧ (to hold under the arm). Also written as {腋|わき}の{下|した} with a different kanji. Sometimes shortened to simply ⟦{脇|わき}→脇：03790_waki⟧ in casual speech.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "29786_ekika",
+      "reading": "えきか",
+      "headword": "腋窩",
+      "label": "armpit"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["body-part"]
+      "semantic": [
+        "body-part"
+      ]
     },
     "created": "2026-03-24T04:44:11Z",
-    "modified": "2026-03-24T04:44:11Z"
+    "modified": "2026-09-02T04:01:54Z"
   }
 }

@@ -15,41 +15,77 @@
   "examples": [
     {
       "id": "19226_kyousan_ex1",
-      "japanese": "{協賛|きょうさん}{企業|きぎょう}を{募集|ぼしゅう}する。",
+      "japanese": "{協賛|きょうさん}⟦{企業|きぎょう}→企業：00225_kigyou⟧⟦を→を：00422_wo⟧⟦{募集|ぼしゅう}→募集：03035_boshuu⟧⟦する→する：00392_suru⟧。",
       "english": "To recruit sponsor companies.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19226_kyousan_ex2",
-      "japanese": "このイベントは{大手|おおて}{企業|きぎょう}の{協賛|きょうさん}で{開催|かいさい}される。",
+      "japanese": "⟦この→この：00962_kono⟧⟦イベント→イベント：09594_ibento⟧⟦は→は：00079_ha⟧⟦{大手|おおて}→大手：12171_oote⟧⟦{企業|きぎょう}→企業：00225_kigyou⟧⟦の→の：09472_no⟧{協賛|きょうさん}⟦で→で：00502_de⟧⟦{開催|かいさい}される→開催する：10441_kaisaisuru⟧。",
       "english": "This event is held with the sponsorship of major corporations.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19226_kyousan_ex3",
-      "japanese": "{地元|じもと}の{商店街|しょうてんがい}が{祭|まつ}りに{協賛|きょうさん}して、{飲|の}み{物|もの}を{提供|ていきょう}した。",
+      "japanese": "⟦{地元|じもと}→地元：09941_jimoto⟧⟦の→の：09472_no⟧⟦{商店街|しょうてんがい}→商店街：09391_shoutengai⟧⟦が→が：00051_ga⟧⟦{祭|まつ}り→祭り：03735_matsuri⟧⟦に→に：00314_ni⟧{協賛|きょうさん}⟦して→する：00392_suru⟧、⟦{飲|の}み{物|もの}→飲み物：02929_nomimono⟧⟦を→を：00422_wo⟧⟦{提供|ていきょう}した→提供する：21736_teikyousuru⟧。",
       "english": "The local shopping district sponsored the festival and provided drinks.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {協|きょう} (cooperate) + {賛|さん} (approve/support). Refers to providing financial or material support for events, causes, or projects.\n\nCOMMON COLLOCATIONS:\n- {協賛|きょうさん}{企業|きぎょう}: sponsoring company\n- {協賛|きょうさん}{金|きん}: sponsorship fee/money\n- {協賛|きょうさん}する: to sponsor\n- {協賛|きょうさん}を{募|つの}る: to seek sponsors\n\nEVENT CREDIT HIERARCHY:\nJapanese events typically list supporters in this order:\n- {主催|しゅさい}: organizer/host\n- {共催|きょうさい}: co-host\n- {後援|こうえん}: endorsement/patronage (often government)\n- {協賛|きょうさん}: sponsor (financial support)\n- {協力|きょうりょく}: cooperation/assistance\n\nHOMOPHONE:\n{共産|きょうさん} (communism) has the same reading but different kanji and meaning.",
+  "notes": "Composed of {協|きょう} (cooperate) + {賛|さん} (approve/support). Refers to providing financial or material support for events, causes, or projects.\n\nCOMMON COLLOCATIONS:\n- {協賛|きょうさん}⟦{企業|きぎょう}→企業：00225_kigyou⟧: sponsoring company\n- {協賛|きょうさん}{金|きん}: sponsorship fee/money\n- {協賛|きょうさん}⟦する→する：00392_suru⟧: to sponsor\n- {協賛|きょうさん}⟦を→を：00422_wo⟧⟦{募|つの}る→募る：10878_tsunoru⟧: to seek sponsors\n\nEVENT CREDIT HIERARCHY:\nJapanese events typically list supporters in this order:\n- ⟦{主催|しゅさい}→主催：11405_shusai⟧: organizer/host\n- ⟦{共催|きょうさい}→共催：18790_kyousai⟧: co-host\n- ⟦{後援|こうえん}→後援：12616_kouen⟧: endorsement/patronage (often government)\n- {協賛|きょうさん}: sponsor (financial support)\n- ⟦{協力|きょうりょく}→協力：00261_kyouryoku⟧: cooperation/assistance\n\nWATCH OUT:\n{共産|きょうさん} (communism) has the same reading but different kanji and meaning.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12616_kouen",
+      "reading": "こうえん",
+      "headword": "{後援|こうえん}",
+      "label": "support, backing, sponsorship"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16911_sanjo",
+      "reading": "さんじょ",
+      "headword": "{賛助|さんじょ}",
+      "label": "support"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18790_kyousai",
+      "reading": "きょうさい",
+      "headword": "{共催|きょうさい}",
+      "label": "co-hosting"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "domain": ["business"],
-      "semantic": ["business", "society"]
+      "domain": [
+        "business"
+      ],
+      "semantic": [
+        "business",
+        "society"
+      ]
     },
     "created": "2026-03-25T01:36:05Z",
-    "modified": "2026-07-26T21:31:07Z"
+    "modified": "2026-09-02T04:01:55Z"
   }
 }

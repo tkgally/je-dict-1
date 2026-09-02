@@ -15,40 +15,66 @@
   "examples": [
     {
       "id": "27672_kagaijugyou_ex1",
-      "japanese": "{課外授業|かがいじゅぎょう}に{参加|さんか}する。",
+      "japanese": "{課外授業|かがいじゅぎょう}⟦に→に：00314_ni⟧⟦{参加|さんか}する→参加する：25408_sankasuru⟧。",
       "english": "To take part in an extracurricular lesson.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27672_kagaijugyou_ex2",
-      "japanese": "{今日|きょう}の{課外授業|かがいじゅぎょう}は{農場|のうじょう}{見学|けんがく}だ。",
+      "japanese": "⟦{今日|きょう}→今日：00496_kyou⟧⟦の→の：09472_no⟧{課外授業|かがいじゅぎょう}⟦は→は：00079_ha⟧⟦{農場|のうじょう}→農場：20586_noujou⟧⟦{見学|けんがく}→見学：00214_kengaku⟧だ。",
       "english": "Today's extracurricular lesson is a visit to a farm.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27672_kagaijugyou_ex3",
-      "japanese": "{学校|がっこう}は{地域|ちいき}の{歴史|れきし}を{学|まな}ぶ{課外授業|かがいじゅぎょう}を{毎年|まいとし}{行|おこな}っている。",
+      "japanese": "⟦{学校|がっこう}→学校：00055_gakkou⟧⟦は→は：00079_ha⟧⟦{地域|ちいき}→地域：01461_chiiki⟧⟦の→の：09472_no⟧⟦{歴史|れきし}→歴史：02267_rekishi⟧⟦を→を：00422_wo⟧⟦{学|まな}ぶ→学ぶ：01987_manabu⟧{課外授業|かがいじゅぎょう}⟦を→を：00422_wo⟧⟦{毎年|まいとし}→毎年：00731_maitoshi⟧⟦{行|おこな}っている→行う：01238_okonau⟧。",
       "english": "The school holds an extracurricular lesson on local history every year.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A learning activity held outside the standard timetable and curriculum — field trips, guest lectures, nature observation, and the like. {課外|かがい} means 'outside the (regular) coursework.'\n\nCOMMON COLLOCATIONS:\n- {課外授業|かがいじゅぎょう}を{行|おこな}う: to hold an extracurricular lesson\n- {課外授業|かがいじゅぎょう}に{参加|さんか}する: to take part in an extracurricular lesson\n\nSIMILAR WORDS:\n- {課外活動|かがいかつどう}: extracurricular activities — broader; includes club activities\n- {校外学習|こうがいがくしゅう}: off-campus study; field trip — learning conducted away from the school grounds",
+  "notes": "A learning activity held outside the standard timetable and curriculum — field trips, guest lectures, nature observation, and the like. ⟦{課外|かがい}→課外：27204_kagai⟧ means 'outside the (regular) coursework.'\n\nCOMMON COLLOCATIONS:\n- {課外授業|かがいじゅぎょう}⟦を→を：00422_wo⟧⟦{行|おこな}う→行う：01238_okonau⟧: to hold an extracurricular lesson\n- {課外授業|かがいじゅぎょう}⟦に→に：00314_ni⟧⟦{参加|さんか}する→参加する：25408_sankasuru⟧: to take part in an extracurricular lesson\n\nSIMILAR WORDS:\n- ⟦{課外活動|かがいかつどう}→課外活動：08605_kagaikatsudou⟧: extracurricular activities — broader; includes club activities\n- ⟦{校外学習|こうがいがくしゅう}→校外学習：19055_kougaigakushuu⟧: off-campus study; field trip — learning conducted away from the school grounds",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08605_kagaikatsudou",
+      "reading": "かがいかつどう",
+      "headword": "{課外活動|かがいかつどう}",
+      "label": "extracurricular activities"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19055_kougaigakushuu",
+      "reading": "こうがいがくしゅう",
+      "headword": "{校外学習|こうがいがくしゅう}",
+      "label": "off-campus study"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["education"]
+      "semantic": [
+        "education"
+      ]
     },
     "created": "2026-05-16T03:10:15Z",
-    "modified": "2026-05-16T03:10:15Z"
+    "modified": "2026-09-02T04:02:31Z"
   }
 }

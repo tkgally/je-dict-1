@@ -15,40 +15,66 @@
   "examples": [
     {
       "id": "20317_honkinisuru_ex1",
-      "japanese": "{冗談|じょうだん}を{本気|ほんき}にするな。",
+      "japanese": "⟦{冗談|じょうだん}→冗談：03347_joudan⟧⟦を→を：00422_wo⟧{本気|ほんき}にするな。",
       "english": "Don't take the joke seriously.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20317_honkinisuru_ex2",
-      "japanese": "{彼|かれ}は{私|わたし}の{嘘|うそ}を{本気|ほんき}にした。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{私|わたし}→私：02988_watashi⟧⟦の→の：09472_no⟧⟦{嘘|うそ}→嘘：01796_uso⟧⟦を→を：00422_wo⟧{本気|ほんき}にした。",
       "english": "He actually believed my lie.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20317_honkinisuru_ex3",
-      "japanese": "{適当|てきとう}に{言|い}っただけなのに、{本気|ほんき}にしないでよ。",
+      "japanese": "⟦{適当|てきとう}→適当：01674_tekitou⟧⟦に→に：00314_ni⟧⟦{言|い}った→言う：00515_iu⟧⟦だけ→〜だけ：03093_dake⟧な⟦の→の：09472_no⟧⟦に→に：00314_ni⟧、{本気|ほんき}にしないで⟦よ→よ：09475_yo⟧。",
       "english": "I just said it offhandedly — don't take it seriously.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {本気|ほんき} (seriousness, earnestness) + にする (to treat as, to make into). The expression focuses on the listener's interpretation: treating something as serious or true.\n\nUSAGE:\nOften used in the negative imperative {本気|ほんき}にするな / {本気|ほんき}にしないで (don't take it seriously). Distinct from {本気|ほんき}を{出|だ}す (to get serious, to give it one's all), which is about one's own effort rather than interpreting someone else's words.\n\nCOMMON COLLOCATIONS:\n- {冗談|じょうだん}を{本気|ほんき}にする — to take a joke seriously\n- {本気|ほんき}にしないで — don't take it seriously\n- {本気|ほんき}にされる — to be taken seriously (passive)\n- {嘘|うそ}を{本気|ほんき}にする — to believe a lie\n\nSIMILAR WORDS:\n- {真|ま}に{受|う}ける — to take at face value (very similar; slightly more formal)\n- {信|しん}じる — to believe (neutral; broader usage)\n- {本気|ほんき}を{出|だ}す — to get serious, to give it one's all (different meaning: about effort, not belief)",
+  "notes": "Composed of ⟦{本気|ほんき}→本気：03153_honki⟧ (seriousness, earnestness) + ⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧ (to treat as, to make into). The expression focuses on the listener's interpretation: treating something as serious or true.\n\nUSAGE:\nOften used in the negative imperative {本気|ほんき}にするな / {本気|ほんき}にしないで (don't take it seriously). Distinct from ⟦{本気|ほんき}→本気：03153_honki⟧⟦を→を：00422_wo⟧⟦{出|だ}す→出す：01087_dasu⟧ (to get serious, to give it one's all), which is about one's own effort rather than interpreting someone else's words.\n\nCOMMON COLLOCATIONS:\n- ⟦{冗談|じょうだん}→冗談：03347_joudan⟧⟦を→を：00422_wo⟧{本気|ほんき}にする — to take a joke seriously\n- {本気|ほんき}にしないで — don't take it seriously\n- {本気|ほんき}にされる — to be taken seriously (passive)\n- ⟦{嘘|うそ}→嘘：01796_uso⟧⟦を→を：00422_wo⟧{本気|ほんき}にする — to believe a lie\n\nSIMILAR WORDS:\n- ⟦{真|ま}に{受|う}ける→真に受ける：19010_maniukeru⟧ — to take at face value (very similar; slightly more formal)\n- ⟦{信|しん}じる→信じる：01111_shinjiru⟧ — to believe (neutral; broader usage)\n- ⟦{本気|ほんき}→本気：03153_honki⟧⟦を→を：00422_wo⟧⟦{出|だ}す→出す：01087_dasu⟧ — to get serious, to give it one's all (different meaning: about effort, not belief)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19010_maniukeru",
+      "reading": "まにうける",
+      "headword": "{真|ま}に{受|う}ける",
+      "label": "to take at face value (very similar"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01111_shinjiru",
+      "reading": "しんじる",
+      "headword": "{信|しん}じる",
+      "label": "to believe (neutral"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["expression"],
+      "pos": [
+        "expression"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["communication"]
+      "semantic": [
+        "communication"
+      ]
     },
     "created": "2026-03-28T20:18:54Z",
-    "modified": "2026-03-28T20:18:54Z"
+    "modified": "2026-09-02T04:01:59Z"
   }
 }

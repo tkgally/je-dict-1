@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "09103_manekko_ex1",
-      "japanese": "まねっこしないで！",
+      "japanese": "まねっこ⟦しないで→する：00392_suru⟧！",
       "english": "Stop copying me!",
       "sense_numbers": [
         1
@@ -114,7 +114,7 @@
     },
     {
       "id": "09103_manekko_ex2",
-      "japanese": "あの{子|こ}はまねっこばかりする。",
+      "japanese": "⟦あの→あの：00915_ano⟧⟦{子|こ}→子：09851_ko⟧⟦は→は：00079_ha⟧まねっこ⟦ばかり→〜ばかり：02006_bakari⟧⟦する→する：00392_suru⟧。",
       "english": "That child always copies others.",
       "sense_numbers": [
         1
@@ -124,7 +124,7 @@
     },
     {
       "id": "09103_manekko_ex3",
-      "japanese": "{赤|あか}ちゃんは{大人|おとな}のまねっこをして{成長|せいちょう}する。",
+      "japanese": "⟦{赤|あか}ちゃん→赤ちゃん：01282_akachan⟧⟦は→は：00079_ha⟧⟦{大人|おとな}→大人：02856_otona⟧⟦の→の：09472_no⟧まねっこ⟦を→を：00422_wo⟧⟦して→する：00392_suru⟧⟦{成長|せいちょう}→成長：03290_seichou⟧⟦する→する：00392_suru⟧。",
       "english": "Babies grow by imitating adults.",
       "sense_numbers": [
         1
@@ -133,11 +133,26 @@
       "notes": null
     }
   ],
-  "notes": "まねっこ is a childish, playful word for copying or imitating someone.\n\nWORD FORMATION:\n{真似|まね} (imitation) + っこ (childish diminutive suffix). Can also be written as {真似|まね}っこ.\n\nCOMMON EXPRESSIONS:\n- まねっこする: to copy, to imitate\n- まねっこしないで！: stop copying me!\n- まねっこ{遊|あそ}び: imitation play\n\nNUANCE:\nAlmost exclusively used by or about children. When a child says まねっこしないで!, it's a mild, teasing complaint. In parenting contexts, まねっこ is viewed positively — toddlers learn through imitation.\n\nRELATED WORDS:\n- {真似|まね}: imitation (neutral, all-ages)\n- {真似|まね}する: to imitate (general use)\n- まねっこ: copycat (childish, playful)\n- {模倣|もほう}: imitation (formal, academic)",
-  "cross_references": [],
+  "notes": "まねっこ is a childish, playful word for copying or imitating someone.\n\nFORMS:\n⟦{真似|まね}→真似：03736_mane⟧ (imitation) + っこ (childish diminutive suffix). Can also be written as ⟦{真似|まね}→真似：03736_mane⟧っこ.\n\nCOMMON EXPRESSIONS:\n- まねっこ⟦する→する：00392_suru⟧: to copy, to imitate\n- まねっこ⟦しないで→する：00392_suru⟧！: stop copying me!\n- まねっこ⟦{遊|あそ}び→遊び：01285_asobi⟧: imitation play\n\nUSAGE:\nAlmost exclusively used by or about children. When a child says まねっこ⟦しないで→する：00392_suru⟧!, it's a mild, teasing complaint. In parenting contexts, まねっこ is viewed positively — toddlers learn through imitation.\n\nRELATED WORDS:\n- ⟦{真似|まね}→真似：03736_mane⟧: imitation (neutral, all-ages)\n- ⟦{真似|まね}→真似：03736_mane⟧⟦する→する：00392_suru⟧: to imitate (general use)\n- まねっこ: copycat (childish, playful)\n- ⟦{模倣|もほう}→模倣：15752_mohou⟧: imitation (formal, academic)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "03736_mane",
+      "reading": "まね",
+      "headword": "{真似|まね}",
+      "label": "imitation"
+    },
+    {
+      "type": "related",
+      "target_id": "15752_mohou",
+      "reading": "もほう",
+      "headword": "{模倣|もほう}",
+      "label": "imitation"
+    }
+  ],
   "metadata": {
     "created": "2026-01-31T04:25:12Z",
-    "modified": "2026-08-12T21:25:53Z",
+    "modified": "2026-09-02T04:01:17Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -146,6 +161,7 @@
         "verb-suru"
       ],
       "formality": "informal",
+      "politeness": "plain",
       "semantic": [
         "family",
         "action"

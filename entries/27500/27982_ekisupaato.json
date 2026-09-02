@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "27982_ekisupaato_ex1",
-      "japanese": "{彼|かれ}はITのエキスパートだ。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧IT⟦の→の：09472_no⟧エキスパートだ。",
       "english": "He is an IT expert.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "27982_ekisupaato_ex2",
-      "japanese": "この{分野|ぶんや}のエキスパートに{相談|そうだん}したい。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{分野|ぶんや}→分野：03612_bunya⟧⟦の→の：09472_no⟧エキスパート⟦に→に：00314_ni⟧⟦{相談|そうだん}→相談：02089_soudan⟧⟦したい→する：00392_suru⟧。",
       "english": "I'd like to consult an expert in this field.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "27982_ekisupaato_ex3",
-      "japanese": "{長年|ながねん}の{経験|けいけん}を{積|つ}んで、ようやくエキスパートと{呼|よ}ばれるようになった。",
+      "japanese": "⟦{長年|ながねん}→長年：09684_naganen⟧⟦の→の：09472_no⟧⟦{経験|けいけん}→経験：01179_keiken⟧⟦を→を：00422_wo⟧⟦{積|つ}んで→積む：02294_tsumu⟧、ようやくエキスパート⟦と→と：00512_to⟧⟦{呼|よ}ばれる→呼ぶ：00766_yobu⟧ようになった。",
       "english": "After years of experience, I finally came to be called an expert.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Loanword from English 'expert.' Largely interchangeable with native {専門家|せんもんか}, but the katakana form carries a more modern or business flavor.\n\nCOMMON COLLOCATIONS:\n- ~のエキスパート: an expert in ~\n- エキスパートに{相談|そうだん}する: to consult an expert\n\nSIMILAR WORDS:\n- {専門家|せんもんか}: specialist; expert — the native equivalent, more formal and neutral\n- プロ: pro; professional — emphasizes doing something for a living",
+  "notes": "Loanword from English 'expert.' Largely interchangeable with native ⟦{専門家|せんもんか}→専門家：03088_senmonka⟧, but the katakana form carries a more modern or business flavor.\n\nCOMMON COLLOCATIONS:\n- ~⟦の→の：09472_no⟧エキスパート: an expert in ~\n- エキスパート⟦に→に：00314_ni⟧⟦{相談|そうだん}する→相談する：01845_soudansuru⟧: to consult an expert\n\nSIMILAR WORDS:\n- ⟦{専門家|せんもんか}→専門家：03088_senmonka⟧: specialist; expert — the native equivalent, more formal and neutral\n- ⟦プロ→プロ：03871_puro⟧: pro; professional — emphasizes doing something for a living",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03088_senmonka",
+      "reading": "せんもんか",
+      "headword": "{専門家|せんもんか}",
+      "label": "specialist"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03871_puro",
+      "reading": "ぷろ",
+      "headword": "プロ",
+      "label": "pro"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +69,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "person"
       ],
       "domain": []
     },
     "created": "2026-05-24T02:02:35Z",
-    "modified": "2026-08-08T03:27:39Z"
+    "modified": "2026-09-02T04:02:32Z"
   }
 }

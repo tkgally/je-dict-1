@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24733_nukamiso_ex1",
-      "japanese": "ぬかみそを{毎日|まいにち}かき{混|ま}ぜる。",
+      "japanese": "ぬかみそ⟦を→を：00422_wo⟧⟦{毎日|まいにち}→毎日：00729_mainichi⟧⟦かき{混|ま}ぜる→かき混ぜる：15739_kakimazeru⟧。",
       "english": "I stir the rice-bran paste every day.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24733_nukamiso_ex2",
-      "japanese": "{祖母|そぼ}のぬかみそは{何十年|なんじゅうねん}も{使|つか}い{続|つづ}けている。",
+      "japanese": "⟦{祖母|そぼ}→祖母：00813_sobo⟧⟦の→の：09472_no⟧ぬかみそ⟦は→は：00079_ha⟧⟦{何十年|なんじゅうねん}→何十年：30624_nanjuunen⟧⟦も→も：00484_mo⟧⟦{使|つか}い→使う：00473_tsukau⟧⟦{続|つづ}け→続く：00903_tsuzuku⟧て⟦いる→いる：00495_iru⟧。",
       "english": "My grandmother's rice-bran paste has been in use for decades.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24733_nukamiso_ex3",
-      "japanese": "ぬかみそに{塩|しお}を{足|た}さないと、{味|あじ}が{薄|うす}くなってしまう。",
+      "japanese": "ぬかみそ⟦に→に：00314_ni⟧⟦{塩|しお}→塩：00887_shio⟧⟦を→を：00422_wo⟧⟦{足|た}さない→足す：01168_tasu⟧⟦と→と：00512_to⟧、⟦{味|あじ}→味：00826_aji⟧⟦が→が：00051_ga⟧⟦{薄|うす}く→薄い：00764_usui⟧⟦なって→なる：01970_naru⟧しまう。",
       "english": "If you don't add salt to the rice-bran paste, the flavor becomes too weak.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Also written as {糠味噌|ぬかみそ}. Composed of {糠|ぬか} (rice bran) + {味噌|みそ} (miso, fermented paste), though ぬかみそ is not actually miso — the name comes from its paste-like texture. Maintaining a ぬかみそ{床|どこ} (pickling bed) is a traditional household skill passed down through generations.\n\nCOMMON COLLOCATIONS:\n- ぬかみそ{漬|づ}け: vegetables pickled in rice-bran paste\n- ぬかみそ{床|どこ}: the rice-bran pickling bed\n- ぬかみそをかき{混|ま}ぜる: to stir the rice-bran paste\n- ぬかみそが{臭|くさ}い: the rice-bran paste smells\n\nSIMILAR WORDS:\n- {糠床|ぬかどこ}: rice-bran pickling bed — the container of ぬかみそ used for pickling\n- {漬物|つけもの}: pickles — the general term for all Japanese pickled vegetables\n- {味噌|みそ}: miso — fermented soybean paste (different product despite the shared name element)",
+  "notes": "Also written as {糠味噌|ぬかみそ}. Composed of ⟦{糠|ぬか}→糠：29202_nuka⟧ (rice bran) + ⟦{味噌|みそ}→味噌：01037_miso⟧ (miso, fermented paste), though ぬかみそ is not actually miso — the name comes from its paste-like texture. Maintaining a ぬかみそ{床|どこ} (pickling bed) is a traditional household skill passed down through generations.\n\nCOMMON COLLOCATIONS:\n- ぬかみそ{漬|づ}け: vegetables pickled in rice-bran paste\n- ぬかみそ{床|どこ}: the rice-bran pickling bed\n- ぬかみそ⟦を→を：00422_wo⟧⟦かき{混|ま}ぜる→かき混ぜる：15739_kakimazeru⟧: to stir the rice-bran paste\n- ぬかみそ⟦が→が：00051_ga⟧⟦{臭|くさ}い→臭い：01133_kusai⟧: the rice-bran paste smells\n\nSIMILAR WORDS:\n- {糠床|ぬかどこ}: rice-bran pickling bed — the container of ぬかみそ used for pickling\n- ⟦{漬物|つけもの}→漬物：04938_tsukemono⟧: pickles — the general term for all Japanese pickled vegetables\n- ⟦{味噌|みそ}→味噌：01037_miso⟧: miso — fermented soybean paste (different product despite the shared name element)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04938_tsukemono",
+      "reading": "つけもの",
+      "headword": "{漬物|つけもの}",
+      "label": "pickles"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01037_miso",
+      "reading": "みそ",
+      "headword": "{味噌|みそ}",
+      "label": "miso"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,6 +78,6 @@
       ]
     },
     "created": "2026-04-20T13:16:36Z",
-    "modified": "2026-04-20T13:16:36Z"
+    "modified": "2026-09-02T04:02:19Z"
   }
 }

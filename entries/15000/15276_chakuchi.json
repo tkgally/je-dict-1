@@ -3,7 +3,7 @@
   "id": "15276_chakuchi",
   "headword": "{着地|ちゃくち}",
   "reading": "ちゃくち",
-  "part_of_speech": "noun, suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "landing; touching down",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "15276_chakuchi_ex1",
-      "japanese": "{着地|ちゃくち}に{失敗|しっぱい}して{足|あし}を{捻|ひね}った。",
+      "japanese": "{着地|ちゃくち}⟦に→に：00314_ni⟧⟦{失敗|しっぱい}→失敗：01636_shippai⟧⟦して→する：00392_suru⟧⟦{足|あし}→足：00575_ashi⟧⟦を→を：00422_wo⟧⟦{捻|ひね}った→捻る：00102_hineru⟧。",
       "english": "I failed the landing and twisted my ankle.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "15276_chakuchi_ex2",
-      "japanese": "{体操|たいそう}{選手|せんしゅ}が{見事|みごと}な{着地|ちゃくち}を{決|き}めた。",
+      "japanese": "⟦{体操|たいそう}{選手|せんしゅ}→体操選手：25172_taisousenshu⟧⟦が→が：00051_ga⟧⟦{見事|みごと}→見事：03744_migoto⟧な{着地|ちゃくち}⟦を→を：00422_wo⟧⟦{決|き}めた→決める：00858_kimeru⟧。",
       "english": "The gymnast stuck a perfect landing.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "15276_chakuchi_ex3",
-      "japanese": "{探査機|たんさき}が{月面|げつめん}に{無事|ぶじ}{着地|ちゃくち}したというニュースが{世界中|せかいじゅう}に{伝|つた}えられた。",
+      "japanese": "⟦{探査機|たんさき}→探査機：25715_tansaki⟧⟦が→が：00051_ga⟧{月面|げつめん}⟦に→に：00314_ni⟧⟦{無事|ぶじ}→無事：01602_buji⟧{着地|ちゃくち}⟦した→する：00392_suru⟧⟦という→という：09577_toiu⟧⟦ニュース→ニュース：04437_nyuusu⟧⟦が→が：00051_ga⟧⟦{世界中|せかいじゅう}→世界中：10171_sekaijuu⟧⟦に→に：00314_ni⟧⟦{伝|つた}えられた→伝える：01220_tsutaeru⟧。",
       "english": "News that the probe had safely landed on the lunar surface was reported around the world.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{着地|ちゃくち} is used with する as an intransitive suru-verb. The landing surface takes に.\n\nCOMMON COLLOCATIONS:\n- {着地|ちゃくち}する (to land, to touch down)\n- {着地|ちゃくち}を{決|き}める (to stick a landing)\n- {着地|ちゃくち}に{失敗|しっぱい}する (to fail a landing)\n- {軟|なん}{着地|ちゃくち} (soft landing)\n\nSIMILAR WORDS:\n- {着地|ちゃくち}: landing (general, from air to ground)\n- {着陸|ちゃくりく}: landing (specifically aircraft on a runway)\n- {着水|ちゃくすい}: landing on water (seaplanes, spacecraft)",
+  "notes": "USAGE:\n{着地|ちゃくち} is used with ⟦する→する：00392_suru⟧ as an intransitive suru-verb. The landing surface takes ⟦に→に：00314_ni⟧.\n\nCOMMON COLLOCATIONS:\n- {着地|ちゃくち}⟦する→する：00392_suru⟧ (to land, to touch down)\n- {着地|ちゃくち}⟦を→を：00422_wo⟧⟦{決|き}める→決める：00858_kimeru⟧ (to stick a landing)\n- {着地|ちゃくち}⟦に→に：00314_ni⟧⟦{失敗|しっぱい}→失敗：01636_shippai⟧⟦する→する：00392_suru⟧ (to fail a landing)\n- {軟|なん}{着地|ちゃくち} (soft landing)\n\nSIMILAR WORDS:\n- {着地|ちゃくち}: landing (general, from air to ground)\n- ⟦{着陸|ちゃくりく}→着陸：05982_chakuriku⟧: landing (specifically aircraft on a runway)\n- {着水|ちゃくすい}: landing on water (seaplanes, spacecraft)",
   "cross_references": [
     {
       "type": "antonym",
@@ -142,11 +142,18 @@
       "reading": "りりく",
       "headword": "{離陸|りりく}",
       "label": "takeoff"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05982_chakuriku",
+      "reading": "ちゃくりく",
+      "headword": "{着陸|ちゃくりく}",
+      "label": "landing"
     }
   ],
   "metadata": {
     "created": "2026-03-06T08:14:01Z",
-    "modified": "2026-05-01T06:14:09Z",
+    "modified": "2026-09-02T04:01:40Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

@@ -103,7 +103,7 @@ Use the `delete-entry` skill for safe deletion. The process:
 
 3. **Rebuild the flat file**:
    ```bash
-   python3 build/build_flat.py
+   make index   # indexes + kanji JSON; the site builds in CI after merge
    ```
 
 4. **Verify deletion**:
@@ -131,7 +131,7 @@ rm entries/04500/04567_taberu.json
 
 # 6. Update indexes and rebuild
 python3 build/update_indexes.py
-python3 build/build_flat.py
+make index   # indexes + kanji JSON; the site builds in CI after merge
 
 # 7. Validate
 python3 build/validate.py
@@ -173,5 +173,5 @@ To avoid creating duplicates in the future:
 - [ ] Deleted duplicate entry file
 - [ ] Updated any cross-references pointing to deleted entry
 - [ ] Ran `update_indexes.py`
-- [ ] Ran `build_flat.py`
+- [ ] Ran `make index`
 - [ ] Validation passes with no duplicate errors

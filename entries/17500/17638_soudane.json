@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "17638_soudane_ex1",
-      "japanese": "「{寒|さむ}いね」「そうだね」",
+      "japanese": "「⟦{寒|さむ}い→寒い：00664_samui⟧⟦ね→ね：09474_ne⟧」「そうだね」",
       "english": "\"It's cold, isn't it?\" \"Yeah, it is.\"",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "17638_soudane_ex2",
-      "japanese": "「{明日|あした}にしない？」「そうだね、そうしよう」",
+      "japanese": "「⟦{明日|あした}→明日：00501_ashita⟧にしない？」「そうだね、そう⟦しよう→する：00392_suru⟧」",
       "english": "\"Why don't we do it tomorrow?\" \"Yeah, let's do that.\"",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "17638_soudane_ex3",
-      "japanese": "「この{店|みせ}、おいしいよね」「そうだね、また{来|き}たいね」",
+      "japanese": "「⟦この→この：00962_kono⟧⟦{店|みせ}→店：00497_mise⟧、おいしい⟦よ→よ：09475_yo⟧⟦ね→ね：09474_ne⟧」「そうだね、⟦また→また：00969_mata⟧{来|き}たい⟦ね→ね：09474_ne⟧」",
       "english": "\"This restaurant is good, isn't it?\" \"Yeah, I'd like to come again.\"",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "そうだね is one of the most common casual agreement expressions in Japanese. It serves as a conversational response to show that the listener agrees with or acknowledges what was said.\n\nVARIATIONS:\n- そうだね: neutral casual (used by both men and women)\n- そうだな: slightly more masculine or reflective\n- そうですね: polite form, appropriate in formal settings\n- だね: shortened casual form\n\nUSAGE:\nそうだね can express genuine agreement or serve as a soft filler while thinking. When said with a drawn-out ね (そうだねー), it often signals that the speaker is still considering the matter rather than fully committing.\n\nThe ね particle at the end invites shared feeling, making this expression collaborative rather than authoritative.",
+  "notes": "そうだね is one of the most common casual agreement expressions in Japanese. It serves as a conversational response to show that the listener agrees with or acknowledges what was said.\n\nFORMS:\n- そうだね: neutral casual (used by both men and women)\n- そうだな: slightly more masculine or reflective\n- そうです⟦ね→ね：09474_ne⟧: polite form, appropriate in formal settings\n- だ⟦ね→ね：09474_ne⟧: shortened casual form\n\nUSAGE:\nそうだね can express genuine agreement or serve as a soft filler while thinking. When said with a drawn-out ⟦ね→ね：09474_ne⟧ (そうだねー), it often signals that the speaker is still considering the matter rather than fully committing.\n\nThe ⟦ね→ね：09474_ne⟧ particle at the end invites shared feeling, making this expression collaborative rather than authoritative.",
   "cross_references": [
     {
       "type": "related",
@@ -59,11 +59,25 @@
       "headword": "そうかも",
       "target_id": "17640_soukamo",
       "label": "maybe so"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10744_sousou",
+      "reading": "そうそう",
+      "headword": "そうそう",
+      "label": "yeah yeah, that's right"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29149_soyane",
+      "reading": "そやね",
+      "headword": "そやね",
+      "label": "yeah, right"
     }
   ],
   "metadata": {
     "created": "2026-02-12T07:49:16Z",
-    "modified": "2026-03-18T10:11:24Z",
+    "modified": "2026-09-02T04:01:49Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

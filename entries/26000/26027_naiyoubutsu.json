@@ -15,39 +15,58 @@
   "examples": [
     {
       "id": "26027_naiyoubutsu_ex1",
-      "japanese": "{内容物|ないようぶつ}を{確認|かくにん}してください。",
+      "japanese": "{内容物|ないようぶつ}⟦を→を：00422_wo⟧⟦{確認|かくにん}して→確認する：25332_kakuninsuru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please check the contents.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26027_naiyoubutsu_ex2",
-      "japanese": "{荷物|にもつ}の{内容物|ないようぶつ}を{申告|しんこく}する{必要|ひつよう}がある。",
+      "japanese": "⟦{荷物|にもつ}→荷物：00737_nimotsu⟧⟦の→の：09472_no⟧{内容物|ないようぶつ}⟦を→を：00422_wo⟧⟦{申告|しんこく}→申告：03687_shinkoku⟧⟦する→する：00392_suru⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "You need to declare the contents of the package.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26027_naiyoubutsu_ex3",
-      "japanese": "{内容物|ないようぶつ}が{破損|はそん}しないよう{丁寧|ていねい}に{梱包|こんぽう}した。",
+      "japanese": "{内容物|ないようぶつ}⟦が→が：00051_ga⟧⟦{破損|はそん}→破損：13679_hason⟧⟦しない→する：00392_suru⟧よう⟦{丁寧|ていねい}→丁寧：00896_teinei⟧⟦に→に：00314_ni⟧⟦{梱包|こんぽう}→梱包：07937_konpou⟧⟦した→する：00392_suru⟧。",
       "english": "I packed it carefully so that the contents wouldn't be damaged.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {内容|ないよう} (contents; content) + {物|ぶつ} (thing; object). While {内容|ないよう} can refer to abstract content (of a book, speech, etc.), {内容物|ないようぶつ} specifically refers to physical items inside a container. Frequently seen on shipping labels, customs forms, and product packaging.\n\nCOMMON COLLOCATIONS:\n- {内容物|ないようぶつ}を{確認|かくにん}する: to check the contents\n- {内容物|ないようぶつ}の{申告|しんこく}: declaration of contents\n- {内容物|ないようぶつ}の{破損|はそん}: damage to contents\n- {胃|い}の{内容物|ないようぶつ}: stomach contents (medical)\n\nSIMILAR WORDS:\n- {内容|ないよう}: contents; substance — broader term that also covers abstract content\n- {中身|なかみ}: contents; what's inside — the everyday, casual equivalent\n- {同梱物|どうこんぶつ}: items included (in a package) — specifically about bundled items",
-  "cross_references": [],
+  "notes": "Composed of ⟦{内容|ないよう}→内容：01482_naiyou⟧ (contents; content) + ⟦{物|ぶつ}→〜物：28336_butsu⟧ (thing; object). While ⟦{内容|ないよう}→内容：01482_naiyou⟧ can refer to abstract content (of a book, speech, etc.), {内容物|ないようぶつ} specifically refers to physical items inside a container. Frequently seen on shipping labels, customs forms, and product packaging.\n\nCOMMON COLLOCATIONS:\n- {内容物|ないようぶつ}⟦を→を：00422_wo⟧⟦{確認|かくにん}する→確認する：25332_kakuninsuru⟧: to check the contents\n- {内容物|ないようぶつ}⟦の→の：09472_no⟧⟦{申告|しんこく}→申告：03687_shinkoku⟧: declaration of contents\n- {内容物|ないようぶつ}⟦の→の：09472_no⟧⟦{破損|はそん}→破損：13679_hason⟧: damage to contents\n- ⟦{胃|い}→胃：01706_i⟧⟦の→の：09472_no⟧{内容物|ないようぶつ}: stomach contents (medical)\n\nSIMILAR WORDS:\n- ⟦{内容|ないよう}→内容：01482_naiyou⟧: contents; substance — broader term that also covers abstract content\n- ⟦{中身|なかみ}→中身：01483_nakami⟧: contents; what's inside — the everyday, casual equivalent\n- {同梱物|どうこんぶつ}: items included (in a package) — specifically about bundled items",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01483_nakami",
+      "reading": "なかみ",
+      "headword": "{中身|なかみ}",
+      "label": "contents"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["daily-life"]
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "daily-life"
+      ]
     },
     "created": "2026-04-28T16:16:17Z",
-    "modified": "2026-04-28T16:16:17Z"
+    "modified": "2026-09-02T04:02:24Z"
   }
 }

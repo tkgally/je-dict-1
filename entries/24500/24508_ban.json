@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24508_ban_ex1",
-      "japanese": "{荷物|にもつ}をバンに{積|つ}んだ。",
+      "japanese": "⟦{荷物|にもつ}→荷物：00737_nimotsu⟧⟦を→を：00422_wo⟧バン⟦に→に：00314_ni⟧⟦{積|つ}んだ→積む：02294_tsumu⟧。",
       "english": "I loaded the luggage into the van.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24508_ban_ex2",
-      "japanese": "{引|ひ}っ{越|こ}しにバンを{借|か}りた。",
+      "japanese": "{引|ひ}っ{越|こ}し⟦に→に：00314_ni⟧バン⟦を→を：00422_wo⟧⟦{借|か}りた→借りる：00532_kariru⟧。",
       "english": "I rented a van for the move.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24508_ban_ex3",
-      "japanese": "{商用|しょうよう}バンで{配達|はいたつ}をしている{人|ひと}が{増|ふ}えている。",
+      "japanese": "⟦{商用|しょうよう}→商用：11060_shouyou⟧バン⟦で→で：00502_de⟧⟦{配達|はいたつ}→配達：00084_haitatsu⟧⟦を→を：00422_wo⟧⟦している→する：00392_suru⟧⟦{人|ひと}→人：00476_hito⟧⟦が→が：00051_ga⟧⟦{増|ふ}えている→増える：01183_fueru⟧。",
       "english": "More and more people are making deliveries in commercial vans.",
       "sense_numbers": [
         1
@@ -44,19 +44,30 @@
       "notes": null
     }
   ],
-  "notes": "A loanword from English \"van.\" In Japanese automotive terminology, バン typically refers to a vehicle designed primarily for carrying cargo rather than passengers, with a large enclosed cargo area behind the driver. It is distinct from ワゴン (wagon), which prioritizes passenger comfort.\n\nIn Japan, popular バン models include the {軽|けい}バン (kei-van), which are compact vans within the kei car category, widely used by small businesses for deliveries.\n\nCOMMON COLLOCATIONS:\n- {商用|しょうよう}バン: commercial van\n- {軽|けい}バン: light/kei van\n- {配送|はいそう}バン: delivery van\n- ワンボックスバン: one-box van (box-shaped van)\n\nSIMILAR WORDS:\n- ワゴン: wagon (passenger-oriented large vehicle)\n- トラック: truck (larger cargo vehicle)\n- ミニバン: minivan (family vehicle with multiple rows of seats)",
+  "notes": "A loanword from English \"van.\" In Japanese automotive terminology, バン typically refers to a vehicle designed primarily for carrying cargo rather than passengers, with a large enclosed cargo area behind the driver. It is distinct from ワゴン (wagon), which prioritizes passenger comfort.\n\nIn Japan, popular バン models include the {軽|けい}バン (kei-van), which are compact vans within the kei car category, widely used by small businesses for deliveries.\n\nCOMMON COLLOCATIONS:\n- ⟦{商用|しょうよう}→商用：11060_shouyou⟧バン: commercial van\n- {軽|けい}バン: light/kei van\n- ⟦{配送|はいそう}→配送：05464_haisou⟧バン: delivery van\n- ワンボックスバン: one-box van (box-shaped van)\n\nSIMILAR WORDS:\n- ワゴン: wagon (passenger-oriented large vehicle)\n- ⟦トラック→トラック：03863_torakku⟧: truck (larger cargo vehicle)\n- ミニバン: minivan (family vehicle with multiple rows of seats)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03863_torakku",
+      "reading": "とらっく",
+      "headword": "トラック",
+      "label": "truck"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "transportation"
       ]
     },
     "created": "2026-04-19T12:39:09Z",
-    "modified": "2026-08-03T09:22:27Z"
+    "modified": "2026-09-02T04:02:18Z"
   }
 }

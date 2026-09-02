@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25096_mibiiki_ex1",
-      "japanese": "{身贔屓|みびいき}はよくない。",
+      "japanese": "{身贔屓|みびいき}⟦は→は：00079_ha⟧⟦よくない→いい：00118_ii⟧。",
       "english": "Favoritism toward your own side is not good.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25096_mibiiki_ex2",
-      "japanese": "{審判|しんぱん}が{身贔屓|みびいき}をしていると{批判|ひはん}された。",
+      "japanese": "⟦{審判|しんぱん}→審判：03331_shinpan⟧⟦が→が：00051_ga⟧{身贔屓|みびいき}⟦を→を：00422_wo⟧⟦している→する：00392_suru⟧⟦と→と：00512_to⟧⟦{批判|ひはん}→批判：03580_hihan⟧⟦された→する：00392_suru⟧。",
       "english": "The referee was criticized for showing favoritism.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25096_mibiiki_ex3",
-      "japanese": "{自分|じぶん}の{子供|こども}を{褒|ほ}めるのは{身贔屓|みびいき}だと{分|わ}かっていても、やめられない。",
+      "japanese": "⟦{自分|じぶん}→自分：02887_jibun⟧⟦の→の：09472_no⟧⟦{子供|こども}→子供：00554_kodomo⟧⟦を→を：00422_wo⟧⟦{褒|ほ}める→褒める：01204_homeru⟧⟦の→の：09472_no⟧⟦は→は：00079_ha⟧{身贔屓|みびいき}だ⟦と→と：00512_to⟧⟦{分|わ}かっていて→分かる：00463_wakaru⟧⟦も→も：00484_mo⟧、⟦やめられない→やめる：00909_yameru⟧。",
       "english": "Even though I know praising my own child is biased, I can't help it.",
       "sense_numbers": [
         1
@@ -44,20 +44,37 @@
       "notes": null
     }
   ],
-  "notes": "Combines {身|み} (self, one's own) and {贔屓|ひいき} (favoritism, patronage). Where {贔屓|ひいき} can be neutral (supporting a team) or positive (being a patron), {身贔屓|みびいき} always carries a negative connotation of unfair bias toward one's own group.\n\nCOMMON COLLOCATIONS:\n- {身贔屓|みびいき}をする: to show favoritism\n- {身贔屓|みびいき}な{判断|はんだん}: a biased judgment\n- {身贔屓|みびいき}が{過|す}ぎる: to go too far with favoritism\n\nSIMILAR WORDS:\n- {贔屓|ひいき}: favoritism, patronage — broader term, can be neutral or positive\n- えこひいき: favoritism, unfair preference — similar negative connotation, more colloquial\n- {依怙贔屓|えこひいき}: favoritism — the kanji form of えこひいき\n- {偏見|へんけん}: prejudice, bias — a broader term for biased views",
+  "notes": "Combines ⟦{身|み}→身：01764_mi⟧ (self, one's own) and ⟦{贔屓|ひいき}→贔屓：10490_hiiki⟧ (favoritism, patronage). Where ⟦{贔屓|ひいき}→贔屓：10490_hiiki⟧ can be neutral (supporting a team) or positive (being a patron), {身贔屓|みびいき} always carries a negative connotation of unfair bias toward one's own group.\n\nCOMMON COLLOCATIONS:\n- {身贔屓|みびいき}⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧: to show favoritism\n- {身贔屓|みびいき}な⟦{判断|はんだん}→判断：03571_handan⟧: a biased judgment\n- {身贔屓|みびいき}⟦が→が：00051_ga⟧⟦{過|す}ぎる→過ぎる：01219_sugiru⟧: to go too far with favoritism\n\nSIMILAR WORDS:\n- ⟦{贔屓|ひいき}→贔屓：10490_hiiki⟧: favoritism, patronage — broader term, can be neutral or positive\n- えこひいき: favoritism, unfair preference — similar negative connotation, more colloquial\n- ⟦{依怙贔屓|えこひいき}→依怙贔屓：20939_ekohiiki⟧: favoritism — the kanji form of えこひいき\n- ⟦{偏見|へんけん}→偏見：06025_henken⟧: prejudice, bias — a broader term for biased views",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20939_ekohiiki",
+      "reading": "えこひいき",
+      "headword": "{依怙贔屓|えこひいき}",
+      "label": "favoritism, unfair preference"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06025_henken",
+      "reading": "へんけん",
+      "headword": "{偏見|へんけん}",
+      "label": "prejudice, bias"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "personality",
         "society"
       ]
     },
     "created": "2026-04-22T14:42:14Z",
-    "modified": "2026-08-03T09:22:27Z"
+    "modified": "2026-09-02T04:02:21Z"
   }
 }

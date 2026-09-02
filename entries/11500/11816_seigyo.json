@@ -2,7 +2,7 @@
   "id": "11816_seigyo",
   "headword": "{制御|せいぎょ}",
   "reading": "せいぎょ",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "control, regulation",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "11816_seigyo_ex1",
-      "japanese": "{温度|おんど}を{制御|せいぎょ}する。",
+      "japanese": "⟦{温度|おんど}→温度：00333_ondo⟧⟦を→を：00422_wo⟧{制御|せいぎょ}⟦する→する：00392_suru⟧。",
       "english": "To control the temperature.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "11816_seigyo_ex2",
-      "japanese": "この{装置|そうち}はコンピューターで{制御|せいぎょ}されている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{装置|そうち}→装置：03318_souchi⟧⟦は→は：00079_ha⟧⟦コンピューター→コンピューター：01530_konpyuutaa⟧⟦で→で：00502_de⟧{制御|せいぎょ}⟦されている→する：00392_suru⟧。",
       "english": "This device is controlled by a computer.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "11816_seigyo_ex3",
-      "japanese": "{車|くるま}が{制御|せいぎょ}を{失|うしな}って{壁|かべ}にぶつかった。",
+      "japanese": "⟦{車|くるま}→車：00516_kuruma⟧⟦が→が：00051_ga⟧{制御|せいぎょ}⟦を→を：00422_wo⟧⟦{失|うしな}って→失う：01887_ushinau⟧⟦{壁|かべ}→壁：01290_kabe⟧⟦に→に：00314_ni⟧⟦ぶつかった→ぶつかる：02412_butsukaru⟧。",
       "english": "The car lost control and crashed into a wall.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "A technical term most commonly found in engineering, computing, and science. Compared to コントロール, {制御|せいぎょ} sounds more technical and formal, and is preferred in written and academic contexts.\n\nCOMMON COLLOCATIONS:\n・{制御|せいぎょ}する — to control, to regulate\n・{制御|せいぎょ}を{失|うしな}う — to lose control\n・{制御|せいぎょ}{装置|そうち} — control device\n・{制御|せいぎょ}システム — control system\n・{制御|せいぎょ}{盤|ばん} — control panel\n・{遠隔|えんかく}{制御|せいぎょ} — remote control",
+  "notes": "A technical term most commonly found in engineering, computing, and science. Compared to ⟦コントロール→コントロール：10861_kontorooru⟧, {制御|せいぎょ} sounds more technical and formal, and is preferred in written and academic contexts.\n\nCOMMON COLLOCATIONS:\n- {制御|せいぎょ}⟦する→する：00392_suru⟧ — to control, to regulate\n- {制御|せいぎょ}⟦を→を：00422_wo⟧⟦{失|うしな}う→失う：01887_ushinau⟧ — to lose control\n- {制御|せいぎょ}⟦{装置|そうち}→装置：03318_souchi⟧ — control device\n- {制御|せいぎょ}⟦システム→システム：08428_shisutemu⟧ — control system\n- {制御|せいぎょ}{盤|ばん} — control panel\n- {遠隔|えんかく}{制御|せいぎょ} — remote control",
   "cross_references": [
     {
       "type": "synonym",
@@ -142,11 +142,46 @@
       "reading": "こんとろーる",
       "headword": "コントロール",
       "label": "loanword, versatile"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17947_chousetsu",
+      "reading": "ちょうせつ",
+      "headword": "{調節|ちょうせつ}",
+      "label": "regulation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18999_sousasuru",
+      "reading": "そうさする",
+      "headword": "{操作|そうさ}する",
+      "label": "to operate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21836_tousei",
+      "reading": "とうせい",
+      "headword": "{統制|とうせい}",
+      "label": "control"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23059_seiatsu",
+      "reading": "せいあつ",
+      "headword": "{制圧|せいあつ}",
+      "label": "suppression"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25222_shihaisuru",
+      "reading": "しはいする",
+      "headword": "{支配|しはい}する",
+      "label": "to rule"
     }
   ],
   "metadata": {
     "created": "2026-02-18T12:20:02Z",
-    "modified": "2026-03-29T03:07:35Z",
+    "modified": "2026-09-02T04:01:26Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

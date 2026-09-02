@@ -15,42 +15,70 @@
   "examples": [
     {
       "id": "26233_chouseiyaku_ex1",
-      "japanese": "{彼女|かのじょ}が{調整役|ちょうせいやく}を{務|つと}めた。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦が→が：00051_ga⟧{調整役|ちょうせいやく}⟦を→を：00422_wo⟧⟦{務|つと}めた→務める：10446_tsutomeru⟧。",
       "english": "She served as the coordinator.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26233_chouseiyaku_ex2",
-      "japanese": "{部署|ぶしょ}{間|かん}の{調整役|ちょうせいやく}として{活躍|かつやく}している。",
+      "japanese": "⟦{部署|ぶしょ}→部署：08187_busho⟧⟦{間|かん}→〜間：28469_kan⟧⟦の→の：09472_no⟧{調整役|ちょうせいやく}⟦として→として：06802_toshite⟧⟦{活躍|かつやく}している→活躍する：25354_katsuyakusuru⟧。",
       "english": "He is active as a mediator between departments.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26233_chouseiyaku_ex3",
-      "japanese": "{利害|りがい}が{対立|たいりつ}する{両者|りょうしゃ}の{間|あいだ}に{立|た}ち、{調整役|ちょうせいやく}を{引|ひ}き{受|う}けることになった。",
+      "japanese": "⟦{利害|りがい}→利害：04091_rigai⟧⟦が→が：00051_ga⟧⟦{対立|たいりつ}する→対立する：22172_tairitsusuru⟧⟦{両者|りょうしゃ}→両者：11357_ryousha⟧⟦の→の：09472_no⟧⟦{間|あいだ}→間：00914_aida⟧⟦に→に：00314_ni⟧⟦{立|た}ち→立つ：00758_tatsu⟧、{調整役|ちょうせいやく}⟦を→を：00422_wo⟧⟦{引|ひ}き{受|う}ける→引き受ける：03140_hikiukeru⟧ことになった。",
       "english": "I ended up taking on the role of mediator between the two parties whose interests were in conflict.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {調整|ちょうせい} (adjustment, coordination) and {役|やく} (role, part). Describes a specific role rather than a formal job title. Often the {調整役|ちょうせいやく} is someone who takes on this function informally because of their personality, position, or relationships.\n\nIn Japanese workplaces, the {調整役|ちょうせいやく} is a highly valued role, since consensus-building ({根回|ねまわ}し) is central to Japanese organizational culture.\n\nCOMMON COLLOCATIONS:\n- {調整役|ちょうせいやく}を{務|つと}める: to serve as coordinator\n- {調整役|ちょうせいやく}を{引|ひ}き{受|う}ける: to take on the role of mediator\n- {調整役|ちょうせいやく}に{回|まわ}る: to take on a coordinating role\n- {調整役|ちょうせいやく}として{働|はたら}く: to work as a go-between\n\nSIMILAR WORDS:\n- {仲介者|ちゅうかいしゃ}: intermediary, broker — more formal, often in legal/business deals\n- {仲裁者|ちゅうさいしゃ}: arbitrator — makes binding decisions in disputes\n- {世話役|せわやく}: organizer, caretaker — broader; manages practical arrangements",
-  "cross_references": [],
+  "notes": "Composed of ⟦{調整|ちょうせい}→調整：14839_chousei⟧ (adjustment, coordination) and ⟦{役|やく}→役：12557_yaku⟧ (role, part). Describes a specific role rather than a formal job title. Often the {調整役|ちょうせいやく} is someone who takes on this function informally because of their personality, position, or relationships.\n\nIn Japanese workplaces, the {調整役|ちょうせいやく} is a highly valued role, since consensus-building (⟦{根回|ねまわ}し→根回し：07727_nemawashi⟧) is central to Japanese organizational culture.\n\nCOMMON COLLOCATIONS:\n- {調整役|ちょうせいやく}⟦を→を：00422_wo⟧⟦{務|つと}める→務める：10446_tsutomeru⟧: to serve as coordinator\n- {調整役|ちょうせいやく}⟦を→を：00422_wo⟧⟦{引|ひ}き{受|う}ける→引き受ける：03140_hikiukeru⟧: to take on the role of mediator\n- {調整役|ちょうせいやく}⟦に→に：00314_ni⟧⟦{回|まわ}る→回る：01150_mawaru⟧: to take on a coordinating role\n- {調整役|ちょうせいやく}⟦として→として：06802_toshite⟧⟦{働|はたら}く→働く：00503_hataraku⟧: to work as a go-between\n\nSIMILAR WORDS:\n- ⟦{仲介者|ちゅうかいしゃ}→仲介者：23919_chuukaisha⟧: intermediary, broker — more formal, often in legal/business deals\n- {仲裁者|ちゅうさいしゃ}: arbitrator — makes binding decisions in disputes\n- {世話役|せわやく}: organizer, caretaker — broader; manages practical arrangements",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23919_chuukaisha",
+      "reading": "ちゅうかいしゃ",
+      "headword": "{仲介者|ちゅうかいしゃ}",
+      "label": "intermediary, broker"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23688_tsunagiyaku",
+      "reading": "つなぎやく",
+      "headword": "つなぎ{役|やく}",
+      "label": "intermediary"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["work", "person"],
-      "domain": ["business"]
+      "semantic": [
+        "work",
+        "person"
+      ],
+      "domain": [
+        "business"
+      ]
     },
     "created": "2026-04-30T12:21:09Z",
-    "modified": "2026-04-30T12:21:09Z"
+    "modified": "2026-09-02T04:02:25Z"
   }
 }

@@ -5,20 +5,31 @@
   "reading": "しんこうちゅう",
   "part_of_speech": "noun",
   "gloss": "in progress; ongoing; underway",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22739_sagyouchuu",
+      "reading": "さぎょうちゅう",
+      "headword": "{作業中|さぎょうちゅう}",
+      "label": "at work, in operation"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "time-general"
       ]
     },
     "created": "2026-04-03T19:21:58Z",
-    "modified": "2026-07-29T12:35:11Z"
+    "modified": "2026-09-02T04:02:05Z"
   },
-  "notes": "A compound of {進行|しんこう} (progress, advance) and {中|ちゅう} (in the middle of). Functions as a status label or modifier. Very common in business, project management, and official communications.\n\nCOMMON COLLOCATIONS:\n- {現在|げんざい}{進行中|しんこうちゅう}: currently in progress\n- {進行中|しんこうちゅう}の{案件|あんけん}: ongoing case/matter\n- {進行中|しんこうちゅう}のプロジェクト: project in progress\n- {病気|びょうき}が{進行中|しんこうちゅう}: disease is progressing\n\nSIMILAR WORDS:\n- {実施中|じっしちゅう}: being implemented — focuses on active execution\n- {継続中|けいぞくちゅう}: continuing, ongoing — emphasizes that something has not stopped\n- {作業中|さぎょうちゅう}: at work, in operation — specifically about physical or manual work",
+  "notes": "A compound of ⟦{進行|しんこう}→進行：03686_shinkou⟧ (progress, advance) and ⟦{中|ちゅう}→〜中：09840_chuu⟧ (in the middle of). Functions as a status label or modifier. Very common in business, project management, and official communications.\n\nCOMMON COLLOCATIONS:\n- ⟦{現在|げんざい}→現在：01556_genzai⟧{進行中|しんこうちゅう}: currently in progress\n- {進行中|しんこうちゅう}⟦の→の：09472_no⟧⟦{案件|あんけん}→案件：13109_anken⟧: ongoing case/matter\n- {進行中|しんこうちゅう}⟦の→の：09472_no⟧⟦プロジェクト→プロジェクト：06764_purojekuto⟧: project in progress\n- ⟦{病気|びょうき}→病気：00771_byouki⟧⟦が→が：00051_ga⟧{進行中|しんこうちゅう}: disease is progressing\n\nSIMILAR WORDS:\n- {実施中|じっしちゅう}: being implemented — focuses on active execution\n- {継続中|けいぞくちゅう}: continuing, ongoing — emphasizes that something has not stopped\n- ⟦{作業中|さぎょうちゅう}→作業中：22739_sagyouchuu⟧: at work, in operation — specifically about physical or manual work",
   "definitions": [
     {
       "sense_number": 1,
@@ -29,7 +40,7 @@
   "examples": [
     {
       "id": "21844_shinkouchuu_ex1",
-      "japanese": "{工事|こうじ}は{進行中|しんこうちゅう}です。",
+      "japanese": "⟦{工事|こうじ}→工事：00244_kouji⟧⟦は→は：00079_ha⟧{進行中|しんこうちゅう}です。",
       "english": "The construction is in progress.",
       "sense_numbers": [
         1
@@ -39,7 +50,7 @@
     },
     {
       "id": "21844_shinkouchuu_ex2",
-      "japanese": "{調査|ちょうさ}は{現在|げんざい}{進行中|しんこうちゅう}である。",
+      "japanese": "⟦{調査|ちょうさ}→調査：03489_chousa⟧⟦は→は：00079_ha⟧⟦{現在|げんざい}→現在：01556_genzai⟧{進行中|しんこうちゅう}⟦である→である：09855_dearu⟧。",
       "english": "The investigation is currently underway.",
       "sense_numbers": [
         1
@@ -49,7 +60,7 @@
     },
     {
       "id": "21844_shinkouchuu_ex3",
-      "japanese": "{進行中|しんこうちゅう}のプロジェクトについて{報告|ほうこく}してください。",
+      "japanese": "{進行中|しんこうちゅう}⟦の→の：09472_no⟧⟦プロジェクト→プロジェクト：06764_purojekuto⟧⟦について→〜について：03103_nitsuite⟧⟦{報告|ほうこく}して→報告する：05644_houkokusuru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please report on the projects that are in progress.",
       "sense_numbers": [
         1

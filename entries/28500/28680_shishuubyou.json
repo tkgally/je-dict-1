@@ -15,41 +15,63 @@
   "examples": [
     {
       "id": "28680_shishuubyou_ex1",
-      "japanese": "{歯周病|ししゅうびょう}を{予防|よぼう}する。",
+      "japanese": "{歯周病|ししゅうびょう}⟦を→を：00422_wo⟧⟦{予防|よぼう}する→予防する：17341_yobousuru⟧。",
       "english": "To prevent periodontal disease.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28680_shishuubyou_ex2",
-      "japanese": "{歯周病|ししゅうびょう}は{歯|は}を{失|うしな}う{大|おお}きな{原因|げんいん}だ。",
+      "japanese": "{歯周病|ししゅうびょう}⟦は→は：00079_ha⟧⟦{歯|は}→歯：00778_ha⟧⟦を→を：00422_wo⟧⟦{失|うしな}う→失う：01887_ushinau⟧⟦{大|おお}きな→大きな：02849_ookina⟧⟦{原因|げんいん}→原因：01400_genin⟧だ。",
       "english": "Periodontal disease is a major cause of tooth loss.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28680_shishuubyou_ex3",
-      "japanese": "{毎日|まいにち}{丁寧|ていねい}に{歯|は}を{磨|みが}いて、{歯周病|ししゅうびょう}を{防|ふせ}ぎましょう。",
+      "japanese": "⟦{毎日|まいにち}→毎日：00729_mainichi⟧⟦{丁寧|ていねい}→丁寧：00896_teinei⟧⟦に→に：00314_ni⟧⟦{歯|は}→歯：00778_ha⟧⟦を→を：00422_wo⟧⟦{磨|みが}いて→磨く：02427_migaku⟧、{歯周病|ししゅうびょう}⟦を→を：00422_wo⟧⟦{防|ふせ}ぎましょう→防ぐ：02409_fusegu⟧。",
       "english": "Let's prevent gum disease by brushing our teeth carefully every day.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Compound of {歯|し} (tooth) + {周|しゅう} (around) + {病|びょう} (disease). A common medical term appearing regularly on toothpaste commercials and dental clinic signs.\n\nCOMMON COLLOCATIONS:\n- {歯周病|ししゅうびょう}を{予防|よぼう}する: to prevent gum disease\n- {歯周病|ししゅうびょう}にかかる: to develop gum disease\n- {歯周病|ししゅうびょう}の{治療|ちりょう}: treatment for gum disease\n- {歯周病|ししゅうびょう}{対策|たいさく}: anti-gum-disease measures\n\nSIMILAR WORDS:\n- {虫歯|むしば}: cavity, tooth decay — separate dental problem; often paired with {歯周病|ししゅうびょう} in advertising\n- {歯肉炎|しにくえん}: gingivitis — milder form, only the gums; one stage of {歯周病|ししゅうびょう}",
+  "notes": "Compound of {歯|し} (tooth) + {周|しゅう} (around) + {病|びょう} (disease). A common medical term appearing regularly on toothpaste commercials and dental clinic signs.\n\nCOMMON COLLOCATIONS:\n- {歯周病|ししゅうびょう}⟦を→を：00422_wo⟧⟦{予防|よぼう}する→予防する：17341_yobousuru⟧: to prevent gum disease\n- {歯周病|ししゅうびょう}⟦に→に：00314_ni⟧⟦かかる→かかる：00711_kakaru⟧: to develop gum disease\n- {歯周病|ししゅうびょう}⟦の→の：09472_no⟧⟦{治療|ちりょう}→治療：03503_chiryou⟧: treatment for gum disease\n- {歯周病|ししゅうびょう}⟦{対策|たいさく}→対策：02511_taisaku⟧: anti-gum-disease measures\n\nSIMILAR WORDS:\n- ⟦{虫歯|むしば}→虫歯：00299_mushiba⟧: cavity, tooth decay — separate dental problem; often paired with {歯周病|ししゅうびょう} in advertising\n- {歯肉炎|しにくえん}: gingivitis — milder form, only the gums; one stage of {歯周病|ししゅうびょう}",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00299_mushiba",
+      "reading": "むしば",
+      "headword": "{虫歯|むしば}",
+      "label": "cavity, tooth decay"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["health", "body-part"],
-      "domain": ["medical"]
+      "politeness": "plain",
+      "semantic": [
+        "health",
+        "body-part"
+      ],
+      "domain": [
+        "medical"
+      ]
     },
     "created": "2026-06-04T02:08:09Z",
-    "modified": "2026-06-04T02:08:09Z"
+    "modified": "2026-09-02T04:02:34Z"
   }
 }

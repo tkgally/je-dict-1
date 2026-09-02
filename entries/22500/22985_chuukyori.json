@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22985_chuukyori_ex1",
-      "japanese": "{中距離|ちゅうきょり}{走|そう}の{選手|せんしゅ}。",
+      "japanese": "{中距離|ちゅうきょり}{走|そう}⟦の→の：09472_no⟧⟦{選手|せんしゅ}→選手：03823_senshu⟧。",
       "english": "A middle-distance runner.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22985_chuukyori_ex2",
-      "japanese": "{中距離|ちゅうきょり}ミサイルの{配備|はいび}が{問題|もんだい}になっている。",
+      "japanese": "{中距離|ちゅうきょり}⟦ミサイル→ミサイル：26959_misairu⟧⟦の→の：09472_no⟧⟦{配備|はいび}→配備：25292_haibi⟧⟦が→が：00051_ga⟧⟦{問題|もんだい}→問題：00797_mondai⟧になっている。",
       "english": "The deployment of medium-range missiles has become an issue.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22985_chuukyori_ex3",
-      "japanese": "{中距離|ちゅうきょり}の{通勤|つうきん}なら{電車|でんしゃ}より{車|くるま}の{方|ほう}が{便利|べんり}な{場合|ばあい}もある。",
+      "japanese": "{中距離|ちゅうきょり}⟦の→の：09472_no⟧⟦{通勤|つうきん}→通勤：03512_tsuukin⟧なら⟦{電車|でんしゃ}→電車：00522_densha⟧⟦より→より：09476_yori⟧⟦{車|くるま}→車：00516_kuruma⟧⟦の→の：09472_no⟧⟦{方|ほう}→方：01139_hou⟧⟦が→が：00051_ga⟧⟦{便利|べんり}→便利：00830_benri⟧な⟦{場合|ばあい}→場合：01704_baai⟧⟦も→も：00484_mo⟧⟦ある→ある：00006_aru⟧。",
       "english": "For a medium-distance commute, driving can sometimes be more convenient than taking the train.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {中|ちゅう} (middle) and {距離|きょり} (distance). Commonly used as a prefix-like modifier in compound nouns.\n\nCOMMON COLLOCATIONS:\n- {中距離|ちゅうきょり}{走|そう}: middle-distance running (typically 800m to 1500m)\n- {中距離|ちゅうきょり}ミサイル: medium-range missile\n- {中距離|ちゅうきょり}{通勤|つうきん}: medium-distance commute\n- {中距離|ちゅうきょり}バス: medium-distance bus\n\nRELATED TERMS:\n- {短距離|たんきょり}: short distance — the shorter end of the scale\n- {長距離|ちょうきょり}: long distance — the longer end of the scale\n- {距離|きょり}: distance — the base word\n\nNOTE:\nIn track and field, {中距離|ちゅうきょり} typically refers to 800m and 1500m events. In military contexts, definitions of medium range vary by era and weapon system.",
+  "notes": "Composed of ⟦{中|ちゅう}→〜中：09840_chuu⟧ (middle) and ⟦{距離|きょり}→距離：05331_kyori⟧ (distance). Commonly used as a prefix-like modifier in compound nouns.\n\nCOMMON COLLOCATIONS:\n- {中距離|ちゅうきょり}{走|そう}: middle-distance running (typically 800m to 1500m)\n- {中距離|ちゅうきょり}⟦ミサイル→ミサイル：26959_misairu⟧: medium-range missile\n- {中距離|ちゅうきょり}⟦{通勤|つうきん}→通勤：03512_tsuukin⟧: medium-distance commute\n- {中距離|ちゅうきょり}⟦バス→バス：00769_basu⟧: medium-distance bus\n\nRELATED WORDS:\n- ⟦{短距離|たんきょり}→短距離：09270_tankyori⟧: short distance — the shorter end of the scale\n- ⟦{長距離|ちょうきょり}→長距離：09271_choukyori⟧: long distance — the longer end of the scale\n- ⟦{距離|きょり}→距離：05331_kyori⟧: distance — the base word\n\nUSAGE:\nIn track and field, {中距離|ちゅうきょり} typically refers to 800m and 1500m events. In military contexts, definitions of medium range vary by era and weapon system.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "09270_tankyori",
+      "reading": "たんきょり",
+      "headword": "{短距離|たんきょり}",
+      "label": "short distance"
+    },
+    {
+      "type": "related",
+      "target_id": "09271_choukyori",
+      "reading": "ちょうきょり",
+      "headword": "{長距離|ちょうきょり}",
+      "label": "long distance"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19019_kinkyori",
+      "reading": "きんきょり",
+      "headword": "{近距離|きんきょり}",
+      "label": "short distance"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +83,6 @@
       ]
     },
     "created": "2026-04-08T14:20:51Z",
-    "modified": "2026-07-31T00:22:50Z"
+    "modified": "2026-09-02T04:02:10Z"
   }
 }

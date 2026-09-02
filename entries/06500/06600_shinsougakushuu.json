@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "notes": "TECHNICAL TERMS:\n・⟦ニューラルネットワーク→ニューラルネットワーク：30073_nyuurarunettowaaku⟧ (neural network)\n・⟦{機械|きかい}{学習|がくしゅう}→機械学習：04880_kikaigakushuu⟧ (machine learning)\n・⟦{人工|じんこう}{知能|ちのう}→人工知能：04878_jinkouchinou⟧/⟦AI→AI：07764_eeai⟧ (artificial intelligence)\n・⟦{畳|たた}み{込|こ}み→畳み込み：30072_tatamikomi⟧ (convolution)\n\nAPPLICATIONS:\n・⟦{画像|がぞう}{認識|にんしき}→画像認識：25950_gazouninshiki⟧ (image recognition)\n・⟦{自然|しぜん}{言語|げんご}{処理|しょり}→自然言語処理：30071_shizengengoshori⟧ (natural language processing)\n・⟦{音声|おんせい}{認識|にんしき}→音声認識：15961_onseininshiki⟧ (speech recognition)\n・⟦{自動|じどう}{運転|うんてん}→自動運転：06451_jidouunten⟧ (autonomous driving)\n\nORIGIN: English \"deep learning,\" coined around 2006.",
+  "notes": "TECHNICAL TERMS:\n- ⟦ニューラルネットワーク→ニューラルネットワーク：30073_nyuurarunettowaaku⟧ (neural network)\n- ⟦{機械|きかい}{学習|がくしゅう}→機械学習：04880_kikaigakushuu⟧ (machine learning)\n- ⟦{人工|じんこう}{知能|ちのう}→人工知能：04878_jinkouchinou⟧/⟦AI→AI：07764_eeai⟧ (artificial intelligence)\n- ⟦{畳|たた}み{込|こ}み→畳み込み：30072_tatamikomi⟧ (convolution)\n\nAPPLICATIONS:\n- ⟦{画像|がぞう}{認識|にんしき}→画像認識：25950_gazouninshiki⟧ (image recognition)\n- ⟦{自然|しぜん}{言語|げんご}{処理|しょり}→自然言語処理：30071_shizengengoshori⟧ (natural language processing)\n- ⟦{音声|おんせい}{認識|にんしき}→音声認識：15961_onseininshiki⟧ (speech recognition)\n- ⟦{自動|じどう}{運転|うんてん}→自動運転：06451_jidouunten⟧ (autonomous driving)\n\nORIGIN: English \"deep learning,\" coined around 2006.",
   "cross_references": [
     {
       "type": "related",
@@ -48,11 +48,25 @@
       "headword": "{人工|じんこう}{知能|ちのう}",
       "label": "broader term",
       "target_id": "04878_jinkouchinou"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30071_shizengengoshori",
+      "reading": "しぜんげんごしょり",
+      "headword": "{自然|しぜん}{言語|げんご}{処理|しょり}",
+      "label": "natural language processing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30073_nyuurarunettowaaku",
+      "reading": "にゅーらるねっとわーく",
+      "headword": "ニューラルネットワーク",
+      "label": "neural network"
     }
   ],
   "metadata": {
     "created": "2026-01-18T01:10:36Z",
-    "modified": "2026-08-08T09:25:02Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

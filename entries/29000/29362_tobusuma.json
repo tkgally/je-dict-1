@@ -15,41 +15,60 @@
   "examples": [
     {
       "id": "29362_tobusuma_ex1",
-      "japanese": "{戸襖|とぶすま}を{開|あ}ける。",
+      "japanese": "{戸襖|とぶすま}⟦を→を：00422_wo⟧⟦{開|あ}ける→開ける：00563_akeru⟧。",
       "english": "I open the tobusuma.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29362_tobusuma_ex2",
-      "japanese": "{和室|わしつ}と{廊下|ろうか}は{戸襖|とぶすま}で{仕切|しき}られている。",
+      "japanese": "⟦{和室|わしつ}→和室：10437_washitsu⟧⟦と→と：00512_to⟧⟦{廊下|ろうか}→廊下：05005_rouka⟧⟦は→は：00079_ha⟧{戸襖|とぶすま}⟦で→で：00502_de⟧⟦{仕切|しき}られている→仕切る：04666_shikiru⟧。",
       "english": "The tatami room and the hallway are partitioned by a tobusuma.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29362_tobusuma_ex3",
-      "japanese": "{戸襖|とぶすま}は{片面|かためん}が{襖|ふすま}、もう{片面|かためん}が{板戸|いたど}になっている。",
+      "japanese": "{戸襖|とぶすま}⟦は→は：00079_ha⟧⟦{片面|かためん}→片面：17101_katamen⟧⟦が→が：00051_ga⟧⟦{襖|ふすま}→襖：03908_fusuma⟧、⟦もう→もう：00602_mou⟧⟦{片面|かためん}→片面：17101_katamen⟧⟦が→が：00051_ga⟧{板戸|いたど}になっている。",
       "english": "A tobusuma has fusuma on one side and a wooden door on the other.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {戸|と} (door) + {襖|ふすま} (fusuma), with {襖|ふすま} read {ぶすま|ぶすま} through rendaku.\n\nSIMILAR WORDS:\n- {襖|ふすま}: a sliding partition papered on both sides, used between Japanese-style rooms\n- {障子|しょうじ}: a sliding door of translucent paper over a wooden lattice\n- {板戸|いたど}: a solid wooden sliding door",
+  "notes": "A compound of ⟦{戸|と}→戸：00676_to⟧ (door) + ⟦{襖|ふすま}→襖：03908_fusuma⟧ (fusuma), with ⟦{襖|ふすま}→襖：03908_fusuma⟧ read ぶすま through rendaku.\n\nSIMILAR WORDS:\n- ⟦{襖|ふすま}→襖：03908_fusuma⟧: a sliding partition papered on both sides, used between Japanese-style rooms\n- ⟦{障子|しょうじ}→障子：04201_shouji⟧: a sliding door of translucent paper over a wooden lattice\n- {板戸|いたど}: a solid wooden sliding door",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04201_shouji",
+      "reading": "しょうじ",
+      "headword": "{障子|しょうじ}",
+      "label": "a sliding door of translucent paper…"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["building"],
+      "politeness": "plain",
+      "semantic": [
+        "building"
+      ],
       "domain": []
     },
     "created": "2026-06-20T00:19:53Z",
-    "modified": "2026-06-20T00:19:53Z"
+    "modified": "2026-09-02T04:02:36Z"
   }
 }

@@ -15,40 +15,67 @@
   "examples": [
     {
       "id": "22736_ikkadanran_ex1",
-      "japanese": "{一家|いっか}{団|だん}らんの{時間|じかん}を{大切|たいせつ}にする。",
+      "japanese": "{一家|いっか}{団|だん}らん⟦の→の：09472_no⟧⟦{時間|じかん}→時間：00468_jikan⟧⟦を→を：00422_wo⟧⟦{大切|たいせつ}にする→大切にする：26940_taisetsunisuru⟧。",
       "english": "To cherish time spent together as a family.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "22736_ikkadanran_ex2",
-      "japanese": "{夕食|ゆうしょく}は{一家|いっか}{団|だん}らんの{場|ば}だ。",
+      "japanese": "⟦{夕食|ゆうしょく}→夕食：03006_yuushoku⟧⟦は→は：00079_ha⟧{一家|いっか}{団|だん}らん⟦の→の：09472_no⟧⟦{場|ば}→場：03699_ba⟧だ。",
       "english": "Dinner is a time for the family to gather together.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "22736_ikkadanran_ex3",
-      "japanese": "{仕事|しごと}が{忙|いそが}しくて、{一家|いっか}{団|だん}らんの{時間|じかん}がなかなか{取|と}れない。",
+      "japanese": "⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦が→が：00051_ga⟧⟦{忙|いそが}しくて→忙しい：00591_isogashii⟧、{一家|いっか}{団|だん}らん⟦の→の：09472_no⟧⟦{時間|じかん}→時間：00468_jikan⟧⟦が→が：00051_ga⟧⟦なかなか→なかなか：01547_nakanaka⟧⟦{取|と}れない→取れる：02376_toreru⟧。",
       "english": "Work is so busy that it's hard to find time for family togetherness.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {一家|いっか} ('one household, family') and {団|だん}らん ('happy gathering, convivial circle'). Evokes a warm image of family members sitting together — often around a dinner table, a kotatsu in winter, or in the living room. It carries a nostalgic, idealized nuance and is commonly used in discussions about family values and lifestyle.\n\nCOMMON COLLOCATIONS:\n- {一家|いっか}{団|だん}らんの{時間|じかん}: family time together\n- {一家|いっか}{団|だん}らんの{場|ば}: setting for family gathering\n- {一家|いっか}{団|だん}らんを{楽|たの}しむ: to enjoy family togetherness\n\nRELATED TERMS:\n- {団|だん}らん: convivial gathering — can apply to any group, not just family\n- {家族|かぞく}{団|だん}らん: family gathering — a near-synonym using {家族|かぞく} instead of {一家|いっか}\n- {食卓|しょくたく}を{囲|かこ}む: to gather around the dining table — often describes the same scene",
+  "notes": "A compound of ⟦{一家|いっか}→一家：01723_ikka⟧ ('one household, family') and ⟦{団|だん}らん→団らん：12113_danran⟧ ('happy gathering, convivial circle'). Evokes a warm image of family members sitting together — often around a dinner table, a kotatsu in winter, or in the living room. It carries a nostalgic, idealized nuance and is commonly used in discussions about family values and lifestyle.\n\nCOMMON COLLOCATIONS:\n- {一家|いっか}{団|だん}らん⟦の→の：09472_no⟧⟦{時間|じかん}→時間：00468_jikan⟧: family time together\n- {一家|いっか}{団|だん}らん⟦の→の：09472_no⟧⟦{場|ば}→場：03699_ba⟧: setting for family gathering\n- {一家|いっか}{団|だん}らん⟦を→を：00422_wo⟧⟦{楽|たの}しむ→楽しむ：01203_tanoshimu⟧: to enjoy family togetherness\n\nRELATED WORDS:\n- ⟦{団|だん}らん→団らん：12113_danran⟧: convivial gathering — can apply to any group, not just family\n- ⟦{家族|かぞく}{団|だん}らん→家族団らん：22678_kazokudanran⟧: family gathering — a near-synonym using ⟦{家族|かぞく}→家族：00552_kazoku⟧ instead of ⟦{一家|いっか}→一家：01723_ikka⟧\n- ⟦{食卓|しょくたく}を{囲|かこ}む→食卓を囲む：18111_shokutakuwokakomu⟧: to gather around the dining table — often describes the same scene",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "22678_kazokudanran",
+      "reading": "かぞくだんらん",
+      "headword": "{家族|かぞく}{団|だん}らん",
+      "label": "family gathering"
+    },
+    {
+      "type": "related",
+      "target_id": "18111_shokutakuwokakomu",
+      "reading": "しょくたくをかこむ",
+      "headword": "{食卓|しょくたく}を{囲|かこ}む",
+      "label": "to gather around the dining table"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["family", "culture"],
+      "pos": [
+        "noun"
+      ],
+      "semantic": [
+        "family",
+        "culture"
+      ],
       "formality": "neutral",
       "politeness": "plain"
     },
     "created": "2026-04-07T14:11:46Z",
-    "modified": "2026-04-07T14:11:46Z"
+    "modified": "2026-09-02T04:02:09Z"
   }
 }

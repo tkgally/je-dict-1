@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "13322_yubune_ex1",
-      "japanese": "{湯船|ゆぶね}に{浸|つ}かる。",
+      "japanese": "{湯船|ゆぶね}⟦に→に：00314_ni⟧⟦{浸|つ}かる→浸かる：13290_tsukaru⟧。",
       "english": "To soak in the bathtub.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "13322_yubune_ex2",
-      "japanese": "{湯船|ゆぶね}のお{湯|ゆ}が{熱|あつ}すぎた。",
+      "japanese": "{湯船|ゆぶね}⟦の→の：09472_no⟧⟦お{湯|ゆ}→お湯：02518_oyu⟧⟦が→が：00051_ga⟧{熱|あつ}すぎた。",
       "english": "The water in the bathtub was too hot.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "13322_yubune_ex3",
-      "japanese": "{体|からだ}を{洗|あら}ってから{湯船|ゆぶね}に{入|はい}るのが{日本|にほん}の{習慣|しゅうかん}だ。",
+      "japanese": "⟦{体|からだ}→体：00784_karada⟧⟦を→を：00422_wo⟧⟦{洗|あら}って→洗う：00827_arau⟧⟦から→から：00504_kara⟧{湯船|ゆぶね}⟦に→に：00314_ni⟧⟦{入|はい}る→入る：00494_hairu⟧⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦{日本|にほん}→日本：03876_nihon⟧⟦の→の：09472_no⟧⟦{習慣|しゅうかん}→習慣：01429_shuukan⟧だ。",
       "english": "It's a Japanese custom to wash your body before getting into the bathtub.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nThe standard everyday word for a bathtub in Japanese. In Japanese homes, the {湯船|ゆぶね} is strictly for soaking, not for washing — one rinses off at a separate washing area before entering. The word literally means \"hot water vessel\" (from {湯|ゆ} + {船|ふね}).\n\nAlso called {浴槽|よくそう}, which is more formal/technical.\n\nCOMMON COLLOCATIONS:\n- {湯船|ゆぶね}に{浸|つ}かる: to soak in the bathtub\n- {湯船|ゆぶね}に{入|はい}る: to get into the bathtub\n- {湯船|ゆぶね}から{出|で}る: to get out of the bathtub\n- {湯船|ゆぶね}にお{湯|ゆ}を{張|は}る: to fill the bathtub with hot water",
+  "notes": "USAGE:\nThe standard everyday word for a bathtub in Japanese. In Japanese homes, the {湯船|ゆぶね} is strictly for soaking, not for washing — one rinses off at a separate washing area before entering. The word literally means \"hot water vessel\" (from ⟦{湯|ゆ}→湯：01740_yu⟧ + ⟦{船|ふね}→船：00775_fune⟧).\n\nAlso called ⟦{浴槽|よくそう}→浴槽：04985_yokusou⟧, which is more formal/technical.\n\nCOMMON COLLOCATIONS:\n- {湯船|ゆぶね}⟦に→に：00314_ni⟧⟦{浸|つ}かる→浸かる：13290_tsukaru⟧: to soak in the bathtub\n- {湯船|ゆぶね}⟦に→に：00314_ni⟧⟦{入|はい}る→入る：00494_hairu⟧: to get into the bathtub\n- {湯船|ゆぶね}⟦から→から：00504_kara⟧⟦{出|で}る→出る：00513_deru⟧: to get out of the bathtub\n- {湯船|ゆぶね}⟦に→に：00314_ni⟧⟦お{湯|ゆ}→お湯：02518_oyu⟧⟦を→を：00422_wo⟧⟦{張|は}る→張る：12583_haru⟧: to fill the bathtub with hot water",
   "cross_references": [
     {
       "type": "synonym",
@@ -52,11 +52,18 @@
       "headword": "{浴槽|よくそう}",
       "label": "formal/technical",
       "target_id": "04985_yokusou"
+    },
+    {
+      "type": "related",
+      "target_id": "08419_oidaki",
+      "reading": "おいだき",
+      "headword": "{追|お}い{焚|だ}き",
+      "label": "reheating (bath water)"
     }
   ],
   "metadata": {
     "created": "2026-02-24T10:00:26Z",
-    "modified": "2026-07-09T15:31:23Z",
+    "modified": "2026-09-02T04:01:32Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

@@ -25,7 +25,7 @@
     },
     {
       "id": "16468_ikkouni_ex2",
-      "japanese": "{雨|あめ}が{一向|いっこう}に{止|や}まない。",
+      "japanese": "⟦{雨|あめ}→雨：00583_ame⟧⟦が→が：00051_ga⟧{一向|いっこう}に⟦{止|や}まない→止む：01153_yamu⟧。",
       "english": "The rain won't stop at all.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "16468_ikkouni_ex3",
-      "japanese": "{何度|なんど}{電話|でんわ}しても{一向|いっこう}につながらなくて{困|こま}っている。",
+      "japanese": "⟦{何度|なんど}→何度：17592_nando⟧⟦{電話|でんわ}して→電話する：05652_denwasuru⟧⟦も→も：00484_mo⟧{一向|いっこう}につながらなくて⟦{困|こま}っている→困る：00861_komaru⟧。",
       "english": "No matter how many times I call, it won't connect at all, and I'm at a loss.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nAlmost always used with negative predicates (ない, ません, etc.). Expresses that a situation has not changed despite expectation or effort. Conveys a sense of frustration or emphasis. The exception is the fixed expression {一向|いっこう}に{構|かま}わない (I don't mind at all), which uses a negative verb but has an accepting nuance.\n\nCOMMON COLLOCATIONS:\n- {一向|いっこう}に{構|かま}わない (don't mind at all)\n- {一向|いっこう}に{変|か}わらない (hasn't changed at all)\n- {一向|いっこう}に{進|すす}まない (isn't progressing at all)\n\nSIMILAR WORDS:\n- {全然|ぜんぜん}: not at all — more casual and versatile; can also be used with positive predicates in colloquial speech\n- {少|すこ}しも: not even a little — similar emphasis on complete negation",
+  "notes": "USAGE:\nAlmost always used with negative predicates (⟦ない→ない：01118_nai⟧, ません, etc.). Expresses that a situation has not changed despite expectation or effort. Conveys a sense of frustration or emphasis. The exception is the fixed expression {一向|いっこう}に{構|かま}わない (I don't mind at all), which uses a negative verb but has an accepting nuance.\n\nCOMMON COLLOCATIONS:\n- {一向|いっこう}に{構|かま}わない (don't mind at all)\n- {一向|いっこう}に⟦{変|か}わらない→変わる：00714_kawaru⟧ (hasn't changed at all)\n- {一向|いっこう}に⟦{進|すす}まない→進む：01225_susumu⟧ (isn't progressing at all)\n\nSIMILAR WORDS:\n- ⟦{全然|ぜんぜん}→全然：00598_zenzen⟧: not at all — more casual and versatile; can also be used with positive predicates in colloquial speech\n- ⟦{少|すこ}し→少し：00596_sukoshi⟧⟦も→も：00484_mo⟧: not even a little — similar emphasis on complete negation",
   "cross_references": [
     {
       "type": "synonym",
@@ -59,11 +59,18 @@
       "reading": "すこしも",
       "headword": "{少|すこ}しも",
       "label": "not even a little"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19498_kaimoku",
+      "reading": "かいもく",
+      "headword": "{皆目|かいもく}",
+      "label": "(not) at all"
     }
   ],
   "metadata": {
     "created": "2026-03-13T02:03:01Z",
-    "modified": "2026-07-20T00:31:17Z",
+    "modified": "2026-09-02T04:01:45Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

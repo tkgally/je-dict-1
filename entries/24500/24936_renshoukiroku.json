@@ -15,38 +15,66 @@
   "examples": [
     {
       "id": "24936_renshoukiroku_ex1",
-      "japanese": "{連勝記録|れんしょうきろく}が{止|と}まった。",
+      "japanese": "{連勝記録|れんしょうきろく}⟦が→が：00051_ga⟧⟦{止|と}まった→止まる：00555_tomaru⟧。",
       "english": "The winning streak was broken.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "24936_renshoukiroku_ex2",
-      "japanese": "{連勝記録|れんしょうきろく}を{更新|こうしん}し{続|つづ}けている。",
+      "japanese": "{連勝記録|れんしょうきろく}⟦を→を：00422_wo⟧⟦{更新|こうしん}→更新：04765_koushin⟧し⟦{続|つづ}け→続く：00903_tsuzuku⟧て⟦いる→いる：00495_iru⟧。",
       "english": "They continue to extend the winning streak record.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "24936_renshoukiroku_ex3",
-      "japanese": "この{力士|りきし}は{大相撲|おおずもう}の{連勝記録|れんしょうきろく}に{並|なら}ぶ{勢|いきお}いだ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{力士|りきし}→力士：10115_rikishi⟧⟦は→は：00079_ha⟧⟦{大相撲|おおずもう}→大相撲：10113_oozumou⟧⟦の→の：09472_no⟧{連勝記録|れんしょうきろく}⟦に→に：00314_ni⟧⟦{並|なら}ぶ→並ぶ：00605_narabu⟧⟦{勢|いきお}い→勢い：01782_ikioi⟧だ。",
       "english": "This wrestler is on pace to match the consecutive win record in professional sumo.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {連勝|れんしょう} (consecutive victories, winning streak) and {記録|きろく} (record). This is a common term in sports journalism and everyday sports conversation.\n\nIn Japanese sports culture, {連勝記録|れんしょうきろく} is a closely watched statistic, particularly in baseball, sumo, and competitive board games like shogi and go. Famous winning streaks become part of sports lore.\n\nCOMMON COLLOCATIONS:\n- {連勝記録|れんしょうきろく}を{更新|こうしん}する: to set a new winning streak record\n- {連勝記録|れんしょうきろく}が{止|と}まる: for the winning streak to end\n- {連勝記録|れんしょうきろく}に{並|なら}ぶ: to tie the winning streak record\n- {歴代|れきだい}{連勝記録|れんしょうきろく}: all-time winning streak record\n\nRELATED TERMS:\n- {連勝|れんしょう}: winning streak, consecutive wins\n- {連敗|れんぱい}: losing streak, consecutive losses\n- {連敗記録|れんぱいきろく}: consecutive loss record\n- {新記録|しんきろく}: new record",
+  "notes": "A compound of ⟦{連勝|れんしょう}→連勝：06528_renshou⟧ (consecutive victories, winning streak) and ⟦{記録|きろく}→記録：02490_kiroku⟧ (record). This is a common term in sports journalism and everyday sports conversation.\n\nIn Japanese sports culture, {連勝記録|れんしょうきろく} is a closely watched statistic, particularly in baseball, sumo, and competitive board games like shogi and go. Famous winning streaks become part of sports lore.\n\nCOMMON COLLOCATIONS:\n- {連勝記録|れんしょうきろく}⟦を→を：00422_wo⟧⟦{更新|こうしん}する→更新する：27994_koushinsuru⟧: to set a new winning streak record\n- {連勝記録|れんしょうきろく}⟦が→が：00051_ga⟧⟦{止|と}まる→止まる：00555_tomaru⟧: for the winning streak to end\n- {連勝記録|れんしょうきろく}⟦に→に：00314_ni⟧⟦{並|なら}ぶ→並ぶ：00605_narabu⟧: to tie the winning streak record\n- ⟦{歴代|れきだい}→歴代：13199_rekidai⟧{連勝記録|れんしょうきろく}: all-time winning streak record\n\nRELATED WORDS:\n- ⟦{連勝|れんしょう}→連勝：06528_renshou⟧: winning streak, consecutive wins\n- ⟦{連敗|れんぱい}→連敗：06529_renpai⟧: losing streak, consecutive losses\n- {連敗記録|れんぱいきろく}: consecutive loss record\n- ⟦{新記録|しんきろく}→新記録：16705_shinkiroku⟧: new record",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "06529_renpai",
+      "reading": "れんぱい",
+      "headword": "{連敗|れんぱい}",
+      "label": "losing streak, consecutive losses"
+    },
+    {
+      "type": "related",
+      "target_id": "16705_shinkiroku",
+      "reading": "しんきろく",
+      "headword": "{新記録|しんきろく}",
+      "label": "new record"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["sports"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "sports"
+      ]
     },
     "created": "2026-04-21T13:19:35Z",
-    "modified": "2026-04-21T13:19:35Z"
+    "modified": "2026-09-02T04:02:20Z"
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22709_kaimenjoushou_ex1",
-      "japanese": "{海面上昇|かいめんじょうしょう}が{進|すす}んでいる。",
+      "japanese": "{海面上昇|かいめんじょうしょう}⟦が→が：00051_ga⟧⟦{進|すす}んでいる→進む：01225_susumu⟧。",
       "english": "Sea level rise is progressing.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22709_kaimenjoushou_ex2",
-      "japanese": "{海面上昇|かいめんじょうしょう}により{島|しま}が{沈|しず}む{危険|きけん}がある。",
+      "japanese": "{海面上昇|かいめんじょうしょう}⟦に→に：00314_ni⟧⟦より→より：09476_yori⟧⟦{島|しま}→島：00885_shima⟧⟦が→が：00051_ga⟧⟦{沈|しず}む→沈む：02061_shizumu⟧⟦{危険|きけん}→危険：01141_kiken⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There is a danger that islands will sink due to sea level rise.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22709_kaimenjoushou_ex3",
-      "japanese": "{地球温暖化|ちきゅうおんだんか}による{海面上昇|かいめんじょうしょう}は{沿岸部|えんがんぶ}の{住民|じゅうみん}に{大|おお}きな{影響|えいきょう}を{与|あた}える。",
+      "japanese": "⟦{地球温暖化|ちきゅうおんだんか}→地球温暖化：18873_chikyuuondanka⟧⟦による→による：28349_niyoru⟧{海面上昇|かいめんじょうしょう}⟦は→は：00079_ha⟧{沿岸部|えんがんぶ}⟦の→の：09472_no⟧⟦{住民|じゅうみん}→住民：03281_juumin⟧⟦に→に：00314_ni⟧⟦{大|おお}きな→大きな：02849_ookina⟧⟦{影響|えいきょう}を{与|あた}える→影響を与える：26072_eikyouwoataeru⟧。",
       "english": "Sea level rise caused by global warming has a major impact on residents of coastal areas.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {海面|かいめん} (sea surface/sea level) + {上昇|じょうしょう} (rise, increase). A key term in discussions about climate change and environmental policy. Japan, as an island nation with extensive coastlines, is particularly concerned about this phenomenon.\n\nCOMMON COLLOCATIONS:\n- {海面上昇|かいめんじょうしょう}の{影響|えいきょう}: impact of sea level rise\n- {海面上昇|かいめんじょうしょう}の{予測|よそく}: prediction of sea level rise\n- {海面上昇|かいめんじょうしょう}への{対策|たいさく}: countermeasures against sea level rise\n\nRELATED TERMS:\n- {地球温暖化|ちきゅうおんだんか}: global warming — the primary cause of sea level rise\n- {気候変動|きこうへんどう}: climate change — the broader phenomenon\n- {氷河|ひょうが}: glacier — melting glaciers contribute to sea level rise",
+  "notes": "A compound of ⟦{海面|かいめん}→海面：15838_kaimen⟧ (sea surface/sea level) + ⟦{上昇|じょうしょう}→上昇：11296_joushou⟧ (rise, increase). A key term in discussions about climate change and environmental policy. Japan, as an island nation with extensive coastlines, is particularly concerned about this phenomenon.\n\nCOMMON COLLOCATIONS:\n- {海面上昇|かいめんじょうしょう}⟦の→の：09472_no⟧⟦{影響|えいきょう}→影響：01877_eikyou⟧: impact of sea level rise\n- {海面上昇|かいめんじょうしょう}⟦の→の：09472_no⟧⟦{予測|よそく}→予測：03665_yosoku⟧: prediction of sea level rise\n- {海面上昇|かいめんじょうしょう}⟦へ→へ：02473_he⟧⟦の→の：09472_no⟧⟦{対策|たいさく}→対策：02511_taisaku⟧: countermeasures against sea level rise\n\nRELATED WORDS:\n- ⟦{地球温暖化|ちきゅうおんだんか}→地球温暖化：18873_chikyuuondanka⟧: global warming — the primary cause of sea level rise\n- ⟦{気候変動|きこうへんどう}→気候変動：04627_kikouhendou⟧: climate change — the broader phenomenon\n- ⟦{氷河|ひょうが}→氷河：25315_hyouga⟧: glacier — melting glaciers contribute to sea level rise",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "18873_chikyuuondanka",
+      "reading": "ちきゅうおんだんか",
+      "headword": "{地球|ちきゅう}{温暖|おんだん}{化|か}",
+      "label": "global warming"
+    },
+    {
+      "type": "related",
+      "target_id": "04627_kikouhendou",
+      "reading": "きこうへんどう",
+      "headword": "{気候変動|きこうへんどう}",
+      "label": "climate change"
+    },
+    {
+      "type": "related",
+      "target_id": "25315_hyouga",
+      "reading": "ひょうが",
+      "headword": "{氷河|ひょうが}",
+      "label": "glacier"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,6 +84,6 @@
       "politeness": "plain"
     },
     "created": "2026-04-07T12:36:18Z",
-    "modified": "2026-08-01T06:41:09Z"
+    "modified": "2026-09-02T04:02:09Z"
   }
 }

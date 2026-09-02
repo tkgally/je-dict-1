@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "09716_shuugoujuutaku_ex1",
-      "japanese": "{集合住宅|しゅうごうじゅうたく}に{住|す}んでいる。",
+      "japanese": "{集合住宅|しゅうごうじゅうたく}⟦に→に：00314_ni⟧⟦{住|す}んでいる→住む：00673_sumu⟧。",
       "english": "I live in an apartment building.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "09716_shuugoujuutaku_ex2",
-      "japanese": "{集合住宅|しゅうごうじゅうたく}ではゴミの{分別|ぶんべつ}ルールが{厳|きび}しい。",
+      "japanese": "{集合住宅|しゅうごうじゅうたく}⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦ゴミ→ゴミ：00840_gomi⟧⟦の→の：09472_no⟧⟦{分別|ぶんべつ}→分別：07706_bunbetsu⟧⟦ルール→ルール：00354_ruuru⟧⟦が→が：00051_ga⟧⟦{厳|きび}しい→厳しい：01125_kibishii⟧。",
       "english": "Apartment buildings have strict garbage sorting rules.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "09716_shuugoujuutaku_ex3",
-      "japanese": "この{地域|ちいき}には{高層|こうそう}{集合住宅|しゅうごうじゅうたく}がたくさん{建|た}っている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{地域|ちいき}→地域：01461_chiiki⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{高層|こうそう}→高層：04145_kousou⟧{集合住宅|しゅうごうじゅうたく}⟦が→が：00051_ga⟧⟦たくさん→たくさん：00597_takusan⟧⟦{建|た}っている→建つ：12544_tatsu⟧。",
       "english": "There are many high-rise apartment buildings in this area.",
       "notes": null,
       "has_audio": false,
@@ -43,10 +43,40 @@
       ]
     }
   ],
-  "notes": "{集合住宅|しゅうごうじゅうたく} is the general term for multi-unit housing.\n\nTYPES INCLUDED:\n- マンション (condominium)\n- アパート (apartment)\n- {団地|だんち} (housing complex)\n- {社宅|しゃたく} (company housing)\n\nCOMMON COLLOCATIONS:\n- {集合住宅|しゅうごうじゅうたく}の{管理|かんり} (apartment building management)\n- {高層|こうそう}{集合住宅|しゅうごうじゅうたく} (high-rise apartment building)\n\nRELATED TERMS:\n- {一戸建|いっこだ}て: detached house\n- マンション: condominium\n- {賃貸|ちんたい}: rental",
+  "notes": "{集合住宅|しゅうごうじゅうたく} is the general term for multi-unit housing.\n\nTYPES INCLUDED:\n- ⟦マンション→マンション：01035_manshon⟧ (condominium)\n- ⟦アパート→アパート：01012_apaato⟧ (apartment)\n- ⟦{団地|だんち}→団地：04054_danchi⟧ (housing complex)\n- {社宅|しゃたく} (company housing)\n\nCOMMON COLLOCATIONS:\n- {集合住宅|しゅうごうじゅうたく}⟦の→の：09472_no⟧⟦{管理|かんり}→管理：00178_kanri⟧ (apartment building management)\n- ⟦{高層|こうそう}→高層：04145_kousou⟧{集合住宅|しゅうごうじゅうたく} (high-rise apartment building)\n\nRELATED WORDS:\n- ⟦{一戸建|いっこだ}て→一戸建て：19687_ikkodate⟧: detached house\n- ⟦マンション→マンション：01035_manshon⟧: condominium\n- ⟦{賃貸|ちんたい}→賃貸：06081_chintai⟧: rental",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "19687_ikkodate",
+      "reading": "いっこだて",
+      "headword": "{一戸建|いっこだ}て",
+      "label": "detached house"
+    },
+    {
+      "type": "related",
+      "target_id": "01035_manshon",
+      "reading": "まんしょん",
+      "headword": "マンション",
+      "label": "condominium"
+    },
+    {
+      "type": "related",
+      "target_id": "06081_chintai",
+      "reading": "ちんたい",
+      "headword": "{賃貸|ちんたい}",
+      "label": "rental"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15623_kodate",
+      "reading": "こだて",
+      "headword": "{戸建|こだて}",
+      "label": "detached house"
+    }
+  ],
   "metadata": {
     "created": "2026-02-03T06:56:18Z",
-    "modified": "2026-06-24T18:40:49Z",
+    "modified": "2026-09-02T04:01:19Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

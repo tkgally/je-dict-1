@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "18350_ikkarisan_ex1",
-      "japanese": "{借金|しゃっきん}が{原因|げんいん}で{一家離散|いっかりさん}した。",
+      "japanese": "⟦{借金|しゃっきん}→借金：03203_shakkin⟧⟦が→が：00051_ga⟧⟦{原因|げんいん}→原因：01400_genin⟧⟦で→で：00502_de⟧{一家離散|いっかりさん}⟦した→する：00392_suru⟧。",
       "english": "Debt caused the family to break apart.",
       "sense_numbers": [
         1
@@ -114,7 +114,7 @@
     },
     {
       "id": "18350_ikkarisan_ex2",
-      "japanese": "{戦争|せんそう}で{一家離散|いっかりさん}の{悲劇|ひげき}が{繰|く}り{返|かえ}された。",
+      "japanese": "⟦{戦争|せんそう}→戦争：01450_sensou⟧⟦で→で：00502_de⟧{一家離散|いっかりさん}⟦の→の：09472_no⟧⟦{悲劇|ひげき}→悲劇：03577_higeki⟧⟦が→が：00051_ga⟧⟦{繰|く}り{返|かえ}された→繰り返す：02051_kurikaesu⟧。",
       "english": "The tragedy of families being torn apart was repeated by the war.",
       "sense_numbers": [
         1
@@ -124,7 +124,7 @@
     },
     {
       "id": "18350_ikkarisan_ex3",
-      "japanese": "{父|ちち}の{事業|じぎょう}{失敗|しっぱい}をきっかけに{一家離散|いっかりさん}となり、それぞれの{道|みち}を{歩|あゆ}むことになった。",
+      "japanese": "⟦{父|ちち}→父：00566_chichi⟧⟦の→の：09472_no⟧⟦{事業|じぎょう}→事業：11421_jigyou⟧⟦{失敗|しっぱい}→失敗：01636_shippai⟧⟦を→を：00422_wo⟧⟦きっかけ→きっかけ：10309_kikkake⟧⟦に→に：00314_ni⟧{一家離散|いっかりさん}となり、⟦それぞれ→それぞれ：01453_sorezore⟧⟦の→の：09472_no⟧⟦{道|みち}→道：00505_michi⟧⟦を→を：00422_wo⟧⟦{歩|あゆ}む→歩む：13196_ayumu⟧ことになった。",
       "english": "The family fell apart after the father's business failure, and each member went their own way.",
       "sense_numbers": [
         1
@@ -133,8 +133,24 @@
       "notes": null
     }
   ],
-  "notes": "{一家離散|いっかりさん} is a four-character compound ({四字熟語|よじじゅくご}) describing the forced scattering of a family.\n\nUSAGE:\n- Implies involuntary separation due to misfortune (financial ruin, war, natural disaster, illness), not a voluntary decision to live apart.\n- Has a strongly tragic, literary tone and is most often seen in news, fiction, and dramatic narration.\n- The component {離散|りさん} (dispersal, scattering) emphasizes that family members end up in different places with little hope of reuniting.\n\nCOMMON PATTERNS:\n- {一家離散|いっかりさん}の{危機|きき} (the crisis of family breakup)\n- {借金|しゃっきん}で{一家離散|いっかりさん}になる (a family is broken up by debt)\n- {一家離散|いっかりさん}の{憂|う}き{目|め}に{遭|あ}う (to suffer the misfortune of family separation)\n\nSIMILAR WORDS:\n- {別居|べっきょ}: living apart (typically a voluntary or marital separation, neutral tone).\n- {離婚|りこん}: divorce (specifically the dissolution of a marriage).",
+  "notes": "{一家離散|いっかりさん} is a four-character compound (⟦{四字熟語|よじじゅくご}→四字熟語：15663_yojijukugo⟧) describing the forced scattering of a family.\n\nUSAGE:\n- Implies involuntary separation due to misfortune (financial ruin, war, natural disaster, illness), not a voluntary decision to live apart.\n- Has a strongly tragic, literary tone and is most often seen in news, fiction, and dramatic narration.\n- The component ⟦{離散|りさん}→離散：14604_risan⟧ (dispersal, scattering) emphasizes that family members end up in different places with little hope of reuniting.\n\nCOMMON PATTERNS:\n- {一家離散|いっかりさん}⟦の→の：09472_no⟧⟦{危機|きき}→危機：11798_kiki⟧ (the crisis of family breakup)\n- ⟦{借金|しゃっきん}→借金：03203_shakkin⟧⟦で→で：00502_de⟧{一家離散|いっかりさん}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧ (a family is broken up by debt)\n- {一家離散|いっかりさん}⟦の→の：09472_no⟧{憂|う}き{目|め}⟦に→に：00314_ni⟧⟦{遭|あ}う→遭う：09500_au⟧ (to suffer the misfortune of family separation)\n\nSIMILAR WORDS:\n- ⟦{別居|べっきょ}→別居：11879_bekkyo⟧: living apart (typically a voluntary or marital separation, neutral tone).\n- ⟦{離婚|りこん}→離婚：02530_rikon⟧: divorce (specifically the dissolution of a marriage).",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11879_bekkyo",
+      "reading": "べっきょ",
+      "headword": "{別居|べっきょ}",
+      "label": "living apart (typically a voluntary…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02530_rikon",
+      "reading": "りこん",
+      "headword": "{離婚|りこん}",
+      "label": "divorce (specifically the dissolution…"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -153,6 +169,6 @@
       "verb_class": "suru"
     },
     "created": "2026-03-21T09:58:02Z",
-    "modified": "2026-04-10T13:28:57Z"
+    "modified": "2026-09-02T04:01:51Z"
   }
 }

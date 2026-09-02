@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "13787_seido_ex1",
-      "japanese": "{精度|せいど}が{高|たか}いセンサーだ。",
+      "japanese": "{精度|せいど}⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧⟦センサー→センサー：29781_sensaa⟧だ。",
       "english": "It's a high-precision sensor.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "13787_seido_ex2",
-      "japanese": "AIの{翻訳|ほんやく}{精度|せいど}が{年々|ねんねん}{上|あ}がっている。",
+      "japanese": "AI⟦の→の：09472_no⟧⟦{翻訳|ほんやく}→翻訳：01725_honyaku⟧{精度|せいど}⟦が→が：00051_ga⟧⟦{年々|ねんねん}→年々：10417_nennen⟧⟦{上|あ}がっている→上がる：00615_agaru⟧。",
       "english": "The accuracy of AI translation is improving year by year.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "13787_seido_ex3",
-      "japanese": "{検査|けんさ}の{精度|せいど}を{上|あ}げるために、{最新|さいしん}の{機器|きき}を{導入|どうにゅう}した。",
+      "japanese": "⟦{検査|けんさ}→検査：02707_kensa⟧⟦の→の：09472_no⟧{精度|せいど}⟦を→を：00422_wo⟧⟦{上|あ}げる→上げる：02443_ageru⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧、⟦{最新|さいしん}→最新：04831_saishin⟧⟦の→の：09472_no⟧⟦{機器|きき}→機器：13180_kiki⟧⟦を→を：00422_wo⟧⟦{導入|どうにゅう}した→導入する：16055_dounyuusuru⟧。",
       "english": "We introduced the latest equipment to improve the accuracy of inspections.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,26 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{精度|せいど} is a measurable, quantifiable concept — it describes how close something is to the true or intended value. Commonly modified by {高|たか}い (high) and {低|ひく}い (low).\n\nCOMMON COLLOCATIONS:\n- {精度|せいど}が{高|たか}い: high precision\n- {精度|せいど}が{低|ひく}い: low precision\n- {精度|せいど}を{上|あ}げる: to improve accuracy\n- {精度|せいど}を{保|たも}つ: to maintain precision\n- {測定|そくてい}{精度|せいど}: measurement accuracy\n- {認識|にんしき}{精度|せいど}: recognition accuracy\n\nSIMILAR WORDS:\n{正確|せいかく}さ means \"accuracy\" as a quality (being correct). {精度|せいど} is more technical, referring to the measurable degree of precision, and is the standard term in scientific and engineering contexts.",
-  "cross_references": [],
+  "notes": "USAGE:\n{精度|せいど} is a measurable, quantifiable concept — it describes how close something is to the true or intended value. Commonly modified by ⟦{高|たか}い→高い：00500_takai⟧ (high) and ⟦{低|ひく}い→低い：02947_hikui⟧ (low).\n\nCOMMON COLLOCATIONS:\n- {精度|せいど}⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧: high precision\n- {精度|せいど}⟦が→が：00051_ga⟧⟦{低|ひく}い→低い：02947_hikui⟧: low precision\n- {精度|せいど}⟦を→を：00422_wo⟧⟦{上|あ}げる→上げる：02443_ageru⟧: to improve accuracy\n- {精度|せいど}⟦を→を：00422_wo⟧⟦{保|たも}つ→保つ：10134_tamotsu⟧: to maintain precision\n- ⟦{測定|そくてい}→測定：04398_sokutei⟧{精度|せいど}: measurement accuracy\n- ⟦{認識|にんしき}→認識：05090_ninshiki⟧{精度|せいど}: recognition accuracy\n\nSIMILAR WORDS:\n⟦{正確|せいかく}さ→正確さ：19774_seikakusa⟧ means \"accuracy\" as a quality (being correct). {精度|せいど} is more technical, referring to the measurable degree of precision, and is the standard term in scientific and engineering contexts.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19774_seikakusa",
+      "reading": "せいかくさ",
+      "headword": "{正確|せいかく}さ",
+      "label": "accuracy"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24012_bunkainou",
+      "reading": "ぶんかいのう",
+      "headword": "{分解能|ぶんかいのう}",
+      "label": "resolution"
+    }
+  ],
   "metadata": {
     "created": "2026-02-27T03:18:37Z",
-    "modified": "2026-02-27T03:18:37Z",
+    "modified": "2026-09-02T04:01:34Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

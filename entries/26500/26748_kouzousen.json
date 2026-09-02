@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26748_kouzousen_ex1",
-      "japanese": "{中央構造線|ちゅうおうこうぞうせん}は{日本最大|にほんさいだい}の{構造線|こうぞうせん}だ。",
+      "japanese": "{中央構造線|ちゅうおうこうぞうせん}⟦は→は：00079_ha⟧{日本最大|にほんさいだい}⟦の→の：09472_no⟧{構造線|こうぞうせん}だ。",
       "english": "The Median Tectonic Line is Japan's largest tectonic line.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26748_kouzousen_ex2",
-      "japanese": "{構造線|こうぞうせん}に{沿|そ}って{温泉|おんせん}が{多|おお}く{分布|ぶんぷ}している。",
+      "japanese": "{構造線|こうぞうせん}⟦に→に：00314_ni⟧⟦{沿|そ}って→沿う：13279_sou⟧⟦{温泉|おんせん}→温泉：04117_onsen⟧⟦が→が：00051_ga⟧⟦{多|おお}く→多い：01127_ooi⟧⟦{分布|ぶんぷ}→分布：00021_bunpu⟧⟦している→する：00392_suru⟧。",
       "english": "Many hot springs are distributed along the tectonic line.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26748_kouzousen_ex3",
-      "japanese": "{地震|じしん}の{多|おお}い{地域|ちいき}は{構造線|こうぞうせん}の{近|ちか}くに{位置|いち}していることが{多|おお}い。",
+      "japanese": "⟦{地震|じしん}→地震：01608_jishin⟧⟦の→の：09472_no⟧⟦{多|おお}い→多い：01127_ooi⟧⟦{地域|ちいき}→地域：01461_chiiki⟧⟦は→は：00079_ha⟧{構造線|こうぞうせん}⟦の→の：09472_no⟧{近|ちか}く⟦に→に：00314_ni⟧⟦{位置|いち}している→位置する：09891_ichisuru⟧こと⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "Areas with frequent earthquakes are often located near tectonic lines.",
       "sense_numbers": [
         1
@@ -44,8 +44,16 @@
       "notes": null
     }
   ],
-  "notes": "A geological term composed of {構造|こうぞう} (structure) and {線|せん} (line). Japan has several major tectonic lines that are important in geography education and earthquake science.\n\nMAJOR JAPANESE TECTONIC LINES:\n- {中央構造線|ちゅうおうこうぞうせん}: Median Tectonic Line — the longest fault in Japan, running from Kyushu to the Kanto region\n- {糸魚川静岡構造線|いといがわしずおかこうぞうせん}: Itoigawa-Shizuoka Tectonic Line — divides Honshu's geology into eastern and western halves\n- {柏崎千葉構造線|かしわざきちばこうぞうせん}: Kashiwazaki-Chiba Tectonic Line\n\nCOMMON COLLOCATIONS:\n- {構造線|こうぞうせん}に{沿|そ}って: along the tectonic line\n- {活|かつ}{構造線|こうぞうせん}: active tectonic line\n\nRELATED TERMS:\n- {断層|だんそう}: fault — a fracture in rock where displacement has occurred\n- {プレート{境界|きょうかい}}: plate boundary — where tectonic plates meet",
-  "cross_references": [],
+  "notes": "A geological term composed of ⟦{構造|こうぞう}→構造：02730_kouzou⟧ (structure) and ⟦{線|せん}→線：09901_sen⟧ (line). Japan has several major tectonic lines that are important in geography education and earthquake science.\n\nMAJOR JAPANESE TECTONIC LINES:\n- {中央構造線|ちゅうおうこうぞうせん}: Median Tectonic Line — the longest fault in Japan, running from Kyushu to the Kanto region\n- {糸魚川静岡構造線|いといがわしずおかこうぞうせん}: Itoigawa-Shizuoka Tectonic Line — divides Honshu's geology into eastern and western halves\n- {柏崎千葉構造線|かしわざきちばこうぞうせん}: Kashiwazaki-Chiba Tectonic Line\n\nCOMMON COLLOCATIONS:\n- {構造線|こうぞうせん}⟦に→に：00314_ni⟧⟦{沿|そ}って→沿う：13279_sou⟧: along the tectonic line\n- {活|かつ}{構造線|こうぞうせん}: active tectonic line\n\nRELATED WORDS:\n- ⟦{断層|だんそう}→断層：06367_dansou⟧: fault — a fracture in rock where displacement has occurred\n- ⟦プレート→プレート：11704_pureeto⟧⟦{境界|きょうかい}→境界：12096_kyoukai⟧: plate boundary — where tectonic plates meet",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "06367_dansou",
+      "reading": "だんそう",
+      "headword": "{断層|だんそう}",
+      "label": "fault"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -63,6 +71,6 @@
       ]
     },
     "created": "2026-05-04T15:34:26Z",
-    "modified": "2026-05-04T15:34:26Z"
+    "modified": "2026-09-02T04:02:27Z"
   }
 }

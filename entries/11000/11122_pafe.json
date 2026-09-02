@@ -15,41 +15,59 @@
   "examples": [
     {
       "id": "11122_pafe_ex1",
-      "japanese": "チョコレートパフェを{注文|ちゅうもん}した。",
+      "japanese": "⟦チョコレート→チョコレート：05183_chokoreeto⟧パフェ⟦を→を：00422_wo⟧⟦{注文|ちゅうもん}した→注文する：21390_chuumon⟧。",
       "english": "I ordered a chocolate parfait.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11122_pafe_ex2",
-      "japanese": "この{店|みせ}のフルーツパフェは{人気|にんき}がある。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{店|みせ}→店：00497_mise⟧⟦の→の：09472_no⟧⟦フルーツ→フルーツ：11247_furuutsu⟧パフェ⟦は→は：00079_ha⟧⟦{人気|にんき}→人気：01488_ninki⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "This shop's fruit parfait is popular.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11122_pafe_ex3",
-      "japanese": "{季節|きせつ}{限定|げんてい}のイチゴパフェが{出|で}たので{食|た}べに{行|い}きたい。",
+      "japanese": "⟦{季節|きせつ}{限定|げんてい}→季節限定：09823_kisetsugentei⟧⟦の→の：09472_no⟧イチゴパフェ⟦が→が：00051_ga⟧⟦{出|で}た→出る：00513_deru⟧⟦の→の：09472_no⟧で⟦{食|た}べ→食べる：00396_taberu⟧⟦に→に：00314_ni⟧⟦{行|い}きたい→行く：00119_iku⟧。",
       "english": "A seasonal limited-edition strawberry parfait is out, so I want to go try it.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nParfaits in Japan are typically served in tall glasses and are more elaborate than Western versions, featuring artistic layering of ice cream, fruit, whipped cream, cake, and sauces. They are a staple dessert at cafes, family restaurants, and specialty parfait shops.\n\nCOMMON COLLOCATIONS:\n- チョコレートパフェ (chocolate parfait)\n- フルーツパフェ (fruit parfait)\n- {抹茶|まっちゃ}パフェ (matcha parfait)\n- パフェを{食|た}べる (eat a parfait)\n\nETYMOLOGY:\nFrom French \"parfait\" (perfect). The Japanese version is quite different from the French original, which is a frozen dessert.",
-  "cross_references": [],
+  "notes": "USAGE:\nParfaits in Japan are typically served in tall glasses and are more elaborate than Western versions, featuring artistic layering of ice cream, fruit, whipped cream, cake, and sauces. They are a staple dessert at cafes, family restaurants, and specialty parfait shops.\n\nCOMMON COLLOCATIONS:\n- ⟦チョコレート→チョコレート：05183_chokoreeto⟧パフェ (chocolate parfait)\n- ⟦フルーツ→フルーツ：11247_furuutsu⟧パフェ (fruit parfait)\n- ⟦{抹茶|まっちゃ}→抹茶：10574_maccha⟧パフェ (matcha parfait)\n- パフェ⟦を→を：00422_wo⟧⟦{食|た}べる→食べる：00396_taberu⟧ (eat a parfait)\n\nETYMOLOGY:\nFrom French \"parfait\" (perfect). The Japanese version is quite different from the French original, which is a frozen dessert.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21044_sandee",
+      "reading": "さんでー",
+      "headword": "サンデー",
+      "label": "sundae (ice cream dessert)"
+    }
+  ],
   "metadata": {
     "created": "2026-02-14T03:15:22Z",
-    "modified": "2026-02-14T03:15:22Z",
+    "modified": "2026-09-02T04:01:24Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food"]
+      "semantic": [
+        "food"
+      ]
     }
   }
 }

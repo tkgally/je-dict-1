@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22229_kaimonobukuro_ex1",
-      "japanese": "{買|か}い{物袋|ものぶくろ}を{持|も}っていく。",
+      "japanese": "{買|か}い{物袋|ものぶくろ}⟦を→を：00422_wo⟧⟦{持|も}っていく→持っていく：27431_motteiku⟧。",
       "english": "I'll bring a shopping bag.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22229_kaimonobukuro_ex2",
-      "japanese": "{買|か}い{物袋|ものぶくろ}が{重|おも}くて{手|て}が{痛|いた}い。",
+      "japanese": "{買|か}い{物袋|ものぶくろ}⟦が→が：00051_ga⟧⟦{重|おも}くて→重い：00804_omoi⟧⟦{手|て}→手：00569_te⟧⟦が→が：00051_ga⟧⟦{痛|いた}い→痛い：01108_itai⟧。",
       "english": "The shopping bag is so heavy my hands hurt.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22229_kaimonobukuro_ex3",
-      "japanese": "レジ{袋|ぶくろ}が{有料|ゆうりょう}になったので、{買|か}い{物袋|ものぶくろ}を{忘|わす}れないようにしている。",
+      "japanese": "⟦レジ{袋|ぶくろ}→レジ袋：09531_rejibukuro⟧⟦が→が：00051_ga⟧⟦{有料|ゆうりょう}→有料：03178_yuuryou⟧になった⟦の→の：09472_no⟧で、{買|か}い{物袋|ものぶくろ}⟦を→を：00422_wo⟧⟦{忘|わす}れない→忘れる：00474_wasureru⟧ようにして⟦いる→いる：00495_iru⟧。",
       "english": "Since plastic bags became paid, I make sure not to forget my shopping bag.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {買|か}い{物|もの} (shopping) and {袋|ぶくろ} (bag). Since Japan made plastic bags (レジ{袋|ぶくろ}) paid at stores in 2020, the word {買|か}い{物袋|ものぶくろ} is now commonly associated with reusable bags (エコバッグ) that shoppers bring themselves.\n\nCOMMON COLLOCATIONS:\n- {買|か}い{物袋|ものぶくろ}を{持参|じさん}する: to bring one's own shopping bag\n- {買|か}い{物袋|ものぶくろ}に{入|い}れる: to put in a shopping bag\n- {買|か}い{物袋|ものぶくろ}を{忘|わす}れる: to forget one's shopping bag\n\nRELATED TERMS:\n- レジ{袋|ぶくろ}: plastic bag (at checkout) — the disposable bag provided at the register\n- エコバッグ: reusable bag; eco bag — a loanword commonly used for reusable shopping bags\n- {紙袋|かみぶくろ}: paper bag",
+  "notes": "Compound of ⟦{買|か}い{物|もの}→買い物：00853_kaimono⟧ (shopping) and {袋|ぶくろ} (bag). Since Japan made plastic bags (⟦レジ{袋|ぶくろ}→レジ袋：09531_rejibukuro⟧) paid at stores in 2020, the word {買|か}い{物袋|ものぶくろ} is now commonly associated with reusable bags (⟦エコバッグ→エコバッグ：08937_ekobaggu⟧) that shoppers bring themselves.\n\nCOMMON COLLOCATIONS:\n- {買|か}い{物袋|ものぶくろ}⟦を→を：00422_wo⟧⟦{持参|じさん}する→持参する：21143_jisansuru⟧: to bring one's own shopping bag\n- {買|か}い{物袋|ものぶくろ}⟦に→に：00314_ni⟧⟦{入|い}れる→入れる：01098_ireru⟧: to put in a shopping bag\n- {買|か}い{物袋|ものぶくろ}⟦を→を：00422_wo⟧⟦{忘|わす}れる→忘れる：00474_wasureru⟧: to forget one's shopping bag\n\nRELATED WORDS:\n- ⟦レジ{袋|ぶくろ}→レジ袋：09531_rejibukuro⟧: plastic bag (at checkout) — the disposable bag provided at the register\n- ⟦エコバッグ→エコバッグ：08937_ekobaggu⟧: reusable bag; eco bag — a loanword commonly used for reusable shopping bags\n- ⟦{紙袋|かみぶくろ}→紙袋：09705_kamibukuro⟧: paper bag",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "09531_rejibukuro",
+      "reading": "れじぶくろ",
+      "headword": "レジ{袋|ぶくろ}",
+      "label": "plastic bag"
+    },
+    {
+      "type": "related",
+      "target_id": "08937_ekobaggu",
+      "reading": "えこばっぐ",
+      "headword": "エコバッグ",
+      "label": "reusable bag"
+    },
+    {
+      "type": "related",
+      "target_id": "09705_kamibukuro",
+      "reading": "かみぶくろ",
+      "headword": "{紙袋|かみぶくろ}",
+      "label": "paper bag"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +83,6 @@
       ]
     },
     "created": "2026-04-05T15:13:24Z",
-    "modified": "2026-06-16T12:23:55Z"
+    "modified": "2026-09-02T04:02:07Z"
   }
 }

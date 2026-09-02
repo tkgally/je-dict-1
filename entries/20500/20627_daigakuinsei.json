@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "20627_daigakuinsei_ex1",
-      "japanese": "{姉|あね}は{大学院生|だいがくいんせい}です。",
+      "japanese": "⟦{姉|あね}→姉：00571_ane⟧⟦は→は：00079_ha⟧{大学院生|だいがくいんせい}です。",
       "english": "My older sister is a graduate student.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "20627_daigakuinsei_ex2",
-      "japanese": "{大学院生|だいがくいんせい}として{研究|けんきゅう}を{続|つづ}けている。",
+      "japanese": "{大学院生|だいがくいんせい}⟦として→として：06802_toshite⟧⟦{研究|けんきゅう}→研究：01396_kenkyuu⟧⟦を→を：00422_wo⟧⟦{続|つづ}け→続く：00903_tsuzuku⟧て⟦いる→いる：00495_iru⟧。",
       "english": "I'm continuing my research as a graduate student.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "20627_daigakuinsei_ex3",
-      "japanese": "この{研究室|けんきゅうしつ}には{大学院生|だいがくいんせい}が{十人|じゅうにん}ほど{在籍|ざいせき}している。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{研究室|けんきゅうしつ}→研究室：01397_kenkyuushitsu⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{大学院生|だいがくいんせい}⟦が→が：00051_ga⟧⟦{十人|じゅうにん}→十人：28475_juunin⟧ほど⟦{在籍|ざいせき}→在籍：21436_zaiseki⟧⟦している→する：00392_suru⟧。",
       "english": "About ten graduate students are enrolled in this laboratory.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,26 @@
       ]
     }
   ],
-  "notes": "Composed of {大学院|だいがくいん} (graduate school) + {生|せい} (student). Often abbreviated to {院生|いんせい} in casual speech.\n\nCOMMON COLLOCATIONS:\n- {大学院生|だいがくいんせい}として{研究|けんきゅう}する (to do research as a grad student)\n- {大学院生|だいがくいんせい}{向|む}けの{奨学金|しょうがくきん} (scholarships for grad students)\n- {大学院生|だいがくいんせい}の{生活|せいかつ} (grad student life)\n\nSIMILAR WORDS:\n- {院生|いんせい} — grad student; common abbreviation, used in casual and campus contexts\n- {学部生|がくぶせい} — undergraduate student\n- {研究生|けんきゅうせい} — research student; a non-degree status at Japanese universities, often for international students preparing for entrance exams\n- {博士課程|はくしかてい} — doctoral program; specifies the level within graduate school\n\nUSAGE:\nIn the Japanese education system, {大学院|だいがくいん} covers both the {修士課程|しゅうしかてい} (master's program, typically 2 years) and the {博士課程|はくしかてい} (doctoral program, typically 3 years). {大学院生|だいがくいんせい} refers to students at either level.",
-  "cross_references": [],
+  "notes": "Composed of ⟦{大学院|だいがくいん}→大学院：04783_daigakuin⟧ (graduate school) + {生|せい} (student). Often abbreviated to {院生|いんせい} in casual speech.\n\nCOMMON COLLOCATIONS:\n- {大学院生|だいがくいんせい}⟦として→として：06802_toshite⟧⟦{研究|けんきゅう}→研究：01396_kenkyuu⟧⟦する→する：00392_suru⟧ (to do research as a grad student)\n- {大学院生|だいがくいんせい}{向|む}け⟦の→の：09472_no⟧⟦{奨学金|しょうがくきん}→奨学金：03230_shougakukin⟧ (scholarships for grad students)\n- {大学院生|だいがくいんせい}⟦の→の：09472_no⟧⟦{生活|せいかつ}→生活：01443_seikatsu⟧ (grad student life)\n\nSIMILAR WORDS:\n- {院生|いんせい} — grad student; common abbreviation, used in casual and campus contexts\n- {学部生|がくぶせい} — undergraduate student\n- ⟦{研究生|けんきゅうせい}→研究生：22158_kenkyuusei⟧ — research student; a non-degree status at Japanese universities, often for international students preparing for entrance exams\n- {博士課程|はくしかてい} — doctoral program; specifies the level within graduate school\n\nUSAGE:\nIn the Japanese education system, ⟦{大学院|だいがくいん}→大学院：04783_daigakuin⟧ covers both the {修士課程|しゅうしかてい} (master's program, typically 2 years) and the {博士課程|はくしかてい} (doctoral program, typically 3 years). {大学院生|だいがくいんせい} refers to students at either level.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22158_kenkyuusei",
+      "reading": "けんきゅうせい",
+      "headword": "{研究生|けんきゅうせい}",
+      "label": "research student"
+    },
+    {
+      "type": "related",
+      "target_id": "01653_daigakusei",
+      "reading": "だいがくせい",
+      "headword": "{大学生|だいがくせい}",
+      "label": "university student"
+    }
+  ],
   "metadata": {
     "created": "2026-03-29T20:08:48Z",
-    "modified": "2026-07-28T09:34:52Z",
+    "modified": "2026-09-02T04:02:00Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

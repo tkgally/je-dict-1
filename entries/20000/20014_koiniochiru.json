@@ -15,40 +15,60 @@
   "examples": [
     {
       "id": "20014_koiniochiru_ex1",
-      "japanese": "{彼女|かのじょ}に{恋|こい}に{落|お}ちた。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦に→に：00314_ni⟧{恋|こい}に{落|お}ちた。",
       "english": "I fell in love with her.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20014_koiniochiru_ex2",
-      "japanese": "{一目|ひとめ}で{恋|こい}に{落|お}ちてしまった。",
+      "japanese": "⟦{一目|ひとめ}→一目：08728_hitome⟧⟦で→で：00502_de⟧{恋|こい}に{落|お}ちてしまった。",
       "english": "I fell in love at first sight.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20014_koiniochiru_ex3",
-      "japanese": "{二人|ふたり}は{大学|だいがく}で{出会|であ}い、すぐに{恋|こい}に{落|お}ちた。",
+      "japanese": "⟦{二人|ふたり}→二人：00622_futari⟧⟦は→は：00079_ha⟧⟦{大学|だいがく}→大学：00608_daigaku⟧⟦で→で：00502_de⟧⟦{出会|であ}い→出会う：02298_deau⟧、⟦すぐ→すぐ：00814_sugu⟧⟦に→に：00314_ni⟧{恋|こい}に{落|お}ちた。",
       "english": "The two met at university and quickly fell in love.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A common expression combining {恋|こい} (romantic love) + に (into) + {落|お}ちる (to fall). Like the English \"fall in love,\" it implies that love happens suddenly or irresistibly, not through deliberate choice.\n\nCOMMON PATTERNS:\n- {人|ひと}に{恋|こい}に{落|お}ちる: to fall in love with someone\n- {一目|ひとめ}で{恋|こい}に{落|お}ちる: to fall in love at first sight\n- {恋|こい}に{落|お}ちてしまう: to end up falling in love (with a nuance of it being beyond one's control)\n\nSIMILAR EXPRESSIONS:\n- {恋|こい}をする: to be in love, to have a crush — more neutral and everyday; doesn't carry the \"falling\" metaphor\n- {惚|ほ}れる: to fall for, to be smitten — more colloquial and direct\n- {好|す}きになる: to come to like — broader and milder; can apply to non-romantic contexts too\n\nUSAGE:\nCommon in romantic fiction, song lyrics, and everyday conversation. Slightly more dramatic or literary than {好|す}きになる, emphasizing the uncontrollable nature of romantic attraction.",
+  "notes": "A common expression combining ⟦{恋|こい}→恋：02208_koi⟧ (romantic love) + ⟦に→に：00314_ni⟧ (into) + ⟦{落|お}ちる→落ちる：01242_ochiru⟧ (to fall). Like the English \"fall in love,\" it implies that love happens suddenly or irresistibly, not through deliberate choice.\n\nCOMMON PATTERNS:\n- ⟦{人|ひと}→人：00476_hito⟧⟦に→に：00314_ni⟧{恋|こい}に{落|お}ちる: to fall in love with someone\n- ⟦{一目|ひとめ}→一目：08728_hitome⟧⟦で→で：00502_de⟧{恋|こい}に{落|お}ちる: to fall in love at first sight\n- {恋|こい}に{落|お}ちてしまう: to end up falling in love (with a nuance of it being beyond one's control)\n\nSIMILAR WORDS:\n- ⟦{恋|こい}→恋：02208_koi⟧⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧: to be in love, to have a crush — more neutral and everyday; doesn't carry the \"falling\" metaphor\n- ⟦{惚|ほ}れる→惚れる：12600_horeru⟧: to fall for, to be smitten — more colloquial and direct\n- ⟦{好|す}き→好き：02355_suki⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧: to come to like — broader and milder; can apply to non-romantic contexts too\n\nUSAGE:\nCommon in romantic fiction, song lyrics, and everyday conversation. Slightly more dramatic or literary than ⟦{好|す}き→好き：02355_suki⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧, emphasizing the uncontrollable nature of romantic attraction.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12600_horeru",
+      "reading": "ほれる",
+      "headword": "{惚|ほ}れる",
+      "label": "to fall for, to be smitten"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["expression"],
+      "pos": [
+        "expression"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["emotion", "relationship"]
+      "semantic": [
+        "emotion",
+        "relationship"
+      ]
     },
     "created": "2026-03-28T05:22:03Z",
-    "modified": "2026-03-28T05:22:03Z"
+    "modified": "2026-09-02T04:01:58Z"
   }
 }

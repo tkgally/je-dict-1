@@ -14,41 +14,54 @@
   "examples": [
     {
       "id": "10002_chishi_ex1",
-      "japanese": "{致死|ちし}{量|りょう}に{達|たっ}した。",
+      "japanese": "{致死|ちし}{量|りょう}⟦に→に：00314_ni⟧⟦{達|たっ}した→達する：02129_tassuru⟧。",
       "english": "It reached a lethal dose.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10002_chishi_ex2",
-      "japanese": "{過失|かしつ}{致死|ちし}で{起訴|きそ}された。",
+      "japanese": "{過失|かしつ}{致死|ちし}⟦で→で：00502_de⟧⟦{起訴|きそ}→起訴：10577_kiso⟧⟦された→する：00392_suru⟧。",
       "english": "He was indicted for involuntary manslaughter.",
       "notes": "Legal term",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10002_chishi_ex3",
-      "japanese": "この{毒|どく}の{致死|ちし}{率|りつ}は{非常|ひじょう}に{高|たか}い。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{毒|どく}→毒：10052_doku⟧⟦の→の：09472_no⟧{致死|ちし}{率|りつ}⟦は→は：00079_ha⟧⟦{非常|ひじょう}→非常：01598_hijou⟧⟦に→に：00314_ni⟧⟦{高|たか}い→高い：00500_takai⟧。",
       "english": "The fatality rate of this poison is extremely high.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{致死|ちし} literally means \"causing death\" and is typically used in formal, legal, or medical contexts.\n\nCOMMON COMPOUNDS:\n- {致死|ちし}{量|りょう}: lethal dose\n- {致死|ちし}{率|りつ}: fatality rate, mortality rate\n- {過失|かしつ}{致死|ちし}: involuntary manslaughter, negligent homicide\n- {傷害|しょうがい}{致死|ちし}: assault resulting in death\n- {致死|ちし}{性|せい}: lethality\n\nRELATED LEGAL TERMS:\n- {業務上|ぎょうむじょう}{過失|かしつ}{致死|ちし}: professional negligence resulting in death\n- {危険|きけん}{運転|うんてん}{致死|ちし}: dangerous driving resulting in death",
+  "notes": "{致死|ちし} literally means \"causing death\" and is typically used in formal, legal, or medical contexts.\n\nCOMPOUNDS:\n- {致死|ちし}{量|りょう}: lethal dose\n- {致死|ちし}{率|りつ}: fatality rate, mortality rate\n- {過失|かしつ}{致死|ちし}: involuntary manslaughter, negligent homicide\n- ⟦{傷害|しょうがい}→傷害：22910_shougai⟧{致死|ちし}: assault resulting in death\n- {致死|ちし}{性|せい}: lethality\n\nRELATED LEGAL TERMS:\n- ⟦{業務上|ぎょうむじょう}→業務上：27412_gyoumujou⟧{過失|かしつ}{致死|ちし}: professional negligence resulting in death\n- ⟦{危険|きけん}→危険：01141_kiken⟧⟦{運転|うんてん}→運転：01335_unten⟧{致死|ちし}: dangerous driving resulting in death",
   "cross_references": [],
   "metadata": {
     "created": "2026-02-04T13:51:51Z",
-    "modified": "2026-02-04T13:51:51Z",
+    "modified": "2026-09-02T04:01:19Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["legal", "medical"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "legal",
+        "medical"
+      ]
     }
   }
 }

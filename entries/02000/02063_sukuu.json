@@ -168,11 +168,47 @@
       ]
     }
   ],
-  "notes": "{救|すく}う means to save or rescue someone from danger, harm, or difficulty.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- Pattern: [person/thing]⟦を→を：00422_wo⟧{救|すく}う\n\nCOMMON PATTERNS:\n- ⟦{命|いのち}→命：02371_inochi⟧⟦を→を：00422_wo⟧{救|すく}う: to save a life\n- ⟦{溺|おぼ}れている→溺れる：02026_oboreru⟧⟦{人|ひと}→人：00476_hito⟧⟦を→を：00422_wo⟧{救|すく}う: to rescue a drowning person\n- ⟦{世界|せかい}→世界：01447_sekai⟧⟦を→を：00422_wo⟧{救|すく}う: to save the world\n- ⟦{危機|きき}→危機：11798_kiki⟧⟦から→から：00504_kara⟧{救|すく}う: to save from a crisis\n\nPASSIVE FORM:\n{救|すく}われる is commonly used: ⟦{彼|かれ}→彼：01292_kare⟧⟦に→に：00314_ni⟧{救|すく}われた (I was saved by him).\n\nSIMILAR WORDS:\n- {救|すく}う: to save/rescue (from danger)\n- ⟦{助|たす}ける→助ける：00895_tasukeru⟧: to help (broader, more general assistance)\n- ⟦{救助|きゅうじょ}→救助：02588_kyuujo⟧する: to rescue (often formal/emergency contexts)\n\nRELATED NOUNS:\n- ⟦{救|すく}い→救い：12884_sukui⟧: salvation, relief\n- ⟦{救世主|きゅうせいしゅ}→救世主：27799_kyuuseishu⟧: savior",
-  "cross_references": [],
+  "notes": "{救|すく}う means to save or rescue someone from danger, harm, or difficulty.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- Pattern: [person/thing]⟦を→を：00422_wo⟧{救|すく}う\n\nCOMMON PATTERNS:\n- ⟦{命|いのち}→命：02371_inochi⟧⟦を→を：00422_wo⟧{救|すく}う: to save a life\n- ⟦{溺|おぼ}れている→溺れる：02026_oboreru⟧⟦{人|ひと}→人：00476_hito⟧⟦を→を：00422_wo⟧{救|すく}う: to rescue a drowning person\n- ⟦{世界|せかい}→世界：01447_sekai⟧⟦を→を：00422_wo⟧{救|すく}う: to save the world\n- ⟦{危機|きき}→危機：11798_kiki⟧⟦から→から：00504_kara⟧{救|すく}う: to save from a crisis\n\nPASSIVE FORM:\n{救|すく}われる is commonly used: ⟦{彼|かれ}→彼：01292_kare⟧⟦に→に：00314_ni⟧{救|すく}われた (I was saved by him).\n\nSIMILAR WORDS:\n- {救|すく}う: to save/rescue (from danger)\n- ⟦{助|たす}ける→助ける：00895_tasukeru⟧: to help (broader, more general assistance)\n- ⟦{救助|きゅうじょ}→救助：02588_kyuujo⟧⟦する→する：00392_suru⟧: to rescue (often formal/emergency contexts)\n\nRELATED WORDS:\n- ⟦{救|すく}い→救い：12884_sukui⟧: salvation, relief\n- ⟦{救世主|きゅうせいしゅ}→救世主：27799_kyuuseishu⟧: savior",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00895_tasukeru",
+      "reading": "たすける",
+      "headword": "{助|たす}ける",
+      "label": "to help"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02588_kyuujo",
+      "reading": "きゅうじょ",
+      "headword": "{救助|きゅうじょ}",
+      "label": "to rescue"
+    },
+    {
+      "type": "related",
+      "target_id": "12884_sukui",
+      "reading": "すくい",
+      "headword": "{救|すく}い",
+      "label": "salvation, relief"
+    },
+    {
+      "type": "related",
+      "target_id": "27799_kyuuseishu",
+      "reading": "きゅうせいしゅ",
+      "headword": "{救世主|きゅうせいしゅ}",
+      "label": "savior"
+    },
+    {
+      "type": "homophone",
+      "target_id": "09994_sukuu",
+      "reading": "すくう",
+      "headword": "すくう",
+      "label": "to scoop, to ladle"
+    }
+  ],
   "metadata": {
     "created": "2026-01-09T12:57:36Z",
-    "modified": "2026-08-11T00:23:12Z",
+    "modified": "2026-09-02T04:01:00Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

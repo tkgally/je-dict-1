@@ -14,30 +14,36 @@
   "examples": [
     {
       "id": "10019_taishougai_ex1",
-      "japanese": "18{歳|さい}{未満|みまん}は{対象外|たいしょうがい}です。",
+      "japanese": "18⟦{歳|さい}→歳：10017_sai⟧⟦{未満|みまん}→未満：00280_miman⟧⟦は→は：00079_ha⟧{対象外|たいしょうがい}です。",
       "english": "Those under 18 are not eligible.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10019_taishougai_ex2",
-      "japanese": "この{割引|わりびき}は{一部|いちぶ}{商品|しょうひん}は{対象外|たいしょうがい}となります。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{割引|わりびき}→割引：01526_waribiki⟧⟦は→は：00079_ha⟧⟦{一部|いちぶ}→一部：06783_ichibu⟧⟦{商品|しょうひん}→商品：01436_shouhin⟧⟦は→は：00079_ha⟧{対象外|たいしょうがい}となります。",
       "english": "Some products are excluded from this discount.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10019_taishougai_ex3",
-      "japanese": "{海外|かいがい}からの{注文|ちゅうもん}は{配送|はいそう}{対象外|たいしょうがい}です。",
+      "japanese": "⟦{海外|かいがい}→海外：00134_kaigai⟧⟦から→から：00504_kara⟧⟦の→の：09472_no⟧⟦{注文|ちゅうもん}→注文：03485_chuumon⟧⟦は→は：00079_ha⟧⟦{配送|はいそう}→配送：05464_haisou⟧{対象外|たいしょうがい}です。",
       "english": "Orders from overseas are not eligible for delivery.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{対象外|たいしょうがい} indicates that something does not fall within the specified scope or criteria.\n\nWORD FORMATION:\n{対象|たいしょう} (target, subject) + {外|がい} (outside) = outside the target\n\nOPPOSITE:\n- {対象|たいしょう}: target, subject, eligible\n- {対象内|たいしょうない}: within scope (less common)\n\nCOMMON PATTERNS:\n- 〜は{対象外|たいしょうがい}です: ~ is not applicable\n- {対象外|たいしょうがい}となる: to be excluded\n- {対象外|たいしょうがい}{商品|しょうひん}: excluded products\n\nUSAGE:\nCommonly seen in business, legal documents, and promotional materials to clarify exclusions.",
+  "notes": "{対象外|たいしょうがい} indicates that something does not fall within the specified scope or criteria.\n\nFORMS:\n⟦{対象|たいしょう}→対象：03393_taishou⟧ (target, subject) + ⟦{外|がい}→外〜：03948_gai⟧ (outside) = outside the target\n\nSIMILAR WORDS:\n- ⟦{対象|たいしょう}→対象：03393_taishou⟧: target, subject, eligible\n- {対象内|たいしょうない}: within scope (less common)\n\nCOMMON PATTERNS:\n- 〜⟦は→は：00079_ha⟧{対象外|たいしょうがい}です: ~ is not applicable\n- {対象外|たいしょうがい}⟦と→と：00512_to⟧⟦なる→なる：01970_naru⟧: to be excluded\n- {対象外|たいしょうがい}⟦{商品|しょうひん}→商品：01436_shouhin⟧: excluded products\n\nUSAGE:\nCommonly seen in business, legal documents, and promotional materials to clarify exclusions.",
   "prominent_see_also": [
     {
       "target_id": "03393_taishou",
@@ -46,16 +52,35 @@
       "note": "base word"
     }
   ],
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23637_fugaitou",
+      "reading": "ふがいとう",
+      "headword": "{不該当|ふがいとう}",
+      "label": "not applicable"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29788_higaitou",
+      "reading": "ひがいとう",
+      "headword": "非該当",
+      "label": "not applicable"
+    }
+  ],
   "metadata": {
     "created": "2026-02-04T13:51:51Z",
-    "modified": "2026-04-23T09:22:17Z",
+    "modified": "2026-09-02T04:01:19Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29568_kankeri_ex1",
-      "japanese": "{公園|こうえん}で{缶|かん}{蹴|け}りをした。",
+      "japanese": "⟦{公園|こうえん}→公園：00581_kouen⟧⟦で→で：00502_de⟧{缶|かん}{蹴|け}り⟦を→を：00422_wo⟧⟦した→する：00392_suru⟧。",
       "english": "We played kick the can in the park.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29568_kankeri_ex2",
-      "japanese": "{子供|こども}のころ、よく{友|とも}だちと{缶|かん}{蹴|け}りをして{遊|あそ}んだ。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧⟦の→の：09472_no⟧⟦ころ→〜ころ：03091_koro⟧、⟦よく→よく：00601_yoku⟧{友|とも}だち⟦と→と：00512_to⟧{缶|かん}{蹴|け}り⟦を→を：00422_wo⟧⟦して→する：00392_suru⟧⟦{遊|あそ}んだ→遊ぶ：00550_asobu⟧。",
       "english": "When I was a kid, I often played kick the can with my friends.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29568_kankeri_ex3",
-      "japanese": "{鬼|おに}が{気|き}づかないうちに{缶|かん}を{蹴|け}れば、{捕|つか}まった{みんな}を{助|たす}けられる。",
+      "japanese": "⟦{鬼|おに}→鬼：02184_oni⟧⟦が→が：00051_ga⟧{気|き}づかないうち⟦に→に：00314_ni⟧⟦{缶|かん}→缶：01076_kan⟧⟦を→を：00422_wo⟧⟦{蹴|け}れば→蹴る：02054_keru⟧、⟦{捕|つか}まった→捕まる：01959_tsukamaru⟧⟦みんな→みんな：02972_minna⟧⟦を→を：00422_wo⟧⟦{助|たす}けられる→助ける：00895_tasukeru⟧。",
       "english": "If you kick the can before the \"it\" notices, you can free everyone who's been caught.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "A traditional outdoor children's game, a variant of hide-and-seek in which an empty can serves as the home base. Kicking the can resets the round and rescues captured players.\n\nCOMMON COLLOCATIONS:\n- {缶|かん}{蹴|け}りをする: to play kick the can\n- {缶|かん}{蹴|け}りで{遊|あそ}ぶ: to play (around) at kick the can\n\nSIMILAR WORDS:\n- {鬼|おに}ごっこ: tag — the basic chasing game; {缶|かん}{蹴|け}り adds a can and a hiding element\n- かくれんぼ: hide-and-seek — {缶|かん}{蹴|け}り combines this with tag",
+  "notes": "A traditional outdoor children's game, a variant of hide-and-seek in which an empty can serves as the home base. Kicking the can resets the round and rescues captured players.\n\nCOMMON COLLOCATIONS:\n- {缶|かん}{蹴|け}り⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧: to play kick the can\n- {缶|かん}{蹴|け}り⟦で→で：00502_de⟧⟦{遊|あそ}ぶ→遊ぶ：00550_asobu⟧: to play (around) at kick the can\n\nSIMILAR WORDS:\n- ⟦{鬼|おに}ごっこ→鬼ごっこ：06321_onigokko⟧: tag — the basic chasing game; {缶|かん}{蹴|け}り adds a can and a hiding element\n- ⟦かくれんぼ→かくれんぼ：06322_kakurenbo⟧: hide-and-seek — {缶|かん}{蹴|け}り combines this with tag",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06321_onigokko",
+      "reading": "おにごっこ",
+      "headword": "{鬼|おに}ごっこ",
+      "label": "tag"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06322_kakurenbo",
+      "reading": "かくれんぼ",
+      "headword": "かくれんぼ",
+      "label": "hide-and-seek"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +69,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "leisure"
       ],
       "domain": []
     },
     "created": "2026-06-29T03:18:08Z",
-    "modified": "2026-06-29T03:18:08Z"
+    "modified": "2026-09-02T04:02:37Z"
   }
 }

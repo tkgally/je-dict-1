@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "15212_teiansho_ex1",
-      "japanese": "{提案書|ていあんしょ}を{作成|さくせい}する。",
+      "japanese": "{提案書|ていあんしょ}⟦を→を：00422_wo⟧⟦{作成|さくせい}する→作成する：25378_sakuseisuru⟧。",
       "english": "To draft a proposal document.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "15212_teiansho_ex2",
-      "japanese": "{来週|らいしゅう}までに{提案書|ていあんしょ}を{提出|ていしゅつ}してください。",
+      "japanese": "⟦{来週|らいしゅう}→来週：00746_raishuu⟧⟦まで→まで：00490_made⟧⟦に→に：00314_ni⟧{提案書|ていあんしょ}⟦を→を：00422_wo⟧⟦{提出|ていしゅつ}して→提出する：19644_teishutsusuru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please submit the proposal by next week.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "15212_teiansho_ex3",
-      "japanese": "クライアントに{提出|ていしゅつ}する{提案書|ていあんしょ}の{内容|ないよう}をチームで{確認|かくにん}した。",
+      "japanese": "⟦クライアント→クライアント：04876_kuraianto⟧⟦に→に：00314_ni⟧⟦{提出|ていしゅつ}する→提出する：19644_teishutsusuru⟧{提案書|ていあんしょ}⟦の→の：09472_no⟧⟦{内容|ないよう}→内容：01482_naiyou⟧⟦を→を：00422_wo⟧⟦チーム→チーム：03858_chiimu⟧⟦で→で：00502_de⟧⟦{確認|かくにん}した→確認する：25332_kakuninsuru⟧。",
       "english": "The team reviewed the contents of the proposal to be submitted to the client.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{提案書|ていあんしょ} is a standard business term for a formal written proposal. It differs from {企画書|きかくしょ} (project plan), which is more about detailed planning, while {提案書|ていあんしょ} focuses on suggesting an idea or approach.\n\nCOMMON COLLOCATIONS:\n- {提案書|ていあんしょ}を{作成|さくせい}する (to draft a proposal)\n- {提案書|ていあんしょ}を{提出|ていしゅつ}する (to submit a proposal)\n- {提案書|ていあんしょ}を{検討|けんとう}する (to review a proposal)\n- {提案書|ていあんしょ}が{通|とお}る (for a proposal to be accepted)",
+  "notes": "USAGE:\n{提案書|ていあんしょ} is a standard business term for a formal written proposal. It differs from ⟦{企画書|きかくしょ}→企画書：20593_kikakusho⟧ (project plan), which is more about detailed planning, while {提案書|ていあんしょ} focuses on suggesting an idea or approach.\n\nCOMMON COLLOCATIONS:\n- {提案書|ていあんしょ}⟦を→を：00422_wo⟧⟦{作成|さくせい}する→作成する：25378_sakuseisuru⟧ (to draft a proposal)\n- {提案書|ていあんしょ}⟦を→を：00422_wo⟧⟦{提出|ていしゅつ}する→提出する：19644_teishutsusuru⟧ (to submit a proposal)\n- {提案書|ていあんしょ}⟦を→を：00422_wo⟧⟦{検討|けんとう}する→検討する：17455_kentousuru⟧ (to review a proposal)\n- {提案書|ていあんしょ}⟦が→が：00051_ga⟧⟦{通|とお}る→通る：01243_tooru⟧ (for a proposal to be accepted)",
   "cross_references": [
     {
       "type": "related",
@@ -52,11 +52,25 @@
       "reading": "ていあん",
       "headword": "{提案|ていあん}",
       "label": "proposal"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20593_kikakusho",
+      "reading": "きかくしょ",
+      "headword": "{企画書|きかくしょ}",
+      "label": "proposal"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25865_keikakusho",
+      "reading": "けいかくしょ",
+      "headword": "{計画書|けいかくしょ}",
+      "label": "written plan"
     }
   ],
   "metadata": {
     "created": "2026-03-05T09:37:21Z",
-    "modified": "2026-07-15T18:53:39Z",
+    "modified": "2026-09-02T04:01:40Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

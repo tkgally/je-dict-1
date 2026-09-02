@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "07287_oosuji_ex1",
-      "japanese": "{計画|けいかく}の{大筋|おおすじ}を{説明|せつめい}した。",
+      "japanese": "⟦{計画|けいかく}→計画：01172_keikaku⟧⟦の→の：09472_no⟧{大筋|おおすじ}⟦を→を：00422_wo⟧⟦{説明|せつめい}した→説明する：05639_setsumeisuru⟧。",
       "english": "I explained the outline of the plan.",
       "has_audio": false,
       "sense_numbers": [
@@ -23,7 +23,7 @@
     },
     {
       "id": "07287_oosuji_ex2",
-      "japanese": "{大筋|おおすじ}で{合意|ごうい}した。",
+      "japanese": "{大筋|おおすじ}⟦で→で：00502_de⟧⟦{合意|ごうい}→合意：05093_goui⟧⟦した→する：00392_suru⟧。",
       "english": "We agreed in principle.",
       "has_audio": false,
       "sense_numbers": [
@@ -32,7 +32,7 @@
     },
     {
       "id": "07287_oosuji_ex3",
-      "japanese": "{映画|えいが}の{大筋|おおすじ}だけ{教|おし}えて。",
+      "japanese": "⟦{映画|えいが}→映画：02273_eiga⟧⟦の→の：09472_no⟧{大筋|おおすじ}⟦だけ→〜だけ：03093_dake⟧⟦{教|おし}えて→教える：00526_oshieru⟧。",
       "english": "Just tell me the gist of the movie.",
       "has_audio": false,
       "sense_numbers": [
@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "notes": "WORD FORMATION:\n{大|おお} (big, main) + {筋|すじ} (line, thread) → main thread = outline\n\nCOMMON EXPRESSIONS:\n・{大筋|おおすじ}で - in general terms, in principle\n・{大筋|おおすじ}を{説明|せつめい}する - to explain the outline\n・{大筋|おおすじ}で{合意|ごうい}する - to agree in principle\n・{物語|ものがたり}の{大筋|おおすじ} - the plot outline\n\nSIMILAR WORDS:\n・{概略|がいりゃく} - summary, outline\n・{概要|がいよう} - overview\n・{要旨|ようし} - gist, main point\n・あらすじ - plot summary (stories)\n\nNUANCE:\n{大筋|おおすじ} emphasizes the main flow or structure, leaving aside minor details.",
+  "notes": "FORMS:\n{大|おお} (big, main) + ⟦{筋|すじ}→筋：03366_suji⟧ (line, thread) → main thread = outline\n\nCOMMON EXPRESSIONS:\n- {大筋|おおすじ}⟦で→で：00502_de⟧ - in general terms, in principle\n- {大筋|おおすじ}⟦を→を：00422_wo⟧⟦{説明|せつめい}する→説明する：05639_setsumeisuru⟧ - to explain the outline\n- {大筋|おおすじ}⟦で→で：00502_de⟧⟦{合意|ごうい}→合意：05093_goui⟧⟦する→する：00392_suru⟧ - to agree in principle\n- ⟦{物語|ものがたり}→物語：03634_monogatari⟧⟦の→の：09472_no⟧{大筋|おおすじ} - the plot outline\n\nSIMILAR WORDS:\n- ⟦{概略|がいりゃく}→概略：07768_gairyaku⟧ - summary, outline\n- ⟦{概要|がいよう}→概要：06747_gaiyou⟧ - overview\n- ⟦{要旨|ようし}→要旨：04087_youshi⟧ - gist, main point\n- あらすじ - plot summary (stories)\n\nUSAGE:\n{大筋|おおすじ} emphasizes the main flow or structure, leaving aside minor details.",
   "cross_references": [
     {
       "type": "synonym",
@@ -55,11 +55,39 @@
       "reading": "がいよう",
       "headword": "{概要|がいよう}",
       "label": "overview, summary"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04087_youshi",
+      "reading": "ようし",
+      "headword": "{要旨|ようし}",
+      "label": "gist, main point"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04097_arasuji",
+      "reading": "あらすじ",
+      "headword": "{粗筋|あらすじ}",
+      "label": "plot summary"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25417_oowaku",
+      "reading": "おおわく",
+      "headword": "{大枠|おおわく}",
+      "label": "broad outline"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29413_kosshi",
+      "reading": "こっし",
+      "headword": "{骨子|こっし}",
+      "label": "gist"
     }
   ],
   "metadata": {
     "created": "2026-01-19T03:29:33Z",
-    "modified": "2026-08-10T18:32:12Z",
+    "modified": "2026-09-02T04:01:10Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

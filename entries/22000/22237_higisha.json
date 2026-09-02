@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22237_higisha_ex1",
-      "japanese": "{被疑者|ひぎしゃ}が{逮捕|たいほ}された。",
+      "japanese": "{被疑者|ひぎしゃ}⟦が→が：00051_ga⟧⟦{逮捕|たいほ}→逮捕：03397_taiho⟧⟦された→する：00392_suru⟧。",
       "english": "The suspect was arrested.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22237_higisha_ex2",
-      "japanese": "{被疑者|ひぎしゃ}には{黙秘権|もくひけん}がある。",
+      "japanese": "{被疑者|ひぎしゃ}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{黙秘権|もくひけん}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "The suspect has the right to remain silent.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22237_higisha_ex3",
-      "japanese": "{警察|けいさつ}は{被疑者|ひぎしゃ}を{取|と}り{調|しら}べている。",
+      "japanese": "⟦{警察|けいさつ}→警察：01393_keisatsu⟧⟦は→は：00079_ha⟧{被疑者|ひぎしゃ}⟦を→を：00422_wo⟧{取|と}り{調|しら}べて⟦いる→いる：00495_iru⟧。",
       "english": "The police are interrogating the suspect.",
       "sense_numbers": [
         1
@@ -45,7 +45,7 @@
     },
     {
       "id": "22237_higisha_ex4",
-      "japanese": "{被疑者|ひぎしゃ}は{容疑|ようぎ}を{否認|ひにん}しており、{捜査|そうさ}は{難航|なんこう}している。",
+      "japanese": "{被疑者|ひぎしゃ}⟦は→は：00079_ha⟧⟦{容疑|ようぎ}→容疑：12317_yougi⟧⟦を→を：00422_wo⟧⟦{否認|ひにん}して→否認する：22511_hininsuru⟧おり、⟦{捜査|そうさ}→捜査：03688_sousa⟧⟦は→は：00079_ha⟧⟦{難航|なんこう}している→難航する：19360_nankousuru⟧。",
       "english": "The suspect is denying the charges, and the investigation is proving difficult.",
       "sense_numbers": [
         1
@@ -54,8 +54,31 @@
       "notes": null
     }
   ],
-  "notes": "A formal legal term used in criminal law. In Japanese law, {被疑者|ひぎしゃ} refers to someone suspected of a crime before indictment. After indictment, the person becomes a {被告人|ひこくにん} (defendant). News media in Japan traditionally avoid using {被疑者|ひぎしゃ} and instead use {容疑者|ようぎしゃ}.\n\nCOMMON COLLOCATIONS:\n- {被疑者|ひぎしゃ}を{逮捕|たいほ}する: to arrest a suspect\n- {被疑者|ひぎしゃ}を{取|と}り{調|しら}べる: to interrogate a suspect\n- {被疑者|ひぎしゃ}の{権利|けんり}: the suspect's rights\n- {被疑者|ひぎしゃ}{不詳|ふしょう}: suspect unknown\n\nSIMILAR WORDS:\n- {容疑者|ようぎしゃ}: suspect — the term used in news media, functionally equivalent but not a strict legal term\n- {被告人|ひこくにん}: defendant — a person who has been formally indicted, the next stage after {被疑者|ひぎしゃ}\n- {犯人|はんにん}: criminal; perpetrator — refers to the actual person who committed the crime",
+  "notes": "A formal legal term used in criminal law. In Japanese law, {被疑者|ひぎしゃ} refers to someone suspected of a crime before indictment. After indictment, the person becomes a ⟦{被告人|ひこくにん}→被告人：20130_hikokunin⟧ (defendant). News media in Japan traditionally avoid using {被疑者|ひぎしゃ} and instead use ⟦{容疑者|ようぎしゃ}→容疑者：15039_yougisha⟧.\n\nCOMMON COLLOCATIONS:\n- {被疑者|ひぎしゃ}⟦を→を：00422_wo⟧⟦{逮捕|たいほ}する→逮捕する：26830_taihosuru⟧: to arrest a suspect\n- {被疑者|ひぎしゃ}⟦を→を：00422_wo⟧{取|と}り{調|しら}べる: to interrogate a suspect\n- {被疑者|ひぎしゃ}⟦の→の：09472_no⟧⟦{権利|けんり}→権利：02711_kenri⟧: the suspect's rights\n- {被疑者|ひぎしゃ}⟦{不詳|ふしょう}→不詳：11572_fushou⟧: suspect unknown\n\nSIMILAR WORDS:\n- ⟦{容疑者|ようぎしゃ}→容疑者：15039_yougisha⟧: suspect — the term used in news media, functionally equivalent but not a strict legal term\n- ⟦{被告人|ひこくにん}→被告人：20130_hikokunin⟧: defendant — a person who has been formally indicted, the next stage after {被疑者|ひぎしゃ}\n- ⟦{犯人|はんにん}→犯人：03572_hannin⟧: criminal; perpetrator — refers to the actual person who committed the crime",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15039_yougisha",
+      "reading": "ようぎしゃ",
+      "headword": "{容疑者|ようぎしゃ}",
+      "label": "suspect"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20130_hikokunin",
+      "reading": "ひこくにん",
+      "headword": "{被告人|ひこくにん}",
+      "label": "defendant"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03572_hannin",
+      "reading": "はんにん",
+      "headword": "{犯人|はんにん}",
+      "label": "criminal"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -69,6 +92,6 @@
       ]
     },
     "created": "2026-04-05T15:13:24Z",
-    "modified": "2026-04-10T08:28:27Z"
+    "modified": "2026-09-02T04:02:07Z"
   }
 }

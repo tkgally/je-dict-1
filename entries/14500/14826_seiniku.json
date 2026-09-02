@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "14826_seiniku_ex1",
-      "japanese": "{精肉|せいにく}コーナーで{豚肉|ぶたにく}を{買|か}った。",
+      "japanese": "{精肉|せいにく}⟦コーナー→コーナー：10865_koonaa⟧⟦で→で：00502_de⟧⟦{豚肉|ぶたにく}→豚肉：02956_butaniku⟧⟦を→を：00422_wo⟧⟦{買|か}った→買う：00489_kau⟧。",
       "english": "I bought pork at the meat counter.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "14826_seiniku_ex2",
-      "japanese": "あの{精肉|せいにく}{店|てん}は{質|しつ}のいい{牛肉|ぎゅうにく}で{有名|ゆうめい}だ。",
+      "japanese": "⟦あの→あの：00915_ano⟧{精肉|せいにく}{店|てん}⟦は→は：00079_ha⟧⟦{質|しつ}→質：01425_shitsu⟧⟦の→の：09472_no⟧⟦いい→いい：00118_ii⟧⟦{牛肉|ぎゅうにく}→牛肉：02874_gyuuniku⟧⟦で→で：00502_de⟧⟦{有名|ゆうめい}→有名：01106_yuumei⟧だ。",
       "english": "That butcher shop is famous for high-quality beef.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "14826_seiniku_ex3",
-      "japanese": "スーパーの{精肉|せいにく}{売|う}り{場|ば}では、{国産|こくさん}と{輸入|ゆにゅう}の{肉|にく}が{分|わ}けて{並|なら}べられている。",
+      "japanese": "⟦スーパー→スーパー：01061_suupaa⟧⟦の→の：09472_no⟧{精肉|せいにく}⟦{売|う}り{場|ば}→売り場：01331_uriba⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧、⟦{国産|こくさん}→国産：12017_kokusan⟧⟦と→と：00512_to⟧⟦{輸入|ゆにゅう}→輸入：01742_yunyuu⟧⟦の→の：09472_no⟧⟦{肉|にく}→肉：02240_niku⟧⟦が→が：00051_ga⟧⟦{分|わ}けて→分ける：02333_wakeru⟧⟦{並|なら}べられている→並べる：01091_naraberu⟧。",
       "english": "At the supermarket meat section, domestic and imported meats are displayed separately.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "A compound of {精|せい} (refined, processed) and {肉|にく} (meat). Refers to meat that has been butchered and prepared for cooking.\n\nCOMMON COLLOCATIONS:\n- {精肉|せいにく}{店|てん} (butcher shop)\n- {精肉|せいにく}コーナー (meat section in a supermarket)\n- {精肉|せいにく}{売|う}り{場|ば} (meat sales area)\n\nIn Japanese supermarkets, the main fresh food departments are typically labeled {青果|せいか} (produce), {精肉|せいにく} (meat), {鮮魚|せんぎょ} (fresh fish), and {惣菜|そうざい} (prepared foods/deli).",
+  "notes": "A compound of {精|せい} (refined, processed) and ⟦{肉|にく}→肉：02240_niku⟧ (meat). Refers to meat that has been butchered and prepared for cooking.\n\nCOMMON COLLOCATIONS:\n- {精肉|せいにく}{店|てん} (butcher shop)\n- {精肉|せいにく}⟦コーナー→コーナー：10865_koonaa⟧ (meat section in a supermarket)\n- {精肉|せいにく}⟦{売|う}り{場|ば}→売り場：01331_uriba⟧ (meat sales area)\n\nIn Japanese supermarkets, the main fresh food departments are typically labeled ⟦{青果|せいか}→青果：14825_seika⟧ (produce), {精肉|せいにく} (meat), ⟦{鮮魚|せんぎょ}→鮮魚：16483_sengyo⟧ (fresh fish), and ⟦{惣菜|そうざい}→惣菜：05827_souzai⟧ (prepared foods/deli).",
   "cross_references": [
     {
       "type": "related",
@@ -52,11 +52,18 @@
       "headword": "{青果|せいか}",
       "label": "produce",
       "target_id": "14825_seika"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24201_shokuniku",
+      "reading": "しょくにく",
+      "headword": "{食肉|しょくにく}",
+      "label": "meat (for eating)"
     }
   ],
   "metadata": {
     "created": "2026-03-04T04:07:19Z",
-    "modified": "2026-03-29T10:42:23Z",
+    "modified": "2026-09-02T04:01:38Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

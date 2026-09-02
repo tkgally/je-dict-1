@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25788_inshokuhin_ex1",
-      "japanese": "{飲食品|いんしょくひん}の{持|も}ち{込|こ}みは{禁止|きんし}です。",
+      "japanese": "{飲食品|いんしょくひん}⟦の→の：09472_no⟧⟦{持|も}ち{込|こ}み→持ち込み：08293_mochikomi⟧⟦は→は：00079_ha⟧⟦{禁止|きんし}→禁止：02643_kinshi⟧です。",
       "english": "Bringing in food and drink is prohibited.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25788_inshokuhin_ex2",
-      "japanese": "この{店|みせ}は{飲食品|いんしょくひん}を{中心|ちゅうしん}に{扱|あつか}っている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{店|みせ}→店：00497_mise⟧⟦は→は：00079_ha⟧{飲食品|いんしょくひん}⟦を→を：00422_wo⟧⟦{中心|ちゅうしん}→中心：01467_chuushin⟧⟦に→に：00314_ni⟧⟦{扱|あつか}っている→扱う：01862_atsukau⟧。",
       "english": "This store mainly deals in food and beverage products.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25788_inshokuhin_ex3",
-      "japanese": "{飲食品|いんしょくひん}の{価格|かかく}が{全体的|ぜんたいてき}に{上昇|じょうしょう}している。",
+      "japanese": "{飲食品|いんしょくひん}⟦の→の：09472_no⟧⟦{価格|かかく}→価格：00147_kakaku⟧⟦が→が：00051_ga⟧⟦{全体的|ぜんたいてき}→全体的：11663_zentaiteki⟧⟦に→に：00314_ni⟧⟦{上昇|じょうしょう}している→上昇する：21681_joushousuru⟧。",
       "english": "Prices of food and drink products are rising overall.",
       "sense_numbers": [
         1
@@ -44,8 +44,23 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {飲食|いんしょく} (eating and drinking) and {品|ひん} (goods; products). Commonly seen on signs, in regulations, and in business contexts. The related term {飲食|いんしょく} refers to the act of eating and drinking, while {飲食品|いんしょくひん} specifically refers to the products themselves.\n\nCOMMON COLLOCATIONS:\n- {飲食品|いんしょくひん}の{持|も}ち{込|こ}み: bringing in food and drink\n- {飲食品|いんしょくひん}の{販売|はんばい}: sale of food and beverages\n- {飲食品|いんしょくひん}{売|う}り{場|ば}: food and beverage section\n\nRELATED TERMS:\n- {飲食|いんしょく}: eating and drinking — the activity rather than the products\n- {飲食店|いんしょくてん}: restaurant; eatery — an establishment serving food and drink\n- {食品|しょくひん}: food products — excludes beverages\n- {飲料|いんりょう}: beverages; drinks — covers only the drink side",
-  "cross_references": [],
+  "notes": "A compound of ⟦{飲食|いんしょく}→飲食：03010_inshoku⟧ (eating and drinking) and ⟦{品|ひん}→品：03712_hin⟧ (goods; products). Commonly seen on signs, in regulations, and in business contexts. The related term ⟦{飲食|いんしょく}→飲食：03010_inshoku⟧ refers to the act of eating and drinking, while {飲食品|いんしょくひん} specifically refers to the products themselves.\n\nCOMMON COLLOCATIONS:\n- {飲食品|いんしょくひん}⟦の→の：09472_no⟧⟦{持|も}ち{込|こ}み→持ち込み：08293_mochikomi⟧: bringing in food and drink\n- {飲食品|いんしょくひん}⟦の→の：09472_no⟧⟦{販売|はんばい}→販売：03573_hanbai⟧: sale of food and beverages\n- {飲食品|いんしょくひん}⟦{売|う}り{場|ば}→売り場：01331_uriba⟧: food and beverage section\n\nRELATED WORDS:\n- ⟦{飲食|いんしょく}→飲食：03010_inshoku⟧: eating and drinking — the activity rather than the products\n- ⟦{飲食店|いんしょくてん}→飲食店：15093_inshokuten⟧: restaurant; eatery — an establishment serving food and drink\n- ⟦{食品|しょくひん}→食品：03247_shokuhin⟧: food products — excludes beverages\n- ⟦{飲料|いんりょう}→飲料：03011_inryou⟧: beverages; drinks — covers only the drink side",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "15093_inshokuten",
+      "reading": "いんしょくてん",
+      "headword": "{飲食店|いんしょくてん}",
+      "label": "restaurant"
+    },
+    {
+      "type": "related",
+      "target_id": "03011_inryou",
+      "reading": "いんりょう",
+      "headword": "{飲料|いんりょう}",
+      "label": "beverages"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,12 +68,14 @@
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "food",
         "shopping"
       ]
     },
     "created": "2026-04-27T13:12:01Z",
-    "modified": "2026-08-04T21:28:28Z"
+    "modified": "2026-09-02T04:02:23Z"
   }
 }

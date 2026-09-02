@@ -14,30 +14,36 @@
   "examples": [
     {
       "id": "11509_jouhanshin_ex1",
-      "japanese": "{上半身|じょうはんしん}を{鍛|きた}える。",
+      "japanese": "{上半身|じょうはんしん}⟦を→を：00422_wo⟧⟦{鍛|きた}える→鍛える：12326_kitaeru⟧。",
       "english": "Train the upper body.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11509_jouhanshin_ex2",
-      "japanese": "{上半身|じょうはんしん}を{起|お}こして{座|すわ}った。",
+      "japanese": "{上半身|じょうはんしん}⟦を→を：00422_wo⟧⟦{起|お}こして→起こす：01234_okosu⟧⟦{座|すわ}った→座る：00757_suwaru⟧。",
       "english": "I raised my upper body and sat up.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11509_jouhanshin_ex3",
-      "japanese": "レントゲンで{上半身|じょうはんしん}を{撮影|さつえい}して、{異常|いじょう}がないか{調|しら}べた。",
+      "japanese": "⟦レントゲン→レントゲン：11219_rentogen⟧⟦で→で：00502_de⟧{上半身|じょうはんしん}⟦を→を：00422_wo⟧⟦{撮影|さつえい}して→撮影する：21990_satsueisuru⟧、⟦{異常|いじょう}→異常：01716_ijou⟧⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧⟦か→か：09473_ka⟧⟦{調|しら}べた→調べる：01213_shiraberu⟧。",
       "english": "They took an X-ray of my upper body to check for any abnormalities.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "The upper half of the human body, roughly from the waist up. Used in fitness, medicine, and everyday descriptions.\n\nFORMATION:\n{上|じょう} (upper) + {半身|はんしん} (half the body).\n\nCOMMON COLLOCATIONS:\n- {上半身|じょうはんしん}を{鍛|きた}える: to train the upper body\n- {上半身|じょうはんしん}を{起|お}こす: to raise the upper body (sit up)\n- {上半身|じょうはんしん}{裸|はだか}: naked from the waist up\n- {上半身|じょうはんしん}の{筋肉|きんにく}: upper body muscles\n\nCONTRAST:\n- {下半身|かはんしん}: lower body (waist down)\n- {全身|ぜんしん}: the whole body",
+  "notes": "The upper half of the human body, roughly from the waist up. Used in fitness, medicine, and everyday descriptions.\n\nFORMS:\n⟦{上|じょう}→〜上：30365_jou⟧ (upper) + {半身|はんしん} (half the body).\n\nCOMMON COLLOCATIONS:\n- {上半身|じょうはんしん}⟦を→を：00422_wo⟧⟦{鍛|きた}える→鍛える：12326_kitaeru⟧: to train the upper body\n- {上半身|じょうはんしん}⟦を→を：00422_wo⟧⟦{起|お}こす→起こす：01234_okosu⟧: to raise the upper body (sit up)\n- {上半身|じょうはんしん}⟦{裸|はだか}→裸：03692_hadaka⟧: naked from the waist up\n- {上半身|じょうはんしん}⟦の→の：09472_no⟧⟦{筋肉|きんにく}→筋肉：02646_kinniku⟧: upper body muscles\n\nSIMILAR WORDS:\n- ⟦{下半身|かはんしん}→下半身：19453_kahanshin⟧: lower body (waist down)\n- ⟦{全身|ぜんしん}→全身：03313_zenshin⟧: the whole body",
   "cross_references": [
     {
       "type": "antonym",
@@ -45,19 +51,37 @@
       "reading": "かはんしん",
       "headword": "{下半身|かはんしん}",
       "label": "lower body"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03313_zenshin",
+      "reading": "ぜんしん",
+      "headword": "{全身|ぜんしん}",
+      "label": "the whole body"
+    },
+    {
+      "type": "related",
+      "target_id": "19448_joutai",
+      "reading": "じょうたい",
+      "headword": "{上体|じょうたい}",
+      "label": "upper body, torso"
     }
   ],
   "metadata": {
     "created": "2026-02-17T01:54:44Z",
-    "modified": "2026-04-25T06:08:04Z",
+    "modified": "2026-09-02T04:01:25Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["body-part"]
+      "semantic": [
+        "body-part"
+      ]
     }
   }
 }

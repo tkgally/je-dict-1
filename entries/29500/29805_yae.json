@@ -15,41 +15,60 @@
   "examples": [
     {
       "id": "29805_yae_ex1",
-      "japanese": "この{花|はな}は{八重|やえ}だ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{花|はな}→花：00523_hana⟧⟦は→は：00079_ha⟧{八重|やえ}だ。",
       "english": "This flower is a double (multi-petaled) variety.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29805_yae_ex2",
-      "japanese": "{庭|にわ}に{八重|やえ}の{梅|うめ}が{咲|さ}いた。",
+      "japanese": "⟦{庭|にわ}→庭：02239_niwa⟧⟦に→に：00314_ni⟧{八重|やえ}⟦の→の：09472_no⟧⟦{梅|うめ}→梅：01869_ume⟧⟦が→が：00051_ga⟧⟦{咲|さ}いた→咲く：08150_saku⟧。",
       "english": "Double plum blossoms bloomed in the garden.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29805_yae_ex3",
-      "japanese": "{八重|やえ}{咲|ざ}きの{品種|ひんしゅ}は{花|はな}びらが{多|おお}く{豪華|ごうか}に{見|み}える。",
+      "japanese": "{八重|やえ}{咲|ざ}き⟦の→の：09472_no⟧⟦{品種|ひんしゅ}→品種：11840_hinshu⟧⟦は→は：00079_ha⟧⟦{花|はな}びら→花びら：13988_hanabira⟧⟦が→が：00051_ga⟧⟦{多|おお}く→多い：01127_ooi⟧⟦{豪華|ごうか}→豪華：02815_gouka⟧⟦に→に：00314_ni⟧⟦{見|み}える→見える：01165_mieru⟧。",
       "english": "Double-flowering varieties have many petals and look gorgeous.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Refers to blossoms with many overlapping petals, contrasted with {一重|ひとえ} (single-petaled). Also means \"multi-layered\" or \"eightfold\" more generally, where {八|はち} (\"eight\") simply signals \"many.\"\n\nCOMMON COLLOCATIONS:\n- {八重桜|やえざくら}: double cherry blossom\n- {八重|やえ}{咲|ざ}き: double-flowering (variety)\n- {八重|やえ}{歯|ば}: snaggletooth (a tooth doubled over another)\n\nSIMILAR WORDS:\n- {一重|ひとえ}: single-petaled; single layer — the opposite; one layer of petals",
+  "notes": "Refers to blossoms with many overlapping petals, contrasted with ⟦{一重|ひとえ}→一重：06463_hitoe⟧ (single-petaled). Also means \"multi-layered\" or \"eightfold\" more generally, where ⟦{八|はち}→八：00698_hachi⟧ (\"eight\") simply signals \"many.\"\n\nCOMMON COLLOCATIONS:\n- ⟦{八重桜|やえざくら}→八重桜：29806_yaezakura⟧: double cherry blossom\n- {八重|やえ}{咲|ざ}き: double-flowering (variety)\n- {八重|やえ}{歯|ば}: snaggletooth (a tooth doubled over another)\n\nSIMILAR WORDS:\n- ⟦{一重|ひとえ}→一重：06463_hitoe⟧: single-petaled; single layer — the opposite; one layer of petals",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "06463_hitoe",
+      "reading": "ひとえ",
+      "headword": "{一重|ひとえ}",
+      "label": "single-petaled"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["descriptive"],
+      "politeness": "plain",
+      "semantic": [
+        "descriptive"
+      ],
       "domain": []
     },
     "created": "2026-07-13T12:21:17Z",
-    "modified": "2026-07-13T12:21:17Z"
+    "modified": "2026-09-02T04:02:38Z"
   }
 }

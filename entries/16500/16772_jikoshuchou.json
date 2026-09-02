@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "16772_jikoshuchou_ex1",
-      "japanese": "{自己主張|じこしゅちょう}が{強|つよ}い{人|ひと}だ。",
+      "japanese": "{自己主張|じこしゅちょう}⟦が→が：00051_ga⟧⟦{強|つよ}い→強い：00820_tsuyoi⟧⟦{人|ひと}→人：00476_hito⟧だ。",
       "english": "They are a very assertive person.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "16772_jikoshuchou_ex2",
-      "japanese": "{日本|にほん}では{自己主張|じこしゅちょう}が{苦手|にがて}な{人|ひと}が{多|おお}いと{言|い}われる。",
+      "japanese": "⟦{日本|にほん}→日本：03876_nihon⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧{自己主張|じこしゅちょう}⟦が→が：00051_ga⟧⟦{苦手|にがて}→苦手：03513_nigate⟧な⟦{人|ひと}→人：00476_hito⟧⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧⟦と→と：00512_to⟧⟦{言|い}われる→言う：00515_iu⟧。",
       "english": "It is said that many people in Japan are not good at asserting themselves.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "16772_jikoshuchou_ex3",
-      "japanese": "{適度|てきど}な{自己主張|じこしゅちょう}は{大切|たいせつ}だが、{相手|あいて}の{意見|いけん}も{尊重|そんちょう}するべきだ。",
+      "japanese": "⟦{適度|てきど}→適度：03441_tekido⟧な{自己主張|じこしゅちょう}⟦は→は：00079_ha⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧だ⟦が→が：00051_ga⟧、⟦{相手|あいて}→相手：01677_aite⟧⟦の→の：09472_no⟧⟦{意見|いけん}→意見：01303_iken⟧⟦も→も：00484_mo⟧⟦{尊重|そんちょう}する→尊重する：17456_sonchousuru⟧べきだ。",
       "english": "Moderate self-assertion is important, but you should also respect the other person's opinions.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "CULTURAL NOTE:\nIn Japanese culture, excessive {自己主張|じこしゅちょう} can be viewed negatively, as harmony ({和|わ}) and consideration for others are valued. However, the ability to assert oneself is increasingly recognized as important in business and international contexts.\n\nCOMMON COLLOCATIONS:\n- {自己主張|じこしゅちょう}が{強|つよ}い (strongly assertive)\n- {自己主張|じこしゅちょう}する (to assert oneself)\n- {自己主張|じこしゅちょう}が{苦手|にがて} (not good at self-assertion)\n\nSIMILAR WORDS:\n- {主張|しゅちょう}: assertion, claim — broader meaning, not limited to self",
+  "notes": "CULTURAL NOTE:\nIn Japanese culture, excessive {自己主張|じこしゅちょう} can be viewed negatively, as harmony ({和|わ}) and consideration for others are valued. However, the ability to assert oneself is increasingly recognized as important in business and international contexts.\n\nCOMMON COLLOCATIONS:\n- {自己主張|じこしゅちょう}⟦が→が：00051_ga⟧⟦{強|つよ}い→強い：00820_tsuyoi⟧ (strongly assertive)\n- {自己主張|じこしゅちょう}⟦する→する：00392_suru⟧ (to assert oneself)\n- {自己主張|じこしゅちょう}⟦が→が：00051_ga⟧⟦{苦手|にがて}→苦手：03513_nigate⟧ (not good at self-assertion)\n\nSIMILAR WORDS:\n- ⟦{主張|しゅちょう}→主張：03220_shuchou⟧: assertion, claim — broader meaning, not limited to self",
   "cross_references": [
     {
       "type": "related",
@@ -142,11 +142,18 @@
       "reading": "しゅちょう",
       "headword": "{主張|しゅちょう}",
       "label": "assertion (broader)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24700_jikohyougen",
+      "reading": "じこひょうげん",
+      "headword": "{自己表現|じこひょうげん}",
+      "label": "self-expression"
     }
   ],
   "metadata": {
     "created": "2026-03-14T06:28:39Z",
-    "modified": "2026-05-04T10:11:42Z",
+    "modified": "2026-09-02T04:01:46Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

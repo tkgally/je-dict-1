@@ -15,41 +15,59 @@
   "examples": [
     {
       "id": "16416_fuiuchi_ex1",
-      "japanese": "{不意打|ふいう}ちを{食|く}らった。",
+      "japanese": "{不意打|ふいう}ち⟦を→を：00422_wo⟧{食|く}らった。",
       "english": "I was caught off guard.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16416_fuiuchi_ex2",
-      "japanese": "{敵|てき}の{不意打|ふいう}ちに{遭|あ}って{大|おお}きな{被害|ひがい}を{受|う}けた。",
+      "japanese": "⟦{敵|てき}→敵：03546_teki⟧⟦の→の：09472_no⟧{不意打|ふいう}ち⟦に→に：00314_ni⟧⟦{遭|あ}って→遭う：09500_au⟧⟦{大|おお}きな→大きな：02849_ookina⟧⟦{被害|ひがい}→被害：02572_higai⟧⟦を→を：00422_wo⟧⟦{受|う}けた→受ける：01215_ukeru⟧。",
       "english": "We suffered heavy damage from the enemy's surprise attack.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16416_fuiuchi_ex3",
-      "japanese": "{面接|めんせつ}で{不意打|ふいう}ちの{質問|しつもん}をされて、うまく{答|こた}えられなかった。",
+      "japanese": "⟦{面接|めんせつ}→面接：01100_mensetsu⟧⟦で→で：00502_de⟧{不意打|ふいう}ち⟦の→の：09472_no⟧⟦{質問|しつもん}→質問：00888_shitsumon⟧⟦を→を：00422_wo⟧⟦されて→する：00392_suru⟧、⟦うまく→うまい：01279_umai⟧⟦{答|こた}えられなかった→答える：01099_kotaeru⟧。",
       "english": "I was asked an unexpected question in the interview and couldn't answer well.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nThe most common pattern is {不意打|ふいう}ちを{食|く}らう (to be hit with a surprise attack / to be caught off guard). Also used figuratively for unexpected questions, news, or emotional surprises.\n\nCOMMON COLLOCATIONS:\n- {不意打|ふいう}ちを{食|く}らう (to be caught off guard)\n- {不意打|ふいう}ちを{掛|か}ける (to launch a surprise attack)\n- {不意打|ふいう}ちに{遭|あ}う (to encounter a surprise attack)\n- {不意打|ふいう}ちの{質問|しつもん} (an unexpected question)\n\nWORD FORMATION:\n{不意|ふい} (unexpected; sudden) + {打|う}ち (strike). {不意|ふい} itself means \"being caught unaware.\"",
-  "cross_references": [],
+  "notes": "USAGE:\nThe most common pattern is {不意打|ふいう}ち⟦を→を：00422_wo⟧{食|く}らう (to be hit with a surprise attack / to be caught off guard). Also used figuratively for unexpected questions, news, or emotional surprises.\n\nCOMMON COLLOCATIONS:\n- {不意打|ふいう}ち⟦を→を：00422_wo⟧{食|く}らう (to be caught off guard)\n- {不意打|ふいう}ち⟦を→を：00422_wo⟧{掛|か}ける (to launch a surprise attack)\n- {不意打|ふいう}ち⟦に→に：00314_ni⟧⟦{遭|あ}う→遭う：09500_au⟧ (to encounter a surprise attack)\n- {不意打|ふいう}ち⟦の→の：09472_no⟧⟦{質問|しつもん}→質問：00888_shitsumon⟧ (an unexpected question)\n\nFORMS:\n⟦{不意|ふい}→不意：11351_fui⟧ (unexpected; sudden) + {打|う}ち (strike). ⟦{不意|ふい}→不意：11351_fui⟧ itself means \"being caught unaware.\"",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23116_machibuse",
+      "reading": "まちぶせ",
+      "headword": "{待|ま}ち{伏|ぶ}せ",
+      "label": "ambush"
+    }
+  ],
   "metadata": {
     "created": "2026-03-12T09:00:33Z",
-    "modified": "2026-03-12T09:00:33Z",
+    "modified": "2026-09-02T04:01:44Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action"]
+      "semantic": [
+        "action"
+      ]
     }
   }
 }

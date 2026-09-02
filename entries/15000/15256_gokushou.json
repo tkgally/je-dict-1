@@ -3,7 +3,7 @@
   "id": "15256_gokushou",
   "headword": "{極小|ごくしょう}",
   "reading": "ごくしょう",
-  "part_of_speech": "adjective (no), noun",
+  "part_of_speech": "no-adjective, noun",
   "gloss": "minuscule; extremely small",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "15256_gokushou_ex1",
-      "japanese": "{極小|ごくしょう}のチップを{開発|かいはつ}した。",
+      "japanese": "{極小|ごくしょう}⟦の→の：09472_no⟧⟦チップ→チップ：11019_chippu⟧⟦を→を：00422_wo⟧⟦{開発|かいはつ}→開発：06746_kaihatsu⟧⟦した→する：00392_suru⟧。",
       "english": "They developed a minuscule chip.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "15256_gokushou_ex2",
-      "japanese": "{顕微鏡|けんびきょう}でしか{見|み}えない{極小|ごくしょう}の{生物|せいぶつ}がいる。",
+      "japanese": "⟦{顕微鏡|けんびきょう}→顕微鏡：05482_kenbikyou⟧⟦で→で：00502_de⟧しか⟦{見|み}えない→見える：01165_mieru⟧{極小|ごくしょう}⟦の→の：09472_no⟧⟦{生物|せいぶつ}→生物：03295_seibutsu⟧⟦が→が：00051_ga⟧⟦いる→いる：00495_iru⟧。",
       "english": "There are microscopic organisms that can only be seen with a microscope.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "15256_gokushou_ex3",
-      "japanese": "{極小|ごくしょう}の{部品|ぶひん}を{扱|あつか}うには{専用|せんよう}の{工具|こうぐ}と{高|たか}い{技術|ぎじゅつ}が{必要|ひつよう}だ。",
+      "japanese": "{極小|ごくしょう}⟦の→の：09472_no⟧⟦{部品|ぶひん}→部品：00020_buhin⟧⟦を→を：00422_wo⟧⟦{扱|あつか}う→扱う：01862_atsukau⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{専用|せんよう}→専用：12385_senyou⟧⟦の→の：09472_no⟧⟦{工具|こうぐ}→工具：01401_kougu⟧⟦と→と：00512_to⟧⟦{高|たか}い→高い：00500_takai⟧⟦{技術|ぎじゅつ}→技術：01389_gijutsu⟧⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧だ。",
       "english": "Handling minuscule parts requires specialized tools and advanced skill.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "FORMATION: {極|ごく} (extreme, utmost) + {小|しょう} (small).\n\nREADING NOTE: Can also be read きょくしょう, especially in mathematical contexts where it means 'local minimum.' The reading ごくしょう is standard for the general meaning of 'extremely small.'\n\nCOMMON COLLOCATIONS:\n- {極小|ごくしょう}の{部品|ぶひん}: minuscule parts\n- {極小|ごくしょう}サイズ: extremely small size\n- {極小|ごくしょう}{住宅|じゅうたく}: micro-home, tiny house\n\nSIMILAR WORDS:\n- {極小|ごくしょう}: extremely small (emphasizes extreme degree)\n- {微小|びしょう}: minute, tiny (scientific/technical)\n- {最小|さいしょう}: smallest, minimum (superlative)\n- {極大|ごくだい}: extremely large (antonym)",
+  "notes": "FORMATION: ⟦{極|ごく}→極：03816_goku⟧ (extreme, utmost) + {小|しょう} (small).\n\nREADING NOTE: Can also be read きょくしょう, especially in mathematical contexts where it means 'local minimum.' The reading ごくしょう is standard for the general meaning of 'extremely small.'\n\nCOMMON COLLOCATIONS:\n- {極小|ごくしょう}⟦の→の：09472_no⟧⟦{部品|ぶひん}→部品：00020_buhin⟧: minuscule parts\n- {極小|ごくしょう}⟦サイズ→サイズ：01363_saizu⟧: extremely small size\n- {極小|ごくしょう}⟦{住宅|じゅうたく}→住宅：03280_juutaku⟧: micro-home, tiny house\n\nSIMILAR WORDS:\n- {極小|ごくしょう}: extremely small (emphasizes extreme degree)\n- ⟦{微小|びしょう}→微小：20095_bishou⟧: minute, tiny (scientific/technical)\n- ⟦{最小|さいしょう}→最小：04828_saishou⟧: smallest, minimum (superlative)\n- {極大|ごくだい}: extremely large (antonym)",
   "cross_references": [
     {
       "type": "antonym",
@@ -52,11 +52,25 @@
       "reading": "きょくだい",
       "headword": "{極大|きょくだい}",
       "label": "extremely large"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20095_bishou",
+      "reading": "びしょう",
+      "headword": "{微小|びしょう}",
+      "label": "minute, tiny"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04828_saishou",
+      "reading": "さいしょう",
+      "headword": "{最小|さいしょう}",
+      "label": "smallest, minimum"
     }
   ],
   "metadata": {
     "created": "2026-03-05T10:28:27Z",
-    "modified": "2026-05-01T06:14:09Z",
+    "modified": "2026-09-02T04:01:40Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

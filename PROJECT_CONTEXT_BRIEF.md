@@ -9,10 +9,10 @@ Quick-reference for AI assistants at session start. For full history, see [PROJE
 | Total entries | 30,584 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,982 (closed) |
-| General tier | 27,781 (open — all new entries here) |
+| General tier | 27,801 (open — all new entries here) |
 | Next entry ID | 30794 |
 | Candidate words | 195 |
-| Cross-references | ~18,900 |
+| Cross-references | ~77,000 |
 | Example sentences | ~119,100 |
 
 ## Critical Rules
@@ -47,7 +47,7 @@ python3 build/check_duplicate.py "word" "reading" # Duplicate check
 
 - **Basic** (801): Foundational words. Closed — do not add or modify.
 - **Core** (1,982): Essential adult communication. Closed — do not add or modify.
-- **General** (27,781+): All other vocabulary. All new entries go here.
+- **General** (27,801+): All other vocabulary. All new entries go here.
 
 ## Skills
 

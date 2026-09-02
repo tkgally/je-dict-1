@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "19635_kiseisuru_ex1",
-      "japanese": "{交通|こうつう}を{規制|きせい}する。",
+      "japanese": "⟦{交通|こうつう}→交通：01584_koutsuu⟧⟦を→を：00422_wo⟧{規制|きせい}する。",
       "english": "To regulate traffic.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "19635_kiseisuru_ex2",
-      "japanese": "{薬物|やくぶつ}の{使用|しよう}は{法律|ほうりつ}で{規制|きせい}されている。",
+      "japanese": "⟦{薬物|やくぶつ}→薬物：14053_yakubutsu⟧⟦の→の：09472_no⟧⟦{使用|しよう}→使用：01637_shiyou⟧⟦は→は：00079_ha⟧⟦{法律|ほうりつ}→法律：01722_houritsu⟧⟦で→で：00502_de⟧{規制|きせい}されて⟦いる→いる：00495_iru⟧。",
       "english": "Drug use is regulated by law.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "19635_kiseisuru_ex3",
-      "japanese": "{政府|せいふ}はSNSでの{個人|こじん}{情報|じょうほう}の{取|と}り{扱|あつか}いを{規制|きせい}する{方針|ほうしん}を{示|しめ}した。",
+      "japanese": "⟦{政府|せいふ}→政府：03294_seifu⟧⟦は→は：00079_ha⟧SNS⟦で→で：00502_de⟧⟦の→の：09472_no⟧⟦{個人|こじん}{情報|じょうほう}→個人情報：18842_kojinjouhou⟧⟦の→の：09472_no⟧⟦{取|と}り{扱|あつか}い→取り扱い：09806_toriatsukai⟧⟦を→を：00422_wo⟧{規制|きせい}する⟦{方針|ほうしん}→方針：04871_houshin⟧⟦を→を：00422_wo⟧⟦{示|しめ}した→示す：01948_shimesu⟧。",
       "english": "The government indicated a policy to regulate the handling of personal information on social media.",
       "sense_numbers": [
         1
@@ -134,11 +134,26 @@
       "notes": null
     }
   ],
-  "notes": "A key word in news and policy discussions. The noun form {規制|きせい} is extremely common. Often appears in passive form {規制|きせい}される.\n\nCOMMON COLLOCATIONS:\n- {規制|きせい}{緩和|かんわ}: deregulation, easing of regulations\n- {規制|きせい}{強化|きょうか}: tightening of regulations\n- {交通|こうつう}{規制|きせい}: traffic restrictions\n- {規制|きせい}{対象|たいしょう}: subject to regulation\n- {自主|じしゅ}{規制|きせい}: self-regulation, voluntary restraint\n\nSIMILAR WORDS:\n- {制限|せいげん}する: to restrict — sets an upper bound or numerical limit\n- {規制|きせい}する: to regulate — imposes rules and controls through authority\n- {禁止|きんし}する: to prohibit — completely bans something",
-  "cross_references": [],
+  "notes": "A key word in news and policy discussions. The noun form ⟦{規制|きせい}→規制：02598_kisei⟧ is extremely common. Often appears in passive form {規制|きせい}される.\n\nCOMMON COLLOCATIONS:\n- ⟦{規制|きせい}→規制：02598_kisei⟧⟦{緩和|かんわ}→緩和：13846_kanwa⟧: deregulation, easing of regulations\n- ⟦{規制|きせい}→規制：02598_kisei⟧⟦{強化|きょうか}→強化：00260_kyouka⟧: tightening of regulations\n- ⟦{交通|こうつう}{規制|きせい}→交通規制：22414_koutsuukisei⟧: traffic restrictions\n- ⟦{規制|きせい}→規制：02598_kisei⟧⟦{対象|たいしょう}→対象：03393_taishou⟧: subject to regulation\n- ⟦{自主|じしゅ}→自主：13979_jishu⟧⟦{規制|きせい}→規制：02598_kisei⟧: self-regulation, voluntary restraint\n\nSIMILAR WORDS:\n- ⟦{制限|せいげん}する→制限する：19636_seigensuru⟧: to restrict — sets an upper bound or numerical limit\n- {規制|きせい}する: to regulate — imposes rules and controls through authority\n- ⟦{禁止|きんし}する→禁止する：22145_kinshisuru⟧: to prohibit — completely bans something",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19636_seigensuru",
+      "reading": "せいげんする",
+      "headword": "{制限|せいげん}する",
+      "label": "to restrict"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22145_kinshisuru",
+      "reading": "きんしする",
+      "headword": "{禁止|きんし}する",
+      "label": "to prohibit"
+    }
+  ],
   "metadata": {
     "created": "2026-03-26T09:36:16Z",
-    "modified": "2026-03-29T03:08:58Z",
+    "modified": "2026-09-02T04:01:56Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

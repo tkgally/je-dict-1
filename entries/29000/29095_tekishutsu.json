@@ -3,7 +3,7 @@
   "headword": "{摘出|てきしゅつ}",
   "reading": "てきしゅつ",
   "romaji": "tekishutsu",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "surgical removal; excision",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29095_tekishutsu_ex1",
-      "japanese": "{腫瘍|しゅよう}の{摘出|てきしゅつ}{手術|しゅじゅつ}を{受|う}けた。",
+      "japanese": "⟦{腫瘍|しゅよう}→腫瘍：23364_shuyou⟧⟦の→の：09472_no⟧{摘出|てきしゅつ}⟦{手術|しゅじゅつ}→手術：03218_shujutsu⟧⟦を→を：00422_wo⟧⟦{受|う}けた→受ける：01215_ukeru⟧。",
       "english": "I underwent surgery to remove a tumor.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29095_tekishutsu_ex2",
-      "japanese": "{盲腸|もうちょう}を{摘出|てきしゅつ}することになった。",
+      "japanese": "{盲腸|もうちょう}⟦を→を：00422_wo⟧{摘出|てきしゅつ}⟦する→する：00392_suru⟧ことになった。",
       "english": "It was decided that my appendix would be removed.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29095_tekishutsu_ex3",
-      "japanese": "{医師|いし}は{患者|かんじゃ}の{体内|たいない}に{残|のこ}っていた{異物|いぶつ}を{慎重|しんちょう}に{摘出|てきしゅつ}した。",
+      "japanese": "⟦{医師|いし}→医師：11851_ishi⟧⟦は→は：00079_ha⟧⟦{患者|かんじゃ}→患者：00170_kanja⟧⟦の→の：09472_no⟧⟦{体内|たいない}→体内：11556_tainai⟧⟦に→に：00314_ni⟧⟦{残|のこ}っていた→残る：01187_nokoru⟧⟦{異物|いぶつ}→異物：13706_ibutsu⟧⟦を→を：00422_wo⟧⟦{慎重|しんちょう}→慎重：03264_shinchou⟧⟦に→に：00314_ni⟧{摘出|てきしゅつ}⟦した→する：00392_suru⟧。",
       "english": "The doctor carefully removed the foreign object that had remained inside the patient's body.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "{摘|てき} originally means to pluck or pick; {出|しゅつ} means to take out. The compound is standard medical terminology for removing tissue or organs.\n\nCOMMON COLLOCATIONS:\n- 〜を{摘出|てきしゅつ}する: to surgically remove 〜\n- {摘出|てきしゅつ}{手術|しゅじゅつ}: removal surgery\n- {臓器|ぞうき}{摘出|てきしゅつ}: organ removal\n- {腫瘍|しゅよう}{摘出|てきしゅつ}: tumor removal\n- {子宮|しきゅう}{摘出|てきしゅつ}: hysterectomy (uterus removal)",
+  "notes": "{摘|てき} originally means to pluck or pick; {出|しゅつ} means to take out. The compound is standard medical terminology for removing tissue or organs.\n\nCOMMON COLLOCATIONS:\n- 〜⟦を→を：00422_wo⟧{摘出|てきしゅつ}⟦する→する：00392_suru⟧: to surgically remove 〜\n- {摘出|てきしゅつ}⟦{手術|しゅじゅつ}→手術：03218_shujutsu⟧: removal surgery\n- ⟦{臓器|ぞうき}→臓器：05705_zouki⟧{摘出|てきしゅつ}: organ removal\n- ⟦{腫瘍|しゅよう}→腫瘍：23364_shuyou⟧{摘出|てきしゅつ}: tumor removal\n- {子宮|しきゅう}{摘出|てきしゅつ}: hysterectomy (uterus removal)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "23229_akuseishuyou",
+      "reading": "あくせいしゅよう",
+      "headword": "{悪性腫瘍|あくせいしゅよう}",
+      "label": "malignant tumor"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -54,17 +63,18 @@
         "verb-suru"
       ],
       "formality": "formal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "health"
       ],
       "domain": [
         "medical"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-06-10T12:34:37Z",
-    "modified": "2026-08-09T06:33:11Z"
+    "modified": "2026-09-02T04:02:35Z"
   },
   "conjugation": {
     "type": "suru",

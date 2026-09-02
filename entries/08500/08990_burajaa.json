@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08990_burajaa_ex1",
-      "japanese": "{新|あたら}しいブラジャーを{買|か}った。",
+      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧ブラジャー⟦を→を：00422_wo⟧⟦{買|か}った→買う：00489_kau⟧。",
       "english": "I bought a new bra.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "08990_burajaa_ex2",
-      "japanese": "スポーツブラジャーは{運動|うんどう}{時|じ}に{便利|べんり}だ。",
+      "japanese": "⟦スポーツ→スポーツ：04740_supootsu⟧ブラジャー⟦は→は：00079_ha⟧⟦{運動|うんどう}→運動：00821_undou⟧⟦{時|じ}→時：09869_ji⟧⟦に→に：00314_ni⟧⟦{便利|べんり}→便利：00830_benri⟧だ。",
       "english": "A sports bra is convenient when exercising.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "08990_burajaa_ex3",
-      "japanese": "ブラジャーのサイズを{測|はか}ってもらった。",
+      "japanese": "ブラジャー⟦の→の：09472_no⟧⟦サイズ→サイズ：01363_saizu⟧⟦を→を：00422_wo⟧⟦{測|はか}って→測る：01977_hakaru⟧⟦もらった→もらう：00520_morau⟧。",
       "english": "I had my bra size measured.",
       "notes": null,
       "has_audio": false,
@@ -43,11 +43,19 @@
       ]
     }
   ],
-  "notes": "ブラジャー is the standard Japanese term for a bra. From French \"brassière\" via English. In casual speech, almost always shortened to ブラ.\n\nCOMMON EXPRESSIONS:\n- ブラジャーをつける: to put on a bra\n- ブラジャーを{外|はず}す: to take off a bra\n- ブラジャーのサイズを{測|はか}る: to measure bra size\n\nCOMMON TYPES:\n- スポーツブラ: sports bra\n- ノンワイヤーブラ: wireless bra\n- ブラトップ: bra top (built-in bra camisole)\n\nRELATED TERMS:\n- {下着|したぎ}: underwear (general term)\n- ランジェリー: lingerie",
-  "cross_references": [],
+  "notes": "ブラジャー is the standard Japanese term for a bra. From French \"brassière\" via English. In casual speech, almost always shortened to ブラ.\n\nCOMMON EXPRESSIONS:\n- ブラジャー⟦を→を：00422_wo⟧⟦つける→つける：00562_tsukeru⟧: to put on a bra\n- ブラジャー⟦を→を：00422_wo⟧⟦{外|はず}す→外す：02394_hazusu⟧: to take off a bra\n- ブラジャー⟦の→の：09472_no⟧⟦サイズ→サイズ：01363_saizu⟧⟦を→を：00422_wo⟧⟦{測|はか}る→測る：01977_hakaru⟧: to measure bra size\n\nTYPES:\n- スポーツブラ: sports bra\n- ノンワイヤーブラ: wireless bra\n- ブラトップ: bra top (built-in bra camisole)\n\nRELATED WORDS:\n- ⟦{下着|したぎ}→下着：01605_shitagi⟧: underwear (general term)\n- ランジェリー: lingerie",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "01605_shitagi",
+      "reading": "したぎ",
+      "headword": "{下着|したぎ}",
+      "label": "underwear"
+    }
+  ],
   "metadata": {
     "created": "2026-01-29T11:13:09Z",
-    "modified": "2026-03-29T07:57:19Z",
+    "modified": "2026-09-02T04:01:17Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

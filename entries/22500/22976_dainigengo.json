@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22976_dainigengo_ex1",
-      "japanese": "{英語|えいご}を{第二言語|だいにげんご}として{学|まな}ぶ。",
+      "japanese": "⟦{英語|えいご}→英語：02274_eigo⟧⟦を→を：00422_wo⟧{第二言語|だいにげんご}⟦として→として：06802_toshite⟧⟦{学|まな}ぶ→学ぶ：01987_manabu⟧。",
       "english": "To learn English as a second language.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22976_dainigengo_ex2",
-      "japanese": "{第二言語|だいにげんご}の{習得|しゅうとく}には{長|なが}い{時間|じかん}がかかる。",
+      "japanese": "{第二言語|だいにげんご}⟦の→の：09472_no⟧⟦{習得|しゅうとく}→習得：13903_shuutoku⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{長|なが}い→長い：00491_nagai⟧⟦{時間|じかん}がかかる→時間がかかる：26082_jikangakakaru⟧。",
       "english": "Acquiring a second language takes a long time.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22976_dainigengo_ex3",
-      "japanese": "{子|こ}どもの{頃|ころ}から{二|ふた}つの{言語|げんご}に{触|ふ}れていると、{第二言語|だいにげんご}も{自然|しぜん}に{身|み}につく。",
+      "japanese": "{子|こ}ども⟦の→の：09472_no⟧{頃|ころ}⟦から→から：00504_kara⟧⟦{二|ふた}つ→二つ：02953_futatsu⟧⟦の→の：09472_no⟧⟦{言語|げんご}→言語：02717_gengo⟧⟦に→に：00314_ni⟧⟦{触|ふ}れている→触れる：01984_fureru⟧⟦と→と：00512_to⟧、{第二言語|だいにげんご}⟦も→も：00484_mo⟧⟦{自然|しぜん}→自然：01423_shizen⟧⟦に→に：00314_ni⟧⟦{身|み}→身：01764_mi⟧⟦に→に：00314_ni⟧つく。",
       "english": "When children are exposed to two languages from a young age, they naturally acquire a second language.",
       "sense_numbers": [
         1
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {第二|だいに} (second) and {言語|げんご} (language). A key term in linguistics and education. In academic usage, {第二言語|だいにげんご} specifically refers to a language acquired in a context where it is used socially (e.g., English for an immigrant in the US), while {外国語|がいこくご} refers to a language learned in a context where it is not the community language.\n\nCOMMON COLLOCATIONS:\n- {第二言語|だいにげんご}{習得|しゅうとく}: second language acquisition (SLA)\n- {第二言語|だいにげんご}として{学|まな}ぶ: to learn as a second language\n- {第二言語|だいにげんご}{教育|きょういく}: second language education\n- {第二言語|だいにげんご}{話者|わしゃ}: second language speaker\n\nSIMILAR WORDS:\n- {外国語|がいこくご}: foreign language — broader term, does not imply immersion context\n- {母語|ぼご}: mother tongue; native language — one's first language\n- {公用語|こうようご}: official language — language designated for government use\n\nABBREVIATION:\nIn academic contexts, often abbreviated as L2 (エルツー).",
+  "notes": "Composed of {第二|だいに} (second) and ⟦{言語|げんご}→言語：02717_gengo⟧ (language). A key term in linguistics and education. In academic usage, {第二言語|だいにげんご} specifically refers to a language acquired in a context where it is used socially (e.g., English for an immigrant in the US), while ⟦{外国語|がいこくご}→外国語：03023_gaikokugo⟧ refers to a language learned in a context where it is not the community language.\n\nCOMMON COLLOCATIONS:\n- {第二言語|だいにげんご}⟦{習得|しゅうとく}→習得：13903_shuutoku⟧: second language acquisition (SLA)\n- {第二言語|だいにげんご}⟦として→として：06802_toshite⟧⟦{学|まな}ぶ→学ぶ：01987_manabu⟧: to learn as a second language\n- {第二言語|だいにげんご}⟦{教育|きょういく}→教育：01313_kyouiku⟧: second language education\n- {第二言語|だいにげんご}{話者|わしゃ}: second language speaker\n\nSIMILAR WORDS:\n- ⟦{外国語|がいこくご}→外国語：03023_gaikokugo⟧: foreign language — broader term, does not imply immersion context\n- ⟦{母語|ぼご}→母語：13228_bogo⟧: mother tongue; native language — one's first language\n- ⟦{公用語|こうようご}→公用語：11678_kouyougo⟧: official language — language designated for government use\n\nFORMS:\nIn academic contexts, often abbreviated as L2 (エルツー).",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03023_gaikokugo",
+      "reading": "がいこくご",
+      "headword": "{外国語|がいこくご}",
+      "label": "foreign language"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13228_bogo",
+      "reading": "ぼご",
+      "headword": "{母語|ぼご}",
+      "label": "mother tongue"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11678_kouyougo",
+      "reading": "こうようご",
+      "headword": "{公用語|こうようご}",
+      "label": "official language"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21041_daiichigengo",
+      "reading": "だいいちげんご",
+      "headword": "{第一言語|だいいちげんご}",
+      "label": "first language"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +90,6 @@
       ]
     },
     "created": "2026-04-08T14:17:36Z",
-    "modified": "2026-04-08T14:17:36Z"
+    "modified": "2026-09-02T04:02:10Z"
   }
 }

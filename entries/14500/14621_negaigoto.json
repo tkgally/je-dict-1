@@ -15,41 +15,73 @@
   "examples": [
     {
       "id": "14621_negaigoto_ex1",
-      "japanese": "{神社|じんじゃ}で{願|ねが}い{事|ごと}をした。",
+      "japanese": "⟦{神社|じんじゃ}→神社：01620_jinja⟧⟦で→で：00502_de⟧{願|ねが}い{事|ごと}⟦を→を：00422_wo⟧⟦した→する：00392_suru⟧。",
       "english": "I made a wish at the shrine.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14621_negaigoto_ex2",
-      "japanese": "{七夕|たなばた}に{短冊|たんざく}に{願|ねが}い{事|ごと}を{書|か}いた。",
+      "japanese": "⟦{七夕|たなばた}→七夕：05633_tanabata⟧⟦に→に：00314_ni⟧⟦{短冊|たんざく}→短冊：13674_tanzaku⟧⟦に→に：00314_ni⟧{願|ねが}い{事|ごと}⟦を→を：00422_wo⟧⟦{書|か}いた→書く：00477_kaku⟧。",
       "english": "I wrote my wish on a strip of paper for Tanabata.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14621_negaigoto_ex3",
-      "japanese": "{流|なが}れ{星|ぼし}を{見|み}たら{三回|さんかい}{願|ねが}い{事|ごと}を{唱|とな}えると{叶|かな}うと{言|い}われている。",
+      "japanese": "⟦{流|なが}れ{星|ぼし}→流れ星：05049_nagareboshi⟧⟦を→を：00422_wo⟧⟦{見|み}たら→見る：00283_miru⟧⟦{三回|さんかい}→三回：30448_sankai⟧{願|ねが}い{事|ごと}⟦を→を：00422_wo⟧⟦{唱|とな}える→唱える：10467_tonaeru⟧⟦と→と：00512_to⟧⟦{叶|かな}う→叶う：05303_kanau⟧⟦と→と：00512_to⟧⟦{言|い}われている→言う：00515_iu⟧。",
       "english": "It is said that if you see a shooting star and say your wish three times, it will come true.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "CULTURAL NOTE:\n{願|ねが}い{事|ごと} is closely associated with shrine and temple visits, especially at {初詣|はつもうで} (New Year's shrine visit) and during {七夕|たなばた} (Star Festival, July 7), when people write wishes on {短冊|たんざく} (paper strips) and hang them on bamboo.\n\nCOMMON COLLOCATIONS:\n- {願|ねが}い{事|ごと}をする (to make a wish)\n- {願|ねが}い{事|ごと}が{叶|かな}う (a wish comes true)\n- {願|ねが}い{事|ごと}を{書|か}く (to write a wish)\n- {願|ねが}い{事|ごと}を{唱|とな}える (to say/recite a wish)\n\nSIMILAR WORDS:\n- {願|ねが}い{事|ごと}: wish (heartfelt, often spiritual/festive)\n- {望|のぞ}み: hope, wish (broader, more general)\n- {祈|いの}り: prayer (more religious or solemn)\n- お{願|ねが}い: request, favor (directed at a person)",
-  "cross_references": [],
+  "notes": "CULTURAL NOTE:\n{願|ねが}い{事|ごと} is closely associated with shrine and temple visits, especially at ⟦{初詣|はつもうで}→初詣：05804_hatsumoude⟧ (New Year's shrine visit) and during ⟦{七夕|たなばた}→七夕：05633_tanabata⟧ (Star Festival, July 7), when people write wishes on ⟦{短冊|たんざく}→短冊：13674_tanzaku⟧ (paper strips) and hang them on bamboo.\n\nCOMMON COLLOCATIONS:\n- {願|ねが}い{事|ごと}⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧ (to make a wish)\n- {願|ねが}い{事|ごと}⟦が→が：00051_ga⟧⟦{叶|かな}う→叶う：05303_kanau⟧ (a wish comes true)\n- {願|ねが}い{事|ごと}⟦を→を：00422_wo⟧⟦{書|か}く→書く：00477_kaku⟧ (to write a wish)\n- {願|ねが}い{事|ごと}⟦を→を：00422_wo⟧⟦{唱|とな}える→唱える：10467_tonaeru⟧ (to say/recite a wish)\n\nSIMILAR WORDS:\n- {願|ねが}い{事|ごと}: wish (heartfelt, often spiritual/festive)\n- ⟦{望|のぞ}み→望み：03543_nozomi⟧: hope, wish (broader, more general)\n- ⟦{祈|いの}り→祈り：13732_inori⟧: prayer (more religious or solemn)\n- ⟦お{願|ねが}い→お願い：10299_onegai⟧: request, favor (directed at a person)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03543_nozomi",
+      "reading": "のぞみ",
+      "headword": "{望|のぞ}み",
+      "label": "hope, wish"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13732_inori",
+      "reading": "いのり",
+      "headword": "{祈|いの}り",
+      "label": "prayer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10299_onegai",
+      "reading": "おねがい",
+      "headword": "お{願|ねが}い",
+      "label": "request, favor"
+    }
+  ],
   "metadata": {
     "created": "2026-03-02T08:33:07Z",
-    "modified": "2026-03-02T08:33:07Z",
+    "modified": "2026-09-02T04:01:38Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

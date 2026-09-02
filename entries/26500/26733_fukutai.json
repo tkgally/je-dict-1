@@ -3,7 +3,7 @@
   "headword": "{復隊|ふくたい}",
   "reading": "ふくたい",
   "romaji": "fukutai",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "returning to one's unit; rejoining the ranks",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26733_fukutai_ex1",
-      "japanese": "{負傷|ふしょう}{兵|へい}が{復隊|ふくたい}した。",
+      "japanese": "⟦{負傷|ふしょう}→負傷：15287_fushou⟧⟦{兵|へい}→兵：29510_hei⟧⟦が→が：00051_ga⟧{復隊|ふくたい}⟦した→する：00392_suru⟧。",
       "english": "The wounded soldier returned to his unit.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26733_fukutai_ex2",
-      "japanese": "{療養|りょうよう}{後|ご}、やっと{復隊|ふくたい}が{許可|きょか}された。",
+      "japanese": "⟦{療養|りょうよう}→療養：08207_ryouyou⟧⟦{後|ご}→後：30157_go⟧、⟦やっと→やっと：01561_yatto⟧{復隊|ふくたい}⟦が→が：00051_ga⟧⟦{許可|きょか}→許可：00259_kyoka⟧⟦された→する：00392_suru⟧。",
       "english": "After recuperation, he was finally permitted to rejoin the unit.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26733_fukutai_ex3",
-      "japanese": "{怪我|けが}から{回復|かいふく}した{選手|せんしゅ}が{来週|らいしゅう}の{試合|しあい}から{復隊|ふくたい}する{予定|よてい}だ。",
+      "japanese": "{怪我|けが}⟦から→から：00504_kara⟧⟦{回復|かいふく}した→回復する：21330_kaifukusuru⟧⟦{選手|せんしゅ}→選手：03823_senshu⟧⟦が→が：00051_ga⟧⟦{来週|らいしゅう}→来週：00746_raishuu⟧⟦の→の：09472_no⟧⟦{試合|しあい}→試合：01601_shiai⟧⟦から→から：00504_kara⟧{復隊|ふくたい}⟦する→する：00392_suru⟧⟦{予定|よてい}→予定：00824_yotei⟧だ。",
       "english": "The player who recovered from his injury is scheduled to rejoin the team starting next week's game.",
       "sense_numbers": [
         1
@@ -44,8 +44,16 @@
       "notes": null
     }
   ],
-  "notes": "Originally a military term meaning to return to one's unit after a period of absence. Now also used in sports journalism to describe an athlete rejoining their team after injury or suspension.\n\nCOMMON COLLOCATIONS:\n- {復隊|ふくたい}が{許可|きょか}される: to be permitted to return to one's unit\n- {復隊|ふくたい}{届|とどけ}: notice of return to unit\n- {前線|ぜんせん}に{復隊|ふくたい}する: to return to the front lines\n\nSIMILAR WORDS:\n- {復帰|ふっき}: return, comeback — broader term used for returning to any activity, not limited to military or team contexts\n- {帰隊|きたい}: returning to base — focuses on returning to a military base or station, rather than resuming duties",
-  "cross_references": [],
+  "notes": "Originally a military term meaning to return to one's unit after a period of absence. Now also used in sports journalism to describe an athlete rejoining their team after injury or suspension.\n\nCOMMON COLLOCATIONS:\n- {復隊|ふくたい}⟦が→が：00051_ga⟧⟦{許可|きょか}される→許可する：20063_kyokasuru⟧: to be permitted to return to one's unit\n- {復隊|ふくたい}{届|とどけ}: notice of return to unit\n- ⟦{前線|ぜんせん}→前線：11791_zensen⟧⟦に→に：00314_ni⟧{復隊|ふくたい}⟦する→する：00392_suru⟧: to return to the front lines\n\nSIMILAR WORDS:\n- ⟦{復帰|ふっき}→復帰：12564_fukki⟧: return, comeback — broader term used for returning to any activity, not limited to military or team contexts\n- {帰隊|きたい}: returning to base — focuses on returning to a military base or station, rather than resuming duties",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12564_fukki",
+      "reading": "ふっき",
+      "headword": "{復帰|ふっき}",
+      "label": "return, comeback"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -62,10 +70,11 @@
       "domain": [
         "technical"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     },
     "created": "2026-05-04T15:29:46Z",
-    "modified": "2026-08-06T12:46:55Z"
+    "modified": "2026-09-02T04:02:27Z"
   },
   "conjugation": {
     "type": "suru",

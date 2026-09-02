@@ -2,7 +2,7 @@
   "id": "07514_kyorokyoro",
   "headword": "きょろきょろ",
   "reading": "きょろきょろ",
-  "part_of_speech": "adverb, verb (suru)",
+  "part_of_speech": "adverb, suru verb",
   "gloss": "looking around restlessly; glancing about",
   "conjugation": {
     "type": "suru",
@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "07514_kyorokyoro_ex1",
-      "japanese": "{道|みち}に{迷|まよ}ってきょろきょろ{見回|みまわ}した。",
+      "japanese": "⟦{道|みち}→道：00505_michi⟧⟦に→に：00314_ni⟧⟦{迷|まよ}って→迷う：02426_mayou⟧きょろきょろ⟦{見回|みまわ}した→見回す：05545_mimawasu⟧。",
       "english": "I was lost and looked around restlessly.",
       "has_audio": false,
       "sense_numbers": [
@@ -113,7 +113,7 @@
     },
     {
       "id": "07514_kyorokyoro_ex2",
-      "japanese": "きょろきょろしないで{前|まえ}を{向|む}いて。",
+      "japanese": "きょろきょろ⟦しないで→する：00392_suru⟧⟦{前|まえ}→前：02255_mae⟧⟦を→を：00422_wo⟧⟦{向|む}いて→向く：02304_muku⟧。",
       "english": "Stop looking around and face forward.",
       "has_audio": false,
       "sense_numbers": [
@@ -122,7 +122,7 @@
     },
     {
       "id": "07514_kyorokyoro_ex3",
-      "japanese": "{観光客|かんこうきゃく}がきょろきょろと{辺|あた}りを{見回|みまわ}している。",
+      "japanese": "⟦{観光客|かんこうきゃく}→観光客：03022_kankoukyaku⟧⟦が→が：00051_ga⟧きょろきょろ⟦と→と：00512_to⟧⟦{辺|あた}り→辺り：01770_atari⟧⟦を→を：00422_wo⟧⟦{見回|みまわ}している→見回す：05545_mimawasu⟧。",
       "english": "The tourists are glancing around at their surroundings.",
       "has_audio": false,
       "sense_numbers": [
@@ -130,7 +130,7 @@
       ]
     }
   ],
-  "notes": "MIMETIC TYPE:\nOnomatopoeia describing eye movement - the sound/feel of eyes darting around.\n\nGRAMMATICAL FORMS:\n・きょろきょろ（と）{見|み}る - to look around restlessly\n・きょろきょろする - to glance about (suru-verb)\n・きょろきょろ{見回|みまわ}す - to look all around\n\nNUANCE:\nOften implies the person looks uncertain, lost, or unfamiliar with their surroundings. Can have a slightly comic or childlike connotation.\n\nSIMILAR EXPRESSIONS:\n・ちらちら{見|み}る - to glance repeatedly (more subtle)\n・じろじろ{見|み}る - to stare intently (rude)\n・うろうろする - to wander about aimlessly",
+  "notes": "MIMETIC TYPE:\nOnomatopoeia describing eye movement - the sound/feel of eyes darting around.\n\nGRAMMATICAL FORMS:\n- きょろきょろ（⟦と→と：00512_to⟧）⟦{見|み}る→見る：00283_miru⟧ - to look around restlessly\n- きょろきょろ⟦する→する：00392_suru⟧ - to glance about (suru-verb)\n- きょろきょろ⟦{見回|みまわ}す→見回す：05545_mimawasu⟧ - to look all around\n\nUSAGE:\nOften implies the person looks uncertain, lost, or unfamiliar with their surroundings. Can have a slightly comic or childlike connotation.\n\nSIMILAR WORDS:\n- ⟦ちらちら→ちらちら：07407_chirachira⟧⟦{見|み}る→見る：00283_miru⟧ - to glance repeatedly (more subtle)\n- ⟦じろじろ→じろじろ：06907_jirojiro⟧⟦{見|み}る→見る：00283_miru⟧ - to stare intently (rude)\n- ⟦うろうろ→うろうろ：05168_urouro⟧⟦する→する：00392_suru⟧ - to wander about aimlessly",
   "cross_references": [
     {
       "type": "related",
@@ -145,11 +145,18 @@
       "reading": "うろうろ",
       "headword": "うろうろ",
       "label": "wandering aimlessly"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23073_kyotonto",
+      "reading": "きょとんと",
+      "headword": "きょとんと",
+      "label": "blankly"
     }
   ],
   "metadata": {
     "created": "2026-01-20T08:19:38Z",
-    "modified": "2026-04-18T08:05:14Z",
+    "modified": "2026-09-02T04:01:11Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -158,6 +165,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "descriptive"
       ],

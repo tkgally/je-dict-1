@@ -15,41 +15,94 @@
   "examples": [
     {
       "id": "16405_hyouronka_ex1",
-      "japanese": "{有名|ゆうめい}な{映画|えいが}{評論家|ひょうろんか}がこの{作品|さくひん}を{絶賛|ぜっさん}した。",
+      "japanese": "⟦{有名|ゆうめい}→有名：01106_yuumei⟧な⟦{映画|えいが}→映画：02273_eiga⟧{評論家|ひょうろんか}⟦が→が：00051_ga⟧⟦この→この：00962_kono⟧⟦{作品|さくひん}→作品：02776_sakuhin⟧⟦を→を：00422_wo⟧⟦{絶賛|ぜっさん}→絶賛：13840_zessan⟧⟦した→する：00392_suru⟧。",
       "english": "A famous film critic praised this work highly.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16405_hyouronka_ex2",
-      "japanese": "{彼|かれ}は{口|くち}ばかりの{評論家|ひょうろんか}だ。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{口|くち}→口：00560_kuchi⟧⟦ばかり→〜ばかり：02006_bakari⟧⟦の→の：09472_no⟧{評論家|ひょうろんか}だ。",
       "english": "He's just an armchair critic who only talks.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16405_hyouronka_ex3",
-      "japanese": "{政治|せいじ}{評論家|ひょうろんか}たちがテレビで{選挙|せんきょ}の{結果|けっか}について{議論|ぎろん}していた。",
+      "japanese": "⟦{政治|せいじ}→政治：01629_seiji⟧{評論家|ひょうろんか}たち⟦が→が：00051_ga⟧⟦テレビ→テレビ：01536_terebi⟧⟦で→で：00502_de⟧⟦{選挙|せんきょ}→選挙：03303_senkyo⟧⟦の→の：09472_no⟧⟦{結果|けっか}→結果：02486_kekka⟧⟦について→〜について：03103_nitsuite⟧⟦{議論|ぎろん}していた→議論する：06058_gironsuru⟧。",
       "english": "Political commentators were discussing the election results on television.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nWhen used in its professional sense, {評論家|ひょうろんか} is neutral. However, when applied to an ordinary person, it often carries a negative connotation suggesting they criticize without contributing or acting themselves.\n\nCOMMON COLLOCATIONS:\n- {映画|えいが}{評論家|ひょうろんか} (film critic)\n- {文芸|ぶんげい}{評論家|ひょうろんか} (literary critic)\n- {政治|せいじ}{評論家|ひょうろんか} (political commentator)\n- {音楽|おんがく}{評論家|ひょうろんか} (music critic)\n\nWORD FORMATION:\n{評論|ひょうろん} (criticism, critique) + {家|か} (professional suffix). The suffix {家|か} indicates a person who practices a skill or profession.",
-  "cross_references": [],
+  "notes": "USAGE:\nWhen used in its professional sense, {評論家|ひょうろんか} is neutral. However, when applied to an ordinary person, it often carries a negative connotation suggesting they criticize without contributing or acting themselves.\n\nCOMMON COLLOCATIONS:\n- ⟦{映画|えいが}→映画：02273_eiga⟧{評論家|ひょうろんか} (film critic)\n- ⟦{文芸|ぶんげい}→文芸：12990_bungei⟧{評論家|ひょうろんか} (literary critic)\n- ⟦{政治|せいじ}→政治：01629_seiji⟧{評論家|ひょうろんか} (political commentator)\n- ⟦{音楽|おんがく}→音楽：00661_ongaku⟧{評論家|ひょうろんか} (music critic)\n\nFORMS:\n⟦{評論|ひょうろん}→評論：05820_hyouron⟧ (criticism, critique) + ⟦{家|か}→〜家：28339_ka⟧ (professional suffix). The suffix ⟦{家|か}→〜家：28339_ka⟧ indicates a person who practices a skill or profession.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09688_kaisetsusha",
+      "reading": "かいせつしゃ",
+      "headword": "{解説者|かいせつしゃ}",
+      "label": "commentator"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18747_bunsekika",
+      "reading": "ぶんせきか",
+      "headword": "{分析家|ぶんせきか}",
+      "label": "analyst"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19430_hihyouka",
+      "reading": "ひひょうか",
+      "headword": "{批評家|ひひょうか}",
+      "label": "critic"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22771_hihanka",
+      "reading": "ひはんか",
+      "headword": "{批判家|ひはんか}",
+      "label": "critic"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23805_ronkyaku",
+      "reading": "ろんきゃく",
+      "headword": "{論客|ろんきゃく}",
+      "label": "pundit"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28063_shisouka",
+      "reading": "しそうか",
+      "headword": "{思想家|しそうか}",
+      "label": "thinker"
+    }
+  ],
   "metadata": {
     "created": "2026-03-12T08:55:43Z",
-    "modified": "2026-03-12T08:55:43Z",
+    "modified": "2026-09-02T04:01:44Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["occupation"]
+      "semantic": [
+        "occupation"
+      ]
     }
   }
 }

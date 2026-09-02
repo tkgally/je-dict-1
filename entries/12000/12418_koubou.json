@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "12418_koubou_ex1",
-      "japanese": "{陶芸|とうげい}{工房|こうぼう}を{見学|けんがく}する。",
+      "japanese": "⟦{陶芸|とうげい}→陶芸：04449_tougei⟧{工房|こうぼう}⟦を→を：00422_wo⟧⟦{見学|けんがく}→見学：00214_kengaku⟧⟦する→する：00392_suru⟧。",
       "english": "To tour a pottery workshop.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12418_koubou_ex2",
-      "japanese": "この{工房|こうぼう}では{手作|てづく}りのガラス{製品|せいひん}を{作|つく}っている。",
+      "japanese": "⟦この→この：00962_kono⟧{工房|こうぼう}⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{手作|てづく}り→手作り：08300_tezukuri⟧⟦の→の：09472_no⟧⟦ガラス→ガラス：01777_garasu⟧⟦{製品|せいひん}→製品：01445_seihin⟧⟦を→を：00422_wo⟧⟦{作|つく}っている→作る：00481_tsukuru⟧。",
       "english": "At this workshop, they make handmade glass products.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12418_koubou_ex3",
-      "japanese": "{彼|かれ}は{古|ふる}い{倉庫|そうこ}を{改装|かいそう}して{自分|じぶん}の{工房|こうぼう}にし、そこで{毎日|まいにち}{家具|かぐ}を{作|つく}っている。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{古|ふる}い→古い：00488_furui⟧⟦{倉庫|そうこ}→倉庫：04044_souko⟧⟦を→を：00422_wo⟧⟦{改装|かいそう}→改装：09682_kaisou⟧⟦して→する：00392_suru⟧⟦{自分|じぶん}→自分：02887_jibun⟧⟦の→の：09472_no⟧{工房|こうぼう}にし、⟦そこ→そこ：00991_soko⟧⟦で→で：00502_de⟧⟦{毎日|まいにち}→毎日：00729_mainichi⟧⟦{家具|かぐ}→家具：12314_kagu⟧⟦を→を：00422_wo⟧⟦{作|つく}っている→作る：00481_tsukuru⟧。",
       "english": "He renovated an old warehouse into his own workshop and makes furniture there every day.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "STRUCTURE:\n{工|こう} (work, craft) + {房|ぼう} (room, chamber).\n\nUSAGE:\n{工房|こうぼう} has a craft-oriented nuance, suggesting skilled handwork and artisanal production. It is commonly used for pottery, glasswork, woodworking, leather goods, and similar crafts. Compare with {工場|こうじょう} (factory), which implies larger-scale industrial production. Many {工房|こうぼう} are open to visitors and offer hands-on experiences.\n\nCOMMON COLLOCATIONS:\n- {陶芸|とうげい}{工房|こうぼう}: pottery workshop\n- ガラス{工房|こうぼう}: glass workshop\n- {革|かわ}{工房|こうぼう}: leather workshop\n- {工房|こうぼう}{見学|けんがく}: workshop tour\n- {工房|こうぼう}を{構|かま}える: to set up a workshop",
+  "notes": "COMMON PATTERNS:\n{工|こう} (work, craft) + {房|ぼう} (room, chamber).\n\nUSAGE:\n{工房|こうぼう} has a craft-oriented nuance, suggesting skilled handwork and artisanal production. It is commonly used for pottery, glasswork, woodworking, leather goods, and similar crafts. Compare with ⟦{工場|こうじょう}→工場：01082_koujou⟧ (factory), which implies larger-scale industrial production. Many {工房|こうぼう} are open to visitors and offer hands-on experiences.\n\nCOMMON COLLOCATIONS:\n- ⟦{陶芸|とうげい}→陶芸：04449_tougei⟧{工房|こうぼう}: pottery workshop\n- ⟦ガラス→ガラス：01777_garasu⟧{工房|こうぼう}: glass workshop\n- ⟦{革|かわ}→革：19310_kawa⟧{工房|こうぼう}: leather workshop\n- {工房|こうぼう}⟦{見学|けんがく}→見学：00214_kengaku⟧: workshop tour\n- {工房|こうぼう}⟦を→を：00422_wo⟧⟦{構|かま}える→構える：09567_kamaeru⟧: to set up a workshop",
   "cross_references": [
     {
       "type": "contrast",
@@ -53,18 +59,44 @@
       "reading": "こうぼう",
       "headword": "{攻防|こうぼう}",
       "label": "offense and defense"
+    },
+    {
+      "type": "related",
+      "target_id": "07878_sagyouba",
+      "reading": "さぎょうば",
+      "headword": "{作業場|さぎょうば}",
+      "label": "workplace"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24568_gashitsu",
+      "reading": "がしつ",
+      "headword": "{画室|がしつ}",
+      "label": "artist's studio"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26008_machikouba",
+      "reading": "まちこうば",
+      "headword": "{町工場|まちこうば}",
+      "label": "small neighborhood factory"
     }
   ],
   "metadata": {
     "created": "2026-02-21T06:12:01Z",
-    "modified": "2026-04-27T04:29:29Z",
+    "modified": "2026-09-02T04:01:29Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["building", "culture"]
+      "semantic": [
+        "building",
+        "culture"
+      ]
     }
   }
 }

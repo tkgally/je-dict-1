@@ -3,7 +3,7 @@
   "headword": "{階建|かいだ}て",
   "reading": "かいだて",
   "romaji": "kaidate",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suffix",
   "gloss": "~-story building; -floor construction",
   "schema_version": "2.0",
   "definitions": [
@@ -16,40 +16,59 @@
   "examples": [
     {
       "id": "29226_kaidate_ex1",
-      "japanese": "{二|に}{階建|かいだ}ての{家|いえ}に{住|す}んでいる。",
+      "japanese": "⟦{二|に}→二：00736_ni⟧{階建|かいだ}て⟦の→の：09472_no⟧⟦{家|いえ}→家：00612_ie⟧⟦に→に：00314_ni⟧⟦{住|す}んでいる→住む：00673_sumu⟧。",
       "english": "I live in a two-story house.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29226_kaidate_ex2",
-      "japanese": "このビルは{十|じゅう}{階建|かいだ}てだ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦ビル→ビル：01500_biru⟧⟦は→は：00079_ha⟧⟦{十|じゅう}→十：00708_juu⟧{階建|かいだ}てだ。",
       "english": "This building is ten stories tall.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29226_kaidate_ex3",
-      "japanese": "{三|さん}{階建|かいだ}ての{マンション|まんしょん}の{二|に}{階|かい}に{引|ひ}っ{越|こ}した。",
+      "japanese": "⟦{三|さん}→三：00749_san⟧{階建|かいだ}て⟦の→の：09472_no⟧⟦マンション→マンション：01035_manshon⟧⟦の→の：09472_no⟧⟦{二|に}{階|かい}→二階：27513_nikai⟧⟦に→に：00314_ni⟧⟦{引|ひ}っ{越|こ}した→引っ越す：01171_hikkosu⟧。",
       "english": "I moved to the second floor of a three-story apartment building.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Always used with a number prefix: {一|いっ}{階建|かいだ}て (one-story), {二|に}{階建|かいだ}て (two-story), {三|さん}{階建|かいだ}て (three-story), etc.\n\nCOMMON PATTERNS:\n- {一|いっ}{階建|かいだ}て: single-story\n- {二|に}{階建|かいだ}て: two-story\n- {三|さん}{階建|かいだ}て: three-story\n- {何|なん}{階建|かいだ}て: how many stories?\n\nSIMILAR WORDS:\n- {階|かい}: floor, story — the counter for floors in a building ({三|さん}{階|かい} = third floor)\n- {建物|たてもの}: building — general term for a structure",
-  "cross_references": [],
+  "notes": "Always used with a number prefix: {一|いっ}{階建|かいだ}て (one-story), ⟦{二|に}→二：00736_ni⟧{階建|かいだ}て (two-story), ⟦{三|さん}→三：00749_san⟧{階建|かいだ}て (three-story), etc.\n\nCOMMON PATTERNS:\n- {一|いっ}{階建|かいだ}て: single-story\n- ⟦{二|に}→二：00736_ni⟧{階建|かいだ}て: two-story\n- ⟦{三|さん}→三：00749_san⟧{階建|かいだ}て: three-story\n- {何|なん}{階建|かいだ}て: how many stories?\n\nSIMILAR WORDS:\n- ⟦{階|かい}→階：01034_kai⟧: floor, story — the counter for floors in a building (⟦{三|さん}→三：00749_san⟧⟦{階|かい}→階：01034_kai⟧ = third floor)\n- ⟦{建物|たてもの}→建物：01458_tatemono⟧: building — general term for a structure",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01458_tatemono",
+      "reading": "たてもの",
+      "headword": "{建物|たてもの}",
+      "label": "building"
+    }
+  ],
   "metadata": {
     "created": "2026-06-13T21:22:42Z",
-    "modified": "2026-06-13T21:22:42Z",
+    "modified": "2026-09-02T04:02:36Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "suffix"],
+      "pos": [
+        "noun",
+        "suffix"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["building"],
+      "semantic": [
+        "building"
+      ],
       "domain": []
     }
   }

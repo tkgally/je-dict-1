@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "17131_tomegu_ex1",
-      "japanese": "{留|と}め{具|ぐ}が{外|はず}れた。",
+      "japanese": "{留|と}め{具|ぐ}⟦が→が：00051_ga⟧⟦{外|はず}れた→外れる：02395_hazureru⟧。",
       "english": "The clasp came undone.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "17131_tomegu_ex2",
-      "japanese": "ネックレスの{留|と}め{具|ぐ}が{壊|こわ}れてしまった。",
+      "japanese": "⟦ネックレス→ネックレス：04539_nekkuresu⟧⟦の→の：09472_no⟧{留|と}め{具|ぐ}⟦が→が：00051_ga⟧⟦{壊|こわ}れて→壊れる：00791_kowareru⟧しまった。",
       "english": "The clasp on my necklace broke.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "17131_tomegu_ex3",
-      "japanese": "この{鞄|かばん}の{留|と}め{具|ぐ}は{金属|きんぞく}{製|せい}で{丈夫|じょうぶ}だ。",
+      "japanese": "⟦この→この：00962_kono⟧{鞄|かばん}⟦の→の：09472_no⟧{留|と}め{具|ぐ}⟦は→は：00079_ha⟧⟦{金属|きんぞく}{製|せい}→金属製：28457_kinzokusei⟧⟦で→で：00502_de⟧⟦{丈夫|じょうぶ}→丈夫：01156_joubu⟧だ。",
       "english": "The fastener on this bag is made of metal and is sturdy.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,19 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA compound of {留|と}める (to fasten) + {具|ぐ} (tool, implement). A general term for any kind of fastening device.\n\nCOMMON COLLOCATIONS:\n- {留|と}め{具|ぐ}を{外|はず}す (to undo a fastener)\n- {留|と}め{具|ぐ}を{付|つ}ける (to attach a fastener)\n- {留|と}め{具|ぐ}が{壊|こわ}れる (the fastener breaks)\n\nSIMILAR WORDS:\n- ボタン: button — a specific type of fastener for clothing\n- バックル: buckle — a specific type of fastener for belts and straps",
-  "cross_references": [],
+  "notes": "USAGE:\nA compound of ⟦{留|と}める→留める：10053_tomeru⟧ (to fasten) + ⟦{具|ぐ}→具：07857_gu⟧ (tool, implement). A general term for any kind of fastening device.\n\nCOMMON COLLOCATIONS:\n- {留|と}め{具|ぐ}⟦を→を：00422_wo⟧⟦{外|はず}す→外す：02394_hazusu⟧ (to undo a fastener)\n- {留|と}め{具|ぐ}⟦を→を：00422_wo⟧⟦{付|つ}ける→付ける：00761_tsukeru⟧ (to attach a fastener)\n- {留|と}め{具|ぐ}⟦が→が：00051_ga⟧⟦{壊|こわ}れる→壊れる：00791_kowareru⟧ (the fastener breaks)\n\nSIMILAR WORDS:\n- ⟦ボタン→ボタン：02963_botan⟧: button — a specific type of fastener for clothing\n- バックル: buckle — a specific type of fastener for belts and straps",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23997_kuranpu",
+      "reading": "くらんぷ",
+      "headword": "クランプ",
+      "label": "clamp"
+    }
+  ],
   "metadata": {
     "created": "2026-03-16T03:05:54Z",
-    "modified": "2026-07-22T18:50:18Z",
+    "modified": "2026-09-02T04:01:47Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

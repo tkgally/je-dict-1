@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22858_shuuzouko_ex1",
-      "japanese": "{美術品|びじゅつひん}は{収蔵庫|しゅうぞうこ}に{保管|ほかん}されている。",
+      "japanese": "⟦{美術品|びじゅつひん}→美術品：28549_bijutsuhin⟧⟦は→は：00079_ha⟧{収蔵庫|しゅうぞうこ}⟦に→に：00314_ni⟧⟦{保管|ほかん}→保管：11442_hokan⟧⟦されている→する：00392_suru⟧。",
       "english": "The artworks are kept in a storage facility.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22858_shuuzouko_ex2",
-      "japanese": "{博物館|はくぶつかん}の{収蔵庫|しゅうぞうこ}は{一般|いっぱん}{公開|こうかい}されていない。",
+      "japanese": "⟦{博物館|はくぶつかん}→博物館：01494_hakubutsukan⟧⟦の→の：09472_no⟧{収蔵庫|しゅうぞうこ}⟦は→は：00079_ha⟧⟦{一般|いっぱん}{公開|こうかい}→一般公開：16978_ippankoukai⟧⟦されていない→する：00392_suru⟧。",
       "english": "The museum's storage facility is not open to the public.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22858_shuuzouko_ex3",
-      "japanese": "{温度|おんど}と{湿度|しつど}が{管理|かんり}された{収蔵庫|しゅうぞうこ}で、{貴重|きちょう}な{資料|しりょう}が{守|まも}られている。",
+      "japanese": "⟦{温度|おんど}→温度：00333_ondo⟧⟦と→と：00512_to⟧⟦{湿度|しつど}→湿度：03181_shitsudo⟧⟦が→が：00051_ga⟧⟦{管理|かんり}→管理：00178_kanri⟧⟦された→する：00392_suru⟧{収蔵庫|しゅうぞうこ}⟦で→で：00502_de⟧、⟦{貴重|きちょう}→貴重：00223_kichou⟧な⟦{資料|しりょう}→資料：04166_shiryou⟧⟦が→が：00051_ga⟧⟦{守|まも}られている→守る：01986_mamoru⟧。",
       "english": "Valuable documents are protected in a storage facility with controlled temperature and humidity.",
       "sense_numbers": [
         1
@@ -44,20 +44,45 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {収蔵|しゅうぞう} (storage, collection) and {庫|こ} (storehouse). Refers specifically to purpose-built storage spaces, particularly in institutional settings like museums, galleries, and archives where items are preserved under controlled conditions.\n\nCOMMON COLLOCATIONS:\n- {美術館|びじゅつかん}の{収蔵庫|しゅうぞうこ}: art museum storage\n- {博物館|はくぶつかん}の{収蔵庫|しゅうぞうこ}: museum storage\n- {収蔵庫|しゅうぞうこ}に{保管|ほかん}する: to store in a repository\n- {収蔵庫|しゅうぞうこ}の{見学|けんがく}: tour of the storage facility\n\nSIMILAR WORDS:\n- {倉庫|そうこ}: warehouse, storage — a more general term for any storage space\n- {書庫|しょこ}: book storage, stacks — specifically for books and documents\n- {金庫|きんこ}: safe, vault — specifically for valuables and money\n- {収蔵品|しゅうぞうひん}: collection items, stored holdings — the items kept in a {収蔵庫|しゅうぞうこ}",
+  "notes": "Composed of {収蔵|しゅうぞう} (storage, collection) and {庫|こ} (storehouse). Refers specifically to purpose-built storage spaces, particularly in institutional settings like museums, galleries, and archives where items are preserved under controlled conditions.\n\nCOMMON COLLOCATIONS:\n- ⟦{美術館|びじゅつかん}→美術館：01717_bijutsukan⟧⟦の→の：09472_no⟧{収蔵庫|しゅうぞうこ}: art museum storage\n- ⟦{博物館|はくぶつかん}→博物館：01494_hakubutsukan⟧⟦の→の：09472_no⟧{収蔵庫|しゅうぞうこ}: museum storage\n- {収蔵庫|しゅうぞうこ}⟦に→に：00314_ni⟧⟦{保管|ほかん}する→保管する：25536_hokansuru⟧: to store in a repository\n- {収蔵庫|しゅうぞうこ}⟦の→の：09472_no⟧⟦{見学|けんがく}→見学：00214_kengaku⟧: tour of the storage facility\n\nSIMILAR WORDS:\n- ⟦{倉庫|そうこ}→倉庫：04044_souko⟧: warehouse, storage — a more general term for any storage space\n- ⟦{書庫|しょこ}→書庫：16230_shoko⟧: book storage, stacks — specifically for books and documents\n- ⟦{金庫|きんこ}→金庫：01749_kinko⟧: safe, vault — specifically for valuables and money\n- {収蔵品|しゅうぞうひん}: collection items, stored holdings — the items kept in a {収蔵庫|しゅうぞうこ}",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04044_souko",
+      "reading": "そうこ",
+      "headword": "{倉庫|そうこ}",
+      "label": "warehouse, storage"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16230_shoko",
+      "reading": "しょこ",
+      "headword": "{書庫|しょこ}",
+      "label": "book storage, stacks"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01749_kinko",
+      "reading": "きんこ",
+      "headword": "{金庫|きんこ}",
+      "label": "safe, vault"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "building",
         "culture"
       ]
     },
     "created": "2026-04-07T18:27:51Z",
-    "modified": "2026-04-07T18:27:51Z"
+    "modified": "2026-09-02T04:02:10Z"
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24076_goten_ex1",
-      "japanese": "{城|しろ}の{中|なか}に{御殿|ごてん}がある。",
+      "japanese": "⟦{城|しろ}→城：03255_shiro⟧⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧⟦に→に：00314_ni⟧{御殿|ごてん}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There is a palace inside the castle.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24076_goten_ex2",
-      "japanese": "あの{家|いえ}はまるで{御殿|ごてん}のようだ。",
+      "japanese": "⟦あの→あの：00915_ano⟧⟦{家|いえ}→家：00612_ie⟧⟦は→は：00079_ha⟧⟦まるで→まるで：03739_marude⟧{御殿|ごてん}⟦の→の：09472_no⟧ようだ。",
       "english": "That house is like a palace.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24076_goten_ex3",
-      "japanese": "{名古屋城|なごやじょう}の{本丸|ほんまる}{御殿|ごてん}が{復元|ふくげん}されて{公開|こうかい}された。",
+      "japanese": "{名古屋城|なごやじょう}⟦の→の：09472_no⟧⟦{本丸|ほんまる}→本丸：24197_honmaru⟧{御殿|ごてん}⟦が→が：00051_ga⟧⟦{復元|ふくげん}→復元：09249_fukugen⟧⟦されて→する：00392_suru⟧⟦{公開|こうかい}→公開：11665_koukai⟧⟦された→する：00392_suru⟧。",
       "english": "The main palace of Nagoya Castle was restored and opened to the public.",
       "sense_numbers": [
         1
@@ -44,20 +44,37 @@
       "notes": null
     }
   ],
-  "notes": "Originally referred to the residential quarters within a castle or the home of a feudal lord ({殿様|とのさま}). In modern usage, appears frequently in historical contexts, place names, and as a metaphor for a lavishly grand house.\n\nCOMMON COLLOCATIONS:\n- {本丸|ほんまる}{御殿|ごてん}: the main palace (within a castle)\n- {二|に}の{丸|まる}{御殿|ごてん}: secondary palace\n- {竜宮|りゅうぐう}{御殿|ごてん}: the Dragon Palace (from the folktale)\n- {御殿|ごてん}のような{家|いえ}: a house like a palace\n\nETYMOLOGY:\nThe {御|ご} is an honorific prefix, and {殿|てん} means a large building or hall. The word carries a sense of grandeur and high status.\n\nSIMILAR WORDS:\n- {宮殿|きゅうでん}: palace — more specifically a royal or imperial palace\n- {邸宅|ていたく}: mansion/residence — a grand private home without the historical connotations",
+  "notes": "Originally referred to the residential quarters within a castle or the home of a feudal lord (⟦{殿様|とのさま}→殿様：10455_tonosama⟧). In modern usage, appears frequently in historical contexts, place names, and as a metaphor for a lavishly grand house.\n\nCOMMON COLLOCATIONS:\n- ⟦{本丸|ほんまる}→本丸：24197_honmaru⟧{御殿|ごてん}: the main palace (within a castle)\n- {二|に}の{丸|まる}{御殿|ごてん}: secondary palace\n- {竜宮|りゅうぐう}{御殿|ごてん}: the Dragon Palace (from the folktale)\n- {御殿|ごてん}⟦の→の：09472_no⟧ような⟦{家|いえ}→家：00612_ie⟧: a house like a palace\n\nETYMOLOGY:\nThe {御|ご} is an honorific prefix, and {殿|てん} means a large building or hall. The word carries a sense of grandeur and high status.\n\nSIMILAR WORDS:\n- ⟦{宮殿|きゅうでん}→宮殿：12285_kyuuden⟧: palace — more specifically a royal or imperial palace\n- ⟦{邸宅|ていたく}→邸宅：14434_teitaku⟧: mansion/residence — a grand private home without the historical connotations",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12285_kyuuden",
+      "reading": "きゅうでん",
+      "headword": "{宮殿|きゅうでん}",
+      "label": "palace"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14434_teitaku",
+      "reading": "ていたく",
+      "headword": "{邸宅|ていたく}",
+      "label": "mansion/residence"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
       "semantic": [
         "building",
         "history"
       ]
     },
     "created": "2026-04-17T17:37:29Z",
-    "modified": "2026-08-02T18:32:34Z"
+    "modified": "2026-09-02T04:02:16Z"
   }
 }

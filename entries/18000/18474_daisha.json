@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "18474_daisha_ex1",
-      "japanese": "{台車|だいしゃ}で{荷物|にもつ}を{運|はこ}ぶ。",
+      "japanese": "{台車|だいしゃ}⟦で→で：00502_de⟧⟦{荷物|にもつ}→荷物：00737_nimotsu⟧⟦を→を：00422_wo⟧⟦{運|はこ}ぶ→運ぶ：01088_hakobu⟧。",
       "english": "To transport luggage on a hand cart.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "18474_daisha_ex2",
-      "japanese": "{引|ひ}っ{越|こ}しの{時|とき}に{台車|だいしゃ}を{借|か}りた。",
+      "japanese": "{引|ひ}っ{越|こ}し⟦の→の：09472_no⟧{時|とき}⟦に→に：00314_ni⟧{台車|だいしゃ}⟦を→を：00422_wo⟧⟦{借|か}りた→借りる：00532_kariru⟧。",
       "english": "I borrowed a dolly when I moved.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "18474_daisha_ex3",
-      "japanese": "{倉庫|そうこ}から{台車|だいしゃ}に{段|だん}ボールを{載|の}せて{運|はこ}んだ。",
+      "japanese": "⟦{倉庫|そうこ}→倉庫：04044_souko⟧⟦から→から：00504_kara⟧{台車|だいしゃ}⟦に→に：00314_ni⟧⟦{段|だん}ボール→段ボール：18885_danbooru⟧⟦を→を：00422_wo⟧⟦{載|の}せて→載せる：28290_noseru⟧⟦{運|はこ}んだ→運ぶ：01088_hakobu⟧。",
       "english": "I loaded cardboard boxes onto a dolly and transported them from the warehouse.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "{台車|だいしゃ} is a wheeled platform used to move heavy or bulky items. Commonly seen in warehouses, factories, moving operations, and retail stores.\n\nCOMPOSITION:\n{台|だい} (stand, platform) + {車|しゃ} (wheel, vehicle).\n\nCOMMON COLLOCATIONS:\n- {台車|だいしゃ}で{運|はこ}ぶ: to transport by hand cart\n- {台車|だいしゃ}に{載|の}せる: to load onto a cart\n- {台車|だいしゃ}を{押|お}す: to push a cart\n- {台車|だいしゃ}を{借|か}りる: to borrow a cart\n\nUSAGE:\nA practical everyday word. You may see signs saying {台車|だいしゃ}{貸|か}し{出|だ}し (cart rental/lending) at home improvement stores and moving companies. Some supermarkets and airports also provide {台車|だいしゃ} for customer use.",
+  "notes": "{台車|だいしゃ} is a wheeled platform used to move heavy or bulky items. Commonly seen in warehouses, factories, moving operations, and retail stores.\n\nETYMOLOGY:\n{台|だい} (stand, platform) + ⟦{車|しゃ}→車：09874_sha⟧ (wheel, vehicle).\n\nCOMMON COLLOCATIONS:\n- {台車|だいしゃ}⟦で→で：00502_de⟧⟦{運|はこ}ぶ→運ぶ：01088_hakobu⟧: to transport by hand cart\n- {台車|だいしゃ}⟦に→に：00314_ni⟧⟦{載|の}せる→載せる：28290_noseru⟧: to load onto a cart\n- {台車|だいしゃ}⟦を→を：00422_wo⟧⟦{押|お}す→押す：02854_osu⟧: to push a cart\n- {台車|だいしゃ}⟦を→を：00422_wo⟧⟦{借|か}りる→借りる：00532_kariru⟧: to borrow a cart\n\nUSAGE:\nA practical everyday word. You may see signs saying {台車|だいしゃ}{貸|か}し{出|だ}し (cart rental/lending) at home improvement stores and moving companies. Some supermarkets and airports also provide {台車|だいしゃ} for customer use.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25090_unpansha",
+      "reading": "うんぱんしゃ",
+      "headword": "{運搬車|うんぱんしゃ}",
+      "label": "transport vehicle"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26632_teguruma",
+      "reading": "てぐるま",
+      "headword": "{手車|てぐるま}",
+      "label": "handcart"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +75,6 @@
       ]
     },
     "created": "2026-03-22T03:07:49Z",
-    "modified": "2026-05-08T10:08:08Z"
+    "modified": "2026-09-02T04:01:52Z"
   }
 }

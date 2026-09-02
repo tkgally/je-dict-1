@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "10741_yoshi_ex1",
-      "japanese": "よし、{始|はじ}めよう。",
+      "japanese": "よし、⟦{始|はじ}めよう→始める：00531_hajimeru⟧。",
       "english": "Alright, let's get started.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "10741_yoshi_ex2",
-      "japanese": "よし、{今日|きょう}は{頑張|がんば}るぞ。",
+      "japanese": "よし、⟦{今日|きょう}→今日：00496_kyou⟧⟦は→は：00079_ha⟧⟦{頑張|がんば}る→頑張る：01222_ganbaru⟧ぞ。",
       "english": "Right, I'm going to give it my all today.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "10741_yoshi_ex3",
-      "japanese": "{準備|じゅんび}ができた。よし、{出発|しゅっぱつ}しよう。",
+      "japanese": "⟦{準備|じゅんび}→準備：01431_junbi⟧⟦が→が：00051_ga⟧⟦できた→できる：00557_dekiru⟧。よし、⟦{出発|しゅっぱつ}しよう→出発する：01832_shuppatsusuru⟧。",
       "english": "I'm all set. Okay, let's head out.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "よし is an interjection used to psych oneself up or signal determination before taking action. It translates roughly as \"alright!\" or \"okay, here I go!\"\n\nUSAGE:\nTypically said when steeling oneself to do something or after making a decision. It is distinct from いい/よい (good) — here it functions purely as an exclamation, not an adjective.\n\nVARIATIONS:\n- よっし: slightly more emphatic\n- よっしゃ: excited or triumphant; often used after a success (\"Yes!\")\n- よーし: drawn out for dramatic emphasis\n\nCOMMON PATTERNS:\n- よし、{行|い}こう！: Alright, let's go!\n- よし、{決|き}めた！: Okay, I've decided!\n- よし、やるぞ！: Right, let's do this!\n\nREGISTER:\nInformal. Mostly used in spoken language and internal monologue. Sounds masculine in some contexts, though all genders use it. Not appropriate in formal settings.",
+  "notes": "よし is an interjection used to psych oneself up or signal determination before taking action. It translates roughly as \"alright!\" or \"okay, here I go!\"\n\nUSAGE:\nTypically said when steeling oneself to do something or after making a decision. It is distinct from ⟦いい→いい：00118_ii⟧/よい (good) — here it functions purely as an exclamation, not an adjective.\n\nFORMS:\n- よっし: slightly more emphatic\n- ⟦よっしゃ→よっしゃ：10754_yossha⟧: excited or triumphant; often used after a success (\"Yes!\")\n- よーし: drawn out for dramatic emphasis\n\nCOMMON PATTERNS:\n- よし、⟦{行|い}こう→行く：00119_iku⟧！: Alright, let's go!\n- よし、⟦{決|き}めた→決める：00858_kimeru⟧！: Okay, I've decided!\n- よし、⟦やる→やる：02980_yaru⟧ぞ！: Right, let's do this!\n\nREGISTER:\nInformal. Mostly used in spoken language and internal monologue. Sounds masculine in some contexts, though all genders use it. Not appropriate in formal settings.",
   "cross_references": [
     {
       "type": "related",
@@ -52,11 +52,18 @@
       "headword": "よっしゃ",
       "label": "emphatic variant",
       "target_id": "10754_yossha"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28667_ossha",
+      "reading": "おっしゃ",
+      "headword": "おっしゃ",
+      "label": "Alright!"
     }
   ],
   "metadata": {
     "created": "2026-02-09T16:01:15Z",
-    "modified": "2026-03-29T09:23:00Z",
+    "modified": "2026-09-02T04:01:22Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

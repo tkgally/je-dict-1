@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30252_taizaisha_ex1",
-      "japanese": "{長期|ちょうき}{滞在者|たいざいしゃ}が{増|ふ}えている。",
+      "japanese": "⟦{長期|ちょうき}→長期：03487_chouki⟧{滞在者|たいざいしゃ}⟦が→が：00051_ga⟧⟦{増|ふ}えている→増える：01183_fueru⟧。",
       "english": "The number of long-term residents is increasing.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30252_taizaisha_ex2",
-      "japanese": "{滞在者|たいざいしゃ}は{受付|うけつけ}で{名前|なまえ}を{書|か}いてください。",
+      "japanese": "{滞在者|たいざいしゃ}⟦は→は：00079_ha⟧⟦{受付|うけつけ}→受付：01325_uketsuke⟧⟦で→で：00502_de⟧⟦{名前|なまえ}→名前：02234_namae⟧⟦を→を：00422_wo⟧⟦{書|か}いて→書く：00477_kaku⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Those staying here, please write your name at the front desk.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30252_taizaisha_ex3",
-      "japanese": "この{制度|せいど}は、{三|み}か{月|つき}{以上|いじょう}の{滞在者|たいざいしゃ}を{対象|たいしょう}としている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{制度|せいど}→制度：03291_seido⟧⟦は→は：00079_ha⟧、{三|み}か{月|つき}⟦{以上|いじょう}→以上：01308_ijou⟧⟦の→の：09472_no⟧{滞在者|たいざいしゃ}⟦を→を：00422_wo⟧⟦{対象|たいしょう}→対象：03393_taishou⟧⟦として→として：06802_toshite⟧⟦いる→いる：00495_iru⟧。",
       "english": "This system applies to those staying for three months or longer.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "{滞在|たいざい} (staying, sojourn) + {者|しゃ} (person). The {者|しゃ} suffix is neutral-to-formal and appears throughout official documents; it is not used to refer to oneself.\n\nCOMMON COLLOCATIONS:\n- {長期|ちょうき}{滞在者|たいざいしゃ}: long-term resident\n- {短期|たんき}{滞在者|たいざいしゃ}: short-term visitor\n- {海外|かいがい}{滞在者|たいざいしゃ}: person staying abroad\n\nSIMILAR WORDS:\n- {居住者|きょじゅうしゃ}: resident — implies a settled place of living, not a temporary stay\n- {宿泊客|しゅくはくきゃく}: overnight guest — specifically at a hotel or inn\n- {旅行者|りょこうしゃ}: traveler — focuses on the trip rather than on remaining in one place",
+  "notes": "⟦{滞在|たいざい}→滞在：03390_taizai⟧ (staying, sojourn) + ⟦{者|しゃ}→〜者：04662_sha⟧ (person). The ⟦{者|しゃ}→〜者：04662_sha⟧ suffix is neutral-to-formal and appears throughout official documents; it is not used to refer to oneself.\n\nCOMMON COLLOCATIONS:\n- ⟦{長期|ちょうき}→長期：03487_chouki⟧{滞在者|たいざいしゃ}: long-term resident\n- {短期|たんき}{滞在者|たいざいしゃ}: short-term visitor\n- ⟦{海外|かいがい}→海外：00134_kaigai⟧{滞在者|たいざいしゃ}: person staying abroad\n\nSIMILAR WORDS:\n- ⟦{居住者|きょじゅうしゃ}→居住者：16923_kyojuusha⟧: resident — implies a settled place of living, not a temporary stay\n- ⟦{宿泊客|しゅくはくきゃく}→宿泊客：30262_shukuhakukyaku⟧: overnight guest — specifically at a hotel or inn\n- ⟦{旅行者|りょこうしゃ}→旅行者：22927_ryokousha⟧: traveler — focuses on the trip rather than on remaining in one place",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16923_kyojuusha",
+      "reading": "きょじゅうしゃ",
+      "headword": "{居住者|きょじゅうしゃ}",
+      "label": "resident"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30262_shukuhakukyaku",
+      "reading": "しゅくはくきゃく",
+      "headword": "{宿泊客|しゅくはくきゃく}",
+      "label": "overnight guest"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22927_ryokousha",
+      "reading": "りょこうしゃ",
+      "headword": "{旅行者|りょこうしゃ}",
+      "label": "traveler"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +76,7 @@
         "noun"
       ],
       "formality": "formal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "person",
         "travel"
@@ -61,6 +84,6 @@
       "domain": []
     },
     "created": "2026-07-30T12:18:26Z",
-    "modified": "2026-07-30T12:18:26Z"
+    "modified": "2026-09-02T04:02:39Z"
   }
 }

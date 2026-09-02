@@ -23,7 +23,7 @@
     },
     {
       "id": "09585_dentou_ex2",
-      "japanese": "{伝統|でんとう}⟦を→を：00422_wo⟧{守|まも}る。",
+      "japanese": "{伝統|でんとう}⟦を→を：00422_wo⟧⟦{守|まも}る→守る：01986_mamoru⟧。",
       "english": "To preserve tradition.",
       "has_audio": false,
       "sense_numbers": [
@@ -40,10 +40,40 @@
       ]
     }
   ],
-  "notes": "{伝統|でんとう} refers to customs and practices passed down over time.\n\nCOMMON EXPRESSIONS:\n- {伝統|でんとう}{的|てき}（な）: traditional\n- {伝統|でんとう}{文化|ぶんか}: traditional culture\n- {伝統|でんとう}{芸能|げいのう}: traditional performing arts\n- {伝統|でんとう}{工芸|こうげい}: traditional crafts\n- {伝統|でんとう}を{守|まも}る: to preserve tradition\n- {伝統|でんとう}を{受|う}け{継|つ}ぐ: to inherit tradition\n\nNOTE: Not to be confused with {電灯|でんとう} (electric light).",
+  "notes": "{伝統|でんとう} refers to customs and practices passed down over time.\n\nCOMMON EXPRESSIONS:\n- {伝統|でんとう}{的|てき}（な）: traditional\n- {伝統|でんとう}⟦{文化|ぶんか}→文化：01504_bunka⟧: traditional culture\n- {伝統|でんとう}⟦{芸能|げいのう}→芸能：00061_geinou⟧: traditional performing arts\n- {伝統|でんとう}⟦{工芸|こうげい}→工芸：04182_kougei⟧: traditional crafts\n- {伝統|でんとう}⟦を→を：00422_wo⟧⟦{守|まも}る→守る：01986_mamoru⟧: to preserve tradition\n- {伝統|でんとう}⟦を→を：00422_wo⟧⟦{受|う}け{継|つ}ぐ→受け継ぐ：06700_uketsugu⟧: to inherit tradition\n\nNOTE: Not to be confused with ⟦{電灯|でんとう}→電灯：01473_dentou⟧ (electric light).",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12679_kanrei",
+      "reading": "かんれい",
+      "headword": "{慣例|かんれい}",
+      "label": "custom, convention, precedent"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13567_yuisho",
+      "reading": "ゆいしょ",
+      "headword": "{由緒|ゆいしょ}",
+      "label": "history, lineage, pedigree"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13910_narawashi",
+      "reading": "ならわし",
+      "headword": "{習|なら}わし",
+      "label": "custom"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27891_inshuu",
+      "reading": "いんしゅう",
+      "headword": "因習",
+      "label": "old custom"
+    }
+  ],
   "metadata": {
     "created": "2026-02-03T01:45:11Z",
-    "modified": "2026-04-10T07:12:46Z",
+    "modified": "2026-09-02T04:01:18Z",
     "ai_model": "opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

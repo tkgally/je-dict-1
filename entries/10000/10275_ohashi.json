@@ -14,30 +14,36 @@
   "examples": [
     {
       "id": "10275_ohashi_ex1",
-      "japanese": "お{箸|はし}をください。",
+      "japanese": "お{箸|はし}⟦を→を：00422_wo⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Chopsticks, please.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10275_ohashi_ex2",
-      "japanese": "お{箸|はし}の{持|も}ち{方|かた}がきれいですね。",
+      "japanese": "お{箸|はし}⟦の→の：09472_no⟧⟦{持|も}ち{方|かた}→持ち方：28218_mochikata⟧⟦が→が：00051_ga⟧⟦きれい→きれい：00717_kirei⟧です⟦ね→ね：09474_ne⟧。",
       "english": "You hold your chopsticks beautifully.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10275_ohashi_ex3",
-      "japanese": "{割|わ}り{箸|ばし}はお{箸|はし}が{付|つ}いてこないときに{使|つか}います。",
+      "japanese": "⟦{割|わ}り{箸|ばし}→割り箸：09725_waribashi⟧⟦は→は：00079_ha⟧お{箸|はし}⟦が→が：00051_ga⟧⟦{付|つ}いて→付く：01960_tsuku⟧こないとき⟦に→に：00314_ni⟧⟦{使|つか}います→使う：00473_tsukau⟧。",
       "english": "You use disposable chopsticks when chopsticks aren't provided.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "The お prefix is standard and not overly formal — most speakers say お{箸|はし} rather than just {箸|はし} in everyday speech. Dropping the お sounds slightly rough.\n\nMATERIALS AND TYPES:\n- {割|わ}り{箸|ばし} — disposable (split) chopsticks\n- {塗|ぬ}り{箸|ばし} — lacquered chopsticks\n- マイ{箸|はし} — one's own personal chopsticks (eco trend)\n\nCHOPSTICK MANNERS ({箸|はし}のマナー): There are many taboos around chopstick use in Japan, including {刺|さ}し{箸|ばし} (stabbing food), {渡|わた}し{箸|ばし} (passing food chopstick-to-chopstick, associated with funeral rites), and {迷|まよ}い{箸|ばし} (hovering over dishes).",
+  "notes": "The お prefix is standard and not overly formal — most speakers say お{箸|はし} rather than just ⟦{箸|はし}→箸：01026_hashi⟧ in everyday speech. Dropping the お sounds slightly rough.\n\nMATERIALS AND TYPES:\n- ⟦{割|わ}り{箸|ばし}→割り箸：09725_waribashi⟧ — disposable (split) chopsticks\n- {塗|ぬ}り{箸|ばし} — lacquered chopsticks\n- マイ⟦{箸|はし}→箸：01026_hashi⟧ — one's own personal chopsticks (eco trend)\n\nCHOPSTICK MANNERS (⟦{箸|はし}→箸：01026_hashi⟧⟦の→の：09472_no⟧⟦マナー→マナー：11139_manaa⟧): There are many taboos around chopstick use in Japan, including ⟦{刺|さ}し→刺す：02111_sasu⟧{箸|ばし} (stabbing food), ⟦{渡|わた}し→渡す：02442_watasu⟧{箸|ばし} (passing food chopstick-to-chopstick, associated with funeral rites), and {迷|まよ}い{箸|ばし} (hovering over dishes).",
   "prominent_see_also": [
     {
       "target_id": "01026_hashi",
@@ -46,16 +52,28 @@
       "note": "chopsticks (plain form)"
     }
   ],
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "09725_waribashi",
+      "reading": "わりばし",
+      "headword": "{割|わ}り{箸|ばし}",
+      "label": "disposable chopsticks"
+    }
+  ],
   "metadata": {
     "created": "2026-02-05T18:06:07Z",
-    "modified": "2026-04-24T06:24:12Z",
+    "modified": "2026-09-02T04:01:20Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "polite",
-      "semantic": ["food"]
+      "semantic": [
+        "food"
+      ]
     }
   }
 }

@@ -3,7 +3,7 @@
   "id": "14036_yuugou",
   "headword": "{融合|ゆうごう}",
   "reading": "ゆうごう",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "fusion, merger, blending",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "14036_yuugou_ex1",
-      "japanese": "{東西|とうざい}の{文化|ぶんか}が{融合|ゆうごう}した{料理|りょうり}だ。",
+      "japanese": "⟦{東西|とうざい}→東西：04554_touzai⟧⟦の→の：09472_no⟧⟦{文化|ぶんか}→文化：01504_bunka⟧⟦が→が：00051_ga⟧{融合|ゆうごう}⟦した→する：00392_suru⟧⟦{料理|りょうり}→料理：01523_ryouri⟧だ。",
       "english": "This is cuisine that blends Eastern and Western cultures.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "14036_yuugou_ex2",
-      "japanese": "{核|かく}{融合|ゆうごう}エネルギーの{実用化|じつようか}が{期待|きたい}されている。",
+      "japanese": "{核|かく}{融合|ゆうごう}⟦エネルギー→エネルギー：03834_enerugii⟧⟦の→の：09472_no⟧⟦{実用化|じつようか}→実用化：29779_jitsuyouka⟧⟦が→が：00051_ga⟧⟦{期待|きたい}→期待：00238_kitai⟧⟦されている→する：00392_suru⟧。",
       "english": "The practical application of nuclear fusion energy is anticipated.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "14036_yuugou_ex3",
-      "japanese": "{伝統|でんとう}{技術|ぎじゅつ}と{最新|さいしん}テクノロジーを{融合|ゆうごう}させた{新|あたら}しい{製品|せいひん}が{話題|わだい}になっている。",
+      "japanese": "⟦{伝統|でんとう}→伝統：09585_dentou⟧⟦{技術|ぎじゅつ}→技術：01389_gijutsu⟧⟦と→と：00512_to⟧⟦{最新|さいしん}→最新：04831_saishin⟧⟦テクノロジー→テクノロジー：11587_tekunorojii⟧⟦を→を：00422_wo⟧{融合|ゆうごう}⟦させた→する：00392_suru⟧⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦{製品|せいひん}→製品：01445_seihin⟧⟦が→が：00051_ga⟧⟦{話題|わだい}→話題：03793_wadai⟧になっている。",
       "english": "A new product that fuses traditional craftsmanship with cutting-edge technology has become a hot topic.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,40 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA versatile word used across many domains. In science, {核|かく}{融合|ゆうごう} (nuclear fusion) is a key term. In culture and business, it describes the blending of different traditions, styles, or organizations.\n\nCOMMON COLLOCATIONS:\n- {文化|ぶんか}の{融合|ゆうごう}: cultural fusion\n- {核|かく}{融合|ゆうごう}: nuclear fusion\n- {融合|ゆうごう}させる: to fuse, to merge (transitive)\n- {融合|ゆうごう}する: to fuse, to merge (intransitive)",
-  "cross_references": [],
+  "notes": "USAGE:\nA versatile word used across many domains. In science, {核|かく}{融合|ゆうごう} (nuclear fusion) is a key term. In culture and business, it describes the blending of different traditions, styles, or organizations.\n\nCOMMON COLLOCATIONS:\n- ⟦{文化|ぶんか}→文化：01504_bunka⟧⟦の→の：09472_no⟧{融合|ゆうごう}: cultural fusion\n- {核|かく}{融合|ゆうごう}: nuclear fusion\n- {融合|ゆうごう}⟦させる→する：00392_suru⟧: to fuse, to merge (transitive)\n- {融合|ゆうごう}⟦する→する：00392_suru⟧: to fuse, to merge (intransitive)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04154_kongou",
+      "reading": "こんごう",
+      "headword": "{混合|こんごう}",
+      "label": "mixing, mixture, blend"
+    },
+    {
+      "type": "related",
+      "target_id": "09130_yuuwa",
+      "reading": "ゆうわ",
+      "headword": "{融和|ゆうわ}",
+      "label": "harmony, reconciliation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09921_secchuu",
+      "reading": "せっちゅう",
+      "headword": "{折衷|せっちゅう}",
+      "label": "compromise, blending, eclecticism"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26919_chouwasuru",
+      "reading": "ちょうわする",
+      "headword": "{調和|ちょうわ}する",
+      "label": "to harmonize"
+    }
+  ],
   "metadata": {
     "created": "2026-02-27T10:10:47Z",
-    "modified": "2026-03-29T03:08:18Z",
+    "modified": "2026-09-02T04:01:35Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

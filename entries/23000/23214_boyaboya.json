@@ -3,7 +3,7 @@
   "headword": "ぼやぼや",
   "reading": "ぼやぼや",
   "romaji": "boyaboya",
-  "part_of_speech": "adverb",
+  "part_of_speech": "adverb, onomatopoeia",
   "gloss": "absent-mindedly; in a daze; dawdling",
   "definitions": [
     {
@@ -15,40 +15,74 @@
   "examples": [
     {
       "id": "23214_boyaboya_ex1",
-      "japanese": "ぼやぼやしないで！",
+      "japanese": "ぼやぼや⟦しないで→する：00392_suru⟧！",
       "english": "Stop spacing out!",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "23214_boyaboya_ex2",
-      "japanese": "ぼやぼやしていると{置|お}いていくよ。",
+      "japanese": "ぼやぼや⟦している→する：00392_suru⟧⟦と→と：00512_to⟧⟦{置|お}いて→置く：01092_oku⟧いく⟦よ→よ：09475_yo⟧。",
       "english": "If you keep dawdling, I'll leave you behind.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "23214_boyaboya_ex3",
-      "japanese": "ぼやぼやしていたら{電車|でんしゃ}に{乗|の}り{遅|おく}れてしまった。",
+      "japanese": "ぼやぼや⟦していたら→する：00392_suru⟧⟦{電車|でんしゃ}→電車：00522_densha⟧⟦に→に：00314_ni⟧⟦{乗|の}り{遅|おく}れて→乗り遅れる：04621_noriokureru⟧しまった。",
       "english": "I was spacing out and missed my train.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "An onomatopoeic/mimetic word ({擬態語|ぎたいご}). Almost always used with する (ぼやぼやする) and carries a mildly critical or impatient tone — the speaker wants the other person to be more focused or to hurry up.\n\nCOMMON COLLOCATIONS:\n- ぼやぼやする: to space out, to dawdle\n- ぼやぼやしている: to be in a daze\n- ぼやぼやしないで: don't dawdle\n\nSIMILAR WORDS:\n- ぼんやり: absent-mindedly, vaguely — broader meaning, can describe hazy vision or vague understanding; less critical in tone\n- ぐずぐず: dawdling, dilly-dallying — emphasizes slowness and indecisiveness\n- のろのろ: slowly, sluggishly — emphasizes physical slowness of movement",
+  "notes": "An onomatopoeic/mimetic word (⟦{擬態語|ぎたいご}→擬態語：22468_gitaigo⟧). Almost always used with ⟦する→する：00392_suru⟧ (ぼやぼや⟦する→する：00392_suru⟧) and carries a mildly critical or impatient tone — the speaker wants the other person to be more focused or to hurry up.\n\nCOMMON COLLOCATIONS:\n- ぼやぼや⟦する→する：00392_suru⟧: to space out, to dawdle\n- ぼやぼや⟦している→する：00392_suru⟧: to be in a daze\n- ぼやぼや⟦しないで→する：00392_suru⟧: don't dawdle\n\nSIMILAR WORDS:\n- ⟦ぼんやり→ぼんやり：03727_bonyari⟧: absent-mindedly, vaguely — broader meaning, can describe hazy vision or vague understanding; less critical in tone\n- ⟦ぐずぐず→ぐずぐず：05844_guzuguzu⟧: dawdling, dilly-dallying — emphasizes slowness and indecisiveness\n- ⟦のろのろ→のろのろ：05162_noronoro⟧: slowly, sluggishly — emphasizes physical slowness of movement",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03727_bonyari",
+      "reading": "ぼんやり",
+      "headword": "ぼんやり",
+      "label": "absent-mindedly, vaguely"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05844_guzuguzu",
+      "reading": "ぐずぐず",
+      "headword": "ぐずぐず",
+      "label": "dawdling, dilly-dallying"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05162_noronoro",
+      "reading": "のろのろ",
+      "headword": "のろのろ",
+      "label": "slowly, sluggishly"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adverb", "onomatopoeia"],
+      "pos": [
+        "adverb",
+        "onomatopoeia"
+      ],
       "formality": "informal",
       "politeness": "plain",
-      "semantic": ["onomatopoeia"]
+      "semantic": [
+        "onomatopoeia"
+      ]
     },
     "created": "2026-04-10T03:42:23Z",
-    "modified": "2026-04-10T03:42:23Z"
+    "modified": "2026-09-02T04:02:11Z"
   }
 }

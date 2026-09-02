@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "16750_kirinukeru_ex1",
-      "japanese": "{危機|きき}を{切|き}り{抜|ぬ}けた。",
+      "japanese": "⟦{危機|きき}→危機：11798_kiki⟧⟦を→を：00422_wo⟧⟦{切|き}り{抜|ぬ}け→切り抜く：06054_kirinuku⟧た。",
       "english": "We got through the crisis.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "16750_kirinukeru_ex2",
-      "japanese": "なんとか{困難|こんなん}な{状況|じょうきょう}を{切|き}り{抜|ぬ}けることができた。",
+      "japanese": "なん⟦と→と：00512_to⟧⟦か→か：09473_ka⟧⟦{困難|こんなん}→困難：01410_konnan⟧な⟦{状況|じょうきょう}→状況：01576_joukyou⟧⟦を→を：00422_wo⟧{切|き}り{抜|ぬ}けること⟦が→が：00051_ga⟧⟦できた→できる：00557_dekiru⟧。",
       "english": "We somehow managed to get through the difficult situation.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "16750_kirinukeru_ex3",
-      "japanese": "{会社|かいしゃ}は{不景気|ふけいき}の{時期|じき}をうまく{切|き}り{抜|ぬ}けて、{今|いま}では{業績|ぎょうせき}が{回復|かいふく}している。",
+      "japanese": "⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦は→は：00079_ha⟧⟦{不景気|ふけいき}→不景気：18557_fukeiki⟧⟦の→の：09472_no⟧⟦{時期|じき}→時期：03269_jiki⟧⟦を→を：00422_wo⟧⟦うまく→うまい：01279_umai⟧⟦{切|き}り{抜|ぬ}け→切り抜く：06054_kirinuku⟧て、⟦{今|いま}→今：00945_ima⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{業績|ぎょうせき}→業績：04873_gyouseki⟧⟦が→が：00051_ga⟧⟦{回復|かいふく}している→回復する：21330_kaifukusuru⟧。",
       "english": "The company successfully weathered the recession and its performance has now recovered.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "FORMATION:\nA compound verb from {切|き}る (to cut) + {抜|ぬ}ける (to pass through). The image is of cutting one's way through obstacles.\n\nCOMMON COLLOCATIONS:\n- {危機|きき}を{切|き}り{抜|ぬ}ける (to get through a crisis)\n- {困難|こんなん}を{切|き}り{抜|ぬ}ける (to overcome difficulty)\n- {窮地|きゅうち}を{切|き}り{抜|ぬ}ける (to escape a tight spot)\n\nSIMILAR WORDS:\n- {乗|の}り{越|こ}える: to overcome — emphasizes conquering rather than surviving\n- {凌|しの}ぐ: to endure, to weather — focuses on endurance",
+  "notes": "FORMS:\nA compound verb from ⟦{切|き}る→切る：02693_kiru⟧ (to cut) + ⟦{抜|ぬ}ける→抜ける：02385_nukeru⟧ (to pass through). The image is of cutting one's way through obstacles.\n\nCOMMON COLLOCATIONS:\n- ⟦{危機|きき}→危機：11798_kiki⟧⟦を→を：00422_wo⟧{切|き}り{抜|ぬ}ける (to get through a crisis)\n- ⟦{困難|こんなん}→困難：01410_konnan⟧⟦を→を：00422_wo⟧{切|き}り{抜|ぬ}ける (to overcome difficulty)\n- ⟦{窮地|きゅうち}→窮地：08684_kyuuchi⟧⟦を→を：00422_wo⟧{切|き}り{抜|ぬ}ける (to escape a tight spot)\n\nSIMILAR WORDS:\n- ⟦{乗|の}り{越|こ}える→乗り越える：04620_norikoeru⟧: to overcome — emphasizes conquering rather than surviving\n- ⟦{凌|しの}ぐ→凌ぐ：07388_shinogu⟧: to endure, to weather — focuses on endurance",
   "cross_references": [
     {
       "type": "synonym",
@@ -142,11 +142,18 @@
       "reading": "のりこえる",
       "headword": "{乗|の}り{越|こ}える",
       "label": "to overcome (conquer)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07388_shinogu",
+      "reading": "しのぐ",
+      "headword": "{凌|しの}ぐ",
+      "label": "to endure, to weather"
     }
   ],
   "metadata": {
     "created": "2026-03-14T06:28:39Z",
-    "modified": "2026-05-04T10:11:42Z",
+    "modified": "2026-09-02T04:01:46Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

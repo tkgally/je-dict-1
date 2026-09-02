@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25872_houshinjoutai_ex1",
-      "japanese": "{試験|しけん}の{後|あと}、{放心状態|ほうしんじょうたい}だった。",
+      "japanese": "⟦{試験|しけん}→試験：01422_shiken⟧⟦の→の：09472_no⟧⟦{後|あと}→後：09580_ato⟧、{放心状態|ほうしんじょうたい}だった。",
       "english": "I was in a daze after the exam.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25872_houshinjoutai_ex2",
-      "japanese": "{彼|かれ}は{放心状態|ほうしんじょうたい}でぼんやり{座|すわ}っていた。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{放心状態|ほうしんじょうたい}⟦で→で：00502_de⟧⟦ぼんやり→ぼんやり：03727_bonyari⟧⟦{座|すわ}っていた→座る：00757_suwaru⟧。",
       "english": "He was sitting blankly in a dazed state.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25872_houshinjoutai_ex3",
-      "japanese": "{事故|じこ}の{知|し}らせを{聞|き}いて{放心状態|ほうしんじょうたい}になった。",
+      "japanese": "⟦{事故|じこ}→事故：00851_jiko⟧⟦の→の：09472_no⟧⟦{知|し}らせ→知らせ：03252_shirase⟧⟦を→を：00422_wo⟧⟦{聞|き}いて→聞く：00483_kiku⟧{放心状態|ほうしんじょうたい}になった。",
       "english": "I was left in a daze upon hearing the news of the accident.",
       "sense_numbers": [
         1
@@ -45,7 +45,7 @@
     },
     {
       "id": "25872_houshinjoutai_ex4",
-      "japanese": "{映画|えいが}のラストシーンが{衝撃的|しょうげきてき}で、{終|お}わった{後|あと}しばらく{放心状態|ほうしんじょうたい}だった。",
+      "japanese": "⟦{映画|えいが}→映画：02273_eiga⟧⟦の→の：09472_no⟧⟦ラスト→ラスト：30487_rasuto⟧⟦シーン→シーン：08914_shiin⟧⟦が→が：00051_ga⟧⟦{衝撃的|しょうげきてき}→衝撃的：06829_shougekiteki⟧で、⟦{終|お}わった→終わる：00567_owaru⟧⟦{後|あと}→後：09580_ato⟧⟦しばらく→しばらく：01267_shibaraku⟧{放心状態|ほうしんじょうたい}だった。",
       "english": "The movie's final scene was so shocking that I was stunned for a while after it ended.",
       "sense_numbers": [
         1
@@ -54,8 +54,16 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {放心|ほうしん} (absent-mindedness, being in a daze) + {状態|じょうたい} (state, condition). Describes a mental state where a person appears blank, unresponsive, or stunned. Can result from shock, exhaustion, emotional overload, or intense focus followed by sudden release.\n\nCOMMON COLLOCATIONS:\n- {放心状態|ほうしんじょうたい}になる: become dazed\n- {放心状態|ほうしんじょうたい}に{陥|おちい}る: fall into a dazed state\n- {放心状態|ほうしんじょうたい}で{立|た}ち{尽|つ}くす: stand frozen in a daze\n- しばらく{放心状態|ほうしんじょうたい}だった: was dazed for a while\n\nSIMILAR WORDS:\n- {呆然|ぼうぜん}: stunned, dumbfounded (stronger shock)\n- {茫然自失|ぼうぜんじしつ}: completely stunned and at a loss (literary)\n- ぼんやり: absent-minded, spacing out (milder, more casual)",
-  "cross_references": [],
+  "notes": "Composed of ⟦{放心|ほうしん}→放心：21214_houshin⟧ (absent-mindedness, being in a daze) + ⟦{状態|じょうたい}→状態：03345_joutai⟧ (state, condition). Describes a mental state where a person appears blank, unresponsive, or stunned. Can result from shock, exhaustion, emotional overload, or intense focus followed by sudden release.\n\nCOMMON COLLOCATIONS:\n- {放心状態|ほうしんじょうたい}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧: become dazed\n- {放心状態|ほうしんじょうたい}⟦に→に：00314_ni⟧⟦{陥|おちい}る→陥る：14537_ochiiru⟧: fall into a dazed state\n- {放心状態|ほうしんじょうたい}⟦で→で：00502_de⟧{立|た}ち{尽|つ}くす: stand frozen in a daze\n- ⟦しばらく→しばらく：01267_shibaraku⟧{放心状態|ほうしんじょうたい}だった: was dazed for a while\n\nSIMILAR WORDS:\n- ⟦{呆然|ぼうぜん}→呆然：17758_bouzen⟧: stunned, dumbfounded (stronger shock)\n- {茫然自失|ぼうぜんじしつ}: completely stunned and at a loss (literary)\n- ⟦ぼんやり→ぼんやり：03727_bonyari⟧: absent-minded, spacing out (milder, more casual)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17758_bouzen",
+      "reading": "ぼうぜん",
+      "headword": "{呆然|ぼうぜん}",
+      "label": "stunned, dumbfounded"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -63,12 +71,13 @@
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "emotion",
         "cognition"
       ]
     },
     "created": "2026-04-27T16:21:44Z",
-    "modified": "2026-08-05T09:26:53Z"
+    "modified": "2026-09-02T04:02:24Z"
   }
 }

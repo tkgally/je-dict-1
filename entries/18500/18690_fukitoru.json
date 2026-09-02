@@ -3,7 +3,7 @@
   "headword": "{拭|ふ}き{取|と}る",
   "reading": "ふきとる",
   "romaji": "fukitoru",
-  "part_of_speech": "verb-godan",
+  "part_of_speech": "verb (godan)",
   "gloss": "to wipe off; to wipe away",
   "conjugation": {
     "type": "godan",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "18690_fukitoru_ex1",
-      "japanese": "{汗|あせ}を{拭|ふ}き{取|と}る。",
+      "japanese": "⟦{汗|あせ}→汗：02173_ase⟧⟦を→を：00422_wo⟧{拭|ふ}き{取|と}る。",
       "english": "To wipe off sweat.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "18690_fukitoru_ex2",
-      "japanese": "テーブルの{汚|よご}れを{拭|ふ}き{取|と}った。",
+      "japanese": "⟦テーブル→テーブル：04488_teeburu⟧⟦の→の：09472_no⟧⟦{汚|よご}れ→汚れ：03186_yogore⟧⟦を→を：00422_wo⟧{拭|ふ}き{取|と}った。",
       "english": "I wiped the dirt off the table.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "18690_fukitoru_ex3",
-      "japanese": "{濡|ぬ}れたタオルで{床|ゆか}の{汚|よご}れを{拭|ふ}き{取|と}ってください。",
+      "japanese": "⟦{濡|ぬ}れた→濡れる：00800_nureru⟧⟦タオル→タオル：01533_taoru⟧⟦で→で：00502_de⟧⟦{床|ゆか}→床：03652_yuka⟧⟦の→の：09472_no⟧⟦{汚|よご}れ→汚れ：03186_yogore⟧⟦を→を：00422_wo⟧{拭|ふ}き{取|と}って⟦ください→ください：02899_kudasai⟧。",
       "english": "Please wipe the dirt off the floor with a wet towel.",
       "sense_numbers": [
         1
@@ -134,8 +134,24 @@
       "notes": null
     }
   ],
-  "notes": "A compound verb formed from {拭|ふ}く (to wipe) + {取|と}る (to take/remove). Unlike {拭|ふ}く alone, which simply means to wipe a surface, {拭|ふ}き{取|と}る emphasizes removing something by wiping.\n\nTRANSITIVITY:\n- Type: {他動詞|たどうし} (transitive)\n- Pattern: [object]を{拭|ふ}き{取|と}る\n- No intransitive counterpart\n\nCOMMON COLLOCATIONS:\n- {汗|あせ}を{拭|ふ}き{取|と}る: to wipe off sweat\n- {涙|なみだ}を{拭|ふ}き{取|と}る: to wipe away tears\n- {汚|よご}れを{拭|ふ}き{取|と}る: to wipe off dirt\n- {水気|みずけ}を{拭|ふ}き{取|と}る: to wipe off moisture\n\nASPECT (ている):\n{拭|ふ}き{取|と}っている describes the action in progress (someone is wiping something off).",
+  "notes": "A compound verb formed from ⟦{拭|ふ}く→拭く：04261_fuku⟧ (to wipe) + ⟦{取|と}る→取る：00565_toru⟧ (to take/remove). Unlike ⟦{拭|ふ}く→拭く：04261_fuku⟧ alone, which simply means to wipe a surface, {拭|ふ}き{取|と}る emphasizes removing something by wiping.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- Pattern: [object]⟦を→を：00422_wo⟧{拭|ふ}き{取|と}る\n- No intransitive counterpart\n\nCOMMON COLLOCATIONS:\n- ⟦{汗|あせ}→汗：02173_ase⟧⟦を→を：00422_wo⟧{拭|ふ}き{取|と}る: to wipe off sweat\n- ⟦{涙|なみだ}→涙：02235_namida⟧⟦を→を：00422_wo⟧{拭|ふ}き{取|と}る: to wipe away tears\n- ⟦{汚|よご}れ→汚れ：03186_yogore⟧⟦を→を：00422_wo⟧{拭|ふ}き{取|と}る: to wipe off dirt\n- ⟦{水気|みずけ}→水気：07952_mizuke⟧⟦を→を：00422_wo⟧{拭|ふ}き{取|と}る: to wipe off moisture\n\nASPECT (ている):\n{拭|ふ}き{取|と}って⟦いる→いる：00495_iru⟧ describes the action in progress (someone is wiping something off).",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "04261_fuku",
+      "reading": "ふく",
+      "headword": "{拭|ふ}く",
+      "label": "to wipe"
+    },
+    {
+      "type": "related",
+      "target_id": "25660_fukitori",
+      "reading": "ふきとり",
+      "headword": "{拭|ふ}き{取|と}り",
+      "label": "wiping off"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -152,6 +168,6 @@
       "verb_class": "godan-ru"
     },
     "created": "2026-03-23T00:18:25Z",
-    "modified": "2026-07-26T09:39:42Z"
+    "modified": "2026-09-02T04:01:53Z"
   }
 }

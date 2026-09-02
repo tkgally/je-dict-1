@@ -3,7 +3,7 @@
   "headword": "{再発行|さいはっこう}",
   "reading": "さいはっこう",
   "romaji": "saihakkou",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "reissue; reissuance",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "18901_saihakkou_ex1",
-      "japanese": "カードを{再発行|さいはっこう}する。",
+      "japanese": "⟦カード→カード：03836_kaado⟧⟦を→を：00422_wo⟧{再発行|さいはっこう}⟦する→する：00392_suru⟧。",
       "english": "To reissue a card.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "18901_saihakkou_ex2",
-      "japanese": "{免許証|めんきょしょう}の{再発行|さいはっこう}には{時間|じかん}がかかる。",
+      "japanese": "⟦{免許証|めんきょしょう}→免許証：03160_menkyoshou⟧⟦の→の：09472_no⟧{再発行|さいはっこう}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{時間|じかん}がかかる→時間がかかる：26082_jikangakakaru⟧。",
       "english": "Reissuing a driver's license takes time.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "18901_saihakkou_ex3",
-      "japanese": "パスポートを{紛失|ふんしつ}したので、{大使館|たいしかん}で{再発行|さいはっこう}の{手続|てつづ}きをした。",
+      "japanese": "⟦パスポート→パスポート：00341_pasupooto⟧⟦を→を：00422_wo⟧⟦{紛失|ふんしつ}した→紛失する：18835_funshitsusuru⟧⟦の→の：09472_no⟧で、⟦{大使館|たいしかん}→大使館：01457_taishikan⟧⟦で→で：00502_de⟧{再発行|さいはっこう}⟦の→の：09472_no⟧⟦{手続|てつづ}き→手続き：05453_tetsuzuki⟧⟦を→を：00422_wo⟧⟦した→する：00392_suru⟧。",
       "english": "I lost my passport, so I went through the reissue procedure at the embassy.",
       "sense_numbers": [
         1
@@ -134,7 +134,7 @@
       "notes": null
     }
   ],
-  "notes": "{再発行|さいはっこう} means issuing again something that was previously issued — typically official documents or cards that have been lost, damaged, or expired.\n\nWORD FORMATION:\n{再|さい} (again) + {発行|はっこう} (issuance, publication).\n\nCOMMON COLLOCATIONS:\n- {再発行|さいはっこう}を{申請|しんせい}する: to apply for reissuance\n- {再発行|さいはっこう}{手数料|てすうりょう}: reissue fee\n- {再発行|さいはっこう}{手続|てつづ}き: reissue procedure\n\nCOMMONLY REISSUED ITEMS:\n- クレジットカード: credit card\n- {保険証|ほけんしょう}: insurance card\n- {定期券|ていきけん}: commuter pass\n- パスポート: passport\n- {免許証|めんきょしょう}: driver's license\n- {領収書|りょうしゅうしょ}: receipt\n\nNOTE:\nReissuance usually requires {本人|ほんにん}{確認|かくにん} (identity verification) and may involve a {手数料|てすうりょう} (processing fee).",
+  "notes": "{再発行|さいはっこう} means issuing again something that was previously issued — typically official documents or cards that have been lost, damaged, or expired.\n\nFORMS:\n⟦{再|さい}→再〜：03953_sai⟧ (again) + ⟦{発行|はっこう}→発行：03693_hakkou⟧ (issuance, publication).\n\nCOMMON COLLOCATIONS:\n- {再発行|さいはっこう}⟦を→を：00422_wo⟧⟦{申請|しんせい}する→申請する：25228_shinseisuru⟧: to apply for reissuance\n- {再発行|さいはっこう}⟦{手数料|てすうりょう}→手数料：05423_tesuuryou⟧: reissue fee\n- {再発行|さいはっこう}⟦{手続|てつづ}き→手続き：05453_tetsuzuki⟧: reissue procedure\n\nCOMMONLY REISSUED ITEMS:\n- ⟦クレジットカード→クレジットカード：06968_kurejittokaado⟧: credit card\n- ⟦{保険証|ほけんしょう}→保険証：09707_hokenshou⟧: insurance card\n- ⟦{定期券|ていきけん}→定期券：01064_teikiken⟧: commuter pass\n- ⟦パスポート→パスポート：00341_pasupooto⟧: passport\n- ⟦{免許証|めんきょしょう}→免許証：03160_menkyoshou⟧: driver's license\n- ⟦{領収書|りょうしゅうしょ}→領収書：04697_ryoushuusho⟧: receipt\n\nUSAGE:\nReissuance usually requires ⟦{本人|ほんにん}{確認|かくにん}→本人確認：15142_honninkakunin⟧ (identity verification) and may involve a ⟦{手数料|てすうりょう}→手数料：05423_tesuuryou⟧ (processing fee).",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -148,9 +148,10 @@
       "semantic": [
         "general"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-03-23T09:22:58Z",
-    "modified": "2026-03-29T07:57:19Z"
+    "modified": "2026-09-02T04:01:54Z"
   }
 }

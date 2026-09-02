@@ -2,7 +2,7 @@
   "id": "02805_kokufuku",
   "headword": "{克服|こくふく}",
   "reading": "こくふく",
-  "part_of_speech": "noun / suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "overcoming, conquering",
   "conjugation": {
     "type": "suru",
@@ -154,10 +154,32 @@
     }
   ],
   "notes": "{克服|こくふく} means to overcome challenges.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- No standard intransitive pair\n- Pattern: [noun]⟦を→を：00422_wo⟧{克服|こくふく}⟦する→する：00392_suru⟧\n\nCOMMON COLLOCATIONS:\n- ⟦{困難|こんなん}→困難：01410_konnan⟧⟦を→を：00422_wo⟧{克服|こくふく}⟦する→する：00392_suru⟧ (overcome difficulties)\n- ⟦{恐怖|きょうふ}→恐怖：02585_kyoufu⟧⟦を→を：00422_wo⟧{克服|こくふく}⟦する→する：00392_suru⟧ (conquer fear)\n- ⟦{弱点|じゃくてん}→弱点：12497_jakuten⟧⟦を→を：00422_wo⟧{克服|こくふく}⟦する→する：00392_suru⟧ (overcome weaknesses)\n- ⟦{障害|しょうがい}→障害：03228_shougai⟧⟦を→を：00422_wo⟧{克服|こくふく}⟦する→する：00392_suru⟧ (surmount obstacles)\n\nSIMILAR WORDS:\n- {克服|こくふく}: overcome (formal, effort required)\n- ⟦{乗|の}り{越|こ}える→乗り越える：04620_norikoeru⟧: get over, overcome (general)\n- ⟦{打|う}ち{勝|か}つ→打ち勝つ：12768_uchikatsu⟧: triumph over",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04620_norikoeru",
+      "reading": "のりこえる",
+      "headword": "{乗|の}り{越|こ}える",
+      "label": "get over, overcome"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12768_uchikatsu",
+      "reading": "うちかつ",
+      "headword": "{打|う}ち{勝|か}つ",
+      "label": "triumph over"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12546_seifuku",
+      "reading": "せいふく",
+      "headword": "{征服|せいふく}",
+      "label": "conquest, subjugation"
+    }
+  ],
   "metadata": {
     "created": "2026-01-11T08:50:30Z",
-    "modified": "2026-05-22T15:14:01Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

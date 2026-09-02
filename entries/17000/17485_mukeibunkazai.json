@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "17485_mukeibunkazai_ex1",
-      "japanese": "{歌舞伎|かぶき}は{重要|じゅうよう}{無形文化財|むけいぶんかざい}に{指定|してい}されている。",
+      "japanese": "⟦{歌舞伎|かぶき}→歌舞伎：04455_kabuki⟧⟦は→は：00079_ha⟧⟦{重要|じゅうよう}→重要：01575_juuyou⟧{無形文化財|むけいぶんかざい}⟦に→に：00314_ni⟧⟦{指定|してい}→指定：00373_shitei⟧⟦されている→する：00392_suru⟧。",
       "english": "Kabuki has been designated as an important intangible cultural property.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "17485_mukeibunkazai_ex2",
-      "japanese": "ユネスコの{無形文化財|むけいぶんかざい}リストに{和食|わしょく}が{登録|とうろく}された。",
+      "japanese": "ユネスコ⟦の→の：09472_no⟧{無形文化財|むけいぶんかざい}⟦リスト→リスト：09786_risuto⟧⟦に→に：00314_ni⟧⟦{和食|わしょく}→和食：10436_washoku⟧⟦が→が：00051_ga⟧⟦{登録|とうろく}→登録：05703_touroku⟧⟦された→する：00392_suru⟧。",
       "english": "Japanese cuisine was registered on UNESCO's intangible cultural heritage list.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "17485_mukeibunkazai_ex3",
-      "japanese": "{伝統的|でんとうてき}な{染色|せんしょく}{技術|ぎじゅつ}が{無形文化財|むけいぶんかざい}として{保護|ほご}されている。",
+      "japanese": "⟦{伝統的|でんとうてき}→伝統的：04802_dentouteki⟧な⟦{染色|せんしょく}→染色：15817_senshoku⟧⟦{技術|ぎじゅつ}→技術：01389_gijutsu⟧⟦が→が：00051_ga⟧{無形文化財|むけいぶんかざい}⟦として→として：06802_toshite⟧⟦{保護|ほご}→保護：03625_hogo⟧⟦されている→する：00392_suru⟧。",
       "english": "Traditional dyeing techniques are being protected as intangible cultural properties.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nJapan's Cultural Properties Protection Act ({文化財保護法|ぶんかざいほごほう}) classifies cultural properties into tangible ({有形|ゆうけい}) and intangible ({無形|むけい}) categories. {無形文化財|むけいぶんかざい} covers skills and techniques in performing arts and crafts. When the government designates one as especially important, it becomes a {重要無形文化財|じゅうようむけいぶんかざい}.\n\nRELATED TERMS:\n- {有形文化財|ゆうけいぶんかざい}: tangible cultural property (buildings, artworks)\n- {人間国宝|にんげんこくほう}: Living National Treasure — an individual recognized as a holder of important intangible cultural property\n- {世界遺産|せかいいさん}: World Heritage Site",
+  "notes": "USAGE:\nJapan's Cultural Properties Protection Act ({文化財保護法|ぶんかざいほごほう}) classifies cultural properties into tangible (⟦{有形|ゆうけい}→有形：13079_yuukei⟧) and intangible (⟦{無形|むけい}→無形：13572_mukei⟧) categories. {無形文化財|むけいぶんかざい} covers skills and techniques in performing arts and crafts. When the government designates one as especially important, it becomes a {重要無形文化財|じゅうようむけいぶんかざい}.\n\nRELATED WORDS:\n- ⟦{有形文化財|ゆうけいぶんかざい}→有形文化財：17038_yuukeibunkazai⟧: tangible cultural property (buildings, artworks)\n- ⟦{人間国宝|にんげんこくほう}→人間国宝：12663_ningenkokuhou⟧: Living National Treasure — an individual recognized as a holder of important intangible cultural property\n- ⟦{世界遺産|せかいいさん}→世界遺産：04897_sekaiisan⟧: World Heritage Site",
   "cross_references": [
     {
       "type": "related",
@@ -52,11 +52,32 @@
       "reading": "ぶんかざい",
       "headword": "{文化財|ぶんかざい}",
       "label": "cultural property"
+    },
+    {
+      "type": "related",
+      "target_id": "17038_yuukeibunkazai",
+      "reading": "ゆうけいぶんかざい",
+      "headword": "{有形文化財|ゆうけいぶんかざい}",
+      "label": "tangible cultural property"
+    },
+    {
+      "type": "related",
+      "target_id": "12663_ningenkokuhou",
+      "reading": "にんげんこくほう",
+      "headword": "{人間国宝|にんげんこくほう}",
+      "label": "Living National Treasure"
+    },
+    {
+      "type": "related",
+      "target_id": "04897_sekaiisan",
+      "reading": "せかいいさん",
+      "headword": "{世界遺産|せかいいさん}",
+      "label": "World Heritage Site"
     }
   ],
   "metadata": {
     "created": "2026-03-18T04:26:39Z",
-    "modified": "2026-05-06T08:07:18Z",
+    "modified": "2026-09-02T04:01:48Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

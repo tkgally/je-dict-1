@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "16997_junkin_ex1",
-      "japanese": "この{指輪|ゆびわ}は{純金|じゅんきん}でできている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{指輪|ゆびわ}→指輪：01744_yubiwa⟧⟦は→は：00079_ha⟧{純金|じゅんきん}⟦で→で：00502_de⟧⟦できている→できる：00557_dekiru⟧。",
       "english": "This ring is made of pure gold.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "16997_junkin_ex2",
-      "japanese": "{純金|じゅんきん}の{価格|かかく}が{過去最高|かこさいこう}を{記録|きろく}した。",
+      "japanese": "{純金|じゅんきん}⟦の→の：09472_no⟧⟦{価格|かかく}→価格：00147_kakaku⟧⟦が→が：00051_ga⟧{過去最高|かこさいこう}⟦を→を：00422_wo⟧⟦{記録|きろく}した→記録する：25341_kirokusuru⟧。",
       "english": "The price of pure gold hit a record high.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "16997_junkin_ex3",
-      "japanese": "{純金|じゅんきん}は{柔|やわ}らかいので、{日常|にちじょう}のアクセサリーには{合金|ごうきん}が{使|つか}われることが{多|おお}い。",
+      "japanese": "{純金|じゅんきん}⟦は→は：00079_ha⟧⟦{柔|やわ}らかい→柔らかい：01096_yawarakai⟧⟦の→の：09472_no⟧で、⟦{日常|にちじょう}→日常：01595_nichijou⟧⟦の→の：09472_no⟧⟦アクセサリー→アクセサリー：01761_akusesarii⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{合金|ごうきん}→合金：17137_goukin⟧⟦が→が：00051_ga⟧⟦{使|つか}われる→使う：00473_tsukau⟧こと⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "Pure gold is soft, so alloys are often used for everyday accessories.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,19 @@
       ]
     }
   ],
-  "notes": "WORD FORMATION:\n{純|じゅん} (pure) + {金|きん} (gold)\n\nUSAGE:\nPure gold is 24 karat (24K), meaning 99.99% purity. Common alloys include 18K ({十八金|じゅうはちきん}) and 14K ({十四金|じゅうよんきん}). {純金|じゅんきん} is too soft for everyday jewelry, so alloys are standard for rings and necklaces.\n\nFIGURATIVE:\nCan also mean something genuine or of the highest quality, similar to English \"pure gold.\"\n\nCOMMON COLLOCATIONS:\n- {純金|じゅんきん}{製|せい}: made of pure gold\n- {純金|じゅんきん}の{延|の}べ{棒|ぼう}: gold bar, gold ingot\n- {純金|じゅんきん}{積立|つみたて}: gold savings plan\n- {純金|じゅんきん}{相場|そうば}: pure gold market price\n\nRELATED TERMS:\n- {金|きん}: gold (general)\n- {合金|ごうきん}: alloy\n- {金箔|きんぱく}: gold leaf",
-  "cross_references": [],
+  "notes": "FORMS:\n⟦{純|じゅん}→純〜：28361_jun⟧ (pure) + {金|きん} (gold)\n\nUSAGE:\nPure gold is 24 karat (24K), meaning 99.99% purity. Common alloys include 18K ({十八金|じゅうはちきん}) and 14K ({十四金|じゅうよんきん}). {純金|じゅんきん} is too soft for everyday jewelry, so alloys are standard for rings and necklaces.\n\nFIGURATIVE:\nCan also mean something genuine or of the highest quality, similar to English \"pure gold.\"\n\nCOMMON COLLOCATIONS:\n- {純金|じゅんきん}⟦{製|せい}→〜製：02001_sei⟧: made of pure gold\n- {純金|じゅんきん}⟦の→の：09472_no⟧{延|の}べ{棒|ぼう}: gold bar, gold ingot\n- {純金|じゅんきん}⟦{積立|つみたて}→積立：07977_tsumitate⟧: gold savings plan\n- {純金|じゅんきん}⟦{相場|そうば}→相場：07668_souba⟧: pure gold market price\n\nRELATED WORDS:\n- {金|きん}: gold (general)\n- ⟦{合金|ごうきん}→合金：17137_goukin⟧: alloy\n- {金箔|きんぱく}: gold leaf",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "17137_goukin",
+      "reading": "ごうきん",
+      "headword": "{合金|ごうきん}",
+      "label": "alloy"
+    }
+  ],
   "metadata": {
     "created": "2026-03-15T05:53:16Z",
-    "modified": "2026-07-22T03:30:08Z",
+    "modified": "2026-09-02T04:01:46Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

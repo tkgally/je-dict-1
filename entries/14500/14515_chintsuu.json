@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "14515_chintsuu_ex1",
-      "japanese": "{鎮痛剤|ちんつうざい}を{飲|の}んだ。",
+      "japanese": "⟦{鎮痛剤|ちんつうざい}→鎮痛剤：15451_chintsuuzai⟧⟦を→を：00422_wo⟧⟦{飲|の}んだ→飲む：00322_nomu⟧。",
       "english": "I took a painkiller.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14515_chintsuu_ex2",
-      "japanese": "{歯痛|はいた}がひどくて{鎮痛薬|ちんつうやく}が{手放|てばな}せない。",
+      "japanese": "{歯痛|はいた}⟦が→が：00051_ga⟧⟦ひどくて→ひどい：01097_hidoi⟧⟦{鎮痛薬|ちんつうやく}→鎮痛薬：21929_chintsuuyaku⟧⟦が→が：00051_ga⟧⟦{手放|てばな}せない→手放す：05338_tebanasu⟧。",
       "english": "My toothache is so bad that I can't do without pain medication.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14515_chintsuu_ex3",
-      "japanese": "この{薬|くすり}には{鎮痛|ちんつう}{作用|さよう}と{解熱|げねつ}{作用|さよう}がある。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{薬|くすり}→薬：00793_kusuri⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{鎮痛|ちんつう}⟦{作用|さよう}→作用：05761_sayou⟧⟦と→と：00512_to⟧⟦{解熱|げねつ}→解熱：23429_genetsu⟧⟦{作用|さよう}→作用：05761_sayou⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "This medicine has both pain-relieving and fever-reducing effects.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "Compound of {鎮|ちん} (to suppress) + {痛|つう} (pain). Most often used as a modifier in compounds rather than on its own.\n\nCOMMON COMPOUNDS:\n- {鎮痛剤|ちんつうざい} (painkiller, analgesic)\n- {鎮痛薬|ちんつうやく} (pain medication)\n- {鎮痛|ちんつう}{作用|さよう} (analgesic effect)\n- {鎮痛|ちんつう}{効果|こうか} (pain-relieving effect)\n\nUSAGE NOTE:\nIn everyday speech, people more commonly say {痛|いた}み{止|ど}め for \"painkiller.\" {鎮痛剤|ちんつうざい} is the more formal or medical term.",
+  "notes": "Compound of {鎮|ちん} (to suppress) + {痛|つう} (pain). Most often used as a modifier in compounds rather than on its own.\n\nCOMPOUNDS:\n- ⟦{鎮痛剤|ちんつうざい}→鎮痛剤：15451_chintsuuzai⟧ (painkiller, analgesic)\n- ⟦{鎮痛薬|ちんつうやく}→鎮痛薬：21929_chintsuuyaku⟧ (pain medication)\n- {鎮痛|ちんつう}⟦{作用|さよう}→作用：05761_sayou⟧ (analgesic effect)\n- {鎮痛|ちんつう}⟦{効果|こうか}→効果：02726_kouka⟧ (pain-relieving effect)\n\nUSAGE:\nIn everyday speech, people more commonly say ⟦{痛|いた}み{止|ど}め→痛み止め：23497_itamidome⟧ for \"painkiller.\" ⟦{鎮痛剤|ちんつうざい}→鎮痛剤：15451_chintsuuzai⟧ is the more formal or medical term.",
   "cross_references": [
     {
       "type": "synonym",
@@ -46,19 +52,39 @@
       "reading": "いたみどめ",
       "headword": "{痛|いた}み{止|ど}め",
       "label": "painkiller (everyday)"
+    },
+    {
+      "type": "related",
+      "target_id": "19769_chinsei",
+      "reading": "ちんせい",
+      "headword": "{鎮静|ちんせい}",
+      "label": "calming"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23429_genetsu",
+      "reading": "げねつ",
+      "headword": "{解熱|げねつ}",
+      "label": "lowering a fever"
     }
   ],
   "metadata": {
     "created": "2026-03-02T05:57:56Z",
-    "modified": "2026-04-30T08:13:46Z",
+    "modified": "2026-09-02T04:01:37Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["medical"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "medical"
+      ]
     }
   }
 }

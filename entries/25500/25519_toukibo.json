@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25519_toukibo_ex1",
-      "japanese": "{登記簿|とうきぼ}を{確認|かくにん}する。",
+      "japanese": "{登記簿|とうきぼ}⟦を→を：00422_wo⟧⟦{確認|かくにん}する→確認する：25332_kakuninsuru⟧。",
       "english": "To check the registry.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25519_toukibo_ex2",
-      "japanese": "{不動産|ふどうさん}の{登記簿|とうきぼ}{謄本|とうほん}を{取得|しゅとく}した。",
+      "japanese": "⟦{不動産|ふどうさん}→不動産：06726_fudousan⟧⟦の→の：09472_no⟧{登記簿|とうきぼ}⟦{謄本|とうほん}→謄本：29796_touhon⟧⟦を→を：00422_wo⟧⟦{取得|しゅとく}した→取得する：10444_shutokusuru⟧。",
       "english": "I obtained a certified copy of the real estate registry.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25519_toukibo_ex3",
-      "japanese": "{土地|とち}を{購入|こうにゅう}する{際|さい}は、{登記簿|とうきぼ}で{所有者|しょゆうしゃ}を{確認|かくにん}することが{重要|じゅうよう}だ。",
+      "japanese": "⟦{土地|とち}→土地：02226_tochi⟧⟦を→を：00422_wo⟧⟦{購入|こうにゅう}→購入：03057_kounyuu⟧⟦する→する：00392_suru⟧⟦{際|さい}→際：02819_sai⟧⟦は→は：00079_ha⟧、{登記簿|とうきぼ}⟦で→で：00502_de⟧⟦{所有者|しょゆうしゃ}→所有者：21212_shoyuusha⟧⟦を→を：00422_wo⟧⟦{確認|かくにん}する→確認する：25332_kakuninsuru⟧こと⟦が→が：00051_ga⟧⟦{重要|じゅうよう}→重要：01575_juuyou⟧だ。",
       "english": "When purchasing land, it's important to verify the owner in the registry.",
       "sense_numbers": [
         1
@@ -44,8 +44,23 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {登記|とうき} (registration; recording) + {簿|ぼ} (ledger; book). An essential term in Japanese real estate and corporate law. Anyone buying property or investigating a company in Japan will encounter this term. The {登記簿|とうきぼ}{謄本|とうほん} (certified copy of the registry) is a key document in real estate transactions.\n\nCOMMON COLLOCATIONS:\n- {登記簿|とうきぼ}{謄本|とうほん}: certified copy of the registry\n- {不動産|ふどうさん}{登記簿|とうきぼ}: real estate registry\n- {商業|しょうぎょう}{登記簿|とうきぼ}: commercial registry\n- {登記簿|とうきぼ}を{閲覧|えつらん}する: to inspect the registry\n\nSIMILAR WORDS:\n- {戸籍|こせき}: family register — records family relationships and personal status; different from property/corporate registration\n- {台帳|だいちょう}: ledger; register — a more general term for any official record book",
-  "cross_references": [],
+  "notes": "Composed of ⟦{登記|とうき}→登記：19798_touki⟧ (registration; recording) + {簿|ぼ} (ledger; book). An essential term in Japanese real estate and corporate law. Anyone buying property or investigating a company in Japan will encounter this term. The {登記簿|とうきぼ}⟦{謄本|とうほん}→謄本：29796_touhon⟧ (certified copy of the registry) is a key document in real estate transactions.\n\nCOMMON COLLOCATIONS:\n- {登記簿|とうきぼ}⟦{謄本|とうほん}→謄本：29796_touhon⟧: certified copy of the registry\n- ⟦{不動産|ふどうさん}→不動産：06726_fudousan⟧{登記簿|とうきぼ}: real estate registry\n- ⟦{商業|しょうぎょう}→商業：09940_shougyou⟧{登記簿|とうきぼ}: commercial registry\n- {登記簿|とうきぼ}⟦を→を：00422_wo⟧⟦{閲覧|えつらん}する→閲覧する：18280_etsuransuru⟧: to inspect the registry\n\nSIMILAR WORDS:\n- ⟦{戸籍|こせき}→戸籍：12695_koseki⟧: family register — records family relationships and personal status; different from property/corporate registration\n- ⟦{台帳|だいちょう}→台帳：08001_daichou⟧: ledger; register — a more general term for any official record book",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12695_koseki",
+      "reading": "こせき",
+      "headword": "{戸籍|こせき}",
+      "label": "family register"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08001_daichou",
+      "reading": "だいちょう",
+      "headword": "{台帳|だいちょう}",
+      "label": "ledger"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,12 +68,14 @@
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "law",
         "politics"
       ]
     },
     "created": "2026-04-25T15:20:20Z",
-    "modified": "2026-08-04T12:59:53Z"
+    "modified": "2026-09-02T04:02:22Z"
   }
 }

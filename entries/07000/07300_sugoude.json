@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "07300_sugoude_ex1",
-      "japanese": "{彼|かれ}は{凄腕|すごうで}の{弁護士|べんごし}だ。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{凄腕|すごうで}⟦の→の：09472_no⟧⟦{弁護士|べんごし}→弁護士：03150_bengoshi⟧だ。",
       "english": "He is an expert lawyer.",
       "has_audio": false,
       "sense_numbers": [
@@ -23,7 +23,7 @@
     },
     {
       "id": "07300_sugoude_ex2",
-      "japanese": "{凄腕|すごうで}シェフの{料理|りょうり}を{楽|たの}しむ。",
+      "japanese": "{凄腕|すごうで}⟦シェフ→シェフ：05062_shefu⟧⟦の→の：09472_no⟧⟦{料理|りょうり}→料理：01523_ryouri⟧⟦を→を：00422_wo⟧⟦{楽|たの}しむ→楽しむ：01203_tanoshimu⟧。",
       "english": "To enjoy the cuisine of a highly skilled chef.",
       "has_audio": false,
       "sense_numbers": [
@@ -32,7 +32,7 @@
     },
     {
       "id": "07300_sugoude_ex3",
-      "japanese": "{凄腕|すごうで}ハッカーに{狙|ねら}われた。",
+      "japanese": "{凄腕|すごうで}ハッカー⟦に→に：00314_ni⟧⟦{狙|ねら}われた→狙う：00313_nerau⟧。",
       "english": "I was targeted by an expert hacker.",
       "has_audio": false,
       "sense_numbers": [
@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "notes": "WORD FORMATION:\n{凄|すご}い (amazing) + {腕|うで} (arm, skill) → amazing skill = expert\n\nUSAGE:\nOften used as a modifier before occupation nouns:\n・{凄腕|すごうで}の{弁護士|べんごし} - expert lawyer\n・{凄腕|すごうで}シェフ - master chef\n・{凄腕|すごうで}ハッカー - skilled hacker\n・{凄腕|すごうで}{営業|えいぎょう}マン - ace salesperson\n\nNUANCE:\n{凄腕|すごうで} has a slightly informal, admiring tone. It suggests someone whose skills are impressive or even intimidating. Often used in media and casual speech.\n\nRELATED WORDS:\n・{腕前|うでまえ} - skill, ability\n・{敏腕|びんわん} - capable, competent (more formal)\n・{達人|たつじん} - master, expert",
+  "notes": "FORMS:\n{凄|すご}い (amazing) + ⟦{腕|うで}→腕：01006_ude⟧ (arm, skill) → amazing skill = expert\n\nUSAGE:\nOften used as a modifier before occupation nouns:\n- {凄腕|すごうで}⟦の→の：09472_no⟧⟦{弁護士|べんごし}→弁護士：03150_bengoshi⟧ - expert lawyer\n- {凄腕|すごうで}⟦シェフ→シェフ：05062_shefu⟧ - master chef\n- {凄腕|すごうで}ハッカー - skilled hacker\n- {凄腕|すごうで}⟦{営業|えいぎょう}マン→営業マン：08749_eigyouman⟧ - ace salesperson\n{凄腕|すごうで} has a slightly informal, admiring tone. It suggests someone whose skills are impressive or even intimidating. Often used in media and casual speech.\n\nRELATED WORDS:\n- ⟦{腕前|うでまえ}→腕前：07299_udemae⟧ - skill, ability\n- ⟦{敏腕|びんわん}→敏腕：07301_binwan⟧ - capable, competent (more formal)\n- ⟦{達人|たつじん}→達人：14378_tatsujin⟧ - master, expert",
   "cross_references": [
     {
       "type": "related",
@@ -55,11 +55,18 @@
       "headword": "{敏腕|びんわん}",
       "label": "capable",
       "target_id": "07301_binwan"
+    },
+    {
+      "type": "related",
+      "target_id": "14378_tatsujin",
+      "reading": "たつじん",
+      "headword": "{達人|たつじん}",
+      "label": "master, expert"
     }
   ],
   "metadata": {
     "created": "2026-01-19T04:07:01Z",
-    "modified": "2026-01-24T14:24:36Z",
+    "modified": "2026-09-02T04:01:10Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

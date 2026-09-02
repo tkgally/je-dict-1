@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25282_seitetsusho_ex1",
-      "japanese": "この{町|まち}には{大|おお}きな{製鉄所|せいてつじょ}がある。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{町|まち}→町：00613_machi⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{大|おお}きな→大きな：02849_ookina⟧{製鉄所|せいてつじょ}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There is a large steel mill in this town.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25282_seitetsusho_ex2",
-      "japanese": "{製鉄所|せいてつじょ}から{白|しろ}い{煙|けむり}が{上|あ}がっている。",
+      "japanese": "{製鉄所|せいてつじょ}⟦から→から：00504_kara⟧⟦{白|しろ}い→白い：00587_shiroi⟧⟦{煙|けむり}→煙：02705_kemuri⟧⟦が→が：00051_ga⟧⟦{上|あ}がっている→上がる：00615_agaru⟧。",
       "english": "White smoke is rising from the steelworks.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25282_seitetsusho_ex3",
-      "japanese": "{祖父|そふ}は{若|わか}いころ{北九州|きたきゅうしゅう}の{製鉄所|せいてつじょ}で{働|はたら}いていたそうだ。",
+      "japanese": "⟦{祖父|そふ}→祖父：01452_sofu⟧⟦は→は：00079_ha⟧{若|わか}い⟦ころ→〜ころ：03091_koro⟧{北九州|きたきゅうしゅう}⟦の→の：09472_no⟧{製鉄所|せいてつじょ}⟦で→で：00502_de⟧⟦{働|はたら}いていた→働く：00503_hataraku⟧そうだ。",
       "english": "I hear my grandfather worked at a steelworks in Kitakyushu when he was young.",
       "sense_numbers": [
         1
@@ -44,20 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {製鉄|せいてつ} (steelmaking, iron production) + {所|じょ} (place, facility). Japan has a long history of steel production, with major steelworks in cities like {北九州|きたきゅうしゅう} ({八幡製鉄所|やはたせいてつじょ}) and {室蘭|むろらん}.\n\nCOMMON COLLOCATIONS:\n- {製鉄所|せいてつじょ}で{働|はたら}く: to work at a steel mill\n- {製鉄所|せいてつじょ}の{跡地|あとち}: former site of a steelworks\n- {高炉|こうろ}: blast furnace (key equipment in a steelworks)\n\nSIMILAR WORDS:\n- {製鋼所|せいこうじょ}: steel refinery — focuses on the steel refining process specifically\n- {鋳造所|ちゅうぞうじょ}: foundry — a facility for casting metals\n- {工場|こうじょう}: factory — general term for any manufacturing facility\n\nCULTURAL NOTE:\nThe {八幡製鉄所|やはたせいてつじょ} in {北九州|きたきゅうしゅう} was Japan's first modern steel mill, established in 1901. It played a central role in Japan's industrialization and is now part of a UNESCO World Heritage Site.",
+  "notes": "Composed of ⟦{製鉄|せいてつ}→製鉄：24078_seitetsu⟧ (steelmaking, iron production) + {所|じょ} (place, facility). Japan has a long history of steel production, with major steelworks in cities like {北九州|きたきゅうしゅう} ({八幡製鉄所|やはたせいてつじょ}) and {室蘭|むろらん}.\n\nCOMMON COLLOCATIONS:\n- {製鉄所|せいてつじょ}⟦で→で：00502_de⟧⟦{働|はたら}く→働く：00503_hataraku⟧: to work at a steel mill\n- {製鉄所|せいてつじょ}⟦の→の：09472_no⟧⟦{跡地|あとち}→跡地：14281_atochi⟧: former site of a steelworks\n- {高炉|こうろ}: blast furnace (key equipment in a steelworks)\n\nSIMILAR WORDS:\n- {製鋼所|せいこうじょ}: steel refinery — focuses on the steel refining process specifically\n- {鋳造所|ちゅうぞうじょ}: foundry — a facility for casting metals\n- ⟦{工場|こうじょう}→工場：01082_koujou⟧: factory — general term for any manufacturing facility\n\nCULTURAL NOTE:\nThe {八幡製鉄所|やはたせいてつじょ} in {北九州|きたきゅうしゅう} was Japan's first modern steel mill, established in 1901. It played a central role in Japan's industrialization and is now part of a UNESCO World Heritage Site.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01082_koujou",
+      "reading": "こうじょう",
+      "headword": "{工場|こうじょう}",
+      "label": "factory"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "business",
         "building"
       ]
     },
     "created": "2026-04-24T13:15:59Z",
-    "modified": "2026-08-04T12:59:53Z"
+    "modified": "2026-09-02T04:02:21Z"
   }
 }

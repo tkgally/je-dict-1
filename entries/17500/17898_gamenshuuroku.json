@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "17898_gamenshuuroku_ex1",
-      "japanese": "{画面収録|がめんしゅうろく}の{方法|ほうほう}を{教|おし}えてください。",
+      "japanese": "{画面収録|がめんしゅうろく}⟦の→の：09472_no⟧⟦{方法|ほうほう}→方法：03621_houhou⟧⟦を→を：00422_wo⟧⟦{教|おし}えて→教える：00526_oshieru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please tell me how to do a screen recording.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17898_gamenshuuroku_ex2",
-      "japanese": "{画面収録|がめんしゅうろく}で{操作手順|そうさてじゅん}を{記録|きろく}した。",
+      "japanese": "{画面収録|がめんしゅうろく}⟦で→で：00502_de⟧{操作手順|そうさてじゅん}⟦を→を：00422_wo⟧⟦{記録|きろく}した→記録する：25341_kirokusuru⟧。",
       "english": "I recorded the operating procedure with a screen recording.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17898_gamenshuuroku_ex3",
-      "japanese": "スマホの{画面収録|がめんしゅうろく}{機能|きのう}を{使|つか}って、ゲームの{実況|じっきょう}{動画|どうが}を{作|つく}った。",
+      "japanese": "⟦スマホ→スマホ：04721_sumaho⟧⟦の→の：09472_no⟧{画面収録|がめんしゅうろく}⟦{機能|きのう}→機能：13165_kinou⟧⟦を→を：00422_wo⟧⟦{使|つか}って→使う：00473_tsukau⟧、⟦ゲーム→ゲーム：03842_geemu⟧⟦の→の：09472_no⟧⟦{実況|じっきょう}→実況：12281_jikkyou⟧⟦{動画|どうが}→動画：04443_douga⟧⟦を→を：00422_wo⟧⟦{作|つく}った→作る：00481_tsukuru⟧。",
       "english": "I used my smartphone's screen recording feature to make a gameplay commentary video.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nA compound of {画面|がめん} (screen) and {収録|しゅうろく} (recording). This is the term used in Apple's iOS and macOS interfaces. スクリーンレコーディング (the loanword equivalent) is also used.\n\nCOMMON COLLOCATIONS:\n- {画面収録|がめんしゅうろく}{機能|きのう} (screen recording feature)\n- {画面収録|がめんしゅうろく}を{開始|かいし}する (to start screen recording)\n- {画面収録|がめんしゅうろく}{動画|どうが} (screen recording video)\n\nRELATED WORDS:\n- スクリーンショット: screenshot (still image)\n- {録画|ろくが}: video recording (general)",
+  "notes": "USAGE:\nA compound of ⟦{画面|がめん}→画面：04406_gamen⟧ (screen) and ⟦{収録|しゅうろく}→収録：08378_shuuroku⟧ (recording). This is the term used in Apple's iOS and macOS interfaces. ⟦スクリーン→スクリーン：01368_sukuriin⟧⟦レコーディング→レコーディング：08117_rekoodingu⟧ (the loanword equivalent) is also used.\n\nCOMMON COLLOCATIONS:\n- {画面収録|がめんしゅうろく}⟦{機能|きのう}→機能：13165_kinou⟧ (screen recording feature)\n- {画面収録|がめんしゅうろく}⟦を→を：00422_wo⟧⟦{開始|かいし}する→開始する：26826_kaishisuru⟧ (to start screen recording)\n- {画面収録|がめんしゅうろく}⟦{動画|どうが}→動画：04443_douga⟧ (screen recording video)\n\nRELATED WORDS:\n- ⟦スクリーンショット→スクリーンショット：28437_sukuriinshotto⟧: screenshot (still image)\n- ⟦{録画|ろくが}→録画：04441_rokuga⟧: video recording (general)",
   "cross_references": [
     {
       "type": "related",
@@ -46,19 +52,32 @@
       "reading": "ろくが",
       "headword": "{録画|ろくが}",
       "label": "video recording"
+    },
+    {
+      "type": "related",
+      "target_id": "28437_sukuriinshotto",
+      "reading": "すくりーんしょっと",
+      "headword": "スクリーンショット",
+      "label": "screenshot"
     }
   ],
   "metadata": {
     "created": "2026-03-19T08:31:04Z",
-    "modified": "2026-05-07T09:10:12Z",
+    "modified": "2026-09-02T04:01:50Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["electronics"],
-      "domain": ["technical"]
+      "semantic": [
+        "electronics"
+      ],
+      "domain": [
+        "technical"
+      ]
     }
   }
 }

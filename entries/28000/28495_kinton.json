@@ -9,13 +9,13 @@
     {
       "sense_number": 1,
       "gloss": "sweetened chestnut paste; mashed sweet potato with chestnuts",
-      "explanation": "A traditional Japanese sweet dish made by mashing sweet potatoes (or yams) with sugar and mixing in whole boiled chestnuts. The bright yellow color symbolizes gold, so it is a customary New Year's ({お正月|おしょうがつ}) {おせち料理|おせちりょうり} dish wishing for wealth in the coming year."
+      "explanation": "A traditional Japanese sweet dish made by mashing sweet potatoes (or yams) with sugar and mixing in whole boiled chestnuts. The bright yellow color symbolizes gold, so it is a customary New Year's (お{正月|しょうがつ}) {おせち料理|おせちりょうり} dish wishing for wealth in the coming year."
     }
   ],
   "examples": [
     {
       "id": "28495_kinton_ex1",
-      "japanese": "{母|はは}がきんとんを{作|つく}った。",
+      "japanese": "⟦{母|はは}→母：00549_haha⟧⟦が→が：00051_ga⟧きんとん⟦を→を：00422_wo⟧⟦{作|つく}った→作る：00481_tsukuru⟧。",
       "english": "My mother made kinton.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28495_kinton_ex2",
-      "japanese": "おせちには{栗|くり}きんとんが{欠|か}かせない。",
+      "japanese": "⟦おせち→おせち：09649_osechi⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{栗|くり}→栗：04387_kuri⟧きんとん⟦が→が：00051_ga⟧⟦{欠|か}かせない→欠かす：10138_kakasu⟧。",
       "english": "Chestnut kinton is indispensable in osechi.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28495_kinton_ex3",
-      "japanese": "きんとんの{鮮|あざ}やかな{黄色|きいろ}は{金|きん}を{象徴|しょうちょう}し、{豊|ゆた}かな{一年|いちねん}を{願|ねが}う{意味|いみ}がある。",
+      "japanese": "きんとん⟦の→の：09472_no⟧⟦{鮮|あざ}やか→鮮やか：05702_azayaka⟧な⟦{黄色|きいろ}→黄色：02870_kiiro⟧⟦は→は：00079_ha⟧{金|きん}⟦を→を：00422_wo⟧⟦{象徴|しょうちょう}→象徴：05534_shouchou⟧し、⟦{豊|ゆた}か→豊か：03654_yutaka⟧な⟦{一年|いちねん}→一年：10994_ichinen⟧⟦を→を：00422_wo⟧⟦{願|ねが}う→願う：02387_negau⟧⟦{意味|いみ}→意味：01155_imi⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "Kinton's vivid yellow symbolizes gold and carries the meaning of wishing for a prosperous year.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Originally written {金団|きんとん} (\"gold cluster\"); the yellow color is the source of the auspicious meaning. The most familiar form is {栗|くり}きんとん (chestnut kinton).\n\nCOMMON COLLOCATIONS:\n- {栗|くり}きんとん: chestnut kinton (the standard form)\n- きんとんを{作|つく}る: to make kinton\n- おせちのきんとん: the kinton in osechi (New Year's cuisine)\n\nCULTURAL CONTEXT:\nIn {おせち料理|おせちりょうり}, each dish carries a wish for the new year. きんとん's gold color represents wealth ({金運|きんうん}) and a prosperous year.\n\nSIMILAR WORDS:\n- おせち{料理|りょうり}: New Year's cuisine — the larger meal that contains きんとん\n- {餡|あん}: sweet bean paste — a different category of sweetened paste, made from beans rather than chestnuts and sweet potatoes",
+  "notes": "Originally written {金団|きんとん} (\"gold cluster\"); the yellow color is the source of the auspicious meaning. The most familiar form is ⟦{栗|くり}→栗：04387_kuri⟧きんとん (chestnut kinton).\n\nCOMMON COLLOCATIONS:\n- ⟦{栗|くり}→栗：04387_kuri⟧きんとん: chestnut kinton (the standard form)\n- きんとん⟦を→を：00422_wo⟧⟦{作|つく}る→作る：00481_tsukuru⟧: to make kinton\n- ⟦おせち→おせち：09649_osechi⟧⟦の→の：09472_no⟧きんとん: the kinton in osechi (New Year's cuisine)\n\nCULTURAL NOTE:\nIn ⟦{おせち料理|おせちりょうり}→おせち料理：26981_osechiryouri⟧, each dish carries a wish for the new year. きんとん's gold color represents wealth ({金運|きんうん}) and a prosperous year.\n\nSIMILAR WORDS:\n- ⟦おせち{料理|りょうり}→おせち料理：26981_osechiryouri⟧: New Year's cuisine — the larger meal that contains きんとん\n- ⟦{餡|あん}→餡：10220_an⟧: sweet bean paste — a different category of sweetened paste, made from beans rather than chestnuts and sweet potatoes",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "26981_osechiryouri",
+      "reading": "おせちりょうり",
+      "headword": "おせち{料理|りょうり}",
+      "label": "New Year's cuisine"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10220_an",
+      "reading": "あん",
+      "headword": "{餡|あん}",
+      "label": "sweet bean paste"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +69,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "food",
         "culture"
@@ -61,6 +77,6 @@
       "domain": []
     },
     "created": "2026-06-01T02:10:47Z",
-    "modified": "2026-06-01T02:10:47Z"
+    "modified": "2026-09-02T04:02:33Z"
   }
 }

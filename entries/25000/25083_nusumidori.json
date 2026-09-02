@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25083_nusumidori_ex1",
-      "japanese": "{盗|ぬす}み{撮|ど}りは{犯罪|はんざい}です。",
+      "japanese": "{盗|ぬす}み{撮|ど}り⟦は→は：00079_ha⟧⟦{犯罪|はんざい}→犯罪：03569_hanzai⟧です。",
       "english": "Secret photography is a crime.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25083_nusumidori_ex2",
-      "japanese": "{電車|でんしゃ}の{中|なか}での{盗|ぬす}み{撮|ど}りが{問題|もんだい}になっている。",
+      "japanese": "⟦{電車|でんしゃ}→電車：00522_densha⟧⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧⟦で→で：00502_de⟧⟦の→の：09472_no⟧{盗|ぬす}み{撮|ど}り⟦が→が：00051_ga⟧⟦{問題|もんだい}→問題：00797_mondai⟧になっている。",
       "english": "Secret photography on trains has become a problem.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25083_nusumidori_ex3",
-      "japanese": "{有名人|ゆうめいじん}の{盗|ぬす}み{撮|ど}り{写真|しゃしん}がネットに{出回|でまわ}って{大|おお}きな{騒|さわ}ぎになった。",
+      "japanese": "⟦{有名人|ゆうめいじん}→有名人：17812_yuumeijin⟧⟦の→の：09472_no⟧{盗|ぬす}み{撮|ど}り⟦{写真|しゃしん}→写真：00753_shashin⟧⟦が→が：00051_ga⟧⟦ネット→ネット：05279_netto⟧⟦に→に：00314_ni⟧⟦{出回|でまわ}って→出回る：11736_demawaru⟧⟦{大|おお}きな→大きな：02849_ookina⟧⟦{騒|さわ}ぎ→騒ぎ：02827_sawagi⟧になった。",
       "english": "Secretly taken photos of the celebrity circulated online and caused a big uproar.",
       "sense_numbers": [
         1
@@ -44,20 +44,30 @@
       "notes": null
     }
   ],
-  "notes": "Refers to taking photographs or video of someone without their knowledge or consent. In Japan, this is taken very seriously as both a social taboo and a legal offense. Since 2023, Japan has strengthened laws against voyeuristic photography under the revised Penal Code.\n\nCOMMON COLLOCATIONS:\n- {盗|ぬす}み{撮|ど}りする: to take secret photos\n- {盗|ぬす}み{撮|ど}り{写真|しゃしん}: secretly taken photograph\n- {盗|ぬす}み{撮|ど}り{動画|どうが}: secretly taken video\n- {盗|ぬす}み{撮|ど}り{被害|ひがい}: harm from secret photography\n\nSIMILAR WORDS:\n- {盗撮|とうさつ}: voyeuristic photography — a more formal/legal term for the same act\n- {隠|かく}し{撮|ど}り: hidden camera filming — often used for hidden camera shows or pranks as well\n- {無断|むだん}{撮影|さつえい}: unauthorized filming — broader term covering any photography without permission",
+  "notes": "Refers to taking photographs or video of someone without their knowledge or consent. In Japan, this is taken very seriously as both a social taboo and a legal offense. Since 2023, Japan has strengthened laws against voyeuristic photography under the revised Penal Code.\n\nCOMMON COLLOCATIONS:\n- {盗|ぬす}み{撮|ど}り⟦する→する：00392_suru⟧: to take secret photos\n- {盗|ぬす}み{撮|ど}り⟦{写真|しゃしん}→写真：00753_shashin⟧: secretly taken photograph\n- {盗|ぬす}み{撮|ど}り⟦{動画|どうが}→動画：04443_douga⟧: secretly taken video\n- {盗|ぬす}み{撮|ど}り⟦{被害|ひがい}→被害：02572_higai⟧: harm from secret photography\n\nSIMILAR WORDS:\n- ⟦{盗撮|とうさつ}→盗撮：20492_tousatsu⟧: voyeuristic photography — a more formal/legal term for the same act\n- {隠|かく}し{撮|ど}り: hidden camera filming — often used for hidden camera shows or pranks as well\n- ⟦{無断|むだん}→無断：13382_mudan⟧⟦{撮影|さつえい}→撮影：04175_satsuei⟧: unauthorized filming — broader term covering any photography without permission",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20492_tousatsu",
+      "reading": "とうさつ",
+      "headword": "{盗撮|とうさつ}",
+      "label": "voyeuristic photography"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "law",
         "society"
       ]
     },
     "created": "2026-04-22T14:36:59Z",
-    "modified": "2026-08-03T09:22:27Z"
+    "modified": "2026-09-02T04:02:21Z"
   }
 }

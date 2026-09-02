@@ -3,7 +3,7 @@
   "id": "14210_yuukai",
   "headword": "{誘拐|ゆうかい}",
   "reading": "ゆうかい",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "kidnapping, abduction",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "14210_yuukai_ex1",
-      "japanese": "{子|こ}どもが{誘拐|ゆうかい}された。",
+      "japanese": "{子|こ}ども⟦が→が：00051_ga⟧{誘拐|ゆうかい}⟦された→する：00392_suru⟧。",
       "english": "A child was kidnapped.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "14210_yuukai_ex2",
-      "japanese": "{誘拐|ゆうかい}{犯|はん}はまだ{捕|つか}まっていない。",
+      "japanese": "{誘拐|ゆうかい}{犯|はん}⟦は→は：00079_ha⟧⟦まだ→まだ：00603_mada⟧⟦{捕|つか}まっていない→捕まる：01959_tsukamaru⟧。",
       "english": "The kidnapper has not been caught yet.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "14210_yuukai_ex3",
-      "japanese": "{身代金|みのしろきん}{目的|もくてき}の{誘拐|ゆうかい}{事件|じけん}が{報道|ほうどう}された。",
+      "japanese": "⟦{身代金|みのしろきん}→身代金：14302_minoshirokin⟧⟦{目的|もくてき}→目的：02433_mokuteki⟧⟦の→の：09472_no⟧{誘拐|ゆうかい}⟦{事件|じけん}→事件：01568_jiken⟧⟦が→が：00051_ga⟧⟦{報道|ほうどう}→報道：04438_houdou⟧⟦された→する：00392_suru⟧。",
       "english": "A kidnapping case for ransom was reported in the news.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{誘拐|ゆうかい} is a serious criminal term. It can be used as a noun or with する to form a verb. The perpetrator is called {誘拐|ゆうかい}{犯|はん} (kidnapper).\n\nCOMMON COLLOCATIONS:\n- {誘拐|ゆうかい}{事件|じけん}: kidnapping case/incident\n- {誘拐|ゆうかい}{犯|はん}: kidnapper\n- {誘拐|ゆうかい}{未遂|みすい}: attempted kidnapping\n- {身代金|みのしろきん}{目的|もくてき}の{誘拐|ゆうかい}: kidnapping for ransom\n- {誘拐|ゆうかい}される: to be kidnapped (passive)\n\nSIMILAR WORDS:\n{拉致|らち} (abduction) is often used in political contexts, particularly for state-sponsored abductions. {誘拐|ゆうかい} is the standard criminal/legal term.",
+  "notes": "USAGE:\n{誘拐|ゆうかい} is a serious criminal term. It can be used as a noun or with ⟦する→する：00392_suru⟧ to form a verb. The perpetrator is called {誘拐|ゆうかい}{犯|はん} (kidnapper).\n\nCOMMON COLLOCATIONS:\n- {誘拐|ゆうかい}⟦{事件|じけん}→事件：01568_jiken⟧: kidnapping case/incident\n- {誘拐|ゆうかい}{犯|はん}: kidnapper\n- {誘拐|ゆうかい}⟦{未遂|みすい}→未遂：13085_misui⟧: attempted kidnapping\n- ⟦{身代金|みのしろきん}→身代金：14302_minoshirokin⟧⟦{目的|もくてき}→目的：02433_mokuteki⟧⟦の→の：09472_no⟧{誘拐|ゆうかい}: kidnapping for ransom\n- {誘拐|ゆうかい}⟦される→する：00392_suru⟧: to be kidnapped (passive)\n\nSIMILAR WORDS:\n{拉致|らち} (abduction) is often used in political contexts, particularly for state-sponsored abductions. {誘拐|ゆうかい} is the standard criminal/legal term.",
   "cross_references": [
     {
       "type": "related",
@@ -149,11 +149,32 @@
       "reading": "ゆうどう",
       "headword": "{誘導|ゆうどう}",
       "label": "guidance, leading"
+    },
+    {
+      "type": "related",
+      "target_id": "09678_hitojichi",
+      "reading": "ひとじち",
+      "headword": "{人質|ひとじち}",
+      "label": "hostage"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21397_tsuresaru",
+      "reading": "つれさる",
+      "headword": "{連|つ}れ{去|さ}る",
+      "label": "to take away"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25711_rachisuru",
+      "reading": "らちする",
+      "headword": "{拉致|らち}する",
+      "label": "to abduct"
     }
   ],
   "metadata": {
     "created": "2026-02-28T03:03:06Z",
-    "modified": "2026-04-30T06:34:37Z",
+    "modified": "2026-09-02T04:01:36Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

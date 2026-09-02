@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "09867_keibiin_ex1",
-      "japanese": "{警備員|けいびいん}が{入口|いりぐち}に{立|た}っている。",
+      "japanese": "{警備員|けいびいん}⟦が→が：00051_ga⟧{入口|いりぐち}⟦に→に：00314_ni⟧⟦{立|た}っている→立つ：00758_tatsu⟧。",
       "english": "A security guard is standing at the entrance.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "09867_keibiin_ex2",
-      "japanese": "{警備員|けいびいん}に{身分証|みぶんしょう}を{見|み}せた。",
+      "japanese": "{警備員|けいびいん}⟦に→に：00314_ni⟧⟦{身分証|みぶんしょう}→身分証：11508_mibunshou⟧⟦を→を：00422_wo⟧⟦{見|み}せた→見せる：01988_miseru⟧。",
       "english": "I showed my ID to the security guard.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "09867_keibiin_ex3",
-      "japanese": "ビルの{警備員|けいびいん}として{働|はたら}いている。",
+      "japanese": "⟦ビル→ビル：01500_biru⟧⟦の→の：09472_no⟧{警備員|けいびいん}⟦として→として：06802_toshite⟧⟦{働|はたら}いている→働く：00503_hataraku⟧。",
       "english": "I work as a security guard at a building.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{警備員|けいびいん} refers to security guards.\n\nCOMMON CONTEXTS:\n- {建物|たてもの}の{警備員|けいびいん}: building security guard\n- イベントの{警備員|けいびいん}: event security\n- {夜間|やかん}{警備員|けいびいん}: night security guard\n\nRELATED TERMS:\n- {警備|けいび}: security, guard duty\n- {警備会社|けいびがいしゃ}: security company\n- {警備|けいび}する: to guard, to provide security\n- {警察官|けいさつかん}: police officer\n- {ガードマン}: security guard (loanword)",
+  "notes": "{警備員|けいびいん} refers to security guards.\n\nUSAGE:\n- ⟦{建物|たてもの}→建物：01458_tatemono⟧⟦の→の：09472_no⟧{警備員|けいびいん}: building security guard\n- ⟦イベント→イベント：09594_ibento⟧⟦の→の：09472_no⟧{警備員|けいびいん}: event security\n- ⟦{夜間|やかん}→夜間：04133_yakan⟧{警備員|けいびいん}: night security guard\n\nRELATED WORDS:\n- ⟦{警備|けいび}→警備：00208_keibi⟧: security, guard duty\n- {警備会社|けいびがいしゃ}: security company\n- ⟦{警備|けいび}→警備：00208_keibi⟧⟦する→する：00392_suru⟧: to guard, to provide security\n- ⟦{警察官|けいさつかん}→警察官：05056_keisatsukan⟧: police officer\n- ⟦ガード→ガード：22870_gaado⟧マン: security guard (loanword)",
   "cross_references": [
     {
       "type": "related",
@@ -58,11 +58,18 @@
       "reading": "けいさつかん",
       "headword": "{警察官|けいさつかん}",
       "label": "police officer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24463_monban",
+      "reading": "もんばん",
+      "headword": "{門番|もんばん}",
+      "label": "gatekeeper"
     }
   ],
   "metadata": {
     "created": "2026-02-04T01:44:31Z",
-    "modified": "2026-07-10T00:20:58Z",
+    "modified": "2026-09-02T04:01:19Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

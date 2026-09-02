@@ -25,7 +25,7 @@
     },
     {
       "id": "25234_norimonoyoi_ex2",
-      "japanese": "{乗|の}り{物酔|ものよ}いの{薬|くすり}を{飲|の}んでおいた。",
+      "japanese": "{乗|の}り{物酔|ものよ}い⟦の→の：09472_no⟧⟦{薬|くすり}→薬：00793_kusuri⟧⟦を→を：00422_wo⟧⟦{飲|の}んで→飲む：00322_nomu⟧おいた。",
       "english": "I took motion sickness medicine in advance.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25234_norimonoyoi_ex3",
-      "japanese": "{子|こ}どもが{乗|の}り{物酔|ものよ}いしないように、{窓|まど}を{開|あ}けて{新鮮|しんせん}な{空気|くうき}を{入|い}れた。",
+      "japanese": "{子|こ}ども⟦が→が：00051_ga⟧{乗|の}り{物酔|ものよ}い⟦しない→する：00392_suru⟧よう⟦に→に：00314_ni⟧、⟦{窓|まど}→窓：02254_mado⟧⟦を→を：00422_wo⟧⟦{開|あ}けて→開ける：00563_akeru⟧⟦{新鮮|しんせん}→新鮮：03261_shinsen⟧な⟦{空気|くうき}→空気：01390_kuuki⟧⟦を→を：00422_wo⟧⟦{入|い}れた→入れる：01098_ireru⟧。",
       "english": "I opened the window to let in fresh air so the child wouldn't get motion sickness.",
       "sense_numbers": [
         1
@@ -44,20 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "A general term for sickness caused by the motion of vehicles. Covers car sickness, sea sickness, air sickness, etc. Composed of {乗|の}り{物|もの} (vehicle) + {酔|よ}い (intoxication; sickness).\n\nSPECIFIC TYPES:\n- {車酔|くるまよ}い: car sickness\n- {船酔|ふなよ}い: sea sickness\n- {飛行機酔|ひこうきよ}い: air sickness\n- バス{酔|よ}い: bus sickness\n\nCOMMON COLLOCATIONS:\n- {乗|の}り{物酔|ものよ}いする: to get motion sickness\n- {乗|の}り{物酔|ものよ}いの{薬|くすり}: motion sickness medicine\n- {乗|の}り{物酔|ものよ}いしやすい: prone to motion sickness\n- {乗|の}り{物酔|ものよ}いを{防|ふせ}ぐ: to prevent motion sickness",
+  "notes": "A general term for sickness caused by the motion of vehicles. Covers car sickness, sea sickness, air sickness, etc. Composed of ⟦{乗|の}り{物|もの}→乗り物：01694_norimono⟧ (vehicle) + {酔|よ}い (intoxication; sickness).\n\nSPECIFIC TYPES:\n- ⟦{車酔|くるまよ}い→車酔い：14733_kurumayoi⟧: car sickness\n- ⟦{船酔|ふなよ}い→船酔い：30619_funayoi⟧: sea sickness\n- {飛行機酔|ひこうきよ}い: air sickness\n- ⟦バス→バス：00769_basu⟧{酔|よ}い: bus sickness\n\nCOMMON COLLOCATIONS:\n- {乗|の}り{物酔|ものよ}い⟦する→する：00392_suru⟧: to get motion sickness\n- {乗|の}り{物酔|ものよ}い⟦の→の：09472_no⟧⟦{薬|くすり}→薬：00793_kusuri⟧: motion sickness medicine\n- {乗|の}り{物酔|ものよ}いしやすい: prone to motion sickness\n- {乗|の}り{物酔|ものよ}い⟦を→を：00422_wo⟧⟦{防|ふせ}ぐ→防ぐ：02409_fusegu⟧: to prevent motion sickness",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "30619_funayoi",
+      "reading": "ふなよい",
+      "headword": "{船酔|ふなよ}い",
+      "label": "seasickness"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "health",
         "transportation"
       ]
     },
     "created": "2026-04-24T11:28:20Z",
-    "modified": "2026-04-24T11:28:20Z"
+    "modified": "2026-09-02T04:02:21Z"
   }
 }

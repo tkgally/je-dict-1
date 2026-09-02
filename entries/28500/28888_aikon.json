@@ -15,41 +15,67 @@
   "examples": [
     {
       "id": "28888_aikon_ex1",
-      "japanese": "アイコンをタップする。",
+      "japanese": "アイコン⟦を→を：00422_wo⟧⟦タップ→タップ：05395_tappu⟧⟦する→する：00392_suru⟧。",
       "english": "Tap the icon.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28888_aikon_ex2",
-      "japanese": "SNSのアイコンを{変更|へんこう}した。",
+      "japanese": "SNS⟦の→の：09472_no⟧アイコン⟦を→を：00422_wo⟧⟦{変更|へんこう}した→変更する：30779_henkousuru⟧。",
       "english": "I changed my social media profile picture.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28888_aikon_ex3",
-      "japanese": "デスクトップにあるアイコンをダブルクリックするとアプリが{起動|きどう}する。",
+      "japanese": "⟦デスクトップ→デスクトップ：24418_desukutoppu⟧⟦に→に：00314_ni⟧⟦ある→ある：00006_aru⟧アイコン⟦を→を：00422_wo⟧⟦ダブルクリック→ダブルクリック：26395_daburukurikku⟧⟦する→する：00392_suru⟧⟦と→と：00512_to⟧⟦アプリ→アプリ：04722_apuri⟧⟦が→が：00051_ga⟧⟦{起動|きどう}する→起動する：17295_kidousuru⟧。",
       "english": "Double-clicking the icon on the desktop launches the app.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Loanword from English \"icon.\" In Japanese the social-media \"profile picture\" sense is at least as common as the computer-interface sense.\n\nCOMMON COLLOCATIONS:\n- アイコンを{押|お}す/タップする: to press / tap the icon\n- アイコンをクリックする: to click the icon\n- アイコンを{変|か}える: to change one's profile picture\n- プロフィールアイコン: profile icon\n- アプリのアイコン: an app icon\n\nSIMILAR WORDS:\n- ロゴ: logo — a brand mark, not an interactive interface element\n- プロフィール{画像|がぞう}: profile image — more formal/technical phrasing for the same thing as a social-media アイコン",
+  "notes": "Loanword from English \"icon.\" In Japanese the social-media \"profile picture\" sense is at least as common as the computer-interface sense.\n\nCOMMON COLLOCATIONS:\n- アイコン⟦を→を：00422_wo⟧⟦{押|お}す→押す：02854_osu⟧/⟦タップ→タップ：05395_tappu⟧⟦する→する：00392_suru⟧: to press / tap the icon\n- アイコン⟦を→を：00422_wo⟧⟦クリックする→クリックする：24722_kurikkusuru⟧: to click the icon\n- アイコン⟦を→を：00422_wo⟧⟦{変|か}える→変える：01089_kaeru⟧: to change one's profile picture\n- ⟦プロフィール→プロフィール：06474_purofiiru⟧アイコン: profile icon\n- ⟦アプリ→アプリ：04722_apuri⟧⟦の→の：09472_no⟧アイコン: an app icon\n\nSIMILAR WORDS:\n- ⟦ロゴ→ロゴ：11264_rogo⟧: logo — a brand mark, not an interactive interface element\n- ⟦プロフィール→プロフィール：06474_purofiiru⟧⟦{画像|がぞう}→画像：13549_gazou⟧: profile image — more formal/technical phrasing for the same thing as a social-media アイコン",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11264_rogo",
+      "reading": "ろご",
+      "headword": "ロゴ",
+      "label": "logo"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26380_purofiirushashin",
+      "reading": "ぷろふぃーるしゃしん",
+      "headword": "プロフィール{写真|しゃしん}",
+      "label": "profile photo"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["technology"],
+      "politeness": "plain",
+      "semantic": [
+        "technology"
+      ],
       "domain": []
     },
     "created": "2026-06-07T02:04:13Z",
-    "modified": "2026-06-07T02:04:13Z"
+    "modified": "2026-09-02T04:02:35Z"
   }
 }

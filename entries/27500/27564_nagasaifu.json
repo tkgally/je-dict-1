@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "27564_nagasaifu_ex1",
-      "japanese": "{父|ちち}は{茶色|ちゃいろ}の{長財布|ながさいふ}を{使|つか}っている。",
+      "japanese": "⟦{父|ちち}→父：00566_chichi⟧⟦は→は：00079_ha⟧⟦{茶色|ちゃいろ}→茶色：02915_chairo⟧⟦の→の：09472_no⟧{長財布|ながさいふ}⟦を→を：00422_wo⟧⟦{使|つか}っている→使う：00473_tsukau⟧。",
       "english": "My father uses a brown long wallet.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "27564_nagasaifu_ex2",
-      "japanese": "{長財布|ながさいふ}は{札|さつ}が{折|お}れないので{便利|べんり}だ。",
+      "japanese": "{長財布|ながさいふ}⟦は→は：00079_ha⟧⟦{札|さつ}→札：02153_satsu⟧⟦が→が：00051_ga⟧⟦{折|お}れない→折れる：01266_oreru⟧⟦の→の：09472_no⟧で⟦{便利|べんり}→便利：00830_benri⟧だ。",
       "english": "Long wallets are convenient because the bills don't get folded.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "27564_nagasaifu_ex3",
-      "japanese": "{誕生日|たんじょうび}に{革製|かわせい}の{長財布|ながさいふ}をプレゼントしてもらった。",
+      "japanese": "⟦{誕生日|たんじょうび}→誕生日：02910_tanjoubi⟧⟦に→に：00314_ni⟧⟦{革製|かわせい}→革製：26255_kawasei⟧⟦の→の：09472_no⟧{長財布|ながさいふ}⟦を→を：00422_wo⟧⟦プレゼント→プレゼント：01791_purezento⟧⟦して→する：00392_suru⟧⟦もらった→もらう：00520_morau⟧。",
       "english": "I was given a leather long wallet as a birthday present.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {長|なが}い (long) + {財布|さいふ} (wallet). Traditionally seen as a more formal or businesslike choice than a folding wallet because it keeps bills uncreased.\n\nCOMMON COLLOCATIONS:\n- {革|かわ}の{長財布|ながさいふ}: leather long wallet\n- {長財布|ながさいふ}を{使|つか}う: to use a long wallet\n- {長財布|ながさいふ}を{持|も}つ: to carry a long wallet\n\nSIMILAR WORDS:\n- {財布|さいふ}: wallet (general term)\n- {折|お}り{畳|たた}み{財布|ざいふ}: folding wallet\n- がま{口|ぐち}: clasp-style coin purse",
+  "notes": "Compound of ⟦{長|なが}い→長い：00491_nagai⟧ (long) + ⟦{財布|さいふ}→財布：00663_saifu⟧ (wallet). Traditionally seen as a more formal or businesslike choice than a folding wallet because it keeps bills uncreased.\n\nCOMMON COLLOCATIONS:\n- ⟦{革|かわ}→革：19310_kawa⟧⟦の→の：09472_no⟧{長財布|ながさいふ}: leather long wallet\n- {長財布|ながさいふ}⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧: to use a long wallet\n- {長財布|ながさいふ}⟦を→を：00422_wo⟧⟦{持|も}つ→持つ：00478_motsu⟧: to carry a long wallet\n\nSIMILAR WORDS:\n- ⟦{財布|さいふ}→財布：00663_saifu⟧: wallet (general term)\n- ⟦{折|お}り{畳|たた}み→折り畳む：12803_oritatamu⟧{財布|ざいふ}: folding wallet\n- ⟦がま{口|ぐち}→がま口：27565_gamaguchi⟧: clasp-style coin purse",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "27565_gamaguchi",
+      "reading": "がまぐち",
+      "headword": "がま{口|ぐち}",
+      "label": "clasp-style coin purse"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22582_satsuire",
+      "reading": "さついれ",
+      "headword": "{札入|さつい}れ",
+      "label": "billfold"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +69,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "daily-life",
         "tool"
@@ -61,6 +77,6 @@
       "domain": []
     },
     "created": "2026-05-14T03:11:37Z",
-    "modified": "2026-08-07T16:13:39Z"
+    "modified": "2026-09-02T04:02:31Z"
   }
 }

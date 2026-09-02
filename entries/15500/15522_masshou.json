@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "15522_masshou_ex1",
-      "japanese": "{戸籍|こせき}から{名前|なまえ}を{抹消|まっしょう}する。",
+      "japanese": "⟦{戸籍|こせき}→戸籍：12695_koseki⟧⟦から→から：00504_kara⟧⟦{名前|なまえ}→名前：02234_namae⟧⟦を→を：00422_wo⟧{抹消|まっしょう}⟦する→する：00392_suru⟧。",
       "english": "Remove a name from the family register.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "15522_masshou_ex2",
-      "japanese": "{登録|とうろく}を{抹消|まっしょう}する{手続|てつづ}きが{必要|ひつよう}です。",
+      "japanese": "⟦{登録|とうろく}→登録：05703_touroku⟧⟦を→を：00422_wo⟧{抹消|まっしょう}⟦する→する：00392_suru⟧⟦{手続|てつづ}き→手続き：05453_tetsuzuki⟧⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧です。",
       "english": "You need to go through the procedure to cancel the registration.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "15522_masshou_ex3",
-      "japanese": "{過去|かこ}の{記録|きろく}を{抹消|まっしょう}しようとしても、インターネット{上|じょう}に{残|のこ}ることがある。",
+      "japanese": "⟦{過去|かこ}→過去：00152_kako⟧⟦の→の：09472_no⟧⟦{記録|きろく}→記録：02490_kiroku⟧⟦を→を：00422_wo⟧{抹消|まっしょう}⟦しよう→する：00392_suru⟧⟦として→として：06802_toshite⟧⟦も→も：00484_mo⟧、⟦インターネット→インターネット：04723_intaanetto⟧⟦{上|じょう}→〜上：30365_jou⟧⟦に→に：00314_ni⟧⟦{残|のこ}る→残る：01187_nokoru⟧こと⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "Even if you try to erase past records, they can remain on the internet.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{抹消|まっしょう} is a formal term for erasure or deletion, typically used for official records, registrations, and databases. It implies a deliberate, complete removal rather than a casual deletion.\n\nCOMMON COLLOCATIONS:\n- {登録|とうろく}{抹消|まっしょう} (cancellation of registration)\n- {戸籍|こせき}{抹消|まっしょう} (removal from family register)\n- {記録|きろく}を{抹消|まっしょう}する (to erase a record)\n- {抹消|まっしょう}{登記|とうき} (deregistration)\n\nGRAMMAR:\nUsed as a noun or with する to form a transitive verb.",
+  "notes": "USAGE:\n{抹消|まっしょう} is a formal term for erasure or deletion, typically used for official records, registrations, and databases. It implies a deliberate, complete removal rather than a casual deletion.\n\nCOMMON COLLOCATIONS:\n- ⟦{登録|とうろく}→登録：05703_touroku⟧{抹消|まっしょう} (cancellation of registration)\n- ⟦{戸籍|こせき}→戸籍：12695_koseki⟧{抹消|まっしょう} (removal from family register)\n- ⟦{記録|きろく}→記録：02490_kiroku⟧⟦を→を：00422_wo⟧{抹消|まっしょう}⟦する→する：00392_suru⟧ (to erase a record)\n- {抹消|まっしょう}⟦{登記|とうき}→登記：19798_touki⟧ (deregistration)\n\nCOMMON PATTERNS:\nUsed as a noun or with ⟦する→する：00392_suru⟧ to form a transitive verb.",
   "cross_references": [
     {
       "type": "synonym",
@@ -142,11 +142,32 @@
       "reading": "さくじょ",
       "headword": "{削除|さくじょ}",
       "label": "deletion (general)"
+    },
+    {
+      "type": "homophone",
+      "target_id": "22865_masshou",
+      "reading": "まっしょう",
+      "headword": "{末梢|まっしょう}",
+      "label": "periphery"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24951_joseki",
+      "reading": "じょせき",
+      "headword": "{除籍|じょせき}",
+      "label": "removal from a register"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27282_shoujosuru",
+      "reading": "しょうじょする",
+      "headword": "{消除|しょうじょ}する",
+      "label": "to eliminate"
     }
   ],
   "metadata": {
     "created": "2026-03-07T09:34:07Z",
-    "modified": "2026-05-01T07:30:21Z",
+    "modified": "2026-09-02T04:01:41Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -159,7 +180,8 @@
       "semantic": [
         "general"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

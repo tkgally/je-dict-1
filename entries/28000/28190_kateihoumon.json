@@ -3,7 +3,7 @@
   "headword": "{家庭訪問|かていほうもん}",
   "reading": "かていほうもん",
   "romaji": "kateihoumon",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "home visit (by a teacher)",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28190_kateihoumon_ex1",
-      "japanese": "{来週|らいしゅう}{家庭訪問|かていほうもん}がある。",
+      "japanese": "⟦{来週|らいしゅう}→来週：00746_raishuu⟧{家庭訪問|かていほうもん}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There will be a home visit next week.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28190_kateihoumon_ex2",
-      "japanese": "{先生|せんせい}が{家庭訪問|かていほうもん}で{家|いえ}に{来|き}た。",
+      "japanese": "⟦{先生|せんせい}→先生：00609_sensei⟧⟦が→が：00051_ga⟧{家庭訪問|かていほうもん}⟦で→で：00502_de⟧⟦{家|いえ}→家：00612_ie⟧⟦に→に：00314_ni⟧⟦{来|き}た→来る：00254_kuru⟧。",
       "english": "The teacher came to our house for a home visit.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28190_kateihoumon_ex3",
-      "japanese": "{母|はは}は{家庭訪問|かていほうもん}の{前|まえ}に、{急|いそ}いで{部屋|へや}を{片付|かたづ}けた。",
+      "japanese": "⟦{母|はは}→母：00549_haha⟧⟦は→は：00079_ha⟧{家庭訪問|かていほうもん}⟦の→の：09472_no⟧⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧、⟦{急|いそ}いで→急ぐ：01191_isogu⟧⟦{部屋|へや}→部屋：00507_heya⟧⟦を→を：00422_wo⟧⟦{片付|かたづ}けた→片付ける：01192_katazukeru⟧。",
       "english": "My mother hurriedly tidied up the rooms before the home visit.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {家庭|かてい} (household) + {訪問|ほうもん} (visit). A familiar event in Japanese primary and junior-high schooling, typically held in spring. Takes する as a verb ({家庭訪問|かていほうもん}する).\n\nCOMMON COLLOCATIONS:\n- {家庭訪問|かていほうもん}がある: there is a home visit\n- {家庭訪問|かていほうもん}の{日|ひ}: the day of the home visit\n- {担任|たんにん}の{家庭訪問|かていほうもん}: home visit by the homeroom teacher\n\nSIMILAR WORDS:\n- {面談|めんだん}: interview; one-on-one meeting — teacher and parent meet, but usually at the school\n- {訪問|ほうもん}: a visit — the general word, with no school connotation",
+  "notes": "Compound of ⟦{家庭|かてい}→家庭：12315_katei⟧ (household) + ⟦{訪問|ほうもん}→訪問：03622_houmon⟧ (visit). A familiar event in Japanese primary and junior-high schooling, typically held in spring. Takes ⟦する→する：00392_suru⟧ as a verb ({家庭訪問|かていほうもん}⟦する→する：00392_suru⟧).\n\nCOMMON COLLOCATIONS:\n- {家庭訪問|かていほうもん}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧: there is a home visit\n- {家庭訪問|かていほうもん}⟦の→の：09472_no⟧⟦{日|ひ}→日：02249_hi⟧: the day of the home visit\n- ⟦{担任|たんにん}→担任：16408_tannin⟧⟦の→の：09472_no⟧{家庭訪問|かていほうもん}: home visit by the homeroom teacher\n\nSIMILAR WORDS:\n- ⟦{面談|めんだん}→面談：08177_mendan⟧: interview; one-on-one meeting — teacher and parent meet, but usually at the school\n- ⟦{訪問|ほうもん}→訪問：03622_houmon⟧: a visit — the general word, with no school connotation",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08177_mendan",
+      "reading": "めんだん",
+      "headword": "{面談|めんだん}",
+      "label": "interview"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,7 +71,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-27T02:07:43Z",
-    "modified": "2026-05-27T02:07:43Z"
+    "modified": "2026-09-02T04:02:32Z"
   },
   "conjugation": {
     "type": "suru",

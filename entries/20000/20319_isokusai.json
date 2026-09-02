@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "20319_isokusai_ex1",
-      "japanese": "{港|みなと}の{近|ちか}くは{磯臭|いそくさ}い。",
+      "japanese": "⟦{港|みなと}→港：01512_minato⟧⟦の→の：09472_no⟧{近|ちか}く⟦は→は：00079_ha⟧{磯臭|いそくさ}い。",
       "english": "It smells briny near the harbor.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "20319_isokusai_ex2",
-      "japanese": "{磯臭|いそくさ}い{風|かぜ}が{吹|ふ}いてきた。",
+      "japanese": "{磯臭|いそくさ}い⟦{風|かぜ}→風：00641_kaze⟧⟦が→が：00051_ga⟧⟦{吹|ふ}いて→吹く：02445_fuku⟧きた。",
       "english": "A sea-scented wind blew in.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "20319_isokusai_ex3",
-      "japanese": "{海|うみ}から{上|あ}がると{体|からだ}が{磯臭|いそくさ}くなるので、すぐシャワーを{浴|あ}びた。",
+      "japanese": "⟦{海|うみ}→海：00556_umi⟧⟦から→から：00504_kara⟧⟦{上|あ}がる→上がる：00615_agaru⟧⟦と→と：00512_to⟧⟦{体|からだ}→体：00784_karada⟧⟦が→が：00051_ga⟧{磯臭|いそくさ}く⟦なる→なる：01970_naru⟧⟦の→の：09472_no⟧で、⟦すぐ→すぐ：00814_sugu⟧⟦シャワー→シャワー：04503_shawaa⟧⟦を→を：00422_wo⟧⟦{浴|あ}びた→浴びる：02844_abiru⟧。",
       "english": "After getting out of the sea my body smelled briny, so I took a shower right away.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "A compound adjective from {磯|いそ} (rocky shore, seashore) + {臭|くさ}い (smelling of, -smelling). The {磯|いそ} specifically refers to rocky coastline as opposed to sandy beaches, so the smell is associated with seaweed, tide pools, and exposed marine life.\n\nUSAGE:\nThe word can be neutral or slightly negative. For some it evokes pleasant seaside memories; for others it describes an unwanted fishy smell. The suffix ～{臭|くさ}い is productive in Japanese: {汗臭|あせくさ}い (sweaty-smelling), {酒臭|さけくさ}い (reeking of alcohol), etc.\n\nCOMMON COLLOCATIONS:\n- {磯臭|いそくさ}い{風|かぜ} — sea-scented wind\n- {磯臭|いそくさ}い{匂|にお}い — briny smell\n- {磯|いそ}の{香|かお}り — scent of the shore (more poetic/positive)\n\nSIMILAR WORDS:\n- {生臭|なまぐさ}い — smelling of raw fish, fishy (stronger; more unpleasant)\n- {潮|しお}の{香|かお}り — scent of the sea breeze (poetic; always positive)\n- {魚臭|さかなくさ}い — smelling of fish (specifically fish, not the general shore smell)",
+  "notes": "A compound adjective from ⟦{磯|いそ}→磯：05389_iso⟧ (rocky shore, seashore) + ⟦{臭|くさ}い→臭い：01133_kusai⟧ (smelling of, -smelling). The ⟦{磯|いそ}→磯：05389_iso⟧ specifically refers to rocky coastline as opposed to sandy beaches, so the smell is associated with seaweed, tide pools, and exposed marine life.\n\nUSAGE:\nThe word can be neutral or slightly negative. For some it evokes pleasant seaside memories; for others it describes an unwanted fishy smell. The suffix ～⟦{臭|くさ}い→臭い：01133_kusai⟧ is productive in Japanese: {汗臭|あせくさ}い (sweaty-smelling), {酒臭|さけくさ}い (reeking of alcohol), etc.\n\nCOMMON COLLOCATIONS:\n- {磯臭|いそくさ}い⟦{風|かぜ}→風：00641_kaze⟧ — sea-scented wind\n- {磯臭|いそくさ}い⟦{匂|にお}い→匂い：00874_nioi⟧ — briny smell\n- ⟦{磯|いそ}→磯：05389_iso⟧⟦の→の：09472_no⟧⟦{香|かお}り→香り：00189_kaori⟧ — scent of the shore (more poetic/positive)\n\nSIMILAR WORDS:\n- ⟦{生臭|なまぐさ}い→生臭い：06822_namagusai⟧ — smelling of raw fish, fishy (stronger; more unpleasant)\n- ⟦{潮|しお}→潮：13369_shio⟧⟦の→の：09472_no⟧⟦{香|かお}り→香り：00189_kaori⟧ — scent of the sea breeze (poetic; always positive)\n- {魚臭|さかなくさ}い — smelling of fish (specifically fish, not the general shore smell)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06822_namagusai",
+      "reading": "なまぐさい",
+      "headword": "{生臭|なまぐさ}い",
+      "label": "smelling of raw fish, fishy (stronger"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,7 +69,7 @@
       ]
     },
     "created": "2026-03-28T20:19:49Z",
-    "modified": "2026-03-28T20:19:49Z"
+    "modified": "2026-09-02T04:01:59Z"
   },
   "conjugation": {
     "type": "i-adjective",

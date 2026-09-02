@@ -119,7 +119,7 @@
       ]
     }
   ],
-  "notes": "{中心|ちゅうしん} means center, core, or focus. It can refer to both physical centers and abstract focal points.\n\nCOMMON PATTERNS:\n- ～⟦を→を：00422_wo⟧{中心|ちゅうしん}⟦に→に：00314_ni⟧: centering on ~, with ~ as the focus\n- ～⟦が→が：00051_ga⟧{中心|ちゅうしん}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧: to become the center/focus\n- {中心|ちゅうしん}⟦に→に：00314_ni⟧⟦{置|お}く→置く：01092_oku⟧: to place at the center\n\nCOMMON COMPOUNDS:\n- ⟦{中心|ちゅうしん}{地|ち}→中心地：03120_chuushinchi⟧: central area, hub\n- {中心|ちゅうしん}⟦{人物|じんぶつ}→人物：03356_jinbutsu⟧: central figure, key person\n- ⟦{中心的|ちゅうしんてき}→中心的：05676_chuushinteki⟧: central (な-adjective)\n- ⟦{都心|としん}→都心：04072_toshin⟧: city center (from ⟦{都市|とし}→都市：01477_toshi⟧⟦の→の：09472_no⟧{中心|ちゅうしん})\n\nSIMILAR WORDS:\n- ⟦{真|ま}ん{中|なか}→真ん中：00968_mannaka⟧: middle, center (more casual)\n- ⟦{核心|かくしん}→核心：13105_kakushin⟧: core, heart (of an issue)\n- ⟦{焦点|しょうてん}→焦点：13413_shouten⟧: focus, focal point\n\n⟦を→を：00422_wo⟧{中心|ちゅうしん}⟦に→に：00314_ni⟧ is very common for describing what something revolves around: ⟦{家族|かぞく}→家族：00552_kazoku⟧⟦を→を：00422_wo⟧{中心|ちゅうしん}⟦に→に：00314_ni⟧⟦{生活|せいかつ}する→生活：01443_seikatsu⟧ (to live with family as the center).",
+  "notes": "{中心|ちゅうしん} means center, core, or focus. It can refer to both physical centers and abstract focal points.\n\nCOMMON PATTERNS:\n- ～⟦を→を：00422_wo⟧{中心|ちゅうしん}⟦に→に：00314_ni⟧: centering on ~, with ~ as the focus\n- ～⟦が→が：00051_ga⟧{中心|ちゅうしん}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧: to become the center/focus\n- {中心|ちゅうしん}⟦に→に：00314_ni⟧⟦{置|お}く→置く：01092_oku⟧: to place at the center\n\nCOMPOUNDS:\n- ⟦{中心|ちゅうしん}{地|ち}→中心地：03120_chuushinchi⟧: central area, hub\n- {中心|ちゅうしん}⟦{人物|じんぶつ}→人物：03356_jinbutsu⟧: central figure, key person\n- ⟦{中心的|ちゅうしんてき}→中心的：05676_chuushinteki⟧: central (な-adjective)\n- ⟦{都心|としん}→都心：04072_toshin⟧: city center (from ⟦{都市|とし}→都市：01477_toshi⟧⟦の→の：09472_no⟧{中心|ちゅうしん})\n\nSIMILAR WORDS:\n- ⟦{真|ま}ん{中|なか}→真ん中：00968_mannaka⟧: middle, center (more casual)\n- ⟦{核心|かくしん}→核心：13105_kakushin⟧: core, heart (of an issue)\n- ⟦{焦点|しょうてん}→焦点：13413_shouten⟧: focus, focal point\n\n⟦を→を：00422_wo⟧{中心|ちゅうしん}⟦に→に：00314_ni⟧ is very common for describing what something revolves around: ⟦{家族|かぞく}→家族：00552_kazoku⟧⟦を→を：00422_wo⟧{中心|ちゅうしん}⟦に→に：00314_ni⟧⟦{生活|せいかつ}する→生活：01443_seikatsu⟧ (to live with family as the center).",
   "cross_references": [
     {
       "type": "synonym",
@@ -127,11 +127,46 @@
       "reading": "まんなか",
       "headword": "{真|ま}ん{中|なか}",
       "label": "casual"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13105_kakushin",
+      "reading": "かくしん",
+      "headword": "{核心|かくしん}",
+      "label": "core, heart"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13413_shouten",
+      "reading": "しょうてん",
+      "headword": "{焦点|しょうてん}",
+      "label": "focus, focal point"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11373_chuusuu",
+      "reading": "ちゅうすう",
+      "headword": "{中枢|ちゅうすう}",
+      "label": "center, hub, nerve center"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19357_kaname",
+      "reading": "かなめ",
+      "headword": "{要|かなめ}",
+      "label": "pivot"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26699_mashin",
+      "reading": "ましん",
+      "headword": "{真芯|ましん}",
+      "label": "sweet spot"
     }
   ],
   "metadata": {
     "created": "2026-01-08T12:11:05Z",
-    "modified": "2026-05-15T18:16:16Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

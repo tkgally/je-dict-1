@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "09333_tazusawaru_ex1",
-      "japanese": "{教育|きょういく}に{携|たずさ}わる。",
+      "japanese": "⟦{教育|きょういく}→教育：01313_kyouiku⟧⟦に→に：00314_ni⟧{携|たずさ}わる。",
       "english": "To be engaged in education.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "09333_tazusawaru_ex2",
-      "japanese": "{長年|ながねん}{研究|けんきゅう}に{携|たずさ}わってきた。",
+      "japanese": "⟦{長年|ながねん}→長年：09684_naganen⟧⟦{研究|けんきゅう}→研究：01396_kenkyuu⟧⟦に→に：00314_ni⟧{携|たずさ}わってきた。",
       "english": "I've been involved in research for many years.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "09333_tazusawaru_ex3",
-      "japanese": "この{仕事|しごと}に{携|たずさ}わることができて{光栄|こうえい}です。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦に→に：00314_ni⟧{携|たずさ}わること⟦が→が：00051_ga⟧⟦できて→できる：00557_dekiru⟧⟦{光栄|こうえい}→光栄：19436_kouei⟧です。",
       "english": "I'm honored to be involved in this work.",
       "notes": null,
       "has_audio": false,
@@ -133,11 +133,19 @@
       ]
     }
   ],
-  "notes": "{携|たずさ}わる is a formal verb meaning to be engaged in professional work or activities.\n\nCONJUGATION (godan verb):\n- Dictionary: {携|たずさ}わる\n- Negative: {携|たずさ}わらない\n- Past: {携|たずさ}わった\n- Te-form: {携|たずさ}わって\n\nCOMMON PATTERNS:\n- ～に{携|たずさ}わる (be engaged in ~)\n- ～に{携|たずさ}わってきた (have been involved in ~)\n\nUSAGE NOTE: More formal than {関|かか}わる (to be involved with). Often used in professional or official contexts.",
-  "cross_references": [],
+  "notes": "{携|たずさ}わる is a formal verb meaning to be engaged in professional work or activities.\n\nCONJUGATION (godan verb):\n- Dictionary: {携|たずさ}わる\n- Negative: {携|たずさ}わらない\n- Past: {携|たずさ}わった\n- Te-form: {携|たずさ}わって\n\nCOMMON PATTERNS:\n- ～⟦に→に：00314_ni⟧{携|たずさ}わる (be engaged in ~)\n- ～⟦に→に：00314_ni⟧{携|たずさ}わってきた (have been involved in ~)\n\nUSAGE NOTE: More formal than ⟦{関|かか}わる→関わる：03020_kakawaru⟧ (to be involved with). Often used in professional or official contexts.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "03020_kakawaru",
+      "reading": "かかわる",
+      "headword": "{関|かか}わる",
+      "label": "to be concerned with, to be involved"
+    }
+  ],
   "metadata": {
     "created": "2026-02-01T07:47:33Z",
-    "modified": "2026-08-12T21:25:53Z",
+    "modified": "2026-09-02T04:01:18Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

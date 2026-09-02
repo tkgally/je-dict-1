@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "14152_eikoku_ex1",
-      "japanese": "{英国|えいこく}に{留学|りゅうがく}する。",
+      "japanese": "{英国|えいこく}⟦に→に：00314_ni⟧⟦{留学|りゅうがく}→留学：03677_ryuugaku⟧⟦する→する：00392_suru⟧。",
       "english": "To study abroad in Britain.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "14152_eikoku_ex2",
-      "japanese": "{英国|えいこく}{大使館|たいしかん}はどこですか。",
+      "japanese": "{英国|えいこく}⟦{大使館|たいしかん}→大使館：01457_taishikan⟧⟦は→は：00079_ha⟧⟦どこ→どこ：00539_doko⟧です⟦か→か：09473_ka⟧。",
       "english": "Where is the British Embassy?",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "14152_eikoku_ex3",
-      "japanese": "{英国|えいこく}の{首相|しゅしょう}が{来日|らいにち}して{首脳|しゅのう}{会談|かいだん}が{行|おこな}われた。",
+      "japanese": "{英国|えいこく}⟦の→の：09472_no⟧⟦{首相|しゅしょう}→首相：03217_shushou⟧⟦が→が：00051_ga⟧⟦{来日|らいにち}→来日：13060_rainichi⟧⟦して→する：00392_suru⟧⟦{首脳|しゅのう}→首脳：15631_shunou⟧⟦{会談|かいだん}→会談：11542_kaidan⟧⟦が→が：00051_ga⟧⟦{行|おこな}われた→行う：01238_okonau⟧。",
       "english": "The British Prime Minister visited Japan and a summit meeting was held.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,19 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{英国|えいこく} is the formal, Sino-Japanese name for Britain. In everyday conversation, イギリス is more common. {英国|えいこく} appears frequently in news reports, government documents, and academic writing. The character {英|えい} alone can function as an abbreviation for Britain, as in {日英|にちえい} (Japan-Britain) or {英語|えいご} (English language).\n\nCOMMON COLLOCATIONS:\n- {英国|えいこく}{政府|せいふ}: the British government\n- {英国|えいこく}{王室|おうしつ}: the British royal family\n- {英国|えいこく}{風|ふう}: British-style",
-  "cross_references": [],
+  "notes": "USAGE:\n{英国|えいこく} is the formal, Sino-Japanese name for Britain. In everyday conversation, ⟦イギリス→イギリス：28283_igirisu⟧ is more common. {英国|えいこく} appears frequently in news reports, government documents, and academic writing. The character {英|えい} alone can function as an abbreviation for Britain, as in ⟦{日英|にちえい}→日英：24610_nichiei⟧ (Japan-Britain) or ⟦{英語|えいご}→英語：02274_eigo⟧ (English language).\n\nCOMMON COLLOCATIONS:\n- {英国|えいこく}⟦{政府|せいふ}→政府：03294_seifu⟧: the British government\n- {英国|えいこく}⟦{王室|おうしつ}→王室：15297_oushitsu⟧: the British royal family\n- {英国|えいこく}{風|ふう}: British-style",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "28283_igirisu",
+      "reading": "いぎりす",
+      "headword": "イギリス",
+      "label": "the United Kingdom"
+    }
+  ],
   "metadata": {
     "created": "2026-02-28T01:46:59Z",
-    "modified": "2026-08-28T00:35:51Z",
+    "modified": "2026-09-02T04:01:36Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

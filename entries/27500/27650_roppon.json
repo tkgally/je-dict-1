@@ -15,41 +15,52 @@
   "examples": [
     {
       "id": "27650_roppon_ex1",
-      "japanese": "ビールを{六本|ろっぽん}{買|か}った。",
+      "japanese": "⟦ビール→ビール：01015_biiru⟧⟦を→を：00422_wo⟧{六本|ろっぽん}⟦{買|か}った→買う：00489_kau⟧。",
       "english": "I bought six bottles of beer.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27650_roppon_ex2",
-      "japanese": "ペンが{机|つくえ}の{上|うえ}に{六本|ろっぽん}{並|なら}んでいる。",
+      "japanese": "⟦ペン→ペン：02960_pen⟧⟦が→が：00051_ga⟧⟦{机|つくえ}→机：00762_tsukue⟧⟦の→の：09472_no⟧⟦{上|うえ}→上：00682_ue⟧⟦に→に：00314_ni⟧{六本|ろっぽん}⟦{並|なら}んでいる→並ぶ：00605_narabu⟧。",
       "english": "Six pens are lined up on the desk.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27650_roppon_ex3",
-      "japanese": "{家|いえ}の{周|まわ}りには{大|おお}きな{松|まつ}の{木|き}が{六本|ろっぽん}{植|う}えられている。",
+      "japanese": "⟦{家|いえ}→家：00612_ie⟧⟦の→の：09472_no⟧⟦{周|まわ}り→周り：01732_mawari⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{大|おお}きな→大きな：02849_ookina⟧⟦{松|まつ}→松：02256_matsu⟧⟦の→の：09472_no⟧⟦{木|き}→木：00524_ki⟧⟦が→が：00051_ga⟧{六本|ろっぽん}⟦{植|う}えられている→植える：01210_ueru⟧。",
       "english": "There are six large pine trees planted around the house.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "{六|ろく} (six) + {本|ほん} (counter for long, thin items), with sokuon and the regular {本|ぽん} → {本|ぽん} change yielding ろっぽん.\n\nSOUND CHANGES WITH {本|ほん}:\n- {一本|いっぽん}, {二本|にほん}, {三本|さんぼん}, {四本|よんほん}, {五本|ごほん}, {六本|ろっぽん}, {七本|ななほん}, {八本|はっぽん}, {九本|きゅうほん}, {十本|じゅっぽん} / {十本|じっぽん}\n\nThe ぽん/ぼん/ほん alternation follows the same pattern as other counters using {本|ほん}.\n\nTYPICAL USES:\n- ビール{六本|ろっぽん}: six bottles of beer\n- {鉛筆|えんぴつ}{六本|ろっぽん}: six pencils\n- {映画|えいが}{六本|ろっぽん}: six films\n- {電話|でんわ}{六本|ろっぽん}: six phone calls\n\nNOTE: {六本木|ろっぽんぎ} (Roppongi, a district in Tokyo) literally means 'six trees' and uses this same counter.",
+  "notes": "⟦{六|ろく}→六：00747_roku⟧ (six) + {本|ほん} (counter for long, thin items), with sokuon and the regular {本|ぽん} → {本|ぽん} change yielding ろっぽん.\n\nSOUND CHANGES WITH {本|ほん}:\n- ⟦{一本|いっぽん}→一本：08888_ippon⟧, {二本|にほん}, {三本|さんぼん}, {四本|よんほん}, {五本|ごほん}, {六本|ろっぽん}, {七本|ななほん}, {八本|はっぽん}, {九本|きゅうほん}, {十本|じゅっぽん} / {十本|じっぽん}\n\nThe ぽん/ぼん/ほん alternation follows the same pattern as other counters using {本|ほん}.\n\nTYPICAL USES:\n- ⟦ビール→ビール：01015_biiru⟧{六本|ろっぽん}: six bottles of beer\n- ⟦{鉛筆|えんぴつ}→鉛筆：00694_enpitsu⟧{六本|ろっぽん}: six pencils\n- ⟦{映画|えいが}→映画：02273_eiga⟧{六本|ろっぽん}: six films\n- ⟦{電話|でんわ}→電話：01471_denwa⟧{六本|ろっぽん}: six phone calls\n\nNOTE: ⟦{六本木|ろっぽんぎ}→六本木：30708_roppongi⟧ (Roppongi, a district in Tokyo) literally means 'six trees' and uses this same counter.",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["counting", "number"],
+      "politeness": "plain",
+      "semantic": [
+        "counting",
+        "number"
+      ],
       "domain": []
     },
     "created": "2026-05-15T04:12:19Z",
-    "modified": "2026-05-15T04:12:19Z"
+    "modified": "2026-09-02T04:02:31Z"
   }
 }

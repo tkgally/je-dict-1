@@ -3,7 +3,7 @@
   "id": "17726_mikeiken",
   "headword": "{未経験|みけいけん}",
   "reading": "みけいけん",
-  "part_of_speech": "noun, adjective (no)",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "inexperienced; no experience",
   "definitions": [
     {
@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "17726_mikeiken_ex1",
-      "japanese": "{未経験者|みけいけんしゃ}{歓迎|かんげい}。",
+      "japanese": "⟦{未経験者|みけいけんしゃ}→未経験者：26291_mikeikensha⟧⟦{歓迎|かんげい}→歓迎：02557_kangei⟧。",
       "english": "No experience necessary. (lit. Inexperienced persons welcome.)",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17726_mikeiken_ex2",
-      "japanese": "プログラミングは{未経験|みけいけん}ですが、{挑戦|ちょうせん}してみたいです。",
+      "japanese": "⟦プログラミング→プログラミング：06099_puroguramingu⟧⟦は→は：00079_ha⟧{未経験|みけいけん}です⟦が→が：00051_ga⟧、⟦{挑戦|ちょうせん}して→挑戦する：21602_chousensuru⟧みたいです。",
       "english": "I have no programming experience, but I'd like to give it a try.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17726_mikeiken_ex3",
-      "japanese": "{未経験|みけいけん}の{分野|ぶんや}に{飛|と}び{込|こ}むのは{不安|ふあん}もあるが、{新|あたら}しいことを{学|まな}ぶ{良|よ}い{機会|きかい}だ。",
+      "japanese": "{未経験|みけいけん}⟦の→の：09472_no⟧⟦{分野|ぶんや}→分野：03612_bunya⟧⟦に→に：00314_ni⟧⟦{飛|と}び{込|こ}む→飛び込む：04614_tobikomu⟧⟦の→の：09472_no⟧⟦は→は：00079_ha⟧⟦{不安|ふあん}→不安：00836_fuan⟧⟦も→も：00484_mo⟧⟦ある→ある：00006_aru⟧⟦が→が：00051_ga⟧、⟦{新|あたら}しい→新しい：00506_atarashii⟧こと⟦を→を：00422_wo⟧⟦{学|まな}ぶ→学ぶ：01987_manabu⟧⟦{良|よ}い→良い：02350_yoi⟧⟦{機会|きかい}→機会：01302_kikai⟧だ。",
       "english": "Jumping into an unfamiliar field is nerve-wracking, but it's a good opportunity to learn new things.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\n{未経験|みけいけん} uses the prefix {未|み} (not yet), indicating a state of not having done something. Very commonly seen in job advertisements: {未経験者|みけいけんしゃ}{歓迎|かんげい} or {未経験|みけいけん}OK.\n\nCOMMON COLLOCATIONS:\n- {未経験者|みけいけんしゃ} (inexperienced person)\n- {未経験者|みけいけんしゃ}{歓迎|かんげい} (no experience necessary)\n- {業界|ぎょうかい}{未経験|みけいけん} (no industry experience)\n- {未経験|みけいけん}から{始|はじ}める (to start with no experience)",
+  "notes": "USAGE:\n{未経験|みけいけん} uses the prefix ⟦{未|み}→未〜：00277_mi⟧ (not yet), indicating a state of not having done something. Very commonly seen in job advertisements: ⟦{未経験者|みけいけんしゃ}→未経験者：26291_mikeikensha⟧⟦{歓迎|かんげい}→歓迎：02557_kangei⟧ or {未経験|みけいけん}OK.\n\nCOMMON COLLOCATIONS:\n- ⟦{未経験者|みけいけんしゃ}→未経験者：26291_mikeikensha⟧ (inexperienced person)\n- ⟦{未経験者|みけいけんしゃ}→未経験者：26291_mikeikensha⟧⟦{歓迎|かんげい}→歓迎：02557_kangei⟧ (no experience necessary)\n- ⟦{業界|ぎょうかい}→業界：13129_gyoukai⟧{未経験|みけいけん} (no industry experience)\n- {未経験|みけいけん}⟦から→から：00504_kara⟧{始|はじ}める (to start with no experience)",
   "cross_references": [
     {
       "type": "related",
@@ -46,19 +52,33 @@
       "reading": "けいけん",
       "headword": "{経験|けいけん}",
       "label": "experience"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22780_mijukuna",
+      "reading": "みじゅくな",
+      "headword": "{未熟|みじゅく}な",
+      "label": "immature"
     }
   ],
   "metadata": {
     "created": "2026-03-18T14:42:42Z",
-    "modified": "2026-05-07T05:07:45Z",
+    "modified": "2026-09-02T04:01:49Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-no"],
+      "pos": [
+        "noun",
+        "adjective-no"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "domain": ["business"],
-      "semantic": ["work"]
+      "domain": [
+        "business"
+      ],
+      "semantic": [
+        "work"
+      ]
     }
   }
 }

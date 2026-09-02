@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08068_uragami_ex1",
-      "japanese": "{裏紙|うらがみ}をメモ{用紙|ようし}に{使|つか}う。",
+      "japanese": "{裏紙|うらがみ}⟦を→を：00422_wo⟧⟦メモ{用紙|ようし}→メモ用紙：29326_memoyoushi⟧⟦に→に：00314_ni⟧⟦{使|つか}う→使う：00473_tsukau⟧。",
       "english": "To use scratch paper as memo paper.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "08068_uragami_ex2",
-      "japanese": "{印刷|いんさつ}ミスの{紙|かみ}は{裏紙|うらがみ}として{再利用|さいりよう}する。",
+      "japanese": "⟦{印刷|いんさつ}→印刷：01844_insatsu⟧⟦ミス→ミス：00285_misu⟧⟦の→の：09472_no⟧⟦{紙|かみ}→紙：00712_kami⟧⟦は→は：00079_ha⟧{裏紙|うらがみ}⟦として→として：06802_toshite⟧⟦{再利用|さいりよう}→再利用：18649_sairiyou⟧⟦する→する：00392_suru⟧。",
       "english": "Papers with printing mistakes are reused as scratch paper.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "08068_uragami_ex3",
-      "japanese": "うちの{会社|かいしゃ}では{裏紙|うらがみ}の{使用|しよう}を{推奨|すいしょう}している。",
+      "japanese": "うち⟦の→の：09472_no⟧⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧{裏紙|うらがみ}⟦の→の：09472_no⟧⟦{使用|しよう}→使用：01637_shiyou⟧⟦を→を：00422_wo⟧⟦{推奨|すいしょう}している→推奨する：18699_suishousuru⟧。",
       "english": "Our company encourages the use of scratch paper.",
       "sense_numbers": [
         1
@@ -43,7 +43,30 @@
       "notes": null
     }
   ],
-  "notes": "{裏紙|うらがみ} refers to paper that has been used on one side and is reused on the blank back side.\n\nKANJI MEANING:\n{裏|うら} (back side) + {紙|かみ} (paper)\n\nCOMMON USES:\n- メモ{用紙|ようし}として{使|つか}う: use as memo paper\n- {印刷|いんさつ}ミスを{再利用|さいりよう}する: reuse misprinted paper\n- {計算|けいさん}{用紙|ようし}: scratch paper for calculations\n\nWORKPLACE CULTURE:\nUsing {裏紙|うらがみ} is encouraged in many Japanese offices and schools as an eco-friendly practice to reduce paper waste.\n\nCAUTION:\nBe careful not to use paper containing confidential ({機密|きみつ}) information as scratch paper.\n\nRELATED:\n- {再利用|さいりよう}: reuse, recycling\n- {表|おもて}: front side (of paper)",
+  "notes": "{裏紙|うらがみ} refers to paper that has been used on one side and is reused on the blank back side.\n\nWRITING:\n⟦{裏|うら}→裏：02178_ura⟧ (back side) + ⟦{紙|かみ}→紙：00712_kami⟧ (paper)\n\nCOMMON COLLOCATIONS:\n- ⟦メモ{用紙|ようし}→メモ用紙：29326_memoyoushi⟧⟦として→として：06802_toshite⟧⟦{使|つか}う→使う：00473_tsukau⟧: use as memo paper\n- ⟦{印刷|いんさつ}→印刷：01844_insatsu⟧⟦ミス→ミス：00285_misu⟧⟦を→を：00422_wo⟧⟦{再利用|さいりよう}→再利用：18649_sairiyou⟧⟦する→する：00392_suru⟧: reuse misprinted paper\n- ⟦{計算|けいさん}→計算：02697_keisan⟧⟦{用紙|ようし}→用紙：09588_youshi⟧: scratch paper for calculations\n\nWORKPLACE CULTURE:\nUsing {裏紙|うらがみ} is encouraged in many Japanese offices and schools as an eco-friendly practice to reduce paper waste.\n\nWATCH OUT:\nBe careful not to use paper containing confidential (⟦{機密|きみつ}→機密：13179_kimitsu⟧) information as scratch paper.\n\nRELATED WORDS:\n- ⟦{再利用|さいりよう}→再利用：18649_sairiyou⟧: reuse, recycling\n- ⟦{表|おもて}→表：01355_omote⟧: front side (of paper)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "18649_sairiyou",
+      "reading": "さいりよう",
+      "headword": "{再利用|さいりよう}",
+      "label": "reuse, recycling"
+    },
+    {
+      "type": "related",
+      "target_id": "01355_omote",
+      "reading": "おもて",
+      "headword": "{表|おもて}",
+      "label": "front side"
+    },
+    {
+      "type": "related",
+      "target_id": "08137_kopiiyoushi",
+      "reading": "こぴーようし",
+      "headword": "コピー{用紙|ようし}",
+      "label": "copy paper"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -51,6 +74,7 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "work",
         "tool",
@@ -58,6 +82,6 @@
       ]
     },
     "created": "2026-01-25T01:22:36Z",
-    "modified": "2026-08-11T21:34:29Z"
+    "modified": "2026-09-02T04:01:13Z"
   }
 }

@@ -3,7 +3,7 @@
   "headword": "{推薦|すいせん}する",
   "reading": "すいせんする",
   "romaji": "suisensuru",
-  "part_of_speech": "verb (suru)",
+  "part_of_speech": "suru verb",
   "gloss": "to recommend; to nominate; to endorse",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29395_suisensuru_ex1",
-      "japanese": "この{本|ほん}を{推薦|すいせん}する。",
+      "japanese": "⟦この→この：00962_kono⟧{本|ほん}⟦を→を：00422_wo⟧{推薦|すいせん}する。",
       "english": "I recommend this book.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29395_suisensuru_ex2",
-      "japanese": "{先生|せんせい}が{彼|かれ}を{代表|だいひょう}に{推薦|すいせん}した。",
+      "japanese": "⟦{先生|せんせい}→先生：00609_sensei⟧⟦が→が：00051_ga⟧⟦{彼|かれ}→彼：01292_kare⟧⟦を→を：00422_wo⟧⟦{代表|だいひょう}→代表：03419_daihyou⟧⟦に→に：00314_ni⟧{推薦|すいせん}した。",
       "english": "The teacher recommended him as the representative.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29395_suisensuru_ex3",
-      "japanese": "{大学|だいがく}に{出願|しゅつがん}するため、{教授|きょうじゅ}に{推薦|すいせん}{状|じょう}を{書|か}いてもらった。",
+      "japanese": "⟦{大学|だいがく}→大学：00608_daigaku⟧⟦に→に：00314_ni⟧⟦{出願|しゅつがん}→出願：18304_shutsugan⟧⟦する→する：00392_suru⟧⟦ため→ため：01145_tame⟧、⟦{教授|きょうじゅ}→教授：02589_kyouju⟧⟦に→に：00314_ni⟧⟦{推薦|すいせん}{状|じょう}→推薦状：15195_suisenjou⟧⟦を→を：00422_wo⟧⟦{書|か}いて→書く：00477_kaku⟧⟦もらった→もらう：00520_morau⟧。",
       "english": "I had a professor write a letter of recommendation for my university application.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "TRANSITIVITY: {他動詞|たどうし} (transitive). Pattern: X を Y に {推薦|すいせん}する (recommend X for/as Y).\n\nCOMMON COLLOCATIONS:\n- {推薦|すいせん}{状|じょう}: letter of recommendation\n- {推薦|すいせん}{入試|にゅうし}: admission by recommendation\n- {自|みずか}ら{推薦|すいせん}する: to nominate oneself\n\nSIMILAR WORDS:\n- {勧|すす}める: to recommend, to urge — more everyday and personal; {推薦|すいせん} carries a formal, often public or institutional nuance",
+  "notes": "TRANSITIVITY: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive). Pattern: X ⟦を→を：00422_wo⟧ Y ⟦に→に：00314_ni⟧ {推薦|すいせん}する (recommend X for/as Y).\n\nCOMMON COLLOCATIONS:\n- ⟦{推薦|すいせん}{状|じょう}→推薦状：15195_suisenjou⟧: letter of recommendation\n- ⟦{推薦|すいせん}→推薦：03358_suisen⟧⟦{入試|にゅうし}→入試：04705_nyuushi⟧: admission by recommendation\n- ⟦{自|みずか}ら→自ら：00287_mizukara⟧{推薦|すいせん}する: to nominate oneself\n\nSIMILAR WORDS:\n- ⟦{勧|すす}める→勧める：02120_susumeru⟧: to recommend, to urge — more everyday and personal; ⟦{推薦|すいせん}→推薦：03358_suisen⟧ carries a formal, often public or institutional nuance",
   "prominent_see_also": [
     {
       "target_id": "03358_suisen",
@@ -54,6 +54,15 @@
     }
   ],
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02120_susumeru",
+      "reading": "すすめる",
+      "headword": "{勧|すす}める",
+      "label": "to recommend, to urge"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -70,7 +79,7 @@
       "verb_class": "suru"
     },
     "created": "2026-06-22T01:45:27Z",
-    "modified": "2026-06-22T01:45:27Z"
+    "modified": "2026-09-02T04:02:36Z"
   },
   "conjugation": {
     "type": "suru",

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22673_mimiwosumasu_ex1",
-      "japanese": "{耳|みみ}を{澄|す}ますと{鳥|とり}の{声|こえ}が{聞|き}こえた。",
+      "japanese": "{耳|みみ}を{澄|す}ます⟦と→と：00512_to⟧⟦{鳥|とり}→鳥：00679_tori⟧⟦の→の：09472_no⟧⟦{声|こえ}→声：02207_koe⟧⟦が→が：00051_ga⟧⟦{聞|き}こえた→聞こえる：01229_kikoeru⟧。",
       "english": "When I listened carefully, I could hear birdsong.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22673_mimiwosumasu_ex2",
-      "japanese": "{静|しず}かに{耳|みみ}を{澄|す}まして{待|ま}った。",
+      "japanese": "⟦{静|しず}か→静か：00755_shizuka⟧⟦に→に：00314_ni⟧{耳|みみ}を{澄|す}まして⟦{待|ま}った→待つ：00469_matsu⟧。",
       "english": "I waited quietly, straining my ears.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22673_mimiwosumasu_ex3",
-      "japanese": "{遠|とお}くから{聞|き}こえる{音楽|おんがく}に{耳|みみ}を{澄|す}ました。",
+      "japanese": "{遠|とお}く⟦から→から：00504_kara⟧⟦{聞|き}こえる→聞こえる：01229_kikoeru⟧⟦{音楽|おんがく}→音楽：00661_ongaku⟧⟦に→に：00314_ni⟧{耳|みみ}を{澄|す}ました。",
       "english": "I listened carefully to the music coming from far away.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "A literary and evocative expression meaning to focus one's hearing intently. {澄|す}ます means 'to clear' or 'to refine,' so the phrase literally conveys the idea of 'clearing one's ears' to hear better. Often used in descriptive or narrative writing.\n\nCOMMON COLLOCATIONS:\n- じっと{耳|みみ}を{澄|す}ます: to listen intently without moving\n- {耳|みみ}を{澄|す}ませば: if you listen carefully\n- {夜|よる}の{音|おと}に{耳|みみ}を{澄|す}ます: to listen to the sounds of the night\n\nSIMILAR WORDS:\n- {聞|き}き{耳|みみ}を{立|た}てる: to prick up one's ears — often implies eavesdropping or trying to catch someone's conversation, while {耳|みみ}を{澄|す}ます is more about focusing on faint or ambient sounds\n- よく{聞|き}く: to listen well — a simpler, everyday expression without the poetic nuance",
+  "notes": "A literary and evocative expression meaning to focus one's hearing intently. ⟦{澄|す}ます→澄ます：16578_sumasu⟧ means 'to clear' or 'to refine,' so the phrase literally conveys the idea of 'clearing one's ears' to hear better. Often used in descriptive or narrative writing.\n\nCOMMON COLLOCATIONS:\n- ⟦じっと→じっと：01571_jitto⟧{耳|みみ}を{澄|す}ます: to listen intently without moving\n- {耳|みみ}を{澄|す}ませば: if you listen carefully\n- ⟦{夜|よる}→夜：00487_yoru⟧⟦の→の：09472_no⟧⟦{音|おと}→音：00743_oto⟧⟦に→に：00314_ni⟧{耳|みみ}を{澄|す}ます: to listen to the sounds of the night\n\nSIMILAR WORDS:\n- {聞|き}き{耳|みみ}⟦を→を：00422_wo⟧⟦{立|た}てる→立てる：01196_tateru⟧: to prick up one's ears — often implies eavesdropping or trying to catch someone's conversation, while {耳|みみ}を{澄|す}ます is more about focusing on faint or ambient sounds\n- ⟦よく→よく：00601_yoku⟧⟦{聞|き}く→聞く：00483_kiku⟧: to listen well — a simpler, everyday expression without the poetic nuance",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22792_kikisumasu",
+      "reading": "ききすます",
+      "headword": "{聞|き}き{澄|す}ます",
+      "label": "to listen carefully"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +69,6 @@
       "politeness": "plain"
     },
     "created": "2026-04-07T00:50:59Z",
-    "modified": "2026-07-30T15:38:57Z"
+    "modified": "2026-09-02T04:02:09Z"
   }
 }

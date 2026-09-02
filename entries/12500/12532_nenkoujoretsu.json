@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "12532_nenkoujoretsu_ex1",
-      "japanese": "{年功序列|ねんこうじょれつ}の{給与|きゅうよ}{体系|たいけい}を{見直|みなお}す。",
+      "japanese": "{年功序列|ねんこうじょれつ}⟦の→の：09472_no⟧⟦{給与|きゅうよ}→給与：00264_kyuuyo⟧⟦{体系|たいけい}→体系：04487_taikei⟧⟦を→を：00422_wo⟧⟦{見直|みなお}す→見直す：04579_minaosu⟧。",
       "english": "Review the seniority-based pay system.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "12532_nenkoujoretsu_ex2",
-      "japanese": "{年功序列|ねんこうじょれつ}から{成果|せいか}{主義|しゅぎ}へ{移行|いこう}する{企業|きぎょう}が{増|ふ}えている。",
+      "japanese": "{年功序列|ねんこうじょれつ}⟦から→から：00504_kara⟧⟦{成果|せいか}{主義|しゅぎ}→成果主義：18880_seikashugi⟧⟦へ→へ：02473_he⟧⟦{移行|いこう}→移行：13776_ikou⟧⟦する→する：00392_suru⟧⟦{企業|きぎょう}→企業：00225_kigyou⟧⟦が→が：00051_ga⟧⟦{増|ふ}えている→増える：01183_fueru⟧。",
       "english": "More and more companies are shifting from a seniority-based system to a merit-based one.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "12532_nenkoujoretsu_ex3",
-      "japanese": "{年功序列|ねんこうじょれつ}は{安定|あんてい}をもたらす{一方|いっぽう}で、{若手|わかて}のモチベーションを{下|さ}げるという{批判|ひはん}もある。",
+      "japanese": "{年功序列|ねんこうじょれつ}⟦は→は：00079_ha⟧⟦{安定|あんてい}→安定：01703_antei⟧⟦を→を：00422_wo⟧⟦もたらす→もたらす：10546_motarasu⟧⟦{一方|いっぽう}→一方：01739_ippou⟧⟦で→で：00502_de⟧、⟦{若手|わかて}→若手：13989_wakate⟧⟦の→の：09472_no⟧⟦モチベーション→モチベーション：06184_mochibeeshon⟧⟦を→を：00422_wo⟧⟦{下|さ}げる→下げる：00807_sageru⟧⟦という→という：09577_toiu⟧⟦{批判|ひはん}→批判：03580_hihan⟧⟦も→も：00484_mo⟧⟦ある→ある：00006_aru⟧。",
       "english": "While the seniority system brings stability, there is also criticism that it lowers the motivation of younger employees.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "CULTURE:\nOne of the three pillars of traditional Japanese employment, along with {終身雇用|しゅうしんこよう} (lifetime employment) and {企業別組合|きぎょうべつくみあい} (enterprise-based labor unions). Since the 1990s, many companies have gradually moved toward performance-based ({成果|せいか}{主義|しゅぎ}) evaluation systems, though seniority-based elements remain widespread.\n\nCOMMON COLLOCATIONS:\n- {年功序列|ねんこうじょれつ}{制|せい}: seniority system\n- {年功序列|ねんこうじょれつ}{型|がた}: seniority-based model\n- {年功序列|ねんこうじょれつ}を{廃止|はいし}する: to abolish the seniority system",
+  "notes": "CULTURAL NOTE:\nOne of the three pillars of traditional Japanese employment, along with ⟦{終身雇用|しゅうしんこよう}→終身雇用：13852_shuushinkoyou⟧ (lifetime employment) and {企業別組合|きぎょうべつくみあい} (enterprise-based labor unions). Since the 1990s, many companies have gradually moved toward performance-based (⟦{成果|せいか}{主義|しゅぎ}→成果主義：18880_seikashugi⟧) evaluation systems, though seniority-based elements remain widespread.\n\nCOMMON COLLOCATIONS:\n- {年功序列|ねんこうじょれつ}⟦{制|せい}→〜制：30791_sei⟧: seniority system\n- {年功序列|ねんこうじょれつ}{型|がた}: seniority-based model\n- {年功序列|ねんこうじょれつ}⟦を→を：00422_wo⟧⟦{廃止|はいし}→廃止：12483_haishi⟧⟦する→する：00392_suru⟧: to abolish the seniority system",
   "cross_references": [
     {
       "type": "related",
@@ -59,11 +59,39 @@
       "reading": "じつりょくしゅぎ",
       "headword": "{実力主義|じつりょくしゅぎ}",
       "label": "meritocracy"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18880_seikashugi",
+      "reading": "せいかしゅぎ",
+      "headword": "{成果|せいか}{主義|しゅぎ}",
+      "label": "meritocracy"
+    },
+    {
+      "type": "related",
+      "target_id": "21047_battekijinji",
+      "reading": "ばってきじんじ",
+      "headword": "{抜擢人事|ばってきじんじ}",
+      "label": "promotion based on merit"
+    },
+    {
+      "type": "related",
+      "target_id": "24511_shuushinkoyousei",
+      "reading": "しゅうしんこようせい",
+      "headword": "{終身雇用制|しゅうしんこようせい}",
+      "label": "lifetime employment system"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26516_jissekishugi",
+      "reading": "じっせきしゅぎ",
+      "headword": "{実績|じっせき}{主義|しゅぎ}",
+      "label": "meritocracy"
     }
   ],
   "metadata": {
     "created": "2026-02-21T11:59:00Z",
-    "modified": "2026-07-06T12:49:19Z",
+    "modified": "2026-09-02T04:01:29Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

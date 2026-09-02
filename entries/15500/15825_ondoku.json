@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "15825_ondoku_ex1",
-      "japanese": "{教科書|きょうかしょ}を{音読|おんどく}する。",
+      "japanese": "⟦{教科書|きょうかしょ}→教科書：01085_kyoukasho⟧⟦を→を：00422_wo⟧{音読|おんどく}⟦する→する：00392_suru⟧。",
       "english": "I read the textbook aloud.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "15825_ondoku_ex2",
-      "japanese": "{音読|おんどく}は{語学|ごがく}{学習|がくしゅう}に{効果的|こうかてき}だと{言|い}われている。",
+      "japanese": "{音読|おんどく}⟦は→は：00079_ha⟧⟦{語学|ごがく}→語学：02770_gogaku⟧⟦{学習|がくしゅう}→学習：02623_gakushuu⟧⟦に→に：00314_ni⟧⟦{効果的|こうかてき}→効果的：04793_koukateki⟧だ⟦と→と：00512_to⟧⟦{言|い}われている→言う：00515_iu⟧。",
       "english": "Reading aloud is said to be effective for language learning.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "15825_ondoku_ex3",
-      "japanese": "{毎朝|まいあさ}{子供|こども}たちが{教室|きょうしつ}で{音読|おんどく}の{練習|れんしゅう}をしている。",
+      "japanese": "⟦{毎朝|まいあさ}→毎朝：00966_maiasa⟧⟦{子供|こども}→子供：00554_kodomo⟧たち⟦が→が：00051_ga⟧⟦{教室|きょうしつ}→教室：00794_kyoushitsu⟧⟦で→で：00502_de⟧{音読|おんどく}⟦の→の：09472_no⟧⟦{練習|れんしゅう}→練習：05323_renshuu⟧⟦を→を：00422_wo⟧⟦している→する：00392_suru⟧。",
       "english": "Every morning, the children practice reading aloud in the classroom.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{音読|おんどく} is used both as a noun and with する as a verbal noun: {音読|おんどく}する (to read aloud). It is a standard activity in Japanese elementary schools and language courses. Note that the same kanji {音読|おんよ}み can also be read おんよみ, meaning the Chinese-derived reading of a kanji character—a completely different word.\n\nCOMMON COLLOCATIONS:\n- {音読|おんどく}する (to read aloud)\n- {音読|おんどく}の{練習|れんしゅう} (reading-aloud practice)\n- {音読|おんどく}{発表|はっぴょう} (oral reading presentation)\n- {音読|おんどく}カード (reading-aloud record card)\n\nSIMILAR WORDS:\n{黙読|もくどく} is the opposite, meaning silent reading. {朗読|ろうどく} also means reading aloud but implies a more expressive, performance-like reading, as in a poetry recital or audiobook narration.",
+  "notes": "USAGE:\n{音読|おんどく} is used both as a noun and with ⟦する→する：00392_suru⟧ as a verbal noun: {音読|おんどく}⟦する→する：00392_suru⟧ (to read aloud). It is a standard activity in Japanese elementary schools and language courses. Note that the same kanji {音読|おんよ}み can also be read おんよみ, meaning the Chinese-derived reading of a kanji character—a completely different word.\n\nCOMMON COLLOCATIONS:\n- {音読|おんどく}⟦する→する：00392_suru⟧ (to read aloud)\n- {音読|おんどく}⟦の→の：09472_no⟧⟦{練習|れんしゅう}→練習：05323_renshuu⟧ (reading-aloud practice)\n- {音読|おんどく}⟦{発表|はっぴょう}→発表：03562_happyou⟧ (oral reading presentation)\n- {音読|おんどく}⟦カード→カード：03836_kaado⟧ (reading-aloud record card)\n\nSIMILAR WORDS:\n⟦{黙読|もくどく}→黙読：16385_mokudoku⟧ is the opposite, meaning silent reading. ⟦{朗読|ろうどく}→朗読：14875_roudoku⟧ also means reading aloud but implies a more expressive, performance-like reading, as in a poetry recital or audiobook narration.",
   "cross_references": [
     {
       "type": "antonym",
@@ -149,11 +149,18 @@
       "reading": "ろうどく",
       "headword": "{朗読|ろうどく}",
       "label": "expressive reading aloud"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22402_sokudoku",
+      "reading": "そくどく",
+      "headword": "{速読|そくどく}",
+      "label": "speed reading"
     }
   ],
   "metadata": {
     "created": "2026-03-08T10:14:37Z",
-    "modified": "2026-05-02T06:35:29Z",
+    "modified": "2026-09-02T04:01:42Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -167,7 +174,8 @@
         "education",
         "language"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

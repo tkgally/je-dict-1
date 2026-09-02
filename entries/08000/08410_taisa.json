@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08410_taisa_ex1",
-      "japanese": "{大差|たいさ}で{勝|か}った。",
+      "japanese": "{大差|たいさ}⟦で→で：00502_de⟧⟦{勝|か}った→勝つ：01199_katsu⟧。",
       "english": "We won by a wide margin.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "08410_taisa_ex2",
-      "japanese": "{両者|りょうしゃ}には{大差|たいさ}がない。",
+      "japanese": "⟦{両者|りょうしゃ}→両者：11357_ryousha⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{大差|たいさ}⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧。",
       "english": "There's no big difference between the two.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "08410_taisa_ex3",
-      "japanese": "{選挙|せんきょ}では{大差|たいさ}で{当選|とうせん}した。",
+      "japanese": "⟦{選挙|せんきょ}→選挙：03303_senkyo⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧{大差|たいさ}⟦で→で：00502_de⟧⟦{当選|とうせん}→当選：07074_tousen⟧⟦した→する：00392_suru⟧。",
       "english": "He won the election by a landslide.",
       "sense_numbers": [
         1
@@ -43,7 +43,7 @@
       "notes": null
     }
   ],
-  "notes": "FORMATION:\n{大|たい} (big) + {差|さ} (difference) → big difference\n\nCOMMON EXPRESSIONS:\n- {大差|たいさ}で{勝|か}つ (to win by a big margin)\n- {大差|たいさ}で{負|ま}ける (to lose by a big margin)\n- {大差|たいさ}がない / {大差|たいさ}ない (no big difference)\n- {大差|たいさ}をつける (to open up a large lead)\n\nCONTRAST:\n- {大差|たいさ} (big difference)\n- {僅差|きんさ} (small margin, close)\n- {接戦|せっせん} (close game)\n\nRELATED WORDS:\n- {圧勝|あっしょう} (overwhelming victory)\n- {惨敗|ざんぱい} (crushing defeat)",
+  "notes": "FORMS:\n{大|たい} (big) + ⟦{差|さ}→差：02771_sa⟧ (difference) → big difference\n\nCOMMON EXPRESSIONS:\n- {大差|たいさ}⟦で→で：00502_de⟧⟦{勝|か}つ→勝つ：01199_katsu⟧ (to win by a big margin)\n- {大差|たいさ}⟦で→で：00502_de⟧⟦{負|ま}ける→負ける：01134_makeru⟧ (to lose by a big margin)\n- {大差|たいさ}⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧ / {大差|たいさ}⟦ない→ない：01118_nai⟧ (no big difference)\n- {大差|たいさ}⟦を→を：00422_wo⟧⟦つける→つける：00562_tsukeru⟧ (to open up a large lead)\n\nSIMILAR WORDS:\n- {大差|たいさ} (big difference)\n- ⟦{僅差|きんさ}→僅差：11526_kinsa⟧ (small margin, close)\n- ⟦{接戦|せっせん}→接戦：08176_sessen⟧ (close game)\n\nRELATED WORDS:\n- ⟦{圧勝|あっしょう}→圧勝：07903_asshou⟧ (overwhelming victory)\n- ⟦{惨敗|ざんぱい}→惨敗：08236_zanpai⟧ (crushing defeat)",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -51,13 +51,14 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "sports",
         "evaluation"
       ]
     },
     "created": "2026-01-26T05:21:17Z",
-    "modified": "2026-08-12T12:50:50Z"
+    "modified": "2026-09-02T04:01:15Z"
   },
   "cross_references": [
     {
@@ -73,6 +74,20 @@
       "reading": "せっせん",
       "headword": "{接戦|せっせん}",
       "label": "close game"
+    },
+    {
+      "type": "related",
+      "target_id": "07903_asshou",
+      "reading": "あっしょう",
+      "headword": "{圧勝|あっしょう}",
+      "label": "overwhelming victory"
+    },
+    {
+      "type": "related",
+      "target_id": "08236_zanpai",
+      "reading": "ざんぱい",
+      "headword": "{惨敗|ざんぱい}",
+      "label": "crushing defeat"
     }
   ]
 }

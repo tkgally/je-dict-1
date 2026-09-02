@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24320_soumoku_ex1",
-      "japanese": "{春|はる}になると{草木|そうもく}が{芽吹|めぶ}く。",
+      "japanese": "⟦{春|はる}→春：00627_haru⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦と→と：00512_to⟧{草木|そうもく}⟦が→が：00051_ga⟧⟦{芽吹|めぶ}く→芽吹く：13995_mebuku⟧。",
       "english": "When spring comes, the plants begin to sprout.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24320_soumoku_ex2",
-      "japanese": "{庭|にわ}の{草木|そうもく}の{手入|てい}れをした。",
+      "japanese": "⟦{庭|にわ}→庭：02239_niwa⟧⟦の→の：09472_no⟧{草木|そうもく}⟦の→の：09472_no⟧⟦{手入|てい}れ→手入れ：07178_teire⟧⟦を→を：00422_wo⟧⟦した→する：00392_suru⟧。",
       "english": "I tended to the plants in the garden.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24320_soumoku_ex3",
-      "japanese": "{草木|そうもく}も{眠|ねむ}る{丑三|うしみ}つ{時|どき}という{言葉|ことば}があるが、{真夜中|まよなか}の{静|しず}けさを{表|あらわ}す{表現|ひょうげん}だ。",
+      "japanese": "{草木|そうもく}⟦も→も：00484_mo⟧⟦{眠|ねむ}る→眠る：01181_nemuru⟧⟦{丑三|うしみ}つ{時|どき}→丑三つ時：10089_ushimitsudoki⟧⟦という→という：09577_toiu⟧⟦{言葉|ことば}→言葉：02880_kotoba⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧⟦が→が：00051_ga⟧、⟦{真夜中|まよなか}→真夜中：05425_mayonaka⟧⟦の→の：09472_no⟧⟦{静|しず}けさ→静けさ：14614_shizukesa⟧⟦を→を：00422_wo⟧⟦{表|あらわ}す→表す：01868_arawasu⟧⟦{表現|ひょうげん}→表現：03584_hyougen⟧だ。",
       "english": "There's the expression 'the hour when even the plants sleep,' which describes the stillness of the dead of night.",
       "sense_numbers": [
         1
@@ -44,21 +44,45 @@
       "notes": null
     }
   ],
-  "notes": "A Sino-Japanese reading of {草|そう} (grass) + {木|もく} (tree). This is the on'yomi reading, used in more literary, formal, or set expression contexts. The same kanji can also be read {草木|くさき} (kun'yomi), which is the more colloquial reading.\n\nCOMMON COLLOCATIONS:\n- {草木|そうもく}が{茂|しげ}る — vegetation grows thick\n- {草木|そうもく}が{枯|か}れる — vegetation withers\n- {草木|そうもく}が{芽吹|めぶ}く — plants bud/sprout\n- {草木|そうもく}も{眠|ねむ}る — even the plants sleep (set phrase for dead of night)\n\nRELATED READING:\n- {草木|くさき} — the same kanji read with kun'yomi; more colloquial and used in everyday speech to refer to trees and grass. The そうもく reading is more literary.\n\nSIMILAR WORDS:\n- {植物|しょくぶつ} — plants (botanical/scientific term); more formal and includes all plants, not just visible vegetation\n- {緑|みどり} — greenery; focuses on the visual aspect of green plants\n- {植生|しょくせい} — vegetation (ecological term); technical term for the plant life of a region",
+  "notes": "A Sino-Japanese reading of {草|そう} (grass) + {木|もく} (tree). This is the on'yomi reading, used in more literary, formal, or set expression contexts. The same kanji can also be read {草木|くさき} (kun'yomi), which is the more colloquial reading.\n\nCOMMON COLLOCATIONS:\n- {草木|そうもく}⟦が→が：00051_ga⟧⟦{茂|しげ}る→茂る：03924_shigeru⟧ — vegetation grows thick\n- {草木|そうもく}⟦が→が：00051_ga⟧⟦{枯|か}れる→枯れる：04589_kareru⟧ — vegetation withers\n- {草木|そうもく}⟦が→が：00051_ga⟧⟦{芽吹|めぶ}く→芽吹く：13995_mebuku⟧ — plants bud/sprout\n- {草木|そうもく}⟦も→も：00484_mo⟧⟦{眠|ねむ}る→眠る：01181_nemuru⟧ — even the plants sleep (set phrase for dead of night)\n\nRELATED READING:\n- {草木|くさき} — the same kanji read with kun'yomi; more colloquial and used in everyday speech to refer to trees and grass. The そうもく reading is more literary.\n\nSIMILAR WORDS:\n- ⟦{植物|しょくぶつ}→植物：03248_shokubutsu⟧ — plants (botanical/scientific term); more formal and includes all plants, not just visible vegetation\n- ⟦{緑|みどり}→緑：00970_midori⟧ — greenery; focuses on the visual aspect of green plants\n- ⟦{植生|しょくせい}→植生：28236_shokusei⟧ — vegetation (ecological term); technical term for the plant life of a region",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03248_shokubutsu",
+      "reading": "しょくぶつ",
+      "headword": "{植物|しょくぶつ}",
+      "label": "plants"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00970_midori",
+      "reading": "みどり",
+      "headword": "{緑|みどり}",
+      "label": "greenery"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28236_shokusei",
+      "reading": "しょくせい",
+      "headword": "{植生|しょくせい}",
+      "label": "vegetation"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "nature",
         "plant-general"
       ]
     },
     "created": "2026-04-18T13:22:54Z",
-    "modified": "2026-08-02T18:32:34Z",
+    "modified": "2026-09-02T04:02:17Z",
     "cross_references": [
       {
         "id": "14089_kusaki",

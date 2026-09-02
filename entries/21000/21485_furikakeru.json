@@ -3,7 +3,7 @@
   "headword": "{振|ふ}りかける",
   "reading": "ふりかける",
   "romaji": "furikakeru",
-  "part_of_speech": "verb",
+  "part_of_speech": "verb (ichidan)",
   "gloss": "to sprinkle over; to scatter on top of",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21485_furikakeru_ex1",
-      "japanese": "ご{飯|はん}にふりかけを{振|ふ}りかける。",
+      "japanese": "⟦ご{飯|はん}→ご飯：00776_gohan⟧⟦に→に：00314_ni⟧⟦ふりかけ→ふりかけ：19214_furikake⟧⟦を→を：00422_wo⟧{振|ふ}りかける。",
       "english": "To sprinkle furikake on rice.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21485_furikakeru_ex2",
-      "japanese": "サラダに{塩|しお}とコショウを{振|ふ}りかけた。",
+      "japanese": "⟦サラダ→サラダ：01364_sarada⟧⟦に→に：00314_ni⟧⟦{塩|しお}→塩：00887_shio⟧⟦と→と：00512_to⟧コショウ⟦を→を：00422_wo⟧{振|ふ}りかけた。",
       "english": "I sprinkled salt and pepper on the salad.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21485_furikakeru_ex3",
-      "japanese": "{仕上|しあ}げに{粉|こな}チーズをたっぷり{振|ふ}りかけると、{風味|ふうみ}がぐっと{増|ま}す。",
+      "japanese": "⟦{仕上|しあ}げ→仕上げ：11519_shiage⟧⟦に→に：00314_ni⟧⟦{粉|こな}→粉：02766_kona⟧⟦チーズ→チーズ：00026_chiizu⟧⟦を→を：00422_wo⟧⟦たっぷり→たっぷり：03404_tappuri⟧{振|ふ}りかける⟦と→と：00512_to⟧、⟦{風味|ふうみ}→風味：14622_fuumi⟧⟦が→が：00051_ga⟧ぐっ⟦と→と：00512_to⟧⟦{増|ま}す→増す：02422_masu⟧。",
       "english": "Sprinkling plenty of grated cheese on top as a finishing touch greatly enhances the flavor.",
       "sense_numbers": [
         1
@@ -44,7 +44,23 @@
       "notes": null
     }
   ],
-  "notes": "A compound verb from {振|ふ}る (to shake, scatter) + かける (to apply onto), meaning to sprinkle or scatter something onto a surface. Most commonly used in cooking contexts.\n\nUSAGE:\n- Almost always used for dry or fine ingredients (salt, pepper, spices, cheese, sesame seeds)\n- The noun ふりかけ (rice seasoning) derives from this verb\n- Can also be used figuratively, e.g., {水|みず}を{振|ふ}りかける (to sprinkle water)\n\nCOMMON COLLOCATIONS:\n- {塩|しお}を{振|ふ}りかける: to sprinkle salt\n- ごまを{振|ふ}りかける: to sprinkle sesame seeds\n- {粉|こな}チーズを{振|ふ}りかける: to sprinkle grated cheese\n- パセリを{振|ふ}りかける: to sprinkle parsley\n- {水|みず}を{振|ふ}りかける: to sprinkle water\n\nSIMILAR WORDS:\n- まぶす: to coat evenly; implies covering the entire surface\n- {散|ち}らす: to scatter; broader meaning, not limited to cooking\n- かける: to pour over; used for liquids rather than dry ingredients",
+  "notes": "A compound verb from ⟦{振|ふ}る→振る：01983_furu⟧ (to shake, scatter) + かける (to apply onto), meaning to sprinkle or scatter something onto a surface. Most commonly used in cooking contexts.\n\nUSAGE:\n- Almost always used for dry or fine ingredients (salt, pepper, spices, cheese, sesame seeds)\n- The noun ⟦ふりかけ→ふりかけ：19214_furikake⟧ (rice seasoning) derives from this verb\n- Can also be used figuratively, e.g., ⟦{水|みず}→水：02258_mizu⟧⟦を→を：00422_wo⟧{振|ふ}りかける (to sprinkle water)\n\nCOMMON COLLOCATIONS:\n- ⟦{塩|しお}→塩：00887_shio⟧⟦を→を：00422_wo⟧{振|ふ}りかける: to sprinkle salt\n- ごま⟦を→を：00422_wo⟧{振|ふ}りかける: to sprinkle sesame seeds\n- ⟦{粉|こな}→粉：02766_kona⟧⟦チーズ→チーズ：00026_chiizu⟧⟦を→を：00422_wo⟧{振|ふ}りかける: to sprinkle grated cheese\n- ⟦パセリ→パセリ：21585_paseri⟧⟦を→を：00422_wo⟧{振|ふ}りかける: to sprinkle parsley\n- ⟦{水|みず}→水：02258_mizu⟧⟦を→を：00422_wo⟧{振|ふ}りかける: to sprinkle water\n\nSIMILAR WORDS:\n- ⟦まぶす→まぶす：18477_mabusu⟧: to coat evenly; implies covering the entire surface\n- ⟦{散|ち}らす→散らす：02288_chirasu⟧: to scatter; broader meaning, not limited to cooking\n- かける: to pour over; used for liquids rather than dry ingredients",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18477_mabusu",
+      "reading": "まぶす",
+      "headword": "まぶす",
+      "label": "to coat evenly"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02288_chirasu",
+      "reading": "ちらす",
+      "headword": "{散|ち}らす",
+      "label": "to scatter"
+    }
+  ],
   "metadata": {
     "entry_id": "21485_furikakeru",
     "schema_version": "2.0",
@@ -55,15 +71,18 @@
       "pos": [
         "verb-ichidan"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "food",
         "action"
       ],
       "register": [],
       "usage": [],
-      "verb_class": "ichidan"
+      "verb_class": "ichidan",
+      "transitivity": "transitive"
     },
-    "modified": "2026-07-29T12:35:11Z"
+    "modified": "2026-09-02T04:02:03Z"
   },
   "conjugation": {
     "type": "ichidan",

@@ -3,7 +3,7 @@
   "headword": "{食|た}べ{過|す}ぎる",
   "reading": "たべすぎる",
   "romaji": "tabesugiru",
-  "part_of_speech": "verb",
+  "part_of_speech": "verb (ichidan)",
   "gloss": "to overeat; to eat too much",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21686_tabesugiru_ex1",
-      "japanese": "{食|た}べ{過|す}ぎてお{腹|なか}が{痛|いた}い。",
+      "japanese": "{食|た}べ{過|す}ぎて⟦お{腹|なか}→お腹：00805_onaka⟧⟦が→が：00051_ga⟧⟦{痛|いた}い→痛い：01108_itai⟧。",
       "english": "I ate too much and my stomach hurts.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21686_tabesugiru_ex2",
-      "japanese": "{昨日|きのう}の{忘年会|ぼうねんかい}で{食|た}べ{過|す}ぎた。",
+      "japanese": "⟦{昨日|きのう}→昨日：00859_kinou⟧⟦の→の：09472_no⟧⟦{忘年会|ぼうねんかい}→忘年会：15800_bounenkai⟧⟦で→で：00502_de⟧{食|た}べ{過|す}ぎた。",
       "english": "I overate at yesterday's year-end party.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21686_tabesugiru_ex3",
-      "japanese": "{甘|あま}いものを{食|た}べ{過|す}ぎないように{気|き}をつけている。",
+      "japanese": "⟦{甘|あま}い→甘い：00617_amai⟧もの⟦を→を：00422_wo⟧{食|た}べ{過|す}ぎないよう⟦に→に：00314_ni⟧⟦{気|き}をつけている→気をつける：09771_kiwotsukeru⟧。",
       "english": "I'm careful not to eat too many sweets.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "One of the most common ～{過|す}ぎる compounds. Follows the productive V-stem + {過|す}ぎる pattern that means \"to do something too much.\" Conjugates as an ichidan verb.\n\nCOMMON EXPRESSIONS:\n- {食|た}べ{過|す}ぎに{注意|ちゅうい}: watch out for overeating\n- {食|た}べ{過|す}ぎて{気持|きも}ち{悪|わる}い: feel sick from overeating\n- つい{食|た}べ{過|す}ぎてしまう: end up overeating (unintentionally)\n\nRELATED PATTERNS:\n- {飲|の}み{過|す}ぎる: to drink too much\n- {使|つか}い{過|す}ぎる: to use too much\n- {働|はたら}き{過|す}ぎる: to overwork",
+  "notes": "One of the most common ～⟦{過|す}ぎる→過ぎる：01219_sugiru⟧ compounds. Follows the productive V-stem + ⟦{過|す}ぎる→過ぎる：01219_sugiru⟧ pattern that means \"to do something too much.\" Conjugates as an ichidan verb.\n\nCOMMON EXPRESSIONS:\n- ⟦{食|た}べ{過|す}ぎ→食べ過ぎ：28819_tabesugi⟧⟦に→に：00314_ni⟧⟦{注意|ちゅうい}→注意：01464_chuui⟧: watch out for overeating\n- {食|た}べ{過|す}ぎて⟦{気持|きも}ち{悪|わる}い→気持ち悪い：07154_kimochiwarui⟧: feel sick from overeating\n- つい{食|た}べ{過|す}ぎてしまう: end up overeating (unintentionally)\n\nRELATED PATTERNS:\n- ⟦{飲|の}み{過|す}ぎる→飲み過ぎる：22592_nomisugiru⟧: to drink too much\n- ⟦{使|つか}い→使う：00473_tsukau⟧⟦{過|す}ぎる→過ぎる：01219_sugiru⟧: to use too much\n- ⟦{働|はたら}き→働く：00503_hataraku⟧⟦{過|す}ぎる→過ぎる：01219_sugiru⟧: to overwork",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -58,10 +58,11 @@
         "food",
         "health"
       ],
-      "verb_class": "ichidan"
+      "verb_class": "ichidan",
+      "transitivity": "transitive"
     },
     "created": "2026-04-02T21:22:10Z",
-    "modified": "2026-07-29T12:35:11Z"
+    "modified": "2026-09-02T04:02:04Z"
   },
   "conjugation": {
     "type": "ichidan",

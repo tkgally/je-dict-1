@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "15678_teikikenshin_ex1",
-      "japanese": "{年|ねん}に{一回|いっかい}{定期検診|ていきけんしん}を{受|う}けている。",
+      "japanese": "⟦{年|ねん}→年：09876_nen⟧⟦に→に：00314_ni⟧⟦{一回|いっかい}→一回：08925_ikkai⟧{定期検診|ていきけんしん}⟦を→を：00422_wo⟧⟦{受|う}けている→受ける：01215_ukeru⟧。",
       "english": "I get a regular checkup once a year.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15678_teikikenshin_ex2",
-      "japanese": "{定期検診|ていきけんしん}で{虫歯|むしば}が{見|み}つかった。",
+      "japanese": "{定期検診|ていきけんしん}⟦で→で：00502_de⟧⟦{虫歯|むしば}→虫歯：00299_mushiba⟧⟦が→が：00051_ga⟧⟦{見|み}つかった→見つかる：01173_mitsukaru⟧。",
       "english": "A cavity was found during a regular checkup.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15678_teikikenshin_ex3",
-      "japanese": "{定期検診|ていきけんしん}のおかげで{病気|びょうき}を{早期|そうき}に{発見|はっけん}することができた。",
+      "japanese": "{定期検診|ていきけんしん}⟦の→の：09472_no⟧⟦おかげ→おかげ：01362_okage⟧⟦で→で：00502_de⟧⟦{病気|びょうき}→病気：00771_byouki⟧⟦を→を：00422_wo⟧⟦{早期|そうき}→早期：09568_souki⟧⟦に→に：00314_ni⟧⟦{発見|はっけん}する→発見する：26929_hakkensuru⟧こと⟦が→が：00051_ga⟧⟦できた→できる：00557_dekiru⟧。",
       "english": "Thanks to regular checkups, the illness was detected early.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nApplies to various types of regular medical examinations, including general health checkups ({健康|けんこう}{診断|しんだん}), dental checkups ({歯科|しか}{検診|けんしん}), and cancer screenings ({がん{検診|けんしん}}). In Japan, companies are legally required to provide annual health checkups for employees.\n\nCOMMON COLLOCATIONS:\n- {定期検診|ていきけんしん}を{受|う}ける (to have a regular checkup)\n- {歯科|しか}の{定期検診|ていきけんしん} (regular dental checkup)\n- {定期検診|ていきけんしん}の{結果|けっか} (checkup results)\n\nWORD FORMATION:\n{定期|ていき} (regular, periodic) + {検診|けんしん} (medical examination).\n\nSIMILAR WORDS:\n- {健康|けんこう}{診断|しんだん}: health checkup (often abbreviated to {健診|けんしん})\n- {人間|にんげん}ドック: comprehensive physical exam (more thorough)",
+  "notes": "USAGE:\nApplies to various types of regular medical examinations, including general health checkups (⟦{健康|けんこう}{診断|しんだん}→健康診断：05979_kenkoushindan⟧), dental checkups (⟦{歯科|しか}→歯科：11072_shika⟧⟦{検診|けんしん}→検診：07679_kenshin⟧), and cancer screenings (がん⟦{検診|けんしん}→検診：07679_kenshin⟧). In Japan, companies are legally required to provide annual health checkups for employees.\n\nCOMMON COLLOCATIONS:\n- {定期検診|ていきけんしん}⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧ (to have a regular checkup)\n- ⟦{歯科|しか}→歯科：11072_shika⟧⟦の→の：09472_no⟧{定期検診|ていきけんしん} (regular dental checkup)\n- {定期検診|ていきけんしん}⟦の→の：09472_no⟧⟦{結果|けっか}→結果：02486_kekka⟧ (checkup results)\n\nFORMS:\n⟦{定期|ていき}→定期：03538_teiki⟧ (regular, periodic) + ⟦{検診|けんしん}→検診：07679_kenshin⟧ (medical examination).\n\nSIMILAR WORDS:\n- ⟦{健康|けんこう}{診断|しんだん}→健康診断：05979_kenkoushindan⟧: health checkup (often abbreviated to ⟦{健診|けんしん}→健診：17390_kenshin⟧)\n- ⟦{人間|にんげん}ドック→人間ドック：23310_ningendokku⟧: comprehensive physical exam (more thorough)",
   "cross_references": [
     {
       "type": "synonym",
@@ -46,19 +52,32 @@
       "reading": "けんこうしんだん",
       "headword": "{健康診断|けんこうしんだん}",
       "label": "health checkup"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23310_ningendokku",
+      "reading": "にんげんどっく",
+      "headword": "{人間|にんげん}ドック",
+      "label": "comprehensive physical exam"
     }
   ],
   "metadata": {
     "created": "2026-03-08T06:50:24Z",
-    "modified": "2026-05-01T10:15:30Z",
+    "modified": "2026-09-02T04:01:42Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["medical"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "medical"
+      ]
     }
   }
 }

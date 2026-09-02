@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28286_kishoushu_ex1",
-      "japanese": "この{鳥|とり}は{希少種|きしょうしゅ}に{指定|してい}されている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{鳥|とり}→鳥：00679_tori⟧⟦は→は：00079_ha⟧{希少種|きしょうしゅ}⟦に→に：00314_ni⟧⟦{指定|してい}→指定：00373_shitei⟧⟦されている→する：00392_suru⟧。",
       "english": "This bird is designated as a rare species.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28286_kishoushu_ex2",
-      "japanese": "{屋久島|やくしま}には{多|おお}くの{希少種|きしょうしゅ}が{生息|せいそく}している。",
+      "japanese": "{屋久島|やくしま}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{多|おお}く⟦の→の：09472_no⟧{希少種|きしょうしゅ}⟦が→が：00051_ga⟧⟦{生息|せいそく}→生息：13542_seisoku⟧⟦している→する：00392_suru⟧。",
       "english": "Many rare species inhabit Yakushima.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28286_kishoushu_ex3",
-      "japanese": "{気候変動|きこうへんどう}によって、{希少種|きしょうしゅ}の{生息地|せいそくち}が{急速|きゅうそく}に{失|うしな}われつつある。",
+      "japanese": "⟦{気候変動|きこうへんどう}→気候変動：04627_kikouhendou⟧⟦によって→によって：06801_niyotte⟧、{希少種|きしょうしゅ}⟦の→の：09472_no⟧⟦{生息地|せいそくち}→生息地：09253_seisokuchi⟧⟦が→が：00051_ga⟧⟦{急速|きゅうそく}→急速：02634_kyuusoku⟧⟦に→に：00314_ni⟧⟦{失|うしな}われ→失う：01887_ushinau⟧つつ⟦ある→ある：00006_aru⟧。",
       "english": "Due to climate change, the habitats of rare species are rapidly being lost.",
       "sense_numbers": [
         1
@@ -44,8 +44,45 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {希少|きしょう} (rare, scarce) + {種|しゅ} (species).\n\nCOMMON COLLOCATIONS:\n- {希少種|きしょうしゅ}に{指定|してい}する: to designate as a rare species\n- {希少種|きしょうしゅ}{保護|ほご}: protection of rare species\n- {希少種|きしょうしゅ}の{生息地|せいそくち}: habitat of a rare species\n- {希少種|きしょうしゅ}を{守|まも}る: to protect rare species\n\nSIMILAR WORDS:\n- {絶滅危惧種|ぜつめつきぐしゅ}: endangered species — stronger and more specific; an officially-listed category at high extinction risk\n- {天然記念物|てんねんきねんぶつ}: natural monument — legal designation in Japan that often overlaps with rare species\n- {外来種|がいらいしゅ}: non-native/invasive species — often contrasted with native rare species in conservation discussions",
+  "notes": "Compound of ⟦{希少|きしょう}→希少：12444_kishou⟧ (rare, scarce) + ⟦{種|しゅ}→種：28584_shu⟧ (species).\n\nCOMMON COLLOCATIONS:\n- {希少種|きしょうしゅ}⟦に→に：00314_ni⟧⟦{指定|してい}→指定：00373_shitei⟧⟦する→する：00392_suru⟧: to designate as a rare species\n- {希少種|きしょうしゅ}⟦{保護|ほご}→保護：03625_hogo⟧: protection of rare species\n- {希少種|きしょうしゅ}⟦の→の：09472_no⟧⟦{生息地|せいそくち}→生息地：09253_seisokuchi⟧: habitat of a rare species\n- {希少種|きしょうしゅ}⟦を→を：00422_wo⟧⟦{守|まも}る→守る：01986_mamoru⟧: to protect rare species\n\nSIMILAR WORDS:\n- ⟦{絶滅危惧種|ぜつめつきぐしゅ}→絶滅危惧種：04642_zetsumetsukigushu⟧: endangered species — stronger and more specific; an officially-listed category at high extinction risk\n- ⟦{天然記念物|てんねんきねんぶつ}→天然記念物：04899_tennenkinenbutsu⟧: natural monument — legal designation in Japan that often overlaps with rare species\n- ⟦{外来種|がいらいしゅ}→外来種：23243_gairaishu⟧: non-native/invasive species — often contrasted with native rare species in conservation discussions",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04642_zetsumetsukigushu",
+      "reading": "ぜつめつきぐしゅ",
+      "headword": "{絶滅危惧種|ぜつめつきぐしゅ}",
+      "label": "endangered species"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04899_tennenkinenbutsu",
+      "reading": "てんねんきねんぶつ",
+      "headword": "{天然記念物|てんねんきねんぶつ}",
+      "label": "natural monument"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23243_gairaishu",
+      "reading": "がいらいしゅ",
+      "headword": "{外来種|がいらいしゅ}",
+      "label": "non-native/invasive species"
+    },
+    {
+      "type": "related",
+      "target_id": "03756_zetsumetsu",
+      "reading": "ぜつめつ",
+      "headword": "{絶滅|ぜつめつ}",
+      "label": "extinction, extermination"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28265_kigushu",
+      "reading": "きぐしゅ",
+      "headword": "{危惧種|きぐしゅ}",
+      "label": "endangered species"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +90,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "nature"
       ],
@@ -62,6 +99,6 @@
       ]
     },
     "created": "2026-05-28T03:07:22Z",
-    "modified": "2026-08-08T03:27:39Z"
+    "modified": "2026-09-02T04:02:33Z"
   }
 }

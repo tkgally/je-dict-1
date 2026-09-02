@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25703_futokorogafukai_ex1",
-      "japanese": "あの{先生|せんせい}は{懐|ふところ}が{深|ふか}い。",
+      "japanese": "⟦あの→あの：00915_ano⟧⟦{先生|せんせい}→先生：00609_sensei⟧⟦は→は：00079_ha⟧{懐|ふところ}が{深|ふか}い。",
       "english": "That teacher is broad-minded.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25703_futokorogafukai_ex2",
-      "japanese": "{懐|ふところ}が{深|ふか}い{人|ひと}だから、{何|なん}でも{相談|そうだん}できる。",
+      "japanese": "{懐|ふところ}が{深|ふか}い⟦{人|ひと}→人：00476_hito⟧だ⟦から→から：00504_kara⟧、⟦{何|なん}→何〜：03100_nan⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧⟦{相談|そうだん}できる→相談する：01845_soudansuru⟧。",
       "english": "Because he's such a tolerant person, you can consult him about anything.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25703_futokorogafukai_ex3",
-      "japanese": "{上司|じょうし}の{懐|ふところ}が{深|ふか}いおかげで、{自由|じゆう}に{意見|いけん}を{言|い}える{職場|しょくば}だ。",
+      "japanese": "⟦{上司|じょうし}→上司：03286_joushi⟧⟦の→の：09472_no⟧{懐|ふところ}が{深|ふか}い⟦おかげ→おかげ：01362_okage⟧で、⟦{自由|じゆう}→自由：01148_jiyuu⟧⟦に→に：00314_ni⟧⟦{意見|いけん}→意見：01303_iken⟧⟦を→を：00422_wo⟧⟦{言|い}える→言う：00515_iu⟧⟦{職場|しょくば}→職場：04164_shokuba⟧だ。",
       "english": "Thanks to the boss being so open-minded, it's a workplace where you can freely voice your opinions.",
       "sense_numbers": [
         1
@@ -44,8 +44,37 @@
       "notes": null
     }
   ],
-  "notes": "Literally \"one's bosom is deep.\" {懐|ふところ} originally refers to the inside fold of a kimono at the chest, used metaphorically to mean one's heart or capacity for accepting others. A person with a deep {懐|ふところ} can embrace many people and ideas.\n\nUSAGE:\nAlmost always used as praise. Typically describes leaders, mentors, or respected figures who can handle diverse situations and people with grace. Often used in the pattern {懐|ふところ}の{深|ふか}い{人|ひと}.\n\nSIMILAR EXPRESSIONS:\n- {器|うつわ}が{大|おお}きい — magnanimous; big-hearted — similar meaning but emphasizes personal capacity\n- {心|こころ}が{広|ひろ}い — open-hearted; generous — more straightforward and common\n- {寛大|かんだい}な — tolerant; lenient — more formal, adjective form",
-  "cross_references": [],
+  "notes": "Literally \"one's bosom is deep.\" ⟦{懐|ふところ}→懐：12631_futokoro⟧ originally refers to the inside fold of a kimono at the chest, used metaphorically to mean one's heart or capacity for accepting others. A person with a deep ⟦{懐|ふところ}→懐：12631_futokoro⟧ can embrace many people and ideas.\n\nUSAGE:\nAlmost always used as praise. Typically describes leaders, mentors, or respected figures who can handle diverse situations and people with grace. Often used in the pattern ⟦{懐|ふところ}→懐：12631_futokoro⟧⟦の→の：09472_no⟧⟦{深|ふか}い→深い：01211_fukai⟧⟦{人|ひと}→人：00476_hito⟧.\n\nSIMILAR WORDS:\n- ⟦{器|うつわ}が{大|おお}きい→器が大きい：25704_utsuwagaookii⟧ — magnanimous; big-hearted — similar meaning but emphasizes personal capacity\n- ⟦{心|こころ}が{広|ひろ}い→心が広い：20972_kokorogahiroi⟧ — open-hearted; generous — more straightforward and common\n- ⟦{寛大|かんだい}→寛大：15278_kandai⟧な — tolerant; lenient — more formal, adjective form",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25704_utsuwagaookii",
+      "reading": "うつわがおおきい",
+      "headword": "{器|うつわ}が{大|おお}きい",
+      "label": "magnanimous"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20972_kokorogahiroi",
+      "reading": "こころがひろい",
+      "headword": "{心|こころ}が{広|ひろ}い",
+      "label": "open-hearted"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15278_kandai",
+      "reading": "かんだい",
+      "headword": "{寛大|かんだい}",
+      "label": "tolerant"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20167_houyouryoku",
+      "reading": "ほうようりょく",
+      "headword": "{包容力|ほうようりょく}",
+      "label": "capacity to embrace"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,11 +82,12 @@
       "pos": [
         "expression"
       ],
+      "politeness": "plain",
       "semantic": [
         "personality"
       ]
     },
     "created": "2026-04-26T16:28:59Z",
-    "modified": "2026-06-15T07:59:19Z"
+    "modified": "2026-09-02T04:02:23Z"
   }
 }

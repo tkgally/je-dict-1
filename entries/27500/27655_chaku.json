@@ -15,40 +15,50 @@
   "examples": [
     {
       "id": "27655_chaku_ex1",
-      "japanese": "スーツを{二着|にちゃく}{買|か}った。",
+      "japanese": "⟦スーツ→スーツ：01367_suutsu⟧⟦を→を：00422_wo⟧{二着|にちゃく}⟦{買|か}った→買う：00489_kau⟧。",
       "english": "I bought two suits.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27655_chaku_ex2",
-      "japanese": "{制服|せいふく}を{三着|さんちゃく}{用意|ようい}する。",
+      "japanese": "⟦{制服|せいふく}→制服：03086_seifuku⟧⟦を→を：00422_wo⟧{三着|さんちゃく}⟦{用意|ようい}する→用意する：22428_youisuru⟧。",
       "english": "To prepare three uniforms.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27655_chaku_ex3",
-      "japanese": "クリーニングに{出|だ}したコートが{一着|いっちゃく}まだ{戻|もど}ってこない。",
+      "japanese": "⟦クリーニング→クリーニング：19551_kuriiningu⟧⟦に→に：00314_ni⟧⟦{出|だ}した→出す：01087_dasu⟧⟦コート→コート：01358_kooto⟧⟦が→が：00051_ga⟧⟦{一着|いっちゃく}→一着：21404_icchaku⟧⟦まだ→まだ：00603_mada⟧⟦{戻|もど}って→戻る：01117_modoru⟧こない。",
       "english": "One of the coats I sent to the cleaners still hasn't come back.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "COUNTING PATTERN:\n- 1: {一着|いっちゃく}\n- 2: {二着|にちゃく}\n- 3: {三着|さんちゃく}\n- 4: {四着|よんちゃく}\n- 5: {五着|ごちゃく}\n- 6: {六着|ろくちゃく}\n- 7: {七着|ななちゃく}\n- 8: {八着|はっちゃく}\n- 9: {九着|きゅうちゃく}\n- 10: {十着|じゅっちゃく}\n\nSOUND CHANGES:\n- After 1, 8, 10: ちゃく → っちゃく (sokuon)\n\nUSED FOR:\n- Suits, dresses, coats, uniforms — complete outfits or sets of clothing.\n- The same kanji also counts finishing order in a race ({一着|いっちゃく} = first place), but that is a separate use.",
+  "notes": "COUNTING PATTERNS:\n- 1: ⟦{一着|いっちゃく}→一着：21404_icchaku⟧\n- 2: {二着|にちゃく}\n- 3: {三着|さんちゃく}\n- 4: {四着|よんちゃく}\n- 5: {五着|ごちゃく}\n- 6: {六着|ろくちゃく}\n- 7: {七着|ななちゃく}\n- 8: {八着|はっちゃく}\n- 9: {九着|きゅうちゃく}\n- 10: {十着|じゅっちゃく}\n- After 1, 8, 10: ちゃく → っちゃく (sokuon)\n\nUSED FOR:\n- Suits, dresses, coats, uniforms — complete outfits or sets of clothing.\n- The same kanji also counts finishing order in a race (⟦{一着|いっちゃく}→一着：21404_icchaku⟧ = first place), but that is a separate use.",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["counter"],
+      "pos": [
+        "counter"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["number"]
+      "semantic": [
+        "number"
+      ]
     },
     "created": "2026-05-16T03:10:15Z",
-    "modified": "2026-05-16T03:10:15Z"
+    "modified": "2026-09-02T04:02:31Z"
   }
 }

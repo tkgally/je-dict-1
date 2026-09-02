@@ -15,41 +15,67 @@
   "examples": [
     {
       "id": "15093_inshokuten_ex1",
-      "japanese": "この{通|とお}りには{飲食店|いんしょくてん}が{多|おお}い。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{通|とお}り→通り：01475_toori⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{飲食店|いんしょくてん}⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "There are many restaurants on this street.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15093_inshokuten_ex2",
-      "japanese": "{駅前|えきまえ}に{新|あたら}しい{飲食店|いんしょくてん}がオープンした。",
+      "japanese": "⟦{駅前|えきまえ}→駅前：09593_ekimae⟧⟦に→に：00314_ni⟧⟦{新|あたら}しい→新しい：00506_atarashii⟧{飲食店|いんしょくてん}⟦が→が：00051_ga⟧⟦オープン→オープン：10831_oopun⟧⟦した→する：00392_suru⟧。",
       "english": "A new eatery opened in front of the station.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15093_inshokuten_ex3",
-      "japanese": "{飲食店|いんしょくてん}を{経営|けいえい}するには{衛生|えいせい}{管理|かんり}が{欠|か}かせない。",
+      "japanese": "{飲食店|いんしょくてん}⟦を→を：00422_wo⟧⟦{経営|けいえい}→経営：02740_keiei⟧⟦する→する：00392_suru⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{衛生|えいせい}{管理|かんり}→衛生管理：17986_eiseikanri⟧⟦が→が：00051_ga⟧⟦{欠|か}かせない→欠かす：10138_kakasu⟧。",
       "english": "Hygiene management is essential for running a food-and-drink establishment.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\n{飲食店|いんしょくてん} is a broad, somewhat formal term covering any establishment that serves food and drinks. It is commonly used in official, business, and news contexts rather than casual conversation.\n\nCOMMON COLLOCATIONS:\n- {飲食店|いんしょくてん}を{経営|けいえい}する (to run a restaurant)\n- {飲食店|いんしょくてん}{営業|えいぎょう} (restaurant business)\n- {飲食店|いんしょくてん}{街|がい} (restaurant district)\n\nSIMILAR WORDS:\nレストラン is the common loanword for restaurant. {食堂|しょくどう} refers to a dining hall or casual eatery. {飲食店|いんしょくてん} is the broadest category and is often used in administrative or regulatory contexts.",
-  "cross_references": [],
+  "notes": "USAGE:\n{飲食店|いんしょくてん} is a broad, somewhat formal term covering any establishment that serves food and drinks. It is commonly used in official, business, and news contexts rather than casual conversation.\n\nCOMMON COLLOCATIONS:\n- {飲食店|いんしょくてん}⟦を→を：00422_wo⟧⟦{経営|けいえい}→経営：02740_keiei⟧⟦する→する：00392_suru⟧ (to run a restaurant)\n- {飲食店|いんしょくてん}⟦{営業|えいぎょう}→営業：01878_eigyou⟧ (restaurant business)\n- {飲食店|いんしょくてん}{街|がい} (restaurant district)\n\nSIMILAR WORDS:\n⟦レストラン→レストラン：01048_resutoran⟧ is the common loanword for restaurant. ⟦{食堂|しょくどう}→食堂：01054_shokudou⟧ refers to a dining hall or casual eatery. {飲食店|いんしょくてん} is the broadest category and is often used in administrative or regulatory contexts.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25626_ryouriten",
+      "reading": "りょうりてん",
+      "headword": "{料理店|りょうりてん}",
+      "label": "restaurant"
+    },
+    {
+      "type": "related",
+      "target_id": "25788_inshokuhin",
+      "reading": "いんしょくひん",
+      "headword": "{飲食品|いんしょくひん}",
+      "label": "food and drink"
+    }
+  ],
   "metadata": {
     "created": "2026-03-05T06:54:27Z",
-    "modified": "2026-03-05T06:54:27Z",
+    "modified": "2026-09-02T04:01:40Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["food", "business"]
+      "semantic": [
+        "food",
+        "business"
+      ]
     }
   }
 }

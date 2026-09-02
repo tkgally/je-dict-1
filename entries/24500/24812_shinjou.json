@@ -3,7 +3,7 @@
   "headword": "{進上|しんじょう}",
   "reading": "しんじょう",
   "romaji": "shinjou",
-  "part_of_speech": "noun (with suru verb)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "(formal/humble) presenting a gift to a superior",
   "definitions": [
     {
@@ -18,7 +18,7 @@
   "examples": [
     {
       "id": "24812_shinjou_ex1",
-      "japanese": "お{茶|ちゃ}を{進上|しんじょう}いたします。",
+      "japanese": "⟦お{茶|ちゃ}→お茶：00576_ocha⟧⟦を→を：00422_wo⟧{進上|しんじょう}⟦いたします→いたす：01314_itasu⟧。",
       "english": "I humbly present this tea to you.",
       "sense_numbers": [
         1
@@ -28,7 +28,7 @@
     },
     {
       "id": "24812_shinjou_ex2",
-      "japanese": "{殿様|とのさま}に{名産品|めいさんひん}を{進上|しんじょう}した。",
+      "japanese": "⟦{殿様|とのさま}→殿様：10455_tonosama⟧⟦に→に：00314_ni⟧{名産品|めいさんひん}⟦を→を：00422_wo⟧{進上|しんじょう}⟦した→する：00392_suru⟧。",
       "english": "Local specialties were presented to the lord.",
       "sense_numbers": [
         1
@@ -38,7 +38,7 @@
     },
     {
       "id": "24812_shinjou_ex3",
-      "japanese": "{菓子折|かしおり}りの{熨斗|のし}{紙|がみ}に「{進上|しんじょう}」と{書|か}かれていた。",
+      "japanese": "{菓子折|かしおり}り⟦の→の：09472_no⟧⟦{熨斗|のし}→熨斗：07133_noshi⟧{紙|がみ}⟦に→に：00314_ni⟧「{進上|しんじょう}」⟦と→と：00512_to⟧⟦{書|か}かれていた→書く：00477_kaku⟧。",
       "english": "The gift wrapping paper on the box of sweets was inscribed with 'shinjo' (presented with respect).",
       "sense_numbers": [
         1
@@ -47,8 +47,31 @@
       "notes": null
     }
   ],
-  "notes": "A humble term for presenting something to a social superior, composed of {進|しん} (to advance/present) and {上|じょう} (upward/to a superior). Historically used when offering goods or gifts to nobility, feudal lords, or the emperor.\n\nCOMMON COLLOCATIONS:\n- {進上|しんじょう}いたす — to humbly present (humble verb form)\n- {進上|しんじょう}{品|ひん} — a presented gift\n- {進上|しんじょう}する — to present to a superior\n\nUSAGE:\nIn modern Japanese, {進上|しんじょう} survives mainly on the {熨斗|のし}{紙|がみ} (formal gift wrapping paper) used for traditional gift-giving. It appears as a printed label on gifts presented to superiors or on formal occasions. The word is otherwise archaic in everyday conversation.\n\nSIMILAR WORDS:\n- {献上|けんじょう} — presenting to the emperor or royalty (even higher formality)\n- {贈呈|ぞうてい} — formal presentation of a gift or award\n- {進呈|しんてい} — presenting/giving (humble, but less formal than {進上|しんじょう})",
+  "notes": "A humble term for presenting something to a social superior, composed of {進|しん} (to advance/present) and ⟦{上|じょう}→〜上：30365_jou⟧ (upward/to a superior). Historically used when offering goods or gifts to nobility, feudal lords, or the emperor.\n\nCOMMON COLLOCATIONS:\n- {進上|しんじょう}⟦いたす→いたす：01314_itasu⟧ — to humbly present (humble verb form)\n- {進上|しんじょう}⟦{品|ひん}→品：03712_hin⟧ — a presented gift\n- {進上|しんじょう}⟦する→する：00392_suru⟧ — to present to a superior\n\nUSAGE:\nIn modern Japanese, {進上|しんじょう} survives mainly on the ⟦{熨斗|のし}→熨斗：07133_noshi⟧{紙|がみ} (formal gift wrapping paper) used for traditional gift-giving. It appears as a printed label on gifts presented to superiors or on formal occasions. The word is otherwise archaic in everyday conversation.\n\nSIMILAR WORDS:\n- ⟦{献上|けんじょう}→献上：13528_kenjou⟧ — presenting to the emperor or royalty (even higher formality)\n- ⟦{贈呈|ぞうてい}→贈呈：16752_zoutei⟧ — formal presentation of a gift or award\n- ⟦{進呈|しんてい}→進呈：18249_shintei⟧ — presenting/giving (humble, but less formal than {進上|しんじょう})",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13528_kenjou",
+      "reading": "けんじょう",
+      "headword": "{献上|けんじょう}",
+      "label": "presenting to the emperor or royalty"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16752_zoutei",
+      "reading": "ぞうてい",
+      "headword": "{贈呈|ぞうてい}",
+      "label": "formal presentation of a gift or award"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18249_shintei",
+      "reading": "しんてい",
+      "headword": "{進呈|しんてい}",
+      "label": "presenting/giving"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -64,10 +87,11 @@
         "formal",
         "archaic"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-04-20T16:28:21Z",
-    "modified": "2026-04-20T16:28:21Z"
+    "modified": "2026-09-02T04:02:19Z"
   },
   "conjugation": {
     "type": "suru",

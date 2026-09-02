@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "17688_nenmatsu_ex1",
-      "japanese": "{年末|ねんまつ}は{忙|いそが}しい。",
+      "japanese": "{年末|ねんまつ}⟦は→は：00079_ha⟧⟦{忙|いそが}しい→忙しい：00591_isogashii⟧。",
       "english": "The end of the year is busy.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "17688_nenmatsu_ex2",
-      "japanese": "{年末|ねんまつ}のセールで{買|か}い{物|もの}をした。",
+      "japanese": "{年末|ねんまつ}⟦の→の：09472_no⟧⟦セール→セール：07780_seeru⟧⟦で→で：00502_de⟧⟦{買|か}い{物|もの}→買い物：00853_kaimono⟧⟦を→を：00422_wo⟧⟦した→する：00392_suru⟧。",
       "english": "I went shopping at the year-end sale.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "17688_nenmatsu_ex3",
-      "japanese": "{年末|ねんまつ}になると{大掃除|おおそうじ}をするのが{日本|にほん}の{習慣|しゅうかん}だ。",
+      "japanese": "{年末|ねんまつ}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦と→と：00512_to⟧⟦{大掃除|おおそうじ}→大掃除：08347_oosouji⟧⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦{日本|にほん}→日本：03876_nihon⟧⟦の→の：09472_no⟧⟦{習慣|しゅうかん}→習慣：01429_shuukan⟧だ。",
       "english": "Doing a big cleaning at year-end is a Japanese custom.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,33 @@
       ]
     }
   ],
-  "notes": "USAGE:\nOften paired with {年始|ねんし} (beginning of the year) in the compound {年末年始|ねんまつねんし}, which refers to the holiday period spanning late December through early January.\n\nCULTURAL NOTE:\n{年末|ねんまつ} is associated with {大掃除|おおそうじ} (year-end cleaning), {忘年会|ぼうねんかい} (year-end parties), and preparations for {正月|しょうがつ} (New Year). Many businesses close during {年末年始|ねんまつねんし}.\n\nCOMMON COLLOCATIONS:\n- {年末|ねんまつ}セール: year-end sale\n- {年末|ねんまつ}{調整|ちょうせい}: year-end adjustment (tax)\n- {年末年始|ねんまつねんし}: year-end and New Year period\n- {年末|ねんまつ}{商戦|しょうせん}: year-end sales competition",
-  "cross_references": [],
+  "notes": "USAGE:\nOften paired with ⟦{年始|ねんし}→年始：17689_nenshi⟧ (beginning of the year) in the compound ⟦{年末年始|ねんまつねんし}→年末年始：12457_nenmatsunenshi⟧, which refers to the holiday period spanning late December through early January.\n\nCULTURAL NOTE:\n{年末|ねんまつ} is associated with ⟦{大掃除|おおそうじ}→大掃除：08347_oosouji⟧ (year-end cleaning), ⟦{忘年会|ぼうねんかい}→忘年会：15800_bounenkai⟧ (year-end parties), and preparations for ⟦{正月|しょうがつ}→正月：01433_shougatsu⟧ (New Year). Many businesses close during ⟦{年末年始|ねんまつねんし}→年末年始：12457_nenmatsunenshi⟧.\n\nCOMMON COLLOCATIONS:\n- {年末|ねんまつ}⟦セール→セール：07780_seeru⟧: year-end sale\n- {年末|ねんまつ}{調整|ちょうせい}: year-end adjustment (tax)\n- ⟦{年末年始|ねんまつねんし}→年末年始：12457_nenmatsunenshi⟧: year-end and New Year period\n- {年末|ねんまつ}{商戦|しょうせん}: year-end sales competition",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "00636_juunigatsu",
+      "reading": "じゅうにがつ",
+      "headword": "{十二月|じゅうにがつ}",
+      "label": "December"
+    },
+    {
+      "type": "related",
+      "target_id": "05810_oomisoka",
+      "reading": "おおみそか",
+      "headword": "{大晦日|おおみそか}",
+      "label": "New Year's Eve"
+    },
+    {
+      "type": "related",
+      "target_id": "28384_kongetsumatsu",
+      "reading": "こんげつまつ",
+      "headword": "{今月末|こんげつまつ}",
+      "label": "end of this month"
+    }
+  ],
   "metadata": {
     "created": "2026-02-13T05:17:28Z",
-    "modified": "2026-04-11T02:03:14Z",
+    "modified": "2026-09-02T04:01:49Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

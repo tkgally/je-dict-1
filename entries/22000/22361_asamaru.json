@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22361_asamaru_ex1",
-      "japanese": "{川|かわ}の{水|みず}が{浅|あさ}まった。",
+      "japanese": "⟦{川|かわ}→川：02186_kawa⟧⟦の→の：09472_no⟧⟦{水|みず}→水：02258_mizu⟧⟦が→が：00051_ga⟧{浅|あさ}まった。",
       "english": "The river water became shallow.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22361_asamaru_ex2",
-      "japanese": "{日照|にっしょう}り{続|つづ}きで{池|いけ}の{水位|すいい}が{浅|あさ}まっている。",
+      "japanese": "{日照|にっしょう}り⟦{続|つづ}き→続き：03526_tsuzuki⟧⟦で→で：00502_de⟧⟦{池|いけ}→池：00848_ike⟧⟦の→の：09472_no⟧⟦{水位|すいい}→水位：21569_suii⟧⟦が→が：00051_ga⟧{浅|あさ}まって⟦いる→いる：00495_iru⟧。",
       "english": "Due to continued sunshine, the pond's water level has become shallow.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22361_asamaru_ex3",
-      "japanese": "{経験|けいけん}を{積|つ}まなければ、{考|かんが}え{方|かた}が{浅|あさ}まってしまう。",
+      "japanese": "⟦{経験|けいけん}→経験：01179_keiken⟧⟦を→を：00422_wo⟧⟦{積|つ}まなければ→積む：02294_tsumu⟧、⟦{考|かんが}え{方|かた}→考え方：10169_kangaekata⟧⟦が→が：00051_ga⟧{浅|あさ}まってしまう。",
       "english": "Without gaining experience, one's way of thinking becomes superficial.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "An intransitive verb meaning to become shallow, both literally (water level) and figuratively (depth of thought or character). The transitive counterpart would be expressed using {浅|あさ}くする.\n\nCOMMON COLLOCATIONS:\n- {水|みず}が{浅|あさ}まる: water becomes shallow\n- {考|かんが}えが{浅|あさ}まる: thinking becomes superficial\n- {知識|ちしき}が{浅|あさ}まる: knowledge becomes shallow\n\nSIMILAR WORDS:\n- {浅|あさ}い: shallow (adjective) — the base adjective\n- {深|ふか}まる: to deepen — the opposite verb\n- {薄|うす}れる: to thin; to fade — for weakening of feelings or impressions\n\nGRAMMAR:\nGodan verb (る row). Intransitive. Conjugates: {浅|あさ}まらない, {浅|あさ}まって, {浅|あさ}まります.",
+  "notes": "An intransitive verb meaning to become shallow, both literally (water level) and figuratively (depth of thought or character). The transitive counterpart would be expressed using ⟦{浅|あさ}く→浅い：01274_asai⟧⟦する→する：00392_suru⟧.\n\nCOMMON COLLOCATIONS:\n- ⟦{水|みず}→水：02258_mizu⟧⟦が→が：00051_ga⟧{浅|あさ}まる: water becomes shallow\n- ⟦{考|かんが}え→考え：00855_kangae⟧⟦が→が：00051_ga⟧{浅|あさ}まる: thinking becomes superficial\n- ⟦{知識|ちしき}→知識：01463_chishiki⟧⟦が→が：00051_ga⟧{浅|あさ}まる: knowledge becomes shallow\n\nSIMILAR WORDS:\n- ⟦{浅|あさ}い→浅い：01274_asai⟧: shallow (adjective) — the base adjective\n- ⟦{深|ふか}まる→深まる：02406_fukamaru⟧: to deepen — the opposite verb\n- ⟦{薄|うす}れる→薄れる：14107_usureru⟧: to thin; to fade — for weakening of feelings or impressions\n\nCOMMON PATTERNS:\nGodan verb (る row). Intransitive. Conjugates: {浅|あさ}まら⟦ない→ない：01118_nai⟧, {浅|あさ}まって, {浅|あさ}⟦まり→まり：26342_mari⟧ます.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01274_asai",
+      "reading": "あさい",
+      "headword": "{浅|あさ}い",
+      "label": "shallow"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02406_fukamaru",
+      "reading": "ふかまる",
+      "headword": "{深|ふか}まる",
+      "label": "to deepen"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14107_usureru",
+      "reading": "うすれる",
+      "headword": "{薄|うす}れる",
+      "label": "to thin"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,7 +84,7 @@
       "verb_class": "godan-ru"
     },
     "created": "2026-04-05T19:25:51Z",
-    "modified": "2026-04-10T06:37:10Z"
+    "modified": "2026-09-02T04:02:07Z"
   },
   "conjugation": {
     "type": "godan",

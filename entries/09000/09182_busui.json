@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "09182_busui_ex1",
-      "japanese": "{無粋|ぶすい}なことを{聞|き}く",
+      "japanese": "{無粋|ぶすい}なこと⟦を→を：00422_wo⟧⟦{聞|き}く→聞く：00483_kiku⟧",
       "english": "to ask a tactless question",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "09182_busui_ex2",
-      "japanese": "お{花見|はなみ}で{仕事|しごと}の{話|はなし}をするのは{無粋|ぶすい}だ。",
+      "japanese": "⟦お{花見|はなみ}→お花見：17953_ohanami⟧⟦で→で：00502_de⟧⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦の→の：09472_no⟧⟦{話|はなし}→話：01496_hanashi⟧⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧⟦の→の：09472_no⟧⟦は→は：00079_ha⟧{無粋|ぶすい}だ。",
       "english": "It's boorish to talk about work at a cherry blossom viewing.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "09182_busui_ex3",
-      "japanese": "{値段|ねだん}を{聞|き}くのは{無粋|ぶすい}かもしれないが、{予算|よさん}があるので。",
+      "japanese": "⟦{値段|ねだん}→値段：00871_nedan⟧⟦を→を：00422_wo⟧⟦{聞|き}く→聞く：00483_kiku⟧⟦の→の：09472_no⟧⟦は→は：00079_ha⟧{無粋|ぶすい}⟦かもしれない→かもしれない：00164_kamoshirenai⟧⟦が→が：00051_ga⟧、⟦{予算|よさん}→予算：03663_yosan⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧⟦の→の：09472_no⟧で。",
       "english": "It may be uncouth to ask about the price, but I have a budget.",
       "sense_numbers": [
         1
@@ -43,7 +43,7 @@
       "notes": null
     }
   ],
-  "notes": "ADJECTIVE TYPE: Na-adjective. Uses な before nouns: {無粋|ぶすい}な{質問|しつもん}.\n\nETYMOLOGY: {無|ぶ} (without) + {粋|すい} (refined elegance, chic)\n\nNUANCE: {無粋|ぶすい} implies a lack of sensitivity to atmosphere, mood, or social graces. It's often used self-deprecatingly when about to do something that might spoil the mood or violate social conventions.\n\nCOMMON COLLOCATIONS:\n- {無粋|ぶすい}なことを{聞|き}く/{言|い}う (to say/ask something tactless)\n- {無粋|ぶすい}な{質問|しつもん} (tactless question)\n- {無粋|ぶすい}な{人|ひと} (boorish person)\n\nRELATED WORDS:\n- {野暮|やぼ} (uncouth, tactless - similar)\n- {粋|いき}/{粋|すい} (refined, chic - opposite)\n- {無神経|むしんけい} (insensitive)\n- {悪趣味|あくしゅみ} (bad taste)",
+  "notes": "ADJECTIVE TYPE: Na-adjective. Uses な before nouns: {無粋|ぶすい}な⟦{質問|しつもん}→質問：00888_shitsumon⟧.\n\nETYMOLOGY: {無|ぶ} (without) + {粋|すい} (refined elegance, chic)\n\nNUANCE: {無粋|ぶすい} implies a lack of sensitivity to atmosphere, mood, or social graces. It's often used self-deprecatingly when about to do something that might spoil the mood or violate social conventions.\n\nCOMMON COLLOCATIONS:\n- {無粋|ぶすい}なこと⟦を→を：00422_wo⟧⟦{聞|き}く→聞く：00483_kiku⟧/⟦{言|い}う→言う：00515_iu⟧ (to say/ask something tactless)\n- {無粋|ぶすい}な⟦{質問|しつもん}→質問：00888_shitsumon⟧ (tactless question)\n- {無粋|ぶすい}な⟦{人|ひと}→人：00476_hito⟧ (boorish person)\n\nRELATED WORDS:\n- ⟦{野暮|やぼ}→野暮：06072_yabo⟧ (uncouth, tactless - similar)\n- ⟦{粋|いき}→粋：13773_iki⟧/{粋|すい} (refined, chic - opposite)\n- ⟦{無神経|むしんけい}→無神経：08472_mushinkei⟧ (insensitive)\n- ⟦{悪趣味|あくしゅみ}→悪趣味：09180_akushumi⟧ (bad taste)",
   "cross_references": [
     {
       "type": "synonym",
@@ -51,11 +51,25 @@
       "reading": "あくしゅみ",
       "headword": "{悪趣味|あくしゅみ}",
       "label": "bad taste"
+    },
+    {
+      "type": "related",
+      "target_id": "06072_yabo",
+      "reading": "やぼ",
+      "headword": "{野暮|やぼ}",
+      "label": "uncouth, tactless"
+    },
+    {
+      "type": "related",
+      "target_id": "08472_mushinkei",
+      "reading": "むしんけい",
+      "headword": "{無神経|むしんけい}",
+      "label": "insensitive"
     }
   ],
   "metadata": {
     "created": "2026-02-01T01:39:02Z",
-    "modified": "2026-08-12T21:25:53Z",
+    "modified": "2026-09-02T04:01:17Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

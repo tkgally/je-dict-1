@@ -3,7 +3,7 @@
   "id": "15045_funsha",
   "headword": "{噴射|ふんしゃ}",
   "reading": "ふんしゃ",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "jet, spray, injection",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "15045_funsha_ex1",
-      "japanese": "ロケットが{炎|ほのお}を{噴射|ふんしゃ}した。",
+      "japanese": "⟦ロケット→ロケット：00353_roketto⟧⟦が→が：00051_ga⟧⟦{炎|ほのお}→炎：03724_honoo⟧⟦を→を：00422_wo⟧{噴射|ふんしゃ}⟦した→する：00392_suru⟧。",
       "english": "The rocket jetted flames.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "15045_funsha_ex2",
-      "japanese": "{燃料|ねんりょう}{噴射|ふんしゃ}の{仕組|しく}みを{学|まな}んだ。",
+      "japanese": "⟦{燃料|ねんりょう}→燃料：13461_nenryou⟧{噴射|ふんしゃ}⟦の→の：09472_no⟧⟦{仕組|しく}み→仕組み：07168_shikumi⟧⟦を→を：00422_wo⟧⟦{学|まな}んだ→学ぶ：01987_manabu⟧。",
       "english": "I learned the mechanism of fuel injection.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "15045_funsha_ex3",
-      "japanese": "{消防士|しょうぼうし}が{高圧|こうあつ}ホースから{水|みず}を{噴射|ふんしゃ}して{火|ひ}を{消|け}した。",
+      "japanese": "⟦{消防士|しょうぼうし}→消防士：05057_shouboushi⟧⟦が→が：00051_ga⟧⟦{高圧|こうあつ}→高圧：21094_kouatsu⟧⟦ホース→ホース：25876_hoosu⟧⟦から→から：00504_kara⟧⟦{水|みず}→水：02258_mizu⟧⟦を→を：00422_wo⟧{噴射|ふんしゃ}⟦して→する：00392_suru⟧⟦{火|ひ}→火：02248_hi⟧⟦を→を：00422_wo⟧⟦{消|け}した→消す：00528_kesu⟧。",
       "english": "The firefighters extinguished the fire by spraying water from high-pressure hoses.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,33 @@
       ]
     }
   ],
-  "notes": "{噴射|ふんしゃ} means the forceful ejection of liquid, gas, or particles. Used for everything from rocket engines to fire hoses.\n\nWORD FORMATION:\n{噴|ふん} (to spout) + {射|しゃ} (to shoot)\n\nCOMMON COLLOCATIONS:\n- {燃料|ねんりょう}{噴射|ふんしゃ} (fuel injection)\n- ジェット{噴射|ふんしゃ} (jet propulsion)\n- {噴射|ふんしゃ}{口|ぐち} (nozzle, jet opening)\n- {水|みず}を{噴射|ふんしゃ}する (to spray water)\n\nUSAGE:\nMost commonly encountered in technical and scientific contexts. The する form ({噴射|ふんしゃ}する) is transitive: ロケットが{炎|ほのお}を{噴射|ふんしゃ}した (the rocket jetted flames).\n\nRELATED:\n- {噴出|ふんしゅつ}: gushing out, eruption (natural phenomena)\n- {散布|さんぷ}: spraying, scattering (e.g., pesticide)",
-  "cross_references": [],
+  "notes": "{噴射|ふんしゃ} means the forceful ejection of liquid, gas, or particles. Used for everything from rocket engines to fire hoses.\n\nFORMS:\n{噴|ふん} (to spout) + {射|しゃ} (to shoot)\n\nCOMMON COLLOCATIONS:\n- ⟦{燃料|ねんりょう}→燃料：13461_nenryou⟧{噴射|ふんしゃ} (fuel injection)\n- ジェット{噴射|ふんしゃ} (jet propulsion)\n- {噴射|ふんしゃ}{口|ぐち} (nozzle, jet opening)\n- ⟦{水|みず}→水：02258_mizu⟧⟦を→を：00422_wo⟧{噴射|ふんしゃ}⟦する→する：00392_suru⟧ (to spray water)\n\nUSAGE:\nMost commonly encountered in technical and scientific contexts. The ⟦する→する：00392_suru⟧ form ({噴射|ふんしゃ}⟦する→する：00392_suru⟧) is transitive: ⟦ロケット→ロケット：00353_roketto⟧⟦が→が：00051_ga⟧⟦{炎|ほのお}→炎：03724_honoo⟧⟦を→を：00422_wo⟧{噴射|ふんしゃ}⟦した→する：00392_suru⟧ (the rocket jetted flames).\n\nRELATED WORDS:\n- ⟦{噴出|ふんしゅつ}→噴出：18287_funshutsu⟧: gushing out, eruption (natural phenomena)\n- ⟦{散布|さんぷ}→散布：21064_sanpu⟧: spraying, scattering (e.g., pesticide)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "18287_funshutsu",
+      "reading": "ふんしゅつ",
+      "headword": "{噴出|ふんしゅつ}",
+      "label": "gushing out, eruption"
+    },
+    {
+      "type": "related",
+      "target_id": "21064_sanpu",
+      "reading": "さんぷ",
+      "headword": "{散布|さんぷ}",
+      "label": "spraying, scattering"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22394_shashutsu",
+      "reading": "しゃしゅつ",
+      "headword": "{射出|しゃしゅつ}",
+      "label": "ejection"
+    }
+  ],
   "metadata": {
     "created": "2026-03-05T05:41:52Z",
-    "modified": "2026-03-30T03:20:26Z",
+    "modified": "2026-09-02T04:01:39Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

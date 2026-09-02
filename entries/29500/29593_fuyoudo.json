@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29593_fuyoudo_ex1",
-      "japanese": "{土|つち}に{腐葉土|ふようど}を{混|ま}ぜる。",
+      "japanese": "⟦{土|つち}→土：02229_tsuchi⟧⟦に→に：00314_ni⟧{腐葉土|ふようど}⟦を→を：00422_wo⟧⟦{混|ま}ぜる→混ぜる：02423_mazeru⟧。",
       "english": "Mix leaf mold into the soil.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29593_fuyoudo_ex2",
-      "japanese": "{腐葉土|ふようど}を{入|い}れると{土|つち}が{柔|やわ}らかくなる。",
+      "japanese": "{腐葉土|ふようど}⟦を→を：00422_wo⟧⟦{入|い}れる→入れる：01098_ireru⟧⟦と→と：00512_to⟧⟦{土|つち}→土：02229_tsuchi⟧⟦が→が：00051_ga⟧⟦{柔|やわ}らかく→柔らかい：01096_yawarakai⟧⟦なる→なる：01970_naru⟧。",
       "english": "Adding leaf mold makes the soil softer.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29593_fuyoudo_ex3",
-      "japanese": "{庭|にわ}の{落|お}ち{葉|ば}を{集|あつ}めて{腐葉土|ふようど}を{作|つく}り、{畑|はたけ}にまいた。",
+      "japanese": "⟦{庭|にわ}→庭：02239_niwa⟧⟦の→の：09472_no⟧⟦{落|お}ち{葉|ば}→落ち葉：14108_ochiba⟧⟦を→を：00422_wo⟧⟦{集|あつ}めて→集める：01170_atsumeru⟧{腐葉土|ふようど}⟦を→を：00422_wo⟧⟦{作|つく}り→作る：00481_tsukuru⟧、⟦{畑|はたけ}→畑：00842_hatake⟧にまいた。",
       "english": "I gathered fallen leaves from the garden to make leaf mold and spread it on the field.",
       "sense_numbers": [
         1
@@ -44,13 +44,20 @@
       "notes": null
     }
   ],
-  "notes": "Decomposed-leaf material used to improve garden soil. Sold in bags at garden centers and also made at home by letting fallen leaves rot.\n\nCOMMON COLLOCATIONS:\n- {腐葉土|ふようど}を{混|ま}ぜる: to mix in leaf mold\n- {腐葉土|ふようど}を{作|つく}る: to make leaf mold\n- {市販|しはん}の{腐葉土|ふようど}: commercially sold leaf mold\n\nSIMILAR WORDS:\n- {培養土|ばいようど}: potting soil — a blended, ready-to-use growing medium rather than a single amendment",
+  "notes": "Decomposed-leaf material used to improve garden soil. Sold in bags at garden centers and also made at home by letting fallen leaves rot.\n\nCOMMON COLLOCATIONS:\n- {腐葉土|ふようど}⟦を→を：00422_wo⟧⟦{混|ま}ぜる→混ぜる：02423_mazeru⟧: to mix in leaf mold\n- {腐葉土|ふようど}⟦を→を：00422_wo⟧⟦{作|つく}る→作る：00481_tsukuru⟧: to make leaf mold\n- ⟦{市販|しはん}→市販：12424_shihan⟧⟦の→の：09472_no⟧{腐葉土|ふようど}: commercially sold leaf mold\n\nSIMILAR WORDS:\n- ⟦{培養土|ばいようど}→培養土：29583_baiyoudo⟧: potting soil — a blended, ready-to-use growing medium rather than a single amendment",
   "cross_references": [
     {
       "type": "related",
       "reading": "ばいようど",
       "headword": "{培養土|ばいようど}",
       "target_id": "29583_baiyoudo"
+    },
+    {
+      "type": "related",
+      "target_id": "06471_taihi",
+      "reading": "たいひ",
+      "headword": "{堆肥|たいひ}",
+      "label": "compost"
     }
   ],
   "schema_version": "2.0",
@@ -61,13 +68,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "daily-life"
       ],
       "domain": []
     },
     "created": "2026-07-01T00:20:08Z",
-    "modified": "2026-07-01T00:20:08Z"
+    "modified": "2026-09-02T04:02:37Z"
   }
 }

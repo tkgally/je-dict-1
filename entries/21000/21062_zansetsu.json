@@ -15,40 +15,81 @@
   "examples": [
     {
       "id": "21062_zansetsu_ex1",
-      "japanese": "{山|やま}にはまだ{残雪|ざんせつ}がある。",
+      "japanese": "⟦{山|やま}→山：02168_yama⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦まだ→まだ：00603_mada⟧{残雪|ざんせつ}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There is still lingering snow on the mountain.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21062_zansetsu_ex2",
-      "japanese": "{残雪|ざんせつ}の{白|しろ}さが{青空|あおぞら}に{映|は}えていた。",
+      "japanese": "{残雪|ざんせつ}⟦の→の：09472_no⟧{白|しろ}さ⟦が→が：00051_ga⟧⟦{青空|あおぞら}→青空：10084_aozora⟧⟦に→に：00314_ni⟧⟦{映|は}えていた→映える：02393_haeru⟧。",
       "english": "The whiteness of the remaining snow stood out against the blue sky.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21062_zansetsu_ex3",
-      "japanese": "{五月|ごがつ}になっても{北|きた}アルプスの{山頂|さんちょう}{付近|ふきん}には{残雪|ざんせつ}が{見|み}られる。",
+      "japanese": "⟦{五月|ごがつ}→五月：00625_gogatsu⟧になって⟦も→も：00484_mo⟧⟦{北|きた}→北：00644_kita⟧アルプス⟦の→の：09472_no⟧⟦{山頂|さんちょう}→山頂：09942_sanchou⟧⟦{付近|ふきん}→付近：00044_fukin⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{残雪|ざんせつ}⟦が→が：00051_ga⟧⟦{見|み}られる→見る：00283_miru⟧。",
       "english": "Even in May, lingering snow can be seen near the summit of the Northern Alps.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A literary and evocative word for snow that persists after the main winter season, especially on mountaintops or in shaded valleys. Often appears in nature writing, weather reports about mountain conditions, and poetry.\n\nCOMMON COLLOCATIONS:\n- {残雪|ざんせつ}が{残|のこ}る: lingering snow remains\n- {残雪|ざんせつ}が{輝|かがや}く: remaining snow glistens\n- {残雪|ざんせつ}の{山|やま}: mountain with remaining snow\n- {残雪|ざんせつ}{期|き}: remaining-snow season\n\nUSAGE:\nOften used in mountaineering and hiking contexts. {残雪|ざんせつ}{期|き} refers to the period in spring when patches of snow remain on trails and can make hiking conditions treacherous.\n\nSIMILAR WORDS:\n- {積雪|せきせつ}: accumulated snow — snow on the ground during winter, not specifically leftover snow\n- {万年雪|まんねんゆき}: permanent snow field — snow that never melts\n- {雪解|ゆきど}け: snowmelt — the process of snow melting, not the snow itself",
+  "notes": "A literary and evocative word for snow that persists after the main winter season, especially on mountaintops or in shaded valleys. Often appears in nature writing, weather reports about mountain conditions, and poetry.\n\nCOMMON COLLOCATIONS:\n- {残雪|ざんせつ}⟦が→が：00051_ga⟧⟦{残|のこ}る→残る：01187_nokoru⟧: lingering snow remains\n- {残雪|ざんせつ}⟦が→が：00051_ga⟧⟦{輝|かがや}く→輝く：02032_kagayaku⟧: remaining snow glistens\n- {残雪|ざんせつ}⟦の→の：09472_no⟧⟦{山|やま}→山：02168_yama⟧: mountain with remaining snow\n- {残雪|ざんせつ}{期|き}: remaining-snow season\n\nUSAGE:\nOften used in mountaineering and hiking contexts. {残雪|ざんせつ}{期|き} refers to the period in spring when patches of snow remain on trails and can make hiking conditions treacherous.\n\nSIMILAR WORDS:\n- ⟦{積雪|せきせつ}→積雪：14737_sekisetsu⟧: accumulated snow — snow on the ground during winter, not specifically leftover snow\n- {万年雪|まんねんゆき}: permanent snow field — snow that never melts\n- ⟦{雪解|ゆきど}け→雪解け：08558_yukidoke⟧: snowmelt — the process of snow melting, not the snow itself",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14737_sekisetsu",
+      "reading": "せきせつ",
+      "headword": "{積雪|せきせつ}",
+      "label": "accumulated snow"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08558_yukidoke",
+      "reading": "ゆきどけ",
+      "headword": "{雪解|ゆきど}け",
+      "label": "snowmelt"
+    },
+    {
+      "type": "related",
+      "target_id": "20359_neyuki",
+      "reading": "ねゆき",
+      "headword": "{根雪|ねゆき}",
+      "label": "lingering snow"
+    },
+    {
+      "type": "antonym",
+      "target_id": "22448_shinsetsu",
+      "reading": "しんせつ",
+      "headword": "{新雪|しんせつ}",
+      "label": "fresh snow"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["nature", "weather"]
+      "semantic": [
+        "nature",
+        "weather"
+      ]
     },
     "created": "2026-03-31T16:21:53Z",
-    "modified": "2026-03-31T16:21:53Z"
+    "modified": "2026-09-02T04:02:02Z"
   }
 }

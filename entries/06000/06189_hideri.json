@@ -69,10 +69,33 @@
       ]
     }
   ],
-  "notes": "USAGE: {日照|ひで}り primarily refers to drought conditions that harm agriculture, but the associated proverb shows an older, more positive view of sunny weather.\n\nCOMMON PATTERNS:\n・{日照|ひで}り⟦が→が：00051_ga⟧⟦{続|つづ}く→続く：00903_tsuzuku⟧ (drought continues)\n・{日照|ひで}り⟦で→で：00502_de⟧～ (due to drought)\n・{日照|ひで}り⟦{被害|ひがい}→被害：02572_higai⟧ (drought damage)\n\nPROVERB:\n・{日照|ひで}り⟦に→に：00314_ni⟧⟦{不作|ふさく}→不作：18799_fusaku⟧⟦なし→ない：01118_nai⟧ - \"Drought never causes crop failure\" - An old farming proverb meaning that while drought is challenging, it's more manageable than flooding. Sunny weather ultimately benefits crops more than rainy weather.\n\nRELATED:\n・⟦{干|かん}ばつ→干ばつ：05122_kanbatsu⟧/⟦{旱魃|かんばつ}→干ばつ：05122_kanbatsu⟧ - drought (more severe)\n・⟦{水不足|みずぶそく}→水不足：15397_mizubusoku⟧ - water shortage\n・⟦{渇水|かっすい}→渇水：08325_kassui⟧ - water shortage, low water level",
+  "notes": "USAGE: {日照|ひで}り primarily refers to drought conditions that harm agriculture, but the associated proverb shows an older, more positive view of sunny weather.\n\nCOMMON PATTERNS:\n- {日照|ひで}り⟦が→が：00051_ga⟧⟦{続|つづ}く→続く：00903_tsuzuku⟧ (drought continues)\n- {日照|ひで}り⟦で→で：00502_de⟧～ (due to drought)\n- {日照|ひで}り⟦{被害|ひがい}→被害：02572_higai⟧ (drought damage)\n\nPROVERB:\n- {日照|ひで}り⟦に→に：00314_ni⟧⟦{不作|ふさく}→不作：18799_fusaku⟧⟦なし→ない：01118_nai⟧ - \"Drought never causes crop failure\" - An old farming proverb meaning that while drought is challenging, it's more manageable than flooding. Sunny weather ultimately benefits crops more than rainy weather.\n\nRELATED WORDS:\n- ⟦{干|かん}ばつ→干ばつ：05122_kanbatsu⟧/⟦{旱魃|かんばつ}→干ばつ：05122_kanbatsu⟧ - drought (more severe)\n- ⟦{水不足|みずぶそく}→水不足：15397_mizubusoku⟧ - water shortage\n- ⟦{渇水|かっすい}→渇水：08325_kassui⟧ - water shortage, low water level",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "05122_kanbatsu",
+      "reading": "かんばつ",
+      "headword": "{干|かん}ばつ",
+      "label": "drought"
+    },
+    {
+      "type": "related",
+      "target_id": "15397_mizubusoku",
+      "reading": "みずぶそく",
+      "headword": "{水不足|みずぶそく}",
+      "label": "water shortage"
+    },
+    {
+      "type": "related",
+      "target_id": "08325_kassui",
+      "reading": "かっすい",
+      "headword": "{渇水|かっすい}",
+      "label": "water shortage, low water level"
+    }
+  ],
   "metadata": {
     "created": "2026-01-17T04:49:53Z",
-    "modified": "2026-06-19T09:21:49Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

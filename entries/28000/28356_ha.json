@@ -3,7 +3,7 @@
   "headword": "{派|は}",
   "reading": "は",
   "romaji": "ha",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suffix",
   "gloss": "faction; school; group",
   "definitions": [
     {
@@ -15,41 +15,62 @@
   "examples": [
     {
       "id": "28356_ha_ex1",
-      "japanese": "{反対|はんたい}{派|は}が{多数|たすう}を{占|し}める。",
+      "japanese": "⟦{反対|はんたい}{派|は}→反対派：30532_hantaiha⟧⟦が→が：00051_ga⟧⟦{多数|たすう}→多数：05612_tasuu⟧⟦を→を：00422_wo⟧⟦{占|し}める→占める：11799_shimeru⟧。",
       "english": "The opposition faction holds the majority.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28356_ha_ex2",
-      "japanese": "{彼|かれ}は{猫|ねこ}{派|は}より{犬|いぬ}{派|は}だ。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{猫|ねこ}→猫：02237_neko⟧{派|は}⟦より→より：09476_yori⟧⟦{犬|いぬ}→犬：00632_inu⟧{派|は}だ。",
       "english": "He is more of a dog person than a cat person.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28356_ha_ex3",
-      "japanese": "{党内|とうない}の{派|は}を{超|こ}えて{改革|かいかく}{案|あん}を{支持|しじ}する{動|うご}きが{広|ひろ}がった。",
+      "japanese": "{党内|とうない}⟦の→の：09472_no⟧{派|は}⟦を→を：00422_wo⟧⟦{超|こ}えて→超える：01942_koeru⟧⟦{改革|かいかく}→改革：04815_kaikaku⟧⟦{案|あん}→案：01776_an⟧⟦を→を：00422_wo⟧⟦{支持|しじ}→支持：12933_shiji⟧⟦する→する：00392_suru⟧⟦{動|うご}き→動き：11926_ugoki⟧⟦が→が：00051_ga⟧⟦{広|ひろ}がった→広がる：01980_hirogaru⟧。",
       "english": "Support for the reform proposal spread beyond factional lines within the party.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Attaches as a suffix to nouns, adjectival stems, or proper names to label someone's stance, preference, or group membership. As a standalone noun it usually refers to a political or organizational faction.\n\nCOMMON COMPOUNDS:\n- {反対|はんたい}{派|は}: opposition faction\n- {推進|すいしん}{派|は}: proponents; pro-X camp\n- {保守|ほしゅ}{派|は}: conservatives\n- {犬|いぬ}{派|は} / {猫|ねこ}{派|は}: dog person / cat person\n- {少数|しょうすう}{派|は}: minority\n- {多数|たすう}{派|は}: majority\n\nSIMILAR WORDS:\n- {党|とう}: political party — a formal organization, larger than a {派|は}\n- グループ: group — neutral; lacks the sense of shared stance",
+  "notes": "Attaches as a suffix to nouns, adjectival stems, or proper names to label someone's stance, preference, or group membership. As a standalone noun it usually refers to a political or organizational faction.\n\nCOMPOUNDS:\n- ⟦{反対|はんたい}{派|は}→反対派：30532_hantaiha⟧: opposition faction\n- ⟦{推進|すいしん}{派|は}→推進派：30541_suishinha⟧: proponents; pro-X camp\n- ⟦{保守|ほしゅ}→保守：19090_hoshu⟧{派|は}: conservatives\n- ⟦{犬|いぬ}→犬：00632_inu⟧{派|は} / ⟦{猫|ねこ}→猫：02237_neko⟧{派|は}: dog person / cat person\n- ⟦{少数|しょうすう}{派|は}→少数派：12492_shousuuha⟧: minority\n- ⟦{多数|たすう}{派|は}→多数派：12203_tasuuha⟧: majority\n\nSIMILAR WORDS:\n- {党|とう}: political party — a formal organization, larger than a {派|は}\n- ⟦グループ→グループ：03840_guruupu⟧: group — neutral; lacks the sense of shared stance",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03840_guruupu",
+      "reading": "ぐるーぷ",
+      "headword": "グループ",
+      "label": "group"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "suffix"],
+      "pos": [
+        "noun",
+        "suffix"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["politics", "society"],
+      "politeness": "plain",
+      "semantic": [
+        "politics",
+        "society"
+      ],
       "domain": []
     },
     "created": "2026-05-29T04:09:30Z",
-    "modified": "2026-05-29T04:09:30Z"
+    "modified": "2026-09-02T04:02:33Z"
   }
 }

@@ -153,7 +153,7 @@
       ]
     }
   ],
-  "notes": "{気|き}にする means to actively mind or care about something.\n\nCOMMON PATTERNS:\n- {気|き}にしないで (don't worry about it)\n- {気|き}にしない (not to care)\n- 〜⟦を→を：00422_wo⟧{気|き}にする (to care about ~)\n- ⟦{人|ひと}→人：00476_hito⟧⟦の→の：09472_no⟧⟦{目|め}→目：00525_me⟧⟦を→を：00422_wo⟧{気|き}にする (care about others' opinions)\n\nCONTRAST WITH ⟦{気|き}になる→気になる：03027_kininaru⟧:\n- {気|き}にする: actively choosing to worry/care (volitional)\n- {気|き}になる: something weighing on mind (non-volitional)\n\nCOMMON PHRASE:\n{気|き}にしないで is a common way to say \"don't worry\" or \"never mind\".",
+  "notes": "{気|き}にする means to actively mind or care about something.\n\nCOMMON PATTERNS:\n- {気|き}にしないで (don't worry about it)\n- {気|き}にしない (not to care)\n- 〜⟦を→を：00422_wo⟧{気|き}にする (to care about ~)\n- ⟦{人|ひと}→人：00476_hito⟧⟦の→の：09472_no⟧⟦{目|め}→目：00525_me⟧⟦を→を：00422_wo⟧{気|き}にする (care about others' opinions)\n\nCONTRAST WITH ⟦{気|き}になる→気になる：03027_kininaru⟧:\n- {気|き}にする: actively choosing to worry/care (volitional)\n- ⟦{気|き}になる→気になる：03027_kininaru⟧: something weighing on mind (non-volitional)\n\nCOMMON PHRASE:\n{気|き}にしないで is a common way to say \"don't worry\" or \"never mind\".",
   "cross_references": [
     {
       "type": "contrast",
@@ -161,11 +161,25 @@
       "reading": "きになる",
       "headword": "{気|き}になる",
       "label": "to be on one's mind (non-volitional)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19881_anjiru",
+      "reading": "あんじる",
+      "headword": "{案|あん}じる",
+      "label": "to worry about"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21794_kigatsuku",
+      "reading": "きがつく",
+      "headword": "{気|き}がつく",
+      "label": "to notice"
     }
   ],
   "metadata": {
     "created": "2026-01-11T10:41:41Z",
-    "modified": "2026-05-23T15:11:59Z",
+    "modified": "2026-09-02T04:01:02Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
@@ -177,7 +191,8 @@
       "semantic": [
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   },
   "prominent_see_also": [

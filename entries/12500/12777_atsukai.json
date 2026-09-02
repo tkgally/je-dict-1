@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "12777_atsukai_ex1",
-      "japanese": "この{機械|きかい}は{扱|あつか}いが{難|むずか}しい。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{機械|きかい}→機械：02366_kikai⟧⟦は→は：00079_ha⟧{扱|あつか}い⟦が→が：00051_ga⟧⟦{難|むずか}しい→難しい：00517_muzukashii⟧。",
       "english": "This machine is difficult to handle.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12777_atsukai_ex2",
-      "japanese": "{子供|こども}{扱|あつか}いされるのは{嫌|いや}だ。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧{扱|あつか}い⟦される→する：00392_suru⟧⟦の→の：09472_no⟧⟦は→は：00079_ha⟧⟦{嫌|いや}→嫌：10232_iya⟧だ。",
       "english": "I hate being treated like a child.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12777_atsukai_ex3",
-      "japanese": "{個人情報|こじんじょうほう}の{扱|あつか}いには{十分|じゅうぶん}{注意|ちゅうい}してください。",
+      "japanese": "⟦{個人情報|こじんじょうほう}→個人情報：18842_kojinjouhou⟧⟦の→の：09472_no⟧{扱|あつか}い⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{十分|じゅうぶん}→十分：01614_juubun⟧⟦{注意|ちゅうい}→注意：01464_chuui⟧⟦して→する：00392_suru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please be very careful in handling personal information.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{扱|あつか}い is the noun form of {扱|あつか}う (to handle, to deal with). It is extremely versatile and appears in many compound expressions.\n\nPATTERN:\n- 〜{扱|あつか}い: treated as ~ (used as a suffix)\n- {扱|あつか}いが{難|むずか}しい / {扱|あつか}いにくい: hard to handle\n- {扱|あつか}いに{困|こま}る: to have trouble dealing with\n\nCOMMON COLLOCATIONS:\n- {特別|とくべつ}{扱|あつか}い: special treatment\n- {子供|こども}{扱|あつか}い: treating someone like a child\n- {人間|にんげん}{扱|あつか}いされない: not treated as a human being\n- {取|と}り{扱|あつか}い: handling, management (compound noun)\n- {取|と}り{扱|あつか}い{注意|ちゅうい}: handle with care\n- {扱|あつか}い{方|かた}: how to handle, way of dealing with",
+  "notes": "{扱|あつか}い is the noun form of ⟦{扱|あつか}う→扱う：01862_atsukau⟧ (to handle, to deal with). It is extremely versatile and appears in many compound expressions.\n\nCOMMON PATTERNS:\n- 〜{扱|あつか}い: treated as ~ (used as a suffix)\n- {扱|あつか}い⟦が→が：00051_ga⟧⟦{難|むずか}しい→難しい：00517_muzukashii⟧ / {扱|あつか}いにくい: hard to handle\n- {扱|あつか}い⟦に→に：00314_ni⟧⟦{困|こま}る→困る：00861_komaru⟧: to have trouble dealing with\n\nCOMMON COLLOCATIONS:\n- ⟦{特別|とくべつ}→特別：01120_tokubetsu⟧{扱|あつか}い: special treatment\n- ⟦{子供|こども}→子供：00554_kodomo⟧{扱|あつか}い: treating someone like a child\n- ⟦{人間|にんげん}→人間：03523_ningen⟧{扱|あつか}い⟦されない→する：00392_suru⟧: not treated as a human being\n- {取|と}り{扱|あつか}い: handling, management (compound noun)\n- {取|と}り{扱|あつか}い⟦{注意|ちゅうい}→注意：01464_chuui⟧: handle with care\n- {扱|あつか}い⟦{方|かた}→方：10665_kata⟧: how to handle, way of dealing with",
   "prominent_see_also": [
     {
       "target_id": "01862_atsukau",
@@ -47,17 +53,29 @@
       "note": "verb form"
     }
   ],
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21125_shoguu",
+      "reading": "しょぐう",
+      "headword": "{処遇|しょぐう}",
+      "label": "treatment"
+    }
+  ],
   "metadata": {
     "created": "2026-02-22T10:27:44Z",
-    "modified": "2026-04-27T08:29:13Z",
+    "modified": "2026-09-02T04:01:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action"]
+      "semantic": [
+        "action"
+      ]
     }
   }
 }

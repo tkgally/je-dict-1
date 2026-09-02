@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22226_toritatete_ex1",
-      "japanese": "とりたてて{問題|もんだい}はない。",
+      "japanese": "とりたてて⟦{問題|もんだい}→問題：00797_mondai⟧⟦は→は：00079_ha⟧⟦ない→ない：01118_nai⟧。",
       "english": "There's nothing particularly wrong.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22226_toritatete_ex2",
-      "japanese": "とりたてて{変|か}わったことはなかった。",
+      "japanese": "とりたてて⟦{変|か}わった→変わる：00714_kawaru⟧こと⟦は→は：00079_ha⟧⟦なかった→ない：01118_nai⟧。",
       "english": "There was nothing especially unusual.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22226_toritatete_ex3",
-      "japanese": "{趣味|しゅみ}はとりたてて{言|い}うほどのものはない。",
+      "japanese": "⟦{趣味|しゅみ}→趣味：00889_shumi⟧⟦は→は：00079_ha⟧とりたてて⟦{言|い}う→言う：00515_iu⟧ほど⟦の→の：09472_no⟧もの⟦は→は：00079_ha⟧⟦ない→ない：01118_nai⟧。",
       "english": "I don't have any hobbies worth mentioning in particular.",
       "sense_numbers": [
         1
@@ -45,7 +45,7 @@
     },
     {
       "id": "22226_toritatete_ex4",
-      "japanese": "とりたてて{理由|りゆう}があるわけではないが、なんとなく{気|き}になる。",
+      "japanese": "とりたてて⟦{理由|りゆう}→理由：01102_riyuu⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧わけ⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦ない→ない：01118_nai⟧⟦が→が：00051_ga⟧、なんとなく⟦{気|き}になる→気になる：03027_kininaru⟧。",
       "english": "It's not that there's any particular reason, but somehow it bothers me.",
       "sense_numbers": [
         1
@@ -54,8 +54,31 @@
       "notes": null
     }
   ],
-  "notes": "Almost always used with a negative predicate. The literal origin is from {取|と}り{立|た}てる (to single out, to highlight), so とりたてて means 'singling out' — in negative form, 'nothing to single out' or 'nothing noteworthy.'\n\nCOMMON COLLOCATIONS:\n- とりたてて{問題|もんだい}はない: no particular problem\n- とりたてて{変|か}わったことはない: nothing unusual in particular\n- とりたてて{言|い}うほどのことではない: nothing worth mentioning\n- とりたてて{特徴|とくちょう}がない: no distinguishing features\n\nUSAGE:\nVery rarely used in affirmative sentences. When used in questions, it asks 'is there anything noteworthy?' — e.g., とりたてて{何|なに}かありますか.\n\nSIMILAR WORDS:\n- {特|とく}に: especially; particularly — more common and versatile, used in both positive and negative sentences\n- {別|べつ}に: not particularly — similar negative-polarity usage, but more casual and sometimes dismissive\n- {格別|かくべつ}: exceptionally — literary, used for something standing out positively",
+  "notes": "Almost always used with a negative predicate. The literal origin is from ⟦{取|と}り{立|た}てる→取り立てる：20289_toritateru⟧ (to single out, to highlight), so とりたてて means 'singling out' — in negative form, 'nothing to single out' or 'nothing noteworthy.'\n\nCOMMON COLLOCATIONS:\n- とりたてて⟦{問題|もんだい}→問題：00797_mondai⟧⟦は→は：00079_ha⟧⟦ない→ない：01118_nai⟧: no particular problem\n- とりたてて⟦{変|か}わった→変わる：00714_kawaru⟧こと⟦は→は：00079_ha⟧⟦ない→ない：01118_nai⟧: nothing unusual in particular\n- とりたてて⟦{言|い}う→言う：00515_iu⟧ほど⟦の→の：09472_no⟧こと⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦ない→ない：01118_nai⟧: nothing worth mentioning\n- とりたてて⟦{特徴|とくちょう}→特徴：03456_tokuchou⟧⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧: no distinguishing features\n\nUSAGE:\nVery rarely used in affirmative sentences. When used in questions, it asks 'is there anything noteworthy?' — e.g., とりたてて⟦{何|なに}か→何か：03873_nanika⟧⟦あります→ある：00006_aru⟧⟦か→か：09473_ka⟧.\n\nSIMILAR WORDS:\n- ⟦{特|とく}に→特に：01260_tokuni⟧: especially; particularly — more common and versatile, used in both positive and negative sentences\n- ⟦{別|べつ}→別：01216_betsu⟧⟦に→に：00314_ni⟧: not particularly — similar negative-polarity usage, but more casual and sometimes dismissive\n- ⟦{格別|かくべつ}→格別：00154_kakubetsu⟧: exceptionally — literary, used for something standing out positively",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01260_tokuni",
+      "reading": "とくに",
+      "headword": "{特|とく}に",
+      "label": "especially"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01132_betsuni",
+      "reading": "べつに",
+      "headword": "{別|べつ}に",
+      "label": "not particularly"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00154_kakubetsu",
+      "reading": "かくべつ",
+      "headword": "{格別|かくべつ}",
+      "label": "exceptionally"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -69,6 +92,6 @@
       ]
     },
     "created": "2026-04-05T15:13:24Z",
-    "modified": "2026-04-10T08:28:27Z"
+    "modified": "2026-09-02T04:02:07Z"
   }
 }

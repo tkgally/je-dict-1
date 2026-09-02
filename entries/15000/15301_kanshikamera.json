@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "15301_kanshikamera_ex1",
-      "japanese": "{監視|かんし}カメラに{映|うつ}っていた。",
+      "japanese": "{監視|かんし}カメラ⟦に→に：00314_ni⟧⟦{映|うつ}っていた→映る：12964_utsuru⟧。",
       "english": "It was caught on the surveillance camera.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "15301_kanshikamera_ex2",
-      "japanese": "{駅|えき}には{監視|かんし}カメラが{設置|せっち}されている。",
+      "japanese": "⟦{駅|えき}→駅：02180_eki⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{監視|かんし}カメラ⟦が→が：00051_ga⟧⟦{設置|せっち}→設置：09750_secchi⟧⟦されている→する：00392_suru⟧。",
       "english": "Surveillance cameras are installed at the station.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "15301_kanshikamera_ex3",
-      "japanese": "{犯人|はんにん}は{監視|かんし}カメラの{映像|えいぞう}をもとに{特定|とくてい}され、{逮捕|たいほ}された。",
+      "japanese": "⟦{犯人|はんにん}→犯人：03572_hannin⟧⟦は→は：00079_ha⟧{監視|かんし}カメラ⟦の→の：09472_no⟧⟦{映像|えいぞう}→映像：04444_eizou⟧⟦を→を：00422_wo⟧もと⟦に→に：00314_ni⟧⟦{特定|とくてい}→特定：04275_tokutei⟧⟦され→する：00392_suru⟧、⟦{逮捕|たいほ}→逮捕：03397_taiho⟧⟦された→する：00392_suru⟧。",
       "english": "The criminal was identified and arrested based on surveillance camera footage.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,19 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{監視|かんし}カメラ is the standard term for security cameras. In Japan, they are ubiquitous in train stations, convenience stores, and public spaces. The term {防犯|ぼうはん}カメラ (crime prevention camera) is sometimes used as a softer alternative that emphasizes the protective purpose.\n\nCOMMON COLLOCATIONS:\n- {監視|かんし}カメラを{設置|せっち}する (to install a surveillance camera)\n- {監視|かんし}カメラの{映像|えいぞう} (surveillance camera footage)\n- {監視|かんし}カメラに{映|うつ}る (to appear on a surveillance camera)",
-  "cross_references": [],
+  "notes": "USAGE:\n{監視|かんし}カメラ is the standard term for security cameras. In Japan, they are ubiquitous in train stations, convenience stores, and public spaces. The term ⟦{防犯|ぼうはん}カメラ→防犯カメラ：07137_bouhankamera⟧ (crime prevention camera) is sometimes used as a softer alternative that emphasizes the protective purpose.\n\nCOMMON COLLOCATIONS:\n- {監視|かんし}カメラ⟦を→を：00422_wo⟧⟦{設置|せっち}する→設置する：26989_secchisuru⟧ (to install a surveillance camera)\n- {監視|かんし}カメラ⟦の→の：09472_no⟧⟦{映像|えいぞう}→映像：04444_eizou⟧ (surveillance camera footage)\n- {監視|かんし}カメラ⟦に→に：00314_ni⟧⟦{映|うつ}る→映る：12964_utsuru⟧ (to appear on a surveillance camera)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07137_bouhankamera",
+      "reading": "ぼうはんかめら",
+      "headword": "{防犯|ぼうはん}カメラ",
+      "label": "security camera"
+    }
+  ],
   "metadata": {
     "created": "2026-03-06T08:54:38Z",
-    "modified": "2026-07-16T07:06:35Z",
+    "modified": "2026-09-02T04:01:40Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

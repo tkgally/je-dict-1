@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22862_shukuden_ex1",
-      "japanese": "{祝電|しゅくでん}を{送|おく}る。",
+      "japanese": "{祝電|しゅくでん}⟦を→を：00422_wo⟧⟦{送|おく}る→送る：00742_okuru⟧。",
       "english": "To send a congratulatory telegram.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22862_shukuden_ex2",
-      "japanese": "{結婚式|けっこんしき}に{祝電|しゅくでん}が{届|とど}いた。",
+      "japanese": "⟦{結婚式|けっこんしき}→結婚式：05493_kekkonshiki⟧⟦に→に：00314_ni⟧{祝電|しゅくでん}⟦が→が：00051_ga⟧⟦{届|とど}いた→届く：00899_todoku⟧。",
       "english": "A congratulatory telegram arrived for the wedding.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22862_shukuden_ex3",
-      "japanese": "{出席|しゅっせき}できない{代|か}わりに、{祝電|しゅくでん}を{打|う}つことにした。",
+      "japanese": "⟦{出席|しゅっせき}できない→出席する：01830_shussekisuru⟧⟦{代|か}わり→代わり：01296_kawari⟧⟦に→に：00314_ni⟧、{祝電|しゅくでん}⟦を→を：00422_wo⟧⟦{打|う}つ→打つ：01221_utsu⟧ことにした。",
       "english": "Instead of attending, I decided to send a congratulatory telegram.",
       "sense_numbers": [
         1
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {祝|しゅく} (celebration) + {電|でん} (telegram). Although telegrams have largely disappeared from daily life, {祝電|しゅくでん} remain a living tradition in Japan, especially at weddings and school ceremonies.\n\nCOMMON COLLOCATIONS:\n- {祝電|しゅくでん}を{送|おく}る: to send a congratulatory telegram\n- {祝電|しゅくでん}を{打|う}つ: to send a telegram (lit. \"strike\")\n- {祝電|しゅくでん}が{届|とど}く: a congratulatory telegram arrives\n- {祝電|しゅくでん}を{読|よ}み{上|あ}げる: to read aloud a congratulatory telegram\n\nSIMILAR WORDS:\n- {弔電|ちょうでん}: condolence telegram — sent for funerals, the opposite occasion\n- {電報|でんぽう}: telegram — the general word for any telegram\n- {祝辞|しゅくじ}: congratulatory speech — spoken rather than written",
+  "notes": "Composed of {祝|しゅく} (celebration) + {電|でん} (telegram). Although telegrams have largely disappeared from daily life, {祝電|しゅくでん} remain a living tradition in Japan, especially at weddings and school ceremonies.\n\nCOMMON COLLOCATIONS:\n- {祝電|しゅくでん}⟦を→を：00422_wo⟧⟦{送|おく}る→送る：00742_okuru⟧: to send a congratulatory telegram\n- {祝電|しゅくでん}⟦を→を：00422_wo⟧⟦{打|う}つ→打つ：01221_utsu⟧: to send a telegram (lit. \"strike\")\n- {祝電|しゅくでん}⟦が→が：00051_ga⟧⟦{届|とど}く→届く：00899_todoku⟧: a congratulatory telegram arrives\n- {祝電|しゅくでん}⟦を→を：00422_wo⟧⟦{読|よ}み{上|あ}げる→読み上げる：04604_yomiageru⟧: to read aloud a congratulatory telegram\n\nSIMILAR WORDS:\n- ⟦{弔電|ちょうでん}→弔電：22863_chouden⟧: condolence telegram — sent for funerals, the opposite occasion\n- ⟦{電報|でんぽう}→電報：01474_denpou⟧: telegram — the general word for any telegram\n- ⟦{祝辞|しゅくじ}→祝辞：14759_shukuji⟧: congratulatory speech — spoken rather than written",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22863_chouden",
+      "reading": "ちょうでん",
+      "headword": "{弔電|ちょうでん}",
+      "label": "condolence telegram"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01474_denpou",
+      "reading": "でんぽう",
+      "headword": "{電報|でんぽう}",
+      "label": "telegram"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14759_shukuji",
+      "reading": "しゅくじ",
+      "headword": "{祝辞|しゅくじ}",
+      "label": "congratulatory speech"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22884_daden",
+      "reading": "だでん",
+      "headword": "{打電|だでん}",
+      "label": "sending a telegram"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +90,6 @@
       ]
     },
     "created": "2026-04-07T19:16:05Z",
-    "modified": "2026-04-10T08:28:27Z"
+    "modified": "2026-09-02T04:02:10Z"
   }
 }

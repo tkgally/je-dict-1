@@ -15,41 +15,66 @@
   "examples": [
     {
       "id": "21195_meikou_ex1",
-      "japanese": "{息子|むすこ}を{名校|めいこう}に{入|い}れたい。",
+      "japanese": "⟦{息子|むすこ}→息子：00799_musuko⟧⟦を→を：00422_wo⟧{名校|めいこう}⟦に→に：00314_ni⟧⟦{入|い}れたい→入れる：01098_ireru⟧。",
       "english": "I want to get my son into a prestigious school.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "21195_meikou_ex2",
-      "japanese": "あの{高校|こうこう}は{野球|やきゅう}の{名校|めいこう}として{知|し}られている。",
+      "japanese": "⟦あの→あの：00915_ano⟧⟦{高校|こうこう}→高校：01083_koukou⟧⟦は→は：00079_ha⟧⟦{野球|やきゅう}→野球：04727_yakyuu⟧⟦の→の：09472_no⟧{名校|めいこう}⟦として→として：06802_toshite⟧⟦{知|し}られている→知る：00458_shiru⟧。",
       "english": "That high school is known as a famous baseball school.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "21195_meikou_ex3",
-      "japanese": "{全国|ぜんこく}から{名校|めいこう}のチームが{集|あつ}まる{大会|たいかい}は{毎年|まいとし}{盛|も}り{上|あ}がる。",
+      "japanese": "⟦{全国|ぜんこく}→全国：03311_zenkoku⟧⟦から→から：00504_kara⟧{名校|めいこう}⟦の→の：09472_no⟧⟦チーム→チーム：03858_chiimu⟧⟦が→が：00051_ga⟧⟦{集|あつ}まる→集まる：01162_atsumaru⟧⟦{大会|たいかい}→大会：03386_taikai⟧⟦は→は：00079_ha⟧⟦{毎年|まいとし}→毎年：00731_maitoshi⟧⟦{盛|も}り{上|あ}がる→盛り上がる：06344_moriagaru⟧。",
       "english": "The tournament where teams from famous schools across the country gather is exciting every year.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{名|めい} means 'famous' or 'noted,' and {校|こう} means 'school.' {名校|めいこう} is used to describe schools with strong reputations, whether for academics, sports, or tradition. It is especially common in discussions of high school sports (particularly baseball) and university entrance exams.\n\nCOMMON COLLOCATIONS:\n- {名校|めいこう}に{入|はい}る (to enter a prestigious school)\n- {野球|やきゅう}の{名校|めいこう} (famous baseball school)\n- {名校|めいこう}の{卒業生|そつぎょうせい} (graduate of a prestigious school)\n- {伝統|でんとう}ある{名校|めいこう} (a prestigious school with tradition)\n\nSIMILAR WORDS:\n- {名門|めいもん} — prestigious institution, distinguished family (broader; can refer to schools, companies, or families)\n- {進学校|しんがくこう} — college-preparatory school (specifically a school focused on getting students into universities)\n- {有名校|ゆうめいこう} — famous school (similar meaning; slightly less literary)",
-  "cross_references": [],
+  "notes": "{名|めい} means 'famous' or 'noted,' and {校|こう} means 'school.' {名校|めいこう} is used to describe schools with strong reputations, whether for academics, sports, or tradition. It is especially common in discussions of high school sports (particularly baseball) and university entrance exams.\n\nCOMMON COLLOCATIONS:\n- {名校|めいこう}⟦に→に：00314_ni⟧⟦{入|はい}る→入る：00494_hairu⟧ (to enter a prestigious school)\n- ⟦{野球|やきゅう}→野球：04727_yakyuu⟧⟦の→の：09472_no⟧{名校|めいこう} (famous baseball school)\n- {名校|めいこう}⟦の→の：09472_no⟧⟦{卒業生|そつぎょうせい}→卒業生：15284_sotsugyousei⟧ (graduate of a prestigious school)\n- ⟦{伝統|でんとう}→伝統：09585_dentou⟧⟦ある→ある：00006_aru⟧{名校|めいこう} (a prestigious school with tradition)\n\nSIMILAR WORDS:\n- ⟦{名門|めいもん}→名門：11955_meimon⟧ — prestigious institution, distinguished family (broader; can refer to schools, companies, or families)\n- ⟦{進学校|しんがくこう}→進学校：17212_shingakukou⟧ — college-preparatory school (specifically a school focused on getting students into universities)\n- {有名校|ゆうめいこう} — famous school (similar meaning; slightly less literary)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11955_meimon",
+      "reading": "めいもん",
+      "headword": "{名門|めいもん}",
+      "label": "prestigious institution, distinguished…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17212_shingakukou",
+      "reading": "しんがくこう",
+      "headword": "{進学校|しんがくこう}",
+      "label": "college-preparatory school"
+    }
+  ],
   "metadata": {
     "created": "2026-03-31T22:22:28Z",
-    "modified": "2026-03-31T22:22:28Z",
+    "modified": "2026-09-02T04:02:02Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["society"]
+      "semantic": [
+        "society"
+      ]
     }
   }
 }

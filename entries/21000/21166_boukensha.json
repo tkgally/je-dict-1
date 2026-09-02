@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21166_boukensha_ex1",
-      "japanese": "{冒険者|ぼうけんしゃ}たちが{旅|たび}に{出|で}た。",
+      "japanese": "{冒険者|ぼうけんしゃ}たち⟦が→が：00051_ga⟧⟦{旅|たび}→旅：03407_tabi⟧⟦に→に：00314_ni⟧⟦{出|で}た→出る：00513_deru⟧。",
       "english": "The adventurers set out on their journey.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21166_boukensha_ex2",
-      "japanese": "{彼|かれ}は{若|わか}くして{冒険者|ぼうけんしゃ}として{名|な}を{上|あ}げた。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{若|わか}く→若い：00823_wakai⟧⟦して→する：00392_suru⟧{冒険者|ぼうけんしゃ}⟦として→として：06802_toshite⟧⟦{名|な}→名：03496_na⟧⟦を→を：00422_wo⟧⟦{上|あ}げた→上げる：02443_ageru⟧。",
       "english": "He made a name for himself as an adventurer at a young age.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21166_boukensha_ex3",
-      "japanese": "ゲームの{主人公|しゅじんこう}は{冒険者|ぼうけんしゃ}ギルドに{所属|しょぞく}する{新米|しんまい}の{冒険者|ぼうけんしゃ}だ。",
+      "japanese": "⟦ゲーム→ゲーム：03842_geemu⟧⟦の→の：09472_no⟧⟦{主人公|しゅじんこう}→主人公：11404_shujinkou⟧⟦は→は：00079_ha⟧{冒険者|ぼうけんしゃ}ギルド⟦に→に：00314_ni⟧⟦{所属|しょぞく}→所属：12750_shozoku⟧⟦する→する：00392_suru⟧⟦{新米|しんまい}→新米：06877_shinmai⟧⟦の→の：09472_no⟧{冒険者|ぼうけんしゃ}だ。",
       "english": "The game's protagonist is a rookie adventurer belonging to an adventurer's guild.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {冒険|ぼうけん} (adventure) + {者|しゃ} (person). Used both for real-world adventurers and explorers and, very frequently, for the \"adventurer\" character class in fantasy games, anime, and light novels. The adventurer's guild ({冒険者|ぼうけんしゃ}ギルド) is a staple concept in Japanese fantasy fiction.\n\nCOMMON COLLOCATIONS:\n- {冒険者|ぼうけんしゃ}ギルド: adventurer's guild (fantasy)\n- {新米|しんまい}{冒険者|ぼうけんしゃ}: novice adventurer\n- {冒険者|ぼうけんしゃ}パーティー: adventurer party/group\n\nSIMILAR WORDS:\n- {探検家|たんけんか}: explorer — emphasizes scientific or geographic exploration\n- {挑戦者|ちょうせんしゃ}: challenger — someone who takes on challenges\n- {冒険家|ぼうけんか}: adventurer — more often used for real-world adventurers",
+  "notes": "Composed of ⟦{冒険|ぼうけん}→冒険：03629_bouken⟧ (adventure) + ⟦{者|しゃ}→〜者：04662_sha⟧ (person). Used both for real-world adventurers and explorers and, very frequently, for the \"adventurer\" character class in fantasy games, anime, and light novels. The adventurer's guild ({冒険者|ぼうけんしゃ}ギルド) is a staple concept in Japanese fantasy fiction.\n\nCOMMON COLLOCATIONS:\n- {冒険者|ぼうけんしゃ}ギルド: adventurer's guild (fantasy)\n- ⟦{新米|しんまい}→新米：06877_shinmai⟧{冒険者|ぼうけんしゃ}: novice adventurer\n- {冒険者|ぼうけんしゃ}⟦パーティー→パーティー：02946_paatii⟧: adventurer party/group\n\nSIMILAR WORDS:\n- ⟦{探検家|たんけんか}→探検家：27953_tankenka⟧: explorer — emphasizes scientific or geographic exploration\n- ⟦{挑戦者|ちょうせんしゃ}→挑戦者：25272_chousensha⟧: challenger — someone who takes on challenges\n- ⟦{冒険家|ぼうけんか}→冒険家：20564_boukenka⟧: adventurer — more often used for real-world adventurers",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "27953_tankenka",
+      "reading": "たんけんか",
+      "headword": "{探検家|たんけんか}",
+      "label": "explorer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25272_chousensha",
+      "reading": "ちょうせんしゃ",
+      "headword": "{挑戦者|ちょうせんしゃ}",
+      "label": "challenger"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20564_boukenka",
+      "reading": "ぼうけんか",
+      "headword": "{冒険家|ぼうけんか}",
+      "label": "adventurer"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +82,6 @@
       ]
     },
     "created": "2026-03-31T21:41:23Z",
-    "modified": "2026-07-29T00:22:41Z"
+    "modified": "2026-09-02T04:02:02Z"
   }
 }

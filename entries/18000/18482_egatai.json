@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "18482_egatai_ex1",
-      "japanese": "{得難|えがた}い{経験|けいけん}だった。",
+      "japanese": "{得難|えがた}い⟦{経験|けいけん}→経験：01179_keiken⟧だった。",
       "english": "It was a rare and valuable experience.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "18482_egatai_ex2",
-      "japanese": "{彼女|かのじょ}は{得難|えがた}い{人材|じんざい}だ。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧{得難|えがた}い⟦{人材|じんざい}→人材：11426_jinzai⟧だ。",
       "english": "She is an invaluable talent.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "18482_egatai_ex3",
-      "japanese": "こんなに{親身|しんみ}になってくれる{友人|ゆうじん}は{得難|えがた}い{存在|そんざい}だと{思|おも}う。",
+      "japanese": "⟦こんな→こんな：02881_konna⟧⟦に→に：00314_ni⟧{親身|しんみ}になって⟦くれる→くれる：00724_kureru⟧⟦{友人|ゆうじん}→友人：03649_yuujin⟧⟦は→は：00079_ha⟧{得難|えがた}い⟦{存在|そんざい}→存在：03326_sonzai⟧だ⟦と→と：00512_to⟧⟦{思|おも}う→思う：00492_omou⟧。",
       "english": "I think a friend who cares about you this much is a truly rare treasure.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Formed from {得|え}る (to obtain) + ～{難|がた}い (difficult to). Carries a strong positive connotation — something rare and therefore precious.\n\nTHE ～{難|がた}い PATTERN:\nThe suffix ～{難|がた}い attaches to verb stems to mean \"hard to do\":\n- {忘|わす}れ{難|がた}い: hard to forget (memorable)\n- {許|ゆる}し{難|がた}い: hard to forgive (unforgivable)\n- {耐|た}え{難|がた}い: hard to endure (unbearable)\n\nCOMMON COLLOCATIONS:\n- {得難|えがた}い{経験|けいけん}: a rare and valuable experience\n- {得難|えがた}い{人材|じんざい}: invaluable talent\n- {得難|えがた}い{存在|そんざい}: an irreplaceable presence\n- {得難|えがた}いチャンス: a rare opportunity\n\nSIMILAR WORDS:\n- {珍|めずら}しい: rare, unusual (neutral — doesn't imply value)\n- {貴重|きちょう}: precious, valuable (emphasizes worth)\n\nREGISTER:\nSomewhat literary/formal. More common in writing than casual speech.",
+  "notes": "Formed from ⟦{得|え}る→得る：02014_eru⟧ (to obtain) + ～⟦{難|がた}い→難い：17198_gatai⟧ (difficult to). Carries a strong positive connotation — something rare and therefore precious.\n\nTHE ～{難|がた}い PATTERN:\nThe suffix ～⟦{難|がた}い→難い：17198_gatai⟧ attaches to verb stems to mean \"hard to do\":\n- ⟦{忘|わす}れ→忘れる：00474_wasureru⟧⟦{難|がた}い→難い：17198_gatai⟧: hard to forget (memorable)\n- ⟦{許|ゆる}し{難|がた}い→許し難い：29288_yurushigatai⟧: hard to forgive (unforgivable)\n- ⟦{耐|た}え{難|がた}い→耐え難い：19680_taegatai⟧: hard to endure (unbearable)\n\nCOMMON COLLOCATIONS:\n- {得難|えがた}い⟦{経験|けいけん}→経験：01179_keiken⟧: a rare and valuable experience\n- {得難|えがた}い⟦{人材|じんざい}→人材：11426_jinzai⟧: invaluable talent\n- {得難|えがた}い⟦{存在|そんざい}→存在：03326_sonzai⟧: an irreplaceable presence\n- {得難|えがた}い⟦チャンス→チャンス：03857_chansu⟧: a rare opportunity\n\nSIMILAR WORDS:\n- ⟦{珍|めずら}しい→珍しい：01200_mezurashii⟧: rare, unusual (neutral — doesn't imply value)\n- ⟦{貴重|きちょう}→貴重：00223_kichou⟧: precious, valuable (emphasizes worth)\n\nREGISTER:\nSomewhat literary/formal. More common in writing than casual speech.",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -62,7 +62,7 @@
       ]
     },
     "created": "2026-03-22T03:10:03Z",
-    "modified": "2026-05-08T10:08:08Z"
+    "modified": "2026-09-02T04:01:52Z"
   },
   "conjugation": {
     "type": "i-adjective",
@@ -106,6 +106,13 @@
       "reading": "きちょう",
       "headword": "{貴重|きちょう}",
       "label": "precious, valuable"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01200_mezurashii",
+      "reading": "めずらしい",
+      "headword": "{珍|めずら}しい",
+      "label": "rare, unusual (neutral"
     }
   ]
 }

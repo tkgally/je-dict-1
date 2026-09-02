@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "19052_ippozutsu_ex1",
-      "japanese": "{一歩|いっぽ}ずつ{前|まえ}に{進|すす}む。",
+      "japanese": "{一歩|いっぽ}ずつ⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧⟦{進|すす}む→進む：01225_susumu⟧。",
       "english": "To move forward one step at a time.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "19052_ippozutsu_ex2",
-      "japanese": "{日本語|にほんご}が{一歩|いっぽ}ずつ{上達|じょうたつ}している。",
+      "japanese": "⟦{日本語|にほんご}→日本語：00614_nihongo⟧⟦が→が：00051_ga⟧{一歩|いっぽ}ずつ⟦{上達|じょうたつ}している→上達する：17981_joutatsusuru⟧。",
       "english": "My Japanese is improving step by step.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "19052_ippozutsu_ex3",
-      "japanese": "{焦|あせ}らずに{一歩|いっぽ}ずつ{目標|もくひょう}に{近|ちか}づいていこう。",
+      "japanese": "⟦{焦|あせ}ら→焦る：04619_aseru⟧ず⟦に→に：00314_ni⟧{一歩|いっぽ}ずつ⟦{目標|もくひょう}→目標：03631_mokuhyou⟧⟦に→に：00314_ni⟧⟦{近|ちか}づいて→近づく：01958_chikazuku⟧いこう。",
       "english": "Let's get closer to our goal step by step without rushing.",
       "sense_numbers": [
         1
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {一歩|いっぽ} (one step) + ずつ (each/at a time). Used both literally for physical movement and figuratively for gradual progress toward a goal. Often appears in encouraging or motivational contexts.\n\nCOMMON PATTERNS:\n- {一歩|いっぽ}ずつ{進|すす}む: to advance step by step\n- {一歩|いっぽ}ずつ{成長|せいちょう}する: to grow step by step\n- {一歩|いっぽ}ずつ{近|ちか}づく: to get closer step by step\n\nSIMILAR EXPRESSIONS:\n- {少|すこ}しずつ: little by little (more general, not limited to steps)\n- {着実|ちゃくじつ}に: steadily (emphasizes reliability rather than incremental motion)\n- {徐々|じょじょ}に: gradually (more formal, written register)",
+  "notes": "Compound of ⟦{一歩|いっぽ}→一歩：08890_ippo⟧ (one step) + ⟦ずつ→〜ずつ：03092_zutsu⟧ (each/at a time). Used both literally for physical movement and figuratively for gradual progress toward a goal. Often appears in encouraging or motivational contexts.\n\nCOMMON PATTERNS:\n- {一歩|いっぽ}ずつ⟦{進|すす}む→進む：01225_susumu⟧: to advance step by step\n- {一歩|いっぽ}ずつ⟦{成長|せいちょう}→成長：03290_seichou⟧⟦する→する：00392_suru⟧: to grow step by step\n- {一歩|いっぽ}ずつ⟦{近|ちか}づく→近づく：01958_chikazuku⟧: to get closer step by step\n\nSIMILAR WORDS:\n- ⟦{少|すこ}し→少し：00596_sukoshi⟧⟦ずつ→〜ずつ：03092_zutsu⟧: little by little (more general, not limited to steps)\n- ⟦{着実|ちゃくじつ}→着実：07989_chakujitsu⟧⟦に→に：00314_ni⟧: steadily (emphasizes reliability rather than incremental motion)\n- ⟦{徐々|じょじょ}→徐々：03082_jojo⟧⟦に→に：00314_ni⟧: gradually (more formal, written register)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20047_sukoshizutsu",
+      "reading": "すこしずつ",
+      "headword": "{少|すこ}しずつ",
+      "label": "little by little"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19888_chakujitsuni",
+      "reading": "ちゃくじつに",
+      "headword": "{着実|ちゃくじつ}に",
+      "label": "steadily"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04131_jojoni",
+      "reading": "じょじょに",
+      "headword": "{徐々|じょじょ}に",
+      "label": "gradually"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09670_ippoippo",
+      "reading": "いっぽいっぽ",
+      "headword": "{一歩一歩|いっぽいっぽ}",
+      "label": "step by step"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +89,6 @@
       ]
     },
     "created": "2026-03-24T04:41:39Z",
-    "modified": "2026-06-08T02:21:06Z"
+    "modified": "2026-09-02T04:01:54Z"
   }
 }

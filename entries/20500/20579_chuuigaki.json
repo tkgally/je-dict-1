@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "20579_chuuigaki_ex1",
-      "japanese": "{注意書|ちゅういが}きをよく{読|よ}んでください。",
+      "japanese": "{注意書|ちゅういが}き⟦を→を：00422_wo⟧⟦よく→よく：00601_yoku⟧⟦{読|よ}んで→読む：00426_yomu⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please read the cautionary notes carefully.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "20579_chuuigaki_ex2",
-      "japanese": "{薬|くすり}の{注意書|ちゅういが}きに{副作用|ふくさよう}のことが{書|か}いてあった。",
+      "japanese": "⟦{薬|くすり}→薬：00793_kusuri⟧⟦の→の：09472_no⟧{注意書|ちゅういが}き⟦に→に：00314_ni⟧⟦{副作用|ふくさよう}→副作用：05015_fukusayou⟧⟦の→の：09472_no⟧こと⟦が→が：00051_ga⟧⟦{書|か}いてあった→書く：00477_kaku⟧。",
       "english": "The warning notice on the medicine mentioned side effects.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "20579_chuuigaki_ex3",
-      "japanese": "{製品|せいひん}の{注意書|ちゅういが}きを{無視|むし}して{使|つか}うと、{事故|じこ}につながることがある。",
+      "japanese": "⟦{製品|せいひん}→製品：01445_seihin⟧⟦の→の：09472_no⟧{注意書|ちゅういが}き⟦を→を：00422_wo⟧⟦{無視|むし}して→無視する：17288_mushisuru⟧⟦{使|つか}う→使う：00473_tsukau⟧⟦と→と：00512_to⟧、⟦{事故|じこ}→事故：00851_jiko⟧⟦に→に：00314_ni⟧つながること⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "Ignoring the product warnings when using it can lead to accidents.",
       "sense_numbers": [
         1
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {注意|ちゅうい} (caution/attention) and {書|が}き (writing/notation). Found on product packaging, medicine labels, signs, contracts, and various documents. Common in everyday Japanese life.\n\nCOMMON COLLOCATIONS:\n- {注意書|ちゅういが}きを{読|よ}む: to read the warning notice\n- {注意書|ちゅういが}きに{従|したが}う: to follow the instructions/warnings\n- {注意書|ちゅういが}きを{確認|かくにん}する: to check the cautionary notes\n- {注意書|ちゅういが}きを{添|そ}える: to attach a cautionary note\n\nSIMILAR WORDS:\n- {警告|けいこく}: warning — stronger, more urgent\n- {但|ただ}し{書|が}き: proviso, stipulation — a qualifying clause in a legal or official document\n- {取扱説明書|とりあつかいせつめいしょ}: instruction manual — comprehensive product instructions",
+  "notes": "A compound of ⟦{注意|ちゅうい}→注意：01464_chuui⟧ (caution/attention) and {書|が}き (writing/notation). Found on product packaging, medicine labels, signs, contracts, and various documents. Common in everyday Japanese life.\n\nCOMMON COLLOCATIONS:\n- {注意書|ちゅういが}き⟦を→を：00422_wo⟧⟦{読|よ}む→読む：00426_yomu⟧: to read the warning notice\n- {注意書|ちゅういが}き⟦に→に：00314_ni⟧⟦{従|したが}う→従う：02059_shitagau⟧: to follow the instructions/warnings\n- {注意書|ちゅういが}き⟦を→を：00422_wo⟧⟦{確認|かくにん}する→確認する：25332_kakuninsuru⟧: to check the cautionary notes\n- {注意書|ちゅういが}き⟦を→を：00422_wo⟧⟦{添|そ}える→添える：13315_soeru⟧: to attach a cautionary note\n\nSIMILAR WORDS:\n- ⟦{警告|けいこく}→警告：02696_keikoku⟧: warning — stronger, more urgent\n- ⟦{但|ただ}し{書|が}き→但し書き：15306_tadashigaki⟧: proviso, stipulation — a qualifying clause in a legal or official document\n- ⟦{取扱説明書|とりあつかいせつめいしょ}→取扱説明書：10278_toriatsukaisetsumeisho⟧: instruction manual — comprehensive product instructions",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02696_keikoku",
+      "reading": "けいこく",
+      "headword": "{警告|けいこく}",
+      "label": "warning"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15306_tadashigaki",
+      "reading": "ただしがき",
+      "headword": "{但|ただ}し{書|が}き",
+      "label": "proviso, stipulation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10278_toriatsukaisetsumeisho",
+      "reading": "とりあつかいせつめいしょ",
+      "headword": "{取扱説明書|とりあつかいせつめいしょ}",
+      "label": "instruction manual"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30548_chuuijikou",
+      "reading": "ちゅういじこう",
+      "headword": "{注意事項|ちゅういじこう}",
+      "label": "points to note"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +89,6 @@
       ]
     },
     "created": "2026-03-29T18:15:12Z",
-    "modified": "2026-07-28T09:35:50Z"
+    "modified": "2026-09-02T04:02:00Z"
   }
 }

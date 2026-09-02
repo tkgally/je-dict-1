@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30671_shoujou_ex1",
-      "japanese": "{賞状|しょうじょう}をもらった。",
+      "japanese": "{賞状|しょうじょう}⟦を→を：00422_wo⟧⟦もらった→もらう：00520_morau⟧。",
       "english": "I received a certificate of merit.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30671_shoujou_ex2",
-      "japanese": "{校長先生|こうちょうせんせい}から{賞状|しょうじょう}を{手渡|てわた}された。",
+      "japanese": "{校長先生|こうちょうせんせい}⟦から→から：00504_kara⟧{賞状|しょうじょう}⟦を→を：00422_wo⟧⟦{手渡|てわた}された→手渡す：12757_tewatasu⟧。",
       "english": "The principal handed me the award certificate.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30671_shoujou_ex3",
-      "japanese": "{壁|かべ}には、{息子|むすこ}が{小学校|しょうがっこう}のときにもらった{賞状|しょうじょう}が{今|いま}も{飾|かざ}ってある。",
+      "japanese": "⟦{壁|かべ}→壁：01290_kabe⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧、⟦{息子|むすこ}→息子：00799_musuko⟧⟦が→が：00051_ga⟧⟦{小学校|しょうがっこう}→小学校：01055_shougakkou⟧⟦の→の：09472_no⟧とき⟦に→に：00314_ni⟧⟦もらった→もらう：00520_morau⟧{賞状|しょうじょう}⟦が→が：00051_ga⟧⟦{今|いま}→今：00945_ima⟧⟦も→も：00484_mo⟧⟦{飾|かざ}ってある→飾る：01185_kazaru⟧。",
       "english": "The certificate my son won in elementary school is still displayed on the wall.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "Typically read aloud in full by the presenter at the ceremony before being handed over with both hands.\n\nCOMMON COLLOCATIONS:\n- {賞状|しょうじょう}をもらう/{受|う}け{取|と}る: to receive a certificate\n- {賞状|しょうじょう}を{授与|じゅよ}する: to award a certificate (formal)\n- {賞状|しょうじょう}を{飾|かざ}る: to display a certificate\n\nSIMILAR WORDS:\n- {表彰状|ひょうしょうじょう}: certificate of commendation — nearly the same thing, slightly more formal and official\n- {感謝状|かんしゃじょう}: letter of appreciation — thanks for a contribution rather than praise for an achievement\n- {修了証|しゅうりょうしょう}: certificate of completion — proof of finishing a course, not an award",
+  "notes": "Typically read aloud in full by the presenter at the ceremony before being handed over with both hands.\n\nCOMMON COLLOCATIONS:\n- {賞状|しょうじょう}⟦を→を：00422_wo⟧⟦もらう→もらう：00520_morau⟧/⟦{受|う}け{取|と}る→受け取る：01883_uketoru⟧: to receive a certificate\n- {賞状|しょうじょう}⟦を→を：00422_wo⟧⟦{授与|じゅよ}→授与：12900_juyo⟧⟦する→する：00392_suru⟧: to award a certificate (formal)\n- {賞状|しょうじょう}⟦を→を：00422_wo⟧⟦{飾|かざ}る→飾る：01185_kazaru⟧: to display a certificate\n\nSIMILAR WORDS:\n- ⟦{表彰状|ひょうしょうじょう}→表彰状：30676_hyoushoujou⟧: certificate of commendation — nearly the same thing, slightly more formal and official\n- {感謝状|かんしゃじょう}: letter of appreciation — thanks for a contribution rather than praise for an achievement\n- {修了証|しゅうりょうしょう}: certificate of completion — proof of finishing a course, not an award",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "30676_hyoushoujou",
+      "reading": "ひょうしょうじょう",
+      "headword": "{表彰状|ひょうしょうじょう}",
+      "label": "certificate of commendation"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +62,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "education"
       ],
       "domain": []
     },
     "created": "2026-08-15T12:20:22Z",
-    "modified": "2026-08-15T12:20:22Z"
+    "modified": "2026-09-02T04:02:41Z"
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24424_miraaresu_ex1",
-      "japanese": "ミラーレスカメラを{買|か}った。",
+      "japanese": "ミラーレスカメラ⟦を→を：00422_wo⟧⟦{買|か}った→買う：00489_kau⟧。",
       "english": "I bought a mirrorless camera.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24424_miraaresu_ex2",
-      "japanese": "ミラーレスは{軽|かる}くて{持|も}ち{運|はこ}びやすい。",
+      "japanese": "ミラーレス⟦は→は：00079_ha⟧⟦{軽|かる}くて→軽い：00785_karui⟧⟦{持|も}ち{運|はこ}び→持ち運ぶ：19699_mochihakobu⟧やすい。",
       "english": "Mirrorless cameras are light and easy to carry.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24424_miraaresu_ex3",
-      "japanese": "{一眼|いちがん}レフからミラーレスに{乗|の}り{換|か}える{人|ひと}が{増|ふ}えている。",
+      "japanese": "⟦{一眼|いちがん}レフ→一眼レフ：07981_ichiganrefu⟧⟦から→から：00504_kara⟧ミラーレス⟦に→に：00314_ni⟧⟦{乗|の}り{換|か}える→乗り換える：01194_norikaeru⟧⟦{人|ひと}→人：00476_hito⟧⟦が→が：00051_ga⟧⟦{増|ふ}えている→増える：01183_fueru⟧。",
       "english": "More and more people are switching from DSLRs to mirrorless cameras.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Short for ミラーレス{一眼|いちがん}カメラ (mirrorless interchangeable-lens camera). The term is used as both a noun (referring to the camera) and as a modifier. Mirrorless cameras have become the mainstream in Japanese photography since major manufacturers shifted focus from DSLRs around 2018.\n\nCOMMON COLLOCATIONS:\n- ミラーレスカメラ: mirrorless camera\n- ミラーレス{一眼|いちがん}: mirrorless interchangeable-lens (camera)\n- ミラーレスに{移行|いこう}する: to transition to mirrorless\n- フルサイズミラーレス: full-frame mirrorless\n\nSIMILAR WORDS:\n- {一眼|いちがん}レフ: DSLR — a single-lens reflex camera with a mirror mechanism\n- コンパクトカメラ: compact camera — a smaller, non-interchangeable-lens camera\n- コンデジ: compact digital camera — abbreviated form\n- デジカメ: digital camera — general abbreviation for digital cameras",
+  "notes": "Short for ミラーレス⟦{一眼|いちがん}カメラ→一眼カメラ：26680_ichigankamera⟧ (mirrorless interchangeable-lens camera). The term is used as both a noun (referring to the camera) and as a modifier. Mirrorless cameras have become the mainstream in Japanese photography since major manufacturers shifted focus from DSLRs around 2018.\n\nCOMMON COLLOCATIONS:\n- ミラーレスカメラ: mirrorless camera\n- ミラーレス⟦{一眼|いちがん}→一眼：08955_ichigan⟧: mirrorless interchangeable-lens (camera)\n- ミラーレス⟦に→に：00314_ni⟧⟦{移行|いこう}→移行：13776_ikou⟧⟦する→する：00392_suru⟧: to transition to mirrorless\n- フルサイズミラーレス: full-frame mirrorless\n\nSIMILAR WORDS:\n- ⟦{一眼|いちがん}レフ→一眼レフ：07981_ichiganrefu⟧: DSLR — a single-lens reflex camera with a mirror mechanism\n- ⟦コンパクト→コンパクト：10862_konpakuto⟧⟦カメラ→カメラ：04417_kamera⟧: compact camera — a smaller, non-interchangeable-lens camera\n- コンデジ: compact digital camera — abbreviated form\n- ⟦デジカメ→デジカメ：28543_dejikame⟧: digital camera — general abbreviation for digital cameras",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07981_ichiganrefu",
+      "reading": "いちがんれふ",
+      "headword": "{一眼|いちがん}レフ",
+      "label": "DSLR"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28543_dejikame",
+      "reading": "でじかめ",
+      "headword": "デジカメ",
+      "label": "digital camera"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +75,6 @@
       ]
     },
     "created": "2026-04-19T09:21:32Z",
-    "modified": "2026-04-19T09:21:32Z"
+    "modified": "2026-09-02T04:02:18Z"
   }
 }

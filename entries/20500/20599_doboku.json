@@ -15,41 +15,74 @@
   "examples": [
     {
       "id": "20599_doboku_ex1",
-      "japanese": "{土木|どぼく}{工事|こうじ}が{始|はじ}まった。",
+      "japanese": "{土木|どぼく}⟦{工事|こうじ}→工事：00244_kouji⟧⟦が→が：00051_ga⟧⟦{始|はじ}まった→始まる：00841_hajimaru⟧。",
       "english": "The civil engineering work has started.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "20599_doboku_ex2",
-      "japanese": "{彼|かれ}は{大学|だいがく}で{土木|どぼく}{工学|こうがく}を{専攻|せんこう}している。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{大学|だいがく}→大学：00608_daigaku⟧⟦で→で：00502_de⟧{土木|どぼく}⟦{工学|こうがく}→工学：04862_kougaku⟧⟦を→を：00422_wo⟧⟦{専攻|せんこう}→専攻：01587_senkou⟧⟦している→する：00392_suru⟧。",
       "english": "He is majoring in civil engineering at university.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "20599_doboku_ex3",
-      "japanese": "{地震|じしん}の{後|あと}、{道路|どうろ}や{橋|はし}の{復旧|ふっきゅう}のために{大規模|だいきぼ}な{土木|どぼく}{工事|こうじ}が{行|おこな}われた。",
+      "japanese": "⟦{地震|じしん}→地震：01608_jishin⟧⟦の→の：09472_no⟧⟦{後|あと}→後：09580_ato⟧、⟦{道路|どうろ}→道路：01481_douro⟧や⟦{橋|はし}→橋：02163_hashi⟧⟦の→の：09472_no⟧⟦{復旧|ふっきゅう}→復旧：07521_fukkyuu⟧⟦の→の：09472_no⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧⟦{大規模|だいきぼ}→大規模：12185_daikibo⟧な{土木|どぼく}⟦{工事|こうじ}→工事：00244_kouji⟧⟦が→が：00051_ga⟧⟦{行|おこな}われた→行う：01238_okonau⟧。",
       "english": "After the earthquake, large-scale civil engineering work was carried out to restore roads and bridges.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "Composed of {土|ど} (earth, soil) + {木|ぼく} (wood, timber) — the two fundamental materials of traditional construction. In modern usage, it refers specifically to civil engineering as opposed to building construction ({建築|けんちく}).\n\nCOMMON COLLOCATIONS:\n- {土木|どぼく}{工事|こうじ} (civil engineering work, construction work)\n- {土木|どぼく}{工学|こうがく} (civil engineering as an academic discipline)\n- {土木|どぼく}{作業|さぎょう} (construction labor)\n- {土木|どぼく}{技術者|ぎじゅつしゃ} (civil engineer)\n\nSIMILAR WORDS:\n- {建築|けんちく} — architecture, building construction (focuses on buildings)\n- {建設|けんせつ} — construction (broader term covering both civil engineering and building)\n- インフラ — infrastructure (loanword, refers to the completed systems rather than the engineering work)",
-  "cross_references": [],
+  "notes": "Composed of {土|ど} (earth, soil) + {木|ぼく} (wood, timber) — the two fundamental materials of traditional construction. In modern usage, it refers specifically to civil engineering as opposed to building construction (⟦{建築|けんちく}→建築：02709_kenchiku⟧).\n\nCOMMON COLLOCATIONS:\n- {土木|どぼく}⟦{工事|こうじ}→工事：00244_kouji⟧ (civil engineering work, construction work)\n- {土木|どぼく}⟦{工学|こうがく}→工学：04862_kougaku⟧ (civil engineering as an academic discipline)\n- {土木|どぼく}⟦{作業|さぎょう}→作業：02775_sagyou⟧ (construction labor)\n- {土木|どぼく}⟦{技術者|ぎじゅつしゃ}→技術者：17049_gijutsusha⟧ (civil engineer)\n\nSIMILAR WORDS:\n- ⟦{建築|けんちく}→建築：02709_kenchiku⟧ — architecture, building construction (focuses on buildings)\n- ⟦{建設|けんせつ}→建設：02708_kensetsu⟧ — construction (broader term covering both civil engineering and building)\n- ⟦インフラ→インフラ：09898_infura⟧ — infrastructure (loanword, refers to the completed systems rather than the engineering work)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02709_kenchiku",
+      "reading": "けんちく",
+      "headword": "{建築|けんちく}",
+      "label": "architecture, building construction"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02708_kensetsu",
+      "reading": "けんせつ",
+      "headword": "{建設|けんせつ}",
+      "label": "construction"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09898_infura",
+      "reading": "いんふら",
+      "headword": "インフラ",
+      "label": "infrastructure"
+    }
+  ],
   "metadata": {
     "created": "2026-03-29T19:21:56Z",
-    "modified": "2026-03-29T19:21:56Z",
+    "modified": "2026-09-02T04:02:00Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["technical", "work"]
+      "semantic": [
+        "technical",
+        "work"
+      ]
     }
   }
 }

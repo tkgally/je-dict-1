@@ -15,40 +15,59 @@
   "examples": [
     {
       "id": "27710_monoraru_ex1",
-      "japanese": "{古|ふる}い{録音|ろくおん}はモノラルだ。",
+      "japanese": "⟦{古|ふる}い→古い：00488_furui⟧⟦{録音|ろくおん}→録音：05107_rokuon⟧⟦は→は：00079_ha⟧モノラルだ。",
       "english": "Old recordings are in mono.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27710_monoraru_ex2",
-      "japanese": "このラジオはモノラルなので{音|おと}が{広|ひろ}がらない。",
+      "japanese": "⟦この→この：00962_kono⟧⟦ラジオ→ラジオ：01541_rajio⟧⟦は→は：00079_ha⟧モノラルな⟦の→の：09472_no⟧で⟦{音|おと}→音：00743_oto⟧⟦が→が：00051_ga⟧⟦{広|ひろ}がらない→広がる：01980_hirogaru⟧。",
       "english": "This radio is mono, so the sound doesn't spread out.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27710_monoraru_ex3",
-      "japanese": "{昔|むかし}のテレビ{放送|ほうそう}はモノラルからステレオへと{変|か}わっていった。",
+      "japanese": "⟦{昔|むかし}→昔：01515_mukashi⟧⟦の→の：09472_no⟧⟦テレビ→テレビ：01536_terebi⟧⟦{放送|ほうそう}→放送：02093_housou⟧⟦は→は：00079_ha⟧モノラル⟦から→から：00504_kara⟧⟦ステレオ→ステレオ：01370_sutereo⟧⟦へ→へ：02473_he⟧⟦と→と：00512_to⟧⟦{変|か}わって→変わる：00714_kawaru⟧いった。",
       "english": "Television broadcasts of the past gradually changed from mono to stereo.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Borrowed from English \"monaural.\" Describes single-channel sound; the opposite of ステレオ (stereo).\n\nCOMMON COLLOCATIONS:\n- モノラル{録音|ろくおん}: a mono recording\n- モノラル{放送|ほうそう}: a mono broadcast\n\nSIMILAR WORDS:\n- ステレオ: stereo — two or more channels giving a sense of left-right space and width\n- サラウンド: surround sound — multiple channels placed around the listener",
+  "notes": "Borrowed from English \"monaural.\" Describes single-channel sound; the opposite of ⟦ステレオ→ステレオ：01370_sutereo⟧ (stereo).\n\nCOMMON COLLOCATIONS:\n- モノラル⟦{録音|ろくおん}→録音：05107_rokuon⟧: a mono recording\n- モノラル⟦{放送|ほうそう}→放送：02093_housou⟧: a mono broadcast\n\nSIMILAR WORDS:\n- ⟦ステレオ→ステレオ：01370_sutereo⟧: stereo — two or more channels giving a sense of left-right space and width\n- サラウンド: surround sound — multiple channels placed around the listener",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01370_sutereo",
+      "reading": "すてれお",
+      "headword": "ステレオ",
+      "label": "stereo"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["electronics"]
+      "semantic": [
+        "electronics"
+      ]
     },
     "created": "2026-05-17T03:10:36Z",
-    "modified": "2026-05-17T03:10:36Z"
+    "modified": "2026-09-02T04:02:31Z"
   }
 }

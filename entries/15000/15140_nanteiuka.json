@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "15140_nanteiuka_ex1",
-      "japanese": "なんていうか、ちょっと{違|ちが}うんだよね。",
+      "japanese": "なんていうか、⟦ちょっと→ちょっと：00595_chotto⟧⟦{違|ちが}う→違う：01957_chigau⟧んだ⟦よ→よ：09475_yo⟧⟦ね→ね：09474_ne⟧。",
       "english": "How should I put it — it's a bit different.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "15140_nanteiuka_ex2",
-      "japanese": "あの{映画|えいが}は、なんていうか、{不思議|ふしぎ}な{感|かん}じだった。",
+      "japanese": "⟦あの→あの：00915_ano⟧⟦{映画|えいが}→映画：02273_eiga⟧⟦は→は：00079_ha⟧、なんていうか、⟦{不思議|ふしぎ}→不思議：02358_fushigi⟧な⟦{感|かん}じ→感じ：02555_kanji⟧だった。",
       "english": "That movie was, how should I put it, a strange feeling.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "15140_nanteiuka_ex3",
-      "japanese": "なんていうか、{言葉|ことば}ではうまく{説明|せつめい}できないんだけど、とにかくすごかった。",
+      "japanese": "なんていうか、⟦{言葉|ことば}→言葉：02880_kotoba⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦うまく→うまい：01279_umai⟧⟦{説明|せつめい}できない→説明する：05639_setsumeisuru⟧んだ⟦けど→けど：09477_kedo⟧、⟦とにかく→とにかく：03464_tonikaku⟧⟦すごかった→すごい：01128_sugoi⟧。",
       "english": "How can I put it — I can't explain it well in words, but anyway it was amazing.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,26 @@
       ]
     }
   ],
-  "notes": "USAGE:\nなんていうか is a conversational filler used when the speaker pauses to think about how to phrase something. It signals that the speaker is being thoughtful or struggling to find the right expression.\n\nVARIANTS:\n- なんというか — slightly more formal\n- なんつーか — very casual, slang\n\nGRAMMAR:\nTypically placed at the beginning of a sentence or clause, or inserted mid-sentence as a pause.",
-  "cross_references": [],
+  "notes": "USAGE:\nなんていうか is a conversational filler used when the speaker pauses to think about how to phrase something. It signals that the speaker is being thoughtful or struggling to find the right expression.\n\nFORMS:\n- なんというか — slightly more formal\n- なんつー⟦か→か：09473_ka⟧ — very casual, slang\n\nCOMMON PATTERNS:\nTypically placed at the beginning of a sentence or clause, or inserted mid-sentence as a pause.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06910_eeto",
+      "reading": "えーと",
+      "headword": "えーと",
+      "label": "um, let me see, well"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23425_eeto",
+      "reading": "ええと",
+      "headword": "ええと",
+      "label": "well..."
+    }
+  ],
   "metadata": {
     "created": "2026-03-05T08:34:55Z",
-    "modified": "2026-07-15T03:29:10Z",
+    "modified": "2026-09-02T04:01:40Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

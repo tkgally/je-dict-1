@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21501_kaikou_ex1",
-      "japanese": "{運命|うんめい}の{邂逅|かいこう}だった。",
+      "japanese": "⟦{運命|うんめい}→運命：06879_unmei⟧⟦の→の：09472_no⟧{邂逅|かいこう}だった。",
       "english": "It was a fateful encounter.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21501_kaikou_ex2",
-      "japanese": "{旅先|たびさき}での{邂逅|かいこう}が{人生|じんせい}を{変|か}えた。",
+      "japanese": "⟦{旅先|たびさき}→旅先：12949_tabisaki⟧⟦で→で：00502_de⟧⟦の→の：09472_no⟧{邂逅|かいこう}⟦が→が：00051_ga⟧⟦{人生|じんせい}→人生：03355_jinsei⟧⟦を→を：00422_wo⟧⟦{変|か}えた→変える：01089_kaeru⟧。",
       "english": "A chance meeting during my travels changed my life.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21501_kaikou_ex3",
-      "japanese": "{二人|ふたり}の{邂逅|かいこう}は、まるで{小説|しょうせつ}のような{出来事|できごと}だった。",
+      "japanese": "⟦{二人|ふたり}→二人：00622_futari⟧⟦の→の：09472_no⟧{邂逅|かいこう}⟦は→は：00079_ha⟧、⟦まるで→まるで：03739_marude⟧⟦{小説|しょうせつ}→小説：01434_shousetsu⟧⟦の→の：09472_no⟧ような⟦{出来事|できごと}→出来事：03446_dekigoto⟧だった。",
       "english": "Their chance encounter was like something out of a novel.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "A literary word for an unexpected, often significant meeting. Uses two rare kanji ({邂|かい} and {逅|こう}) that are seldom seen outside this compound. The word carries a sense of destiny or fate, suggesting the meeting was more than mere coincidence.\n\nCOMMON COLLOCATIONS:\n- {運命|うんめい}の{邂逅|かいこう}: fateful encounter\n- {偶然|ぐうぜん}の{邂逅|かいこう}: chance encounter\n- {邂逅|かいこう}を{果|は}たす: to have an encounter\n\nSIMILAR WORDS:\n- {出会|であ}い: meeting, encounter — the everyday word for meeting someone; neutral in tone\n- {遭遇|そうぐう}: encounter — often used for unexpected or unpleasant encounters\n- {巡|めぐ}り{合|あ}い: fateful meeting — similar romantic/literary nuance but more commonly used\n\nREGISTER:\nHighly literary and formal. Common in novels, poetry, and dramatic narration. Rarely used in everyday conversation. Often appears in book titles and film descriptions.",
+  "notes": "A literary word for an unexpected, often significant meeting. Uses two rare kanji ({邂|かい} and {逅|こう}) that are seldom seen outside this compound. The word carries a sense of destiny or fate, suggesting the meeting was more than mere coincidence.\n\nCOMMON COLLOCATIONS:\n- ⟦{運命|うんめい}→運命：06879_unmei⟧⟦の→の：09472_no⟧{邂逅|かいこう}: fateful encounter\n- ⟦{偶然|ぐうぜん}→偶然：02674_guuzen⟧⟦の→の：09472_no⟧{邂逅|かいこう}: chance encounter\n- {邂逅|かいこう}⟦を→を：00422_wo⟧⟦{果|は}たす→果たす：10060_hatasu⟧: to have an encounter\n\nSIMILAR WORDS:\n- ⟦{出会|であ}い→出会い：03445_deai⟧: meeting, encounter — the everyday word for meeting someone; neutral in tone\n- ⟦{遭遇|そうぐう}→遭遇：14384_souguu⟧: encounter — often used for unexpected or unpleasant encounters\n- ⟦{巡|めぐ}り{合|あ}い→巡り合い：15554_meguriai⟧: fateful meeting — similar romantic/literary nuance but more commonly used\n\nREGISTER:\nHighly literary and formal. Common in novels, poetry, and dramatic narration. Rarely used in everyday conversation. Often appears in book titles and film descriptions.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03445_deai",
+      "reading": "であい",
+      "headword": "{出会|であ}い",
+      "label": "meeting, encounter"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14384_souguu",
+      "reading": "そうぐう",
+      "headword": "{遭遇|そうぐう}",
+      "label": "encounter"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15554_meguriai",
+      "reading": "めぐりあい",
+      "headword": "{巡|めぐ}り{合|あ}い",
+      "label": "fateful meeting"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +82,6 @@
       ]
     },
     "created": "2026-04-02T14:04:46Z",
-    "modified": "2026-07-29T12:35:11Z"
+    "modified": "2026-09-02T04:02:03Z"
   }
 }

@@ -3,7 +3,7 @@
   "headword": "リユース",
   "reading": "りゆーす",
   "romaji": "riyuusu",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "reuse; secondhand use",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25681_riyuusu_ex1",
-      "japanese": "リユース{品|ひん}を{買|か}う。",
+      "japanese": "リユース⟦{品|ひん}→品：03712_hin⟧⟦を→を：00422_wo⟧⟦{買|か}う→買う：00489_kau⟧。",
       "english": "I buy reused items.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25681_riyuusu_ex2",
-      "japanese": "ペットボトルのリユースが{進|すす}んでいる。",
+      "japanese": "⟦ペットボトル→ペットボトル：05605_pettobotoru⟧⟦の→の：09472_no⟧リユース⟦が→が：00051_ga⟧⟦{進|すす}んでいる→進む：01225_susumu⟧。",
       "english": "The reuse of plastic bottles is progressing.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25681_riyuusu_ex3",
-      "japanese": "リデュース・リユース・リサイクルの「3R」を{意識|いしき}した{生活|せいかつ}を{心|こころ}がけている。",
+      "japanese": "⟦リデュース→リデュース：26364_ridyuusu⟧・リユース・⟦リサイクル→リサイクル：04624_risaikuru⟧⟦の→の：09472_no⟧「3R」⟦を→を：00422_wo⟧⟦{意識|いしき}した→意識する：17974_ishikisuru⟧⟦{生活|せいかつ}→生活：01443_seikatsu⟧⟦を→を：00422_wo⟧⟦{心|こころ}がけている→心がける：10015_kokorogakeru⟧。",
       "english": "I try to live with the '3Rs' of reduce, reuse, and recycle in mind.",
       "sense_numbers": [
         1
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "From English \"reuse.\" Part of the 3R ({スリーアール}) framework promoted in Japan's environmental policy: リデュース (reduce), リユース (reuse), リサイクル (recycle). Also functions as a suru verb (リユースする).\n\nCOMMON COLLOCATIONS:\n- リユース{品|ひん}: reused goods, secondhand items\n- リユースショップ: secondhand shop, reuse shop\n- リユースする: to reuse\n- リユース{可能|かのう}: reusable\n\nSIMILAR WORDS:\n- リサイクル: recycle — processing materials into new products, rather than reusing as-is\n- リデュース: reduce — reducing waste at the source\n- {再利用|さいりよう}: reuse — the Sino-Japanese equivalent, used in formal or technical contexts\n- {中古|ちゅうこ}: secondhand, used — describes items that have been previously owned",
+  "notes": "From English \"reuse.\" Part of the 3R (スリーアール) framework promoted in Japan's environmental policy: ⟦リデュース→リデュース：26364_ridyuusu⟧ (reduce), リユース (reuse), ⟦リサイクル→リサイクル：04624_risaikuru⟧ (recycle). Also functions as a suru verb (リユース⟦する→する：00392_suru⟧).\n\nCOMMON COLLOCATIONS:\n- リユース⟦{品|ひん}→品：03712_hin⟧: reused goods, secondhand items\n- リユース⟦ショップ→ショップ：08913_shoppu⟧: secondhand shop, reuse shop\n- リユース⟦する→する：00392_suru⟧: to reuse\n- リユース⟦{可能|かのう}→可能：00175_kanou⟧: reusable\n\nSIMILAR WORDS:\n- ⟦リサイクル→リサイクル：04624_risaikuru⟧: recycle — processing materials into new products, rather than reusing as-is\n- ⟦リデュース→リデュース：26364_ridyuusu⟧: reduce — reducing waste at the source\n- ⟦{再利用|さいりよう}→再利用：18649_sairiyou⟧: reuse — the Sino-Japanese equivalent, used in formal or technical contexts\n- ⟦{中古|ちゅうこ}→中古：03479_chuuko⟧: secondhand, used — describes items that have been previously owned",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04624_risaikuru",
+      "reading": "りさいくる",
+      "headword": "リサイクル",
+      "label": "recycle"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26364_ridyuusu",
+      "reading": "りでゅーす",
+      "headword": "リデュース",
+      "label": "reduce"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18649_sairiyou",
+      "reading": "さいりよう",
+      "headword": "{再利用|さいりよう}",
+      "label": "reuse"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03479_chuuko",
+      "reading": "ちゅうこ",
+      "headword": "{中古|ちゅうこ}",
+      "label": "secondhand, used"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -65,7 +95,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-26T15:17:56Z",
-    "modified": "2026-08-04T21:28:28Z"
+    "modified": "2026-09-02T04:02:23Z"
   },
   "conjugation": {
     "type": "suru",

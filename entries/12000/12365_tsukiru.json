@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "12365_tsukiru_ex1",
-      "japanese": "{体力|たいりょく}が{尽|つ}きた。",
+      "japanese": "⟦{体力|たいりょく}→体力：05318_tairyoku⟧⟦が→が：00051_ga⟧{尽|つ}きた。",
       "english": "My stamina ran out.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "12365_tsukiru_ex2",
-      "japanese": "{食料|しょくりょう}が{尽|つ}きて{困|こま}っている。",
+      "japanese": "⟦{食料|しょくりょう}→食料：03250_shokuryou⟧⟦が→が：00051_ga⟧{尽|つ}きて⟦{困|こま}っている→困る：00861_komaru⟧。",
       "english": "We're in trouble because the food supply has run out.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "12365_tsukiru_ex3",
-      "japanese": "{話題|わだい}が{尽|つ}きることなく、{朝|あさ}まで{語|かた}り{合|あ}った。",
+      "japanese": "⟦{話題|わだい}→話題：03793_wadai⟧⟦が→が：00051_ga⟧{尽|つ}きること⟦なく→ない：01118_nai⟧、⟦{朝|あさ}→朝：02277_asa⟧⟦まで→まで：00490_made⟧⟦{語|かた}り{合|あ}った→語り合う：03045_katariau⟧。",
       "english": "Without running out of topics, we talked until morning.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,19 @@
       ]
     }
   ],
-  "notes": "GRAMMAR:\nOften used in the pattern Xが{尽|つ}きる (X runs out). The negative form {尽|つ}きない and the pattern {尽|つ}きることなく (without running out) are common.\n\nCOLLOCATIONS:\n- {体力|たいりょく}が{尽|つ}きる — stamina runs out\n- {食料|しょくりょう}が{尽|つ}きる — food supply runs out\n- {忍耐|にんたい}が{尽|つ}きる — patience runs out\n- {話題|わだい}が{尽|つ}きない — topics never run out\n- {言葉|ことば}に{尽|つ}きない — beyond words, inexpressible\n\nSIMILAR WORDS:\nなくなる is the everyday word for running out or disappearing. {尽|つ}きる is more literary and emphasizes complete exhaustion. {切|き}れる can also mean to run out (e.g., バッテリーが{切|き}れる) but focuses on breaking or disconnecting.",
-  "cross_references": [],
+  "notes": "COMMON PATTERNS:\nOften used in the pattern X⟦が→が：00051_ga⟧{尽|つ}きる (X runs out). The negative form {尽|つ}きない and the pattern {尽|つ}きること⟦なく→ない：01118_nai⟧ (without running out) are common.\n\nCOMMON COLLOCATIONS:\n- ⟦{体力|たいりょく}→体力：05318_tairyoku⟧⟦が→が：00051_ga⟧{尽|つ}きる — stamina runs out\n- ⟦{食料|しょくりょう}→食料：03250_shokuryou⟧⟦が→が：00051_ga⟧{尽|つ}きる — food supply runs out\n- ⟦{忍耐|にんたい}→忍耐：05212_nintai⟧⟦が→が：00051_ga⟧{尽|つ}きる — patience runs out\n- ⟦{話題|わだい}→話題：03793_wadai⟧⟦が→が：00051_ga⟧{尽|つ}きない — topics never run out\n- ⟦{言葉|ことば}→言葉：02880_kotoba⟧⟦に→に：00314_ni⟧{尽|つ}きない — beyond words, inexpressible\n\nSIMILAR WORDS:\nなくなる is the everyday word for running out or disappearing. {尽|つ}きる is more literary and emphasizes complete exhaustion. ⟦{切|き}れる→切れる：01936_kireru⟧ can also mean to run out (e.g., ⟦バッテリー→バッテリー：04425_batterii⟧⟦が→が：00051_ga⟧⟦{切|き}れる→切れる：01936_kireru⟧) but focuses on breaking or disconnecting.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "28565_hateru",
+      "reading": "はてる",
+      "headword": "{果|は}てる",
+      "label": "to come to an end"
+    }
+  ],
   "metadata": {
     "created": "2026-02-21T05:27:24Z",
-    "modified": "2026-04-05T07:30:05Z",
+    "modified": "2026-09-02T04:01:28Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

@@ -15,41 +15,74 @@
   "examples": [
     {
       "id": "13716_goban_ex1",
-      "japanese": "{碁盤|ごばん}に{石|いし}を{置|お}く。",
+      "japanese": "{碁盤|ごばん}⟦に→に：00314_ni⟧⟦{石|いし}→石：02177_ishi⟧⟦を→を：00422_wo⟧⟦{置|お}く→置く：01092_oku⟧。",
       "english": "To place a stone on the go board.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13716_goban_ex2",
-      "japanese": "{祖父|そふ}が{愛用|あいよう}していた{碁盤|ごばん}を{受|う}け{継|つ}いだ。",
+      "japanese": "⟦{祖父|そふ}→祖父：01452_sofu⟧⟦が→が：00051_ga⟧⟦{愛用|あいよう}→愛用：12693_aiyou⟧⟦していた→する：00392_suru⟧{碁盤|ごばん}⟦を→を：00422_wo⟧⟦{受|う}け{継|つ}いだ→受け継ぐ：06700_uketsugu⟧。",
       "english": "I inherited the go board my grandfather used to use.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13716_goban_ex3",
-      "japanese": "{京都|きょうと}の{街|まち}は{碁盤|ごばん}の{目|め}のように{道|みち}が{整|ととの}っている。",
+      "japanese": "⟦{京都|きょうと}→京都：09484_kyouto⟧⟦の→の：09472_no⟧⟦{街|まち}→街：17306_machi⟧⟦は→は：00079_ha⟧{碁盤|ごばん}⟦の→の：09472_no⟧⟦{目|め}→目：00525_me⟧⟦のように→のように：30291_noyouni⟧⟦{道|みち}→道：00505_michi⟧⟦が→が：00051_ga⟧⟦{整|ととの}っている→整う：03935_totonou⟧。",
       "english": "The streets of Kyoto are laid out in a grid pattern like a go board.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nThe expression {碁盤|ごばん}の{目|め} (go-board grid) is a common metaphor for a neat grid pattern, especially when describing city street layouts like those of {京都|きょうと} and {奈良|なら}.\n\nCOMMON COLLOCATIONS:\n- {碁盤|ごばん}の{目|め}: grid pattern (like a go board)\n- {碁盤|ごばん}に{向|む}かう: to sit down at a go board\n- {碁盤|ごばん}の{目|め}のような{街|まち}: a city with grid-pattern streets\n- {碁盤|ごばん}{目状|めじょう}: in a grid pattern",
-  "cross_references": [],
+  "notes": "USAGE:\nThe expression {碁盤|ごばん}⟦の→の：09472_no⟧⟦{目|め}→目：00525_me⟧ (go-board grid) is a common metaphor for a neat grid pattern, especially when describing city street layouts like those of ⟦{京都|きょうと}→京都：09484_kyouto⟧ and ⟦{奈良|なら}→奈良：27451_nara⟧.\n\nCOMMON COLLOCATIONS:\n- {碁盤|ごばん}⟦の→の：09472_no⟧⟦{目|め}→目：00525_me⟧: grid pattern (like a go board)\n- {碁盤|ごばん}⟦に→に：00314_ni⟧⟦{向|む}かう→向かう：01186_mukau⟧: to sit down at a go board\n- {碁盤|ごばん}⟦の→の：09472_no⟧⟦{目|め}→目：00525_me⟧⟦の→の：09472_no⟧ような⟦{街|まち}→街：17306_machi⟧: a city with grid-pattern streets\n- {碁盤|ごばん}{目状|めじょう}: in a grid pattern",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "19754_goishi",
+      "reading": "ごいし",
+      "headword": "{碁石|ごいし}",
+      "label": "Go stone"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24835_shougiban",
+      "reading": "しょうぎばん",
+      "headword": "{将棋盤|しょうぎばん}",
+      "label": "shogi board"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26232_banjou",
+      "reading": "ばんじょう",
+      "headword": "{盤上|ばんじょう}",
+      "label": "on the board"
+    }
+  ],
   "metadata": {
     "created": "2026-02-26T13:36:03Z",
-    "modified": "2026-02-26T13:36:03Z",
+    "modified": "2026-09-02T04:01:34Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["leisure", "tool"]
+      "semantic": [
+        "leisure",
+        "tool"
+      ]
     }
   }
 }

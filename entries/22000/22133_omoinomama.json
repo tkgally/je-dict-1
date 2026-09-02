@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22133_omoinomama_ex1",
-      "japanese": "{思|おも}いのままに{生|い}きたい。",
+      "japanese": "{思|おも}いのまま⟦に→に：00314_ni⟧⟦{生|い}きたい→生きる：01184_ikiru⟧。",
       "english": "I want to live as I please.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22133_omoinomama_ex2",
-      "japanese": "{彼|かれ}は{何|なん}でも{思|おも}いのままにできる。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{何|なん}→何〜：03100_nan⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧{思|おも}いのまま⟦に→に：00314_ni⟧⟦できる→できる：00557_dekiru⟧。",
       "english": "He can do anything he wants.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22133_omoinomama_ex3",
-      "japanese": "{自分|じぶん}の{気持|きも}ちを{思|おも}いのままに{表現|ひょうげん}できる{場所|ばしょ}が{欲|ほ}しいと{思|おも}っていた。",
+      "japanese": "⟦{自分|じぶん}→自分：02887_jibun⟧⟦の→の：09472_no⟧{気持|きも}ち⟦を→を：00422_wo⟧{思|おも}いのまま⟦に→に：00314_ni⟧⟦{表現|ひょうげん}→表現：03584_hyougen⟧⟦できる→できる：00557_dekiru⟧⟦{場所|ばしょ}→場所：00829_basho⟧⟦が→が：00051_ga⟧⟦{欲|ほ}しい→欲しい：01107_hoshii⟧⟦と→と：00512_to⟧⟦{思|おも}っていた→思う：00492_omou⟧。",
       "english": "I had been wanting a place where I could express my feelings freely.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {思|おも}い (thought, wish) + の + まま (as is, unchanged). The particle に often follows: {思|おも}いのままに. This expression emphasizes doing something without constraint, following one's own desires or will.\n\nCOMMON PATTERNS:\n- {思|おも}いのままに{行動|こうどう}する: to act as one pleases\n- {思|おも}いのままに{操|あやつ}る: to control at will\n- {思|おも}いのままになる: to go as one wishes\n\nSIMILAR WORDS:\n- {自由|じゆう}に: freely — more common and casual\n- {好|す}きなように: as one likes — casual, everyday expression\n- {意|い}のままに: at one's will — slightly more literary synonym\n- {気|き}の{向|む}くままに: as the mood takes one — emphasizes spontaneity rather than deliberate will",
+  "notes": "Composed of ⟦{思|おも}い→思い：10248_omoi⟧ (thought, wish) + ⟦の→の：09472_no⟧ + まま (as is, unchanged). The particle ⟦に→に：00314_ni⟧ often follows: {思|おも}いのまま⟦に→に：00314_ni⟧. This expression emphasizes doing something without constraint, following one's own desires or will.\n\nCOMMON PATTERNS:\n- {思|おも}いのまま⟦に→に：00314_ni⟧⟦{行動|こうどう}→行動：02728_koudou⟧⟦する→する：00392_suru⟧: to act as one pleases\n- {思|おも}いのまま⟦に→に：00314_ni⟧⟦{操|あやつ}る→操る：12707_ayatsuru⟧: to control at will\n- {思|おも}いのまま⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧: to go as one wishes\n\nSIMILAR WORDS:\n- ⟦{自由|じゆう}→自由：01148_jiyuu⟧⟦に→に：00314_ni⟧: freely — more common and casual\n- ⟦{好|す}き→好き：02355_suki⟧なよう⟦に→に：00314_ni⟧: as one likes — casual, everyday expression\n- ⟦{意|い}のまま→意のまま：22945_inomama⟧⟦に→に：00314_ni⟧: at one's will — slightly more literary synonym\n- ⟦{気|き}→気：02199_ki⟧⟦の→の：09472_no⟧⟦{向|む}く→向く：02304_muku⟧まま⟦に→に：00314_ni⟧: as the mood takes one — emphasizes spontaneity rather than deliberate will",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01148_jiyuu",
+      "reading": "じゆう",
+      "headword": "{自由|じゆう}",
+      "label": "freely"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22945_inomama",
+      "reading": "いのまま",
+      "headword": "{意|い}のまま",
+      "label": "at one's will"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21493_jizai",
+      "reading": "じざい",
+      "headword": "{自在|じざい}",
+      "label": "free"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +83,6 @@
       ]
     },
     "created": "2026-04-05T03:38:03Z",
-    "modified": "2026-04-10T08:28:27Z"
+    "modified": "2026-09-02T04:02:06Z"
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "16939_kikaku_ex1",
-      "japanese": "この{製品|せいひん}は{国際|こくさい}{規格|きかく}に{適合|てきごう}している。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{製品|せいひん}→製品：01445_seihin⟧⟦は→は：00079_ha⟧⟦{国際|こくさい}→国際：01406_kokusai⟧{規格|きかく}⟦に→に：00314_ni⟧⟦{適合|てきごう}している→適合する：25549_tekigousuru⟧。",
       "english": "This product conforms to international standards.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "16939_kikaku_ex2",
-      "japanese": "{安全|あんぜん}{規格|きかく}を{満|み}たさない{商品|しょうひん}は{販売|はんばい}できない。",
+      "japanese": "⟦{安全|あんぜん}→安全：01131_anzen⟧{規格|きかく}⟦を→を：00422_wo⟧⟦{満|み}たさない→満たす：09889_mitasu⟧⟦{商品|しょうひん}→商品：01436_shouhin⟧⟦は→は：00079_ha⟧⟦{販売|はんばい}→販売：03573_hanbai⟧⟦できない→できる：00557_dekiru⟧。",
       "english": "Products that don't meet safety standards cannot be sold.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "16939_kikaku_ex3",
-      "japanese": "{各国|かっこく}で{充電器|じゅうでんき}の{規格|きかく}が{異|こと}なるため、{海外旅行|かいがいりょこう}には{変換|へんかん}アダプターが{必要|ひつよう}だ。",
+      "japanese": "⟦{各国|かっこく}→各国：12055_kakkoku⟧⟦で→で：00502_de⟧⟦{充電器|じゅうでんき}→充電器：05106_juudenki⟧⟦の→の：09472_no⟧{規格|きかく}⟦が→が：00051_ga⟧⟦{異|こと}なる→異なる：02101_kotonaru⟧⟦ため→ため：01145_tame⟧、⟦{海外旅行|かいがいりょこう}→海外旅行：24321_kaigairyokou⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{変換|へんかん}→変換：12085_henkan⟧⟦アダプター→アダプター：05251_adaputaa⟧⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧だ。",
       "english": "Since charger standards differ by country, you need a conversion adapter for overseas travel.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,19 @@
       ]
     }
   ],
-  "notes": "USAGE:\nCommon in business, manufacturing, and technology contexts. Japan's main standards body is JIS ({日本産業規格|にほんさんぎょうきかく}, Japanese Industrial Standards).\n\nCOMMON COLLOCATIONS:\n- {規格|きかく}に{適合|てきごう}する (to conform to a standard)\n- {規格|きかく}を{満|み}たす (to meet a standard)\n- {国際規格|こくさいきかく} (international standard)\n- {安全規格|あんぜんきかく} (safety standard)\n- {規格外|きかくがい} (nonstandard, off-spec — also used figuratively for something extraordinary)\n\nDO NOT CONFUSE:\n- {企画|きかく}: plan, project — same reading but means planning or a planned project (e.g., {企画書|きかくしょ} \"project proposal\")",
-  "cross_references": [],
+  "notes": "USAGE:\nCommon in business, manufacturing, and technology contexts. Japan's main standards body is JIS ({日本産業規格|にほんさんぎょうきかく}, Japanese Industrial Standards).\n\nCOMMON COLLOCATIONS:\n- {規格|きかく}⟦に→に：00314_ni⟧⟦{適合|てきごう}する→適合する：25549_tekigousuru⟧ (to conform to a standard)\n- {規格|きかく}⟦を→を：00422_wo⟧⟦{満|み}たす→満たす：09889_mitasu⟧ (to meet a standard)\n- {国際規格|こくさいきかく} (international standard)\n- {安全規格|あんぜんきかく} (safety standard)\n- {規格外|きかくがい} (nonstandard, off-spec — also used figuratively for something extraordinary)\n\nWATCH OUT:\n- ⟦{企画|きかく}→企画：04879_kikaku⟧: plan, project — same reading but means planning or a planned project (e.g., ⟦{企画書|きかくしょ}→企画書：20593_kikakusho⟧ \"project proposal\")",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "04832_hyoujun",
+      "reading": "ひょうじゅん",
+      "headword": "{標準|ひょうじゅん}",
+      "label": "standard"
+    }
+  ],
   "metadata": {
     "created": "2026-03-15T02:17:04Z",
-    "modified": "2026-03-15T02:17:04Z",
+    "modified": "2026-09-02T04:01:46Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

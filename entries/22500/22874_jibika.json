@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22874_jibika_ex1",
-      "japanese": "{耳鼻科|じびか}に{行|い}く。",
+      "japanese": "{耳鼻科|じびか}⟦に→に：00314_ni⟧⟦{行|い}く→行く：00119_iku⟧。",
       "english": "To go to the ENT department.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22874_jibika_ex2",
-      "japanese": "{花粉症|かふんしょう}がひどいので{耳鼻科|じびか}を{受診|じゅしん}した。",
+      "japanese": "⟦{花粉症|かふんしょう}→花粉症：04409_kafunshou⟧⟦が→が：00051_ga⟧⟦ひどい→ひどい：01097_hidoi⟧⟦の→の：09472_no⟧で{耳鼻科|じびか}⟦を→を：00422_wo⟧⟦{受診|じゅしん}→受診：11890_jushin⟧⟦した→する：00392_suru⟧。",
       "english": "I visited the ENT doctor because my hay fever was bad.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22874_jibika_ex3",
-      "japanese": "{耳|みみ}の{調子|ちょうし}が{悪|わる}いので、{近所|きんじょ}の{耳鼻科|じびか}を{予約|よやく}した。",
+      "japanese": "⟦{耳|みみ}→耳：01513_mimi⟧⟦の→の：09472_no⟧⟦{調子|ちょうし}→調子：03491_choushi⟧⟦が→が：00051_ga⟧⟦{悪|わる}い→悪い：00908_warui⟧⟦の→の：09472_no⟧で、⟦{近所|きんじょ}→近所：01318_kinjo⟧⟦の→の：09472_no⟧{耳鼻科|じびか}⟦を→を：00422_wo⟧⟦{予約|よやく}した→予約する：22989_yoyakusuru⟧。",
       "english": "My ear wasn't feeling right, so I made an appointment at a nearby ENT clinic.",
       "sense_numbers": [
         1
@@ -44,8 +44,52 @@
       "notes": null
     }
   ],
-  "notes": "Short for {耳鼻咽喉科|じびいんこうか} (otorhinolaryngology). In everyday Japanese, the abbreviated form {耳鼻科|じびか} is far more common. It covers conditions of the ears, nose, throat, and sinuses.\n\nCOMMON COLLOCATIONS:\n- {耳鼻科|じびか}に{行|い}く: to go to the ENT\n- {耳鼻科|じびか}を{受診|じゅしん}する: to see an ENT doctor\n- {耳鼻科|じびか}の{先生|せんせい}: ENT doctor\n- {耳鼻科|じびか}{医|い}: ENT specialist\n\nRELATED TERMS:\n- {耳鼻咽喉科|じびいんこうか}: the full formal name of the specialty\n- {内科|ないか}: internal medicine\n- {外科|げか}: surgery\n- {眼科|がんか}: ophthalmology\n- {皮膚科|ひふか}: dermatology",
+  "notes": "Short for ⟦{耳鼻咽喉科|じびいんこうか}→耳鼻咽喉科：23659_jibiinkouka⟧ (otorhinolaryngology). In everyday Japanese, the abbreviated form {耳鼻科|じびか} is far more common. It covers conditions of the ears, nose, throat, and sinuses.\n\nCOMMON COLLOCATIONS:\n- {耳鼻科|じびか}⟦に→に：00314_ni⟧⟦{行|い}く→行く：00119_iku⟧: to go to the ENT\n- {耳鼻科|じびか}⟦を→を：00422_wo⟧⟦{受診|じゅしん}→受診：11890_jushin⟧⟦する→する：00392_suru⟧: to see an ENT doctor\n- {耳鼻科|じびか}⟦の→の：09472_no⟧⟦{先生|せんせい}→先生：00609_sensei⟧: ENT doctor\n- {耳鼻科|じびか}{医|い}: ENT specialist\n\nRELATED WORDS:\n- ⟦{耳鼻咽喉科|じびいんこうか}→耳鼻咽喉科：23659_jibiinkouka⟧: the full formal name of the specialty\n- ⟦{内科|ないか}→内科：04076_naika⟧: internal medicine\n- ⟦{外科|げか}→外科：03983_geka⟧: surgery\n- ⟦{眼科|がんか}→眼科：11071_ganka⟧: ophthalmology\n- ⟦{皮膚科|ひふか}→皮膚科：11073_hifuka⟧: dermatology",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "23659_jibiinkouka",
+      "reading": "じびいんこうか",
+      "headword": "{耳鼻咽喉科|じびいんこうか}",
+      "label": "the full formal name of the specialty"
+    },
+    {
+      "type": "related",
+      "target_id": "04076_naika",
+      "reading": "ないか",
+      "headword": "{内科|ないか}",
+      "label": "internal medicine"
+    },
+    {
+      "type": "related",
+      "target_id": "03983_geka",
+      "reading": "げか",
+      "headword": "{外科|げか}",
+      "label": "surgery"
+    },
+    {
+      "type": "related",
+      "target_id": "11071_ganka",
+      "reading": "がんか",
+      "headword": "{眼科|がんか}",
+      "label": "ophthalmology"
+    },
+    {
+      "type": "related",
+      "target_id": "11073_hifuka",
+      "reading": "ひふか",
+      "headword": "{皮膚科|ひふか}",
+      "label": "dermatology"
+    },
+    {
+      "type": "related",
+      "target_id": "20327_miminari",
+      "reading": "みみなり",
+      "headword": "{耳鳴|みみな}り",
+      "label": "ringing in the ears"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +103,6 @@
       ]
     },
     "created": "2026-04-07T19:16:05Z",
-    "modified": "2026-07-30T15:20:15Z"
+    "modified": "2026-09-02T04:02:10Z"
   }
 }

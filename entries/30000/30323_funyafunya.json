@@ -3,7 +3,7 @@
   "headword": "ふにゃふにゃ",
   "reading": "ふにゃふにゃ",
   "romaji": "funyafunya",
-  "part_of_speech": "onomatopoeia",
+  "part_of_speech": "onomatopoeia, adverb",
   "gloss": "soft and limp; floppy; flabby",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30323_funyafunya_ex1",
-      "japanese": "パンがふにゃふにゃになった。",
+      "japanese": "⟦パン→パン：00553_pan⟧⟦が→が：00051_ga⟧ふにゃふにゃになった。",
       "english": "The bread has gone soft and limp.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30323_funyafunya_ex2",
-      "japanese": "{疲|つか}れて{足|あし}がふにゃふにゃだ。",
+      "japanese": "⟦{疲|つか}れて→疲れる：00901_tsukareru⟧⟦{足|あし}→足：00575_ashi⟧⟦が→が：00051_ga⟧ふにゃふにゃだ。",
       "english": "I'm so tired my legs have gone wobbly.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30323_funyafunya_ex3",
-      "japanese": "{時間|じかん}を{置|お}きすぎて、せっかくの{天|てん}ぷらがふにゃふにゃになってしまった。",
+      "japanese": "⟦{時間|じかん}→時間：00468_jikan⟧⟦を→を：00422_wo⟧⟦{置|お}き→置く：01092_oku⟧すぎて、せっかく⟦の→の：09472_no⟧⟦{天|てん}ぷら→天ぷら：04948_tenpura⟧⟦が→が：00051_ga⟧ふにゃふにゃになってしまった。",
       "english": "I left it too long, and the tempura I'd gone to such trouble over went soggy.",
       "sense_numbers": [
         1
@@ -44,8 +44,45 @@
       "notes": null
     }
   ],
-  "notes": "A mimetic word ({擬態語|ぎたいご}). Most often used with なる (to become) or だ, and with に before a verb.\n\nCOMMON PATTERNS:\n- ふにゃふにゃになる: to go soft and limp\n- ふにゃふにゃした〜: soft, floppy (attributive)\n- ふにゃふにゃの{体|からだ}: a limp body\n\nSIMILAR WORDS:\n- ぐにゃぐにゃ: bendy, rubbery — emphasizes bending out of shape rather than losing firmness\n- ふわふわ: fluffy, light — pleasantly soft, whereas ふにゃふにゃ usually sounds negative\n- べちゃべちゃ: soggy and wet — stresses excess moisture",
+  "notes": "A mimetic word (⟦{擬態語|ぎたいご}→擬態語：22468_gitaigo⟧). Most often used with なる (to become) or だ, and with ⟦に→に：00314_ni⟧ before a verb.\n\nCOMMON PATTERNS:\n- ふにゃふにゃ⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧: to go soft and limp\n- ふにゃふにゃ⟦した→する：00392_suru⟧〜: soft, floppy (attributive)\n- ふにゃふにゃ⟦の→の：09472_no⟧⟦{体|からだ}→体：00784_karada⟧: a limp body\n\nSIMILAR WORDS:\n- ⟦ぐにゃぐにゃ→ぐにゃぐにゃ：25196_gunyagunya⟧: bendy, rubbery — emphasizes bending out of shape rather than losing firmness\n- ⟦ふわふわ→ふわふわ：05156_fuwafuwa⟧: fluffy, light — pleasantly soft, whereas ふにゃふにゃ usually sounds negative\n- ⟦べちゃべちゃ→べちゃべちゃ：29025_bechabecha⟧: soggy and wet — stresses excess moisture",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25196_gunyagunya",
+      "reading": "ぐにゃぐにゃ",
+      "headword": "ぐにゃぐにゃ",
+      "label": "bendy, rubbery"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05156_fuwafuwa",
+      "reading": "ふわふわ",
+      "headword": "ふわふわ",
+      "label": "fluffy, light"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29025_bechabecha",
+      "reading": "べちゃべちゃ",
+      "headword": "べちゃべちゃ",
+      "label": "soggy and wet"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21477_henahena",
+      "reading": "へなへな",
+      "headword": "へなへな",
+      "label": "weak"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30302_kunyakunya",
+      "reading": "くにゃくにゃ",
+      "headword": "くにゃくにゃ",
+      "label": "limp"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,6 +99,6 @@
       "domain": []
     },
     "created": "2026-08-02T09:20:18Z",
-    "modified": "2026-08-02T09:20:18Z"
+    "modified": "2026-09-02T04:02:39Z"
   }
 }

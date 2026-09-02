@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22668_tatebue_ex1",
-      "japanese": "{縦笛|たてぶえ}を{吹|ふ}く。",
+      "japanese": "{縦笛|たてぶえ}⟦を→を：00422_wo⟧⟦{吹|ふ}く→吹く：02445_fuku⟧。",
       "english": "To play the recorder.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22668_tatebue_ex2",
-      "japanese": "{小学校|しょうがっこう}の{音楽|おんがく}の{授業|じゅぎょう}で{縦笛|たてぶえ}を{習|なら}った。",
+      "japanese": "⟦{小学校|しょうがっこう}→小学校：01055_shougakkou⟧⟦の→の：09472_no⟧⟦{音楽|おんがく}→音楽：00661_ongaku⟧⟦の→の：09472_no⟧⟦{授業|じゅぎょう}→授業：00781_jugyou⟧⟦で→で：00502_de⟧{縦笛|たてぶえ}⟦を→を：00422_wo⟧⟦{習|なら}った→習う：00479_narau⟧。",
       "english": "I learned the recorder in elementary school music class.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22668_tatebue_ex3",
-      "japanese": "{子供|こども}のころに{使|つか}っていた{縦笛|たてぶえ}が{引|ひ}き{出|だ}しから{出|で}てきて{懐|なつ}かしくなった。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧⟦の→の：09472_no⟧⟦ころ→〜ころ：03091_koro⟧⟦に→に：00314_ni⟧⟦{使|つか}っていた→使う：00473_tsukau⟧{縦笛|たてぶえ}⟦が→が：00051_ga⟧⟦{引|ひ}き{出|だ}し→引き出す：03002_hikidasu⟧⟦から→から：00504_kara⟧⟦{出|で}て→出る：00513_deru⟧きて⟦{懐|なつ}かしく→懐かしい：02484_natsukashii⟧⟦なった→なる：01970_naru⟧。",
       "english": "The recorder I used as a child turned up in a drawer and made me feel nostalgic.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {縦|たて} (vertical) and {笛|ぶえ} (flute), contrasting with {横笛|よこぶえ} (transverse flute, held horizontally). In everyday usage, almost always refers to the plastic soprano recorder (リコーダー) that is standard equipment in Japanese elementary school music education.\n\nCOMMON COLLOCATIONS:\n- {縦笛|たてぶえ}を{吹|ふ}く: to play the recorder\n- {縦笛|たてぶえ}の{練習|れんしゅう}: recorder practice\n- ソプラノ{縦笛|たてぶえ}: soprano recorder\n\nSIMILAR WORDS:\n- リコーダー: recorder (loanword) — the more common modern term for the plastic school instrument\n- {横笛|よこぶえ}: transverse flute — held sideways; includes Western flutes and traditional Japanese {篠笛|しのぶえ}\n- {笛|ふえ}: flute/whistle — generic term for any wind instrument of this type",
+  "notes": "A compound of ⟦{縦|たて}→縦：17236_tate⟧ (vertical) and {笛|ぶえ} (flute), contrasting with ⟦{横笛|よこぶえ}→横笛：22502_yokobue⟧ (transverse flute, held horizontally). In everyday usage, almost always refers to the plastic soprano recorder (⟦リコーダー→リコーダー：28505_rikoodaa⟧) that is standard equipment in Japanese elementary school music education.\n\nCOMMON COLLOCATIONS:\n- {縦笛|たてぶえ}⟦を→を：00422_wo⟧⟦{吹|ふ}く→吹く：02445_fuku⟧: to play the recorder\n- {縦笛|たてぶえ}⟦の→の：09472_no⟧⟦{練習|れんしゅう}→練習：05323_renshuu⟧: recorder practice\n- ソプラノ{縦笛|たてぶえ}: soprano recorder\n\nSIMILAR WORDS:\n- ⟦リコーダー→リコーダー：28505_rikoodaa⟧: recorder (loanword) — the more common modern term for the plastic school instrument\n- ⟦{横笛|よこぶえ}→横笛：22502_yokobue⟧: transverse flute — held sideways; includes Western flutes and traditional Japanese ⟦{篠笛|しのぶえ}→篠笛：28761_shinobue⟧\n- ⟦{笛|ふえ}→笛：03593_fue⟧: flute/whistle — generic term for any wind instrument of this type",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "28505_rikoodaa",
+      "reading": "りこーだー",
+      "headword": "リコーダー",
+      "label": "recorder"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22502_yokobue",
+      "reading": "よこぶえ",
+      "headword": "{横笛|よこぶえ}",
+      "label": "transverse flute"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -57,9 +73,9 @@
         "education"
       ],
       "formality": "neutral",
-      "politeness": null
+      "politeness": "plain"
     },
     "created": "2026-04-06T21:29:23Z",
-    "modified": "2026-04-06T21:29:23Z"
+    "modified": "2026-09-02T04:02:09Z"
   }
 }

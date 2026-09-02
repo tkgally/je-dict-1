@@ -3,7 +3,7 @@
   "headword": "{余|あま}すところなく",
   "reading": "あますところなく",
   "romaji": "amasutokoronaku",
-  "part_of_speech": "expression",
+  "part_of_speech": "expression, adverb",
   "gloss": "completely; without omission; in full; leaving nothing out",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25918_amasutokoronaku_ex1",
-      "japanese": "{才能|さいのう}を{余|あま}すところなく{発揮|はっき}した。",
+      "japanese": "⟦{才能|さいのう}→才能：02772_sainou⟧⟦を→を：00422_wo⟧{余|あま}すところなく⟦{発揮|はっき}した→発揮する：17267_hakkisuru⟧。",
       "english": "He demonstrated his talent to the fullest.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25918_amasutokoronaku_ex2",
-      "japanese": "この{本|ほん}は{日本|にほん}の{歴史|れきし}を{余|あま}すところなく{紹介|しょうかい}している。",
+      "japanese": "⟦この→この：00962_kono⟧{本|ほん}⟦は→は：00079_ha⟧⟦{日本|にほん}→日本：03876_nihon⟧⟦の→の：09472_no⟧⟦{歴史|れきし}→歴史：02267_rekishi⟧⟦を→を：00422_wo⟧{余|あま}すところなく⟦{紹介|しょうかい}している→紹介する：05641_shoukaisuru⟧。",
       "english": "This book introduces Japanese history in its entirety.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25918_amasutokoronaku_ex3",
-      "japanese": "{素材|そざい}の{味|あじ}を{余|あま}すところなく{引|ひ}き{出|だ}す{料理法|りょうりほう}を{学|まな}びたい。",
+      "japanese": "⟦{素材|そざい}→素材：09492_sozai⟧⟦の→の：09472_no⟧⟦{味|あじ}→味：00826_aji⟧⟦を→を：00422_wo⟧{余|あま}すところなく⟦{引|ひ}き{出|だ}す→引き出す：03002_hikidasu⟧⟦{料理法|りょうりほう}→料理法：26096_ryourihou⟧⟦を→を：00422_wo⟧⟦{学|まな}びたい→学ぶ：01987_manabu⟧。",
       "english": "I want to learn cooking techniques that bring out the full flavor of the ingredients.",
       "sense_numbers": [
         1
@@ -44,8 +44,30 @@
       "notes": null
     }
   ],
-  "notes": "Literally \"leaving no remainder,\" from {余|あま}す (to leave over) + ところ (aspect; part) + なく (without). A somewhat literary adverbial expression that emphasizes thoroughness and completeness. Often used in written or formal speech.\n\nCOMMON COLLOCATIONS:\n- {才能|さいのう}を{余|あま}すところなく{発揮|はっき}する: to demonstrate one's talent fully\n- {魅力|みりょく}を{余|あま}すところなく{伝|つた}える: to convey the appeal completely\n- {余|あま}すところなく{紹介|しょうかい}する: to introduce in full\n- {力|ちから}を{余|あま}すところなく{出|だ}す: to put out all one's strength\n\nSIMILAR WORDS:\n- {残|のこ}らず: without exception; all of them — focuses on not leaving any items behind\n- {十分|じゅうぶん}に: sufficiently; fully — less emphatic, more everyday\n- くまなく: thoroughly; in every corner — emphasizes searching or covering every area",
-  "cross_references": [],
+  "notes": "Literally \"leaving no remainder,\" from ⟦{余|あま}す→余す：27283_amasu⟧ (to leave over) + ⟦ところ→ところ：01137_tokoro⟧ (aspect; part) + ⟦なく→ない：01118_nai⟧ (without). A somewhat literary adverbial expression that emphasizes thoroughness and completeness. Often used in written or formal speech.\n\nCOMMON COLLOCATIONS:\n- ⟦{才能|さいのう}→才能：02772_sainou⟧⟦を→を：00422_wo⟧{余|あま}すところなく⟦{発揮|はっき}する→発揮する：17267_hakkisuru⟧: to demonstrate one's talent fully\n- ⟦{魅力|みりょく}→魅力：03749_miryoku⟧⟦を→を：00422_wo⟧{余|あま}すところなく⟦{伝|つた}える→伝える：01220_tsutaeru⟧: to convey the appeal completely\n- {余|あま}すところなく⟦{紹介|しょうかい}する→紹介する：05641_shoukaisuru⟧: to introduce in full\n- ⟦{力|ちから}→力：01661_chikara⟧⟦を→を：00422_wo⟧{余|あま}すところなく⟦{出|だ}す→出す：01087_dasu⟧: to put out all one's strength\n\nSIMILAR WORDS:\n- ⟦{残|のこ}ら→残る：01187_nokoru⟧ず: without exception; all of them — focuses on not leaving any items behind\n- ⟦{十分|じゅうぶん}→十分：01614_juubun⟧⟦に→に：00314_ni⟧: sufficiently; fully — less emphatic, more everyday\n- ⟦くまなく→くまなく：10332_kumanaku⟧: thoroughly; in every corner — emphasizes searching or covering every area",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06954_nokorazu",
+      "reading": "のこらず",
+      "headword": "{残|のこ}らず",
+      "label": "without exception"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27258_juubunni",
+      "reading": "じゅうぶんに",
+      "headword": "{十分|じゅうぶん}に",
+      "label": "sufficiently"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10332_kumanaku",
+      "reading": "くまなく",
+      "headword": "くまなく",
+      "label": "thoroughly"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -54,11 +76,12 @@
         "expression",
         "adverb"
       ],
+      "politeness": "plain",
       "semantic": [
         "quantity"
       ]
     },
     "created": "2026-04-28T12:24:19Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T04:02:24Z"
   }
 }

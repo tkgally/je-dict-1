@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08342_kowagari_ex1",
-      "japanese": "{私|わたし}は{怖|こわ}がりでホラー{映画|えいが}が{見|み}られない。",
+      "japanese": "⟦{私|わたし}→私：02988_watashi⟧⟦は→は：00079_ha⟧{怖|こわ}がり⟦で→で：00502_de⟧⟦ホラー{映画|えいが}→ホラー映画：25725_horaaeiga⟧⟦が→が：00051_ga⟧⟦{見|み}られない→見る：00283_miru⟧。",
       "english": "I'm a scaredy-cat and can't watch horror movies.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "08342_kowagari_ex2",
-      "japanese": "{怖|こわ}がりだけど{勇気|ゆうき}を{出|だ}してお{化|ば}け{屋敷|やしき}に{入|はい}った。",
+      "japanese": "{怖|こわ}がりだ⟦けど→けど：09477_kedo⟧⟦{勇気|ゆうき}→勇気：02499_yuuki⟧⟦を→を：00422_wo⟧⟦{出|だ}して→出す：01087_dasu⟧⟦お{化|ば}け{屋敷|やしき}→お化け屋敷：18623_obakeyashiki⟧⟦に→に：00314_ni⟧⟦{入|はい}った→入る：00494_hairu⟧。",
       "english": "I'm easily scared, but I gathered my courage and went into the haunted house.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "08342_kowagari_ex3",
-      "japanese": "{子供|こども}の{頃|ころ}は{怖|こわ}がりで、{暗|くら}い{部屋|へや}に{一人|ひとり}で{入|はい}れなかった。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧⟦の→の：09472_no⟧{頃|ころ}⟦は→は：00079_ha⟧{怖|こわ}がり⟦で→で：00502_de⟧、⟦{暗|くら}い→暗い：00647_kurai⟧⟦{部屋|へや}→部屋：00507_heya⟧⟦に→に：00314_ni⟧⟦{一人|ひとり}→一人：00630_hitori⟧⟦で→で：00502_de⟧⟦{入|はい}れ→入る：00494_hairu⟧なかった。",
       "english": "As a child, I was easily frightened and couldn't go into dark rooms alone.",
       "sense_numbers": [
         1
@@ -43,7 +43,7 @@
       "notes": null
     }
   ],
-  "notes": "FORMATION:\n{怖|こわ}がる (to be scared) + り (nominalizer) → a person who gets scared\n\nGRAMMAR:\nFormed from the verb {怖|こわ}がる (to be scared/to fear), using the stem + り pattern that creates a noun describing a person with that tendency.\n\nSIMILAR FORMATIONS:\n- {寂|さび}しがり{屋|や} (person who gets lonely easily)\n- {恥|は}ずかしがり{屋|や} (shy person)\n- {照|て}れ{屋|や} (easily embarrassed person)\n\nNote: {怖|こわ}がり can stand alone, while other similar words often add {屋|や}.\n\nRELATED EXPRESSIONS:\n- {臆病|おくびょう} (cowardly, timid)\n- ビビり (scaredy-cat - slang)\n- {小心者|しょうしんもの} (timid person)",
+  "notes": "FORMS:\n{怖|こわ}がる (to be scared) + り (nominalizer) → a person who gets scared\n\nCOMMON PATTERNS:\nFormed from the verb {怖|こわ}がる (to be scared/to fear), using the stem + り pattern that creates a noun describing a person with that tendency.\n\nSIMILAR FORMATIONS:\n- {寂|さび}し⟦がり→ガリ：27408_gari⟧⟦{屋|や}→〜屋：03096_ya⟧ (person who gets lonely easily)\n- {恥|は}ずかし⟦がり→ガリ：27408_gari⟧⟦{屋|や}→〜屋：03096_ya⟧ (shy person)\n- ⟦{照|て}れ{屋|や}→照れ屋：18529_tereya⟧ (easily embarrassed person)\n\nNote: {怖|こわ}がり can stand alone, while other similar words often add ⟦{屋|や}→〜屋：03096_ya⟧.\n\nRELATED WORDS:\n- ⟦{臆病|おくびょう}→臆病：07608_okubyou⟧ (cowardly, timid)\n- ビビり (scaredy-cat - slang)\n- ⟦{小心者|しょうしんもの}→小心者：18645_shoushinmono⟧ (timid person)",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -52,13 +52,14 @@
         "adjective-na"
       ],
       "formality": "informal",
+      "politeness": "plain",
       "semantic": [
         "personality",
         "emotion"
       ]
     },
     "created": "2026-01-26T04:20:09Z",
-    "modified": "2026-04-20T06:28:06Z"
+    "modified": "2026-09-02T04:01:14Z"
   },
   "cross_references": [
     {
@@ -67,6 +68,27 @@
       "reading": "おくびょう",
       "headword": "{臆病|おくびょう}",
       "label": "cowardly, timid"
+    },
+    {
+      "type": "related",
+      "target_id": "18645_shoushinmono",
+      "reading": "しょうしんもの",
+      "headword": "{小心者|しょうしんもの}",
+      "label": "timid person"
+    },
+    {
+      "type": "related",
+      "target_id": "16865_samugari",
+      "reading": "さむがり",
+      "headword": "{寒|さむ}がり",
+      "label": "person sensitive to the cold"
+    },
+    {
+      "type": "related",
+      "target_id": "16866_atsugari",
+      "reading": "あつがり",
+      "headword": "{暑|あつ}がり",
+      "label": "person sensitive to the heat"
     }
   ]
 }

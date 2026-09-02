@@ -3,7 +3,7 @@
   "headword": "{売|う}りさばく",
   "reading": "うりさばく",
   "romaji": "urisabaku",
-  "part_of_speech": "verb-godan",
+  "part_of_speech": "verb (godan)",
   "gloss": "to sell off; to dispose of by selling",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28318_urisabaku_ex1",
-      "japanese": "{在庫|ざいこ}を{売|う}りさばいた。",
+      "japanese": "⟦{在庫|ざいこ}→在庫：04701_zaiko⟧⟦を→を：00422_wo⟧{売|う}りさばいた。",
       "english": "We sold off the inventory.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28318_urisabaku_ex2",
-      "japanese": "{犯人|はんにん}は{盗品|とうひん}をネットで{売|う}りさばいていた。",
+      "japanese": "⟦{犯人|はんにん}→犯人：03572_hannin⟧⟦は→は：00079_ha⟧⟦{盗品|とうひん}→盗品：28317_touhin⟧⟦を→を：00422_wo⟧⟦ネット→ネット：05279_netto⟧⟦で→で：00502_de⟧{売|う}りさばいて⟦いた→いる：00495_iru⟧。",
       "english": "The perpetrator was selling stolen goods online.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28318_urisabaku_ex3",
-      "japanese": "{安|やす}く{仕入|しい}れた{商品|しょうひん}を{短期間|たんきかん}で{売|う}りさばいて{利益|りえき}を{上|あ}げた。",
+      "japanese": "⟦{安|やす}く→安い：00464_yasui⟧⟦{仕入|しい}れた→仕入れる：11430_shiireru⟧⟦{商品|しょうひん}→商品：01436_shouhin⟧⟦を→を：00422_wo⟧⟦{短期間|たんきかん}→短期間：17178_tankikan⟧⟦で→で：00502_de⟧{売|う}りさばいて⟦{利益|りえき}→利益：03673_rieki⟧⟦を→を：00422_wo⟧⟦{上|あ}げた→上げる：02443_ageru⟧。",
       "english": "We made a profit by selling off cheaply procured goods in a short period.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {売|う}る (to sell) + さばく (to handle, dispose of, work through). The さばく element conveys efficiency and completeness — selling through everything.\n\nTRANSITIVITY:\nTransitive. Takes a direct object marked with を: {商品|しょうひん}を{売|う}りさばく.\n\nCOMMON COLLOCATIONS:\n- {在庫|ざいこ}を{売|う}りさばく: to sell off inventory\n- {盗品|とうひん}を{売|う}りさばく: to fence stolen goods\n- {商品|しょうひん}を{売|う}りさばく: to dispose of merchandise by selling\n- {安|やす}く{売|う}りさばく: to sell off cheaply\n\nSIMILAR WORDS:\n- {売|う}る: to sell — neutral, no nuance of clearing or volume\n- {売|う}り{切|き}る: to sell out — completion focus, often by seller's effort\n- {処分|しょぶん}する: to dispose of — broader, includes discarding, not just selling",
+  "notes": "Compound of ⟦{売|う}る→売る：00906_uru⟧ (to sell) + さばく (to handle, dispose of, work through). The さばく element conveys efficiency and completeness — selling through everything.\n\nTRANSITIVITY:\nTransitive. Takes a direct object marked with ⟦を→を：00422_wo⟧: ⟦{商品|しょうひん}→商品：01436_shouhin⟧⟦を→を：00422_wo⟧{売|う}りさばく.\n\nCOMMON COLLOCATIONS:\n- ⟦{在庫|ざいこ}→在庫：04701_zaiko⟧⟦を→を：00422_wo⟧{売|う}りさばく: to sell off inventory\n- ⟦{盗品|とうひん}→盗品：28317_touhin⟧⟦を→を：00422_wo⟧{売|う}りさばく: to fence stolen goods\n- ⟦{商品|しょうひん}→商品：01436_shouhin⟧⟦を→を：00422_wo⟧{売|う}りさばく: to dispose of merchandise by selling\n- ⟦{安|やす}く→安い：00464_yasui⟧{売|う}りさばく: to sell off cheaply\n\nSIMILAR WORDS:\n- ⟦{売|う}る→売る：00906_uru⟧: to sell — neutral, no nuance of clearing or volume\n- ⟦{売|う}り→売る：00906_uru⟧⟦{切|き}る→切る：02693_kiru⟧: to sell out — completion focus, often by seller's effort\n- ⟦{処分|しょぶん}→処分：05520_shobun⟧⟦する→する：00392_suru⟧: to dispose of — broader, includes discarding, not just selling",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00906_uru",
+      "reading": "うる",
+      "headword": "{売|う}る",
+      "label": "to sell"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05520_shobun",
+      "reading": "しょぶん",
+      "headword": "{処分|しょぶん}",
+      "label": "to dispose of"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,15 +69,16 @@
         "verb-godan"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "business"
       ],
       "domain": [],
-      "verb_class": "godan-ku"
+      "verb_class": "godan-ku",
+      "transitivity": "transitive"
     },
     "created": "2026-05-29T02:11:21Z",
-    "modified": "2026-08-08T03:27:39Z"
+    "modified": "2026-09-02T04:02:33Z"
   },
   "conjugation": {
     "type": "godan",

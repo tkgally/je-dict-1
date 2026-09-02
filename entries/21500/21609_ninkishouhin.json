@@ -15,40 +15,73 @@
   "examples": [
     {
       "id": "21609_ninkishouhin_ex1",
-      "japanese": "これは{人気|にんき}{商品|しょうひん}です。",
+      "japanese": "⟦これ→これ：00963_kore⟧⟦は→は：00079_ha⟧{人気|にんき}{商品|しょうひん}です。",
       "english": "This is a popular product.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21609_ninkishouhin_ex2",
-      "japanese": "{人気|にんき}{商品|しょうひん}はすぐに{売|う}り{切|き}れる。",
+      "japanese": "{人気|にんき}{商品|しょうひん}⟦は→は：00079_ha⟧⟦すぐ→すぐ：00814_sugu⟧⟦に→に：00314_ni⟧⟦{売|う}り{切|き}れる→売り切れる：03012_urikireru⟧。",
       "english": "Popular products sell out quickly.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21609_ninkishouhin_ex3",
-      "japanese": "このお{店|みせ}の{人気|にんき}{商品|しょうひん}ランキングを{見|み}てから{買|か}い{物|もの}しよう。",
+      "japanese": "⟦この→この：00962_kono⟧⟦お{店|みせ}→お店：21164_omise⟧⟦の→の：09472_no⟧{人気|にんき}{商品|しょうひん}⟦ランキング→ランキング：11195_rankingu⟧⟦を→を：00422_wo⟧⟦{見|み}て→見る：00283_miru⟧⟦から→から：00504_kara⟧⟦{買|か}い{物|もの}→買い物：00853_kaimono⟧⟦しよう→する：00392_suru⟧。",
       "english": "Let's check this store's popular products ranking before shopping.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A very common compound frequently seen in stores, online shopping, and advertising.\n\nCOMMON COLLOCATIONS:\n- {人気|にんき}{商品|しょうひん}ランキング: popular product ranking\n- {人気|にんき}{商品|しょうひん}{紹介|しょうかい}: popular product introduction\n- {当店|とうてん}の{人気|にんき}{商品|しょうひん}: our store's popular products\n- {人気|にんき}{商品|しょうひん}トップ10: top 10 popular products\n\nSIMILAR WORDS:\n- {売|う}れ{筋|すじ}{商品|しょうひん}: best-selling product — emphasizes actual sales volume\n- ヒット{商品|しょうひん}: hit product — implies a breakout success\n- {定番|ていばん}{商品|しょうひん}: standard/staple product — popular and consistently available\n- ロングセラー: long-seller — popular over a long period\n\nFORMATION:\n{人気|にんき} (popularity) + {商品|しょうひん} (product, merchandise).",
+  "notes": "A very common compound frequently seen in stores, online shopping, and advertising.\n\nCOMMON COLLOCATIONS:\n- {人気|にんき}{商品|しょうひん}⟦ランキング→ランキング：11195_rankingu⟧: popular product ranking\n- {人気|にんき}{商品|しょうひん}⟦{紹介|しょうかい}→紹介：01432_shoukai⟧: popular product introduction\n- {当店|とうてん}⟦の→の：09472_no⟧{人気|にんき}{商品|しょうひん}: our store's popular products\n- {人気|にんき}{商品|しょうひん}⟦トップ→トップ：03862_toppu⟧10: top 10 popular products\n\nSIMILAR WORDS:\n- ⟦{売|う}れ{筋|すじ}→売れ筋：19249_uresuji⟧⟦{商品|しょうひん}→商品：01436_shouhin⟧: best-selling product — emphasizes actual sales volume\n- ⟦ヒット→ヒット：11161_hitto⟧⟦{商品|しょうひん}→商品：01436_shouhin⟧: hit product — implies a breakout success\n- ⟦{定番|ていばん}{商品|しょうひん}→定番商品：20528_teibanshouhin⟧: standard/staple product — popular and consistently available\n- ⟦ロングセラー→ロングセラー：11216_ronguseraa⟧: long-seller — popular over a long period\n\nFORMS:\n⟦{人気|にんき}→人気：01488_ninki⟧ (popularity) + ⟦{商品|しょうひん}→商品：01436_shouhin⟧ (product, merchandise).",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20528_teibanshouhin",
+      "reading": "ていばんしょうひん",
+      "headword": "{定番商品|ていばんしょうひん}",
+      "label": "standard/staple product"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11216_ronguseraa",
+      "reading": "ろんぐせらー",
+      "headword": "ロングセラー",
+      "label": "long-seller"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19249_uresuji",
+      "reading": "うれすじ",
+      "headword": "{売|う}れ{筋|すじ}",
+      "label": "best seller"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["shopping"]
+      "semantic": [
+        "shopping"
+      ]
     },
     "created": "2026-04-02T18:12:49Z",
-    "modified": "2026-04-02T18:12:49Z"
+    "modified": "2026-09-02T04:02:04Z"
   }
 }

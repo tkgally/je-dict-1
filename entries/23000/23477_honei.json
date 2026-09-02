@@ -15,40 +15,74 @@
   "examples": [
     {
       "id": "23477_honei_ex1",
-      "japanese": "{将軍|しょうぐん}は{本営|ほんえい}に{戻|もど}った。",
+      "japanese": "⟦{将軍|しょうぐん}→将軍：12386_shougun⟧⟦は→は：00079_ha⟧{本営|ほんえい}⟦に→に：00314_ni⟧⟦{戻|もど}った→戻る：01117_modoru⟧。",
       "english": "The general returned to headquarters.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "23477_honei_ex2",
-      "japanese": "{大本営|だいほんえい}から{命令|めいれい}が{下|くだ}された。",
+      "japanese": "{大本営|だいほんえい}⟦から→から：00504_kara⟧⟦{命令|めいれい}→命令：03754_meirei⟧⟦が→が：00051_ga⟧⟦{下|くだ}された→下す：12329_kudasu⟧。",
       "english": "Orders were issued from the Imperial General Headquarters.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "23477_honei_ex3",
-      "japanese": "{選挙|せんきょ}{運動|うんどう}の{本営|ほんえい}を{駅前|えきまえ}に{構|かま}えた。",
+      "japanese": "⟦{選挙|せんきょ}{運動|うんどう}→選挙運動：26087_senkyoundou⟧⟦の→の：09472_no⟧{本営|ほんえい}⟦を→を：00422_wo⟧⟦{駅前|えきまえ}→駅前：09593_ekimae⟧⟦に→に：00314_ni⟧⟦{構|かま}えた→構える：09567_kamaeru⟧。",
       "english": "They set up their campaign headquarters in front of the station.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {本|ほん} (main, head) and {営|えい} (camp, barracks). Originally referred to the main camp of a commanding officer during wartime, now also used figuratively for any central base of operations.\n\nCOMMON COLLOCATIONS:\n- {本営|ほんえい}を{置|お}く: to establish headquarters\n- {本営|ほんえい}を{構|かま}える: to set up headquarters\n- {本営|ほんえい}に{報告|ほうこく}する: to report to headquarters\n- {大本営|だいほんえい}: Imperial General Headquarters (WWII)\n\nHISTORICAL NOTE:\n{大本営|だいほんえい} (Imperial General Headquarters) was the supreme military command center during World War II. The expression {大本営発表|だいほんえいはっぴょう} (Imperial Headquarters announcement) is now used sarcastically to mean 'official announcement that distorts the truth,' since wartime communiqués often exaggerated successes and concealed defeats.\n\nSIMILAR WORDS:\n- {本部|ほんぶ}: headquarters — the most common modern term for organizational or corporate headquarters; {本営|ほんえい} retains a stronger military or campaign connotation\n- {司令部|しれいぶ}: command post — specifically a military command center\n- {拠点|きょてん}: base, stronghold — a more general term for any operational base",
+  "notes": "A compound of {本|ほん} (main, head) and {営|えい} (camp, barracks). Originally referred to the main camp of a commanding officer during wartime, now also used figuratively for any central base of operations.\n\nCOMMON COLLOCATIONS:\n- {本営|ほんえい}⟦を→を：00422_wo⟧⟦{置|お}く→置く：01092_oku⟧: to establish headquarters\n- {本営|ほんえい}⟦を→を：00422_wo⟧⟦{構|かま}える→構える：09567_kamaeru⟧: to set up headquarters\n- {本営|ほんえい}⟦に→に：00314_ni⟧⟦{報告|ほうこく}する→報告する：05644_houkokusuru⟧: to report to headquarters\n- {大本営|だいほんえい}: Imperial General Headquarters (WWII)\n\nETYMOLOGY:\n{大本営|だいほんえい} (Imperial General Headquarters) was the supreme military command center during World War II. The expression {大本営発表|だいほんえいはっぴょう} (Imperial Headquarters announcement) is now used sarcastically to mean 'official announcement that distorts the truth,' since wartime communiqués often exaggerated successes and concealed defeats.\n\nSIMILAR WORDS:\n- ⟦{本部|ほんぶ}→本部：00112_honbu⟧: headquarters — the most common modern term for organizational or corporate headquarters; {本営|ほんえい} retains a stronger military or campaign connotation\n- ⟦{司令部|しれいぶ}→司令部：18450_shireibu⟧: command post — specifically a military command center\n- ⟦{拠点|きょてん}→拠点：05628_kyoten⟧: base, stronghold — a more general term for any operational base",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00112_honbu",
+      "reading": "ほんぶ",
+      "headword": "{本部|ほんぶ}",
+      "label": "headquarters"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18450_shireibu",
+      "reading": "しれいぶ",
+      "headword": "{司令部|しれいぶ}",
+      "label": "command post"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05628_kyoten",
+      "reading": "きょてん",
+      "headword": "{拠点|きょてん}",
+      "label": "base, stronghold"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["military", "politics"]
+      "semantic": [
+        "military",
+        "politics"
+      ]
     },
     "created": "2026-04-12T07:49:33Z",
-    "modified": "2026-04-12T07:49:33Z"
+    "modified": "2026-09-02T04:02:13Z"
   }
 }

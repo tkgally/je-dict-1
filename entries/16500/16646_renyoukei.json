@@ -15,41 +15,73 @@
   "examples": [
     {
       "id": "16646_renyoukei_ex1",
-      "japanese": "「{書|か}き」は「{書|か}く」の{連用形|れんようけい}だ。",
+      "japanese": "「{書|か}き」⟦は→は：00079_ha⟧「⟦{書|か}く→書く：00477_kaku⟧」⟦の→の：09472_no⟧{連用形|れんようけい}だ。",
       "english": "\"Kaki\" is the continuative form of \"kaku.\"",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16646_renyoukei_ex2",
-      "japanese": "{連用形|れんようけい}は「ます」の{前|まえ}に{来|く}る{形|かたち}だ。",
+      "japanese": "{連用形|れんようけい}⟦は→は：00079_ha⟧「ます」⟦の→の：09472_no⟧⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧⟦{来|く}る→来る：00254_kuru⟧⟦{形|かたち}→形：02193_katachi⟧だ。",
       "english": "The continuative form is the form that comes before \"masu.\"",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16646_renyoukei_ex3",
-      "japanese": "{動詞|どうし}の{連用形|れんようけい}は{名詞|めいし}として{使|つか}われることもある。",
+      "japanese": "⟦{動詞|どうし}→動詞：03472_doushi⟧⟦の→の：09472_no⟧{連用形|れんようけい}⟦は→は：00079_ha⟧⟦{名詞|めいし}→名詞：10420_meishi⟧⟦として→として：06802_toshite⟧⟦{使|つか}われる→使う：00473_tsukau⟧こと⟦も→も：00484_mo⟧⟦ある→ある：00006_aru⟧。",
       "english": "The continuative form of a verb can also be used as a noun.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nA fundamental term in Japanese grammar. The {連用形|れんようけい} connects to auxiliary verbs (ます, た, たい), forms compound verbs, and joins clauses in formal or literary writing. For godan verbs, the {連用形|れんようけい} varies by conjugation class; for ichidan verbs, it is the stem without る.\n\nCOMMON COLLOCATIONS:\n- {連用形|れんようけい}{接続|せつぞく} (continuative-form connection)\n- {動詞|どうし}の{連用形|れんようけい} (continuative form of a verb)\n- {形容詞|けいようし}の{連用形|れんようけい} (continuative form of an adjective)\n\nSIMILAR WORDS:\n- {終止形|しゅうしけい}: terminal form — the dictionary form of verbs\n- {未然形|みぜんけい}: irrealis form — the form before ない or れる",
-  "cross_references": [],
+  "notes": "USAGE:\nA fundamental term in Japanese grammar. The {連用形|れんようけい} connects to auxiliary verbs (ます, た, たい), forms compound verbs, and joins clauses in formal or literary writing. For godan verbs, the {連用形|れんようけい} varies by conjugation class; for ichidan verbs, it is the stem without る.\n\nCOMMON COLLOCATIONS:\n- {連用形|れんようけい}⟦{接続|せつぞく}→接続：04367_setsuzoku⟧ (continuative-form connection)\n- ⟦{動詞|どうし}→動詞：03472_doushi⟧⟦の→の：09472_no⟧{連用形|れんようけい} (continuative form of a verb)\n- ⟦{形容詞|けいようし}→形容詞：10419_keiyoushi⟧⟦の→の：09472_no⟧{連用形|れんようけい} (continuative form of an adjective)\n\nSIMILAR WORDS:\n- ⟦{終止形|しゅうしけい}→終止形：23611_shuushikei⟧: terminal form — the dictionary form of verbs\n- ⟦{未然形|みぜんけい}→未然形：23610_mizenkei⟧: irrealis form — the form before ⟦ない→ない：01118_nai⟧ or れる",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23611_shuushikei",
+      "reading": "しゅうしけい",
+      "headword": "{終止形|しゅうしけい}",
+      "label": "terminal form"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23610_mizenkei",
+      "reading": "みぜんけい",
+      "headword": "{未然形|みぜんけい}",
+      "label": "irrealis form"
+    },
+    {
+      "type": "related",
+      "target_id": "23612_rentaikei",
+      "reading": "れんたいけい",
+      "headword": "{連体形|れんたいけい}",
+      "label": "attributive form"
+    }
+  ],
   "metadata": {
     "created": "2026-03-14T02:12:10Z",
-    "modified": "2026-04-10T07:12:46Z",
+    "modified": "2026-09-02T04:01:45Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["language"]
+      "semantic": [
+        "language"
+      ]
     }
   }
 }

@@ -14,39 +14,59 @@
   "examples": [
     {
       "id": "07856_sanmyaku_ex1",
-      "japanese": "アルプス{山脈|さんみゃく}は{美|うつく}しい。",
+      "japanese": "アルプス{山脈|さんみゃく}⟦は→は：00079_ha⟧⟦{美|うつく}しい→美しい：01121_utsukushii⟧。",
       "english": "The Alps mountain range is beautiful.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "07856_sanmyaku_ex2",
-      "japanese": "{飛行機|ひこうき}から{山脈|さんみゃく}が{見|み}えた。",
+      "japanese": "⟦{飛行機|ひこうき}→飛行機：00629_hikouki⟧⟦から→から：00504_kara⟧{山脈|さんみゃく}⟦が→が：00051_ga⟧⟦{見|み}えた→見える：01165_mieru⟧。",
       "english": "I could see the mountain range from the airplane.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "07856_sanmyaku_ex3",
-      "japanese": "この{山脈|さんみゃく}は{日本|にほん}の{背骨|せぼね}と{呼|よ}ばれている。",
+      "japanese": "⟦この→この：00962_kono⟧{山脈|さんみゃく}⟦は→は：00079_ha⟧⟦{日本|にほん}→日本：03876_nihon⟧⟦の→の：09472_no⟧⟦{背骨|せぼね}→背骨：17397_sebone⟧⟦と→と：00512_to⟧⟦{呼|よ}ばれている→呼ぶ：00766_yobu⟧。",
       "english": "This mountain range is called the backbone of Japan.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "{山脈|さんみゃく} refers to a connected series of mountains.\n\nCOMPOSITION:\n- {山|さん}: Mountain\n- {脈|みゃく}: Vein, chain, connection\n\nJAPAN'S MAJOR MOUNTAIN RANGES:\n- {日本|にほん}アルプス: Japanese Alps (general term)\n  - {飛騨山脈|ひださんみゃく} (Northern Alps)\n  - {木曽山脈|きそさんみゃく} (Central Alps)\n  - {赤石山脈|あかいしさんみゃく} (Southern Alps)\n- {奥羽山脈|おううさんみゃく}: Runs through Tohoku\n\nWORLD FAMOUS RANGES:\n- アルプス{山脈|さんみゃく}: The Alps\n- ヒマラヤ{山脈|さんみゃく}: The Himalayas\n- ロッキー{山脈|さんみゃく}: The Rocky Mountains\n- アンデス{山脈|さんみゃく}: The Andes\n\nRELATED GEOGRAPHIC TERMS:\n- {山地|さんち}: Mountainous area\n- {山系|さんけい}: Mountain system\n- {連山|れんざん}: Mountain chain\n\nREGISTER: Neutral. Geographic/academic vocabulary.",
+  "notes": "{山脈|さんみゃく} refers to a connected series of mountains.\n\nETYMOLOGY:\n- {山|さん}: Mountain\n- ⟦{脈|みゃく}→脈：05247_myaku⟧: Vein, chain, connection\n\nJAPAN'S MAJOR MOUNTAIN RANGES:\n- ⟦{日本|にほん}→日本：03876_nihon⟧アルプス: Japanese Alps (general term)\n  - {飛騨山脈|ひださんみゃく} (Northern Alps)\n  - {木曽山脈|きそさんみゃく} (Central Alps)\n  - {赤石山脈|あかいしさんみゃく} (Southern Alps)\n- {奥羽山脈|おううさんみゃく}: Runs through Tohoku\n\nWORLD FAMOUS RANGES:\n- アルプス{山脈|さんみゃく}: The Alps\n- ヒマラヤ{山脈|さんみゃく}: The Himalayas\n- ロッキー{山脈|さんみゃく}: The Rocky Mountains\n- アンデス{山脈|さんみゃく}: The Andes\n\nRELATED GEOGRAPHIC TERMS:\n- ⟦{山地|さんち}→山地：12647_sanchi⟧: Mountainous area\n- {山系|さんけい}: Mountain system\n- {連山|れんざん}: Mountain chain\n\nREGISTER: Neutral. Geographic/academic vocabulary.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "12647_sanchi",
+      "reading": "さんち",
+      "headword": "{山地|さんち}",
+      "label": "Mountainous area"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["geography", "nature"]
+      "semantic": [
+        "geography",
+        "nature"
+      ]
     },
     "created": "2026-01-21T11:34:57Z",
-    "modified": "2026-01-21T11:34:57Z"
+    "modified": "2026-09-02T04:01:12Z"
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "20047_sukoshizutsu_ex1",
-      "japanese": "{少|すこ}しずつ{上達|じょうたつ}している。",
+      "japanese": "{少|すこ}しずつ⟦{上達|じょうたつ}している→上達する：17981_joutatsusuru⟧。",
       "english": "I'm improving little by little.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "20047_sukoshizutsu_ex2",
-      "japanese": "{天気|てんき}が{少|すこ}しずつ{良|よ}くなってきた。",
+      "japanese": "⟦{天気|てんき}→天気：00582_tenki⟧⟦が→が：00051_ga⟧{少|すこ}しずつ⟦{良|よ}く→良い：02350_yoi⟧⟦なって→なる：01970_naru⟧きた。",
       "english": "The weather has been gradually getting better.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "20047_sukoshizutsu_ex3",
-      "japanese": "{毎日|まいにち}{少|すこ}しずつ{練習|れんしゅう}すれば、{必|かなら}ず{上手|じょうず}になる。",
+      "japanese": "⟦{毎日|まいにち}→毎日：00729_mainichi⟧{少|すこ}しずつ⟦{練習|れんしゅう}すれば→練習する：22991_renshuusuru⟧、⟦{必|かなら}ず→必ず：01249_kanarazu⟧⟦{上手|じょうず}→上手：00707_jouzu⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧。",
       "english": "If you practice a little bit every day, you will definitely get better.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Expresses gradual, incremental change or action. Formed from {少|すこ}し (a little) + ずつ (each/at a time). Very commonly used in everyday conversation and writing.\n\nCOMMON COLLOCATIONS:\n- {少|すこ}しずつ{変|か}わる: to change little by little\n- {少|すこ}しずつ{進|すす}む: to advance gradually\n- {少|すこ}しずつ{慣|な}れる: to get used to something gradually\n- {少|すこ}しずつ{良|よ}くなる: to get better little by little\n\nSIMILAR WORDS:\n- {徐々|じょじょ}に: gradually — more formal and literary; often used in written Japanese\n- だんだん: gradually — emphasizes a noticeable progressive change over time\n- {次第|しだい}に: gradually — literary; implies steady, inevitable progression",
+  "notes": "Expresses gradual, incremental change or action. Formed from ⟦{少|すこ}し→少し：00596_sukoshi⟧ (a little) + ⟦ずつ→〜ずつ：03092_zutsu⟧ (each/at a time). Very commonly used in everyday conversation and writing.\n\nCOMMON COLLOCATIONS:\n- {少|すこ}しずつ⟦{変|か}わる→変わる：00714_kawaru⟧: to change little by little\n- {少|すこ}しずつ⟦{進|すす}む→進む：01225_susumu⟧: to advance gradually\n- {少|すこ}しずつ⟦{慣|な}れる→慣れる：00870_nareru⟧: to get used to something gradually\n- {少|すこ}しずつ⟦{良|よ}く→良い：02350_yoi⟧⟦なる→なる：01970_naru⟧: to get better little by little\n\nSIMILAR WORDS:\n- ⟦{徐々|じょじょ}→徐々：03082_jojo⟧⟦に→に：00314_ni⟧: gradually — more formal and literary; often used in written Japanese\n- ⟦だんだん→だんだん：00832_dandan⟧: gradually — emphasizes a noticeable progressive change over time\n- ⟦{次第|しだい}→次第：03175_shidai⟧⟦に→に：00314_ni⟧: gradually — literary; implies steady, inevitable progression",
   "cross_references": [
     {
       "type": "synonym",
@@ -59,6 +59,55 @@
       "reading": "しだいに",
       "headword": "{次第|しだい}に",
       "label": "gradually (progressive)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00832_dandan",
+      "reading": "だんだん",
+      "headword": "だんだん",
+      "label": "gradually"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03082_jojo",
+      "reading": "じょじょ",
+      "headword": "{徐々|じょじょ}",
+      "label": "gradually, slowly, little by little"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09670_ippoippo",
+      "reading": "いっぽいっぽ",
+      "headword": "{一歩一歩|いっぽいっぽ}",
+      "label": "step by step"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19052_ippozutsu",
+      "reading": "いっぽずつ",
+      "headword": "{一歩|いっぽ}ずつ",
+      "label": "step by step"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19076_dandanto",
+      "reading": "だんだんと",
+      "headword": "{段々|だんだん}と",
+      "label": "gradually"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20830_chobichobi",
+      "reading": "ちょびちょび",
+      "headword": "ちょびちょび",
+      "label": "little by little"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24348_hitotsuzutsu",
+      "reading": "ひとつずつ",
+      "headword": "{一|ひと}つずつ",
+      "label": "one by one"
     }
   ],
   "schema_version": "2.0",
@@ -76,6 +125,6 @@
       ]
     },
     "created": "2026-03-28T06:10:33Z",
-    "modified": "2026-07-28T00:51:36Z"
+    "modified": "2026-09-02T04:01:58Z"
   }
 }

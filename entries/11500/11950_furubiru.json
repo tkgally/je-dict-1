@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "11950_furubiru_ex1",
-      "japanese": "{古|ふる}びた{本|ほん}を{開|ひら}く。",
+      "japanese": "{古|ふる}びた{本|ほん}⟦を→を：00422_wo⟧⟦{開|ひら}く→開く：01979_hiraku⟧。",
       "english": "Open a worn-out old book.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "11950_furubiru_ex2",
-      "japanese": "この{建物|たてもの}はだいぶ{古|ふる}びてきた。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{建物|たてもの}→建物：01458_tatemono⟧⟦は→は：00079_ha⟧だいぶ{古|ふる}びてきた。",
       "english": "This building has aged quite a bit.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "11950_furubiru_ex3",
-      "japanese": "{古|ふる}びた{写真|しゃしん}を{眺|なが}めていると、あの{頃|ころ}のことを{思|おも}い{出|だ}す。",
+      "japanese": "{古|ふる}びた⟦{写真|しゃしん}→写真：00753_shashin⟧⟦を→を：00422_wo⟧⟦{眺|なが}めている→眺める：02132_nagameru⟧⟦と→と：00512_to⟧、⟦あの→あの：00915_ano⟧{頃|ころ}⟦の→の：09472_no⟧こと⟦を→を：00422_wo⟧⟦{思|おも}い{出|だ}す→思い出す：01258_omoidasu⟧。",
       "english": "When I gaze at the old, faded photographs, I remember those days.",
       "notes": null,
       "has_audio": false,
@@ -133,11 +133,26 @@
       ]
     }
   ],
-  "notes": "COMMON COLLOCATIONS:\n・{古|ふる}びた{建物|たてもの} (aged building)\n・{古|ふる}びた{本|ほん} (worn old book)\n・{古|ふる}びた{町並|まちな}み (old, weathered townscape)\n・{古|ふる}びない (not age, remain timeless)\n\nUSAGE NOTES:\nMost commonly used in the past participle form {古|ふる}びた as a modifier. While it describes aging and wear, it does not necessarily carry a negative connotation — it can evoke a sense of nostalgia, character, or charm. The negative form {古|ふる}びない is used to praise things that remain fresh or timeless despite the passage of time.",
-  "cross_references": [],
+  "notes": "COMMON COLLOCATIONS:\n- {古|ふる}びた⟦{建物|たてもの}→建物：01458_tatemono⟧ (aged building)\n- {古|ふる}びた{本|ほん} (worn old book)\n- {古|ふる}びた⟦{町並|まちな}み→町並み：10435_machinami⟧ (old, weathered townscape)\n- {古|ふる}びない (not age, remain timeless)\n\nUSAGE:\nMost commonly used in the past participle form {古|ふる}びた as a modifier. While it describes aging and wear, it does not necessarily carry a negative connotation — it can evoke a sense of nostalgia, character, or charm. The negative form {古|ふる}びない is used to praise things that remain fresh or timeless despite the passage of time.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08216_surikireru",
+      "reading": "すりきれる",
+      "headword": "{擦|す}り{切|き}れる",
+      "label": "to wear out"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22517_furubokeru",
+      "reading": "ふるぼける",
+      "headword": "{古|ふる}ぼける",
+      "label": "to look old and worn"
+    }
+  ],
   "metadata": {
     "created": "2026-02-19T10:53:03Z",
-    "modified": "2026-07-04T00:32:27Z",
+    "modified": "2026-09-02T04:01:27Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",

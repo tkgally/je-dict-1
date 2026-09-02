@@ -15,42 +15,69 @@
   "examples": [
     {
       "id": "10946_kaunseringu_ex1",
-      "japanese": "カウンセリングを{受|う}ける。",
+      "japanese": "カウンセリング⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧。",
       "english": "To receive counseling.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10946_kaunseringu_ex2",
-      "japanese": "{心理|しんり}カウンセリングに{通|かよ}い{始|はじ}めた。",
+      "japanese": "⟦{心理|しんり}→心理：03332_shinri⟧カウンセリング⟦に→に：00314_ni⟧⟦{通|かよ}い→通う：01217_kayou⟧⟦{始|はじ}めた→始める：00531_hajimeru⟧。",
       "english": "I started going to psychological counseling.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10946_kaunseringu_ex3",
-      "japanese": "{学校|がっこう}にはカウンセリングルームがあり、{生徒|せいと}が{気軽|きがる}に{相談|そうだん}できる。",
+      "japanese": "⟦{学校|がっこう}→学校：00055_gakkou⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧カウンセリングルーム⟦が→が：00051_ga⟧⟦あり→ある：00006_aru⟧、⟦{生徒|せいと}→生徒：01051_seito⟧⟦が→が：00051_ga⟧⟦{気軽|きがる}→気軽：06865_kigaru⟧⟦に→に：00314_ni⟧⟦{相談|そうだん}できる→相談する：01845_soudansuru⟧。",
       "english": "The school has a counseling room where students can freely seek advice.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "COMMON COLLOCATIONS:\n- カウンセリングを{受|う}ける: to receive counseling\n- カウンセリングに{通|かよ}う: to attend counseling (regularly)\n- {心理|しんり}カウンセリング: psychological counseling\n- カウンセリングルーム: counseling room\n- カウンセラー: counselor\n- {美容|びよう}カウンセリング: beauty consultation\n\nUSAGE:\nIn Japan, カウンセリング is used both for psychological/mental health counseling and for consultation services in other fields like beauty ({美容|びよう}カウンセリング) or career guidance ({進路|しんろ}カウンセリング). The word carries less stigma in Japan than it once did, especially among younger generations.",
-  "cross_references": [],
+  "notes": "COMMON COLLOCATIONS:\n- カウンセリング⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧: to receive counseling\n- カウンセリング⟦に→に：00314_ni⟧⟦{通|かよ}う→通う：01217_kayou⟧: to attend counseling (regularly)\n- ⟦{心理|しんり}→心理：03332_shinri⟧カウンセリング: psychological counseling\n- カウンセリングルーム: counseling room\n- カウンセラー: counselor\n- ⟦{美容|びよう}→美容：00014_biyou⟧カウンセリング: beauty consultation\n\nUSAGE:\nIn Japan, カウンセリング is used both for psychological/mental health counseling and for consultation services in other fields like beauty (⟦{美容|びよう}→美容：00014_biyou⟧カウンセリング) or career guidance (⟦{進路|しんろ}→進路：14321_shinro⟧カウンセリング). The word carries less stigma in Japan than it once did, especially among younger generations.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "04650_utsubyou",
+      "reading": "うつびょう",
+      "headword": "{鬱病|うつびょう}",
+      "label": "depression"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21587_seishinka",
+      "reading": "せいしんか",
+      "headword": "{精神科|せいしんか}",
+      "label": "psychiatry"
+    }
+  ],
   "metadata": {
     "created": "2026-02-11T19:11:35Z",
-    "modified": "2026-02-11T19:11:35Z",
+    "modified": "2026-09-02T04:01:23Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["medical"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "medical"
+      ]
     }
   }
 }

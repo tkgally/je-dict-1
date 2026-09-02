@@ -3,7 +3,7 @@
   "id": "14362_okurimukae",
   "headword": "{送|おく}り{迎|むか}え",
   "reading": "おくりむかえ",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "picking up and dropping off",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "14362_okurimukae_ex1",
-      "japanese": "{子|こ}どもの{送|おく}り{迎|むか}えをする。",
+      "japanese": "{子|こ}ども⟦の→の：09472_no⟧{送|おく}り{迎|むか}え⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧。",
       "english": "To pick up and drop off the children.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "14362_okurimukae_ex2",
-      "japanese": "{毎日|まいにち}{学校|がっこう}への{送|おく}り{迎|むか}えが{大変|たいへん}だ。",
+      "japanese": "⟦{毎日|まいにち}→毎日：00729_mainichi⟧⟦{学校|がっこう}→学校：00055_gakkou⟧⟦へ→へ：02473_he⟧⟦の→の：09472_no⟧{送|おく}り{迎|むか}え⟦が→が：00051_ga⟧⟦{大変|たいへん}→大変：00594_taihen⟧だ。",
       "english": "The daily school run is exhausting.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "14362_okurimukae_ex3",
-      "japanese": "{駅|えき}まで{車|くるま}で{送|おく}り{迎|むか}えしてくれる{人|ひと}がいると{助|たす}かる。",
+      "japanese": "⟦{駅|えき}→駅：02180_eki⟧⟦まで→まで：00490_made⟧⟦{車|くるま}→車：00516_kuruma⟧⟦で→で：00502_de⟧{送|おく}り{迎|むか}え⟦して→する：00392_suru⟧⟦くれる→くれる：00724_kureru⟧⟦{人|ひと}→人：00476_hito⟧⟦が→が：00051_ga⟧⟦いる→いる：00495_iru⟧⟦と→と：00512_to⟧⟦{助|たす}かる→助かる：01956_tasukaru⟧。",
       "english": "It would be a great help to have someone who can drive me to and from the station.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,19 @@
       ]
     }
   ],
-  "notes": "USAGE NOTES:\n{送|おく}り{迎|むか}え combines {送|おく}り (sending/taking someone) and {迎|むか}え (picking up/meeting someone) into one word meaning round-trip transportation.\n\nPARTICLE PATTERNS:\n- の{送|おく}り{迎|むか}えをする (to do the pickup and drop-off for...)\n- への{送|おく}り{迎|むか}え (transportation to and from...)\n\nCOMMON COLLOCATIONS:\n- {子|こ}どもの{送|おく}り{迎|むか}え (school run for children)\n- {送|おく}り{迎|むか}えバス (shuttle bus)\n- {送|おく}り{迎|むか}えサービス (pickup and drop-off service)\n\nThis word is especially common among parents discussing daily routines with childcare and school.",
-  "cross_references": [],
+  "notes": "USAGE:\n{送|おく}り{迎|むか}え combines {送|おく}り (sending/taking someone) and ⟦{迎|むか}え→迎える：01193_mukaeru⟧ (picking up/meeting someone) into one word meaning round-trip transportation.\n\nCOMMON PATTERNS:\n- ⟦の→の：09472_no⟧{送|おく}り{迎|むか}え⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧ (to do the pickup and drop-off for...)\n- ⟦へ→へ：02473_he⟧⟦の→の：09472_no⟧{送|おく}り{迎|むか}え (transportation to and from...)\n\nCOMMON COLLOCATIONS:\n- {子|こ}ども⟦の→の：09472_no⟧{送|おく}り{迎|むか}え (school run for children)\n- {送|おく}り{迎|むか}え⟦バス→バス：00769_basu⟧ (shuttle bus)\n- {送|おく}り{迎|むか}え⟦サービス→サービス：01531_saabisu⟧ (pickup and drop-off service)\n\nThis word is especially common among parents discussing daily routines with childcare and school.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25786_mukaeniiku",
+      "reading": "むかえにいく",
+      "headword": "{迎|むか}えに{行|い}く",
+      "label": "to go to pick someone up"
+    }
+  ],
   "metadata": {
     "created": "2026-02-28T13:06:19Z",
-    "modified": "2026-03-29T03:08:18Z",
+    "modified": "2026-09-02T04:01:37Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

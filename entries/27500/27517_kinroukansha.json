@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "27517_kinroukansha_ex1",
-      "japanese": "{明日|あす}は{勤労感謝|きんろうかんしゃ}の{日|ひ}だ。",
+      "japanese": "{明日|あす}⟦は→は：00079_ha⟧{勤労感謝|きんろうかんしゃ}の{日|ひ}だ。",
       "english": "Tomorrow is Labor Thanksgiving Day.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "27517_kinroukansha_ex2",
-      "japanese": "{勤労感謝|きんろうかんしゃ}の{日|ひ}は{祝日|しゅくじつ}で{会社|かいしゃ}が{休|やす}みだ。",
+      "japanese": "{勤労感謝|きんろうかんしゃ}の{日|ひ}⟦は→は：00079_ha⟧⟦{祝日|しゅくじつ}→祝日：07588_shukujitsu⟧⟦で→で：00502_de⟧⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦が→が：00051_ga⟧⟦{休|やす}み→休み：02266_yasumi⟧だ。",
       "english": "Labor Thanksgiving Day is a holiday, so the office is closed.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "27517_kinroukansha_ex3",
-      "japanese": "{幼稚園|ようちえん}では{勤労感謝|きんろうかんしゃ}の{日|ひ}に{合|あ}わせて、{子供|こども}たちが{両親|りょうしん}に{手紙|てがみ}を{書|か}く。",
+      "japanese": "⟦{幼稚園|ようちえん}→幼稚園：04703_youchien⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧{勤労感謝|きんろうかんしゃ}の{日|ひ}⟦に→に：00314_ni⟧⟦{合|あ}わせて→合わせる：01872_awaseru⟧、⟦{子供|こども}→子供：00554_kodomo⟧たち⟦が→が：00051_ga⟧⟦{両親|りょうしん}→両親：00806_ryoushin⟧⟦に→に：00314_ni⟧⟦{手紙|てがみ}→手紙：00675_tegami⟧⟦を→を：00422_wo⟧⟦{書|か}く→書く：00477_kaku⟧。",
       "english": "At preschool, in time for Labor Thanksgiving Day, the children write letters to their parents.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {勤労|きんろう} (labor) + {感謝|かんしゃ} (gratitude). Usually appears in the full phrase {勤労感謝|きんろうかんしゃ}の{日|ひ}; on its own, {勤労感謝|きんろうかんしゃ} is heard mainly as a name or category label.\n\nCOMMON COLLOCATIONS:\n- {勤労感謝|きんろうかんしゃ}の{日|ひ}: Labor Thanksgiving Day (Nov 23)\n- {勤労感謝|きんろうかんしゃ}の{連休|れんきゅう}: the long weekend around Labor Thanksgiving\n\nCULTURAL CONTEXT:\nDespite the English translation, the day is not modeled on U.S. Thanksgiving. It replaced the prewar harvest festival {新嘗祭|にいなめさい} in 1948 and is now framed as a holiday honoring work and mutual gratitude in society. Schools often have children make small gifts or letters for working family members.",
+  "notes": "Composed of {勤労|きんろう} (labor) + ⟦{感謝|かんしゃ}→感謝：00181_kansha⟧ (gratitude). Usually appears in the full phrase {勤労感謝|きんろうかんしゃ}の{日|ひ}; on its own, {勤労感謝|きんろうかんしゃ} is heard mainly as a name or category label.\n\nCOMMON COLLOCATIONS:\n- {勤労感謝|きんろうかんしゃ}の{日|ひ}: Labor Thanksgiving Day (Nov 23)\n- {勤労感謝|きんろうかんしゃ}⟦の→の：09472_no⟧⟦{連休|れんきゅう}→連休：07587_renkyuu⟧: the long weekend around Labor Thanksgiving\n\nCULTURAL NOTE:\nDespite the English translation, the day is not modeled on U.S. Thanksgiving. It replaced the prewar harvest festival {新嘗祭|にいなめさい} in 1948 and is now framed as a holiday honoring work and mutual gratitude in society. Schools often have children make small gifts or letters for working family members.",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,13 +53,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "culture"
       ],
       "domain": []
     },
     "created": "2026-05-13T03:11:25Z",
-    "modified": "2026-08-07T16:10:18Z"
+    "modified": "2026-09-02T04:02:30Z"
   }
 }

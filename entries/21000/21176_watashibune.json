@@ -15,41 +15,66 @@
   "examples": [
     {
       "id": "21176_watashibune_ex1",
-      "japanese": "{渡|わた}し{舟|ぶね}で{川|かわ}を{渡|わた}った。",
+      "japanese": "{渡|わた}し{舟|ぶね}⟦で→で：00502_de⟧⟦{川|かわ}→川：02186_kawa⟧⟦を→を：00422_wo⟧⟦{渡|わた}った→渡る：02441_wataru⟧。",
       "english": "I crossed the river by ferryboat.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "21176_watashibune_ex2",
-      "japanese": "この{渡|わた}し{舟|ぶね}は{江戸|えど}{時代|じだい}から{続|つづ}いている。",
+      "japanese": "⟦この→この：00962_kono⟧{渡|わた}し{舟|ぶね}⟦は→は：00079_ha⟧⟦{江戸|えど}{時代|じだい}→江戸時代：20431_edojidai⟧⟦から→から：00504_kara⟧⟦{続|つづ}いている→続く：00903_tsuzuku⟧。",
       "english": "This ferry has been running since the Edo period.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "21176_watashibune_ex3",
-      "japanese": "{観光客|かんこうきゃく}を{乗|の}せた{渡|わた}し{舟|ぶね}がゆっくりと{対岸|たいがん}に{向|む}かった。",
+      "japanese": "⟦{観光客|かんこうきゃく}→観光客：03022_kankoukyaku⟧⟦を→を：00422_wo⟧⟦{乗|の}せた→乗せる：01972_noseru⟧{渡|わた}し{舟|ぶね}⟦が→が：00051_ga⟧⟦ゆっくり→ゆっくり：00910_yukkuri⟧⟦と→と：00512_to⟧⟦{対岸|たいがん}→対岸：17100_taigan⟧⟦に→に：00314_ni⟧⟦{向|む}かった→向かう：01186_mukau⟧。",
       "english": "The ferryboat carrying tourists slowly headed toward the opposite bank.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{渡|わた}し means 'crossing' or 'ferry point,' and {舟|ぶね} means 'boat.' {渡|わた}し{舟|ぶね} refers to the small boats traditionally used to ferry people across rivers at designated crossing points. Before bridges were widely built, these were essential for travel.\n\nCOMMON COLLOCATIONS:\n- {渡|わた}し{舟|ぶね}に{乗|の}る (to ride the ferryboat)\n- {渡|わた}し{舟|ぶね}で{渡|わた}る (to cross by ferry)\n- {渡|わた}し{舟|ぶね}の{船頭|せんどう} (ferryboat boatman)\n\nCULTURAL NOTE:\n{渡|わた}し{舟|ぶね} were once a common sight at river crossings throughout Japan. Some famous historical ferry crossings, such as the {矢切|やぎり}の{渡|わた}し on the Edo River, still operate as tourist attractions. The word evokes a sense of traditional Japanese landscapes.\n\nSIMILAR WORDS:\n- フェリー — ferry (modern, larger vessel for cars and passengers)\n- {船|ふね} — boat, ship (general term)\n- {屋形船|やかたぶね} — houseboat (a pleasure boat with a roofed cabin, used for dining on rivers)",
-  "cross_references": [],
+  "notes": "{渡|わた}し means 'crossing' or 'ferry point,' and {舟|ぶね} means 'boat.' {渡|わた}し{舟|ぶね} refers to the small boats traditionally used to ferry people across rivers at designated crossing points. Before bridges were widely built, these were essential for travel.\n\nCOMMON COLLOCATIONS:\n- {渡|わた}し{舟|ぶね}⟦に→に：00314_ni⟧⟦{乗|の}る→乗る：00511_noru⟧ (to ride the ferryboat)\n- {渡|わた}し{舟|ぶね}⟦で→で：00502_de⟧⟦{渡|わた}る→渡る：02441_wataru⟧ (to cross by ferry)\n- {渡|わた}し{舟|ぶね}⟦の→の：09472_no⟧⟦{船頭|せんどう}→船頭：13986_sendou⟧ (ferryboat boatman)\n\nCULTURAL NOTE:\n{渡|わた}し{舟|ぶね} were once a common sight at river crossings throughout Japan. Some famous historical ferry crossings, such as the {矢切|やぎり}⟦の→の：09472_no⟧{渡|わた}し on the Edo River, still operate as tourist attractions. The word evokes a sense of traditional Japanese landscapes.\n\nSIMILAR WORDS:\n- ⟦フェリー→フェリー：11168_ferii⟧ — ferry (modern, larger vessel for cars and passengers)\n- ⟦{船|ふね}→船：00775_fune⟧ — boat, ship (general term)\n- {屋形船|やかたぶね} — houseboat (a pleasure boat with a roofed cabin, used for dining on rivers)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11168_ferii",
+      "reading": "ふぇりー",
+      "headword": "フェリー",
+      "label": "ferry"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00775_fune",
+      "reading": "ふね",
+      "headword": "{船|ふね}",
+      "label": "boat, ship"
+    }
+  ],
   "metadata": {
     "created": "2026-03-31T22:16:23Z",
-    "modified": "2026-03-31T22:16:23Z",
+    "modified": "2026-09-02T04:02:02Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["travel"]
+      "semantic": [
+        "travel"
+      ]
     }
   }
 }

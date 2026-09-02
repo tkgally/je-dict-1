@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "17608_ikkatsubarai_ex1",
-      "japanese": "{一括払|いっかつばら}いでお{願|ねが}いします。",
+      "japanese": "{一括払|いっかつばら}い⟦で→で：00502_de⟧お{願|ねが}いします。",
       "english": "I'll pay in full, please.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "17608_ikkatsubarai_ex2",
-      "japanese": "{一括払|いっかつばら}いなら{割引|わりびき}があります。",
+      "japanese": "{一括払|いっかつばら}いなら⟦{割引|わりびき}→割引：01526_waribiki⟧⟦が→が：00051_ga⟧⟦あります→ある：00006_aru⟧。",
       "english": "There's a discount if you pay in full.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "17608_ikkatsubarai_ex3",
-      "japanese": "{車|くるま}を{一括払|いっかつばら}いで{購入|こうにゅう}するのは{難|むずか}しい。",
+      "japanese": "⟦{車|くるま}→車：00516_kuruma⟧⟦を→を：00422_wo⟧{一括払|いっかつばら}い⟦で→で：00502_de⟧⟦{購入|こうにゅう}→購入：03057_kounyuu⟧⟦する→する：00392_suru⟧⟦の→の：09472_no⟧⟦は→は：00079_ha⟧⟦{難|むずか}しい→難しい：00517_muzukashii⟧。",
       "english": "It's difficult to buy a car with a lump-sum payment.",
       "sense_numbers": [
         1
@@ -43,7 +43,7 @@
       "notes": null
     }
   ],
-  "notes": "FORMATION:\n{一括|いっかつ} (all together) + {払|はら}い (payment) → payment all at once\n\nANTONYM:\n{分割払|ぶんかつばら}い (installment payment)\n\nCREDIT CARD USAGE:\nAt Japanese stores, when paying by credit card, the cashier often asks:\n\"{一括|いっかつ}ですか？\" (One payment?) or\n\"お{支払|しはら}いは{何回|なんかい}ですか？\" (How many payments?)\n\nAnswer: \"{一括|いっかつ}で\" (In one payment)\n\nADVANTAGES:\n- No interest or handling fees\n- Sometimes offers discounts\n- Simpler accounting",
+  "notes": "FORMS:\n⟦{一括|いっかつ}→一括：08947_ikkatsu⟧ (all together) + ⟦{払|はら}い→払い：18738_harai⟧ (payment) → payment all at once\n\nSIMILAR WORDS:\n⟦{分割払|ぶんかつばら}い→分割払い：17607_bunkatsubarai⟧ (installment payment)\n\nCREDIT CARD USAGE:\nAt Japanese stores, when paying by credit card, the cashier often asks:\n\"⟦{一括|いっかつ}→一括：08947_ikkatsu⟧です⟦か→か：09473_ka⟧？\" (One payment?) or\n\"お{支払|しはら}い⟦は→は：00079_ha⟧⟦{何回|なんかい}→何回：08497_nankai⟧です⟦か→か：09473_ka⟧？\" (How many payments?)\n\nAnswer: \"⟦{一括|いっかつ}→一括：08947_ikkatsu⟧⟦で→で：00502_de⟧\" (In one payment)\n\nADVANTAGES:\n- No interest or handling fees\n- Sometimes offers discounts\n- Simpler accounting",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -51,6 +51,7 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "domain": [
         "business"
       ],
@@ -60,7 +61,7 @@
       ]
     },
     "created": "2026-01-26T13:58:14Z",
-    "modified": "2026-07-20T18:18:50Z"
+    "modified": "2026-09-02T04:01:49Z"
   },
   "cross_references": [
     {
@@ -69,6 +70,13 @@
       "reading": "ぶんかつばらい",
       "headword": "{分割払|ぶんかつばら}い",
       "label": "installment payment"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21015_sokkin",
+      "reading": "そっきん",
+      "headword": "{即金|そっきん}",
+      "label": "cash payment"
     }
   ]
 }

@@ -3,7 +3,7 @@
   "headword": "{後片付|あとかたづ}け",
   "reading": "あとかたづけ",
   "romaji": "atokatazuke",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "cleanup; tidying up afterwards; putting things away",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26814_atokatazuke_ex1",
-      "japanese": "{食事|しょくじ}の{後片付|あとかたづ}けをする。",
+      "japanese": "⟦{食事|しょくじ}→食事：02087_shokuji⟧⟦の→の：09472_no⟧{後片付|あとかたづ}け⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧。",
       "english": "I'll clean up after the meal.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26814_atokatazuke_ex2",
-      "japanese": "パーティーの{後片付|あとかたづ}けに{二時間|にじかん}かかった。",
+      "japanese": "⟦パーティー→パーティー：02946_paatii⟧⟦の→の：09472_no⟧{後片付|あとかたづ}け⟦に→に：00314_ni⟧⟦{二時間|にじかん}→二時間：27637_nijikan⟧⟦かかった→かかる：00711_kakaru⟧。",
       "english": "It took two hours to clean up after the party.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26814_atokatazuke_ex3",
-      "japanese": "{子供|こども}たちに{遊|あそ}んだ{後|あと}の{後片付|あとかたづ}けを{教|おし}えるのは{大切|たいせつ}なことだ。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧たち⟦に→に：00314_ni⟧⟦{遊|あそ}んだ→遊ぶ：00550_asobu⟧⟦{後|あと}→後：09580_ato⟧⟦の→の：09472_no⟧{後片付|あとかたづ}け⟦を→を：00422_wo⟧⟦{教|おし}える→教える：00526_oshieru⟧⟦の→の：09472_no⟧⟦は→は：00079_ha⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧なことだ。",
       "english": "Teaching children to tidy up after playing is an important thing.",
       "sense_numbers": [
         1
@@ -44,8 +44,23 @@
       "notes": null
     }
   ],
-  "notes": "Refers specifically to the cleanup that follows an activity — distinct from general housekeeping. The word emphasizes returning things to their original state after use. Very common in domestic and workplace contexts.\n\nCOMMON COLLOCATIONS:\n- {食事|しょくじ}の{後片付|あとかたづ}け: cleanup after a meal\n- {後片付|あとかたづ}けをする: to do the cleanup\n- {後片付|あとかたづ}けを{手伝|てつだ}う: to help with cleanup\n- {後片付|あとかたづ}けが{大変|たいへん}: the cleanup is a lot of work\n- イベントの{後片付|あとかたづ}け: cleanup after an event\n\nSIMILAR WORDS:\n- {片付|かたづ}け: tidying up — general organizing/putting away, not specifically \"after\" something\n- {掃除|そうじ}: cleaning — broader cleaning (sweeping, wiping), not about putting things back\n- {撤収|てっしゅう}: removal/packing up — more formal, used for events, equipment, military\n\nWORD FORMATION:\n{後|あと} (after) + {片付|かたづ}け (tidying). The {後|あと} specifies that this is cleanup following a specific activity.",
-  "cross_references": [],
+  "notes": "Refers specifically to the cleanup that follows an activity — distinct from general housekeeping. The word emphasizes returning things to their original state after use. Very common in domestic and workplace contexts.\n\nCOMMON COLLOCATIONS:\n- ⟦{食事|しょくじ}→食事：02087_shokuji⟧⟦の→の：09472_no⟧{後片付|あとかたづ}け: cleanup after a meal\n- {後片付|あとかたづ}け⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧: to do the cleanup\n- {後片付|あとかたづ}け⟦を→を：00422_wo⟧⟦{手伝|てつだ}う→手伝う：00898_tetsudau⟧: to help with cleanup\n- {後片付|あとかたづ}け⟦が→が：00051_ga⟧⟦{大変|たいへん}→大変：00594_taihen⟧: the cleanup is a lot of work\n- ⟦イベント→イベント：09594_ibento⟧⟦の→の：09472_no⟧{後片付|あとかたづ}け: cleanup after an event\n\nSIMILAR WORDS:\n- {片付|かたづ}け: tidying up — general organizing/putting away, not specifically \"after\" something\n- ⟦{掃除|そうじ}→掃除：02889_souji⟧: cleaning — broader cleaning (sweeping, wiping), not about putting things back\n- ⟦{撤収|てっしゅう}→撤収：12922_tesshuu⟧: removal/packing up — more formal, used for events, equipment, military\n\nFORMS:\n⟦{後|あと}→後：09580_ato⟧ (after) + {片付|かたづ}け (tidying). The ⟦{後|あと}→後：09580_ato⟧ specifies that this is cleanup following a specific activity.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02889_souji",
+      "reading": "そうじ",
+      "headword": "{掃除|そうじ}",
+      "label": "cleaning"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12922_tesshuu",
+      "reading": "てっしゅう",
+      "headword": "{撤収|てっしゅう}",
+      "label": "removal/packing up"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -62,7 +77,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-05T12:11:47Z",
-    "modified": "2026-08-06T12:44:19Z"
+    "modified": "2026-09-02T04:02:27Z"
   },
   "conjugation": {
     "type": "suru",

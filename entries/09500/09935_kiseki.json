@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "09935_kiseki_ex1",
-      "japanese": "これは{奇跡|きせき}だ。",
+      "japanese": "⟦これ→これ：00963_kore⟧⟦は→は：00079_ha⟧{奇跡|きせき}だ。",
       "english": "This is a miracle.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "09935_kiseki_ex2",
-      "japanese": "{奇跡|きせき}が{起|お}きた。",
+      "japanese": "{奇跡|きせき}⟦が→が：00051_ga⟧⟦{起|お}きた→起きる：00521_okiru⟧。",
       "english": "A miracle happened.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "09935_kiseki_ex3",
-      "japanese": "{奇跡|きせき}{的|てき}に{助|たす}かった。",
+      "japanese": "{奇跡|きせき}{的|てき}⟦に→に：00314_ni⟧⟦{助|たす}かった→助かる：01956_tasukaru⟧。",
       "english": "He/She miraculously survived.",
       "notes": null,
       "has_audio": false,
@@ -43,11 +43,26 @@
       ]
     }
   ],
-  "notes": "{奇跡|きせき} refers to an extraordinary event that cannot be explained by natural causes or logic. It can describe literal divine intervention or, more commonly, something remarkably fortunate or unlikely.\n\nCOMMON EXPRESSIONS:\n- {奇跡|きせき}が{起|お}きる: a miracle happens\n- {奇跡|きせき}{的|てき}に: miraculously\n- {奇跡|きせき}{的|てき}な{回復|かいふく}: miraculous recovery\n- {奇跡|きせき}を{信|しん}じる: to believe in miracles\n- {奇跡|きせき}の{生還|せいかん}: miraculous survival\n\nSIMILAR WORDS:\n- {不思議|ふしぎ}: mystery, wonder (less dramatic)\n- {驚異|きょうい}: marvel, wonder (emphasizes amazement)\n\nUSAGE:\nOften used figuratively in everyday speech for any surprisingly good outcome: {奇跡|きせき}{的|てき}に{間|ま}に{合|あ}った (I miraculously made it in time).",
-  "cross_references": [],
+  "notes": "{奇跡|きせき} refers to an extraordinary event that cannot be explained by natural causes or logic. It can describe literal divine intervention or, more commonly, something remarkably fortunate or unlikely.\n\nCOMMON EXPRESSIONS:\n- {奇跡|きせき}⟦が→が：00051_ga⟧⟦{起|お}きる→起きる：00521_okiru⟧: a miracle happens\n- {奇跡|きせき}{的|てき}⟦に→に：00314_ni⟧: miraculously\n- {奇跡|きせき}{的|てき}な⟦{回復|かいふく}→回復：03812_kaifuku⟧: miraculous recovery\n- {奇跡|きせき}⟦を→を：00422_wo⟧⟦{信|しん}じる→信じる：01111_shinjiru⟧: to believe in miracles\n- {奇跡|きせき}⟦の→の：09472_no⟧⟦{生還|せいかん}→生還：13566_seikan⟧: miraculous survival\n\nSIMILAR WORDS:\n- ⟦{不思議|ふしぎ}→不思議：02358_fushigi⟧: mystery, wonder (less dramatic)\n- ⟦{驚異|きょうい}→驚異：14657_kyoui⟧: marvel, wonder (emphasizes amazement)\n\nUSAGE:\nOften used figuratively in everyday speech for any surprisingly good outcome: {奇跡|きせき}{的|てき}⟦に→に：00314_ni⟧⟦{間|ま}に{合|あ}った→間に合う：01142_maniau⟧ (I miraculously made it in time).",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02358_fushigi",
+      "reading": "ふしぎ",
+      "headword": "{不思議|ふしぎ}",
+      "label": "mystery, wonder"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14657_kyoui",
+      "reading": "きょうい",
+      "headword": "{驚異|きょうい}",
+      "label": "marvel, wonder"
+    }
+  ],
   "metadata": {
     "created": "2026-02-04T10:52:33Z",
-    "modified": "2026-03-26T12:02:47Z",
+    "modified": "2026-09-02T04:01:19Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

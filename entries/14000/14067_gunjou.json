@@ -15,41 +15,59 @@
   "examples": [
     {
       "id": "14067_gunjou_ex1",
-      "japanese": "{群青|ぐんじょう}{色|いろ}の{空|そら}が{広|ひろ}がっていた。",
+      "japanese": "{群青|ぐんじょう}⟦{色|いろ}→色：00849_iro⟧⟦の→の：09472_no⟧⟦{空|そら}→空：02216_sora⟧⟦が→が：00051_ga⟧⟦{広|ひろ}がっていた→広がる：01980_hirogaru⟧。",
       "english": "A deep blue sky stretched out above.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14067_gunjou_ex2",
-      "japanese": "{夕暮|ゆうぐ}れの{海|うみ}が{群青|ぐんじょう}に{染|そ}まっていく。",
+      "japanese": "⟦{夕暮|ゆうぐ}れ→夕暮れ：07682_yuugure⟧⟦の→の：09472_no⟧⟦{海|うみ}→海：00556_umi⟧⟦が→が：00051_ga⟧{群青|ぐんじょう}⟦に→に：00314_ni⟧⟦{染|そ}まって→染まる：04254_somaru⟧いく。",
       "english": "The sea at dusk is being dyed in ultramarine blue.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14067_gunjou_ex3",
-      "japanese": "この{日本画|にほんが}には{群青|ぐんじょう}と{金箔|きんぱく}がふんだんに{使|つか}われており、{豪華|ごうか}な{印象|いんしょう}を{与|あた}える。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{日本画|にほんが}→日本画：18225_nihonga⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{群青|ぐんじょう}⟦と→と：00512_to⟧{金箔|きんぱく}⟦が→が：00051_ga⟧ふんだん⟦に→に：00314_ni⟧⟦{使|つか}われて→使う：00473_tsukau⟧おり、⟦{豪華|ごうか}→豪華：02815_gouka⟧な⟦{印象|いんしょう}→印象：01846_inshou⟧⟦を→を：00422_wo⟧⟦{与|あた}える→与える：01821_ataeru⟧。",
       "english": "This Japanese-style painting uses ultramarine blue and gold leaf abundantly, giving a luxurious impression.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nOften used in compound form {群青|ぐんじょう}{色|いろ} to explicitly mean \"ultramarine color.\" A culturally significant pigment in traditional Japanese painting ({日本画|にほんが}), where it is one of the most prized mineral pigments. Also commonly encountered as an evocative color word in literature and song lyrics.\n\nNOTE:\nThe Yoasobi song \"{群青|ぐんじょう}\" (2020) made this word widely known among younger generations.\n\nCOMMON COLLOCATIONS:\n- {群青|ぐんじょう}{色|いろ}: ultramarine blue (as a color name)\n- {群青|ぐんじょう}の{空|そら}: deep blue sky\n- {群青|ぐんじょう}の{海|うみ}: deep blue sea",
-  "cross_references": [],
+  "notes": "USAGE:\nOften used in compound form {群青|ぐんじょう}⟦{色|いろ}→色：00849_iro⟧ to explicitly mean \"ultramarine color.\" A culturally significant pigment in traditional Japanese painting (⟦{日本画|にほんが}→日本画：18225_nihonga⟧), where it is one of the most prized mineral pigments. Also commonly encountered as an evocative color word in literature and song lyrics.\nThe Yoasobi song \"{群青|ぐんじょう}\" (2020) made this word widely known among younger generations.\n\nCOMMON COLLOCATIONS:\n- {群青|ぐんじょう}⟦{色|いろ}→色：00849_iro⟧: ultramarine blue (as a color name)\n- {群青|ぐんじょう}⟦の→の：09472_no⟧⟦{空|そら}→空：02216_sora⟧: deep blue sky\n- {群青|ぐんじょう}⟦の→の：09472_no⟧⟦{海|うみ}→海：00556_umi⟧: deep blue sea",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "03885_kon",
+      "reading": "こん",
+      "headword": "{紺|こん}",
+      "label": "navy blue, dark blue"
+    }
+  ],
   "metadata": {
     "created": "2026-02-27T23:08:09Z",
-    "modified": "2026-02-27T23:08:09Z",
+    "modified": "2026-09-02T04:01:35Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["color"]
+      "semantic": [
+        "color"
+      ]
     }
   }
 }

@@ -15,41 +15,60 @@
   "examples": [
     {
       "id": "18291_senchou_ex1",
-      "japanese": "{船長|せんちょう}が{指示|しじ}を{出|だ}した。",
+      "japanese": "{船長|せんちょう}⟦が→が：00051_ga⟧⟦{指示|しじ}→指示：09674_shiji⟧⟦を→を：00422_wo⟧⟦{出|だ}した→出す：01087_dasu⟧。",
       "english": "The captain gave orders.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18291_senchou_ex2",
-      "japanese": "{船長|せんちょう}は{乗客|じょうきゃく}の{安全|あんぜん}に{責任|せきにん}を{持|も}つ。",
+      "japanese": "{船長|せんちょう}⟦は→は：00079_ha⟧⟦{乗客|じょうきゃく}→乗客：03284_joukyaku⟧⟦の→の：09472_no⟧⟦{安全|あんぜん}→安全：01131_anzen⟧⟦に→に：00314_ni⟧⟦{責任|せきにん}→責任：03298_sekinin⟧⟦を→を：00422_wo⟧⟦{持|も}つ→持つ：00478_motsu⟧。",
       "english": "The captain is responsible for the safety of the passengers.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18291_senchou_ex3",
-      "japanese": "{嵐|あらし}の{中|なか}、{船長|せんちょう}は{冷静|れいせい}に{判断|はんだん}して{船|ふね}を{安全|あんぜん}な{港|みなと}へ{導|みちび}いた。",
+      "japanese": "⟦{嵐|あらし}→嵐：01695_arashi⟧⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧、{船長|せんちょう}⟦は→は：00079_ha⟧⟦{冷静|れいせい}→冷静：03781_reisei⟧⟦に→に：00314_ni⟧⟦{判断|はんだん}して→判断する：06062_handansuru⟧⟦{船|ふね}→船：00775_fune⟧⟦を→を：00422_wo⟧⟦{安全|あんぜん}→安全：01131_anzen⟧な⟦{港|みなと}→港：01512_minato⟧⟦へ→へ：02473_he⟧⟦{導|みちび}いた→導く：12361_michibiku⟧。",
       "english": "In the storm, the captain made calm decisions and guided the ship to a safe harbor.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nA compound of {船|せん} (ship) + {長|ちょう} (chief, head). Used for captains of ships of all sizes, from fishing boats to large vessels. In fiction (especially manga and anime), also used as a form of address: {船長|せんちょう}!\n\nCOMMON COLLOCATIONS:\n- {船長|せんちょう}の{命令|めいれい} (the captain's orders)\n- {船長|せんちょう}を{務|つと}める (to serve as captain)\n\nSIMILAR WORDS:\n- {機長|きちょう}: pilot in command — the equivalent for aircraft\n- {艦長|かんちょう}: commanding officer of a warship — military usage",
-  "cross_references": [],
+  "notes": "USAGE:\nA compound of ⟦{船|せん}→船：09875_sen⟧ (ship) + {長|ちょう} (chief, head). Used for captains of ships of all sizes, from fishing boats to large vessels. In fiction (especially manga and anime), also used as a form of address: {船長|せんちょう}!\n\nCOMMON COLLOCATIONS:\n- {船長|せんちょう}⟦の→の：09472_no⟧⟦{命令|めいれい}→命令：03754_meirei⟧ (the captain's orders)\n- {船長|せんちょう}⟦を→を：00422_wo⟧⟦{務|つと}める→務める：10446_tsutomeru⟧ (to serve as captain)\n\nSIMILAR WORDS:\n- ⟦{機長|きちょう}→機長：22199_kichou⟧: pilot in command — the equivalent for aircraft\n- {艦長|かんちょう}: commanding officer of a warship — military usage",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22199_kichou",
+      "reading": "きちょう",
+      "headword": "{機長|きちょう}",
+      "label": "pilot in command"
+    }
+  ],
   "metadata": {
     "created": "2026-03-21T01:17:47Z",
-    "modified": "2026-03-21T01:17:47Z",
+    "modified": "2026-09-02T04:01:51Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["occupation", "transport"]
+      "semantic": [
+        "occupation",
+        "transport"
+      ]
     }
   }
 }

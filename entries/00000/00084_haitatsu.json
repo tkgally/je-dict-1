@@ -2,7 +2,7 @@
   "id": "00084_haitatsu",
   "headword": "{配達|はいたつ}",
   "reading": "はいたつ",
-  "part_of_speech": "noun; suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "delivery",
   "conjugation": {
     "type": "suru",
@@ -130,7 +130,7 @@
       ]
     }
   ],
-  "notes": "{配達|はいたつ} refers to the delivery of goods or mail.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- No standard intransitive pair\n- Pattern: [noun]を{配達|はいたつ}する\n\nCOMMON COLLOCATIONS:\n- {配達|はいたつ}⟦する→する：00392_suru⟧ (to deliver)\n- {配達|はいたつ}⟦{員|いん}→～員：02447_in⟧ (delivery person)\n- {配達|はいたつ}⟦{日|び}→日：02249_hi⟧/⟦{時間|じかん}→時間：00468_jikan⟧ (delivery date/time)\n- ⟦{宅配|たくはい}{便|びん}→宅配便：09534_takuhaibin⟧⟦で→で：00502_de⟧{配達|はいたつ} (delivery by courier)\n- ⟦{無料|むりょう}→無料：01662_muryou⟧{配達|はいたつ} (free delivery)\n\nTYPES OF DELIVERY:\n- ⟦{新聞|しんぶん}→新聞：01440_shinbun⟧{配達|はいたつ} (newspaper delivery)\n- ⟦ピザ→ピザ：06769_piza⟧⟦の→の：09472_no⟧{配達|はいたつ} (pizza delivery)\n- ⟦{即日|そくじつ}→即日：09661_sokujitsu⟧{配達|はいたつ} (same-day delivery)\n\nRELATED WORDS:\n- ⟦{配送|はいそう}→配送：05464_haisou⟧ - shipping/delivery (business term)\n- ⟦{宅配|たくはい}→宅配：09571_takuhai⟧ - home delivery\n- ⟦{配|くば}る→配る：03921_kubaru⟧ - to distribute/hand out\n- ⟦{届|とど}ける→届ける：01248_todokeru⟧ - to deliver/send",
+  "notes": "{配達|はいたつ} refers to the delivery of goods or mail.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- No standard intransitive pair\n- Pattern: [noun]⟦を→を：00422_wo⟧{配達|はいたつ}⟦する→する：00392_suru⟧\n\nCOMMON COLLOCATIONS:\n- {配達|はいたつ}⟦する→する：00392_suru⟧ (to deliver)\n- {配達|はいたつ}⟦{員|いん}→～員：02447_in⟧ (delivery person)\n- {配達|はいたつ}⟦{日|び}→日：02249_hi⟧/⟦{時間|じかん}→時間：00468_jikan⟧ (delivery date/time)\n- ⟦{宅配|たくはい}{便|びん}→宅配便：09534_takuhaibin⟧⟦で→で：00502_de⟧{配達|はいたつ} (delivery by courier)\n- ⟦{無料|むりょう}→無料：01662_muryou⟧{配達|はいたつ} (free delivery)\n\nTYPES OF DELIVERY:\n- ⟦{新聞|しんぶん}→新聞：01440_shinbun⟧{配達|はいたつ} (newspaper delivery)\n- ⟦ピザ→ピザ：06769_piza⟧⟦の→の：09472_no⟧{配達|はいたつ} (pizza delivery)\n- ⟦{即日|そくじつ}→即日：09661_sokujitsu⟧{配達|はいたつ} (same-day delivery)\n\nRELATED WORDS:\n- ⟦{配送|はいそう}→配送：05464_haisou⟧ - shipping/delivery (business term)\n- ⟦{宅配|たくはい}→宅配：09571_takuhai⟧ - home delivery\n- ⟦{配|くば}る→配る：03921_kubaru⟧ - to distribute/hand out\n- ⟦{届|とど}ける→届ける：01248_todokeru⟧ - to deliver/send",
   "cross_references": [
     {
       "type": "synonym",
@@ -145,11 +145,53 @@
       "headword": "{配|くば}る",
       "label": "to distribute",
       "target_id": "03921_kubaru"
+    },
+    {
+      "type": "related",
+      "target_id": "09571_takuhai",
+      "reading": "たくはい",
+      "headword": "{宅配|たくはい}",
+      "label": "home delivery"
+    },
+    {
+      "type": "related",
+      "target_id": "01248_todokeru",
+      "reading": "とどける",
+      "headword": "{届|とど}ける",
+      "label": "to deliver/send"
+    },
+    {
+      "type": "related",
+      "target_id": "09534_takuhaibin",
+      "reading": "たくはいびん",
+      "headword": "{宅配便|たくはいびん}",
+      "label": "home delivery service, parcel delivery"
+    },
+    {
+      "type": "related",
+      "target_id": "14996_tsuisekibangou",
+      "reading": "ついせきばんごう",
+      "headword": "{追跡番号|ついせきばんごう}",
+      "label": "tracking number"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15628_tewatashi",
+      "reading": "てわたし",
+      "headword": "{手渡|てわた}し",
+      "label": "personal delivery"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17216_nounyuu",
+      "reading": "のうにゅう",
+      "headword": "{納入|のうにゅう}",
+      "label": "delivery"
     }
   ],
   "metadata": {
     "created": "2026-01-13T03:14:22Z",
-    "modified": "2026-05-09T03:10:11Z",
+    "modified": "2026-09-02T04:00:56Z",
     "ai_model": "claude-opus-4-5-20251101",
     "vocabulary_tier": "general",
     "tags": {

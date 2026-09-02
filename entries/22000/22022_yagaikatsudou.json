@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22022_yagaikatsudou_ex1",
-      "japanese": "{子|こ}どもたちが{野外活動|やがいかつどう}を{楽|たの}しんだ。",
+      "japanese": "{子|こ}どもたち⟦が→が：00051_ga⟧{野外活動|やがいかつどう}⟦を→を：00422_wo⟧⟦{楽|たの}しんだ→楽しむ：01203_tanoshimu⟧。",
       "english": "The children enjoyed outdoor activities.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22022_yagaikatsudou_ex2",
-      "japanese": "{学校|がっこう}の{野外活動|やがいかつどう}でキャンプに{行|い}く。",
+      "japanese": "⟦{学校|がっこう}→学校：00055_gakkou⟧⟦の→の：09472_no⟧{野外活動|やがいかつどう}⟦で→で：00502_de⟧⟦キャンプ→キャンプ：03837_kyanpu⟧⟦に→に：00314_ni⟧⟦{行|い}く→行く：00119_iku⟧。",
       "english": "We're going camping as a school outdoor activity.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22022_yagaikatsudou_ex3",
-      "japanese": "{雨天|うてん}の{場合|ばあい}、{野外活動|やがいかつどう}は{中止|ちゅうし}になる{可能性|かのうせい}があります。",
+      "japanese": "⟦{雨天|うてん}→雨天：15325_uten⟧⟦の→の：09472_no⟧⟦{場合|ばあい}→場合：01704_baai⟧、{野外活動|やがいかつどう}⟦は→は：00079_ha⟧⟦{中止|ちゅうし}→中止：03481_chuushi⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦{可能性|かのうせい}→可能性：04818_kanousei⟧⟦が→が：00051_ga⟧⟦あります→ある：00006_aru⟧。",
       "english": "In case of rain, the outdoor activities may be canceled.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {野外|やがい} (outdoors; open air) and {活動|かつどう} (activity). Frequently used in school and scouting contexts for organized outdoor programs such as camping, hiking, and nature observation.\n\nCOMMON COLLOCATIONS:\n- {野外活動|やがいかつどう}センター: outdoor activity center\n- {野外活動|やがいかつどう}{施設|しせつ}: outdoor activity facility\n- {野外活動|やがいかつどう}を{行|おこな}う: to conduct outdoor activities\n- {学校|がっこう}の{野外活動|やがいかつどう}: school outdoor activities\n\nSIMILAR WORDS:\n- アウトドア: outdoor — loanword; more casual and lifestyle-oriented\n- {屋外|おくがい}{活動|かつどう}: outdoor activity — similar but {屋外|おくがい} simply means \"outside a building,\" while {野外|やがい} implies a natural setting\n- {課外活動|かがいかつどう}: extracurricular activities — activities outside regular classes, not necessarily outdoors",
+  "notes": "A compound of ⟦{野外|やがい}→野外：17152_yagai⟧ (outdoors; open air) and ⟦{活動|かつどう}→活動：00201_katsudou⟧ (activity). Frequently used in school and scouting contexts for organized outdoor programs such as camping, hiking, and nature observation.\n\nCOMMON COLLOCATIONS:\n- {野外活動|やがいかつどう}⟦センター→センター：03854_sentaa⟧: outdoor activity center\n- {野外活動|やがいかつどう}⟦{施設|しせつ}→施設：02503_shisetsu⟧: outdoor activity facility\n- {野外活動|やがいかつどう}⟦を→を：00422_wo⟧⟦{行|おこな}う→行う：01238_okonau⟧: to conduct outdoor activities\n- ⟦{学校|がっこう}→学校：00055_gakkou⟧⟦の→の：09472_no⟧{野外活動|やがいかつどう}: school outdoor activities\n\nSIMILAR WORDS:\n- ⟦アウトドア→アウトドア：10695_autodoa⟧: outdoor — loanword; more casual and lifestyle-oriented\n- ⟦{屋外|おくがい}→屋外：04136_okugai⟧⟦{活動|かつどう}→活動：00201_katsudou⟧: outdoor activity — similar but ⟦{屋外|おくがい}→屋外：04136_okugai⟧ simply means \"outside a building,\" while ⟦{野外|やがい}→野外：17152_yagai⟧ implies a natural setting\n- ⟦{課外活動|かがいかつどう}→課外活動：08605_kagaikatsudou⟧: extracurricular activities — activities outside regular classes, not necessarily outdoors",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "10695_autodoa",
+      "reading": "あうとどあ",
+      "headword": "アウトドア",
+      "label": "outdoor"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08605_kagaikatsudou",
+      "reading": "かがいかつどう",
+      "headword": "{課外活動|かがいかつどう}",
+      "label": "extracurricular activities"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +76,6 @@
       ]
     },
     "created": "2026-04-04T20:26:56Z",
-    "modified": "2026-04-10T08:28:27Z"
+    "modified": "2026-09-02T04:02:06Z"
   }
 }

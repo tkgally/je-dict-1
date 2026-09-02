@@ -164,7 +164,7 @@
     },
     {
       "id": "04244_shikomu_ex6",
-      "japanese": "⟦{料理人|りょうりにん}→料理人：19396_ryourinin⟧⟦は→は：00079_ha⟧⟦{朝|あさ}→朝：02277_asa⟧⟦{早|はや}く→早く：02935_hayaku⟧⟦から→から：00504_kara⟧{仕込|しこ}み⟦を→を：00422_wo⟧⟦{始|はじ}める→始める：00531_hajimeru⟧。",
+      "japanese": "⟦{料理人|りょうりにん}→料理人：19396_ryourinin⟧⟦は→は：00079_ha⟧⟦{朝|あさ}→朝：02277_asa⟧⟦{早|はや}く→早く：02935_hayaku⟧⟦から→から：00504_kara⟧⟦{仕込|しこ}み→仕込み：09206_shikomi⟧⟦を→を：00422_wo⟧⟦{始|はじ}める→始める：00531_hajimeru⟧。",
       "english": "The chef starts food preparation early in the morning.",
       "has_audio": false,
       "sense_numbers": [
@@ -203,10 +203,19 @@
       "notes": null
     }
   ],
-  "notes": "{仕込|しこ}む is a transitive verb (⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧) with origins in traditional apprenticeship and food preparation. It implies thorough preparation over time.\n\nASPECT (ている):\n{仕込|しこ}んでいる indicates preparation is in progress. For fermentation, {仕込|しこ}んである indicates something has been prepared and is now aging.\n\nPARTICLE PATTERNS:\n- [person]⟦に→に：00314_ni⟧[skill]⟦を→を：00422_wo⟧{仕込|しこ}む — to train [person] in [skill]\n- [product]⟦を→を：00422_wo⟧{仕込|しこ}む — to prepare/brew [product]\n\nCOMMON PATTERNS:\n- ⟦{味噌|みそ}→味噌：01037_miso⟧⟦を→を：00422_wo⟧{仕込|しこ}む (prepare miso)\n- ⟦{酒|さけ}→酒：02211_sake⟧⟦を→を：00422_wo⟧{仕込|しこ}む (brew sake)\n- ⟦{弟子|でし}→弟子：03986_deshi⟧⟦を→を：00422_wo⟧{仕込|しこ}む (train an apprentice)\n- ⟦{商品|しょうひん}→商品：01436_shouhin⟧⟦を→を：00422_wo⟧{仕込|しこ}む (stock up on merchandise)\n\nTRADITIONAL CONTEXT:\nOriginating from traditional crafts and brewing, {仕込|しこ}む implies patient, thorough preparation and often strict discipline in training.\n\nNOUN FORM:\n{仕込|しこ}み (preparation, training, stock)",
+  "notes": "{仕込|しこ}む is a transitive verb (⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧) with origins in traditional apprenticeship and food preparation. It implies thorough preparation over time.\n\nASPECT (ている):\n{仕込|しこ}んで⟦いる→いる：00495_iru⟧ indicates preparation is in progress. For fermentation, {仕込|しこ}んで⟦ある→ある：00006_aru⟧ indicates something has been prepared and is now aging.\n\nCOMMON PATTERNS:\n- [person]⟦に→に：00314_ni⟧[skill]⟦を→を：00422_wo⟧{仕込|しこ}む — to train [person] in [skill]\n- [product]⟦を→を：00422_wo⟧{仕込|しこ}む — to prepare/brew [product]\n- ⟦{味噌|みそ}→味噌：01037_miso⟧⟦を→を：00422_wo⟧{仕込|しこ}む (prepare miso)\n- ⟦{酒|さけ}→酒：02211_sake⟧⟦を→を：00422_wo⟧{仕込|しこ}む (brew sake)\n- ⟦{弟子|でし}→弟子：03986_deshi⟧⟦を→を：00422_wo⟧{仕込|しこ}む (train an apprentice)\n- ⟦{商品|しょうひん}→商品：01436_shouhin⟧⟦を→を：00422_wo⟧{仕込|しこ}む (stock up on merchandise)\n\nTRADITIONAL CONTEXT:\nOriginating from traditional crafts and brewing, {仕込|しこ}む implies patient, thorough preparation and often strict discipline in training.\n\nFORMS:\n⟦{仕込|しこ}み→仕込み：09206_shikomi⟧ (preparation, training, stock)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19335_oshiekomu",
+      "reading": "おしえこむ",
+      "headword": "{教|おし}え{込|こ}む",
+      "label": "to drill into"
+    }
+  ],
   "metadata": {
     "created": "2026-01-14T08:40:32Z",
-    "modified": "2026-08-14T18:20:10Z",
+    "modified": "2026-09-02T04:01:04Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

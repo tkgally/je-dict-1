@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30694_kotogotoku_ex1",
-      "japanese": "{計画|けいかく}はことごとく{失敗|しっぱい}した。",
+      "japanese": "⟦{計画|けいかく}→計画：01172_keikaku⟧⟦は→は：00079_ha⟧ことごとく⟦{失敗|しっぱい}→失敗：01636_shippai⟧⟦した→する：00392_suru⟧。",
       "english": "Every one of the plans failed.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30694_kotogotoku_ex2",
-      "japanese": "{彼|かれ}の{意見|いけん}は{私|わたし}のものとことごとく{対立|たいりつ}する。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧⟦{意見|いけん}→意見：01303_iken⟧⟦は→は：00079_ha⟧⟦{私|わたし}→私：02988_watashi⟧⟦の→の：09472_no⟧もの⟦と→と：00512_to⟧ことごとく⟦{対立|たいりつ}する→対立する：22172_tairitsusuru⟧。",
       "english": "His opinions clash with mine on every single point.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30694_kotogotoku_ex3",
-      "japanese": "{台風|たいふう}で{畑|はたけ}の{作物|さくもつ}はことごとくだめになってしまった。",
+      "japanese": "⟦{台風|たいふう}→台風：01455_taifuu⟧⟦で→で：00502_de⟧⟦{畑|はたけ}→畑：00842_hatake⟧⟦の→の：09472_no⟧⟦{作物|さくもつ}→作物：02823_sakumotsu⟧⟦は→は：00079_ha⟧ことごとく⟦だめ→だめ：00693_dame⟧になってしまった。",
       "english": "The typhoon ruined every last crop in the field.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Formal and slightly literary; common in writing, news, and speeches, but rare in casual conversation.\n\nCOMMON COLLOCATIONS:\n- ことごとく{失敗|しっぱい}する: to fail every time\n- ことごとく{反対|はんたい}する: to oppose at every turn\n- ことごとく{裏切|うらぎ}られる: to be betrayed in every expectation\n- ことごとく{打|う}ち{砕|くだ}かれる: to be utterly shattered\n\nSIMILAR WORDS:\n- {全|すべ}て: all — the neutral everyday word, with no literary flavor\n- {残|のこ}らず: without leaving any behind — plainer, and used for pleasant outcomes too\n- {一|ひと}つ{残|のこ}らず: every last one — emphatic and conversational",
+  "notes": "Formal and slightly literary; common in writing, news, and speeches, but rare in casual conversation.\n\nCOMMON COLLOCATIONS:\n- ことごとく⟦{失敗|しっぱい}→失敗：01636_shippai⟧⟦する→する：00392_suru⟧: to fail every time\n- ことごとく⟦{反対|はんたい}する→反対する：05648_hantaisuru⟧: to oppose at every turn\n- ことごとく⟦{裏切|うらぎ}られる→裏切る：02011_uragiru⟧: to be betrayed in every expectation\n- ことごとく⟦{打|う}ち{砕|くだ}かれる→打ち砕く：30356_uchikudaku⟧: to be utterly shattered\n\nSIMILAR WORDS:\n- ⟦{全|すべ}て→全て：03822_subete⟧: all — the neutral everyday word, with no literary flavor\n- ⟦{残|のこ}ら→残る：01187_nokoru⟧ず: without leaving any behind — plainer, and used for pleasant outcomes too\n- ⟦{一|ひと}つ→一つ：02948_hitotsu⟧⟦{残|のこ}ら→残る：01187_nokoru⟧ず: every last one — emphatic and conversational",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03822_subete",
+      "reading": "すべて",
+      "headword": "{全|すべ}て",
+      "label": "all"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06954_nokorazu",
+      "reading": "のこらず",
+      "headword": "{残|のこ}らず",
+      "label": "without leaving any behind"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +69,13 @@
         "adverb"
       ],
       "formality": "formal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "quantity"
       ],
       "domain": []
     },
     "created": "2026-08-20T02:40:41Z",
-    "modified": "2026-08-20T02:40:41Z"
+    "modified": "2026-09-02T04:02:41Z"
   }
 }

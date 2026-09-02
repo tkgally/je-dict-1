@@ -3,7 +3,7 @@
   "id": "17013_yattekuru",
   "headword": "やって{来|く}る",
   "reading": "やってくる",
-  "part_of_speech": "verb-kuru",
+  "part_of_speech": "verb (kuru)",
   "gloss": "to come along; to arrive; to show up",
   "conjugation": {
     "type": "kuru",
@@ -110,7 +110,7 @@
   "examples": [
     {
       "id": "17013_yattekuru_ex1",
-      "japanese": "{友達|ともだち}がやって{来|き}た。",
+      "japanese": "⟦{友達|ともだち}→友達：01478_tomodachi⟧⟦が→が：00051_ga⟧やって{来|き}た。",
       "english": "A friend came over.",
       "notes": null,
       "has_audio": false,
@@ -120,7 +120,7 @@
     },
     {
       "id": "17013_yattekuru_ex2",
-      "japanese": "{遠|とお}くから{観光客|かんこうきゃく}がやって{来|く}る。",
+      "japanese": "{遠|とお}く⟦から→から：00504_kara⟧⟦{観光客|かんこうきゃく}→観光客：03022_kankoukyaku⟧⟦が→が：00051_ga⟧やって{来|く}る。",
       "english": "Tourists come from far away.",
       "notes": null,
       "has_audio": false,
@@ -130,7 +130,7 @@
     },
     {
       "id": "17013_yattekuru_ex3",
-      "japanese": "{野良猫|のらねこ}が{毎日|まいにち}うちの{庭|にわ}にやって{来|く}るので、{名前|なまえ}を{付|つ}けてしまった。",
+      "japanese": "⟦{野良猫|のらねこ}→野良猫：14440_noraneko⟧⟦が→が：00051_ga⟧⟦{毎日|まいにち}→毎日：00729_mainichi⟧うち⟦の→の：09472_no⟧⟦{庭|にわ}→庭：02239_niwa⟧⟦に→に：00314_ni⟧やって{来|く}る⟦の→の：09472_no⟧で、⟦{名前|なまえ}→名前：02234_namae⟧⟦を→を：00422_wo⟧⟦{付|つ}けて→付ける：00761_tsukeru⟧しまった。",
       "english": "A stray cat comes to our garden every day, so I ended up giving it a name.",
       "notes": null,
       "has_audio": false,
@@ -140,7 +140,7 @@
     },
     {
       "id": "17013_yattekuru_ex4",
-      "japanese": "もうすぐ{春|はる}がやって{来|く}る。",
+      "japanese": "⟦もうすぐ→もうすぐ：01218_mousugu⟧⟦{春|はる}→春：00627_haru⟧⟦が→が：00051_ga⟧やって{来|く}る。",
       "english": "Spring is coming soon.",
       "notes": null,
       "has_audio": false,
@@ -150,7 +150,7 @@
     },
     {
       "id": "17013_yattekuru_ex5",
-      "japanese": "ついに{試験|しけん}の{日|ひ}がやって{来|き}た。",
+      "japanese": "ついに⟦{試験|しけん}→試験：01422_shiken⟧⟦の→の：09472_no⟧⟦{日|ひ}→日：02249_hi⟧⟦が→が：00051_ga⟧やって{来|き}た。",
       "english": "The day of the exam has finally arrived.",
       "notes": null,
       "has_audio": false,
@@ -160,7 +160,7 @@
     },
     {
       "id": "17013_yattekuru_ex6",
-      "japanese": "{待|ま}ちに{待|ま}った{夏休|なつやす}みがやって{来|き}て、{子|こ}どもたちは{大喜|おおよろこ}びだ。",
+      "japanese": "{待|ま}ち⟦に→に：00314_ni⟧⟦{待|ま}った→待つ：00469_matsu⟧⟦{夏休|なつやす}み→夏休み：02925_natsuyasumi⟧⟦が→が：00051_ga⟧やって{来|き}て、{子|こ}どもたち⟦は→は：00079_ha⟧⟦{大喜|おおよろこ}び→大喜び：28880_ooyorokobi⟧だ。",
       "english": "The long-awaited summer vacation has arrived, and the children are overjoyed.",
       "notes": null,
       "has_audio": false,
@@ -169,11 +169,19 @@
       ]
     }
   ],
-  "notes": "USAGE:\nMore vivid and emphatic than simply {来|く}る. Suggests that the arrival takes some effort or distance, or that it is notable or eagerly anticipated. Very common in both spoken and written Japanese.\n\nCOMMON COLLOCATIONS:\n- {春|はる}がやって{来|く}る (spring comes)\n- {客|きゃく}がやって{来|く}る (a guest arrives)\n- ついにやって{来|き}た (it finally arrived)\n\nSIMILAR WORDS:\n- {来|く}る: to come — neutral and general, while やって{来|く}る adds emphasis or a sense of distance",
-  "cross_references": [],
+  "notes": "USAGE:\nMore vivid and emphatic than simply ⟦{来|く}る→来る：00254_kuru⟧. Suggests that the arrival takes some effort or distance, or that it is notable or eagerly anticipated. Very common in both spoken and written Japanese.\n\nCOMMON COLLOCATIONS:\n- ⟦{春|はる}→春：00627_haru⟧⟦が→が：00051_ga⟧やって{来|く}る (spring comes)\n- ⟦{客|きゃく}→客：00865_kyaku⟧⟦が→が：00051_ga⟧やって{来|く}る (a guest arrives)\n- ついにやって{来|き}た (it finally arrived)\n\nSIMILAR WORDS:\n- ⟦{来|く}る→来る：00254_kuru⟧: to come — neutral and general, while やって{来|く}る adds emphasis or a sense of distance",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "00254_kuru",
+      "reading": "くる",
+      "headword": "{来|く}る",
+      "label": "to come"
+    }
+  ],
   "metadata": {
     "created": "2026-03-15T05:53:16Z",
-    "modified": "2026-07-22T03:30:08Z",
+    "modified": "2026-09-02T04:01:46Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

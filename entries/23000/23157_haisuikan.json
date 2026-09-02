@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "23157_haisuikan_ex1",
-      "japanese": "{排水管|はいすいかん}が{詰|つ}まった。",
+      "japanese": "{排水管|はいすいかん}⟦が→が：00051_ga⟧⟦{詰|つ}まった→詰まる：02079_tsumaru⟧。",
       "english": "The drainpipe got clogged.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "23157_haisuikan_ex2",
-      "japanese": "{排水管|はいすいかん}の{掃除|そうじ}を{業者|ぎょうしゃ}に{頼|たの}んだ。",
+      "japanese": "{排水管|はいすいかん}⟦の→の：09472_no⟧⟦{掃除|そうじ}→掃除：02889_souji⟧⟦を→を：00422_wo⟧⟦{業者|ぎょうしゃ}→業者：13130_gyousha⟧⟦に→に：00314_ni⟧⟦{頼|たの}んだ→頼む：01104_tanomu⟧。",
       "english": "I asked a professional to clean the drainpipe.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "23157_haisuikan_ex3",
-      "japanese": "{古|ふる}い{建物|たてもの}は{排水管|はいすいかん}が{劣化|れっか}していることが{多|おお}い。",
+      "japanese": "⟦{古|ふる}い→古い：00488_furui⟧⟦{建物|たてもの}→建物：01458_tatemono⟧⟦は→は：00079_ha⟧{排水管|はいすいかん}⟦が→が：00051_ga⟧⟦{劣化|れっか}→劣化：07647_rekka⟧⟦している→する：00392_suru⟧こと⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "In old buildings, the drainage pipes are often deteriorated.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {排水|はいすい} (drainage, draining water) + {管|かん} (pipe, tube). A practical household and construction term. {排水管|はいすいかん} problems like clogs and leaks are common topics when dealing with housing maintenance.\n\nCOMMON COLLOCATIONS:\n- {排水管|はいすいかん}が{詰|つ}まる: the drainpipe gets clogged\n- {排水管|はいすいかん}の{掃除|そうじ}: drain cleaning\n- {排水管|はいすいかん}の{交換|こうかん}: drainpipe replacement\n- {排水管|はいすいかん}の{修理|しゅうり}: drainpipe repair\n- {排水管|はいすいかん}{工事|こうじ}: drainage pipe work\n\nSIMILAR WORDS:\n- {給水管|きゅうすいかん}: water supply pipe — carries clean water in, as opposed to waste water out\n- {下水管|げすいかん}: sewer pipe — larger municipal pipes that carry sewage\n- {排水口|はいすいこう}: drain opening — the drain hole in a sink, bathtub, or floor",
+  "notes": "Composed of ⟦{排水|はいすい}→排水：11104_haisui⟧ (drainage, draining water) + ⟦{管|かん}→管：09749_kan⟧ (pipe, tube). A practical household and construction term. {排水管|はいすいかん} problems like clogs and leaks are common topics when dealing with housing maintenance.\n\nCOMMON COLLOCATIONS:\n- {排水管|はいすいかん}⟦が→が：00051_ga⟧⟦{詰|つ}まる→詰まる：02079_tsumaru⟧: the drainpipe gets clogged\n- {排水管|はいすいかん}⟦の→の：09472_no⟧⟦{掃除|そうじ}→掃除：02889_souji⟧: drain cleaning\n- {排水管|はいすいかん}⟦の→の：09472_no⟧⟦{交換|こうかん}→交換：02746_koukan⟧: drainpipe replacement\n- {排水管|はいすいかん}⟦の→の：09472_no⟧⟦{修理|しゅうり}→修理：03214_shuuri⟧: drainpipe repair\n- {排水管|はいすいかん}⟦{工事|こうじ}→工事：00244_kouji⟧: drainage pipe work\n\nSIMILAR WORDS:\n- {給水管|きゅうすいかん}: water supply pipe — carries clean water in, as opposed to waste water out\n- {下水管|げすいかん}: sewer pipe — larger municipal pipes that carry sewage\n- ⟦{排水口|はいすいこう}→排水口：16250_haisuikou⟧: drain opening — the drain hole in a sink, bathtub, or floor",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16250_haisuikou",
+      "reading": "はいすいこう",
+      "headword": "{排水口|はいすいこう}",
+      "label": "drain opening"
+    },
+    {
+      "type": "related",
+      "target_id": "07495_haikan",
+      "reading": "はいかん",
+      "headword": "{配管|はいかん}",
+      "label": "plumbing"
+    },
+    {
+      "type": "related",
+      "target_id": "08094_suidoukan",
+      "reading": "すいどうかん",
+      "headword": "{水道管|すいどうかん}",
+      "label": "water pipe"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +82,6 @@
       ]
     },
     "created": "2026-04-08T20:37:20Z",
-    "modified": "2026-07-31T18:20:34Z"
+    "modified": "2026-09-02T04:02:11Z"
   }
 }

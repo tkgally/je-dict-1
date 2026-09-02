@@ -54,7 +54,7 @@
     },
     {
       "id": "03519_nicchuu_ex5",
-      "japanese": "{日中|にっちゅう}⟦は→は：00079_ha⟧⟦{子供|こども}→子供：00554_kodomo⟧⟦を→を：00422_wo⟧⟦{学校|がっこう}→学校：00055_gakkou⟧⟦に→に：00314_ni⟧⟦{送|おく}って→送る：00742_okuru⟧⟦から→から：00504_kara⟧⟦{買い物|かいもの}→買い物：00853_kaimono⟧⟦に→に：00314_ni⟧⟦{行|い}き→行く：00119_iku⟧、⟦{夕方|ゆうがた}→夕方：01010_yuugata⟧⟦まで→まで：00490_made⟧⟦{家事|かじ}→家事：12313_kaji⟧⟦を→を：00422_wo⟧している。",
+      "japanese": "{日中|にっちゅう}⟦は→は：00079_ha⟧⟦{子供|こども}→子供：00554_kodomo⟧⟦を→を：00422_wo⟧⟦{学校|がっこう}→学校：00055_gakkou⟧⟦に→に：00314_ni⟧⟦{送|おく}って→送る：00742_okuru⟧⟦から→から：00504_kara⟧⟦{買い物|かいもの}→買い物：00853_kaimono⟧⟦に→に：00314_ni⟧⟦{行|い}き→行く：00119_iku⟧、⟦{夕方|ゆうがた}→夕方：01010_yuugata⟧⟦まで→まで：00490_made⟧⟦{家事|かじ}→家事：12313_kaji⟧⟦を→を：00422_wo⟧⟦している→する：00392_suru⟧。",
       "english": "During the day, I drop the kids off at school, then go shopping, and do housework until the evening.",
       "notes": null,
       "has_audio": false,
@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "USAGE: {日中|にっちゅう} refers to daytime hours. Note that with different kanji combinations, this reading can also mean Japan-China ({日中|にっちゅう}⟦{関係|かんけい}→関係：01298_kankei⟧ = Japan-China relations).\n\nCOMMON PATTERNS:\n・{日中|にっちゅう}⟦は→は：00079_ha⟧ (during the day)\n・{日中|にっちゅう}⟦の→の：09472_no⟧⟦{気温|きおん}→気温：00235_kion⟧ (daytime temperature)\n・{日中|にっちゅう}⟦{帯|たい}→帯：noentry⟧ (daytime hours, as a period)\n\nCONTRAST:\n・{日中|にっちゅう} - daytime\n・⟦{夜間|やかん}→夜間：04133_yakan⟧ - nighttime\n・⟦{昼間|ひるま}→昼間：01713_hiruma⟧ - daytime (more colloquial)\n・⟦{昼|ひる}→昼：00540_hiru⟧ - noon, daytime\n\nNOTE: Context is important to distinguish from {日中|にっちゅう} meaning Japan-China. Weather and time contexts indicate 'daytime'; diplomatic contexts indicate 'Japan-China'.",
+  "notes": "USAGE: {日中|にっちゅう} refers to daytime hours. Note that with different kanji combinations, this reading can also mean Japan-China ({日中|にっちゅう}⟦{関係|かんけい}→関係：01298_kankei⟧ = Japan-China relations).\n\nCOMMON PATTERNS:\n- {日中|にっちゅう}⟦は→は：00079_ha⟧ (during the day)\n- {日中|にっちゅう}⟦の→の：09472_no⟧⟦{気温|きおん}→気温：00235_kion⟧ (daytime temperature)\n- {日中|にっちゅう}⟦{帯|たい}→帯：noentry⟧ (daytime hours, as a period)\n\nSIMILAR WORDS:\n- {日中|にっちゅう} - daytime\n- ⟦{夜間|やかん}→夜間：04133_yakan⟧ - nighttime\n- ⟦{昼間|ひるま}→昼間：01713_hiruma⟧ - daytime (more colloquial)\n- ⟦{昼|ひる}→昼：00540_hiru⟧ - noon, daytime\n\nNOTE: Context is important to distinguish from {日中|にっちゅう} meaning Japan-China. Weather and time contexts indicate 'daytime'; diplomatic contexts indicate 'Japan-China'.",
   "cross_references": [
     {
       "type": "antonym",
@@ -78,11 +78,32 @@
       "headword": "{昼間|ひるま}",
       "label": "daytime (colloquial)",
       "target_id": "01713_hiruma"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00540_hiru",
+      "reading": "ひる",
+      "headword": "{昼|ひる}",
+      "label": "noon, daytime"
+    },
+    {
+      "type": "related",
+      "target_id": "18020_mahiru",
+      "reading": "まひる",
+      "headword": "{真昼|まひる}",
+      "label": "midday"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23777_hakuchuu",
+      "reading": "はくちゅう",
+      "headword": "{白昼|はくちゅう}",
+      "label": "broad daylight"
     }
   ],
   "metadata": {
     "created": "2026-01-12T10:50:00Z",
-    "modified": "2026-05-25T23:13:48Z",
+    "modified": "2026-09-02T04:01:03Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

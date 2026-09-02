@@ -15,40 +15,73 @@
   "examples": [
     {
       "id": "23069_akugyou_ex1",
-      "japanese": "{悪行|あくぎょう}を{重|かさ}ねる。",
+      "japanese": "{悪行|あくぎょう}⟦を→を：00422_wo⟧⟦{重|かさ}ねる→重ねる：02039_kasaneru⟧。",
       "english": "To commit evil deeds repeatedly.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "23069_akugyou_ex2",
-      "japanese": "{彼|かれ}の{悪行|あくぎょう}がついに{明|あき}るみに{出|で}た。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧{悪行|あくぎょう}⟦が→が：00051_ga⟧ついに{明|あき}るみ⟦に→に：00314_ni⟧⟦{出|で}た→出る：00513_deru⟧。",
       "english": "His misdeeds have finally come to light.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "23069_akugyou_ex3",
-      "japanese": "{過去|かこ}の{悪行|あくぎょう}を{悔|く}い{改|あらた}めて、{善行|ぜんこう}に{励|はげ}むようになった。",
+      "japanese": "⟦{過去|かこ}→過去：00152_kako⟧⟦の→の：09472_no⟧{悪行|あくぎょう}⟦を→を：00422_wo⟧⟦{悔|く}い{改|あらた}めて→悔い改める：19907_kuiaratameru⟧、⟦{善行|ぜんこう}→善行：21970_zenkou⟧⟦に→に：00314_ni⟧⟦{励|はげ}む→励む：11822_hagemu⟧ようになった。",
       "english": "He repented of his past misdeeds and devoted himself to good works.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {悪|あく} (evil/bad) + {行|ぎょう} (deed/conduct). Often used in moral, religious, or narrative contexts to describe seriously immoral behavior.\n\nCOMMON COLLOCATIONS:\n- {悪行|あくぎょう}を{重|かさ}ねる: to pile up evil deeds\n- {悪行|あくぎょう}を{働|はたら}く: to commit a wicked act\n- {悪行|あくぎょう}が{露見|ろけん}する: misdeeds are exposed\n- {悪行|あくぎょう}{三昧|ざんまい}: indulging in wickedness\n\nSIMILAR WORDS:\n- {悪事|あくじ}: evil act — very similar; slightly more common in everyday use\n- {非行|ひこう}: delinquency — specifically juvenile misconduct\n- {善行|ぜんこう}: good deed — the antonym\n- {所業|しょぎょう}: deed, conduct — neutral but often used for negative behavior",
+  "notes": "A compound of {悪|あく} (evil/bad) + ⟦{行|ぎょう}→行：26669_gyou⟧ (deed/conduct). Often used in moral, religious, or narrative contexts to describe seriously immoral behavior.\n\nCOMMON COLLOCATIONS:\n- {悪行|あくぎょう}⟦を→を：00422_wo⟧⟦{重|かさ}ねる→重ねる：02039_kasaneru⟧: to pile up evil deeds\n- {悪行|あくぎょう}⟦を→を：00422_wo⟧⟦{働|はたら}く→働く：00503_hataraku⟧: to commit a wicked act\n- {悪行|あくぎょう}⟦が→が：00051_ga⟧⟦{露見|ろけん}→露見：20077_roken⟧⟦する→する：00392_suru⟧: misdeeds are exposed\n- {悪行|あくぎょう}⟦{三昧|ざんまい}→三昧：05931_zanmai⟧: indulging in wickedness\n\nSIMILAR WORDS:\n- ⟦{悪事|あくじ}→悪事：29054_akuji⟧: evil act — very similar; slightly more common in everyday use\n- ⟦{非行|ひこう}→非行：03703_hikou⟧: delinquency — specifically juvenile misconduct\n- ⟦{善行|ぜんこう}→善行：21970_zenkou⟧: good deed — the antonym\n- {所業|しょぎょう}: deed, conduct — neutral but often used for negative behavior",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "29054_akuji",
+      "reading": "あくじ",
+      "headword": "{悪事|あくじ}",
+      "label": "evil act"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03703_hikou",
+      "reading": "ひこう",
+      "headword": "{非行|ひこう}",
+      "label": "delinquency"
+    },
+    {
+      "type": "antonym",
+      "target_id": "21970_zenkou",
+      "reading": "ぜんこう",
+      "headword": "{善行|ぜんこう}",
+      "label": "good deed"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["abstract"]
+      "semantic": [
+        "abstract"
+      ]
     },
     "created": "2026-04-08T17:34:28Z",
-    "modified": "2026-04-08T17:34:28Z"
+    "modified": "2026-09-02T04:02:10Z"
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "14729_tekkyo_ex1",
-      "japanese": "{古|ふる}い{看板|かんばん}が{撤去|てっきょ}された。",
+      "japanese": "⟦{古|ふる}い→古い：00488_furui⟧⟦{看板|かんばん}→看板：00166_kanban⟧⟦が→が：00051_ga⟧{撤去|てっきょ}⟦された→する：00392_suru⟧。",
       "english": "The old sign was removed.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "14729_tekkyo_ex2",
-      "japanese": "{違法|いほう}{駐輪|ちゅうりん}の{自転車|じてんしゃ}は{撤去|てっきょ}されます。",
+      "japanese": "⟦{違法|いほう}→違法：09687_ihou⟧⟦{駐輪|ちゅうりん}→駐輪：15100_chuurin⟧⟦の→の：09472_no⟧⟦{自転車|じてんしゃ}→自転車：00633_jitensha⟧⟦は→は：00079_ha⟧{撤去|てっきょ}⟦されます→する：00392_suru⟧。",
       "english": "Illegally parked bicycles will be removed.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "14729_tekkyo_ex3",
-      "japanese": "{工事|こうじ}が{終|お}わったので、{足場|あしば}の{撤去|てっきょ}{作業|さぎょう}が{始|はじ}まった。",
+      "japanese": "⟦{工事|こうじ}→工事：00244_kouji⟧⟦が→が：00051_ga⟧⟦{終|お}わった→終わる：00567_owaru⟧⟦の→の：09472_no⟧で、⟦{足場|あしば}→足場：06518_ashiba⟧⟦の→の：09472_no⟧{撤去|てっきょ}⟦{作業|さぎょう}→作業：02775_sagyou⟧⟦が→が：00051_ga⟧⟦{始|はじ}まった→始まる：00841_hajimaru⟧。",
       "english": "Since the construction is finished, scaffolding removal work has begun.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "A formal word commonly seen on public notices and in news reports. The verb form {撤去|てっきょ}する means \"to remove\" or \"to dismantle.\"\n\nCOMMON COLLOCATIONS:\n- {撤去|てっきょ}{作業|さぎょう} (removal work)\n- {撤去|てっきょ}{費用|ひよう} (removal costs)\n- {強制|きょうせい}{撤去|てっきょ} (forced removal)\n- {撤去|てっきょ}{命令|めいれい} (removal order)\n\nOften seen on signs: {無断|むだん}{駐輪|ちゅうりん}は{撤去|てっきょ}します (Unauthorized bicycles will be removed).",
+  "notes": "A formal word commonly seen on public notices and in news reports. The verb form {撤去|てっきょ}⟦する→する：00392_suru⟧ means \"to remove\" or \"to dismantle.\"\n\nCOMMON COLLOCATIONS:\n- {撤去|てっきょ}⟦{作業|さぎょう}→作業：02775_sagyou⟧ (removal work)\n- {撤去|てっきょ}⟦{費用|ひよう}→費用：03588_hiyou⟧ (removal costs)\n- ⟦{強制|きょうせい}→強制：12500_kyousei⟧{撤去|てっきょ} (forced removal)\n- {撤去|てっきょ}⟦{命令|めいれい}→命令：03754_meirei⟧ (removal order)\n\nOften seen on signs: ⟦{無断|むだん}→無断：13382_mudan⟧⟦{駐輪|ちゅうりん}→駐輪：15100_chuurin⟧⟦は→は：00079_ha⟧{撤去|てっきょ}⟦します→する：00392_suru⟧ (Unauthorized bicycles will be removed).",
   "cross_references": [
     {
       "type": "synonym",
@@ -52,11 +52,18 @@
       "reading": "てっしゅう",
       "headword": "{撤収|てっしゅう}",
       "label": "withdrawal, removal"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22325_torikowashi",
+      "reading": "とりこわし",
+      "headword": "{取|と}り{壊|こわ}し",
+      "label": "demolition"
     }
   ],
   "metadata": {
     "created": "2026-03-03T09:48:16Z",
-    "modified": "2026-04-27T10:17:30Z",
+    "modified": "2026-09-02T04:01:38Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

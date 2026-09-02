@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29397_himen_ex1",
-      "japanese": "{大臣|だいじん}を{罷免|ひめん}する。",
+      "japanese": "⟦{大臣|だいじん}→大臣：03417_daijin⟧⟦を→を：00422_wo⟧{罷免|ひめん}⟦する→する：00392_suru⟧。",
       "english": "to dismiss a minister",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29397_himen_ex2",
-      "japanese": "{首相|しゅしょう}は{大臣|だいじん}の{罷免|ひめん}を{決|き}めた。",
+      "japanese": "⟦{首相|しゅしょう}→首相：03217_shushou⟧⟦は→は：00079_ha⟧⟦{大臣|だいじん}→大臣：03417_daijin⟧⟦の→の：09472_no⟧{罷免|ひめん}⟦を→を：00422_wo⟧⟦{決|き}めた→決める：00858_kimeru⟧。",
       "english": "The prime minister decided to dismiss the minister.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29397_himen_ex3",
-      "japanese": "{裁判官|さいばんかん}を{罷免|ひめん}するには{特別|とくべつ}な{手続|てつづ}きが{必要|ひつよう}だ。",
+      "japanese": "⟦{裁判官|さいばんかん}→裁判官：09562_saibankan⟧⟦を→を：00422_wo⟧{罷免|ひめん}⟦する→する：00392_suru⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{特別|とくべつ}→特別：01120_tokubetsu⟧な⟦{手続|てつづ}き→手続き：05453_tetsuzuki⟧⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧だ。",
       "english": "Removing a judge from office requires special procedures.",
       "sense_numbers": [
         1
@@ -44,8 +44,59 @@
       "notes": null
     }
   ],
-  "notes": "A formal term for the involuntary removal of an official from office, typically by a superior authority.\n\nCOMMON COLLOCATIONS:\n- {罷免|ひめん}する: to dismiss (from office)\n- {罷免|ひめん}{権|けん}: power of dismissal\n- {大臣|だいじん}を{罷免|ひめん}する: to dismiss a minister\n\nSIMILAR WORDS:\n- {解任|かいにん}: dismissal from a duty or position — broader, also used in business\n- {解雇|かいこ}: dismissal of an employee, firing — ordinary employment",
+  "notes": "A formal term for the involuntary removal of an official from office, typically by a superior authority.\n\nCOMMON COLLOCATIONS:\n- {罷免|ひめん}⟦する→する：00392_suru⟧: to dismiss (from office)\n- {罷免|ひめん}{権|けん}: power of dismissal\n- ⟦{大臣|だいじん}→大臣：03417_daijin⟧⟦を→を：00422_wo⟧{罷免|ひめん}⟦する→する：00392_suru⟧: to dismiss a minister\n\nSIMILAR WORDS:\n- ⟦{解任|かいにん}→解任：17173_kainin⟧: dismissal from a duty or position — broader, also used in business\n- ⟦{解雇|かいこ}→解雇：04561_kaiko⟧: dismissal of an employee, firing — ordinary employment",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17173_kainin",
+      "reading": "かいにん",
+      "headword": "{解任|かいにん}",
+      "label": "dismissal from a duty or position"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04561_kaiko",
+      "reading": "かいこ",
+      "headword": "{解雇|かいこ}",
+      "label": "dismissal of an employee, firing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18807_menshoku",
+      "reading": "めんしょく",
+      "headword": "{免職|めんしょく}",
+      "label": "dismissal from a post"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20520_dangai",
+      "reading": "だんがい",
+      "headword": "{弾劾|だんがい}",
+      "label": "impeachment"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25499_kaininsuru",
+      "reading": "かいにんする",
+      "headword": "{解任|かいにん}する",
+      "label": "to dismiss"
+    },
+    {
+      "type": "related",
+      "target_id": "25810_dangaisaiban",
+      "reading": "だんがいさいばん",
+      "headword": "{弾劾裁判|だんがいさいばん}",
+      "label": "impeachment trial"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26138_menkan",
+      "reading": "めんかん",
+      "headword": "{免官|めんかん}",
+      "label": "dismissal from office"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +104,13 @@
         "noun"
       ],
       "formality": "formal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "politics"
       ],
       "domain": []
     },
     "created": "2026-06-22T01:45:27Z",
-    "modified": "2026-06-22T01:45:27Z"
+    "modified": "2026-09-02T04:02:36Z"
   }
 }

@@ -2,7 +2,7 @@
   "id": "21319_kujosuru",
   "headword": "{駆除|くじょ}する",
   "reading": "くじょする",
-  "part_of_speech": "noun, suru verb, transitive",
+  "part_of_speech": "noun, suru verb (transitive)",
   "gloss": "to exterminate; to get rid of (pests)",
   "definitions": [
     {
@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "21319_kujosuru_ex1",
-      "japanese": "ゴキブリを{駆除|くじょ}する。",
+      "japanese": "⟦ゴキブリ→ゴキブリ：05131_gokiburi⟧⟦を→を：00422_wo⟧{駆除|くじょ}する。",
       "english": "To exterminate cockroaches.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "21319_kujosuru_ex2",
-      "japanese": "{害虫|がいちゅう}を{駆除|くじょ}するために{薬|くすり}をまいた。",
+      "japanese": "⟦{害虫|がいちゅう}→害虫：06430_gaichuu⟧⟦を→を：00422_wo⟧{駆除|くじょ}する⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧⟦{薬|くすり}→薬：00793_kusuri⟧⟦を→を：00422_wo⟧まいた。",
       "english": "I sprayed pesticide to get rid of the pests.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "21319_kujosuru_ex3",
-      "japanese": "{専門|せんもん}{業者|ぎょうしゃ}に{依頼|いらい}してシロアリを{駆除|くじょ}してもらった。",
+      "japanese": "⟦{専門|せんもん}→専門：01251_senmon⟧⟦{業者|ぎょうしゃ}→業者：13130_gyousha⟧⟦に→に：00314_ni⟧⟦{依頼|いらい}して→依頼する：21376_irai⟧⟦シロアリ→シロアリ：29728_shiroari⟧⟦を→を：00422_wo⟧{駆除|くじょ}して⟦もらった→もらう：00520_morau⟧。",
       "english": "I had a professional company come to exterminate the termites.",
       "sense_numbers": [
         1
@@ -43,8 +43,31 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {駆|く} (drive away) + {除|じょ} (remove). Specifically used for eliminating unwanted living things — pests, vermin, invasive species, weeds, etc. Not used for removing inanimate objects or abstract concepts.\n\nCOMMON COLLOCATIONS:\n- {害虫|がいちゅう}{駆除|くじょ}: pest extermination\n- ネズミ{駆除|くじょ}: rat extermination\n- {駆除|くじょ}{業者|ぎょうしゃ}: pest control company\n- {駆除|くじょ}{作業|さぎょう}: extermination work\n- {雑草|ざっそう}を{駆除|くじょ}する: to eradicate weeds\n\nSIMILAR WORDS:\n- {退治|たいじ}する: to exterminate (more colloquial, also used figuratively for defeating enemies)\n- {除去|じょきょ}する: to remove (broader; used for stains, obstacles, substances)\n- {撲滅|ぼくめつ}する: to eradicate (used for diseases, crime — more formal and larger scale)",
+  "notes": "Compound of {駆|く} (drive away) + {除|じょ} (remove). Specifically used for eliminating unwanted living things — pests, vermin, invasive species, weeds, etc. Not used for removing inanimate objects or abstract concepts.\n\nCOMMON COLLOCATIONS:\n- ⟦{害虫|がいちゅう}{駆除|くじょ}→害虫駆除：25154_gaichuukujo⟧: pest extermination\n- ネズミ⟦{駆除|くじょ}→駆除：16374_kujo⟧: rat extermination\n- ⟦{駆除|くじょ}→駆除：16374_kujo⟧⟦{業者|ぎょうしゃ}→業者：13130_gyousha⟧: pest control company\n- ⟦{駆除|くじょ}→駆除：16374_kujo⟧⟦{作業|さぎょう}→作業：02775_sagyou⟧: extermination work\n- ⟦{雑草|ざっそう}→雑草：04996_zassou⟧⟦を→を：00422_wo⟧{駆除|くじょ}する: to eradicate weeds\n\nSIMILAR WORDS:\n- ⟦{退治|たいじ}する→退治する：25396_taijisuru⟧: to exterminate (more colloquial, also used figuratively for defeating enemies)\n- ⟦{除去|じょきょ}する→除去する：22368_jokyosuru⟧: to remove (broader; used for stains, obstacles, substances)\n- ⟦{撲滅|ぼくめつ}する→撲滅する：25553_bokumetsusuru⟧: to eradicate (used for diseases, crime — more formal and larger scale)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25396_taijisuru",
+      "reading": "たいじする",
+      "headword": "{退治|たいじ}する",
+      "label": "to exterminate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22368_jokyosuru",
+      "reading": "じょきょする",
+      "headword": "{除去|じょきょ}する",
+      "label": "to remove (broader"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25553_bokumetsusuru",
+      "reading": "ぼくめつする",
+      "headword": "{撲滅|ぼくめつ}する",
+      "label": "to eradicate (used for diseases, crime"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,7 +84,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-02T00:58:31Z",
-    "modified": "2026-04-02T00:58:31Z"
+    "modified": "2026-09-02T04:02:03Z"
   },
   "conjugation": {
     "type": "suru",

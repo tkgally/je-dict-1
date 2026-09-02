@@ -15,41 +15,94 @@
   "examples": [
     {
       "id": "15008_aikouka_ex1",
-      "japanese": "{彼|かれ}はワインの{愛好家|あいこうか}だ。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦ワイン→ワイン：01067_wain⟧⟦の→の：09472_no⟧{愛好家|あいこうか}だ。",
       "english": "He is a wine enthusiast.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15008_aikouka_ex2",
-      "japanese": "{音楽|おんがく}{愛好家|あいこうか}が{集|あつ}まるコンサートに{行|い}ってきた。",
+      "japanese": "⟦{音楽|おんがく}→音楽：00661_ongaku⟧{愛好家|あいこうか}⟦が→が：00051_ga⟧⟦{集|あつ}まる→集まる：01162_atsumaru⟧⟦コンサート→コンサート：01360_konsaato⟧⟦に→に：00314_ni⟧⟦{行|い}って→行く：00119_iku⟧きた。",
       "english": "I went to a concert where music enthusiasts gathered.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15008_aikouka_ex3",
-      "japanese": "この{地域|ちいき}には{自然|しぜん}{愛好家|あいこうか}が{多|おお}く、{野鳥|やちょう}{観察|かんさつ}や{登山|とざん}を{楽|たの}しんでいる。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{地域|ちいき}→地域：01461_chiiki⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{自然|しぜん}→自然：01423_shizen⟧{愛好家|あいこうか}⟦が→が：00051_ga⟧⟦{多|おお}く→多い：01127_ooi⟧、⟦{野鳥|やちょう}→野鳥：14497_yachou⟧⟦{観察|かんさつ}→観察：02558_kansatsu⟧や⟦{登山|とざん}→登山：03457_tozan⟧⟦を→を：00422_wo⟧⟦{楽|たの}しんでいる→楽しむ：01203_tanoshimu⟧。",
       "english": "There are many nature enthusiasts in this area who enjoy birdwatching and hiking.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\n{愛好家|あいこうか} is a suffix-like noun that attaches to the object of enthusiasm. It carries a respectable, cultured nuance — suggesting genuine appreciation rather than obsession.\n\nCOMMON COLLOCATIONS:\n- {音楽|おんがく}{愛好家|あいこうか} (music lover)\n- {自然|しぜん}{愛好家|あいこうか} (nature lover)\n- {動物|どうぶつ}{愛好家|あいこうか} (animal lover)\n- {読書|どくしょ}{愛好家|あいこうか} (book lover)\n- {美術|びじゅつ}{愛好家|あいこうか} (art lover)\n\nSIMILAR WORDS:\n- {愛好家|あいこうか}: enthusiast, lover of (respectful, cultured tone)\n- ファン: fan (casual, from English)\n- マニア: mania, obsessive fan (can be slightly negative)\n- オタク: geek, nerd (subculture enthusiast; sometimes pejorative)",
-  "cross_references": [],
+  "notes": "USAGE:\n{愛好家|あいこうか} is a suffix-like noun that attaches to the object of enthusiasm. It carries a respectable, cultured nuance — suggesting genuine appreciation rather than obsession.\n\nCOMMON COLLOCATIONS:\n- ⟦{音楽|おんがく}→音楽：00661_ongaku⟧{愛好家|あいこうか} (music lover)\n- ⟦{自然|しぜん}→自然：01423_shizen⟧{愛好家|あいこうか} (nature lover)\n- ⟦{動物|どうぶつ}→動物：01480_doubutsu⟧{愛好家|あいこうか} (animal lover)\n- ⟦{読書|どくしょ}→読書：03484_dokusho⟧{愛好家|あいこうか} (book lover)\n- ⟦{美術|びじゅつ}→美術：04447_bijutsu⟧{愛好家|あいこうか} (art lover)\n\nSIMILAR WORDS:\n- {愛好家|あいこうか}: enthusiast, lover of (respectful, cultured tone)\n- ⟦ファン→ファン：10065_fan⟧: fan (casual, from English)\n- ⟦マニア→マニア：11150_mania⟧: mania, obsessive fan (can be slightly negative)\n- ⟦オタク→オタク：15181_otaku⟧: geek, nerd (subculture enthusiast; sometimes pejorative)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "10065_fan",
+      "reading": "ふぁん",
+      "headword": "ファン",
+      "label": "fan"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11150_mania",
+      "reading": "まにあ",
+      "headword": "マニア",
+      "label": "mania, obsessive fan"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16941_shuushuuka",
+      "reading": "しゅうしゅうか",
+      "headword": "{収集家|しゅうしゅうか}",
+      "label": "collector"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20000_korekutaa",
+      "reading": "これくたー",
+      "headword": "コレクター",
+      "label": "collector"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26120_shumijin",
+      "reading": "しゅみじん",
+      "headword": "{趣味人|しゅみじん}",
+      "label": "hobbyist"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29205_aikousha",
+      "reading": "あいこうしゃ",
+      "headword": "{愛好者|あいこうしゃ}",
+      "label": "enthusiast"
+    }
+  ],
   "metadata": {
     "created": "2026-03-04T11:13:33Z",
-    "modified": "2026-03-04T11:13:33Z",
+    "modified": "2026-09-02T04:01:39Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["person"]
+      "semantic": [
+        "person"
+      ]
     }
   }
 }

@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "13176_mosaku_ex1",
-      "japanese": "{解決策|かいけつさく}を{模索|もさく}する。",
+      "japanese": "⟦{解決策|かいけつさく}→解決策：19395_kaiketsusaku⟧⟦を→を：00422_wo⟧{模索|もさく}⟦する→する：00392_suru⟧。",
       "english": "To search for a solution.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "13176_mosaku_ex2",
-      "japanese": "{新|あたら}しい{方向性|ほうこうせい}を{模索|もさく}している。",
+      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦{方向性|ほうこうせい}→方向性：28189_houkousei⟧⟦を→を：00422_wo⟧{模索|もさく}⟦している→する：00392_suru⟧。",
       "english": "We are exploring a new direction.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "13176_mosaku_ex3",
-      "japanese": "{会社|かいしゃ}は{業績|ぎょうせき}{回復|かいふく}に{向|む}けて、さまざまな{手段|しゅだん}を{模索|もさく}している{段階|だんかい}だ。",
+      "japanese": "⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦は→は：00079_ha⟧⟦{業績|ぎょうせき}→業績：04873_gyouseki⟧⟦{回復|かいふく}→回復：03812_kaifuku⟧⟦に→に：00314_ni⟧⟦{向|む}けて→向ける：02306_mukeru⟧、さまざまな⟦{手段|しゅだん}→手段：03219_shudan⟧⟦を→を：00422_wo⟧{模索|もさく}⟦している→する：00392_suru⟧⟦{段階|だんかい}→段階：04515_dankai⟧だ。",
       "english": "The company is at the stage of exploring various measures toward recovering its performance.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,11 @@
       ]
     }
   ],
-  "notes": "ETYMOLOGY:\n{模|も} (to grope, to feel) + {索|さく} (to search, rope). Literally \"groping and searching\" — feeling one's way in the dark.\n\nUSAGE:\nAlmost always used as a する verb: {模索|もさく}する. Common in news, business, and academic contexts. Implies that the answer or path forward is not yet known and that the search involves uncertainty. Often used when organizations or individuals are exploring options during difficult times.\n\nCOMMON COLLOCATIONS:\n- {解決策|かいけつさく}を{模索|もさく}する: to search for a solution\n- {道|みち}を{模索|もさく}する: to search for a way forward\n- {可能性|かのうせい}を{模索|もさく}する: to explore possibilities\n- {暗中模索|あんちゅうもさく}: groping in the dark (idiom for searching without any clues)\n- {模索|もさく}{中|ちゅう}: in the process of searching/exploring",
+  "notes": "ETYMOLOGY:\n{模|も} (to grope, to feel) + {索|さく} (to search, rope). Literally \"groping and searching\" — feeling one's way in the dark.\n\nUSAGE:\nAlmost always used as a ⟦する→する：00392_suru⟧ verb: {模索|もさく}⟦する→する：00392_suru⟧. Common in news, business, and academic contexts. Implies that the answer or path forward is not yet known and that the search involves uncertainty. Often used when organizations or individuals are exploring options during difficult times.\n\nCOMMON COLLOCATIONS:\n- ⟦{解決策|かいけつさく}→解決策：19395_kaiketsusaku⟧⟦を→を：00422_wo⟧{模索|もさく}⟦する→する：00392_suru⟧: to search for a solution\n- ⟦{道|みち}→道：00505_michi⟧⟦を→を：00422_wo⟧{模索|もさく}⟦する→する：00392_suru⟧: to search for a way forward\n- ⟦{可能性|かのうせい}→可能性：04818_kanousei⟧⟦を→を：00422_wo⟧{模索|もさく}⟦する→する：00392_suru⟧: to explore possibilities\n- ⟦{暗中模索|あんちゅうもさく}→暗中模索：06458_anchuumosaku⟧: groping in the dark (idiom for searching without any clues)\n- {模索|もさく}⟦{中|ちゅう}→〜中：09840_chuu⟧: in the process of searching/exploring",
   "cross_references": [],
   "metadata": {
     "created": "2026-02-23T12:23:32Z",
-    "modified": "2026-03-29T03:07:35Z",
+    "modified": "2026-09-02T04:01:32Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -151,7 +151,8 @@
       "semantic": [
         "cognition"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

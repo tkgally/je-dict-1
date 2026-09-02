@@ -43,11 +43,47 @@
       ]
     }
   ],
-  "notes": "グラフ is a loanword from English \"graph,\" used for visual representations of data.\n\nTYPES OF GRAPHS:\n- ⟦{棒|ぼう}→棒：03726_bou⟧グラフ: bar graph\n- ⟦{折|お}れ{線|せん}→折れ線：23011_oresen⟧グラフ: line graph\n- ⟦{円|えん}→円：00774_en⟧グラフ: pie chart\n- ⟦{帯|おび}→帯：02610_obi⟧グラフ: stacked bar graph\n- ⟦{散布|さんぷ}→散布：21064_sanpu⟧グラフ: scatter plot\n\nCOMMON EXPRESSIONS:\n- グラフ⟦を→を：00422_wo⟧⟦{作成|さくせい}する→作成する：25378_sakuseisuru⟧: to create a graph\n- グラフ⟦で→で：00502_de⟧⟦{表|あらわ}す→表す：01868_arawasu⟧: to represent in a graph\n- グラフ⟦を→を：00422_wo⟧⟦{読|よ}む→読む：00426_yomu⟧: to read/interpret a graph\n- グラフ⟦から→から：00504_kara⟧⟦{読|よ}み{取|と}る→読み取る：04602_yomitoru⟧: to discern from a graph\n\nRELATED TERMS:\n- ⟦{図表|ずひょう}→図表：04317_zuhyou⟧: charts and graphs (general)\n- ⟦{表|ひょう}→表：19354_hyou⟧: table, chart\n- ⟦データ→データ：03944_deeta⟧: data\n- ⟦{軸|じく}→軸：14304_jiku⟧: axis (X⟦{軸|じく}→軸：14304_jiku⟧, Y⟦{軸|じく}→軸：14304_jiku⟧)\n\nUSAGE CONTEXT:\nCommon in business presentations, academic papers, news reports, and school math classes.",
-  "cross_references": [],
+  "notes": "グラフ is a loanword from English \"graph,\" used for visual representations of data.\n\nTYPES OF GRAPHS:\n- ⟦{棒|ぼう}→棒：03726_bou⟧グラフ: bar graph\n- ⟦{折|お}れ{線|せん}→折れ線：23011_oresen⟧グラフ: line graph\n- ⟦{円|えん}→円：00774_en⟧グラフ: pie chart\n- ⟦{帯|おび}→帯：02610_obi⟧グラフ: stacked bar graph\n- ⟦{散布|さんぷ}→散布：21064_sanpu⟧グラフ: scatter plot\n\nCOMMON EXPRESSIONS:\n- グラフ⟦を→を：00422_wo⟧⟦{作成|さくせい}する→作成する：25378_sakuseisuru⟧: to create a graph\n- グラフ⟦で→で：00502_de⟧⟦{表|あらわ}す→表す：01868_arawasu⟧: to represent in a graph\n- グラフ⟦を→を：00422_wo⟧⟦{読|よ}む→読む：00426_yomu⟧: to read/interpret a graph\n- グラフ⟦から→から：00504_kara⟧⟦{読|よ}み{取|と}る→読み取る：04602_yomitoru⟧: to discern from a graph\n\nRELATED WORDS:\n- ⟦{図表|ずひょう}→図表：04317_zuhyou⟧: charts and graphs (general)\n- ⟦{表|ひょう}→表：19354_hyou⟧: table, chart\n- ⟦データ→データ：03944_deeta⟧: data\n- ⟦{軸|じく}→軸：14304_jiku⟧: axis (X⟦{軸|じく}→軸：14304_jiku⟧, Y⟦{軸|じく}→軸：14304_jiku⟧)\n\nUSAGE:\nCommon in business presentations, academic papers, news reports, and school math classes.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "04317_zuhyou",
+      "reading": "ずひょう",
+      "headword": "{図表|ずひょう}",
+      "label": "charts and graphs"
+    },
+    {
+      "type": "related",
+      "target_id": "19354_hyou",
+      "reading": "ひょう",
+      "headword": "{表|ひょう}",
+      "label": "table, chart"
+    },
+    {
+      "type": "related",
+      "target_id": "03944_deeta",
+      "reading": "でーた",
+      "headword": "データ",
+      "label": "data"
+    },
+    {
+      "type": "related",
+      "target_id": "14304_jiku",
+      "reading": "じく",
+      "headword": "{軸|じく}",
+      "label": "axis"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03368_zu",
+      "reading": "ず",
+      "headword": "{図|ず}",
+      "label": "diagram, figure, illustration"
+    }
+  ],
   "metadata": {
     "created": "2026-01-16T00:32:18Z",
-    "modified": "2026-06-02T21:10:59Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

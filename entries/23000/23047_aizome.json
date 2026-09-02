@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "23047_aizome_ex1",
-      "japanese": "{藍染|あいぞ}めの{手|て}ぬぐいを{買|か}った。",
+      "japanese": "{藍染|あいぞ}め⟦の→の：09472_no⟧{手|て}ぬぐい⟦を→を：00422_wo⟧⟦{買|か}った→買う：00489_kau⟧。",
       "english": "I bought an indigo-dyed tenugui towel.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "23047_aizome_ex2",
-      "japanese": "{藍染|あいぞ}め{体験|たいけん}ができる{工房|こうぼう}を{訪|たず}ねた。",
+      "japanese": "{藍染|あいぞ}め⟦{体験|たいけん}→体験：11443_taiken⟧⟦が→が：00051_ga⟧⟦できる→できる：00557_dekiru⟧⟦{工房|こうぼう}→工房：12418_koubou⟧⟦を→を：00422_wo⟧⟦{訪|たず}ねた→訪ねる：01182_tazuneru⟧。",
       "english": "I visited a workshop where you can try indigo dyeing.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "23047_aizome_ex3",
-      "japanese": "{徳島県|とくしまけん}は{藍染|あいぞ}めの{産地|さんち}として{知|し}られ、{江戸|えど}{時代|じだい}から{続|つづ}く{伝統|でんとう}がある。",
+      "japanese": "{徳島県|とくしまけん}⟦は→は：00079_ha⟧{藍染|あいぞ}め⟦の→の：09472_no⟧⟦{産地|さんち}→産地：04031_sanchi⟧⟦として→として：06802_toshite⟧⟦{知|し}られ→知る：00458_shiru⟧、⟦{江戸|えど}{時代|じだい}→江戸時代：20431_edojidai⟧⟦から→から：00504_kara⟧⟦{続|つづ}く→続く：00903_tsuzuku⟧⟦{伝統|でんとう}→伝統：09585_dentou⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "Tokushima Prefecture is known as a center of indigo dyeing, with a tradition dating back to the Edo period.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "{藍|あい} (indigo) is one of the most iconic colors in Japanese textile tradition. The deep blue color produced by indigo dyeing was so prevalent in Edo-period Japan that foreign visitors called it \"Japan blue.\" The dyeing process involves fermenting indigo leaves and repeatedly dipping fabric to build up layers of color.\n\nCOMMON COLLOCATIONS:\n- {藍染|あいぞ}めの{布|ぬの}: indigo-dyed cloth\n- {藍染|あいぞ}め{体験|たいけん}: indigo dyeing experience/workshop\n- {藍染|あいぞ}め{製品|せいひん}: indigo-dyed products\n- {天然|てんねん}{藍染|あいぞ}め: natural indigo dyeing (as opposed to synthetic)\n\nRELATED TERMS:\n- {藍|あい}: indigo (the plant or the color)\n- {染|そ}め{物|もの}: dyeing, dyed goods — the broader category of textile dyeing\n- {絞|しぼ}り{染|ぞ}め: tie-dyeing — another traditional Japanese dyeing technique\n- {草木染|くさきぞ}め: plant dyeing — dyeing with various natural plant materials",
+  "notes": "⟦{藍|あい}→藍：20100_ai⟧ (indigo) is one of the most iconic colors in Japanese textile tradition. The deep blue color produced by indigo dyeing was so prevalent in Edo-period Japan that foreign visitors called it \"Japan blue.\" The dyeing process involves fermenting indigo leaves and repeatedly dipping fabric to build up layers of color.\n\nCOMMON COLLOCATIONS:\n- {藍染|あいぞ}め⟦の→の：09472_no⟧⟦{布|ぬの}→布：01489_nuno⟧: indigo-dyed cloth\n- {藍染|あいぞ}め⟦{体験|たいけん}→体験：11443_taiken⟧: indigo dyeing experience/workshop\n- {藍染|あいぞ}め⟦{製品|せいひん}→製品：01445_seihin⟧: indigo-dyed products\n- ⟦{天然|てんねん}→天然：03560_tennen⟧{藍染|あいぞ}め: natural indigo dyeing (as opposed to synthetic)\n\nRELATED WORDS:\n- ⟦{藍|あい}→藍：20100_ai⟧: indigo (the plant or the color)\n- {染|そ}め{物|もの}: dyeing, dyed goods — the broader category of textile dyeing\n- {絞|しぼ}り{染|ぞ}め: tie-dyeing — another traditional Japanese dyeing technique\n- ⟦{草木染|くさきぞ}め→草木染め：27687_kusakizome⟧: plant dyeing — dyeing with various natural plant materials",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "27687_kusakizome",
+      "reading": "くさきぞめ",
+      "headword": "{草木|くさき}{染|ぞ}め",
+      "label": "plant dyeing"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +69,6 @@
       ]
     },
     "created": "2026-04-08T16:35:42Z",
-    "modified": "2026-07-31T00:22:50Z"
+    "modified": "2026-09-02T04:02:10Z"
   }
 }

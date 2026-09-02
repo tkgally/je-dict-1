@@ -3,7 +3,7 @@
   "headword": "{価格上昇|かかくじょうしょう}",
   "reading": "かかくじょうしょう",
   "romaji": "kakakujoushou",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "price increase; price rise",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26162_kakakujoushou_ex1",
-      "japanese": "{食料品|しょくりょうひん}の{価格上昇|かかくじょうしょう}が{続|つづ}いている。",
+      "japanese": "⟦{食料品|しょくりょうひん}→食料品：01439_shokuryouhin⟧⟦の→の：09472_no⟧{価格上昇|かかくじょうしょう}⟦が→が：00051_ga⟧⟦{続|つづ}いている→続く：00903_tsuzuku⟧。",
       "english": "The rise in food prices continues.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26162_kakakujoushou_ex2",
-      "japanese": "{原材料|げんざいりょう}の{価格上昇|かかくじょうしょう}が{製品|せいひん}の{値段|ねだん}に{反映|はんえい}されている。",
+      "japanese": "⟦{原材料|げんざいりょう}→原材料：18966_genzairyou⟧⟦の→の：09472_no⟧{価格上昇|かかくじょうしょう}⟦が→が：00051_ga⟧⟦{製品|せいひん}→製品：01445_seihin⟧⟦の→の：09472_no⟧⟦{値段|ねだん}→値段：00871_nedan⟧⟦に→に：00314_ni⟧⟦{反映|はんえい}→反映：04327_hanei⟧⟦されている→する：00392_suru⟧。",
       "english": "The rise in raw material prices is reflected in product prices.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26162_kakakujoushou_ex3",
-      "japanese": "{円安|えんやす}の{影響|えいきょう}で{輸入品|ゆにゅうひん}の{価格上昇|かかくじょうしょう}が{家計|かけい}を{圧迫|あっぱく}している。",
+      "japanese": "⟦{円安|えんやす}→円安：04854_enyasu⟧⟦の→の：09472_no⟧⟦{影響|えいきょう}→影響：01877_eikyou⟧⟦で→で：00502_de⟧⟦{輸入品|ゆにゅうひん}→輸入品：11505_yunyuuhin⟧⟦の→の：09472_no⟧{価格上昇|かかくじょうしょう}⟦が→が：00051_ga⟧⟦{家計|かけい}→家計：12287_kakei⟧⟦を→を：00422_wo⟧⟦{圧迫|あっぱく}→圧迫：12013_appaku⟧⟦している→する：00392_suru⟧。",
       "english": "Due to the weak yen, rising import prices are squeezing household budgets.",
       "sense_numbers": [
         1
@@ -44,8 +44,30 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {価格|かかく} (price) + {上昇|じょうしょう} (rise, increase). A staple of economic reporting and business news. In recent years, discussions of {価格上昇|かかくじょうしょう} have become even more common in Japan due to inflationary pressures after decades of deflation.\n\nCOMMON COLLOCATIONS:\n- {急激|きゅうげき}な{価格上昇|かかくじょうしょう}: sharp price increase\n- {価格上昇|かかくじょうしょう}が{続|つづ}く: price increases continue\n- {価格上昇|かかくじょうしょう}を{抑|おさ}える: to curb price increases\n- {価格上昇|かかくじょうしょう}{率|りつ}: rate of price increase\n\nSIMILAR WORDS:\n- {値上|ねあ}げ: price hike — more colloquial, implies a deliberate increase by sellers\n- {物価上昇|ぶっかじょうしょう}: rise in commodity prices — focuses on general cost of living\n- インフレ: inflation — the broader economic phenomenon\n- {高騰|こうとう}: soaring, skyrocketing — implies dramatic or sudden increases",
-  "cross_references": [],
+  "notes": "Composed of ⟦{価格|かかく}→価格：00147_kakaku⟧ (price) + ⟦{上昇|じょうしょう}→上昇：11296_joushou⟧ (rise, increase). A staple of economic reporting and business news. In recent years, discussions of {価格上昇|かかくじょうしょう} have become even more common in Japan due to inflationary pressures after decades of deflation.\n\nCOMMON COLLOCATIONS:\n- ⟦{急激|きゅうげき}→急激：02633_kyuugeki⟧な{価格上昇|かかくじょうしょう}: sharp price increase\n- {価格上昇|かかくじょうしょう}⟦が→が：00051_ga⟧⟦{続|つづ}く→続く：00903_tsuzuku⟧: price increases continue\n- {価格上昇|かかくじょうしょう}⟦を→を：00422_wo⟧⟦{抑|おさ}える→抑える：12806_osaeru⟧: to curb price increases\n- {価格上昇|かかくじょうしょう}{率|りつ}: rate of price increase\n\nSIMILAR WORDS:\n- ⟦{値上|ねあ}げ→値上げ：07582_neage⟧: price hike — more colloquial, implies a deliberate increase by sellers\n- {物価上昇|ぶっかじょうしょう}: rise in commodity prices — focuses on general cost of living\n- ⟦インフレ→インフレ：04848_infure⟧: inflation — the broader economic phenomenon\n- ⟦{高騰|こうとう}→高騰：14647_koutou⟧: soaring, skyrocketing — implies dramatic or sudden increases",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07582_neage",
+      "reading": "ねあげ",
+      "headword": "{値上|ねあ}げ",
+      "label": "price hike"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04848_infure",
+      "reading": "いんふれ",
+      "headword": "インフレ",
+      "label": "inflation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14647_koutou",
+      "reading": "こうとう",
+      "headword": "{高騰|こうとう}",
+      "label": "soaring, skyrocketing"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -54,6 +76,7 @@
         "noun",
         "verb-suru"
       ],
+      "politeness": "plain",
       "semantic": [
         "economics",
         "society"
@@ -61,7 +84,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-29T15:32:44Z",
-    "modified": "2026-04-29T15:32:44Z"
+    "modified": "2026-09-02T04:02:25Z"
   },
   "conjugation": {
     "type": "suru",

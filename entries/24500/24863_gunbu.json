@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24863_gunbu_ex1",
-      "japanese": "{郡部|ぐんぶ}の{人口|じんこう}が{減少|げんしょう}している。",
+      "japanese": "{郡部|ぐんぶ}⟦の→の：09472_no⟧⟦{人口|じんこう}→人口：01618_jinkou⟧⟦が→が：00051_ga⟧⟦{減少|げんしょう}している→減少する：19026_genshousuru⟧。",
       "english": "The population in rural areas is declining.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24863_gunbu_ex2",
-      "japanese": "{市部|しぶ}と{郡部|ぐんぶ}では{生活|せいかつ}スタイルが{大|おお}きく{異|こと}なる。",
+      "japanese": "{市部|しぶ}⟦と→と：00512_to⟧{郡部|ぐんぶ}⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{生活|せいかつ}→生活：01443_seikatsu⟧⟦スタイル→スタイル：03851_sutairu⟧⟦が→が：00051_ga⟧⟦{大|おお}きく→大きい：00335_ookii⟧⟦{異|こと}なる→異なる：02101_kotonaru⟧。",
       "english": "Lifestyles differ greatly between urban and rural areas.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24863_gunbu_ex3",
-      "japanese": "この{県|けん}では{郡部|ぐんぶ}に{住|す}む{高齢者|こうれいしゃ}への{医療|いりょう}サービスが{課題|かだい}になっている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{県|けん}→県：02151_ken⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧{郡部|ぐんぶ}⟦に→に：00314_ni⟧⟦{住|す}む→住む：00673_sumu⟧⟦{高齢者|こうれいしゃ}→高齢者：15649_koureisha⟧⟦へ→へ：02473_he⟧⟦の→の：09472_no⟧⟦{医療|いりょう}→医療：01836_iryou⟧⟦サービス→サービス：01531_saabisu⟧⟦が→が：00051_ga⟧⟦{課題|かだい}→課題：00132_kadai⟧になっている。",
       "english": "In this prefecture, medical services for elderly people living in rural areas have become a challenge.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {郡|ぐん} (county/district) + {部|ぶ} (area/section). In Japan's administrative system, prefectures are divided into {市|し} (cities) and {郡|ぐん} (counties), with the counties containing {町|まち} (towns) and {村|むら} (villages).\n\nCOMMON COLLOCATIONS:\n- {市部|しぶ}と{郡部|ぐんぶ}: urban and rural areas\n- {郡部|ぐんぶ}の{人口|じんこう}: rural population\n- {郡部|ぐんぶ}に{住|す}む: to live in a rural area\n- {郡部|ぐんぶ}{出身|しゅっしん}: from a rural area\n\nSIMILAR WORDS:\n- {田舎|いなか}: countryside; rural area — the everyday word, can be slightly condescending\n- {地方|ちほう}: provinces; regional area — broader, means anywhere outside major cities\n- {市部|しぶ}: urban area; city districts — the direct opposite of {郡部|ぐんぶ}\n- {僻地|へきち}: remote area — more extreme, implies difficulty of access",
+  "notes": "Composed of ⟦{郡|ぐん}→郡：03945_gun⟧ (county/district) + ⟦{部|ぶ}→〜部：00440_bu⟧ (area/section). In Japan's administrative system, prefectures are divided into ⟦{市|し}→市：01599_shi⟧ (cities) and ⟦{郡|ぐん}→郡：03945_gun⟧ (counties), with the counties containing ⟦{町|まち}→町：00613_machi⟧ (towns) and ⟦{村|むら}→村：02261_mura⟧ (villages).\n\nCOMMON COLLOCATIONS:\n- {市部|しぶ}⟦と→と：00512_to⟧{郡部|ぐんぶ}: urban and rural areas\n- {郡部|ぐんぶ}⟦の→の：09472_no⟧⟦{人口|じんこう}→人口：01618_jinkou⟧: rural population\n- {郡部|ぐんぶ}⟦に→に：00314_ni⟧⟦{住|す}む→住む：00673_sumu⟧: to live in a rural area\n- {郡部|ぐんぶ}⟦{出身|しゅっしん}→出身：03221_shusshin⟧: from a rural area\n\nSIMILAR WORDS:\n- ⟦{田舎|いなか}→田舎：01320_inaka⟧: countryside; rural area — the everyday word, can be slightly condescending\n- ⟦{地方|ちほう}→地方：02369_chihou⟧: provinces; regional area — broader, means anywhere outside major cities\n- {市部|しぶ}: urban area; city districts — the direct opposite of {郡部|ぐんぶ}\n- ⟦{僻地|へきち}→僻地：17059_hekichi⟧: remote area — more extreme, implies difficulty of access",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01320_inaka",
+      "reading": "いなか",
+      "headword": "{田舎|いなか}",
+      "label": "countryside"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02369_chihou",
+      "reading": "ちほう",
+      "headword": "{地方|ちほう}",
+      "label": "provinces"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17059_hekichi",
+      "reading": "へきち",
+      "headword": "{僻地|へきち}",
+      "label": "remote area"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +82,6 @@
       ]
     },
     "created": "2026-04-21T10:31:19Z",
-    "modified": "2026-06-16T12:23:55Z"
+    "modified": "2026-09-02T04:02:20Z"
   }
 }

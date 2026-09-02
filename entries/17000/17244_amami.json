@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "17244_amami_ex1",
-      "japanese": "このりんごは{甘|あま}みが{強|つよ}い。",
+      "japanese": "⟦この→この：00962_kono⟧⟦りんご→りんご：02269_ringo⟧⟦は→は：00079_ha⟧{甘|あま}み⟦が→が：00051_ga⟧⟦{強|つよ}い→強い：00820_tsuyoi⟧。",
       "english": "This apple has a strong sweetness.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "17244_amami_ex2",
-      "japanese": "{砂糖|さとう}を{加|くわ}えて{甘|あま}みを{出|だ}す。",
+      "japanese": "⟦{砂糖|さとう}→砂糖：00884_satou⟧⟦を→を：00422_wo⟧⟦{加|くわ}えて→加える：01941_kuwaeru⟧{甘|あま}み⟦を→を：00422_wo⟧⟦{出|だ}す→出す：01087_dasu⟧。",
       "english": "Add sugar to bring out the sweetness.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "17244_amami_ex3",
-      "japanese": "{野菜|やさい}を{煮込|にこ}むと{自然|しぜん}な{甘|あま}みが{出|で}てくる。",
+      "japanese": "⟦{野菜|やさい}→野菜：02265_yasai⟧⟦を→を：00422_wo⟧⟦{煮込|にこ}む→煮込む：05822_nikomu⟧⟦と→と：00512_to⟧⟦{自然|しぜん}→自然：01423_shizen⟧な{甘|あま}み⟦が→が：00051_ga⟧⟦{出|で}てくる→出てくる：29121_detekuru⟧。",
       "english": "When you simmer vegetables, a natural sweetness comes out.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,19 @@
       ]
     }
   ],
-  "notes": "WORD FORMATION:\n{甘|あま}い (sweet) → {甘|あま}み (sweetness). The suffix み converts adjectives into nouns indicating the quality or degree.\n\nKANJI NOTE:\nAlso written as {甘味|あまみ}. Note that {甘味|かんみ} (read かんみ) means \"sweets\" or \"dessert\" — a different word.\n\nSIMILAR PATTERN:\n- {甘|あま}み (sweetness), {辛|から}み (spiciness), {苦|にが}み (bitterness), {酸|す}み (sourness)\n\nCOMMON COLLOCATIONS:\n- {甘|あま}みがある: to have sweetness\n- {甘|あま}みが{強|つよ}い: strongly sweet\n- {自然|しぜん}な{甘|あま}み: natural sweetness\n- {甘|あま}みを{引|ひ}き{出|だ}す: to bring out the sweetness",
-  "cross_references": [],
+  "notes": "FORMS:\n⟦{甘|あま}い→甘い：00617_amai⟧ (sweet) → {甘|あま}み (sweetness). The suffix み converts adjectives into nouns indicating the quality or degree.\n\nWRITING:\nAlso written as ⟦{甘味|あまみ}→甘味：07017_amami⟧. Note that ⟦{甘味|かんみ}→甘味：13571_kanmi⟧ (read かんみ) means \"sweets\" or \"dessert\" — a different word.\n\nSIMILAR PATTERN:\n- {甘|あま}み (sweetness), {辛|から}み (spiciness), {苦|にが}み (bitterness), {酸|す}み (sourness)\n\nCOMMON COLLOCATIONS:\n- {甘|あま}み⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧: to have sweetness\n- {甘|あま}み⟦が→が：00051_ga⟧⟦{強|つよ}い→強い：00820_tsuyoi⟧: strongly sweet\n- ⟦{自然|しぜん}→自然：01423_shizen⟧な{甘|あま}み: natural sweetness\n- {甘|あま}み⟦を→を：00422_wo⟧⟦{引|ひ}き{出|だ}す→引き出す：03002_hikidasu⟧: to bring out the sweetness",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21344_amasa",
+      "reading": "あまさ",
+      "headword": "{甘|あま}さ",
+      "label": "sweetness"
+    }
+  ],
   "metadata": {
     "created": "2026-03-17T02:13:34Z",
-    "modified": "2026-07-23T06:28:55Z",
+    "modified": "2026-09-02T04:01:47Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

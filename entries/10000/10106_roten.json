@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "10106_roten_ex1",
-      "japanese": "{祭|まつ}りで{露店|ろてん}が{並|なら}んでいた。",
+      "japanese": "⟦{祭|まつ}り→祭り：03735_matsuri⟧⟦で→で：00502_de⟧{露店|ろてん}⟦が→が：00051_ga⟧⟦{並|なら}んでいた→並ぶ：00605_narabu⟧。",
       "english": "Street stalls lined up at the festival.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "10106_roten_ex2",
-      "japanese": "{露店|ろてん}で{焼|や}きそばを{買|か}った。",
+      "japanese": "{露店|ろてん}⟦で→で：00502_de⟧⟦{焼|や}きそば→焼きそば：13405_yakisoba⟧⟦を→を：00422_wo⟧⟦{買|か}った→買う：00489_kau⟧。",
       "english": "I bought yakisoba from a street stall.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "10106_roten_ex3",
-      "japanese": "{神社|じんじゃ}の{参道|さんどう}には{様々|さまざま}な{露店|ろてん}が{出|で}ていた。",
+      "japanese": "⟦{神社|じんじゃ}→神社：01620_jinja⟧⟦の→の：09472_no⟧⟦{参道|さんどう}→参道：11980_sandou⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{様々|さまざま}→様々：01559_samazama⟧な{露店|ろてん}⟦が→が：00051_ga⟧⟦{出|で}ていた→出る：00513_deru⟧。",
       "english": "Various street stalls were set up along the approach to the shrine.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "SYNONYMS:\n- {屋台|やたい}: also means street stall/food cart (more common term)\n- {出店|でみせ}: vendor stall at an event\n- {店|みせ}: general word for shop\n\nCOMMON FESTIVAL STALLS:\n- {焼|や}きそば (fried noodles)\n- たこ{焼|や}き (takoyaki)\n- りんご{飴|あめ} (candy apples)\n- {金魚|きんぎょ}すくい (goldfish scooping)\n- {射的|しゃてき} (shooting gallery)\n\n{露店|ろてん} literally means 'dew shop,' referring to being exposed to the elements.",
+  "notes": "SIMILAR WORDS:\n- ⟦{屋台|やたい}→屋台：10549_yatai⟧: also means street stall/food cart (more common term)\n- {出店|でみせ}: vendor stall at an event\n- ⟦{店|みせ}→店：00497_mise⟧: general word for shop\n\nCOMMON FESTIVAL STALLS:\n- ⟦{焼|や}きそば→焼きそば：13405_yakisoba⟧ (fried noodles)\n- ⟦たこ{焼|や}き→たこ焼き：10364_takoyaki⟧ (takoyaki)\n- ⟦りんご→りんご：02269_ringo⟧⟦{飴|あめ}→飴：00687_ame⟧ (candy apples)\n- ⟦{金魚|きんぎょ}すくい→金魚すくい：14661_kingyosukui⟧ (goldfish scooping)\n- ⟦{射的|しゃてき}→射的：24090_shateki⟧ (shooting gallery)\n\n{露店|ろてん} literally means 'dew shop,' referring to being exposed to the elements.",
   "cross_references": [
     {
       "type": "synonym",
@@ -51,11 +51,18 @@
       "reading": "やたい",
       "headword": "{屋台|やたい}",
       "label": "food stall, more common"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20193_gyoushou",
+      "reading": "ぎょうしょう",
+      "headword": "{行商|ぎょうしょう}",
+      "label": "peddling"
     }
   ],
   "metadata": {
     "created": "2026-02-05T02:51:05Z",
-    "modified": "2026-04-23T10:16:20Z",
+    "modified": "2026-09-02T04:01:20Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

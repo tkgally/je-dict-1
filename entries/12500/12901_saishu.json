@@ -3,7 +3,7 @@
   "id": "12901_saishu",
   "headword": "{採取|さいしゅ}",
   "reading": "さいしゅ",
-  "part_of_speech": "noun / suru verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "collection, sampling, extraction",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "12901_saishu_ex1",
-      "japanese": "{血液|けつえき}を{採取|さいしゅ}する。",
+      "japanese": "⟦{血液|けつえき}→血液：02703_ketsueki⟧⟦を→を：00422_wo⟧{採取|さいしゅ}⟦する→する：00392_suru⟧。",
       "english": "To collect a blood sample.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "12901_saishu_ex2",
-      "japanese": "{研究者|けんきゅうしゃ}が{土壌|どじょう}のサンプルを{採取|さいしゅ}した。",
+      "japanese": "⟦{研究者|けんきゅうしゃ}→研究者：02573_kenkyuusha⟧⟦が→が：00051_ga⟧⟦{土壌|どじょう}→土壌：12040_dojou⟧⟦の→の：09472_no⟧⟦サンプル→サンプル：10939_sanpuru⟧⟦を→を：00422_wo⟧{採取|さいしゅ}⟦した→する：00392_suru⟧。",
       "english": "The researcher collected soil samples.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "12901_saishu_ex3",
-      "japanese": "この{地域|ちいき}では{希少|きしょう}な{植物|しょくぶつ}の{採取|さいしゅ}が{法律|ほうりつ}で{禁止|きんし}されている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{地域|ちいき}→地域：01461_chiiki⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{希少|きしょう}→希少：12444_kishou⟧な⟦{植物|しょくぶつ}→植物：03248_shokubutsu⟧⟦の→の：09472_no⟧{採取|さいしゅ}⟦が→が：00051_ga⟧⟦{法律|ほうりつ}→法律：01722_houritsu⟧⟦で→で：00502_de⟧⟦{禁止|きんし}→禁止：02643_kinshi⟧⟦されている→する：00392_suru⟧。",
       "english": "In this area, the collection of rare plants is prohibited by law.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,26 @@
       ]
     }
   ],
-  "notes": "USAGE:\nUsed as both a noun and a suru verb. Applies to a wide range of collection activities: blood samples, DNA, soil, water, minerals, plants, and other materials gathered for scientific, medical, or industrial purposes. More technical and formal than {集|あつ}める (to collect/gather).\n\nCOMMON COLLOCATIONS:\n- {血液|けつえき}を{採取|さいしゅ}する: to take a blood sample\n- サンプルを{採取|さいしゅ}する: to collect a sample\n- {採取|さいしゅ}{禁止|きんし}: collection prohibited\n- DNA を{採取|さいしゅ}する: to collect DNA\n\nSIMILAR WORDS:\n- {採集|さいしゅう}: collection, gathering (especially biological specimens or insects)\n- {収集|しゅうしゅう}: collection (broader; also for information, stamps, etc.)",
-  "cross_references": [],
+  "notes": "USAGE:\nUsed as both a noun and a suru verb. Applies to a wide range of collection activities: blood samples, DNA, soil, water, minerals, plants, and other materials gathered for scientific, medical, or industrial purposes. More technical and formal than ⟦{集|あつ}める→集める：01170_atsumeru⟧ (to collect/gather).\n\nCOMMON COLLOCATIONS:\n- ⟦{血液|けつえき}→血液：02703_ketsueki⟧⟦を→を：00422_wo⟧{採取|さいしゅ}⟦する→する：00392_suru⟧: to take a blood sample\n- ⟦サンプル→サンプル：10939_sanpuru⟧⟦を→を：00422_wo⟧{採取|さいしゅ}⟦する→する：00392_suru⟧: to collect a sample\n- {採取|さいしゅ}⟦{禁止|きんし}→禁止：02643_kinshi⟧: collection prohibited\n- DNA ⟦を→を：00422_wo⟧{採取|さいしゅ}⟦する→する：00392_suru⟧: to collect DNA\n\nSIMILAR WORDS:\n- ⟦{採集|さいしゅう}→採集：00355_saishuu⟧: collection, gathering (especially biological specimens or insects)\n- ⟦{収集|しゅうしゅう}→収集：11829_shuushuu⟧: collection (broader; also for information, stamps, etc.)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00355_saishuu",
+      "reading": "さいしゅう",
+      "headword": "{採集|さいしゅう}",
+      "label": "collection, gathering"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11829_shuushuu",
+      "reading": "しゅうしゅう",
+      "headword": "{収集|しゅうしゅう}",
+      "label": "collection (broader"
+    }
+  ],
   "metadata": {
     "created": "2026-02-22T14:24:26Z",
-    "modified": "2026-03-29T03:07:35Z",
+    "modified": "2026-09-02T04:01:31Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -155,7 +170,8 @@
         "medical",
         "academic"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

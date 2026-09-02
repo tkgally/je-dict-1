@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "21343_shuukakuki_ex1",
-      "japanese": "{稲|いね}の{収穫期|しゅうかくき}を{迎|むか}えた。",
+      "japanese": "⟦{稲|いね}→稲：01820_ine⟧⟦の→の：09472_no⟧{収穫期|しゅうかくき}⟦を→を：00422_wo⟧⟦{迎|むか}えた→迎える：01193_mukaeru⟧。",
       "english": "The rice harvest season has arrived.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "21343_shuukakuki_ex2",
-      "japanese": "{収穫期|しゅうかくき}になると{農家|のうか}は{忙|いそが}しくなる。",
+      "japanese": "{収穫期|しゅうかくき}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦と→と：00512_to⟧⟦{農家|のうか}→農家：03539_nouka⟧⟦は→は：00079_ha⟧⟦{忙|いそが}しく→忙しい：00591_isogashii⟧⟦なる→なる：01970_naru⟧。",
       "english": "Farmers get busy when harvest season comes.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "21343_shuukakuki_ex3",
-      "japanese": "ぶどうの{収穫期|しゅうかくき}は{地域|ちいき}によって{異|こと}なるが、{秋|あき}が{一般的|いっぱんてき}だ。",
+      "japanese": "ぶどう⟦の→の：09472_no⟧{収穫期|しゅうかくき}⟦は→は：00079_ha⟧⟦{地域|ちいき}→地域：01461_chiiki⟧⟦によって→によって：06801_niyotte⟧⟦{異|こと}なる→異なる：02101_kotonaru⟧⟦が→が：00051_ga⟧、⟦{秋|あき}→秋：02276_aki⟧⟦が→が：00051_ga⟧⟦{一般的|いっぱんてき}→一般的：04784_ippanteki⟧だ。",
       "english": "The grape harvest season varies by region, but autumn is typical.",
       "sense_numbers": [
         1
@@ -43,8 +43,38 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {収穫|しゅうかく} (harvest) + {期|き} (period). Primarily an agricultural term, but can be used metaphorically for when efforts bear fruit.\n\nCOMMON COLLOCATIONS:\n- {収穫期|しゅうかくき}を{迎|むか}える: to reach harvest season\n- {収穫期|しゅうかくき}に{入|はい}る: to enter harvest season\n- {収穫期|しゅうかくき}の{農家|のうか}: farmers during harvest\n\nRELATED TERMS:\n- {収穫|しゅうかく}: harvest (the act or result)\n- {植|う}え{付|つ}け: planting (the beginning of the agricultural cycle)\n- {作付|さくづ}け: cultivation; crop planting\n- {実|みの}りの{秋|あき}: fruitful autumn (poetic expression for harvest season)",
+  "notes": "Compound of ⟦{収穫|しゅうかく}→収穫：03207_shuukaku⟧ (harvest) + {期|き} (period). Primarily an agricultural term, but can be used metaphorically for when efforts bear fruit.\n\nCOMMON COLLOCATIONS:\n- {収穫期|しゅうかくき}⟦を→を：00422_wo⟧⟦{迎|むか}える→迎える：01193_mukaeru⟧: to reach harvest season\n- {収穫期|しゅうかくき}⟦に→に：00314_ni⟧⟦{入|はい}る→入る：00494_hairu⟧: to enter harvest season\n- {収穫期|しゅうかくき}⟦の→の：09472_no⟧⟦{農家|のうか}→農家：03539_nouka⟧: farmers during harvest\n\nRELATED WORDS:\n- ⟦{収穫|しゅうかく}→収穫：03207_shuukaku⟧: harvest (the act or result)\n- ⟦{植|う}え{付|つ}け→植え付け：21341_uetsuke⟧: planting (the beginning of the agricultural cycle)\n- ⟦{作付|さくづ}け→作付け：23457_sakuzuke⟧: cultivation; crop planting\n- ⟦{実|みの}り→実り：12270_minori⟧⟦の→の：09472_no⟧⟦{秋|あき}→秋：02276_aki⟧: fruitful autumn (poetic expression for harvest season)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "21341_uetsuke",
+      "reading": "うえつけ",
+      "headword": "{植|う}え{付|つ}け",
+      "label": "planting"
+    },
+    {
+      "type": "related",
+      "target_id": "23457_sakuzuke",
+      "reading": "さくづけ",
+      "headword": "{作付|さくづ}け",
+      "label": "cultivation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26458_hashuki",
+      "reading": "はしゅき",
+      "headword": "{播種期|はしゅき}",
+      "label": "sowing season"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27247_nouhanki",
+      "reading": "のうはんき",
+      "headword": "{農繁期|のうはんき}",
+      "label": "busy farming season"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +89,6 @@
       ]
     },
     "created": "2026-04-02T01:06:01Z",
-    "modified": "2026-07-29T12:35:11Z"
+    "modified": "2026-09-02T04:02:03Z"
   }
 }

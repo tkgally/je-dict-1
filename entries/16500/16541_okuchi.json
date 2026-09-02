@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "16541_okuchi_ex1",
-      "japanese": "アマゾンの{奥地|おくち}を{探検|たんけん}する。",
+      "japanese": "アマゾン⟦の→の：09472_no⟧{奥地|おくち}⟦を→を：00422_wo⟧⟦{探検|たんけん}→探検：17461_tanken⟧⟦する→する：00392_suru⟧。",
       "english": "To explore the depths of the Amazon.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16541_okuchi_ex2",
-      "japanese": "その{村|むら}は{山|やま}の{奥地|おくち}にある。",
+      "japanese": "⟦その→その：00993_sono⟧⟦{村|むら}→村：02261_mura⟧⟦は→は：00079_ha⟧⟦{山|やま}→山：02168_yama⟧⟦の→の：09472_no⟧{奥地|おくち}⟦に→に：00314_ni⟧⟦ある→ある：00006_aru⟧。",
       "english": "That village is deep in the mountains.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16541_okuchi_ex3",
-      "japanese": "{奥地|おくち}には{まだ}{未開拓|みかいたく}の{土地|とち}が{広|ひろ}がっており、{調査|ちょうさ}チームが{派遣|はけん}された。",
+      "japanese": "{奥地|おくち}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦まだ→まだ：00603_mada⟧{未開拓|みかいたく}⟦の→の：09472_no⟧⟦{土地|とち}→土地：02226_tochi⟧⟦が→が：00051_ga⟧⟦{広|ひろ}がって→広がる：01980_hirogaru⟧おり、⟦{調査|ちょうさ}→調査：03489_chousa⟧⟦チーム→チーム：03858_chiimu⟧⟦が→が：00051_ga⟧⟦{派遣|はけん}→派遣：13273_haken⟧⟦された→する：00392_suru⟧。",
       "english": "There is still unexplored land stretching across the interior, and a survey team was dispatched.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nUsed for remote, hard-to-reach areas, especially in geographical or adventure contexts. Often appears in descriptions of jungles, mountain regions, and wilderness areas. Carries a sense of being far from civilization.\n\nCOMMON COLLOCATIONS:\n- {山|やま}の{奥地|おくち} (deep in the mountains)\n- アフリカの{奥地|おくち} (the interior of Africa)\n- {奥地|おくち}に{分|わ}け{入|い}る (to venture into the backcountry)\n\nSIMILAR WORDS:\n- {僻地|へきち}: remote area — emphasizes isolation and inconvenience\n- {辺境|へんきょう}: frontier, borderland — suggests the edge of settled territory",
+  "notes": "USAGE:\nUsed for remote, hard-to-reach areas, especially in geographical or adventure contexts. Often appears in descriptions of jungles, mountain regions, and wilderness areas. Carries a sense of being far from civilization.\n\nCOMMON COLLOCATIONS:\n- ⟦{山|やま}→山：02168_yama⟧⟦の→の：09472_no⟧{奥地|おくち} (deep in the mountains)\n- ⟦アフリカ→アフリカ：01767_afurika⟧⟦の→の：09472_no⟧{奥地|おくち} (the interior of Africa)\n- {奥地|おくち}⟦に→に：00314_ni⟧{分|わ}け{入|い}る (to venture into the backcountry)\n\nSIMILAR WORDS:\n- ⟦{僻地|へきち}→僻地：17059_hekichi⟧: remote area — emphasizes isolation and inconvenience\n- ⟦{辺境|へんきょう}→辺境：14355_henkyou⟧: frontier, borderland — suggests the edge of settled territory",
   "cross_references": [
     {
       "type": "synonym",
@@ -53,18 +59,29 @@
       "reading": "へんきょう",
       "headword": "{辺境|へんきょう}",
       "label": "frontier"
+    },
+    {
+      "type": "related",
+      "target_id": "09106_anyo",
+      "reading": "あんよ",
+      "headword": "あんよ",
+      "label": "foot, walking (baby talk)"
     }
   ],
   "metadata": {
     "created": "2026-03-13T06:47:34Z",
-    "modified": "2026-05-04T07:39:45Z",
+    "modified": "2026-09-02T04:01:45Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["geography"]
+      "semantic": [
+        "geography"
+      ]
     }
   }
 }

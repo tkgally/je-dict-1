@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "25042_museibutsu_ex1",
-      "japanese": "{石|いし}は{無生物|むせいぶつ}である。",
+      "japanese": "⟦{石|いし}→石：02177_ishi⟧⟦は→は：00079_ha⟧{無生物|むせいぶつ}⟦である→である：09855_dearu⟧。",
       "english": "A stone is an inanimate object.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "25042_museibutsu_ex2",
-      "japanese": "{無生物|むせいぶつ}{主語|しゅご}の{文|ぶん}は{英語|えいご}に{多|おお}い。",
+      "japanese": "{無生物|むせいぶつ}⟦{主語|しゅご}→主語：00377_shugo⟧⟦の→の：09472_no⟧⟦{文|ぶん}→文：03716_bun⟧⟦は→は：00079_ha⟧⟦{英語|えいご}→英語：02274_eigo⟧⟦に→に：00314_ni⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "Sentences with inanimate subjects are common in English.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "25042_museibutsu_ex3",
-      "japanese": "{生物|せいぶつ}と{無生物|むせいぶつ}の{境界|きょうかい}はウイルスのように{曖昧|あいまい}な{場合|ばあい}もある。",
+      "japanese": "⟦{生物|せいぶつ}→生物：03295_seibutsu⟧⟦と→と：00512_to⟧{無生物|むせいぶつ}⟦の→の：09472_no⟧⟦{境界|きょうかい}→境界：12096_kyoukai⟧⟦は→は：00079_ha⟧⟦ウイルス→ウイルス：05223_uirusu⟧⟦のように→のように：30291_noyouni⟧⟦{曖昧|あいまい}→曖昧：08051_aimai⟧な⟦{場合|ばあい}→場合：01704_baai⟧⟦も→も：00484_mo⟧⟦ある→ある：00006_aru⟧。",
       "english": "The boundary between living and non-living things can be ambiguous, as in the case of viruses.",
       "sense_numbers": [
         1
@@ -43,19 +43,30 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {無|む} (without, non-) + {生物|せいぶつ} (living thing). Used in science, philosophy, and language education.\n\nCOMMON COLLOCATIONS:\n- {無生物|むせいぶつ}{主語|しゅご}: inanimate subject (grammar term, important in Japanese-English translation studies)\n- {無生物|むせいぶつ}の{世界|せかい}: the inanimate world\n- {生物|せいぶつ}と{無生物|むせいぶつ}: living and non-living things\n\nLANGUAGE NOTE:\nThe term {無生物|むせいぶつ}{主語|しゅご} is particularly important for Japanese learners of English, since English frequently uses inanimate subjects in active sentences (e.g., \"The storm destroyed the town\") while Japanese tends to rephrase such sentences with human agents or passive constructions.\n\nSIMILAR WORDS:\n- {生物|せいぶつ}: living thing — the antonym\n- {物体|ぶったい}: physical object, body — refers to any material object regardless of whether it is alive",
+  "notes": "Composed of ⟦{無|む}→無：17750_mu⟧ (without, non-) + ⟦{生物|せいぶつ}→生物：03295_seibutsu⟧ (living thing). Used in science, philosophy, and language education.\n\nCOMMON COLLOCATIONS:\n- {無生物|むせいぶつ}⟦{主語|しゅご}→主語：00377_shugo⟧: inanimate subject (grammar term, important in Japanese-English translation studies)\n- {無生物|むせいぶつ}⟦の→の：09472_no⟧⟦{世界|せかい}→世界：01447_sekai⟧: the inanimate world\n- ⟦{生物|せいぶつ}→生物：03295_seibutsu⟧⟦と→と：00512_to⟧{無生物|むせいぶつ}: living and non-living things\n\nLANGUAGE NOTE:\nThe term {無生物|むせいぶつ}⟦{主語|しゅご}→主語：00377_shugo⟧ is particularly important for Japanese learners of English, since English frequently uses inanimate subjects in active sentences (e.g., \"The storm destroyed the town\") while Japanese tends to rephrase such sentences with human agents or passive constructions.\n\nSIMILAR WORDS:\n- ⟦{生物|せいぶつ}→生物：03295_seibutsu⟧: living thing — the antonym\n- ⟦{物体|ぶったい}→物体：13506_buttai⟧: physical object, body — refers to any material object regardless of whether it is alive",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13506_buttai",
+      "reading": "ぶったい",
+      "headword": "{物体|ぶったい}",
+      "label": "physical object, body"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "science"
       ]
     },
     "created": "2026-04-22T12:37:26Z",
-    "modified": "2026-04-22T12:37:26Z"
+    "modified": "2026-09-02T04:02:20Z"
   }
 }

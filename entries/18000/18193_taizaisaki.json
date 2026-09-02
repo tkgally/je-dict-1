@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "18193_taizaisaki_ex1",
-      "japanese": "{滞在先|たいざいさき}のホテルに{着|つ}いた。",
+      "japanese": "{滞在先|たいざいさき}⟦の→の：09472_no⟧⟦ホテル→ホテル：01027_hoteru⟧⟦に→に：00314_ni⟧⟦{着|つ}いた→着く：00680_tsuku⟧。",
       "english": "I arrived at the hotel where I'm staying.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18193_taizaisaki_ex2",
-      "japanese": "{滞在先|たいざいさき}の{住所|じゅうしょ}をビザの{申請書|しんせいしょ}に{書|か}いた。",
+      "japanese": "{滞在先|たいざいさき}⟦の→の：09472_no⟧⟦{住所|じゅうしょ}→住所：01430_juusho⟧⟦を→を：00422_wo⟧⟦ビザ→ビザ：08283_biza⟧⟦の→の：09472_no⟧⟦{申請書|しんせいしょ}→申請書：07486_shinseisho⟧⟦に→に：00314_ni⟧⟦{書|か}いた→書く：00477_kaku⟧。",
       "english": "I wrote the address of my accommodation on the visa application.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18193_taizaisaki_ex3",
-      "japanese": "{海外|かいがい}{出張|しゅっちょう}の{滞在先|たいざいさき}は{会社|かいしゃ}が{手配|てはい}してくれることになっている。",
+      "japanese": "⟦{海外|かいがい}{出張|しゅっちょう}→海外出張：24173_kaigaishucchou⟧⟦の→の：09472_no⟧{滞在先|たいざいさき}⟦は→は：00079_ha⟧⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦が→が：00051_ga⟧⟦{手配|てはい}→手配：07604_tehai⟧⟦して→する：00392_suru⟧⟦くれる→くれる：00724_kureru⟧ことになっている。",
       "english": "The company arranges the accommodation for overseas business trips.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nA compound of {滞在|たいざい} (stay) and {先|さき} (destination/place). The {先|さき} suffix is productive in Japanese, creating similar compounds like {旅行先|りょこうさき} (travel destination) and {出張先|しゅっちょうさき} (business trip destination).\n\nCOMMON COLLOCATIONS:\n- {滞在先|たいざいさき}の{住所|じゅうしょ} (address of one's accommodation)\n- {滞在先|たいざいさき}を{決|き}める (to decide on a place to stay)\n- {滞在先|たいざいさき}に{届|とど}く (to arrive at one's accommodation)\n- {滞在先|たいざいさき}のホテル (the hotel where one is staying)",
+  "notes": "USAGE:\nA compound of ⟦{滞在|たいざい}→滞在：03390_taizai⟧ (stay) and ⟦{先|さき}→先：02883_saki⟧ (destination/place). The ⟦{先|さき}→先：02883_saki⟧ suffix is productive in Japanese, creating similar compounds like ⟦{旅行先|りょこうさき}→旅行先：28195_ryokousaki⟧ (travel destination) and ⟦{出張先|しゅっちょうさき}→出張先：27265_shucchousaki⟧ (business trip destination).\n\nCOMMON COLLOCATIONS:\n- {滞在先|たいざいさき}⟦の→の：09472_no⟧⟦{住所|じゅうしょ}→住所：01430_juusho⟧ (address of one's accommodation)\n- {滞在先|たいざいさき}⟦を→を：00422_wo⟧⟦{決|き}める→決める：00858_kimeru⟧ (to decide on a place to stay)\n- {滞在先|たいざいさき}⟦に→に：00314_ni⟧⟦{届|とど}く→届く：00899_todoku⟧ (to arrive at one's accommodation)\n- {滞在先|たいざいさき}⟦の→の：09472_no⟧⟦ホテル→ホテル：01027_hoteru⟧ (the hotel where one is staying)",
   "cross_references": [
     {
       "type": "related",
@@ -46,18 +52,36 @@
       "reading": "たいざい",
       "headword": "{滞在|たいざい}",
       "label": "stay (base word)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12949_tabisaki",
+      "reading": "たびさき",
+      "headword": "{旅先|たびさき}",
+      "label": "travel destination, place one is visiting"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25414_shukuhakusaki",
+      "reading": "しゅくはくさき",
+      "headword": "{宿泊先|しゅくはくさき}",
+      "label": "place of lodging"
     }
   ],
   "metadata": {
     "created": "2026-03-20T12:12:16Z",
-    "modified": "2026-05-08T07:08:06Z",
+    "modified": "2026-09-02T04:01:51Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["travel"]
+      "semantic": [
+        "travel"
+      ]
     }
   }
 }

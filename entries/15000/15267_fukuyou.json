@@ -3,7 +3,7 @@
   "id": "15267_fukuyou",
   "headword": "{服用|ふくよう}",
   "reading": "ふくよう",
-  "part_of_speech": "noun, suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "taking medicine; ingesting medication",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "15267_fukuyou_ex1",
-      "japanese": "{食後|しょくご}に{服用|ふくよう}してください。",
+      "japanese": "⟦{食後|しょくご}→食後：09499_shokugo⟧⟦に→に：00314_ni⟧{服用|ふくよう}⟦して→する：00392_suru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please take it after meals.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "15267_fukuyou_ex2",
-      "japanese": "この{薬|くすり}は{一日|いちにち}{三回|さんかい}{服用|ふくよう}する。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{薬|くすり}→薬：00793_kusuri⟧⟦は→は：00079_ha⟧⟦{一日|いちにち}→一日：00942_ichinichi⟧⟦{三回|さんかい}→三回：30448_sankai⟧{服用|ふくよう}⟦する→する：00392_suru⟧。",
       "english": "This medicine is taken three times a day.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "15267_fukuyou_ex3",
-      "japanese": "{妊娠中|にんしんちゅう}の{方|かた}は、{服用|ふくよう}する{前|まえ}に{必|かなら}ず{医師|いし}に{相談|そうだん}してください。",
+      "japanese": "{妊娠中|にんしんちゅう}⟦の→の：09472_no⟧⟦{方|かた}→方：10665_kata⟧⟦は→は：00079_ha⟧、{服用|ふくよう}⟦する→する：00392_suru⟧⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧⟦{必|かなら}ず→必ず：01249_kanarazu⟧⟦{医師|いし}→医師：11851_ishi⟧⟦に→に：00314_ni⟧⟦{相談|そうだん}して→相談する：01845_soudansuru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "If you are pregnant, please be sure to consult a doctor before taking this medication.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,47 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{服用|ふくよう} is a formal, medical term for taking oral medication. Used with する. More formal than {薬|くすり}を{飲|の}む.\n\nCOMMON COLLOCATIONS:\n- {薬|くすり}を{服用|ふくよう}する (to take medicine)\n- {食前|しょくぜん}に{服用|ふくよう}する (to take before meals)\n- {食後|しょくご}に{服用|ふくよう}する (to take after meals)\n- {服用量|ふくようりょう} (dosage)\n- {服用|ふくよう}{方法|ほうほう} (how to take medicine)\n\nSIMILAR WORDS:\n- {服用|ふくよう}: taking medicine orally (formal, medical)\n- {飲|の}む: to drink; to take medicine (everyday)\n- {投与|とうよ}: administering medication (used by medical professionals)\n- {内服|ないふく}: oral administration (medical, technical)",
-  "cross_references": [],
+  "notes": "USAGE:\n{服用|ふくよう} is a formal, medical term for taking oral medication. Used with ⟦する→する：00392_suru⟧. More formal than ⟦{薬|くすり}→薬：00793_kusuri⟧⟦を→を：00422_wo⟧⟦{飲|の}む→飲む：00322_nomu⟧.\n\nCOMMON COLLOCATIONS:\n- ⟦{薬|くすり}→薬：00793_kusuri⟧⟦を→を：00422_wo⟧{服用|ふくよう}⟦する→する：00392_suru⟧ (to take medicine)\n- ⟦{食前|しょくぜん}→食前：20726_shokuzen⟧⟦に→に：00314_ni⟧{服用|ふくよう}⟦する→する：00392_suru⟧ (to take before meals)\n- ⟦{食後|しょくご}→食後：09499_shokugo⟧⟦に→に：00314_ni⟧{服用|ふくよう}⟦する→する：00392_suru⟧ (to take after meals)\n- ⟦{服用量|ふくようりょう}→服用量：25128_fukuyouryou⟧ (dosage)\n- {服用|ふくよう}⟦{方法|ほうほう}→方法：03621_houhou⟧ (how to take medicine)\n\nSIMILAR WORDS:\n- {服用|ふくよう}: taking medicine orally (formal, medical)\n- ⟦{飲|の}む→飲む：00322_nomu⟧: to drink; to take medicine (everyday)\n- ⟦{投与|とうよ}→投与：12894_touyo⟧: administering medication (used by medical professionals)\n- ⟦{内服|ないふく}→内服：21858_naifuku⟧: oral administration (medical, technical)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00322_nomu",
+      "reading": "のむ",
+      "headword": "{飲|の}む",
+      "label": "to drink"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12894_touyo",
+      "reading": "とうよ",
+      "headword": "{投与|とうよ}",
+      "label": "administering medication"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21858_naifuku",
+      "reading": "ないふく",
+      "headword": "{内服|ないふく}",
+      "label": "oral administration"
+    },
+    {
+      "type": "related",
+      "target_id": "05015_fukusayou",
+      "reading": "ふくさよう",
+      "headword": "{副作用|ふくさよう}",
+      "label": "side effect"
+    },
+    {
+      "type": "related",
+      "target_id": "18471_tonpuku",
+      "reading": "とんぷく",
+      "headword": "{頓服|とんぷく}",
+      "label": "medicine taken as needed (not on a regular schedule)"
+    }
+  ],
   "metadata": {
     "created": "2026-03-06T08:10:43Z",
-    "modified": "2026-07-16T07:06:35Z",
+    "modified": "2026-09-02T04:01:40Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
@@ -150,7 +186,8 @@
       "semantic": [
         "health"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

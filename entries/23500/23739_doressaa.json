@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "23739_doressaa_ex1",
-      "japanese": "ドレッサーで{化粧|けしょう}をする。",
+      "japanese": "ドレッサー⟦で→で：00502_de⟧⟦{化粧|けしょう}→化粧：02699_keshou⟧⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧。",
       "english": "I put on makeup at the vanity.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "23739_doressaa_ex2",
-      "japanese": "{新|あたら}しいドレッサーを{寝室|しんしつ}に{置|お}いた。",
+      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧ドレッサー⟦を→を：00422_wo⟧⟦{寝室|しんしつ}→寝室：05300_shinshitsu⟧⟦に→に：00314_ni⟧⟦{置|お}いた→置く：01092_oku⟧。",
       "english": "I put a new vanity in the bedroom.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "23739_doressaa_ex3",
-      "japanese": "{母|はは}はドレッサーの{前|まえ}に{座|すわ}って{丁寧|ていねい}に{髪|かみ}をとかしていた。",
+      "japanese": "⟦{母|はは}→母：00549_haha⟧⟦は→は：00079_ha⟧ドレッサー⟦の→の：09472_no⟧⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧⟦{座|すわ}って→座る：00757_suwaru⟧⟦{丁寧|ていねい}→丁寧：00896_teinei⟧⟦に→に：00314_ni⟧⟦{髪|かみ}→髪：02196_kami⟧⟦を→を：00422_wo⟧⟦とかしていた→とかす：28246_tokasu⟧。",
       "english": "My mother sat in front of the vanity and carefully combed her hair.",
       "sense_numbers": [
         1
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "In Japanese, ドレッサー almost always refers to a vanity table with a mirror, not to a chest of drawers (which is タンス or チェスト). The word comes from English 'dresser' but has narrowed in meaning.\n\nCOMMON COLLOCATIONS:\n- ドレッサーの{前|まえ}に{座|すわ}る: to sit in front of the vanity\n- ドレッサーの{引|ひ}き{出|だ}し: the drawers of the vanity\n- ドレッサーの{鏡|かがみ}: the mirror of the vanity\n- {三面鏡|さんめんきょう}ドレッサー: three-panel mirror vanity\n\nSIMILAR WORDS:\n- {化粧台|けしょうだい}: dressing table — the native Japanese equivalent of ドレッサー; somewhat more formal or old-fashioned\n- {鏡台|きょうだい}: traditional vanity with mirror — an older, more Japanese-style piece of furniture with a similar function\n- タンス: chest of drawers, wardrobe — a storage-focused piece of furniture, not for makeup\n- チェスト: chest of drawers — a Western-style drawer unit, again not for makeup\n\nUSAGE:\nドレッサー is the typical word used in furniture catalogs and everyday speech. {化粧台|けしょうだい} may appear in more traditional or formal contexts.",
+  "notes": "In Japanese, ドレッサー almost always refers to a vanity table with a mirror, not to a chest of drawers (which is タンス or ⟦チェスト→チェスト：30666_chesuto⟧). The word comes from English 'dresser' but has narrowed in meaning.\n\nCOMMON COLLOCATIONS:\n- ドレッサー⟦の→の：09472_no⟧⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧⟦{座|すわ}る→座る：00757_suwaru⟧: to sit in front of the vanity\n- ドレッサー⟦の→の：09472_no⟧⟦{引|ひ}き{出|だ}し→引き出し：01498_hikidashi⟧: the drawers of the vanity\n- ドレッサー⟦の→の：09472_no⟧⟦{鏡|かがみ}→鏡：02190_kagami⟧: the mirror of the vanity\n- {三面鏡|さんめんきょう}ドレッサー: three-panel mirror vanity\n\nSIMILAR WORDS:\n- ⟦{化粧台|けしょうだい}→化粧台：21014_keshoudai⟧: dressing table — the native Japanese equivalent of ドレッサー; somewhat more formal or old-fashioned\n- ⟦{鏡台|きょうだい}→鏡台：16427_kyoudai⟧: traditional vanity with mirror — an older, more Japanese-style piece of furniture with a similar function\n- タンス: chest of drawers, wardrobe — a storage-focused piece of furniture, not for makeup\n- ⟦チェスト→チェスト：30666_chesuto⟧: chest of drawers — a Western-style drawer unit, again not for makeup\n\nUSAGE:\nドレッサー is the typical word used in furniture catalogs and everyday speech. ⟦{化粧台|けしょうだい}→化粧台：21014_keshoudai⟧ may appear in more traditional or formal contexts.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21014_keshoudai",
+      "reading": "けしょうだい",
+      "headword": "{化粧台|けしょうだい}",
+      "label": "dressing table"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16427_kyoudai",
+      "reading": "きょうだい",
+      "headword": "{鏡台|きょうだい}",
+      "label": "traditional vanity with mirror"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05012_tansu",
+      "reading": "たんす",
+      "headword": "{箪笥|たんす}",
+      "label": "chest of drawers, wardrobe"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30666_chesuto",
+      "reading": "ちぇすと",
+      "headword": "チェスト",
+      "label": "chest of drawers"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +90,6 @@
       ]
     },
     "created": "2026-04-14T17:07:04Z",
-    "modified": "2026-08-02T06:24:09Z"
+    "modified": "2026-09-02T04:02:14Z"
   }
 }

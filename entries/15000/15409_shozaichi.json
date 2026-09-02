@@ -15,42 +15,62 @@
   "examples": [
     {
       "id": "15409_shozaichi_ex1",
-      "japanese": "{会社|かいしゃ}の{所在地|しょざいち}はどこですか。",
+      "japanese": "⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦の→の：09472_no⟧{所在地|しょざいち}⟦は→は：00079_ha⟧⟦どこ→どこ：00539_doko⟧です⟦か→か：09473_ka⟧。",
       "english": "Where is the company's location?",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15409_shozaichi_ex2",
-      "japanese": "{本社|ほんしゃ}の{所在地|しょざいち}は{東京都|とうきょうと}{港区|みなとく}です。",
+      "japanese": "⟦{本社|ほんしゃ}→本社：09565_honsha⟧⟦の→の：09472_no⟧{所在地|しょざいち}⟦は→は：00079_ha⟧{東京都|とうきょうと}{港区|みなとく}です。",
       "english": "The head office is located in Minato Ward, Tokyo.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15409_shozaichi_ex3",
-      "japanese": "{申込書|もうしこみしょ}に{所在地|しょざいち}と{電話番号|でんわばんごう}を{記入|きにゅう}してください。",
+      "japanese": "⟦{申込書|もうしこみしょ}→申込書：03162_moushikomisho⟧⟦に→に：00314_ni⟧{所在地|しょざいち}⟦と→と：00512_to⟧⟦{電話番号|でんわばんごう}→電話番号：10159_denwabangou⟧⟦を→を：00422_wo⟧⟦{記入|きにゅう}→記入：02624_kinyuu⟧⟦して→する：00392_suru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please fill in the address and phone number on the application form.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\n{所在地|しょざいち} refers specifically to the official or registered location of an organization, building, or facility. It is more formal than {住所|じゅうしょ}, which is used for personal addresses.\n\nCOMMON COLLOCATIONS:\n- {所在地|しょざいち}を{確認|かくにん}する (to confirm the location)\n- {事務所|じむしょ}の{所在地|しょざいち} (office location)\n- {工場|こうじょう}の{所在地|しょざいち} (factory location)\n\nRELATED WORDS:\n- {住所|じゅうしょ}: address (general, personal)\n- {所在|しょざい}: whereabouts",
-  "cross_references": [],
+  "notes": "USAGE:\n{所在地|しょざいち} refers specifically to the official or registered location of an organization, building, or facility. It is more formal than ⟦{住所|じゅうしょ}→住所：01430_juusho⟧, which is used for personal addresses.\n\nCOMMON COLLOCATIONS:\n- {所在地|しょざいち}⟦を→を：00422_wo⟧⟦{確認|かくにん}する→確認する：25332_kakuninsuru⟧ (to confirm the location)\n- ⟦{事務所|じむしょ}→事務所：01032_jimusho⟧⟦の→の：09472_no⟧{所在地|しょざいち} (office location)\n- ⟦{工場|こうじょう}→工場：01082_koujou⟧⟦の→の：09472_no⟧{所在地|しょざいち} (factory location)\n\nRELATED WORDS:\n- ⟦{住所|じゅうしょ}→住所：01430_juusho⟧: address (general, personal)\n- ⟦{所在|しょざい}→所在：12749_shozai⟧: whereabouts",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "01430_juusho",
+      "reading": "じゅうしょ",
+      "headword": "{住所|じゅうしょ}",
+      "label": "address"
+    }
+  ],
   "metadata": {
     "created": "2026-03-06T13:40:58Z",
-    "modified": "2026-03-06T13:40:58Z",
+    "modified": "2026-09-02T04:01:41Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["business"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "business"
+      ]
     }
   }
 }

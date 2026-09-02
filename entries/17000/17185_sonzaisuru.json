@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "17185_sonzaisuru_ex1",
-      "japanese": "そのような{問題|もんだい}は{存在|そんざい}しない。",
+      "japanese": "⟦そのような→そのような：30277_sonoyouna⟧⟦{問題|もんだい}→問題：00797_mondai⟧⟦は→は：00079_ha⟧{存在|そんざい}しない。",
       "english": "No such problem exists.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "17185_sonzaisuru_ex2",
-      "japanese": "{宇宙|うちゅう}に{地球|ちきゅう}のような{星|ほし}が{他|ほか}にも{存在|そんざい}するのだろうか。",
+      "japanese": "⟦{宇宙|うちゅう}→宇宙：01861_uchuu⟧⟦に→に：00314_ni⟧⟦{地球|ちきゅう}→地球：03461_chikyuu⟧⟦の→の：09472_no⟧ような⟦{星|ほし}→星：01510_hoshi⟧⟦が→が：00051_ga⟧⟦{他|ほか}→他：04129_hoka⟧⟦に→に：00314_ni⟧⟦も→も：00484_mo⟧{存在|そんざい}する⟦の→の：09472_no⟧だろう⟦か→か：09473_ka⟧。",
       "english": "Do other planets like Earth exist in the universe?",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "17185_sonzaisuru_ex3",
-      "japanese": "{彼女|かのじょ}は{会社|かいしゃ}にとって{欠|か}かせない{存在|そんざい}として{認|みと}められている。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦にとって→にとって：06803_nitotte⟧⟦{欠|か}かせない→欠かす：10138_kakasu⟧⟦{存在|そんざい}→存在：03326_sonzai⟧⟦として→として：06802_toshite⟧⟦{認|みと}められている→認める：02429_mitomeru⟧。",
       "english": "She is recognized as an indispensable presence for the company.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,26 @@
       ]
     }
   ],
-  "notes": "USAGE:\nMore formal than いる or ある. Used when the fact of existence itself is the focus, rather than simply stating location. Common in academic, philosophical, and formal writing. The noun form {存在|そんざい} (existence; being; presence) is equally important and frequently used.\n\nCOMMON COLLOCATIONS:\n- {存在|そんざい}する (to exist)\n- {存在|そんざい}しない (to not exist)\n- {存在|そんざい}{感|かん} (sense of presence)\n- {存在|そんざい}{意義|いぎ} (reason for being, raison d'etre)\n- {存在|そんざい}を{示|しめ}す (to demonstrate one's presence)\n\nSIMILAR WORDS:\n- ある: to exist, to be — everyday term for existence of things\n- いる: to exist, to be — everyday term for existence of living beings",
-  "cross_references": [],
+  "notes": "USAGE:\nMore formal than ⟦いる→いる：00495_iru⟧ or ⟦ある→ある：00006_aru⟧. Used when the fact of existence itself is the focus, rather than simply stating location. Common in academic, philosophical, and formal writing. The noun form ⟦{存在|そんざい}→存在：03326_sonzai⟧ (existence; being; presence) is equally important and frequently used.\n\nCOMMON COLLOCATIONS:\n- {存在|そんざい}する (to exist)\n- {存在|そんざい}しない (to not exist)\n- ⟦{存在|そんざい}{感|かん}→存在感：19948_sonzaikan⟧ (sense of presence)\n- ⟦{存在|そんざい}→存在：03326_sonzai⟧⟦{意義|いぎ}→意義：00117_igi⟧ (reason for being, raison d'etre)\n- ⟦{存在|そんざい}→存在：03326_sonzai⟧⟦を→を：00422_wo⟧⟦{示|しめ}す→示す：01948_shimesu⟧ (to demonstrate one's presence)\n\nSIMILAR WORDS:\n- ⟦ある→ある：00006_aru⟧: to exist, to be — everyday term for existence of things\n- ⟦いる→いる：00495_iru⟧: to exist, to be — everyday term for existence of living beings",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00006_aru",
+      "reading": "ある",
+      "headword": "ある",
+      "label": "to exist, to be"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21023_jitsuzaisuru",
+      "reading": "じつざいする",
+      "headword": "{実在|じつざい}する",
+      "label": "to actually exist"
+    }
+  ],
   "metadata": {
     "created": "2026-03-16T05:48:08Z",
-    "modified": "2026-03-29T03:08:18Z",
+    "modified": "2026-09-02T04:01:47Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

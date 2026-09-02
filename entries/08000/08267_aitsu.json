@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08267_aitsu_ex1",
-      "japanese": "あいつは{信用|しんよう}できない。",
+      "japanese": "あいつ⟦は→は：00079_ha⟧⟦{信用|しんよう}できない→信用する：25371_shinyousuru⟧。",
       "english": "That guy can't be trusted.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "08267_aitsu_ex2",
-      "japanese": "あいつが{言|い}ったことは{本当|ほんとう}だ。",
+      "japanese": "あいつ⟦が→が：00051_ga⟧⟦{言|い}った→言う：00515_iu⟧こと⟦は→は：00079_ha⟧⟦{本当|ほんとう}→本当：00779_hontou⟧だ。",
       "english": "What that person said is true.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "08267_aitsu_ex3",
-      "japanese": "あいつとはもう{二度|にど}と{会|あ}いたくない。",
+      "japanese": "あいつ⟦と→と：00512_to⟧⟦は→は：00079_ha⟧⟦もう→もう：00602_mou⟧⟦{二度|にど}と→二度と：06482_nidoto⟧⟦{会|あ}いたくない→会う：00482_au⟧。",
       "english": "I never want to see that person again.",
       "sense_numbers": [
         1
@@ -43,7 +43,7 @@
       "notes": null
     }
   ],
-  "notes": "REGISTER:\nInformal/rough. Can sound contemptuous or rude depending on context. Often used among male friends casually.\n\nKO-SO-A-DO SYSTEM:\nPart of the demonstrative pronoun system for people:\n- こいつ (this guy - near speaker)\n- そいつ (that guy - near listener)\n- あいつ (that guy - distant from both)\n- どいつ (which guy - interrogative)\n\nKANJI:\nCan be written {彼奴|あいつ} but usually in hiragana.\n\nNUANCE:\n- Casual/rough among friends: affectionate\n- About strangers/enemies: contemptuous\n- Neutral gender but often used for males\n\nPOLITE ALTERNATIVES:\n- あの{人|ひと} (that person - polite)\n- あの{方|かた} (that person - formal)\n- {彼|かれ}/{彼女|かのじょ} (he/she - neutral)\n\nRELATED:\n- こいつ (this guy)\n- そいつ (that guy)\n- どいつ (which guy)\n- あの{人|ひと} (that person - polite)",
+  "notes": "REGISTER:\nInformal/rough. Can sound contemptuous or rude depending on context. Often used among male friends casually.\n\nKO-SO-A-DO SYSTEM:\nPart of the demonstrative pronoun system for people:\n- ⟦こいつ→こいつ：08268_koitsu⟧ (this guy - near speaker)\n- ⟦そいつ→そいつ：08759_soitsu⟧ (that guy - near listener)\n- あいつ (that guy - distant from both)\n- ⟦どいつ→どいつ：18614_doitsu⟧ (which guy - interrogative)\n\nWRITING:\nCan be written {彼奴|あいつ} but usually in hiragana.\n\nUSAGE:\n- Casual/rough among friends: affectionate\n- About strangers/enemies: contemptuous\n- Neutral gender but often used for males\n\nPOLITE ALTERNATIVES:\n- ⟦あの{人|ひと}→あの人：25922_anohito⟧ (that person - polite)\n- ⟦あの{方|かた}→あの方：16618_anokata⟧ (that person - formal)\n- ⟦{彼|かれ}→彼：01292_kare⟧/⟦{彼女|かのじょ}→彼女：01286_kanojo⟧ (he/she - neutral)\n\nRELATED WORDS:\n- ⟦こいつ→こいつ：08268_koitsu⟧ (this guy)\n- ⟦そいつ→そいつ：08759_soitsu⟧ (that guy)\n- ⟦どいつ→どいつ：18614_doitsu⟧ (which guy)\n- ⟦あの{人|ひと}→あの人：25922_anohito⟧ (that person - polite)",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -51,13 +51,14 @@
         "pronoun"
       ],
       "formality": "informal",
+      "politeness": "plain",
       "semantic": [
         "pronoun",
         "person"
       ]
     },
     "created": "2026-01-25T09:58:37Z",
-    "modified": "2026-07-02T15:18:16Z"
+    "modified": "2026-09-02T04:01:14Z"
   },
   "cross_references": [
     {
@@ -66,6 +67,27 @@
       "headword": "こいつ",
       "label": "this guy (near speaker)",
       "target_id": "08268_koitsu"
+    },
+    {
+      "type": "keigo",
+      "target_id": "25922_anohito",
+      "reading": "あのひと",
+      "headword": "あの{人|ひと}",
+      "label": "polite"
+    },
+    {
+      "type": "related",
+      "target_id": "08759_soitsu",
+      "reading": "そいつ",
+      "headword": "そいつ",
+      "label": "that guy"
+    },
+    {
+      "type": "related",
+      "target_id": "18614_doitsu",
+      "reading": "どいつ",
+      "headword": "どいつ",
+      "label": "which guy"
     }
   ]
 }

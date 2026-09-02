@@ -43,11 +43,47 @@
       ]
     }
   ],
-  "notes": "{工場|こうじょう} means factory—a place where goods are manufactured.\n\nCOMPONENTS:\n{工|こう} (craft) + {場|じょう} (place) = manufacturing place\n\nREADINGS:\n- こうじょう: standard, larger factories\n- こうば: smaller workshops, often family-run\n\nCOMMON COMPOUNDS:\n- {工場|こうじょう}⟦{見学|けんがく}→見学：00214_kengaku⟧: factory tour\n- ⟦{工場|こうじょう}{長|ちょう}→工場長：25657_koujouchou⟧: factory manager\n- ⟦{食品|しょくひん}→食品：03247_shokuhin⟧{工場|こうじょう}: food factory\n- ⟦{自動車|じどうしゃ}→自動車：02886_jidousha⟧{工場|こうじょう}: automobile plant\n\nRELATED WORDS:\n- ⟦{製造|せいぞう}→製造：03289_seizou⟧: manufacturing\n- ⟦{生産|せいさん}→生産：01444_seisan⟧: production\n- ⟦{工業|こうぎょう}→工業：01402_kougyou⟧: industry\n\nCULTURAL NOTE:\n{工場|こうじょう}⟦{見学|けんがく}→見学：00214_kengaku⟧ (factory tours) are popular in Japan—many food/beverage companies offer free tours with samples.",
-  "cross_references": [],
+  "notes": "{工場|こうじょう} means factory—a place where goods are manufactured.\n\nETYMOLOGY:\n{工|こう} (craft) + {場|じょう} (place) = manufacturing place\n\nPRONUNCIATION:\n- こうじょう: standard, larger factories\n- こうば: smaller workshops, often family-run\n\nCOMPOUNDS:\n- {工場|こうじょう}⟦{見学|けんがく}→見学：00214_kengaku⟧: factory tour\n- ⟦{工場|こうじょう}{長|ちょう}→工場長：25657_koujouchou⟧: factory manager\n- ⟦{食品|しょくひん}→食品：03247_shokuhin⟧{工場|こうじょう}: food factory\n- ⟦{自動車|じどうしゃ}→自動車：02886_jidousha⟧{工場|こうじょう}: automobile plant\n\nRELATED WORDS:\n- ⟦{製造|せいぞう}→製造：03289_seizou⟧: manufacturing\n- ⟦{生産|せいさん}→生産：01444_seisan⟧: production\n- ⟦{工業|こうぎょう}→工業：01402_kougyou⟧: industry\n\nCULTURAL NOTE:\n{工場|こうじょう}⟦{見学|けんがく}→見学：00214_kengaku⟧ (factory tours) are popular in Japan—many food/beverage companies offer free tours with samples.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "03289_seizou",
+      "reading": "せいぞう",
+      "headword": "{製造|せいぞう}",
+      "label": "manufacturing"
+    },
+    {
+      "type": "related",
+      "target_id": "01444_seisan",
+      "reading": "せいさん",
+      "headword": "{生産|せいさん}",
+      "label": "production"
+    },
+    {
+      "type": "related",
+      "target_id": "01402_kougyou",
+      "reading": "こうぎょう",
+      "headword": "{工業|こうぎょう}",
+      "label": "industry"
+    },
+    {
+      "type": "related",
+      "target_id": "07878_sagyouba",
+      "reading": "さぎょうば",
+      "headword": "{作業場|さぎょうば}",
+      "label": "workplace"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25282_seitetsujo",
+      "reading": "せいてつじょ",
+      "headword": "{製鉄所|せいてつじょ}",
+      "label": "ironworks"
+    }
+  ],
   "metadata": {
     "created": "2026-01-07T12:24:43Z",
-    "modified": "2026-05-13T22:08:57Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

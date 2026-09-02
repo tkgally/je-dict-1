@@ -3,7 +3,7 @@
   "headword": "{聴診|ちょうしん}",
   "reading": "ちょうしん",
   "romaji": "choushin",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "auscultation; listening to internal body sounds",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29063_choushin_ex1",
-      "japanese": "{医者|いしゃ}が{胸|むね}を{聴診|ちょうしん}する。",
+      "japanese": "⟦{医者|いしゃ}→医者：02847_isha⟧⟦が→が：00051_ga⟧⟦{胸|むね}→胸：00972_mune⟧⟦を→を：00422_wo⟧{聴診|ちょうしん}⟦する→する：00392_suru⟧。",
       "english": "The doctor listens to the patient's chest.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29063_choushin_ex2",
-      "japanese": "{聴診器|ちょうしんき}を{当|あ}てて{心音|しんおん}を{聴診|ちょうしん}した。",
+      "japanese": "⟦{聴診器|ちょうしんき}→聴診器：16293_choushinki⟧⟦を→を：00422_wo⟧⟦{当|あ}てて→当てる：01864_ateru⟧⟦{心音|しんおん}→心音：29097_shinon⟧⟦を→を：00422_wo⟧{聴診|ちょうしん}⟦した→する：00392_suru⟧。",
       "english": "The doctor placed a stethoscope on me and listened to my heartbeat.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29063_choushin_ex3",
-      "japanese": "{肺|はい}に{異常|いじょう}がないか、{丁寧|ていねい}に{聴診|ちょうしん}してもらった。",
+      "japanese": "⟦{肺|はい}→肺：12334_hai⟧⟦に→に：00314_ni⟧⟦{異常|いじょう}→異常：01716_ijou⟧⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧⟦か→か：09473_ka⟧、⟦{丁寧|ていねい}→丁寧：00896_teinei⟧⟦に→に：00314_ni⟧{聴診|ちょうしん}⟦して→する：00392_suru⟧⟦もらった→もらう：00520_morau⟧。",
       "english": "I had my lungs carefully examined to check for any abnormalities.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "COMMON COLLOCATIONS:\n- {聴診器|ちょうしんき}: stethoscope\n- {心音|しんおん}を{聴診|ちょうしん}する: to listen to the heartbeat\n- {肺|はい}を{聴診|ちょうしん}する: to listen to the lungs\n\nSIMILAR WORDS:\n- {打診|だしん}: percussion — tapping the body and judging the sound, a different examination method\n- {触診|しょくしん}: palpation — examining by pressing and feeling with the hands",
+  "notes": "COMMON COLLOCATIONS:\n- ⟦{聴診器|ちょうしんき}→聴診器：16293_choushinki⟧: stethoscope\n- ⟦{心音|しんおん}→心音：29097_shinon⟧⟦を→を：00422_wo⟧{聴診|ちょうしん}⟦する→する：00392_suru⟧: to listen to the heartbeat\n- ⟦{肺|はい}→肺：12334_hai⟧⟦を→を：00422_wo⟧{聴診|ちょうしん}⟦する→する：00392_suru⟧: to listen to the lungs\n\nSIMILAR WORDS:\n- ⟦{打診|だしん}→打診：05831_dashin⟧: percussion — tapping the body and judging the sound, a different examination method\n- ⟦{触診|しょくしん}→触診：29098_shokushin⟧: palpation — examining by pressing and feeling with the hands",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05831_dashin",
+      "reading": "だしん",
+      "headword": "{打診|だしん}",
+      "label": "percussion"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29098_shokushin",
+      "reading": "しょくしん",
+      "headword": "{触診|しょくしん}",
+      "label": "palpation"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -54,14 +70,15 @@
         "verb-suru"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "health"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-06-10T01:34:18Z",
-    "modified": "2026-06-10T01:34:18Z"
+    "modified": "2026-09-02T04:02:35Z"
   },
   "conjugation": {
     "type": "suru",

@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "12122_zoushoku_ex1",
-      "japanese": "{細胞|さいぼう}が{増殖|ぞうしょく}する。",
+      "japanese": "⟦{細胞|さいぼう}→細胞：05030_saibou⟧⟦が→が：00051_ga⟧{増殖|ぞうしょく}⟦する→する：00392_suru⟧。",
       "english": "Cells proliferate.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "12122_zoushoku_ex2",
-      "japanese": "{細菌|さいきん}は{温|あたた}かい{環境|かんきょう}で{増殖|ぞうしょく}しやすい。",
+      "japanese": "⟦{細菌|さいきん}→細菌：13791_saikin⟧⟦は→は：00079_ha⟧⟦{温|あたた}かい→温かい：13395_atatakai⟧⟦{環境|かんきょう}→環境：00174_kankyou⟧⟦で→で：00502_de⟧{増殖|ぞうしょく}しやすい。",
       "english": "Bacteria tend to multiply in warm environments.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "12122_zoushoku_ex3",
-      "japanese": "SNS{上|じょう}で{偽情報|にせじょうほう}が{増殖|ぞうしょく}し、{社会的|しゃかいてき}な{問題|もんだい}になっている。",
+      "japanese": "SNS⟦{上|じょう}→〜上：30365_jou⟧⟦で→で：00502_de⟧{偽情報|にせじょうほう}⟦が→が：00051_ga⟧{増殖|ぞうしょく}し、⟦{社会的|しゃかいてき}→社会的：04791_shakaiteki⟧な⟦{問題|もんだい}→問題：00797_mondai⟧になっている。",
       "english": "Misinformation is proliferating on social media and has become a social problem.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,19 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{増殖|ぞうしょく} is primarily a biological and scientific term describing the multiplication of cells or organisms. It is also used figuratively for the rapid, often uncontrolled spread of information, problems, or phenomena. The nuance often implies something spreading beyond control.\n\nCOMMON COLLOCATIONS:\n- {細胞|さいぼう}の{増殖|ぞうしょく}: cell proliferation\n- {細菌|さいきん}が{増殖|ぞうしょく}する: bacteria multiply\n- {増殖|ぞうしょく}を{抑|おさ}える: to suppress proliferation\n- {急速|きゅうそく}に{増殖|ぞうしょく}する: to proliferate rapidly",
-  "cross_references": [],
+  "notes": "USAGE:\n{増殖|ぞうしょく} is primarily a biological and scientific term describing the multiplication of cells or organisms. It is also used figuratively for the rapid, often uncontrolled spread of information, problems, or phenomena. The nuance often implies something spreading beyond control.\n\nCOMMON COLLOCATIONS:\n- ⟦{細胞|さいぼう}→細胞：05030_saibou⟧⟦の→の：09472_no⟧{増殖|ぞうしょく}: cell proliferation\n- ⟦{細菌|さいきん}→細菌：13791_saikin⟧⟦が→が：00051_ga⟧{増殖|ぞうしょく}⟦する→する：00392_suru⟧: bacteria multiply\n- {増殖|ぞうしょく}⟦を→を：00422_wo⟧⟦{抑|おさ}える→抑える：12806_osaeru⟧: to suppress proliferation\n- ⟦{急速|きゅうそく}→急速：02634_kyuusoku⟧⟦に→に：00314_ni⟧{増殖|ぞうしょく}⟦する→する：00392_suru⟧: to proliferate rapidly",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "08671_hanshoku",
+      "reading": "はんしょく",
+      "headword": "{繁殖|はんしょく}",
+      "label": "breeding"
+    }
+  ],
   "metadata": {
     "created": "2026-02-20T08:52:37Z",
-    "modified": "2026-08-16T12:31:26Z",
+    "modified": "2026-09-02T04:01:27Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -155,7 +163,8 @@
         "academic",
         "medical"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

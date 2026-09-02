@@ -3,7 +3,7 @@
   "headword": "{扶助|ふじょ}",
   "reading": "ふじょ",
   "romaji": "fujo",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "aid; support; assistance; relief",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21092_fujo_ex1",
-      "japanese": "{生活|せいかつ}{扶助|ふじょ}を{受|う}ける。",
+      "japanese": "{生活|せいかつ}{扶助|ふじょ}⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧。",
       "english": "To receive livelihood assistance.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21092_fujo_ex2",
-      "japanese": "{法律|ほうりつ}{扶助|ふじょ}{制度|せいど}を{利用|りよう}する。",
+      "japanese": "⟦{法律|ほうりつ}→法律：01722_houritsu⟧{扶助|ふじょ}⟦{制度|せいど}→制度：03291_seido⟧⟦を→を：00422_wo⟧⟦{利用|りよう}する→利用する：21735_riyousuru⟧。",
       "english": "To use the legal aid system.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21092_fujo_ex3",
-      "japanese": "{夫婦|ふうふ}には{互|たが}いに{扶助|ふじょ}する{義務|ぎむ}がある。",
+      "japanese": "⟦{夫婦|ふうふ}→夫婦：03592_fuufu⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{互|たが}い→互い：03402_tagai⟧⟦に→に：00314_ni⟧{扶助|ふじょ}⟦する→する：00392_suru⟧⟦{義務|ぎむ}→義務：02647_gimu⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "Married couples have a mutual obligation to support each other.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "A formal term for aid, support, or relief, most commonly encountered in legal and social welfare contexts. Refers to institutionalized or obligatory forms of support rather than casual help.\n\nCOMMON COLLOCATIONS:\n- {生活|せいかつ}{扶助|ふじょ}: livelihood assistance (a category of welfare benefits)\n- {法律|ほうりつ}{扶助|ふじょ}: legal aid\n- {扶助|ふじょ}{義務|ぎむ}: obligation of support\n- {扶助|ふじょ}{料|りょう}: support payment, maintenance\n- {相互|そうご}{扶助|ふじょ}: mutual aid\n\nUSAGE:\nIn Japanese law, {扶助|ふじょ} appears in family law (spousal and parental support obligations) and in the welfare system ({生活|せいかつ}{保護法|ほごほう}). It carries a more formal and institutional tone than everyday words like {助|たす}け or {支援|しえん}.\n\nSIMILAR WORDS:\n- {援助|えんじょ}: aid, assistance — broader and more general; used for international aid, personal help, etc.\n- {支援|しえん}: support — emphasizes backing or helping someone achieve something\n- {扶養|ふよう}: support of dependents — specifically refers to financially supporting family members\n\nETYMOLOGY:\n{扶|ふ} (support, help) + {助|じょ} (aid, help).",
+  "notes": "A formal term for aid, support, or relief, most commonly encountered in legal and social welfare contexts. Refers to institutionalized or obligatory forms of support rather than casual help.\n\nCOMMON COLLOCATIONS:\n- {生活|せいかつ}{扶助|ふじょ}: livelihood assistance (a category of welfare benefits)\n- ⟦{法律|ほうりつ}→法律：01722_houritsu⟧{扶助|ふじょ}: legal aid\n- {扶助|ふじょ}⟦{義務|ぎむ}→義務：02647_gimu⟧: obligation of support\n- {扶助|ふじょ}⟦{料|りょう}→料：28172_ryou⟧: support payment, maintenance\n- {相互|そうご}{扶助|ふじょ}: mutual aid\n\nUSAGE:\nIn Japanese law, {扶助|ふじょ} appears in family law (spousal and parental support obligations) and in the welfare system (⟦{生活|せいかつ}→生活：01443_seikatsu⟧{保護法|ほごほう}). It carries a more formal and institutional tone than everyday words like ⟦{助|たす}け→助け：07777_tasuke⟧ or ⟦{支援|しえん}→支援：07778_shien⟧.\n\nSIMILAR WORDS:\n- ⟦{援助|えんじょ}→援助：01892_enjo⟧: aid, assistance — broader and more general; used for international aid, personal help, etc.\n- ⟦{支援|しえん}→支援：07778_shien⟧: support — emphasizes backing or helping someone achieve something\n- ⟦{扶養|ふよう}→扶養：21549_fuyou⟧: support of dependents — specifically refers to financially supporting family members\n\nETYMOLOGY:\n{扶|ふ} (support, help) + {助|じょ} (aid, help).",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01892_enjo",
+      "reading": "えんじょ",
+      "headword": "{援助|えんじょ}",
+      "label": "aid, assistance"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07778_shien",
+      "reading": "しえん",
+      "headword": "{支援|しえん}",
+      "label": "support"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21549_fuyou",
+      "reading": "ふよう",
+      "headword": "{扶養|ふよう}",
+      "label": "support of dependents"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,7 +85,7 @@
       "verb_class": "suru"
     },
     "created": "2026-03-31T17:15:44Z",
-    "modified": "2026-03-31T17:15:44Z"
+    "modified": "2026-09-02T04:02:02Z"
   },
   "conjugation": {
     "type": "suru",

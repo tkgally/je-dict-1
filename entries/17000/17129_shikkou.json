@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "17129_shikkou_ex1",
-      "japanese": "パスポートが{失効|しっこう}した。",
+      "japanese": "⟦パスポート→パスポート：00341_pasupooto⟧⟦が→が：00051_ga⟧{失効|しっこう}⟦した→する：00392_suru⟧。",
       "english": "My passport has expired.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "17129_shikkou_ex2",
-      "japanese": "この{契約|けいやく}は{来月|らいげつ}{失効|しっこう}する。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{契約|けいやく}→契約：02698_keiyaku⟧⟦は→は：00079_ha⟧⟦{来月|らいげつ}→来月：00744_raigetsu⟧{失効|しっこう}⟦する→する：00392_suru⟧。",
       "english": "This contract will expire next month.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "17129_shikkou_ex3",
-      "japanese": "{免許|めんきょ}の{失効|しっこう}に{気|き}づかず、{無免許|むめんきょ}で{運転|うんてん}してしまった。",
+      "japanese": "⟦{免許|めんきょ}→免許：03808_menkyo⟧⟦の→の：09472_no⟧{失効|しっこう}⟦に→に：00314_ni⟧{気|き}づかず、{無免許|むめんきょ}⟦で→で：00502_de⟧⟦{運転|うんてん}して→運転する：20318_untensuru⟧しまった。",
       "english": "I didn't notice my license had expired and ended up driving without a valid license.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA compound of {失|しつ} (lose) + {効|こう} (effect). Used as a suru verb ({失効|しっこう}する) to describe documents, contracts, or rights losing their validity.\n\nCOMMON COLLOCATIONS:\n- {失効|しっこう}する (to expire, to lapse)\n- {失効|しっこう}{日|び} (expiration date)\n- {失効|しっこう}した{免許|めんきょ} (an expired license)\n\nSIMILAR WORDS:\n- {期限切|きげんぎ}れ: expiration — focuses on the deadline having passed\n- {無効|むこう}: invalid — the state of not being valid, regardless of whether it once was",
+  "notes": "USAGE:\nA compound of {失|しつ} (lose) + {効|こう} (effect). Used as a suru verb ({失効|しっこう}⟦する→する：00392_suru⟧) to describe documents, contracts, or rights losing their validity.\n\nCOMMON COLLOCATIONS:\n- {失効|しっこう}⟦する→する：00392_suru⟧ (to expire, to lapse)\n- {失効|しっこう}{日|び} (expiration date)\n- {失効|しっこう}⟦した→する：00392_suru⟧⟦{免許|めんきょ}→免許：03808_menkyo⟧ (an expired license)\n\nSIMILAR WORDS:\n- ⟦{期限切|きげんぎ}れ→期限切れ：15893_kigengire⟧: expiration — focuses on the deadline having passed\n- ⟦{無効|むこう}→無効：13385_mukou⟧: invalid — the state of not being valid, regardless of whether it once was",
   "cross_references": [
     {
       "type": "homophone",
@@ -149,11 +149,25 @@
       "reading": "むこう",
       "headword": "{無効|むこう}",
       "label": "invalid, void"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15893_kigengire",
+      "reading": "きげんぎれ",
+      "headword": "{期限切|きげんぎ}れ",
+      "label": "expiration"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19501_kigengakireru",
+      "reading": "きげんがきれる",
+      "headword": "{期限|きげん}が{切|き}れる",
+      "label": "to expire"
     }
   ],
   "metadata": {
     "created": "2026-03-16T03:05:17Z",
-    "modified": "2026-05-05T10:11:30Z",
+    "modified": "2026-09-02T04:01:47Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -166,7 +180,8 @@
       "semantic": [
         "law"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

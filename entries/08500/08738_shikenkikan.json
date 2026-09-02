@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08738_shikenkikan_ex1",
-      "japanese": "{試験|しけん}{期間|きかん}に{入|はい}った。",
+      "japanese": "{試験|しけん}{期間|きかん}⟦に→に：00314_ni⟧⟦{入|はい}った→入る：00494_hairu⟧。",
       "english": "The exam period has begun.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "08738_shikenkikan_ex2",
-      "japanese": "{試験|しけん}{期間|きかん}は{図書館|としょかん}が{混|こ}む。",
+      "japanese": "{試験|しけん}{期間|きかん}⟦は→は：00079_ha⟧⟦{図書館|としょかん}→図書館：00580_toshokan⟧⟦が→が：00051_ga⟧⟦{混|こ}む→混む：02574_komu⟧。",
       "english": "The library gets crowded during exam periods.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "08738_shikenkikan_ex3",
-      "japanese": "{試験|しけん}{期間|きかん}{中|ちゅう}はアルバイトを{休|やす}む。",
+      "japanese": "{試験|しけん}{期間|きかん}{中|ちゅう}⟦は→は：00079_ha⟧⟦アルバイト→アルバイト：01528_arubaito⟧⟦を→を：00422_wo⟧⟦{休|やす}む→休む：00606_yasumu⟧。",
       "english": "I take a break from my part-time job during the exam period.",
       "sense_numbers": [
         1
@@ -43,7 +43,7 @@
       "notes": null
     }
   ],
-  "notes": "{試験|しけん}{期間|きかん} is a compound of {試験|しけん} (exam) + {期間|きかん} (period). Refers to the designated time frame when exams are held at schools and universities.\n\nCOMMON COLLOCATIONS:\n- {試験|しけん}{期間|きかん}に{入|はい}る: to enter the exam period\n- {試験|しけん}{期間|きかん}{中|ちゅう}: during the exam period\n- {試験|しけん}{期間|きかん}が{終|お}わる: for the exam period to end\n\nJAPANESE ACADEMIC CALENDAR:\nJapanese universities typically have two main exam periods:\n- {前期|ぜんき}{試験|しけん}: first semester exams (July-August)\n- {後期|こうき}{試験|しけん}: second semester exams (January-February)\n\nRELATED TERMS:\n- {定期|ていき}{試験|しけん}: regular scheduled exams\n- {中間|ちゅうかん}{試験|しけん}: midterm exams\n- {期末|きまつ}{試験|しけん}: final exams\n- {追試|ついし}: makeup exam",
+  "notes": "{試験|しけん}{期間|きかん} is a compound of ⟦{試験|しけん}→試験：01422_shiken⟧ (exam) + ⟦{期間|きかん}→期間：00229_kikan⟧ (period). Refers to the designated time frame when exams are held at schools and universities.\n\nCOMMON COLLOCATIONS:\n- {試験|しけん}{期間|きかん}⟦に→に：00314_ni⟧⟦{入|はい}る→入る：00494_hairu⟧: to enter the exam period\n- {試験|しけん}{期間|きかん}{中|ちゅう}: during the exam period\n- {試験|しけん}{期間|きかん}⟦が→が：00051_ga⟧{終|お}わる: for the exam period to end\n\nJAPANESE ACADEMIC CALENDAR:\nJapanese universities typically have two main exam periods:\n- ⟦{前期|ぜんき}→前期：20651_zenki⟧⟦{試験|しけん}→試験：01422_shiken⟧: first semester exams (July-August)\n- ⟦{後期|こうき}→後期：12603_kouki⟧⟦{試験|しけん}→試験：01422_shiken⟧: second semester exams (January-February)\n\nRELATED WORDS:\n- ⟦{定期|ていき}{試験|しけん}→定期試験：24920_teikishiken⟧: regular scheduled exams\n- ⟦{中間|ちゅうかん}{試験|しけん}→中間試験：06691_chuukanshiken⟧: midterm exams\n- ⟦{期末|きまつ}{試験|しけん}→期末試験：06690_kimatsushiken⟧: final exams\n- ⟦{追試|ついし}→追試：09971_tsuishi⟧: makeup exam",
   "cross_references": [
     {
       "type": "related",
@@ -58,6 +58,34 @@
       "reading": "きかん",
       "headword": "{期間|きかん}",
       "label": "period"
+    },
+    {
+      "type": "related",
+      "target_id": "24920_teikishiken",
+      "reading": "ていきしけん",
+      "headword": "{定期試験|ていきしけん}",
+      "label": "regular scheduled exams"
+    },
+    {
+      "type": "related",
+      "target_id": "06691_chuukanshiken",
+      "reading": "ちゅうかんしけん",
+      "headword": "{中間試験|ちゅうかんしけん}",
+      "label": "midterm exams"
+    },
+    {
+      "type": "related",
+      "target_id": "06690_kimatsushiken",
+      "reading": "きまつしけん",
+      "headword": "{期末試験|きまつしけん}",
+      "label": "final exams"
+    },
+    {
+      "type": "related",
+      "target_id": "09971_tsuishi",
+      "reading": "ついし",
+      "headword": "{追試|ついし}",
+      "label": "makeup exam"
     }
   ],
   "metadata": {
@@ -67,12 +95,13 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "education",
         "time-period"
       ]
     },
     "created": "2026-01-28T03:34:58Z",
-    "modified": "2026-08-12T12:52:42Z"
+    "modified": "2026-09-02T04:01:16Z"
   }
 }

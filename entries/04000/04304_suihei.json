@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "04304_suihei_ex1",
-      "japanese": "⟦{棚|たな}→棚：01650_tana⟧⟦が→が：00051_ga⟧{水平|すいへい}⟦に→に：00314_ni⟧⟦なっている→なる：01970_naru⟧か⟦{確認|かくにん}→確認：00158_kakunin⟧⟦して→する：00392_suru⟧⟦ください→下さい：02899_kudasai⟧。",
+      "japanese": "⟦{棚|たな}→棚：01650_tana⟧⟦が→が：00051_ga⟧{水平|すいへい}⟦に→に：00314_ni⟧⟦なっている→なる：01970_naru⟧⟦か→か：09473_ka⟧⟦{確認|かくにん}→確認：00158_kakunin⟧⟦して→する：00392_suru⟧⟦ください→下さい：02899_kudasai⟧。",
       "english": "Please check if the shelf is level.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{水平|すいへい} means horizontal or level, contrasting with ⟦{垂直|すいちょく}→垂直：05446_suichoku⟧ (vertical). It's used in construction, design, and everyday contexts.\n\nCOMMON COMPOUNDS:\n- ⟦{水平線|すいへいせん}→水平線：13311_suiheisen⟧: horizon (at sea)\n- {水平器|すいへいき}: spirit level, leveling tool\n- {水平|すいへい}⟦{移動|いどう}→移動：01741_idou⟧: horizontal movement\n- {水平|すいへい}⟦{方向|ほうこう}→方向：03617_houkou⟧: horizontal direction\n\nCONTRAST:\n- ⟦{垂直|すいちょく}→垂直：05446_suichoku⟧: vertical, perpendicular\n- ⟦{傾斜|けいしゃ}→傾斜：05447_keisha⟧: slope, incline\n\nNOTE: The ⟦{地平線|ちへいせん}→地平線：03473_chiheisen⟧ refers to the horizon on land, while ⟦{水平線|すいへいせん}→水平線：13311_suiheisen⟧ refers to the horizon at sea.",
+  "notes": "{水平|すいへい} means horizontal or level, contrasting with ⟦{垂直|すいちょく}→垂直：05446_suichoku⟧ (vertical). It's used in construction, design, and everyday contexts.\n\nCOMPOUNDS:\n- ⟦{水平線|すいへいせん}→水平線：13311_suiheisen⟧: horizon (at sea)\n- {水平器|すいへいき}: spirit level, leveling tool\n- {水平|すいへい}⟦{移動|いどう}→移動：01741_idou⟧: horizontal movement\n- {水平|すいへい}⟦{方向|ほうこう}→方向：03617_houkou⟧: horizontal direction\n\nSIMILAR WORDS:\n- ⟦{垂直|すいちょく}→垂直：05446_suichoku⟧: vertical, perpendicular\n- ⟦{傾斜|けいしゃ}→傾斜：05447_keisha⟧: slope, incline\n\nNOTE: The ⟦{地平線|ちへいせん}→地平線：03473_chiheisen⟧ refers to the horizon on land, while ⟦{水平線|すいへいせん}→水平線：13311_suiheisen⟧ refers to the horizon at sea.",
   "cross_references": [
     {
       "type": "antonym",
@@ -51,11 +51,25 @@
       "reading": "すいちょく",
       "headword": "{垂直|すいちょく}",
       "label": "vertical, perpendicular"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05447_keisha",
+      "reading": "けいしゃ",
+      "headword": "{傾斜|けいしゃ}",
+      "label": "slope, incline"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20096_heimen",
+      "reading": "へいめん",
+      "headword": "{平面|へいめん}",
+      "label": "flat surface"
     }
   ],
   "metadata": {
     "created": "2026-01-13T22:31:30Z",
-    "modified": "2026-08-14T18:20:10Z",
+    "modified": "2026-09-02T04:01:04Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

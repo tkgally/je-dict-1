@@ -3,7 +3,7 @@
   "headword": "へなへな",
   "reading": "へなへな",
   "romaji": "henahena",
-  "part_of_speech": "adjective",
+  "part_of_speech": "na-adjective, adverb, onomatopoeia",
   "gloss": "weak; flimsy; limp; wobbly",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21477_henahena_ex1",
-      "japanese": "{足|あし}がへなへなになった。",
+      "japanese": "⟦{足|あし}→足：00575_ashi⟧⟦が→が：00051_ga⟧へなへなになった。",
       "english": "My legs went weak.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21477_henahena_ex2",
-      "japanese": "へなへなの{段|だん}ボールでは{荷物|にもつ}を{支|ささ}えられない。",
+      "japanese": "へなへな⟦の→の：09472_no⟧⟦{段|だん}ボール→段ボール：18885_danbooru⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{荷物|にもつ}→荷物：00737_nimotsu⟧⟦を→を：00422_wo⟧⟦{支|ささ}えられない→支える：01946_sasaeru⟧。",
       "english": "Flimsy cardboard can't support the luggage.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21477_henahena_ex3",
-      "japanese": "{長時間|ちょうじかん}{走|はし}ったあと、へなへなと{座|すわ}り{込|こ}んでしまった。",
+      "japanese": "⟦{長時間|ちょうじかん}→長時間：10165_choujikan⟧⟦{走|はし}った→走る：00519_hashiru⟧あと、へなへな⟦と→と：00512_to⟧⟦{座|すわ}り{込|こ}んで→座り込む：04641_suwarikomu⟧しまった。",
       "english": "After running for a long time, I sank weakly to the ground.",
       "sense_numbers": [
         1
@@ -44,7 +44,23 @@
       "notes": null
     }
   ],
-  "notes": "An onomatopoeic/mimetic word (gitaigo) describing something that lacks firmness or strength. Can describe both physical objects (flimsy, bendy) and people's physical state (weak-kneed, wobbly).\n\nUSAGE:\n- へなへなになる: to go limp, to become weak\n- へなへなと + verb: in a weak, wobbly manner (adverbial use)\n- へなへなの/な + noun: flimsy, weak (adjectival use)\n- Often used humorously or to express sudden loss of strength\n\nCOMMON COLLOCATIONS:\n- {足|あし}がへなへなになる: legs go weak\n- へなへなと{崩|くず}れる: to collapse weakly\n- へなへなと{座|すわ}り{込|こ}む: to sink down weakly\n- へなへなの{文字|もじ}: wobbly, shaky handwriting\n\nSIMILAR WORDS:\n- ふにゃふにゃ: soft, limp, squishy — focuses more on softness than weakness\n- よれよれ: worn out, shabby — describes something that has become weak through use\n- ぐにゃぐにゃ: bendy, flexible — emphasizes bending or lack of rigidity",
+  "notes": "An onomatopoeic/mimetic word (gitaigo) describing something that lacks firmness or strength. Can describe both physical objects (flimsy, bendy) and people's physical state (weak-kneed, wobbly).\n\nUSAGE:\n- へなへな⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧: to go limp, to become weak\n- へなへな⟦と→と：00512_to⟧ + verb: in a weak, wobbly manner (adverbial use)\n- へなへな⟦の→の：09472_no⟧/な + noun: flimsy, weak (adjectival use)\n- Often used humorously or to express sudden loss of strength\n\nCOMMON COLLOCATIONS:\n- ⟦{足|あし}→足：00575_ashi⟧⟦が→が：00051_ga⟧へなへな⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧: legs go weak\n- へなへな⟦と→と：00512_to⟧⟦{崩|くず}れる→崩れる：04248_kuzureru⟧: to collapse weakly\n- へなへな⟦と→と：00512_to⟧⟦{座|すわ}り{込|こ}む→座り込む：04641_suwarikomu⟧: to sink down weakly\n- へなへな⟦の→の：09472_no⟧⟦{文字|もじ}→文字：03632_moji⟧: wobbly, shaky handwriting\n\nSIMILAR WORDS:\n- ⟦ふにゃふにゃ→ふにゃふにゃ：30323_funyafunya⟧: soft, limp, squishy — focuses more on softness than weakness\n- よれよれ: worn out, shabby — describes something that has become weak through use\n- ⟦ぐにゃぐにゃ→ぐにゃぐにゃ：25196_gunyagunya⟧: bendy, flexible — emphasizes bending or lack of rigidity",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "30323_funyafunya",
+      "reading": "ふにゃふにゃ",
+      "headword": "ふにゃふにゃ",
+      "label": "soft, limp, squishy"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25196_gunyagunya",
+      "reading": "ぐにゃぐにゃ",
+      "headword": "ぐにゃぐにゃ",
+      "label": "bendy, flexible"
+    }
+  ],
   "metadata": {
     "entry_id": "21477_henahena",
     "schema_version": "2.0",
@@ -57,12 +73,14 @@
         "adverb",
         "onomatopoeia"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "descriptive"
       ],
       "register": [],
       "usage": []
     },
-    "modified": "2026-07-29T12:35:11Z"
+    "modified": "2026-09-02T04:02:03Z"
   }
 }

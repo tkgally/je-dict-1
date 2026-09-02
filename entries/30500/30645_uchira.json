@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30645_uchira_ex1",
-      "japanese": "うちらも{行|い}く。",
+      "japanese": "うちら⟦も→も：00484_mo⟧⟦{行|い}く→行く：00119_iku⟧。",
       "english": "We're going too.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30645_uchira_ex2",
-      "japanese": "うちらのクラスは{男子|だんし}が{多|おお}い。",
+      "japanese": "うちら⟦の→の：09472_no⟧⟦クラス→クラス：01084_kurasu⟧⟦は→は：00079_ha⟧⟦{男子|だんし}→男子：03425_danshi⟧⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "Our class has a lot of boys.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30645_uchira_ex3",
-      "japanese": "うちらはずっと{同|おな}じ{部活|ぶかつ}だったから、{言|い}わなくても{気持|きも}ちが{分|わ}かる。",
+      "japanese": "うちら⟦は→は：00079_ha⟧⟦ずっと→ずっと：00912_zutto⟧⟦{同|おな}じ→同じ：02857_onaji⟧⟦{部活|ぶかつ}→部活：05377_bukatsu⟧だった⟦から→から：00504_kara⟧、⟦{言|い}わなくて→言う：00515_iu⟧⟦も→も：00484_mo⟧{気持|きも}ち⟦が→が：00051_ga⟧⟦{分|わ}かる→分かる：00463_wakaru⟧。",
       "english": "We were in the same club the whole time, so we know how each other feels without saying it.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "USAGE:\nFrom うち (I, casual) plus the plural suffix 〜ら. Strictly informal: appropriate among friends and classmates, but out of place at work, in writing, or with anyone senior, where {私|わたし}たち is required.\n\nSIMILAR WORDS:\n- {私|わたし}たち: we — the neutral, all-purpose form\n- {僕|ぼく}ら: we — casual, male speakers\n- {俺|おれ}ら: we — rough and masculine\n- うち: I — the singular this is built on, casual and common among girls and in Kansai",
+  "notes": "USAGE:\nFrom うち (I, casual) plus the plural suffix 〜ら. Strictly informal: appropriate among friends and classmates, but out of place at work, in writing, or with anyone senior, where ⟦{私|わたし}たち→私たち：28351_watashitachi⟧ is required.\n\nSIMILAR WORDS:\n- ⟦{私|わたし}たち→私たち：28351_watashitachi⟧: we — the neutral, all-purpose form\n- ⟦{僕|ぼく}ら→僕ら：22784_bokura⟧: we — casual, male speakers\n- ⟦{俺|おれ}→俺：02185_ore⟧ら: we — rough and masculine\n- うち: I — the singular this is built on, casual and common among girls and in Kansai",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "28351_watashitachi",
+      "reading": "わたしたち",
+      "headword": "{私|わたし}たち",
+      "label": "we"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22784_bokura",
+      "reading": "ぼくら",
+      "headword": "{僕|ぼく}ら",
+      "label": "we"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,6 +78,6 @@
       ]
     },
     "created": "2026-08-14T15:52:31Z",
-    "modified": "2026-08-14T15:52:31Z"
+    "modified": "2026-09-02T04:02:41Z"
   }
 }

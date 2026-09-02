@@ -3,7 +3,7 @@
   "headword": "{恒常化|こうじょうか}",
   "reading": "こうじょうか",
   "romaji": "koujouka",
-  "part_of_speech": "noun, verb (する)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "becoming permanent; becoming the norm",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22354_koujouka_ex1",
-      "japanese": "{残業|ざんぎょう}の{恒常化|こうじょうか}が{問題|もんだい}だ。",
+      "japanese": "⟦{残業|ざんぎょう}→残業：01071_zangyou⟧⟦の→の：09472_no⟧{恒常化|こうじょうか}⟦が→が：00051_ga⟧⟦{問題|もんだい}→問題：00797_mondai⟧だ。",
       "english": "The normalization of overtime work is a problem.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22354_koujouka_ex2",
-      "japanese": "{人手不足|ひとでぶそく}が{恒常化|こうじょうか}している。",
+      "japanese": "⟦{人手不足|ひとでぶそく}→人手不足：11436_hitodebusoku⟧⟦が→が：00051_ga⟧{恒常化|こうじょうか}⟦している→する：00392_suru⟧。",
       "english": "The labor shortage has become a permanent condition.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22354_koujouka_ex3",
-      "japanese": "{交通|こうつう}{渋滞|じゅうたい}が{恒常化|こうじょうか}した{地域|ちいき}では、{新|あたら}しい{道路|どうろ}の{建設|けんせつ}が{求|もと}められている。",
+      "japanese": "⟦{交通|こうつう}{渋滞|じゅうたい}→交通渋滞：16260_koutsuujuutai⟧⟦が→が：00051_ga⟧{恒常化|こうじょうか}⟦した→する：00392_suru⟧⟦{地域|ちいき}→地域：01461_chiiki⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧、⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦{道路|どうろ}→道路：01481_douro⟧⟦の→の：09472_no⟧⟦{建設|けんせつ}→建設：02708_kensetsu⟧⟦が→が：00051_ga⟧⟦{求|もと}められている→求める：02316_motomeru⟧。",
       "english": "In areas where traffic congestion has become a permanent problem, construction of new roads is being demanded.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Frequently used when describing negative situations that have become entrenched or accepted as normal, such as overwork, shortages, or social problems. Less commonly used for positive developments.\n\nCOMMON COLLOCATIONS:\n- {残業|ざんぎょう}の{恒常化|こうじょうか}: normalization of overtime\n- {赤字|あかじ}の{恒常化|こうじょうか}: chronic deficits\n- {恒常化|こうじょうか}した{問題|もんだい}: an entrenched problem\n\nSIMILAR WORDS:\n- {常態化|じょうたいか}: becoming the normal state — very close synonym\n- {慢性化|まんせいか}: becoming chronic — used for illnesses and persistent problems\n- {定着|ていちゃく}: taking root; becoming established — more neutral\n\nFORMATION:\n{恒常|こうじょう} (permanence; constancy) + {化|か} (-ization)",
+  "notes": "Frequently used when describing negative situations that have become entrenched or accepted as normal, such as overwork, shortages, or social problems. Less commonly used for positive developments.\n\nCOMMON COLLOCATIONS:\n- ⟦{残業|ざんぎょう}→残業：01071_zangyou⟧⟦の→の：09472_no⟧{恒常化|こうじょうか}: normalization of overtime\n- ⟦{赤字|あかじ}→赤字：04712_akaji⟧⟦の→の：09472_no⟧{恒常化|こうじょうか}: chronic deficits\n- {恒常化|こうじょうか}⟦した→する：00392_suru⟧⟦{問題|もんだい}→問題：00797_mondai⟧: an entrenched problem\n\nSIMILAR WORDS:\n- ⟦{常態化|じょうたいか}→常態化：08024_joutaika⟧: becoming the normal state — very close synonym\n- {慢性化|まんせいか}: becoming chronic — used for illnesses and persistent problems\n- ⟦{定着|ていちゃく}→定着：07594_teichaku⟧: taking root; becoming established — more neutral\n\nFORMS:\n{恒常|こうじょう} (permanence; constancy) + ⟦{化|か}→〜化：28335_ka⟧ (-ization)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08024_joutaika",
+      "reading": "じょうたいか",
+      "headword": "{常態化|じょうたいか}",
+      "label": "becoming the normal state"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07594_teichaku",
+      "reading": "ていちゃく",
+      "headword": "{定着|ていちゃく}",
+      "label": "taking root"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,7 +77,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-05T19:23:07Z",
-    "modified": "2026-04-05T19:23:07Z"
+    "modified": "2026-09-02T04:02:07Z"
   },
   "conjugation": {
     "type": "suru",

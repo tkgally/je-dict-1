@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "12580_kounin_ex1",
-      "japanese": "{後任|こうにん}はまだ{決|き}まっていない。",
+      "japanese": "{後任|こうにん}⟦は→は：00079_ha⟧⟦まだ→まだ：00603_mada⟧⟦{決|き}まっていない→決まる：01233_kimaru⟧。",
       "english": "The successor has not been decided yet.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "12580_kounin_ex2",
-      "japanese": "{彼女|かのじょ}が{部長|ぶちょう}の{後任|こうにん}に{選|えら}ばれた。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦が→が：00051_ga⟧⟦{部長|ぶちょう}→部長：01017_buchou⟧⟦の→の：09472_no⟧{後任|こうにん}⟦に→に：00314_ni⟧⟦{選|えら}ばれた→選ぶ：00835_erabu⟧。",
       "english": "She was chosen as the department head's successor.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "12580_kounin_ex3",
-      "japanese": "{社長|しゃちょう}が{退任|たいにん}するため、{後任|こうにん}の{人事|じんじ}について{議論|ぎろん}が{続|つづ}いている。",
+      "japanese": "⟦{社長|しゃちょう}→社長：01428_shachou⟧⟦が→が：00051_ga⟧⟦{退任|たいにん}→退任：14904_tainin⟧⟦する→する：00392_suru⟧⟦ため→ため：01145_tame⟧、{後任|こうにん}⟦の→の：09472_no⟧⟦{人事|じんじ}→人事：00126_jinji⟧⟦について→〜について：03103_nitsuite⟧⟦{議論|ぎろん}→議論：02650_giron⟧⟦が→が：00051_ga⟧⟦{続|つづ}いている→続く：00903_tsuzuku⟧。",
       "english": "Because the company president is stepping down, discussions about the successor's appointment are ongoing.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nUsed in formal and professional contexts when someone takes over a role. The word focuses on the organizational position being filled rather than personal qualities.\n\nCOMMON COLLOCATIONS:\n- {後任|こうにん}を{選|えら}ぶ: to choose a successor\n- {後任|こうにん}に{就|つ}く: to take over as successor\n- {後任|こうにん}を{探|さが}す: to look for a replacement\n- {後任|こうにん}の{人事|じんじ}: personnel decision regarding a successor\n\nSIMILAR WORDS:\nCompare with {後継者|こうけいしゃ}, which emphasizes inheriting a legacy or carrying on a tradition, while {後任|こうにん} focuses on filling an organizational position.",
+  "notes": "USAGE:\nUsed in formal and professional contexts when someone takes over a role. The word focuses on the organizational position being filled rather than personal qualities.\n\nCOMMON COLLOCATIONS:\n- {後任|こうにん}⟦を→を：00422_wo⟧⟦{選|えら}ぶ→選ぶ：00835_erabu⟧: to choose a successor\n- {後任|こうにん}⟦に→に：00314_ni⟧⟦{就|つ}く→就く：10123_tsuku⟧: to take over as successor\n- {後任|こうにん}⟦を→を：00422_wo⟧⟦{探|さが}す→探す：00493_sagasu⟧: to look for a replacement\n- {後任|こうにん}⟦の→の：09472_no⟧⟦{人事|じんじ}→人事：00126_jinji⟧: personnel decision regarding a successor\n\nSIMILAR WORDS:\nCompare with ⟦{後継者|こうけいしゃ}→後継者：12592_koukeisha⟧, which emphasizes inheriting a legacy or carrying on a tradition, while {後任|こうにん} focuses on filling an organizational position.",
   "cross_references": [
     {
       "type": "related",
@@ -52,11 +52,46 @@
       "headword": "{後継者|こうけいしゃ}",
       "label": "heir, successor (legacy)",
       "target_id": "12592_koukeisha"
+    },
+    {
+      "type": "related",
+      "target_id": "08365_hikitsugi",
+      "reading": "ひきつぎ",
+      "headword": "{引|ひ}き{継|つ}ぎ",
+      "label": "handover"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15244_kouzoku",
+      "reading": "こうぞく",
+      "headword": "{後続|こうぞく}",
+      "label": "following"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19225_zenninsha",
+      "reading": "ぜんにんしゃ",
+      "headword": "{前任者|ぜんにんしゃ}",
+      "label": "predecessor"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20112_koukei",
+      "reading": "こうけい",
+      "headword": "{後継|こうけい}",
+      "label": "succession"
+    },
+    {
+      "type": "antonym",
+      "target_id": "20113_zennin",
+      "reading": "ぜんにん",
+      "headword": "{前任|ぜんにん}",
+      "label": "predecessor"
     }
   ],
   "metadata": {
     "created": "2026-02-22T03:58:07Z",
-    "modified": "2026-03-29T10:42:23Z",
+    "modified": "2026-09-02T04:01:29Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

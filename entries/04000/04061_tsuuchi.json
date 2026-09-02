@@ -2,7 +2,7 @@
   "id": "04061_tsuuchi",
   "headword": "{通知|つうち}",
   "reading": "つうち",
-  "part_of_speech": "noun, suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "notice, notification",
   "conjugation": {
     "type": "suru",
@@ -124,7 +124,7 @@
     },
     {
       "id": "04061_tsuuchi_ex3",
-      "japanese": "⟦{スマホ}→スマホ：04721_sumaho⟧⟦の→の：09472_no⟧{通知|つうち}⟦を→を：00422_wo⟧⟦{切|き}った→切る：02693_kiru⟧。",
+      "japanese": "⟦スマホ→スマホ：04721_sumaho⟧⟦の→の：09472_no⟧{通知|つうち}⟦を→を：00422_wo⟧⟦{切|き}った→切る：02693_kiru⟧。",
       "english": "I turned off my smartphone notifications.",
       "notes": "Modern usage for app notifications",
       "has_audio": false,
@@ -133,10 +133,54 @@
       ]
     }
   ],
-  "notes": "COMMON COLLOCATIONS:\n- {通知|つうち}⟦する→する：00392_suru⟧ (to notify)\n- {通知|つうち}⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧ (to receive a notice)\n- {通知|つうち}⟦{書|しょ}→書：noentry⟧ (written notification)\n- ⟦{合格|ごうかく}→合格：02816_goukaku⟧{通知|つうち} (acceptance notice)\n- ⟦{不合格|ふごうかく}→不合格：05139_fugoukaku⟧{通知|つうち} (rejection notice)\n- ⟦{事前|じぜん}→事前：07580_jizen⟧{通知|つうち} (advance notice)\n\nMODERN USAGE:\n- ⟦{プッシュ}→プッシュ：29830_pusshu⟧{通知|つうち} (push notification)\n- {通知|つうち}⟦{音|おん}→音：00743_oto⟧ (notification sound)\n- {通知|つうち}⟦を→を：00422_wo⟧⟦オフ→オフ：10733_ofu⟧⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧ (to turn off notifications)\n\nFORMAL DOCUMENTS:\n- {通知|つうち}⟦{状|じょう}→状：09878_jou⟧ / {通知|つうち}⟦{書|しょ}→書：noentry⟧ (notification letter)",
+  "notes": "COMMON COLLOCATIONS:\n- {通知|つうち}⟦する→する：00392_suru⟧ (to notify)\n- {通知|つうち}⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧ (to receive a notice)\n- {通知|つうち}⟦{書|しょ}→書：noentry⟧ (written notification)\n- ⟦{合格|ごうかく}→合格：02816_goukaku⟧{通知|つうち} (acceptance notice)\n- ⟦{不合格|ふごうかく}→不合格：05139_fugoukaku⟧{通知|つうち} (rejection notice)\n- ⟦{事前|じぜん}→事前：07580_jizen⟧{通知|つうち} (advance notice)\n\nMODERN USAGE:\n- ⟦プッシュ→プッシュ：29830_pusshu⟧{通知|つうち} (push notification)\n- {通知|つうち}⟦{音|おん}→音：00743_oto⟧ (notification sound)\n- {通知|つうち}⟦を→を：00422_wo⟧⟦オフ→オフ：10733_ofu⟧⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧ (to turn off notifications)\n\nFORMAL DOCUMENTS:\n- {通知|つうち}⟦{状|じょう}→状：09878_jou⟧ / {通知|つうち}⟦{書|しょ}→書：noentry⟧ (notification letter)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03252_shirase",
+      "reading": "しらせ",
+      "headword": "{知|し}らせ",
+      "label": "notice, notification"
+    },
+    {
+      "type": "related",
+      "target_id": "06477_pusshutsuuchi",
+      "reading": "ぷっしゅつうち",
+      "headword": "プッシュ{通知|つうち}",
+      "label": "push notification"
+    },
+    {
+      "type": "related",
+      "target_id": "08379_yokoku",
+      "reading": "よこく",
+      "headword": "{予告|よこく}",
+      "label": "advance notice"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19683_annaijou",
+      "reading": "あんないじょう",
+      "headword": "{案内状|あんないじょう}",
+      "label": "invitation letter"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20432_tsuukoku",
+      "reading": "つうこく",
+      "headword": "{通告|つうこく}",
+      "label": "notice"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22238_tsuutatsu",
+      "reading": "つうたつ",
+      "headword": "{通達|つうたつ}",
+      "label": "official notice"
+    }
+  ],
   "metadata": {
     "created": "2026-01-13T11:35:35Z",
-    "modified": "2026-08-08T09:25:02Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

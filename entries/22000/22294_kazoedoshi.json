@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22294_kazoedoshi_ex1",
-      "japanese": "{数|かぞ}え{年|どし}では{今年|ことし}{三十歳|さんじゅっさい}だ。",
+      "japanese": "{数|かぞ}え{年|どし}⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{今年|ことし}→今年：00722_kotoshi⟧{三十歳|さんじゅっさい}だ。",
       "english": "In traditional age counting, I am thirty this year.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22294_kazoedoshi_ex2",
-      "japanese": "{七五三|しちごさん}は{数|かぞ}え{年|どし}で{祝|いわ}う{家庭|かてい}もある。",
+      "japanese": "⟦{七五三|しちごさん}→七五三：06185_shichigosan⟧⟦は→は：00079_ha⟧{数|かぞ}え{年|どし}⟦で→で：00502_de⟧⟦{祝|いわ}う→祝う：01881_iwau⟧⟦{家庭|かてい}→家庭：12315_katei⟧⟦も→も：00484_mo⟧⟦ある→ある：00006_aru⟧。",
       "english": "Some families celebrate Shichi-Go-San based on traditional age counting.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22294_kazoedoshi_ex3",
-      "japanese": "{昔|むかし}は{数|かぞ}え{年|どし}が{一般的|いっぱんてき}だったが、{今|いま}は{満年齢|まんねんれい}が{使|つか}われている。",
+      "japanese": "⟦{昔|むかし}→昔：01515_mukashi⟧⟦は→は：00079_ha⟧{数|かぞ}え{年|どし}⟦が→が：00051_ga⟧⟦{一般的|いっぱんてき}→一般的：04784_ippanteki⟧だった⟦が→が：00051_ga⟧、⟦{今|いま}→今：00945_ima⟧⟦は→は：00079_ha⟧⟦{満年齢|まんねんれい}→満年齢：23904_mannenrei⟧⟦が→が：00051_ga⟧⟦{使|つか}われている→使う：00473_tsukau⟧。",
       "english": "In the past, traditional age counting was common, but now the Western system is used.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "Under this system, a baby is considered one year old ({一歳|いっさい}) at birth, and everyone becomes one year older on January 1st (originally based on the lunar new year). This means a person born on December 31st would be considered two years old on the following day.\n\nCOMMON COLLOCATIONS:\n- {数|かぞ}え{年|どし}で: in traditional age counting\n- {数|かぞ}え{年|どし}の{年齢|ねんれい}: age by traditional reckoning\n- {数|かぞ}え{年|どし}で{祝|いわ}う: to celebrate by traditional age\n\nSIMILAR WORDS:\n- {満年齢|まんねんれい}: Western-style age — counting from birthday to birthday, which is the standard system in modern Japan\n\nCULTURAL NOTE:\nJapan officially switched to the Western age system ({満年齢|まんねんれい}) in 1950, but {数|かぞ}え{年|どし} is still used for some traditional events like {厄年|やくどし} (unlucky years) and {還暦|かんれき} (60th birthday celebration).",
+  "notes": "Under this system, a baby is considered one year old ({一歳|いっさい}) at birth, and everyone becomes one year older on January 1st (originally based on the lunar new year). This means a person born on December 31st would be considered two years old on the following day.\n\nCOMMON COLLOCATIONS:\n- {数|かぞ}え{年|どし}⟦で→で：00502_de⟧: in traditional age counting\n- {数|かぞ}え{年|どし}⟦の→の：09472_no⟧⟦{年齢|ねんれい}→年齢：01490_nenrei⟧: age by traditional reckoning\n- {数|かぞ}え{年|どし}⟦で→で：00502_de⟧⟦{祝|いわ}う→祝う：01881_iwau⟧: to celebrate by traditional age\n\nSIMILAR WORDS:\n- ⟦{満年齢|まんねんれい}→満年齢：23904_mannenrei⟧: Western-style age — counting from birthday to birthday, which is the standard system in modern Japan\n\nCULTURAL NOTE:\nJapan officially switched to the Western age system (⟦{満年齢|まんねんれい}→満年齢：23904_mannenrei⟧) in 1950, but {数|かぞ}え{年|どし} is still used for some traditional events like ⟦{厄年|やくどし}→厄年：05809_yakudoshi⟧ (unlucky years) and ⟦{還暦|かんれき}→還暦：05807_kanreki⟧ (60th birthday celebration).",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23904_mannenrei",
+      "reading": "まんねんれい",
+      "headword": "{満年齢|まんねんれい}",
+      "label": "Western-style age"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +69,6 @@
       ]
     },
     "created": "2026-04-05T17:03:27Z",
-    "modified": "2026-07-30T03:35:34Z"
+    "modified": "2026-09-02T04:02:07Z"
   }
 }

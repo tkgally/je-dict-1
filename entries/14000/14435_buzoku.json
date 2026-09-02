@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "14435_buzoku_ex1",
-      "japanese": "この{地域|ちいき}には{多|おお}くの{部族|ぶぞく}が{暮|く}らしている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{地域|ちいき}→地域：01461_chiiki⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{多|おお}く⟦の→の：09472_no⟧{部族|ぶぞく}⟦が→が：00051_ga⟧⟦{暮|く}らしている→暮らす：01937_kurasu⟧。",
       "english": "Many tribes live in this region.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "14435_buzoku_ex2",
-      "japanese": "{部族|ぶぞく}{間|かん}の{争|あらそ}いが{続|つづ}いている。",
+      "japanese": "{部族|ぶぞく}⟦{間|かん}→〜間：28469_kan⟧⟦の→の：09472_no⟧⟦{争|あらそ}い→争い：09992_arasoi⟧⟦が→が：00051_ga⟧⟦{続|つづ}いている→続く：00903_tsuzuku⟧。",
       "english": "Conflicts between tribes continue.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "14435_buzoku_ex3",
-      "japanese": "その{部族|ぶぞく}は{独自|どくじ}の{言語|げんご}と{文化|ぶんか}を{守|まも}り{続|つづ}けている。",
+      "japanese": "⟦その→その：00993_sono⟧{部族|ぶぞく}⟦は→は：00079_ha⟧⟦{独自|どくじ}→独自：05614_dokuji⟧⟦の→の：09472_no⟧⟦{言語|げんご}→言語：02717_gengo⟧⟦と→と：00512_to⟧⟦{文化|ぶんか}→文化：01504_bunka⟧⟦を→を：00422_wo⟧⟦{守|まも}り→守る：01986_mamoru⟧⟦{続|つづ}け→続く：00903_tsuzuku⟧て⟦いる→いる：00495_iru⟧。",
       "english": "That tribe continues to preserve its own language and culture.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "A compound of {部|ぶ} (section, group) and {族|ぞく} (clan, tribe).\n\nCOMMON COLLOCATIONS:\n- {部族|ぶぞく}{間|かん} (between tribes, intertribal)\n- {部族|ぶぞく}{社会|しゃかい} (tribal society)\n- {部族|ぶぞく}の{長|おさ} (tribal chief)\n- {少数|しょうすう}{部族|ぶぞく} (minority tribe)\n- {遊牧|ゆうぼく}{部族|ぶぞく} (nomadic tribe)\n\nPrimarily used when discussing indigenous peoples, historical societies, or anthropological topics. In modern Japanese, {民族|みんぞく} (ethnic group, people) is the broader and more common term. {部族|ぶぞく} specifically implies a smaller, more localized group with shared kinship ties.",
+  "notes": "A compound of ⟦{部|ぶ}→〜部：00440_bu⟧ (section, group) and {族|ぞく} (clan, tribe).\n\nCOMMON COLLOCATIONS:\n- {部族|ぶぞく}⟦{間|かん}→〜間：28469_kan⟧ (between tribes, intertribal)\n- {部族|ぶぞく}⟦{社会|しゃかい}→社会：01427_shakai⟧ (tribal society)\n- {部族|ぶぞく}⟦の→の：09472_no⟧{長|おさ} (tribal chief)\n- ⟦{少数|しょうすう}→少数：05611_shousuu⟧{部族|ぶぞく} (minority tribe)\n- {遊牧|ゆうぼく}{部族|ぶぞく} (nomadic tribe)\n\nPrimarily used when discussing indigenous peoples, historical societies, or anthropological topics. In modern Japanese, ⟦{民族|みんぞく}→民族：13229_minzoku⟧ (ethnic group, people) is the broader and more common term. {部族|ぶぞく} specifically implies a smaller, more localized group with shared kinship ties.",
   "cross_references": [
     {
       "type": "contrast",
@@ -52,11 +52,18 @@
       "reading": "みんぞく",
       "headword": "{民族|みんぞく}",
       "label": "ethnic group"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13893_shuzoku",
+      "reading": "しゅぞく",
+      "headword": "{種族|しゅぞく}",
+      "label": "race, tribe, ethnic group"
     }
   ],
   "metadata": {
     "created": "2026-03-01T09:34:28Z",
-    "modified": "2026-04-30T07:28:10Z",
+    "modified": "2026-09-02T04:01:37Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

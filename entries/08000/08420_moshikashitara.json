@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08420_moshikashitara_ex1",
-      "japanese": "もしかしたら{雨|あめ}かもしれない。",
+      "japanese": "もしかしたら⟦{雨|あめ}→雨：00583_ame⟧⟦かもしれない→かもしれない：00164_kamoshirenai⟧。",
       "english": "It might rain.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "08420_moshikashitara_ex2",
-      "japanese": "もしかしたら{彼|かれ}は{来|こ}ないかもしれない。",
+      "japanese": "もしかしたら⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{来|こ}ない→来る：00254_kuru⟧⟦かもしれない→かもしれない：00164_kamoshirenai⟧。",
       "english": "He might not come.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "08420_moshikashitara_ex3",
-      "japanese": "もしかしたら{間違|まちが}っているかもしれないが、{確認|かくにん}してみる。",
+      "japanese": "もしかしたら⟦{間違|まちが}っている→間違う：03036_machigau⟧⟦かもしれない→かもしれない：00164_kamoshirenai⟧⟦が→が：00051_ga⟧、⟦{確認|かくにん}して→確認する：25332_kakuninsuru⟧みる。",
       "english": "I might be wrong, but let me check.",
       "sense_numbers": [
         1
@@ -43,7 +43,7 @@
       "notes": null
     }
   ],
-  "notes": "Expresses uncertainty about a possibility — \"perhaps,\" \"maybe.\" Placed at the beginning of a sentence or clause to signal speculation.\n\nPATTERN:\nAlmost always paired with かもしれない (might be) at the end of the sentence: もしかしたら〜かもしれない.\n\nVARIATIONS:\n- もしかして: shorter, slightly more casual; also used when making a guess about someone (\"Could it be that...?\")\n- もしかすると: slightly more formal/written\n- ひょっとしたら: similar meaning, slightly more literary\n- ひょっとすると: similar meaning, slightly more formal\n\nNOTE:\nもしかして is often used when realizing something: もしかして、{怒|おこ}ってる？ (Could it be that you're angry?)",
+  "notes": "Expresses uncertainty about a possibility — \"perhaps,\" \"maybe.\" Placed at the beginning of a sentence or clause to signal speculation.\n\nCOMMON PATTERNS:\nAlmost always paired with ⟦かもしれない→かもしれない：00164_kamoshirenai⟧ (might be) at the end of the sentence: もしかしたら〜⟦かもしれない→かもしれない：00164_kamoshirenai⟧.\n\nFORMS:\n- ⟦もしかして→もしかして：05713_moshikashite⟧: shorter, slightly more casual; also used when making a guess about someone (\"Could it be that...?\")\n- ⟦もしかすると→もしかすると：00293_moshikasuruto⟧: slightly more formal/written\n- ⟦ひょっとしたら→ひょっとしたら：21627_hyottoshitara⟧: similar meaning, slightly more literary\n- ⟦ひょっとすると→ひょっとすると：15139_hyottosuruto⟧: similar meaning, slightly more formal\n\nUSAGE:\n⟦もしかして→もしかして：05713_moshikashite⟧ is often used when realizing something: ⟦もしかして→もしかして：05713_moshikashite⟧、⟦{怒|おこ}っ→怒る：00876_okoru⟧てる？ (Could it be that you're angry?)",
   "prominent_see_also": [
     {
       "target_id": "05713_moshikashite",
@@ -58,6 +58,29 @@
       "note": "formal/written variant"
     }
   ],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02492_osoraku",
+      "reading": "おそらく",
+      "headword": "おそらく",
+      "label": "probably, perhaps"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06909_hyottoshite",
+      "reading": "ひょっとして",
+      "headword": "ひょっとして",
+      "label": "by chance, perhaps, maybe"
+    },
+    {
+      "type": "related",
+      "target_id": "21627_hyottoshitara",
+      "reading": "ひょっとしたら",
+      "headword": "ひょっとしたら",
+      "label": "perhaps"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -65,12 +88,13 @@
         "adverb"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "cognition",
         "expression"
       ]
     },
     "created": "2026-01-27T00:58:00Z",
-    "modified": "2026-08-12T12:50:50Z"
+    "modified": "2026-09-02T04:01:15Z"
   }
 }

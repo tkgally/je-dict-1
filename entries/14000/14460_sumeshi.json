@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "14460_sumeshi_ex1",
-      "japanese": "{酢飯|すめし}を{作|つく}る。",
+      "japanese": "{酢飯|すめし}⟦を→を：00422_wo⟧⟦{作|つく}る→作る：00481_tsukuru⟧。",
       "english": "To make sushi rice.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "14460_sumeshi_ex2",
-      "japanese": "{炊|た}きたてのご{飯|はん}に{酢|す}を{混|ま}ぜて{酢飯|すめし}にする。",
+      "japanese": "{炊|た}きたて⟦の→の：09472_no⟧⟦ご{飯|はん}→ご飯：00776_gohan⟧⟦に→に：00314_ni⟧⟦{酢|す}→酢：01057_su⟧⟦を→を：00422_wo⟧⟦{混|ま}ぜて→混ぜる：02423_mazeru⟧{酢飯|すめし}⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧。",
       "english": "Mix vinegar into freshly cooked rice to make sushi rice.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "14460_sumeshi_ex3",
-      "japanese": "おいしい{寿司|すし}を{作|つく}るには、{酢飯|すめし}の{味|あじ}つけが{大切|たいせつ}だ。",
+      "japanese": "おいしい⟦{寿司|すし}→寿司：04946_sushi⟧⟦を→を：00422_wo⟧⟦{作|つく}る→作る：00481_tsukuru⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧、{酢飯|すめし}⟦の→の：09472_no⟧{味|あじ}つけ⟦が→が：00051_ga⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧だ。",
       "english": "To make delicious sushi, the seasoning of the vinegared rice is important.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "USAGE:\n{酢飯|すめし} is the standard term used in cooking. At sushi restaurants, the same rice is called シャリ, which is the professional/insider term.\n\nPREPARATION:\n{酢飯|すめし} is made by mixing {合|あ}わせ{酢|ず} (seasoned vinegar — a blend of {酢|す}, {砂糖|さとう}, and {塩|しお}) into hot cooked rice while fanning it to cool.\n\nCOMMON COLLOCATIONS:\n- {酢飯|すめし}を{作|つく}る (to make sushi rice)\n- {酢飯|すめし}の{味|あじ}つけ (seasoning of sushi rice)\n- {酢飯|すめし}を{握|にぎ}る (to shape sushi rice by hand)",
+  "notes": "USAGE:\n{酢飯|すめし} is the standard term used in cooking. At sushi restaurants, the same rice is called シャリ, which is the professional/insider term.\n\nPREPARATION:\n{酢飯|すめし} is made by mixing ⟦{合|あ}わせ{酢|ず}→合わせ酢：17502_awasezu⟧ (seasoned vinegar — a blend of ⟦{酢|す}→酢：01057_su⟧, ⟦{砂糖|さとう}→砂糖：00884_satou⟧, and ⟦{塩|しお}→塩：00887_shio⟧) into hot cooked rice while fanning it to cool.\n\nCOMMON COLLOCATIONS:\n- {酢飯|すめし}⟦を→を：00422_wo⟧⟦{作|つく}る→作る：00481_tsukuru⟧ (to make sushi rice)\n- {酢飯|すめし}⟦の→の：09472_no⟧{味|あじ}つけ (seasoning of sushi rice)\n- {酢飯|すめし}⟦を→を：00422_wo⟧⟦{握|にぎ}る→握る：02383_nigiru⟧ (to shape sushi rice by hand)",
   "cross_references": [
     {
       "type": "related",
@@ -52,11 +52,25 @@
       "reading": "すし",
       "headword": "{寿司|すし}",
       "label": "sushi"
+    },
+    {
+      "type": "related",
+      "target_id": "24484_sushizu",
+      "reading": "すしず",
+      "headword": "{寿司酢|すしず}",
+      "label": "sushi vinegar"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29034_mazegohan",
+      "reading": "まぜごはん",
+      "headword": "{混|ま}ぜご{飯|はん}",
+      "label": "mixed rice"
     }
   ],
   "metadata": {
     "created": "2026-03-01T09:59:16Z",
-    "modified": "2026-04-30T07:28:10Z",
+    "modified": "2026-09-02T04:01:37Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

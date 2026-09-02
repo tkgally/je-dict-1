@@ -3,7 +3,7 @@
   "headword": "{導出|どうしゅつ}",
   "reading": "どうしゅつ",
   "romaji": "doushutsu",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "derivation; deduction",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25998_doushutsu_ex1",
-      "japanese": "{公式|こうしき}を{導出|どうしゅつ}する。",
+      "japanese": "⟦{公式|こうしき}→公式：04167_koushiki⟧⟦を→を：00422_wo⟧{導出|どうしゅつ}⟦する→する：00392_suru⟧。",
       "english": "To derive a formula.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25998_doushutsu_ex2",
-      "japanese": "この{定理|ていり}の{導出|どうしゅつ}{過程|かてい}を{説明|せつめい}してください。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{定理|ていり}→定理：22393_teiri⟧⟦の→の：09472_no⟧{導出|どうしゅつ}⟦{過程|かてい}→過程：02621_katei⟧⟦を→を：00422_wo⟧⟦{説明|せつめい}して→説明する：05639_setsumeisuru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please explain the derivation process of this theorem.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25998_doushutsu_ex3",
-      "japanese": "{実験|じっけん}データから{統計的|とうけいてき}に{有意|ゆうい}な{結論|けつろん}を{導出|どうしゅつ}することが{研究|けんきゅう}の{目的|もくてき}だ。",
+      "japanese": "⟦{実験|じっけん}→実験：03273_jikken⟧⟦データ→データ：03944_deeta⟧⟦から→から：00504_kara⟧{統計的|とうけいてき}⟦に→に：00314_ni⟧{有意|ゆうい}な⟦{結論|けつろん}→結論：02704_ketsuron⟧⟦を→を：00422_wo⟧{導出|どうしゅつ}⟦する→する：00392_suru⟧こと⟦が→が：00051_ga⟧⟦{研究|けんきゅう}→研究：01396_kenkyuu⟧⟦の→の：09472_no⟧⟦{目的|もくてき}→目的：02433_mokuteki⟧だ。",
       "english": "The aim of the research is to derive statistically significant conclusions from the experimental data.",
       "sense_numbers": [
         1
@@ -44,8 +44,23 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {導|どう} (lead, guide) and {出|しゅつ} (come out, produce). Used primarily in academic and technical writing — mathematics, logic, science, and engineering. The verb form {導出|どうしゅつ}する means to derive or deduce.\n\nCOMMON COLLOCATIONS:\n- {公式|こうしき}を{導出|どうしゅつ}する: to derive a formula\n- {結論|けつろん}を{導出|どうしゅつ}する: to derive a conclusion\n- {導出|どうしゅつ}{過程|かてい}: derivation process\n- {数学的|すうがくてき}{導出|どうしゅつ}: mathematical derivation\n- {理論|りろん}の{導出|どうしゅつ}: derivation of a theory\n\nSIMILAR WORDS:\n- {演繹|えんえき}: deduction — reasoning from general principles to specific conclusions (formal logic term)\n- {帰納|きのう}: induction — reasoning from specific cases to general principles (the opposite direction)\n- {算出|さんしゅつ}: calculation — computing a numerical answer rather than deriving a logical result\n- {導|みちび}く: to lead, to derive — the verb form; more general and used outside academic contexts too",
-  "cross_references": [],
+  "notes": "Composed of {導|どう} (lead, guide) and {出|しゅつ} (come out, produce). Used primarily in academic and technical writing — mathematics, logic, science, and engineering. The verb form {導出|どうしゅつ}⟦する→する：00392_suru⟧ means to derive or deduce.\n\nCOMMON COLLOCATIONS:\n- ⟦{公式|こうしき}→公式：04167_koushiki⟧⟦を→を：00422_wo⟧{導出|どうしゅつ}⟦する→する：00392_suru⟧: to derive a formula\n- ⟦{結論|けつろん}→結論：02704_ketsuron⟧⟦を→を：00422_wo⟧{導出|どうしゅつ}⟦する→する：00392_suru⟧: to derive a conclusion\n- {導出|どうしゅつ}⟦{過程|かてい}→過程：02621_katei⟧: derivation process\n- {数学的|すうがくてき}{導出|どうしゅつ}: mathematical derivation\n- ⟦{理論|りろん}→理論：04708_riron⟧⟦の→の：09472_no⟧{導出|どうしゅつ}: derivation of a theory\n\nSIMILAR WORDS:\n- {演繹|えんえき}: deduction — reasoning from general principles to specific conclusions (formal logic term)\n- {帰納|きのう}: induction — reasoning from specific cases to general principles (the opposite direction)\n- ⟦{算出|さんしゅつ}→算出：15350_sanshutsu⟧: calculation — computing a numerical answer rather than deriving a logical result\n- ⟦{導|みちび}く→導く：12361_michibiku⟧: to lead, to derive — the verb form; more general and used outside academic contexts too",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15350_sanshutsu",
+      "reading": "さんしゅつ",
+      "headword": "{算出|さんしゅつ}",
+      "label": "calculation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12361_michibiku",
+      "reading": "みちびく",
+      "headword": "{導|みちび}く",
+      "label": "to lead, to derive"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -54,14 +69,16 @@
         "noun",
         "verb-suru"
       ],
+      "politeness": "plain",
       "semantic": [
         "education",
         "cognition"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-04-28T15:33:54Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T04:02:24Z"
   },
   "conjugation": {
     "type": "suru",

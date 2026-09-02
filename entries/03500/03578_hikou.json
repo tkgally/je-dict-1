@@ -2,7 +2,7 @@
   "id": "03578_hikou",
   "headword": "{飛行|ひこう}",
   "reading": "ひこう",
-  "part_of_speech": "noun, suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "flight, aviation",
   "conjugation": {
     "type": "suru",
@@ -114,7 +114,7 @@
     },
     {
       "id": "03578_hikou_ex2",
-      "japanese": "⟦{初|はじ}めて→初めて：02932_hajimete⟧⟦の→の：09472_no⟧{飛行|ひこう}⟦に→に：00314_ni⟧⟦{成功|せいこう}→成功：02638_seikou⟧した。",
+      "japanese": "⟦{初|はじ}めて→初めて：02932_hajimete⟧⟦の→の：09472_no⟧{飛行|ひこう}⟦に→に：00314_ni⟧⟦{成功|せいこう}→成功：02638_seikou⟧⟦した→する：00392_suru⟧。",
       "english": "The first flight was successful.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "03578_hikou_ex3",
-      "japanese": "⟦{鳥|とり}→鳥：00679_tori⟧⟦が→が：00051_ga⟧⟦{空|そら}→空：02216_sora⟧⟦を→を：00422_wo⟧{飛行|ひこう}している。",
+      "japanese": "⟦{鳥|とり}→鳥：00679_tori⟧⟦が→が：00051_ga⟧⟦{空|そら}→空：02216_sora⟧⟦を→を：00422_wo⟧{飛行|ひこう}⟦している→する：00392_suru⟧。",
       "english": "Birds are flying through the sky.",
       "notes": null,
       "has_audio": false,
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "USAGE: {飛行|ひこう} is the formal term for flying or flight, commonly used in aviation contexts.\n\nCOMMON PATTERNS:\n・{飛行|ひこう}する (to fly)\n・{飛行|ひこう}{中|ちゅう} (during flight)\n・{飛行|ひこう}を⟦{禁止|きんし}→禁止：02643_kinshi⟧する (to prohibit flight)\n\nCOMMON COMPOUNDS:\n・⟦{飛行機|ひこうき}→飛行機：00629_hikouki⟧ (airplane)\n・⟦{飛行場|ひこうじょう}→飛行場：01709_hikoujou⟧ (airport, airfield)\n・{飛行|ひこう}⟦{時間|じかん}→時間：00468_jikan⟧ (flight time)\n・{飛行|ひこう}⟦{距離|きょり}→距離：05331_kyori⟧ (flight distance)\n・⟦{飛行|ひこう}{士|し}→飛行士：19383_hikoushi⟧ (pilot - formal)\n・⟦{試験|しけん}→試験：01422_shiken⟧{飛行|ひこう} (test flight)\n・{有人|ゆうじん}{飛行|ひこう} (manned flight)\n・⟦{宇宙|うちゅう}{飛行|ひこう}{士|し}→宇宙飛行士：28176_uchuuhikoushi⟧ (astronaut)\n\nHOMOPHONE:\n・⟦{非行|ひこう}→非行：03703_hikou⟧ (delinquency, misconduct) - different meaning",
+  "notes": "USAGE: {飛行|ひこう} is the formal term for flying or flight, commonly used in aviation contexts.\n\nCOMMON PATTERNS:\n- {飛行|ひこう}⟦する→する：00392_suru⟧ (to fly)\n- {飛行|ひこう}⟦{中|ちゅう}→〜中：09840_chuu⟧ (during flight)\n- {飛行|ひこう}⟦を→を：00422_wo⟧⟦{禁止|きんし}→禁止：02643_kinshi⟧⟦する→する：00392_suru⟧ (to prohibit flight)\n\nCOMPOUNDS:\n- ⟦{飛行機|ひこうき}→飛行機：00629_hikouki⟧ (airplane)\n- ⟦{飛行場|ひこうじょう}→飛行場：01709_hikoujou⟧ (airport, airfield)\n- {飛行|ひこう}⟦{時間|じかん}→時間：00468_jikan⟧ (flight time)\n- {飛行|ひこう}⟦{距離|きょり}→距離：05331_kyori⟧ (flight distance)\n- ⟦{飛行|ひこう}{士|し}→飛行士：19383_hikoushi⟧ (pilot - formal)\n- ⟦{試験|しけん}→試験：01422_shiken⟧{飛行|ひこう} (test flight)\n- {有人|ゆうじん}{飛行|ひこう} (manned flight)\n- ⟦{宇宙|うちゅう}{飛行|ひこう}{士|し}→宇宙飛行士：28176_uchuuhikoushi⟧ (astronaut)\n\nWATCH OUT:\n- ⟦{非行|ひこう}→非行：03703_hikou⟧ (delinquency, misconduct) - different meaning",
   "cross_references": [
     {
       "type": "related",
@@ -141,11 +141,18 @@
       "headword": "{飛行機|ひこうき}",
       "label": "airplane",
       "target_id": "00629_hikouki"
+    },
+    {
+      "type": "related",
+      "target_id": "02798_koukuu",
+      "reading": "こうくう",
+      "headword": "{航空|こうくう}",
+      "label": "aviation, air travel"
     }
   ],
   "metadata": {
     "created": "2026-01-12T12:06:00Z",
-    "modified": "2026-08-08T09:25:02Z",
+    "modified": "2026-09-02T04:01:03Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

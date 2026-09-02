@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "07392_fukakai_ex1",
-      "japanese": "{彼|かれ}の{行動|こうどう}は{不可解|ふかかい}だ。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧⟦{行動|こうどう}→行動：02728_koudou⟧⟦は→は：00079_ha⟧{不可解|ふかかい}だ。",
       "english": "His behavior is incomprehensible.",
       "has_audio": false,
       "sense_numbers": [
@@ -23,7 +23,7 @@
     },
     {
       "id": "07392_fukakai_ex2",
-      "japanese": "{不可解|ふかかい}な{事件|じけん}が{起|お}きた。",
+      "japanese": "{不可解|ふかかい}な⟦{事件|じけん}→事件：01568_jiken⟧⟦が→が：00051_ga⟧⟦{起|お}きた→起きる：00521_okiru⟧。",
       "english": "A mysterious incident occurred.",
       "has_audio": false,
       "sense_numbers": [
@@ -32,7 +32,7 @@
     },
     {
       "id": "07392_fukakai_ex3",
-      "japanese": "なぜ{断|ことわ}ったのか{不可解|ふかかい}でならない。",
+      "japanese": "⟦なぜ→なぜ：01484_naze⟧⟦{断|ことわ}った→断る：02102_kotowaru⟧⟦の→の：09472_no⟧⟦か→か：09473_ka⟧{不可解|ふかかい}で⟦ならない→なる：01970_naru⟧。",
       "english": "I simply can't understand why they refused.",
       "has_audio": false,
       "sense_numbers": [
@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "notes": "WORD FORMATION:\n{不|ふ} (un-, in-) + {可|か} (possible) + {解|かい} (understand)\nLiterally: \"impossible to understand\"\n\nFORMS:\n・{不可解|ふかかい}な + noun (incomprehensible ~)\n・{不可解|ふかかい}だ (it's puzzling)\n\nCOMMON COLLOCATIONS:\n・{不可解|ふかかい}な{行動|こうどう} - incomprehensible behavior\n・{不可解|ふかかい}な{事件|じけん} - mysterious incident\n・{不可解|ふかかい}な{死|し} - mysterious death\n\nSIMILAR WORDS:\n・{不思議|ふしぎ} - strange, mysterious (more neutral, can be positive)\n・{不可思議|ふかしぎ} - inexplicable (more literary)\n・{謎|なぞ}めいた - enigmatic, mysterious\n\nREGISTER:\nFormal to neutral. Often used in news and serious writing.",
+  "notes": "FORMS:\n{不|ふ} (un-, in-) + {可|か} (possible) + {解|かい} (understand)\nLiterally: \"impossible to understand\"\n- {不可解|ふかかい}な + noun (incomprehensible ~)\n- {不可解|ふかかい}だ (it's puzzling)\n\nCOMMON COLLOCATIONS:\n- {不可解|ふかかい}な⟦{行動|こうどう}→行動：02728_koudou⟧ - incomprehensible behavior\n- {不可解|ふかかい}な⟦{事件|じけん}→事件：01568_jiken⟧ - mysterious incident\n- {不可解|ふかかい}な⟦{死|し}→死：13248_shi⟧ - mysterious death\n\nSIMILAR WORDS:\n- ⟦{不思議|ふしぎ}→不思議：02358_fushigi⟧ - strange, mysterious (more neutral, can be positive)\n- ⟦{不可思議|ふかしぎ}→不可思議：07463_fukashigi⟧ - inexplicable (more literary)\n- {謎|なぞ}めいた - enigmatic, mysterious\n\nREGISTER:\nFormal to neutral. Often used in news and serious writing.",
   "cross_references": [
     {
       "type": "synonym",
@@ -48,11 +48,32 @@
       "headword": "{不可思議|ふかしぎ}",
       "label": "literary",
       "target_id": "07463_fukashigi"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02358_fushigi",
+      "reading": "ふしぎ",
+      "headword": "{不思議|ふしぎ}",
+      "label": "strange, mysterious"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15328_nazomeita",
+      "reading": "なぞめいた",
+      "headword": "{謎|なぞ}めいた",
+      "label": "enigmatic, mysterious"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30788_imifumei",
+      "reading": "いみふめい",
+      "headword": "{意味不明|いみふめい}",
+      "label": "incomprehensible"
     }
   ],
   "metadata": {
     "created": "2026-01-19T07:22:02Z",
-    "modified": "2026-01-24T14:24:36Z",
+    "modified": "2026-09-02T04:01:11Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

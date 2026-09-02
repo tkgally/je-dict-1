@@ -30,8 +30,15 @@ def process_furigana(text: str) -> str:
 
 
 def generate_nav_header(relative_path: str = '../') -> str:
-    """Generate navigation header HTML with reduced nav links for kanji pages."""
-    return _generate_nav_header(relative_path, show_all_links=False)
+    """Generate the (full) navigation header for kanji pages."""
+    return _generate_nav_header(relative_path)
+
+
+def readings_to_kana(value: str, convert) -> list:
+    """'kou, gou' -> ['コウ', 'ゴウ'] using the given romaji converter; 'none' -> []."""
+    if not value or value == 'none':
+        return []
+    return [convert(part.strip()) for part in value.split(',') if part.strip()]
 
 
 def generate_kanji_page(kanji_data: dict, relative_path: str = '../') -> str:
@@ -45,9 +52,13 @@ def generate_kanji_page(kanji_data: dict, relative_path: str = '../') -> str:
     gloss = meta['gloss']
     entry_count = meta['entry_count']
 
-    # Convert readings to Japanese script for display
-    onyomi_display = romaji_to_katakana(onyomi) if onyomi != 'none' else '—'
-    kunyomi_display = romaji_to_hiragana(kunyomi) if kunyomi != 'none' else '—'
+    # Convert readings to Japanese script for display (comma-separated lists allowed)
+    on_list = readings_to_kana(onyomi, romaji_to_katakana)
+    kun_list = readings_to_kana(kunyomi, romaji_to_hiragana)
+    onyomi_display = '、'.join(on_list) if on_list else '—'
+    kunyomi_display = '、'.join(kun_list) if kun_list else '—'
+    onyomi_romaji = f' <span class="reading-romaji">({html.escape(onyomi)})</span>' if on_list else ''
+    kunyomi_romaji = f' <span class="reading-romaji">({html.escape(kunyomi)})</span>' if kun_list else ''
 
     title = f"{kanji} - Kanji Index"
     description = f"Dictionary entries containing the kanji {kanji} ({gloss})"
@@ -69,12 +80,21 @@ def generate_kanji_page(kanji_data: dict, relative_path: str = '../') -> str:
 <main class="kanji-index-page">
     <div class="kanji-header">
         <div class="kanji-display-box">
-            <span class="kanji-large">{html.escape(kanji)}</span>
+            <span class="kanji-large" lang="ja">{html.escape(kanji)}</span>
+        </div>
+        <div class="kanji-info">
+            <div class="kanji-readings">
+                <div class="reading-row"><span class="reading-label"><span lang="ja">音</span> On:</span><span lang="ja">{onyomi_display}</span>{onyomi_romaji}</div>
+                <div class="reading-row"><span class="reading-label"><span lang="ja">訓</span> Kun:</span><span lang="ja">{kunyomi_display}</span>{kunyomi_romaji}</div>
+            </div>
+            <div class="kanji-gloss">{html.escape(gloss)}</div>
+            <div class="kanji-entry-count">{entry_count} headwords · <a href="{relative_path}kanji.html">all kanji</a></div>
         </div>
     </div>
 
     <section class="kanji-entries-section">
-        <ul class="kanji-entry-list">''',
+        <h2>Words containing <span lang="ja">{html.escape(kanji)}</span></h2>
+        <ul class="kanji-entry-list" lang="ja">''',
     ]
 
     # Add each entry
@@ -90,7 +110,7 @@ def generate_kanji_page(kanji_data: dict, relative_path: str = '../') -> str:
                 <a href="{relative_path}entries/{dir_range}/{entry_id}.html">
                     <span class="entry-headword">{process_furigana(headword)}</span>
                     <span class="entry-reading">{html.escape(reading)}</span>
-                    <span class="entry-gloss">{html.escape(entry_gloss)}</span>
+                    <span class="entry-gloss" lang="en">{html.escape(entry_gloss)}</span>
                 </a>
             </li>''')
 

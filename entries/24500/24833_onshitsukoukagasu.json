@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24833_onshitsukoukagasu_ex1",
-      "japanese": "{温室|おんしつ}{効果|こうか}ガスの{排出|はいしゅつ}を{減|へ}らす。",
+      "japanese": "{温室|おんしつ}{効果|こうか}ガス⟦の→の：09472_no⟧⟦{排出|はいしゅつ}→排出：04632_haishutsu⟧⟦を→を：00422_wo⟧⟦{減|へ}らす→減らす：02414_herasu⟧。",
       "english": "To reduce greenhouse gas emissions.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24833_onshitsukoukagasu_ex2",
-      "japanese": "{二酸化炭素|にさんかたんそ}は{代表的|だいひょうてき}な{温室|おんしつ}{効果|こうか}ガスだ。",
+      "japanese": "⟦{二酸化炭素|にさんかたんそ}→二酸化炭素：04630_nisankatanso⟧⟦は→は：00079_ha⟧⟦{代表的|だいひょうてき}→代表的：05670_daihyouteki⟧な{温室|おんしつ}{効果|こうか}ガスだ。",
       "english": "Carbon dioxide is a typical greenhouse gas.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24833_onshitsukoukagasu_ex3",
-      "japanese": "{日本|にほん}は2050{年|ねん}までに{温室|おんしつ}{効果|こうか}ガスの{排出|はいしゅつ}を{実質|じっしつ}ゼロにする{目標|もくひょう}を{掲|かか}げている。",
+      "japanese": "⟦{日本|にほん}→日本：03876_nihon⟧⟦は→は：00079_ha⟧2050⟦{年|ねん}→年：09876_nen⟧⟦まで→まで：00490_made⟧⟦に→に：00314_ni⟧{温室|おんしつ}{効果|こうか}ガス⟦の→の：09472_no⟧⟦{排出|はいしゅつ}→排出：04632_haishutsu⟧⟦を→を：00422_wo⟧⟦{実質|じっしつ}→実質：12282_jisshitsu⟧⟦ゼロ→ゼロ：01011_zero⟧⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧⟦{目標|もくひょう}→目標：03631_mokuhyou⟧⟦を→を：00422_wo⟧⟦{掲|かか}げている→掲げる：12791_kakageru⟧。",
       "english": "Japan has set a target of achieving net-zero greenhouse gas emissions by 2050.",
       "sense_numbers": [
         1
@@ -44,14 +44,60 @@
       "notes": null
     }
   ],
-  "notes": "The standard Japanese term for greenhouse gases. Composed of {温室|おんしつ} (greenhouse) + {効果|こうか} (effect) + ガス (gas). Extremely common in environmental news, policy discussions, and climate change reporting.\n\nCOMMON COLLOCATIONS:\n- {温室|おんしつ}{効果|こうか}ガスの{排出|はいしゅつ} — greenhouse gas emissions\n- {温室|おんしつ}{効果|こうか}ガスの{削減|さくげん} — greenhouse gas reduction\n- {温室|おんしつ}{効果|こうか}ガス{排出量|はいしゅつりょう} — greenhouse gas emission levels\n- {温室|おんしつ}{効果|こうか}ガス{濃度|のうど} — greenhouse gas concentration\n\nMAJOR GREENHOUSE GASES:\n- {二酸化炭素|にさんかたんそ} (CO2) — carbon dioxide (largest contributor)\n- メタン (CH4) — methane\n- {一酸化二窒素|いっさんかにちっそ} (N2O) — nitrous oxide\n- フロン — chlorofluorocarbons (CFCs)\n\nSIMILAR WORDS:\n- {温室|おんしつ}{効果|こうか} — the greenhouse effect (the phenomenon itself)\n- {地球|ちきゅう}{温暖化|おんだんか} — global warming\n- {脱炭素|だつたんそ} — decarbonization",
+  "notes": "The standard Japanese term for greenhouse gases. Composed of ⟦{温室|おんしつ}→温室：04116_onshitsu⟧ (greenhouse) + ⟦{効果|こうか}→効果：02726_kouka⟧ (effect) + ⟦ガス→ガス：01344_gasu⟧ (gas). Extremely common in environmental news, policy discussions, and climate change reporting.\n\nCOMMON COLLOCATIONS:\n- {温室|おんしつ}{効果|こうか}ガス⟦の→の：09472_no⟧⟦{排出|はいしゅつ}→排出：04632_haishutsu⟧ — greenhouse gas emissions\n- {温室|おんしつ}{効果|こうか}ガス⟦の→の：09472_no⟧⟦{削減|さくげん}→削減：11789_sakugen⟧ — greenhouse gas reduction\n- {温室|おんしつ}{効果|こうか}ガス{排出量|はいしゅつりょう} — greenhouse gas emission levels\n- {温室|おんしつ}{効果|こうか}ガス⟦{濃度|のうど}→濃度：00325_noudo⟧ — greenhouse gas concentration\n\nMAJOR GREENHOUSE GASES:\n- ⟦{二酸化炭素|にさんかたんそ}→二酸化炭素：04630_nisankatanso⟧ (CO2) — carbon dioxide (largest contributor)\n- メタン (CH4) — methane\n- {一酸化二窒素|いっさんかにちっそ} (N2O) — nitrous oxide\n- フロン — chlorofluorocarbons (CFCs)\n\nSIMILAR WORDS:\n- ⟦{温室|おんしつ}{効果|こうか}→温室効果：17354_onshitsukouka⟧ — the greenhouse effect (the phenomenon itself)\n- ⟦{地球|ちきゅう}{温暖化|おんだんか}→地球温暖化：18873_chikyuuondanka⟧ — global warming\n- ⟦{脱炭素|だつたんそ}→脱炭素：06410_datsutanso⟧ — decarbonization",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18873_chikyuuondanka",
+      "reading": "ちきゅうおんだんか",
+      "headword": "{地球|ちきゅう}{温暖|おんだん}{化|か}",
+      "label": "global warming"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06410_datsutanso",
+      "reading": "だつたんそ",
+      "headword": "{脱炭素|だつたんそ}",
+      "label": "decarbonization"
+    },
+    {
+      "type": "related",
+      "target_id": "04630_nisankatanso",
+      "reading": "にさんかたんそ",
+      "headword": "{二酸化炭素|にさんかたんそ}",
+      "label": "carbon dioxide"
+    },
+    {
+      "type": "related",
+      "target_id": "09282_haikigasu",
+      "reading": "はいきがす",
+      "headword": "{排気|はいき}ガス",
+      "label": "exhaust gas, exhaust fumes"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24904_tansohaishutsu",
+      "reading": "たんそはいしゅつ",
+      "headword": "{炭素排出|たんそはいしゅつ}",
+      "label": "carbon emissions"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28770_furongasu",
+      "reading": "ふろんがす",
+      "headword": "フロンガス",
+      "label": "CFCs"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "nature",
         "science"
@@ -59,6 +105,6 @@
       "usage": []
     },
     "created": "2026-04-21T09:22:25Z",
-    "modified": "2026-08-03T09:22:27Z"
+    "modified": "2026-09-02T04:02:20Z"
   }
 }

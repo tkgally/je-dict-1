@@ -3,7 +3,7 @@
   "headword": "ぼろい",
   "reading": "ぼろい",
   "romaji": "boroi",
-  "part_of_speech": "adjective (i)",
+  "part_of_speech": "i-adjective",
   "gloss": "shabby; worn out; tattered",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28785_boroi_ex1",
-      "japanese": "このアパートはぼろい。",
+      "japanese": "⟦この→この：00962_kono⟧⟦アパート→アパート：01012_apaato⟧⟦は→は：00079_ha⟧ぼろい。",
       "english": "This apartment is run-down.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28785_boroi_ex2",
-      "japanese": "ぼろい{車|くるま}だけど、まだ{走|はし}る。",
+      "japanese": "ぼろい⟦{車|くるま}→車：00516_kuruma⟧だ⟦けど→けど：09477_kedo⟧、⟦まだ→まだ：00603_mada⟧⟦{走|はし}る→走る：00519_hashiru⟧。",
       "english": "It's a beat-up car, but it still runs.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28785_boroi_ex3",
-      "japanese": "{祖父|そふ}は{今|いま}でもぼろい{自転車|じてんしゃ}を{大事|だいじ}に{乗|の}っている。",
+      "japanese": "⟦{祖父|そふ}→祖父：01452_sofu⟧⟦は→は：00079_ha⟧⟦{今|いま}→今：00945_ima⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧ぼろい⟦{自転車|じてんしゃ}→自転車：00633_jitensha⟧⟦を→を：00422_wo⟧⟦{大事|だいじ}→大事：01253_daiji⟧⟦に→に：00314_ni⟧⟦{乗|の}っている→乗る：00511_noru⟧。",
       "english": "My grandfather still carefully rides his beat-up old bicycle.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Adjective form of the noun ぼろ (rag, tatters). Carries a casual, sometimes affectionate, sometimes dismissive tone. Best avoided in polite descriptions of someone else's belongings.\n\nCOMMON COLLOCATIONS:\n- ぼろい{家|いえ}: a run-down house\n- ぼろい{車|くるま}: a beat-up car\n- ぼろい{服|ふく}: tattered clothes\n\nSIMILAR WORDS:\n- {古|ふる}い: old — neutral; doesn't imply poor condition\n- ぼろぼろ: in tatters; falling apart — onomatopoeic, even more emphatic than ぼろい\n- {老朽化|ろうきゅうか}した: deteriorated, dilapidated — formal equivalent used for buildings",
+  "notes": "Adjective form of the noun ⟦ぼろ→ぼろ：00019_boro⟧ (rag, tatters). Carries a casual, sometimes affectionate, sometimes dismissive tone. Best avoided in polite descriptions of someone else's belongings.\n\nCOMMON COLLOCATIONS:\n- ぼろい⟦{家|いえ}→家：00612_ie⟧: a run-down house\n- ぼろい⟦{車|くるま}→車：00516_kuruma⟧: a beat-up car\n- ぼろい⟦{服|ふく}→服：00695_fuku⟧: tattered clothes\n\nSIMILAR WORDS:\n- ⟦{古|ふる}い→古い：00488_furui⟧: old — neutral; doesn't imply poor condition\n- ⟦ぼろぼろ→ぼろぼろ：05164_boroboro⟧: in tatters; falling apart — onomatopoeic, even more emphatic than ぼろい\n- ⟦{老朽化|ろうきゅうか}→老朽化：07646_roukyuuka⟧⟦した→する：00392_suru⟧: deteriorated, dilapidated — formal equivalent used for buildings",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00488_furui",
+      "reading": "ふるい",
+      "headword": "{古|ふる}い",
+      "label": "old"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07646_roukyuuka",
+      "reading": "ろうきゅうか",
+      "headword": "{老朽化|ろうきゅうか}",
+      "label": "deteriorated, dilapidated"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,7 +76,7 @@
       "domain": []
     },
     "created": "2026-06-05T03:07:50Z",
-    "modified": "2026-08-08T18:34:17Z"
+    "modified": "2026-09-02T04:02:34Z"
   },
   "conjugation": {
     "type": "i-adjective",

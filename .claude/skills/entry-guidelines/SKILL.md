@@ -35,13 +35,13 @@ python3 build/validate.py                    # Validate all entries
 python3 build/add_conjugations.py            # Add conjugation to any new verbs
 python3 build/add_adjective_conjugations.py  # Add conjugation to any new i-adjectives
 python3 build/update_indexes.py              # Update indexes and sync candidates
-python3 build/build_flat.py                  # Rebuild website (REQUIRED for GitHub Pages)
+make index                                   # Refresh indexes and kanji JSON (the site builds in CI after merge)
 git add entries/ docs/ *.json PROJECT_STATUS.md
 git commit -m "Add N new dictionary entries"
 git push
 ```
 **Recent Changes rotation:** PROJECT_STATUS.md keeps only the 5 most recent change entries. When adding a new entry to the "Recent Changes" section, move the oldest one to PROJECT_STATUS-archive.md.
-The `build_flat.py` step is critical - without it, new entries won't appear on the live site. The build uses an atomic process (builds to temp directory, then swaps) to prevent broken states if the build fails.
+The `make index` step refreshes `entries_index.json`, `build/word_id_lookup.json`, and `kanji/`; the live site is rebuilt by GitHub Actions when the PR merges, so `docs/` is never committed.
 
 **Never create scripts that generate entry content programmatically.**
 

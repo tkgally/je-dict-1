@@ -3,7 +3,7 @@
   "headword": "インストールする",
   "reading": "いんすとーるする",
   "romaji": "insutoorusuru",
-  "part_of_speech": "verb-suru",
+  "part_of_speech": "suru verb",
   "gloss": "to install (software)",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "27107_insutoorusuru_ex1",
-      "japanese": "アプリをインストールする。",
+      "japanese": "⟦アプリ→アプリ：04722_apuri⟧⟦を→を：00422_wo⟧インストールする。",
       "english": "To install an app.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "27107_insutoorusuru_ex2",
-      "japanese": "{新|あたら}しいソフトをパソコンにインストールした。",
+      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦ソフト→ソフト：01532_sofuto⟧⟦を→を：00422_wo⟧⟦パソコン→パソコン：01538_pasokon⟧⟦に→に：00314_ni⟧インストールした。",
       "english": "I installed new software on my computer.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "27107_insutoorusuru_ex3",
-      "japanese": "このアプリはインストールするのに{時間|じかん}がかかるので、Wi-Fi{環境|かんきょう}で{行|おこな}ってください。",
+      "japanese": "⟦この→この：00962_kono⟧⟦アプリ→アプリ：04722_apuri⟧⟦は→は：00079_ha⟧インストールする⟦の→の：09472_no⟧⟦に→に：00314_ni⟧⟦{時間|じかん}がかかる→時間がかかる：26082_jikangakakaru⟧⟦の→の：09472_no⟧で、Wi-Fi⟦{環境|かんきょう}→環境：00174_kankyou⟧⟦で→で：00502_de⟧⟦{行|おこな}って→行う：01238_okonau⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "This app takes time to install, so please do it in a Wi-Fi environment.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "A loanword verb from English \"install,\" used exclusively for software and digital applications. Shortened to インストする in casual speech.\n\nCOMMON COLLOCATIONS:\n- アプリをインストールする: to install an app\n- ソフトをインストールする: to install software\n- インストールが{完了|かんりょう}する: installation is complete\n- インストールに{失敗|しっぱい}する: to fail to install\n- {再|さい}インストールする: to reinstall\n\nABBREVIATION:\nインストする is used in casual speech and online communication.\n\nOPPOSITE:\n- アンインストールする: to uninstall\n\nSIMILAR WORDS:\n- {導入|どうにゅう}する: to introduce; to implement — can be used for software but also for systems, policies, and equipment. More formal than インストールする.\n- ダウンロードする: to download — downloading and installing are distinct steps. Downloading retrieves the file; installing sets it up for use.\n- セットアップする: to set up — broader than installing; includes configuration and initial settings after installation.",
+  "notes": "A loanword verb from English \"install,\" used exclusively for software and digital applications. Shortened to インスト⟦する→する：00392_suru⟧ in casual speech.\n\nCOMMON COLLOCATIONS:\n- ⟦アプリ→アプリ：04722_apuri⟧⟦を→を：00422_wo⟧インストールする: to install an app\n- ⟦ソフト→ソフト：01532_sofuto⟧⟦を→を：00422_wo⟧インストールする: to install software\n- ⟦インストール→インストール：04762_insutooru⟧⟦が→が：00051_ga⟧⟦{完了|かんりょう}する→完了する：20676_kanryousuru⟧: installation is complete\n- ⟦インストール→インストール：04762_insutooru⟧⟦に→に：00314_ni⟧⟦{失敗|しっぱい}→失敗：01636_shippai⟧⟦する→する：00392_suru⟧: to fail to install\n- ⟦{再|さい}→再〜：03953_sai⟧インストールする: to reinstall\n\nFORMS:\nインスト⟦する→する：00392_suru⟧ is used in casual speech and online communication.\n\nSIMILAR WORDS:\n- アンインストールする: to uninstall\n- ⟦{導入|どうにゅう}する→導入する：16055_dounyuusuru⟧: to introduce; to implement — can be used for software but also for systems, policies, and equipment. More formal than インストールする.\n- ⟦ダウンロード→ダウンロード：04725_daunroodo⟧⟦する→する：00392_suru⟧: to download — downloading and installing are distinct steps. Downloading retrieves the file; installing sets it up for use.\n- セットアップ⟦する→する：00392_suru⟧: to set up — broader than installing; includes configuration and initial settings after installation.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16055_dounyuusuru",
+      "reading": "どうにゅうする",
+      "headword": "{導入|どうにゅう}する",
+      "label": "to introduce"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -64,7 +73,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-07T11:19:46Z",
-    "modified": "2026-05-07T11:19:46Z"
+    "modified": "2026-09-02T04:02:29Z"
   },
   "conjugation": {
     "type": "suru",

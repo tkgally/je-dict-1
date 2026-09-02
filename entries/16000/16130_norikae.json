@@ -20,7 +20,7 @@
   "examples": [
     {
       "id": "16130_norikae_ex1",
-      "japanese": "{次|つぎ}の{駅|えき}で{乗|の}り{換|か}えです。",
+      "japanese": "⟦{次|つぎ}の{駅|えき}→次の駅：23576_tsuginoeki⟧⟦で→で：00502_de⟧{乗|の}り{換|か}えです。",
       "english": "The transfer is at the next station.",
       "notes": null,
       "has_audio": false,
@@ -30,7 +30,7 @@
     },
     {
       "id": "16130_norikae_ex2",
-      "japanese": "{東京駅|とうきょうえき}で{新幹線|しんかんせん}に{乗|の}り{換|か}えた。",
+      "japanese": "{東京駅|とうきょうえき}⟦で→で：00502_de⟧⟦{新幹線|しんかんせん}→新幹線：01053_shinkansen⟧⟦に→に：00314_ni⟧{乗|の}り{換|か}えた。",
       "english": "I transferred to the Shinkansen at Tokyo Station.",
       "notes": null,
       "has_audio": false,
@@ -40,7 +40,7 @@
     },
     {
       "id": "16130_norikae_ex3",
-      "japanese": "{乗|の}り{換|か}えなしで{空港|くうこう}まで{行|い}ける{路線|ろせん}がある。",
+      "japanese": "{乗|の}り{換|か}えなしで⟦{空港|くうこう}→空港：00648_kuukou⟧⟦まで→まで：00490_made⟧⟦{行|い}ける→行く：00119_iku⟧⟦{路線|ろせん}→路線：11341_rosen⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There's a line that goes directly to the airport with no transfers.",
       "notes": null,
       "has_audio": false,
@@ -50,7 +50,7 @@
     },
     {
       "id": "16130_norikae_ex4",
-      "japanese": "{携帯|けいたい}の{乗|の}り{換|か}えを{考|かんが}えている。",
+      "japanese": "⟦{携帯|けいたい}→携帯：00715_keitai⟧⟦の→の：09472_no⟧{乗|の}り{換|か}え⟦を→を：00422_wo⟧⟦{考|かんが}えている→考える：00856_kangaeru⟧。",
       "english": "I'm thinking about switching mobile carriers.",
       "notes": null,
       "has_audio": false,
@@ -60,7 +60,7 @@
     },
     {
       "id": "16130_norikae_ex5",
-      "japanese": "ガス{会社|がいしゃ}の{乗|の}り{換|か}えで{料金|りょうきん}が{安|やす}くなった。",
+      "japanese": "⟦ガス→ガス：01344_gasu⟧{会社|がいしゃ}⟦の→の：09472_no⟧{乗|の}り{換|か}え⟦で→で：00502_de⟧⟦{料金|りょうきん}→料金：03797_ryoukin⟧⟦が→が：00051_ga⟧⟦{安|やす}く→安い：00464_yasui⟧⟦なった→なる：01970_naru⟧。",
       "english": "Switching gas companies made my bill cheaper.",
       "notes": null,
       "has_audio": false,
@@ -70,7 +70,7 @@
     },
     {
       "id": "16130_norikae_ex6",
-      "japanese": "{電力|でんりょく}{自由化|じゆうか}で、{乗|の}り{換|か}え{先|さき}の{選択肢|せんたくし}が{増|ふ}えた。",
+      "japanese": "⟦{電力|でんりょく}→電力：14609_denryoku⟧{自由化|じゆうか}⟦で→で：00502_de⟧、{乗|の}り{換|か}え⟦{先|さき}→先：02883_saki⟧⟦の→の：09472_no⟧⟦{選択肢|せんたくし}→選択肢：14418_sentakushi⟧⟦が→が：00051_ga⟧⟦{増|ふ}えた→増える：01183_fueru⟧。",
       "english": "With electricity deregulation, the options for switching providers have increased.",
       "notes": null,
       "has_audio": false,
@@ -79,11 +79,33 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{乗|の}り{換|か}え is the noun form of the verb {乗|の}り{換|か}える. Sense 1 (transportation transfer) is the most common meaning. Sense 2 (switching services) has become common in marketing contexts.\n\nCOMMON COLLOCATIONS:\n- {乗|の}り{換|か}え{駅|えき} (transfer station)\n- {乗|の}り{換|か}え{案内|あんない} (transfer information/guide)\n- {乗|の}り{換|か}えなし (no transfer, direct)\n- {乗|の}り{換|か}えキャンペーン (switching campaign — for services)",
-  "cross_references": [],
+  "notes": "USAGE:\n{乗|の}り{換|か}え is the noun form of the verb {乗|の}り{換|か}える. Sense 1 (transportation transfer) is the most common meaning. Sense 2 (switching services) has become common in marketing contexts.\n\nCOMMON COLLOCATIONS:\n- {乗|の}り{換|か}え⟦{駅|えき}→駅：02180_eki⟧ (transfer station)\n- {乗|の}り{換|か}え⟦{案内|あんない}→案内：01291_annai⟧ (transfer information/guide)\n- {乗|の}り{換|か}えなし (no transfer, direct)\n- {乗|の}り{換|か}え⟦キャンペーン→キャンペーン：10809_kyanpeen⟧ (switching campaign — for services)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "08775_shanaihousou",
+      "reading": "しゃないほうそう",
+      "headword": "{車内|しゃない}{放送|ほうそう}",
+      "label": "in-vehicle announcement"
+    },
+    {
+      "type": "related",
+      "target_id": "09737_kishuhenkou",
+      "reading": "きしゅへんこう",
+      "headword": "{機種|きしゅ}{変更|へんこう}",
+      "label": "phone upgrade"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27578_norikaeannai",
+      "reading": "のりかえあんない",
+      "headword": "{乗換案内|のりかえあんない}",
+      "label": "transfer guide"
+    }
+  ],
   "metadata": {
     "created": "2026-03-10T00:16:27Z",
-    "modified": "2026-03-10T00:16:27Z",
+    "modified": "2026-09-02T04:01:43Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

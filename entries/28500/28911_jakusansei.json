@@ -3,7 +3,7 @@
   "headword": "{弱酸性|じゃくさんせい}",
   "reading": "じゃくさんせい",
   "romaji": "jakusansei",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "mildly acidic; weakly acidic",
   "definitions": [
     {
@@ -15,41 +15,63 @@
   "examples": [
     {
       "id": "28911_jakusansei_ex1",
-      "japanese": "{弱酸性|じゃくさんせい}のシャンプー。",
+      "japanese": "{弱酸性|じゃくさんせい}⟦の→の：09472_no⟧⟦シャンプー→シャンプー：04507_shanpuu⟧。",
       "english": "Mildly acidic shampoo.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28911_jakusansei_ex2",
-      "japanese": "{肌|はだ}にやさしい{弱酸性|じゃくさんせい}{洗顔料|せんがんりょう}を{使|つか}っている。",
+      "japanese": "⟦{肌|はだ}→肌：02243_hada⟧⟦に→に：00314_ni⟧やさしい{弱酸性|じゃくさんせい}⟦{洗顔料|せんがんりょう}→洗顔料：19050_senganryou⟧⟦を→を：00422_wo⟧⟦{使|つか}っている→使う：00473_tsukau⟧。",
       "english": "I use a mildly acidic facial cleanser that's gentle on the skin.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28911_jakusansei_ex3",
-      "japanese": "{健康|けんこう}な{肌|はだ}は{弱酸性|じゃくさんせい}で、{雑菌|ざっきん}の{繁殖|はんしょく}を{防|ふせ}いでいる。",
+      "japanese": "⟦{健康|けんこう}→健康：02706_kenkou⟧な⟦{肌|はだ}→肌：02243_hada⟧⟦は→は：00079_ha⟧{弱酸性|じゃくさんせい}で、⟦{雑菌|ざっきん}→雑菌：28516_zakkin⟧⟦の→の：09472_no⟧⟦{繁殖|はんしょく}→繁殖：08671_hanshoku⟧⟦を→を：00422_wo⟧⟦{防|ふせ}いでいる→防ぐ：02409_fusegu⟧。",
       "english": "Healthy skin is mildly acidic, which prevents bacteria from multiplying.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Compound of {弱|じゃく} (weak) + {酸性|さんせい} (acidic). Functions as a no-adjective: {弱酸性|じゃくさんせい}の + noun.\n\nCOMMON COLLOCATIONS:\n- {弱酸性|じゃくさんせい}のシャンプー: mildly acidic shampoo\n- {弱酸性|じゃくさんせい}{洗剤|せんざい}: mildly acidic detergent\n- {弱酸性|じゃくさんせい}{化粧水|けしょうすい}: mildly acidic toner\n- {肌|はだ}と{同|おな}じ{弱酸性|じゃくさんせい}: mildly acidic like the skin\n\nSIMILAR WORDS:\n- {強酸性|きょうさんせい}: strongly acidic\n- {弱|じゃく}アルカリ{性|せい}: mildly alkaline\n- {中性|ちゅうせい}: neutral",
+  "notes": "Compound of {弱|じゃく} (weak) + ⟦{酸性|さんせい}→酸性：00454_sansei⟧ (acidic). Functions as a no-adjective: {弱酸性|じゃくさんせい}⟦の→の：09472_no⟧ + noun.\n\nCOMMON COLLOCATIONS:\n- {弱酸性|じゃくさんせい}⟦の→の：09472_no⟧⟦シャンプー→シャンプー：04507_shanpuu⟧: mildly acidic shampoo\n- {弱酸性|じゃくさんせい}⟦{洗剤|せんざい}→洗剤：03304_senzai⟧: mildly acidic detergent\n- {弱酸性|じゃくさんせい}⟦{化粧水|けしょうすい}→化粧水：15802_keshousui⟧: mildly acidic toner\n- ⟦{肌|はだ}→肌：02243_hada⟧⟦と→と：00512_to⟧⟦{同|おな}じ→同じ：02857_onaji⟧{弱酸性|じゃくさんせい}: mildly acidic like the skin\n\nSIMILAR WORDS:\n- {強酸性|きょうさんせい}: strongly acidic\n- {弱|じゃく}⟦アルカリ→アルカリ：28621_arukari⟧⟦{性|せい}→性：09880_sei⟧: mildly alkaline\n- ⟦{中性|ちゅうせい}→中性：18084_chuusei⟧: neutral",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18084_chuusei",
+      "reading": "ちゅうせい",
+      "headword": "{中性|ちゅうせい}",
+      "label": "neutral"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-no"],
+      "pos": [
+        "noun",
+        "adjective-no"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["science"],
-      "domain": ["technical"]
+      "politeness": "plain",
+      "semantic": [
+        "science"
+      ],
+      "domain": [
+        "technical"
+      ]
     },
     "created": "2026-06-07T03:04:58Z",
-    "modified": "2026-06-07T03:04:58Z"
+    "modified": "2026-09-02T04:02:35Z"
   }
 }

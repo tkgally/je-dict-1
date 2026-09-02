@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "16157_anpi_ex1",
-      "japanese": "{家族|かぞく}の{安否|あんぴ}を{確認|かくにん}した。",
+      "japanese": "⟦{家族|かぞく}→家族：00552_kazoku⟧⟦の→の：09472_no⟧{安否|あんぴ}⟦を→を：00422_wo⟧⟦{確認|かくにん}した→確認する：25332_kakuninsuru⟧。",
       "english": "I confirmed my family's safety.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16157_anpi_ex2",
-      "japanese": "{地震|じしん}の{後|あと}、{安否|あんぴ}{確認|かくにん}のメールが{届|とど}いた。",
+      "japanese": "⟦{地震|じしん}→地震：01608_jishin⟧⟦の→の：09472_no⟧⟦{後|あと}→後：09580_ato⟧、{安否|あんぴ}⟦{確認|かくにん}→確認：00158_kakunin⟧⟦の→の：09472_no⟧⟦メール→メール：04435_meeru⟧⟦が→が：00051_ga⟧⟦{届|とど}いた→届く：00899_todoku⟧。",
       "english": "After the earthquake, I received a safety confirmation email.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16157_anpi_ex3",
-      "japanese": "{被災地|ひさいち}では、まだ{安否|あんぴ}{不明|ふめい}の{住民|じゅうみん}が{多数|たすう}いる。",
+      "japanese": "⟦{被災地|ひさいち}→被災地：27434_hisaichi⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧、⟦まだ→まだ：00603_mada⟧{安否|あんぴ}{不明|ふめい}⟦の→の：09472_no⟧⟦{住民|じゅうみん}→住民：03281_juumin⟧⟦が→が：00051_ga⟧⟦{多数|たすう}→多数：05612_tasuu⟧⟦いる→いる：00495_iru⟧。",
       "english": "In the disaster area, there are still many residents whose safety is unknown.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nIn earthquake-prone Japan, {安否|あんぴ}{確認|かくにん} (safety confirmation) is a familiar phrase. After major disasters, companies, schools, and organizations use {安否|あんぴ}{確認|かくにん} systems to check on employees, students, and members. Phone carriers also provide {災害用|さいがいよう}{伝言|でんごん}ダイヤル (disaster message dial) services for {安否|あんぴ} reporting.\n\nCOMMON COLLOCATIONS:\n- {安否|あんぴ}{確認|かくにん} (safety confirmation/check)\n- {安否|あんぴ}{不明|ふめい} (whereabouts/safety unknown)\n- {安否|あんぴ}を{気遣|きづか}う (to worry about someone's safety)\n- {安否|あんぴ}{情報|じょうほう} (safety information)\n- {安否|あんぴ}を{尋|たず}ねる (to inquire about someone's safety)",
+  "notes": "USAGE:\nIn earthquake-prone Japan, {安否|あんぴ}⟦{確認|かくにん}→確認：00158_kakunin⟧ (safety confirmation) is a familiar phrase. After major disasters, companies, schools, and organizations use {安否|あんぴ}⟦{確認|かくにん}→確認：00158_kakunin⟧ systems to check on employees, students, and members. Phone carriers also provide {災害用|さいがいよう}⟦{伝言|でんごん}→伝言：03448_dengon⟧⟦ダイヤル→ダイヤル：28313_daiyaru⟧ (disaster message dial) services for {安否|あんぴ} reporting.\n\nCOMMON COLLOCATIONS:\n- {安否|あんぴ}⟦{確認|かくにん}→確認：00158_kakunin⟧ (safety confirmation/check)\n- {安否|あんぴ}{不明|ふめい} (whereabouts/safety unknown)\n- {安否|あんぴ}⟦を→を：00422_wo⟧⟦{気遣|きづか}う→気遣う：13268_kizukau⟧ (to worry about someone's safety)\n- {安否|あんぴ}⟦{情報|じょうほう}→情報：03348_jouhou⟧ (safety information)\n- {安否|あんぴ}⟦を→を：00422_wo⟧⟦{尋|たず}ねる→尋ねる：01175_tazuneru⟧ (to inquire about someone's safety)",
   "cross_references": [
     {
       "type": "related",
@@ -53,18 +59,29 @@
       "reading": "ぶじ",
       "headword": "{無事|ぶじ}",
       "label": "safe; unharmed"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19242_shousoku",
+      "reading": "しょうそく",
+      "headword": "{消息|しょうそく}",
+      "label": "whereabouts"
     }
   ],
   "metadata": {
     "created": "2026-03-10T06:10:31Z",
-    "modified": "2026-05-03T06:32:09Z",
+    "modified": "2026-09-02T04:01:43Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

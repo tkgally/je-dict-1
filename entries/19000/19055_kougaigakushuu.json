@@ -15,40 +15,66 @@
   "examples": [
     {
       "id": "19055_kougaigakushuu_ex1",
-      "japanese": "{来週|らいしゅう}{校外学習|こうがいがくしゅう}がある。",
+      "japanese": "⟦{来週|らいしゅう}→来週：00746_raishuu⟧{校外学習|こうがいがくしゅう}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There is a field trip next week.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19055_kougaigakushuu_ex2",
-      "japanese": "{校外学習|こうがいがくしゅう}で{博物館|はくぶつかん}を{見学|けんがく}した。",
+      "japanese": "{校外学習|こうがいがくしゅう}⟦で→で：00502_de⟧⟦{博物館|はくぶつかん}→博物館：01494_hakubutsukan⟧⟦を→を：00422_wo⟧⟦{見学|けんがく}→見学：00214_kengaku⟧⟦した→する：00392_suru⟧。",
       "english": "We visited a museum on our field trip.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19055_kougaigakushuu_ex3",
-      "japanese": "{校外学習|こうがいがくしゅう}の{日|ひ}は{弁当|べんとう}を{持参|じさん}することになっている。",
+      "japanese": "{校外学習|こうがいがくしゅう}⟦の→の：09472_no⟧⟦{日|ひ}→日：02249_hi⟧⟦は→は：00079_ha⟧⟦{弁当|べんとう}→弁当：01014_bentou⟧⟦を→を：00422_wo⟧⟦{持参|じさん}する→持参する：21143_jisansuru⟧ことになっている。",
       "english": "On field trip days, students are supposed to bring their own lunches.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Compound of {校外|こうがい} (off-campus) + {学習|がくしゅう} (learning/study). Japanese schools regularly conduct {校外学習|こうがいがくしゅう} as part of the curriculum. Related terms: {遠足|えんそく} (excursion, usually shorter and more recreational), {修学旅行|しゅうがくりょこう} (school trip, usually multi-day), {社会科見学|しゃかいかけんがく} (social studies field trip). Common collocation: {校外学習|こうがいがくしゅう}に{行|い}く (to go on a field trip).",
+  "notes": "Compound of ⟦{校外|こうがい}→校外：24139_kougai⟧ (off-campus) + ⟦{学習|がくしゅう}→学習：02623_gakushuu⟧ (learning/study). Japanese schools regularly conduct {校外学習|こうがいがくしゅう} as part of the curriculum. Related terms: ⟦{遠足|えんそく}→遠足：04107_ensoku⟧ (excursion, usually shorter and more recreational), ⟦{修学旅行|しゅうがくりょこう}→修学旅行：05590_shuugakuryokou⟧ (school trip, usually multi-day), {社会科見学|しゃかいかけんがく} (social studies field trip). Common collocation: {校外学習|こうがいがくしゅう}⟦に→に：00314_ni⟧⟦{行|い}く→行く：00119_iku⟧ (to go on a field trip).",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23854_taikengakushuu",
+      "reading": "たいけんがくしゅう",
+      "headword": "{体験学習|たいけんがくしゅう}",
+      "label": "experiential learning"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27672_kagaijugyou",
+      "reading": "かがいじゅぎょう",
+      "headword": "{課外授業|かがいじゅぎょう}",
+      "label": "extracurricular lesson"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["education"]
+      "semantic": [
+        "education"
+      ]
     },
     "created": "2026-03-24T04:42:37Z",
-    "modified": "2026-03-24T04:42:37Z"
+    "modified": "2026-09-02T04:01:54Z"
   }
 }

@@ -3,7 +3,7 @@
   "id": "14240_yuuhatsu",
   "headword": "{誘発|ゆうはつ}",
   "reading": "ゆうはつ",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "inducement; triggering",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "14240_yuuhatsu_ex1",
-      "japanese": "ストレスが{病気|びょうき}を{誘発|ゆうはつ}する。",
+      "japanese": "⟦ストレス→ストレス：03827_sutoresu⟧⟦が→が：00051_ga⟧⟦{病気|びょうき}→病気：00771_byouki⟧⟦を→を：00422_wo⟧{誘発|ゆうはつ}⟦する→する：00392_suru⟧。",
       "english": "Stress triggers illness.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "14240_yuuhatsu_ex2",
-      "japanese": "{大雨|おおあめ}が{土砂崩|どしゃくず}れを{誘発|ゆうはつ}した。",
+      "japanese": "⟦{大雨|おおあめ}→大雨：03015_ooame⟧⟦が→が：00051_ga⟧⟦{土砂崩|どしゃくず}れ→土砂崩れ：09257_doshakuzure⟧⟦を→を：00422_wo⟧{誘発|ゆうはつ}⟦した→する：00392_suru⟧。",
       "english": "Heavy rain triggered a landslide.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "14240_yuuhatsu_ex3",
-      "japanese": "この{薬|くすり}はアレルギー{反応|はんのう}を{誘発|ゆうはつ}する{可能性|かのうせい}があるので、{注意|ちゅうい}が{必要|ひつよう}です。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{薬|くすり}→薬：00793_kusuri⟧⟦は→は：00079_ha⟧⟦アレルギー→アレルギー：04645_arerugii⟧⟦{反応|はんのう}→反応：04812_hannou⟧⟦を→を：00422_wo⟧{誘発|ゆうはつ}⟦する→する：00392_suru⟧⟦{可能性|かのうせい}→可能性：04818_kanousei⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧⟦の→の：09472_no⟧で、⟦{注意|ちゅうい}→注意：01464_chuui⟧⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧です。",
       "english": "This medicine may trigger an allergic reaction, so caution is needed.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "{誘発|ゆうはつ} means to induce or trigger something, typically something undesirable such as a disease, disaster, or negative reaction. It implies an indirect causal relationship.\n\nCOMMON COLLOCATIONS:\n- {病気|びょうき}を{誘発|ゆうはつ}する (trigger an illness)\n- {事故|じこ}を{誘発|ゆうはつ}する (cause an accident)\n- アレルギーを{誘発|ゆうはつ}する (trigger an allergy)\n\nSIMILAR WORDS:\n- {誘発|ゆうはつ} vs {引|ひ}き{起|お}こす: {誘発|ゆうはつ} is more formal and implies an indirect cause, while {引|ひ}き{起|お}こす is more general and can describe direct causation.",
+  "notes": "{誘発|ゆうはつ} means to induce or trigger something, typically something undesirable such as a disease, disaster, or negative reaction. It implies an indirect causal relationship.\n\nCOMMON COLLOCATIONS:\n- ⟦{病気|びょうき}→病気：00771_byouki⟧⟦を→を：00422_wo⟧{誘発|ゆうはつ}⟦する→する：00392_suru⟧ (trigger an illness)\n- ⟦{事故|じこ}→事故：00851_jiko⟧⟦を→を：00422_wo⟧{誘発|ゆうはつ}⟦する→する：00392_suru⟧ (cause an accident)\n- ⟦アレルギー→アレルギー：04645_arerugii⟧⟦を→を：00422_wo⟧{誘発|ゆうはつ}⟦する→する：00392_suru⟧ (trigger an allergy)\n\nSIMILAR WORDS:\n- {誘発|ゆうはつ} vs ⟦{引|ひ}き{起|お}こす→引き起こす：06165_hikiokosu⟧: {誘発|ゆうはつ} is more formal and implies an indirect cause, while ⟦{引|ひ}き{起|お}こす→引き起こす：06165_hikiokosu⟧ is more general and can describe direct causation.",
   "cross_references": [
     {
       "type": "related",
@@ -146,7 +146,7 @@
   ],
   "metadata": {
     "created": "2026-02-28T07:52:15Z",
-    "modified": "2026-04-30T06:34:37Z",
+    "modified": "2026-09-02T04:01:36Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -159,7 +159,8 @@
       "semantic": [
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

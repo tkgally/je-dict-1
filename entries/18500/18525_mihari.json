@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "18525_mihari_ex1",
-      "japanese": "{見張|みは}りを{立|た}てる。",
+      "japanese": "{見張|みは}り⟦を→を：00422_wo⟧⟦{立|た}てる→立てる：01196_tateru⟧。",
       "english": "To post a guard.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "18525_mihari_ex2",
-      "japanese": "{子|こ}どもたちが{遊|あそ}ぶ{間|あいだ}、{見張|みは}り{役|やく}をしていた。",
+      "japanese": "{子|こ}どもたち⟦が→が：00051_ga⟧⟦{遊|あそ}ぶ→遊ぶ：00550_asobu⟧⟦{間|あいだ}→間：00914_aida⟧、{見張|みは}り⟦{役|やく}→役：12557_yaku⟧⟦を→を：00422_wo⟧⟦していた→する：00392_suru⟧。",
       "english": "I was on lookout duty while the children played.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "18525_mihari_ex3",
-      "japanese": "{倉庫|そうこ}の{前|まえ}に{見張|みは}りが{二人|ふたり}{配置|はいち}されていた。",
+      "japanese": "⟦{倉庫|そうこ}→倉庫：04044_souko⟧⟦の→の：09472_no⟧⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧{見張|みは}り⟦が→が：00051_ga⟧⟦{二人|ふたり}→二人：00622_futari⟧⟦{配置|はいち}→配置：14409_haichi⟧⟦されていた→する：00392_suru⟧。",
       "english": "Two guards were stationed in front of the warehouse.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Derived from the verb {見張|みは}る (to keep watch). Can refer to either the act of watching or the person doing the watching.\n\nCOMMON COLLOCATIONS:\n- {見張|みは}りを{立|た}てる: to post a lookout\n- {見張|みは}り{役|やく}: the role of lookout, the person on watch\n- {見張|みは}り{台|だい}: watchtower, observation platform\n- {見張|みは}り{番|ばん}: sentry, watchman\n- {見張|みは}りをする: to keep watch\n\nUSAGE:\nAppears in both serious contexts (military, security, crime stories) and everyday situations (watching children, keeping an eye on something cooking). In casual use, it often implies monitoring informally rather than formal guard duty.\n\nSIMILAR WORDS:\n- {監視|かんし}: surveillance, monitoring (formal, systematic)\n- {警備|けいび}: security, guard duty (professional)\n- {番人|ばんにん}: guard, watchman (person)",
+  "notes": "Derived from the verb ⟦{見張|みは}る→見張る：18224_miharu⟧ (to keep watch). Can refer to either the act of watching or the person doing the watching.\n\nCOMMON COLLOCATIONS:\n- {見張|みは}り⟦を→を：00422_wo⟧⟦{立|た}てる→立てる：01196_tateru⟧: to post a lookout\n- {見張|みは}り⟦{役|やく}→役：12557_yaku⟧: the role of lookout, the person on watch\n- {見張|みは}り{台|だい}: watchtower, observation platform\n- {見張|みは}り⟦{番|ばん}→番：09873_ban⟧: sentry, watchman\n- {見張|みは}り⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧: to keep watch\n\nUSAGE:\nAppears in both serious contexts (military, security, crime stories) and everyday situations (watching children, keeping an eye on something cooking). In casual use, it often implies monitoring informally rather than formal guard duty.\n\nSIMILAR WORDS:\n- ⟦{監視|かんし}→監視：05521_kanshi⟧: surveillance, monitoring (formal, systematic)\n- ⟦{警備|けいび}→警備：00208_keibi⟧: security, guard duty (professional)\n- {番人|ばんにん}: guard, watchman (person)",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -59,7 +59,7 @@
       ]
     },
     "created": "2026-03-22T04:41:52Z",
-    "modified": "2026-05-08T10:08:08Z"
+    "modified": "2026-09-02T04:01:52Z"
   },
   "cross_references": [
     {
@@ -68,6 +68,20 @@
       "reading": "かんし",
       "headword": "{監視|かんし}",
       "label": "surveillance (formal)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00208_keibi",
+      "reading": "けいび",
+      "headword": "{警備|けいび}",
+      "label": "security, guard duty"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29857_banpei",
+      "reading": "ばんぺい",
+      "headword": "番兵",
+      "label": "sentry"
     }
   ]
 }

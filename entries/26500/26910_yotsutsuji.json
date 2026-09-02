@@ -15,42 +15,67 @@
   "examples": [
     {
       "id": "26910_yotsutsuji_ex1",
-      "japanese": "{四|よ}つ{辻|つじ}を{右|みぎ}に{曲|ま}がる。",
+      "japanese": "{四|よ}つ{辻|つじ}⟦を→を：00422_wo⟧⟦{右|みぎ}→右：02257_migi⟧⟦に→に：00314_ni⟧⟦{曲|ま}がる→曲がる：00649_magaru⟧。",
       "english": "Turn right at the crossroads.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26910_yotsutsuji_ex2",
-      "japanese": "{古|ふる}い{町並|まちな}みに{四|よ}つ{辻|つじ}がいくつもある。",
+      "japanese": "⟦{古|ふる}い→古い：00488_furui⟧⟦{町並|まちな}み→町並み：10435_machinami⟧⟦に→に：00314_ni⟧{四|よ}つ{辻|つじ}⟦が→が：00051_ga⟧いくつ⟦も→も：00484_mo⟧⟦ある→ある：00006_aru⟧。",
       "english": "There are many crossroads in the old townscape.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26910_yotsutsuji_ex3",
-      "japanese": "この{四|よ}つ{辻|つじ}は{昔|むかし}から{人|ひと}や{物|もの}が{行|い}き{交|か}う{賑|にぎ}やかな{場所|ばしょ}だった。",
+      "japanese": "⟦この→この：00962_kono⟧{四|よ}つ{辻|つじ}⟦は→は：00079_ha⟧⟦{昔|むかし}→昔：01515_mukashi⟧⟦から→から：00504_kara⟧⟦{人|ひと}→人：00476_hito⟧や⟦{物|もの}→物：02259_mono⟧⟦が→が：00051_ga⟧⟦{行|い}き{交|か}う→行き交う：14004_ikikau⟧{賑|にぎ}やかな⟦{場所|ばしょ}→場所：00829_basho⟧だった。",
       "english": "This crossroads has been a lively place where people and goods have come and gone since long ago.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {四|よ}つ (four) and {辻|つじ} (intersection, street corner). {辻|つじ} is a kanji unique to Japanese ({国字|こくじ}) that specifically means a road crossing.\n\nCOMMON COLLOCATIONS:\n- {四|よ}つ{辻|つじ}に{立|た}つ: to stand at a crossroads\n- {四|よ}つ{辻|つじ}を{渡|わた}る: to cross the intersection\n\nSIMILAR WORDS:\n- {交差点|こうさてん}: intersection — the standard modern term for any traffic intersection\n- {十字路|じゅうじろ}: crossroads — literally \"cross-shaped road\"; somewhat formal\n- {辻|つじ}: street corner, intersection — the base word; often appears in place names\n- {三叉路|さんさろ}: T-junction, three-way fork\n\nCULTURAL NOTE:\n{辻|つじ} and {四|よ}つ{辻|つじ} carry cultural significance in Japanese folklore. Crossroads were traditionally considered liminal spaces where the human and spirit worlds met. Many folk rituals ({辻占|つじうら} — divination at crossroads) took place at {四|よ}つ{辻|つじ}.",
-  "cross_references": [],
+  "notes": "A compound of {四|よ}つ (four) and {辻|つじ} (intersection, street corner). {辻|つじ} is a kanji unique to Japanese (⟦{国字|こくじ}→国字：28106_kokuji⟧) that specifically means a road crossing.\n\nCOMMON COLLOCATIONS:\n- {四|よ}つ{辻|つじ}⟦に→に：00314_ni⟧⟦{立|た}つ→立つ：00758_tatsu⟧: to stand at a crossroads\n- {四|よ}つ{辻|つじ}⟦を→を：00422_wo⟧⟦{渡|わた}る→渡る：02441_wataru⟧: to cross the intersection\n\nSIMILAR WORDS:\n- ⟦{交差点|こうさてん}→交差点：01404_kousaten⟧: intersection — the standard modern term for any traffic intersection\n- ⟦{十字路|じゅうじろ}→十字路：09387_juujiro⟧: crossroads — literally \"cross-shaped road\"; somewhat formal\n- {辻|つじ}: street corner, intersection — the base word; often appears in place names\n- {三叉路|さんさろ}: T-junction, three-way fork\n\nCULTURAL NOTE:\n{辻|つじ} and {四|よ}つ{辻|つじ} carry cultural significance in Japanese folklore. Crossroads were traditionally considered liminal spaces where the human and spirit worlds met. Many folk rituals ({辻占|つじうら} — divination at crossroads) took place at {四|よ}つ{辻|つじ}.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01404_kousaten",
+      "reading": "こうさてん",
+      "headword": "{交差点|こうさてん}",
+      "label": "intersection"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09387_juujiro",
+      "reading": "じゅうじろ",
+      "headword": "{十字路|じゅうじろ}",
+      "label": "crossroads"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["geography"],
+      "semantic": [
+        "geography"
+      ],
       "domain": []
     },
     "created": "2026-05-05T15:14:41Z",
-    "modified": "2026-05-05T15:14:41Z"
+    "modified": "2026-09-02T04:02:28Z"
   }
 }

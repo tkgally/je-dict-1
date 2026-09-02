@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "08071_saibunka_ex1",
-      "japanese": "{業務|ぎょうむ}の{細分化|さいぶんか}が{進|すす}んでいる。",
+      "japanese": "⟦{業務|ぎょうむ}→業務：09630_gyoumu⟧⟦の→の：09472_no⟧{細分化|さいぶんか}⟦が→が：00051_ga⟧⟦{進|すす}んでいる→進む：01225_susumu⟧。",
       "english": "The subdivision of work tasks is progressing.",
       "sense_numbers": [
         1
@@ -114,7 +114,7 @@
     },
     {
       "id": "08071_saibunka_ex2",
-      "japanese": "{市場|しじょう}の{細分化|さいぶんか}によってニーズが{多様化|たようか}した。",
+      "japanese": "⟦{市場|しじょう}→市場：09685_shijou⟧⟦の→の：09472_no⟧{細分化|さいぶんか}⟦によって→によって：06801_niyotte⟧⟦ニーズ→ニーズ：11244_niizu⟧⟦が→が：00051_ga⟧⟦{多様化|たようか}した→多様化する：25552_tayoukasuru⟧。",
       "english": "Market fragmentation has diversified consumer needs.",
       "sense_numbers": [
         1
@@ -124,7 +124,7 @@
     },
     {
       "id": "08071_saibunka_ex3",
-      "japanese": "タスクを{細分化|さいぶんか}することで{管理|かんり}しやすくなる。",
+      "japanese": "⟦タスク→タスク：06765_tasuku⟧⟦を→を：00422_wo⟧{細分化|さいぶんか}⟦する→する：00392_suru⟧こと⟦で→で：00502_de⟧⟦{管理|かんり}→管理：00178_kanri⟧しやすく⟦なる→なる：01970_naru⟧。",
       "english": "Breaking tasks into smaller parts makes them easier to manage.",
       "sense_numbers": [
         1
@@ -133,7 +133,16 @@
       "notes": null
     }
   ],
-  "notes": "{細分化|さいぶんか} refers to dividing something into smaller, more detailed parts or categories.\n\nUSAGE:\nUsed with する to form a verb: {細分化|さいぶんか}する (to subdivide).\n\nCOMMON PATTERNS:\n- {業務|ぎょうむ}の{細分化|さいぶんか}: subdivision of tasks\n- {市場|しじょう}の{細分化|さいぶんか}: market segmentation\n- タスクを{細分化|さいぶんか}する: to break tasks into smaller parts\n\nCONTEXTS:\n- Business: task/role subdivision\n- Marketing: market segmentation\n- Agriculture: land subdivision\n\nRELATED:\n- {分割|ぶんかつ}: division, splitting",
+  "notes": "{細分化|さいぶんか} refers to dividing something into smaller, more detailed parts or categories.\n\nUSAGE:\nUsed with ⟦する→する：00392_suru⟧ to form a verb: {細分化|さいぶんか}⟦する→する：00392_suru⟧ (to subdivide).\n- Business: task/role subdivision\n- Marketing: market segmentation\n- Agriculture: land subdivision\n\nCOMMON PATTERNS:\n- ⟦{業務|ぎょうむ}→業務：09630_gyoumu⟧⟦の→の：09472_no⟧{細分化|さいぶんか}: subdivision of tasks\n- ⟦{市場|しじょう}→市場：09685_shijou⟧⟦の→の：09472_no⟧{細分化|さいぶんか}: market segmentation\n- ⟦タスク→タスク：06765_tasuku⟧⟦を→を：00422_wo⟧{細分化|さいぶんか}⟦する→する：00392_suru⟧: to break tasks into smaller parts\n\nRELATED WORDS:\n- ⟦{分割|ぶんかつ}→分割：11745_bunkatsu⟧: division, splitting",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "11745_bunkatsu",
+      "reading": "ぶんかつ",
+      "headword": "{分割|ぶんかつ}",
+      "label": "division, splitting"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -142,6 +151,7 @@
         "verb-suru"
       ],
       "formality": "formal",
+      "politeness": "plain",
       "semantic": [
         "business",
         "organization",
@@ -150,6 +160,6 @@
       "verb_class": "suru"
     },
     "created": "2026-01-25T01:23:13Z",
-    "modified": "2026-02-19T12:32:33Z"
+    "modified": "2026-09-02T04:01:13Z"
   }
 }

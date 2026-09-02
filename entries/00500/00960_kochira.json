@@ -54,7 +54,7 @@
     },
     {
       "id": "00960_kochira_ex4",
-      "japanese": "こちら⟦は→は：00079_ha⟧⟦{お手洗|おてあら}い→お手洗い：02861_otearai⟧ではありません。⟦あちら→あちら：00913_achira⟧⟦です→です：09485_desu⟧。",
+      "japanese": "こちら⟦は→は：00079_ha⟧⟦お{手洗|てあら}い→お手洗い：02861_otearai⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦ありません→ある：00006_aru⟧。⟦あちら→あちら：00913_achira⟧⟦です→です：09485_desu⟧。",
       "english": "This isn't the restroom. It's over there.",
       "notes": null,
       "has_audio": false,
@@ -74,7 +74,7 @@
     },
     {
       "id": "00960_kochira_ex6",
-      "japanese": "こちら⟦は→は：00079_ha⟧{田中|たなか}⟦さん→〜さん：09848_san⟧⟦です→です：09485_desu⟧。",
+      "japanese": "こちら⟦は→は：00079_ha⟧⟦{田中|たなか}→田中：09528_tanaka⟧⟦さん→〜さん：09848_san⟧⟦です→です：09485_desu⟧。",
       "english": "This is Mr./Ms. Tanaka.",
       "notes": "Polite introduction",
       "has_audio": false,
@@ -94,7 +94,7 @@
     },
     {
       "id": "00960_kochira_ex8",
-      "japanese": "こちら⟦は→は：00079_ha⟧⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦の→の：09472_no⟧{山田|やまだ}⟦さん→〜さん：09848_san⟧⟦です→です：09485_desu⟧。",
+      "japanese": "こちら⟦は→は：00079_ha⟧⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦の→の：09472_no⟧⟦{山田|やまだ}→山田：09529_yamada⟧⟦さん→〜さん：09848_san⟧⟦です→です：09485_desu⟧。",
       "english": "This is Mr./Ms. Yamada from my company.",
       "notes": null,
       "has_audio": false,
@@ -173,7 +173,7 @@
       ]
     }
   ],
-  "notes": "The polite equivalent of ⟦ここ→ここ：00961_koko⟧/⟦こっち→こっち：02903_kocchi⟧. Part of the ko-so-a-do demonstrative system. Used in three main ways: direction/location, introductions, and self-reference.\n\nTHREE MAIN USES:\n1. Direction/location: こちら⟦へ→へ：02473_he⟧⟦どうぞ→どうぞ：02920_douzo⟧ (This way, please) — very common in shops and restaurants\n2. Introductions: こちら⟦は→は：00079_ha⟧{田中|たなか}⟦さん→〜さん：09848_san⟧⟦です→です：09485_desu⟧ (This is Mr. Tanaka) — the polite way to introduce someone\n3. Self-reference: こちら⟦から→から：00504_kara⟧⟦{連絡|れんらく}→連絡：01524_renraku⟧⟦します→する：00392_suru⟧ (We will contact you) — humble way to say \"I/we\"\n\nKEY EXPRESSION:\nこちら⟦こそ→こそ：12731_koso⟧ — used to return a greeting, thanks, or apology. Means \"I should be the one (thanking you / apologizing).\" Very common in daily polite exchanges.\n\nKO-SO-A-DO SET:\n- こちら: here, this way (near speaker)\n- ⟦そちら→そちら：00990_sochira⟧: there, that way (near listener)\n- ⟦あちら→あちら：00913_achira⟧: over there (far from both)\n- ⟦どちら→どちら：00927_dochira⟧: which way, where (question)",
+  "notes": "The polite equivalent of ⟦ここ→ここ：00961_koko⟧/⟦こっち→こっち：02903_kocchi⟧. Part of the ko-so-a-do demonstrative system. Used in three main ways: direction/location, introductions, and self-reference.\n\nFUNCTIONS:\n1. Direction/location: こちら⟦へ→へ：02473_he⟧⟦どうぞ→どうぞ：02920_douzo⟧ (This way, please) — very common in shops and restaurants\n2. Introductions: こちら⟦は→は：00079_ha⟧⟦{田中|たなか}→田中：09528_tanaka⟧⟦さん→〜さん：09848_san⟧⟦です→です：09485_desu⟧ (This is Mr. Tanaka) — the polite way to introduce someone\n3. Self-reference: こちら⟦から→から：00504_kara⟧⟦{連絡|れんらく}→連絡：01524_renraku⟧⟦します→する：00392_suru⟧ (We will contact you) — humble way to say \"I/we\"\n\nKEY EXPRESSION:\nこちら⟦こそ→こそ：12731_koso⟧ — used to return a greeting, thanks, or apology. Means \"I should be the one (thanking you / apologizing).\" Very common in daily polite exchanges.\n\nKO-SO-A-DO SET:\n- こちら: here, this way (near speaker)\n- ⟦そちら→そちら：00990_sochira⟧: there, that way (near listener)\n- ⟦あちら→あちら：00913_achira⟧: over there (far from both)\n- ⟦どちら→どちら：00927_dochira⟧: which way, where (question)",
   "cross_references": [
     {
       "type": "keigo",
@@ -209,11 +209,18 @@
       "reading": "こっち",
       "headword": "こっち",
       "label": "casual equivalent"
+    },
+    {
+      "type": "related",
+      "target_id": "00971_mukou",
+      "reading": "むこう",
+      "headword": "{向|む}こう",
+      "label": "over there, opposite side"
     }
   ],
   "metadata": {
     "created": "2026-01-07T12:20:20Z",
-    "modified": "2026-08-01T18:29:53Z",
+    "modified": "2026-09-02T04:00:58Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "basic",
     "tags": {

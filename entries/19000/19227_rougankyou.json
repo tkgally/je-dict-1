@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "19227_rougankyou_ex1",
-      "japanese": "{老眼鏡|ろうがんきょう}をかける。",
+      "japanese": "{老眼鏡|ろうがんきょう}⟦を→を：00422_wo⟧⟦かける→かける：00854_kakeru⟧。",
       "english": "To put on reading glasses.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "19227_rougankyou_ex2",
-      "japanese": "{最近|さいきん}、{老眼鏡|ろうがんきょう}がないと{新聞|しんぶん}が{読|よ}めない。",
+      "japanese": "⟦{最近|さいきん}→最近：00881_saikin⟧、{老眼鏡|ろうがんきょう}⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧⟦と→と：00512_to⟧⟦{新聞|しんぶん}→新聞：01440_shinbun⟧⟦が→が：00051_ga⟧⟦{読|よ}めない→読む：00426_yomu⟧。",
       "english": "Lately I can't read the newspaper without reading glasses.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "19227_rougankyou_ex3",
-      "japanese": "{父|ちち}は{四十代|よんじゅうだい}で{老眼鏡|ろうがんきょう}を{使|つか}い{始|はじ}めた。",
+      "japanese": "⟦{父|ちち}→父：00566_chichi⟧⟦は→は：00079_ha⟧⟦{四十代|よんじゅうだい}→四十代：24046_yonjuudai⟧⟦で→で：00502_de⟧{老眼鏡|ろうがんきょう}⟦を→を：00422_wo⟧⟦{使|つか}い→使う：00473_tsukau⟧⟦{始|はじ}めた→始める：00531_hajimeru⟧。",
       "english": "My father started using reading glasses in his forties.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Glasses specifically designed to correct {老眼|ろうがん} (presbyopia), the age-related difficulty in focusing on nearby objects.\n\nETYMOLOGY:\nComposed of {老眼|ろうがん} (presbyopia) + {鏡|きょう} (lens/glasses).\n\nCOMMON PATTERNS:\n- {老眼鏡|ろうがんきょう}をかける: to put on reading glasses\n- {老眼鏡|ろうがんきょう}を{外|はず}す: to take off reading glasses\n- {老眼鏡|ろうがんきょう}が{必要|ひつよう}になる: to start needing reading glasses\n\nALTERNATIVE EXPRESSIONS:\nSome people avoid {老眼鏡|ろうがんきょう} because the character {老|ろう} (old) feels blunt. Softer alternatives include:\n- リーディンググラス: \"reading glasses\" (loanword)\n- {手元用|てもとよう}メガネ: glasses for close-up use\n\nRELATED TERMS:\n- メガネ / {眼鏡|めがね}: glasses (general)\n- {遠近両用|えんきんりょうよう}メガネ: bifocal/progressive glasses",
+  "notes": "Glasses specifically designed to correct ⟦{老眼|ろうがん}→老眼：06369_rougan⟧ (presbyopia), the age-related difficulty in focusing on nearby objects.\n\nETYMOLOGY:\nComposed of ⟦{老眼|ろうがん}→老眼：06369_rougan⟧ (presbyopia) + {鏡|きょう} (lens/glasses).\n\nCOMMON PATTERNS:\n- {老眼鏡|ろうがんきょう}⟦を→を：00422_wo⟧⟦かける→かける：00854_kakeru⟧: to put on reading glasses\n- {老眼鏡|ろうがんきょう}⟦を→を：00422_wo⟧⟦{外|はず}す→外す：02394_hazusu⟧: to take off reading glasses\n- {老眼鏡|ろうがんきょう}⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧: to start needing reading glasses\n\nALTERNATIVE EXPRESSIONS:\nSome people avoid {老眼鏡|ろうがんきょう} because the character {老|ろう} (old) feels blunt. Softer alternatives include:\n- リーディング⟦グラス→グラス：00076_gurasu⟧: \"reading glasses\" (loanword)\n- {手元用|てもとよう}メガネ: glasses for close-up use\n\nRELATED WORDS:\n- メガネ / ⟦{眼鏡|めがね}→眼鏡：00651_megane⟧: glasses (general)\n- ⟦{遠近両用|えんきんりょうよう}→遠近両用：30036_enkinryouyou⟧メガネ: bifocal/progressive glasses",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -60,7 +60,7 @@
       ]
     },
     "created": "2026-03-25T01:36:21Z",
-    "modified": "2026-08-05T12:27:45Z"
+    "modified": "2026-09-02T04:01:55Z"
   },
   "cross_references": [
     {
@@ -69,6 +69,13 @@
       "reading": "めがね",
       "headword": "{眼鏡|めがね}",
       "label": "glasses"
+    },
+    {
+      "type": "related",
+      "target_id": "19709_datemegane",
+      "reading": "だてめがね",
+      "headword": "{伊達眼鏡|だてめがね}",
+      "label": "non-prescription glasses"
     }
   ]
 }

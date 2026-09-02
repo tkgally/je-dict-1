@@ -3,7 +3,7 @@
   "headword": "{遵守|じゅんしゅ}する",
   "reading": "じゅんしゅする",
   "romaji": "junshusuru",
-  "part_of_speech": "noun, suru verb, transitive",
+  "part_of_speech": "noun, suru verb (transitive)",
   "gloss": "to comply with; to observe; to abide by",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "20157_junshusuru_ex1",
-      "japanese": "{法律|ほうりつ}を{遵守|じゅんしゅ}する。",
+      "japanese": "⟦{法律|ほうりつ}→法律：01722_houritsu⟧⟦を→を：00422_wo⟧{遵守|じゅんしゅ}する。",
       "english": "To comply with the law.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "20157_junshusuru_ex2",
-      "japanese": "{交通|こうつう}ルールを{遵守|じゅんしゅ}してください。",
+      "japanese": "⟦{交通|こうつう}→交通：01584_koutsuu⟧⟦ルール→ルール：00354_ruuru⟧⟦を→を：00422_wo⟧{遵守|じゅんしゅ}して⟦ください→ください：02899_kudasai⟧。",
       "english": "Please observe the traffic rules.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "20157_junshusuru_ex3",
-      "japanese": "{全|すべ}ての{社員|しゃいん}は{社内|しゃない}{規定|きてい}を{遵守|じゅんしゅ}する{義務|ぎむ}がある。",
+      "japanese": "⟦{全|すべ}て→全て：03822_subete⟧⟦の→の：09472_no⟧⟦{社員|しゃいん}→社員：03065_shain⟧⟦は→は：00079_ha⟧⟦{社内|しゃない}→社内：13731_shanai⟧⟦{規定|きてい}→規定：14136_kitei⟧⟦を→を：00422_wo⟧{遵守|じゅんしゅ}する⟦{義務|ぎむ}→義務：02647_gimu⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "All employees have a duty to comply with company regulations.",
       "sense_numbers": [
         1
@@ -134,8 +134,31 @@
       "notes": null
     }
   ],
-  "notes": "A する-verb from {遵守|じゅんしゅ}, a compound of {遵|じゅん} (follow, obey) and {守|しゅ} (protect, observe). Very formal; a key term in legal compliance, corporate governance, and regulatory contexts. Sometimes read as そんしゅ, though じゅんしゅ is the standard modern reading.\n\nTRANSITIVITY:\nTransitive — takes を to mark the rules being followed.\n\nCOMMON COLLOCATIONS:\n- {法令|ほうれい}{遵守|じゅんしゅ} — legal compliance (コンプライアンス)\n- {規則|きそく}を{遵守|じゅんしゅ}する — to observe rules\n- {遵守|じゅんしゅ}{事項|じこう} — matters to be observed\n- {遵守|じゅんしゅ}{義務|ぎむ} — obligation to comply\n\nSIMILAR WORDS:\n- {守|まも}る — to protect, to observe (rules) (more casual, everyday)\n- {従|したが}う — to follow, to obey (broader, includes following people)\n- コンプライアンス — compliance (loanword, common in business)",
+  "notes": "A ⟦する→する：00392_suru⟧-verb from ⟦{遵守|じゅんしゅ}→遵守：06107_junshu⟧, a compound of {遵|じゅん} (follow, obey) and {守|しゅ} (protect, observe). Very formal; a key term in legal compliance, corporate governance, and regulatory contexts. Sometimes read as そんしゅ, though じゅんしゅ is the standard modern reading.\n\nTRANSITIVITY:\nTransitive — takes ⟦を→を：00422_wo⟧ to mark the rules being followed.\n\nCOMMON COLLOCATIONS:\n- ⟦{法令|ほうれい}{遵守|じゅんしゅ}→法令遵守：20007_houreijunshu⟧ — legal compliance (⟦コンプライアンス→コンプライアンス：06379_konpuraiansu⟧)\n- ⟦{規則|きそく}→規則：01382_kisoku⟧⟦を→を：00422_wo⟧{遵守|じゅんしゅ}する — to observe rules\n- ⟦{遵守|じゅんしゅ}→遵守：06107_junshu⟧⟦{事項|じこう}→事項：11469_jikou⟧ — matters to be observed\n- ⟦{遵守|じゅんしゅ}→遵守：06107_junshu⟧⟦{義務|ぎむ}→義務：02647_gimu⟧ — obligation to comply\n\nSIMILAR WORDS:\n- ⟦{守|まも}る→守る：01986_mamoru⟧ — to protect, to observe (rules) (more casual, everyday)\n- ⟦{従|したが}う→従う：02059_shitagau⟧ — to follow, to obey (broader, includes following people)\n- ⟦コンプライアンス→コンプライアンス：06379_konpuraiansu⟧ — compliance (loanword, common in business)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01986_mamoru",
+      "reading": "まもる",
+      "headword": "{守|まも}る",
+      "label": "to protect, to observe (rules)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02059_shitagau",
+      "reading": "したがう",
+      "headword": "{従|したが}う",
+      "label": "to follow, to obey"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06379_konpuraiansu",
+      "reading": "こんぷらいあんす",
+      "headword": "コンプライアンス",
+      "label": "compliance"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -152,6 +175,6 @@
       "verb_class": "suru"
     },
     "created": "2026-03-28T15:12:49Z",
-    "modified": "2026-03-28T15:12:49Z"
+    "modified": "2026-09-02T04:01:58Z"
   }
 }

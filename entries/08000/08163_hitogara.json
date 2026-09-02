@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08163_hitogara_ex1",
-      "japanese": "{彼|かれ}は{人柄|ひとがら}がいい。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{人柄|ひとがら}⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧。",
       "english": "He has a good personality.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "08163_hitogara_ex2",
-      "japanese": "{人柄|ひとがら}で{選|えら}ばれた。",
+      "japanese": "{人柄|ひとがら}⟦で→で：00502_de⟧⟦{選|えら}ばれた→選ぶ：00835_erabu⟧。",
       "english": "They were chosen for their character.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "08163_hitogara_ex3",
-      "japanese": "{彼女|かのじょ}の{人柄|ひとがら}に{惹|ひ}かれた。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦の→の：09472_no⟧{人柄|ひとがら}⟦に→に：00314_ni⟧⟦{惹|ひ}かれた→惹く：27838_hiku⟧。",
       "english": "I was attracted to her personality.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
     },
     {
       "id": "08163_hitogara_ex4",
-      "japanese": "{人柄|ひとがら}の{良|よ}さは{話|はな}していてすぐ{分|わ}かる。",
+      "japanese": "{人柄|ひとがら}⟦の→の：09472_no⟧{良|よ}さ⟦は→は：00079_ha⟧⟦{話|はな}していて→話す：00467_hanasu⟧⟦すぐ→すぐ：00814_sugu⟧⟦{分|わ}かる→分かる：00463_wakaru⟧。",
       "english": "You can tell right away from talking to someone if they have good character.",
       "sense_numbers": [
         1
@@ -54,7 +54,7 @@
     },
     {
       "id": "08163_hitogara_ex5",
-      "japanese": "{人柄|ひとがら}が{仕事|しごと}ぶりに{表|あらわ}れる。",
+      "japanese": "{人柄|ひとがら}⟦が→が：00051_ga⟧⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦ぶり→〜ぶり：28358_buri⟧⟦に→に：00314_ni⟧⟦{表|あらわ}れる→表れる：14276_arawareru⟧。",
       "english": "One's character shows in their work.",
       "sense_numbers": [
         1
@@ -63,7 +63,7 @@
       "notes": null
     }
   ],
-  "notes": "COMMON PATTERNS:\n- {人柄|ひとがら}がいい (has a good personality)\n- {人柄|ひとがら}が{悪|わる}い (has a bad personality)\n- {人柄|ひとがら}に{惹|ひ}かれる (to be attracted to someone's personality)\n- {人柄|ひとがら}が{分|わ}かる (to understand someone's character)\n\nRELATED WORDS:\n- {性格|せいかく} (personality, character - more psychological)\n- {人格|じんかく} (personality, character - formal)\n- {気質|きしつ} (temperament, disposition)\n- {人となり} ({ひととなり}) (nature, character)\n\nNUANCE:\n{人柄|ひとがら} emphasizes the overall impression of a person's character as perceived by others, while {性格|せいかく} focuses more on psychological traits.",
+  "notes": "COMMON PATTERNS:\n- {人柄|ひとがら}⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧ (has a good personality)\n- {人柄|ひとがら}⟦が→が：00051_ga⟧⟦{悪|わる}い→悪い：00908_warui⟧ (has a bad personality)\n- {人柄|ひとがら}⟦に→に：00314_ni⟧⟦{惹|ひ}かれる→惹く：27838_hiku⟧ (to be attracted to someone's personality)\n- {人柄|ひとがら}⟦が→が：00051_ga⟧⟦{分|わ}かる→分かる：00463_wakaru⟧ (to understand someone's character)\n\nRELATED WORDS:\n- ⟦{性格|せいかく}→性格：03371_seikaku⟧ (personality, character - more psychological)\n- ⟦{人格|じんかく}→人格：11427_jinkaku⟧ (personality, character - formal)\n- ⟦{気質|きしつ}→気質：13256_kishitsu⟧ (temperament, disposition)\n- {人となり} (ひととなり) (nature, character)\n\nUSAGE:\n{人柄|ひとがら} emphasizes the overall impression of a person's character as perceived by others, while ⟦{性格|せいかく}→性格：03371_seikaku⟧ focuses more on psychological traits.",
   "cross_references": [
     {
       "type": "contrast",
@@ -78,6 +78,27 @@
       "reading": "じんかく",
       "headword": "{人格|じんかく}",
       "label": "personality (formal)"
+    },
+    {
+      "type": "related",
+      "target_id": "13256_kishitsu",
+      "reading": "きしつ",
+      "headword": "{気質|きしつ}",
+      "label": "temperament, disposition"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21073_hitoatari",
+      "reading": "ひとあたり",
+      "headword": "{人当|ひとあ}たり",
+      "label": "manner with people"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26017_jinbutsuzou",
+      "reading": "じんぶつぞう",
+      "headword": "{人物像|じんぶつぞう}",
+      "label": "character profile"
     }
   ],
   "metadata": {
@@ -87,12 +108,13 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "personality",
         "person"
       ]
     },
     "created": "2026-01-25T07:33:27Z",
-    "modified": "2026-08-11T21:34:29Z"
+    "modified": "2026-09-02T04:01:14Z"
   }
 }

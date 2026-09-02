@@ -3,7 +3,7 @@
   "headword": "{付|つ}いてくる",
   "reading": "ついてくる",
   "romaji": "tsuitekuru",
-  "part_of_speech": "verb-kuru",
+  "part_of_speech": "verb (kuru)",
   "gloss": "to follow along; to come along; to tag along",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29670_tsuitekuru_ex1",
-      "japanese": "{犬|いぬ}が{後|うし}ろからついてくる。",
+      "japanese": "⟦{犬|いぬ}→犬：00632_inu⟧⟦が→が：00051_ga⟧⟦{後|うし}ろ→後ろ：00683_ushiro⟧⟦から→から：00504_kara⟧ついてくる。",
       "english": "The dog is following along behind me.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29670_tsuitekuru_ex2",
-      "japanese": "{妹|いもうと}はどこにでもついてくる。",
+      "japanese": "⟦{妹|いもうと}→妹：00573_imouto⟧⟦は→は：00079_ha⟧⟦どこ→どこ：00539_doko⟧⟦に→に：00314_ni⟧で⟦も→も：00484_mo⟧ついてくる。",
       "english": "My little sister comes along everywhere.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29670_tsuitekuru_ex3",
-      "japanese": "{道|みち}に{迷|まよ}わないように、しっかりついてきてください。",
+      "japanese": "⟦{道|みち}→道：00505_michi⟧⟦に→に：00314_ni⟧⟦{迷|まよ}わない→迷う：02426_mayou⟧よう⟦に→に：00314_ni⟧、⟦しっかり→しっかり：01272_shikkari⟧ついてきて⟦ください→ください：02899_kudasai⟧。",
       "english": "Please follow along closely so you don't get lost.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "The ～てくる pattern on {付|つ}く conveys that the following is directed toward or alongside the speaker. Compare ついていく, where the movement is away from the speaker.\n\nCOMMON COLLOCATIONS:\n- {後|うし}ろからついてくる: to follow along behind\n- しっかりついてくる: to keep close behind\n- どこまでもついてくる: to follow anywhere\n\nSIMILAR WORDS:\n- ついていく: to follow (someone), moving away from the speaker\n- {付|つ}き{添|そ}う: to accompany; to attend to — more formal, implies caring for the person accompanied",
+  "notes": "The ～てくる pattern on ⟦{付|つ}く→付く：01960_tsuku⟧ conveys that the following is directed toward or alongside the speaker. Compare ⟦ついていく→ついていく：10991_tsuiteiku⟧, where the movement is away from the speaker.\n\nCOMMON COLLOCATIONS:\n- ⟦{後|うし}ろ→後ろ：00683_ushiro⟧⟦から→から：00504_kara⟧ついてくる: to follow along behind\n- ⟦しっかり→しっかり：01272_shikkari⟧ついてくる: to keep close behind\n- ⟦どこ→どこ：00539_doko⟧⟦まで→まで：00490_made⟧⟦も→も：00484_mo⟧ついてくる: to follow anywhere\n\nSIMILAR WORDS:\n- ⟦ついていく→ついていく：10991_tsuiteiku⟧: to follow (someone), moving away from the speaker\n- ⟦{付|つ}き{添|そ}う→付き添う：10585_tsukisou⟧: to accompany; to attend to — more formal, implies caring for the person accompanied",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "10991_tsuiteiku",
+      "reading": "ついていく",
+      "headword": "ついていく",
+      "label": "to follow (someone), moving away…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10585_tsukisou",
+      "reading": "つきそう",
+      "headword": "{付|つ}き{添|そ}う",
+      "label": "to accompany"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,15 +69,16 @@
         "verb-kuru"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "movement"
       ],
       "domain": [],
-      "verb_class": "kuru"
+      "verb_class": "kuru",
+      "transitivity": "intransitive"
     },
     "created": "2026-07-04T12:17:32Z",
-    "modified": "2026-07-04T12:17:32Z"
+    "modified": "2026-09-02T04:02:37Z"
   },
   "conjugation": {
     "type": "kuru",

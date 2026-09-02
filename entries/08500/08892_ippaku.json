@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08892_ippaku_ex1",
-      "japanese": "{一泊|いっぱく}いくらですか。",
+      "japanese": "{一泊|いっぱく}いくらです⟦か→か：09473_ka⟧。",
       "english": "How much is it for one night?",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "08892_ippaku_ex2",
-      "japanese": "{温泉|おんせん}で{一泊|いっぱく}した。",
+      "japanese": "⟦{温泉|おんせん}→温泉：04117_onsen⟧⟦で→で：00502_de⟧{一泊|いっぱく}⟦した→する：00392_suru⟧。",
       "english": "I stayed one night at a hot spring inn.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "08892_ippaku_ex3",
-      "japanese": "{一泊|いっぱく}{二|に}{日|にち}の{旅行|りょこう}に{出|で}かけた。",
+      "japanese": "{一泊|いっぱく}⟦{二|に}→二：00736_ni⟧⟦{日|にち}→日：12732_nichi⟧⟦の→の：09472_no⟧⟦{旅行|りょこう}→旅行：00748_ryokou⟧⟦に→に：00314_ni⟧⟦{出|で}かけた→出かける：00833_dekakeru⟧。",
       "english": "I went on a one-night, two-day trip.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{一泊|いっぱく} is used when counting overnight stays at accommodations.\n\nCOMMON ACCOMMODATION TERMS:\n- {一泊|いっぱく}{二|に}{日|にち}: one night, two days (standard short trip)\n- {一泊|いっぱく}{二|に}{食|しょく}（{付|つ}き）: one night with two meals (dinner and breakfast)\n- {一泊|いっぱく}{朝食|ちょうしょく}{付|つ}き: one night with breakfast\n- {一泊|いっぱく}{素泊|すどま}り: one night, room only (no meals)\n\nBOOKING EXPRESSIONS:\n- {一泊|いっぱく}○○{円|えん}: ○○ yen per night\n- {一泊|いっぱく}{予約|よやく}する: to book for one night\n\nRELATED COUNTERS:\n- {二泊|にはく}: two nights\n- {三泊|さんぱく}: three nights\n- {何泊|なんぱく}: how many nights",
+  "notes": "{一泊|いっぱく} is used when counting overnight stays at accommodations.\n\nCOMMON ACCOMMODATION TERMS:\n- {一泊|いっぱく}⟦{二|に}→二：00736_ni⟧⟦{日|にち}→日：12732_nichi⟧: one night, two days (standard short trip)\n- {一泊|いっぱく}⟦{二|に}→二：00736_ni⟧{食|しょく}（⟦{付|つ}き→付く：01960_tsuku⟧）: one night with two meals (dinner and breakfast)\n- {一泊|いっぱく}⟦{朝食|ちょうしょく}{付|つ}き→朝食付き：07826_choushokutsuki⟧: one night with breakfast\n- {一泊|いっぱく}{素泊|すどま}り: one night, room only (no meals)\n\nBOOKING EXPRESSIONS:\n- {一泊|いっぱく}○○⟦{円|えん}→円：00774_en⟧: ○○ yen per night\n- {一泊|いっぱく}⟦{予約|よやく}する→予約する：22989_yoyakusuru⟧: to book for one night\n\nRELATED COUNTERS:\n- ⟦{二泊|にはく}→二泊：30783_nihaku⟧: two nights\n- {三泊|さんぱく}: three nights\n- {何泊|なんぱく}: how many nights",
   "cross_references": [
     {
       "type": "related",
@@ -51,11 +51,18 @@
       "reading": "れんぱく",
       "headword": "{連泊|れんぱく}",
       "label": "consecutive-night stay"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22935_tomari",
+      "reading": "とまり",
+      "headword": "{泊|とま}まり",
+      "label": "overnight stay"
     }
   ],
   "metadata": {
     "created": "2026-01-29T02:52:12Z",
-    "modified": "2026-08-29T00:26:32Z",
+    "modified": "2026-09-02T04:01:16Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

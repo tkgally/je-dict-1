@@ -63,11 +63,19 @@
       ]
     }
   ],
-  "notes": "{次|つぎ} means \"next\" in sequence or order.\n\nUSAGE PATTERNS:\n- {次|つぎ}⟦の→の：09472_no⟧ + noun: the next ~\n- {次|つぎ}⟦に→に：00314_ni⟧: next, secondly (when listing)\n- {次|つぎ}⟦は→は：00079_ha⟧: as for next...\n\nCOMMON EXPRESSIONS:\n- {次|つぎ}⟦の→の：09472_no⟧⟦{駅|えき}→駅：02180_eki⟧: next station\n- {次|つぎ}⟦の→の：09472_no⟧⟦{質問|しつもん}→質問：00888_shitsumon⟧: next question\n- {次|つぎ}⟦の→の：09472_no⟧⟦{電車|でんしゃ}→電車：00522_densha⟧: next train\n- {次|つぎ}⟦の→の：09472_no⟧⟦{日|ひ}→日：02249_hi⟧: the next day\n\nCOMPOUNDS:\n- ⟦{次回|じかい}→次回：13170_jikai⟧: next time, next episode\n- ⟦{次第|しだい}→次第：03175_shidai⟧: depending on; as soon as\n- ⟦{次男|じなん}→次男：13210_jinan⟧: second son\n\nSIMILAR WORDS:\n- ⟦{今度|こんど}→今度：01327_kondo⟧: next time (but also \"this time\")\n- ⟦{翌|よく}→翌：03970_yoku⟧〜: the following ~ (more formal)",
-  "cross_references": [],
+  "notes": "{次|つぎ} means \"next\" in sequence or order.\n\nCOMMON PATTERNS:\n- {次|つぎ}⟦の→の：09472_no⟧ + noun: the next ~\n- {次|つぎ}⟦に→に：00314_ni⟧: next, secondly (when listing)\n- {次|つぎ}⟦は→は：00079_ha⟧: as for next...\n\nCOMMON EXPRESSIONS:\n- {次|つぎ}⟦の→の：09472_no⟧⟦{駅|えき}→駅：02180_eki⟧: next station\n- {次|つぎ}⟦の→の：09472_no⟧⟦{質問|しつもん}→質問：00888_shitsumon⟧: next question\n- {次|つぎ}⟦の→の：09472_no⟧⟦{電車|でんしゃ}→電車：00522_densha⟧: next train\n- {次|つぎ}⟦の→の：09472_no⟧⟦{日|ひ}→日：02249_hi⟧: the next day\n\nCOMPOUNDS:\n- ⟦{次回|じかい}→次回：13170_jikai⟧: next time, next episode\n- ⟦{次第|しだい}→次第：03175_shidai⟧: depending on; as soon as\n- ⟦{次男|じなん}→次男：13210_jinan⟧: second son\n\nSIMILAR WORDS:\n- ⟦{今度|こんど}→今度：01327_kondo⟧: next time (but also \"this time\")\n- ⟦{翌|よく}→翌：03970_yoku⟧〜: the following ~ (more formal)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01327_kondo",
+      "reading": "こんど",
+      "headword": "{今度|こんど}",
+      "label": "next time"
+    }
+  ],
   "metadata": {
     "created": "2026-01-07T12:28:48Z",
-    "modified": "2026-05-12T21:10:43Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

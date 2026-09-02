@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08078_kimitsusei_ex1",
-      "japanese": "この{家|いえ}は{気密性|きみつせい}が{高|たか}い。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{家|いえ}→家：00612_ie⟧⟦は→は：00079_ha⟧{気密性|きみつせい}⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧。",
       "english": "This house has high airtightness.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "08078_kimitsusei_ex2",
-      "japanese": "{気密性|きみつせい}を{高|たか}めることで{冷暖房|れいだんぼう}{効率|こうりつ}が{上|あ}がる。",
+      "japanese": "{気密性|きみつせい}⟦を→を：00422_wo⟧⟦{高|たか}める→高める：02065_takameru⟧こと⟦で→で：00502_de⟧⟦{冷暖房|れいだんぼう}→冷暖房：28048_reidanbou⟧⟦{効率|こうりつ}→効率：11794_kouritsu⟧⟦が→が：00051_ga⟧⟦{上|あ}がる→上がる：00615_agaru⟧。",
       "english": "Improving airtightness increases heating and cooling efficiency.",
       "sense_numbers": [
         1
@@ -33,7 +33,23 @@
       "notes": null
     }
   ],
-  "notes": "{気密性|きみつせい} refers to airtightness—how well something is sealed against air leakage.\n\nCOMPONENTS:\n{気|き} (air) + {密|みつ} (dense, tight) + {性|せい} (property) = airtight quality\n\nHOUSING TERMS:\n- {高気密|こうきみつ}: high airtightness\n- {高気密|こうきみつ}{高断熱|こうだんねつ}: high airtightness, high insulation (common real estate phrase)\n- {気密性|きみつせい}が{高|たか}い: has high airtightness\n- {気密性|きみつせい}を{高|たか}める: to improve airtightness\n\nRELATED PROPERTIES:\n- {断熱性|だんねつせい}: thermal insulation\n- {防音性|ぼうおんせい}: soundproofing\n- {耐久性|たいきゅうせい}: durability\n\nBENEFITS:\n{省|しょう}エネ (energy saving), {冷暖房|れいだんぼう}{効率|こうりつ} (heating/cooling efficiency), {結露|けつろ}{防止|ぼうし} (condensation prevention).",
+  "notes": "{気密性|きみつせい} refers to airtightness—how well something is sealed against air leakage.\n\nETYMOLOGY:\n⟦{気|き}→気：02199_ki⟧ (air) + ⟦{密|みつ}→密：03777_mitsu⟧ (dense, tight) + ⟦{性|せい}→性：09880_sei⟧ (property) = airtight quality\n\nHOUSING TERMS:\n- {高気密|こうきみつ}: high airtightness\n- {高気密|こうきみつ}{高断熱|こうだんねつ}: high airtightness, high insulation (common real estate phrase)\n- {気密性|きみつせい}⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧: has high airtightness\n- {気密性|きみつせい}⟦を→を：00422_wo⟧⟦{高|たか}める→高める：02065_takameru⟧: to improve airtightness\n\nRELATED PROPERTIES:\n- {断熱性|だんねつせい}: thermal insulation\n- {防音性|ぼうおんせい}: soundproofing\n- ⟦{耐久性|たいきゅうせい}→耐久性：20042_taikyuusei⟧: durability\n\nBENEFITS:\n⟦{省|しょう}エネ→省エネ：06308_shouene⟧ (energy saving), ⟦{冷暖房|れいだんぼう}→冷暖房：28048_reidanbou⟧⟦{効率|こうりつ}→効率：11794_kouritsu⟧ (heating/cooling efficiency), ⟦{結露|けつろ}→結露：11084_ketsuro⟧⟦{防止|ぼうし}→防止：14571_boushi⟧ (condensation prevention).",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "20042_taikyuusei",
+      "reading": "たいきゅうせい",
+      "headword": "{耐久性|たいきゅうせい}",
+      "label": "durability"
+    },
+    {
+      "type": "related",
+      "target_id": "08079_dannetsuzai",
+      "reading": "だんねつざい",
+      "headword": "{断熱材|だんねつざい}",
+      "label": "insulation material"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -41,12 +57,13 @@
         "noun"
       ],
       "formality": "formal",
+      "politeness": "plain",
       "semantic": [
         "building",
         "science"
       ]
     },
     "created": "2026-01-25T01:23:54Z",
-    "modified": "2026-06-12T12:41:12Z"
+    "modified": "2026-09-02T04:01:13Z"
   }
 }

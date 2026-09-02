@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "17829_museigen_ex1",
-      "japanese": "データ{通信|つうしん}が{無制限|むせいげん}のプランにした。",
+      "japanese": "⟦データ{通信|つうしん}→データ通信：10747_deetatsuushin⟧⟦が→が：00051_ga⟧{無制限|むせいげん}⟦の→の：09472_no⟧⟦プラン→プラン：00345_puran⟧にした。",
       "english": "I switched to a plan with unlimited data.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "17829_museigen_ex2",
-      "japanese": "このバイキングは{時間|じかん}{無制限|むせいげん}で{食|た}べ{放題|ほうだい}だ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦バイキング→バイキング：21783_baikingu⟧⟦は→は：00079_ha⟧⟦{時間|じかん}→時間：00468_jikan⟧{無制限|むせいげん}⟦で→で：00502_de⟧⟦{食|た}べ{放題|ほうだい}→食べ放題：08291_tabehoudai⟧だ。",
       "english": "This buffet is all-you-can-eat with no time limit.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "17829_museigen_ex3",
-      "japanese": "{権力|けんりょく}を{無制限|むせいげん}に{行使|こうし}することは{許|ゆる}されない。",
+      "japanese": "⟦{権力|けんりょく}→権力：10020_kenryoku⟧⟦を→を：00422_wo⟧{無制限|むせいげん}⟦に→に：00314_ni⟧⟦{行使|こうし}→行使：14087_koushi⟧⟦する→する：00392_suru⟧こと⟦は→は：00079_ha⟧⟦{許|ゆる}されない→許す：02325_yurusu⟧。",
       "english": "The unlimited exercise of power is not permitted.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nUsed as a no-adjective ({無制限|むせいげん}の〜) or as a na-adjective ({無制限|むせいげん}な〜), and also as an adverb with に ({無制限|むせいげん}に). Very common in advertising and service descriptions.\n\nCOMMON COLLOCATIONS:\n- {時間|じかん}{無制限|むせいげん} (no time limit)\n- {無制限|むせいげん}プラン (unlimited plan)\n- {無制限|むせいげん}に{使|つか}える (can use without limits)\n\nSIMILAR WORDS:\n- {無限|むげん}: infinite — more abstract and philosophical\n- {制限|せいげん}なし: no restrictions — a more casual equivalent\n- {自由|じゆう}: free — implies permission rather than absence of limits",
+  "notes": "USAGE:\nUsed as a no-adjective ({無制限|むせいげん}⟦の→の：09472_no⟧〜) or as a na-adjective ({無制限|むせいげん}な〜), and also as an adverb with ⟦に→に：00314_ni⟧ ({無制限|むせいげん}⟦に→に：00314_ni⟧). Very common in advertising and service descriptions.\n\nCOMMON COLLOCATIONS:\n- ⟦{時間|じかん}→時間：00468_jikan⟧{無制限|むせいげん} (no time limit)\n- {無制限|むせいげん}⟦プラン→プラン：00345_puran⟧ (unlimited plan)\n- {無制限|むせいげん}⟦に→に：00314_ni⟧⟦{使|つか}える→使う：00473_tsukau⟧ (can use without limits)\n\nSIMILAR WORDS:\n- ⟦{無限|むげん}→無限：00296_mugen⟧: infinite — more abstract and philosophical\n- ⟦{制限|せいげん}→制限：03375_seigen⟧なし: no restrictions — a more casual equivalent\n- ⟦{自由|じゆう}→自由：01148_jiyuu⟧: free — implies permission rather than absence of limits",
   "cross_references": [
     {
       "type": "antonym",
@@ -59,11 +59,18 @@
       "reading": "むげん",
       "headword": "{無限|むげん}",
       "label": "infinite"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01148_jiyuu",
+      "reading": "じゆう",
+      "headword": "{自由|じゆう}",
+      "label": "free"
     }
   ],
   "metadata": {
     "created": "2026-03-19T04:24:35Z",
-    "modified": "2026-05-07T08:09:41Z",
+    "modified": "2026-09-02T04:01:49Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

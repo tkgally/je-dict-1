@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "12960_noboru_ex1",
-      "japanese": "{太陽|たいよう}が{昇|のぼ}る。",
+      "japanese": "⟦{太陽|たいよう}→太陽：03398_taiyou⟧⟦が→が：00051_ga⟧{昇|のぼ}る。",
       "english": "The sun rises.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "12960_noboru_ex2",
-      "japanese": "{東|ひがし}の{空|そら}に{月|つき}が{昇|のぼ}った。",
+      "japanese": "⟦{東|ひがし}→東：02250_higashi⟧⟦の→の：09472_no⟧⟦{空|そら}→空：02216_sora⟧⟦に→に：00314_ni⟧⟦{月|つき}→月：02230_tsuki⟧⟦が→が：00051_ga⟧{昇|のぼ}った。",
       "english": "The moon rose in the eastern sky.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "12960_noboru_ex3",
-      "japanese": "{初日|はつひ}の{出|で}を{見|み}ようと、{山頂|さんちょう}で{日|ひ}が{昇|のぼ}るのを{待|ま}った。",
+      "japanese": "⟦{初日|はつひ}の{出|で}→初日の出：10452_hatsuhinode⟧⟦を→を：00422_wo⟧⟦{見|み}よう→見る：00283_miru⟧⟦と→と：00512_to⟧、⟦{山頂|さんちょう}→山頂：09942_sanchou⟧⟦で→で：00502_de⟧⟦{日|ひ}→日：02249_hi⟧⟦が→が：00051_ga⟧{昇|のぼ}る⟦の→の：09472_no⟧⟦を→を：00422_wo⟧⟦{待|ま}った→待つ：00469_matsu⟧。",
       "english": "To see the first sunrise of the year, I waited at the summit for the sun to rise.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: {自動詞|じどうし} (intransitive). No transitive pair.\n\nASPECT: ている indicates ongoing rising or completed rise. {日|ひ}が{昇|のぼ}っている = 'the sun has risen / is rising.'\n\nKANJI NOTE:\nThree kanji are used for のぼる, each with a different meaning:\n- {昇|のぼ}る: natural rising (sun, moon) — this entry\n- {登|のぼ}る: climbing (mountains, stairs)\n- {上|のぼ}る: going up (general upward movement)\n\nCOMMON COLLOCATIONS:\n- {日|ひ}が{昇|のぼ}る: the sun rises\n- {太陽|たいよう}が{昇|のぼ}る: the sun rises\n- {月|つき}が{昇|のぼ}る: the moon rises\n\nSIMILAR WORDS:\n- {登|のぼ}る: to climb (physical climbing)\n- {上|のぼ}る: to go up (general)\n- {上|あ}がる: to rise, to go up",
+  "notes": "TRANSITIVITY: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive). No transitive pair.\n\nASPECT: て⟦いる→いる：00495_iru⟧ indicates ongoing rising or completed rise. ⟦{日|ひ}→日：02249_hi⟧⟦が→が：00051_ga⟧{昇|のぼ}って⟦いる→いる：00495_iru⟧ = 'the sun has risen / is rising.'\n\nWRITING:\nThree kanji are used for のぼる, each with a different meaning:\n- {昇|のぼ}る: natural rising (sun, moon) — this entry\n- ⟦{登|のぼ}る→登る：00660_noboru⟧: climbing (mountains, stairs)\n- ⟦{上|のぼ}る→上る：21460_noboru⟧: going up (general upward movement)\n\nCOMMON COLLOCATIONS:\n- ⟦{日|ひ}→日：02249_hi⟧⟦が→が：00051_ga⟧{昇|のぼ}る: the sun rises\n- ⟦{太陽|たいよう}→太陽：03398_taiyou⟧⟦が→が：00051_ga⟧{昇|のぼ}る: the sun rises\n- ⟦{月|つき}→月：02230_tsuki⟧⟦が→が：00051_ga⟧{昇|のぼ}る: the moon rises\n\nSIMILAR WORDS:\n- ⟦{登|のぼ}る→登る：00660_noboru⟧: to climb (physical climbing)\n- ⟦{上|のぼ}る→上る：21460_noboru⟧: to go up (general)\n- ⟦{上|あ}がる→上がる：00615_agaru⟧: to rise, to go up",
   "cross_references": [
     {
       "type": "see_also",
@@ -142,11 +142,25 @@
       "headword": "{登|のぼ}る",
       "label": "to climb",
       "target_id": "00660_noboru"
+    },
+    {
+      "type": "homophone",
+      "target_id": "21460_noboru",
+      "reading": "のぼる",
+      "headword": "{上|のぼ}る",
+      "label": "to go up"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00615_agaru",
+      "reading": "あがる",
+      "headword": "{上|あ}がる",
+      "label": "to rise, to go up"
     }
   ],
   "metadata": {
     "created": "2026-02-22T23:40:17Z",
-    "modified": "2026-03-29T03:07:35Z",
+    "modified": "2026-09-02T04:01:31Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

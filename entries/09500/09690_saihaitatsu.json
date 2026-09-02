@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "09690_saihaitatsu_ex1",
-      "japanese": "{再配達|さいはいたつ}を{依頼|いらい}した。",
+      "japanese": "{再配達|さいはいたつ}⟦を→を：00422_wo⟧⟦{依頼|いらい}した→依頼する：21376_irai⟧。",
       "english": "I requested a redelivery.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "09690_saihaitatsu_ex2",
-      "japanese": "{再配達|さいはいたつ}の{時間|じかん}を{指定|してい}できる。",
+      "japanese": "{再配達|さいはいたつ}⟦の→の：09472_no⟧⟦{時間|じかん}→時間：00468_jikan⟧⟦を→を：00422_wo⟧⟦{指定|してい}→指定：00373_shitei⟧⟦できる→できる：00557_dekiru⟧。",
       "english": "You can specify the redelivery time.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "09690_saihaitatsu_ex3",
-      "japanese": "ネットで{再配達|さいはいたつ}の{手続|てつづ}きをしたら、{翌日|よくじつ}に{届|とど}いた。",
+      "japanese": "⟦ネット→ネット：05279_netto⟧⟦で→で：00502_de⟧{再配達|さいはいたつ}⟦の→の：09472_no⟧⟦{手続|てつづ}き→手続き：05453_tetsuzuki⟧⟦を→を：00422_wo⟧⟦したら→する：00392_suru⟧、⟦{翌日|よくじつ}→翌日：17960_yokujitsu⟧⟦に→に：00314_ni⟧⟦{届|とど}いた→届く：00899_todoku⟧。",
       "english": "After completing the redelivery request online, it arrived the next day.",
       "notes": null,
       "has_audio": false,
@@ -43,10 +43,10 @@
       ]
     }
   ],
-  "notes": "{再配達|さいはいたつ} is the redelivery service for undelivered packages.\n\nCOMMON PATTERNS:\n- {再配達|さいはいたつ}を{依頼|いらい}する (to request redelivery)\n- {再配達|さいはいたつ}を{頼|たの}む (to ask for redelivery)\n- {再配達|さいはいたつ}の{時間|じかん}{指定|してい} (redelivery time specification)\n\nUSAGE NOTES:\n- Can be arranged via phone, web, or LINE\n- Often available same-day if requested early\n\nRELATED TERMS:\n- {不在票|ふざいひょう}: missed delivery notice\n- {宅配ボックス|たくはいぼっくす}: delivery locker",
+  "notes": "{再配達|さいはいたつ} is the redelivery service for undelivered packages.\n\nCOMMON PATTERNS:\n- {再配達|さいはいたつ}⟦を→を：00422_wo⟧⟦{依頼|いらい}する→依頼する：21376_irai⟧ (to request redelivery)\n- {再配達|さいはいたつ}⟦を→を：00422_wo⟧⟦{頼|たの}む→頼む：01104_tanomu⟧ (to ask for redelivery)\n- {再配達|さいはいたつ}⟦の→の：09472_no⟧⟦{時間|じかん}{指定|してい}→時間指定：19854_jikanshitei⟧ (redelivery time specification)\n\nUSAGE:\n- Can be arranged via phone, web, or LINE\n- Often available same-day if requested early\n\nRELATED WORDS:\n- ⟦{不在票|ふざいひょう}→不在票：09689_fuzaihyou⟧: missed delivery notice\n- ⟦{宅配ボックス|たくはいぼっくす}→宅配ボックス：09719_takuhaibokkusu⟧: delivery locker",
   "metadata": {
     "created": "2026-02-03T06:48:31Z",
-    "modified": "2026-06-24T18:40:49Z",
+    "modified": "2026-09-02T04:01:19Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -75,6 +75,27 @@
       "reading": "はいたつ",
       "headword": "{配達|はいたつ}",
       "label": "delivery"
+    },
+    {
+      "type": "related",
+      "target_id": "09719_takuhaibokkusu",
+      "reading": "たくはいぼっくす",
+      "headword": "{宅配|たくはい}ボックス",
+      "label": "delivery locker"
+    },
+    {
+      "type": "related",
+      "target_id": "09720_okihai",
+      "reading": "おきはい",
+      "headword": "{置|お}き{配|はい}",
+      "label": "leave-at-door delivery"
+    },
+    {
+      "type": "related",
+      "target_id": "19854_jikanshitei",
+      "reading": "じかんしてい",
+      "headword": "{時間指定|じかんしてい}",
+      "label": "time designation"
     }
   ]
 }

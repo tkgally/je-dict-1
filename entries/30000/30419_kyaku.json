@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30419_kyaku_ex1",
-      "japanese": "{椅子|いす}を{二脚|にきゃく}{買|か}った。",
+      "japanese": "⟦{椅子|いす}→椅子：00706_isu⟧⟦を→を：00422_wo⟧{二脚|にきゃく}⟦{買|か}った→買う：00489_kau⟧。",
       "english": "I bought two chairs.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30419_kyaku_ex2",
-      "japanese": "{教室|きょうしつ}に{机|つくえ}が{三十脚|さんじゅっきゃく}{並|なら}んでいる。",
+      "japanese": "⟦{教室|きょうしつ}→教室：00794_kyoushitsu⟧⟦に→に：00314_ni⟧⟦{机|つくえ}→机：00762_tsukue⟧⟦が→が：00051_ga⟧{三十脚|さんじゅっきゃく}⟦{並|なら}んでいる→並ぶ：00605_narabu⟧。",
       "english": "Thirty desks are lined up in the classroom.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30419_kyaku_ex3",
-      "japanese": "{足|た}りない{分|ぶん}の{椅子|いす}を{何脚|なんきゃく}か{隣|となり}の{部屋|へや}から{運|はこ}んできた。",
+      "japanese": "⟦{足|た}りない→足りる：01209_tariru⟧⟦{分|ぶん}→分：26216_bun⟧⟦の→の：09472_no⟧⟦{椅子|いす}→椅子：00706_isu⟧⟦を→を：00422_wo⟧{何脚|なんきゃく}⟦か→か：09473_ka⟧⟦{隣|となり}→隣：01003_tonari⟧⟦の→の：09472_no⟧⟦{部屋|へや}→部屋：00507_heya⟧⟦から→から：00504_kara⟧⟦{運|はこ}んで→運ぶ：01088_hakobu⟧きた。",
       "english": "I brought several more chairs from the next room to make up the shortage.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "Written with the kanji for \"leg,\" so it goes with furniture that has legs.\n\nCOUNTING PATTERN:\n- {一脚|いっきゃく}: one\n- {二脚|にきゃく}: two\n- {三脚|さんきゃく}: three\n- {六脚|ろっきゃく}: six\n- {何脚|なんきゃく}: how many\n\nSIMILAR WORDS:\n- {台|だい}: counter for machines and large equipment — used for tables and furniture in casual speech\n- {個|こ}: general counter for objects — often substituted for {脚|きゃく} in conversation\n\nNote that {三脚|さんきゃく} is also a noun in its own right, meaning a camera tripod.",
+  "notes": "Written with the kanji for \"leg,\" so it goes with furniture that has legs.\n\nCOUNTING PATTERNS:\n- {一脚|いっきゃく}: one\n- {二脚|にきゃく}: two\n- ⟦{三脚|さんきゃく}→三脚：06993_sankyaku⟧: three\n- {六脚|ろっきゃく}: six\n- {何脚|なんきゃく}: how many\n\nSIMILAR WORDS:\n- {台|だい}: counter for machines and large equipment — used for tables and furniture in casual speech\n- ⟦{個|こ}→〜個：00645_ko⟧: general counter for objects — often substituted for {脚|きゃく} in conversation\n\nNote that ⟦{三脚|さんきゃく}→三脚：06993_sankyaku⟧ is also a noun in its own right, meaning a camera tripod.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13039_dai",
+      "reading": "だい",
+      "headword": "{台|だい}",
+      "label": "counter for machines and large equipment"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +62,7 @@
         "counter"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "furniture",
         "number"
@@ -61,6 +70,6 @@
       "domain": []
     },
     "created": "2026-08-05T15:24:36Z",
-    "modified": "2026-08-05T15:24:36Z"
+    "modified": "2026-09-02T04:02:40Z"
   }
 }

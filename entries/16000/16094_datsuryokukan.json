@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "16094_datsuryokukan_ex1",
-      "japanese": "{脱力感|だつりょくかん}がひどい。",
+      "japanese": "{脱力感|だつりょくかん}⟦が→が：00051_ga⟧⟦ひどい→ひどい：01097_hidoi⟧。",
       "english": "The feeling of exhaustion is terrible.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "16094_datsuryokukan_ex2",
-      "japanese": "{風邪|かぜ}を{引|ひ}いて、{全身|ぜんしん}に{脱力感|だつりょくかん}がある。",
+      "japanese": "⟦{風邪|かぜ}→風邪：02188_kaze⟧⟦を→を：00422_wo⟧⟦{引|ひ}いて→引く：01978_hiku⟧、⟦{全身|ぜんしん}→全身：03313_zenshin⟧⟦に→に：00314_ni⟧{脱力感|だつりょくかん}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "I have a cold and feel weak all over.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "16094_datsuryokukan_ex3",
-      "japanese": "マラソンを{走|はし}った{後|あと}、しばらく{脱力感|だつりょくかん}で{動|うご}けなかった。",
+      "japanese": "⟦マラソン→マラソン：04732_marason⟧⟦を→を：00422_wo⟧⟦{走|はし}った→走る：00519_hashiru⟧⟦{後|あと}→後：09580_ato⟧、⟦しばらく→しばらく：01267_shibaraku⟧{脱力感|だつりょくかん}⟦で→で：00502_de⟧⟦{動|うご}けなかった→動く：00904_ugoku⟧。",
       "english": "After running the marathon, I couldn't move for a while due to exhaustion.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nOften used in medical contexts to describe a symptom of illness. Also used to describe post-exertion fatigue or emotional exhaustion. Common in medical questionnaires and doctor-patient conversations.\n\nCOMMON COLLOCATIONS:\n- {脱力感|だつりょくかん}がある (to have a feeling of weakness)\n- {脱力感|だつりょくかん}に{襲|おそ}われる (to be hit by exhaustion)\n- {全身|ぜんしん}の{脱力感|だつりょくかん} (whole-body weakness)\n\nSIMILAR WORDS:\n- {倦怠感|けんたいかん}: feeling of fatigue, malaise — similar medical term, slightly more formal\n- {疲労感|ひろうかん}: feeling of tiredness — more general fatigue without the \"loss of strength\" nuance",
+  "notes": "USAGE:\nOften used in medical contexts to describe a symptom of illness. Also used to describe post-exertion fatigue or emotional exhaustion. Common in medical questionnaires and doctor-patient conversations.\n\nCOMMON COLLOCATIONS:\n- {脱力感|だつりょくかん}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧ (to have a feeling of weakness)\n- {脱力感|だつりょくかん}⟦に→に：00314_ni⟧⟦{襲|おそ}われる→襲う：01915_osou⟧ (to be hit by exhaustion)\n- ⟦{全身|ぜんしん}→全身：03313_zenshin⟧⟦の→の：09472_no⟧{脱力感|だつりょくかん} (whole-body weakness)\n\nSIMILAR WORDS:\n- ⟦{倦怠感|けんたいかん}→倦怠感：05023_kentaikan⟧: feeling of fatigue, malaise — similar medical term, slightly more formal\n- {疲労感|ひろうかん}: feeling of tiredness — more general fatigue without the \"loss of strength\" nuance",
   "cross_references": [
     {
       "type": "synonym",
@@ -52,11 +52,18 @@
       "reading": "けんたいかん",
       "headword": "{倦怠感|けんたいかん}",
       "label": "fatigue, malaise"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24519_toroukan",
+      "reading": "とろうかん",
+      "headword": "{徒労感|とろうかん}",
+      "label": "feeling of futility"
     }
   ],
   "metadata": {
     "created": "2026-03-09T12:24:36Z",
-    "modified": "2026-07-18T12:31:39Z",
+    "modified": "2026-09-02T04:01:43Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

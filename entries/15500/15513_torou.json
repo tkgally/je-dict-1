@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "15513_torou_ex1",
-      "japanese": "{説得|せっとく}は{徒労|とろう}に{終|お}わった。",
+      "japanese": "⟦{説得|せっとく}→説得：14219_settoku⟧⟦は→は：00079_ha⟧{徒労|とろう}⟦に→に：00314_ni⟧⟦{終|お}わった→終わる：00567_owaru⟧。",
       "english": "The attempt to persuade ended in vain.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "15513_torou_ex2",
-      "japanese": "これ{以上|いじょう}{探|さが}しても{徒労|とろう}だと{思|おも}う。",
+      "japanese": "⟦これ{以上|いじょう}→これ以上：25431_koreijou⟧⟦{探|さが}して→探す：00493_sagasu⟧⟦も→も：00484_mo⟧{徒労|とろう}だ⟦と→と：00512_to⟧⟦{思|おも}う→思う：00492_omou⟧。",
       "english": "I think searching any further would be a waste of effort.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "15513_torou_ex3",
-      "japanese": "{何時間|なんじかん}もかけて{準備|じゅんび}したが、イベントが{中止|ちゅうし}になり、すべてが{徒労|とろう}に{終|お}わった。",
+      "japanese": "⟦{何時間|なんじかん}→何時間：30372_nanjikan⟧⟦も→も：00484_mo⟧⟦かけて→かける：00854_kakeru⟧⟦{準備|じゅんび}した→準備する：22427_junbisuru⟧⟦が→が：00051_ga⟧、⟦イベント→イベント：09594_ibento⟧⟦が→が：00051_ga⟧⟦{中止|ちゅうし}→中止：03481_chuushi⟧⟦に→に：00314_ni⟧⟦なり→なる：01970_naru⟧、すべて⟦が→が：00051_ga⟧{徒労|とろう}⟦に→に：00314_ni⟧⟦{終|お}わった→終わる：00567_owaru⟧。",
       "english": "I spent hours preparing, but the event was canceled and it was all for nothing.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{徒労|とろう} is a somewhat formal word used to describe effort that yielded no results. The most common pattern is {徒労|とろう}に{終|お}わる (to end in futility).\n\nCOMMON COLLOCATIONS:\n- {徒労|とろう}に{終|お}わる (to end in vain)\n- {徒労|とろう}に{帰|き}す (to come to nothing — literary)\n- {徒労|とろう}{感|かん} (a sense of wasted effort)\n\nSIMILAR WORDS:\n- {無駄|むだ}: waste (more casual, broader usage)\n- {骨折|ほねお}り{損|ぞん}: wasted effort (colloquial expression)",
+  "notes": "USAGE:\n{徒労|とろう} is a somewhat formal word used to describe effort that yielded no results. The most common pattern is {徒労|とろう}⟦に→に：00314_ni⟧{終|お}わる (to end in futility).\n\nCOMMON COLLOCATIONS:\n- {徒労|とろう}⟦に→に：00314_ni⟧{終|お}わる (to end in vain)\n- {徒労|とろう}⟦に→に：00314_ni⟧{帰|き}す (to come to nothing — literary)\n- {徒労|とろう}{感|かん} (a sense of wasted effort)\n\nSIMILAR WORDS:\n- ⟦{無駄|むだ}→無駄：02512_muda⟧: waste (more casual, broader usage)\n- ⟦{骨折|ほねお}り{損|ぞん}→骨折り損：08029_honeorizon⟧: wasted effort (colloquial expression)",
   "cross_references": [
     {
       "type": "synonym",
@@ -59,11 +59,25 @@
       "reading": "むだ",
       "headword": "{無駄|むだ}",
       "label": "waste, futility (casual)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20265_mudabone",
+      "reading": "むだぼね",
+      "headword": "{無駄骨|むだぼね}",
+      "label": "wasted effort"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24873_mukuwarenai",
+      "reading": "むくわれない",
+      "headword": "{報|むく}われない",
+      "label": "unrewarded"
     }
   ],
   "metadata": {
     "created": "2026-03-07T09:34:07Z",
-    "modified": "2026-05-01T07:30:21Z",
+    "modified": "2026-09-02T04:01:41Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

@@ -3,7 +3,7 @@
   "headword": "{沈思|ちんし}",
   "reading": "ちんし",
   "romaji": "chinshi",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "deep thought; contemplation; meditation; pondering",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24602_chinshi_ex1",
-      "japanese": "しばらく{沈思|ちんし}してから{答|こた}えた。",
+      "japanese": "⟦しばらく→しばらく：01267_shibaraku⟧{沈思|ちんし}⟦して→する：00392_suru⟧⟦から→から：00504_kara⟧⟦{答|こた}えた→答える：01099_kotaeru⟧。",
       "english": "After pondering for a while, I answered.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24602_chinshi_ex2",
-      "japanese": "{彼|かれ}は{窓|まど}の{外|そと}を{見|み}ながら{沈思|ちんし}{黙考|もっこう}していた。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{窓|まど}→窓：02254_mado⟧⟦の→の：09472_no⟧⟦{外|そと}→外：00671_soto⟧⟦を→を：00422_wo⟧⟦{見|み}→見る：00283_miru⟧⟦ながら→ながら：10530_nagara⟧{沈思|ちんし}{黙考|もっこう}⟦していた→する：00392_suru⟧。",
       "english": "He was deep in thought, gazing out the window in silent contemplation.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24602_chinshi_ex3",
-      "japanese": "{大|おお}きな{決断|けつだん}を{前|まえ}にして、{彼女|かのじょ}は{数日間|すうじつかん}{沈思|ちんし}を{続|つづ}けた{末|すえ}にようやく{結論|けつろん}を{出|だ}した。",
+      "japanese": "⟦{大|おお}きな→大きな：02849_ookina⟧⟦{決断|けつだん}→決断：13250_ketsudan⟧⟦を→を：00422_wo⟧⟦{前|まえ}→前：02255_mae⟧にして、⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧{数日間|すうじつかん}{沈思|ちんし}⟦を→を：00422_wo⟧⟦{続|つづ}け→続く：00903_tsuzuku⟧た⟦{末|すえ}→末：03362_sue⟧⟦に→に：00314_ni⟧ようやく⟦{結論|けつろん}→結論：02704_ketsuron⟧⟦を→を：00422_wo⟧⟦{出|だ}した→出す：01087_dasu⟧。",
       "english": "Faced with a major decision, she continued to contemplate for several days before finally reaching a conclusion.",
       "sense_numbers": [
         1
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "A literary and formal word meaning to think deeply or be lost in thought. Often used in written language, novels, and formal essays. Frequently appears in the four-character compound {沈思黙考|ちんしもっこう} (silent contemplation).\n\nCOMMON COLLOCATIONS:\n- {沈思黙考|ちんしもっこう}: deep and silent contemplation\n- {沈思|ちんし}にふける: to be absorbed in contemplation\n- {沈思|ちんし}を{続|つづ}ける: to continue pondering\n\nSIMILAR WORDS:\n- {熟考|じゅっこう}: careful consideration — deliberate, thorough thinking before a decision\n- {瞑想|めいそう}: meditation — spiritual or mindfulness practice\n- {思索|しさく}: speculation, reflection — philosophical or intellectual pondering\n- {考|かんが}え{込|こ}む: to ponder, to think hard — more everyday, implies being stuck in thought",
+  "notes": "A literary and formal word meaning to think deeply or be lost in thought. Often used in written language, novels, and formal essays. Frequently appears in the four-character compound {沈思黙考|ちんしもっこう} (silent contemplation).\n\nCOMMON COLLOCATIONS:\n- {沈思黙考|ちんしもっこう}: deep and silent contemplation\n- {沈思|ちんし}⟦に→に：00314_ni⟧⟦ふける→ふける：09960_fukeru⟧: to be absorbed in contemplation\n- {沈思|ちんし}⟦を→を：00422_wo⟧⟦{続|つづ}ける→続く：00903_tsuzuku⟧: to continue pondering\n\nSIMILAR WORDS:\n- ⟦{熟考|じゅっこう}→熟考：07966_jukkou⟧: careful consideration — deliberate, thorough thinking before a decision\n- ⟦{瞑想|めいそう}→瞑想：13660_meisou⟧: meditation — spiritual or mindfulness practice\n- ⟦{思索|しさく}→思索：15686_shisaku⟧: speculation, reflection — philosophical or intellectual pondering\n- ⟦{考|かんが}え{込|こ}む→考え込む：21866_kangaekomu⟧: to ponder, to think hard — more everyday, implies being stuck in thought",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07966_jukkou",
+      "reading": "じゅっこう",
+      "headword": "{熟考|じゅっこう}",
+      "label": "careful consideration"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13660_meisou",
+      "reading": "めいそう",
+      "headword": "{瞑想|めいそう}",
+      "label": "meditation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15686_shisaku",
+      "reading": "しさく",
+      "headword": "{思索|しさく}",
+      "label": "speculation, reflection"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21866_kangaekomu",
+      "reading": "かんがえこむ",
+      "headword": "{考|かんが}え{込|こ}む",
+      "label": "to ponder, to think hard"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -64,7 +94,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-19T16:29:22Z",
-    "modified": "2026-04-19T16:29:22Z"
+    "modified": "2026-09-02T04:02:18Z"
   },
   "conjugation": {
     "type": "suru",

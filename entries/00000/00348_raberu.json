@@ -43,11 +43,33 @@
       ]
     }
   ],
-  "notes": "ラベル (from English 'label') refers to labels or tags on products.\n\nCOMMON EXPRESSIONS:\n- ラベル⟦を→を：00422_wo⟧⟦{貼|は}る→貼る：10447_haru⟧: to put on a label\n- ラベル⟦を→を：00422_wo⟧⟦{剥|は}がす→剥がす：00081_hagasu⟧: to peel off a label\n- ラベル⟦{印刷|いんさつ}→印刷：01844_insatsu⟧: label printing\n\nTYPES OF LABELS:\n- ⟦{成分|せいぶん}→成分：04344_seibun⟧ラベル: ingredient label\n- ⟦{価格|かかく}→価格：00147_kakaku⟧ラベル: price label\n- ⟦バーコード→バーコード：10282_baakoodo⟧ラベル: barcode label\n- ⟦{警告|けいこく}→警告：02696_keikoku⟧ラベル: warning label\n\nRELATED:\n- ⟦レコード→レコード：02990_rekoodo⟧⟦レーベル→レーベル：13633_reeberu⟧: record label (music company)\n- ⟦タグ→タグ：11034_tagu⟧: tag",
-  "cross_references": [],
+  "notes": "ラベル (from English 'label') refers to labels or tags on products.\n\nCOMMON EXPRESSIONS:\n- ラベル⟦を→を：00422_wo⟧⟦{貼|は}る→貼る：10447_haru⟧: to put on a label\n- ラベル⟦を→を：00422_wo⟧⟦{剥|は}がす→剥がす：00081_hagasu⟧: to peel off a label\n- ラベル⟦{印刷|いんさつ}→印刷：01844_insatsu⟧: label printing\n\nTYPES OF LABELS:\n- ⟦{成分|せいぶん}→成分：04344_seibun⟧ラベル: ingredient label\n- ⟦{価格|かかく}→価格：00147_kakaku⟧ラベル: price label\n- ⟦バーコード→バーコード：10282_baakoodo⟧ラベル: barcode label\n- ⟦{警告|けいこく}→警告：02696_keikoku⟧ラベル: warning label\n\nRELATED WORDS:\n- ⟦レコード→レコード：02990_rekoodo⟧⟦レーベル→レーベル：13633_reeberu⟧: record label (music company)\n- ⟦タグ→タグ：11034_tagu⟧: tag",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "11034_tagu",
+      "reading": "たぐ",
+      "headword": "タグ",
+      "label": "tag"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19865_nifuda",
+      "reading": "にふだ",
+      "headword": "{荷札|にふだ}",
+      "label": "luggage tag"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23002_fuda",
+      "reading": "ふだ",
+      "headword": "{札|ふだ}",
+      "label": "tag"
+    }
+  ],
   "metadata": {
     "created": "2026-01-13T00:40:50Z",
-    "modified": "2026-05-10T20:13:02Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

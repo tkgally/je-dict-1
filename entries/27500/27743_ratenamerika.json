@@ -15,41 +15,67 @@
   "examples": [
     {
       "id": "27743_ratenamerika_ex1",
-      "japanese": "ラテンアメリカの{音楽|おんがく}が{好|す}きだ。",
+      "japanese": "ラテンアメリカ⟦の→の：09472_no⟧⟦{音楽|おんがく}→音楽：00661_ongaku⟧⟦が→が：00051_ga⟧⟦{好|す}き→好き：02355_suki⟧だ。",
       "english": "I like Latin American music.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27743_ratenamerika_ex2",
-      "japanese": "ブラジルはラテンアメリカ{最大|さいだい}の{国|くに}だ。",
+      "japanese": "ブラジル⟦は→は：00079_ha⟧ラテンアメリカ⟦{最大|さいだい}→最大：04827_saidai⟧⟦の→の：09472_no⟧⟦{国|くに}→国：02204_kuni⟧だ。",
       "english": "Brazil is the largest country in Latin America.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27743_ratenamerika_ex3",
-      "japanese": "ラテンアメリカでは{多|おお}くの{国|くに}でスペイン{語|ご}が{話|はな}されている。",
+      "japanese": "ラテンアメリカ⟦で→で：00502_de⟧⟦は→は：00079_ha⟧{多|おお}く⟦の→の：09472_no⟧⟦{国|くに}→国：02204_kuni⟧⟦で→で：00502_de⟧⟦スペイン{語|ご}→スペイン語：25980_supeingo⟧⟦が→が：00051_ga⟧⟦{話|はな}されている→話す：00467_hanasu⟧。",
       "english": "Spanish is spoken in many countries of Latin America.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Defined by language and culture rather than pure geography: the American countries that were colonized by Spain or Portugal.\n\nUSAGE:\n- ラテンアメリカ{諸国|しょこく}: the Latin American countries\n- ラテンアメリカ{出身|しゅっしん}: from Latin America\n\nSIMILAR WORDS:\n- {中南米|ちゅうなんべい}: Central and South America — a geographic term that largely overlaps with ラテンアメリカ but is defined by location rather than language",
+  "notes": "Defined by language and culture rather than pure geography: the American countries that were colonized by Spain or Portugal.\n\nUSAGE:\n- ラテンアメリカ⟦{諸国|しょこく}→諸国：15992_shokoku⟧: the Latin American countries\n- ラテンアメリカ⟦{出身|しゅっしん}→出身：03221_shusshin⟧: from Latin America\n\nSIMILAR WORDS:\n- ⟦{中南米|ちゅうなんべい}→中南米：19053_chuunanbei⟧: Central and South America — a geographic term that largely overlaps with ラテンアメリカ but is defined by location rather than language",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19053_chuunanbei",
+      "reading": "ちゅうなんべい",
+      "headword": "{中南米|ちゅうなんべい}",
+      "label": "Central and South America"
+    },
+    {
+      "type": "related",
+      "target_id": "26368_mekishiko",
+      "reading": "めきしこ",
+      "headword": "メキシコ",
+      "label": "Mexico"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["geography"],
+      "semantic": [
+        "geography"
+      ],
       "domain": []
     },
     "created": "2026-05-18T03:04:42Z",
-    "modified": "2026-05-18T03:04:42Z"
+    "modified": "2026-09-02T04:02:31Z"
   }
 }

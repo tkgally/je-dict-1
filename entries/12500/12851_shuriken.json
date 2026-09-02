@@ -15,41 +15,66 @@
   "examples": [
     {
       "id": "12851_shuriken_ex1",
-      "japanese": "{手裏剣|しゅりけん}を{投|な}げる。",
+      "japanese": "{手裏剣|しゅりけん}⟦を→を：00422_wo⟧⟦{投|な}げる→投げる：01135_nageru⟧。",
       "english": "Throw a shuriken.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12851_shuriken_ex2",
-      "japanese": "{忍者|にんじゃ}は{手裏剣|しゅりけん}を{武器|ぶき}として{使|つか}った。",
+      "japanese": "⟦{忍者|にんじゃ}→忍者：11112_ninja⟧⟦は→は：00079_ha⟧{手裏剣|しゅりけん}⟦を→を：00422_wo⟧⟦{武器|ぶき}→武器：03605_buki⟧⟦として→として：06802_toshite⟧⟦{使|つか}った→使う：00473_tsukau⟧。",
       "english": "Ninja used shuriken as weapons.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12851_shuriken_ex3",
-      "japanese": "{忍者|にんじゃ}{体験|たいけん}で{手裏剣|しゅりけん}{投|な}げに{挑戦|ちょうせん}した。",
+      "japanese": "⟦{忍者|にんじゃ}→忍者：11112_ninja⟧⟦{体験|たいけん}→体験：11443_taiken⟧⟦で→で：00502_de⟧{手裏剣|しゅりけん}⟦{投|な}げ→投げ：21942_nage⟧⟦に→に：00314_ni⟧⟦{挑戦|ちょうせん}した→挑戦する：21602_chousensuru⟧。",
       "english": "I tried throwing shuriken at a ninja experience attraction.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nThe standard collocation is {手裏剣|しゅりけん}を{投|な}げる (to throw a shuriken). The word literally means \"blade hidden in the hand\" ({手|しゅ} = hand, {裏|り} = back/hidden, {剣|けん} = blade).\n\nCOMMON COLLOCATIONS:\n- {手裏剣|しゅりけん}を{投|な}げる: to throw a shuriken\n- {手裏剣|しゅりけん}{投|な}げ: shuriken throwing (as an activity)\n- {棒|ぼう}{手裏剣|しゅりけん}: straight shuriken (needle type)\n\nCULTURAL NOTE:\nShuriken-throwing activities are popular at ninja-themed tourist attractions in Japan, particularly in {伊賀|いが} (Mie Prefecture) and {甲賀|こうか} (Shiga Prefecture), two regions historically associated with ninja.",
-  "cross_references": [],
+  "notes": "USAGE:\nThe standard collocation is {手裏剣|しゅりけん}⟦を→を：00422_wo⟧⟦{投|な}げる→投げる：01135_nageru⟧ (to throw a shuriken). The word literally means \"blade hidden in the hand\" ({手|しゅ} = hand, {裏|り} = back/hidden, ⟦{剣|けん}→剣：11819_ken⟧ = blade).\n\nCOMMON COLLOCATIONS:\n- {手裏剣|しゅりけん}⟦を→を：00422_wo⟧⟦{投|な}げる→投げる：01135_nageru⟧: to throw a shuriken\n- {手裏剣|しゅりけん}⟦{投|な}げ→投げ：21942_nage⟧: shuriken throwing (as an activity)\n- ⟦{棒|ぼう}→棒：03726_bou⟧{手裏剣|しゅりけん}: straight shuriken (needle type)\n\nCULTURAL NOTE:\nShuriken-throwing activities are popular at ninja-themed tourist attractions in Japan, particularly in {伊賀|いが} (Mie Prefecture) and {甲賀|こうか} (Shiga Prefecture), two regions historically associated with ninja.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "11112_ninja",
+      "reading": "にんじゃ",
+      "headword": "{忍者|にんじゃ}",
+      "label": "ninja"
+    },
+    {
+      "type": "related",
+      "target_id": "12849_ninjutsu",
+      "reading": "にんじゅつ",
+      "headword": "{忍術|にんじゅつ}",
+      "label": "ninjutsu, art of the ninja"
+    }
+  ],
   "metadata": {
     "created": "2026-02-22T11:58:49Z",
-    "modified": "2026-02-22T11:58:49Z",
+    "modified": "2026-09-02T04:01:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["tool"]
+      "semantic": [
+        "tool"
+      ]
     }
   }
 }

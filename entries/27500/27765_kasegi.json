@@ -15,41 +15,74 @@
   "examples": [
     {
       "id": "27765_kasegi_ex1",
-      "japanese": "{今月|こんげつ}は{稼|かせ}ぎが{少|すく}ない。",
+      "japanese": "⟦{今月|こんげつ}→今月：00720_kongetsu⟧⟦は→は：00079_ha⟧{稼|かせ}ぎ⟦が→が：00051_ga⟧⟦{少|すく}ない→少ない：01136_sukunai⟧。",
       "english": "My earnings are low this month.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27765_kasegi_ex2",
-      "japanese": "{彼|かれ}は{稼|かせ}ぎがいいので{生活|せいかつ}に{余裕|よゆう}がある。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{稼|かせ}ぎ⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧⟦の→の：09472_no⟧で⟦{生活|せいかつ}→生活：01443_seikatsu⟧⟦に→に：00314_ni⟧⟦{余裕|よゆう}→余裕：03671_yoyuu⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "He earns well, so he has some financial leeway.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27765_kasegi_ex3",
-      "japanese": "{家族|かぞく}を{養|やしな}うために、もっと{稼|かせ}ぎのいい{仕事|しごと}を{探|さが}している。",
+      "japanese": "⟦{家族|かぞく}→家族：00552_kazoku⟧⟦を→を：00422_wo⟧⟦{養|やしな}う→養う：04478_yashinau⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧、⟦もっと→もっと：00798_motto⟧{稼|かせ}ぎ⟦の→の：09472_no⟧⟦いい→いい：00118_ii⟧⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦を→を：00422_wo⟧⟦{探|さが}している→探す：00493_sagasu⟧。",
       "english": "To support my family, I'm looking for a better-paying job.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "The noun form of {稼|かせ}ぐ (to earn). Refers to the money earned through work, or to earning itself.\n\nCOMMON COLLOCATIONS:\n- {稼|かせ}ぎがいい: earns well; well-paying\n- {稼|かせ}ぎが{少|すく}ない: earns little\n- {共稼|ともかせ}ぎ: both spouses working; dual-income\n- {出稼|でかせ}ぎ: working away from home\n\nSIMILAR WORDS:\n- {収入|しゅうにゅう}: income — more formal and neutral\n- {給料|きゅうりょう}: salary — fixed pay from an employer",
+  "notes": "The noun form of ⟦{稼|かせ}ぐ→稼ぐ：02040_kasegu⟧ (to earn). Refers to the money earned through work, or to earning itself.\n\nCOMMON COLLOCATIONS:\n- {稼|かせ}ぎ⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧: earns well; well-paying\n- {稼|かせ}ぎ⟦が→が：00051_ga⟧⟦{少|すく}ない→少ない：01136_sukunai⟧: earns little\n- ⟦{共稼|ともかせ}ぎ→共稼ぎ：18260_tomokasegi⟧: both spouses working; dual-income\n- ⟦{出稼|でかせ}ぎ→出稼ぎ：14879_dekasegi⟧: working away from home\n\nSIMILAR WORDS:\n- ⟦{収入|しゅうにゅう}→収入：03213_shuunyuu⟧: income — more formal and neutral\n- ⟦{給料|きゅうりょう}→給料：01086_kyuuryou⟧: salary — fixed pay from an employer",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03213_shuunyuu",
+      "reading": "しゅうにゅう",
+      "headword": "{収入|しゅうにゅう}",
+      "label": "income"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01086_kyuuryou",
+      "reading": "きゅうりょう",
+      "headword": "{給料|きゅうりょう}",
+      "label": "salary"
+    },
+    {
+      "type": "related",
+      "target_id": "02040_kasegu",
+      "reading": "かせぐ",
+      "headword": "{稼|かせ}ぐ",
+      "label": "to earn, to make money"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["work"],
+      "politeness": "plain",
+      "semantic": [
+        "work"
+      ],
       "domain": []
     },
     "created": "2026-05-18T04:14:41Z",
-    "modified": "2026-05-18T04:14:41Z"
+    "modified": "2026-09-02T04:02:31Z"
   }
 }

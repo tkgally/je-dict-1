@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "12608_kaidan_ex1",
-      "japanese": "{夏|なつ}になると{怪談|かいだん}を{聞|き}きたくなる。",
+      "japanese": "⟦{夏|なつ}→夏：02236_natsu⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦と→と：00512_to⟧{怪談|かいだん}⟦を→を：00422_wo⟧⟦{聞|き}きたく→聞く：00483_kiku⟧⟦なる→なる：01970_naru⟧。",
       "english": "When summer comes, I feel like listening to ghost stories.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "12608_kaidan_ex2",
-      "japanese": "キャンプファイヤーで{怪談|かいだん}を{語|かた}り{合|あ}った。",
+      "japanese": "キャンプファイヤー⟦で→で：00502_de⟧{怪談|かいだん}⟦を→を：00422_wo⟧⟦{語|かた}り{合|あ}った→語り合う：03045_katariau⟧。",
       "english": "We told each other ghost stories around the campfire.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "12608_kaidan_ex3",
-      "japanese": "{日本|にほん}には{古|ふる}くから{伝|つた}わる{有名|ゆうめい}な{怪談|かいだん}がたくさんある。",
+      "japanese": "⟦{日本|にほん}→日本：03876_nihon⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{古|ふる}く→古い：00488_furui⟧⟦から→から：00504_kara⟧⟦{伝|つた}わる→伝わる：01961_tsutawaru⟧⟦{有名|ゆうめい}→有名：01106_yuumei⟧な{怪談|かいだん}⟦が→が：00051_ga⟧⟦たくさん→たくさん：00597_takusan⟧⟦ある→ある：00006_aru⟧。",
       "english": "Japan has many famous ghost stories that have been passed down since ancient times.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,47 @@
       ]
     }
   ],
-  "notes": "CULTURAL NOTE:\nGhost stories are traditionally associated with summer in Japan. The reasoning is that the chills from a scary story help cool you down in the heat. {怪談|かいだん} specials appear on television during summer, and haunted houses (お{化|ば}け{屋敷|やしき}) are popular summer attractions.\n\nFAMOUS WORKS:\nLafcadio Hearn's collection \"Kwaidan\" (1904) brought Japanese ghost stories to Western audiences. Classic {怪談|かいだん} include {四谷怪談|よつやかいだん} (Yotsuya Kaidan) and {番町皿屋敷|ばんちょうさらやしき} (The Dish Mansion at Banchou).\n\nCOMMON COLLOCATIONS:\n- {怪談|かいだん}を{語|かた}る: to tell a ghost story\n- {怪談|かいだん}{話|ばなし}: ghost story (colloquial)\n- {怪談|かいだん}{映画|えいが}: horror movie (ghost story genre)",
-  "cross_references": [],
+  "notes": "CULTURAL NOTE:\nGhost stories are traditionally associated with summer in Japan. The reasoning is that the chills from a scary story help cool you down in the heat. {怪談|かいだん} specials appear on television during summer, and haunted houses (⟦お{化|ば}け{屋敷|やしき}→お化け屋敷：18623_obakeyashiki⟧) are popular summer attractions.\n\nFAMOUS WORKS:\nLafcadio Hearn's collection \"Kwaidan\" (1904) brought Japanese ghost stories to Western audiences. Classic {怪談|かいだん} include {四谷怪談|よつやかいだん} (Yotsuya Kaidan) and {番町皿屋敷|ばんちょうさらやしき} (The Dish Mansion at Banchou).\n\nCOMMON COLLOCATIONS:\n- {怪談|かいだん}⟦を→を：00422_wo⟧⟦{語|かた}る→語る：01930_kataru⟧: to tell a ghost story\n- {怪談|かいだん}{話|ばなし}: ghost story (colloquial)\n- {怪談|かいだん}⟦{映画|えいが}→映画：02273_eiga⟧: horror movie (ghost story genre)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "15495_ibun",
+      "reading": "いぶん",
+      "headword": "{異聞|いぶん}",
+      "label": "strange tale"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20609_kaiki",
+      "reading": "かいき",
+      "headword": "{怪奇|かいき}",
+      "label": "mysterious"
+    },
+    {
+      "type": "related",
+      "target_id": "22730_horaa",
+      "reading": "ほらー",
+      "headword": "ホラー",
+      "label": "horror (genre)"
+    },
+    {
+      "type": "related",
+      "target_id": "25725_horaaeiga",
+      "reading": "ほらーえいが",
+      "headword": "ホラー{映画|えいが}",
+      "label": "horror movie"
+    },
+    {
+      "type": "related",
+      "target_id": "26207_horaashousetsu",
+      "reading": "ほらーしょうせつ",
+      "headword": "ホラー{小説|しょうせつ}",
+      "label": "horror novel"
+    }
+  ],
   "metadata": {
     "created": "2026-02-22T04:10:49Z",
-    "modified": "2026-07-13T21:19:15Z",
+    "modified": "2026-09-02T04:01:29Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

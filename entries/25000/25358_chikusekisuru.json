@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25358_chikusekisuru_ex1",
-      "japanese": "{疲労|ひろう}が{蓄積|ちくせき}している。",
+      "japanese": "⟦{疲労|ひろう}→疲労：13603_hirou⟧⟦が→が：00051_ga⟧{蓄積|ちくせき}して⟦いる→いる：00495_iru⟧。",
       "english": "Fatigue has been building up.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25358_chikusekisuru_ex2",
-      "japanese": "{長年|ながねん}の{経験|けいけん}を{蓄積|ちくせき}してきた。",
+      "japanese": "⟦{長年|ながねん}→長年：09684_naganen⟧⟦の→の：09472_no⟧⟦{経験|けいけん}→経験：01179_keiken⟧⟦を→を：00422_wo⟧{蓄積|ちくせき}してきた。",
       "english": "I have accumulated years of experience.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25358_chikusekisuru_ex3",
-      "japanese": "データを{蓄積|ちくせき}して{分析|ぶんせき}することで、{新|あたら}しい{知見|ちけん}が{得|え}られる。",
+      "japanese": "⟦データ→データ：03944_deeta⟧⟦を→を：00422_wo⟧{蓄積|ちくせき}して⟦{分析|ぶんせき}する→分析する：25338_bunsekisuru⟧ことで、⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦{知見|ちけん}→知見：13695_chiken⟧⟦が→が：00051_ga⟧⟦{得|え}られる→得る：02014_eru⟧。",
       "english": "By accumulating and analyzing data, new insights can be obtained.",
       "sense_numbers": [
         1
@@ -45,7 +45,7 @@
     },
     {
       "id": "25358_chikusekisuru_ex4",
-      "japanese": "ストレスを{蓄積|ちくせき}させないように、{定期的|ていきてき}に{休息|きゅうそく}を{取|と}ろう。",
+      "japanese": "⟦ストレス→ストレス：03827_sutoresu⟧⟦を→を：00422_wo⟧{蓄積|ちくせき}させないよう⟦に→に：00314_ni⟧、⟦{定期的|ていきてき}→定期的：06173_teikiteki⟧⟦に→に：00314_ni⟧⟦{休息|きゅうそく}→休息：02587_kyuusoku⟧⟦を→を：00422_wo⟧⟦{取|と}ろう→取る：00565_toru⟧。",
       "english": "Let's take regular breaks so stress doesn't build up.",
       "sense_numbers": [
         1
@@ -54,8 +54,45 @@
       "notes": null
     }
   ],
-  "notes": "Emphasizes gradual, layered accumulation over time. Used in both positive contexts (knowledge, experience, wealth) and negative ones (fatigue, stress, waste). More formal than {溜|た}まる.\n\nCOMMON COLLOCATIONS:\n- {疲労|ひろう}の{蓄積|ちくせき}: accumulation of fatigue\n- データの{蓄積|ちくせき}: accumulation of data\n- {知識|ちしき}を{蓄積|ちくせき}する: to build up knowledge\n- {資本|しほん}{蓄積|ちくせき}: capital accumulation\n- {蓄積|ちくせき}された{経験|けいけん}: accumulated experience\n\nSIMILAR WORDS:\n- {溜|た}まる: to accumulate, to pile up — more casual, often implies unwanted buildup\n- {貯|た}める: to save up — focuses on deliberate saving, especially money\n- {積|つ}み{重|かさ}ねる: to pile up — emphasizes the layering process; often used for efforts or experiences",
+  "notes": "Emphasizes gradual, layered accumulation over time. Used in both positive contexts (knowledge, experience, wealth) and negative ones (fatigue, stress, waste). More formal than ⟦{溜|た}まる→溜まる：02067_tamaru⟧.\n\nCOMMON COLLOCATIONS:\n- ⟦{疲労|ひろう}→疲労：13603_hirou⟧⟦の→の：09472_no⟧⟦{蓄積|ちくせき}→蓄積：14023_chikuseki⟧: accumulation of fatigue\n- ⟦データ→データ：03944_deeta⟧⟦の→の：09472_no⟧⟦{蓄積|ちくせき}→蓄積：14023_chikuseki⟧: accumulation of data\n- ⟦{知識|ちしき}→知識：01463_chishiki⟧⟦を→を：00422_wo⟧{蓄積|ちくせき}する: to build up knowledge\n- ⟦{資本|しほん}→資本：03197_shihon⟧⟦{蓄積|ちくせき}→蓄積：14023_chikuseki⟧: capital accumulation\n- {蓄積|ちくせき}された⟦{経験|けいけん}→経験：01179_keiken⟧: accumulated experience\n\nSIMILAR WORDS:\n- ⟦{溜|た}まる→溜まる：02067_tamaru⟧: to accumulate, to pile up — more casual, often implies unwanted buildup\n- ⟦{貯|た}める→貯める：27801_tameru⟧: to save up — focuses on deliberate saving, especially money\n- ⟦{積|つ}み{重|かさ}ねる→積み重ねる：06235_tsumikasaneru⟧: to pile up — emphasizes the layering process; often used for efforts or experiences",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02067_tamaru",
+      "reading": "たまる",
+      "headword": "{溜|た}まる",
+      "label": "to accumulate, to pile up"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27801_tameru",
+      "reading": "ためる",
+      "headword": "{貯|た}める",
+      "label": "to save up"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06235_tsumikasaneru",
+      "reading": "つみかさねる",
+      "headword": "{積|つ}み{重|かさ}ねる",
+      "label": "to pile up"
+    },
+    {
+      "type": "related",
+      "target_id": "07920_tsumiageru",
+      "reading": "つみあげる",
+      "headword": "{積|つ}み{上|あ}げる",
+      "label": "to pile up"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19542_tsumikasanaru",
+      "reading": "つみかさなる",
+      "headword": "{積|つ}み{重|かさ}なる",
+      "label": "to pile up"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -69,10 +106,11 @@
         "abstract",
         "science"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "both"
     },
     "created": "2026-04-24T16:09:43Z",
-    "modified": "2026-04-24T16:09:43Z"
+    "modified": "2026-09-02T04:02:22Z"
   },
   "conjugation": {
     "type": "suru",

@@ -15,38 +15,59 @@
   "examples": [
     {
       "id": "25166_hakusuu_ex1",
-      "japanese": "{泊数|はくすう}を{選|えら}んでください。",
+      "japanese": "{泊数|はくすう}⟦を→を：00422_wo⟧⟦{選|えら}んで→選ぶ：00835_erabu⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please select the number of nights.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "25166_hakusuu_ex2",
-      "japanese": "{泊数|はくすう}が{増|ふ}えると{料金|りょうきん}も{上|あ}がります。",
+      "japanese": "{泊数|はくすう}⟦が→が：00051_ga⟧⟦{増|ふ}える→増える：01183_fueru⟧⟦と→と：00512_to⟧⟦{料金|りょうきん}→料金：03797_ryoukin⟧⟦も→も：00484_mo⟧⟦{上|あ}がります→上がる：00615_agaru⟧。",
       "english": "The price goes up as the number of nights increases.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "25166_hakusuu_ex3",
-      "japanese": "{予約|よやく}サイトで{泊数|はくすう}と{人数|にんずう}を{入力|にゅうりょく}すると、{空室|くうしつ}が{表示|ひょうじ}されます。",
+      "japanese": "⟦{予約|よやく}→予約：01522_yoyaku⟧⟦サイト→サイト：05603_saito⟧⟦で→で：00502_de⟧{泊数|はくすう}⟦と→と：00512_to⟧⟦{人数|にんずう}→人数：03132_ninzuu⟧⟦を→を：00422_wo⟧⟦{入力|にゅうりょく}する→入力する：28127_nyuuryokusuru⟧⟦と→と：00512_to⟧、⟦{空室|くうしつ}→空室：14798_kuushitsu⟧⟦が→が：00051_ga⟧⟦{表示|ひょうじ}→表示：03143_hyouji⟧⟦されます→する：00392_suru⟧。",
       "english": "When you enter the number of nights and number of guests on the booking site, available rooms are displayed.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {泊|はく} (overnight stay; counter for nights) and {数|すう} (number, count). Frequently encountered on hotel booking websites, travel brochures, and reservation forms.\n\nCOMMON COLLOCATIONS:\n- {泊数|はくすう}を{変更|へんこう}する: to change the number of nights\n- {泊数|はくすう}に{応|おう}じて: according to the number of nights\n- {最低|さいてい}{泊数|はくすう}: minimum number of nights\n- {連泊|れんぱく}{泊数|はくすう}: consecutive nights stayed\n\nSIMILAR WORDS:\n- {宿泊日数|しゅくはくにっすう}: number of accommodation days — a more formal synonym using {日数|にっすう} (number of days)\n- {滞在期間|たいざいきかん}: length of stay — broader term covering the entire stay, not just nights",
+  "notes": "A compound of {泊|はく} (overnight stay; counter for nights) and ⟦{数|すう}→数：03360_suu⟧ (number, count). Frequently encountered on hotel booking websites, travel brochures, and reservation forms.\n\nCOMMON COLLOCATIONS:\n- {泊数|はくすう}⟦を→を：00422_wo⟧⟦{変更|へんこう}する→変更する：30779_henkousuru⟧: to change the number of nights\n- {泊数|はくすう}⟦に→に：00314_ni⟧⟦{応|おう}じて→応じる：02018_oujiru⟧: according to the number of nights\n- ⟦{最低|さいてい}→最低：01412_saitei⟧{泊数|はくすう}: minimum number of nights\n- ⟦{連泊|れんぱく}→連泊：07049_renpaku⟧{泊数|はくすう}: consecutive nights stayed\n\nSIMILAR WORDS:\n- {宿泊日数|しゅくはくにっすう}: number of accommodation days — a more formal synonym using ⟦{日数|にっすう}→日数：12953_nissuu⟧ (number of days)\n- ⟦{滞在期間|たいざいきかん}→滞在期間：20474_taizaikikan⟧: length of stay — broader term covering the entire stay, not just nights",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20474_taizaikikan",
+      "reading": "たいざいきかん",
+      "headword": "{滞在期間|たいざいきかん}",
+      "label": "length of stay"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["travel", "number"]
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "travel",
+        "number"
+      ]
     },
     "created": "2026-04-23T13:21:08Z",
-    "modified": "2026-04-23T13:21:08Z"
+    "modified": "2026-09-02T04:02:21Z"
   }
 }

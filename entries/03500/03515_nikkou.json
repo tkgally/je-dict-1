@@ -44,7 +44,7 @@
     },
     {
       "id": "03515_nikkou_ex4",
-      "japanese": "⟦{直射|ちょくしゃ}→直射：20103_chokusha⟧{日光|にっこう}⟦を→を：00422_wo⟧⟦{避|さ}けて→避ける：02109_sakeru⟧、⟦{涼|すず}しい→涼しい：00674_suzushii⟧⟦{場所|ばしょ}→場所：00829_basho⟧⟦に→に：00314_ni⟧⟦{保管|ほかん}→保管：11442_hokan⟧してください。",
+      "japanese": "⟦{直射|ちょくしゃ}→直射：20103_chokusha⟧{日光|にっこう}⟦を→を：00422_wo⟧⟦{避|さ}けて→避ける：02109_sakeru⟧、⟦{涼|すず}しい→涼しい：00674_suzushii⟧⟦{場所|ばしょ}→場所：00829_basho⟧⟦に→に：00314_ni⟧⟦{保管|ほかん}→保管：11442_hokan⟧⟦して→する：00392_suru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Keep it in a cool place, away from direct sunlight.",
       "notes": null,
       "has_audio": false,
@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "USAGE: {日光|にっこう} refers specifically to light from the sun. It's used in scientific, health, and everyday contexts.\n\nCOMMON PATTERNS:\n・{日光|にっこう}⟦を→を：00422_wo⟧⟦{浴|あ}びる→浴びる：02844_abiru⟧ (to bask in sunlight)\n・{日光|にっこう}⟦に→に：00314_ni⟧⟦{当|あ}たる→当たる：01860_ataru⟧ (to be exposed to sunlight)\n・{日光|にっこう}⟦が→が：00051_ga⟧⟦{当|あ}たる→当たる：01860_ataru⟧ (sunlight hits)\n・⟦{直射|ちょくしゃ}→直射：20103_chokusha⟧{日光|にっこう} (direct sunlight)\n・{日光|にっこう}⟦{消毒|しょうどく}→消毒：07591_shoudoku⟧ (sun disinfection)\n・⟦{日光浴|にっこうよく}→日光浴：21203_nikkouyoku⟧ (sunbathing)\n\nNOTE: {日光|にっこう} is also a famous tourist destination in Tochigi Prefecture, known for Tōshō-gū shrine. Context determines whether the word refers to the place or sunlight.\n\nSIMILAR WORDS:\n・⟦{太陽|たいよう}→太陽：03398_taiyou⟧⟦の→の：09472_no⟧⟦{光|ひかり}→光：01707_hikari⟧ - sunlight (lit. sun's light)\n・⟦{陽射|ひざ}し→陽射し：00107_hizashi⟧ - sunshine, sunlight (poetic)\n・⟦{日差|ひざ}し→日差し：00107_hizashi⟧ - sunshine",
+  "notes": "USAGE: {日光|にっこう} refers specifically to light from the sun. It's used in scientific, health, and everyday contexts.\n\nCOMMON PATTERNS:\n- {日光|にっこう}⟦を→を：00422_wo⟧⟦{浴|あ}びる→浴びる：02844_abiru⟧ (to bask in sunlight)\n- {日光|にっこう}⟦に→に：00314_ni⟧⟦{当|あ}たる→当たる：01860_ataru⟧ (to be exposed to sunlight)\n- {日光|にっこう}⟦が→が：00051_ga⟧⟦{当|あ}たる→当たる：01860_ataru⟧ (sunlight hits)\n- ⟦{直射|ちょくしゃ}→直射：20103_chokusha⟧{日光|にっこう} (direct sunlight)\n- {日光|にっこう}⟦{消毒|しょうどく}→消毒：07591_shoudoku⟧ (sun disinfection)\n- ⟦{日光浴|にっこうよく}→日光浴：21203_nikkouyoku⟧ (sunbathing)\n\nNOTE: {日光|にっこう} is also a famous tourist destination in Tochigi Prefecture, known for Tōshō-gū shrine. Context determines whether the word refers to the place or sunlight.\n\nSIMILAR WORDS:\n- ⟦{太陽|たいよう}→太陽：03398_taiyou⟧⟦の→の：09472_no⟧⟦{光|ひかり}→光：01707_hikari⟧ - sunlight (lit. sun's light)\n- ⟦{陽射|ひざ}し→陽射し：00107_hizashi⟧ - sunshine, sunlight (poetic)\n- ⟦{日差|ひざ}し→日差し：00107_hizashi⟧ - sunshine",
   "cross_references": [
     {
       "type": "related",
@@ -78,11 +78,25 @@
       "reading": "ひざし",
       "headword": "{日差|ひざ}し",
       "label": "sunlight (as felt)"
+    },
+    {
+      "type": "related",
+      "target_id": "04144_kousen",
+      "reading": "こうせん",
+      "headword": "{光線|こうせん}",
+      "label": "beam, ray of light"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21173_nisshou",
+      "reading": "にっしょう",
+      "headword": "{日照|にっしょう}",
+      "label": "sunshine"
     }
   ],
   "metadata": {
     "created": "2026-01-12T10:46:00Z",
-    "modified": "2026-08-24T12:31:20Z",
+    "modified": "2026-09-02T04:01:03Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

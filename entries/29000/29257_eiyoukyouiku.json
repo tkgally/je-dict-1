@@ -15,41 +15,61 @@
   "examples": [
     {
       "id": "29257_eiyoukyouiku_ex1",
-      "japanese": "{学校|がっこう}で{栄養教育|えいようきょういく}を{行|おこな}う。",
+      "japanese": "⟦{学校|がっこう}→学校：00055_gakkou⟧⟦で→で：00502_de⟧{栄養教育|えいようきょういく}⟦を→を：00422_wo⟧⟦{行|おこな}う→行う：01238_okonau⟧。",
       "english": "We provide nutrition education at school.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29257_eiyoukyouiku_ex2",
-      "japanese": "{子|こ}どもへの{栄養教育|えいようきょういく}が{大切|たいせつ}だ。",
+      "japanese": "{子|こ}ども⟦へ→へ：02473_he⟧⟦の→の：09472_no⟧{栄養教育|えいようきょういく}⟦が→が：00051_ga⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧だ。",
       "english": "Nutrition education for children is important.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29257_eiyoukyouiku_ex3",
-      "japanese": "{管理|かんり}{栄養士|えいようし}が{病院|びょういん}で{患者|かんじゃ}に{栄養教育|えいようきょういく}を{行|おこな}っている。",
+      "japanese": "⟦{管理|かんり}{栄養士|えいようし}→管理栄養士：29379_kanrieiyoushi⟧⟦が→が：00051_ga⟧⟦{病院|びょういん}→病院：00577_byouin⟧⟦で→で：00502_de⟧⟦{患者|かんじゃ}→患者：00170_kanja⟧⟦に→に：00314_ni⟧{栄養教育|えいようきょういく}⟦を→を：00422_wo⟧⟦{行|おこな}っている→行う：01238_okonau⟧。",
       "english": "Registered dietitians provide nutrition education to patients at the hospital.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Formed from {栄養|えいよう} (nutrition) + {教育|きょういく} (education). A standard term in schools, healthcare, and public health.\n\nCOMMON COLLOCATIONS:\n- {栄養教育|えいようきょういく}を{受|う}ける: to receive nutrition education\n- {学校|がっこう}{栄養教育|えいようきょういく}: school nutrition education\n\nSIMILAR WORDS:\n- {食育|しょくいく}: food and dietary education — a broader concept emphasizing attitudes toward food and eating, promoted nationally in Japan\n- {栄養指導|えいようしどう}: dietary guidance — individualized advice, often one-on-one with a dietitian",
+  "notes": "Formed from ⟦{栄養|えいよう}→栄養：01882_eiyou⟧ (nutrition) + ⟦{教育|きょういく}→教育：01313_kyouiku⟧ (education). A standard term in schools, healthcare, and public health.\n\nCOMMON COLLOCATIONS:\n- {栄養教育|えいようきょういく}⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧: to receive nutrition education\n- ⟦{学校|がっこう}→学校：00055_gakkou⟧{栄養教育|えいようきょういく}: school nutrition education\n\nSIMILAR WORDS:\n- ⟦{食育|しょくいく}→食育：14697_shokuiku⟧: food and dietary education — a broader concept emphasizing attitudes toward food and eating, promoted nationally in Japan\n- {栄養指導|えいようしどう}: dietary guidance — individualized advice, often one-on-one with a dietitian",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14697_shokuiku",
+      "reading": "しょくいく",
+      "headword": "{食育|しょくいく}",
+      "label": "food and dietary education"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["education", "health"],
+      "politeness": "plain",
+      "semantic": [
+        "education",
+        "health"
+      ],
       "domain": []
     },
     "created": "2026-06-14T12:18:51Z",
-    "modified": "2026-06-14T12:18:51Z"
+    "modified": "2026-09-02T04:02:36Z"
   }
 }

@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "26271_senryouchi_ex1",
-      "japanese": "{占領地|せんりょうち}の{住民|じゅうみん}は{苦|くる}しんだ。",
+      "japanese": "{占領地|せんりょうち}⟦の→の：09472_no⟧⟦{住民|じゅうみん}→住民：03281_juumin⟧⟦は→は：00079_ha⟧⟦{苦|くる}しんだ→苦しむ：01938_kurushimu⟧。",
       "english": "The residents of the occupied territory suffered.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "26271_senryouchi_ex2",
-      "japanese": "{占領地|せんりょうち}からの{撤退|てったい}が{決定|けってい}された。",
+      "japanese": "{占領地|せんりょうち}⟦から→から：00504_kara⟧⟦の→の：09472_no⟧⟦{撤退|てったい}→撤退：12822_tettai⟧⟦が→が：00051_ga⟧⟦{決定|けってい}→決定：02701_kettei⟧⟦された→する：00392_suru⟧。",
       "english": "The withdrawal from the occupied territory was decided.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "26271_senryouchi_ex3",
-      "japanese": "{戦後|せんご}、{連合国|れんごうこく}は{占領地|せんりょうち}に{新|あたら}しい{行政機関|ぎょうせいきかん}を{設置|せっち}した。",
+      "japanese": "⟦{戦後|せんご}→戦後：12853_sengo⟧、{連合国|れんごうこく}⟦は→は：00079_ha⟧{占領地|せんりょうち}⟦に→に：00314_ni⟧⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦{行政機関|ぎょうせいきかん}→行政機関：30276_gyouseikikan⟧⟦を→を：00422_wo⟧⟦{設置|せっち}した→設置する：26989_secchisuru⟧。",
       "english": "After the war, the Allied powers established new administrative bodies in the occupied territories.",
       "sense_numbers": [
         1
@@ -43,12 +43,29 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {占領|せんりょう} (occupation, military seizure) + {地|ち} (land/territory). Refers to land controlled by a foreign military power or conquering force. Commonly encountered in history textbooks, news coverage of conflicts, and political discussions.\n\nCOMMON COLLOCATIONS:\n- {占領地|せんりょうち}の{統治|とうち}: governance of occupied territory\n- {占領地|せんりょうち}からの{撤退|てったい}: withdrawal from occupied territory\n- {占領地|せんりょうち}の{住民|じゅうみん}: residents of occupied territory\n- {占領地|せんりょうち}{行政|ぎょうせい}: occupied territory administration\n\nSIMILAR WORDS:\n- {占領区|せんりょうく}: occupied zone/sector (smaller administrative division within occupied territory)\n- {植民地|しょくみんち}: colony (territory exploited economically over a long period, not just militarily held)\n- {領土|りょうど}: territory (one's own sovereign territory; neutral term)\n\nHISTORICAL NOTE:\nIn Japanese history, the term is most associated with the post-WWII Allied occupation of Japan (1945-1952) and Japan's own wartime occupations in Asia.",
-  "cross_references": [],
+  "notes": "A compound of ⟦{占領|せんりょう}→占領：11863_senryou⟧ (occupation, military seizure) + {地|ち} (land/territory). Refers to land controlled by a foreign military power or conquering force. Commonly encountered in history textbooks, news coverage of conflicts, and political discussions.\n\nCOMMON COLLOCATIONS:\n- {占領地|せんりょうち}⟦の→の：09472_no⟧⟦{統治|とうち}→統治：13842_touchi⟧: governance of occupied territory\n- {占領地|せんりょうち}⟦から→から：00504_kara⟧⟦の→の：09472_no⟧⟦{撤退|てったい}→撤退：12822_tettai⟧: withdrawal from occupied territory\n- {占領地|せんりょうち}⟦の→の：09472_no⟧⟦{住民|じゅうみん}→住民：03281_juumin⟧: residents of occupied territory\n- {占領地|せんりょうち}⟦{行政|ぎょうせい}→行政：14122_gyousei⟧: occupied territory administration\n\nSIMILAR WORDS:\n- {占領区|せんりょうく}: occupied zone/sector (smaller administrative division within occupied territory)\n- ⟦{植民地|しょくみんち}→植民地：16073_shokuminchi⟧: colony (territory exploited economically over a long period, not just militarily held)\n- ⟦{領土|りょうど}→領土：15711_ryoudo⟧: territory (one's own sovereign territory; neutral term)\n\nETYMOLOGY:\nIn Japanese history, the term is most associated with the post-WWII Allied occupation of Japan (1945-1952) and Japan's own wartime occupations in Asia.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16073_shokuminchi",
+      "reading": "しょくみんち",
+      "headword": "{植民地|しょくみんち}",
+      "label": "colony"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15711_ryoudo",
+      "reading": "りょうど",
+      "headword": "{領土|りょうど}",
+      "label": "territory (one's own sovereign territory"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "politics",
         "military",
@@ -59,6 +76,6 @@
       ]
     },
     "created": "2026-04-30T14:24:08Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T04:02:25Z"
   }
 }

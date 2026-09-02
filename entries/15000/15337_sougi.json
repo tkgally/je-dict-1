@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "15337_sougi_ex1",
-      "japanese": "{葬儀|そうぎ}は{明日|あした}{行|おこな}われる。",
+      "japanese": "{葬儀|そうぎ}⟦は→は：00079_ha⟧⟦{明日|あした}→明日：00501_ashita⟧⟦{行|おこな}われる→行う：01238_okonau⟧。",
       "english": "The funeral will be held tomorrow.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "15337_sougi_ex2",
-      "japanese": "{葬儀|そうぎ}に{参列|さんれつ}するために{黒|くろ}い{服|ふく}を{着|き}た。",
+      "japanese": "{葬儀|そうぎ}⟦に→に：00314_ni⟧⟦{参列|さんれつ}→参列：11888_sanretsu⟧⟦する→する：00392_suru⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧⟦{黒|くろ}い→黒い：00588_kuroi⟧⟦{服|ふく}→服：00695_fuku⟧⟦を→を：00422_wo⟧⟦{着|き}た→着る：00541_kiru⟧。",
       "english": "I wore black clothes to attend the funeral.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "15337_sougi_ex3",
-      "japanese": "{葬儀|そうぎ}の{準備|じゅんび}は{葬儀社|そうぎしゃ}に{任|まか}せることが{多|おお}い。",
+      "japanese": "{葬儀|そうぎ}⟦の→の：09472_no⟧⟦{準備|じゅんび}→準備：01431_junbi⟧⟦は→は：00079_ha⟧{葬儀社|そうぎしゃ}⟦に→に：00314_ni⟧⟦{任|まか}せる→任せる：02417_makaseru⟧こと⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "Funeral preparations are often left to the funeral home.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nThe standard formal word for a funeral ceremony. In Japan, funerals often consist of two parts: {通夜|つや} (wake, held the evening before) and {葬儀|そうぎ}/{告別式|こくべつしき} (funeral/farewell ceremony).\n\nCOMMON COLLOCATIONS:\n- {葬儀|そうぎ}を{行|おこな}う (to hold a funeral)\n- {葬儀|そうぎ}に{参列|さんれつ}する (to attend a funeral)\n- {葬儀社|そうぎしゃ} (funeral home, funeral director)\n- {葬儀場|そうぎじょう} (funeral hall)\n- {家族葬|かぞくそう} (family-only funeral)",
+  "notes": "USAGE:\nThe standard formal word for a funeral ceremony. In Japan, funerals often consist of two parts: ⟦{通夜|つや}→通夜：16026_tsuya⟧ (wake, held the evening before) and {葬儀|そうぎ}/⟦{告別式|こくべつしき}→告別式：05923_kokubetsushiki⟧ (funeral/farewell ceremony).\n\nCOMMON COLLOCATIONS:\n- {葬儀|そうぎ}⟦を→を：00422_wo⟧⟦{行|おこな}う→行う：01238_okonau⟧ (to hold a funeral)\n- {葬儀|そうぎ}⟦に→に：00314_ni⟧⟦{参列|さんれつ}→参列：11888_sanretsu⟧⟦する→する：00392_suru⟧ (to attend a funeral)\n- {葬儀社|そうぎしゃ} (funeral home, funeral director)\n- ⟦{葬儀場|そうぎじょう}→葬儀場：25807_sougijou⟧ (funeral hall)\n- {家族葬|かぞくそう} (family-only funeral)",
   "cross_references": [
     {
       "type": "synonym",
@@ -52,11 +52,18 @@
       "reading": "そうしき",
       "headword": "{葬式|そうしき}",
       "label": "funeral (common)"
+    },
+    {
+      "type": "related",
+      "target_id": "23563_choumon",
+      "reading": "ちょうもん",
+      "headword": "{弔問|ちょうもん}",
+      "label": "condolence visit"
     }
   ],
   "metadata": {
     "created": "2026-03-06T09:51:36Z",
-    "modified": "2026-07-16T07:06:35Z",
+    "modified": "2026-09-02T04:01:40Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -64,6 +71,7 @@
         "noun"
       ],
       "formality": "formal",
+      "politeness": "plain",
       "semantic": [
         "religion"
       ]

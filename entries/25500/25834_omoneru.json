@@ -3,7 +3,7 @@
   "headword": "おもねる",
   "reading": "おもねる",
   "romaji": "omoneru",
-  "part_of_speech": "verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to flatter; to fawn on; to curry favor",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25834_omoneru_ex1",
-      "japanese": "{権力|けんりょく}におもねる。",
+      "japanese": "⟦{権力|けんりょく}→権力：10020_kenryoku⟧⟦に→に：00314_ni⟧おもねる。",
       "english": "To curry favor with those in power.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25834_omoneru_ex2",
-      "japanese": "{上司|じょうし}におもねるような{態度|たいど}は{好|この}まれない。",
+      "japanese": "⟦{上司|じょうし}→上司：03286_joushi⟧⟦に→に：00314_ni⟧おもねるような⟦{態度|たいど}→態度：03396_taido⟧⟦は→は：00079_ha⟧⟦{好|この}まれない→好む：02103_konomu⟧。",
       "english": "A fawning attitude toward one's boss is not well-regarded.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25834_omoneru_ex3",
-      "japanese": "{彼|かれ}は{世論|よろん}におもねることなく、{自分|じぶん}の{信念|しんねん}を{貫|つらぬ}いた。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{世論|よろん}→世論：16145_yoron⟧⟦に→に：00314_ni⟧おもねること⟦なく→ない：01118_nai⟧、⟦{自分|じぶん}→自分：02887_jibun⟧⟦の→の：09472_no⟧⟦{信念|しんねん}→信念：03074_shinnen⟧⟦を→を：00422_wo⟧⟦{貫|つらぬ}いた→貫く：18728_tsuranuku⟧。",
       "english": "He stuck to his convictions without pandering to public opinion.",
       "sense_numbers": [
         1
@@ -44,8 +44,16 @@
       "notes": null
     }
   ],
-  "notes": "Written in kanji as {阿|おもね}る, though the hiragana spelling is more common in modern usage. A somewhat literary or formal word with a distinctly negative connotation — it implies insincere flattery motivated by self-interest. Often used in criticism of politicians, subordinates, or media.\n\nThe particle に marks the person or entity being flattered.\n\nCOMMON COLLOCATIONS:\n- {権力|けんりょく}におもねる: to curry favor with power\n- {世論|よろん}におもねる: to pander to public opinion\n- {大衆|たいしゅう}におもねる: to pander to the masses\n- おもねることなく: without flattering; without pandering\n\nSIMILAR WORDS:\n- {媚|こ}びる: to fawn on; to flatter — more colloquial and widely used; also negative but less literary\n- {取|と}り{入|い}る: to ingratiate oneself — focuses on maneuvering to gain favor, often through actions rather than words\n- へつらう: to flatter; to toady — close synonym, slightly more colloquial than おもねる",
-  "cross_references": [],
+  "notes": "Written in kanji as {阿|おもね}る, though the hiragana spelling is more common in modern usage. A somewhat literary or formal word with a distinctly negative connotation — it implies insincere flattery motivated by self-interest. Often used in criticism of politicians, subordinates, or media.\n\nThe particle ⟦に→に：00314_ni⟧ marks the person or entity being flattered.\n\nCOMMON COLLOCATIONS:\n- ⟦{権力|けんりょく}→権力：10020_kenryoku⟧⟦に→に：00314_ni⟧おもねる: to curry favor with power\n- ⟦{世論|よろん}→世論：16145_yoron⟧⟦に→に：00314_ni⟧おもねる: to pander to public opinion\n- ⟦{大衆|たいしゅう}→大衆：10150_taishuu⟧⟦に→に：00314_ni⟧おもねる: to pander to the masses\n- おもねること⟦なく→ない：01118_nai⟧: without flattering; without pandering\n\nSIMILAR WORDS:\n- ⟦{媚|こ}びる→媚びる：09028_kobiru⟧: to fawn on; to flatter — more colloquial and widely used; also negative but less literary\n- {取|と}り{入|い}る: to ingratiate oneself — focuses on maneuvering to gain favor, often through actions rather than words\n- へつらう: to flatter; to toady — close synonym, slightly more colloquial than おもねる",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09028_kobiru",
+      "reading": "こびる",
+      "headword": "{媚|こ}びる",
+      "label": "to fawn on"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -54,6 +62,7 @@
         "verb-godan"
       ],
       "formality": "formal",
+      "politeness": "plain",
       "semantic": [
         "society"
       ],
@@ -61,7 +70,7 @@
       "transitivity": "intransitive"
     },
     "created": "2026-04-27T15:07:25Z",
-    "modified": "2026-08-04T21:27:04Z"
+    "modified": "2026-09-02T04:02:24Z"
   },
   "conjugation": {
     "type": "godan",

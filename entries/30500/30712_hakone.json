@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30712_hakone_ex1",
-      "japanese": "{箱根|はこね}の{温泉|おんせん}に{行|い}きたい。",
+      "japanese": "{箱根|はこね}⟦の→の：09472_no⟧⟦{温泉|おんせん}→温泉：04117_onsen⟧⟦に→に：00314_ni⟧⟦{行|い}きたい→行く：00119_iku⟧。",
       "english": "I want to go to the hot springs in Hakone.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30712_hakone_ex2",
-      "japanese": "{正月|しょうがつ}はテレビで{箱根|はこね}{駅伝|えきでん}を{見|み}る。",
+      "japanese": "⟦{正月|しょうがつ}→正月：01433_shougatsu⟧⟦は→は：00079_ha⟧⟦テレビ→テレビ：01536_terebi⟧⟦で→で：00502_de⟧{箱根|はこね}⟦{駅伝|えきでん}→駅伝：30715_ekiden⟧⟦を→を：00422_wo⟧⟦{見|み}る→見る：00283_miru⟧。",
       "english": "At New Year's we watch the Hakone Ekiden on TV.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30712_hakone_ex3",
-      "japanese": "{天気|てんき}がよければ、{箱根|はこね}から{芦|あし}ノ{湖|こ}{越|ご}しに{富士山|ふじさん}が{見|み}える。",
+      "japanese": "⟦{天気|てんき}→天気：00582_tenki⟧⟦が→が：00051_ga⟧⟦よければ→いい：00118_ii⟧、{箱根|はこね}⟦から→から：00504_kara⟧{芦|あし}ノ{湖|こ}{越|ご}し⟦に→に：00314_ni⟧⟦{富士山|ふじさん}→富士山：09514_fujisan⟧⟦が→が：00051_ga⟧⟦{見|み}える→見える：01165_mieru⟧。",
       "english": "If the weather is good, you can see Mount Fuji from Hakone across Lake Ashi.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "COMMON EXPRESSIONS:\n- {箱根|はこね}{駅伝|えきでん}: the university relay race run every January 2nd and 3rd\n- {箱根|はこね}{温泉|おんせん}: the Hakone hot springs\n- {箱根|はこね}{越|ご}え: crossing the Hakone pass — historically the hardest stretch of the Tokaido road\n- {箱根|はこね}{関所|せきしょ}: the Edo-period checkpoint at Hakone\n\nCULTURAL CONTEXT:\nBecause the Hakone Ekiden is broadcast nationwide over the New Year holiday, {箱根|はこね} is tied to New Year viewing habits as much as to travel. Its steep pass also lives on in the old song line {箱根|はこね}の{山|やま}は{天下|てんか}の{険|けん} — \"the mountains of Hakone are the steepest under heaven.\"",
+  "notes": "COMMON EXPRESSIONS:\n- {箱根|はこね}⟦{駅伝|えきでん}→駅伝：30715_ekiden⟧: the university relay race run every January 2nd and 3rd\n- {箱根|はこね}⟦{温泉|おんせん}→温泉：04117_onsen⟧: the Hakone hot springs\n- {箱根|はこね}{越|ご}え: crossing the Hakone pass — historically the hardest stretch of the Tokaido road\n- {箱根|はこね}{関所|せきしょ}: the Edo-period checkpoint at Hakone\n\nCULTURAL NOTE:\nBecause the Hakone Ekiden is broadcast nationwide over the New Year holiday, {箱根|はこね} is tied to New Year viewing habits as much as to travel. Its steep pass also lives on in the old song line {箱根|はこね}⟦の→の：09472_no⟧⟦{山|やま}→山：02168_yama⟧⟦は→は：00079_ha⟧⟦{天下|てんか}→天下：12188_tenka⟧⟦の→の：09472_no⟧{険|けん} — \"the mountains of Hakone are the steepest under heaven.\"",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,7 +53,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "proper-noun",
         "place-name",
@@ -62,6 +62,6 @@
       "domain": []
     },
     "created": "2026-08-20T02:40:41Z",
-    "modified": "2026-08-20T02:40:41Z"
+    "modified": "2026-09-02T04:02:41Z"
   }
 }

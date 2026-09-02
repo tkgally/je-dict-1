@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30302_kunyakunya_ex1",
-      "japanese": "{体|からだ}がくにゃくにゃになった。",
+      "japanese": "⟦{体|からだ}→体：00784_karada⟧⟦が→が：00051_ga⟧くにゃくにゃになった。",
       "english": "My body went completely limp.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30302_kunyakunya_ex2",
-      "japanese": "{熱|ねつ}でスプーンがくにゃくにゃに{曲|ま}がった。",
+      "japanese": "⟦{熱|ねつ}→熱：01690_netsu⟧⟦で→で：00502_de⟧⟦スプーン→スプーン：00891_supuun⟧⟦が→が：00051_ga⟧くにゃくにゃ⟦に→に：00314_ni⟧⟦{曲|ま}がった→曲がる：00649_magaru⟧。",
       "english": "The spoon bent limply in the heat.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30302_kunyakunya_ex3",
-      "japanese": "この{人形|にんぎょう}は{中|なか}に{針金|はりがね}が{入|はい}っていないので、くにゃくにゃして{立|た}たない。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{人形|にんぎょう}→人形：01487_ningyou⟧⟦は→は：00079_ha⟧⟦{中|なか}→中：00654_naka⟧⟦に→に：00314_ni⟧⟦{針金|はりがね}→針金：04324_harigane⟧⟦が→が：00051_ga⟧⟦{入|はい}っていない→入る：00494_hairu⟧⟦の→の：09472_no⟧で、くにゃくにゃ⟦して→する：00392_suru⟧⟦{立|た}たない→立つ：00758_tatsu⟧。",
       "english": "This doll has no wire inside, so it is too floppy to stand up.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Used both of physical objects that lack rigidity and of a body with no strength in it. Common as くにゃくにゃになる (to go limp) and as a な-form modifier, くにゃくにゃな.\n\nCOMMON PATTERNS:\n- くにゃくにゃになる: to go limp, to lose all stiffness\n- くにゃくにゃ{曲|ま}がる: to bend floppily\n- くにゃくにゃした{素材|そざい}: a floppy material\n\nSIMILAR WORDS:\n- ぐにゃぐにゃ: limp, misshapen — the voiced form; heavier and more deformed\n- ふにゃふにゃ: soft and limp — emphasizes softness to the touch rather than bending\n- やわらかい: soft — the neutral adjective, with no image of collapsing",
+  "notes": "Used both of physical objects that lack rigidity and of a body with no strength in it. Common as くにゃくにゃ⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧ (to go limp) and as a な-form modifier, くにゃくにゃな.\n\nCOMMON PATTERNS:\n- くにゃくにゃ⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧: to go limp, to lose all stiffness\n- くにゃくにゃ⟦{曲|ま}がる→曲がる：00649_magaru⟧: to bend floppily\n- くにゃくにゃ⟦した→する：00392_suru⟧⟦{素材|そざい}→素材：09492_sozai⟧: a floppy material\n\nSIMILAR WORDS:\n- ⟦ぐにゃぐにゃ→ぐにゃぐにゃ：25196_gunyagunya⟧: limp, misshapen — the voiced form; heavier and more deformed\n- ⟦ふにゃふにゃ→ふにゃふにゃ：30323_funyafunya⟧: soft and limp — emphasizes softness to the touch rather than bending\n- やわらかい: soft — the neutral adjective, with no image of collapsing",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25196_gunyagunya",
+      "reading": "ぐにゃぐにゃ",
+      "headword": "ぐにゃぐにゃ",
+      "label": "limp, misshapen"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30323_funyafunya",
+      "reading": "ふにゃふにゃ",
+      "headword": "ふにゃふにゃ",
+      "label": "soft and limp"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -54,13 +70,13 @@
         "onomatopoeia"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "descriptive"
       ],
       "domain": []
     },
     "created": "2026-08-01T15:17:17Z",
-    "modified": "2026-08-01T15:17:17Z"
+    "modified": "2026-09-02T04:02:39Z"
   }
 }

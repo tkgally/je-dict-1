@@ -15,49 +15,78 @@
   "examples": [
     {
       "id": "30783_nihaku_ex1",
-      "japanese": "{二泊|にはく}{予約|よやく}しました。",
+      "japanese": "{二泊|にはく}⟦{予約|よやく}しました→予約する：22989_yoyakusuru⟧。",
       "english": "I booked two nights.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "30783_nihaku_ex2",
-      "japanese": "{京都|きょうと}に{二泊三日|にはくみっか}で{行|い}く{予定|よてい}です。",
+      "japanese": "⟦{京都|きょうと}→京都：09484_kyouto⟧⟦に→に：00314_ni⟧{二泊三日|にはくみっか}⟦で→で：00502_de⟧⟦{行|い}く→行く：00119_iku⟧⟦{予定|よてい}→予定：00824_yotei⟧です。",
       "english": "I'm planning a three-day, two-night trip to Kyoto.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "30783_nihaku_ex3",
-      "japanese": "{一泊|いっぱく}のつもりだったが、{楽|たの}しくて{二泊|にはく}に{延|の}ばした。",
+      "japanese": "⟦{一泊|いっぱく}→一泊：08892_ippaku⟧⟦の→の：09472_no⟧⟦つもり→つもり：01152_tsumori⟧だった⟦が→が：00051_ga⟧、⟦{楽|たの}しくて→楽しい：00817_tanoshii⟧{二泊|にはく}⟦に→に：00314_ni⟧⟦{延|の}ばした→延ばす：28291_nobasu⟧。",
       "english": "I had meant to stay one night, but I was enjoying it so much that I stretched it to two.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "30783_nihaku_ex4",
-      "japanese": "{出張|しゅっちょう}は{二泊|にはく}なので、{荷物|にもつ}は{機内持|きないも}ち{込|こ}みで{足|た}ります。",
+      "japanese": "⟦{出張|しゅっちょう}→出張：01094_shucchou⟧⟦は→は：00079_ha⟧{二泊|にはく}な⟦の→の：09472_no⟧で、⟦{荷物|にもつ}→荷物：00737_nimotsu⟧⟦は→は：00079_ha⟧⟦{機内持|きないも}ち{込|こ}み→機内持ち込み：10204_kinaimochikomi⟧⟦で→で：00502_de⟧⟦{足|た}ります→足りる：01209_tariru⟧。",
       "english": "The business trip is two nights, so carry-on luggage will be enough.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "The counter {泊|はく} counts nights of lodging. Watch the sound changes: {一泊|いっぱく}, {二泊|にはく}, {三泊|さんぱく}, {四泊|よんはく}, {六泊|ろっぱく}, {八泊|はっぱく}, {十泊|じっぱく}.\n\nCOMMON COLLOCATIONS:\n- {二泊三日|にはくみっか}: three days and two nights\n- {二泊|にはく}する: to stay two nights\n- {二泊分|にはくぶん}の{料金|りょうきん}: the charge for two nights\n\nUSAGE:\nTrip lengths are stated nights-first as {一泊二日|いっぱくふつか}, {二泊三日|にはくみっか}, {三泊四日|さんぱくよっか} — the reverse of the English order, and the form used in tour names and travel plans.",
+  "notes": "The counter {泊|はく} counts nights of lodging. Watch the sound changes: ⟦{一泊|いっぱく}→一泊：08892_ippaku⟧, {二泊|にはく}, {三泊|さんぱく}, {四泊|よんはく}, {六泊|ろっぱく}, {八泊|はっぱく}, {十泊|じっぱく}.\n\nCOMMON COLLOCATIONS:\n- {二泊三日|にはくみっか}: three days and two nights\n- {二泊|にはく}⟦する→する：00392_suru⟧: to stay two nights\n- {二泊分|にはくぶん}⟦の→の：09472_no⟧⟦{料金|りょうきん}→料金：03797_ryoukin⟧: the charge for two nights\n\nUSAGE:\nTrip lengths are stated nights-first as ⟦{一泊二日|いっぱくふつか}→一泊二日：26883_ippakufutsuka⟧, {二泊三日|にはくみっか}, {三泊四日|さんぱくよっか} — the reverse of the English order, and the form used in tour names and travel plans.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "07049_renpaku",
+      "reading": "れんぱく",
+      "headword": "{連泊|れんぱく}",
+      "label": "consecutive nights stay"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30781_ippakunishokutsuki",
+      "reading": "いっぱくにしょくつき",
+      "headword": "{一泊二食付|いっぱくにしょくつ}き",
+      "label": "one night with two meals (lodging plan)"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["travel", "quantity"],
+      "politeness": "plain",
+      "semantic": [
+        "travel",
+        "quantity"
+      ],
       "domain": []
     },
     "created": "2026-08-31T12:35:02Z",
-    "modified": "2026-08-31T12:35:02Z"
+    "modified": "2026-09-02T04:02:41Z"
   }
 }

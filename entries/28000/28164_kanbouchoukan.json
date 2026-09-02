@@ -15,41 +15,67 @@
   "examples": [
     {
       "id": "28164_kanbouchoukan_ex1",
-      "japanese": "{官房長官|かんぼうちょうかん}が{記者会見|きしゃかいけん}を{開|ひら}いた。",
+      "japanese": "{官房長官|かんぼうちょうかん}⟦が→が：00051_ga⟧⟦{記者会見|きしゃかいけん}→記者会見：19954_kishakaiken⟧⟦を→を：00422_wo⟧⟦{開|ひら}いた→開く：01979_hiraku⟧。",
       "english": "The Chief Cabinet Secretary held a press conference.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28164_kanbouchoukan_ex2",
-      "japanese": "{官房長官|かんぼうちょうかん}は{毎日|まいにち}{記者|きしゃ}の{質問|しつもん}に{答|こた}える。",
+      "japanese": "{官房長官|かんぼうちょうかん}⟦は→は：00079_ha⟧⟦{毎日|まいにち}→毎日：00729_mainichi⟧⟦{記者|きしゃ}→記者：14170_kisha⟧⟦の→の：09472_no⟧⟦{質問|しつもん}→質問：00888_shitsumon⟧⟦に→に：00314_ni⟧⟦{答|こた}える→答える：01099_kotaeru⟧。",
       "english": "The Chief Cabinet Secretary answers reporters' questions every day.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28164_kanbouchoukan_ex3",
-      "japanese": "{官房長官|かんぼうちょうかん}は{首相|しゅしょう}を{支|ささ}える{要|かなめ}のポストとされる。",
+      "japanese": "{官房長官|かんぼうちょうかん}⟦は→は：00079_ha⟧⟦{首相|しゅしょう}→首相：03217_shushou⟧⟦を→を：00422_wo⟧⟦{支|ささ}える→支える：01946_sasaeru⟧⟦{要|かなめ}→要：19357_kaname⟧⟦の→の：09472_no⟧⟦ポスト→ポスト：02965_posuto⟧⟦と→と：00512_to⟧⟦される→する：00392_suru⟧。",
       "english": "The Chief Cabinet Secretary is regarded as the key post supporting the prime minister.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Heads the {内閣官房|ないかくかんぼう} (Cabinet Secretariat). The twice-daily press conference makes the holder the most visible voice of the government, and the post is often a stepping stone to prime minister.\n\nCOMMON COLLOCATIONS:\n- {内閣官房長官|ないかくかんぼうちょうかん}: the full title, Chief Cabinet Secretary\n- {官房長官|かんぼうちょうかん}{会見|かいけん}: the Chief Cabinet Secretary's press conference\n- {官房長官|かんぼうちょうかん}が{発表|はっぴょう}する: the Chief Cabinet Secretary announces",
+  "notes": "Heads the {内閣官房|ないかくかんぼう} (Cabinet Secretariat). The twice-daily press conference makes the holder the most visible voice of the government, and the post is often a stepping stone to prime minister.\n\nCOMMON COLLOCATIONS:\n- {内閣官房長官|ないかくかんぼうちょうかん}: the full title, Chief Cabinet Secretary\n- {官房長官|かんぼうちょうかん}⟦{会見|かいけん}→会見：11447_kaiken⟧: the Chief Cabinet Secretary's press conference\n- {官房長官|かんぼうちょうかん}⟦が→が：00051_ga⟧⟦{発表|はっぴょう}する→発表する：25231_happyousuru⟧: the Chief Cabinet Secretary announces",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "03417_daijin",
+      "reading": "だいじん",
+      "headword": "{大臣|だいじん}",
+      "label": "cabinet minister"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25520_hishokan",
+      "reading": "ひしょかん",
+      "headword": "{秘書官|ひしょかん}",
+      "label": "secretary (to a high-ranking official)"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["occupation"],
+      "politeness": "plain",
+      "semantic": [
+        "occupation"
+      ],
       "domain": []
     },
     "created": "2026-05-26T04:08:43Z",
-    "modified": "2026-05-26T04:08:43Z"
+    "modified": "2026-09-02T04:02:32Z"
   }
 }

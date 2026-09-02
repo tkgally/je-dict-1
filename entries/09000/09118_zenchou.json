@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "09118_zenchou_ex1",
-      "japanese": "{嵐|あらし}の{前兆|ぜんちょう}",
+      "japanese": "⟦{嵐|あらし}→嵐：01695_arashi⟧⟦の→の：09472_no⟧{前兆|ぜんちょう}",
       "english": "a forewarning of a storm",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "09118_zenchou_ex2",
-      "japanese": "それは{悲劇|ひげき}の{前兆|ぜんちょう}だった。",
+      "japanese": "⟦それ→それ：00994_sore⟧⟦は→は：00079_ha⟧⟦{悲劇|ひげき}→悲劇：03577_higeki⟧⟦の→の：09472_no⟧{前兆|ぜんちょう}だった。",
       "english": "It was an omen of tragedy.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "09118_zenchou_ex3",
-      "japanese": "{動物|どうぶつ}の{異常|いじょう}な{行動|こうどう}は{地震|じしん}の{前兆|ぜんちょう}かもしれない。",
+      "japanese": "⟦{動物|どうぶつ}→動物：01480_doubutsu⟧⟦の→の：09472_no⟧⟦{異常|いじょう}→異常：01716_ijou⟧な⟦{行動|こうどう}→行動：02728_koudou⟧⟦は→は：00079_ha⟧⟦{地震|じしん}→地震：01608_jishin⟧⟦の→の：09472_no⟧{前兆|ぜんちょう}⟦かもしれない→かもしれない：00164_kamoshirenai⟧。",
       "english": "Unusual animal behavior might be a precursor to an earthquake.",
       "sense_numbers": [
         1
@@ -43,7 +43,7 @@
       "notes": null
     }
   ],
-  "notes": "USAGE: {前兆|ぜんちょう} emphasizes something that comes before ({前|ぜん}) and signals ({兆|ちょう}) what is to follow. Often used for natural phenomena or significant events.\n\nCOMMON COLLOCATIONS:\n- {前兆|ぜんちょう}がある/ない (there is/isn't a forewarning)\n- {前兆|ぜんちょう}{現象|げんしょう} (precursor phenomenon)\n- {病気|びょうき}/{災害|さいがい}の{前兆|ぜんちょう} (precursor of illness/disaster)\n\nRELATED WORDS:\n- {予兆|よちょう} (omen - slightly more abstract/intuitive)\n- {兆候|ちょうこう} (symptom, indication - more clinical)\n- {前触|まえぶ}れ (harbinger, foreshadowing)",
+  "notes": "USAGE: {前兆|ぜんちょう} emphasizes something that comes before (⟦{前|ぜん}→前〜：03957_zen⟧) and signals (⟦{兆|ちょう}→兆：17936_chou⟧) what is to follow. Often used for natural phenomena or significant events.\n\nCOMMON COLLOCATIONS:\n- {前兆|ぜんちょう}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧/⟦ない→ない：01118_nai⟧ (there is/isn't a forewarning)\n- {前兆|ぜんちょう}⟦{現象|げんしょう}→現象：02718_genshou⟧ (precursor phenomenon)\n- ⟦{病気|びょうき}→病気：00771_byouki⟧/⟦{災害|さいがい}→災害：09636_saigai⟧⟦の→の：09472_no⟧{前兆|ぜんちょう} (precursor of illness/disaster)\n\nRELATED WORDS:\n- ⟦{予兆|よちょう}→予兆：09117_yochou⟧ (omen - slightly more abstract/intuitive)\n- ⟦{兆候|ちょうこう}→兆候：11523_choukou⟧ (symptom, indication - more clinical)\n- ⟦{前触|まえぶ}れ→前触れ：06632_maebure⟧ (harbinger, foreshadowing)",
   "cross_references": [
     {
       "type": "synonym",
@@ -72,11 +72,18 @@
       "reading": "きざし",
       "headword": "{兆|きざ}し",
       "label": "sign, first indication"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20365_kyouchou",
+      "reading": "きょうちょう",
+      "headword": "{凶兆|きょうちょう}",
+      "label": "bad omen"
     }
   ],
   "metadata": {
     "created": "2026-01-31T10:45:12Z",
-    "modified": "2026-07-26T00:27:44Z",
+    "modified": "2026-09-02T04:01:17Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

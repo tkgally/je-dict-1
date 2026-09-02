@@ -114,7 +114,7 @@
     },
     {
       "id": "01939_kurushimeru_ex2",
-      "japanese": "⟦{病気|びょうき}→病気：00771_byouki⟧⟦が→が：00051_ga⟧⟦{彼|かれ}→彼：01292_kare⟧⟦を→を：00422_wo⟧{苦|くる}しめた。",
+      "japanese": "⟦{病気|びょうき}→病気：00771_byouki⟧⟦が→が：00051_ga⟧⟦{彼|かれ}→彼：01292_kare⟧⟦を→を：00422_wo⟧⟦{苦|くる}しめ→苦しむ：01938_kurushimu⟧た。",
       "english": "The illness tormented him.",
       "notes": null,
       "has_audio": false,
@@ -133,11 +133,26 @@
       ]
     }
   ],
-  "notes": "{苦|くる}しめる is a transitive ichidan verb meaning to torment or cause suffering to someone.\n\nTRANSITIVE/INTRANSITIVE PAIR:\n- {苦|くる}しめる (⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧): to torment, cause suffering\n- ⟦{苦|くる}しむ→苦しむ：01938_kurushimu⟧ (⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧): to suffer\n\nCOMMON SUBJECTS:\n- ⟦{病気|びょうき}→病気：00771_byouki⟧⟦が→が：00051_ga⟧〜⟦を→を：00422_wo⟧{苦|くる}しめる: illness torments ~\n- ⟦{悩|なや}み→悩み：06650_nayami⟧⟦が→が：00051_ga⟧〜⟦を→を：00422_wo⟧{苦|くる}しめる: worries torment ~\n- ⟦{思|おも}い{出|で}→思い出：00331_omoide⟧⟦が→が：00051_ga⟧〜⟦を→を：00422_wo⟧{苦|くる}しめる: memories torment ~\n\nUSAGE NOTE:\nCan have people, illnesses, memories, or abstract concepts as the subject causing the suffering.",
-  "cross_references": [],
+  "notes": "{苦|くる}しめる is a transitive ichidan verb meaning to torment or cause suffering to someone.\n\nTRANSITIVE/INTRANSITIVE PAIR:\n- {苦|くる}しめる (⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧): to torment, cause suffering\n- ⟦{苦|くる}しむ→苦しむ：01938_kurushimu⟧ (⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧): to suffer\n\nCOMMON SUBJECTS:\n- ⟦{病気|びょうき}→病気：00771_byouki⟧⟦が→が：00051_ga⟧〜⟦を→を：00422_wo⟧{苦|くる}しめる: illness torments ~\n- ⟦{悩|なや}み→悩み：06650_nayami⟧⟦が→が：00051_ga⟧〜⟦を→を：00422_wo⟧{苦|くる}しめる: worries torment ~\n- ⟦{思|おも}い{出|で}→思い出：00331_omoide⟧⟦が→が：00051_ga⟧〜⟦を→を：00422_wo⟧{苦|くる}しめる: memories torment ~\n\nUSAGE:\nCan have people, illnesses, memories, or abstract concepts as the subject causing the suffering.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19801_nayamaseru",
+      "reading": "なやませる",
+      "headword": "{悩|なや}ませる",
+      "label": "to trouble"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28648_sainamu",
+      "reading": "さいなむ",
+      "headword": "{苛|さいな}む",
+      "label": "to torment"
+    }
+  ],
   "metadata": {
     "created": "2026-01-09T12:39:12Z",
-    "modified": "2026-05-17T18:29:41Z",
+    "modified": "2026-09-02T04:01:00Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

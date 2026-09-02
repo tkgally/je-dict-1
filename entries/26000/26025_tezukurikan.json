@@ -15,39 +15,67 @@
   "examples": [
     {
       "id": "26025_tezukurikan_ex1",
-      "japanese": "{手作|てづく}り{感|かん}のあるケーキだ。",
+      "japanese": "{手作|てづく}り{感|かん}⟦の→の：09472_no⟧⟦ある→ある：00006_aru⟧⟦ケーキ→ケーキ：01356_keeki⟧だ。",
       "english": "It's a cake with a homemade feel.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26025_tezukurikan_ex2",
-      "japanese": "このウェブサイトは{手作|てづく}り{感|かん}が{強|つよ}い。",
+      "japanese": "⟦この→この：00962_kono⟧⟦ウェブサイト→ウェブサイト：05152_webusaito⟧⟦は→は：00079_ha⟧{手作|てづく}り{感|かん}⟦が→が：00051_ga⟧⟦{強|つよ}い→強い：00820_tsuyoi⟧。",
       "english": "This website has a strong DIY feel to it.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26025_tezukurikan_ex3",
-      "japanese": "{手作|てづく}り{感|かん}のある{温|あたた}かい{雰囲気|ふんいき}の{店|みせ}だった。",
+      "japanese": "{手作|てづく}り{感|かん}⟦の→の：09472_no⟧⟦ある→ある：00006_aru⟧⟦{温|あたた}かい→温かい：13395_atatakai⟧⟦{雰囲気|ふんいき}→雰囲気：03604_funiki⟧⟦の→の：09472_no⟧⟦{店|みせ}→店：00497_mise⟧だった。",
       "english": "It was a shop with a warm, handmade atmosphere.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {手作|てづく}り (handmade) + {感|かん} (feeling; sense). The {感|かん} suffix is highly productive in Japanese and attaches to many words to mean \"a sense of ~.\" Whether the handmade feel is positive or negative depends on context — for food or crafts it is usually charming, while for websites or presentations it can imply a lack of polish.\n\nCOMMON COLLOCATIONS:\n- {手作|てづく}り{感|かん}がある: to have a handmade feel\n- {手作|てづく}り{感|かん}が{強|つよ}い: to have a strong homemade quality\n- {手作|てづく}り{感|かん}を{出|だ}す: to give something a handmade touch\n- {手作|てづく}り{感|かん}{満載|まんさい}: full of handmade charm\n\nSIMILAR WORDS:\n- {手作|てづく}り: handmade — the base word describing something actually made by hand\n- {素朴|そぼく}な: rustic; simple — describes a plain, unadorned quality\n- {温|あたた}かみ: warmth — a broader term for human warmth or coziness",
-  "cross_references": [],
+  "notes": "Composed of ⟦{手作|てづく}り→手作り：08300_tezukuri⟧ (handmade) + ⟦{感|かん}→〜感：28578_kan⟧ (feeling; sense). The ⟦{感|かん}→〜感：28578_kan⟧ suffix is highly productive in Japanese and attaches to many words to mean \"a sense of ~.\" Whether the handmade feel is positive or negative depends on context — for food or crafts it is usually charming, while for websites or presentations it can imply a lack of polish.\n\nCOMMON COLLOCATIONS:\n- {手作|てづく}り{感|かん}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧: to have a handmade feel\n- {手作|てづく}り{感|かん}⟦が→が：00051_ga⟧⟦{強|つよ}い→強い：00820_tsuyoi⟧: to have a strong homemade quality\n- {手作|てづく}り{感|かん}⟦を→を：00422_wo⟧⟦{出|だ}す→出す：01087_dasu⟧: to give something a handmade touch\n- {手作|てづく}り{感|かん}⟦{満載|まんさい}→満載：13320_mansai⟧: full of handmade charm\n\nSIMILAR WORDS:\n- ⟦{手作|てづく}り→手作り：08300_tezukuri⟧: handmade — the base word describing something actually made by hand\n- ⟦{素朴|そぼく}→素朴：06071_soboku⟧な: rustic; simple — describes a plain, unadorned quality\n- ⟦{温|あたた}かみ→温かみ：25336_atatakami⟧: warmth — a broader term for human warmth or coziness",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06071_soboku",
+      "reading": "そぼく",
+      "headword": "{素朴|そぼく}",
+      "label": "rustic"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25336_atatakami",
+      "reading": "あたたかみ",
+      "headword": "{温|あたた}かみ",
+      "label": "warmth"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["evaluation", "daily-life"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "evaluation",
+        "daily-life"
+      ]
     },
     "created": "2026-04-28T16:15:37Z",
-    "modified": "2026-04-28T16:15:37Z"
+    "modified": "2026-09-02T04:02:24Z"
   }
 }

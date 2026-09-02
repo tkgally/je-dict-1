@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26458_hashuki_ex1",
-      "japanese": "{春|はる}は{稲|いね}の{播種期|はしゅき}だ。",
+      "japanese": "⟦{春|はる}→春：00627_haru⟧⟦は→は：00079_ha⟧⟦{稲|いね}→稲：01820_ine⟧⟦の→の：09472_no⟧{播種期|はしゅき}だ。",
       "english": "Spring is the sowing season for rice.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26458_hashuki_ex2",
-      "japanese": "{播種期|はしゅき}を{逃|のが}すと{収穫|しゅうかく}に{影響|えいきょう}が{出|で}る。",
+      "japanese": "{播種期|はしゅき}⟦を→を：00422_wo⟧⟦{逃|のが}す→逃す：04611_nogasu⟧⟦と→と：00512_to⟧⟦{収穫|しゅうかく}→収穫：03207_shuukaku⟧⟦に→に：00314_ni⟧⟦{影響|えいきょう}→影響：01877_eikyou⟧⟦が→が：00051_ga⟧⟦{出|で}る→出る：00513_deru⟧。",
       "english": "Missing the sowing season will affect the harvest.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26458_hashuki_ex3",
-      "japanese": "{地域|ちいき}によって{播種期|はしゅき}が{異|こと}なるので、{地元|じもと}の{農家|のうか}に{聞|き}くのが{一番|いちばん}だ。",
+      "japanese": "⟦{地域|ちいき}→地域：01461_chiiki⟧⟦によって→によって：06801_niyotte⟧{播種期|はしゅき}⟦が→が：00051_ga⟧⟦{異|こと}なる→異なる：02101_kotonaru⟧⟦の→の：09472_no⟧で、⟦{地元|じもと}→地元：09941_jimoto⟧⟦の→の：09472_no⟧⟦{農家|のうか}→農家：03539_nouka⟧⟦に→に：00314_ni⟧⟦{聞|き}く→聞く：00483_kiku⟧⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦{一番|いちばん}→一番：01140_ichiban⟧だ。",
       "english": "The sowing season differs by region, so it's best to ask local farmers.",
       "sense_numbers": [
         1
@@ -44,8 +44,30 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {播種|はしゅ} (sowing, seeding) and {期|き} (period, season). {播種|はしゅ} itself combines {播|は} (to sow, to scatter) and {種|しゅ} (seed). An agricultural term that appears in farming guides, weather reports during planting season, and discussions of traditional farming calendars.\n\nCOMMON COLLOCATIONS:\n- {播種期|はしゅき}に{入|はい}る: to enter the sowing season\n- {播種期|はしゅき}を{迎|むか}える: to welcome the sowing season\n- {適正|てきせい}{播種期|はしゅき}: optimal sowing period\n- {播種期|はしゅき}が{遅|おく}れる: the sowing season is delayed\n\nSIMILAR WORDS:\n- {種まき|たねまき}: seed sowing — the native Japanese word for the same activity, more common in everyday speech\n- {田植え|たうえ}: rice planting — specifically transplanting rice seedlings into paddies\n- {収穫期|しゅうかくき}: harvest season — the counterpart period at the end of the growing cycle",
-  "cross_references": [],
+  "notes": "Composed of ⟦{播種|はしゅ}→播種：08745_hashu⟧ (sowing, seeding) and {期|き} (period, season). ⟦{播種|はしゅ}→播種：08745_hashu⟧ itself combines {播|は} (to sow, to scatter) and ⟦{種|しゅ}→種：28584_shu⟧ (seed). An agricultural term that appears in farming guides, weather reports during planting season, and discussions of traditional farming calendars.\n\nCOMMON COLLOCATIONS:\n- {播種期|はしゅき}⟦に→に：00314_ni⟧⟦{入|はい}る→入る：00494_hairu⟧: to enter the sowing season\n- {播種期|はしゅき}⟦を→を：00422_wo⟧⟦{迎|むか}える→迎える：01193_mukaeru⟧: to welcome the sowing season\n- ⟦{適正|てきせい}→適正：09686_tekisei⟧{播種期|はしゅき}: optimal sowing period\n- {播種期|はしゅき}⟦が→が：00051_ga⟧⟦{遅|おく}れる→遅れる：00741_okureru⟧: the sowing season is delayed\n\nSIMILAR WORDS:\n- ⟦{種|たね}まき→種まき：08104_tanemaki⟧: seed sowing — the native Japanese word for the same activity, more common in everyday speech\n- ⟦{田植|たう}え→田植え：22734_taue⟧: rice planting — specifically transplanting rice seedlings into paddies\n- ⟦{収穫期|しゅうかくき}→収穫期：21343_shuukakuki⟧: harvest season — the counterpart period at the end of the growing cycle",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08104_tanemaki",
+      "reading": "たねまき",
+      "headword": "{種|たね}まき",
+      "label": "seed sowing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22734_taue",
+      "reading": "たうえ",
+      "headword": "{田植|たう}え",
+      "label": "rice planting"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21343_shuukakuki",
+      "reading": "しゅうかくき",
+      "headword": "{収穫期|しゅうかくき}",
+      "label": "harvest season"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,11 +75,13 @@
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "nature"
       ]
     },
     "created": "2026-05-02T11:29:38Z",
-    "modified": "2026-08-06T00:43:53Z"
+    "modified": "2026-09-02T04:02:26Z"
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "19738_okadochigai_ex1",
-      "japanese": "それはお{門違|かどちが}いだ。",
+      "japanese": "⟦それ→それ：00994_sore⟧⟦は→は：00079_ha⟧お{門違|かどちが}いだ。",
       "english": "You're barking up the wrong tree.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "19738_okadochigai_ex2",
-      "japanese": "{私|わたし}に{文句|もんく}を{言|い}うのはお{門違|かどちが}いです。",
+      "japanese": "⟦{私|わたし}→私：02988_watashi⟧⟦に→に：00314_ni⟧⟦{文句|もんく}を{言|い}う→文句を言う：21303_monkuwoiu⟧⟦の→の：09472_no⟧⟦は→は：00079_ha⟧お{門違|かどちが}いです。",
       "english": "Complaining to me is misdirected.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "19738_okadochigai_ex3",
-      "japanese": "{担当|たんとう}でもない{人|ひと}に{責任|せきにん}を{求|もと}めるのはお{門違|かどちが}いというものだ。",
+      "japanese": "⟦{担当|たんとう}→担当：02567_tantou⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧⟦ない→ない：01118_nai⟧⟦{人|ひと}→人：00476_hito⟧⟦に→に：00314_ni⟧⟦{責任|せきにん}→責任：03298_sekinin⟧⟦を→を：00422_wo⟧⟦{求|もと}める→求める：02316_motomeru⟧⟦の→の：09472_no⟧⟦は→は：00079_ha⟧お{門違|かどちが}い⟦という→という：09577_toiu⟧ものだ。",
       "english": "Demanding responsibility from someone who isn't even in charge is completely misdirected.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Literally 'wrong gate' — from the idea of going to the wrong house by mistake. The {門|かど} (gate) here refers to the entrance of a house in traditional Japanese neighborhoods. The お prefix adds a slight softening.\n\nUSAGE:\nMost commonly used in the pattern お{門違|かどちが}いだ to tell someone their complaint or request is directed at the wrong person. Can also be used attributively: お{門違|かどちが}いの{苦情|くじょう} (a misdirected complaint).\n\nCOMMON PATTERNS:\n- お{門違|かどちが}いだ — that's misdirected\n- お{門違|かどちが}いもいいところだ — that's completely off base\n- お{門違|かどちが}いの{苦情|くじょう} — a misdirected complaint\n\nSIMILAR WORDS:\n- {筋違|すじちが}い — misdirected; wrong approach; very similar meaning but focuses on the logic being wrong\n- {見当違|けんとうちが}い — mistaken; off the mark; a wrong guess or assumption\n- {的外|まとはず}れ — off target; missing the point",
+  "notes": "Literally 'wrong gate' — from the idea of going to the wrong house by mistake. The {門|かど} (gate) here refers to the entrance of a house in traditional Japanese neighborhoods. The お prefix adds a slight softening.\n\nUSAGE:\nMost commonly used in the pattern お{門違|かどちが}いだ to tell someone their complaint or request is directed at the wrong person. Can also be used attributively: お{門違|かどちが}い⟦の→の：09472_no⟧⟦{苦情|くじょう}→苦情：00252_kujou⟧ (a misdirected complaint).\n\nCOMMON PATTERNS:\n- お{門違|かどちが}いだ — that's misdirected\n- お{門違|かどちが}い⟦も→も：00484_mo⟧⟦いい→いい：00118_ii⟧⟦ところ→ところ：01137_tokoro⟧だ — that's completely off base\n- お{門違|かどちが}い⟦の→の：09472_no⟧⟦{苦情|くじょう}→苦情：00252_kujou⟧ — a misdirected complaint\n\nSIMILAR WORDS:\n- ⟦{筋違|すじちが}い→筋違い：21040_sujichigai⟧ — misdirected; wrong approach; very similar meaning but focuses on the logic being wrong\n- ⟦{見当違|けんとうちが}い→見当違い：18771_kentouchigai⟧ — mistaken; off the mark; a wrong guess or assumption\n- ⟦{的外|まとはず}れ→的外れ：16719_matohazure⟧ — off target; missing the point",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21040_sujichigai",
+      "reading": "すじちがい",
+      "headword": "{筋違|すじちが}い",
+      "label": "misdirected"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18771_kentouchigai",
+      "reading": "けんとうちがい",
+      "headword": "{見当違|けんとうちが}い",
+      "label": "mistaken"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16719_matohazure",
+      "reading": "まとはずれ",
+      "headword": "{的外|まとはず}れ",
+      "label": "off target"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +83,6 @@
       ]
     },
     "created": "2026-03-26T15:19:46Z",
-    "modified": "2026-03-26T15:19:46Z"
+    "modified": "2026-09-02T04:01:57Z"
   }
 }

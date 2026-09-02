@@ -15,41 +15,67 @@
   "examples": [
     {
       "id": "28977_manjouicchi_ex1",
-      "japanese": "{満場一致|まんじょういっち}で{可決|かけつ}した。",
+      "japanese": "{満場一致|まんじょういっち}⟦で→で：00502_de⟧⟦{可決|かけつ}→可決：00148_kaketsu⟧⟦した→する：00392_suru⟧。",
       "english": "It passed unanimously.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28977_manjouicchi_ex2",
-      "japanese": "{議案|ぎあん}は{満場一致|まんじょういっち}で{承認|しょうにん}された。",
+      "japanese": "⟦{議案|ぎあん}→議案：20813_gian⟧⟦は→は：00079_ha⟧{満場一致|まんじょういっち}⟦で→で：00502_de⟧⟦{承認|しょうにん}→承認：03237_shounin⟧⟦された→する：00392_suru⟧。",
       "english": "The motion was unanimously approved.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28977_manjouicchi_ex3",
-      "japanese": "{新|あたら}しい{委員長|いいんちょう}は{満場一致|まんじょういっち}の{支持|しじ}で{選出|せんしゅつ}された。",
+      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦{委員長|いいんちょう}→委員長：19385_iinchou⟧⟦は→は：00079_ha⟧{満場一致|まんじょういっち}⟦の→の：09472_no⟧⟦{支持|しじ}→支持：12933_shiji⟧⟦で→で：00502_de⟧⟦{選出|せんしゅつ}→選出：14448_senshutsu⟧⟦された→する：00392_suru⟧。",
       "english": "The new chairperson was elected with unanimous support.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A {四字熟語|よじじゅくご} (four-character compound). {満場|まんじょう} (the whole hall) + {一致|いっち} (agreement). Used in formal contexts — meetings, votes, official decisions — and rarely in casual conversation.\n\nCOMMON COLLOCATIONS:\n- {満場一致|まんじょういっち}で{可決|かけつ}する: to pass unanimously\n- {満場一致|まんじょういっち}で{承認|しょうにん}する: to approve unanimously\n- {満場一致|まんじょういっち}で{採択|さいたく}する: to adopt unanimously\n- {満場一致|まんじょういっち}の{支持|しじ}: unanimous support\n\nSIMILAR WORDS:\n- {全会一致|ぜんかいいっち}: unanimous (in a formal body) — interchangeable; often used for governing bodies\n- {全員賛成|ぜんいんさんせい}: everyone in favor — plainer, used in less formal meetings\n- {異口同音|いくどうおん}: with one voice — emphasizes everyone saying the same thing, often spontaneous",
+  "notes": "A ⟦{四字熟語|よじじゅくご}→四字熟語：15663_yojijukugo⟧ (four-character compound). {満場|まんじょう} (the whole hall) + ⟦{一致|いっち}→一致：01733_icchi⟧ (agreement). Used in formal contexts — meetings, votes, official decisions — and rarely in casual conversation.\n\nCOMMON COLLOCATIONS:\n- {満場一致|まんじょういっち}⟦で→で：00502_de⟧⟦{可決|かけつ}→可決：00148_kaketsu⟧⟦する→する：00392_suru⟧: to pass unanimously\n- {満場一致|まんじょういっち}⟦で→で：00502_de⟧⟦{承認|しょうにん}する→承認する：20064_shouninsuru⟧: to approve unanimously\n- {満場一致|まんじょういっち}⟦で→で：00502_de⟧⟦{採択|さいたく}→採択：06784_saitaku⟧⟦する→する：00392_suru⟧: to adopt unanimously\n- {満場一致|まんじょういっち}⟦の→の：09472_no⟧⟦{支持|しじ}→支持：12933_shiji⟧: unanimous support\n\nSIMILAR WORDS:\n- ⟦{全会一致|ぜんかいいっち}→全会一致：09760_zenkaiicchi⟧: unanimous (in a formal body) — interchangeable; often used for governing bodies\n- {全員賛成|ぜんいんさんせい}: everyone in favor — plainer, used in less formal meetings\n- ⟦{異口同音|いくどうおん}→異口同音：05666_ikudouon⟧: with one voice — emphasizes everyone saying the same thing, often spontaneous",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09760_zenkaiicchi",
+      "reading": "ぜんかいいっち",
+      "headword": "{全会一致|ぜんかいいっち}",
+      "label": "unanimous"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05666_ikudouon",
+      "reading": "いくどうおん",
+      "headword": "{異口同音|いくどうおん}",
+      "label": "with one voice"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
-      "politeness": null,
-      "semantic": ["abstract"],
+      "politeness": "plain",
+      "semantic": [
+        "abstract"
+      ],
       "domain": []
     },
     "created": "2026-06-08T04:06:16Z",
-    "modified": "2026-06-08T04:06:16Z"
+    "modified": "2026-09-02T04:02:35Z"
   }
 }

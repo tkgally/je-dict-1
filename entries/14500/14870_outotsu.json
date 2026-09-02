@@ -15,41 +15,66 @@
   "examples": [
     {
       "id": "14870_outotsu_ex1",
-      "japanese": "{道|みち}の{凹凸|おうとつ}が{激|はげ}しい。",
+      "japanese": "⟦{道|みち}→道：00505_michi⟧⟦の→の：09472_no⟧{凹凸|おうとつ}⟦が→が：00051_ga⟧⟦{激|はげ}しい→激しい：02348_hageshii⟧。",
       "english": "The road is very bumpy.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14870_outotsu_ex2",
-      "japanese": "{凹凸|おうとつ}のある{地面|じめん}は{歩|ある}きにくい。",
+      "japanese": "{凹凸|おうとつ}⟦の→の：09472_no⟧⟦ある→ある：00006_aru⟧⟦{地面|じめん}→地面：00125_jimen⟧⟦は→は：00079_ha⟧⟦{歩|ある}き→歩く：00538_aruku⟧にくい。",
       "english": "Uneven ground is hard to walk on.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14870_outotsu_ex3",
-      "japanese": "この{壁|かべ}は{凹凸|おうとつ}が{少|すく}ないので、{塗装|とそう}しやすい。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{壁|かべ}→壁：01290_kabe⟧⟦は→は：00079_ha⟧{凹凸|おうとつ}⟦が→が：00051_ga⟧⟦{少|すく}ない→少ない：01136_sukunai⟧⟦の→の：09472_no⟧で、⟦{塗装|とそう}→塗装：06582_tosou⟧しやすい。",
       "english": "This wall has few bumps, so it is easy to paint.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{凹凸|おうとつ} is a noun formed from {凹|おう} (concave) and {凸|とつ} (convex). The two characters visually represent their meanings — {凹|おう} looks indented and {凸|とつ} looks protruding.\n\nCOMMON COLLOCATIONS:\n- {凹凸|おうとつ}がある (to have bumps)\n- {凹凸|おうとつ}が{激|はげ}しい (very bumpy/uneven)\n- {凹凸|おうとつ}のない{表面|ひょうめん} (a smooth surface)\n\nUSAGE NOTES:\nOften appears in descriptions of roads, terrain, and materials. Can also be used figuratively to describe an uneven situation, though the literal usage is far more common.",
-  "cross_references": [],
+  "notes": "{凹凸|おうとつ} is a noun formed from {凹|おう} (concave) and {凸|とつ} (convex). The two characters visually represent their meanings — {凹|おう} looks indented and {凸|とつ} looks protruding.\n\nCOMMON COLLOCATIONS:\n- {凹凸|おうとつ}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧ (to have bumps)\n- {凹凸|おうとつ}⟦が→が：00051_ga⟧⟦{激|はげ}しい→激しい：02348_hageshii⟧ (very bumpy/uneven)\n- {凹凸|おうとつ}⟦の→の：09472_no⟧⟦ない→ない：01118_nai⟧⟦{表面|ひょうめん}→表面：03587_hyoumen⟧ (a smooth surface)\n\nUSAGE:\nOften appears in descriptions of roads, terrain, and materials. Can also be used figuratively to describe an uneven situation, though the literal usage is far more common.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "08978_abata",
+      "reading": "あばた",
+      "headword": "あばた",
+      "label": "pockmarks"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25667_hekomi",
+      "reading": "へこみ",
+      "headword": "へこみ",
+      "label": "dent"
+    }
+  ],
   "metadata": {
     "created": "2026-03-04T05:21:15Z",
-    "modified": "2026-03-04T05:21:15Z",
+    "modified": "2026-09-02T04:01:39Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["descriptive"]
+      "semantic": [
+        "descriptive"
+      ]
     }
   }
 }

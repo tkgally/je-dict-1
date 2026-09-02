@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "23078_sutamina_ex1",
-      "japanese": "スタミナが{足|た}りない。",
+      "japanese": "スタミナ⟦が→が：00051_ga⟧⟦{足|た}りない→足りる：01209_tariru⟧。",
       "english": "I don't have enough stamina.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "23078_sutamina_ex2",
-      "japanese": "マラソンにはスタミナが{必要|ひつよう}だ。",
+      "japanese": "⟦マラソン→マラソン：04732_marason⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧スタミナ⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧だ。",
       "english": "Marathons require stamina.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "23078_sutamina_ex3",
-      "japanese": "{夏|なつ}バテしないように、スタミナのつく{料理|りょうり}を{食|た}べよう。",
+      "japanese": "⟦{夏|なつ}バテ→夏バテ：15545_natsubate⟧⟦しない→する：00392_suru⟧よう⟦に→に：00314_ni⟧、スタミナ⟦の→の：09472_no⟧つく⟦{料理|りょうり}→料理：01523_ryouri⟧⟦を→を：00422_wo⟧⟦{食|た}べよう→食べる：00396_taberu⟧。",
       "english": "Let's eat food that builds stamina so we don't get summer fatigue.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "A loanword from English used widely in Japanese to refer to physical endurance and energy. Often used in the context of sports, work, and especially food — certain dishes are considered スタミナ{料理|りょうり} (stamina-building food), typically hearty meals with garlic, meat, or other high-energy ingredients.\n\nCOMMON COLLOCATIONS:\n- スタミナがある: to have stamina\n- スタミナがつく: to build up stamina\n- スタミナが{切|き}れる: to run out of stamina\n- スタミナ{料理|りょうり}: stamina-building food\n- スタミナ{不足|ぶそく}: lack of stamina\n- スタミナ{丼|どん}: stamina rice bowl (hearty meat and garlic bowl)\n\nUSAGE:\nIn Japanese, スタミナ is more strongly associated with food culture than in English. Restaurants often advertise スタミナ{定食|ていしょく} (stamina set meal) or スタミナ{丼|どん} (stamina bowl), typically featuring grilled meat, garlic, and rich flavors. The word carries a sense of vitality and energy beyond just physical endurance.",
+  "notes": "A loanword from English used widely in Japanese to refer to physical endurance and energy. Often used in the context of sports, work, and especially food — certain dishes are considered スタミナ⟦{料理|りょうり}→料理：01523_ryouri⟧ (stamina-building food), typically hearty meals with garlic, meat, or other high-energy ingredients.\n\nCOMMON COLLOCATIONS:\n- スタミナ⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧: to have stamina\n- スタミナ⟦が→が：00051_ga⟧つく: to build up stamina\n- スタミナ⟦が→が：00051_ga⟧⟦{切|き}れる→切れる：01936_kireru⟧: to run out of stamina\n- スタミナ⟦{料理|りょうり}→料理：01523_ryouri⟧: stamina-building food\n- スタミナ{不足|ぶそく}: lack of stamina\n- スタミナ{丼|どん}: stamina rice bowl (hearty meat and garlic bowl)\n\nUSAGE:\nIn Japanese, スタミナ is more strongly associated with food culture than in English. Restaurants often advertise スタミナ⟦{定食|ていしょく}→定食：03123_teishoku⟧ (stamina set meal) or スタミナ{丼|どん} (stamina bowl), typically featuring grilled meat, garlic, and rich flavors. The word carries a sense of vitality and energy beyond just physical endurance.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "08519_jikyuuryoku",
+      "reading": "じきゅうりょく",
+      "headword": "{持久力|じきゅうりょく}",
+      "label": "endurance"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +68,6 @@
       ]
     },
     "created": "2026-04-08T18:27:16Z",
-    "modified": "2026-07-31T00:29:23Z"
+    "modified": "2026-09-02T04:02:10Z"
   }
 }

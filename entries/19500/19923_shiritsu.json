@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "19923_shiritsu_ex1",
-      "japanese": "{市立|しりつ}{図書館|としょかん}で{本|ほん}を{借|か}りた。",
+      "japanese": "{市立|しりつ}⟦{図書館|としょかん}→図書館：00580_toshokan⟧⟦で→で：00502_de⟧{本|ほん}⟦を→を：00422_wo⟧⟦{借|か}りた→借りる：00532_kariru⟧。",
       "english": "I borrowed a book from the city library.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "19923_shiritsu_ex2",
-      "japanese": "{娘|むすめ}は{市立|しりつ}の{中学校|ちゅうがっこう}に{通|かよ}っている。",
+      "japanese": "⟦{娘|むすめ}→娘：02263_musume⟧⟦は→は：00079_ha⟧{市立|しりつ}⟦の→の：09472_no⟧⟦{中学校|ちゅうがっこう}→中学校：01465_chuugakkou⟧⟦に→に：00314_ni⟧⟦{通|かよ}っている→通う：01217_kayou⟧。",
       "english": "My daughter goes to a municipal junior high school.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "19923_shiritsu_ex3",
-      "japanese": "この{市立|しりつ}{病院|びょういん}は{地域|ちいき}{医療|いりょう}の{中心|ちゅうしん}として{重要|じゅうよう}な{役割|やくわり}を{果|は}たしている。",
+      "japanese": "⟦この→この：00962_kono⟧{市立|しりつ}⟦{病院|びょういん}→病院：00577_byouin⟧⟦は→は：00079_ha⟧⟦{地域|ちいき}→地域：01461_chiiki⟧⟦{医療|いりょう}→医療：01836_iryou⟧⟦の→の：09472_no⟧⟦{中心|ちゅうしん}→中心：01467_chuushin⟧⟦として→として：06802_toshite⟧⟦{重要|じゅうよう}→重要：01575_juuyou⟧な⟦{役割|やくわり}→役割：03638_yakuwari⟧⟦を→を：00422_wo⟧⟦{果|は}たしている→果たす：10060_hatasu⟧。",
       "english": "This city hospital plays an important role as the center of regional healthcare.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Because {市立|しりつ} and {私立|しりつ} are homophones, speakers sometimes disambiguate by reading {市立|しりつ} as いちりつ in conversation. This is especially common when discussing schools.\n\nCOMMON COLLOCATIONS:\n- {市立|しりつ}{病院|びょういん}: city hospital\n- {市立|しりつ}{図書館|としょかん}: city library\n- {市立|しりつ}{小学校|しょうがっこう}: city elementary school\n- {市立|しりつ}{美術館|びじゅつかん}: city art museum\n\nRELATED TERMS:\n- {私立|しりつ}: private (homophone — distinguished as しりつ vs. わたくしりつ in speech)\n- {国立|こくりつ}: national (government-run)\n- {県立|けんりつ}: prefectural\n- {公立|こうりつ}: public (general term for government-run institutions)\n- {府立|ふりつ}: established by an urban prefecture (Osaka/Kyoto)\n- {都立|とりつ}: established by Tokyo Metropolitan Government",
+  "notes": "Because {市立|しりつ} and ⟦{私立|しりつ}→私立：00370_shiritsu⟧ are homophones, speakers sometimes disambiguate by reading {市立|しりつ} as いちりつ in conversation. This is especially common when discussing schools.\n\nCOMMON COLLOCATIONS:\n- {市立|しりつ}⟦{病院|びょういん}→病院：00577_byouin⟧: city hospital\n- {市立|しりつ}⟦{図書館|としょかん}→図書館：00580_toshokan⟧: city library\n- {市立|しりつ}⟦{小学校|しょうがっこう}→小学校：01055_shougakkou⟧: city elementary school\n- {市立|しりつ}⟦{美術館|びじゅつかん}→美術館：01717_bijutsukan⟧: city art museum\n\nRELATED WORDS:\n- ⟦{私立|しりつ}→私立：00370_shiritsu⟧: private (homophone — distinguished as しりつ vs. わたくしりつ in speech)\n- ⟦{国立|こくりつ}→国立：04153_kokuritsu⟧: national (government-run)\n- ⟦{県立|けんりつ}→県立：21885_kenritsu⟧: prefectural\n- ⟦{公立|こうりつ}→公立：08210_kouritsu⟧: public (general term for government-run institutions)\n- {府立|ふりつ}: established by an urban prefecture (Osaka/Kyoto)\n- ⟦{都立|とりつ}→都立：27990_toritsu⟧: established by Tokyo Metropolitan Government",
   "prominent_see_also": [
     {
       "target_id": "00370_shiritsu",
@@ -54,6 +54,36 @@
     }
   ],
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "04153_kokuritsu",
+      "reading": "こくりつ",
+      "headword": "{国立|こくりつ}",
+      "label": "national"
+    },
+    {
+      "type": "related",
+      "target_id": "21885_kenritsu",
+      "reading": "けんりつ",
+      "headword": "{県立|けんりつ}",
+      "label": "prefectural"
+    },
+    {
+      "type": "related",
+      "target_id": "08210_kouritsu",
+      "reading": "こうりつ",
+      "headword": "{公立|こうりつ}",
+      "label": "public"
+    },
+    {
+      "type": "related",
+      "target_id": "27990_toritsu",
+      "reading": "とりつ",
+      "headword": "{都立|とりつ}",
+      "label": "established by Tokyo Metropolitan…"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -68,6 +98,6 @@
       ]
     },
     "created": "2026-03-27T06:03:49Z",
-    "modified": "2026-07-27T12:42:09Z"
+    "modified": "2026-09-02T04:01:57Z"
   }
 }

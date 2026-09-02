@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25139_jison_ex1",
-      "japanese": "{自損|じそん}{事故|じこ}を{起|お}こした。",
+      "japanese": "{自損|じそん}⟦{事故|じこ}→事故：00851_jiko⟧⟦を→を：00422_wo⟧⟦{起|お}こした→起こす：01234_okosu⟧。",
       "english": "I caused a single-vehicle accident.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25139_jison_ex2",
-      "japanese": "{自損|じそん}の{場合|ばあい}は{保険|ほけん}が{適用|てきよう}されないことがある。",
+      "japanese": "{自損|じそん}⟦の→の：09472_no⟧⟦{場合|ばあい}→場合：01704_baai⟧⟦は→は：00079_ha⟧⟦{保険|ほけん}→保険：01509_hoken⟧⟦が→が：00051_ga⟧⟦{適用|てきよう}されない→適用する：21739_tekiyousuru⟧こと⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "In cases of self-inflicted damage, insurance may not apply.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25139_jison_ex3",
-      "japanese": "{雨|あめ}でスリップして{電柱|でんちゅう}にぶつかる{自損|じそん}{事故|じこ}が{多発|たはつ}している。",
+      "japanese": "⟦{雨|あめ}→雨：00583_ame⟧⟦で→で：00502_de⟧スリップ⟦して→する：00392_suru⟧⟦{電柱|でんちゅう}→電柱：17913_denchuu⟧⟦に→に：00314_ni⟧⟦ぶつかる→ぶつかる：02412_butsukaru⟧{自損|じそん}⟦{事故|じこ}→事故：00851_jiko⟧⟦が→が：00051_ga⟧⟦{多発|たはつ}→多発：20508_tahatsu⟧⟦している→する：00392_suru⟧。",
       "english": "There has been a rash of single-vehicle accidents where cars slip on rain and hit utility poles.",
       "sense_numbers": [
         1
@@ -44,20 +44,45 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {自|じ} (self) and {損|そん} (damage, loss). Primarily used in traffic and insurance contexts to describe accidents or damage involving only the person responsible, with no other parties affected.\n\nThe most common usage is {自損|じそん}{事故|じこ} (single-vehicle accident), referring to crashes where the driver hits a guardrail, pole, wall, or ditch without colliding with another vehicle or person.\n\nCOMMON COLLOCATIONS:\n- {自損|じそん}{事故|じこ}: single-vehicle accident; self-caused accident\n- {自損|じそん}{行為|こうい}: self-inflicted act\n- {自損|じそん}{事故|じこ}{届|とど}け: single-vehicle accident report\n\nSIMILAR WORDS:\n- {物損|ぶっそん}: property damage — damage to things (as opposed to personal injury)\n- {人身|じんしん}{事故|じこ}: personal injury accident — an accident involving bodily harm\n- {追突|ついとつ}: rear-end collision — a specific type of traffic accident involving another vehicle",
+  "notes": "A compound of {自|じ} (self) and ⟦{損|そん}→損：03325_son⟧ (damage, loss). Primarily used in traffic and insurance contexts to describe accidents or damage involving only the person responsible, with no other parties affected.\n\nThe most common usage is {自損|じそん}⟦{事故|じこ}→事故：00851_jiko⟧ (single-vehicle accident), referring to crashes where the driver hits a guardrail, pole, wall, or ditch without colliding with another vehicle or person.\n\nCOMMON COLLOCATIONS:\n- {自損|じそん}⟦{事故|じこ}→事故：00851_jiko⟧: single-vehicle accident; self-caused accident\n- {自損|じそん}⟦{行為|こうい}→行為：10021_koui⟧: self-inflicted act\n- {自損|じそん}⟦{事故|じこ}→事故：00851_jiko⟧⟦{届|とど}け→届ける：01248_todokeru⟧: single-vehicle accident report\n\nSIMILAR WORDS:\n- ⟦{物損|ぶっそん}→物損：24642_busson⟧: property damage — damage to things (as opposed to personal injury)\n- ⟦{人身|じんしん}{事故|じこ}→人身事故：08475_jinshinjiko⟧: personal injury accident — an accident involving bodily harm\n- ⟦{追突|ついとつ}→追突：17054_tsuitotsu⟧: rear-end collision — a specific type of traffic accident involving another vehicle",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24642_busson",
+      "reading": "ぶっそん",
+      "headword": "{物損|ぶっそん}",
+      "label": "property damage"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08475_jinshinjiko",
+      "reading": "じんしんじこ",
+      "headword": "{人身事故|じんしんじこ}",
+      "label": "personal injury accident"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17054_tsuitotsu",
+      "reading": "ついとつ",
+      "headword": "{追突|ついとつ}",
+      "label": "rear-end collision"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "law",
         "transportation"
       ]
     },
     "created": "2026-04-23T12:22:01Z",
-    "modified": "2026-08-04T12:59:53Z"
+    "modified": "2026-09-02T04:02:21Z"
   }
 }

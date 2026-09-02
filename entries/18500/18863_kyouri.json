@@ -15,44 +15,93 @@
   "examples": [
     {
       "id": "18863_kyouri_ex1",
-      "japanese": "{郷里|きょうり}に{帰|かえ}る。",
+      "japanese": "{郷里|きょうり}⟦に→に：00314_ni⟧⟦{帰|かえ}る→帰る：00508_kaeru⟧。",
       "english": "I'll return to my hometown.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "18863_kyouri_ex2",
-      "japanese": "{郷里|きょうり}を{離|はな}れてもう{二十年|にじゅうねん}になる。",
+      "japanese": "{郷里|きょうり}⟦を→を：00422_wo⟧⟦{離|はな}れて→離れる：02397_hanareru⟧⟦もう→もう：00602_mou⟧{二十年|にじゅうねん}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧。",
       "english": "It's been twenty years since I left my hometown.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "18863_kyouri_ex3",
-      "japanese": "{定年後|ていねんご}は{郷里|きょうり}に{戻|もど}って、のんびり{暮|く}らしたいと{思|おも}っている。",
+      "japanese": "{定年後|ていねんご}⟦は→は：00079_ha⟧{郷里|きょうり}⟦に→に：00314_ni⟧⟦{戻|もど}って→戻る：01117_modoru⟧、⟦のんびり→のんびり：01596_nonbiri⟧⟦{暮|く}らしたい→暮らす：01937_kurasu⟧⟦と→と：00512_to⟧⟦{思|おも}っている→思う：00492_omou⟧。",
       "english": "After retirement, I want to go back to my hometown and live a relaxed life.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "{郷里|きょうり} is a formal or literary word for one's hometown or birthplace. It carries a sense of nostalgia and deep connection to one's roots.\n\nCOMMON COLLOCATIONS:\n- {郷里|きょうり}に{帰|かえ}る (to return to one's hometown)\n- {郷里|きょうり}を{離|はな}れる (to leave one's hometown)\n- {郷里|きょうり}の{味|あじ} (flavors of home)\n- {郷里|きょうり}を{懐|なつか}しむ (to miss one's hometown)\n\nREGISTER:\nAppears primarily in written language, biographical profiles, formal introductions, and literary contexts. In everyday conversation, more casual alternatives are used.\n\nSIMILAR WORDS:\n- {故郷|ふるさと}: hometown (warm, nostalgic tone; very common)\n- {故郷|こきょう}: hometown (formal reading of same kanji)\n- {地元|じもと}: local area, hometown (casual, everyday)\n- {実家|じっか}: parents' home (practical, refers to the physical house)\n- {出身地|しゅっしんち}: place of origin (neutral, factual)",
+  "notes": "{郷里|きょうり} is a formal or literary word for one's hometown or birthplace. It carries a sense of nostalgia and deep connection to one's roots.\n\nCOMMON COLLOCATIONS:\n- {郷里|きょうり}⟦に→に：00314_ni⟧⟦{帰|かえ}る→帰る：00508_kaeru⟧ (to return to one's hometown)\n- {郷里|きょうり}⟦を→を：00422_wo⟧⟦{離|はな}れる→離れる：02397_hanareru⟧ (to leave one's hometown)\n- {郷里|きょうり}⟦の→の：09472_no⟧⟦{味|あじ}→味：00826_aji⟧ (flavors of home)\n- {郷里|きょうり}⟦を→を：00422_wo⟧{懐|なつか}しむ (to miss one's hometown)\n\nREGISTER:\nAppears primarily in written language, biographical profiles, formal introductions, and literary contexts. In everyday conversation, more casual alternatives are used.\n\nSIMILAR WORDS:\n- ⟦{故郷|ふるさと}→故郷：25466_furusato⟧: hometown (warm, nostalgic tone; very common)\n- ⟦{故郷|こきょう}→故郷：02733_kokyou⟧: hometown (formal reading of same kanji)\n- ⟦{地元|じもと}→地元：09941_jimoto⟧: local area, hometown (casual, everyday)\n- ⟦{実家|じっか}→実家：03076_jikka⟧: parents' home (practical, refers to the physical house)\n- ⟦{出身地|しゅっしんち}→出身地：15396_shusshinchi⟧: place of origin (neutral, factual)",
   "synonyms": [],
   "antonyms": [],
   "related": [],
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25466_furusato",
+      "reading": "ふるさと",
+      "headword": "{故郷|ふるさと}",
+      "label": "hometown (warm, nostalgic tone"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02733_kokyou",
+      "reading": "こきょう",
+      "headword": "{故郷|こきょう}",
+      "label": "hometown"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09941_jimoto",
+      "reading": "じもと",
+      "headword": "{地元|じもと}",
+      "label": "local area, hometown"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03076_jikka",
+      "reading": "じっか",
+      "headword": "{実家|じっか}",
+      "label": "parents' home"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15396_shusshinchi",
+      "reading": "しゅっしんち",
+      "headword": "{出身地|しゅっしんち}",
+      "label": "place of origin"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["geography"],
-      "style": ["written"]
+      "semantic": [
+        "geography"
+      ],
+      "style": [
+        "written"
+      ]
     },
     "created": "2026-03-23T05:36:04Z",
-    "modified": "2026-04-07T02:46:49Z"
+    "modified": "2026-09-02T04:01:53Z"
   }
 }

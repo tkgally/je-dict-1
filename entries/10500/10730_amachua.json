@@ -15,40 +15,73 @@
   "examples": [
     {
       "id": "10730_amachua_ex1",
-      "japanese": "アマチュアの{写真家|しゃしんか}です。",
+      "japanese": "アマチュア⟦の→の：09472_no⟧⟦{写真家|しゃしんか}→写真家：05501_shashinka⟧です。",
       "english": "I'm an amateur photographer.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10730_amachua_ex2",
-      "japanese": "アマチュアとは{思|おも}えないほど{上手|じょうず}だった。",
+      "japanese": "アマチュア⟦と→と：00512_to⟧⟦は→は：00079_ha⟧⟦{思|おも}えない→思う：00492_omou⟧ほど⟦{上手|じょうず}→上手：00707_jouzu⟧だった。",
       "english": "They were so good you wouldn't think they were an amateur.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10730_amachua_ex3",
-      "japanese": "この{大会|たいかい}はプロもアマチュアも{参加|さんか}できる。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{大会|たいかい}→大会：03386_taikai⟧⟦は→は：00079_ha⟧⟦プロ→プロ：03871_puro⟧⟦も→も：00484_mo⟧アマチュア⟦も→も：00484_mo⟧⟦{参加|さんか}できる→参加する：25408_sankasuru⟧。",
       "english": "Both professionals and amateurs can participate in this tournament.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "From English 'amateur.' Refers to someone who does something as a hobby rather than professionally.\n\nABBREVIATION:\nOften shortened to アマ in casual speech (e.g., アマの{選手|せんしゅ}, プロアマ{戦|せん}).\n\nCOMMON COLLOCATIONS:\n- アマチュア{選手|せんしゅ}: amateur athlete\n- アマチュア{無線|むせん}: amateur radio (ham radio)\n- アマチュアバンド: amateur band\n- プロとアマチュアの{差|さ}: the gap between pros and amateurs\n\nCONTRAST:\n- プロ / プロフェッショナル: professional\n- {素人|しろうと}: layperson, novice (can sound dismissive; アマチュア is more neutral/respectful)\n\nUSAGE:\nアマチュア is neutral and can even carry a positive nuance of passionate dedication. {素人|しろうと} often implies lack of skill.",
+  "notes": "From English 'amateur.' Refers to someone who does something as a hobby rather than professionally.\n\nFORMS:\nOften shortened to アマ in casual speech (e.g., アマ⟦の→の：09472_no⟧⟦{選手|せんしゅ}→選手：03823_senshu⟧, プロアマ⟦{戦|せん}→〜戦：28346_sen⟧).\n\nCOMMON COLLOCATIONS:\n- アマチュア⟦{選手|せんしゅ}→選手：03823_senshu⟧: amateur athlete\n- アマチュア⟦{無線|むせん}→無線：09226_musen⟧: amateur radio (ham radio)\n- アマチュア⟦バンド→バンド：05508_bando⟧: amateur band\n- ⟦プロ→プロ：03871_puro⟧⟦と→と：00512_to⟧アマチュア⟦の→の：09472_no⟧⟦{差|さ}→差：02771_sa⟧: the gap between pros and amateurs\n\nSIMILAR WORDS:\n- ⟦プロ→プロ：03871_puro⟧ / ⟦プロフェッショナル→プロフェッショナル：26668_purofesshonaru⟧: professional\n- ⟦{素人|しろうと}→素人：04270_shirouto⟧: layperson, novice (can sound dismissive; アマチュア is more neutral/respectful)\n\nUSAGE:\nアマチュア is neutral and can even carry a positive nuance of passionate dedication. ⟦{素人|しろうと}→素人：04270_shirouto⟧ often implies lack of skill.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03871_puro",
+      "reading": "ぷろ",
+      "headword": "プロ",
+      "label": "professional"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26668_purofesshonaru",
+      "reading": "ぷろふぇっしょなる",
+      "headword": "プロフェッショナル",
+      "label": "professional"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04270_shirouto",
+      "reading": "しろうと",
+      "headword": "{素人|しろうと}",
+      "label": "layperson, novice (can sound dismissive"
+    }
+  ],
   "metadata": {
     "created": "2026-02-09T15:58:39Z",
-    "modified": "2026-03-26T03:00:45Z",
+    "modified": "2026-09-02T04:01:22Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["person"]
+      "semantic": [
+        "person"
+      ]
     }
   }
 }

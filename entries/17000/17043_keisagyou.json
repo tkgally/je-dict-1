@@ -15,41 +15,60 @@
   "examples": [
     {
       "id": "17043_keisagyou_ex1",
-      "japanese": "{倉庫|そうこ}での{軽作業|けいさぎょう}のアルバイトを{見|み}つけた。",
+      "japanese": "⟦{倉庫|そうこ}→倉庫：04044_souko⟧⟦で→で：00502_de⟧⟦の→の：09472_no⟧{軽作業|けいさぎょう}⟦の→の：09472_no⟧⟦アルバイト→アルバイト：01528_arubaito⟧⟦を→を：00422_wo⟧⟦{見|み}つけた→見つける：01180_mitsukeru⟧。",
       "english": "I found a part-time job doing light work at a warehouse.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17043_keisagyou_ex2",
-      "japanese": "{軽作業|けいさぎょう}なら{体力|たいりょく}に{自信|じしん}がなくてもできる。",
+      "japanese": "{軽作業|けいさぎょう}なら⟦{体力|たいりょく}→体力：05318_tairyoku⟧⟦に→に：00314_ni⟧⟦{自信|じしん}→自信：10143_jishin⟧⟦が→が：00051_ga⟧⟦なくて→ない：01118_nai⟧⟦も→も：00484_mo⟧⟦できる→できる：00557_dekiru⟧。",
       "english": "If it's light work, you can do it even without much stamina.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17043_keisagyou_ex3",
-      "japanese": "{求人|きゅうじん}サイトで「{軽作業|けいさぎょう}」と{検索|けんさく}したら、{梱包|こんぽう}やシール{貼|は}りの{仕事|しごと}がたくさん{出|で}てきた。",
+      "japanese": "⟦{求人|きゅうじん}→求人：04690_kyuujin⟧⟦サイト→サイト：05603_saito⟧⟦で→で：00502_de⟧「{軽作業|けいさぎょう}」⟦と→と：00512_to⟧⟦{検索|けんさく}→検索：04729_kensaku⟧⟦したら→する：00392_suru⟧、⟦{梱包|こんぽう}→梱包：07937_konpou⟧や⟦シール→シール：09597_shiiru⟧{貼|は}り⟦の→の：09472_no⟧⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦が→が：00051_ga⟧⟦たくさん→たくさん：00597_takusan⟧⟦{出|で}て→出る：00513_deru⟧きた。",
       "english": "When I searched for \"light work\" on a job site, many packing and labeling jobs came up.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nOne of the most common terms in Japanese part-time job (アルバイト) listings. Typical tasks include sorting packages, applying labels, assembling simple products, and inspecting items. Often described as suitable for beginners ({未経験者歓迎|みけいけんしゃかんげい}).\n\nCOMMON COLLOCATIONS:\n- {軽作業|けいさぎょう}スタッフ (light work staff)\n- {軽作業|けいさぎょう}の{求人|きゅうじん} (light work job listing)\n- {倉庫|そうこ}{内|ない}{軽作業|けいさぎょう} (warehouse light work)",
-  "cross_references": [],
+  "notes": "USAGE:\nOne of the most common terms in Japanese part-time job (⟦アルバイト→アルバイト：01528_arubaito⟧) listings. Typical tasks include sorting packages, applying labels, assembling simple products, and inspecting items. Often described as suitable for beginners ({未経験者歓迎|みけいけんしゃかんげい}).\n\nCOMMON COLLOCATIONS:\n- {軽作業|けいさぎょう}⟦スタッフ→スタッフ：11046_sutaffu⟧ (light work staff)\n- {軽作業|けいさぎょう}⟦の→の：09472_no⟧⟦{求人|きゅうじん}→求人：04690_kyuujin⟧ (light work job listing)\n- ⟦{倉庫|そうこ}→倉庫：04044_souko⟧⟦{内|ない}→〜内：09853_nai⟧{軽作業|けいさぎょう} (warehouse light work)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24287_keiroudou",
+      "reading": "けいろうどう",
+      "headword": "{軽労働|けいろうどう}",
+      "label": "light work"
+    }
+  ],
   "metadata": {
     "created": "2026-03-15T07:20:58Z",
-    "modified": "2026-03-15T07:20:58Z",
+    "modified": "2026-09-02T04:01:47Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["work", "daily-life"]
+      "semantic": [
+        "work",
+        "daily-life"
+      ]
     }
   }
 }

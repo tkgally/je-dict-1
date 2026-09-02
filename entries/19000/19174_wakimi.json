@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "19174_wakimi_ex1",
-      "japanese": "{脇見|わきみ}をしないでください。",
+      "japanese": "{脇見|わきみ}⟦を→を：00422_wo⟧⟦しないで→する：00392_suru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please don't look away.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "19174_wakimi_ex2",
-      "japanese": "{脇見|わきみ}{運転|うんてん}は{事故|じこ}の{原因|げんいん}になる。",
+      "japanese": "{脇見|わきみ}⟦{運転|うんてん}→運転：01335_unten⟧⟦は→は：00079_ha⟧⟦{事故|じこ}→事故：00851_jiko⟧⟦の→の：09472_no⟧⟦{原因|げんいん}→原因：01400_genin⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧。",
       "english": "Distracted driving causes accidents.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "19174_wakimi_ex3",
-      "japanese": "スマホに{気|き}を{取|と}られて{脇見|わきみ}をしていたら、{信号|しんごう}が{変|か}わっていた。",
+      "japanese": "⟦スマホ→スマホ：04721_sumaho⟧⟦に→に：00314_ni⟧⟦{気|き}→気：02199_ki⟧⟦を→を：00422_wo⟧⟦{取|と}られて→取る：00565_toru⟧{脇見|わきみ}⟦を→を：00422_wo⟧⟦していたら→する：00392_suru⟧、⟦{信号|しんごう}→信号：03258_shingou⟧⟦が→が：00051_ga⟧⟦{変|か}わっていた→変わる：00714_kawaru⟧。",
       "english": "I was distracted by my phone and looking away, and the light had changed.",
       "sense_numbers": [
         1
@@ -134,8 +134,17 @@
       "notes": null
     }
   ],
-  "notes": "Most frequently used in the compound {脇見|わきみ}{運転|うんてん} (distracted driving / looking-away driving), which is a traffic violation in Japan. Common collocations: {脇見|わきみ}をする (to look away), {脇見|わきみ}{運転|うんてん} (distracted driving), {脇見|わきみ}{事故|じこ} (accident caused by distracted driving). The {脇|わき} here means 'side' or 'aside,' and {見|み} means 'looking.' Can also be used figuratively to mean being distracted from one's main task.",
+  "notes": "Most frequently used in the compound {脇見|わきみ}⟦{運転|うんてん}→運転：01335_unten⟧ (distracted driving / looking-away driving), which is a traffic violation in Japan. Common collocations: {脇見|わきみ}⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧ (to look away), {脇見|わきみ}⟦{運転|うんてん}→運転：01335_unten⟧ (distracted driving), {脇見|わきみ}⟦{事故|じこ}→事故：00851_jiko⟧ (accident caused by distracted driving). The ⟦{脇|わき}→脇：03790_waki⟧ here means 'side' or 'aside,' and ⟦{見|み}→見る：00283_miru⟧ means 'looking.' Can also be used figuratively to mean being distracted from one's main task.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "26352_yokomi",
+      "reading": "よこみ",
+      "headword": "{横見|よこみ}",
+      "label": "sideways glance"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -151,6 +160,6 @@
       "verb_class": "suru"
     },
     "created": "2026-03-24T11:31:58Z",
-    "modified": "2026-03-24T11:31:58Z"
+    "modified": "2026-09-02T04:01:55Z"
   }
 }

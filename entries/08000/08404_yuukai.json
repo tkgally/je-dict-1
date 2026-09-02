@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "08404_yuukai_ex1",
-      "japanese": "{氷|こおり}が{融解|ゆうかい}して{水|みず}になる。",
+      "japanese": "⟦{氷|こおり}→氷：02753_koori⟧⟦が→が：00051_ga⟧{融解|ゆうかい}⟦して→する：00392_suru⟧⟦{水|みず}→水：02258_mizu⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧。",
       "english": "Ice melts and becomes water.",
       "sense_numbers": [
         1
@@ -114,7 +114,7 @@
     },
     {
       "id": "08404_yuukai_ex2",
-      "japanese": "{金属|きんぞく}の{融解|ゆうかい}{点|てん}は{物質|ぶっしつ}によって{異|こと}なる。",
+      "japanese": "⟦{金属|きんぞく}→金属：02645_kinzoku⟧⟦の→の：09472_no⟧{融解|ゆうかい}⟦{点|てん}→点：01553_ten⟧⟦は→は：00079_ha⟧⟦{物質|ぶっしつ}→物質：03608_busshitsu⟧⟦によって→によって：06801_niyotte⟧⟦{異|こと}なる→異なる：02101_kotonaru⟧。",
       "english": "The melting point of metals varies by substance.",
       "sense_numbers": [
         1
@@ -124,7 +124,7 @@
     },
     {
       "id": "08404_yuukai_ex3",
-      "japanese": "{地球温暖化|ちきゅうおんだんか}で{永久凍土|えいきゅうとうど}の{融解|ゆうかい}が{進|すす}んでいる。",
+      "japanese": "⟦{地球温暖化|ちきゅうおんだんか}→地球温暖化：18873_chikyuuondanka⟧⟦で→で：00502_de⟧{永久凍土|えいきゅうとうど}⟦の→の：09472_no⟧{融解|ゆうかい}⟦が→が：00051_ga⟧⟦{進|すす}んでいる→進む：01225_susumu⟧。",
       "english": "The melting of permafrost is progressing due to global warming.",
       "sense_numbers": [
         1
@@ -133,7 +133,7 @@
       "notes": null
     }
   ],
-  "notes": "FORMATION:\n{融|ゆう} (dissolve, melt) + {解|かい} (dissolve, undo) → melting/dissolving\n\nVERB FORM:\n{融解|ゆうかい}する (to melt, to fuse)\n\nSCIENTIFIC TERMS:\n- {融解|ゆうかい}{点|てん} (melting point)\n- {融解|ゆうかい}{熱|ねつ} (heat of fusion)\n\nRELATED WORDS:\n- {溶解|ようかい} (dissolution - dissolving in a liquid)\n- {凝固|ぎょうこ} (solidification - antonym)\n- {蒸発|じょうはつ} (evaporation)\n- {凝縮|ぎょうしゅく} (condensation)\n\nNOTE:\n{融解|ゆうかい} refers specifically to the phase change from solid to liquid, while {溶解|ようかい} refers to dissolving a substance in a solvent.",
+  "notes": "FORMS:\n{融|ゆう} (dissolve, melt) + {解|かい} (dissolve, undo) → melting/dissolving\n{融解|ゆうかい}⟦する→する：00392_suru⟧ (to melt, to fuse)\n\nSCIENTIFIC TERMS:\n- {融解|ゆうかい}⟦{点|てん}→点：01553_ten⟧ (melting point)\n- {融解|ゆうかい}{熱|ねつ} (heat of fusion)\n\nRELATED WORDS:\n- ⟦{溶解|ようかい}→溶解：17585_youkai⟧ (dissolution - dissolving in a liquid)\n- ⟦{凝固|ぎょうこ}→凝固：08668_gyouko⟧ (solidification - antonym)\n- ⟦{蒸発|じょうはつ}→蒸発：07651_jouhatsu⟧ (evaporation)\n- ⟦{凝縮|ぎょうしゅく}→凝縮：17584_gyoushuku⟧ (condensation)\n\nUSAGE:\n{融解|ゆうかい} refers specifically to the phase change from solid to liquid, while ⟦{溶解|ようかい}→溶解：17585_youkai⟧ refers to dissolving a substance in a solvent.",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -142,13 +142,15 @@
         "verb-suru"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "science"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     },
     "created": "2026-01-26T05:21:17Z",
-    "modified": "2026-08-11T21:34:29Z"
+    "modified": "2026-09-02T04:01:15Z"
   },
   "cross_references": [
     {
@@ -164,6 +166,41 @@
       "reading": "ようかい",
       "headword": "{溶解|ようかい}",
       "label": "dissolution in liquid"
+    },
+    {
+      "type": "related",
+      "target_id": "07651_jouhatsu",
+      "reading": "じょうはつ",
+      "headword": "{蒸発|じょうはつ}",
+      "label": "evaporation"
+    },
+    {
+      "type": "related",
+      "target_id": "17584_gyoushuku",
+      "reading": "ぎょうしゅく",
+      "headword": "{凝縮|ぎょうしゅく}",
+      "label": "condensation"
+    },
+    {
+      "type": "related",
+      "target_id": "08264_tokasu",
+      "reading": "とかす",
+      "headword": "{溶|と}かす",
+      "label": "to melt"
+    },
+    {
+      "type": "related",
+      "target_id": "21505_yuuten",
+      "reading": "ゆうてん",
+      "headword": "{融点|ゆうてん}",
+      "label": "melting point"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30062_souhenka",
+      "reading": "そうへんか",
+      "headword": "{相変化|そうへんか}",
+      "label": "phase change"
     }
   ]
 }

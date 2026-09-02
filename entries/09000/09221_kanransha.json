@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "09221_kanransha_ex1",
-      "japanese": "{観覧車|かんらんしゃ}に{乗|の}る。",
+      "japanese": "{観覧車|かんらんしゃ}⟦に→に：00314_ni⟧⟦{乗|の}る→乗る：00511_noru⟧。",
       "english": "To ride the Ferris wheel.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "09221_kanransha_ex2",
-      "japanese": "{観覧車|かんらんしゃ}から{夜景|やけい}を{見|み}た。",
+      "japanese": "{観覧車|かんらんしゃ}⟦から→から：00504_kara⟧⟦{夜景|やけい}→夜景：10434_yakei⟧⟦を→を：00422_wo⟧⟦{見|み}た→見る：00283_miru⟧。",
       "english": "I watched the night view from the Ferris wheel.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "09221_kanransha_ex3",
-      "japanese": "あの{観覧車|かんらんしゃ}は{世界|せかい}で{二番目|にばんめ}に{高|たか}い。",
+      "japanese": "⟦あの→あの：00915_ano⟧{観覧車|かんらんしゃ}⟦は→は：00079_ha⟧⟦{世界|せかい}→世界：01447_sekai⟧⟦で→で：00502_de⟧⟦{二番目|にばんめ}→二番目：30362_nibanme⟧⟦に→に：00314_ni⟧⟦{高|たか}い→高い：00500_takai⟧。",
       "english": "That Ferris wheel is the second tallest in the world.",
       "notes": null,
       "has_audio": false,
@@ -43,11 +43,19 @@
       ]
     }
   ],
-  "notes": "{観覧車|かんらんしゃ} literally means 'viewing vehicle/wheel' and refers to a Ferris wheel.\n\nWORD COMPOSITION:\n- {観覧|かんらん}: viewing, watching\n- {車|しゃ}: vehicle, wheel\n\nCOMMON COLLOCATIONS:\n- {観覧車|かんらんしゃ}に{乗|の}る: to ride the Ferris wheel\n- {観覧車|かんらんしゃ}から{見|み}る: to see from the Ferris wheel\n- {大|おお}{観覧車|かんらんしゃ}: giant Ferris wheel\n\nNOTABLE FERRIS WHEELS IN JAPAN:\n- {横浜|よこはま}コスモクロック21\n- {天保山|てんぽうざん}{大|だい}{観覧車|かんらんしゃ} (Osaka)\n- お{台場|だいば}パレットタウン{大|おお}{観覧車|かんらんしゃ}",
-  "cross_references": [],
+  "notes": "{観覧車|かんらんしゃ} literally means 'viewing vehicle/wheel' and refers to a Ferris wheel.\n\nWORD COMPOSITION:\n- ⟦{観覧|かんらん}→観覧：08382_kanran⟧: viewing, watching\n- ⟦{車|しゃ}→車：09874_sha⟧: vehicle, wheel\n\nCOMMON COLLOCATIONS:\n- {観覧車|かんらんしゃ}⟦に→に：00314_ni⟧⟦{乗|の}る→乗る：00511_noru⟧: to ride the Ferris wheel\n- {観覧車|かんらんしゃ}⟦から→から：00504_kara⟧⟦{見|み}る→見る：00283_miru⟧: to see from the Ferris wheel\n- {大|おお}{観覧車|かんらんしゃ}: giant Ferris wheel\n\nNOTABLE FERRIS WHEELS IN JAPAN:\n- ⟦{横浜|よこはま}→横浜：28138_yokohama⟧コスモクロック21\n- {天保山|てんぽうざん}{大|だい}{観覧車|かんらんしゃ} (Osaka)\n- お{台場|だいば}パレットタウン{大|おお}{観覧車|かんらんしゃ}",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "28061_meriigoorando",
+      "reading": "めりーごーらんど",
+      "headword": "メリーゴーランド",
+      "label": "merry-go-round"
+    }
+  ],
   "metadata": {
     "created": "2026-02-01T02:43:04Z",
-    "modified": "2026-08-12T21:25:53Z",
+    "modified": "2026-09-02T04:01:17Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

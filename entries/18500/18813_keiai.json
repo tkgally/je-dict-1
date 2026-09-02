@@ -3,7 +3,7 @@
   "headword": "{敬愛|けいあい}",
   "reading": "けいあい",
   "romaji": "keiai",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "respect and affection; reverence",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "18813_keiai_ex1",
-      "japanese": "{先生|せんせい}を{敬愛|けいあい}している。",
+      "japanese": "⟦{先生|せんせい}→先生：00609_sensei⟧⟦を→を：00422_wo⟧{敬愛|けいあい}⟦している→する：00392_suru⟧。",
       "english": "I deeply respect and admire my teacher.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "18813_keiai_ex2",
-      "japanese": "{敬愛|けいあい}する{祖父|そふ}から{多|おお}くのことを{学|まな}んだ。",
+      "japanese": "{敬愛|けいあい}⟦する→する：00392_suru⟧⟦{祖父|そふ}→祖父：01452_sofu⟧⟦から→から：00504_kara⟧{多|おお}く⟦の→の：09472_no⟧こと⟦を→を：00422_wo⟧⟦{学|まな}んだ→学ぶ：01987_manabu⟧。",
       "english": "I learned many things from my beloved and respected grandfather.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "18813_keiai_ex3",
-      "japanese": "{彼|かれ}は{学生|がくせい}たちから{敬愛|けいあい}されている{教授|きょうじゅ}だ。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{学生|がくせい}→学生：00610_gakusei⟧たち⟦から→から：00504_kara⟧{敬愛|けいあい}⟦されている→する：00392_suru⟧⟦{教授|きょうじゅ}→教授：02589_kyouju⟧だ。",
       "english": "He is a professor who is both respected and loved by his students.",
       "sense_numbers": [
         1
@@ -134,11 +134,34 @@
       "notes": null
     }
   ],
-  "notes": "Combines {敬|けい} (respect) and {愛|あい} (love/affection). Expresses a feeling that blends deep admiration with warm personal attachment.\n\nCOMMON PATTERNS:\n- {敬愛|けいあい}する: to respect and love\n- {敬愛|けいあい}される: to be respected and loved\n- {敬愛|けいあい}する〜: modifier ({敬愛|けいあい}する{先生|せんせい} = beloved and respected teacher)\n\nTYPICAL TARGETS:\nDirected toward {先生|せんせい} (teachers), {師匠|ししょう} (mentors), {両親|りょうしん} (parents), {先輩|せんぱい} (seniors), and other admired figures.\n\nCONTRAST:\n- {尊敬|そんけい}: respect, admiration (no warmth implied — purely admiration)\n- {愛情|あいじょう}: affection, love (no respect component)\n- {慕|した}う: to adore, to long for (more emotional, less formal)\n\nREGISTER:\nSomewhat literary and formal. More common in writing, speeches, and formal tributes than in casual conversation.",
+  "notes": "Combines {敬|けい} (respect) and ⟦{愛|あい}→愛：02370_ai⟧ (love/affection). Expresses a feeling that blends deep admiration with warm personal attachment.\n\nCOMMON PATTERNS:\n- {敬愛|けいあい}⟦する→する：00392_suru⟧: to respect and love\n- {敬愛|けいあい}⟦される→する：00392_suru⟧: to be respected and loved\n- {敬愛|けいあい}⟦する→する：00392_suru⟧〜: modifier ({敬愛|けいあい}⟦する→する：00392_suru⟧⟦{先生|せんせい}→先生：00609_sensei⟧ = beloved and respected teacher)\n\nTYPICAL TARGETS:\nDirected toward ⟦{先生|せんせい}→先生：00609_sensei⟧ (teachers), ⟦{師匠|ししょう}→師匠：12421_shishou⟧ (mentors), ⟦{両親|りょうしん}→両親：00806_ryoushin⟧ (parents), ⟦{先輩|せんぱい}→先輩：01451_senpai⟧ (seniors), and other admired figures.\n\nSIMILAR WORDS:\n- ⟦{尊敬|そんけい}→尊敬：01454_sonkei⟧: respect, admiration (no warmth implied — purely admiration)\n- ⟦{愛情|あいじょう}→愛情：01673_aijou⟧: affection, love (no respect component)\n- ⟦{慕|した}う→慕う：09912_shitau⟧: to adore, to long for (more emotional, less formal)\n\nREGISTER:\nSomewhat literary and formal. More common in writing, speeches, and formal tributes than in casual conversation.",
   "synonyms": [],
   "antonyms": [],
   "related": [],
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01454_sonkei",
+      "reading": "そんけい",
+      "headword": "{尊敬|そんけい}",
+      "label": "respect, admiration (no warmth implied"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01673_aijou",
+      "reading": "あいじょう",
+      "headword": "{愛情|あいじょう}",
+      "label": "affection, love"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09912_shitau",
+      "reading": "したう",
+      "headword": "{慕|した}う",
+      "label": "to adore, to long for"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -155,6 +178,6 @@
       "verb_class": "suru"
     },
     "created": "2026-03-23T04:42:37Z",
-    "modified": "2026-04-02T08:18:51Z"
+    "modified": "2026-09-02T04:01:53Z"
   }
 }

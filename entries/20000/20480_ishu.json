@@ -15,40 +15,66 @@
   "examples": [
     {
       "id": "20480_ishu_ex1",
-      "japanese": "{異種|いしゅ}{格闘技|かくとうぎ}{戦|せん}が{話題|わだい}になった。",
+      "japanese": "{異種|いしゅ}⟦{格闘技|かくとうぎ}→格闘技：09246_kakutougi⟧⟦{戦|せん}→〜戦：28346_sen⟧⟦が→が：00051_ga⟧⟦{話題|わだい}→話題：03793_wadai⟧になった。",
       "english": "The mixed martial arts match became a hot topic.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20480_ishu_ex2",
-      "japanese": "{異種|いしゅ}の{金属|きんぞく}を{組|く}み{合|あ}わせて{使|つか}う。",
+      "japanese": "{異種|いしゅ}⟦の→の：09472_no⟧⟦{金属|きんぞく}→金属：02645_kinzoku⟧⟦を→を：00422_wo⟧⟦{組|く}み{合|あ}わせて→組み合わせる：04659_kumiawaseru⟧⟦{使|つか}う→使う：00473_tsukau⟧。",
       "english": "Different types of metals are combined for use.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20480_ishu_ex3",
-      "japanese": "{異種|いしゅ}{間|かん}の{交配|こうはい}によって{新|あたら}しい{品種|ひんしゅ}が{生|う}まれることがある。",
+      "japanese": "{異種|いしゅ}⟦{間|かん}→〜間：28469_kan⟧⟦の→の：09472_no⟧{交配|こうはい}⟦によって→によって：06801_niyotte⟧⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦{品種|ひんしゅ}→品種：11840_hinshu⟧⟦が→が：00051_ga⟧⟦{生|う}まれる→生まれる：00905_umareru⟧こと⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "New varieties can be created through cross-breeding between different species.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {異|い} (different, other) + {種|しゅ} (kind, species). Functions both as a standalone noun and as a prefix modifying other nouns.\n\nCOMMON COLLOCATIONS:\n- {異種|いしゅ}{格闘技|かくとうぎ}: mixed martial arts (fights between different fighting styles)\n- {異種|いしゅ}{間|かん}: between different species/types\n- {異種|いしゅ}{混合|こんごう}: heterogeneous mixture\n- {異種|いしゅ}{移植|いしょく}: xenotransplantation (transplant from a different species)\n\nSIMILAR WORDS:\n- {同種|どうしゅ}: same kind/species — the opposite, indicating things of the same type\n- {別種|べっしゅ}: another kind — similar meaning, but used more for classification\n- {異質|いしつ}: heterogeneous, of a different nature — focuses on the quality or nature being different rather than the category",
+  "notes": "A compound of ⟦{異|い}→異：01925_i⟧ (different, other) + ⟦{種|しゅ}→種：28584_shu⟧ (kind, species). Functions both as a standalone noun and as a prefix modifying other nouns.\n\nCOMMON COLLOCATIONS:\n- {異種|いしゅ}⟦{格闘技|かくとうぎ}→格闘技：09246_kakutougi⟧: mixed martial arts (fights between different fighting styles)\n- {異種|いしゅ}⟦{間|かん}→〜間：28469_kan⟧: between different species/types\n- {異種|いしゅ}⟦{混合|こんごう}→混合：04154_kongou⟧: heterogeneous mixture\n- {異種|いしゅ}⟦{移植|いしょく}→移植：13761_ishoku⟧: xenotransplantation (transplant from a different species)\n\nSIMILAR WORDS:\n- ⟦{同種|どうしゅ}→同種：23793_doushu⟧: same kind/species — the opposite, indicating things of the same type\n- {別種|べっしゅ}: another kind — similar meaning, but used more for classification\n- ⟦{異質|いしつ}→異質：13574_ishitsu⟧: heterogeneous, of a different nature — focuses on the quality or nature being different rather than the category",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "23793_doushu",
+      "reading": "どうしゅ",
+      "headword": "{同種|どうしゅ}",
+      "label": "same kind/species"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13574_ishitsu",
+      "reading": "いしつ",
+      "headword": "{異質|いしつ}",
+      "label": "heterogeneous, of a different nature"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["category"]
+      "semantic": [
+        "category"
+      ]
     },
     "created": "2026-03-29T15:21:51Z",
-    "modified": "2026-03-29T15:21:51Z"
+    "modified": "2026-09-02T04:01:59Z"
   }
 }

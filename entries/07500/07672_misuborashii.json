@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "07672_misuborashii_ex1",
-      "japanese": "みすぼらしい{服|ふく}を{着|き}ている。",
+      "japanese": "みすぼらしい⟦{服|ふく}→服：00695_fuku⟧⟦を→を：00422_wo⟧⟦{着|き}ている→着る：00541_kiru⟧。",
       "english": "Wearing shabby clothes.",
       "has_audio": false,
       "sense_numbers": [
@@ -23,7 +23,7 @@
     },
     {
       "id": "07672_misuborashii_ex2",
-      "japanese": "みすぼらしい{建物|たてもの}が{並|なら}んでいる。",
+      "japanese": "みすぼらしい⟦{建物|たてもの}→建物：01458_tatemono⟧⟦が→が：00051_ga⟧⟦{並|なら}んでいる→並ぶ：00605_narabu⟧。",
       "english": "Run-down buildings line the street.",
       "has_audio": false,
       "sense_numbers": [
@@ -32,7 +32,7 @@
     },
     {
       "id": "07672_misuborashii_ex3",
-      "japanese": "{昔|むかし}は{立派|りっぱ}だったが{今|いま}はみすぼらしくなった。",
+      "japanese": "⟦{昔|むかし}→昔：01515_mukashi⟧⟦は→は：00079_ha⟧⟦{立派|りっぱ}→立派：01093_rippa⟧だった⟦が→が：00051_ga⟧⟦{今|いま}→今：00945_ima⟧⟦は→は：00079_ha⟧みすぼらしく⟦なった→なる：01970_naru⟧。",
       "english": "It used to be splendid but has become shabby now.",
       "has_audio": false,
       "sense_numbers": [
@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "notes": "みすぼらしい describes something that looks shabby, run-down, or poor. It conveys a visual impression of poverty or neglect.\n\nFORMS:\n- みすぼらしくない: not shabby (negative)\n- みすぼらしく: shabbily (adverbial)\n- みすぼらしかった: was shabby (past)\n- みすぼらしさ: shabbiness (noun form)\n\nCOMMON COLLOCATIONS:\n- みすぼらしい{服|ふく}: shabby clothes\n- みすぼらしい{建物|たてもの}: run-down building\n- みすぼらしい{格好|かっこう}: shabby appearance\n- みすぼらしくなる: to become shabby\n\nKANJI:\nCan be written as {見窄|みすぼ}らしい, but hiragana is standard.\n\nSIMILAR WORDS:\n- {粗末|そまつ}: plain, humble, shabby (things, food)\n- {貧相|ひんそう}: poor-looking (especially people's appearance)\n- ボロボロ: tattered, falling apart (stronger, physical deterioration)\n- {古臭|ふるくさ}い: old-fashioned, musty (emphasizes outdatedness)",
+  "notes": "みすぼらしい describes something that looks shabby, run-down, or poor. It conveys a visual impression of poverty or neglect.\n\nFORMS:\n- みすぼらしく⟦ない→ない：01118_nai⟧: not shabby (negative)\n- みすぼらしく: shabbily (adverbial)\n- みすぼらしかった: was shabby (past)\n- みすぼらしさ: shabbiness (noun form)\n\nCOMMON COLLOCATIONS:\n- みすぼらしい⟦{服|ふく}→服：00695_fuku⟧: shabby clothes\n- みすぼらしい⟦{建物|たてもの}→建物：01458_tatemono⟧: run-down building\n- みすぼらしい⟦{格好|かっこう}→格好：01800_kakkou⟧: shabby appearance\n- みすぼらしく⟦なる→なる：01970_naru⟧: to become shabby\n\nWRITING:\nCan be written as {見窄|みすぼ}らしい, but hiragana is standard.\n\nSIMILAR WORDS:\n- ⟦{粗末|そまつ}→粗末：03323_somatsu⟧: plain, humble, shabby (things, food)\n- ⟦{貧相|ひんそう}→貧相：18816_hinsou⟧: poor-looking (especially people's appearance)\n- ボロボロ: tattered, falling apart (stronger, physical deterioration)\n- {古臭|ふるくさ}い: old-fashioned, musty (emphasizes outdatedness)",
   "cross_references": [
     {
       "type": "synonym",
@@ -48,11 +48,32 @@
       "reading": "そまつ",
       "headword": "{粗末|そまつ}",
       "label": "humble, plain, shabby"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18816_hinsou",
+      "reading": "ひんそう",
+      "headword": "{貧相|ひんそう}",
+      "label": "poor-looking"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15771_furukusai",
+      "reading": "ふるくさい",
+      "headword": "{古臭|ふるくさ}い",
+      "label": "old-fashioned, musty"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18589_kogitanai",
+      "reading": "こぎたない",
+      "headword": "{小汚|こぎたな}い",
+      "label": "scruffy"
     }
   ],
   "metadata": {
     "created": "2026-01-20T14:05:39Z",
-    "modified": "2026-06-19T21:43:28Z",
+    "modified": "2026-09-02T04:01:12Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

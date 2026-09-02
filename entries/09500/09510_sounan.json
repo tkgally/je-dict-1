@@ -2,7 +2,7 @@
   "id": "09510_sounan",
   "headword": "{遭難|そうなん}",
   "reading": "そうなん",
-  "part_of_speech": "noun / suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "disaster, distress (at sea/in mountains), being stranded",
   "conjugation": {
     "type": "suru",
@@ -113,7 +113,7 @@
     },
     {
       "id": "09510_sounan_ex2",
-      "japanese": "{遭難|そうなん}{者|しゃ}⟦を→を：00422_wo⟧{救助|きゅうじょ}⟦する→する：00392_suru⟧。",
+      "japanese": "{遭難|そうなん}{者|しゃ}⟦を→を：00422_wo⟧⟦{救助|きゅうじょ}→救助：02588_kyuujo⟧⟦する→する：00392_suru⟧。",
       "english": "To rescue the victims.",
       "has_audio": false,
       "sense_numbers": [
@@ -130,10 +130,10 @@
       ]
     }
   ],
-  "notes": "{遭難|そうなん} refers to encountering serious danger or disaster, especially in outdoor settings like mountains and at sea. It implies a life-threatening situation requiring rescue.\n\nCOMMON CONTEXTS:\n- {山岳|さんがく}{遭難|そうなん}: mountaineering accident\n- {海難|かいなん}: maritime disaster\n- {遭難|そうなん}する: to meet with disaster, become stranded\n\nCOMMON COLLOCATIONS:\n- {遭難|そうなん}{者|しゃ}: victim, person in distress\n- {遭難|そうなん}{信号|しんごう}: distress signal (SOS)\n- {遭難|そうなん}{現場|げんば}: disaster site\n- {救助|きゅうじょ}{隊|たい}: rescue team\n\nUSAGE:\nFrequently appears in news about mountain climbing accidents, shipwrecks, and natural disasters. Unlike {事故|じこ} (accident, general), {遭難|そうなん} specifically implies being stranded or imperiled in a remote or dangerous environment.",
+  "notes": "{遭難|そうなん} refers to encountering serious danger or disaster, especially in outdoor settings like mountains and at sea. It implies a life-threatening situation requiring rescue.\n\nUSAGE:\n- ⟦{山岳|さんがく}→山岳：12522_sangaku⟧{遭難|そうなん}: mountaineering accident\n- ⟦{海難|かいなん}→海難：21857_kainan⟧: maritime disaster\n- {遭難|そうなん}⟦する→する：00392_suru⟧: to meet with disaster, become stranded\nFrequently appears in news about mountain climbing accidents, shipwrecks, and natural disasters. Unlike ⟦{事故|じこ}→事故：00851_jiko⟧ (accident, general), {遭難|そうなん} specifically implies being stranded or imperiled in a remote or dangerous environment.\n\nCOMMON COLLOCATIONS:\n- {遭難|そうなん}{者|しゃ}: victim, person in distress\n- {遭難|そうなん}⟦{信号|しんごう}→信号：03258_shingou⟧: distress signal (SOS)\n- {遭難|そうなん}⟦{現場|げんば}→現場：02723_genba⟧: disaster site\n- ⟦{救助|きゅうじょ}{隊|たい}→救助隊：23912_kyuujotai⟧: rescue team",
   "metadata": {
     "created": "2026-02-02T10:21:20Z",
-    "modified": "2026-04-22T08:43:07Z",
+    "modified": "2026-09-02T04:01:18Z",
     "ai_model": "claude-opus-4-5-20251101",
     "vocabulary_tier": "general",
     "tags": {
@@ -156,6 +156,13 @@
       "reading": "あう",
       "headword": "{遭|あ}う",
       "label": "to encounter (misfortune)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21857_kainan",
+      "reading": "かいなん",
+      "headword": "{海難|かいなん}",
+      "label": "maritime disaster"
     }
   ]
 }

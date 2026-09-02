@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "15630_shousha_ex1",
-      "japanese": "{勝者|しょうしゃ}が{決|き}まった。",
+      "japanese": "{勝者|しょうしゃ}⟦が→が：00051_ga⟧⟦{決|き}まった→決まる：01233_kimaru⟧。",
       "english": "The winner was decided.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "15630_shousha_ex2",
-      "japanese": "{勝者|しょうしゃ}にはトロフィーが{贈|おく}られる。",
+      "japanese": "{勝者|しょうしゃ}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧トロフィー⟦が→が：00051_ga⟧⟦{贈|おく}られる→贈る：09862_okuru⟧。",
       "english": "A trophy will be presented to the winner.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "15630_shousha_ex3",
-      "japanese": "{歴史|れきし}は{常|つね}に{勝者|しょうしゃ}の{視点|してん}で{書|か}かれるとよく{言|い}われる。",
+      "japanese": "⟦{歴史|れきし}→歴史：02267_rekishi⟧⟦は→は：00079_ha⟧⟦{常|つね}→常：28958_tsune⟧⟦に→に：00314_ni⟧{勝者|しょうしゃ}⟦の→の：09472_no⟧⟦{視点|してん}→視点：03187_shiten⟧⟦で→で：00502_de⟧⟦{書|か}かれる→書く：00477_kaku⟧⟦と→と：00512_to⟧⟦よく→よく：00601_yoku⟧⟦{言|い}われる→言う：00515_iu⟧。",
       "english": "It is often said that history is always written from the winner's perspective.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "{勝者|しょうしゃ} means the winner or victor — the person or side that prevails in a competition, battle, or contest.\n\nCOMMON COLLOCATIONS:\n- {勝者|しょうしゃ}と{敗者|はいしゃ}: winner and loser\n- {最終的|さいしゅうてき}な{勝者|しょうしゃ}: ultimate winner\n- {勝者|しょうしゃ}なき{戦|たたか}い: a battle with no winner\n- {勝者|しょうしゃ}を{決|き}める: to determine the winner\n\nSIMILAR WORDS:\n- {優勝者|ゆうしょうしゃ}: champion (specifically of a tournament or competition)\n- {勝|か}ち{組|ぐみ}: winners (as a group, often figurative — those who succeed in life)\n- {敗者|はいしゃ}: loser, defeated party (antonym)\n\nREGISTER:\nSomewhat formal. In casual speech, {勝|か}った{人|ひと} (the person who won) or {勝|か}ち (winning/victory) is more natural.",
+  "notes": "{勝者|しょうしゃ} means the winner or victor — the person or side that prevails in a competition, battle, or contest.\n\nCOMMON COLLOCATIONS:\n- {勝者|しょうしゃ}⟦と→と：00512_to⟧⟦{敗者|はいしゃ}→敗者：12941_haisha⟧: winner and loser\n- ⟦{最終的|さいしゅうてき}→最終的：13013_saishuuteki⟧な{勝者|しょうしゃ}: ultimate winner\n- {勝者|しょうしゃ}なき⟦{戦|たたか}い→戦い：02070_tatakai⟧: a battle with no winner\n- {勝者|しょうしゃ}⟦を→を：00422_wo⟧⟦{決|き}める→決める：00858_kimeru⟧: to determine the winner\n\nSIMILAR WORDS:\n- ⟦{優勝者|ゆうしょうしゃ}→優勝者：21822_yuushousha⟧: champion (specifically of a tournament or competition)\n- {勝|か}ち{組|ぐみ}: winners (as a group, often figurative — those who succeed in life)\n- ⟦{敗者|はいしゃ}→敗者：12941_haisha⟧: loser, defeated party (antonym)\n\nREGISTER:\nSomewhat formal. In casual speech, ⟦{勝|か}った→勝つ：01199_katsu⟧⟦{人|ひと}→人：00476_hito⟧ (the person who won) or ⟦{勝|か}ち→勝ち：02540_kachi⟧ (winning/victory) is more natural.",
   "cross_references": [
     {
       "type": "antonym",
@@ -52,11 +52,18 @@
       "reading": "はいしゃ",
       "headword": "{敗者|はいしゃ}",
       "label": "loser, defeated"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24558_hasha",
+      "reading": "はしゃ",
+      "headword": "{覇者|はしゃ}",
+      "label": "champion"
     }
   ],
   "metadata": {
     "created": "2026-03-07T13:43:42Z",
-    "modified": "2026-07-17T12:56:16Z",
+    "modified": "2026-09-02T04:01:41Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

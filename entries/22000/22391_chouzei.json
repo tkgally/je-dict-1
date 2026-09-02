@@ -3,7 +3,7 @@
   "headword": "{徴税|ちょうぜい}",
   "reading": "ちょうぜい",
   "romaji": "chouzei",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "tax collection; levying taxes",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22391_chouzei_ex1",
-      "japanese": "{徴税|ちょうぜい}{業務|ぎょうむ}を{行|おこな}う。",
+      "japanese": "{徴税|ちょうぜい}⟦{業務|ぎょうむ}→業務：09630_gyoumu⟧⟦を→を：00422_wo⟧⟦{行|おこな}う→行う：01238_okonau⟧。",
       "english": "To carry out tax collection work.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22391_chouzei_ex2",
-      "japanese": "{徴税|ちょうぜい}{強化|きょうか}の{方針|ほうしん}が{発表|はっぴょう}された。",
+      "japanese": "{徴税|ちょうぜい}⟦{強化|きょうか}→強化：00260_kyouka⟧⟦の→の：09472_no⟧⟦{方針|ほうしん}→方針：04871_houshin⟧⟦が→が：00051_ga⟧⟦{発表|はっぴょう}→発表：03562_happyou⟧⟦された→する：00392_suru⟧。",
       "english": "A policy to strengthen tax collection was announced.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22391_chouzei_ex3",
-      "japanese": "{政府|せいふ}は{新|あたら}しい{徴税|ちょうぜい}システムを{導入|どうにゅう}して、{税収|ぜいしゅう}の{増加|ぞうか}を{目指|めざ}している。",
+      "japanese": "⟦{政府|せいふ}→政府：03294_seifu⟧⟦は→は：00079_ha⟧⟦{新|あたら}しい→新しい：00506_atarashii⟧{徴税|ちょうぜい}⟦システム→システム：08428_shisutemu⟧⟦を→を：00422_wo⟧⟦{導入|どうにゅう}して→導入する：16055_dounyuusuru⟧、⟦{税収|ぜいしゅう}→税収：14973_zeishuu⟧⟦の→の：09472_no⟧⟦{増加|ぞうか}→増加：03329_zouka⟧⟦を→を：00422_wo⟧⟦{目指|めざ}している→目指す：10528_mezasu⟧。",
       "english": "The government is aiming to increase tax revenue by introducing a new tax collection system.",
       "sense_numbers": [
         1
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {徴|ちょう} (to levy/collect) and {税|ぜい} (tax). An official term for the government's collection of taxes. The verb form {徴税|ちょうぜい}する is also used.\n\nCOMMON COLLOCATIONS:\n- {徴税|ちょうぜい}{業務|ぎょうむ}: tax collection duties\n- {徴税|ちょうぜい}{強化|きょうか}: strengthening tax collection\n- {徴税|ちょうぜい}コスト: cost of tax collection\n- {徴税|ちょうぜい}{権|けん}: taxing authority\n- {徴税|ちょうぜい}{吏員|りいん}: tax collection officer\n\nSIMILAR WORDS:\n- {課税|かぜい}: taxation — the act of imposing a tax, rather than collecting it\n- {納税|のうぜい}: tax payment — paying taxes (from the taxpayer's perspective)\n- {税収|ぜいしゅう}: tax revenue — the total money collected from taxes\n- {徴収|ちょうしゅう}: collection — broader term for collecting payments, fees, or dues, not limited to taxes\n\nREGISTER:\nFormal. Used in government, legal, and economic contexts.",
+  "notes": "Composed of {徴|ちょう} (to levy/collect) and ⟦{税|ぜい}→税：03767_zei⟧ (tax). An official term for the government's collection of taxes. The verb form {徴税|ちょうぜい}⟦する→する：00392_suru⟧ is also used.\n\nCOMMON COLLOCATIONS:\n- {徴税|ちょうぜい}⟦{業務|ぎょうむ}→業務：09630_gyoumu⟧: tax collection duties\n- {徴税|ちょうぜい}⟦{強化|きょうか}→強化：00260_kyouka⟧: strengthening tax collection\n- {徴税|ちょうぜい}⟦コスト→コスト：06666_kosuto⟧: cost of tax collection\n- {徴税|ちょうぜい}{権|けん}: taxing authority\n- {徴税|ちょうぜい}{吏員|りいん}: tax collection officer\n\nSIMILAR WORDS:\n- ⟦{課税|かぜい}→課税：00203_kazei⟧: taxation — the act of imposing a tax, rather than collecting it\n- ⟦{納税|のうぜい}→納税：13806_nouzei⟧: tax payment — paying taxes (from the taxpayer's perspective)\n- ⟦{税収|ぜいしゅう}→税収：14973_zeishuu⟧: tax revenue — the total money collected from taxes\n- ⟦{徴収|ちょうしゅう}→徴収：16563_choushuu⟧: collection — broader term for collecting payments, fees, or dues, not limited to taxes\n\nREGISTER:\nFormal. Used in government, legal, and economic contexts.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00203_kazei",
+      "reading": "かぜい",
+      "headword": "{課税|かぜい}",
+      "label": "taxation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13806_nouzei",
+      "reading": "のうぜい",
+      "headword": "{納税|のうぜい}",
+      "label": "tax payment"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14973_zeishuu",
+      "reading": "ぜいしゅう",
+      "headword": "{税収|ぜいしゅう}",
+      "label": "tax revenue"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16563_choushuu",
+      "reading": "ちょうしゅう",
+      "headword": "{徴収|ちょうしゅう}",
+      "label": "collection"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,7 +92,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-05T20:16:21Z",
-    "modified": "2026-04-05T20:16:21Z"
+    "modified": "2026-09-02T04:02:07Z"
   },
   "conjugation": {
     "type": "suru",

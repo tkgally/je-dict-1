@@ -14,40 +14,59 @@
   "examples": [
     {
       "id": "29168_nebanaranai_ex1",
-      "japanese": "{明日|あした}{早|はや}く{起|お}きねばならない。",
+      "japanese": "⟦{明日|あした}→明日：00501_ashita⟧⟦{早|はや}く→早い：00514_hayai⟧⟦{起|お}き→起きる：00521_okiru⟧ねばならない。",
       "english": "I must wake up early tomorrow.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29168_nebanaranai_ex2",
-      "japanese": "{問題|もんだい}を{根本|こんぽん}から{解決|かいけつ}せねばならない。",
+      "japanese": "⟦{問題|もんだい}→問題：00797_mondai⟧⟦を→を：00422_wo⟧⟦{根本|こんぽん}→根本：13107_konpon⟧⟦から→から：00504_kara⟧⟦{解決|かいけつ}→解決：00136_kaiketsu⟧せねばならない。",
       "english": "We must resolve the problem from the root.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29168_nebanaranai_ex3",
-      "japanese": "{社会|しゃかい}の{不公平|ふこうへい}に{目|め}を{向|む}けねばならない{時代|じだい}が{来|き}ている。",
+      "japanese": "⟦{社会|しゃかい}→社会：01427_shakai⟧⟦の→の：09472_no⟧⟦{不公平|ふこうへい}→不公平：16851_fukouhei⟧⟦に→に：00314_ni⟧⟦{目|め}→目：00525_me⟧⟦を→を：00422_wo⟧⟦{向|む}け→向ける：02306_mukeru⟧ねばならない⟦{時代|じだい}→時代：01424_jidai⟧⟦が→が：00051_ga⟧⟦{来|き}ている→来る：00254_kuru⟧。",
       "english": "An era has come in which we must turn our eyes to social inequality.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Literary/formal contraction of 〜なければならない. Formed by replacing なければ with ねば (from classical Japanese ねば = if not).\n\nFORMATION:\n- Verb (nai-stem) + ねばならない\n- 行く → 行かねばならない (must go)\n- {食|た}べる → {食|た}べねばならない (must eat)\n- する → せねばならない / しねばならない (must do)\n\nREGISTER: formal/written; not used in casual conversation. Use なければならない, なきゃ(ならない), or ないといけない in everyday speech.\n\nSIMILAR EXPRESSIONS:\n- 〜なければならない: must — the standard form (more common in speech)\n- 〜なきゃならない: must — colloquial contraction\n- 〜ないといけない: must; have to — common in everyday speech",
+  "notes": "Literary/formal contraction of 〜⟦なければならない→なければならない：27600_nakerebanaranai⟧. Formed by replacing ⟦なければ→ない：01118_nai⟧ with ねば (from classical Japanese ねば = if not).\n\nFORMS:\n- Verb (nai-stem) + ねばならない\n- 行く → 行かねばならない (must go)\n- ⟦{食|た}べる→食べる：00396_taberu⟧ → ⟦{食|た}べ→食べる：00396_taberu⟧ねばならない (must eat)\n- ⟦する→する：00392_suru⟧ → せねばならない / しねばならない (must do)\n\nREGISTER: formal/written; not used in casual conversation. Use ⟦なければならない→なければならない：27600_nakerebanaranai⟧, ⟦なきゃ→ない：01118_nai⟧(⟦ならない→なる：01970_naru⟧), or ⟦ない→ない：01118_nai⟧⟦と→と：00512_to⟧いけない in everyday speech.\n\nSIMILAR WORDS:\n- 〜⟦なければならない→なければならない：27600_nakerebanaranai⟧: must — the standard form (more common in speech)\n- 〜⟦なきゃならない→〜なきゃならない：29169_nakyanaranai⟧: must — colloquial contraction\n- 〜⟦ない→ない：01118_nai⟧⟦と→と：00512_to⟧いけない: must; have to — common in everyday speech",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "27600_nakerebanaranai",
+      "reading": "なければならない",
+      "headword": "なければならない",
+      "label": "must"
+    }
+  ],
   "metadata": {
     "created": "2026-06-12T08:52:52Z",
-    "modified": "2026-06-12T08:52:52Z",
+    "modified": "2026-09-02T04:02:36Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["expression"],
+      "pos": [
+        "expression"
+      ],
       "formality": "formal",
-      "politeness": null,
-      "semantic": ["grammatical"],
+      "politeness": "plain",
+      "semantic": [
+        "grammatical"
+      ],
       "domain": []
     }
   }

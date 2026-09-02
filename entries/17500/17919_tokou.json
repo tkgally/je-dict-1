@@ -3,7 +3,7 @@
   "id": "17919_tokou",
   "headword": "{渡航|とこう}",
   "reading": "とこう",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "traveling abroad; voyage",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "17919_tokou_ex1",
-      "japanese": "{海外|かいがい}{渡航|とこう}の{予定|よてい}がある。",
+      "japanese": "⟦{海外|かいがい}→海外：00134_kaigai⟧{渡航|とこう}⟦の→の：09472_no⟧⟦{予定|よてい}→予定：00824_yotei⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "I have plans to travel abroad.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "17919_tokou_ex2",
-      "japanese": "{渡航|とこう}{先|さき}の{安全|あんぜん}{情報|じょうほう}を{確認|かくにん}してください。",
+      "japanese": "{渡航|とこう}{先|さき}⟦の→の：09472_no⟧⟦{安全|あんぜん}→安全：01131_anzen⟧⟦{情報|じょうほう}→情報：03348_jouhou⟧⟦を→を：00422_wo⟧⟦{確認|かくにん}して→確認する：25332_kakuninsuru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please check the safety information for your travel destination.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "17919_tokou_ex3",
-      "japanese": "その{地域|ちいき}への{渡航|とこう}は{外務省|がいむしょう}から{自粛|じしゅく}が{求|もと}められている。",
+      "japanese": "⟦その→その：00993_sono⟧⟦{地域|ちいき}→地域：01461_chiiki⟧⟦へ→へ：02473_he⟧⟦の→の：09472_no⟧{渡航|とこう}⟦は→は：00079_ha⟧{外務省|がいむしょう}⟦から→から：00504_kara⟧⟦{自粛|じしゅく}→自粛：07650_jishuku⟧⟦が→が：00051_ga⟧⟦{求|もと}められている→求める：02316_motomeru⟧。",
       "english": "The Ministry of Foreign Affairs is urging people to refrain from traveling to that region.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA formal term commonly seen in government advisories, immigration documents, and travel warnings. More formal than {海外旅行|かいがいりょこう} (overseas trip) and carries an administrative tone.\n\nCOMMON COLLOCATIONS:\n- {渡航|とこう}{先|さき} (travel destination)\n- {渡航|とこう}{禁止|きんし} (travel ban)\n- {渡航|とこう}{歴|れき} (travel history)\n- {渡航|とこう}{制限|せいげん} (travel restrictions)\n\nSIMILAR WORDS:\n- {海外旅行|かいがいりょこう}: overseas trip — casual, everyday term for traveling abroad\n- {出国|しゅっこく}: departure from a country — focuses on the act of leaving",
+  "notes": "USAGE:\nA formal term commonly seen in government advisories, immigration documents, and travel warnings. More formal than ⟦{海外旅行|かいがいりょこう}→海外旅行：24321_kaigairyokou⟧ (overseas trip) and carries an administrative tone.\n\nCOMMON COLLOCATIONS:\n- {渡航|とこう}{先|さき} (travel destination)\n- {渡航|とこう}⟦{禁止|きんし}→禁止：02643_kinshi⟧ (travel ban)\n- {渡航|とこう}{歴|れき} (travel history)\n- {渡航|とこう}⟦{制限|せいげん}→制限：03375_seigen⟧ (travel restrictions)\n\nSIMILAR WORDS:\n- ⟦{海外旅行|かいがいりょこう}→海外旅行：24321_kaigairyokou⟧: overseas trip — casual, everyday term for traveling abroad\n- ⟦{出国|しゅっこく}→出国：15879_shukkoku⟧: departure from a country — focuses on the act of leaving",
   "cross_references": [
     {
       "type": "synonym",
@@ -149,11 +149,25 @@
       "reading": "しゅっこく",
       "headword": "{出国|しゅっこく}",
       "label": "departure from country"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19961_funatabi",
+      "reading": "ふなたび",
+      "headword": "{船旅|ふなたび}",
+      "label": "boat trip"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24874_shutsunyuukoku",
+      "reading": "しゅつにゅうこく",
+      "headword": "{出入国|しゅつにゅうこく}",
+      "label": "immigration and emigration"
     }
   ],
   "metadata": {
     "created": "2026-03-19T09:11:55Z",
-    "modified": "2026-05-07T10:07:56Z",
+    "modified": "2026-09-02T04:01:50Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24083_rippou_ex1",
-      "japanese": "この{水槽|すいそう}は{一|いち}{立方|りっぽう}メートルだ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{水槽|すいそう}→水槽：09956_suisou⟧⟦は→は：00079_ha⟧⟦{一|いち}→一：00705_ichi⟧{立方|りっぽう}メートルだ。",
       "english": "This tank is one cubic meter.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24083_rippou_ex2",
-      "japanese": "{立方体|りっぽうたい}の{体積|たいせき}を{計算|けいさん}しなさい。",
+      "japanese": "⟦{立方体|りっぽうたい}→立方体：05549_rippoutai⟧⟦の→の：09472_no⟧⟦{体積|たいせき}→体積：04492_taiseki⟧⟦を→を：00422_wo⟧⟦{計算|けいさん}→計算：02697_keisan⟧し⟦なさい→なさる：01307_nasaru⟧。",
       "english": "Calculate the volume of the cube.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24083_rippou_ex3",
-      "japanese": "{水|みず}の{使用量|しようりょう}は{一|いち}か{月|げつ}で{約|やく}10{立方|りっぽう}メートルだった。",
+      "japanese": "⟦{水|みず}→水：02258_mizu⟧⟦の→の：09472_no⟧{使用量|しようりょう}⟦は→は：00079_ha⟧⟦{一|いち}→一：00705_ichi⟧か{月|げつ}⟦で→で：00502_de⟧⟦{約|やく}→約：09563_yaku⟧10{立方|りっぽう}メートルだった。",
       "english": "Water usage was about 10 cubic meters per month.",
       "sense_numbers": [
         1
@@ -44,20 +44,37 @@
       "notes": null
     }
   ],
-  "notes": "Used in mathematics and measurement to indicate cubic (three-dimensional) quantities. Essential for understanding water bills, construction measurements, and math class in Japan. Often written as {立方|りっぽう} or abbreviated as {立米|りゅうべい} (cubic meter) in industry.\n\nCOMMON COLLOCATIONS:\n- {立方|りっぽう}メートル: cubic meter\n- {立方|りっぽう}センチメートル: cubic centimeter\n- {立方体|りっぽうたい}: cube (geometric shape)\n- {立方根|りっぽうこん}: cube root\n\nSIMILAR WORDS:\n- {平方|へいほう}: square (two-dimensional) — {平方|へいほう}メートル is square meter\n- {立体|りったい}: three-dimensional; solid — describes shapes that have depth, broader than {立方|りっぽう}",
+  "notes": "Used in mathematics and measurement to indicate cubic (three-dimensional) quantities. Essential for understanding water bills, construction measurements, and math class in Japan. Often written as {立方|りっぽう} or abbreviated as {立米|りゅうべい} (cubic meter) in industry.\n\nCOMMON COLLOCATIONS:\n- {立方|りっぽう}メートル: cubic meter\n- {立方|りっぽう}⟦センチメートル→センチメートル：23738_senchimeetoru⟧: cubic centimeter\n- ⟦{立方体|りっぽうたい}→立方体：05549_rippoutai⟧: cube (geometric shape)\n- ⟦{立方根|りっぽうこん}→立方根：30121_rippoukon⟧: cube root\n\nSIMILAR WORDS:\n- ⟦{平方|へいほう}→平方：27997_heihou⟧: square (two-dimensional) — ⟦{平方|へいほう}メートル→平方メートル：03148_heihoumeetoru⟧ is square meter\n- ⟦{立体|りったい}→立体：18797_rittai⟧: three-dimensional; solid — describes shapes that have depth, broader than {立方|りっぽう}",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "27997_heihou",
+      "reading": "へいほう",
+      "headword": "{平方|へいほう}",
+      "label": "square"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18797_rittai",
+      "reading": "りったい",
+      "headword": "{立体|りったい}",
+      "label": "three-dimensional"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "science",
         "quantity"
       ]
     },
     "created": "2026-04-17T17:40:03Z",
-    "modified": "2026-08-02T18:32:34Z"
+    "modified": "2026-09-02T04:02:16Z"
   }
 }

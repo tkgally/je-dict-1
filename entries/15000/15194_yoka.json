@@ -15,41 +15,59 @@
   "examples": [
     {
       "id": "15194_yoka_ex1",
-      "japanese": "{余暇|よか}を{楽|たの}しむ。",
+      "japanese": "{余暇|よか}⟦を→を：00422_wo⟧⟦{楽|たの}しむ→楽しむ：01203_tanoshimu⟧。",
       "english": "Enjoy one's leisure time.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15194_yoka_ex2",
-      "japanese": "{余暇|よか}には{読書|どくしょ}をして{過|す}ごしている。",
+      "japanese": "{余暇|よか}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{読書|どくしょ}→読書：03484_dokusho⟧⟦を→を：00422_wo⟧⟦して→する：00392_suru⟧⟦{過|す}ごしている→過ごす：02062_sugosu⟧。",
       "english": "I spend my free time reading.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15194_yoka_ex3",
-      "japanese": "{仕事|しごと}が{忙|いそが}しすぎて{余暇|よか}を{過|す}ごす{時間|じかん}がほとんどない。",
+      "japanese": "⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦が→が：00051_ga⟧{忙|いそが}しすぎて{余暇|よか}⟦を→を：00422_wo⟧⟦{過|す}ごす→過ごす：02062_sugosu⟧⟦{時間|じかん}→時間：00468_jikan⟧⟦が→が：00051_ga⟧⟦ほとんど→ほとんど：00847_hotondo⟧⟦ない→ない：01118_nai⟧。",
       "english": "I'm so busy with work that I barely have any leisure time.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\n{余暇|よか} is a somewhat formal or literary word for free time. It is commonly used in discussions of work-life balance, lifestyle, and recreation. In casual conversation, {暇|ひま} or {自由|じゆう}{時間|じかん} is more natural.\n\nCOMMON COLLOCATIONS:\n- {余暇|よか}を{過|す}ごす (to spend leisure time)\n- {余暇|よか}を{楽|たの}しむ (to enjoy leisure time)\n- {余暇|よか}{活動|かつどう} (leisure activities)\n- {余暇|よか}の{使|つか}い{方|かた} (how to spend free time)\n\nCOMPARISON:\n- {暇|ひま} — free time (casual, everyday)\n- {余暇|よか} — leisure time (formal, often in writing)\n- {自由|じゆう}{時間|じかん} — free time (neutral, descriptive)",
-  "cross_references": [],
+  "notes": "USAGE:\n{余暇|よか} is a somewhat formal or literary word for free time. It is commonly used in discussions of work-life balance, lifestyle, and recreation. In casual conversation, ⟦{暇|ひま}→暇：00592_hima⟧ or ⟦{自由|じゆう}→自由：01148_jiyuu⟧⟦{時間|じかん}→時間：00468_jikan⟧ is more natural.\n\nCOMMON COLLOCATIONS:\n- {余暇|よか}⟦を→を：00422_wo⟧⟦{過|す}ごす→過ごす：02062_sugosu⟧ (to spend leisure time)\n- {余暇|よか}⟦を→を：00422_wo⟧⟦{楽|たの}しむ→楽しむ：01203_tanoshimu⟧ (to enjoy leisure time)\n- {余暇|よか}⟦{活動|かつどう}→活動：00201_katsudou⟧ (leisure activities)\n- {余暇|よか}⟦の→の：09472_no⟧⟦{使|つか}い{方|かた}→使い方：07797_tsukaikata⟧ (how to spend free time)\n\nSIMILAR WORDS:\n- ⟦{暇|ひま}→暇：00592_hima⟧ — free time (casual, everyday)\n- {余暇|よか} — leisure time (formal, often in writing)\n- ⟦{自由|じゆう}→自由：01148_jiyuu⟧⟦{時間|じかん}→時間：00468_jikan⟧ — free time (neutral, descriptive)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25669_akijikan",
+      "reading": "あきじかん",
+      "headword": "{空|あ}き{時間|じかん}",
+      "label": "free time"
+    }
+  ],
   "metadata": {
     "created": "2026-03-05T09:10:42Z",
-    "modified": "2026-03-05T09:10:42Z",
+    "modified": "2026-09-02T04:01:40Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["time-general"]
+      "semantic": [
+        "time-general"
+      ]
     }
   }
 }

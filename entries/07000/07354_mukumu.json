@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "07354_mukumu_ex1",
-      "japanese": "{足|あし}がむくんでいる。",
+      "japanese": "⟦{足|あし}→足：00575_ashi⟧⟦が→が：00051_ga⟧むくんで⟦いる→いる：00495_iru⟧。",
       "english": "My legs are swollen.",
       "has_audio": false,
       "sense_numbers": [
@@ -113,7 +113,7 @@
     },
     {
       "id": "07354_mukumu_ex2",
-      "japanese": "{朝|あさ}、{顔|かお}がむくむことがある。",
+      "japanese": "⟦{朝|あさ}→朝：02277_asa⟧、⟦{顔|かお}→顔：00558_kao⟧⟦が→が：00051_ga⟧むくむこと⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "Sometimes my face is puffy in the morning.",
       "has_audio": false,
       "sense_numbers": [
@@ -122,7 +122,7 @@
     },
     {
       "id": "07354_mukumu_ex3",
-      "japanese": "{塩分|えんぶん}を{摂|と}りすぎると{体|からだ}がむくみやすくなる。",
+      "japanese": "⟦{塩分|えんぶん}→塩分：09945_enbun⟧⟦を→を：00422_wo⟧⟦{摂|と}り→摂る：29372_toru⟧すぎる⟦と→と：00512_to⟧⟦{体|からだ}→体：00784_karada⟧⟦が→が：00051_ga⟧むくみやすく⟦なる→なる：01970_naru⟧。",
       "english": "If you consume too much salt, your body becomes prone to swelling.",
       "has_audio": false,
       "sense_numbers": [
@@ -130,10 +130,19 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY:\nIntransitive verb ({自動詞|じどうし}). No pair verb.\n\nASPECT:\nむくんでいる indicates a current state of being swollen.\n\nCOMMON COLLOCATIONS:\n・{足|あし}がむくむ (legs swell)\n・{顔|かお}がむくむ (face becomes puffy)\n・{手|て}がむくむ (hands swell)\n・{体|からだ}がむくむ (body swells)\n\nRELATED NOUN:\nむくみ - swelling, puffiness, edema\n・むくみを{取|と}る (to reduce swelling)\n・むくみ{防止|ぼうし} (swelling prevention)\n\nMEDICAL CONTEXT:\nむくみ is the common word for what is medically called {浮腫|ふしゅ} (edema). Common causes include standing for long periods, high salt intake, and poor circulation.",
+  "notes": "TRANSITIVITY:\nIntransitive verb (⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧). No pair verb.\n\nASPECT (ている):\nむくんで⟦いる→いる：00495_iru⟧ indicates a current state of being swollen.\n\nCOMMON COLLOCATIONS:\n- ⟦{足|あし}→足：00575_ashi⟧⟦が→が：00051_ga⟧むくむ (legs swell)\n- ⟦{顔|かお}→顔：00558_kao⟧⟦が→が：00051_ga⟧むくむ (face becomes puffy)\n- ⟦{手|て}→手：00569_te⟧⟦が→が：00051_ga⟧むくむ (hands swell)\n- ⟦{体|からだ}→体：00784_karada⟧⟦が→が：00051_ga⟧むくむ (body swells)\n\nRELATED NOUN:\n⟦むくみ→むくみ：07277_mukumi⟧ - swelling, puffiness, edema\n- ⟦むくみ→むくみ：07277_mukumi⟧⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧ (to reduce swelling)\n- ⟦むくみ→むくみ：07277_mukumi⟧⟦{防止|ぼうし}→防止：14571_boushi⟧ (swelling prevention)\n\nMEDICAL CONTEXT:\n⟦むくみ→むくみ：07277_mukumi⟧ is the common word for what is medically called ⟦{浮腫|ふしゅ}→浮腫：22546_fushu⟧ (edema). Common causes include standing for long periods, high salt intake, and poor circulation.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12325_hareru",
+      "reading": "はれる",
+      "headword": "{腫|は}れる",
+      "label": "to swell, to become swollen"
+    }
+  ],
   "metadata": {
     "created": "2026-01-19T05:55:54Z",
-    "modified": "2026-08-10T18:32:12Z",
+    "modified": "2026-09-02T04:01:11Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

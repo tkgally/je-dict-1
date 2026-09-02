@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29476_sutoriimaa_ex1",
-      "japanese": "{人気|にんき}のストリーマーを{応援|おうえん}している。",
+      "japanese": "⟦{人気|にんき}→人気：01488_ninki⟧⟦の→の：09472_no⟧ストリーマー⟦を→を：00422_wo⟧⟦{応援|おうえん}している→応援する：21988_ouensuru⟧。",
       "english": "I'm a fan of a popular streamer.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29476_sutoriimaa_ex2",
-      "japanese": "{彼女|かのじょ}はゲーム{配信|はいしん}で{有名|ゆうめい}なストリーマーだ。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧⟦ゲーム→ゲーム：03842_geemu⟧⟦{配信|はいしん}→配信：04898_haishin⟧⟦で→で：00502_de⟧⟦{有名|ゆうめい}→有名：01106_yuumei⟧なストリーマーだ。",
       "english": "She is a streamer famous for her game broadcasts.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29476_sutoriimaa_ex3",
-      "japanese": "{最近|さいきん}は{専業|せんぎょう}のストリーマーとして{生活|せいかつ}する{人|ひと}も{増|ふ}えている。",
+      "japanese": "⟦{最近|さいきん}→最近：00881_saikin⟧⟦は→は：00079_ha⟧⟦{専業|せんぎょう}→専業：15394_sengyou⟧⟦の→の：09472_no⟧ストリーマー⟦として→として：06802_toshite⟧⟦{生活|せいかつ}する→生活する：01839_seikatsusuru⟧⟦{人|ひと}→人：00476_hito⟧⟦も→も：00484_mo⟧⟦{増|ふ}えている→増える：01183_fueru⟧。",
       "english": "Lately, more people are making a living as full-time streamers.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Loanword from English \"streamer.\" Refers to someone who broadcasts live online, most often gameplay or chat content.\n\nCOMMON COLLOCATIONS:\n- {人気|にんき}ストリーマー: popular streamer\n- ゲームストリーマー: game streamer\n- {専業|せんぎょう}ストリーマー: full-time streamer\n\nSIMILAR WORDS:\n- {配信者|はいしんしゃ}: broadcaster, distributor — the native-word equivalent, often interchangeable\n- ユーチューバー: YouTuber — focuses on recorded uploads rather than live streaming",
+  "notes": "Loanword from English \"streamer.\" Refers to someone who broadcasts live online, most often gameplay or chat content.\n\nCOMMON COLLOCATIONS:\n- ⟦{人気|にんき}→人気：01488_ninki⟧ストリーマー: popular streamer\n- ⟦ゲーム→ゲーム：03842_geemu⟧ストリーマー: game streamer\n- ⟦{専業|せんぎょう}→専業：15394_sengyou⟧ストリーマー: full-time streamer\n\nSIMILAR WORDS:\n- ⟦{配信者|はいしんしゃ}→配信者：16573_haishinsha⟧: broadcaster, distributor — the native-word equivalent, often interchangeable\n- ⟦ユーチューバー→ユーチューバー：06475_yuuchuubaa⟧: YouTuber — focuses on recorded uploads rather than live streaming",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16573_haishinsha",
+      "reading": "はいしんしゃ",
+      "headword": "{配信者|はいしんしゃ}",
+      "label": "broadcaster, distributor"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06475_yuuchuubaa",
+      "reading": "ゆーちゅーばー",
+      "headword": "ユーチューバー",
+      "label": "YouTuber"
+    },
+    {
+      "type": "related",
+      "target_id": "06259_geemaa",
+      "reading": "げーまー",
+      "headword": "ゲーマー",
+      "label": "gamer"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,6 +85,6 @@
       ]
     },
     "created": "2026-06-24T21:18:11Z",
-    "modified": "2026-06-24T21:18:11Z"
+    "modified": "2026-09-02T04:02:37Z"
   }
 }

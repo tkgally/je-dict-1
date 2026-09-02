@@ -15,41 +15,62 @@
   "examples": [
     {
       "id": "29301_kyuuhaisui_ex1",
-      "japanese": "{給排水|きゅうはいすい}の{工事|こうじ}をする。",
+      "japanese": "{給排水|きゅうはいすい}⟦の→の：09472_no⟧⟦{工事|こうじ}→工事：00244_kouji⟧⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧。",
       "english": "Carry out water-supply and drainage work.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29301_kyuuhaisui_ex2",
-      "japanese": "マンションの{給排水|きゅうはいすい}{設備|せつび}を{点検|てんけん}する。",
+      "japanese": "⟦マンション→マンション：01035_manshon⟧⟦の→の：09472_no⟧{給排水|きゅうはいすい}⟦{設備|せつび}→設備：03301_setsubi⟧⟦を→を：00422_wo⟧⟦{点検|てんけん}→点検：09765_tenken⟧⟦する→する：00392_suru⟧。",
       "english": "Inspect the plumbing of the apartment building.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29301_kyuuhaisui_ex3",
-      "japanese": "{古|ふる}い{建物|たてもの}では、{給排水|きゅうはいすい}の{配管|はいかん}が{老朽化|ろうきゅうか}していることが{多|おお}い。",
+      "japanese": "⟦{古|ふる}い→古い：00488_furui⟧⟦{建物|たてもの}→建物：01458_tatemono⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧、{給排水|きゅうはいすい}⟦の→の：09472_no⟧⟦{配管|はいかん}→配管：07495_haikan⟧⟦が→が：00051_ga⟧⟦{老朽化|ろうきゅうか}→老朽化：07646_roukyuuka⟧⟦している→する：00392_suru⟧こと⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "In old buildings, the water-supply and drainage pipes are often deteriorated.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A combined term blending {給水|きゅうすい} (water supply) + {排水|はいすい} (drainage). Common in construction, real estate, and building maintenance.\n\nCOMMON COLLOCATIONS:\n- {給排水|きゅうはいすい}{設備|せつび}: water-supply and drainage equipment; plumbing\n- {給排水|きゅうはいすい}{工事|こうじ}: plumbing work\n- {給排水|きゅうはいすい}{管|かん}: water-supply and drainage pipes\n\nSIMILAR WORDS:\n- {給水|きゅうすい}: water supply — only the incoming-water half\n- {排水|はいすい}: drainage — only the wastewater half",
+  "notes": "A combined term blending ⟦{給水|きゅうすい}→給水：15031_kyuusui⟧ (water supply) + ⟦{排水|はいすい}→排水：11104_haisui⟧ (drainage). Common in construction, real estate, and building maintenance.\n\nCOMMON COLLOCATIONS:\n- {給排水|きゅうはいすい}⟦{設備|せつび}→設備：03301_setsubi⟧: water-supply and drainage equipment; plumbing\n- {給排水|きゅうはいすい}⟦{工事|こうじ}→工事：00244_kouji⟧: plumbing work\n- {給排水|きゅうはいすい}⟦{管|かん}→管：09749_kan⟧: water-supply and drainage pipes\n\nSIMILAR WORDS:\n- ⟦{給水|きゅうすい}→給水：15031_kyuusui⟧: water supply — only the incoming-water half\n- ⟦{排水|はいすい}→排水：11104_haisui⟧: drainage — only the wastewater half",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15031_kyuusui",
+      "reading": "きゅうすい",
+      "headword": "{給水|きゅうすい}",
+      "label": "water supply"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["building"],
-      "domain": ["technical"]
+      "politeness": "plain",
+      "semantic": [
+        "building"
+      ],
+      "domain": [
+        "technical"
+      ]
     },
     "created": "2026-06-16T15:19:08Z",
-    "modified": "2026-06-16T15:19:08Z"
+    "modified": "2026-09-02T04:02:36Z"
   }
 }

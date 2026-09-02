@@ -15,40 +15,60 @@
   "examples": [
     {
       "id": "20441_sekininkan_ex1",
-      "japanese": "{彼|かれ}は{責任感|せきにんかん}が{強|つよ}い。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{責任感|せきにんかん}⟦が→が：00051_ga⟧⟦{強|つよ}い→強い：00820_tsuyoi⟧。",
       "english": "He has a strong sense of responsibility.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20441_sekininkan_ex2",
-      "japanese": "{責任感|せきにんかん}のある{人|ひと}に{任|まか}せたい。",
+      "japanese": "{責任感|せきにんかん}⟦の→の：09472_no⟧⟦ある→ある：00006_aru⟧⟦{人|ひと}→人：00476_hito⟧⟦に→に：00314_ni⟧⟦{任|まか}せたい→任せる：02417_makaseru⟧。",
       "english": "I want to entrust it to someone with a sense of responsibility.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20441_sekininkan_ex3",
-      "japanese": "リーダーとしての{責任感|せきにんかん}から、{最後|さいご}まで{現場|げんば}に{残|のこ}った。",
+      "japanese": "⟦リーダー→リーダー：24312_riidaa⟧⟦として→として：06802_toshite⟧⟦の→の：09472_no⟧{責任感|せきにんかん}⟦から→から：00504_kara⟧、⟦{最後|さいご}→最後：01413_saigo⟧⟦まで→まで：00490_made⟧⟦{現場|げんば}→現場：02723_genba⟧⟦に→に：00314_ni⟧⟦{残|のこ}った→残る：01187_nokoru⟧。",
       "english": "Out of a sense of responsibility as leader, I stayed at the site until the very end.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {責任|せきにん} (responsibility) and {感|かん} (sense, feeling). Describes the internal quality of taking one's duties seriously. Frequently mentioned in job interviews, character references, and evaluations.\n\nUSAGE:\nVery commonly paired with {強|つよ}い (strong) or ある (to have). In Japanese work culture, {責任感|せきにんかん} is one of the most valued personal qualities and frequently appears in job postings and self-introductions.\n\nCOMMON COLLOCATIONS:\n- {責任感|せきにんかん}が{強|つよ}い — to have a strong sense of responsibility\n- {責任感|せきにんかん}のある{人|ひと} — a responsible person\n- {責任感|せきにんかん}に{欠|か}ける — to lack a sense of responsibility\n- {責任感|せきにんかん}から — out of a sense of responsibility\n\nSIMILAR WORDS:\n- {使命感|しめいかん} — sense of mission (stronger, more purposeful)\n- {義務感|ぎむかん} — sense of duty (more obligation-focused)\n- {責任|せきにん} — responsibility (the actual duty, not the feeling)",
+  "notes": "A compound of ⟦{責任|せきにん}→責任：03298_sekinin⟧ (responsibility) and ⟦{感|かん}→〜感：28578_kan⟧ (sense, feeling). Describes the internal quality of taking one's duties seriously. Frequently mentioned in job interviews, character references, and evaluations.\n\nUSAGE:\nVery commonly paired with ⟦{強|つよ}い→強い：00820_tsuyoi⟧ (strong) or ⟦ある→ある：00006_aru⟧ (to have). In Japanese work culture, {責任感|せきにんかん} is one of the most valued personal qualities and frequently appears in job postings and self-introductions.\n\nCOMMON COLLOCATIONS:\n- {責任感|せきにんかん}⟦が→が：00051_ga⟧⟦{強|つよ}い→強い：00820_tsuyoi⟧ — to have a strong sense of responsibility\n- {責任感|せきにんかん}⟦の→の：09472_no⟧⟦ある→ある：00006_aru⟧⟦{人|ひと}→人：00476_hito⟧ — a responsible person\n- {責任感|せきにんかん}⟦に→に：00314_ni⟧⟦{欠|か}ける→欠ける：13167_kakeru⟧ — to lack a sense of responsibility\n- {責任感|せきにんかん}⟦から→から：00504_kara⟧ — out of a sense of responsibility\n\nSIMILAR WORDS:\n- {使命感|しめいかん} — sense of mission (stronger, more purposeful)\n- ⟦{義務感|ぎむかん}→義務感：21551_gimukan⟧ — sense of duty (more obligation-focused)\n- ⟦{責任|せきにん}→責任：03298_sekinin⟧ — responsibility (the actual duty, not the feeling)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21551_gimukan",
+      "reading": "ぎむかん",
+      "headword": "{義務感|ぎむかん}",
+      "label": "sense of duty"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["character", "business"]
+      "semantic": [
+        "character",
+        "business"
+      ]
     },
     "created": "2026-03-29T14:09:10Z",
-    "modified": "2026-03-29T14:09:10Z"
+    "modified": "2026-09-02T04:01:59Z"
   }
 }

@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "11857_houkou_ex1",
-      "japanese": "ライオンが{咆哮|ほうこう}した。",
+      "japanese": "⟦ライオン→ライオン：05197_raion⟧⟦が→が：00051_ga⟧{咆哮|ほうこう}⟦した→する：00392_suru⟧。",
       "english": "The lion roared.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "11857_houkou_ex2",
-      "japanese": "{獣|けもの}の{咆哮|ほうこう}が{森|もり}に{響|ひび}いた。",
+      "japanese": "⟦{獣|けもの}→獣：23791_kemono⟧⟦の→の：09472_no⟧{咆哮|ほうこう}⟦が→が：00051_ga⟧⟦{森|もり}→森：02260_mori⟧⟦に→に：00314_ni⟧⟦{響|ひび}いた→響く：00099_hibiku⟧。",
       "english": "The roar of a beast echoed through the forest.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "11857_houkou_ex3",
-      "japanese": "{怒|いか}りの{咆哮|ほうこう}を{上|あ}げて{敵|てき}に{向|む}かっていった。",
+      "japanese": "⟦{怒|いか}り→怒り：01780_ikari⟧⟦の→の：09472_no⟧{咆哮|ほうこう}⟦を→を：00422_wo⟧⟦{上|あ}げて→上げる：02443_ageru⟧⟦{敵|てき}→敵：03546_teki⟧⟦に→に：00314_ni⟧⟦{向|む}かって→向かう：01186_mukau⟧いった。",
       "english": "He let out an angry roar and charged at the enemy.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,19 @@
       ]
     }
   ],
-  "notes": "{咆哮|ほうこう} is a powerful, dramatic word for a deep, thunderous roar. Most often used for large animals like lions or beasts, and figuratively for a person roaring in rage.\n\nKANJI:\n{咆|ほう} (roar) + {哮|こう} (howl) — both characters relate to animal vocalizations.\n\nCOMMON COLLOCATIONS:\n- {咆哮|ほうこう}を{上|あ}げる (let out a roar)\n- {咆哮|ほうこう}が{響|ひび}く (a roar resounds)\n- {怒|いか}りの{咆哮|ほうこう} (roar of anger)\n- {獣|けもの}の{咆哮|ほうこう} (roar of a beast)\n\nREGISTER:\nLiterary and dramatic. Frequently appears in fiction, fantasy novels, anime, nature documentaries, and poetic writing. Rare in everyday conversation.\n\nSIMILAR WORDS:\n- {雄叫|おたけ}び: war cry, battle cry (human)\n- {唸|うな}り: growl, snarl (lower intensity)\n- {吠|ほ}える: to bark, to howl (more general animal vocalization)",
-  "cross_references": [],
+  "notes": "{咆哮|ほうこう} is a powerful, dramatic word for a deep, thunderous roar. Most often used for large animals like lions or beasts, and figuratively for a person roaring in rage.\n\nWRITING:\n{咆|ほう} (roar) + {哮|こう} (howl) — both characters relate to animal vocalizations.\n\nCOMMON COLLOCATIONS:\n- {咆哮|ほうこう}⟦を→を：00422_wo⟧⟦{上|あ}げる→上げる：02443_ageru⟧ (let out a roar)\n- {咆哮|ほうこう}⟦が→が：00051_ga⟧⟦{響|ひび}く→響く：00099_hibiku⟧ (a roar resounds)\n- ⟦{怒|いか}り→怒り：01780_ikari⟧⟦の→の：09472_no⟧{咆哮|ほうこう} (roar of anger)\n- ⟦{獣|けもの}→獣：23791_kemono⟧⟦の→の：09472_no⟧{咆哮|ほうこう} (roar of a beast)\n\nREGISTER:\nLiterary and dramatic. Frequently appears in fiction, fantasy novels, anime, nature documentaries, and poetic writing. Rare in everyday conversation.\n\nSIMILAR WORDS:\n- {雄叫|おたけ}び: war cry, battle cry (human)\n- {唸|うな}り: growl, snarl (lower intensity)\n- ⟦{吠|ほ}える→吠える：02415_hoeru⟧: to bark, to howl (more general animal vocalization)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02415_hoeru",
+      "reading": "ほえる",
+      "headword": "{吠|ほ}える",
+      "label": "to bark, to howl"
+    }
+  ],
   "metadata": {
     "created": "2026-02-18T13:39:54Z",
-    "modified": "2026-08-15T21:26:29Z",
+    "modified": "2026-09-02T04:01:26Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
@@ -153,7 +161,8 @@
       "style": [
         "literary"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

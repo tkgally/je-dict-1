@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "USAGE: {答案|とうあん} specifically refers to written answers on examination papers. It's commonly used in school and testing contexts.\n\nCOMMON PATTERNS:\n・{答案|とうあん}⟦を→を：00422_wo⟧⟦{書|か}く→書く：00477_kaku⟧ (to write answers)\n・{答案|とうあん}⟦を→を：00422_wo⟧⟦{提出|ていしゅつ}→提出：03542_teishutsu⟧⟦する→する：00392_suru⟧ (to submit answer sheets)\n・{答案|とうあん}⟦を→を：00422_wo⟧⟦{採点|さいてん}→採点：04160_saiten⟧⟦する→する：00392_suru⟧ (to grade answer sheets)\n・{答案|とうあん}⟦を→を：00422_wo⟧⟦{返却|へんきゃく}→返却：03149_henkyaku⟧⟦する→する：00392_suru⟧ (to return graded papers)\n\nRELATED WORDS:\n・{答案|とうあん}⟦{用紙|ようし}→用紙：09588_youshi⟧ (answer sheet, answer paper)\n・⟦{解答|かいとう}→解答：00447_kaitou⟧ (answer, solution)\n・⟦{回答|かいとう}→回答：00142_kaitou⟧ (answer, reply)\n・⟦{試験|しけん}→試験：01422_shiken⟧ (examination)\n・⟦{採点|さいてん}→採点：04160_saiten⟧ (grading, scoring)",
+  "notes": "USAGE: {答案|とうあん} specifically refers to written answers on examination papers. It's commonly used in school and testing contexts.\n\nCOMMON PATTERNS:\n- {答案|とうあん}⟦を→を：00422_wo⟧⟦{書|か}く→書く：00477_kaku⟧ (to write answers)\n- {答案|とうあん}⟦を→を：00422_wo⟧⟦{提出|ていしゅつ}→提出：03542_teishutsu⟧⟦する→する：00392_suru⟧ (to submit answer sheets)\n- {答案|とうあん}⟦を→を：00422_wo⟧⟦{採点|さいてん}→採点：04160_saiten⟧⟦する→する：00392_suru⟧ (to grade answer sheets)\n- {答案|とうあん}⟦を→を：00422_wo⟧⟦{返却|へんきゃく}→返却：03149_henkyaku⟧⟦する→する：00392_suru⟧ (to return graded papers)\n\nRELATED WORDS:\n- {答案|とうあん}⟦{用紙|ようし}→用紙：09588_youshi⟧ (answer sheet, answer paper)\n- ⟦{解答|かいとう}→解答：00447_kaitou⟧ (answer, solution)\n- ⟦{回答|かいとう}→回答：00142_kaitou⟧ (answer, reply)\n- ⟦{試験|しけん}→試験：01422_shiken⟧ (examination)\n- ⟦{採点|さいてん}→採点：04160_saiten⟧ (grading, scoring)",
   "cross_references": [
     {
       "type": "related",
@@ -58,11 +58,25 @@
       "headword": "{試験|しけん}",
       "label": "examination",
       "target_id": "01422_shiken"
+    },
+    {
+      "type": "related",
+      "target_id": "00142_kaitou",
+      "reading": "かいとう",
+      "headword": "{回答|かいとう}",
+      "label": "answer, reply"
+    },
+    {
+      "type": "related",
+      "target_id": "04160_saiten",
+      "reading": "さいてん",
+      "headword": "{採点|さいてん}",
+      "label": "grading, scoring"
     }
   ],
   "metadata": {
     "created": "2026-01-12T09:36:00Z",
-    "modified": "2026-05-25T19:11:11Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

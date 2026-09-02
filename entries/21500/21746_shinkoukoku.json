@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21746_shinkoukoku_ex1",
-      "japanese": "{新興国|しんこうこく}の{経済|けいざい}{成長|せいちょう}が{注目|ちゅうもく}されている。",
+      "japanese": "{新興国|しんこうこく}⟦の→の：09472_no⟧⟦{経済|けいざい}{成長|せいちょう}→経済成長：20453_keizaiseichou⟧⟦が→が：00051_ga⟧⟦{注目|ちゅうもく}→注目：03483_chuumoku⟧⟦されている→する：00392_suru⟧。",
       "english": "The economic growth of emerging nations is attracting attention.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21746_shinkoukoku_ex2",
-      "japanese": "{多|おお}くの{企業|きぎょう}が{新興国|しんこうこく}に{進出|しんしゅつ}している。",
+      "japanese": "{多|おお}く⟦の→の：09472_no⟧⟦{企業|きぎょう}→企業：00225_kigyou⟧⟦が→が：00051_ga⟧{新興国|しんこうこく}⟦に→に：00314_ni⟧⟦{進出|しんしゅつ}→進出：14387_shinshutsu⟧⟦している→する：00392_suru⟧。",
       "english": "Many companies are expanding into emerging nations.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21746_shinkoukoku_ex3",
-      "japanese": "{新興国|しんこうこく}の{急速|きゅうそく}な{発展|はってん}は{世界|せかい}{経済|けいざい}の{構造|こうぞう}を{大|おお}きく{変|か}えつつある。",
+      "japanese": "{新興国|しんこうこく}⟦の→の：09472_no⟧⟦{急速|きゅうそく}→急速：02634_kyuusoku⟧な⟦{発展|はってん}→発展：03561_hatten⟧⟦は→は：00079_ha⟧⟦{世界|せかい}→世界：01447_sekai⟧⟦{経済|けいざい}→経済：01394_keizai⟧⟦の→の：09472_no⟧⟦{構造|こうぞう}→構造：02730_kouzou⟧⟦を→を：00422_wo⟧⟦{大|おお}きく→大きい：00335_ookii⟧⟦{変|か}え→変える：01089_kaeru⟧つつ⟦ある→ある：00006_aru⟧。",
       "english": "The rapid development of emerging nations is significantly changing the structure of the world economy.",
       "sense_numbers": [
         1
@@ -44,7 +44,37 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {新興|しんこう} (newly risen, emerging) and {国|こく} (country). This is the standard Japanese term for what English calls \"emerging markets\" or \"emerging economies,\" and it appears frequently in economic news and international affairs discussions.\n\nUSAGE:\n- Often used as a の-modifier: {新興国|しんこうこく}の{市場|しじょう} (emerging market)\n- Frequently contrasted with {先進国|せんしんこく} (developed countries)\n- Common in news, economics, and business contexts\n\nCOMMON COLLOCATIONS:\n- {新興国|しんこうこく}{市場|しじょう}: emerging market\n- {新興国|しんこうこく}{経済|けいざい}: emerging economy\n- {新興国|しんこうこく}への{投資|とうし}: investment in emerging countries\n- {新興国|しんこうこく}の{台頭|たいとう}: rise of emerging nations\n\nSIMILAR WORDS:\n- {先進国|せんしんこく}: developed country, advanced nation — the opposite; economically mature countries\n- {途上国|とじょうこく}: developing country — broader; includes countries at various stages of development, not necessarily growing rapidly\n- {新興|しんこう}: emerging, newly risen — the adjective/prefix alone, applicable to companies, religions, etc.",
+  "notes": "A compound of ⟦{新興|しんこう}→新興：00457_shinkou⟧ (newly risen, emerging) and {国|こく} (country). This is the standard Japanese term for what English calls \"emerging markets\" or \"emerging economies,\" and it appears frequently in economic news and international affairs discussions.\n\nUSAGE:\n- Often used as a ⟦の→の：09472_no⟧-modifier: {新興国|しんこうこく}⟦の→の：09472_no⟧⟦{市場|しじょう}→市場：09685_shijou⟧ (emerging market)\n- Frequently contrasted with ⟦{先進国|せんしんこく}→先進国：11624_senshinkoku⟧ (developed countries)\n- Common in news, economics, and business contexts\n\nCOMMON COLLOCATIONS:\n- {新興国|しんこうこく}⟦{市場|しじょう}→市場：09685_shijou⟧: emerging market\n- {新興国|しんこうこく}⟦{経済|けいざい}→経済：01394_keizai⟧: emerging economy\n- {新興国|しんこうこく}⟦へ→へ：02473_he⟧⟦の→の：09472_no⟧⟦{投資|とうし}→投資：04711_toushi⟧: investment in emerging countries\n- {新興国|しんこうこく}⟦の→の：09472_no⟧⟦{台頭|たいとう}→台頭：07595_taitou⟧: rise of emerging nations\n\nSIMILAR WORDS:\n- ⟦{先進国|せんしんこく}→先進国：11624_senshinkoku⟧: developed country, advanced nation — the opposite; economically mature countries\n- ⟦{途上国|とじょうこく}→途上国：14424_tojoukoku⟧: developing country — broader; includes countries at various stages of development, not necessarily growing rapidly\n- ⟦{新興|しんこう}→新興：00457_shinkou⟧: emerging, newly risen — the adjective/prefix alone, applicable to companies, religions, etc.",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "11624_senshinkoku",
+      "reading": "せんしんこく",
+      "headword": "{先進国|せんしんこく}",
+      "label": "developed country, advanced nation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14424_tojoukoku",
+      "reading": "とじょうこく",
+      "headword": "{途上国|とじょうこく}",
+      "label": "developing country"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22732_hattentojoukoku",
+      "reading": "はってんとじょうこく",
+      "headword": "{発展途上国|はってんとじょうこく}",
+      "label": "developing country"
+    },
+    {
+      "type": "related",
+      "target_id": "27186_keizaitaikoku",
+      "reading": "けいざいたいこく",
+      "headword": "{経済大国|けいざいたいこく}",
+      "label": "economic superpower"
+    }
+  ],
   "metadata": {
     "entry_id": "21746_shinkoukoku",
     "schema_version": "2.0",
@@ -55,6 +85,8 @@
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "society",
         "economics"
@@ -62,6 +94,6 @@
       "register": [],
       "usage": []
     },
-    "modified": "2026-07-29T12:37:23Z"
+    "modified": "2026-09-02T04:02:05Z"
   }
 }

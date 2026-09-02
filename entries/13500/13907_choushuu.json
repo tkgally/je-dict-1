@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "13907_choushuu_ex1",
-      "japanese": "{聴衆|ちょうしゅう}が{拍手|はくしゅ}を{送|おく}った。",
+      "japanese": "{聴衆|ちょうしゅう}⟦が→が：00051_ga⟧⟦{拍手|はくしゅ}→拍手：03553_hakushu⟧⟦を→を：00422_wo⟧⟦{送|おく}った→送る：00742_okuru⟧。",
       "english": "The audience applauded.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "13907_choushuu_ex2",
-      "japanese": "コンサートには{約|やく}{三千人|さんぜんにん}の{聴衆|ちょうしゅう}が{集|あつ}まった。",
+      "japanese": "⟦コンサート→コンサート：01360_konsaato⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{約|やく}→約：09563_yaku⟧{三千人|さんぜんにん}⟦の→の：09472_no⟧{聴衆|ちょうしゅう}⟦が→が：00051_ga⟧⟦{集|あつ}まった→集まる：01162_atsumaru⟧。",
       "english": "About three thousand people gathered for the concert.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "13907_choushuu_ex3",
-      "japanese": "{彼|かれ}のスピーチは{聴衆|ちょうしゅう}の{心|こころ}を{強|つよ}くつかみ、{会場|かいじょう}{全体|ぜんたい}が{静|しず}まり{返|かえ}った。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧⟦スピーチ→スピーチ：03852_supiichi⟧⟦は→は：00079_ha⟧{聴衆|ちょうしゅう}⟦の→の：09472_no⟧⟦{心|こころ}→心：01321_kokoro⟧⟦を→を：00422_wo⟧⟦{強|つよ}く→強い：00820_tsuyoi⟧つかみ、⟦{会場|かいじょう}→会場：01269_kaijou⟧⟦{全体|ぜんたい}→全体：03314_zentai⟧⟦が→が：00051_ga⟧⟦{静|しず}まり{返|かえ}った→静まり返る：14630_shizumarikaeru⟧。",
       "english": "His speech gripped the audience's hearts, and the entire venue fell silent.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nUsed for audiences at concerts, lectures, speeches, and similar events where listening is the primary activity. For visual performances like theater or film, {観客|かんきゃく} (spectators/viewers) is more appropriate.\n\nSIMILAR WORDS:\n- {観客|かんきゃく}: spectators, audience (emphasis on watching)\n- {観衆|かんしゅう}: spectators, crowd (large outdoor events)\n- {視聴者|しちょうしゃ}: viewers/listeners (TV/radio audience)\n\nCOMMON COLLOCATIONS:\n- {聴衆|ちょうしゅう}を{魅了|みりょう}する: to captivate the audience\n- {聴衆|ちょうしゅう}に{語|かた}りかける: to address the audience\n- {大勢|おおぜい}の{聴衆|ちょうしゅう}: a large audience",
+  "notes": "USAGE:\nUsed for audiences at concerts, lectures, speeches, and similar events where listening is the primary activity. For visual performances like theater or film, ⟦{観客|かんきゃく}→観客：02556_kankyaku⟧ (spectators/viewers) is more appropriate.\n\nSIMILAR WORDS:\n- ⟦{観客|かんきゃく}→観客：02556_kankyaku⟧: spectators, audience (emphasis on watching)\n- ⟦{観衆|かんしゅう}→観衆：22893_kanshuu⟧: spectators, crowd (large outdoor events)\n- ⟦{視聴者|しちょうしゃ}→視聴者：02570_shichousha⟧: viewers/listeners (TV/radio audience)\n\nCOMMON COLLOCATIONS:\n- {聴衆|ちょうしゅう}⟦を→を：00422_wo⟧⟦{魅了|みりょう}する→魅了する：19016_miryousuru⟧: to captivate the audience\n- {聴衆|ちょうしゅう}⟦に→に：00314_ni⟧⟦{語|かた}りかける→語りかける：28120_katarikakeru⟧: to address the audience\n- ⟦{大勢|おおぜい}→大勢：02850_oozei⟧⟦の→の：09472_no⟧{聴衆|ちょうしゅう}: a large audience",
   "cross_references": [
     {
       "type": "contrast",
@@ -52,11 +52,39 @@
       "reading": "かんきゃく",
       "headword": "{観客|かんきゃく}",
       "label": "spectators (watching)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22893_kanshuu",
+      "reading": "かんしゅう",
+      "headword": "{観衆|かんしゅう}",
+      "label": "spectators, crowd"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02570_shichousha",
+      "reading": "しちょうしゃ",
+      "headword": "{視聴者|しちょうしゃ}",
+      "label": "viewers/listeners"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22772_kanshousha",
+      "reading": "かんしょうしゃ",
+      "headword": "{鑑賞者|かんしょうしゃ}",
+      "label": "viewer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29511_risunaa",
+      "reading": "りすなー",
+      "headword": "リスナー",
+      "label": "listener"
     }
   ],
   "metadata": {
     "created": "2026-02-27T06:38:23Z",
-    "modified": "2026-07-12T12:35:36Z",
+    "modified": "2026-09-02T04:01:35Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

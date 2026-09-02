@@ -15,41 +15,66 @@
   "examples": [
     {
       "id": "15070_bakuon_ex1",
-      "japanese": "{爆音|ばくおん}で{音楽|おんがく}を{聴|き}く。",
+      "japanese": "{爆音|ばくおん}⟦で→で：00502_de⟧⟦{音楽|おんがく}→音楽：00661_ongaku⟧⟦を→を：00422_wo⟧⟦{聴|き}く→聴く：30010_kiku⟧。",
       "english": "To listen to music at full blast.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15070_bakuon_ex2",
-      "japanese": "バイクの{爆音|ばくおん}が{住宅街|じゅうたくがい}に{響|ひび}いた。",
+      "japanese": "⟦バイク→バイク：05081_baiku⟧⟦の→の：09472_no⟧{爆音|ばくおん}⟦が→が：00051_ga⟧⟦{住宅街|じゅうたくがい}→住宅街：09394_juutakugai⟧⟦に→に：00314_ni⟧⟦{響|ひび}いた→響く：00099_hibiku⟧。",
       "english": "The roar of a motorcycle echoed through the residential area.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15070_bakuon_ex3",
-      "japanese": "{戦闘機|せんとうき}の{爆音|ばくおん}とともに{窓|まど}ガラスが{揺|ゆ}れた。",
+      "japanese": "⟦{戦闘機|せんとうき}→戦闘機：23287_sentouki⟧⟦の→の：09472_no⟧{爆音|ばくおん}⟦とともに→とともに：30485_totomoni⟧⟦{窓|まど}→窓：02254_mado⟧⟦ガラス→ガラス：01777_garasu⟧⟦が→が：00051_ga⟧⟦{揺|ゆ}れた→揺れる：01161_yureru⟧。",
       "english": "The windows rattled with the roar of fighter jets.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\n{爆音|ばくおん} literally means \"explosion sound\" but is widely used for any extremely loud noise. In casual speech, it often describes playing music at maximum volume.\n\nCOMMON COLLOCATIONS:\n- {爆音|ばくおん}で{聴|き}く (to listen at full blast)\n- {爆音|ばくおん}を{立|た}てる (to make a thunderous noise)\n- {爆音|ばくおん}が{響|ひび}く (a roar echoes)\n- エンジンの{爆音|ばくおん} (roar of an engine)\n\nWORD FORMATION:\n{爆|ばく} (explosion) + {音|おん} (sound). Compare {爆発|ばくはつ} (explosion), {爆弾|ばくだん} (bomb).",
-  "cross_references": [],
+  "notes": "USAGE:\n{爆音|ばくおん} literally means \"explosion sound\" but is widely used for any extremely loud noise. In casual speech, it often describes playing music at maximum volume.\n\nCOMMON COLLOCATIONS:\n- {爆音|ばくおん}⟦で→で：00502_de⟧⟦{聴|き}く→聴く：30010_kiku⟧ (to listen at full blast)\n- {爆音|ばくおん}⟦を→を：00422_wo⟧⟦{立|た}てる→立てる：01196_tateru⟧ (to make a thunderous noise)\n- {爆音|ばくおん}⟦が→が：00051_ga⟧⟦{響|ひび}く→響く：00099_hibiku⟧ (a roar echoes)\n- ⟦エンジン→エンジン：03835_enjin⟧⟦の→の：09472_no⟧{爆音|ばくおん} (roar of an engine)\n\nFORMS:\n{爆|ばく} (explosion) + {音|おん} (sound). Compare ⟦{爆発|ばくはつ}→爆発：03575_bakuhatsu⟧ (explosion), ⟦{爆弾|ばくだん}→爆弾：10117_bakudan⟧ (bomb).",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25906_daionkyou",
+      "reading": "だいおんきょう",
+      "headword": "{大|だい}{音響|おんきょう}",
+      "label": "loud sound"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28327_bakuhatsuon",
+      "reading": "ばくはつおん",
+      "headword": "{爆発音|ばくはつおん}",
+      "label": "explosion sound"
+    }
+  ],
   "metadata": {
     "created": "2026-03-05T06:27:16Z",
-    "modified": "2026-03-05T06:27:16Z",
+    "modified": "2026-09-02T04:01:39Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

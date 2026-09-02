@@ -3,7 +3,7 @@
   "headword": "{肉厚|にくあつ}",
   "reading": "にくあつ",
   "romaji": "nikuatsu",
-  "part_of_speech": "na-adjective",
+  "part_of_speech": "na-adjective, noun",
   "gloss": "thick; fleshy; meaty; substantial",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21216_nikuatsu_ex1",
-      "japanese": "{肉厚|にくあつ}なステーキを{焼|や}く。",
+      "japanese": "{肉厚|にくあつ}な⟦ステーキ→ステーキ：01369_suteeki⟧⟦を→を：00422_wo⟧⟦{焼|や}く→焼く：01123_yaku⟧。",
       "english": "To grill a thick steak.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21216_nikuatsu_ex2",
-      "japanese": "この{椎茸|しいたけ}は{肉厚|にくあつ}で{食|た}べ{応|ごた}えがある。",
+      "japanese": "⟦この→この：00962_kono⟧{椎茸|しいたけ}⟦は→は：00079_ha⟧{肉厚|にくあつ}で{食|た}べ{応|ごた}え⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "These shiitake mushrooms are thick and satisfying to eat.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21216_nikuatsu_ex3",
-      "japanese": "{肉厚|にくあつ}な{刺身|さしみ}が{大|おお}きな{皿|さら}にたっぷり{盛|も}られていた。",
+      "japanese": "{肉厚|にくあつ}な⟦{刺身|さしみ}→刺身：04023_sashimi⟧⟦が→が：00051_ga⟧⟦{大|おお}きな→大きな：02849_ookina⟧⟦{皿|さら}→皿：00883_sara⟧⟦に→に：00314_ni⟧⟦たっぷり→たっぷり：03404_tappuri⟧⟦{盛|も}られていた→盛る：00292_moru⟧。",
       "english": "Thick-cut sashimi was generously piled on a large plate.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Literally 'flesh-thick' ({肉|にく} flesh/meat + {厚|あつ} thick). Primarily used to describe food that is satisfyingly thick or fleshy, but can also be used for leaves, fabrics, and other materials.\n\nCOMMON COLLOCATIONS:\n- {肉厚|にくあつ}なステーキ: thick steak\n- {肉厚|にくあつ}な{椎茸|しいたけ}: thick shiitake mushrooms\n- {肉厚|にくあつ}な{切|き}り{身|み}: thick fillet\n- {肉厚|にくあつ}の{葉|は}: fleshy leaves (of a succulent, etc.)\n\nUSAGE:\nAlmost always used as a positive descriptor, implying quality, substance, and satisfaction. Very common in food reviews, restaurant descriptions, and cooking contexts. Can function as a な-adjective ({肉厚|にくあつ}な) or as a noun referring to the thickness of the flesh/material ({肉厚|にくあつ}がある).\n\nSIMILAR WORDS:\n- {分厚|ぶあつ}い: thick — general thickness for books, slices, etc.; not specific to flesh\n- {厚|あつ}い: thick — the basic adjective for thickness\n- ボリュームがある: voluminous, substantial — more casual, applies to portion size broadly",
+  "notes": "Literally 'flesh-thick' (⟦{肉|にく}→肉：02240_niku⟧ flesh/meat + {厚|あつ} thick). Primarily used to describe food that is satisfyingly thick or fleshy, but can also be used for leaves, fabrics, and other materials.\n\nCOMMON COLLOCATIONS:\n- {肉厚|にくあつ}な⟦ステーキ→ステーキ：01369_suteeki⟧: thick steak\n- {肉厚|にくあつ}な{椎茸|しいたけ}: thick shiitake mushrooms\n- {肉厚|にくあつ}な⟦{切|き}り{身|み}→切り身：21110_kirimi⟧: thick fillet\n- {肉厚|にくあつ}⟦の→の：09472_no⟧⟦{葉|は}→葉：02241_ha⟧: fleshy leaves (of a succulent, etc.)\n\nUSAGE:\nAlmost always used as a positive descriptor, implying quality, substance, and satisfaction. Very common in food reviews, restaurant descriptions, and cooking contexts. Can function as a な-adjective ({肉厚|にくあつ}な) or as a noun referring to the thickness of the flesh/material ({肉厚|にくあつ}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧).\n\nSIMILAR WORDS:\n- ⟦{分厚|ぶあつ}い→分厚い：10502_buatsui⟧: thick — general thickness for books, slices, etc.; not specific to flesh\n- ⟦{厚|あつ}い→厚い：00690_atsui⟧: thick — the basic adjective for thickness\n- ⟦ボリューム→ボリューム：27002_boryuumu⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧: voluminous, substantial — more casual, applies to portion size broadly",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "10502_buatsui",
+      "reading": "ぶあつい",
+      "headword": "{分厚|ぶあつ}い",
+      "label": "thick"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00690_atsui",
+      "reading": "あつい",
+      "headword": "{厚|あつ}い",
+      "label": "thick"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,6 +77,6 @@
       ]
     },
     "created": "2026-04-01T14:16:10Z",
-    "modified": "2026-07-29T00:22:41Z"
+    "modified": "2026-09-02T04:02:02Z"
   }
 }

@@ -2,7 +2,7 @@
   "id": "07567_saitekika",
   "headword": "{最適化|さいてきか}",
   "reading": "さいてきか",
-  "part_of_speech": "noun/suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "optimization",
   "conjugation": {
     "type": "suru",
@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "07567_saitekika_ex1",
-      "japanese": "ウェブサイトの{表示|ひょうじ}{速度|そくど}を{最適化|さいてきか}する。",
+      "japanese": "⟦ウェブサイト→ウェブサイト：05152_webusaito⟧⟦の→の：09472_no⟧⟦{表示|ひょうじ}→表示：03143_hyouji⟧⟦{速度|そくど}→速度：03319_sokudo⟧⟦を→を：00422_wo⟧{最適化|さいてきか}⟦する→する：00392_suru⟧。",
       "english": "Optimize the website display speed.",
       "has_audio": false,
       "sense_numbers": [
@@ -113,7 +113,7 @@
     },
     {
       "id": "07567_saitekika_ex2",
-      "japanese": "{検索|けんさく}エンジン{最適化|さいてきか}（SEO）が{重要|じゅうよう}だ。",
+      "japanese": "⟦{検索|けんさく}エンジン→検索エンジン：06601_kensakuenjin⟧{最適化|さいてきか}（SEO）⟦が→が：00051_ga⟧⟦{重要|じゅうよう}→重要：01575_juuyou⟧だ。",
       "english": "Search engine optimization (SEO) is important.",
       "has_audio": false,
       "sense_numbers": [
@@ -122,7 +122,7 @@
     },
     {
       "id": "07567_saitekika_ex3",
-      "japanese": "{在庫|ざいこ}{管理|かんり}の{最適化|さいてきか}を{行|おこな}う。",
+      "japanese": "⟦{在庫|ざいこ}→在庫：04701_zaiko⟧⟦{管理|かんり}→管理：00178_kanri⟧⟦の→の：09472_no⟧{最適化|さいてきか}⟦を→を：00422_wo⟧⟦{行|おこな}う→行う：01238_okonau⟧。",
       "english": "We carry out optimization of inventory management.",
       "has_audio": false,
       "sense_numbers": [
@@ -130,10 +130,33 @@
       ]
     }
   ],
-  "notes": "WORD STRUCTURE:\n{最適|さいてき} (optimal, best suited) + {化|か} (-ization)\n\nCOMMON COLLOCATIONS:\n・{最適化|さいてきか}する - to optimize\n・{最適化|さいてきか}を{図|はか}る - to aim for optimization\n・{最適化|さいてきか}ツール - optimization tool\n\nIT/TECH CONTEXTS:\n・{検索|けんさく}エンジン{最適化|さいてきか} (SEO) - search engine optimization\n・コード{最適化|さいてきか} - code optimization\n・パフォーマンス{最適化|さいてきか} - performance optimization\n・メモリ{最適化|さいてきか} - memory optimization\n\nBUSINESS CONTEXTS:\n・{業務|ぎょうむ}プロセスの{最適化|さいてきか} - business process optimization\n・サプライチェーンの{最適化|さいてきか} - supply chain optimization\n\nRELATED WORDS:\n・{最適|さいてき} - optimal\n・{効率化|こうりつか} - streamlining",
+  "notes": "ETYMOLOGY:\n⟦{最適|さいてき}→最適：13010_saiteki⟧ (optimal, best suited) + ⟦{化|か}→〜化：28335_ka⟧ (-ization)\n\nCOMMON COLLOCATIONS:\n- {最適化|さいてきか}⟦する→する：00392_suru⟧ - to optimize\n- {最適化|さいてきか}⟦を→を：00422_wo⟧⟦{図|はか}る→図る：12006_hakaru⟧ - to aim for optimization\n- {最適化|さいてきか}⟦ツール→ツール：11044_tsuuru⟧ - optimization tool\n\nIT/TECH CONTEXTS:\n- ⟦{検索|けんさく}エンジン→検索エンジン：06601_kensakuenjin⟧{最適化|さいてきか} (SEO) - search engine optimization\n- ⟦コード→コード：00241_koodo⟧{最適化|さいてきか} - code optimization\n- ⟦パフォーマンス→パフォーマンス：11157_pafoomansu⟧{最適化|さいてきか} - performance optimization\n- ⟦メモリ→メモリ：04893_memori⟧{最適化|さいてきか} - memory optimization\n\nBUSINESS CONTEXTS:\n- ⟦{業務|ぎょうむ}→業務：09630_gyoumu⟧⟦プロセス→プロセス：11291_purosesu⟧⟦の→の：09472_no⟧{最適化|さいてきか} - business process optimization\n- サプライ⟦チェーン→チェーン：08833_cheen⟧⟦の→の：09472_no⟧{最適化|さいてきか} - supply chain optimization\n\nRELATED WORDS:\n- ⟦{最適|さいてき}→最適：13010_saiteki⟧ - optimal\n- ⟦{効率化|こうりつか}→効率化：07565_kouritsuka⟧ - streamlining",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "07565_kouritsuka",
+      "reading": "こうりつか",
+      "headword": "{効率化|こうりつか}",
+      "label": "streamlining"
+    },
+    {
+      "type": "related",
+      "target_id": "07563_kasseika",
+      "reading": "かっせいか",
+      "headword": "{活性化|かっせいか}",
+      "label": "activation"
+    },
+    {
+      "type": "related",
+      "target_id": "07644_kashika",
+      "reading": "かしか",
+      "headword": "{可視化|かしか}",
+      "label": "visualization"
+    }
+  ],
   "metadata": {
     "created": "2026-01-20T10:31:31Z",
-    "modified": "2026-03-29T03:05:07Z",
+    "modified": "2026-09-02T04:01:11Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -142,11 +165,13 @@
         "verb-suru"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "technology",
         "business"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

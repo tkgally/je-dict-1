@@ -3,7 +3,7 @@
   "headword": "{敢闘|かんとう}",
   "reading": "かんとう",
   "romaji": "kantou",
-  "part_of_speech": "noun / verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "fighting bravely; gallant fight",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "23184_kantou_ex1",
-      "japanese": "{選手|せんしゅ}たちは{最後|さいご}まで{敢闘|かんとう}した。",
+      "japanese": "⟦{選手|せんしゅ}→選手：03823_senshu⟧たち⟦は→は：00079_ha⟧⟦{最後|さいご}→最後：01413_saigo⟧⟦まで→まで：00490_made⟧{敢闘|かんとう}⟦した→する：00392_suru⟧。",
       "english": "The athletes fought bravely until the end.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "23184_kantou_ex2",
-      "japanese": "{敢闘賞|かんとうしょう}を{受|う}けた{力士|りきし}にインタビューした。",
+      "japanese": "{敢闘賞|かんとうしょう}⟦を→を：00422_wo⟧⟦{受|う}けた→受ける：01215_ukeru⟧⟦{力士|りきし}→力士：10115_rikishi⟧⟦に→に：00314_ni⟧⟦インタビュー→インタビュー：03833_intabyuu⟧⟦した→する：00392_suru⟧。",
       "english": "I interviewed the wrestler who received the Fighting Spirit Prize.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "23184_kantou_ex3",
-      "japanese": "{負|ま}けはしたが、{見事|みごと}な{敢闘|かんとう}ぶりだった。",
+      "japanese": "⟦{負|ま}け→負け：02569_make⟧はした⟦が→が：00051_ga⟧、⟦{見事|みごと}→見事：03744_migoto⟧な{敢闘|かんとう}⟦ぶり→〜ぶり：28358_buri⟧だった。",
       "english": "They lost, but it was a magnificent display of fighting spirit.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {敢|かん} (daring, bold) and {闘|とう} (fight, struggle). Emphasizes courage and determination in the face of adversity, often used to praise effort regardless of outcome. Most commonly encountered in the compound {敢闘賞|かんとうしょう}.\n\nCOMMON COLLOCATIONS:\n- {敢闘賞|かんとうしょう}: Fighting Spirit Prize (awarded in sumo, boxing, and other competitions)\n- {敢闘|かんとう}ぶり: display of fighting spirit\n- {敢闘|かんとう}{精神|せいしん}: fighting spirit\n\nSIMILAR WORDS:\n- {奮闘|ふんとう}: hard fight, strenuous effort — emphasizes exertion and struggle\n- {健闘|けんとう}: good fight, creditable performance — emphasizes commendable effort; {健闘|けんとう}を{祈|いの}る is a common encouragement\n- {善戦|ぜんせん}: good fight, putting up a strong showing — often used when losing narrowly",
+  "notes": "Composed of {敢|かん} (daring, bold) and {闘|とう} (fight, struggle). Emphasizes courage and determination in the face of adversity, often used to praise effort regardless of outcome. Most commonly encountered in the compound {敢闘賞|かんとうしょう}.\n\nCOMMON COLLOCATIONS:\n- {敢闘賞|かんとうしょう}: Fighting Spirit Prize (awarded in sumo, boxing, and other competitions)\n- {敢闘|かんとう}⟦ぶり→〜ぶり：28358_buri⟧: display of fighting spirit\n- {敢闘|かんとう}⟦{精神|せいしん}→精神：03377_seishin⟧: fighting spirit\n\nSIMILAR WORDS:\n- ⟦{奮闘|ふんとう}→奮闘：07901_funtou⟧: hard fight, strenuous effort — emphasizes exertion and struggle\n- ⟦{健闘|けんとう}→健闘：15326_kentou⟧: good fight, creditable performance — emphasizes commendable effort; ⟦{健闘|けんとう}→健闘：15326_kentou⟧⟦を→を：00422_wo⟧⟦{祈|いの}る→祈る：01198_inoru⟧ is a common encouragement\n- ⟦{善戦|ぜんせん}→善戦：07902_zensen⟧: good fight, putting up a strong showing — often used when losing narrowly",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07901_funtou",
+      "reading": "ふんとう",
+      "headword": "{奮闘|ふんとう}",
+      "label": "hard fight, strenuous effort"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15326_kentou",
+      "reading": "けんとう",
+      "headword": "{健闘|けんとう}",
+      "label": "good fight, creditable performance"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07902_zensen",
+      "reading": "ぜんせん",
+      "headword": "{善戦|ぜんせん}",
+      "label": "good fight, putting up a strong showing"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,7 +84,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-08T21:24:23Z",
-    "modified": "2026-04-08T21:24:23Z"
+    "modified": "2026-09-02T04:02:11Z"
   },
   "conjugation": {
     "type": "suru",

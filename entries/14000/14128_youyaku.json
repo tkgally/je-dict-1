@@ -3,7 +3,7 @@
   "id": "14128_youyaku",
   "headword": "{要約|ようやく}",
   "reading": "ようやく",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "summary, abstract",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "14128_youyaku_ex1",
-      "japanese": "{記事|きじ}の{要約|ようやく}を{書|か}く。",
+      "japanese": "⟦{記事|きじ}→記事：00227_kiji⟧⟦の→の：09472_no⟧{要約|ようやく}⟦を→を：00422_wo⟧⟦{書|か}く→書く：00477_kaku⟧。",
       "english": "I write a summary of the article.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "14128_youyaku_ex2",
-      "japanese": "{会議|かいぎ}の{内容|ないよう}を{要約|ようやく}してください。",
+      "japanese": "⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦の→の：09472_no⟧⟦{内容|ないよう}→内容：01482_naiyou⟧⟦を→を：00422_wo⟧{要約|ようやく}⟦して→する：00392_suru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please summarize the contents of the meeting.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "14128_youyaku_ex3",
-      "japanese": "{論文|ろんぶん}の{冒頭|ぼうとう}には{要約|ようやく}をつけるのが{一般的|いっぱんてき}だ。",
+      "japanese": "⟦{論文|ろんぶん}→論文：03787_ronbun⟧⟦の→の：09472_no⟧⟦{冒頭|ぼうとう}→冒頭：11725_boutou⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{要約|ようやく}⟦を→を：00422_wo⟧⟦つける→つける：00562_tsukeru⟧⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦{一般的|いっぱんてき}→一般的：04784_ippanteki⟧だ。",
       "english": "It is standard to include an abstract at the beginning of an academic paper.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nDo not confuse {要約|ようやく} (summary) with the adverb {漸|ようや}く (finally, at last), which is a homophone with a completely different meaning and kanji. {要約|ようやく} can be used as a noun or as a する verb meaning \"to summarize.\"\n\nCOMMON COLLOCATIONS:\n- {要約|ようやく}する: to summarize\n- {要約|ようやく}を{書|か}く: to write a summary\n- {要約|ようやく}{文|ぶん}: summary text\n- {要約|ようやく}{力|りょく}: summarization ability\n- {三行|さんぎょう}{要約|ようやく}: three-line summary (internet slang for TL;DR)",
+  "notes": "USAGE:\nDo not confuse {要約|ようやく} (summary) with the adverb ⟦{漸|ようや}く→漸く：00429_youyaku⟧ (finally, at last), which is a homophone with a completely different meaning and kanji. {要約|ようやく} can be used as a noun or as a ⟦する→する：00392_suru⟧ verb meaning \"to summarize.\"\n\nCOMMON COLLOCATIONS:\n- {要約|ようやく}⟦する→する：00392_suru⟧: to summarize\n- {要約|ようやく}⟦を→を：00422_wo⟧⟦{書|か}く→書く：00477_kaku⟧: to write a summary\n- {要約|ようやく}⟦{文|ぶん}→文：03716_bun⟧: summary text\n- {要約|ようやく}{力|りょく}: summarization ability\n- {三行|さんぎょう}{要約|ようやく}: three-line summary (internet slang for TL;DR)",
   "cross_references": [
     {
       "type": "synonym",
@@ -142,11 +142,46 @@
       "reading": "ようし",
       "headword": "{要旨|ようし}",
       "label": "gist, main point"
+    },
+    {
+      "type": "related",
+      "target_id": "04097_arasuji",
+      "reading": "あらすじ",
+      "headword": "{粗筋|あらすじ}",
+      "label": "outline, synopsis, plot summary"
+    },
+    {
+      "type": "related",
+      "target_id": "08414_shouroku",
+      "reading": "しょうろく",
+      "headword": "{抄録|しょうろく}",
+      "label": "abstract"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13877_soukatsu",
+      "reading": "そうかつ",
+      "headword": "{総括|そうかつ}",
+      "label": "summary, overall review, wrap-up"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15277_bassui",
+      "reading": "ばっすい",
+      "headword": "{抜粋|ばっすい}",
+      "label": "extract"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25574_nukigaki",
+      "reading": "ぬきがき",
+      "headword": "{抜|ぬ}き{書|が}き",
+      "label": "extract"
     }
   ],
   "metadata": {
     "created": "2026-02-28T01:15:56Z",
-    "modified": "2026-04-03T00:02:52Z",
+    "modified": "2026-09-02T04:01:36Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -159,7 +194,8 @@
       "semantic": [
         "communication"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

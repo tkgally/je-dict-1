@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "12692_kyuuhen_ex1",
-      "japanese": "{天気|てんき}が{急変|きゅうへん}した。",
+      "japanese": "⟦{天気|てんき}→天気：00582_tenki⟧⟦が→が：00051_ga⟧{急変|きゅうへん}⟦した→する：00392_suru⟧。",
       "english": "The weather changed suddenly.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "12692_kyuuhen_ex2",
-      "japanese": "{患者|かんじゃ}の{容態|ようだい}が{急変|きゅうへん}した。",
+      "japanese": "⟦{患者|かんじゃ}→患者：00170_kanja⟧⟦の→の：09472_no⟧⟦{容態|ようだい}→容態：09797_youdai⟧⟦が→が：00051_ga⟧{急変|きゅうへん}⟦した→する：00392_suru⟧。",
       "english": "The patient's condition took a sudden turn.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "12692_kyuuhen_ex3",
-      "japanese": "{国際|こくさい}{情勢|じょうせい}の{急変|きゅうへん}により、{政府|せいふ}は{対応|たいおう}を{迫|せま}られている。",
+      "japanese": "⟦{国際|こくさい}→国際：01406_kokusai⟧⟦{情勢|じょうせい}→情勢：12739_jousei⟧⟦の→の：09472_no⟧{急変|きゅうへん}⟦に→に：00314_ni⟧⟦より→より：09476_yori⟧、⟦{政府|せいふ}→政府：03294_seifu⟧⟦は→は：00079_ha⟧⟦{対応|たいおう}→対応：02510_taiou⟧⟦を→を：00422_wo⟧⟦{迫|せま}られている→迫る：03928_semaru⟧。",
       "english": "Due to the sudden change in international affairs, the government is being pressured to respond.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{急変|きゅうへん} emphasizes the suddenness and dramatic nature of a change. It is frequently used in medical contexts for a patient's sudden worsening, in weather reports for abrupt changes, and in news for political or social upheaval.\n\nCOMMON COLLOCATIONS:\n- {容態|ようだい}が{急変|きゅうへん}する: a patient's condition takes a sudden turn\n- {天気|てんき}が{急変|きゅうへん}する: the weather changes suddenly\n- {事態|じたい}が{急変|きゅうへん}する: the situation changes dramatically\n- {情勢|じょうせい}の{急変|きゅうへん}: sudden change in the situation\n\nSIMILAR WORDS:\n- {急変|きゅうへん}: sudden change (dramatic, often negative)\n- {変化|へんか}: change (neutral, general)\n- {激変|げきへん}: radical change (even stronger than {急変|きゅうへん})\n- {一変|いっぺん}: complete change (transformation)",
+  "notes": "USAGE:\n{急変|きゅうへん} emphasizes the suddenness and dramatic nature of a change. It is frequently used in medical contexts for a patient's sudden worsening, in weather reports for abrupt changes, and in news for political or social upheaval.\n\nCOMMON COLLOCATIONS:\n- ⟦{容態|ようだい}→容態：09797_youdai⟧⟦が→が：00051_ga⟧{急変|きゅうへん}⟦する→する：00392_suru⟧: a patient's condition takes a sudden turn\n- ⟦{天気|てんき}→天気：00582_tenki⟧⟦が→が：00051_ga⟧{急変|きゅうへん}⟦する→する：00392_suru⟧: the weather changes suddenly\n- ⟦{事態|じたい}→事態：10151_jitai⟧⟦が→が：00051_ga⟧{急変|きゅうへん}⟦する→する：00392_suru⟧: the situation changes dramatically\n- ⟦{情勢|じょうせい}→情勢：12739_jousei⟧⟦の→の：09472_no⟧{急変|きゅうへん}: sudden change in the situation\n\nSIMILAR WORDS:\n- {急変|きゅうへん}: sudden change (dramatic, often negative)\n- ⟦{変化|へんか}→変化：03615_henka⟧: change (neutral, general)\n- ⟦{激変|げきへん}→激変：18621_gekihen⟧: radical change (even stronger than {急変|きゅうへん})\n- ⟦{一変|いっぺん}→一変：11203_ippen⟧: complete change (transformation)",
   "cross_references": [
     {
       "type": "related",
@@ -142,11 +142,32 @@
       "headword": "{急増|きゅうぞう}",
       "target_id": "12671_kyuuzou",
       "label": "rapid increase"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03615_henka",
+      "reading": "へんか",
+      "headword": "{変化|へんか}",
+      "label": "change"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18621_gekihen",
+      "reading": "げきへん",
+      "headword": "{激変|げきへん}",
+      "label": "radical change"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11203_ippen",
+      "reading": "いっぺん",
+      "headword": "{一変|いっぺん}",
+      "label": "complete change"
     }
   ],
   "metadata": {
     "created": "2026-02-22T05:54:06Z",
-    "modified": "2026-04-27T07:31:57Z",
+    "modified": "2026-09-02T04:01:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -159,7 +180,8 @@
       "semantic": [
         "change"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

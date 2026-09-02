@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "20027_netsuai_ex1",
-      "japanese": "{二人|ふたり}の{熱愛|ねつあい}が{報|ほう}じられた。",
+      "japanese": "⟦{二人|ふたり}→二人：00622_futari⟧⟦の→の：09472_no⟧{熱愛|ねつあい}⟦が→が：00051_ga⟧⟦{報|ほう}じられた→報じる：17193_houjiru⟧。",
       "english": "Their romance was reported in the news.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "20027_netsuai_ex2",
-      "japanese": "{熱愛|ねつあい}{中|ちゅう}の{二人|ふたり}はいつも{一緒|いっしょ}にいる。",
+      "japanese": "{熱愛|ねつあい}⟦{中|ちゅう}→〜中：09840_chuu⟧⟦の→の：09472_no⟧⟦{二人|ふたり}→二人：00622_futari⟧⟦は→は：00079_ha⟧⟦いつも→いつも：00599_itsumo⟧⟦{一緒|いっしょ}→一緒：02848_issho⟧⟦に→に：00314_ni⟧⟦いる→いる：00495_iru⟧。",
       "english": "The two lovebirds are always together.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "20027_netsuai_ex3",
-      "japanese": "{人気|にんき}{俳優|はいゆう}の{熱愛|ねつあい}{発覚|はっかく}がSNSで{大|おお}きな{話題|わだい}になった。",
+      "japanese": "⟦{人気|にんき}→人気：01488_ninki⟧⟦{俳優|はいゆう}→俳優：03547_haiyuu⟧⟦の→の：09472_no⟧{熱愛|ねつあい}⟦{発覚|はっかく}→発覚：07629_hakkaku⟧⟦が→が：00051_ga⟧SNS⟦で→で：00502_de⟧⟦{大|おお}きな→大きな：02849_ookina⟧⟦{話題|わだい}→話題：03793_wadai⟧になった。",
       "english": "The discovery of the popular actor's romance became a huge topic on social media.",
       "sense_numbers": [
         1
@@ -134,8 +134,31 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {熱|ねつ} (heat, passion) and {愛|あい} (love). While it literally means passionate love in general, in modern Japanese it is most strongly associated with celebrity gossip and tabloid reporting about romantic relationships.\n\nCOMMON COLLOCATIONS:\n- {熱愛|ねつあい}{発覚|はっかく}: romance discovered/revealed\n- {熱愛|ねつあい}{報道|ほうどう}: reports of a romance\n- {熱愛|ねつあい}{中|ちゅう}: in the middle of a passionate romance\n- {熱愛|ねつあい}の{噂|うわさ}: rumors of a love affair\n- {熱愛|ねつあい}が{報|ほう}じられる: a romance is reported\n\nSIMILAR WORDS:\n- {恋愛|れんあい}: romantic love — the standard neutral term for love and romance\n- {愛情|あいじょう}: love, affection — warm, deep emotional love; broader than romantic\n- {情熱|じょうねつ}: passion — general passion, not limited to romance\n\nUSAGE:\nVery common as a tabloid headline word. {熱愛|ねつあい}{発覚|はっかく} (\"romance discovered\") is one of the most recognizable tabloid phrases in Japanese. The verb form {熱愛|ねつあい}する (to be passionately in love) exists but is less common than the noun.",
+  "notes": "Compound of ⟦{熱|ねつ}→熱：01690_netsu⟧ (heat, passion) and ⟦{愛|あい}→愛：02370_ai⟧ (love). While it literally means passionate love in general, in modern Japanese it is most strongly associated with celebrity gossip and tabloid reporting about romantic relationships.\n\nCOMMON COLLOCATIONS:\n- {熱愛|ねつあい}⟦{発覚|はっかく}→発覚：07629_hakkaku⟧: romance discovered/revealed\n- {熱愛|ねつあい}⟦{報道|ほうどう}→報道：04438_houdou⟧: reports of a romance\n- {熱愛|ねつあい}⟦{中|ちゅう}→〜中：09840_chuu⟧: in the middle of a passionate romance\n- {熱愛|ねつあい}⟦の→の：09472_no⟧⟦{噂|うわさ}→噂：01871_uwasa⟧: rumors of a love affair\n- {熱愛|ねつあい}⟦が→が：00051_ga⟧⟦{報|ほう}じられる→報じる：17193_houjiru⟧: a romance is reported\n\nSIMILAR WORDS:\n- ⟦{恋愛|れんあい}→恋愛：12634_renai⟧: romantic love — the standard neutral term for love and romance\n- ⟦{愛情|あいじょう}→愛情：01673_aijou⟧: love, affection — warm, deep emotional love; broader than romantic\n- ⟦{情熱|じょうねつ}→情熱：05087_jounetsu⟧: passion — general passion, not limited to romance\n\nUSAGE:\nVery common as a tabloid headline word. {熱愛|ねつあい}⟦{発覚|はっかく}→発覚：07629_hakkaku⟧ (\"romance discovered\") is one of the most recognizable tabloid phrases in Japanese. The verb form {熱愛|ねつあい}⟦する→する：00392_suru⟧ (to be passionately in love) exists but is less common than the noun.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12634_renai",
+      "reading": "れんあい",
+      "headword": "{恋愛|れんあい}",
+      "label": "romantic love"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01673_aijou",
+      "reading": "あいじょう",
+      "headword": "{愛情|あいじょう}",
+      "label": "love, affection"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05087_jounetsu",
+      "reading": "じょうねつ",
+      "headword": "{情熱|じょうねつ}",
+      "label": "passion"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -152,6 +175,6 @@
       "verb_class": "suru"
     },
     "created": "2026-03-28T05:26:37Z",
-    "modified": "2026-03-28T05:26:37Z"
+    "modified": "2026-09-02T04:01:58Z"
   }
 }

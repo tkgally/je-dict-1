@@ -2,7 +2,7 @@
   "id": "02324_yuderu",
   "headword": "{茹|ゆ}でる",
   "reading": "ゆでる",
-  "part_of_speech": "ichidan verb",
+  "part_of_speech": "verb (ichidan)",
   "gloss": "to boil (food)",
   "conjugation": {
     "type": "ichidan",
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "{茹|ゆ}でる is an ichidan verb meaning to cook in boiling water.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- Takes を particle: 〜⟦を→を：00422_wo⟧{茹|ゆ}でる\n\nCOMMON PATTERNS:\n- ⟦{卵|たまご}→卵：02222_tamago⟧⟦を→を：00422_wo⟧{茹|ゆ}でる: to boil an egg\n- ⟦パスタ→パスタ：06768_pasuta⟧⟦を→を：00422_wo⟧{茹|ゆ}でる: to boil pasta\n- ⟦{野菜|やさい}→野菜：02265_yasai⟧⟦を→を：00422_wo⟧{茹|ゆ}でる: to boil vegetables\n- ⟦{固|かた}く→固い：12090_katai⟧{茹|ゆ}でる: to hard-boil\n\nCOMPOUNDS:\n- ⟦{茹|ゆ}で{卵|たまご}→ゆで卵：10651_yudetamago⟧: boiled egg\n- ⟦{茹|ゆ}で{上|あ}がる→茹で上がる：17741_yudeagaru⟧: to finish boiling (intransitive)\n- ⟦{半熟|はんじゅく}→半熟：11935_hanjuku⟧{茹|ゆ}で: soft-boiled\n\nSIMILAR COOKING METHODS:\n- ⟦{煮|に}る→煮る：01971_niru⟧: to simmer, stew (longer, with flavoring)\n- ⟦{蒸|む}す→蒸す：02307_musu⟧: to steam\n- ⟦{焼|や}く→焼く：01123_yaku⟧: to grill, bake",
+  "notes": "{茹|ゆ}でる is an ichidan verb meaning to cook in boiling water.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- Takes ⟦を→を：00422_wo⟧ particle: 〜⟦を→を：00422_wo⟧{茹|ゆ}でる\n\nCOMMON PATTERNS:\n- ⟦{卵|たまご}→卵：02222_tamago⟧⟦を→を：00422_wo⟧{茹|ゆ}でる: to boil an egg\n- ⟦パスタ→パスタ：06768_pasuta⟧⟦を→を：00422_wo⟧{茹|ゆ}でる: to boil pasta\n- ⟦{野菜|やさい}→野菜：02265_yasai⟧⟦を→を：00422_wo⟧{茹|ゆ}でる: to boil vegetables\n- ⟦{固|かた}く→固い：12090_katai⟧{茹|ゆ}でる: to hard-boil\n\nCOMPOUNDS:\n- ⟦{茹|ゆ}で{卵|たまご}→ゆで卵：10651_yudetamago⟧: boiled egg\n- ⟦{茹|ゆ}で{上|あ}がる→茹で上がる：17741_yudeagaru⟧: to finish boiling (intransitive)\n- ⟦{半熟|はんじゅく}→半熟：11935_hanjuku⟧{茹|ゆ}で: soft-boiled\n\nSIMILAR COOKING METHODS:\n- ⟦{煮|に}る→煮る：01971_niru⟧: to simmer, stew (longer, with flavoring)\n- ⟦{蒸|む}す→蒸す：02307_musu⟧: to steam\n- ⟦{焼|や}く→焼く：01123_yaku⟧: to grill, bake",
   "cross_references": [
     {
       "type": "contrast",
@@ -148,11 +148,39 @@
       "reading": "むす",
       "headword": "{蒸|む}す",
       "label": "steam"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01123_yaku",
+      "reading": "やく",
+      "headword": "{焼|や}く",
+      "label": "to grill, bake"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02127_taku",
+      "reading": "たく",
+      "headword": "{炊|た}く",
+      "label": "to cook (rice), to boil"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08572_yudooshi",
+      "reading": "ゆどおし",
+      "headword": "{湯通|ゆどお}し",
+      "label": "blanching"
+    },
+    {
+      "type": "related",
+      "target_id": "14992_yugiri",
+      "reading": "ゆぎり",
+      "headword": "{湯切|ゆぎ}り",
+      "label": "draining hot water (from noodles)"
     }
   ],
   "metadata": {
     "created": "2026-01-09T08:23:41Z",
-    "modified": "2026-08-01T12:20:34Z",
+    "modified": "2026-09-02T04:01:01Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

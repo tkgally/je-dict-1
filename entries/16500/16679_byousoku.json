@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "16679_byousoku_ex1",
-      "japanese": "{光|ひかり}は{秒速|びょうそく}{約|やく}30{万|まん}キロメートルだ。",
+      "japanese": "⟦{光|ひかり}→光：01707_hikari⟧⟦は→は：00079_ha⟧{秒速|びょうそく}⟦{約|やく}→約：09563_yaku⟧30{万|まん}⟦キロメートル→キロメートル：02873_kiromeetoru⟧だ。",
       "english": "Light travels at approximately 300,000 kilometers per second.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "16679_byousoku_ex2",
-      "japanese": "{台風|たいふう}の{風速|ふうそく}は{秒速|びょうそく}50メートルに{達|たっ}した。",
+      "japanese": "⟦{台風|たいふう}→台風：01455_taifuu⟧⟦の→の：09472_no⟧⟦{風速|ふうそく}→風速：24554_fuusoku⟧⟦は→は：00079_ha⟧{秒速|びょうそく}50⟦メートル→メートル：02975_meetoru⟧⟦に→に：00314_ni⟧⟦{達|たっ}した→達する：02129_tassuru⟧。",
       "english": "The wind speed of the typhoon reached 50 meters per second.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "16679_byousoku_ex3",
-      "japanese": "{音|おと}の{速|はや}さは{空気中|くうきちゅう}で{秒速|びょうそく}{約|やく}340メートルだ。",
+      "japanese": "⟦{音|おと}→音：00743_oto⟧⟦の→の：09472_no⟧⟦{速|はや}さ→速さ：28072_hayasa⟧⟦は→は：00079_ha⟧{空気中|くうきちゅう}⟦で→で：00502_de⟧{秒速|びょうそく}⟦{約|やく}→約：09563_yaku⟧340⟦メートル→メートル：02975_meetoru⟧だ。",
       "english": "The speed of sound in air is approximately 340 meters per second.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nUsed in scientific contexts and weather reports. Wind speed in Japan is typically expressed in {秒速|びょうそく} (meters per second), unlike some countries that use kilometers per hour.\n\nCOMMON COLLOCATIONS:\n- {秒速|びょうそく}〜メートル (~ meters per second)\n- {秒速|びょうそく}〜キロメートル (~ kilometers per second)\n\nSIMILAR WORDS:\n- {時速|じそく}: speed per hour — kilometers per hour\n- {分速|ふんそく}: speed per minute — meters per minute\n- {風速|ふうそく}: wind speed — the speed of wind",
+  "notes": "USAGE:\nUsed in scientific contexts and weather reports. Wind speed in Japan is typically expressed in {秒速|びょうそく} (meters per second), unlike some countries that use kilometers per hour.\n\nCOMMON COLLOCATIONS:\n- {秒速|びょうそく}〜⟦メートル→メートル：02975_meetoru⟧ (~ meters per second)\n- {秒速|びょうそく}〜⟦キロメートル→キロメートル：02873_kiromeetoru⟧ (~ kilometers per second)\n\nSIMILAR WORDS:\n- ⟦{時速|じそく}→時速：00128_jisoku⟧: speed per hour — kilometers per hour\n- ⟦{分速|ふんそく}→分速：16680_funsoku⟧: speed per minute — meters per minute\n- ⟦{風速|ふうそく}→風速：24554_fuusoku⟧: wind speed — the speed of wind",
   "cross_references": [
     {
       "type": "related",
@@ -59,11 +59,18 @@
       "reading": "じそく",
       "headword": "{時速|じそく}",
       "label": "per hour"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24554_fuusoku",
+      "reading": "ふうそく",
+      "headword": "{風速|ふうそく}",
+      "label": "wind speed"
     }
   ],
   "metadata": {
     "created": "2026-03-14T02:12:10Z",
-    "modified": "2026-07-20T13:24:52Z",
+    "modified": "2026-09-02T04:01:45Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

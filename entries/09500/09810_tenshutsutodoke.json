@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "09810_tenshutsutodoke_ex1",
-      "japanese": "{転出届|てんしゅつとどけ}を{出|だ}してきた。",
+      "japanese": "{転出届|てんしゅつとどけ}⟦を→を：00422_wo⟧⟦{出|だ}して→出す：01087_dasu⟧きた。",
       "english": "I submitted my moving-out notification.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "09810_tenshutsutodoke_ex2",
-      "japanese": "{引|ひ}っ{越|こ}しの{前|まえ}に{転出届|てんしゅつとどけ}が{必要|ひつよう}だ。",
+      "japanese": "{引|ひ}っ{越|こ}し⟦の→の：09472_no⟧⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧{転出届|てんしゅつとどけ}⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧だ。",
       "english": "A moving-out notification is required before moving.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "09810_tenshutsutodoke_ex3",
-      "japanese": "{市役所|しやくしょ}で{転出届|てんしゅつとどけ}の{手続|てつづ}きをする。",
+      "japanese": "⟦{市役所|しやくしょ}→市役所：03067_shiyakusho⟧⟦で→で：00502_de⟧{転出届|てんしゅつとどけ}⟦の→の：09472_no⟧⟦{手続|てつづ}き→手続き：05453_tetsuzuki⟧⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧。",
       "english": "I'll complete the moving-out notification procedures at the city hall.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{転出届|てんしゅつとどけ} is filed at your current municipality's office when moving to a different city, ward, or town. You receive a {転出|てんしゅつ}{証明書|しょうめいしょ} (moving-out certificate) which you then submit along with {転入届|てんにゅうとどけ} at your new location.\n\nCOMMON COLLOCATIONS:\n- {転出届|てんしゅつとどけ}を{提出|ていしゅつ}する (to submit a moving-out notification)\n- {転出届|てんしゅつとどけ}の{届出|とどけで} (filing a moving-out notification)\n\nRELATED TERMS:\n- {転入届|てんにゅうとどけ}: moving-in notification\n- {転居届|てんきょとどけ}: change of address notice\n- {住民票|じゅうみんひょう}: certificate of residence",
+  "notes": "{転出届|てんしゅつとどけ} is filed at your current municipality's office when moving to a different city, ward, or town. You receive a ⟦{転出|てんしゅつ}→転出：25698_tenshutsu⟧⟦{証明書|しょうめいしょ}→証明書：09785_shoumeisho⟧ (moving-out certificate) which you then submit along with ⟦{転入届|てんにゅうとどけ}→転入届：09811_tennyuutodoke⟧ at your new location.\n\nCOMMON COLLOCATIONS:\n- {転出届|てんしゅつとどけ}⟦を→を：00422_wo⟧⟦{提出|ていしゅつ}する→提出する：19644_teishutsusuru⟧ (to submit a moving-out notification)\n- {転出届|てんしゅつとどけ}⟦の→の：09472_no⟧⟦{届出|とどけで}→届出：07555_todokede⟧ (filing a moving-out notification)\n\nRELATED WORDS:\n- ⟦{転入届|てんにゅうとどけ}→転入届：09811_tennyuutodoke⟧: moving-in notification\n- ⟦{転居届|てんきょとどけ}→転居届：10284_tenkyotodoke⟧: change of address notice\n- ⟦{住民票|じゅうみんひょう}→住民票：09628_juuminhyou⟧: certificate of residence",
   "prominent_see_also": [
     {
       "target_id": "09811_tennyuutodoke",
@@ -52,9 +52,25 @@
       "note": "moving-in notification"
     }
   ],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "10284_tenkyotodoke",
+      "reading": "てんきょとどけ",
+      "headword": "{転居届|てんきょとどけ}",
+      "label": "change of address notice"
+    },
+    {
+      "type": "related",
+      "target_id": "09628_juuminhyou",
+      "reading": "じゅうみんひょう",
+      "headword": "{住民票|じゅうみんひょう}",
+      "label": "certificate of residence"
+    }
+  ],
   "metadata": {
     "created": "2026-02-03T12:23:06Z",
-    "modified": "2026-06-25T09:42:48Z",
+    "modified": "2026-09-02T04:01:19Z",
     "ai_model": "claude-opus-4-5-20251101",
     "vocabulary_tier": "general",
     "tags": {

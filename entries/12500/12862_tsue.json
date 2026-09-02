@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "12862_tsue_ex1",
-      "japanese": "{祖父|そふ}は{杖|つえ}をついて{歩|ある}く。",
+      "japanese": "⟦{祖父|そふ}→祖父：01452_sofu⟧⟦は→は：00079_ha⟧{杖|つえ}⟦を→を：00422_wo⟧ついて⟦{歩|ある}く→歩く：00538_aruku⟧。",
       "english": "My grandfather walks with a cane.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "12862_tsue_ex2",
-      "japanese": "{登山|とざん}には{杖|つえ}があると{楽|らく}だ。",
+      "japanese": "⟦{登山|とざん}→登山：03457_tozan⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{杖|つえ}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧⟦と→と：00512_to⟧⟦{楽|らく}→楽：02169_raku⟧だ。",
       "english": "Having a walking stick makes mountain climbing easier.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "12862_tsue_ex3",
-      "japanese": "{足|あし}を{骨折|こっせつ}して、しばらく{杖|つえ}なしでは{歩|ある}けなかった。",
+      "japanese": "⟦{足|あし}→足：00575_ashi⟧⟦を→を：00422_wo⟧⟦{骨折|こっせつ}→骨折：02763_kossetsu⟧⟦して→する：00392_suru⟧、⟦しばらく→しばらく：01267_shibaraku⟧{杖|つえ}なし⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{歩|ある}けなかった→歩く：00538_aruku⟧。",
       "english": "After breaking my leg, I couldn't walk without a cane for a while.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nThe most common verb pairing is {杖|つえ}をつく (to use a cane, literally \"to poke with a cane\"). In figurative usage, {杖|つえ} can refer to something or someone one relies on for support.\n\nCOMMON COLLOCATIONS:\n- {杖|つえ}をつく: to walk with a cane\n- {杖|つえ}に{頼|たよ}る: to rely on a cane\n- {松葉杖|まつばづえ}: crutch(es)\n\nKANJI NOTE:\nThe kanji {杖|つえ} uses the {木|き} radical (tree/wood), reflecting the traditional material.",
+  "notes": "USAGE:\nThe most common verb pairing is {杖|つえ}⟦を→を：00422_wo⟧つく (to use a cane, literally \"to poke with a cane\"). In figurative usage, {杖|つえ} can refer to something or someone one relies on for support.\n\nCOMMON COLLOCATIONS:\n- {杖|つえ}⟦を→を：00422_wo⟧つく: to walk with a cane\n- {杖|つえ}⟦に→に：00314_ni⟧⟦{頼|たよ}る→頼る：02069_tayoru⟧: to rely on a cane\n- {松葉杖|まつばづえ}: crutch(es)\n\nWRITING:\nThe kanji {杖|つえ} uses the ⟦{木|き}→木：00524_ki⟧ radical (tree/wood), reflecting the traditional material.",
   "cross_references": [
     {
       "type": "related",
@@ -52,11 +52,32 @@
       "reading": "ぼう",
       "headword": "{棒|ぼう}",
       "label": "stick, pole in general"
+    },
+    {
+      "type": "related",
+      "target_id": "22823_hoozuewotsuku",
+      "reading": "ほおづえをつく",
+      "headword": "{頬杖|ほおづえ}をつく",
+      "label": "to rest one's chin on one's hand"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24133_sao",
+      "reading": "さお",
+      "headword": "{竿|さお}",
+      "label": "pole"
+    },
+    {
+      "type": "related",
+      "target_id": "25135_mahounotsue",
+      "reading": "まほうのつえ",
+      "headword": "{魔法|まほう}の{杖|つえ}",
+      "label": "magic wand"
     }
   ],
   "metadata": {
     "created": "2026-02-22T12:39:05Z",
-    "modified": "2026-08-26T00:24:36Z",
+    "modified": "2026-09-02T04:01:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

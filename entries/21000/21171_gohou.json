@@ -15,41 +15,80 @@
   "examples": [
     {
       "id": "21171_gohou_ex1",
-      "japanese": "{英語|えいご}の{語法|ごほう}を{学|まな}ぶ。",
+      "japanese": "⟦{英語|えいご}→英語：02274_eigo⟧⟦の→の：09472_no⟧{語法|ごほう}⟦を→を：00422_wo⟧⟦{学|まな}ぶ→学ぶ：01987_manabu⟧。",
       "english": "To study English usage.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "21171_gohou_ex2",
-      "japanese": "この{語法|ごほう}は{日本語|にほんご}に{特有|とくゆう}のものだ。",
+      "japanese": "⟦この→この：00962_kono⟧{語法|ごほう}⟦は→は：00079_ha⟧⟦{日本語|にほんご}→日本語：00614_nihongo⟧⟦に→に：00314_ni⟧⟦{特有|とくゆう}→特有：13471_tokuyuu⟧⟦の→の：09472_no⟧ものだ。",
       "english": "This usage is unique to Japanese.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "21171_gohou_ex3",
-      "japanese": "{辞書|じしょ}には{語法|ごほう}に{関|かん}する{詳|くわ}しい{説明|せつめい}が{載|の}っている。",
+      "japanese": "⟦{辞書|じしょ}→辞書：04707_jisho⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{語法|ごほう}⟦に→に：00314_ni⟧⟦{関|かん}する→関する：02045_kansuru⟧⟦{詳|くわ}しい→詳しい：02483_kuwashii⟧⟦{説明|せつめい}→説明：01449_setsumei⟧⟦が→が：00051_ga⟧⟦{載|の}っている→載る：27882_noru⟧。",
       "english": "The dictionary contains detailed explanations of word usage.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{語|ご} means 'word' or 'language,' and {法|ほう} means 'method' or 'rule.' {語法|ごほう} refers to the conventions of how words are used, including grammatical rules, idiomatic patterns, and stylistic choices. It is a common term in language education and linguistics.\n\nCOMMON COLLOCATIONS:\n- {語法|ごほう}を{学|まな}ぶ (to study usage/diction)\n- {語法|ごほう}に{注意|ちゅうい}する (to pay attention to usage)\n- {正|ただ}しい{語法|ごほう} (correct usage)\n- {語法|ごほう}{辞典|じてん} (usage dictionary)\n\nSIMILAR WORDS:\n- {文法|ぶんぽう} — grammar (the systematic rules of a language; broader and more structural)\n- {用法|ようほう} — usage (how a specific word or item is used; more practical and concrete)\n- {言|い}い{回|まわ}し — way of saying, expression (focuses on specific phrases or turns of expression)",
-  "cross_references": [],
+  "notes": "⟦{語|ご}→〜語：09841_go⟧ means 'word' or 'language,' and ⟦{法|ほう}→法：13620_hou⟧ means 'method' or 'rule.' {語法|ごほう} refers to the conventions of how words are used, including grammatical rules, idiomatic patterns, and stylistic choices. It is a common term in language education and linguistics.\n\nCOMMON COLLOCATIONS:\n- {語法|ごほう}⟦を→を：00422_wo⟧⟦{学|まな}ぶ→学ぶ：01987_manabu⟧ (to study usage/diction)\n- {語法|ごほう}⟦に→に：00314_ni⟧⟦{注意|ちゅうい}→注意：01464_chuui⟧⟦する→する：00392_suru⟧ (to pay attention to usage)\n- ⟦{正|ただ}しい→正しい：00893_tadashii⟧{語法|ごほう} (correct usage)\n- {語法|ごほう}⟦{辞典|じてん}→辞典：01640_jiten⟧ (usage dictionary)\n\nSIMILAR WORDS:\n- ⟦{文法|ぶんぽう}→文法：01506_bunpou⟧ — grammar (the systematic rules of a language; broader and more structural)\n- ⟦{用法|ようほう}→用法：13541_youhou⟧ — usage (how a specific word or item is used; more practical and concrete)\n- ⟦{言|い}い{回|まわ}し→言い回し：14146_iimawashi⟧ — way of saying, expression (focuses on specific phrases or turns of expression)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01506_bunpou",
+      "reading": "ぶんぽう",
+      "headword": "{文法|ぶんぽう}",
+      "label": "grammar (the systematic rules…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13541_youhou",
+      "reading": "ようほう",
+      "headword": "{用法|ようほう}",
+      "label": "usage (how a specific word or item is…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14146_iimawashi",
+      "reading": "いいまわし",
+      "headword": "{言|い}い{回|まわ}し",
+      "label": "way of saying, expression"
+    },
+    {
+      "type": "related",
+      "target_id": "09802_wahou",
+      "reading": "わほう",
+      "headword": "{話法|わほう}",
+      "label": "narration style"
+    }
+  ],
   "metadata": {
     "created": "2026-03-31T22:14:33Z",
-    "modified": "2026-03-31T22:14:33Z",
+    "modified": "2026-09-02T04:02:02Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["language"]
+      "semantic": [
+        "language"
+      ]
     }
   }
 }

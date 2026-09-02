@@ -24,61 +24,94 @@
   "examples": [
     {
       "id": "08657_hanpa_ex1",
-      "japanese": "{仕事|しごと}を{半端|はんぱ}にしないで。",
+      "japanese": "⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦を→を：00422_wo⟧{半端|はんぱ}にしないで。",
       "english": "Don't leave your work half-done.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "08657_hanpa_ex2",
-      "japanese": "{半端|はんぱ}な{気持|きも}ちでは{続|つづ}かない。",
+      "japanese": "{半端|はんぱ}な{気持|きも}ち⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{続|つづ}かない→続く：00903_tsuzuku⟧。",
       "english": "You can't continue with a half-hearted attitude.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "08657_hanpa_ex3",
-      "japanese": "{半端|はんぱ}な{知識|ちしき}で{意見|いけん}を{言|い}うな。",
+      "japanese": "{半端|はんぱ}な⟦{知識|ちしき}→知識：01463_chishiki⟧⟦で→で：00502_de⟧⟦{意見|いけん}→意見：01303_iken⟧⟦を→を：00422_wo⟧⟦{言|い}う→言う：00515_iu⟧な。",
       "english": "Don't give opinions based on incomplete knowledge.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "08657_hanpa_ex4",
-      "japanese": "{半端|はんぱ}じゃない{暑|あつ}さだ。",
+      "japanese": "{半端|はんぱ}⟦じゃない→じゃない：28483_janai⟧⟦{暑|あつ}さ→暑さ：12973_atsusa⟧だ。",
       "english": "The heat is no joke (incredible).",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": "～じゃない inverts meaning to 'not half-hearted' = extreme"
     },
     {
       "id": "08657_hanpa_ex5",
-      "japanese": "{半端|はんぱ}な{数|かず}になってしまった。",
+      "japanese": "{半端|はんぱ}な⟦{数|かず}→数：00204_kazu⟧になってしまった。",
       "english": "It ended up being an odd number.",
-      "sense_numbers": [3],
+      "sense_numbers": [
+        3
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "08657_hanpa_ex6",
-      "japanese": "{半端|はんぱ}{物|もの}を{安売|やすう}りしている。",
+      "japanese": "{半端|はんぱ}⟦{物|もの}→物：02259_mono⟧⟦を→を：00422_wo⟧⟦{安売|やすう}り→安売り：07779_yasuuri⟧⟦している→する：00392_suru⟧。",
       "english": "They're selling leftover/odd items at a discount.",
-      "sense_numbers": [1, 3],
+      "sense_numbers": [
+        1,
+        3
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "COMMON EXPRESSIONS:\n- {半端|はんぱ}じゃない - \"not half-hearted\" = extreme, incredible, tremendous\n  (This inversion creates emphasis, like English \"no joke\")\n- {半端|はんぱ}ない - same as above (more casual/modern)\n- {中途|ちゅうと}{半端|はんぱ} - half-baked, incomplete (stronger criticism)\n\nNUANCE:\n{半端|はんぱ} often carries a negative connotation, implying a lack of commitment or thoroughness.\n\nOTHER USES:\n- {半端|はんぱ}{物|もの} - odd items, leftovers, remnants (in retail)\n- {半端|はんぱ}な{時間|じかん} - awkward time (neither early nor late)\n\nCONTRAST:\n- {徹底的|てっていてき} - thorough (opposite quality)",
+  "notes": "COMMON EXPRESSIONS:\n- {半端|はんぱ}⟦じゃない→じゃない：28483_janai⟧ - \"not half-hearted\" = extreme, incredible, tremendous\n  (This inversion creates emphasis, like English \"no joke\")\n- {半端|はんぱ}⟦ない→ない：01118_nai⟧ - same as above (more casual/modern)\n- {中途|ちゅうと}{半端|はんぱ} - half-baked, incomplete (stronger criticism)\n\nUSAGE:\n{半端|はんぱ} often carries a negative connotation, implying a lack of commitment or thoroughness.\n\nOTHER USES:\n- {半端|はんぱ}⟦{物|もの}→物：02259_mono⟧ - odd items, leftovers, remnants (in retail)\n- {半端|はんぱ}な⟦{時間|じかん}→時間：00468_jikan⟧ - awkward time (neither early nor late)\n\nSIMILAR WORDS:\n- ⟦{徹底的|てっていてき}→徹底的：06827_tetteiteki⟧ - thorough (opposite quality)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06827_tetteiteki",
+      "reading": "てっていてき",
+      "headword": "{徹底的|てっていてき}",
+      "label": "thorough"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23501_hasuu",
+      "reading": "はすう",
+      "headword": "{端数|はすう}",
+      "label": "fraction"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-na", "noun"],
-      "formality": "neutral"
+      "pos": [
+        "adjective-na",
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain"
     },
     "created": "2026-01-27T13:23:43Z",
-    "modified": "2026-06-23T01:38:10Z"
+    "modified": "2026-09-02T04:01:15Z"
   }
 }

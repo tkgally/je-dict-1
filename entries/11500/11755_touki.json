@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "11755_touki_ex1",
-      "japanese": "{冬季|とうき}オリンピックが{始|はじ}まる。",
+      "japanese": "{冬季|とうき}⟦オリンピック→オリンピック：09899_orinpikku⟧⟦が→が：00051_ga⟧⟦{始|はじ}まる→始まる：00841_hajimaru⟧。",
       "english": "The Winter Olympics are starting.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "11755_touki_ex2",
-      "japanese": "{冬季|とうき}は{日照|にっしょう}{時間|じかん}が{短|みじか}くなる。",
+      "japanese": "{冬季|とうき}⟦は→は：00079_ha⟧⟦{日照|にっしょう}{時間|じかん}→日照時間：29943_nisshoujikan⟧⟦が→が：00051_ga⟧⟦{短|みじか}く→短い：00510_mijikai⟧⟦なる→なる：01970_naru⟧。",
       "english": "Daylight hours become shorter during the winter season.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "11755_touki_ex3",
-      "japanese": "この{道路|どうろ}は{冬季|とうき}{閉鎖|へいさ}されるため、{通行|つうこう}できない。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{道路|どうろ}→道路：01481_douro⟧⟦は→は：00079_ha⟧{冬季|とうき}⟦{閉鎖|へいさ}→閉鎖：14524_heisa⟧⟦される→する：00392_suru⟧⟦ため→ため：01145_tame⟧、⟦{通行|つうこう}→通行：03436_tsuukou⟧⟦できない→できる：00557_dekiru⟧。",
       "english": "This road is closed for the winter season, so it cannot be used.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "A formal term for the winter season, used in official, institutional, and compound expressions. Everyday conversation uses {冬|ふゆ} instead.\n\nWORD FORMATION:\n{冬|とう} (winter) + {季|き} (season)\n\nCOMMON COLLOCATIONS:\n- {冬季|とうき}オリンピック: Winter Olympics\n- {冬季|とうき}{休暇|きゅうか}: winter vacation\n- {冬季|とうき}{閉鎖|へいさ}: winter closure (roads, facilities)\n- {冬季|とうき}{限定|げんてい}: winter-only, winter-limited\n- {冬季|とうき}{営業|えいぎょう}: winter operations/hours\n\nRELATED SEASONAL TERMS:\n- {春季|しゅんき}: spring season\n- {夏季|かき}: summer season\n- {秋季|しゅうき}: autumn season\n\nCONTRAST:\n{冬|ふゆ} is the everyday word for winter. {冬季|とうき} is formal and typically appears in written or official contexts.",
+  "notes": "A formal term for the winter season, used in official, institutional, and compound expressions. Everyday conversation uses ⟦{冬|ふゆ}→冬：00623_fuyu⟧ instead.\n\nFORMS:\n{冬|とう} (winter) + {季|き} (season)\n\nCOMMON COLLOCATIONS:\n- {冬季|とうき}⟦オリンピック→オリンピック：09899_orinpikku⟧: Winter Olympics\n- {冬季|とうき}{休暇|きゅうか}: winter vacation\n- {冬季|とうき}⟦{閉鎖|へいさ}→閉鎖：14524_heisa⟧: winter closure (roads, facilities)\n- {冬季|とうき}⟦{限定|げんてい}→限定：10997_gentei⟧: winter-only, winter-limited\n- {冬季|とうき}⟦{営業|えいぎょう}→営業：01878_eigyou⟧: winter operations/hours\n\nRELATED SEASONAL TERMS:\n- ⟦{春季|しゅんき}→春季：16605_shunki⟧: spring season\n- ⟦{夏季|かき}→夏季：12102_kaki⟧: summer season\n- ⟦{秋季|しゅうき}→秋季：16606_shuuki⟧: autumn season\n\nSIMILAR WORDS:\n⟦{冬|ふゆ}→冬：00623_fuyu⟧ is the everyday word for winter. {冬季|とうき} is formal and typically appears in written or official contexts.",
   "cross_references": [
     {
       "type": "related",
@@ -58,11 +58,25 @@
       "reading": "かき",
       "headword": "{夏季|かき}",
       "label": "summer season"
+    },
+    {
+      "type": "related",
+      "target_id": "16605_shunki",
+      "reading": "しゅんき",
+      "headword": "{春季|しゅんき}",
+      "label": "spring season"
+    },
+    {
+      "type": "related",
+      "target_id": "16606_shuuki",
+      "reading": "しゅうき",
+      "headword": "{秋季|しゅうき}",
+      "label": "autumn season"
     }
   ],
   "metadata": {
     "created": "2026-02-17T23:15:01Z",
-    "modified": "2026-07-02T06:41:38Z",
+    "modified": "2026-09-02T04:01:26Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",

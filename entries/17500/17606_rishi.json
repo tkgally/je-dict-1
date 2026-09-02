@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "17606_rishi_ex1",
-      "japanese": "{銀行|ぎんこう}の{利子|りし}が{低|ひく}い。",
+      "japanese": "⟦{銀行|ぎんこう}→銀行：00578_ginkou⟧⟦の→の：09472_no⟧{利子|りし}⟦が→が：00051_ga⟧⟦{低|ひく}い→低い：02947_hikui⟧。",
       "english": "The bank's interest rate is low.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "17606_rishi_ex2",
-      "japanese": "{借金|しゃっきん}の{利子|りし}を{払|はら}う。",
+      "japanese": "⟦{借金|しゃっきん}→借金：03203_shakkin⟧⟦の→の：09472_no⟧{利子|りし}⟦を→を：00422_wo⟧⟦{払|はら}う→払う：00535_harau⟧。",
       "english": "I pay the interest on my debt.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "17606_rishi_ex3",
-      "japanese": "{預金|よきん}につく{利子|りし}はほとんどない。",
+      "japanese": "⟦{預金|よきん}→預金：05420_yokin⟧⟦に→に：00314_ni⟧つく{利子|りし}⟦は→は：00079_ha⟧⟦ほとんど→ほとんど：00847_hotondo⟧⟦ない→ない：01118_nai⟧。",
       "english": "There's almost no interest on savings deposits.",
       "sense_numbers": [
         1
@@ -43,7 +43,7 @@
       "notes": null
     }
   ],
-  "notes": "FORMATION:\n{利|り} (profit, benefit) + {子|し} (small part) → small profit from money\n\nSYNONYMS:\n- {利息|りそく} (interest - more formal, often used in banking contexts)\n- {金利|きんり} (interest rate)\n\nCOLLOCATIONS:\n- {利子|りし}が{付|つ}く (to accrue interest)\n- {利子|りし}を{払|はら}う (to pay interest)\n- {利子|りし}を{受|う}け{取|と}る (to receive interest)\n\nJAPAN'S LOW INTEREST ERA:\nSince the 1990s, Japan has maintained very low interest rates, making {利子|りし}が{低|ひく}い a common observation about bank savings.",
+  "notes": "FORMS:\n⟦{利|り}→利：29142_ri⟧ (profit, benefit) + {子|し} (small part) → small profit from money\n\nSIMILAR WORDS:\n- ⟦{利息|りそく}→利息：05469_risoku⟧ (interest - more formal, often used in banking contexts)\n- ⟦{金利|きんり}→金利：04856_kinri⟧ (interest rate)\n\nCOMMON COLLOCATIONS:\n- {利子|りし}⟦が→が：00051_ga⟧⟦{付|つ}く→付く：01960_tsuku⟧ (to accrue interest)\n- {利子|りし}⟦を→を：00422_wo⟧⟦{払|はら}う→払う：00535_harau⟧ (to pay interest)\n- {利子|りし}⟦を→を：00422_wo⟧⟦{受|う}け{取|と}る→受け取る：01883_uketoru⟧ (to receive interest)\n\nJAPAN'S LOW INTEREST ERA:\nSince the 1990s, Japan has maintained very low interest rates, making {利子|りし}⟦が→が：00051_ga⟧⟦{低|ひく}い→低い：02947_hikui⟧ a common observation about bank savings.",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -51,6 +51,7 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "domain": [
         "business"
       ],
@@ -60,7 +61,7 @@
       ]
     },
     "created": "2026-01-26T13:58:14Z",
-    "modified": "2026-04-04T02:26:11Z"
+    "modified": "2026-09-02T04:01:49Z"
   },
   "cross_references": [
     {
@@ -69,6 +70,20 @@
       "reading": "りそく",
       "headword": "{利息|りそく}",
       "label": "interest (synonym)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04856_kinri",
+      "reading": "きんり",
+      "headword": "{金利|きんり}",
+      "label": "interest rate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21159_riritsu",
+      "reading": "りりつ",
+      "headword": "{利率|りりつ}",
+      "label": "interest rate"
     }
   ]
 }

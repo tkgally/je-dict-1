@@ -15,40 +15,86 @@
   "examples": [
     {
       "id": "11864_ogosoka_ex1",
-      "japanese": "{厳|おごそ}かな{雰囲気|ふんいき}だった。",
+      "japanese": "{厳|おごそ}かな⟦{雰囲気|ふんいき}→雰囲気：03604_funiki⟧だった。",
       "english": "It had a solemn atmosphere.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11864_ogosoka_ex2",
-      "japanese": "{式|しき}は{厳|おごそ}かに{執|と}り{行|おこな}われた。",
+      "japanese": "{式|しき}⟦は→は：00079_ha⟧{厳|おごそ}か⟦に→に：00314_ni⟧⟦{執|と}り{行|おこな}われた→執り行う：19902_toriokonau⟧。",
       "english": "The ceremony was conducted solemnly.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11864_ogosoka_ex3",
-      "japanese": "{神社|じんじゃ}の{鳥居|とりい}をくぐると、{厳|おごそ}かな{空気|くうき}に{包|つつ}まれた。",
+      "japanese": "⟦{神社|じんじゃ}→神社：01620_jinja⟧⟦の→の：09472_no⟧⟦{鳥居|とりい}→鳥居：05956_torii⟧⟦を→を：00422_wo⟧くぐる⟦と→と：00512_to⟧、{厳|おごそ}かな⟦{空気|くうき}→空気：01390_kuuki⟧⟦に→に：00314_ni⟧⟦{包|つつ}まれた→包む：01226_tsutsumu⟧。",
       "english": "Passing through the shrine's torii gate, I was enveloped in a solemn atmosphere.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "Often associated with religious sites, traditional ceremonies, and formal occasions. The adverbial form {厳|おごそ}かに is very common.\n\nCOMMON COLLOCATIONS:\n・{厳|おごそ}かな{雰囲気|ふんいき} — solemn atmosphere\n・{厳|おごそ}かに{執|と}り{行|おこな}う — to conduct solemnly\n・{厳|おごそ}かな{儀式|ぎしき} — solemn ceremony\n・{厳|おごそ}かな{音楽|おんがく} — majestic music\n\nSIMILAR WORDS:\n・{荘厳|そうごん} — sublime, august (more literary)\n・{神聖|しんせい} — sacred, holy (religious nuance)\n・{厳粛|げんしゅく} — solemn, grave (more formal, less sensory)",
-  "cross_references": [],
+  "notes": "Often associated with religious sites, traditional ceremonies, and formal occasions. The adverbial form {厳|おごそ}か⟦に→に：00314_ni⟧ is very common.\n\nCOMMON COLLOCATIONS:\n- {厳|おごそ}かな⟦{雰囲気|ふんいき}→雰囲気：03604_funiki⟧ — solemn atmosphere\n- {厳|おごそ}か⟦に→に：00314_ni⟧⟦{執|と}り{行|おこな}う→執り行う：19902_toriokonau⟧ — to conduct solemnly\n- {厳|おごそ}かな⟦{儀式|ぎしき}→儀式：00071_gishiki⟧ — solemn ceremony\n- {厳|おごそ}かな⟦{音楽|おんがく}→音楽：00661_ongaku⟧ — majestic music\n\nSIMILAR WORDS:\n- ⟦{荘厳|そうごん}→荘厳：14754_sougon⟧ — sublime, august (more literary)\n- ⟦{神聖|しんせい}→神聖：13735_shinsei⟧ — sacred, holy (religious nuance)\n- ⟦{厳粛|げんしゅく}→厳粛：14755_genshuku⟧ — solemn, grave (more formal, less sensory)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14754_sougon",
+      "reading": "そうごん",
+      "headword": "{荘厳|そうごん}",
+      "label": "sublime, august"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13735_shinsei",
+      "reading": "しんせい",
+      "headword": "{神聖|しんせい}",
+      "label": "sacred, holy"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14755_genshuku",
+      "reading": "げんしゅく",
+      "headword": "{厳粛|げんしゅく}",
+      "label": "solemn, grave"
+    },
+    {
+      "type": "related",
+      "target_id": "07871_monomonoshii",
+      "reading": "ものものしい",
+      "headword": "ものものしい",
+      "label": "imposing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30672_keiken",
+      "reading": "けいけん",
+      "headword": "{敬虔|けいけん}",
+      "label": "pious"
+    }
+  ],
   "metadata": {
     "created": "2026-02-18T13:41:58Z",
-    "modified": "2026-02-18T13:41:58Z",
+    "modified": "2026-09-02T04:01:26Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-na"],
+      "pos": [
+        "adjective-na"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["descriptive"]
+      "semantic": [
+        "descriptive"
+      ]
     }
   }
 }

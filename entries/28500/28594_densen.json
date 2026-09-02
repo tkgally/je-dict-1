@@ -3,7 +3,7 @@
   "headword": "{伝線|でんせん}",
   "reading": "でんせん",
   "romaji": "densen",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "run (in stockings or tights)",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28594_densen_ex1",
-      "japanese": "ストッキングが{伝線|でんせん}した。",
+      "japanese": "⟦ストッキング→ストッキング：04682_sutokkingu⟧⟦が→が：00051_ga⟧{伝線|でんせん}⟦した→する：00392_suru⟧。",
       "english": "My stockings got a run.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28594_densen_ex2",
-      "japanese": "{爪|つめ}が{引|ひ}っかかって{伝線|でんせん}してしまった。",
+      "japanese": "⟦{爪|つめ}→爪：02159_tsume⟧⟦が→が：00051_ga⟧⟦{引|ひ}っかかって→引っかかる：12455_hikkakaru⟧{伝線|でんせん}⟦して→する：00392_suru⟧しまった。",
       "english": "My nail caught on them and they ran.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28594_densen_ex3",
-      "japanese": "{出勤|しゅっきん}{途中|とちゅう}でストッキングが{伝線|でんせん}したので、コンビニで{新|あたら}しいのを{買|か}った。",
+      "japanese": "⟦{出勤|しゅっきん}→出勤：04548_shukkin⟧⟦{途中|とちゅう}→途中：01684_tochuu⟧⟦で→で：00502_de⟧⟦ストッキング→ストッキング：04682_sutokkingu⟧⟦が→が：00051_ga⟧{伝線|でんせん}⟦した→する：00392_suru⟧⟦の→の：09472_no⟧で、⟦コンビニ→コンビニ：01081_konbini⟧⟦で→で：00502_de⟧⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦の→の：09472_no⟧⟦を→を：00422_wo⟧⟦{買|か}った→買う：00489_kau⟧。",
       "english": "My stockings got a run on the way to work, so I bought a new pair at a convenience store.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Originally meaning 'transmission line' / 'spreading along a line', here applied to the way a tiny snag in stockings rapidly propagates along a vertical thread. Used as both noun and する verb.\n\nCOMMON COLLOCATIONS:\n- {伝線|でんせん}する: to get a run\n- {伝線|でんせん}{防止|ぼうし}: run-resistant\n- {伝線|でんせん}しにくいストッキング: run-resistant stockings\n\nNOTE ON HOMOPHONES:\nThree common words share the reading でんせん: {伝線|でんせん} (this entry, a run in stockings), {伝染|でんせん} (contagion/transmission of disease), and {電線|でんせん} (electric wire). Context almost always disambiguates them.",
+  "notes": "Originally meaning 'transmission line' / 'spreading along a line', here applied to the way a tiny snag in stockings rapidly propagates along a vertical thread. Used as both noun and ⟦する→する：00392_suru⟧ verb.\n\nCOMMON COLLOCATIONS:\n- {伝線|でんせん}⟦する→する：00392_suru⟧: to get a run\n- {伝線|でんせん}⟦{防止|ぼうし}→防止：14571_boushi⟧: run-resistant\n- {伝線|でんせん}しにくい⟦ストッキング→ストッキング：04682_sutokkingu⟧: run-resistant stockings\n\nNOTE ON HOMOPHONES:\nThree common words share the reading でんせん: {伝線|でんせん} (this entry, a run in stockings), ⟦{伝染|でんせん}→伝染：04549_densen⟧ (contagion/transmission of disease), and ⟦{電線|でんせん}→電線：11507_densen⟧ (electric wire). Context almost always disambiguates them.",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -54,16 +54,17 @@
         "verb-suru"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "clothing",
         "daily-life"
       ],
       "domain": [],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     },
     "created": "2026-06-02T04:07:08Z",
-    "modified": "2026-06-02T04:07:08Z"
+    "modified": "2026-09-02T04:02:34Z"
   },
   "conjugation": {
     "type": "suru",

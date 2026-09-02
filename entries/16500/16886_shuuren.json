@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "16886_shuuren_ex1",
-      "japanese": "{技術|ぎじゅつ}の{習練|しゅうれん}を{積|つ}む。",
+      "japanese": "⟦{技術|ぎじゅつ}→技術：01389_gijutsu⟧⟦の→の：09472_no⟧{習練|しゅうれん}⟦を→を：00422_wo⟧⟦{積|つ}む→積む：02294_tsumu⟧。",
       "english": "To accumulate practice in a skill.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "16886_shuuren_ex2",
-      "japanese": "{長年|ながねん}の{習練|しゅうれん}で{腕|うで}を{磨|みが}いた。",
+      "japanese": "⟦{長年|ながねん}→長年：09684_naganen⟧⟦の→の：09472_no⟧{習練|しゅうれん}⟦で→で：00502_de⟧⟦{腕|うで}→腕：01006_ude⟧⟦を→を：00422_wo⟧⟦{磨|みが}いた→磨く：02427_migaku⟧。",
       "english": "I honed my skills through years of practice.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "16886_shuuren_ex3",
-      "japanese": "{新人|しんじん}は{基本的|きほんてき}な{習練|しゅうれん}を{終|お}えてから{現場|げんば}に{出|で}る。",
+      "japanese": "⟦{新人|しんじん}→新人：02500_shinjin⟧⟦は→は：00079_ha⟧⟦{基本的|きほんてき}→基本的：04787_kihonteki⟧な{習練|しゅうれん}⟦を→を：00422_wo⟧⟦{終|お}えて→終える：02019_oeru⟧⟦から→から：00504_kara⟧⟦{現場|げんば}→現場：02723_genba⟧⟦に→に：00314_ni⟧⟦{出|で}る→出る：00513_deru⟧。",
       "english": "New employees go to the field after completing basic training.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,33 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA formal word emphasizing the learning aspect of practice. The verb form is {習練|しゅうれん}する. More literary than {練習|れんしゅう}.\n\nCOMMON COLLOCATIONS:\n- {習練|しゅうれん}を{積|つ}む (to accumulate training)\n- {習練|しゅうれん}を{重|かさ}ねる (to undergo repeated training)\n\nSIMILAR WORDS:\n- {練習|れんしゅう}: practice — more common and general\n- {修行|しゅぎょう}: ascetic training, apprenticeship — has spiritual or traditional connotations\n- {訓練|くんれん}: training, drill — more structured, often military or professional",
-  "cross_references": [],
+  "notes": "USAGE:\nA formal word emphasizing the learning aspect of practice. The verb form is {習練|しゅうれん}⟦する→する：00392_suru⟧. More literary than ⟦{練習|れんしゅう}→練習：05323_renshuu⟧.\n\nCOMMON COLLOCATIONS:\n- {習練|しゅうれん}⟦を→を：00422_wo⟧⟦{積|つ}む→積む：02294_tsumu⟧ (to accumulate training)\n- {習練|しゅうれん}⟦を→を：00422_wo⟧⟦{重|かさ}ねる→重ねる：02039_kasaneru⟧ (to undergo repeated training)\n\nSIMILAR WORDS:\n- ⟦{練習|れんしゅう}→練習：05323_renshuu⟧: practice — more common and general\n- ⟦{修行|しゅぎょう}→修行：05522_shugyou⟧: ascetic training, apprenticeship — has spiritual or traditional connotations\n- ⟦{訓練|くんれん}→訓練：02673_kunren⟧: training, drill — more structured, often military or professional",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05323_renshuu",
+      "reading": "れんしゅう",
+      "headword": "{練習|れんしゅう}",
+      "label": "practice"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05522_shugyou",
+      "reading": "しゅぎょう",
+      "headword": "{修行|しゅぎょう}",
+      "label": "ascetic training, apprenticeship"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02673_kunren",
+      "reading": "くんれん",
+      "headword": "{訓練|くんれん}",
+      "label": "training, drill"
+    }
+  ],
   "metadata": {
     "created": "2026-03-15T00:18:56Z",
-    "modified": "2026-03-29T03:08:43Z",
+    "modified": "2026-09-02T04:01:46Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

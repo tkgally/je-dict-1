@@ -15,41 +15,60 @@
   "examples": [
     {
       "id": "28763_opera_ex1",
-      "japanese": "{母|はは}はオペラが{大好|だいす}きだ。",
+      "japanese": "⟦{母|はは}→母：00549_haha⟧⟦は→は：00079_ha⟧オペラ⟦が→が：00051_ga⟧⟦{大好|だいす}き→大好き：02911_daisuki⟧だ。",
       "english": "My mother loves opera.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28763_opera_ex2",
-      "japanese": "{昨夜|さくや}、{有名|ゆうめい}なオペラを{観|み}に{行|い}った。",
+      "japanese": "⟦{昨夜|さくや}→昨夜：02999_sakuya⟧、⟦{有名|ゆうめい}→有名：01106_yuumei⟧なオペラ⟦を→を：00422_wo⟧⟦{観|み}→観る：22793_miru⟧⟦に→に：00314_ni⟧⟦{行|い}った→行く：00119_iku⟧。",
       "english": "Last night I went to see a famous opera.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28763_opera_ex3",
-      "japanese": "イタリア{語|ご}のオペラは{字幕|じまく}があった{方|ほう}が{楽|たの}しめる。",
+      "japanese": "⟦イタリア→イタリア：19423_itaria⟧⟦{語|ご}→〜語：09841_go⟧⟦の→の：09472_no⟧オペラ⟦は→は：00079_ha⟧⟦{字幕|じまく}→字幕：04446_jimaku⟧⟦が→が：00051_ga⟧⟦あった→ある：00006_aru⟧⟦{方|ほう}→方：01139_hou⟧⟦が→が：00051_ga⟧⟦{楽|たの}しめる→楽しむ：01203_tanoshimu⟧。",
       "english": "Italian operas are easier to enjoy with subtitles.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "From Italian \"opera.\" The Japanese word covers both individual works and the genre. Often paired with verbs like {観|み}る (to watch) or {聴|き}く (to listen to).\n\nCOMMON COLLOCATIONS:\n- オペラを{観|み}る: to see an opera\n- オペラ{歌手|かしゅ}: opera singer\n- オペラ{座|ざ}: opera house ({パリ}オペラ{座|ざ}: Paris Opera)\n- {本格|ほんかく}オペラ: a full-scale opera production\n\nSIMILAR WORDS:\n- ミュージカル: musical — songs alternate with spoken dialogue; lighter style\n- {歌劇|かげき}: literal Japanese translation \"sung drama\"; mostly used in formal/written contexts and proper names ({宝塚|たからづか}{歌劇団|かげきだん})",
+  "notes": "From Italian \"opera.\" The Japanese word covers both individual works and the genre. Often paired with verbs like ⟦{観|み}る→観る：22793_miru⟧ (to watch) or ⟦{聴|き}く→聴く：30010_kiku⟧ (to listen to).\n\nCOMMON COLLOCATIONS:\n- オペラ⟦を→を：00422_wo⟧⟦{観|み}る→観る：22793_miru⟧: to see an opera\n- オペラ⟦{歌手|かしゅ}→歌手：00197_kashu⟧: opera singer\n- オペラ{座|ざ}: opera house (⟦パリ→パリ：25088_pari⟧オペラ{座|ざ}: Paris Opera)\n- ⟦{本格|ほんかく}→本格：21636_honkaku⟧オペラ: a full-scale opera production\n\nSIMILAR WORDS:\n- ミュージカル: musical — songs alternate with spoken dialogue; lighter style\n- ⟦{歌劇|かげき}→歌劇：13234_kageki⟧: literal Japanese translation \"sung drama\"; mostly used in formal/written contexts and proper names ({宝塚|たからづか}{歌劇団|かげきだん})",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13234_kageki",
+      "reading": "かげき",
+      "headword": "{歌劇|かげき}",
+      "label": "literal Japanese translation \"sung…"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["music"],
+      "politeness": "plain",
+      "semantic": [
+        "music"
+      ],
       "domain": []
     },
     "created": "2026-06-05T02:07:15Z",
-    "modified": "2026-06-05T02:07:15Z"
+    "modified": "2026-09-02T04:02:34Z"
   }
 }

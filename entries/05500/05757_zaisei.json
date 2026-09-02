@@ -29,7 +29,7 @@
     },
     {
       "id": "05757_zaisei_ex2",
-      "japanese": "⟦{国|くに}→国：02204_kuni⟧⟦の→の：09472_no⟧{財政|ざいせい}⟦が→が：00051_ga⟧⟦{悪化|あっか}→悪化：11077_akka⟧している。",
+      "japanese": "⟦{国|くに}→国：02204_kuni⟧⟦の→の：09472_no⟧{財政|ざいせい}⟦が→が：00051_ga⟧⟦{悪化|あっか}→悪化：11077_akka⟧⟦している→する：00392_suru⟧。",
       "english": "The country's finances are deteriorating.",
       "has_audio": false,
       "notes": null,
@@ -78,7 +78,7 @@
       ]
     }
   ],
-  "notes": "COMMON COLLOCATIONS:\n- {財政|ざいせい}⟦{赤字|あかじ}→赤字：04712_akaji⟧: fiscal deficit\n- {財政|ざいせい}⟦{黒字|くろじ}→黒字：04715_kuroji⟧: fiscal surplus\n- {財政|ざいせい}⟦{政策|せいさく}→政策：10070_seisaku⟧: fiscal policy\n- {財政|ざいせい}⟦{改革|かいかく}→改革：04815_kaikaku⟧: fiscal reform\n- {財政|ざいせい}{難|なん}: financial difficulties\n- {財政|ざいせい}{健全化|けんぜんか}: fiscal consolidation\n\nRELATED TERMS:\n- ⟦{予算|よさん}→予算：03663_yosan⟧: budget\n- ⟦{国債|こくさい}→国債：12016_kokusai⟧: government bond\n- ⟦{歳入|さいにゅう}→歳入：08769_sainyuu⟧: annual revenue\n- ⟦{歳出|さいしゅつ}→歳出：08770_saishutsu⟧: annual expenditure",
+  "notes": "COMMON COLLOCATIONS:\n- {財政|ざいせい}⟦{赤字|あかじ}→赤字：04712_akaji⟧: fiscal deficit\n- {財政|ざいせい}⟦{黒字|くろじ}→黒字：04715_kuroji⟧: fiscal surplus\n- {財政|ざいせい}⟦{政策|せいさく}→政策：10070_seisaku⟧: fiscal policy\n- {財政|ざいせい}⟦{改革|かいかく}→改革：04815_kaikaku⟧: fiscal reform\n- {財政|ざいせい}{難|なん}: financial difficulties\n- {財政|ざいせい}{健全化|けんぜんか}: fiscal consolidation\n\nRELATED WORDS:\n- ⟦{予算|よさん}→予算：03663_yosan⟧: budget\n- ⟦{国債|こくさい}→国債：12016_kokusai⟧: government bond\n- ⟦{歳入|さいにゅう}→歳入：08769_sainyuu⟧: annual revenue\n- ⟦{歳出|さいしゅつ}→歳出：08770_saishutsu⟧: annual expenditure",
   "cross_references": [
     {
       "type": "related",
@@ -86,11 +86,46 @@
       "reading": "よさん",
       "headword": "{予算|よさん}",
       "label": "budget"
+    },
+    {
+      "type": "related",
+      "target_id": "12016_kokusai",
+      "reading": "こくさい",
+      "headword": "{国債|こくさい}",
+      "label": "government bond"
+    },
+    {
+      "type": "related",
+      "target_id": "08769_sainyuu",
+      "reading": "さいにゅう",
+      "headword": "{歳入|さいにゅう}",
+      "label": "annual revenue"
+    },
+    {
+      "type": "related",
+      "target_id": "08770_saishutsu",
+      "reading": "さいしゅつ",
+      "headword": "{歳出|さいしゅつ}",
+      "label": "annual expenditure"
+    },
+    {
+      "type": "related",
+      "target_id": "15006_kokko",
+      "reading": "こっこ",
+      "headword": "{国庫|こっこ}",
+      "label": "national treasury"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28854_zeisei",
+      "reading": "ぜいせい",
+      "headword": "{税制|ぜいせい}",
+      "label": "tax system"
     }
   ],
   "metadata": {
     "created": "2026-01-16T09:44:57Z",
-    "modified": "2026-04-16T03:08:33Z",
+    "modified": "2026-09-02T04:01:07Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

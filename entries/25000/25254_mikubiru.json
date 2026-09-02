@@ -3,7 +3,7 @@
   "headword": "{見|み}くびる",
   "reading": "みくびる",
   "romaji": "mikubiru",
-  "part_of_speech": "verb (godan), transitive",
+  "part_of_speech": "verb (godan, transitive)",
   "gloss": "to underestimate; to look down on; to make light of",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25254_mikubiru_ex1",
-      "japanese": "{相手|あいて}を{見|み}くびるな。",
+      "japanese": "⟦{相手|あいて}→相手：01677_aite⟧⟦を→を：00422_wo⟧{見|み}くびるな。",
       "english": "Don't underestimate your opponent.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25254_mikubiru_ex2",
-      "japanese": "{彼|かれ}の{実力|じつりょく}を{見|み}くびっていた。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧⟦{実力|じつりょく}→実力：03277_jitsuryoku⟧⟦を→を：00422_wo⟧{見|み}くびって⟦いた→いる：00495_iru⟧。",
       "english": "I had underestimated his ability.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25254_mikubiru_ex3",
-      "japanese": "この{問題|もんだい}を{見|み}くびると{大変|たいへん}なことになる。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{問題|もんだい}→問題：00797_mondai⟧⟦を→を：00422_wo⟧{見|み}くびる⟦と→と：00512_to⟧⟦{大変|たいへん}→大変：00594_taihen⟧なこと⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧。",
       "english": "If you underestimate this problem, it will turn into a serious matter.",
       "sense_numbers": [
         1
@@ -45,7 +45,7 @@
     },
     {
       "id": "25254_mikubiru_ex4",
-      "japanese": "{私|わたし}を{見|み}くびらないでほしい。",
+      "japanese": "⟦{私|わたし}→私：02988_watashi⟧⟦を→を：00422_wo⟧{見|み}くびらないでほしい。",
       "english": "I don't want you to look down on me.",
       "sense_numbers": [
         1
@@ -54,14 +54,38 @@
       "notes": null
     }
   ],
-  "notes": "A godan verb meaning to underestimate or belittle someone. Carries a stronger emotional charge than {甘|あま}く{見|み}る, implying contempt or dismissiveness toward the other person's capabilities.\n\nCOMMON COLLOCATIONS:\n- {相手|あいて}を{見|み}くびる: to underestimate one's opponent\n- {実力|じつりょく}を{見|み}くびる: to underestimate someone's ability\n- {見|み}くびってはいけない: must not underestimate\n- {見|み}くびられる: to be looked down on\n\nSIMILAR WORDS:\n- {甘|あま}く{見|み}る: to take lightly or underestimate; less confrontational and more commonly used in everyday speech\n- {侮|あなど}る: to despise or hold in contempt; more literary and carries a stronger sense of scorn\n- {舐|な}める: (colloquial) to look down on or not take seriously; slangy and blunt\n\nETYMOLOGY:\nFrom {見|み} (looking) + くびる (an archaic verb meaning to count or reckon low), literally meaning to regard as being of low value.",
+  "notes": "A godan verb meaning to underestimate or belittle someone. Carries a stronger emotional charge than ⟦{甘|あま}く{見|み}る→甘く見る：15637_amakumiru⟧, implying contempt or dismissiveness toward the other person's capabilities.\n\nCOMMON COLLOCATIONS:\n- ⟦{相手|あいて}→相手：01677_aite⟧⟦を→を：00422_wo⟧{見|み}くびる: to underestimate one's opponent\n- ⟦{実力|じつりょく}→実力：03277_jitsuryoku⟧⟦を→を：00422_wo⟧{見|み}くびる: to underestimate someone's ability\n- {見|み}くびって⟦は→は：00079_ha⟧いけない: must not underestimate\n- {見|み}くびられる: to be looked down on\n\nSIMILAR WORDS:\n- ⟦{甘|あま}く{見|み}る→甘く見る：15637_amakumiru⟧: to take lightly or underestimate; less confrontational and more commonly used in everyday speech\n- ⟦{侮|あなど}る→侮る：10884_anadoru⟧: to despise or hold in contempt; more literary and carries a stronger sense of scorn\n- ⟦{舐|な}める→舐める：04399_nameru⟧: (colloquial) to look down on or not take seriously; slangy and blunt\n\nETYMOLOGY:\nFrom ⟦{見|み}→見る：00283_miru⟧ (looking) + くびる (an archaic verb meaning to count or reckon low), literally meaning to regard as being of low value.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15637_amakumiru",
+      "reading": "あまくみる",
+      "headword": "{甘|あま}く{見|み}る",
+      "label": "to take lightly or underestimate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10884_anadoru",
+      "reading": "あなどる",
+      "headword": "{侮|あなど}る",
+      "label": "to despise or hold in contempt"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04399_nameru",
+      "reading": "なめる",
+      "headword": "{舐|な}める",
+      "label": "(colloquial) to look down on or not…"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "verb-godan"
       ],
+      "politeness": "plain",
       "semantic": [
         "evaluation",
         "communication"
@@ -70,7 +94,7 @@
       "verb_class": "godan-ru"
     },
     "created": "2026-04-24T12:13:04Z",
-    "modified": "2026-04-24T12:13:04Z"
+    "modified": "2026-09-02T04:02:21Z"
   },
   "conjugation": {
     "type": "godan",

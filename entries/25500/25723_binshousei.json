@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25723_binshousei_ex1",
-      "japanese": "{敏捷性|びんしょうせい}を{鍛|きた}えるトレーニングをする。",
+      "japanese": "{敏捷性|びんしょうせい}⟦を→を：00422_wo⟧⟦{鍛|きた}える→鍛える：12326_kitaeru⟧⟦トレーニング→トレーニング：00408_toreeningu⟧⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧。",
       "english": "To do training that develops agility.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25723_binshousei_ex2",
-      "japanese": "このスポーツには{高|たか}い{敏捷性|びんしょうせい}が{求|もと}められる。",
+      "japanese": "⟦この→この：00962_kono⟧⟦スポーツ→スポーツ：04740_supootsu⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{高|たか}い→高い：00500_takai⟧{敏捷性|びんしょうせい}⟦が→が：00051_ga⟧⟦{求|もと}められる→求める：02316_motomeru⟧。",
       "english": "This sport requires a high level of agility.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25723_binshousei_ex3",
-      "japanese": "{小|ちい}さな{会社|かいしゃ}の{強|つよ}みは{意思|いし}{決定|けってい}の{敏捷性|びんしょうせい}にある。",
+      "japanese": "⟦{小|ちい}さな→小さな：02913_chiisana⟧⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦の→の：09472_no⟧⟦{強|つよ}み→強み：12499_tsuyomi⟧⟦は→は：00079_ha⟧⟦{意思|いし}{決定|けってい}→意思決定：26876_ishikettei⟧⟦の→の：09472_no⟧{敏捷性|びんしょうせい}⟦に→に：00314_ni⟧⟦ある→ある：00006_aru⟧。",
       "english": "The strength of a small company lies in the agility of its decision-making.",
       "sense_numbers": [
         1
@@ -44,8 +44,16 @@
       "notes": null
     }
   ],
-  "notes": "{敏捷|びんしょう} (nimble, agile) + {性|せい} (nature, quality). Used in sports, fitness, and business contexts. In sports science, it refers to the physical capacity for quick directional changes. In business, it describes organizational responsiveness.\n\nCOMMON COLLOCATIONS:\n- {敏捷性|びんしょうせい}を{高|たか}める — improve agility\n- {敏捷性|びんしょうせい}を{鍛|きた}える — train agility\n- {敏捷性|びんしょうせい}テスト — agility test\n- {敏捷性|びんしょうせい}に{優|すぐ}れる — excel in agility\n\nSIMILAR WORDS:\n- {俊敏|しゅんびん}さ — swiftness; nimbleness — similar meaning, slightly more literary\n- {素早|すばや}さ — quickness; speed — more everyday and colloquial\n- {機敏|きびん}さ — alertness; quick-wittedness — emphasizes mental sharpness",
-  "cross_references": [],
+  "notes": "⟦{敏捷|びんしょう}→敏捷：21167_binshou⟧ (nimble, agile) + ⟦{性|せい}→性：09880_sei⟧ (nature, quality). Used in sports, fitness, and business contexts. In sports science, it refers to the physical capacity for quick directional changes. In business, it describes organizational responsiveness.\n\nCOMMON COLLOCATIONS:\n- {敏捷性|びんしょうせい}⟦を→を：00422_wo⟧⟦{高|たか}める→高める：02065_takameru⟧ — improve agility\n- {敏捷性|びんしょうせい}⟦を→を：00422_wo⟧⟦{鍛|きた}える→鍛える：12326_kitaeru⟧ — train agility\n- {敏捷性|びんしょうせい}⟦テスト→テスト：01065_tesuto⟧ — agility test\n- {敏捷性|びんしょうせい}⟦に→に：00314_ni⟧⟦{優|すぐ}れる→優れる：02119_sugureru⟧ — excel in agility\n\nSIMILAR WORDS:\n- ⟦{俊敏|しゅんびん}→俊敏：09194_shunbin⟧さ — swiftness; nimbleness — similar meaning, slightly more literary\n- {素早|すばや}さ — quickness; speed — more everyday and colloquial\n- ⟦{機敏|きびん}→機敏：09191_kibin⟧さ — alertness; quick-wittedness — emphasizes mental sharpness",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "23307_hanpukuyokotobi",
+      "reading": "はんぷくよことび",
+      "headword": "{反復横跳|はんぷくよことび}び",
+      "label": "side-to-side jumping (fitness test)"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,11 +61,12 @@
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "sports"
       ]
     },
     "created": "2026-04-26T16:36:17Z",
-    "modified": "2026-08-04T21:23:34Z"
+    "modified": "2026-09-02T04:02:23Z"
   }
 }

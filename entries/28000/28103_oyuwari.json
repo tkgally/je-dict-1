@@ -15,41 +15,67 @@
   "examples": [
     {
       "id": "28103_oyuwari_ex1",
-      "japanese": "{焼酎|しょうちゅう}のお{湯|ゆ}{割|わ}りを{注文|ちゅうもん}した。",
+      "japanese": "⟦{焼酎|しょうちゅう}→焼酎：19874_shouchuu⟧⟦の→の：09472_no⟧お{湯|ゆ}{割|わ}り⟦を→を：00422_wo⟧⟦{注文|ちゅうもん}した→注文する：21390_chuumon⟧。",
       "english": "I ordered shochu with hot water.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28103_oyuwari_ex2",
-      "japanese": "{寒|さむ}い{夜|よる}はお{湯|ゆ}{割|わ}りが{体|からだ}を{温|あたた}める。",
+      "japanese": "⟦{寒|さむ}い→寒い：00664_samui⟧⟦{夜|よる}→夜：00487_yoru⟧⟦は→は：00079_ha⟧お{湯|ゆ}{割|わ}り⟦が→が：00051_ga⟧⟦{体|からだ}→体：00784_karada⟧⟦を→を：00422_wo⟧⟦{温|あたた}める→温める：02096_atatameru⟧。",
       "english": "On a cold night, a hot-water mix warms the body.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28103_oyuwari_ex3",
-      "japanese": "この{焼酎|しょうちゅう}はお{湯|ゆ}{割|わ}りにすると{香|かお}りが{引|ひ}き{立|た}つ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{焼酎|しょうちゅう}→焼酎：19874_shouchuu⟧⟦は→は：00079_ha⟧お{湯|ゆ}{割|わ}り⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧⟦と→と：00512_to⟧⟦{香|かお}り→香り：00189_kaori⟧⟦が→が：00051_ga⟧⟦{引|ひ}き{立|た}つ→引き立つ：25243_hikitatsu⟧。",
       "english": "This shochu's aroma comes out beautifully when mixed with hot water.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A drink — most often {焼酎|しょうちゅう} (shochu) — diluted with hot water, popular in colder months. Formed from お{湯|ゆ} (hot water) + {割|わ}り (dilution).\n\nCOMMON COLLOCATIONS:\n- {焼酎|しょうちゅう}のお{湯|ゆ}{割|わ}り: shochu with hot water\n- お{湯|ゆ}{割|わ}りにする: to mix with hot water\n\nSIMILAR WORDS:\n- {水割|みずわ}り: a drink diluted with cold water and ice\n- ロック: on the rocks (over ice, undiluted)",
+  "notes": "A drink — most often ⟦{焼酎|しょうちゅう}→焼酎：19874_shouchuu⟧ (shochu) — diluted with hot water, popular in colder months. Formed from ⟦お{湯|ゆ}→お湯：02518_oyu⟧ (hot water) + {割|わ}り (dilution).\n\nCOMMON COLLOCATIONS:\n- ⟦{焼酎|しょうちゅう}→焼酎：19874_shouchuu⟧⟦の→の：09472_no⟧お{湯|ゆ}{割|わ}り: shochu with hot water\n- お{湯|ゆ}{割|わ}り⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧: to mix with hot water\n\nSIMILAR WORDS:\n- ⟦{水割|みずわ}り→水割り：16023_mizuwari⟧: a drink diluted with cold water and ice\n- ⟦ロック→ロック：08116_rokku⟧: on the rocks (over ice, undiluted)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16023_mizuwari",
+      "reading": "みずわり",
+      "headword": "{水割|みずわ}り",
+      "label": "a drink diluted with cold water and ice"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08116_rokku",
+      "reading": "ろっく",
+      "headword": "ロック",
+      "label": "on the rocks"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food"],
+      "semantic": [
+        "food"
+      ],
       "domain": []
     },
     "created": "2026-05-25T04:08:01Z",
-    "modified": "2026-05-25T04:08:01Z"
+    "modified": "2026-09-02T04:02:32Z"
   }
 }

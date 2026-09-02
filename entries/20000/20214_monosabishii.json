@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "20214_monosabishii_ex1",
-      "japanese": "{秋|あき}の{夕暮|ゆうぐ}れは{物寂|ものさび}しい。",
+      "japanese": "⟦{秋|あき}→秋：02276_aki⟧⟦の→の：09472_no⟧⟦{夕暮|ゆうぐ}れ→夕暮れ：07682_yuugure⟧⟦は→は：00079_ha⟧{物寂|ものさび}しい。",
       "english": "Autumn evenings feel lonely.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "20214_monosabishii_ex2",
-      "japanese": "{人通|ひとどお}りのない{商店街|しょうてんがい}が{物寂|ものさび}しかった。",
+      "japanese": "{人通|ひとどお}り⟦の→の：09472_no⟧⟦ない→ない：01118_nai⟧⟦{商店街|しょうてんがい}→商店街：09391_shoutengai⟧⟦が→が：00051_ga⟧{物寂|ものさび}しかった。",
       "english": "The deserted shopping street felt desolate.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "20214_monosabishii_ex3",
-      "japanese": "{子|こ}どもたちが{巣立|すだ}った{後|あと}の{家|いえ}は、どこか{物寂|ものさび}しい{雰囲気|ふんいき}が{漂|ただよ}っていた。",
+      "japanese": "{子|こ}どもたち⟦が→が：00051_ga⟧⟦{巣立|すだ}った→巣立つ：27798_sudatsu⟧⟦{後|あと}→後：09580_ato⟧⟦の→の：09472_no⟧⟦{家|いえ}→家：00612_ie⟧⟦は→は：00079_ha⟧、⟦どこか→どこか：02361_dokoka⟧{物寂|ものさび}しい⟦{雰囲気|ふんいき}→雰囲気：03604_funiki⟧⟦が→が：00051_ga⟧⟦{漂|ただよ}っていた→漂う：04356_tadayou⟧。",
       "english": "After the children left home, a forlorn atmosphere lingered in the house.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {物|もの} (a prefix adding a vague, indefinite quality) + {寂|さび}しい (lonely). The {物|もの} prefix softens and deepens the loneliness, giving it a more atmospheric, poetic quality — not sharp personal loneliness, but a quiet melancholy felt in one's surroundings.\n\nCOMMON COLLOCATIONS:\n- {物寂|ものさび}しい{雰囲気|ふんいき}: a desolate atmosphere\n- {物寂|ものさび}しい{風景|ふうけい}: a lonely landscape\n- {物寂|ものさび}しい{気持|きも}ち: a forlorn feeling\n- どこか{物寂|ものさび}しい: somehow lonely\n\nSIMILAR WORDS:\n- {寂|さび}しい: lonely — the base word, more direct and personal\n- {侘|わび}しい: wretched, forlorn — implies poverty or wretchedness alongside loneliness\n- {物悲|ものがな}しい: melancholy, sorrowful — similar {物|もの}-prefix pattern, but sadness rather than loneliness",
+  "notes": "Composed of ⟦{物|もの}→物：02259_mono⟧ (a prefix adding a vague, indefinite quality) + ⟦{寂|さび}しい→寂しい：00880_sabishii⟧ (lonely). The ⟦{物|もの}→物：02259_mono⟧ prefix softens and deepens the loneliness, giving it a more atmospheric, poetic quality — not sharp personal loneliness, but a quiet melancholy felt in one's surroundings.\n\nCOMMON COLLOCATIONS:\n- {物寂|ものさび}しい⟦{雰囲気|ふんいき}→雰囲気：03604_funiki⟧: a desolate atmosphere\n- {物寂|ものさび}しい⟦{風景|ふうけい}→風景：03591_fuukei⟧: a lonely landscape\n- {物寂|ものさび}しい{気持|きも}ち: a forlorn feeling\n- ⟦どこか→どこか：02361_dokoka⟧{物寂|ものさび}しい: somehow lonely\n\nSIMILAR WORDS:\n- ⟦{寂|さび}しい→寂しい：00880_sabishii⟧: lonely — the base word, more direct and personal\n- ⟦{侘|わび}しい→侘しい：08183_wabishii⟧: wretched, forlorn — implies poverty or wretchedness alongside loneliness\n- ⟦{物悲|ものがな}しい→物悲しい：07844_monoganashii⟧: melancholy, sorrowful — similar ⟦{物|もの}→物：02259_mono⟧-prefix pattern, but sadness rather than loneliness",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08183_wabishii",
+      "reading": "わびしい",
+      "headword": "{侘|わび}しい",
+      "label": "wretched, forlorn"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07844_monoganashii",
+      "reading": "ものがなしい",
+      "headword": "{物悲|ものがな}しい",
+      "label": "melancholy, sorrowful"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18990_monokanashii",
+      "reading": "ものかなしい",
+      "headword": "{物悲|ものかな}しい",
+      "label": "melancholy"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,7 +82,7 @@
       ]
     },
     "created": "2026-03-28T17:11:36Z",
-    "modified": "2026-03-28T17:11:36Z"
+    "modified": "2026-09-02T04:01:58Z"
   },
   "conjugation": {
     "type": "i-adjective",

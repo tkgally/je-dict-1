@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "{先日|せんじつ} is a polite way to refer to a recent day.\n\nCOMMON EXPRESSIONS:\n- {先日|せんじつ}⟦は→は：00079_ha⟧⟦ありがとうございました→ありがとうございます：09886_arigatougozaimasu⟧ (Thank you for the other day)\n- {先日|せんじつ}⟦は→は：00079_ha⟧⟦{失礼|しつれい}しました→失礼：01247_shitsurei⟧ (Sorry about the other day)\n- {先日|せんじつ}⟦お{話|はな}しした→話す：00467_hanasu⟧... (As I mentioned the other day...)\n\nCOMPARISON:\n- {先日|せんじつ}: the other day (polite/formal)\n- ⟦この{間|あいだ}→この間：01257_konoaida⟧/⟦この{前|まえ}→この前：25259_konomae⟧: the other day (casual)\n- ⟦{数日|すうじつ}→数日：20517_suujitsu⟧⟦{前|まえ}→前：02255_mae⟧: a few days ago (neutral)",
+  "notes": "{先日|せんじつ} is a polite way to refer to a recent day.\n\nCOMMON EXPRESSIONS:\n- {先日|せんじつ}⟦は→は：00079_ha⟧⟦ありがとうございました→ありがとうございます：09886_arigatougozaimasu⟧ (Thank you for the other day)\n- {先日|せんじつ}⟦は→は：00079_ha⟧⟦{失礼|しつれい}しました→失礼：01247_shitsurei⟧ (Sorry about the other day)\n- {先日|せんじつ}⟦お{話|はな}しした→話す：00467_hanasu⟧... (As I mentioned the other day...)\n\nSIMILAR WORDS:\n- {先日|せんじつ}: the other day (polite/formal)\n- ⟦この{間|あいだ}→この間：01257_konoaida⟧/⟦この{前|まえ}→この前：25259_konomae⟧: the other day (casual)\n- ⟦{数日|すうじつ}→数日：20517_suujitsu⟧⟦{前|まえ}→前：02255_mae⟧: a few days ago (neutral)",
   "cross_references": [
     {
       "type": "contrast",
@@ -71,11 +71,39 @@
       "headword": "この{間|あいだ}",
       "label": "the other day (casual)",
       "target_id": "01257_konoaida"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25259_konomae",
+      "reading": "このまえ",
+      "headword": "この{前|まえ}",
+      "label": "the other day"
+    },
+    {
+      "type": "related",
+      "target_id": "00751_sengetsu",
+      "reading": "せんげつ",
+      "headword": "{先月|せんげつ}",
+      "label": "last month"
+    },
+    {
+      "type": "related",
+      "target_id": "00752_senshuu",
+      "reading": "せんしゅう",
+      "headword": "{先週|せんしゅう}",
+      "label": "last week"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21887_sakidatte",
+      "reading": "さきだって",
+      "headword": "{先立|さきだ}って",
+      "label": "prior to"
     }
   ],
   "metadata": {
     "created": "2026-01-12T01:12:35Z",
-    "modified": "2026-05-24T21:17:06Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "schema_version": "2.0",
     "vocabulary_tier": "core",

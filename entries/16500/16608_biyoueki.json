@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "16608_biyoueki_ex1",
-      "japanese": "{美容液|びようえき}を{毎日|まいにち}{使|つか}っている。",
+      "japanese": "{美容液|びようえき}⟦を→を：00422_wo⟧⟦{毎日|まいにち}→毎日：00729_mainichi⟧⟦{使|つか}っている→使う：00473_tsukau⟧。",
       "english": "I use serum every day.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "16608_biyoueki_ex2",
-      "japanese": "この{美容液|びようえき}は{保湿|ほしつ}{効果|こうか}が{高|たか}い。",
+      "japanese": "⟦この→この：00962_kono⟧{美容液|びようえき}⟦は→は：00079_ha⟧⟦{保湿|ほしつ}→保湿：11617_hoshitsu⟧⟦{効果|こうか}→効果：02726_kouka⟧⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧。",
       "english": "This serum has a high moisturizing effect.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "16608_biyoueki_ex3",
-      "japanese": "{化粧水|けしょうすい}の{後|あと}に{美容液|びようえき}を{塗|ぬ}ってから{乳液|にゅうえき}をつける。",
+      "japanese": "⟦{化粧水|けしょうすい}→化粧水：15802_keshousui⟧⟦の→の：09472_no⟧⟦{後|あと}→後：09580_ato⟧⟦に→に：00314_ni⟧{美容液|びようえき}⟦を→を：00422_wo⟧⟦{塗|ぬ}って→塗る：01174_nuru⟧⟦から→から：00504_kara⟧⟦{乳液|にゅうえき}→乳液：16091_nyuueki⟧⟦を→を：00422_wo⟧⟦つける→つける：00562_tsukeru⟧。",
       "english": "After toner, apply serum and then lotion.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,26 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA key product in Japanese skincare routines. Japan has a detailed multi-step skincare culture, and {美容液|びようえき} occupies a specific place in the routine between toner ({化粧水|けしょうすい}) and moisturizer ({乳液|にゅうえき}).\n\nCOMMON COLLOCATIONS:\n- {美容液|びようえき}を{塗|ぬ}る (to apply serum)\n- {美白|びはく}{美容液|びようえき} (whitening serum)\n- {保湿|ほしつ}{美容液|びようえき} (moisturizing serum)\n- {美容液|びようえき}{成分|せいぶん} (serum ingredients)",
-  "cross_references": [],
+  "notes": "USAGE:\nA key product in Japanese skincare routines. Japan has a detailed multi-step skincare culture, and {美容液|びようえき} occupies a specific place in the routine between toner (⟦{化粧水|けしょうすい}→化粧水：15802_keshousui⟧) and moisturizer (⟦{乳液|にゅうえき}→乳液：16091_nyuueki⟧).\n\nCOMMON COLLOCATIONS:\n- {美容液|びようえき}⟦を→を：00422_wo⟧⟦{塗|ぬ}る→塗る：01174_nuru⟧ (to apply serum)\n- ⟦{美白|びはく}→美白：16979_bihaku⟧{美容液|びようえき} (whitening serum)\n- ⟦{保湿|ほしつ}→保湿：11617_hoshitsu⟧{美容液|びようえき} (moisturizing serum)\n- {美容液|びようえき}⟦{成分|せいぶん}→成分：04344_seibun⟧ (serum ingredients)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "15802_keshousui",
+      "reading": "けしょうすい",
+      "headword": "{化粧水|けしょうすい}",
+      "label": "face lotion"
+    },
+    {
+      "type": "related",
+      "target_id": "19050_senganryou",
+      "reading": "せんがんりょう",
+      "headword": "{洗顔料|せんがんりょう}",
+      "label": "facial cleanser"
+    }
+  ],
   "metadata": {
     "created": "2026-03-14T01:36:58Z",
-    "modified": "2026-07-20T00:31:17Z",
+    "modified": "2026-09-02T04:01:45Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

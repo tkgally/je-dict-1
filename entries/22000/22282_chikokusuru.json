@@ -3,7 +3,7 @@
   "headword": "{遅刻|ちこく}する",
   "reading": "ちこくする",
   "romaji": "chikokusuru",
-  "part_of_speech": "verb-suru",
+  "part_of_speech": "suru verb",
   "gloss": "to be late; to arrive late; to be tardy",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22282_chikokusuru_ex1",
-      "japanese": "また{遅刻|ちこく}した。",
+      "japanese": "⟦また→また：00969_mata⟧{遅刻|ちこく}した。",
       "english": "I was late again.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22282_chikokusuru_ex2",
-      "japanese": "{授業|じゅぎょう}に{遅刻|ちこく}しないでください。",
+      "japanese": "⟦{授業|じゅぎょう}→授業：00781_jugyou⟧⟦に→に：00314_ni⟧{遅刻|ちこく}しないで⟦ください→ください：02899_kudasai⟧。",
       "english": "Please don't be late for class.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22282_chikokusuru_ex3",
-      "japanese": "{電車|でんしゃ}が{遅|おく}れたせいで{会議|かいぎ}に{遅刻|ちこく}してしまった。",
+      "japanese": "⟦{電車|でんしゃ}→電車：00522_densha⟧⟦が→が：00051_ga⟧⟦{遅|おく}れた→遅れる：00741_okureru⟧せい⟦で→で：00502_de⟧⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦に→に：00314_ni⟧{遅刻|ちこく}してしまった。",
       "english": "I ended up being late to the meeting because the train was delayed.",
       "sense_numbers": [
         1
@@ -45,7 +45,7 @@
     },
     {
       "id": "22282_chikokusuru_ex4",
-      "japanese": "{彼|かれ}はいつも{遅刻|ちこく}する。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦いつも→いつも：00599_itsumo⟧{遅刻|ちこく}する。",
       "english": "He is always late.",
       "sense_numbers": [
         1
@@ -54,8 +54,24 @@
       "notes": null
     }
   ],
-  "notes": "Refers specifically to arriving after a set start time, most commonly for school, work, or formal appointments. In Japanese society, punctuality is highly valued, and {遅刻|ちこく} carries a stronger sense of social fault than the English word \"late.\"\n\nCOMMON COLLOCATIONS:\n- {学校|がっこう}に{遅刻|ちこく}する: to be late for school\n- {会社|かいしゃ}に{遅刻|ちこく}する: to be late for work\n- {遅刻|ちこく}{届|とど}け: late arrival notice\n- {遅刻|ちこく}{常習|じょうしゅう}: habitual lateness\n- {遅刻|ちこく}ぎりぎり: barely on time / cutting it close\n\nSIMILAR WORDS:\n- {遅|おく}れる: to be late — more general; can describe delays of any kind, not just arriving late to a scheduled event\n- {間|ま}に{合|あ}わない: to not make it in time — focuses on missing a deadline rather than arriving late to a place",
+  "notes": "Refers specifically to arriving after a set start time, most commonly for school, work, or formal appointments. In Japanese society, punctuality is highly valued, and ⟦{遅刻|ちこく}→遅刻：03465_chikoku⟧ carries a stronger sense of social fault than the English word \"late.\"\n\nCOMMON COLLOCATIONS:\n- ⟦{学校|がっこう}→学校：00055_gakkou⟧⟦に→に：00314_ni⟧{遅刻|ちこく}する: to be late for school\n- ⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦に→に：00314_ni⟧{遅刻|ちこく}する: to be late for work\n- ⟦{遅刻|ちこく}→遅刻：03465_chikoku⟧⟦{届|とど}け→届ける：01248_todokeru⟧: late arrival notice\n- ⟦{遅刻|ちこく}→遅刻：03465_chikoku⟧⟦{常習|じょうしゅう}→常習：28124_joushuu⟧: habitual lateness\n- ⟦{遅刻|ちこく}→遅刻：03465_chikoku⟧⟦ぎりぎり→ぎりぎり：05166_girigiri⟧: barely on time / cutting it close\n\nSIMILAR WORDS:\n- ⟦{遅|おく}れる→遅れる：00741_okureru⟧: to be late — more general; can describe delays of any kind, not just arriving late to a scheduled event\n- ⟦{間|ま}に{合|あ}わない→間に合う：01142_maniau⟧: to not make it in time — focuses on missing a deadline rather than arriving late to a place",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00741_okureru",
+      "reading": "おくれる",
+      "headword": "{遅|おく}れる",
+      "label": "to be late"
+    },
+    {
+      "type": "antonym",
+      "target_id": "22434_soutaisuru",
+      "reading": "そうたいする",
+      "headword": "{早退|そうたい}する",
+      "label": "to leave early (from work or school)"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -68,10 +84,11 @@
         "time-general",
         "daily-life"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     },
     "created": "2026-04-05T17:03:27Z",
-    "modified": "2026-07-30T03:35:34Z"
+    "modified": "2026-09-02T04:02:07Z"
   },
   "conjugation": {
     "type": "suru",

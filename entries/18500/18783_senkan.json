@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "18783_senkan_ex1",
-      "japanese": "{戦艦|せんかん}{大和|やまと}は{有名|ゆうめい}だ。",
+      "japanese": "{戦艦|せんかん}⟦{大和|やまと}→大和：12261_yamato⟧⟦は→は：00079_ha⟧⟦{有名|ゆうめい}→有名：01106_yuumei⟧だ。",
       "english": "The battleship Yamato is famous.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "18783_senkan_ex2",
-      "japanese": "{博物館|はくぶつかん}に{戦艦|せんかん}の{模型|もけい}が{展示|てんじ}されている。",
+      "japanese": "⟦{博物館|はくぶつかん}→博物館：01494_hakubutsukan⟧⟦に→に：00314_ni⟧{戦艦|せんかん}⟦の→の：09472_no⟧⟦{模型|もけい}→模型：07079_mokei⟧⟦が→が：00051_ga⟧⟦{展示|てんじ}→展示：12401_tenji⟧⟦されている→する：00392_suru⟧。",
       "english": "A model of a battleship is on display at the museum.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "18783_senkan_ex3",
-      "japanese": "{第二次世界大戦|だいにじせかいたいせん}を{最後|さいご}に、{戦艦|せんかん}は{海軍|かいぐん}の{主力|しゅりょく}としての{役割|やくわり}を{終|お}えた。",
+      "japanese": "{第二次世界大戦|だいにじせかいたいせん}⟦を→を：00422_wo⟧⟦{最後|さいご}→最後：01413_saigo⟧⟦に→に：00314_ni⟧、{戦艦|せんかん}⟦は→は：00079_ha⟧⟦{海軍|かいぐん}→海軍：13289_kaigun⟧⟦の→の：09472_no⟧⟦{主力|しゅりょく}→主力：11480_shuryoku⟧⟦として→として：06802_toshite⟧⟦の→の：09472_no⟧⟦{役割|やくわり}→役割：03638_yakuwari⟧⟦を→を：00422_wo⟧⟦{終|お}えた→終える：02019_oeru⟧。",
       "english": "After World War II, battleships ended their role as the mainstay of naval forces.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "In strict naval terminology, {戦艦|せんかん} refers specifically to battleships (heavily armored capital ships), not warships in general. However, in casual usage and fiction, it is sometimes used loosely for any large warship. The anime \"Space Battleship Yamato\" ({宇宙戦艦|うちゅうせんかん}ヤマト) is a cultural touchstone that keeps the word familiar. Related: {軍艦|ぐんかん} (warship — general term for any military vessel), {空母|くうぼ} (aircraft carrier), {駆逐艦|くちくかん} (destroyer), {巡洋艦|じゅんようかん} (cruiser).",
+  "notes": "In strict naval terminology, {戦艦|せんかん} refers specifically to battleships (heavily armored capital ships), not warships in general. However, in casual usage and fiction, it is sometimes used loosely for any large warship. The anime \"Space Battleship Yamato\" ({宇宙戦艦|うちゅうせんかん}ヤマト) is a cultural touchstone that keeps the word familiar. Related: ⟦{軍艦|ぐんかん}→軍艦：14393_gunkan⟧ (warship — general term for any military vessel), ⟦{空母|くうぼ}→空母：15702_kuubo⟧ (aircraft carrier), ⟦{駆逐艦|くちくかん}→駆逐艦：23389_kuchikukan⟧ (destroyer), ⟦{巡洋艦|じゅんようかん}→巡洋艦：26766_junyoukan⟧ (cruiser).",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23389_kuchikukan",
+      "reading": "くちくかん",
+      "headword": "{駆逐艦|くちくかん}",
+      "label": "destroyer (warship)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23965_koukuubokan",
+      "reading": "こうくうぼかん",
+      "headword": "{航空母艦|こうくうぼかん}",
+      "label": "aircraft carrier"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26766_junyoukan",
+      "reading": "じゅんようかん",
+      "headword": "{巡洋艦|じゅんようかん}",
+      "label": "cruiser (warship)"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +82,6 @@
       ]
     },
     "created": "2026-03-23T03:39:26Z",
-    "modified": "2026-07-26T09:42:07Z"
+    "modified": "2026-09-02T04:01:53Z"
   }
 }

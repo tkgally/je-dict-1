@@ -3,7 +3,7 @@
   "id": "14878_nakatagai",
   "headword": "{仲違|なかたが}い",
   "reading": "なかたがい",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "falling out; estrangement; discord",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "14878_nakatagai_ex1",
-      "japanese": "{友人|ゆうじん}と{仲違|なかたが}いした。",
+      "japanese": "⟦{友人|ゆうじん}→友人：03649_yuujin⟧⟦と→と：00512_to⟧{仲違|なかたが}い⟦した→する：00392_suru⟧。",
       "english": "I had a falling out with a friend.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "14878_nakatagai_ex2",
-      "japanese": "ちょっとした{誤解|ごかい}から{仲違|なかたが}いしてしまった。",
+      "japanese": "⟦ちょっとした→ちょっとした：27439_chottoshita⟧⟦{誤解|ごかい}→誤解：02769_gokai⟧⟦から→から：00504_kara⟧{仲違|なかたが}い⟦して→する：00392_suru⟧しまった。",
       "english": "A small misunderstanding led to a falling out.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "14878_nakatagai_ex3",
-      "japanese": "{兄弟|きょうだい}が{遺産|いさん}のことで{仲違|なかたが}いするのはよくある{話|はなし}だ。",
+      "japanese": "⟦{兄弟|きょうだい}→兄弟：00964_kyoudai⟧⟦が→が：00051_ga⟧⟦{遺産|いさん}→遺産：14405_isan⟧⟦の→の：09472_no⟧こと⟦で→で：00502_de⟧{仲違|なかたが}い⟦する→する：00392_suru⟧⟦の→の：09472_no⟧⟦は→は：00079_ha⟧⟦よく→よく：00601_yoku⟧⟦ある→ある：00006_aru⟧⟦{話|はなし}→話：01496_hanashi⟧だ。",
       "english": "It is common for siblings to have a falling out over an inheritance.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,19 @@
       ]
     }
   ],
-  "notes": "{仲違|なかたが}い is a noun that also functions as a suru-verb ({仲違|なかたが}いする). It specifically describes a rift between people who were previously on good terms.\n\nPARTICLE PATTERNS:\n- ～と{仲違|なかたが}いする (to have a falling out with someone)\n- ～のことで{仲違|なかたが}いする (to fall out over something)\n\nCOMMON COLLOCATIONS:\n- {友人|ゆうじん}と{仲違|なかたが}いする (to fall out with a friend)\n- {仲違|なかたが}いの{原因|げんいん} (the cause of the estrangement)\n\nRELATED WORDS:\n{喧嘩|けんか} is a fight or quarrel (can be brief and resolved). {仲違|なかたが}い implies a more lasting breakdown in the relationship. {不仲|ふなか} describes a state of being on bad terms.",
-  "cross_references": [],
+  "notes": "{仲違|なかたが}い is a noun that also functions as a suru-verb ({仲違|なかたが}い⟦する→する：00392_suru⟧). It specifically describes a rift between people who were previously on good terms.\n\nCOMMON PATTERNS:\n- ～⟦と→と：00512_to⟧{仲違|なかたが}い⟦する→する：00392_suru⟧ (to have a falling out with someone)\n- ～⟦の→の：09472_no⟧こと⟦で→で：00502_de⟧{仲違|なかたが}い⟦する→する：00392_suru⟧ (to fall out over something)\n\nCOMMON COLLOCATIONS:\n- ⟦{友人|ゆうじん}→友人：03649_yuujin⟧⟦と→と：00512_to⟧{仲違|なかたが}い⟦する→する：00392_suru⟧ (to fall out with a friend)\n- {仲違|なかたが}い⟦の→の：09472_no⟧⟦{原因|げんいん}→原因：01400_genin⟧ (the cause of the estrangement)\n\nRELATED WORDS:\n⟦{喧嘩|けんか}→喧嘩：02996_kenka⟧ is a fight or quarrel (can be brief and resolved). {仲違|なかたが}い implies a more lasting breakdown in the relationship. ⟦{不仲|ふなか}→不仲：15745_funaka⟧ describes a state of being on bad terms.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "26474_nakazaki",
+      "reading": "なかざき",
+      "headword": "{仲裂|なかざ}き",
+      "label": "estrangement"
+    }
+  ],
   "metadata": {
     "created": "2026-03-04T05:24:05Z",
-    "modified": "2026-03-29T03:08:18Z",
+    "modified": "2026-09-02T04:01:39Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

@@ -3,7 +3,7 @@
   "headword": "{巨大化|きょだいか}",
   "reading": "きょだいか",
   "romaji": "kyodaika",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "becoming enormous; enlargement; growing to a huge scale",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26010_kyodaika_ex1",
-      "japanese": "{台風|たいふう}が{巨大化|きょだいか}している。",
+      "japanese": "⟦{台風|たいふう}→台風：01455_taifuu⟧⟦が→が：00051_ga⟧{巨大化|きょだいか}⟦している→する：00392_suru⟧。",
       "english": "The typhoon is growing enormous.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26010_kyodaika_ex2",
-      "japanese": "{企業|きぎょう}の{巨大化|きょだいか}が{進|すす}んでいる。",
+      "japanese": "⟦{企業|きぎょう}→企業：00225_kigyou⟧⟦の→の：09472_no⟧{巨大化|きょだいか}⟦が→が：00051_ga⟧⟦{進|すす}んでいる→進む：01225_susumu⟧。",
       "english": "The growth of corporations to massive scale is progressing.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26010_kyodaika_ex3",
-      "japanese": "{都市|とし}の{巨大化|きょだいか}に{伴|ともな}い、{交通|こうつう}{渋滞|じゅうたい}がひどくなった。",
+      "japanese": "⟦{都市|とし}→都市：01477_toshi⟧⟦の→の：09472_no⟧{巨大化|きょだいか}⟦に{伴|ともな}い→に伴い：06804_nitomonai⟧、⟦{交通|こうつう}{渋滞|じゅうたい}→交通渋滞：16260_koutsuujuutai⟧⟦が→が：00051_ga⟧⟦ひどく→ひどい：01097_hidoi⟧⟦なった→なる：01970_naru⟧。",
       "english": "As cities have grown enormous, traffic congestion has worsened.",
       "sense_numbers": [
         1
@@ -44,8 +44,16 @@
       "notes": null
     }
   ],
-  "notes": "Formed from {巨大|きょだい} (enormous) + {化|か} (transformation suffix). Used for dramatic increases in size or scale — natural phenomena like typhoons, organizational growth like corporations, or social trends like urbanization. The nuance often implies that the growth is notable or problematic.\n\nCOMMON COLLOCATIONS:\n- {台風|たいふう}の{巨大化|きょだいか}: typhoons growing larger\n- {企業|きぎょう}の{巨大化|きょだいか}: corporations growing massive\n- {巨大化|きょだいか}する{都市|とし}: a city growing to enormous scale\n- {巨大化|きょだいか}が{進|すす}む: enlargement is progressing\n\nSIMILAR WORDS:\n- {大型化|おおがたか}: becoming larger — more neutral, used for products and equipment increasing in size\n- {拡大|かくだい}: expansion — broader term for growth in scope, area, or influence\n- {肥大化|ひだいか}: bloating; swelling — carries a negative nuance of unhealthy or excessive growth",
-  "cross_references": [],
+  "notes": "Formed from ⟦{巨大|きょだい}→巨大：02586_kyodai⟧ (enormous) + ⟦{化|か}→〜化：28335_ka⟧ (transformation suffix). Used for dramatic increases in size or scale — natural phenomena like typhoons, organizational growth like corporations, or social trends like urbanization. The nuance often implies that the growth is notable or problematic.\n\nCOMMON COLLOCATIONS:\n- ⟦{台風|たいふう}→台風：01455_taifuu⟧⟦の→の：09472_no⟧{巨大化|きょだいか}: typhoons growing larger\n- ⟦{企業|きぎょう}→企業：00225_kigyou⟧⟦の→の：09472_no⟧{巨大化|きょだいか}: corporations growing massive\n- {巨大化|きょだいか}⟦する→する：00392_suru⟧⟦{都市|とし}→都市：01477_toshi⟧: a city growing to enormous scale\n- {巨大化|きょだいか}⟦が→が：00051_ga⟧⟦{進|すす}む→進む：01225_susumu⟧: enlargement is progressing\n\nSIMILAR WORDS:\n- {大型化|おおがたか}: becoming larger — more neutral, used for products and equipment increasing in size\n- ⟦{拡大|かくだい}→拡大：02553_kakudai⟧: expansion — broader term for growth in scope, area, or influence\n- {肥大化|ひだいか}: bloating; swelling — carries a negative nuance of unhealthy or excessive growth",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02553_kakudai",
+      "reading": "かくだい",
+      "headword": "{拡大|かくだい}",
+      "label": "expansion"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -54,13 +62,16 @@
         "noun",
         "verb-suru"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "change"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     },
     "created": "2026-04-28T16:10:55Z",
-    "modified": "2026-04-28T16:10:55Z"
+    "modified": "2026-09-02T04:02:24Z"
   },
   "conjugation": {
     "type": "suru",

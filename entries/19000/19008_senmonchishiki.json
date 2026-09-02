@@ -15,41 +15,60 @@
   "examples": [
     {
       "id": "19008_senmonchishiki_ex1",
-      "japanese": "{専門知識|せんもんちしき}が{必要|ひつよう}だ。",
+      "japanese": "{専門知識|せんもんちしき}⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧だ。",
       "english": "Specialized knowledge is needed.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "19008_senmonchishiki_ex2",
-      "japanese": "{彼女|かのじょ}はITの{専門知識|せんもんちしき}を{持|も}っている。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧IT⟦の→の：09472_no⟧{専門知識|せんもんちしき}⟦を→を：00422_wo⟧⟦{持|も}っている→持つ：00478_motsu⟧。",
       "english": "She has expertise in IT.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "19008_senmonchishiki_ex3",
-      "japanese": "この{仕事|しごと}には{法律|ほうりつ}の{専門知識|せんもんちしき}が{求|もと}められる。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{法律|ほうりつ}→法律：01722_houritsu⟧⟦の→の：09472_no⟧{専門知識|せんもんちしき}⟦が→が：00051_ga⟧⟦{求|もと}められる→求める：02316_motomeru⟧。",
       "english": "This job requires specialized knowledge of law.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "A compound of {専門|せんもん} (specialty) and {知識|ちしき} (knowledge). Refers to deep knowledge or skills in a particular field, acquired through study or professional experience.\n\nCOMMON COLLOCATIONS:\n- {専門知識|せんもんちしき}を{持|も}つ: to have expertise\n- {専門知識|せんもんちしき}を{身|み}につける: to acquire expertise\n- {専門知識|せんもんちしき}が{必要|ひつよう}: expertise is required\n- {専門知識|せんもんちしき}を{活|い}かす: to put expertise to use\n- {専門知識|せんもんちしき}が{豊富|ほうふ}: to be rich in expertise\n\nUSAGE:\nVery common in job listings ({求人|きゅうじん}{票|ひょう}), business discussions, and academic contexts. Often paired with a field: ITの{専門知識|せんもんちしき}, {法律|ほうりつ}の{専門知識|せんもんちしき}, {医療|いりょう}の{専門知識|せんもんちしき}.\n\nRELATED:\n- {専門家|せんもんか}: expert, specialist\n- {専門性|せんもんせい}: expertise, specialization (abstract quality)",
-  "cross_references": [],
+  "notes": "A compound of ⟦{専門|せんもん}→専門：01251_senmon⟧ (specialty) and ⟦{知識|ちしき}→知識：01463_chishiki⟧ (knowledge). Refers to deep knowledge or skills in a particular field, acquired through study or professional experience.\n\nCOMMON COLLOCATIONS:\n- {専門知識|せんもんちしき}⟦を→を：00422_wo⟧⟦{持|も}つ→持つ：00478_motsu⟧: to have expertise\n- {専門知識|せんもんちしき}⟦を→を：00422_wo⟧⟦{身|み}につける→身につける：03158_minitsukeru⟧: to acquire expertise\n- {専門知識|せんもんちしき}⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧: expertise is required\n- {専門知識|せんもんちしき}⟦を→を：00422_wo⟧⟦{活|い}かす→活かす：10422_ikasu⟧: to put expertise to use\n- {専門知識|せんもんちしき}⟦が→が：00051_ga⟧⟦{豊富|ほうふ}→豊富：03620_houfu⟧: to be rich in expertise\n\nUSAGE:\nVery common in job listings (⟦{求人|きゅうじん}→求人：04690_kyuujin⟧⟦{票|ひょう}→票：03582_hyou⟧), business discussions, and academic contexts. Often paired with a field: IT⟦の→の：09472_no⟧{専門知識|せんもんちしき}, ⟦{法律|ほうりつ}→法律：01722_houritsu⟧⟦の→の：09472_no⟧{専門知識|せんもんちしき}, ⟦{医療|いりょう}→医療：01836_iryou⟧⟦の→の：09472_no⟧{専門知識|せんもんちしき}.\n\nRELATED WORDS:\n- ⟦{専門家|せんもんか}→専門家：03088_senmonka⟧: expert, specialist\n- {専門性|せんもんせい}: expertise, specialization (abstract quality)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "03088_senmonka",
+      "reading": "せんもんか",
+      "headword": "{専門家|せんもんか}",
+      "label": "expert, specialist"
+    }
+  ],
   "metadata": {
     "created": "2026-03-24T00:57:05Z",
-    "modified": "2026-04-02T10:36:17Z",
+    "modified": "2026-09-02T04:01:54Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["work", "education"]
+      "semantic": [
+        "work",
+        "education"
+      ]
     }
   }
 }

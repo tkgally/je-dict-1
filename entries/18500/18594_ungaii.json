@@ -15,41 +15,66 @@
   "examples": [
     {
       "id": "18594_ungaii_ex1",
-      "japanese": "{今日|きょう}は{運|うん}が{良|い}い。",
+      "japanese": "⟦{今日|きょう}→今日：00496_kyou⟧⟦は→は：00079_ha⟧{運|うん}が{良|い}い。",
       "english": "I'm lucky today.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18594_ungaii_ex2",
-      "japanese": "{運|うん}が{良|よ}ければ、チケットが{取|と}れるかもしれない。",
+      "japanese": "{運|うん}が{良|よ}ければ、⟦チケット→チケット：11014_chiketto⟧⟦が→が：00051_ga⟧⟦{取|と}れる→取れる：02376_toreru⟧⟦かもしれない→かもしれない：00164_kamoshirenai⟧。",
       "english": "If we're lucky, we might be able to get tickets.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18594_ungaii_ex3",
-      "japanese": "{電車|でんしゃ}に{乗|の}り{遅|おく}れたが、{次|つぎ}のがすぐ{来|き}て{運|うん}が{良|よ}かった。",
+      "japanese": "⟦{電車|でんしゃ}→電車：00522_densha⟧⟦に→に：00314_ni⟧⟦{乗|の}り{遅|おく}れた→乗り遅れる：04621_noriokureru⟧⟦が→が：00051_ga⟧、⟦{次|つぎ}→次：00819_tsugi⟧⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦すぐ→すぐ：00814_sugu⟧⟦{来|き}て→来る：00254_kuru⟧{運|うん}が{良|よ}かった。",
       "english": "I missed the train, but the next one came right away — I was lucky.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nOften used in the conditional form {運|うん}が{良|よ}ければ (if lucky) and the past form {運|うん}が{良|よ}かった (was lucky). The opposite is {運|うん}が{悪|わる}い (unlucky).\n\nCOMMON COLLOCATIONS:\n- {運|うん}が{良|い}いことに (fortunately; luckily)\n- {運|うん}が{良|よ}ければ (if one is lucky)\n- {運|うん}が{良|い}い{人|ひと} (a lucky person)\n\nSIMILAR EXPRESSIONS:\n- ラッキー: lucky — casual loanword, often used as an exclamation\n- {幸運|こううん}な: fortunate — more formal\n- ついている: to be on a lucky streak — colloquial",
-  "cross_references": [],
+  "notes": "USAGE:\nOften used in the conditional form {運|うん}が{良|よ}ければ (if lucky) and the past form {運|うん}が{良|よ}かった (was lucky). The opposite is ⟦{運|うん}→運：02143_un⟧⟦が→が：00051_ga⟧⟦{悪|わる}い→悪い：00908_warui⟧ (unlucky).\n\nCOMMON COLLOCATIONS:\n- {運|うん}が{良|い}いこと⟦に→に：00314_ni⟧ (fortunately; luckily)\n- {運|うん}が{良|よ}ければ (if one is lucky)\n- {運|うん}が{良|い}い⟦{人|ひと}→人：00476_hito⟧ (a lucky person)\n\nSIMILAR WORDS:\n- ⟦ラッキー→ラッキー：11254_rakkii⟧: lucky — casual loanword, often used as an exclamation\n- ⟦{幸運|こううん}→幸運：02725_kouun⟧な: fortunate — more formal\n- ついて⟦いる→いる：00495_iru⟧: to be on a lucky streak — colloquial",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11254_rakkii",
+      "reading": "らっきー",
+      "headword": "ラッキー",
+      "label": "lucky"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22783_kouunna",
+      "reading": "こううんな",
+      "headword": "{幸運|こううん}な",
+      "label": "fortunate"
+    }
+  ],
   "metadata": {
     "created": "2026-03-22T09:50:57Z",
-    "modified": "2026-03-22T09:50:57Z",
+    "modified": "2026-09-02T04:01:52Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["expression"],
+      "pos": [
+        "expression"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["descriptive"]
+      "semantic": [
+        "descriptive"
+      ]
     }
   }
 }

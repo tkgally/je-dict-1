@@ -14,42 +14,74 @@
   "examples": [
     {
       "id": "19457_kaigara_ex1",
-      "japanese": "{貝殻|かいがら}を{集|あつ}める。",
+      "japanese": "{貝殻|かいがら}⟦を→を：00422_wo⟧⟦{集|あつ}める→集める：01170_atsumeru⟧。",
       "english": "To collect seashells.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "19457_kaigara_ex2",
-      "japanese": "{海岸|かいがん}できれいな{貝殻|かいがら}を{見|み}つけた。",
+      "japanese": "⟦{海岸|かいがん}→海岸：00852_kaigan⟧⟦で→で：00502_de⟧⟦きれい→きれい：00717_kirei⟧な{貝殻|かいがら}⟦を→を：00422_wo⟧⟦{見|み}つけた→見つける：01180_mitsukeru⟧。",
       "english": "I found a beautiful seashell on the beach.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "19457_kaigara_ex3",
-      "japanese": "{子|こ}どもたちが{貝殻|かいがら}を{拾|ひろ}って{遊|あそ}んでいる。",
+      "japanese": "{子|こ}どもたち⟦が→が：00051_ga⟧{貝殻|かいがら}⟦を→を：00422_wo⟧⟦{拾|ひろ}って→拾う：00845_hirou⟧⟦{遊|あそ}んでいる→遊ぶ：00550_asobu⟧。",
       "english": "The children are playing picking up seashells.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{貝殻|かいがら} is the hard outer covering left behind by mollusks and other shellfish. Seashells washed up on beaches are a common sight in Japan, and {貝殻|かいがら}{拾|ひろ}い (shell collecting) is a popular seaside activity for children and adults alike.\n\nSTRUCTURE:\n- {貝|かい} (shellfish) + {殻|がら} (shell, husk)\n\nCOMMON COLLOCATIONS:\n- {貝殻|かいがら}を{拾|ひろ}う (to pick up seashells)\n- {貝殻|かいがら}を{集|あつ}める (to collect seashells)\n- {貝殻|かいがら}の{形|かたち} (the shape of a shell)\n- {貝殻|かいがら}で{飾|かざ}る (to decorate with seashells)\n\nRELATED WORDS:\n- {貝|かい} (shellfish — the living animal)\n- {殻|から} (shell, husk — general term; read から when standalone)\n- {巻|ま}き{貝|がい} (snail shell, spiral shell)\n- {二枚貝|にまいがい} (bivalve)",
-  "cross_references": [],
+  "notes": "{貝殻|かいがら} is the hard outer covering left behind by mollusks and other shellfish. Seashells washed up on beaches are a common sight in Japan, and {貝殻|かいがら}{拾|ひろ}い (shell collecting) is a popular seaside activity for children and adults alike.\n\nCOMMON PATTERNS:\n- ⟦{貝|かい}→貝：02145_kai⟧ (shellfish) + {殻|がら} (shell, husk)\n\nCOMMON COLLOCATIONS:\n- {貝殻|かいがら}⟦を→を：00422_wo⟧⟦{拾|ひろ}う→拾う：00845_hirou⟧ (to pick up seashells)\n- {貝殻|かいがら}⟦を→を：00422_wo⟧⟦{集|あつ}める→集める：01170_atsumeru⟧ (to collect seashells)\n- {貝殻|かいがら}⟦の→の：09472_no⟧⟦{形|かたち}→形：02193_katachi⟧ (the shape of a shell)\n- {貝殻|かいがら}⟦で→で：00502_de⟧⟦{飾|かざ}る→飾る：01185_kazaru⟧ (to decorate with seashells)\n\nRELATED WORDS:\n- ⟦{貝|かい}→貝：02145_kai⟧ (shellfish — the living animal)\n- ⟦{殻|から}→殻：02148_kara⟧ (shell, husk — general term; read ⟦から→から：00504_kara⟧ when standalone)\n- ⟦{巻|ま}き{貝|がい}→巻き貝：23395_makigai⟧ (snail shell, spiral shell)\n- ⟦{二枚貝|にまいがい}→二枚貝：23394_nimaigai⟧ (bivalve)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "23395_makigai",
+      "reading": "まきがい",
+      "headword": "{巻|ま}き{貝|がい}",
+      "label": "snail shell, spiral shell"
+    },
+    {
+      "type": "related",
+      "target_id": "23394_nimaigai",
+      "reading": "にまいがい",
+      "headword": "{二枚貝|にまいがい}",
+      "label": "bivalve"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21848_koura",
+      "reading": "こうら",
+      "headword": "{甲羅|こうら}",
+      "label": "shell"
+    }
+  ],
   "metadata": {
     "created": "2026-03-25T14:52:00Z",
-    "modified": "2026-03-25T14:52:00Z",
+    "modified": "2026-09-02T04:01:56Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

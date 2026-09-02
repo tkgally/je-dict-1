@@ -4,7 +4,7 @@
   "headword": "{考証|こうしょう}",
   "reading": "こうしょう",
   "romaji": "koushou",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "historical research; verification of historical accuracy",
   "definitions": [
     {
@@ -16,7 +16,7 @@
   "examples": [
     {
       "id": "24567_koushou_ex1",
-      "japanese": "{時代|じだい}{考証|こうしょう}がしっかりしたドラマだ。",
+      "japanese": "⟦{時代|じだい}→時代：01424_jidai⟧{考証|こうしょう}⟦が→が：00051_ga⟧⟦しっかりした→しっかりする：21456_shikkarisuru⟧⟦ドラマ→ドラマ：03867_dorama⟧だ。",
       "english": "It's a drama with solid period-accurate research.",
       "sense_numbers": [
         1
@@ -26,7 +26,7 @@
     },
     {
       "id": "24567_koushou_ex2",
-      "japanese": "{衣装|いしょう}の{考証|こうしょう}に{何|なん}{ヶ月|かげつ}もかけた。",
+      "japanese": "⟦{衣装|いしょう}→衣装：14102_ishou⟧⟦の→の：09472_no⟧{考証|こうしょう}⟦に→に：00314_ni⟧⟦{何|なん}→何〜：03100_nan⟧⟦{ヶ月|かげつ}→ヶ月：00956_kagetsu⟧⟦も→も：00484_mo⟧⟦かけた→かける：00854_kakeru⟧。",
       "english": "They spent months on costume research for historical accuracy.",
       "sense_numbers": [
         1
@@ -36,7 +36,7 @@
     },
     {
       "id": "24567_koushou_ex3",
-      "japanese": "この{映画|えいが}は{考証|こうしょう}が{甘|あま}く、{歴史|れきし}{ファン|ふぁん}から{批判|ひはん}を{受|う}けた。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{映画|えいが}→映画：02273_eiga⟧⟦は→は：00079_ha⟧{考証|こうしょう}⟦が→が：00051_ga⟧⟦{甘|あま}く→甘い：00617_amai⟧、⟦{歴史|れきし}→歴史：02267_rekishi⟧⟦ファン→ファン：10065_fan⟧⟦から→から：00504_kara⟧⟦{批判|ひはん}→批判：03580_hihan⟧⟦を→を：00422_wo⟧⟦{受|う}けた→受ける：01215_ukeru⟧。",
       "english": "This movie had poor historical accuracy and was criticized by history fans.",
       "sense_numbers": [
         1
@@ -45,11 +45,33 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {考|こう} (to think/examine) and {証|しょう} (evidence/proof). Most commonly encountered as {時代|じだい}{考証|こうしょう} (period verification), the process of checking historical accuracy in TV dramas, movies, and novels. NHK's {大河|たいが}ドラマ (historical drama series) always credits a {時代|じだい}{考証|こうしょう} specialist.\n\nCOMMON COLLOCATIONS:\n- {時代|じだい}{考証|こうしょう}: period-accuracy research\n- {考証|こうしょう}が{甘|あま}い: historically inaccurate (lit. \"verification is loose\")\n- {考証|こうしょう}を{行|おこな}う: to conduct historical verification\n- {考証|こうしょう}{担当|たんとう}: person in charge of historical accuracy\n\nSIMILAR WORDS:\n- {検証|けんしょう}: verification — broader term for any kind of investigation or proof\n- {考察|こうさつ}: consideration, analysis — intellectual examination of a topic\n- {実証|じっしょう}: empirical proof — proving something through evidence or experiment",
-  "cross_references": [],
+  "notes": "Composed of {考|こう} (to think/examine) and {証|しょう} (evidence/proof). Most commonly encountered as ⟦{時代|じだい}→時代：01424_jidai⟧{考証|こうしょう} (period verification), the process of checking historical accuracy in TV dramas, movies, and novels. NHK's ⟦{大河|たいが}→大河：12197_taiga⟧⟦ドラマ→ドラマ：03867_dorama⟧ (historical drama series) always credits a ⟦{時代|じだい}→時代：01424_jidai⟧{考証|こうしょう} specialist.\n\nCOMMON COLLOCATIONS:\n- ⟦{時代|じだい}→時代：01424_jidai⟧{考証|こうしょう}: period-accuracy research\n- {考証|こうしょう}⟦が→が：00051_ga⟧⟦{甘|あま}い→甘い：00617_amai⟧: historically inaccurate (lit. \"verification is loose\")\n- {考証|こうしょう}⟦を→を：00422_wo⟧⟦{行|おこな}う→行う：01238_okonau⟧: to conduct historical verification\n- {考証|こうしょう}⟦{担当|たんとう}→担当：02567_tantou⟧: person in charge of historical accuracy\n\nSIMILAR WORDS:\n- ⟦{検証|けんしょう}→検証：04792_kenshou⟧: verification — broader term for any kind of investigation or proof\n- ⟦{考察|こうさつ}→考察：02736_kousatsu⟧: consideration, analysis — intellectual examination of a topic\n- ⟦{実証|じっしょう}→実証：12350_jisshou⟧: empirical proof — proving something through evidence or experiment",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04792_kenshou",
+      "reading": "けんしょう",
+      "headword": "{検証|けんしょう}",
+      "label": "verification"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02736_kousatsu",
+      "reading": "こうさつ",
+      "headword": "{考察|こうさつ}",
+      "label": "consideration, analysis"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12350_jisshou",
+      "reading": "じっしょう",
+      "headword": "{実証|じっしょう}",
+      "label": "empirical proof"
+    }
+  ],
   "metadata": {
     "created": "2026-04-19T15:15:24Z",
-    "modified": "2026-08-03T09:22:27Z",
+    "modified": "2026-09-02T04:02:18Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

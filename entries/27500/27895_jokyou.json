@@ -15,41 +15,60 @@
   "examples": [
     {
       "id": "27895_jokyou_ex1",
-      "japanese": "{大学|だいがく}の{助教|じょきょう}になった。",
+      "japanese": "⟦{大学|だいがく}→大学：00608_daigaku⟧⟦の→の：09472_no⟧{助教|じょきょう}になった。",
       "english": "She became an assistant professor at the university.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27895_jokyou_ex2",
-      "japanese": "{彼|かれ}は{医学部|いがくぶ}の{助教|じょきょう}として{研究|けんきゅう}を{続|つづ}けている。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{医学部|いがくぶ}→医学部：27620_igakubu⟧⟦の→の：09472_no⟧{助教|じょきょう}⟦として→として：06802_toshite⟧⟦{研究|けんきゅう}→研究：01396_kenkyuu⟧⟦を→を：00422_wo⟧⟦{続|つづ}け→続く：00903_tsuzuku⟧て⟦いる→いる：00495_iru⟧。",
       "english": "He continues his research as an assistant professor in the medical faculty.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27895_jokyou_ex3",
-      "japanese": "{助教|じょきょう}から{准教授|じゅんきょうじゅ}に{昇進|しょうしん}するには{業績|ぎょうせき}が{必要|ひつよう}だ。",
+      "japanese": "{助教|じょきょう}⟦から→から：00504_kara⟧⟦{准教授|じゅんきょうじゅ}→准教授：19861_junkyouju⟧⟦に→に：00314_ni⟧⟦{昇進|しょうしん}→昇進：04553_shoushin⟧⟦する→する：00392_suru⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{業績|ぎょうせき}→業績：04873_gyouseki⟧⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧だ。",
       "english": "Promotion from assistant professor to associate professor requires a record of achievement.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A rank introduced in Japan's 2007 university reforms, replacing the older {助手|じょしゅ} for research-and-teaching staff.\n\nACADEMIC RANKS (high to low):\n- {教授|きょうじゅ}: professor\n- {准教授|じゅんきょうじゅ}: associate professor\n- {講師|こうし}: lecturer\n- {助教|じょきょう}: assistant professor\n\nNOTE: Do not confuse with {助手|じょしゅ} (research assistant), a separate, more junior position.",
+  "notes": "A rank introduced in Japan's 2007 university reforms, replacing the older ⟦{助手|じょしゅ}→助手：03352_joshu⟧ for research-and-teaching staff.\n\nACADEMIC RANKS (high to low):\n- ⟦{教授|きょうじゅ}→教授：02589_kyouju⟧: professor\n- ⟦{准教授|じゅんきょうじゅ}→准教授：19861_junkyouju⟧: associate professor\n- ⟦{講師|こうし}→講師：00451_koushi⟧: lecturer\n- {助教|じょきょう}: assistant professor\n\nNOTE: Do not confuse with ⟦{助手|じょしゅ}→助手：03352_joshu⟧ (research assistant), a separate, more junior position.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19861_junkyouju",
+      "reading": "じゅんきょうじゅ",
+      "headword": "{准教授|じゅんきょうじゅ}",
+      "label": "associate professor"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["occupation"],
+      "semantic": [
+        "occupation"
+      ],
       "domain": []
     },
     "created": "2026-05-22T03:04:31Z",
-    "modified": "2026-05-22T03:04:31Z"
+    "modified": "2026-09-02T04:02:32Z"
   }
 }

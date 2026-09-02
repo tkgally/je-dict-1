@@ -15,41 +15,67 @@
   "examples": [
     {
       "id": "28163_daikinhikikae_ex1",
-      "japanese": "{支払|しはら}いは{代金引換|だいきんひきかえ}にした。",
+      "japanese": "{支払|しはら}い⟦は→は：00079_ha⟧{代金引換|だいきんひきかえ}にした。",
       "english": "I chose cash on delivery for payment.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28163_daikinhikikae_ex2",
-      "japanese": "{代金引換|だいきんひきかえ}は{手数料|てすうりょう}がかかる。",
+      "japanese": "{代金引換|だいきんひきかえ}⟦は→は：00079_ha⟧⟦{手数料|てすうりょう}→手数料：05423_tesuuryou⟧⟦が→が：00051_ga⟧⟦かかる→かかる：00711_kakaru⟧。",
       "english": "Cash on delivery comes with a handling fee.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28163_daikinhikikae_ex3",
-      "japanese": "{代金引換|だいきんひきかえ}なら{商品|しょうひん}を{受|う}け{取|と}るときに{現金|げんきん}で{払|はら}える。",
+      "japanese": "{代金引換|だいきんひきかえ}なら⟦{商品|しょうひん}→商品：01436_shouhin⟧⟦を→を：00422_wo⟧⟦{受|う}け{取|と}る→受け取る：01883_uketoru⟧とき⟦に→に：00314_ni⟧⟦{現金|げんきん}→現金：02716_genkin⟧⟦で→で：00502_de⟧⟦{払|はら}える→払う：00535_harau⟧。",
       "english": "With cash on delivery you can pay in cash when you receive the goods.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Compound of {代金|だいきん} (payment for goods) + {引換|ひきかえ} (exchange). Commonly shortened to {代引|だいび}き in everyday speech and online shopping.\n\nCOMMON COLLOCATIONS:\n- {代金引換|だいきんひきかえ}で{払|はら}う: to pay by cash on delivery\n- {代金引換|だいきんひきかえ}{手数料|てすうりょう}: the COD handling fee\n- {代金引換|だいきんひきかえ}を{利用|りよう}する: to use cash on delivery",
+  "notes": "Compound of ⟦{代金|だいきん}→代金：03416_daikin⟧ (payment for goods) + {引換|ひきかえ} (exchange). Commonly shortened to ⟦{代引|だいび}き→代引き：09721_daibiki⟧ in everyday speech and online shopping.\n\nCOMMON COLLOCATIONS:\n- {代金引換|だいきんひきかえ}⟦で→で：00502_de⟧⟦{払|はら}う→払う：00535_harau⟧: to pay by cash on delivery\n- {代金引換|だいきんひきかえ}⟦{手数料|てすうりょう}→手数料：05423_tesuuryou⟧: the COD handling fee\n- {代金引換|だいきんひきかえ}⟦を→を：00422_wo⟧⟦{利用|りよう}する→利用する：21735_riyousuru⟧: to use cash on delivery",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "07950_chakubarai",
+      "reading": "ちゃくばらい",
+      "headword": "{着払|ちゃくばら}い",
+      "label": "collect on delivery"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26930_sakibarai",
+      "reading": "さきばらい",
+      "headword": "{先払|さきばら}い",
+      "label": "advance payment"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["general"],
+      "politeness": "plain",
+      "semantic": [
+        "general"
+      ],
       "domain": []
     },
     "created": "2026-05-26T04:08:43Z",
-    "modified": "2026-05-26T04:08:43Z"
+    "modified": "2026-09-02T04:02:32Z"
   }
 }

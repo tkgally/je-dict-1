@@ -15,41 +15,82 @@
   "examples": [
     {
       "id": "27478_iwaba_ex1",
-      "japanese": "{岩場|いわば}で{釣|つ}りをした。",
+      "japanese": "{岩場|いわば}⟦で→で：00502_de⟧⟦{釣|つ}り→釣り：03439_tsuri⟧⟦を→を：00422_wo⟧⟦した→する：00392_suru⟧。",
       "english": "I fished from the rocky area.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27478_iwaba_ex2",
-      "japanese": "{岩場|いわば}は{滑|すべ}りやすいので{注意|ちゅうい}してください。",
+      "japanese": "{岩場|いわば}⟦は→は：00079_ha⟧⟦{滑|すべ}りやすい→滑りやすい：27611_suberiyasui⟧⟦の→の：09472_no⟧で⟦{注意|ちゅうい}→注意：01464_chuui⟧⟦して→する：00392_suru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "The rocky area is slippery, so please be careful.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27478_iwaba_ex3",
-      "japanese": "{急|きゅう}な{岩場|いわば}を{登|のぼ}るには{専門|せんもん}の{道具|どうぐ}が{必要|ひつよう}だ。",
+      "japanese": "⟦{急|きゅう}→急：13042_kyuu⟧な{岩場|いわば}⟦を→を：00422_wo⟧⟦{登|のぼ}る→登る：00660_noboru⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{専門|せんもん}→専門：01251_senmon⟧⟦の→の：09472_no⟧⟦{道具|どうぐ}→道具：01479_dougu⟧⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧だ。",
       "english": "Climbing steep rocky terrain requires specialized equipment.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Compound of {岩|いわ} (rock) + {場|ば} (place), with {場|ば} voicing to ば in this compound.\n\nCOMMON COLLOCATIONS:\n- {岩場|いわば}を{登|のぼ}る: to climb a rocky area\n- {岩場|いわば}で{釣|つ}りをする: to fish from rocks\n- {険|けわ}しい{岩場|いわば}: steep rocky terrain\n- {岩場|いわば}に{囲|かこ}まれた{海岸|かいがん}: rocky coastline\n\nSIMILAR WORDS:\n- {岩肌|いわはだ}: rock face — the exposed surface of a rock, not an area\n- {岩礁|がんしょう}: reef; rocky shoal — submerged or partially submerged rocks in the sea\n- {磯|いそ}: rocky beach — specifically a rocky shoreline",
+  "notes": "Compound of ⟦{岩|いわ}→岩：00850_iwa⟧ (rock) + ⟦{場|ば}→場：03699_ba⟧ (place), with ⟦{場|ば}→場：03699_ba⟧ voicing to ば in this compound.\n\nCOMMON COLLOCATIONS:\n- {岩場|いわば}⟦を→を：00422_wo⟧⟦{登|のぼ}る→登る：00660_noboru⟧: to climb a rocky area\n- {岩場|いわば}⟦で→で：00502_de⟧⟦{釣|つ}り→釣り：03439_tsuri⟧⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧: to fish from rocks\n- ⟦{険|けわ}しい→険しい：08154_kewashii⟧{岩場|いわば}: steep rocky terrain\n- {岩場|いわば}⟦に→に：00314_ni⟧⟦{囲|かこ}まれた→囲む：02037_kakomu⟧⟦{海岸|かいがん}→海岸：00852_kaigan⟧: rocky coastline\n\nSIMILAR WORDS:\n- ⟦{岩肌|いわはだ}→岩肌：27479_iwahada⟧: rock face — the exposed surface of a rock, not an area\n- ⟦{岩礁|がんしょう}→岩礁：24550_ganshou⟧: reef; rocky shoal — submerged or partially submerged rocks in the sea\n- ⟦{磯|いそ}→磯：05389_iso⟧: rocky beach — specifically a rocky shoreline",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "27479_iwahada",
+      "reading": "いわはだ",
+      "headword": "{岩肌|いわはだ}",
+      "label": "rock face"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24550_ganshou",
+      "reading": "がんしょう",
+      "headword": "{岩礁|がんしょう}",
+      "label": "reef"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05389_iso",
+      "reading": "いそ",
+      "headword": "{磯|いそ}",
+      "label": "rocky beach"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23863_iwayama",
+      "reading": "いわやま",
+      "headword": "{岩山|いわやま}",
+      "label": "rocky mountain"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["nature", "geography"],
+      "politeness": "plain",
+      "semantic": [
+        "nature",
+        "geography"
+      ],
       "domain": []
     },
     "created": "2026-05-12T23:52:00Z",
-    "modified": "2026-05-12T23:52:00Z"
+    "modified": "2026-09-02T04:02:30Z"
   }
 }

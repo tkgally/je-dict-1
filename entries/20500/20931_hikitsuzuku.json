@@ -3,7 +3,7 @@
   "headword": "{引|ひ}き{続|つづ}く",
   "reading": "ひきつづく",
   "romaji": "hikitsuzuku",
-  "part_of_speech": "verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to continue; to follow on; to persist",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "20931_hikitsuzuku_ex1",
-      "japanese": "{雨|あめ}が{三日間|みっかかん}{引|ひ}き{続|つづ}いた。",
+      "japanese": "⟦{雨|あめ}→雨：00583_ame⟧⟦が→が：00051_ga⟧{三日間|みっかかん}{引|ひ}き{続|つづ}いた。",
       "english": "The rain continued for three days.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "20931_hikitsuzuku_ex2",
-      "japanese": "{地震|じしん}の{後|あと}、{余震|よしん}が{引|ひ}き{続|つづ}いている。",
+      "japanese": "⟦{地震|じしん}→地震：01608_jishin⟧⟦の→の：09472_no⟧⟦{後|あと}→後：09580_ato⟧、⟦{余震|よしん}→余震：16148_yoshin⟧⟦が→が：00051_ga⟧{引|ひ}き{続|つづ}いて⟦いる→いる：00495_iru⟧。",
       "english": "After the earthquake, aftershocks are continuing.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "20931_hikitsuzuku_ex3",
-      "japanese": "{好天|こうてん}が{引|ひ}き{続|つづ}いたおかげで、{工事|こうじ}は{予定|よてい}どおりに{進|すす}んだ。",
+      "japanese": "⟦{好天|こうてん}→好天：29346_kouten⟧⟦が→が：00051_ga⟧{引|ひ}き{続|つづ}いた⟦おかげ→おかげ：01362_okage⟧で、⟦{工事|こうじ}→工事：00244_kouji⟧⟦は→は：00079_ha⟧⟦{予定|よてい}→予定：00824_yotei⟧⟦どおり→どおり：09884_doori⟧⟦に→に：00314_ni⟧⟦{進|すす}んだ→進む：01225_susumu⟧。",
       "english": "Thanks to the continued good weather, the construction progressed on schedule.",
       "sense_numbers": [
         1
@@ -44,9 +44,25 @@
       "notes": null
     }
   ],
-  "notes": "A compound verb combining {引|ひ}く (to pull) and {続|つづ}く (to continue). Emphasizes unbroken continuation or succession. Most frequently encountered in its adverbial form {引|ひ}き{続|つづ}き, which functions as an adverb meaning \"continuing\" or \"from here on.\"\n\nCOMMON COLLOCATIONS:\n- {引|ひ}き{続|つづ}き: continuously, from now on (adverb form — extremely common)\n- {好天|こうてん}が{引|ひ}き{続|つづ}く: good weather continues\n- {問題|もんだい}が{引|ひ}き{続|つづ}く: problems persist\n- {引|ひ}き{続|つづ}きご{愛顧|あいこ}ください: we hope for your continued patronage\n\nUSAGE:\nThe adverb {引|ひ}き{続|つづ}き is far more common than the verb form. It appears frequently in business contexts, news, and formal writing.\n\nSIMILAR WORDS:\n- {続|つづ}く: to continue — simpler, more general\n- {持続|じぞく}する: to sustain, to last — more formal, often for states or conditions\n- {継続|けいぞく}する: to continue (something) — transitive, for deliberately maintaining an activity",
+  "notes": "A compound verb combining ⟦{引|ひ}く→引く：01978_hiku⟧ (to pull) and ⟦{続|つづ}く→続く：00903_tsuzuku⟧ (to continue). Emphasizes unbroken continuation or succession. Most frequently encountered in its adverbial form {引|ひ}き{続|つづ}き, which functions as an adverb meaning \"continuing\" or \"from here on.\"\n\nCOMMON COLLOCATIONS:\n- {引|ひ}き{続|つづ}き: continuously, from now on (adverb form — extremely common)\n- ⟦{好天|こうてん}→好天：29346_kouten⟧⟦が→が：00051_ga⟧{引|ひ}き{続|つづ}く: good weather continues\n- ⟦{問題|もんだい}→問題：00797_mondai⟧⟦が→が：00051_ga⟧{引|ひ}き{続|つづ}く: problems persist\n- {引|ひ}き{続|つづ}きご{愛顧|あいこ}⟦ください→ください：02899_kudasai⟧: we hope for your continued patronage\n\nUSAGE:\nThe adverb {引|ひ}き{続|つづ}き is far more common than the verb form. It appears frequently in business contexts, news, and formal writing.\n\nSIMILAR WORDS:\n- ⟦{続|つづ}く→続く：00903_tsuzuku⟧: to continue — simpler, more general\n- ⟦{持続|じぞく}する→持続する：26920_jizokusuru⟧: to sustain, to last — more formal, often for states or conditions\n- ⟦{継続|けいぞく}する→継続する：26971_keizokusuru⟧: to continue (something) — transitive, for deliberately maintaining an activity",
   "conjugation_type": "godan-ku",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "26920_jizokusuru",
+      "reading": "じぞくする",
+      "headword": "{持続|じぞく}する",
+      "label": "to sustain, to last"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26971_keizokusuru",
+      "reading": "けいぞくする",
+      "headword": "{継続|けいぞく}する",
+      "label": "to continue"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -58,10 +74,11 @@
       "semantic": [
         "time-general"
       ],
-      "verb_class": "godan-ku"
+      "verb_class": "godan-ku",
+      "transitivity": "intransitive"
     },
     "created": "2026-03-30T21:34:44Z",
-    "modified": "2026-07-28T09:34:52Z"
+    "modified": "2026-09-02T04:02:01Z"
   },
   "conjugation": {
     "type": "godan",

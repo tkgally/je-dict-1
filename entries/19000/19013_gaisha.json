@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "19013_gaisha_ex1",
-      "japanese": "{外車|がいしゃ}に{乗|の}りたい。",
+      "japanese": "{外車|がいしゃ}⟦に→に：00314_ni⟧⟦{乗|の}りたい→乗る：00511_noru⟧。",
       "english": "I want to drive a foreign car.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "19013_gaisha_ex2",
-      "japanese": "{彼|かれ}は{外車|がいしゃ}ばかり{買|か}っている。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{外車|がいしゃ}⟦ばかり→〜ばかり：02006_bakari⟧⟦{買|か}っている→買う：00489_kau⟧。",
       "english": "He only buys foreign cars.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "19013_gaisha_ex3",
-      "japanese": "{外車|がいしゃ}は{修理代|しゅうりだい}が{高|たか}いと{言|い}われている。",
+      "japanese": "{外車|がいしゃ}⟦は→は：00079_ha⟧{修理代|しゅうりだい}⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧⟦と→と：00512_to⟧⟦{言|い}われている→言う：00515_iu⟧。",
       "english": "Foreign cars are said to have expensive repair costs.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,26 @@
       ]
     }
   ],
-  "notes": "USAGE:\nShort for {外国車|がいこくしゃ}. In Japan, {外車|がいしゃ} often carries connotations of luxury or status. The more formal term is {輸入車|ゆにゅうしゃ} (imported car), used in business and official contexts.\n\nCOMMON COLLOCATIONS:\n- {外車|がいしゃ}に{乗|の}る: to drive a foreign car\n- {外車|がいしゃ}ディーラー: foreign car dealer\n- {高級|こうきゅう}{外車|がいしゃ}: luxury foreign car\n- {外車|がいしゃ}{好|ず}き: foreign car enthusiast",
-  "cross_references": [],
+  "notes": "USAGE:\nShort for {外国車|がいこくしゃ}. In Japan, {外車|がいしゃ} often carries connotations of luxury or status. The more formal term is ⟦{輸入車|ゆにゅうしゃ}→輸入車：23864_yunyuusha⟧ (imported car), used in business and official contexts.\n\nCOMMON COLLOCATIONS:\n- {外車|がいしゃ}⟦に→に：00314_ni⟧⟦{乗|の}る→乗る：00511_noru⟧: to drive a foreign car\n- {外車|がいしゃ}ディーラー: foreign car dealer\n- ⟦{高級|こうきゅう}→高級：08644_koukyuu⟧{外車|がいしゃ}: luxury foreign car\n- {外車|がいしゃ}{好|ず}き: foreign car enthusiast",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23864_yunyuusha",
+      "reading": "ゆにゅうしゃ",
+      "headword": "{輸入車|ゆにゅうしゃ}",
+      "label": "imported car"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23865_kokusansha",
+      "reading": "こくさんしゃ",
+      "headword": "{国産車|こくさんしゃ}",
+      "label": "domestic car"
+    }
+  ],
   "metadata": {
     "created": "2026-03-24T00:58:34Z",
-    "modified": "2026-07-26T09:39:42Z",
+    "modified": "2026-09-02T04:01:54Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

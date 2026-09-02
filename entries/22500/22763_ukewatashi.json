@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22763_ukewatashi_ex1",
-      "japanese": "{鍵|かぎ}の{受|う}け{渡|わた}しは{明日|あした}です。",
+      "japanese": "⟦{鍵|かぎ}→鍵：02189_kagi⟧⟦の→の：09472_no⟧{受|う}け{渡|わた}し⟦は→は：00079_ha⟧⟦{明日|あした}→明日：00501_ashita⟧です。",
       "english": "The key handover is tomorrow.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22763_ukewatashi_ex2",
-      "japanese": "{荷物|にもつ}の{受|う}け{渡|わた}しは{玄関|げんかん}で{行|おこな}います。",
+      "japanese": "⟦{荷物|にもつ}→荷物：00737_nimotsu⟧⟦の→の：09472_no⟧{受|う}け{渡|わた}し⟦は→は：00079_ha⟧⟦{玄関|げんかん}→玄関：05003_genkan⟧⟦で→で：00502_de⟧⟦{行|おこな}います→行う：01238_okonau⟧。",
       "english": "Package delivery will take place at the entrance.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22763_ukewatashi_ex3",
-      "japanese": "{物件|ぶっけん}の{受|う}け{渡|わた}し{日|び}が{決|き}まったら、{連絡|れんらく}してください。",
+      "japanese": "⟦{物件|ぶっけん}→物件：06743_bukken⟧⟦の→の：09472_no⟧{受|う}け{渡|わた}し{日|び}⟦が→が：00051_ga⟧⟦{決|き}まったら→決まる：01233_kimaru⟧、⟦{連絡|れんらく}して→連絡する：20202_renrakusuru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please contact us once the property handover date is decided.",
       "sense_numbers": [
         1
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "Compound noun formed from {受|う}ける ('to receive') and {渡|わた}す ('to hand over'). Describes the transaction of passing something from one party to another, emphasizing both the giving and receiving sides of the exchange.\n\nCOMMON COLLOCATIONS:\n- {鍵|かぎ}の{受|う}け{渡|わた}し: key handover\n- {荷物|にもつ}の{受|う}け{渡|わた}し: package delivery\n- {受|う}け{渡|わた}し{日|び}: delivery date, handover date\n- {受|う}け{渡|わた}し{場所|ばしょ}: handover location\n- {業務|ぎょうむ}の{受|う}け{渡|わた}し: work handover (when changing positions)\n\nSIMILAR WORDS:\n- {引|ひ}き{渡|わた}し: delivery, surrender — often used in legal and real estate contexts; implies formal transfer of possession\n- {納品|のうひん}: delivery of goods — specifically for commercial deliveries\n- {引|ひ}き{継|つ}ぎ: taking over, succession — focuses on continuing responsibilities rather than physical transfer",
+  "notes": "Compound noun formed from ⟦{受|う}ける→受ける：01215_ukeru⟧ ('to receive') and ⟦{渡|わた}す→渡す：02442_watasu⟧ ('to hand over'). Describes the transaction of passing something from one party to another, emphasizing both the giving and receiving sides of the exchange.\n\nCOMMON COLLOCATIONS:\n- ⟦{鍵|かぎ}→鍵：02189_kagi⟧⟦の→の：09472_no⟧{受|う}け{渡|わた}し: key handover\n- ⟦{荷物|にもつ}→荷物：00737_nimotsu⟧⟦の→の：09472_no⟧{受|う}け{渡|わた}し: package delivery\n- {受|う}け{渡|わた}し{日|び}: delivery date, handover date\n- {受|う}け{渡|わた}し⟦{場所|ばしょ}→場所：00829_basho⟧: handover location\n- ⟦{業務|ぎょうむ}→業務：09630_gyoumu⟧⟦の→の：09472_no⟧{受|う}け{渡|わた}し: work handover (when changing positions)\n\nSIMILAR WORDS:\n- ⟦{引|ひ}き{渡|わた}し→引き渡し：30090_hikiwatashi⟧: delivery, surrender — often used in legal and real estate contexts; implies formal transfer of possession\n- ⟦{納品|のうひん}→納品：05134_nouhin⟧: delivery of goods — specifically for commercial deliveries\n- ⟦{引|ひ}き{継|つ}ぎ→引き継ぎ：08365_hikitsugi⟧: taking over, succession — focuses on continuing responsibilities rather than physical transfer",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "30090_hikiwatashi",
+      "reading": "ひきわたし",
+      "headword": "{引|ひ}き{渡|わた}し",
+      "label": "delivery, surrender"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05134_nouhin",
+      "reading": "のうひん",
+      "headword": "{納品|のうひん}",
+      "label": "delivery of goods"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08365_hikitsugi",
+      "reading": "ひきつぎ",
+      "headword": "{引|ひ}き{継|つ}ぎ",
+      "label": "taking over, succession"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28014_juju",
+      "reading": "じゅじゅ",
+      "headword": "授受",
+      "label": "giving and receiving"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +89,6 @@
       "politeness": "plain"
     },
     "created": "2026-04-07T15:25:49Z",
-    "modified": "2026-07-30T15:49:39Z"
+    "modified": "2026-09-02T04:02:09Z"
   }
 }

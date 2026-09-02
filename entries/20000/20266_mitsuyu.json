@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "20266_mitsuyu_ex1",
-      "japanese": "{密輸|みつゆ}で{逮捕|たいほ}された。",
+      "japanese": "{密輸|みつゆ}⟦で→で：00502_de⟧⟦{逮捕|たいほ}→逮捕：03397_taiho⟧⟦された→する：00392_suru⟧。",
       "english": "He was arrested for smuggling.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "20266_mitsuyu_ex2",
-      "japanese": "{麻薬|まやく}の{密輸|みつゆ}が{摘発|てきはつ}された。",
+      "japanese": "⟦{麻薬|まやく}→麻薬：18796_mayaku⟧⟦の→の：09472_no⟧{密輸|みつゆ}⟦が→が：00051_ga⟧⟦{摘発|てきはつ}→摘発：12935_tekihatsu⟧⟦された→する：00392_suru⟧。",
       "english": "Drug smuggling was uncovered.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "20266_mitsuyu_ex3",
-      "japanese": "{税関|ぜいかん}は{密輸|みつゆ}を{防|ふせ}ぐために{厳|きび}しい{検査|けんさ}を{行|おこな}っている。",
+      "japanese": "⟦{税関|ぜいかん}→税関：04380_zeikan⟧⟦は→は：00079_ha⟧{密輸|みつゆ}⟦を→を：00422_wo⟧⟦{防|ふせ}ぐ→防ぐ：02409_fusegu⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧⟦{厳|きび}しい→厳しい：01125_kibishii⟧⟦{検査|けんさ}→検査：02707_kensa⟧⟦を→を：00422_wo⟧⟦{行|おこな}っている→行う：01238_okonau⟧。",
       "english": "Customs conducts strict inspections to prevent smuggling.",
       "sense_numbers": [
         1
@@ -134,8 +134,24 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {密|みつ} (secret) + {輸|ゆ} (transport). Functions as a する verb ({密輸|みつゆ}する = to smuggle).\n\nUSAGE:\nCommonly encountered in news reporting about illegal trade. The verb form {密輸|みつゆ}する means \"to smuggle.\" The person who smuggles is {密輸|みつゆ}{業者|ぎょうしゃ} (smuggler) or {密輸|みつゆ}{犯|はん} (smuggling offender).\n\nCOMMON COLLOCATIONS:\n- {密輸|みつゆ}する — to smuggle\n- {密輸|みつゆ}{品|ひん} — smuggled goods, contraband\n- {密輸|みつゆ}{業者|ぎょうしゃ} — smuggler\n- {密輸|みつゆ}ルート — smuggling route\n- {武器|ぶき}の{密輸|みつゆ} — arms smuggling\n\nSIMILAR WORDS:\n- {密売|みつばい} — illegal sale, black market dealing (selling, not transporting)\n- {密入国|みつにゅうこく} — illegal entry into a country (people, not goods)\n- {闇取引|やみとりひき} — black market transaction (broader, includes domestic illegal trade)",
+  "notes": "Compound of ⟦{密|みつ}→密：03777_mitsu⟧ (secret) + {輸|ゆ} (transport). Functions as a ⟦する→する：00392_suru⟧ verb ({密輸|みつゆ}⟦する→する：00392_suru⟧ = to smuggle).\n\nUSAGE:\nCommonly encountered in news reporting about illegal trade. The verb form {密輸|みつゆ}⟦する→する：00392_suru⟧ means \"to smuggle.\" The person who smuggles is {密輸|みつゆ}⟦{業者|ぎょうしゃ}→業者：13130_gyousha⟧ (smuggler) or {密輸|みつゆ}{犯|はん} (smuggling offender).\n\nCOMMON COLLOCATIONS:\n- {密輸|みつゆ}⟦する→する：00392_suru⟧ — to smuggle\n- {密輸|みつゆ}⟦{品|ひん}→品：03712_hin⟧ — smuggled goods, contraband\n- {密輸|みつゆ}⟦{業者|ぎょうしゃ}→業者：13130_gyousha⟧ — smuggler\n- {密輸|みつゆ}⟦ルート→ルート：11250_ruuto⟧ — smuggling route\n- ⟦{武器|ぶき}→武器：03605_buki⟧⟦の→の：09472_no⟧{密輸|みつゆ} — arms smuggling\n\nSIMILAR WORDS:\n- ⟦{密売|みつばい}→密売：22415_mitsubai⟧ — illegal sale, black market dealing (selling, not transporting)\n- {密入国|みつにゅうこく} — illegal entry into a country (people, not goods)\n- ⟦{闇取引|やみとりひき}→闇取引：18918_yamitorihiki⟧ — black market transaction (broader, includes domestic illegal trade)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22415_mitsubai",
+      "reading": "みつばい",
+      "headword": "{密売|みつばい}",
+      "label": "illegal sale, black market dealing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18918_yamitorihiki",
+      "reading": "やみとりひき",
+      "headword": "{闇取引|やみとりひき}",
+      "label": "black market transaction"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -152,6 +168,6 @@
       "verb_class": "suru"
     },
     "created": "2026-03-28T19:15:21Z",
-    "modified": "2026-03-28T19:15:21Z"
+    "modified": "2026-09-02T04:01:59Z"
   }
 }

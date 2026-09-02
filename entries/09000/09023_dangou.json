@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "09023_dangou_ex1",
-      "japanese": "{談合|だんごう}が{発覚|はっかく}した。",
+      "japanese": "{談合|だんごう}⟦が→が：00051_ga⟧⟦{発覚|はっかく}した→発覚する：15423_hakkakusuru⟧。",
       "english": "The bid rigging was discovered.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "09023_dangou_ex2",
-      "japanese": "{大手|おおて}ゼネコンが{談合|だんごう}で{摘発|てきはつ}された。",
+      "japanese": "⟦{大手|おおて}→大手：12171_oote⟧⟦ゼネコン→ゼネコン：11031_zenekon⟧⟦が→が：00051_ga⟧{談合|だんごう}⟦で→で：00502_de⟧⟦{摘発|てきはつ}→摘発：12935_tekihatsu⟧⟦された→する：00392_suru⟧。",
       "english": "Major general contractors were caught for bid rigging.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "09023_dangou_ex3",
-      "japanese": "{公共事業|こうきょうじぎょう}の{入札|にゅうさつ}で{談合|だんごう}が{行|おこな}われていた。",
+      "japanese": "{公共事業|こうきょうじぎょう}⟦の→の：09472_no⟧⟦{入札|にゅうさつ}→入札：20503_nyuusatsu⟧⟦で→で：00502_de⟧{談合|だんごう}⟦が→が：00051_ga⟧⟦{行|おこな}われていた→行う：01238_okonau⟧。",
       "english": "Bid rigging was taking place in public works bidding.",
       "notes": null,
       "has_audio": false,
@@ -43,11 +43,26 @@
       ]
     }
   ],
-  "notes": "{談合|だんごう} refers to illegal collusion in bidding.\n\nUSAGE:\n- Most commonly used for bid rigging in construction and public works contracts\n- Companies secretly agree who will win each bid and at what price\n- Illegal under antitrust and fair trade laws\n\nCOMMON COLLOCATIONS:\n- {談合|だんごう}する: to collude, to rig bids\n- {談合|だんごう}{事件|じけん}: bid-rigging scandal\n- {官製|かんせい}{談合|だんごう}: government-led bid rigging\n- {談合|だんごう}を{防止|ぼうし}する: to prevent bid rigging\n\nORIGINAL MEANING:\nThe word originally meant \"to consult together\" (a neutral meaning), but now primarily refers to illegal collusion.",
-  "cross_references": [],
+  "notes": "{談合|だんごう} refers to illegal collusion in bidding.\n\nUSAGE:\n- Most commonly used for bid rigging in construction and public works contracts\n- Companies secretly agree who will win each bid and at what price\n- Illegal under antitrust and fair trade laws\n\nCOMMON COLLOCATIONS:\n- {談合|だんごう}⟦する→する：00392_suru⟧: to collude, to rig bids\n- {談合|だんごう}⟦{事件|じけん}→事件：01568_jiken⟧: bid-rigging scandal\n- {官製|かんせい}{談合|だんごう}: government-led bid rigging\n- {談合|だんごう}⟦を→を：00422_wo⟧⟦{防止|ぼうし}する→防止する：17342_boushisuru⟧: to prevent bid rigging\n\nORIGINAL MEANING:\nThe word originally meant \"to consult together\" (a neutral meaning), but now primarily refers to illegal collusion.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "20503_nyuusatsu",
+      "reading": "にゅうさつ",
+      "headword": "{入札|にゅうさつ}",
+      "label": "bidding"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26540_yuchakukankei",
+      "reading": "ゆちゃくかんけい",
+      "headword": "{癒着関係|ゆちゃくかんけい}",
+      "label": "collusive relationship"
+    }
+  ],
   "metadata": {
     "created": "2026-01-30T23:00:16Z",
-    "modified": "2026-08-12T21:25:53Z",
+    "modified": "2026-09-02T04:01:17Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

@@ -2,7 +2,7 @@
   "id": "01206_majime",
   "headword": "{真面目|まじめ}",
   "reading": "まじめ",
-  "part_of_speech": "adjective (na-adjective)",
+  "part_of_speech": "na-adjective",
   "gloss": "serious; earnest; diligent",
   "definitions": [
     {
@@ -200,11 +200,32 @@
       "reading": "きんべん",
       "headword": "{勤勉|きんべん}",
       "label": "diligent (formal)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01565_shinken",
+      "reading": "しんけん",
+      "headword": "{真剣|しんけん}",
+      "label": "serious, earnest"
+    },
+    {
+      "type": "related",
+      "target_id": "23129_majimekusai",
+      "reading": "まじめくさい",
+      "headword": "{真面目|まじめ}くさい",
+      "label": "overly serious"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26007_yuutousei",
+      "reading": "ゆうとうせい",
+      "headword": "{優等生|ゆうとうせい}",
+      "label": "honor student"
     }
   ],
   "metadata": {
     "created": "2026-01-08T12:43:39Z",
-    "modified": "2026-05-14T18:11:23Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

@@ -15,42 +15,70 @@
   "examples": [
     {
       "id": "11417_jirei_ex1",
-      "japanese": "{過去|かこ}の{事例|じれい}を{調|しら}べた。",
+      "japanese": "⟦{過去|かこ}→過去：00152_kako⟧⟦の→の：09472_no⟧{事例|じれい}⟦を→を：00422_wo⟧⟦{調|しら}べた→調べる：01213_shiraberu⟧。",
       "english": "I looked into past cases.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11417_jirei_ex2",
-      "japanese": "{成功|せいこう}{事例|じれい}を{参考|さんこう}にして{計画|けいかく}を{立|た}てた。",
+      "japanese": "⟦{成功|せいこう}→成功：02638_seikou⟧{事例|じれい}⟦を→を：00422_wo⟧⟦{参考|さんこう}→参考：02828_sankou⟧にして⟦{計画|けいかく}→計画：01172_keikaku⟧⟦を→を：00422_wo⟧⟦{立|た}てた→立てる：01196_tateru⟧。",
       "english": "I made a plan by referring to successful cases.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11417_jirei_ex3",
-      "japanese": "{同|おな}じような{事例|じれい}が{全国|ぜんこく}で{報告|ほうこく}されており、{対策|たいさく}が{急|いそ}がれている。",
+      "japanese": "⟦{同|おな}じ→同じ：02857_onaji⟧ような{事例|じれい}⟦が→が：00051_ga⟧⟦{全国|ぜんこく}→全国：03311_zenkoku⟧⟦で→で：00502_de⟧⟦{報告|ほうこく}→報告：03618_houkoku⟧⟦されて→する：00392_suru⟧おり、⟦{対策|たいさく}→対策：02511_taisaku⟧⟦が→が：00051_ga⟧⟦{急|いそ}がれている→急ぐ：01191_isogu⟧。",
       "english": "Similar cases have been reported nationwide, and countermeasures are urgently needed.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "COMMON COLLOCATIONS:\n- {成功|せいこう}{事例|じれい} (success story, successful case)\n- {事例|じれい}{研究|けんきゅう} (case study)\n- {過去|かこ}の{事例|じれい} (past cases)\n- {事例|じれい}を{紹介|しょうかい}する (to introduce examples)\n- {具体的|ぐたいてき}な{事例|じれい} (concrete example)\n\nREGISTER: {事例|じれい} is a formal word used in written and professional contexts. In casual conversation, {例|れい} or {例|たと}え is more natural for \"example.\"",
-  "cross_references": [],
+  "notes": "COMMON COLLOCATIONS:\n- ⟦{成功|せいこう}→成功：02638_seikou⟧{事例|じれい} (success story, successful case)\n- {事例|じれい}⟦{研究|けんきゅう}→研究：01396_kenkyuu⟧ (case study)\n- ⟦{過去|かこ}→過去：00152_kako⟧⟦の→の：09472_no⟧{事例|じれい} (past cases)\n- {事例|じれい}⟦を→を：00422_wo⟧⟦{紹介|しょうかい}する→紹介する：05641_shoukaisuru⟧ (to introduce examples)\n- ⟦{具体的|ぐたいてき}→具体的：04781_gutaiteki⟧な{事例|じれい} (concrete example)\n\nREGISTER: {事例|じれい} is a formal word used in written and professional contexts. In casual conversation, ⟦{例|れい}→例：09932_rei⟧ or ⟦{例|たと}え→例え：04128_tatoe⟧ is more natural for \"example.\"",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18329_shourei",
+      "reading": "しょうれい",
+      "headword": "{症例|しょうれい}",
+      "label": "case (medical)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28902_ichirei",
+      "reading": "いちれい",
+      "headword": "{一例|いちれい}",
+      "label": "an example"
+    }
+  ],
   "metadata": {
     "created": "2026-02-16T07:35:11Z",
-    "modified": "2026-02-16T07:35:11Z",
+    "modified": "2026-09-02T04:01:25Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "domain": ["academic", "business"],
-      "semantic": ["general"]
+      "domain": [
+        "academic",
+        "business"
+      ],
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

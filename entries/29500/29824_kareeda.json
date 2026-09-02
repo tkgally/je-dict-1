@@ -15,41 +15,67 @@
   "examples": [
     {
       "id": "29824_kareeda_ex1",
-      "japanese": "{枯|か}れ{枝|えだ}を{拾|ひろ}う。",
+      "japanese": "{枯|か}れ{枝|えだ}⟦を→を：00422_wo⟧⟦{拾|ひろ}う→拾う：00845_hirou⟧。",
       "english": "Pick up dead branches.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29824_kareeda_ex2",
-      "japanese": "{枯|か}れ{枝|えだ}が{風|かぜ}で{折|お}れた。",
+      "japanese": "{枯|か}れ{枝|えだ}⟦が→が：00051_ga⟧⟦{風|かぜ}→風：00641_kaze⟧⟦で→で：00502_de⟧⟦{折|お}れた→折れる：01266_oreru⟧。",
       "english": "A dead branch broke off in the wind.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29824_kareeda_ex3",
-      "japanese": "{庭|にわ}の{枯|か}れ{枝|えだ}を{切|き}って{束|たば}ねた。",
+      "japanese": "⟦{庭|にわ}→庭：02239_niwa⟧⟦の→の：09472_no⟧{枯|か}れ{枝|えだ}⟦を→を：00422_wo⟧⟦{切|き}って→切る：02693_kiru⟧⟦{束|たば}ねた→束ねる：13059_tabaneru⟧。",
       "english": "I cut the dead branches in the garden and bundled them.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Compound of {枯|か}れる (to wither, to die of a plant) + {枝|えだ} (branch).\n\nSIMILAR WORDS:\n- {枯|か}れ{葉|は}: dead, fallen leaves\n- {枯|か}れ{木|き}: a dead tree\n- {小枝|こえだ}: a twig (not necessarily dead)",
+  "notes": "Compound of ⟦{枯|か}れる→枯れる：04589_kareru⟧ (to wither, to die of a plant) + ⟦{枝|えだ}→枝：02181_eda⟧ (branch).\n\nSIMILAR WORDS:\n- ⟦{枯|か}れ{葉|は}→枯れ葉：20386_kareha⟧: dead, fallen leaves\n- {枯|か}れ{木|き}: a dead tree\n- ⟦{小枝|こえだ}→小枝：19403_koeda⟧: a twig (not necessarily dead)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20386_kareha",
+      "reading": "かれは",
+      "headword": "{枯|か}れ{葉|は}",
+      "label": "dead, fallen leaves"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19403_koeda",
+      "reading": "こえだ",
+      "headword": "{小枝|こえだ}",
+      "label": "a twig"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["plant-tree"],
+      "politeness": "plain",
+      "semantic": [
+        "plant-tree"
+      ],
       "domain": []
     },
     "created": "2026-07-14T06:18:33Z",
-    "modified": "2026-07-14T06:18:33Z"
+    "modified": "2026-09-02T04:02:38Z"
   }
 }

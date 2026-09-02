@@ -15,41 +15,66 @@
   "examples": [
     {
       "id": "16862_kutsuhimo_ex1",
-      "japanese": "{靴紐|くつひも}がほどけた。",
+      "japanese": "{靴紐|くつひも}⟦が→が：00051_ga⟧⟦ほどけ→ほどく：10504_hodoku⟧た。",
       "english": "My shoelace came untied.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16862_kutsuhimo_ex2",
-      "japanese": "{靴紐|くつひも}をしっかり{結|むす}んでから{走|はし}ろう。",
+      "japanese": "{靴紐|くつひも}⟦を→を：00422_wo⟧⟦しっかり→しっかり：01272_shikkari⟧⟦{結|むす}んで→結ぶ：02308_musubu⟧⟦から→から：00504_kara⟧⟦{走|はし}ろう→走る：00519_hashiru⟧。",
       "english": "Let's tie our shoelaces tightly before running.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16862_kutsuhimo_ex3",
-      "japanese": "{古|ふる}くなった{靴紐|くつひも}を{新|あたら}しいものに{交換|こうかん}した。",
+      "japanese": "⟦{古|ふる}く→古い：00488_furui⟧⟦なった→なる：01970_naru⟧{靴紐|くつひも}⟦を→を：00422_wo⟧⟦{新|あたら}しい→新しい：00506_atarashii⟧もの⟦に→に：00314_ni⟧⟦{交換|こうかん}→交換：02746_koukan⟧⟦した→する：00392_suru⟧。",
       "english": "I replaced my old shoelaces with new ones.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{靴紐|くつひも} combines {靴|くつ} (shoe) and {紐|ひも} (string/cord). A simple compound noun for shoelaces.\n\nCOMMON COLLOCATIONS:\n- {靴紐|くつひも}を{結|むす}ぶ: to tie one's shoelaces\n- {靴紐|くつひも}がほどける: shoelaces come untied\n- {靴紐|くつひも}を{締|し}める: to tighten shoelaces\n- {靴紐|くつひも}を{交換|こうかん}する: to replace shoelaces\n- {靴紐|くつひも}を{通|とお}す: to thread shoelaces\n\nRELATED WORDS:\n- {靴|くつ}: shoes\n- {紐|ひも}: string, cord\n- {靴下|くつした}: socks\n- スニーカー: sneakers",
-  "cross_references": [],
+  "notes": "{靴紐|くつひも} combines ⟦{靴|くつ}→靴：00725_kutsu⟧ (shoe) and ⟦{紐|ひも}→紐：02251_himo⟧ (string/cord). A simple compound noun for shoelaces.\n\nCOMMON COLLOCATIONS:\n- {靴紐|くつひも}⟦を→を：00422_wo⟧⟦{結|むす}ぶ→結ぶ：02308_musubu⟧: to tie one's shoelaces\n- {靴紐|くつひも}⟦が→が：00051_ga⟧⟦ほどける→ほどく：10504_hodoku⟧: shoelaces come untied\n- {靴紐|くつひも}⟦を→を：00422_wo⟧⟦{締|し}める→締める：10057_shimeru⟧: to tighten shoelaces\n- {靴紐|くつひも}⟦を→を：00422_wo⟧⟦{交換|こうかん}→交換：02746_koukan⟧⟦する→する：00392_suru⟧: to replace shoelaces\n- {靴紐|くつひも}⟦を→を：00422_wo⟧⟦{通|とお}す→通す：02300_toosu⟧: to thread shoelaces\n\nRELATED WORDS:\n- ⟦{靴|くつ}→靴：00725_kutsu⟧: shoes\n- ⟦{紐|ひも}→紐：02251_himo⟧: string, cord\n- ⟦{靴下|くつした}→靴下：00726_kutsushita⟧: socks\n- ⟦スニーカー→スニーカー：04528_suniikaa⟧: sneakers",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "00726_kutsushita",
+      "reading": "くつした",
+      "headword": "{靴下|くつした}",
+      "label": "socks"
+    },
+    {
+      "type": "related",
+      "target_id": "04528_suniikaa",
+      "reading": "すにーかー",
+      "headword": "スニーカー",
+      "label": "sneakers"
+    }
+  ],
   "metadata": {
     "created": "2026-03-14T13:11:43Z",
-    "modified": "2026-03-25T02:55:27Z",
+    "modified": "2026-09-02T04:01:46Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["clothing"]
+      "semantic": [
+        "clothing"
+      ]
     }
   }
 }

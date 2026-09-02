@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "07160_sasai_ex1",
-      "japanese": "{些細|ささい}なことで{喧嘩|けんか}してしまった。",
+      "japanese": "{些細|ささい}なこと⟦で→で：00502_de⟧⟦{喧嘩|けんか}→喧嘩：02996_kenka⟧⟦して→する：00392_suru⟧しまった。",
       "english": "We ended up fighting over something trivial.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "07160_sasai_ex2",
-      "japanese": "{些細|ささい}な{間違|まちが}いでも{見逃|みのが}さないでください。",
+      "japanese": "{些細|ささい}な⟦{間違|まちが}い→間違い：03733_machigai⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧⟦{見逃|みのが}さないで→見逃す：04576_minogasu⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please don't overlook even minor mistakes.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "07160_sasai_ex3",
-      "japanese": "{人生|じんせい}は{些細|ささい}な{幸|しあわ}せの{積|つ}み{重|かさ}ねだ。",
+      "japanese": "⟦{人生|じんせい}→人生：03355_jinsei⟧⟦は→は：00079_ha⟧{些細|ささい}な{幸|しあわ}せ⟦の→の：09472_no⟧{積|つ}み{重|かさ}ねだ。",
       "english": "Life is an accumulation of small happinesses.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "FORMATION:\n{些|さ} (small) + {細|さい} (fine/detailed)\n\nBoth characters emphasize smallness.\n\nFORMS:\n・{些細|ささい}な + noun - trivial (modifier)\n\nCOLLOCATIONS:\n・{些細|ささい}なこと - trivial matter\n・{些細|ささい}な{問題|もんだい} - minor problem\n・{些細|ささい}な{違|ちが}い - slight difference\n・{些細|ささい}なきっかけ - small trigger\n\nREGISTER:\nSlightly formal/literary. In casual speech, ちょっとした or {小|ちい}さな are more common.\n\nSIMILAR WORDS:\n・{軽微|けいび} - minor, slight (formal)\n・{取|と}るに{足|た}りない - not worth mentioning\n・ちょっとした - a little, minor (casual)",
+  "notes": "FORMS:\n{些|さ} (small) + {細|さい} (fine/detailed)\n\nBoth characters emphasize smallness.\n- {些細|ささい}な + noun - trivial (modifier)\n\nCOMMON COLLOCATIONS:\n- {些細|ささい}なこと - trivial matter\n- {些細|ささい}な⟦{問題|もんだい}→問題：00797_mondai⟧ - minor problem\n- {些細|ささい}な⟦{違|ちが}い→違い：03432_chigai⟧ - slight difference\n- {些細|ささい}な⟦きっかけ→きっかけ：10309_kikkake⟧ - small trigger\n\nREGISTER:\nSlightly formal/literary. In casual speech, ⟦ちょっとした→ちょっとした：27439_chottoshita⟧ or ⟦{小|ちい}さな→小さな：02913_chiisana⟧ are more common.\n\nSIMILAR WORDS:\n- ⟦{軽微|けいび}→軽微：16577_keibi⟧ - minor, slight (formal)\n- ⟦{取|と}る→取る：00565_toru⟧⟦に→に：00314_ni⟧⟦{足|た}りない→足りる：01209_tariru⟧ - not worth mentioning\n- ⟦ちょっとした→ちょっとした：27439_chottoshita⟧ - a little, minor (casual)",
   "cross_references": [
     {
       "type": "synonym",
@@ -51,11 +51,53 @@
       "reading": "けいび",
       "headword": "{軽微|けいび}",
       "label": "minor, slight (formal)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27439_chottoshita",
+      "reading": "ちょっとした",
+      "headword": "ちょっとした",
+      "label": "a little, minor"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20095_bishou",
+      "reading": "びしょう",
+      "headword": "{微小|びしょう}",
+      "label": "minute"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20562_saibu",
+      "reading": "さいぶ",
+      "headword": "{細部|さいぶ}",
+      "label": "details"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22248_edaha",
+      "reading": "えだは",
+      "headword": "{枝葉|えだは}",
+      "label": "branches and leaves"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22865_masshou",
+      "reading": "まっしょう",
+      "headword": "{末梢|まっしょう}",
+      "label": "periphery"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25437_taishitakotonai",
+      "reading": "たいしたことない",
+      "headword": "{大|たい}したことない",
+      "label": "not a big deal"
     }
   ],
   "metadata": {
     "created": "2026-01-19T03:00:19Z",
-    "modified": "2026-08-10T06:41:18Z",
+    "modified": "2026-09-02T04:01:10Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

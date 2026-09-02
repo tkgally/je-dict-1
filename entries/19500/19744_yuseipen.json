@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "19744_yuseipen_ex1",
-      "japanese": "{油性|ゆせい}ペンで{名前|なまえ}を{書|か}く。",
+      "japanese": "{油性|ゆせい}ペン⟦で→で：00502_de⟧⟦{名前|なまえ}→名前：02234_namae⟧⟦を→を：00422_wo⟧⟦{書|か}く→書く：00477_kaku⟧。",
       "english": "To write one's name with a permanent marker.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "19744_yuseipen_ex2",
-      "japanese": "{油性|ゆせい}ペンのインクが{服|ふく}についた。",
+      "japanese": "{油性|ゆせい}ペン⟦の→の：09472_no⟧⟦インク→インク：00120_inku⟧⟦が→が：00051_ga⟧⟦{服|ふく}→服：00695_fuku⟧⟦に→に：00314_ni⟧ついた。",
       "english": "Permanent marker ink got on my clothes.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "19744_yuseipen_ex3",
-      "japanese": "{段|だん}ボールに{油性|ゆせい}ペンで{中身|なかみ}を{書|か}いておくと{便利|べんり}だ。",
+      "japanese": "⟦{段|だん}ボール→段ボール：18885_danbooru⟧⟦に→に：00314_ni⟧{油性|ゆせい}ペン⟦で→で：00502_de⟧⟦{中身|なかみ}→中身：01483_nakami⟧⟦を→を：00422_wo⟧⟦{書|か}いて→書く：00477_kaku⟧おく⟦と→と：00512_to⟧⟦{便利|べんり}→便利：00830_benri⟧だ。",
       "english": "It's convenient to write the contents on cardboard boxes with a permanent marker.",
       "sense_numbers": [
         1
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {油性|ゆせい} (oil-based) and ペン (pen). This is the standard Japanese term for permanent markers. The oil-based ink makes it suitable for writing on surfaces where water-based ink would smear.\n\nCOMMON COLLOCATIONS:\n- {油性|ゆせい}ペンで{書|か}く — to write with a permanent marker\n- {油性|ゆせい}ペンの{汚|よご}れ — permanent marker stains\n- {太字|ふとじ}の{油性|ゆせい}ペン — thick permanent marker\n- {細字|ほそじ}の{油性|ゆせい}ペン — fine-point permanent marker\n\nSIMILAR WORDS:\n- {水性|すいせい}ペン — water-based pen; washes off more easily\n- マジック — magic marker (brand name used generically in Japan for permanent markers)\n- サインペン — felt-tip pen; sign pen\n- マーカー — marker; highlighter",
+  "notes": "Compound of ⟦{油性|ゆせい}→油性：24068_yusei⟧ (oil-based) and ⟦ペン→ペン：02960_pen⟧ (pen). This is the standard Japanese term for permanent markers. The oil-based ink makes it suitable for writing on surfaces where water-based ink would smear.\n\nCOMMON COLLOCATIONS:\n- {油性|ゆせい}ペン⟦で→で：00502_de⟧⟦{書|か}く→書く：00477_kaku⟧ — to write with a permanent marker\n- {油性|ゆせい}ペン⟦の→の：09472_no⟧⟦{汚|よご}れ→汚れ：03186_yogore⟧ — permanent marker stains\n- {太字|ふとじ}⟦の→の：09472_no⟧{油性|ゆせい}ペン — thick permanent marker\n- {細字|ほそじ}⟦の→の：09472_no⟧{油性|ゆせい}ペン — fine-point permanent marker\n\nSIMILAR WORDS:\n- ⟦{水性|すいせい}ペン→水性ペン：25091_suiseipen⟧ — water-based pen; washes off more easily\n- ⟦マジック→マジック：11392_majikku⟧ — magic marker (brand name used generically in Japan for permanent markers)\n- ⟦サインペン→サインペン：24225_sainpen⟧ — felt-tip pen; sign pen\n- ⟦マーカー→マーカー：21828_maakaa⟧ — marker; highlighter",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25091_suiseipen",
+      "reading": "すいせいぺん",
+      "headword": "{水性|すいせい}ペン",
+      "label": "water-based pen"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11392_majikku",
+      "reading": "まじっく",
+      "headword": "マジック",
+      "label": "magic marker"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24225_sainpen",
+      "reading": "さいんぺん",
+      "headword": "サインペン",
+      "label": "felt-tip pen"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21828_maakaa",
+      "reading": "まーかー",
+      "headword": "マーカー",
+      "label": "marker"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +90,6 @@
       ]
     },
     "created": "2026-03-26T15:21:58Z",
-    "modified": "2026-07-27T12:42:09Z"
+    "modified": "2026-09-02T04:01:57Z"
   }
 }

@@ -3,7 +3,7 @@
   "headword": "{我|わが}{勝手|かって}",
   "reading": "わがかって",
   "romaji": "wagakatte",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, na-adjective",
   "gloss": "selfishness; doing as one pleases; willfulness",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26529_wagakatte_ex1",
-      "japanese": "{我|わが}{勝手|かって}な{行動|こうどう}は{許|ゆる}されない。",
+      "japanese": "{我|わが}{勝手|かって}な⟦{行動|こうどう}→行動：02728_koudou⟧⟦は→は：00079_ha⟧⟦{許|ゆる}されない→許す：02325_yurusu⟧。",
       "english": "Selfish behavior is not acceptable.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26529_wagakatte_ex2",
-      "japanese": "{彼|かれ}はいつも{我|わが}{勝手|かって}で、{周|まわ}りの{迷惑|めいわく}を{考|かんが}えない。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦いつも→いつも：00599_itsumo⟧{我|わが}{勝手|かって}で、⟦{周|まわ}り→周り：01732_mawari⟧⟦の→の：09472_no⟧⟦{迷惑|めいわく}→迷惑：02432_meiwaku⟧⟦を→を：00422_wo⟧⟦{考|かんが}えない→考える：00856_kangaeru⟧。",
       "english": "He is always selfish and doesn't think about the trouble he causes others.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26529_wagakatte_ex3",
-      "japanese": "{我|わが}{勝手|かって}を{言|い}って{申|もう}し{訳|わけ}ありませんが、{予定|よてい}を{変更|へんこう}していただけませんか。",
+      "japanese": "{我|わが}{勝手|かって}⟦を→を：00422_wo⟧⟦{言|い}って→言う：00515_iu⟧⟦{申|もう}し{訳|わけ}ありません→申し訳ありません：21409_moushiwakearimasen⟧⟦が→が：00051_ga⟧、⟦{予定|よてい}→予定：00824_yotei⟧⟦を→を：00422_wo⟧⟦{変更|へんこう}して→変更する：30779_henkousuru⟧⟦いただけません→いただく：01326_itadaku⟧⟦か→か：09473_ka⟧。",
       "english": "I'm sorry for the selfish request, but would it be possible to change the schedule?",
       "sense_numbers": [
         1
@@ -44,8 +44,37 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {我|わが} (one's own; my) and {勝手|かって} (one's own convenience; selfishness). Functions as both a noun ({我|わが}{勝手|かって}を{言|い}う) and a na-adjective ({我|わが}{勝手|かって}な).\n\nCOMMON COLLOCATIONS:\n- {我|わが}{勝手|かって}な{振|ふ}る{舞|ま}い: selfish behavior\n- {我|わが}{勝手|かって}を{言|い}う: to say selfish things; to make selfish demands\n- {我|わが}{勝手|かって}な{人|ひと}: a selfish person\n- {我|わが}{勝手|かって}な{理由|りゆう}: a self-serving reason\n\nSIMILAR WORDS:\n- わがまま: selfish; spoiled — more common in everyday speech, slightly childish nuance\n- {身勝手|みがって}: selfish; self-centered — stronger negative connotation\n- {自分勝手|じぶんかって}: doing things one's own way — very close synonym, more colloquial\n- {自由勝手|じゆうかって}: acting freely as one pleases — less negative, implies freedom rather than selfishness",
-  "cross_references": [],
+  "notes": "A compound of {我|わが} (one's own; my) and ⟦{勝手|かって}→勝手：03021_katte⟧ (one's own convenience; selfishness). Functions as both a noun ({我|わが}{勝手|かって}⟦を→を：00422_wo⟧⟦{言|い}う→言う：00515_iu⟧) and a na-adjective ({我|わが}{勝手|かって}な).\n\nCOMMON COLLOCATIONS:\n- {我|わが}{勝手|かって}な⟦{振|ふ}る{舞|ま}い→振る舞い：10520_furumai⟧: selfish behavior\n- {我|わが}{勝手|かって}⟦を→を：00422_wo⟧⟦{言|い}う→言う：00515_iu⟧: to say selfish things; to make selfish demands\n- {我|わが}{勝手|かって}な⟦{人|ひと}→人：00476_hito⟧: a selfish person\n- {我|わが}{勝手|かって}な⟦{理由|りゆう}→理由：01102_riyuu⟧: a self-serving reason\n\nSIMILAR WORDS:\n- ⟦わがまま→わがまま：03789_wagamama⟧: selfish; spoiled — more common in everyday speech, slightly childish nuance\n- ⟦{身勝手|みがって}→身勝手：14345_migatte⟧: selfish; self-centered — stronger negative connotation\n- ⟦{自分勝手|じぶんかって}→自分勝手：19490_jibunkatte⟧: doing things one's own way — very close synonym, more colloquial\n- ⟦{自由勝手|じゆうかって}→自由勝手：26586_jiyuukatte⟧: acting freely as one pleases — less negative, implies freedom rather than selfishness",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03789_wagamama",
+      "reading": "わがまま",
+      "headword": "わがまま",
+      "label": "selfish"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14345_migatte",
+      "reading": "みがって",
+      "headword": "{身勝手|みがって}",
+      "label": "selfish"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19490_jibunkatte",
+      "reading": "じぶんかって",
+      "headword": "{自分勝手|じぶんかって}",
+      "label": "doing things one's own way"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26586_jiyuukatte",
+      "reading": "じゆうかって",
+      "headword": "{自由勝手|じゆうかって}",
+      "label": "acting freely as one pleases"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -54,11 +83,12 @@
         "noun",
         "adjective-na"
       ],
+      "politeness": "plain",
       "semantic": [
         "personality"
       ]
     },
     "created": "2026-05-02T14:35:47Z",
-    "modified": "2026-08-06T00:43:53Z"
+    "modified": "2026-09-02T04:02:26Z"
   }
 }

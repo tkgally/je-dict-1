@@ -3,7 +3,7 @@
   "headword": "{見当外|けんとうはず}れ",
   "reading": "けんとうはずれ",
   "romaji": "kentouhazure",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, na-adjective",
   "gloss": "off the mark; wrong guess; irrelevant",
   "definitions": [
     {
@@ -15,41 +15,75 @@
   "examples": [
     {
       "id": "27226_kentouhazure_ex1",
-      "japanese": "その{予想|よそう}は{見当外|けんとうはず}れだった。",
+      "japanese": "⟦その→その：00993_sono⟧⟦{予想|よそう}→予想：03664_yosou⟧⟦は→は：00079_ha⟧{見当外|けんとうはず}れだった。",
       "english": "That prediction was off the mark.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27226_kentouhazure_ex2",
-      "japanese": "{見当外|けんとうはず}れな{質問|しつもん}をしないでください。",
+      "japanese": "{見当外|けんとうはず}れな⟦{質問|しつもん}→質問：00888_shitsumon⟧⟦を→を：00422_wo⟧⟦しないで→する：00392_suru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please don't ask irrelevant questions.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27226_kentouhazure_ex3",
-      "japanese": "{犯人|はんにん}の{目星|めぼし}をつけたが、まったくの{見当外|けんとうはず}れだった。",
+      "japanese": "⟦{犯人|はんにん}→犯人：03572_hannin⟧⟦の→の：09472_no⟧⟦{目星|めぼし}→目星：15941_meboshi⟧⟦を→を：00422_wo⟧⟦つけた→つける：00562_tsukeru⟧⟦が→が：00051_ga⟧、まったく⟦の→の：09472_no⟧{見当外|けんとうはず}れだった。",
       "english": "I thought I had identified the culprit, but I was completely wrong.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {見当|けんとう} (guess/estimate) + {外|はず}れ (miss/off-target). Functions both as a noun and as a na-adjective modifier ({見当外|けんとうはず}れな). The word {見当|けんとう} itself comes from {見|み}{当|あ}て (aim/sight), so {見当外|けんとうはず}れ literally means \"having missed one's aim.\"\n\nCOMMON COLLOCATIONS:\n- {見当外|けんとうはず}れな{答|こた}え: an off-the-mark answer\n- {見当外|けんとうはず}れな{批判|ひはん}: misguided criticism\n- まったくの{見当外|けんとうはず}れ: completely off the mark\n- {見当外|けんとうはず}れもいいところだ: couldn't be more wrong\n\nSIMILAR WORDS:\n- {的外|まとはず}れ: off the mark; irrelevant — very close synonym; {的|まと} (target) emphasizes missing the point even more directly\n- {見当違|けんとうちが}い: mistaken; wrong guess — essentially the same meaning with {違|ちが}い instead of {外|はず}れ\n- {筋違|すじちが}い: misdirected; barking up the wrong tree — the logic or reasoning itself is on the wrong track",
+  "notes": "Composed of ⟦{見当|けんとう}→見当：02795_kentou⟧ (guess/estimate) + ⟦{外|はず}れ→外れる：02395_hazureru⟧ (miss/off-target). Functions both as a noun and as a na-adjective modifier ({見当外|けんとうはず}れな). The word ⟦{見当|けんとう}→見当：02795_kentou⟧ itself comes from {見|み}{当|あ}て (aim/sight), so {見当外|けんとうはず}れ literally means \"having missed one's aim.\"\n\nCOMMON COLLOCATIONS:\n- {見当外|けんとうはず}れな⟦{答|こた}え→答え：00790_kotae⟧: an off-the-mark answer\n- {見当外|けんとうはず}れな⟦{批判|ひはん}→批判：03580_hihan⟧: misguided criticism\n- まったく⟦の→の：09472_no⟧{見当外|けんとうはず}れ: completely off the mark\n- {見当外|けんとうはず}れ⟦も→も：00484_mo⟧⟦いい→いい：00118_ii⟧⟦ところ→ところ：01137_tokoro⟧だ: couldn't be more wrong\n\nSIMILAR WORDS:\n- ⟦{的外|まとはず}れ→的外れ：16719_matohazure⟧: off the mark; irrelevant — very close synonym; ⟦{的|まと}→的：19356_mato⟧ (target) emphasizes missing the point even more directly\n- ⟦{見当違|けんとうちが}い→見当違い：18771_kentouchigai⟧: mistaken; wrong guess — essentially the same meaning with ⟦{違|ちが}い→違い：03432_chigai⟧ instead of ⟦{外|はず}れ→外れる：02395_hazureru⟧\n- ⟦{筋違|すじちが}い→筋違い：21040_sujichigai⟧: misdirected; barking up the wrong tree — the logic or reasoning itself is on the wrong track",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16719_matohazure",
+      "reading": "まとはずれ",
+      "headword": "{的外|まとはず}れ",
+      "label": "off the mark"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18771_kentouchigai",
+      "reading": "けんとうちがい",
+      "headword": "{見当違|けんとうちが}い",
+      "label": "mistaken"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21040_sujichigai",
+      "reading": "すじちがい",
+      "headword": "{筋違|すじちが}い",
+      "label": "misdirected"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-na"],
+      "pos": [
+        "noun",
+        "adjective-na"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
+      "semantic": [
+        "general"
+      ],
       "domain": []
     },
     "created": "2026-05-07T16:23:09Z",
-    "modified": "2026-05-07T16:23:09Z"
+    "modified": "2026-09-02T04:02:29Z"
   }
 }

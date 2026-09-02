@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22600_morihoudai_ex1",
-      "japanese": "サラダバーは{盛|も}り{放題|ほうだい}です。",
+      "japanese": "サラダバー⟦は→は：00079_ha⟧{盛|も}り{放題|ほうだい}です。",
       "english": "The salad bar is all-you-can-serve.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22600_morihoudai_ex2",
-      "japanese": "ごはんの{盛|も}り{放題|ほうだい}サービスがある。",
+      "japanese": "ごはん⟦の→の：09472_no⟧{盛|も}り{放題|ほうだい}⟦サービス→サービス：01531_saabisu⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There's an unlimited rice serving service.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22600_morihoudai_ex3",
-      "japanese": "このカレー{屋|や}さんはライスとサラダが{盛|も}り{放題|ほうだい}なので、{学生|がくせい}に{人気|にんき}がある。",
+      "japanese": "⟦この→この：00962_kono⟧⟦カレー→カレー：02898_karee⟧⟦{屋|や}→〜屋：03096_ya⟧さん⟦は→は：00079_ha⟧⟦ライス→ライス：08838_raisu⟧⟦と→と：00512_to⟧⟦サラダ→サラダ：01364_sarada⟧⟦が→が：00051_ga⟧{盛|も}り{放題|ほうだい}な⟦の→の：09472_no⟧で、⟦{学生|がくせい}→学生：00610_gakusei⟧⟦に→に：00314_ni⟧⟦{人気|にんき}→人気：01488_ninki⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "This curry restaurant offers unlimited rice and salad, so it's popular with students.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {盛|も}る (to heap, to serve food onto a plate) and {放題|ほうだい} (as much as one likes). The 〜{放題|ほうだい} suffix attaches to verb stems to create \"all-you-can-X\" expressions. This one specifically refers to food you serve yourself in unlimited quantities.\n\nCOMMON COLLOCATIONS:\n- ごはん{盛|も}り{放題|ほうだい}: unlimited rice servings\n- サラダ{盛|も}り{放題|ほうだい}: all-you-can-serve salad\n- {盛|も}り{放題|ほうだい}サービス: unlimited serving service\n\nRELATED 〜{放題|ほうだい} EXPRESSIONS:\n- {食|た}べ{放題|ほうだい}: all-you-can-eat\n- {飲|の}み{放題|ほうだい}: all-you-can-drink\n- {取|と}り{放題|ほうだい}: take as much as you want\n- {言|い}いたい{放題|ほうだい}: saying whatever one pleases",
+  "notes": "A compound of ⟦{盛|も}る→盛る：00292_moru⟧ (to heap, to serve food onto a plate) and ⟦{放題|ほうだい}→放題：03151_houdai⟧ (as much as one likes). The 〜⟦{放題|ほうだい}→放題：03151_houdai⟧ suffix attaches to verb stems to create \"all-you-can-X\" expressions. This one specifically refers to food you serve yourself in unlimited quantities.\n\nCOMMON COLLOCATIONS:\n- ごはん{盛|も}り{放題|ほうだい}: unlimited rice servings\n- ⟦サラダ→サラダ：01364_sarada⟧{盛|も}り{放題|ほうだい}: all-you-can-serve salad\n- {盛|も}り{放題|ほうだい}⟦サービス→サービス：01531_saabisu⟧: unlimited serving service\n\nRELATED 〜{放題|ほうだい} EXPRESSIONS:\n- ⟦{食|た}べ{放題|ほうだい}→食べ放題：08291_tabehoudai⟧: all-you-can-eat\n- ⟦{飲|の}み{放題|ほうだい}→飲み放題：08308_nomihoudai⟧: all-you-can-drink\n- ⟦{取|と}り→取る：00565_toru⟧⟦{放題|ほうだい}→放題：03151_houdai⟧: take as much as you want\n- ⟦{言|い}いたい→言う：00515_iu⟧⟦{放題|ほうだい}→放題：03151_houdai⟧: saying whatever one pleases",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "08291_tabehoudai",
+      "reading": "たべほうだい",
+      "headword": "{食|た}べ{放題|ほうだい}",
+      "label": "all-you-can-eat"
+    },
+    {
+      "type": "related",
+      "target_id": "08308_nomihoudai",
+      "reading": "のみほうだい",
+      "headword": "{飲|の}み{放題|ほうだい}",
+      "label": "all-you-can-drink"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +75,6 @@
       "politeness": "plain"
     },
     "created": "2026-04-06T19:16:15Z",
-    "modified": "2026-07-30T15:20:15Z"
+    "modified": "2026-09-02T04:02:08Z"
   }
 }

@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "10881_horobiru_ex1",
-      "japanese": "{文明|ぶんめい}が{滅|ほろ}びる。",
+      "japanese": "⟦{文明|ぶんめい}→文明：03611_bunmei⟧⟦が→が：00051_ga⟧{滅|ほろ}びる。",
       "english": "A civilization perishes.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "10881_horobiru_ex2",
-      "japanese": "その{王国|おうこく}は{戦争|せんそう}によって{滅|ほろ}びた。",
+      "japanese": "⟦その→その：00993_sono⟧⟦{王国|おうこく}→王国：15857_oukoku⟧⟦は→は：00079_ha⟧⟦{戦争|せんそう}→戦争：01450_sensou⟧⟦によって→によって：06801_niyotte⟧{滅|ほろ}びた。",
       "english": "That kingdom was destroyed by war.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "10881_horobiru_ex3",
-      "japanese": "{環境|かんきょう}を{守|まも}らなければ、{多|おお}くの{生物|せいぶつ}が{滅|ほろ}びてしまうだろう。",
+      "japanese": "⟦{環境|かんきょう}→環境：00174_kankyou⟧⟦を→を：00422_wo⟧⟦{守|まも}らなければ→守る：01986_mamoru⟧、{多|おお}く⟦の→の：09472_no⟧⟦{生物|せいぶつ}→生物：03295_seibutsu⟧⟦が→が：00051_ga⟧{滅|ほろ}びてしまうだろう。",
       "english": "If we don't protect the environment, many species will likely perish.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: {自動詞|じどうし} (intransitive). Pattern: Xが{滅|ほろ}びる.\n\nTRANSITIVE PAIR: {滅|ほろ}ぼす (to destroy, to annihilate).\n\nUSAGE:\n{滅|ほろ}びる describes large-scale destruction or extinction — civilizations falling, species dying out, kingdoms collapsing. It is not used for small everyday things breaking. The word carries a literary, dramatic tone.\n\nCOMMON COLLOCATIONS:\n- {国|くに}が{滅|ほろ}びる: a country falls\n- {文明|ぶんめい}が{滅|ほろ}びる: a civilization perishes\n- {種|しゅ}が{滅|ほろ}びる: a species goes extinct\n\nRELATED EXPRESSION:\n{滅亡|めつぼう}する is the する-verb equivalent meaning \"to perish/be annihilated,\" often used in news and historical writing.",
+  "notes": "TRANSITIVITY: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive). Pattern: X⟦が→が：00051_ga⟧{滅|ほろ}びる.\n\nTRANSITIVE PAIR: ⟦{滅|ほろ}ぼす→滅ぼす：13332_horobosu⟧ (to destroy, to annihilate).\n\nUSAGE:\n{滅|ほろ}びる describes large-scale destruction or extinction — civilizations falling, species dying out, kingdoms collapsing. It is not used for small everyday things breaking. The word carries a literary, dramatic tone.\n\nCOMMON COLLOCATIONS:\n- ⟦{国|くに}→国：02204_kuni⟧⟦が→が：00051_ga⟧{滅|ほろ}びる: a country falls\n- ⟦{文明|ぶんめい}→文明：03611_bunmei⟧⟦が→が：00051_ga⟧{滅|ほろ}びる: a civilization perishes\n- ⟦{種|しゅ}→種：28584_shu⟧⟦が→が：00051_ga⟧{滅|ほろ}びる: a species goes extinct\n\nRELATED WORDS:\n⟦{滅亡|めつぼう}→滅亡：13360_metsubou⟧⟦する→する：00392_suru⟧ is the ⟦する→する：00392_suru⟧-verb equivalent meaning \"to perish/be annihilated,\" often used in news and historical writing.",
   "cross_references": [
     {
       "type": "related",
@@ -142,11 +142,18 @@
       "reading": "ほろぼす",
       "headword": "{滅|ほろ}ぼす",
       "label": "transitive pair"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22366_shoumetsusuru",
+      "reading": "しょうめつする",
+      "headword": "{消滅|しょうめつ}する",
+      "label": "to disappear"
     }
   ],
   "metadata": {
     "created": "2026-02-11T09:22:41Z",
-    "modified": "2026-04-11T02:03:14Z",
+    "modified": "2026-09-02T04:01:23Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

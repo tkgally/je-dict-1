@@ -15,41 +15,67 @@
   "examples": [
     {
       "id": "30047_kyuukouki_ex1",
-      "japanese": "{冬|ふゆ}は{休耕期|きゅうこうき}だ。",
+      "japanese": "⟦{冬|ふゆ}→冬：00623_fuyu⟧⟦は→は：00079_ha⟧{休耕期|きゅうこうき}だ。",
       "english": "Winter is the fallow period.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "30047_kyuukouki_ex2",
-      "japanese": "{休耕期|きゅうこうき}に{土|つち}を{休|やす}ませる。",
+      "japanese": "{休耕期|きゅうこうき}⟦に→に：00314_ni⟧⟦{土|つち}→土：02229_tsuchi⟧⟦を→を：00422_wo⟧⟦{休|やす}ませる→休む：00606_yasumu⟧。",
       "english": "Rest the soil during the fallow period.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "30047_kyuukouki_ex3",
-      "japanese": "{休耕期|きゅうこうき}の{間|あいだ}に{農機具|のうきぐ}の{手入|てい}れをする。",
+      "japanese": "{休耕期|きゅうこうき}⟦の→の：09472_no⟧⟦{間|あいだ}→間：00914_aida⟧⟦に→に：00314_ni⟧{農機具|のうきぐ}⟦の→の：09472_no⟧⟦{手入|てい}れ→手入れ：07178_teire⟧⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧。",
       "english": "During the fallow period, we maintain the farm equipment.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Formed from {休耕|きゅうこう} (leaving land fallow) + {期|き} (period). Refers to when fields are deliberately left uncultivated.\n\nCOMMON COLLOCATIONS:\n- {休耕期|きゅうこうき}に{入|はい}る: to enter the fallow period\n- {休耕期|きゅうこうき}の{畑|はたけ}: a fallow field\n\nSIMILAR WORDS:\n- {農閑期|のうかんき}: agricultural off-season — the slack season for farm work in general\n- {休耕田|きゅうこうでん}: fallow rice paddy — a field left uncultivated",
+  "notes": "Formed from ⟦{休耕|きゅうこう}→休耕：19194_kyuukou⟧ (leaving land fallow) + {期|き} (period). Refers to when fields are deliberately left uncultivated.\n\nCOMMON COLLOCATIONS:\n- {休耕期|きゅうこうき}⟦に→に：00314_ni⟧⟦{入|はい}る→入る：00494_hairu⟧: to enter the fallow period\n- {休耕期|きゅうこうき}⟦の→の：09472_no⟧⟦{畑|はたけ}→畑：00842_hatake⟧: a fallow field\n\nSIMILAR WORDS:\n- ⟦{農閑期|のうかんき}→農閑期：25613_noukanki⟧: agricultural off-season — the slack season for farm work in general\n- ⟦{休耕田|きゅうこうでん}→休耕田：25754_kyuukouden⟧: fallow rice paddy — a field left uncultivated",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25613_noukanki",
+      "reading": "のうかんき",
+      "headword": "{農閑期|のうかんき}",
+      "label": "agricultural off-season"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25754_kyuukouden",
+      "reading": "きゅうこうでん",
+      "headword": "{休耕田|きゅうこうでん}",
+      "label": "fallow rice paddy"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["time-period"],
+      "politeness": "plain",
+      "semantic": [
+        "time-period"
+      ],
       "domain": []
     },
     "created": "2026-07-22T12:20:02Z",
-    "modified": "2026-07-22T12:20:02Z"
+    "modified": "2026-09-02T04:02:38Z"
   }
 }

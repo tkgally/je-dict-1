@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25249_hashagu_ex1",
-      "japanese": "{子供|こども}たちがはしゃいでいる。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧たち⟦が→が：00051_ga⟧はしゃいで⟦いる→いる：00495_iru⟧。",
       "english": "The children are romping around excitedly.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25249_hashagu_ex2",
-      "japanese": "{遠足|えんそく}の{前|まえ}の{日|ひ}、{生徒|せいと}たちははしゃいでいた。",
+      "japanese": "⟦{遠足|えんそく}→遠足：04107_ensoku⟧⟦の→の：09472_no⟧⟦{前|まえ}→前：02255_mae⟧⟦の→の：09472_no⟧⟦{日|ひ}→日：02249_hi⟧、⟦{生徒|せいと}→生徒：01051_seito⟧たち⟦は→は：00079_ha⟧はしゃいで⟦いた→いる：00495_iru⟧。",
       "english": "The day before the field trip, the students were all excited.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25249_hashagu_ex3",
-      "japanese": "あまりはしゃぎすぎると{怪我|けが}をするよ。",
+      "japanese": "⟦あまり→あまり：00604_amari⟧はしゃぎすぎる⟦と→と：00512_to⟧{怪我|けが}⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧⟦よ→よ：09475_yo⟧。",
       "english": "If you get too wild, you'll hurt yourself.",
       "sense_numbers": [
         1
@@ -45,7 +45,7 @@
     },
     {
       "id": "25249_hashagu_ex4",
-      "japanese": "{久|ひさ}しぶりの{旅行|りょこう}で、{大人|おとな}も{子供|こども}もはしゃいでいた。",
+      "japanese": "⟦{久|ひさ}しぶり→久しぶり：01711_hisashiburi⟧⟦の→の：09472_no⟧⟦{旅行|りょこう}→旅行：00748_ryokou⟧⟦で→で：00502_de⟧、⟦{大人|おとな}→大人：02856_otona⟧⟦も→も：00484_mo⟧⟦{子供|こども}→子供：00554_kodomo⟧⟦も→も：00484_mo⟧はしゃいで⟦いた→いる：00495_iru⟧。",
       "english": "On the long-awaited trip, both adults and children were giddy with excitement.",
       "sense_numbers": [
         1
@@ -54,22 +54,48 @@
       "notes": null
     }
   ],
-  "notes": "A godan verb describing noisy, energetic excitement — the kind of exuberant behavior typical of children at play. When used about adults, it often carries a tone of gentle criticism or self-deprecation, suggesting they are acting more excitedly than the situation calls for.\n\nCOMMON COLLOCATIONS:\n- はしゃぎすぎる: to get too carried away\n- はしゃぎ{回|まわ}る: to romp around\n- はしゃいだ{声|こえ}: excited voices\n- はしゃぎ{声|ごえ}: boisterous voices\n\nSIMILAR WORDS:\n- {騒|さわ}ぐ: to make noise or cause a commotion; more disruptive and less playful than はしゃぐ\n- {浮|う}かれる: to be in high spirits or carried away by excitement; focuses on the internal feeling rather than outward noisy behavior\n- ふざける: to joke around or fool around; implies deliberate silliness rather than spontaneous excitement",
+  "notes": "A godan verb describing noisy, energetic excitement — the kind of exuberant behavior typical of children at play. When used about adults, it often carries a tone of gentle criticism or self-deprecation, suggesting they are acting more excitedly than the situation calls for.\n\nCOMMON COLLOCATIONS:\n- はしゃぎすぎる: to get too carried away\n- はしゃぎ{回|まわ}る: to romp around\n- はしゃいだ⟦{声|こえ}→声：02207_koe⟧: excited voices\n- はしゃぎ{声|ごえ}: boisterous voices\n\nSIMILAR WORDS:\n- ⟦{騒|さわ}ぐ→騒ぐ：01195_sawagu⟧: to make noise or cause a commotion; more disruptive and less playful than はしゃぐ\n- ⟦{浮|う}かれる→浮かれる：09914_ukareru⟧: to be in high spirits or carried away by excitement; focuses on the internal feeling rather than outward noisy behavior\n- ⟦ふざける→ふざける：09309_fuzakeru⟧: to joke around or fool around; implies deliberate silliness rather than spontaneous excitement",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01195_sawagu",
+      "reading": "さわぐ",
+      "headword": "{騒|さわ}ぐ",
+      "label": "to make noise or cause a commotion"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09914_ukareru",
+      "reading": "うかれる",
+      "headword": "{浮|う}かれる",
+      "label": "to be in high spirits or carried away…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09309_fuzakeru",
+      "reading": "ふざける",
+      "headword": "ふざける",
+      "label": "to joke around or fool around"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "verb-godan"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "emotion",
         "action"
       ],
-      "verb_class": "godan-gu"
+      "verb_class": "godan-gu",
+      "transitivity": "intransitive"
     },
     "created": "2026-04-24T12:10:55Z",
-    "modified": "2026-04-24T12:10:55Z"
+    "modified": "2026-09-02T04:02:21Z"
   },
   "conjugation": {
     "type": "godan",

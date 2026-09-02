@@ -14,41 +14,51 @@
   "examples": [
     {
       "id": "11007_rittoru_ex1",
-      "japanese": "{水|みず}を2リットル{買|か}った。",
+      "japanese": "⟦{水|みず}→水：02258_mizu⟧⟦を→を：00422_wo⟧2リットル⟦{買|か}った→買う：00489_kau⟧。",
       "english": "I bought 2 liters of water.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11007_rittoru_ex2",
-      "japanese": "1{日|にち}に1.5リットルの{水|みず}を{飲|の}むとよい。",
+      "japanese": "1⟦{日|にち}→日：12732_nichi⟧⟦に→に：00314_ni⟧1.5リットル⟦の→の：09472_no⟧⟦{水|みず}→水：02258_mizu⟧⟦を→を：00422_wo⟧⟦{飲|の}む→飲む：00322_nomu⟧⟦と→と：00512_to⟧よい。",
       "english": "It's good to drink 1.5 liters of water per day.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11007_rittoru_ex3",
-      "japanese": "この{車|くるま}のエンジンは2リットルで、{燃費|ねんぴ}がいい。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{車|くるま}→車：00516_kuruma⟧⟦の→の：09472_no⟧⟦エンジン→エンジン：03835_enjin⟧⟦は→は：00079_ha⟧2リットルで、⟦{燃費|ねんぴ}→燃費：18969_nenpi⟧⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧。",
       "english": "This car has a 2-liter engine with good fuel efficiency.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "リットル is the standard unit for measuring liquid volume in Japan.\n\nABBREVIATIONS:\n- L or l (the Latin letter) is commonly used in writing\n- mL / ミリリットル: milliliter (1/1000 of a liter)\n- dL / デシリットル: deciliter (1/10 of a liter, used in school math)\n\nCOMMON EXPRESSIONS:\n- 〜リットル{入|い}り: holds ~ liters\n- 1リットルあたり: per liter\n\nIn Japan, gasoline is priced per liter (not per gallon as in the US).",
+  "notes": "リットル is the standard unit for measuring liquid volume in Japan.\n\nFORMS:\n- L or l (the Latin letter) is commonly used in writing\n- mL / ミリリットル: milliliter (1/1000 of a liter)\n- dL / デシリットル: deciliter (1/10 of a liter, used in school math)\n\nCOMMON EXPRESSIONS:\n- 〜リットル{入|い}り: holds ~ liters\n- 1リットルあたり: per liter\n\nIn Japan, gasoline is priced per liter (not per gallon as in the US).",
   "schema_version": "2.0",
   "metadata": {
     "created": "2026-02-12T07:24:00Z",
-    "modified": "2026-02-12T07:24:00Z",
+    "modified": "2026-09-02T04:01:23Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["counter"],
+      "pos": [
+        "counter"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["number"]
+      "semantic": [
+        "number"
+      ]
     }
   }
 }

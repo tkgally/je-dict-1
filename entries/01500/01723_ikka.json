@@ -29,7 +29,7 @@
     },
     {
       "id": "01723_ikka_ex2",
-      "japanese": "{田中|たなか}{一家|いっか}⟦は→は：00079_ha⟧⟦とても→とても：00593_totemo⟧⟦{仲|なか}→仲：09513_naka⟧⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧。",
+      "japanese": "⟦{田中|たなか}→田中：09528_tanaka⟧{一家|いっか}⟦は→は：00079_ha⟧⟦とても→とても：00593_totemo⟧⟦{仲|なか}→仲：09513_naka⟧⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧。",
       "english": "The Tanaka family gets along very well.",
       "notes": null,
       "has_audio": false,
@@ -118,11 +118,26 @@
       ]
     }
   ],
-  "notes": "{一家|いっか} refers to a family as a unit — a household living together. It emphasizes the group as a whole rather than individual members.\n\nCOMMON PATTERNS:\n- {一家|いっか}⟦{全員|ぜんいん}→全員：03310_zenin⟧: the whole family, all family members\n- {一家|いっか}⟦に→に：00314_ni⟧⟦{一台|いちだい}→一台：08923_ichidai⟧: one per household\n- {一家|いっか}⟦そろって→揃う：01953_sorou⟧: the whole family together\n- {一家|いっか}⟦を→を：00422_wo⟧⟦{支|ささ}える→支える：01946_sasaeru⟧: to support the family\n- {一家|いっか}⟦の→の：09472_no⟧⟦{大黒柱|だいこくばしら}→大黒柱：18511_daikokubashira⟧: breadwinner, pillar of the family\n\nSIMILAR WORDS:\n- ⟦{家族|かぞく}→家族：00552_kazoku⟧: family (general, focuses on members)\n- {一家|いっか}: family/household (as a collective unit)\n- ⟦{世帯|せたい}→世帯：06870_setai⟧: household (administrative/census term)\n\nNOTE:\nAlso used with family names: {田中|たなか}{一家|いっか} (the Tanaka family).",
-  "cross_references": [],
+  "notes": "{一家|いっか} refers to a family as a unit — a household living together. It emphasizes the group as a whole rather than individual members.\n\nCOMMON PATTERNS:\n- {一家|いっか}⟦{全員|ぜんいん}→全員：03310_zenin⟧: the whole family, all family members\n- {一家|いっか}⟦に→に：00314_ni⟧⟦{一台|いちだい}→一台：08923_ichidai⟧: one per household\n- {一家|いっか}⟦そろって→揃う：01953_sorou⟧: the whole family together\n- {一家|いっか}⟦を→を：00422_wo⟧⟦{支|ささ}える→支える：01946_sasaeru⟧: to support the family\n- {一家|いっか}⟦の→の：09472_no⟧⟦{大黒柱|だいこくばしら}→大黒柱：18511_daikokubashira⟧: breadwinner, pillar of the family\n\nSIMILAR WORDS:\n- ⟦{家族|かぞく}→家族：00552_kazoku⟧: family (general, focuses on members)\n- {一家|いっか}: family/household (as a collective unit)\n- ⟦{世帯|せたい}→世帯：06870_setai⟧: household (administrative/census term)\n\nUSAGE:\nAlso used with family names: ⟦{田中|たなか}→田中：09528_tanaka⟧{一家|いっか} (the Tanaka family).",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00552_kazoku",
+      "reading": "かぞく",
+      "headword": "{家族|かぞく}",
+      "label": "family"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06870_setai",
+      "reading": "せたい",
+      "headword": "{世帯|せたい}",
+      "label": "household"
+    }
+  ],
   "metadata": {
     "created": "2026-01-09T11:57:15Z",
-    "modified": "2026-06-11T10:45:00Z",
+    "modified": "2026-09-02T04:01:00Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

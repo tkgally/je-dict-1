@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24890_shoukyakujou_ex1",
-      "japanese": "ゴミは{焼却場|しょうきゃくじょう}で{処理|しょり}される。",
+      "japanese": "⟦ゴミ→ゴミ：00840_gomi⟧⟦は→は：00079_ha⟧{焼却場|しょうきゃくじょう}⟦で→で：00502_de⟧⟦{処理|しょり}される→処理する：25531_shorisuru⟧。",
       "english": "Garbage is processed at the incineration plant.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24890_shoukyakujou_ex2",
-      "japanese": "{新|あたら}しい{焼却場|しょうきゃくじょう}の{建設|けんせつ}{計画|けいかく}に{反対|はんたい}する{住民|じゅうみん}がいる。",
+      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧{焼却場|しょうきゃくじょう}⟦の→の：09472_no⟧⟦{建設|けんせつ}→建設：02708_kensetsu⟧⟦{計画|けいかく}→計画：01172_keikaku⟧⟦に→に：00314_ni⟧⟦{反対|はんたい}する→反対する：05648_hantaisuru⟧⟦{住民|じゅうみん}→住民：03281_juumin⟧⟦が→が：00051_ga⟧⟦いる→いる：00495_iru⟧。",
       "english": "Some residents oppose the plan to build a new incineration plant.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24890_shoukyakujou_ex3",
-      "japanese": "この{焼却場|しょうきゃくじょう}は{最新|さいしん}の{排|はい}ガス{処理|しょり}{装置|そうち}を{備|そな}えており、ダイオキシンの{排出|はいしゅつ}を{大幅|おおはば}に{抑|おさ}えている。",
+      "japanese": "⟦この→この：00962_kono⟧{焼却場|しょうきゃくじょう}⟦は→は：00079_ha⟧⟦{最新|さいしん}→最新：04831_saishin⟧⟦の→の：09472_no⟧{排|はい}⟦ガス→ガス：01344_gasu⟧⟦{処理|しょり}{装置|そうち}→処理装置：23630_shorisouchi⟧⟦を→を：00422_wo⟧⟦{備|そな}えて→備える：02125_sonaeru⟧おり、ダイオキシン⟦の→の：09472_no⟧⟦{排出|はいしゅつ}→排出：04632_haishutsu⟧⟦を→を：00422_wo⟧⟦{大幅|おおはば}→大幅：12170_oohaba⟧⟦に→に：00314_ni⟧⟦{抑|おさ}えている→抑える：12806_osaeru⟧。",
       "english": "This incineration plant is equipped with the latest exhaust gas treatment systems and significantly reduces dioxin emissions.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {焼却|しょうきゃく} (incineration) + {場|じょう} (place/facility). Japan incinerates approximately 80% of its municipal waste, making incineration plants a familiar part of urban infrastructure. Many modern facilities also generate electricity from the heat produced.\n\nCOMMON COLLOCATIONS:\n- ゴミ{焼却場|しょうきゃくじょう}: garbage incineration plant\n- {焼却場|しょうきゃくじょう}の{建設|けんせつ}: construction of an incineration plant\n- {焼却場|しょうきゃくじょう}の{煙突|えんとつ}: incineration plant chimney\n- {産業|さんぎょう}{廃棄物|はいきぶつ}{焼却場|しょうきゃくじょう}: industrial waste incineration plant\n\nSIMILAR WORDS:\n- {焼却炉|しょうきゃくろ}: incinerator — the furnace unit itself, not the whole facility\n- {清掃|せいそう}{工場|こうじょう}: waste processing plant — euphemism used by many municipalities\n- {処理場|しょりじょう}: processing plant — broader term for any waste treatment facility\n- {埋|う}め{立|た}て{地|ち}: landfill — alternative disposal method where waste is buried",
+  "notes": "Compound of ⟦{焼却|しょうきゃく}→焼却：22409_shoukyaku⟧ (incineration) + {場|じょう} (place/facility). Japan incinerates approximately 80% of its municipal waste, making incineration plants a familiar part of urban infrastructure. Many modern facilities also generate electricity from the heat produced.\n\nCOMMON COLLOCATIONS:\n- ⟦ゴミ→ゴミ：00840_gomi⟧{焼却場|しょうきゃくじょう}: garbage incineration plant\n- {焼却場|しょうきゃくじょう}⟦の→の：09472_no⟧⟦{建設|けんせつ}→建設：02708_kensetsu⟧: construction of an incineration plant\n- {焼却場|しょうきゃくじょう}⟦の→の：09472_no⟧⟦{煙突|えんとつ}→煙突：02271_entotsu⟧: incineration plant chimney\n- ⟦{産業|さんぎょう}{廃棄物|はいきぶつ}→産業廃棄物：19064_sangyouhaikibutsu⟧{焼却場|しょうきゃくじょう}: industrial waste incineration plant\n\nSIMILAR WORDS:\n- ⟦{焼却炉|しょうきゃくろ}→焼却炉：23880_shoukyakuro⟧: incinerator — the furnace unit itself, not the whole facility\n- ⟦{清掃|せいそう}→清掃：04332_seisou⟧⟦{工場|こうじょう}→工場：01082_koujou⟧: waste processing plant — euphemism used by many municipalities\n- ⟦{処理場|しょりじょう}→処理場：09653_shorijou⟧: processing plant — broader term for any waste treatment facility\n- ⟦{埋|う}め{立|た}て→埋め立て：12112_umetate⟧{地|ち}: landfill — alternative disposal method where waste is buried",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23880_shoukyakuro",
+      "reading": "しょうきゃくろ",
+      "headword": "{焼却炉|しょうきゃくろ}",
+      "label": "incinerator"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09653_shorijou",
+      "reading": "しょりじょう",
+      "headword": "{処理場|しょりじょう}",
+      "label": "processing plant"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +75,6 @@
       ]
     },
     "created": "2026-04-21T11:27:20Z",
-    "modified": "2026-08-03T09:25:07Z"
+    "modified": "2026-09-02T04:02:20Z"
   }
 }

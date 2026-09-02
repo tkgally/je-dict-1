@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "14994_geishun_ex1",
-      "japanese": "{迎春|げいしゅん}セールが{始|はじ}まった。",
+      "japanese": "{迎春|げいしゅん}⟦セール→セール：07780_seeru⟧⟦が→が：00051_ga⟧⟦{始|はじ}まった→始まる：00841_hajimaru⟧。",
       "english": "The New Year sale has started.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "14994_geishun_ex2",
-      "japanese": "{店先|みせさき}に「{迎春|げいしゅん}」と{書|か}かれた{看板|かんばん}が{出|で}ている。",
+      "japanese": "⟦{店先|みせさき}→店先：20728_misesaki⟧⟦に→に：00314_ni⟧「{迎春|げいしゅん}」⟦と→と：00512_to⟧⟦{書|か}かれた→書く：00477_kaku⟧⟦{看板|かんばん}→看板：00166_kanban⟧⟦が→が：00051_ga⟧⟦{出|で}ている→出る：00513_deru⟧。",
       "english": "A sign reading 'Welcome the New Year' is displayed in front of the shop.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "14994_geishun_ex3",
-      "japanese": "{迎春|げいしゅん}{準備|じゅんび}として{大掃除|おおそうじ}と{正月飾|しょうがつかざ}りを{済|す}ませた。",
+      "japanese": "{迎春|げいしゅん}⟦{準備|じゅんび}→準備：01431_junbi⟧⟦として→として：06802_toshite⟧⟦{大掃除|おおそうじ}→大掃除：08347_oosouji⟧⟦と→と：00512_to⟧⟦{正月飾|しょうがつかざ}り→正月飾り：20983_shougatsukazari⟧⟦を→を：00422_wo⟧⟦{済|す}ませた→済む：01950_sumu⟧。",
       "english": "As preparation for the New Year, I finished the big year-end cleaning and put up the New Year's decorations.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,26 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{迎春|げいしゅん} literally means \"welcoming spring,\" reflecting the old lunar calendar where the new year coincided with the start of spring. It is used as a two-character New Year's greeting on cards and in advertising.\n\nLike {賀正|がしょう}, this is a two-character greeting and is considered less formal than four-character expressions such as {謹賀新年|きんがしんねん}.\n\nCOMMON COLLOCATIONS:\n- {迎春|げいしゅん}セール (New Year sale)\n- {迎春|げいしゅん}{準備|じゅんび} (New Year preparations)\n- {迎春|げいしゅん}{飾|かざ}り (New Year decoration)\n\nRELATED WORDS:\n- {賀正|がしょう}: Happy New Year (written greeting)\n- {謹賀新年|きんがしんねん}: respectful New Year's greeting (formal)\n- {初売|はつう}り: first sale of the new year",
-  "cross_references": [],
+  "notes": "USAGE:\n{迎春|げいしゅん} literally means \"welcoming spring,\" reflecting the old lunar calendar where the new year coincided with the start of spring. It is used as a two-character New Year's greeting on cards and in advertising.\n\nLike ⟦{賀正|がしょう}→賀正：14993_gashou⟧, this is a two-character greeting and is considered less formal than four-character expressions such as ⟦{謹賀新年|きんがしんねん}→謹賀新年：17279_kingashinnen⟧.\n\nCOMMON COLLOCATIONS:\n- {迎春|げいしゅん}⟦セール→セール：07780_seeru⟧ (New Year sale)\n- {迎春|げいしゅん}⟦{準備|じゅんび}→準備：01431_junbi⟧ (New Year preparations)\n- {迎春|げいしゅん}⟦{飾|かざ}り→飾り：02539_kazari⟧ (New Year decoration)\n\nRELATED WORDS:\n- ⟦{賀正|がしょう}→賀正：14993_gashou⟧: Happy New Year (written greeting)\n- ⟦{謹賀新年|きんがしんねん}→謹賀新年：17279_kingashinnen⟧: respectful New Year's greeting (formal)\n- {初売|はつう}り: first sale of the new year",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "14993_gashou",
+      "reading": "がしょう",
+      "headword": "{賀正|がしょう}",
+      "label": "Happy New Year"
+    },
+    {
+      "type": "related",
+      "target_id": "17279_kingashinnen",
+      "reading": "きんがしんねん",
+      "headword": "{謹賀新年|きんがしんねん}",
+      "label": "respectful New Year's greeting"
+    }
+  ],
   "metadata": {
     "created": "2026-03-04T11:08:21Z",
-    "modified": "2026-03-04T11:08:21Z",
+    "modified": "2026-09-02T04:01:39Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

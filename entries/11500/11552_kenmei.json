@@ -14,43 +14,70 @@
   "examples": [
     {
       "id": "11552_kenmei_ex1",
-      "japanese": "メールの{件名|けんめい}を{入力|にゅうりょく}してください。",
+      "japanese": "⟦メール→メール：04435_meeru⟧⟦の→の：09472_no⟧{件名|けんめい}⟦を→を：00422_wo⟧⟦{入力|にゅうりょく}して→入力する：28127_nyuuryokusuru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please enter the email subject line.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11552_kenmei_ex2",
-      "japanese": "{件名|けんめい}に{会議|かいぎ}の{日付|ひづけ}を{入|い}れておいた。",
+      "japanese": "{件名|けんめい}⟦に→に：00314_ni⟧⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦の→の：09472_no⟧⟦{日付|ひづけ}→日付：03706_hizuke⟧⟦を→を：00422_wo⟧⟦{入|い}れて→入れる：01098_ireru⟧おいた。",
       "english": "I put the meeting date in the subject line.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11552_kenmei_ex3",
-      "japanese": "{件名|けんめい}が{空白|くうはく}のメールは{迷惑|めいわく}メールと{間違|まちが}われることがある。",
+      "japanese": "{件名|けんめい}⟦が→が：00051_ga⟧⟦{空白|くうはく}→空白：15426_kuuhaku⟧⟦の→の：09472_no⟧⟦メール→メール：04435_meeru⟧⟦は→は：00079_ha⟧⟦{迷惑|めいわく}→迷惑：02432_meiwaku⟧⟦メール→メール：04435_meeru⟧⟦と→と：00512_to⟧⟦{間違|まちが}われる→間違う：03036_machigau⟧こと⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "Emails with a blank subject line are sometimes mistaken for spam.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "Primarily used in the context of email, where it refers to the subject field. Also used in business and administrative contexts for the title or heading of a case or matter. In Japanese business culture, clear and concise subject lines are considered important for professional correspondence.\n\nCOMMON COLLOCATIONS:\n・メールの{件名|けんめい} (email subject line)\n・{件名|けんめい}を{入力|にゅうりょく}する (enter the subject line)\n・{件名|けんめい}を{変更|へんこう}する (change the subject line)\n・{件名|けんめい}{欄|らん} (subject field)",
-  "cross_references": [],
+  "notes": "Primarily used in the context of email, where it refers to the subject field. Also used in business and administrative contexts for the title or heading of a case or matter. In Japanese business culture, clear and concise subject lines are considered important for professional correspondence.\n\nCOMMON COLLOCATIONS:\n- ⟦メール→メール：04435_meeru⟧⟦の→の：09472_no⟧{件名|けんめい} (email subject line)\n- {件名|けんめい}⟦を→を：00422_wo⟧⟦{入力|にゅうりょく}する→入力する：28127_nyuuryokusuru⟧ (enter the subject line)\n- {件名|けんめい}⟦を→を：00422_wo⟧⟦{変更|へんこう}する→変更する：30779_henkousuru⟧ (change the subject line)\n- {件名|けんめい}⟦{欄|らん}→欄：03901_ran⟧ (subject field)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03421_daimei",
+      "reading": "だいめい",
+      "headword": "{題名|だいめい}",
+      "label": "title (of a work)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14099_hyoudai",
+      "reading": "ひょうだい",
+      "headword": "{表題|ひょうだい}",
+      "label": "title, heading"
+    }
+  ],
   "metadata": {
     "created": "2026-02-17T13:16:08Z",
-    "modified": "2026-02-17T13:16:08Z",
+    "modified": "2026-09-02T04:01:25Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "domain": ["business"],
-      "semantic": ["communication"]
+      "domain": [
+        "business"
+      ],
+      "semantic": [
+        "communication"
+      ]
     }
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "19490_jibunkatte_ex1",
-      "japanese": "{自分勝手|じぶんかって}なことを{言|い}うな。",
+      "japanese": "{自分勝手|じぶんかって}なこと⟦を→を：00422_wo⟧⟦{言|い}う→言う：00515_iu⟧な。",
       "english": "Don't say selfish things.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "19490_jibunkatte_ex2",
-      "japanese": "あの{人|ひと}はいつも{自分勝手|じぶんかって}に{行動|こうどう}する。",
+      "japanese": "⟦あの{人|ひと}→あの人：25922_anohito⟧⟦は→は：00079_ha⟧⟦いつも→いつも：00599_itsumo⟧{自分勝手|じぶんかって}に⟦{行動|こうどう}→行動：02728_koudou⟧⟦する→する：00392_suru⟧。",
       "english": "That person always acts selfishly.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "19490_jibunkatte_ex3",
-      "japanese": "{自分勝手|じぶんかって}な{振|ふ}る{舞|ま}いばかりしていると、{友達|ともだち}がいなくなるよ。",
+      "japanese": "{自分勝手|じぶんかって}な⟦{振|ふ}る{舞|ま}い→振る舞い：10520_furumai⟧⟦ばかり→〜ばかり：02006_bakari⟧⟦している→する：00392_suru⟧⟦と→と：00512_to⟧、⟦{友達|ともだち}→友達：01478_tomodachi⟧がいなくなる⟦よ→よ：09475_yo⟧。",
       "english": "If you keep behaving selfishly, you'll lose all your friends.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {自分|じぶん} (oneself) and {勝手|かって} (one's own way). Describes someone who prioritizes their own desires without regard for how it affects others. It carries a clearly negative judgment.\n\nUSAGE:\nUsed as a na-adjective modifying nouns ({自分勝手|じぶんかって}な{人|ひと}) or adverbially with に ({自分勝手|じぶんかって}に{行動|こうどう}する). Also functions as a noun: {自分勝手|じぶんかって}はやめろ (stop being selfish).\n\nCOMMON COLLOCATIONS:\n- {自分勝手|じぶんかって}な{行動|こうどう} — selfish behavior\n- {自分勝手|じぶんかって}な{人|ひと} — a selfish person\n- {自分勝手|じぶんかって}に{決|き}める — to decide on one's own without consulting others\n\nSIMILAR WORDS:\n- わがまま — selfish, spoiled; often used for children or in intimate relationships\n- {身勝手|みがって} — selfish; very close synonym, slightly more literary\n- {利己的|りこてき} — egoistic; more formal and academic in tone",
+  "notes": "A compound of ⟦{自分|じぶん}→自分：02887_jibun⟧ (oneself) and ⟦{勝手|かって}→勝手：03021_katte⟧ (one's own way). Describes someone who prioritizes their own desires without regard for how it affects others. It carries a clearly negative judgment.\n\nUSAGE:\nUsed as a na-adjective modifying nouns ({自分勝手|じぶんかって}な⟦{人|ひと}→人：00476_hito⟧) or adverbially with ⟦に→に：00314_ni⟧ ({自分勝手|じぶんかって}に⟦{行動|こうどう}→行動：02728_koudou⟧⟦する→する：00392_suru⟧). Also functions as a noun: {自分勝手|じぶんかって}はやめろ (stop being selfish).\n\nCOMMON COLLOCATIONS:\n- {自分勝手|じぶんかって}な⟦{行動|こうどう}→行動：02728_koudou⟧ — selfish behavior\n- {自分勝手|じぶんかって}な⟦{人|ひと}→人：00476_hito⟧ — a selfish person\n- {自分勝手|じぶんかって}⟦に→に：00314_ni⟧⟦{決|き}める→決める：00858_kimeru⟧ — to decide on one's own without consulting others\n\nSIMILAR WORDS:\n- ⟦わがまま→わがまま：03789_wagamama⟧ — selfish, spoiled; often used for children or in intimate relationships\n- ⟦{身勝手|みがって}→身勝手：14345_migatte⟧ — selfish; very close synonym, slightly more literary\n- ⟦{利己的|りこてき}→利己的：21285_rikoteki⟧ — egoistic; more formal and academic in tone",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -60,7 +60,7 @@
       ]
     },
     "created": "2026-03-26T02:37:02Z",
-    "modified": "2026-08-26T00:25:53Z"
+    "modified": "2026-09-02T04:01:56Z"
   },
   "cross_references": [
     {
@@ -69,6 +69,34 @@
       "reading": "わがまま",
       "headword": "わがまま",
       "label": "softer, also self-deprecating"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14345_migatte",
+      "reading": "みがって",
+      "headword": "{身勝手|みがって}",
+      "label": "selfish"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21285_rikoteki",
+      "reading": "りこてき",
+      "headword": "{利己的|りこてき}",
+      "label": "egoistic"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25779_kattekimama",
+      "reading": "かってきまま",
+      "headword": "{勝手|かって}{気|き}まま",
+      "label": "selfish"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26529_wagakatte",
+      "reading": "わがかって",
+      "headword": "{我|わが}{勝手|かって}",
+      "label": "selfishness"
     }
   ]
 }

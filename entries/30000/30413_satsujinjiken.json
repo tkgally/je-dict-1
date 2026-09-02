@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30413_satsujinjiken_ex1",
-      "japanese": "{殺人|さつじん}{事件|じけん}が{起|お}きた。",
+      "japanese": "{殺人|さつじん}{事件|じけん}⟦が→が：00051_ga⟧⟦{起|お}きた→起きる：00521_okiru⟧。",
       "english": "A murder occurred.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30413_satsujinjiken_ex2",
-      "japanese": "{警察|けいさつ}は{殺人|さつじん}{事件|じけん}として{捜査|そうさ}を{始|はじ}めた。",
+      "japanese": "⟦{警察|けいさつ}→警察：01393_keisatsu⟧⟦は→は：00079_ha⟧{殺人|さつじん}{事件|じけん}⟦として→として：06802_toshite⟧⟦{捜査|そうさ}→捜査：03688_sousa⟧⟦を→を：00422_wo⟧⟦{始|はじ}めた→始める：00531_hajimeru⟧。",
       "english": "The police began investigating it as a murder case.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30413_satsujinjiken_ex3",
-      "japanese": "{三十年|さんじゅうねん}{前|まえ}の{殺人|さつじん}{事件|じけん}が、{新|あたら}しい{証拠|しょうこ}によってようやく{解決|かいけつ}した。",
+      "japanese": "{三十年|さんじゅうねん}⟦{前|まえ}→前：02255_mae⟧⟦の→の：09472_no⟧{殺人|さつじん}{事件|じけん}⟦が→が：00051_ga⟧、⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦{証拠|しょうこ}→証拠：10575_shouko⟧⟦によって→によって：06801_niyotte⟧ようやく⟦{解決|かいけつ}した→解決する：17191_kaiketsusuru⟧。",
       "english": "A murder case from thirty years ago was finally solved thanks to new evidence.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "News style uses {事件|じけん} for crimes and {事故|じこ} for accidents, so the choice of word already tells listeners that a crime is suspected.\n\nCOMMON COLLOCATIONS:\n- {殺人|さつじん}{事件|じけん}が{起|お}きる: a murder occurs\n- {殺人|さつじん}{事件|じけん}を{捜査|そうさ}する: to investigate a murder case\n- {殺人|さつじん}{事件|じけん}の{容疑者|ようぎしゃ}: a suspect in a murder case\n- {未解決|みかいけつ}の{殺人|さつじん}{事件|じけん}: an unsolved murder case\n\nSIMILAR WORDS:\n- {殺人|さつじん}: murder, homicide — the act or the crime itself, without the \"case\" framing\n- {殺人|さつじん}{未遂|みすい}: attempted murder — where the victim survives\n- {事件|じけん}: incident, case — the general word for a criminal or newsworthy occurrence",
+  "notes": "News style uses ⟦{事件|じけん}→事件：01568_jiken⟧ for crimes and ⟦{事故|じこ}→事故：00851_jiko⟧ for accidents, so the choice of word already tells listeners that a crime is suspected.\n\nCOMMON COLLOCATIONS:\n- {殺人|さつじん}{事件|じけん}⟦が→が：00051_ga⟧⟦{起|お}きる→起きる：00521_okiru⟧: a murder occurs\n- {殺人|さつじん}{事件|じけん}⟦を→を：00422_wo⟧⟦{捜査|そうさ}→捜査：03688_sousa⟧⟦する→する：00392_suru⟧: to investigate a murder case\n- {殺人|さつじん}{事件|じけん}⟦の→の：09472_no⟧⟦{容疑者|ようぎしゃ}→容疑者：15039_yougisha⟧: a suspect in a murder case\n- ⟦{未解決|みかいけつ}→未解決：17292_mikaiketsu⟧⟦の→の：09472_no⟧{殺人|さつじん}{事件|じけん}: an unsolved murder case\n\nSIMILAR WORDS:\n- ⟦{殺人|さつじん}→殺人：13236_satsujin⟧: murder, homicide — the act or the crime itself, without the \"case\" framing\n- ⟦{殺人|さつじん}{未遂|みすい}→殺人未遂：17491_satsujinmisui⟧: attempted murder — where the victim survives\n- ⟦{事件|じけん}→事件：01568_jiken⟧: incident, case — the general word for a criminal or newsworthy occurrence",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17491_satsujinmisui",
+      "reading": "さつじんみすい",
+      "headword": "{殺人未遂|さつじんみすい}",
+      "label": "attempted murder"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26282_renzokusatsujin",
+      "reading": "れんぞくさつじん",
+      "headword": "{連続殺人|れんぞくさつじん}",
+      "label": "serial murder"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -63,6 +79,6 @@
       ]
     },
     "created": "2026-08-05T00:20:41Z",
-    "modified": "2026-08-05T00:20:41Z"
+    "modified": "2026-09-02T04:02:40Z"
   }
 }

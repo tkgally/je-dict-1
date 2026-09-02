@@ -15,38 +15,67 @@
   "examples": [
     {
       "id": "24747_kousai_ex1",
-      "japanese": "{公債|こうさい}を{発行|はっこう}する。",
+      "japanese": "{公債|こうさい}⟦を→を：00422_wo⟧⟦{発行|はっこう}する→発行する：19236_hakkousuru⟧。",
       "english": "To issue government bonds.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "24747_kousai_ex2",
-      "japanese": "{公債|こうさい}{残高|ざんだか}が{年々|ねんねん}{増加|ぞうか}している。",
+      "japanese": "{公債|こうさい}⟦{残高|ざんだか}→残高：05422_zandaka⟧⟦が→が：00051_ga⟧⟦{年々|ねんねん}→年々：10417_nennen⟧⟦{増加|ぞうか}→増加：03329_zouka⟧⟦している→する：00392_suru⟧。",
       "english": "The outstanding public debt has been increasing year by year.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "24747_kousai_ex3",
-      "japanese": "{政府|せいふ}は{財政|ざいせい}{赤字|あかじ}を{補|おぎな}うために{大量|たいりょう}の{公債|こうさい}を{発行|はっこう}せざるを{得|え}なかった。",
+      "japanese": "⟦{政府|せいふ}→政府：03294_seifu⟧⟦は→は：00079_ha⟧⟦{財政|ざいせい}→財政：05757_zaisei⟧⟦{赤字|あかじ}→赤字：04712_akaji⟧⟦を→を：00422_wo⟧⟦{補|おぎな}う→補う：00329_oginau⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧⟦{大量|たいりょう}→大量：03112_tairyou⟧⟦の→の：09472_no⟧{公債|こうさい}⟦を→を：00422_wo⟧⟦{発行|はっこう}→発行：03693_hakkou⟧⟦せざる→する：00392_suru⟧⟦を→を：00422_wo⟧⟦{得|え}なかった→得る：02014_eru⟧。",
       "english": "The government had no choice but to issue a large volume of bonds to cover the fiscal deficit.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {公|こう} (public) and {債|さい} (debt, bond). Covers both national government bonds ({国債|こくさい}) and local government bonds ({地方債|ちほうさい}).\n\nJapan has one of the highest public debt-to-GDP ratios in the world, making {公債|こうさい} a frequently discussed topic in Japanese news and politics.\n\nCOMMON COLLOCATIONS:\n- {公債|こうさい}を{発行|はっこう}する: to issue government bonds\n- {公債|こうさい}{残高|ざんだか}: outstanding government debt\n- {公債|こうさい}{費|ひ}: debt service costs\n- {公債|こうさい}{依存|いぞん}{度|ど}: bond dependency ratio\n\nSIMILAR WORDS:\n- {国債|こくさい}: national government bond — specifically bonds issued by the central government\n- {社債|しゃさい}: corporate bond — bonds issued by private companies\n- {地方債|ちほうさい}: municipal bond — bonds issued by local governments",
+  "notes": "A compound of {公|こう} (public) and {債|さい} (debt, bond). Covers both national government bonds (⟦{国債|こくさい}→国債：12016_kokusai⟧) and local government bonds ({地方債|ちほうさい}).\n\nJapan has one of the highest public debt-to-GDP ratios in the world, making {公債|こうさい} a frequently discussed topic in Japanese news and politics.\n\nCOMMON COLLOCATIONS:\n- {公債|こうさい}⟦を→を：00422_wo⟧⟦{発行|はっこう}する→発行する：19236_hakkousuru⟧: to issue government bonds\n- {公債|こうさい}⟦{残高|ざんだか}→残高：05422_zandaka⟧: outstanding government debt\n- {公債|こうさい}⟦{費|ひ}→費：09877_hi⟧: debt service costs\n- {公債|こうさい}⟦{依存|いぞん}→依存：11441_izon⟧⟦{度|ど}→〜度：09845_do⟧: bond dependency ratio\n\nSIMILAR WORDS:\n- ⟦{国債|こくさい}→国債：12016_kokusai⟧: national government bond — specifically bonds issued by the central government\n- ⟦{社債|しゃさい}→社債：24079_shasai⟧: corporate bond — bonds issued by private companies\n- {地方債|ちほうさい}: municipal bond — bonds issued by local governments",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12016_kokusai",
+      "reading": "こくさい",
+      "headword": "{国債|こくさい}",
+      "label": "national government bond"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24079_shasai",
+      "reading": "しゃさい",
+      "headword": "{社債|しゃさい}",
+      "label": "corporate bond"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["finance", "politics"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "finance",
+        "politics"
+      ]
     },
     "created": "2026-04-20T14:30:38Z",
-    "modified": "2026-04-20T14:30:38Z"
+    "modified": "2026-09-02T04:02:19Z"
   }
 }

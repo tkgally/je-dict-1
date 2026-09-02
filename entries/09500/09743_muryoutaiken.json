@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "09743_muryoutaiken_ex1",
-      "japanese": "{無料|むりょう}{体験|たいけん}を{申|もう}し{込|こ}んだ。",
+      "japanese": "{無料|むりょう}{体験|たいけん}⟦を→を：00422_wo⟧⟦{申|もう}し{込|こ}んだ→申し込む：02311_moushikomu⟧。",
       "english": "I signed up for the free trial.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "09743_muryoutaiken_ex2",
-      "japanese": "{無料|むりょう}{体験|たいけん}は1ヶ{月|げつ}です。",
+      "japanese": "{無料|むりょう}{体験|たいけん}⟦は→は：00079_ha⟧1ヶ{月|げつ}です。",
       "english": "The free trial is for one month.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "09743_muryoutaiken_ex3",
-      "japanese": "{無料|むりょう}{体験|たいけん}{期間|きかん}が{終|お}わったら{自動|じどう}で{課金|かきん}される。",
+      "japanese": "{無料|むりょう}{体験|たいけん}⟦{期間|きかん}→期間：00229_kikan⟧⟦が→が：00051_ga⟧⟦{終|お}わったら→終わる：00567_owaru⟧⟦{自動|じどう}→自動：03339_jidou⟧⟦で→で：00502_de⟧⟦{課金|かきん}される→課金する：23205_kakinsuru⟧。",
       "english": "You'll be automatically charged when the free trial period ends.",
       "notes": null,
       "has_audio": false,
@@ -43,10 +43,10 @@
       ]
     }
   ],
-  "notes": "{無料|むりょう}{体験|たいけん} is commonly offered by subscription services.\n\nCOMMON COLLOCATIONS:\n- {無料|むりょう}{体験|たいけん}に{申|もう}し{込|こ}む (to sign up for a free trial)\n- {無料|むりょう}{体験|たいけん}{期間|きかん} (free trial period)\n- {無料|むりょう}{体験|たいけん}キャンペーン (free trial campaign)\n\nWARNINGS:\n- Many free trials require credit card registration.\n- Auto-renewal ({自動|じどう}{更新|こうしん}) is often enabled by default.\n\nRELATED TERMS:\n- お{試|ため}し: trial, sample\n- {初回|しょかい}{限定|げんてい}: first-time only\n- {解約|かいやく}: cancellation",
+  "notes": "{無料|むりょう}{体験|たいけん} is commonly offered by subscription services.\n\nCOMMON COLLOCATIONS:\n- {無料|むりょう}{体験|たいけん}⟦に→に：00314_ni⟧⟦{申|もう}し{込|こ}む→申し込む：02311_moushikomu⟧ (to sign up for a free trial)\n- {無料|むりょう}{体験|たいけん}⟦{期間|きかん}→期間：00229_kikan⟧ (free trial period)\n- {無料|むりょう}{体験|たいけん}⟦キャンペーン→キャンペーン：10809_kyanpeen⟧ (free trial campaign)\n\nWATCH OUT:\n- Many free trials require credit card registration.\n- Auto-renewal (⟦{自動|じどう}{更新|こうしん}→自動更新：09742_jidoukoushin⟧) is often enabled by default.\n\nRELATED WORDS:\n- ⟦お{試|ため}し→お試し：09820_otameshi⟧: trial, sample\n- ⟦{初回|しょかい}{限定|げんてい}→初回限定：09821_shokaigentei⟧: first-time only\n- ⟦{解約|かいやく}→解約：06129_kaiyaku⟧: cancellation",
   "metadata": {
     "created": "2026-02-03T07:21:36Z",
-    "modified": "2026-06-25T09:42:48Z",
+    "modified": "2026-09-02T04:01:19Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -89,6 +89,20 @@
       "reading": "むりょう",
       "headword": "{無料|むりょう}",
       "label": "free of charge"
+    },
+    {
+      "type": "related",
+      "target_id": "09820_otameshi",
+      "reading": "おためし",
+      "headword": "お{試|ため}し",
+      "label": "trial, sample"
+    },
+    {
+      "type": "related",
+      "target_id": "09821_shokaigentei",
+      "reading": "しょかいげんてい",
+      "headword": "{初回|しょかい}{限定|げんてい}",
+      "label": "first-time only"
     }
   ]
 }

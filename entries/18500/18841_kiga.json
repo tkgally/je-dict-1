@@ -15,44 +15,86 @@
   "examples": [
     {
       "id": "18841_kiga_ex1",
-      "japanese": "{飢餓|きが}に{苦|くる}しむ。",
+      "japanese": "{飢餓|きが}⟦に→に：00314_ni⟧⟦{苦|くる}しむ→苦しむ：01938_kurushimu⟧。",
       "english": "To suffer from hunger.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "18841_kiga_ex2",
-      "japanese": "{世界|せかい}では{多|おお}くの{人|ひと}が{飢餓|きが}に{直面|ちょくめん}している。",
+      "japanese": "⟦{世界|せかい}→世界：01447_sekai⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧{多|おお}く⟦の→の：09472_no⟧⟦{人|ひと}→人：00476_hito⟧⟦が→が：00051_ga⟧{飢餓|きが}⟦に→に：00314_ni⟧⟦{直面|ちょくめん}している→直面する：15862_chokumensuru⟧。",
       "english": "Many people around the world are facing starvation.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "18841_kiga_ex3",
-      "japanese": "{戦争|せんそう}によって{引|ひ}き{起|お}こされた{飢餓|きが}で、{何百万|なんびゃくまん}もの{命|いのち}が{失|うしな}われた。",
+      "japanese": "⟦{戦争|せんそう}→戦争：01450_sensou⟧⟦によって→によって：06801_niyotte⟧⟦{引|ひ}き{起|お}こされた→引き起こす：06165_hikiokosu⟧{飢餓|きが}⟦で→で：00502_de⟧、{何百万|なんびゃくまん}⟦も→も：00484_mo⟧⟦の→の：09472_no⟧⟦{命|いのち}→命：02371_inochi⟧⟦が→が：00051_ga⟧⟦{失|うしな}われた→失う：01887_ushinau⟧。",
       "english": "Millions of lives were lost to famine caused by war.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A formal word used in news, academic, and humanitarian contexts. Common collocations include {飢餓|きが}に{苦|くる}しむ (to suffer from starvation), {飢餓|きが}に{直面|ちょくめん}する (to face famine), and {飢餓|きが}{状態|じょうたい} (state of starvation). For everyday hunger, お{腹|なか}が{空|す}いた or {空腹|くうふく} is used instead. {飢饉|ききん} (famine) refers specifically to a large-scale food crisis affecting a region.",
+  "notes": "A formal word used in news, academic, and humanitarian contexts. Common collocations include {飢餓|きが}⟦に→に：00314_ni⟧⟦{苦|くる}しむ→苦しむ：01938_kurushimu⟧ (to suffer from starvation), {飢餓|きが}⟦に→に：00314_ni⟧⟦{直面|ちょくめん}する→直面する：15862_chokumensuru⟧ (to face famine), and {飢餓|きが}⟦{状態|じょうたい}→状態：03345_joutai⟧ (state of starvation). For everyday hunger, ⟦お{腹|なか}→お腹：00805_onaka⟧⟦が→が：00051_ga⟧{空|す}いた or ⟦{空腹|くうふく}→空腹：06532_kuufuku⟧ is used instead. ⟦{飢饉|ききん}→飢饉：00230_kikin⟧ (famine) refers specifically to a large-scale food crisis affecting a region.",
   "synonyms": [],
   "antonyms": [],
   "related": [],
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "06532_kuufuku",
+      "reading": "くうふく",
+      "headword": "{空腹|くうふく}",
+      "label": "hunger, empty stomach"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19723_shokuryounan",
+      "reading": "しょくりょうなん",
+      "headword": "{食糧難|しょくりょうなん}",
+      "label": "food shortage"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19826_ue",
+      "reading": "うえ",
+      "headword": "{飢|う}え",
+      "label": "hunger, starvation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21221_eiyoushicchou",
+      "reading": "えいようしっちょう",
+      "headword": "{栄養失調|えいようしっちょう}",
+      "label": "malnutrition"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"],
-      "style": ["written"]
+      "semantic": [
+        "general"
+      ],
+      "style": [
+        "written"
+      ]
     },
     "created": "2026-03-23T05:29:23Z",
-    "modified": "2026-03-23T05:29:23Z"
+    "modified": "2026-09-02T04:01:53Z"
   }
 }

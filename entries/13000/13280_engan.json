@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "13280_engan_ex1",
-      "japanese": "{沿岸|えんがん}に{町|まち}が{多|おお}い。",
+      "japanese": "{沿岸|えんがん}⟦に→に：00314_ni⟧⟦{町|まち}→町：00613_machi⟧⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "There are many towns along the coast.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "13280_engan_ex2",
-      "japanese": "{台風|たいふう}が{沿岸|えんがん}{地域|ちいき}に{接近|せっきん}している。",
+      "japanese": "⟦{台風|たいふう}→台風：01455_taifuu⟧⟦が→が：00051_ga⟧{沿岸|えんがん}⟦{地域|ちいき}→地域：01461_chiiki⟧⟦に→に：00314_ni⟧⟦{接近|せっきん}している→接近する：25362_sekkinsuru⟧。",
       "english": "A typhoon is approaching the coastal area.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "13280_engan_ex3",
-      "japanese": "この{沿岸|えんがん}では{昔|むかし}から{漁業|ぎょぎょう}が{盛|さか}んだ。",
+      "japanese": "⟦この→この：00962_kono⟧{沿岸|えんがん}⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{昔|むかし}→昔：01515_mukashi⟧⟦から→から：00504_kara⟧⟦{漁業|ぎょぎょう}→漁業：20496_gyogyou⟧⟦が→が：00051_ga⟧⟦{盛|さか}ん→盛ん：01239_sakan⟧だ。",
       "english": "Fishing has flourished along this coast since ancient times.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nOften used as a noun modifier: {沿岸|えんがん}{地域|ちいき} (coastal area), {沿岸|えんがん}{漁業|ぎょぎょう} (coastal fishing). Refers specifically to the land along a body of water, whereas {海岸|かいがん} focuses more on the beach or shoreline itself.\n\nCOMMON COLLOCATIONS:\n- {沿岸|えんがん}{地域|ちいき}: coastal area/region\n- {沿岸|えんがん}{漁業|ぎょぎょう}: coastal fishing\n- {沿岸|えんがん}{部|ぶ}: coastal zone\n- {沿岸|えんがん}{警備|けいび}: coast guard duties\n- {太平洋|たいへいよう}{沿岸|えんがん}: Pacific coast",
+  "notes": "USAGE:\nOften used as a noun modifier: {沿岸|えんがん}⟦{地域|ちいき}→地域：01461_chiiki⟧ (coastal area), {沿岸|えんがん}⟦{漁業|ぎょぎょう}→漁業：20496_gyogyou⟧ (coastal fishing). Refers specifically to the land along a body of water, whereas ⟦{海岸|かいがん}→海岸：00852_kaigan⟧ focuses more on the beach or shoreline itself.\n\nCOMMON COLLOCATIONS:\n- {沿岸|えんがん}⟦{地域|ちいき}→地域：01461_chiiki⟧: coastal area/region\n- {沿岸|えんがん}⟦{漁業|ぎょぎょう}→漁業：20496_gyogyou⟧: coastal fishing\n- {沿岸|えんがん}⟦{部|ぶ}→〜部：00440_bu⟧: coastal zone\n- {沿岸|えんがん}⟦{警備|けいび}→警備：00208_keibi⟧: coast guard duties\n- ⟦{太平洋|たいへいよう}→太平洋：09680_taiheiyou⟧{沿岸|えんがん}: Pacific coast",
   "cross_references": [
     {
       "type": "related",
@@ -59,11 +59,18 @@
       "reading": "かいがん",
       "headword": "{海岸|かいがん}",
       "label": "beach, shoreline"
+    },
+    {
+      "type": "related",
+      "target_id": "19458_okiai",
+      "reading": "おきあい",
+      "headword": "{沖合|おきあい}",
+      "label": "offshore, open sea"
     }
   ],
   "metadata": {
     "created": "2026-02-24T08:51:30Z",
-    "modified": "2026-04-28T08:04:59Z",
+    "modified": "2026-09-02T04:01:32Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

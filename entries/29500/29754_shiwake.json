@@ -3,7 +3,7 @@
   "headword": "{仕訳|しわけ}",
   "reading": "しわけ",
   "romaji": "shiwake",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "journal entry; bookkeeping entry",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29754_shiwake_ex1",
-      "japanese": "{仕訳|しわけ}を{入力|にゅうりょく}する。",
+      "japanese": "{仕訳|しわけ}⟦を→を：00422_wo⟧⟦{入力|にゅうりょく}する→入力する：28127_nyuuryokusuru⟧。",
       "english": "Enter the journal entries.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29754_shiwake_ex2",
-      "japanese": "{取引|とりひき}を{仕訳|しわけ}する。",
+      "japanese": "⟦{取引|とりひき}→取引：04700_torihiki⟧⟦を→を：00422_wo⟧{仕訳|しわけ}⟦する→する：00392_suru⟧。",
       "english": "Record the transaction as a journal entry.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29754_shiwake_ex3",
-      "japanese": "{経理|けいり}の{担当者|たんとうしゃ}が、{毎月|まいつき}の{取引|とりひき}を{仕訳|しわけ}して{帳簿|ちょうぼ}に{記入|きにゅう}する。",
+      "japanese": "⟦{経理|けいり}→経理：06439_keiri⟧⟦の→の：09472_no⟧⟦{担当者|たんとうしゃ}→担当者：09676_tantousha⟧⟦が→が：00051_ga⟧、⟦{毎月|まいつき}→毎月：00732_maitsuki⟧⟦の→の：09472_no⟧⟦{取引|とりひき}→取引：04700_torihiki⟧⟦を→を：00422_wo⟧{仕訳|しわけ}⟦して→する：00392_suru⟧⟦{帳簿|ちょうぼ}→帳簿：07961_choubo⟧⟦に→に：00314_ni⟧⟦{記入|きにゅう}→記入：02624_kinyuu⟧⟦する→する：00392_suru⟧。",
       "english": "The accounting staff records each month's transactions as journal entries in the ledger.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "An accounting term: sorting each transaction into debit ({借方|かりかた}) and credit ({貸方|かしかた}) accounts. Written {仕訳|しわけ}; do not confuse with {仕分|しわ}け (sorting, dividing things up).\n\nCOMMON COLLOCATIONS:\n- {仕訳|しわけ}{帳|ちょう}: journal (book of original entry)\n- {仕訳|しわけ}を{切|き}る: to make a journal entry\n- {自動|じどう}{仕訳|しわけ}: automatic journal entry (in accounting software)",
+  "notes": "An accounting term: sorting each transaction into debit ({借方|かりかた}) and credit ({貸方|かしかた}) accounts. Written {仕訳|しわけ}; do not confuse with ⟦{仕分|しわ}け→仕分ける：20080_shiwakeru⟧ (sorting, dividing things up).\n\nCOMMON COLLOCATIONS:\n- {仕訳|しわけ}{帳|ちょう}: journal (book of original entry)\n- {仕訳|しわけ}⟦を→を：00422_wo⟧⟦{切|き}る→切る：02693_kiru⟧: to make a journal entry\n- {自動|じどう}{仕訳|しわけ}: automatic journal entry (in accounting software)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "06439_keiri",
+      "reading": "けいり",
+      "headword": "{経理|けいり}",
+      "label": "accounting, financial management"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -54,17 +63,18 @@
         "verb-suru"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "business"
       ],
       "domain": [
         "business"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-07-10T12:26:59Z",
-    "modified": "2026-07-10T12:26:59Z"
+    "modified": "2026-09-02T04:02:37Z"
   },
   "conjugation": {
     "type": "suru",

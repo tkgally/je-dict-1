@@ -118,7 +118,7 @@
       ]
     }
   ],
-  "notes": "{後|あと}で indicates temporal sequence meaning 'after' or 'later.'\n\nGRAMMAR PATTERNS:\n- [Verb past tense] + {後|あと}で: after doing ~\n- [Noun] + ⟦の→の：09472_no⟧{後|あと}で: after [noun]\n- {後|あと}で alone: later\n\nEXAMPLES:\n- ⟦{食|た}べた→食べる：00396_taberu⟧{後|あと}で: after eating\n- ⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦の→の：09472_no⟧{後|あと}で: after work\n- {後|あと}で⟦ね→ね：09474_ne⟧: See you later (casual)\n\nCONTRAST:\n- {後|あと}で: after (time)\n- ⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧: before (time)\n- ⟦{後|うしろ}→後ろ：00683_ushiro⟧: behind (location, not time)\n\nNOTE:\n{後|あと}で focuses on sequence. For 'in X minutes/hours,' use {後|ご} instead: ⟦{一時間後|いちじかんご}→一時間：00941_ichijikan⟧ (in one hour).",
+  "notes": "{後|あと}で indicates temporal sequence meaning 'after' or 'later.'\n\nCOMMON PATTERNS:\n- [Verb past tense] + {後|あと}で: after doing ~\n- [Noun] + ⟦の→の：09472_no⟧{後|あと}で: after [noun]\n- {後|あと}で alone: later\n\nEXAMPLES:\n- ⟦{食|た}べた→食べる：00396_taberu⟧{後|あと}で: after eating\n- ⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦の→の：09472_no⟧{後|あと}で: after work\n- {後|あと}で⟦ね→ね：09474_ne⟧: See you later (casual)\n\nSIMILAR WORDS:\n- {後|あと}で: after (time)\n- ⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧: before (time)\n- ⟦{後|うしろ}→後ろ：00683_ushiro⟧: behind (location, not time)\n\nUSAGE:\n{後|あと}で focuses on sequence. For 'in X minutes/hours,' use ⟦{後|ご}→後：30157_go⟧ instead: ⟦{一時間後|いちじかんご}→一時間：00941_ichijikan⟧ (in one hour).",
   "cross_references": [
     {
       "type": "antonym",
@@ -126,11 +126,25 @@
       "reading": "まえに",
       "headword": "{前|まえ}に",
       "label": "before"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16111_chokugoni",
+      "reading": "ちょくごに",
+      "headword": "{直後|ちょくご}に",
+      "label": "immediately after"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21051_nochihodo",
+      "reading": "のちほど",
+      "headword": "{後程|のちほど}",
+      "label": "later on"
     }
   ],
   "metadata": {
     "created": "2026-01-07T12:30:50Z",
-    "modified": "2026-08-01T18:20:15Z",
+    "modified": "2026-09-02T04:00:58Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

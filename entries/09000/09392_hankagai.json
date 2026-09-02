@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "09392_hankagai_ex1",
-      "japanese": "{繁華街|はんかがい}で{遊|あそ}ぶ。",
+      "japanese": "{繁華街|はんかがい}⟦で→で：00502_de⟧⟦{遊|あそ}ぶ→遊ぶ：00550_asobu⟧。",
       "english": "To hang out downtown.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "09392_hankagai_ex2",
-      "japanese": "{夜|よる}の{繁華街|はんかがい}はネオンが{美|うつく}しい。",
+      "japanese": "⟦{夜|よる}→夜：00487_yoru⟧⟦の→の：09472_no⟧{繁華街|はんかがい}⟦は→は：00079_ha⟧⟦ネオン→ネオン：08835_neon⟧⟦が→が：00051_ga⟧⟦{美|うつく}しい→美しい：01121_utsukushii⟧。",
       "english": "The neon lights are beautiful in the downtown area at night.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "09392_hankagai_ex3",
-      "japanese": "{渋谷|しぶや}は{若者|わかもの}に{人気|にんき}の{繁華街|はんかがい}だ。",
+      "japanese": "⟦{渋谷|しぶや}→渋谷：30632_shibuya⟧⟦は→は：00079_ha⟧⟦{若者|わかもの}→若者：03037_wakamono⟧⟦に→に：00314_ni⟧⟦{人気|にんき}→人気：01488_ninki⟧⟦の→の：09472_no⟧{繁華街|はんかがい}だ。",
       "english": "Shibuya is a downtown district popular with young people.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
     },
     {
       "id": "09392_hankagai_ex4",
-      "japanese": "{週末|しゅうまつ}の{繁華街|はんかがい}は{人|ひと}で{溢|あふ}れている。",
+      "japanese": "⟦{週末|しゅうまつ}→週末：03030_shuumatsu⟧⟦の→の：09472_no⟧{繁華街|はんかがい}⟦は→は：00079_ha⟧⟦{人|ひと}→人：00476_hito⟧⟦で→で：00502_de⟧⟦{溢|あふ}れている→溢れる：04250_afureru⟧。",
       "english": "The downtown area is overflowing with people on weekends.",
       "notes": null,
       "has_audio": false,
@@ -53,10 +53,10 @@
       ]
     }
   ],
-  "notes": "{繁華街|はんかがい} refers to busy commercial and entertainment districts. Famous examples include Shibuya, Shinjuku, and Ikebukuro in Tokyo, and Minami in Osaka.\n\nThe term emphasizes bustling activity and commerce, not specifically entertainment like {歓楽街|かんらくがい}.\n\nRelated terms:\n- {歓楽街|かんらくがい}: entertainment/nightlife district\n- {商店街|しょうてんがい}: shopping street\n- {住宅街|じゅうたくがい}: residential area",
+  "notes": "{繁華街|はんかがい} refers to busy commercial and entertainment districts. Famous examples include Shibuya, Shinjuku, and Ikebukuro in Tokyo, and Minami in Osaka.\n\nThe term emphasizes bustling activity and commerce, not specifically entertainment like ⟦{歓楽街|かんらくがい}→歓楽街：09393_kanrakugai⟧.\n\nRelated terms:\n- ⟦{歓楽街|かんらくがい}→歓楽街：09393_kanrakugai⟧: entertainment/nightlife district\n- ⟦{商店街|しょうてんがい}→商店街：09391_shoutengai⟧: shopping street\n- ⟦{住宅街|じゅうたくがい}→住宅街：09394_juutakugai⟧: residential area",
   "metadata": {
     "created": "2026-02-01T09:12:50Z",
-    "modified": "2026-08-13T09:37:24Z",
+    "modified": "2026-09-02T04:01:18Z",
     "ai_model": "opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -92,6 +92,41 @@
       "reading": "じゅうたくがい",
       "headword": "{住宅街|じゅうたくがい}",
       "label": "residential area"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03120_chuushinchi",
+      "reading": "ちゅうしんち",
+      "headword": "{中心地|ちゅうしんち}",
+      "label": "center, central area, hub"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10158_juutakuchi",
+      "reading": "じゅうたくち",
+      "headword": "{住宅地|じゅうたくち}",
+      "label": "residential area"
+    },
+    {
+      "type": "related",
+      "target_id": "19057_shougyouchi",
+      "reading": "しょうぎょうち",
+      "headword": "{商業地|しょうぎょうち}",
+      "label": "commercial district"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21534_chuushingai",
+      "reading": "ちゅうしんがい",
+      "headword": "{中心街|ちゅうしんがい}",
+      "label": "city center"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23046_nomiyagai",
+      "reading": "のみやがい",
+      "headword": "{飲|の}み{屋街|やがい}",
+      "label": "bar district"
     }
   ]
 }

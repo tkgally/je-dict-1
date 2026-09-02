@@ -15,42 +15,62 @@
   "examples": [
     {
       "id": "12863_tsukanoma_ex1",
-      "japanese": "{束|つか}の{間|ま}の{休息|きゅうそく}だった。",
+      "japanese": "{束|つか}の{間|ま}⟦の→の：09472_no⟧⟦{休息|きゅうそく}→休息：02587_kyuusoku⟧だった。",
       "english": "It was a brief moment of rest.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12863_tsukanoma_ex2",
-      "japanese": "{雨|あめ}が{止|や}んで、{束|つか}の{間|ま}の{晴|は}れ{間|ま}が{広|ひろ}がった。",
+      "japanese": "⟦{雨|あめ}→雨：00583_ame⟧⟦が→が：00051_ga⟧⟦{止|や}んで→止む：01153_yamu⟧、{束|つか}の{間|ま}⟦の→の：09472_no⟧{晴|は}れ{間|ま}⟦が→が：00051_ga⟧⟦{広|ひろ}がった→広がる：01980_hirogaru⟧。",
       "english": "The rain stopped, and a brief clearing spread across the sky.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12863_tsukanoma_ex3",
-      "japanese": "{束|つか}の{間|ま}の{幸|しあわ}せだったが、あの{時間|じかん}は{忘|わす}れられない。",
+      "japanese": "{束|つか}の{間|ま}⟦の→の：09472_no⟧{幸|しあわ}せだった⟦が→が：00051_ga⟧、⟦あの→あの：00915_ano⟧⟦{時間|じかん}→時間：00468_jikan⟧⟦は→は：00079_ha⟧⟦{忘|わす}れられない→忘れる：00474_wasureru⟧。",
       "english": "It was a fleeting happiness, but I can never forget that time.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nTypically used as a noun modifier with the の particle: {束|つか}の{間|ま}の + noun. Carries a literary, slightly melancholy tone — the happiness or peace described is precious precisely because it is so short. Common in written prose and narration.\n\nCOMMON COLLOCATIONS:\n- {束|つか}の{間|ま}の{平和|へいわ}: a fleeting peace\n- {束|つか}の{間|ま}の{幸|しあわ}せ: fleeting happiness\n- {束|つか}の{間|ま}の{休息|きゅうそく}: a brief rest\n\nETYMOLOGY:\n{束|つか} originally referred to the width of a clenched fist (about 7-8 cm), used as a unit of measurement. {束|つか}の{間|ま} literally means \"the space of a fist\" — metaphorically, an extremely short time.",
-  "cross_references": [],
+  "notes": "USAGE:\nTypically used as a noun modifier with the ⟦の→の：09472_no⟧ particle: {束|つか}の{間|ま}⟦の→の：09472_no⟧ + noun. Carries a literary, slightly melancholy tone — the happiness or peace described is precious precisely because it is so short. Common in written prose and narration.\n\nCOMMON COLLOCATIONS:\n- {束|つか}の{間|ま}⟦の→の：09472_no⟧⟦{平和|へいわ}→平和：01507_heiwa⟧: a fleeting peace\n- {束|つか}の{間|ま}⟦の→の：09472_no⟧{幸|しあわ}せ: fleeting happiness\n- {束|つか}の{間|ま}⟦の→の：09472_no⟧⟦{休息|きゅうそく}→休息：02587_kyuusoku⟧: a brief rest\n\nETYMOLOGY:\n{束|つか} originally referred to the width of a clenched fist (about 7-8 cm), used as a unit of measurement. {束|つか}の{間|ま} literally means \"the space of a fist\" — metaphorically, an extremely short time.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "10494_hitotoki",
+      "reading": "ひととき",
+      "headword": "ひととき",
+      "label": "a moment, a while, a brief time"
+    }
+  ],
   "metadata": {
     "created": "2026-02-22T12:39:24Z",
-    "modified": "2026-02-22T12:39:24Z",
+    "modified": "2026-09-02T04:01:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["time-general"],
-      "style": ["literary"]
+      "semantic": [
+        "time-general"
+      ],
+      "style": [
+        "literary"
+      ]
     }
   }
 }

@@ -29,7 +29,7 @@
     },
     {
       "id": "05729_yatarani_ex2",
-      "japanese": "やたらに⟦{お金|おかね}→おかね：00611_okane⟧⟦を→を：00422_wo⟧⟦{使|つか}わないでください→つかう：00473_tsukau⟧。",
+      "japanese": "やたらに⟦お{金|かね}→おかね：00611_okane⟧⟦を→を：00422_wo⟧⟦{使|つか}わないでください→つかう：00473_tsukau⟧。",
       "english": "Please don't spend money recklessly.",
       "has_audio": false,
       "notes": null,
@@ -78,7 +78,7 @@
       ]
     }
   ],
-  "notes": "NUANCE:\nやたらに carries a negative connotation, suggesting lack of thought, restraint, or appropriateness.\n\nVARIATIONS:\n- やたら: more colloquial\n- やたらと: also common\n\nCOMMON COLLOCATIONS:\n- やたらに⟦{食|た}べる→たべる：00396_taberu⟧: to eat excessively\n- やたらに⟦{話|はな}す→はなす：00467_hanasu⟧: to talk too much\n- やたらに⟦{高|たか}い→たかい：00500_takai⟧: unreasonably expensive\n- やたらに⟦{多|おお}い→おおい：01127_ooi⟧: excessively many\n\nSIMILAR WORDS:\n- ⟦{無闇|むやみ}に→むやみに：05731_muyamini⟧: recklessly, thoughtlessly\n- むやみやたらに: completely recklessly (emphatic)",
+  "notes": "USAGE:\nやたらに carries a negative connotation, suggesting lack of thought, restraint, or appropriateness.\n\nFORMS:\n- ⟦やたら→やたら：07513_yatara⟧: more colloquial\n- ⟦やたら→やたら：07513_yatara⟧⟦と→と：00512_to⟧: also common\n\nCOMMON COLLOCATIONS:\n- やたらに⟦{食|た}べる→たべる：00396_taberu⟧: to eat excessively\n- やたらに⟦{話|はな}す→はなす：00467_hanasu⟧: to talk too much\n- やたらに⟦{高|たか}い→たかい：00500_takai⟧: unreasonably expensive\n- やたらに⟦{多|おお}い→おおい：01127_ooi⟧: excessively many\n\nSIMILAR WORDS:\n- ⟦{無闇|むやみ}に→むやみに：05731_muyamini⟧: recklessly, thoughtlessly\n- むやみやたらに: completely recklessly (emphatic)",
   "cross_references": [
     {
       "type": "synonym",
@@ -86,11 +86,18 @@
       "headword": "{無闇|むやみ}に",
       "label": "recklessly",
       "target_id": "05731_muyamini"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20555_muyami",
+      "reading": "むやみ",
+      "headword": "むやみ",
+      "label": "reckless"
     }
   ],
   "metadata": {
     "created": "2026-01-16T09:42:23Z",
-    "modified": "2026-06-07T21:30:52Z",
+    "modified": "2026-09-02T04:01:07Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

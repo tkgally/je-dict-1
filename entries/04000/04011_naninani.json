@@ -118,7 +118,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n1. As a placeholder: Substitutes for unspecified items in examples or when you can't recall specifics\n2. As an interjection: Expresses curiosity or asks for clarification\n\nSIMILAR WORDS:\n・⟦{何|なに}→何：00498_nani⟧ (what - single item)\n・⟦{誰々|だれだれ}→誰々：18570_daredare⟧ (such and such person)\n・⟦{何とか|なんとか}→何とか：01126_nantoka⟧ (something or other)\n\nTONE: Casual. The interjection usage can sound eager/curious or slightly dismissive depending on context.",
+  "notes": "USAGE:\n1. As a placeholder: Substitutes for unspecified items in examples or when you can't recall specifics\n2. As an interjection: Expresses curiosity or asks for clarification\n\nSIMILAR WORDS:\n- ⟦{何|なに}→何：00498_nani⟧ (what - single item)\n- ⟦{誰々|だれだれ}→誰々：18570_daredare⟧ (such and such person)\n- ⟦{何|なん}とか→何とか：01126_nantoka⟧ (something or other)\n\nTONE: Casual. The interjection usage can sound eager/curious or slightly dismissive depending on context.",
   "cross_references": [
     {
       "type": "related",
@@ -126,11 +126,32 @@
       "headword": "{何|なに}",
       "label": "what",
       "target_id": "00498_nani"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18570_daredare",
+      "reading": "だれだれ",
+      "headword": "{誰々|だれだれ}",
+      "label": "such and such person"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01126_nantoka",
+      "reading": "なんとか",
+      "headword": "{何|なん}とか",
+      "label": "something or other"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29171_dokodoko",
+      "reading": "どこどこ",
+      "headword": "どこどこ",
+      "label": "such-and-such a place"
     }
   ],
   "metadata": {
     "created": "2026-01-13T07:50:37Z",
-    "modified": "2026-05-28T18:09:17Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

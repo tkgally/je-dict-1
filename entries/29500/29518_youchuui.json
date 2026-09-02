@@ -3,7 +3,7 @@
   "headword": "{要注意|ようちゅうい}",
   "reading": "ようちゅうい",
   "romaji": "youchuui",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "requiring caution; needing attention",
   "definitions": [
     {
@@ -15,41 +15,61 @@
   "examples": [
     {
       "id": "29518_youchuui_ex1",
-      "japanese": "この{薬|くすり}は{要注意|ようちゅうい}だ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{薬|くすり}→薬：00793_kusuri⟧⟦は→は：00079_ha⟧{要注意|ようちゅうい}だ。",
       "english": "This medicine requires caution.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29518_youchuui_ex2",
-      "japanese": "{彼|かれ}は{要注意人物|ようちゅういじんぶつ}としてマークされている。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{要注意人物|ようちゅういじんぶつ}⟦として→として：06802_toshite⟧⟦マーク→マーク：09478_maaku⟧⟦されている→する：00392_suru⟧。",
       "english": "He is marked as a person to watch out for.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29518_youchuui_ex3",
-      "japanese": "{健康診断|けんこうしんだん}で{血圧|けつあつ}が{要注意|ようちゅうい}と{判定|はんてい}された。",
+      "japanese": "⟦{健康診断|けんこうしんだん}→健康診断：05979_kenkoushindan⟧⟦で→で：00502_de⟧⟦{血圧|けつあつ}→血圧：00218_ketsuatsu⟧⟦が→が：00051_ga⟧{要注意|ようちゅうい}⟦と→と：00512_to⟧⟦{判定|はんてい}→判定：09767_hantei⟧⟦された→する：00392_suru⟧。",
       "english": "My blood pressure was rated as requiring attention at the health checkup.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Used as a warning label on health results, road signs, weather alerts, and the like. Frequently combined into compounds or used with の before a noun.\n\nCOMMON COLLOCATIONS:\n- {要注意人物|ようちゅういじんぶつ}: a person to watch out for\n- {要注意|ようちゅうい}{警報|けいほう}: a caution-level warning\n- {要注意|ようちゅうい}{箇所|かしょ}: a spot that needs care\n\nSIMILAR WORDS:\n- {注意|ちゅうい}: caution, attention — the plain noun without the 'required' sense\n- {警戒|けいかい}: vigilance, alert — stronger, implies active guarding against danger",
+  "notes": "Used as a warning label on health results, road signs, weather alerts, and the like. Frequently combined into compounds or used with ⟦の→の：09472_no⟧ before a noun.\n\nCOMMON COLLOCATIONS:\n- {要注意人物|ようちゅういじんぶつ}: a person to watch out for\n- {要注意|ようちゅうい}⟦{警報|けいほう}→警報：09515_keihou⟧: a caution-level warning\n- {要注意|ようちゅうい}⟦{箇所|かしょ}→箇所：00196_kasho⟧: a spot that needs care\n\nSIMILAR WORDS:\n- ⟦{注意|ちゅうい}→注意：01464_chuui⟧: caution, attention — the plain noun without the 'required' sense\n- ⟦{警戒|けいかい}→警戒：14224_keikai⟧: vigilance, alert — stronger, implies active guarding against danger",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14224_keikai",
+      "reading": "けいかい",
+      "headword": "{警戒|けいかい}",
+      "label": "vigilance, alert"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-no"],
+      "pos": [
+        "noun",
+        "adjective-no"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["evaluation"],
+      "politeness": "plain",
+      "semantic": [
+        "evaluation"
+      ],
       "domain": []
     },
     "created": "2026-06-27T18:18:39Z",
-    "modified": "2026-06-27T18:18:39Z"
+    "modified": "2026-09-02T04:02:37Z"
   }
 }

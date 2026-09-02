@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "14205_shinryoujo_ex1",
-      "japanese": "{近|ちか}くの{診療所|しんりょうじょ}で{診|み}てもらった。",
+      "japanese": "{近|ちか}く⟦の→の：09472_no⟧{診療所|しんりょうじょ}⟦で→で：00502_de⟧⟦{診|み}て→診る：09798_miru⟧⟦もらった→もらう：00520_morau⟧。",
       "english": "I was seen at a nearby clinic.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "14205_shinryoujo_ex2",
-      "japanese": "この{島|しま}には{病院|びょういん}はなく、{小|ちい}さな{診療所|しんりょうじょ}が{一|ひと}つあるだけだ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{島|しま}→島：00885_shima⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{病院|びょういん}→病院：00577_byouin⟧⟦は→は：00079_ha⟧⟦なく→ない：01118_nai⟧、⟦{小|ちい}さな→小さな：02913_chiisana⟧{診療所|しんりょうじょ}⟦が→が：00051_ga⟧⟦{一|ひと}つ→一つ：02948_hitotsu⟧⟦ある→ある：00006_aru⟧⟦だけ→〜だけ：03093_dake⟧だ。",
       "english": "There is no hospital on this island — just one small clinic.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "14205_shinryoujo_ex3",
-      "japanese": "{地域|ちいき}の{診療所|しんりょうじょ}が{閉鎖|へいさ}され、{住民|じゅうみん}は{遠|とお}くの{病院|びょういん}に{通|かよ}わなければならなくなった。",
+      "japanese": "⟦{地域|ちいき}→地域：01461_chiiki⟧⟦の→の：09472_no⟧{診療所|しんりょうじょ}⟦が→が：00051_ga⟧⟦{閉鎖|へいさ}→閉鎖：14524_heisa⟧⟦され→する：00392_suru⟧、⟦{住民|じゅうみん}→住民：03281_juumin⟧⟦は→は：00079_ha⟧{遠|とお}く⟦の→の：09472_no⟧⟦{病院|びょういん}→病院：00577_byouin⟧⟦に→に：00314_ni⟧⟦{通|かよ}わなければ→通う：01217_kayou⟧⟦ならなく→なる：01970_naru⟧⟦なった→なる：01970_naru⟧。",
       "english": "The local clinic was closed, and residents had to travel to a distant hospital.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "COMMON COLLOCATIONS:\n- {歯科|しか}{診療所|しんりょうじょ}: dental clinic\n- {地域|ちいき}の{診療所|しんりょうじょ}: local/community clinic\n- {無床|むしょう}{診療所|しんりょうじょ}: clinic without inpatient beds\n\nSIMILAR WORDS:\n- {病院|びょういん}: hospital (20+ beds, by legal definition in Japan)\n- クリニック: clinic (loanword, commonly used in clinic names)\n- {医院|いいん}: medical practice, doctor's office (commonly used in clinic names)\n\nUSAGE:\nIn Japanese medical law, {診療所|しんりょうじょ} is legally distinct from {病院|びょういん}: a {診療所|しんりょうじょ} has fewer than 20 beds, while a {病院|びょういん} has 20 or more. In everyday language, people often say {病院|びょういん} for any medical facility, but {診療所|しんりょうじょ} specifically refers to smaller clinics.",
+  "notes": "COMMON COLLOCATIONS:\n- ⟦{歯科|しか}→歯科：11072_shika⟧{診療所|しんりょうじょ}: dental clinic\n- ⟦{地域|ちいき}→地域：01461_chiiki⟧⟦の→の：09472_no⟧{診療所|しんりょうじょ}: local/community clinic\n- {無床|むしょう}{診療所|しんりょうじょ}: clinic without inpatient beds\n\nSIMILAR WORDS:\n- ⟦{病院|びょういん}→病院：00577_byouin⟧: hospital (20+ beds, by legal definition in Japan)\n- ⟦クリニック→クリニック：08941_kurinikku⟧: clinic (loanword, commonly used in clinic names)\n- ⟦{医院|いいん}→医院：01778_iin⟧: medical practice, doctor's office (commonly used in clinic names)\n\nUSAGE:\nIn Japanese medical law, {診療所|しんりょうじょ} is legally distinct from ⟦{病院|びょういん}→病院：00577_byouin⟧: a {診療所|しんりょうじょ} has fewer than 20 beds, while a ⟦{病院|びょういん}→病院：00577_byouin⟧ has 20 or more. In everyday language, people often say ⟦{病院|びょういん}→病院：00577_byouin⟧ for any medical facility, but {診療所|しんりょうじょ} specifically refers to smaller clinics.",
   "cross_references": [
     {
       "type": "related",
@@ -66,11 +66,46 @@
       "reading": "いいん",
       "headword": "{医院|いいん}",
       "label": "medical practice"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08941_kurinikku",
+      "reading": "くりにっく",
+      "headword": "クリニック",
+      "label": "clinic"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20980_chiryouin",
+      "reading": "ちりょういん",
+      "headword": "{治療院|ちりょういん}",
+      "label": "clinic"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21002_byoutou",
+      "reading": "びょうとう",
+      "headword": "{病棟|びょうとう}",
+      "label": "hospital ward"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26065_sougoubyouin",
+      "reading": "そうごうびょういん",
+      "headword": "{総合病院|そうごうびょういん}",
+      "label": "general hospital"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26892_iryoukikan",
+      "reading": "いりょうきかん",
+      "headword": "{医療|いりょう}{機関|きかん}",
+      "label": "medical institution"
     }
   ],
   "metadata": {
     "created": "2026-02-28T02:22:54Z",
-    "modified": "2026-04-30T06:34:37Z",
+    "modified": "2026-09-02T04:01:36Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

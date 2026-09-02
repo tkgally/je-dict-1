@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24297_kanrisha_ex1",
-      "japanese": "マンションの{管理者|かんりしゃ}に{連絡|れんらく}した。",
+      "japanese": "⟦マンション→マンション：01035_manshon⟧⟦の→の：09472_no⟧{管理者|かんりしゃ}⟦に→に：00314_ni⟧⟦{連絡|れんらく}した→連絡する：20202_renrakusuru⟧。",
       "english": "I contacted the apartment building manager.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24297_kanrisha_ex2",
-      "japanese": "このシステムは{管理者|かんりしゃ}{権限|けんげん}がないと{変更|へんこう}できない。",
+      "japanese": "⟦この→この：00962_kono⟧⟦システム→システム：08428_shisutemu⟧⟦は→は：00079_ha⟧{管理者|かんりしゃ}⟦{権限|けんげん}→権限：10600_kengen⟧⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧⟦と→と：00512_to⟧⟦{変更|へんこう}できない→変更する：30779_henkousuru⟧。",
       "english": "This system cannot be modified without administrator privileges.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24297_kanrisha_ex3",
-      "japanese": "{施設|しせつ}の{管理者|かんりしゃ}として、{安全|あんぜん}{対策|たいさく}の{責任|せきにん}を{負|お}っている。",
+      "japanese": "⟦{施設|しせつ}→施設：02503_shisetsu⟧⟦の→の：09472_no⟧{管理者|かんりしゃ}⟦として→として：06802_toshite⟧、⟦{安全|あんぜん}→安全：01131_anzen⟧⟦{対策|たいさく}→対策：02511_taisaku⟧⟦の→の：09472_no⟧⟦{責任|せきにん}→責任：03298_sekinin⟧⟦を→を：00422_wo⟧⟦{負|お}っている→負う：02017_ou⟧。",
       "english": "As the facility manager, I bear responsibility for safety measures.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {管理|かんり} (management) + {者|しゃ} (person). Widely used in both physical facility management (buildings, parks) and digital contexts (system administrators, website managers).\n\nCOMMON COLLOCATIONS:\n- {管理者|かんりしゃ}{権限|けんげん} — administrator privileges\n- システム{管理者|かんりしゃ} — system administrator\n- {施設|しせつ}{管理者|かんりしゃ} — facility manager\n- {管理者|かんりしゃ}{責任|せきにん} — managerial responsibility\n\nSIMILAR WORDS:\n- {管理人|かんりにん} — caretaker, custodian; often used for residential building managers or on-site caretakers, while {管理者|かんりしゃ} has a broader, more formal scope\n- {責任者|せきにんしゃ} — person in charge; emphasizes accountability rather than ongoing management duties\n- マネージャー — manager (loanword); used in business and sports contexts, less formal than {管理者|かんりしゃ}",
+  "notes": "Composed of ⟦{管理|かんり}→管理：00178_kanri⟧ (management) + ⟦{者|しゃ}→〜者：04662_sha⟧ (person). Widely used in both physical facility management (buildings, parks) and digital contexts (system administrators, website managers).\n\nCOMMON COLLOCATIONS:\n- {管理者|かんりしゃ}⟦{権限|けんげん}→権限：10600_kengen⟧ — administrator privileges\n- ⟦システム→システム：08428_shisutemu⟧{管理者|かんりしゃ} — system administrator\n- ⟦{施設|しせつ}→施設：02503_shisetsu⟧{管理者|かんりしゃ} — facility manager\n- {管理者|かんりしゃ}⟦{責任|せきにん}→責任：03298_sekinin⟧ — managerial responsibility\n\nSIMILAR WORDS:\n- ⟦{管理人|かんりにん}→管理人：03047_kanrinin⟧ — caretaker, custodian; often used for residential building managers or on-site caretakers, while {管理者|かんりしゃ} has a broader, more formal scope\n- ⟦{責任者|せきにんしゃ}→責任者：17175_sekininsha⟧ — person in charge; emphasizes accountability rather than ongoing management duties\n- ⟦マネージャー→マネージャー：29755_maneejaa⟧ — manager (loanword); used in business and sports contexts, less formal than {管理者|かんりしゃ}",
   "cross_references": [
     {
       "type": "synonym",
@@ -52,6 +52,20 @@
       "reading": "せきにんしゃ",
       "headword": "{責任者|せきにんしゃ}",
       "label": "person in charge"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03047_kanrinin",
+      "reading": "かんりにん",
+      "headword": "{管理人|かんりにん}",
+      "label": "caretaker, custodian"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29755_maneejaa",
+      "reading": "まねーじゃー",
+      "headword": "マネージャー",
+      "label": "manager"
     }
   ],
   "schema_version": "2.0",
@@ -61,12 +75,13 @@
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "business",
         "person"
       ]
     },
     "created": "2026-04-18T13:13:57Z",
-    "modified": "2026-08-02T18:32:34Z"
+    "modified": "2026-09-02T04:02:17Z"
   }
 }

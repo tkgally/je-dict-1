@@ -15,40 +15,73 @@
   "examples": [
     {
       "id": "27039_namagashi_ex1",
-      "japanese": "{生菓子|なまがし}は{日持|ひも}ちしない。",
+      "japanese": "{生菓子|なまがし}⟦は→は：00079_ha⟧⟦{日持|ひも}ち→日持ち：12886_himochi⟧⟦しない→する：00392_suru⟧。",
       "english": "Fresh sweets don't keep long.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27039_namagashi_ex2",
-      "japanese": "{季節|きせつ}の{生菓子|なまがし}を{お茶|おちゃ}と{一緒|いっしょ}にいただいた。",
+      "japanese": "⟦{季節|きせつ}→季節：01304_kisetsu⟧⟦の→の：09472_no⟧{生菓子|なまがし}⟦を→を：00422_wo⟧⟦お{茶|ちゃ}→お茶：00576_ocha⟧⟦と→と：00512_to⟧⟦{一緒|いっしょ}→一緒：02848_issho⟧⟦に→に：00314_ni⟧⟦いただいた→いただく：01326_itadaku⟧。",
       "english": "I enjoyed seasonal fresh sweets together with tea.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27039_namagashi_ex3",
-      "japanese": "この{和菓子屋|わがしや}の{生菓子|なまがし}は{花|はな}の{形|かたち}をしていて{美|うつく}しい。",
+      "japanese": "⟦この→この：00962_kono⟧{和菓子屋|わがしや}⟦の→の：09472_no⟧{生菓子|なまがし}⟦は→は：00079_ha⟧⟦{花|はな}→花：00523_hana⟧⟦の→の：09472_no⟧⟦{形|かたち}→形：02193_katachi⟧⟦を→を：00422_wo⟧⟦していて→する：00392_suru⟧⟦{美|うつく}しい→美しい：01121_utsukushii⟧。",
       "english": "The fresh sweets from this Japanese confection shop are shaped like flowers and are beautiful.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A category of traditional Japanese sweets ({和菓子|わがし}) characterized by high moisture content (typically over 30%). They are soft and perishable, in contrast to {干菓子|ひがし} (dry confections) which keep much longer. Common types include {練|ね}り{切|き}り (nerikiri), {大福|だいふく} (daifuku), and {羊羹|ようかん} (yokan).\n\nCOMMON COLLOCATIONS:\n- {季節|きせつ}の{生菓子|なまがし} — seasonal fresh sweets\n- {上生菓子|じょうなまがし} — premium fresh confections (served at formal tea ceremonies)\n- {生菓子|なまがし}を{作|つく}る — to make fresh sweets\n\nCULTURAL CONTEXT:\nFresh confections are closely tied to the tea ceremony ({茶道|さどう}), where they are served to complement the bitterness of {抹茶|まっちゃ}. Designs often reflect the current season — cherry blossoms in spring, maple leaves in autumn — making them a form of edible art.\n\nSIMILAR WORDS:\n- {和菓子|わがし} — Japanese sweets (broader category that includes both fresh and dry varieties)\n- {干菓子|ひがし} — dry Japanese confections (longer shelf life, served at casual tea gatherings)",
+  "notes": "A category of traditional Japanese sweets (⟦{和菓子|わがし}→和菓子：04962_wagashi⟧) characterized by high moisture content (typically over 30%). They are soft and perishable, in contrast to {干菓子|ひがし} (dry confections) which keep much longer. Common types include ⟦{練|ね}り{切|き}り→練り切り：28742_nerikiri⟧ (nerikiri), ⟦{大福|だいふく}→大福：12173_daifuku⟧ (daifuku), and ⟦{羊羹|ようかん}→羊羹：05002_youkan⟧ (yokan).\n\nCOMMON COLLOCATIONS:\n- ⟦{季節|きせつ}→季節：01304_kisetsu⟧⟦の→の：09472_no⟧{生菓子|なまがし} — seasonal fresh sweets\n- {上生菓子|じょうなまがし} — premium fresh confections (served at formal tea ceremonies)\n- {生菓子|なまがし}⟦を→を：00422_wo⟧⟦{作|つく}る→作る：00481_tsukuru⟧ — to make fresh sweets\n\nCULTURAL NOTE:\nFresh confections are closely tied to the tea ceremony (⟦{茶道|さどう}→茶道：04451_sadou⟧), where they are served to complement the bitterness of ⟦{抹茶|まっちゃ}→抹茶：10574_maccha⟧. Designs often reflect the current season — cherry blossoms in spring, maple leaves in autumn — making them a form of edible art.\n\nSIMILAR WORDS:\n- ⟦{和菓子|わがし}→和菓子：04962_wagashi⟧ — Japanese sweets (broader category that includes both fresh and dry varieties)\n- {干菓子|ひがし} — dry Japanese confections (longer shelf life, served at casual tea gatherings)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04962_wagashi",
+      "reading": "わがし",
+      "headword": "{和菓子|わがし}",
+      "label": "Japanese sweets"
+    },
+    {
+      "type": "related",
+      "target_id": "15806_yakigashi",
+      "reading": "やきがし",
+      "headword": "{焼|や}き{菓子|がし}",
+      "label": "baked goods"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22307_mushigashi",
+      "reading": "むしがし",
+      "headword": "{蒸|む}し{菓子|がし}",
+      "label": "steamed confection"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food"]
+      "semantic": [
+        "food"
+      ]
     },
     "created": "2026-05-06T15:08:04Z",
-    "modified": "2026-05-06T15:08:04Z"
+    "modified": "2026-09-02T04:02:28Z"
   }
 }

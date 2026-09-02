@@ -3,7 +3,7 @@
   "id": "15547_inshouteki",
   "headword": "{印象的|いんしょうてき}",
   "reading": "いんしょうてき",
-  "part_of_speech": "adjective (na)",
+  "part_of_speech": "na-adjective",
   "gloss": "impressive; striking; memorable",
   "definitions": [
     {
@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "15547_inshouteki_ex1",
-      "japanese": "{印象的|いんしょうてき}な{景色|けしき}だった。",
+      "japanese": "{印象的|いんしょうてき}な⟦{景色|けしき}→景色：01395_keshiki⟧だった。",
       "english": "It was a striking landscape.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15547_inshouteki_ex2",
-      "japanese": "{彼|かれ}のスピーチで{最|もっと}も{印象的|いんしょうてき}だったのは{最後|さいご}の{言葉|ことば}だ。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧⟦スピーチ→スピーチ：03852_supiichi⟧⟦で→で：00502_de⟧⟦{最|もっと}も→最も：01736_mottomo⟧{印象的|いんしょうてき}だった⟦の→の：09472_no⟧⟦は→は：00079_ha⟧⟦{最後|さいご}→最後：01413_saigo⟧⟦の→の：09472_no⟧⟦{言葉|ことば}→言葉：02880_kotoba⟧だ。",
       "english": "The most impressive part of his speech was the final words.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15547_inshouteki_ex3",
-      "japanese": "{夕日|ゆうひ}に{染|そ}まった{空|そら}が{印象的|いんしょうてき}で、{思|おも}わず{写真|しゃしん}を{撮|と}った。",
+      "japanese": "⟦{夕日|ゆうひ}→夕日：04080_yuuhi⟧⟦に→に：00314_ni⟧⟦{染|そ}まった→染まる：04254_somaru⟧⟦{空|そら}→空：02216_sora⟧⟦が→が：00051_ga⟧{印象的|いんしょうてき}で、⟦{思|おも}わ→思う：00492_omou⟧ず⟦{写真|しゃしん}→写真：00753_shashin⟧⟦を→を：00422_wo⟧⟦{撮|と}った→撮る：00760_toru⟧。",
       "english": "The sky dyed by the sunset was so striking that I couldn't help but take a photo.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nUsed as a な-adjective: {印象的|いんしょうてき}な + noun, or {印象的|いんしょうてき}だ as a predicate. Always positive or neutral — it means memorably good or strikingly vivid, not negatively shocking.\n\nCOMMON COLLOCATIONS:\n- {印象的|いんしょうてき}な{場面|ばめん} (a memorable scene)\n- {印象的|いんしょうてき}な{言葉|ことば} (striking words)\n- {印象的|いんしょうてき}な{出来事|できごと} (a memorable event)\n- {最|もっと}も{印象的|いんしょうてき}だったのは～ (what was most impressive was ~)\n\nSIMILAR WORDS:\n{感動的|かんどうてき} (moving, touching) implies emotional impact, while {印象的|いんしょうてき} emphasizes leaving a vivid impression in one's memory.",
+  "notes": "USAGE:\nUsed as a な-adjective: {印象的|いんしょうてき}な + noun, or {印象的|いんしょうてき}だ as a predicate. Always positive or neutral — it means memorably good or strikingly vivid, not negatively shocking.\n\nCOMMON COLLOCATIONS:\n- {印象的|いんしょうてき}な⟦{場面|ばめん}→場面：03702_bamen⟧ (a memorable scene)\n- {印象的|いんしょうてき}な⟦{言葉|ことば}→言葉：02880_kotoba⟧ (striking words)\n- {印象的|いんしょうてき}な⟦{出来事|できごと}→出来事：03446_dekigoto⟧ (a memorable event)\n- ⟦{最|もっと}も→最も：01736_mottomo⟧{印象的|いんしょうてき}だった⟦の→の：09472_no⟧⟦は→は：00079_ha⟧～ (what was most impressive was ~)\n\nSIMILAR WORDS:\n⟦{感動的|かんどうてき}→感動的：25931_kandouteki⟧ (moving, touching) implies emotional impact, while {印象的|いんしょうてき} emphasizes leaving a vivid impression in one's memory.",
   "cross_references": [
     {
       "type": "related",
@@ -46,18 +52,29 @@
       "reading": "いんしょう",
       "headword": "{印象|いんしょう}",
       "label": "impression (noun)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25931_kandouteki",
+      "reading": "かんどうてき",
+      "headword": "{感動的|かんどうてき}",
+      "label": "moving, touching"
     }
   ],
   "metadata": {
     "created": "2026-03-07T10:10:09Z",
-    "modified": "2026-05-01T07:30:21Z",
+    "modified": "2026-09-02T04:01:41Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-na"],
+      "pos": [
+        "adjective-na"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["descriptive"]
+      "semantic": [
+        "descriptive"
+      ]
     }
   }
 }

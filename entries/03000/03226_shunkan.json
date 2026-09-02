@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{瞬間|しゅんかん} refers to an instant or moment - an extremely brief period of time.\n\nCOMMON PATTERNS:\n- ⟦その→その：00993_sono⟧{瞬間|しゅんかん} (at that moment)\n- ○○した{瞬間|しゅんかん} (the moment when ~)\n- {瞬間|しゅんかん}⟦{的|てき}→的：09839_teki⟧⟦に→に：00314_ni⟧ (instantly, momentarily)\n\nCOMMON COLLOCATIONS:\n- {瞬間|しゅんかん}⟦{移動|いどう}→移動：01741_idou⟧ (teleportation)\n- {瞬間|しゅんかん}⟦{接着剤|せっちゃくざい}→接着剤：07089_secchakuzai⟧ (instant glue)\n- ⟦{決定的|けっていてき}→決定的：06828_ketteiteki⟧{瞬間|しゅんかん} (decisive moment)\n- {瞬間|しゅんかん}⟦{最大|さいだい}→最大：04827_saidai⟧⟦{風速|ふうそく}→風速：24554_fuusoku⟧ (maximum instantaneous wind speed)\n\nSIMILAR WORDS:\n- {瞬間|しゅんかん}: instant, moment (very short)\n- ⟦{一瞬|いっしゅん}→一瞬：01805_isshun⟧: an instant (emphasis on brevity)\n- ⟦{瞬|またた}く→瞬く：04385_matataku⟧⟦{間|ま}→間：noentry⟧⟦に→に：00314_ni⟧: in the blink of an eye\n- ⟦{時|とき}→時：02918_toki⟧: time, moment (more general)",
+  "notes": "{瞬間|しゅんかん} refers to an instant or moment - an extremely brief period of time.\n\nCOMMON PATTERNS:\n- ⟦その→その：00993_sono⟧{瞬間|しゅんかん} (at that moment)\n- ○○⟦した→する：00392_suru⟧{瞬間|しゅんかん} (the moment when ~)\n- {瞬間|しゅんかん}⟦{的|てき}→的：09839_teki⟧⟦に→に：00314_ni⟧ (instantly, momentarily)\n\nCOMMON COLLOCATIONS:\n- {瞬間|しゅんかん}⟦{移動|いどう}→移動：01741_idou⟧ (teleportation)\n- {瞬間|しゅんかん}⟦{接着剤|せっちゃくざい}→接着剤：07089_secchakuzai⟧ (instant glue)\n- ⟦{決定的|けっていてき}→決定的：06828_ketteiteki⟧{瞬間|しゅんかん} (decisive moment)\n- {瞬間|しゅんかん}⟦{最大|さいだい}→最大：04827_saidai⟧⟦{風速|ふうそく}→風速：24554_fuusoku⟧ (maximum instantaneous wind speed)\n\nSIMILAR WORDS:\n- {瞬間|しゅんかん}: instant, moment (very short)\n- ⟦{一瞬|いっしゅん}→一瞬：01805_isshun⟧: an instant (emphasis on brevity)\n- ⟦{瞬|またた}く→瞬く：04385_matataku⟧⟦{間|ま}→間：noentry⟧⟦に→に：00314_ni⟧: in the blink of an eye\n- ⟦{時|とき}→時：02918_toki⟧: time, moment (more general)",
   "cross_references": [
     {
       "type": "synonym",
@@ -58,11 +58,39 @@
       "reading": "しゅんじ",
       "headword": "{瞬時|しゅんじ}",
       "label": "instantaneous (technical)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21215_matatakumani",
+      "reading": "またたくまに",
+      "headword": "{瞬|またた}く{間|ま}に",
+      "label": "in the blink of an eye"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02918_toki",
+      "reading": "とき",
+      "headword": "{時|とき}",
+      "label": "time, moment"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12970_jiten",
+      "reading": "じてん",
+      "headword": "{時点|じてん}",
+      "label": "point in time, as of (a certain time)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15537_setsuna",
+      "reading": "せつな",
+      "headword": "{刹那|せつな}",
+      "label": "moment"
     }
   ],
   "metadata": {
     "created": "2026-01-11T13:40:30Z",
-    "modified": "2026-05-24T15:08:01Z",
+    "modified": "2026-09-02T04:01:02Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

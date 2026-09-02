@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30716_ijinkan_ex1",
-      "japanese": "{神戸|こうべ}の{異人館|いじんかん}を{見|み}に{行|い}った。",
+      "japanese": "⟦{神戸|こうべ}→神戸：30710_koube⟧⟦の→の：09472_no⟧{異人館|いじんかん}⟦を→を：00422_wo⟧⟦{見|み}→見る：00283_miru⟧⟦に→に：00314_ni⟧⟦{行|い}った→行く：00119_iku⟧。",
       "english": "I went to see the ijinkan in Kobe.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30716_ijinkan_ex2",
-      "japanese": "この{異人館|いじんかん}は{明治時代|めいじじだい}に{建|た}てられた。",
+      "japanese": "⟦この→この：00962_kono⟧{異人館|いじんかん}⟦は→は：00079_ha⟧⟦{明治時代|めいじじだい}→明治時代：28080_meijijidai⟧⟦に→に：00314_ni⟧⟦{建|た}てられた→建てる：01189_tateru⟧。",
       "english": "This ijinkan was built in the Meiji period.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30716_ijinkan_ex3",
-      "japanese": "{坂|さか}の{上|うえ}に{並|なら}ぶ{異人館|いじんかん}からは、{港|みなと}{全体|ぜんたい}が{見渡|みわた}せる。",
+      "japanese": "⟦{坂|さか}→坂：01415_saka⟧⟦の→の：09472_no⟧⟦{上|うえ}→上：00682_ue⟧⟦に→に：00314_ni⟧⟦{並|なら}ぶ→並ぶ：00605_narabu⟧{異人館|いじんかん}⟦から→から：00504_kara⟧⟦は→は：00079_ha⟧、⟦{港|みなと}→港：01512_minato⟧⟦{全体|ぜんたい}→全体：03314_zentai⟧⟦が→が：00051_ga⟧⟦{見渡|みわた}せる→見渡す：07169_miwatasu⟧。",
       "english": "From the ijinkan lined up at the top of the slope, you can look out over the whole harbor.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "Literally \"foreigner's building,\" from {異人|いじん} — an older word for a foreigner — plus {館|かん} (hall, mansion). The word is tied to the treaty-port era and is not used for modern housing.\n\nCOMMON COLLOCATIONS:\n- {異人館|いじんかん}{街|がい}: an ijinkan district\n- {神戸|こうべ}{北野|きたの}の{異人館|いじんかん}: the ijinkan of Kitano in Kobe\n- {異人館|いじんかん}{巡|めぐ}り: touring the ijinkan\n\nSIMILAR WORDS:\n- {洋館|ようかん}: Western-style house — the general term, including houses built for Japanese owners\n- {洋風|ようふう}{建築|けんちく}: Western-style architecture — a description of style, not a historical class of building",
+  "notes": "Literally \"foreigner's building,\" from {異人|いじん} — an older word for a foreigner — plus ⟦{館|かん}→館：17308_kan⟧ (hall, mansion). The word is tied to the treaty-port era and is not used for modern housing.\n\nCOMMON COLLOCATIONS:\n- {異人館|いじんかん}{街|がい}: an ijinkan district\n- ⟦{神戸|こうべ}→神戸：30710_koube⟧{北野|きたの}⟦の→の：09472_no⟧{異人館|いじんかん}: the ijinkan of Kitano in Kobe\n- {異人館|いじんかん}⟦{巡|めぐ}り→巡る：03930_meguru⟧: touring the ijinkan\n\nSIMILAR WORDS:\n- ⟦{洋館|ようかん}→洋館：30736_youkan⟧: Western-style house — the general term, including houses built for Japanese owners\n- ⟦{洋風|ようふう}→洋風：13282_youfuu⟧⟦{建築|けんちく}→建築：02709_kenchiku⟧: Western-style architecture — a description of style, not a historical class of building",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "30736_youkan",
+      "reading": "ようかん",
+      "headword": "{洋館|ようかん}",
+      "label": "Western-style house"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +62,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "building",
         "history"
@@ -61,6 +70,6 @@
       "domain": []
     },
     "created": "2026-08-22T12:17:21Z",
-    "modified": "2026-08-22T12:17:21Z"
+    "modified": "2026-09-02T04:02:41Z"
   }
 }

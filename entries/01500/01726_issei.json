@@ -2,7 +2,7 @@
   "id": "01726_issei",
   "headword": "{一斉|いっせい}",
   "reading": "いっせい",
-  "part_of_speech": "adverb/no-adjective",
+  "part_of_speech": "adverb, no-adjective",
   "gloss": "all at once, simultaneously",
   "definitions": [
     {
@@ -34,7 +34,7 @@
     },
     {
       "id": "01726_issei_ex3",
-      "japanese": "⟦{合図|あいず}→合図：01675_aizu⟧とともに、⟦{選手|せんしゅ}→選手：03823_senshu⟧⟦たち→達：01551_tachi⟧⟦が→が：00051_ga⟧{一斉|いっせい}⟦に→に：00314_ni⟧⟦{走|はし}り{出|だ}した→走り出す：06679_hashiridasu⟧。",
+      "japanese": "⟦{合図|あいず}→合図：01675_aizu⟧⟦とともに→とともに：30485_totomoni⟧、⟦{選手|せんしゅ}→選手：03823_senshu⟧⟦たち→達：01551_tachi⟧⟦が→が：00051_ga⟧{一斉|いっせい}⟦に→に：00314_ni⟧⟦{走|はし}り{出|だ}した→走り出す：06679_hashiridasu⟧。",
       "english": "At the signal, the athletes all started running at once.",
       "notes": null,
       "has_audio": false,
@@ -44,10 +44,25 @@
     }
   ],
   "notes": "{一斉|いっせい} indicates many people or things acting at the same time. It emphasizes the coordinated, simultaneous nature of the action.\n\nFORMS:\n- Adverb: {一斉|いっせい}⟦に→に：00314_ni⟧ (all at once)\n- Modifier: {一斉|いっせい}⟦の→の：09472_no⟧ + noun (simultaneous ~)\n\nCOMMON COLLOCATIONS:\n- {一斉|いっせい}⟦に→に：00314_ni⟧⟦{立|た}ち{上|あ}がる→立ち上がる：02128_tachiagaru⟧: to stand up all at once\n- {一斉|いっせい}⟦{検査|けんさ}→検査：02707_kensa⟧: simultaneous inspection/crackdown\n- {一斉|いっせい}⟦{攻撃|こうげき}→攻撃：02748_kougeki⟧: coordinated attack\n- {一斉|いっせい}⟦{送信|そうしん}→送信：17692_soushin⟧: mass broadcast/transmission\n- {一斉|いっせい}⟦{休業|きゅうぎょう}→休業：11541_kyuugyou⟧: simultaneous closure\n\nSIMILAR WORDS:\n- ⟦{同時|どうじ}→同時：01592_douji⟧⟦に→に：00314_ni⟧: at the same time — neutral, factual\n- {一斉|いっせい}⟦に→に：00314_ni⟧: all at once — emphasizes coordinated group action\n- ⟦{一気|いっき}→一気：08891_ikki⟧⟦に→に：00314_ni⟧: all in one go — emphasizes doing something without stopping",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22223_doujini",
+      "reading": "どうじに",
+      "headword": "{同時|どうじ}に",
+      "label": "at the same time"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16557_ikkini",
+      "reading": "いっきに",
+      "headword": "{一気|いっき}に",
+      "label": "all in one go"
+    }
+  ],
   "metadata": {
     "created": "2026-01-09T11:57:15Z",
-    "modified": "2026-05-16T20:08:32Z",
+    "modified": "2026-09-02T04:01:00Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

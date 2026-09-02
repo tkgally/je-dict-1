@@ -3,7 +3,7 @@
   "id": "13868_tousotsu",
   "headword": "{統率|とうそつ}",
   "reading": "とうそつ",
-  "part_of_speech": "noun / verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "leadership, command, leading a group",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "13868_tousotsu_ex1",
-      "japanese": "チームを{統率|とうそつ}する。",
+      "japanese": "⟦チーム→チーム：03858_chiimu⟧⟦を→を：00422_wo⟧{統率|とうそつ}⟦する→する：00392_suru⟧。",
       "english": "Lead the team.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "13868_tousotsu_ex2",
-      "japanese": "{彼|かれ}は{統率|とうそつ}{力|りょく}のあるリーダーだ。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{統率|とうそつ}{力|りょく}⟦の→の：09472_no⟧⟦ある→ある：00006_aru⟧⟦リーダー→リーダー：24312_riidaa⟧だ。",
       "english": "He is a leader with strong leadership ability.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "13868_tousotsu_ex3",
-      "japanese": "{監督|かんとく}が{選手|せんしゅ}たちを{統率|とうそつ}して{優勝|ゆうしょう}に{導|みちび}いた。",
+      "japanese": "⟦{監督|かんとく}→監督：00185_kantoku⟧⟦が→が：00051_ga⟧⟦{選手|せんしゅ}→選手：03823_senshu⟧たち⟦を→を：00422_wo⟧{統率|とうそつ}⟦して→する：00392_suru⟧⟦{優勝|ゆうしょう}→優勝：03647_yuushou⟧⟦に→に：00314_ni⟧⟦{導|みちび}いた→導く：12361_michibiku⟧。",
       "english": "The coach led the players and guided them to a championship.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nOften used with {力|りょく} as {統率|とうそつ}{力|りょく} (leadership ability), which is a common evaluation criterion for leaders, managers, and team captains.\n\nSIMILAR WORDS:\n- {指揮|しき}: command, direction (more military/orchestral)\n- {率|ひき}いる: to lead, to command (verb)\n- リーダーシップ: leadership (loanword, more casual)\n\nCOMMON COLLOCATIONS:\n- {統率|とうそつ}{力|りょく}: leadership ability\n- チームを{統率|とうそつ}する: lead a team\n- {軍|ぐん}を{統率|とうそつ}する: command an army\n- {統率|とうそつ}{力|りょく}がある: have leadership skills",
+  "notes": "USAGE:\nOften used with {力|りょく} as {統率|とうそつ}{力|りょく} (leadership ability), which is a common evaluation criterion for leaders, managers, and team captains.\n\nSIMILAR WORDS:\n- ⟦{指揮|しき}→指揮：11102_shiki⟧: command, direction (more military/orchestral)\n- ⟦{率|ひき}いる→率いる：10879_hikiiru⟧: to lead, to command (verb)\n- ⟦リーダーシップ→リーダーシップ：09596_riidaashippu⟧: leadership (loanword, more casual)\n\nCOMMON COLLOCATIONS:\n- {統率|とうそつ}{力|りょく}: leadership ability\n- ⟦チーム→チーム：03858_chiimu⟧⟦を→を：00422_wo⟧{統率|とうそつ}⟦する→する：00392_suru⟧: lead a team\n- ⟦{軍|ぐん}→軍：02677_gun⟧⟦を→を：00422_wo⟧{統率|とうそつ}⟦する→する：00392_suru⟧: command an army\n- {統率|とうそつ}{力|りょく}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧: have leadership skills",
   "prominent_see_also": [
     {
       "target_id": "17858_tousotsusuru",
@@ -150,11 +150,25 @@
       "reading": "ひきいる",
       "headword": "{率|ひき}いる",
       "label": "to lead (verb)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11102_shiki",
+      "reading": "しき",
+      "headword": "{指揮|しき}",
+      "label": "command, direction"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09596_riidaashippu",
+      "reading": "りーだーしっぷ",
+      "headword": "リーダーシップ",
+      "label": "leadership"
     }
   ],
   "metadata": {
     "created": "2026-02-27T05:48:38Z",
-    "modified": "2026-05-07T09:10:12Z",
+    "modified": "2026-09-02T04:01:35Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -167,7 +181,8 @@
       "semantic": [
         "general"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

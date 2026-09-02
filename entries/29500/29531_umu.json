@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29531_umu_ex1",
-      "japanese": "{利益|りえき}を{生|う}む。",
+      "japanese": "⟦{利益|りえき}→利益：03673_rieki⟧⟦を→を：00422_wo⟧{生|う}む。",
       "english": "To generate profit.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29531_umu_ex2",
-      "japanese": "その{発言|はつげん}が{誤解|ごかい}を{生|う}んだ。",
+      "japanese": "⟦その→その：00993_sono⟧⟦{発言|はつげん}→発言：05099_hatsugen⟧⟦が→が：00051_ga⟧⟦{誤解|ごかい}→誤解：02769_gokai⟧⟦を→を：00422_wo⟧{生|う}んだ。",
       "english": "That remark gave rise to a misunderstanding.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29531_umu_ex3",
-      "japanese": "{地道|じみち}な{努力|どりょく}が{大|おお}きな{成果|せいか}を{生|う}んだ。",
+      "japanese": "⟦{地道|じみち}→地道：15599_jimichi⟧な⟦{努力|どりょく}→努力：03490_doryoku⟧⟦が→が：00051_ga⟧⟦{大|おお}きな→大きな：02849_ookina⟧⟦{成果|せいか}→成果：06745_seika⟧⟦を→を：00422_wo⟧{生|う}んだ。",
       "english": "Steady effort produced great results.",
       "sense_numbers": [
         1
@@ -45,7 +45,7 @@
     },
     {
       "id": "29531_umu_ex4",
-      "japanese": "{新|あたら}しい{技術|ぎじゅつ}が{新|あら}たな{価値|かち}を{生|う}み{出|だ}している。",
+      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦{技術|ぎじゅつ}→技術：01389_gijutsu⟧⟦が→が：00051_ga⟧⟦{新|あら}た→新た：01697_arata⟧な⟦{価値|かち}→価値：00131_kachi⟧⟦を→を：00422_wo⟧⟦{生|う}み{出|だ}している→生み出す：10423_umidasu⟧。",
       "english": "New technology is creating fresh value.",
       "sense_numbers": [
         1
@@ -54,8 +54,17 @@
       "notes": null
     }
   ],
-  "notes": "Written with {生|う}, this verb stresses producing or giving rise to something rather than physical birth.\n\nTRANSITIVITY:\n- Transitive; takes the を particle: {利益|りえき}を{生|う}む (to generate profit).\n\nCOMMON COLLOCATIONS:\n- {利益|りえき}を{生|う}む: to generate profit\n- {誤解|ごかい}を{生|う}む: to cause a misunderstanding\n- {成果|せいか}を{生|う}む: to produce results\n- {生|う}み{出|だ}す: to create, to bring forth (compound form)\n\nSIMILAR WORDS:\n- {産|う}む: to give birth — the same reading, preferred for bearing children or laying eggs\n- {作|つく}る: to make — to produce by deliberate effort, without the 'give rise to' nuance",
+  "notes": "Written with {生|う}, this verb stresses producing or giving rise to something rather than physical birth.\n\nTRANSITIVITY:\n- Transitive; takes the ⟦を→を：00422_wo⟧ particle: ⟦{利益|りえき}→利益：03673_rieki⟧⟦を→を：00422_wo⟧{生|う}む (to generate profit).\n\nCOMMON COLLOCATIONS:\n- ⟦{利益|りえき}→利益：03673_rieki⟧⟦を→を：00422_wo⟧{生|う}む: to generate profit\n- ⟦{誤解|ごかい}→誤解：02769_gokai⟧⟦を→を：00422_wo⟧{生|う}む: to cause a misunderstanding\n- ⟦{成果|せいか}→成果：06745_seika⟧⟦を→を：00422_wo⟧{生|う}む: to produce results\n- ⟦{生|う}み{出|だ}す→生み出す：10423_umidasu⟧: to create, to bring forth (compound form)\n\nSIMILAR WORDS:\n- ⟦{産|う}む→産む：01899_umu⟧: to give birth — the same reading, preferred for bearing children or laying eggs\n- ⟦{作|つく}る→作る：00481_tsukuru⟧: to make — to produce by deliberate effort, without the 'give rise to' nuance",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00481_tsukuru",
+      "reading": "つくる",
+      "headword": "{作|つく}る",
+      "label": "to make"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -72,7 +81,7 @@
       "domain": []
     },
     "created": "2026-06-27T18:18:39Z",
-    "modified": "2026-06-27T18:18:39Z"
+    "modified": "2026-09-02T04:02:37Z"
   },
   "prominent_see_also": [
     {

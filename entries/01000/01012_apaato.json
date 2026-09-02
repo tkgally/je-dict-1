@@ -43,11 +43,33 @@
       ]
     }
   ],
-  "notes": "アパート refers to apartments in smaller buildings, typically 2-3 stories, with wooden or lightweight steel construction.\n\nJAPANESE HOUSING DISTINCTION:\n- アパート: smaller, older-style buildings\n- ⟦マンション→マンション：01035_manshon⟧: larger concrete buildings (not 'mansion')\n- ⟦{一戸建|いっこだ}て→一戸建て：19687_ikkodate⟧: detached house\n\nCOMMON EXPRESSIONS:\n- アパート⟦を→を：00422_wo⟧⟦{借|か}りる→借りる：00532_kariru⟧: to rent an apartment\n- アパート⟦を→を：00422_wo⟧⟦{探|さが}す→探す：00493_sagasu⟧: to look for an apartment\n- ⟦{家賃|やちん}→家賃：03639_yachin⟧: rent\n- ⟦{敷金|しききん}→敷金：06079_shikikin⟧: security deposit\n\nNOTE:\n⟦マンション→マンション：01035_manshon⟧ sounds more prestigious in Japanese, though it comes from 'mansion.' アパート tends to imply more affordable housing.",
-  "cross_references": [],
+  "notes": "アパート refers to apartments in smaller buildings, typically 2-3 stories, with wooden or lightweight steel construction.\n\nJAPANESE HOUSING DISTINCTION:\n- アパート: smaller, older-style buildings\n- ⟦マンション→マンション：01035_manshon⟧: larger concrete buildings (not 'mansion')\n- ⟦{一戸建|いっこだ}て→一戸建て：19687_ikkodate⟧: detached house\n\nCOMMON EXPRESSIONS:\n- アパート⟦を→を：00422_wo⟧⟦{借|か}りる→借りる：00532_kariru⟧: to rent an apartment\n- アパート⟦を→を：00422_wo⟧⟦{探|さが}す→探す：00493_sagasu⟧: to look for an apartment\n- ⟦{家賃|やちん}→家賃：03639_yachin⟧: rent\n- ⟦{敷金|しききん}→敷金：06079_shikikin⟧: security deposit\n\nUSAGE:\n⟦マンション→マンション：01035_manshon⟧ sounds more prestigious in Japanese, though it comes from 'mansion.' アパート tends to imply more affordable housing.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01035_manshon",
+      "reading": "まんしょん",
+      "headword": "マンション",
+      "label": "condominium"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06743_bukken",
+      "reading": "ぶっけん",
+      "headword": "{物件|ぶっけん}",
+      "label": "property"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19687_ikkodate",
+      "reading": "いっこだて",
+      "headword": "{一戸建|いっこだ}て",
+      "label": "detached house"
+    }
+  ],
   "metadata": {
     "created": "2026-01-07T12:26:25Z",
-    "modified": "2026-05-13T19:17:12Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

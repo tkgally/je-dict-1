@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "09702_ekiben_ex1",
-      "japanese": "{駅弁|えきべん}を{買|か}って{新幹線|しんかんせん}に{乗|の}った。",
+      "japanese": "{駅弁|えきべん}⟦を→を：00422_wo⟧⟦{買|か}って→買う：00489_kau⟧⟦{新幹線|しんかんせん}→新幹線：01053_shinkansen⟧⟦に→に：00314_ni⟧⟦{乗|の}った→乗る：00511_noru⟧。",
       "english": "I bought an ekiben and got on the shinkansen.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "09702_ekiben_ex2",
-      "japanese": "この{地方|ちほう}の{駅弁|えきべん}は{有名|ゆうめい}だ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{地方|ちほう}→地方：02369_chihou⟧⟦の→の：09472_no⟧{駅弁|えきべん}⟦は→は：00079_ha⟧⟦{有名|ゆうめい}→有名：01106_yuumei⟧だ。",
       "english": "This region's ekiben is famous.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "09702_ekiben_ex3",
-      "japanese": "{駅弁|えきべん}{大会|たいかい}で{全国|ぜんこく}の{名物|めいぶつ}{弁当|べんとう}が{集|あつ}まった。",
+      "japanese": "{駅弁|えきべん}⟦{大会|たいかい}→大会：03386_taikai⟧⟦で→で：00502_de⟧⟦{全国|ぜんこく}→全国：03311_zenkoku⟧⟦の→の：09472_no⟧⟦{名物|めいぶつ}→名物：05591_meibutsu⟧⟦{弁当|べんとう}→弁当：01014_bentou⟧⟦が→が：00051_ga⟧⟦{集|あつ}まった→集まる：01162_atsumaru⟧。",
       "english": "Regional specialty bentos from across the country gathered at the ekiben festival.",
       "notes": null,
       "has_audio": false,
@@ -43,10 +43,10 @@
       ]
     }
   ],
-  "notes": "{駅弁|えきべん} is a beloved part of Japanese train travel culture.\n\nCOMMON COLLOCATIONS:\n- {駅弁|えきべん}を{買|か}う (to buy an ekiben)\n- {駅弁|えきべん}{大会|たいかい} (ekiben festival/fair)\n- ご{当地|とうち}{駅弁|えきべん} (local specialty ekiben)\n\nUSAGE NOTES:\n- Each region has its own specialty ekiben\n- Popular activity to try different ekiben while traveling\n- Department stores hold ekiben festivals\n\nRELATED TERMS:\n- {弁当|べんとう}: bento, boxed lunch\n- {空弁|そらべん}: airport bento",
+  "notes": "{駅弁|えきべん} is a beloved part of Japanese train travel culture.\n\nCOMMON COLLOCATIONS:\n- {駅弁|えきべん}⟦を→を：00422_wo⟧⟦{買|か}う→買う：00489_kau⟧ (to buy an ekiben)\n- {駅弁|えきべん}⟦{大会|たいかい}→大会：03386_taikai⟧ (ekiben festival/fair)\n- ⟦ご{当地|とうち}→ご当地：08936_gotouchi⟧{駅弁|えきべん} (local specialty ekiben)\n\nUSAGE:\n- Each region has its own specialty ekiben\n- Popular activity to try different ekiben while traveling\n- Department stores hold ekiben festivals\n\nRELATED WORDS:\n- ⟦{弁当|べんとう}→弁当：01014_bentou⟧: bento, boxed lunch\n- {空弁|そらべん}: airport bento",
   "metadata": {
     "created": "2026-02-03T06:52:11Z",
-    "modified": "2026-04-23T06:13:56Z",
+    "modified": "2026-09-02T04:01:19Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -68,6 +68,27 @@
       "reading": "べんとう",
       "headword": "{弁当|べんとう}",
       "label": "lunch box"
+    },
+    {
+      "type": "related",
+      "target_id": "23784_shokudousha",
+      "reading": "しょくどうしゃ",
+      "headword": "{食堂車|しょくどうしゃ}",
+      "label": "dining car (on a train)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23921_shidashibentou",
+      "reading": "しだしべんとう",
+      "headword": "{仕出|しだ}し{弁当|べんとう}",
+      "label": "catered boxed meal"
+    },
+    {
+      "type": "related",
+      "target_id": "24952_shoujinbentou",
+      "reading": "しょうじんべんとう",
+      "headword": "{精進弁当|しょうじんべんとう}",
+      "label": "vegetarian lunch box"
     }
   ]
 }

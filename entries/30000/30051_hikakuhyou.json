@@ -15,41 +15,62 @@
   "examples": [
     {
       "id": "30051_hikakuhyou_ex1",
-      "japanese": "{比較表|ひかくひょう}を{作|つく}る。",
+      "japanese": "{比較表|ひかくひょう}⟦を→を：00422_wo⟧⟦{作|つく}る→作る：00481_tsukuru⟧。",
       "english": "Make a comparison table.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "30051_hikakuhyou_ex2",
-      "japanese": "{料金|りょうきん}プランの{比較表|ひかくひょう}を{見|み}る。",
+      "japanese": "⟦{料金|りょうきん}→料金：03797_ryoukin⟧⟦プラン→プラン：00345_puran⟧⟦の→の：09472_no⟧{比較表|ひかくひょう}⟦を→を：00422_wo⟧⟦{見|み}る→見る：00283_miru⟧。",
       "english": "Look at a comparison table of the pricing plans.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "30051_hikakuhyou_ex3",
-      "japanese": "{各社|かくしゃ}の{製品|せいひん}を{比較表|ひかくひょう}にまとめると、{違|ちが}いが{分|わ}かりやすい。",
+      "japanese": "⟦{各社|かくしゃ}→各社：11057_kakusha⟧⟦の→の：09472_no⟧⟦{製品|せいひん}→製品：01445_seihin⟧⟦を→を：00422_wo⟧{比較表|ひかくひょう}⟦に→に：00314_ni⟧⟦まとめる→まとめる：02424_matomeru⟧⟦と→と：00512_to⟧、⟦{違|ちが}い→違い：03432_chigai⟧⟦が→が：00051_ga⟧⟦{分|わ}かり→分かる：00463_wakaru⟧やすい。",
       "english": "Summarizing each company's products in a comparison table makes the differences easy to see.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Combines {比較|ひかく} (comparison) with {表|ひょう} (table). Widely used for products, services, and price plans to present differences clearly.\n\nCOMMON COLLOCATIONS:\n- {比較表|ひかくひょう}を{作成|さくせい}する: to create a comparison table\n- {料金|りょうきん}{比較表|ひかくひょう}: a price comparison table\n- {機能|きのう}{比較表|ひかくひょう}: a feature comparison table",
+  "notes": "Combines ⟦{比較|ひかく}→比較：03576_hikaku⟧ (comparison) with ⟦{表|ひょう}→表：19354_hyou⟧ (table). Widely used for products, services, and price plans to present differences clearly.\n\nCOMMON COLLOCATIONS:\n- {比較表|ひかくひょう}⟦を→を：00422_wo⟧⟦{作成|さくせい}する→作成する：25378_sakuseisuru⟧: to create a comparison table\n- ⟦{料金|りょうきん}→料金：03797_ryoukin⟧{比較表|ひかくひょう}: a price comparison table\n- ⟦{機能|きのう}→機能：13165_kinou⟧{比較表|ひかくひょう}: a feature comparison table",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "30043_taishouhyou",
+      "reading": "たいしょうひょう",
+      "headword": "対照表",
+      "label": "comparison table"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["business"],
-      "domain": ["business"]
+      "politeness": "plain",
+      "semantic": [
+        "business"
+      ],
+      "domain": [
+        "business"
+      ]
     },
     "created": "2026-07-23T00:19:28Z",
-    "modified": "2026-07-23T00:19:28Z"
+    "modified": "2026-09-02T04:02:38Z"
   }
 }

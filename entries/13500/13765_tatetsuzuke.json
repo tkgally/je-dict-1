@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "13765_tatetsuzuke_ex1",
-      "japanese": "{事故|じこ}が{立|た}て{続|つづ}けに{起|お}きた。",
+      "japanese": "⟦{事故|じこ}→事故：00851_jiko⟧⟦が→が：00051_ga⟧{立|た}て{続|つづ}け⟦に→に：00314_ni⟧⟦{起|お}きた→起きる：00521_okiru⟧。",
       "english": "Accidents happened one after another.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "13765_tatetsuzuke_ex2",
-      "japanese": "{立|た}て{続|つづ}けに{三杯|さんばい}もコーヒーを{飲|の}んだ。",
+      "japanese": "{立|た}て{続|つづ}け⟦に→に：00314_ni⟧{三杯|さんばい}⟦も→も：00484_mo⟧⟦コーヒー→コーヒー：00789_koohii⟧⟦を→を：00422_wo⟧⟦{飲|の}んだ→飲む：00322_nomu⟧。",
       "english": "I drank three cups of coffee in a row.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "13765_tatetsuzuke_ex3",
-      "japanese": "{悪|わる}いニュースが{立|た}て{続|つづ}けに{届|とど}いて、さすがに{落|お}ち{込|こ}んだ。",
+      "japanese": "⟦{悪|わる}い→悪い：00908_warui⟧⟦ニュース→ニュース：04437_nyuusu⟧⟦が→が：00051_ga⟧{立|た}て{続|つづ}け⟦に→に：00314_ni⟧⟦{届|とど}いて→届く：00899_todoku⟧、さすが⟦に→に：00314_ni⟧⟦{落|お}ち{込|こ}んだ→落ち込む：05750_ochikomu⟧。",
       "english": "Bad news kept arriving one after another, and I understandably felt down.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nAlmost always used with the particle に as {立|た}て{続|つづ}けに. It emphasizes that events happen in rapid or immediate succession, often implying that the frequency is notable or surprising.\n\nCOMMON COLLOCATIONS:\n- {立|た}て{続|つづ}けに{起|お}きる: to happen in succession\n- {立|た}て{続|つづ}けに{飲|の}む: to drink one after another\n- {立|た}て{続|つづ}けに{質問|しつもん}する: to ask questions one after another\n- {立|た}て{続|つづ}けに{失敗|しっぱい}する: to fail repeatedly in a row\n\nSIMILAR WORDS:\n{連続|れんぞく} means \"consecutive\" or \"continuous\" and is more neutral, often used for numbered sequences. {立|た}て{続|つづ}けに emphasizes the rapid-fire, unexpected quality of repeated events.",
+  "notes": "USAGE:\nAlmost always used with the particle ⟦に→に：00314_ni⟧ as {立|た}て{続|つづ}け⟦に→に：00314_ni⟧. It emphasizes that events happen in rapid or immediate succession, often implying that the frequency is notable or surprising.\n\nCOMMON COLLOCATIONS:\n- {立|た}て{続|つづ}け⟦に→に：00314_ni⟧⟦{起|お}きる→起きる：00521_okiru⟧: to happen in succession\n- {立|た}て{続|つづ}け⟦に→に：00314_ni⟧⟦{飲|の}む→飲む：00322_nomu⟧: to drink one after another\n- {立|た}て{続|つづ}け⟦に→に：00314_ni⟧⟦{質問|しつもん}する→質問する：05637_shitsumonsuru⟧: to ask questions one after another\n- {立|た}て{続|つづ}け⟦に→に：00314_ni⟧⟦{失敗|しっぱい}→失敗：01636_shippai⟧⟦する→する：00392_suru⟧: to fail repeatedly in a row\n\nSIMILAR WORDS:\n⟦{連続|れんぞく}→連続：03783_renzoku⟧ means \"consecutive\" or \"continuous\" and is more neutral, often used for numbered sequences. {立|た}て{続|つづ}け⟦に→に：00314_ni⟧ emphasizes the rapid-fire, unexpected quality of repeated events.",
   "cross_references": [
     {
       "type": "related",
@@ -52,11 +52,25 @@
       "headword": "{次々|つぎつぎ}と",
       "label": "one after another",
       "target_id": "07028_tsugitsugito"
+    },
+    {
+      "type": "related",
+      "target_id": "15419_aitsuide",
+      "reading": "あいついで",
+      "headword": "{相次|あいつ}いで",
+      "label": "one after another"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19939_tsuzukezama",
+      "reading": "つづけざま",
+      "headword": "{続|つづ}けざま",
+      "label": "in rapid succession"
     }
   ],
   "metadata": {
     "created": "2026-02-27T03:10:54Z",
-    "modified": "2026-08-27T12:49:51Z",
+    "modified": "2026-09-02T04:01:34Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

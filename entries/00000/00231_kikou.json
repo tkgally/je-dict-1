@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{気候|きこう} refers to the long-term weather patterns of a region.\n\nCONTRAST WITH WEATHER:\n- {気候|きこう}: climate (long-term patterns)\n- ⟦{天気|てんき}→天気：00582_tenki⟧: weather (short-term conditions)\n\nCOMMON EXPRESSIONS:\n- {気候|きこう}⟦{変動|へんどう}→変動：09936_hendou⟧: climate change\n- ⟦{温暖|おんだん}→温暖：02596_ondan⟧⟦な→な：09497_na⟧{気候|きこう}: warm climate\n- ⟦{寒冷|かんれい}→寒冷：19667_kanrei⟧⟦な→な：09497_na⟧{気候|きこう}: cold climate\n- ⟦{熱帯|ねったい}→熱帯：03531_nettai⟧{気候|きこう}: tropical climate\n- ⟦{乾燥|かんそう}→乾燥：00184_kansou⟧{気候|きこう}: dry/arid climate\n\nRELATED:\n- ⟦{気象|きしょう}→気象：09943_kishou⟧: weather, meteorology\n- ⟦{季節|きせつ}→季節：01304_kisetsu⟧: season\n- ⟦{環境|かんきょう}→環境：00174_kankyou⟧: environment",
+  "notes": "{気候|きこう} refers to the long-term weather patterns of a region.\n\nCONTRAST WITH WEATHER:\n- {気候|きこう}: climate (long-term patterns)\n- ⟦{天気|てんき}→天気：00582_tenki⟧: weather (short-term conditions)\n\nCOMMON EXPRESSIONS:\n- {気候|きこう}⟦{変動|へんどう}→変動：09936_hendou⟧: climate change\n- ⟦{温暖|おんだん}→温暖：02596_ondan⟧⟦な→な：09497_na⟧{気候|きこう}: warm climate\n- ⟦{寒冷|かんれい}→寒冷：19667_kanrei⟧⟦な→な：09497_na⟧{気候|きこう}: cold climate\n- ⟦{熱帯|ねったい}→熱帯：03531_nettai⟧{気候|きこう}: tropical climate\n- ⟦{乾燥|かんそう}→乾燥：00184_kansou⟧{気候|きこう}: dry/arid climate\n\nRELATED WORDS:\n- ⟦{気象|きしょう}→気象：09943_kishou⟧: weather, meteorology\n- ⟦{季節|きせつ}→季節：01304_kisetsu⟧: season\n- ⟦{環境|かんきょう}→環境：00174_kankyou⟧: environment",
   "cross_references": [
     {
       "type": "contrast",
@@ -51,6 +51,27 @@
       "reading": "てんき",
       "headword": "{天気|てんき}",
       "label": "weather (short-term)"
+    },
+    {
+      "type": "related",
+      "target_id": "09943_kishou",
+      "reading": "きしょう",
+      "headword": "{気象|きしょう}",
+      "label": "weather, meteorology"
+    },
+    {
+      "type": "related",
+      "target_id": "01304_kisetsu",
+      "reading": "きせつ",
+      "headword": "{季節|きせつ}",
+      "label": "season"
+    },
+    {
+      "type": "related",
+      "target_id": "00174_kankyou",
+      "reading": "かんきょう",
+      "headword": "{環境|かんきょう}",
+      "label": "environment"
     }
   ],
   "prominent_see_also": [
@@ -69,7 +90,7 @@
   ],
   "metadata": {
     "created": "2026-01-10T08:42:54Z",
-    "modified": "2026-05-09T23:57:18Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

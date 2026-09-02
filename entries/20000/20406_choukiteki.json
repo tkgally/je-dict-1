@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "20406_choukiteki_ex1",
-      "japanese": "{長期的|ちょうきてき}な{目標|もくひょう}を{立|た}てる。",
+      "japanese": "{長期的|ちょうきてき}な⟦{目標|もくひょう}→目標：03631_mokuhyou⟧⟦を→を：00422_wo⟧⟦{立|た}てる→立てる：01196_tateru⟧。",
       "english": "To set long-term goals.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "20406_choukiteki_ex2",
-      "japanese": "{長期的|ちょうきてき}に{見|み}れば、この{投資|とうし}は{有利|ゆうり}だ。",
+      "japanese": "{長期的|ちょうきてき}⟦に→に：00314_ni⟧⟦{見|み}れば→見る：00283_miru⟧、⟦この→この：00962_kono⟧⟦{投資|とうし}→投資：04711_toushi⟧⟦は→は：00079_ha⟧⟦{有利|ゆうり}→有利：03651_yuuri⟧だ。",
       "english": "In the long run, this investment is advantageous.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "20406_choukiteki_ex3",
-      "japanese": "{会社|かいしゃ}は{長期的|ちょうきてき}な{視点|してん}に{立|た}って{経営|けいえい}{戦略|せんりゃく}を{見直|みなお}している。",
+      "japanese": "⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦は→は：00079_ha⟧{長期的|ちょうきてき}な⟦{視点|してん}→視点：03187_shiten⟧⟦に→に：00314_ni⟧⟦{立|た}って→立つ：00758_tatsu⟧⟦{経営|けいえい}→経営：02740_keiei⟧⟦{戦略|せんりゃく}→戦略：04869_senryaku⟧⟦を→を：00422_wo⟧⟦{見直|みなお}している→見直す：04579_minaosu⟧。",
       "english": "The company is reviewing its business strategy from a long-term perspective.",
       "sense_numbers": [
         1
@@ -44,13 +44,20 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {長期|ちょうき} (long period) + {的|てき} (adjectival suffix). A very common modifier in business, economics, and planning contexts.\n\nCOMMON COLLOCATIONS:\n- {長期的|ちょうきてき}な{計画|けいかく}: long-term plan\n- {長期的|ちょうきてき}な{視点|してん}: long-term perspective\n- {長期的|ちょうきてき}な{影響|えいきょう}: long-term effects\n- {長期的|ちょうきてき}に{見|み}る: to look at from a long-term view\n\nSIMILAR WORDS:\n- {短期的|たんきてき}: short-term — the direct antonym\n- {中期的|ちゅうきてき}: medium-term — between short and long\n- {長|なが}い{目|め}で{見|み}る: to take the long view — a more colloquial expression with similar meaning",
+  "notes": "Composed of ⟦{長期|ちょうき}→長期：03487_chouki⟧ (long period) + ⟦{的|てき}→〜的：09839_teki⟧ (adjectival suffix). A very common modifier in business, economics, and planning contexts.\n\nCOMMON COLLOCATIONS:\n- {長期的|ちょうきてき}な⟦{計画|けいかく}→計画：01172_keikaku⟧: long-term plan\n- {長期的|ちょうきてき}な⟦{視点|してん}→視点：03187_shiten⟧: long-term perspective\n- {長期的|ちょうきてき}な⟦{影響|えいきょう}→影響：01877_eikyou⟧: long-term effects\n- {長期的|ちょうきてき}⟦に→に：00314_ni⟧⟦{見|み}る→見る：00283_miru⟧: to look at from a long-term view\n\nSIMILAR WORDS:\n- {短期的|たんきてき}: short-term — the direct antonym\n- {中期的|ちゅうきてき}: medium-term — between short and long\n- ⟦{長|なが}い→長い：00491_nagai⟧⟦{目|め}→目：00525_me⟧⟦で→で：00502_de⟧⟦{見|み}る→見る：00283_miru⟧: to take the long view — a more colloquial expression with similar meaning",
   "cross_references": [
     {
       "type": "antonym",
       "reading": "たんきてき",
       "headword": "{短期的|たんきてき}",
       "label": "short-term"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21872_shouraiteki",
+      "reading": "しょうらいてき",
+      "headword": "{将来的|しょうらいてき}",
+      "label": "future"
     }
   ],
   "schema_version": "2.0",
@@ -68,6 +75,6 @@
       ]
     },
     "created": "2026-03-29T12:59:21Z",
-    "modified": "2026-07-28T00:51:36Z"
+    "modified": "2026-09-02T04:01:59Z"
   }
 }

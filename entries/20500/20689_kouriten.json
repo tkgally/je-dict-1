@@ -15,40 +15,95 @@
   "examples": [
     {
       "id": "20689_kouriten_ex1",
-      "japanese": "{駅前|えきまえ}の{小売店|こうりてん}で{買|か}う。",
+      "japanese": "⟦{駅前|えきまえ}→駅前：09593_ekimae⟧⟦の→の：09472_no⟧{小売店|こうりてん}⟦で→で：00502_de⟧⟦{買|か}う→買う：00489_kau⟧。",
       "english": "To buy at a retail store in front of the station.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20689_kouriten_ex2",
-      "japanese": "{地元|じもと}の{小売店|こうりてん}が{大型|おおがた}スーパーに{押|お}されて{減|へ}っている。",
+      "japanese": "⟦{地元|じもと}→地元：09941_jimoto⟧⟦の→の：09472_no⟧{小売店|こうりてん}⟦が→が：00051_ga⟧⟦{大型|おおがた}→大型：03016_oogata⟧⟦スーパー→スーパー：01061_suupaa⟧⟦に→に：00314_ni⟧⟦{押|お}されて→押す：02854_osu⟧⟦{減|へ}っている→減る：01985_heru⟧。",
       "english": "Local retail shops are declining under pressure from large supermarkets.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20689_kouriten_ex3",
-      "japanese": "この{商品|しょうひん}はメーカーから{小売店|こうりてん}を{通|つう}じて{消費者|しょうひしゃ}に{届|とど}けられる。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{商品|しょうひん}→商品：01436_shouhin⟧⟦は→は：00079_ha⟧⟦メーカー→メーカー：11158_meekaa⟧⟦から→から：00504_kara⟧{小売店|こうりてん}⟦を→を：00422_wo⟧⟦{通|つう}じて→通じる：02289_tsuujiru⟧⟦{消費者|しょうひしゃ}→消費者：09866_shouhisha⟧⟦に→に：00314_ni⟧⟦{届|とど}けられる→届ける：01248_todokeru⟧。",
       "english": "This product reaches consumers from the manufacturer through retail stores.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {小売|こうり} (retail) + {店|てん} (shop/store). Refers to any store that sells directly to end consumers.\n\nCOMMON COLLOCATIONS:\n- {小売店|こうりてん}を{営|いとな}む: to run a retail store\n- {小売店|こうりてん}で{販売|はんばい}する: to sell at a retail store\n- {個人|こじん}{小売店|こうりてん}: independent retail shop\n- {小売店|こうりてん}{向|む}け: aimed at retail stores\n\nSIMILAR WORDS:\n- {卸売店|おろしうりてん}: wholesale store — sells in bulk to businesses rather than individual consumers\n- {専門店|せんもんてん}: specialty store — a retail store focused on a specific category\n- {量販店|りょうはんてん}: mass retailer — a large-scale store selling in high volume at low prices\n- {商店|しょうてん}: shop, store — a general term, often referring to smaller or traditional shops\n\nNOTE:\nJapan's retail landscape has shifted significantly, with many traditional {小売店|こうりてん} in {商店街|しょうてんがい} (shopping streets) giving way to convenience stores, large chain stores, and online shopping.",
+  "notes": "Composed of ⟦{小売|こうり}→小売：05084_kouri⟧ (retail) + ⟦{店|てん}→店：10011_ten⟧ (shop/store). Refers to any store that sells directly to end consumers.\n\nCOMMON COLLOCATIONS:\n- {小売店|こうりてん}⟦を→を：00422_wo⟧⟦{営|いとな}む→営む：11837_itonamu⟧: to run a retail store\n- {小売店|こうりてん}⟦で→で：00502_de⟧⟦{販売|はんばい}→販売：03573_hanbai⟧⟦する→する：00392_suru⟧: to sell at a retail store\n- ⟦{個人|こじん}→個人：02758_kojin⟧{小売店|こうりてん}: independent retail shop\n- {小売店|こうりてん}{向|む}け: aimed at retail stores\n\nSIMILAR WORDS:\n- ⟦{卸売店|おろしうりてん}→卸売店：24113_oroshiuriten⟧: wholesale store — sells in bulk to businesses rather than individual consumers\n- ⟦{専門店|せんもんてん}→専門店：15924_senmonten⟧: specialty store — a retail store focused on a specific category\n- ⟦{量販店|りょうはんてん}→量販店：20498_ryouhanten⟧: mass retailer — a large-scale store selling in high volume at low prices\n- ⟦{商店|しょうてん}→商店：11841_shouten⟧: shop, store — a general term, often referring to smaller or traditional shops\n\nUSAGE:\nJapan's retail landscape has shifted significantly, with many traditional {小売店|こうりてん} in ⟦{商店街|しょうてんがい}→商店街：09391_shoutengai⟧ (shopping streets) giving way to convenience stores, large chain stores, and online shopping.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24113_oroshiuriten",
+      "reading": "おろしうりてん",
+      "headword": "{卸売店|おろしうりてん}",
+      "label": "wholesale store"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15924_senmonten",
+      "reading": "せんもんてん",
+      "headword": "{専門店|せんもんてん}",
+      "label": "specialty store"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20498_ryouhanten",
+      "reading": "りょうはんてん",
+      "headword": "{量販店|りょうはんてん}",
+      "label": "mass retailer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11841_shouten",
+      "reading": "しょうてん",
+      "headword": "{商店|しょうてん}",
+      "label": "shop, store"
+    },
+    {
+      "type": "related",
+      "target_id": "20898_hanbaiten",
+      "reading": "はんばいてん",
+      "headword": "{販売店|はんばいてん}",
+      "label": "retail store"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22458_kourigyousha",
+      "reading": "こうりぎょうしゃ",
+      "headword": "{小売業者|こうりぎょうしゃ}",
+      "label": "retailer"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["business", "shopping"]
+      "semantic": [
+        "business",
+        "shopping"
+      ]
     },
     "created": "2026-03-30T07:47:05Z",
-    "modified": "2026-03-30T07:47:05Z"
+    "modified": "2026-09-02T04:02:00Z"
   }
 }

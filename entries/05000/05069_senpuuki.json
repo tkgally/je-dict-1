@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "{扇風機|せんぷうき} is the standard word for an electric fan. The word combines {扇|せん} (fan) + {風|ふう} (wind) + {機|き} (machine).\n\nCOMMON COLLOCATIONS:\n- {扇風機|せんぷうき}⟦を→を：00422_wo⟧⟦つける→つける：00562_tsukeru⟧/⟦かける→かける：noentry⟧: to turn on a fan\n- {扇風機|せんぷうき}⟦を→を：00422_wo⟧⟦{消|け}す→消す：00528_kesu⟧/⟦とめる→止める：00678_tomeru⟧: to turn off a fan\n- {扇風機|せんぷうき}⟦の→の：09472_no⟧⟦{風|かぜ}→風：00641_kaze⟧: the breeze from a fan\n- ⟦{首振|くびふ}り→首振り：noentry⟧{扇風機|せんぷうき}: oscillating fan\n\nRELATED TERMS:\n- ⟦エアコン→エアコン：05282_eakon⟧: air conditioner (cools more effectively)\n- ⟦{換気扇|かんきせん}→換気扇：04678_kankisen⟧: ventilation/exhaust fan (used in kitchens and bathrooms)\n- ⟦{団扇|うちわ}→団扇：04544_uchiwa⟧: flat hand fan (traditional)\n- ⟦{扇子|せんす}→扇子：04039_sensu⟧: folding fan\n\nCULTURAL NOTE:\nThere is a well-known urban legend in Japan about \"fan death\" ({扇風機|せんぷうき}⟦の→の：09472_no⟧⟦{都市伝説|としでんせつ}→都市伝説：28748_toshidensetsu⟧), though it is more associated with Korea. Many Japanese people avoid sleeping with a fan blowing directly on them.",
+  "notes": "{扇風機|せんぷうき} is the standard word for an electric fan. The word combines {扇|せん} (fan) + {風|ふう} (wind) + ⟦{機|き}→〜機：09843_ki⟧ (machine).\n\nCOMMON COLLOCATIONS:\n- {扇風機|せんぷうき}⟦を→を：00422_wo⟧⟦つける→つける：00562_tsukeru⟧/⟦かける→かける：noentry⟧: to turn on a fan\n- {扇風機|せんぷうき}⟦を→を：00422_wo⟧⟦{消|け}す→消す：00528_kesu⟧/⟦とめる→止める：00678_tomeru⟧: to turn off a fan\n- {扇風機|せんぷうき}⟦の→の：09472_no⟧⟦{風|かぜ}→風：00641_kaze⟧: the breeze from a fan\n- ⟦{首振|くびふ}り→首振り：noentry⟧{扇風機|せんぷうき}: oscillating fan\n\nRELATED WORDS:\n- ⟦エアコン→エアコン：05282_eakon⟧: air conditioner (cools more effectively)\n- ⟦{換気扇|かんきせん}→換気扇：04678_kankisen⟧: ventilation/exhaust fan (used in kitchens and bathrooms)\n- ⟦{団扇|うちわ}→団扇：04544_uchiwa⟧: flat hand fan (traditional)\n- ⟦{扇子|せんす}→扇子：04039_sensu⟧: folding fan\n\nCULTURAL NOTE:\nThere is a well-known urban legend in Japan about \"fan death\" ({扇風機|せんぷうき}⟦の→の：09472_no⟧⟦{都市伝説|としでんせつ}→都市伝説：28748_toshidensetsu⟧), though it is more associated with Korea. Many Japanese people avoid sleeping with a fan blowing directly on them.",
   "cross_references": [
     {
       "type": "contrast",
@@ -78,11 +78,46 @@
       "reading": "えあこん",
       "headword": "エアコン",
       "label": "air conditioner"
+    },
+    {
+      "type": "related",
+      "target_id": "04678_kankisen",
+      "reading": "かんきせん",
+      "headword": "{換気扇|かんきせん}",
+      "label": "ventilation/exhaust fan"
+    },
+    {
+      "type": "related",
+      "target_id": "04544_uchiwa",
+      "reading": "うちわ",
+      "headword": "{団扇|うちわ}",
+      "label": "flat hand fan"
+    },
+    {
+      "type": "related",
+      "target_id": "04039_sensu",
+      "reading": "せんす",
+      "headword": "{扇子|せんす}",
+      "label": "folding fan"
+    },
+    {
+      "type": "related",
+      "target_id": "01352_kuuraa",
+      "reading": "くーらー",
+      "headword": "クーラー",
+      "label": "air conditioner"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24886_soufuuki",
+      "reading": "そうふうき",
+      "headword": "{送風機|そうふうき}",
+      "label": "blower"
     }
   ],
   "metadata": {
     "created": "2026-01-16T02:32:54Z",
-    "modified": "2026-08-08T09:25:02Z",
+    "modified": "2026-09-02T04:01:06Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

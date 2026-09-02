@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "15132_suekko_ex1",
-      "japanese": "{私|わたし}は{三人|さんにん}{兄弟|きょうだい}の{末|すえ}っ{子|こ}だ。",
+      "japanese": "⟦{私|わたし}→私：02988_watashi⟧⟦は→は：00079_ha⟧⟦{三人|さんにん}→三人：10978_sannin⟧⟦{兄弟|きょうだい}→兄弟：00964_kyoudai⟧⟦の→の：09472_no⟧{末|すえ}っ{子|こ}だ。",
       "english": "I am the youngest of three siblings.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "15132_suekko_ex2",
-      "japanese": "{末|すえ}っ{子|こ}はいつも{甘|あま}やかされがちだ。",
+      "japanese": "{末|すえ}っ{子|こ}⟦は→は：00079_ha⟧⟦いつも→いつも：00599_itsumo⟧⟦{甘|あま}やかされ→甘やかす：06625_amayakasu⟧がちだ。",
       "english": "The youngest child tends to always be spoiled.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "15132_suekko_ex3",
-      "japanese": "{末|すえ}っ{子|こ}が{大学|だいがく}を{卒業|そつぎょう}して、{親|おや}としてほっとした。",
+      "japanese": "{末|すえ}っ{子|こ}⟦が→が：00051_ga⟧⟦{大学|だいがく}→大学：00608_daigaku⟧⟦を→を：00422_wo⟧⟦{卒業|そつぎょう}→卒業：01643_sotsugyou⟧⟦して→する：00392_suru⟧、⟦{親|おや}→親：01357_oya⟧⟦として→として：06802_toshite⟧⟦ほっとした→ほっとする：07652_hottosuru⟧。",
       "english": "As a parent, I felt relieved when my youngest child graduated from university.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,54 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{末|すえ}っ{子|こ} is a warm, familiar word used in everyday conversation about families. The stereotype of the {末|すえ}っ{子|こ} in Japanese culture is similar to the Western \"baby of the family\" — often seen as spoiled, charming, and free-spirited.\n\nRELATED FAMILY TERMS:\n- {長男|ちょうなん} (eldest son)\n- {長女|ちょうじょ} (eldest daughter)\n- {次男|じなん} (second son)\n- {一人|ひとり}っ{子|こ} (only child)\n- {真|ま}ん{中|なか}っ{子|こ} (middle child)",
-  "cross_references": [],
+  "notes": "USAGE:\n{末|すえ}っ{子|こ} is a warm, familiar word used in everyday conversation about families. The stereotype of the {末|すえ}っ{子|こ} in Japanese culture is similar to the Western \"baby of the family\" — often seen as spoiled, charming, and free-spirited.\n\nRELATED FAMILY TERMS:\n- ⟦{長男|ちょうなん}→長男：14519_chounan⟧ (eldest son)\n- ⟦{長女|ちょうじょ}→長女：14518_choujo⟧ (eldest daughter)\n- ⟦{次男|じなん}→次男：13210_jinan⟧ (second son)\n- ⟦{一人|ひとり}っ{子|こ}→一人っ子：10101_hitorikko⟧ (only child)\n- ⟦{真|ま}ん{中|なか}→真ん中：00968_mannaka⟧っ{子|こ} (middle child)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "14519_chounan",
+      "reading": "ちょうなん",
+      "headword": "{長男|ちょうなん}",
+      "label": "eldest son"
+    },
+    {
+      "type": "related",
+      "target_id": "14518_choujo",
+      "reading": "ちょうじょ",
+      "headword": "{長女|ちょうじょ}",
+      "label": "eldest daughter"
+    },
+    {
+      "type": "related",
+      "target_id": "13210_jinan",
+      "reading": "じなん",
+      "headword": "{次男|じなん}",
+      "label": "second son"
+    },
+    {
+      "type": "related",
+      "target_id": "10101_hitorikko",
+      "reading": "ひとりっこ",
+      "headword": "{一人|ひとり}っ{子|こ}",
+      "label": "only child"
+    },
+    {
+      "type": "related",
+      "target_id": "18548_suemusume",
+      "reading": "すえむすめ",
+      "headword": "{末娘|すえむすめ}",
+      "label": "youngest daughter"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25215_uigo",
+      "reading": "ういご",
+      "headword": "{初子|ういご}",
+      "label": "firstborn child"
+    }
+  ],
   "metadata": {
     "created": "2026-03-05T07:57:19Z",
-    "modified": "2026-07-15T03:29:10Z",
+    "modified": "2026-09-02T04:01:40Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

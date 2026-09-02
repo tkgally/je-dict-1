@@ -3,7 +3,7 @@
   "headword": "{見破|みやぶ}る",
   "reading": "みやぶる",
   "romaji": "miyaburu",
-  "part_of_speech": "godan verb, transitive",
+  "part_of_speech": "verb (godan, transitive)",
   "gloss": "to see through; to detect; to expose",
   "conjugation": {
     "type": "godan",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "18726_miyaburu_ex1",
-      "japanese": "{嘘|うそ}を{見破|みやぶ}る。",
+      "japanese": "⟦{嘘|うそ}→嘘：01796_uso⟧⟦を→を：00422_wo⟧{見破|みやぶ}る。",
       "english": "To see through a lie.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "18726_miyaburu_ex2",
-      "japanese": "{彼女|かのじょ}の{変装|へんそう}はすぐに{見破|みやぶ}られた。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦の→の：09472_no⟧⟦{変装|へんそう}→変装：12098_hensou⟧⟦は→は：00079_ha⟧⟦すぐ→すぐ：00814_sugu⟧⟦に→に：00314_ni⟧{見破|みやぶ}られた。",
       "english": "Her disguise was quickly seen through.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "18726_miyaburu_ex3",
-      "japanese": "{刑事|けいじ}は{犯人|はんにん}のアリバイの{矛盾|むじゅん}を{見破|みやぶ}った。",
+      "japanese": "⟦{刑事|けいじ}→刑事：02741_keiji⟧⟦は→は：00079_ha⟧⟦{犯人|はんにん}→犯人：03572_hannin⟧⟦の→の：09472_no⟧アリバイ⟦の→の：09472_no⟧⟦{矛盾|むじゅん}→矛盾：05215_mujun⟧⟦を→を：00422_wo⟧{見破|みやぶ}った。",
       "english": "The detective saw through the contradictions in the suspect's alibi.",
       "sense_numbers": [
         1
@@ -134,8 +134,24 @@
       "notes": null
     }
   ],
-  "notes": "{見破|みやぶ}る means to successfully uncover something hidden — a lie, trick, disguise, or deception.\n\nTRANSITIVITY:\n- Type: {他動詞|たどうし} (transitive)\n- Pattern: [hidden thing]を{見破|みやぶ}る\n\nCOMMON COLLOCATIONS:\n- {嘘|うそ}を{見破|みやぶ}る: to see through a lie\n- {正体|しょうたい}を{見破|みやぶ}る: to expose someone's true identity\n- トリックを{見破|みやぶ}る: to detect a trick\n- {変装|へんそう}を{見破|みやぶ}る: to see through a disguise\n\nASPECT (ている):\n{見破|みやぶ}っている means 'has already seen through' (resultative state).\n\nGodan verb ({五段|ごだん}): {見破|みやぶ}らない, {見破|みやぶ}ります, {見破|みやぶ}って, {見破|みやぶ}った\n\nSIMILAR WORDS:\n- {見抜|みぬ}く: to see through, to perceive (more general; includes positive insights)\n- {暴|あば}く: to expose, to reveal (stronger, often for crimes)",
+  "notes": "{見破|みやぶ}る means to successfully uncover something hidden — a lie, trick, disguise, or deception.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- Pattern: [hidden thing]⟦を→を：00422_wo⟧{見破|みやぶ}る\n\nCOMMON COLLOCATIONS:\n- ⟦{嘘|うそ}→嘘：01796_uso⟧⟦を→を：00422_wo⟧{見破|みやぶ}る: to see through a lie\n- ⟦{正体|しょうたい}→正体：13190_shoutai⟧⟦を→を：00422_wo⟧{見破|みやぶ}る: to expose someone's true identity\n- ⟦トリック→トリック：25890_torikku⟧⟦を→を：00422_wo⟧{見破|みやぶ}る: to detect a trick\n- ⟦{変装|へんそう}→変装：12098_hensou⟧⟦を→を：00422_wo⟧{見破|みやぶ}る: to see through a disguise\n\nASPECT (ている):\n{見破|みやぶ}って⟦いる→いる：00495_iru⟧ means 'has already seen through' (resultative state).\n\nGodan verb (⟦{五段|ごだん}→五段：28275_godan⟧): {見破|みやぶ}らない, {見破|みやぶ}ります, {見破|みやぶ}って, {見破|みやぶ}った\n\nSIMILAR WORDS:\n- ⟦{見抜|みぬ}く→見抜く：06975_minuku⟧: to see through, to perceive (more general; includes positive insights)\n- ⟦{暴|あば}く→暴く：04607_abaku⟧: to expose, to reveal (stronger, often for crimes)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06975_minuku",
+      "reading": "みぬく",
+      "headword": "{見抜|みぬ}く",
+      "label": "to see through, to perceive (more…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04607_abaku",
+      "reading": "あばく",
+      "headword": "{暴|あば}く",
+      "label": "to expose, to reveal"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -151,6 +167,6 @@
       "verb_class": "godan-ru"
     },
     "created": "2026-03-23T01:55:37Z",
-    "modified": "2026-03-28T09:49:25Z"
+    "modified": "2026-09-02T04:01:53Z"
   }
 }

@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08191_taida_ex1",
-      "japanese": "{怠惰|たいだ}な{生活|せいかつ}を{送|おく}る。",
+      "japanese": "{怠惰|たいだ}な⟦{生活|せいかつ}→生活：01443_seikatsu⟧⟦を→を：00422_wo⟧⟦{送|おく}る→送る：00742_okuru⟧。",
       "english": "To lead an idle life.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "08191_taida_ex2",
-      "japanese": "{怠惰|たいだ}は{成功|せいこう}の{敵|てき}だ。",
+      "japanese": "{怠惰|たいだ}⟦は→は：00079_ha⟧⟦{成功|せいこう}→成功：02638_seikou⟧⟦の→の：09472_no⟧⟦{敵|てき}→敵：03546_teki⟧だ。",
       "english": "Laziness is the enemy of success.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "08191_taida_ex3",
-      "japanese": "{怠惰|たいだ}な{自分|じぶん}を{変|か}えたいと{思|おも}っている。",
+      "japanese": "{怠惰|たいだ}な⟦{自分|じぶん}→自分：02887_jibun⟧⟦を→を：00422_wo⟧⟦{変|か}えたい→変える：01089_kaeru⟧⟦と→と：00512_to⟧⟦{思|おも}っている→思う：00492_omou⟧。",
       "english": "I want to change my lazy self.",
       "sense_numbers": [
         1
@@ -43,7 +43,7 @@
       "notes": null
     }
   ],
-  "notes": "USAGE:\n- {怠惰|たいだ}な{生活|せいかつ} (idle life)\n- {怠惰|たいだ}な{人|ひと} (lazy person)\n- {怠惰|たいだ}に{過|す}ごす (to spend time idly)\n\nNUANCE:\nA formal, somewhat literary word. Carries moral judgment - implies laziness as a character flaw or vice.\n\nRELIGIOUS CONTEXT:\nOne of the Seven Deadly Sins in Christian tradition (sloth).\n\nRELATED:\n- {怠|なま}ける (to be lazy - verb, more casual)\n- {怠|おこた}る (to neglect - verb)\n- {無精|ぶしょう} (laziness - more colloquial)\n- {勤勉|きんべん} (diligence - antonym)",
+  "notes": "USAGE:\n- {怠惰|たいだ}な⟦{生活|せいかつ}→生活：01443_seikatsu⟧ (idle life)\n- {怠惰|たいだ}な⟦{人|ひと}→人：00476_hito⟧ (lazy person)\n- {怠惰|たいだ}⟦に→に：00314_ni⟧⟦{過|す}ごす→過ごす：02062_sugosu⟧ (to spend time idly)\nA formal, somewhat literary word. Carries moral judgment - implies laziness as a character flaw or vice.\n\nRELIGIOUS CONTEXT:\nOne of the Seven Deadly Sins in Christian tradition (sloth).\n\nRELATED WORDS:\n- ⟦{怠|なま}ける→怠ける：02379_namakeru⟧ (to be lazy - verb, more casual)\n- ⟦{怠|おこた}る→怠る：03936_okotaru⟧ (to neglect - verb)\n- {無精|ぶしょう} (laziness - more colloquial)\n- ⟦{勤勉|きんべん}→勤勉：10145_kinben⟧ (diligence - antonym)",
   "cross_references": [
     {
       "type": "antonym",
@@ -51,6 +51,27 @@
       "headword": "{勤勉|きんべん}",
       "label": "diligent; industrious",
       "target_id": "10145_kinben"
+    },
+    {
+      "type": "related",
+      "target_id": "02379_namakeru",
+      "reading": "なまける",
+      "headword": "{怠|なま}ける",
+      "label": "to be lazy"
+    },
+    {
+      "type": "related",
+      "target_id": "03936_okotaru",
+      "reading": "おこたる",
+      "headword": "{怠|おこた}る",
+      "label": "to neglect"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28186_bushou",
+      "reading": "ぶしょう",
+      "headword": "{不精|ぶしょう}",
+      "label": "laziness"
     }
   ],
   "metadata": {
@@ -61,12 +82,13 @@
         "noun"
       ],
       "formality": "formal",
+      "politeness": "plain",
       "semantic": [
         "personality",
         "morality"
       ]
     },
     "created": "2026-01-25T08:01:57Z",
-    "modified": "2026-01-25T08:01:57Z"
+    "modified": "2026-09-02T04:01:14Z"
   }
 }

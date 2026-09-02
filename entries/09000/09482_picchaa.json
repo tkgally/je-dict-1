@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "09482_picchaa_ex1",
-      "japanese": "ピッチャー⟦が→が：00051_ga⟧ボール⟦を→を：00422_wo⟧⟦{投|な}げた→投げる：01135_nageru⟧。",
+      "japanese": "ピッチャー⟦が→が：00051_ga⟧⟦ボール→ボール：00017_booru⟧⟦を→を：00422_wo⟧⟦{投|な}げた→投げる：01135_nageru⟧。",
       "english": "The pitcher threw the ball.",
       "has_audio": false,
       "sense_numbers": [
@@ -23,7 +23,7 @@
     },
     {
       "id": "09482_picchaa_ex2",
-      "japanese": "{新|あたら}しいピッチャー⟦が→が：00051_ga⟧{登板|とうばん}⟦した→する：00392_suru⟧。",
+      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧ピッチャー⟦が→が：00051_ga⟧⟦{登板|とうばん}→登板：30022_touban⟧⟦した→する：00392_suru⟧。",
       "english": "A new pitcher took the mound.",
       "has_audio": false,
       "sense_numbers": [
@@ -32,7 +32,7 @@
     },
     {
       "id": "09482_picchaa_ex3",
-      "japanese": "{彼|かれ}⟦は→は：00079_ha⟧{有名|ゆうめい}なピッチャーだ。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{有名|ゆうめい}→有名：01106_yuumei⟧なピッチャーだ。",
       "english": "He is a famous pitcher.",
       "has_audio": false,
       "sense_numbers": [
@@ -40,10 +40,10 @@
       ]
     }
   ],
-  "notes": "ピッチャー is a baseball term from English \"pitcher,\" referring to the player who throws the ball to the batter from the mound.\n\nALTERNATIVE:\nThe Japanese equivalent is {投手|とうしゅ}, which is used in formal contexts (news, official records). ピッチャー is more common in casual conversation and commentary.\n\nCOMMON COLLOCATIONS:\n- {先発|せんぱつ}ピッチャー: starting pitcher\n- リリーフピッチャー: relief pitcher\n- {抑|おさ}えのピッチャー: closer\n- ピッチャーが{登板|とうばん}する: the pitcher takes the mound\n\nRELATED BASEBALL POSITIONS:\n- キャッチャー / {捕手|ほしゅ}: catcher\n- バッター / {打者|だしゃ}: batter\n- ショート / {遊撃手|ゆうげきしゅ}: shortstop",
+  "notes": "ピッチャー is a baseball term from English \"pitcher,\" referring to the player who throws the ball to the batter from the mound.\n\nALTERNATIVE:\nThe Japanese equivalent is ⟦{投手|とうしゅ}→投手：06563_toushu⟧, which is used in formal contexts (news, official records). ピッチャー is more common in casual conversation and commentary.\n\nCOMMON COLLOCATIONS:\n- ⟦{先発|せんぱつ}→先発：17735_senpatsu⟧ピッチャー: starting pitcher\n- リリーフピッチャー: relief pitcher\n- ⟦{抑|おさ}え→抑え：30004_osae⟧⟦の→の：09472_no⟧ピッチャー: closer\n- ピッチャー⟦が→が：00051_ga⟧⟦{登板|とうばん}→登板：30022_touban⟧⟦する→する：00392_suru⟧: the pitcher takes the mound\n\nRELATED BASEBALL POSITIONS:\n- キャッチャー / ⟦{捕手|ほしゅ}→捕手：09265_hoshu⟧: catcher\n- ⟦バッター→バッター：27284_battaa⟧ / ⟦{打者|だしゃ}→打者：06564_dasha⟧: batter\n- ⟦ショート→ショート：10951_shooto⟧ / {遊撃手|ゆうげきしゅ}: shortstop",
   "metadata": {
     "created": "2026-02-02T07:47:12Z",
-    "modified": "2026-08-13T09:37:24Z",
+    "modified": "2026-09-02T04:01:18Z",
     "ai_model": "claude-opus-4-5-20251101",
     "vocabulary_tier": "general",
     "tags": {
@@ -64,6 +64,41 @@
       "reading": "とうしゅ",
       "headword": "{投手|とうしゅ}",
       "label": "pitcher (formal Japanese)"
+    },
+    {
+      "type": "related",
+      "target_id": "09265_hoshu",
+      "reading": "ほしゅ",
+      "headword": "{捕手|ほしゅ}",
+      "label": "catcher"
+    },
+    {
+      "type": "related",
+      "target_id": "27284_battaa",
+      "reading": "ばったー",
+      "headword": "バッター",
+      "label": "batter"
+    },
+    {
+      "type": "related",
+      "target_id": "06564_dasha",
+      "reading": "だしゃ",
+      "headword": "{打者|だしゃ}",
+      "label": "batter"
+    },
+    {
+      "type": "related",
+      "target_id": "10951_shooto",
+      "reading": "しょーと",
+      "headword": "ショート",
+      "label": "shortstop"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27392_jokki",
+      "reading": "じょっき",
+      "headword": "ジョッキ",
+      "label": "beer mug"
     }
   ]
 }

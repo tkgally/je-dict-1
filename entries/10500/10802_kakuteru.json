@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "10802_kakuteru_ex1",
-      "japanese": "カクテルを{作|つく}る。",
+      "japanese": "カクテル⟦を→を：00422_wo⟧⟦{作|つく}る→作る：00481_tsukuru⟧。",
       "english": "To make a cocktail.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "10802_kakuteru_ex2",
-      "japanese": "フルーツカクテルを{一|ひと}つください。",
+      "japanese": "フルーツカクテル⟦を→を：00422_wo⟧⟦{一|ひと}つ→一つ：02948_hitotsu⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "One fruit cocktail, please.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "10802_kakuteru_ex3",
-      "japanese": "このバーは{種類|しゅるい}{豊富|ほうふ}なカクテルが{楽|たの}しめることで{知|し}られている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦バー→バー：07060_baa⟧⟦は→は：00079_ha⟧⟦{種類|しゅるい}→種類：01560_shurui⟧⟦{豊富|ほうふ}→豊富：03620_houfu⟧なカクテル⟦が→が：00051_ga⟧⟦{楽|たの}しめる→楽しむ：01203_tanoshimu⟧こと⟦で→で：00502_de⟧⟦{知|し}られている→知る：00458_shiru⟧。",
       "english": "This bar is known for its wide variety of cocktails.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,40 @@
       ]
     }
   ],
-  "notes": "From English \"cocktail.\" Refers to mixed alcoholic drinks. Japan has a refined cocktail culture known for precision and craftsmanship.\n\nCOMMON COLLOCATIONS:\n- カクテルを{注文|ちゅうもん}する (to order a cocktail)\n- カクテルを{作|つく}る (to make a cocktail)\n- カクテルグラス (cocktail glass)\n- カクテルバー (cocktail bar)\n- ノンアルコールカクテル (non-alcoholic cocktail / mocktail)\n- フルーツカクテル (fruit cocktail)\n\nFIGURATIVE USE:\n- カクテル{光線|こうせん}: multi-colored stage lighting\n- {感情|かんじょう}のカクテル: a mix of emotions\n\nRELATED DRINK WORDS:\n- {酒|さけ}: alcohol, sake (general)\n- ビール: beer\n- ワイン: wine\n- ハイボール: highball (very popular in Japan)",
-  "cross_references": [],
+  "notes": "From English \"cocktail.\" Refers to mixed alcoholic drinks. Japan has a refined cocktail culture known for precision and craftsmanship.\n\nCOMMON COLLOCATIONS:\n- カクテル⟦を→を：00422_wo⟧⟦{注文|ちゅうもん}する→注文する：21390_chuumon⟧ (to order a cocktail)\n- カクテル⟦を→を：00422_wo⟧⟦{作|つく}る→作る：00481_tsukuru⟧ (to make a cocktail)\n- カクテルグラス (cocktail glass)\n- カクテルバー (cocktail bar)\n- ノンアルコールカクテル (non-alcoholic cocktail / mocktail)\n- フルーツカクテル (fruit cocktail)\n\nUSAGE:\n- カクテル⟦{光線|こうせん}→光線：04144_kousen⟧: multi-colored stage lighting\n- ⟦{感情|かんじょう}→感情：00171_kanjou⟧⟦の→の：09472_no⟧カクテル: a mix of emotions\n\nRELATED DRINK WORDS:\n- ⟦{酒|さけ}→酒：02211_sake⟧: alcohol, sake (general)\n- ⟦ビール→ビール：01015_biiru⟧: beer\n- ⟦ワイン→ワイン：01067_wain⟧: wine\n- ⟦ハイボール→ハイボール：27604_haibooru⟧: highball (very popular in Japan)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "02211_sake",
+      "reading": "さけ",
+      "headword": "{酒|さけ}",
+      "label": "alcohol, sake"
+    },
+    {
+      "type": "related",
+      "target_id": "01015_biiru",
+      "reading": "びーる",
+      "headword": "ビール",
+      "label": "beer"
+    },
+    {
+      "type": "related",
+      "target_id": "01067_wain",
+      "reading": "わいん",
+      "headword": "ワイン",
+      "label": "wine"
+    },
+    {
+      "type": "related",
+      "target_id": "27604_haibooru",
+      "reading": "はいぼーる",
+      "headword": "ハイボール",
+      "label": "highball"
+    }
+  ],
   "metadata": {
     "created": "2026-02-10T08:06:05Z",
-    "modified": "2026-06-28T03:46:26Z",
+    "modified": "2026-09-02T04:01:22Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

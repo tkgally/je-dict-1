@@ -14,30 +14,36 @@
   "examples": [
     {
       "id": "09166_kiokure_ex1",
-      "japanese": "{気後|きおく}れする",
+      "japanese": "{気後|きおく}れ⟦する→する：00392_suru⟧",
       "english": "to feel intimidated/daunted",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "09166_kiokure_ex2",
-      "japanese": "{高級|こうきゅう}レストランで{気後|きおく}れした。",
+      "japanese": "⟦{高級|こうきゅう}→高級：08644_koukyuu⟧⟦レストラン→レストラン：01048_resutoran⟧⟦で→で：00502_de⟧{気後|きおく}れ⟦した→する：00392_suru⟧。",
       "english": "I felt intimidated at the fancy restaurant.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "09166_kiokure_ex3",
-      "japanese": "{有名人|ゆうめいじん}に{会|あ}うと{気後|きおく}れしてしまい、うまく{話|はな}せない。",
+      "japanese": "⟦{有名人|ゆうめいじん}→有名人：17812_yuumeijin⟧⟦に→に：00314_ni⟧⟦{会|あ}う→会う：00482_au⟧⟦と→と：00512_to⟧{気後|きおく}れ⟦して→する：00392_suru⟧しまい、⟦うまく→うまい：01279_umai⟧⟦{話|はな}せない→話す：00467_hanasu⟧。",
       "english": "When I meet famous people, I get intimidated and can't speak well.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "USAGE: Typically used with する to form the verb {気後|きおく}れする (to feel intimidated, to lose one's nerve).\n\nNUANCE: {気後|きおく}れ describes the internal feeling of being overwhelmed or intimidated, often in social situations where one feels out of place or inferior. It's not about fear of danger but about losing confidence.\n\nCOMMON COLLOCATIONS:\n- {気後|きおく}れする (to feel intimidated)\n- {気後|きおく}れせずに (without being intimidated)\n- {気後|きおく}れを{感|かん}じる (to feel daunted)\n\nRELATED WORDS:\n- {物怖|ものお}じ (shyness, timidity)\n- {臆|おく}する (to be timid, hesitate)\n- {尻込|しりご}みする (to shrink back)\n- {萎縮|いしゅく}する (to feel intimidated, shrink)",
+  "notes": "USAGE: Typically used with ⟦する→する：00392_suru⟧ to form the verb {気後|きおく}れ⟦する→する：00392_suru⟧ (to feel intimidated, to lose one's nerve).\n\nNUANCE: {気後|きおく}れ describes the internal feeling of being overwhelmed or intimidated, often in social situations where one feels out of place or inferior. It's not about fear of danger but about losing confidence.\n\nCOMMON COLLOCATIONS:\n- {気後|きおく}れ⟦する→する：00392_suru⟧ (to feel intimidated)\n- {気後|きおく}れせず⟦に→に：00314_ni⟧ (without being intimidated)\n- {気後|きおく}れ⟦を→を：00422_wo⟧⟦{感|かん}じる→感じる：02044_kanjiru⟧ (to feel daunted)\n\nRELATED WORDS:\n- ⟦{物怖|ものお}じ→物怖じ：09167_monooji⟧ (shyness, timidity)\n- ⟦{臆|おく}する→臆する：09168_okusuru⟧ (to be timid, hesitate)\n- ⟦{尻込|しりご}み→尻込み：12442_shirigomi⟧⟦する→する：00392_suru⟧ (to shrink back)\n- ⟦{萎縮|いしゅく}する→萎縮する：06762_ishukusuru⟧ (to feel intimidated, shrink)",
   "cross_references": [
     {
       "type": "synonym",
@@ -52,18 +58,36 @@
       "reading": "おくする",
       "headword": "{臆|おく}する",
       "label": "to be timid"
+    },
+    {
+      "type": "related",
+      "target_id": "12442_shirigomi",
+      "reading": "しりごみ",
+      "headword": "{尻込|しりご}み",
+      "label": "to shrink back"
+    },
+    {
+      "type": "related",
+      "target_id": "06762_ishukusuru",
+      "reading": "いしゅくする",
+      "headword": "{萎縮|いしゅく}する",
+      "label": "to feel intimidated, shrink"
     }
   ],
   "metadata": {
     "created": "2026-01-31T11:34:12Z",
-    "modified": "2026-04-22T08:20:33Z",
+    "modified": "2026-09-02T04:01:17Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["emotion"]
+      "semantic": [
+        "emotion"
+      ]
     }
   }
 }

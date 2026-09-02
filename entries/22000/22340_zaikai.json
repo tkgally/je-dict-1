@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22340_zaikai_ex1",
-      "japanese": "{財界|ざいかい}の{重鎮|じゅうちん}が{集|あつ}まった。",
+      "japanese": "{財界|ざいかい}⟦の→の：09472_no⟧{重鎮|じゅうちん}⟦が→が：00051_ga⟧⟦{集|あつ}まった→集まる：01162_atsumaru⟧。",
       "english": "Leading figures of the business world gathered.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22340_zaikai_ex2",
-      "japanese": "{財界|ざいかい}は{政府|せいふ}の{経済|けいざい}{政策|せいさく}に{反発|はんぱつ}した。",
+      "japanese": "{財界|ざいかい}⟦は→は：00079_ha⟧⟦{政府|せいふ}→政府：03294_seifu⟧⟦の→の：09472_no⟧⟦{経済|けいざい}{政策|せいさく}→経済政策：21753_keizaiseisaku⟧⟦に→に：00314_ni⟧⟦{反発|はんぱつ}した→反発する：26991_hanpatsusuru⟧。",
       "english": "The business community opposed the government's economic policy.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22340_zaikai_ex3",
-      "japanese": "{彼|かれ}は{長年|ながねん}{財界|ざいかい}で{活躍|かつやく}し、{多|おお}くの{企業|きぎょう}の{発展|はってん}に{貢献|こうけん}した。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{長年|ながねん}→長年：09684_naganen⟧{財界|ざいかい}⟦で→で：00502_de⟧⟦{活躍|かつやく}→活躍：02541_katsuyaku⟧し、{多|おお}く⟦の→の：09472_no⟧⟦{企業|きぎょう}→企業：00225_kigyou⟧⟦の→の：09472_no⟧⟦{発展|はってん}→発展：03561_hatten⟧⟦に→に：00314_ni⟧⟦{貢献|こうけん}した→貢献する：21682_koukensuru⟧。",
       "english": "He was active in the business world for many years and contributed to the growth of many companies.",
       "sense_numbers": [
         1
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "Refers to the collective sphere of influential business leaders and major corporate organizations, often in the context of their political influence or economic role.\n\nCOMMON COLLOCATIONS:\n- {財界|ざいかい}の{重鎮|じゅうちん}: a leading figure in the business world\n- {財界|ざいかい}{人|じん}: businessperson; business leader\n- {財界|ざいかい}{団体|だんたい}: business organization\n- {政|せい}{財界|ざいかい}: political and business circles\n\nSIMILAR WORDS:\n- {経済界|けいざいかい}: economic world — broader, includes academia and policy\n- {実業界|じつぎょうかい}: the industrial world — focuses more on actual business operations\n- {業界|ぎょうかい}: industry — refers to a specific trade or sector, not the business world as a whole",
+  "notes": "Refers to the collective sphere of influential business leaders and major corporate organizations, often in the context of their political influence or economic role.\n\nCOMMON COLLOCATIONS:\n- {財界|ざいかい}⟦の→の：09472_no⟧{重鎮|じゅうちん}: a leading figure in the business world\n- {財界|ざいかい}⟦{人|じん}→〜人：09849_jin⟧: businessperson; business leader\n- {財界|ざいかい}⟦{団体|だんたい}→団体：03426_dantai⟧: business organization\n- {政|せい}{財界|ざいかい}: political and business circles\n\nSIMILAR WORDS:\n- ⟦{経済界|けいざいかい}→経済界：24307_keizaikai⟧: economic world — broader, includes academia and policy\n- {実業界|じつぎょうかい}: the industrial world — focuses more on actual business operations\n- ⟦{業界|ぎょうかい}→業界：13129_gyoukai⟧: industry — refers to a specific trade or sector, not the business world as a whole",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24307_keizaikai",
+      "reading": "けいざいかい",
+      "headword": "{経済界|けいざいかい}",
+      "label": "economic world"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13129_gyoukai",
+      "reading": "ぎょうかい",
+      "headword": "{業界|ぎょうかい}",
+      "label": "industry"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24265_shoukai",
+      "reading": "しょうかい",
+      "headword": "{商界|しょうかい}",
+      "label": "business world"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24371_kankai",
+      "reading": "かんかい",
+      "headword": "{官界|かんかい}",
+      "label": "the bureaucratic world"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +89,6 @@
       ]
     },
     "created": "2026-04-05T19:18:12Z",
-    "modified": "2026-04-10T08:28:27Z"
+    "modified": "2026-09-02T04:02:07Z"
   }
 }

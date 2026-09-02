@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29573_senteibasami_ex1",
-      "japanese": "{剪定|せんてい}ばさみで{枝|えだ}を{切|き}った。",
+      "japanese": "{剪定|せんてい}ばさみ⟦で→で：00502_de⟧⟦{枝|えだ}→枝：02181_eda⟧⟦を→を：00422_wo⟧⟦{切|き}った→切る：02693_kiru⟧。",
       "english": "I cut the branch with pruning shears.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29573_senteibasami_ex2",
-      "japanese": "{庭|にわ}{仕事|しごと}には{剪定|せんてい}ばさみが{欠|か}かせない。",
+      "japanese": "⟦{庭|にわ}{仕事|しごと}→庭仕事：20710_niwashigoto⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{剪定|せんてい}ばさみ⟦が→が：00051_ga⟧⟦{欠|か}かせない→欠かす：10138_kakasu⟧。",
       "english": "Pruning shears are indispensable for gardening work.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29573_senteibasami_ex3",
-      "japanese": "{切|き}れ{味|あじ}のいい{剪定|せんてい}ばさみを{使|つか}うと、{木|き}を{傷|いた}めにくい。",
+      "japanese": "⟦{切|き}れ{味|あじ}→切れ味：19110_kireaji⟧⟦の→の：09472_no⟧⟦いい→いい：00118_ii⟧{剪定|せんてい}ばさみ⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧⟦と→と：00512_to⟧、⟦{木|き}→木：00524_ki⟧⟦を→を：00422_wo⟧⟦{傷|いた}め→傷める：02098_itameru⟧にくい。",
       "english": "Using sharp pruning shears makes it less likely to damage the tree.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "A gardening tool for cutting branches and stems. Compound of {剪定|せんてい} (pruning) + はさみ (scissors); the は voices to ば by rendaku.\n\nCOMMON COLLOCATIONS:\n- {剪定|せんてい}ばさみで{切|き}る: to cut with pruning shears\n- {剪定|せんてい}ばさみを{研|と}ぐ: to sharpen the pruning shears\n\nSIMILAR WORDS:\n- {植木|うえき}ばさみ: garden/topiary shears — broader term for shears used on garden plants\n- ハサミ: scissors — general-purpose, not for woody branches",
+  "notes": "A gardening tool for cutting branches and stems. Compound of ⟦{剪定|せんてい}→剪定：06327_sentei⟧ (pruning) + ⟦はさみ→はさみ：00702_hasami⟧ (scissors); the ⟦は→は：00079_ha⟧ voices to ば by rendaku.\n\nCOMMON COLLOCATIONS:\n- {剪定|せんてい}ばさみ⟦で→で：00502_de⟧⟦{切|き}る→切る：02693_kiru⟧: to cut with pruning shears\n- {剪定|せんてい}ばさみ⟦を→を：00422_wo⟧⟦{研|と}ぐ→研ぐ：04377_togu⟧: to sharpen the pruning shears\n\nSIMILAR WORDS:\n- ⟦{植木|うえき}→植木：04001_ueki⟧ばさみ: garden/topiary shears — broader term for shears used on garden plants\n- ハサミ: scissors — general-purpose, not for woody branches",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00702_hasami",
+      "reading": "はさみ",
+      "headword": "はさみ",
+      "label": "scissors"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +62,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "tool"
       ],
       "domain": []
     },
     "created": "2026-06-29T18:19:55Z",
-    "modified": "2026-06-29T18:19:55Z"
+    "modified": "2026-09-02T04:02:37Z"
   }
 }

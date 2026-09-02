@@ -179,7 +179,7 @@
     },
     {
       "id": "03931_moguru_ex7",
-      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧⟦が→が：00051_ga⟧⟦こたつ→こたつ：05070_kotatsu⟧⟦に→に：00314_ni⟧{潜|もぐ}っている。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧⟦が→が：00051_ga⟧⟦こたつ→こたつ：05070_kotatsu⟧⟦に→に：00314_ni⟧{潜|もぐ}って⟦いる→いる：00495_iru⟧。",
       "english": "The child is snuggled under the kotatsu.",
       "notes": null,
       "has_audio": false,
@@ -318,10 +318,26 @@
       ]
     }
   ],
-  "notes": "{潜|もぐ}る is an intransitive verb (⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧).\n\nASPECT (ている):\nThe ている form indicates either ongoing action (⟦{今|いま}→今：00945_ima⟧{潜|もぐ}っている = 'is diving now') or a resulting state (⟦{布団|ふとん}→布団：01720_futon⟧⟦に→に：00314_ni⟧{潜|もぐ}っている = 'is under the covers').\n\nPARTICLE PATTERNS:\n- ⟦{海|うみ}→海：00556_umi⟧⟦に→に：00314_ni⟧{潜|もぐ}る (dive into the sea)\n- ⟦{布団|ふとん}→布団：01720_futon⟧⟦に→に：00314_ni⟧{潜|もぐ}る (burrow into the futon)\n- 〜⟦の→の：09472_no⟧⟦{下|した}→下：00670_shita⟧⟦を→を：00422_wo⟧{潜|もぐ}る (slip under ~)\n\nCOMMON PATTERNS:\n- ⟦{海|うみ}→海：00556_umi⟧⟦に→に：00314_ni⟧{潜|もぐ}る (dive into the sea)\n- ⟦{布団|ふとん}→布団：01720_futon⟧⟦に→に：00314_ni⟧{潜|もぐ}る (get under the futon)\n- ⟦{水|みず}→水：02258_mizu⟧⟦に→に：00314_ni⟧{潜|もぐ}る (go underwater)",
+  "notes": "{潜|もぐ}る is an intransitive verb (⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧).\n\nASPECT (ている):\nThe て⟦いる→いる：00495_iru⟧ form indicates either ongoing action (⟦{今|いま}→今：00945_ima⟧{潜|もぐ}って⟦いる→いる：00495_iru⟧ = 'is diving now') or a resulting state (⟦{布団|ふとん}→布団：01720_futon⟧⟦に→に：00314_ni⟧{潜|もぐ}って⟦いる→いる：00495_iru⟧ = 'is under the covers').\n\nCOMMON PATTERNS:\n- ⟦{海|うみ}→海：00556_umi⟧⟦に→に：00314_ni⟧{潜|もぐ}る (dive into the sea)\n- ⟦{布団|ふとん}→布団：01720_futon⟧⟦に→に：00314_ni⟧{潜|もぐ}る (burrow into the futon)\n- 〜⟦の→の：09472_no⟧⟦{下|した}→下：00670_shita⟧⟦を→を：00422_wo⟧{潜|もぐ}る (slip under ~)\n- ⟦{海|うみ}→海：00556_umi⟧⟦に→に：00314_ni⟧{潜|もぐ}る (dive into the sea)\n- ⟦{布団|ふとん}→布団：01720_futon⟧⟦に→に：00314_ni⟧{潜|もぐ}る (get under the futon)\n- ⟦{水|みず}→水：02258_mizu⟧⟦に→に：00314_ni⟧{潜|もぐ}る (go underwater)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04381_hisomu",
+      "reading": "ひそむ",
+      "headword": "{潜|ひそ}む",
+      "label": "to lurk, to hide"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20993_sensuisuru",
+      "reading": "せんすいする",
+      "headword": "{潜水|せんすい}する",
+      "label": "to dive underwater"
+    }
+  ],
   "metadata": {
     "created": "2026-01-13T07:20:35Z",
-    "modified": "2026-08-08T09:25:02Z",
+    "modified": "2026-09-02T04:01:04Z",
     "vocabulary_tier": "core",
     "tags": {
       "pos": [

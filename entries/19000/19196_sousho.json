@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "19196_sousho_ex1",
-      "japanese": "{草書|そうしょ}は{読|よ}みにくい。",
+      "japanese": "{草書|そうしょ}⟦は→は：00079_ha⟧⟦{読|よ}み→読む：00426_yomu⟧にくい。",
       "english": "Cursive script is hard to read.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19196_sousho_ex2",
-      "japanese": "{草書|そうしょ}で{書|か}かれた{手紙|てがみ}を{解読|かいどく}する。",
+      "japanese": "{草書|そうしょ}⟦で→で：00502_de⟧⟦{書|か}かれた→書く：00477_kaku⟧⟦{手紙|てがみ}→手紙：00675_tegami⟧⟦を→を：00422_wo⟧⟦{解読|かいどく}→解読：14185_kaidoku⟧⟦する→する：00392_suru⟧。",
       "english": "To decipher a letter written in cursive script.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19196_sousho_ex3",
-      "japanese": "ひらがなは{漢字|かんじ}の{草書|そうしょ}{体|たい}から{生|う}まれた{文字|もじ}だ。",
+      "japanese": "ひらがな⟦は→は：00079_ha⟧⟦{漢字|かんじ}→漢字：09480_kanji⟧⟦の→の：09472_no⟧{草書|そうしょ}⟦{体|たい}→体：09872_tai⟧⟦から→から：00504_kara⟧⟦{生|う}まれた→生まれる：00905_umareru⟧⟦{文字|もじ}→文字：03632_moji⟧だ。",
       "english": "Hiragana are characters that evolved from the cursive forms of Chinese characters.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {草|そう} (grass, rough draft) + {書|しょ} (writing, script). Also called {草書体|そうしょたい}. The most abbreviated of the five script styles. Key historical fact: Japanese hiragana developed from {草書|そうしょ} forms of {万葉仮名|まんようがな} characters — for example, あ derives from the {草書|そうしょ} of {安|あん}, and は from {波|は}. Common collocations: {草書|そうしょ}{体|たい} (cursive style), {草書|そうしょ}で{書|か}く (to write in cursive). While rarely used in modern daily life, {草書|そうしょ} remains important in {書道|しょどう} (calligraphy) and for reading historical documents.",
+  "notes": "Composed of {草|そう} (grass, rough draft) + ⟦{書|しょ}→〜書：28467_sho⟧ (writing, script). Also called {草書体|そうしょたい}. The most abbreviated of the five script styles. Key historical fact: Japanese hiragana developed from {草書|そうしょ} forms of {万葉仮名|まんようがな} characters — for example, あ derives from the {草書|そうしょ} of {安|あん}, and ⟦は→は：00079_ha⟧ from {波|は}. Common collocations: {草書|そうしょ}⟦{体|たい}→体：09872_tai⟧ (cursive style), {草書|そうしょ}⟦で→で：00502_de⟧⟦{書|か}く→書く：00477_kaku⟧ (to write in cursive). While rarely used in modern daily life, {草書|そうしょ} remains important in ⟦{書道|しょどう}→書道：04178_shodou⟧ (calligraphy) and for reading historical documents.",
   "cross_references": [
     {
       "type": "contrast",
@@ -53,18 +59,30 @@
       "reading": "ぎょうしょ",
       "headword": "{行書|ぎょうしょ}",
       "label": "semi-cursive script"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25771_hikkitai",
+      "reading": "ひっきたい",
+      "headword": "{筆記体|ひっきたい}",
+      "label": "cursive script"
     }
   ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["art", "language"]
+      "semantic": [
+        "art",
+        "language"
+      ]
     },
     "created": "2026-03-24T13:59:22Z",
-    "modified": "2026-07-26T21:32:58Z"
+    "modified": "2026-09-02T04:01:55Z"
   }
 }

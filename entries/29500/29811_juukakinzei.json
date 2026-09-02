@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29811_juukakinzei_ex1",
-      "japanese": "{彼|かれ}は{重課金勢|じゅうかきんぜい}だ。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{重課金勢|じゅうかきんぜい}だ。",
       "english": "He's a heavy spender.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29811_juukakinzei_ex2",
-      "japanese": "{重課金勢|じゅうかきんぜい}は{強|つよ}いキャラをすぐ{手|て}に{入|い}れる。",
+      "japanese": "{重課金勢|じゅうかきんぜい}⟦は→は：00079_ha⟧⟦{強|つよ}い→強い：00820_tsuyoi⟧⟦キャラ→キャラ：08916_kyara⟧⟦を→を：00422_wo⟧⟦すぐ→すぐ：00814_sugu⟧⟦{手|て}→手：00569_te⟧⟦に→に：00314_ni⟧⟦{入|い}れる→入れる：01098_ireru⟧。",
       "english": "Heavy spenders get powerful characters right away.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29811_juukakinzei_ex3",
-      "japanese": "{無課金|むかきん}でも{重課金勢|じゅうかきんぜい}に{勝|か}てるのがこのゲームの{面白|おもしろ}さだ。",
+      "japanese": "⟦{無課金|むかきん}→無課金：19851_mukakin⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧{重課金勢|じゅうかきんぜい}⟦に→に：00314_ni⟧⟦{勝|か}てる→勝つ：01199_katsu⟧⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦この→この：00962_kono⟧⟦ゲーム→ゲーム：03842_geemu⟧⟦の→の：09472_no⟧{面白|おもしろ}さだ。",
       "english": "Being able to beat heavy spenders even without paying is what makes this game fun.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Made of {重|じゅう} (heavy) + {課金|かきん} (in-app payment) + {勢|ぜい} (group). Refers to players who pour large sums into a free-to-play game's microtransactions — the equivalent English gaming term is \"whale.\"\n\nREGISTER: Casual slang, used in mobile-gaming communities.\n\nCOMMON COLLOCATIONS:\n- {重課金勢|じゅうかきんぜい}になる: to become a heavy spender\n\nSIMILAR WORDS:\n- {無課金|むかきん}: playing without paying — spends no money at all\n- {微課金|びかきん}: light spender — pays only small amounts",
+  "notes": "Made of {重|じゅう} (heavy) + ⟦{課金|かきん}→課金：08388_kakin⟧ (in-app payment) + ⟦{勢|ぜい}→〜勢：30490_zei⟧ (group). Refers to players who pour large sums into a free-to-play game's microtransactions — the equivalent English gaming term is \"whale.\"\n\nREGISTER: Casual slang, used in mobile-gaming communities.\n\nCOMMON COLLOCATIONS:\n- {重課金勢|じゅうかきんぜい}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧: to become a heavy spender\n\nSIMILAR WORDS:\n- ⟦{無課金|むかきん}→無課金：19851_mukakin⟧: playing without paying — spends no money at all\n- ⟦{微課金|びかきん}→微課金：29819_bikakin⟧: light spender — pays only small amounts",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19851_mukakin",
+      "reading": "むかきん",
+      "headword": "{無課金|むかきん}",
+      "label": "playing without paying"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29819_bikakin",
+      "reading": "びかきん",
+      "headword": "{微|び}{課金|かきん}",
+      "label": "light spender"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +69,7 @@
         "noun"
       ],
       "formality": "informal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "person"
       ],
@@ -62,6 +78,6 @@
       ]
     },
     "created": "2026-07-13T12:21:17Z",
-    "modified": "2026-07-13T12:21:17Z"
+    "modified": "2026-09-02T04:02:38Z"
   }
 }

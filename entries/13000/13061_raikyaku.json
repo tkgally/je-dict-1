@@ -15,41 +15,80 @@
   "examples": [
     {
       "id": "13061_raikyaku_ex1",
-      "japanese": "{来客|らいきゃく}があるので{準備|じゅんび}する。",
+      "japanese": "{来客|らいきゃく}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧⟦の→の：09472_no⟧で⟦{準備|じゅんび}する→準備する：22427_junbisuru⟧。",
       "english": "I'm preparing because we have a visitor coming.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13061_raikyaku_ex2",
-      "japanese": "{来客|らいきゃく}を{応接室|おうせつしつ}に{案内|あんない}した。",
+      "japanese": "{来客|らいきゃく}⟦を→を：00422_wo⟧⟦{応接室|おうせつしつ}→応接室：20242_ousetsushitsu⟧⟦に→に：00314_ni⟧⟦{案内|あんない}した→案内する：20203_annaisuru⟧。",
       "english": "I showed the visitor to the reception room.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13061_raikyaku_ex3",
-      "japanese": "{今日|きょう}は{来客|らいきゃく}が{多|おお}くて、{一日|いちにち}{中|じゅう}{対応|たいおう}に{追|お}われていた。",
+      "japanese": "⟦{今日|きょう}→今日：00496_kyou⟧⟦は→は：00079_ha⟧{来客|らいきゃく}⟦が→が：00051_ga⟧⟦{多|おお}くて→多い：01127_ooi⟧、⟦{一日|いちにち}{中|じゅう}→一日中：09519_ichinichijuu⟧⟦{対応|たいおう}→対応：02510_taiou⟧⟦に→に：00314_ni⟧⟦{追|お}われていた→追う：02016_ou⟧。",
       "english": "There were many visitors today, and I was busy dealing with them all day.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\n{来客|らいきゃく} is used in somewhat formal contexts, particularly in business settings and written language. In everyday conversation, お{客|きゃく}さん or お{客|きゃく}さま is more natural.\n\nCOMMON COLLOCATIONS:\n- {来客|らいきゃく}がある: to have a visitor\n- {来客|らいきゃく}{対応|たいおう}: attending to visitors\n- {来客|らいきゃく}{中|ちゅう}: with a visitor (at the moment)\n- {来客|らいきゃく}を{迎|むか}える: to welcome a visitor\n- {来客|らいきゃく}{用|よう}: for guests/visitors",
-  "cross_references": [],
+  "notes": "USAGE:\n{来客|らいきゃく} is used in somewhat formal contexts, particularly in business settings and written language. In everyday conversation, ⟦お{客|きゃく}さん→お客さん：10253_okyakusan⟧ or お⟦{客|きゃく}→客：00865_kyaku⟧さま is more natural.\n\nCOMMON COLLOCATIONS:\n- {来客|らいきゃく}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧: to have a visitor\n- {来客|らいきゃく}⟦{対応|たいおう}→対応：02510_taiou⟧: attending to visitors\n- {来客|らいきゃく}⟦{中|ちゅう}→〜中：09840_chuu⟧: with a visitor (at the moment)\n- {来客|らいきゃく}⟦を→を：00422_wo⟧⟦{迎|むか}える→迎える：01193_mukaeru⟧: to welcome a visitor\n- {来客|らいきゃく}⟦{用|よう}→〜用：09842_you⟧: for guests/visitors",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "10253_okyakusan",
+      "reading": "おきゃくさん",
+      "headword": "お{客|きゃく}さん",
+      "label": "guest, customer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20148_houmonsha",
+      "reading": "ほうもんしゃ",
+      "headword": "{訪問者|ほうもんしゃ}",
+      "label": "visitor"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23599_nyuujousha",
+      "reading": "にゅうじょうしゃ",
+      "headword": "{入場者|にゅうじょうしゃ}",
+      "label": "attendee"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24478_raihousha",
+      "reading": "らいほうしゃ",
+      "headword": "{来訪|らいほう}{者|しゃ}",
+      "label": "visitor"
+    }
+  ],
   "metadata": {
     "created": "2026-02-23T10:07:13Z",
-    "modified": "2026-02-23T10:07:13Z",
+    "modified": "2026-09-02T04:01:31Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["person"]
+      "semantic": [
+        "person"
+      ]
     }
   }
 }

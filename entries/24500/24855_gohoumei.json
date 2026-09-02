@@ -15,41 +15,76 @@
   "examples": [
     {
       "id": "24855_gohoumei_ex1",
-      "japanese": "ご{芳名|ほうめい}をお{書|か}きください。",
+      "japanese": "ご{芳名|ほうめい}⟦を→を：00422_wo⟧お⟦{書|か}き→書く：00477_kaku⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please write your name (in the guest book).",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "24855_gohoumei_ex2",
-      "japanese": "{受付|うけつけ}でご{芳名|ほうめい}を{記帳|きちょう}してください。",
+      "japanese": "⟦{受付|うけつけ}→受付：01325_uketsuke⟧⟦で→で：00502_de⟧ご{芳名|ほうめい}⟦を→を：00422_wo⟧⟦{記帳|きちょう}→記帳：18809_kichou⟧⟦して→する：00392_suru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please sign your name in the register at the reception desk.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "24855_gohoumei_ex3",
-      "japanese": "{結婚式|けっこんしき}の{招待状|しょうたいじょう}には「ご{芳名|ほうめい}」と{印刷|いんさつ}されていたので、{自分|じぶん}の{名前|なまえ}を{記入|きにゅう}した。",
+      "japanese": "⟦{結婚式|けっこんしき}→結婚式：05493_kekkonshiki⟧⟦の→の：09472_no⟧⟦{招待状|しょうたいじょう}→招待状：14769_shoutaijou⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧「ご{芳名|ほうめい}」⟦と→と：00512_to⟧⟦{印刷|いんさつ}→印刷：01844_insatsu⟧⟦されていた→する：00392_suru⟧⟦の→の：09472_no⟧で、⟦{自分|じぶん}→自分：02887_jibun⟧⟦の→の：09472_no⟧⟦{名前|なまえ}→名前：02234_namae⟧⟦を→を：00422_wo⟧⟦{記入|きにゅう}→記入：02624_kinyuu⟧⟦した→する：00392_suru⟧。",
       "english": "The wedding invitation had 'your name' printed on it (in formal language), so I filled in my name.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of the honorific prefix ご + {芳名|ほうめい} (fragrant name). The character {芳|ほう} literally means \"fragrant\" and is used here as an elegant honorific element. This word appears almost exclusively in written formal contexts.\n\nCOMMON COLLOCATIONS:\n- ご{芳名|ほうめい}をお{書|か}きください: please write your name\n- ご{芳名|ほうめい}{帳|ちょう}: guest book; visitors' register\n- ご{芳名|ほうめい}を{記帳|きちょう}する: to sign the guest register\n\nUSAGE:\nAppears on wedding invitations, funeral guest books, formal event reception desks, and official correspondence. When replying to a wedding invitation, etiquette requires crossing out the ご and {芳|ほう} before writing your own name, since these honorific elements should not be applied to oneself.\n\nSIMILAR WORDS:\n- お{名前|なまえ}: your name — standard polite form for everyday use\n- {氏名|しめい}: full name — formal but neutral, used on official forms\n- {姓名|せいめい}: surname and given name — formal, emphasizes the two-part structure",
+  "notes": "Composed of the honorific prefix ご + {芳名|ほうめい} (fragrant name). The character {芳|ほう} literally means \"fragrant\" and is used here as an elegant honorific element. This word appears almost exclusively in written formal contexts.\n\nCOMMON COLLOCATIONS:\n- ご{芳名|ほうめい}⟦を→を：00422_wo⟧お⟦{書|か}き→書く：00477_kaku⟧⟦ください→ください：02899_kudasai⟧: please write your name\n- ご{芳名|ほうめい}⟦{帳|ちょう}→帳：10012_chou⟧: guest book; visitors' register\n- ご{芳名|ほうめい}⟦を→を：00422_wo⟧⟦{記帳|きちょう}→記帳：18809_kichou⟧⟦する→する：00392_suru⟧: to sign the guest register\n\nUSAGE:\nAppears on wedding invitations, funeral guest books, formal event reception desks, and official correspondence. When replying to a wedding invitation, etiquette requires crossing out the ご and {芳|ほう} before writing your own name, since these honorific elements should not be applied to oneself.\n\nSIMILAR WORDS:\n- ⟦お{名前|なまえ}→お名前：22188_onamae⟧: your name — standard polite form for everyday use\n- ⟦{氏名|しめい}→氏名：04033_shimei⟧: full name — formal but neutral, used on official forms\n- ⟦{姓名|せいめい}→姓名：03764_seimei⟧: surname and given name — formal, emphasizes the two-part structure",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22188_onamae",
+      "reading": "おなまえ",
+      "headword": "お{名前|なまえ}",
+      "label": "your name"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04033_shimei",
+      "reading": "しめい",
+      "headword": "{氏名|しめい}",
+      "label": "full name"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03764_seimei",
+      "reading": "せいめい",
+      "headword": "{姓名|せいめい}",
+      "label": "surname and given name"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "honorific",
-      "semantic": ["communication"],
-      "style": ["written"]
+      "semantic": [
+        "communication"
+      ],
+      "style": [
+        "written"
+      ]
     },
     "created": "2026-04-21T10:27:55Z",
-    "modified": "2026-04-21T10:27:55Z"
+    "modified": "2026-09-02T04:02:20Z"
   }
 }

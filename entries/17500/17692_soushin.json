@@ -3,7 +3,7 @@
   "id": "17692_soushin",
   "headword": "{送信|そうしん}",
   "reading": "そうしん",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "sending, transmission",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "17692_soushin_ex1",
-      "japanese": "メールを{送信|そうしん}する。",
+      "japanese": "⟦メール→メール：04435_meeru⟧⟦を→を：00422_wo⟧{送信|そうしん}⟦する→する：00392_suru⟧。",
       "english": "I send an email.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "17692_soushin_ex2",
-      "japanese": "{送信|そうしん}ボタンを{押|お}してください。",
+      "japanese": "{送信|そうしん}⟦ボタン→ボタン：02963_botan⟧⟦を→を：00422_wo⟧⟦{押|お}して→押す：02854_osu⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please press the send button.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "17692_soushin_ex3",
-      "japanese": "{間違|まちが}えて{上司|じょうし}に{個人的|こじんてき}なメッセージを{送信|そうしん}してしまった。",
+      "japanese": "⟦{間違|まちが}えて→間違える：01109_machigaeru⟧⟦{上司|じょうし}→上司：03286_joushi⟧⟦に→に：00314_ni⟧⟦{個人的|こじんてき}→個人的：04788_kojinteki⟧な⟦メッセージ→メッセージ：03828_messeeji⟧⟦を→を：00422_wo⟧{送信|そうしん}⟦して→する：00392_suru⟧しまった。",
       "english": "I accidentally sent a personal message to my boss.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "{送信|そうしん} is used specifically for electronic or signal transmission. For physically sending letters or packages, {送|おく}る or {発送|はっそう} is used instead.\n\nCOMMON COLLOCATIONS:\n- {送信|そうしん}する: to send (electronically)\n- {送信|そうしん}ボタン: send button\n- {送信|そうしん}{取|と}り{消|け}し: unsend, recall message\n- {送信|そうしん}{者|しゃ}: sender\n- {送信|そうしん}{済|ず}み: sent (status)\n- {送信|そうしん}{先|さき}: recipient address/destination\n\nCONTRAST:\n- {送信|そうしん}: sending (electronic) ↔ {受信|じゅしん}: receiving\n- {送信|そうしん}: electronic transmission ↔ {発送|はっそう}: shipping (physical)\n- {送|おく}る: general \"to send\" — covers both physical and electronic",
+  "notes": "{送信|そうしん} is used specifically for electronic or signal transmission. For physically sending letters or packages, ⟦{送|おく}る→送る：00742_okuru⟧ or ⟦{発送|はっそう}→発送：10458_hassou⟧ is used instead.\n\nCOMMON COLLOCATIONS:\n- {送信|そうしん}⟦する→する：00392_suru⟧: to send (electronically)\n- {送信|そうしん}⟦ボタン→ボタン：02963_botan⟧: send button\n- {送信|そうしん}{取|と}り{消|け}し: unsend, recall message\n- {送信|そうしん}{者|しゃ}: sender\n- {送信|そうしん}⟦{済|ず}み→〜済み：04013_zumi⟧: sent (status)\n- {送信|そうしん}{先|さき}: recipient address/destination\n\nSIMILAR WORDS:\n- {送信|そうしん}: sending (electronic) ↔ ⟦{受信|じゅしん}→受信：04896_jushin⟧: receiving\n- {送信|そうしん}: electronic transmission ↔ ⟦{発送|はっそう}→発送：10458_hassou⟧: shipping (physical)\n- ⟦{送|おく}る→送る：00742_okuru⟧: general \"to send\" — covers both physical and electronic",
   "cross_references": [
     {
       "type": "antonym",
@@ -142,11 +142,32 @@
       "headword": "{受信|じゅしん}",
       "label": "receiving",
       "target_id": "04896_jushin"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00742_okuru",
+      "reading": "おくる",
+      "headword": "{送|おく}る",
+      "label": "general \"to send\""
+    },
+    {
+      "type": "related",
+      "target_id": "01377_fuakkusu",
+      "reading": "ふあっくす",
+      "headword": "ファックス",
+      "label": "fax"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25909_densou",
+      "reading": "でんそう",
+      "headword": "{伝送|でんそう}",
+      "label": "transmission"
     }
   ],
   "metadata": {
     "created": "2026-02-13T05:17:28Z",
-    "modified": "2026-03-30T04:48:32Z",
+    "modified": "2026-09-02T04:01:49Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -162,7 +183,8 @@
       "domain": [
         "technical"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

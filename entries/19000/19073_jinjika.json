@@ -15,41 +15,76 @@
   "examples": [
     {
       "id": "19073_jinjika_ex1",
-      "japanese": "{人事課|じんじか}に{書類|しょるい}を{提出|ていしゅつ}する。",
+      "japanese": "{人事課|じんじか}⟦に→に：00314_ni⟧⟦{書類|しょるい}→書類：01103_shorui⟧⟦を→を：00422_wo⟧⟦{提出|ていしゅつ}する→提出する：19644_teishutsusuru⟧。",
       "english": "To submit documents to the HR department.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19073_jinjika_ex2",
-      "japanese": "{異動|いどう}のことは{人事課|じんじか}に{聞|き}いてください。",
+      "japanese": "⟦{異動|いどう}→異動：01818_idou⟧⟦の→の：09472_no⟧こと⟦は→は：00079_ha⟧{人事課|じんじか}⟦に→に：00314_ni⟧⟦{聞|き}いて→聞く：00483_kiku⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please ask the HR department about transfers.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19073_jinjika_ex3",
-      "japanese": "{人事課|じんじか}から{来年度|らいねんど}の{採用|さいよう}{計画|けいかく}について{説明|せつめい}があった。",
+      "japanese": "{人事課|じんじか}⟦から→から：00504_kara⟧⟦{来年度|らいねんど}→来年度：28221_rainendo⟧⟦の→の：09472_no⟧⟦{採用|さいよう}→採用：04563_saiyou⟧⟦{計画|けいかく}→計画：01172_keikaku⟧⟦について→〜について：03103_nitsuite⟧⟦{説明|せつめい}→説明：01449_setsumei⟧⟦が→が：00051_ga⟧⟦あった→ある：00006_aru⟧。",
       "english": "There was an explanation from the HR department about next year's hiring plan.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Compound of {人事|じんじ} (personnel affairs) + {課|か} (section/department). The {課|か} suffix indicates a subdivision within a larger department ({部|ぶ}). In larger organizations, {人事課|じんじか} may be part of {人事部|じんじぶ} (human resources division). Related department names: {総務課|そうむか} (general affairs section), {経理課|けいりか} (accounting section), {営業課|えいぎょうか} (sales section). In government offices, {人事課|じんじか} handles civil servant appointments and evaluations.",
+  "notes": "Compound of ⟦{人事|じんじ}→人事：00126_jinji⟧ (personnel affairs) + ⟦{課|か}→課：01548_ka⟧ (section/department). The ⟦{課|か}→課：01548_ka⟧ suffix indicates a subdivision within a larger department (⟦{部|ぶ}→〜部：00440_bu⟧). In larger organizations, {人事課|じんじか} may be part of ⟦{人事部|じんじぶ}→人事部：20638_jinjibu⟧ (human resources division). Related department names: ⟦{総務課|そうむか}→総務課：24613_soumuka⟧ (general affairs section), ⟦{経理課|けいりか}→経理課：22708_keirika⟧ (accounting section), {営業課|えいぎょうか} (sales section). In government offices, {人事課|じんじか} handles civil servant appointments and evaluations.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20638_jinjibu",
+      "reading": "じんじぶ",
+      "headword": "{人事部|じんじぶ}",
+      "label": "personnel department"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22708_keirika",
+      "reading": "けいりか",
+      "headword": "{経理課|けいりか}",
+      "label": "accounting department"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24613_soumuka",
+      "reading": "そうむか",
+      "headword": "{総務課|そうむか}",
+      "label": "general affairs section"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["work"],
-      "domain": ["business"]
+      "semantic": [
+        "work"
+      ],
+      "domain": [
+        "business"
+      ]
     },
     "created": "2026-03-24T04:48:12Z",
-    "modified": "2026-03-24T04:48:12Z"
+    "modified": "2026-09-02T04:01:54Z"
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22717_baisokusaisei_ex1",
-      "japanese": "{倍速再生|ばいそくさいせい}で{動画|どうが}を{見|み}る。",
+      "japanese": "{倍速再生|ばいそくさいせい}⟦で→で：00502_de⟧⟦{動画|どうが}→動画：04443_douga⟧⟦を→を：00422_wo⟧⟦{見|み}る→見る：00283_miru⟧。",
       "english": "To watch a video at double speed.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22717_baisokusaisei_ex2",
-      "japanese": "{講義|こうぎ}の{録画|ろくが}を{倍速再生|ばいそくさいせい}で{聞|き}いた。",
+      "japanese": "⟦{講義|こうぎ}→講義：01579_kougi⟧⟦の→の：09472_no⟧⟦{録画|ろくが}→録画：04441_rokuga⟧⟦を→を：00422_wo⟧{倍速再生|ばいそくさいせい}⟦で→で：00502_de⟧⟦{聞|き}いた→聞く：00483_kiku⟧。",
       "english": "I listened to the recorded lecture at double speed.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22717_baisokusaisei_ex3",
-      "japanese": "{最近|さいきん}の{若者|わかもの}はドラマも{倍速再生|ばいそくさいせい}で{見|み}るらしい。",
+      "japanese": "⟦{最近|さいきん}→最近：00881_saikin⟧⟦の→の：09472_no⟧⟦{若者|わかもの}→若者：03037_wakamono⟧⟦は→は：00079_ha⟧⟦ドラマ→ドラマ：03867_dorama⟧⟦も→も：00484_mo⟧{倍速再生|ばいそくさいせい}⟦で→で：00502_de⟧⟦{見|み}る→見る：00283_miru⟧らしい。",
       "english": "Apparently young people these days watch even dramas at double speed.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {倍速|ばいそく} (double speed) + {再生|さいせい} (playback). This term has become very common in the streaming age, with the trend of watching content at accelerated speed becoming a cultural talking point in Japan. The practice is especially common among students and busy professionals.\n\nCOMMON COLLOCATIONS:\n- {倍速再生|ばいそくさいせい}で{見|み}る: to watch at double speed\n- {倍速再生|ばいそくさいせい}{機能|きのう}: double-speed playback function\n- 1.5{倍速|ばいそく}{再生|さいせい}: 1.5x speed playback\n- 2{倍速|ばいそく}{再生|さいせい}: 2x speed playback\n\nRELATED TERMS:\n- {再生|さいせい}: playback — normal-speed playback\n- {早送|はやおく}り: fast forward — skipping ahead through content\n- {スロー再生|すろーさいせい}: slow-motion playback",
+  "notes": "A compound of ⟦{倍速|ばいそく}→倍速：25707_baisoku⟧ (double speed) + ⟦{再生|さいせい}→再生：04442_saisei⟧ (playback). This term has become very common in the streaming age, with the trend of watching content at accelerated speed becoming a cultural talking point in Japan. The practice is especially common among students and busy professionals.\n\nCOMMON COLLOCATIONS:\n- {倍速再生|ばいそくさいせい}⟦で→で：00502_de⟧⟦{見|み}る→見る：00283_miru⟧: to watch at double speed\n- {倍速再生|ばいそくさいせい}⟦{機能|きのう}→機能：13165_kinou⟧: double-speed playback function\n- 1.5{倍速|ばいそく}{再生|さいせい}: 1.5x speed playback\n- 2{倍速|ばいそく}{再生|さいせい}: 2x speed playback\n\nRELATED WORDS:\n- ⟦{再生|さいせい}→再生：04442_saisei⟧: playback — normal-speed playback\n- ⟦{早送|はやおく}り→早送り：05402_hayaokuri⟧: fast forward — skipping ahead through content\n- {スロー再生|すろーさいせい}: slow-motion playback",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "05402_hayaokuri",
+      "reading": "はやおくり",
+      "headword": "{早送|はやおく}り",
+      "label": "fast forward"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,6 +70,6 @@
       "politeness": "plain"
     },
     "created": "2026-04-07T12:38:42Z",
-    "modified": "2026-08-01T06:41:09Z"
+    "modified": "2026-09-02T04:02:09Z"
   }
 }

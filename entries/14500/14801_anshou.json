@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "14801_anshou_ex1",
-      "japanese": "{詩|し}を{暗唱|あんしょう}する。",
+      "japanese": "⟦{詩|し}→詩：02139_shi⟧⟦を→を：00422_wo⟧{暗唱|あんしょう}⟦する→する：00392_suru⟧。",
       "english": "To recite a poem from memory.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "14801_anshou_ex2",
-      "japanese": "{英語|えいご}のスピーチを{暗唱|あんしょう}して{発表|はっぴょう}した。",
+      "japanese": "⟦{英語|えいご}→英語：02274_eigo⟧⟦の→の：09472_no⟧⟦スピーチ→スピーチ：03852_supiichi⟧⟦を→を：00422_wo⟧{暗唱|あんしょう}⟦して→する：00392_suru⟧⟦{発表|はっぴょう}した→発表する：25231_happyousuru⟧。",
       "english": "I memorized and delivered the English speech.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "14801_anshou_ex3",
-      "japanese": "{子|こ}どもの{頃|ころ}に{覚|おぼ}えた{百人一首|ひゃくにんいっしゅ}を{今|いま}でも{暗唱|あんしょう}できる。",
+      "japanese": "{子|こ}ども⟦の→の：09472_no⟧{頃|ころ}⟦に→に：00314_ni⟧⟦{覚|おぼ}えた→覚える：00739_oboeru⟧⟦{百人一首|ひゃくにんいっしゅ}→百人一首：22329_hyakuninisshu⟧⟦を→を：00422_wo⟧⟦{今|いま}→今：00945_ima⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧{暗唱|あんしょう}⟦できる→できる：00557_dekiru⟧。",
       "english": "I can still recite from memory the Hundred Poems I learned as a child.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "Also written as {暗誦|あんしょう} with the same meaning. The kanji {唱|しょう} means to chant or recite, while {暗|あん} means from memory (without looking).\n\nCOMMON COLLOCATIONS:\n- {詩|し}を{暗唱|あんしょう}する (to recite a poem by heart)\n- {暗唱|あんしょう}テスト (recitation test)\n- {暗唱|あんしょう}できる (to be able to recite from memory)\n- すらすら{暗唱|あんしょう}する (to recite fluently from memory)\n\nUSAGE NOTE:\nCommon in Japanese schools, where students are sometimes asked to memorize and recite passages from textbooks, poems, or classical literature. Distinct from {朗読|ろうどく} (reading aloud), which involves reading from a text.",
+  "notes": "Also written as {暗誦|あんしょう} with the same meaning. The kanji {唱|しょう} means to chant or recite, while {暗|あん} means from memory (without looking).\n\nCOMMON COLLOCATIONS:\n- ⟦{詩|し}→詩：02139_shi⟧⟦を→を：00422_wo⟧{暗唱|あんしょう}⟦する→する：00392_suru⟧ (to recite a poem by heart)\n- {暗唱|あんしょう}⟦テスト→テスト：01065_tesuto⟧ (recitation test)\n- {暗唱|あんしょう}⟦できる→できる：00557_dekiru⟧ (to be able to recite from memory)\n- ⟦すらすら→すらすら：05363_surasura⟧{暗唱|あんしょう}⟦する→する：00392_suru⟧ (to recite fluently from memory)\n\nUSAGE:\nCommon in Japanese schools, where students are sometimes asked to memorize and recite passages from textbooks, poems, or classical literature. Distinct from ⟦{朗読|ろうどく}→朗読：14875_roudoku⟧ (reading aloud), which involves reading from a text.",
   "cross_references": [
     {
       "type": "contrast",
@@ -153,7 +153,7 @@
   ],
   "metadata": {
     "created": "2026-03-03T12:53:05Z",
-    "modified": "2026-05-01T04:26:51Z",
+    "modified": "2026-09-02T04:01:38Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -169,7 +169,8 @@
       "domain": [
         "academic"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

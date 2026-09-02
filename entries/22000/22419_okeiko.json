@@ -3,7 +3,7 @@
   "headword": "お{稽古|けいこ}",
   "reading": "おけいこ",
   "romaji": "okeiko",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "practice; lesson; training (in traditional arts)",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22419_okeiko_ex1",
-      "japanese": "{今日|きょう}はお{稽古|けいこ}の{日|ひ}だ。",
+      "japanese": "⟦{今日|きょう}→今日：00496_kyou⟧⟦は→は：00079_ha⟧お{稽古|けいこ}⟦の→の：09472_no⟧⟦{日|ひ}→日：02249_hi⟧だ。",
       "english": "Today is lesson day.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22419_okeiko_ex2",
-      "japanese": "{茶道|さどう}のお{稽古|けいこ}に{通|かよ}っている。",
+      "japanese": "⟦{茶道|さどう}→茶道：04451_sadou⟧⟦の→の：09472_no⟧お{稽古|けいこ}⟦に→に：00314_ni⟧⟦{通|かよ}っている→通う：01217_kayou⟧。",
       "english": "I attend tea ceremony lessons.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22419_okeiko_ex3",
-      "japanese": "{娘|むすめ}は{小|ちい}さい{頃|ころ}からピアノのお{稽古|けいこ}を{続|つづ}けていて、{今|いま}ではかなり{上手|じょうず}になった。",
+      "japanese": "⟦{娘|むすめ}→娘：02263_musume⟧⟦は→は：00079_ha⟧⟦{小|ちい}さい→小さい：00025_chiisai⟧{頃|ころ}⟦から→から：00504_kara⟧⟦ピアノ→ピアノ：01376_piano⟧⟦の→の：09472_no⟧お{稽古|けいこ}⟦を→を：00422_wo⟧⟦{続|つづ}け→続く：00903_tsuzuku⟧て⟦いて→いる：00495_iru⟧、⟦{今|いま}→今：00945_ima⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦かなり→かなり：01149_kanari⟧⟦{上手|じょうず}→上手：00707_jouzu⟧になった。",
       "english": "My daughter has been taking piano lessons since she was little, and now she's gotten quite good.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "The base form is {稽古|けいこ}, with the honorific prefix お adding politeness. {稽古|けいこ} literally means 'to study the old' (from {稽|けい} 'examine' and {古|こ} 'old'), reflecting the idea of learning from tradition.\n\nThe word is strongly associated with traditional Japanese arts and cultural activities, though it can also be used for modern lessons like piano or ballet. It implies ongoing, disciplined practice under a teacher.\n\nCOMMON COLLOCATIONS:\n- お{稽古|けいこ}{事|ごと}: lessons and hobbies (as a category)\n- お{稽古|けいこ}に{通|かよ}う: to attend lessons regularly\n- お{稽古|けいこ}をつける: to give a lesson (from the teacher's perspective)\n- お{稽古|けいこ}{日|び}: lesson day\n\nSIMILAR WORDS:\n- {練習|れんしゅう}: practice — general practice or training, not limited to arts\n- レッスン: lesson — borrowed from English, used for modern activities\n- {修行|しゅぎょう}: training / ascetic practice — more intense, often spiritual or martial arts",
+  "notes": "The base form is ⟦{稽古|けいこ}→稽古：00210_keiko⟧, with the honorific prefix お adding politeness. ⟦{稽古|けいこ}→稽古：00210_keiko⟧ literally means 'to study the old' (from {稽|けい} 'examine' and {古|こ} 'old'), reflecting the idea of learning from tradition.\n\nThe word is strongly associated with traditional Japanese arts and cultural activities, though it can also be used for modern lessons like piano or ballet. It implies ongoing, disciplined practice under a teacher.\n\nCOMMON COLLOCATIONS:\n- お{稽古|けいこ}{事|ごと}: lessons and hobbies (as a category)\n- お{稽古|けいこ}⟦に→に：00314_ni⟧⟦{通|かよ}う→通う：01217_kayou⟧: to attend lessons regularly\n- お{稽古|けいこ}⟦を→を：00422_wo⟧⟦つける→つける：00562_tsukeru⟧: to give a lesson (from the teacher's perspective)\n- お{稽古|けいこ}{日|び}: lesson day\n\nSIMILAR WORDS:\n- ⟦{練習|れんしゅう}→練習：05323_renshuu⟧: practice — general practice or training, not limited to arts\n- ⟦レッスン→レッスン：01542_ressun⟧: lesson — borrowed from English, used for modern activities\n- ⟦{修行|しゅぎょう}→修行：05522_shugyou⟧: training / ascetic practice — more intense, often spiritual or martial arts",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05323_renshuu",
+      "reading": "れんしゅう",
+      "headword": "{練習|れんしゅう}",
+      "label": "practice"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01542_ressun",
+      "reading": "れっすん",
+      "headword": "レッスン",
+      "label": "lesson"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05522_shugyou",
+      "reading": "しゅぎょう",
+      "headword": "{修行|しゅぎょう}",
+      "label": "training / ascetic practice"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,7 +85,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-05T21:08:10Z",
-    "modified": "2026-04-05T21:08:10Z"
+    "modified": "2026-09-02T04:02:08Z"
   },
   "conjugation": {
     "type": "suru",

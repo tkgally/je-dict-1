@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "12390_fuyuusou_ex1",
-      "japanese": "{富裕層|ふゆうそう}が{増|ふ}えている。",
+      "japanese": "{富裕層|ふゆうそう}⟦が→が：00051_ga⟧⟦{増|ふ}えている→増える：01183_fueru⟧。",
       "english": "The wealthy class is growing.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "12390_fuyuusou_ex2",
-      "japanese": "この{地域|ちいき}には{富裕層|ふゆうそう}が{多|おお}く{住|す}んでいる。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{地域|ちいき}→地域：01461_chiiki⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{富裕層|ふゆうそう}⟦が→が：00051_ga⟧⟦{多|おお}く→多い：01127_ooi⟧⟦{住|す}んでいる→住む：00673_sumu⟧。",
       "english": "Many affluent people live in this area.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "12390_fuyuusou_ex3",
-      "japanese": "{富裕層|ふゆうそう}{向|む}けの{高級|こうきゅう}マンションが{次々|つぎつぎ}と{建設|けんせつ}されている。",
+      "japanese": "{富裕層|ふゆうそう}{向|む}け⟦の→の：09472_no⟧⟦{高級|こうきゅう}→高級：08644_koukyuu⟧⟦マンション→マンション：01035_manshon⟧⟦が→が：00051_ga⟧⟦{次々|つぎつぎ}→次々：03522_tsugitsugi⟧⟦と→と：00512_to⟧⟦{建設|けんせつ}→建設：02708_kensetsu⟧⟦されている→する：00392_suru⟧。",
       "english": "Luxury condominiums targeting the wealthy are being built one after another.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "STRUCTURE:\n{富裕|ふゆう} (wealthy, affluent) + {層|そう} (class, stratum, layer).\n\nUSAGE:\n{富裕層|ふゆうそう} is a neutral, analytical term used in news, economics, and marketing. It is not pejorative. In Japan, the term is commonly defined by the financial industry as households with financial assets exceeding 100 million yen ({一億円|いちおくえん}).\n\nSIMILAR WORDS:\n- {金持|かねも}ち: rich person (everyday, informal)\n- {資産家|しさんか}: person of means, wealthy person\n- {上流階級|じょうりゅうかいきゅう}: upper class (focuses on social status)\n\nCOMMON COLLOCATIONS:\n- {富裕層|ふゆうそう}{向|む}け: targeting the wealthy\n- {超|ちょう}{富裕層|ふゆうそう}: ultra-wealthy class\n- {富裕層|ふゆうそう}ビジネス: business catering to the affluent",
+  "notes": "COMMON PATTERNS:\n{富裕|ふゆう} (wealthy, affluent) + ⟦{層|そう}→層：12441_sou⟧ (class, stratum, layer).\n\nUSAGE:\n{富裕層|ふゆうそう} is a neutral, analytical term used in news, economics, and marketing. It is not pejorative. In Japan, the term is commonly defined by the financial industry as households with financial assets exceeding 100 million yen ({一億円|いちおくえん}).\n\nSIMILAR WORDS:\n- ⟦{金持|かねも}ち→金持ち：02993_kanemochi⟧: rich person (everyday, informal)\n- ⟦{資産家|しさんか}→資産家：16291_shisanka⟧: person of means, wealthy person\n- {上流階級|じょうりゅうかいきゅう}: upper class (focuses on social status)\n\nCOMMON COLLOCATIONS:\n- {富裕層|ふゆうそう}{向|む}け: targeting the wealthy\n- ⟦{超|ちょう}→超〜：28619_chou⟧{富裕層|ふゆうそう}: ultra-wealthy class\n- {富裕層|ふゆうそう}⟦ビジネス→ビジネス：11162_bijinesu⟧: business catering to the affluent",
   "cross_references": [
     {
       "type": "related",
@@ -59,11 +59,25 @@
       "reading": "ひんこんそう",
       "headword": "{貧困層|ひんこんそう}",
       "label": "impoverished class"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16291_shisanka",
+      "reading": "しさんか",
+      "headword": "{資産家|しさんか}",
+      "label": "person of means, wealthy person"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19867_chuukansou",
+      "reading": "ちゅうかんそう",
+      "headword": "{中間層|ちゅうかんそう}",
+      "label": "middle class"
     }
   ],
   "metadata": {
     "created": "2026-02-21T05:52:12Z",
-    "modified": "2026-05-08T10:08:08Z",
+    "modified": "2026-09-02T04:01:28Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08938_entoransu_ex1",
-      "japanese": "エントランスで{待|ま}ち{合|あ}わせる。",
+      "japanese": "エントランス⟦で→で：00502_de⟧⟦{待|ま}ち{合|あ}わせる→待ち合わせる：12328_machiawaseru⟧。",
       "english": "We meet at the entrance.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "08938_entoransu_ex2",
-      "japanese": "マンションのエントランスはオートロックだ。",
+      "japanese": "⟦マンション→マンション：01035_manshon⟧⟦の→の：09472_no⟧エントランス⟦は→は：00079_ha⟧⟦オートロック→オートロック：09829_ootorokku⟧だ。",
       "english": "The apartment building's entrance has auto-lock security.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "08938_entoransu_ex3",
-      "japanese": "ホテルのエントランスには{大|おお}きな{花|はな}が{飾|かざ}ってあった。",
+      "japanese": "⟦ホテル→ホテル：01027_hoteru⟧⟦の→の：09472_no⟧エントランス⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{大|おお}きな→大きな：02849_ookina⟧⟦{花|はな}→花：00523_hana⟧⟦が→が：00051_ga⟧⟦{飾|かざ}ってあった→飾る：01185_kazaru⟧。",
       "english": "Large flowers were displayed in the hotel's entrance.",
       "notes": null,
       "has_audio": false,
@@ -43,11 +43,19 @@
       ]
     }
   ],
-  "notes": "エントランス is used for building entrances, especially modern buildings.\n\nCOMMON COLLOCATIONS:\n- エントランスホール: entrance hall, lobby\n- エントランスロビー: entrance lobby\n- オートロックエントランス: auto-lock entrance\n\nNUANCE:\nWhile {入口|いりぐち} (entrance) and {玄関|げんかん} (front door) are general terms, エントランス specifically refers to the entrance area of larger buildings like apartment complexes, hotels, and office buildings. It often implies a lobby or reception area.",
-  "cross_references": [],
+  "notes": "エントランス is used for building entrances, especially modern buildings.\n\nCOMMON COLLOCATIONS:\n- エントランスホール: entrance hall, lobby\n- エントランス⟦ロビー→ロビー：26995_robii⟧: entrance lobby\n- ⟦オートロック→オートロック：09829_ootorokku⟧エントランス: auto-lock entrance\n\nUSAGE:\nWhile {入口|いりぐち} (entrance) and ⟦{玄関|げんかん}→玄関：05003_genkan⟧ (front door) are general terms, エントランス specifically refers to the entrance area of larger buildings like apartment complexes, hotels, and office buildings. It often implies a lobby or reception area.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "26995_robii",
+      "reading": "ろびー",
+      "headword": "ロビー",
+      "label": "lobby"
+    }
+  ],
   "metadata": {
     "created": "2026-01-29T06:11:32Z",
-    "modified": "2026-01-29T06:11:32Z",
+    "modified": "2026-09-02T04:01:16Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

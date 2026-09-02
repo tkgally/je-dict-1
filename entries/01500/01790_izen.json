@@ -2,7 +2,7 @@
   "id": "01790_izen",
   "headword": "{以前|いぜん}",
   "reading": "いぜん",
-  "part_of_speech": "noun/adverb",
+  "part_of_speech": "noun, adverb",
   "gloss": "before, formerly, previously",
   "definitions": [
     {
@@ -118,11 +118,33 @@
       ]
     }
   ],
-  "notes": "{以前|いぜん} indicates \"before\" in time.\n\nCOMMON PATTERNS:\n- {以前|いぜん}⟦は→は：00079_ha⟧ (before, formerly)\n- X{以前|いぜん} (before X, prior to X)\n- {以前|いぜん}⟦の→の：09472_no⟧ + noun (former ~, previous ~)\n- {以前|いぜん}⟦から→から：00504_kara⟧ (from before, for a while)\n\nSIMILAR WORDS:\n- {以前|いぜん}: before (formal, specific point)\n- ⟦{前|まえ}→前：02255_mae⟧: before, in front (common, general)\n- ⟦かつて→かつて：10303_katsute⟧: once, formerly (literary)\n\nNOTE:\n- Different from ⟦{依然|いぜん}→依然：01719_izen⟧ (still, as before) - same reading, different kanji",
-  "cross_references": [],
+  "notes": "{以前|いぜん} indicates \"before\" in time.\n\nCOMMON PATTERNS:\n- {以前|いぜん}⟦は→は：00079_ha⟧ (before, formerly)\n- X{以前|いぜん} (before X, prior to X)\n- {以前|いぜん}⟦の→の：09472_no⟧ + noun (former ~, previous ~)\n- {以前|いぜん}⟦から→から：00504_kara⟧ (from before, for a while)\n\nSIMILAR WORDS:\n- {以前|いぜん}: before (formal, specific point)\n- ⟦{前|まえ}→前：02255_mae⟧: before, in front (common, general)\n- ⟦かつて→かつて：10303_katsute⟧: once, formerly (literary)\n\nUSAGE:\n- Different from ⟦{依然|いぜん}→依然：01719_izen⟧ (still, as before) - same reading, different kanji",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "10303_katsute",
+      "reading": "かつて",
+      "headword": "かつて",
+      "label": "once, formerly"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08502_sonomae",
+      "reading": "そのまえ",
+      "headword": "その{前|まえ}",
+      "label": "before that"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28658_sakini",
+      "reading": "さきに",
+      "headword": "{先|さき}に",
+      "label": "first"
+    }
+  ],
   "metadata": {
     "created": "2026-01-09T12:15:00Z",
-    "modified": "2026-08-11T00:22:01Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

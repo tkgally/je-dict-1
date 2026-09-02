@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "02744_kenpou_ex1",
-      "japanese": "⟦{日本|にほん}→日本：03876_nihon⟧⟦{国|こく}→国：02204_kuni⟧{憲法|けんぽう}⟦は→は：00079_ha⟧1947⟦{年|ねん}→年：09876_nen⟧⟦に→に：00314_ni⟧⟦{施行|しこう}→施行：06581_shikou⟧された。",
+      "japanese": "⟦{日本|にほん}→日本：03876_nihon⟧⟦{国|こく}→国：02204_kuni⟧{憲法|けんぽう}⟦は→は：00079_ha⟧1947⟦{年|ねん}→年：09876_nen⟧⟦に→に：00314_ni⟧⟦{施行|しこう}→施行：06581_shikou⟧⟦された→する：00392_suru⟧。",
       "english": "The Constitution of Japan was enacted in 1947.",
       "notes": null,
       "has_audio": false,
@@ -68,11 +68,18 @@
       "reading": "みんぽう",
       "headword": "{民法|みんぽう}",
       "label": "civil law"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15210_keihou",
+      "reading": "けいほう",
+      "headword": "{刑法|けいほう}",
+      "label": "criminal law"
     }
   ],
   "metadata": {
     "created": "2026-01-11T07:48:15Z",
-    "modified": "2026-06-12T04:00:00Z",
+    "modified": "2026-09-02T04:01:02Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

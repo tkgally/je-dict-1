@@ -15,41 +15,67 @@
   "examples": [
     {
       "id": "29705_hachibudate_ex1",
-      "japanese": "クリームを{八分立|はちぶだ}てにする。",
+      "japanese": "⟦クリーム→クリーム：00253_kuriimu⟧⟦を→を：00422_wo⟧{八分立|はちぶだ}て⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧。",
       "english": "Whip the cream to firm peaks.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29705_hachibudate_ex2",
-      "japanese": "{八分立|はちぶだ}てなら{形|かたち}がしっかり{残|のこ}る。",
+      "japanese": "{八分立|はちぶだ}てなら⟦{形|かたち}→形：02193_katachi⟧⟦が→が：00051_ga⟧⟦しっかり→しっかり：01272_shikkari⟧⟦{残|のこ}る→残る：01187_nokoru⟧。",
       "english": "At firm peaks, the cream keeps its shape well.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29705_hachibudate_ex3",
-      "japanese": "デコレーションには、しっかりした{八分立|はちぶだ}てのクリームを{使|つか}う。",
+      "japanese": "⟦デコレーション→デコレーション：23431_dekoreeshon⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧、⟦しっかりした→しっかりする：21456_shikkarisuru⟧{八分立|はちぶだ}て⟦の→の：09472_no⟧⟦クリーム→クリーム：00253_kuriimu⟧⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧。",
       "english": "For decorating, use firmly whipped cream at the firm-peak stage.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A baking term literally meaning \"eight-tenths whipped,\" formed from {八分|はちぶ} (eight parts) + {立|だ}て (whipping, from {泡立|あわだ}てる). Describes cream whipped until it holds firm, standing peaks — stiffer than {七分立|しちぶだ}て.\n\nCOMMON COLLOCATIONS:\n- {八分立|はちぶだ}てにする: to whip to firm peaks\n- {八分立|はちぶだ}てのクリーム: firmly whipped cream\n\nSIMILAR WORDS:\n- {七分立|しちぶだ}て: whipped to soft peaks — one stage softer, still flows\n- {泡立|あわだ}てる: to whip, to beat — the underlying verb",
+  "notes": "A baking term literally meaning \"eight-tenths whipped,\" formed from {八分|はちぶ} (eight parts) + {立|だ}て (whipping, from ⟦{泡立|あわだ}てる→泡立てる：06419_awadateru⟧). Describes cream whipped until it holds firm, standing peaks — stiffer than ⟦{七分立|しちぶだ}て→七分立て：29704_shichibudate⟧.\n\nCOMMON COLLOCATIONS:\n- {八分立|はちぶだ}て⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧: to whip to firm peaks\n- {八分立|はちぶだ}て⟦の→の：09472_no⟧⟦クリーム→クリーム：00253_kuriimu⟧: firmly whipped cream\n\nSIMILAR WORDS:\n- ⟦{七分立|しちぶだ}て→七分立て：29704_shichibudate⟧: whipped to soft peaks — one stage softer, still flows\n- ⟦{泡立|あわだ}てる→泡立てる：06419_awadateru⟧: to whip, to beat — the underlying verb",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "29704_shichibudate",
+      "reading": "しちぶだて",
+      "headword": "{七分立|しちぶだ}て",
+      "label": "whipped to soft peaks"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06419_awadateru",
+      "reading": "あわだてる",
+      "headword": "{泡立|あわだ}てる",
+      "label": "to whip, to beat"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["cooking"],
+      "politeness": "plain",
+      "semantic": [
+        "cooking"
+      ],
       "domain": []
     },
     "created": "2026-07-06T09:17:25Z",
-    "modified": "2026-07-06T09:17:25Z"
+    "modified": "2026-09-02T04:02:37Z"
   }
 }

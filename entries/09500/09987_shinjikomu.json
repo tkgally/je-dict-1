@@ -2,7 +2,7 @@
   "id": "09987_shinjikomu",
   "headword": "{信|しん}じ{込|こ}む",
   "reading": "しんじこむ",
-  "part_of_speech": "godan verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to firmly believe, to be convinced",
   "conjugation": {
     "type": "godan",
@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "09987_shinjikomu_ex1",
-      "japanese": "{彼女|かのじょ}は{噂|うわさ}を{信|しん}じ{込|こ}んでいる。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧⟦{噂|うわさ}→噂：01871_uwasa⟧⟦を→を：00422_wo⟧{信|しん}じ{込|こ}んで⟦いる→いる：00495_iru⟧。",
       "english": "She firmly believes the rumor.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "09987_shinjikomu_ex2",
-      "japanese": "{自分|じぶん}が{正|ただ}しいと{信|しん}じ{込|こ}んでいた。",
+      "japanese": "⟦{自分|じぶん}→自分：02887_jibun⟧⟦が→が：00051_ga⟧⟦{正|ただ}しい→正しい：00893_tadashii⟧⟦と→と：00512_to⟧{信|しん}じ{込|こ}んで⟦いた→いる：00495_iru⟧。",
       "english": "I was convinced that I was right.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "09987_shinjikomu_ex3",
-      "japanese": "{詐欺師|さぎし}の{話|はなし}を{信|しん}じ{込|こ}んでお{金|かね}を{騙|だま}し{取|と}られた。",
+      "japanese": "⟦{詐欺師|さぎし}→詐欺師：10176_sagishi⟧⟦の→の：09472_no⟧⟦{話|はなし}→話：01496_hanashi⟧⟦を→を：00422_wo⟧{信|しん}じ{込|こ}んで⟦お{金|かね}→お金：00611_okane⟧⟦を→を：00422_wo⟧{騙|だま}し{取|と}られた。",
       "english": "I believed the scammer's story completely and was cheated out of money.",
       "notes": null,
       "has_audio": false,
@@ -133,11 +133,19 @@
       ]
     }
   ],
-  "notes": "{信|しん}じ{込|こ}む is a compound verb with ～{込|こ}む adding the sense of thoroughness or completion.\n\nTRANSITIVITY:\n- Type: {他動詞|たどうし} (transitive)\n- Pattern: Xを{信|しん}じ{込|こ}む / Xと{信|しん}じ{込|こ}む\n\nASPECT (ている):\n- {信|しん}じ{込|こ}んでいる: is firmly convinced (state)\n\nNUANCE:\nOften implies blind or possibly mistaken belief. More emphatic than {信|しん}じる alone.\n\nCOMPOSITION:\n- {信|しん}じる: to believe\n- ～{込|こ}む: suffix adding completeness/thoroughness",
-  "cross_references": [],
+  "notes": "{信|しん}じ{込|こ}む is a compound verb with ～⟦{込|こ}む→込む：00719_komu⟧ adding the sense of thoroughness or completion.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- Pattern: X⟦を→を：00422_wo⟧{信|しん}じ{込|こ}む / X⟦と→と：00512_to⟧{信|しん}じ{込|こ}む\n\nASPECT (ている):\n- {信|しん}じ{込|こ}んで⟦いる→いる：00495_iru⟧: is firmly convinced (state)\n\nUSAGE:\nOften implies blind or possibly mistaken belief. More emphatic than ⟦{信|しん}じる→信じる：01111_shinjiru⟧ alone.\n\nETYMOLOGY:\n- ⟦{信|しん}じる→信じる：01111_shinjiru⟧: to believe\n- ～⟦{込|こ}む→込む：00719_komu⟧: suffix adding completeness/thoroughness",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "27228_unomi",
+      "reading": "うのみ",
+      "headword": "{鵜呑|うの}み",
+      "label": "accepting uncritically"
+    }
+  ],
   "metadata": {
     "created": "2026-02-04T12:09:37Z",
-    "modified": "2026-03-29T03:05:07Z",
+    "modified": "2026-09-02T04:01:19Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

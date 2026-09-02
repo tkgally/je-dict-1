@@ -3,7 +3,7 @@
   "id": "12514_madoromu",
   "headword": "{微睡|まどろ}む",
   "reading": "まどろむ",
-  "part_of_speech": "godan verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to doze, to slumber, to drowse",
   "conjugation": {
     "type": "godan",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "12514_madoromu_ex1",
-      "japanese": "ソファで{微睡|まどろ}んでいた。",
+      "japanese": "⟦ソファ→ソファ：04485_sofa⟧⟦で→で：00502_de⟧{微睡|まどろ}んで⟦いた→いる：00495_iru⟧。",
       "english": "I was dozing on the sofa.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "12514_madoromu_ex2",
-      "japanese": "{午後|ごご}の{陽|ひ}ざしの{中|なか}で{猫|ねこ}が{微睡|まどろ}んでいる。",
+      "japanese": "⟦{午後|ごご}→午後：00544_gogo⟧⟦の→の：09472_no⟧{陽|ひ}ざし⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧⟦で→で：00502_de⟧⟦{猫|ねこ}→猫：02237_neko⟧⟦が→が：00051_ga⟧{微睡|まどろ}んで⟦いる→いる：00495_iru⟧。",
       "english": "The cat is dozing in the afternoon sunlight.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "12514_madoromu_ex3",
-      "japanese": "{心地|ここち}よい{風|かぜ}に{吹|ふ}かれて{微睡|まどろ}むうちに、いつの{間|ま}にか{眠|ねむ}っていた。",
+      "japanese": "⟦{心地|ここち}よい→心地よい：12515_kokochiyoi⟧⟦{風|かぜ}→風：00641_kaze⟧⟦に→に：00314_ni⟧⟦{吹|ふ}かれて→吹く：02445_fuku⟧{微睡|まどろ}むうち⟦に→に：00314_ni⟧、⟦いつの{間|ま}にか→いつの間にか：01812_itsunomanika⟧⟦{眠|ねむ}っていた→眠る：01181_nemuru⟧。",
       "english": "As I drowsed in the pleasant breeze, I fell asleep before I knew it.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA literary and poetic verb. The kanji {微睡|まどろ}む literally combines \"subtle\" ({微|び}) and \"sleep\" ({睡|すい}), capturing the sense of light, gentle sleep. More evocative and elegant than うとうとする (to nod off) or {居眠|いねむ}りする (to doze off). Commonly used in literature, poetry, and refined descriptive writing.\n\nCOMMON COLLOCATIONS:\n- {微睡|まどろ}みから{覚|さ}める: to wake from a doze\n- {微睡|まどろ}みの{中|なか}で: in a state of slumber\n\nRELATED WORDS:\n- うとうとする: to nod off (casual)\n- {居眠|いねむ}りする: to fall asleep (unintentionally, as at a desk)",
+  "notes": "USAGE:\nA literary and poetic verb. The kanji {微睡|まどろ}む literally combines \"subtle\" ({微|び}) and \"sleep\" ({睡|すい}), capturing the sense of light, gentle sleep. More evocative and elegant than ⟦うとうとする→うとうとする：26856_utoutosuru⟧ (to nod off) or ⟦{居眠|いねむ}り→居眠り：01822_inemuri⟧⟦する→する：00392_suru⟧ (to doze off). Commonly used in literature, poetry, and refined descriptive writing.\n\nCOMMON COLLOCATIONS:\n- {微睡|まどろ}み⟦から→から：00504_kara⟧⟦{覚|さ}める→覚める：02058_sameru⟧: to wake from a doze\n- {微睡|まどろ}み⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧⟦で→で：00502_de⟧: in a state of slumber\n\nRELATED WORDS:\n- ⟦うとうとする→うとうとする：26856_utoutosuru⟧: to nod off (casual)\n- ⟦{居眠|いねむ}り→居眠り：01822_inemuri⟧⟦する→する：00392_suru⟧: to fall asleep (unintentionally, as at a desk)",
   "cross_references": [
     {
       "type": "synonym",
@@ -149,11 +149,18 @@
       "reading": "ねむる",
       "headword": "{眠|ねむ}る",
       "label": "to sleep"
+    },
+    {
+      "type": "related",
+      "target_id": "26856_utoutosuru",
+      "reading": "うとうとする",
+      "headword": "うとうとする",
+      "label": "to nod off"
     }
   ],
   "metadata": {
     "created": "2026-02-21T11:10:15Z",
-    "modified": "2026-04-27T06:29:35Z",
+    "modified": "2026-09-02T04:01:29Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

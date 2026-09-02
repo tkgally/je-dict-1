@@ -2,7 +2,7 @@
   "id": "11884_genshu",
   "headword": "{厳守|げんしゅ}",
   "reading": "げんしゅ",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "strict observance, strict compliance",
   "conjugation": {
     "type": "suru",
@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "11884_genshu_ex1",
-      "japanese": "{期限|きげん}を{厳守|げんしゅ}してください。",
+      "japanese": "⟦{期限|きげん}→期限：12861_kigen⟧⟦を→を：00422_wo⟧{厳守|げんしゅ}⟦して→する：00392_suru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please strictly observe the deadline.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "11884_genshu_ex2",
-      "japanese": "{時間|じかん}{厳守|げんしゅ}でお{願|ねが}いします。",
+      "japanese": "⟦{時間|じかん}→時間：00468_jikan⟧{厳守|げんしゅ}⟦で→で：00502_de⟧お{願|ねが}いします。",
       "english": "Please be punctual — no exceptions.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "11884_genshu_ex3",
-      "japanese": "{安全|あんぜん}ルールの{厳守|げんしゅ}が{事故|じこ}{防止|ぼうし}につながる。",
+      "japanese": "⟦{安全|あんぜん}→安全：01131_anzen⟧⟦ルール→ルール：00354_ruuru⟧⟦の→の：09472_no⟧{厳守|げんしゅ}⟦が→が：00051_ga⟧⟦{事故|じこ}→事故：00851_jiko⟧⟦{防止|ぼうし}→防止：14571_boushi⟧⟦に→に：00314_ni⟧つながる。",
       "english": "Strict observance of safety rules helps prevent accidents.",
       "notes": null,
       "has_audio": false,
@@ -133,11 +133,26 @@
       ]
     }
   ],
-  "notes": "{厳守|げんしゅ} means to observe or comply with something strictly, with zero tolerance for deviation. It is stronger than simply \"following\" rules — it implies absolute adherence.\n\nWORD FORMATION:\n{厳|げん} (strict) + {守|しゅ} (protect, observe)\n\nCOMMON COLLOCATIONS:\n- {時間|じかん}{厳守|げんしゅ}: strict punctuality (very common compound)\n- {期限|きげん}{厳守|げんしゅ}: strict deadline compliance\n- ルールを{厳守|げんしゅ}する: to strictly observe rules\n- {厳守|げんしゅ}{事項|じこう}: items to be strictly followed\n- {法律|ほうりつ}を{厳守|げんしゅ}する: to strictly observe the law\n\nSIMILAR WORDS:\n- {厳守|げんしゅ}: strict observance (strongest, zero tolerance)\n- {遵守|じゅんしゅ}: compliance, observance (formal, common in legal contexts)\n- {守|まも}る: to follow, to protect (everyday, general)\n\nREGISTER:\nFormal. Frequently appears in workplace notices, official documents, school rules, and announcements. {時間|じかん}{厳守|げんしゅ} is especially common on meeting invitations and event notices.",
-  "cross_references": [],
+  "notes": "{厳守|げんしゅ} means to observe or comply with something strictly, with zero tolerance for deviation. It is stronger than simply \"following\" rules — it implies absolute adherence.\n\nFORMS:\n{厳|げん} (strict) + {守|しゅ} (protect, observe)\n\nCOMMON COLLOCATIONS:\n- ⟦{時間|じかん}→時間：00468_jikan⟧{厳守|げんしゅ}: strict punctuality (very common compound)\n- ⟦{期限|きげん}→期限：12861_kigen⟧{厳守|げんしゅ}: strict deadline compliance\n- ⟦ルール→ルール：00354_ruuru⟧⟦を→を：00422_wo⟧{厳守|げんしゅ}⟦する→する：00392_suru⟧: to strictly observe rules\n- {厳守|げんしゅ}⟦{事項|じこう}→事項：11469_jikou⟧: items to be strictly followed\n- ⟦{法律|ほうりつ}→法律：01722_houritsu⟧⟦を→を：00422_wo⟧{厳守|げんしゅ}⟦する→する：00392_suru⟧: to strictly observe the law\n\nSIMILAR WORDS:\n- {厳守|げんしゅ}: strict observance (strongest, zero tolerance)\n- ⟦{遵守|じゅんしゅ}→遵守：06107_junshu⟧: compliance, observance (formal, common in legal contexts)\n- ⟦{守|まも}る→守る：01986_mamoru⟧: to follow, to protect (everyday, general)\n\nREGISTER:\nFormal. Frequently appears in workplace notices, official documents, school rules, and announcements. ⟦{時間|じかん}→時間：00468_jikan⟧{厳守|げんしゅ} is especially common on meeting invitations and event notices.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06107_junshu",
+      "reading": "じゅんしゅ",
+      "headword": "{遵守|じゅんしゅ}",
+      "label": "compliance, observance"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01986_mamoru",
+      "reading": "まもる",
+      "headword": "{守|まも}る",
+      "label": "to follow, to protect"
+    }
+  ],
   "metadata": {
     "created": "2026-02-18T14:00:36Z",
-    "modified": "2026-08-15T21:26:29Z",
+    "modified": "2026-09-02T04:01:26Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
@@ -151,7 +166,8 @@
       "semantic": [
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

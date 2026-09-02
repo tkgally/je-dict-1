@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "18637_seimeihoken_ex1",
-      "japanese": "{生命|せいめい}{保険|ほけん}に{加入|かにゅう}する。",
+      "japanese": "{生命|せいめい}{保険|ほけん}⟦に→に：00314_ni⟧⟦{加入|かにゅう}する→加入する：22671_kanyuusuru⟧。",
       "english": "To take out life insurance.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "18637_seimeihoken_ex2",
-      "japanese": "{結婚|けっこん}を{機|き}に{生命|せいめい}{保険|ほけん}を{見直|みなお}した。",
+      "japanese": "⟦{結婚|けっこん}→結婚：02514_kekkon⟧⟦を→を：00422_wo⟧⟦{機|き}→〜機：09843_ki⟧⟦に→に：00314_ni⟧{生命|せいめい}{保険|ほけん}⟦を→を：00422_wo⟧⟦{見直|みなお}した→見直す：04579_minaosu⟧。",
       "english": "I reviewed my life insurance when I got married.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "18637_seimeihoken_ex3",
-      "japanese": "{毎月|まいつき}の{生命|せいめい}{保険|ほけん}{料|りょう}が{家計|かけい}を{圧迫|あっぱく}している。",
+      "japanese": "⟦{毎月|まいつき}→毎月：00732_maitsuki⟧⟦の→の：09472_no⟧{生命|せいめい}{保険|ほけん}{料|りょう}⟦が→が：00051_ga⟧⟦{家計|かけい}→家計：12287_kakei⟧⟦を→を：00422_wo⟧⟦{圧迫|あっぱく}→圧迫：12013_appaku⟧⟦している→する：00392_suru⟧。",
       "english": "The monthly life insurance premiums are straining the household budget.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,54 @@
       ]
     }
   ],
-  "notes": "USAGE:\nOften abbreviated to {生保|せいほ} in casual speech and business contexts. Japan has one of the highest life insurance penetration rates in the world. Many workers purchase life insurance through their employer.\n\nCOMMON COLLOCATIONS:\n- {生命|せいめい}{保険|ほけん}に{加入|かにゅう}する (to take out life insurance)\n- {生命|せいめい}{保険|ほけん}{会社|がいしゃ} (life insurance company)\n- {生命|せいめい}{保険|ほけん}{料|りょう} (life insurance premium)\n- {生命|せいめい}{保険|ほけん}を{解約|かいやく}する (to cancel life insurance)",
-  "cross_references": [],
+  "notes": "USAGE:\nOften abbreviated to {生保|せいほ} in casual speech and business contexts. Japan has one of the highest life insurance penetration rates in the world. Many workers purchase life insurance through their employer.\n\nCOMMON COLLOCATIONS:\n- {生命|せいめい}{保険|ほけん}⟦に→に：00314_ni⟧⟦{加入|かにゅう}する→加入する：22671_kanyuusuru⟧ (to take out life insurance)\n- {生命|せいめい}{保険|ほけん}{会社|がいしゃ} (life insurance company)\n- {生命|せいめい}{保険|ほけん}{料|りょう} (life insurance premium)\n- {生命|せいめい}{保険|ほけん}⟦を→を：00422_wo⟧⟦{解約|かいやく}→解約：06129_kaiyaku⟧⟦する→する：00392_suru⟧ (to cancel life insurance)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18894_shakaihoken",
+      "reading": "しゃかいほけん",
+      "headword": "{社会|しゃかい}{保険|ほけん}",
+      "label": "social insurance"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20282_kasaihoken",
+      "reading": "かさいほけん",
+      "headword": "{火災保険|かさいほけん}",
+      "label": "fire insurance"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20874_songaihoken",
+      "reading": "そんがいほけん",
+      "headword": "{損害保険|そんがいほけん}",
+      "label": "non-life insurance, property and casualty insurance"
+    },
+    {
+      "type": "related",
+      "target_id": "21128_iryouhoken",
+      "reading": "いりょうほけん",
+      "headword": "{医療保険|いりょうほけん}",
+      "label": "medical insurance"
+    },
+    {
+      "type": "related",
+      "target_id": "22952_kakesute",
+      "reading": "かけすて",
+      "headword": "{掛|か}け{捨|す}て",
+      "label": "term insurance"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26400_jidoushahoken",
+      "reading": "じどうしゃほけん",
+      "headword": "{自動車|じどうしゃ}{保険|ほけん}",
+      "label": "car insurance"
+    }
+  ],
   "metadata": {
     "created": "2026-03-22T10:41:08Z",
-    "modified": "2026-03-22T10:41:08Z",
+    "modified": "2026-09-02T04:01:53Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

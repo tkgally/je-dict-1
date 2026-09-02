@@ -15,41 +15,67 @@
   "examples": [
     {
       "id": "27912_koushi_ex1",
-      "japanese": "{子牛|こうし}が{生|う}まれた。",
+      "japanese": "{子牛|こうし}⟦が→が：00051_ga⟧⟦{生|う}まれた→生まれる：00905_umareru⟧。",
       "english": "A calf was born.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27912_koushi_ex2",
-      "japanese": "{牧場|ぼくじょう}で{子牛|こうし}にミルクをやった。",
+      "japanese": "⟦{牧場|ぼくじょう}→牧場：06103_bokujou⟧⟦で→で：00502_de⟧{子牛|こうし}⟦に→に：00314_ni⟧⟦ミルク→ミルク：00284_miruku⟧⟦を→を：00422_wo⟧⟦やった→やる：02980_yaru⟧。",
       "english": "I gave milk to a calf at the ranch.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27912_koushi_ex3",
-      "japanese": "{母牛|ははうし}は{子牛|こうし}のそばを{離|はな}れようとしなかった。",
+      "japanese": "{母牛|ははうし}⟦は→は：00079_ha⟧{子牛|こうし}⟦の→の：09472_no⟧そば⟦を→を：00422_wo⟧⟦{離|はな}れよう→離れる：02397_hanareru⟧としなかった。",
       "english": "The mother cow would not leave her calf's side.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A young cow, also written {仔牛|こうし}. Formed from {子|こ} (child) + {牛|うし} (cow), with the reading shifting to こうし.\n\nCOMMON COLLOCATIONS:\n- {子牛|こうし}が{生|う}まれる: a calf is born\n- {子牛|こうし}を{育|そだ}てる: raise a calf\n- {子牛|こうし}{肉|にく}: veal\n\nSIMILAR WORDS:\n- {牛|うし}: cow; cattle — the general term, regardless of age",
+  "notes": "A young cow, also written {仔牛|こうし}. Formed from ⟦{子|こ}→子：09851_ko⟧ (child) + ⟦{牛|うし}→牛：01857_ushi⟧ (cow), with the reading shifting to こうし.\n\nCOMMON COLLOCATIONS:\n- {子牛|こうし}⟦が→が：00051_ga⟧⟦{生|う}まれる→生まれる：00905_umareru⟧: a calf is born\n- {子牛|こうし}⟦を→を：00422_wo⟧⟦{育|そだ}てる→育てる：01235_sodateru⟧: raise a calf\n- {子牛|こうし}{肉|にく}: veal\n\nSIMILAR WORDS:\n- ⟦{牛|うし}→牛：01857_ushi⟧: cow; cattle — the general term, regardless of age",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "19287_kouma",
+      "reading": "こうま",
+      "headword": "{子馬|こうま}",
+      "label": "foal"
+    },
+    {
+      "type": "related",
+      "target_id": "25471_kobuta",
+      "reading": "こぶた",
+      "headword": "{子豚|こぶた}",
+      "label": "piglet"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["animal-mammal"],
+      "politeness": "plain",
+      "semantic": [
+        "animal-mammal"
+      ],
       "domain": []
     },
     "created": "2026-05-23T02:04:30Z",
-    "modified": "2026-05-23T02:04:30Z"
+    "modified": "2026-09-02T04:02:32Z"
   }
 }

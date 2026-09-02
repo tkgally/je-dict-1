@@ -3,7 +3,7 @@
   "id": "14239_gedoku",
   "headword": "{解毒|げどく}",
   "reading": "げどく",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "detoxification; antidote",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "14239_gedoku_ex1",
-      "japanese": "{解毒|げどく}{剤|ざい}を{投与|とうよ}する。",
+      "japanese": "{解毒|げどく}{剤|ざい}⟦を→を：00422_wo⟧⟦{投与|とうよ}→投与：12894_touyo⟧⟦する→する：00392_suru⟧。",
       "english": "To administer an antidote.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "14239_gedoku_ex2",
-      "japanese": "{肝臓|かんぞう}には{解毒|げどく}{作用|さよう}がある。",
+      "japanese": "⟦{肝臓|かんぞう}→肝臓：05029_kanzou⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{解毒|げどく}⟦{作用|さよう}→作用：05761_sayou⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "The liver has a detoxifying function.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "14239_gedoku_ex3",
-      "japanese": "{毒|どく}ヘビに{噛|か}まれた{患者|かんじゃ}に、すぐに{解毒|げどく}{剤|ざい}が{使|つか}われた。",
+      "japanese": "{毒|どく}ヘビ⟦に→に：00314_ni⟧⟦{噛|か}まれた→噛む：01205_kamu⟧⟦{患者|かんじゃ}→患者：00170_kanja⟧⟦に→に：00314_ni⟧、⟦すぐ→すぐ：00814_sugu⟧⟦に→に：00314_ni⟧{解毒|げどく}{剤|ざい}⟦が→が：00051_ga⟧⟦{使|つか}われた→使う：00473_tsukau⟧。",
       "english": "An antidote was immediately used on the patient who was bitten by a venomous snake.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,26 @@
       ]
     }
   ],
-  "notes": "{解毒|げどく} refers to the process of neutralizing or removing toxic substances, or to a substance (antidote) that accomplishes this.\n\nCOMMON COLLOCATIONS:\n- {解毒|げどく}{剤|ざい} (antidote)\n- {解毒|げどく}{作用|さよう} (detoxifying action)\n- {解毒|げどく}{方法|ほうほう} (detoxification method)\n\nThe word is used in both medical and everyday contexts. In medical settings, it often refers to clinical detoxification procedures, while in everyday use it can refer to general concepts of cleansing the body of harmful substances.",
-  "cross_references": [],
+  "notes": "{解毒|げどく} refers to the process of neutralizing or removing toxic substances, or to a substance (antidote) that accomplishes this.\n\nCOMMON COLLOCATIONS:\n- {解毒|げどく}{剤|ざい} (antidote)\n- {解毒|げどく}⟦{作用|さよう}→作用：05761_sayou⟧ (detoxifying action)\n- {解毒|げどく}⟦{方法|ほうほう}→方法：03621_houhou⟧ (detoxification method)\n\nThe word is used in both medical and everyday contexts. In medical settings, it often refers to clinical detoxification procedures, while in everyday use it can refer to general concepts of cleansing the body of harmful substances.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "19081_moudoku",
+      "reading": "もうどく",
+      "headword": "{猛毒|もうどく}",
+      "label": "deadly poison"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23429_genetsu",
+      "reading": "げねつ",
+      "headword": "{解熱|げねつ}",
+      "label": "lowering a fever"
+    }
+  ],
   "metadata": {
     "created": "2026-02-28T07:51:33Z",
-    "modified": "2026-03-29T03:08:18Z",
+    "modified": "2026-09-02T04:01:36Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

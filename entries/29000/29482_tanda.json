@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29482_tanda_ex1",
-      "japanese": "{単打|たんだ}を{打|う}つ。",
+      "japanese": "{単打|たんだ}⟦を→を：00422_wo⟧⟦{打|う}つ→打つ：01221_utsu⟧。",
       "english": "Hit a single.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29482_tanda_ex2",
-      "japanese": "{彼|かれ}は{今日|きょう}{二本|にほん}の{単打|たんだ}を{放|はな}った。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{今日|きょう}→今日：00496_kyou⟧{二本|にほん}⟦の→の：09472_no⟧{単打|たんだ}⟦を→を：00422_wo⟧⟦{放|はな}った→放つ：10062_hanatsu⟧。",
       "english": "He hit two singles today.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29482_tanda_ex3",
-      "japanese": "{満塁|まんるい}の{場面|ばめん}で{単打|たんだ}が{出|で}て、{二点|にてん}{入|はい}った。",
+      "japanese": "{満塁|まんるい}⟦の→の：09472_no⟧⟦{場面|ばめん}→場面：03702_bamen⟧⟦で→で：00502_de⟧{単打|たんだ}⟦が→が：00051_ga⟧⟦{出|で}て→出る：00513_deru⟧、{二点|にてん}⟦{入|はい}った→入る：00494_hairu⟧。",
       "english": "With the bases loaded, a single came and two runs scored.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "A baseball term for a hit that gets the batter only as far as first base.\n\nCOMMON COLLOCATIONS:\n- {単打|たんだ}を{打|う}つ: to hit a single\n- {単打|たんだ}を{放|はな}つ: to rap out a single\n\nSIMILAR WORDS:\n- {長打|ちょうだ}: extra-base hit — a double, triple, or home run, the opposite of a single\n- {安打|あんだ}: base hit — any hit, including singles and extra-base hits",
+  "notes": "A baseball term for a hit that gets the batter only as far as first base.\n\nCOMMON COLLOCATIONS:\n- {単打|たんだ}⟦を→を：00422_wo⟧⟦{打|う}つ→打つ：01221_utsu⟧: to hit a single\n- {単打|たんだ}⟦を→を：00422_wo⟧⟦{放|はな}つ→放つ：10062_hanatsu⟧: to rap out a single\n\nSIMILAR WORDS:\n- ⟦{長打|ちょうだ}→長打：29466_chouda⟧: extra-base hit — a double, triple, or home run, the opposite of a single\n- ⟦{安打|あんだ}→安打：19717_anda⟧: base hit — any hit, including singles and extra-base hits",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "29466_chouda",
+      "reading": "ちょうだ",
+      "headword": "{長打|ちょうだ}",
+      "label": "extra-base hit"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19717_anda",
+      "reading": "あんだ",
+      "headword": "{安打|あんだ}",
+      "label": "base hit"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +69,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "sports"
       ],
       "domain": []
     },
     "created": "2026-06-25T18:22:26Z",
-    "modified": "2026-06-25T18:22:26Z"
+    "modified": "2026-09-02T04:02:37Z"
   }
 }

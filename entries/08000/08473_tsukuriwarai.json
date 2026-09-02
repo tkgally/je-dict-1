@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08473_tsukuriwarai_ex1",
-      "japanese": "{作|つく}り{笑|わら}いをする。",
+      "japanese": "{作|つく}り{笑|わら}い⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧。",
       "english": "To put on a fake smile.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "08473_tsukuriwarai_ex2",
-      "japanese": "あの{笑顔|えがお}は{作|つく}り{笑|わら}いだと{分|わ}かる。",
+      "japanese": "⟦あの→あの：00915_ano⟧⟦{笑顔|えがお}→笑顔：01884_egao⟧⟦は→は：00079_ha⟧{作|つく}り{笑|わら}いだ⟦と→と：00512_to⟧⟦{分|わ}かる→分かる：00463_wakaru⟧。",
       "english": "I can tell that smile is fake.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "08473_tsukuriwarai_ex3",
-      "japanese": "{本心|ほんしん}を{隠|かく}して{作|つく}り{笑|わら}いで{乗|の}り{切|き}った。",
+      "japanese": "⟦{本心|ほんしん}→本心：12864_honshin⟧⟦を→を：00422_wo⟧⟦{隠|かく}して→隠す：02034_kakusu⟧{作|つく}り{笑|わら}い⟦で→で：00502_de⟧⟦{乗|の}り{切|き}った→乗り切る：11410_norikiru⟧。",
       "english": "I hid my true feelings and got through it with a fake smile.",
       "sense_numbers": [
         1
@@ -43,7 +43,51 @@
       "notes": null
     }
   ],
-  "notes": "COMPOUND:\n{作|つく}る (to make, create) + {笑|わら}い (smile, laugh)\nLiterally \"manufactured smile.\"\n\nNUANCE:\nCan be used neutrally (social necessity) or negatively (insincerity). Context determines:\n- Neutral: Smiling professionally or to be polite\n- Negative: Being fake or deceptive\n\nCOMMON PATTERNS:\n- {作|つく}り{笑|わら}いをする - to fake a smile\n- {作|つく}り{笑|わら}いを{浮|う}かべる - to wear a fake smile\n- {作|つく}り{笑|わら}いで{誤魔化|ごまか}す - to cover up with a fake smile\n\nRELATED:\n- {愛想笑|あいそうわら}い - polite/social smile\n- {営業|えいぎょう}スマイル - customer service smile\n- {嘘泣|うそな}き - fake crying\n- {薄笑|うすわら}い - smirk",
+  "notes": "COMPOUNDS:\n⟦{作|つく}る→作る：00481_tsukuru⟧ (to make, create) + ⟦{笑|わら}い→笑い：02641_warai⟧ (smile, laugh)\nLiterally \"manufactured smile.\"\n\nUSAGE:\nCan be used neutrally (social necessity) or negatively (insincerity). Context determines:\n- Neutral: Smiling professionally or to be polite\n- Negative: Being fake or deceptive\n\nCOMMON PATTERNS:\n- {作|つく}り{笑|わら}い⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧ - to fake a smile\n- {作|つく}り{笑|わら}い⟦を→を：00422_wo⟧⟦{浮|う}かべる→浮かべる：13314_ukaberu⟧ - to wear a fake smile\n- {作|つく}り{笑|わら}い⟦で→で：00502_de⟧⟦{誤魔化|ごまか}す→誤魔化す：14212_gomakasu⟧ - to cover up with a fake smile\n\nRELATED WORDS:\n- ⟦{愛想笑|あいそうわら}い→愛想笑い：08358_aisouwarai⟧ - polite/social smile\n- ⟦{営業|えいぎょう}スマイル→営業スマイル：22327_eigyousumairu⟧ - customer service smile\n- ⟦{嘘泣|うそな}き→嘘泣き：08463_usonaki⟧ - fake crying\n- ⟦{薄笑|うすわら}い→薄笑い：08455_usuwarai⟧ - smirk",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "08358_aisouwarai",
+      "reading": "あいそうわらい",
+      "headword": "{愛想笑|あいそうわら}い",
+      "label": "polite/social smile"
+    },
+    {
+      "type": "related",
+      "target_id": "22327_eigyousumairu",
+      "reading": "えいぎょうすまいる",
+      "headword": "{営業|えいぎょう}スマイル",
+      "label": "customer service smile"
+    },
+    {
+      "type": "related",
+      "target_id": "08463_usonaki",
+      "reading": "うそなき",
+      "headword": "{嘘泣|うそな}き",
+      "label": "fake crying"
+    },
+    {
+      "type": "related",
+      "target_id": "08455_usuwarai",
+      "reading": "うすわらい",
+      "headword": "{薄笑|うすわら}い",
+      "label": "smirk"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16649_aisowarai",
+      "reading": "あいそわらい",
+      "headword": "{愛想笑|あいそわら}い",
+      "label": "forced smile"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20846_usowarai",
+      "reading": "うそわらい",
+      "headword": "{嘘笑|うそわら}い",
+      "label": "fake smile"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -51,12 +95,13 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "emotion",
         "expression"
       ]
     },
     "created": "2026-01-27T03:47:32Z",
-    "modified": "2026-06-22T12:50:00Z"
+    "modified": "2026-09-02T04:01:15Z"
   }
 }

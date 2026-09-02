@@ -3,7 +3,7 @@
   "headword": "{愛想|あいそ}を{尽|つ}かす",
   "reading": "あいそをつかす",
   "romaji": "aisowotsukasu",
-  "part_of_speech": "expression / verb (godan)",
+  "part_of_speech": "expression, verb (godan)",
   "gloss": "to be fed up with; to lose patience with",
   "conjugation": {
     "type": "godan",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "19530_aisowotsukasu_ex1",
-      "japanese": "{彼女|かのじょ}に{愛想|あいそ}を{尽|つ}かされた。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦に→に：00314_ni⟧{愛想|あいそ}を{尽|つ}かされた。",
       "english": "She got fed up with me.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "19530_aisowotsukasu_ex2",
-      "japanese": "{何度|なんど}{約束|やくそく}を{破|やぶ}っても{変|か}わらないので、{愛想|あいそ}を{尽|つ}かした。",
+      "japanese": "⟦{何度|なんど}→何度：17592_nando⟧⟦{約束|やくそく}を{破|やぶ}って→約束を破る：20639_yakusokuwoyaburu⟧⟦も→も：00484_mo⟧⟦{変|か}わらない→変わる：00714_kawaru⟧⟦の→の：09472_no⟧で、{愛想|あいそ}を{尽|つ}かした。",
       "english": "He kept breaking promises and never changed, so I gave up on him.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "19530_aisowotsukasu_ex3",
-      "japanese": "{社員|しゃいん}たちは{会社|かいしゃ}の{対応|たいおう}に{愛想|あいそ}を{尽|つ}かして、{次々|つぎつぎ}と{辞|や}めていった。",
+      "japanese": "⟦{社員|しゃいん}→社員：03065_shain⟧たち⟦は→は：00079_ha⟧⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦の→の：09472_no⟧⟦{対応|たいおう}→対応：02510_taiou⟧⟦に→に：00314_ni⟧{愛想|あいそ}を{尽|つ}かして、⟦{次々|つぎつぎ}→次々：03522_tsugitsugi⟧⟦と→と：00512_to⟧{辞|や}めていった。",
       "english": "The employees lost patience with the company's handling of things and quit one after another.",
       "sense_numbers": [
         1
@@ -134,8 +134,31 @@
       "notes": null
     }
   ],
-  "notes": "Literally 'to exhaust one's goodwill.' {愛想|あいそ} means friendliness or amiability, and {尽|つ}かす means to exhaust or use up completely. When someone {愛想|あいそ}を{尽|つ}かす, they have run out of all patience and goodwill.\n\nGRAMMAR:\nThe person one is fed up with is marked by に: ～に{愛想|あいそ}を{尽|つ}かす. The passive form {愛想|あいそ}を{尽|つ}かされる ('to have someone give up on you') is very common.\n\nVARIANTS:\n- {愛想|あいそう}を{尽|つ}かす — variant pronunciation with long vowel\n- {愛想|あいそ}{尽|づ}かし — the noun form meaning 'being fed up'\n\nSIMILAR WORDS:\n- うんざりする — to be fed up, sick of; more casual, can apply to situations as well as people\n- {見限|みかぎ}る — to give up on someone; implies abandoning someone as hopeless\n- {呆|あき}れる — to be exasperated; focuses on shock/disbelief at someone's behavior",
+  "notes": "Literally 'to exhaust one's goodwill.' ⟦{愛想|あいそ}→愛想：12699_aiso⟧ means friendliness or amiability, and {尽|つ}かす means to exhaust or use up completely. When someone {愛想|あいそ}を{尽|つ}かす, they have run out of all patience and goodwill.\n\nCOMMON PATTERNS:\nThe person one is fed up with is marked by ⟦に→に：00314_ni⟧: ～⟦に→に：00314_ni⟧{愛想|あいそ}を{尽|つ}かす. The passive form {愛想|あいそ}を{尽|つ}かされる ('to have someone give up on you') is very common.\n\nFORMS:\n- {愛想|あいそう}を{尽|つ}かす — variant pronunciation with long vowel\n- ⟦{愛想|あいそ}→愛想：12699_aiso⟧{尽|づ}かし — the noun form meaning 'being fed up'\n\nSIMILAR WORDS:\n- ⟦うんざりする→うんざりする：20665_unzarisuru⟧ — to be fed up, sick of; more casual, can apply to situations as well as people\n- {見限|みかぎ}る — to give up on someone; implies abandoning someone as hopeless\n- ⟦{呆|あき}れる→呆れる：06720_akireru⟧ — to be exasperated; focuses on shock/disbelief at someone's behavior",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20665_unzarisuru",
+      "reading": "うんざりする",
+      "headword": "うんざりする",
+      "label": "to be fed up, sick of"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06720_akireru",
+      "reading": "あきれる",
+      "headword": "{呆|あき}れる",
+      "label": "to be exasperated"
+    },
+    {
+      "type": "related",
+      "target_id": "22686_aisogawarui",
+      "reading": "あいそがわるい",
+      "headword": "{愛想|あいそ}が{悪|わる}い",
+      "label": "unsociable"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -152,6 +175,6 @@
       ]
     },
     "created": "2026-03-26T04:18:22Z",
-    "modified": "2026-07-26T21:31:07Z"
+    "modified": "2026-09-02T04:01:56Z"
   }
 }

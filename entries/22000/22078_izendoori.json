@@ -3,7 +3,7 @@
   "headword": "{以前|いぜん}{通|どお}り",
   "reading": "いぜんどおり",
   "romaji": "izendoori",
-  "part_of_speech": "expression",
+  "part_of_speech": "expression, adverb",
   "gloss": "as before; as previously; same as before",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22078_izendoori_ex1",
-      "japanese": "{以前|いぜん}{通|どお}り{続|つづ}けてください。",
+      "japanese": "{以前|いぜん}{通|どお}り⟦{続|つづ}け→続く：00903_tsuzuku⟧て⟦ください→ください：02899_kudasai⟧。",
       "english": "Please continue as before.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22078_izendoori_ex2",
-      "japanese": "{病気|びょうき}の{後|あと}も{以前|いぜん}{通|どお}りの{生活|せいかつ}に{戻|もど}れた。",
+      "japanese": "⟦{病気|びょうき}→病気：00771_byouki⟧⟦の→の：09472_no⟧⟦{後|あと}→後：09580_ato⟧⟦も→も：00484_mo⟧{以前|いぜん}{通|どお}り⟦の→の：09472_no⟧⟦{生活|せいかつ}→生活：01443_seikatsu⟧⟦に→に：00314_ni⟧⟦{戻|もど}れた→戻る：01117_modoru⟧。",
       "english": "After the illness, I was able to return to my life as before.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22078_izendoori_ex3",
-      "japanese": "{改装|かいそう}{工事|こうじ}{中|ちゅう}ですが、{営業|えいぎょう}は{以前|いぜん}{通|どお}り{行|おこな}っております。",
+      "japanese": "⟦{改装|かいそう}→改装：09682_kaisou⟧⟦{工事|こうじ}{中|ちゅう}→工事中：09625_koujichuu⟧です⟦が→が：00051_ga⟧、⟦{営業|えいぎょう}→営業：01878_eigyou⟧⟦は→は：00079_ha⟧{以前|いぜん}{通|どお}り⟦{行|おこな}って→行う：01238_okonau⟧⟦おります→おる：01324_oru⟧。",
       "english": "We are under renovation, but business is operating as before.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "A combination of {以前|いぜん} (before, previously) and {通|どお}り (as, in accordance with). Used to indicate that something continues or should continue in the same way as it was before a change or event. Slightly more formal than {今|いま}まで{通|どお}り.\n\nCOMMON PATTERNS:\n- {以前|いぜん}{通|どお}り + verb: to do something as before\n- {以前|いぜん}{通|どお}りの + noun: the same ~ as before\n- {以前|いぜん}{通|どお}りに: in the same manner as before\n\nSIMILAR WORDS:\n- {今|いま}まで{通|どお}り — as usual; as before (more everyday/casual)\n- {従来|じゅうらい}{通|どお}り — as conventionally done; as has been the case (more formal/institutional)\n- {相変|あいか}わらず — as always; same as ever (can imply mild exasperation)",
+  "notes": "A combination of ⟦{以前|いぜん}→以前：01790_izen⟧ (before, previously) and {通|どお}り (as, in accordance with). Used to indicate that something continues or should continue in the same way as it was before a change or event. Slightly more formal than ⟦{今|いま}まで{通|どお}り→今まで通り：22079_imamadedoori⟧.\n\nCOMMON PATTERNS:\n- {以前|いぜん}{通|どお}り + verb: to do something as before\n- {以前|いぜん}{通|どお}り⟦の→の：09472_no⟧ + noun: the same ~ as before\n- {以前|いぜん}{通|どお}り⟦に→に：00314_ni⟧: in the same manner as before\n\nSIMILAR WORDS:\n- ⟦{今|いま}まで{通|どお}り→今まで通り：22079_imamadedoori⟧ — as usual; as before (more everyday/casual)\n- ⟦{従来|じゅうらい}{通|どお}り→従来通り：15458_juuraidoori⟧ — as conventionally done; as has been the case (more formal/institutional)\n- ⟦{相変|あいか}わらず→相変わらず：01671_aikawarazu⟧ — as always; same as ever (can imply mild exasperation)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22079_imamadedoori",
+      "reading": "いままでどおり",
+      "headword": "{今|いま}まで{通|どお}り",
+      "label": "as usual"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15458_juuraidoori",
+      "reading": "じゅうらいどおり",
+      "headword": "{従来通|じゅうらいどお}り",
+      "label": "as conventionally done"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01671_aikawarazu",
+      "reading": "あいかわらず",
+      "headword": "{相変|あいか}わらず",
+      "label": "as always"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,12 +76,13 @@
         "expression",
         "adverb"
       ],
+      "politeness": "plain",
       "semantic": [
         "time-general"
       ],
       "usage_context": []
     },
     "created": "2026-04-04T22:21:37Z",
-    "modified": "2026-07-30T03:35:34Z"
+    "modified": "2026-09-02T04:02:06Z"
   }
 }

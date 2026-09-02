@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "20335_wakasa_ex1",
-      "japanese": "{若|わか}さの{秘訣|ひけつ}は{何|なん}ですか。",
+      "japanese": "{若|わか}さ⟦の→の：09472_no⟧⟦{秘訣|ひけつ}→秘訣：13750_hiketsu⟧⟦は→は：00079_ha⟧⟦{何|なん}→何〜：03100_nan⟧です⟦か→か：09473_ka⟧。",
       "english": "What is the secret to your youthfulness?",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "20335_wakasa_ex2",
-      "japanese": "{若|わか}さゆえの{失敗|しっぱい}もある。",
+      "japanese": "{若|わか}さゆえ⟦の→の：09472_no⟧⟦{失敗|しっぱい}→失敗：01636_shippai⟧⟦も→も：00484_mo⟧⟦ある→ある：00006_aru⟧。",
       "english": "There are also mistakes that come from being young.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "20335_wakasa_ex3",
-      "japanese": "{若|わか}さを{保|たも}つためには、{適度|てきど}な{運動|うんどう}と{十分|じゅうぶん}な{睡眠|すいみん}が{大切|たいせつ}だ。",
+      "japanese": "{若|わか}さ⟦を→を：00422_wo⟧⟦{保|たも}つ→保つ：10134_tamotsu⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧、⟦{適度|てきど}→適度：03441_tekido⟧な⟦{運動|うんどう}→運動：00821_undou⟧⟦と→と：00512_to⟧⟦{十分|じゅうぶん}→十分：01614_juubun⟧な⟦{睡眠|すいみん}→睡眠：03359_suimin⟧⟦が→が：00051_ga⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧だ。",
       "english": "To maintain youthfulness, moderate exercise and sufficient sleep are important.",
       "sense_numbers": [
         1
@@ -43,8 +43,24 @@
       "notes": null
     }
   ],
-  "notes": "The noun form of {若|わか}い (young), formed with the suffix 〜さ which converts い-adjectives into abstract nouns. This pattern is productive: {強|つよ}さ (strength), {優|やさ}しさ (kindness), etc.\n\nCOMMON COLLOCATIONS:\n- {若|わか}さを{保|たも}つ: to maintain youthfulness\n- {若|わか}さの{秘訣|ひけつ}: the secret to youthfulness\n- {若|わか}さゆえ: because of youth\n- {若|わか}さあふれる: brimming with youth\n\nUSAGE:\n{若|わか}さ can be viewed positively (vitality, energy, beauty) or with a tinge of condescension ({若|わか}さゆえの{過|あやま}ち — mistakes due to youth). The expression {若|わか}さを{保|たも}つ is very common in health, beauty, and lifestyle contexts.",
+  "notes": "The noun form of {若|わか}い (young), formed with the suffix 〜さ which converts い-adjectives into abstract nouns. This pattern is productive: ⟦{強|つよ}さ→強さ：25692_tsuyosa⟧ (strength), {優|やさ}しさ (kindness), etc.\n\nCOMMON COLLOCATIONS:\n- {若|わか}さ⟦を→を：00422_wo⟧⟦{保|たも}つ→保つ：10134_tamotsu⟧: to maintain youthfulness\n- {若|わか}さ⟦の→の：09472_no⟧⟦{秘訣|ひけつ}→秘訣：13750_hiketsu⟧: the secret to youthfulness\n- {若|わか}さゆえ: because of youth\n- {若|わか}さあふれる: brimming with youth\n\nUSAGE:\n{若|わか}さ can be viewed positively (vitality, energy, beauty) or with a tinge of condescension ({若|わか}さゆえ⟦の→の：09472_no⟧⟦{過|あやま}ち→過ち：14376_ayamachi⟧ — mistakes due to youth). The expression {若|わか}さ⟦を→を：00422_wo⟧⟦{保|たも}つ→保つ：10134_tamotsu⟧ is very common in health, beauty, and lifestyle contexts.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14613_seishun",
+      "reading": "せいしゅん",
+      "headword": "{青春|せいしゅん}",
+      "label": "youth"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27926_osanasa",
+      "reading": "おさなさ",
+      "headword": "{幼|おさな}さ",
+      "label": "childishness"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +75,6 @@
       ]
     },
     "created": "2026-03-28T21:15:17Z",
-    "modified": "2026-07-28T00:51:36Z"
+    "modified": "2026-09-02T04:01:59Z"
   }
 }

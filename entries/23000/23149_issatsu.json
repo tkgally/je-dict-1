@@ -15,40 +15,60 @@
   "examples": [
     {
       "id": "23149_issatsu_ex1",
-      "japanese": "{本|ほん}を{一冊|いっさつ}{買|か}った。",
+      "japanese": "{本|ほん}⟦を→を：00422_wo⟧{一冊|いっさつ}⟦{買|か}った→買う：00489_kau⟧。",
       "english": "I bought one book.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "23149_issatsu_ex2",
-      "japanese": "この{棚|たな}に{一冊|いっさつ}だけ{残|のこ}っていた。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{棚|たな}→棚：01650_tana⟧⟦に→に：00314_ni⟧{一冊|いっさつ}⟦だけ→〜だけ：03093_dake⟧⟦{残|のこ}っていた→残る：01187_nokoru⟧。",
       "english": "Only one copy remained on this shelf.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "23149_issatsu_ex3",
-      "japanese": "{夏休|なつやす}みに{一冊|いっさつ}でも{多|おお}く{本|ほん}を{読|よ}みたい。",
+      "japanese": "⟦{夏休|なつやす}み→夏休み：02925_natsuyasumi⟧⟦に→に：00314_ni⟧{一冊|いっさつ}⟦で→で：00502_de⟧⟦も→も：00484_mo⟧⟦{多|おお}く→多い：01127_ooi⟧{本|ほん}⟦を→を：00422_wo⟧⟦{読|よ}みたい→読む：00426_yomu⟧。",
       "english": "I want to read as many books as possible during summer vacation.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "The counter {冊|さつ} is one of the most commonly used Japanese counters. It counts bound printed materials: books, magazines, notebooks, manga volumes, etc.\n\nCOUNTING PATTERN:\n- {一冊|いっさつ} (1) — note the っ sound change\n- {二冊|にさつ} (2)\n- {三冊|さんさつ} (3)\n- {四冊|よんさつ} (4)\n- {五冊|ごさつ} (5)\n- {六冊|ろくさつ} (6)\n- {七冊|ななさつ} (7)\n- {八冊|はっさつ} (8) — note the っ sound change\n- {九冊|きゅうさつ} (9)\n- {十冊|じゅっさつ} (10) — note the っ sound change\n- {何冊|なんさつ}: how many books?\n\nUSAGE:\nApplies to any bound publication including {本|ほん} (books), {雑誌|ざっし} (magazines), {漫画|まんが} (manga), {辞書|じしょ} (dictionaries), ノート (notebooks), {手帳|てちょう} (planners).\n\nSIMILAR WORDS:\n- {一部|いちぶ}: one copy — used for documents, reports, and forms rather than bound books\n- {一巻|いっかん}: one volume/scroll — used for scrolls, serial publications, and multi-volume sets",
+  "notes": "The counter ⟦{冊|さつ}→〜冊：00666_satsu⟧ is one of the most commonly used Japanese counters. It counts bound printed materials: books, magazines, notebooks, manga volumes, etc.\n\nCOUNTING PATTERNS:\n- {一冊|いっさつ} (1) — note the っ sound change\n- {二冊|にさつ} (2)\n- {三冊|さんさつ} (3)\n- {四冊|よんさつ} (4)\n- {五冊|ごさつ} (5)\n- {六冊|ろくさつ} (6)\n- {七冊|ななさつ} (7)\n- {八冊|はっさつ} (8) — note the っ sound change\n- {九冊|きゅうさつ} (9)\n- {十冊|じゅっさつ} (10) — note the っ sound change\n- ⟦{何冊|なんさつ}→何冊：08778_nansatsu⟧: how many books?\n\nUSAGE:\nApplies to any bound publication including {本|ほん} (books), ⟦{雑誌|ざっし}→雑誌：00686_zasshi⟧ (magazines), ⟦{漫画|まんが}→漫画：01511_manga⟧ (manga), ⟦{辞書|じしょ}→辞書：04707_jisho⟧ (dictionaries), ⟦ノート→ノート：00738_nooto⟧ (notebooks), ⟦{手帳|てちょう}→手帳：04537_techou⟧ (planners).\n\nSIMILAR WORDS:\n- ⟦{一部|いちぶ}→一部：06783_ichibu⟧: one copy — used for documents, reports, and forms rather than bound books\n- {一巻|いっかん}: one volume/scroll — used for scrolls, serial publications, and multi-volume sets",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06783_ichibu",
+      "reading": "いちぶ",
+      "headword": "{一部|いちぶ}",
+      "label": "one copy"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "counter"],
+      "pos": [
+        "noun",
+        "counter"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["quantity"]
+      "semantic": [
+        "quantity"
+      ]
     },
     "created": "2026-04-08T20:33:44Z",
-    "modified": "2026-04-08T20:33:44Z"
+    "modified": "2026-09-02T04:02:11Z"
   }
 }

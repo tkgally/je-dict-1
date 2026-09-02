@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "12747_senshi_ex1",
-      "japanese": "{勇敢|ゆうかん}な{戦士|せんし}たち。",
+      "japanese": "⟦{勇敢|ゆうかん}→勇敢：07637_yuukan⟧な{戦士|せんし}たち。",
       "english": "Brave warriors.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "12747_senshi_ex2",
-      "japanese": "{彼|かれ}は{平和|へいわ}のために{戦|たたか}う{戦士|せんし}だ。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{平和|へいわ}→平和：01507_heiwa⟧⟦の→の：09472_no⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧⟦{戦|たたか}う→戦う：02071_tatakau⟧{戦士|せんし}だ。",
       "english": "He is a warrior who fights for peace.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "12747_senshi_ex3",
-      "japanese": "ゲームで{最強|さいきょう}の{戦士|せんし}を{育|そだ}てるのが{楽|たの}しい。",
+      "japanese": "⟦ゲーム→ゲーム：03842_geemu⟧⟦で→で：00502_de⟧⟦{最強|さいきょう}→最強：13073_saikyou⟧⟦の→の：09472_no⟧{戦士|せんし}⟦を→を：00422_wo⟧⟦{育|そだ}てる→育てる：01235_sodateru⟧⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦{楽|たの}しい→楽しい：00817_tanoshii⟧。",
       "english": "It's fun to raise the strongest warrior in a game.",
       "notes": "Common usage in RPGs and fantasy contexts.",
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "{戦士|せんし} means warrior or fighter. It has a heroic or noble connotation and is widely used in fiction, games, and figurative speech.\n\nCOMMON COLLOCATIONS:\n- {勇敢|ゆうかん}な{戦士|せんし}: brave warrior\n- {最強|さいきょう}の{戦士|せんし}: strongest warrior\n- {孤独|こどく}な{戦士|せんし}: lone warrior\n\nNOTE ON HOMOPHONE:\n- {戦死|せんし} (same reading) means 'death in battle' — a completely different word.\n\nSIMILAR WORDS:\n- {兵士|へいし}: soldier (emphasizes military rank)\n- {武士|ぶし}: samurai, warrior (historical, Japanese)\n- {闘士|とうし}: fighter, champion (emphasizes fighting spirit)",
+  "notes": "{戦士|せんし} means warrior or fighter. It has a heroic or noble connotation and is widely used in fiction, games, and figurative speech.\n\nCOMMON COLLOCATIONS:\n- ⟦{勇敢|ゆうかん}→勇敢：07637_yuukan⟧な{戦士|せんし}: brave warrior\n- ⟦{最強|さいきょう}→最強：13073_saikyou⟧⟦の→の：09472_no⟧{戦士|せんし}: strongest warrior\n- ⟦{孤独|こどく}→孤独：04843_kodoku⟧な{戦士|せんし}: lone warrior\n\nNOTE ON HOMOPHONE:\n- ⟦{戦死|せんし}→戦死：12979_senshi⟧ (same reading) means 'death in battle' — a completely different word.\n\nSIMILAR WORDS:\n- ⟦{兵士|へいし}→兵士：11680_heishi⟧: soldier (emphasizes military rank)\n- ⟦{武士|ぶし}→武士：03989_bushi⟧: samurai, warrior (historical, Japanese)\n- {闘士|とうし}: fighter, champion (emphasizes fighting spirit)",
   "cross_references": [
     {
       "type": "synonym",
@@ -59,11 +59,18 @@
       "reading": "ぶし",
       "headword": "{武士|ぶし}",
       "label": "samurai (historical)"
+    },
+    {
+      "type": "related",
+      "target_id": "02071_tatakau",
+      "reading": "たたかう",
+      "headword": "{戦|たたか}う",
+      "label": "to fight, to battle, to struggle"
     }
   ],
   "metadata": {
     "created": "2026-02-22T09:59:05Z",
-    "modified": "2026-07-08T17:24:36Z",
+    "modified": "2026-09-02T04:01:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

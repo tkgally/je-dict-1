@@ -3,7 +3,7 @@
   "headword": "{盗|ぬす}み{見|み}",
   "reading": "ぬすみみ",
   "romaji": "nusumimi",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "peeking; sneaking a look; stealing a glance",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26023_nusumimi_ex1",
-      "japanese": "{答|こた}えを{盗|ぬす}み{見|み}した。",
+      "japanese": "⟦{答|こた}え→答え：00790_kotae⟧⟦を→を：00422_wo⟧{盗|ぬす}み{見|み}⟦した→する：00392_suru⟧。",
       "english": "I sneaked a peek at the answer.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26023_nusumimi_ex2",
-      "japanese": "{隣|となり}の{人|ひと}のスマホを{盗|ぬす}み{見|み}するのはよくない。",
+      "japanese": "⟦{隣|となり}→隣：01003_tonari⟧⟦の→の：09472_no⟧⟦{人|ひと}→人：00476_hito⟧⟦の→の：09472_no⟧⟦スマホ→スマホ：04721_sumaho⟧⟦を→を：00422_wo⟧{盗|ぬす}み{見|み}⟦する→する：00392_suru⟧⟦の→の：09472_no⟧⟦は→は：00079_ha⟧⟦よくない→いい：00118_ii⟧。",
       "english": "It's not good to peek at someone else's phone.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26023_nusumimi_ex3",
-      "japanese": "{彼|かれ}は{日記|にっき}を{盗|ぬす}み{見|み}されたことに{気|き}づいた。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{日記|にっき}→日記：01486_nikki⟧⟦を→を：00422_wo⟧{盗|ぬす}み{見|み}⟦された→する：00392_suru⟧こと⟦に→に：00314_ni⟧{気|き}づいた。",
       "english": "He realized that someone had been secretly reading his diary.",
       "sense_numbers": [
         1
@@ -44,13 +44,27 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {盗|ぬす}む (to steal) + {見|み} (looking). Functions as both a noun and a verb with する. The word implies deliberate, secretive looking and carries a negative connotation of violating someone's privacy.\n\nCOMMON COLLOCATIONS:\n- {盗|ぬす}み{見|み}する: to peek; to sneak a look\n- {盗|ぬす}み{見|み}される: to have someone peek (at your things)\n- {答|こた}えを{盗|ぬす}み{見|み}する: to sneak a peek at the answer\n\nSIMILAR WORDS:\n- {覗|のぞ}き{見|み}: peeking; spying — similar meaning but emphasizes peering in from outside or through an opening\n- ちらっと{見|み}る: to glance — a quick, often casual look without the secretive intent\n- {盗|ぬす}み{聞|ぎ}き: eavesdropping — the auditory equivalent (secretly listening)",
+  "notes": "Composed of ⟦{盗|ぬす}む→盗む：01166_nusumu⟧ (to steal) + ⟦{見|み}→見る：00283_miru⟧ (looking). Functions as both a noun and a verb with ⟦する→する：00392_suru⟧. The word implies deliberate, secretive looking and carries a negative connotation of violating someone's privacy.\n\nCOMMON COLLOCATIONS:\n- {盗|ぬす}み{見|み}⟦する→する：00392_suru⟧: to peek; to sneak a look\n- {盗|ぬす}み{見|み}⟦される→する：00392_suru⟧: to have someone peek (at your things)\n- ⟦{答|こた}え→答え：00790_kotae⟧⟦を→を：00422_wo⟧{盗|ぬす}み{見|み}⟦する→する：00392_suru⟧: to sneak a peek at the answer\n\nSIMILAR WORDS:\n- ⟦{覗|のぞ}き{見|み}→覗き見：26024_nozokimi⟧: peeking; spying — similar meaning but emphasizes peering in from outside or through an opening\n- ちらっ⟦と→と：00512_to⟧⟦{見|み}る→見る：00283_miru⟧: to glance — a quick, often casual look without the secretive intent\n- ⟦{盗|ぬす}み{聞|ぎ}き→盗み聞き：21426_nusumigiki⟧: eavesdropping — the auditory equivalent (secretly listening)",
   "cross_references": [
     {
       "type": "synonym",
       "target_id": "26024_nozokimi",
       "reading": "のぞきみ",
       "label": "emphasizes peering in"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21426_nusumigiki",
+      "reading": "ぬすみぎき",
+      "headword": "{盗|ぬす}み{聞|ぎ}き",
+      "label": "eavesdropping"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23763_nozoki",
+      "reading": "のぞき",
+      "headword": "{覗|のぞ}き",
+      "label": "peeping"
     }
   ],
   "schema_version": "2.0",
@@ -61,13 +75,15 @@
         "noun",
         "verb-suru"
       ],
+      "politeness": "plain",
       "semantic": [
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-04-28T16:15:00Z",
-    "modified": "2026-04-28T16:15:00Z"
+    "modified": "2026-09-02T04:02:24Z"
   },
   "conjugation": {
     "type": "suru",

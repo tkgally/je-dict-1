@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "23100_kaki_ex1",
-      "japanese": "{花器|かき}に{花|はな}を{生|い}ける。",
+      "japanese": "{花器|かき}⟦に→に：00314_ni⟧⟦{花|はな}→花：00523_hana⟧⟦を→を：00422_wo⟧⟦{生|い}ける→生ける：10667_ikeru⟧。",
       "english": "To arrange flowers in a flower vase.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "23100_kaki_ex2",
-      "japanese": "{陶器|とうき}の{花器|かき}を{買|か}った。",
+      "japanese": "⟦{陶器|とうき}→陶器：14531_touki⟧⟦の→の：09472_no⟧{花器|かき}⟦を→を：00422_wo⟧⟦{買|か}った→買う：00489_kau⟧。",
       "english": "I bought a ceramic flower vase.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "23100_kaki_ex3",
-      "japanese": "{華道|かどう}では、{花器|かき}の{選|えら}び{方|かた}も{大切|たいせつ}な{要素|ようそ}のひとつだ。",
+      "japanese": "⟦{華道|かどう}→華道：04450_kadou⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧、{花器|かき}⟦の→の：09472_no⟧⟦{選|えら}び→選ぶ：00835_erabu⟧⟦{方|かた}→方：10665_kata⟧⟦も→も：00484_mo⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧な⟦{要素|ようそ}→要素：03661_youso⟧⟦の→の：09472_no⟧ひとつだ。",
       "english": "In flower arrangement, the choice of vase is also an important element.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {花|か} (flower) and {器|き} (vessel; container). While {花瓶|かびん} is the everyday word for a flower vase, {花器|かき} is a broader and slightly more formal term that encompasses all types of vessels used for flower arrangement, including those used in {華道|かどう} (ikebana).\n\nCOMMON COLLOCATIONS:\n- {花器|かき}に{生|い}ける: to arrange flowers in a vase\n- {花器|かき}を{選|えら}ぶ: to choose a flower vessel\n- {陶器|とうき}の{花器|かき}: ceramic flower vase\n- {竹|たけ}の{花器|かき}: bamboo flower vase\n\nSIMILAR WORDS:\n- {花瓶|かびん}: flower vase — the everyday word for a vase, more common in general speech\n- {壺|つぼ}: jar; urn — can also be used for flowers, but broader in meaning\n- {器|うつわ}: vessel; container — general term for any dish or container",
+  "notes": "A compound of {花|か} (flower) and {器|き} (vessel; container). While ⟦{花瓶|かびん}→花瓶：02867_kabin⟧ is the everyday word for a flower vase, {花器|かき} is a broader and slightly more formal term that encompasses all types of vessels used for flower arrangement, including those used in ⟦{華道|かどう}→華道：04450_kadou⟧ (ikebana).\n\nCOMMON COLLOCATIONS:\n- {花器|かき}⟦に→に：00314_ni⟧⟦{生|い}け→生きる：01184_ikiru⟧る: to arrange flowers in a vase\n- {花器|かき}⟦を→を：00422_wo⟧⟦{選|えら}ぶ→選ぶ：00835_erabu⟧: to choose a flower vessel\n- ⟦{陶器|とうき}→陶器：14531_touki⟧⟦の→の：09472_no⟧{花器|かき}: ceramic flower vase\n- ⟦{竹|たけ}→竹：02220_take⟧⟦の→の：09472_no⟧{花器|かき}: bamboo flower vase\n\nSIMILAR WORDS:\n- ⟦{花瓶|かびん}→花瓶：02867_kabin⟧: flower vase — the everyday word for a vase, more common in general speech\n- {壺|つぼ}: jar; urn — can also be used for flowers, but broader in meaning\n- ⟦{器|うつわ}→器：11838_utsuwa⟧: vessel; container — general term for any dish or container",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02867_kabin",
+      "reading": "かびん",
+      "headword": "{花瓶|かびん}",
+      "label": "flower vase"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18007_ichirinzashi",
+      "reading": "いちりんざし",
+      "headword": "{一輪挿|いちりんざ}し",
+      "label": "single-flower vase"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +76,6 @@
       ]
     },
     "created": "2026-04-08T18:35:30Z",
-    "modified": "2026-04-10T08:28:27Z"
+    "modified": "2026-09-02T04:02:11Z"
   }
 }

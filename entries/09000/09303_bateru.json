@@ -2,7 +2,7 @@
   "id": "09303_bateru",
   "headword": "バテる",
   "reading": "ばてる",
-  "part_of_speech": "ichidan verb",
+  "part_of_speech": "verb (ichidan)",
   "gloss": "to be exhausted; to be worn out; to be beat",
   "conjugation": {
     "type": "ichidan",
@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "09303_bateru_ex1",
-      "japanese": "もうバテた。",
+      "japanese": "⟦もう→もう：00602_mou⟧バテた。",
       "english": "I'm already exhausted.",
       "has_audio": false,
       "sense_numbers": [
@@ -113,7 +113,7 @@
     },
     {
       "id": "09303_bateru_ex2",
-      "japanese": "{暑|あつ}さでバテている。",
+      "japanese": "⟦{暑|あつ}さ→暑さ：12973_atsusa⟧⟦で→で：00502_de⟧バテて⟦いる→いる：00495_iru⟧。",
       "english": "I'm worn out from the heat.",
       "has_audio": false,
       "sense_numbers": [
@@ -122,7 +122,7 @@
     },
     {
       "id": "09303_bateru_ex3",
-      "japanese": "マラソンの{後半|こうはん}でバテてしまった。",
+      "japanese": "⟦マラソン→マラソン：04732_marason⟧⟦の→の：09472_no⟧⟦{後半|こうはん}→後半：12555_kouhan⟧⟦で→で：00502_de⟧バテてしまった。",
       "english": "I got worn out in the second half of the marathon.",
       "has_audio": false,
       "sense_numbers": [
@@ -130,10 +130,26 @@
       ]
     }
   ],
-  "notes": "バテる may come from \"batter\" (as in exhausting oneself through repeated effort) or from {果|は}てる (to reach the end/be exhausted). It's particularly associated with summer heat exhaustion ({夏|なつ}バテ).\n\nREGISTER:\nThis is a casual/colloquial verb. In formal contexts, use {疲労|ひろう}する or {疲|つか}れ{切|き}る.\n\nCOMMON PATTERNS:\n- {夏|なつ}バテ: summer fatigue/heat exhaustion\n- バテ{気味|ぎみ}: feeling somewhat exhausted\n- バテている: to be in an exhausted state\n\nASPECT (ている):\nバテている indicates an ongoing state of exhaustion.",
+  "notes": "バテる may come from \"batter\" (as in exhausting oneself through repeated effort) or from ⟦{果|は}てる→果てる：28565_hateru⟧ (to reach the end/be exhausted). It's particularly associated with summer heat exhaustion (⟦{夏|なつ}バテ→夏バテ：15545_natsubate⟧).\n\nREGISTER:\nThis is a casual/colloquial verb. In formal contexts, use ⟦{疲労|ひろう}→疲労：13603_hirou⟧⟦する→する：00392_suru⟧ or ⟦{疲|つか}れ→疲れる：00901_tsukareru⟧⟦{切|き}る→切る：02693_kiru⟧.\n\nCOMMON PATTERNS:\n- ⟦{夏|なつ}バテ→夏バテ：15545_natsubate⟧: summer fatigue/heat exhaustion\n- バテ⟦{気味|ぎみ}→気味：27635_gimi⟧: feeling somewhat exhausted\n- バテて⟦いる→いる：00495_iru⟧: to be in an exhausted state\n\nASPECT (ている):\nバテて⟦いる→いる：00495_iru⟧ indicates an ongoing state of exhaustion.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05273_hetoheto",
+      "reading": "へとへと",
+      "headword": "へとへと",
+      "label": "exhausted"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05835_guttari",
+      "reading": "ぐったり",
+      "headword": "ぐったり",
+      "label": "exhausted, limp, worn out"
+    }
+  ],
   "metadata": {
     "created": "2026-02-01T07:09:37Z",
-    "modified": "2026-06-23T15:56:03Z",
+    "modified": "2026-09-02T04:01:17Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
@@ -147,7 +163,8 @@
       "semantic": [
         "health"
       ],
-      "verb_class": "ichidan"
+      "verb_class": "ichidan",
+      "transitivity": "intransitive"
     }
   }
 }

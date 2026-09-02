@@ -3,7 +3,7 @@
   "headword": "{寄進|きしん}",
   "reading": "きしん",
   "romaji": "kishin",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "donation (to a temple or shrine); religious offering",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22850_kishin_ex1",
-      "japanese": "お{寺|てら}に{寄進|きしん}する。",
+      "japanese": "⟦お{寺|てら}→お寺：23515_otera⟧⟦に→に：00314_ni⟧{寄進|きしん}⟦する→する：00392_suru⟧。",
       "english": "To make a donation to a temple.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22850_kishin_ex2",
-      "japanese": "{鳥居|とりい}は{地元|じもと}の{商人|しょうにん}が{寄進|きしん}したものだ。",
+      "japanese": "⟦{鳥居|とりい}→鳥居：05956_torii⟧⟦は→は：00079_ha⟧⟦{地元|じもと}→地元：09941_jimoto⟧⟦の→の：09472_no⟧⟦{商人|しょうにん}→商人：03236_shounin⟧⟦が→が：00051_ga⟧{寄進|きしん}⟦した→する：00392_suru⟧ものだ。",
       "english": "The torii gate was donated by a local merchant.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22850_kishin_ex3",
-      "japanese": "{江戸時代|えどじだい}には{大名|だいみょう}が{寺社|じしゃ}に{多額|たがく}の{寄進|きしん}を{行|おこな}うことが{多|おお}かった。",
+      "japanese": "⟦{江戸時代|えどじだい}→江戸時代：20431_edojidai⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{大名|だいみょう}→大名：10378_daimyou⟧⟦が→が：00051_ga⟧⟦{寺社|じしゃ}→寺社：12645_jisha⟧⟦に→に：00314_ni⟧⟦{多額|たがく}→多額：12309_tagaku⟧⟦の→の：09472_no⟧{寄進|きしん}⟦を→を：00422_wo⟧⟦{行|おこな}う→行う：01238_okonau⟧こと⟦が→が：00051_ga⟧⟦{多|おお}かった→多い：01127_ooi⟧。",
       "english": "In the Edo period, feudal lords often made large donations to temples and shrines.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {寄|き} (to send, to contribute) and {進|しん} (to advance, to present). Specifically refers to donations made to religious institutions — temples and shrines — and is distinct from general charitable giving.\n\nCOMMON COLLOCATIONS:\n- {寄進|きしん}する: to donate (to a temple/shrine)\n- {寄進|きしん}{者|しゃ}: donor (to a temple/shrine)\n- {土地|とち}を{寄進|きしん}する: to donate land\n- {寄進|きしん}{帳|ちょう}: donation register\n\nCULTURAL NOTE:\nDonations to shrines and temples have been an important tradition in Japan. Donors' names are often displayed on stone pillars ({石灯籠|いしどうろう}), plaques, or torii gates at the site, recording their generosity for future generations.\n\nSIMILAR WORDS:\n- {寄付|きふ}: donation — the general term for any charitable donation, not limited to religious contexts\n- {奉納|ほうのう}: offering, dedication — specifically offering something to a deity; more ritualistic\n- {布施|ふせ}: alms — Buddhist term for giving to monks or temples as a religious practice",
+  "notes": "Composed of {寄|き} (to send, to contribute) and {進|しん} (to advance, to present). Specifically refers to donations made to religious institutions — temples and shrines — and is distinct from general charitable giving.\n\nCOMMON COLLOCATIONS:\n- {寄進|きしん}⟦する→する：00392_suru⟧: to donate (to a temple/shrine)\n- {寄進|きしん}⟦{者|しゃ}→〜者：04662_sha⟧: donor (to a temple/shrine)\n- ⟦{土地|とち}→土地：02226_tochi⟧⟦を→を：00422_wo⟧{寄進|きしん}⟦する→する：00392_suru⟧: to donate land\n- {寄進|きしん}⟦{帳|ちょう}→帳：10012_chou⟧: donation register\n\nCULTURAL NOTE:\nDonations to shrines and temples have been an important tradition in Japan. Donors' names are often displayed on stone pillars (⟦{石灯籠|いしどうろう}→石灯籠：29882_ishidourou⟧), plaques, or torii gates at the site, recording their generosity for future generations.\n\nSIMILAR WORDS:\n- ⟦{寄付|きふ}→寄付：02584_kifu⟧: donation — the general term for any charitable donation, not limited to religious contexts\n- ⟦{奉納|ほうのう}→奉納：12200_hounou⟧: offering, dedication — specifically offering something to a deity; more ritualistic\n- ⟦{布施|ふせ}→布施：24600_fuse⟧: alms — Buddhist term for giving to monks or temples as a religious practice",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02584_kifu",
+      "reading": "きふ",
+      "headword": "{寄付|きふ}",
+      "label": "donation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12200_hounou",
+      "reading": "ほうのう",
+      "headword": "{奉納|ほうのう}",
+      "label": "offering, dedication"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24600_fuse",
+      "reading": "ふせ",
+      "headword": "{布施|ふせ}",
+      "label": "alms"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,14 +76,17 @@
         "noun",
         "verb-suru"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "religion",
         "culture"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-04-07T18:24:45Z",
-    "modified": "2026-04-07T18:24:45Z"
+    "modified": "2026-09-02T04:02:09Z"
   },
   "conjugation": {
     "type": "suru",

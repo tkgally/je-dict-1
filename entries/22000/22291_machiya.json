@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22291_machiya_ex1",
-      "japanese": "{京都|きょうと}の{町家|まちや}に{泊|と}まった。",
+      "japanese": "⟦{京都|きょうと}→京都：09484_kyouto⟧⟦の→の：09472_no⟧{町家|まちや}⟦に→に：00314_ni⟧⟦{泊|と}まった→泊まる：10445_tomaru⟧。",
       "english": "I stayed in a Kyoto townhouse.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22291_machiya_ex2",
-      "japanese": "この{町家|まちや}はカフェに{改装|かいそう}された。",
+      "japanese": "⟦この→この：00962_kono⟧{町家|まちや}⟦は→は：00079_ha⟧⟦カフェ→カフェ：06767_kafe⟧⟦に→に：00314_ni⟧⟦{改装|かいそう}→改装：09682_kaisou⟧⟦された→する：00392_suru⟧。",
       "english": "This townhouse was renovated into a café.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22291_machiya_ex3",
-      "japanese": "{古|ふる}い{町家|まちや}を{保存|ほぞん}する{活動|かつどう}が{全国|ぜんこく}で{広|ひろ}がっている。",
+      "japanese": "⟦{古|ふる}い→古い：00488_furui⟧{町家|まちや}⟦を→を：00422_wo⟧⟦{保存|ほぞん}→保存：03626_hozon⟧⟦する→する：00392_suru⟧⟦{活動|かつどう}→活動：00201_katsudou⟧⟦が→が：00051_ga⟧⟦{全国|ぜんこく}→全国：03311_zenkoku⟧⟦で→で：00502_de⟧⟦{広|ひろ}がっている→広がる：01980_hirogaru⟧。",
       "english": "Efforts to preserve old townhouses are spreading across the country.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "A distinctive architectural style of traditional Japanese urban houses, most famously associated with Kyoto. Known as \"eel's beds\" ({鰻|うなぎ}の{寝床|ねどこ}) due to their narrow, elongated shape. The front typically housed a shop ({店|みせ}) while the family lived in the back. Many feature inner gardens ({坪庭|つぼにわ}) for light and ventilation.\n\nCOMMON COLLOCATIONS:\n- {京|きょう}{町家|まちや}: Kyoto townhouse\n- {町家|まちや}{造|づく}り: townhouse-style architecture\n- {町家|まちや}を{改装|かいそう}する: to renovate a townhouse\n- {町家|まちや}{カフェ}: townhouse café\n- {町家|まちや}{再生|さいせい}: townhouse restoration\n\nCULTURAL NOTE:\nIn recent decades, many {町家|まちや} have been demolished as owners modernize or sell to developers. A conservation movement has emerged, and many are now converted into boutique hotels, restaurants, and shops. The word {町家|まちや} has become strongly associated with Kyoto tourism.",
+  "notes": "A distinctive architectural style of traditional Japanese urban houses, most famously associated with Kyoto. Known as \"eel's beds\" (⟦{鰻|うなぎ}→鰻：06105_unagi⟧⟦の→の：09472_no⟧⟦{寝床|ねどこ}→寝床：12352_nedoko⟧) due to their narrow, elongated shape. The front typically housed a shop (⟦{店|みせ}→店：00497_mise⟧) while the family lived in the back. Many feature inner gardens ({坪庭|つぼにわ}) for light and ventilation.\n\nCOMMON COLLOCATIONS:\n- {京|きょう}{町家|まちや}: Kyoto townhouse\n- {町家|まちや}{造|づく}り: townhouse-style architecture\n- {町家|まちや}⟦を→を：00422_wo⟧⟦{改装|かいそう}→改装：09682_kaisou⟧⟦する→する：00392_suru⟧: to renovate a townhouse\n- {町家|まちや}⟦カフェ→カフェ：06767_kafe⟧: townhouse café\n- {町家|まちや}⟦{再生|さいせい}→再生：04442_saisei⟧: townhouse restoration\n\nCULTURAL NOTE:\nIn recent decades, many {町家|まちや} have been demolished as owners modernize or sell to developers. A conservation movement has emerged, and many are now converted into boutique hotels, restaurants, and shops. The word {町家|まちや} has become strongly associated with Kyoto tourism.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "25330_nagaya",
+      "reading": "ながや",
+      "headword": "{長屋|ながや}",
+      "label": "row house"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +69,6 @@
       ]
     },
     "created": "2026-04-05T17:03:27Z",
-    "modified": "2026-07-30T03:35:34Z"
+    "modified": "2026-09-02T04:02:07Z"
   }
 }

@@ -15,41 +15,51 @@
   "examples": [
     {
       "id": "29904_maeashi_ex1",
-      "japanese": "{犬|いぬ}が{前足|まえあし}を{上|あ}げた。",
+      "japanese": "⟦{犬|いぬ}→犬：00632_inu⟧⟦が→が：00051_ga⟧{前足|まえあし}⟦を→を：00422_wo⟧⟦{上|あ}げた→上げる：02443_ageru⟧。",
       "english": "The dog raised its front paw.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29904_maeashi_ex2",
-      "japanese": "{猫|ねこ}は{前足|まえあし}で{顔|かお}を{洗|あら}う。",
+      "japanese": "⟦{猫|ねこ}→猫：02237_neko⟧⟦は→は：00079_ha⟧{前足|まえあし}⟦で→で：00502_de⟧⟦{顔|かお}を{洗|あら}う→顔を洗う：23572_kaowoarau⟧。",
       "english": "Cats wash their faces with their front paws.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29904_maeashi_ex3",
-      "japanese": "カマキリは{前足|まえあし}を{使|つか}って{獲物|えもの}を{捕|つか}まえる。",
+      "japanese": "⟦カマキリ→カマキリ：06516_kamakiri⟧⟦は→は：00079_ha⟧{前足|まえあし}⟦を→を：00422_wo⟧⟦{使|つか}って→使う：00473_tsukau⟧⟦{獲物|えもの}→獲物：08638_emono⟧⟦を→を：00422_wo⟧⟦{捕|つか}まえる→捕まえる：01214_tsukamaeru⟧。",
       "english": "A praying mantis uses its forelegs to catch its prey.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "The front leg or paw of an animal or insect. When emphasizing the paw or the limb's structure, the spelling {前脚|まえあし} is also used.\n\nCOMMON COLLOCATIONS:\n- {前足|まえあし}を{上|あ}げる: to raise a front paw\n- {前足|まえあし}で{立|た}つ: to stand on the front legs\n\nSIMILAR WORDS:\n- {後|うし}ろ{足|あし}: hind leg — the back leg of the same animal",
+  "notes": "The front leg or paw of an animal or insect. When emphasizing the paw or the limb's structure, the spelling {前脚|まえあし} is also used.\n\nCOMMON COLLOCATIONS:\n- {前足|まえあし}⟦を→を：00422_wo⟧⟦{上|あ}げる→上げる：02443_ageru⟧: to raise a front paw\n- {前足|まえあし}⟦で→で：00502_de⟧⟦{立|た}つ→立つ：00758_tatsu⟧: to stand on the front legs\n\nSIMILAR WORDS:\n- {後|うし}ろ{足|あし}: hind leg — the back leg of the same animal",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["body-part"],
+      "politeness": "plain",
+      "semantic": [
+        "body-part"
+      ],
       "domain": []
     },
     "created": "2026-07-16T21:18:06Z",
-    "modified": "2026-07-16T21:18:06Z"
+    "modified": "2026-09-02T04:02:38Z"
   }
 }

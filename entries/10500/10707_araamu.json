@@ -15,41 +15,87 @@
   "examples": [
     {
       "id": "10707_araamu_ex1",
-      "japanese": "アラームをセットする。",
+      "japanese": "アラーム⟦を→を：00422_wo⟧⟦セット→セット：03853_setto⟧⟦する→する：00392_suru⟧。",
       "english": "To set an alarm.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10707_araamu_ex2",
-      "japanese": "アラームが{鳴|な}ったのに{起|お}きられなかった。",
+      "japanese": "アラーム⟦が→が：00051_ga⟧⟦{鳴|な}った→鳴る：01143_naru⟧⟦の→の：09472_no⟧⟦に→に：00314_ni⟧⟦{起|お}きられなかった→起きる：00521_okiru⟧。",
       "english": "The alarm went off but I couldn't get up.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10707_araamu_ex3",
-      "japanese": "{毎朝|まいあさ}{六時|ろくじ}にアラームが{鳴|な}るように{設定|せってい}しているが、いつも{二度寝|にどね}してしまう。",
+      "japanese": "⟦{毎朝|まいあさ}→毎朝：00966_maiasa⟧⟦{六時|ろくじ}→六時：10982_rokuji⟧⟦に→に：00314_ni⟧アラーム⟦が→が：00051_ga⟧⟦{鳴|な}る→鳴る：01143_naru⟧よう⟦に→に：00314_ni⟧⟦{設定|せってい}→設定：04767_settei⟧⟦している→する：00392_suru⟧⟦が→が：00051_ga⟧、⟦いつも→いつも：00599_itsumo⟧⟦{二度寝|にどね}→二度寝：07694_nidone⟧⟦して→する：00392_suru⟧しまう。",
       "english": "I set my alarm for six every morning, but I always end up going back to sleep.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nアラーム is the standard term for alarm clocks and phone alarms in modern Japanese. The older term {目覚|めざ}まし{時計|どけい} specifically refers to a physical alarm clock, while アラーム is more general and is commonly used for smartphone alarms.\n\nCOMMON COLLOCATIONS:\n- アラームをセットする: to set an alarm\n- アラームが{鳴|な}る: the alarm goes off\n- アラームを{止|と}める: to turn off the alarm\n- アラームを{解除|かいじょ}する: to cancel/disable an alarm",
-  "cross_references": [],
+  "notes": "USAGE:\nアラーム is the standard term for alarm clocks and phone alarms in modern Japanese. The older term ⟦{目覚|めざ}まし{時計|どけい}→目覚まし時計：03159_mezamashidokei⟧ specifically refers to a physical alarm clock, while アラーム is more general and is commonly used for smartphone alarms.\n\nCOMMON COLLOCATIONS:\n- アラーム⟦を→を：00422_wo⟧⟦セット→セット：03853_setto⟧⟦する→する：00392_suru⟧: to set an alarm\n- アラーム⟦が→が：00051_ga⟧⟦{鳴|な}る→鳴る：01143_naru⟧: the alarm goes off\n- アラーム⟦を→を：00422_wo⟧⟦{止|と}める→止める：00678_tomeru⟧: to turn off the alarm\n- アラーム⟦を→を：00422_wo⟧⟦{解除|かいじょ}する→解除する：26843_kaijosuru⟧: to cancel/disable an alarm",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "03159_mezamashidokei",
+      "reading": "めざましどけい",
+      "headword": "{目覚|めざ}まし{時計|どけい}",
+      "label": "alarm clock"
+    },
+    {
+      "type": "related",
+      "target_id": "08550_mezamashi",
+      "reading": "めざまし",
+      "headword": "{目覚|めざ}まし",
+      "label": "alarm clock"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25448_sunuuzu",
+      "reading": "すぬーず",
+      "headword": "スヌーズ",
+      "label": "snooze (alarm function)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25888_taimaa",
+      "reading": "たいまー",
+      "headword": "タイマー",
+      "label": "timer"
+    },
+    {
+      "type": "related",
+      "target_id": "27302_jihou",
+      "reading": "じほう",
+      "headword": "{時報|じほう}",
+      "label": "time signal"
+    }
+  ],
   "metadata": {
     "created": "2026-02-09T07:23:05Z",
-    "modified": "2026-02-09T07:23:05Z",
+    "modified": "2026-09-02T04:01:22Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["electronics"]
+      "semantic": [
+        "electronics"
+      ]
     }
   }
 }

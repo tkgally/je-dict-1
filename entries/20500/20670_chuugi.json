@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "20670_chuugi_ex1",
-      "japanese": "{忠義|ちゅうぎ}を{尽|つ}くす。",
+      "japanese": "{忠義|ちゅうぎ}⟦を→を：00422_wo⟧⟦{尽|つ}くす→尽くす：02077_tsukusu⟧。",
       "english": "To be devoted and loyal.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "20670_chuugi_ex2",
-      "japanese": "{忠義|ちゅうぎ}な{家臣|かしん}として{知|し}られていた。",
+      "japanese": "{忠義|ちゅうぎ}な⟦{家臣|かしん}→家臣：12655_kashin⟧⟦として→として：06802_toshite⟧⟦{知|し}られていた→知る：00458_shiru⟧。",
       "english": "He was known as a loyal retainer.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "20670_chuugi_ex3",
-      "japanese": "{忠臣蔵|ちゅうしんぐら}は{四十七士|しじゅうしちし}の{忠義|ちゅうぎ}の{物語|ものがたり}として、{日本|にほん}で{最|もっと}も{有名|ゆうめい}な{歴史|れきし}{物語|ものがたり}の{一|ひと}つだ。",
+      "japanese": "{忠臣蔵|ちゅうしんぐら}⟦は→は：00079_ha⟧{四十七士|しじゅうしちし}⟦の→の：09472_no⟧{忠義|ちゅうぎ}⟦の→の：09472_no⟧⟦{物語|ものがたり}→物語：03634_monogatari⟧⟦として→として：06802_toshite⟧、⟦{日本|にほん}→日本：03876_nihon⟧⟦で→で：00502_de⟧⟦{最|もっと}も→最も：01736_mottomo⟧⟦{有名|ゆうめい}→有名：01106_yuumei⟧な⟦{歴史|れきし}→歴史：02267_rekishi⟧⟦{物語|ものがたり}→物語：03634_monogatari⟧⟦の→の：09472_no⟧⟦{一|ひと}つ→一つ：02948_hitotsu⟧だ。",
       "english": "Chūshingura, the story of the forty-seven samurai's loyalty, is one of the most famous historical tales in Japan.",
       "sense_numbers": [
         1
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "A word with deep roots in Japanese feudal culture and the samurai code of ethics ({武士道|ぶしどう}). While originally referring specifically to a vassal's loyalty to their lord, it is now used more broadly but retains a traditional and somewhat formal flavor.\n\nCOMMON COLLOCATIONS:\n- {忠義|ちゅうぎ}を{尽|つ}くす: to devote oneself loyally\n- {忠義|ちゅうぎ}{者|もの}: a loyal person\n- {忠義|ちゅうぎ}な{心|こころ}: a loyal heart\n- {忠義|ちゅうぎ}を{誓|ちか}う: to swear loyalty\n\nCULTURAL NOTE:\n{忠義|ちゅうぎ} is a central theme in many classic Japanese stories, particularly {忠臣蔵|ちゅうしんぐら} (The Treasury of Loyal Retainers), which tells the story of 47 samurai who avenged their lord's death.\n\nSIMILAR WORDS:\n- {忠誠|ちゅうせい}: loyalty, allegiance — more modern, used for political or organizational loyalty\n- {義理|ぎり}: duty, obligation — social obligation rather than personal devotion\n- {誠実|せいじつ}: sincerity, faithfulness — broader, not specifically about hierarchical loyalty",
+  "notes": "A word with deep roots in Japanese feudal culture and the samurai code of ethics (⟦{武士道|ぶしどう}→武士道：17460_bushidou⟧). While originally referring specifically to a vassal's loyalty to their lord, it is now used more broadly but retains a traditional and somewhat formal flavor.\n\nCOMMON COLLOCATIONS:\n- {忠義|ちゅうぎ}⟦を→を：00422_wo⟧⟦{尽|つ}くす→尽くす：02077_tsukusu⟧: to devote oneself loyally\n- {忠義|ちゅうぎ}⟦{者|もの}→者：12734_mono⟧: a loyal person\n- {忠義|ちゅうぎ}な⟦{心|こころ}→心：01321_kokoro⟧: a loyal heart\n- {忠義|ちゅうぎ}⟦を→を：00422_wo⟧⟦{誓|ちか}う→誓う：00030_chikau⟧: to swear loyalty\n\nCULTURAL NOTE:\n{忠義|ちゅうぎ} is a central theme in many classic Japanese stories, particularly {忠臣蔵|ちゅうしんぐら} (The Treasury of Loyal Retainers), which tells the story of 47 samurai who avenged their lord's death.\n\nSIMILAR WORDS:\n- ⟦{忠誠|ちゅうせい}→忠誠：12593_chuusei⟧: loyalty, allegiance — more modern, used for political or organizational loyalty\n- ⟦{義理|ぎり}→義理：10891_giri⟧: duty, obligation — social obligation rather than personal devotion\n- ⟦{誠実|せいじつ}→誠実：14211_seijitsu⟧: sincerity, faithfulness — broader, not specifically about hierarchical loyalty",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12593_chuusei",
+      "reading": "ちゅうせい",
+      "headword": "{忠誠|ちゅうせい}",
+      "label": "loyalty, allegiance"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10891_giri",
+      "reading": "ぎり",
+      "headword": "{義理|ぎり}",
+      "label": "duty, obligation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14211_seijitsu",
+      "reading": "せいじつ",
+      "headword": "{誠実|せいじつ}",
+      "label": "sincerity, faithfulness"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26308_fuchuu",
+      "reading": "ふちゅう",
+      "headword": "{不忠|ふちゅう}",
+      "label": "disloyalty"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +83,7 @@
         "noun"
       ],
       "formality": "formal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "culture",
         "history",
@@ -61,6 +91,6 @@
       ]
     },
     "created": "2026-03-30T06:36:42Z",
-    "modified": "2026-03-30T06:36:42Z"
+    "modified": "2026-09-02T04:02:00Z"
   }
 }

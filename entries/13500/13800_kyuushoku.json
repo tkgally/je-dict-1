@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "13800_kyuushoku_ex1",
-      "japanese": "{今日|きょう}の{給食|きゅうしょく}はカレーだ。",
+      "japanese": "⟦{今日|きょう}→今日：00496_kyou⟧⟦の→の：09472_no⟧{給食|きゅうしょく}⟦は→は：00079_ha⟧⟦カレー→カレー：02898_karee⟧だ。",
       "english": "Today's school lunch is curry.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "13800_kyuushoku_ex2",
-      "japanese": "{子供|こども}のころ、{給食|きゅうしょく}の{時間|じかん}が{一番|いちばん}{楽|たの}しかった。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧⟦の→の：09472_no⟧⟦ころ→〜ころ：03091_koro⟧、{給食|きゅうしょく}⟦の→の：09472_no⟧⟦{時間|じかん}→時間：00468_jikan⟧⟦が→が：00051_ga⟧⟦{一番|いちばん}→一番：01140_ichiban⟧⟦{楽|たの}しかった→楽しい：00817_tanoshii⟧。",
       "english": "When I was a child, lunch time was the most fun part of the day.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "13800_kyuushoku_ex3",
-      "japanese": "この{学校|がっこう}では{生徒|せいと}が{当番制|とうばんせい}で{給食|きゅうしょく}を{配|くば}る。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{学校|がっこう}→学校：00055_gakkou⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{生徒|せいと}→生徒：01051_seito⟧⟦が→が：00051_ga⟧{当番制|とうばんせい}⟦で→で：00502_de⟧{給食|きゅうしょく}⟦を→を：00422_wo⟧⟦{配|くば}る→配る：03921_kubaru⟧。",
       "english": "At this school, students take turns serving the school lunch on a rotating basis.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,26 @@
       ]
     }
   ],
-  "notes": "USAGE:\nMost commonly refers to school lunch in Japanese elementary and junior high schools. Students typically eat {給食|きゅうしょく} in their classrooms, serve it themselves in rotation ({給食|きゅうしょく}{当番|とうばん}), and eat the same menu. This is considered an important part of Japanese school education ({食育|しょくいく}).\n\nCOMMON COLLOCATIONS:\n- {給食|きゅうしょく}の{時間|じかん}: lunch time (at school)\n- {給食|きゅうしょく}{当番|とうばん}: lunch duty (student rotation)\n- {給食|きゅうしょく}を{食|た}べる: to eat school lunch\n- {給食|きゅうしょく}{費|ひ}: school lunch fee\n- {給食|きゅうしょく}センター: school lunch preparation center\n\nCULTURE:\nJapanese {給食|きゅうしょく} is nutritionally planned by registered dietitians, and the same menu is served to all students. Children serve each other and clean up afterward, which is seen as building cooperation and responsibility.",
-  "cross_references": [],
+  "notes": "USAGE:\nMost commonly refers to school lunch in Japanese elementary and junior high schools. Students typically eat {給食|きゅうしょく} in their classrooms, serve it themselves in rotation ({給食|きゅうしょく}⟦{当番|とうばん}→当番：04564_touban⟧), and eat the same menu. This is considered an important part of Japanese school education (⟦{食育|しょくいく}→食育：14697_shokuiku⟧).\n\nCOMMON COLLOCATIONS:\n- {給食|きゅうしょく}⟦の→の：09472_no⟧⟦{時間|じかん}→時間：00468_jikan⟧: lunch time (at school)\n- {給食|きゅうしょく}⟦{当番|とうばん}→当番：04564_touban⟧: lunch duty (student rotation)\n- {給食|きゅうしょく}⟦を→を：00422_wo⟧⟦{食|た}べる→食べる：00396_taberu⟧: to eat school lunch\n- {給食|きゅうしょく}{費|ひ}: school lunch fee\n- {給食|きゅうしょく}⟦センター→センター：03854_sentaa⟧: school lunch preparation center\n\nCULTURAL NOTE:\nJapanese {給食|きゅうしょく} is nutritionally planned by registered dietitians, and the same menu is served to all students. Children serve each other and clean up afterward, which is seen as building cooperation and responsibility.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "01055_shougakkou",
+      "reading": "しょうがっこう",
+      "headword": "{小学校|しょうがっこう}",
+      "label": "elementary school"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25095_youjishoku",
+      "reading": "ようじしょく",
+      "headword": "{幼児食|ようじしょく}",
+      "label": "toddler food"
+    }
+  ],
   "metadata": {
     "created": "2026-02-27T04:13:48Z",
-    "modified": "2026-05-08T08:12:00Z",
+    "modified": "2026-09-02T04:01:34Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

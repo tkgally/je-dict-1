@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "19783_kuubaku_ex1",
-      "japanese": "{軍事|ぐんじ}{施設|しせつ}が{空爆|くうばく}された。",
+      "japanese": "⟦{軍事|ぐんじ}→軍事：14392_gunji⟧⟦{施設|しせつ}→施設：02503_shisetsu⟧⟦が→が：00051_ga⟧{空爆|くうばく}⟦された→する：00392_suru⟧。",
       "english": "Military facilities were bombed from the air.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "19783_kuubaku_ex2",
-      "japanese": "{空爆|くうばく}で{民間人|みんかんじん}にも{被害|ひがい}が{出|で}ている。",
+      "japanese": "{空爆|くうばく}⟦で→で：00502_de⟧{民間人|みんかんじん}⟦に→に：00314_ni⟧⟦も→も：00484_mo⟧⟦{被害|ひがい}→被害：02572_higai⟧⟦が→が：00051_ga⟧⟦{出|で}ている→出る：00513_deru⟧。",
       "english": "Civilians are also being harmed by the air strikes.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "19783_kuubaku_ex3",
-      "japanese": "{国連|こくれん}は{空爆|くうばく}の{即時|そくじ}{停止|ていし}を{求|もと}める{声明|せいめい}を{発表|はっぴょう}した。",
+      "japanese": "⟦{国連|こくれん}→国連：12035_kokuren⟧⟦は→は：00079_ha⟧{空爆|くうばく}⟦の→の：09472_no⟧⟦{即時|そくじ}→即時：22475_sokuji⟧⟦{停止|ていし}→停止：04067_teishi⟧⟦を→を：00422_wo⟧⟦{求|もと}める→求める：02316_motomeru⟧⟦{声明|せいめい}→声明：03763_seimei⟧⟦を→を：00422_wo⟧⟦{発表|はっぴょう}した→発表する：25231_happyousuru⟧。",
       "english": "The United Nations issued a statement demanding an immediate halt to the air strikes.",
       "sense_numbers": [
         1
@@ -134,8 +134,31 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {空|くう} (sky, air) and {爆|ばく} (bomb, explosion). A modern, concise term favored in news headlines and contemporary reporting. Also functions as a する verb: {空爆|くうばく}する (to bomb from the air).\n\nUSAGE:\nThe standard term in contemporary news for describing military air strikes. More concise and modern-sounding than {爆撃|ばくげき} or {空襲|くうしゅう}.\n\nCOMMON COLLOCATIONS:\n- {空爆|くうばく}する — to carry out an air strike\n- {空爆|くうばく}を{受|う}ける — to be hit by an air strike\n- {空爆|くうばく}を{中止|ちゅうし}する — to halt air strikes\n- {無差別|むさべつ}{空爆|くうばく} — indiscriminate bombing\n\nRELATED TERMS:\n- {空襲|くうしゅう} — air raid; more historical, strongly associated with WWII\n- {爆撃|ばくげき} — bombing; the general military term for dropping bombs\n- {砲撃|ほうげき} — shelling; artillery fire from the ground",
+  "notes": "Composed of ⟦{空|くう}→空〜：03949_kuu⟧ (sky, air) and {爆|ばく} (bomb, explosion). A modern, concise term favored in news headlines and contemporary reporting. Also functions as a ⟦する→する：00392_suru⟧ verb: {空爆|くうばく}⟦する→する：00392_suru⟧ (to bomb from the air).\n\nUSAGE:\nThe standard term in contemporary news for describing military air strikes. More concise and modern-sounding than ⟦{爆撃|ばくげき}→爆撃：13584_bakugeki⟧ or ⟦{空襲|くうしゅう}→空襲：19775_kuushuu⟧.\n\nCOMMON COLLOCATIONS:\n- {空爆|くうばく}⟦する→する：00392_suru⟧ — to carry out an air strike\n- {空爆|くうばく}⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧ — to be hit by an air strike\n- {空爆|くうばく}⟦を→を：00422_wo⟧⟦{中止|ちゅうし}する→中止する：21909_chuushisuru⟧ — to halt air strikes\n- ⟦{無差別|むさべつ}→無差別：13492_musabetsu⟧{空爆|くうばく} — indiscriminate bombing\n\nRELATED WORDS:\n- ⟦{空襲|くうしゅう}→空襲：19775_kuushuu⟧ — air raid; more historical, strongly associated with WWII\n- ⟦{爆撃|ばくげき}→爆撃：13584_bakugeki⟧ — bombing; the general military term for dropping bombs\n- ⟦{砲撃|ほうげき}→砲撃：19779_hougeki⟧ — shelling; artillery fire from the ground",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "19775_kuushuu",
+      "reading": "くうしゅう",
+      "headword": "{空襲|くうしゅう}",
+      "label": "air raid"
+    },
+    {
+      "type": "related",
+      "target_id": "13584_bakugeki",
+      "reading": "ばくげき",
+      "headword": "{爆撃|ばくげき}",
+      "label": "bombing"
+    },
+    {
+      "type": "related",
+      "target_id": "19779_hougeki",
+      "reading": "ほうげき",
+      "headword": "{砲撃|ほうげき}",
+      "label": "shelling"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -151,6 +174,6 @@
       "verb_class": "suru"
     },
     "created": "2026-03-26T23:29:23Z",
-    "modified": "2026-03-26T23:29:23Z"
+    "modified": "2026-09-02T04:01:57Z"
   }
 }

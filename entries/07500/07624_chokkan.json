@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "07624_chokkan_ex1",
-      "japanese": "{直感|ちょっかん}を{信|しん}じる。",
+      "japanese": "{直感|ちょっかん}⟦を→を：00422_wo⟧⟦{信|しん}じる→信じる：01111_shinjiru⟧。",
       "english": "To trust one's intuition.",
       "has_audio": false,
       "sense_numbers": [
@@ -113,7 +113,7 @@
     },
     {
       "id": "07624_chokkan_ex2",
-      "japanese": "{直感|ちょっかん}{的|てき}に{危険|きけん}だと{感|かん}じた。",
+      "japanese": "{直感|ちょっかん}{的|てき}⟦に→に：00314_ni⟧⟦{危険|きけん}→危険：01141_kiken⟧だ⟦と→と：00512_to⟧⟦{感|かん}じた→感じる：02044_kanjiru⟧。",
       "english": "I intuitively sensed it was dangerous.",
       "has_audio": false,
       "sense_numbers": [
@@ -122,7 +122,7 @@
     },
     {
       "id": "07624_chokkan_ex3",
-      "japanese": "{彼女|かのじょ}の{直感|ちょっかん}は{鋭|するど}く、いつも{正|ただ}しい。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦の→の：09472_no⟧{直感|ちょっかん}⟦は→は：00079_ha⟧⟦{鋭|するど}く→鋭い：02347_surudoi⟧、⟦いつも→いつも：00599_itsumo⟧⟦{正|ただ}しい→正しい：00893_tadashii⟧。",
       "english": "Her intuition is sharp and always correct.",
       "has_audio": false,
       "sense_numbers": [
@@ -130,7 +130,7 @@
       ]
     }
   ],
-  "notes": "COMMON COLLOCATIONS:\n・{直感|ちょっかん}を{信|しん}じる - to trust one's intuition\n・{直感|ちょっかん}が{働|はたら}く - intuition works/kicks in\n・{直感|ちょっかん}が{鋭|するど}い - to have sharp intuition\n・{直感|ちょっかん}{的|てき}（な） - intuitive\n\nCONTRAST:\n・{直感|ちょっかん} - immediate understanding without reasoning (cognitive)\n・{本能|ほんのう} - innate, biological drives (instinct)\n・{勘|かん} - a more casual word for intuition/hunch\n\nUSAGE:\nThe suru verb form {直感|ちょっかん}する means \"to sense intuitively.\"",
+  "notes": "COMMON COLLOCATIONS:\n- {直感|ちょっかん}⟦を→を：00422_wo⟧⟦{信|しん}じる→信じる：01111_shinjiru⟧ - to trust one's intuition\n- {直感|ちょっかん}⟦が→が：00051_ga⟧⟦{働|はたら}く→働く：00503_hataraku⟧ - intuition works/kicks in\n- {直感|ちょっかん}⟦が→が：00051_ga⟧⟦{鋭|するど}い→鋭い：02347_surudoi⟧ - to have sharp intuition\n- {直感|ちょっかん}{的|てき}（な） - intuitive\n\nSIMILAR WORDS:\n- {直感|ちょっかん} - immediate understanding without reasoning (cognitive)\n- ⟦{本能|ほんのう}→本能：07623_honnou⟧ - innate, biological drives (instinct)\n- ⟦{勘|かん}→勘：02149_kan⟧ - a more casual word for intuition/hunch\n\nUSAGE:\nThe suru verb form {直感|ちょっかん}⟦する→する：00392_suru⟧ means \"to sense intuitively.\"",
   "cross_references": [
     {
       "type": "related",
@@ -138,11 +138,46 @@
       "headword": "{本能|ほんのう}",
       "label": "instinct",
       "target_id": "07623_honnou"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02149_kan",
+      "reading": "かん",
+      "headword": "{勘|かん}",
+      "label": "a more casual word for intuition/hunch"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11416_yokan",
+      "reading": "よかん",
+      "headword": "{予感|よかん}",
+      "label": "premonition, hunch, presentiment"
+    },
+    {
+      "type": "related",
+      "target_id": "15455_dairokkan",
+      "reading": "だいろっかん",
+      "headword": "{第六感|だいろっかん}",
+      "label": "sixth sense"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22214_reikan",
+      "reading": "れいかん",
+      "headword": "{霊感|れいかん}",
+      "label": "spiritual sensitivity"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29630_hadakankaku",
+      "reading": "はだかんかく",
+      "headword": "{肌感覚|はだかんかく}",
+      "label": "gut feeling"
     }
   ],
   "metadata": {
     "created": "2026-01-20T13:21:59Z",
-    "modified": "2026-08-11T09:37:41Z",
+    "modified": "2026-09-02T04:01:12Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -151,6 +186,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "cognition"
       ],

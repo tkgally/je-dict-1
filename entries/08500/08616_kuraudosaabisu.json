@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08616_kuraudosaabisu_ex1",
-      "japanese": "クラウドサービスを{利用|りよう}する。",
+      "japanese": "クラウドサービス⟦を→を：00422_wo⟧⟦{利用|りよう}する→利用する：21735_riyousuru⟧。",
       "english": "Use a cloud service.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "08616_kuraudosaabisu_ex2",
-      "japanese": "{写真|しゃしん}をクラウドサービスに{保存|ほぞん}する。",
+      "japanese": "⟦{写真|しゃしん}→写真：00753_shashin⟧⟦を→を：00422_wo⟧クラウドサービス⟦に→に：00314_ni⟧⟦{保存|ほぞん}→保存：03626_hozon⟧⟦する→する：00392_suru⟧。",
       "english": "Save photos to a cloud service.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "08616_kuraudosaabisu_ex3",
-      "japanese": "{会社|かいしゃ}がクラウドサービスを{導入|どうにゅう}してデータ{共有|きょうゆう}が{楽|らく}になった。",
+      "japanese": "⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦が→が：00051_ga⟧クラウドサービス⟦を→を：00422_wo⟧⟦{導入|どうにゅう}して→導入する：16055_dounyuusuru⟧⟦データ→データ：03944_deeta⟧⟦{共有|きょうゆう}→共有：11666_kyouyuu⟧⟦が→が：00051_ga⟧⟦{楽|らく}→楽：02169_raku⟧になった。",
       "english": "After the company introduced cloud services, data sharing became easier.",
       "sense_numbers": [
         1
@@ -43,7 +43,23 @@
       "notes": null
     }
   ],
-  "notes": "TECHNOLOGY TERM:\nクラウドサービス refers to services accessed via the internet rather than stored locally.\n\nTYPES:\n- クラウドストレージ - cloud storage (Google Drive, iCloud, Dropbox)\n- SaaS (Software as a Service) - software delivered via cloud\n- {動画|どうが}ストリーミング - video streaming services\n\nCOMMON SERVICES:\n- Google Drive\n- iCloud\n- Dropbox\n- OneDrive\n- Amazon Web Services (AWS)\n\nCOMMON COLLOCATIONS:\n- クラウドサービスに{保存|ほぞん}する - save to cloud\n- クラウドサービスを{契約|けいやく}する - subscribe to cloud service\n- クラウドサービスの{容量|ようりょう} - cloud storage capacity\n\nRELATED TERMS:\n- クラウド - cloud\n- オンラインストレージ - online storage\n- {同期|どうき} - sync",
+  "notes": "TECHNOLOGY TERM:\nクラウドサービス refers to services accessed via the internet rather than stored locally.\n\nTYPES:\n- ⟦クラウドストレージ→クラウドストレージ：30076_kuraudosutoreeji⟧ - cloud storage (Google Drive, iCloud, Dropbox)\n- SaaS (Software as a Service) - software delivered via cloud\n- ⟦{動画|どうが}→動画：04443_douga⟧⟦ストリーミング→ストリーミング：06031_sutoriimingu⟧ - video streaming services\n\nCOMMON SERVICES:\n- Google Drive\n- iCloud\n- Dropbox\n- OneDrive\n- Amazon Web Services (AWS)\n\nCOMMON COLLOCATIONS:\n- クラウドサービス⟦に→に：00314_ni⟧⟦{保存|ほぞん}→保存：03626_hozon⟧⟦する→する：00392_suru⟧ - save to cloud\n- クラウドサービス⟦を→を：00422_wo⟧⟦{契約|けいやく}→契約：02698_keiyaku⟧⟦する→する：00392_suru⟧ - subscribe to cloud service\n- クラウドサービス⟦の→の：09472_no⟧⟦{容量|ようりょう}→容量：04887_youryou⟧ - cloud storage capacity\n\nRELATED WORDS:\n- ⟦クラウド→クラウド：04757_kuraudo⟧ - cloud\n- ⟦オンライン→オンライン：05278_onrain⟧⟦ストレージ→ストレージ：06959_sutoreeji⟧ - online storage\n- ⟦{同期|どうき}→同期：12029_douki⟧ - sync",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "04757_kuraudo",
+      "reading": "くらうど",
+      "headword": "クラウド",
+      "label": "cloud"
+    },
+    {
+      "type": "related",
+      "target_id": "12029_douki",
+      "reading": "どうき",
+      "headword": "{同期|どうき}",
+      "label": "sync"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -51,11 +67,12 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "technology"
       ]
     },
     "created": "2026-01-27T12:31:57Z",
-    "modified": "2026-06-22T12:50:00Z"
+    "modified": "2026-09-02T04:01:15Z"
   }
 }

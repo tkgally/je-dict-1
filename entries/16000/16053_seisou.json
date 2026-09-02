@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "16053_seisou_ex1",
-      "japanese": "{正装|せいそう}で{出席|しゅっせき}してください。",
+      "japanese": "{正装|せいそう}⟦で→で：00502_de⟧⟦{出席|しゅっせき}して→出席する：01830_shussekisuru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please attend in formal dress.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "16053_seisou_ex2",
-      "japanese": "{結婚式|けっこんしき}には{正装|せいそう}が{求|もと}められる。",
+      "japanese": "⟦{結婚式|けっこんしき}→結婚式：05493_kekkonshiki⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{正装|せいそう}⟦が→が：00051_ga⟧⟦{求|もと}められる→求める：02316_motomeru⟧。",
       "english": "Formal attire is required for weddings.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "16053_seisou_ex3",
-      "japanese": "{授賞式|じゅしょうしき}のために{正装|せいそう}に{着替|きが}えて{会場|かいじょう}に{向|む}かった。",
+      "japanese": "{授賞式|じゅしょうしき}⟦の→の：09472_no⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧{正装|せいそう}⟦に→に：00314_ni⟧⟦{着替|きが}えて→着替える：04603_kigaeru⟧⟦{会場|かいじょう}→会場：01269_kaijou⟧⟦に→に：00314_ni⟧⟦{向|む}かった→向かう：01186_mukau⟧。",
       "english": "I changed into formal attire and headed to the venue for the award ceremony.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{正装|せいそう} can also be used as a suru verb ({正装|せいそう}する = to dress formally). It covers both Western formal wear (suits, tuxedos, evening gowns) and Japanese formal wear ({和装|わそう} such as {紋付袴|もんつきはかま}).\n\nCOMMON COLLOCATIONS:\n- {正装|せいそう}で{出席|しゅっせき}する (to attend in formal dress)\n- {正装|せいそう}が{必要|ひつよう} (formal dress is required)\n- {正装|せいそう}に{着替|きが}える (to change into formal attire)\n\nSIMILAR WORDS:\n{礼服|れいふく} refers specifically to the garments themselves (formal clothing), while {正装|せいそう} refers more broadly to the act or state of being formally dressed. {盛装|せいそう} means to dress up elaborately, which may go beyond what is strictly formal.",
+  "notes": "USAGE:\n{正装|せいそう} can also be used as a suru verb ({正装|せいそう}⟦する→する：00392_suru⟧ = to dress formally). It covers both Western formal wear (suits, tuxedos, evening gowns) and Japanese formal wear (⟦{和装|わそう}→和装：21261_wasou⟧ such as {紋付袴|もんつきはかま}).\n\nCOMMON COLLOCATIONS:\n- {正装|せいそう}⟦で→で：00502_de⟧⟦{出席|しゅっせき}する→出席する：01830_shussekisuru⟧ (to attend in formal dress)\n- {正装|せいそう}⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧ (formal dress is required)\n- {正装|せいそう}⟦に→に：00314_ni⟧⟦{着替|きが}える→着替える：04603_kigaeru⟧ (to change into formal attire)\n\nSIMILAR WORDS:\n⟦{礼服|れいふく}→礼服：18440_reifuku⟧ refers specifically to the garments themselves (formal clothing), while {正装|せいそう} refers more broadly to the act or state of being formally dressed. ⟦{盛装|せいそう}→盛装：21668_seisou⟧ means to dress up elaborately, which may go beyond what is strictly formal.",
   "prominent_see_also": [
     {
       "target_id": "21668_seisou",
@@ -150,11 +150,46 @@
       "reading": "れいふく",
       "headword": "{礼服|れいふく}",
       "label": "formal garments"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11177_shifuku",
+      "reading": "しふく",
+      "headword": "{私服|しふく}",
+      "label": "plain clothes, casual clothes"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12995_haregi",
+      "reading": "はれぎ",
+      "headword": "{晴|は}れ{着|ぎ}",
+      "label": "formal clothes, festive attire"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25770_enbifuku",
+      "reading": "えんびふく",
+      "headword": "{燕尾服|えんびふく}",
+      "label": "tailcoat"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25793_ryakusou",
+      "reading": "りゃくそう",
+      "headword": "{略装|りゃくそう}",
+      "label": "informal dress"
+    },
+    {
+      "type": "related",
+      "target_id": "27313_doresuappu",
+      "reading": "どれすあっぷ",
+      "headword": "ドレスアップ",
+      "label": "dressing up"
     }
   ],
   "metadata": {
     "created": "2026-03-09T10:27:15Z",
-    "modified": "2026-05-03T04:25:32Z",
+    "modified": "2026-09-02T04:01:43Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

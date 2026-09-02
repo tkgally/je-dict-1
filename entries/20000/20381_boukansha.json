@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "20381_boukansha_ex1",
-      "japanese": "{傍観者|ぼうかんしゃ}でいるな。",
+      "japanese": "{傍観者|ぼうかんしゃ}で⟦いる→いる：00495_iru⟧な。",
       "english": "Don't just be a bystander.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "20381_boukansha_ex2",
-      "japanese": "{彼|かれ}はいつも{傍観者|ぼうかんしゃ}の{立場|たちば}を{取|と}る。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦いつも→いつも：00599_itsumo⟧{傍観者|ぼうかんしゃ}⟦の→の：09472_no⟧⟦{立場|たちば}→立場：03403_tachiba⟧⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧。",
       "english": "He always takes the position of an onlooker.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "20381_boukansha_ex3",
-      "japanese": "{事故|じこ}の{現場|げんば}には{多|おお}くの{傍観者|ぼうかんしゃ}が{集|あつ}まっていた。",
+      "japanese": "⟦{事故|じこ}→事故：00851_jiko⟧⟦の→の：09472_no⟧⟦{現場|げんば}→現場：02723_genba⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{多|おお}く⟦の→の：09472_no⟧{傍観者|ぼうかんしゃ}⟦が→が：00051_ga⟧⟦{集|あつ}まっていた→集まる：01162_atsumaru⟧。",
       "english": "Many onlookers had gathered at the scene of the accident.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Describes someone who watches a situation without participating or intervening. Unlike neutral words for spectator, {傍観者|ぼうかんしゃ} often implies a moral judgment — the person could or should act but chooses not to.\n\nFORMATION:\n{傍|ぼう} (beside) + {観|かん} (watch) + {者|しゃ} (person)\n\nCOMMON COLLOCATIONS:\n- {傍観者|ぼうかんしゃ}でいる: to remain a bystander\n- {傍観者|ぼうかんしゃ}の{立場|たちば}: the stance of an onlooker\n- {傍観者|ぼうかんしゃ}{効果|こうか}: the bystander effect\n- ただの{傍観者|ぼうかんしゃ}: merely a spectator\n\nSIMILAR WORDS:\n- {見物人|けんぶつにん}: spectator, sightseer — neutral, used for entertainment or events\n- {野次馬|やじうま}: rubbernecker — curious onlooker drawn to incidents, more colloquial\n- {観客|かんきゃく}: audience, spectator — specifically for shows, sports, and performances",
+  "notes": "Describes someone who watches a situation without participating or intervening. Unlike neutral words for spectator, {傍観者|ぼうかんしゃ} often implies a moral judgment — the person could or should act but chooses not to.\n\nFORMS:\n{傍|ぼう} (beside) + {観|かん} (watch) + ⟦{者|しゃ}→〜者：04662_sha⟧ (person)\n\nCOMMON COLLOCATIONS:\n- {傍観者|ぼうかんしゃ}で⟦いる→いる：00495_iru⟧: to remain a bystander\n- {傍観者|ぼうかんしゃ}⟦の→の：09472_no⟧⟦{立場|たちば}→立場：03403_tachiba⟧: the stance of an onlooker\n- {傍観者|ぼうかんしゃ}⟦{効果|こうか}→効果：02726_kouka⟧: the bystander effect\n- ⟦ただ→ただ：01613_tada⟧⟦の→の：09472_no⟧{傍観者|ぼうかんしゃ}: merely a spectator\n\nSIMILAR WORDS:\n- ⟦{見物人|けんぶつにん}→見物人：27722_kenbutsunin⟧: spectator, sightseer — neutral, used for entertainment or events\n- ⟦{野次馬|やじうま}→野次馬：16403_yajiuma⟧: rubbernecker — curious onlooker drawn to incidents, more colloquial\n- ⟦{観客|かんきゃく}→観客：02556_kankyaku⟧: audience, spectator — specifically for shows, sports, and performances",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -59,7 +59,7 @@
       ]
     },
     "created": "2026-03-29T12:11:21Z",
-    "modified": "2026-07-28T00:51:36Z"
+    "modified": "2026-09-02T04:01:59Z"
   },
   "cross_references": [
     {
@@ -68,6 +68,34 @@
       "reading": "ぼうかん",
       "headword": "{傍観|ぼうかん}",
       "label": "looking on"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27722_kenbutsunin",
+      "reading": "けんぶつにん",
+      "headword": "{見物人|けんぶつにん}",
+      "label": "spectator, sightseer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16403_yajiuma",
+      "reading": "やじうま",
+      "headword": "{野次馬|やじうま}",
+      "label": "rubbernecker"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02556_kankyaku",
+      "reading": "かんきゃく",
+      "headword": "{観客|かんきゃく}",
+      "label": "audience, spectator"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26789_daisansha",
+      "reading": "だいさんしゃ",
+      "headword": "{第三者|だいさんしゃ}",
+      "label": "third party"
     }
   ]
 }

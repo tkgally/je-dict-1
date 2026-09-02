@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "06365_mishin_ex1",
-      "japanese": "ミシンで{服|ふく}を{縫|ぬ}う。",
+      "japanese": "ミシン⟦で→で：00502_de⟧⟦{服|ふく}→服：00695_fuku⟧⟦を→を：00422_wo⟧⟦{縫|ぬ}う→縫う：00326_nuu⟧。",
       "english": "To sew clothes with a sewing machine.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "06365_mishin_ex2",
-      "japanese": "{母|はは}はミシンを{使|つか}ってカーテンを{作|つく}った。",
+      "japanese": "⟦{母|はは}→母：00549_haha⟧⟦は→は：00079_ha⟧ミシン⟦を→を：00422_wo⟧⟦{使|つか}って→使う：00473_tsukau⟧⟦カーテン→カーテン：01342_kaaten⟧⟦を→を：00422_wo⟧⟦{作|つく}った→作る：00481_tsukuru⟧。",
       "english": "My mother made curtains using a sewing machine.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "06365_mishin_ex3",
-      "japanese": "このミシンは{糸|いと}が{絡|から}まりやすい。",
+      "japanese": "⟦この→この：00962_kono⟧ミシン⟦は→は：00079_ha⟧⟦{糸|いと}→糸：01315_ito⟧⟦が→が：00051_ga⟧⟦{絡|から}まり→絡まる：20834_karamaru⟧やすい。",
       "english": "This sewing machine tends to get the thread tangled.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "ETYMOLOGY: From English 'machine', via 'sewing machine'. The Japanese word ミシン is a shortened and altered form of the English word 'machine'.\n\nCOMMON COLLOCATIONS:\n・ミシンで{縫|ぬ}う (to sew with a sewing machine)\n・ミシンをかける (to use/operate a sewing machine)\n・ミシン{目|め} (machine stitching)\n・ミシン{糸|いと} (sewing machine thread)\n\nTYPES:\n・{家庭用|かていよう}ミシン - home sewing machine\n・{工業用|こうぎょうよう}ミシン - industrial sewing machine\n・{電動|でんどう}ミシン - electric sewing machine\n・{足踏|あしぶ}みミシン - treadle sewing machine\n\nRELATED TERMS:\n・{裁縫|さいほう} - sewing, needlework\n・{縫|ぬ}う - to sew\n・{針|はり} - needle\n・{糸|いと} - thread",
+  "notes": "ETYMOLOGY: From English 'machine', via 'sewing machine'. The Japanese word ミシン is a shortened and altered form of the English word 'machine'.\n\nCOMMON COLLOCATIONS:\n- ミシン⟦で→で：00502_de⟧⟦{縫|ぬ}う→縫う：00326_nuu⟧ (to sew with a sewing machine)\n- ミシン⟦を→を：00422_wo⟧⟦かける→かける：00854_kakeru⟧ (to use/operate a sewing machine)\n- ミシン⟦{目|め}→目：00525_me⟧ (machine stitching)\n- ミシン⟦{糸|いと}→糸：01315_ito⟧ (sewing machine thread)\n\nTYPES:\n- ⟦{家庭用|かていよう}→家庭用：16544_kateiyou⟧ミシン - home sewing machine\n- {工業用|こうぎょうよう}ミシン - industrial sewing machine\n- ⟦{電動|でんどう}→電動：06412_dendou⟧ミシン - electric sewing machine\n- ⟦{足踏|あしぶ}み→足踏み：08032_ashibumi⟧ミシン - treadle sewing machine\n\nRELATED WORDS:\n- ⟦{裁縫|さいほう}→裁縫：04163_saihou⟧ - sewing, needlework\n- ⟦{縫|ぬ}う→縫う：00326_nuu⟧ - to sew\n- ⟦{針|はり}→針：03566_hari⟧ - needle\n- ⟦{糸|いと}→糸：01315_ito⟧ - thread",
   "cross_references": [
     {
       "type": "related",
@@ -51,11 +51,53 @@
       "headword": "{編|あ}み{物|もの}",
       "label": "knitting",
       "target_id": "06364_amimono"
+    },
+    {
+      "type": "related",
+      "target_id": "04163_saihou",
+      "reading": "さいほう",
+      "headword": "{裁縫|さいほう}",
+      "label": "sewing, needlework"
+    },
+    {
+      "type": "related",
+      "target_id": "00326_nuu",
+      "reading": "ぬう",
+      "headword": "{縫|ぬ}う",
+      "label": "to sew"
+    },
+    {
+      "type": "related",
+      "target_id": "03566_hari",
+      "reading": "はり",
+      "headword": "{針|はり}",
+      "label": "needle"
+    },
+    {
+      "type": "related",
+      "target_id": "01315_ito",
+      "reading": "いと",
+      "headword": "{糸|いと}",
+      "label": "thread"
+    },
+    {
+      "type": "related",
+      "target_id": "07102_nuime",
+      "reading": "ぬいめ",
+      "headword": "{縫|ぬ}い{目|め}",
+      "label": "seam"
+    },
+    {
+      "type": "related",
+      "target_id": "20802_yousai",
+      "reading": "ようさい",
+      "headword": "{洋裁|ようさい}",
+      "label": "dressmaking"
     }
   ],
   "metadata": {
     "created": "2026-01-17T11:30:34Z",
-    "modified": "2026-06-17T09:34:37Z",
+    "modified": "2026-09-02T04:01:08Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

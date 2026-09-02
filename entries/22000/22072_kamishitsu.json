@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22072_kamishitsu_ex1",
-      "japanese": "{髪質|かみしつ}が{変|か}わった。",
+      "japanese": "{髪質|かみしつ}⟦が→が：00051_ga⟧⟦{変|か}わった→変わる：00714_kawaru⟧。",
       "english": "My hair texture changed.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22072_kamishitsu_ex2",
-      "japanese": "このシャンプーは{髪質|かみしつ}に{合|あ}っている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦シャンプー→シャンプー：04507_shanpuu⟧⟦は→は：00079_ha⟧{髪質|かみしつ}⟦に→に：00314_ni⟧⟦{合|あ}っている→合う：10466_au⟧。",
       "english": "This shampoo suits my hair type.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22072_kamishitsu_ex3",
-      "japanese": "{年齢|ねんれい}とともに{髪質|かみしつ}が{変化|へんか}するので、ヘアケアを{見直|みなお}す{必要|ひつよう}がある。",
+      "japanese": "⟦{年齢|ねんれい}→年齢：01490_nenrei⟧⟦とともに→とともに：30485_totomoni⟧{髪質|かみしつ}⟦が→が：00051_ga⟧⟦{変化|へんか}する→変化する：20997_henkasuru⟧⟦の→の：09472_no⟧で、ヘアケア⟦を→を：00422_wo⟧⟦{見直|みなお}す→見直す：04579_minaosu⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "Since hair quality changes with age, it's necessary to reconsider your hair care routine.",
       "sense_numbers": [
         1
@@ -44,14 +44,32 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {髪|かみ} (hair) and {質|しつ} (quality/nature). Refers to the inherent characteristics of someone's hair — whether it is straight, curly, thick, thin, oily, dry, etc. Commonly used in beauty, hair care, and salon contexts.\n\nCOMMON COLLOCATIONS:\n- {髪質|かみしつ}に{合|あ}う: to suit one's hair type\n- {髪質|かみしつ}を{改善|かいぜん}する: to improve hair quality\n- {髪質|かみしつ}が{柔|やわ}らかい: soft hair texture\n- {髪質|かみしつ}が{硬|かた}い: coarse hair texture\n\nHAIR TYPES:\n- {直毛|ちょくもう}: straight hair\n- {縮毛|しゅくもう}: curly/kinky hair\n- {剛毛|ごうもう}: coarse/thick hair\n- {軟毛|なんもう}: fine/soft hair\n\nSIMILAR WORDS:\n- {肌質|はだしつ} — skin type (same ~{質|しつ} pattern)\n- {毛質|もうしつ} — hair/fur quality (more technical or for animal fur)\n- {髪型|かみがた} — hairstyle (shape, not texture)",
+  "notes": "A compound of ⟦{髪|かみ}→髪：02196_kami⟧ (hair) and ⟦{質|しつ}→質：01425_shitsu⟧ (quality/nature). Refers to the inherent characteristics of someone's hair — whether it is straight, curly, thick, thin, oily, dry, etc. Commonly used in beauty, hair care, and salon contexts.\n\nCOMMON COLLOCATIONS:\n- {髪質|かみしつ}⟦に→に：00314_ni⟧⟦{合|あ}う→合う：10466_au⟧: to suit one's hair type\n- {髪質|かみしつ}⟦を→を：00422_wo⟧⟦{改善|かいぜん}する→改善する：26828_kaizensuru⟧: to improve hair quality\n- {髪質|かみしつ}⟦が→が：00051_ga⟧⟦{柔|やわ}らかい→柔らかい：01096_yawarakai⟧: soft hair texture\n- {髪質|かみしつ}⟦が→が：00051_ga⟧⟦{硬|かた}い→硬い：01116_katai⟧: coarse hair texture\n\nHAIR TYPES:\n- {直毛|ちょくもう}: straight hair\n- {縮毛|しゅくもう}: curly/kinky hair\n- {剛毛|ごうもう}: coarse/thick hair\n- {軟毛|なんもう}: fine/soft hair\n\nSIMILAR WORDS:\n- ⟦{肌質|はだしつ}→肌質：25996_hadashitsu⟧ — skin type (same ~⟦{質|しつ}→質：01425_shitsu⟧ pattern)\n- {毛質|もうしつ} — hair/fur quality (more technical or for animal fur)\n- ⟦{髪型|かみがた}→髪型：14646_kamigata⟧ — hairstyle (shape, not texture)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25996_hadashitsu",
+      "reading": "はだしつ",
+      "headword": "{肌質|はだしつ}",
+      "label": "skin type"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14646_kamigata",
+      "reading": "かみがた",
+      "headword": "{髪型|かみがた}",
+      "label": "hairstyle"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "body",
         "daily-life"
@@ -59,6 +77,6 @@
       "usage_context": []
     },
     "created": "2026-04-04T22:19:39Z",
-    "modified": "2026-04-04T22:19:39Z"
+    "modified": "2026-09-02T04:02:06Z"
   }
 }

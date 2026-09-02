@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26702_rokkaku_ex1",
-      "japanese": "{蜂|はち}の{巣|す}は{六角|ろっかく}の{形|かたち}をしている。",
+      "japanese": "⟦{蜂|はち}の{巣|す}→蜂の巣：24336_hachinosu⟧⟦は→は：00079_ha⟧{六角|ろっかく}⟦の→の：09472_no⟧⟦{形|かたち}→形：02193_katachi⟧⟦を→を：00422_wo⟧⟦している→する：00392_suru⟧。",
       "english": "Honeycomb has a hexagonal shape.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26702_rokkaku_ex2",
-      "japanese": "{六角|ろっかく}レンチで{ネジ|ねじ}を{締|し}めてください。",
+      "japanese": "{六角|ろっかく}⟦レンチ→レンチ：05600_renchi⟧⟦で→で：00502_de⟧ネジ⟦を→を：00422_wo⟧⟦{締|し}めて→締める：10057_shimeru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please tighten the screw with a hex wrench.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26702_rokkaku_ex3",
-      "japanese": "この{建物|たてもの}の{断面|だんめん}は{六角|ろっかく}になっていて、とても{珍|めずら}しいデザインだ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{建物|たてもの}→建物：01458_tatemono⟧⟦の→の：09472_no⟧⟦{断面|だんめん}→断面：21317_danmen⟧⟦は→は：00079_ha⟧{六角|ろっかく}になって⟦いて→いる：00495_iru⟧、⟦とても→とても：00593_totemo⟧⟦{珍|めずら}しい→珍しい：01200_mezurashii⟧⟦デザイン→デザイン：03860_dezain⟧だ。",
       "english": "The cross-section of this building is hexagonal — a very unusual design.",
       "sense_numbers": [
         1
@@ -44,8 +44,23 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {六|ろく} (six) and {角|かく} (angle/corner). Refers to both the geometric shape (hexagon) and the property of being six-sided (hexagonal).\n\nCOMMON COLLOCATIONS:\n- {六角|ろっかく}レンチ: hex wrench / Allen key\n- {六角|ろっかく}{形|けい}: hexagonal shape\n- {六角|ろっかく}ボルト: hex bolt\n- {六角|ろっかく}{柱|ちゅう}: hexagonal prism\n- {正|せい}{六角|ろっかく}{形|けい}: regular hexagon\n\nRELATED TERMS:\n- {三角|さんかく}: triangle — three angles\n- {四角|しかく}: square/rectangle — four angles\n- {五角|ごかく}: pentagon — five angles\n- {八角|はっかく}: octagon — eight angles",
-  "cross_references": [],
+  "notes": "Composed of ⟦{六|ろく}→六：00747_roku⟧ (six) and {角|かく} (angle/corner). Refers to both the geometric shape (hexagon) and the property of being six-sided (hexagonal).\n\nCOMMON COLLOCATIONS:\n- {六角|ろっかく}⟦レンチ→レンチ：05600_renchi⟧: hex wrench / Allen key\n- {六角|ろっかく}{形|けい}: hexagonal shape\n- {六角|ろっかく}⟦ボルト→ボルト：23094_boruto⟧: hex bolt\n- {六角|ろっかく}{柱|ちゅう}: hexagonal prism\n- ⟦{正|せい}→正：09511_sei⟧{六角|ろっかく}{形|けい}: regular hexagon\n\nRELATED WORDS:\n- ⟦{三角|さんかく}→三角：04177_sankaku⟧: triangle — three angles\n- ⟦{四角|しかく}→四角：02836_shikaku⟧: square/rectangle — four angles\n- {五角|ごかく}: pentagon — five angles\n- {八角|はっかく}: octagon — eight angles",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "04177_sankaku",
+      "reading": "さんかく",
+      "headword": "{三角|さんかく}",
+      "label": "triangle"
+    },
+    {
+      "type": "related",
+      "target_id": "02836_shikaku",
+      "reading": "しかく",
+      "headword": "{四角|しかく}",
+      "label": "square/rectangle"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,12 +68,14 @@
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "descriptive",
         "number"
       ]
     },
     "created": "2026-05-04T14:10:28Z",
-    "modified": "2026-08-06T12:44:19Z"
+    "modified": "2026-09-02T04:02:27Z"
   }
 }

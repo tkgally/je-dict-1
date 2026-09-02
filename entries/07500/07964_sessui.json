@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "07964_sessui_ex1",
-      "japanese": "{節水|せっすい}に{心|こころ}がける。",
+      "japanese": "{節水|せっすい}⟦に→に：00314_ni⟧⟦{心|こころ}がける→心がける：10015_kokorogakeru⟧。",
       "english": "I try to conserve water.",
       "sense_numbers": [
         1
@@ -114,7 +114,7 @@
     },
     {
       "id": "07964_sessui_ex2",
-      "japanese": "{節水|せっすい}{型|がた}のシャワーヘッドに{交換|こうかん}した。",
+      "japanese": "{節水|せっすい}{型|がた}⟦の→の：09472_no⟧⟦シャワー→シャワー：04503_shawaa⟧ヘッド⟦に→に：00314_ni⟧⟦{交換|こうかん}→交換：02746_koukan⟧⟦した→する：00392_suru⟧。",
       "english": "I replaced it with a water-saving shower head.",
       "sense_numbers": [
         1
@@ -124,7 +124,7 @@
     },
     {
       "id": "07964_sessui_ex3",
-      "japanese": "{渇水|かっすい}{期|き}には{節水|せっすい}への{協力|きょうりょく}が{呼|よ}びかけられる。",
+      "japanese": "⟦{渇水|かっすい}→渇水：08325_kassui⟧{期|き}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{節水|せっすい}⟦へ→へ：02473_he⟧⟦の→の：09472_no⟧⟦{協力|きょうりょく}→協力：00261_kyouryoku⟧⟦が→が：00051_ga⟧⟦{呼|よ}びかけられる→呼びかける：06480_yobikakeru⟧。",
       "english": "During drought periods, cooperation in water conservation is called for.",
       "sense_numbers": [
         1
@@ -133,7 +133,7 @@
       "notes": null
     }
   ],
-  "notes": "{節水|せっすい} means water conservation, an important concept especially during water shortages.\n\nKANJI BREAKDOWN:\n- {節|せつ} (economize, moderate)\n- {水|すい} (water)\n\nUSAGE:\n- {節水|せっすい}する (to conserve water - suru verb)\n- {節水|せっすい}に{努|つと}める (to make efforts to save water)\n\nCOMMON COMPOUNDS:\n- {節水|せっすい}{型|がた} (water-saving type)\n- {節水|せっすい}{器具|きぐ} (water-saving devices)\n- {節水|せっすい}{運動|うんどう} (water conservation campaign)\n\nWHEN USED:\n- {渇水|かっすい} (drought) periods\n- Summer months when demand is high\n- Environmental awareness campaigns\n\nRELATED TERMS:\n- {節電|せつでん} (electricity conservation)\n- {省|しょう}エネ (energy saving)\n- {水道|すいどう}{料金|りょうきん} (water bill)",
+  "notes": "{節水|せっすい} means water conservation, an important concept especially during water shortages.\n\nWRITING:\n- ⟦{節|せつ}→節：19359_setsu⟧ (economize, moderate)\n- {水|すい} (water)\n\nUSAGE:\n- {節水|せっすい}⟦する→する：00392_suru⟧ (to conserve water - suru verb)\n- {節水|せっすい}⟦に→に：00314_ni⟧⟦{努|つと}める→努める：17701_tsutomeru⟧ (to make efforts to save water)\n\nCOMPOUNDS:\n- {節水|せっすい}{型|がた} (water-saving type)\n- {節水|せっすい}⟦{器具|きぐ}→器具：03980_kigu⟧ (water-saving devices)\n- {節水|せっすい}⟦{運動|うんどう}→運動：00821_undou⟧ (water conservation campaign)\n\nWHEN USED:\n- ⟦{渇水|かっすい}→渇水：08325_kassui⟧ (drought) periods\n- Summer months when demand is high\n- Environmental awareness campaigns\n\nRELATED WORDS:\n- ⟦{節電|せつでん}→節電：07136_setsuden⟧ (electricity conservation)\n- ⟦{省|しょう}エネ→省エネ：06308_shouene⟧ (energy saving)\n- ⟦{水道|すいどう}{料金|りょうきん}→水道料金：22703_suidouryoukin⟧ (water bill)",
   "cross_references": [
     {
       "type": "related",
@@ -141,6 +141,27 @@
       "headword": "{節電|せつでん}",
       "label": "electricity conservation",
       "target_id": "07136_setsuden"
+    },
+    {
+      "type": "related",
+      "target_id": "06308_shouene",
+      "reading": "しょうえね",
+      "headword": "{省|しょう}エネ",
+      "label": "energy saving"
+    },
+    {
+      "type": "related",
+      "target_id": "22703_suidouryoukin",
+      "reading": "すいどうりょうきん",
+      "headword": "{水道料金|すいどうりょうきん}",
+      "label": "water bill"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22604_chosui",
+      "reading": "ちょすい",
+      "headword": "{貯水|ちょすい}",
+      "label": "water storage"
     }
   ],
   "metadata": {
@@ -159,6 +180,6 @@
       "verb_class": "suru"
     },
     "created": "2026-01-23T10:45:56Z",
-    "modified": "2026-08-11T09:37:41Z"
+    "modified": "2026-09-02T04:01:13Z"
   }
 }

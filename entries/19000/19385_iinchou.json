@@ -15,34 +15,67 @@
   "examples": [
     {
       "id": "19385_iinchou_ex1",
-      "japanese": "{委員長|いいんちょう}に{選|えら}ばれた。",
+      "japanese": "{委員長|いいんちょう}⟦に→に：00314_ni⟧⟦{選|えら}ばれた→選ぶ：00835_erabu⟧。",
       "english": "I was chosen as the committee chairperson.",
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "19385_iinchou_ex2",
-      "japanese": "クラスの{委員長|いいんちょう}が{連絡事項|れんらくじこう}を{伝|つた}えた。",
+      "japanese": "⟦クラス→クラス：01084_kurasu⟧⟦の→の：09472_no⟧{委員長|いいんちょう}⟦が→が：00051_ga⟧{連絡事項|れんらくじこう}⟦を→を：00422_wo⟧⟦{伝|つた}えた→伝える：01220_tsutaeru⟧。",
       "english": "The class representative conveyed the announcements.",
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "19385_iinchou_ex3",
-      "japanese": "{選挙管理|せんきょかんり}{委員長|いいんちょう}が{結果|けっか}を{発表|はっぴょう}した。",
+      "japanese": "{選挙管理|せんきょかんり}{委員長|いいんちょう}⟦が→が：00051_ga⟧⟦{結果|けっか}→結果：02486_kekka⟧⟦を→を：00422_wo⟧⟦{発表|はっぴょう}した→発表する：25231_happyousuru⟧。",
       "english": "The election commission chairperson announced the results.",
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{委員長|いいんちょう} is the head or presiding officer of a committee, formed from {委員|いいん} (committee member) + {長|ちょう} (head/chief). In school contexts it often refers to the class representative who handles announcements and organizational duties.\n\nCOMMON TYPES:\n- クラス{委員長|いいんちょう} — class representative\n- {実行|じっこう}{委員長|いいんちょう} — executive committee chair\n- {選挙管理|せんきょかんり}{委員長|いいんちょう} — election commission chair\n\nRELATED WORDS:\n- {委員|いいん} — committee member\n- {委員会|いいんかい} — committee; commission\n- {会長|かいちょう} — president (of an organization)\n- {議長|ぎちょう} — chairperson (of a legislative body)",
+  "notes": "{委員長|いいんちょう} is the head or presiding officer of a committee, formed from ⟦{委員|いいん}→委員：01708_iin⟧ (committee member) + {長|ちょう} (head/chief). In school contexts it often refers to the class representative who handles announcements and organizational duties.\n\nTYPES:\n- ⟦クラス→クラス：01084_kurasu⟧{委員長|いいんちょう} — class representative\n- ⟦{実行|じっこう}→実行：03274_jikkou⟧{委員長|いいんちょう} — executive committee chair\n- {選挙管理|せんきょかんり}{委員長|いいんちょう} — election commission chair\n\nRELATED WORDS:\n- ⟦{委員|いいん}→委員：01708_iin⟧ — committee member\n- ⟦{委員会|いいんかい}→委員会：12234_iinkai⟧ — committee; commission\n- ⟦{会長|かいちょう}→会長：11610_kaichou⟧ — president (of an organization)\n- ⟦{議長|ぎちょう}→議長：02681_gichou⟧ — chairperson (of a legislative body)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "12234_iinkai",
+      "reading": "いいんかい",
+      "headword": "{委員会|いいんかい}",
+      "label": "committee"
+    },
+    {
+      "type": "related",
+      "target_id": "11610_kaichou",
+      "reading": "かいちょう",
+      "headword": "{会長|かいちょう}",
+      "label": "president"
+    },
+    {
+      "type": "related",
+      "target_id": "02681_gichou",
+      "reading": "ぎちょう",
+      "headword": "{議長|ぎちょう}",
+      "label": "chairperson"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["person"]
+      "semantic": [
+        "person"
+      ]
     },
     "created": "2026-03-25T12:57:22Z",
-    "modified": "2026-03-25T12:57:22Z"
+    "modified": "2026-09-02T04:01:55Z"
   }
 }

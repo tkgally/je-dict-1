@@ -3,7 +3,7 @@
   "id": "17501_choukihoyuu",
   "headword": "{長期保有|ちょうきほゆう}",
   "reading": "ちょうきほゆう",
-  "part_of_speech": "noun / verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "long-term holding; long-term ownership",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "17501_choukihoyuu_ex1",
-      "japanese": "{株|かぶ}を{長期保有|ちょうきほゆう}するつもりだ。",
+      "japanese": "⟦{株|かぶ}→株：02592_kabu⟧⟦を→を：00422_wo⟧{長期保有|ちょうきほゆう}⟦する→する：00392_suru⟧⟦つもり→つもり：01152_tsumori⟧だ。",
       "english": "I plan to hold the stocks long-term.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "17501_choukihoyuu_ex2",
-      "japanese": "{長期保有|ちょうきほゆう}の{投資家|とうしか}は{短期的|たんきてき}な{値動|ねうご}きをあまり{気|き}にしない。",
+      "japanese": "{長期保有|ちょうきほゆう}⟦の→の：09472_no⟧⟦{投資家|とうしか}→投資家：16242_toushika⟧⟦は→は：00079_ha⟧{短期的|たんきてき}な⟦{値動|ねうご}き→値動き：09403_neugoki⟧⟦を→を：00422_wo⟧⟦あまり→あまり：00604_amari⟧⟦{気|き}にしない→気にする：03026_kinisuru⟧。",
       "english": "Long-term investors don't worry much about short-term price movements.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "17501_choukihoyuu_ex3",
-      "japanese": "{不動産|ふどうさん}の{長期保有|ちょうきほゆう}は{安定|あんてい}した{資産形成|しさんけいせい}につながることが{多|おお}い。",
+      "japanese": "⟦{不動産|ふどうさん}→不動産：06726_fudousan⟧⟦の→の：09472_no⟧{長期保有|ちょうきほゆう}⟦は→は：00079_ha⟧⟦{安定|あんてい}→安定：01703_antei⟧⟦した→する：00392_suru⟧{資産形成|しさんけいせい}⟦に→に：00314_ni⟧つながること⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "Long-term holding of real estate often leads to stable asset building.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,11 @@
       ]
     }
   ],
-  "notes": "USAGE:\nComposed of {長期|ちょうき} (long-term) + {保有|ほゆう} (holding, ownership). A standard financial term used in discussions about investment strategy, real estate, and asset management.\n\nCOMMON COLLOCATIONS:\n- {長期保有|ちょうきほゆう}{目的|もくてき} (for long-term holding purposes)\n- {長期保有|ちょうきほゆう}{株主|かぶぬし} (long-term shareholder)\n- {長期保有|ちょうきほゆう}{特典|とくてん} (long-term holding benefits/perks)\n\nSIMILAR TERMS:\n- {短期保有|たんきほゆう}: short-term holding — the opposite\n- {長期投資|ちょうきとうし}: long-term investment — broader concept",
+  "notes": "USAGE:\nComposed of ⟦{長期|ちょうき}→長期：03487_chouki⟧ (long-term) + ⟦{保有|ほゆう}→保有：11615_hoyuu⟧ (holding, ownership). A standard financial term used in discussions about investment strategy, real estate, and asset management.\n\nCOMMON COLLOCATIONS:\n- {長期保有|ちょうきほゆう}⟦{目的|もくてき}→目的：02433_mokuteki⟧ (for long-term holding purposes)\n- {長期保有|ちょうきほゆう}⟦{株主|かぶぬし}→株主：15274_kabunushi⟧ (long-term shareholder)\n- {長期保有|ちょうきほゆう}⟦{特典|とくてん}→特典：13469_tokuten⟧ (long-term holding benefits/perks)\n\nSIMILAR WORDS:\n- {短期保有|たんきほゆう}: short-term holding — the opposite\n- {長期投資|ちょうきとうし}: long-term investment — broader concept",
   "cross_references": [],
   "metadata": {
     "created": "2026-03-18T04:32:35Z",
-    "modified": "2026-03-29T03:08:18Z",
+    "modified": "2026-09-02T04:01:48Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -154,7 +154,8 @@
       "domain": [
         "business"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

@@ -3,7 +3,7 @@
   "headword": "{日本風|にほんふう}",
   "reading": "にほんふう",
   "romaji": "nihonfuu",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "Japanese style; Japanese-style",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26055_nihonfuu_ex1",
-      "japanese": "{日本風|にほんふう}の{庭|にわ}が{好|す}きだ。",
+      "japanese": "{日本風|にほんふう}⟦の→の：09472_no⟧⟦{庭|にわ}→庭：02239_niwa⟧⟦が→が：00051_ga⟧⟦{好|す}き→好き：02355_suki⟧だ。",
       "english": "I like Japanese-style gardens.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26055_nihonfuu_ex2",
-      "japanese": "この{建物|たてもの}は{日本風|にほんふう}に{建|た}てられている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{建物|たてもの}→建物：01458_tatemono⟧⟦は→は：00079_ha⟧{日本風|にほんふう}⟦に→に：00314_ni⟧⟦{建|た}てられている→建てる：01189_tateru⟧。",
       "english": "This building was constructed in the Japanese style.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26055_nihonfuu_ex3",
-      "japanese": "{海外|かいがい}のレストランで{日本風|にほんふう}のカレーが{人気|にんき}を{集|あつ}めている。",
+      "japanese": "⟦{海外|かいがい}→海外：00134_kaigai⟧⟦の→の：09472_no⟧⟦レストラン→レストラン：01048_resutoran⟧⟦で→で：00502_de⟧{日本風|にほんふう}⟦の→の：09472_no⟧⟦カレー→カレー：02898_karee⟧⟦が→が：00051_ga⟧⟦{人気|にんき}→人気：01488_ninki⟧⟦を→を：00422_wo⟧⟦{集|あつ}めている→集める：01170_atsumeru⟧。",
       "english": "Japanese-style curry is gaining popularity at overseas restaurants.",
       "sense_numbers": [
         1
@@ -44,20 +44,36 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {日本|にほん} (Japan) + {風|ふう} (style, manner). The suffix {風|ふう} is highly productive and attaches to country names, proper nouns, and other words to mean 'in the style of.' Can be used as a noun or as a modifier with の.\n\nCOMMON COLLOCATIONS:\n- {日本風|にほんふう}の{家|いえ}: Japanese-style house\n- {日本風|にほんふう}の{料理|りょうり}: Japanese-style cooking\n- {日本風|にほんふう}にアレンジする: to arrange in the Japanese style\n\nSIMILAR PATTERNS WITH {風|ふう}:\n- {西洋風|せいようふう}: Western style\n- {中華風|ちゅうかふう}: Chinese style\n- {洋風|ようふう}: Western/European style\n- {和風|わふう}: Japanese style (more common synonym using the {和|わ} prefix)\n\nSIMILAR WORDS:\n- {和風|わふう}: Japanese style -- more commonly used in everyday contexts, especially for food and design\n- {日本式|にほんしき}: Japanese method/system -- emphasizes the system or method rather than aesthetic style\n- {和様|わよう}: Japanese style -- literary/formal, used for architecture and calligraphy",
+  "notes": "Composed of ⟦{日本|にほん}→日本：03876_nihon⟧ (Japan) + {風|ふう} (style, manner). The suffix {風|ふう} is highly productive and attaches to country names, proper nouns, and other words to mean 'in the style of.' Can be used as a noun or as a modifier with ⟦の→の：09472_no⟧.\n\nCOMMON COLLOCATIONS:\n- {日本風|にほんふう}⟦の→の：09472_no⟧⟦{家|いえ}→家：00612_ie⟧: Japanese-style house\n- {日本風|にほんふう}⟦の→の：09472_no⟧⟦{料理|りょうり}→料理：01523_ryouri⟧: Japanese-style cooking\n- {日本風|にほんふう}⟦に→に：00314_ni⟧⟦アレンジ→アレンジ：08148_arenji⟧⟦する→する：00392_suru⟧: to arrange in the Japanese style\n\nSIMILAR PATTERNS WITH {風|ふう}:\n- {西洋風|せいようふう}: Western style\n- {中華風|ちゅうかふう}: Chinese style\n- ⟦{洋風|ようふう}→洋風：13282_youfuu⟧: Western/European style\n- ⟦{和風|わふう}→和風：12034_wafuu⟧: Japanese style (more common synonym using the {和|わ} prefix)\n\nSIMILAR WORDS:\n- ⟦{和風|わふう}→和風：12034_wafuu⟧: Japanese style -- more commonly used in everyday contexts, especially for food and design\n- ⟦{日本式|にほんしき}→日本式：28462_nihonshiki⟧: Japanese method/system -- emphasizes the system or method rather than aesthetic style\n- {和様|わよう}: Japanese style -- literary/formal, used for architecture and calligraphy",
   "metadata": {
     "tags": {
       "pos": [
         "noun",
         "adjective-no"
       ],
+      "politeness": "plain",
       "semantic": [
         "general"
       ]
     },
     "vocabulary_tier": "general",
     "created": "2026-04-29T11:21:16Z",
-    "modified": "2026-04-29T11:21:16Z"
+    "modified": "2026-09-02T04:02:24Z"
   },
-  "cross_references": []
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12034_wafuu",
+      "reading": "わふう",
+      "headword": "{和風|わふう}",
+      "label": "Japanese style -- more commonly used…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28462_nihonshiki",
+      "reading": "にほんしき",
+      "headword": "{日本式|にほんしき}",
+      "label": "Japanese method/system -- emphasizes…"
+    }
+  ]
 }

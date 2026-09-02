@@ -15,40 +15,73 @@
   "examples": [
     {
       "id": "27658_haisetsubutsu_ex1",
-      "japanese": "{動物|どうぶつ}の{排泄物|はいせつぶつ}を{処理|しょり}する。",
+      "japanese": "⟦{動物|どうぶつ}→動物：01480_doubutsu⟧⟦の→の：09472_no⟧{排泄物|はいせつぶつ}⟦を→を：00422_wo⟧⟦{処理|しょり}する→処理する：25531_shorisuru⟧。",
       "english": "To dispose of animal waste.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27658_haisetsubutsu_ex2",
-      "japanese": "{排泄物|はいせつぶつ}から{健康|けんこう}{状態|じょうたい}がわかる。",
+      "japanese": "{排泄物|はいせつぶつ}⟦から→から：00504_kara⟧⟦{健康|けんこう}{状態|じょうたい}→健康状態：20473_kenkoujoutai⟧⟦が→が：00051_ga⟧わかる。",
       "english": "A person's health condition can be told from their bodily waste.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27658_haisetsubutsu_ex3",
-      "japanese": "ペットの{排泄物|はいせつぶつ}は{飼|か}い{主|ぬし}が{責任|せきにん}を{持|も}って{片付|かたづ}ける。",
+      "japanese": "⟦ペット→ペット：02959_petto⟧⟦の→の：09472_no⟧{排泄物|はいせつぶつ}⟦は→は：00079_ha⟧⟦{飼|か}い{主|ぬし}→飼い主：15281_kainushi⟧⟦が→が：00051_ga⟧⟦{責任|せきにん}→責任：03298_sekinin⟧⟦を→を：00422_wo⟧⟦{持|も}って→持つ：00478_motsu⟧⟦{片付|かたづ}ける→片付ける：01192_katazukeru⟧。",
       "english": "Pet owners are responsible for cleaning up their pet's waste.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A neutral, clinical term covering urine, feces, and other matter excreted by the body. Preferred in medical, veterinary, and sanitation writing over blunter everyday words.\n\nCOMMON COLLOCATIONS:\n- {排泄物|はいせつぶつ}を{処理|しょり}する: to dispose of bodily waste\n- {排泄物|はいせつぶつ}の{検査|けんさ}: examination of excreta\n\nSIMILAR WORDS:\n- {排泄|はいせつ}: excretion — the act or process ({排泄物|はいせつぶつ} is the matter itself)\n- {糞|ふん}: droppings; dung — refers specifically to feces, often of animals\n- うんち: poop — casual, childish everyday word",
+  "notes": "A neutral, clinical term covering urine, feces, and other matter excreted by the body. Preferred in medical, veterinary, and sanitation writing over blunter everyday words.\n\nCOMMON COLLOCATIONS:\n- {排泄物|はいせつぶつ}⟦を→を：00422_wo⟧⟦{処理|しょり}する→処理する：25531_shorisuru⟧: to dispose of bodily waste\n- {排泄物|はいせつぶつ}⟦の→の：09472_no⟧⟦{検査|けんさ}→検査：02707_kensa⟧: examination of excreta\n\nSIMILAR WORDS:\n- ⟦{排泄|はいせつ}→排泄：19181_haisetsu⟧: excretion — the act or process ({排泄物|はいせつぶつ} is the matter itself)\n- ⟦{糞|ふん}→糞：24450_fun⟧: droppings; dung — refers specifically to feces, often of animals\n- ⟦うんち→うんち：09084_unchi⟧: poop — casual, childish everyday word",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24450_fun",
+      "reading": "ふん",
+      "headword": "{糞|ふん}",
+      "label": "droppings"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09084_unchi",
+      "reading": "うんち",
+      "headword": "うんち",
+      "label": "poop"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28572_rouhaibutsu",
+      "reading": "ろうはいぶつ",
+      "headword": "{老廃物|ろうはいぶつ}",
+      "label": "waste products (biological)"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     },
     "created": "2026-05-16T03:10:15Z",
-    "modified": "2026-05-16T03:10:15Z"
+    "modified": "2026-09-02T04:02:31Z"
   }
 }

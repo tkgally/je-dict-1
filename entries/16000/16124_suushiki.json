@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "16124_suushiki_ex1",
-      "japanese": "この{数式|すうしき}を{解|と}いてください。",
+      "japanese": "⟦この→この：00962_kono⟧{数式|すうしき}⟦を→を：00422_wo⟧⟦{解|と}いて→解く：02301_toku⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please solve this equation.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16124_suushiki_ex2",
-      "japanese": "{複雑|ふくざつ}な{数式|すうしき}をコンピュータで{計算|けいさん}した。",
+      "japanese": "⟦{複雑|ふくざつ}→複雑：01115_fukuzatsu⟧な{数式|すうしき}⟦を→を：00422_wo⟧⟦コンピュータ→コンピュータ：01992_konpyuuta⟧⟦で→で：00502_de⟧⟦{計算|けいさん}した→計算する：25526_keisansuru⟧。",
       "english": "I calculated the complex formula using a computer.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16124_suushiki_ex3",
-      "japanese": "{物理学|ぶつりがく}では、{自然現象|しぜんげんしょう}を{数式|すうしき}で{表|あらわ}すことが{多|おお}い。",
+      "japanese": "⟦{物理学|ぶつりがく}→物理学：09631_butsurigaku⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧、⟦{自然現象|しぜんげんしょう}→自然現象：24467_shizengenshou⟧⟦を→を：00422_wo⟧{数式|すうしき}⟦で→で：00502_de⟧⟦{表|あらわ}す→表す：01868_arawasu⟧こと⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "In physics, natural phenomena are often expressed using mathematical formulas.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{数式|すうしき} refers to any mathematical expression or formula, from simple arithmetic to complex equations. It combines {数|すう} (number) and {式|しき} (expression, formula).\n\nCOMMON COLLOCATIONS:\n- {数式|すうしき}を{解|と}く (solve an equation)\n- {数式|すうしき}を{立|た}てる (set up an equation)\n- {数式|すうしき}で{表|あらわ}す (express in a formula)\n- {数式|すうしき}{処理|しょり} (formula processing)\n- {複雑|ふくざつ}な{数式|すうしき} (complex formula)\n\nSIMILAR WORDS:\n- {方程式|ほうていしき}: equation (specifically an equation with unknowns to solve)\n- {公式|こうしき}: formula (an established, standard formula)\n- {算式|さんしき}: arithmetic expression (simpler calculations)\n- {数式|すうしき} is the most general term, covering all types of mathematical expressions\n\nDOMAIN:\nUsed in mathematics, science, and computing contexts. The compound {数式|すうしき}エディタ (formula editor) is common in software.",
+  "notes": "{数式|すうしき} refers to any mathematical expression or formula, from simple arithmetic to complex equations. It combines ⟦{数|すう}→数：03360_suu⟧ (number) and {式|しき} (expression, formula).\n\nCOMMON COLLOCATIONS:\n- {数式|すうしき}⟦を→を：00422_wo⟧⟦{解|と}く→解く：02301_toku⟧ (solve an equation)\n- {数式|すうしき}⟦を→を：00422_wo⟧⟦{立|た}てる→立てる：01196_tateru⟧ (set up an equation)\n- {数式|すうしき}⟦で→で：00502_de⟧⟦{表|あらわ}す→表す：01868_arawasu⟧ (express in a formula)\n- {数式|すうしき}⟦{処理|しょり}→処理：03251_shori⟧ (formula processing)\n- ⟦{複雑|ふくざつ}→複雑：01115_fukuzatsu⟧な{数式|すうしき} (complex formula)\n\nSIMILAR WORDS:\n- ⟦{方程式|ほうていしき}→方程式：04795_houteishiki⟧: equation (specifically an equation with unknowns to solve)\n- ⟦{公式|こうしき}→公式：04167_koushiki⟧: formula (an established, standard formula)\n- {算式|さんしき}: arithmetic expression (simpler calculations)\n- {数式|すうしき} is the most general term, covering all types of mathematical expressions\n\nDOMAIN:\nUsed in mathematics, science, and computing contexts. The compound {数式|すうしき}エディタ (formula editor) is common in software.",
   "cross_references": [
     {
       "type": "contrast",
@@ -46,17 +52,35 @@
       "reading": "ほうていしき",
       "headword": "{方程式|ほうていしき}",
       "label": "equation (requires equality)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04167_koushiki",
+      "reading": "こうしき",
+      "headword": "{公式|こうしき}",
+      "label": "formula"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27948_keisanshiki",
+      "reading": "けいさんしき",
+      "headword": "{計算式|けいさんしき}",
+      "label": "mathematical expression"
     }
   ],
   "metadata": {
     "created": "2026-03-10T00:14:19Z",
-    "modified": "2026-04-08T12:34:10Z",
+    "modified": "2026-09-02T04:01:43Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["science"]
+      "semantic": [
+        "science"
+      ]
     }
   }
 }

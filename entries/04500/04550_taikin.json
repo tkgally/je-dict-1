@@ -2,7 +2,7 @@
   "id": "04550_taikin",
   "headword": "{退勤|たいきん}",
   "reading": "たいきん",
-  "part_of_speech": "noun/suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "leaving work",
   "conjugation": {
     "type": "suru",
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "{退勤|たいきん} means leaving work for the day — the formal counterpart of casual expressions like ⟦{仕事|しごと}→仕事：00480_shigoto⟧が⟦{終|お}わる→終わる：00567_owaru⟧ or ⟦{上|あ}がる→上がる：00615_agaru⟧.\n\nWORD FORMATION:\n{退|たい} (withdraw, leave) + {勤|きん} (work, service)\n\nCOMMON COLLOCATIONS:\n- {退勤|たいきん}⟦{時間|じかん}→時間：00468_jikan⟧: clock-out time\n- {退勤|たいきん}⟦{後|ご}→後：09580_ato⟧: after leaving work\n- {退勤|たいきん}する: to leave work, to clock out\n- {退勤|たいきん}⟦{打刻|だこく}→打刻：28561_dakoku⟧: clocking out (punching the time card)\n\nCONTRAST:\n- {退勤|たいきん} (leaving work) ↔ ⟦{出勤|しゅっきん}→出勤：04548_shukkin⟧ (going to work)\n- ⟦{退社|たいしゃ}→退社：06156_taisha⟧ can mean either leaving the office for the day OR leaving the company (quitting)\n\nRELATED EXPRESSIONS:\n- ⟦タイムカード→タイムカード：28560_taimukaado⟧を⟦{押|お}す→押す：02854_osu⟧: to punch the time card\n- {打刻|だこく}する: to clock in/out\n- ⟦{定時|ていじ}→定時：07697_teiji⟧で⟦{上|あ}がる→上がる：00615_agaru⟧: to leave at the regular time\n- ⟦{残業|ざんぎょう}→残業：01071_zangyou⟧: overtime work\n\nREGISTER:\nFormal/workplace term. Used on time cards, attendance systems, and workplace communication.",
+  "notes": "{退勤|たいきん} means leaving work for the day — the formal counterpart of casual expressions like ⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦が→が：00051_ga⟧⟦{終|お}わる→終わる：00567_owaru⟧ or ⟦{上|あ}がる→上がる：00615_agaru⟧.\n\nFORMS:\n{退|たい} (withdraw, leave) + {勤|きん} (work, service)\n\nCOMMON COLLOCATIONS:\n- {退勤|たいきん}⟦{時間|じかん}→時間：00468_jikan⟧: clock-out time\n- {退勤|たいきん}⟦{後|ご}→後：09580_ato⟧: after leaving work\n- {退勤|たいきん}⟦する→する：00392_suru⟧: to leave work, to clock out\n- {退勤|たいきん}⟦{打刻|だこく}→打刻：28561_dakoku⟧: clocking out (punching the time card)\n\nSIMILAR WORDS:\n- {退勤|たいきん} (leaving work) ↔ ⟦{出勤|しゅっきん}→出勤：04548_shukkin⟧ (going to work)\n- ⟦{退社|たいしゃ}→退社：06156_taisha⟧ can mean either leaving the office for the day OR leaving the company (quitting)\n\nRELATED WORDS:\n- ⟦タイムカード→タイムカード：28560_taimukaado⟧⟦を→を：00422_wo⟧⟦{押|お}す→押す：02854_osu⟧: to punch the time card\n- ⟦{打刻|だこく}→打刻：28561_dakoku⟧⟦する→する：00392_suru⟧: to clock in/out\n- ⟦{定時|ていじ}→定時：07697_teiji⟧⟦で→で：00502_de⟧⟦{上|あ}がる→上がる：00615_agaru⟧: to leave at the regular time\n- ⟦{残業|ざんぎょう}→残業：01071_zangyou⟧: overtime work\n\nREGISTER:\nFormal/workplace term. Used on time cards, attendance systems, and workplace communication.",
   "cross_references": [
     {
       "type": "antonym",
@@ -148,11 +148,46 @@
       "reading": "きんむ",
       "headword": "{勤務|きんむ}",
       "label": "work, service (general)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06156_taisha",
+      "reading": "たいしゃ",
+      "headword": "{退社|たいしゃ}",
+      "label": "can mean either leaving the office…"
+    },
+    {
+      "type": "related",
+      "target_id": "28561_dakoku",
+      "reading": "だこく",
+      "headword": "{打刻|だこく}",
+      "label": "to clock in/out"
+    },
+    {
+      "type": "related",
+      "target_id": "01071_zangyou",
+      "reading": "ざんぎょう",
+      "headword": "{残業|ざんぎょう}",
+      "label": "overtime work"
+    },
+    {
+      "type": "related",
+      "target_id": "07697_teiji",
+      "reading": "ていじ",
+      "headword": "{定時|ていじ}",
+      "label": "regular time"
+    },
+    {
+      "type": "related",
+      "target_id": "07699_chokki",
+      "reading": "ちょっき",
+      "headword": "{直帰|ちょっき}",
+      "label": "going straight home"
     }
   ],
   "metadata": {
     "created": "2026-01-14T19:01:55Z",
-    "modified": "2026-08-16T03:20:35Z",
+    "modified": "2026-09-02T04:01:05Z",
     "ai_model": "claude-opus-4-5-20251101",
     "vocabulary_tier": "general",
     "tags": {

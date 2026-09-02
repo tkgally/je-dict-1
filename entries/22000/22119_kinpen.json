@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22119_kinpen_ex1",
-      "japanese": "この{近辺|きんぺん}にコンビニはありますか。",
+      "japanese": "⟦この→この：00962_kono⟧{近辺|きんぺん}⟦に→に：00314_ni⟧⟦コンビニ→コンビニ：01081_konbini⟧⟦は→は：00079_ha⟧⟦あります→ある：00006_aru⟧⟦か→か：09473_ka⟧。",
       "english": "Is there a convenience store around here?",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22119_kinpen_ex2",
-      "japanese": "{駅|えき}{近辺|きんぺん}は{夜|よる}でもにぎやかだ。",
+      "japanese": "⟦{駅|えき}→駅：02180_eki⟧{近辺|きんぺん}⟦は→は：00079_ha⟧⟦{夜|よる}→夜：00487_yoru⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧⟦にぎやか→にぎやか：00873_nigiyaka⟧だ。",
       "english": "The area near the station is lively even at night.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22119_kinpen_ex3",
-      "japanese": "{事故|じこ}{現場|げんば}の{近辺|きんぺん}に{住|す}んでいる{住民|じゅうみん}に{聞|き}き{取|と}り{調査|ちょうさ}を{行|おこな}った。",
+      "japanese": "⟦{事故|じこ}→事故：00851_jiko⟧⟦{現場|げんば}→現場：02723_genba⟧⟦の→の：09472_no⟧{近辺|きんぺん}⟦に→に：00314_ni⟧⟦{住|す}んでいる→住む：00673_sumu⟧⟦{住民|じゅうみん}→住民：03281_juumin⟧⟦に→に：00314_ni⟧⟦{聞|き}き{取|と}り{調査|ちょうさ}→聞き取り調査：24892_kikitorichousa⟧⟦を→を：00422_wo⟧⟦{行|おこな}った→行う：01238_okonau⟧。",
       "english": "Interviews were conducted with residents living in the vicinity of the accident site.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {近|きん} (near) + {辺|ぺん} (area, side). More formal than {近|ちか}く and less formal than {付近|ふきん}. Commonly used in directions, location descriptions, and news reports.\n\nCOMMON COLLOCATIONS:\n- この{近辺|きんぺん}: around here\n- {駅|えき}{近辺|きんぺん}: near the station\n- {学校|がっこう}{近辺|きんぺん}: near the school\n- {近辺|きんぺん}に{住|す}む: to live in the vicinity\n\nSIMILAR WORDS:\n- {近|ちか}く: nearby — the most common and casual option\n- {付近|ふきん}: vicinity — more formal, often used in news and official notices\n- {辺|あた}り: around, in the area of — casual, versatile\n- {周辺|しゅうへん}: surrounding area — emphasizes the area encircling a point",
+  "notes": "Composed of {近|きん} (near) + {辺|ぺん} (area, side). More formal than {近|ちか}く and less formal than ⟦{付近|ふきん}→付近：00044_fukin⟧. Commonly used in directions, location descriptions, and news reports.\n\nCOMMON COLLOCATIONS:\n- ⟦この→この：00962_kono⟧{近辺|きんぺん}: around here\n- ⟦{駅|えき}→駅：02180_eki⟧{近辺|きんぺん}: near the station\n- ⟦{学校|がっこう}→学校：00055_gakkou⟧{近辺|きんぺん}: near the school\n- {近辺|きんぺん}⟦に→に：00314_ni⟧⟦{住|す}む→住む：00673_sumu⟧: to live in the vicinity\n\nSIMILAR WORDS:\n- {近|ちか}く: nearby — the most common and casual option\n- ⟦{付近|ふきん}→付近：00044_fukin⟧: vicinity — more formal, often used in news and official notices\n- ⟦{辺|あた}り→辺り：01770_atari⟧: around, in the area of — casual, versatile\n- ⟦{周辺|しゅうへん}→周辺：09896_shuuhen⟧: surrounding area — emphasizes the area encircling a point",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00044_fukin",
+      "reading": "ふきん",
+      "headword": "{付近|ふきん}",
+      "label": "vicinity"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01770_atari",
+      "reading": "あたり",
+      "headword": "{辺|あた}り",
+      "label": "around, in the area of"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09896_shuuhen",
+      "reading": "しゅうへん",
+      "headword": "{周辺|しゅうへん}",
+      "label": "surrounding area"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +82,6 @@
       ]
     },
     "created": "2026-04-05T03:32:14Z",
-    "modified": "2026-04-10T08:28:27Z"
+    "modified": "2026-09-02T04:02:06Z"
   }
 }

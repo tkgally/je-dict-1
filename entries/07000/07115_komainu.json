@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "07115_komainu_ex1",
-      "japanese": "{神社|じんじゃ}の{入|い}り{口|ぐち}に{狛犬|こまいぬ}がある。",
+      "japanese": "⟦{神社|じんじゃ}→神社：01620_jinja⟧⟦の→の：09472_no⟧⟦{入|い}り{口|ぐち}→入り口：02507_iriguchi⟧⟦に→に：00314_ni⟧{狛犬|こまいぬ}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There are guardian lion-dogs at the entrance of the shrine.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "07115_komainu_ex2",
-      "japanese": "この{狛犬|こまいぬ}は{江戸|えど}{時代|じだい}に{作|つく}られた。",
+      "japanese": "⟦この→この：00962_kono⟧{狛犬|こまいぬ}⟦は→は：00079_ha⟧⟦{江戸|えど}{時代|じだい}→江戸時代：20431_edojidai⟧⟦に→に：00314_ni⟧⟦{作|つく}られた→作る：00481_tsukuru⟧。",
       "english": "This komainu was made during the Edo period.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "07115_komainu_ex3",
-      "japanese": "{狛犬|こまいぬ}の{一方|いっぽう}は{口|くち}を{開|あ}け、{一方|いっぽう}は{閉|と}じている。",
+      "japanese": "{狛犬|こまいぬ}⟦の→の：09472_no⟧⟦{一方|いっぽう}→一方：01739_ippou⟧⟦は→は：00079_ha⟧⟦{口|くち}→口：00560_kuchi⟧⟦を→を：00422_wo⟧⟦{開|あ}け→開ける：00563_akeru⟧、⟦{一方|いっぽう}→一方：01739_ippou⟧⟦は→は：00079_ha⟧⟦{閉|と}じている→閉じる：02303_tojiru⟧。",
       "english": "One komainu has its mouth open, and the other has its mouth closed.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "CULTURAL SIGNIFICANCE:\nThe two {狛犬|こまいぬ} at shrine entrances represent 'a' ({阿|あ}) and 'un' ({吽|うん}):\n・{阿|あ} - mouth open, beginning sound of Sanskrit alphabet\n・{吽|うん} - mouth closed, ending sound\nTogether they represent the beginning and end of all things, similar to 'alpha and omega.'\n\nORIGIN: The name {狛犬|こまいぬ} comes from {高麗|こま} (Goryeo/Korea), reflecting the continental Asian origin of these guardian figures.\n\nRELATED SHRINE/TEMPLE ELEMENTS:\n・{鳥居|とりい} (torii gate)\n・{灯籠|とうろう} (stone lantern)\n・{手水舎|ちょうずや} (purification fountain)\n・{参道|さんどう} (approach path to shrine)\n\nSIMILAR GUARDIAN FIGURES:\n・シーサー (Okinawan lion-dog)\n・{獅子|しし} (lion statue - often at temples)",
+  "notes": "CULTURAL NOTE:\nThe two {狛犬|こまいぬ} at shrine entrances represent 'a' ({阿|あ}) and 'un' ({吽|うん}):\n- {阿|あ} - mouth open, beginning sound of Sanskrit alphabet\n- {吽|うん} - mouth closed, ending sound\nTogether they represent the beginning and end of all things, similar to 'alpha and omega.'\n\nORIGIN: The name {狛犬|こまいぬ} comes from {高麗|こま} (Goryeo/Korea), reflecting the continental Asian origin of these guardian figures.\n\nRELATED SHRINE/TEMPLE ELEMENTS:\n- ⟦{鳥居|とりい}→鳥居：05956_torii⟧ (torii gate)\n- ⟦{灯籠|とうろう}→灯籠：13409_tourou⟧ (stone lantern)\n- {手水舎|ちょうずや} (purification fountain)\n- ⟦{参道|さんどう}→参道：11980_sandou⟧ (approach path to shrine)\n\nSIMILAR GUARDIAN FIGURES:\n- シーサー (Okinawan lion-dog)\n- ⟦{獅子|しし}→獅子：04944_shishi⟧ (lion statue - often at temples)",
   "cross_references": [
     {
       "type": "related",
@@ -58,11 +58,32 @@
       "reading": "とりい",
       "headword": "{鳥居|とりい}",
       "label": "torii gate"
+    },
+    {
+      "type": "related",
+      "target_id": "13409_tourou",
+      "reading": "とうろう",
+      "headword": "{灯籠|とうろう}",
+      "label": "stone lantern"
+    },
+    {
+      "type": "related",
+      "target_id": "11980_sandou",
+      "reading": "さんどう",
+      "headword": "{参道|さんどう}",
+      "label": "approach path to shrine"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04944_shishi",
+      "reading": "しし",
+      "headword": "{獅子|しし}",
+      "label": "lion statue"
     }
   ],
   "metadata": {
     "created": "2026-01-18T23:18:44Z",
-    "modified": "2026-04-19T03:07:22Z",
+    "modified": "2026-09-02T04:01:10Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

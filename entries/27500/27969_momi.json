@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "27969_momi_ex1",
-      "japanese": "{籾|もみ}を{乾燥|かんそう}させる。",
+      "japanese": "{籾|もみ}⟦を→を：00422_wo⟧⟦{乾燥|かんそう}→乾燥：00184_kansou⟧⟦させる→する：00392_suru⟧。",
       "english": "We dry the unhulled rice.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "27969_momi_ex2",
-      "japanese": "{収穫|しゅうかく}した{籾|もみ}を{倉庫|そうこ}に{保管|ほかん}する。",
+      "japanese": "⟦{収穫|しゅうかく}→収穫：03207_shuukaku⟧⟦した→する：00392_suru⟧{籾|もみ}⟦を→を：00422_wo⟧⟦{倉庫|そうこ}→倉庫：04044_souko⟧⟦に→に：00314_ni⟧⟦{保管|ほかん}する→保管する：25536_hokansuru⟧。",
       "english": "We store the harvested unhulled rice in the warehouse.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "27969_momi_ex3",
-      "japanese": "{籾|もみ}から{殻|から}を{取|と}り{除|のぞ}くと{玄米|げんまい}になる。",
+      "japanese": "{籾|もみ}⟦から→から：00504_kara⟧⟦{殻|から}→殻：02148_kara⟧⟦を→を：00422_wo⟧⟦{取|と}り{除|のぞ}く→取り除く：04222_torinozoku⟧⟦と→と：00512_to⟧⟦{玄米|げんまい}→玄米：06100_genmai⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧。",
       "english": "When you remove the husk from unhulled rice, you get brown rice.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Rice as it comes off the plant, still wrapped in its hard outer husk. After drying, the husk is removed to make {玄米|げんまい} (brown rice), which is then polished into {白米|はくまい} (white rice).\n\nRELATED WORDS:\n- {籾殻|もみがら}: rice husk — the outer covering removed from the grain\n- {玄米|げんまい}: brown rice — hulled but unpolished\n- {稲|いね}: rice plant — the growing plant that produces {籾|もみ}",
+  "notes": "Rice as it comes off the plant, still wrapped in its hard outer husk. After drying, the husk is removed to make ⟦{玄米|げんまい}→玄米：06100_genmai⟧ (brown rice), which is then polished into ⟦{白米|はくまい}→白米：06101_hakumai⟧ (white rice).\n\nRELATED WORDS:\n- ⟦{籾殻|もみがら}→籾殻：28136_momigara⟧: rice husk — the outer covering removed from the grain\n- ⟦{玄米|げんまい}→玄米：06100_genmai⟧: brown rice — hulled but unpolished\n- ⟦{稲|いね}→稲：01820_ine⟧: rice plant — the growing plant that produces {籾|もみ}",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "06100_genmai",
+      "reading": "げんまい",
+      "headword": "{玄米|げんまい}",
+      "label": "brown rice"
+    },
+    {
+      "type": "related",
+      "target_id": "01820_ine",
+      "reading": "いね",
+      "headword": "{稲|いね}",
+      "label": "rice plant"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +76,6 @@
       "domain": []
     },
     "created": "2026-05-23T04:06:38Z",
-    "modified": "2026-05-23T04:06:38Z"
+    "modified": "2026-09-02T04:02:32Z"
   }
 }

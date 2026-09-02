@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "18029_mibarai_ex1",
-      "japanese": "{家賃|やちん}が{未払|みばら}いになっている。",
+      "japanese": "⟦{家賃|やちん}→家賃：03639_yachin⟧⟦が→が：00051_ga⟧{未払|みばら}いになっている。",
       "english": "The rent is unpaid.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "18029_mibarai_ex2",
-      "japanese": "{未払|みばら}いの{給料|きゅうりょう}を{請求|せいきゅう}する。",
+      "japanese": "{未払|みばら}い⟦の→の：09472_no⟧⟦{給料|きゅうりょう}→給料：01086_kyuuryou⟧⟦を→を：00422_wo⟧⟦{請求|せいきゅう}する→請求する：26988_seikyuusuru⟧。",
       "english": "To claim unpaid wages.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "18029_mibarai_ex3",
-      "japanese": "{税金|ぜいきん}の{未払|みばら}いが{続|つづ}くと、{延滞|えんたい}{金|きん}が{発生|はっせい}します。",
+      "japanese": "⟦{税金|ぜいきん}→税金：03308_zeikin⟧⟦の→の：09472_no⟧{未払|みばら}い⟦が→が：00051_ga⟧⟦{続|つづ}く→続く：00903_tsuzuku⟧⟦と→と：00512_to⟧、⟦{延滞|えんたい}→延滞：09003_entai⟧{金|きん}⟦が→が：00051_ga⟧⟦{発生|はっせい}します→発生する：25529_hasseisuru⟧。",
       "english": "If unpaid taxes continue, late fees will accrue.",
       "sense_numbers": [
         1
@@ -43,7 +43,7 @@
       "notes": null
     }
   ],
-  "notes": "The {未|み} prefix means \"not yet,\" indicating something that should have been done but hasn't.\n\nCOMMON COLLOCATIONS:\n- {未払|みばら}い{金|きん}: outstanding payment amount\n- {未払|みばら}い{残高|ざんだか}: unpaid balance\n- {給与|きゅうよ}{未払|みばら}い: unpaid wages\n- {未払|みばら}い{分|ぶん}: the unpaid portion\n\nSIMILAR WORDS:\n- {滞納|たいのう}: delinquent payment — implies willful neglect or prolonged failure to pay, stronger than {未払|みばら}い\n- {未納|みのう}: also means unpaid, but more commonly used for taxes and public fees\n\nOTHER {未|み} COMPOUNDS:\n- {未定|みてい}: undecided\n- {未完成|みかんせい}: unfinished\n- {未経験|みけいけん}: inexperienced",
+  "notes": "The ⟦{未|み}→未〜：00277_mi⟧ prefix means \"not yet,\" indicating something that should have been done but hasn't.\n\nCOMMON COLLOCATIONS:\n- {未払|みばら}い{金|きん}: outstanding payment amount\n- {未払|みばら}い⟦{残高|ざんだか}→残高：05422_zandaka⟧: unpaid balance\n- ⟦{給与|きゅうよ}→給与：00264_kyuuyo⟧{未払|みばら}い: unpaid wages\n- {未払|みばら}い⟦{分|ぶん}→分：26216_bun⟧: the unpaid portion\n\nSIMILAR WORDS:\n- ⟦{滞納|たいのう}→滞納：09323_tainou⟧: delinquent payment — implies willful neglect or prolonged failure to pay, stronger than {未払|みばら}い\n- ⟦{未納|みのう}→未納：19001_minou⟧: also means unpaid, but more commonly used for taxes and public fees\n\nOTHER {未|み} COMPOUNDS:\n- ⟦{未定|みてい}→未定：14985_mitei⟧: undecided\n- ⟦{未完成|みかんせい}→未完成：13066_mikansei⟧: unfinished\n- ⟦{未経験|みけいけん}→未経験：17726_mikeiken⟧: inexperienced",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -61,7 +61,7 @@
       ]
     },
     "created": "2026-03-19T12:16:43Z",
-    "modified": "2026-05-08T04:12:06Z"
+    "modified": "2026-09-02T04:01:50Z"
   },
   "cross_references": [
     {
@@ -70,6 +70,20 @@
       "reading": "たいのう",
       "headword": "{滞納|たいのう}",
       "label": "delinquent payment (willful)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19001_minou",
+      "reading": "みのう",
+      "headword": "{未納|みのう}",
+      "label": "also means unpaid, but more commonly…"
+    },
+    {
+      "type": "antonym",
+      "target_id": "30038_shiharaizumi",
+      "reading": "しはらいずみ",
+      "headword": "支払い済み",
+      "label": "paid"
     }
   ]
 }

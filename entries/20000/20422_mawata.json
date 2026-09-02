@@ -15,40 +15,81 @@
   "examples": [
     {
       "id": "20422_mawata_ex1",
-      "japanese": "{真綿|まわた}のように{柔|やわ}らかい。",
+      "japanese": "{真綿|まわた}⟦のように→のように：30291_noyouni⟧⟦{柔|やわ}らかい→柔らかい：01096_yawarakai⟧。",
       "english": "Soft as silk floss.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20422_mawata_ex2",
-      "japanese": "この{布団|ふとん}は{真綿|まわた}が{入|はい}っていて{暖|あたた}かい。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{布団|ふとん}→布団：01720_futon⟧⟦は→は：00079_ha⟧{真綿|まわた}⟦が→が：00051_ga⟧⟦{入|はい}っていて→入る：00494_hairu⟧⟦{暖|あたた}かい→暖かい：00618_atatakai⟧。",
       "english": "This futon has silk wadding inside and is warm.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20422_mawata_ex3",
-      "japanese": "{真綿|まわた}で{首|くび}を{絞|し}めるように、じわじわと{追|お}い{詰|つ}められた。",
+      "japanese": "{真綿|まわた}⟦で→で：00502_de⟧⟦{首|くび}→首：00792_kubi⟧⟦を→を：00422_wo⟧{絞|し}めるよう⟦に→に：00314_ni⟧、⟦じわじわ→じわじわ：06682_jiwajiwa⟧⟦と→と：00512_to⟧⟦{追|お}い{詰|つ}められた→追い詰める：14311_oitsumeru⟧。",
       "english": "I was gradually cornered, as if being strangled with silk floss.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {真|ま} (true, genuine) + {綿|わた} (cotton, wadding). Despite the kanji {綿|わた}, {真綿|まわた} is made from silk, not cotton. The {真|ま} distinguishes it from ordinary plant-based {綿|わた} (cotton).\n\nIDIOMATIC EXPRESSION:\n{真綿|まわた}で{首|くび}を{絞|し}める — literally \"to strangle with silk floss.\" Describes applying slow, gentle but persistent pressure, or gradually tightening the screws on someone. Because silk floss is soft, the strangling is slow and drawn out rather than sudden.\n\nCOMMON COLLOCATIONS:\n- {真綿|まわた}の{布団|ふとん}: silk-filled futon\n- {真綿|まわた}のように{柔|やわ}らかい: soft as silk floss\n- {真綿|まわた}で{包|つつ}むように: gently, as if wrapping in silk floss\n\nSIMILAR WORDS:\n- {綿|わた}/{木綿|もめん}: cotton — plant-based fiber, much more common and cheaper\n- {絹|きぬ}: silk — the woven fabric, as opposed to the raw floss\n- {羽毛|うもう}: down feathers — another premium natural filling for bedding",
+  "notes": "Composed of {真|ま} (true, genuine) + ⟦{綿|わた}→綿：00421_wata⟧ (cotton, wadding). Despite the kanji ⟦{綿|わた}→綿：00421_wata⟧, {真綿|まわた} is made from silk, not cotton. The {真|ま} distinguishes it from ordinary plant-based ⟦{綿|わた}→綿：00421_wata⟧ (cotton).\n\nIDIOMATIC EXPRESSION:\n{真綿|まわた}⟦で→で：00502_de⟧⟦{首|くび}→首：00792_kubi⟧⟦を→を：00422_wo⟧{絞|し}める — literally \"to strangle with silk floss.\" Describes applying slow, gentle but persistent pressure, or gradually tightening the screws on someone. Because silk floss is soft, the strangling is slow and drawn out rather than sudden.\n\nCOMMON COLLOCATIONS:\n- {真綿|まわた}⟦の→の：09472_no⟧⟦{布団|ふとん}→布団：01720_futon⟧: silk-filled futon\n- {真綿|まわた}⟦のように→のように：30291_noyouni⟧⟦{柔|やわ}らかい→柔らかい：01096_yawarakai⟧: soft as silk floss\n- {真綿|まわた}⟦で→で：00502_de⟧⟦{包|つつ}む→包む：01226_tsutsumu⟧よう⟦に→に：00314_ni⟧: gently, as if wrapping in silk floss\n\nSIMILAR WORDS:\n- ⟦{綿|わた}→綿：00421_wata⟧/⟦{木綿|もめん}→木綿：01738_momen⟧: cotton — plant-based fiber, much more common and cheaper\n- ⟦{絹|きぬ}→絹：01383_kinu⟧: silk — the woven fabric, as opposed to the raw floss\n- ⟦{羽毛|うもう}→羽毛：13915_umou⟧: down feathers — another premium natural filling for bedding",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01738_momen",
+      "reading": "もめん",
+      "headword": "{木綿|もめん}",
+      "label": "cotton"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01383_kinu",
+      "reading": "きぬ",
+      "headword": "{絹|きぬ}",
+      "label": "silk"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13915_umou",
+      "reading": "うもう",
+      "headword": "{羽毛|うもう}",
+      "label": "down feathers"
+    },
+    {
+      "type": "related",
+      "target_id": "20114_menka",
+      "reading": "めんか",
+      "headword": "{綿花|めんか}",
+      "label": "raw cotton"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["material", "daily-life"]
+      "semantic": [
+        "material",
+        "daily-life"
+      ]
     },
     "created": "2026-03-29T13:04:35Z",
-    "modified": "2026-03-29T13:04:35Z"
+    "modified": "2026-09-02T04:01:59Z"
   }
 }

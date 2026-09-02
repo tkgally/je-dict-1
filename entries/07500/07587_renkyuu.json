@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "07587_renkyuu_ex1",
-      "japanese": "{連休|れんきゅう}を{利用|りよう}して{旅行|りょこう}に{行|い}く。",
+      "japanese": "{連休|れんきゅう}⟦を→を：00422_wo⟧⟦{利用|りよう}して→利用する：21735_riyousuru⟧⟦{旅行|りょこう}→旅行：00748_ryokou⟧⟦に→に：00314_ni⟧⟦{行|い}く→行く：00119_iku⟧。",
       "english": "I'm going on a trip using the consecutive holidays.",
       "has_audio": false,
       "sense_numbers": [
@@ -23,7 +23,7 @@
     },
     {
       "id": "07587_renkyuu_ex2",
-      "japanese": "ゴールデンウィークは{大型|おおがた}{連休|れんきゅう}だ。",
+      "japanese": "⟦ゴールデンウィーク→ゴールデンウィーク：22760_goorudenwiiku⟧⟦は→は：00079_ha⟧⟦{大型|おおがた}→大型：03016_oogata⟧{連休|れんきゅう}だ。",
       "english": "Golden Week is a long holiday period.",
       "has_audio": false,
       "sense_numbers": [
@@ -32,7 +32,7 @@
     },
     {
       "id": "07587_renkyuu_ex3",
-      "japanese": "{三連休|さんれんきゅう}はどこも{混|こ}んでいる。",
+      "japanese": "⟦{三連休|さんれんきゅう}→三連休：18275_sanrenkyuu⟧⟦は→は：00079_ha⟧⟦どこ→どこ：00539_doko⟧⟦も→も：00484_mo⟧⟦{混|こ}んでいる→混む：02574_komu⟧。",
       "english": "Everywhere is crowded during the three-day weekend.",
       "has_audio": false,
       "sense_numbers": [
@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "notes": "WORD STRUCTURE:\n{連|れん} (continuous, consecutive) + {休|きゅう} (rest, holiday)\n\nCOMMON VARIATIONS:\n・{三連休|さんれんきゅう} - three-day weekend\n・{四連休|よんれんきゅう} - four-day weekend\n・{大型|おおがた}{連休|れんきゅう} - extended holiday period (like Golden Week)\n・{飛|と}び{石|いし}{連休|れんきゅう} - split holidays (with a work day in between)\n\nJAPANESE HOLIDAY PERIODS:\n・ゴールデンウィーク (GW) - Golden Week (late April to early May)\n・お{盆|ぼん}{休|やす}み - Obon holidays (mid-August)\n・{年末年始|ねんまつねんし} - year-end/new year holidays\n・シルバーウィーク - Silver Week (September)\n\nCOLLOCATIONS:\n・{連休|れんきゅう}を{取|と}る - to take consecutive days off\n・{連休|れんきゅう}{中|ちゅう} - during the holidays\n・{連休|れんきゅう}{明|あ}け - after the holidays end",
+  "notes": "ETYMOLOGY:\n{連|れん} (continuous, consecutive) + {休|きゅう} (rest, holiday)\n\nCOMMON VARIATIONS:\n- ⟦{三連休|さんれんきゅう}→三連休：18275_sanrenkyuu⟧ - three-day weekend\n- {四連休|よんれんきゅう} - four-day weekend\n- ⟦{大型|おおがた}→大型：03016_oogata⟧{連休|れんきゅう} - extended holiday period (like Golden Week)\n- {飛|と}び{石|いし}{連休|れんきゅう} - split holidays (with a work day in between)\n\nJAPANESE HOLIDAY PERIODS:\n- ⟦ゴールデンウィーク→ゴールデンウィーク：22760_goorudenwiiku⟧ (GW) - Golden Week (late April to early May)\n- ⟦お{盆|ぼん}{休|やす}み→お盆休み：22679_obonyasumi⟧ - Obon holidays (mid-August)\n- ⟦{年末年始|ねんまつねんし}→年末年始：12457_nenmatsunenshi⟧ - year-end/new year holidays\n- シルバーウィーク - Silver Week (September)\n\nCOMMON COLLOCATIONS:\n- {連休|れんきゅう}⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧ - to take consecutive days off\n- {連休|れんきゅう}⟦{中|ちゅう}→〜中：09840_chuu⟧ - during the holidays\n- {連休|れんきゅう}⟦{明|あ}け→明け：13157_ake⟧ - after the holidays end",
   "cross_references": [
     {
       "type": "related",
@@ -55,11 +55,25 @@
       "reading": "きゅうじつ",
       "headword": "{休日|きゅうじつ}",
       "label": "day off"
+    },
+    {
+      "type": "related",
+      "target_id": "19115_haruyasumi",
+      "reading": "はるやすみ",
+      "headword": "{春休|はるやす}み",
+      "label": "spring break"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26066_choukikyuuka",
+      "reading": "ちょうききゅうか",
+      "headword": "{長期休暇|ちょうききゅうか}",
+      "label": "long vacation"
     }
   ],
   "metadata": {
     "created": "2026-01-20T10:31:31Z",
-    "modified": "2026-08-11T09:37:41Z",
+    "modified": "2026-09-02T04:01:12Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -67,6 +81,7 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "time-period",
         "culture"

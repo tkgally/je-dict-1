@@ -15,41 +15,59 @@
   "examples": [
     {
       "id": "17507_rinjishuunyuu_ex1",
-      "japanese": "{臨時収入|りんじしゅうにゅう}があったので{旅行|りょこう}に{行|い}った。",
+      "japanese": "{臨時収入|りんじしゅうにゅう}⟦が→が：00051_ga⟧⟦あった→ある：00006_aru⟧⟦の→の：09472_no⟧で⟦{旅行|りょこう}→旅行：00748_ryokou⟧⟦に→に：00314_ni⟧⟦{行|い}った→行く：00119_iku⟧。",
       "english": "I went on a trip because I had some extra income.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17507_rinjishuunyuu_ex2",
-      "japanese": "{臨時収入|りんじしゅうにゅう}は{貯金|ちょきん}に{回|まわ}すことにしている。",
+      "japanese": "{臨時収入|りんじしゅうにゅう}⟦は→は：00079_ha⟧⟦{貯金|ちょきん}→貯金：03497_chokin⟧⟦に→に：00314_ni⟧⟦{回|まわ}す→回す：01158_mawasu⟧ことにして⟦いる→いる：00495_iru⟧。",
       "english": "I make it a rule to put extra income into savings.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17507_rinjishuunyuu_ex3",
-      "japanese": "{副業|ふくぎょう}による{臨時収入|りんじしゅうにゅう}も{確定申告|かくていしんこく}の{対象|たいしょう}になる{場合|ばあい}がある。",
+      "japanese": "⟦{副業|ふくぎょう}→副業：08479_fukugyou⟧⟦による→による：28349_niyoru⟧{臨時収入|りんじしゅうにゅう}⟦も→も：00484_mo⟧⟦{確定申告|かくていしんこく}→確定申告：04902_kakuteishinkoku⟧⟦の→の：09472_no⟧⟦{対象|たいしょう}→対象：03393_taishou⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦{場合|ばあい}→場合：01704_baai⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "Extra income from side jobs may also be subject to tax returns.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nComposed of {臨時|りんじ} (temporary, extraordinary) + {収入|しゅうにゅう} (income). Covers any non-regular income such as bonuses, freelance pay, inheritance, or lottery winnings.\n\nCOMMON COLLOCATIONS:\n- {臨時収入|りんじしゅうにゅう}がある (to have extra income)\n- {臨時収入|りんじしゅうにゅう}を{得|え}る (to obtain extra income)\n- {思|おも}わぬ{臨時収入|りんじしゅうにゅう} (unexpected windfall)\n\nSIMILAR TERMS:\n- {不労所得|ふろうしょとく}: unearned income — income without labor (investments, rent)\n- {副収入|ふくしゅうにゅう}: supplementary income — regular income from a side source",
-  "cross_references": [],
+  "notes": "USAGE:\nComposed of ⟦{臨時|りんじ}→臨時：04092_rinji⟧ (temporary, extraordinary) + ⟦{収入|しゅうにゅう}→収入：03213_shuunyuu⟧ (income). Covers any non-regular income such as bonuses, freelance pay, inheritance, or lottery winnings.\n\nCOMMON COLLOCATIONS:\n- {臨時収入|りんじしゅうにゅう}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧ (to have extra income)\n- {臨時収入|りんじしゅうにゅう}⟦を→を：00422_wo⟧⟦{得|え}る→得る：02014_eru⟧ (to obtain extra income)\n- ⟦{思|おも}わぬ→思う：00492_omou⟧{臨時収入|りんじしゅうにゅう} (unexpected windfall)\n\nSIMILAR WORDS:\n- {不労所得|ふろうしょとく}: unearned income — income without labor (investments, rent)\n- ⟦{副収入|ふくしゅうにゅう}→副収入：21129_fukushuunyuu⟧: supplementary income — regular income from a side source",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21129_fukushuunyuu",
+      "reading": "ふくしゅうにゅう",
+      "headword": "{副収入|ふくしゅうにゅう}",
+      "label": "supplementary income"
+    }
+  ],
   "metadata": {
     "created": "2026-03-18T04:34:47Z",
-    "modified": "2026-03-18T04:34:47Z",
+    "modified": "2026-09-02T04:01:48Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

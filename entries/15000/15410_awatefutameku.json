@@ -3,7 +3,7 @@
   "id": "15410_awatefutameku",
   "headword": "{慌|あわ}てふためく",
   "reading": "あわてふためく",
-  "part_of_speech": "godan verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to panic; to lose one's head",
   "definitions": [
     {
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "15410_awatefutameku_ex1",
-      "japanese": "{地震|じしん}で{皆|みんな}が{慌|あわ}てふためいた。",
+      "japanese": "⟦{地震|じしん}→地震：01608_jishin⟧⟦で→で：00502_de⟧{皆|みんな}⟦が→が：00051_ga⟧{慌|あわ}てふためいた。",
       "english": "Everyone panicked because of the earthquake.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "15410_awatefutameku_ex2",
-      "japanese": "{財布|さいふ}がないと{気|き}づいて{慌|あわ}てふためいた。",
+      "japanese": "⟦{財布|さいふ}→財布：00663_saifu⟧⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧⟦と→と：00512_to⟧{気|き}づいて{慌|あわ}てふためいた。",
       "english": "I panicked when I realized my wallet was missing.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "15410_awatefutameku_ex3",
-      "japanese": "{突然|とつぜん}の{来客|らいきゃく}に{慌|あわ}てふためいて、{部屋|へや}を{片付|かたづ}け{始|はじ}めた。",
+      "japanese": "⟦{突然|とつぜん}→突然：00409_totsuzen⟧⟦の→の：09472_no⟧⟦{来客|らいきゃく}→来客：13061_raikyaku⟧⟦に→に：00314_ni⟧{慌|あわ}てふためいて、⟦{部屋|へや}→部屋：00507_heya⟧⟦を→を：00422_wo⟧⟦{片付|かたづ}け→片付ける：01192_katazukeru⟧⟦{始|はじ}めた→始める：00531_hajimeru⟧。",
       "english": "Panicking at the unexpected visitor, I started tidying up the room.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,26 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{慌|あわ}てふためく emphasizes a state of extreme panic and confusion. It is stronger than {慌|あわ}てる alone, which simply means to be in a hurry or flustered. The ふためく part intensifies the sense of disoriented panic.\n\nCOMMON COLLOCATIONS:\n- {慌|あわ}てふためいて{逃|に}げる (to flee in a panic)\n- {慌|あわ}てふためく{様子|ようす} (a panicked appearance)\n\nRELATED WORDS:\n- {慌|あわ}てる: to be flustered, to rush\n- うろたえる: to be confused and agitated\n- {取|と}り{乱|みだ}す: to lose one's composure",
-  "cross_references": [],
+  "notes": "USAGE:\n{慌|あわ}てふためく emphasizes a state of extreme panic and confusion. It is stronger than ⟦{慌|あわ}てる→慌てる：01874_awateru⟧ alone, which simply means to be in a hurry or flustered. The ふためく part intensifies the sense of disoriented panic.\n\nCOMMON COLLOCATIONS:\n- {慌|あわ}てふためいて⟦{逃|に}げる→逃げる：01151_nigeru⟧ (to flee in a panic)\n- {慌|あわ}てふためく⟦{様子|ようす}→様子：01521_yousu⟧ (a panicked appearance)\n\nRELATED WORDS:\n- ⟦{慌|あわ}てる→慌てる：01874_awateru⟧: to be flustered, to rush\n- ⟦うろたえる→うろたえる：21630_urotaeru⟧: to be confused and agitated\n- {取|と}り{乱|みだ}す: to lose one's composure",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "01874_awateru",
+      "reading": "あわてる",
+      "headword": "{慌|あわ}てる",
+      "label": "to be flustered, to rush"
+    },
+    {
+      "type": "related",
+      "target_id": "21630_urotaeru",
+      "reading": "うろたえる",
+      "headword": "うろたえる",
+      "label": "to be confused and agitated"
+    }
+  ],
   "metadata": {
     "created": "2026-03-06T13:41:28Z",
-    "modified": "2026-03-06T13:41:28Z",
+    "modified": "2026-09-02T04:01:41Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -151,7 +166,8 @@
         "emotion"
       ],
       "domain": [],
-      "verb_class": "godan-ku"
+      "verb_class": "godan-ku",
+      "transitivity": "intransitive"
     }
   }
 }

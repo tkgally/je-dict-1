@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "10154_batsu_ex1",
-      "japanese": "{罰|ばつ}を{受|う}けた。",
+      "japanese": "{罰|ばつ}⟦を→を：00422_wo⟧⟦{受|う}けた→受ける：01215_ukeru⟧。",
       "english": "I received a punishment.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "10154_batsu_ex2",
-      "japanese": "{嘘|うそ}をついたら{罰|ばつ}が{当|あ}たる。",
+      "japanese": "⟦{嘘|うそ}をついたら→嘘をつく：21763_usowotsuku⟧{罰|ばつ}⟦が→が：00051_ga⟧⟦{当|あ}たる→当たる：01860_ataru⟧。",
       "english": "If you lie, you'll be punished (by fate).",
       "notes": "{罰|ばつ}が{当|あ}たる suggests divine or karmic punishment.",
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "10154_batsu_ex3",
-      "japanese": "{罰|ばつ}として{掃除|そうじ}をさせられた。",
+      "japanese": "{罰|ばつ}⟦として→として：06802_toshite⟧⟦{掃除|そうじ}→掃除：02889_souji⟧⟦を→を：00422_wo⟧⟦させられた→する：00392_suru⟧。",
       "english": "As punishment, I was made to clean.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{罰|ばつ} can refer to formal punishments or karmic/divine retribution.\n\nCOMMON EXPRESSIONS:\n- {罰|ばつ}を{受|う}ける: to receive punishment\n- {罰|ばつ}を{与|あた}える: to give punishment\n- {罰|ばつ}が{当|あ}たる: to be punished (by fate/karma)\n- {罰金|ばっきん}: fine (monetary penalty)\n- {罰|ばつ}ゲーム: penalty game (in game shows)\n\nSIMILAR WORDS:\n- {刑罰|けいばつ}: criminal punishment\n- {処罰|しょばつ}: punishment, penalty (formal)",
+  "notes": "{罰|ばつ} can refer to formal punishments or karmic/divine retribution.\n\nCOMMON EXPRESSIONS:\n- {罰|ばつ}⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧: to receive punishment\n- {罰|ばつ}⟦を→を：00422_wo⟧⟦{与|あた}える→与える：01821_ataeru⟧: to give punishment\n- {罰|ばつ}⟦が→が：00051_ga⟧⟦{当|あ}たる→当たる：01860_ataru⟧: to be punished (by fate/karma)\n- ⟦{罰金|ばっきん}→罰金：18767_bakkin⟧: fine (monetary penalty)\n- {罰|ばつ}⟦ゲーム→ゲーム：03842_geemu⟧: penalty game (in game shows)\n\nSIMILAR WORDS:\n- ⟦{刑罰|けいばつ}→刑罰：20566_keibatsu⟧: criminal punishment\n- ⟦{処罰|しょばつ}→処罰：21006_shobatsu⟧: punishment, penalty (formal)",
   "cross_references": [
     {
       "type": "related",
@@ -51,11 +51,25 @@
       "reading": "けいばつ",
       "headword": "{刑罰|けいばつ}",
       "label": "criminal punishment"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20955_seibai",
+      "reading": "せいばい",
+      "headword": "{成敗|せいばい}",
+      "label": "punishment"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22000_tatari",
+      "reading": "たたり",
+      "headword": "{祟|たた}り",
+      "label": "curse"
     }
   ],
   "metadata": {
     "created": "2026-02-05T11:49:02Z",
-    "modified": "2026-04-02T08:34:40Z",
+    "modified": "2026-09-02T04:01:20Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

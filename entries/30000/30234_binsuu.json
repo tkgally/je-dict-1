@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30234_binsuu_ex1",
-      "japanese": "{便数|びんすう}が{減|へ}った。",
+      "japanese": "{便数|びんすう}⟦が→が：00051_ga⟧⟦{減|へ}った→減る：01985_heru⟧。",
       "english": "The number of flights has decreased.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30234_binsuu_ex2",
-      "japanese": "{夏|なつ}のあいだは{便数|びんすう}が{増|ふ}やされる。",
+      "japanese": "⟦{夏|なつ}→夏：02236_natsu⟧⟦の→の：09472_no⟧あいだ⟦は→は：00079_ha⟧{便数|びんすう}⟦が→が：00051_ga⟧⟦{増|ふ}やされる→増やす：02410_fuyasu⟧。",
       "english": "The number of services is increased during the summer.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30234_binsuu_ex3",
-      "japanese": "この{島|しま}へのフェリーは{一日|いちにち}の{便数|びんすう}が{少|すく}ないので、{早|はや}めに{予約|よやく}したほうがいい。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{島|しま}→島：00885_shima⟧⟦へ→へ：02473_he⟧⟦の→の：09472_no⟧⟦フェリー→フェリー：11168_ferii⟧⟦は→は：00079_ha⟧⟦{一日|いちにち}→一日：00942_ichinichi⟧⟦の→の：09472_no⟧{便数|びんすう}⟦が→が：00051_ga⟧⟦{少|すく}ない→少ない：01136_sukunai⟧⟦の→の：09472_no⟧で、⟦{早|はや}め→早め：11176_hayame⟧⟦に→に：00314_ni⟧⟦{予約|よやく}した→予約する：22989_yoyakusuru⟧⟦ほうがいい→ほうがいい：10078_hougaii⟧。",
       "english": "The ferry to this island runs only a few times a day, so you should book early.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "{便|びん} (scheduled service, flight) + {数|すう} (number). A practical word in travel and transport news, especially when services are being cut back or added.\n\nCOMMON COLLOCATIONS:\n- {便数|びんすう}が{多|おお}い / {少|すく}ない: to have many / few services\n- {便数|びんすう}を{増|ふ}やす: to increase the number of services\n- {便数|びんすう}を{減|へ}らす: to cut services\n- {一日|いちにち}の{便数|びんすう}: number of services per day\n\nSIMILAR WORDS:\n- {本数|ほんすう}: number of runs — the usual word for trains and buses\n- {運行|うんこう}{回数|かいすう}: number of operations — more formal, used in official announcements",
+  "notes": "⟦{便|びん}→便：28160_bin⟧ (scheduled service, flight) + ⟦{数|すう}→数：03360_suu⟧ (number). A practical word in travel and transport news, especially when services are being cut back or added.\n\nCOMMON COLLOCATIONS:\n- {便数|びんすう}⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧ / ⟦{少|すく}ない→少ない：01136_sukunai⟧: to have many / few services\n- {便数|びんすう}⟦を→を：00422_wo⟧⟦{増|ふ}やす→増やす：02410_fuyasu⟧: to increase the number of services\n- {便数|びんすう}⟦を→を：00422_wo⟧⟦{減|へ}らす→減らす：02414_herasu⟧: to cut services\n- ⟦{一日|いちにち}→一日：00942_ichinichi⟧⟦の→の：09472_no⟧{便数|びんすう}: number of services per day\n\nSIMILAR WORDS:\n- ⟦{本数|ほんすう}→本数：13154_honsuu⟧: number of runs — the usual word for trains and buses\n- ⟦{運行|うんこう}→運行：14375_unkou⟧⟦{回数|かいすう}→回数：00139_kaisuu⟧: number of operations — more formal, used in official announcements",
   "cross_references": [
     {
       "type": "related",
@@ -57,6 +57,13 @@
       "target_id": "24353_koukuubin",
       "reading": "こうくうびん",
       "headword": "{航空便|こうくうびん}"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13154_honsuu",
+      "reading": "ほんすう",
+      "headword": "{本数|ほんすう}",
+      "label": "number of runs"
     }
   ],
   "schema_version": "2.0",
@@ -67,7 +74,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "transportation",
         "quantity"
@@ -75,6 +82,6 @@
       "domain": []
     },
     "created": "2026-07-29T18:17:31Z",
-    "modified": "2026-07-29T18:17:31Z"
+    "modified": "2026-09-02T04:02:39Z"
   }
 }

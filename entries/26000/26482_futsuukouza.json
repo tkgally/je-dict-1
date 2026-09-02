@@ -15,42 +15,69 @@
   "examples": [
     {
       "id": "26482_futsuukouza_ex1",
-      "japanese": "{普通口座|ふつうこうざ}を{開設|かいせつ}したい。",
+      "japanese": "{普通口座|ふつうこうざ}⟦を→を：00422_wo⟧⟦{開設|かいせつ}→開設：14595_kaisetsu⟧⟦したい→する：00392_suru⟧。",
       "english": "I'd like to open an ordinary savings account.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26482_futsuukouza_ex2",
-      "japanese": "{給料|きゅうりょう}は{普通口座|ふつうこうざ}に{振|ふ}り{込|こ}まれます。",
+      "japanese": "⟦{給料|きゅうりょう}→給料：01086_kyuuryou⟧⟦は→は：00079_ha⟧{普通口座|ふつうこうざ}⟦に→に：00314_ni⟧⟦{振|ふ}り{込|こ}まれます→振り込む：10992_furikomu⟧。",
       "english": "Your salary will be deposited into your regular bank account.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26482_futsuukouza_ex3",
-      "japanese": "{普通口座|ふつうこうざ}の{金利|きんり}は{低|ひく}いが、いつでもお{金|かね}を{引|ひ}き{出|だ}せるので{便利|べんり}だ。",
+      "japanese": "{普通口座|ふつうこうざ}⟦の→の：09472_no⟧⟦{金利|きんり}→金利：04856_kinri⟧⟦は→は：00079_ha⟧⟦{低|ひく}い→低い：02947_hikui⟧⟦が→が：00051_ga⟧、⟦いつ→いつ：00536_itsu⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧⟦お{金|かね}→お金：00611_okane⟧⟦を→を：00422_wo⟧⟦{引|ひ}き{出|だ}せる→引き出す：03002_hikidasu⟧⟦の→の：09472_no⟧で⟦{便利|べんり}→便利：00830_benri⟧だ。",
       "english": "The interest rate on an ordinary account is low, but it's convenient because you can withdraw money anytime.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {普通|ふつう} (ordinary, regular) and {口座|こうざ} (account). The formal name is {普通預金口座|ふつうよきんこうざ}, but {普通口座|ふつうこうざ} is the common abbreviation. This is the first type of bank account most people in Japan open, used for daily transactions, salary deposits, and automatic bill payments.\n\nCOMMON COLLOCATIONS:\n- {普通口座|ふつうこうざ}を{開|ひら}く: to open an ordinary account\n- {普通口座|ふつうこうざ}の{残高|ざんだか}: balance of one's ordinary account\n- {普通口座|ふつうこうざ}に{入金|にゅうきん}する: to deposit into one's ordinary account\n\nSIMILAR WORDS:\n- {当座口座|とうざこうざ}: current account — used primarily by businesses for checks and large transactions; no interest is paid\n- {定期預金|ていきよきん}: fixed-term deposit — money deposited for a set period at a higher interest rate; cannot be freely withdrawn\n- {総合口座|そうごうこうざ}: comprehensive account — bundles ordinary savings and fixed deposits into one account",
-  "cross_references": [],
+  "notes": "Composed of ⟦{普通|ふつう}→普通：01502_futsuu⟧ (ordinary, regular) and ⟦{口座|こうざ}→口座：05419_kouza⟧ (account). The formal name is {普通預金口座|ふつうよきんこうざ}, but {普通口座|ふつうこうざ} is the common abbreviation. This is the first type of bank account most people in Japan open, used for daily transactions, salary deposits, and automatic bill payments.\n\nCOMMON COLLOCATIONS:\n- {普通口座|ふつうこうざ}⟦を→を：00422_wo⟧⟦{開|ひら}く→開く：01979_hiraku⟧: to open an ordinary account\n- {普通口座|ふつうこうざ}⟦の→の：09472_no⟧⟦{残高|ざんだか}→残高：05422_zandaka⟧: balance of one's ordinary account\n- {普通口座|ふつうこうざ}⟦に→に：00314_ni⟧⟦{入金|にゅうきん}→入金：05467_nyuukin⟧⟦する→する：00392_suru⟧: to deposit into one's ordinary account\n\nSIMILAR WORDS:\n- ⟦{当座口座|とうざこうざ}→当座口座：26489_touzakouza⟧: current account — used primarily by businesses for checks and large transactions; no interest is paid\n- ⟦{定期預金|ていきよきん}→定期預金：22251_teikiyokin⟧: fixed-term deposit — money deposited for a set period at a higher interest rate; cannot be freely withdrawn\n- {総合口座|そうごうこうざ}: comprehensive account — bundles ordinary savings and fixed deposits into one account",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "26489_touzakouza",
+      "reading": "とうざこうざ",
+      "headword": "{当座口座|とうざこうざ}",
+      "label": "current account"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22251_teikiyokin",
+      "reading": "ていきよきん",
+      "headword": "{定期預金|ていきよきん}",
+      "label": "fixed-term deposit"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["business"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "business"
+      ]
     },
     "created": "2026-05-02T12:18:35Z",
-    "modified": "2026-05-02T12:18:35Z"
+    "modified": "2026-09-02T04:02:26Z"
   }
 }

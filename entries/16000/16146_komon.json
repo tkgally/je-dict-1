@@ -15,41 +15,74 @@
   "examples": [
     {
       "id": "16146_komon_ex1",
-      "japanese": "{彼|かれ}は{会社|かいしゃ}の{顧問|こもん}を{務|つと}めている。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦の→の：09472_no⟧{顧問|こもん}⟦を→を：00422_wo⟧⟦{務|つと}めている→務める：10446_tsutomeru⟧。",
       "english": "He serves as an advisor to the company.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16146_komon_ex2",
-      "japanese": "{部活|ぶかつ}の{顧問|こもん}の{先生|せんせい}はとても{厳|きび}しい。",
+      "japanese": "⟦{部活|ぶかつ}→部活：05377_bukatsu⟧⟦の→の：09472_no⟧{顧問|こもん}⟦の→の：09472_no⟧⟦{先生|せんせい}→先生：00609_sensei⟧⟦は→は：00079_ha⟧⟦とても→とても：00593_totemo⟧⟦{厳|きび}しい→厳しい：01125_kibishii⟧。",
       "english": "The teacher who advises our club is very strict.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16146_komon_ex3",
-      "japanese": "{法律|ほうりつ}{問題|もんだい}については{顧問|こもん}{弁護士|べんごし}に{相談|そうだん}してください。",
+      "japanese": "⟦{法律|ほうりつ}→法律：01722_houritsu⟧⟦{問題|もんだい}→問題：00797_mondai⟧⟦について→〜について：03103_nitsuite⟧⟦は→は：00079_ha⟧{顧問|こもん}⟦{弁護士|べんごし}→弁護士：03150_bengoshi⟧⟦に→に：00314_ni⟧⟦{相談|そうだん}して→相談する：01845_soudansuru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please consult the legal advisor regarding legal matters.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nIn Japanese schools, every club ({部活|ぶかつ}) must have a {顧問|こもん} — a teacher who supervises and sometimes coaches the club. This is a significant responsibility and a distinctive feature of the Japanese school system. In business, {顧問|こもん} often refers to a retired executive who remains in an advisory role.\n\nCOMMON COLLOCATIONS:\n- {顧問|こもん}{弁護士|べんごし} (legal advisor, attorney on retainer)\n- {顧問|こもん}を{務|つと}める (to serve as an advisor)\n- {部活|ぶかつ}の{顧問|こもん} (club advisor — at school)\n- {顧問|こもん}{契約|けいやく} (advisory/consulting contract)\n- {技術|ぎじゅつ}{顧問|こもん} (technical advisor)",
-  "cross_references": [],
+  "notes": "USAGE:\nIn Japanese schools, every club (⟦{部活|ぶかつ}→部活：05377_bukatsu⟧) must have a {顧問|こもん} — a teacher who supervises and sometimes coaches the club. This is a significant responsibility and a distinctive feature of the Japanese school system. In business, {顧問|こもん} often refers to a retired executive who remains in an advisory role.\n\nCOMMON COLLOCATIONS:\n- {顧問|こもん}⟦{弁護士|べんごし}→弁護士：03150_bengoshi⟧ (legal advisor, attorney on retainer)\n- {顧問|こもん}⟦を→を：00422_wo⟧⟦{務|つと}める→務める：10446_tsutomeru⟧ (to serve as an advisor)\n- ⟦{部活|ぶかつ}→部活：05377_bukatsu⟧⟦の→の：09472_no⟧{顧問|こもん} (club advisor — at school)\n- {顧問|こもん}⟦{契約|けいやく}→契約：02698_keiyaku⟧ (advisory/consulting contract)\n- ⟦{技術|ぎじゅつ}→技術：01389_gijutsu⟧{顧問|こもん} (technical advisor)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20958_soudanyaku",
+      "reading": "そうだんやく",
+      "headword": "{相談役|そうだんやく}",
+      "label": "advisor"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24877_jogensha",
+      "reading": "じょげんしゃ",
+      "headword": "{助言者|じょげんしゃ}",
+      "label": "advisor"
+    },
+    {
+      "type": "related",
+      "target_id": "24977_hosakan",
+      "reading": "ほさかん",
+      "headword": "{補佐官|ほさかん}",
+      "label": "aide"
+    }
+  ],
   "metadata": {
     "created": "2026-03-10T06:06:32Z",
-    "modified": "2026-03-10T06:06:32Z",
+    "modified": "2026-09-02T04:01:43Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["occupation", "education"]
+      "semantic": [
+        "occupation",
+        "education"
+      ]
     }
   }
 }

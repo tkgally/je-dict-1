@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22296_nattokugaiku_ex1",
-      "japanese": "それなら{納得|なっとく}がいく。",
+      "japanese": "⟦それ→それ：00994_sore⟧なら{納得|なっとく}がいく。",
       "english": "That makes sense then.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22296_nattokugaiku_ex2",
-      "japanese": "{説明|せつめい}を{聞|き}いてやっと{納得|なっとく}がいった。",
+      "japanese": "⟦{説明|せつめい}→説明：01449_setsumei⟧⟦を→を：00422_wo⟧⟦{聞|き}いて→聞く：00483_kiku⟧⟦やっと→やっと：01561_yatto⟧⟦{納得|なっとく}→納得：03507_nattoku⟧⟦が→が：00051_ga⟧いった。",
       "english": "After hearing the explanation, I was finally convinced.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22296_nattokugaiku_ex3",
-      "japanese": "どうしても{納得|なっとく}がいかないので、もう{一度|いちど}{話|はな}し{合|あ}いたい。",
+      "japanese": "⟦どうしても→どうしても：03476_doushitemo⟧{納得|なっとく}がいかない⟦の→の：09472_no⟧で、⟦もう{一度|いちど}→もう一度：02976_mouichido⟧⟦{話|はな}し{合|あ}いたい→話し合う：02396_hanashiau⟧。",
       "english": "I'm just not satisfied with it, so I'd like to discuss it one more time.",
       "sense_numbers": [
         1
@@ -45,7 +45,7 @@
     },
     {
       "id": "22296_nattokugaiku_ex4",
-      "japanese": "{自分|じぶん}が{納得|なっとく}のいく{結果|けっか}が{出|で}るまで{続|つづ}ける。",
+      "japanese": "⟦{自分|じぶん}→自分：02887_jibun⟧⟦が→が：00051_ga⟧⟦{納得|なっとく}→納得：03507_nattoku⟧⟦の→の：09472_no⟧いく⟦{結果|けっか}→結果：02486_kekka⟧⟦が→が：00051_ga⟧⟦{出|で}る→出る：00513_deru⟧⟦まで→まで：00490_made⟧⟦{続|つづ}ける→続く：00903_tsuzuku⟧。",
       "english": "I'll keep going until I get a result I'm satisfied with.",
       "sense_numbers": [
         1
@@ -54,8 +54,24 @@
       "notes": null
     }
   ],
-  "notes": "A common expression combining {納得|なっとく} (acceptance, understanding) with the verb いく (to go). The negative form {納得|なっとく}がいかない (to not be satisfied, to not be able to accept) is used at least as frequently as the positive form. Can also appear as {納得|なっとく}のいく as a modifier before nouns.\n\nCOMMON PATTERNS:\n- {納得|なっとく}がいく: to be convinced / it makes sense\n- {納得|なっとく}がいかない: to not be satisfied / it doesn't make sense\n- {納得|なっとく}のいく + noun: a satisfactory ~\n- {納得|なっとく}のいくまで: until one is satisfied\n\nSIMILAR WORDS:\n- {納得|なっとく}する: to be convinced — simpler construction with the same core meaning; {納得|なっとく}がいく emphasizes reaching the state of acceptance\n- {合点|がてん}がいく: to understand, to be convinced — older/literary expression with a similar structure\n- {腑|ふ}に{落|お}ちる: to make sense, to be persuaded — emphasizes the moment something clicks intuitively",
+  "notes": "A common expression combining ⟦{納得|なっとく}→納得：03507_nattoku⟧ (acceptance, understanding) with the verb いく (to go). The negative form {納得|なっとく}がいかない (to not be satisfied, to not be able to accept) is used at least as frequently as the positive form. Can also appear as ⟦{納得|なっとく}→納得：03507_nattoku⟧⟦の→の：09472_no⟧いく as a modifier before nouns.\n\nCOMMON PATTERNS:\n- {納得|なっとく}がいく: to be convinced / it makes sense\n- {納得|なっとく}がいかない: to not be satisfied / it doesn't make sense\n- ⟦{納得|なっとく}→納得：03507_nattoku⟧⟦の→の：09472_no⟧いく + noun: a satisfactory ~\n- ⟦{納得|なっとく}→納得：03507_nattoku⟧⟦の→の：09472_no⟧いく⟦まで→まで：00490_made⟧: until one is satisfied\n\nSIMILAR WORDS:\n- ⟦{納得|なっとく}する→納得する：26805_nattokusuru⟧: to be convinced — simpler construction with the same core meaning; {納得|なっとく}がいく emphasizes reaching the state of acceptance\n- {合点|がてん}がいく: to understand, to be convinced — older/literary expression with a similar structure\n- ⟦{腑|ふ}に{落|お}ちる→腑に落ちる：09908_funiochiru⟧: to make sense, to be persuaded — emphasizes the moment something clicks intuitively",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "26805_nattokusuru",
+      "reading": "なっとくする",
+      "headword": "{納得|なっとく}する",
+      "label": "to be convinced"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09908_funiochiru",
+      "reading": "ふにおちる",
+      "headword": "{腑|ふ}に{落|お}ちる",
+      "label": "to make sense, to be persuaded"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -70,6 +86,6 @@
       ]
     },
     "created": "2026-04-05T17:03:27Z",
-    "modified": "2026-04-10T08:28:27Z"
+    "modified": "2026-09-02T04:02:07Z"
   }
 }

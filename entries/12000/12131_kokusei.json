@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "12131_kokusei_ex1",
-      "japanese": "{国政|こくせい}{選挙|せんきょ}が{行|おこな}われる。",
+      "japanese": "{国政|こくせい}⟦{選挙|せんきょ}→選挙：03303_senkyo⟧⟦が→が：00051_ga⟧⟦{行|おこな}われる→行う：01238_okonau⟧。",
       "english": "A national election will be held.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "12131_kokusei_ex2",
-      "japanese": "{彼女|かのじょ}は{地方|ちほう}{政治|せいじ}から{国政|こくせい}に{進出|しんしゅつ}した。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧⟦{地方|ちほう}→地方：02369_chihou⟧⟦{政治|せいじ}→政治：01629_seiji⟧⟦から→から：00504_kara⟧{国政|こくせい}⟦に→に：00314_ni⟧⟦{進出|しんしゅつ}→進出：14387_shinshutsu⟧⟦した→する：00392_suru⟧。",
       "english": "She moved from local politics to national politics.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "12131_kokusei_ex3",
-      "japanese": "{国政|こくせい}に{参加|さんか}するためには、{国民|こくみん}{一人一人|ひとりひとり}が{政治|せいじ}に{関心|かんしん}を{持|も}つことが{大切|たいせつ}だ。",
+      "japanese": "{国政|こくせい}⟦に→に：00314_ni⟧⟦{参加|さんか}する→参加する：25408_sankasuru⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧、⟦{国民|こくみん}→国民：02757_kokumin⟧⟦{一人一人|ひとりひとり}→一人一人：03711_hitorihitori⟧⟦が→が：00051_ga⟧⟦{政治|せいじ}→政治：01629_seiji⟧⟦に→に：00314_ni⟧⟦{関心|かんしん}→関心：00182_kanshin⟧⟦を→を：00422_wo⟧⟦{持|も}つ→持つ：00478_motsu⟧こと⟦が→が：00051_ga⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧だ。",
       "english": "For citizens to participate in national politics, it is important that each individual take an interest in political affairs.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{国政|こくせい} refers specifically to politics at the national level, distinguishing it from {地方|ちほう}{政治|せいじ} (local politics). It is commonly seen in news and political discourse.\n\nCOMMON COLLOCATIONS:\n- {国政|こくせい}{選挙|せんきょ}: national election\n- {国政|こくせい}に{参加|さんか}する: to participate in national politics\n- {国政|こくせい}に{進出|しんしゅつ}する: to enter national politics\n- {国政|こくせい}を{担|にな}う: to bear responsibility for national governance",
+  "notes": "USAGE:\n{国政|こくせい} refers specifically to politics at the national level, distinguishing it from ⟦{地方|ちほう}→地方：02369_chihou⟧⟦{政治|せいじ}→政治：01629_seiji⟧ (local politics). It is commonly seen in news and political discourse.\n\nCOMMON COLLOCATIONS:\n- {国政|こくせい}⟦{選挙|せんきょ}→選挙：03303_senkyo⟧: national election\n- {国政|こくせい}⟦に→に：00314_ni⟧⟦{参加|さんか}する→参加する：25408_sankasuru⟧: to participate in national politics\n- {国政|こくせい}⟦に→に：00314_ni⟧⟦{進出|しんしゅつ}→進出：14387_shinshutsu⟧⟦する→する：00392_suru⟧: to enter national politics\n- {国政|こくせい}⟦を→を：00422_wo⟧⟦{担|にな}う→担う：12787_ninau⟧: to bear responsibility for national governance",
   "cross_references": [
     {
       "type": "related",
@@ -52,11 +52,18 @@
       "headword": "{政治|せいじ}",
       "label": "politics (general)",
       "target_id": "01629_seiji"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24159_naisei",
+      "reading": "ないせい",
+      "headword": "{内政|ないせい}",
+      "label": "domestic affairs"
     }
   ],
   "metadata": {
     "created": "2026-02-20T08:55:53Z",
-    "modified": "2026-08-16T12:31:26Z",
+    "modified": "2026-09-02T04:01:27Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

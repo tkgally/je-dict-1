@@ -15,40 +15,67 @@
   "examples": [
     {
       "id": "21217_warewowasureru_ex1",
-      "japanese": "{我|われ}を{忘|わす}れて{怒|おこ}る。",
+      "japanese": "{我|われ}を{忘|わす}れて⟦{怒|おこ}る→怒る：00876_okoru⟧。",
       "english": "To fly into a rage, forgetting oneself.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21217_warewowasureru_ex2",
-      "japanese": "{美|うつく}しい{景色|けしき}に{我|われ}を{忘|わす}れた。",
+      "japanese": "⟦{美|うつく}しい→美しい：01121_utsukushii⟧⟦{景色|けしき}→景色：01395_keshiki⟧⟦に→に：00314_ni⟧{我|われ}を{忘|わす}れた。",
       "english": "I was so captivated by the beautiful scenery that I forgot myself.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21217_warewowasureru_ex3",
-      "japanese": "{我|われ}を{忘|わす}れて{夢中|むちゅう}になっていたら、{終電|しゅうでん}を{逃|のが}してしまった。",
+      "japanese": "{我|われ}を{忘|わす}れて⟦{夢中|むちゅう}→夢中：03752_muchuu⟧になって⟦いたら→いる：00495_iru⟧、⟦{終電|しゅうでん}→終電：05296_shuuden⟧⟦を→を：00422_wo⟧⟦{逃|のが}して→逃す：04611_nogasu⟧しまった。",
       "english": "I was so absorbed that I forgot myself and missed the last train.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A set expression meaning to forget one's usual self — to lose composure, self-awareness, or restraint. {我|われ} here is a literary/formal word for 'self.'\n\nCOMMON PATTERNS:\n- {我|われ}を{忘|わす}れて〜する: to do something while lost in the moment\n- {我|われ}を{忘|わす}れるほど: to the point of losing oneself\n\nUSAGE:\nUsed in both positive and negative contexts:\n- Positive: being so captivated by beauty, joy, or excitement that one loses track of time and surroundings\n- Negative: losing self-control due to anger, panic, or strong emotion\n\nSIMILAR WORDS:\n- {夢中|むちゅう}になる: to become absorbed — more neutral and everyday\n- {取|と}り{乱|みだ}す: to lose one's composure — emphasizes emotional disturbance, usually negative\n- {逆上|ぎゃくじょう}する: to fly into a rage — specifically about losing control through anger",
+  "notes": "A set expression meaning to forget one's usual self — to lose composure, self-awareness, or restraint. ⟦{我|われ}→我：30648_ware⟧ here is a literary/formal word for 'self.'\n\nCOMMON PATTERNS:\n- {我|われ}を{忘|わす}れて〜⟦する→する：00392_suru⟧: to do something while lost in the moment\n- {我|われ}を{忘|わす}れるほど: to the point of losing oneself\n\nUSAGE:\nUsed in both positive and negative contexts:\n- Positive: being so captivated by beauty, joy, or excitement that one loses track of time and surroundings\n- Negative: losing self-control due to anger, panic, or strong emotion\n\nSIMILAR WORDS:\n- ⟦{夢中|むちゅう}になる→夢中になる：18839_muchuuninaru⟧: to become absorbed — more neutral and everyday\n- {取|と}り{乱|みだ}す: to lose one's composure — emphasizes emotional disturbance, usually negative\n- ⟦{逆上|ぎゃくじょう}→逆上：16496_gyakujou⟧⟦する→する：00392_suru⟧: to fly into a rage — specifically about losing control through anger",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18839_muchuuninaru",
+      "reading": "むちゅうになる",
+      "headword": "{夢中|むちゅう}になる",
+      "label": "to become absorbed"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16496_gyakujou",
+      "reading": "ぎゃくじょう",
+      "headword": "{逆上|ぎゃくじょう}",
+      "label": "to fly into a rage"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["expression"],
+      "pos": [
+        "expression"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["emotion", "expression"]
+      "semantic": [
+        "emotion",
+        "expression"
+      ]
     },
     "created": "2026-04-01T14:16:10Z",
-    "modified": "2026-04-01T14:16:10Z"
+    "modified": "2026-09-02T04:02:02Z"
   }
 }

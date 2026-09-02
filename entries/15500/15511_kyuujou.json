@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "15511_kyuujou_ex1",
-      "japanese": "{球場|きゅうじょう}は{満員|まんいん}だった。",
+      "japanese": "{球場|きゅうじょう}⟦は→は：00079_ha⟧⟦{満員|まんいん}→満員：07584_manin⟧だった。",
       "english": "The stadium was packed.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "15511_kyuujou_ex2",
-      "japanese": "{週末|しゅうまつ}に{家族|かぞく}で{球場|きゅうじょう}に{行|い}く{予定|よてい}だ。",
+      "japanese": "⟦{週末|しゅうまつ}→週末：03030_shuumatsu⟧⟦に→に：00314_ni⟧⟦{家族|かぞく}→家族：00552_kazoku⟧⟦で→で：00502_de⟧{球場|きゅうじょう}⟦に→に：00314_ni⟧⟦{行|い}く→行く：00119_iku⟧⟦{予定|よてい}→予定：00824_yotei⟧だ。",
       "english": "I plan to go to the ballpark with my family on the weekend.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "15511_kyuujou_ex3",
-      "japanese": "{新|あたら}しい{球場|きゅうじょう}は{天然|てんねん}{芝|しば}で、{収容|しゅうよう}{人数|にんずう}は{三万人|さんまんにん}だ。",
+      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧{球場|きゅうじょう}⟦は→は：00079_ha⟧⟦{天然|てんねん}→天然：03560_tennen⟧⟦{芝|しば}→芝：19341_shiba⟧⟦で→で：00502_de⟧、⟦{収容|しゅうよう}{人数|にんずう}→収容人数：16654_shuuyouninzuu⟧⟦は→は：00079_ha⟧{三万人|さんまんにん}だ。",
       "english": "The new stadium has natural grass and a capacity of thirty thousand.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,26 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{球場|きゅうじょう} refers specifically to a baseball stadium. For stadiums used for other sports, {競技場|きょうぎじょう} (athletic stadium) or スタジアム is used instead.\n\nCOMMON COLLOCATIONS:\n- {球場|きゅうじょう}に{足|あし}を{運|はこ}ぶ (to visit the ballpark)\n- {球場|きゅうじょう}{内|ない} (inside the stadium)\n- ドーム{球場|きゅうじょう} (domed stadium)\n- {屋外|おくがい}{球場|きゅうじょう} (outdoor stadium)\n\nCULTURE:\nBaseball is one of the most popular sports in Japan. Famous {球場|きゅうじょう} include {甲子園|こうしえん}{球場|きゅうじょう}, {神宮|じんぐう}{球場|きゅうじょう}, and {東京|とうきょう}ドーム.",
-  "cross_references": [],
+  "notes": "USAGE:\n{球場|きゅうじょう} refers specifically to a baseball stadium. For stadiums used for other sports, ⟦{競技場|きょうぎじょう}→競技場：15763_kyougijou⟧ (athletic stadium) or ⟦スタジアム→スタジアム：23905_sutajiamu⟧ is used instead.\n\nCOMMON COLLOCATIONS:\n- {球場|きゅうじょう}⟦に→に：00314_ni⟧⟦{足|あし}を{運|はこ}ぶ→足を運ぶ：06898_ashiwohakobu⟧ (to visit the ballpark)\n- {球場|きゅうじょう}⟦{内|ない}→〜内：09853_nai⟧ (inside the stadium)\n- ⟦ドーム→ドーム：24058_doomu⟧{球場|きゅうじょう} (domed stadium)\n- ⟦{屋外|おくがい}→屋外：04136_okugai⟧{球場|きゅうじょう} (outdoor stadium)\n\nCULTURAL NOTE:\nBaseball is one of the most popular sports in Japan. Famous {球場|きゅうじょう} include ⟦{甲子園|こうしえん}→甲子園：23102_koushien⟧{球場|きゅうじょう}, ⟦{神宮|じんぐう}→神宮：17736_jinguu⟧{球場|きゅうじょう}, and ⟦{東京|とうきょう}→東京：09564_toukyou⟧⟦ドーム→ドーム：24058_doomu⟧.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23905_sutajiamu",
+      "reading": "すたじあむ",
+      "headword": "スタジアム",
+      "label": "stadium (sports venue)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24058_doomu",
+      "reading": "どーむ",
+      "headword": "ドーム",
+      "label": "dome (architectural or stadium)"
+    }
+  ],
   "metadata": {
     "created": "2026-03-07T09:34:07Z",
-    "modified": "2026-07-16T15:31:26Z",
+    "modified": "2026-09-02T04:01:41Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

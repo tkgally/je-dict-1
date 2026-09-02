@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "{小学校|しょうがっこう} is elementary school, the first stage of Japan's compulsory education system.\n\nSTRUCTURE:\n- Ages: 6-12 years old\n- Grades: 1-6 (⟦{一|いち}→一：00705_ichi⟧⟦{年生|ねんせい}→年生：30431_nensei⟧〜⟦{六|ろく}→六：00747_roku⟧⟦{年生|ねんせい}→年生：30431_nensei⟧)\n- Duration: 6 years\n- Part of ⟦{義務|ぎむ}→義務：02647_gimu⟧⟦{教育|きょういく}→教育：01313_kyouiku⟧ (compulsory education)\n\nJAPANESE SCHOOL SYSTEM:\n- {小学校|しょうがっこう}: elementary school (6 years)\n- ⟦{中学校|ちゅうがっこう}→中学校：01465_chuugakkou⟧: middle school (3 years)\n- ⟦{高校|こうこう}→高校：01083_koukou⟧/⟦{高等学校|こうとうがっこう}→高等学校：02997_koutougakkou⟧: high school (3 years)\n\nRELATED VOCABULARY:\n- ⟦{小学生|しょうがくせい}→小学生：03069_shougakusei⟧: elementary school student\n- ⟦{入学|にゅうがく}→入学：02092_nyuugaku⟧⟦する→する：00392_suru⟧: to enter school\n- ⟦{卒業|そつぎょう}→卒業：01643_sotsugyou⟧⟦する→する：00392_suru⟧: to graduate\n- ⟦{給食|きゅうしょく}→給食：13800_kyuushoku⟧: school lunch\n\nNOTE:\nPublic elementary education is free. Most students walk to their local school and wear a backpack called ⟦ランドセル→ランドセル：11191_randoseru⟧.",
+  "notes": "{小学校|しょうがっこう} is elementary school, the first stage of Japan's compulsory education system.\n\nCOMMON PATTERNS:\n- Ages: 6-12 years old\n- Grades: 1-6 (⟦{一|いち}→一：00705_ichi⟧⟦{年生|ねんせい}→年生：30431_nensei⟧〜⟦{六|ろく}→六：00747_roku⟧⟦{年生|ねんせい}→年生：30431_nensei⟧)\n- Duration: 6 years\n- Part of ⟦{義務|ぎむ}→義務：02647_gimu⟧⟦{教育|きょういく}→教育：01313_kyouiku⟧ (compulsory education)\n\nJAPANESE SCHOOL SYSTEM:\n- {小学校|しょうがっこう}: elementary school (6 years)\n- ⟦{中学校|ちゅうがっこう}→中学校：01465_chuugakkou⟧: middle school (3 years)\n- ⟦{高校|こうこう}→高校：01083_koukou⟧/⟦{高等学校|こうとうがっこう}→高等学校：02997_koutougakkou⟧: high school (3 years)\n\nRELATED WORDS:\n- ⟦{小学生|しょうがくせい}→小学生：03069_shougakusei⟧: elementary school student\n- ⟦{入学|にゅうがく}→入学：02092_nyuugaku⟧⟦する→する：00392_suru⟧: to enter school\n- ⟦{卒業|そつぎょう}→卒業：01643_sotsugyou⟧⟦する→する：00392_suru⟧: to graduate\n- ⟦{給食|きゅうしょく}→給食：13800_kyuushoku⟧: school lunch\n\nUSAGE:\nPublic elementary education is free. Most students walk to their local school and wear a backpack called ⟦ランドセル→ランドセル：11191_randoseru⟧.",
   "cross_references": [
     {
       "type": "related",
@@ -71,11 +71,39 @@
       "reading": "がっこう",
       "headword": "{学校|がっこう}",
       "label": "school (general)"
+    },
+    {
+      "type": "related",
+      "target_id": "03069_shougakusei",
+      "reading": "しょうがくせい",
+      "headword": "{小学生|しょうがくせい}",
+      "label": "elementary school student"
+    },
+    {
+      "type": "related",
+      "target_id": "01851_nyuugakusuru",
+      "reading": "にゅうがくする",
+      "headword": "{入学|にゅうがく}する",
+      "label": "to enter school"
+    },
+    {
+      "type": "related",
+      "target_id": "01643_sotsugyou",
+      "reading": "そつぎょう",
+      "headword": "{卒業|そつぎょう}",
+      "label": "to graduate"
+    },
+    {
+      "type": "related",
+      "target_id": "13800_kyuushoku",
+      "reading": "きゅうしょく",
+      "headword": "{給食|きゅうしょく}",
+      "label": "school lunch"
     }
   ],
   "metadata": {
     "created": "2026-01-07T12:36:27Z",
-    "modified": "2026-08-09T12:26:58Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

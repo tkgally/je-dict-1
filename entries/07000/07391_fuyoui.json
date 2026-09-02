@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "07391_fuyoui_ex1",
-      "japanese": "{不用意|ふようい}な{発言|はつげん}で{相手|あいて}を{傷|きず}つけてしまった。",
+      "japanese": "{不用意|ふようい}な⟦{発言|はつげん}→発言：05099_hatsugen⟧⟦で→で：00502_de⟧⟦{相手|あいて}→相手：01677_aite⟧⟦を→を：00422_wo⟧⟦{傷|きず}つけて→傷つける：01935_kizutsukeru⟧しまった。",
       "english": "I hurt the other person with a careless remark.",
       "has_audio": false,
       "sense_numbers": [
@@ -23,7 +23,7 @@
     },
     {
       "id": "07391_fuyoui_ex2",
-      "japanese": "{不用意|ふようい}に{個人情報|こじんじょうほう}を{漏|も}らさないでください。",
+      "japanese": "{不用意|ふようい}⟦に→に：00314_ni⟧⟦{個人情報|こじんじょうほう}→個人情報：18842_kojinjouhou⟧⟦を→を：00422_wo⟧⟦{漏|も}らさないで→漏らす：02436_morasu⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please don't carelessly reveal personal information.",
       "has_audio": false,
       "sense_numbers": [
@@ -32,7 +32,7 @@
     },
     {
       "id": "07391_fuyoui_ex3",
-      "japanese": "{不用意|ふようい}にドアを{開|あ}けたら、{猫|ねこ}が{逃|に}げた。",
+      "japanese": "{不用意|ふようい}⟦に→に：00314_ni⟧⟦ドア→ドア：00773_doa⟧⟦を→を：00422_wo⟧⟦{開|あ}けたら→開ける：00563_akeru⟧、⟦{猫|ねこ}→猫：02237_neko⟧⟦が→が：00051_ga⟧⟦{逃|に}げた→逃げる：01151_nigeru⟧。",
       "english": "When I carelessly opened the door, the cat escaped.",
       "has_audio": false,
       "sense_numbers": [
@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "notes": "FORMS:\n・{不用意|ふようい}な + noun (careless ~)\n・{不用意|ふようい}に + verb (carelessly ~)\n\nWORD FORMATION:\n{不|ふ} (un-, non-) + {用意|ようい} (preparation)\nLiterally: \"without preparation\"\n\nCOMMON COLLOCATIONS:\n・{不用意|ふようい}な{発言|はつげん} - careless remark\n・{不用意|ふようい}な{行動|こうどう} - thoughtless action\n・{不用意|ふようい}に{口|くち}を{滑|すべ}らせる - to let something slip carelessly\n\nSIMILAR WORDS:\n・{軽率|けいそつ} - rash, thoughtless (more about being imprudent)\n・{無防備|むぼうび} - defenseless, unguarded (more about vulnerability)\n・うかつ - careless (more colloquial)\n\nREGISTER:\nNeutral to formal. Common in news, official statements, and formal writing.",
+  "notes": "FORMS:\n- {不用意|ふようい}な + noun (careless ~)\n- {不用意|ふようい}⟦に→に：00314_ni⟧ + verb (carelessly ~)\n{不|ふ} (un-, non-) + ⟦{用意|ようい}→用意：01746_youi⟧ (preparation)\nLiterally: \"without preparation\"\n\nCOMMON COLLOCATIONS:\n- {不用意|ふようい}な⟦{発言|はつげん}→発言：05099_hatsugen⟧ - careless remark\n- {不用意|ふようい}な⟦{行動|こうどう}→行動：02728_koudou⟧ - thoughtless action\n- {不用意|ふようい}⟦に→に：00314_ni⟧⟦{口|くち}を{滑|すべ}らせる→口を滑らせる：19678_kuchiwosuberaseru⟧ - to let something slip carelessly\n\nSIMILAR WORDS:\n- ⟦{軽率|けいそつ}→軽率：06866_keisotsu⟧ - rash, thoughtless (more about being imprudent)\n- ⟦{無防備|むぼうび}→無防備：21148_muboubi⟧ - defenseless, unguarded (more about vulnerability)\n- うかつ - careless (more colloquial)\n\nREGISTER:\nNeutral to formal. Common in news, official statements, and formal writing.",
   "cross_references": [
     {
       "type": "synonym",
@@ -48,11 +48,25 @@
       "reading": "けいそつ",
       "headword": "{軽率|けいそつ}",
       "label": "rash, thoughtless"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21148_muboubi",
+      "reading": "むぼうび",
+      "headword": "{無防備|むぼうび}",
+      "label": "defenseless, unguarded"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20555_muyami",
+      "reading": "むやみ",
+      "headword": "むやみ",
+      "label": "reckless"
     }
   ],
   "metadata": {
     "created": "2026-01-19T07:21:20Z",
-    "modified": "2026-04-18T08:05:14Z",
+    "modified": "2026-09-02T04:01:11Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

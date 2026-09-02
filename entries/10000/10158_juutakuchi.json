@@ -14,40 +14,79 @@
   "examples": [
     {
       "id": "10158_juutakuchi_ex1",
-      "japanese": "ここは{静|しず}かな{住宅地|じゅうたくち}だ。",
+      "japanese": "⟦ここ→ここ：00961_koko⟧⟦は→は：00079_ha⟧⟦{静|しず}か→静か：00755_shizuka⟧な{住宅地|じゅうたくち}だ。",
       "english": "This is a quiet residential area.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10158_juutakuchi_ex2",
-      "japanese": "{住宅地|じゅうたくち}に{工場|こうじょう}を{建|た}てることはできない。",
+      "japanese": "{住宅地|じゅうたくち}⟦に→に：00314_ni⟧⟦{工場|こうじょう}→工場：01082_koujou⟧⟦を→を：00422_wo⟧⟦{建|た}てる→建てる：01189_tateru⟧こと⟦は→は：00079_ha⟧⟦できない→できる：00557_dekiru⟧。",
       "english": "You cannot build a factory in a residential area.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10158_juutakuchi_ex3",
-      "japanese": "{駅|えき}から{近|ちか}い{住宅地|じゅうたくち}は{人気|にんき}がある。",
+      "japanese": "⟦{駅|えき}→駅：02180_eki⟧⟦から→から：00504_kara⟧⟦{近|ちか}い→近い：00530_chikai⟧{住宅地|じゅうたくち}⟦は→は：00079_ha⟧⟦{人気|にんき}→人気：01488_ninki⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "Residential areas close to the station are popular.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{住宅地|じゅうたくち} refers to areas zoned or developed primarily for housing, as opposed to commercial or industrial districts. Common in real estate, urban planning, and everyday descriptions of neighborhoods.\n\nWORD FORMATION:\n{住宅|じゅうたく} (housing, residence) + {地|ち} (land, area)\n\nCOMMON COLLOCATIONS:\n- {閑静|かんせい}な{住宅地|じゅうたくち}: quiet residential area\n- {高級|こうきゅう}{住宅地|じゅうたくち}: upscale residential area\n- {住宅地|じゅうたくち}に{住|す}む: to live in a residential area\n\nCONTRAST:\n- {住宅|じゅうたく}{街|がい}: residential neighborhood (more casual, emphasizes the community feel)\n- {商業地|しょうぎょうち}: commercial area\n- {工業地|こうぎょうち}: industrial area\n- {繁華街|はんかがい}: downtown entertainment district",
-  "cross_references": [],
+  "notes": "{住宅地|じゅうたくち} refers to areas zoned or developed primarily for housing, as opposed to commercial or industrial districts. Common in real estate, urban planning, and everyday descriptions of neighborhoods.\n\nFORMS:\n⟦{住宅|じゅうたく}→住宅：03280_juutaku⟧ (housing, residence) + {地|ち} (land, area)\n\nCOMMON COLLOCATIONS:\n- ⟦{閑静|かんせい}→閑静：14526_kansei⟧な{住宅地|じゅうたくち}: quiet residential area\n- ⟦{高級|こうきゅう}→高級：08644_koukyuu⟧{住宅地|じゅうたくち}: upscale residential area\n- {住宅地|じゅうたくち}⟦に→に：00314_ni⟧⟦{住|す}む→住む：00673_sumu⟧: to live in a residential area\n\nSIMILAR WORDS:\n- ⟦{住宅|じゅうたく}{街|がい}→住宅街：09394_juutakugai⟧: residential neighborhood (more casual, emphasizes the community feel)\n- ⟦{商業地|しょうぎょうち}→商業地：19057_shougyouchi⟧: commercial area\n- {工業地|こうぎょうち}: industrial area\n- ⟦{繁華街|はんかがい}→繁華街：09392_hankagai⟧: downtown entertainment district",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09394_juutakugai",
+      "reading": "じゅうたくがい",
+      "headword": "{住宅街|じゅうたくがい}",
+      "label": "residential neighborhood"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19057_shougyouchi",
+      "reading": "しょうぎょうち",
+      "headword": "{商業地|しょうぎょうち}",
+      "label": "commercial area"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09392_hankagai",
+      "reading": "はんかがい",
+      "headword": "{繁華街|はんかがい}",
+      "label": "downtown entertainment district"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23077_nyuutaun",
+      "reading": "にゅーたうん",
+      "headword": "ニュータウン",
+      "label": "new town"
+    }
+  ],
   "metadata": {
     "created": "2026-02-05T11:49:02Z",
-    "modified": "2026-03-26T04:30:27Z",
+    "modified": "2026-09-02T04:01:20Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["geography"]
+      "semantic": [
+        "geography"
+      ]
     }
   }
 }

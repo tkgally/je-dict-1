@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "13586_oui_ex1",
-      "japanese": "{王子|おうじ}が{王位|おうい}を{継|つ}いだ。",
+      "japanese": "⟦{王子|おうじ}→王子：01904_ouji⟧⟦が→が：00051_ga⟧{王位|おうい}⟦を→を：00422_wo⟧⟦{継|つ}いだ→継ぐ：02292_tsugu⟧。",
       "english": "The prince succeeded to the throne.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13586_oui_ex2",
-      "japanese": "{王|おう}は{王位|おうい}を{退|しりぞ}いて、{息子|むすこ}に{譲|ゆず}った。",
+      "japanese": "⟦{王|おう}→王：19353_ou⟧⟦は→は：00079_ha⟧{王位|おうい}⟦を→を：00422_wo⟧⟦{退|しりぞ}いて→退く：20858_shirizoku⟧、⟦{息子|むすこ}→息子：00799_musuko⟧⟦に→に：00314_ni⟧⟦{譲|ゆず}った→譲る：02323_yuzuru⟧。",
       "english": "The king abdicated the throne and yielded it to his son.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13586_oui_ex3",
-      "japanese": "{王位|おうい}をめぐる{争|あらそ}いは{何世紀|なんせいき}にもわたって{続|つづ}き、{国|くに}を{二分|にぶん}する{内戦|ないせん}に{発展|はってん}した。",
+      "japanese": "{王位|おうい}⟦を→を：00422_wo⟧めぐる⟦{争|あらそ}い→争い：09992_arasoi⟧⟦は→は：00079_ha⟧{何世紀|なんせいき}⟦に→に：00314_ni⟧⟦も→も：00484_mo⟧わたって⟦{続|つづ}き→続く：00903_tsuzuku⟧、⟦{国|くに}→国：02204_kuni⟧⟦を→を：00422_wo⟧⟦{二分|にぶん}→二分：30504_nibun⟧⟦する→する：00392_suru⟧⟦{内戦|ないせん}→内戦：19875_naisen⟧⟦に→に：00314_ni⟧⟦{発展|はってん}した→発展する：25331_hattensuru⟧。",
       "english": "The struggle for the throne continued for centuries and developed into a civil war that divided the country in two.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nCommonly appears in historical narratives, fantasy literature, and board game contexts. In shogi, {王位|おうい}{戦|せん} is one of the eight major title matches.\n\nCOMMON COLLOCATIONS:\n- {王位|おうい}を{継|つ}ぐ: succeed to the throne\n- {王位|おうい}に{就|つ}く: ascend the throne\n- {王位|おうい}を{譲|ゆず}る: abdicate / hand over the throne\n- {王位|おうい}{継承|けいしょう}: succession to the throne\n- {王位|おうい}{争|あらそ}い: struggle for the throne",
+  "notes": "USAGE:\nCommonly appears in historical narratives, fantasy literature, and board game contexts. In shogi, {王位|おうい}{戦|せん} is one of the eight major title matches.\n\nCOMMON COLLOCATIONS:\n- {王位|おうい}⟦を→を：00422_wo⟧⟦{継|つ}ぐ→継ぐ：02292_tsugu⟧: succeed to the throne\n- {王位|おうい}⟦に→に：00314_ni⟧⟦{就|つ}く→就く：10123_tsuku⟧: ascend the throne\n- {王位|おうい}⟦を→を：00422_wo⟧⟦{譲|ゆず}る→譲る：02323_yuzuru⟧: abdicate / hand over the throne\n- {王位|おうい}⟦{継承|けいしょう}→継承：13841_keishou⟧: succession to the throne\n- {王位|おうい}⟦{争|あらそ}い→争い：09992_arasoi⟧: struggle for the throne",
   "cross_references": [
     {
       "type": "related",
@@ -57,14 +63,18 @@
   ],
   "metadata": {
     "created": "2026-02-26T09:47:41Z",
-    "modified": "2026-04-29T05:15:51Z",
+    "modified": "2026-09-02T04:01:33Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

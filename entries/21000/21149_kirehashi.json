@@ -15,40 +15,73 @@
   "examples": [
     {
       "id": "21149_kirehashi_ex1",
-      "japanese": "{布|ぬの}の{切|き}れ{端|はし}で{雑巾|ぞうきん}を{作|つく}った。",
+      "japanese": "⟦{布|ぬの}→布：01489_nuno⟧⟦の→の：09472_no⟧{切|き}れ{端|はし}⟦で→で：00502_de⟧⟦{雑巾|ぞうきん}→雑巾：04408_zoukin⟧⟦を→を：00422_wo⟧⟦{作|つく}った→作る：00481_tsukuru⟧。",
       "english": "I made a cleaning cloth from scraps of fabric.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21149_kirehashi_ex2",
-      "japanese": "{紙|かみ}の{切|き}れ{端|はし}にメモを{書|か}いた。",
+      "japanese": "⟦{紙|かみ}→紙：00712_kami⟧⟦の→の：09472_no⟧{切|き}れ{端|はし}⟦に→に：00314_ni⟧⟦メモ→メモ：00274_memo⟧⟦を→を：00422_wo⟧⟦{書|か}いた→書く：00477_kaku⟧。",
       "english": "I wrote a note on a scrap of paper.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21149_kirehashi_ex3",
-      "japanese": "{木材|もくざい}の{切|き}れ{端|はし}を{集|あつ}めて{子供|こども}の{工作|こうさく}に{使|つか}った。",
+      "japanese": "⟦{木材|もくざい}→木材：13017_mokuzai⟧⟦の→の：09472_no⟧{切|き}れ{端|はし}⟦を→を：00422_wo⟧⟦{集|あつ}めて→集める：01170_atsumeru⟧⟦{子供|こども}→子供：00554_kodomo⟧⟦の→の：09472_no⟧⟦{工作|こうさく}→工作：12437_kousaku⟧⟦に→に：00314_ni⟧⟦{使|つか}った→使う：00473_tsukau⟧。",
       "english": "I gathered wood scraps and used them for the children's craft project.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {切|き}れ (a cut piece, from {切|き}る) and {端|はし} (edge, end). Refers to leftover pieces from cutting — fabric, paper, wood, or food. Often implies something small and potentially useful for secondary purposes.\n\nCOMMON COLLOCATIONS:\n- {布|ぬの}の{切|き}れ{端|はし}: fabric scrap\n- {紙|かみ}の{切|き}れ{端|はし}: scrap of paper\n- {木|き}の{切|き}れ{端|はし}: wood scrap\n- {肉|にく}の{切|き}れ{端|はし}: meat trimmings\n\nSIMILAR WORDS:\n- {端切|はぎ}れ: fabric remnant — specifically for cloth\n- {断片|だんぺん}: fragment — more abstract, used for information or memories as well\n- {破片|はへん}: fragment; shard — implies something broken, like glass or pottery",
+  "notes": "A compound of {切|き}れ (a cut piece, from ⟦{切|き}る→切る：02693_kiru⟧) and ⟦{端|はし}→端：00936_hashi⟧ (edge, end). Refers to leftover pieces from cutting — fabric, paper, wood, or food. Often implies something small and potentially useful for secondary purposes.\n\nCOMMON COLLOCATIONS:\n- ⟦{布|ぬの}→布：01489_nuno⟧⟦の→の：09472_no⟧{切|き}れ{端|はし}: fabric scrap\n- ⟦{紙|かみ}→紙：00712_kami⟧⟦の→の：09472_no⟧{切|き}れ{端|はし}: scrap of paper\n- ⟦{木|き}→木：00524_ki⟧⟦の→の：09472_no⟧{切|き}れ{端|はし}: wood scrap\n- ⟦{肉|にく}→肉：02240_niku⟧⟦の→の：09472_no⟧{切|き}れ{端|はし}: meat trimmings\n\nSIMILAR WORDS:\n- ⟦{端切|はぎ}れ→端切れ：24305_hagire⟧: fabric remnant — specifically for cloth\n- ⟦{断片|だんぺん}→断片：10915_danpen⟧: fragment — more abstract, used for information or memories as well\n- ⟦{破片|はへん}→破片：00082_hahen⟧: fragment; shard — implies something broken, like glass or pottery",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24305_hagire",
+      "reading": "はぎれ",
+      "headword": "{端切|はぎ}れ",
+      "label": "fabric remnant"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10915_danpen",
+      "reading": "だんぺん",
+      "headword": "{断片|だんぺん}",
+      "label": "fragment"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00082_hahen",
+      "reading": "はへん",
+      "headword": "{破片|はへん}",
+      "label": "fragment"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     },
     "created": "2026-03-31T21:35:31Z",
-    "modified": "2026-03-31T21:35:31Z"
+    "modified": "2026-09-02T04:02:02Z"
   }
 }

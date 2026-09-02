@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "19869_monohoshige_ex1",
-      "japanese": "{物欲|ものほ}しげな{顔|かお}をする。",
+      "japanese": "{物欲|ものほ}しげな⟦{顔|かお}→顔：00558_kao⟧⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧。",
       "english": "To make a longing face.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "19869_monohoshige_ex2",
-      "japanese": "{犬|いぬ}が{物欲|ものほ}しげにこちらを{見|み}ていた。",
+      "japanese": "⟦{犬|いぬ}→犬：00632_inu⟧⟦が→が：00051_ga⟧{物欲|ものほ}しげ⟦に→に：00314_ni⟧⟦こちら→こちら：00960_kochira⟧⟦を→を：00422_wo⟧⟦{見|み}ていた→見る：00283_miru⟧。",
       "english": "The dog was looking at me longingly.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "19869_monohoshige_ex3",
-      "japanese": "{物欲|ものほ}しげな{目|め}で{他人|たにん}のお{菓子|かし}を{見|み}るのはやめなさい。",
+      "japanese": "{物欲|ものほ}しげな⟦{目|め}→目：00525_me⟧⟦で→で：00502_de⟧⟦{他人|たにん}→他人：01459_tanin⟧⟦の→の：09472_no⟧⟦お{菓子|かし}→お菓子：02852_okashi⟧⟦を→を：00422_wo⟧⟦{見|み}る→見る：00283_miru⟧⟦の→の：09472_no⟧はやめ⟦なさい→なさる：01307_nasaru⟧。",
       "english": "Stop looking at other people's snacks with those longing eyes.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "Formed from {物欲|ものほ}しい (wanting things) + げ (suffix meaning \"appearing to be, looking like\"). Describes the outward appearance of desire rather than the internal feeling itself. Often used for facial expressions or body language that reveals wanting.\n\nCOMMON COLLOCATIONS:\n- {物欲|ものほ}しげな{顔|かお} — a longing/wistful face\n- {物欲|ものほ}しげな{目|め} — longing eyes\n- {物欲|ものほ}しげに{見|み}る — to look longingly\n\nSIMILAR WORDS:\n- {欲|ほ}しそう — looking like one wants something (more casual)\n- {羨|うらや}ましげ — looking envious\n- {未練|みれん}がましい — reluctant to let go, lingering attachment",
+  "notes": "Formed from {物欲|ものほ}しい (wanting things) + げ (suffix meaning \"appearing to be, looking like\"). Describes the outward appearance of desire rather than the internal feeling itself. Often used for facial expressions or body language that reveals wanting.\n\nCOMMON COLLOCATIONS:\n- {物欲|ものほ}しげな⟦{顔|かお}→顔：00558_kao⟧ — a longing/wistful face\n- {物欲|ものほ}しげな⟦{目|め}→目：00525_me⟧ — longing eyes\n- {物欲|ものほ}しげ⟦に→に：00314_ni⟧⟦{見|み}る→見る：00283_miru⟧ — to look longingly\n\nSIMILAR WORDS:\n- {欲|ほ}しそう — looking like one wants something (more casual)\n- {羨|うらや}ましげ — looking envious\n- ⟦{未練|みれん}がましい→未練がましい：26851_mirengamashii⟧ — reluctant to let go, lingering attachment",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "26851_mirengamashii",
+      "reading": "みれんがましい",
+      "headword": "{未練|みれん}がましい",
+      "label": "reluctant to let go, lingering…"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +69,6 @@
       ]
     },
     "created": "2026-03-27T03:32:50Z",
-    "modified": "2026-03-27T03:32:50Z"
+    "modified": "2026-09-02T04:01:57Z"
   }
 }

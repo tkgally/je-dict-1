@@ -15,41 +15,60 @@
   "examples": [
     {
       "id": "28751_seigikan_ex1",
-      "japanese": "{彼|かれ}は{強|つよ}い{正義感|せいぎかん}を{持|も}っている。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{強|つよ}い→強い：00820_tsuyoi⟧{正義感|せいぎかん}⟦を→を：00422_wo⟧⟦{持|も}っている→持つ：00478_motsu⟧。",
       "english": "He has a strong sense of justice.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28751_seigikan_ex2",
-      "japanese": "{正義感|せいぎかん}の{強|つよ}い{警察官|けいさつかん}だ。",
+      "japanese": "{正義感|せいぎかん}⟦の→の：09472_no⟧⟦{強|つよ}い→強い：00820_tsuyoi⟧⟦{警察官|けいさつかん}→警察官：05056_keisatsukan⟧だ。",
       "english": "He's a police officer with a strong sense of justice.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28751_seigikan_ex3",
-      "japanese": "{彼女|かのじょ}の{正義感|せいぎかん}が、{不正|ふせい}を{告発|こくはつ}する{勇気|ゆうき}になった。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦の→の：09472_no⟧{正義感|せいぎかん}⟦が→が：00051_ga⟧、⟦{不正|ふせい}→不正：01660_fusei⟧⟦を→を：00422_wo⟧⟦{告発|こくはつ}→告発：07999_kokuhatsu⟧⟦する→する：00392_suru⟧⟦{勇気|ゆうき}→勇気：02499_yuuki⟧になった。",
       "english": "Her sense of justice gave her the courage to expose the wrongdoing.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Compound of {正義|せいぎ} (justice) + 〜{感|かん} (sense/feeling). The 〜{感|かん} suffix forms many \"sense of X\" nouns: {責任感|せきにんかん} (sense of responsibility), {使命感|しめいかん} (sense of mission).\n\nCOMMON COLLOCATIONS:\n- {正義感|せいぎかん}が{強|つよ}い: to have a strong sense of justice\n- {正義感|せいぎかん}にあふれる: to be brimming with a sense of justice\n- {正義感|せいぎかん}に{駆|か}られる: to be driven by a sense of justice\n- {正義感|せいぎかん}を{失|うしな}う: to lose one's sense of justice",
+  "notes": "Compound of ⟦{正義|せいぎ}→正義：05097_seigi⟧ (justice) + 〜⟦{感|かん}→〜感：28578_kan⟧ (sense/feeling). The 〜⟦{感|かん}→〜感：28578_kan⟧ suffix forms many \"sense of X\" nouns: ⟦{責任感|せきにんかん}→責任感：20441_sekininkan⟧ (sense of responsibility), {使命感|しめいかん} (sense of mission).\n\nCOMMON COLLOCATIONS:\n- {正義感|せいぎかん}⟦が→が：00051_ga⟧⟦{強|つよ}い→強い：00820_tsuyoi⟧: to have a strong sense of justice\n- {正義感|せいぎかん}⟦に→に：00314_ni⟧あふれる: to be brimming with a sense of justice\n- {正義感|せいぎかん}⟦に→に：00314_ni⟧⟦{駆|か}られる→駆る：14715_karu⟧: to be driven by a sense of justice\n- {正義感|せいぎかん}⟦を→を：00422_wo⟧⟦{失|うしな}う→失う：01887_ushinau⟧: to lose one's sense of justice",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24981_gikyoushin",
+      "reading": "ぎきょうしん",
+      "headword": "{義侠心|ぎきょうしん}",
+      "label": "chivalrous spirit"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["emotion"],
+      "politeness": "plain",
+      "semantic": [
+        "emotion"
+      ],
       "domain": []
     },
     "created": "2026-06-05T02:07:15Z",
-    "modified": "2026-06-05T02:07:15Z"
+    "modified": "2026-09-02T04:02:34Z"
   }
 }

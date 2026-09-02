@@ -16,40 +16,66 @@
   "examples": [
     {
       "id": "29221_kabayaki_ex1",
-      "japanese": "{鰻|うなぎ}の{蒲焼|かばや}きを{食|た}べた。",
+      "japanese": "⟦{鰻|うなぎ}→鰻：06105_unagi⟧⟦の→の：09472_no⟧{蒲焼|かばや}き⟦を→を：00422_wo⟧⟦{食|た}べた→食べる：00396_taberu⟧。",
       "english": "I ate kabayaki eel.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29221_kabayaki_ex2",
-      "japanese": "{蒲焼|かばや}きのたれは{醤油|しょうゆ}とみりんで{作|つく}る。",
+      "japanese": "{蒲焼|かばや}き⟦の→の：09472_no⟧⟦たれ→タレ：10500_tare⟧⟦は→は：00079_ha⟧⟦{醤油|しょうゆ}→醤油：01056_shouyu⟧⟦と→と：00512_to⟧みりん⟦で→で：00502_de⟧⟦{作|つく}る→作る：00481_tsukuru⟧。",
       "english": "Kabayaki sauce is made from soy sauce and mirin.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29221_kabayaki_ex3",
-      "japanese": "{土用|どよう}の{丑|うし}の{日|ひ}に{鰻|うなぎ}の{蒲焼|かばや}きを{食|た}べる{習慣|しゅうかん}がある。",
+      "japanese": "⟦{土用|どよう}→土用：27533_doyou⟧⟦の→の：09472_no⟧{丑|うし}⟦の→の：09472_no⟧⟦{日|ひ}→日：02249_hi⟧⟦に→に：00314_ni⟧⟦{鰻|うなぎ}→鰻：06105_unagi⟧⟦の→の：09472_no⟧{蒲焼|かばや}き⟦を→を：00422_wo⟧⟦{食|た}べる→食べる：00396_taberu⟧⟦{習慣|しゅうかん}→習慣：01429_shuukan⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There is a custom of eating kabayaki eel on the Midsummer Day of the Ox.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "The defining feature is the tare ({蒲焼|かばや}きのたれ) — a sweet, salty sauce of soy sauce, mirin, sake, and sugar that caramelizes on the fish during grilling.\n\nCOMMON COLLOCATIONS:\n- {鰻|うなぎ}の{蒲焼|かばや}き: eel kabayaki (the most iconic form)\n- {蒲焼|かばや}きのたれ: kabayaki glaze/sauce\n- {鰻丼|うなどん}: eel rice bowl topped with kabayaki eel\n- {鰻重|うなじゅう}: kabayaki eel served over rice in a lacquered box\n\nSIMILAR WORDS:\n- {塩焼|しおや}き: salt-grilled fish — simpler preparation with no sweet sauce\n- {照|て}り{焼|や}き: teriyaki — similar glaze technique, applied to various meats and fish",
-  "cross_references": [],
+  "notes": "The defining feature is the tare ({蒲焼|かばや}き⟦の→の：09472_no⟧⟦たれ→タレ：10500_tare⟧) — a sweet, salty sauce of soy sauce, mirin, sake, and sugar that caramelizes on the fish during grilling.\n\nCOMMON COLLOCATIONS:\n- ⟦{鰻|うなぎ}→鰻：06105_unagi⟧⟦の→の：09472_no⟧{蒲焼|かばや}き: eel kabayaki (the most iconic form)\n- {蒲焼|かばや}き⟦の→の：09472_no⟧⟦たれ→タレ：10500_tare⟧: kabayaki glaze/sauce\n- {鰻丼|うなどん}: eel rice bowl topped with kabayaki eel\n- {鰻重|うなじゅう}: kabayaki eel served over rice in a lacquered box\n\nSIMILAR WORDS:\n- ⟦{塩焼|しおや}き→塩焼き：12120_shioyaki⟧: salt-grilled fish — simpler preparation with no sweet sauce\n- ⟦{照|て}り{焼|や}き→照り焼き：17668_teriyaki⟧: teriyaki — similar glaze technique, applied to various meats and fish",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12120_shioyaki",
+      "reading": "しおやき",
+      "headword": "{塩焼|しおや}き",
+      "label": "salt-grilled fish"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17668_teriyaki",
+      "reading": "てりやき",
+      "headword": "{照|て}り{焼|や}き",
+      "label": "teriyaki"
+    }
+  ],
   "metadata": {
     "created": "2026-06-13T21:22:42Z",
-    "modified": "2026-06-13T21:22:42Z",
+    "modified": "2026-09-02T04:02:36Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food", "cooking"],
+      "semantic": [
+        "food",
+        "cooking"
+      ],
       "domain": []
     }
   }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30608_watarinifune_ex1",
-      "japanese": "その{誘|さそ}いは{渡|わた}りに{船|ふね}だった。",
+      "japanese": "⟦その→その：00993_sono⟧⟦{誘|さそ}い→誘い：14200_sasoi⟧⟦は→は：00079_ha⟧{渡|わた}りに{船|ふね}だった。",
       "english": "That invitation was a godsend.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30608_watarinifune_ex2",
-      "japanese": "{困|こま}っていたので、{彼|かれ}の{申|もう}し{出|で}は{渡|わた}りに{船|ふね}だった。",
+      "japanese": "⟦{困|こま}っていた→困る：00861_komaru⟧⟦の→の：09472_no⟧で、⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧⟦{申|もう}し{出|で}→申し出：13560_moushide⟧⟦は→は：00079_ha⟧{渡|わた}りに{船|ふね}だった。",
       "english": "I was in trouble, so his offer came just at the right moment.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30608_watarinifune_ex3",
-      "japanese": "{引|ひ}っ{越|こ}し{先|さき}を{探|さが}していたところに{社宅|しゃたく}の{話|はなし}が{来|き}て、まさに{渡|わた}りに{船|ふね}だった。",
+      "japanese": "⟦{引|ひ}っ{越|こ}し{先|さき}→引っ越し先：21647_hikkoshisaki⟧⟦を→を：00422_wo⟧⟦{探|さが}していた→探す：00493_sagasu⟧⟦ところ→ところ：01137_tokoro⟧⟦に→に：00314_ni⟧{社宅|しゃたく}⟦の→の：09472_no⟧⟦{話|はなし}→話：01496_hanashi⟧⟦が→が：00051_ga⟧⟦{来|き}て→来る：00254_kuru⟧、⟦まさに→まさに：00270_masani⟧{渡|わた}りに{船|ふね}だった。",
       "english": "Just as I was hunting for a new place, the offer of company housing came up — a real godsend.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "USAGE:\nUsually predicative — {渡|わた}りに{船|ふね}だ / だった — and frequently reinforced with まさに (exactly, truly). It describes the timing of an offer, so there is normally someone or something providing the help.\n\nCOMMON COLLOCATIONS:\n- まさに{渡|わた}りに{船|ふね}: a godsend indeed\n- {渡|わた}りに{船|ふね}と{引|ひ}き{受|う}ける: to accept, seizing the timely chance\n- {渡|わた}りに{船|ふね}の{申|もう}し{出|で}: a perfectly timed offer\n\nSIMILAR WORDS:\n- {棚|たな}からぼたもち: an unexpected windfall — pure luck with no effort or need involved\n- {地獄|じごく}に{仏|ほとけ}: salvation in dire straits — stronger, for rescue from genuine desperation",
+  "notes": "USAGE:\nUsually predicative — {渡|わた}りに{船|ふね}だ / だった — and frequently reinforced with ⟦まさに→まさに：00270_masani⟧ (exactly, truly). It describes the timing of an offer, so there is normally someone or something providing the help.\n\nCOMMON COLLOCATIONS:\n- ⟦まさに→まさに：00270_masani⟧{渡|わた}りに{船|ふね}: a godsend indeed\n- {渡|わた}りに{船|ふね}⟦と→と：00512_to⟧⟦{引|ひ}き{受|う}ける→引き受ける：03140_hikiukeru⟧: to accept, seizing the timely chance\n- {渡|わた}りに{船|ふね}⟦の→の：09472_no⟧⟦{申|もう}し{出|で}→申し出：13560_moushide⟧: a perfectly timed offer\n\nSIMILAR WORDS:\n- ⟦{棚|たな}→棚：01650_tana⟧⟦から→から：00504_kara⟧ぼたもち: an unexpected windfall — pure luck with no effort or need involved\n- ⟦{地獄|じごく}に{仏|ほとけ}→地獄に仏：30617_jigokunihotoke⟧: salvation in dire straits — stronger, for rescue from genuine desperation",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "30617_jigokunihotoke",
+      "reading": "じごくにほとけ",
+      "headword": "{地獄|じごく}に{仏|ほとけ}",
+      "label": "salvation in dire straits"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +62,13 @@
         "expression"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "idiom"
       ],
       "domain": []
     },
     "created": "2026-08-13T00:22:39Z",
-    "modified": "2026-08-13T00:22:39Z"
+    "modified": "2026-09-02T04:02:40Z"
   }
 }

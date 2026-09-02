@@ -3,7 +3,7 @@
   "headword": "{慶祝|けいしゅく}",
   "reading": "けいしゅく",
   "romaji": "keishuku",
-  "part_of_speech": "noun / suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "celebration; congratulation",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "19725_keishuku_ex1",
-      "japanese": "{天皇|てんのう}{即位|そくい}を{慶祝|けいしゅく}する。",
+      "japanese": "⟦{天皇|てんのう}→天皇：04546_tennou⟧⟦{即位|そくい}→即位：11974_sokui⟧⟦を→を：00422_wo⟧{慶祝|けいしゅく}⟦する→する：00392_suru⟧。",
       "english": "To celebrate the Emperor's enthronement.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "19725_keishuku_ex2",
-      "japanese": "{創立|そうりつ}{百|ひゃく}{周年|しゅうねん}の{慶祝|けいしゅく}{行事|ぎょうじ}が{行|おこな}われた。",
+      "japanese": "⟦{創立|そうりつ}→創立：15353_souritsu⟧⟦{百|ひゃく}→百：00780_hyaku⟧⟦{周年|しゅうねん}→周年：09520_shuunen⟧⟦の→の：09472_no⟧{慶祝|けいしゅく}⟦{行事|ぎょうじ}→行事：00078_gyouji⟧⟦が→が：00051_ga⟧⟦{行|おこな}われた→行う：01238_okonau⟧。",
       "english": "Celebratory events for the 100th anniversary of the founding were held.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "19725_keishuku_ex3",
-      "japanese": "{国民|こくみん}こぞって{新|あら}たな{時代|じだい}の{幕開|まくあ}けを{慶祝|けいしゅく}した。",
+      "japanese": "⟦{国民|こくみん}→国民：02757_kokumin⟧こぞって⟦{新|あら}た→新た：01697_arata⟧な⟦{時代|じだい}→時代：01424_jidai⟧⟦の→の：09472_no⟧⟦{幕開|まくあ}け→幕開け：16042_makuake⟧⟦を→を：00422_wo⟧{慶祝|けいしゅく}⟦した→する：00392_suru⟧。",
       "english": "The entire nation celebrated the dawn of a new era.",
       "sense_numbers": [
         1
@@ -134,8 +134,31 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {慶|けい} (joy, congratulation) + {祝|しゅく} (celebration). A very formal word used primarily in ceremonial and official contexts. It carries a weight and solemnity not found in everyday words for celebration.\n\nCOMMON COLLOCATIONS:\n- {慶祝|けいしゅく}する — to celebrate formally\n- {慶祝|けいしゅく}{行事|ぎょうじ} — celebratory event\n- {慶祝|けいしゅく}{式典|しきてん} — celebratory ceremony\n- {慶祝|けいしゅく}ムード — festive/celebratory mood\n\nSIMILAR WORDS:\n- {祝賀|しゅくが} — celebration, congratulation; formal but slightly more common than {慶祝|けいしゅく}\n- お{祝|いわ}い — celebration, congratulation; the everyday word\n- {祝福|しゅくふく} — blessing, well-wishes; more personal and warm",
+  "notes": "Composed of {慶|けい} (joy, congratulation) + {祝|しゅく} (celebration). A very formal word used primarily in ceremonial and official contexts. It carries a weight and solemnity not found in everyday words for celebration.\n\nCOMMON COLLOCATIONS:\n- {慶祝|けいしゅく}⟦する→する：00392_suru⟧ — to celebrate formally\n- {慶祝|けいしゅく}⟦{行事|ぎょうじ}→行事：00078_gyouji⟧ — celebratory event\n- {慶祝|けいしゅく}⟦{式典|しきてん}→式典：09526_shikiten⟧ — celebratory ceremony\n- {慶祝|けいしゅく}⟦ムード→ムード：11160_muudo⟧ — festive/celebratory mood\n\nSIMILAR WORDS:\n- ⟦{祝賀|しゅくが}→祝賀：14770_shukuga⟧ — celebration, congratulation; formal but slightly more common than {慶祝|けいしゅく}\n- ⟦お{祝|いわ}い→お祝い：01339_oiwai⟧ — celebration, congratulation; the everyday word\n- ⟦{祝福|しゅくふく}→祝福：13733_shukufuku⟧ — blessing, well-wishes; more personal and warm",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14770_shukuga",
+      "reading": "しゅくが",
+      "headword": "{祝賀|しゅくが}",
+      "label": "celebration, congratulation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01339_oiwai",
+      "reading": "おいわい",
+      "headword": "お{祝|いわ}い",
+      "label": "celebration, congratulation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13733_shukufuku",
+      "reading": "しゅくふく",
+      "headword": "{祝福|しゅくふく}",
+      "label": "blessing, well-wishes"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -148,9 +171,10 @@
       "semantic": [
         "culture"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-03-26T14:35:28Z",
-    "modified": "2026-07-27T12:42:09Z"
+    "modified": "2026-09-02T04:01:57Z"
   }
 }

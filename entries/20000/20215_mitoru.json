@@ -3,7 +3,7 @@
   "headword": "{看取|みと}る",
   "reading": "みとる",
   "romaji": "mitoru",
-  "part_of_speech": "godan verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to watch over (a dying person); to be at someone's deathbed",
   "conjugation": {
     "type": "godan",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "20215_mitoru_ex1",
-      "japanese": "{母|はは}を{看取|みと}った。",
+      "japanese": "⟦{母|はは}→母：00549_haha⟧⟦を→を：00422_wo⟧{看取|みと}った。",
       "english": "I was at my mother's deathbed.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "20215_mitoru_ex2",
-      "japanese": "{家族|かぞく}に{看取|みと}られて{亡|な}くなった。",
+      "japanese": "⟦{家族|かぞく}→家族：00552_kazoku⟧⟦に→に：00314_ni⟧{看取|みと}られて⟦{亡|な}くなった→亡くなる：02639_nakunaru⟧。",
       "english": "He passed away surrounded by his family.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "20215_mitoru_ex3",
-      "japanese": "{祖父|そふ}は{長|なが}い{闘病生活|とうびょうせいかつ}の{末|すえ}、{家族|かぞく}に{看取|みと}られながら{静|しず}かに{息|いき}を{引|ひ}き{取|と}った。",
+      "japanese": "⟦{祖父|そふ}→祖父：01452_sofu⟧⟦は→は：00079_ha⟧⟦{長|なが}い→長い：00491_nagai⟧{闘病生活|とうびょうせいかつ}⟦の→の：09472_no⟧⟦{末|すえ}→末：03362_sue⟧、⟦{家族|かぞく}→家族：00552_kazoku⟧⟦に→に：00314_ni⟧{看取|みと}られ⟦ながら→ながら：10530_nagara⟧⟦{静|しず}か→静か：00755_shizuka⟧⟦に→に：00314_ni⟧⟦{息|いき}→息：02176_iki⟧⟦を→を：00422_wo⟧⟦{引|ひ}き{取|と}った→引き取る：06164_hikitoru⟧。",
       "english": "After a long battle with illness, my grandfather quietly passed away with his family watching over him.",
       "sense_numbers": [
         1
@@ -134,8 +134,24 @@
       "notes": null
     }
   ],
-  "notes": "An emotionally significant word in Japanese culture. Being present at a family member's death ({看取|みと}り) is considered an important duty and a source of comfort for the dying person. The word carries deep cultural weight about family bonds and end-of-life care.\n\nCOMMON COLLOCATIONS:\n- {最期|さいご}を{看取|みと}る: to be present at someone's final moments\n- {家族|かぞく}に{看取|みと}られる: to be watched over by family (at death)\n- {看取|みと}り{介護|かいご}: end-of-life care\n- {看取|みと}り{看護|かんご}: terminal nursing care\n- {在宅|ざいたく}{看取|みと}り: dying at home with family present\n\nCULTURAL NOTE:\nIn Japan, the concept of {看取|みと}り is closely tied to the ideal of dying peacefully at home surrounded by loved ones. With an aging population, {看取|みと}り has become a significant topic in healthcare policy, especially regarding {在宅|ざいたく}{医療|いりょう} (home medical care) and hospice services.\n\nSIMILAR WORDS:\n- {見届|みとど}ける: to see through to the end — broader, not limited to death\n- {介護|かいご}する: to provide nursing care — ongoing care, not specifically end-of-life",
+  "notes": "An emotionally significant word in Japanese culture. Being present at a family member's death ({看取|みと}り) is considered an important duty and a source of comfort for the dying person. The word carries deep cultural weight about family bonds and end-of-life care.\n\nCOMMON COLLOCATIONS:\n- ⟦{最期|さいご}→最期：30329_saigo⟧⟦を→を：00422_wo⟧{看取|みと}る: to be present at someone's final moments\n- ⟦{家族|かぞく}→家族：00552_kazoku⟧⟦に→に：00314_ni⟧{看取|みと}られる: to be watched over by family (at death)\n- {看取|みと}り⟦{介護|かいご}→介護：04805_kaigo⟧: end-of-life care\n- {看取|みと}り⟦{看護|かんご}→看護：13668_kango⟧: terminal nursing care\n- ⟦{在宅|ざいたく}→在宅：07696_zaitaku⟧{看取|みと}り: dying at home with family present\n\nCULTURAL NOTE:\nIn Japan, the concept of {看取|みと}り is closely tied to the ideal of dying peacefully at home surrounded by loved ones. With an aging population, {看取|みと}り has become a significant topic in healthcare policy, especially regarding ⟦{在宅|ざいたく}{医療|いりょう}→在宅医療：23886_zaitakuiryou⟧ (home medical care) and hospice services.\n\nSIMILAR WORDS:\n- ⟦{見届|みとど}ける→見届ける：07170_mitodokeru⟧: to see through to the end — broader, not limited to death\n- ⟦{介護|かいご}→介護：04805_kaigo⟧⟦する→する：00392_suru⟧: to provide nursing care — ongoing care, not specifically end-of-life",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07170_mitodokeru",
+      "reading": "みとどける",
+      "headword": "{見届|みとど}ける",
+      "label": "to see through to the end"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04805_kaigo",
+      "reading": "かいご",
+      "headword": "{介護|かいご}",
+      "label": "to provide nursing care"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -149,9 +165,10 @@
         "family",
         "culture"
       ],
-      "verb_class": "godan-ru"
+      "verb_class": "godan-ru",
+      "transitivity": "transitive"
     },
     "created": "2026-03-28T17:11:56Z",
-    "modified": "2026-03-28T17:11:56Z"
+    "modified": "2026-09-02T04:01:58Z"
   }
 }

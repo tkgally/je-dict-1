@@ -15,41 +15,80 @@
   "examples": [
     {
       "id": "11583_sutajio_ex1",
-      "japanese": "スタジオで{収録|しゅうろく}する。",
+      "japanese": "スタジオ⟦で→で：00502_de⟧⟦{収録|しゅうろく}→収録：08378_shuuroku⟧⟦する→する：00392_suru⟧。",
       "english": "To record in a studio.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11583_sutajio_ex2",
-      "japanese": "{写真|しゃしん}スタジオで{家族|かぞく}の{写真|しゃしん}を{撮|と}った。",
+      "japanese": "⟦{写真|しゃしん}→写真：00753_shashin⟧スタジオ⟦で→で：00502_de⟧⟦{家族|かぞく}→家族：00552_kazoku⟧⟦の→の：09472_no⟧⟦{写真|しゃしん}→写真：00753_shashin⟧⟦を→を：00422_wo⟧⟦{撮|と}った→撮る：00760_toru⟧。",
       "english": "We had a family photo taken at a photo studio.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11583_sutajio_ex3",
-      "japanese": "バンドの{練習|れんしゅう}のために{毎週|まいしゅう}スタジオを{借|か}りている。",
+      "japanese": "⟦バンド→バンド：05508_bando⟧⟦の→の：09472_no⟧⟦{練習|れんしゅう}→練習：05323_renshuu⟧⟦の→の：09472_no⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧⟦{毎週|まいしゅう}→毎週：00730_maishuu⟧スタジオ⟦を→を：00422_wo⟧⟦{借|か}りている→借りる：00532_kariru⟧。",
       "english": "We rent a studio every week for band practice.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "A loanword from English \"studio,\" used broadly for rooms or facilities designed for creative, recording, or broadcasting activities.\n\nCOMMON COLLOCATIONS:\n- レコーディングスタジオ: recording studio\n- {撮影|さつえい}スタジオ: filming/photography studio\n- {写真|しゃしん}スタジオ: photo studio\n- ダンススタジオ: dance studio\n- ヨガスタジオ: yoga studio\n- スタジオを{借|か}りる: to rent a studio\n\nREAL ESTATE:\nスタジオマンション or ワンルーム refers to a compact apartment without a separate bedroom. ワンルーム is more commonly used in Japanese real estate listings.\n\nTV/RADIO:\nスタジオ{収録|しゅうろく} (studio recording) as opposed to {生放送|なまほうそう} (live broadcast).",
-  "cross_references": [],
+  "notes": "A loanword from English \"studio,\" used broadly for rooms or facilities designed for creative, recording, or broadcasting activities.\n\nCOMMON COLLOCATIONS:\n- レコーディングスタジオ: recording studio\n- ⟦{撮影|さつえい}→撮影：04175_satsuei⟧スタジオ: filming/photography studio\n- ⟦{写真|しゃしん}→写真：00753_shashin⟧スタジオ: photo studio\n- ⟦ダンス→ダンス：03856_dansu⟧スタジオ: dance studio\n- ヨガスタジオ: yoga studio\n- スタジオ⟦を→を：00422_wo⟧⟦{借|か}りる→借りる：00532_kariru⟧: to rent a studio\n\nREAL ESTATE:\nスタジオ⟦マンション→マンション：01035_manshon⟧ or ⟦ワンルーム→ワンルーム：08427_wanruumu⟧ refers to a compact apartment without a separate bedroom. ⟦ワンルーム→ワンルーム：08427_wanruumu⟧ is more commonly used in Japanese real estate listings.\n\nTV/RADIO:\nスタジオ⟦{収録|しゅうろく}→収録：08378_shuuroku⟧ (studio recording) as opposed to ⟦{生放送|なまほうそう}→生放送：08172_namahousou⟧ (live broadcast).",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22667_satsueijo",
+      "reading": "さつえいじょ",
+      "headword": "{撮影所|さつえいじょ}",
+      "label": "film studio"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23351_renshuujou",
+      "reading": "れんしゅうじょう",
+      "headword": "{練習場|れんしゅうじょう}",
+      "label": "practice range"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23824_shashinshitsu",
+      "reading": "しゃしんしつ",
+      "headword": "{写真室|しゃしんしつ}",
+      "label": "photo studio"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27151_keikoba",
+      "reading": "けいこば",
+      "headword": "{稽古場|けいこば}",
+      "label": "practice hall"
+    }
+  ],
   "metadata": {
     "created": "2026-02-17T13:42:47Z",
-    "modified": "2026-03-28T09:49:25Z",
+    "modified": "2026-09-02T04:01:25Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["building"]
+      "semantic": [
+        "building"
+      ]
     }
   }
 }

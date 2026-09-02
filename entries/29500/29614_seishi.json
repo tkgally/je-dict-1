@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "29614_seishi_ex1",
-      "japanese": "{正史|せいし}に{名|な}を{残|のこ}す。",
+      "japanese": "{正史|せいし}⟦に→に：00314_ni⟧⟦{名|な}→名：03496_na⟧⟦を→を：00422_wo⟧⟦{残|のこ}す→残す：01975_nokosu⟧。",
       "english": "To leave one's name in official history.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29614_seishi_ex2",
-      "japanese": "その{事件|じけん}は{正史|せいし}には{書|か}かれていない。",
+      "japanese": "⟦その→その：00993_sono⟧⟦{事件|じけん}→事件：01568_jiken⟧⟦は→は：00079_ha⟧{正史|せいし}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{書|か}かれていない→書く：00477_kaku⟧。",
       "english": "That incident is not recorded in the official history.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29614_seishi_ex3",
-      "japanese": "{歴史|れきし}{学者|がくしゃ}は{正史|せいし}と{伝説|でんせつ}を{慎重|しんちょう}に{区別|くべつ}する。",
+      "japanese": "⟦{歴史|れきし}{学者|がくしゃ}→歴史学者：22348_rekishigakusha⟧⟦は→は：00079_ha⟧{正史|せいし}⟦と→と：00512_to⟧⟦{伝説|でんせつ}→伝説：11446_densetsu⟧⟦を→を：00422_wo⟧⟦{慎重|しんちょう}→慎重：03264_shinchou⟧⟦に→に：00314_ni⟧⟦{区別|くべつ}する→区別する：26970_kubetsusuru⟧。",
       "english": "Historians carefully distinguish between official history and legend.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "USAGE: {正史|せいし} is an officially sanctioned, authoritative history. In a Chinese context it refers to the official dynastic records compiled for each dynasty (such as the {史記|しき}).\n\nCOMMON COLLOCATIONS:\n- {正史|せいし}に{残|のこ}る: to remain in official history\n- {正史|せいし}{編纂|へんさん}: compilation of an official history\n\nSIMILAR WORDS:\n- {野史|やし}: unofficial history — privately written, not officially sanctioned\n- {歴史|れきし}: history — the general word for history",
+  "notes": "USAGE: {正史|せいし} is an officially sanctioned, authoritative history. In a Chinese context it refers to the official dynastic records compiled for each dynasty (such as the ⟦{史記|しき}→史記：29596_shiki⟧).\n\nCOMMON COLLOCATIONS:\n- {正史|せいし}⟦に→に：00314_ni⟧⟦{残|のこ}る→残る：01187_nokoru⟧: to remain in official history\n- {正史|せいし}⟦{編纂|へんさん}→編纂：13889_hensan⟧: compilation of an official history\n\nSIMILAR WORDS:\n- ⟦{野史|やし}→野史：29632_yashi⟧: unofficial history — privately written, not officially sanctioned\n- ⟦{歴史|れきし}→歴史：02267_rekishi⟧: history — the general word for history",
   "cross_references": [
     {
       "type": "related",
@@ -46,19 +52,44 @@
       "reading": "しき",
       "headword": "{史記|しき}",
       "label": "Records of the Grand Historian"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29632_yashi",
+      "reading": "やし",
+      "headword": "{野史|やし}",
+      "label": "unofficial history"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02267_rekishi",
+      "reading": "れきし",
+      "headword": "{歴史|れきし}",
+      "label": "history"
+    },
+    {
+      "type": "related",
+      "target_id": "29591_kanjo",
+      "reading": "かんじょ",
+      "headword": "{漢書|かんじょ}",
+      "label": "Book of Han (Chinese history classic)"
     }
   ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["history"],
+      "politeness": "plain",
+      "semantic": [
+        "history"
+      ],
       "domain": []
     },
     "created": "2026-07-01T18:18:59Z",
-    "modified": "2026-07-01T18:18:59Z"
+    "modified": "2026-09-02T04:02:37Z"
   }
 }

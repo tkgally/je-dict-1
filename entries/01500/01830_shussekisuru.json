@@ -2,7 +2,7 @@
   "id": "01830_shussekisuru",
   "headword": "{出席|しゅっせき}する",
   "reading": "しゅっせきする",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "to attend, to be present",
   "conjugation": {
     "type": "suru",
@@ -124,7 +124,7 @@
     },
     {
       "id": "01830_shussekisuru_ex3",
-      "japanese": "⟦{結婚式|けっこんしき}→結婚式：05493_kekkonshiki⟧⟦に→に：00314_ni⟧{出席|しゅっせき}⟦できません→できる：00557_dekiru⟧。",
+      "japanese": "⟦{結婚式|けっこんしき}→結婚式：05493_kekkonshiki⟧⟦に→に：00314_ni⟧⟦{出席|しゅっせき}→出席：02084_shusseki⟧⟦できません→できる：00557_dekiru⟧。",
       "english": "I cannot attend the wedding.",
       "notes": null,
       "has_audio": false,
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "{出席|しゅっせき} refers to being present at a meeting, class, event, or ceremony.\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n- No standard transitive pair\n- Pattern: {出席|しゅっせき}⟦する→する：00392_suru⟧\n\nPARTICLE USAGE:\n- ⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦に→に：00314_ni⟧{出席|しゅっせき}⟦する→する：00392_suru⟧: to attend a meeting\n- ⟦{結婚式|けっこんしき}→結婚式：05493_kekkonshiki⟧⟦に→に：00314_ni⟧{出席|しゅっせき}⟦する→する：00392_suru⟧: to attend a wedding\n\nCOMMON EXPRESSIONS:\n- {出席|しゅっせき}⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧: to take attendance\n- {出席|しゅっせき}⟦{者|しゃ}→〜者：04662_sha⟧: attendee\n- {出席|しゅっせき}⟦{率|りつ}→率：03802_ritsu⟧: attendance rate\n- {出席|しゅっせき}⟦{日数|にっすう}→日数：12953_nissuu⟧: number of days attended\n- ご{出席|しゅっせき}: attendance (honorific, used in formal invitations)\n\nOPPOSITE:\n⟦{欠席|けっせき}→欠席：02495_kesseki⟧ (absence). ⟦{欠席|けっせき}→欠席：02495_kesseki⟧⟦する→する：00392_suru⟧ means to be absent.",
+  "notes": "⟦{出席|しゅっせき}→出席：02084_shusseki⟧ refers to being present at a meeting, class, event, or ceremony.\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n- No standard transitive pair\n- Pattern: {出席|しゅっせき}⟦する→する：00392_suru⟧\n\nCOMMON PATTERNS:\n- ⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦に→に：00314_ni⟧{出席|しゅっせき}⟦する→する：00392_suru⟧: to attend a meeting\n- ⟦{結婚式|けっこんしき}→結婚式：05493_kekkonshiki⟧⟦に→に：00314_ni⟧{出席|しゅっせき}⟦する→する：00392_suru⟧: to attend a wedding\n\nCOMMON EXPRESSIONS:\n- ⟦{出席|しゅっせき}→出席：02084_shusseki⟧⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧: to take attendance\n- {出席|しゅっせき}⟦{者|しゃ}→〜者：04662_sha⟧: attendee\n- {出席|しゅっせき}⟦{率|りつ}→率：03802_ritsu⟧: attendance rate\n- ⟦{出席|しゅっせき}→出席：02084_shusseki⟧⟦{日数|にっすう}→日数：12953_nissuu⟧: number of days attended\n- ご⟦{出席|しゅっせき}→出席：02084_shusseki⟧: attendance (honorific, used in formal invitations)\n\nSIMILAR WORDS:\n⟦{欠席|けっせき}→欠席：02495_kesseki⟧ (absence). ⟦{欠席|けっせき}→欠席：02495_kesseki⟧⟦する→する：00392_suru⟧ means to be absent.",
   "cross_references": [
     {
       "type": "antonym",
@@ -141,11 +141,32 @@
       "headword": "{欠席|けっせき}",
       "label": "absence",
       "target_id": "02495_kesseki"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21638_tachiau",
+      "reading": "たちあう",
+      "headword": "{立|た}ち{会|あ}う",
+      "label": "to be present at"
+    },
+    {
+      "type": "antonym",
+      "target_id": "22283_kessekisuru",
+      "reading": "けっせきする",
+      "headword": "{欠席|けっせき}する",
+      "label": "to be absent"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25408_sankasuru",
+      "reading": "さんかする",
+      "headword": "{参加|さんか}する",
+      "label": "to participate"
     }
   ],
   "metadata": {
     "created": "2026-01-09T12:27:30Z",
-    "modified": "2026-06-11T10:45:00Z",
+    "modified": "2026-09-02T04:01:00Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "07759_eetii_ex1",
-      "japanese": "AT{車|しゃ}は{運転|うんてん}しやすい。",
+      "japanese": "AT{車|しゃ}⟦は→は：00079_ha⟧⟦{運転|うんてん}→運転：01335_unten⟧しやすい。",
       "english": "Automatic cars are easy to drive.",
       "has_audio": false,
       "sense_numbers": [
@@ -23,7 +23,7 @@
     },
     {
       "id": "07759_eetii_ex2",
-      "japanese": "AT{限定|げんてい}{免許|めんきょ}を{取|と}った。",
+      "japanese": "AT⟦{限定|げんてい}{免許|めんきょ}→限定免許：24957_genteimenkyo⟧⟦を→を：00422_wo⟧⟦{取|と}った→取る：00565_toru⟧。",
       "english": "I got an AT-only driver's license.",
       "has_audio": false,
       "sense_numbers": [
@@ -32,7 +32,7 @@
     },
     {
       "id": "07759_eetii_ex3",
-      "japanese": "{日本|にほん}ではATが{主流|しゅりゅう}だ。",
+      "japanese": "⟦{日本|にほん}→日本：03876_nihon⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧AT⟦が→が：00051_ga⟧⟦{主流|しゅりゅう}→主流：11407_shuryuu⟧だ。",
       "english": "In Japan, automatic transmission is mainstream.",
       "has_audio": false,
       "sense_numbers": [
@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "notes": "AT is the standard abbreviation for automatic transmission, used widely in Japan in automotive and licensing contexts.\n\nETYMOLOGY:\nAbbreviation of English \"Automatic Transmission.\"\n\nCOMMON COLLOCATIONS:\n- AT{車|しゃ}: automatic car\n- AT{限定|げんてい}{免許|めんきょ}: AT-only driver's license\n- AT{限定|げんてい}: AT-only (restriction on license)\n\nJAPAN CONTEXT:\nThe vast majority of cars in Japan are AT. When getting a driver's license, learners can choose AT{限定|げんてい} (AT-only) which is cheaper and faster to obtain than a full license that covers MT (manual transmission) as well. The opposite is MT{車|しゃ} (manual car).",
+  "notes": "AT is the standard abbreviation for automatic transmission, used widely in Japan in automotive and licensing contexts.\n\nETYMOLOGY:\nAbbreviation of English \"Automatic Transmission.\"\n\nCOMMON COLLOCATIONS:\n- AT{車|しゃ}: automatic car\n- AT⟦{限定|げんてい}{免許|めんきょ}→限定免許：24957_genteimenkyo⟧: AT-only driver's license\n- AT⟦{限定|げんてい}→限定：10997_gentei⟧: AT-only (restriction on license)\n\nJAPAN CONTEXT:\nThe vast majority of cars in Japan are AT. When getting a driver's license, learners can choose AT⟦{限定|げんてい}→限定：10997_gentei⟧ (AT-only) which is cheaper and faster to obtain than a full license that covers MT (manual transmission) as well. The opposite is MT⟦{車|しゃ}→車：09874_sha⟧ (manual car).",
   "cross_references": [
     {
       "type": "antonym",
@@ -52,7 +52,7 @@
   ],
   "metadata": {
     "created": "2026-01-21T01:00:47Z",
-    "modified": "2026-06-19T21:43:28Z",
+    "modified": "2026-09-02T04:01:12Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +60,7 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "transportation",
         "technology"

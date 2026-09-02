@@ -15,39 +15,74 @@
   "examples": [
     {
       "id": "26316_shinkin_ex1",
-      "japanese": "{真菌|しんきん}に{感染|かんせん}した。",
+      "japanese": "{真菌|しんきん}⟦に→に：00314_ni⟧⟦{感染|かんせん}した→感染する：26931_kansensuru⟧。",
       "english": "I got a fungal infection.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26316_shinkin_ex2",
-      "japanese": "{水虫|みずむし}は{真菌|しんきん}が{原因|げんいん}の{皮膚|ひふ}{病|びょう}だ。",
+      "japanese": "⟦{水虫|みずむし}→水虫：27212_mizumushi⟧⟦は→は：00079_ha⟧{真菌|しんきん}⟦が→が：00051_ga⟧⟦{原因|げんいん}→原因：01400_genin⟧⟦の→の：09472_no⟧⟦{皮膚|ひふ}→皮膚：03987_hifu⟧{病|びょう}だ。",
       "english": "Athlete's foot is a skin disease caused by fungus.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26316_shinkin_ex3",
-      "japanese": "{湿度|しつど}が{高|たか}い{環境|かんきょう}では{真菌|しんきん}が{繁殖|はんしょく}しやすいので、{換気|かんき}に{気|き}をつけてください。",
+      "japanese": "⟦{湿度|しつど}→湿度：03181_shitsudo⟧⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧⟦{環境|かんきょう}→環境：00174_kankyou⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧{真菌|しんきん}⟦が→が：00051_ga⟧⟦{繁殖|はんしょく}→繁殖：08671_hanshoku⟧しやすい⟦の→の：09472_no⟧で、⟦{換気|かんき}→換気：00172_kanki⟧⟦に→に：00314_ni⟧{気|き}をつけて⟦ください→ください：02899_kudasai⟧。",
       "english": "Fungi multiply easily in humid environments, so please pay attention to ventilation.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {真|しん} (true) and {菌|きん} (germ, fungus). The term {真菌|しんきん} distinguishes fungi as a separate biological kingdom from bacteria ({細菌|さいきん}). In daily life, the word appears most often in medical and health contexts — discussing skin infections, mold problems, or food science.\n\nCOMMON COLLOCATIONS:\n- {真菌|しんきん}{感染|かんせん}{症|しょう}: fungal infection\n- {真菌|しんきん}{類|るい}: fungi (as a group)\n- {抗|こう}{真菌|しんきん}{薬|やく}: antifungal medication\n- {真菌|しんきん}が{繁殖|はんしょく}する: fungi proliferate\n\nRELATED TERMS:\n- {細菌|さいきん}: bacteria — often confused with fungi, but a different kingdom\n- カビ: mold — the everyday word for visible fungal growth\n- {酵母|こうぼ}: yeast — a type of fungus used in fermentation\n- きのこ: mushroom — the fruiting body of certain fungi",
-  "cross_references": [],
+  "notes": "Composed of ⟦{真|しん}→真：28884_shin⟧ (true) and ⟦{菌|きん}→菌：02682_kin⟧ (germ, fungus). The term {真菌|しんきん} distinguishes fungi as a separate biological kingdom from bacteria (⟦{細菌|さいきん}→細菌：13791_saikin⟧). In daily life, the word appears most often in medical and health contexts — discussing skin infections, mold problems, or food science.\n\nCOMMON COLLOCATIONS:\n- {真菌|しんきん}⟦{感染|かんせん}{症|しょう}→感染症：15681_kansenshou⟧: fungal infection\n- {真菌|しんきん}⟦{類|るい}→類：15121_rui⟧: fungi (as a group)\n- {抗|こう}{真菌|しんきん}{薬|やく}: antifungal medication\n- {真菌|しんきん}⟦が→が：00051_ga⟧⟦{繁殖|はんしょく}→繁殖：08671_hanshoku⟧⟦する→する：00392_suru⟧: fungi proliferate\n\nRELATED WORDS:\n- ⟦{細菌|さいきん}→細菌：13791_saikin⟧: bacteria — often confused with fungi, but a different kingdom\n- ⟦カビ→カビ：07055_kabi⟧: mold — the everyday word for visible fungal growth\n- {酵母|こうぼ}: yeast — a type of fungus used in fermentation\n- きのこ: mushroom — the fruiting body of certain fungi",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "13791_saikin",
+      "reading": "さいきん",
+      "headword": "{細菌|さいきん}",
+      "label": "bacteria"
+    },
+    {
+      "type": "related",
+      "target_id": "07055_kabi",
+      "reading": "かび",
+      "headword": "カビ",
+      "label": "mold"
+    },
+    {
+      "type": "related",
+      "target_id": "04994_kinoko",
+      "reading": "きのこ",
+      "headword": "{茸|きのこ}",
+      "label": "mushroom"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["science", "health"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "science",
+        "health"
+      ]
     },
     "created": "2026-04-30T16:21:14Z",
-    "modified": "2026-04-30T16:21:14Z"
+    "modified": "2026-09-02T04:02:25Z"
   }
 }

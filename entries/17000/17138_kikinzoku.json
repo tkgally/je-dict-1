@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "17138_kikinzoku_ex1",
-      "japanese": "{金|きん}は{貴金属|ききんぞく}の{一|ひと}つだ。",
+      "japanese": "{金|きん}⟦は→は：00079_ha⟧{貴金属|ききんぞく}⟦の→の：09472_no⟧⟦{一|ひと}つ→一つ：02948_hitotsu⟧だ。",
       "english": "Gold is one of the precious metals.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "17138_kikinzoku_ex2",
-      "japanese": "{駅前|えきまえ}に{貴金属|ききんぞく}{店|てん}がある。",
+      "japanese": "⟦{駅前|えきまえ}→駅前：09593_ekimae⟧⟦に→に：00314_ni⟧{貴金属|ききんぞく}⟦{店|てん}→店：10011_ten⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There is a jewelry store in front of the station.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "17138_kikinzoku_ex3",
-      "japanese": "{貴金属|ききんぞく}の{価格|かかく}は{世界|せかい}{経済|けいざい}の{動向|どうこう}に{大|おお}きく{左右|さゆう}される。",
+      "japanese": "{貴金属|ききんぞく}⟦の→の：09472_no⟧⟦{価格|かかく}→価格：00147_kakaku⟧⟦は→は：00079_ha⟧⟦{世界|せかい}→世界：01447_sekai⟧⟦{経済|けいざい}→経済：01394_keizai⟧⟦の→の：09472_no⟧⟦{動向|どうこう}→動向：05580_doukou⟧⟦に→に：00314_ni⟧⟦{大|おお}きく→大きい：00335_ookii⟧⟦{左右|さゆう}される→左右される：26073_sayuusareru⟧。",
       "english": "Precious metal prices are greatly influenced by global economic trends.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA compound of {貴|き} (precious, noble) + {金属|きんぞく} (metal). Refers both to the metals themselves (gold, silver, platinum, palladium) and to the jewelry industry. {貴金属|ききんぞく}{店|てん} is a common term for a jewelry store.\n\nCOMMON COLLOCATIONS:\n- {貴金属|ききんぞく}{店|てん} (jewelry store)\n- {貴金属|ききんぞく}の{買取|かいとり} (purchasing of precious metals)\n- {貴金属|ききんぞく}{相場|そうば} (precious metals market price)\n\nSIMILAR WORDS:\n- {宝石|ほうせき}: gemstone, jewel — precious stones rather than metals\n- {金属|きんぞく}: metal — the general term for metals",
+  "notes": "USAGE:\nA compound of {貴|き} (precious, noble) + ⟦{金属|きんぞく}→金属：02645_kinzoku⟧ (metal). Refers both to the metals themselves (gold, silver, platinum, palladium) and to the jewelry industry. {貴金属|ききんぞく}⟦{店|てん}→店：10011_ten⟧ is a common term for a jewelry store.\n\nCOMMON COLLOCATIONS:\n- {貴金属|ききんぞく}⟦{店|てん}→店：10011_ten⟧ (jewelry store)\n- {貴金属|ききんぞく}⟦の→の：09472_no⟧⟦{買取|かいとり}→買取：14366_kaitori⟧ (purchasing of precious metals)\n- {貴金属|ききんぞく}⟦{相場|そうば}→相場：07668_souba⟧ (precious metals market price)\n\nSIMILAR WORDS:\n- ⟦{宝石|ほうせき}→宝石：03619_houseki⟧: gemstone, jewel — precious stones rather than metals\n- ⟦{金属|きんぞく}→金属：02645_kinzoku⟧: metal — the general term for metals",
   "cross_references": [
     {
       "type": "related",
@@ -66,11 +66,18 @@
       "reading": "ほうせき",
       "headword": "{宝石|ほうせき}",
       "label": "gemstone"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22333_houshokuhin",
+      "reading": "ほうしょくひん",
+      "headword": "{宝飾品|ほうしょくひん}",
+      "label": "jewelry"
     }
   ],
   "metadata": {
     "created": "2026-03-16T03:08:13Z",
-    "modified": "2026-07-22T18:50:18Z",
+    "modified": "2026-09-02T04:01:47Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

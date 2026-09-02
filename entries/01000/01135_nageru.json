@@ -184,7 +184,7 @@
     },
     {
       "id": "01135_nageru_ex8",
-      "japanese": "⟦{今日|きょう}→今日：00496_kyou⟧⟦は→は：00079_ha⟧{田中|たなか}⟦{投手|とうしゅ}→投手：06563_toushu⟧⟦が→が：00051_ga⟧{投|な}げます。",
+      "japanese": "⟦{今日|きょう}→今日：00496_kyou⟧⟦は→は：00079_ha⟧⟦{田中|たなか}→田中：09528_tanaka⟧⟦{投手|とうしゅ}→投手：06563_toushu⟧⟦が→が：00051_ga⟧{投|な}げます。",
       "english": "Pitcher Tanaka will pitch today.",
       "notes": null,
       "has_audio": false,
@@ -263,7 +263,7 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive). Pattern: Xを{投|な}げる (throw X).\n\nASPECT: ている indicates ongoing action. {投|な}げている = 'is throwing.'\n\nCOMMON PATTERNS:\n・⟦ボール→ボール：00017_booru⟧を{投|な}げる (throw a ball)\n・⟦{石|いし}→石：02177_ishi⟧を{投|な}げる (throw a stone)\n・⟦{質問|しつもん}→質問：00888_shitsumon⟧を⟦{投|な}げかける→投げかける：28968_nagekakeru⟧ (pose a question)\n・⟦{投|な}げ{出|だ}す→投げ出す：10589_nagedasu⟧ (give up, abandon)\n・⟦{身|み}→身：01764_mi⟧を{投|な}げる (throw oneself—dramatic)\n\nBASEBALL TERMS:\n・⟦{投手|とうしゅ}→投手：06563_toushu⟧ (pitcher)\n・⟦{投球|とうきゅう}→投球：15510_toukyuu⟧ (pitching)\n\nFIGURATIVE USAGE:\n・⟦{投|な}げやり→投げやり：12781_nageyari⟧ (careless, apathetic, devil-may-care—adjective)",
+  "notes": "TRANSITIVITY: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive). Pattern: X⟦を→を：00422_wo⟧{投|な}げる (throw X).\n\nASPECT: て⟦いる→いる：00495_iru⟧ indicates ongoing action. {投|な}げて⟦いる→いる：00495_iru⟧ = 'is throwing.'\n\nCOMMON PATTERNS:\n- ⟦ボール→ボール：00017_booru⟧⟦を→を：00422_wo⟧{投|な}げる (throw a ball)\n- ⟦{石|いし}→石：02177_ishi⟧⟦を→を：00422_wo⟧{投|な}げる (throw a stone)\n- ⟦{質問|しつもん}→質問：00888_shitsumon⟧⟦を→を：00422_wo⟧⟦{投|な}げかける→投げかける：28968_nagekakeru⟧ (pose a question)\n- ⟦{投|な}げ{出|だ}す→投げ出す：10589_nagedasu⟧ (give up, abandon)\n- ⟦{身|み}→身：01764_mi⟧⟦を→を：00422_wo⟧{投|な}げる (throw oneself—dramatic)\n\nBASEBALL TERMS:\n- ⟦{投手|とうしゅ}→投手：06563_toushu⟧ (pitcher)\n- ⟦{投球|とうきゅう}→投球：15510_toukyuu⟧ (pitching)\n\nUSAGE:\n- ⟦{投|な}げやり→投げやり：12781_nageyari⟧ (careless, apathetic, devil-may-care—adjective)",
   "cross_references": [
     {
       "type": "related",
@@ -278,11 +278,39 @@
       "reading": "とうしゅ",
       "headword": "{投手|とうしゅ}",
       "label": "pitcher (baseball)"
+    },
+    {
+      "type": "related",
+      "target_id": "06444_nagesen",
+      "reading": "なげせん",
+      "headword": "{投|な}げ{銭|せん}",
+      "label": "online tipping, virtual tip"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19592_toujiru",
+      "reading": "とうじる",
+      "headword": "{投|とう}じる",
+      "label": "to throw in"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26220_shuutosuru",
+      "reading": "しゅーとする",
+      "headword": "シュートする",
+      "label": "to shoot (in sports)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28968_nagekakeru",
+      "reading": "なげかける",
+      "headword": "{投|な}げかける",
+      "label": "to pose (a question)"
     }
   ],
   "metadata": {
     "created": "2026-01-08T12:37:35Z",
-    "modified": "2026-07-25T09:17:59Z",
+    "modified": "2026-09-02T04:00:59Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

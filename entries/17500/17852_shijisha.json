@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "17852_shijisha_ex1",
-      "japanese": "{多|おお}くの{支持者|しじしゃ}が{集|あつ}まった。",
+      "japanese": "{多|おお}く⟦の→の：09472_no⟧{支持者|しじしゃ}⟦が→が：00051_ga⟧⟦{集|あつ}まった→集まる：01162_atsumaru⟧。",
       "english": "Many supporters gathered.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "17852_shijisha_ex2",
-      "japanese": "{彼|かれ}は{熱心|ねっしん}な{支持者|しじしゃ}に{支|ささ}えられている。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{熱心|ねっしん}→熱心：01207_nesshin⟧な{支持者|しじしゃ}⟦に→に：00314_ni⟧⟦{支|ささ}えられている→支える：01946_sasaeru⟧。",
       "english": "He is supported by enthusiastic backers.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "17852_shijisha_ex3",
-      "japanese": "{新|あたら}しい{政策|せいさく}に{対|たい}して{支持者|しじしゃ}と{反対者|はんたいしゃ}の{意見|いけん}が{分|わ}かれている。",
+      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦{政策|せいさく}→政策：10070_seisaku⟧⟦に{対|たい}して→に対して：06800_nitaishite⟧{支持者|しじしゃ}⟦と→と：00512_to⟧{反対者|はんたいしゃ}⟦の→の：09472_no⟧⟦{意見|いけん}→意見：01303_iken⟧⟦が→が：00051_ga⟧⟦{分|わ}かれている→分かれる：10976_wakareru⟧。",
       "english": "Opinions are divided between supporters and opponents regarding the new policy.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nCommonly used in political, social, and sports contexts. The base verb {支持|しじ}する means to support or endorse.\n\nCOMMON COLLOCATIONS:\n- {熱心|ねっしん}な{支持者|しじしゃ} (enthusiastic supporter)\n- {支持者|しじしゃ}{集会|しゅうかい} (supporters' rally)\n- {支持者|しじしゃ}{離|ばな}れ (loss of supporters)\n\nSIMILAR WORDS:\n- {応援者|おうえんしゃ}: cheerleader, supporter — more informal, often for sports or personal encouragement\n- {賛同者|さんどうしゃ}: endorser — someone who agrees with a specific proposal or opinion",
+  "notes": "USAGE:\nCommonly used in political, social, and sports contexts. The base verb ⟦{支持|しじ}→支持：12933_shiji⟧⟦する→する：00392_suru⟧ means to support or endorse.\n\nCOMMON COLLOCATIONS:\n- ⟦{熱心|ねっしん}→熱心：01207_nesshin⟧な{支持者|しじしゃ} (enthusiastic supporter)\n- {支持者|しじしゃ}⟦{集会|しゅうかい}→集会：14654_shuukai⟧ (supporters' rally)\n- {支持者|しじしゃ}⟦{離|ばな}れ→離れ：10003_banare⟧ (loss of supporters)\n\nSIMILAR WORDS:\n- ⟦{応援者|おうえんしゃ}→応援者：24483_ouensha⟧: cheerleader, supporter — more informal, often for sports or personal encouragement\n- ⟦{賛同者|さんどうしゃ}→賛同者：23373_sandousha⟧: endorser — someone who agrees with a specific proposal or opinion",
   "cross_references": [
     {
       "type": "related",
@@ -52,11 +52,53 @@
       "reading": "しじ",
       "headword": "{支持|しじ}",
       "label": "support"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24483_ouensha",
+      "reading": "おうえんしゃ",
+      "headword": "{応援者|おうえんしゃ}",
+      "label": "cheerleader, supporter"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23373_sandousha",
+      "reading": "さんどうしゃ",
+      "headword": "{賛同者|さんどうしゃ}",
+      "label": "endorser"
+    },
+    {
+      "type": "related",
+      "target_id": "22959_sanseisha",
+      "reading": "さんせいしゃ",
+      "headword": "{賛成者|さんせいしゃ}",
+      "label": "supporter"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24919_shiensha",
+      "reading": "しえんしゃ",
+      "headword": "{支援者|しえんしゃ}",
+      "label": "supporter"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25120_yougosha",
+      "reading": "ようごしゃ",
+      "headword": "{擁護者|ようごしゃ}",
+      "label": "advocate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25979_touin",
+      "reading": "とういん",
+      "headword": "{党員|とういん}",
+      "label": "party member"
     }
   ],
   "metadata": {
     "created": "2026-03-19T06:58:32Z",
-    "modified": "2026-07-24T21:50:29Z",
+    "modified": "2026-09-02T04:01:50Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

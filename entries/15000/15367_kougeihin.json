@@ -15,40 +15,58 @@
   "examples": [
     {
       "id": "15367_kougeihin_ex1",
-      "japanese": "{伝統的|でんとうてき}{工芸品|こうげいひん}を{買|か}った。",
+      "japanese": "⟦{伝統的|でんとうてき}→伝統的：04802_dentouteki⟧{工芸品|こうげいひん}⟦を→を：00422_wo⟧⟦{買|か}った→買う：00489_kau⟧。",
       "english": "I bought a traditional craft product.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15367_kougeihin_ex2",
-      "japanese": "この{地域|ちいき}は{漆器|しっき}の{工芸品|こうげいひん}で{有名|ゆうめい}だ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{地域|ちいき}→地域：01461_chiiki⟧⟦は→は：00079_ha⟧⟦{漆器|しっき}→漆器：13329_shikki⟧⟦の→の：09472_no⟧{工芸品|こうげいひん}⟦で→で：00502_de⟧⟦{有名|ゆうめい}→有名：01106_yuumei⟧だ。",
       "english": "This area is famous for its lacquerware crafts.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15367_kougeihin_ex3",
-      "japanese": "{職人|しょくにん}が{一|ひと}つひとつ{手作|てづく}りした{工芸品|こうげいひん}は、{大量|たいりょう}{生産品|せいさんひん}にはない{温|あたた}かみがある。",
+      "japanese": "⟦{職人|しょくにん}→職人：09868_shokunin⟧⟦が→が：00051_ga⟧⟦{一|ひと}つ→一つ：02948_hitotsu⟧ひとつ⟦{手作|てづく}り→手作り：08300_tezukuri⟧⟦した→する：00392_suru⟧{工芸品|こうげいひん}⟦は→は：00079_ha⟧、⟦{大量|たいりょう}→大量：03112_tairyou⟧{生産品|せいさんひん}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦ない→ない：01118_nai⟧⟦{温|あたた}かみ→温かみ：25336_atatakami⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "Handicrafts made one by one by artisans have a warmth that mass-produced goods lack.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE: Japan has a national designation system for {伝統的|でんとうてき}{工芸品|こうげいひん} (Traditional Craft Products), which currently recognizes over 200 types across the country. Common examples include {有田焼|ありたやき} (Arita porcelain), {輪島塗|わじまぬり} (Wajima lacquerware), and {西陣織|にしじんおり} (Nishijin textiles).\n\nCOMMON COLLOCATIONS:\n- {伝統的|でんとうてき}{工芸品|こうげいひん}: traditional craft product\n- {工芸品|こうげいひん}を{作|つく}る: to make crafts\n- {工芸品|こうげいひん}{店|てん}: craft shop\n- {民芸品|みんげいひん}: folk craft",
-  "cross_references": [],
+  "notes": "USAGE: Japan has a national designation system for ⟦{伝統的|でんとうてき}→伝統的：04802_dentouteki⟧{工芸品|こうげいひん} (Traditional Craft Products), which currently recognizes over 200 types across the country. Common examples include ⟦{有田焼|ありたやき}→有田焼：28604_aritayaki⟧ (Arita porcelain), {輪島塗|わじまぬり} (Wajima lacquerware), and {西陣織|にしじんおり} (Nishijin textiles).\n\nCOMMON COLLOCATIONS:\n- ⟦{伝統的|でんとうてき}→伝統的：04802_dentouteki⟧{工芸品|こうげいひん}: traditional craft product\n- {工芸品|こうげいひん}⟦を→を：00422_wo⟧⟦{作|つく}る→作る：00481_tsukuru⟧: to make crafts\n- {工芸品|こうげいひん}⟦{店|てん}→店：10011_ten⟧: craft shop\n- ⟦{民芸品|みんげいひん}→民芸品：21116_mingeihin⟧: folk craft",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "21116_mingeihin",
+      "reading": "みんげいひん",
+      "headword": "{民芸品|みんげいひん}",
+      "label": "folk craft"
+    }
+  ],
   "metadata": {
     "created": "2026-03-06T11:50:15Z",
-    "modified": "2026-03-06T11:50:15Z",
+    "modified": "2026-09-02T04:01:41Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

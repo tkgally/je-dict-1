@@ -2,7 +2,7 @@
   "id": "09911_mikudasu",
   "headword": "{見下|みくだ}す",
   "reading": "みくだす",
-  "part_of_speech": "godan verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to look down on, to despise",
   "conjugation": {
     "type": "godan",
@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "09911_mikudasu_ex1",
-      "japanese": "{人|ひと}を{見下|みくだ}してはいけない。",
+      "japanese": "⟦{人|ひと}→人：00476_hito⟧⟦を→を：00422_wo⟧{見下|みくだ}して⟦は→は：00079_ha⟧いけない。",
       "english": "You shouldn't look down on people.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "09911_mikudasu_ex2",
-      "japanese": "{彼|かれ}は{他人|たにん}を{見下|みくだ}すような{態度|たいど}を{取|と}る。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{他人|たにん}→他人：01459_tanin⟧⟦を→を：00422_wo⟧{見下|みくだ}すような⟦{態度|たいど}→態度：03396_taido⟧⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧。",
       "english": "He has a condescending attitude toward others.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "09911_mikudasu_ex3",
-      "japanese": "{学歴|がくれき}で{人|ひと}を{見下|みくだ}すのは{間違|まちが}っている。",
+      "japanese": "⟦{学歴|がくれき}→学歴：02628_gakureki⟧⟦で→で：00502_de⟧⟦{人|ひと}→人：00476_hito⟧⟦を→を：00422_wo⟧{見下|みくだ}す⟦の→の：09472_no⟧⟦は→は：00079_ha⟧⟦{間違|まちが}っている→間違う：03036_machigau⟧。",
       "english": "It's wrong to look down on people based on their educational background.",
       "notes": null,
       "has_audio": false,
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "A verb expressing contempt or condescension toward others.\n\nTRANSITIVITY:\n- Type: {他動詞|たどうし} (transitive)\n\nCOMMON PATTERNS:\n- {人|ひと}を{見下|みくだ}す (to look down on people)\n- {見下|みくだ}すような{態度|たいど} (condescending attitude)\n- {見下|みくだ}した{目|め}で{見|み}る (to look at with disdain)\n\nRELATED TERMS:\n- {見下|みお}ろす: to look down from above (physical)\n- {軽蔑|けいべつ}する: to despise\n- {蔑|さげす}む: to scorn",
+  "notes": "A verb expressing contempt or condescension toward others.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n\nCOMMON PATTERNS:\n- ⟦{人|ひと}→人：00476_hito⟧⟦を→を：00422_wo⟧{見下|みくだ}す (to look down on people)\n- {見下|みくだ}すような⟦{態度|たいど}→態度：03396_taido⟧ (condescending attitude)\n- {見下|みくだ}した⟦{目|め}→目：00525_me⟧⟦で→で：00502_de⟧⟦{見|み}る→見る：00283_miru⟧ (to look at with disdain)\n\nRELATED WORDS:\n- ⟦{見下|みお}ろす→見下ろす：04569_miorosu⟧: to look down from above (physical)\n- ⟦{軽蔑|けいべつ}→軽蔑：04849_keibetsu⟧⟦する→する：00392_suru⟧: to despise\n- ⟦{蔑|さげす}む→蔑む：10024_sagesumu⟧: to scorn",
   "cross_references": [
     {
       "type": "synonym",
@@ -148,11 +148,67 @@
       "reading": "あなどる",
       "headword": "{侮|あなど}る",
       "label": "to underestimate, scorn"
+    },
+    {
+      "type": "related",
+      "target_id": "04569_miorosu",
+      "reading": "みおろす",
+      "headword": "{見下|みお}ろす",
+      "label": "to look down from above"
+    },
+    {
+      "type": "related",
+      "target_id": "10024_sagesumu",
+      "reading": "さげすむ",
+      "headword": "{蔑|さげす}む",
+      "label": "to scorn"
+    },
+    {
+      "type": "related",
+      "target_id": "10031_bubetsu",
+      "reading": "ぶべつ",
+      "headword": "{侮蔑|ぶべつ}",
+      "label": "contempt, disdain, scorn"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15622_karonjiru",
+      "reading": "かろんじる",
+      "headword": "{軽|かろ}んじる",
+      "label": "to look down on"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17458_kenasu",
+      "reading": "けなす",
+      "headword": "{貶|けな}す",
+      "label": "to disparage"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21379_misageru",
+      "reading": "みさげる",
+      "headword": "{見下|みさ}げる",
+      "label": "to look down on"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22257_kobakanisuru",
+      "reading": "こばかにする",
+      "headword": "{小馬鹿|こばか}にする",
+      "label": "to make fun of"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23480_mauntowotoru",
+      "reading": "まうんとをとる",
+      "headword": "マウントを{取|と}る",
+      "label": "to one-up"
     }
   ],
   "metadata": {
     "created": "2026-02-04T06:17:12Z",
-    "modified": "2026-04-10T06:37:10Z",
+    "modified": "2026-09-02T04:01:19Z",
     "ai_model": "claude-opus-4-5-20251101",
     "vocabulary_tier": "general",
     "tags": {

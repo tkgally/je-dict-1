@@ -3,7 +3,7 @@
   "id": "13278_massatsu",
   "headword": "{抹殺|まっさつ}",
   "reading": "まっさつ",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "obliteration; erasure",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "13278_massatsu_ex1",
-      "japanese": "{事実|じじつ}を{抹殺|まっさつ}してはならない。",
+      "japanese": "⟦{事実|じじつ}→事実：03271_jijitsu⟧⟦を→を：00422_wo⟧{抹殺|まっさつ}⟦して→する：00392_suru⟧⟦は→は：00079_ha⟧⟦ならない→なる：01970_naru⟧。",
       "english": "Facts must not be erased.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "13278_massatsu_ex2",
-      "japanese": "{彼|かれ}の{功績|こうせき}は{歴史|れきし}から{抹殺|まっさつ}された。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧⟦{功績|こうせき}→功績：04143_kouseki⟧⟦は→は：00079_ha⟧⟦{歴史|れきし}→歴史：02267_rekishi⟧⟦から→から：00504_kara⟧{抹殺|まっさつ}⟦された→する：00392_suru⟧。",
       "english": "His achievements were obliterated from history.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "13278_massatsu_ex3",
-      "japanese": "{個人|こじん}の{意見|いけん}を{抹殺|まっさつ}するような{組織|そしき}は{健全|けんぜん}とは{言|い}えない。",
+      "japanese": "⟦{個人|こじん}→個人：02758_kojin⟧⟦の→の：09472_no⟧⟦{意見|いけん}→意見：01303_iken⟧⟦を→を：00422_wo⟧{抹殺|まっさつ}⟦する→する：00392_suru⟧ような⟦{組織|そしき}→組織：03320_soshiki⟧⟦は→は：00079_ha⟧⟦{健全|けんぜん}→健全：11539_kenzen⟧⟦と→と：00512_to⟧⟦は→は：00079_ha⟧⟦{言|い}えない→言う：00515_iu⟧。",
       "english": "An organization that suppresses individual opinions cannot be called healthy.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,11 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{抹殺|まっさつ} literally combines {抹|まつ} (to erase/wipe) and {殺|さつ} (to kill). While it can mean literal killing, it is more commonly used figuratively to mean erasing or suppressing something — facts, opinions, achievements, or someone's existence from the record. It carries a strong, dramatic tone and is common in political, historical, and literary contexts.\n\nCOMMON COLLOCATIONS:\n- {事実|じじつ}を{抹殺|まっさつ}する: to suppress facts\n- {歴史|れきし}から{抹殺|まっさつ}する: to erase from history\n- {存在|そんざい}を{抹殺|まっさつ}する: to obliterate someone's existence\n- {人格|じんかく}{抹殺|まっさつ}: character assassination",
+  "notes": "USAGE:\n{抹殺|まっさつ} literally combines {抹|まつ} (to erase/wipe) and {殺|さつ} (to kill). While it can mean literal killing, it is more commonly used figuratively to mean erasing or suppressing something — facts, opinions, achievements, or someone's existence from the record. It carries a strong, dramatic tone and is common in political, historical, and literary contexts.\n\nCOMMON COLLOCATIONS:\n- ⟦{事実|じじつ}→事実：03271_jijitsu⟧⟦を→を：00422_wo⟧{抹殺|まっさつ}⟦する→する：00392_suru⟧: to suppress facts\n- ⟦{歴史|れきし}→歴史：02267_rekishi⟧⟦から→から：00504_kara⟧{抹殺|まっさつ}⟦する→する：00392_suru⟧: to erase from history\n- ⟦{存在|そんざい}→存在：03326_sonzai⟧⟦を→を：00422_wo⟧{抹殺|まっさつ}⟦する→する：00392_suru⟧: to obliterate someone's existence\n- ⟦{人格|じんかく}→人格：11427_jinkaku⟧{抹殺|まっさつ}: character assassination",
   "cross_references": [],
   "metadata": {
     "created": "2026-02-24T07:34:34Z",
-    "modified": "2026-03-29T03:07:35Z",
+    "modified": "2026-09-02T04:01:32Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -151,7 +151,8 @@
       "semantic": [
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

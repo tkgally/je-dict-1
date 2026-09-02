@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08288_seiriken_ex1",
-      "japanese": "バスに{乗|の}ったら{整理券|せいりけん}を{取|と}ってください。",
+      "japanese": "⟦バス→バス：00769_basu⟧⟦に→に：00314_ni⟧⟦{乗|の}ったら→乗る：00511_noru⟧{整理券|せいりけん}⟦を→を：00422_wo⟧⟦{取|と}って→取る：00565_toru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please take a numbered ticket when you board the bus.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "08288_seiriken_ex2",
-      "japanese": "{整理券|せいりけん}は{朝|あさ}8{時|じ}から{配布|はいふ}します。",
+      "japanese": "{整理券|せいりけん}⟦は→は：00079_ha⟧⟦{朝|あさ}→朝：02277_asa⟧8⟦{時|じ}→時：09869_ji⟧⟦から→から：00504_kara⟧⟦{配布|はいふ}→配布：14410_haifu⟧⟦します→する：00392_suru⟧。",
       "english": "Numbered tickets will be distributed starting at 8 a.m.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "08288_seiriken_ex3",
-      "japanese": "{人気|にんき}ラーメン{店|てん}で{整理券|せいりけん}をもらった。",
+      "japanese": "⟦{人気|にんき}→人気：01488_ninki⟧⟦ラーメン→ラーメン：05181_raamen⟧⟦{店|てん}→店：10011_ten⟧⟦で→で：00502_de⟧{整理券|せいりけん}⟦を→を：00422_wo⟧⟦もらった→もらう：00520_morau⟧。",
       "english": "I got a numbered ticket at the popular ramen shop.",
       "sense_numbers": [
         1
@@ -43,7 +43,44 @@
       "notes": null
     }
   ],
-  "notes": "FORMATION:\n{整理|せいり} (organizing) + {券|けん} (ticket)\n\nCOMMON USES:\n- Buses (uniform fare systems): Take when boarding, show when paying\n- Popular restaurants: Distributed to manage wait times\n- Government offices: Call numbers for service order\n- Events/sales: Limit crowds and ensure fairness\n- Hospitals: Patient order management\n\nBUS USAGE:\nOn many Japanese buses, you take an {整理券|せいりけん} when boarding. When exiting, you pay based on the fare displayed for your ticket number.\n\nEXPRESSIONS:\n- {整理券|せいりけん}を{取|と}る (to take a numbered ticket)\n- {整理券|せいりけん}を{配布|はいふ}する (to distribute numbered tickets)\n- {整理券|せいりけん}{番号|ばんごう} (ticket number)\n\nRELATED:\n- {番号札|ばんごうふだ} (number tag)\n- {順番待|じゅんばんま}ち (waiting in line)\n- {呼|よ}び{出|だ}し (being called)",
+  "notes": "FORMS:\n⟦{整理|せいり}→整理：03297_seiri⟧ (organizing) + ⟦{券|けん}→券：02150_ken⟧ (ticket)\n\nCOMMON COLLOCATIONS:\n- Buses (uniform fare systems): Take when boarding, show when paying\n- Popular restaurants: Distributed to manage wait times\n- Government offices: Call numbers for service order\n- Events/sales: Limit crowds and ensure fairness\n- Hospitals: Patient order management\n\nBUS USAGE:\nOn many Japanese buses, you take an {整理券|せいりけん} when boarding. When exiting, you pay based on the fare displayed for your ticket number.\n\nCOMMON EXPRESSIONS:\n- {整理券|せいりけん}⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧ (to take a numbered ticket)\n- {整理券|せいりけん}⟦を→を：00422_wo⟧⟦{配布|はいふ}→配布：14410_haifu⟧⟦する→する：00392_suru⟧ (to distribute numbered tickets)\n- {整理券|せいりけん}⟦{番号|ばんごう}→番号：02939_bangou⟧ (ticket number)\n\nRELATED WORDS:\n- ⟦{番号札|ばんごうふだ}→番号札：23504_bangoufuda⟧ (number tag)\n- ⟦{順番待|じゅんばんま}ち→順番待ち：09747_junbanmachi⟧ (waiting in line)\n- ⟦{呼|よ}び{出|だ}し→呼び出す：04813_yobidasu⟧ (being called)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "23504_bangoufuda",
+      "reading": "ばんごうふだ",
+      "headword": "{番号札|ばんごうふだ}",
+      "label": "number tag"
+    },
+    {
+      "type": "related",
+      "target_id": "09747_junbanmachi",
+      "reading": "じゅんばんまち",
+      "headword": "{順番|じゅんばん}{待|ま}ち",
+      "label": "waiting in line"
+    },
+    {
+      "type": "related",
+      "target_id": "09828_yobidashi",
+      "reading": "よびだし",
+      "headword": "{呼|よ}び{出|だ}し",
+      "label": "being called"
+    },
+    {
+      "type": "related",
+      "target_id": "08287_toujitsuken",
+      "reading": "とうじつけん",
+      "headword": "{当日券|とうじつけん}",
+      "label": "same-day ticket"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24898_yoyakuken",
+      "reading": "よやくけん",
+      "headword": "{予約券|よやくけん}",
+      "label": "reservation ticket"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -51,6 +88,7 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "transportation",
         "services",
@@ -58,6 +96,6 @@
       ]
     },
     "created": "2026-01-25T11:42:58Z",
-    "modified": "2026-08-11T21:34:29Z"
+    "modified": "2026-09-02T04:01:14Z"
   }
 }

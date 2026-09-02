@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "07478_atsuage_ex1",
-      "japanese": "{厚揚|あつあ}げを{焼|や}いてしょうがじょうゆで{食|た}べる。",
+      "japanese": "{厚揚|あつあ}げ⟦を→を：00422_wo⟧⟦{焼|や}いて→焼く：01123_yaku⟧しょう⟦が→が：00051_ga⟧じょうゆ⟦で→で：00502_de⟧⟦{食|た}べる→食べる：00396_taberu⟧。",
       "english": "Grill thick fried tofu and eat it with ginger soy sauce.",
       "has_audio": false,
       "sense_numbers": [
@@ -23,7 +23,7 @@
     },
     {
       "id": "07478_atsuage_ex2",
-      "japanese": "{厚揚|あつあ}げと{野菜|やさい}の{煮物|にもの}を{作|つく}る。",
+      "japanese": "{厚揚|あつあ}げ⟦と→と：00512_to⟧⟦{野菜|やさい}→野菜：02265_yasai⟧⟦の→の：09472_no⟧⟦{煮物|にもの}→煮物：04971_nimono⟧⟦を→を：00422_wo⟧⟦{作|つく}る→作る：00481_tsukuru⟧。",
       "english": "Make a simmered dish with thick fried tofu and vegetables.",
       "has_audio": false,
       "sense_numbers": [
@@ -32,7 +32,7 @@
     },
     {
       "id": "07478_atsuage_ex3",
-      "japanese": "{厚揚|あつあ}げは{肉|にく}の{代|か}わりにもなる。",
+      "japanese": "{厚揚|あつあ}げ⟦は→は：00079_ha⟧⟦{肉|にく}→肉：02240_niku⟧⟦の→の：09472_no⟧⟦{代|か}わり→代わり：01296_kawari⟧⟦に→に：00314_ni⟧⟦も→も：00484_mo⟧⟦なる→なる：01970_naru⟧。",
       "english": "Thick fried tofu can also be used as a meat substitute.",
       "has_audio": false,
       "sense_numbers": [
@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "notes": "WORD STRUCTURE:\n{厚|あつ}い (thick) + {揚|あ}げ (deep-frying)\n\nLiterally \"thick-fried\" - referring to the thick cut of tofu before frying.\n\nALTERNATIVE NAME:\n{生揚|なまあ}げ (nama-age) - same product, different regional name\n\nCONTRAST WITH {油揚|あぶらあ}げ:\n・{油揚|あぶらあ}げ - thin, hollow inside, used for pouches\n・{厚揚|あつあ}げ - thick, solid tofu inside, more substantial\n\nTEXTURE:\nThe outside is crispy and golden brown, while the inside stays soft and white like regular tofu. This dual texture makes it versatile in cooking.\n\nCOMMON PREPARATIONS:\n・{焼|や}き{厚揚|あつあ}げ - grilled\n・{煮物|にもの} - simmered dishes\n・{炒|いた}め{物|もの} - stir-fries\n・おでん - oden hot pot\n\nSERVING SUGGESTIONS:\n・しょうがじょうゆ - ginger soy sauce\n・{大根|だいこん}おろし - grated daikon\n・ねぎ - green onions",
+  "notes": "ETYMOLOGY:\n⟦{厚|あつ}い→厚い：00690_atsui⟧ (thick) + {揚|あ}げ (deep-frying)\n\nLiterally \"thick-fried\" - referring to the thick cut of tofu before frying.\n\nALTERNATIVE NAME:\n{生揚|なまあ}げ (nama-age) - same product, different regional name\n\nCONTRAST WITH {油揚|あぶらあ}げ:\n- ⟦{油揚|あぶらあ}げ→油揚げ：07477_aburaage⟧ - thin, hollow inside, used for pouches\n- {厚揚|あつあ}げ - thick, solid tofu inside, more substantial\n\nTEXTURE:\nThe outside is crispy and golden brown, while the inside stays soft and white like regular tofu. This dual texture makes it versatile in cooking.\n\nCOMMON PREPARATIONS:\n- ⟦{焼|や}き→焼く：01123_yaku⟧{厚揚|あつあ}げ - grilled\n- ⟦{煮物|にもの}→煮物：04971_nimono⟧ - simmered dishes\n- ⟦{炒|いた}め{物|もの}→炒め物：08537_itamemono⟧ - stir-fries\n- ⟦おでん→おでん：14727_oden⟧ - oden hot pot\n\nSERVING SUGGESTIONS:\n- しょうがじょうゆ - ginger soy sauce\n- ⟦{大根|だいこん}おろし→大根おろし：26890_daikonoroshi⟧ - grated daikon\n- ねぎ - green onions",
   "cross_references": [
     {
       "type": "related",
@@ -55,11 +55,25 @@
       "headword": "{豆腐|とうふ}",
       "label": "tofu",
       "target_id": "04928_toufu"
+    },
+    {
+      "type": "related",
+      "target_id": "07948_kouyadoufu",
+      "reading": "こうやどうふ",
+      "headword": "{高野豆腐|こうやどうふ}",
+      "label": "freeze-dried tofu"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26036_agedashidoufu",
+      "reading": "あげだしどうふ",
+      "headword": "{揚|あ}げ{出|だ}し{豆腐|どうふ}",
+      "label": "deep-fried tofu served in broth"
     }
   ],
   "metadata": {
     "created": "2026-01-20T05:43:45Z",
-    "modified": "2026-08-10T18:29:45Z",
+    "modified": "2026-09-02T04:01:11Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -67,6 +81,7 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "food"
       ],

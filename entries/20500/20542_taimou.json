@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "20542_taimou_ex1",
-      "japanese": "{体毛|たいもう}が{濃|こ}い。",
+      "japanese": "{体毛|たいもう}⟦が→が：00051_ga⟧⟦{濃|こ}い→濃い：02344_koi⟧。",
       "english": "I have thick body hair.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "20542_taimou_ex2",
-      "japanese": "{体毛|たいもう}の{処理|しょり}にはいろいろな{方法|ほうほう}がある。",
+      "japanese": "{体毛|たいもう}⟦の→の：09472_no⟧⟦{処理|しょり}→処理：03251_shori⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧いろいろな⟦{方法|ほうほう}→方法：03621_houhou⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There are various methods for removing body hair.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "20542_taimou_ex3",
-      "japanese": "{人間|にんげん}の{体毛|たいもう}は{進化|しんか}の{過程|かてい}で{薄|うす}くなったと{言|い}われている。",
+      "japanese": "⟦{人間|にんげん}→人間：03523_ningen⟧⟦の→の：09472_no⟧{体毛|たいもう}⟦は→は：00079_ha⟧⟦{進化|しんか}→進化：06029_shinka⟧⟦の→の：09472_no⟧⟦{過程|かてい}→過程：02621_katei⟧⟦で→で：00502_de⟧⟦{薄|うす}く→薄い：00764_usui⟧⟦なった→なる：01970_naru⟧⟦と→と：00512_to⟧⟦{言|い}われている→言う：00515_iu⟧。",
       "english": "It is said that human body hair became thinner in the process of evolution.",
       "sense_numbers": [
         1
@@ -43,7 +43,7 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {体|たい} (body) and {毛|もう} (hair, fur). A neutral, slightly formal term. In everyday conversation, people more often refer to specific types of body hair.\n\nCOMMON COLLOCATIONS:\n- {体毛|たいもう}が{濃|こ}い: to have thick/dense body hair\n- {体毛|たいもう}が{薄|うす}い: to have thin/sparse body hair\n- {体毛|たいもう}の{処理|しょり}: body hair removal\n- {体毛|たいもう}を{剃|そ}る: to shave body hair\n\nRELATED TERMS:\n- {髪|かみ}の{毛|け}: head hair\n- {毛|け}: hair (general, native Japanese word)\n- むだ{毛|げ}: unwanted hair — the term commonly used in beauty/grooming contexts\n- {脱毛|だつもう}: hair removal, depilation",
+  "notes": "Composed of ⟦{体|たい}→体：09872_tai⟧ (body) and {毛|もう} (hair, fur). A neutral, slightly formal term. In everyday conversation, people more often refer to specific types of body hair.\n\nCOMMON COLLOCATIONS:\n- {体毛|たいもう}⟦が→が：00051_ga⟧⟦{濃|こ}い→濃い：02344_koi⟧: to have thick/dense body hair\n- {体毛|たいもう}⟦が→が：00051_ga⟧⟦{薄|うす}い→薄い：00764_usui⟧: to have thin/sparse body hair\n- {体毛|たいもう}⟦の→の：09472_no⟧⟦{処理|しょり}→処理：03251_shori⟧: body hair removal\n- {体毛|たいもう}⟦を→を：00422_wo⟧⟦{剃|そ}る→剃る：00384_soru⟧: to shave body hair\n\nRELATED WORDS:\n- ⟦{髪|かみ}の{毛|け}→髪の毛：02619_kaminoke⟧: head hair\n- ⟦{毛|け}→毛：01392_ke⟧: hair (general, native Japanese word)\n- むだ{毛|げ}: unwanted hair — the term commonly used in beauty/grooming contexts\n- ⟦{脱毛|だつもう}→脱毛：24914_datsumou⟧: hair removal, depilation",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -58,7 +58,7 @@
       ]
     },
     "created": "2026-03-29T17:09:11Z",
-    "modified": "2026-08-13T12:38:08Z"
+    "modified": "2026-09-02T04:02:00Z"
   },
   "cross_references": [
     {
@@ -67,6 +67,27 @@
       "reading": "け",
       "headword": "{毛|け}",
       "label": "hair (body), fur"
+    },
+    {
+      "type": "related",
+      "target_id": "02619_kaminoke",
+      "reading": "かみのけ",
+      "headword": "{髪|かみ}の{毛|け}",
+      "label": "head hair"
+    },
+    {
+      "type": "related",
+      "target_id": "24914_datsumou",
+      "reading": "だつもう",
+      "headword": "{脱毛|だつもう}",
+      "label": "hair removal, depilation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25016_wakige",
+      "reading": "わきげ",
+      "headword": "{脇毛|わきげ}",
+      "label": "armpit hair"
     }
   ]
 }

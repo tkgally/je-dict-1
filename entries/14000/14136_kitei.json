@@ -3,7 +3,7 @@
   "id": "14136_kitei",
   "headword": "{規定|きてい}",
   "reading": "きてい",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "regulation, provision, rule",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "14136_kitei_ex1",
-      "japanese": "{法律|ほうりつ}の{規定|きてい}に{従|したが}う。",
+      "japanese": "⟦{法律|ほうりつ}→法律：01722_houritsu⟧⟦の→の：09472_no⟧{規定|きてい}⟦に→に：00314_ni⟧⟦{従|したが}う→従う：02059_shitagau⟧。",
       "english": "I follow the provisions of the law.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "14136_kitei_ex2",
-      "japanese": "{就業|しゅうぎょう}{規定|きてい}では{残業|ざんぎょう}は{月|つき}30{時間|じかん}までだ。",
+      "japanese": "{就業|しゅうぎょう}{規定|きてい}⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{残業|ざんぎょう}→残業：01071_zangyou⟧⟦は→は：00079_ha⟧⟦{月|つき}→月：02230_tsuki⟧30⟦{時間|じかん}→時間：00468_jikan⟧⟦まで→まで：00490_made⟧だ。",
       "english": "The work regulations limit overtime to 30 hours per month.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "14136_kitei_ex3",
-      "japanese": "{契約書|けいやくしょ}に{規定|きてい}されていない{事項|じこう}については、{別途|べっと}{協議|きょうぎ}する。",
+      "japanese": "⟦{契約書|けいやくしょ}→契約書：06416_keiyakusho⟧⟦に→に：00314_ni⟧{規定|きてい}⟦されていない→する：00392_suru⟧⟦{事項|じこう}→事項：11469_jikou⟧⟦について→〜について：03103_nitsuite⟧⟦は→は：00079_ha⟧、⟦{別途|べっと}→別途：11881_betto⟧⟦{協議|きょうぎ}→協議：02635_kyougi⟧⟦する→する：00392_suru⟧。",
       "english": "Matters not stipulated in the contract will be discussed separately.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{規定|きてい} refers to specific rules or clauses within a larger system of regulations. Compare with {規則|きそく} (rules in general, often for everyday conduct), {法律|ほうりつ} (law), and {規約|きやく} (terms, bylaws). {規定|きてい} tends to appear in formal and legal contexts.\n\nCOMMON COLLOCATIONS:\n- {規定|きてい}に{従|したが}う: to follow regulations\n- {規定|きてい}を{設|もう}ける: to establish a regulation\n- {規定|きてい}{違反|いはん}: violation of a regulation\n- {規定|きてい}どおり: as prescribed/stipulated\n- {服務|ふくむ}{規定|きてい}: service regulations",
+  "notes": "USAGE:\n{規定|きてい} refers to specific rules or clauses within a larger system of regulations. Compare with ⟦{規則|きそく}→規則：01382_kisoku⟧ (rules in general, often for everyday conduct), ⟦{法律|ほうりつ}→法律：01722_houritsu⟧ (law), and ⟦{規約|きやく}→規約：14184_kiyaku⟧ (terms, bylaws). {規定|きてい} tends to appear in formal and legal contexts.\n\nCOMMON COLLOCATIONS:\n- {規定|きてい}⟦に→に：00314_ni⟧⟦{従|したが}う→従う：02059_shitagau⟧: to follow regulations\n- {規定|きてい}⟦を→を：00422_wo⟧⟦{設|もう}ける→設ける：14220_moukeru⟧: to establish a regulation\n- {規定|きてい}{違反|いはん}: violation of a regulation\n- {規定|きてい}⟦どおり→どおり：09884_doori⟧: as prescribed/stipulated\n- {服務|ふくむ}{規定|きてい}: service regulations",
   "cross_references": [
     {
       "type": "synonym",
@@ -149,11 +149,32 @@
       "reading": "きせい",
       "headword": "{規制|きせい}",
       "label": "regulation, restriction"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07461_sadame",
+      "reading": "さだめ",
+      "headword": "{定|さだ}め",
+      "label": "fate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16622_joubun",
+      "reading": "じょうぶん",
+      "headword": "{条文|じょうぶん}",
+      "label": "text of a law"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22625_teigizukeru",
+      "reading": "ていぎづける",
+      "headword": "{定義|ていぎ}づける",
+      "label": "to define"
     }
   ],
   "metadata": {
     "created": "2026-02-28T01:18:55Z",
-    "modified": "2026-04-30T04:29:16Z",
+    "modified": "2026-09-02T04:01:36Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

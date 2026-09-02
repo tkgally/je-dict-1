@@ -3,7 +3,7 @@
   "id": "15603_ritsuan",
   "headword": "{立案|りつあん}",
   "reading": "りつあん",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "planning; drafting; devising a plan",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "15603_ritsuan_ex1",
-      "japanese": "{新|あたら}しい{計画|けいかく}を{立案|りつあん}する。",
+      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦{計画|けいかく}→計画：01172_keikaku⟧⟦を→を：00422_wo⟧{立案|りつあん}⟦する→する：00392_suru⟧。",
       "english": "To draft a new plan.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "15603_ritsuan_ex2",
-      "japanese": "{政策|せいさく}の{立案|りつあん}には{時間|じかん}がかかる。",
+      "japanese": "⟦{政策|せいさく}→政策：10070_seisaku⟧⟦の→の：09472_no⟧{立案|りつあん}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{時間|じかん}がかかる→時間がかかる：26082_jikangakakaru⟧。",
       "english": "Drafting a policy takes time.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "15603_ritsuan_ex3",
-      "japanese": "プロジェクトの{立案|りつあん}から{実行|じっこう}まで{半年|はんとし}かかった。",
+      "japanese": "⟦プロジェクト→プロジェクト：06764_purojekuto⟧⟦の→の：09472_no⟧{立案|りつあん}⟦から→から：00504_kara⟧⟦{実行|じっこう}→実行：03274_jikkou⟧⟦まで→まで：00490_made⟧⟦{半年|はんとし}→半年：03139_hantoshi⟧⟦かかった→かかる：00711_kakaru⟧。",
       "english": "It took half a year from planning the project to its execution.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{立案|りつあん} refers to the initial stage of creating a plan or proposal. It is more formal than {計画|けいかく}を{立|た}てる and is often used in organizational or governmental contexts.\n\nCOMMON COLLOCATIONS:\n- {政策|せいさく}を{立案|りつあん}する (to draft a policy)\n- {立案者|りつあんしゃ} (planner, author of a plan)\n- {立案|りつあん}{段階|だんかい} (planning stage)\n- {企画|きかく}{立案|りつあん} (project planning)\n\nSIMILAR WORDS:\n{企画|きかく} focuses on conceiving creative projects or events, while {立案|りつあん} focuses on the formal drafting of plans and strategies. {策定|さくてい} is an even more formal term for establishing official policies.",
+  "notes": "USAGE:\n{立案|りつあん} refers to the initial stage of creating a plan or proposal. It is more formal than ⟦{計画|けいかく}→計画：01172_keikaku⟧⟦を→を：00422_wo⟧⟦{立|た}てる→立てる：01196_tateru⟧ and is often used in organizational or governmental contexts.\n\nCOMMON COLLOCATIONS:\n- ⟦{政策|せいさく}→政策：10070_seisaku⟧⟦を→を：00422_wo⟧{立案|りつあん}⟦する→する：00392_suru⟧ (to draft a policy)\n- {立案者|りつあんしゃ} (planner, author of a plan)\n- {立案|りつあん}⟦{段階|だんかい}→段階：04515_dankai⟧ (planning stage)\n- ⟦{企画|きかく}→企画：04879_kikaku⟧{立案|りつあん} (project planning)\n\nSIMILAR WORDS:\n⟦{企画|きかく}→企画：04879_kikaku⟧ focuses on conceiving creative projects or events, while {立案|りつあん} focuses on the formal drafting of plans and strategies. {策定|さくてい} is an even more formal term for establishing official policies.",
   "cross_references": [
     {
       "type": "synonym",
@@ -149,11 +149,18 @@
       "reading": "きかく",
       "headword": "{企画|きかく}",
       "label": "project planning (creative)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20998_keikakusuru",
+      "reading": "けいかくする",
+      "headword": "{計画|けいかく}する",
+      "label": "to plan"
     }
   ],
   "metadata": {
     "created": "2026-03-07T13:06:28Z",
-    "modified": "2026-05-01T08:11:13Z",
+    "modified": "2026-09-02T04:01:41Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -166,7 +173,8 @@
       "semantic": [
         "work"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

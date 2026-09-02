@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "15106_migikataagari_ex1",
-      "japanese": "{売上|うりあげ}が{右肩上|みぎかたあ}がりだ。",
+      "japanese": "⟦{売上|うりあげ}→売上：04102_uriage⟧⟦が→が：00051_ga⟧{右肩上|みぎかたあ}がりだ。",
       "english": "Sales are on a steady upward trend.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15106_migikataagari_ex2",
-      "japanese": "{人口|じんこう}は{右肩上|みぎかたあ}がりに{増|ふ}えている。",
+      "japanese": "⟦{人口|じんこう}→人口：01618_jinkou⟧⟦は→は：00079_ha⟧{右肩上|みぎかたあ}がり⟦に→に：00314_ni⟧⟦{増|ふ}えている→増える：01183_fueru⟧。",
       "english": "The population has been increasing steadily.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15106_migikataagari_ex3",
-      "japanese": "この{会社|かいしゃ}の{業績|ぎょうせき}は{創業|そうぎょう}から{右肩上|みぎかたあ}がりで{成長|せいちょう}を{続|つづ}けている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦の→の：09472_no⟧⟦{業績|ぎょうせき}→業績：04873_gyouseki⟧⟦は→は：00079_ha⟧⟦{創業|そうぎょう}→創業：11792_sougyou⟧⟦から→から：00504_kara⟧{右肩上|みぎかたあ}がり⟦で→で：00502_de⟧⟦{成長|せいちょう}→成長：03290_seichou⟧⟦を→を：00422_wo⟧⟦{続|つづ}け→続く：00903_tsuzuku⟧て⟦いる→いる：00495_iru⟧。",
       "english": "This company's performance has continued to grow steadily since its founding.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\n{右肩上|みぎかたあ}がり comes from the image of a graph line that goes up from left to right. It describes sustained growth or increase. The opposite is {右肩下|みぎかたさ}がり (steadily declining).\n\nCOMMON COLLOCATIONS:\n- {右肩上|みぎかたあ}がりの{成長|せいちょう} (steady growth)\n- {右肩上|みぎかたあ}がりに{増|ふ}える (to increase steadily)\n- {右肩上|みぎかたあ}がりの{傾向|けいこう} (upward trend)\n\nSIMILAR WORDS:\n{上昇|じょうしょう}{傾向|けいこう} means upward trend and is more formal. {右肩上|みぎかたあ}がり is more vivid and visual, evoking the image of a rising graph line.",
+  "notes": "USAGE:\n{右肩上|みぎかたあ}がり comes from the image of a graph line that goes up from left to right. It describes sustained growth or increase. The opposite is ⟦{右肩下|みぎかたさ}がり→右肩下がり：15642_migikatasagari⟧ (steadily declining).\n\nCOMMON COLLOCATIONS:\n- {右肩上|みぎかたあ}がり⟦の→の：09472_no⟧⟦{成長|せいちょう}→成長：03290_seichou⟧ (steady growth)\n- {右肩上|みぎかたあ}がり⟦に→に：00314_ni⟧⟦{増|ふ}える→増える：01183_fueru⟧ (to increase steadily)\n- {右肩上|みぎかたあ}がり⟦の→の：09472_no⟧⟦{傾向|けいこう}→傾向：02695_keikou⟧ (upward trend)\n\nSIMILAR WORDS:\n⟦{上昇|じょうしょう}→上昇：11296_joushou⟧⟦{傾向|けいこう}→傾向：02695_keikou⟧ means upward trend and is more formal. {右肩上|みぎかたあ}がり is more vivid and visual, evoking the image of a rising graph line.",
   "cross_references": [
     {
       "type": "antonym",
@@ -50,14 +56,18 @@
   ],
   "metadata": {
     "created": "2026-03-05T06:54:27Z",
-    "modified": "2026-05-01T05:08:10Z",
+    "modified": "2026-09-02T04:01:40Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["business"]
+      "semantic": [
+        "business"
+      ]
     }
   }
 }

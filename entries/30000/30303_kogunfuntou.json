@@ -3,7 +3,7 @@
   "headword": "孤軍奮闘",
   "reading": "こぐんふんとう",
   "romaji": "kogunfuntou",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "fighting on alone; a lone struggle",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30303_kogunfuntou_ex1",
-      "japanese": "{彼|かれ}は{孤軍奮闘|こぐんふんとう}している。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{孤軍奮闘|こぐんふんとう}⟦している→する：00392_suru⟧。",
       "english": "He is fighting on alone.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30303_kogunfuntou_ex2",
-      "japanese": "{誰|だれ}も{手伝|てつだ}ってくれず、{孤軍奮闘|こぐんふんとう}の{毎日|まいにち}だ。",
+      "japanese": "⟦{誰|だれ}も→誰も：18610_daremo⟧⟦{手伝|てつだ}って→手伝う：00898_tetsudau⟧⟦くれ→くれる：00724_kureru⟧ず、{孤軍奮闘|こぐんふんとう}⟦の→の：09472_no⟧⟦{毎日|まいにち}→毎日：00729_mainichi⟧だ。",
       "english": "Nobody helps out, so every day is a lone struggle.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30303_kogunfuntou_ex3",
-      "japanese": "{新|あたら}しい{制度|せいど}を{通|とお}すため、{一人|ひとり}の{議員|ぎいん}が{数年間|すうねんかん}{孤軍奮闘|こぐんふんとう}を{続|つづ}けた。",
+      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦{制度|せいど}→制度：03291_seido⟧⟦を→を：00422_wo⟧⟦{通|とお}す→通す：02300_toosu⟧⟦ため→ため：01145_tame⟧、⟦{一人|ひとり}→一人：00630_hitori⟧⟦の→の：09472_no⟧⟦{議員|ぎいん}→議員：02660_giin⟧⟦が→が：00051_ga⟧{数年間|すうねんかん}{孤軍奮闘|こぐんふんとう}⟦を→を：00422_wo⟧⟦{続|つづ}け→続く：00903_tsuzuku⟧た。",
       "english": "One legislator kept up a lone struggle for several years to get the new system passed.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "From {孤軍|こぐん} (an isolated army) + {奮闘|ふんとう} (to struggle hard). The tone is sympathetic: it praises the effort while pointing out that the person should not have had to make it alone.\n\nCOMMON COLLOCATIONS:\n- {孤軍奮闘|こぐんふんとう}する: to fight on alone\n- {孤軍奮闘|こぐんふんとう}を{続|つづ}ける: to keep up a lone struggle\n- {孤軍奮闘|こぐんふんとう}ぶり: the sight of someone struggling alone\n\nSIMILAR WORDS:\n- {悪戦苦闘|あくせんくとう}: a desperate struggle — stresses how hard the fight is, not the isolation\n- {奮闘|ふんとう}: to struggle hard — the plain word, with no sense of being alone",
+  "notes": "From {孤軍|こぐん} (an isolated army) + ⟦{奮闘|ふんとう}→奮闘：07901_funtou⟧ (to struggle hard). The tone is sympathetic: it praises the effort while pointing out that the person should not have had to make it alone.\n\nCOMMON COLLOCATIONS:\n- {孤軍奮闘|こぐんふんとう}⟦する→する：00392_suru⟧: to fight on alone\n- {孤軍奮闘|こぐんふんとう}⟦を→を：00422_wo⟧⟦{続|つづ}ける→続く：00903_tsuzuku⟧: to keep up a lone struggle\n- {孤軍奮闘|こぐんふんとう}⟦ぶり→〜ぶり：28358_buri⟧: the sight of someone struggling alone\n\nSIMILAR WORDS:\n- ⟦{悪戦苦闘|あくせんくとう}→悪戦苦闘：20178_akusenkutou⟧: a desperate struggle — stresses how hard the fight is, not the isolation\n- ⟦{奮闘|ふんとう}→奮闘：07901_funtou⟧: to struggle hard — the plain word, with no sense of being alone",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20178_akusenkutou",
+      "reading": "あくせんくとう",
+      "headword": "{悪戦苦闘|あくせんくとう}",
+      "label": "a desperate struggle"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06722_wanope",
+      "reading": "わんおぺ",
+      "headword": "ワンオペ",
+      "label": "one-person operation"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -54,16 +70,17 @@
         "verb-suru"
       ],
       "formality": "formal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "idiom",
         "action"
       ],
       "domain": [],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     },
     "created": "2026-08-01T15:17:17Z",
-    "modified": "2026-08-01T15:17:17Z"
+    "modified": "2026-09-02T04:02:39Z"
   },
   "conjugation": {
     "type": "suru",

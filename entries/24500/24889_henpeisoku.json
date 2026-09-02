@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24889_henpeisoku_ex1",
-      "japanese": "{子供|こども}の{頃|ころ}から{扁平足|へんぺいそく}だった。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧⟦の→の：09472_no⟧{頃|ころ}⟦から→から：00504_kara⟧{扁平足|へんぺいそく}だった。",
       "english": "I've had flat feet since childhood.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24889_henpeisoku_ex2",
-      "japanese": "{扁平足|へんぺいそく}だと{長時間|ちょうじかん}{歩|ある}くと{疲|つか}れやすい。",
+      "japanese": "{扁平足|へんぺいそく}だ⟦と→と：00512_to⟧⟦{長時間|ちょうじかん}→長時間：10165_choujikan⟧⟦{歩|ある}く→歩く：00538_aruku⟧⟦と→と：00512_to⟧⟦{疲|つか}れ→疲れる：00901_tsukareru⟧やすい。",
       "english": "With flat feet, you get tired easily when walking for a long time.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24889_henpeisoku_ex3",
-      "japanese": "{扁平足|へんぺいそく}を{改善|かいぜん}するためにインソールを{使|つか}い{始|はじ}めた。",
+      "japanese": "{扁平足|へんぺいそく}⟦を→を：00422_wo⟧⟦{改善|かいぜん}する→改善する：26828_kaizensuru⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧⟦インソール→インソール：25739_insooru⟧⟦を→を：00422_wo⟧⟦{使|つか}い→使う：00473_tsukau⟧⟦{始|はじ}めた→始める：00531_hajimeru⟧。",
       "english": "I started using insoles to improve my flat feet.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {扁平|へんぺい} (flat; flattened) + {足|そく} (foot). A medical/anatomical term also used in everyday conversation about foot health and shoe fitting.\n\nCOMMON COLLOCATIONS:\n- {扁平足|へんぺいそく}の{矯正|きょうせい}: correction of flat feet\n- {扁平足|へんぺいそく}{用|よう}インソール: insoles for flat feet\n- {扁平足|へんぺいそく}の{人|ひと}: person with flat feet\n- {扁平足|へんぺいそく}を{改善|かいぜん}する: to improve flat feet\n\nSIMILAR WORDS:\n- {外反母趾|がいはんぼし}: bunion; hallux valgus — another common foot condition\n- {土踏|つちふ}まず: arch of the foot — the part that is flattened in {扁平足|へんぺいそく}\n- {偏平|へんぺい}: flat; flattened — the adjective form of the same kanji, sometimes written with this variant",
+  "notes": "Compound of {扁平|へんぺい} (flat; flattened) + ⟦{足|そく}→足：00992_soku⟧ (foot). A medical/anatomical term also used in everyday conversation about foot health and shoe fitting.\n\nCOMMON COLLOCATIONS:\n- {扁平足|へんぺいそく}⟦の→の：09472_no⟧⟦{矯正|きょうせい}→矯正：14784_kyousei⟧: correction of flat feet\n- {扁平足|へんぺいそく}⟦{用|よう}→〜用：09842_you⟧⟦インソール→インソール：25739_insooru⟧: insoles for flat feet\n- {扁平足|へんぺいそく}⟦の→の：09472_no⟧⟦{人|ひと}→人：00476_hito⟧: person with flat feet\n- {扁平足|へんぺいそく}⟦を→を：00422_wo⟧⟦{改善|かいぜん}する→改善する：26828_kaizensuru⟧: to improve flat feet\n\nSIMILAR WORDS:\n- {外反母趾|がいはんぼし}: bunion; hallux valgus — another common foot condition\n- ⟦{土踏|つちふ}まず→土踏まず：08543_tsuchifumazu⟧: arch of the foot — the part that is flattened in {扁平足|へんぺいそく}\n- {偏平|へんぺい}: flat; flattened — the adjective form of the same kanji, sometimes written with this variant",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08543_tsuchifumazu",
+      "reading": "つちふまず",
+      "headword": "{土踏|つちふ}まず",
+      "label": "arch of the foot"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +69,6 @@
       ]
     },
     "created": "2026-04-21T11:26:56Z",
-    "modified": "2026-08-03T09:22:27Z"
+    "modified": "2026-09-02T04:02:20Z"
   }
 }

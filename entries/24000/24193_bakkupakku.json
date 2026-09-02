@@ -16,7 +16,7 @@
   "examples": [
     {
       "id": "24193_bakkupakku_ex1",
-      "japanese": "バックパックを{背負|せお}う。",
+      "japanese": "バックパック⟦を→を：00422_wo⟧⟦{背負|せお}う→背負う：16159_seou⟧。",
       "english": "Carry a backpack on one's back.",
       "sense_numbers": [
         1
@@ -26,7 +26,7 @@
     },
     {
       "id": "24193_bakkupakku_ex2",
-      "japanese": "{新|あたら}しいバックパックを{買|か}った。",
+      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧バックパック⟦を→を：00422_wo⟧⟦{買|か}った→買う：00489_kau⟧。",
       "english": "I bought a new backpack.",
       "sense_numbers": [
         1
@@ -36,7 +36,7 @@
     },
     {
       "id": "24193_bakkupakku_ex3",
-      "japanese": "{大|おお}きなバックパックに{荷物|にもつ}を{詰|つ}め{込|こ}んだ。",
+      "japanese": "⟦{大|おお}きな→大きな：02849_ookina⟧バックパック⟦に→に：00314_ni⟧⟦{荷物|にもつ}→荷物：00737_nimotsu⟧⟦を→を：00422_wo⟧⟦{詰|つ}め{込|こ}んだ→詰め込む：04242_tsumekomu⟧。",
       "english": "I crammed my luggage into a large backpack.",
       "sense_numbers": [
         1
@@ -46,7 +46,7 @@
     },
     {
       "id": "24193_bakkupakku_ex4",
-      "japanese": "バックパック{一|ひと}つで{世界|せかい}を{旅|たび}する{若者|わかもの}が{増|ふ}えている。",
+      "japanese": "バックパック⟦{一|ひと}つ→一つ：02948_hitotsu⟧⟦で→で：00502_de⟧⟦{世界|せかい}→世界：01447_sekai⟧⟦を→を：00422_wo⟧⟦{旅|たび}→旅：03407_tabi⟧⟦する→する：00392_suru⟧⟦{若者|わかもの}→若者：03037_wakamono⟧⟦が→が：00051_ga⟧⟦{増|ふ}えている→増える：01183_fueru⟧。",
       "english": "More and more young people are traveling the world with just a backpack.",
       "sense_numbers": [
         1
@@ -55,7 +55,7 @@
       "notes": null
     }
   ],
-  "notes": "From English \"backpack.\" Used for both outdoor/hiking packs and everyday bags carried on the back.\n\nCOMMON COLLOCATIONS:\n- バックパックを{背負|せお}う: carry a backpack\n- バックパックを{下|お}ろす: take off a backpack\n- バックパック{旅行|りょこう}: backpacking trip\n- {防水|ぼうすい}バックパック: waterproof backpack\n\nSIMILAR WORDS:\n- リュック / リュックサック: rucksack — the most common everyday Japanese word for a backpack; from German \"Rucksack\"\n- ナップサック: knapsack — a simpler, lighter drawstring bag\n- ランドセル: school satchel — the rigid backpack used by Japanese elementary school students\n\nUSAGE:\nリュック or リュックサック is far more common in daily Japanese. バックパック tends to appear in outdoor, travel, or fashion contexts, often implying a larger or more rugged pack.",
+  "notes": "From English \"backpack.\" Used for both outdoor/hiking packs and everyday bags carried on the back.\n\nCOMMON COLLOCATIONS:\n- バックパック⟦を→を：00422_wo⟧⟦{背負|せお}う→背負う：16159_seou⟧: carry a backpack\n- バックパック⟦を→を：00422_wo⟧⟦{下|お}ろす→下ろす：02029_orosu⟧: take off a backpack\n- バックパック⟦{旅行|りょこう}→旅行：00748_ryokou⟧: backpacking trip\n- ⟦{防水|ぼうすい}→防水：06428_bousui⟧バックパック: waterproof backpack\n\nSIMILAR WORDS:\n- ⟦リュック→リュック：04541_ryukku⟧ / ⟦リュックサック→リュックサック：20787_ryukkusakku⟧: rucksack — the most common everyday Japanese word for a backpack; from German \"Rucksack\"\n- ナップサック: knapsack — a simpler, lighter drawstring bag\n- ⟦ランドセル→ランドセル：11191_randoseru⟧: school satchel — the rigid backpack used by Japanese elementary school students\n\nUSAGE:\n⟦リュック→リュック：04541_ryukku⟧ or ⟦リュックサック→リュックサック：20787_ryukkusakku⟧ is far more common in daily Japanese. バックパック tends to appear in outdoor, travel, or fashion contexts, often implying a larger or more rugged pack.",
   "cross_references": [
     {
       "type": "related",
@@ -63,16 +63,32 @@
       "reading": "りゅっく",
       "headword": "リュック",
       "label": "rucksack/backpack (German loanword)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20787_ryukkusakku",
+      "reading": "りゅっくさっく",
+      "headword": "リュックサック",
+      "label": "rucksack"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11191_randoseru",
+      "reading": "らんどせる",
+      "headword": "ランドセル",
+      "label": "school satchel"
     }
   ],
   "metadata": {
     "created": "2026-04-18T09:08:47Z",
-    "modified": "2026-08-02T18:32:34Z",
+    "modified": "2026-09-02T04:02:17Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "travel",
         "clothing"

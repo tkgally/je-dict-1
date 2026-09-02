@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "18171_tefuda_ex1",
-      "japanese": "{手札|てふだ}からカードを{一枚|いちまい}{出|だ}した。",
+      "japanese": "{手札|てふだ}⟦から→から：00504_kara⟧⟦カード→カード：03836_kaado⟧⟦を→を：00422_wo⟧⟦{一枚|いちまい}→一枚：08889_ichimai⟧⟦{出|だ}した→出す：01087_dasu⟧。",
       "english": "I played one card from my hand.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18171_tefuda_ex2",
-      "japanese": "{手札|てふだ}が{少|すく}なくなってきて{焦|あせ}った。",
+      "japanese": "{手札|てふだ}⟦が→が：00051_ga⟧⟦{少|すく}なく→少ない：01136_sukunai⟧⟦なって→なる：01970_naru⟧きて⟦{焦|あせ}った→焦る：04619_aseru⟧。",
       "english": "My hand was getting smaller and I started to panic.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18171_tefuda_ex3",
-      "japanese": "{交渉|こうしょう}で{使|つか}える{手札|てふだ}はもう{残|のこ}っていない。",
+      "japanese": "⟦{交渉|こうしょう}→交渉：02727_koushou⟧⟦で→で：00502_de⟧⟦{使|つか}える→使う：00473_tsukau⟧{手札|てふだ}⟦は→は：00079_ha⟧⟦もう→もう：00602_mou⟧⟦{残|のこ}っていない→残る：01187_nokoru⟧。",
       "english": "I have no more cards to play in the negotiations.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nCommonly used in card games, trading card games, and board games. The figurative use — meaning the options or resources at one's disposal — is also common in business and political contexts, similar to English \"cards to play\" or \"options on the table.\"\n\nCOMMON COLLOCATIONS:\n- {手札|てふだ}を{切|き}る (to play a card; to use an option)\n- {手札|てふだ}を{補充|ほじゅう}する (to draw cards to replenish one's hand)\n- {手札|てふだ}が{尽|つ}きる (to run out of cards/options)\n\nSIMILAR WORDS:\n- {持|も}ち{札|ふだ}: cards in hand — similar meaning; also used figuratively for one's repertoire or resources\n- {切|き}り{札|ふだ}: trump card — a decisive card or advantage held in reserve",
+  "notes": "USAGE:\nCommonly used in card games, trading card games, and board games. The figurative use — meaning the options or resources at one's disposal — is also common in business and political contexts, similar to English \"cards to play\" or \"options on the table.\"\n\nCOMMON COLLOCATIONS:\n- {手札|てふだ}⟦を→を：00422_wo⟧⟦{切|き}る→切る：02693_kiru⟧ (to play a card; to use an option)\n- {手札|てふだ}⟦を→を：00422_wo⟧⟦{補充|ほじゅう}する→補充する：25240_hojuusuru⟧ (to draw cards to replenish one's hand)\n- {手札|てふだ}⟦が→が：00051_ga⟧⟦{尽|つ}きる→尽きる：12365_tsukiru⟧ (to run out of cards/options)\n\nSIMILAR WORDS:\n- {持|も}ち{札|ふだ}: cards in hand — similar meaning; also used figuratively for one's repertoire or resources\n- ⟦{切|き}り{札|ふだ}→切り札：18024_kirifuda⟧: trump card — a decisive card or advantage held in reserve",
   "cross_references": [
     {
       "type": "related",
@@ -46,18 +52,36 @@
       "reading": "きりふだ",
       "headword": "{切|き}り{札|ふだ}",
       "label": "trump card"
+    },
+    {
+      "type": "related",
+      "target_id": "19911_yamafuda",
+      "reading": "やまふだ",
+      "headword": "{山札|やまふだ}",
+      "label": "draw pile, deck (of cards)"
+    },
+    {
+      "type": "related",
+      "target_id": "26509_bafuda",
+      "reading": "ばふだ",
+      "headword": "{場札|ばふだ}",
+      "label": "table card"
     }
   ],
   "metadata": {
     "created": "2026-03-20T08:58:51Z",
-    "modified": "2026-05-08T06:14:38Z",
+    "modified": "2026-09-02T04:01:51Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["leisure"]
+      "semantic": [
+        "leisure"
+      ]
     }
   }
 }

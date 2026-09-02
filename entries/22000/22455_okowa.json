@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22455_okowa_ex1",
-      "japanese": "{栗|くり}おこわを{作|つく}った。",
+      "japanese": "⟦{栗|くり}→栗：04387_kuri⟧おこわ⟦を→を：00422_wo⟧⟦{作|つく}った→作る：00481_tsukuru⟧。",
       "english": "I made chestnut sticky rice.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22455_okowa_ex2",
-      "japanese": "おこわは{普通|ふつう}の{白米|はくまい}よりもちもちしている。",
+      "japanese": "おこわ⟦は→は：00079_ha⟧⟦{普通|ふつう}→普通：01502_futsuu⟧⟦の→の：09472_no⟧⟦{白米|はくまい}→白米：06101_hakumai⟧⟦より→より：09476_yori⟧⟦もちもち→もちもち：05260_mochimochi⟧⟦している→する：00392_suru⟧。",
       "english": "Okowa has a chewier texture than regular white rice.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22455_okowa_ex3",
-      "japanese": "お{祝|いわ}いの{席|せき}では{赤飯|せきはん}のおこわが{出|だ}されることが{多|おお}い。",
+      "japanese": "⟦お{祝|いわ}い→お祝い：01339_oiwai⟧⟦の→の：09472_no⟧⟦{席|せき}→席：02215_seki⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{赤飯|せきはん}→赤飯：18955_sekihan⟧⟦の→の：09472_no⟧おこわ⟦が→が：00051_ga⟧⟦{出|だ}される→出す：01087_dasu⟧こと⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "At celebrations, sekihan-style sticky rice is often served.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Refers to steamed {餅米|もちごめ} (glutinous rice) dishes. The word comes from the honorific お + {強|こわ} (hard/firm), referring to the firmer texture of steamed glutinous rice compared to regular boiled rice. Can also be written in kanji as {御強|おこわ}.\n\nCOMMON VARIETIES:\n- {赤飯|せきはん}: red bean sticky rice — the most common type, served at celebrations\n- {栗|くり}おこわ: chestnut sticky rice — an autumn specialty\n- {山菜|さんさい}おこわ: mountain vegetable sticky rice\n- {五目|ごもく}おこわ: mixed ingredient sticky rice\n\nSIMILAR WORDS:\n- {赤飯|せきはん}: red rice — specifically red-bean glutinous rice for celebrations; a type of おこわ\n- {炊|た}き{込|こ}みご{飯|はん}: seasoned rice — cooked with regular rice and ingredients, not glutinous rice\n- {餅|もち}: rice cake — made from pounded glutinous rice, a different preparation\n\nCULTURAL NOTE:\nおこわ is associated with special occasions and seasonal events. {赤飯|せきはん} in particular is served at celebrations like birthdays, weddings, and other milestones.",
+  "notes": "Refers to steamed {餅米|もちごめ} (glutinous rice) dishes. The word comes from the honorific お + {強|こわ} (hard/firm), referring to the firmer texture of steamed glutinous rice compared to regular boiled rice. Can also be written in kanji as {御強|おこわ}.\n\nCOMMON VARIETIES:\n- ⟦{赤飯|せきはん}→赤飯：18955_sekihan⟧: red bean sticky rice — the most common type, served at celebrations\n- ⟦{栗|くり}→栗：04387_kuri⟧おこわ: chestnut sticky rice — an autumn specialty\n- ⟦{山菜|さんさい}→山菜：12404_sansai⟧おこわ: mountain vegetable sticky rice\n- ⟦{五目|ごもく}→五目：11474_gomoku⟧おこわ: mixed ingredient sticky rice\n\nSIMILAR WORDS:\n- ⟦{赤飯|せきはん}→赤飯：18955_sekihan⟧: red rice — specifically red-bean glutinous rice for celebrations; a type of おこわ\n- ⟦{炊|た}き{込|こ}みご{飯|はん}→炊き込みご飯：05883_takikomigohan⟧: seasoned rice — cooked with regular rice and ingredients, not glutinous rice\n- ⟦{餅|もち}→餅：03900_mochi⟧: rice cake — made from pounded glutinous rice, a different preparation\n\nCULTURAL NOTE:\nおこわ is associated with special occasions and seasonal events. ⟦{赤飯|せきはん}→赤飯：18955_sekihan⟧ in particular is served at celebrations like birthdays, weddings, and other milestones.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18955_sekihan",
+      "reading": "せきはん",
+      "headword": "{赤飯|せきはん}",
+      "label": "red rice"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05883_takikomigohan",
+      "reading": "たきこみごはん",
+      "headword": "{炊|た}き{込|こ}みご{飯|はん}",
+      "label": "seasoned rice"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03900_mochi",
+      "reading": "もち",
+      "headword": "{餅|もち}",
+      "label": "rice cake"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +82,6 @@
       ]
     },
     "created": "2026-04-06T12:11:37Z",
-    "modified": "2026-07-27T06:23:09Z"
+    "modified": "2026-09-02T04:02:08Z"
   }
 }

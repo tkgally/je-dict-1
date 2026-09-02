@@ -3,7 +3,7 @@
   "id": "12067_gattai",
   "headword": "{合体|がったい}",
   "reading": "がったい",
-  "part_of_speech": "noun / suru verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "fusion; union; combining; merging",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "12067_gattai_ex1",
-      "japanese": "{二|ふた}つの{会社|かいしゃ}が{合体|がったい}した。",
+      "japanese": "⟦{二|ふた}つ→二つ：02953_futatsu⟧⟦の→の：09472_no⟧⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦が→が：00051_ga⟧{合体|がったい}⟦した→する：00392_suru⟧。",
       "english": "The two companies merged.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "12067_gattai_ex2",
-      "japanese": "ロボットが{合体|がったい}して{巨大|きょだい}ロボになる。",
+      "japanese": "⟦ロボット→ロボット：06404_robotto⟧⟦が→が：00051_ga⟧{合体|がったい}⟦して→する：00392_suru⟧⟦{巨大|きょだい}→巨大：02586_kyodai⟧ロボ⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧。",
       "english": "The robots combine to form a giant robot.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "12067_gattai_ex3",
-      "japanese": "{異|こと}なる{技術|ぎじゅつ}を{合体|がったい}させることで、これまでにない{新|あたら}しい{製品|せいひん}が{生|う}まれた。",
+      "japanese": "⟦{異|こと}なる→異なる：02101_kotonaru⟧⟦{技術|ぎじゅつ}→技術：01389_gijutsu⟧⟦を→を：00422_wo⟧{合体|がったい}⟦させる→する：00392_suru⟧ことで、⟦これ→これ：00963_kore⟧⟦まで→まで：00490_made⟧にない⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦{製品|せいひん}→製品：01445_seihin⟧⟦が→が：00051_ga⟧⟦{生|う}まれた→生まれる：00905_umareru⟧。",
       "english": "By combining different technologies, an entirely new product was created.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nUsed as a suru verb: {合体|がったい}する (to combine/merge). Particularly well-known in anime and tokusatsu (special effects shows) culture, where characters or machines merge into a single, more powerful form. Also used in general contexts for mergers and combinations.\n\nCOMMON COLLOCATIONS:\n- {合体|がったい}する: to combine, to merge\n- {合体|がったい}ロボ: combining robot\n- {合体|がったい}{技|わざ}: combination technique/move\n\nSIMILAR WORDS:\n{合体|がったい} emphasizes physically joining into one body. {合併|がっぺい} is used for organizational mergers (companies, municipalities). {融合|ゆうごう} means blending or fusing, often for abstract concepts or cultural mixing. {統合|とうごう} means integration or consolidation of systems or organizations.",
+  "notes": "USAGE:\nUsed as a suru verb: {合体|がったい}⟦する→する：00392_suru⟧ (to combine/merge). Particularly well-known in anime and tokusatsu (special effects shows) culture, where characters or machines merge into a single, more powerful form. Also used in general contexts for mergers and combinations.\n\nCOMMON COLLOCATIONS:\n- {合体|がったい}⟦する→する：00392_suru⟧: to combine, to merge\n- {合体|がったい}ロボ: combining robot\n- {合体|がったい}⟦{技|わざ}→技：02172_waza⟧: combination technique/move\n\nSIMILAR WORDS:\n{合体|がったい} emphasizes physically joining into one body. ⟦{合併|がっぺい}→合併：04778_gappei⟧ is used for organizational mergers (companies, municipalities). ⟦{融合|ゆうごう}→融合：14036_yuugou⟧ means blending or fusing, often for abstract concepts or cultural mixing. ⟦{統合|とうごう}→統合：09615_tougou⟧ means integration or consolidation of systems or organizations.",
   "cross_references": [
     {
       "type": "synonym",
@@ -153,7 +153,7 @@
   ],
   "metadata": {
     "created": "2026-02-20T04:30:58Z",
-    "modified": "2026-04-26T04:23:53Z",
+    "modified": "2026-09-02T04:01:27Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -166,7 +166,8 @@
       "semantic": [
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "both"
     }
   }
 }

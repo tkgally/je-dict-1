@@ -15,39 +15,74 @@
   "examples": [
     {
       "id": "26432_keisokuki_ex1",
-      "japanese": "{計測器|けいそくき}の{精度|せいど}を{確認|かくにん}する。",
+      "japanese": "{計測器|けいそくき}⟦の→の：09472_no⟧⟦{精度|せいど}→精度：13787_seido⟧⟦を→を：00422_wo⟧⟦{確認|かくにん}する→確認する：25332_kakuninsuru⟧。",
       "english": "Check the accuracy of the measuring instrument.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26432_keisokuki_ex2",
-      "japanese": "この{計測器|けいそくき}は{温度|おんど}と{湿度|しつど}を{同時|どうじ}に{測|はか}れる。",
+      "japanese": "⟦この→この：00962_kono⟧{計測器|けいそくき}⟦は→は：00079_ha⟧⟦{温度|おんど}→温度：00333_ondo⟧⟦と→と：00512_to⟧⟦{湿度|しつど}→湿度：03181_shitsudo⟧⟦を→を：00422_wo⟧⟦{同時|どうじ}→同時：01592_douji⟧⟦に→に：00314_ni⟧⟦{測|はか}れる→測る：01977_hakaru⟧。",
       "english": "This measuring instrument can measure temperature and humidity simultaneously.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26432_keisokuki_ex3",
-      "japanese": "{新|あたら}しい{計測器|けいそくき}を{導入|どうにゅう}したことで、{検査|けんさ}{時間|じかん}が{大幅|おおはば}に{短縮|たんしゅく}された。",
+      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧{計測器|けいそくき}⟦を→を：00422_wo⟧⟦{導入|どうにゅう}した→導入する：16055_dounyuusuru⟧ことで、⟦{検査|けんさ}→検査：02707_kensa⟧⟦{時間|じかん}→時間：00468_jikan⟧⟦が→が：00051_ga⟧⟦{大幅|おおはば}→大幅：12170_oohaba⟧⟦に→に：00314_ni⟧⟦{短縮|たんしゅく}→短縮：13665_tanshuku⟧⟦された→する：00392_suru⟧。",
       "english": "By introducing new measuring instruments, inspection time was significantly reduced.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {計測|けいそく} (measurement) and {器|き} (instrument, device). Used broadly in scientific, industrial, and technical contexts.\n\nCOMMON COLLOCATIONS:\n- {計測器|けいそくき}の{精度|せいど}: accuracy of a measuring instrument\n- {計測器|けいそくき}を{校正|こうせい}する: to calibrate a measuring instrument\n- {計測器|けいそくき}メーカー: measuring instrument manufacturer\n- {電子|でんし}{計測器|けいそくき}: electronic measuring instrument\n\nSIMILAR WORDS:\n- {測定器|そくていき}: measuring device — largely synonymous but slightly more common in everyday technical use\n- {計器|けいき}: gauge, meter — typically refers to instruments built into equipment (dashboards, cockpits)\n- {センサー}: sensor — detects a specific physical quantity but may not display the reading directly",
-  "cross_references": [],
+  "notes": "A compound of ⟦{計測|けいそく}→計測：14189_keisoku⟧ (measurement) and {器|き} (instrument, device). Used broadly in scientific, industrial, and technical contexts.\n\nCOMMON COLLOCATIONS:\n- {計測器|けいそくき}⟦の→の：09472_no⟧⟦{精度|せいど}→精度：13787_seido⟧: accuracy of a measuring instrument\n- {計測器|けいそくき}⟦を→を：00422_wo⟧⟦{校正|こうせい}→校正：21081_kousei⟧⟦する→する：00392_suru⟧: to calibrate a measuring instrument\n- {計測器|けいそくき}⟦メーカー→メーカー：11158_meekaa⟧: measuring instrument manufacturer\n- ⟦{電子|でんし}→電子：03449_denshi⟧{計測器|けいそくき}: electronic measuring instrument\n\nSIMILAR WORDS:\n- ⟦{測定器|そくていき}→測定器：30039_sokuteiki⟧: measuring device — largely synonymous but slightly more common in everyday technical use\n- ⟦{計器|けいき}→計器：03946_keiki⟧: gauge, meter — typically refers to instruments built into equipment (dashboards, cockpits)\n- ⟦センサー→センサー：29781_sensaa⟧: sensor — detects a specific physical quantity but may not display the reading directly",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "30039_sokuteiki",
+      "reading": "そくていき",
+      "headword": "測定器",
+      "label": "measuring device"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03946_keiki",
+      "reading": "けいき",
+      "headword": "{計器|けいき}",
+      "label": "gauge, meter"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29781_sensaa",
+      "reading": "せんさー",
+      "headword": "センサー",
+      "label": "sensor"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["science", "technology"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "science",
+        "technology"
+      ]
     },
     "created": "2026-05-01T16:19:20Z",
-    "modified": "2026-06-15T07:57:27Z"
+    "modified": "2026-09-02T04:02:26Z"
   }
 }

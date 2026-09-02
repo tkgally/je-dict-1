@@ -34,7 +34,7 @@
     },
     {
       "id": "01676_tera_ex3",
-      "japanese": "⟦{京都|きょうと}→京都：09484_kyouto⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{古|ふる}い→古い：00488_furui⟧お{寺|てら}⟦が→が：00051_ga⟧⟦たくさん→たくさん：00597_takusan⟧⟦ある→ある：00006_aru⟧⟦ので→ので：09501_node⟧、⟦{観光客|かんこうきゃく}→観光客：03022_kankoukyaku⟧⟦に→に：00314_ni⟧⟦{人気|にんき}→人気：01488_ninki⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
+      "japanese": "⟦{京都|きょうと}→京都：09484_kyouto⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{古|ふる}い→古い：00488_furui⟧⟦お{寺|てら}→お寺：23515_otera⟧⟦が→が：00051_ga⟧⟦たくさん→たくさん：00597_takusan⟧⟦ある→ある：00006_aru⟧⟦ので→ので：09501_node⟧、⟦{観光客|かんこうきゃく}→観光客：03022_kankoukyaku⟧⟦に→に：00314_ni⟧⟦{人気|にんき}→人気：01488_ninki⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "Kyoto has many old temples, so it's popular with tourists.",
       "notes": null,
       "has_audio": false,
@@ -43,18 +43,32 @@
       ]
     }
   ],
-  "notes": "{寺|てら} (also お{寺|てら}) is a Buddhist temple, distinct from ⟦{神社|じんじゃ}→神社：01620_jinja⟧ (Shinto shrine).\n\nTEMPLE vs SHRINE:\n- {寺|てら}/⟦{寺院|じいん}→寺院：00122_jiin⟧: Buddhist temple\n- ⟦{神社|じんじゃ}→神社：01620_jinja⟧: Shinto shrine\n\nFAMOUS TEMPLES:\n- ⟦{金閣寺|きんかくじ}→金閣寺：noentry⟧: Kinkaku-ji (Golden Pavilion)\n- ⟦{清水寺|きよみずでら}→清水寺：noentry⟧: Kiyomizu-dera\n- ⟦{東大寺|とうだいじ}→東大寺：noentry⟧: Todai-ji\n- ⟦{浅草寺|せんそうじ}→浅草寺：noentry⟧: Senso-ji\n\nCOMMON COLLOCATIONS:\n- ⟦お→お：03097_o⟧{寺|てら}⟦に→に：00314_ni⟧⟦{参|まい}る→参る：01322_mairu⟧: to visit a temple\n- ⟦{寺院|じいん}→寺院：00122_jiin⟧: temple (formal)\n- 〜{寺|じ}/〜{寺|てら}: temple name suffix",
+  "notes": "{寺|てら} (also ⟦お{寺|てら}→お寺：23515_otera⟧) is a Buddhist temple, distinct from ⟦{神社|じんじゃ}→神社：01620_jinja⟧ (Shinto shrine).\n\nTEMPLE vs SHRINE:\n- {寺|てら}/⟦{寺院|じいん}→寺院：00122_jiin⟧: Buddhist temple\n- ⟦{神社|じんじゃ}→神社：01620_jinja⟧: Shinto shrine\n\nFAMOUS TEMPLES:\n- ⟦{金閣寺|きんかくじ}→金閣寺：noentry⟧: Kinkaku-ji (Golden Pavilion)\n- ⟦{清水寺|きよみずでら}→清水寺：noentry⟧: Kiyomizu-dera\n- ⟦{東大寺|とうだいじ}→東大寺：noentry⟧: Todai-ji\n- ⟦{浅草寺|せんそうじ}→浅草寺：noentry⟧: Senso-ji\n\nCOMMON COLLOCATIONS:\n- ⟦お→お：03097_o⟧{寺|てら}⟦に→に：00314_ni⟧⟦{参|まい}る→参る：01322_mairu⟧: to visit a temple\n- ⟦{寺院|じいん}→寺院：00122_jiin⟧: temple (formal)\n- 〜{寺|じ}/〜{寺|てら}: temple name suffix",
   "cross_references": [
     {
       "type": "see_also",
       "reading": "じんじゃ",
       "headword": "{神社|じんじゃ}",
       "target_id": "01620_jinja"
+    },
+    {
+      "type": "related",
+      "target_id": "09638_butsuzou",
+      "reading": "ぶつぞう",
+      "headword": "{仏像|ぶつぞう}",
+      "label": "Buddha statue"
+    },
+    {
+      "type": "related",
+      "target_id": "18822_shinden",
+      "reading": "しんでん",
+      "headword": "{神殿|しんでん}",
+      "label": "temple"
     }
   ],
   "metadata": {
     "created": "2026-01-09T12:36:46Z",
-    "modified": "2026-05-16T16:11:20Z",
+    "modified": "2026-09-02T04:01:00Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

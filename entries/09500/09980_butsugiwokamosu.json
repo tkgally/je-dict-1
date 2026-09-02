@@ -14,41 +14,66 @@
   "examples": [
     {
       "id": "09980_butsugiwokamosu_ex1",
-      "japanese": "その{発言|はつげん}は{物議|ぶつぎ}を{醸|かも}した。",
+      "japanese": "⟦その→その：00993_sono⟧⟦{発言|はつげん}→発言：05099_hatsugen⟧⟦は→は：00079_ha⟧{物議|ぶつぎ}を{醸|かも}した。",
       "english": "That statement caused controversy.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09980_butsugiwokamosu_ex2",
-      "japanese": "{政治家|せいじか}の{行動|こうどう}が{物議|ぶつぎ}を{醸|かも}している。",
+      "japanese": "⟦{政治家|せいじか}→政治家：03084_seijika⟧⟦の→の：09472_no⟧⟦{行動|こうどう}→行動：02728_koudou⟧⟦が→が：00051_ga⟧{物議|ぶつぎ}を{醸|かも}して⟦いる→いる：00495_iru⟧。",
       "english": "The politician's actions are stirring up debate.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09980_butsugiwokamosu_ex3",
-      "japanese": "あの{映画|えいが}は{公開|こうかい}{前|まえ}から{物議|ぶつぎ}を{醸|かも}し、{賛否両論|さんぴりょうろん}を{呼|よ}んだ。",
+      "japanese": "⟦あの→あの：00915_ano⟧⟦{映画|えいが}→映画：02273_eiga⟧⟦は→は：00079_ha⟧⟦{公開|こうかい}→公開：11665_koukai⟧⟦{前|まえ}→前：02255_mae⟧⟦から→から：00504_kara⟧{物議|ぶつぎ}を{醸|かも}し、{賛否両論|さんぴりょうろん}⟦を→を：00422_wo⟧⟦{呼|よ}んだ→呼ぶ：00766_yobu⟧。",
       "english": "That movie stirred up controversy even before its release and received mixed reactions.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{物議|ぶつぎ}を{醸|かも}す is a set expression meaning to provoke public debate.\n\nCOMPONENTS:\n- {物議|ぶつぎ}: public discussion, controversy\n- {醸|かも}す: to brew, to cause (figuratively)\n\nALTERNATIVE EXPRESSIONS:\n- {論争|ろんそう}を{引|ひ}き{起|お}こす: to cause a dispute\n- {議論|ぎろん}を{呼|よ}ぶ: to invite discussion\n- {波紋|はもん}を{広|ひろ}げる: to create ripples (figurative)\n\nREGISTER:\nThis expression is commonly used in news and formal writing.",
-  "cross_references": [],
+  "notes": "{物議|ぶつぎ}を{醸|かも}す is a set expression meaning to provoke public debate.\n\nETYMOLOGY:\n- {物議|ぶつぎ}: public discussion, controversy\n- ⟦{醸|かも}す→醸す：07570_kamosu⟧: to brew, to cause (figuratively)\n\nALTERNATIVE EXPRESSIONS:\n- ⟦{論争|ろんそう}→論争：03786_ronsou⟧⟦を→を：00422_wo⟧⟦{引|ひ}き{起|お}こす→引き起こす：06165_hikiokosu⟧: to cause a dispute\n- ⟦{議論|ぎろん}を{呼|よ}ぶ→議論を呼ぶ：21672_gironwoyobu⟧: to invite discussion\n- ⟦{波紋|はもん}→波紋：10553_hamon⟧⟦を→を：00422_wo⟧⟦{広|ひろ}げる→広げる：01981_hirogeru⟧: to create ripples (figurative)\n\nREGISTER:\nThis expression is commonly used in news and formal writing.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21672_gironwoyobu",
+      "reading": "ぎろんをよぶ",
+      "headword": "{議論|ぎろん}を{呼|よ}ぶ",
+      "label": "to invite discussion"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15689_souzen",
+      "reading": "そうぜん",
+      "headword": "{騒然|そうぜん}",
+      "label": "noisy"
+    }
+  ],
   "metadata": {
     "created": "2026-02-04T12:06:54Z",
-    "modified": "2026-02-04T12:06:54Z",
+    "modified": "2026-09-02T04:01:19Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["expression"],
+      "pos": [
+        "expression"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["communication"]
+      "semantic": [
+        "communication"
+      ]
     }
   }
 }

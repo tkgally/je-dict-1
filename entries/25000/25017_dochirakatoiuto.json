@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25017_dochirakatoiuto_ex1",
-      "japanese": "どちらかというと{犬|いぬ}が{好|す}き。",
+      "japanese": "どちらかというと⟦{犬|いぬ}→犬：00632_inu⟧⟦が→が：00051_ga⟧⟦{好|す}き→好き：02355_suki⟧。",
       "english": "If anything, I prefer dogs.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25017_dochirakatoiuto_ex2",
-      "japanese": "{私|わたし}はどちらかというと{朝型|あさがた}の{人間|にんげん}です。",
+      "japanese": "⟦{私|わたし}→私：02988_watashi⟧⟦は→は：00079_ha⟧どちらかというと⟦{朝型|あさがた}→朝型：16867_asagata⟧⟦の→の：09472_no⟧⟦{人間|にんげん}→人間：03523_ningen⟧です。",
       "english": "I'm more of a morning person, if I had to say.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25017_dochirakatoiuto_ex3",
-      "japanese": "どちらかというと{甘|あま}いものより{辛|から}いもののほうが{好|す}きです。",
+      "japanese": "どちらかというと⟦{甘|あま}い→甘い：00617_amai⟧もの⟦より→より：09476_yori⟧⟦{辛|から}い→辛い：00638_karai⟧もの⟦の→の：09472_no⟧ほう⟦が→が：00051_ga⟧⟦{好|す}き→好き：02355_suki⟧です。",
       "english": "If anything, I prefer spicy food over sweet food.",
       "sense_numbers": [
         1
@@ -45,7 +45,7 @@
     },
     {
       "id": "25017_dochirakatoiuto_ex4",
-      "japanese": "{彼|かれ}はどちらかというと{静|しず}かな{性格|せいかく}だと{思|おも}う。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧どちらかというと⟦{静|しず}か→静か：00755_shizuka⟧な⟦{性格|せいかく}→性格：03371_seikaku⟧だ⟦と→と：00512_to⟧⟦{思|おも}う→思う：00492_omou⟧。",
       "english": "I'd say he has a rather quiet personality.",
       "sense_numbers": [
         1
@@ -54,20 +54,44 @@
       "notes": null
     }
   ],
-  "notes": "A hedging expression used to soften a preference or opinion. The speaker acknowledges that neither choice is overwhelmingly favored but leans slightly toward one. Literally broken down: どちらか (one of the two) + というと (if you were to say). It typically appears at the beginning of a sentence or clause.\n\nUSAGE:\nOften followed by a comparative structure using ほう or より. Can stand alone as a modifier before the preferred option. Very common in polite conversation when the speaker wants to avoid sounding too decisive.\n\nSIMILAR WORDS:\n- どちらかといえば: if I had to choose — nearly identical in meaning, slightly more formal\n- むしろ: rather — expresses a stronger, more definite preference\n- {割|わり}と: relatively; rather — indicates degree without implying a comparison between two options\n- {強|し}いて{言|い}えば: if forced to say — stronger hedging, implies reluctance to state an opinion",
+  "notes": "A hedging expression used to soften a preference or opinion. The speaker acknowledges that neither choice is overwhelmingly favored but leans slightly toward one. Literally broken down: ⟦どちらか→どちらか：28669_dochiraka⟧ (one of the two) + ⟦という→という：09577_toiu⟧⟦と→と：00512_to⟧ (if you were to say). It typically appears at the beginning of a sentence or clause.\n\nUSAGE:\nOften followed by a comparative structure using ほう or より. Can stand alone as a modifier before the preferred option. Very common in polite conversation when the speaker wants to avoid sounding too decisive.\n\nSIMILAR WORDS:\n- ⟦どちらかといえば→どちらかといえば：22261_dochirakatoieba⟧: if I had to choose — nearly identical in meaning, slightly more formal\n- ⟦むしろ→むしろ：02364_mushiro⟧: rather — expresses a stronger, more definite preference\n- ⟦{割|わり}と→割と：00420_warito⟧: relatively; rather — indicates degree without implying a comparison between two options\n- {強|し}いて⟦{言|い}えば→言う：00515_iu⟧: if forced to say — stronger hedging, implies reluctance to state an opinion",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22261_dochirakatoieba",
+      "reading": "どちらかといえば",
+      "headword": "どちらかといえば",
+      "label": "if I had to choose"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02364_mushiro",
+      "reading": "むしろ",
+      "headword": "むしろ",
+      "label": "rather"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00420_warito",
+      "reading": "わりと",
+      "headword": "{割|わり}と",
+      "label": "relatively"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "expression"
       ],
+      "politeness": "plain",
       "semantic": [
         "communication",
         "evaluation"
       ]
     },
     "created": "2026-04-22T11:21:27Z",
-    "modified": "2026-08-03T09:22:27Z"
+    "modified": "2026-09-02T04:02:20Z"
   }
 }

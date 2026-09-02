@@ -15,40 +15,59 @@
   "examples": [
     {
       "id": "27098_tankidaigaku_ex1",
-      "japanese": "{短期大学|たんきだいがく}を{卒業|そつぎょう}した。",
+      "japanese": "{短期大学|たんきだいがく}⟦を→を：00422_wo⟧⟦{卒業|そつぎょう}→卒業：01643_sotsugyou⟧⟦した→する：00392_suru⟧。",
       "english": "I graduated from a junior college.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27098_tankidaigaku_ex2",
-      "japanese": "{姉|あね}は{短期大学|たんきだいがく}で{栄養学|えいようがく}を{学|まな}んだ。",
+      "japanese": "⟦{姉|あね}→姉：00571_ane⟧⟦は→は：00079_ha⟧{短期大学|たんきだいがく}⟦で→で：00502_de⟧⟦{栄養学|えいようがく}→栄養学：27880_eiyougaku⟧⟦を→を：00422_wo⟧⟦{学|まな}んだ→学ぶ：01987_manabu⟧。",
       "english": "My older sister studied nutrition at a junior college.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27098_tankidaigaku_ex3",
-      "japanese": "{近年|きんねん}、{短期大学|たんきだいがく}の{数|かず}は{減少|げんしょう}し、{四年制大学|よねんせいだいがく}への{転換|てんかん}が{進|すす}んでいる。",
+      "japanese": "⟦{近年|きんねん}→近年：14349_kinnen⟧、{短期大学|たんきだいがく}⟦の→の：09472_no⟧⟦{数|かず}→数：00204_kazu⟧⟦は→は：00079_ha⟧⟦{減少|げんしょう}→減少：02719_genshou⟧し、{四年制大学|よねんせいだいがく}⟦へ→へ：02473_he⟧⟦の→の：09472_no⟧⟦{転換|てんかん}→転換：19439_tenkan⟧⟦が→が：00051_ga⟧⟦{進|すす}んでいる→進む：01225_susumu⟧。",
       "english": "In recent years, the number of junior colleges has been declining as many convert to four-year universities.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "The formal name for a Japanese junior college. Almost always abbreviated as {短大|たんだい} in everyday conversation. Typically two-year programs (some are three years), offering associate degrees.\n\nABBREVIATION:\n{短大|たんだい} is the standard abbreviation used in everyday speech and writing. The full form {短期大学|たんきだいがく} appears mainly in official documents and formal contexts.\n\nCOMMON COLLOCATIONS:\n- {短期大学|たんきだいがく}に{通|かよ}う: to attend a junior college\n- {短期大学|たんきだいがく}を{卒業|そつぎょう}する: to graduate from a junior college\n- {短期大学|たんきだいがく}{卒|そつ}: junior college graduate\n- {短期大学|たんきだいがく}{士|し}: associate degree\n\nCULTURAL CONTEXT:\nJapanese junior colleges have traditionally been associated with women's education, offering programs in fields like nutrition, early childhood education, and secretarial studies. Their numbers have been declining since the 1990s as more women attend four-year universities and many {短大|たんだい} have converted to full universities.\n\nSIMILAR WORDS:\n- {大学|だいがく}: university — the standard four-year institution\n- {専門学校|せんもんがっこう}: vocational school — focuses on practical skills training rather than academic study\n- {高等専門学校|こうとうせんもんがっこう} ({高専|こうせん}): technical college — a five-year institution combining high school and college-level technical education",
+  "notes": "The formal name for a Japanese junior college. Almost always abbreviated as ⟦{短大|たんだい}→短大：28812_tandai⟧ in everyday conversation. Typically two-year programs (some are three years), offering associate degrees.\n\nFORMS:\n⟦{短大|たんだい}→短大：28812_tandai⟧ is the standard abbreviation used in everyday speech and writing. The full form {短期大学|たんきだいがく} appears mainly in official documents and formal contexts.\n\nCOMMON COLLOCATIONS:\n- {短期大学|たんきだいがく}⟦に→に：00314_ni⟧⟦{通|かよ}う→通う：01217_kayou⟧: to attend a junior college\n- {短期大学|たんきだいがく}⟦を→を：00422_wo⟧⟦{卒業|そつぎょう}→卒業：01643_sotsugyou⟧⟦する→する：00392_suru⟧: to graduate from a junior college\n- {短期大学|たんきだいがく}{卒|そつ}: junior college graduate\n- {短期大学|たんきだいがく}⟦{士|し}→〜士：28352_shi⟧: associate degree\n\nCULTURAL NOTE:\nJapanese junior colleges have traditionally been associated with women's education, offering programs in fields like nutrition, early childhood education, and secretarial studies. Their numbers have been declining since the 1990s as more women attend four-year universities and many ⟦{短大|たんだい}→短大：28812_tandai⟧ have converted to full universities.\n\nSIMILAR WORDS:\n- ⟦{大学|だいがく}→大学：00608_daigaku⟧: university — the standard four-year institution\n- ⟦{専門学校|せんもんがっこう}→専門学校：04859_senmongakkou⟧: vocational school — focuses on practical skills training rather than academic study\n- {高等専門学校|こうとうせんもんがっこう} ({高専|こうせん}): technical college — a five-year institution combining high school and college-level technical education",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04859_senmongakkou",
+      "reading": "せんもんがっこう",
+      "headword": "{専門学校|せんもんがっこう}",
+      "label": "vocational school"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["education"]
+      "semantic": [
+        "education"
+      ]
     },
     "created": "2026-05-07T11:15:55Z",
-    "modified": "2026-05-07T11:15:55Z"
+    "modified": "2026-09-02T04:02:29Z"
   }
 }

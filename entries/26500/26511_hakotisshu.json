@@ -15,42 +15,67 @@
   "examples": [
     {
       "id": "26511_hakotisshu_ex1",
-      "japanese": "{箱|はこ}ティッシュが{切|き}れた。",
+      "japanese": "{箱|はこ}ティッシュ⟦が→が：00051_ga⟧⟦{切|き}れた→切れる：01936_kireru⟧。",
       "english": "We ran out of box tissues.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26511_hakotisshu_ex2",
-      "japanese": "{花粉|かふん}の{季節|きせつ}は{箱|はこ}ティッシュの{消費|しょうひ}が{増|ふ}える。",
+      "japanese": "⟦{花粉|かふん}→花粉：04372_kafun⟧⟦の→の：09472_no⟧⟦{季節|きせつ}→季節：01304_kisetsu⟧⟦は→は：00079_ha⟧{箱|はこ}ティッシュ⟦の→の：09472_no⟧⟦{消費|しょうひ}→消費：03240_shouhi⟧⟦が→が：00051_ga⟧⟦{増|ふ}える→増える：01183_fueru⟧。",
       "english": "Tissue box consumption increases during pollen season.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26511_hakotisshu_ex3",
-      "japanese": "ドラッグストアで{五箱|ごはこ}パックの{箱|はこ}ティッシュを{安売|やすう}りしていたので、まとめ{買|が}いした。",
+      "japanese": "⟦ドラッグストア→ドラッグストア：09710_doraggusutoa⟧⟦で→で：00502_de⟧{五箱|ごはこ}⟦パック→パック：11002_pakku⟧⟦の→の：09472_no⟧{箱|はこ}ティッシュ⟦を→を：00422_wo⟧⟦{安売|やすう}り→安売り：07779_yasuuri⟧⟦していた→する：00392_suru⟧⟦の→の：09472_no⟧で、⟦まとめ{買|が}い→まとめ買い：08046_matomegai⟧⟦した→する：00392_suru⟧。",
       "english": "The drugstore had five-box packs of tissues on sale, so I bought in bulk.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {箱|はこ} (box) and ティッシュ (tissue, from English). In Japan, box tissues are typically sold in multi-packs of five and are a staple household purchase. Distinguished from ポケットティッシュ (pocket tissues), which are commonly handed out for free on streets as advertising.\n\nCOMMON COLLOCATIONS:\n- {箱|はこ}ティッシュ{五箱|ごはこ}パック: five-box tissue pack\n- {箱|はこ}ティッシュカバー: tissue box cover\n- {箱|はこ}ティッシュを{買|か}う: to buy box tissues\n\nRELATED TERMS:\n- ポケットティッシュ: pocket tissues — small packs given out free in Japan as advertising\n- ティッシュペーパー: tissue paper — the generic term for facial tissue\n- ウェットティッシュ: wet tissues / wet wipes",
-  "cross_references": [],
+  "notes": "A compound of ⟦{箱|はこ}→箱：02162_hako⟧ (box) and ⟦ティッシュ→ティッシュ：08816_tisshu⟧ (tissue, from English). In Japan, box tissues are typically sold in multi-packs of five and are a staple household purchase. Distinguished from ⟦ポケット→ポケット：02964_poketto⟧⟦ティッシュ→ティッシュ：08816_tisshu⟧ (pocket tissues), which are commonly handed out for free on streets as advertising.\n\nCOMMON COLLOCATIONS:\n- {箱|はこ}ティッシュ{五箱|ごはこ}⟦パック→パック：11002_pakku⟧: five-box tissue pack\n- {箱|はこ}ティッシュ⟦カバー→カバー：07812_kabaa⟧: tissue box cover\n- {箱|はこ}ティッシュ⟦を→を：00422_wo⟧⟦{買|か}う→買う：00489_kau⟧: to buy box tissues\n\nRELATED WORDS:\n- ⟦ポケット→ポケット：02964_poketto⟧⟦ティッシュ→ティッシュ：08816_tisshu⟧: pocket tissues — small packs given out free in Japan as advertising\n- ⟦ティッシュペーパー→ティッシュペーパー：23909_tisshupeepaa⟧: tissue paper — the generic term for facial tissue\n- ⟦ウェットティッシュ→ウェットティッシュ：25028_wettotisshu⟧: wet tissues / wet wipes",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "23909_tisshupeepaa",
+      "reading": "てぃっしゅぺーぱー",
+      "headword": "ティッシュペーパー",
+      "label": "tissue paper"
+    },
+    {
+      "type": "related",
+      "target_id": "25028_wettotisshu",
+      "reading": "うぇっとてぃっしゅ",
+      "headword": "ウェットティッシュ",
+      "label": "wet tissues / wet wipes"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
+      "semantic": [
+        "general"
+      ],
       "domain": []
     },
     "created": "2026-05-02T13:36:05Z",
-    "modified": "2026-05-02T13:36:05Z"
+    "modified": "2026-09-02T04:02:26Z"
   }
 }

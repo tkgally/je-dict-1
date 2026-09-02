@@ -14,40 +14,58 @@
   "examples": [
     {
       "id": "10294_kidokusuruu_ex1",
-      "japanese": "{既読|きどく}スルーされた。",
+      "japanese": "{既読|きどく}スルー⟦された→する：00392_suru⟧。",
       "english": "I was left on read.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10294_kidokusuruu_ex2",
-      "japanese": "{既読|きどく}スルーしないでよ。",
+      "japanese": "{既読|きどく}スルー⟦しないで→する：00392_suru⟧⟦よ→よ：09475_yo⟧。",
       "english": "Don't leave me on read.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10294_kidokusuruu_ex3",
-      "japanese": "{忙|いそが}しいだけかもしれないけど、{既読|きどく}スルーが{続|つづ}くと{不安|ふあん}になる。",
+      "japanese": "⟦{忙|いそが}しい→忙しい：00591_isogashii⟧⟦だけ→〜だけ：03093_dake⟧⟦かもしれない→かもしれない：00164_kamoshirenai⟧⟦けど→けど：09477_kedo⟧、{既読|きどく}スルー⟦が→が：00051_ga⟧⟦{続|つづ}く→続く：00903_tsuzuku⟧⟦と→と：00512_to⟧⟦{不安|ふあん}→不安：00836_fuan⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧。",
       "english": "They might just be busy, but if the read-ignoring continues, it makes me anxious.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "COMPONENTS: {既読|きどく} (already read) + スルー (through, from English \"through\" meaning to ignore/let pass).\n\nOriginated with the LINE messaging app, which shows {既読|きどく} next to messages that have been read. Used with する: {既読|きどく}スルーする.\n\nRELATED TERMS:\n- {未読|みどく}スルー — ignoring a message without even reading it\n- {既読|きどく}がつく — to get a read receipt\n- スルーする — to ignore, to let something pass\n\nThis phenomenon has become a significant source of social anxiety, especially among younger people, as it implies the recipient saw the message but deliberately chose not to respond.",
-  "cross_references": [],
+  "notes": "COMPONENTS: ⟦{既読|きどく}→既読：06483_kidoku⟧ (already read) + ⟦スルー→スルー：11575_suruu⟧ (through, from English \"through\" meaning to ignore/let pass).\n\nOriginated with the LINE messaging app, which shows ⟦{既読|きどく}→既読：06483_kidoku⟧ next to messages that have been read. Used with ⟦する→する：00392_suru⟧: {既読|きどく}スルー⟦する→する：00392_suru⟧.\n\nRELATED WORDS:\n- ⟦{未読|みどく}→未読：07733_midoku⟧⟦スルー→スルー：11575_suruu⟧ — ignoring a message without even reading it\n- ⟦{既読|きどく}→既読：06483_kidoku⟧⟦が→が：00051_ga⟧つく — to get a read receipt\n- ⟦スルー→スルー：11575_suruu⟧⟦する→する：00392_suru⟧ — to ignore, to let something pass\n\nThis phenomenon has become a significant source of social anxiety, especially among younger people, as it implies the recipient saw the message but deliberately chose not to respond.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20871_muoutou",
+      "reading": "むおうとう",
+      "headword": "{無応答|むおうとう}",
+      "label": "no response, no reply, unresponsive"
+    }
+  ],
   "metadata": {
     "created": "2026-02-05T18:12:52Z",
-    "modified": "2026-02-05T18:12:52Z",
+    "modified": "2026-09-02T04:01:20Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "informal",
       "politeness": "plain",
-      "semantic": ["technology"]
+      "semantic": [
+        "technology"
+      ]
     }
   }
 }

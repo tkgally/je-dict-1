@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "17083_shigaichi_ex1",
-      "japanese": "{市街地|しがいち}は{交通量|こうつうりょう}が{多|おお}い。",
+      "japanese": "{市街地|しがいち}⟦は→は：00079_ha⟧⟦{交通量|こうつうりょう}→交通量：17876_koutsuuryou⟧⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "There is heavy traffic in the urban area.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17083_shigaichi_ex2",
-      "japanese": "{市街地|しがいち}から{少|すこ}し{離|はな}れた{場所|ばしょ}に{住|す}んでいる。",
+      "japanese": "{市街地|しがいち}⟦から→から：00504_kara⟧⟦{少|すこ}し→少し：00596_sukoshi⟧⟦{離|はな}れた→離れる：02397_hanareru⟧⟦{場所|ばしょ}→場所：00829_basho⟧⟦に→に：00314_ni⟧⟦{住|す}んでいる→住む：00673_sumu⟧。",
       "english": "I live a little away from the city center.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17083_shigaichi_ex3",
-      "japanese": "{市街地|しがいち}の{再開発|さいかいはつ}によって、{古|ふる}い{商店街|しょうてんがい}が{姿|すがた}を{消|け}しつつある。",
+      "japanese": "{市街地|しがいち}⟦の→の：09472_no⟧⟦{再開発|さいかいはつ}→再開発：17066_saikaihatsu⟧⟦によって→によって：06801_niyotte⟧、⟦{古|ふる}い→古い：00488_furui⟧⟦{商店街|しょうてんがい}→商店街：09391_shoutengai⟧⟦が→が：00051_ga⟧⟦{姿|すがた}→姿：03363_sugata⟧⟦を→を：00422_wo⟧⟦{消|け}し→消す：00528_kesu⟧つつ⟦ある→ある：00006_aru⟧。",
       "english": "Due to urban redevelopment, old shopping streets are gradually disappearing.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nCommon in urban planning, real estate, and news contexts. Also used in speed limit signs: {市街地|しがいち}では{時速|じそく}40km.\n\nCOMMON COLLOCATIONS:\n- {市街地|しがいち}{中心部|ちゅうしんぶ} (city center)\n- {市街地|しがいち}の{開発|かいはつ} (urban development)\n- {市街地|しがいち}{走行|そうこう} (driving in urban areas)\n\nSIMILAR WORDS:\n- {繁華街|はんかがい}: entertainment district — specifically the lively shopping and entertainment area\n- {都心|としん}: city center — the very center or core of a large city\n- {郊外|こうがい}: suburbs — the areas surrounding the urban center",
+  "notes": "USAGE:\nCommon in urban planning, real estate, and news contexts. Also used in speed limit signs: {市街地|しがいち}⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{時速|じそく}→時速：00128_jisoku⟧40km.\n\nCOMMON COLLOCATIONS:\n- {市街地|しがいち}⟦{中心部|ちゅうしんぶ}→中心部：23774_chuushinbu⟧ (city center)\n- {市街地|しがいち}⟦の→の：09472_no⟧⟦{開発|かいはつ}→開発：06746_kaihatsu⟧ (urban development)\n- {市街地|しがいち}⟦{走行|そうこう}→走行：14260_soukou⟧ (driving in urban areas)\n\nSIMILAR WORDS:\n- ⟦{繁華街|はんかがい}→繁華街：09392_hankagai⟧: entertainment district — specifically the lively shopping and entertainment area\n- ⟦{都心|としん}→都心：04072_toshin⟧: city center — the very center or core of a large city\n- ⟦{郊外|こうがい}→郊外：01403_kougai⟧: suburbs — the areas surrounding the urban center",
   "cross_references": [
     {
       "type": "contrast",
@@ -53,18 +59,44 @@
       "reading": "はんかがい",
       "headword": "{繁華街|はんかがい}",
       "label": "entertainment district"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04072_toshin",
+      "reading": "としん",
+      "headword": "{都心|としん}",
+      "label": "city center"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21534_chuushingai",
+      "reading": "ちゅうしんがい",
+      "headword": "{中心街|ちゅうしんがい}",
+      "label": "city center"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25732_misshuuchi",
+      "reading": "みっしゅうち",
+      "headword": "{密集地|みっしゅうち}",
+      "label": "densely populated area"
     }
   ],
   "metadata": {
     "created": "2026-03-15T09:53:49Z",
-    "modified": "2026-05-05T08:12:51Z",
+    "modified": "2026-09-02T04:01:47Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["geography", "building"]
+      "semantic": [
+        "geography",
+        "building"
+      ]
     }
   }
 }

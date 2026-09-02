@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "13360_metsubou_ex1",
-      "japanese": "ローマ{帝国|ていこく}は{滅亡|めつぼう}した。",
+      "japanese": "ローマ⟦{帝国|ていこく}→帝国：12420_teikoku⟧⟦は→は：00079_ha⟧{滅亡|めつぼう}⟦した→する：00392_suru⟧。",
       "english": "The Roman Empire fell.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "13360_metsubou_ex2",
-      "japanese": "{文明|ぶんめい}の{滅亡|めつぼう}を{描|えが}いた{映画|えいが}だ。",
+      "japanese": "⟦{文明|ぶんめい}→文明：03611_bunmei⟧⟦の→の：09472_no⟧{滅亡|めつぼう}⟦を→を：00422_wo⟧⟦{描|えが}いた→描く：02013_egaku⟧⟦{映画|えいが}→映画：02273_eiga⟧だ。",
       "english": "It's a film depicting the destruction of civilization.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "13360_metsubou_ex3",
-      "japanese": "{内部|ないぶ}の{争|あらそ}いが{国|くに}を{滅亡|めつぼう}に{導|みちび}いた。",
+      "japanese": "⟦{内部|ないぶ}→内部：05583_naibu⟧⟦の→の：09472_no⟧⟦{争|あらそ}い→争い：09992_arasoi⟧⟦が→が：00051_ga⟧⟦{国|くに}→国：02204_kuni⟧⟦を→を：00422_wo⟧{滅亡|めつぼう}⟦に→に：00314_ni⟧⟦{導|みちび}いた→導く：12361_michibiku⟧。",
       "english": "Internal conflicts led the country to ruin.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA dramatic, weighty word used for the permanent end of something large — nations, empires, civilizations, or species. Not used for small-scale failures or temporary setbacks.\n\nVery common in history writing (the fall of the Tokugawa shogunate, the collapse of ancient civilizations) and in science fiction or fantasy (the destruction of the world).\n\nSIMILAR WORDS:\n- {崩壊|ほうかい}: collapse, disintegration (can be partial or recoverable)\n- {消滅|しょうめつ}: extinction, annihilation (ceasing to exist)\n- {衰退|すいたい}: decline, decay (gradual weakening, not yet destroyed)\n\nCOMMON COLLOCATIONS:\n- {国|くに}の{滅亡|めつぼう}: the fall of a nation\n- {滅亡|めつぼう}に{導|みちび}く: to lead to ruin\n- {滅亡|めつぼう}の{危機|きき}: crisis of destruction\n- {人類|じんるい}の{滅亡|めつぼう}: the extinction of humanity",
+  "notes": "USAGE:\nA dramatic, weighty word used for the permanent end of something large — nations, empires, civilizations, or species. Not used for small-scale failures or temporary setbacks.\n\nVery common in history writing (the fall of the Tokugawa shogunate, the collapse of ancient civilizations) and in science fiction or fantasy (the destruction of the world).\n\nSIMILAR WORDS:\n- ⟦{崩壊|ほうかい}→崩壊：09067_houkai⟧: collapse, disintegration (can be partial or recoverable)\n- ⟦{消滅|しょうめつ}→消滅：13331_shoumetsu⟧: extinction, annihilation (ceasing to exist)\n- ⟦{衰退|すいたい}→衰退：07428_suitai⟧: decline, decay (gradual weakening, not yet destroyed)\n\nCOMMON COLLOCATIONS:\n- ⟦{国|くに}→国：02204_kuni⟧⟦の→の：09472_no⟧{滅亡|めつぼう}: the fall of a nation\n- {滅亡|めつぼう}⟦に→に：00314_ni⟧⟦{導|みちび}く→導く：12361_michibiku⟧: to lead to ruin\n- {滅亡|めつぼう}⟦の→の：09472_no⟧⟦{危機|きき}→危機：11798_kiki⟧: crisis of destruction\n- ⟦{人類|じんるい}→人類：01578_jinrui⟧⟦の→の：09472_no⟧{滅亡|めつぼう}: the extinction of humanity",
   "cross_references": [
     {
       "type": "related",
@@ -149,11 +149,32 @@
       "headword": "{消滅|しょうめつ}",
       "label": "extinction, annihilation",
       "target_id": "13331_shoumetsu"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09067_houkai",
+      "reading": "ほうかい",
+      "headword": "{崩壊|ほうかい}",
+      "label": "collapse, disintegration"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07428_suitai",
+      "reading": "すいたい",
+      "headword": "{衰退|すいたい}",
+      "label": "decline, decay"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20008_hametsu",
+      "reading": "はめつ",
+      "headword": "{破滅|はめつ}",
+      "label": "ruin"
     }
   ],
   "metadata": {
     "created": "2026-02-24T10:36:33Z",
-    "modified": "2026-04-28T09:07:58Z",
+    "modified": "2026-09-02T04:01:32Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -166,7 +187,8 @@
       "semantic": [
         "existence"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22861_jippu_ex1",
-      "japanese": "{実父|じっぷ}に{会|あ}いたい。",
+      "japanese": "{実父|じっぷ}⟦に→に：00314_ni⟧⟦{会|あ}いたい→会う：00482_au⟧。",
       "english": "I want to meet my biological father.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22861_jippu_ex2",
-      "japanese": "{彼女|かのじょ}は{実父|じっぷ}の{顔|かお}を{知|し}らない。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧{実父|じっぷ}⟦の→の：09472_no⟧⟦{顔|かお}→顔：00558_kao⟧⟦を→を：00422_wo⟧⟦{知|し}らない→知る：00458_shiru⟧。",
       "english": "She doesn't know her birth father's face.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22861_jippu_ex3",
-      "japanese": "{書類|しょるい}には{実父|じっぷ}の{名前|なまえ}を{記入|きにゅう}してください。",
+      "japanese": "⟦{書類|しょるい}→書類：01103_shorui⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{実父|じっぷ}⟦の→の：09472_no⟧⟦{名前|なまえ}→名前：02234_namae⟧⟦を→を：00422_wo⟧⟦{記入|きにゅう}→記入：02624_kinyuu⟧⟦して→する：00392_suru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please enter your biological father's name on the form.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "A formal term used to distinguish a biological father from a stepfather ({義父|ぎふ}/{継父|けいふ}) or adoptive father ({養父|ようふ}). Common in legal documents, family registers, and discussions of family structure.\n\nRELATED TERMS:\n- {実母|じつぼ}: biological mother\n- {義父|ぎふ}: father-in-law; stepfather\n- {養父|ようふ}: adoptive father\n- {継父|けいふ}: stepfather\n\nREGISTER:\nThis is a formal, somewhat literary word. In casual speech, people are more likely to say {本当|ほんとう}の{父|ちち} or {産|う}みの{親|おや} to mean \"real father\" or \"birth parent.\"",
+  "notes": "A formal term used to distinguish a biological father from a stepfather (⟦{義父|ぎふ}→義父：06725_gifu⟧/{継父|けいふ}) or adoptive father (⟦{養父|ようふ}→養父：17834_youfu⟧). Common in legal documents, family registers, and discussions of family structure.\n\nRELATED WORDS:\n- {実母|じつぼ}: biological mother\n- ⟦{義父|ぎふ}→義父：06725_gifu⟧: father-in-law; stepfather\n- ⟦{養父|ようふ}→養父：17834_youfu⟧: adoptive father\n- {継父|けいふ}: stepfather\n\nREGISTER:\nThis is a formal, somewhat literary word. In casual speech, people are more likely to say ⟦{本当|ほんとう}→本当：00779_hontou⟧⟦の→の：09472_no⟧⟦{父|ちち}→父：00566_chichi⟧ or {産|う}みの{親|おや} to mean \"real father\" or \"birth parent.\"",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -59,7 +59,7 @@
       ]
     },
     "created": "2026-04-07T19:16:05Z",
-    "modified": "2026-05-07T08:09:41Z"
+    "modified": "2026-09-02T04:02:10Z"
   },
   "cross_references": [
     {
@@ -68,6 +68,27 @@
       "reading": "ようふ",
       "headword": "{養父|ようふ}",
       "label": "adoptive father"
+    },
+    {
+      "type": "related",
+      "target_id": "06725_gifu",
+      "reading": "ぎふ",
+      "headword": "{義父|ぎふ}",
+      "label": "father-in-law"
+    },
+    {
+      "type": "related",
+      "target_id": "20982_mamachichi",
+      "reading": "ままちち",
+      "headword": "{継父|ままちち}",
+      "label": "stepfather"
+    },
+    {
+      "type": "related",
+      "target_id": "21105_youbo",
+      "reading": "ようぼ",
+      "headword": "{養母|ようぼ}",
+      "label": "adoptive mother"
     }
   ]
 }

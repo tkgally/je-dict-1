@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25762_ryokoukyaku_ex1",
-      "japanese": "{旅行客|りょこうきゃく}で{賑|にぎ}わっている。",
+      "japanese": "{旅行客|りょこうきゃく}⟦で→で：00502_de⟧⟦{賑|にぎ}わっている→賑わう：14235_nigiwau⟧。",
       "english": "It's bustling with travelers.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25762_ryokoukyaku_ex2",
-      "japanese": "{外国人|がいこくじん}{旅行客|りょこうきゃく}が{年々|ねんねん}{増|ふ}えている。",
+      "japanese": "⟦{外国人|がいこくじん}→外国人：02869_gaikokujin⟧{旅行客|りょこうきゃく}⟦が→が：00051_ga⟧⟦{年々|ねんねん}→年々：10417_nennen⟧⟦{増|ふ}えている→増える：01183_fueru⟧。",
       "english": "The number of foreign tourists is increasing year by year.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25762_ryokoukyaku_ex3",
-      "japanese": "{京都|きょうと}は{春|はる}になると{旅行客|りょこうきゃく}が{桜|さくら}を{目当|めあ}てに{大勢|おおぜい}{訪|おとず}れる。",
+      "japanese": "⟦{京都|きょうと}→京都：09484_kyouto⟧⟦は→は：00079_ha⟧⟦{春|はる}→春：00627_haru⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦と→と：00512_to⟧{旅行客|りょこうきゃく}⟦が→が：00051_ga⟧⟦{桜|さくら}→桜：02212_sakura⟧⟦を→を：00422_wo⟧⟦{目当|めあ}て→目当て：13648_meate⟧⟦に→に：00314_ni⟧⟦{大勢|おおぜい}→大勢：02850_oozei⟧⟦{訪|おとず}れる→訪れる：07678_otozureru⟧。",
       "english": "In spring, many travelers visit Kyoto to see the cherry blossoms.",
       "sense_numbers": [
         1
@@ -44,8 +44,30 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {旅行|りょこう} (travel) and {客|きゃく} (customer/guest). Views the traveler from the perspective of the tourism or hospitality industry — as a customer or visitor.\n\nCOMMON COLLOCATIONS:\n- {外国人|がいこくじん}{旅行客|りょこうきゃく}: foreign tourist\n- {旅行客|りょこうきゃく}が{増|ふ}える: tourists increase\n- {旅行客|りょこうきゃく}を{呼|よ}び{込|こ}む: to attract tourists\n- {旅行客|りょこうきゃく}で{賑|にぎ}わう: to be bustling with travelers\n\nSIMILAR WORDS:\n- {観光客|かんこうきゃく}: sightseer; tourist — focuses on sightseeing specifically; the most common word for tourist\n- {旅行者|りょこうしゃ}: traveler — more neutral; does not carry the \"customer\" nuance of {客|きゃく}\n- {旅人|たびびと}: traveler — literary or poetic; evokes a wanderer or journeyer",
-  "cross_references": [],
+  "notes": "A compound of ⟦{旅行|りょこう}→旅行：00748_ryokou⟧ (travel) and ⟦{客|きゃく}→客：00865_kyaku⟧ (customer/guest). Views the traveler from the perspective of the tourism or hospitality industry — as a customer or visitor.\n\nCOMMON COLLOCATIONS:\n- ⟦{外国人|がいこくじん}→外国人：02869_gaikokujin⟧{旅行客|りょこうきゃく}: foreign tourist\n- {旅行客|りょこうきゃく}⟦が→が：00051_ga⟧⟦{増|ふ}える→増える：01183_fueru⟧: tourists increase\n- {旅行客|りょこうきゃく}⟦を→を：00422_wo⟧⟦{呼|よ}び{込|こ}む→呼び込む：06087_yobikomu⟧: to attract tourists\n- {旅行客|りょこうきゃく}⟦で→で：00502_de⟧⟦{賑|にぎ}わう→賑わう：14235_nigiwau⟧: to be bustling with travelers\n\nSIMILAR WORDS:\n- ⟦{観光客|かんこうきゃく}→観光客：03022_kankoukyaku⟧: sightseer; tourist — focuses on sightseeing specifically; the most common word for tourist\n- ⟦{旅行者|りょこうしゃ}→旅行者：22927_ryokousha⟧: traveler — more neutral; does not carry the \"customer\" nuance of ⟦{客|きゃく}→客：00865_kyaku⟧\n- ⟦{旅人|たびびと}→旅人：12725_tabibito⟧: traveler — literary or poetic; evokes a wanderer or journeyer",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03022_kankoukyaku",
+      "reading": "かんこうきゃく",
+      "headword": "{観光客|かんこうきゃく}",
+      "label": "sightseer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22927_ryokousha",
+      "reading": "りょこうしゃ",
+      "headword": "{旅行者|りょこうしゃ}",
+      "label": "traveler"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12725_tabibito",
+      "reading": "たびびと",
+      "headword": "{旅人|たびびと}",
+      "label": "traveler"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,12 +75,13 @@
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "travel",
         "person"
       ]
     },
     "created": "2026-04-27T12:17:01Z",
-    "modified": "2026-08-04T21:24:38Z"
+    "modified": "2026-09-02T04:02:23Z"
   }
 }

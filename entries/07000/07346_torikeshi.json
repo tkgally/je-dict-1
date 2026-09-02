@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "07346_torikeshi_ex1",
-      "japanese": "{予約|よやく}の{取消|とりけし}をお{願|ねが}いします。",
+      "japanese": "⟦{予約|よやく}→予約：01522_yoyaku⟧⟦の→の：09472_no⟧{取消|とりけし}⟦を→を：00422_wo⟧お{願|ねが}いします。",
       "english": "I'd like to cancel my reservation.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "07346_torikeshi_ex2",
-      "japanese": "{注文|ちゅうもん}の{取消|とりけし}は{発送|はっそう}{前|まえ}までです。",
+      "japanese": "⟦{注文|ちゅうもん}→注文：03485_chuumon⟧⟦の→の：09472_no⟧{取消|とりけし}⟦は→は：00079_ha⟧⟦{発送|はっそう}→発送：10458_hassou⟧⟦{前|まえ}→前：02255_mae⟧⟦まで→まで：00490_made⟧です。",
       "english": "Order cancellation is only possible before shipping.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "07346_torikeshi_ex3",
-      "japanese": "{免許|めんきょ}の{取消|とりけし}{処分|しょぶん}を{受|う}けた。",
+      "japanese": "⟦{免許|めんきょ}→免許：03808_menkyo⟧⟦の→の：09472_no⟧{取消|とりけし}⟦{処分|しょぶん}→処分：05520_shobun⟧⟦を→を：00422_wo⟧⟦{受|う}けた→受ける：01215_ukeru⟧。",
       "english": "I received a license revocation.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "FORMATION:\n{取|と}り (taking) + {消|け}し (erasing)\n\nVERB FORM:\n・{取|と}り{消|け}す (to cancel)\n\nWRITING:\nAlso written as {取|と}り{消|け}し with okurigana.\n\nCOMMON COLLOCATIONS:\n・{取消|とりけし}{料|りょう} (cancellation fee)\n・{取消|とりけし}{手続|てつづ}き (cancellation procedure)\n・{免許|めんきょ}{取消|とりけし} (license revocation)\n・{予約|よやく}{取消|とりけし} (reservation cancellation)\n\nRELATED:\n・キャンセル (cancel - loanword, more casual)",
+  "notes": "FORMS:\n⟦{取|と}り→取る：00565_toru⟧ (taking) + {消|け}し (erasing)\n- ⟦{取|と}り{消|け}す→取り消す：04224_torikesu⟧ (to cancel)\n\nWRITING:\nAlso written as {取|と}り{消|け}し with okurigana.\n\nCOMMON COLLOCATIONS:\n- {取消|とりけし}{料|りょう} (cancellation fee)\n- {取消|とりけし}⟦{手続|てつづ}き→手続き：05453_tetsuzuki⟧ (cancellation procedure)\n- ⟦{免許|めんきょ}→免許：03808_menkyo⟧{取消|とりけし} (license revocation)\n- ⟦{予約|よやく}→予約：01522_yoyaku⟧{取消|とりけし} (reservation cancellation)\n\nRELATED WORDS:\n- ⟦キャンセル→キャンセル：06776_kyanseru⟧ (cancel - loanword, more casual)",
   "cross_references": [
     {
       "type": "synonym",
@@ -51,11 +51,18 @@
       "headword": "キャンセル",
       "label": "cancellation (loanword)",
       "target_id": "06776_kyanseru"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03481_chuushi",
+      "reading": "ちゅうし",
+      "headword": "{中止|ちゅうし}",
+      "label": "suspension, cancellation"
     }
   ],
   "metadata": {
     "created": "2026-01-19T04:35:46Z",
-    "modified": "2026-06-30T00:18:41Z",
+    "modified": "2026-09-02T04:01:10Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

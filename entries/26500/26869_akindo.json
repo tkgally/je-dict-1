@@ -15,38 +15,46 @@
   "examples": [
     {
       "id": "26869_akindo_ex1",
-      "japanese": "{大阪|おおさか}は{商人|あきんど}の{町|まち}だ。",
+      "japanese": "⟦{大阪|おおさか}→大阪：09779_oosaka⟧⟦は→は：00079_ha⟧{商人|あきんど}⟦の→の：09472_no⟧⟦{町|まち}→町：00613_machi⟧だ。",
       "english": "Osaka is a city of merchants.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26869_akindo_ex2",
-      "japanese": "{商人|あきんど}の{家|いえ}に{生|う}まれた。",
+      "japanese": "{商人|あきんど}⟦の→の：09472_no⟧⟦{家|いえ}→家：00612_ie⟧⟦に→に：00314_ni⟧⟦{生|う}まれた→生まれる：00905_umareru⟧。",
       "english": "I was born into a merchant family.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26869_akindo_ex3",
-      "japanese": "あの{店|みせ}の{主人|しゅじん}は、さすが{商人|あきんど}だけあって{交渉|こうしょう}がうまい。",
+      "japanese": "⟦あの→あの：00915_ano⟧⟦{店|みせ}→店：00497_mise⟧⟦の→の：09472_no⟧⟦{主人|しゅじん}→主人：00987_shujin⟧⟦は→は：00079_ha⟧、さすが{商人|あきんど}⟦だけ→〜だけ：03093_dake⟧⟦あって→ある：00006_aru⟧⟦{交渉|こうしょう}→交渉：02727_koushou⟧⟦が→が：00051_ga⟧⟦うまい→うまい：01279_umai⟧。",
       "english": "The shop owner is skilled at negotiating — as you'd expect from a born merchant.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26869_akindo_ex4",
-      "japanese": "{江戸時代|えどじだい}の{商人|あきんど}たちは{独自|どくじ}の{文化|ぶんか}を{築|きず}いた。",
+      "japanese": "⟦{江戸時代|えどじだい}→江戸時代：20431_edojidai⟧⟦の→の：09472_no⟧{商人|あきんど}たち⟦は→は：00079_ha⟧⟦{独自|どくじ}→独自：05614_dokuji⟧⟦の→の：09472_no⟧⟦{文化|ぶんか}→文化：01504_bunka⟧⟦を→を：00422_wo⟧⟦{築|きず}いた→築く：02046_kizuku⟧。",
       "english": "The merchants of the Edo period created their own distinctive culture.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "The native reading あきんど has a warmer, more traditional feel than the formal しょうにん reading. Strongly associated with Osaka's merchant culture ({商人|あきんど}{気質|かたぎ}, merchant spirit) and the Edo-period merchant class. In modern usage, sometimes carries a slightly shrewd or street-smart nuance.\n\nCOMMON COLLOCATIONS:\n- {大阪|おおさか}{商人|あきんど}: Osaka merchant\n- {商人|あきんど}{気質|かたぎ}: merchant spirit/temperament\n- {商人|あきんど}の{町|まち}: merchant town\n- {商人|あきんど}{根性|こんじょう}: merchant's grit/shrewdness\n\nSIMILAR WORDS:\n- {商人|しょうにん}: merchant — same kanji, Sino-Japanese reading; more formal and neutral\n- {商売人|しょうばいにん}: businessperson — emphasizes being engaged in commerce\n- {貿易商|ぼうえきしょう}: trader — specifically international trade",
+  "notes": "The native reading あきんど has a warmer, more traditional feel than the formal しょう⟦に→に：00314_ni⟧ん reading. Strongly associated with Osaka's merchant culture ({商人|あきんど}{気質|かたぎ}, merchant spirit) and the Edo-period merchant class. In modern usage, sometimes carries a slightly shrewd or street-smart nuance.\n\nCOMMON COLLOCATIONS:\n- ⟦{大阪|おおさか}→大阪：09779_oosaka⟧{商人|あきんど}: Osaka merchant\n- {商人|あきんど}{気質|かたぎ}: merchant spirit/temperament\n- {商人|あきんど}⟦の→の：09472_no⟧⟦{町|まち}→町：00613_machi⟧: merchant town\n- {商人|あきんど}⟦{根性|こんじょう}→根性：19215_konjou⟧: merchant's grit/shrewdness\n\nSIMILAR WORDS:\n- {商人|しょうにん}: merchant — same kanji, Sino-Japanese reading; more formal and neutral\n- ⟦{商売人|しょうばいにん}→商売人：28054_shoubainin⟧: businessperson — emphasizes being engaged in commerce\n- {貿易商|ぼうえきしょう}: trader — specifically international trade",
   "cross_references": [
     {
       "type": "related",
@@ -54,18 +62,30 @@
       "reading": "しょうにん",
       "headword": "{商人|しょうにん}",
       "label": "Sino-Japanese reading"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28054_shoubainin",
+      "reading": "しょうばいにん",
+      "headword": "{商売人|しょうばいにん}",
+      "label": "businessperson"
     }
   ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["business", "culture"]
+      "semantic": [
+        "business",
+        "culture"
+      ]
     },
     "created": "2026-05-05T14:15:50Z",
-    "modified": "2026-05-05T14:15:50Z"
+    "modified": "2026-09-02T04:02:28Z"
   }
 }

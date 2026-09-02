@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "18459_suisentoire_ex1",
-      "japanese": "この{建物|たてもの}は{水洗|すいせん}トイレだ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{建物|たてもの}→建物：01458_tatemono⟧⟦は→は：00079_ha⟧{水洗|すいせん}トイレだ。",
       "english": "This building has flush toilets.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "18459_suisentoire_ex2",
-      "japanese": "{古|ふる}い{家|いえ}を{水洗|すいせん}トイレに{改修|かいしゅう}した。",
+      "japanese": "⟦{古|ふる}い→古い：00488_furui⟧⟦{家|いえ}→家：00612_ie⟧⟦を→を：00422_wo⟧{水洗|すいせん}トイレ⟦に→に：00314_ni⟧⟦{改修|かいしゅう}→改修：12924_kaishuu⟧⟦した→する：00392_suru⟧。",
       "english": "We renovated the old house to have a flush toilet.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "18459_suisentoire_ex3",
-      "japanese": "キャンプ{場|じょう}に{水洗|すいせん}トイレがあるかどうか{事前|じぜん}に{確認|かくにん}しておこう。",
+      "japanese": "⟦キャンプ→キャンプ：03837_kyanpu⟧{場|じょう}⟦に→に：00314_ni⟧{水洗|すいせん}トイレ⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧⟦かどうか→かどうか：28299_kadouka⟧⟦{事前|じぜん}→事前：07580_jizen⟧⟦に→に：00314_ni⟧⟦{確認|かくにん}して→確認する：25332_kakuninsuru⟧おこう。",
       "english": "Let's check in advance whether the campsite has flush toilets.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "In urban Japan today, nearly all toilets are {水洗|すいせん}トイレ, so the term is mainly used in contrast with non-flush alternatives, or when describing facilities at campsites, mountain huts, and older rural buildings.\n\nCOMMON COLLOCATIONS:\n- {水洗|すいせん}トイレ{完備|かんび} — equipped with flush toilets\n- {水洗|すいせん}トイレに{改修|かいしゅう}する — to convert to a flush toilet\n\nRELATED WORDS:\n- {水洗|すいせん} — water-flushing\n- {汲|く}み{取|と}り{式|しき} — non-flush/pit toilet system\n- {浄化槽|じょうかそう} — septic tank",
+  "notes": "In urban Japan today, nearly all toilets are {水洗|すいせん}トイレ, so the term is mainly used in contrast with non-flush alternatives, or when describing facilities at campsites, mountain huts, and older rural buildings.\n\nCOMMON COLLOCATIONS:\n- {水洗|すいせん}トイレ⟦{完備|かんび}→完備：16692_kanbi⟧ — equipped with flush toilets\n- {水洗|すいせん}トイレ⟦に→に：00314_ni⟧⟦{改修|かいしゅう}→改修：12924_kaishuu⟧⟦する→する：00392_suru⟧ — to convert to a flush toilet\n\nRELATED WORDS:\n- ⟦{水洗|すいせん}→水洗：00386_suisen⟧ — water-flushing\n- ⟦{汲|く}み{取|と}り→汲み取る：25269_kumitoru⟧{式|しき} — non-flush/pit toilet system\n- ⟦{浄化槽|じょうかそう}→浄化槽：20884_joukasou⟧ — septic tank",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "00386_suisen",
+      "reading": "すいせん",
+      "headword": "{水洗|すいせん}",
+      "label": "water-flushing"
+    },
+    {
+      "type": "related",
+      "target_id": "20884_joukasou",
+      "reading": "じょうかそう",
+      "headword": "{浄化槽|じょうかそう}",
+      "label": "septic tank"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23785_toirettopeepaa",
+      "reading": "といれっとぺーぱー",
+      "headword": "トイレットペーパー",
+      "label": "toilet paper"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +83,6 @@
       ]
     },
     "created": "2026-03-22T02:33:49Z",
-    "modified": "2026-05-08T10:08:08Z"
+    "modified": "2026-09-02T04:01:52Z"
   }
 }

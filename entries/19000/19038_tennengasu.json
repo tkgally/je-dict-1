@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "19038_tennengasu_ex1",
-      "japanese": "{天然|てんねん}ガスの{価格|かかく}が{上|あ}がった。",
+      "japanese": "{天然|てんねん}ガス⟦の→の：09472_no⟧⟦{価格|かかく}→価格：00147_kakaku⟧⟦が→が：00051_ga⟧⟦{上|あ}がった→上がる：00615_agaru⟧。",
       "english": "The price of natural gas went up.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "19038_tennengasu_ex2",
-      "japanese": "この{地域|ちいき}は{天然|てんねん}ガスが{豊富|ほうふ}だ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{地域|ちいき}→地域：01461_chiiki⟧⟦は→は：00079_ha⟧{天然|てんねん}ガス⟦が→が：00051_ga⟧⟦{豊富|ほうふ}→豊富：03620_houfu⟧だ。",
       "english": "This region is rich in natural gas.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "19038_tennengasu_ex3",
-      "japanese": "{日本|にほん}は{天然|てんねん}ガスの{多|おお}くを{輸入|ゆにゅう}に{頼|たよ}っている。",
+      "japanese": "⟦{日本|にほん}→日本：03876_nihon⟧⟦は→は：00079_ha⟧{天然|てんねん}ガス⟦の→の：09472_no⟧{多|おお}く⟦を→を：00422_wo⟧⟦{輸入|ゆにゅう}→輸入：01742_yunyuu⟧⟦に→に：00314_ni⟧⟦{頼|たよ}っている→頼る：02069_tayoru⟧。",
       "english": "Japan relies on imports for most of its natural gas.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,26 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA compound of {天然|てんねん} (natural) + ガス (gas). Japan imports large quantities of liquefied natural gas (LNG / {液化|えきか}{天然|てんねん}ガス). Natural gas is also used in household cooking and heating via city gas ({都市|とし}ガス).\n\nCOMMON COLLOCATIONS:\n- {天然|てんねん}ガスの{輸入|ゆにゅう}: natural gas imports\n- {液化|えきか}{天然|てんねん}ガス (LNG): liquefied natural gas\n- {天然|てんねん}ガス{田|でん}: natural gas field\n- {天然|てんねん}ガスの{採掘|さいくつ}: natural gas extraction",
-  "cross_references": [],
+  "notes": "USAGE:\nA compound of ⟦{天然|てんねん}→天然：03560_tennen⟧ (natural) + ⟦ガス→ガス：01344_gasu⟧ (gas). Japan imports large quantities of liquefied natural gas (LNG / {液化|えきか}{天然|てんねん}ガス). Natural gas is also used in household cooking and heating via city gas (⟦{都市|とし}ガス→都市ガス：22713_toshigasu⟧).\n\nCOMMON COLLOCATIONS:\n- {天然|てんねん}ガス⟦の→の：09472_no⟧⟦{輸入|ゆにゅう}→輸入：01742_yunyuu⟧: natural gas imports\n- {液化|えきか}{天然|てんねん}ガス (LNG): liquefied natural gas\n- {天然|てんねん}ガス{田|でん}: natural gas field\n- {天然|てんねん}ガス⟦の→の：09472_no⟧⟦{採掘|さいくつ}→採掘：07996_saikutsu⟧: natural gas extraction",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "03755_sekitan",
+      "reading": "せきたん",
+      "headword": "{石炭|せきたん}",
+      "label": "coal"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22713_toshigasu",
+      "reading": "としがす",
+      "headword": "{都市|とし}ガス",
+      "label": "city gas"
+    }
+  ],
   "metadata": {
     "created": "2026-03-24T01:06:03Z",
-    "modified": "2026-07-26T09:39:42Z",
+    "modified": "2026-09-02T04:01:54Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

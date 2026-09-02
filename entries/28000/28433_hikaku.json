@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28433_hikaku_ex1",
-      "japanese": "{皮革|ひかく}を{使|つか}った{製品|せいひん}。",
+      "japanese": "{皮革|ひかく}⟦を→を：00422_wo⟧⟦{使|つか}った→使う：00473_tsukau⟧⟦{製品|せいひん}→製品：01445_seihin⟧。",
       "english": "Products made using leather.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28433_hikaku_ex2",
-      "japanese": "{皮革|ひかく}{産業|さんぎょう}は{長|なが}い{歴史|れきし}を{持|も}つ。",
+      "japanese": "{皮革|ひかく}⟦{産業|さんぎょう}→産業：01419_sangyou⟧⟦は→は：00079_ha⟧⟦{長|なが}い→長い：00491_nagai⟧⟦{歴史|れきし}→歴史：02267_rekishi⟧⟦を→を：00422_wo⟧⟦{持|も}つ→持つ：00478_motsu⟧。",
       "english": "The leather industry has a long history.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28433_hikaku_ex3",
-      "japanese": "この{工場|こうじょう}では{高品質|こうひんしつ}な{皮革|ひかく}を{使|つか}って{靴|くつ}を{製造|せいぞう}している。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{工場|こうじょう}→工場：01082_koujou⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{高品質|こうひんしつ}→高品質：18051_kouhinshitsu⟧な{皮革|ひかく}⟦を→を：00422_wo⟧⟦{使|つか}って→使う：00473_tsukau⟧⟦{靴|くつ}→靴：00725_kutsu⟧⟦を→を：00422_wo⟧⟦{製造|せいぞう}→製造：03289_seizou⟧⟦している→する：00392_suru⟧。",
       "english": "This factory manufactures shoes using high-quality leather.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {皮|ひ} (skin) + {革|かく} (leather). A formal term used mainly in industry, business, and technical writing. In everyday speech, {革|かわ} is far more common.\n\nCOMMON COLLOCATIONS:\n- {皮革|ひかく}{産業|さんぎょう}: leather industry\n- {皮革|ひかく}{製品|せいひん}: leather goods\n- {皮革|ひかく}{加工|かこう}: leather processing / tanning\n- {天然|てんねん}{皮革|ひかく}: genuine leather\n- {合成|ごうせい}{皮革|ひかく}: synthetic leather\n\nSIMILAR WORDS:\n- {革|かわ}: leather — the everyday word; used for finished leather goods ({革|かわ}の{財布|さいふ}, a leather wallet)\n- {皮|かわ}: skin; hide — the raw, untanned material; also means peel or shell\n- レザー: leather — common loanword in fashion and product names",
+  "notes": "Composed of {皮|ひ} (skin) + {革|かく} (leather). A formal term used mainly in industry, business, and technical writing. In everyday speech, ⟦{革|かわ}→革：19310_kawa⟧ is far more common.\n\nCOMMON COLLOCATIONS:\n- {皮革|ひかく}⟦{産業|さんぎょう}→産業：01419_sangyou⟧: leather industry\n- {皮革|ひかく}⟦{製品|せいひん}→製品：01445_seihin⟧: leather goods\n- {皮革|ひかく}⟦{加工|かこう}→加工：11793_kakou⟧: leather processing / tanning\n- ⟦{天然|てんねん}→天然：03560_tennen⟧{皮革|ひかく}: genuine leather\n- {合成|ごうせい}{皮革|ひかく}: synthetic leather\n\nSIMILAR WORDS:\n- ⟦{革|かわ}→革：19310_kawa⟧: leather — the everyday word; used for finished leather goods (⟦{革|かわ}→革：19310_kawa⟧⟦の→の：09472_no⟧⟦{財布|さいふ}→財布：00663_saifu⟧, a leather wallet)\n- ⟦{皮|かわ}→皮：02187_kawa⟧: skin; hide — the raw, untanned material; also means peel or shell\n- レザー: leather — common loanword in fashion and product names",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16787_hongawa",
+      "reading": "ほんがわ",
+      "headword": "{本革|ほんがわ}",
+      "label": "genuine leather"
+    },
+    {
+      "type": "related",
+      "target_id": "21272_kawaseihin",
+      "reading": "かわせいひん",
+      "headword": "{革製品|かわせいひん}",
+      "label": "leather goods"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +69,7 @@
         "noun"
       ],
       "formality": "formal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "clothing",
         "business"
@@ -61,6 +77,6 @@
       "domain": []
     },
     "created": "2026-05-31T02:08:49Z",
-    "modified": "2026-08-08T18:34:17Z"
+    "modified": "2026-09-02T04:02:33Z"
   }
 }

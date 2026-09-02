@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "19547_hanjousuru_ex1",
-      "japanese": "あの{店|みせ}はいつも{繁盛|はんじょう}している。",
+      "japanese": "⟦あの→あの：00915_ano⟧⟦{店|みせ}→店：00497_mise⟧⟦は→は：00079_ha⟧⟦いつも→いつも：00599_itsumo⟧{繁盛|はんじょう}して⟦いる→いる：00495_iru⟧。",
       "english": "That shop is always thriving.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "19547_hanjousuru_ex2",
-      "japanese": "{駅前|えきまえ}のラーメン{屋|や}は{昼|ひる}も{夜|よる}も{繁盛|はんじょう}している。",
+      "japanese": "⟦{駅前|えきまえ}→駅前：09593_ekimae⟧⟦の→の：09472_no⟧⟦ラーメン→ラーメン：05181_raamen⟧⟦{屋|や}→〜屋：03096_ya⟧⟦は→は：00079_ha⟧⟦{昼|ひる}→昼：00540_hiru⟧⟦も→も：00484_mo⟧⟦{夜|よる}→夜：00487_yoru⟧⟦も→も：00484_mo⟧{繁盛|はんじょう}して⟦いる→いる：00495_iru⟧。",
       "english": "The ramen shop in front of the station is busy both at lunch and dinner.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "19547_hanjousuru_ex3",
-      "japanese": "{口|くち}コミのおかげで、{開店|かいてん}から{半年|はんとし}で{大繁盛|だいはんじょう}するようになった。",
+      "japanese": "⟦{口|くち}コミ→口コミ：17690_kuchikomi⟧⟦の→の：09472_no⟧⟦おかげ→おかげ：01362_okage⟧で、⟦{開店|かいてん}→開店：14569_kaiten⟧⟦から→から：00504_kara⟧⟦{半年|はんとし}→半年：03139_hantoshi⟧⟦で→で：00502_de⟧{大繁盛|だいはんじょう}⟦する→する：00392_suru⟧ようになった。",
       "english": "Thanks to word of mouth, the place started doing a roaring trade within half a year of opening.",
       "sense_numbers": [
         1
@@ -134,8 +134,24 @@
       "notes": null
     }
   ],
-  "notes": "Describes a business or establishment that is thriving and attracting many customers. The word carries a warm, positive nuance of bustling activity and success. It is most naturally used for shops, restaurants, and similar customer-facing businesses rather than large corporations.\n\nCOMMON COLLOCATIONS:\n- {商売|しょうばい}{繁盛|はんじょう} — thriving business; prosperous trade\n- {大繁盛|だいはんじょう} — booming business; great prosperity\n- {店|みせ}が{繁盛|はんじょう}する — a shop thrives\n\nCULTURAL NOTE:\n{商売繁盛|しょうばいはんじょう} is a common prayer or wish at shrines, especially at business-related shrines like {恵比寿|えびす} shrines. The phrase appears on good-luck charms and New Year decorations for businesses.\n\nSIMILAR WORDS:\n- {栄|さか}える — to prosper; broader in scope, used for nations, cultures, or organizations\n- {流行|はや}る — to be popular, to be in vogue; focuses on trendiness rather than business success",
+  "notes": "Describes a business or establishment that is thriving and attracting many customers. The word carries a warm, positive nuance of bustling activity and success. It is most naturally used for shops, restaurants, and similar customer-facing businesses rather than large corporations.\n\nCOMMON COLLOCATIONS:\n- ⟦{商売|しょうばい}{繁盛|はんじょう}→商売繁盛：29953_shoubaihanjou⟧ — thriving business; prosperous trade\n- {大繁盛|だいはんじょう} — booming business; great prosperity\n- ⟦{店|みせ}→店：00497_mise⟧⟦が→が：00051_ga⟧{繁盛|はんじょう}する — a shop thrives\n\nCULTURAL NOTE:\n⟦{商売繁盛|しょうばいはんじょう}→商売繁盛：29953_shoubaihanjou⟧ is a common prayer or wish at shrines, especially at business-related shrines like {恵比寿|えびす} shrines. The phrase appears on good-luck charms and New Year decorations for businesses.\n\nSIMILAR WORDS:\n- ⟦{栄|さか}える→栄える：13104_sakaeru⟧ — to prosper; broader in scope, used for nations, cultures, or organizations\n- ⟦{流行|はや}る→流行る：02400_hayaru⟧ — to be popular, to be in vogue; focuses on trendiness rather than business success",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13104_sakaeru",
+      "reading": "さかえる",
+      "headword": "{栄|さか}える",
+      "label": "to prosper"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02400_hayaru",
+      "reading": "はやる",
+      "headword": "{流行|はや}る",
+      "label": "to be popular, to be in vogue"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -149,9 +165,10 @@
         "business",
         "society"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     },
     "created": "2026-03-26T05:09:13Z",
-    "modified": "2026-03-26T05:09:13Z"
+    "modified": "2026-09-02T04:01:56Z"
   }
 }

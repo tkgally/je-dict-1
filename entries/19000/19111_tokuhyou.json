@@ -15,40 +15,66 @@
   "examples": [
     {
       "id": "19111_tokuhyou_ex1",
-      "japanese": "{得票|とくひょう}{数|すう}が{発表|はっぴょう}された。",
+      "japanese": "{得票|とくひょう}{数|すう}⟦が→が：00051_ga⟧⟦{発表|はっぴょう}→発表：03562_happyou⟧⟦された→する：00392_suru⟧。",
       "english": "The vote count was announced.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19111_tokuhyou_ex2",
-      "japanese": "{彼|かれ}は{最|もっと}も{多|おお}くの{得票|とくひょう}を{得|え}た。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{最|もっと}も→最も：01736_mottomo⟧{多|おお}く⟦の→の：09472_no⟧{得票|とくひょう}⟦を→を：00422_wo⟧⟦{得|え}た→得る：02014_eru⟧。",
       "english": "He received the most votes.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19111_tokuhyou_ex3",
-      "japanese": "{前回|ぜんかい}の{選挙|せんきょ}と{比|くら}べて{得票|とくひょう}{率|りつ}が{大|おお}きく{下|さ}がった。",
+      "japanese": "⟦{前回|ぜんかい}→前回：11817_zenkai⟧⟦の→の：09472_no⟧⟦{選挙|せんきょ}→選挙：03303_senkyo⟧⟦と→と：00512_to⟧⟦{比|くら}べて→比べる：01237_kuraberu⟧{得票|とくひょう}{率|りつ}⟦が→が：00051_ga⟧⟦{大|おお}きく→大きい：00335_ookii⟧⟦{下|さ}がった→下がる：01188_sagaru⟧。",
       "english": "Compared to the last election, the vote share dropped significantly.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "{得票|とくひょう} refers to votes received by a candidate or party. The focus is on the receiving side of voting.\n\nWORD FORMATION:\n{得|とく} (to obtain/gain) + {票|ひょう} (vote/ballot)\n\nCOMMON COMPOUNDS:\n- {得票|とくひょう}{数|すう}: number of votes obtained\n- {得票|とくひょう}{率|りつ}: vote share, percentage of votes\n- {得票|とくひょう}{差|さ}: margin of votes\n\nCONTRAST:\n- {投票|とうひょう}: the act of casting a ballot (voter's side)\n- {得票|とくひょう}: votes received (candidate's side)\n\nUsed primarily in election reporting and political contexts. Often appears in news coverage of {選挙|せんきょ} (elections).",
+  "notes": "{得票|とくひょう} refers to votes received by a candidate or party. The focus is on the receiving side of voting.\n\nFORMS:\n⟦{得|とく}→得：12563_toku⟧ (to obtain/gain) + ⟦{票|ひょう}→票：03582_hyou⟧ (vote/ballot)\n\nCOMPOUNDS:\n- {得票|とくひょう}{数|すう}: number of votes obtained\n- {得票|とくひょう}{率|りつ}: vote share, percentage of votes\n- {得票|とくひょう}⟦{差|さ}→差：02771_sa⟧: margin of votes\n\nSIMILAR WORDS:\n- ⟦{投票|とうひょう}→投票：03453_touhyou⟧: the act of casting a ballot (voter's side)\n- {得票|とくひょう}: votes received (candidate's side)\n\nUsed primarily in election reporting and political contexts. Often appears in news coverage of ⟦{選挙|せんきょ}→選挙：03303_senkyo⟧ (elections).",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03453_touhyou",
+      "reading": "とうひょう",
+      "headword": "{投票|とうひょう}",
+      "label": "the act of casting a ballot"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25137_hyousuu",
+      "reading": "ひょうすう",
+      "headword": "{票数|ひょうすう}",
+      "label": "number of votes"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     },
     "created": "2026-03-24T09:58:03Z",
-    "modified": "2026-03-25T12:24:31Z"
+    "modified": "2026-09-02T04:01:54Z"
   }
 }

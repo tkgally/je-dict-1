@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "17961_shinpu_ex1",
-      "japanese": "{神父|しんぷ}に{相談|そうだん}した。",
+      "japanese": "{神父|しんぷ}⟦に→に：00314_ni⟧⟦{相談|そうだん}した→相談する：01845_soudansuru⟧。",
       "english": "I consulted with the priest.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17961_shinpu_ex2",
-      "japanese": "{教会|きょうかい}で{神父|しんぷ}がミサを{行|おこな}った。",
+      "japanese": "⟦{教会|きょうかい}→教会：01387_kyoukai⟧⟦で→で：00502_de⟧{神父|しんぷ}⟦が→が：00051_ga⟧ミサ⟦を→を：00422_wo⟧⟦{行|おこな}った→行う：01238_okonau⟧。",
       "english": "The priest held Mass at the church.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17961_shinpu_ex3",
-      "japanese": "{結婚式|けっこんしき}では{神父|しんぷ}が{二人|ふたり}に{誓|ちか}いの{言葉|ことば}を{述|の}べるよう{促|うなが}した。",
+      "japanese": "⟦{結婚式|けっこんしき}→結婚式：05493_kekkonshiki⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧{神父|しんぷ}⟦が→が：00051_ga⟧⟦{二人|ふたり}→二人：00622_futari⟧⟦に→に：00314_ni⟧⟦{誓|ちか}い→誓い：14178_chikai⟧⟦の→の：09472_no⟧⟦{言葉|ことば}→言葉：02880_kotoba⟧⟦を→を：00422_wo⟧⟦{述|の}べる→述べる：02389_noberu⟧よう⟦{促|うなが}した→促す：10875_unagasu⟧。",
       "english": "At the wedding, the priest prompted the two to say their vows.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nSpecifically refers to Catholic or Orthodox priests. For Protestant ministers, {牧師|ぼくし} is used instead. In Japanese wedding contexts, the officiant at a Christian-style ceremony is often called {神父|しんぷ}, though many are actually Protestant ministers.\n\nCOMMON COLLOCATIONS:\n- {神父|しんぷ}さま (Father — respectful address)\n- {神父|しんぷ}に{告解|こっかい}する (confess to a priest)\n- {教会|きょうかい}の{神父|しんぷ} (the church's priest)\n\nSIMILAR WORDS:\n- {牧師|ぼくし}: pastor, minister — Protestant clergy\n- {僧侶|そうりょ}: Buddhist monk/priest\n- {司祭|しさい}: priest — more formal/official term for Catholic clergy\n\nNOTE:\nDo not confuse with the homophone {新婦|しんぷ} (bride).",
+  "notes": "USAGE:\nSpecifically refers to Catholic or Orthodox priests. For Protestant ministers, ⟦{牧師|ぼくし}→牧師：18229_bokushi⟧ is used instead. In Japanese wedding contexts, the officiant at a Christian-style ceremony is often called {神父|しんぷ}, though many are actually Protestant ministers.\nDo not confuse with the homophone ⟦{新婦|しんぷ}→新婦：12981_shinpu⟧ (bride).\n\nCOMMON COLLOCATIONS:\n- {神父|しんぷ}さま (Father — respectful address)\n- {神父|しんぷ}⟦に→に：00314_ni⟧{告解|こっかい}⟦する→する：00392_suru⟧ (confess to a priest)\n- ⟦{教会|きょうかい}→教会：01387_kyoukai⟧⟦の→の：09472_no⟧{神父|しんぷ} (the church's priest)\n\nSIMILAR WORDS:\n- ⟦{牧師|ぼくし}→牧師：18229_bokushi⟧: pastor, minister — Protestant clergy\n- ⟦{僧侶|そうりょ}→僧侶：11529_souryo⟧: Buddhist monk/priest\n- {司祭|しさい}: priest — more formal/official term for Catholic clergy",
   "cross_references": [
     {
       "type": "homophone",
@@ -46,18 +52,36 @@
       "reading": "しんぷ",
       "headword": "{新婦|しんぷ}",
       "label": "bride"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18229_bokushi",
+      "reading": "ぼくし",
+      "headword": "{牧師|ぼくし}",
+      "label": "pastor, minister"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11529_souryo",
+      "reading": "そうりょ",
+      "headword": "{僧侶|そうりょ}",
+      "label": "Buddhist monk/priest"
     }
   ],
   "metadata": {
     "created": "2026-03-19T10:02:10Z",
-    "modified": "2026-03-19T10:02:10Z",
+    "modified": "2026-09-02T04:01:50Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["occupation"]
+      "semantic": [
+        "occupation"
+      ]
     }
   }
 }

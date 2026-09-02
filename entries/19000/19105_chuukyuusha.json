@@ -15,40 +15,59 @@
   "examples": [
     {
       "id": "19105_chuukyuusha_ex1",
-      "japanese": "この{教材|きょうざい}は{中級者|ちゅうきゅうしゃ}{向|む}けです。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{教材|きょうざい}→教材：12878_kyouzai⟧⟦は→は：00079_ha⟧{中級者|ちゅうきゅうしゃ}{向|む}けです。",
       "english": "This textbook is for intermediate learners.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19105_chuukyuusha_ex2",
-      "japanese": "{中級者|ちゅうきゅうしゃ}から{上級者|じょうきゅうしゃ}へのステップアップが{難|むずか}しい。",
+      "japanese": "{中級者|ちゅうきゅうしゃ}⟦から→から：00504_kara⟧⟦{上級者|じょうきゅうしゃ}→上級者：19106_joukyuusha⟧⟦へ→へ：02473_he⟧⟦の→の：09472_no⟧⟦ステップ→ステップ：11579_suteppu⟧⟦アップ→アップ：00005_appu⟧⟦が→が：00051_ga⟧⟦{難|むずか}しい→難しい：00517_muzukashii⟧。",
       "english": "The step up from intermediate to advanced level is difficult.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19105_chuukyuusha_ex3",
-      "japanese": "スキーの{中級者|ちゅうきゅうしゃ}コースは{傾斜|けいしゃ}がやや{急|きゅう}になっている。",
+      "japanese": "⟦スキー→スキー：03849_sukii⟧⟦の→の：09472_no⟧{中級者|ちゅうきゅうしゃ}⟦コース→コース：10864_koosu⟧⟦は→は：00079_ha⟧⟦{傾斜|けいしゃ}→傾斜：05447_keisha⟧⟦が→が：00051_ga⟧⟦やや→やや：03642_yaya⟧⟦{急|きゅう}→急：13042_kyuu⟧になっている。",
       "english": "The intermediate ski course has a somewhat steep slope.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A person at an intermediate level of skill or knowledge. Used across many domains including language learning, sports, music, and other activities.\n\nWORD FORMATION:\n{中級|ちゅうきゅう} (intermediate level) + {者|しゃ} (person).\n\nLEVEL SERIES:\n- {初級者|しょきゅうしゃ}: beginner\n- {中級者|ちゅうきゅうしゃ}: intermediate\n- {上級者|じょうきゅうしゃ}: advanced\n\nCOMMON PATTERNS:\n- {中級者|ちゅうきゅうしゃ}{向|む}け: aimed at intermediates (for courses, textbooks, equipment)\n- {中級者|ちゅうきゅうしゃ}コース: intermediate course\n- {中級者|ちゅうきゅうしゃ}{以上|いじょう}: intermediate level and above",
+  "notes": "A person at an intermediate level of skill or knowledge. Used across many domains including language learning, sports, music, and other activities.\n\nFORMS:\n⟦{中級|ちゅうきゅう}→中級：16955_chuukyuu⟧ (intermediate level) + ⟦{者|しゃ}→〜者：04662_sha⟧ (person).\n\nLEVEL SERIES:\n- ⟦{初級者|しょきゅうしゃ}→初級者：29204_shokyuusha⟧: beginner\n- {中級者|ちゅうきゅうしゃ}: intermediate\n- ⟦{上級者|じょうきゅうしゃ}→上級者：19106_joukyuusha⟧: advanced\n\nCOMMON PATTERNS:\n- {中級者|ちゅうきゅうしゃ}{向|む}け: aimed at intermediates (for courses, textbooks, equipment)\n- {中級者|ちゅうきゅうしゃ}⟦コース→コース：10864_koosu⟧: intermediate course\n- {中級者|ちゅうきゅうしゃ}⟦{以上|いじょう}→以上：01308_ijou⟧: intermediate level and above",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "29204_shokyuusha",
+      "reading": "しょきゅうしゃ",
+      "headword": "{初級者|しょきゅうしゃ}",
+      "label": "beginner"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["person"]
+      "semantic": [
+        "person"
+      ]
     },
     "created": "2026-03-24T09:40:22Z",
-    "modified": "2026-03-27T01:43:05Z"
+    "modified": "2026-09-02T04:01:54Z"
   }
 }

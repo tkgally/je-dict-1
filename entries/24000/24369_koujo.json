@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24369_koujo_ex1",
-      "japanese": "{皇女|こうじょ}が{誕生|たんじょう}した。",
+      "japanese": "{皇女|こうじょ}⟦が→が：00051_ga⟧⟦{誕生|たんじょう}→誕生：01460_tanjou⟧⟦した→する：00392_suru⟧。",
       "english": "An imperial princess was born.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24369_koujo_ex2",
-      "japanese": "{平安|へいあん}{時代|じだい}の{皇女|こうじょ}は{斎宮|さいぐう}として{伊勢|いせ}{神宮|じんぐう}に{仕|つか}えることがあった。",
+      "japanese": "⟦{平安|へいあん}→平安：12641_heian⟧⟦{時代|じだい}→時代：01424_jidai⟧⟦の→の：09472_no⟧{皇女|こうじょ}⟦は→は：00079_ha⟧{斎宮|さいぐう}⟦として→として：06802_toshite⟧⟦{伊勢|いせ}→伊勢：30733_ise⟧⟦{神宮|じんぐう}→神宮：17736_jinguu⟧⟦に→に：00314_ni⟧⟦{仕|つか}える→仕える：11547_tsukaeru⟧こと⟦が→が：00051_ga⟧⟦あった→ある：00006_aru⟧。",
       "english": "In the Heian period, imperial princesses sometimes served at Ise Shrine as high priestesses.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24369_koujo_ex3",
-      "japanese": "{皇女|こうじょ}は{結婚|けっこん}すると{皇籍|こうせき}を{離|はな}れる。",
+      "japanese": "{皇女|こうじょ}⟦は→は：00079_ha⟧⟦{結婚|けっこん}→結婚：02514_kekkon⟧⟦する→する：00392_suru⟧⟦と→と：00512_to⟧{皇籍|こうせき}⟦を→を：00422_wo⟧⟦{離|はな}れる→離れる：02397_hanareru⟧。",
       "english": "An imperial princess leaves the imperial family register upon marriage.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {皇|こう} ('emperor; imperial') and {女|じょ} ('daughter; woman'). The formal term for a daughter of the emperor, used in historical, legal, and news contexts.\n\nUSAGE:\n- In modern Japan, {皇女|こうじょ} refers to daughters of the emperor. Under current law ({皇室典範|こうしつてんぱん}), a {皇女|こうじょ} loses her imperial status upon marrying a commoner.\n- In historical contexts, {皇女|こうじょ} may also be read as ひめみこ (the native Japanese reading), especially in literature about the Heian period.\n- The male counterpart is {皇子|おうじ} ('imperial prince; son of an emperor').\n\nCOMMON COLLOCATIONS:\n- {皇女|こうじょ}の{誕生|たんじょう}: birth of an imperial princess\n- {皇女|こうじょ}の{降嫁|こうか}: an imperial princess marrying into a non-imperial family\n- {内親王|ないしんのう}・{皇女|こうじょ}: formal/informal pairing for 'imperial princess'\n\nSIMILAR WORDS:\n- {皇子|おうじ}: imperial prince — the male counterpart, a son of the emperor\n- {内親王|ないしんのう}: imperial princess (formal title) — the official title granted to daughters and granddaughters of the emperor\n- {王女|おうじょ}: princess — a princess of a non-imperial monarchy, or a general literary term for 'princess'\n- {皇族|こうぞく}: imperial family member — the collective term for all members of the imperial household",
+  "notes": "Compound of {皇|こう} ('emperor; imperial') and {女|じょ} ('daughter; woman'). The formal term for a daughter of the emperor, used in historical, legal, and news contexts.\n\nUSAGE:\n- In modern Japan, {皇女|こうじょ} refers to daughters of the emperor. Under current law ({皇室典範|こうしつてんぱん}), a {皇女|こうじょ} loses her imperial status upon marrying a commoner.\n- In historical contexts, {皇女|こうじょ} may also be read as ひめみこ (the native Japanese reading), especially in literature about the Heian period.\n- The male counterpart is {皇子|おうじ} ('imperial prince; son of an emperor').\n\nCOMMON COLLOCATIONS:\n- {皇女|こうじょ}⟦の→の：09472_no⟧⟦{誕生|たんじょう}→誕生：01460_tanjou⟧: birth of an imperial princess\n- {皇女|こうじょ}⟦の→の：09472_no⟧{降嫁|こうか}: an imperial princess marrying into a non-imperial family\n- {内親王|ないしんのう}・{皇女|こうじょ}: formal/informal pairing for 'imperial princess'\n\nSIMILAR WORDS:\n- {皇子|おうじ}: imperial prince — the male counterpart, a son of the emperor\n- {内親王|ないしんのう}: imperial princess (formal title) — the official title granted to daughters and granddaughters of the emperor\n- ⟦{王女|おうじょ}→王女：04108_oujo⟧: princess — a princess of a non-imperial monarchy, or a general literary term for 'princess'\n- ⟦{皇族|こうぞく}→皇族：22657_kouzoku⟧: imperial family member — the collective term for all members of the imperial household",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04108_oujo",
+      "reading": "おうじょ",
+      "headword": "{王女|おうじょ}",
+      "label": "princess"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22657_kouzoku",
+      "reading": "こうぞく",
+      "headword": "{皇族|こうぞく}",
+      "label": "imperial family member"
+    },
+    {
+      "type": "related",
+      "target_id": "19130_ohimesama",
+      "reading": "おひめさま",
+      "headword": "お{姫様|ひめさま}",
+      "label": "princess"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,6 +85,6 @@
       ]
     },
     "created": "2026-04-18T15:24:01Z",
-    "modified": "2026-08-02T18:32:34Z"
+    "modified": "2026-09-02T04:02:17Z"
   }
 }

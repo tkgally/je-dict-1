@@ -44,7 +44,7 @@
     },
     {
       "id": "01645_sonna_ex4",
-      "japanese": "そんな⟦{高|たか}い→高い：00500_takai⟧もの⟦は→は：00079_ha⟧⟦{買|か}えない→買う：00489_kau⟧⟦よ→よ：09475_yo⟧。⟦{もっと}→もっと：00798_motto⟧⟦{安|やす}い→安い：00464_yasui⟧⟦の→の：09472_no⟧⟦は→は：00079_ha⟧⟦ない→ない：01118_nai⟧？",
+      "japanese": "そんな⟦{高|たか}い→高い：00500_takai⟧もの⟦は→は：00079_ha⟧⟦{買|か}えない→買う：00489_kau⟧⟦よ→よ：09475_yo⟧。⟦もっと→もっと：00798_motto⟧⟦{安|やす}い→安い：00464_yasui⟧⟦の→の：09472_no⟧⟦は→は：00079_ha⟧⟦ない→ない：01118_nai⟧？",
       "english": "I can't buy something that expensive. Is there anything cheaper?",
       "notes": null,
       "has_audio": false,
@@ -54,7 +54,7 @@
     },
     {
       "id": "01645_sonna_ex5",
-      "japanese": "そんな⟦{顔|かお}→顔：00558_kao⟧しないで。⟦{冗談|じょうだん}→冗談：03347_joudan⟧だ⟦よ→よ：09475_yo⟧。",
+      "japanese": "そんな⟦{顔|かお}→顔：00558_kao⟧⟦しないで→する：00392_suru⟧。⟦{冗談|じょうだん}→冗談：03347_joudan⟧だ⟦よ→よ：09475_yo⟧。",
       "english": "Don't make a face like that. I'm just joking.",
       "notes": null,
       "has_audio": false,
@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "そんな is part of the ko-so-a-do demonstrative system, referring to things near the listener or things just mentioned.\n\nKO-SO-A-DO PATTERN:\n- ⟦こんな→こんな：02881_konna⟧: this kind of (near speaker)\n- そんな: that kind of (near listener/just mentioned)\n- ⟦あんな→あんな：01574_anna⟧: that kind of (far from both)\n- ⟦どんな→どんな：02924_donna⟧: what kind of (question)\n\nCOMMON EXPRESSIONS:\n- そんな⟦こと→こと：01164_koto⟧⟦ない→ない：01118_nai⟧: That's not true\n- そんな⟦はず→はず：01557_hazu⟧は⟦ない→ない：01118_nai⟧: That can't be\n- そんな⟦{馬鹿|ばか}→馬鹿：03574_baka⟧な: That's ridiculous\n\nDERIVED FORM: ⟦そんなに→そんなに：01646_sonnani⟧ (to that extent)",
+  "notes": "そんな is part of the ko-so-a-do demonstrative system, referring to things near the listener or things just mentioned.\n\nKO-SO-A-DO PATTERN:\n- ⟦こんな→こんな：02881_konna⟧: this kind of (near speaker)\n- そんな: that kind of (near listener/just mentioned)\n- ⟦あんな→あんな：01574_anna⟧: that kind of (far from both)\n- ⟦どんな→どんな：02924_donna⟧: what kind of (question)\n\nCOMMON EXPRESSIONS:\n- そんな⟦こと→こと：01164_koto⟧⟦ない→ない：01118_nai⟧: That's not true\n- そんな⟦はず→はず：01557_hazu⟧⟦は→は：00079_ha⟧⟦ない→ない：01118_nai⟧: That can't be\n- そんな⟦{馬鹿|ばか}→馬鹿：03574_baka⟧な: That's ridiculous\n\nDERIVED FORM: ⟦そんなに→そんなに：01646_sonnani⟧ (to that extent)",
   "cross_references": [
     {
       "type": "contrast",
@@ -85,11 +85,18 @@
       "reading": "どんな",
       "headword": "どんな",
       "label": "what kind of (question)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30277_sonoyouna",
+      "reading": "そのような",
+      "headword": "そのような",
+      "label": "such"
     }
   ],
   "metadata": {
     "created": "2026-01-09T12:48:07Z",
-    "modified": "2026-05-16T14:16:05Z",
+    "modified": "2026-09-02T04:01:00Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

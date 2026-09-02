@@ -3,7 +3,7 @@
   "id": "18053_manpai",
   "headword": "{満杯|まんぱい}",
   "reading": "まんぱい",
-  "part_of_speech": "noun / adjective-na",
+  "part_of_speech": "noun, na-adjective",
   "gloss": "full to capacity, packed full",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "18053_manpai_ex1",
-      "japanese": "ゴミ{箱|ばこ}が{満杯|まんぱい}だ。",
+      "japanese": "⟦ゴミ{箱|ばこ}→ゴミ箱：06994_gomibako⟧⟦が→が：00051_ga⟧{満杯|まんぱい}だ。",
       "english": "The trash can is full.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "18053_manpai_ex2",
-      "japanese": "{駐車場|ちゅうしゃじょう}はもう{満杯|まんぱい}です。",
+      "japanese": "⟦{駐車場|ちゅうしゃじょう}→駐車場：01667_chuushajou⟧⟦は→は：00079_ha⟧⟦もう→もう：00602_mou⟧{満杯|まんぱい}です。",
       "english": "The parking lot is already full.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "18053_manpai_ex3",
-      "japanese": "{予約|よやく}が{満杯|まんぱい}で、{今月|こんげつ}はもう{空|あ}きがありません。",
+      "japanese": "⟦{予約|よやく}→予約：01522_yoyaku⟧⟦が→が：00051_ga⟧{満杯|まんぱい}⟦で→で：00502_de⟧、⟦{今月|こんげつ}→今月：00720_kongetsu⟧⟦は→は：00079_ha⟧⟦もう→もう：00602_mou⟧⟦{空|あ}き→空き：10464_aki⟧⟦が→が：00051_ga⟧⟦ありません→ある：00006_aru⟧。",
       "english": "Reservations are completely full, and there are no openings left this month.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nUsed as a na-adjective ({満杯|まんぱい}な/{満杯|まんぱい}の) or as a predicate ({満杯|まんぱい}だ). Commonly used for physical containers (trash cans, tanks), facilities (parking lots, hotels), and abstract capacities (schedules, server storage).\n\nSIMILAR WORDS:\n- {満員|まんいん}: full capacity (specifically for people)\n- {満席|まんせき}: all seats taken\n- いっぱい: full (more general and conversational)\n\nCOMMON COLLOCATIONS:\n- ゴミ{箱|ばこ}が{満杯|まんぱい}: trash can is full\n- {駐車場|ちゅうしゃじょう}が{満杯|まんぱい}: parking lot is full\n- {倉庫|そうこ}が{満杯|まんぱい}: warehouse is full",
+  "notes": "USAGE:\nUsed as a na-adjective ({満杯|まんぱい}な/{満杯|まんぱい}⟦の→の：09472_no⟧) or as a predicate ({満杯|まんぱい}だ). Commonly used for physical containers (trash cans, tanks), facilities (parking lots, hotels), and abstract capacities (schedules, server storage).\n\nSIMILAR WORDS:\n- ⟦{満員|まんいん}→満員：07584_manin⟧: full capacity (specifically for people)\n- ⟦{満席|まんせき}→満席：07585_manseki⟧: all seats taken\n- いっぱい: full (more general and conversational)\n\nCOMMON COLLOCATIONS:\n- ⟦ゴミ{箱|ばこ}→ゴミ箱：06994_gomibako⟧⟦が→が：00051_ga⟧{満杯|まんぱい}: trash can is full\n- ⟦{駐車場|ちゅうしゃじょう}→駐車場：01667_chuushajou⟧⟦が→が：00051_ga⟧{満杯|まんぱい}: parking lot is full\n- ⟦{倉庫|そうこ}→倉庫：04044_souko⟧⟦が→が：00051_ga⟧{満杯|まんぱい}: warehouse is full",
   "cross_references": [
     {
       "type": "synonym",
@@ -59,11 +59,32 @@
       "reading": "まんせき",
       "headword": "{満席|まんせき}",
       "label": "all seats taken"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01793_ippai",
+      "reading": "いっぱい",
+      "headword": "{一杯|いっぱい}",
+      "label": "full"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05891_gisshiri",
+      "reading": "ぎっしり",
+      "headword": "ぎっしり",
+      "label": "packed"
+    },
+    {
+      "type": "related",
+      "target_id": "09134_houwa",
+      "reading": "ほうわ",
+      "headword": "{飽和|ほうわ}",
+      "label": "saturation"
     }
   ],
   "metadata": {
     "created": "2026-03-20T01:03:26Z",
-    "modified": "2026-05-08T04:12:06Z",
+    "modified": "2026-09-02T04:01:50Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

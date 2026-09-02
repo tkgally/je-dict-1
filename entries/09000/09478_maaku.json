@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "09478_maaku_ex1",
-      "japanese": "×マーク⟦が→が：00051_ga⟧ある。",
+      "japanese": "×マーク⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There's an X mark.",
       "has_audio": false,
       "sense_numbers": [
@@ -23,7 +23,7 @@
     },
     {
       "id": "09478_maaku_ex2",
-      "japanese": "⟦この→この：00962_kono⟧マーク⟦は→は：00079_ha⟧{何|なん}⟦の→の：09472_no⟧⟦{意味|いみ}→意味：01155_imi⟧です⟦か→か：09473_ka⟧。",
+      "japanese": "⟦この→この：00962_kono⟧マーク⟦は→は：00079_ha⟧⟦{何|なん}→何〜：03100_nan⟧⟦の→の：09472_no⟧⟦{意味|いみ}→意味：01155_imi⟧です⟦か→か：09473_ka⟧。",
       "english": "What does this mark mean?",
       "has_audio": false,
       "sense_numbers": [
@@ -32,7 +32,7 @@
     },
     {
       "id": "09478_maaku_ex3",
-      "japanese": "⟦{駐車|ちゅうしゃ}→駐車：01466_chuusha⟧⟦{禁止|きんし}→禁止：02643_kinshi⟧⟦の→の：09472_no⟧マーク⟦を→を：00422_wo⟧{見|み}る。",
+      "japanese": "⟦{駐車|ちゅうしゃ}→駐車：01466_chuusha⟧⟦{禁止|きんし}→禁止：02643_kinshi⟧⟦の→の：09472_no⟧マーク⟦を→を：00422_wo⟧⟦{見|み}る→見る：00283_miru⟧。",
       "english": "To see a no parking mark.",
       "has_audio": false,
       "sense_numbers": [
@@ -40,10 +40,26 @@
       ]
     }
   ],
-  "notes": "マーク is a loanword from English \"mark,\" used broadly for symbols, signs, logos, and indicators.\n\nCOMMON TYPES:\n- ×マーク: X mark (wrong, prohibited)\n- ○マーク: circle mark (correct, OK — unique to Japanese culture)\n- チェックマーク: check mark\n- {商標|しょうひょう}マーク: trademark symbol\n- クエスチョンマーク: question mark\n\nAS A SURU VERB:\nマークする means to mark, to watch, or to keep an eye on:\n- {警察|けいさつ}にマークされる: to be watched by the police\n- {相手|あいて}のエースをマークする: to mark the opponent's ace (sports)\n\nCULTURAL NOTE:\nIn Japan, ○ (circle) means correct/good and × means wrong/no. This is the opposite of some Western conventions where a check mark (✓) means correct.",
+  "notes": "マーク is a loanword from English \"mark,\" used broadly for symbols, signs, logos, and indicators.\n\nTYPES:\n- ×マーク: X mark (wrong, prohibited)\n- ○マーク: circle mark (correct, OK — unique to Japanese culture)\n- チェックマーク: check mark\n- ⟦{商標|しょうひょう}→商標：12019_shouhyou⟧マーク: trademark symbol\n- クエスチョンマーク: question mark\n\nAS A SURU VERB:\nマーク⟦する→する：00392_suru⟧ means to mark, to watch, or to keep an eye on:\n- ⟦{警察|けいさつ}→警察：01393_keisatsu⟧⟦に→に：00314_ni⟧マーク⟦される→する：00392_suru⟧: to be watched by the police\n- ⟦{相手|あいて}→相手：01677_aite⟧⟦の→の：09472_no⟧⟦エース→エース：28537_eesu⟧⟦を→を：00422_wo⟧マーク⟦する→する：00392_suru⟧: to mark the opponent's ace (sports)\n\nCULTURAL NOTE:\nIn Japan, ○ (circle) means correct/good and × means wrong/no. This is the opposite of some Western conventions where a check mark (✓) means correct.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00224_kigou",
+      "reading": "きごう",
+      "headword": "{記号|きごう}",
+      "label": "symbol"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10948_shinboru",
+      "reading": "しんぼる",
+      "headword": "シンボル",
+      "label": "symbol"
+    }
+  ],
   "metadata": {
     "created": "2026-02-02T07:47:12Z",
-    "modified": "2026-03-25T04:08:57Z",
+    "modified": "2026-09-02T04:01:18Z",
     "ai_model": "claude-opus-4-5-20251101",
     "vocabulary_tier": "general",
     "tags": {

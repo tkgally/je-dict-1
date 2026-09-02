@@ -3,7 +3,7 @@
   "headword": "{効率的|こうりつてき}な",
   "reading": "こうりつてきな",
   "romaji": "kouritsutekina",
-  "part_of_speech": "adjective",
+  "part_of_speech": "na-adjective",
   "gloss": "efficient; effective",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22443_kouritsutekina_ex1",
-      "japanese": "{効率的|こうりつてき}に{勉強|べんきょう}する。",
+      "japanese": "{効率的|こうりつてき}に⟦{勉強|べんきょう}する→勉強する：00527_benkyousuru⟧。",
       "english": "To study efficiently.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22443_kouritsutekina_ex2",
-      "japanese": "もっと{効率的|こうりつてき}な{方法|ほうほう}はないだろうか。",
+      "japanese": "⟦もっと→もっと：00798_motto⟧{効率的|こうりつてき}な⟦{方法|ほうほう}→方法：03621_houhou⟧⟦は→は：00079_ha⟧⟦ない→ない：01118_nai⟧だろう⟦か→か：09473_ka⟧。",
       "english": "Isn't there a more efficient way?",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22443_kouritsutekina_ex3",
-      "japanese": "{限|かぎ}られた{時間|じかん}を{効率的|こうりつてき}に{使|つか}うことが{成功|せいこう}の{鍵|かぎ}だ。",
+      "japanese": "⟦{限|かぎ}られた→限る：02033_kagiru⟧⟦{時間|じかん}→時間：00468_jikan⟧⟦を→を：00422_wo⟧{効率的|こうりつてき}に⟦{使|つか}う→使う：00473_tsukau⟧こと⟦が→が：00051_ga⟧⟦{成功|せいこう}→成功：02638_seikou⟧⟦の→の：09472_no⟧⟦{鍵|かぎ}→鍵：02189_kagi⟧だ。",
       "english": "Using limited time efficiently is the key to success.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "A very common modifier in business, academic, and daily contexts. Formed from {効率|こうりつ} (efficiency) + {的|てき} (suffix making na-adjectives). The base noun {効率|こうりつ} is also frequently used on its own.\n\nCOMMON COLLOCATIONS:\n- {効率的|こうりつてき}な{方法|ほうほう}: an efficient method\n- {効率的|こうりつてき}に{働|はたら}く: to work efficiently\n- {効率的|こうりつてき}な{運用|うんよう}: efficient operation/management\n- {効率的|こうりつてき}な{使|つか}い{方|かた}: efficient way of using\n\nSIMILAR WORDS:\n- {能率的|のうりつてき}な: efficient — very similar but slightly more formal and less commonly used\n- {効果的|こうかてき}な: effective — focuses on achieving good results, not necessarily with minimal waste\n- {合理的|ごうりてき}な: rational / reasonable — focuses on being logical and well-reasoned\n- {生産的|せいさんてき}な: productive — focuses on output and results\n\nUSAGE:\nThe adverbial form {効率的|こうりつてき}に (efficiently) is extremely common in workplace and study contexts. The opposite concept is {非効率的|ひこうりつてき}な (inefficient).",
+  "notes": "A very common modifier in business, academic, and daily contexts. Formed from ⟦{効率|こうりつ}→効率：11794_kouritsu⟧ (efficiency) + ⟦{的|てき}→〜的：09839_teki⟧ (suffix making na-adjectives). The base noun ⟦{効率|こうりつ}→効率：11794_kouritsu⟧ is also frequently used on its own.\n\nCOMMON COLLOCATIONS:\n- {効率的|こうりつてき}な⟦{方法|ほうほう}→方法：03621_houhou⟧: an efficient method\n- {効率的|こうりつてき}に⟦{働|はたら}く→働く：00503_hataraku⟧: to work efficiently\n- {効率的|こうりつてき}な⟦{運用|うんよう}→運用：06811_unyou⟧: efficient operation/management\n- {効率的|こうりつてき}な⟦{使|つか}い{方|かた}→使い方：07797_tsukaikata⟧: efficient way of using\n\nSIMILAR WORDS:\n- ⟦{能率的|のうりつてき}→能率的：29430_nouritsuteki⟧な: efficient — very similar but slightly more formal and less commonly used\n- ⟦{効果的|こうかてき}→効果的：04793_koukateki⟧な: effective — focuses on achieving good results, not necessarily with minimal waste\n- ⟦{合理的|ごうりてき}→合理的：06199_gouriteki⟧な: rational / reasonable — focuses on being logical and well-reasoned\n- {生産的|せいさんてき}な: productive — focuses on output and results\n\nUSAGE:\nThe adverbial form {効率的|こうりつてき}に (efficiently) is extremely common in workplace and study contexts. The opposite concept is ⟦{非効率的|ひこうりつてき}→非効率的：27178_hikouritsuteki⟧な (inefficient).",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "29430_nouritsuteki",
+      "reading": "のうりつてき",
+      "headword": "{能率的|のうりつてき}",
+      "label": "efficient"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04793_koukateki",
+      "reading": "こうかてき",
+      "headword": "{効果的|こうかてき}",
+      "label": "effective"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06199_gouriteki",
+      "reading": "ごうりてき",
+      "headword": "{合理的|ごうりてき}",
+      "label": "rational / reasonable"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +83,6 @@
       ]
     },
     "created": "2026-04-06T10:43:14Z",
-    "modified": "2026-04-06T10:43:14Z"
+    "modified": "2026-09-02T04:02:08Z"
   }
 }

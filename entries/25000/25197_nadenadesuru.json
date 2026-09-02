@@ -2,7 +2,7 @@
   "id": "25197_nadenadesuru",
   "headword": "なでなでする",
   "reading": "なでなでする",
-  "part_of_speech": "verb, onomatopoeia",
+  "part_of_speech": "suru verb, onomatopoeia",
   "gloss": "to stroke gently; to pet",
   "definitions": [
     {
@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "25197_nadenadesuru_ex1",
-      "japanese": "{猫|ねこ}をなでなでする。",
+      "japanese": "⟦{猫|ねこ}→猫：02237_neko⟧⟦を→を：00422_wo⟧なでなでする。",
       "english": "I pet the cat.",
       "has_audio": false,
       "sense_numbers": [
@@ -24,7 +24,7 @@
     },
     {
       "id": "25197_nadenadesuru_ex2",
-      "japanese": "{子|こ}どもの{頭|あたま}をなでなでした。",
+      "japanese": "{子|こ}ども⟦の→の：09472_no⟧⟦{頭|あたま}→頭：00574_atama⟧⟦を→を：00422_wo⟧なでなでした。",
       "english": "I gently stroked the child's head.",
       "has_audio": false,
       "sense_numbers": [
@@ -34,7 +34,7 @@
     },
     {
       "id": "25197_nadenadesuru_ex3",
-      "japanese": "{彼|かれ}は{泣|な}いている{彼女|かのじょ}の{背中|せなか}をなでなでしてあげた。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{泣|な}いている→泣く：00655_naku⟧⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦の→の：09472_no⟧⟦{背中|せなか}→背中：00810_senaka⟧⟦を→を：00422_wo⟧なでなでして⟦あげた→あげる：00546_ageru⟧。",
       "english": "He gently rubbed her back while she was crying.",
       "has_audio": false,
       "sense_numbers": [
@@ -43,7 +43,7 @@
       "notes": null
     }
   ],
-  "notes": "Childlike or affectionate reduplication of {撫|な}でる (to stroke). The repetition conveys gentle, repeated stroking with a warm, tender nuance. Very common in casual speech and online communication.\n\nUSAGE:\n- Often used when talking about petting animals or comforting children\n- Has a cute, affectionate tone — frequently used in informal and internet contexts\n- Conjugates as a suru verb: なでなでして, なでなでした, なでなでしたい\n\nCOMMON COLLOCATIONS:\n- {頭|あたま}をなでなでする: to pat someone's head affectionately\n- {猫|ねこ}をなでなでする: to pet a cat\n- なでなでしてあげる: to pet (for someone's benefit)\n\nSIMILAR WORDS:\n- {撫|な}でる: to stroke, to pet — the standard verb without the cute reduplication\n- さすさすする: to rub gently — similar mimetic verb for rubbing rather than stroking\n- よしよしする: to pat comfortingly while saying \"there, there\"",
+  "notes": "Childlike or affectionate reduplication of ⟦{撫|な}でる→撫でる：04411_naderu⟧ (to stroke). The repetition conveys gentle, repeated stroking with a warm, tender nuance. Very common in casual speech and online communication.\n\nUSAGE:\n- Often used when talking about petting animals or comforting children\n- Has a cute, affectionate tone — frequently used in informal and internet contexts\n- Conjugates as a suru verb: なでなでして, なでなでした, なでなでしたい\n\nCOMMON COLLOCATIONS:\n- ⟦{頭|あたま}→頭：00574_atama⟧⟦を→を：00422_wo⟧なでなでする: to pat someone's head affectionately\n- ⟦{猫|ねこ}→猫：02237_neko⟧⟦を→を：00422_wo⟧なでなでする: to pet a cat\n- なでなでして⟦あげる→あげる：00546_ageru⟧: to pet (for someone's benefit)\n\nSIMILAR WORDS:\n- ⟦{撫|な}でる→撫でる：04411_naderu⟧: to stroke, to pet — the standard verb without the cute reduplication\n- さすさす⟦する→する：00392_suru⟧: to rub gently — similar mimetic verb for rubbing rather than stroking\n- ⟦よし→よし：10741_yoshi⟧⟦よし→よし：10741_yoshi⟧⟦する→する：00392_suru⟧: to pat comfortingly while saying \"there, there\"",
   "cross_references": [
     {
       "type": "related",
@@ -55,7 +55,7 @@
   ],
   "metadata": {
     "created": "2026-04-23T14:38:24Z",
-    "modified": "2026-04-23T14:38:24Z",
+    "modified": "2026-09-02T04:02:21Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
@@ -70,7 +70,8 @@
       "semantic": [
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   },
   "conjugation": {

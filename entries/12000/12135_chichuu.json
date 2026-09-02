@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "12135_chichuu_ex1",
-      "japanese": "{地中|ちちゅう}に{管|かん}を{埋|う}める。",
+      "japanese": "{地中|ちちゅう}⟦に→に：00314_ni⟧⟦{管|かん}→管：09749_kan⟧⟦を→を：00422_wo⟧⟦{埋|う}める→埋める：01901_umeru⟧。",
       "english": "To bury pipes underground.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12135_chichuu_ex2",
-      "japanese": "{地中|ちちゅう}{深|ふか}くに{水脈|すいみゃく}がある。",
+      "japanese": "{地中|ちちゅう}⟦{深|ふか}く→深い：01211_fukai⟧⟦に→に：00314_ni⟧{水脈|すいみゃく}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There is an underground water vein deep below the surface.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12135_chichuu_ex3",
-      "japanese": "{植物|しょくぶつ}の{根|ね}は{地中|ちちゅう}に{広|ひろ}がり、{水分|すいぶん}や{養分|ようぶん}を{吸収|きゅうしゅう}している。",
+      "japanese": "⟦{植物|しょくぶつ}→植物：03248_shokubutsu⟧⟦の→の：09472_no⟧⟦{根|ね}→根：03525_ne⟧⟦は→は：00079_ha⟧{地中|ちちゅう}⟦に→に：00314_ni⟧⟦{広|ひろ}がり→広がる：01980_hirogaru⟧、⟦{水分|すいぶん}→水分：04302_suibun⟧や{養分|ようぶん}⟦を→を：00422_wo⟧⟦{吸収|きゅうしゅう}している→吸収する：25365_kyuushuusuru⟧。",
       "english": "Plant roots spread underground, absorbing water and nutrients.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\n{地中|ちちゅう} specifically means within the earth, as opposed to {地下|ちか} which often refers to underground spaces designed for human use (basements, subways). {地中|ちちゅう} is more natural when talking about things physically embedded in the soil or rock.\n\nCOMMON COLLOCATIONS:\n- {地中|ちちゅう}に{埋|う}める: to bury underground\n- {地中|ちちゅう}{深|ふか}く: deep underground\n- {地中|ちちゅう}{海|かい}: the Mediterranean Sea\n- {地中|ちちゅう}の{温度|おんど}: underground temperature",
+  "notes": "USAGE:\n{地中|ちちゅう} specifically means within the earth, as opposed to ⟦{地下|ちか}→地下：03429_chika⟧ which often refers to underground spaces designed for human use (basements, subways). {地中|ちちゅう} is more natural when talking about things physically embedded in the soil or rock.\n\nCOMMON COLLOCATIONS:\n- {地中|ちちゅう}⟦に→に：00314_ni⟧⟦{埋|う}める→埋める：01901_umeru⟧: to bury underground\n- {地中|ちちゅう}⟦{深|ふか}く→深い：01211_fukai⟧: deep underground\n- {地中|ちちゅう}{海|かい}: the Mediterranean Sea\n- {地中|ちちゅう}⟦の→の：09472_no⟧⟦{温度|おんど}→温度：00333_ondo⟧: underground temperature",
   "cross_references": [
     {
       "type": "contrast",
@@ -46,18 +52,43 @@
       "headword": "{地下|ちか}",
       "target_id": "03429_chika",
       "label": "underground (spaces)"
+    },
+    {
+      "type": "related",
+      "target_id": "18419_chihyou",
+      "reading": "ちひょう",
+      "headword": "{地表|ちひょう}",
+      "label": "earth's surface"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24854_chitei",
+      "reading": "ちてい",
+      "headword": "{地底|ちてい}",
+      "label": "underground"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26452_dochuu",
+      "reading": "どちゅう",
+      "headword": "{土中|どちゅう}",
+      "label": "in the soil"
     }
   ],
   "metadata": {
     "created": "2026-02-20T08:57:17Z",
-    "modified": "2026-02-20T08:57:17Z",
+    "modified": "2026-09-02T04:01:27Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["geography"]
+      "semantic": [
+        "geography"
+      ]
     }
   }
 }

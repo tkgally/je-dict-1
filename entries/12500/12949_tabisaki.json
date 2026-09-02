@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "12949_tabisaki_ex1",
-      "japanese": "{旅先|たびさき}で{友達|ともだち}ができた。",
+      "japanese": "{旅先|たびさき}⟦で→で：00502_de⟧⟦{友達|ともだち}→友達：01478_tomodachi⟧⟦が→が：00051_ga⟧⟦できた→できる：00557_dekiru⟧。",
       "english": "I made a friend at my travel destination.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "12949_tabisaki_ex2",
-      "japanese": "{旅先|たびさき}から{絵|え}はがきを{送|おく}った。",
+      "japanese": "{旅先|たびさき}⟦から→から：00504_kara⟧⟦{絵|え}→絵：02613_e⟧⟦はがき→はがき：00699_hagaki⟧⟦を→を：00422_wo⟧⟦{送|おく}った→送る：00742_okuru⟧。",
       "english": "I sent a postcard from the place I was visiting.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "12949_tabisaki_ex3",
-      "japanese": "{旅先|たびさき}で{体調|たいちょう}を{崩|くず}して、ホテルで{寝込|ねこ}んでしまった。",
+      "japanese": "{旅先|たびさき}⟦で→で：00502_de⟧⟦{体調|たいちょう}→体調：04644_taichou⟧⟦を→を：00422_wo⟧⟦{崩|くず}して→崩す：03919_kuzusu⟧、⟦ホテル→ホテル：01027_hoteru⟧⟦で→で：00502_de⟧{寝込|ねこ}んでしまった。",
       "english": "I fell ill at my travel destination and ended up bedridden at the hotel.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nRefers to the place one is currently visiting or has visited during a trip. Often used with the particle で (at) to describe things that happen while traveling. Unlike {目的地|もくてきち} (destination as a target), {旅先|たびさき} focuses on the experiential aspect — what happens while one is there.\n\nCOMMON COLLOCATIONS:\n- {旅先|たびさき}で: at one's travel destination\n- {旅先|たびさき}から: from one's travel destination\n- {旅先|たびさき}での{出来事|できごと}: events at one's travel destination\n\nSIMILAR WORDS:\n- {目的地|もくてきち}: destination (planned target of travel)\n- {行|い}き{先|さき}: destination, where one is headed\n- {滞在先|たいざいさき}: place of stay",
+  "notes": "USAGE:\nRefers to the place one is currently visiting or has visited during a trip. Often used with the particle で (at) to describe things that happen while traveling. Unlike ⟦{目的地|もくてきち}→目的地：09996_mokutekichi⟧ (destination as a target), {旅先|たびさき} focuses on the experiential aspect — what happens while one is there.\n\nCOMMON COLLOCATIONS:\n- {旅先|たびさき}⟦で→で：00502_de⟧: at one's travel destination\n- {旅先|たびさき}⟦から→から：00504_kara⟧: from one's travel destination\n- {旅先|たびさき}⟦で→で：00502_de⟧⟦の→の：09472_no⟧⟦{出来事|できごと}→出来事：03446_dekigoto⟧: events at one's travel destination\n\nSIMILAR WORDS:\n- ⟦{目的地|もくてきち}→目的地：09996_mokutekichi⟧: destination (planned target of travel)\n- ⟦{行|い}き{先|さき}→行き先：16779_ikisaki⟧: destination, where one is headed\n- ⟦{滞在先|たいざいさき}→滞在先：18193_taizaisaki⟧: place of stay",
   "cross_references": [
     {
       "type": "related",
@@ -52,11 +52,32 @@
       "reading": "たび",
       "headword": "{旅|たび}",
       "label": "trip, travel"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09996_mokutekichi",
+      "reading": "もくてきち",
+      "headword": "{目的地|もくてきち}",
+      "label": "destination"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16779_ikisaki",
+      "reading": "いきさき",
+      "headword": "{行|い}き{先|さき}",
+      "label": "destination, where one is headed"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18193_taizaisaki",
+      "reading": "たいざいさき",
+      "headword": "{滞在先|たいざいさき}",
+      "label": "place of stay"
     }
   ],
   "metadata": {
     "created": "2026-02-22T23:36:00Z",
-    "modified": "2026-04-27T10:17:30Z",
+    "modified": "2026-09-02T04:01:31Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

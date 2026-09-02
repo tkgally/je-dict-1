@@ -3,7 +3,7 @@
   "headword": "{消灯|しょうとう}",
   "reading": "しょうとう",
   "romaji": "shoutou",
-  "part_of_speech": "noun / する verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "turning off the lights; lights out",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "18944_shoutou_ex1",
-      "japanese": "{消灯|しょうとう}{時間|じかん}は{十時|じゅうじ}です。",
+      "japanese": "{消灯|しょうとう}⟦{時間|じかん}→時間：00468_jikan⟧⟦は→は：00079_ha⟧{十時|じゅうじ}です。",
       "english": "Lights out is at ten o'clock.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "18944_shoutou_ex2",
-      "japanese": "{病院|びょういん}では{九時|くじ}に{消灯|しょうとう}になる。",
+      "japanese": "⟦{病院|びょういん}→病院：00577_byouin⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{九時|くじ}→九時：10980_kuji⟧⟦に→に：00314_ni⟧{消灯|しょうとう}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧。",
       "english": "In the hospital, lights go out at nine.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "18944_shoutou_ex3",
-      "japanese": "{消灯|しょうとう}{後|ご}も{布団|ふとん}の{中|なか}でこっそり{本|ほん}を{読|よ}んでいた。",
+      "japanese": "{消灯|しょうとう}⟦{後|ご}→後：30157_go⟧⟦も→も：00484_mo⟧⟦{布団|ふとん}→布団：01720_futon⟧⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧⟦で→で：00502_de⟧⟦こっそり→こっそり：05890_kossori⟧{本|ほん}⟦を→を：00422_wo⟧⟦{読|よ}んでいた→読む：00426_yomu⟧。",
       "english": "Even after lights out, I was secretly reading a book under the covers.",
       "sense_numbers": [
         1
@@ -134,7 +134,7 @@
       "notes": null
     }
   ],
-  "notes": "WORD FORMATION:\n{消|しょう} (extinguish) + {灯|とう} (light, lamp).\n\nCOMMON COLLOCATIONS:\n- {消灯|しょうとう}{時間|じかん}: lights-out time\n- {消灯|しょうとう}{後|ご}: after lights out\n- {消灯|しょうとう}する: to turn off the lights\n\nUSAGE:\nPrimarily used in institutional contexts where lights-out is a scheduled event:\n- {病院|びょういん}: hospitals\n- {寮|りょう}: dormitories\n- {軍隊|ぐんたい}: military barracks\n- キャンプ: summer camps\n\nFor everyday home use, {電気|でんき}を{消|け}す (turn off the light) is more natural than {消灯|しょうとう}する.\n\nCONTRAST:\n- {消灯|しょうとう}: turning off lights (formal/institutional)\n- {点灯|てんとう}: turning on lights (opposite)\n- {電気|でんき}を{消|け}す: turn off the light (everyday)",
+  "notes": "FORMS:\n{消|しょう} (extinguish) + {灯|とう} (light, lamp).\n\nCOMMON COLLOCATIONS:\n- {消灯|しょうとう}⟦{時間|じかん}→時間：00468_jikan⟧: lights-out time\n- {消灯|しょうとう}⟦{後|ご}→後：30157_go⟧: after lights out\n- {消灯|しょうとう}⟦する→する：00392_suru⟧: to turn off the lights\n\nUSAGE:\nPrimarily used in institutional contexts where lights-out is a scheduled event:\n- ⟦{病院|びょういん}→病院：00577_byouin⟧: hospitals\n- ⟦{寮|りょう}→寮：03800_ryou⟧: dormitories\n- ⟦{軍隊|ぐんたい}→軍隊：02678_guntai⟧: military barracks\n- ⟦キャンプ→キャンプ：03837_kyanpu⟧: summer camps\n\nFor everyday home use, ⟦{電気|でんき}→電気：09780_denki⟧⟦を→を：00422_wo⟧⟦{消|け}す→消す：00528_kesu⟧ (turn off the light) is more natural than {消灯|しょうとう}⟦する→する：00392_suru⟧.\n\nSIMILAR WORDS:\n- {消灯|しょうとう}: turning off lights (formal/institutional)\n- ⟦{点灯|てんとう}→点灯：17477_tentou⟧: turning on lights (opposite)\n- ⟦{電気|でんき}→電気：09780_denki⟧⟦を→を：00422_wo⟧⟦{消|け}す→消す：00528_kesu⟧: turn off the light (everyday)",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -151,7 +151,7 @@
       "verb_class": "suru"
     },
     "created": "2026-03-23T10:17:58Z",
-    "modified": "2026-05-06T08:07:18Z"
+    "modified": "2026-09-02T04:01:54Z"
   },
   "cross_references": [
     {
@@ -160,6 +160,20 @@
       "reading": "てんとう",
       "headword": "{点灯|てんとう}",
       "label": "lighting, turning on"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17970_tenmetsu",
+      "reading": "てんめつ",
+      "headword": "{点滅|てんめつ}",
+      "label": "flashing"
+    },
+    {
+      "type": "antonym",
+      "target_id": "20211_tentousuru",
+      "reading": "てんとうする",
+      "headword": "{点灯|てんとう}する",
+      "label": "to light"
     }
   ]
 }

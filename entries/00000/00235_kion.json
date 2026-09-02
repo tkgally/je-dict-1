@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{気温|きおん} refers specifically to the temperature of the outside air, as measured and reported in weather forecasts. It is not used for indoor temperature, body temperature, or the temperature of objects.\n\nCOMMON COMPOUNDS:\n- ⟦{最高|さいこう}→最高：02637_saikou⟧{気温|きおん}: high temperature (daily maximum)\n- ⟦{最低|さいてい}→最低：01412_saitei⟧{気温|きおん}: low temperature (daily minimum)\n- ⟦{平均|へいきん}→平均：03614_heikin⟧{気温|きおん}: average temperature\n\nCOMMON PATTERNS:\n- {気温|きおん}⟦が→が：00051_ga⟧⟦{上|あ}がる→上がる：00615_agaru⟧: temperature rises\n- {気温|きおん}⟦が→が：00051_ga⟧⟦{下|さ}がる→下がる：01188_sagaru⟧: temperature drops\n- {気温|きおん}⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧/⟦{低|ひく}い→低い：02947_hikui⟧: temperature is high/low\n\nSIMILAR WORDS:\n- ⟦{温度|おんど}→温度：00333_ondo⟧: temperature in general (room, water, oven, etc.)\n- ⟦{体温|たいおん}→体温：03385_taion⟧: body temperature\n- ⟦{水温|すいおん}→水温：27380_suion⟧: water temperature\n\nIn Japan, temperature is measured in Celsius (⟦{摂氏|せっし}→摂氏：12906_sesshi⟧).",
+  "notes": "{気温|きおん} refers specifically to the temperature of the outside air, as measured and reported in weather forecasts. It is not used for indoor temperature, body temperature, or the temperature of objects.\n\nCOMPOUNDS:\n- ⟦{最高|さいこう}→最高：02637_saikou⟧{気温|きおん}: high temperature (daily maximum)\n- ⟦{最低|さいてい}→最低：01412_saitei⟧{気温|きおん}: low temperature (daily minimum)\n- ⟦{平均|へいきん}→平均：03614_heikin⟧{気温|きおん}: average temperature\n\nCOMMON PATTERNS:\n- {気温|きおん}⟦が→が：00051_ga⟧⟦{上|あ}がる→上がる：00615_agaru⟧: temperature rises\n- {気温|きおん}⟦が→が：00051_ga⟧⟦{下|さ}がる→下がる：01188_sagaru⟧: temperature drops\n- {気温|きおん}⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧/⟦{低|ひく}い→低い：02947_hikui⟧: temperature is high/low\n\nSIMILAR WORDS:\n- ⟦{温度|おんど}→温度：00333_ondo⟧: temperature in general (room, water, oven, etc.)\n- ⟦{体温|たいおん}→体温：03385_taion⟧: body temperature\n- ⟦{水温|すいおん}→水温：27380_suion⟧: water temperature\n\nIn Japan, temperature is measured in Celsius (⟦{摂氏|せっし}→摂氏：12906_sesshi⟧).",
   "cross_references": [
     {
       "type": "related",
@@ -51,11 +51,39 @@
       "reading": "おんど",
       "headword": "{温度|おんど}",
       "label": "temperature (general)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03385_taion",
+      "reading": "たいおん",
+      "headword": "{体温|たいおん}",
+      "label": "body temperature"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27380_suion",
+      "reading": "すいおん",
+      "headword": "{水温|すいおん}",
+      "label": "water temperature"
+    },
+    {
+      "type": "related",
+      "target_id": "25310_shitsuon",
+      "reading": "しつおん",
+      "headword": "{室温|しつおん}",
+      "label": "room temperature"
+    },
+    {
+      "type": "related",
+      "target_id": "25563_kousuikakuritsu",
+      "reading": "こうすいかくりつ",
+      "headword": "{降水確率|こうすいかくりつ}",
+      "label": "chance of precipitation"
     }
   ],
   "metadata": {
     "created": "2026-01-10T08:42:54Z",
-    "modified": "2026-08-08T09:25:02Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

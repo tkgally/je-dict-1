@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "18687_zokushin_ex1",
-      "japanese": "{株価|かぶか}が{続伸|ぞくしん}した。",
+      "japanese": "⟦{株価|かぶか}→株価：05154_kabuka⟧⟦が→が：00051_ga⟧{続伸|ぞくしん}⟦した→する：00392_suru⟧。",
       "english": "Stock prices continued to rise.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "18687_zokushin_ex2",
-      "japanese": "{日経|にっけい}{平均|へいきん}は3{日|にち}{連続|れんぞく}で{続伸|ぞくしん}している。",
+      "japanese": "{日経|にっけい}⟦{平均|へいきん}→平均：03614_heikin⟧⟦は→は：00079_ha⟧3⟦{日|にち}→日：12732_nichi⟧⟦{連続|れんぞく}→連続：03783_renzoku⟧⟦で→で：00502_de⟧{続伸|ぞくしん}⟦している→する：00392_suru⟧。",
       "english": "The Nikkei average has risen for three consecutive days.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "18687_zokushin_ex3",
-      "japanese": "{好決算|こうけっさん}を{受|う}けて、{同社|どうしゃ}の{株|かぶ}は{大幅|おおはば}に{続伸|ぞくしん}し、{年初|ねんしょ}{来高値|らいたかね}を{更新|こうしん}した。",
+      "japanese": "{好決算|こうけっさん}⟦を→を：00422_wo⟧⟦{受|う}けて→受ける：01215_ukeru⟧、{同社|どうしゃ}⟦の→の：09472_no⟧⟦{株|かぶ}→株：02592_kabu⟧⟦は→は：00079_ha⟧⟦{大幅|おおはば}→大幅：12170_oohaba⟧⟦に→に：00314_ni⟧{続伸|ぞくしん}し、{年初|ねんしょ}{来高値|らいたかね}⟦を→を：00422_wo⟧⟦{更新|こうしん}した→更新する：27994_koushinsuru⟧。",
       "english": "Following strong earnings, the company's stock continued to advance sharply, reaching a new high for the year.",
       "sense_numbers": [
         1
@@ -134,8 +134,24 @@
       "notes": null
     }
   ],
-  "notes": "{続伸|ぞくしん} is a financial-journalism term meaning 'continued rise' — typically of stock prices, market indexes, or other quantitative measures.\n\nUSAGE:\n- Functions as a する verb and as a noun.\n- Almost exclusively appears in market reports and financial headlines.\n- Composed of {続|ぞく} (continue) + {伸|しん} (extend, grow).\n\nCOMMON PATTERNS:\n- {日経平均|にっけいへいきん}が{続伸|ぞくしん}する (the Nikkei average continues to rise)\n- {三日|みっか}{続伸|ぞくしん}: rising for three consecutive days\n- {大幅|おおはば}{続伸|ぞくしん}: rising sharply for a second day in a row\n- 「{日経平均|にっけいへいきん}、{続伸|ぞくしん}」 (a typical headline)\n\nSIMILAR WORDS:\n- {続落|ぞくらく}: continued decline (the direct opposite).\n- {反発|はんぱつ}: rebound (rising after a previous fall).\n- {反落|はんらく}: pullback (falling after a previous rise).",
+  "notes": "{続伸|ぞくしん} is a financial-journalism term meaning 'continued rise' — typically of stock prices, market indexes, or other quantitative measures.\n\nUSAGE:\n- Functions as a ⟦する→する：00392_suru⟧ verb and as a noun.\n- Almost exclusively appears in market reports and financial headlines.\n- Composed of {続|ぞく} (continue) + {伸|しん} (extend, grow).\n\nCOMMON PATTERNS:\n- {日経平均|にっけいへいきん}⟦が→が：00051_ga⟧{続伸|ぞくしん}⟦する→する：00392_suru⟧ (the Nikkei average continues to rise)\n- ⟦{三日|みっか}→三日：02969_mikka⟧{続伸|ぞくしん}: rising for three consecutive days\n- ⟦{大幅|おおはば}→大幅：12170_oohaba⟧{続伸|ぞくしん}: rising sharply for a second day in a row\n- 「{日経平均|にっけいへいきん}、{続伸|ぞくしん}」 (a typical headline)\n\nSIMILAR WORDS:\n- {続落|ぞくらく}: continued decline (the direct opposite).\n- ⟦{反発|はんぱつ}→反発：08676_hanpatsu⟧: rebound (rising after a previous fall).\n- ⟦{反落|はんらく}→反落：10292_hanraku⟧: pullback (falling after a previous rise).",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08676_hanpatsu",
+      "reading": "はんぱつ",
+      "headword": "{反発|はんぱつ}",
+      "label": "rebound (rising after a previous fall)."
+    },
+    {
+      "type": "contrast",
+      "target_id": "10292_hanraku",
+      "reading": "はんらく",
+      "headword": "{反落|はんらく}",
+      "label": "pullback (falling after a previous…"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -151,9 +167,10 @@
       "domain": [
         "business"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     },
     "created": "2026-03-22T11:54:47Z",
-    "modified": "2026-04-10T13:28:57Z"
+    "modified": "2026-09-02T04:01:53Z"
   }
 }

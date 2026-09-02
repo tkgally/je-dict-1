@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "27404_maikurofon_ex1",
-      "japanese": "マイクロフォンの{性能|せいのう}を{比較|ひかく}した。",
+      "japanese": "マイクロフォン⟦の→の：09472_no⟧⟦{性能|せいのう}→性能：04340_seinou⟧⟦を→を：00422_wo⟧⟦{比較|ひかく}→比較：03576_hikaku⟧⟦した→する：00392_suru⟧。",
       "english": "I compared the performance of microphones.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "27404_maikurofon_ex2",
-      "japanese": "{高品質|こうひんしつ}のマイクロフォンを{使|つか}って{録音|ろくおん}した。",
+      "japanese": "⟦{高品質|こうひんしつ}→高品質：18051_kouhinshitsu⟧⟦の→の：09472_no⟧マイクロフォン⟦を→を：00422_wo⟧⟦{使|つか}って→使う：00473_tsukau⟧⟦{録音|ろくおん}した→録音する：25388_rokuonsuru⟧。",
       "english": "I recorded using a high-quality microphone.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "27404_maikurofon_ex3",
-      "japanese": "{有線|ゆうせん}と{無線|むせん}のマイクロフォンを{用途|ようと}に{応|おう}じて{使|つか}い{分|わ}けている。",
+      "japanese": "⟦{有線|ゆうせん}→有線：09227_yuusen⟧⟦と→と：00512_to⟧⟦{無線|むせん}→無線：09226_musen⟧⟦の→の：09472_no⟧マイクロフォン⟦を→を：00422_wo⟧⟦{用途|ようと}→用途：04089_youto⟧⟦に→に：00314_ni⟧⟦{応|おう}じて→応じる：02018_oujiru⟧⟦{使|つか}い{分|わ}けている→使い分ける：07666_tsukaiwakeru⟧。",
       "english": "I use wired and wireless microphones depending on the situation.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "From English \"microphone.\" The full form is used mainly in technical writing, equipment specifications, and broadcasting; in everyday Japanese the shortened form マイク is overwhelmingly more common.\n\nCOMMON COLLOCATIONS:\n- マイクロフォンを{使|つか}う: to use a microphone\n- マイクロフォンに{向|む}かう: to face the microphone\n- {コンデンサー}マイクロフォン: condenser microphone\n- {ダイナミック}マイクロフォン: dynamic microphone\n\nSIMILAR / RELATED WORDS:\n- マイク: microphone — the common everyday shortened form\n- スピーカー: speaker — the output counterpart\n- ヘッドセット: headset — combined headphones-and-microphone unit",
+  "notes": "From English \"microphone.\" The full form is used mainly in technical writing, equipment specifications, and broadcasting; in everyday Japanese the shortened form ⟦マイク→マイク：00267_maiku⟧ is overwhelmingly more common.\n\nCOMMON COLLOCATIONS:\n- マイクロフォン⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧: to use a microphone\n- マイクロフォン⟦に→に：00314_ni⟧⟦{向|む}かう→向かう：01186_mukau⟧: to face the microphone\n- コンデンサーマイクロフォン: condenser microphone\n- ⟦ダイナミック→ダイナミック：11485_dainamikku⟧マイクロフォン: dynamic microphone\n\nSIMILAR / RELATED WORDS:\n- ⟦マイク→マイク：00267_maiku⟧: microphone — the common everyday shortened form\n- ⟦スピーカー→スピーカー：04420_supiikaa⟧: speaker — the output counterpart\n- ⟦ヘッドセット→ヘッドセット：23849_heddosetto⟧: headset — combined headphones-and-microphone unit",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "00267_maiku",
+      "reading": "まいく",
+      "headword": "マイク",
+      "label": "microphone"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04420_supiikaa",
+      "reading": "すぴーかー",
+      "headword": "スピーカー",
+      "label": "speaker"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23849_heddosetto",
+      "reading": "へっどせっと",
+      "headword": "ヘッドセット",
+      "label": "headset"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +76,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "tool",
         "technology"
@@ -63,6 +86,6 @@
       ]
     },
     "created": "2026-05-11T07:07:17Z",
-    "modified": "2026-08-07T16:10:18Z"
+    "modified": "2026-09-02T04:02:30Z"
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28581_ryokouchuu_ex1",
-      "japanese": "{今|いま}{旅行中|りょこうちゅう}です。",
+      "japanese": "⟦{今|いま}→今：00945_ima⟧{旅行中|りょこうちゅう}です。",
       "english": "I'm on a trip right now.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28581_ryokouchuu_ex2",
-      "japanese": "{旅行中|りょこうちゅう}は{連絡|れんらく}が{取|と}れません。",
+      "japanese": "{旅行中|りょこうちゅう}⟦は→は：00079_ha⟧⟦{連絡|れんらく}→連絡：01524_renraku⟧⟦が→が：00051_ga⟧⟦{取|と}れません→取れる：02376_toreru⟧。",
       "english": "I can't be reached while I'm traveling.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28581_ryokouchuu_ex3",
-      "japanese": "{家族|かぞく}と{旅行中|りょこうちゅう}に{財布|さいふ}をなくしてしまった。",
+      "japanese": "⟦{家族|かぞく}→家族：00552_kazoku⟧⟦と→と：00512_to⟧{旅行中|りょこうちゅう}⟦に→に：00314_ni⟧⟦{財布|さいふ}→財布：00663_saifu⟧⟦を→を：00422_wo⟧なくしてしまった。",
       "english": "I lost my wallet while traveling with my family.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {旅行|りょこう} (trip) + 〜{中|ちゅう} (in the middle of, during). A productive pattern: many nouns can take {中|ちゅう} to mean 'during ~'.\n\nCOMMON COLLOCATIONS:\n- {旅行中|りょこうちゅう}に: during a trip (followed by an event)\n- {旅行中|りょこうちゅう}は: as for during the trip (topic marker)\n- {海外|かいがい}{旅行中|りょこうちゅう}: while traveling abroad\n- {新婚|しんこん}{旅行中|りょこうちゅう}: during a honeymoon\n\nPATTERN:\nThe suffix 〜{中|ちゅう} attaches freely to action nouns: {会議中|かいぎちゅう} (during a meeting), {勉強中|べんきょうちゅう} (while studying), {仕事中|しごとちゅう} (during work).",
+  "notes": "Compound of ⟦{旅行|りょこう}→旅行：00748_ryokou⟧ (trip) + 〜⟦{中|ちゅう}→〜中：09840_chuu⟧ (in the middle of, during). A productive pattern: many nouns can take ⟦{中|ちゅう}→〜中：09840_chuu⟧ to mean 'during ~'.\n\nCOMMON COLLOCATIONS:\n- {旅行中|りょこうちゅう}⟦に→に：00314_ni⟧: during a trip (followed by an event)\n- {旅行中|りょこうちゅう}⟦は→は：00079_ha⟧: as for during the trip (topic marker)\n- {海外|かいがい}{旅行中|りょこうちゅう}: while traveling abroad\n- {新婚|しんこん}{旅行中|りょこうちゅう}: during a honeymoon\n\nCOMMON PATTERNS:\nThe suffix 〜⟦{中|ちゅう}→〜中：09840_chuu⟧ attaches freely to action nouns: ⟦{会議中|かいぎちゅう}→会議中：16781_kaigichuu⟧ (during a meeting), {勉強中|べんきょうちゅう} (while studying), {仕事中|しごとちゅう} (during work).",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,7 +53,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "travel",
         "time-general"
@@ -61,6 +61,6 @@
       "domain": []
     },
     "created": "2026-06-02T03:09:54Z",
-    "modified": "2026-08-08T18:34:17Z"
+    "modified": "2026-09-02T04:02:34Z"
   }
 }

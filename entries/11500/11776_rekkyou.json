@@ -14,42 +14,68 @@
   "examples": [
     {
       "id": "11776_rekkyou_ex1",
-      "japanese": "{列強|れっきょう}がアジアに{進出|しんしゅつ}した。",
+      "japanese": "{列強|れっきょう}⟦が→が：00051_ga⟧⟦アジア→アジア：01763_ajia⟧⟦に→に：00314_ni⟧⟦{進出|しんしゅつ}→進出：14387_shinshutsu⟧⟦した→する：00392_suru⟧。",
       "english": "The great powers advanced into Asia.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11776_rekkyou_ex2",
-      "japanese": "{日本|にほん}は{明治|めいじ}{時代|じだい}に{列強|れっきょう}の{仲間入|なかまい}りを{果|は}たした。",
+      "japanese": "⟦{日本|にほん}→日本：03876_nihon⟧⟦は→は：00079_ha⟧⟦{明治|めいじ}{時代|じだい}→明治時代：28080_meijijidai⟧⟦に→に：00314_ni⟧{列強|れっきょう}⟦の→の：09472_no⟧⟦{仲間入|なかまい}り→仲間入り：07323_nakamairi⟧⟦を→を：00422_wo⟧⟦{果|は}たした→果たす：10060_hatasu⟧。",
       "english": "Japan joined the ranks of the great powers during the Meiji era.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11776_rekkyou_ex3",
-      "japanese": "19{世紀|せいき}の{列強|れっきょう}は{植民地|しょくみんち}{獲得|かくとく}を{競|きそ}い{合|あ}った。",
+      "japanese": "19⟦{世紀|せいき}→世紀：03373_seiki⟧⟦の→の：09472_no⟧{列強|れっきょう}⟦は→は：00079_ha⟧⟦{植民地|しょくみんち}→植民地：16073_shokuminchi⟧⟦{獲得|かくとく}→獲得：05624_kakutoku⟧⟦を→を：00422_wo⟧⟦{競|きそ}い{合|あ}った→競い合う：04656_kisoiau⟧。",
       "english": "The great powers of the 19th century competed with each other to acquire colonies.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "Primarily a historical term referring to the dominant world powers, especially during the 19th and early 20th centuries (Britain, France, Germany, Russia, the United States, etc.). Can also be used in modern contexts to refer to powerful nations.\n\nLiterally means \"row of strong ones\" ({列|れつ} = row + {強|きょう} = strong).\n\nCOMMON COLLOCATIONS:\n・{列強|れっきょう}の{一|ひと}つ (one of the great powers)\n・{列強|れっきょう}に{並|なら}ぶ (stand alongside the great powers)\n・{欧米|おうべい}{列強|れっきょう} (Western great powers)",
-  "cross_references": [],
+  "notes": "Primarily a historical term referring to the dominant world powers, especially during the 19th and early 20th centuries (Britain, France, Germany, Russia, the United States, etc.). Can also be used in modern contexts to refer to powerful nations.\n\nLiterally means \"row of strong ones\" (⟦{列|れつ}→列：02171_retsu⟧ = row + {強|きょう} = strong).\n\nCOMMON COLLOCATIONS:\n- {列強|れっきょう}⟦の→の：09472_no⟧⟦{一|ひと}つ→一つ：02948_hitotsu⟧ (one of the great powers)\n- {列強|れっきょう}⟦に→に：00314_ni⟧⟦{並|なら}ぶ→並ぶ：00605_narabu⟧ (stand alongside the great powers)\n- ⟦{欧米|おうべい}→欧米：04112_oubei⟧{列強|れっきょう} (Western great powers)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18564_rekkoku",
+      "reading": "れっこく",
+      "headword": "{列国|れっこく}",
+      "label": "the nations"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25160_kyoudaikoku",
+      "reading": "きょうだいこく",
+      "headword": "{強大国|きょうだいこく}",
+      "label": "powerful nation"
+    }
+  ],
   "metadata": {
     "created": "2026-02-17T23:15:01Z",
-    "modified": "2026-02-17T23:15:01Z",
+    "modified": "2026-09-02T04:01:26Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["history", "politics"]
+      "semantic": [
+        "history",
+        "politics"
+      ]
     }
   }
 }

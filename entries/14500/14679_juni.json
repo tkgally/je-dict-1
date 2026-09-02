@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "14679_juni_ex1",
-      "japanese": "{試験|しけん}の{順位|じゅんい}が{発表|はっぴょう}された。",
+      "japanese": "⟦{試験|しけん}→試験：01422_shiken⟧⟦の→の：09472_no⟧{順位|じゅんい}⟦が→が：00051_ga⟧⟦{発表|はっぴょう}→発表：03562_happyou⟧⟦された→する：00392_suru⟧。",
       "english": "The exam rankings were announced.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "14679_juni_ex2",
-      "japanese": "{世界|せかい}ランキングの{順位|じゅんい}を{上|あ}げたい。",
+      "japanese": "⟦{世界|せかい}→世界：01447_sekai⟧⟦ランキング→ランキング：11195_rankingu⟧⟦の→の：09472_no⟧{順位|じゅんい}⟦を→を：00422_wo⟧⟦{上|あ}げたい→上げる：02443_ageru⟧。",
       "english": "I want to raise my world ranking position.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "14679_juni_ex3",
-      "japanese": "{検索|けんさく}{順位|じゅんい}を{改善|かいぜん}するためにSEO{対策|たいさく}を{行|おこな}っている。",
+      "japanese": "⟦{検索|けんさく}→検索：04729_kensaku⟧{順位|じゅんい}⟦を→を：00422_wo⟧⟦{改善|かいぜん}する→改善する：26828_kaizensuru⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧SEO⟦{対策|たいさく}→対策：02511_taisaku⟧⟦を→を：00422_wo⟧⟦{行|おこな}っている→行う：01238_okonau⟧。",
       "english": "We're implementing SEO measures to improve our search ranking.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "A versatile word used whenever things are ranked or ordered.\n\nCOMMON COLLOCATIONS:\n- {順位|じゅんい}が{上|あ}がる / {下|さ}がる (ranking goes up / down)\n- {順位|じゅんい}を{付|つ}ける (to rank / assign order)\n- {順位|じゅんい}を{争|あらそ}う (to compete for position)\n- {優先|ゆうせん}{順位|じゅんい} (priority order)\n- {検索|けんさく}{順位|じゅんい} (search ranking)\n\nSIMILAR WORDS:\n- {順番|じゅんばん} refers to turn order (whose turn is next)\n- {順位|じゅんい} refers to competitive ranking (who is higher/lower)\n- {位|くらい} / ～{位|い} is a counter for rank ({一位|いちい}, {二位|にい}, etc.)",
+  "notes": "A versatile word used whenever things are ranked or ordered.\n\nCOMMON COLLOCATIONS:\n- {順位|じゅんい}⟦が→が：00051_ga⟧⟦{上|あ}がる→上がる：00615_agaru⟧ / ⟦{下|さ}がる→下がる：01188_sagaru⟧ (ranking goes up / down)\n- {順位|じゅんい}⟦を→を：00422_wo⟧⟦{付|つ}ける→付ける：00761_tsukeru⟧ (to rank / assign order)\n- {順位|じゅんい}⟦を→を：00422_wo⟧⟦{争|あらそ}う→争う：01866_arasou⟧ (to compete for position)\n- {優先|ゆうせん}{順位|じゅんい} (priority order)\n- ⟦{検索|けんさく}→検索：04729_kensaku⟧{順位|じゅんい} (search ranking)\n\nSIMILAR WORDS:\n- ⟦{順番|じゅんばん}→順番：03283_junban⟧ refers to turn order (whose turn is next)\n- {順位|じゅんい} refers to competitive ranking (who is higher/lower)\n- {位|くらい} / ～⟦{位|い}→〜位：00443_i⟧ is a counter for rank (⟦{一位|いちい}→一位：08926_ichii⟧, ⟦{二位|にい}→二位：27466_nii⟧, etc.)",
   "cross_references": [
     {
       "type": "contrast",
@@ -59,11 +59,39 @@
       "reading": "しゅい",
       "headword": "{首位|しゅい}",
       "label": "first place"
+    },
+    {
+      "type": "related",
+      "target_id": "08411_riigusen",
+      "reading": "りーぐせん",
+      "headword": "リーグ{戦|せん}",
+      "label": "league match"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24405_ranku",
+      "reading": "らんく",
+      "headword": "ランク",
+      "label": "rank"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24968_sekiji",
+      "reading": "せきじ",
+      "headword": "{席次|せきじ}",
+      "label": "seating order"
+    },
+    {
+      "type": "related",
+      "target_id": "27465_nani",
+      "reading": "なんい",
+      "headword": "{何位|なんい}",
+      "label": "what place"
     }
   ],
   "metadata": {
     "created": "2026-03-02T11:01:37Z",
-    "modified": "2026-04-30T09:17:48Z",
+    "modified": "2026-09-02T04:01:38Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

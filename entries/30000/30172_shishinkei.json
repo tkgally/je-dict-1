@@ -16,7 +16,7 @@
   "examples": [
     {
       "id": "30172_shishinkei_ex1",
-      "japanese": "{視神経|ししんけい}が{傷|きず}ついている。",
+      "japanese": "{視神経|ししんけい}⟦が→が：00051_ga⟧⟦{傷|きず}ついている→傷つく：01934_kizutsuku⟧。",
       "english": "The optic nerve is damaged.",
       "sense_numbers": [
         1
@@ -26,7 +26,7 @@
     },
     {
       "id": "30172_shishinkei_ex2",
-      "japanese": "{目|め}から{入|はい}った{光|ひかり}は{視神経|ししんけい}を{通|とお}って{脳|のう}に{届|とど}く。",
+      "japanese": "⟦{目|め}→目：00525_me⟧⟦から→から：00504_kara⟧⟦{入|はい}った→入る：00494_hairu⟧⟦{光|ひかり}→光：01707_hikari⟧⟦は→は：00079_ha⟧{視神経|ししんけい}⟦を→を：00422_wo⟧⟦{通|とお}って→通る：01243_tooru⟧⟦{脳|のう}→脳：03537_nou⟧⟦に→に：00314_ni⟧⟦{届|とど}く→届く：00899_todoku⟧。",
       "english": "Light entering the eye travels through the optic nerve to the brain.",
       "sense_numbers": [
         1
@@ -36,7 +36,7 @@
     },
     {
       "id": "30172_shishinkei_ex3",
-      "japanese": "{緑内障|りょくないしょう}は{視神経|ししんけい}が{少|すこ}しずつ{損|そこ}なわれていく{病気|びょうき}だ。",
+      "japanese": "{緑内障|りょくないしょう}⟦は→は：00079_ha⟧{視神経|ししんけい}⟦が→が：00051_ga⟧⟦{少|すこ}し→少し：00596_sukoshi⟧⟦ずつ→〜ずつ：03092_zutsu⟧⟦{損|そこ}なわれて→損なう：18061_sokonau⟧いく⟦{病気|びょうき}→病気：00771_byouki⟧だ。",
       "english": "Glaucoma is a disease in which the optic nerve is gradually damaged.",
       "sense_numbers": [
         1
@@ -45,7 +45,23 @@
       "notes": null
     }
   ],
-  "notes": "Formed from {視|し} (sight) plus {神経|しんけい} (nerve). The same pattern names the other cranial nerves: {聴神経|ちょうしんけい} (auditory nerve), {嗅神経|きゅうしんけい} (olfactory nerve).\n\nCOMMON COLLOCATIONS:\n- {視神経|ししんけい}が{傷|きず}つく: for the optic nerve to be damaged\n- {視神経|ししんけい}を{圧迫|あっぱく}する: to press on the optic nerve\n- {視神経|ししんけい}{炎|えん}: optic neuritis\n\nUSAGE:\nUnlike {神経|しんけい} on its own, which is freely used figuratively ({神経|しんけい}が{細|こま}かい, sensitive), {視神経|ししんけい} stays literal and anatomical.",
+  "notes": "Formed from {視|し} (sight) plus ⟦{神経|しんけい}→神経：03257_shinkei⟧ (nerve). The same pattern names the other cranial nerves: ⟦{聴神経|ちょうしんけい}→聴神経：30187_choushinkei⟧ (auditory nerve), {嗅神経|きゅうしんけい} (olfactory nerve).\n\nCOMMON COLLOCATIONS:\n- {視神経|ししんけい}⟦が→が：00051_ga⟧⟦{傷|きず}つく→傷つく：01934_kizutsuku⟧: for the optic nerve to be damaged\n- {視神経|ししんけい}⟦を→を：00422_wo⟧⟦{圧迫|あっぱく}→圧迫：12013_appaku⟧⟦する→する：00392_suru⟧: to press on the optic nerve\n- {視神経|ししんけい}{炎|えん}: optic neuritis\n\nUSAGE:\nUnlike ⟦{神経|しんけい}→神経：03257_shinkei⟧ on its own, which is freely used figuratively (⟦{神経|しんけい}→神経：03257_shinkei⟧⟦が→が：00051_ga⟧⟦{細|こま}かい→細かい：01245_komakai⟧, sensitive), {視神経|ししんけい} stays literal and anatomical.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "30156_meisoushinkei",
+      "reading": "めいそうしんけい",
+      "headword": "{迷走神経|めいそうしんけい}",
+      "label": "vagus nerve"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30187_choushinkei",
+      "reading": "ちょうしんけい",
+      "headword": "聴神経",
+      "label": "auditory nerve"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +69,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "body-internal"
       ],
@@ -62,6 +78,6 @@
       ]
     },
     "created": "2026-07-27T21:18:32Z",
-    "modified": "2026-07-27T21:18:32Z"
+    "modified": "2026-09-02T04:02:39Z"
   }
 }

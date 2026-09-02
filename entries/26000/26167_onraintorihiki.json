@@ -15,39 +15,80 @@
   "examples": [
     {
       "id": "26167_onraintorihiki_ex1",
-      "japanese": "オンライン{取引|とりひき}でトラブルに{遭|あ}った。",
+      "japanese": "オンライン{取引|とりひき}⟦で→で：00502_de⟧⟦トラブル→トラブル：07061_toraburu⟧⟦に→に：00314_ni⟧⟦{遭|あ}った→遭う：09500_au⟧。",
       "english": "I ran into trouble with an online transaction.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26167_onraintorihiki_ex2",
-      "japanese": "オンライン{取引|とりひき}では{個人情報|こじんじょうほう}の{管理|かんり}に{注意|ちゅうい}が{必要|ひつよう}だ。",
+      "japanese": "オンライン{取引|とりひき}で⟦は→は：00079_ha⟧⟦{個人情報|こじんじょうほう}→個人情報：18842_kojinjouhou⟧⟦の→の：09472_no⟧⟦{管理|かんり}→管理：00178_kanri⟧⟦に→に：00314_ni⟧⟦{注意|ちゅうい}→注意：01464_chuui⟧⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧だ。",
       "english": "In online transactions, you need to be careful about managing personal information.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26167_onraintorihiki_ex3",
-      "japanese": "コロナ{禍|か}をきっかけに、オンライン{取引|とりひき}の{利用|りよう}が{急増|きゅうぞう}した。",
+      "japanese": "⟦コロナ{禍|か}→コロナ禍：29315_koronaka⟧⟦を→を：00422_wo⟧⟦きっかけ→きっかけ：10309_kikkake⟧⟦に→に：00314_ni⟧、オンライン{取引|とりひき}⟦の→の：09472_no⟧⟦{利用|りよう}→利用：01752_riyou⟧⟦が→が：00051_ga⟧⟦{急増|きゅうぞう}した→急増する：26999_kyuuzousuru⟧。",
       "english": "Triggered by the COVID pandemic, the use of online transactions surged.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of the loanword オンライン (online) + {取引|とりひき} (transaction, dealing, trade). Covers a broad range of internet-based commercial activities.\n\nThe term is used both for consumer purchases (online shopping) and for financial trading (stocks, forex). Context usually makes the meaning clear.\n\nCOMMON COLLOCATIONS:\n- オンライン{取引|とりひき}サイト: online transaction site\n- オンライン{取引|とりひき}の{安全性|あんぜんせい}: security of online transactions\n- オンライン{取引|とりひき}{詐欺|さぎ}: online transaction fraud\n- {株|かぶ}のオンライン{取引|とりひき}: online stock trading\n\nSIMILAR WORDS:\n- ネットショッピング: online shopping — specifically consumer purchases\n- {電子商取引|でんししょうとりひき}: e-commerce — formal/technical term\n- ネット{通販|つうはん}: online mail order — shopping through the internet\n- {取引|とりひき}: transaction — the general concept, online or offline",
-  "cross_references": [],
+  "notes": "Composed of the loanword ⟦オンライン→オンライン：05278_onrain⟧ (online) + ⟦{取引|とりひき}→取引：04700_torihiki⟧ (transaction, dealing, trade). Covers a broad range of internet-based commercial activities.\n\nThe term is used both for consumer purchases (online shopping) and for financial trading (stocks, forex). Context usually makes the meaning clear.\n\nCOMMON COLLOCATIONS:\n- オンライン{取引|とりひき}⟦サイト→サイト：05603_saito⟧: online transaction site\n- オンライン{取引|とりひき}⟦の→の：09472_no⟧⟦{安全性|あんぜんせい}→安全性：19384_anzensei⟧: security of online transactions\n- オンライン{取引|とりひき}⟦{詐欺|さぎ}→詐欺：09789_sagi⟧: online transaction fraud\n- ⟦{株|かぶ}→株：02592_kabu⟧⟦の→の：09472_no⟧オンライン{取引|とりひき}: online stock trading\n\nSIMILAR WORDS:\n- ⟦ネットショッピング→ネットショッピング：29757_nettoshoppingu⟧: online shopping — specifically consumer purchases\n- ⟦{電子商取引|でんししょうとりひき}→電子商取引：23235_denshishoutorihiki⟧: e-commerce — formal/technical term\n- ⟦ネット{通販|つうはん}→ネット通販：22847_nettotsuuhan⟧: online mail order — shopping through the internet\n- ⟦{取引|とりひき}→取引：04700_torihiki⟧: transaction — the general concept, online or offline",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "29757_nettoshoppingu",
+      "reading": "ねっとしょっぴんぐ",
+      "headword": "ネットショッピング",
+      "label": "online shopping"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23235_denshishoutorihiki",
+      "reading": "でんししょうとりひき",
+      "headword": "{電子商取引|でんししょうとりひき}",
+      "label": "e-commerce"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22847_nettotsuuhan",
+      "reading": "ねっとつうはん",
+      "headword": "ネット{通販|つうはん}",
+      "label": "online mail order"
+    },
+    {
+      "type": "related",
+      "target_id": "04700_torihiki",
+      "reading": "とりひき",
+      "headword": "{取引|とりひき}",
+      "label": "transaction"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["technology", "business"]
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "technology",
+        "business"
+      ]
     },
     "created": "2026-04-29T15:35:19Z",
-    "modified": "2026-04-29T15:35:19Z"
+    "modified": "2026-09-02T04:02:25Z"
   }
 }

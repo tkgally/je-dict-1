@@ -78,11 +78,33 @@
       ]
     }
   ],
-  "notes": "A loanword used for both technological and social connections.\n\nSENSE 1 (Computer/Technical):\n- ネットワーク⟦に→に：00314_ni⟧⟦{接続|せつぞく}→接続：04367_setsuzoku⟧⟦する→する：00392_suru⟧ (to connect to a network)\n- ネットワーク⟦{障害|しょうがい}→障害：03228_shougai⟧ (network failure/outage)\n- ネットワーク⟦{管理者|かんりしゃ}→管理者：24297_kanrisha⟧ (network administrator)\n- ⟦{社内|しゃない}→社内：13731_shanai⟧ネットワーク (internal/company network)\n- ワイヤレスネットワーク (wireless network)\n\nSENSE 2 (Social/Business):\n- ⟦{人脈|じんみゃく}→人脈：18253_jinmyaku⟧ネットワーク (personal connections network)\n- ネットワーク⟦を→を：00422_wo⟧⟦{広|ひろ}げる→広げる：01981_hirogeru⟧ (to expand one's network)\n- ネットワーク⟦を→を：00422_wo⟧⟦{築|きず}く→築く：02046_kizuku⟧ (to build a network)\n\nABBREVIATIONS:\nネット is commonly used as shorthand, especially for internet-related contexts: ネット⟦に→に：00314_ni⟧⟦{繋|つな}がらない→繋がる：01963_tsunagaru⟧ (can't connect to the internet).\n\nRELATED WORDS:\n- ⟦{回線|かいせん}→回線：11094_kaisen⟧ (circuit, line)\n- ⟦{接続|せつぞく}→接続：04367_setsuzoku⟧ (connection)",
-  "cross_references": [],
+  "notes": "A loanword used for both technological and social connections.\n\nSENSE 1 (Computer/Technical):\n- ネットワーク⟦に→に：00314_ni⟧⟦{接続|せつぞく}→接続：04367_setsuzoku⟧⟦する→する：00392_suru⟧ (to connect to a network)\n- ネットワーク⟦{障害|しょうがい}→障害：03228_shougai⟧ (network failure/outage)\n- ネットワーク⟦{管理者|かんりしゃ}→管理者：24297_kanrisha⟧ (network administrator)\n- ⟦{社内|しゃない}→社内：13731_shanai⟧ネットワーク (internal/company network)\n- ⟦ワイヤレス→ワイヤレス：08509_waiyaresu⟧ネットワーク (wireless network)\n\nSENSE 2 (Social/Business):\n- ⟦{人脈|じんみゃく}→人脈：18253_jinmyaku⟧ネットワーク (personal connections network)\n- ネットワーク⟦を→を：00422_wo⟧⟦{広|ひろ}げる→広げる：01981_hirogeru⟧ (to expand one's network)\n- ネットワーク⟦を→を：00422_wo⟧⟦{築|きず}く→築く：02046_kizuku⟧ (to build a network)\n\nFORMS:\n⟦ネット→ネット：05279_netto⟧ is commonly used as shorthand, especially for internet-related contexts: ⟦ネット→ネット：05279_netto⟧⟦に→に：00314_ni⟧⟦{繋|つな}がらない→繋がる：01963_tsunagaru⟧ (can't connect to the internet).\n\nRELATED WORDS:\n- ⟦{回線|かいせん}→回線：11094_kaisen⟧ (circuit, line)\n- ⟦{接続|せつぞく}→接続：04367_setsuzoku⟧ (connection)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "11094_kaisen",
+      "reading": "かいせん",
+      "headword": "{回線|かいせん}",
+      "label": "circuit, line"
+    },
+    {
+      "type": "related",
+      "target_id": "04367_setsuzoku",
+      "reading": "せつぞく",
+      "headword": "{接続|せつぞく}",
+      "label": "connection"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16008_tsuushinmou",
+      "reading": "つうしんもう",
+      "headword": "{通信網|つうしんもう}",
+      "label": "communications network"
+    }
+  ],
   "metadata": {
     "created": "2026-01-16T00:22:52Z",
-    "modified": "2026-06-02T14:10:55Z",
+    "modified": "2026-09-02T04:01:05Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

@@ -49,7 +49,7 @@
     },
     {
       "id": "04202_shoumi_ex4",
-      "japanese": "{正味|しょうみ}⟦{何|なん}→何：03100_nan⟧⟦{時間|じかん}→時間：00468_jikan⟧⟦かかりました→かかる：00711_kakaru⟧か。",
+      "japanese": "{正味|しょうみ}⟦{何|なん}→何：03100_nan⟧⟦{時間|じかん}→時間：00468_jikan⟧⟦かかりました→かかる：00711_kakaru⟧⟦か→か：09473_ka⟧。",
       "english": "How many hours did it actually take?",
       "notes": "Asking about real working time, excluding breaks",
       "has_audio": false,
@@ -78,10 +78,33 @@
       ]
     }
   ],
-  "notes": "COMMON PATTERNS:\n・{正味|しょうみ}〜⟦グラム→グラム：01354_guramu⟧ (net ~ grams)\n・{正味|しょうみ}⟦{重量|じゅうりょう}→重量：05475_juuryou⟧ (net weight)\n・{正味|しょうみ}⟦{時間|じかん}→時間：00468_jikan⟧ (actual time)\n・{正味|しょうみ}⟦の→の：09472_no⟧⟦{話|はなし}→話：01496_hanashi⟧ (to be honest - colloquial)\n\nOPPOSITE:\n・⟦{総|そう}→総：03958_sou⟧ (gross, total)\n・⟦{見|み}かけ→見かけ：08214_mikake⟧ (appearance, seeming)\n\nREGIONAL NOTE:\n{正味|しょうみ}⟦の→の：09472_no⟧⟦{話|はなし}→話：01496_hanashi⟧ is particularly common in Kansai dialect as a conversational filler meaning \"honestly\" or \"to be real.\"",
+  "notes": "COMMON PATTERNS:\n- {正味|しょうみ}〜⟦グラム→グラム：01354_guramu⟧ (net ~ grams)\n- {正味|しょうみ}⟦{重量|じゅうりょう}→重量：05475_juuryou⟧ (net weight)\n- {正味|しょうみ}⟦{時間|じかん}→時間：00468_jikan⟧ (actual time)\n- {正味|しょうみ}⟦の→の：09472_no⟧⟦{話|はなし}→話：01496_hanashi⟧ (to be honest - colloquial)\n\nSIMILAR WORDS:\n- ⟦{総|そう}→総：03958_sou⟧ (gross, total)\n- ⟦{見|み}かけ→見かけ：08214_mikake⟧ (appearance, seeming)\n\nREGIONAL NOTE:\n{正味|しょうみ}⟦の→の：09472_no⟧⟦{話|はなし}→話：01496_hanashi⟧ is particularly common in Kansai dialect as a conversational filler meaning \"honestly\" or \"to be real.\"",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03958_sou",
+      "reading": "そう",
+      "headword": "{総|そう}〜",
+      "label": "gross, total"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08214_mikake",
+      "reading": "みかけ",
+      "headword": "{見掛|みか}け",
+      "label": "appearance, seeming"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23404_jissuu",
+      "reading": "じっすう",
+      "headword": "{実数|じっすう}",
+      "label": "real number (math)"
+    }
+  ],
   "metadata": {
     "created": "2026-01-13T13:58:45Z",
-    "modified": "2026-06-10T17:34:32Z",
+    "modified": "2026-09-02T04:01:04Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

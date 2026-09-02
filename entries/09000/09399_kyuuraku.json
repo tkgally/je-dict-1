@@ -2,7 +2,7 @@
   "id": "09399_kyuuraku",
   "headword": "{急落|きゅうらく}",
   "reading": "きゅうらく",
-  "part_of_speech": "noun / suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "sharp drop, plunge, sudden decline",
   "conjugation": {
     "type": "suru",
@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "09399_kyuuraku_ex1",
-      "japanese": "{株価|かぶか}が{急落|きゅうらく}した。",
+      "japanese": "⟦{株価|かぶか}→株価：05154_kabuka⟧⟦が→が：00051_ga⟧{急落|きゅうらく}⟦した→する：00392_suru⟧。",
       "english": "Stock prices plunged.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "09399_kyuuraku_ex2",
-      "japanese": "{円|えん}が{急落|きゅうらく}している。",
+      "japanese": "⟦{円|えん}→円：00774_en⟧⟦が→が：00051_ga⟧{急落|きゅうらく}⟦している→する：00392_suru⟧。",
       "english": "The yen is dropping sharply.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "09399_kyuuraku_ex3",
-      "japanese": "スキャンダルで{支持率|しじりつ}が{急落|きゅうらく}した。",
+      "japanese": "スキャンダル⟦で→で：00502_de⟧⟦{支持率|しじりつ}→支持率：17086_shijiritsu⟧⟦が→が：00051_ga⟧{急落|きゅうらく}⟦した→する：00392_suru⟧。",
       "english": "The approval rating plummeted due to the scandal.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
     },
     {
       "id": "09399_kyuuraku_ex4",
-      "japanese": "{市場|しじょう}の{急落|きゅうらく}に{投資家|とうしか}は{動揺|どうよう}している。",
+      "japanese": "⟦{市場|しじょう}→市場：09685_shijou⟧⟦の→の：09472_no⟧{急落|きゅうらく}⟦に→に：00314_ni⟧⟦{投資家|とうしか}→投資家：16242_toushika⟧⟦は→は：00079_ha⟧⟦{動揺|どうよう}している→動揺する：25352_douyousuru⟧。",
       "english": "Investors are shaken by the sharp decline in the market.",
       "notes": null,
       "has_audio": false,
@@ -143,10 +143,10 @@
       ]
     }
   ],
-  "notes": "{急落|きゅうらく} describes sudden, significant drops in prices or values. It's commonly used in financial news. The opposite is {急騰|きゅうとう} (sharp rise).\n\nCommon collocations:\n- {株価|かぶか}の{急落|きゅうらく}: stock price plunge\n- {支持率|しじりつ}の{急落|きゅうらく}: approval rating drop\n- {急落|きゅうらく}{相場|そうば}: falling market\n\nRelated terms:\n- {急騰|きゅうとう}: sharp rise, surge\n- {暴落|ぼうらく}: crash, collapse (even more extreme)\n- {下落|げらく}: decline, drop",
+  "notes": "{急落|きゅうらく} describes sudden, significant drops in prices or values. It's commonly used in financial news. The opposite is ⟦{急騰|きゅうとう}→急騰：09398_kyuutou⟧ (sharp rise).\n\nCommon collocations:\n- ⟦{株価|かぶか}→株価：05154_kabuka⟧⟦の→の：09472_no⟧{急落|きゅうらく}: stock price plunge\n- ⟦{支持率|しじりつ}→支持率：17086_shijiritsu⟧⟦の→の：09472_no⟧{急落|きゅうらく}: approval rating drop\n- {急落|きゅうらく}⟦{相場|そうば}→相場：07668_souba⟧: falling market\n\nRelated terms:\n- ⟦{急騰|きゅうとう}→急騰：09398_kyuutou⟧: sharp rise, surge\n- ⟦{暴落|ぼうらく}→暴落：09401_bouraku⟧: crash, collapse (even more extreme)\n- ⟦{下落|げらく}→下落：11321_geraku⟧: decline, drop",
   "metadata": {
     "created": "2026-02-01T09:15:20Z",
-    "modified": "2026-04-22T08:43:07Z",
+    "modified": "2026-09-02T04:01:18Z",
     "ai_model": "opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -160,7 +160,8 @@
         "business",
         "finance"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   },
   "cross_references": [
@@ -177,6 +178,20 @@
       "reading": "ぼうらく",
       "headword": "{暴落|ぼうらく}",
       "label": "crash (stronger)"
+    },
+    {
+      "type": "related",
+      "target_id": "10292_hanraku",
+      "reading": "はんらく",
+      "headword": "{反落|はんらく}",
+      "label": "decline after a rise"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25672_kyuukouka",
+      "reading": "きゅうこうか",
+      "headword": "{急降下|きゅうこうか}",
+      "label": "sharp drop"
     }
   ]
 }

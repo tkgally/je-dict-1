@@ -15,41 +15,74 @@
   "examples": [
     {
       "id": "29976_penarutikikku_ex1",
-      "japanese": "ペナルティキックを{決|き}めた。",
+      "japanese": "ペナルティキック⟦を→を：00422_wo⟧⟦{決|き}めた→決める：00858_kimeru⟧。",
       "english": "He converted the penalty kick.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29976_penarutikikku_ex2",
-      "japanese": "{反則|はんそく}でペナルティキックを{与|あた}えた。",
+      "japanese": "⟦{反則|はんそく}→反則：06541_hansoku⟧⟦で→で：00502_de⟧ペナルティキック⟦を→を：00422_wo⟧⟦{与|あた}えた→与える：01821_ataeru⟧。",
       "english": "The foul gave away a penalty kick.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29976_penarutikikku_ex3",
-      "japanese": "{試合|しあい}はペナルティキック{戦|せん}までもつれ{込|こ}んだ。",
+      "japanese": "⟦{試合|しあい}→試合：01601_shiai⟧⟦は→は：00079_ha⟧ペナルティキック⟦{戦|せん}→〜戦：28346_sen⟧⟦まで→まで：00490_made⟧⟦もつれ{込|こ}んだ→もつれ込む：29958_motsurekomu⟧。",
       "english": "The match went all the way to a penalty shootout.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Commonly abbreviated PK; a shootout is ペナルティキック{戦|せん} or PK{戦|せん}.\n\nCOMMON COLLOCATIONS:\n- ペナルティキックを{決|き}める: to score a penalty kick\n- ペナルティキックを{外|はず}す: to miss a penalty kick\n- ペナルティキックを{与|あた}える: to concede a penalty kick\n\nSIMILAR WORDS:\n- コーナーキック: corner kick — taken from the corner, not the penalty spot, and not the result of a foul in the box",
+  "notes": "Commonly abbreviated PK; a shootout is ペナルティキック⟦{戦|せん}→〜戦：28346_sen⟧ or PK⟦{戦|せん}→〜戦：28346_sen⟧.\n\nCOMMON COLLOCATIONS:\n- ペナルティキック⟦を→を：00422_wo⟧⟦{決|き}める→決める：00858_kimeru⟧: to score a penalty kick\n- ペナルティキック⟦を→を：00422_wo⟧⟦{外|はず}す→外す：02394_hazusu⟧: to miss a penalty kick\n- ペナルティキック⟦を→を：00422_wo⟧⟦{与|あた}える→与える：01821_ataeru⟧: to concede a penalty kick\n\nSIMILAR WORDS:\n- ⟦コーナーキック→コーナーキック：29975_koonaakikku⟧: corner kick — taken from the corner, not the penalty spot, and not the result of a foul in the box",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "29975_koonaakikku",
+      "reading": "こーなーきっく",
+      "headword": "コーナーキック",
+      "label": "corner kick"
+    },
+    {
+      "type": "related",
+      "target_id": "08969_piiee",
+      "reading": "ぴーえー",
+      "headword": "PA",
+      "label": "penalty area"
+    },
+    {
+      "type": "related",
+      "target_id": "29961_furiikikku",
+      "reading": "ふりーきっく",
+      "headword": "フリーキック",
+      "label": "free kick (soccer, rugby)"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["sports"],
+      "politeness": "plain",
+      "semantic": [
+        "sports"
+      ],
       "domain": []
     },
     "created": "2026-07-20T06:17:59Z",
-    "modified": "2026-07-20T06:17:59Z"
+    "modified": "2026-09-02T04:02:38Z"
   }
 }

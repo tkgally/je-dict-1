@@ -15,34 +15,53 @@
   "examples": [
     {
       "id": "19386_kigai_ex1",
-      "japanese": "{他人|たにん}に{危害|きがい}を{加|くわ}えてはいけない。",
+      "japanese": "⟦{他人|たにん}→他人：01459_tanin⟧⟦に→に：00314_ni⟧{危害|きがい}⟦を→を：00422_wo⟧⟦{加|くわ}えて→加える：01941_kuwaeru⟧⟦は→は：00079_ha⟧いけない。",
       "english": "You must not cause harm to others.",
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "19386_kigai_ex2",
-      "japanese": "{危害|きがい}を{加|くわ}えるつもりはなかった。",
+      "japanese": "{危害|きがい}⟦を→を：00422_wo⟧⟦{加|くわ}える→加える：01941_kuwaeru⟧⟦つもり→つもり：01152_tsumori⟧⟦は→は：00079_ha⟧⟦なかった→ない：01118_nai⟧。",
       "english": "I didn't intend to cause any harm.",
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "19386_kigai_ex3",
-      "japanese": "{環境|かんきょう}に{危害|きがい}を{及|およ}ぼす{物質|ぶっしつ}の{使用|しよう}が{制限|せいげん}されている。",
+      "japanese": "⟦{環境|かんきょう}→環境：00174_kankyou⟧⟦に→に：00314_ni⟧{危害|きがい}⟦を→を：00422_wo⟧⟦{及|およ}ぼす→及ぼす：02028_oyobosu⟧⟦{物質|ぶっしつ}→物質：03608_busshitsu⟧⟦の→の：09472_no⟧⟦{使用|しよう}→使用：01637_shiyou⟧⟦が→が：00051_ga⟧⟦{制限|せいげん}→制限：03375_seigen⟧⟦されている→する：00392_suru⟧。",
       "english": "The use of substances that cause harm to the environment is restricted.",
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{危害|きがい} is a formal word for physical harm or injury inflicted on a person, commonly seen in legal and news contexts. It is more formal than {害|がい} alone and typically describes deliberate or consequential harm rather than accidental damage.\n\nKEY COLLOCATIONS:\n- {危害|きがい}を{加|くわ}える — to inflict harm; to cause injury\n- {危害|きがい}を{及|およ}ぼす — to cause harm (more formal)\n- {危害|きがい}を{受|う}ける — to suffer harm\n\nUSAGE:\nThe pattern {危害|きがい}を{加|くわ}える is by far the most common collocation. This word often appears in legal statutes, police reports, and news articles when describing harm done to people or the environment.",
+  "notes": "{危害|きがい} is a formal word for physical harm or injury inflicted on a person, commonly seen in legal and news contexts. It is more formal than ⟦{害|がい}→害：02542_gai⟧ alone and typically describes deliberate or consequential harm rather than accidental damage.\n\nCOMMON COLLOCATIONS:\n- {危害|きがい}⟦を→を：00422_wo⟧⟦{加|くわ}える→加える：01941_kuwaeru⟧ — to inflict harm; to cause injury\n- {危害|きがい}⟦を→を：00422_wo⟧⟦{及|およ}ぼす→及ぼす：02028_oyobosu⟧ — to cause harm (more formal)\n- {危害|きがい}⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧ — to suffer harm\n\nUSAGE:\nThe pattern {危害|きがい}⟦を→を：00422_wo⟧⟦{加|くわ}える→加える：01941_kuwaeru⟧ is by far the most common collocation. This word often appears in legal statutes, police reports, and news articles when describing harm done to people or the environment.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22411_kagai",
+      "reading": "かがい",
+      "headword": "{加害|かがい}",
+      "label": "inflicting harm"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     },
     "created": "2026-03-25T12:57:22Z",
-    "modified": "2026-03-25T12:57:22Z"
+    "modified": "2026-09-02T04:01:55Z"
   }
 }

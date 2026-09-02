@@ -14,40 +14,66 @@
   "examples": [
     {
       "id": "09661_sokujitsu_ex1",
-      "japanese": "{即日|そくじつ}{配達|はいたつ}できます。",
+      "japanese": "{即日|そくじつ}⟦{配達|はいたつ}→配達：00084_haitatsu⟧⟦できます→できる：00557_dekiru⟧。",
       "english": "Same-day delivery is available.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09661_sokujitsu_ex2",
-      "japanese": "{申|もう}し{込|こ}み{即日|そくじつ}から{使|つか}える。",
+      "japanese": "⟦{申|もう}し{込|こ}み→申し込み：03161_moushikomi⟧{即日|そくじつ}⟦から→から：00504_kara⟧⟦{使|つか}える→使う：00473_tsukau⟧。",
       "english": "You can use it from the same day you apply.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09661_sokujitsu_ex3",
-      "japanese": "{結果|けっか}は{即日|そくじつ}{発表|はっぴょう}されます。",
+      "japanese": "⟦{結果|けっか}→結果：02486_kekka⟧⟦は→は：00079_ha⟧{即日|そくじつ}⟦{発表|はっぴょう}→発表：03562_happyou⟧⟦されます→する：00392_suru⟧。",
       "english": "The results will be announced on the same day.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{即日|そくじつ} emphasizes that something happens on the very same day as another event, with no waiting period. Often used as a noun modifier before another noun.\n\nCOMMON COLLOCATIONS:\n- {即日|そくじつ}{配達|はいたつ}: same-day delivery\n- {即日|そくじつ}{発送|はっそう}: same-day shipping\n- {即日|そくじつ}{回答|かいとう}: same-day response\n- {即日|そくじつ}{開票|かいひょう}: same-day vote counting\n- {即日|そくじつ}{完売|かんばい}: sold out on the same day\n\nSIMILAR WORDS:\n- {当日|とうじつ}: on that day, the day in question (neutral — does not emphasize speed)\n- {本日|ほんじつ}: today (formal, used in announcements)\n- {即日|そくじつ} specifically highlights the speed or immediacy, implying no delay\n\nREGISTER:\nFormal. Common in business, advertising, and official announcements. In casual speech, その{日|ひ}のうちに (within that day) is more natural.",
+  "notes": "{即日|そくじつ} emphasizes that something happens on the very same day as another event, with no waiting period. Often used as a noun modifier before another noun.\n\nCOMMON COLLOCATIONS:\n- {即日|そくじつ}⟦{配達|はいたつ}→配達：00084_haitatsu⟧: same-day delivery\n- {即日|そくじつ}⟦{発送|はっそう}→発送：10458_hassou⟧: same-day shipping\n- {即日|そくじつ}⟦{回答|かいとう}→回答：00142_kaitou⟧: same-day response\n- {即日|そくじつ}⟦{開票|かいひょう}→開票：19117_kaihyou⟧: same-day vote counting\n- {即日|そくじつ}⟦{完売|かんばい}→完売：18954_kanbai⟧: sold out on the same day\n\nSIMILAR WORDS:\n- ⟦{当日|とうじつ}→当日：04558_toujitsu⟧: on that day, the day in question (neutral — does not emphasize speed)\n- ⟦{本日|ほんじつ}→本日：09643_honjitsu⟧: today (formal, used in announcements)\n- {即日|そくじつ} specifically highlights the speed or immediacy, implying no delay\n\nREGISTER:\nFormal. Common in business, advertising, and official announcements. In casual speech, ⟦その→その：00993_sono⟧⟦{日|ひ}→日：02249_hi⟧のうち⟦に→に：00314_ni⟧ (within that day) is more natural.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04558_toujitsu",
+      "reading": "とうじつ",
+      "headword": "{当日|とうじつ}",
+      "label": "on that day, the day in question…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09643_honjitsu",
+      "reading": "ほんじつ",
+      "headword": "{本日|ほんじつ}",
+      "label": "today"
+    }
+  ],
   "metadata": {
     "created": "2026-02-03T05:02:44Z",
-    "modified": "2026-04-02T07:40:51Z",
+    "modified": "2026-09-02T04:01:19Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["time-general"]
+      "semantic": [
+        "time-general"
+      ]
     }
   }
 }

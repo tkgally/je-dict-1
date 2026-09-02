@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "10391_nori_ex1",
-      "japanese": "おにぎりに{海苔|のり}を{巻|ま}く。",
+      "japanese": "⟦おにぎり→おにぎり：04956_onigiri⟧⟦に→に：00314_ni⟧{海苔|のり}⟦を→を：00422_wo⟧⟦{巻|ま}く→巻く：02418_maku⟧。",
       "english": "To wrap a rice ball in nori.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "10391_nori_ex2",
-      "japanese": "{味付|あじつ}け{海苔|のり}は{子|こ}どもに{人気|にんき}がある。",
+      "japanese": "⟦{味付|あじつ}け→味付け：05830_ajitsuke⟧{海苔|のり}⟦は→は：00079_ha⟧{子|こ}ども⟦に→に：00314_ni⟧⟦{人気|にんき}→人気：01488_ninki⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "Seasoned nori is popular with children.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "10391_nori_ex3",
-      "japanese": "この{地方|ちほう}では{海苔|のり}の{養殖|ようしょく}が{盛|さか}んに{行|おこな}われている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{地方|ちほう}→地方：02369_chihou⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧{海苔|のり}⟦の→の：09472_no⟧⟦{養殖|ようしょく}→養殖：08648_youshoku⟧⟦が→が：00051_ga⟧⟦{盛|さか}ん→盛ん：01239_sakan⟧⟦に→に：00314_ni⟧⟦{行|おこな}われている→行う：01238_okonau⟧。",
       "english": "Nori farming is actively carried out in this region.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "{海苔|のり} refers to edible seaweed, especially the dried sheets used in Japanese cooking. Not to be confused with {糊|のり} (glue, paste), which is a different word.\n\nCOMMON TYPES:\n- {焼|や}き{海苔|のり}: toasted nori (plain sheets)\n- {味付|あじつ}け{海苔|のり}: seasoned nori (with soy sauce and salt flavoring)\n- {板海苔|いたのり}: sheet nori\n\nCOMMON COLLOCATIONS:\n- {海苔|のり}を{巻|ま}く (to wrap with nori)\n- {海苔|のり}をちぎる (to tear nori)\n- {海苔|のり}の{佃煮|つくだに} (nori simmered in soy sauce)\n\nCULTURAL NOTE: Nori is one of the most common ingredients in Japanese daily life, used in everything from {寿司|すし} and おにぎり to {蕎麦|そば} toppings. Japan is the world's largest consumer of nori.",
+  "notes": "{海苔|のり} refers to edible seaweed, especially the dried sheets used in Japanese cooking. Not to be confused with ⟦{糊|のり}→糊：03895_nori⟧ (glue, paste), which is a different word.\n\nTYPES:\n- {焼|や}き{海苔|のり}: toasted nori (plain sheets)\n- ⟦{味付|あじつ}け→味付け：05830_ajitsuke⟧{海苔|のり}: seasoned nori (with soy sauce and salt flavoring)\n- {板海苔|いたのり}: sheet nori\n\nCOMMON COLLOCATIONS:\n- {海苔|のり}⟦を→を：00422_wo⟧⟦{巻|ま}く→巻く：02418_maku⟧ (to wrap with nori)\n- {海苔|のり}⟦を→を：00422_wo⟧ちぎる (to tear nori)\n- {海苔|のり}⟦の→の：09472_no⟧⟦{佃煮|つくだに}→佃煮：04970_tsukudani⟧ (nori simmered in soy sauce)\n\nCULTURAL NOTE: Nori is one of the most common ingredients in Japanese daily life, used in everything from ⟦{寿司|すし}→寿司：04946_sushi⟧ and ⟦おにぎり→おにぎり：04956_onigiri⟧ to ⟦{蕎麦|そば}→蕎麦：14329_soba⟧ toppings. Japan is the world's largest consumer of nori.",
   "cross_references": [
     {
       "type": "related",
@@ -52,11 +52,18 @@
       "headword": "{海藻|かいそう}",
       "label": "seaweed (general term)",
       "target_id": "06750_kaisou"
+    },
+    {
+      "type": "related",
+      "target_id": "07971_hijiki",
+      "reading": "ひじき",
+      "headword": "ひじき",
+      "label": "hijiki (seaweed)"
     }
   ],
   "metadata": {
     "created": "2026-02-07T10:28:08Z",
-    "modified": "2026-08-02T12:18:13Z",
+    "modified": "2026-09-02T04:01:21Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

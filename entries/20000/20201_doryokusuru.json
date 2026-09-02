@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "20201_doryokusuru_ex1",
-      "japanese": "{毎日|まいにち}{努力|どりょく}している。",
+      "japanese": "⟦{毎日|まいにち}→毎日：00729_mainichi⟧{努力|どりょく}して⟦いる→いる：00495_iru⟧。",
       "english": "I'm making an effort every day.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "20201_doryokusuru_ex2",
-      "japanese": "{合格|ごうかく}するために{一生懸命|いっしょうけんめい}{努力|どりょく}した。",
+      "japanese": "⟦{合格|ごうかく}する→合格する：27949_goukakusuru⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧⟦{一生懸命|いっしょうけんめい}→一生懸命：01280_isshoukenmei⟧{努力|どりょく}した。",
       "english": "I tried my hardest to pass the exam.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "20201_doryokusuru_ex3",
-      "japanese": "{彼|かれ}は{長年|ながねん}{努力|どりょく}を{重|かさ}ねて、ついに{夢|ゆめ}を{実現|じつげん}させた。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{長年|ながねん}→長年：09684_naganen⟧⟦{努力|どりょく}→努力：03490_doryoku⟧⟦を→を：00422_wo⟧⟦{重|かさ}ねて→重ねる：02039_kasaneru⟧、ついに⟦{夢|ゆめ}→夢：01519_yume⟧⟦を→を：00422_wo⟧⟦{実現|じつげん}→実現：03276_jitsugen⟧⟦させた→する：00392_suru⟧。",
       "english": "After years of accumulated effort, he finally realized his dream.",
       "sense_numbers": [
         1
@@ -134,8 +134,38 @@
       "notes": null
     }
   ],
-  "notes": "Describes sustained, diligent effort toward a goal. Unlike {頑張|がんば}る, which emphasizes perseverance and fighting spirit, {努力|どりょく}する focuses on the disciplined, steady accumulation of effort over time.\n\nCOMMON COLLOCATIONS:\n- {努力|どりょく}を{続|つづ}ける: to continue making efforts\n- {努力|どりょく}を{重|かさ}ねる: to accumulate efforts\n- {努力|どりょく}が{実|みの}る: efforts bear fruit\n- {努力|どりょく}が{足|た}りない: not enough effort\n- {最大限|さいだいげん}の{努力|どりょく}: maximum effort\n\nSIMILAR WORDS:\n- {頑張|がんば}る: to persevere — more colloquial and emphasizes fighting spirit\n- {励|はげ}む: to work hard at — focuses on devotion to a specific activity\n- {精進|しょうじん}する: to devote oneself — more formal, often implies self-improvement",
+  "notes": "Describes sustained, diligent effort toward a goal. Unlike ⟦{頑張|がんば}る→頑張る：01222_ganbaru⟧, which emphasizes perseverance and fighting spirit, {努力|どりょく}する focuses on the disciplined, steady accumulation of effort over time.\n\nCOMMON COLLOCATIONS:\n- ⟦{努力|どりょく}→努力：03490_doryoku⟧⟦を→を：00422_wo⟧⟦{続|つづ}ける→続く：00903_tsuzuku⟧: to continue making efforts\n- ⟦{努力|どりょく}→努力：03490_doryoku⟧⟦を→を：00422_wo⟧⟦{重|かさ}ねる→重ねる：02039_kasaneru⟧: to accumulate efforts\n- ⟦{努力|どりょく}→努力：03490_doryoku⟧⟦が→が：00051_ga⟧⟦{実|みの}る→実る：00282_minoru⟧: efforts bear fruit\n- ⟦{努力|どりょく}→努力：03490_doryoku⟧⟦が→が：00051_ga⟧⟦{足|た}りない→足りる：01209_tariru⟧: not enough effort\n- ⟦{最大限|さいだいげん}→最大限：13071_saidaigen⟧⟦の→の：09472_no⟧⟦{努力|どりょく}→努力：03490_doryoku⟧: maximum effort\n\nSIMILAR WORDS:\n- ⟦{頑張|がんば}る→頑張る：01222_ganbaru⟧: to persevere — more colloquial and emphasizes fighting spirit\n- ⟦{励|はげ}む→励む：11822_hagemu⟧: to work hard at — focuses on devotion to a specific activity\n- ⟦{精進|しょうじん}する→精進する：16828_shoujinsuru⟧: to devote oneself — more formal, often implies self-improvement",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01222_ganbaru",
+      "reading": "がんばる",
+      "headword": "{頑張|がんば}る",
+      "label": "to persevere"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11822_hagemu",
+      "reading": "はげむ",
+      "headword": "{励|はげ}む",
+      "label": "to work hard at"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16828_shoujinsuru",
+      "reading": "しょうじんする",
+      "headword": "{精進|しょうじん}する",
+      "label": "to devote oneself"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25357_kurousuru",
+      "reading": "くろうする",
+      "headword": "{苦労|くろう}する",
+      "label": "to have trouble"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -152,6 +182,6 @@
       "verb_class": "suru"
     },
     "created": "2026-03-28T17:07:06Z",
-    "modified": "2026-03-28T17:07:06Z"
+    "modified": "2026-09-02T04:01:58Z"
   }
 }

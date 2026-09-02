@@ -3,7 +3,7 @@
   "headword": "{激賞|げきしょう}",
   "reading": "げきしょう",
   "romaji": "gekishou",
-  "part_of_speech": "noun / suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "high praise; enthusiastic commendation",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "19713_gekishou_ex1",
-      "japanese": "{批評家|ひひょうか}から{激賞|げきしょう}された。",
+      "japanese": "⟦{批評家|ひひょうか}→批評家：19430_hihyouka⟧⟦から→から：00504_kara⟧{激賞|げきしょう}⟦された→する：00392_suru⟧。",
       "english": "It received rave reviews from critics.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "19713_gekishou_ex2",
-      "japanese": "{新人|しんじん}の{演技|えんぎ}を{監督|かんとく}が{激賞|げきしょう}した。",
+      "japanese": "⟦{新人|しんじん}→新人：02500_shinjin⟧⟦の→の：09472_no⟧⟦{演技|えんぎ}→演技：01890_engi⟧⟦を→を：00422_wo⟧⟦{監督|かんとく}→監督：00185_kantoku⟧⟦が→が：00051_ga⟧{激賞|げきしょう}⟦した→する：00392_suru⟧。",
       "english": "The director highly praised the newcomer's performance.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "19713_gekishou_ex3",
-      "japanese": "この{小説|しょうせつ}は{発表|はっぴょう}{当時|とうじ}、{文壇|ぶんだん}から{激賞|げきしょう}を{浴|あ}び、{一躍|いちやく}{有名|ゆうめい}になった。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{小説|しょうせつ}→小説：01434_shousetsu⟧⟦は→は：00079_ha⟧⟦{発表|はっぴょう}→発表：03562_happyou⟧⟦{当時|とうじ}→当時：01615_touji⟧、⟦{文壇|ぶんだん}→文壇：22666_bundan⟧⟦から→から：00504_kara⟧{激賞|げきしょう}⟦を→を：00422_wo⟧⟦{浴|あ}び→浴びる：02844_abiru⟧、⟦{一躍|いちやく}→一躍：11183_ichiyaku⟧⟦{有名|ゆうめい}→有名：01106_yuumei⟧になった。",
       "english": "When this novel was published, it received enthusiastic praise from the literary world and became famous overnight.",
       "sense_numbers": [
         1
@@ -134,8 +134,31 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {激|げき} (intense, violent) + {賞|しょう} (praise, admiration). A formal word that conveys praise beyond the ordinary — not just approval, but intense enthusiasm. Commonly used in reviews of artistic works, performances, and achievements.\n\nCOMMON COLLOCATIONS:\n- {激賞|げきしょう}する — to praise highly\n- {激賞|げきしょう}される — to receive high praise\n- {激賞|げきしょう}を{浴|あ}びる — to be showered with praise\n- {激賞|げきしょう}に{値|あたい}する — to be worthy of high praise\n\nSIMILAR WORDS:\n- {絶賛|ぜっさん} — highest praise, acclaim; very close synonym, perhaps even stronger\n- {賞賛|しょうさん} — praise, commendation; more moderate and general\n- {称賛|しょうさん} — praise, admiration; synonym of {賞賛|しょうさん} with different kanji",
+  "notes": "Composed of {激|げき} (intense, violent) + ⟦{賞|しょう}→賞：03227_shou⟧ (praise, admiration). A formal word that conveys praise beyond the ordinary — not just approval, but intense enthusiasm. Commonly used in reviews of artistic works, performances, and achievements.\n\nCOMMON COLLOCATIONS:\n- {激賞|げきしょう}⟦する→する：00392_suru⟧ — to praise highly\n- {激賞|げきしょう}⟦される→する：00392_suru⟧ — to receive high praise\n- {激賞|げきしょう}⟦を→を：00422_wo⟧⟦{浴|あ}びる→浴びる：02844_abiru⟧ — to be showered with praise\n- {激賞|げきしょう}⟦に→に：00314_ni⟧⟦{値|あたい}する→値する：25545_ataisuru⟧ — to be worthy of high praise\n\nSIMILAR WORDS:\n- ⟦{絶賛|ぜっさん}→絶賛：13840_zessan⟧ — highest praise, acclaim; very close synonym, perhaps even stronger\n- ⟦{賞賛|しょうさん}→賞賛：14277_shousan⟧ — praise, commendation; more moderate and general\n- ⟦{称賛|しょうさん}→称賛：21287_shousan⟧ — praise, admiration; synonym of ⟦{賞賛|しょうさん}→賞賛：14277_shousan⟧ with different kanji",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13840_zessan",
+      "reading": "ぜっさん",
+      "headword": "{絶賛|ぜっさん}",
+      "label": "highest praise, acclaim"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14277_shousan",
+      "reading": "しょうさん",
+      "headword": "{賞賛|しょうさん}",
+      "label": "praise, commendation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21287_shousan",
+      "reading": "しょうさん",
+      "headword": "{称賛|しょうさん}",
+      "label": "praise, admiration"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -151,6 +174,6 @@
       "verb_class": "suru"
     },
     "created": "2026-03-26T14:29:49Z",
-    "modified": "2026-03-26T14:29:49Z"
+    "modified": "2026-09-02T04:01:57Z"
   }
 }

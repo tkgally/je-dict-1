@@ -14,38 +14,72 @@
   "examples": [
     {
       "id": "08194_nease_ex1",
-      "japanese": "{寝汗|ねあせ}をかいた。",
+      "japanese": "{寝汗|ねあせ}⟦を→を：00422_wo⟧かいた。",
       "english": "I broke out in a night sweat.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "08194_nease_ex2",
-      "japanese": "{夏|なつ}は{寝汗|ねあせ}がひどい。",
+      "japanese": "⟦{夏|なつ}→夏：02236_natsu⟧⟦は→は：00079_ha⟧{寝汗|ねあせ}⟦が→が：00051_ga⟧⟦ひどい→ひどい：01097_hidoi⟧。",
       "english": "Night sweats are bad in summer.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "08194_nease_ex3",
-      "japanese": "{寝汗|ねあせ}で{目|め}が{覚|さ}めてパジャマを{着替|きが}えた。",
+      "japanese": "{寝汗|ねあせ}⟦で→で：00502_de⟧⟦{目|め}→目：00525_me⟧⟦が→が：00051_ga⟧⟦{覚|さ}めて→覚める：02058_sameru⟧⟦パジャマ→パジャマ：04516_pajama⟧⟦を→を：00422_wo⟧⟦{着替|きが}えた→着替える：04603_kigaeru⟧。",
       "english": "I woke up from night sweats and changed my pajamas.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "{寝汗|ねあせ} is a compound of {寝|ね} (sleep) + {汗|あせ} (sweat). It refers to perspiration that occurs while sleeping.\n\nCOMMON COLLOCATIONS:\n- {寝汗|ねあせ}をかく: to have night sweats\n- {寝汗|ねあせ}がひどい: to have bad night sweats\n- {寝汗|ねあせ}で{目|め}が{覚|さ}める: to wake up from night sweats\n- {寝汗|ねあせ}{対策|たいさく}: measures against night sweats\n\nCAUSES:\nCan be caused by hot weather, illness, fever, stress, or medications. Persistent night sweats may indicate a medical condition and are worth consulting a doctor about.\n\nRELATED TYPES OF SWEAT:\n- {汗|あせ}: sweat (general)\n- {冷|ひ}や{汗|あせ}: cold sweat (from fear or nervousness)\n- {脂汗|あぶらあせ}: greasy sweat (from pain or anxiety)\n- {手|て}{汗|あせ}: sweaty palms",
+  "notes": "{寝汗|ねあせ} is a compound of {寝|ね} (sleep) + ⟦{汗|あせ}→汗：02173_ase⟧ (sweat). It refers to perspiration that occurs while sleeping.\n\nCOMMON COLLOCATIONS:\n- {寝汗|ねあせ}⟦を→を：00422_wo⟧かく: to have night sweats\n- {寝汗|ねあせ}⟦が→が：00051_ga⟧⟦ひどい→ひどい：01097_hidoi⟧: to have bad night sweats\n- {寝汗|ねあせ}⟦で→で：00502_de⟧⟦{目|め}が{覚|さ}める→目が覚める：23498_megasameru⟧: to wake up from night sweats\n- {寝汗|ねあせ}⟦{対策|たいさく}→対策：02511_taisaku⟧: measures against night sweats\n\nCAUSES:\nCan be caused by hot weather, illness, fever, stress, or medications. Persistent night sweats may indicate a medical condition and are worth consulting a doctor about.\n\nRELATED TYPES OF SWEAT:\n- ⟦{汗|あせ}→汗：02173_ase⟧: sweat (general)\n- ⟦{冷|ひ}や{汗|あせ}→冷や汗：19109_hiyaase⟧: cold sweat (from fear or nervousness)\n- ⟦{脂汗|あぶらあせ}→脂汗：24142_aburaase⟧: greasy sweat (from pain or anxiety)\n- {手|て}{汗|あせ}: sweaty palms",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "19109_hiyaase",
+      "reading": "ひやあせ",
+      "headword": "{冷|ひ}や{汗|あせ}",
+      "label": "cold sweat"
+    },
+    {
+      "type": "related",
+      "target_id": "24142_aburaase",
+      "reading": "あぶらあせ",
+      "headword": "{脂汗|あぶらあせ}",
+      "label": "greasy sweat"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22403_reikan",
+      "reading": "れいかん",
+      "headword": "{冷汗|れいかん}",
+      "label": "cold sweat"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "semantic": ["health"]
+      "politeness": "plain",
+      "semantic": [
+        "health"
+      ]
     },
     "created": "2026-01-25T08:02:48Z",
-    "modified": "2026-06-21T13:03:45Z"
+    "modified": "2026-09-02T04:01:14Z"
   }
 }

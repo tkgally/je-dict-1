@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28610_zenrin_ex1",
-      "japanese": "{前輪|ぜんりん}がパンクした。",
+      "japanese": "{前輪|ぜんりん}⟦が→が：00051_ga⟧⟦パンク→パンク：10537_panku⟧⟦した→する：00392_suru⟧。",
       "english": "The front tire went flat.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28610_zenrin_ex2",
-      "japanese": "この{車|くるま}は{前輪|ぜんりん}{駆動|くどう}だ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{車|くるま}→車：00516_kuruma⟧⟦は→は：00079_ha⟧{前輪|ぜんりん}{駆動|くどう}だ。",
       "english": "This car has front-wheel drive.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28610_zenrin_ex3",
-      "japanese": "{自転車|じてんしゃ}の{前輪|ぜんりん}がぶれているので、{自転車|じてんしゃ}{屋|や}で{調整|ちょうせい}してもらった。",
+      "japanese": "⟦{自転車|じてんしゃ}→自転車：00633_jitensha⟧⟦の→の：09472_no⟧{前輪|ぜんりん}⟦が→が：00051_ga⟧⟦ぶれている→ぶれる：10522_bureru⟧⟦の→の：09472_no⟧で、⟦{自転車|じてんしゃ}→自転車：00633_jitensha⟧⟦{屋|や}→〜屋：03096_ya⟧⟦で→で：00502_de⟧⟦{調整|ちょうせい}して→調整する：10442_chouseisuru⟧⟦もらった→もらう：00520_morau⟧。",
       "english": "The bicycle's front wheel was wobbling, so I had a bike shop adjust it.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {前|ぜん} (front) + {輪|りん} (wheel).\n\nCOMMON COLLOCATIONS:\n- {前輪|ぜんりん}{駆動|くどう}: front-wheel drive (FWD)\n- {前輪|ぜんりん}ブレーキ: front brake\n- {前輪|ぜんりん}がパンクする: to get a flat in the front tire\n\nRELATED TERMS:\n- {後輪|こうりん}: rear wheel — the direct opposite\n- {両輪|りょうりん}: both wheels (also figurative: two essential parts of something)\n- {四輪|よんりん}{駆動|くどう}: four-wheel drive (4WD)",
+  "notes": "Compound of ⟦{前|ぜん}→前〜：03957_zen⟧ (front) + {輪|りん} (wheel).\n\nCOMMON COLLOCATIONS:\n- {前輪|ぜんりん}{駆動|くどう}: front-wheel drive (FWD)\n- {前輪|ぜんりん}⟦ブレーキ→ブレーキ：00022_bureeki⟧: front brake\n- {前輪|ぜんりん}⟦が→が：00051_ga⟧⟦パンク→パンク：10537_panku⟧⟦する→する：00392_suru⟧: to get a flat in the front tire\n\nRELATED WORDS:\n- ⟦{後輪|こうりん}→後輪：28611_kourin⟧: rear wheel — the direct opposite\n- ⟦{両輪|りょうりん}→両輪：28859_ryourin⟧: both wheels (also figurative: two essential parts of something)\n- {四輪|よんりん}⟦{駆動|くどう}→駆動：24244_kudou⟧: four-wheel drive (4WD)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "28611_kourin",
+      "reading": "こうりん",
+      "headword": "{後輪|こうりん}",
+      "label": "rear wheel"
+    },
+    {
+      "type": "related",
+      "target_id": "28859_ryourin",
+      "reading": "りょうりん",
+      "headword": "{両輪|りょうりん}",
+      "label": "both wheels (also figurative"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +69,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "transportation"
       ],
       "domain": []
     },
     "created": "2026-06-02T04:07:08Z",
-    "modified": "2026-08-08T18:34:17Z"
+    "modified": "2026-09-02T04:02:34Z"
   }
 }

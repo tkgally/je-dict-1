@@ -5,20 +5,44 @@
   "reading": "りゅうげん",
   "part_of_speech": "noun",
   "gloss": "rumor; false report; unfounded story",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01871_uwasa",
+      "reading": "うわさ",
+      "headword": "{噂|うわさ}",
+      "label": "rumor, gossip"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16135_dema",
+      "reading": "でま",
+      "headword": "デマ",
+      "label": "misinformation, false rumor"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16394_fuuhyou",
+      "reading": "ふうひょう",
+      "headword": "{風評|ふうひょう}",
+      "label": "public rumor, reputation"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "communication"
       ]
     },
     "created": "2026-04-03T21:25:56Z",
-    "modified": "2026-04-03T21:25:56Z"
+    "modified": "2026-09-02T04:02:05Z"
   },
-  "notes": "A formal, literary word for rumors that spread through a community. Often implies the information is false or harmful. Historically associated with rumors that spread during disasters, wars, and social unrest.\n\nThe four-character compound {流言|りゅうげん}{飛語|ひご} (false rumors and gossip) is a very common set phrase that intensifies the meaning.\n\nCOMMON COLLOCATIONS:\n- {流言|りゅうげん}{飛語|ひご}: groundless rumors and gossip\n- {流言|りゅうげん}が{広|ひろ}まる: rumors spread\n- {流言|りゅうげん}に{惑|まど}わされる: to be misled by rumors\n- {流言|りゅうげん}を{打|う}ち{消|け}す: to dispel rumors\n- {流言|りゅうげん}を{流|なが}す: to spread rumors\n\nSIMILAR WORDS:\n- {噂|うわさ}: rumor, gossip — the everyday word; neutral and much more common in daily conversation\n- デマ: misinformation, false rumor — from German Demagogie; emphasizes deliberate falseness\n- {風評|ふうひょう}: public rumor, reputation — often used in {風評|ふうひょう}{被害|ひがい} (damage from harmful rumors)\n\nREGISTER:\nFormal and literary. Appears in news, academic writing, and historical accounts. In everyday speech, {噂|うわさ} or デマ are preferred.",
+  "notes": "A formal, literary word for rumors that spread through a community. Often implies the information is false or harmful. Historically associated with rumors that spread during disasters, wars, and social unrest.\n\nThe four-character compound {流言|りゅうげん}{飛語|ひご} (false rumors and gossip) is a very common set phrase that intensifies the meaning.\n\nCOMMON COLLOCATIONS:\n- {流言|りゅうげん}{飛語|ひご}: groundless rumors and gossip\n- {流言|りゅうげん}⟦が→が：00051_ga⟧⟦{広|ひろ}まる→広まる：02404_hiromaru⟧: rumors spread\n- {流言|りゅうげん}⟦に→に：00314_ni⟧⟦{惑|まど}わされる→惑わす：28047_madowasu⟧: to be misled by rumors\n- {流言|りゅうげん}⟦を→を：00422_wo⟧⟦{打|う}ち{消|け}す→打ち消す：06792_uchikesu⟧: to dispel rumors\n- {流言|りゅうげん}⟦を→を：00422_wo⟧⟦{流|なが}す→流す：01968_nagasu⟧: to spread rumors\n\nSIMILAR WORDS:\n- ⟦{噂|うわさ}→噂：01871_uwasa⟧: rumor, gossip — the everyday word; neutral and much more common in daily conversation\n- ⟦デマ→デマ：16135_dema⟧: misinformation, false rumor — from German Demagogie; emphasizes deliberate falseness\n- ⟦{風評|ふうひょう}→風評：16394_fuuhyou⟧: public rumor, reputation — often used in ⟦{風評|ふうひょう}→風評：16394_fuuhyou⟧⟦{被害|ひがい}→被害：02572_higai⟧ (damage from harmful rumors)\n\nREGISTER:\nFormal and literary. Appears in news, academic writing, and historical accounts. In everyday speech, ⟦{噂|うわさ}→噂：01871_uwasa⟧ or ⟦デマ→デマ：16135_dema⟧ are preferred.",
   "definitions": [
     {
       "sense_number": 1,
@@ -29,7 +53,7 @@
   "examples": [
     {
       "id": "21907_ryuugen_ex1",
-      "japanese": "{流言|りゅうげん}に{惑|まど}わされてはいけない。",
+      "japanese": "{流言|りゅうげん}⟦に→に：00314_ni⟧⟦{惑|まど}わされて→惑わす：28047_madowasu⟧⟦は→は：00079_ha⟧いけない。",
       "english": "You must not be misled by rumors.",
       "sense_numbers": [
         1
@@ -39,7 +63,7 @@
     },
     {
       "id": "21907_ryuugen_ex2",
-      "japanese": "{災害|さいがい}の{後|あと}、{流言|りゅうげん}が{広|ひろ}まった。",
+      "japanese": "⟦{災害|さいがい}→災害：09636_saigai⟧⟦の→の：09472_no⟧⟦{後|あと}→後：09580_ato⟧、{流言|りゅうげん}⟦が→が：00051_ga⟧⟦{広|ひろ}まった→広まる：02404_hiromaru⟧。",
       "english": "After the disaster, rumors spread.",
       "sense_numbers": [
         1
@@ -49,7 +73,7 @@
     },
     {
       "id": "21907_ryuugen_ex3",
-      "japanese": "SNSでは{流言|りゅうげん}{飛語|ひご}が{瞬|またた}く{間|ま}に{拡散|かくさん}してしまう。",
+      "japanese": "SNS⟦では→では：02945_deha⟧{流言|りゅうげん}{飛語|ひご}⟦が→が：00051_ga⟧⟦{瞬|またた}く{間|ま}に→瞬く間に：21215_matatakumani⟧⟦{拡散|かくさん}して→拡散する：18995_kakusansuru⟧しまう。",
       "english": "On social media, false rumors spread in the blink of an eye.",
       "sense_numbers": [
         1
@@ -59,7 +83,7 @@
     },
     {
       "id": "21907_ryuugen_ex4",
-      "japanese": "{根拠|こんきょ}のない{流言|りゅうげん}を{信|しん}じて{行動|こうどう}すると{大|おお}きな{混乱|こんらん}を{招|まね}く。",
+      "japanese": "⟦{根拠|こんきょ}→根拠：10147_konkyo⟧⟦の→の：09472_no⟧⟦ない→ない：01118_nai⟧{流言|りゅうげん}⟦を→を：00422_wo⟧⟦{信|しん}じて→信じる：01111_shinjiru⟧⟦{行動|こうどう}→行動：02728_koudou⟧⟦する→する：00392_suru⟧⟦と→と：00512_to⟧⟦{大|おお}きな→大きな：02849_ookina⟧⟦{混乱|こんらん}→混乱：02811_konran⟧⟦を→を：00422_wo⟧⟦{招|まね}く→招く：02425_maneku⟧。",
       "english": "If you believe and act on unfounded rumors, it will cause great confusion.",
       "sense_numbers": [
         1

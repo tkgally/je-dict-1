@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "16795_yosoudoori_ex1",
-      "japanese": "{予想通|よそうどお}り{雨|あめ}が{降|ふ}った。",
+      "japanese": "{予想通|よそうどお}り{雨|あめ}⟦が→が：00051_ga⟧⟦{降|ふ}った→降る：00839_furu⟧。",
       "english": "It rained, just as expected.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16795_yosoudoori_ex2",
-      "japanese": "{試合|しあい}は{予想通|よそうどお}りの{結果|けっか}になった。",
+      "japanese": "⟦{試合|しあい}→試合：01601_shiai⟧⟦は→は：00079_ha⟧{予想通|よそうどお}り⟦の→の：09472_no⟧⟦{結果|けっか}→結果：02486_kekka⟧になった。",
       "english": "The match ended with the expected result.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16795_yosoudoori_ex3",
-      "japanese": "{予想通|よそうどお}り、あのプロジェクトは{予算|よさん}オーバーになってしまった。",
+      "japanese": "{予想通|よそうどお}り、⟦あの→あの：00915_ano⟧⟦プロジェクト→プロジェクト：06764_purojekuto⟧⟦は→は：00079_ha⟧⟦{予算|よさん}オーバー→予算オーバー：17486_yosanoobaa⟧になってしまった。",
       "english": "As expected, that project went over budget.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nCan function as an adverb modifying a verb or as a noun with の. The pattern ～{通|どお}り (as per ~, just like ~) is productive and can be used with many nouns: {計画通|けいかくどお}り (as planned), {時間通|じかんどお}り (on time).\n\nCOMMON COLLOCATIONS:\n- {予想通|よそうどお}りの{結果|けっか} (the expected result)\n- {予想通|よそうどお}りの{展開|てんかい} (an expected development)\n- {予想通|よそうどお}りに{進|すす}む (to proceed as expected)\n\nSIMILAR WORDS:\n- {案|あん}の{定|じょう}: as expected — slightly literary, often implies a negative outcome\n- やっぱり: as expected — colloquial, commonly used in conversation",
+  "notes": "USAGE:\nCan function as an adverb modifying a verb or as a noun with ⟦の→の：09472_no⟧. The pattern ～{通|どお}り (as per ~, just like ~) is productive and can be used with many nouns: {計画通|けいかくどお}り (as planned), ⟦{時間通|じかんどお}り→時間通り：20620_jikandoori⟧ (on time).\n\nCOMMON COLLOCATIONS:\n- {予想通|よそうどお}り⟦の→の：09472_no⟧⟦{結果|けっか}→結果：02486_kekka⟧ (the expected result)\n- {予想通|よそうどお}り⟦の→の：09472_no⟧⟦{展開|てんかい}→展開：04542_tenkai⟧ (an expected development)\n- {予想通|よそうどお}り⟦に→に：00314_ni⟧⟦{進|すす}む→進む：01225_susumu⟧ (to proceed as expected)\n\nSIMILAR WORDS:\n- ⟦{案|あん}の{定|じょう}→案の定：07578_annojou⟧: as expected — slightly literary, often implies a negative outcome\n- ⟦やっぱり→やっぱり：03005_yappari⟧: as expected — colloquial, commonly used in conversation",
   "cross_references": [
     {
       "type": "related",
@@ -60,18 +66,31 @@
       "reading": "やっぱり",
       "headword": "やっぱり",
       "label": "as expected (colloquial)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25845_omoidoori",
+      "reading": "おもいどおり",
+      "headword": "{思|おも}い{通|どお}り",
+      "label": "as one wishes"
     }
   ],
   "metadata": {
     "created": "2026-03-14T10:32:03Z",
-    "modified": "2026-05-05T04:05:07Z",
+    "modified": "2026-09-02T04:01:46Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adverb", "noun"],
+      "pos": [
+        "adverb",
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["evaluation", "expectation"]
+      "semantic": [
+        "evaluation",
+        "expectation"
+      ]
     }
   }
 }

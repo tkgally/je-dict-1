@@ -15,41 +15,69 @@
   "examples": [
     {
       "id": "27425_natto_ex1",
-      "japanese": "ナットを{締|し}める。",
+      "japanese": "ナット⟦を→を：00422_wo⟧⟦{締|し}める→締める：10057_shimeru⟧。",
       "english": "To tighten the nut.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27425_natto_ex2",
-      "japanese": "ボルトとナットで{部品|ぶひん}を{固定|こてい}した。",
+      "japanese": "⟦ボルト→ボルト：23094_boruto⟧⟦と→と：00512_to⟧ナット⟦で→で：00502_de⟧⟦{部品|ぶひん}→部品：00020_buhin⟧⟦を→を：00422_wo⟧⟦{固定|こてい}した→固定する：19647_koteisuru⟧。",
       "english": "I fastened the parts together with a bolt and nut.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27425_natto_ex3",
-      "japanese": "{緩|ゆる}んでいるナットがないか、レンチで{順番|じゅんばん}に{確認|かくにん}した。",
+      "japanese": "⟦{緩|ゆる}んでいる→緩む：10056_yurumu⟧ナット⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧⟦か→か：09473_ka⟧、⟦レンチ→レンチ：05600_renchi⟧⟦で→で：00502_de⟧⟦{順番|じゅんばん}→順番：03283_junban⟧⟦に→に：00314_ni⟧⟦{確認|かくにん}した→確認する：25332_kakuninsuru⟧。",
       "english": "I checked one by one with a wrench to see if there were any loose nuts.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Loanword from English \"nut\" (fastener). Used in mechanical, construction, and DIY contexts. Pronounced and written with a small っ — distinct from {納豆|なっとう}, which has a long final vowel.\n\nCOMMON COLLOCATIONS:\n- ナットを{締|し}める / {緩|ゆる}める: to tighten / loosen a nut\n- ボルトとナット: bolt and nut\n- ナットが{外|はず}れる: the nut comes off\n- {六角|ろっかく}ナット: hex nut\n\nSIMILAR WORDS:\n- ボルト: bolt — the threaded fastener that the nut screws onto\n- ねじ: screw — broader term, includes both bolts and small wood/metal screws\n- ワッシャー: washer — flat ring placed under a nut or bolt head",
+  "notes": "Loanword from English \"nut\" (fastener). Used in mechanical, construction, and DIY contexts. Pronounced and written with a small っ — distinct from ⟦{納豆|なっとう}→納豆：04930_nattou⟧, which has a long final vowel.\n\nCOMMON COLLOCATIONS:\n- ナット⟦を→を：00422_wo⟧⟦{締|し}める→締める：10057_shimeru⟧ / ⟦{緩|ゆる}める→緩める：15263_yurumeru⟧: to tighten / loosen a nut\n- ⟦ボルト→ボルト：23094_boruto⟧⟦と→と：00512_to⟧ナット: bolt and nut\n- ナット⟦が→が：00051_ga⟧⟦{外|はず}れる→外れる：02395_hazureru⟧: the nut comes off\n- ⟦{六角|ろっかく}→六角：26702_rokkaku⟧ナット: hex nut\n\nSIMILAR WORDS:\n- ⟦ボルト→ボルト：23094_boruto⟧: bolt — the threaded fastener that the nut screws onto\n- ⟦ねじ→ねじ：00307_neji⟧: screw — broader term, includes both bolts and small wood/metal screws\n- ワッシャー: washer — flat ring placed under a nut or bolt head",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23094_boruto",
+      "reading": "ぼると",
+      "headword": "ボルト",
+      "label": "bolt"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00307_neji",
+      "reading": "ねじ",
+      "headword": "ねじ",
+      "label": "screw"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["tool", "technology", "loanword"],
+      "politeness": "plain",
+      "semantic": [
+        "tool",
+        "technology",
+        "loanword"
+      ],
       "domain": []
     },
     "created": "2026-05-11T07:40:10Z",
-    "modified": "2026-05-11T07:40:10Z"
+    "modified": "2026-09-02T04:02:30Z"
   }
 }

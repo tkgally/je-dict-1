@@ -14,30 +14,36 @@
   "examples": [
     {
       "id": "10189_seisanki_ex1",
-      "japanese": "{精算機|せいさんき}で{運賃|うんちん}を{払|はら}う。",
+      "japanese": "{精算機|せいさんき}⟦で→で：00502_de⟧⟦{運賃|うんちん}→運賃：05299_unchin⟧⟦を→を：00422_wo⟧⟦{払|はら}う→払う：00535_harau⟧。",
       "english": "Pay the fare at the fare adjustment machine.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10189_seisanki_ex2",
-      "japanese": "{精算機|せいさんき}は{改札|かいさつ}の{近|ちか}くにある。",
+      "japanese": "{精算機|せいさんき}⟦は→は：00079_ha⟧⟦{改札|かいさつ}→改札：04120_kaisatsu⟧⟦の→の：09472_no⟧{近|ちか}く⟦に→に：00314_ni⟧⟦ある→ある：00006_aru⟧。",
       "english": "The fare adjustment machine is near the ticket gates.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10189_seisanki_ex3",
-      "japanese": "{切符|きっぷ}の{金額|きんがく}が{足|た}りなかったので{精算機|せいさんき}を{使|つか}った。",
+      "japanese": "⟦{切符|きっぷ}→切符：00643_kippu⟧⟦の→の：09472_no⟧⟦{金額|きんがく}→金額：02665_kingaku⟧⟦が→が：00051_ga⟧⟦{足|た}りなかった→足りる：01209_tariru⟧⟦の→の：09472_no⟧で{精算機|せいさんき}⟦を→を：00422_wo⟧⟦{使|つか}った→使う：00473_tsukau⟧。",
       "english": "My ticket didn't cover the full fare, so I used the fare adjustment machine.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "WORD FORMATION:\n{精算|せいさん} (settlement, fare adjustment) + {機|き} (machine)\n\nUSAGE NOTES:\nFound at train stations when passengers travel beyond their ticket's valid range. Insert the ticket, pay the difference, and receive an adjusted ticket or pass through.\n\nWITH IC CARDS:\nWith IC cards like Suica or PASMO, {精算機|せいさんき} is used when the card balance is insufficient. You can add money (チャージ) at these machines.\n\nRELATED TERMS:\n- {改札|かいさつ}: ticket gate\n- {乗|の}り{越|こ}し: riding beyond one's ticket\n- {運賃|うんちん}: fare",
+  "notes": "FORMS:\n⟦{精算|せいさん}→精算：10899_seisan⟧ (settlement, fare adjustment) + ⟦{機|き}→〜機：09843_ki⟧ (machine)\n\nUSAGE:\nFound at train stations when passengers travel beyond their ticket's valid range. Insert the ticket, pay the difference, and receive an adjusted ticket or pass through.\n\nWITH IC CARDS:\nWith IC cards like Suica or PASMO, {精算機|せいさんき} is used when the card balance is insufficient. You can add money (⟦チャージ→チャージ：09729_chaaji⟧) at these machines.\n\nRELATED WORDS:\n- ⟦{改札|かいさつ}→改札：04120_kaisatsu⟧: ticket gate\n- ⟦{乗|の}り{越|こ}し→乗り越し：23194_norikoshi⟧: riding beyond one's ticket\n- ⟦{運賃|うんちん}→運賃：05299_unchin⟧: fare",
   "cross_references": [
     {
       "type": "related",
@@ -52,17 +58,43 @@
       "reading": "かいさつ",
       "headword": "{改札|かいさつ}",
       "label": "ticket gate"
+    },
+    {
+      "type": "related",
+      "target_id": "23194_norikoshi",
+      "reading": "のりこし",
+      "headword": "{乗|の}り{越|こ}し",
+      "label": "riding beyond one's ticket"
+    },
+    {
+      "type": "related",
+      "target_id": "05299_unchin",
+      "reading": "うんちん",
+      "headword": "{運賃|うんちん}",
+      "label": "fare"
+    },
+    {
+      "type": "related",
+      "target_id": "09553_kenbaiki",
+      "reading": "けんばいき",
+      "headword": "{券売機|けんばいき}",
+      "label": "ticket vending machine"
     }
   ],
   "metadata": {
     "created": "2026-02-05T12:58:08Z",
-    "modified": "2026-07-10T21:18:41Z",
+    "modified": "2026-09-02T04:01:20Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["transportation", "machine"]
+      "semantic": [
+        "transportation",
+        "machine"
+      ]
     }
   }
 }

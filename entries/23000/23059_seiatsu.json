@@ -3,7 +3,7 @@
   "headword": "{制圧|せいあつ}",
   "reading": "せいあつ",
   "romaji": "seiatsu",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "suppression; subjugation; gaining control",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "23059_seiatsu_ex1",
-      "japanese": "{暴動|ぼうどう}を{制圧|せいあつ}する。",
+      "japanese": "⟦{暴動|ぼうどう}→暴動：15533_boudou⟧⟦を→を：00422_wo⟧{制圧|せいあつ}⟦する→する：00392_suru⟧。",
       "english": "To suppress a riot.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "23059_seiatsu_ex2",
-      "japanese": "{警察|けいさつ}が{現場|げんば}を{制圧|せいあつ}した。",
+      "japanese": "⟦{警察|けいさつ}→警察：01393_keisatsu⟧⟦が→が：00051_ga⟧⟦{現場|げんば}→現場：02723_genba⟧⟦を→を：00422_wo⟧{制圧|せいあつ}⟦した→する：00392_suru⟧。",
       "english": "The police gained control of the scene.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "23059_seiatsu_ex3",
-      "japanese": "{相手|あいて}チームを{圧倒的|あっとうてき}な{攻撃力|こうげきりょく}で{制圧|せいあつ}した。",
+      "japanese": "⟦{相手|あいて}→相手：01677_aite⟧⟦チーム→チーム：03858_chiimu⟧⟦を→を：00422_wo⟧⟦{圧倒的|あっとうてき}→圧倒的：05853_attouteki⟧な{攻撃力|こうげきりょく}⟦で→で：00502_de⟧{制圧|せいあつ}⟦した→する：00392_suru⟧。",
       "english": "They dominated the opposing team with overwhelming offensive power.",
       "sense_numbers": [
         1
@@ -44,8 +44,52 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {制|せい} (control/restrain) + {圧|あつ} (pressure). Implies the use of force or overwhelming power to bring something under control.\n\nCOMMON COLLOCATIONS:\n- {制圧|せいあつ}する: to suppress, to subdue\n- {武力|ぶりょく}{制圧|せいあつ}: armed suppression\n- {制圧|せいあつ}{射撃|しゃげき}: suppressive fire\n- {完全|かんぜん}{制圧|せいあつ}: complete subjugation\n\nSIMILAR WORDS:\n- {鎮圧|ちんあつ}: suppression, quelling — focuses on calming a disturbance\n- {制御|せいぎょ}: control — managing or regulating something (less forceful)\n- {征服|せいふく}: conquest — complete subjugation of a people or territory\n- {弾圧|だんあつ}: oppression — suppressing people or movements through force",
+  "notes": "A compound of ⟦{制|せい}→〜制：30791_sei⟧ (control/restrain) + {圧|あつ} (pressure). Implies the use of force or overwhelming power to bring something under control.\n\nCOMMON COLLOCATIONS:\n- {制圧|せいあつ}⟦する→する：00392_suru⟧: to suppress, to subdue\n- ⟦{武力|ぶりょく}→武力：13221_buryoku⟧{制圧|せいあつ}: armed suppression\n- {制圧|せいあつ}⟦{射撃|しゃげき}→射撃：16089_shageki⟧: suppressive fire\n- ⟦{完全|かんぜん}→完全：01552_kanzen⟧{制圧|せいあつ}: complete subjugation\n\nSIMILAR WORDS:\n- ⟦{鎮圧|ちんあつ}→鎮圧：14542_chinatsu⟧: suppression, quelling — focuses on calming a disturbance\n- ⟦{制御|せいぎょ}→制御：11816_seigyo⟧: control — managing or regulating something (less forceful)\n- ⟦{征服|せいふく}→征服：12546_seifuku⟧: conquest — complete subjugation of a people or territory\n- ⟦{弾圧|だんあつ}→弾圧：08999_danatsu⟧: oppression — suppressing people or movements through force",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14542_chinatsu",
+      "reading": "ちんあつ",
+      "headword": "{鎮圧|ちんあつ}",
+      "label": "suppression, quelling"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11816_seigyo",
+      "reading": "せいぎょ",
+      "headword": "{制御|せいぎょ}",
+      "label": "control"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12546_seifuku",
+      "reading": "せいふく",
+      "headword": "{征服|せいふく}",
+      "label": "conquest"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08999_danatsu",
+      "reading": "だんあつ",
+      "headword": "{弾圧|だんあつ}",
+      "label": "oppression"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17122_attousuru",
+      "reading": "あっとうする",
+      "headword": "{圧倒|あっとう}する",
+      "label": "to overwhelm"
+    },
+    {
+      "type": "related",
+      "target_id": "18806_senkyo",
+      "reading": "せんきょ",
+      "headword": "{占拠|せんきょ}",
+      "label": "occupation"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,10 +103,11 @@
         "military",
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-04-08T17:30:03Z",
-    "modified": "2026-04-08T17:30:03Z"
+    "modified": "2026-09-02T04:02:10Z"
   },
   "conjugation": {
     "type": "suru",

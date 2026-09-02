@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08932_kayousei_ex1",
-      "japanese": "システムの{可用性|かようせい}を{高|たか}める。",
+      "japanese": "⟦システム→システム：08428_shisutemu⟧⟦の→の：09472_no⟧{可用性|かようせい}⟦を→を：00422_wo⟧⟦{高|たか}める→高める：02065_takameru⟧。",
       "english": "We improve the availability of the system.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "08932_kayousei_ex2",
-      "japanese": "{可用性|かようせい}99.9%を{目標|もくひょう}にしている。",
+      "japanese": "{可用性|かようせい}99.9%⟦を→を：00422_wo⟧⟦{目標|もくひょう}→目標：03631_mokuhyou⟧にして⟦いる→いる：00495_iru⟧。",
       "english": "We are targeting 99.9% availability.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "08932_kayousei_ex3",
-      "japanese": "{冗長|じょうちょう}{構成|こうせい}により{高|たか}い{可用性|かようせい}を{実現|じつげん}した。",
+      "japanese": "⟦{冗長|じょうちょう}→冗長：07655_jouchou⟧⟦{構成|こうせい}→構成：02729_kousei⟧⟦に→に：00314_ni⟧⟦より→より：09476_yori⟧⟦{高|たか}い→高い：00500_takai⟧{可用性|かようせい}⟦を→を：00422_wo⟧⟦{実現|じつげん}→実現：03276_jitsugen⟧⟦した→する：00392_suru⟧。",
       "english": "We achieved high availability through redundant configuration.",
       "notes": null,
       "has_audio": false,
@@ -43,11 +43,26 @@
       ]
     }
   ],
-  "notes": "{可用性|かようせい} is a technical IT term referring to system uptime and accessibility.\n\nCOMMON COLLOCATIONS:\n- {高|たか}{可用性|かようせい}: high availability (HA)\n- {可用性|かようせい}を{確保|かくほ}する: to ensure availability\n- {可用性|かようせい}を{向上|こうじょう}させる: to improve availability\n\nRELATED CONCEPTS:\n- {信頼性|しんらいせい}: reliability\n- {耐障害性|たいしょうがいせい}: fault tolerance\n- {冗長性|じょうちょうせい}: redundancy\n\nTECHNICAL NOTE:\nAvailability is often expressed as a percentage (e.g., 99.9% = \"three nines\"). The term is part of the IT triad of {機密性|きみつせい} (confidentiality), {完全性|かんぜんせい} (integrity), and {可用性|かようせい} (availability), known as CIA.",
-  "cross_references": [],
+  "notes": "{可用性|かようせい} is a technical IT term referring to system uptime and accessibility.\n\nCOMMON COLLOCATIONS:\n- {高|たか}{可用性|かようせい}: high availability (HA)\n- {可用性|かようせい}⟦を→を：00422_wo⟧⟦{確保|かくほ}→確保：13681_kakuho⟧⟦する→する：00392_suru⟧: to ensure availability\n- {可用性|かようせい}⟦を→を：00422_wo⟧{向上|こうじょう}させる: to improve availability\n\nRELATED WORDS:\n- ⟦{信頼性|しんらいせい}→信頼性：05572_shinraisei⟧: reliability\n- {耐障害性|たいしょうがいせい}: fault tolerance\n- ⟦{冗長性|じょうちょうせい}→冗長性：24002_jouchousei⟧: redundancy\n\nTECHNICAL NOTE:\nAvailability is often expressed as a percentage (e.g., 99.9% = \"three nines\"). The term is part of the IT triad of {機密性|きみつせい} (confidentiality), {完全性|かんぜんせい} (integrity), and {可用性|かようせい} (availability), known as CIA.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "05572_shinraisei",
+      "reading": "しんらいせい",
+      "headword": "{信頼性|しんらいせい}",
+      "label": "reliability"
+    },
+    {
+      "type": "related",
+      "target_id": "24002_jouchousei",
+      "reading": "じょうちょうせい",
+      "headword": "{冗長性|じょうちょうせい}",
+      "label": "redundancy"
+    }
+  ],
   "metadata": {
     "created": "2026-01-29T06:09:22Z",
-    "modified": "2026-01-29T06:09:22Z",
+    "modified": "2026-09-02T04:01:16Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

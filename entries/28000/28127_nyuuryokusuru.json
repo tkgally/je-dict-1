@@ -3,7 +3,7 @@
   "headword": "{入力|にゅうりょく}する",
   "reading": "にゅうりょくする",
   "romaji": "nyuuryokusuru",
-  "part_of_speech": "verb-suru",
+  "part_of_speech": "suru verb",
   "gloss": "to input; to enter (data); to type in",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28127_nyuuryokusuru_ex1",
-      "japanese": "{名前|なまえ}を{入力|にゅうりょく}する。",
+      "japanese": "⟦{名前|なまえ}→名前：02234_namae⟧⟦を→を：00422_wo⟧{入力|にゅうりょく}する。",
       "english": "I enter my name.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28127_nyuuryokusuru_ex2",
-      "japanese": "パスワードを{入力|にゅうりょく}してください。",
+      "japanese": "⟦パスワード→パスワード：05277_pasuwaado⟧⟦を→を：00422_wo⟧{入力|にゅうりょく}して⟦ください→ください：02899_kudasai⟧。",
       "english": "Please enter your password.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28127_nyuuryokusuru_ex3",
-      "japanese": "{数字|すうじ}を{間違|まちが}えて{入力|にゅうりょく}したので、{最初|さいしょ}からやり{直|なお}した。",
+      "japanese": "⟦{数字|すうじ}→数字：03361_suuji⟧⟦を→を：00422_wo⟧⟦{間違|まちが}えて→間違える：01109_machigaeru⟧{入力|にゅうりょく}した⟦の→の：09472_no⟧で、⟦{最初|さいしょ}→最初：00882_saisho⟧⟦から→から：00504_kara⟧⟦やり{直|なお}した→やり直す：03172_yarinaosu⟧。",
       "english": "I entered the numbers incorrectly, so I started over from the beginning.",
       "sense_numbers": [
         1
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "{入力|にゅうりょく}する is a transitive suru-verb for entering data into a device. The data entered is marked with を.\n\nCOMMON COLLOCATIONS:\n- データを{入力|にゅうりょく}する: to input data\n- {手|て}{入力|にゅうりょく}: manual entry\n- {音声|おんせい}{入力|にゅうりょく}: voice input\n\nSIMILAR WORDS:\n- {出力|しゅつりょく}する: to output — the opposite operation\n- {打|う}ち{込|こ}む: to type in; to key in — emphasizes the typing action",
+  "notes": "{入力|にゅうりょく}する is a transitive suru-verb for entering data into a device. The data entered is marked with ⟦を→を：00422_wo⟧.\n\nCOMMON COLLOCATIONS:\n- ⟦データ→データ：03944_deeta⟧⟦を→を：00422_wo⟧{入力|にゅうりょく}する: to input data\n- ⟦{手|て}→手：00569_te⟧⟦{入力|にゅうりょく}→入力：04769_nyuuryoku⟧: manual entry\n- ⟦{音声|おんせい}{入力|にゅうりょく}→音声入力：08590_onseinyuuryoku⟧: voice input\n\nSIMILAR WORDS:\n- ⟦{出力|しゅつりょく}する→出力する：21387_shutsuryoku⟧: to output — the opposite operation\n- ⟦{打|う}ち{込|こ}む→打ち込む：04229_uchikomu⟧: to type in; to key in — emphasizes the typing action",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04771_shutsuryoku",
+      "reading": "しゅつりょく",
+      "headword": "{出力|しゅつりょく}",
+      "label": "to output"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04229_uchikomu",
+      "reading": "うちこむ",
+      "headword": "{打|う}ち{込|こ}む",
+      "label": "to type in"
+    },
+    {
+      "type": "antonym",
+      "target_id": "21387_shutsuryoku",
+      "reading": "しゅつりょく",
+      "headword": "{出力|しゅつりょく}する",
+      "label": "to output"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22639_taipusuru",
+      "reading": "たいぷする",
+      "headword": "タイプする",
+      "label": "to type (on a keyboard)"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,7 +92,7 @@
       "domain": []
     },
     "created": "2026-05-26T02:06:25Z",
-    "modified": "2026-05-26T02:06:25Z"
+    "modified": "2026-09-02T04:02:32Z"
   },
   "conjugation": {
     "type": "suru",

@@ -20,7 +20,7 @@
   "examples": [
     {
       "id": "23539_taimu_ex1",
-      "japanese": "タイムを{計|はか}る。",
+      "japanese": "タイム⟦を→を：00422_wo⟧⟦{計|はか}る→計る：28292_hakaru⟧。",
       "english": "To measure the time.",
       "sense_numbers": [
         1
@@ -30,7 +30,7 @@
     },
     {
       "id": "23539_taimu_ex2",
-      "japanese": "{自己|じこ}ベストのタイムを{更新|こうしん}した。",
+      "japanese": "⟦{自己|じこ}ベスト→自己ベスト：06967_jikobesuto⟧⟦の→の：09472_no⟧タイム⟦を→を：00422_wo⟧⟦{更新|こうしん}した→更新する：27994_koushinsuru⟧。",
       "english": "I updated my personal best time.",
       "sense_numbers": [
         1
@@ -40,7 +40,7 @@
     },
     {
       "id": "23539_taimu_ex3",
-      "japanese": "マラソンで3{時間|じかん}を{切|き}るタイムで{走|はし}った。",
+      "japanese": "⟦マラソン→マラソン：04732_marason⟧⟦で→で：00502_de⟧3⟦{時間|じかん}→時間：00468_jikan⟧⟦を→を：00422_wo⟧⟦{切|き}る→切る：02693_kiru⟧タイム⟦で→で：00502_de⟧⟦{走|はし}った→走る：00519_hashiru⟧。",
       "english": "I ran the marathon with a time under 3 hours.",
       "sense_numbers": [
         1
@@ -60,7 +60,7 @@
     },
     {
       "id": "23539_taimu_ex5",
-      "japanese": "{監督|かんとく}がタイムを{取|と}った。",
+      "japanese": "⟦{監督|かんとく}→監督：00185_kantoku⟧⟦が→が：00051_ga⟧タイム⟦を→を：00422_wo⟧⟦{取|と}った→取る：00565_toru⟧。",
       "english": "The coach called a time-out.",
       "sense_numbers": [
         2
@@ -70,7 +70,7 @@
     },
     {
       "id": "23539_taimu_ex6",
-      "japanese": "ちょっとタイム。{少|すこ}し{休|やす}もう。",
+      "japanese": "⟦ちょっと→ちょっと：00595_chotto⟧タイム。⟦{少|すこ}し→少し：00596_sukoshi⟧⟦{休|やす}もう→休む：00606_yasumu⟧。",
       "english": "Time out for a sec. Let's take a short break.",
       "sense_numbers": [
         2
@@ -79,8 +79,24 @@
       "notes": null
     }
   ],
-  "notes": "From English 'time'. In Japanese, タイム is used primarily in sports and competitive contexts for measured time, and as a call for a pause. It does not replace the general Japanese word for time ({時間|じかん}).\n\nCOMMON COLLOCATIONS:\n- タイムを{計|はか}る: to time, to measure the time\n- タイムを{出|だ}す: to produce/post a time\n- タイムを{縮|ちぢ}める: to improve (shorten) one's time\n- {自己|じこ}ベストタイム: personal best time\n- ラップタイム: lap time\n- タイムを{取|と}る: to call a time-out\n- タイムアウト: time-out (formal)\n\nCOMPOUNDS:\n- タイムセール: time-limited sale (common in Japanese retail)\n- タイムカード: time card (for recording work hours)\n- タイムリミット: time limit\n- タイムマシン: time machine\n\nSIMILAR WORDS:\n- {時間|じかん}: time — the general Japanese word for time, duration, or hour\n- {記録|きろく}: record — a broader term for any measured record, including time records",
+  "notes": "From English 'time'. In Japanese, タイム is used primarily in sports and competitive contexts for measured time, and as a call for a pause. It does not replace the general Japanese word for time (⟦{時間|じかん}→時間：00468_jikan⟧).\n\nCOMMON COLLOCATIONS:\n- タイム⟦を→を：00422_wo⟧⟦{計|はか}る→計る：28292_hakaru⟧: to time, to measure the time\n- タイム⟦を→を：00422_wo⟧⟦{出|だ}す→出す：01087_dasu⟧: to produce/post a time\n- タイム⟦を→を：00422_wo⟧⟦{縮|ちぢ}める→縮める：04245_chijimeru⟧: to improve (shorten) one's time\n- ⟦{自己|じこ}→自己：23357_jiko⟧ベストタイム: personal best time\n- ⟦ラップ→ラップ：11486_rappu⟧タイム: lap time\n- タイム⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧: to call a time-out\n- タイムアウト: time-out (formal)\n\nCOMPOUNDS:\n- タイムセール: time-limited sale (common in Japanese retail)\n- タイムカード: time card (for recording work hours)\n- タイムリミット: time limit\n- タイムマシン: time machine\n\nSIMILAR WORDS:\n- ⟦{時間|じかん}→時間：00468_jikan⟧: time — the general Japanese word for time, duration, or hour\n- ⟦{記録|きろく}→記録：02490_kiroku⟧: record — a broader term for any measured record, including time records",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00468_jikan",
+      "reading": "じかん",
+      "headword": "{時間|じかん}",
+      "label": "time"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02490_kiroku",
+      "reading": "きろく",
+      "headword": "{記録|きろく}",
+      "label": "record"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -95,6 +111,6 @@
       ]
     },
     "created": "2026-04-12T15:15:11Z",
-    "modified": "2026-08-01T21:36:06Z"
+    "modified": "2026-09-02T04:02:13Z"
   }
 }

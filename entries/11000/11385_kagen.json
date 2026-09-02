@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "11385_kagen_ex1",
-      "japanese": "{温度|おんど}の{下限|かげん}を{設定|せってい}する。",
+      "japanese": "⟦{温度|おんど}→温度：00333_ondo⟧⟦の→の：09472_no⟧{下限|かげん}⟦を→を：00422_wo⟧⟦{設定|せってい}→設定：04767_settei⟧⟦する→する：00392_suru⟧。",
       "english": "Set the lower limit of the temperature.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "11385_kagen_ex2",
-      "japanese": "{参加|さんか}{人数|にんずう}の{下限|かげん}は{十|じゅう}{名|めい}です。",
+      "japanese": "⟦{参加|さんか}→参加：02498_sanka⟧⟦{人数|にんずう}→人数：03132_ninzuu⟧⟦の→の：09472_no⟧{下限|かげん}⟦は→は：00079_ha⟧⟦{十|じゅう}→十：00708_juu⟧{名|めい}です。",
       "english": "The minimum number of participants is ten.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "11385_kagen_ex3",
-      "japanese": "{価格|かかく}には{上限|じょうげん}と{下限|かげん}が{設|もう}けられており、その{範囲内|はんいない}で{取引|とりひき}される。",
+      "japanese": "⟦{価格|かかく}→価格：00147_kakaku⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{上限|じょうげん}→上限：11299_jougen⟧⟦と→と：00512_to⟧{下限|かげん}⟦が→が：00051_ga⟧⟦{設|もう}けられて→設ける：14220_moukeru⟧おり、⟦その→その：00993_sono⟧⟦{範囲内|はんいない}→範囲内：25429_haninai⟧⟦で→で：00502_de⟧⟦{取引|とりひき}→取引：04700_torihiki⟧⟦される→する：00392_suru⟧。",
       "english": "An upper limit and lower limit are set on the price, and trading is done within that range.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE: {下限|かげん} is a somewhat formal term used in technical, financial, and regulatory contexts.\n\nCOMMON COLLOCATIONS:\n- {下限|かげん}を{設|もう}ける / {設定|せってい}する (to set a lower limit)\n- {下限|かげん}を{下回|したまわ}る (to fall below the lower limit)\n- {下限|かげん}{価格|かかく} (floor price, minimum price)\n\nPAIR: The opposite is {上限|じょうげん} (upper limit, maximum).\n\nNOTE: Do not confuse with {加減|かげん} (adjustment; degree; condition), which has the same reading but different kanji and meaning.",
+  "notes": "USAGE: {下限|かげん} is a somewhat formal term used in technical, financial, and regulatory contexts.\n\nCOMMON COLLOCATIONS:\n- {下限|かげん}⟦を→を：00422_wo⟧⟦{設|もう}ける→設ける：14220_moukeru⟧ / ⟦{設定|せってい}→設定：04767_settei⟧⟦する→する：00392_suru⟧ (to set a lower limit)\n- {下限|かげん}⟦を→を：00422_wo⟧⟦{下回|したまわ}る→下回る：07649_shitamawaru⟧ (to fall below the lower limit)\n- {下限|かげん}{価格|かかく} (floor price, minimum price)\n\nPAIR: The opposite is ⟦{上限|じょうげん}→上限：11299_jougen⟧ (upper limit, maximum).\n\nNOTE: Do not confuse with ⟦{加減|かげん}→加減：02602_kagen⟧ (adjustment; degree; condition), which has the same reading but different kanji and meaning.",
   "cross_references": [
     {
       "type": "contrast",
@@ -59,11 +59,18 @@
       "reading": "じょうげん",
       "headword": "{上限|じょうげん}",
       "label": "upper limit"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27382_itteigaku",
+      "reading": "いっていがく",
+      "headword": "{一定額|いっていがく}",
+      "label": "a fixed amount"
     }
   ],
   "metadata": {
     "created": "2026-02-16T02:02:31Z",
-    "modified": "2026-04-11T01:25:09Z",
+    "modified": "2026-09-02T04:01:25Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

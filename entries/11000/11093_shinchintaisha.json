@@ -15,42 +15,69 @@
   "examples": [
     {
       "id": "11093_shinchintaisha_ex1",
-      "japanese": "{運動|うんどう}すると{新陳代謝|しんちんたいしゃ}が{上|あ}がる。",
+      "japanese": "⟦{運動|うんどう}→運動：00821_undou⟧⟦する→する：00392_suru⟧⟦と→と：00512_to⟧{新陳代謝|しんちんたいしゃ}⟦が→が：00051_ga⟧⟦{上|あ}がる→上がる：00615_agaru⟧。",
       "english": "Exercise boosts your metabolism.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11093_shinchintaisha_ex2",
-      "japanese": "{年齢|ねんれい}とともに{新陳代謝|しんちんたいしゃ}が{落|お}ちてくる。",
+      "japanese": "⟦{年齢|ねんれい}→年齢：01490_nenrei⟧⟦とともに→とともに：30485_totomoni⟧{新陳代謝|しんちんたいしゃ}⟦が→が：00051_ga⟧⟦{落|お}ちて→落ちる：01242_ochiru⟧くる。",
       "english": "Metabolism slows down with age.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11093_shinchintaisha_ex3",
-      "japanese": "{新陳代謝|しんちんたいしゃ}を{良|よ}くするために、{毎朝|まいあさ}{水|みず}を{飲|の}むようにしている。",
+      "japanese": "{新陳代謝|しんちんたいしゃ}⟦を→を：00422_wo⟧⟦{良|よ}く→良い：02350_yoi⟧⟦する→する：00392_suru⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧、⟦{毎朝|まいあさ}→毎朝：00966_maiasa⟧⟦{水|みず}→水：02258_mizu⟧⟦を→を：00422_wo⟧⟦{飲|の}む→飲む：00322_nomu⟧ようにして⟦いる→いる：00495_iru⟧。",
       "english": "I make a point of drinking water every morning to improve my metabolism.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\n{新陳代謝|しんちんたいしゃ} literally means \"new replaces old\" ({新|しん}{陳|ちん} = new and old, {代謝|たいしゃ} = replacement/exchange). It is most commonly used in health and fitness contexts but can also describe organizational renewal.\n\nCOMMON COLLOCATIONS:\n- {新陳代謝|しんちんたいしゃ}が{良|よ}い (have a good metabolism)\n- {新陳代謝|しんちんたいしゃ}を{上|あ}げる (boost metabolism)\n- {新陳代謝|しんちんたいしゃ}が{落|お}ちる (metabolism drops)\n\nSHORTENED FORM:\nIn medical or scientific contexts, {代謝|たいしゃ} alone is often used (e.g., {基礎代謝|きそたいしゃ} = basal metabolism).",
-  "cross_references": [],
+  "notes": "USAGE:\n{新陳代謝|しんちんたいしゃ} literally means \"new replaces old\" ({新|しん}{陳|ちん} = new and old, ⟦{代謝|たいしゃ}→代謝：11438_taisha⟧ = replacement/exchange). It is most commonly used in health and fitness contexts but can also describe organizational renewal.\n\nCOMMON COLLOCATIONS:\n- {新陳代謝|しんちんたいしゃ}⟦が→が：00051_ga⟧⟦{良|よ}い→良い：02350_yoi⟧ (have a good metabolism)\n- {新陳代謝|しんちんたいしゃ}⟦を→を：00422_wo⟧⟦{上|あ}げる→上げる：02443_ageru⟧ (boost metabolism)\n- {新陳代謝|しんちんたいしゃ}⟦が→が：00051_ga⟧⟦{落|お}ちる→落ちる：01242_ochiru⟧ (metabolism drops)\n\nSHORTENED FORM:\nIn medical or scientific contexts, ⟦{代謝|たいしゃ}→代謝：11438_taisha⟧ alone is often used (e.g., ⟦{基礎代謝|きそたいしゃ}→基礎代謝：16813_kisotaisha⟧ = basal metabolism).",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20569_sedaikoutai",
+      "reading": "せだいこうたい",
+      "headword": "{世代|せだい}{交代|こうたい}",
+      "label": "generational change"
+    },
+    {
+      "type": "related",
+      "target_id": "23860_koujousen",
+      "reading": "こうじょうせん",
+      "headword": "{甲状腺|こうじょうせん}",
+      "label": "thyroid gland"
+    }
+  ],
   "metadata": {
     "created": "2026-02-13T12:38:59Z",
-    "modified": "2026-02-13T12:38:59Z",
+    "modified": "2026-09-02T04:01:23Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "domain": ["medical"],
-      "semantic": ["general"]
+      "domain": [
+        "medical"
+      ],
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

@@ -3,7 +3,7 @@
   "headword": "{会員登録|かいいんとうろく}",
   "reading": "かいいんとうろく",
   "romaji": "kaiintouroku",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "membership registration; account sign-up",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22815_kaiintouroku_ex1",
-      "japanese": "{会員登録|かいいんとうろく}は{無料|むりょう}です。",
+      "japanese": "{会員登録|かいいんとうろく}⟦は→は：00079_ha⟧⟦{無料|むりょう}→無料：01662_muryou⟧です。",
       "english": "Membership registration is free.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22815_kaiintouroku_ex2",
-      "japanese": "まず{会員登録|かいいんとうろく}してください。",
+      "japanese": "⟦まず→まず：00796_mazu⟧{会員登録|かいいんとうろく}⟦して→する：00392_suru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please register as a member first.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22815_kaiintouroku_ex3",
-      "japanese": "{会員登録|かいいんとうろく}をすると{割引|わりびき}クーポンがもらえる。",
+      "japanese": "{会員登録|かいいんとうろく}⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧⟦と→と：00512_to⟧⟦{割引|わりびき}→割引：01526_waribiki⟧⟦クーポン→クーポン：06446_kuupon⟧⟦が→が：00051_ga⟧⟦もらえる→もらう：00520_morau⟧。",
       "english": "You can get a discount coupon by registering as a member.",
       "sense_numbers": [
         1
@@ -45,7 +45,7 @@
     },
     {
       "id": "22815_kaiintouroku_ex4",
-      "japanese": "このサイトは{会員登録|かいいんとうろく}しないと{利用|りよう}できない。",
+      "japanese": "⟦この→この：00962_kono⟧⟦サイト→サイト：05603_saito⟧⟦は→は：00079_ha⟧{会員登録|かいいんとうろく}⟦しない→する：00392_suru⟧⟦と→と：00512_to⟧⟦{利用|りよう}できない→利用する：21735_riyousuru⟧。",
       "english": "You can't use this site without registering as a member.",
       "sense_numbers": [
         1
@@ -54,8 +54,24 @@
       "notes": null
     }
   ],
-  "notes": "The process of registering as a member of a service, website, or organization. A compound of {会員|かいいん} (member) and {登録|とうろく} (registration). Extremely common on Japanese websites and apps.\n\nCOMMON COLLOCATIONS:\n- {会員登録|かいいんとうろく}する: to register as a member\n- {会員登録|かいいんとうろく}{画面|がめん}: registration screen\n- {無料|むりょう}{会員登録|かいいんとうろく}: free membership registration\n- {新規|しんき}{会員登録|かいいんとうろく}: new member registration\n- {会員登録|かいいんとうろく}{不要|ふよう}: no registration required\n\nRELATED TERMS:\n- ログイン: login\n- {退会|たいかい}: withdrawal from membership\n- アカウント{作成|さくせい}: account creation",
+  "notes": "The process of registering as a member of a service, website, or organization. A compound of ⟦{会員|かいいん}→会員：02535_kaiin⟧ (member) and ⟦{登録|とうろく}→登録：05703_touroku⟧ (registration). Extremely common on Japanese websites and apps.\n\nCOMMON COLLOCATIONS:\n- {会員登録|かいいんとうろく}⟦する→する：00392_suru⟧: to register as a member\n- {会員登録|かいいんとうろく}{画面|がめん}: registration screen\n- {無料|むりょう}{会員登録|かいいんとうろく}: free membership registration\n- ⟦{新規|しんき}→新規：06289_shinki⟧{会員登録|かいいんとうろく}: new member registration\n- {会員登録|かいいんとうろく}⟦{不要|ふよう}→不要：02527_fuyou⟧: no registration required\n\nRELATED WORDS:\n- ⟦ログイン→ログイン：05276_roguin⟧: login\n- ⟦{退会|たいかい}→退会：16082_taikai⟧: withdrawal from membership\n- ⟦アカウント→アカウント：05103_akaunto⟧⟦{作成|さくせい}→作成：04186_sakusei⟧: account creation",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "05276_roguin",
+      "reading": "ろぐいん",
+      "headword": "ログイン",
+      "label": "login"
+    },
+    {
+      "type": "related",
+      "target_id": "16082_taikai",
+      "reading": "たいかい",
+      "headword": "{退会|たいかい}",
+      "label": "withdrawal from membership"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -63,6 +79,8 @@
         "noun",
         "verb-suru"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "technology",
         "daily-life"
@@ -70,7 +88,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-07T17:07:13Z",
-    "modified": "2026-04-07T17:07:13Z"
+    "modified": "2026-09-02T04:02:09Z"
   },
   "conjugation": {
     "type": "suru",

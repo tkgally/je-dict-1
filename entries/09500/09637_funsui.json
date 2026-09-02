@@ -14,30 +14,36 @@
   "examples": [
     {
       "id": "09637_funsui_ex1",
-      "japanese": "{公園|こうえん}の{噴水|ふんすい}がきれいだ。",
+      "japanese": "⟦{公園|こうえん}→公園：00581_kouen⟧⟦の→の：09472_no⟧{噴水|ふんすい}⟦が→が：00051_ga⟧⟦きれい→きれい：00717_kirei⟧だ。",
       "english": "The fountain in the park is beautiful.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09637_funsui_ex2",
-      "japanese": "{駅前|えきまえ}の{噴水|ふんすい}の{前|まえ}で{待|ま}ち{合|あ}わせた。",
+      "japanese": "⟦{駅前|えきまえ}→駅前：09593_ekimae⟧⟦の→の：09472_no⟧{噴水|ふんすい}⟦の→の：09472_no⟧⟦{前|まえ}→前：02255_mae⟧⟦で→で：00502_de⟧⟦{待|ま}ち{合|あ}わせた→待ち合わせる：12328_machiawaseru⟧。",
       "english": "We met in front of the fountain in front of the station.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09637_funsui_ex3",
-      "japanese": "{夜|よる}になると{噴水|ふんすい}がライトアップされる。",
+      "japanese": "⟦{夜|よる}→夜：00487_yoru⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦と→と：00512_to⟧{噴水|ふんすい}⟦が→が：00051_ga⟧⟦ライトアップ→ライトアップ：11220_raitoappu⟧⟦される→する：00392_suru⟧。",
       "english": "At night, the fountain is illuminated.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{噴水|ふんすい} literally means \"spouting water\" — {噴|ふん} (spout) + {水|すい} (water). It refers to decorative water features in public spaces.\n\nCOMMON COLLOCATIONS:\n- {噴水|ふんすい}{広場|ひろば}: fountain plaza\n- {噴水|ふんすい}ショー: fountain show\n- {噴水|ふんすい}のある{公園|こうえん}: a park with a fountain\n- {噴水|ふんすい}がライトアップされる: the fountain is illuminated\n\nUSAGE:\nFountains are common landmarks in Japanese cities — often used as meeting spots ({待|ま}ち{合|あ}わせ{場所|ばしょ}). Many parks and train station plazas feature fountains.\n\nNOTE:\nDo not confuse with {飲料水|いんりょうすい} (drinking water) or {水飲|みずの}み{場|ば} (drinking fountain). {噴水|ふんすい} is purely decorative.\n\nRELATED:\n- {泉|いずみ}: spring, natural water source\n- {滝|たき}: waterfall",
+  "notes": "{噴水|ふんすい} literally means \"spouting water\" — {噴|ふん} (spout) + {水|すい} (water). It refers to decorative water features in public spaces.\n\nCOMMON COLLOCATIONS:\n- {噴水|ふんすい}⟦{広場|ひろば}→広場：00104_hiroba⟧: fountain plaza\n- {噴水|ふんすい}⟦ショー→ショー：10950_shoo⟧: fountain show\n- {噴水|ふんすい}⟦の→の：09472_no⟧⟦ある→ある：00006_aru⟧⟦{公園|こうえん}→公園：00581_kouen⟧: a park with a fountain\n- {噴水|ふんすい}⟦が→が：00051_ga⟧⟦ライトアップ→ライトアップ：11220_raitoappu⟧⟦される→する：00392_suru⟧: the fountain is illuminated\n\nUSAGE:\nFountains are common landmarks in Japanese cities — often used as meeting spots (⟦{待|ま}ち{合|あ}わせ→待ち合わせる：12328_machiawaseru⟧⟦{場所|ばしょ}→場所：00829_basho⟧). Many parks and train station plazas feature fountains.\nDo not confuse with ⟦{飲料水|いんりょうすい}→飲料水：15275_inryousui⟧ (drinking water) or {水飲|みずの}み⟦{場|ば}→場：03699_ba⟧ (drinking fountain). {噴水|ふんすい} is purely decorative.\n\nRELATED WORDS:\n- ⟦{泉|いずみ}→泉：01787_izumi⟧: spring, natural water source\n- ⟦{滝|たき}→滝：02219_taki⟧: waterfall",
   "cross_references": [
     {
       "type": "related",
@@ -52,18 +58,29 @@
       "reading": "たき",
       "headword": "{滝|たき}",
       "label": "waterfall"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26578_suichuu",
+      "reading": "すいちゅう",
+      "headword": "{水柱|すいちゅう}",
+      "label": "water column"
     }
   ],
   "metadata": {
     "created": "2026-02-03T02:58:32Z",
-    "modified": "2026-04-23T06:13:56Z",
+    "modified": "2026-09-02T04:01:18Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

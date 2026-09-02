@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "15208_shibutsu_ex1",
-      "japanese": "{私物|しぶつ}は{持|も}ち{帰|かえ}ってください。",
+      "japanese": "{私物|しぶつ}⟦は→は：00079_ha⟧⟦{持|も}ち{帰|かえ}って→持ち帰る：04227_mochikaeru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please take your personal belongings with you.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "15208_shibutsu_ex2",
-      "japanese": "{会社|かいしゃ}のパソコンを{私物|しぶつ}{化|か}してはいけない。",
+      "japanese": "⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦の→の：09472_no⟧⟦パソコン→パソコン：01538_pasokon⟧⟦を→を：00422_wo⟧{私物|しぶつ}{化|か}⟦して→する：00392_suru⟧⟦は→は：00079_ha⟧いけない。",
       "english": "You must not treat company computers as personal property.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "15208_shibutsu_ex3",
-      "japanese": "{退職|たいしょく}する{際|さい}は、デスクの{私物|しぶつ}をすべて{片付|かたづ}けてください。",
+      "japanese": "⟦{退職|たいしょく}→退職：04559_taishoku⟧⟦する→する：00392_suru⟧⟦{際|さい}→際：02819_sai⟧⟦は→は：00079_ha⟧、⟦デスク→デスク：23405_desuku⟧⟦の→の：09472_no⟧{私物|しぶつ}⟦を→を：00422_wo⟧すべて⟦{片付|かたづ}けて→片付ける：01192_katazukeru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "When you leave the company, please clear all personal items from your desk.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{私物|しぶつ} is commonly used in workplaces, schools, and shared spaces to distinguish personal items from organizational property.\n\nCOMMON COLLOCATIONS:\n- {私物|しぶつ}を{持|も}ち{込|こ}む (to bring personal items in)\n- {私物|しぶつ}を{持|も}ち{帰|かえ}る (to take personal items home)\n- {私物|しぶつ}{化|か}する (to appropriate something as personal property)\n- {私物|しぶつ}{持|も}ち{込|こ}み{禁止|きんし} (personal items not allowed)",
+  "notes": "USAGE:\n{私物|しぶつ} is commonly used in workplaces, schools, and shared spaces to distinguish personal items from organizational property.\n\nCOMMON COLLOCATIONS:\n- {私物|しぶつ}⟦を→を：00422_wo⟧⟦{持|も}ち{込|こ}む→持ち込む：04226_mochikomu⟧ (to bring personal items in)\n- {私物|しぶつ}⟦を→を：00422_wo⟧⟦{持|も}ち{帰|かえ}る→持ち帰る：04227_mochikaeru⟧ (to take personal items home)\n- {私物|しぶつ}{化|か}⟦する→する：00392_suru⟧ (to appropriate something as personal property)\n- {私物|しぶつ}⟦{持|も}ち{込|こ}み→持ち込み：08293_mochikomi⟧⟦{禁止|きんし}→禁止：02643_kinshi⟧ (personal items not allowed)",
   "cross_references": [
     {
       "type": "synonym",
@@ -52,11 +52,32 @@
       "reading": "もちもの",
       "headword": "{持|も}ち{物|もの}",
       "label": "belongings"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07854_minomawari",
+      "reading": "みのまわり",
+      "headword": "{身|み}の{回|まわ}り",
+      "label": "one's surroundings"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20346_shojihin",
+      "reading": "しょじひん",
+      "headword": "{所持品|しょじひん}",
+      "label": "personal belongings"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22267_jibunsenyou",
+      "reading": "じぶんせんよう",
+      "headword": "{自分専用|じぶんせんよう}",
+      "label": "for one's own exclusive use"
     }
   ],
   "metadata": {
     "created": "2026-03-05T09:36:02Z",
-    "modified": "2026-05-01T06:14:09Z",
+    "modified": "2026-09-02T04:01:40Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

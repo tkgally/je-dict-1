@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{洪水|こうずい} refers to large-scale flooding, typically caused by heavy rain, river overflow, or typhoons.\n\nCOMMON COLLOCATIONS:\n- {洪水|こうずい}⟦が→が：00051_ga⟧⟦{起|お}きる→起きる：00521_okiru⟧: a flood occurs\n- {洪水|こうずい}⟦{被害|ひがい}→被害：02572_higai⟧: flood damage\n- {洪水|こうずい}⟦{警報|けいほう}→警報：09515_keihou⟧: flood warning\n- {洪水|こうずい}⟦に→に：00314_ni⟧⟦{見舞|みま}われる→見舞われる：27351_mimawareru⟧: to be hit by a flood\n- {洪水|こうずい}⟦ハザードマップ→ハザードマップ：noentry⟧: flood hazard map\n\nRELATED TERMS:\n- ⟦{氾濫|はんらん}→氾濫：09256_hanran⟧: overflow, flooding (often of rivers)\n- ⟦{浸水|しんすい}→浸水：14945_shinsui⟧: inundation (water entering buildings)\n- ⟦{堤防|ていぼう}→堤防：19409_teibou⟧: levee, embankment\n- ⟦{大雨|おおあめ}→大雨：03015_ooame⟧: heavy rain\n\nCULTURAL NOTE:\nJapan experiences frequent flooding during the ⟦{梅雨|つゆ}→梅雨：02232_tsuyu⟧ (rainy season) and ⟦{台風|たいふう}→台風：01455_taifuu⟧ (typhoon) season. {洪水|こうずい}⟦ハザードマップ→ハザードマップ：noentry⟧ are widely distributed by local governments.",
+  "notes": "{洪水|こうずい} refers to large-scale flooding, typically caused by heavy rain, river overflow, or typhoons.\n\nCOMMON COLLOCATIONS:\n- {洪水|こうずい}⟦が→が：00051_ga⟧⟦{起|お}きる→起きる：00521_okiru⟧: a flood occurs\n- {洪水|こうずい}⟦{被害|ひがい}→被害：02572_higai⟧: flood damage\n- {洪水|こうずい}⟦{警報|けいほう}→警報：09515_keihou⟧: flood warning\n- {洪水|こうずい}⟦に→に：00314_ni⟧⟦{見舞|みま}われる→見舞われる：27351_mimawareru⟧: to be hit by a flood\n- {洪水|こうずい}⟦ハザードマップ→ハザードマップ：noentry⟧: flood hazard map\n\nRELATED WORDS:\n- ⟦{氾濫|はんらん}→氾濫：09256_hanran⟧: overflow, flooding (often of rivers)\n- ⟦{浸水|しんすい}→浸水：14945_shinsui⟧: inundation (water entering buildings)\n- ⟦{堤防|ていぼう}→堤防：19409_teibou⟧: levee, embankment\n- ⟦{大雨|おおあめ}→大雨：03015_ooame⟧: heavy rain\n\nCULTURAL NOTE:\nJapan experiences frequent flooding during the ⟦{梅雨|つゆ}→梅雨：02232_tsuyu⟧ (rainy season) and ⟦{台風|たいふう}→台風：01455_taifuu⟧ (typhoon) season. {洪水|こうずい}⟦ハザードマップ→ハザードマップ：noentry⟧ are widely distributed by local governments.",
   "cross_references": [
     {
       "type": "synonym",
@@ -58,11 +58,39 @@
       "headword": "{津波|つなみ}",
       "label": "tsunami",
       "target_id": "05064_tsunami"
+    },
+    {
+      "type": "related",
+      "target_id": "14945_shinsui",
+      "reading": "しんすい",
+      "headword": "{浸水|しんすい}",
+      "label": "inundation"
+    },
+    {
+      "type": "related",
+      "target_id": "19409_teibou",
+      "reading": "ていぼう",
+      "headword": "{堤防|ていぼう}",
+      "label": "levee, embankment"
+    },
+    {
+      "type": "related",
+      "target_id": "03015_ooame",
+      "reading": "おおあめ",
+      "headword": "{大雨|おおあめ}",
+      "label": "heavy rain"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20916_kansui",
+      "reading": "かんすい",
+      "headword": "{冠水|かんすい}",
+      "label": "flooding"
     }
   ],
   "metadata": {
     "created": "2026-01-16T02:32:54Z",
-    "modified": "2026-06-14T17:21:57Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

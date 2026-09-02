@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "07992_kansan_ex1",
-      "japanese": "ドルを{円|えん}に{換算|かんさん}する。",
+      "japanese": "⟦ドル→ドル：01554_doru⟧⟦を→を：00422_wo⟧⟦{円|えん}→円：00774_en⟧⟦に→に：00314_ni⟧{換算|かんさん}⟦する→する：00392_suru⟧。",
       "english": "To convert dollars to yen.",
       "sense_numbers": [
         1
@@ -114,7 +114,7 @@
     },
     {
       "id": "07992_kansan_ex2",
-      "japanese": "{日本円|にほんえん}{換算|かんさん}で{約|やく}100{万円|まんえん}になる。",
+      "japanese": "{日本円|にほんえん}{換算|かんさん}⟦で→で：00502_de⟧⟦{約|やく}→約：09563_yaku⟧100{万円|まんえん}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧。",
       "english": "It comes to approximately one million yen when converted to Japanese yen.",
       "sense_numbers": [
         1
@@ -124,7 +124,7 @@
     },
     {
       "id": "07992_kansan_ex3",
-      "japanese": "カロリーを{運動量|うんどうりょう}に{換算|かんさん}すると、ウォーキング30{分|ぷん}に{相当|そうとう}する。",
+      "japanese": "⟦カロリー→カロリー：06109_karorii⟧⟦を→を：00422_wo⟧⟦{運動量|うんどうりょう}→運動量：24918_undouryou⟧⟦に→に：00314_ni⟧{換算|かんさん}⟦する→する：00392_suru⟧⟦と→と：00512_to⟧、⟦ウォーキング→ウォーキング：05240_wookingu⟧30{分|ぷん}⟦に→に：00314_ni⟧⟦{相当|そうとう}する→相当する：21146_soutousuru⟧。",
       "english": "Converted to exercise, it's equivalent to 30 minutes of walking.",
       "sense_numbers": [
         1
@@ -134,7 +134,7 @@
     },
     {
       "id": "07992_kansan_ex4",
-      "japanese": "{為替|かわせ}レートで{換算|かんさん}した{金額|きんがく}を{確認|かくにん}してください。",
+      "japanese": "⟦{為替|かわせ}レート→為替レート：23524_kawasereeto⟧⟦で→で：00502_de⟧{換算|かんさん}⟦した→する：00392_suru⟧⟦{金額|きんがく}→金額：02665_kingaku⟧⟦を→を：00422_wo⟧⟦{確認|かくにん}して→確認する：25332_kakuninsuru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please confirm the amount converted at the exchange rate.",
       "sense_numbers": [
         1
@@ -143,7 +143,37 @@
       "notes": null
     }
   ],
-  "notes": "{換算|かんさん} means converting one unit or value into an equivalent in another system, commonly used for currencies, measurements, and comparisons.\n\nKANJI BREAKDOWN:\n- {換|かん} (exchange, substitute)\n- {算|さん} (calculate)\n\nUSAGE:\n- {換算|かんさん}する (to convert - suru verb)\n- 〜に{換算|かんさん}する (to convert to ~)\n- 〜{換算|かんさん}で (in terms of ~, converted to ~)\n\nCOMMON PATTERNS:\n- {円|えん}{換算|かんさん} (converted to yen)\n- {年間|ねんかん}{換算|かんさん} (annualized, on a yearly basis)\n- {換算|かんさん}レート (conversion rate)\n- {換算|かんさん}{係数|けいすう} (conversion factor)\n\nCONTEXTS:\n- Finance: currency conversion\n- Science: unit conversion\n- Business: comparing values across different metrics\n- Daily life: comparing prices, distances, calories, etc.\n\nRELATED TERMS:\n- {変換|へんかん} (conversion, transformation)\n- {両替|りょうがえ} (currency exchange - actual exchange)\n- {計算|けいさん} (calculation)\n- {算出|さんしゅつ} (calculation, computation)",
+  "notes": "{換算|かんさん} means converting one unit or value into an equivalent in another system, commonly used for currencies, measurements, and comparisons.\n\nWRITING:\n- {換|かん} (exchange, substitute)\n- {算|さん} (calculate)\n\nUSAGE:\n- {換算|かんさん}⟦する→する：00392_suru⟧ (to convert - suru verb)\n- 〜⟦に→に：00314_ni⟧{換算|かんさん}⟦する→する：00392_suru⟧ (to convert to ~)\n- 〜{換算|かんさん}⟦で→で：00502_de⟧ (in terms of ~, converted to ~)\n- Finance: currency conversion\n- Science: unit conversion\n- Business: comparing values across different metrics\n- Daily life: comparing prices, distances, calories, etc.\n\nCOMMON PATTERNS:\n- ⟦{円|えん}→円：00774_en⟧{換算|かんさん} (converted to yen)\n- ⟦{年間|ねんかん}→年間：00974_nenkan⟧{換算|かんさん} (annualized, on a yearly basis)\n- {換算|かんさん}レート (conversion rate)\n- {換算|かんさん}⟦{係数|けいすう}→係数：27405_keisuu⟧ (conversion factor)\n\nRELATED WORDS:\n- ⟦{変換|へんかん}→変換：12085_henkan⟧ (conversion, transformation)\n- ⟦{両替|りょうがえ}→両替：03680_ryougae⟧ (currency exchange - actual exchange)\n- ⟦{計算|けいさん}→計算：02697_keisan⟧ (calculation)\n- ⟦{算出|さんしゅつ}→算出：15350_sanshutsu⟧ (calculation, computation)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "12085_henkan",
+      "reading": "へんかん",
+      "headword": "{変換|へんかん}",
+      "label": "conversion, transformation"
+    },
+    {
+      "type": "related",
+      "target_id": "03680_ryougae",
+      "reading": "りょうがえ",
+      "headword": "{両替|りょうがえ}",
+      "label": "currency exchange"
+    },
+    {
+      "type": "related",
+      "target_id": "02697_keisan",
+      "reading": "けいさん",
+      "headword": "{計算|けいさん}",
+      "label": "calculation"
+    },
+    {
+      "type": "related",
+      "target_id": "15350_sanshutsu",
+      "reading": "さんしゅつ",
+      "headword": "{算出|さんしゅつ}",
+      "label": "calculation, computation"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -152,6 +182,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "domain": [
         "business",
         "technical"
@@ -163,6 +194,6 @@
       "verb_class": "suru"
     },
     "created": "2026-01-24T23:46:14Z",
-    "modified": "2026-06-21T00:53:31Z"
+    "modified": "2026-09-02T04:01:13Z"
   }
 }

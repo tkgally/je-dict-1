@@ -15,41 +15,66 @@
   "examples": [
     {
       "id": "17539_meinichi_ex1",
-      "japanese": "{今日|きょう}は{祖父|そふ}の{命日|めいにち}だ。",
+      "japanese": "⟦{今日|きょう}→今日：00496_kyou⟧⟦は→は：00079_ha⟧⟦{祖父|そふ}→祖父：01452_sofu⟧⟦の→の：09472_no⟧{命日|めいにち}だ。",
       "english": "Today is the anniversary of my grandfather's death.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17539_meinichi_ex2",
-      "japanese": "{命日|めいにち}には{毎年|まいとし}{墓参|はかまい}りに{行|い}く。",
+      "japanese": "{命日|めいにち}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{毎年|まいとし}→毎年：00731_maitoshi⟧⟦{墓参|はかまい}り→墓参り：10663_hakamairi⟧⟦に→に：00314_ni⟧⟦{行|い}く→行く：00119_iku⟧。",
       "english": "I visit the grave every year on the anniversary of the death.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17539_meinichi_ex3",
-      "japanese": "{母|はは}の{命日|めいにち}に{家族|かぞく}で{集|あつ}まり、{好|す}きだった{花|はな}を{供|そな}えた。",
+      "japanese": "⟦{母|はは}→母：00549_haha⟧⟦の→の：09472_no⟧{命日|めいにち}⟦に→に：00314_ni⟧⟦{家族|かぞく}→家族：00552_kazoku⟧⟦で→で：00502_de⟧⟦{集|あつ}まり→集まる：01162_atsumaru⟧、⟦{好|す}き→好き：02355_suki⟧だった⟦{花|はな}→花：00523_hana⟧⟦を→を：00422_wo⟧⟦{供|そな}えた→供える：11562_sonaeru⟧。",
       "english": "On the anniversary of my mother's death, the family gathered and offered her favorite flowers.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nAn important concept in Japanese Buddhist tradition. On the {命日|めいにち}, families typically visit the grave ({墓参|はかまい}り), offer flowers and incense, and hold memorial services. The first anniversary is called {一周忌|いっしゅうき}, and subsequent major anniversaries ({三回忌|さんかいき}, {七回忌|ななかいき}, etc.) are observed with formal ceremonies.\n\nCOMMON COLLOCATIONS:\n- {命日|めいにち}に{墓参|はかまい}りする (to visit the grave on the death anniversary)\n- {命日|めいにち}に{花|はな}を{供|そな}える (to offer flowers on the death anniversary)\n- ～の{命日|めいにち} (the anniversary of ~'s death)\n\nSIMILAR WORDS:\n- {忌日|きじつ}: death anniversary — more formal/literary\n- {祥月命日|しょうつきめいにち}: the monthly anniversary falling on the same day as the death — the full-year anniversary specifically",
-  "cross_references": [],
+  "notes": "USAGE:\nAn important concept in Japanese Buddhist tradition. On the {命日|めいにち}, families typically visit the grave (⟦{墓参|はかまい}り→墓参り：10663_hakamairi⟧), offer flowers and incense, and hold memorial services. The first anniversary is called ⟦{一周忌|いっしゅうき}→一周忌：06018_isshuuki⟧, and subsequent major anniversaries (⟦{三回忌|さんかいき}→三回忌：06019_sankaiki⟧, ⟦{七回忌|ななかいき}→七回忌：28963_nanakaiki⟧, etc.) are observed with formal ceremonies.\n\nCOMMON COLLOCATIONS:\n- {命日|めいにち}⟦に→に：00314_ni⟧⟦{墓参|はかまい}り→墓参り：10663_hakamairi⟧⟦する→する：00392_suru⟧ (to visit the grave on the death anniversary)\n- {命日|めいにち}⟦に→に：00314_ni⟧⟦{花|はな}→花：00523_hana⟧⟦を→を：00422_wo⟧⟦{供|そな}える→供える：11562_sonaeru⟧ (to offer flowers on the death anniversary)\n- ～⟦の→の：09472_no⟧{命日|めいにち} (the anniversary of ~'s death)\n\nSIMILAR WORDS:\n- ⟦{忌日|きじつ}→忌日：21187_kijitsu⟧: death anniversary — more formal/literary\n- {祥月命日|しょうつきめいにち}: the monthly anniversary falling on the same day as the death — the full-year anniversary specifically",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21187_kijitsu",
+      "reading": "きじつ",
+      "headword": "{忌日|きじつ}",
+      "label": "death anniversary"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23165_nenki",
+      "reading": "ねんき",
+      "headword": "{年忌|ねんき}",
+      "label": "memorial anniversary"
+    }
+  ],
   "metadata": {
     "created": "2026-03-18T08:05:53Z",
-    "modified": "2026-03-18T08:05:53Z",
+    "modified": "2026-09-02T04:01:48Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["time-general"]
+      "semantic": [
+        "time-general"
+      ]
     }
   }
 }

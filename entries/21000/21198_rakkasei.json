@@ -15,40 +15,60 @@
   "examples": [
     {
       "id": "21198_rakkasei_ex1",
-      "japanese": "{落花生|らっかせい}を{殻|から}から{出|だ}す。",
+      "japanese": "{落花生|らっかせい}⟦を→を：00422_wo⟧⟦{殻|から}→殻：02148_kara⟧⟦から→から：00504_kara⟧⟦{出|だ}す→出す：01087_dasu⟧。",
       "english": "To shell peanuts.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21198_rakkasei_ex2",
-      "japanese": "{千葉県|ちばけん}は{落花生|らっかせい}の{産地|さんち}として{有名|ゆうめい}だ。",
+      "japanese": "{千葉県|ちばけん}⟦は→は：00079_ha⟧{落花生|らっかせい}⟦の→の：09472_no⟧⟦{産地|さんち}→産地：04031_sanchi⟧⟦として→として：06802_toshite⟧⟦{有名|ゆうめい}→有名：01106_yuumei⟧だ。",
       "english": "Chiba Prefecture is famous as a peanut-producing region.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21198_rakkasei_ex3",
-      "japanese": "{落花生|らっかせい}アレルギーがあるので、{食|た}べる{前|まえ}に{成分|せいぶん}を{確認|かくにん}している。",
+      "japanese": "{落花生|らっかせい}⟦アレルギー→アレルギー：04645_arerugii⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧⟦の→の：09472_no⟧で、⟦{食|た}べる→食べる：00396_taberu⟧⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧⟦{成分|せいぶん}→成分：04344_seibun⟧⟦を→を：00422_wo⟧⟦{確認|かくにん}している→確認する：25332_kakuninsuru⟧。",
       "english": "Since I have a peanut allergy, I check the ingredients before eating.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "The formal, standard Japanese word for peanut. The name literally means 'fallen flower born' ({落|らく} fall + {花|か} flower + {生|せい} born), referring to how the flower stalk bends down after pollination so the pods develop underground.\n\nCOMMON COLLOCATIONS:\n- {落花生|らっかせい}の{殻|から}: peanut shell\n- {落花生|らっかせい}{油|あぶら}: peanut oil\n- {茹|ゆ}で{落花生|らっかせい}: boiled peanuts\n\nSIMILAR WORDS:\n- ピーナッツ: the loanword form, more casual and common in everyday speech\n- {南京豆|なんきんまめ}: an older name for peanut, now less common\n\nCULTURAL NOTE:\n{千葉県|ちばけん} produces about 80% of Japan's domestic peanuts. Freshly harvested boiled peanuts ({茹|ゆ}で{落花生|らっかせい}) are a seasonal delicacy in autumn.",
+  "notes": "The formal, standard Japanese word for peanut. The name literally means 'fallen flower born' ({落|らく} fall + {花|か} flower + {生|せい} born), referring to how the flower stalk bends down after pollination so the pods develop underground.\n\nCOMMON COLLOCATIONS:\n- {落花生|らっかせい}⟦の→の：09472_no⟧⟦{殻|から}→殻：02148_kara⟧: peanut shell\n- {落花生|らっかせい}⟦{油|あぶら}→油：01693_abura⟧: peanut oil\n- ⟦{茹|ゆ}で→茹でる：02324_yuderu⟧{落花生|らっかせい}: boiled peanuts\n\nSIMILAR WORDS:\n- ⟦ピーナッツ→ピーナッツ：24214_piinattsu⟧: the loanword form, more casual and common in everyday speech\n- {南京豆|なんきんまめ}: an older name for peanut, now less common\n\nCULTURAL NOTE:\n{千葉県|ちばけん} produces about 80% of Japan's domestic peanuts. Freshly harvested boiled peanuts (⟦{茹|ゆ}で→茹でる：02324_yuderu⟧{落花生|らっかせい}) are a seasonal delicacy in autumn.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24214_piinattsu",
+      "reading": "ぴーなっつ",
+      "headword": "ピーナッツ",
+      "label": "the loanword form, more casual…"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food", "nature"]
+      "semantic": [
+        "food",
+        "nature"
+      ]
     },
     "created": "2026-04-01T14:16:10Z",
-    "modified": "2026-04-01T14:16:10Z"
+    "modified": "2026-09-02T04:02:02Z"
   }
 }

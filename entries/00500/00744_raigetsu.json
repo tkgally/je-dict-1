@@ -54,7 +54,7 @@
     },
     {
       "id": "00744_raigetsu_ex5",
-      "japanese": "{来月|らいげつ}⟦から→から：00504_kara⟧⟦{新|あたら}しい→あたらしい：00506_atarashii⟧⟦{会社|かいしゃ}→かいしゃ：00607_kaisha⟧⟦で→で：00502_de⟧⟦{働|はたら}きます→はたらく：00503_hataraku⟧。⟦{今|いま}→いま：00945_ima⟧⟦は→は：00079_ha⟧⟦{準備|じゅんび}→じゅんび：01431_junbi⟧⟦で→で：00502_de⟧⟦{忙|いそが}しい→いそがしい：00591_isogashii⟧⟦です→です：09485_desu⟧⟦が→が：00051_ga⟧、⟦{楽|たの}しみ→たのしみ：01651_tanoshimi⟧にしています。",
+      "japanese": "{来月|らいげつ}⟦から→から：00504_kara⟧⟦{新|あたら}しい→あたらしい：00506_atarashii⟧⟦{会社|かいしゃ}→かいしゃ：00607_kaisha⟧⟦で→で：00502_de⟧⟦{働|はたら}きます→はたらく：00503_hataraku⟧。⟦{今|いま}→いま：00945_ima⟧⟦は→は：00079_ha⟧⟦{準備|じゅんび}→じゅんび：01431_junbi⟧⟦で→で：00502_de⟧⟦{忙|いそが}しい→いそがしい：00591_isogashii⟧⟦です→です：09485_desu⟧⟦が→が：00051_ga⟧、⟦{楽|たの}しみ→たのしみ：01651_tanoshimi⟧にして⟦います→いる：00495_iru⟧。",
       "english": "I'll start working at a new company next month. I'm busy preparing now, but I'm looking forward to it.",
       "notes": null,
       "has_audio": false,
@@ -92,11 +92,25 @@
       "headword": "{来年|らいねん}",
       "target_id": "00745_rainen",
       "label": "next year"
+    },
+    {
+      "type": "related",
+      "target_id": "00732_maitsuki",
+      "reading": "まいつき",
+      "headword": "{毎月|まいつき}",
+      "label": "every month"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21206_yokugetsu",
+      "reading": "よくげつ",
+      "headword": "{翌月|よくげつ}",
+      "label": "the following month"
     }
   ],
   "metadata": {
     "created": "2026-01-07T12:46:58Z",
-    "modified": "2026-08-01T09:19:26Z",
+    "modified": "2026-09-02T04:00:58Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "basic",
     "tags": {

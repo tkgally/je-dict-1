@@ -23,7 +23,7 @@
     },
     {
       "id": "04902_kakuteishinkoku_ex2",
-      "japanese": "{確定申告|かくていしんこく}⟦を→を：00422_wo⟧⟦{忘|わす}れず→忘れる：00474_wasureru⟧に⟦{済|す}ませて→済ませる：02121_sumaseru⟧ください。",
+      "japanese": "{確定申告|かくていしんこく}⟦を→を：00422_wo⟧⟦{忘|わす}れず→忘れる：00474_wasureru⟧⟦に→に：00314_ni⟧⟦{済|す}ませて→済ませる：02121_sumaseru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please don't forget to file your tax return.",
       "has_audio": false,
       "sense_numbers": [
@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "notes": "{確定申告|かくていしんこく} is Japan's annual income tax filing process.\n\nWHO MUST FILE:\n- Self-employed people, ⟦フリーランス→フリーランス：06152_furiiransu⟧\n- Those with side income over ¥200,000\n- Those with multiple employers\n- Those eligible for deductions or refunds\n\nFILING PERIOD:\nMid-February to March 15 each year.\n\nCOMMON EXPRESSIONS:\n- {確定申告|かくていしんこく}⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧: to file a tax return\n- {確定申告|かくていしんこく}⟦の→の：09472_no⟧⟦{締|し}め{切|き}り→締め切り：04162_shimekiri⟧: tax return deadline\n- e-Tax: electronic tax filing system\n\nRELATED TERMS:\n- ⟦{源泉徴収|げんせんちょうしゅう}→源泉徴収：04908_gensenchoushuu⟧: tax withholding (for salaried workers)\n- ⟦{還付|かんぷ}→還付：23499_kanpu⟧⟦{金|きん}→金：noentry⟧: tax refund\n- ⟦{控除|こうじょ}→控除：07501_koujo⟧: deduction",
+  "notes": "{確定申告|かくていしんこく} is Japan's annual income tax filing process.\n\nWHO MUST FILE:\n- Self-employed people, ⟦フリーランス→フリーランス：06152_furiiransu⟧\n- Those with side income over ¥200,000\n- Those with multiple employers\n- Those eligible for deductions or refunds\n\nFILING PERIOD:\nMid-February to March 15 each year.\n\nCOMMON EXPRESSIONS:\n- {確定申告|かくていしんこく}⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧: to file a tax return\n- {確定申告|かくていしんこく}⟦の→の：09472_no⟧⟦{締|し}め{切|き}り→締め切り：04162_shimekiri⟧: tax return deadline\n- e-Tax: electronic tax filing system\n\nRELATED WORDS:\n- ⟦{源泉徴収|げんせんちょうしゅう}→源泉徴収：04908_gensenchoushuu⟧: tax withholding (for salaried workers)\n- ⟦{還付|かんぷ}→還付：23499_kanpu⟧⟦{金|きん}→金：noentry⟧: tax refund\n- ⟦{控除|こうじょ}→控除：07501_koujo⟧: deduction",
   "cross_references": [
     {
       "type": "related",
@@ -62,11 +62,25 @@
       "reading": "ぜいむしょ",
       "headword": "{税務署|ぜいむしょ}",
       "label": "tax office"
+    },
+    {
+      "type": "related",
+      "target_id": "07501_koujo",
+      "reading": "こうじょ",
+      "headword": "{控除|こうじょ}",
+      "label": "deduction"
+    },
+    {
+      "type": "related",
+      "target_id": "23316_iryouhikoujo",
+      "reading": "いりょうひこうじょ",
+      "headword": "{医療費|いりょうひ}{控除|こうじょ}",
+      "label": "medical expense deduction (tax)"
     }
   ],
   "metadata": {
     "created": "2026-01-16T00:04:56Z",
-    "modified": "2026-06-03T14:07:35Z",
+    "modified": "2026-09-02T04:01:05Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

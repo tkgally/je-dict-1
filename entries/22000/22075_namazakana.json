@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22075_namazakana_ex1",
-      "japanese": "{生魚|なまざかな}は{苦手|にがて}です。",
+      "japanese": "{生魚|なまざかな}⟦は→は：00079_ha⟧⟦{苦手|にがて}→苦手：03513_nigate⟧です。",
       "english": "I'm not good with raw fish.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22075_namazakana_ex2",
-      "japanese": "{生魚|なまざかな}は{新鮮|しんせん}なうちに{食|た}べたほうがいい。",
+      "japanese": "{生魚|なまざかな}⟦は→は：00079_ha⟧⟦{新鮮|しんせん}→新鮮：03261_shinsen⟧なうち⟦に→に：00314_ni⟧⟦{食|た}べた→食べる：00396_taberu⟧⟦ほうがいい→ほうがいい：10078_hougaii⟧。",
       "english": "It's better to eat raw fish while it's fresh.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22075_namazakana_ex3",
-      "japanese": "{夏場|なつば}は{生魚|なまざかな}の{取|と}り{扱|あつか}いに{特|とく}に{気|き}をつけないと、{食中毒|しょくちゅうどく}の{危険|きけん}がある。",
+      "japanese": "⟦{夏場|なつば}→夏場：28060_natsuba⟧⟦は→は：00079_ha⟧{生魚|なまざかな}⟦の→の：09472_no⟧⟦{取|と}り{扱|あつか}い→取り扱い：09806_toriatsukai⟧⟦に→に：00314_ni⟧⟦{特|とく}に→特に：01260_tokuni⟧⟦{気|き}をつけない→気をつける：09771_kiwotsukeru⟧⟦と→と：00512_to⟧、⟦{食中毒|しょくちゅうどく}→食中毒：07020_shokuchuudoku⟧⟦の→の：09472_no⟧⟦{危険|きけん}→危険：01141_kiken⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "In summer you need to be especially careful handling raw fish, as there is a risk of food poisoning.",
       "sense_numbers": [
         1
@@ -44,20 +44,52 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {生|なま} (raw) and {魚|さかな} (fish). Refers to uncooked fish, which is central to Japanese cuisine in forms such as sashimi and sushi. The word is commonly encountered when discussing food preferences, food safety, or Japanese food culture with non-Japanese people.\n\nCOMMON COLLOCATIONS:\n- {生魚|なまざかな}を{食|た}べる: to eat raw fish\n- {新鮮|しんせん}な{生魚|なまざかな}: fresh raw fish\n- {生魚|なまざかな}が{苦手|にがて}: not good with raw fish\n\nRELATED TERMS:\n- {刺身|さしみ} — sashimi (sliced raw fish, a specific preparation)\n- {鮮魚|せんぎょ} — fresh fish (may be raw or not; emphasis on freshness)\n- {焼|や}き{魚|ざかな} — grilled fish\n- {煮魚|にざかな} — simmered fish",
+  "notes": "A compound of ⟦{生|なま}→生：03509_nama⟧ (raw) and ⟦{魚|さかな}→魚：00499_sakana⟧ (fish). Refers to uncooked fish, which is central to Japanese cuisine in forms such as sashimi and sushi. The word is commonly encountered when discussing food preferences, food safety, or Japanese food culture with non-Japanese people.\n\nCOMMON COLLOCATIONS:\n- {生魚|なまざかな}⟦を→を：00422_wo⟧⟦{食|た}べる→食べる：00396_taberu⟧: to eat raw fish\n- ⟦{新鮮|しんせん}→新鮮：03261_shinsen⟧な{生魚|なまざかな}: fresh raw fish\n- {生魚|なまざかな}⟦が→が：00051_ga⟧⟦{苦手|にがて}→苦手：03513_nigate⟧: not good with raw fish\n\nRELATED WORDS:\n- ⟦{刺身|さしみ}→刺身：04023_sashimi⟧ — sashimi (sliced raw fish, a specific preparation)\n- ⟦{鮮魚|せんぎょ}→鮮魚：16483_sengyo⟧ — fresh fish (may be raw or not; emphasis on freshness)\n- ⟦{焼|や}き{魚|ざかな}→焼き魚：13406_yakizakana⟧ — grilled fish\n- ⟦{煮魚|にざかな}→煮魚：16484_nizakana⟧ — simmered fish",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "04023_sashimi",
+      "reading": "さしみ",
+      "headword": "{刺身|さしみ}",
+      "label": "sashimi"
+    },
+    {
+      "type": "related",
+      "target_id": "16483_sengyo",
+      "reading": "せんぎょ",
+      "headword": "{鮮魚|せんぎょ}",
+      "label": "fresh fish (may be raw or not"
+    },
+    {
+      "type": "related",
+      "target_id": "13406_yakizakana",
+      "reading": "やきざかな",
+      "headword": "{焼|や}き{魚|ざかな}",
+      "label": "grilled fish"
+    },
+    {
+      "type": "related",
+      "target_id": "16484_nizakana",
+      "reading": "にざかな",
+      "headword": "{煮魚|にざかな}",
+      "label": "simmered fish"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "food"
       ],
       "usage_context": []
     },
     "created": "2026-04-04T22:20:38Z",
-    "modified": "2026-07-30T03:35:34Z"
+    "modified": "2026-09-02T04:02:06Z"
   }
 }

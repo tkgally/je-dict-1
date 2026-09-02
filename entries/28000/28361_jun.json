@@ -15,41 +15,60 @@
   "examples": [
     {
       "id": "28361_jun_ex1",
-      "japanese": "{純|じゅん}{利益|りえき}が{増|ふ}えた。",
+      "japanese": "⟦{純|じゅん}{利益|りえき}→純利益：18911_junrieki⟧⟦が→が：00051_ga⟧⟦{増|ふ}えた→増える：01183_fueru⟧。",
       "english": "Net profit has increased.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28361_jun_ex2",
-      "japanese": "これは{純|じゅん}{国産|こくさん}の{製品|せいひん}です。",
+      "japanese": "⟦これ→これ：00963_kore⟧⟦は→は：00079_ha⟧{純|じゅん}⟦{国産|こくさん}→国産：12017_kokusan⟧⟦の→の：09472_no⟧⟦{製品|せいひん}→製品：01445_seihin⟧です。",
       "english": "This is a purely domestic product.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28361_jun_ex3",
-      "japanese": "{今年度|こんねんど}の{純|じゅん}{売上|うりあげ}は、{前年|ぜんねん}と{比|くら}べて{大幅|おおはば}に{伸|の}びた。",
+      "japanese": "⟦{今年度|こんねんど}→今年度：28220_konnendo⟧⟦の→の：09472_no⟧{純|じゅん}⟦{売上|うりあげ}→売上：04102_uriage⟧⟦は→は：00079_ha⟧、⟦{前年|ぜんねん}→前年：23906_zennen⟧⟦と→と：00512_to⟧⟦{比|くら}べて→比べる：01237_kuraberu⟧⟦{大幅|おおはば}→大幅：12170_oohaba⟧⟦に→に：00314_ni⟧⟦{伸|の}びた→伸びる：01974_nobiru⟧。",
       "english": "This fiscal year's net sales grew significantly compared to the previous year.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Bound prefix; almost never appears alone. Carries two related senses depending on the following word: \"unmixed/genuine\" with nouns of kind or origin, and \"net\" with financial amounts.\n\nCOMMON COMPOUNDS:\n- {純|じゅん}{利益|りえき}: net profit\n- {純|じゅん}{売上|うりあげ}: net sales\n- {純|じゅん}{国産|こくさん}: purely domestic\n- {純|じゅん}{文学|ぶんがく}: pure literature (literary fiction)\n- {純|じゅん}{日本|にほん}{風|ふう}: purely Japanese style\n- {純|じゅん}{金|きん}: pure gold\n\nSIMILAR WORDS:\n- {純粋|じゅんすい}: pure (na-adjective) — standalone word for purity in feeling or substance\n- {総|そう}〜: total, gross — its financial opposite ({総|そう}{売上|うりあげ} gross sales)",
+  "notes": "Bound prefix; almost never appears alone. Carries two related senses depending on the following word: \"unmixed/genuine\" with nouns of kind or origin, and \"net\" with financial amounts.\n\nCOMPOUNDS:\n- ⟦{純|じゅん}{利益|りえき}→純利益：18911_junrieki⟧: net profit\n- {純|じゅん}⟦{売上|うりあげ}→売上：04102_uriage⟧: net sales\n- {純|じゅん}⟦{国産|こくさん}→国産：12017_kokusan⟧: purely domestic\n- ⟦{純|じゅん}{文学|ぶんがく}→純文学：13983_junbungaku⟧: pure literature (literary fiction)\n- {純|じゅん}⟦{日本|にほん}{風|ふう}→日本風：26055_nihonfuu⟧: purely Japanese style\n- ⟦{純|じゅん}{金|きん}→純金：16997_junkin⟧: pure gold\n\nSIMILAR WORDS:\n- ⟦{純粋|じゅんすい}→純粋：08673_junsui⟧: pure (na-adjective) — standalone word for purity in feeling or substance\n- ⟦{総|そう}→総〜：03958_sou⟧〜: total, gross — its financial opposite (⟦{総|そう}→総〜：03958_sou⟧⟦{売上|うりあげ}→売上：04102_uriage⟧ gross sales)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08673_junsui",
+      "reading": "じゅんすい",
+      "headword": "{純粋|じゅんすい}",
+      "label": "pure"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["prefix"],
+      "pos": [
+        "prefix"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["business"],
+      "politeness": "plain",
+      "semantic": [
+        "business"
+      ],
       "domain": []
     },
     "created": "2026-05-29T04:09:30Z",
-    "modified": "2026-05-29T04:09:30Z"
+    "modified": "2026-09-02T04:02:33Z"
   }
 }

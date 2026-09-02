@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "13478_kunsei_ex1",
-      "japanese": "{燻製|くんせい}のチーズが{好|す}きだ。",
+      "japanese": "{燻製|くんせい}⟦の→の：09472_no⟧⟦チーズ→チーズ：00026_chiizu⟧⟦が→が：00051_ga⟧⟦{好|す}き→好き：02355_suki⟧だ。",
       "english": "I like smoked cheese.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "13478_kunsei_ex2",
-      "japanese": "{自宅|じたく}で{燻製|くんせい}を{作|つく}るのが{趣味|しゅみ}です。",
+      "japanese": "⟦{自宅|じたく}→自宅：00129_jitaku⟧⟦で→で：00502_de⟧{燻製|くんせい}⟦を→を：00422_wo⟧⟦{作|つく}る→作る：00481_tsukuru⟧⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦{趣味|しゅみ}→趣味：00889_shumi⟧です。",
       "english": "My hobby is making smoked foods at home.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "13478_kunsei_ex3",
-      "japanese": "キャンプで{燻製|くんせい}に{挑戦|ちょうせん}したら、{思|おも}った{以上|いじょう}においしくできた。",
+      "japanese": "⟦キャンプ→キャンプ：03837_kyanpu⟧⟦で→で：00502_de⟧{燻製|くんせい}⟦に→に：00314_ni⟧⟦{挑戦|ちょうせん}したら→挑戦する：21602_chousensuru⟧、⟦{思|おも}った→思う：00492_omou⟧⟦{以上|いじょう}→以上：01308_ijou⟧⟦に→に：00314_ni⟧おいしく⟦できた→できる：00557_dekiru⟧。",
       "english": "When I tried making smoked food while camping, it turned out tastier than expected.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,33 @@
       ]
     }
   ],
-  "notes": "USAGE:\nUsed both for the smoking process and for the resulting smoked product. Home smoking has become a popular hobby in Japan, especially among camping and outdoor enthusiasts. Also written as {薫製|くんせい}.\n\nCOMMON COLLOCATIONS:\n- {燻製|くんせい}を{作|つく}る: to make smoked food\n- {燻製|くんせい}サーモン: smoked salmon\n- {燻製|くんせい}チーズ: smoked cheese\n- {燻製|くんせい}{器|き}: smoker (device)\n- {自家|じか}{製|せい}{燻製|くんせい}: homemade smoked food",
-  "cross_references": [],
+  "notes": "USAGE:\nUsed both for the smoking process and for the resulting smoked product. Home smoking has become a popular hobby in Japan, especially among camping and outdoor enthusiasts. Also written as {薫製|くんせい}.\n\nCOMMON COLLOCATIONS:\n- {燻製|くんせい}⟦を→を：00422_wo⟧⟦{作|つく}る→作る：00481_tsukuru⟧: to make smoked food\n- {燻製|くんせい}⟦サーモン→サーモン：08836_saamon⟧: smoked salmon\n- {燻製|くんせい}⟦チーズ→チーズ：00026_chiizu⟧: smoked cheese\n- {燻製|くんせい}{器|き}: smoker (device)\n- ⟦{自家|じか}{製|せい}→自家製：13947_jikasei⟧{燻製|くんせい}: homemade smoked food",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "07418_kusuburu",
+      "reading": "くすぶる",
+      "headword": "{燻|くすぶ}る",
+      "label": "to smolder"
+    },
+    {
+      "type": "related",
+      "target_id": "08265_ibusu",
+      "reading": "いぶす",
+      "headword": "{燻|いぶ}す",
+      "label": "to smoke (food)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26758_shiohimono",
+      "reading": "しおひもの",
+      "headword": "{塩干物|しおひもの}",
+      "label": "salted dried fish"
+    }
+  ],
   "metadata": {
     "created": "2026-02-24T13:29:04Z",
-    "modified": "2026-07-10T04:36:00Z",
+    "modified": "2026-09-02T04:01:33Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

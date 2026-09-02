@@ -15,40 +15,67 @@
   "examples": [
     {
       "id": "21612_joumuin_ex1",
-      "japanese": "{乗務員|じょうむいん}に{声|こえ}をかけた。",
+      "japanese": "{乗務員|じょうむいん}⟦に→に：00314_ni⟧⟦{声|こえ}→声：02207_koe⟧⟦を→を：00422_wo⟧⟦かけた→かける：00854_kakeru⟧。",
       "english": "I called out to a crew member.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21612_joumuin_ex2",
-      "japanese": "{乗務員|じょうむいん}が{安全|あんぜん}{確認|かくにん}を{行|おこな}った。",
+      "japanese": "{乗務員|じょうむいん}⟦が→が：00051_ga⟧⟦{安全|あんぜん}→安全：01131_anzen⟧⟦{確認|かくにん}→確認：00158_kakunin⟧⟦を→を：00422_wo⟧⟦{行|おこな}った→行う：01238_okonau⟧。",
       "english": "The crew member carried out a safety check.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21612_joumuin_ex3",
-      "japanese": "{体調|たいちょう}が{悪|わる}くなったら、{近|ちか}くの{乗務員|じょうむいん}にお{知|し}らせください。",
+      "japanese": "⟦{体調|たいちょう}→体調：04644_taichou⟧⟦が→が：00051_ga⟧⟦{悪|わる}く→悪い：00908_warui⟧⟦なったら→なる：01970_naru⟧、{近|ちか}く⟦の→の：09472_no⟧{乗務員|じょうむいん}⟦に→に：00314_ni⟧⟦お{知|し}らせ→お知らせ：18843_oshirase⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "If you start feeling unwell, please let a nearby crew member know.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A general term for any staff member who works onboard a vehicle as part of their duty. Commonly heard in announcements on trains and airplanes.\n\nCOMMON COLLOCATIONS:\n- {客室|きゃくしつ}{乗務員|じょうむいん}: cabin crew, flight attendant\n- {乗務員|じょうむいん}{室|しつ}: crew room, crew quarters\n- {乗務員|じょうむいん}{交代|こうたい}: crew change\n- {乗務員|じょうむいん}{不足|ふそく}: crew shortage\n\nSIMILAR WORDS:\n- {車掌|しゃしょう}: train conductor — specific role on a train\n- {運転士|うんてんし}: train driver — specific role\n- キャビンアテンダント (CA): cabin attendant — specific to airplanes\n- クルー: crew — loanword, more casual\n\nFORMATION:\n{乗務|じょうむ} (duty aboard a vehicle) + {員|いん} (member, personnel).",
+  "notes": "A general term for any staff member who works onboard a vehicle as part of their duty. Commonly heard in announcements on trains and airplanes.\n\nCOMMON COLLOCATIONS:\n- {客室|きゃくしつ}{乗務員|じょうむいん}: cabin crew, flight attendant\n- {乗務員|じょうむいん}⟦{室|しつ}→室：09946_shitsu⟧: crew room, crew quarters\n- {乗務員|じょうむいん}⟦{交代|こうたい}→交代：14943_koutai⟧: crew change\n- {乗務員|じょうむいん}⟦{不足|ふそく}→不足：03598_fusoku⟧: crew shortage\n\nSIMILAR WORDS:\n- ⟦{車掌|しゃしょう}→車掌：06204_shashou⟧: train conductor — specific role on a train\n- ⟦{運転士|うんてんし}→運転士：07339_untenshi⟧: train driver — specific role\n- キャビンアテンダント (CA): cabin attendant — specific to airplanes\n- クルー: crew — loanword, more casual\n\nFORMS:\n{乗務|じょうむ} (duty aboard a vehicle) + {員|いん} (member, personnel).",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06204_shashou",
+      "reading": "しゃしょう",
+      "headword": "{車掌|しゃしょう}",
+      "label": "train conductor"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07339_untenshi",
+      "reading": "うんてんし",
+      "headword": "{運転士|うんてんし}",
+      "label": "train driver"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["transportation", "work"]
+      "semantic": [
+        "transportation",
+        "work"
+      ]
     },
     "created": "2026-04-02T18:13:49Z",
-    "modified": "2026-04-02T18:13:49Z"
+    "modified": "2026-09-02T04:02:04Z"
   }
 }

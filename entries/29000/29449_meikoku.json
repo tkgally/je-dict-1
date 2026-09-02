@@ -3,7 +3,7 @@
   "headword": "銘刻",
   "reading": "めいこく",
   "romaji": "meikoku",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "inscription; engraving",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29449_meikoku_ex1",
-      "japanese": "{石碑|せきひ}に{銘刻|めいこく}する。",
+      "japanese": "⟦{石碑|せきひ}→石碑：13725_sekihi⟧⟦に→に：00314_ni⟧{銘刻|めいこく}する。",
       "english": "to inscribe a stone monument.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29449_meikoku_ex2",
-      "japanese": "{古|ふる}い{鐘|かね}に{銘刻|めいこく}された{文字|もじ}を{読|よ}む。",
+      "japanese": "⟦{古|ふる}い→古い：00488_furui⟧⟦{鐘|かね}→鐘：02654_kane⟧⟦に→に：00314_ni⟧{銘刻|めいこく}された⟦{文字|もじ}→文字：03632_moji⟧⟦を→を：00422_wo⟧⟦{読|よ}む→読む：00426_yomu⟧。",
       "english": "to read the characters engraved on an old bell.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29449_meikoku_ex3",
-      "japanese": "その{言葉|ことば}は{今|いま}も{心|こころ}に{銘刻|めいこく}されている。",
+      "japanese": "⟦その→その：00993_sono⟧⟦{言葉|ことば}→言葉：02880_kotoba⟧⟦は→は：00079_ha⟧⟦{今|いま}→今：00945_ima⟧⟦も→も：00484_mo⟧⟦{心|こころ}→心：01321_kokoro⟧⟦に→に：00314_ni⟧{銘刻|めいこく}されて⟦いる→いる：00495_iru⟧。",
       "english": "Those words are engraved in my heart even now.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "A formal word used both literally for carved inscriptions and figuratively for vivid, lasting impressions.\n\nCOMMON COLLOCATIONS:\n- {石|いし}に{銘刻|めいこく}する: to engrave in stone\n- {心|こころ}に{銘刻|めいこく}する: to engrave in one's heart\n- {銘刻|めいこく}された{文字|もじ}: engraved characters\n\nSIMILAR WORDS:\n- {刻印|こくいん}: stamp; engraved mark — emphasizes a stamped or imprinted mark\n- {銘記|めいき}: to bear firmly in mind — figurative only, never a physical carving",
+  "notes": "A formal word used both literally for carved inscriptions and figuratively for vivid, lasting impressions.\n\nCOMMON COLLOCATIONS:\n- ⟦{石|いし}→石：02177_ishi⟧⟦に→に：00314_ni⟧{銘刻|めいこく}する: to engrave in stone\n- ⟦{心|こころ}→心：01321_kokoro⟧⟦に→に：00314_ni⟧{銘刻|めいこく}する: to engrave in one's heart\n- {銘刻|めいこく}された⟦{文字|もじ}→文字：03632_moji⟧: engraved characters\n\nSIMILAR WORDS:\n- ⟦{刻印|こくいん}→刻印：29469_kokuin⟧: stamp; engraved mark — emphasizes a stamped or imprinted mark\n- ⟦{銘記|めいき}→銘記：17488_meiki⟧: to bear firmly in mind — figurative only, never a physical carving",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "29469_kokuin",
+      "reading": "こくいん",
+      "headword": "{刻印|こくいん}",
+      "label": "stamp"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17488_meiki",
+      "reading": "めいき",
+      "headword": "{銘記|めいき}",
+      "label": "to bear firmly in mind"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -54,15 +70,16 @@
         "verb-suru"
       ],
       "formality": "formal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "creation"
       ],
       "domain": [],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-06-24T00:19:16Z",
-    "modified": "2026-06-24T00:19:16Z"
+    "modified": "2026-09-02T04:02:37Z"
   },
   "conjugation": {
     "type": "suru",

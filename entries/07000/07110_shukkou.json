@@ -2,7 +2,7 @@
   "id": "07110_shukkou",
   "headword": "{出向|しゅっこう}",
   "reading": "しゅっこう",
-  "part_of_speech": "noun; verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "temporary transfer; secondment",
   "conjugation": {
     "type": "suru",
@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "07110_shukkou_ex1",
-      "japanese": "{来月|らいげつ}から{子会社|こがいしゃ}に{出向|しゅっこう}することになった。",
+      "japanese": "⟦{来月|らいげつ}→来月：00744_raigetsu⟧⟦から→から：00504_kara⟧⟦{子会社|こがいしゃ}→子会社：12258_kogaisha⟧⟦に→に：00314_ni⟧{出向|しゅっこう}⟦する→する：00392_suru⟧ことになった。",
       "english": "I'll be on secondment to a subsidiary starting next month.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "07110_shukkou_ex2",
-      "japanese": "{出向|しゅっこう}{先|さき}での{経験|けいけん}が{役|やく}に{立|た}った。",
+      "japanese": "{出向|しゅっこう}{先|さき}⟦で→で：00502_de⟧⟦の→の：09472_no⟧⟦{経験|けいけん}→経験：01179_keiken⟧⟦が→が：00051_ga⟧⟦{役|やく}に{立|た}った→役に立つ：01130_yakunitatsu⟧。",
       "english": "The experience at my secondment company was useful.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "07110_shukkou_ex3",
-      "japanese": "3{年間|ねんかん}の{出向|しゅっこう}を{終|お}えて{本社|ほんしゃ}に{戻|もど}った。",
+      "japanese": "3⟦{年間|ねんかん}→年間：00974_nenkan⟧⟦の→の：09472_no⟧{出向|しゅっこう}⟦を→を：00422_wo⟧⟦{終|お}えて→終える：02019_oeru⟧⟦{本社|ほんしゃ}→本社：09565_honsha⟧⟦に→に：00314_ni⟧⟦{戻|もど}った→戻る：01117_modoru⟧。",
       "english": "I returned to headquarters after a three-year secondment.",
       "notes": null,
       "has_audio": false,
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "TYPES OF SECONDMENT:\n・{在籍|ざいせき}{出向|しゅっこう} (secondment while remaining on original company's roster)\n・{転籍|てんせき}{出向|しゅっこう} (transfer with change of employer - permanent)\n\nRELATED BUSINESS TERMS:\n・{出向|しゅっこう}{先|さき} (destination company for secondment)\n・{出向|しゅっこう}{元|もと} (original/sending company)\n・{出向|しゅっこう}{社員|しゃいん} (seconded employee)\n・{転勤|てんきん} (job transfer within the same company)\n\nJAPANESE BUSINESS CONTEXT: {出向|しゅっこう} is a common practice in Japanese companies, often used to:\n- Train employees at affiliated companies\n- Support struggling subsidiaries\n- Develop business relationships between companies\n- Manage excess personnel without layoffs",
+  "notes": "TYPES OF SECONDMENT:\n- {在籍|ざいせき}{出向|しゅっこう} (secondment while remaining on original company's roster)\n- {転籍|てんせき}{出向|しゅっこう} (transfer with change of employer - permanent)\n\nRELATED BUSINESS TERMS:\n- {出向|しゅっこう}{先|さき} (destination company for secondment)\n- {出向|しゅっこう}{元|もと} (original/sending company)\n- {出向|しゅっこう}{社員|しゃいん} (seconded employee)\n- ⟦{転勤|てんきん}→転勤：04555_tenkin⟧ (job transfer within the same company)\n\nJAPANESE BUSINESS CONTEXT: {出向|しゅっこう} is a common practice in Japanese companies, often used to:\n- Train employees at affiliated companies\n- Support struggling subsidiaries\n- Develop business relationships between companies\n- Manage excess personnel without layoffs",
   "cross_references": [
     {
       "type": "contrast",
@@ -141,11 +141,25 @@
       "headword": "{転勤|てんきん}",
       "label": "internal transfer",
       "target_id": "04555_tenkin"
+    },
+    {
+      "type": "related",
+      "target_id": "01094_shucchou",
+      "reading": "しゅっちょう",
+      "headword": "{出張|しゅっちょう}",
+      "label": "business trip"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26317_tenseki",
+      "reading": "てんせき",
+      "headword": "{転籍|てんせき}",
+      "label": "change of registered domicile"
     }
   ],
   "metadata": {
     "created": "2026-01-18T23:18:44Z",
-    "modified": "2026-03-29T03:05:07Z",
+    "modified": "2026-09-02T04:01:10Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

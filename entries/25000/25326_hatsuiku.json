@@ -3,7 +3,7 @@
   "headword": "{発育|はついく}",
   "reading": "はついく",
   "romaji": "hatsuiku",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "growth; development (physical)",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25326_hatsuiku_ex1",
-      "japanese": "{子供|こども}の{発育|はついく}は{早|はや}い。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧⟦の→の：09472_no⟧{発育|はついく}⟦は→は：00079_ha⟧⟦{早|はや}い→早い：00514_hayai⟧。",
       "english": "Children's physical growth is fast.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25326_hatsuiku_ex2",
-      "japanese": "{栄養|えいよう}バランスのよい{食事|しょくじ}が{発育|はついく}には{大切|たいせつ}だ。",
+      "japanese": "⟦{栄養|えいよう}→栄養：01882_eiyou⟧⟦バランス→バランス：03870_baransu⟧⟦の→の：09472_no⟧よい⟦{食事|しょくじ}→食事：02087_shokuji⟧⟦が→が：00051_ga⟧{発育|はついく}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧だ。",
       "english": "A nutritionally balanced diet is important for growth.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25326_hatsuiku_ex3",
-      "japanese": "{定期|ていき}{健診|けんしん}で{赤|あか}ちゃんの{発育|はついく}{状態|じょうたい}を{確認|かくにん}する。",
+      "japanese": "⟦{定期|ていき}→定期：03538_teiki⟧⟦{健診|けんしん}→健診：17390_kenshin⟧⟦で→で：00502_de⟧⟦{赤|あか}ちゃん→赤ちゃん：01282_akachan⟧⟦の→の：09472_no⟧{発育|はついく}⟦{状態|じょうたい}→状態：03345_joutai⟧⟦を→を：00422_wo⟧⟦{確認|かくにん}する→確認する：25332_kakuninsuru⟧。",
       "english": "The baby's growth is checked at regular health checkups.",
       "sense_numbers": [
         1
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "Specifically refers to physical growth and development of the body, especially of children, infants, and organisms. Composed of {発|はつ} (emit, develop) and {育|いく} (grow, raise). Primarily used in medical, childcare, and biological contexts.\n\nCOMMON COLLOCATIONS:\n- {発育|はついく}が{良|よ}い/{悪|わる}い: good/poor development\n- {発育|はついく}{状態|じょうたい}: growth condition\n- {発育|はついく}{不良|ふりょう}: poor growth, failure to thrive\n- {発育|はついく}{段階|だんかい}: stage of development\n\nSIMILAR WORDS:\n- {成長|せいちょう}: growth — broader; includes physical, mental, and figurative growth\n- {発達|はったつ}: development — emphasizes functional and mental development\n- {生育|せいいく}: growth — used for plants and organisms in natural environments",
+  "notes": "Specifically refers to physical growth and development of the body, especially of children, infants, and organisms. Composed of ⟦{発|はつ}→〜発：04026_hatsu⟧ (emit, develop) and {育|いく} (grow, raise). Primarily used in medical, childcare, and biological contexts.\n\nCOMMON COLLOCATIONS:\n- {発育|はついく}⟦が→が：00051_ga⟧⟦{良|よ}い→良い：02350_yoi⟧/⟦{悪|わる}い→悪い：00908_warui⟧: good/poor development\n- {発育|はついく}⟦{状態|じょうたい}→状態：03345_joutai⟧: growth condition\n- {発育|はついく}⟦{不良|ふりょう}→不良：11320_furyou⟧: poor growth, failure to thrive\n- {発育|はついく}⟦{段階|だんかい}→段階：04515_dankai⟧: stage of development\n\nSIMILAR WORDS:\n- ⟦{成長|せいちょう}→成長：03290_seichou⟧: growth — broader; includes physical, mental, and figurative growth\n- ⟦{発達|はったつ}→発達：03559_hattatsu⟧: development — emphasizes functional and mental development\n- ⟦{生育|せいいく}→生育：22487_seiiku⟧: growth — used for plants and organisms in natural environments",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03290_seichou",
+      "reading": "せいちょう",
+      "headword": "{成長|せいちょう}",
+      "label": "growth"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03559_hattatsu",
+      "reading": "はったつ",
+      "headword": "{発達|はったつ}",
+      "label": "development"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22487_seiiku",
+      "reading": "せいいく",
+      "headword": "{生育|せいいく}",
+      "label": "growth"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00455_seichou",
+      "reading": "せいちょう",
+      "headword": "{生長|せいちょう}",
+      "label": "growth (of plants/organisms)"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,6 +83,8 @@
         "noun",
         "verb-suru"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "health"
       ],
@@ -62,7 +94,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-24T14:29:31Z",
-    "modified": "2026-08-04T12:59:53Z"
+    "modified": "2026-09-02T04:02:22Z"
   },
   "conjugation": {
     "type": "suru",

@@ -15,40 +15,67 @@
   "examples": [
     {
       "id": "27103_jidoukan_ex1",
-      "japanese": "{子|こ}どもたちが{児童館|じどうかん}で{遊|あそ}んでいる。",
+      "japanese": "{子|こ}どもたち⟦が→が：00051_ga⟧{児童館|じどうかん}⟦で→で：00502_de⟧⟦{遊|あそ}んでいる→遊ぶ：00550_asobu⟧。",
       "english": "The children are playing at the children's center.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27103_jidoukan_ex2",
-      "japanese": "{放課後|ほうかご}は{児童館|じどうかん}で{過|す}ごすことが{多|おお}い。",
+      "japanese": "⟦{放課後|ほうかご}→放課後：12720_houkago⟧⟦は→は：00079_ha⟧{児童館|じどうかん}⟦で→で：00502_de⟧⟦{過|す}ごす→過ごす：02062_sugosu⟧こと⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "I often spend my time after school at the children's center.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27103_jidoukan_ex3",
-      "japanese": "{近所|きんじょ}の{児童館|じどうかん}では{毎週|まいしゅう}{土曜日|どようび}にイベントが{開|ひら}かれている。",
+      "japanese": "⟦{近所|きんじょ}→近所：01318_kinjo⟧⟦の→の：09472_no⟧{児童館|じどうかん}⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{毎週|まいしゅう}→毎週：00730_maishuu⟧⟦{土曜日|どようび}→土曜日：00621_doyoubi⟧⟦に→に：00314_ni⟧⟦イベント→イベント：09594_ibento⟧⟦が→が：00051_ga⟧⟦{開|ひら}かれている→開く：01979_hiraku⟧。",
       "english": "The local children's center holds events every Saturday.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A public facility established under the Child Welfare Act ({児童福祉法|じどうふくしほう}). Provides free or low-cost activities for children including play space, arts and crafts, sports, and seasonal events. An important part of Japan's child welfare infrastructure, especially for working parents.\n\nCOMMON COLLOCATIONS:\n- {児童館|じどうかん}に{行|い}く: to go to the children's center\n- {児童館|じどうかん}で{遊|あそ}ぶ: to play at the children's center\n- {児童館|じどうかん}の{行事|ぎょうじ}: children's center events\n- {児童館|じどうかん}の{職員|しょくいん}: children's center staff\n\nSIMILAR WORDS:\n- {学童|がくどう}クラブ / {学童|がくどう}{保育|ほいく}: after-school care program — specifically for elementary school children whose parents work. {児童館|じどうかん} is open to all children, not just those needing after-school care.\n- {公民館|こうみんかん}: community center — for all ages, not specifically for children\n- {保育園|ほいくえん}: nursery school; daycare — for preschool-age children during working hours",
+  "notes": "A public facility established under the Child Welfare Act ({児童福祉法|じどうふくしほう}). Provides free or low-cost activities for children including play space, arts and crafts, sports, and seasonal events. An important part of Japan's child welfare infrastructure, especially for working parents.\n\nCOMMON COLLOCATIONS:\n- {児童館|じどうかん}⟦に→に：00314_ni⟧⟦{行|い}く→行く：00119_iku⟧: to go to the children's center\n- {児童館|じどうかん}⟦で→で：00502_de⟧⟦{遊|あそ}ぶ→遊ぶ：00550_asobu⟧: to play at the children's center\n- {児童館|じどうかん}⟦の→の：09472_no⟧⟦{行事|ぎょうじ}→行事：00078_gyouji⟧: children's center events\n- {児童館|じどうかん}⟦の→の：09472_no⟧⟦{職員|しょくいん}→職員：20206_shokuin⟧: children's center staff\n\nSIMILAR WORDS:\n- ⟦{学童|がくどう}→学童：20652_gakudou⟧⟦クラブ→クラブ：10812_kurabu⟧ / ⟦{学童|がくどう}→学童：20652_gakudou⟧⟦{保育|ほいく}→保育：11461_hoiku⟧: after-school care program — specifically for elementary school children whose parents work. {児童館|じどうかん} is open to all children, not just those needing after-school care.\n- ⟦{公民館|こうみんかん}→公民館：18183_kouminkan⟧: community center — for all ages, not specifically for children\n- ⟦{保育園|ほいくえん}→保育園：04704_hoikuen⟧: nursery school; daycare — for preschool-age children during working hours",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18183_kouminkan",
+      "reading": "こうみんかん",
+      "headword": "{公民館|こうみんかん}",
+      "label": "community center"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04704_hoikuen",
+      "reading": "ほいくえん",
+      "headword": "{保育園|ほいくえん}",
+      "label": "nursery school"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["building", "education"]
+      "semantic": [
+        "building",
+        "education"
+      ]
     },
     "created": "2026-05-07T11:18:08Z",
-    "modified": "2026-05-07T11:18:08Z"
+    "modified": "2026-09-02T04:02:29Z"
   }
 }

@@ -3,7 +3,7 @@
   "headword": "{撮|と}り{直|なお}す",
   "reading": "とりなおす",
   "romaji": "torinaosu",
-  "part_of_speech": "verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to retake; to reshoot; to take again",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25509_torinaosu_ex1",
-      "japanese": "{写真|しゃしん}を{撮|と}り{直|なお}した。",
+      "japanese": "⟦{写真|しゃしん}→写真：00753_shashin⟧⟦を→を：00422_wo⟧{撮|と}り{直|なお}した。",
       "english": "I retook the photo.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25509_torinaosu_ex2",
-      "japanese": "ぶれていたので、もう{一枚|いちまい}{撮|と}り{直|なお}してもらえますか。",
+      "japanese": "⟦ぶれていた→ぶれる：10522_bureru⟧⟦の→の：09472_no⟧で、⟦もう→もう：00602_mou⟧⟦{一枚|いちまい}→一枚：08889_ichimai⟧{撮|と}り{直|なお}して⟦もらえます→もらう：00520_morau⟧⟦か→か：09473_ka⟧。",
       "english": "It was blurry, so could you retake it?",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25509_torinaosu_ex3",
-      "japanese": "{監督|かんとく}は{納得|なっとく}がいかず、そのシーンを{何度|なんど}も{撮|と}り{直|なお}した。",
+      "japanese": "⟦{監督|かんとく}→監督：00185_kantoku⟧⟦は→は：00079_ha⟧⟦{納得|なっとく}→納得：03507_nattoku⟧がいかず、⟦その→その：00993_sono⟧⟦シーン→シーン：08914_shiin⟧⟦を→を：00422_wo⟧⟦{何度|なんど}→何度：17592_nando⟧⟦も→も：00484_mo⟧{撮|と}り{直|なお}した。",
       "english": "The director wasn't satisfied and reshot that scene many times.",
       "sense_numbers": [
         1
@@ -44,8 +44,23 @@
       "notes": null
     }
   ],
-  "notes": "Compound verb from {撮|と}る (to take/photograph) + {直|なお}す (to redo; to fix). The {直|なお}す auxiliary pattern is productive: {書|か}き{直|なお}す (rewrite), {作|つく}り{直|なお}す (remake), やり{直|なお}す (redo). Very common in everyday situations — asking someone to retake a group photo, reshooting scenes for film, or retaking an ID photo.\n\nCOMMON COLLOCATIONS:\n- {写真|しゃしん}を{撮|と}り{直|なお}す: to retake a photo\n- シーンを{撮|と}り{直|なお}す: to reshoot a scene\n- {証明|しょうめい}{写真|しゃしん}を{撮|と}り{直|なお}す: to retake an ID photo\n\nSIMILAR WORDS:\n- {再撮影|さいさつえい}する: to reshoot — more formal; used in professional photography and film production\n- {撮|と}る: to take (a photo) — the base verb, without the \"again\" nuance",
-  "cross_references": [],
+  "notes": "Compound verb from ⟦{撮|と}る→撮る：00760_toru⟧ (to take/photograph) + {直|なお}す (to redo; to fix). The {直|なお}す auxiliary pattern is productive: ⟦{書|か}き{直|なお}す→書き直す：04597_kakinaosu⟧ (rewrite), ⟦{作|つく}り{直|なお}す→作り直す：20924_tsukurinaosu⟧ (remake), ⟦やり{直|なお}す→やり直す：03172_yarinaosu⟧ (redo). Very common in everyday situations — asking someone to retake a group photo, reshooting scenes for film, or retaking an ID photo.\n\nCOMMON COLLOCATIONS:\n- ⟦{写真|しゃしん}→写真：00753_shashin⟧⟦を→を：00422_wo⟧{撮|と}り{直|なお}す: to retake a photo\n- ⟦シーン→シーン：08914_shiin⟧⟦を→を：00422_wo⟧{撮|と}り{直|なお}す: to reshoot a scene\n- ⟦{証明|しょうめい}→証明：03242_shoumei⟧⟦{写真|しゃしん}→写真：00753_shashin⟧⟦を→を：00422_wo⟧{撮|と}り{直|なお}す: to retake an ID photo\n\nSIMILAR WORDS:\n- ⟦{再撮影|さいさつえい}→再撮影：26497_saisatsuei⟧⟦する→する：00392_suru⟧: to reshoot — more formal; used in professional photography and film production\n- ⟦{撮|と}る→撮る：00760_toru⟧: to take (a photo) — the base verb, without the \"again\" nuance",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "26497_saisatsuei",
+      "reading": "さいさつえい",
+      "headword": "{再撮影|さいさつえい}",
+      "label": "to reshoot"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00760_toru",
+      "reading": "とる",
+      "headword": "{撮|と}る",
+      "label": "to take"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,14 +68,16 @@
       "pos": [
         "verb-godan"
       ],
+      "politeness": "plain",
       "semantic": [
         "daily-life",
         "art"
       ],
-      "verb_class": "godan-su"
+      "verb_class": "godan-su",
+      "transitivity": "transitive"
     },
     "created": "2026-04-25T15:16:02Z",
-    "modified": "2026-08-04T13:00:51Z"
+    "modified": "2026-09-02T04:02:22Z"
   },
   "conjugation": {
     "type": "godan",

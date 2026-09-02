@@ -3,8 +3,24 @@
   "id": "21919_rihansuru",
   "headword": "{離反|りはん}する",
   "reading": "りはんする",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "to defect; to turn against; to become estranged",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02011_uragiru",
+      "reading": "うらぎる",
+      "headword": "{裏切|うらぎ}る",
+      "label": "to betray"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05770_dattai",
+      "reading": "だったい",
+      "headword": "{脱退|だったい}",
+      "label": "to withdraw, to quit"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -12,16 +28,18 @@
         "noun",
         "verb-suru"
       ],
+      "politeness": "plain",
       "semantic": [
         "politics",
         "relationship"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     },
     "created": "2026-04-03T21:30:16Z",
-    "modified": "2026-04-03T21:30:16Z"
+    "modified": "2026-09-02T04:02:05Z"
   },
-  "notes": "Describes the process of supporters, allies, or members breaking away from a group or leader. Implies that loyalty or support existed before and has been withdrawn. Very common in political and organizational contexts.\n\nCOMMON COLLOCATIONS:\n- {支持者|しじしゃ}の{離反|りはん}: defection of supporters\n- {離反|りはん}を{招|まね}く: to invite/cause defection\n- ～から{離反|りはん}する: to turn against ~, to break away from ~\n- {離反|りはん}{行為|こうい}: act of defection\n- {民心|みんしん}の{離反|りはん}: alienation of the public\n\nSIMILAR WORDS:\n- {裏切|うらぎ}る: to betray — stronger; implies treachery and breaking trust\n- {脱退|だったい}する: to withdraw, to quit — more neutral; formally leaving an organization\n- {反旗|はんき}を{翻|ひるがえ}す: to raise the flag of revolt — a more dramatic expression for rebelling\n- {疎遠|そえん}になる: to become estranged — gradual drifting apart without active rebellion\n\nETYMOLOGY:\nComposed of {離|り} (separate, leave) + {反|はん} (oppose, rebel).",
+  "notes": "Describes the process of supporters, allies, or members breaking away from a group or leader. Implies that loyalty or support existed before and has been withdrawn. Very common in political and organizational contexts.\n\nCOMMON COLLOCATIONS:\n- ⟦{支持者|しじしゃ}→支持者：17852_shijisha⟧⟦の→の：09472_no⟧⟦{離反|りはん}→離反：21482_rihan⟧: defection of supporters\n- ⟦{離反|りはん}→離反：21482_rihan⟧⟦を→を：00422_wo⟧⟦{招|まね}く→招く：02425_maneku⟧: to invite/cause defection\n- ～⟦から→から：00504_kara⟧{離反|りはん}する: to turn against ~, to break away from ~\n- ⟦{離反|りはん}→離反：21482_rihan⟧⟦{行為|こうい}→行為：10021_koui⟧: act of defection\n- {民心|みんしん}⟦の→の：09472_no⟧⟦{離反|りはん}→離反：21482_rihan⟧: alienation of the public\n\nSIMILAR WORDS:\n- ⟦{裏切|うらぎ}る→裏切る：02011_uragiru⟧: to betray — stronger; implies treachery and breaking trust\n- ⟦{脱退|だったい}→脱退：05770_dattai⟧⟦する→する：00392_suru⟧: to withdraw, to quit — more neutral; formally leaving an organization\n- ⟦{反旗|はんき}→反旗：11988_hanki⟧⟦を→を：00422_wo⟧⟦{翻|ひるがえ}す→翻す：10519_hirugaesu⟧: to raise the flag of revolt — a more dramatic expression for rebelling\n- ⟦{疎遠|そえん}→疎遠：08372_soen⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧: to become estranged — gradual drifting apart without active rebellion\n\nETYMOLOGY:\nComposed of {離|り} (separate, leave) + ⟦{反|はん}→反〜：03964_han⟧ (oppose, rebel).",
   "conjugation": {
     "type": "suru",
     "forms": [
@@ -122,7 +140,7 @@
   "examples": [
     {
       "id": "21919_rihansuru_ex1",
-      "japanese": "{支持者|しじしゃ}が{離反|りはん}した。",
+      "japanese": "⟦{支持者|しじしゃ}→支持者：17852_shijisha⟧⟦が→が：00051_ga⟧{離反|りはん}した。",
       "english": "Supporters defected.",
       "sense_numbers": [
         1
@@ -132,7 +150,7 @@
     },
     {
       "id": "21919_rihansuru_ex2",
-      "japanese": "{党内|とうない}から{離反|りはん}する{議員|ぎいん}が{相次|あいつ}いだ。",
+      "japanese": "{党内|とうない}⟦から→から：00504_kara⟧{離反|りはん}する⟦{議員|ぎいん}→議員：02660_giin⟧⟦が→が：00051_ga⟧⟦{相次|あいつ}いだ→相次ぐ：14869_aitsugu⟧。",
       "english": "Lawmakers who defected from within the party came one after another.",
       "sense_numbers": [
         1
@@ -142,7 +160,7 @@
     },
     {
       "id": "21919_rihansuru_ex3",
-      "japanese": "{国民|こくみん}の{離反|りはん}を{招|まね}いた{政策|せいさく}は{見直|みなお}すべきだ。",
+      "japanese": "⟦{国民|こくみん}→国民：02757_kokumin⟧⟦の→の：09472_no⟧⟦{離反|りはん}→離反：21482_rihan⟧⟦を→を：00422_wo⟧⟦{招|まね}いた→招く：02425_maneku⟧⟦{政策|せいさく}→政策：10070_seisaku⟧⟦は→は：00079_ha⟧⟦{見直|みなお}す→見直す：04579_minaosu⟧べきだ。",
       "english": "Policies that caused public alienation should be reconsidered.",
       "sense_numbers": [
         1
@@ -152,7 +170,7 @@
     },
     {
       "id": "21919_rihansuru_ex4",
-      "japanese": "{度重|たびかさ}なるスキャンダルにより、{多|おお}くのファンがあのアイドルから{離反|りはん}してしまった。",
+      "japanese": "{度重|たびかさ}なるスキャンダル⟦に→に：00314_ni⟧⟦より→より：09476_yori⟧、{多|おお}く⟦の→の：09472_no⟧⟦ファン→ファン：10065_fan⟧⟦が→が：00051_ga⟧⟦あの→あの：00915_ano⟧⟦アイドル→アイドル：05111_aidoru⟧⟦から→から：00504_kara⟧{離反|りはん}してしまった。",
       "english": "Due to repeated scandals, many fans turned against that idol.",
       "sense_numbers": [
         1

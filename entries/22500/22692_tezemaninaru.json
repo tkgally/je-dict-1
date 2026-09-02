@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22692_tezemaninaru_ex1",
-      "japanese": "{部屋|へや}が{手狭|てぜま}になった。",
+      "japanese": "⟦{部屋|へや}→部屋：00507_heya⟧⟦が→が：00051_ga⟧{手狭|てぜま}になった。",
       "english": "The room has become too small.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22692_tezemaninaru_ex2",
-      "japanese": "{家族|かぞく}が{増|ふ}えて{家|いえ}が{手狭|てぜま}になった。",
+      "japanese": "⟦{家族|かぞく}→家族：00552_kazoku⟧⟦が→が：00051_ga⟧⟦{増|ふ}えて→増える：01183_fueru⟧⟦{家|いえ}→家：00612_ie⟧⟦が→が：00051_ga⟧{手狭|てぜま}になった。",
       "english": "The family grew and the house became cramped.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22692_tezemaninaru_ex3",
-      "japanese": "{事業|じぎょう}が{拡大|かくだい}して{今|いま}のオフィスが{手狭|てぜま}になったので、{引|ひ}っ{越|こ}しを{検討|けんとう}している。",
+      "japanese": "⟦{事業|じぎょう}→事業：11421_jigyou⟧⟦が→が：00051_ga⟧⟦{拡大|かくだい}→拡大：02553_kakudai⟧⟦して→する：00392_suru⟧⟦{今|いま}→今：00945_ima⟧⟦の→の：09472_no⟧⟦オフィス→オフィス：00327_ofisu⟧⟦が→が：00051_ga⟧{手狭|てぜま}になった⟦の→の：09472_no⟧で、{引|ひ}っ{越|こ}し⟦を→を：00422_wo⟧⟦{検討|けんとう}している→検討する：17455_kentousuru⟧。",
       "english": "The business expanded and the current office became too small, so we're considering moving.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "{手狭|てぜま} literally means 'narrow at hand' and describes a space that feels too small for its purpose. The na-adjective {手狭|てぜま} is most commonly used with になる to describe a space becoming insufficient. Often triggers a decision to move or expand.\n\nCOMMON COLLOCATIONS:\n- {手狭|てぜま}になる: to become cramped\n- {手狭|てぜま}に{感|かん}じる: to feel cramped\n- {手狭|てぜま}な{部屋|へや}: a cramped room\n- {手狭|てぜま}な{住|す}まい: a cramped dwelling\n\nSIMILAR WORDS:\n- {狭|せま}い: narrow, small — a general adjective for physical smallness, while {手狭|てぜま} specifically implies that the space has become insufficient for one's needs\n- {窮屈|きゅうくつ}: cramped, tight — can describe both physical spaces and figurative constraint (like restrictive rules), while {手狭|てぜま} is only about physical space being too small",
+  "notes": "⟦{手狭|てぜま}→手狭：16078_tezema⟧ literally means 'narrow at hand' and describes a space that feels too small for its purpose. The na-adjective ⟦{手狭|てぜま}→手狭：16078_tezema⟧ is most commonly used with ⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧ to describe a space becoming insufficient. Often triggers a decision to move or expand.\n\nCOMMON COLLOCATIONS:\n- {手狭|てぜま}になる: to become cramped\n- ⟦{手狭|てぜま}→手狭：16078_tezema⟧⟦に→に：00314_ni⟧⟦{感|かん}じる→感じる：02044_kanjiru⟧: to feel cramped\n- ⟦{手狭|てぜま}→手狭：16078_tezema⟧な⟦{部屋|へや}→部屋：00507_heya⟧: a cramped room\n- ⟦{手狭|てぜま}→手狭：16078_tezema⟧な⟦{住|す}まい→住まい：11555_sumai⟧: a cramped dwelling\n\nSIMILAR WORDS:\n- ⟦{狭|せま}い→狭い：00750_semai⟧: narrow, small — a general adjective for physical smallness, while ⟦{手狭|てぜま}→手狭：16078_tezema⟧ specifically implies that the space has become insufficient for one's needs\n- ⟦{窮屈|きゅうくつ}→窮屈：06869_kyuukutsu⟧: cramped, tight — can describe both physical spaces and figurative constraint (like restrictive rules), while ⟦{手狭|てぜま}→手狭：16078_tezema⟧ is only about physical space being too small",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00750_semai",
+      "reading": "せまい",
+      "headword": "{狭|せま}い",
+      "label": "narrow, small"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06869_kyuukutsu",
+      "reading": "きゅうくつ",
+      "headword": "{窮屈|きゅうくつ}",
+      "label": "cramped, tight"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +76,6 @@
       "politeness": "plain"
     },
     "created": "2026-04-07T00:58:06Z",
-    "modified": "2026-08-01T06:42:57Z"
+    "modified": "2026-09-02T04:02:09Z"
   }
 }

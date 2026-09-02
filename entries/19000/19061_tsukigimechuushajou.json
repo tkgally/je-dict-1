@@ -15,40 +15,60 @@
   "examples": [
     {
       "id": "19061_tsukigimechuushajou_ex1",
-      "japanese": "{月極駐車場|つきぎめちゅうしゃじょう}を{借|か}りている。",
+      "japanese": "{月極駐車場|つきぎめちゅうしゃじょう}⟦を→を：00422_wo⟧⟦{借|か}りている→借りる：00532_kariru⟧。",
       "english": "I rent a monthly parking space.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19061_tsukigimechuushajou_ex2",
-      "japanese": "この{辺|あた}りの{月極駐車場|つきぎめちゅうしゃじょう}は{月|つき}{二万円|にまんえん}くらいだ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{辺|あた}り→辺り：01770_atari⟧⟦の→の：09472_no⟧{月極駐車場|つきぎめちゅうしゃじょう}⟦は→は：00079_ha⟧⟦{月|つき}→月：02230_tsuki⟧{二万円|にまんえん}くらいだ。",
       "english": "Monthly parking lots around here cost about 20,000 yen per month.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19061_tsukigimechuushajou_ex3",
-      "japanese": "{引|ひ}っ{越|こ}したので、{近|ちか}くで{月極駐車場|つきぎめちゅうしゃじょう}を{探|さが}さなければならない。",
+      "japanese": "⟦{引|ひ}っ{越|こ}した→引っ越す：01171_hikkosu⟧⟦の→の：09472_no⟧で、{近|ちか}く⟦で→で：00502_de⟧{月極駐車場|つきぎめちゅうしゃじょう}⟦を→を：00422_wo⟧⟦{探|さが}さ→探す：00493_sagasu⟧⟦なければならない→なければならない：27600_nakerebanaranai⟧。",
       "english": "Since I moved, I need to find a monthly parking space nearby.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Compound of {月極|つきぎめ} (monthly basis/fixed monthly) + {駐車場|ちゅうしゃじょう} (parking lot). The word {月極|つきぎめ} is a common sight on signs throughout Japan but is often misread as 'げっきょく' by learners; the correct reading is つきぎめ. Contrasts with コインパーキング (coin-operated parking) and {時間貸|じかんが}し{駐車場|ちゅうしゃじょう} (hourly parking). Monthly parking is essential in Japanese cities where most apartments do not include parking.",
+  "notes": "Compound of ⟦{月極|つきぎめ}→月極：13000_tsukigime⟧ (monthly basis/fixed monthly) + ⟦{駐車場|ちゅうしゃじょう}→駐車場：01667_chuushajou⟧ (parking lot). The word ⟦{月極|つきぎめ}→月極：13000_tsukigime⟧ is a common sight on signs throughout Japan but is often misread as 'げっきょく' by learners; the correct reading is つきぎめ. Contrasts with ⟦コインパーキング→コインパーキング：24421_koinpaakingu⟧ (coin-operated parking) and {時間貸|じかんが}し⟦{駐車場|ちゅうしゃじょう}→駐車場：01667_chuushajou⟧ (hourly parking). Monthly parking is essential in Japanese cities where most apartments do not include parking.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24421_koinpaakingu",
+      "reading": "こいんぱーきんぐ",
+      "headword": "コインパーキング",
+      "label": "pay parking lot"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["transportation", "building"]
+      "semantic": [
+        "transportation",
+        "building"
+      ]
     },
     "created": "2026-03-24T04:44:27Z",
-    "modified": "2026-03-24T04:44:27Z"
+    "modified": "2026-09-02T04:01:54Z"
   }
 }

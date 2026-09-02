@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "18271_ichidan_ex1",
-      "japanese": "{観光客|かんこうきゃく}の{一団|いちだん}がやってきた。",
+      "japanese": "⟦{観光客|かんこうきゃく}→観光客：03022_kankoukyaku⟧⟦の→の：09472_no⟧{一団|いちだん}⟦が→が：00051_ga⟧⟦やって→やる：02980_yaru⟧きた。",
       "english": "A group of tourists arrived.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "18271_ichidan_ex2",
-      "japanese": "{子|こ}どもたちの{一団|いちだん}が{公園|こうえん}で{遊|あそ}んでいる。",
+      "japanese": "{子|こ}どもたち⟦の→の：09472_no⟧{一団|いちだん}⟦が→が：00051_ga⟧⟦{公園|こうえん}→公園：00581_kouen⟧⟦で→で：00502_de⟧⟦{遊|あそ}んでいる→遊ぶ：00550_asobu⟧。",
       "english": "A group of children are playing in the park.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "18271_ichidan_ex3",
-      "japanese": "{登山者|とざんしゃ}の{一団|いちだん}が{早朝|そうちょう}に{山|やま}を{出発|しゅっぱつ}して、{夕方|ゆうがた}までに{頂上|ちょうじょう}に{着|つ}いた。",
+      "japanese": "⟦{登山者|とざんしゃ}→登山者：21318_tozansha⟧⟦の→の：09472_no⟧{一団|いちだん}⟦が→が：00051_ga⟧⟦{早朝|そうちょう}→早朝：03109_souchou⟧⟦に→に：00314_ni⟧⟦{山|やま}→山：02168_yama⟧⟦を→を：00422_wo⟧⟦{出発|しゅっぱつ}して→出発する：01832_shuppatsusuru⟧、⟦{夕方|ゆうがた}→夕方：01010_yuugata⟧⟦まで→まで：00490_made⟧⟦に→に：00314_ni⟧⟦{頂上|ちょうじょう}→頂上：03493_choujou⟧⟦に→に：00314_ni⟧⟦{着|つ}いた→着く：00680_tsuku⟧。",
       "english": "A party of mountain climbers set out early in the morning and reached the summit by evening.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nTypically used with の to specify the type of group: ～の{一団|いちだん}. Describes a visible, cohesive group of people rather than an abstract group or organization.\n\nCOMMON COLLOCATIONS:\n- {観光客|かんこうきゃく}の{一団|いちだん} (a group of tourists)\n- {一団|いちだん}となって (as a group, together)\n- {一団|いちだん}を{率|ひき}いる (to lead a group)\n\nSIMILAR WORDS:\n- {一行|いっこう}: a party (of travelers) — emphasizes traveling together\n- {一群|いちぐん}: a group, a cluster — can also be used for things, not just people\n- {一段|いちだん}: one step, a level — a homophone with different kanji and meaning",
+  "notes": "USAGE:\nTypically used with ⟦の→の：09472_no⟧ to specify the type of group: ～⟦の→の：09472_no⟧{一団|いちだん}. Describes a visible, cohesive group of people rather than an abstract group or organization.\n\nCOMMON COLLOCATIONS:\n- ⟦{観光客|かんこうきゃく}→観光客：03022_kankoukyaku⟧⟦の→の：09472_no⟧{一団|いちだん} (a group of tourists)\n- {一団|いちだん}⟦と→と：00512_to⟧⟦なって→なる：01970_naru⟧ (as a group, together)\n- {一団|いちだん}⟦を→を：00422_wo⟧⟦{率|ひき}いる→率いる：10879_hikiiru⟧ (to lead a group)\n\nSIMILAR WORDS:\n- ⟦{一行|いっこう}→一行：28066_ikkou⟧: a party (of travelers) — emphasizes traveling together\n- {一群|いちぐん}: a group, a cluster — can also be used for things, not just people\n- ⟦{一段|いちだん}→一段：08951_ichidan⟧: one step, a level — a homophone with different kanji and meaning",
   "cross_references": [
     {
       "entry_id": "08951_ichidan",
@@ -54,11 +54,18 @@
       "relationship": "homophone",
       "notes": "Same reading いちだん but means one step or a level",
       "target_id": "08951_ichidan"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28066_ikkou",
+      "reading": "いっこう",
+      "headword": "{一行|いっこう}",
+      "label": "a party"
     }
   ],
   "metadata": {
     "created": "2026-03-21T01:10:29Z",
-    "modified": "2026-07-25T06:43:21Z",
+    "modified": "2026-09-02T04:01:51Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

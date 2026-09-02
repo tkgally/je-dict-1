@@ -15,41 +15,87 @@
   "examples": [
     {
       "id": "18868_zaitakuwaaku_ex1",
-      "japanese": "{今日|きょう}は{在宅|ざいたく}ワークだ。",
+      "japanese": "⟦{今日|きょう}→今日：00496_kyou⟧⟦は→は：00079_ha⟧{在宅|ざいたく}ワークだ。",
       "english": "I'm working from home today.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18868_zaitakuwaaku_ex2",
-      "japanese": "{在宅|ざいたく}ワークが{増|ふ}えて、{通勤|つうきん}しなくなった。",
+      "japanese": "{在宅|ざいたく}ワーク⟦が→が：00051_ga⟧⟦{増|ふ}えて→増える：01183_fueru⟧、⟦{通勤|つうきん}→通勤：03512_tsuukin⟧⟦しなく→する：00392_suru⟧⟦なった→なる：01970_naru⟧。",
       "english": "Remote work has increased, and I've stopped commuting.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18868_zaitakuwaaku_ex3",
-      "japanese": "{在宅|ざいたく}ワークでは{自己|じこ}{管理|かんり}が{大切|たいせつ}だと{言|い}われている。",
+      "japanese": "{在宅|ざいたく}ワーク⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{自己|じこ}→自己：23357_jiko⟧⟦{管理|かんり}→管理：00178_kanri⟧⟦が→が：00051_ga⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧だ⟦と→と：00512_to⟧⟦{言|い}われている→言う：00515_iu⟧。",
       "english": "It's said that self-management is important when working from home.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nBecame an everyday term in Japan from 2020 onward. Used both as a noun and with する. Often abbreviated in casual speech.\n\nCOMMON COLLOCATIONS:\n- {在宅|ざいたく}ワークをする (to work from home)\n- {在宅|ざいたく}ワークに{切|き}り{替|か}える (to switch to remote work)\n- {在宅|ざいたく}ワーク{環境|かんきょう} (work-from-home environment)\n- {在宅|ざいたく}ワーク{手当|てあて} (remote work allowance)\n\nSIMILAR WORDS:\n- テレワーク: telework — a broader term covering any remote work, not only from home\n- リモートワーク: remote work — essentially synonymous, slightly more casual",
-  "cross_references": [],
+  "notes": "USAGE:\nBecame an everyday term in Japan from 2020 onward. Used both as a noun and with ⟦する→する：00392_suru⟧. Often abbreviated in casual speech.\n\nCOMMON COLLOCATIONS:\n- {在宅|ざいたく}ワーク⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧ (to work from home)\n- {在宅|ざいたく}ワーク⟦に→に：00314_ni⟧⟦{切|き}り{替|か}える→切り替える：04239_kirikaeru⟧ (to switch to remote work)\n- {在宅|ざいたく}ワーク⟦{環境|かんきょう}→環境：00174_kankyou⟧ (work-from-home environment)\n- {在宅|ざいたく}ワーク⟦{手当|てあて}→手当：04881_teate⟧ (remote work allowance)\n\nSIMILAR WORDS:\n- ⟦テレワーク→テレワーク：05397_terewaaku⟧: telework — a broader term covering any remote work, not only from home\n- ⟦リモートワーク→リモートワーク：06095_rimootowaaku⟧: remote work — essentially synonymous, slightly more casual",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05397_terewaaku",
+      "reading": "てれわーく",
+      "headword": "テレワーク",
+      "label": "telework"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06095_rimootowaaku",
+      "reading": "りもーとわーく",
+      "headword": "リモートワーク",
+      "label": "remote work"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06158_zaitakukinmu",
+      "reading": "ざいたくきんむ",
+      "headword": "{在宅勤務|ざいたくきんむ}",
+      "label": "work from home"
+    },
+    {
+      "type": "related",
+      "target_id": "08479_fukugyou",
+      "reading": "ふくぎょう",
+      "headword": "{副業|ふくぎょう}",
+      "label": "side job"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25283_naishokusuru",
+      "reading": "ないしょくする",
+      "headword": "{内職|ないしょく}する",
+      "label": "to do piecework at home"
+    }
+  ],
   "metadata": {
     "created": "2026-03-23T06:15:40Z",
-    "modified": "2026-03-23T06:15:40Z",
+    "modified": "2026-09-02T04:01:53Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["work"]
+      "semantic": [
+        "work"
+      ]
     }
   }
 }

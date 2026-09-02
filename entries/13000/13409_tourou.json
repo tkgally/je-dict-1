@@ -15,41 +15,66 @@
   "examples": [
     {
       "id": "13409_tourou_ex1",
-      "japanese": "{庭|にわ}に{石|いし}{灯籠|どうろう}がある。",
+      "japanese": "⟦{庭|にわ}→庭：02239_niwa⟧⟦に→に：00314_ni⟧⟦{石|いし}→石：02177_ishi⟧{灯籠|どうろう}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There is a stone lantern in the garden.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13409_tourou_ex2",
-      "japanese": "お{盆|ぼん}に{灯籠|とうろう}を{川|かわ}に{流|なが}す{行事|ぎょうじ}がある。",
+      "japanese": "⟦お{盆|ぼん}→お盆：05587_obon⟧⟦に→に：00314_ni⟧{灯籠|とうろう}⟦を→を：00422_wo⟧⟦{川|かわ}→川：02186_kawa⟧⟦に→に：00314_ni⟧⟦{流|なが}す→流す：01968_nagasu⟧⟦{行事|ぎょうじ}→行事：00078_gyouji⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There is a custom of floating lanterns on the river during the Obon festival.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13409_tourou_ex3",
-      "japanese": "{神社|じんじゃ}の{参道|さんどう}に{並|なら}ぶ{石|いし}{灯籠|どうろう}に{火|ひ}が{灯|とも}され、{幻想的|げんそうてき}な{雰囲気|ふんいき}になった。",
+      "japanese": "⟦{神社|じんじゃ}→神社：01620_jinja⟧⟦の→の：09472_no⟧⟦{参道|さんどう}→参道：11980_sandou⟧⟦に→に：00314_ni⟧⟦{並|なら}ぶ→並ぶ：00605_narabu⟧⟦{石|いし}→石：02177_ishi⟧{灯籠|どうろう}⟦に→に：00314_ni⟧⟦{火|ひ}→火：02248_hi⟧⟦が→が：00051_ga⟧⟦{灯|とも}され→灯す：10398_tomosu⟧、⟦{幻想的|げんそうてき}→幻想的：25756_gensouteki⟧な⟦{雰囲気|ふんいき}→雰囲気：03604_funiki⟧になった。",
       "english": "The stone lanterns lining the shrine approach were lit, creating a magical atmosphere.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "TYPES:\n- {石|いし}{灯籠|どうろう}: stone lantern, a fixture of Japanese gardens and shrine grounds\n- {灯籠|とうろう}{流|なが}し: floating paper lanterns on a river, a Buddhist ceremony during Obon to guide spirits of the dead\n- {吊|つ}り{灯籠|どうろう}: hanging lantern\n\nKANJI NOTE:\nAlso written {灯篭|とうろう}. The character {籠|ろう} (basket/cage) reflects the lantern's structure of enclosing a light source.\n\nREADING NOTE:\nIn the compound {石|いし}{灯籠|どうろう}, the reading changes to どうろう through rendaku (sequential voicing).\n\nCOMMON COLLOCATIONS:\n- {石|いし}{灯籠|どうろう}: stone lantern\n- {灯籠|とうろう}{流|なが}し: lantern floating ceremony\n- {灯籠|とうろう}に{火|ひ}を{灯|とも}す: to light a lantern",
-  "cross_references": [],
+  "notes": "TYPES:\n- ⟦{石|いし}→石：02177_ishi⟧{灯籠|どうろう}: stone lantern, a fixture of Japanese gardens and shrine grounds\n- {灯籠|とうろう}{流|なが}し: floating paper lanterns on a river, a Buddhist ceremony during Obon to guide spirits of the dead\n- {吊|つ}り{灯籠|どうろう}: hanging lantern\n\nWRITING:\nAlso written {灯篭|とうろう}. The character {籠|ろう} (basket/cage) reflects the lantern's structure of enclosing a light source.\n\nPRONUNCIATION:\nIn the compound ⟦{石|いし}→石：02177_ishi⟧{灯籠|どうろう}, the reading changes to ⟦どう→どう：00543_dou⟧ろう through rendaku (sequential voicing).\n\nCOMMON COLLOCATIONS:\n- ⟦{石|いし}→石：02177_ishi⟧{灯籠|どうろう}: stone lantern\n- {灯籠|とうろう}{流|なが}し: lantern floating ceremony\n- {灯籠|とうろう}⟦に→に：00314_ni⟧⟦{火|ひ}→火：02248_hi⟧⟦を→を：00422_wo⟧⟦{灯|とも}す→灯す：10398_tomosu⟧: to light a lantern",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "07115_komainu",
+      "reading": "こまいぬ",
+      "headword": "{狛犬|こまいぬ}",
+      "label": "komainu"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24216_rantan",
+      "reading": "らんたん",
+      "headword": "ランタン",
+      "label": "lantern"
+    }
+  ],
   "metadata": {
     "created": "2026-02-24T11:37:53Z",
-    "modified": "2026-02-24T11:37:53Z",
+    "modified": "2026-09-02T04:01:33Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["tool"]
+      "semantic": [
+        "tool"
+      ]
     }
   }
 }

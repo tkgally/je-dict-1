@@ -15,40 +15,94 @@
   "examples": [
     {
       "id": "11869_meisaku_ex1",
-      "japanese": "この{映画|えいが}は{名作|めいさく}だ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{映画|えいが}→映画：02273_eiga⟧⟦は→は：00079_ha⟧{名作|めいさく}だ。",
       "english": "This movie is a masterpiece.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11869_meisaku_ex2",
-      "japanese": "{世界|せかい}の{名作|めいさく}を{集|あつ}めた{図書館|としょかん}がある。",
+      "japanese": "⟦{世界|せかい}→世界：01447_sekai⟧⟦の→の：09472_no⟧{名作|めいさく}⟦を→を：00422_wo⟧⟦{集|あつ}めた→集める：01170_atsumeru⟧⟦{図書館|としょかん}→図書館：00580_toshokan⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There's a library that has collected masterpieces from around the world.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11869_meisaku_ex3",
-      "japanese": "{子供|こども}のころに{読|よ}んだ{名作|めいさく}を{大人|おとな}になって{読|よ}み{返|かえ}した。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧⟦の→の：09472_no⟧⟦ころ→〜ころ：03091_koro⟧⟦に→に：00314_ni⟧⟦{読|よ}んだ→読む：00426_yomu⟧{名作|めいさく}⟦を→を：00422_wo⟧⟦{大人|おとな}→大人：02856_otona⟧になって⟦{読|よ}み{返|かえ}した→読み返す：07954_yomikaesu⟧。",
       "english": "As an adult, I reread the classic works I had read as a child.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "Applies broadly to literature, film, music, art, games, and other creative works. Often used in book/film series titles like {世界|せかい}{名作|めいさく}{劇場|げきじょう} (World Masterpiece Theater) or {名作|めいさく}{選|せん} (selection of classics).\n\nCOMMON COLLOCATIONS:\n・{不朽|ふきゅう}の{名作|めいさく} — timeless masterpiece\n・{隠|かく}れた{名作|めいさく} — hidden gem\n・{名作|めいさく}{選|せん} — selection of classic works\n・{名作|めいさく}と{呼|よ}ばれる — to be called a masterpiece\n\nSIMILAR WORDS:\n・{傑作|けっさく} — masterpiece (also means 'great joke/story')\n・{大作|たいさく} — major work (emphasis on scale, not necessarily quality)",
-  "cross_references": [],
+  "notes": "Applies broadly to literature, film, music, art, games, and other creative works. Often used in book/film series titles like ⟦{世界|せかい}→世界：01447_sekai⟧{名作|めいさく}⟦{劇場|げきじょう}→劇場：02714_gekijou⟧ (World Masterpiece Theater) or {名作|めいさく}⟦{選|せん}→選：09879_sen⟧ (selection of classics).\n\nCOMMON COLLOCATIONS:\n- {不朽|ふきゅう}⟦の→の：09472_no⟧{名作|めいさく} — timeless masterpiece\n- ⟦{隠|かく}れた→隠れる：02035_kakureru⟧{名作|めいさく} — hidden gem\n- {名作|めいさく}⟦{選|せん}→選：09879_sen⟧ — selection of classic works\n- {名作|めいさく}⟦と→と：00512_to⟧⟦{呼|よ}ばれる→呼ぶ：00766_yobu⟧ — to be called a masterpiece\n\nSIMILAR WORDS:\n- ⟦{傑作|けっさく}→傑作：00217_kessaku⟧ — masterpiece (also means 'great joke/story')\n- ⟦{大作|たいさく}→大作：12196_taisaku⟧ — major work (emphasis on scale, not necessarily quality)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00217_kessaku",
+      "reading": "けっさく",
+      "headword": "{傑作|けっさく}",
+      "label": "masterpiece"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12196_taisaku",
+      "reading": "たいさく",
+      "headword": "{大作|たいさく}",
+      "label": "major work"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16208_rikisaku",
+      "reading": "りきさく",
+      "headword": "{力作|りきさく}",
+      "label": "masterpiece"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22677_shuusaku",
+      "reading": "しゅうさく",
+      "headword": "{秀作|しゅうさく}",
+      "label": "excellent work"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24147_kyuusaku",
+      "reading": "きゅうさく",
+      "headword": "{旧作|きゅうさく}",
+      "label": "older work"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24476_bungakusakuhin",
+      "reading": "ぶんがくさくひん",
+      "headword": "{文学|ぶんがく}{作品|さくひん}",
+      "label": "literary work"
+    }
+  ],
   "metadata": {
     "created": "2026-02-18T13:43:27Z",
-    "modified": "2026-02-18T13:43:27Z",
+    "modified": "2026-09-02T04:01:26Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general", "leisure"]
+      "semantic": [
+        "general",
+        "leisure"
+      ]
     }
   }
 }

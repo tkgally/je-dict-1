@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "15204_kokuminteki_ex1",
-      "japanese": "{国民的|こくみんてき}アニメだ。",
+      "japanese": "{国民的|こくみんてき}⟦アニメ→アニメ：01527_anime⟧だ。",
       "english": "It's a nationally beloved anime.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15204_kokuminteki_ex2",
-      "japanese": "あの{歌手|かしゅ}は{国民的|こくみんてき}スターと{呼|よ}ばれている。",
+      "japanese": "⟦あの→あの：00915_ano⟧⟦{歌手|かしゅ}→歌手：00197_kashu⟧⟦は→は：00079_ha⟧{国民的|こくみんてき}⟦スター→スター：00393_sutaa⟧⟦と→と：00512_to⟧⟦{呼|よ}ばれている→呼ぶ：00766_yobu⟧。",
       "english": "That singer is called a national star.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15204_kokuminteki_ex3",
-      "japanese": "このドラマは{国民的|こくみんてき}な{人気|にんき}を{得|え}て、{視聴率|しちょうりつ}が{四十|よんじゅう}パーセントを{超|こ}えた。",
+      "japanese": "⟦この→この：00962_kono⟧⟦ドラマ→ドラマ：03867_dorama⟧⟦は→は：00079_ha⟧{国民的|こくみんてき}な⟦{人気|にんき}→人気：01488_ninki⟧⟦を→を：00422_wo⟧⟦{得|え}て→得る：02014_eru⟧、⟦{視聴率|しちょうりつ}→視聴率：08381_shichouritsu⟧⟦が→が：00051_ga⟧⟦{四十|よんじゅう}→四十：01009_yonjuu⟧⟦パーセント→パーセント：01537_paasento⟧⟦を→を：00422_wo⟧⟦{超|こ}えた→超える：01942_koeru⟧。",
       "english": "This drama gained nationwide popularity, with ratings exceeding forty percent.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\n{国民的|こくみんてき} is a media and conversational term used to highlight that something has transcended niche appeal and become part of the shared national culture. It is frequently used with entertainment and sports figures.\n\nCOMMON COLLOCATIONS:\n- {国民的|こくみんてき}アニメ (nationally beloved anime)\n- {国民的|こくみんてき}スター (national star)\n- {国民的|こくみんてき}{行事|ぎょうじ} (national event)\n- {国民的|こくみんてき}な{人気|にんき} (nationwide popularity)\n- {国民的|こくみんてき}{英雄|えいゆう} (national hero)",
+  "notes": "USAGE:\n{国民的|こくみんてき} is a media and conversational term used to highlight that something has transcended niche appeal and become part of the shared national culture. It is frequently used with entertainment and sports figures.\n\nCOMMON COLLOCATIONS:\n- {国民的|こくみんてき}⟦アニメ→アニメ：01527_anime⟧ (nationally beloved anime)\n- {国民的|こくみんてき}⟦スター→スター：00393_sutaa⟧ (national star)\n- {国民的|こくみんてき}⟦{行事|ぎょうじ}→行事：00078_gyouji⟧ (national event)\n- {国民的|こくみんてき}な⟦{人気|にんき}→人気：01488_ninki⟧ (nationwide popularity)\n- {国民的|こくみんてき}⟦{英雄|えいゆう}→英雄：14117_eiyuu⟧ (national hero)",
   "cross_references": [
     {
       "type": "related",
@@ -46,18 +52,29 @@
       "reading": "こくみん",
       "headword": "{国民|こくみん}",
       "label": "citizens, people"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23598_minzokuteki",
+      "reading": "みんぞくてき",
+      "headword": "{民族的|みんぞくてき}",
+      "label": "ethnic"
     }
   ],
   "metadata": {
     "created": "2026-03-05T09:34:47Z",
-    "modified": "2026-05-01T06:14:09Z",
+    "modified": "2026-09-02T04:01:40Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-na"],
+      "pos": [
+        "adjective-na"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["society"]
+      "semantic": [
+        "society"
+      ]
     }
   }
 }

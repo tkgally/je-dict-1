@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "19735_docchinishiro_ex1",
-      "japanese": "どっちにしろ{同|おな}じだよ。",
+      "japanese": "どっちにしろ⟦{同|おな}じ→同じ：02857_onaji⟧だ⟦よ→よ：09475_yo⟧。",
       "english": "Either way, it's the same.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "19735_docchinishiro_ex2",
-      "japanese": "どっちにしろ{行|い}かなきゃいけない。",
+      "japanese": "どっちにしろ⟦{行|い}かなきゃ→行く：00119_iku⟧いけない。",
       "english": "I have to go regardless.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "19735_docchinishiro_ex3",
-      "japanese": "どっちにしろ{結果|けっか}は{変|か}わらないから、{好|す}きな{方|ほう}を{選|えら}べばいい。",
+      "japanese": "どっちにしろ⟦{結果|けっか}→結果：02486_kekka⟧⟦は→は：00079_ha⟧⟦{変|か}わらない→変わる：00714_kawaru⟧⟦から→から：00504_kara⟧、⟦{好|す}き→好き：02355_suki⟧な⟦{方|ほう}→方：01139_hou⟧⟦を→を：00422_wo⟧⟦{選|えら}べば→選ぶ：00835_erabu⟧⟦いい→いい：00118_ii⟧。",
       "english": "The result won't change either way, so just pick whichever you like.",
       "sense_numbers": [
         1
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "Contracted from どちらにしろ, which itself comes from どちらにしても (whichever one does). The しろ is the imperative form of する used in a concessive sense ('even if you do/choose').\n\nVARIANTS (from casual to formal):\n- どっちにしろ — casual, most colloquial\n- どちらにしろ — slightly more polite\n- どっちにしても — casual, common\n- どちらにしても — neutral to slightly formal\n- いずれにしても — formal, used in writing and speeches\n\nSIMILAR WORDS:\n- いずれにせよ — in any event; formal equivalent\n- どのみち — anyway; emphasizes that the path leads to the same result\n- {結局|けっきょく} — in the end; focuses on the final outcome rather than dismissing alternatives\n\nREGISTER:\nCasual and spoken. Use どちらにしても or いずれにしても in formal contexts.",
+  "notes": "Contracted from ⟦どちら→どちら：00927_dochira⟧⟦に→に：00314_ni⟧⟦しろ→する：00392_suru⟧, which itself comes from ⟦どちらにしても→どちらにしても：22124_dochiranishitemo⟧ (whichever one does). The しろ is the imperative form of ⟦する→する：00392_suru⟧ used in a concessive sense ('even if you do/choose').\n\nVARIANTS (from casual to formal):\n- どっちにしろ — casual, most colloquial\n- ⟦どちら→どちら：00927_dochira⟧⟦に→に：00314_ni⟧⟦しろ→する：00392_suru⟧ — slightly more polite\n- どっちにして⟦も→も：00484_mo⟧ — casual, common\n- ⟦どちらにしても→どちらにしても：22124_dochiranishitemo⟧ — neutral to slightly formal\n- ⟦いずれにしても→いずれにしても：30653_izurenishitemo⟧ — formal, used in writing and speeches\n\nSIMILAR WORDS:\n- ⟦いずれにせよ→いずれにせよ：06779_izureniseyo⟧ — in any event; formal equivalent\n- ⟦どのみち→どのみち：06928_donomichi⟧ — anyway; emphasizes that the path leads to the same result\n- ⟦{結局|けっきょく}→結局：03815_kekkyoku⟧ — in the end; focuses on the final outcome rather than dismissing alternatives\n\nREGISTER:\nCasual and spoken. Use ⟦どちらにしても→どちらにしても：22124_dochiranishitemo⟧ or ⟦いずれにしても→いずれにしても：30653_izurenishitemo⟧ in formal contexts.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06779_izureniseyo",
+      "reading": "いずれにせよ",
+      "headword": "いずれにせよ",
+      "label": "in any event"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06928_donomichi",
+      "reading": "どのみち",
+      "headword": "どのみち",
+      "label": "anyway"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03815_kekkyoku",
+      "reading": "けっきょく",
+      "headword": "{結局|けっきょく}",
+      "label": "in the end"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22124_dochiranishitemo",
+      "reading": "どちらにしても",
+      "headword": "どちらにしても",
+      "label": "either way"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +90,6 @@
       ]
     },
     "created": "2026-03-26T15:18:38Z",
-    "modified": "2026-07-27T12:42:09Z"
+    "modified": "2026-09-02T04:01:57Z"
   }
 }

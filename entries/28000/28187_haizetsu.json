@@ -3,7 +3,7 @@
   "headword": "{廃絶|はいぜつ}",
   "reading": "はいぜつ",
   "romaji": "haizetsu",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "abolition; eradication",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28187_haizetsu_ex1",
-      "japanese": "{核兵器|かくへいき}の{廃絶|はいぜつ}を{訴|うった}える。",
+      "japanese": "⟦{核兵器|かくへいき}→核兵器：13126_kakuheiki⟧⟦の→の：09472_no⟧{廃絶|はいぜつ}⟦を→を：00422_wo⟧⟦{訴|うった}える→訴える：01891_uttaeru⟧。",
       "english": "To call for the abolition of nuclear weapons.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28187_haizetsu_ex2",
-      "japanese": "{差別|さべつ}の{廃絶|はいぜつ}を{目指|めざ}す{運動|うんどう}が{広|ひろ}がった。",
+      "japanese": "⟦{差別|さべつ}→差別：01633_sabetsu⟧⟦の→の：09472_no⟧{廃絶|はいぜつ}⟦を→を：00422_wo⟧⟦{目指|めざ}す→目指す：10528_mezasu⟧⟦{運動|うんどう}→運動：00821_undou⟧⟦が→が：00051_ga⟧⟦{広|ひろ}がった→広がる：01980_hirogaru⟧。",
       "english": "A movement aiming to eradicate discrimination spread.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28187_haizetsu_ex3",
-      "japanese": "{被爆|ひばく}{国|こく}として、{日本|にほん}は{核兵器|かくへいき}の{廃絶|はいぜつ}を{世界|せかい}に{求|もと}め{続|つづ}けている。",
+      "japanese": "{被爆|ひばく}{国|こく}⟦として→として：06802_toshite⟧、⟦{日本|にほん}→日本：03876_nihon⟧⟦は→は：00079_ha⟧⟦{核兵器|かくへいき}→核兵器：13126_kakuheiki⟧⟦の→の：09472_no⟧{廃絶|はいぜつ}⟦を→を：00422_wo⟧⟦{世界|せかい}→世界：01447_sekai⟧⟦に→に：00314_ni⟧⟦{求|もと}め→求める：02316_motomeru⟧⟦{続|つづ}け→続く：00903_tsuzuku⟧て⟦いる→いる：00495_iru⟧。",
       "english": "As a country that suffered atomic bombing, Japan continues to call on the world to abolish nuclear weapons.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {廃|はい} (abolish, discard) + {絶|ぜつ} (sever, exterminate). A strong word implying total elimination, not mere reduction. Takes する as a transitive verb.\n\nCOMMON COLLOCATIONS:\n- {核|かく}{廃絶|はいぜつ}: abolition of nuclear weapons\n- {廃絶|はいぜつ}を{訴|うった}える: to call for abolition\n- {廃絶|はいぜつ}を{目指|めざ}す: to aim at eradication\n\nSIMILAR WORDS:\n- {廃止|はいし}: abolition (of a system or rule) — repealing laws, institutions, or services\n- {撲滅|ぼくめつ}: eradication; stamping out — campaigning to wipe out crime, disease, or evils",
+  "notes": "Compound of {廃|はい} (abolish, discard) + {絶|ぜつ} (sever, exterminate). A strong word implying total elimination, not mere reduction. Takes ⟦する→する：00392_suru⟧ as a transitive verb.\n\nCOMMON COLLOCATIONS:\n- ⟦{核|かく}→核：13127_kaku⟧{廃絶|はいぜつ}: abolition of nuclear weapons\n- {廃絶|はいぜつ}⟦を→を：00422_wo⟧⟦{訴|うった}える→訴える：01891_uttaeru⟧: to call for abolition\n- {廃絶|はいぜつ}⟦を→を：00422_wo⟧⟦{目指|めざ}す→目指す：10528_mezasu⟧: to aim at eradication\n\nSIMILAR WORDS:\n- ⟦{廃止|はいし}→廃止：12483_haishi⟧: abolition (of a system or rule) — repealing laws, institutions, or services\n- ⟦{撲滅|ぼくめつ}→撲滅：19614_bokumetsu⟧: eradication; stamping out — campaigning to wipe out crime, disease, or evils",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12483_haishi",
+      "reading": "はいし",
+      "headword": "{廃止|はいし}",
+      "label": "abolition"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19614_bokumetsu",
+      "reading": "ぼくめつ",
+      "headword": "{撲滅|ぼくめつ}",
+      "label": "eradication"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,7 +78,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-27T02:07:43Z",
-    "modified": "2026-05-27T02:07:43Z"
+    "modified": "2026-09-02T04:02:32Z"
   },
   "conjugation": {
     "type": "suru",

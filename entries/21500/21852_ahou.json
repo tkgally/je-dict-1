@@ -3,8 +3,24 @@
   "id": "21852_ahou",
   "headword": "{阿呆|あほう}",
   "reading": "あほう",
-  "part_of_speech": "noun, adjective-na",
+  "part_of_speech": "noun, na-adjective",
   "gloss": "fool; idiot; stupid",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03574_baka",
+      "reading": "ばか",
+      "headword": "{馬鹿|ばか}",
+      "label": "fool, idiot"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14572_manuke",
+      "reading": "まぬけ",
+      "headword": "{間抜|まぬ}け",
+      "label": "dunce, blockhead"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -12,15 +28,16 @@
         "noun",
         "adjective-na"
       ],
+      "politeness": "plain",
       "semantic": [
         "person",
         "evaluation"
       ]
     },
     "created": "2026-04-03T19:21:58Z",
-    "modified": "2026-07-29T12:35:11Z"
+    "modified": "2026-09-02T04:02:05Z"
   },
-  "notes": "Often shortened to アホ or あほ in casual speech, especially in the Kansai dialect. In western Japan (Kansai), あほ is the standard insult equivalent to {馬鹿|ばか} in eastern Japan (Kanto). In Kansai, あほ can be affectionate or teasing, while {馬鹿|ばか} sounds harsher. This relationship is reversed in Kanto.\n\nCOMMON COLLOCATIONS:\n- {阿呆|あほう}らしい: absurd, ridiculous\n- {阿呆|あほう}な{真似|まね}: foolish behavior\n- {阿呆|あほう}{面|づら}: stupid face\n- {大|おお}{阿呆|あほう}: big fool\n\nREGISTER:\nInformal. Can range from harshly insulting to affectionately teasing depending on context, tone, and regional dialect. The abbreviated form アホ is more casual.\n\nSIMILAR WORDS:\n- {馬鹿|ばか}: fool, idiot — the standard equivalent in eastern Japan; harsher in Kansai\n- {間抜|まぬ}け: dunce, blockhead — emphasizes cluelessness or poor timing",
+  "notes": "Often shortened to ⟦アホ→アホ：10703_aho⟧ or ⟦あほ→アホ：10703_aho⟧ in casual speech, especially in the Kansai dialect. In western Japan (Kansai), ⟦あほ→アホ：10703_aho⟧ is the standard insult equivalent to ⟦{馬鹿|ばか}→馬鹿：03574_baka⟧ in eastern Japan (Kanto). In Kansai, ⟦あほ→アホ：10703_aho⟧ can be affectionate or teasing, while ⟦{馬鹿|ばか}→馬鹿：03574_baka⟧ sounds harsher. This relationship is reversed in Kanto.\n\nCOMMON COLLOCATIONS:\n- {阿呆|あほう}らしい: absurd, ridiculous\n- {阿呆|あほう}な⟦{真似|まね}→真似：03736_mane⟧: foolish behavior\n- {阿呆|あほう}{面|づら}: stupid face\n- {大|おお}{阿呆|あほう}: big fool\n\nREGISTER:\nInformal. Can range from harshly insulting to affectionately teasing depending on context, tone, and regional dialect. The abbreviated form ⟦アホ→アホ：10703_aho⟧ is more casual.\n\nSIMILAR WORDS:\n- ⟦{馬鹿|ばか}→馬鹿：03574_baka⟧: fool, idiot — the standard equivalent in eastern Japan; harsher in Kansai\n- ⟦{間抜|まぬ}け→間抜け：14572_manuke⟧: dunce, blockhead — emphasizes cluelessness or poor timing",
   "definitions": [
     {
       "sense_number": 1,
@@ -31,7 +48,7 @@
   "examples": [
     {
       "id": "21852_ahou_ex1",
-      "japanese": "あんな{阿呆|あほう}な{話|はなし}はない。",
+      "japanese": "⟦あんな→あんな：01574_anna⟧{阿呆|あほう}な⟦{話|はなし}→話：01496_hanashi⟧⟦は→は：00079_ha⟧⟦ない→ない：01118_nai⟧。",
       "english": "There's no story as stupid as that.",
       "sense_numbers": [
         1
@@ -41,7 +58,7 @@
     },
     {
       "id": "21852_ahou_ex2",
-      "japanese": "{阿呆|あほう}なことを{言|い}うな。",
+      "japanese": "{阿呆|あほう}なこと⟦を→を：00422_wo⟧⟦{言|い}う→言う：00515_iu⟧な。",
       "english": "Don't say stupid things.",
       "sense_numbers": [
         1
@@ -51,7 +68,7 @@
     },
     {
       "id": "21852_ahou_ex3",
-      "japanese": "{彼|かれ}は{阿呆|あほう}みたいに{笑|わら}っていた。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{阿呆|あほう}⟦みたい→みたい：10755_mitai⟧⟦に→に：00314_ni⟧⟦{笑|わら}っていた→笑う：00685_warau⟧。",
       "english": "He was laughing like a fool.",
       "sense_numbers": [
         1
@@ -61,7 +78,7 @@
     },
     {
       "id": "21852_ahou_ex4",
-      "japanese": "そんなことも{知|し}らないのか、この{阿呆|あほう}。",
+      "japanese": "⟦そんな→そんな：01645_sonna⟧こと⟦も→も：00484_mo⟧⟦{知|し}らない→知る：00458_shiru⟧⟦の→の：09472_no⟧⟦か→か：09473_ka⟧、⟦この→この：00962_kono⟧{阿呆|あほう}。",
       "english": "You don't even know that? You fool.",
       "sense_numbers": [
         1

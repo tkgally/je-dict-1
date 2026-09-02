@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21929_chintsuuyaku_ex1",
-      "japanese": "{鎮痛薬|ちんつうやく}を{飲|の}んだ。",
+      "japanese": "{鎮痛薬|ちんつうやく}⟦を→を：00422_wo⟧⟦{飲|の}んだ→飲む：00322_nomu⟧。",
       "english": "I took a painkiller.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21929_chintsuuyaku_ex2",
-      "japanese": "{頭痛|ずつう}がひどいので{鎮痛薬|ちんつうやく}をください。",
+      "japanese": "⟦{頭痛|ずつう}→頭痛：03369_zutsuu⟧⟦が→が：00051_ga⟧⟦ひどい→ひどい：01097_hidoi⟧⟦の→の：09472_no⟧で{鎮痛薬|ちんつうやく}⟦を→を：00422_wo⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "I have a bad headache, so please give me some painkillers.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21929_chintsuuyaku_ex3",
-      "japanese": "{鎮痛薬|ちんつうやく}の{飲|の}みすぎは{胃|い}に{負担|ふたん}がかかるので{注意|ちゅうい}が{必要|ひつよう}だ。",
+      "japanese": "{鎮痛薬|ちんつうやく}⟦の→の：09472_no⟧⟦{飲|の}みすぎ→飲みすぎ：22059_nomisugi⟧⟦は→は：00079_ha⟧⟦{胃|い}→胃：01706_i⟧⟦に→に：00314_ni⟧⟦{負担|ふたん}→負担：09752_futan⟧⟦が→が：00051_ga⟧⟦かかる→かかる：00711_kakaru⟧⟦の→の：09472_no⟧で⟦{注意|ちゅうい}→注意：01464_chuui⟧⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧だ。",
       "english": "Taking too many painkillers puts a strain on the stomach, so caution is needed.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {鎮痛|ちんつう} (pain relief) and {薬|やく} (medicine). This is the standard medical/formal term for painkillers.\n\nCOMMON COLLOCATIONS:\n- {鎮痛薬|ちんつうやく}を{服用|ふくよう}する: to take painkillers (formal)\n- {鎮痛薬|ちんつうやく}を{処方|しょほう}する: to prescribe painkillers\n- {市販|しはん}の{鎮痛薬|ちんつうやく}: over-the-counter painkillers\n\nSIMILAR WORDS:\n- {鎮痛剤|ちんつうざい}: painkiller — virtually synonymous; {剤|ざい} and {薬|やく} are interchangeable here\n- {痛|いた}み{止|ど}め: painkiller — the everyday, colloquial term most commonly used in conversation\n\nNOTE:\nIn casual speech, {痛|いた}み{止|ど}め is far more common. {鎮痛薬|ちんつうやく} tends to appear in medical contexts, product packaging, and written materials.",
+  "notes": "A compound of ⟦{鎮痛|ちんつう}→鎮痛：14515_chintsuu⟧ (pain relief) and {薬|やく} (medicine). This is the standard medical/formal term for painkillers.\n\nCOMMON COLLOCATIONS:\n- {鎮痛薬|ちんつうやく}⟦を→を：00422_wo⟧⟦{服用|ふくよう}する→服用する：21605_fukuyousuru⟧: to take painkillers (formal)\n- {鎮痛薬|ちんつうやく}⟦を→を：00422_wo⟧⟦{処方|しょほう}→処方：05976_shohou⟧⟦する→する：00392_suru⟧: to prescribe painkillers\n- ⟦{市販|しはん}→市販：12424_shihan⟧⟦の→の：09472_no⟧{鎮痛薬|ちんつうやく}: over-the-counter painkillers\n\nSIMILAR WORDS:\n- ⟦{鎮痛剤|ちんつうざい}→鎮痛剤：15451_chintsuuzai⟧: painkiller — virtually synonymous; ⟦{剤|ざい}→〜剤：30790_zai⟧ and {薬|やく} are interchangeable here\n- ⟦{痛|いた}み{止|ど}め→痛み止め：23497_itamidome⟧: painkiller — the everyday, colloquial term most commonly used in conversation\n\nUSAGE:\nIn casual speech, ⟦{痛|いた}み{止|ど}め→痛み止め：23497_itamidome⟧ is far more common. {鎮痛薬|ちんつうやく} tends to appear in medical contexts, product packaging, and written materials.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15451_chintsuuzai",
+      "reading": "ちんつうざい",
+      "headword": "{鎮痛剤|ちんつうざい}",
+      "label": "painkiller"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23497_itamidome",
+      "reading": "いたみどめ",
+      "headword": "{痛|いた}み{止|ど}め",
+      "label": "painkiller"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +75,6 @@
       ]
     },
     "created": "2026-04-03T22:08:17Z",
-    "modified": "2026-07-30T03:35:34Z"
+    "modified": "2026-09-02T04:02:05Z"
   }
 }

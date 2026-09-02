@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "14531_touki_ex1",
-      "japanese": "この{陶器|とうき}は{手作|てづく}りだ。",
+      "japanese": "⟦この→この：00962_kono⟧{陶器|とうき}⟦は→は：00079_ha⟧⟦{手作|てづく}り→手作り：08300_tezukuri⟧だ。",
       "english": "This pottery is handmade.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "14531_touki_ex2",
-      "japanese": "{陶器|とうき}{市|いち}で{気|き}に{入|い}った{茶碗|ちゃわん}を{買|か}った。",
+      "japanese": "{陶器|とうき}{市|いち}⟦で→で：00502_de⟧⟦{気|き}に{入|い}った→気に入る：02047_kiniiru⟧⟦{茶碗|ちゃわん}→茶碗：01019_chawan⟧⟦を→を：00422_wo⟧⟦{買|か}った→買う：00489_kau⟧。",
       "english": "I bought a rice bowl I liked at the pottery market.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "14531_touki_ex3",
-      "japanese": "{日本|にほん}には{有田焼|ありたやき}や{備前焼|びぜんやき}など{有名|ゆうめい}な{陶器|とうき}の{産地|さんち}がたくさんある。",
+      "japanese": "⟦{日本|にほん}→日本：03876_nihon⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{有田焼|ありたやき}→有田焼：28604_aritayaki⟧や{備前焼|びぜんやき}⟦など→〜など：03095_nado⟧⟦{有名|ゆうめい}→有名：01106_yuumei⟧な{陶器|とうき}⟦の→の：09472_no⟧⟦{産地|さんち}→産地：04031_sanchi⟧⟦が→が：00051_ga⟧⟦たくさん→たくさん：00597_takusan⟧⟦ある→ある：00006_aru⟧。",
       "english": "Japan has many famous pottery production areas, such as Arita ware and Bizen ware.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "Compound of {陶|とう} (pottery/clay) + {器|き} (vessel/utensil).\n\nStrictly speaking, {陶器|とうき} (earthenware) and {磁器|じき} (porcelain) are different: {陶器|とうき} is fired at lower temperatures and has a warmer, rougher texture, while {磁器|じき} is fired at higher temperatures and is smooth and translucent. Together they are called {陶磁器|とうじき}.\n\nCOMMON COLLOCATIONS:\n- {陶器|とうき}{市|いち} (pottery market/fair)\n- {陶器|とうき}の{皿|さら} (ceramic plate)\n- {陶器|とうき}を{焼|や}く (to fire pottery)\n\nFamous Japanese pottery styles include {有田焼|ありたやき}, {瀬戸焼|せとやき}, {備前焼|びぜんやき}, and {益子焼|ましこやき}.",
+  "notes": "Compound of {陶|とう} (pottery/clay) + {器|き} (vessel/utensil).\n\nStrictly speaking, {陶器|とうき} (earthenware) and ⟦{磁器|じき}→磁器：03335_jiki⟧ (porcelain) are different: {陶器|とうき} is fired at lower temperatures and has a warmer, rougher texture, while ⟦{磁器|じき}→磁器：03335_jiki⟧ is fired at higher temperatures and is smooth and translucent. Together they are called ⟦{陶磁器|とうじき}→陶磁器：15698_toujiki⟧.\n\nCOMMON COLLOCATIONS:\n- {陶器|とうき}{市|いち} (pottery market/fair)\n- {陶器|とうき}⟦の→の：09472_no⟧⟦{皿|さら}→皿：00883_sara⟧ (ceramic plate)\n- {陶器|とうき}⟦を→を：00422_wo⟧⟦{焼|や}く→焼く：01123_yaku⟧ (to fire pottery)\n\nFamous Japanese pottery styles include ⟦{有田焼|ありたやき}→有田焼：28604_aritayaki⟧, {瀬戸焼|せとやき}, {備前焼|びぜんやき}, and {益子焼|ましこやき}.",
   "cross_references": [
     {
       "type": "contrast",
@@ -52,11 +52,46 @@
       "reading": "じき",
       "headword": "{磁器|じき}",
       "label": "porcelain (higher temperature)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09658_doki",
+      "reading": "どき",
+      "headword": "{土器|どき}",
+      "label": "earthenware"
+    },
+    {
+      "type": "related",
+      "target_id": "20904_tougeika",
+      "reading": "とうげいか",
+      "headword": "{陶芸家|とうげいか}",
+      "label": "ceramist"
+    },
+    {
+      "type": "related",
+      "target_id": "23335_yuuyaku",
+      "reading": "ゆうやく",
+      "headword": "{釉薬|ゆうやく}",
+      "label": "glaze (ceramics)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26107_washokki",
+      "reading": "わしょっき",
+      "headword": "{和食器|わしょっき}",
+      "label": "Japanese-style tableware"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30769_seramikku",
+      "reading": "せらみっく",
+      "headword": "セラミック",
+      "label": "ceramic"
     }
   ],
   "metadata": {
     "created": "2026-03-02T06:04:23Z",
-    "modified": "2026-08-30T00:22:01Z",
+    "modified": "2026-09-02T04:01:37Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

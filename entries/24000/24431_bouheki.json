@@ -16,7 +16,7 @@
   "examples": [
     {
       "id": "24431_bouheki_ex1",
-      "japanese": "{城|しろ}の{周|まわ}りに{防壁|ぼうへき}が{築|きず}かれた。",
+      "japanese": "⟦{城|しろ}→城：03255_shiro⟧⟦の→の：09472_no⟧⟦{周|まわ}り→周り：01732_mawari⟧⟦に→に：00314_ni⟧{防壁|ぼうへき}⟦が→が：00051_ga⟧⟦{築|きず}かれた→築く：02046_kizuku⟧。",
       "english": "A defensive wall was built around the castle.",
       "sense_numbers": [
         1
@@ -26,7 +26,7 @@
     },
     {
       "id": "24431_bouheki_ex2",
-      "japanese": "ウイルスに{対|たい}する{防壁|ぼうへき}を{強化|きょうか}する。",
+      "japanese": "⟦ウイルス→ウイルス：05223_uirusu⟧⟦に→に：00314_ni⟧⟦{対|たい}する→対する：02126_taisuru⟧{防壁|ぼうへき}⟦を→を：00422_wo⟧⟦{強化|きょうか}する→強化する：25344_kyoukasuru⟧。",
       "english": "To strengthen the barrier against viruses.",
       "sense_numbers": [
         1
@@ -36,7 +36,7 @@
     },
     {
       "id": "24431_bouheki_ex3",
-      "japanese": "{言葉|ことば}の{壁|かべ}は{異文化|いぶんか}{理解|りかい}の{大|おお}きな{防壁|ぼうへき}となっている。",
+      "japanese": "⟦{言葉|ことば}→言葉：02880_kotoba⟧⟦の→の：09472_no⟧⟦{壁|かべ}→壁：01290_kabe⟧⟦は→は：00079_ha⟧⟦{異文化|いぶんか}→異文化：15703_ibunka⟧⟦{理解|りかい}→理解：03674_rikai⟧⟦の→の：09472_no⟧⟦{大|おお}きな→大きな：02849_ookina⟧{防壁|ぼうへき}⟦と→と：00512_to⟧⟦なっている→なる：01970_naru⟧。",
       "english": "The language barrier has become a major obstacle to cross-cultural understanding.",
       "sense_numbers": [
         1
@@ -45,18 +45,56 @@
       "notes": null
     }
   ],
-  "notes": "A wall or barrier constructed for defensive purposes. Used literally for physical fortifications and figuratively for anything that serves as a protective or obstructive barrier. More formal and literary than the everyday word {壁|かべ}.\n\nCOMMON COLLOCATIONS:\n- {防壁|ぼうへき}を{築|きず}く: to build a defensive wall\n- {防壁|ぼうへき}を{破|やぶ}る: to break through a barrier\n- {防壁|ぼうへき}を{強化|きょうか}する: to strengthen a barrier\n\nSIMILAR WORDS:\n- {壁|かべ}: wall — general everyday word for any wall\n- {城壁|じょうへき}: castle wall — specifically fortification walls of a castle\n- {障壁|しょうへき}: barrier/obstacle — emphasizes the obstructive quality, often used figuratively for trade barriers and the like\n- {堤防|ていぼう}: embankment/levee — specifically for flood protection",
+  "notes": "A wall or barrier constructed for defensive purposes. Used literally for physical fortifications and figuratively for anything that serves as a protective or obstructive barrier. More formal and literary than the everyday word ⟦{壁|かべ}→壁：01290_kabe⟧.\n\nCOMMON COLLOCATIONS:\n- {防壁|ぼうへき}⟦を→を：00422_wo⟧⟦{築|きず}く→築く：02046_kizuku⟧: to build a defensive wall\n- {防壁|ぼうへき}⟦を→を：00422_wo⟧⟦{破|やぶ}る→破る：02321_yaburu⟧: to break through a barrier\n- {防壁|ぼうへき}⟦を→を：00422_wo⟧⟦{強化|きょうか}する→強化する：25344_kyoukasuru⟧: to strengthen a barrier\n\nSIMILAR WORDS:\n- ⟦{壁|かべ}→壁：01290_kabe⟧: wall — general everyday word for any wall\n- ⟦{城壁|じょうへき}→城壁：21582_jouheki⟧: castle wall — specifically fortification walls of a castle\n- ⟦{障壁|しょうへき}→障壁：14536_shouheki⟧: barrier/obstacle — emphasizes the obstructive quality, often used figuratively for trade barriers and the like\n- ⟦{堤防|ていぼう}→堤防：19409_teibou⟧: embankment/levee — specifically for flood protection",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21582_jouheki",
+      "reading": "じょうへき",
+      "headword": "{城壁|じょうへき}",
+      "label": "castle wall"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14536_shouheki",
+      "reading": "しょうへき",
+      "headword": "{障壁|しょうへき}",
+      "label": "barrier/obstacle"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19409_teibou",
+      "reading": "ていぼう",
+      "headword": "{堤防|ていぼう}",
+      "label": "embankment/levee"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23296_bougoheki",
+      "reading": "ぼうごへき",
+      "headword": "{防護壁|ぼうごへき}",
+      "label": "protective wall"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26465_bouhei",
+      "reading": "ぼうへい",
+      "headword": "{防塀|ぼうへい}",
+      "label": "protective wall"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "building"
       ]
     },
     "created": "2026-04-19T10:06:07Z",
-    "modified": "2026-08-02T18:32:34Z"
+    "modified": "2026-09-02T04:02:18Z"
   }
 }

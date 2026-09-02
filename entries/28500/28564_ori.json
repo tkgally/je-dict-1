@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28564_ori_ex1",
-      "japanese": "ライオンが{檻|おり}の{中|なか}で{寝|ね}ている。",
+      "japanese": "⟦ライオン→ライオン：05197_raion⟧⟦が→が：00051_ga⟧{檻|おり}⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧⟦で→で：00502_de⟧⟦{寝|ね}ている→寝る：00470_neru⟧。",
       "english": "The lion is sleeping inside the cage.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28564_ori_ex2",
-      "japanese": "{動物園|どうぶつえん}の{檻|おり}が{古|ふる}くなったので{建|た}て{直|なお}した。",
+      "japanese": "⟦{動物園|どうぶつえん}→動物園：01686_doubutsuen⟧⟦の→の：09472_no⟧{檻|おり}⟦が→が：00051_ga⟧⟦{古|ふる}く→古い：00488_furui⟧⟦なった→なる：01970_naru⟧⟦の→の：09472_no⟧で⟦{建|た}て{直|なお}した→建て直す：16185_tatenaosu⟧。",
       "english": "The zoo's cages had gotten old, so they were rebuilt.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28564_ori_ex3",
-      "japanese": "{彼|かれ}は{自分|じぶん}の{部屋|へや}にこもりきりで、まるで{自分|じぶん}で{作|つく}った{檻|おり}に{閉|と}じ{込|こ}められているようだった。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{自分|じぶん}→自分：02887_jibun⟧⟦の→の：09472_no⟧⟦{部屋|へや}→部屋：00507_heya⟧⟦に→に：00314_ni⟧こもりきりで、⟦まるで→まるで：03739_marude⟧⟦{自分|じぶん}→自分：02887_jibun⟧⟦で→で：00502_de⟧⟦{作|つく}った→作る：00481_tsukuru⟧{檻|おり}⟦に→に：00314_ni⟧⟦{閉|と}じ{込|こ}められている→閉じ込める：14560_tojikomeru⟧ようだった。",
       "english": "He shut himself in his room, as if trapped in a cage of his own making.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Used for any kind of barred or wire enclosure — zoo cages, animal kennels, and metaphorically for any kind of confinement.\n\nCOMMON COLLOCATIONS:\n- {檻|おり}に{入|い}れる: to put into a cage\n- {檻|おり}から{出|だ}す: to let out of a cage\n- {鉄|てつ}の{檻|おり}: iron cage\n- {檻|おり}の{中|なか}: inside the cage\n\nSIMILAR WORDS:\n- ケージ: cage — gairaigo, used for small pet cages (rabbits, hamsters, birds)\n- {籠|かご}: basket, birdcage — bamboo or wicker, used for small birds and baskets\n- {柵|さく}: fence — open boundary, not an enclosure\n\nHOMOPHONE:\n- {折|おり} (10250): occasion, time, opportunity — completely different word",
+  "notes": "Used for any kind of barred or wire enclosure — zoo cages, animal kennels, and metaphorically for any kind of confinement.\n\nCOMMON COLLOCATIONS:\n- {檻|おり}⟦に→に：00314_ni⟧⟦{入|い}れる→入れる：01098_ireru⟧: to put into a cage\n- {檻|おり}⟦から→から：00504_kara⟧⟦{出|だ}す→出す：01087_dasu⟧: to let out of a cage\n- ⟦{鉄|てつ}→鉄：02225_tetsu⟧⟦の→の：09472_no⟧{檻|おり}: iron cage\n- {檻|おり}⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧: inside the cage\n\nSIMILAR WORDS:\n- ケージ: cage — gairaigo, used for small pet cages (rabbits, hamsters, birds)\n- ⟦{籠|かご}→籠：02577_kago⟧: basket, birdcage — bamboo or wicker, used for small birds and baskets\n- ⟦{柵|さく}→柵：13103_saku⟧: fence — open boundary, not an enclosure\n\nWATCH OUT:\n- ⟦{折|おり}→折：10250_ori⟧ (10250): occasion, time, opportunity — completely different word",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02577_kago",
+      "reading": "かご",
+      "headword": "{籠|かご}",
+      "label": "basket, birdcage"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13103_saku",
+      "reading": "さく",
+      "headword": "{柵|さく}",
+      "label": "fence"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +69,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "tool"
       ],
       "domain": []
     },
     "created": "2026-06-02T02:07:31Z",
-    "modified": "2026-08-08T18:34:17Z"
+    "modified": "2026-09-02T04:02:34Z"
   }
 }

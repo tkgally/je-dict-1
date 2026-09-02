@@ -15,40 +15,73 @@
   "examples": [
     {
       "id": "21466_heikinten_ex1",
-      "japanese": "{平均点|へいきんてん}は65{点|てん}だった。",
+      "japanese": "{平均点|へいきんてん}⟦は→は：00079_ha⟧65⟦{点|てん}→点：01553_ten⟧だった。",
       "english": "The average score was 65 points.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21466_heikinten_ex2",
-      "japanese": "{今回|こんかい}のテストは{平均点|へいきんてん}が{低|ひく}かった。",
+      "japanese": "⟦{今回|こんかい}→今回：01409_konkai⟧⟦の→の：09472_no⟧⟦テスト→テスト：01065_tesuto⟧⟦は→は：00079_ha⟧{平均点|へいきんてん}⟦が→が：00051_ga⟧⟦{低|ひく}かった→低い：02947_hikui⟧。",
       "english": "The average score on this test was low.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21466_heikinten_ex3",
-      "japanese": "{数学|すうがく}の{平均点|へいきんてん}を{上回|うわまわ}ったので、{少|すこ}し{安心|あんしん}した。",
+      "japanese": "⟦{数学|すうがく}→数学：01442_suugaku⟧⟦の→の：09472_no⟧{平均点|へいきんてん}⟦を→を：00422_wo⟧⟦{上回|うわまわ}った→上回る：07648_uwamawaru⟧⟦の→の：09472_no⟧で、⟦{少|すこ}し→少し：00596_sukoshi⟧⟦{安心|あんしん}した→安心する：06067_anshinsuru⟧。",
       "english": "I was a bit relieved to have scored above the average in math.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {平均|へいきん} (average) and {点|てん} (point, score). One of the most commonly used academic terms in Japan, where test scores and averages are frequently discussed.\n\nUSAGE:\n{平均点|へいきんてん}を{取|と}る means \"to get the average score,\" while {平均点|へいきんてん}を{上回|うわまわ}る / {下回|したまわ}る means \"to score above / below the average.\"\n\nCOMMON COLLOCATIONS:\n- {平均点|へいきんてん}を{上回|うわまわ}る: to score above average\n- {平均点|へいきんてん}を{下回|したまわ}る: to score below average\n- {平均点|へいきんてん}が{高|たか}い: the average is high\n- {平均点|へいきんてん}が{低|ひく}い: the average is low\n- クラスの{平均点|へいきんてん}: the class average\n\nSIMILAR WORDS:\n- {平均|へいきん}: average — the general term for average, not limited to scores\n- {偏差値|へんさち}: standard score, deviation score — a statistical measure widely used in Japanese education to rank students\n- {合格|ごうかく}{点|てん}: passing score — the minimum score needed to pass",
+  "notes": "A compound of ⟦{平均|へいきん}→平均：03614_heikin⟧ (average) and ⟦{点|てん}→点：01553_ten⟧ (point, score). One of the most commonly used academic terms in Japan, where test scores and averages are frequently discussed.\n\nUSAGE:\n{平均点|へいきんてん}⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧ means \"to get the average score,\" while {平均点|へいきんてん}⟦を→を：00422_wo⟧⟦{上回|うわまわ}る→上回る：07648_uwamawaru⟧ / ⟦{下回|したまわ}る→下回る：07649_shitamawaru⟧ means \"to score above / below the average.\"\n\nCOMMON COLLOCATIONS:\n- {平均点|へいきんてん}⟦を→を：00422_wo⟧⟦{上回|うわまわ}る→上回る：07648_uwamawaru⟧: to score above average\n- {平均点|へいきんてん}⟦を→を：00422_wo⟧⟦{下回|したまわ}る→下回る：07649_shitamawaru⟧: to score below average\n- {平均点|へいきんてん}⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧: the average is high\n- {平均点|へいきんてん}⟦が→が：00051_ga⟧⟦{低|ひく}い→低い：02947_hikui⟧: the average is low\n- ⟦クラス→クラス：01084_kurasu⟧⟦の→の：09472_no⟧{平均点|へいきんてん}: the class average\n\nSIMILAR WORDS:\n- ⟦{平均|へいきん}→平均：03614_heikin⟧: average — the general term for average, not limited to scores\n- ⟦{偏差値|へんさち}→偏差値：08553_hensachi⟧: standard score, deviation score — a statistical measure widely used in Japanese education to rank students\n- ⟦{合格|ごうかく}{点|てん}→合格点：25967_goukakuten⟧: passing score — the minimum score needed to pass",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08553_hensachi",
+      "reading": "へんさち",
+      "headword": "{偏差値|へんさち}",
+      "label": "standard score, deviation score"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25967_goukakuten",
+      "reading": "ごうかくてん",
+      "headword": "{合格点|ごうかくてん}",
+      "label": "passing score"
+    },
+    {
+      "type": "related",
+      "target_id": "03156_manten",
+      "reading": "まんてん",
+      "headword": "{満点|まんてん}",
+      "label": "perfect score, full marks"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["education"]
+      "semantic": [
+        "education"
+      ]
     },
     "created": "2026-04-02T04:12:59Z",
-    "modified": "2026-04-02T04:12:59Z"
+    "modified": "2026-09-02T04:02:03Z"
   }
 }

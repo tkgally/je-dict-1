@@ -3,7 +3,7 @@
   "headword": "{納得|なっとく}する",
   "reading": "なっとくする",
   "romaji": "nattoku suru",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "to be convinced; to accept; to understand and agree",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26805_nattokusuru_ex1",
-      "japanese": "{説明|せつめい}を{聞|き}いて{納得|なっとく}した。",
+      "japanese": "⟦{説明|せつめい}→説明：01449_setsumei⟧⟦を→を：00422_wo⟧⟦{聞|き}いて→聞く：00483_kiku⟧{納得|なっとく}した。",
       "english": "I was convinced after hearing the explanation.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26805_nattokusuru_ex2",
-      "japanese": "{彼|かれ}はなかなか{納得|なっとく}してくれない。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦なかなか→なかなか：01547_nakanaka⟧{納得|なっとく}して⟦くれない→くれる：00724_kureru⟧。",
       "english": "He won't easily accept it.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26805_nattokusuru_ex3",
-      "japanese": "{何度|なんど}{話|はな}し{合|あ}っても、お{互|たが}いに{納得|なっとく}できる{答|こた}えが{見|み}つからなかった。",
+      "japanese": "⟦{何度|なんど}→何度：17592_nando⟧⟦{話|はな}し{合|あ}って→話し合う：02396_hanashiau⟧⟦も→も：00484_mo⟧、⟦お{互|たが}い→お互い：00336_otagai⟧⟦に→に：00314_ni⟧{納得|なっとく}できる⟦{答|こた}え→答え：00790_kotae⟧⟦が→が：00051_ga⟧⟦{見|み}つからなかった→見つかる：01173_mitsukaru⟧。",
       "english": "No matter how many times we discussed it, we couldn't find an answer both of us could accept.",
       "sense_numbers": [
         1
@@ -44,8 +44,65 @@
       "notes": null
     }
   ],
-  "notes": "Implies genuine internal acceptance rather than mere surface agreement. When someone {納得|なっとく}する, they truly understand and are satisfied with the reasoning. Often used in negative or conditional forms to express difficulty in accepting something.\n\nCOMMON COLLOCATIONS:\n- {納得|なっとく}がいく: to make sense, to be satisfying\n- {納得|なっとく}できない: cannot accept, unacceptable\n- {納得|なっとく}のいく{説明|せつめい}: a satisfactory explanation\n- {納得|なっとく}させる: to convince someone\n- {納得|なっとく}{済|ず}み: fully understood and agreed\n\nSIMILAR WORDS:\n- {理解|りかい}する: to understand — purely intellectual comprehension without implying acceptance\n- {了承|りょうしょう}する: to consent — formal agreement, often without emotional satisfaction\n- {同意|どうい}する: to agree — states agreement but not necessarily deep understanding\n\nUSAGE:\n{納得|なっとく}がいく and {納得|なっとく}できる are extremely common in everyday conversation. Japanese communication often aims for mutual {納得|なっとく} rather than one-sided persuasion.",
-  "cross_references": [],
+  "notes": "Implies genuine internal acceptance rather than mere surface agreement. When someone {納得|なっとく}する, they truly understand and are satisfied with the reasoning. Often used in negative or conditional forms to express difficulty in accepting something.\n\nCOMMON COLLOCATIONS:\n- ⟦{納得|なっとく}がいく→納得がいく：22296_nattokugaiku⟧: to make sense, to be satisfying\n- {納得|なっとく}できない: cannot accept, unacceptable\n- ⟦{納得|なっとく}→納得：03507_nattoku⟧⟦の→の：09472_no⟧いく⟦{説明|せつめい}→説明：01449_setsumei⟧: a satisfactory explanation\n- {納得|なっとく}させる: to convince someone\n- ⟦{納得|なっとく}→納得：03507_nattoku⟧⟦{済|ず}み→〜済み：04013_zumi⟧: fully understood and agreed\n\nSIMILAR WORDS:\n- ⟦{理解|りかい}する→理解する：06059_rikaisuru⟧: to understand — purely intellectual comprehension without implying acceptance\n- ⟦{了承|りょうしょう}する→了承する：20062_ryoushousuru⟧: to consent — formal agreement, often without emotional satisfaction\n- ⟦{同意|どうい}する→同意する：06056_douisuru⟧: to agree — states agreement but not necessarily deep understanding\n\nUSAGE:\n⟦{納得|なっとく}がいく→納得がいく：22296_nattokugaiku⟧ and {納得|なっとく}できる are extremely common in everyday conversation. Japanese communication often aims for mutual ⟦{納得|なっとく}→納得：03507_nattoku⟧ rather than one-sided persuasion.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06059_rikaisuru",
+      "reading": "りかいする",
+      "headword": "{理解|りかい}する",
+      "label": "to understand"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20062_ryoushousuru",
+      "reading": "りょうしょうする",
+      "headword": "{了承|りょうしょう}する",
+      "label": "to consent"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06056_douisuru",
+      "reading": "どういする",
+      "headword": "{同意|どうい}する",
+      "label": "to agree"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21992_ryoukaisuru",
+      "reading": "りょうかいする",
+      "headword": "{了解|りょうかい}する",
+      "label": "to understand"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22296_nattokugaiku",
+      "reading": "なっとくがいく",
+      "headword": "{納得|なっとく}がいく",
+      "label": "to be convinced"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22617_manzokusuru",
+      "reading": "まんぞくする",
+      "headword": "{満足|まんぞく}する",
+      "label": "to be satisfied"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22798_nattokusaseru",
+      "reading": "なっとくさせる",
+      "headword": "{納得|なっとく}させる",
+      "label": "to convince"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25847_kigasumu",
+      "reading": "きがすむ",
+      "headword": "{気|き}が{済|す}む",
+      "label": "to be satisfied"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -63,7 +120,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-05T12:07:35Z",
-    "modified": "2026-05-05T12:07:35Z"
+    "modified": "2026-09-02T04:02:27Z"
   },
   "conjugation": {
     "type": "suru",

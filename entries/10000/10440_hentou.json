@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "10440_hentou_ex1",
-      "japanese": "{返答|へんとう}に{困|こま}る。",
+      "japanese": "{返答|へんとう}⟦に→に：00314_ni⟧⟦{困|こま}る→困る：00861_komaru⟧。",
       "english": "To be at a loss for a reply.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "10440_hentou_ex2",
-      "japanese": "{質問|しつもん}に{対|たい}して{明確|めいかく}な{返答|へんとう}をした。",
+      "japanese": "⟦{質問|しつもん}→質問：00888_shitsumon⟧⟦に{対|たい}して→に対して：06800_nitaishite⟧⟦{明確|めいかく}→明確：01664_meikaku⟧な{返答|へんとう}⟦を→を：00422_wo⟧⟦した→する：00392_suru⟧。",
       "english": "I gave a clear reply to the question.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "10440_hentou_ex3",
-      "japanese": "すぐに{返答|へんとう}できないので、{少|すこ}し{時間|じかん}をいただけますか。",
+      "japanese": "⟦すぐ→すぐ：00814_sugu⟧⟦に→に：00314_ni⟧{返答|へんとう}⟦できない→できる：00557_dekiru⟧⟦の→の：09472_no⟧で、⟦{少|すこ}し→少し：00596_sukoshi⟧⟦{時間|じかん}→時間：00468_jikan⟧⟦を→を：00422_wo⟧⟦いただけます→いただく：01326_itadaku⟧⟦か→か：09473_ka⟧。",
       "english": "I can't reply immediately, so could I have a little time?",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "{返答|へんとう} is composed of {返|へん} (return) + {答|とう} (answer).\n\nCOMMON COLLOCATIONS:\n- {返答|へんとう}する: to reply\n- {返答|へんとう}に{困|こま}る: to be stuck for a reply\n- {返答|へんとう}を{待|ま}つ: to wait for a reply\n\nSIMILAR WORDS:\n- {返答|へんとう}: reply (somewhat formal, to questions or requests)\n- {返事|へんじ}: reply (everyday, general response)\n- {回答|かいとう}: answer (formal, to surveys, official questions)",
+  "notes": "{返答|へんとう} is composed of {返|へん} (return) + {答|とう} (answer).\n\nCOMMON COLLOCATIONS:\n- {返答|へんとう}⟦する→する：00392_suru⟧: to reply\n- {返答|へんとう}⟦に→に：00314_ni⟧⟦{困|こま}る→困る：00861_komaru⟧: to be stuck for a reply\n- {返答|へんとう}⟦を→を：00422_wo⟧⟦{待|ま}つ→待つ：00469_matsu⟧: to wait for a reply\n\nSIMILAR WORDS:\n- {返答|へんとう}: reply (somewhat formal, to questions or requests)\n- ⟦{返事|へんじ}→返事：00844_henji⟧: reply (everyday, general response)\n- ⟦{回答|かいとう}→回答：00142_kaitou⟧: answer (formal, to surveys, official questions)",
   "cross_references": [
     {
       "type": "synonym",
@@ -149,11 +149,25 @@
       "reading": "こたえ",
       "headword": "{答|こた}え",
       "label": "answer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00142_kaitou",
+      "reading": "かいとう",
+      "headword": "{回答|かいとう}",
+      "label": "answer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26514_chitou",
+      "reading": "ちとう",
+      "headword": "{遅答|ちとう}",
+      "label": "delayed reply"
     }
   ],
   "metadata": {
     "created": "2026-02-07T11:20:16Z",
-    "modified": "2026-04-24T06:24:12Z",
+    "modified": "2026-09-02T04:01:21Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

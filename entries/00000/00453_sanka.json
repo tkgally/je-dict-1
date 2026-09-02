@@ -2,7 +2,7 @@
   "id": "00453_sanka",
   "headword": "{酸化|さんか}",
   "reading": "さんか",
-  "part_of_speech": "noun, suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "oxidation",
   "conjugation": {
     "type": "suru",
@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "00453_sanka_ex1",
-      "japanese": "⟦{鉄|てつ}→鉄：02225_tetsu⟧⟦が→が：00051_ga⟧{酸化|さんか}して⟦{錆|さび}→錆：03887_sabi⟧⟦が→が：00051_ga⟧⟦できた→できる：00557_dekiru⟧。",
+      "japanese": "⟦{鉄|てつ}→鉄：02225_tetsu⟧⟦が→が：00051_ga⟧{酸化|さんか}⟦して→する：00392_suru⟧⟦{錆|さび}→錆：03887_sabi⟧⟦が→が：00051_ga⟧⟦できた→できる：00557_dekiru⟧。",
       "english": "The iron oxidized and rust formed.",
       "notes": null,
       "has_audio": false,
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "{酸化|さんか} is a chemistry term for oxidation — the process of combining with oxygen or losing electrons. In everyday language, it is associated with rusting, spoiling, and degradation of materials.\n\nTRANSITIVITY:\n- Type: Both transitive (⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧) and intransitive (⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧)\n- Transitive: [noun]を{酸化|さんか}する\n- Intransitive: [noun]が{酸化|さんか}する\n\nCOMMON COMPOUNDS:\n- {酸化|さんか}⟦{防止|ぼうし}→防止：14571_boushi⟧{剤|ざい}: antioxidant\n- ⟦{二酸化炭素|にさんかたんそ}→二酸化炭素：04630_nisankatanso⟧: carbon dioxide (CO₂)\n- {酸化|さんか}⟦{鉄|てつ}→鉄：02225_tetsu⟧: iron oxide (rust)\n- {一酸化炭素|いっさんかたんそ}: carbon monoxide (CO)\n\nCOMMON PATTERNS:\n- {酸化|さんか}する: to oxidize\n- {酸化|さんか}を⟦{防|ふせ}ぐ→防ぐ：02409_fusegu⟧: to prevent oxidation\n- {酸化|さんか}しやすい: easily oxidized\n\nCONTRAST:\nThe opposite chemical process is ⟦{還元|かんげん}→還元：08021_kangen⟧ (reduction).",
+  "notes": "{酸化|さんか} is a chemistry term for oxidation — the process of combining with oxygen or losing electrons. In everyday language, it is associated with rusting, spoiling, and degradation of materials.\n\nTRANSITIVITY:\n- Type: Both transitive (⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧) and intransitive (⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧)\n- Transitive: [noun]⟦を→を：00422_wo⟧{酸化|さんか}⟦する→する：00392_suru⟧\n- Intransitive: [noun]⟦が→が：00051_ga⟧{酸化|さんか}⟦する→する：00392_suru⟧\n\nCOMPOUNDS:\n- {酸化|さんか}⟦{防止|ぼうし}→防止：14571_boushi⟧{剤|ざい}: antioxidant\n- ⟦{二酸化炭素|にさんかたんそ}→二酸化炭素：04630_nisankatanso⟧: carbon dioxide (CO₂)\n- {酸化|さんか}⟦{鉄|てつ}→鉄：02225_tetsu⟧: iron oxide (rust)\n- ⟦{一酸化炭素|いっさんかたんそ}→一酸化炭素：27606_issankatanso⟧: carbon monoxide (CO)\n\nCOMMON PATTERNS:\n- {酸化|さんか}⟦する→する：00392_suru⟧: to oxidize\n- {酸化|さんか}⟦を→を：00422_wo⟧⟦{防|ふせ}ぐ→防ぐ：02409_fusegu⟧: to prevent oxidation\n- {酸化|さんか}しやすい: easily oxidized\n\nSIMILAR WORDS:\nThe opposite chemical process is ⟦{還元|かんげん}→還元：08021_kangen⟧ (reduction).",
   "cross_references": [
     {
       "type": "antonym",
@@ -141,11 +141,18 @@
       "headword": "{還元|かんげん}",
       "label": "reduction",
       "target_id": "08021_kangen"
+    },
+    {
+      "type": "related",
+      "target_id": "08020_fushoku",
+      "reading": "ふしょく",
+      "headword": "{腐食|ふしょく}",
+      "label": "corrosion"
     }
   ],
   "metadata": {
     "created": "2026-01-12T23:49:28Z",
-    "modified": "2026-04-10T06:45:29Z",
+    "modified": "2026-09-02T04:00:57Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "19911_yamafuda_ex1",
-      "japanese": "{山札|やまふだ}から{一枚|いちまい}{引|ひ}く。",
+      "japanese": "{山札|やまふだ}⟦から→から：00504_kara⟧⟦{一枚|いちまい}→一枚：08889_ichimai⟧⟦{引|ひ}く→引く：01978_hiku⟧。",
       "english": "To draw one card from the deck.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "19911_yamafuda_ex2",
-      "japanese": "{山札|やまふだ}がなくなったらゲーム{終了|しゅうりょう}です。",
+      "japanese": "{山札|やまふだ}⟦が→が：00051_ga⟧なくなったら⟦ゲーム→ゲーム：03842_geemu⟧⟦{終了|しゅうりょう}→終了：02563_shuuryou⟧です。",
       "english": "The game ends when the draw pile runs out.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "19911_yamafuda_ex3",
-      "japanese": "カードをよく{切|き}って{山札|やまふだ}として{場|ば}の{中央|ちゅうおう}に{置|お}いてください。",
+      "japanese": "⟦カード→カード：03836_kaado⟧⟦を→を：00422_wo⟧⟦よく→よく：00601_yoku⟧⟦{切|き}って→切る：02693_kiru⟧{山札|やまふだ}⟦として→として：06802_toshite⟧⟦{場|ば}→場：03699_ba⟧⟦の→の：09472_no⟧⟦{中央|ちゅうおう}→中央：03475_chuuou⟧⟦に→に：00314_ni⟧⟦{置|お}いて→置く：01092_oku⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please shuffle the cards well and place them as the draw pile in the center.",
       "notes": null,
       "has_audio": false,
@@ -43,11 +43,26 @@
       ]
     }
   ],
-  "notes": "Used in card games, board games, and trading card games. The word comes from {山|やま} (mountain, pile) + {札|ふだ} (card).\n\nCOMMON COLLOCATIONS:\n- {山札|やまふだ}から{引|ひ}く: to draw from the deck\n- {山札|やまふだ}を{切|き}る: to shuffle the deck\n- {山札|やまふだ}がなくなる: the deck runs out\n- {山札|やまふだ}の{一番上|いちばんうえ}: the top of the deck\n\nRELATED TERMS:\n- {手札|てふだ}: hand (cards held by a player)\n- {捨|す}て{札|ふだ}: discard pile\n- {場札|ばふだ}: cards on the table / in play\n- デッキ: deck (loanword, especially in trading card games)",
-  "cross_references": [],
+  "notes": "Used in card games, board games, and trading card games. The word comes from ⟦{山|やま}→山：02168_yama⟧ (mountain, pile) + ⟦{札|ふだ}→札：23002_fuda⟧ (card).\n\nCOMMON COLLOCATIONS:\n- {山札|やまふだ}⟦から→から：00504_kara⟧⟦{引|ひ}く→引く：01978_hiku⟧: to draw from the deck\n- {山札|やまふだ}⟦を→を：00422_wo⟧⟦{切|き}る→切る：02693_kiru⟧: to shuffle the deck\n- {山札|やまふだ}⟦が→が：00051_ga⟧なくなる: the deck runs out\n- {山札|やまふだ}⟦の→の：09472_no⟧{一番上|いちばんうえ}: the top of the deck\n\nRELATED WORDS:\n- ⟦{手札|てふだ}→手札：18171_tefuda⟧: hand (cards held by a player)\n- {捨|す}て{札|ふだ}: discard pile\n- ⟦{場札|ばふだ}→場札：26509_bafuda⟧: cards on the table / in play\n- デッキ: deck (loanword, especially in trading card games)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "18171_tefuda",
+      "reading": "てふだ",
+      "headword": "{手札|てふだ}",
+      "label": "hand"
+    },
+    {
+      "type": "related",
+      "target_id": "26509_bafuda",
+      "reading": "ばふだ",
+      "headword": "{場札|ばふだ}",
+      "label": "cards on the table / in play"
+    }
+  ],
   "metadata": {
     "created": "2026-03-27T05:35:55Z",
-    "modified": "2026-07-27T12:42:09Z",
+    "modified": "2026-09-02T04:01:57Z",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
     "tags": {

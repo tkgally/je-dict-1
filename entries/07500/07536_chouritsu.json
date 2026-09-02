@@ -2,7 +2,7 @@
   "id": "07536_chouritsu",
   "headword": "{調律|ちょうりつ}",
   "reading": "ちょうりつ",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "tuning (musical instrument)",
   "conjugation": {
     "type": "suru",
@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "07536_chouritsu_ex1",
-      "japanese": "ピアノの{調律|ちょうりつ}を{頼|たの}んだ。",
+      "japanese": "⟦ピアノ→ピアノ：01376_piano⟧⟦の→の：09472_no⟧{調律|ちょうりつ}⟦を→を：00422_wo⟧⟦{頼|たの}んだ→頼む：01104_tanomu⟧。",
       "english": "I requested a piano tuning.",
       "has_audio": false,
       "sense_numbers": [
@@ -113,7 +113,7 @@
     },
     {
       "id": "07536_chouritsu_ex2",
-      "japanese": "{調律師|ちょうりつし}がピアノを{調律|ちょうりつ}する。",
+      "japanese": "⟦{調律師|ちょうりつし}→調律師：15632_chouritsushi⟧⟦が→が：00051_ga⟧⟦ピアノ→ピアノ：01376_piano⟧⟦を→を：00422_wo⟧{調律|ちょうりつ}⟦する→する：00392_suru⟧。",
       "english": "The tuner tunes the piano.",
       "has_audio": false,
       "sense_numbers": [
@@ -122,7 +122,7 @@
     },
     {
       "id": "07536_chouritsu_ex3",
-      "japanese": "{年|ねん}に{一度|いちど}は{調律|ちょうりつ}してもらったほうがいい。",
+      "japanese": "⟦{年|ねん}→年：09876_nen⟧⟦に→に：00314_ni⟧⟦{一度|いちど}→一度：01312_ichido⟧⟦は→は：00079_ha⟧{調律|ちょうりつ}⟦して→する：00392_suru⟧⟦もらった→もらう：00520_morau⟧⟦ほうがいい→ほうがいい：10078_hougaii⟧。",
       "english": "You should have it tuned at least once a year.",
       "has_audio": false,
       "sense_numbers": [
@@ -130,7 +130,7 @@
       ]
     }
   ],
-  "notes": "WORD STRUCTURE:\n{調|ちょう} (adjust, tone) + {律|りつ} (rhythm, law)\n\nRELATED VOCABULARY:\n・{調律師|ちょうりつし} - piano tuner (professional)\n・{調弦|ちょうげん} - tuning (for string instruments specifically)\n・チューニング - tuning (loanword, used for guitars, etc.)\n・{音程|おんてい} - pitch, interval\n・{音叉|おんさ} - tuning fork\n・チューナー - tuner (device)\n\nCOLLOCATIONS:\n・ピアノを{調律|ちょうりつ}する - to tune a piano\n・{調律|ちょうりつ}が{狂|くる}う - tuning goes off\n・{調律|ちょうりつ}を{合|あ}わせる - to adjust the tuning\n\nNOTE:\n{調律|ちょうりつ} is primarily used for keyboard instruments like pianos. For guitars and other string instruments, チューニング or {調弦|ちょうげん} is more common.",
+  "notes": "ETYMOLOGY:\n{調|ちょう} (adjust, tone) + {律|りつ} (rhythm, law)\n\nRELATED WORDS:\n- ⟦{調律師|ちょうりつし}→調律師：15632_chouritsushi⟧ - piano tuner (professional)\n- {調弦|ちょうげん} - tuning (for string instruments specifically)\n- チューニング - tuning (loanword, used for guitars, etc.)\n- ⟦{音程|おんてい}→音程：07109_ontei⟧ - pitch, interval\n- {音叉|おんさ} - tuning fork\n- チューナー - tuner (device)\n\nCOMMON COLLOCATIONS:\n- ⟦ピアノ→ピアノ：01376_piano⟧⟦を→を：00422_wo⟧{調律|ちょうりつ}⟦する→する：00392_suru⟧ - to tune a piano\n- {調律|ちょうりつ}⟦が→が：00051_ga⟧⟦{狂|くる}う→狂う：02052_kuruu⟧ - tuning goes off\n- {調律|ちょうりつ}⟦を→を：00422_wo⟧⟦{合|あ}わせる→合わせる：01872_awaseru⟧ - to adjust the tuning\n\nUSAGE:\n{調律|ちょうりつ} is primarily used for keyboard instruments like pianos. For guitars and other string instruments, チューニング or {調弦|ちょうげん} is more common.",
   "cross_references": [
     {
       "type": "related",
@@ -138,11 +138,25 @@
       "headword": "{転調|てんちょう}",
       "label": "modulation",
       "target_id": "07537_tenchou"
+    },
+    {
+      "type": "related",
+      "target_id": "07109_ontei",
+      "reading": "おんてい",
+      "headword": "{音程|おんてい}",
+      "label": "pitch, interval"
+    },
+    {
+      "type": "related",
+      "target_id": "15494_onritsu",
+      "reading": "おんりつ",
+      "headword": "{音律|おんりつ}",
+      "label": "melody"
     }
   ],
   "metadata": {
     "created": "2026-01-20T08:47:47Z",
-    "modified": "2026-03-29T03:05:07Z",
+    "modified": "2026-09-02T04:01:11Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -151,10 +165,12 @@
         "verb-suru"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "music"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

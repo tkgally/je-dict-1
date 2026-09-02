@@ -15,41 +15,59 @@
   "examples": [
     {
       "id": "18269_zanryou_ex1",
-      "japanese": "バッテリーの{残量|ざんりょう}を{確認|かくにん}する。",
+      "japanese": "⟦バッテリー→バッテリー：04425_batterii⟧⟦の→の：09472_no⟧{残量|ざんりょう}⟦を→を：00422_wo⟧⟦{確認|かくにん}する→確認する：25332_kakuninsuru⟧。",
       "english": "I check the remaining battery level.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18269_zanryou_ex2",
-      "japanese": "インクの{残量|ざんりょう}が{少|すく}なくなっている。",
+      "japanese": "⟦インク→インク：00120_inku⟧⟦の→の：09472_no⟧{残量|ざんりょう}⟦が→が：00051_ga⟧⟦{少|すく}なく→少ない：01136_sukunai⟧⟦なっている→なる：01970_naru⟧。",
       "english": "The remaining ink level is getting low.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18269_zanryou_ex3",
-      "japanese": "ガソリンの{残量|ざんりょう}が{少|すく}ないので、{次|つぎ}のガソリンスタンドで{給油|きゅうゆ}しよう。",
+      "japanese": "⟦ガソリン→ガソリン：01346_gasorin⟧⟦の→の：09472_no⟧{残量|ざんりょう}⟦が→が：00051_ga⟧⟦{少|すく}ない→少ない：01136_sukunai⟧⟦の→の：09472_no⟧で、⟦{次|つぎ}→次：00819_tsugi⟧⟦の→の：09472_no⟧⟦ガソリンスタンド→ガソリンスタンド：01348_gasorinsutando⟧⟦で→で：00502_de⟧⟦{給油|きゅうゆ}→給油：18553_kyuuyu⟧⟦しよう→する：00392_suru⟧。",
       "english": "The remaining fuel is low, so let's fill up at the next gas station.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nA compound of {残|ざん} (remaining) and {量|りょう} (amount/quantity). Very common in everyday life for checking levels of consumable resources like battery, ink, fuel, and data.\n\nCOMMON COLLOCATIONS:\n- バッテリー{残量|ざんりょう} (remaining battery level)\n- {残量|ざんりょう}を{確認|かくにん}する (to check the remaining amount)\n- {残量|ざんりょう}が{少|すく}ない (the remaining amount is low)\n- {残量|ざんりょう}{表示|ひょうじ} (remaining amount display/indicator)",
-  "cross_references": [],
+  "notes": "USAGE:\nA compound of {残|ざん} (remaining) and ⟦{量|りょう}→量：03799_ryou⟧ (amount/quantity). Very common in everyday life for checking levels of consumable resources like battery, ink, fuel, and data.\n\nCOMMON COLLOCATIONS:\n- ⟦バッテリー→バッテリー：04425_batterii⟧{残量|ざんりょう} (remaining battery level)\n- {残量|ざんりょう}⟦を→を：00422_wo⟧⟦{確認|かくにん}する→確認する：25332_kakuninsuru⟧ (to check the remaining amount)\n- {残量|ざんりょう}⟦が→が：00051_ga⟧⟦{少|すく}ない→少ない：01136_sukunai⟧ (the remaining amount is low)\n- {残量|ざんりょう}⟦{表示|ひょうじ}→表示：03143_hyouji⟧ (remaining amount display/indicator)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "09738_juudengire",
+      "reading": "じゅうでんぎれ",
+      "headword": "{充電|じゅうでん}{切|き}れ",
+      "label": "out of battery"
+    }
+  ],
   "metadata": {
     "created": "2026-03-21T01:09:48Z",
-    "modified": "2026-03-21T01:09:48Z",
+    "modified": "2026-09-02T04:01:51Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["quantity"]
+      "semantic": [
+        "quantity"
+      ]
     }
   }
 }

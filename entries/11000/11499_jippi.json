@@ -14,42 +14,60 @@
   "examples": [
     {
       "id": "11499_jippi_ex1",
-      "japanese": "{交通費|こうつうひ}は{実費|じっぴ}で{支給|しきゅう}します。",
+      "japanese": "⟦{交通費|こうつうひ}→交通費：03056_koutsuuhi⟧⟦は→は：00079_ha⟧{実費|じっぴ}⟦で→で：00502_de⟧⟦{支給|しきゅう}→支給：02835_shikyuu⟧⟦します→する：00392_suru⟧。",
       "english": "Transportation costs will be reimbursed at actual cost.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11499_jippi_ex2",
-      "japanese": "{材料|ざいりょう}は{実費|じっぴ}でお{願|ねが}いします。",
+      "japanese": "⟦{材料|ざいりょう}→材料：02831_zairyou⟧⟦は→は：00079_ha⟧{実費|じっぴ}⟦で→で：00502_de⟧お{願|ねが}いします。",
       "english": "Please pay the actual cost for materials.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11499_jippi_ex3",
-      "japanese": "ボランティアなので{報酬|ほうしゅう}はないが、{実費|じっぴ}だけは{負担|ふたん}してもらえる。",
+      "japanese": "⟦ボランティア→ボランティア：04834_borantia⟧な⟦の→の：09472_no⟧で⟦{報酬|ほうしゅう}→報酬：12094_houshuu⟧⟦は→は：00079_ha⟧⟦ない→ない：01118_nai⟧⟦が→が：00051_ga⟧、{実費|じっぴ}⟦だけ→〜だけ：03093_dake⟧⟦は→は：00079_ha⟧⟦{負担|ふたん}→負担：09752_futan⟧⟦して→する：00392_suru⟧⟦もらえる→もらう：00520_morau⟧。",
       "english": "Since it's volunteer work there's no pay, but actual expenses are covered.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "The real amount spent, without markup, profit, or subsidy. Common in business and organizational contexts.\n\nWORD FORMATION:\n{実|じつ} (actual/real) + {費|ひ} (cost/expense)\n\nCOMMON PATTERNS:\n- {実費|じっぴ}で: at actual cost\n- {実費|じっぴ}{精算|せいさん}: settlement/reimbursement at actual cost\n- {実費|じっぴ}{負担|ふたん}: bearing actual expenses\n- {実費|じっぴ}で{支給|しきゅう}する: to reimburse at actual cost\n\nUSAGE:\nOften appears in employment and volunteer contexts — for example, {交通費|こうつうひ}は{実費|じっぴ}で{支給|しきゅう} (transportation reimbursed at actual cost). Contrasts with {定額|ていがく} (fixed amount), where a set sum is paid regardless of actual spending.",
-  "cross_references": [],
+  "notes": "The real amount spent, without markup, profit, or subsidy. Common in business and organizational contexts.\n\nFORMS:\n⟦{実|じつ}→実：28344_jitsu⟧ (actual/real) + ⟦{費|ひ}→費：09877_hi⟧ (cost/expense)\n\nCOMMON PATTERNS:\n- {実費|じっぴ}⟦で→で：00502_de⟧: at actual cost\n- {実費|じっぴ}{精算|せいさん}: settlement/reimbursement at actual cost\n- {実費|じっぴ}⟦{負担|ふたん}→負担：09752_futan⟧: bearing actual expenses\n- {実費|じっぴ}⟦で→で：00502_de⟧⟦{支給|しきゅう}→支給：02835_shikyuu⟧⟦する→する：00392_suru⟧: to reimburse at actual cost\n\nUSAGE:\nOften appears in employment and volunteer contexts — for example, ⟦{交通費|こうつうひ}→交通費：03056_koutsuuhi⟧⟦は→は：00079_ha⟧{実費|じっぴ}⟦で→で：00502_de⟧⟦{支給|しきゅう}→支給：02835_shikyuu⟧ (transportation reimbursed at actual cost). Contrasts with ⟦{定額|ていがく}→定額：09740_teigaku⟧ (fixed amount), where a set sum is paid regardless of actual spending.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20462_jikofutan",
+      "reading": "じこふたん",
+      "headword": "{自己負担|じこふたん}",
+      "label": "out-of-pocket expense"
+    }
+  ],
   "metadata": {
     "created": "2026-02-17T01:54:44Z",
-    "modified": "2026-03-25T12:24:31Z",
+    "modified": "2026-09-02T04:01:25Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["work"]
+      "semantic": [
+        "work"
+      ]
     }
   }
 }

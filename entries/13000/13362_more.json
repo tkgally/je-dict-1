@@ -20,54 +20,66 @@
   "examples": [
     {
       "id": "13362_more_ex1",
-      "japanese": "{水|みず}{漏|も}れがひどい。",
+      "japanese": "{水|みず}{漏|も}れ⟦が→が：00051_ga⟧⟦ひどい→ひどい：01097_hidoi⟧。",
       "english": "The water leak is bad.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13362_more_ex2",
-      "japanese": "{情報|じょうほう}{漏|も}れが{発覚|はっかく}した。",
+      "japanese": "⟦{情報|じょうほう}→情報：03348_jouhou⟧{漏|も}れ⟦が→が：00051_ga⟧⟦{発覚|はっかく}した→発覚する：15423_hakkakusuru⟧。",
       "english": "An information leak was discovered.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13362_more_ex3",
-      "japanese": "{天井|てんじょう}からの{雨|あま}{漏|も}れを{修理|しゅうり}してもらった。",
+      "japanese": "⟦{天井|てんじょう}→天井：05008_tenjou⟧⟦から→から：00504_kara⟧⟦の→の：09472_no⟧{雨|あま}{漏|も}れ⟦を→を：00422_wo⟧⟦{修理|しゅうり}→修理：03214_shuuri⟧⟦して→する：00392_suru⟧⟦もらった→もらう：00520_morau⟧。",
       "english": "I had the roof leak fixed.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13362_more_ex4",
-      "japanese": "{記入|きにゅう}{漏|も}れがないか{確認|かくにん}する。",
+      "japanese": "{記入|きにゅう}{漏|も}れ⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧⟦か→か：09473_ka⟧⟦{確認|かくにん}する→確認する：25332_kakuninsuru⟧。",
       "english": "Check that nothing has been left unfilled.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "13362_more_ex5",
-      "japanese": "リストに{漏|も}れがあった。",
+      "japanese": "⟦リスト→リスト：09786_risuto⟧⟦に→に：00314_ni⟧{漏|も}れ⟦が→が：00051_ga⟧⟦あった→ある：00006_aru⟧。",
       "english": "There was an omission in the list.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "13362_more_ex6",
-      "japanese": "{申告|しんこく}{漏|も}れがないように{注意|ちゅうい}してください。",
+      "japanese": "{申告|しんこく}{漏|も}れ⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧よう⟦に→に：00314_ni⟧⟦{注意|ちゅうい}→注意：01464_chuui⟧⟦して→する：00392_suru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please be careful not to leave anything out of your declaration.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
-  "notes": "USAGE:\nThe noun form of the verb {漏|も}れる (to leak). Very productive as a suffix attached to other nouns to describe specific types of leaks or omissions.\n\nCOMMON COMPOUNDS:\n- {水|みず}{漏|も}れ: water leak\n- {雨|あま}{漏|も}れ: roof leak (from rain)\n- {光|ひかり}{漏|も}れ: light leak\n- {情報|じょうほう}{漏|も}れ: information leak\n- {記入|きにゅう}{漏|も}れ: omission in filling out a form\n- {申告|しんこく}{漏|も}れ: failure to declare/report\n- {抜|ぬ}け{漏|も}れ: gaps and omissions",
+  "notes": "USAGE:\nThe noun form of the verb {漏|も}れる (to leak). Very productive as a suffix attached to other nouns to describe specific types of leaks or omissions.\n\nCOMPOUNDS:\n- {水|みず}{漏|も}れ: water leak\n- {雨|あま}{漏|も}れ: roof leak (from rain)\n- ⟦{光|ひかり}→光：01707_hikari⟧{漏|も}れ: light leak\n- ⟦{情報|じょうほう}→情報：03348_jouhou⟧{漏|も}れ: information leak\n- {記入|きにゅう}{漏|も}れ: omission in filling out a form\n- {申告|しんこく}{漏|も}れ: failure to declare/report\n- ⟦{抜|ぬ}け→抜ける：02385_nukeru⟧{漏|も}れ: gaps and omissions",
   "cross_references": [
     {
       "type": "related",
@@ -86,14 +98,18 @@
   ],
   "metadata": {
     "created": "2026-02-24T10:37:20Z",
-    "modified": "2026-04-28T09:07:58Z",
+    "modified": "2026-09-02T04:01:32Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

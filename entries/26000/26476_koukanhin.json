@@ -15,41 +15,59 @@
   "examples": [
     {
       "id": "26476_koukanhin_ex1",
-      "japanese": "{交換品|こうかんひん}は{明日|あした}{届|とど}きます。",
+      "japanese": "{交換品|こうかんひん}⟦は→は：00079_ha⟧⟦{明日|あした}→明日：00501_ashita⟧⟦{届|とど}きます→届く：00899_todoku⟧。",
       "english": "The replacement item will arrive tomorrow.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26476_koukanhin_ex2",
-      "japanese": "{不良品|ふりょうひん}だったので{交換品|こうかんひん}を{送|おく}ってもらった。",
+      "japanese": "⟦{不良品|ふりょうひん}→不良品：19452_furyouhin⟧だった⟦の→の：09472_no⟧で{交換品|こうかんひん}⟦を→を：00422_wo⟧⟦{送|おく}って→送る：00742_okuru⟧⟦もらった→もらう：00520_morau⟧。",
       "english": "It was defective, so I had them send me a replacement.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26476_koukanhin_ex3",
-      "japanese": "{在庫|ざいこ}がないため、{交換品|こうかんひん}の{発送|はっそう}まで{一週間|いっしゅうかん}ほどかかる{場合|ばあい}がございます。",
+      "japanese": "⟦{在庫|ざいこ}→在庫：04701_zaiko⟧⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧⟦ため→ため：01145_tame⟧、{交換品|こうかんひん}⟦の→の：09472_no⟧⟦{発送|はっそう}→発送：10458_hassou⟧⟦まで→まで：00490_made⟧⟦{一週間|いっしゅうかん}→一週間：10979_isshuukan⟧ほど⟦かかる→かかる：00711_kakaru⟧⟦{場合|ばあい}→場合：01704_baai⟧⟦が→が：00051_ga⟧⟦ございます→ございます：01300_gozaimasu⟧。",
       "english": "Due to lack of stock, it may take about one week to ship the replacement item.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {交換|こうかん} (exchange, replacement) and {品|ひん} (item, goods). This is the standard term used by retailers and manufacturers when providing a substitute product for one that was defective, damaged, or otherwise unsatisfactory.\n\nCOMMON COLLOCATIONS:\n- {交換品|こうかんひん}を{送|おく}る: to send a replacement item\n- {交換品|こうかんひん}が{届|とど}く: for a replacement to arrive\n- {交換品|こうかんひん}の{手配|てはい}: arranging a replacement\n\nSIMILAR WORDS:\n- {代替品|だいたいひん}: substitute goods — a broader term for any substitute, not necessarily replacing a defective item\n- {返品|へんぴん}: returned goods — the act of returning an item, often the step before receiving a {交換品|こうかんひん}\n- {予備品|よびひん}: spare parts — items kept on hand as spares, rather than replacements sent after a problem",
-  "cross_references": [],
+  "notes": "Composed of ⟦{交換|こうかん}→交換：02746_koukan⟧ (exchange, replacement) and ⟦{品|ひん}→品：03712_hin⟧ (item, goods). This is the standard term used by retailers and manufacturers when providing a substitute product for one that was defective, damaged, or otherwise unsatisfactory.\n\nCOMMON COLLOCATIONS:\n- {交換品|こうかんひん}⟦を→を：00422_wo⟧⟦{送|おく}る→送る：00742_okuru⟧: to send a replacement item\n- {交換品|こうかんひん}⟦が→が：00051_ga⟧⟦{届|とど}く→届く：00899_todoku⟧: for a replacement to arrive\n- {交換品|こうかんひん}⟦の→の：09472_no⟧⟦{手配|てはい}→手配：07604_tehai⟧: arranging a replacement\n\nSIMILAR WORDS:\n- {代替品|だいたいひん}: substitute goods — a broader term for any substitute, not necessarily replacing a defective item\n- ⟦{返品|へんぴん}→返品：05465_henpin⟧: returned goods — the act of returning an item, often the step before receiving a {交換品|こうかんひん}\n- {予備品|よびひん}: spare parts — items kept on hand as spares, rather than replacements sent after a problem",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05465_henpin",
+      "reading": "へんぴん",
+      "headword": "{返品|へんぴん}",
+      "label": "returned goods"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     },
     "created": "2026-05-02T12:16:02Z",
-    "modified": "2026-05-02T12:16:02Z"
+    "modified": "2026-09-02T04:02:26Z"
   }
 }

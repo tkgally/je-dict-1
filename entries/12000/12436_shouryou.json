@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "12436_shouryou_ex1",
-      "japanese": "{少量|しょうりょう}の{水|みず}を{加|くわ}える。",
+      "japanese": "{少量|しょうりょう}⟦の→の：09472_no⟧⟦{水|みず}→水：02258_mizu⟧⟦を→を：00422_wo⟧⟦{加|くわ}える→加える：01941_kuwaeru⟧。",
       "english": "Add a small amount of water.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "12436_shouryou_ex2",
-      "japanese": "アルコールは{少量|しょうりょう}なら{健康|けんこう}に{良|よ}いと{言|い}われている。",
+      "japanese": "⟦アルコール→アルコール：01771_arukooru⟧⟦は→は：00079_ha⟧{少量|しょうりょう}なら⟦{健康|けんこう}→健康：02706_kenkou⟧⟦に→に：00314_ni⟧⟦{良|よ}い→良い：02350_yoi⟧⟦と→と：00512_to⟧⟦{言|い}われている→言う：00515_iu⟧。",
       "english": "They say alcohol in small amounts is good for your health.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "12436_shouryou_ex3",
-      "japanese": "{少量|しょうりょう}ずつ{何回|なんかい}かに{分|わ}けて{食|た}べたほうが{胃|い}に{優|やさ}しい。",
+      "japanese": "{少量|しょうりょう}⟦ずつ→〜ずつ：03092_zutsu⟧⟦{何回|なんかい}→何回：08497_nankai⟧⟦か→か：09473_ka⟧⟦に→に：00314_ni⟧⟦{分|わ}けて→分ける：02333_wakeru⟧⟦{食|た}べた→食べる：00396_taberu⟧ほう⟦が→が：00051_ga⟧⟦{胃|い}→胃：01706_i⟧⟦に→に：00314_ni⟧{優|やさ}しい。",
       "english": "It's gentler on the stomach to eat small amounts divided across several times.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nThe opposite is {大量|たいりょう} (large quantity). Can be used as a no-adjective to modify nouns: {少量|しょうりょう}の{塩|しお} (a small amount of salt). Also used adverbially: {少量|しょうりょう}ずつ (little by little).\n\nCOMMON COLLOCATIONS:\n- {少量|しょうりょう}の～: a small amount of ~\n- {少量|しょうりょう}ずつ: little by little\n- {少量|しょうりょう}{生産|せいさん}: small-batch production\n- {少量|しょうりょう}{多品種|たひんしゅ}: high-mix low-volume",
+  "notes": "USAGE:\nThe opposite is ⟦{大量|たいりょう}→大量：03112_tairyou⟧ (large quantity). Can be used as a no-adjective to modify nouns: {少量|しょうりょう}⟦の→の：09472_no⟧⟦{塩|しお}→塩：00887_shio⟧ (a small amount of salt). Also used adverbially: {少量|しょうりょう}⟦ずつ→〜ずつ：03092_zutsu⟧ (little by little).\n\nCOMMON COLLOCATIONS:\n- {少量|しょうりょう}⟦の→の：09472_no⟧～: a small amount of ~\n- {少量|しょうりょう}⟦ずつ→〜ずつ：03092_zutsu⟧: little by little\n- {少量|しょうりょう}⟦{生産|せいさん}→生産：01444_seisan⟧: small-batch production\n- {少量|しょうりょう}{多品種|たひんしゅ}: high-mix low-volume",
   "cross_references": [
     {
       "type": "antonym",
@@ -58,11 +58,18 @@
       "reading": "たりょう",
       "headword": "{多量|たりょう}",
       "label": "large quantity (technical)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18709_kinshou",
+      "reading": "きんしょう",
+      "headword": "{僅少|きんしょう}",
+      "label": "very small amount"
     }
   ],
   "metadata": {
     "created": "2026-02-21T06:48:49Z",
-    "modified": "2026-04-26T09:20:33Z",
+    "modified": "2026-09-02T04:01:29Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

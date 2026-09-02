@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "17114_kyoyouryou_ex1",
-      "japanese": "{許容量|きょようりょう}を{超|こ}えた。",
+      "japanese": "{許容量|きょようりょう}⟦を→を：00422_wo⟧⟦{超|こ}えた→超える：01942_koeru⟧。",
       "english": "It exceeded the permissible limit.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "17114_kyoyouryou_ex2",
-      "japanese": "ストレスの{許容量|きょようりょう}は{人|ひと}によって{違|ちが}う。",
+      "japanese": "⟦ストレス→ストレス：03827_sutoresu⟧⟦の→の：09472_no⟧{許容量|きょようりょう}⟦は→は：00079_ha⟧⟦{人|ひと}→人：00476_hito⟧⟦によって→によって：06801_niyotte⟧⟦{違|ちが}う→違う：01957_chigau⟧。",
       "english": "Stress tolerance differs from person to person.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "17114_kyoyouryou_ex3",
-      "japanese": "{一日|いちにち}の{摂取|せっしゅ}{許容量|きょようりょう}を{守|まも}って、サプリメントを{正|ただ}しく{使|つか}いましょう。",
+      "japanese": "⟦{一日|いちにち}→一日：00942_ichinichi⟧⟦の→の：09472_no⟧⟦{摂取|せっしゅ}→摂取：09322_sesshu⟧{許容量|きょようりょう}⟦を→を：00422_wo⟧⟦{守|まも}って→守る：01986_mamoru⟧、⟦サプリメント→サプリメント：10937_sapurimento⟧⟦を→を：00422_wo⟧⟦{正|ただ}しく→正しい：00893_tadashii⟧⟦{使|つか}いましょう→使う：00473_tsukau⟧。",
       "english": "Let's use supplements correctly by following the daily permissible intake amount.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nUsed in technical, medical, and everyday contexts. In medicine, {許容量|きょようりょう} refers to the maximum safe dose. In engineering, it refers to load or capacity limits. In everyday speech, it can refer to personal tolerance (for stress, workload, etc.).\n\nCOMMON COLLOCATIONS:\n- {許容量|きょようりょう}を{超|こ}える (to exceed the permissible limit)\n- {摂取|せっしゅ}{許容量|きょようりょう} (acceptable daily intake)\n- {最大|さいだい}{許容量|きょようりょう} (maximum allowable amount)\n\nSIMILAR WORDS:\n- {容量|ようりょう}: capacity, volume — general capacity without the \"permissible\" nuance\n- {限度|げんど}: limit, bounds — general limit\n- {上限|じょうげん}: upper limit — specifically the maximum",
+  "notes": "USAGE:\nUsed in technical, medical, and everyday contexts. In medicine, {許容量|きょようりょう} refers to the maximum safe dose. In engineering, it refers to load or capacity limits. In everyday speech, it can refer to personal tolerance (for stress, workload, etc.).\n\nCOMMON COLLOCATIONS:\n- {許容量|きょようりょう}⟦を→を：00422_wo⟧⟦{超|こ}える→超える：01942_koeru⟧ (to exceed the permissible limit)\n- ⟦{摂取|せっしゅ}→摂取：09322_sesshu⟧{許容量|きょようりょう} (acceptable daily intake)\n- ⟦{最大|さいだい}→最大：04827_saidai⟧{許容量|きょようりょう} (maximum allowable amount)\n\nSIMILAR WORDS:\n- ⟦{容量|ようりょう}→容量：04887_youryou⟧: capacity, volume — general capacity without the \"permissible\" nuance\n- ⟦{限度|げんど}→限度：00063_gendo⟧: limit, bounds — general limit\n- ⟦{上限|じょうげん}→上限：11299_jougen⟧: upper limit — specifically the maximum",
   "cross_references": [
     {
       "type": "related",
@@ -59,11 +59,18 @@
       "reading": "じょうげん",
       "headword": "{上限|じょうげん}",
       "label": "upper limit"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00063_gendo",
+      "reading": "げんど",
+      "headword": "{限度|げんど}",
+      "label": "limit, bounds"
     }
   ],
   "metadata": {
     "created": "2026-03-16T00:45:29Z",
-    "modified": "2026-07-22T18:50:18Z",
+    "modified": "2026-09-02T04:01:47Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

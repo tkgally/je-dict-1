@@ -14,38 +14,66 @@
   "examples": [
     {
       "id": "08228_shiokara_ex1",
-      "japanese": "{塩辛|しおから}は{日本酒|にほんしゅ}に{合|あ}う。",
+      "japanese": "{塩辛|しおから}⟦は→は：00079_ha⟧⟦{日本酒|にほんしゅ}→日本酒：12954_nihonshu⟧⟦に→に：00314_ni⟧⟦{合|あ}う→合う：10466_au⟧。",
       "english": "Shiokara goes well with sake.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "08228_shiokara_ex2",
-      "japanese": "イカの{塩辛|しおから}が{好|す}きだ。",
+      "japanese": "イカ⟦の→の：09472_no⟧{塩辛|しおから}⟦が→が：00051_ga⟧⟦{好|す}き→好き：02355_suki⟧だ。",
       "english": "I like squid shiokara.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "08228_shiokara_ex3",
-      "japanese": "{塩辛|しおから}は{好|す}き{嫌|きら}いが{分|わ}かれる{食|た}べ{物|もの}だ。",
+      "japanese": "{塩辛|しおから}⟦は→は：00079_ha⟧⟦{好|す}き{嫌|きら}い→好き嫌い：12206_sukikirai⟧⟦が→が：00051_ga⟧⟦{分|わ}かれる→分かれる：10976_wakareru⟧⟦{食|た}べ{物|もの}→食べ物：02890_tabemono⟧だ。",
       "english": "Shiokara is a food that people either love or hate.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "TYPES:\n- イカの{塩辛|しおから} (squid shiokara - most common)\n- タコの{塩辛|しおから} (octopus shiokara)\n- カツオの{塩辛|しおから} (bonito shiokara)\n\nCULTURAL NOTE:\n{塩辛|しおから} is a traditional Japanese delicacy with a strong, salty, and pungent flavor. It's typically served in small amounts as an accompaniment to rice or sake. The strong fermented flavor makes it an acquired taste.\n\nETYMOLOGY:\nFrom {塩|しお} (salt) + {辛|から}い (salty/spicy) - literally \"salty-salty,\" emphasizing its intense saltiness.\n\nRELATED:\n- {珍味|ちんみ} (delicacy)\n- {酒|さけ}の{肴|さかな} (food to accompany sake)",
+  "notes": "TYPES:\n- イカ⟦の→の：09472_no⟧{塩辛|しおから} (squid shiokara - most common)\n- タコ⟦の→の：09472_no⟧{塩辛|しおから} (octopus shiokara)\n- カツオ⟦の→の：09472_no⟧{塩辛|しおから} (bonito shiokara)\n\nCULTURAL NOTE:\n{塩辛|しおから} is a traditional Japanese delicacy with a strong, salty, and pungent flavor. It's typically served in small amounts as an accompaniment to rice or sake. The strong fermented flavor makes it an acquired taste.\n\nETYMOLOGY:\nFrom ⟦{塩|しお}→塩：00887_shio⟧ (salt) + ⟦{辛|から}い→辛い：00638_karai⟧ (salty/spicy) - literally \"salty-salty,\" emphasizing its intense saltiness.\n\nRELATED WORDS:\n- ⟦{珍味|ちんみ}→珍味：05752_chinmi⟧ (delicacy)\n- ⟦{酒|さけ}の{肴|さかな}→酒の肴：08726_sakenosakana⟧ (food to accompany sake)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "05752_chinmi",
+      "reading": "ちんみ",
+      "headword": "{珍味|ちんみ}",
+      "label": "delicacy"
+    },
+    {
+      "type": "related",
+      "target_id": "08726_sakenosakana",
+      "reading": "さけのさかな",
+      "headword": "{酒|さけ}の{肴|さかな}",
+      "label": "food to accompany sake"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "semantic": ["food", "Japanese-cuisine"]
+      "politeness": "plain",
+      "semantic": [
+        "food",
+        "Japanese-cuisine"
+      ]
     },
     "created": "2026-01-25T08:30:51Z",
-    "modified": "2026-01-25T08:30:51Z"
+    "modified": "2026-09-02T04:01:14Z"
   }
 }

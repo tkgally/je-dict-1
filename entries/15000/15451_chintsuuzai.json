@@ -15,42 +15,111 @@
   "examples": [
     {
       "id": "15451_chintsuuzai_ex1",
-      "japanese": "{鎮痛剤|ちんつうざい}を{飲|の}んだ。",
+      "japanese": "{鎮痛剤|ちんつうざい}⟦を→を：00422_wo⟧⟦{飲|の}んだ→飲む：00322_nomu⟧。",
       "english": "I took a painkiller.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15451_chintsuuzai_ex2",
-      "japanese": "{頭痛|ずつう}がひどくて{鎮痛剤|ちんつうざい}が{手放|てばな}せない。",
+      "japanese": "⟦{頭痛|ずつう}→頭痛：03369_zutsuu⟧⟦が→が：00051_ga⟧⟦ひどくて→ひどい：01097_hidoi⟧{鎮痛剤|ちんつうざい}⟦が→が：00051_ga⟧⟦{手放|てばな}せない→手放す：05338_tebanasu⟧。",
       "english": "My headaches are so bad I can't go without painkillers.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15451_chintsuuzai_ex3",
-      "japanese": "{医師|いし}から{処方|しょほう}された{鎮痛剤|ちんつうざい}は、{食後|しょくご}に{服用|ふくよう}してください。",
+      "japanese": "⟦{医師|いし}→医師：11851_ishi⟧⟦から→から：00504_kara⟧⟦{処方|しょほう}→処方：05976_shohou⟧⟦された→する：00392_suru⟧{鎮痛剤|ちんつうざい}⟦は→は：00079_ha⟧、⟦{食後|しょくご}→食後：09499_shokugo⟧⟦に→に：00314_ni⟧⟦{服用|ふくよう}して→服用する：21605_fukuyousuru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please take the painkillers prescribed by the doctor after meals.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "FORMATION:\n{鎮痛|ちんつう} (pain relief) + {剤|ざい} (medicine, agent). The suffix ～{剤|ざい} is used for various types of medicines and chemical agents.\n\nCOMMON COLLOCATIONS:\n- {鎮痛剤|ちんつうざい}を{飲|の}む (to take a painkiller)\n- {鎮痛剤|ちんつうざい}を{処方|しょほう}する (to prescribe painkillers)\n- {市販|しはん}の{鎮痛剤|ちんつうざい} (over-the-counter painkillers)\n\nRELATED:\n- {痛|いた}み{止|ど}め (pain reliever — more casual synonym)\n- {解熱鎮痛剤|げねつちんつうざい} (fever and pain reducer)",
-  "cross_references": [],
+  "notes": "FORMS:\n⟦{鎮痛|ちんつう}→鎮痛：14515_chintsuu⟧ (pain relief) + ⟦{剤|ざい}→〜剤：30790_zai⟧ (medicine, agent). The suffix ～⟦{剤|ざい}→〜剤：30790_zai⟧ is used for various types of medicines and chemical agents.\n\nCOMMON COLLOCATIONS:\n- {鎮痛剤|ちんつうざい}⟦を→を：00422_wo⟧⟦{飲|の}む→飲む：00322_nomu⟧ (to take a painkiller)\n- {鎮痛剤|ちんつうざい}⟦を→を：00422_wo⟧⟦{処方|しょほう}→処方：05976_shohou⟧⟦する→する：00392_suru⟧ (to prescribe painkillers)\n- ⟦{市販|しはん}→市販：12424_shihan⟧⟦の→の：09472_no⟧{鎮痛剤|ちんつうざい} (over-the-counter painkillers)\n\nRELATED WORDS:\n- ⟦{痛|いた}み{止|ど}め→痛み止め：23497_itamidome⟧ (pain reliever — more casual synonym)\n- {解熱鎮痛剤|げねつちんつうざい} (fever and pain reducer)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "23497_itamidome",
+      "reading": "いたみどめ",
+      "headword": "{痛|いた}み{止|ど}め",
+      "label": "pain reliever"
+    },
+    {
+      "type": "related",
+      "target_id": "09711_zutsuuyaku",
+      "reading": "ずつうやく",
+      "headword": "{頭痛薬|ずつうやく}",
+      "label": "headache medicine"
+    },
+    {
+      "type": "related",
+      "target_id": "09713_genetsuzai",
+      "reading": "げねつざい",
+      "headword": "{解熱剤|げねつざい}",
+      "label": "fever reducer"
+    },
+    {
+      "type": "related",
+      "target_id": "18471_tonpuku",
+      "reading": "とんぷく",
+      "headword": "{頓服|とんぷく}",
+      "label": "medicine taken as needed (not on a regular schedule)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21929_chintsuuyaku",
+      "reading": "ちんつうやく",
+      "headword": "{鎮痛薬|ちんつうやく}",
+      "label": "painkiller"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23833_asupirin",
+      "reading": "あすぴりん",
+      "headword": "アスピリン",
+      "label": "aspirin"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24310_chinseizai",
+      "reading": "ちんせいざい",
+      "headword": "{鎮静剤|ちんせいざい}",
+      "label": "sedative"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24647_kanbouyaku",
+      "reading": "かんぼうやく",
+      "headword": "{感冒薬|かんぼうやく}",
+      "label": "cold medicine"
+    }
+  ],
   "metadata": {
     "created": "2026-03-07T07:36:01Z",
-    "modified": "2026-03-07T07:36:01Z",
+    "modified": "2026-09-02T04:01:41Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["medical"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "medical"
+      ]
     }
   }
 }

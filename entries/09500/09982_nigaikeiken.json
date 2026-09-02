@@ -14,41 +14,59 @@
   "examples": [
     {
       "id": "09982_nigaikeiken_ex1",
-      "japanese": "{苦|にが}い{経験|けいけん}をした。",
+      "japanese": "{苦|にが}い{経験|けいけん}⟦を→を：00422_wo⟧⟦した→する：00392_suru⟧。",
       "english": "I had a bitter experience.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09982_nigaikeiken_ex2",
-      "japanese": "{過去|かこ}の{苦|にが}い{経験|けいけん}から{学|まな}んだ。",
+      "japanese": "⟦{過去|かこ}→過去：00152_kako⟧⟦の→の：09472_no⟧{苦|にが}い{経験|けいけん}⟦から→から：00504_kara⟧⟦{学|まな}んだ→学ぶ：01987_manabu⟧。",
       "english": "I learned from past bitter experiences.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09982_nigaikeiken_ex3",
-      "japanese": "{若|わか}い{頃|ころ}の{苦|にが}い{経験|けいけん}が、{今|いま}の{自分|じぶん}を{作|つく}っている。",
+      "japanese": "{若|わか}い{頃|ころ}⟦の→の：09472_no⟧{苦|にが}い{経験|けいけん}⟦が→が：00051_ga⟧、⟦{今|いま}→今：00945_ima⟧⟦の→の：09472_no⟧⟦{自分|じぶん}→自分：02887_jibun⟧⟦を→を：00422_wo⟧⟦{作|つく}っている→作る：00481_tsukuru⟧。",
       "english": "The bitter experiences of my youth have shaped who I am today.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{苦|にが}い{経験|けいけん} refers to difficult experiences that often teach valuable lessons.\n\nSIMILAR EXPRESSIONS:\n- {苦|にが}い{思|おも}い{出|で}: bitter memory\n- {辛|つら}い{経験|けいけん}: painful experience\n- {酷|ひど}い{目|め}: terrible experience\n\nCOMMON PATTERNS:\n- {苦|にが}い{経験|けいけん}をする: to have a bitter experience\n- {苦|にが}い{経験|けいけん}から{学|まな}ぶ: to learn from bitter experience\n- {苦|にが}い{経験|けいけん}を{生|い}かす: to make use of bitter experience",
-  "cross_references": [],
+  "notes": "{苦|にが}い{経験|けいけん} refers to difficult experiences that often teach valuable lessons.\n\nSIMILAR WORDS:\n- ⟦{苦|にが}い→苦い：01201_nigai⟧⟦{思|おも}い{出|で}→思い出：00331_omoide⟧: bitter memory\n- ⟦{辛|つら}い→辛い：01112_tsurai⟧⟦{経験|けいけん}→経験：01179_keiken⟧: painful experience\n- ⟦{酷|ひど}い{目|め}→酷い目：09981_hidoime⟧: terrible experience\n\nCOMMON PATTERNS:\n- {苦|にが}い{経験|けいけん}⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧: to have a bitter experience\n- {苦|にが}い{経験|けいけん}⟦から→から：00504_kara⟧⟦{学|まな}ぶ→学ぶ：01987_manabu⟧: to learn from bitter experience\n- {苦|にが}い{経験|けいけん}⟦を→を：00422_wo⟧{生|い}かす: to make use of bitter experience",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09981_hidoime",
+      "reading": "ひどいめ",
+      "headword": "{酷|ひど}い{目|め}",
+      "label": "terrible experience"
+    }
+  ],
   "metadata": {
     "created": "2026-02-04T12:07:37Z",
-    "modified": "2026-02-04T12:07:37Z",
+    "modified": "2026-09-02T04:01:19Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["emotion"]
+      "semantic": [
+        "emotion"
+      ]
     }
   }
 }

@@ -3,7 +3,7 @@
   "headword": "{発売|はつばい}{開始|かいし}",
   "reading": "はつばいかいし",
   "romaji": "hatsubaikaishi",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "start of sales; launch; going on sale",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22166_hatsubaikaishi_ex1",
-      "japanese": "{本日|ほんじつ}{発売|はつばい}{開始|かいし}。",
+      "japanese": "⟦{本日|ほんじつ}→本日：09643_honjitsu⟧{発売|はつばい}{開始|かいし}。",
       "english": "On sale starting today.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22166_hatsubaikaishi_ex2",
-      "japanese": "{新商品|しんしょうひん}の{発売|はつばい}{開始|かいし}{日|び}が{決|き}まった。",
+      "japanese": "⟦{新商品|しんしょうひん}→新商品：11504_shinshouhin⟧⟦の→の：09472_no⟧{発売|はつばい}{開始|かいし}{日|び}⟦が→が：00051_ga⟧⟦{決|き}まった→決まる：01233_kimaru⟧。",
       "english": "The launch date for the new product has been decided.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22166_hatsubaikaishi_ex3",
-      "japanese": "チケットの{発売|はつばい}{開始|かいし}と{同時|どうじ}に、{数分|すうふん}で{完売|かんばい}してしまった。",
+      "japanese": "⟦チケット→チケット：11014_chiketto⟧⟦の→の：09472_no⟧{発売|はつばい}{開始|かいし}⟦と→と：00512_to⟧⟦{同時|どうじ}→同時：01592_douji⟧⟦に→に：00314_ni⟧、⟦{数分|すうふん}→数分：21623_suufun⟧⟦で→で：00502_de⟧⟦{完売|かんばい}→完売：18954_kanbai⟧⟦して→する：00392_suru⟧しまった。",
       "english": "The tickets sold out within minutes of going on sale.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {発売|はつばい} (sale, release) and {開始|かいし} (start, beginning). Very commonly seen in advertising and product announcements.\n\nCOMMON COLLOCATIONS:\n- {発売|はつばい}{開始|かいし}{日|び}: release date; launch date\n- {発売|はつばい}{開始|かいし}{時刻|じこく}: sale start time\n- {発売|はつばい}{開始|かいし}する: to start selling; to launch\n- {予約|よやく}{発売|はつばい}{開始|かいし}: start of pre-order sales\n\nSIMILAR WORDS:\n- {発売|はつばい}: release; sale — the broader term; {開始|かいし} specifies the starting point\n- {販売|はんばい}{開始|かいし}: start of sales — very similar but {販売|はんばい} is more general (ongoing selling) while {発売|はつばい} emphasizes the initial release\n- {発売|はつばい}{日|び}: release date — the specific date, without emphasizing the act of beginning\n\nREGISTER:\nNeutral. Extremely common in advertising, marketing, and news about product releases.",
+  "notes": "A compound of ⟦{発売|はつばい}→発売：04315_hatsubai⟧ (sale, release) and ⟦{開始|かいし}→開始：02537_kaishi⟧ (start, beginning). Very commonly seen in advertising and product announcements.\n\nCOMMON COLLOCATIONS:\n- {発売|はつばい}{開始|かいし}{日|び}: release date; launch date\n- {発売|はつばい}{開始|かいし}{時刻|じこく}: sale start time\n- {発売|はつばい}{開始|かいし}⟦する→する：00392_suru⟧: to start selling; to launch\n- ⟦{予約|よやく}→予約：01522_yoyaku⟧{発売|はつばい}{開始|かいし}: start of pre-order sales\n\nSIMILAR WORDS:\n- ⟦{発売|はつばい}→発売：04315_hatsubai⟧: release; sale — the broader term; ⟦{開始|かいし}→開始：02537_kaishi⟧ specifies the starting point\n- ⟦{販売|はんばい}→販売：03573_hanbai⟧⟦{開始|かいし}→開始：02537_kaishi⟧: start of sales — very similar but ⟦{販売|はんばい}→販売：03573_hanbai⟧ is more general (ongoing selling) while ⟦{発売|はつばい}→発売：04315_hatsubai⟧ emphasizes the initial release\n- ⟦{発売|はつばい}{日|び}→発売日：10160_hatsubaibi⟧: release date — the specific date, without emphasizing the act of beginning\n\nREGISTER:\nNeutral. Extremely common in advertising, marketing, and news about product releases.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "10160_hatsubaibi",
+      "reading": "はつばいび",
+      "headword": "{発売日|はつばいび}",
+      "label": "release date"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,7 +70,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-05T04:07:22Z",
-    "modified": "2026-04-05T04:07:22Z"
+    "modified": "2026-09-02T04:02:06Z"
   },
   "conjugation": {
     "type": "suru",

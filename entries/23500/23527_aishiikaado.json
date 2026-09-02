@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "23527_aishiikaado_ex1",
-      "japanese": "ICカードで{電車|でんしゃ}に{乗|の}る。",
+      "japanese": "ICカード⟦で→で：00502_de⟧⟦{電車|でんしゃ}→電車：00522_densha⟧⟦に→に：00314_ni⟧⟦{乗|の}る→乗る：00511_noru⟧。",
       "english": "To ride the train using an IC card.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "23527_aishiikaado_ex2",
-      "japanese": "ICカードに{千円|せんえん}チャージした。",
+      "japanese": "ICカード⟦に→に：00314_ni⟧⟦{千円|せんえん}→千円：08980_senen⟧⟦チャージ→チャージ：09729_chaaji⟧⟦した→する：00392_suru⟧。",
       "english": "I charged 1,000 yen onto my IC card.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "23527_aishiikaado_ex3",
-      "japanese": "ICカードは{電車|でんしゃ}だけでなく、コンビニの{買|か}い{物|もの}にも{使|つか}える。",
+      "japanese": "ICカード⟦は→は：00079_ha⟧⟦{電車|でんしゃ}→電車：00522_densha⟧⟦だけでなく→〜だけでなく：18373_dakedenaku⟧、⟦コンビニ→コンビニ：01081_konbini⟧⟦の→の：09472_no⟧⟦{買|か}い{物|もの}→買い物：00853_kaimono⟧⟦に→に：00314_ni⟧⟦も→も：00484_mo⟧⟦{使|つか}える→使う：00473_tsukau⟧。",
       "english": "IC cards can be used not only for trains but also for shopping at convenience stores.",
       "sense_numbers": [
         1
@@ -45,7 +45,7 @@
     },
     {
       "id": "23527_aishiikaado_ex4",
-      "japanese": "{改札|かいさつ}でICカードをタッチする。",
+      "japanese": "⟦{改札|かいさつ}→改札：04120_kaisatsu⟧⟦で→で：00502_de⟧ICカード⟦を→を：00422_wo⟧⟦タッチ→タッチ：08915_tacchi⟧⟦する→する：00392_suru⟧。",
       "english": "To tap the IC card at the ticket gate.",
       "sense_numbers": [
         1
@@ -54,8 +54,17 @@
       "notes": null
     }
   ],
-  "notes": "An indispensable tool for daily life in Japan. IC cards are rechargeable contactless smart cards embedded with an IC chip. They are used to pay for train and bus fares by tapping on a reader at station gates, and are also widely accepted for small purchases at convenience stores, vending machines, and shops.\n\nMAJOR IC CARD BRANDS:\n- Suica (スイカ): JR East (Tokyo area)\n- Pasmo (パスモ): private railways and buses in the Tokyo area\n- ICOCA (イコカ): JR West (Osaka/Kansai area)\n- Kitaca, TOICA, manaca, SUGOCA, nimoca, はやかけん: other regional cards\n\nCOMMON COLLOCATIONS:\n- ICカードをチャージする: to recharge/top up an IC card\n- ICカードをタッチする: to tap an IC card\n- ICカードの{残高|ざんだか}: IC card balance\n- ICカードで{支払|しはら}う: to pay with an IC card\n\nSIMILAR WORDS:\n- {交通系|こうつうけい}ICカード: transit IC card — the more specific term emphasizing its transportation use\n- {定期券|ていきけん}: commuter pass — a separate concept, though IC cards can also function as commuter passes",
+  "notes": "An indispensable tool for daily life in Japan. IC cards are rechargeable contactless smart cards embedded with an IC chip. They are used to pay for train and bus fares by tapping on a reader at station gates, and are also widely accepted for small purchases at convenience stores, vending machines, and shops.\n\nMAJOR IC CARD BRANDS:\n- Suica (スイカ): JR East (Tokyo area)\n- Pasmo (パスモ): private railways and buses in the Tokyo area\n- ICOCA (イコカ): JR West (Osaka/Kansai area)\n- Kitaca, TOICA, manaca, SUGOCA, nimoca, はやかけん: other regional cards\n\nCOMMON COLLOCATIONS:\n- ICカード⟦を→を：00422_wo⟧⟦チャージ→チャージ：09729_chaaji⟧⟦する→する：00392_suru⟧: to recharge/top up an IC card\n- ICカード⟦を→を：00422_wo⟧⟦タッチ→タッチ：08915_tacchi⟧⟦する→する：00392_suru⟧: to tap an IC card\n- ICカード⟦の→の：09472_no⟧⟦{残高|ざんだか}→残高：05422_zandaka⟧: IC card balance\n- ICカード⟦で→で：00502_de⟧⟦{支払|しはら}う→支払う：02116_shiharau⟧: to pay with an IC card\n\nSIMILAR WORDS:\n- {交通系|こうつうけい}ICカード: transit IC card — the more specific term emphasizing its transportation use\n- ⟦{定期券|ていきけん}→定期券：01064_teikiken⟧: commuter pass — a separate concept, though IC cards can also function as commuter passes",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01064_teikiken",
+      "reading": "ていきけん",
+      "headword": "{定期券|ていきけん}",
+      "label": "commuter pass"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -71,6 +80,6 @@
       ]
     },
     "created": "2026-04-12T15:10:44Z",
-    "modified": "2026-08-01T21:36:06Z"
+    "modified": "2026-09-02T04:02:13Z"
   }
 }

@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "07325_pachinko_ex1",
-      "japanese": "{駅前|えきまえ}にパチンコ{屋|や}がたくさんある。",
+      "japanese": "⟦{駅前|えきまえ}→駅前：09593_ekimae⟧⟦に→に：00314_ni⟧パチンコ⟦{屋|や}→〜屋：03096_ya⟧⟦が→が：00051_ga⟧⟦たくさん→たくさん：00597_takusan⟧⟦ある→ある：00006_aru⟧。",
       "english": "There are many pachinko parlors in front of the station.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "07325_pachinko_ex2",
-      "japanese": "{父|ちち}は{週末|しゅうまつ}によくパチンコに{行|い}く。",
+      "japanese": "⟦{父|ちち}→父：00566_chichi⟧⟦は→は：00079_ha⟧⟦{週末|しゅうまつ}→週末：03030_shuumatsu⟧⟦に→に：00314_ni⟧⟦よく→よく：00601_yoku⟧パチンコ⟦に→に：00314_ni⟧⟦{行|い}く→行く：00119_iku⟧。",
       "english": "My father often goes to play pachinko on weekends.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "07325_pachinko_ex3",
-      "japanese": "パチンコで{大当|おおあ}たりした。",
+      "japanese": "パチンコ⟦で→で：00502_de⟧⟦{大当|おおあ}たり→大当たり：15927_ooatari⟧⟦した→する：00392_suru⟧。",
       "english": "I hit the jackpot at pachinko.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "CULTURAL CONTEXT:\nPachinko is one of Japan's most popular forms of gambling entertainment. Due to gambling laws, pachinko parlors cannot directly pay cash prizes. Instead, players exchange their balls for prizes, which can then be sold for cash at nearby exchange shops.\n\nCOMMON COLLOCATIONS:\n・パチンコを{打|う}つ (to play pachinko)\n・パチンコに{行|い}く (to go to pachinko)\n・パチンコ{屋|や}/パチンコ{店|てん} (pachinko parlor)\n・{大当|おおあ}たり (jackpot)\n\nETYMOLOGY:\nThe name comes from the onomatopoeia パチン (the sound of balls hitting pins).\n\nRELATED:\n・スロット (slot machines, often found in same parlors)",
+  "notes": "CULTURAL NOTE:\nPachinko is one of Japan's most popular forms of gambling entertainment. Due to gambling laws, pachinko parlors cannot directly pay cash prizes. Instead, players exchange their balls for prizes, which can then be sold for cash at nearby exchange shops.\n\nCOMMON COLLOCATIONS:\n- パチンコ⟦を→を：00422_wo⟧⟦{打|う}つ→打つ：01221_utsu⟧ (to play pachinko)\n- パチンコ⟦に→に：00314_ni⟧⟦{行|い}く→行く：00119_iku⟧ (to go to pachinko)\n- パチンコ⟦{屋|や}→〜屋：03096_ya⟧/パチンコ⟦{店|てん}→店：10011_ten⟧ (pachinko parlor)\n- ⟦{大当|おおあ}たり→大当たり：15927_ooatari⟧ (jackpot)\n\nETYMOLOGY:\nThe name comes from the onomatopoeia パチン (the sound of balls hitting pins).\n\nRELATED WORDS:\n- ⟦スロット→スロット：08841_surotto⟧ (slot machines, often found in same parlors)",
   "cross_references": [
     {
       "type": "related",
@@ -51,11 +51,18 @@
       "headword": "スロット",
       "label": "slot machine",
       "target_id": "08841_surotto"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10811_gyanburu",
+      "reading": "ぎゃんぶる",
+      "headword": "ギャンブル",
+      "label": "gambling"
     }
   ],
   "metadata": {
     "created": "2026-01-19T04:35:46Z",
-    "modified": "2026-02-03T14:48:46Z",
+    "modified": "2026-09-02T04:01:10Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

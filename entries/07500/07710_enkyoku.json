@@ -14,27 +14,33 @@
   "examples": [
     {
       "id": "07710_enkyoku_ex1",
-      "japanese": "{婉曲|えんきょく}な{言|い}い{方|かた}をする。",
+      "japanese": "{婉曲|えんきょく}な⟦{言|い}い{方|かた}→言い方：14165_iikata⟧⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧。",
       "english": "To speak in an indirect way.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "07710_enkyoku_ex2",
-      "japanese": "{婉曲|えんきょく}に{断|ことわ}った。",
+      "japanese": "{婉曲|えんきょく}⟦に→に：00314_ni⟧⟦{断|ことわ}った→断る：02102_kotowaru⟧。",
       "english": "I declined indirectly.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "07710_enkyoku_ex3",
-      "japanese": "{婉曲|えんきょく}{表現|ひょうげん}を{使|つか}ったほうがいい。",
+      "japanese": "{婉曲|えんきょく}⟦{表現|ひょうげん}→表現：03584_hyougen⟧⟦を→を：00422_wo⟧⟦{使|つか}った→使う：00473_tsukau⟧⟦ほうがいい→ほうがいい：10078_hougaii⟧。",
       "english": "You should use euphemistic expressions.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "ETYMOLOGY:\n{婉|えん} (graceful, gentle) + {曲|きょく} (curved, indirect)\n\nUSAGE IN JAPANESE COMMUNICATION:\nIndirect communication is valued in Japanese culture. Using {婉曲|えんきょく}{表現|ひょうげん} (euphemisms) helps maintain harmony and avoid direct confrontation.\n\nCOMMON PATTERNS:\n・{婉曲|えんきょく}な{言|い}い{方|かた} - indirect way of speaking\n・{婉曲|えんきょく}に{断|ことわ}る - to decline indirectly\n・{婉曲|えんきょく}{表現|ひょうげん} - euphemism\n\nRELATED:\n・{遠回|とおまわ}し - roundabout, indirect\n・{暗示|あんじ} - hint, suggestion\n・{直接的|ちょくせつてき} - direct (antonym)",
+  "notes": "ETYMOLOGY:\n{婉|えん} (graceful, gentle) + ⟦{曲|きょく}→曲：09881_kyoku⟧ (curved, indirect)\n\nUSAGE IN JAPANESE COMMUNICATION:\nIndirect communication is valued in Japanese culture. Using {婉曲|えんきょく}⟦{表現|ひょうげん}→表現：03584_hyougen⟧ (euphemisms) helps maintain harmony and avoid direct confrontation.\n\nCOMMON PATTERNS:\n- {婉曲|えんきょく}な⟦{言|い}い{方|かた}→言い方：14165_iikata⟧ - indirect way of speaking\n- {婉曲|えんきょく}⟦に→に：00314_ni⟧⟦{断|ことわ}る→断る：02102_kotowaru⟧ - to decline indirectly\n- {婉曲|えんきょく}⟦{表現|ひょうげん}→表現：03584_hyougen⟧ - euphemism\n\nRELATED WORDS:\n- ⟦{遠回|とおまわ}し→遠回し：08054_toomawashi⟧ - roundabout, indirect\n- ⟦{暗示|あんじ}→暗示：07711_anji⟧ - hint, suggestion\n- ⟦{直接的|ちょくせつてき}→直接的：06093_chokusetsuteki⟧ - direct (antonym)",
   "cross_references": [
     {
       "type": "synonym",
@@ -49,17 +55,38 @@
       "reading": "ちょくせつ",
       "headword": "{直接|ちょくせつ}",
       "label": "direct"
+    },
+    {
+      "type": "related",
+      "target_id": "07711_anji",
+      "reading": "あんじ",
+      "headword": "{暗示|あんじ}",
+      "label": "hint, suggestion"
+    },
+    {
+      "type": "antonym",
+      "target_id": "06093_chokusetsuteki",
+      "reading": "ちょくせつてき",
+      "headword": "{直接的|ちょくせつてき}",
+      "label": "direct"
     }
   ],
   "metadata": {
     "created": "2026-01-20T23:30:51Z",
-    "modified": "2026-04-19T07:06:18Z",
+    "modified": "2026-09-02T04:01:12Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-na", "noun"],
+      "pos": [
+        "adjective-na",
+        "noun"
+      ],
       "formality": "formal",
-      "semantic": ["communication", "language"],
+      "politeness": "plain",
+      "semantic": [
+        "communication",
+        "language"
+      ],
       "domain": []
     }
   }

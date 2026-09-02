@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "10445_tomaru_ex1",
-      "japanese": "ホテルに{泊|と}まる。",
+      "japanese": "⟦ホテル→ホテル：01027_hoteru⟧⟦に→に：00314_ni⟧{泊|と}まる。",
       "english": "To stay at a hotel.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "10445_tomaru_ex2",
-      "japanese": "{友達|ともだち}の{家|いえ}に{泊|と}まった。",
+      "japanese": "⟦{友達|ともだち}→友達：01478_tomodachi⟧⟦の→の：09472_no⟧⟦{家|いえ}→家：00612_ie⟧⟦に→に：00314_ni⟧{泊|と}まった。",
       "english": "I stayed over at a friend's house.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "10445_tomaru_ex3",
-      "japanese": "{京都|きょうと}で{二泊|にはく}{泊|と}まって、{観光|かんこう}を{楽|たの}しんだ。",
+      "japanese": "⟦{京都|きょうと}→京都：09484_kyouto⟧⟦で→で：00502_de⟧⟦{二泊|にはく}→二泊：30783_nihaku⟧{泊|と}まって、⟦{観光|かんこう}→観光：00173_kankou⟧⟦を→を：00422_wo⟧⟦{楽|たの}しんだ→楽しむ：01203_tanoshimu⟧。",
       "english": "I stayed two nights in Kyoto and enjoyed sightseeing.",
       "notes": null,
       "has_audio": false,
@@ -164,7 +164,7 @@
       ]
     }
   ],
-  "notes": "{泊|と}まる means to stay overnight. Different kanji from {止|と}まる (to stop).\n\nTRANSITIVITY:\n- Type: Intransitive ({自動詞|じどうし})\n- Transitive pair: {泊|と}める (to accommodate, to let someone stay)\n\nCOMMON PATTERNS:\n- 〜に{泊|と}まる: to stay at ~\n- {一泊|いっぱく}する: to stay one night\n- {泊|と}まりがけで: staying overnight\n\nSIMILAR WORDS:\n- {泊|と}まる: to stay overnight (at accommodation)\n- {止|と}まる: to stop (movement ceases)\n- {宿泊|しゅくはく}する: to lodge (formal)",
+  "notes": "{泊|と}まる means to stay overnight. Different kanji from ⟦{止|と}まる→止まる：00555_tomaru⟧ (to stop).\n\nTRANSITIVITY:\n- Type: Intransitive (⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧)\n- Transitive pair: ⟦{泊|と}める→泊める：13281_tomeru⟧ (to accommodate, to let someone stay)\n\nCOMMON PATTERNS:\n- 〜⟦に→に：00314_ni⟧{泊|と}まる: to stay at ~\n- ⟦{一泊|いっぱく}→一泊：08892_ippaku⟧⟦する→する：00392_suru⟧: to stay one night\n- ⟦{泊|と}まりがけ→泊まりがけ：08716_tomarigake⟧⟦で→で：00502_de⟧: staying overnight\n\nSIMILAR WORDS:\n- {泊|と}まる: to stay overnight (at accommodation)\n- ⟦{止|と}まる→止まる：00555_tomaru⟧: to stop (movement ceases)\n- ⟦{宿泊|しゅくはく}する→宿泊する：20231_shukuhakusuru⟧: to lodge (formal)",
   "cross_references": [
     {
       "type": "homophone",
@@ -172,11 +172,32 @@
       "headword": "{止|と}まる",
       "label": "to stop",
       "target_id": "00555_tomaru"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20231_shukuhakusuru",
+      "reading": "しゅくはくする",
+      "headword": "{宿泊|しゅくはく}する",
+      "label": "to lodge"
+    },
+    {
+      "type": "related",
+      "target_id": "17613_gaihaku",
+      "reading": "がいはく",
+      "headword": "{外泊|がいはく}",
+      "label": "staying out overnight"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26834_taizaisuru",
+      "reading": "たいざいする",
+      "headword": "{滞在|たいざい}する",
+      "label": "to stay"
     }
   ],
   "metadata": {
     "created": "2026-02-07T11:20:16Z",
-    "modified": "2026-08-15T15:28:52Z",
+    "modified": "2026-09-02T04:01:21Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

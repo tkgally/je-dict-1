@@ -16,7 +16,7 @@
   "examples": [
     {
       "id": "24447_kyokugeishi_ex1",
-      "japanese": "サーカスの{曲芸師|きょくげいし}がすごい{技|わざ}を{見|み}せた。",
+      "japanese": "⟦サーカス→サーカス：20826_saakasu⟧⟦の→の：09472_no⟧{曲芸師|きょくげいし}⟦が→が：00051_ga⟧⟦すごい→すごい：01128_sugoi⟧⟦{技|わざ}→技：02172_waza⟧⟦を→を：00422_wo⟧⟦{見|み}せた→見せる：01988_miseru⟧。",
       "english": "The circus acrobat showed an amazing trick.",
       "sense_numbers": [
         1
@@ -26,7 +26,7 @@
     },
     {
       "id": "24447_kyokugeishi_ex2",
-      "japanese": "{曲芸師|きょくげいし}が{綱|つな}の{上|うえ}で{自転車|じてんしゃ}に{乗|の}っている。",
+      "japanese": "{曲芸師|きょくげいし}⟦が→が：00051_ga⟧⟦{綱|つな}→綱：03891_tsuna⟧⟦の→の：09472_no⟧⟦{上|うえ}→上：00682_ue⟧⟦で→で：00502_de⟧⟦{自転車|じてんしゃ}→自転車：00633_jitensha⟧⟦に→に：00314_ni⟧⟦{乗|の}っている→乗る：00511_noru⟧。",
       "english": "The acrobat is riding a bicycle on a tightrope.",
       "sense_numbers": [
         1
@@ -36,7 +36,7 @@
     },
     {
       "id": "24447_kyokugeishi_ex3",
-      "japanese": "{幼|おさな}いころからサーカスで{育|そだ}った{彼女|かのじょ}は、{一流|いちりゅう}の{曲芸師|きょくげいし}として{世界中|せかいじゅう}を{回|まわ}っている。",
+      "japanese": "⟦{幼|おさな}い→幼い：02337_osanai⟧⟦ころ→〜ころ：03091_koro⟧⟦から→から：00504_kara⟧⟦サーカス→サーカス：20826_saakasu⟧⟦で→で：00502_de⟧⟦{育|そだ}った→育つ：01951_sodatsu⟧⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧、⟦{一流|いちりゅう}→一流：03009_ichiryuu⟧⟦の→の：09472_no⟧{曲芸師|きょくげいし}⟦として→として：06802_toshite⟧⟦{世界中|せかいじゅう}→世界中：10171_sekaijuu⟧⟦を→を：00422_wo⟧⟦{回|まわ}っている→回る：01150_mawaru⟧。",
       "english": "Having grown up in the circus since childhood, she travels the world as a top-class acrobat.",
       "sense_numbers": [
         1
@@ -45,19 +45,29 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {曲芸|きょくげい} (acrobatics/tricks) and {師|し} (master/professional). Refers to professional performers of acrobatic feats, juggling, and similar physical skills. While associated with circuses, traditional Japanese {曲芸|きょくげい} also includes street performance traditions dating back centuries.\n\nCOMMON COLLOCATIONS:\n- サーカスの{曲芸師|きょくげいし}: circus acrobat\n- {大道|だいどう}{曲芸師|きょくげいし}: street performer\n- {曲芸師|きょくげいし}の{技|わざ}: acrobat's trick\n\nSIMILAR WORDS:\n- {曲芸|きょくげい}: acrobatics — the art itself rather than the performer\n- {大道芸人|だいどうげいにん}: street performer — broader term for any street entertainer\n- {軽業師|かるわざし}: acrobat — older, more literary term emphasizing lightness and agility\n- ジャグラー: juggler — specifically someone who juggles",
+  "notes": "Composed of ⟦{曲芸|きょくげい}→曲芸：15699_kyokugei⟧ (acrobatics/tricks) and {師|し} (master/professional). Refers to professional performers of acrobatic feats, juggling, and similar physical skills. While associated with circuses, traditional Japanese ⟦{曲芸|きょくげい}→曲芸：15699_kyokugei⟧ also includes street performance traditions dating back centuries.\n\nCOMMON COLLOCATIONS:\n- ⟦サーカス→サーカス：20826_saakasu⟧⟦の→の：09472_no⟧{曲芸師|きょくげいし}: circus acrobat\n- {大道|だいどう}{曲芸師|きょくげいし}: street performer\n- {曲芸師|きょくげいし}⟦の→の：09472_no⟧⟦{技|わざ}→技：02172_waza⟧: acrobat's trick\n\nSIMILAR WORDS:\n- ⟦{曲芸|きょくげい}→曲芸：15699_kyokugei⟧: acrobatics — the art itself rather than the performer\n- ⟦{大道芸人|だいどうげいにん}→大道芸人：29758_daidougeinin⟧: street performer — broader term for any street entertainer\n- {軽業師|かるわざし}: acrobat — older, more literary term emphasizing lightness and agility\n- ジャグラー: juggler — specifically someone who juggles",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "29758_daidougeinin",
+      "reading": "だいどうげいにん",
+      "headword": "{大道芸人|だいどうげいにん}",
+      "label": "street performer"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "entertainment",
         "person"
       ]
     },
     "created": "2026-04-19T10:13:15Z",
-    "modified": "2026-08-02T18:32:34Z"
+    "modified": "2026-09-02T04:02:18Z"
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "12714_danko_ex1",
-      "japanese": "{断固|だんこ}{拒否|きょひ}する。",
+      "japanese": "{断固|だんこ}⟦{拒否|きょひ}する→拒否する：21331_kyohisuru⟧。",
       "english": "I firmly refuse.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "12714_danko_ex2",
-      "japanese": "{政府|せいふ}は{断固|だんこ}とした{態度|たいど}で{対応|たいおう}した。",
+      "japanese": "⟦{政府|せいふ}→政府：03294_seifu⟧⟦は→は：00079_ha⟧{断固|だんこ}とした⟦{態度|たいど}→態度：03396_taido⟧⟦で→で：00502_de⟧⟦{対応|たいおう}→対応：02510_taiou⟧⟦した→する：00392_suru⟧。",
       "english": "The government responded with a resolute stance.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "12714_danko_ex3",
-      "japanese": "{不正|ふせい}に{対|たい}しては{断固|だんこ}として{立|た}ち{向|む}かわなければならない。",
+      "japanese": "⟦{不正|ふせい}→不正：01660_fusei⟧⟦に{対|たい}して→に対して：06800_nitaishite⟧⟦は→は：00079_ha⟧{断固|だんこ}⟦として→として：06802_toshite⟧⟦{立|た}ち{向|む}かわ→立ち向かう：06981_tachimukau⟧⟦なければならない→なければならない：27600_nakerebanaranai⟧。",
       "english": "We must stand firmly against injustice.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{断固|だんこ} emphasizes unwavering resolve. It often appears in formal or official contexts — government statements, declarations of intent, or situations requiring strong will. Two forms are common:\n- {断固|だんこ} + verb: {断固|だんこ}{拒否|きょひ}する\n- {断固|だんこ}として + verb/adjective: {断固|だんこ}とした{態度|たいど}\n\nCOMMON COLLOCATIONS:\n- {断固|だんこ}{拒否|きょひ}する: to firmly refuse\n- {断固|だんこ}{反対|はんたい}する: to firmly oppose\n- {断固|だんこ}とした{態度|たいど}: a resolute attitude\n- {断固|だんこ}として{譲|ゆず}らない: to refuse to yield\n\nSIMILAR WORDS:\n- {毅然|きぜん}と: with firm dignity (emphasizes composure)\n- {断固|だんこ}: firmly, resolutely (emphasizes determination)\n- {断然|だんぜん}: definitely, by far (different meaning — see separate entry)",
+  "notes": "USAGE:\n{断固|だんこ} emphasizes unwavering resolve. It often appears in formal or official contexts — government statements, declarations of intent, or situations requiring strong will. Two forms are common:\n- {断固|だんこ} + verb: {断固|だんこ}⟦{拒否|きょひ}する→拒否する：21331_kyohisuru⟧\n- {断固|だんこ}⟦として→として：06802_toshite⟧ + verb/adjective: {断固|だんこ}とした⟦{態度|たいど}→態度：03396_taido⟧\n\nCOMMON COLLOCATIONS:\n- {断固|だんこ}⟦{拒否|きょひ}する→拒否する：21331_kyohisuru⟧: to firmly refuse\n- {断固|だんこ}⟦{反対|はんたい}する→反対する：05648_hantaisuru⟧: to firmly oppose\n- {断固|だんこ}とした⟦{態度|たいど}→態度：03396_taido⟧: a resolute attitude\n- {断固|だんこ}⟦として→として：06802_toshite⟧⟦{譲|ゆず}らない→譲る：02323_yuzuru⟧: to refuse to yield\n\nSIMILAR WORDS:\n- ⟦{毅然|きぜん}→毅然：09174_kizen⟧⟦と→と：00512_to⟧: with firm dignity (emphasizes composure)\n- {断固|だんこ}: firmly, resolutely (emphasizes determination)\n- ⟦{断然|だんぜん}→断然：12715_danzen⟧: definitely, by far (different meaning — see separate entry)",
   "cross_references": [
     {
       "type": "contrast",
@@ -52,11 +52,25 @@
       "reading": "だんぜん",
       "headword": "{断然|だんぜん}",
       "label": "definitely, by far"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21257_kizento",
+      "reading": "きぜんと",
+      "headword": "{毅然|きぜん}と",
+      "label": "with firm dignity"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21280_ketsuzen",
+      "reading": "けつぜん",
+      "headword": "{決然|けつぜん}",
+      "label": "resolute"
     }
   ],
   "metadata": {
     "created": "2026-02-22T06:20:51Z",
-    "modified": "2026-04-27T07:31:57Z",
+    "modified": "2026-09-02T04:01:30Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

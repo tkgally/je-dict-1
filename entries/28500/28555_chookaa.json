@@ -15,41 +15,67 @@
   "examples": [
     {
       "id": "28555_chookaa_ex1",
-      "japanese": "{首|くび}にチョーカーをつけている。",
+      "japanese": "⟦{首|くび}→首：00792_kubi⟧⟦に→に：00314_ni⟧チョーカー⟦を→を：00422_wo⟧⟦つけている→つける：00562_tsukeru⟧。",
       "english": "She's wearing a choker around her neck.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28555_chookaa_ex2",
-      "japanese": "{黒|くろ}いベルベットのチョーカーが{似合|にあ}う。",
+      "japanese": "⟦{黒|くろ}い→黒い：00588_kuroi⟧ベルベット⟦の→の：09472_no⟧チョーカー⟦が→が：00051_ga⟧⟦{似合|にあ}う→似合う：02134_niau⟧。",
       "english": "A black velvet choker suits her.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28555_chookaa_ex3",
-      "japanese": "{彼女|かのじょ}は{真珠|しんじゅ}のチョーカーをつけてパーティーに{出席|しゅっせき}した。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧⟦{真珠|しんじゅ}→真珠：19873_shinju⟧⟦の→の：09472_no⟧チョーカー⟦を→を：00422_wo⟧⟦つけて→つける：00562_tsukeru⟧⟦パーティー→パーティー：02946_paatii⟧⟦に→に：00314_ni⟧⟦{出席|しゅっせき}した→出席する：01830_shussekisuru⟧。",
       "english": "She attended the party wearing a pearl choker.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "From English 'choker'. The Japanese term is used specifically for the necklace style and does not carry the violent meaning the English word also has.\n\nCOMMON COLLOCATIONS:\n- チョーカーをつける: to wear a choker\n- {革|かわ}のチョーカー: leather choker\n- {真珠|しんじゅ}のチョーカー: pearl choker\n\nSIMILAR WORDS:\n- ネックレス: necklace — general term, typically longer\n- ペンダント: pendant — necklace with a hanging ornament",
+  "notes": "From English 'choker'. The Japanese term is used specifically for the necklace style and does not carry the violent meaning the English word also has.\n\nCOMMON COLLOCATIONS:\n- チョーカー⟦を→を：00422_wo⟧⟦つける→つける：00562_tsukeru⟧: to wear a choker\n- ⟦{革|かわ}→革：19310_kawa⟧⟦の→の：09472_no⟧チョーカー: leather choker\n- ⟦{真珠|しんじゅ}→真珠：19873_shinju⟧⟦の→の：09472_no⟧チョーカー: pearl choker\n\nSIMILAR WORDS:\n- ⟦ネックレス→ネックレス：04539_nekkuresu⟧: necklace — general term, typically longer\n- ⟦ペンダント→ペンダント：27325_pendanto⟧: pendant — necklace with a hanging ornament",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04539_nekkuresu",
+      "reading": "ねっくれす",
+      "headword": "ネックレス",
+      "label": "necklace"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27325_pendanto",
+      "reading": "ぺんだんと",
+      "headword": "ペンダント",
+      "label": "pendant"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["clothing"],
+      "politeness": "plain",
+      "semantic": [
+        "clothing"
+      ],
       "domain": []
     },
     "created": "2026-06-02T02:07:31Z",
-    "modified": "2026-06-02T02:07:31Z"
+    "modified": "2026-09-02T04:02:34Z"
   }
 }

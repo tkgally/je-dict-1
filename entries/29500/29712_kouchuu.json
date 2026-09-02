@@ -16,41 +16,75 @@
   "examples": [
     {
       "id": "29712_kouchuu_ex1",
-      "japanese": "{後注|こうちゅう}にまとめる。",
+      "japanese": "{後注|こうちゅう}⟦に→に：00314_ni⟧⟦まとめる→まとめる：02424_matomeru⟧。",
       "english": "To gather (them) in endnotes.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29712_kouchuu_ex2",
-      "japanese": "この{論文|ろんぶん}は{脚注|きゃくちゅう}ではなく{後注|こうちゅう}を{使|つか}っている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{論文|ろんぶん}→論文：03787_ronbun⟧⟦は→は：00079_ha⟧⟦{脚注|きゃくちゅう}→脚注：06423_kyakuchuu⟧⟦ではなく→ではなく：09578_dehanaku⟧{後注|こうちゅう}⟦を→を：00422_wo⟧⟦{使|つか}っている→使う：00473_tsukau⟧。",
       "english": "This paper uses endnotes rather than footnotes.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29712_kouchuu_ex3",
-      "japanese": "{読|よ}みやすさを{優先|ゆうせん}して、{注釈|ちゅうしゃく}はすべて{後注|こうちゅう}にした。",
+      "japanese": "⟦{読|よ}み→読む：00426_yomu⟧やすさ⟦を→を：00422_wo⟧⟦{優先|ゆうせん}→優先：15243_yuusen⟧⟦して→する：00392_suru⟧、⟦{注釈|ちゅうしゃく}→注釈：09766_chuushaku⟧⟦は→は：00079_ha⟧すべて{後注|こうちゅう}にした。",
       "english": "Prioritizing readability, we moved all the annotations to endnotes.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "COMPOSITION: {後|こう} (after, later) + {注|ちゅう} (note, annotation). Literally \"a note placed afterward.\"\n\nRELATED TERMS:\n- {巻末注|かんまつちゅう}: endnote — a near-synonym stressing placement at the very back of the book\n- {脚注|きゃくちゅう}: footnote — a note at the foot of the same page\n- {注釈|ちゅうしゃく}: annotation, commentary — the general term",
-  "cross_references": [],
+  "notes": "COMPOSITION: {後|こう} (after, later) + ⟦{注|ちゅう}→注：03434_chuu⟧ (note, annotation). Literally \"a note placed afterward.\"\n\nRELATED WORDS:\n- ⟦{巻末注|かんまつちゅう}→巻末注：29711_kanmatsuchuu⟧: endnote — a near-synonym stressing placement at the very back of the book\n- ⟦{脚注|きゃくちゅう}→脚注：06423_kyakuchuu⟧: footnote — a note at the foot of the same page\n- ⟦{注釈|ちゅうしゃく}→注釈：09766_chuushaku⟧: annotation, commentary — the general term",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "29711_kanmatsuchuu",
+      "reading": "かんまつちゅう",
+      "headword": "{巻末注|かんまつちゅう}",
+      "label": "endnote"
+    },
+    {
+      "type": "related",
+      "target_id": "06423_kyakuchuu",
+      "reading": "きゃくちゅう",
+      "headword": "{脚注|きゃくちゅう}",
+      "label": "footnote"
+    },
+    {
+      "type": "related",
+      "target_id": "09766_chuushaku",
+      "reading": "ちゅうしゃく",
+      "headword": "{注釈|ちゅうしゃく}",
+      "label": "annotation, commentary"
+    }
+  ],
   "metadata": {
     "created": "2026-07-06T21:18:51Z",
-    "modified": "2026-07-06T21:18:51Z",
+    "modified": "2026-09-02T04:02:37Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["academic"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "academic"
+      ]
     }
   }
 }

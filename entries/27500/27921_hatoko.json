@@ -15,41 +15,67 @@
   "examples": [
     {
       "id": "27921_hatoko_ex1",
-      "japanese": "{彼女|かのじょ}は{私|わたし}のはとこだ。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧⟦{私|わたし}→私：02988_watashi⟧⟦の→の：09472_no⟧はとこだ。",
       "english": "She is my second cousin.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27921_hatoko_ex2",
-      "japanese": "{法事|ほうじ}ではとこに{久|ひさ}しぶりに{会|あ}った。",
+      "japanese": "⟦{法事|ほうじ}→法事：05634_houji⟧⟦で→で：00502_de⟧はとこ⟦に→に：00314_ni⟧⟦{久|ひさ}しぶり→久しぶり：01711_hisashiburi⟧⟦に→に：00314_ni⟧⟦{会|あ}った→会う：00482_au⟧。",
       "english": "I saw my second cousin for the first time in a while at the memorial service.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27921_hatoko_ex3",
-      "japanese": "はとことは{祖父母|そふぼ}の{兄弟|きょうだい}の{孫|まご}にあたる{関係|かんけい}だ。",
+      "japanese": "はとこ⟦と→と：00512_to⟧⟦は→は：00079_ha⟧⟦{祖父母|そふぼ}→祖父母：03110_sofubo⟧⟦の→の：09472_no⟧⟦{兄弟|きょうだい}→兄弟：00964_kyoudai⟧⟦の→の：09472_no⟧⟦{孫|まご}→孫：03731_mago⟧⟦に→に：00314_ni⟧あたる⟦{関係|かんけい}→関係：01298_kankei⟧だ。",
       "english": "A second cousin is the grandchild of one's grandparent's sibling.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A second cousin: the child of a parent's cousin, sharing a great-grandparent. Also said as またいとこ or written {再従兄弟|はとこ} (and several other kanji forms by sex), though the kana form is most common.\n\nSIMILAR WORDS:\n- いとこ: (first) cousin — the child of a parent's sibling; one generation closer than はとこ\n- {親戚|しんせき}: relative — the general term for any extended-family relation",
+  "notes": "A second cousin: the child of a parent's cousin, sharing a great-grandparent. Also said as ⟦また→また：00969_mata⟧⟦いとこ→いとこ：01816_itoko⟧ or written {再従兄弟|はとこ} (and several other kanji forms by sex), though the kana form is most common.\n\nSIMILAR WORDS:\n- ⟦いとこ→いとこ：01816_itoko⟧: (first) cousin — the child of a parent's sibling; one generation closer than はとこ\n- ⟦{親戚|しんせき}→親戚：03260_shinseki⟧: relative — the general term for any extended-family relation",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01816_itoko",
+      "reading": "いとこ",
+      "headword": "いとこ",
+      "label": "(first) cousin"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03260_shinseki",
+      "reading": "しんせき",
+      "headword": "{親戚|しんせき}",
+      "label": "relative"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["family"],
+      "politeness": "plain",
+      "semantic": [
+        "family"
+      ],
       "domain": []
     },
     "created": "2026-05-23T02:04:30Z",
-    "modified": "2026-05-23T02:04:30Z"
+    "modified": "2026-09-02T04:02:32Z"
   }
 }

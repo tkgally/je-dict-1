@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26474_nakazaki_ex1",
-      "japanese": "{噂|うわさ}が{二人|ふたり}の{仲裂|なかざ}きの{原因|げんいん}になった。",
+      "japanese": "⟦{噂|うわさ}→噂：01871_uwasa⟧⟦が→が：00051_ga⟧⟦{二人|ふたり}→二人：00622_futari⟧⟦の→の：09472_no⟧{仲裂|なかざ}き⟦の→の：09472_no⟧⟦{原因|げんいん}→原因：01400_genin⟧になった。",
       "english": "Rumors caused the estrangement between the two.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26474_nakazaki_ex2",
-      "japanese": "{親子|おやこ}の{仲裂|なかざ}きをする{人|ひと}がいて{困|こま}っている。",
+      "japanese": "⟦{親子|おやこ}→親子：10430_oyako⟧⟦の→の：09472_no⟧{仲裂|なかざ}き⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧⟦{人|ひと}→人：00476_hito⟧がいて⟦{困|こま}っている→困る：00861_komaru⟧。",
       "english": "Someone is driving a wedge between the parent and child, and it's a problem.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26474_nakazaki_ex3",
-      "japanese": "{昔話|むかしばなし}には{恋人|こいびと}の{仲裂|なかざ}きをする{悪役|あくやく}がよく{登場|とうじょう}する。",
+      "japanese": "⟦{昔話|むかしばなし}→昔話：12718_mukashibanashi⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{恋人|こいびと}→恋人：02724_koibito⟧⟦の→の：09472_no⟧{仲裂|なかざ}き⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧⟦{悪役|あくやく}→悪役：12675_akuyaku⟧⟦が→が：00051_ga⟧⟦よく→よく：00601_yoku⟧⟦{登場|とうじょう}→登場：13625_toujou⟧⟦する→する：00392_suru⟧。",
       "english": "In old tales, villains who split lovers apart often appear.",
       "sense_numbers": [
         1
@@ -44,8 +44,16 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {仲|なか} (relationship, friendship) and {裂|さ}き (tearing, splitting), from the verb {裂|さ}く (to tear apart). The more common expression for this concept is {仲|なか}を{裂|さ}く (to tear apart a relationship), which uses the same components as a verb phrase. {仲裂|なかざ}き nominalizes this action.\n\nCOMMON COLLOCATIONS:\n- {仲裂|なかざ}きをする: to drive a wedge between people\n- {仲裂|なかざ}きの{原因|げんいん}: cause of estrangement\n- {恋人|こいびと}の{仲裂|なかざ}き: splitting apart lovers\n\nSIMILAR WORDS:\n- {仲違|なかたが}い: falling out, quarrel — when two people have a disagreement and become estranged, without necessarily involving a third party\n- {離間|りかん}: alienation, estrangement — a more formal term for deliberately creating distance between people\n- {仲|なか}を{裂|さ}く: to tear apart a relationship — the verb phrase expressing the same action",
-  "cross_references": [],
+  "notes": "Composed of ⟦{仲|なか}→仲：09513_naka⟧ (relationship, friendship) and ⟦{裂|さ}き→裂く：02107_saku⟧ (tearing, splitting), from the verb ⟦{裂|さ}く→裂く：02107_saku⟧ (to tear apart). The more common expression for this concept is ⟦{仲|なか}→仲：09513_naka⟧⟦を→を：00422_wo⟧⟦{裂|さ}く→裂く：02107_saku⟧ (to tear apart a relationship), which uses the same components as a verb phrase. {仲裂|なかざ}き nominalizes this action.\n\nCOMMON COLLOCATIONS:\n- {仲裂|なかざ}き⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧: to drive a wedge between people\n- {仲裂|なかざ}き⟦の→の：09472_no⟧⟦{原因|げんいん}→原因：01400_genin⟧: cause of estrangement\n- ⟦{恋人|こいびと}→恋人：02724_koibito⟧⟦の→の：09472_no⟧{仲裂|なかざ}き: splitting apart lovers\n\nSIMILAR WORDS:\n- ⟦{仲違|なかたが}い→仲違い：14878_nakatagai⟧: falling out, quarrel — when two people have a disagreement and become estranged, without necessarily involving a third party\n- {離間|りかん}: alienation, estrangement — a more formal term for deliberately creating distance between people\n- ⟦{仲|なか}→仲：09513_naka⟧⟦を→を：00422_wo⟧⟦{裂|さ}く→裂く：02107_saku⟧: to tear apart a relationship — the verb phrase expressing the same action",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14878_nakatagai",
+      "reading": "なかたがい",
+      "headword": "{仲違|なかたが}い",
+      "label": "falling out, quarrel"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,11 +61,12 @@
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "society"
       ]
     },
     "created": "2026-05-02T11:35:25Z",
-    "modified": "2026-08-06T00:43:53Z"
+    "modified": "2026-09-02T04:02:26Z"
   }
 }

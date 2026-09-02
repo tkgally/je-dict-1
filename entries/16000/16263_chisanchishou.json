@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "16263_chisanchishou_ex1",
-      "japanese": "{地産地消|ちさんちしょう}を{心|こころ}がけている。",
+      "japanese": "{地産地消|ちさんちしょう}⟦を→を：00422_wo⟧⟦{心|こころ}がけている→心がける：10015_kokorogakeru⟧。",
       "english": "I make an effort to buy locally produced goods.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16263_chisanchishou_ex2",
-      "japanese": "このレストランは{地産地消|ちさんちしょう}にこだわっている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦レストラン→レストラン：01048_resutoran⟧⟦は→は：00079_ha⟧{地産地消|ちさんちしょう}⟦に→に：00314_ni⟧⟦こだわっている→こだわる：10319_kodawaru⟧。",
       "english": "This restaurant is committed to using locally sourced ingredients.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16263_chisanchishou_ex3",
-      "japanese": "{地産地消|ちさんちしょう}の{取|と}り{組|く}みが{全国|ぜんこく}に{広|ひろ}がっている。",
+      "japanese": "{地産地消|ちさんちしょう}⟦の→の：09472_no⟧⟦{取|と}り{組|く}み→取り組み：10403_torikumi⟧⟦が→が：00051_ga⟧⟦{全国|ぜんこく}→全国：03311_zenkoku⟧⟦に→に：00314_ni⟧⟦{広|ひろ}がっている→広がる：01980_hirogaru⟧。",
       "english": "Efforts toward local production for local consumption are spreading across the country.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{地産地消|ちさんちしょう} is an abbreviation of {地域|ちいき}{生産|せいさん}{地域|ちいき}{消費|しょうひ} (regional production, regional consumption). It is composed of {地|ち} (local) + {産|さん} (production) + {地|ち} (local) + {消|しょう} (consumption).\n\nCOMMON COLLOCATIONS:\n- {地産地消|ちさんちしょう}を{推進|すいしん}する: to promote local consumption of local products\n- {地産地消|ちさんちしょう}の{取|と}り{組|く}み: efforts toward local production/consumption\n- {地産地消|ちさんちしょう}にこだわる: to be particular about local sourcing\n\nCULTURAL NOTE: This concept is widely promoted in Japan through farmers' markets ({直売所|ちょくばいじょ}), school lunch programs, and restaurant branding. It is associated with freshness, supporting local farmers, and reducing food miles.",
+  "notes": "{地産地消|ちさんちしょう} is an abbreviation of ⟦{地域|ちいき}→地域：01461_chiiki⟧⟦{生産|せいさん}→生産：01444_seisan⟧⟦{地域|ちいき}→地域：01461_chiiki⟧⟦{消費|しょうひ}→消費：03240_shouhi⟧ (regional production, regional consumption). It is composed of {地|ち} (local) + {産|さん} (production) + {地|ち} (local) + {消|しょう} (consumption).\n\nCOMMON COLLOCATIONS:\n- {地産地消|ちさんちしょう}⟦を→を：00422_wo⟧⟦{推進|すいしん}する→推進する：17281_suishinsuru⟧: to promote local consumption of local products\n- {地産地消|ちさんちしょう}⟦の→の：09472_no⟧⟦{取|と}り{組|く}み→取り組み：10403_torikumi⟧: efforts toward local production/consumption\n- {地産地消|ちさんちしょう}⟦に→に：00314_ni⟧⟦こだわる→こだわる：10319_kodawaru⟧: to be particular about local sourcing\n\nCULTURAL NOTE: This concept is widely promoted in Japan through farmers' markets (⟦{直売所|ちょくばいじょ}→直売所：13746_chokubaijo⟧), school lunch programs, and restaurant branding. It is associated with freshness, supporting local farmers, and reducing food miles.",
   "cross_references": [
     {
       "type": "related",
@@ -46,17 +52,28 @@
       "reading": "じきゅうじそく",
       "headword": "{自給自足|じきゅうじそく}",
       "label": "self-sufficiency"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19848_jiba",
+      "reading": "じば",
+      "headword": "{地場|じば}",
+      "label": "local, regional, locally-based"
     }
   ],
   "metadata": {
     "created": "2026-03-11T10:33:43Z",
-    "modified": "2026-05-03T07:09:48Z",
+    "modified": "2026-09-02T04:01:44Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food"]
+      "semantic": [
+        "food"
+      ]
     }
   }
 }

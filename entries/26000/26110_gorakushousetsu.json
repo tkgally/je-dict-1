@@ -15,39 +15,65 @@
   "examples": [
     {
       "id": "26110_gorakushousetsu_ex1",
-      "japanese": "{娯楽|ごらく}{小説|しょうせつ}を{読|よ}むのが{好|す}きだ。",
+      "japanese": "{娯楽|ごらく}{小説|しょうせつ}⟦を→を：00422_wo⟧⟦{読|よ}む→読む：00426_yomu⟧⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦{好|す}き→好き：02355_suki⟧だ。",
       "english": "I like reading popular fiction.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26110_gorakushousetsu_ex2",
-      "japanese": "この{作家|さっか}は{純文学|じゅんぶんがく}より{娯楽|ごらく}{小説|しょうせつ}で{知|し}られている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{作家|さっか}→作家：01414_sakka⟧⟦は→は：00079_ha⟧⟦{純文学|じゅんぶんがく}→純文学：13983_junbungaku⟧⟦より→より：09476_yori⟧{娯楽|ごらく}{小説|しょうせつ}⟦で→で：00502_de⟧⟦{知|し}られている→知る：00458_shiru⟧。",
       "english": "This author is better known for popular fiction than for literary novels.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26110_gorakushousetsu_ex3",
-      "japanese": "{娯楽|ごらく}{小説|しょうせつ}だからといって{価値|かち}が{低|ひく}いわけではない。",
+      "japanese": "{娯楽|ごらく}{小説|しょうせつ}だ⟦からといって→からといって：30623_karatoitte⟧⟦{価値|かち}→価値：00131_kachi⟧⟦が→が：00051_ga⟧⟦{低|ひく}い→低い：02947_hikui⟧わけ⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦ない→ない：01118_nai⟧。",
       "english": "Just because something is popular fiction doesn't mean it has less value.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {娯楽|ごらく} (entertainment; amusement) and {小説|しょうせつ} (novel). In Japanese literary discourse, fiction is traditionally divided into {純文学|じゅんぶんがく} (literary fiction/serious literature) and {娯楽|ごらく}{小説|しょうせつ} (entertainment fiction). This distinction parallels but is not identical to the Western literary/genre fiction divide.\n\nCOMMON COLLOCATIONS:\n- {娯楽|ごらく}{小説|しょうせつ}を{書|か}く: to write popular fiction\n- {娯楽|ごらく}{小説|しょうせつ}{作家|さっか}: popular fiction writer\n- {娯楽|ごらく}{小説|しょうせつ}と{純文学|じゅんぶんがく}: popular fiction and literary fiction\n\nSIMILAR WORDS:\n- {純文学|じゅんぶんがく}: literary fiction; serious literature — the counterpart, emphasizing artistic merit\n- {大衆|たいしゅう}{小説|しょうせつ}: popular novel; mass-market fiction — nearly synonymous, emphasizes broad readership\n- ライトノベル: light novel — a specific modern genre targeted at young readers, with anime/manga-style illustration",
-  "cross_references": [],
+  "notes": "A compound of ⟦{娯楽|ごらく}→娯楽：00074_goraku⟧ (entertainment; amusement) and ⟦{小説|しょうせつ}→小説：01434_shousetsu⟧ (novel). In Japanese literary discourse, fiction is traditionally divided into ⟦{純文学|じゅんぶんがく}→純文学：13983_junbungaku⟧ (literary fiction/serious literature) and {娯楽|ごらく}{小説|しょうせつ} (entertainment fiction). This distinction parallels but is not identical to the Western literary/genre fiction divide.\n\nCOMMON COLLOCATIONS:\n- {娯楽|ごらく}{小説|しょうせつ}⟦を→を：00422_wo⟧⟦{書|か}く→書く：00477_kaku⟧: to write popular fiction\n- {娯楽|ごらく}{小説|しょうせつ}⟦{作家|さっか}→作家：01414_sakka⟧: popular fiction writer\n- {娯楽|ごらく}{小説|しょうせつ}⟦と→と：00512_to⟧⟦{純文学|じゅんぶんがく}→純文学：13983_junbungaku⟧: popular fiction and literary fiction\n\nSIMILAR WORDS:\n- ⟦{純文学|じゅんぶんがく}→純文学：13983_junbungaku⟧: literary fiction; serious literature — the counterpart, emphasizing artistic merit\n- ⟦{大衆|たいしゅう}→大衆：10150_taishuu⟧⟦{小説|しょうせつ}→小説：01434_shousetsu⟧: popular novel; mass-market fiction — nearly synonymous, emphasizes broad readership\n- ⟦ライト→ライト：13631_raito⟧ノベル: light novel — a specific modern genre targeted at young readers, with anime/manga-style illustration",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13983_junbungaku",
+      "reading": "じゅんぶんがく",
+      "headword": "{純文学|じゅんぶんがく}",
+      "label": "literary fiction"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26651_tsuuzokubungaku",
+      "reading": "つうぞくぶんがく",
+      "headword": "{通俗文学|つうぞくぶんがく}",
+      "label": "popular literature"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["art"]
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "art"
+      ]
     },
     "created": "2026-04-29T13:37:57Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T04:02:25Z"
   }
 }

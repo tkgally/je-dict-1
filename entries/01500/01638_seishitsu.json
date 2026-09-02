@@ -78,7 +78,7 @@
       ]
     }
   ],
-  "notes": "{性質|せいしつ} refers to inherent nature or properties.\n\nCOMMON PATTERNS:\n- ～の{性質|せいしつ} (the nature of ~)\n- {性質|せいしつ}⟦{上|じょう}→上：noentry⟧ (by nature, due to the nature of)\n- {性質|せいしつ}が⟦{良|よ}い→よい：02350_yoi⟧/⟦{悪|わる}い→悪い：00908_warui⟧ (good/bad natured)\n\nSIMILAR WORDS:\n- ⟦{性格|せいかく}→性格：03371_seikaku⟧: personality (for people)\n- {性質|せいしつ}: nature (people or things)\n- ⟦{特性|とくせい}→特性：13517_tokusei⟧: characteristic, property (technical)\n- ⟦{気質|きしつ}→気質：13256_kishitsu⟧: temperament, disposition",
+  "notes": "{性質|せいしつ} refers to inherent nature or properties.\n\nCOMMON PATTERNS:\n- ～⟦の→の：09472_no⟧{性質|せいしつ} (the nature of ~)\n- {性質|せいしつ}⟦{上|じょう}→上：noentry⟧ (by nature, due to the nature of)\n- {性質|せいしつ}⟦が→が：00051_ga⟧⟦{良|よ}い→よい：02350_yoi⟧/⟦{悪|わる}い→悪い：00908_warui⟧ (good/bad natured)\n\nSIMILAR WORDS:\n- ⟦{性格|せいかく}→性格：03371_seikaku⟧: personality (for people)\n- {性質|せいしつ}: nature (people or things)\n- ⟦{特性|とくせい}→特性：13517_tokusei⟧: characteristic, property (technical)\n- ⟦{気質|きしつ}→気質：13256_kishitsu⟧: temperament, disposition",
   "cross_references": [
     {
       "type": "synonym",
@@ -86,11 +86,39 @@
       "reading": "せいかく",
       "headword": "{性格|せいかく}",
       "label": "personality (for people)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13517_tokusei",
+      "reading": "とくせい",
+      "headword": "{特性|とくせい}",
+      "label": "characteristic, property"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13256_kishitsu",
+      "reading": "きしつ",
+      "headword": "{気質|きしつ}",
+      "label": "temperament, disposition"
+    },
+    {
+      "type": "related",
+      "target_id": "08243_taishitsu",
+      "reading": "たいしつ",
+      "headword": "{体質|たいしつ}",
+      "label": "constitution"
+    },
+    {
+      "type": "related",
+      "target_id": "13546_tokushitsu",
+      "reading": "とくしつ",
+      "headword": "{特質|とくしつ}",
+      "label": "special quality, characteristic, distinctive feature"
     }
   ],
   "metadata": {
     "created": "2026-01-09T11:41:04Z",
-    "modified": "2026-08-03T03:24:09Z",
+    "modified": "2026-09-02T04:01:00Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

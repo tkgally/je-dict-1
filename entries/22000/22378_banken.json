@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22378_banken_ex1",
-      "japanese": "{番犬|ばんけん}が{吠|ほ}えている。",
+      "japanese": "{番犬|ばんけん}⟦が→が：00051_ga⟧⟦{吠|ほ}えている→吠える：02415_hoeru⟧。",
       "english": "The guard dog is barking.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22378_banken_ex2",
-      "japanese": "{隣|となり}の{家|いえ}は{大|おお}きな{番犬|ばんけん}を{飼|か}っている。",
+      "japanese": "⟦{隣|となり}→隣：01003_tonari⟧⟦の→の：09472_no⟧⟦{家|いえ}→家：00612_ie⟧⟦は→は：00079_ha⟧⟦{大|おお}きな→大きな：02849_ookina⟧{番犬|ばんけん}⟦を→を：00422_wo⟧⟦{飼|か}っている→飼う：08151_kau⟧。",
       "english": "The house next door keeps a large guard dog.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22378_banken_ex3",
-      "japanese": "メディアは{権力|けんりょく}の{番犬|ばんけん}としての{役割|やくわり}を{果|は}たすべきだ。",
+      "japanese": "⟦メディア→メディア：11165_media⟧⟦は→は：00079_ha⟧⟦{権力|けんりょく}→権力：10020_kenryoku⟧⟦の→の：09472_no⟧{番犬|ばんけん}⟦として→として：06802_toshite⟧⟦の→の：09472_no⟧⟦{役割|やくわり}を{果|は}たす→役割を果たす：19503_yakuwariwohatasu⟧べきだ。",
       "english": "The media should fulfill its role as a watchdog of power.",
       "sense_numbers": [
         1
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {番|ばん} (watch/guard duty) and {犬|けん} (dog). Used both literally for dogs that guard homes and figuratively for entities that monitor and check authority.\n\nCOMMON COLLOCATIONS:\n- {番犬|ばんけん}を{飼|か}う: to keep a guard dog\n- {番犬|ばんけん}が{吠|ほ}える: the guard dog barks\n- {権力|けんりょく}の{番犬|ばんけん}: watchdog of power\n- {番犬|ばんけん}{代|が}わり: serving as a guard dog / in place of a guard dog\n\nSIMILAR WORDS:\n- {忠犬|ちゅうけん}: faithful dog — emphasizes loyalty rather than guarding\n- {猟犬|りょうけん}: hunting dog — a dog used for hunting, not guarding\n- {警察犬|けいさつけん}: police dog — a trained dog used by law enforcement\n- {飼|か}い{犬|いぬ}: pet dog — any domesticated dog, not specifically for guarding\n\nFIGURATIVE USE:\nThe figurative \"watchdog\" meaning is common in journalism and political discourse, similar to English usage. {番犬|ばんけん}ジャーナリズム (watchdog journalism) is a recognized concept.",
+  "notes": "Composed of ⟦{番|ばん}→番：09873_ban⟧ (watch/guard duty) and {犬|けん} (dog). Used both literally for dogs that guard homes and figuratively for entities that monitor and check authority.\n\nCOMMON COLLOCATIONS:\n- {番犬|ばんけん}⟦を→を：00422_wo⟧⟦{飼|か}う→飼う：08151_kau⟧: to keep a guard dog\n- {番犬|ばんけん}⟦が→が：00051_ga⟧⟦{吠|ほ}える→吠える：02415_hoeru⟧: the guard dog barks\n- ⟦{権力|けんりょく}→権力：10020_kenryoku⟧⟦の→の：09472_no⟧{番犬|ばんけん}: watchdog of power\n- {番犬|ばんけん}{代|が}わり: serving as a guard dog / in place of a guard dog\n\nSIMILAR WORDS:\n- ⟦{忠犬|ちゅうけん}→忠犬：22534_chuuken⟧: faithful dog — emphasizes loyalty rather than guarding\n- {猟犬|りょうけん}: hunting dog — a dog used for hunting, not guarding\n- ⟦{警察犬|けいさつけん}→警察犬：28539_keisatsuken⟧: police dog — a trained dog used by law enforcement\n- ⟦{飼|か}い{犬|いぬ}→飼い犬：19020_kaiinu⟧: pet dog — any domesticated dog, not specifically for guarding\n\nUSAGE:\nThe figurative \"watchdog\" meaning is common in journalism and political discourse, similar to English usage. {番犬|ばんけん}⟦ジャーナリズム→ジャーナリズム：23082_jaanarizumu⟧ (watchdog journalism) is a recognized concept.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22534_chuuken",
+      "reading": "ちゅうけん",
+      "headword": "{忠犬|ちゅうけん}",
+      "label": "faithful dog"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28539_keisatsuken",
+      "reading": "けいさつけん",
+      "headword": "{警察犬|けいさつけん}",
+      "label": "police dog"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19020_kaiinu",
+      "reading": "かいいぬ",
+      "headword": "{飼|か}い{犬|いぬ}",
+      "label": "pet dog"
+    },
+    {
+      "type": "related",
+      "target_id": "17894_shitsunaiken",
+      "reading": "しつないけん",
+      "headword": "{室内犬|しつないけん}",
+      "label": "indoor dog"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +89,6 @@
       ]
     },
     "created": "2026-04-05T20:11:11Z",
-    "modified": "2026-07-30T03:35:34Z"
+    "modified": "2026-09-02T04:02:07Z"
   }
 }

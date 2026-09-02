@@ -15,41 +15,67 @@
   "examples": [
     {
       "id": "18139_furaigaeshi_ex1",
-      "japanese": "フライ{返|がえ}しでハンバーグを{裏返|うらがえ}した。",
+      "japanese": "フライ{返|がえ}し⟦で→で：00502_de⟧⟦ハンバーグ→ハンバーグ：01785_hanbaagu⟧⟦を→を：00422_wo⟧⟦{裏返|うらがえ}した→裏返す：07508_uragaesu⟧。",
       "english": "I flipped the hamburger patty with a spatula.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18139_furaigaeshi_ex2",
-      "japanese": "フライ{返|がえ}しがないときは{箸|はし}で{代用|だいよう}できる。",
+      "japanese": "フライ{返|がえ}し⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧とき⟦は→は：00079_ha⟧⟦{箸|はし}→箸：01026_hashi⟧⟦で→で：00502_de⟧⟦{代用|だいよう}→代用：16439_daiyou⟧⟦できる→できる：00557_dekiru⟧。",
       "english": "When you don't have a spatula, you can use chopsticks as a substitute.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18139_furaigaeshi_ex3",
-      "japanese": "テフロンのフライパンには{金属|きんぞく}のフライ{返|がえ}しではなく、シリコンのものを{使|つか}った{方|ほう}がいい。",
+      "japanese": "テフロン⟦の→の：09472_no⟧⟦フライパン→フライパン：01025_furaipan⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{金属|きんぞく}→金属：02645_kinzoku⟧⟦の→の：09472_no⟧フライ{返|がえ}し⟦ではなく→ではなく：09578_dehanaku⟧、⟦シリコン→シリコン：29883_shirikon⟧⟦の→の：09472_no⟧もの⟦を→を：00422_wo⟧⟦{使|つか}った→使う：00473_tsukau⟧⟦{方|ほう}→方：01139_hou⟧⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧。",
       "english": "For Teflon pans, it's better to use a silicone spatula rather than a metal one.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "フライ{返|がえ}し literally means \"fry-flipper\" — a flat kitchen utensil for turning food while cooking.\n\nWORD FORMATION:\nフライ (fry) + {返|かえ}し (from {返|かえ}す, to turn over). The word describes the tool's function: flipping fried food.\n\nALTERNATIVE NAMES:\n- ターナー: from English \"turner\" (also common)\n- ヘラ: a broader term for any flat spatula\n\nCOMMON COLLOCATIONS:\n- フライ{返|がえ}しで{返|かえ}す: to flip with a spatula\n- フライ{返|がえ}しで{盛|も}り{付|つ}ける: to plate food with a spatula\n- {木|き}のフライ{返|がえ}し: wooden spatula\n- シリコンのフライ{返|がえ}し: silicone spatula\n\nNOTE:\nFor non-stick pans (テフロン), silicone or wooden spatulas are recommended to avoid scratching the coating.",
-  "cross_references": [],
+  "notes": "フライ{返|がえ}し literally means \"fry-flipper\" — a flat kitchen utensil for turning food while cooking.\n\nFORMS:\n⟦フライ→フライ：11124_furai⟧ (fry) + ⟦{返|かえ}し→返し：24802_kaeshi⟧ (from ⟦{返|かえ}す→返す：09648_kaesu⟧, to turn over). The word describes the tool's function: flipping fried food.\n\nALTERNATIVE NAMES:\n- ターナー: from English \"turner\" (also common)\n- ヘラ: a broader term for any flat spatula\n\nCOMMON COLLOCATIONS:\n- フライ{返|がえ}し⟦で→で：00502_de⟧⟦{返|かえ}す→返す：09648_kaesu⟧: to flip with a spatula\n- フライ{返|がえ}し⟦で→で：00502_de⟧⟦{盛|も}り{付|つ}ける→盛り付ける：14764_moritsukeru⟧: to plate food with a spatula\n- ⟦{木|き}→木：00524_ki⟧⟦の→の：09472_no⟧フライ{返|がえ}し: wooden spatula\n- ⟦シリコン→シリコン：29883_shirikon⟧⟦の→の：09472_no⟧フライ{返|がえ}し: silicone spatula\n\nUSAGE:\nFor non-stick pans (テフロン), silicone or wooden spatulas are recommended to avoid scratching the coating.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04472_hera",
+      "reading": "へら",
+      "headword": "へら",
+      "label": "a broader term for any flat spatula"
+    },
+    {
+      "type": "related",
+      "target_id": "04471_otama",
+      "reading": "おたま",
+      "headword": "おたま",
+      "label": "ladle"
+    }
+  ],
   "metadata": {
     "created": "2026-03-20T06:45:24Z",
-    "modified": "2026-03-29T07:57:19Z",
+    "modified": "2026-09-02T04:01:51Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["tool", "food"]
+      "semantic": [
+        "tool",
+        "food"
+      ]
     }
   }
 }

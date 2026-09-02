@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26442_takujoukyou_ex1",
-      "japanese": "{卓上|たくじょう}{鏡|きょう}で{化粧|けしょう}をする。",
+      "japanese": "{卓上|たくじょう}{鏡|きょう}⟦で→で：00502_de⟧⟦{化粧|けしょう}→化粧：02699_keshou⟧⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧。",
       "english": "I do my makeup using a tabletop mirror.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26442_takujoukyou_ex2",
-      "japanese": "LED{付|つ}きの{卓上|たくじょう}{鏡|きょう}が{人気|にんき}だ。",
+      "japanese": "LED⟦{付|つ}き→付き：26333_tsuki⟧⟦の→の：09472_no⟧{卓上|たくじょう}{鏡|きょう}⟦が→が：00051_ga⟧⟦{人気|にんき}→人気：01488_ninki⟧だ。",
       "english": "Tabletop mirrors with LED lights are popular.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26442_takujoukyou_ex3",
-      "japanese": "{母|はは}の{誕生日|たんじょうび}に{拡大|かくだい}{機能|きのう}{付|つ}きの{卓上|たくじょう}{鏡|きょう}をプレゼントした。",
+      "japanese": "⟦{母|はは}→母：00549_haha⟧⟦の→の：09472_no⟧⟦{誕生日|たんじょうび}→誕生日：02910_tanjoubi⟧⟦に→に：00314_ni⟧⟦{拡大|かくだい}→拡大：02553_kakudai⟧⟦{機能|きのう}→機能：13165_kinou⟧⟦{付|つ}き→付き：26333_tsuki⟧⟦の→の：09472_no⟧{卓上|たくじょう}{鏡|きょう}⟦を→を：00422_wo⟧⟦プレゼント→プレゼント：01791_purezento⟧⟦した→する：00392_suru⟧。",
       "english": "I gave my mother a tabletop mirror with a magnifying function for her birthday.",
       "sense_numbers": [
         1
@@ -44,8 +44,23 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {卓上|たくじょう} (tabletop, desktop) and {鏡|きょう} (mirror). The word {卓上|たくじょう} is a productive prefix used with many objects to indicate a desk-sized or portable version.\n\nCOMMON COLLOCATIONS:\n- {卓上|たくじょう}{鏡|きょう}で{化粧|けしょう}をする: to do makeup with a tabletop mirror\n- LED{付|つ}き{卓上|たくじょう}{鏡|きょう}: LED tabletop mirror\n- {拡大|かくだい}{鏡|きょう}{付|つ}き{卓上|たくじょう}{鏡|きょう}: tabletop mirror with magnification\n- {折|お}りたたみ{卓上|たくじょう}{鏡|きょう}: foldable tabletop mirror\n\nSIMILAR WORDS:\n- {姿見|すがたみ}: full-length mirror — a large mirror for viewing one's whole body\n- {手鏡|てかがみ}: hand mirror — a small mirror held in the hand\n- {洗面|せんめん}{鏡|きょう}: bathroom mirror — a mirror fixed above the washbasin",
-  "cross_references": [],
+  "notes": "A compound of ⟦{卓上|たくじょう}→卓上：22894_takujou⟧ (tabletop, desktop) and {鏡|きょう} (mirror). The word ⟦{卓上|たくじょう}→卓上：22894_takujou⟧ is a productive prefix used with many objects to indicate a desk-sized or portable version.\n\nCOMMON COLLOCATIONS:\n- {卓上|たくじょう}{鏡|きょう}⟦で→で：00502_de⟧⟦{化粧|けしょう}→化粧：02699_keshou⟧⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧: to do makeup with a tabletop mirror\n- LED⟦{付|つ}き→付き：26333_tsuki⟧{卓上|たくじょう}{鏡|きょう}: LED tabletop mirror\n- ⟦{拡大|かくだい}{鏡|きょう}→拡大鏡：18682_kakudaikyou⟧⟦{付|つ}き→付き：26333_tsuki⟧{卓上|たくじょう}{鏡|きょう}: tabletop mirror with magnification\n- {折|お}りたたみ{卓上|たくじょう}{鏡|きょう}: foldable tabletop mirror\n\nSIMILAR WORDS:\n- ⟦{姿見|すがたみ}→姿見：15876_sugatami⟧: full-length mirror — a large mirror for viewing one's whole body\n- ⟦{手鏡|てかがみ}→手鏡：16020_tekagami⟧: hand mirror — a small mirror held in the hand\n- ⟦{洗面|せんめん}→洗面：04376_senmen⟧{鏡|きょう}: bathroom mirror — a mirror fixed above the washbasin",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15876_sugatami",
+      "reading": "すがたみ",
+      "headword": "{姿見|すがたみ}",
+      "label": "full-length mirror"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16020_tekagami",
+      "reading": "てかがみ",
+      "headword": "{手鏡|てかがみ}",
+      "label": "hand mirror"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,12 +68,14 @@
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "daily-life",
         "appearance"
       ]
     },
     "created": "2026-05-01T16:22:51Z",
-    "modified": "2026-08-06T00:43:53Z"
+    "modified": "2026-09-02T04:02:26Z"
   }
 }

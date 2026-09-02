@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08349_sumigokochi_ex1",
-      "japanese": "この{家|いえ}は{住|す}み{心地|ごこち}がいい。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{家|いえ}→家：00612_ie⟧⟦は→は：00079_ha⟧{住|す}み{心地|ごこち}⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧。",
       "english": "This house is comfortable to live in.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "08349_sumigokochi_ex2",
-      "japanese": "{住|す}み{心地|ごこち}のいい{街|まち}を{探|さが}している。",
+      "japanese": "{住|す}み{心地|ごこち}⟦の→の：09472_no⟧⟦いい→いい：00118_ii⟧⟦{街|まち}→街：17306_machi⟧⟦を→を：00422_wo⟧⟦{探|さが}している→探す：00493_sagasu⟧。",
       "english": "I'm looking for a comfortable neighborhood to live in.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "08349_sumigokochi_ex3",
-      "japanese": "この{部屋|へや}は{狭|せま}いけど、{住|す}み{心地|ごこち}は{悪|わる}くない。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{部屋|へや}→部屋：00507_heya⟧⟦は→は：00079_ha⟧⟦{狭|せま}い→狭い：00750_semai⟧⟦けど→けど：09477_kedo⟧、{住|す}み{心地|ごこち}⟦は→は：00079_ha⟧⟦{悪|わる}くない→悪い：00908_warui⟧。",
       "english": "This room is small, but it's not bad to live in.",
       "sense_numbers": [
         1
@@ -43,7 +43,16 @@
       "notes": null
     }
   ],
-  "notes": "FORMATION:\n{住|す}む (to live, reside) + {心地|ごこち} (feeling, comfort) → feeling of living\n\nTHE ～{心地|ごこち} PATTERN:\nThis suffix creates nouns describing how something feels:\n- {座|すわ}り{心地|ごこち} (seating comfort)\n- {着|き}{心地|ごこち} (wearing comfort)\n- {寝|ね}{心地|ごこち} (sleeping comfort)\n- {乗|の}り{心地|ごこち} (ride comfort)\n- {書|か}き{心地|ごこち} (writing feel)\n- {履|は}き{心地|ごこち} (wearing comfort - footwear)\n\nCOMMON EXPRESSIONS:\n- {住|す}み{心地|ごこち}がいい/よい (comfortable to live in)\n- {住|す}み{心地|ごこち}が{悪|わる}い (uncomfortable to live in)\n- {住|す}み{心地|ごこち}のいい{家|いえ} (a comfortable home)\n\nFACTORS AFFECTING {住|す}み{心地|ごこち}:\n- {日当|ひあ}たり (sunlight)\n- {風通|かぜとお}し (ventilation)\n- {静|しず}かさ (quietness)\n- {利便性|りべんせい} (convenience)",
+  "notes": "FORMS:\n⟦{住|す}む→住む：00673_sumu⟧ (to live, reside) + {心地|ごこち} (feeling, comfort) → feeling of living\n\nTHE ～{心地|ごこち} PATTERN:\nThis suffix creates nouns describing how something feels:\n- ⟦{座|すわ}り{心地|ごこち}→座り心地：10669_suwarigokochi⟧ (seating comfort)\n- ⟦{着|き}{心地|ごこち}→着心地：07269_kigokochi⟧ (wearing comfort)\n- ⟦{寝|ね}{心地|ごこち}→寝心地：07270_negokochi⟧ (sleeping comfort)\n- ⟦{乗|の}り{心地|ごこち}→乗り心地：07268_norigokochi⟧ (ride comfort)\n- ⟦{書|か}き{心地|ごこち}→書き心地：08717_kakigokochi⟧ (writing feel)\n- {履|は}き{心地|ごこち} (wearing comfort - footwear)\n\nCOMMON EXPRESSIONS:\n- {住|す}み{心地|ごこち}⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧/よい (comfortable to live in)\n- {住|す}み{心地|ごこち}⟦が→が：00051_ga⟧⟦{悪|わる}い→悪い：00908_warui⟧ (uncomfortable to live in)\n- {住|す}み{心地|ごこち}⟦の→の：09472_no⟧⟦いい→いい：00118_ii⟧⟦{家|いえ}→家：00612_ie⟧ (a comfortable home)\n\nFACTORS AFFECTING {住|す}み{心地|ごこち}:\n- ⟦{日当|ひあ}たり→日当たり：07498_hiatari⟧ (sunlight)\n- ⟦{風通|かぜとお}し→風通し：09032_kazetooshi⟧ (ventilation)\n- ⟦{静|しず}か→静か：00755_shizuka⟧さ (quietness)\n- ⟦{利便性|りべんせい}→利便性：10681_ribensei⟧ (convenience)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23972_shuuhenkankyou",
+      "reading": "しゅうへんかんきょう",
+      "headword": "{周辺|しゅうへん}{環境|かんきょう}",
+      "label": "surrounding environment"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -51,12 +60,13 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "building",
         "evaluation"
       ]
     },
     "created": "2026-01-26T04:23:10Z",
-    "modified": "2026-08-12T12:50:50Z"
+    "modified": "2026-09-02T04:01:14Z"
   }
 }

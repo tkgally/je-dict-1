@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "12186_oomukashi_ex1",
-      "japanese": "{大昔|おおむかし}、ここは{海|うみ}だった。",
+      "japanese": "{大昔|おおむかし}、⟦ここ→ここ：00961_koko⟧⟦は→は：00079_ha⟧⟦{海|うみ}→海：00556_umi⟧だった。",
       "english": "Long ago, this place was the sea.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "12186_oomukashi_ex2",
-      "japanese": "そんなのは{大昔|おおむかし}の{話|はなし}だよ。",
+      "japanese": "⟦そんな→そんな：01645_sonna⟧⟦の→の：09472_no⟧⟦は→は：00079_ha⟧{大昔|おおむかし}⟦の→の：09472_no⟧⟦{話|はなし}→話：01496_hanashi⟧だ⟦よ→よ：09475_yo⟧。",
       "english": "That's ancient history.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "12186_oomukashi_ex3",
-      "japanese": "{大昔|おおむかし}の{人々|ひとびと}はどんな{生活|せいかつ}をしていたのか、{想像|そうぞう}するだけでワクワクする。",
+      "japanese": "{大昔|おおむかし}⟦の→の：09472_no⟧⟦{人々|ひとびと}→人々：03141_hitobito⟧⟦は→は：00079_ha⟧⟦どんな→どんな：02924_donna⟧⟦{生活|せいかつ}→生活：01443_seikatsu⟧⟦を→を：00422_wo⟧⟦していた→する：00392_suru⟧⟦の→の：09472_no⟧⟦か→か：09473_ka⟧、⟦{想像|そうぞう}する→想像する：06060_souzousuru⟧⟦だけ→〜だけ：03093_dake⟧⟦で→で：00502_de⟧⟦ワクワクする→ワクワクする：25801_wakuwakusuru⟧。",
       "english": "Just imagining what life was like for people in ancient times is exciting.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "{大昔|おおむかし} is an emphatic form of {昔|むかし}, intensified by the prefix {大|おお}.\n\nTIME SCALE:\n- {昔|むかし}: a long time ago, the past\n- {大昔|おおむかし}: a very long time ago, ancient times\n\nUSAGE:\nOften used in storytelling and history contexts. In casual conversation, {大昔|おおむかし}の{話|はなし} (\"that's ancient history\") dismisses something as no longer relevant.\n\nThe classic fairy tale opening {大昔|おおむかし}{大昔|おおむかし} is the equivalent of \"once upon a time, long, long ago.\"",
+  "notes": "{大昔|おおむかし} is an emphatic form of ⟦{昔|むかし}→昔：01515_mukashi⟧, intensified by the prefix {大|おお}.\n\nTIME SCALE:\n- ⟦{昔|むかし}→昔：01515_mukashi⟧: a long time ago, the past\n- {大昔|おおむかし}: a very long time ago, ancient times\n\nUSAGE:\nOften used in storytelling and history contexts. In casual conversation, {大昔|おおむかし}⟦の→の：09472_no⟧⟦{話|はなし}→話：01496_hanashi⟧ (\"that's ancient history\") dismisses something as no longer relevant.\n\nThe classic fairy tale opening {大昔|おおむかし}{大昔|おおむかし} is the equivalent of \"once upon a time, long, long ago.\"",
   "cross_references": [
     {
       "type": "related",
@@ -52,11 +52,18 @@
       "headword": "{昔|むかし}",
       "label": "the past, old times",
       "target_id": "01515_mukashi"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27055_tooimukashi",
+      "reading": "とおいむかし",
+      "headword": "{遠|とお}い{昔|むかし}",
+      "label": "long ago"
     }
   ],
   "metadata": {
     "created": "2026-02-20T10:22:33Z",
-    "modified": "2026-04-26T07:25:09Z",
+    "modified": "2026-09-02T04:01:28Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

@@ -3,7 +3,7 @@
   "headword": "{満|み}ち{足|た}りる",
   "reading": "みちたりる",
   "romaji": "michitariru",
-  "part_of_speech": "verb",
+  "part_of_speech": "verb (ichidan)",
   "gloss": "to be content; to be fully satisfied; to want for nothing",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "27837_michitariru_ex1",
-      "japanese": "{満|み}ち{足|た}りた{表情|ひょうじょう}をしている。",
+      "japanese": "{満|み}ち{足|た}りた⟦{表情|ひょうじょう}→表情：03585_hyoujou⟧⟦を→を：00422_wo⟧⟦している→する：00392_suru⟧。",
       "english": "She has a contented expression.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "27837_michitariru_ex2",
-      "japanese": "{家族|かぞく}といると{心|こころ}が{満|み}ち{足|た}りる。",
+      "japanese": "⟦{家族|かぞく}→家族：00552_kazoku⟧⟦と→と：00512_to⟧⟦いる→いる：00495_iru⟧⟦と→と：00512_to⟧⟦{心|こころ}→心：01321_kokoro⟧⟦が→が：00051_ga⟧{満|み}ち{足|た}りる。",
       "english": "Being with my family fills me with contentment.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "27837_michitariru_ex3",
-      "japanese": "{贅沢|ぜいたく}はできないが、{今|いま}の{暮|く}らしに{満|み}ち{足|た}りている。",
+      "japanese": "⟦{贅沢|ぜいたく}→贅沢：03309_zeitaku⟧⟦は→は：00079_ha⟧⟦できない→できる：00557_dekiru⟧⟦が→が：00051_ga⟧、⟦{今|いま}→今：00945_ima⟧⟦の→の：09472_no⟧⟦{暮|く}らし→暮らし：02670_kurashi⟧⟦に→に：00314_ni⟧{満|み}ち{足|た}りて⟦いる→いる：00495_iru⟧。",
       "english": "We can't afford luxury, but I'm fully content with our life as it is now.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {満|み}ちる (to be full) + {足|た}りる (to suffice). Most often seen in the ている state, describing an ongoing condition of contentment.\n\nCOMMON COLLOCATIONS:\n- {満|み}ち{足|た}りた{表情|ひょうじょう}: a contented look\n- {満|み}ち{足|た}りた{生活|せいかつ}: a fulfilling life\n- {心|こころ}が{満|み}ち{足|た}りる: to feel fulfilled at heart\n\nSIMILAR WORDS:\n- {満足|まんぞく}する: to be satisfied — more everyday and can describe satisfaction with a specific thing; {満|み}ち{足|た}りる suggests a fuller, more lasting contentment",
+  "notes": "Compound of ⟦{満|み}ちる→満ちる：02428_michiru⟧ (to be full) + ⟦{足|た}りる→足りる：01209_tariru⟧ (to suffice). Most often seen in the て⟦いる→いる：00495_iru⟧ state, describing an ongoing condition of contentment.\n\nCOMMON COLLOCATIONS:\n- {満|み}ち{足|た}りた⟦{表情|ひょうじょう}→表情：03585_hyoujou⟧: a contented look\n- {満|み}ち{足|た}りた⟦{生活|せいかつ}→生活：01443_seikatsu⟧: a fulfilling life\n- ⟦{心|こころ}→心：01321_kokoro⟧⟦が→が：00051_ga⟧{満|み}ち{足|た}りる: to feel fulfilled at heart\n\nSIMILAR WORDS:\n- ⟦{満足|まんぞく}する→満足する：22617_manzokusuru⟧: to be satisfied — more everyday and can describe satisfaction with a specific thing; {満|み}ち{足|た}りる suggests a fuller, more lasting contentment",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22617_manzokusuru",
+      "reading": "まんぞくする",
+      "headword": "{満足|まんぞく}する",
+      "label": "to be satisfied"
+    },
+    {
+      "type": "related",
+      "target_id": "02428_michiru",
+      "reading": "みちる",
+      "headword": "{満|み}ちる",
+      "label": "to be full"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +69,7 @@
         "verb-ichidan"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "emotion"
       ],
@@ -62,7 +78,7 @@
       "verb_class": "ichidan"
     },
     "created": "2026-05-21T03:11:38Z",
-    "modified": "2026-05-21T03:11:38Z"
+    "modified": "2026-09-02T04:02:31Z"
   },
   "conjugation": {
     "type": "ichidan",

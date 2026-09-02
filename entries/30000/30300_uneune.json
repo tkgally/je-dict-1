@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30300_uneune_ex1",
-      "japanese": "{道|みち}がうねうねと{続|つづ}く。",
+      "japanese": "⟦{道|みち}→道：00505_michi⟧⟦が→が：00051_ga⟧うねうね⟦と→と：00512_to⟧⟦{続|つづ}く→続く：00903_tsuzuku⟧。",
       "english": "The road winds on and on.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30300_uneune_ex2",
-      "japanese": "{川|かわ}が{平野|へいや}をうねうねと{流|なが}れている。",
+      "japanese": "⟦{川|かわ}→川：02186_kawa⟧⟦が→が：00051_ga⟧⟦{平野|へいや}→平野：00096_heiya⟧⟦を→を：00422_wo⟧うねうね⟦と→と：00512_to⟧⟦{流|なが}れている→流れる：01969_nagareru⟧。",
       "english": "The river meanders across the plain.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30300_uneune_ex3",
-      "japanese": "うねうねした{山道|やまみち}を{一時間|いちじかん}{走|はし}って、ようやく{村|むら}に{着|つ}いた。",
+      "japanese": "うねうね⟦した→する：00392_suru⟧⟦{山道|やまみち}→山道：12406_yamamichi⟧⟦を→を：00422_wo⟧⟦{一時間|いちじかん}→一時間：00941_ichijikan⟧⟦{走|はし}って→走る：00519_hashiru⟧、ようやく⟦{村|むら}→村：02261_mura⟧⟦に→に：00314_ni⟧⟦{着|つ}いた→着く：00680_tsuku⟧。",
       "english": "After driving an hour along the winding mountain road, we finally reached the village.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Related to the noun {畝|うね} (a ridge in a field), which captures the repeated rise-and-fall image. Usually appears as うねうねと before a verb, or as うねうねした / うねうねの before a noun.\n\nCOMMON PATTERNS:\n- うねうねと{続|つづ}く: to wind on and on\n- うねうねと{曲|ま}がる: to curve back and forth\n- うねうねした{道|みち}: a winding road\n\nSIMILAR WORDS:\n- くねくね: winding — much the same, but suggests sharper, tighter bends and is also used of a body swaying\n- ぐねぐね: twisting — stronger and rougher than くねくね\n- にょろにょろ: slithering — for snake-like movement of a living thing, not a fixed shape",
+  "notes": "Related to the noun {畝|うね} (a ridge in a field), which captures the repeated rise-and-fall image. Usually appears as うねうね⟦と→と：00512_to⟧ before a verb, or as うねうね⟦した→する：00392_suru⟧ / うねうね⟦の→の：09472_no⟧ before a noun.\n\nCOMMON PATTERNS:\n- うねうね⟦と→と：00512_to⟧⟦{続|つづ}く→続く：00903_tsuzuku⟧: to wind on and on\n- うねうね⟦と→と：00512_to⟧⟦{曲|ま}がる→曲がる：00649_magaru⟧: to curve back and forth\n- うねうね⟦した→する：00392_suru⟧⟦{道|みち}→道：00505_michi⟧: a winding road\n\nSIMILAR WORDS:\n- ⟦くねくね→くねくね：06717_kunekune⟧: winding — much the same, but suggests sharper, tighter bends and is also used of a body swaying\n- ぐねぐね: twisting — stronger and rougher than ⟦くねくね→くねくね：06717_kunekune⟧\n- ⟦にょろにょろ→にょろにょろ：30301_nyoronyoro⟧: slithering — for snake-like movement of a living thing, not a fixed shape",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06717_kunekune",
+      "reading": "くねくね",
+      "headword": "くねくね",
+      "label": "winding"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30301_nyoronyoro",
+      "reading": "にょろにょろ",
+      "headword": "にょろにょろ",
+      "label": "slithering"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -54,13 +70,13 @@
         "onomatopoeia"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "descriptive"
       ],
       "domain": []
     },
     "created": "2026-08-01T15:17:17Z",
-    "modified": "2026-08-01T15:17:17Z"
+    "modified": "2026-09-02T04:02:39Z"
   }
 }

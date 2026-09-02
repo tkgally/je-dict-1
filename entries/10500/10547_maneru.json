@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "10547_maneru_ex1",
-      "japanese": "{先生|せんせい}の{動|うご}きを{真似|まね}る。",
+      "japanese": "⟦{先生|せんせい}→先生：00609_sensei⟧⟦の→の：09472_no⟧⟦{動|うご}き→動き：11926_ugoki⟧⟦を→を：00422_wo⟧{真似|まね}る。",
       "english": "To imitate the teacher's movements.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "10547_maneru_ex2",
-      "japanese": "{子供|こども}は{親|おや}の{言葉|ことば}を{真似|まね}て{覚|おぼ}える。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧⟦は→は：00079_ha⟧⟦{親|おや}→親：01357_oya⟧⟦の→の：09472_no⟧⟦{言葉|ことば}→言葉：02880_kotoba⟧⟦を→を：00422_wo⟧{真似|まね}て⟦{覚|おぼ}える→覚える：00739_oboeru⟧。",
       "english": "Children learn by imitating their parents' words.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "10547_maneru_ex3",
-      "japanese": "{彼|かれ}は{有名|ゆうめい}な{画家|がか}の{作風|さくふう}を{真似|まね}て{自分|じぶん}のスタイルを{作|つく}り{上|あ}げた。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{有名|ゆうめい}→有名：01106_yuumei⟧な⟦{画家|がか}→画家：02583_gaka⟧⟦の→の：09472_no⟧⟦{作風|さくふう}→作風：11460_sakufuu⟧⟦を→を：00422_wo⟧{真似|まね}て⟦{自分|じぶん}→自分：02887_jibun⟧⟦の→の：09472_no⟧⟦スタイル→スタイル：03851_sutairu⟧⟦を→を：00422_wo⟧⟦{作|つく}り{上|あ}げた→作り上げる：11569_tsukuriageru⟧。",
       "english": "He developed his own style by imitating the techniques of a famous painter.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "CONJUGATION (ichidan):\n- Negative: {真似|まね}ない\n- Te-form: {真似|まね}て\n- Past: {真似|まね}た\n- Potential: {真似|まね}られる\n\nTRANSITIVITY:\nTransitive. Takes を for the thing being imitated.\n\nRELATED WORDS:\n- {真似|まね} (noun): imitation, mimicry\n- {真似|まね}をする: to imitate (noun + する construction, more common in casual speech)\n- {物真似|ものまね}: impersonation, mimicry (as entertainment)\n\nUSAGE:\n{真似|まね}る can be neutral (learning through imitation) or negative (copying without originality). Context determines the nuance. The noun + する form {真似|まね}をする is often more natural in everyday conversation.\n\nCOMMON COLLOCATIONS:\n- {動|うご}きを{真似|まね}る: to copy movements\n- {声|こえ}を{真似|まね}る: to mimic a voice\n- {人|ひと}の{真似|まね}をする: to imitate someone",
+  "notes": "CONJUGATION (ichidan):\n- Negative: {真似|まね}ない\n- Te-form: {真似|まね}て\n- Past: {真似|まね}た\n- Potential: {真似|まね}られる\n\nTRANSITIVITY:\nTransitive. Takes ⟦を→を：00422_wo⟧ for the thing being imitated.\n\nRELATED WORDS:\n- ⟦{真似|まね}→真似：03736_mane⟧ (noun): imitation, mimicry\n- ⟦{真似|まね}→真似：03736_mane⟧⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧: to imitate (noun + ⟦する→する：00392_suru⟧ construction, more common in casual speech)\n- {物真似|ものまね}: impersonation, mimicry (as entertainment)\n\nUSAGE:\n{真似|まね}る can be neutral (learning through imitation) or negative (copying without originality). Context determines the nuance. The noun + ⟦する→する：00392_suru⟧ form ⟦{真似|まね}→真似：03736_mane⟧⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧ is often more natural in everyday conversation.\n\nCOMMON COLLOCATIONS:\n- ⟦{動|うご}き→動き：11926_ugoki⟧⟦を→を：00422_wo⟧{真似|まね}る: to copy movements\n- ⟦{声|こえ}→声：02207_koe⟧⟦を→を：00422_wo⟧{真似|まね}る: to mimic a voice\n- ⟦{人|ひと}→人：00476_hito⟧⟦の→の：09472_no⟧⟦{真似|まね}→真似：03736_mane⟧⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧: to imitate someone",
   "prominent_see_also": [
     {
       "target_id": "03736_mane",
@@ -143,10 +143,18 @@
       "note": "noun form"
     }
   ],
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "10395_narau",
+      "reading": "ならう",
+      "headword": "{倣|なら}う",
+      "label": "to follow (an example), to imitate, to model after"
+    }
+  ],
   "metadata": {
     "created": "2026-02-08T04:46:48Z",
-    "modified": "2026-04-24T08:14:20Z",
+    "modified": "2026-09-02T04:01:21Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

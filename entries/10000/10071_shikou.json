@@ -2,7 +2,7 @@
   "id": "10071_shikou",
   "headword": "{思考|しこう}",
   "reading": "しこう",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "thought, thinking",
   "conjugation": {
     "type": "suru",
@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "10071_shikou_ex1",
-      "japanese": "プラス{思考|しこう}で{考|かんが}えよう。",
+      "japanese": "プラス{思考|しこう}⟦で→で：00502_de⟧⟦{考|かんが}えよう→考える：00856_kangaeru⟧。",
       "english": "Let's think positively.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "10071_shikou_ex2",
-      "japanese": "{論理的|ろんりてき}な{思考|しこう}が{大切|たいせつ}だ。",
+      "japanese": "⟦{論理的|ろんりてき}→論理的：05672_ronriteki⟧な{思考|しこう}⟦が→が：00051_ga⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧だ。",
       "english": "Logical thinking is important.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "10071_shikou_ex3",
-      "japanese": "{思考|しこう}を{止|と}めないでください。",
+      "japanese": "{思考|しこう}⟦を→を：00422_wo⟧⟦{止|と}めないで→止める：00678_tomeru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Don't stop thinking.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
     },
     {
       "id": "10071_shikou_ex4",
-      "japanese": "{思考|しこう}{回路|かいろ}がわからない。",
+      "japanese": "{思考|しこう}⟦{回路|かいろ}→回路：12038_kairo⟧⟦が→が：00051_ga⟧わからない。",
       "english": "I can't understand their way of thinking.",
       "notes": null,
       "has_audio": false,
@@ -143,7 +143,7 @@
       ]
     }
   ],
-  "notes": "COMMON PATTERNS:\n・{思考|しこう}する (to think, to reason)\n・{思考|しこう}{力|りょく} (thinking ability)\n・{思考|しこう}{回路|かいろ} (thought process, way of thinking)\n・{論理的|ろんりてき}{思考|しこう} (logical thinking)\n・プラス{思考|しこう} (positive thinking)\n・マイナス{思考|しこう} (negative thinking)\n・{思考|しこう}{停止|ていし} (cessation of thinking)\n\nSIMILAR WORDS:\n・{思考|しこう} vs. {考|かんが}え\n  - {思考|しこう}: formal, often used for systematic thinking\n  - {考|かんが}え: general, everyday word for thoughts or ideas",
+  "notes": "COMMON PATTERNS:\n- {思考|しこう}⟦する→する：00392_suru⟧ (to think, to reason)\n- {思考|しこう}{力|りょく} (thinking ability)\n- {思考|しこう}⟦{回路|かいろ}→回路：12038_kairo⟧ (thought process, way of thinking)\n- {論理的|ろんりてき}{思考|しこう} (logical thinking)\n- プラス{思考|しこう} (positive thinking)\n- マイナス{思考|しこう} (negative thinking)\n- {思考|しこう}⟦{停止|ていし}→停止：04067_teishi⟧ (cessation of thinking)\n\nSIMILAR WORDS:\n- {思考|しこう} vs. ⟦{考|かんが}え→考え：00855_kangae⟧\n  - {思考|しこう}: formal, often used for systematic thinking\n  - ⟦{考|かんが}え→考え：00855_kangae⟧: general, everyday word for thoughts or ideas",
   "cross_references": [
     {
       "type": "synonym",
@@ -151,11 +151,18 @@
       "reading": "かんがえ",
       "headword": "{考|かんが}え",
       "label": "everyday, general"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10169_kangaekata",
+      "reading": "かんがえかた",
+      "headword": "{考|かんが}え{方|かた}",
+      "label": "way of thinking"
     }
   ],
   "metadata": {
     "created": "2026-02-05T02:14:44Z",
-    "modified": "2026-04-23T10:16:20Z",
+    "modified": "2026-09-02T04:01:20Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

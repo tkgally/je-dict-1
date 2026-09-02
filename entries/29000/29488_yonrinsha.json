@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29488_yonrinsha_ex1",
-      "japanese": "{四輪車|よんりんしゃ}の{免許|めんきょ}を{取|と}る。",
+      "japanese": "{四輪車|よんりんしゃ}⟦の→の：09472_no⟧⟦{免許|めんきょ}→免許：03808_menkyo⟧⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧。",
       "english": "Get a license for four-wheeled vehicles.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29488_yonrinsha_ex2",
-      "japanese": "{二輪車|にりんしゃ}より{四輪車|よんりんしゃ}の{方|ほう}が{安定|あんてい}している。",
+      "japanese": "⟦{二輪車|にりんしゃ}→二輪車：20952_nirinsha⟧⟦より→より：09476_yori⟧{四輪車|よんりんしゃ}⟦の→の：09472_no⟧⟦{方|ほう}→方：01139_hou⟧⟦が→が：00051_ga⟧⟦{安定|あんてい}→安定：01703_antei⟧⟦している→する：00392_suru⟧。",
       "english": "Four-wheeled vehicles are more stable than two-wheeled ones.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29488_yonrinsha_ex3",
-      "japanese": "{高速道路|こうそくどうろ}では{四輪車|よんりんしゃ}と{二輪車|にりんしゃ}で{料金|りょうきん}が{異|こと}なる。",
+      "japanese": "⟦{高速道路|こうそくどうろ}→高速道路：09242_kousokudouro⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧{四輪車|よんりんしゃ}⟦と→と：00512_to⟧⟦{二輪車|にりんしゃ}→二輪車：20952_nirinsha⟧⟦で→で：00502_de⟧⟦{料金|りょうきん}→料金：03797_ryoukin⟧⟦が→が：00051_ga⟧⟦{異|こと}なる→異なる：02101_kotonaru⟧。",
       "english": "On the expressway, tolls differ for four-wheeled and two-wheeled vehicles.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "A category term used in traffic rules, tolls, and licensing, where vehicles are classified by their number of wheels.\n\nCOMMON COLLOCATIONS:\n- {四輪車|よんりんしゃ}の{免許|めんきょ}: a four-wheeled-vehicle license\n- {普通|ふつう}{四輪車|よんりんしゃ}: an ordinary four-wheeled vehicle\n\nSIMILAR WORDS:\n- {二輪車|にりんしゃ}: two-wheeled vehicle — a motorcycle or moped, the usual contrast\n- {自動車|じどうしゃ}: automobile — the everyday word for a car",
+  "notes": "A category term used in traffic rules, tolls, and licensing, where vehicles are classified by their number of wheels.\n\nCOMMON COLLOCATIONS:\n- {四輪車|よんりんしゃ}⟦の→の：09472_no⟧⟦{免許|めんきょ}→免許：03808_menkyo⟧: a four-wheeled-vehicle license\n- ⟦{普通|ふつう}→普通：01502_futsuu⟧{四輪車|よんりんしゃ}: an ordinary four-wheeled vehicle\n\nSIMILAR WORDS:\n- ⟦{二輪車|にりんしゃ}→二輪車：20952_nirinsha⟧: two-wheeled vehicle — a motorcycle or moped, the usual contrast\n- ⟦{自動車|じどうしゃ}→自動車：02886_jidousha⟧: automobile — the everyday word for a car",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20952_nirinsha",
+      "reading": "にりんしゃ",
+      "headword": "{二輪車|にりんしゃ}",
+      "label": "two-wheeled vehicle"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02886_jidousha",
+      "reading": "じどうしゃ",
+      "headword": "{自動車|じどうしゃ}",
+      "label": "automobile"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +69,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "transportation"
       ],
       "domain": []
     },
     "created": "2026-06-25T18:22:26Z",
-    "modified": "2026-06-25T18:22:26Z"
+    "modified": "2026-09-02T04:02:37Z"
   }
 }

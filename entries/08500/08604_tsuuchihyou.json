@@ -14,38 +14,65 @@
   "examples": [
     {
       "id": "08604_tsuuchihyou_ex1",
-      "japanese": "{通知表|つうちひょう}をもらう。",
+      "japanese": "{通知表|つうちひょう}⟦を→を：00422_wo⟧⟦もらう→もらう：00520_morau⟧。",
       "english": "Receive a report card.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "08604_tsuuchihyou_ex2",
-      "japanese": "{通知表|つうちひょう}を{親|おや}に{見|み}せる。",
+      "japanese": "{通知表|つうちひょう}⟦を→を：00422_wo⟧⟦{親|おや}→親：01357_oya⟧⟦に→に：00314_ni⟧⟦{見|み}せる→見せる：01988_miseru⟧。",
       "english": "Show the report card to my parents.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "08604_tsuuchihyou_ex3",
-      "japanese": "{今学期|こんがっき}の{通知表|つうちひょう}は{成績|せいせき}が{上|あ}がっていた。",
+      "japanese": "{今学期|こんがっき}⟦の→の：09472_no⟧{通知表|つうちひょう}⟦は→は：00079_ha⟧⟦{成績|せいせき}→成績：03379_seiseki⟧⟦が→が：00051_ga⟧⟦{上|あ}がっていた→上がる：00615_agaru⟧。",
       "english": "My grades had improved on this term's report card.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "JAPANESE EDUCATION SYSTEM:\n{通知表|つうちひょう} is typically given at the end of each term ({学期|がっき}).\n\nSYNONYMS:\n- {成績表|せいせきひょう} - grades report\n- {通信簿|つうしんぼ} - report card (older term)\n\nGRADING SYSTEMS:\n- Elementary school: Often 3-level (よくできる/できる/もうすこし or ◎/○/△)\n- Junior high: Often 5-level (1-5)\n- High school: Often 10-point scale\n\nCONTENTS:\n- {教科|きょうか}の{成績|せいせき} - subject grades\n- {出席日数|しゅっせきにっすう} - attendance record\n- {担任|たんにん}のコメント - homeroom teacher's comments\n- {行動|こうどう}の{記録|きろく} - behavior record",
+  "notes": "JAPANESE EDUCATION SYSTEM:\n{通知表|つうちひょう} is typically given at the end of each term (⟦{学期|がっき}→学期：01073_gakki⟧).\n\nSIMILAR WORDS:\n- ⟦{成績表|せいせきひょう}→成績表：09289_seisekihyou⟧ - grades report\n- ⟦{通信簿|つうしんぼ}→通信簿：19506_tsuushinbo⟧ - report card (older term)\n\nGRADING SYSTEMS:\n- Elementary school: Often 3-level (⟦よく→よく：00601_yoku⟧⟦できる→できる：00557_dekiru⟧/⟦できる→できる：00557_dekiru⟧/⟦もう→もう：00602_mou⟧すこし or ◎/○/△)\n- Junior high: Often 5-level (1-5)\n- High school: Often 10-point scale\n\nCONTENTS:\n- ⟦{教科|きょうか}→教科：09998_kyouka⟧⟦の→の：09472_no⟧⟦{成績|せいせき}→成績：03379_seiseki⟧ - subject grades\n- {出席日数|しゅっせきにっすう} - attendance record\n- ⟦{担任|たんにん}→担任：16408_tannin⟧⟦の→の：09472_no⟧⟦コメント→コメント：06956_komento⟧ - homeroom teacher's comments\n- ⟦{行動|こうどう}→行動：02728_koudou⟧⟦の→の：09472_no⟧⟦{記録|きろく}→記録：02490_kiroku⟧ - behavior record",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09289_seisekihyou",
+      "reading": "せいせきひょう",
+      "headword": "{成績表|せいせきひょう}",
+      "label": "grades report"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19506_tsuushinbo",
+      "reading": "つうしんぼ",
+      "headword": "{通信簿|つうしんぼ}",
+      "label": "report card"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "semantic": ["education"]
+      "politeness": "plain",
+      "semantic": [
+        "education"
+      ]
     },
     "created": "2026-01-27T12:31:57Z",
-    "modified": "2026-01-27T12:31:57Z"
+    "modified": "2026-09-02T04:01:15Z"
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30649_kanaa_ex1",
-      "japanese": "{明日|あした}は{晴|は}れるかなあ。",
+      "japanese": "⟦{明日|あした}→明日：00501_ashita⟧⟦は→は：00079_ha⟧⟦{晴|は}れる→晴れる：00701_hareru⟧かなあ。",
       "english": "I wonder if it'll be sunny tomorrow.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30649_kanaa_ex2",
-      "japanese": "そろそろ{帰|かえ}ろうかなあ。",
+      "japanese": "⟦そろそろ→そろそろ：01259_sorosoro⟧⟦{帰|かえ}ろう→帰る：00508_kaeru⟧かなあ。",
       "english": "Maybe I should head home soon.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30649_kanaa_ex3",
-      "japanese": "こんなに{雨|あめ}が{降|ふ}って、{試合|しあい}はちゃんとできるのかなあ。",
+      "japanese": "⟦こんな→こんな：02881_konna⟧⟦に→に：00314_ni⟧⟦{雨|あめ}→雨：00583_ame⟧⟦が→が：00051_ga⟧⟦{降|ふ}って→降る：00839_furu⟧、⟦{試合|しあい}→試合：01601_shiai⟧⟦は→は：00079_ha⟧⟦ちゃんと→ちゃんと：02359_chanto⟧⟦できる→できる：00557_dekiru⟧⟦の→の：09472_no⟧かなあ。",
       "english": "With rain like this, I wonder whether the match can really go ahead.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "USAGE:\nAttaches to the plain form: {行|い}くかなあ, {高|たか}いかなあ, {静|しず}かかなあ. With a volitional it expresses hesitation about one's own action ({やめようかなあ}), and with ないかなあ it expresses a wish ({誰|だれ}か{来|こ}ないかなあ — I wish someone would come). Casual: not used in polite speech or writing.\n\nSIMILAR WORDS:\n- かな: I wonder — the plain form; shorter, brisker, less dreamy\n- かしら: I wonder — same function, traditionally feminine and now somewhat dated\n- でしょうか: I wonder — the polite equivalent, used to a listener rather than to oneself",
+  "notes": "USAGE:\nAttaches to the plain form: ⟦{行|い}く→行く：00119_iku⟧かなあ, ⟦{高|たか}い→高い：00500_takai⟧かなあ, ⟦{静|しず}か→静か：00755_shizuka⟧かなあ. With a volitional it expresses hesitation about one's own action (⟦やめよう→やめる：00909_yameru⟧かなあ), and with ⟦ない→ない：01118_nai⟧かなあ it expresses a wish (⟦{誰|だれ}か→誰か：02912_dareka⟧⟦{来|こ}ない→来る：00254_kuru⟧かなあ — I wish someone would come). Casual: not used in polite speech or writing.\n\nSIMILAR WORDS:\n- ⟦か→か：09473_ka⟧な: I wonder — the plain form; shorter, brisker, less dreamy\n- ⟦かしら→かしら：06921_kashira⟧: I wonder — same function, traditionally feminine and now somewhat dated\n- でしょう⟦か→か：09473_ka⟧: I wonder — the polite equivalent, used to a listener rather than to oneself",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06921_kashira",
+      "reading": "かしら",
+      "headword": "かしら",
+      "label": "I wonder"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23898_deshouka",
+      "reading": "でしょうか",
+      "headword": "でしょうか",
+      "label": "I wonder"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,6 +78,6 @@
       ]
     },
     "created": "2026-08-14T15:52:31Z",
-    "modified": "2026-08-14T15:52:31Z"
+    "modified": "2026-09-02T04:02:41Z"
   }
 }

@@ -15,41 +15,74 @@
   "examples": [
     {
       "id": "22682_aonisai_ex1",
-      "japanese": "{青二才|あおにさい}のくせに{生意気|なまいき}だ。",
+      "japanese": "{青二才|あおにさい}⟦の→の：09472_no⟧くせ⟦に→に：00314_ni⟧⟦{生意気|なまいき}→生意気：08271_namaiki⟧だ。",
       "english": "He's cheeky for a greenhorn.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "22682_aonisai_ex2",
-      "japanese": "あの{青二才|あおにさい}に{何|なに}がわかる。",
+      "japanese": "⟦あの→あの：00915_ano⟧{青二才|あおにさい}⟦に→に：00314_ni⟧⟦{何|なに}→何：00498_nani⟧⟦が→が：00051_ga⟧わかる。",
       "english": "What would that greenhorn know?",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "22682_aonisai_ex3",
-      "japanese": "あのころの{自分|じぶん}は{青二才|あおにさい}で、{周|まわ}りの{忠告|ちゅうこく}を{聞|き}かなかった。",
+      "japanese": "⟦あの→あの：00915_ano⟧⟦ころ→〜ころ：03091_koro⟧⟦の→の：09472_no⟧⟦{自分|じぶん}→自分：02887_jibun⟧⟦は→は：00079_ha⟧{青二才|あおにさい}で、⟦{周|まわ}り→周り：01732_mawari⟧⟦の→の：09472_no⟧⟦{忠告|ちゅうこく}→忠告：05462_chuukoku⟧⟦を→を：00422_wo⟧⟦{聞|き}かなかった→聞く：00483_kiku⟧。",
       "english": "Back then I was a greenhorn and wouldn't listen to the advice of those around me.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A somewhat old-fashioned but still understood word. {青|あお} (blue/green) carries connotations of immaturity in Japanese (as in {青臭|あおくさ}い, green/immature), and {二才|にさい} is an archaic word for a young person. The word is usually used by older people to dismiss younger ones, or self-deprecatingly when reflecting on one's own past.\n\nCOMMON COLLOCATIONS:\n- {青二才|あおにさい}のくせに: despite being a greenhorn\n- {青二才|あおにさい}が{偉|えら}そうに: a greenhorn acting important\n- まだ{青二才|あおにさい}だ: still just a greenhorn\n\nSIMILAR WORDS:\n- {世間知|せけんし}らず: naive, unworldly — focuses on lack of social awareness, while {青二才|あおにさい} emphasizes youthful arrogance or presumption\n- {若造|わかぞう}: young upstart — similarly dismissive of youth, but less literary\n- {半人前|はんにんまえ}: half-fledged — focuses on incomplete skill development rather than attitude",
+  "notes": "A somewhat old-fashioned but still understood word. ⟦{青|あお}→青：02841_ao⟧ (blue/green) carries connotations of immaturity in Japanese (as in ⟦{青臭|あおくさ}い→青臭い：06821_aokusai⟧, green/immature), and {二才|にさい} is an archaic word for a young person. The word is usually used by older people to dismiss younger ones, or self-deprecatingly when reflecting on one's own past.\n\nCOMMON COLLOCATIONS:\n- {青二才|あおにさい}⟦の→の：09472_no⟧くせ⟦に→に：00314_ni⟧: despite being a greenhorn\n- {青二才|あおにさい}⟦が→が：00051_ga⟧{偉|えら}そう⟦に→に：00314_ni⟧: a greenhorn acting important\n- ⟦まだ→まだ：00603_mada⟧{青二才|あおにさい}だ: still just a greenhorn\n\nSIMILAR WORDS:\n- ⟦{世間知|せけんし}らず→世間知らず：22674_sekenshirazu⟧: naive, unworldly — focuses on lack of social awareness, while {青二才|あおにさい} emphasizes youthful arrogance or presumption\n- ⟦{若造|わかぞう}→若造：18457_wakazou⟧: young upstart — similarly dismissive of youth, but less literary\n- ⟦{半人前|はんにんまえ}→半人前：22681_hanninmae⟧: half-fledged — focuses on incomplete skill development rather than attitude",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22674_sekenshirazu",
+      "reading": "せけんしらず",
+      "headword": "{世間知|せけんし}らず",
+      "label": "naive, unworldly"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18457_wakazou",
+      "reading": "わかぞう",
+      "headword": "{若造|わかぞう}",
+      "label": "young upstart"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22681_hanninmae",
+      "reading": "はんにんまえ",
+      "headword": "{半人前|はんにんまえ}",
+      "label": "half-fledged"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["personality"],
+      "pos": [
+        "noun"
+      ],
+      "semantic": [
+        "personality"
+      ],
       "domain": [],
       "formality": "neutral",
       "politeness": "plain"
     },
     "created": "2026-04-07T00:54:30Z",
-    "modified": "2026-04-07T00:54:30Z"
+    "modified": "2026-09-02T04:02:09Z"
   }
 }

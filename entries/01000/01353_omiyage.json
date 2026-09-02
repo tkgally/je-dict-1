@@ -65,12 +65,52 @@
   ],
   "notes": "お{土産|みやげ} refers to gifts brought back from trips.\n\nCultural note: In Japan, it's customary to bring お{土産|みやげ} for coworkers, friends, and family after traveling. This is an important social obligation.\n\nTypes:\n- Often local specialties (⟦{特産品|とくさんひん}→特産品：13483_tokusanhin⟧) of the destination\n- Food items are very common (sweets, snacks)\n- Usually individually packaged for easy distribution at work\n\nRelated:\n- ⟦{名物|めいぶつ}→名物：05591_meibutsu⟧: local specialty/famous product\n- お{土産|みやげ}⟦{屋|や}→〜屋：03096_ya⟧: souvenir shop\n- お{土産|みやげ}⟦{話|ばなし}→話：01496_hanashi⟧: stories from one's travels",
   "cross_references": [
-    {"type": "related", "target_id": "03746_miyage", "reading": "みやげ", "headword": "{土産|みやげ}", "label": "same word without honorific お"},
-    {"type": "related", "target_id": "05591_meibutsu", "reading": "めいぶつ", "headword": "{名物|めいぶつ}", "label": "local specialty"}
+    {
+      "type": "related",
+      "target_id": "03746_miyage",
+      "reading": "みやげ",
+      "headword": "{土産|みやげ}",
+      "label": "same word without honorific お"
+    },
+    {
+      "type": "related",
+      "target_id": "05591_meibutsu",
+      "reading": "めいぶつ",
+      "headword": "{名物|めいぶつ}",
+      "label": "local specialty"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01791_purezento",
+      "reading": "ぷれぜんと",
+      "headword": "プレゼント",
+      "label": "present, gift"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07470_soshina",
+      "reading": "そしな",
+      "headword": "{粗品|そしな}",
+      "label": "small gift"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20125_zoutouhin",
+      "reading": "ぞうとうひん",
+      "headword": "{贈答品|ぞうとうひん}",
+      "label": "gift"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23122_miyagemono",
+      "reading": "みやげもの",
+      "headword": "{土産物|みやげもの}",
+      "label": "souvenir"
+    }
   ],
   "metadata": {
     "created": "2026-01-08T12:12:19Z",
-    "modified": "2026-05-15T13:13:32Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

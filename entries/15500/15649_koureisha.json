@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "15649_koureisha_ex1",
-      "japanese": "{高齢者|こうれいしゃ}が{増|ふ}えている。",
+      "japanese": "{高齢者|こうれいしゃ}⟦が→が：00051_ga⟧⟦{増|ふ}えている→増える：01183_fueru⟧。",
       "english": "The number of elderly people is increasing.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15649_koureisha_ex2",
-      "japanese": "{高齢者|こうれいしゃ}{向|む}けのサービスが{充実|じゅうじつ}してきた。",
+      "japanese": "{高齢者|こうれいしゃ}{向|む}け⟦の→の：09472_no⟧⟦サービス→サービス：01531_saabisu⟧⟦が→が：00051_ga⟧⟦{充実|じゅうじつ}→充実：04845_juujitsu⟧してきた。",
       "english": "Services aimed at senior citizens have become more comprehensive.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15649_koureisha_ex3",
-      "japanese": "この{地域|ちいき}では{高齢者|こうれいしゃ}の{一人暮|ひとりぐ}らしが{深刻|しんこく}な{問題|もんだい}になっている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{地域|ちいき}→地域：01461_chiiki⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧{高齢者|こうれいしゃ}⟦の→の：09472_no⟧⟦{一人暮|ひとりぐ}らし→一人暮らし：03142_hitorigurashi⟧⟦が→が：00051_ga⟧⟦{深刻|しんこく}→深刻：01567_shinkoku⟧な⟦{問題|もんだい}→問題：00797_mondai⟧になっている。",
       "english": "In this area, elderly people living alone has become a serious problem.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nA formal, neutral term used in news, government documents, and healthcare. In Japan, {高齢者|こうれいしゃ} generally refers to people aged 65 and over, following the definition used by the World Health Organization and Japanese government policy.\n\nCOMMON COLLOCATIONS:\n- {高齢者|こうれいしゃ}{福祉|ふくし} (elderly welfare)\n- {高齢者|こうれいしゃ}{介護|かいご} (elderly care)\n- {高齢者|こうれいしゃ}{向|む}け (aimed at seniors)\n- {後期|こうき}{高齢者|こうれいしゃ} (people aged 75 and over)\n\nSIMILAR WORDS:\n- お{年寄|としよ}り: a softer, everyday term for elderly people\n- {老人|ろうじん}: a more direct term that some consider less respectful in modern usage",
+  "notes": "USAGE:\nA formal, neutral term used in news, government documents, and healthcare. In Japan, {高齢者|こうれいしゃ} generally refers to people aged 65 and over, following the definition used by the World Health Organization and Japanese government policy.\n\nCOMMON COLLOCATIONS:\n- {高齢者|こうれいしゃ}{福祉|ふくし} (elderly welfare)\n- {高齢者|こうれいしゃ}⟦{介護|かいご}→介護：04805_kaigo⟧ (elderly care)\n- {高齢者|こうれいしゃ}{向|む}け (aimed at seniors)\n- ⟦{後期|こうき}→後期：12603_kouki⟧{高齢者|こうれいしゃ} (people aged 75 and over)\n\nSIMILAR WORDS:\n- お⟦{年寄|としよ}り→年寄り：03460_toshiyori⟧: a softer, everyday term for elderly people\n- ⟦{老人|ろうじん}→老人：03784_roujin⟧: a more direct term that some consider less respectful in modern usage",
   "cross_references": [
     {
       "type": "synonym",
@@ -46,18 +52,43 @@
       "reading": "しにあ",
       "headword": "シニア",
       "label": "loanword, casual"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03784_roujin",
+      "reading": "ろうじん",
+      "headword": "{老人|ろうじん}",
+      "label": "a more direct term that some consider…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10432_nenpai",
+      "reading": "ねんぱい",
+      "headword": "{年配|ねんぱい}",
+      "label": "elderly, older"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19988_chuukounen",
+      "reading": "ちゅうこうねん",
+      "headword": "{中高年|ちゅうこうねん}",
+      "label": "middle-aged and older people"
     }
   ],
   "metadata": {
     "created": "2026-03-08T06:39:32Z",
-    "modified": "2026-04-22T06:07:44Z",
+    "modified": "2026-09-02T04:01:42Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["person"]
+      "semantic": [
+        "person"
+      ]
     }
   }
 }

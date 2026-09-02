@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "20755_shaden_ex1",
-      "japanese": "{社殿|しゃでん}に{参拝|さんぱい}する。",
+      "japanese": "{社殿|しゃでん}⟦に→に：00314_ni⟧⟦{参拝|さんぱい}する→参拝する：15627_sanpaisuru⟧。",
       "english": "To worship at the shrine building.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "20755_shaden_ex2",
-      "japanese": "{朱塗|しゅぬ}りの{社殿|しゃでん}が{美|うつく}しい。",
+      "japanese": "{朱塗|しゅぬ}り⟦の→の：09472_no⟧{社殿|しゃでん}⟦が→が：00051_ga⟧⟦{美|うつく}しい→美しい：01121_utsukushii⟧。",
       "english": "The vermilion-painted shrine building is beautiful.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "20755_shaden_ex3",
-      "japanese": "{火災|かさい}で{焼失|しょうしつ}した{社殿|しゃでん}が、{数年|すうねん}かけて{再建|さいけん}された。",
+      "japanese": "⟦{火災|かさい}→火災：02561_kasai⟧⟦で→で：00502_de⟧⟦{焼失|しょうしつ}→焼失：13480_shoushitsu⟧⟦した→する：00392_suru⟧{社殿|しゃでん}⟦が→が：00051_ga⟧、⟦{数年|すうねん}→数年：28206_suunen⟧⟦かけて→かける：00854_kakeru⟧⟦{再建|さいけん}→再建：11743_saiken⟧⟦された→する：00392_suru⟧。",
       "english": "The shrine building that was destroyed by fire was rebuilt over several years.",
       "sense_numbers": [
         1
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {社|しゃ} (shrine) and {殿|でん} (hall, palace). Refers specifically to Shinto shrine architecture, not Buddhist temples.\n\nCULTURAL CONTEXT:\nShinto shrine buildings typically include the {本殿|ほんでん} (main hall housing the deity), {拝殿|はいでん} (worship hall where visitors pray), and various auxiliary structures. {社殿|しゃでん} can refer to any of these or to the complex as a whole. Traditional shrine architecture features distinctive elements like {千木|ちぎ} (forked finials) and {鰹木|かつおぎ} (log-shaped ridge ornaments).\n\nCOMMON COLLOCATIONS:\n- {社殿|しゃでん}を{建|た}てる — to build a shrine hall\n- {社殿|しゃでん}を{再建|さいけん}する — to rebuild a shrine hall\n- {社殿|しゃでん}の{造営|ぞうえい} — construction of a shrine building\n- {朱塗|しゅぬ}りの{社殿|しゃでん} — vermilion-painted shrine building\n\nRELATED TERMS:\n- {本殿|ほんでん} — main hall of a shrine; where the deity resides\n- {拝殿|はいでん} — worship hall; where visitors pray\n- {仏殿|ぶつでん} — Buddhist temple hall; the Buddhist equivalent",
+  "notes": "A compound of ⟦{社|しゃ}→〜社：04660_sha⟧ (shrine) and {殿|でん} (hall, palace). Refers specifically to Shinto shrine architecture, not Buddhist temples.\n\nCULTURAL NOTE:\nShinto shrine buildings typically include the ⟦{本殿|ほんでん}→本殿：13090_honden⟧ (main hall housing the deity), ⟦{拝殿|はいでん}→拝殿：24252_haiden⟧ (worship hall where visitors pray), and various auxiliary structures. {社殿|しゃでん} can refer to any of these or to the complex as a whole. Traditional shrine architecture features distinctive elements like {千木|ちぎ} (forked finials) and {鰹木|かつおぎ} (log-shaped ridge ornaments).\n\nCOMMON COLLOCATIONS:\n- {社殿|しゃでん}⟦を→を：00422_wo⟧⟦{建|た}てる→建てる：01189_tateru⟧ — to build a shrine hall\n- {社殿|しゃでん}⟦を→を：00422_wo⟧⟦{再建|さいけん}→再建：11743_saiken⟧⟦する→する：00392_suru⟧ — to rebuild a shrine hall\n- {社殿|しゃでん}⟦の→の：09472_no⟧{造営|ぞうえい} — construction of a shrine building\n- {朱塗|しゅぬ}り⟦の→の：09472_no⟧{社殿|しゃでん} — vermilion-painted shrine building\n\nRELATED WORDS:\n- ⟦{本殿|ほんでん}→本殿：13090_honden⟧ — main hall of a shrine; where the deity resides\n- ⟦{拝殿|はいでん}→拝殿：24252_haiden⟧ — worship hall; where visitors pray\n- ⟦{仏殿|ぶつでん}→仏殿：25003_butsuden⟧ — Buddhist temple hall; the Buddhist equivalent",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "13090_honden",
+      "reading": "ほんでん",
+      "headword": "{本殿|ほんでん}",
+      "label": "main hall of a shrine"
+    },
+    {
+      "type": "related",
+      "target_id": "24252_haiden",
+      "reading": "はいでん",
+      "headword": "{拝殿|はいでん}",
+      "label": "worship hall"
+    },
+    {
+      "type": "related",
+      "target_id": "25003_butsuden",
+      "reading": "ぶつでん",
+      "headword": "{仏殿|ぶつでん}",
+      "label": "Buddhist temple hall"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26627_saiden",
+      "reading": "さいでん",
+      "headword": "{祭殿|さいでん}",
+      "label": "ceremonial hall"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +90,6 @@
       ]
     },
     "created": "2026-03-30T15:12:53Z",
-    "modified": "2026-07-29T00:22:41Z"
+    "modified": "2026-09-02T04:02:00Z"
   }
 }

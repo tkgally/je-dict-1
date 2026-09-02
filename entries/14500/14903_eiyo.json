@@ -15,41 +15,73 @@
   "examples": [
     {
       "id": "14903_eiyo_ex1",
-      "japanese": "{大|おお}きな{栄誉|えいよ}を{受|う}けた。",
+      "japanese": "⟦{大|おお}きな→大きな：02849_ookina⟧{栄誉|えいよ}⟦を→を：00422_wo⟧⟦{受|う}けた→受ける：01215_ukeru⟧。",
       "english": "I received a great honor.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14903_eiyo_ex2",
-      "japanese": "ノーベル{賞|しょう}は{科学者|かがくしゃ}にとって{最高|さいこう}の{栄誉|えいよ}だ。",
+      "japanese": "ノーベル⟦{賞|しょう}→賞：03227_shou⟧⟦は→は：00079_ha⟧⟦{科学者|かがくしゃ}→科学者：19378_kagakusha⟧⟦にとって→にとって：06803_nitotte⟧⟦{最高|さいこう}→最高：02637_saikou⟧⟦の→の：09472_no⟧{栄誉|えいよ}だ。",
       "english": "The Nobel Prize is the highest honor for a scientist.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14903_eiyo_ex3",
-      "japanese": "{長年|ながねん}の{功績|こうせき}が{認|みと}められ、{栄誉|えいよ}ある{賞|しょう}を{授|さず}けられた。",
+      "japanese": "⟦{長年|ながねん}→長年：09684_naganen⟧⟦の→の：09472_no⟧⟦{功績|こうせき}→功績：04143_kouseki⟧⟦が→が：00051_ga⟧⟦{認|みと}められ→認める：02429_mitomeru⟧、{栄誉|えいよ}⟦ある→ある：00006_aru⟧⟦{賞|しょう}→賞：03227_shou⟧⟦を→を：00422_wo⟧⟦{授|さず}けられた→授ける：10350_sazukeru⟧。",
       "english": "His long years of achievement were recognized, and he was awarded a prestigious prize.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\n{栄誉|えいよ} refers to honor or distinction that is formally bestowed or publicly recognized. It is a formal word that appears frequently in award ceremonies, official commendations, and news reporting.\n\nCOMMON COLLOCATIONS:\n- {栄誉|えいよ}を{受|う}ける (to receive an honor)\n- {栄誉|えいよ}ある{賞|しょう} (a prestigious award)\n- {栄誉|えいよ}を{讃|たた}える (to praise someone's honor)\n- {最高|さいこう}の{栄誉|えいよ} (the highest honor)\n\nSIMILAR WORDS:\n- {栄誉|えいよ}: honor, distinction (formal recognition from others)\n- {名誉|めいよ}: honor, reputation (broader; includes social standing)\n- {栄光|えいこう}: glory (grander, more dramatic; often about triumphs)\n- {誇|ほこ}り: pride (personal feeling, not an external honor)",
-  "cross_references": [],
+  "notes": "USAGE:\n{栄誉|えいよ} refers to honor or distinction that is formally bestowed or publicly recognized. It is a formal word that appears frequently in award ceremonies, official commendations, and news reporting.\n\nCOMMON COLLOCATIONS:\n- {栄誉|えいよ}⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧ (to receive an honor)\n- {栄誉|えいよ}⟦ある→ある：00006_aru⟧⟦{賞|しょう}→賞：03227_shou⟧ (a prestigious award)\n- {栄誉|えいよ}⟦を→を：00422_wo⟧{讃|たた}える (to praise someone's honor)\n- ⟦{最高|さいこう}→最高：02637_saikou⟧⟦の→の：09472_no⟧{栄誉|えいよ} (the highest honor)\n\nSIMILAR WORDS:\n- {栄誉|えいよ}: honor, distinction (formal recognition from others)\n- ⟦{名誉|めいよ}→名誉：10568_meiyo⟧: honor, reputation (broader; includes social standing)\n- ⟦{栄光|えいこう}→栄光：20495_eikou⟧: glory (grander, more dramatic; often about triumphs)\n- ⟦{誇|ほこ}り→誇り：03623_hokori⟧: pride (personal feeling, not an external honor)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "10568_meiyo",
+      "reading": "めいよ",
+      "headword": "{名誉|めいよ}",
+      "label": "honor, reputation (broader"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20495_eikou",
+      "reading": "えいこう",
+      "headword": "{栄光|えいこう}",
+      "label": "glory (grander, more dramatic"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03623_hokori",
+      "reading": "ほこり",
+      "headword": "{誇|ほこ}り",
+      "label": "pride"
+    }
+  ],
   "metadata": {
     "created": "2026-03-04T05:50:31Z",
-    "modified": "2026-03-04T05:50:31Z",
+    "modified": "2026-09-02T04:01:39Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

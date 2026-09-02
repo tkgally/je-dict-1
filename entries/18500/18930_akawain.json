@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "18930_akawain_ex1",
-      "japanese": "{赤|あか}ワインをグラスで{一杯|いっぱい}。",
+      "japanese": "{赤|あか}ワイン⟦を→を：00422_wo⟧⟦グラス→グラス：00076_gurasu⟧⟦で→で：00502_de⟧⟦{一杯|いっぱい}→一杯：01793_ippai⟧。",
       "english": "One glass of red wine, please.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "18930_akawain_ex2",
-      "japanese": "{肉料理|にくりょうり}には{赤|あか}ワインが{合|あ}う。",
+      "japanese": "⟦{肉料理|にくりょうり}→肉料理：19402_nikuryouri⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{赤|あか}ワイン⟦が→が：00051_ga⟧⟦{合|あ}う→合う：10466_au⟧。",
       "english": "Red wine goes well with meat dishes.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "18930_akawain_ex3",
-      "japanese": "フランス{産|さん}の{赤|あか}ワインをお{土産|みやげ}に{買|か}ってきた。",
+      "japanese": "⟦フランス→フランス：19418_furansu⟧{産|さん}⟦の→の：09472_no⟧{赤|あか}ワイン⟦を→を：00422_wo⟧⟦お{土産|みやげ}→お土産：01353_omiyage⟧⟦に→に：00314_ni⟧⟦{買|か}って→買う：00489_kau⟧きた。",
       "english": "I bought a French red wine as a souvenir.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "{赤|あか}ワイン is composed of {赤|あか} (red) + ワイン (wine). A straightforward compound.\n\nWINE TYPES:\n- {赤|あか}ワイン: red wine\n- {白|しろ}ワイン: white wine\n- ロゼ(ワイン): rosé wine\n- スパークリングワイン: sparkling wine\n\nORDERING SHORTHAND:\nIn restaurants, {赤|あか} alone can be used as shorthand: {赤|あか}をください (a red, please).\n\nCOOKING USES:\n- {赤|あか}ワイン{煮|に}: braised in red wine\n- {赤|あか}ワインソース: red wine sauce\n- {赤|あか}ワイン{煮込|にこ}み: red wine stew\n\nALTERNATE NAME:\n{赤|あか}ぶどう{酒|しゅ} is a more literary/traditional equivalent, but {赤|あか}ワイン is standard.",
+  "notes": "{赤|あか}ワイン is composed of ⟦{赤|あか}→赤：02842_aka⟧ (red) + ⟦ワイン→ワイン：01067_wain⟧ (wine). A straightforward compound.\n\nWINE TYPES:\n- {赤|あか}ワイン: red wine\n- ⟦{白|しろ}ワイン→白ワイン：16973_shirowain⟧: white wine\n- ロゼ(⟦ワイン→ワイン：01067_wain⟧): rosé wine\n- ⟦スパークリングワイン→スパークリングワイン：27584_supaakuringuwain⟧: sparkling wine\n\nORDERING SHORTHAND:\nIn restaurants, ⟦{赤|あか}→赤：02842_aka⟧ alone can be used as shorthand: ⟦{赤|あか}→赤：02842_aka⟧⟦を→を：00422_wo⟧⟦ください→ください：02899_kudasai⟧ (a red, please).\n\nCOOKING USES:\n- {赤|あか}ワイン{煮|に}: braised in red wine\n- {赤|あか}ワイン⟦ソース→ソース：17673_soosu⟧: red wine sauce\n- {赤|あか}ワイン⟦{煮込|にこ}み→煮込み：19761_nikomi⟧: red wine stew\n\nALTERNATE NAME:\n⟦{赤|あか}→赤：02842_aka⟧⟦ぶどう{酒|しゅ}→ぶどう酒：19070_budoushu⟧ is a more literary/traditional equivalent, but {赤|あか}ワイン is standard.",
   "prominent_see_also": [
     {
       "target_id": "16973_shirowain",
@@ -48,15 +54,29 @@
     }
   ],
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "27583_rozewain",
+      "reading": "ろぜわいん",
+      "headword": "ロゼワイン",
+      "label": "rosé wine"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food", "consumption"]
+      "semantic": [
+        "food",
+        "consumption"
+      ]
     },
     "created": "2026-03-23T09:31:33Z",
-    "modified": "2026-05-05T06:07:12Z"
+    "modified": "2026-09-02T04:01:54Z"
   }
 }

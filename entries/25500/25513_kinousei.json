@@ -15,39 +15,67 @@
   "examples": [
     {
       "id": "25513_kinousei_ex1",
-      "japanese": "{機能性|きのうせい}を{重視|じゅうし}した{設計|せっけい}だ。",
+      "japanese": "{機能性|きのうせい}⟦を→を：00422_wo⟧⟦{重視|じゅうし}した→重視する：26832_juushisuru⟧⟦{設計|せっけい}→設計：03300_sekkei⟧だ。",
       "english": "It's a design that prioritizes functionality.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "25513_kinousei_ex2",
-      "japanese": "デザインと{機能性|きのうせい}を{両立|りょうりつ}させた{製品|せいひん}だ。",
+      "japanese": "⟦デザイン→デザイン：03860_dezain⟧⟦と→と：00512_to⟧{機能性|きのうせい}⟦を→を：00422_wo⟧⟦{両立|りょうりつ}→両立：11310_ryouritsu⟧⟦させた→する：00392_suru⟧⟦{製品|せいひん}→製品：01445_seihin⟧だ。",
       "english": "It's a product that balances design and functionality.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "25513_kinousei_ex3",
-      "japanese": "この{素材|そざい}は{機能性|きのうせい}に{優|すぐ}れており、{汗|あせ}をすぐに{吸収|きゅうしゅう}する。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{素材|そざい}→素材：09492_sozai⟧⟦は→は：00079_ha⟧{機能性|きのうせい}⟦に→に：00314_ni⟧⟦{優|すぐ}れて→優れる：02119_sugureru⟧おり、⟦{汗|あせ}→汗：02173_ase⟧⟦を→を：00422_wo⟧⟦すぐ→すぐ：00814_sugu⟧⟦に→に：00314_ni⟧⟦{吸収|きゅうしゅう}する→吸収する：25365_kyuushuusuru⟧。",
       "english": "This material excels in functionality, absorbing sweat quickly.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {機能|きのう} (function) + {性|せい} (quality; nature). Widely used in marketing, product reviews, and design discussions. In recent years, {機能性|きのうせい}{食品|しょくひん} (functional foods) has become a common label in Japan for foods with health benefits.\n\nCOMMON COLLOCATIONS:\n- {機能性|きのうせい}{食品|しょくひん}: functional food (food with health benefits)\n- {機能性|きのうせい}{表示|ひょうじ}: functionality labeling\n- {機能性|きのうせい}に{優|すぐ}れた: excelling in functionality\n- {機能性|きのうせい}と{デザイン|でざいん}: functionality and design\n\nSIMILAR WORDS:\n- {実用性|じつようせい}: practicality — broader; focuses on whether something is useful in practice\n- {利便性|りべんせい}: convenience — emphasizes ease of use and accessibility\n- {機能|きのう}: function — the base word; refers to what something does rather than the quality of how well it works",
-  "cross_references": [],
+  "notes": "Composed of ⟦{機能|きのう}→機能：13165_kinou⟧ (function) + ⟦{性|せい}→性：09880_sei⟧ (quality; nature). Widely used in marketing, product reviews, and design discussions. In recent years, {機能性|きのうせい}{食品|しょくひん} (functional foods) has become a common label in Japan for foods with health benefits.\n\nCOMMON COLLOCATIONS:\n- {機能性|きのうせい}{食品|しょくひん}: functional food (food with health benefits)\n- {機能性|きのうせい}⟦{表示|ひょうじ}→表示：03143_hyouji⟧: functionality labeling\n- {機能性|きのうせい}⟦に→に：00314_ni⟧⟦{優|すぐ}れた→優れる：02119_sugureru⟧: excelling in functionality\n- {機能性|きのうせい}⟦と→と：00512_to⟧⟦デザイン→デザイン：03860_dezain⟧: functionality and design\n\nSIMILAR WORDS:\n- ⟦{実用性|じつようせい}→実用性：22647_jitsuyousei⟧: practicality — broader; focuses on whether something is useful in practice\n- ⟦{利便性|りべんせい}→利便性：10681_ribensei⟧: convenience — emphasizes ease of use and accessibility\n- ⟦{機能|きのう}→機能：13165_kinou⟧: function — the base word; refers to what something does rather than the quality of how well it works",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22647_jitsuyousei",
+      "reading": "じつようせい",
+      "headword": "{実用性|じつようせい}",
+      "label": "practicality"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10681_ribensei",
+      "reading": "りべんせい",
+      "headword": "{利便性|りべんせい}",
+      "label": "convenience"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["technology", "evaluation"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "technology",
+        "evaluation"
+      ]
     },
     "created": "2026-04-25T15:17:48Z",
-    "modified": "2026-04-25T15:17:48Z"
+    "modified": "2026-09-02T04:02:22Z"
   }
 }

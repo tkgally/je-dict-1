@@ -15,39 +15,74 @@
   "examples": [
     {
       "id": "25958_firutaringu_ex1",
-      "japanese": "フィルタリング{機能|きのう}を{有効|ゆうこう}にする。",
+      "japanese": "フィルタリング⟦{機能|きのう}→機能：13165_kinou⟧⟦を→を：00422_wo⟧⟦{有効|ゆうこう}→有効：03645_yuukou⟧⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧。",
       "english": "To enable the filtering function.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "25958_firutaringu_ex2",
-      "japanese": "{子供|こども}のスマートフォンにフィルタリングを{設定|せってい}した。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧⟦の→の：09472_no⟧⟦スマートフォン→スマートフォン：04434_sumaatofon⟧⟦に→に：00314_ni⟧フィルタリング⟦を→を：00422_wo⟧⟦{設定|せってい}→設定：04767_settei⟧⟦した→する：00392_suru⟧。",
       "english": "I set up content filtering on my child's smartphone.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "25958_firutaringu_ex3",
-      "japanese": "{迷惑|めいわく}メールのフィルタリングが{正|ただ}しく{動作|どうさ}していないようだ。",
+      "japanese": "⟦{迷惑|めいわく}→迷惑：02432_meiwaku⟧⟦メール→メール：04435_meeru⟧⟦の→の：09472_no⟧フィルタリング⟦が→が：00051_ga⟧⟦{正|ただ}しく→正しい：00893_tadashii⟧⟦{動作|どうさ}→動作：04074_dousa⟧⟦していない→する：00392_suru⟧ようだ。",
       "english": "The spam email filtering doesn't seem to be working properly.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A loanword from English \"filtering.\" In Japan, フィルタリング most commonly refers to internet content filtering, especially parental controls on children's devices. Since 2008, Japanese law has required mobile carriers to offer filtering services for minors. Also used in technical contexts for data processing and email spam prevention.\n\nCOMMON COLLOCATIONS:\n- フィルタリング{機能|きのう}: filtering function\n- フィルタリングを{設定|せってい}する: to set up filtering\n- フィルタリングソフト: filtering software\n- フィルタリングサービス: filtering service\n- {有害|ゆうがい}サイトフィルタリング: harmful site filtering\n\nSIMILAR WORDS:\n- フィルター: filter — the device or mechanism itself, rather than the process\n- ブロック: blocking — specifically preventing access, while フィルタリング also includes allowing approved content\n- {検閲|けんえつ}: censorship — implies government or institutional suppression of information, with a negative connotation",
-  "cross_references": [],
+  "notes": "A loanword from English \"filtering.\" In Japan, フィルタリング most commonly refers to internet content filtering, especially parental controls on children's devices. Since 2008, Japanese law has required mobile carriers to offer filtering services for minors. Also used in technical contexts for data processing and email spam prevention.\n\nCOMMON COLLOCATIONS:\n- フィルタリング⟦{機能|きのう}→機能：13165_kinou⟧: filtering function\n- フィルタリング⟦を→を：00422_wo⟧⟦{設定|せってい}→設定：04767_settei⟧⟦する→する：00392_suru⟧: to set up filtering\n- フィルタリング⟦ソフト→ソフト：01532_sofuto⟧: filtering software\n- フィルタリング⟦サービス→サービス：01531_saabisu⟧: filtering service\n- ⟦{有害|ゆうがい}→有害：13002_yuugai⟧⟦サイト→サイト：05603_saito⟧フィルタリング: harmful site filtering\n\nSIMILAR WORDS:\n- ⟦フィルター→フィルター：21847_firutaa⟧: filter — the device or mechanism itself, rather than the process\n- ⟦ブロック→ブロック：05902_burokku⟧: blocking — specifically preventing access, while フィルタリング also includes allowing approved content\n- ⟦{検閲|けんえつ}→検閲：21112_kenetsu⟧: censorship — implies government or institutional suppression of information, with a negative connotation",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21847_firutaa",
+      "reading": "ふぃるたー",
+      "headword": "フィルター",
+      "label": "filter"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05902_burokku",
+      "reading": "ぶろっく",
+      "headword": "ブロック",
+      "label": "blocking"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21112_kenetsu",
+      "reading": "けんえつ",
+      "headword": "{検閲|けんえつ}",
+      "label": "censorship"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["technology", "communication"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "technology",
+        "communication"
+      ]
     },
     "created": "2026-04-28T13:37:31Z",
-    "modified": "2026-04-28T13:37:31Z"
+    "modified": "2026-09-02T04:02:24Z"
   }
 }

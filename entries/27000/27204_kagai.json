@@ -3,7 +3,7 @@
   "headword": "{課外|かがい}",
   "reading": "かがい",
   "romaji": "kagai",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "extracurricular; outside of class",
   "definitions": [
     {
@@ -15,41 +15,77 @@
   "examples": [
     {
       "id": "27204_kagai_ex1",
-      "japanese": "{課外|かがい}{活動|かつどう}に{参加|さんか}する。",
+      "japanese": "{課外|かがい}⟦{活動|かつどう}→活動：00201_katsudou⟧⟦に→に：00314_ni⟧⟦{参加|さんか}する→参加する：25408_sankasuru⟧。",
       "english": "To participate in extracurricular activities.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27204_kagai_ex2",
-      "japanese": "{放課後|ほうかご}に{課外|かがい}{授業|じゅぎょう}がある。",
+      "japanese": "⟦{放課後|ほうかご}→放課後：12720_houkago⟧⟦に→に：00314_ni⟧{課外|かがい}⟦{授業|じゅぎょう}→授業：00781_jugyou⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There is an extracurricular class after school.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27204_kagai_ex3",
-      "japanese": "{課外|かがい}の{学習|がくしゅう}を{通|とお}して、{生徒|せいと}たちは{社会|しゃかい}{経験|けいけん}を{積|つ}んでいる。",
+      "japanese": "{課外|かがい}⟦の→の：09472_no⟧⟦{学習|がくしゅう}→学習：02623_gakushuu⟧⟦を→を：00422_wo⟧⟦{通|とお}して→通す：02300_toosu⟧、⟦{生徒|せいと}→生徒：01051_seito⟧たち⟦は→は：00079_ha⟧⟦{社会|しゃかい}→社会：01427_shakai⟧⟦{経験|けいけん}→経験：01179_keiken⟧⟦を→を：00422_wo⟧⟦{積|つ}んでいる→積む：02294_tsumu⟧。",
       "english": "Through extracurricular learning, the students are gaining social experience.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Almost always used as a modifier before another noun, functioning like a prefix meaning \"outside the regular curriculum.\" Composed of {課|か} (lesson/curriculum) + {外|がい} (outside). Rarely used as a standalone noun.\n\nCOMMON COLLOCATIONS:\n- {課外|かがい}{活動|かつどう}: extracurricular activities\n- {課外|かがい}{授業|じゅぎょう}: extracurricular lessons; supplementary classes\n- {課外|かがい}{学習|がくしゅう}: extracurricular learning/study\n- {課外|かがい}{講座|こうざ}: extracurricular course\n- {課外|かがい}{研究|けんきゅう}: extracurricular research\n\nSIMILAR WORDS:\n- {部活|ぶかつ}: club activities — the most common term for after-school club activities at Japanese schools\n- {放課後|ほうかご}: after school — refers to the time period after classes end, not the activities themselves\n- {校外|こうがい}: off-campus; outside school — refers to physical location outside the school grounds, while {課外|かがい} refers to being outside the curriculum",
+  "notes": "Almost always used as a modifier before another noun, functioning like a prefix meaning \"outside the regular curriculum.\" Composed of ⟦{課|か}→課：01548_ka⟧ (lesson/curriculum) + ⟦{外|がい}→外〜：03948_gai⟧ (outside). Rarely used as a standalone noun.\n\nCOMMON COLLOCATIONS:\n- {課外|かがい}⟦{活動|かつどう}→活動：00201_katsudou⟧: extracurricular activities\n- {課外|かがい}⟦{授業|じゅぎょう}→授業：00781_jugyou⟧: extracurricular lessons; supplementary classes\n- {課外|かがい}⟦{学習|がくしゅう}→学習：02623_gakushuu⟧: extracurricular learning/study\n- {課外|かがい}⟦{講座|こうざ}→講座：09790_kouza⟧: extracurricular course\n- {課外|かがい}⟦{研究|けんきゅう}→研究：01396_kenkyuu⟧: extracurricular research\n\nSIMILAR WORDS:\n- ⟦{部活|ぶかつ}→部活：05377_bukatsu⟧: club activities — the most common term for after-school club activities at Japanese schools\n- ⟦{放課後|ほうかご}→放課後：12720_houkago⟧: after school — refers to the time period after classes end, not the activities themselves\n- ⟦{校外|こうがい}→校外：24139_kougai⟧: off-campus; outside school — refers to physical location outside the school grounds, while {課外|かがい} refers to being outside the curriculum",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05377_bukatsu",
+      "reading": "ぶかつ",
+      "headword": "{部活|ぶかつ}",
+      "label": "club activities"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12720_houkago",
+      "reading": "ほうかご",
+      "headword": "{放課後|ほうかご}",
+      "label": "after school"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24139_kougai",
+      "reading": "こうがい",
+      "headword": "{校外|こうがい}",
+      "label": "off-campus"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-no"],
+      "pos": [
+        "noun",
+        "adjective-no"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["education"],
-      "domain": ["academic"]
+      "semantic": [
+        "education"
+      ],
+      "domain": [
+        "academic"
+      ]
     },
     "created": "2026-05-07T16:09:03Z",
-    "modified": "2026-05-07T16:09:03Z"
+    "modified": "2026-09-02T04:02:29Z"
   }
 }

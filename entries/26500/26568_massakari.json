@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26568_massakari_ex1",
-      "japanese": "{桜|さくら}が{真|ま}っ{盛|さか}りだ。",
+      "japanese": "⟦{桜|さくら}→桜：02212_sakura⟧⟦が→が：00051_ga⟧{真|ま}っ{盛|さか}りだ。",
       "english": "The cherry blossoms are in full bloom.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26568_massakari_ex2",
-      "japanese": "{夏|なつ}{真|ま}っ{盛|さか}りで{毎日|まいにち}{暑|あつ}い。",
+      "japanese": "⟦{夏|なつ}→夏：02236_natsu⟧{真|ま}っ{盛|さか}り⟦で→で：00502_de⟧⟦{毎日|まいにち}→毎日：00729_mainichi⟧⟦{暑|あつ}い→暑い：00619_atsui⟧。",
       "english": "It's the height of summer and it's hot every day.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26568_massakari_ex3",
-      "japanese": "{彼|かれ}は{今|いま}、キャリアの{真|ま}っ{盛|さか}りで{海外|かいがい}でも{活躍|かつやく}している。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{今|いま}→今：00945_ima⟧、⟦キャリア→キャリア：10821_kyaria⟧⟦の→の：09472_no⟧{真|ま}っ{盛|さか}り⟦で→で：00502_de⟧⟦{海外|かいがい}→海外：00134_kaigai⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧⟦{活躍|かつやく}している→活躍する：25354_katsuyakusuru⟧。",
       "english": "He is now at the peak of his career and is also active overseas.",
       "sense_numbers": [
         1
@@ -44,8 +44,23 @@
       "notes": null
     }
   ],
-  "notes": "An intensified form of {盛|さか}り (peak, prime), with the prefix {真|ま}っ adding emphasis meaning \"right at\" or \"in the very middle of.\" Expresses that something is at its absolute zenith.\n\nCOMMON COLLOCATIONS:\n- {夏|なつ}{真|ま}っ{盛|さか}り: the height of summer\n- {冬|ふゆ}{真|ま}っ{盛|さか}り: the dead of winter\n- {青春|せいしゅん}の{真|ま}っ{盛|さか}り: in the prime of youth\n- {花|はな}{盛|ざか}り: flowers in full bloom (without {真|ま}っ)\n- {働|はたら}き{盛|ざか}り: in the prime working years (without {真|ま}っ)\n\nGRAMMAR:\nOften used as a predicate (〜が{真|ま}っ{盛|さか}りだ) or as a modifier preceding a noun ({真|ま}っ{盛|さか}りの〜). Also appears directly after a noun without a particle: {夏|なつ}{真|ま}っ{盛|さか}り.\n\nSIMILAR WORDS:\n- {盛|さか}り: peak, prime — the base form, less emphatic\n- {真|ま}っ{最中|さいちゅう}: right in the middle of — emphasizes being in the midst of an activity\n- {絶頂|ぜっちょう}: summit, climax — more dramatic, often for emotions or career highs",
-  "cross_references": [],
+  "notes": "An intensified form of ⟦{盛|さか}り→盛り：00357_sakari⟧ (peak, prime), with the prefix {真|ま}っ adding emphasis meaning \"right at\" or \"in the very middle of.\" Expresses that something is at its absolute zenith.\n\nCOMMON COLLOCATIONS:\n- ⟦{夏|なつ}→夏：02236_natsu⟧{真|ま}っ{盛|さか}り: the height of summer\n- ⟦{冬|ふゆ}→冬：00623_fuyu⟧{真|ま}っ{盛|さか}り: the dead of winter\n- ⟦{青春|せいしゅん}→青春：14613_seishun⟧⟦の→の：09472_no⟧{真|ま}っ{盛|さか}り: in the prime of youth\n- {花|はな}{盛|ざか}り: flowers in full bloom (without {真|ま}っ)\n- ⟦{働|はたら}き{盛|ざか}り→働き盛り：28201_hatarakizakari⟧: in the prime working years (without {真|ま}っ)\n\nCOMMON PATTERNS:\nOften used as a predicate (〜⟦が→が：00051_ga⟧{真|ま}っ{盛|さか}りだ) or as a modifier preceding a noun ({真|ま}っ{盛|さか}り⟦の→の：09472_no⟧〜). Also appears directly after a noun without a particle: ⟦{夏|なつ}→夏：02236_natsu⟧{真|ま}っ{盛|さか}り.\n\nSIMILAR WORDS:\n- ⟦{盛|さか}り→盛り：00357_sakari⟧: peak, prime — the base form, less emphatic\n- ⟦{真|ま}っ{最中|さいちゅう}→真っ最中：13657_massaichuu⟧: right in the middle of — emphasizes being in the midst of an activity\n- ⟦{絶頂|ぜっちょう}→絶頂：13844_zecchou⟧: summit, climax — more dramatic, often for emotions or career highs",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13657_massaichuu",
+      "reading": "まっさいちゅう",
+      "headword": "{真|ま}っ{最中|さいちゅう}",
+      "label": "right in the middle of"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13844_zecchou",
+      "reading": "ぜっちょう",
+      "headword": "{絶頂|ぜっちょう}",
+      "label": "summit, climax"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -60,6 +75,6 @@
       ]
     },
     "created": "2026-05-03T11:16:27Z",
-    "modified": "2026-08-06T00:43:53Z"
+    "modified": "2026-09-02T04:02:26Z"
   }
 }

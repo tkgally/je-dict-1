@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "08680_kochou_ex1",
-      "japanese": "それは{誇張|こちょう}ではない。",
+      "japanese": "⟦それ→それ：00994_sore⟧⟦は→は：00079_ha⟧{誇張|こちょう}⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦ない→ない：01118_nai⟧。",
       "english": "That's not an exaggeration.",
       "sense_numbers": [
         1
@@ -114,7 +114,7 @@
     },
     {
       "id": "08680_kochou_ex2",
-      "japanese": "{彼|かれ}の{話|はなし}には{誇張|こちょう}が{多|おお}い。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧⟦{話|はなし}→話：01496_hanashi⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{誇張|こちょう}⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "His stories contain a lot of exaggeration.",
       "sense_numbers": [
         1
@@ -124,7 +124,7 @@
     },
     {
       "id": "08680_kochou_ex3",
-      "japanese": "{誇張|こちょう}なしに{言|い}えば、{最高|さいこう}の{体験|たいけん}だった。",
+      "japanese": "{誇張|こちょう}なし⟦に→に：00314_ni⟧⟦{言|い}えば→言う：00515_iu⟧、⟦{最高|さいこう}→最高：02637_saikou⟧⟦の→の：09472_no⟧⟦{体験|たいけん}→体験：11443_taiken⟧だった。",
       "english": "Without exaggeration, it was the best experience.",
       "sense_numbers": [
         1
@@ -133,7 +133,30 @@
       "notes": null
     }
   ],
-  "notes": "{誇張|こちょう} means exaggeration — making something seem greater or more extreme than it actually is. Used as both a noun and a する verb.\n\nCOMMON EXPRESSIONS:\n- {誇張|こちょう}する: to exaggerate\n- {誇張|こちょう}なしに: without exaggeration\n- {誇張|こちょう}が{過|す}ぎる: to exaggerate too much\n- {誇張|こちょう}{表現|ひょうげん}: hyperbole, exaggerated expression\n- {誇張|こちょう}して{言|い}う: to say with exaggeration\n\nLITERARY TERM:\n{誇張法|こちょうほう} is the rhetorical device of hyperbole.\n\nSIMILAR WORDS:\n- {大|おお}げさ: exaggerated, dramatic (na-adjective, more colloquial)\n- {言|い}い{過|す}ぎ: overstatement, saying too much\n- オーバー: over-the-top (casual loanword usage)\n\nREGISTER:\nSomewhat formal. In casual speech, {大|おお}げさ is more common.",
+  "notes": "{誇張|こちょう} means exaggeration — making something seem greater or more extreme than it actually is. Used as both a noun and a ⟦する→する：00392_suru⟧ verb.\n\nCOMMON EXPRESSIONS:\n- {誇張|こちょう}⟦する→する：00392_suru⟧: to exaggerate\n- {誇張|こちょう}なし⟦に→に：00314_ni⟧: without exaggeration\n- {誇張|こちょう}⟦が→が：00051_ga⟧⟦{過|す}ぎる→過ぎる：01219_sugiru⟧: to exaggerate too much\n- {誇張|こちょう}⟦{表現|ひょうげん}→表現：03584_hyougen⟧: hyperbole, exaggerated expression\n- {誇張|こちょう}⟦して→する：00392_suru⟧⟦{言|い}う→言う：00515_iu⟧: to say with exaggeration\n\nLITERARY TERM:\n{誇張法|こちょうほう} is the rhetorical device of hyperbole.\n\nSIMILAR WORDS:\n- ⟦{大|おお}げさ→大げさ：19918_oogesa⟧: exaggerated, dramatic (na-adjective, more colloquial)\n- ⟦{言|い}い→言う：00515_iu⟧{過|す}ぎ: overstatement, saying too much\n- ⟦オーバー→オーバー：01529_oobaa⟧: over-the-top (casual loanword usage)\n\nREGISTER:\nSomewhat formal. In casual speech, ⟦{大|おお}げさ→大げさ：19918_oogesa⟧ is more common.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19918_oogesa",
+      "reading": "おおげさ",
+      "headword": "{大|おお}げさ",
+      "label": "exaggerated, dramatic"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01529_oobaa",
+      "reading": "おーばー",
+      "headword": "オーバー",
+      "label": "over-the-top"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24576_ohire",
+      "reading": "おひれ",
+      "headword": "{尾|お}ひれ",
+      "label": "tail fin"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -142,12 +165,13 @@
         "verb-suru"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "communication"
       ],
       "verb_class": "suru"
     },
     "created": "2026-01-27T23:50:36Z",
-    "modified": "2026-03-30T02:16:27Z"
+    "modified": "2026-09-02T04:01:16Z"
   }
 }

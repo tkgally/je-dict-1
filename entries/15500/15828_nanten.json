@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "15828_nanten_ex1",
-      "japanese": "{唯一|ゆいいつ}の{難点|なんてん}は{値段|ねだん}が{高|たか}いことだ。",
+      "japanese": "⟦{唯一|ゆいいつ}→唯一：01666_yuiitsu⟧⟦の→の：09472_no⟧{難点|なんてん}⟦は→は：00079_ha⟧⟦{値段|ねだん}→値段：00871_nedan⟧⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧ことだ。",
       "english": "The only drawback is that the price is high.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15828_nanten_ex2",
-      "japanese": "このプランにはいくつかの{難点|なんてん}がある。",
+      "japanese": "⟦この→この：00962_kono⟧⟦プラン→プラン：00345_puran⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧いくつ⟦か→か：09473_ka⟧⟦の→の：09472_no⟧{難点|なんてん}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "This plan has several weak points.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15828_nanten_ex3",
-      "japanese": "{駅|えき}から{遠|とお}いのが{難点|なんてん}だが、{環境|かんきょう}は{申|もう}し{分|ぶん}ない。",
+      "japanese": "⟦{駅|えき}→駅：02180_eki⟧⟦から→から：00504_kara⟧⟦{遠|とお}い→遠い：00529_tooi⟧⟦の→の：09472_no⟧⟦が→が：00051_ga⟧{難点|なんてん}だ⟦が→が：00051_ga⟧、⟦{環境|かんきょう}→環境：00174_kankyou⟧⟦は→は：00079_ha⟧{申|もう}し{分|ぶん}⟦ない→ない：01118_nai⟧。",
       "english": "Being far from the station is a drawback, but the environment is impeccable.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\n{難点|なんてん} is used to identify specific flaws or issues with something that is otherwise acceptable or good. It is commonly used when evaluating products, plans, proposals, or locations. The pattern ～が{難点|なんてん}だ (the ~ is a drawback) is very common.\n\nCOMMON COLLOCATIONS:\n- {難点|なんてん}がある (there is a drawback)\n- {唯一|ゆいいつ}の{難点|なんてん} (the only drawback)\n- ～が{難点|なんてん}だ (~ is a weak point)\n- {難点|なんてん}を{克服|こくふく}する (overcome a weakness)\n\nSIMILAR WORDS:\n{欠点|けってん} means fault or defect and is stronger and more critical. {短所|たんしょ} means shortcoming and is often used about people. {難点|なんてん} is neutral and objective, commonly used in evaluative contexts.",
+  "notes": "USAGE:\n{難点|なんてん} is used to identify specific flaws or issues with something that is otherwise acceptable or good. It is commonly used when evaluating products, plans, proposals, or locations. The pattern ～⟦が→が：00051_ga⟧{難点|なんてん}だ (the ~ is a drawback) is very common.\n\nCOMMON COLLOCATIONS:\n- {難点|なんてん}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧ (there is a drawback)\n- ⟦{唯一|ゆいいつ}→唯一：01666_yuiitsu⟧⟦の→の：09472_no⟧{難点|なんてん} (the only drawback)\n- ～⟦が→が：00051_ga⟧{難点|なんてん}だ (~ is a weak point)\n- {難点|なんてん}⟦を→を：00422_wo⟧⟦{克服|こくふく}する→克服する：15863_kokufukusuru⟧ (overcome a weakness)\n\nSIMILAR WORDS:\n⟦{欠点|けってん}→欠点：02702_ketten⟧ means fault or defect and is stronger and more critical. ⟦{短所|たんしょ}→短所：04506_tansho⟧ means shortcoming and is often used about people. {難点|なんてん} is neutral and objective, commonly used in evaluative contexts.",
   "cross_references": [
     {
       "type": "synonym",
@@ -53,18 +59,29 @@
       "reading": "たんしょ",
       "headword": "{短所|たんしょ}",
       "label": "shortcoming (often of people)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14605_nansho",
+      "reading": "なんしょ",
+      "headword": "{難所|なんしょ}",
+      "label": "difficult spot"
     }
   ],
   "metadata": {
     "created": "2026-03-08T10:15:47Z",
-    "modified": "2026-05-02T06:35:29Z",
+    "modified": "2026-09-02T04:01:42Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["evaluation"]
+      "semantic": [
+        "evaluation"
+      ]
     }
   }
 }

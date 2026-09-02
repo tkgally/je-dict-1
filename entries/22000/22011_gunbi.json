@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22011_gunbi_ex1",
-      "japanese": "{軍備|ぐんび}を{拡大|かくだい}する。",
+      "japanese": "{軍備|ぐんび}⟦を→を：00422_wo⟧⟦{拡大|かくだい}→拡大：02553_kakudai⟧⟦する→する：00392_suru⟧。",
       "english": "To expand armaments.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22011_gunbi_ex2",
-      "japanese": "{軍備|ぐんび}{縮小|しゅくしょう}の{交渉|こうしょう}が{進|すす}んでいる。",
+      "japanese": "{軍備|ぐんび}{縮小|しゅくしょう}⟦の→の：09472_no⟧⟦{交渉|こうしょう}→交渉：02727_koushou⟧⟦が→が：00051_ga⟧⟦{進|すす}んでいる→進む：01225_susumu⟧。",
       "english": "Negotiations for arms reduction are progressing.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22011_gunbi_ex3",
-      "japanese": "{周辺|しゅうへん}{諸国|しょこく}の{軍備|ぐんび}{増強|ぞうきょう}に{対|たい}して、{政府|せいふ}は{防衛|ぼうえい}{予算|よさん}の{見直|みなお}しを{検討|けんとう}している。",
+      "japanese": "⟦{周辺|しゅうへん}→周辺：09896_shuuhen⟧⟦{諸国|しょこく}→諸国：15992_shokoku⟧⟦の→の：09472_no⟧{軍備|ぐんび}⟦{増強|ぞうきょう}→増強：19103_zoukyou⟧⟦に{対|たい}して→に対して：06800_nitaishite⟧、⟦{政府|せいふ}→政府：03294_seifu⟧⟦は→は：00079_ha⟧⟦{防衛|ぼうえい}→防衛：09783_bouei⟧⟦{予算|よさん}→予算：03663_yosan⟧⟦の→の：09472_no⟧⟦{見直|みなお}し→見直し：09340_minaoshi⟧⟦を→を：00422_wo⟧⟦{検討|けんとう}している→検討する：17455_kentousuru⟧。",
       "english": "In response to the arms buildup of neighboring countries, the government is considering a review of the defense budget.",
       "sense_numbers": [
         1
@@ -44,8 +44,52 @@
       "notes": null
     }
   ],
-  "notes": "A key term in political and international relations discourse. Appears frequently in news about defense policy, arms control, and security.\n\nCOMMON COLLOCATIONS:\n- {軍備|ぐんび}{拡張|かくちょう}: arms expansion\n- {軍備|ぐんび}{縮小|しゅくしょう}: arms reduction; disarmament\n- {軍備|ぐんび}{増強|ぞうきょう}: arms buildup\n- {軍備|ぐんび}{管理|かんり}: arms control\n- {軍備|ぐんび}{競争|きょうそう}: arms race\n\nSIMILAR WORDS:\n- {武装|ぶそう}: armament; being armed — focuses on the state of carrying weapons\n- {兵器|へいき}: weapons; arms — the weapons themselves\n- {軍事力|ぐんじりょく}: military power — broader concept of overall military capability\n- {兵力|へいりょく}: troop strength — specifically the number and strength of soldiers",
+  "notes": "A key term in political and international relations discourse. Appears frequently in news about defense policy, arms control, and security.\n\nCOMMON COLLOCATIONS:\n- {軍備|ぐんび}{拡張|かくちょう}: arms expansion\n- {軍備|ぐんび}{縮小|しゅくしょう}: arms reduction; disarmament\n- {軍備|ぐんび}⟦{増強|ぞうきょう}→増強：19103_zoukyou⟧: arms buildup\n- {軍備|ぐんび}⟦{管理|かんり}→管理：00178_kanri⟧: arms control\n- {軍備|ぐんび}⟦{競争|きょうそう}→競争：01388_kyousou⟧: arms race\n\nSIMILAR WORDS:\n- ⟦{武装|ぶそう}→武装：13235_busou⟧: armament; being armed — focuses on the state of carrying weapons\n- ⟦{兵器|へいき}→兵器：11679_heiki⟧: weapons; arms — the weapons themselves\n- ⟦{軍事力|ぐんじりょく}→軍事力：23289_gunjiryoku⟧: military power — broader concept of overall military capability\n- ⟦{兵力|へいりょく}→兵力：22001_heiryoku⟧: troop strength — specifically the number and strength of soldiers",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13235_busou",
+      "reading": "ぶそう",
+      "headword": "{武装|ぶそう}",
+      "label": "armament"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11679_heiki",
+      "reading": "へいき",
+      "headword": "{兵器|へいき}",
+      "label": "weapons"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23289_gunjiryoku",
+      "reading": "ぐんじりょく",
+      "headword": "{軍事力|ぐんじりょく}",
+      "label": "military power"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22001_heiryoku",
+      "reading": "へいりょく",
+      "headword": "{兵力|へいりょく}",
+      "label": "troop strength"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23188_gunkaku",
+      "reading": "ぐんかく",
+      "headword": "{軍拡|ぐんかく}",
+      "label": "military expansion"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24085_gunshuku",
+      "reading": "ぐんしゅく",
+      "headword": "{軍縮|ぐんしゅく}",
+      "label": "disarmament"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +104,6 @@
       ]
     },
     "created": "2026-04-04T20:22:47Z",
-    "modified": "2026-04-10T08:28:27Z"
+    "modified": "2026-09-02T04:02:06Z"
   }
 }

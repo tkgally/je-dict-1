@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "15799_tokkyuuken_ex1",
-      "japanese": "{特急券|とっきゅうけん}を{買|か}い{忘|わす}れた。",
+      "japanese": "{特急券|とっきゅうけん}⟦を→を：00422_wo⟧⟦{買|か}い→買う：00489_kau⟧⟦{忘|わす}れた→忘れる：00474_wasureru⟧。",
       "english": "I forgot to buy the express ticket.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "15799_tokkyuuken_ex2",
-      "japanese": "{乗車券|じょうしゃけん}と{特急券|とっきゅうけん}を{合|あ}わせて{五千円|ごせんえん}だった。",
+      "japanese": "⟦{乗車券|じょうしゃけん}→乗車券：05298_joushaken⟧⟦と→と：00512_to⟧{特急券|とっきゅうけん}⟦を→を：00422_wo⟧⟦{合|あ}わせて→合わせる：01872_awaseru⟧{五千円|ごせんえん}だった。",
       "english": "The base ticket and the express ticket together came to 5,000 yen.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "15799_tokkyuuken_ex3",
-      "japanese": "{新幹線|しんかんせん}に{乗|の}るには、{乗車券|じょうしゃけん}の{他|ほか}に{特急券|とっきゅうけん}が{必要|ひつよう}です。",
+      "japanese": "⟦{新幹線|しんかんせん}→新幹線：01053_shinkansen⟧⟦に→に：00314_ni⟧⟦{乗|の}る→乗る：00511_noru⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧、⟦{乗車券|じょうしゃけん}→乗車券：05298_joushaken⟧⟦の→の：09472_no⟧⟦{他|ほか}→他：04129_hoka⟧⟦に→に：00314_ni⟧{特急券|とっきゅうけん}⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧です。",
       "english": "To ride the bullet train, you need an express ticket in addition to a base fare ticket.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,47 @@
       ]
     }
   ],
-  "notes": "USAGE:\nIn Japan's railway system, faster train services require a {特急券|とっきゅうけん} on top of the regular {乗車券|じょうしゃけん} (base fare ticket). This includes the {新幹線|しんかんせん} (bullet train) and other limited express services run by JR and private railways.\n\nCOMMON COLLOCATIONS:\n- {特急券|とっきゅうけん}を{買|か}う (buy an express ticket)\n- {指定席|していせき}{特急券|とっきゅうけん} (reserved-seat express ticket)\n- {自由席|じゆうせき}{特急券|とっきゅうけん} (non-reserved express ticket)\n\nRELATED TERMS:\n- {乗車券|じょうしゃけん} (base fare ticket)\n- {指定席券|していせきけん} (reserved seat ticket)\n- {回数券|かいすうけん} (multi-ride ticket)\n- {定期券|ていきけん} (commuter pass)",
-  "cross_references": [],
+  "notes": "USAGE:\nIn Japan's railway system, faster train services require a {特急券|とっきゅうけん} on top of the regular ⟦{乗車券|じょうしゃけん}→乗車券：05298_joushaken⟧ (base fare ticket). This includes the ⟦{新幹線|しんかんせん}→新幹線：01053_shinkansen⟧ (bullet train) and other limited express services run by JR and private railways.\n\nCOMMON COLLOCATIONS:\n- {特急券|とっきゅうけん}⟦を→を：00422_wo⟧⟦{買|か}う→買う：00489_kau⟧ (buy an express ticket)\n- ⟦{指定席|していせき}→指定席：07046_shiteiseki⟧{特急券|とっきゅうけん} (reserved-seat express ticket)\n- ⟦{自由席|じゆうせき}→自由席：07047_jiyuuseki⟧{特急券|とっきゅうけん} (non-reserved express ticket)\n\nRELATED WORDS:\n- ⟦{乗車券|じょうしゃけん}→乗車券：05298_joushaken⟧ (base fare ticket)\n- ⟦{指定席券|していせきけん}→指定席券：17902_shiteisekiken⟧ (reserved seat ticket)\n- ⟦{回数券|かいすうけん}→回数券：08451_kaisuuken⟧ (multi-ride ticket)\n- ⟦{定期券|ていきけん}→定期券：01064_teikiken⟧ (commuter pass)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "05298_joushaken",
+      "reading": "じょうしゃけん",
+      "headword": "{乗車券|じょうしゃけん}",
+      "label": "base fare ticket"
+    },
+    {
+      "type": "related",
+      "target_id": "17902_shiteisekiken",
+      "reading": "していせきけん",
+      "headword": "{指定席券|していせきけん}",
+      "label": "reserved seat ticket"
+    },
+    {
+      "type": "related",
+      "target_id": "08451_kaisuuken",
+      "reading": "かいすうけん",
+      "headword": "{回数券|かいすうけん}",
+      "label": "multi-ride ticket"
+    },
+    {
+      "type": "related",
+      "target_id": "01064_teikiken",
+      "reading": "ていきけん",
+      "headword": "{定期券|ていきけん}",
+      "label": "commuter pass"
+    },
+    {
+      "type": "related",
+      "target_id": "24946_guriinken",
+      "reading": "ぐりーんけん",
+      "headword": "グリーン{券|けん}",
+      "label": "green car ticket"
+    }
+  ],
   "metadata": {
     "created": "2026-03-08T09:51:31Z",
-    "modified": "2026-07-18T04:02:53Z",
+    "modified": "2026-09-02T04:01:42Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

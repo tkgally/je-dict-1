@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "19265_kankiwamaru_ex1",
-      "japanese": "{感|かん}{極|きわ}まって{涙|なみだ}が{出|で}た。",
+      "japanese": "{感|かん}{極|きわ}まって⟦{涙|なみだ}→涙：02235_namida⟧⟦が→が：00051_ga⟧⟦{出|で}た→出る：00513_deru⟧。",
       "english": "I was so moved that tears came to my eyes.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "19265_kankiwamaru_ex2",
-      "japanese": "{選手|せんしゅ}は{優勝|ゆうしょう}して{感|かん}{極|きわ}まった{様子|ようす}だった。",
+      "japanese": "⟦{選手|せんしゅ}→選手：03823_senshu⟧⟦は→は：00079_ha⟧⟦{優勝|ゆうしょう}して→優勝する：25496_yuushousuru⟧{感|かん}{極|きわ}まった⟦{様子|ようす}→様子：01521_yousu⟧だった。",
       "english": "The athlete appeared overcome with emotion after winning the championship.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "19265_kankiwamaru_ex3",
-      "japanese": "{卒業式|そつぎょうしき}で{恩師|おんし}の{言葉|ことば}に{感|かん}{極|きわ}まり、{声|こえ}が{出|で}なくなった。",
+      "japanese": "⟦{卒業式|そつぎょうしき}→卒業式：05584_sotsugyoushiki⟧⟦で→で：00502_de⟧⟦{恩師|おんし}→恩師：12598_onshi⟧⟦の→の：09472_no⟧⟦{言葉|ことば}→言葉：02880_kotoba⟧⟦に→に：00314_ni⟧{感|かん}{極|きわ}まり、⟦{声|こえ}→声：02207_koe⟧⟦が→が：00051_ga⟧⟦{出|で}なく→出る：00513_deru⟧⟦なった→なる：01970_naru⟧。",
       "english": "At the graduation ceremony, I was so deeply moved by my mentor's words that I couldn't speak.",
       "sense_numbers": [
         1
@@ -134,8 +134,17 @@
       "notes": null
     }
   ],
-  "notes": "A literary expression meaning to reach the peak ({極|きわ}まる) of emotion ({感|かん}). Describes moments of overwhelming feeling, typically positive (joy, gratitude, pride) but can also describe deep sadness.\n\nCOMMON PATTERNS:\n- {感|かん}{極|きわ}まって{涙|なみだ}を{流|なが}す: to shed tears of deep emotion\n- {感|かん}{極|きわ}まった{表情|ひょうじょう}: a face overcome with emotion\n- {感|かん}{極|きわ}まり{声|こえ}を{詰|つ}まらせる: to choke up with emotion\n\nSIMILAR WORDS:\n- {感動|かんどう}する: to be moved, to be touched — more general and milder\n- {胸|むね}がいっぱいになる: to have one's heart full — similar emotional intensity but more colloquial\n\nREGISTER:\nSomewhat literary/formal. Common in news reports, speeches, and written narratives rather than casual conversation.",
+  "notes": "A literary expression meaning to reach the peak ({極|きわ}まる) of emotion (⟦{感|かん}→〜感：28578_kan⟧). Describes moments of overwhelming feeling, typically positive (joy, gratitude, pride) but can also describe deep sadness.\n\nCOMMON PATTERNS:\n- {感|かん}{極|きわ}まって⟦{涙|なみだ}→涙：02235_namida⟧⟦を→を：00422_wo⟧⟦{流|なが}す→流す：01968_nagasu⟧: to shed tears of deep emotion\n- {感|かん}{極|きわ}まった⟦{表情|ひょうじょう}→表情：03585_hyoujou⟧: a face overcome with emotion\n- ⟦{感|かん}→〜感：28578_kan⟧{極|きわ}まり⟦{声|こえ}→声：02207_koe⟧⟦を→を：00422_wo⟧⟦{詰|つ}まらせる→詰まる：02079_tsumaru⟧: to choke up with emotion\n\nSIMILAR WORDS:\n- ⟦{感動|かんどう}する→感動する：21603_kandousuru⟧: to be moved, to be touched — more general and milder\n- ⟦{胸|むね}→胸：00972_mune⟧⟦が→が：00051_ga⟧いっぱい⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧: to have one's heart full — similar emotional intensity but more colloquial\n\nREGISTER:\nSomewhat literary/formal. Common in news reports, speeches, and written narratives rather than casual conversation.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21603_kandousuru",
+      "reading": "かんどうする",
+      "headword": "{感動|かんどう}する",
+      "label": "to be moved, to be touched"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -148,9 +157,10 @@
       "semantic": [
         "emotion"
       ],
-      "verb_class": "godan-ru"
+      "verb_class": "godan-ru",
+      "transitivity": "intransitive"
     },
     "created": "2026-03-25T03:40:33Z",
-    "modified": "2026-03-25T03:40:33Z"
+    "modified": "2026-09-02T04:01:55Z"
   }
 }

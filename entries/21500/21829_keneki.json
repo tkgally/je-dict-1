@@ -15,40 +15,67 @@
   "examples": [
     {
       "id": "21829_keneki_ex1",
-      "japanese": "{権益|けんえき}を{守|まも}る。",
+      "japanese": "{権益|けんえき}⟦を→を：00422_wo⟧⟦{守|まも}る→守る：01986_mamoru⟧。",
       "english": "To protect one's rights and interests.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21829_keneki_ex2",
-      "japanese": "{企業|きぎょう}は{海外|かいがい}での{権益|けんえき}を{拡大|かくだい}しようとしている。",
+      "japanese": "⟦{企業|きぎょう}→企業：00225_kigyou⟧⟦は→は：00079_ha⟧⟦{海外|かいがい}→海外：00134_kaigai⟧⟦で→で：00502_de⟧⟦の→の：09472_no⟧{権益|けんえき}⟦を→を：00422_wo⟧⟦{拡大|かくだい}→拡大：02553_kakudai⟧⟦しよう→する：00392_suru⟧⟦として→として：06802_toshite⟧⟦いる→いる：00495_iru⟧。",
       "english": "The company is trying to expand its interests overseas.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21829_keneki_ex3",
-      "japanese": "{既得|きとく}{権益|けんえき}にしがみつく{勢力|せいりょく}が{改革|かいかく}の{障害|しょうがい}になっている。",
+      "japanese": "{既得|きとく}{権益|けんえき}⟦に→に：00314_ni⟧⟦しがみつく→しがみつく：10352_shigamitsuku⟧⟦{勢力|せいりょく}→勢力：11812_seiryoku⟧⟦が→が：00051_ga⟧⟦{改革|かいかく}→改革：04815_kaikaku⟧⟦の→の：09472_no⟧⟦{障害|しょうがい}→障害：03228_shougai⟧になっている。",
       "english": "Forces clinging to vested interests are hindering reform.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {権|けん} (right, authority) and {益|えき} (benefit, profit). A formal word used in discussions of politics, international relations, business, and law. It refers to the combined legal rights and economic benefits that come with a particular position or situation.\n\nCOMMON COLLOCATIONS:\n- {権益|けんえき}を{守|まも}る: to protect rights and interests\n- {権益|けんえき}を{拡大|かくだい}する: to expand one's interests\n- {既得|きとく}{権益|けんえき}: vested interests, established privileges\n- {権益|けんえき}を{侵害|しんがい}する: to infringe on rights and interests\n- {経済的|けいざいてき}{権益|けんえき}: economic interests\n\nSIMILAR WORDS:\n- {利権|りけん}: concession, vested interest — often implies personal or factional profit, sometimes with a negative connotation of corruption\n- {権利|けんり}: right — a legal entitlement, without the economic 'interest' component\n- {利益|りえき}: profit, benefit — purely economic benefit, without the 'rights' component",
+  "notes": "A compound of {権|けん} (right, authority) and ⟦{益|えき}→益：02275_eki⟧ (benefit, profit). A formal word used in discussions of politics, international relations, business, and law. It refers to the combined legal rights and economic benefits that come with a particular position or situation.\n\nCOMMON COLLOCATIONS:\n- {権益|けんえき}⟦を→を：00422_wo⟧⟦{守|まも}る→守る：01986_mamoru⟧: to protect rights and interests\n- {権益|けんえき}⟦を→を：00422_wo⟧⟦{拡大|かくだい}→拡大：02553_kakudai⟧⟦する→する：00392_suru⟧: to expand one's interests\n- {既得|きとく}{権益|けんえき}: vested interests, established privileges\n- {権益|けんえき}⟦を→を：00422_wo⟧⟦{侵害|しんがい}→侵害：11563_shingai⟧⟦する→する：00392_suru⟧: to infringe on rights and interests\n- ⟦{経済的|けいざいてき}→経済的：05675_keizaiteki⟧{権益|けんえき}: economic interests\n\nSIMILAR WORDS:\n- {利権|りけん}: concession, vested interest — often implies personal or factional profit, sometimes with a negative connotation of corruption\n- ⟦{権利|けんり}→権利：02711_kenri⟧: right — a legal entitlement, without the economic 'interest' component\n- ⟦{利益|りえき}→利益：03673_rieki⟧: profit, benefit — purely economic benefit, without the 'rights' component",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02711_kenri",
+      "reading": "けんり",
+      "headword": "{権利|けんり}",
+      "label": "right"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03673_rieki",
+      "reading": "りえき",
+      "headword": "{利益|りえき}",
+      "label": "profit, benefit"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["politics", "economics"]
+      "semantic": [
+        "politics",
+        "economics"
+      ]
     },
     "created": "2026-04-03T18:29:46Z",
-    "modified": "2026-04-03T18:29:46Z"
+    "modified": "2026-09-02T04:02:05Z"
   }
 }

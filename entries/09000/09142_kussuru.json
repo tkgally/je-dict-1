@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "09142_kussuru_ex1",
-      "japanese": "{圧力|あつりょく}に{屈|くっ}する",
+      "japanese": "⟦{圧力|あつりょく}→圧力：12014_atsuryoku⟧⟦に→に：00314_ni⟧{屈|くっ}する",
       "english": "to yield to pressure",
       "sense_numbers": [
         1
@@ -114,7 +114,7 @@
     },
     {
       "id": "09142_kussuru_ex2",
-      "japanese": "{彼|かれ}は{脅迫|きょうはく}に{屈|くっ}しなかった。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{脅迫|きょうはく}→脅迫：27205_kyouhaku⟧⟦に→に：00314_ni⟧{屈|くっ}しなかった。",
       "english": "He did not yield to the threats.",
       "sense_numbers": [
         1
@@ -124,7 +124,7 @@
     },
     {
       "id": "09142_kussuru_ex3",
-      "japanese": "{困難|こんなん}に{屈|くっ}することなく、{最後|さいご}まで{戦|たたか}い{続|つづ}けた。",
+      "japanese": "⟦{困難|こんなん}→困難：01410_konnan⟧⟦に→に：00314_ni⟧{屈|くっ}すること⟦なく→ない：01118_nai⟧、⟦{最後|さいご}→最後：01413_saigo⟧⟦まで→まで：00490_made⟧⟦{戦|たたか}い→戦う：02071_tatakau⟧⟦{続|つづ}け→続く：00903_tsuzuku⟧た。",
       "english": "Without yielding to hardship, they continued to fight to the end.",
       "sense_numbers": [
         1
@@ -133,7 +133,7 @@
       "notes": null
     }
   ],
-  "notes": "TRANSITIVITY: Intransitive ({自動詞|じどうし}). Takes に particle: ～に{屈|くっ}する.\n\nCONJUGATION: サ{変|へん}{動詞|どうし} (irregular する verb): {屈|くっ}しない, {屈|くっ}します, {屈|くっ}して.\n\nNUANCE: {屈|くっ}する is a formal word that implies giving in or surrendering to a stronger force. Often used in negative constructions ({屈|くっ}しない) to express determination or resolve.\n\nCOMMON COLLOCATIONS:\n- {圧力|あつりょく}に{屈|くっ}する (to yield to pressure)\n- {脅迫|きょうはく}に{屈|くっ}する (to succumb to threats)\n- {権力|けんりょく}に{屈|くっ}する (to submit to authority)\n- {誘惑|ゆうわく}に{屈|くっ}する (to give in to temptation)\n- {屈|くっ}しない{精神|せいしん} (indomitable spirit)\n\nRELATED WORDS:\n- {負|ま}ける (to lose, give in - more common)\n- {従|したが}う (to follow, obey)\n- {降伏|こうふく}する (to surrender - military context)",
+  "notes": "TRANSITIVITY: Intransitive (⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧). Takes ⟦に→に：00314_ni⟧ particle: ～⟦に→に：00314_ni⟧{屈|くっ}する.\n\nCONJUGATION: サ{変|へん}⟦{動詞|どうし}→動詞：03472_doushi⟧ (irregular ⟦する→する：00392_suru⟧ verb): {屈|くっ}しない, {屈|くっ}します, {屈|くっ}して.\n\nNUANCE: {屈|くっ}する is a formal word that implies giving in or surrendering to a stronger force. Often used in negative constructions ({屈|くっ}しない) to express determination or resolve.\n\nCOMMON COLLOCATIONS:\n- ⟦{圧力|あつりょく}→圧力：12014_atsuryoku⟧⟦に→に：00314_ni⟧{屈|くっ}する (to yield to pressure)\n- ⟦{脅迫|きょうはく}→脅迫：27205_kyouhaku⟧⟦に→に：00314_ni⟧{屈|くっ}する (to succumb to threats)\n- ⟦{権力|けんりょく}→権力：10020_kenryoku⟧⟦に→に：00314_ni⟧{屈|くっ}する (to submit to authority)\n- ⟦{誘惑|ゆうわく}→誘惑：14209_yuuwaku⟧⟦に→に：00314_ni⟧{屈|くっ}する (to give in to temptation)\n- {屈|くっ}しない⟦{精神|せいしん}→精神：03377_seishin⟧ (indomitable spirit)\n\nRELATED WORDS:\n- ⟦{負|ま}ける→負ける：01134_makeru⟧ (to lose, give in - more common)\n- ⟦{従|したが}う→従う：02059_shitagau⟧ (to follow, obey)\n- ⟦{降伏|こうふく}する→降伏する：20577_koufukusuru⟧ (to surrender - military context)",
   "cross_references": [
     {
       "type": "synonym",
@@ -155,11 +155,32 @@
       "reading": "ていこうする",
       "headword": "{抵抗|ていこう}する",
       "label": "to resist"
+    },
+    {
+      "type": "related",
+      "target_id": "01134_makeru",
+      "reading": "まける",
+      "headword": "{負|ま}ける",
+      "label": "to lose, give in"
+    },
+    {
+      "type": "related",
+      "target_id": "02059_shitagau",
+      "reading": "したがう",
+      "headword": "{従|したが}う",
+      "label": "to follow, obey"
+    },
+    {
+      "type": "related",
+      "target_id": "20577_koufukusuru",
+      "reading": "こうふくする",
+      "headword": "{降伏|こうふく}する",
+      "label": "to surrender"
     }
   ],
   "metadata": {
     "created": "2026-01-31T11:23:03Z",
-    "modified": "2026-07-06T18:18:54Z",
+    "modified": "2026-09-02T04:01:17Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

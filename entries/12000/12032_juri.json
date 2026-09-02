@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "12032_juri_ex1",
-      "japanese": "{届|とどけ}を{受理|じゅり}する。",
+      "japanese": "{届|とどけ}⟦を→を：00422_wo⟧{受理|じゅり}⟦する→する：00392_suru⟧。",
       "english": "To accept a notification form.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "12032_juri_ex2",
-      "japanese": "{婚姻届|こんいんとどけ}が{無事|ぶじ}に{受理|じゅり}された。",
+      "japanese": "⟦{婚姻届|こんいんとどけ}→婚姻届：22413_konintodoke⟧⟦が→が：00051_ga⟧⟦{無事|ぶじ}→無事：01602_buji⟧⟦に→に：00314_ni⟧{受理|じゅり}⟦された→する：00392_suru⟧。",
       "english": "The marriage registration was accepted without issue.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "12032_juri_ex3",
-      "japanese": "{書類|しょるい}に{不備|ふび}があったため、{申請|しんせい}は{受理|じゅり}されなかった。",
+      "japanese": "⟦{書類|しょるい}→書類：01103_shorui⟧⟦に→に：00314_ni⟧⟦{不備|ふび}→不備：07599_fubi⟧⟦が→が：00051_ga⟧⟦あった→ある：00006_aru⟧⟦ため→ため：01145_tame⟧、⟦{申請|しんせい}→申請：04207_shinsei⟧⟦は→は：00079_ha⟧{受理|じゅり}⟦されなかった→する：00392_suru⟧。",
       "english": "The application was not accepted because there were deficiencies in the documents.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,19 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA formal, administrative term. The subject is typically a government office or official body that accepts documents from individuals. Passive form {受理|じゅり}される is very common.\n\nCOMMON COLLOCATIONS:\n- {申請|しんせい}を{受理|じゅり}する: to accept an application\n- {届|とどけ}を{受理|じゅり}する: to accept a registration/notification\n- {受理|じゅり}{番号|ばんごう}: acceptance/receipt number\n- {受理|じゅり}{日|び}: date of acceptance",
-  "cross_references": [],
+  "notes": "USAGE:\nA formal, administrative term. The subject is typically a government office or official body that accepts documents from individuals. Passive form {受理|じゅり}⟦される→する：00392_suru⟧ is very common.\n\nCOMMON COLLOCATIONS:\n- ⟦{申請|しんせい}→申請：04207_shinsei⟧⟦を→を：00422_wo⟧{受理|じゅり}⟦する→する：00392_suru⟧: to accept an application\n- {届|とどけ}⟦を→を：00422_wo⟧{受理|じゅり}⟦する→する：00392_suru⟧: to accept a registration/notification\n- {受理|じゅり}⟦{番号|ばんごう}→番号：02939_bangou⟧: acceptance/receipt number\n- {受理|じゅり}{日|び}: date of acceptance",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20050_juryou",
+      "reading": "じゅりょう",
+      "headword": "{受領|じゅりょう}",
+      "label": "receipt"
+    }
+  ],
   "metadata": {
     "created": "2026-02-19T13:32:41Z",
-    "modified": "2026-07-04T09:40:18Z",
+    "modified": "2026-09-02T04:01:27Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

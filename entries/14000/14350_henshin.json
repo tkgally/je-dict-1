@@ -3,7 +3,7 @@
   "id": "14350_henshin",
   "headword": "{返信|へんしん}",
   "reading": "へんしん",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "reply; response (to a message)",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "14350_henshin_ex1",
-      "japanese": "メールに{返信|へんしん}する。",
+      "japanese": "⟦メール→メール：04435_meeru⟧⟦に→に：00314_ni⟧{返信|へんしん}⟦する→する：00392_suru⟧。",
       "english": "To reply to an email.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "14350_henshin_ex2",
-      "japanese": "{返信|へんしん}が{遅|おそ}くなってすみません。",
+      "japanese": "{返信|へんしん}⟦が→が：00051_ga⟧⟦{遅|おそ}く→遅い：00533_osoi⟧⟦なって→なる：01970_naru⟧すみません。",
       "english": "Sorry for the late reply.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "14350_henshin_ex3",
-      "japanese": "メッセージを{送|おく}ったのに{一週間|いっしゅうかん}たっても{返信|へんしん}が{来|こ}なくて{心配|しんぱい}している。",
+      "japanese": "⟦メッセージ→メッセージ：03828_messeeji⟧⟦を→を：00422_wo⟧⟦{送|おく}った→送る：00742_okuru⟧⟦の→の：09472_no⟧⟦に→に：00314_ni⟧⟦{一週間|いっしゅうかん}→一週間：10979_isshuukan⟧たって⟦も→も：00484_mo⟧{返信|へんしん}⟦が→が：00051_ga⟧⟦{来|こ}なくて→来る：00254_kuru⟧⟦{心配|しんぱい}している→心配する：06066_shinpaisuru⟧。",
       "english": "I sent a message but haven't received a reply even after a week, so I'm worried.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,19 @@
       ]
     }
   ],
-  "notes": "Compound of {返|へん} (return) + {信|しん} (message, letter). Used as a suru-verb: {返信|へんしん}する (to reply).\n\nCOMMON COLLOCATIONS:\n- {返信|へんしん}する (to reply)\n- {返信|へんしん}が{来|く}る (a reply arrives)\n- {返信|へんしん}が{遅|おそ}い (a reply is late)\n- {返信|へんしん}をもらう (to receive a reply)\n- ご{返信|へんしん} (polite: your reply)\n\nUSAGE NOTE:\nNot to be confused with the homophone {変身|へんしん} (transformation). {返信|へんしん} specifically refers to replying to correspondence. For replying in general conversation, {返事|へんじ} is more common. {返答|へんとう} is more formal and used for answering questions directly.",
-  "cross_references": [],
+  "notes": "Compound of {返|へん} (return) + {信|しん} (message, letter). Used as a suru-verb: {返信|へんしん}⟦する→する：00392_suru⟧ (to reply).\n\nCOMMON COLLOCATIONS:\n- {返信|へんしん}⟦する→する：00392_suru⟧ (to reply)\n- {返信|へんしん}⟦が→が：00051_ga⟧⟦{来|く}る→来る：00254_kuru⟧ (a reply arrives)\n- {返信|へんしん}⟦が→が：00051_ga⟧⟦{遅|おそ}い→遅い：00533_osoi⟧ (a reply is late)\n- {返信|へんしん}⟦を→を：00422_wo⟧⟦もらう→もらう：00520_morau⟧ (to receive a reply)\n- ご{返信|へんしん} (polite: your reply)\n\nUSAGE:\nNot to be confused with the homophone ⟦{変身|へんしん}→変身：12099_henshin⟧ (transformation). {返信|へんしん} specifically refers to replying to correspondence. For replying in general conversation, ⟦{返事|へんじ}→返事：00844_henji⟧ is more common. ⟦{返答|へんとう}→返答：10440_hentou⟧ is more formal and used for answering questions directly.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "26504_hentousho",
+      "reading": "へんとうしょ",
+      "headword": "{返答書|へんとうしょ}",
+      "label": "written reply"
+    }
+  ],
   "metadata": {
     "created": "2026-02-28T12:17:21Z",
-    "modified": "2026-03-29T03:08:18Z",
+    "modified": "2026-09-02T04:01:37Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

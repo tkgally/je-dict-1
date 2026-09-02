@@ -15,41 +15,62 @@
   "examples": [
     {
       "id": "29942_niyousoninshou_ex1",
-      "japanese": "{二要素認証|にようそにんしょう}を{設定|せってい}する。",
+      "japanese": "{二要素認証|にようそにんしょう}⟦を→を：00422_wo⟧⟦{設定|せってい}→設定：04767_settei⟧⟦する→する：00392_suru⟧。",
       "english": "to set up two-factor authentication.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29942_niyousoninshou_ex2",
-      "japanese": "このサービスは{二要素認証|にようそにんしょう}に{対応|たいおう}している。",
+      "japanese": "⟦この→この：00962_kono⟧⟦サービス→サービス：01531_saabisu⟧⟦は→は：00079_ha⟧{二要素認証|にようそにんしょう}⟦に→に：00314_ni⟧⟦{対応|たいおう}→対応：02510_taiou⟧⟦している→する：00392_suru⟧。",
       "english": "This service supports two-factor authentication.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29942_niyousoninshou_ex3",
-      "japanese": "セキュリティを{高|たか}めるために、{二要素認証|にようそにんしょう}を{有効|ゆうこう}にした。",
+      "japanese": "⟦セキュリティ→セキュリティ：04867_sekyuriti⟧⟦を→を：00422_wo⟧⟦{高|たか}める→高める：02065_takameru⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧、{二要素認証|にようそにんしょう}⟦を→を：00422_wo⟧⟦{有効|ゆうこう}→有効：03645_yuukou⟧にした。",
       "english": "I enabled two-factor authentication to improve security.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {二要素|にようそ} ('two factors') + {認証|にんしょう} ('authentication'). A common online-security measure that combines two independent credentials.\n\nCOMMON COLLOCATIONS:\n- {二要素認証|にようそにんしょう}を{有効|ゆうこう}にする: to enable two-factor authentication\n- {二要素認証|にようそにんしょう}を{設定|せってい}する: to set up 2FA\n\nSIMILAR WORDS:\n- {二段階認証|にだんかいにんしょう}: two-step verification — very close in meaning and often used interchangeably",
+  "notes": "Composed of {二要素|にようそ} ('two factors') + ⟦{認証|にんしょう}→認証：05909_ninshou⟧ ('authentication'). A common online-security measure that combines two independent credentials.\n\nCOMMON COLLOCATIONS:\n- {二要素認証|にようそにんしょう}⟦を→を：00422_wo⟧⟦{有効|ゆうこう}→有効：03645_yuukou⟧⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧: to enable two-factor authentication\n- {二要素認証|にようそにんしょう}⟦を→を：00422_wo⟧⟦{設定|せってい}→設定：04767_settei⟧⟦する→する：00392_suru⟧: to set up 2FA\n\nSIMILAR WORDS:\n- ⟦{二段階認証|にだんかいにんしょう}→二段階認証：08618_nidankaininshou⟧: two-step verification — very close in meaning and often used interchangeably",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08618_nidankaininshou",
+      "reading": "にだんかいにんしょう",
+      "headword": "{二段階認証|にだんかいにんしょう}",
+      "label": "two-step verification"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["technology"],
-      "domain": ["technical"]
+      "politeness": "plain",
+      "semantic": [
+        "technology"
+      ],
+      "domain": [
+        "technical"
+      ]
     },
     "created": "2026-07-19T00:19:03Z",
-    "modified": "2026-07-19T00:19:03Z"
+    "modified": "2026-09-02T04:02:38Z"
   }
 }

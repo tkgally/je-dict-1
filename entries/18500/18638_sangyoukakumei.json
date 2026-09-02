@@ -15,42 +15,70 @@
   "examples": [
     {
       "id": "18638_sangyoukakumei_ex1",
-      "japanese": "{産業|さんぎょう}{革命|かくめい}はイギリスで{始|はじ}まった。",
+      "japanese": "{産業|さんぎょう}{革命|かくめい}⟦は→は：00079_ha⟧⟦イギリス→イギリス：28283_igirisu⟧⟦で→で：00502_de⟧⟦{始|はじ}まった→始まる：00841_hajimaru⟧。",
       "english": "The Industrial Revolution began in Britain.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18638_sangyoukakumei_ex2",
-      "japanese": "AIは{第四次|だいよじ}{産業|さんぎょう}{革命|かくめい}と{呼|よ}ばれている。",
+      "japanese": "AI⟦は→は：00079_ha⟧{第四次|だいよじ}{産業|さんぎょう}{革命|かくめい}⟦と→と：00512_to⟧⟦{呼|よ}ばれている→呼ぶ：00766_yobu⟧。",
       "english": "AI is called the Fourth Industrial Revolution.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18638_sangyoukakumei_ex3",
-      "japanese": "{産業|さんぎょう}{革命|かくめい}によって{人々|ひとびと}の{生活|せいかつ}は{大|おお}きく{変|か}わった。",
+      "japanese": "{産業|さんぎょう}{革命|かくめい}⟦によって→によって：06801_niyotte⟧⟦{人々|ひとびと}→人々：03141_hitobito⟧⟦の→の：09472_no⟧⟦{生活|せいかつ}→生活：01443_seikatsu⟧⟦は→は：00079_ha⟧⟦{大|おお}きく→大きい：00335_ookii⟧⟦{変|か}わった→変わる：00714_kawaru⟧。",
       "english": "The Industrial Revolution drastically changed people's lives.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nA standard historical term taught in Japanese schools. Also used metaphorically: {第三次|だいさんじ}{産業|さんぎょう}{革命|かくめい} (Third Industrial Revolution), {第四次|だいよじ}{産業|さんぎょう}{革命|かくめい} (Fourth Industrial Revolution) referring to digital and AI transformations.\n\nCOMMON COLLOCATIONS:\n- {第一次|だいいちじ}{産業|さんぎょう}{革命|かくめい} (First Industrial Revolution)\n- {産業|さんぎょう}{革命|かくめい}の{時代|じだい} (era of the Industrial Revolution)\n- {産業|さんぎょう}{革命|かくめい}が{起|お}きる (an industrial revolution occurs)",
-  "cross_references": [],
+  "notes": "USAGE:\nA standard historical term taught in Japanese schools. Also used metaphorically: {第三次|だいさんじ}{産業|さんぎょう}{革命|かくめい} (Third Industrial Revolution), {第四次|だいよじ}{産業|さんぎょう}{革命|かくめい} (Fourth Industrial Revolution) referring to digital and AI transformations.\n\nCOMMON COLLOCATIONS:\n- {第一次|だいいちじ}{産業|さんぎょう}{革命|かくめい} (First Industrial Revolution)\n- {産業|さんぎょう}{革命|かくめい}⟦の→の：09472_no⟧⟦{時代|じだい}→時代：01424_jidai⟧ (era of the Industrial Revolution)\n- {産業|さんぎょう}{革命|かくめい}⟦が→が：00051_ga⟧⟦{起|お}きる→起きる：00521_okiru⟧ (an industrial revolution occurs)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "29251_kougyoukakumei",
+      "reading": "こうぎょうかくめい",
+      "headword": "{工業革命|こうぎょうかくめい}",
+      "label": "Industrial Revolution"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29280_nougyoukakumei",
+      "reading": "のうぎょうかくめい",
+      "headword": "{農業革命|のうぎょうかくめい}",
+      "label": "agricultural revolution"
+    }
+  ],
   "metadata": {
     "created": "2026-03-22T10:41:08Z",
-    "modified": "2026-03-22T10:41:08Z",
+    "modified": "2026-09-02T04:01:53Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["history", "society"],
-      "domain": ["academic"]
+      "semantic": [
+        "history",
+        "society"
+      ],
+      "domain": [
+        "academic"
+      ]
     }
   }
 }

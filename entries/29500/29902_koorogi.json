@@ -15,41 +15,74 @@
   "examples": [
     {
       "id": "29902_koorogi_ex1",
-      "japanese": "{夜|よる}にコオロギが{鳴|な}く。",
+      "japanese": "⟦{夜|よる}→夜：00487_yoru⟧⟦に→に：00314_ni⟧コオロギ⟦が→が：00051_ga⟧⟦{鳴|な}く→鳴く：04388_naku⟧。",
       "english": "Crickets chirp at night.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29902_koorogi_ex2",
-      "japanese": "{秋|あき}になるとコオロギの{声|こえ}が{聞|き}こえる。",
+      "japanese": "⟦{秋|あき}→秋：02276_aki⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦と→と：00512_to⟧コオロギ⟦の→の：09472_no⟧⟦{声|こえ}→声：02207_koe⟧⟦が→が：00051_ga⟧⟦{聞|き}こえる→聞こえる：01229_kikoeru⟧。",
       "english": "When autumn comes, you can hear the sound of crickets.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29902_koorogi_ex3",
-      "japanese": "{静|しず}かな{夜|よる}、コオロギの{鳴|な}き{声|ごえ}が{秋|あき}の{訪|おとず}れを{感|かん}じさせる。",
+      "japanese": "⟦{静|しず}か→静か：00755_shizuka⟧な⟦{夜|よる}→夜：00487_yoru⟧、コオロギ⟦の→の：09472_no⟧⟦{鳴|な}き{声|ごえ}→鳴き声：16846_nakigoe⟧⟦が→が：00051_ga⟧⟦{秋|あき}→秋：02276_aki⟧⟦の→の：09472_no⟧⟦{訪|おとず}れ→訪れ：14267_otozure⟧⟦を→を：00422_wo⟧⟦{感|かん}じさせる→感じる：02044_kanjiru⟧。",
       "english": "On a quiet night, the chirping of crickets makes you feel the arrival of autumn.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A cricket, strongly associated with autumn in Japan, where its chirping ({鳴|な}き{声|ごえ}) is a seasonal sound enjoyed much like birdsong.\n\nCOMMON COLLOCATIONS:\n- コオロギが{鳴|な}く: a cricket chirps\n- コオロギの{鳴|な}き{声|ごえ}: the chirping of a cricket\n\nSIMILAR WORDS:\n- キリギリス: katydid — a green relative that sings in summer grassland\n- {鈴虫|すずむし}: bell cricket — prized for its clear, bell-like chirp",
+  "notes": "A cricket, strongly associated with autumn in Japan, where its chirping (⟦{鳴|な}き{声|ごえ}→鳴き声：16846_nakigoe⟧) is a seasonal sound enjoyed much like birdsong.\n\nCOMMON COLLOCATIONS:\n- コオロギ⟦が→が：00051_ga⟧⟦{鳴|な}く→鳴く：04388_naku⟧: a cricket chirps\n- コオロギ⟦の→の：09472_no⟧⟦{鳴|な}き{声|ごえ}→鳴き声：16846_nakigoe⟧: the chirping of a cricket\n\nSIMILAR WORDS:\n- ⟦キリギリス→キリギリス：29901_kirigirisu⟧: katydid — a green relative that sings in summer grassland\n- ⟦{鈴虫|すずむし}→鈴虫：28685_suzumushi⟧: bell cricket — prized for its clear, bell-like chirp",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "29901_kirigirisu",
+      "reading": "きりぎりす",
+      "headword": "キリギリス",
+      "label": "katydid"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28685_suzumushi",
+      "reading": "すずむし",
+      "headword": "{鈴虫|すずむし}",
+      "label": "bell cricket"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06515_batta",
+      "reading": "ばった",
+      "headword": "バッタ",
+      "label": "grasshopper, locust"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["animal-insect"],
+      "politeness": "plain",
+      "semantic": [
+        "animal-insect"
+      ],
       "domain": []
     },
     "created": "2026-07-16T21:18:06Z",
-    "modified": "2026-07-16T21:18:06Z"
+    "modified": "2026-09-02T04:02:38Z"
   }
 }

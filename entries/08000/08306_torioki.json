@@ -14,38 +14,73 @@
   "examples": [
     {
       "id": "08306_torioki_ex1",
-      "japanese": "この{商品|しょうひん}の{取|と}り{置|お}きをお{願|ねが}いできますか。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{商品|しょうひん}→商品：01436_shouhin⟧⟦の→の：09472_no⟧{取|と}り{置|お}き⟦を→を：00422_wo⟧⟦お{願|ねが}い→お願い：10299_onegai⟧⟦できます→できる：00557_dekiru⟧⟦か→か：09473_ka⟧。",
       "english": "Could you hold this item for me?",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "08306_torioki_ex2",
-      "japanese": "{取|と}り{置|お}きは{三日間|みっかかん}まで{可能|かのう}です。",
+      "japanese": "{取|と}り{置|お}き⟦は→は：00079_ha⟧{三日間|みっかかん}⟦まで→まで：00490_made⟧⟦{可能|かのう}→可能：00175_kanou⟧です。",
       "english": "We can hold items for up to three days.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "08306_torioki_ex3",
-      "japanese": "{電話|でんわ}で{取|と}り{置|お}きを{頼|たの}んでおいた{本|ほん}を{取|と}りに{来|き}た。",
+      "japanese": "⟦{電話|でんわ}→電話：01471_denwa⟧⟦で→で：00502_de⟧{取|と}り{置|お}き⟦を→を：00422_wo⟧⟦{頼|たの}んで→頼む：01104_tanomu⟧おいた{本|ほん}⟦を→を：00422_wo⟧⟦{取|と}り→取る：00565_toru⟧⟦に→に：00314_ni⟧⟦{来|き}た→来る：00254_kuru⟧。",
       "english": "I came to pick up the book I had asked them to hold over the phone.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "FORMATION:\n{取|と}り{置|お}く (to set aside, to hold) → {取|と}り{置|お}き (noun form)\n\nUSAGE PATTERNS:\n- {取|と}り{置|お}きをする (to hold an item)\n- {取|と}り{置|お}きを{頼|たの}む (to ask for an item to be held)\n- {取|と}り{置|お}き{期間|きかん} (holding period)\n\nSHOPPING CONTEXT:\nMany Japanese stores offer {取|と}り{置|お}き service, allowing customers to reserve items for a limited period before purchasing. This is common in bookstores, clothing stores, and specialty shops.\n\nRELATED:\n- {取|と}り{寄|よ}せ (ordering in, special order)\n- {予約|よやく} (reservation - broader term)",
+  "notes": "FORMS:\n{取|と}り{置|お}く (to set aside, to hold) → {取|と}り{置|お}き (noun form)\n\nCOMMON PATTERNS:\n- {取|と}り{置|お}き⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧ (to hold an item)\n- {取|と}り{置|お}き⟦を→を：00422_wo⟧⟦{頼|たの}む→頼む：01104_tanomu⟧ (to ask for an item to be held)\n- {取|と}り{置|お}き⟦{期間|きかん}→期間：00229_kikan⟧ (holding period)\n\nSHOPPING CONTEXT:\nMany Japanese stores offer {取|と}り{置|お}き service, allowing customers to reserve items for a limited period before purchasing. This is common in bookstores, clothing stores, and specialty shops.\n\nRELATED WORDS:\n- ⟦{取|と}り{寄|よ}せ→取り寄せ：08307_toriyose⟧ (ordering in, special order)\n- ⟦{予約|よやく}→予約：01522_yoyaku⟧ (reservation - broader term)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "08307_toriyose",
+      "reading": "とりよせ",
+      "headword": "{取|と}り{寄|よ}せ",
+      "label": "ordering in, special order"
+    },
+    {
+      "type": "related",
+      "target_id": "01522_yoyaku",
+      "reading": "よやく",
+      "headword": "{予約|よやく}",
+      "label": "reservation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25032_kounyuuyoyaku",
+      "reading": "こうにゅうよやく",
+      "headword": "{購入予約|こうにゅうよやく}",
+      "label": "pre-order"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "semantic": ["shopping", "services"]
+      "politeness": "plain",
+      "semantic": [
+        "shopping",
+        "services"
+      ]
     },
     "created": "2026-01-25T23:10:27Z",
-    "modified": "2026-01-25T23:10:27Z"
+    "modified": "2026-09-02T04:01:14Z"
   }
 }

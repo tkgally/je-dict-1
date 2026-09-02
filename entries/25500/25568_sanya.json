@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25568_sanya_ex1",
-      "japanese": "{山野|さんや}を{歩|ある}き{回|まわ}る。",
+      "japanese": "{山野|さんや}⟦を→を：00422_wo⟧⟦{歩|ある}き{回|まわ}る→歩き回る：04605_arukimawaru⟧。",
       "english": "Walk through the mountains and fields.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25568_sanya_ex2",
-      "japanese": "{山野|さんや}に{自生|じせい}する{植物|しょくぶつ}を{調|しら}べた。",
+      "japanese": "{山野|さんや}⟦に→に：00314_ni⟧⟦{自生|じせい}→自生：18823_jisei⟧⟦する→する：00392_suru⟧⟦{植物|しょくぶつ}→植物：03248_shokubutsu⟧⟦を→を：00422_wo⟧⟦{調|しら}べた→調べる：01213_shiraberu⟧。",
       "english": "I studied plants that grow wild in the mountains and fields.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25568_sanya_ex3",
-      "japanese": "{春|はる}になると{山野|さんや}は{色|いろ}とりどりの{花|はな}で{覆|おお}われる。",
+      "japanese": "⟦{春|はる}→春：00627_haru⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦と→と：00512_to⟧{山野|さんや}⟦は→は：00079_ha⟧⟦{色|いろ}とりどり→色とりどり：10404_irotoridori⟧⟦の→の：09472_no⟧⟦{花|はな}→花：00523_hana⟧⟦で→で：00502_de⟧⟦{覆|おお}われる→覆う：02020_oou⟧。",
       "english": "In spring, the hills and fields are covered with colorful flowers.",
       "sense_numbers": [
         1
@@ -44,8 +44,23 @@
       "notes": null
     }
   ],
-  "notes": "A literary compound that evokes the natural landscape as a whole. Often used in writing about nature, ecology, outdoor activities, and traditional life.\n\nCOMMON COLLOCATIONS:\n- {山野|さんや}を{駆|か}け{回|まわ}る: to run through the hills and fields\n- {山野|さんや}に{自生|じせい}する: to grow wild in mountains and fields\n- {山野|さんや}の{草花|くさばな}: wildflowers of the mountains and fields\n- {山野|さんや}{草|そう}: wild plants (a category in gardening)\n\nSIMILAR WORDS:\n- {野山|のやま}: fields and mountains — very similar meaning but reverses the order; slightly more colloquial\n- {自然|しぜん}: nature — much broader, includes oceans, sky, etc.\n- {田舎|いなか}: countryside — focuses on rural inhabited areas, not wild nature\n\nREGISTER:\nSomewhat literary. Used in nature writing, botanical descriptions, and poetic contexts. {野山|のやま} is more common in everyday speech.",
-  "cross_references": [],
+  "notes": "A literary compound that evokes the natural landscape as a whole. Often used in writing about nature, ecology, outdoor activities, and traditional life.\n\nCOMMON COLLOCATIONS:\n- {山野|さんや}⟦を→を：00422_wo⟧⟦{駆|か}け{回|まわ}る→駆け回る：06113_kakemawaru⟧: to run through the hills and fields\n- {山野|さんや}⟦に→に：00314_ni⟧⟦{自生|じせい}→自生：18823_jisei⟧⟦する→する：00392_suru⟧: to grow wild in mountains and fields\n- {山野|さんや}⟦の→の：09472_no⟧⟦{草花|くさばな}→草花：23050_kusabana⟧: wildflowers of the mountains and fields\n- {山野|さんや}{草|そう}: wild plants (a category in gardening)\n\nSIMILAR WORDS:\n- {野山|のやま}: fields and mountains — very similar meaning but reverses the order; slightly more colloquial\n- ⟦{自然|しぜん}→自然：01423_shizen⟧: nature — much broader, includes oceans, sky, etc.\n- ⟦{田舎|いなか}→田舎：01320_inaka⟧: countryside — focuses on rural inhabited areas, not wild nature\n\nREGISTER:\nSomewhat literary. Used in nature writing, botanical descriptions, and poetic contexts. {野山|のやま} is more common in everyday speech.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01423_shizen",
+      "reading": "しぜん",
+      "headword": "{自然|しぜん}",
+      "label": "nature"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01320_inaka",
+      "reading": "いなか",
+      "headword": "{田舎|いなか}",
+      "label": "countryside"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,12 +68,13 @@
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "nature",
         "geography"
       ]
     },
     "created": "2026-04-26T11:20:11Z",
-    "modified": "2026-04-26T11:20:11Z"
+    "modified": "2026-09-02T04:02:22Z"
   }
 }

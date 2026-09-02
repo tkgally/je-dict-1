@@ -114,7 +114,7 @@
   "examples": [
     {
       "id": "08915_tacchi_ex1",
-      "japanese": "ICカードをタッチする。",
+      "japanese": "ICカード⟦を→を：00422_wo⟧タッチ⟦する→する：00392_suru⟧。",
       "english": "I tap the IC card.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "08915_tacchi_ex2",
-      "japanese": "タッチパネルで{操作|そうさ}する。",
+      "japanese": "タッチパネル⟦で→で：00502_de⟧⟦{操作|そうさ}する→操作する：18999_sousasuru⟧。",
       "english": "I operate it using the touch panel.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
     },
     {
       "id": "08915_tacchi_ex3",
-      "japanese": "{画面|がめん}を{軽|かる}くタッチしてください。",
+      "japanese": "⟦{画面|がめん}→画面：04406_gamen⟧⟦を→を：00422_wo⟧⟦{軽|かる}く→軽い：00785_karui⟧タッチ⟦して→する：00392_suru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please lightly touch the screen.",
       "notes": null,
       "has_audio": false,
@@ -144,7 +144,7 @@
     },
     {
       "id": "08915_tacchi_ex4",
-      "japanese": "{柔|やわ}らかいタッチの{絵|え}だ。",
+      "japanese": "⟦{柔|やわ}らかい→柔らかい：01096_yawarakai⟧タッチ⟦の→の：09472_no⟧⟦{絵|え}→絵：02613_e⟧だ。",
       "english": "It's a painting with a soft touch.",
       "notes": null,
       "has_audio": false,
@@ -154,7 +154,7 @@
     },
     {
       "id": "08915_tacchi_ex5",
-      "japanese": "{独特|どくとく}のタッチで{描|えが}く。",
+      "japanese": "⟦{独特|どくとく}→独特：01656_dokutoku⟧⟦の→の：09472_no⟧タッチ⟦で→で：00502_de⟧⟦{描|えが}く→描く：02013_egaku⟧。",
       "english": "She draws with a unique style.",
       "notes": null,
       "has_audio": false,
@@ -164,7 +164,7 @@
     },
     {
       "id": "08915_tacchi_ex6",
-      "japanese": "この{件|けん}にはノータッチだ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{件|けん}→件：11720_ken⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧ノータッチだ。",
       "english": "I'm not involved in this matter.",
       "notes": null,
       "has_audio": false,
@@ -173,11 +173,26 @@
       ]
     }
   ],
-  "notes": "タッチ has multiple meanings depending on context.\n\nSENSE 1 - TOUCH (PHYSICAL):\n- タッチする: to touch, tap\n- タッチパネル: touch panel\n- タッチスクリーン: touchscreen\n- タッチ{決済|けっさい}: contactless payment\n\nSENSE 2 - ARTISTIC STYLE:\n- {筆|ふで}のタッチ: brushstroke style\n- {軽|かる}いタッチ: light touch\n- {柔|やわ}らかいタッチ: soft touch\n\nSENSE 3 - INVOLVEMENT:\n- ノータッチ: not involved, hands-off\n- {少|すこ}しだけタッチする: to be slightly involved",
-  "cross_references": [],
+  "notes": "タッチ has multiple meanings depending on context.\n\nSENSE 1 - TOUCH (PHYSICAL):\n- タッチ⟦する→する：00392_suru⟧: to touch, tap\n- タッチパネル: touch panel\n- タッチ⟦スクリーン→スクリーン：01368_sukuriin⟧: touchscreen\n- タッチ⟦{決済|けっさい}→決済：05466_kessai⟧: contactless payment\n\nSENSE 2 - ARTISTIC STYLE:\n- ⟦{筆|ふで}→筆：03601_fude⟧⟦の→の：09472_no⟧タッチ: brushstroke style\n- ⟦{軽|かる}い→軽い：00785_karui⟧タッチ: light touch\n- ⟦{柔|やわ}らかい→柔らかい：01096_yawarakai⟧タッチ: soft touch\n\nSENSE 3 - INVOLVEMENT:\n- ノータッチ: not involved, hands-off\n- ⟦{少|すこ}し→少し：00596_sukoshi⟧⟦だけ→〜だけ：03093_dake⟧タッチ⟦する→する：00392_suru⟧: to be slightly involved",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20603_gafuu",
+      "reading": "がふう",
+      "headword": "{画風|がふう}",
+      "label": "artistic style"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24365_hicchi",
+      "reading": "ひっち",
+      "headword": "{筆致|ひっち}",
+      "label": "writing style"
+    }
+  ],
   "metadata": {
     "created": "2026-01-29T03:37:56Z",
-    "modified": "2026-08-12T21:25:53Z",
+    "modified": "2026-09-02T04:01:16Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
@@ -192,7 +207,8 @@
       "domain": [
         "technical"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

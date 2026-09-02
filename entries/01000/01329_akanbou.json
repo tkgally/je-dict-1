@@ -44,7 +44,7 @@
     },
     {
       "id": "01329_akanbou_ex4",
-      "japanese": "⟦{隣|となり}→隣：01003_tonari⟧⟦の→の：09472_no⟧⟦{家|いえ}→家：00612_ie⟧⟦の→の：09472_no⟧{赤|あか}ん{坊|ぼう}⟦が→が：00051_ga⟧⟦{毎晩|まいばん}→毎晩：00967_maiban⟧⟦{泣|な}く→泣く：00655_naku⟧ので、⟦{最近|さいきん}→最近：00881_saikin⟧⟦あまり→あまり：00604_amari⟧⟦{眠|ねむ}れていない→眠る：01181_nemuru⟧。",
+      "japanese": "⟦{隣|となり}→隣：01003_tonari⟧⟦の→の：09472_no⟧⟦{家|いえ}→家：00612_ie⟧⟦の→の：09472_no⟧{赤|あか}ん{坊|ぼう}⟦が→が：00051_ga⟧⟦{毎晩|まいばん}→毎晩：00967_maiban⟧⟦{泣|な}く→泣く：00655_naku⟧⟦の→の：09472_no⟧で、⟦{最近|さいきん}→最近：00881_saikin⟧⟦あまり→あまり：00604_amari⟧⟦{眠|ねむ}れていない→眠る：01181_nemuru⟧。",
       "english": "The baby next door cries every night, so I haven't been sleeping well lately.",
       "notes": null,
       "has_audio": false,
@@ -63,11 +63,33 @@
       ]
     }
   ],
-  "notes": "{赤|あか}ん{坊|ぼう} refers specifically to a baby or infant, typically under one year old.\n\nETYMOLOGY:\nFrom {赤|あか} (red) + {坊|ぼう} (boy/child), referring to the reddish skin color of newborns.\n\nSIMILAR WORDS:\n- {赤|あか}ん{坊|ぼう}: baby, infant (neutral)\n- ⟦{赤|あか}ちゃん→赤ちゃん：01282_akachan⟧: baby (affectionate, more common in speech)\n- ⟦{乳児|にゅうじ}→乳児：11414_nyuuji⟧: infant (formal/medical)\n- ⟦{幼児|ようじ}→幼児：12478_youji⟧: toddler, young child (1-6 years)\n- {新生児|しんせいじ}: newborn (medical term)\n\nCOMMON EXPRESSIONS:\n- {赤|あか}ん{坊|ぼう}が⟦{泣|な}く→泣く：00655_naku⟧: baby cries\n- {赤|あか}ん{坊|ぼう}を⟦{抱|だ}く→抱く：02131_daku⟧: to hold a baby\n- {赤|あか}ん{坊|ぼう}の⟦{世話|せわ}→世話：02088_sewa⟧: baby care\n- {赤|あか}ん{坊|ぼう}を⟦{寝|ね}かせる→寝かせる：12322_nekaseru⟧: to put a baby to sleep\n\nNOTE:\n⟦{赤|あか}ちゃん→赤ちゃん：01282_akachan⟧ is more commonly used in everyday conversation, while {赤|あか}ん{坊|ぼう} sounds slightly more formal or literary.",
-  "cross_references": [],
+  "notes": "{赤|あか}ん{坊|ぼう} refers specifically to a baby or infant, typically under one year old.\n\nETYMOLOGY:\nFrom ⟦{赤|あか}→赤：02842_aka⟧ (red) + {坊|ぼう} (boy/child), referring to the reddish skin color of newborns.\n\nSIMILAR WORDS:\n- {赤|あか}ん{坊|ぼう}: baby, infant (neutral)\n- ⟦{赤|あか}ちゃん→赤ちゃん：01282_akachan⟧: baby (affectionate, more common in speech)\n- ⟦{乳児|にゅうじ}→乳児：11414_nyuuji⟧: infant (formal/medical)\n- ⟦{幼児|ようじ}→幼児：12478_youji⟧: toddler, young child (1-6 years)\n- {新生児|しんせいじ}: newborn (medical term)\n\nCOMMON EXPRESSIONS:\n- {赤|あか}ん{坊|ぼう}⟦が→が：00051_ga⟧⟦{泣|な}く→泣く：00655_naku⟧: baby cries\n- {赤|あか}ん{坊|ぼう}⟦を→を：00422_wo⟧⟦{抱|だ}く→抱く：02131_daku⟧: to hold a baby\n- {赤|あか}ん{坊|ぼう}⟦の→の：09472_no⟧⟦{世話|せわ}→世話：02088_sewa⟧: baby care\n- {赤|あか}ん{坊|ぼう}⟦を→を：00422_wo⟧⟦{寝|ね}かせる→寝かせる：12322_nekaseru⟧: to put a baby to sleep\n\nUSAGE:\n⟦{赤|あか}ちゃん→赤ちゃん：01282_akachan⟧ is more commonly used in everyday conversation, while {赤|あか}ん{坊|ぼう} sounds slightly more formal or literary.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01282_akachan",
+      "reading": "あかちゃん",
+      "headword": "{赤|あか}ちゃん",
+      "label": "baby"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11414_nyuuji",
+      "reading": "にゅうじ",
+      "headword": "{乳児|にゅうじ}",
+      "label": "infant"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12478_youji",
+      "reading": "ようじ",
+      "headword": "{幼児|ようじ}",
+      "label": "toddler, young child"
+    }
+  ],
   "metadata": {
     "created": "2026-01-08T03:55:00Z",
-    "modified": "2026-05-14T22:19:08Z",
+    "modified": "2026-09-02T04:00:59Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

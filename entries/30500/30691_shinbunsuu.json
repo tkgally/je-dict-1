@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "30691_shinbunsuu_ex1",
-      "japanese": "3{分|ぶん}の2は{真分数|しんぶんすう}だ。",
+      "japanese": "3⟦{分|ぶん}→分：26216_bun⟧⟦の→の：09472_no⟧2⟦は→は：00079_ha⟧{真分数|しんぶんすう}だ。",
       "english": "Two-thirds is a proper fraction.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "30691_shinbunsuu_ex2",
-      "japanese": "{真分数|しんぶんすう}は{必|かなら}ず1より{小|ちい}さい。",
+      "japanese": "{真分数|しんぶんすう}⟦は→は：00079_ha⟧⟦{必|かなら}ず→必ず：01249_kanarazu⟧1⟦より→より：09476_yori⟧⟦{小|ちい}さい→小さい：00025_chiisai⟧。",
       "english": "A proper fraction is always less than one.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "30691_shinbunsuu_ex3",
-      "japanese": "{分子|ぶんし}が{分母|ぶんぼ}より{小|ちい}さい{分数|ぶんすう}を{真分数|しんぶんすう}といい、{小学校|しょうがっこう}で{最初|さいしょ}に{習|なら}う。",
+      "japanese": "⟦{分子|ぶんし}→分子：11769_bunshi⟧⟦が→が：00051_ga⟧⟦{分母|ぶんぼ}→分母：15936_bunbo⟧⟦より→より：09476_yori⟧⟦{小|ちい}さい→小さい：00025_chiisai⟧⟦{分数|ぶんすう}→分数：06952_bunsuu⟧⟦を→を：00422_wo⟧{真分数|しんぶんすう}⟦と→と：00512_to⟧⟦いい→いい：00118_ii⟧、⟦{小学校|しょうがっこう}→小学校：01055_shougakkou⟧⟦で→で：00502_de⟧⟦{最初|さいしょ}→最初：00882_saisho⟧⟦に→に：00314_ni⟧⟦{習|なら}う→習う：00479_narau⟧。",
       "english": "A fraction whose numerator is smaller than its denominator is called a proper fraction, and it is the first type taught in elementary school.",
       "sense_numbers": [
         1
@@ -43,8 +43,24 @@
       "notes": null
     }
   ],
-  "notes": "{真|しん} (true, genuine) + {分数|ぶんすう} (fraction): a \"true\" fraction, one that really is a part of a whole.\n\nCOMMON COLLOCATIONS:\n- {真分数|しんぶんすう}に{直|なお}す: to convert into a proper fraction\n- {真分数|しんぶんすう}で{表|あらわ}す: to express as a proper fraction\n\nSIMILAR WORDS:\n- {仮分数|かぶんすう}: improper fraction — numerator equal to or larger than the denominator\n- {帯分数|たいぶんすう}: mixed number — a whole number with a proper fraction beside it\n- {分数|ぶんすう}: fraction — the general term",
+  "notes": "⟦{真|しん}→真：28884_shin⟧ (true, genuine) + ⟦{分数|ぶんすう}→分数：06952_bunsuu⟧ (fraction): a \"true\" fraction, one that really is a part of a whole.\n\nCOMMON COLLOCATIONS:\n- {真分数|しんぶんすう}⟦に→に：00314_ni⟧{直|なお}す: to convert into a proper fraction\n- {真分数|しんぶんすう}⟦で→で：00502_de⟧⟦{表|あらわ}す→表す：01868_arawasu⟧: to express as a proper fraction\n\nSIMILAR WORDS:\n- ⟦{仮分数|かぶんすう}→仮分数：30692_kabunsuu⟧: improper fraction — numerator equal to or larger than the denominator\n- ⟦{帯分数|たいぶんすう}→帯分数：30693_taibunsuu⟧: mixed number — a whole number with a proper fraction beside it\n- ⟦{分数|ぶんすう}→分数：06952_bunsuu⟧: fraction — the general term",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "30692_kabunsuu",
+      "reading": "かぶんすう",
+      "headword": "{仮分数|かぶんすう}",
+      "label": "improper fraction"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30693_taibunsuu",
+      "reading": "たいぶんすう",
+      "headword": "{帯分数|たいぶんすう}",
+      "label": "mixed number"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -52,7 +68,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "number",
         "education"
@@ -62,6 +78,6 @@
       ]
     },
     "created": "2026-08-16T06:19:38Z",
-    "modified": "2026-08-16T06:19:38Z"
+    "modified": "2026-09-02T04:02:41Z"
   }
 }

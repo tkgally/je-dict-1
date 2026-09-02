@@ -15,40 +15,66 @@
   "examples": [
     {
       "id": "11832_tanchou_ex1",
-      "japanese": "{毎日|まいにち}{単調|たんちょう}な{生活|せいかつ}を{送|おく}っている。",
+      "japanese": "⟦{毎日|まいにち}→毎日：00729_mainichi⟧{単調|たんちょう}な⟦{生活|せいかつ}→生活：01443_seikatsu⟧⟦を→を：00422_wo⟧⟦{送|おく}っている→送る：00742_okuru⟧。",
       "english": "I live a monotonous life every day.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11832_tanchou_ex2",
-      "japanese": "{単調|たんちょう}な{作業|さぎょう}が{続|つづ}くと{集中力|しゅうちゅうりょく}が{落|お}ちる。",
+      "japanese": "{単調|たんちょう}な⟦{作業|さぎょう}→作業：02775_sagyou⟧⟦が→が：00051_ga⟧⟦{続|つづ}く→続く：00903_tsuzuku⟧⟦と→と：00512_to⟧⟦{集中力|しゅうちゅうりょく}→集中力：17614_shuuchuuryoku⟧⟦が→が：00051_ga⟧⟦{落|お}ちる→落ちる：01242_ochiru⟧。",
       "english": "When monotonous work continues, concentration drops.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11832_tanchou_ex3",
-      "japanese": "{景色|けしき}が{変|か}わらない{単調|たんちょう}な{道|みち}を{何時間|なんじかん}も{運転|うんてん}するのは{辛|つら}い。",
+      "japanese": "⟦{景色|けしき}→景色：01395_keshiki⟧⟦が→が：00051_ga⟧⟦{変|か}わらない→変わる：00714_kawaru⟧{単調|たんちょう}な⟦{道|みち}→道：00505_michi⟧⟦を→を：00422_wo⟧⟦{何時間|なんじかん}→何時間：30372_nanjikan⟧⟦も→も：00484_mo⟧⟦{運転|うんてん}する→運転する：20318_untensuru⟧⟦の→の：09472_no⟧⟦は→は：00079_ha⟧⟦{辛|つら}い→辛い：01112_tsurai⟧。",
       "english": "Driving for hours on a monotonous road where the scenery doesn't change is tough.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{単調|たんちょう} describes something that lacks variety or change, making it feel dull or tedious. It is a na-adjective with a generally negative connotation.\n\nFORMS:\n- Na-adjective: {単調|たんちょう}な{生活|せいかつ} (monotonous life)\n- Adverbial: {単調|たんちょう}に{繰|く}り{返|かえ}す (repeat monotonously)\n- Noun: {単調|たんちょう}さ (monotony)\n\nCOMMON COLLOCATIONS:\n- {単調|たんちょう}な{作業|さぎょう}: monotonous work\n- {単調|たんちょう}な{毎日|まいにち}: humdrum days\n- {単調|たんちょう}なリズム: monotonous rhythm\n- {単調|たんちょう}な{繰|く}り{返|かえ}し: monotonous repetition\n\nFORMATION:\n{単|たん} (single, simple) + {調|ちょう} (tone, key). Literally \"single tone,\" evoking the idea of no variation in pitch or pattern.",
-  "cross_references": [],
+  "notes": "{単調|たんちょう} describes something that lacks variety or change, making it feel dull or tedious. It is a na-adjective with a generally negative connotation.\n\nFORMS:\n- Na-adjective: {単調|たんちょう}な⟦{生活|せいかつ}→生活：01443_seikatsu⟧ (monotonous life)\n- Adverbial: {単調|たんちょう}⟦に→に：00314_ni⟧⟦{繰|く}り{返|かえ}す→繰り返す：02051_kurikaesu⟧ (repeat monotonously)\n- Noun: {単調|たんちょう}さ (monotony)\n{単|たん} (single, simple) + {調|ちょう} (tone, key). Literally \"single tone,\" evoking the idea of no variation in pitch or pattern.\n\nCOMMON COLLOCATIONS:\n- {単調|たんちょう}な⟦{作業|さぎょう}→作業：02775_sagyou⟧: monotonous work\n- {単調|たんちょう}な⟦{毎日|まいにち}→毎日：00729_mainichi⟧: humdrum days\n- {単調|たんちょう}な⟦リズム→リズム：04746_rizumu⟧: monotonous rhythm\n- {単調|たんちょう}な⟦{繰|く}り{返|かえ}し→繰り返し：10320_kurikaeshi⟧: monotonous repetition",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18888_ipponchoushi",
+      "reading": "いっぽんちょうし",
+      "headword": "{一本調子|いっぽんちょうし}",
+      "label": "monotone"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27023_mumikansou",
+      "reading": "むみかんそう",
+      "headword": "{無味乾燥|むみかんそう}",
+      "label": "dull"
+    }
+  ],
   "metadata": {
     "created": "2026-02-18T12:25:05Z",
-    "modified": "2026-03-28T04:11:43Z",
+    "modified": "2026-09-02T04:01:26Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-na", "noun"],
+      "pos": [
+        "adjective-na",
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["descriptive"]
+      "semantic": [
+        "descriptive"
+      ]
     }
   }
 }

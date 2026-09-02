@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "07361_ononoku_ex1",
-      "japanese": "{恐怖|きょうふ}におののいた。",
+      "japanese": "⟦{恐怖|きょうふ}→恐怖：02585_kyoufu⟧⟦に→に：00314_ni⟧おののいた。",
       "english": "I trembled with fear.",
       "has_audio": false,
       "sense_numbers": [
@@ -113,7 +113,7 @@
     },
     {
       "id": "07361_ononoku_ex2",
-      "japanese": "{寒|さむ}さにおののきながら{暖|あたた}かい{場所|ばしょ}を{探|さが}した。",
+      "japanese": "⟦{寒|さむ}さ→寒さ：12336_samusa⟧⟦に→に：00314_ni⟧おののき⟦ながら→ながら：10530_nagara⟧⟦{暖|あたた}かい→暖かい：00618_atatakai⟧⟦{場所|ばしょ}→場所：00829_basho⟧⟦を→を：00422_wo⟧⟦{探|さが}した→探す：00493_sagasu⟧。",
       "english": "Shivering from the cold, I looked for a warm place.",
       "has_audio": false,
       "sense_numbers": [
@@ -122,7 +122,7 @@
     },
     {
       "id": "07361_ononoku_ex3",
-      "japanese": "{村人|むらびと}たちは{魔物|まもの}の{出現|しゅつげん}におののいた。",
+      "japanese": "⟦{村人|むらびと}→村人：13062_murabito⟧たち⟦は→は：00079_ha⟧⟦{魔物|まもの}→魔物：14842_mamono⟧⟦の→の：09472_no⟧⟦{出現|しゅつげん}→出現：11758_shutsugen⟧⟦に→に：00314_ni⟧おののいた。",
       "english": "The villagers trembled at the appearance of the monster.",
       "has_audio": false,
       "sense_numbers": [
@@ -130,10 +130,33 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY:\nIntransitive verb ({自動詞|じどうし}). No pair verb.\n\nKANJI:\nCan be written as {戦|おのの}く, which shares the kanji with {戦|たたか}う (to fight), emphasizing the physical shaking.\n\nUSAGE:\nおののく has a somewhat literary or dramatic quality. It's often used in written narratives, historical texts, or dramatic descriptions. In everyday speech, {震|ふる}える is more common.\n\nCOMMON PATTERNS:\n・{恐怖|きょうふ}におののく (to tremble with fear)\n・{寒|さむ}さにおののく (to shiver from cold)\n・おののきながら (while trembling)\n\nSIMILAR WORDS:\n・{震|ふる}える - to tremble/shake (neutral, common)\n・がたがた{震|ふる}える - to shiver (onomatopoeic, more vivid)\n・{身震|みぶる}いする - to shudder (often from cold or revulsion)\n・ぞっとする - to shudder (from horror or disgust)",
+  "notes": "TRANSITIVITY:\nIntransitive verb (⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧). No pair verb.\n\nWRITING:\nCan be written as {戦|おのの}く, which shares the kanji with ⟦{戦|たたか}う→戦う：02071_tatakau⟧ (to fight), emphasizing the physical shaking.\n\nUSAGE:\nおののく has a somewhat literary or dramatic quality. It's often used in written narratives, historical texts, or dramatic descriptions. In everyday speech, ⟦{震|ふる}える→震える：02411_furueru⟧ is more common.\n\nCOMMON PATTERNS:\n- ⟦{恐怖|きょうふ}→恐怖：02585_kyoufu⟧⟦に→に：00314_ni⟧おののく (to tremble with fear)\n- ⟦{寒|さむ}さ→寒さ：12336_samusa⟧⟦に→に：00314_ni⟧おののく (to shiver from cold)\n- おののき⟦ながら→ながら：10530_nagara⟧ (while trembling)\n\nSIMILAR WORDS:\n- ⟦{震|ふる}える→震える：02411_furueru⟧ - to tremble/shake (neutral, common)\n- ⟦がたがた→がたがた：05274_gatagata⟧⟦{震|ふる}える→震える：02411_furueru⟧ - to shiver (onomatopoeic, more vivid)\n- ⟦{身震|みぶる}い→身震い：14288_miburui⟧⟦する→する：00392_suru⟧ - to shudder (often from cold or revulsion)\n- ⟦ぞっと→ぞっと：05272_zotto⟧⟦する→する：00392_suru⟧ - to shudder (from horror or disgust)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02411_furueru",
+      "reading": "ふるえる",
+      "headword": "{震|ふる}える",
+      "label": "to tremble/shake"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14288_miburui",
+      "reading": "みぶるい",
+      "headword": "{身震|みぶる}い",
+      "label": "to shudder"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07356_tajirogu",
+      "reading": "たじろぐ",
+      "headword": "たじろぐ",
+      "label": "to flinch"
+    }
+  ],
   "metadata": {
     "created": "2026-01-19T05:58:04Z",
-    "modified": "2026-03-29T03:05:07Z",
+    "modified": "2026-09-02T04:01:11Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

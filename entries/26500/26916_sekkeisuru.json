@@ -3,7 +3,7 @@
   "headword": "{設計|せっけい}する",
   "reading": "せっけいする",
   "romaji": "sekkeisuru",
-  "part_of_speech": "verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "to design; to plan; to engineer",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26916_sekkeisuru_ex1",
-      "japanese": "{新|あたら}しいビルを{設計|せっけい}する。",
+      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦ビル→ビル：01500_biru⟧⟦を→を：00422_wo⟧{設計|せっけい}する。",
       "english": "To design a new building.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26916_sekkeisuru_ex2",
-      "japanese": "このシステムは{安全性|あんぜんせい}を{重視|じゅうし}して{設計|せっけい}された。",
+      "japanese": "⟦この→この：00962_kono⟧⟦システム→システム：08428_shisutemu⟧⟦は→は：00079_ha⟧⟦{安全性|あんぜんせい}→安全性：19384_anzensei⟧⟦を→を：00422_wo⟧⟦{重視|じゅうし}して→重視する：26832_juushisuru⟧{設計|せっけい}された。",
       "english": "This system was designed with an emphasis on safety.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26916_sekkeisuru_ex3",
-      "japanese": "{祖父|そふ}は{若|わか}いころ、{有名|ゆうめい}な{建築家|けんちくか}のもとで{住宅|じゅうたく}を{設計|せっけい}する{仕事|しごと}をしていた。",
+      "japanese": "⟦{祖父|そふ}→祖父：01452_sofu⟧⟦は→は：00079_ha⟧{若|わか}い⟦ころ→〜ころ：03091_koro⟧、⟦{有名|ゆうめい}→有名：01106_yuumei⟧な⟦{建築家|けんちくか}→建築家：06082_kenchikuka⟧⟦の→の：09472_no⟧もと⟦で→で：00502_de⟧⟦{住宅|じゅうたく}→住宅：03280_juutaku⟧⟦を→を：00422_wo⟧{設計|せっけい}する⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦を→を：00422_wo⟧⟦していた→する：00392_suru⟧。",
       "english": "When my grandfather was young, he worked designing houses under a famous architect.",
       "sense_numbers": [
         1
@@ -44,8 +44,23 @@
       "notes": null
     }
   ],
-  "notes": "Primarily used for technical and professional design work — architecture, engineering, product development, software systems. Not used for artistic or fashion design, which uses デザインする instead.\n\nCOMMON COLLOCATIONS:\n- {設計|せっけい}{図|ず}: blueprint; design drawing\n- {設計|せっけい}{者|しゃ}: designer; engineer\n- {設計|せっけい}{事務所|じむしょ}: design office; architectural firm\n- {基本|きほん}{設計|せっけい}: basic design; conceptual design\n- {詳細|しょうさい}{設計|せっけい}: detailed design\n\nSIMILAR WORDS:\n- デザインする: to design — used for visual, artistic, or fashion design\n- {企画|きかく}する: to plan; to propose — focuses on the conceptual planning stage of a project\n- {構想|こうそう}する: to conceive; to envision — emphasizes the initial idea-forming stage before detailed planning",
-  "cross_references": [],
+  "notes": "Primarily used for technical and professional design work — architecture, engineering, product development, software systems. Not used for artistic or fashion design, which uses ⟦デザイン→デザイン：03860_dezain⟧⟦する→する：00392_suru⟧ instead.\n\nCOMMON COLLOCATIONS:\n- ⟦{設計|せっけい}{図|ず}→設計図：14805_sekkeizu⟧: blueprint; design drawing\n- ⟦{設計|せっけい}{者|しゃ}→設計者：23284_sekkeisha⟧: designer; engineer\n- ⟦{設計|せっけい}→設計：03300_sekkei⟧⟦{事務所|じむしょ}→事務所：01032_jimusho⟧: design office; architectural firm\n- ⟦{基本|きほん}→基本：00226_kihon⟧⟦{設計|せっけい}→設計：03300_sekkei⟧: basic design; conceptual design\n- ⟦{詳細|しょうさい}→詳細：02523_shousai⟧⟦{設計|せっけい}→設計：03300_sekkei⟧: detailed design\n\nSIMILAR WORDS:\n- ⟦デザイン→デザイン：03860_dezain⟧⟦する→する：00392_suru⟧: to design — used for visual, artistic, or fashion design\n- ⟦{企画|きかく}する→企画する：29396_kikakusuru⟧: to plan; to propose — focuses on the conceptual planning stage of a project\n- ⟦{構想|こうそう}→構想：13163_kousou⟧⟦する→する：00392_suru⟧: to conceive; to envision — emphasizes the initial idea-forming stage before detailed planning",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "29396_kikakusuru",
+      "reading": "きかくする",
+      "headword": "{企画|きかく}する",
+      "label": "to plan"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13163_kousou",
+      "reading": "こうそう",
+      "headword": "{構想|こうそう}",
+      "label": "to conceive"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -62,10 +77,11 @@
       "domain": [
         "technical"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-05-05T16:12:05Z",
-    "modified": "2026-05-05T16:12:05Z"
+    "modified": "2026-09-02T04:02:28Z"
   },
   "conjugation": {
     "type": "suru",

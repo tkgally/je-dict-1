@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30780_hayaimonogachi_ex1",
-      "japanese": "{席|せき}は{早|はや}い{者勝|ものが}ちです。",
+      "japanese": "⟦{席|せき}→席：02215_seki⟧⟦は→は：00079_ha⟧{早|はや}い{者勝|ものが}ちです。",
       "english": "Seats are first come, first served.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30780_hayaimonogachi_ex2",
-      "japanese": "{数量限定|すうりょうげんてい}なので{早|はや}い{者勝|ものが}ちですよ。",
+      "japanese": "⟦{数量限定|すうりょうげんてい}→数量限定：09822_suuryougentei⟧な⟦の→の：09472_no⟧で{早|はや}い{者勝|ものが}ちです⟦よ→よ：09475_yo⟧。",
       "english": "Quantities are limited, so it's first come, first served.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30780_hayaimonogachi_ex3",
-      "japanese": "{申|もう}し{込|こ}みは{先着順|せんちゃくじゅん}、つまり{早|はや}い{者勝|ものが}ちだ。",
+      "japanese": "⟦{申|もう}し{込|こ}み→申し込み：03161_moushikomi⟧⟦は→は：00079_ha⟧⟦{先着順|せんちゃくじゅん}→先着順：07057_senchakujun⟧、⟦つまり→つまり：03530_tsumari⟧{早|はや}い{者勝|ものが}ちだ。",
       "english": "Applications are handled in order of arrival — in other words, first come, first served.",
       "sense_numbers": [
         1
@@ -45,7 +45,7 @@
     },
     {
       "id": "30780_hayaimonogachi_ex4",
-      "japanese": "いい{物件|ぶっけん}は{早|はや}い{者勝|ものが}ちだから、{迷|まよ}っているうちに{決|き}まってしまう。",
+      "japanese": "⟦いい→いい：00118_ii⟧⟦{物件|ぶっけん}→物件：06743_bukken⟧⟦は→は：00079_ha⟧{早|はや}い{者勝|ものが}ちだ⟦から→から：00504_kara⟧、⟦{迷|まよ}っている→迷う：02426_mayou⟧うち⟦に→に：00314_ni⟧⟦{決|き}まって→決まる：01233_kimaru⟧しまう。",
       "english": "Good properties go to whoever moves first, so while you're hesitating it'll be taken.",
       "sense_numbers": [
         1
@@ -54,8 +54,31 @@
       "notes": null
     }
   ],
-  "notes": "Built from {早|はや}い + {者|もの} (person) + {勝|が}ち (winning). Extremely common in sales copy, event notices, and casual speech about anything in short supply.\n\nCOMMON COLLOCATIONS:\n- {早|はや}い{者勝|ものが}ちです: it's first come, first served\n- {早|はや}い{者勝|ものが}ちの{世界|せかい}: a world where speed decides everything\n- {残|のこ}りわずか、{早|はや}い{者勝|ものが}ち: only a few left — first come, first served\n\nSIMILAR WORDS:\n- {先着順|せんちゃくじゅん}: in order of arrival — the neutral administrative wording used on official notices\n- {抽選|ちゅうせん}: lottery; drawing — the usual alternative allocation method, and its natural opposite",
+  "notes": "Built from ⟦{早|はや}い→早い：00514_hayai⟧ + ⟦{者|もの}→者：12734_mono⟧ (person) + {勝|が}ち (winning). Extremely common in sales copy, event notices, and casual speech about anything in short supply.\n\nCOMMON COLLOCATIONS:\n- {早|はや}い{者勝|ものが}ちです: it's first come, first served\n- {早|はや}い{者勝|ものが}ち⟦の→の：09472_no⟧⟦{世界|せかい}→世界：01447_sekai⟧: a world where speed decides everything\n- ⟦{残|のこ}り→残り：01622_nokori⟧わずか、{早|はや}い{者勝|ものが}ち: only a few left — first come, first served\n\nSIMILAR WORDS:\n- ⟦{先着順|せんちゃくじゅん}→先着順：07057_senchakujun⟧: in order of arrival — the neutral administrative wording used on official notices\n- ⟦{抽選|ちゅうせん}→抽選：07054_chuusen⟧: lottery; drawing — the usual alternative allocation method, and its natural opposite",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07057_senchakujun",
+      "reading": "せんちゃくじゅん",
+      "headword": "{先着順|せんちゃくじゅん}",
+      "label": "in order of arrival"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07054_chuusen",
+      "reading": "ちゅうせん",
+      "headword": "{抽選|ちゅうせん}",
+      "label": "lottery"
+    },
+    {
+      "type": "related",
+      "target_id": "08320_senchaku",
+      "reading": "せんちゃく",
+      "headword": "{先着|せんちゃく}",
+      "label": "first-come"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -63,7 +86,7 @@
         "expression"
       ],
       "formality": "informal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "idiom",
         "shopping"
@@ -71,6 +94,6 @@
       "domain": []
     },
     "created": "2026-08-31T12:34:01Z",
-    "modified": "2026-08-31T12:34:01Z"
+    "modified": "2026-09-02T04:02:41Z"
   }
 }

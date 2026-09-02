@@ -15,41 +15,67 @@
   "examples": [
     {
       "id": "27787_tesou_ex1",
-      "japanese": "{手相|てそう}を{見|み}てもらう。",
+      "japanese": "{手相|てそう}⟦を→を：00422_wo⟧⟦{見|み}て→見る：00283_miru⟧⟦もらう→もらう：00520_morau⟧。",
       "english": "To have one's palm read.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27787_tesou_ex2",
-      "japanese": "{彼女|かのじょ}は{手相|てそう}に{詳|くわ}しい。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧{手相|てそう}⟦に→に：00314_ni⟧⟦{詳|くわ}しい→詳しい：02483_kuwashii⟧。",
       "english": "She knows a lot about palmistry.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27787_tesou_ex3",
-      "japanese": "{占|うらな}い{師|し}は{私|わたし}の{手相|てそう}を{見|み}て、{長生|ながい}きすると{言|い}った。",
+      "japanese": "⟦{占|うらな}い{師|し}→占い師：27785_uranaishi⟧⟦は→は：00079_ha⟧⟦{私|わたし}→私：02988_watashi⟧⟦の→の：09472_no⟧{手相|てそう}⟦を→を：00422_wo⟧⟦{見|み}て→見る：00283_miru⟧、⟦{長生|ながい}き→長生き：03128_nagaiki⟧⟦する→する：00392_suru⟧⟦と→と：00512_to⟧⟦{言|い}った→言う：00515_iu⟧。",
       "english": "The fortune-teller looked at my palm and said I would live a long life.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "The pattern of lines on the palm, and the practice of reading them to tell fortunes. The verb {見|み}る is used for reading a palm.\n\nCOMMON COLLOCATIONS:\n- {手相|てそう}を{見|み}る: to read a palm\n- {手相|てそう}を{見|み}てもらう: to have one's palm read\n- {手相|てそう}{占|うらな}い: palm reading\n\nSIMILAR WORDS:\n- {人相|にんそう}: physiognomy — reading character and fortune from the face instead of the palm\n- {運勢|うんせい}: one's fortune; luck — the fortune itself that such reading reveals",
+  "notes": "The pattern of lines on the palm, and the practice of reading them to tell fortunes. The verb ⟦{見|み}る→見る：00283_miru⟧ is used for reading a palm.\n\nCOMMON COLLOCATIONS:\n- {手相|てそう}⟦を→を：00422_wo⟧⟦{見|み}る→見る：00283_miru⟧: to read a palm\n- {手相|てそう}⟦を→を：00422_wo⟧⟦{見|み}て→見る：00283_miru⟧⟦もらう→もらう：00520_morau⟧: to have one's palm read\n- {手相|てそう}⟦{占|うらな}い→占い：18736_uranai⟧: palm reading\n\nSIMILAR WORDS:\n- {人相|にんそう}: physiognomy — reading character and fortune from the face instead of the palm\n- ⟦{運勢|うんせい}→運勢：15761_unsei⟧: one's fortune; luck — the fortune itself that such reading reveals",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15761_unsei",
+      "reading": "うんせい",
+      "headword": "{運勢|うんせい}",
+      "label": "one's fortune"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26422_shoumon",
+      "reading": "しょうもん",
+      "headword": "{掌紋|しょうもん}",
+      "label": "palm print"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["culture"],
+      "politeness": "plain",
+      "semantic": [
+        "culture"
+      ],
       "domain": []
     },
     "created": "2026-05-18T04:14:41Z",
-    "modified": "2026-05-18T04:14:41Z"
+    "modified": "2026-09-02T04:02:31Z"
   }
 }

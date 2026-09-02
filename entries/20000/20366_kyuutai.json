@@ -15,40 +15,74 @@
   "examples": [
     {
       "id": "20366_kyuutai_ex1",
-      "japanese": "{地球|ちきゅう}は{完全|かんぜん}な{球体|きゅうたい}ではない。",
+      "japanese": "⟦{地球|ちきゅう}→地球：03461_chikyuu⟧⟦は→は：00079_ha⟧⟦{完全|かんぜん}→完全：01552_kanzen⟧な{球体|きゅうたい}⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦ない→ない：01118_nai⟧。",
       "english": "The Earth is not a perfect sphere.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20366_kyuutai_ex2",
-      "japanese": "ガラスの{球体|きゅうたい}が{光|ひかり}を{反射|はんしゃ}している。",
+      "japanese": "⟦ガラス→ガラス：01777_garasu⟧⟦の→の：09472_no⟧{球体|きゅうたい}⟦が→が：00051_ga⟧⟦{光|ひかり}→光：01707_hikari⟧⟦を→を：00422_wo⟧⟦{反射|はんしゃ}している→反射する：19650_hanshasuru⟧。",
       "english": "A glass sphere is reflecting the light.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20366_kyuutai_ex3",
-      "japanese": "{球体|きゅうたい}の{表面積|ひょうめんせき}は4πr²で{求|もと}められる。",
+      "japanese": "{球体|きゅうたい}⟦の→の：09472_no⟧⟦{表面積|ひょうめんせき}→表面積：28898_hyoumenseki⟧⟦は→は：00079_ha⟧4πr²⟦で→で：00502_de⟧⟦{求|もと}められる→求める：02316_motomeru⟧。",
       "english": "The surface area of a sphere can be calculated with 4πr².",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "The standard term for a sphere in both scientific and everyday contexts. More precise than {丸|まる}い (round), which can apply to flat circles as well.\n\nFORMATION:\n{球|きゅう} (ball, sphere) + {体|たい} (body, form)\n\nCOMMON COLLOCATIONS:\n- {球体|きゅうたい}の{形|かたち}: spherical shape\n- {完全|かんぜん}な{球体|きゅうたい}: perfect sphere\n- {球体|きゅうたい}{関節|かんせつ}: ball joint\n- {球体|きゅうたい}{関節|かんせつ}{人形|にんぎょう}: ball-jointed doll (BJD)\n\nRELATED GEOMETRIC TERMS:\n- {立方体|りっぽうたい}: cube\n- {円柱|えんちゅう}: cylinder\n- {円錐|えんすい}: cone\n- {半球|はんきゅう}: hemisphere",
+  "notes": "The standard term for a sphere in both scientific and everyday contexts. More precise than ⟦{丸|まる}い→丸い：02967_marui⟧ (round), which can apply to flat circles as well.\n\nFORMS:\n⟦{球|きゅう}→球：28895_kyuu⟧ (ball, sphere) + ⟦{体|たい}→体：09872_tai⟧ (body, form)\n\nCOMMON COLLOCATIONS:\n- {球体|きゅうたい}⟦の→の：09472_no⟧⟦{形|かたち}→形：02193_katachi⟧: spherical shape\n- ⟦{完全|かんぜん}→完全：01552_kanzen⟧な{球体|きゅうたい}: perfect sphere\n- {球体|きゅうたい}⟦{関節|かんせつ}→関節：09793_kansetsu⟧: ball joint\n- {球体|きゅうたい}⟦{関節|かんせつ}→関節：09793_kansetsu⟧⟦{人形|にんぎょう}→人形：01487_ningyou⟧: ball-jointed doll (BJD)\n\nRELATED GEOMETRIC TERMS:\n- ⟦{立方体|りっぽうたい}→立方体：05549_rippoutai⟧: cube\n- ⟦{円柱|えんちゅう}→円柱：05551_enchuu⟧: cylinder\n- ⟦{円錐|えんすい}→円錐：05550_ensui⟧: cone\n- {半球|はんきゅう}: hemisphere",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "05549_rippoutai",
+      "reading": "りっぽうたい",
+      "headword": "{立方体|りっぽうたい}",
+      "label": "cube"
+    },
+    {
+      "type": "related",
+      "target_id": "05551_enchuu",
+      "reading": "えんちゅう",
+      "headword": "{円柱|えんちゅう}",
+      "label": "cylinder"
+    },
+    {
+      "type": "related",
+      "target_id": "05550_ensui",
+      "reading": "えんすい",
+      "headword": "{円錐|えんすい}",
+      "label": "cone"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["math", "science"]
+      "semantic": [
+        "math",
+        "science"
+      ]
     },
     "created": "2026-03-29T11:09:14Z",
-    "modified": "2026-03-29T11:09:14Z"
+    "modified": "2026-09-02T04:01:59Z"
   }
 }

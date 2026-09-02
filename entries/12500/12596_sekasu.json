@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "12596_sekasu_ex1",
-      "japanese": "そんなに{急|せ}かさないでください。",
+      "japanese": "⟦そんな→そんな：01645_sonna⟧⟦に→に：00314_ni⟧{急|せ}かさないで⟦ください→ください：02899_kudasai⟧。",
       "english": "Please don't rush me like that.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "12596_sekasu_ex2",
-      "japanese": "{母|はは}に{急|せ}かされて{家|いえ}を{出|で}た。",
+      "japanese": "⟦{母|はは}→母：00549_haha⟧⟦に→に：00314_ni⟧{急|せ}かされて⟦{家|いえ}→家：00612_ie⟧⟦を→を：00422_wo⟧⟦{出|で}た→出る：00513_deru⟧。",
       "english": "My mother rushed me out of the house.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "12596_sekasu_ex3",
-      "japanese": "{締|し}め{切|き}りが{近|ちか}いと、{上司|じょうし}が{毎日|まいにち}のように{急|せ}かしてくる。",
+      "japanese": "⟦{締|し}め{切|き}り→締め切り：04162_shimekiri⟧⟦が→が：00051_ga⟧⟦{近|ちか}い→近い：00530_chikai⟧⟦と→と：00512_to⟧、⟦{上司|じょうし}→上司：03286_joushi⟧⟦が→が：00051_ga⟧⟦{毎日|まいにち}→毎日：00729_mainichi⟧⟦のように→のように：30291_noyouni⟧{急|せ}かしてくる。",
       "english": "When the deadline is approaching, my boss rushes me almost every day.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nAlways directed at another person — you {急|せ}かす someone else. Often appears in the passive form {急|せ}かされる (to be rushed by someone). Carries a mildly negative nuance of unwanted pressure.\n\nGRAMMAR:\nGodan verb ending in す. Transitive — takes を for the person being rushed: Xを{急|せ}かす.\n\nCOMMON COLLOCATIONS:\n- {急|せ}かさないで: don't rush me\n- {急|せ}かされる: to be rushed (passive)\n- {返事|へんじ}を{急|せ}かす: to press for a reply",
+  "notes": "USAGE:\nAlways directed at another person — you {急|せ}かす someone else. Often appears in the passive form {急|せ}かされる (to be rushed by someone). Carries a mildly negative nuance of unwanted pressure.\n\nCOMMON PATTERNS:\nGodan verb ending in す. Transitive — takes ⟦を→を：00422_wo⟧ for the person being rushed: X⟦を→を：00422_wo⟧{急|せ}かす.\n\nCOMMON COLLOCATIONS:\n- {急|せ}かさないで: don't rush me\n- {急|せ}かされる: to be rushed (passive)\n- ⟦{返事|へんじ}→返事：00844_henji⟧⟦を→を：00422_wo⟧{急|せ}かす: to press for a reply",
   "cross_references": [
     {
       "type": "related",
@@ -142,11 +142,18 @@
       "reading": "いそぐ",
       "headword": "{急|いそ}ぐ",
       "label": "to hurry (intransitive)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26806_saisokusuru",
+      "reading": "さいそくする",
+      "headword": "{催促|さいそく}する",
+      "label": "to urge"
     }
   ],
   "metadata": {
     "created": "2026-02-22T04:06:03Z",
-    "modified": "2026-04-27T06:29:35Z",
+    "modified": "2026-09-02T04:01:29Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

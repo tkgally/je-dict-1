@@ -3,7 +3,7 @@
   "headword": "{再婚|さいこん}する",
   "reading": "さいこんする",
   "romaji": "saikonsuru",
-  "part_of_speech": "verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "to remarry",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25476_saikonsuru_ex1",
-      "japanese": "{母|はは}は{去年|きょねん}{再婚|さいこん}した。",
+      "japanese": "⟦{母|はは}→母：00549_haha⟧⟦は→は：00079_ha⟧⟦{去年|きょねん}→去年：00727_kyonen⟧{再婚|さいこん}した。",
       "english": "My mother remarried last year.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25476_saikonsuru_ex2",
-      "japanese": "{離婚|りこん}して{三年後|さんねんご}に{再婚|さいこん}した。",
+      "japanese": "⟦{離婚|りこん}して→離婚する：21333_rikonsuru⟧{三年後|さんねんご}⟦に→に：00314_ni⟧{再婚|さいこん}した。",
       "english": "She remarried three years after her divorce.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25476_saikonsuru_ex3",
-      "japanese": "{子供|こども}がいる{場合|ばあい}、{再婚|さいこん}する{際|さい}には{家族|かぞく}{全員|ぜんいん}の{気持|きも}ちを{大切|たいせつ}にする{必要|ひつよう}がある。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧⟦が→が：00051_ga⟧⟦いる→いる：00495_iru⟧⟦{場合|ばあい}→場合：01704_baai⟧、{再婚|さいこん}する⟦{際|さい}→際：02819_sai⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{家族|かぞく}→家族：00552_kazoku⟧⟦{全員|ぜんいん}→全員：03310_zenin⟧⟦の→の：09472_no⟧{気持|きも}ち⟦を→を：00422_wo⟧⟦{大切|たいせつ}にする→大切にする：26940_taisetsunisuru⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "When there are children, it is necessary to consider the feelings of the whole family when remarrying.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {再|さい} (again; re-) and {婚|こん} (marriage). The noun form {再婚|さいこん} is equally common. In Japan, remarriage has become increasingly common and socially accepted, though it still carries some social considerations, especially when children from previous marriages are involved ({連|つ}れ{子|こ}).\n\nCOMMON COLLOCATIONS:\n- {再婚|さいこん}{相手|あいて}: remarriage partner\n- {再婚|さいこん}{家庭|かてい}: remarried family; blended family\n- {再婚|さいこん}を{考|かんが}える: to consider remarrying\n- バツイチで{再婚|さいこん}: to remarry after one divorce\n\nSIMILAR WORDS:\n- {結婚|けっこん}する: to marry — first or subsequent marriage; the general term\n- {離婚|りこん}する: to divorce — the end of a marriage; often mentioned alongside {再婚|さいこん}\n- {初婚|しょこん}: first marriage — contrasts with {再婚|さいこん}",
+  "notes": "A compound of ⟦{再|さい}→再〜：03953_sai⟧ (again; re-) and {婚|こん} (marriage). The noun form ⟦{再婚|さいこん}→再婚：22805_saikon⟧ is equally common. In Japan, remarriage has become increasingly common and socially accepted, though it still carries some social considerations, especially when children from previous marriages are involved (⟦{連|つ}れ{子|こ}→連れ子：10100_tsureko⟧).\n\nCOMMON COLLOCATIONS:\n- ⟦{再婚|さいこん}→再婚：22805_saikon⟧⟦{相手|あいて}→相手：01677_aite⟧: remarriage partner\n- ⟦{再婚|さいこん}→再婚：22805_saikon⟧⟦{家庭|かてい}→家庭：12315_katei⟧: remarried family; blended family\n- ⟦{再婚|さいこん}→再婚：22805_saikon⟧⟦を→を：00422_wo⟧⟦{考|かんが}える→考える：00856_kangaeru⟧: to consider remarrying\n- ⟦バツイチ→バツイチ：11119_batsuichi⟧⟦で→で：00502_de⟧⟦{再婚|さいこん}→再婚：22805_saikon⟧: to remarry after one divorce\n\nSIMILAR WORDS:\n- ⟦{結婚|けっこん}→結婚：02514_kekkon⟧⟦する→する：00392_suru⟧: to marry — first or subsequent marriage; the general term\n- ⟦{離婚|りこん}する→離婚する：21333_rikonsuru⟧: to divorce — the end of a marriage; often mentioned alongside ⟦{再婚|さいこん}→再婚：22805_saikon⟧\n- ⟦{初婚|しょこん}→初婚：25564_shokon⟧: first marriage — contrasts with ⟦{再婚|さいこん}→再婚：22805_saikon⟧",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02514_kekkon",
+      "reading": "けっこん",
+      "headword": "{結婚|けっこん}",
+      "label": "to marry"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21333_rikonsuru",
+      "reading": "りこんする",
+      "headword": "{離婚|りこん}する",
+      "label": "to divorce"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25564_shokon",
+      "reading": "しょこん",
+      "headword": "{初婚|しょこん}",
+      "label": "first marriage"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,6 +76,8 @@
         "noun",
         "verb-suru"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "society",
         "family"
@@ -60,7 +85,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-25T14:16:37Z",
-    "modified": "2026-08-04T12:59:53Z"
+    "modified": "2026-09-02T04:02:22Z"
   },
   "conjugation": {
     "type": "suru",

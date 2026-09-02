@@ -15,40 +15,59 @@
   "examples": [
     {
       "id": "10731_oiru_ex1",
-      "japanese": "フライパンにオイルを{引|ひ}く。",
+      "japanese": "⟦フライパン→フライパン：01025_furaipan⟧⟦に→に：00314_ni⟧オイル⟦を→を：00422_wo⟧⟦{引|ひ}く→引く：01978_hiku⟧。",
       "english": "To coat the frying pan with oil.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10731_oiru_ex2",
-      "japanese": "オリーブオイルでサラダを{作|つく}った。",
+      "japanese": "オリーブオイル⟦で→で：00502_de⟧⟦サラダ→サラダ：01364_sarada⟧⟦を→を：00422_wo⟧⟦{作|つく}った→作る：00481_tsukuru⟧。",
       "english": "I made a salad with olive oil.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10731_oiru_ex3",
-      "japanese": "{肌|はだ}が{乾燥|かんそう}しているので、{保湿|ほしつ}オイルを{塗|ぬ}っている。",
+      "japanese": "⟦{肌|はだ}→肌：02243_hada⟧⟦が→が：00051_ga⟧⟦{乾燥|かんそう}→乾燥：00184_kansou⟧⟦している→する：00392_suru⟧⟦の→の：09472_no⟧で、⟦{保湿|ほしつ}→保湿：11617_hoshitsu⟧オイル⟦を→を：00422_wo⟧⟦{塗|ぬ}っている→塗る：01174_nuru⟧。",
       "english": "My skin is dry, so I've been applying moisturizing oil.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "オイル is the loanword from English \"oil,\" used broadly for cooking oils, automotive oils, cosmetic oils, and industrial lubricants.\n\nCONTRAST WITH {油|あぶら}:\n- {油|あぶら}: native Japanese word, used especially for cooking oil ({食用油|しょくようあぶら}) and natural fats\n- オイル: loanword, preferred in commercial/branded contexts and compound words\n\nCOMMON COLLOCATIONS:\n- オリーブオイル: olive oil\n- エンジンオイル: engine oil\n- オイル{交換|こうかん}: oil change (automotive)\n- ベビーオイル: baby oil\n- アロマオイル: aromatherapy oil\n- オイルヒーター: oil heater\n\nNOTE:\nIn cooking, both {油|あぶら} and オイル are used. Western-style oils (olive, coconut) tend to use オイル, while {油|あぶら} is more common for traditional Japanese cooking oil ({菜種油|なたねあぶら}, ごま{油|あぶら}).",
+  "notes": "オイル is the loanword from English \"oil,\" used broadly for cooking oils, automotive oils, cosmetic oils, and industrial lubricants.\n\nCONTRAST WITH {油|あぶら}:\n- ⟦{油|あぶら}→油：01693_abura⟧: native Japanese word, used especially for cooking oil ({食用油|しょくようあぶら}) and natural fats\n- オイル: loanword, preferred in commercial/branded contexts and compound words\n\nCOMMON COLLOCATIONS:\n- オリーブオイル: olive oil\n- エンジンオイル: engine oil\n- オイル⟦{交換|こうかん}→交換：02746_koukan⟧: oil change (automotive)\n- ベビーオイル: baby oil\n- アロマオイル: aromatherapy oil\n- オイルヒーター: oil heater\n\nUSAGE:\nIn cooking, both ⟦{油|あぶら}→油：01693_abura⟧ and オイル are used. Western-style oils (olive, coconut) tend to use オイル, while ⟦{油|あぶら}→油：01693_abura⟧ is more common for traditional Japanese cooking oil ({菜種油|なたねあぶら}, ごま⟦{油|あぶら}→油：01693_abura⟧).",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01693_abura",
+      "reading": "あぶら",
+      "headword": "{油|あぶら}",
+      "label": "native Japanese word, used especially…"
+    }
+  ],
   "metadata": {
     "created": "2026-02-09T15:58:39Z",
-    "modified": "2026-03-30T02:16:27Z",
+    "modified": "2026-09-02T04:01:22Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

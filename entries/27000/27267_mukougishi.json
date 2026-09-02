@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "27267_mukougishi_ex1",
-      "japanese": "{向|む}こう{岸|ぎし}に{人|ひと}が{見|み}える。",
+      "japanese": "{向|む}こう{岸|ぎし}⟦に→に：00314_ni⟧⟦{人|ひと}→人：00476_hito⟧⟦が→が：00051_ga⟧⟦{見|み}える→見える：01165_mieru⟧。",
       "english": "I can see someone on the other shore.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "27267_mukougishi_ex2",
-      "japanese": "{川|かわ}の{向|む}こう{岸|ぎし}まで{泳|およ}いで{渡|わた}った。",
+      "japanese": "⟦{川|かわ}→川：02186_kawa⟧⟦の→の：09472_no⟧{向|む}こう{岸|ぎし}⟦まで→まで：00490_made⟧⟦{泳|およ}いで→泳ぐ：00545_oyogu⟧⟦{渡|わた}った→渡る：02441_wataru⟧。",
       "english": "I swam across to the other bank of the river.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "27267_mukougishi_ex3",
-      "japanese": "{向|む}こう{岸|ぎし}の{景色|けしき}が{夕日|ゆうひ}に{照|て}らされて、とても{美|うつく}しかった。",
+      "japanese": "{向|む}こう{岸|ぎし}⟦の→の：09472_no⟧⟦{景色|けしき}→景色：01395_keshiki⟧⟦が→が：00051_ga⟧⟦{夕日|ゆうひ}→夕日：04080_yuuhi⟧⟦に→に：00314_ni⟧⟦{照|て}らされて→照らす：04669_terasu⟧、⟦とても→とても：00593_totemo⟧⟦{美|うつく}しかった→美しい：01121_utsukushii⟧。",
       "english": "The scenery on the far shore, lit up by the sunset, was very beautiful.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {向|む}こう (the other side; over there) + {岸|きし} (shore; bank). The reading changes to ぎし through {連濁|れんだく} (sequential voicing).\n\nCOMMON COLLOCATIONS:\n- {向|む}こう{岸|ぎし}に{渡|わた}る: to cross to the other side\n- {向|む}こう{岸|ぎし}が{見|み}える: the far shore is visible\n- {川|かわ}の{向|む}こう{岸|ぎし}: the opposite bank of the river\n\nFIGURATIVE USE:\nSometimes used metaphorically to mean something distant or out of reach, similar to \"the other side\" in English. In Buddhism, {彼岸|ひがん} (the other shore) represents enlightenment or the afterlife.\n\nSIMILAR WORDS:\n- {対岸|たいがん}: the opposite bank — more formal and literary; often used in the expression {対岸|たいがん}の{火事|かじ} (someone else's problem, literally \"a fire on the opposite bank\")\n- {彼岸|ひがん}: the other shore (Buddhist) — specifically refers to the Buddhist concept of the afterlife or enlightenment, or the equinox holiday period",
+  "notes": "Compound of {向|む}こう (the other side; over there) + ⟦{岸|きし}→岸：02545_kishi⟧ (shore; bank). The reading changes to ぎし through {連濁|れんだく} (sequential voicing).\n\nCOMMON COLLOCATIONS:\n- {向|む}こう{岸|ぎし}⟦に→に：00314_ni⟧⟦{渡|わた}る→渡る：02441_wataru⟧: to cross to the other side\n- {向|む}こう{岸|ぎし}⟦が→が：00051_ga⟧⟦{見|み}える→見える：01165_mieru⟧: the far shore is visible\n- ⟦{川|かわ}→川：02186_kawa⟧⟦の→の：09472_no⟧{向|む}こう{岸|ぎし}: the opposite bank of the river\n\nUSAGE:\nSometimes used metaphorically to mean something distant or out of reach, similar to \"the other side\" in English. In Buddhism, ⟦{彼岸|ひがん}→彼岸：12612_higan⟧ (the other shore) represents enlightenment or the afterlife.\n\nSIMILAR WORDS:\n- ⟦{対岸|たいがん}→対岸：17100_taigan⟧: the opposite bank — more formal and literary; often used in the expression ⟦{対岸|たいがん}→対岸：17100_taigan⟧⟦の→の：09472_no⟧⟦{火事|かじ}→火事：01283_kaji⟧ (someone else's problem, literally \"a fire on the opposite bank\")\n- ⟦{彼岸|ひがん}→彼岸：12612_higan⟧: the other shore (Buddhist) — specifically refers to the Buddhist concept of the afterlife or enlightenment, or the equinox holiday period",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17100_taigan",
+      "reading": "たいがん",
+      "headword": "{対岸|たいがん}",
+      "label": "the opposite bank"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12612_higan",
+      "reading": "ひがん",
+      "headword": "{彼岸|ひがん}",
+      "label": "the other shore"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +69,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "nature"
       ],
       "domain": []
     },
     "created": "2026-05-08T12:10:43Z",
-    "modified": "2026-05-08T12:10:43Z"
+    "modified": "2026-09-02T04:02:29Z"
   }
 }

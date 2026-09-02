@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "06723_ikumen_ex1",
-      "japanese": "{彼|かれ}はイクメンで、{毎日|まいにち}{保育園|ほいくえん}の{送|おく}り{迎|むか}えをしている。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧イクメンで、⟦{毎日|まいにち}→毎日：00729_mainichi⟧⟦{保育園|ほいくえん}→保育園：04704_hoikuen⟧⟦の→の：09472_no⟧⟦{送|おく}り{迎|むか}え→送り迎え：14362_okurimukae⟧⟦を→を：00422_wo⟧⟦している→する：00392_suru⟧。",
       "english": "He's a hands-on dad who takes his kid to and from daycare every day.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "06723_ikumen_ex2",
-      "japanese": "イクメンが{増|ふ}えてきたと{言|い}われている。",
+      "japanese": "イクメン⟦が→が：00051_ga⟧⟦{増|ふ}えて→増える：01183_fueru⟧きた⟦と→と：00512_to⟧⟦{言|い}われている→言う：00515_iu⟧。",
       "english": "It's said that hands-on dads are increasing.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "06723_ikumen_ex3",
-      "japanese": "イクメンを{目指|めざ}して{育児|いくじ}{休暇|きゅうか}を{取|と}った。",
+      "japanese": "イクメン⟦を→を：00422_wo⟧⟦{目指|めざ}して→目指す：10528_mezasu⟧⟦{育児|いくじ}{休暇|きゅうか}→育児休暇：07143_ikujikyuuka⟧⟦を→を：00422_wo⟧⟦{取|と}った→取る：00565_toru⟧。",
       "english": "I took parental leave, aiming to be a hands-on dad.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "ETYMOLOGY:\nA blend of ⟦{育児|いくじ}→育児：03998_ikuji⟧ (childcare) and the ending of ⟦イケメン→イケメン：04761_ikemen⟧ (good-looking guy), which supplies the trendy \"-メン\" ending.\n\nORIGIN:\nPopularized in the late 2000s as part of government campaigns to encourage fathers to participate more in childcare. The Ministry of Health, Labour and Welfare launched the イクメンプロジェクト in 2010.\n\nCULTURAL CONTEXT:\nIn traditional Japanese society, childcare was primarily the mother's responsibility. The イクメン movement encourages fathers to take a more active role. The term reflects changing gender roles in Japan, though some criticize it for making basic parenting seem exceptional.\n\nRELATED TERMS:\n・⟦{育児休暇|いくじきゅうか}→育児休暇：07143_ikujikyuuka⟧ / ⟦{育休|いくきゅう}→育休：08565_ikukyuu⟧ - parental leave\n・⟦イクボス→イクボス：30307_ikubosu⟧ - boss who supports work-life balance for employees with children\n・⟦ワンオペ→ワンオペ：06722_wanope⟧⟦{育児|いくじ}→育児：03998_ikuji⟧ - solo parenting (often contrasted with イクメン)\n・⟦{専業主夫|せんぎょうしゅふ}→専業主夫：20248_sengyoushufu⟧ - stay-at-home dad",
+  "notes": "ETYMOLOGY:\nA blend of ⟦{育児|いくじ}→育児：03998_ikuji⟧ (childcare) and the ending of ⟦イケメン→イケメン：04761_ikemen⟧ (good-looking guy), which supplies the trendy \"-メン\" ending.\nPopularized in the late 2000s as part of government campaigns to encourage fathers to participate more in childcare. The Ministry of Health, Labour and Welfare launched the イクメンプロジェクト in 2010.\n\nCULTURAL NOTE:\nIn traditional Japanese society, childcare was primarily the mother's responsibility. The イクメン movement encourages fathers to take a more active role. The term reflects changing gender roles in Japan, though some criticize it for making basic parenting seem exceptional.\n\nRELATED WORDS:\n- ⟦{育児休暇|いくじきゅうか}→育児休暇：07143_ikujikyuuka⟧ / ⟦{育休|いくきゅう}→育休：08565_ikukyuu⟧ - parental leave\n- ⟦イクボス→イクボス：30307_ikubosu⟧ - boss who supports work-life balance for employees with children\n- ⟦ワンオペ→ワンオペ：06722_wanope⟧⟦{育児|いくじ}→育児：03998_ikuji⟧ - solo parenting (often contrasted with イクメン)\n- ⟦{専業主夫|せんぎょうしゅふ}→専業主夫：20248_sengyoushufu⟧ - stay-at-home dad",
   "cross_references": [
     {
       "type": "related",
@@ -58,11 +58,39 @@
       "reading": "わんおぺ",
       "headword": "ワンオペ",
       "label": "solo parenting/operation"
+    },
+    {
+      "type": "related",
+      "target_id": "07143_ikujikyuuka",
+      "reading": "いくじきゅうか",
+      "headword": "{育児休暇|いくじきゅうか}",
+      "label": "parental leave"
+    },
+    {
+      "type": "related",
+      "target_id": "08565_ikukyuu",
+      "reading": "いくきゅう",
+      "headword": "{育休|いくきゅう}",
+      "label": "parental leave"
+    },
+    {
+      "type": "related",
+      "target_id": "30307_ikubosu",
+      "reading": "いくぼす",
+      "headword": "イクボス",
+      "label": "boss who supports work-life balance…"
+    },
+    {
+      "type": "related",
+      "target_id": "20248_sengyoushufu",
+      "reading": "せんぎょうしゅふ",
+      "headword": "{専業主夫|せんぎょうしゅふ}",
+      "label": "stay-at-home dad"
     }
   ],
   "metadata": {
     "created": "2026-01-18T04:42:13Z",
-    "modified": "2026-08-08T09:25:02Z",
+    "modified": "2026-09-02T04:01:09Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

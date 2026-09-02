@@ -2,7 +2,7 @@
   "id": "00145_kaizou",
   "headword": "{改造|かいぞう}",
   "reading": "かいぞう",
-  "part_of_speech": "noun, suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "remodeling, modification",
   "conjugation": {
     "type": "suru",
@@ -109,7 +109,7 @@
   "examples": [
     {
       "id": "00145_kaizou_ex1",
-      "japanese": "⟦{古|ふる}い→古い：00488_furui⟧⟦{家|いえ}→家：00612_ie⟧⟦を→を：00422_wo⟧{改造|かいぞう}して⟦{住|す}んでいる→住む：00673_sumu⟧。",
+      "japanese": "⟦{古|ふる}い→古い：00488_furui⟧⟦{家|いえ}→家：00612_ie⟧⟦を→を：00422_wo⟧{改造|かいぞう}⟦して→する：00392_suru⟧⟦{住|す}んでいる→住む：00673_sumu⟧。",
       "english": "I live in an old house that has been remodeled.",
       "notes": null,
       "has_audio": false,
@@ -119,7 +119,7 @@
     },
     {
       "id": "00145_kaizou_ex2",
-      "japanese": "⟦{車|くるま}→車：00516_kuruma⟧⟦を→を：00422_wo⟧{改造|かいぞう}する⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦{趣味|しゅみ}→趣味：00889_shumi⟧⟦だ→だ：09496_da⟧。",
+      "japanese": "⟦{車|くるま}→車：00516_kuruma⟧⟦を→を：00422_wo⟧{改造|かいぞう}⟦する→する：00392_suru⟧⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦{趣味|しゅみ}→趣味：00889_shumi⟧⟦だ→だ：09496_da⟧。",
       "english": "Modifying cars is my hobby.",
       "notes": null,
       "has_audio": false,
@@ -129,7 +129,7 @@
     },
     {
       "id": "00145_kaizou_ex3",
-      "japanese": "⟦{違法|いほう}→違法：09687_ihou⟧{改造|かいぞう}された⟦{バイク|ばいく}→バイク：05081_baiku⟧⟦は→は：00079_ha⟧⟦{危険|きけん}→危険：01141_kiken⟧⟦だ→だ：09496_da⟧。",
+      "japanese": "⟦{違法|いほう}→違法：09687_ihou⟧{改造|かいぞう}⟦された→する：00392_suru⟧⟦バイク→バイク：05081_baiku⟧⟦は→は：00079_ha⟧⟦{危険|きけん}→危険：01141_kiken⟧⟦だ→だ：09496_da⟧。",
       "english": "Illegally modified motorcycles are dangerous.",
       "notes": null,
       "has_audio": false,
@@ -169,10 +169,25 @@
     }
   ],
   "notes": "{改造|かいぞう} implies significant structural changes, not just minor repairs or adjustments.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- No standard intransitive pair\n- Pattern: [noun]⟦を→を：00422_wo⟧{改造|かいぞう}⟦する→する：00392_suru⟧\n\nCommon collocations:\n- {改造|かいぞう}⟦{車|しゃ}→車：00516_kuruma⟧ (modified car)\n- ⟦{内閣|ないかく}→内閣：04800_naikaku⟧{改造|かいぞう} (cabinet reshuffle)\n- ⟦{違法|いほう}→違法：09687_ihou⟧{改造|かいぞう} (illegal modification)\n- {改造|かいぞう}⟦{工事|こうじ}→工事：00244_kouji⟧ (renovation work)\n\nRelated terms:\n- ⟦リフォーム→リフォーム：08821_rifoomu⟧ (renovation - mainly for homes)\n- ⟦カスタム→カスタム：27367_kasutamu⟧ (custom modification)\n- ⟦{修理|しゅうり}→修理：03214_shuuri⟧ (repair - fixing, not changing)\n- ⟦{改装|かいそう}→改装：09682_kaisou⟧ (refurbishment - focus on appearance)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09681_kairyou",
+      "reading": "かいりょう",
+      "headword": "{改良|かいりょう}",
+      "label": "improvement"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27367_kasutamu",
+      "reading": "かすたむ",
+      "headword": "カスタム",
+      "label": "custom"
+    }
+  ],
   "metadata": {
     "created": "2026-01-13T12:17:38Z",
-    "modified": "2026-08-08T09:25:02Z",
+    "modified": "2026-09-02T04:00:56Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

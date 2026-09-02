@@ -54,7 +54,7 @@
     },
     {
       "id": "03762_shokuryou_ex5",
-      "japanese": "⟦{戦争|せんそう}→戦争：01450_sensou⟧⟦が→が：00051_ga⟧⟦{長引|ながび}く→長引く：14473_nagabiku⟧につれて、{食糧|しょくりょう}⟦の→の：09472_no⟧⟦{確保|かくほ}→確保：13681_kakuho⟧⟦が→が：00051_ga⟧⟦ますます→ますます：01604_masumasu⟧⟦{困難|こんなん}→困難：01410_konnan⟧⟦に→に：00314_ni⟧⟦なった→なる：01970_naru⟧。",
+      "japanese": "⟦{戦争|せんそう}→戦争：01450_sensou⟧⟦が→が：00051_ga⟧⟦{長引|ながび}く→長引く：14473_nagabiku⟧⟦につれて→につれて：28400_nitsurete⟧、{食糧|しょくりょう}⟦の→の：09472_no⟧⟦{確保|かくほ}→確保：13681_kakuho⟧⟦が→が：00051_ga⟧⟦ますます→ますます：01604_masumasu⟧⟦{困難|こんなん}→困難：01410_konnan⟧⟦に→に：00314_ni⟧⟦なった→なる：01970_naru⟧。",
       "english": "As the war dragged on, securing food supplies became increasingly difficult.",
       "notes": null,
       "has_audio": false,
@@ -63,11 +63,33 @@
       ]
     }
   ],
-  "notes": "Often used in contexts of emergency preparedness, expeditions, or large-scale food supply issues.\n\nCOMMON COLLOCATIONS:\n・{食糧|しょくりょう}⟦{不足|ぶそく}→不足：03598_fusoku⟧ (food shortage)\n・{食糧|しょくりょう}⟦{危機|きき}→危機：11798_kiki⟧ (food crisis)\n・{食糧|しょくりょう}⟦{援助|えんじょ}→援助：01892_enjo⟧ (food aid)\n・{食糧|しょくりょう}⟦を→を：00422_wo⟧⟦{備蓄|びちく}→備蓄：07589_bichiku⟧⟦する→する：00392_suru⟧ (to stockpile food)\n・{食糧|しょくりょう}⟦{自給率|じきゅうりつ}→自給率：17046_jikyuuritsu⟧ (food self-sufficiency rate)\n\nHOMOPHONE:\n・⟦{食料|しょくりょう}→食料：03250_shokuryou⟧ - same meaning, different kanji. {食糧|しょくりょう} is often used for staple foods like grains, while ⟦{食料|しょくりょう}→食料：03250_shokuryou⟧ is more general.\n\nRELATED TERMS:\n・⟦{非常食|ひじょうしょく}→非常食：18765_hijoushoku⟧ (emergency food rations)\n・⟦{保存食|ほぞんしょく}→保存食：14976_hozonshoku⟧ (preserved/stored food)",
-  "cross_references": [],
+  "notes": "Often used in contexts of emergency preparedness, expeditions, or large-scale food supply issues.\n\nCOMMON COLLOCATIONS:\n- {食糧|しょくりょう}⟦{不足|ぶそく}→不足：03598_fusoku⟧ (food shortage)\n- {食糧|しょくりょう}⟦{危機|きき}→危機：11798_kiki⟧ (food crisis)\n- {食糧|しょくりょう}⟦{援助|えんじょ}→援助：01892_enjo⟧ (food aid)\n- {食糧|しょくりょう}⟦を→を：00422_wo⟧⟦{備蓄|びちく}→備蓄：07589_bichiku⟧⟦する→する：00392_suru⟧ (to stockpile food)\n- {食糧|しょくりょう}⟦{自給率|じきゅうりつ}→自給率：17046_jikyuuritsu⟧ (food self-sufficiency rate)\n\nWATCH OUT:\n- ⟦{食料|しょくりょう}→食料：03250_shokuryou⟧ - same meaning, different kanji. {食糧|しょくりょう} is often used for staple foods like grains, while ⟦{食料|しょくりょう}→食料：03250_shokuryou⟧ is more general.\n\nRELATED WORDS:\n- ⟦{非常食|ひじょうしょく}→非常食：18765_hijoushoku⟧ (emergency food rations)\n- ⟦{保存食|ほぞんしょく}→保存食：14976_hozonshoku⟧ (preserved/stored food)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "18765_hijoushoku",
+      "reading": "ひじょうしょく",
+      "headword": "{非常食|ひじょうしょく}",
+      "label": "emergency food rations"
+    },
+    {
+      "type": "related",
+      "target_id": "14976_hozonshoku",
+      "reading": "ほぞんしょく",
+      "headword": "{保存食|ほぞんしょく}",
+      "label": "preserved/stored food"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03761_shokumotsu",
+      "reading": "しょくもつ",
+      "headword": "{食物|しょくもつ}",
+      "label": "food, foodstuff"
+    }
+  ],
   "metadata": {
     "created": "2026-01-12T12:48:00Z",
-    "modified": "2026-05-27T15:43:00Z",
+    "modified": "2026-09-02T04:01:03Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

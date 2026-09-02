@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "16977_joyanokane_ex1",
-      "japanese": "{除夜|じょや}の{鐘|かね}を{聞|き}いた。",
+      "japanese": "{除夜|じょや}の{鐘|かね}⟦を→を：00422_wo⟧⟦{聞|き}いた→聞く：00483_kiku⟧。",
       "english": "I heard the New Year's Eve bell.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16977_joyanokane_ex2",
-      "japanese": "{除夜|じょや}の{鐘|かね}は{百八|ひゃくはち}{回|かい}{撞|つ}かれる。",
+      "japanese": "{除夜|じょや}の{鐘|かね}⟦は→は：00079_ha⟧{百八|ひゃくはち}⟦{回|かい}→回：00957_kai⟧{撞|つ}かれる。",
       "english": "The New Year's Eve bell is struck 108 times.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16977_joyanokane_ex3",
-      "japanese": "{大晦日|おおみそか}の{夜|よる}、{近所|きんじょ}の{寺|てら}で{除夜|じょや}の{鐘|かね}を{撞|つ}かせてもらった。",
+      "japanese": "⟦{大晦日|おおみそか}→大晦日：05810_oomisoka⟧⟦の→の：09472_no⟧⟦{夜|よる}→夜：00487_yoru⟧、⟦{近所|きんじょ}→近所：01318_kinjo⟧⟦の→の：09472_no⟧⟦{寺|てら}→寺：01676_tera⟧⟦で→で：00502_de⟧{除夜|じょや}の{鐘|かね}⟦を→を：00422_wo⟧{撞|つ}かせて⟦もらった→もらう：00520_morau⟧。",
       "english": "On New Year's Eve, I was allowed to ring the bell at the nearby temple.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nA central tradition of Japanese New Year. The bell is rung at Buddhist temples ({寺|てら}) across Japan, with the ringing beginning before midnight and ending just after. The 108 rings correspond to the {百八|ひゃくはち}つの{煩悩|ぼんのう} (108 earthly desires) in Buddhism. Many temples allow visitors to ring the bell themselves, which is a popular activity.\n\nCOMMON COLLOCATIONS:\n- {除夜|じょや}の{鐘|かね}を{撞|つ}く (to ring the New Year's Eve bell)\n- {除夜|じょや}の{鐘|かね}を{聞|き}く (to listen to the New Year's Eve bell)\n- {除夜|じょや}の{鐘|かね}が{鳴|な}る (the New Year's Eve bell tolls)\n\nCULTURAL NOTE:\nThe tradition is broadcast live on NHK's {紅白歌合戦|こうはくうたがっせん} (Red and White Song Contest) every year, making it one of the most recognized sounds of Japanese New Year.",
+  "notes": "USAGE:\nA central tradition of Japanese New Year. The bell is rung at Buddhist temples (⟦{寺|てら}→寺：01676_tera⟧) across Japan, with the ringing beginning before midnight and ending just after. The 108 rings correspond to the {百八|ひゃくはち}つ⟦の→の：09472_no⟧⟦{煩悩|ぼんのう}→煩悩：14880_bonnou⟧ (108 earthly desires) in Buddhism. Many temples allow visitors to ring the bell themselves, which is a popular activity.\n\nCOMMON COLLOCATIONS:\n- {除夜|じょや}の{鐘|かね}⟦を→を：00422_wo⟧{撞|つ}く (to ring the New Year's Eve bell)\n- {除夜|じょや}の{鐘|かね}⟦を→を：00422_wo⟧⟦{聞|き}く→聞く：00483_kiku⟧ (to listen to the New Year's Eve bell)\n- {除夜|じょや}の{鐘|かね}⟦が→が：00051_ga⟧⟦{鳴|な}る→鳴る：01143_naru⟧ (the New Year's Eve bell tolls)\n\nCULTURAL NOTE:\nThe tradition is broadcast live on NHK's ⟦{紅白歌合戦|こうはくうたがっせん}→紅白歌合戦：29111_kouhakuutagassen⟧ (Red and White Song Contest) every year, making it one of the most recognized sounds of Japanese New Year.",
   "cross_references": [
     {
       "type": "related",
@@ -46,18 +52,30 @@
       "reading": "おおみそか",
       "headword": "{大晦日|おおみそか}",
       "label": "New Year's Eve"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28012_bonshou",
+      "reading": "ぼんしょう",
+      "headword": "梵鐘",
+      "label": "temple bell"
     }
   ],
   "metadata": {
     "created": "2026-03-15T04:38:39Z",
-    "modified": "2026-05-05T06:07:12Z",
+    "modified": "2026-09-02T04:01:46Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["culture", "religion"]
+      "semantic": [
+        "culture",
+        "religion"
+      ]
     }
   }
 }

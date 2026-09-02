@@ -3,7 +3,7 @@
   "headword": "{文書化|ぶんしょか}",
   "reading": "ぶんしょか",
   "romaji": "bunshoka",
-  "part_of_speech": "noun / verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "documentation; putting into writing",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "23170_bunshoka_ex1",
-      "japanese": "{手順|てじゅん}を{文書化|ぶんしょか}する。",
+      "japanese": "⟦{手順|てじゅん}→手順：05452_tejun⟧⟦を→を：00422_wo⟧{文書化|ぶんしょか}⟦する→する：00392_suru⟧。",
       "english": "To document the procedure.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "23170_bunshoka_ex2",
-      "japanese": "{会議|かいぎ}の{内容|ないよう}を{文書化|ぶんしょか}しておいてください。",
+      "japanese": "⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦の→の：09472_no⟧⟦{内容|ないよう}→内容：01482_naiyou⟧⟦を→を：00422_wo⟧{文書化|ぶんしょか}⟦して→する：00392_suru⟧おいて⟦ください→ください：02899_kudasai⟧。",
       "english": "Please put the contents of the meeting into writing.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "23170_bunshoka_ex3",
-      "japanese": "{社内|しゃない}ルールの{文書化|ぶんしょか}が{進|すす}んでいない。",
+      "japanese": "⟦{社内|しゃない}→社内：13731_shanai⟧⟦ルール→ルール：00354_ruuru⟧⟦の→の：09472_no⟧{文書化|ぶんしょか}⟦が→が：00051_ga⟧⟦{進|すす}んでいない→進む：01225_susumu⟧。",
       "english": "The documentation of company rules is not progressing.",
       "sense_numbers": [
         1
@@ -45,7 +45,7 @@
     },
     {
       "id": "23170_bunshoka_ex4",
-      "japanese": "{契約|けいやく}{条件|じょうけん}はすべて{文書化|ぶんしょか}されている。",
+      "japanese": "⟦{契約|けいやく}→契約：02698_keiyaku⟧⟦{条件|じょうけん}→条件：03285_jouken⟧⟦は→は：00079_ha⟧すべて{文書化|ぶんしょか}⟦されている→する：00392_suru⟧。",
       "english": "All the contract terms have been documented.",
       "sense_numbers": [
         1
@@ -54,8 +54,24 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {文書|ぶんしょ} (document, written text) and {化|か} (suffix meaning \"-ization\"). Refers to the process of converting spoken agreements, informal practices, or tacit knowledge into formal written documents. Common in business and organizational contexts.\n\nCOMMON COLLOCATIONS:\n- {手順|てじゅん}を{文書化|ぶんしょか}する: to document a procedure\n- {文書化|ぶんしょか}された{記録|きろく}: documented records\n- {文書化|ぶんしょか}が{不十分|ふじゅうぶん}: insufficient documentation\n- {業務|ぎょうむ}の{文書化|ぶんしょか}: documentation of tasks\n\nSIMILAR WORDS:\n- {記録|きろく}: record, documentation — broader term for recording any kind of information\n- {書面化|しょめんか}: putting into written form — more formal, emphasizing the physical written document\n- マニュアル{化|か}: creating a manual — focuses on making instructional documents",
+  "notes": "Composed of ⟦{文書|ぶんしょ}→文書：12947_bunsho⟧ (document, written text) and ⟦{化|か}→〜化：28335_ka⟧ (suffix meaning \"-ization\"). Refers to the process of converting spoken agreements, informal practices, or tacit knowledge into formal written documents. Common in business and organizational contexts.\n\nCOMMON COLLOCATIONS:\n- ⟦{手順|てじゅん}→手順：05452_tejun⟧⟦を→を：00422_wo⟧{文書化|ぶんしょか}⟦する→する：00392_suru⟧: to document a procedure\n- {文書化|ぶんしょか}⟦された→する：00392_suru⟧⟦{記録|きろく}→記録：02490_kiroku⟧: documented records\n- {文書化|ぶんしょか}⟦が→が：00051_ga⟧⟦{不十分|ふじゅうぶん}→不十分：05616_fujuubun⟧: insufficient documentation\n- ⟦{業務|ぎょうむ}→業務：09630_gyoumu⟧⟦の→の：09472_no⟧{文書化|ぶんしょか}: documentation of tasks\n\nSIMILAR WORDS:\n- ⟦{記録|きろく}→記録：02490_kiroku⟧: record, documentation — broader term for recording any kind of information\n- {書面化|しょめんか}: putting into written form — more formal, emphasizing the physical written document\n- ⟦マニュアル→マニュアル：26993_manyuaru⟧⟦{化|か}→〜化：28335_ka⟧: creating a manual — focuses on making instructional documents",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02490_kiroku",
+      "reading": "きろく",
+      "headword": "{記録|きろく}",
+      "label": "record, documentation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27140_bunshouka",
+      "reading": "ぶんしょうか",
+      "headword": "{文章化|ぶんしょうか}",
+      "label": "putting into writing"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -68,10 +84,11 @@
       ],
       "formality": "formal",
       "politeness": "plain",
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-04-08T21:18:27Z",
-    "modified": "2026-04-08T21:18:27Z"
+    "modified": "2026-09-02T04:02:11Z"
   },
   "conjugation": {
     "type": "suru",

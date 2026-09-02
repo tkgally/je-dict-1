@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26744_doukishori_ex1",
-      "japanese": "{同期処理|どうきしょり}では{応答|おうとう}を{待|ま}つ{必要|ひつよう}がある。",
+      "japanese": "{同期処理|どうきしょり}⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{応答|おうとう}→応答：12685_outou⟧⟦を→を：00422_wo⟧⟦{待|ま}つ→待つ：00469_matsu⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "In synchronous processing, you need to wait for the response.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26744_doukishori_ex2",
-      "japanese": "{同期処理|どうきしょり}は{単純|たんじゅん}だが、{待|ま}ち{時間|じかん}が{長|なが}くなることがある。",
+      "japanese": "{同期処理|どうきしょり}⟦は→は：00079_ha⟧⟦{単純|たんじゅん}→単純：03414_tanjun⟧だ⟦が→が：00051_ga⟧、⟦{待|ま}ち{時間|じかん}→待ち時間：09621_machijikan⟧⟦が→が：00051_ga⟧⟦{長|なが}く→長い：00491_nagai⟧⟦なる→なる：01970_naru⟧こと⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "Synchronous processing is simple, but wait times can become long.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26744_doukishori_ex3",
-      "japanese": "{大量|たいりょう}のデータを{扱|あつか}う{場合|ばあい}、{同期処理|どうきしょり}よりも{非同期処理|ひどうきしょり}のほうが{効率|こうりつ}がいい。",
+      "japanese": "⟦{大量|たいりょう}→大量：03112_tairyou⟧⟦の→の：09472_no⟧⟦データ→データ：03944_deeta⟧⟦を→を：00422_wo⟧⟦{扱|あつか}う→扱う：01862_atsukau⟧⟦{場合|ばあい}→場合：01704_baai⟧、{同期処理|どうきしょり}⟦より→より：09476_yori⟧⟦も→も：00484_mo⟧{非同期処理|ひどうきしょり}⟦の→の：09472_no⟧ほう⟦が→が：00051_ga⟧⟦{効率|こうりつ}→効率：11794_kouritsu⟧⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧。",
       "english": "When handling large amounts of data, asynchronous processing is more efficient than synchronous processing.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "A computing term composed of {同期|どうき} (synchronization) and {処理|しょり} (processing). In synchronous processing, operations happen in order: the program sends a request and blocks until it gets a response. This contrasts with asynchronous processing, where the program continues executing while waiting.\n\nCOMMON COLLOCATIONS:\n- {同期処理|どうきしょり}を{行|おこな}う: to perform synchronous processing\n- {同期処理|どうきしょり}と{非同期処理|ひどうきしょり}: synchronous and asynchronous processing\n- {同期処理|どうきしょり}の{問題点|もんだいてん}: issues with synchronous processing\n\nSIMILAR WORDS:\n- {非同期処理|ひどうきしょり}: asynchronous processing — the opposite approach, allowing concurrent execution\n- {逐次処理|ちくじしょり}: sequential processing — a similar concept emphasizing step-by-step execution\n- {並列処理|へいれつしょり}: parallel processing — multiple tasks running simultaneously on different processors",
+  "notes": "A computing term composed of ⟦{同期|どうき}→同期：12029_douki⟧ (synchronization) and ⟦{処理|しょり}→処理：03251_shori⟧ (processing). In synchronous processing, operations happen in order: the program sends a request and blocks until it gets a response. This contrasts with asynchronous processing, where the program continues executing while waiting.\n\nCOMMON COLLOCATIONS:\n- {同期処理|どうきしょり}⟦を→を：00422_wo⟧⟦{行|おこな}う→行う：01238_okonau⟧: to perform synchronous processing\n- {同期処理|どうきしょり}⟦と→と：00512_to⟧{非同期処理|ひどうきしょり}: synchronous and asynchronous processing\n- {同期処理|どうきしょり}⟦の→の：09472_no⟧⟦{問題点|もんだいてん}→問題点：20619_mondaiten⟧: issues with synchronous processing\n\nSIMILAR WORDS:\n- {非同期処理|ひどうきしょり}: asynchronous processing — the opposite approach, allowing concurrent execution\n- {逐次処理|ちくじしょり}: sequential processing — a similar concept emphasizing step-by-step execution\n- {並列処理|へいれつしょり}: parallel processing — multiple tasks running simultaneously on different processors",
   "cross_references": [],
   "schema_version": "2.0",
   "metadata": {
@@ -63,6 +63,6 @@
       ]
     },
     "created": "2026-05-04T15:33:12Z",
-    "modified": "2026-08-06T12:46:55Z"
+    "modified": "2026-09-02T04:02:27Z"
   }
 }

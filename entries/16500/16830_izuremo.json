@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "16830_izuremo_ex1",
-      "japanese": "いずれも{優秀|ゆうしゅう}な{作品|さくひん}だ。",
+      "japanese": "いずれも⟦{優秀|ゆうしゅう}→優秀：03646_yuushuu⟧な⟦{作品|さくひん}→作品：02776_sakuhin⟧だ。",
       "english": "They are all excellent works.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16830_izuremo_ex2",
-      "japanese": "{候補者|こうほしゃ}はいずれも{経験|けいけん}{豊富|ほうふ}だった。",
+      "japanese": "⟦{候補者|こうほしゃ}→候補者：20439_kouhosha⟧⟦は→は：00079_ha⟧いずれも⟦{経験|けいけん}{豊富|ほうふ}→経験豊富：19017_keikenhoufu⟧だった。",
       "english": "The candidates were all highly experienced.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16830_izuremo_ex3",
-      "japanese": "{三|みっ}つの{案|あん}を{検討|けんとう}したが、いずれも{一長一短|いっちょういったん}があった。",
+      "japanese": "⟦{三|みっ}つ→三つ：02970_mittsu⟧⟦の→の：09472_no⟧⟦{案|あん}→案：01776_an⟧⟦を→を：00422_wo⟧⟦{検討|けんとう}した→検討する：17455_kentousuru⟧⟦が→が：00051_ga⟧、いずれも⟦{一長一短|いっちょういったん}→一長一短：04774_icchouittan⟧⟦が→が：00051_ga⟧⟦あった→ある：00006_aru⟧。",
       "english": "We examined three proposals, but each had its pros and cons.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "いずれも means \"all of them\" or \"in every case,\" referring to each item in a group without exception. A somewhat formal word common in written Japanese, news, and formal speech.\n\nCOMMON PATTERNS:\n- いずれも〜だ: all of them are ~\n- いずれも〜ない: none of them ~\n- いずれも{同|おな}じ: all the same\n\nREGISTER:\nMore formal than the everyday equivalents. Preferred in news, academic writing, and business contexts.\n\nSIMILAR WORDS:\n- どれも: all of them (casual, 3+ items)\n- どちらも: both of them (casual, 2 items)\n- いずれも: all/both (formal, works for 2 or more)\n- すべて: everything, all (neutral register)\n\nRELATED:\n- いずれ: eventually, someday; which one (formal)\n- いずれにしても: in any case, either way",
+  "notes": "いずれも means \"all of them\" or \"in every case,\" referring to each item in a group without exception. A somewhat formal word common in written Japanese, news, and formal speech.\n\nCOMMON PATTERNS:\n- いずれも〜だ: all of them are ~\n- いずれも〜⟦ない→ない：01118_nai⟧: none of them ~\n- いずれも⟦{同|おな}じ→同じ：02857_onaji⟧: all the same\n\nREGISTER:\nMore formal than the everyday equivalents. Preferred in news, academic writing, and business contexts.\n\nSIMILAR WORDS:\n- ⟦どれも→どれも：22934_doremo⟧: all of them (casual, 3+ items)\n- ⟦どちらも→どちらも：08721_dochiramo⟧: both of them (casual, 2 items)\n- いずれも: all/both (formal, works for 2 or more)\n- すべて: everything, all (neutral register)\n\nRELATED WORDS:\n- ⟦いずれ→いずれ：01789_izure⟧: eventually, someday; which one (formal)\n- ⟦いずれにしても→いずれにしても：30653_izurenishitemo⟧: in any case, either way",
   "prominent_see_also": [
     {
       "target_id": "01789_izure",
@@ -47,18 +53,39 @@
       "note": "base form"
     }
   ],
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03822_subete",
+      "reading": "すべて",
+      "headword": "{全|すべ}て",
+      "label": "everything, all"
+    },
+    {
+      "type": "related",
+      "target_id": "30653_izurenishitemo",
+      "reading": "いずれにしても",
+      "headword": "いずれにしても",
+      "label": "in any case, either way"
+    }
+  ],
   "metadata": {
     "created": "2026-03-14T13:00:48Z",
-    "modified": "2026-05-05T05:04:25Z",
+    "modified": "2026-09-02T04:01:46Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adverb"],
+      "pos": [
+        "adverb"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "style": ["written"],
-      "semantic": ["quantity"]
+      "style": [
+        "written"
+      ],
+      "semantic": [
+        "quantity"
+      ]
     }
   }
 }

@@ -2,7 +2,7 @@
   "id": "07700_hairyo",
   "headword": "{配慮|はいりょ}",
   "reading": "はいりょ",
-  "part_of_speech": "noun, suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "consideration; thoughtfulness; care",
   "conjugation": {
     "type": "suru",
@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "07700_hairyo_ex1",
-      "japanese": "{周|まわ}りへの{配慮|はいりょ}が{大切|たいせつ}だ。",
+      "japanese": "⟦{周|まわ}り→周り：01732_mawari⟧⟦へ→へ：02473_he⟧⟦の→の：09472_no⟧{配慮|はいりょ}⟦が→が：00051_ga⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧だ。",
       "english": "Consideration for others is important.",
       "has_audio": false,
       "sense_numbers": [
@@ -113,7 +113,7 @@
     },
     {
       "id": "07700_hairyo_ex2",
-      "japanese": "ご{配慮|はいりょ}いただきありがとうございます。",
+      "japanese": "ご{配慮|はいりょ}⟦いただき→いただく：01326_itadaku⟧⟦ありがとうございます→ありがとうございます：09886_arigatougozaimasu⟧。",
       "english": "Thank you for your kind consideration.",
       "has_audio": false,
       "sense_numbers": [
@@ -122,7 +122,7 @@
     },
     {
       "id": "07700_hairyo_ex3",
-      "japanese": "{環境|かんきょう}に{配慮|はいりょ}した{製品|せいひん}を{作|つく}る。",
+      "japanese": "⟦{環境|かんきょう}→環境：00174_kankyou⟧⟦に→に：00314_ni⟧{配慮|はいりょ}⟦した→する：00392_suru⟧⟦{製品|せいひん}→製品：01445_seihin⟧⟦を→を：00422_wo⟧⟦{作|つく}る→作る：00481_tsukuru⟧。",
       "english": "We make environmentally conscious products.",
       "has_audio": false,
       "sense_numbers": [
@@ -130,10 +130,40 @@
       ]
     }
   ],
-  "notes": "ETYMOLOGY:\n{配|はい} (distribute, arrange) + {慮|りょ} (consideration, thought)\n\nUSAGE PATTERNS:\n・〜に{配慮|はいりょ}する - to be considerate of ~\n・〜への{配慮|はいりょ} - consideration for ~\n・ご{配慮|はいりょ} - (your) consideration (honorific)\n\nCOMMON COLLOCATIONS:\n・{環境|かんきょう}への{配慮|はいりょ} - environmental consideration\n・{安全|あんぜん}への{配慮|はいりょ} - safety considerations\n・{配慮|はいりょ}に{欠|か}ける - to lack consideration\n\nRELATED:\n・{思|おも}いやり - compassion, thoughtfulness\n・{気遣|きづか}い - concern, solicitude\n・{心遣|こころづか}い - thoughtfulness",
+  "notes": "ETYMOLOGY:\n{配|はい} (distribute, arrange) + {慮|りょ} (consideration, thought)\n\nCOMMON PATTERNS:\n- 〜⟦に→に：00314_ni⟧{配慮|はいりょ}⟦する→する：00392_suru⟧ - to be considerate of ~\n- 〜⟦へ→へ：02473_he⟧⟦の→の：09472_no⟧{配慮|はいりょ} - consideration for ~\n- ご{配慮|はいりょ} - (your) consideration (honorific)\n\nCOMMON COLLOCATIONS:\n- ⟦{環境|かんきょう}→環境：00174_kankyou⟧⟦へ→へ：02473_he⟧⟦の→の：09472_no⟧{配慮|はいりょ} - environmental consideration\n- ⟦{安全|あんぜん}→安全：01131_anzen⟧⟦へ→へ：02473_he⟧⟦の→の：09472_no⟧{配慮|はいりょ} - safety considerations\n- {配慮|はいりょ}⟦に→に：00314_ni⟧⟦{欠|か}ける→欠ける：13167_kakeru⟧ - to lack consideration\n\nRELATED WORDS:\n- ⟦{思|おも}いやり→思いやり：06651_omoiyari⟧ - compassion, thoughtfulness\n- ⟦{気遣|きづか}い→気遣い：07295_kizukai⟧ - concern, solicitude\n- ⟦{心遣|こころづか}い→心遣い：07296_kokorozukai⟧ - thoughtfulness",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "06651_omoiyari",
+      "reading": "おもいやり",
+      "headword": "{思|おも}いやり",
+      "label": "compassion, thoughtfulness"
+    },
+    {
+      "type": "related",
+      "target_id": "07295_kizukai",
+      "reading": "きづかい",
+      "headword": "{気遣|きづか}い",
+      "label": "concern, solicitude"
+    },
+    {
+      "type": "related",
+      "target_id": "07296_kokorozukai",
+      "reading": "こころづかい",
+      "headword": "{心遣|こころづか}い",
+      "label": "thoughtfulness"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25316_shiryo",
+      "reading": "しりょ",
+      "headword": "{思慮|しりょ}",
+      "label": "prudence"
+    }
+  ],
   "metadata": {
     "created": "2026-01-20T23:30:51Z",
-    "modified": "2026-06-19T21:43:28Z",
+    "modified": "2026-09-02T04:01:12Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

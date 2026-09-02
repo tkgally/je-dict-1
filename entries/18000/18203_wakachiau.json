@@ -3,7 +3,7 @@
   "id": "18203_wakachiau",
   "headword": "{分|わ}かち{合|あ}う",
   "reading": "わかちあう",
-  "part_of_speech": "verb-godan",
+  "part_of_speech": "verb (godan)",
   "gloss": "to share; to share with one another",
   "conjugation": {
     "type": "godan",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "18203_wakachiau_ex1",
-      "japanese": "{喜|よろこ}びを{分|わ}かち{合|あ}った。",
+      "japanese": "⟦{喜|よろこ}び→喜び：03672_yorokobi⟧⟦を→を：00422_wo⟧{分|わ}かち{合|あ}った。",
       "english": "We shared the joy together.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "18203_wakachiau_ex2",
-      "japanese": "{悲|かな}しみを{分|わ}かち{合|あ}える{友人|ゆうじん}がいることは{幸|しあわ}せだ。",
+      "japanese": "⟦{悲|かな}しみ→悲しみ：05404_kanashimi⟧⟦を→を：00422_wo⟧{分|わ}かち{合|あ}える⟦{友人|ゆうじん}→友人：03649_yuujin⟧⟦が→が：00051_ga⟧⟦いる→いる：00495_iru⟧こと⟦は→は：00079_ha⟧{幸|しあわ}せだ。",
       "english": "It's a blessing to have friends who can share your sorrows.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "18203_wakachiau_ex3",
-      "japanese": "チーム{全員|ぜんいん}で{優勝|ゆうしょう}の{感動|かんどう}を{分|わ}かち{合|あ}うことができて{本当|ほんとう}にうれしかった。",
+      "japanese": "⟦チーム→チーム：03858_chiimu⟧⟦{全員|ぜんいん}→全員：03310_zenin⟧⟦で→で：00502_de⟧⟦{優勝|ゆうしょう}→優勝：03647_yuushou⟧⟦の→の：09472_no⟧⟦{感動|かんどう}→感動：00167_kandou⟧⟦を→を：00422_wo⟧{分|わ}かち{合|あ}うこと⟦が→が：00051_ga⟧⟦できて→できる：00557_dekiru⟧⟦{本当|ほんとう}→本当：00779_hontou⟧⟦に→に：00314_ni⟧うれしかった。",
       "english": "I was truly happy that the whole team could share the excitement of winning the championship.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,26 @@
       ]
     }
   ],
-  "notes": "USAGE:\nGodan verb ({五段動詞|ごだんどうし}) — conjugates as {分|わ}かち{合|あ}わない (negative), {分|わ}かち{合|あ}って (te-form). Primarily used with abstract nouns like feelings and experiences. While it can describe sharing physical things, it typically carries emotional weight.\n\nCOMMON COLLOCATIONS:\n- {喜|よろこ}びを{分|わ}かち{合|あ}う (to share joy)\n- {悲|かな}しみを{分|わ}かち{合|あ}う (to share sorrow)\n- {感動|かんどう}を{分|わ}かち{合|あ}う (to share emotions)\n- {痛|いた}みを{分|わ}かち{合|あ}う (to share pain)\n\nSIMILAR WORDS:\n- {分|わ}ける: to divide, to share — neutral, practical; used for both physical and abstract things\n- {共有|きょうゆう}する: to share — more formal; used for information, resources, and spaces",
-  "cross_references": [],
+  "notes": "USAGE:\nGodan verb ({五段動詞|ごだんどうし}) — conjugates as {分|わ}かち{合|あ}わない (negative), {分|わ}かち{合|あ}って (te-form). Primarily used with abstract nouns like feelings and experiences. While it can describe sharing physical things, it typically carries emotional weight.\n\nCOMMON COLLOCATIONS:\n- ⟦{喜|よろこ}び→喜び：03672_yorokobi⟧⟦を→を：00422_wo⟧{分|わ}かち{合|あ}う (to share joy)\n- ⟦{悲|かな}しみ→悲しみ：05404_kanashimi⟧⟦を→を：00422_wo⟧{分|わ}かち{合|あ}う (to share sorrow)\n- ⟦{感動|かんどう}→感動：00167_kandou⟧⟦を→を：00422_wo⟧{分|わ}かち{合|あ}う (to share emotions)\n- ⟦{痛|いた}み→痛み：01795_itami⟧⟦を→を：00422_wo⟧{分|わ}かち{合|あ}う (to share pain)\n\nSIMILAR WORDS:\n- ⟦{分|わ}ける→分ける：02333_wakeru⟧: to divide, to share — neutral, practical; used for both physical and abstract things\n- ⟦{共有|きょうゆう}する→共有する：19639_kyouyuusuru⟧: to share — more formal; used for information, resources, and spaces",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02333_wakeru",
+      "reading": "わける",
+      "headword": "{分|わ}ける",
+      "label": "to divide, to share"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19639_kyouyuusuru",
+      "reading": "きょうゆうする",
+      "headword": "{共有|きょうゆう}する",
+      "label": "to share"
+    }
+  ],
   "metadata": {
     "created": "2026-03-20T12:15:57Z",
-    "modified": "2026-03-29T03:08:58Z",
+    "modified": "2026-09-02T04:01:51Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "12756_teguchi_ex1",
-      "japanese": "{犯人|はんにん}の{手口|てぐち}が{巧妙|こうみょう}だ。",
+      "japanese": "⟦{犯人|はんにん}→犯人：03572_hannin⟧⟦の→の：09472_no⟧{手口|てぐち}⟦が→が：00051_ga⟧⟦{巧妙|こうみょう}→巧妙：07933_koumyou⟧だ。",
       "english": "The criminal's method is sophisticated.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12756_teguchi_ex2",
-      "japanese": "{詐欺|さぎ}の{手口|てぐち}はどんどん{新|あたら}しくなっている。",
+      "japanese": "⟦{詐欺|さぎ}→詐欺：09789_sagi⟧⟦の→の：09472_no⟧{手口|てぐち}⟦は→は：00079_ha⟧⟦どんどん→どんどん：01261_dondon⟧⟦{新|あたら}しく→新しい：00506_atarashii⟧⟦なっている→なる：01970_naru⟧。",
       "english": "Fraud methods are constantly evolving.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12756_teguchi_ex3",
-      "japanese": "{前回|ぜんかい}の{事件|じけん}と{同|おな}じ{手口|てぐち}で{犯行|はんこう}が{行|おこな}われた。",
+      "japanese": "⟦{前回|ぜんかい}→前回：11817_zenkai⟧⟦の→の：09472_no⟧⟦{事件|じけん}→事件：01568_jiken⟧⟦と→と：00512_to⟧⟦{同|おな}じ→同じ：02857_onaji⟧{手口|てぐち}⟦で→で：00502_de⟧⟦{犯行|はんこう}→犯行：13472_hankou⟧⟦が→が：00051_ga⟧⟦{行|おこな}われた→行う：01238_okonau⟧。",
       "english": "The crime was committed using the same method as the previous incident.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{手口|てぐち} refers to a method or technique, almost exclusively in negative contexts — criminal methods, scams, or tricks. It is not used for neutral or positive methods.\n\nCOMMON COLLOCATIONS:\n- {犯行|はんこう}の{手口|てぐち}: method of the crime\n- {詐欺|さぎ}の{手口|てぐち}: fraud technique\n- {巧妙|こうみょう}な{手口|てぐち}: sophisticated method\n- {手口|てぐち}が{同|おな}じ: same modus operandi\n- {新|あたら}しい{手口|てぐち}: new trick/method\n\nCONTRAST WITH SIMILAR WORDS:\n- {手法|しゅほう}: technique, method (neutral; used for art, research, etc.)\n- {手段|しゅだん}: means, measure (neutral; broader term)\n- {手口|てぐち}: trick, method (negative; crime or deception)",
+  "notes": "{手口|てぐち} refers to a method or technique, almost exclusively in negative contexts — criminal methods, scams, or tricks. It is not used for neutral or positive methods.\n\nCOMMON COLLOCATIONS:\n- ⟦{犯行|はんこう}→犯行：13472_hankou⟧⟦の→の：09472_no⟧{手口|てぐち}: method of the crime\n- ⟦{詐欺|さぎ}→詐欺：09789_sagi⟧⟦の→の：09472_no⟧{手口|てぐち}: fraud technique\n- ⟦{巧妙|こうみょう}→巧妙：07933_koumyou⟧な{手口|てぐち}: sophisticated method\n- {手口|てぐち}⟦が→が：00051_ga⟧⟦{同|おな}じ→同じ：02857_onaji⟧: same modus operandi\n- ⟦{新|あたら}しい→新しい：00506_atarashii⟧{手口|てぐち}: new trick/method\n\nCONTRAST WITH SIMILAR WORDS:\n- ⟦{手法|しゅほう}→手法：12762_shuhou⟧: technique, method (neutral; used for art, research, etc.)\n- ⟦{手段|しゅだん}→手段：03219_shudan⟧: means, measure (neutral; broader term)\n- {手口|てぐち}: trick, method (negative; crime or deception)",
   "cross_references": [
     {
       "type": "contrast",
@@ -53,18 +59,29 @@
       "reading": "しゅだん",
       "headword": "{手段|しゅだん}",
       "label": "means, measure (neutral)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22019_jussaku",
+      "reading": "じゅっさく",
+      "headword": "{術策|じゅっさく}",
+      "label": "stratagem"
     }
   ],
   "metadata": {
     "created": "2026-02-22T10:02:31Z",
-    "modified": "2026-08-22T00:30:21Z",
+    "modified": "2026-09-02T04:01:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action"]
+      "semantic": [
+        "action"
+      ]
     }
   }
 }

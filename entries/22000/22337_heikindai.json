@@ -15,40 +15,66 @@
   "examples": [
     {
       "id": "22337_heikindai_ex1",
-      "japanese": "{平均台|へいきんだい}の{上|うえ}を{歩|ある}く。",
+      "japanese": "{平均台|へいきんだい}⟦の→の：09472_no⟧⟦{上|うえ}→上：00682_ue⟧⟦を→を：00422_wo⟧⟦{歩|ある}く→歩く：00538_aruku⟧。",
       "english": "To walk on the balance beam.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "22337_heikindai_ex2",
-      "japanese": "{平均台|へいきんだい}から{落|お}ちてしまった。",
+      "japanese": "{平均台|へいきんだい}⟦から→から：00504_kara⟧⟦{落|お}ちて→落ちる：01242_ochiru⟧しまった。",
       "english": "I fell off the balance beam.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "22337_heikindai_ex3",
-      "japanese": "オリンピックの{体操|たいそう}{競技|きょうぎ}で、{彼女|かのじょ}は{平均台|へいきんだい}で{金|きん}メダルを{獲得|かくとく}した。",
+      "japanese": "⟦オリンピック→オリンピック：09899_orinpikku⟧⟦の→の：09472_no⟧⟦{体操|たいそう}{競技|きょうぎ}→体操競技：26394_taisoukyougi⟧⟦で→で：00502_de⟧、⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧{平均台|へいきんだい}⟦で→で：00502_de⟧⟦{金|きん}メダル→金メダル：20781_kinmedaru⟧⟦を→を：00422_wo⟧⟦{獲得|かくとく}→獲得：05624_kakutoku⟧⟦した→する：00392_suru⟧。",
       "english": "She won the gold medal on the balance beam at the Olympic gymnastics competition.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {平均|へいきん} (balance/average) + {台|だい} (platform/stand). In competitive gymnastics, the balance beam is one of the four apparatus events for women. The beam is 10 cm wide and 125 cm off the ground.\n\nCOMMON COLLOCATIONS:\n- {平均台|へいきんだい}の{演技|えんぎ}: balance beam routine\n- {平均台|へいきんだい}で{着地|ちゃくち}する: to dismount from the balance beam\n- {平均台|へいきんだい}から{落|お}ちる: to fall off the balance beam\n\nRELATED GYMNASTICS APPARATUS:\n- {跳|と}び{箱|ばこ}: vaulting box\n- {鉄棒|てつぼう}: horizontal bar\n- {床|ゆか}{運動|うんどう}: floor exercise\n- {鞍馬|あんば}: pommel horse\n- {段違|だんちが}い{平行棒|へいこうぼう}: uneven bars",
+  "notes": "Composed of ⟦{平均|へいきん}→平均：03614_heikin⟧ (balance/average) + {台|だい} (platform/stand). In competitive gymnastics, the balance beam is one of the four apparatus events for women. The beam is 10 cm wide and 125 cm off the ground.\n\nCOMMON COLLOCATIONS:\n- {平均台|へいきんだい}⟦の→の：09472_no⟧⟦{演技|えんぎ}→演技：01890_engi⟧: balance beam routine\n- {平均台|へいきんだい}⟦で→で：00502_de⟧⟦{着地|ちゃくち}→着地：15276_chakuchi⟧⟦する→する：00392_suru⟧: to dismount from the balance beam\n- {平均台|へいきんだい}⟦から→から：00504_kara⟧⟦{落|お}ちる→落ちる：01242_ochiru⟧: to fall off the balance beam\n\nRELATED GYMNASTICS APPARATUS:\n- ⟦{跳|と}び{箱|ばこ}→跳び箱：22338_tobibako⟧: vaulting box\n- ⟦{鉄棒|てつぼう}→鉄棒：17912_tetsubou⟧: horizontal bar\n- ⟦{床|ゆか}→床：03652_yuka⟧⟦{運動|うんどう}→運動：00821_undou⟧: floor exercise\n- {鞍馬|あんば}: pommel horse\n- ⟦{段違|だんちが}い→段違い：25270_danchigai⟧{平行棒|へいこうぼう}: uneven bars",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "22338_tobibako",
+      "reading": "とびばこ",
+      "headword": "{跳|と}び{箱|ばこ}",
+      "label": "vaulting box"
+    },
+    {
+      "type": "related",
+      "target_id": "17912_tetsubou",
+      "reading": "てつぼう",
+      "headword": "{鉄棒|てつぼう}",
+      "label": "horizontal bar"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["sports"]
+      "semantic": [
+        "sports"
+      ]
     },
     "created": "2026-04-05T18:33:09Z",
-    "modified": "2026-04-05T18:33:09Z"
+    "modified": "2026-09-02T04:02:07Z"
   }
 }

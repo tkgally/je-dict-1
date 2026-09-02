@@ -64,10 +64,25 @@
     }
   ],
   "notes": "COMPOUND: ⟦{半|はん}→半：noentry⟧ (half) + ⟦{年|とし}→年：00486_toshi⟧ (year)\n\nALTERNATE READING: {半年|はんねん} is also used in some contexts (more formal).\n\nTIME EXPRESSIONS:\n- ⟦{半日|はんにち}→半日：27978_hannichi⟧ (half a day)\n- ⟦{半月|はんつき}→半月：15662_hantsuki⟧ (half a month)\n- {半年|はんとし} (half a year)\n- ⟦{一年半|いちねんはん}→一年半：noentry⟧ (one and a half years)\n\nCOMMON PATTERNS:\n- {半年|はんとし}⟦で→で：00502_de⟧ (in half a year)\n- {半年|はんとし}⟦ぶり→ぶり：noentry⟧⟦に→に：00314_ni⟧ (for the first time in half a year)\n- {半年|はんとし}⟦ごと→ごと：04012_goto⟧⟦に→に：00314_ni⟧ (every half year)\n- {半年|はんとし}⟦{後|ご}→後：noentry⟧ (half a year later)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15662_hantsuki",
+      "reading": "はんつき",
+      "headword": "{半月|はんつき}",
+      "label": "half a month"
+    },
+    {
+      "type": "related",
+      "target_id": "27649_rokkagetsu",
+      "reading": "ろっかげつ",
+      "headword": "{六|ろっ}ヶ{月|げつ}",
+      "label": "six months"
+    }
+  ],
   "metadata": {
     "created": "2026-01-11T12:29:07Z",
-    "modified": "2026-08-12T06:29:54Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

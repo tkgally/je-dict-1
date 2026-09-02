@@ -43,13 +43,26 @@
       ]
     }
   ],
-  "notes": "ガソリンスタンド is wasei-eigo (Japanese-made English) combining 'gasoline' and 'stand.' Native English speakers would say 'gas station' (US) or 'petrol station' (UK).\n\nABBREVIATIONS AND ALTERNATIVES:\n- ⟦スタンド→スタンド：00394_sutando⟧: common abbreviation\n- ⟦{給油所|きゅうゆじょ}→給油所：22471_kyuuyujo⟧: refueling station (formal/written)\n- セルフ or セルフスタンド: self-service station\n- フルサービス: full-service station\n\nCOMMON EXPRESSIONS:\n- ガソリンスタンド⟦に→に：00314_ni⟧⟦{寄|よ}る→寄る：02440_yoru⟧: to stop by the gas station\n- ⟦ガソリン→ガソリン：01346_gasorin⟧⟦を→を：00422_wo⟧⟦{入|い}れる→入れる：01098_ireru⟧: to fill up with gas\n- ⟦{満|まん}タン→満タン：24454_mantan⟧⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧: to fill up the tank\n\nCULTURAL NOTE:\nJapan has both セルフ (self-service) and フルサービス (attendant-service) gas stations. At full-service stations, attendants pump gas, clean windows, and provide other services.",
+  "notes": "ガソリンスタンド is wasei-eigo (Japanese-made English) combining 'gasoline' and 'stand.' Native English speakers would say 'gas station' (US) or 'petrol station' (UK).\n\nABBREVIATIONS AND ALTERNATIVES:\n- ⟦スタンド→スタンド：00394_sutando⟧: common abbreviation\n- ⟦{給油所|きゅうゆじょ}→給油所：22471_kyuuyujo⟧: refueling station (formal/written)\n- ⟦セルフ→セルフ：30411_serufu⟧ or ⟦セルフ→セルフ：30411_serufu⟧⟦スタンド→スタンド：00394_sutando⟧: self-service station\n- フルサービス: full-service station\n\nCOMMON EXPRESSIONS:\n- ガソリンスタンド⟦に→に：00314_ni⟧⟦{寄|よ}る→寄る：02440_yoru⟧: to stop by the gas station\n- ⟦ガソリン→ガソリン：01346_gasorin⟧⟦を→を：00422_wo⟧⟦{入|い}れる→入れる：01098_ireru⟧: to fill up with gas\n- ⟦{満|まん}タン→満タン：24454_mantan⟧⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧: to fill up the tank\n\nCULTURAL NOTE:\nJapan has both ⟦セルフ→セルフ：30411_serufu⟧ (self-service) and フルサービス (attendant-service) gas stations. At full-service stations, attendants pump gas, clean windows, and provide other services.",
   "cross_references": [
-    {"type": "related", "reading": "がそりん", "headword": "ガソリン", "label": "gasoline; petrol", "target_id": "01346_gasorin"}
+    {
+      "type": "related",
+      "reading": "がそりん",
+      "headword": "ガソリン",
+      "label": "gasoline; petrol",
+      "target_id": "01346_gasorin"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22471_kyuuyujo",
+      "reading": "きゅうゆじょ",
+      "headword": "{給油所|きゅうゆじょ}",
+      "label": "gas station"
+    }
   ],
   "metadata": {
     "created": "2026-01-08T03:55:00Z",
-    "modified": "2026-05-14T23:12:20Z",
+    "modified": "2026-09-02T04:00:59Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

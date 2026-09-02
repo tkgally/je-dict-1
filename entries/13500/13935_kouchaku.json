@@ -3,7 +3,7 @@
   "id": "13935_kouchaku",
   "headword": "{膠着|こうちゃく}",
   "reading": "こうちゃく",
-  "part_of_speech": "noun; verb (する)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "stalemate; deadlock",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "13935_kouchaku_ex1",
-      "japanese": "{交渉|こうしょう}が{膠着|こうちゃく}{状態|じょうたい}に{陥|おちい}った。",
+      "japanese": "⟦{交渉|こうしょう}→交渉：02727_koushou⟧⟦が→が：00051_ga⟧{膠着|こうちゃく}⟦{状態|じょうたい}→状態：03345_joutai⟧⟦に→に：00314_ni⟧⟦{陥|おちい}った→陥る：14537_ochiiru⟧。",
       "english": "The negotiations fell into a deadlock.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "13935_kouchaku_ex2",
-      "japanese": "{試合|しあい}は{膠着|こうちゃく}したまま{後半|こうはん}に{入|はい}った。",
+      "japanese": "⟦{試合|しあい}→試合：01601_shiai⟧⟦は→は：00079_ha⟧{膠着|こうちゃく}⟦した→する：00392_suru⟧まま⟦{後半|こうはん}→後半：12555_kouhan⟧⟦に→に：00314_ni⟧⟦{入|はい}った→入る：00494_hairu⟧。",
       "english": "The game entered the second half still in a stalemate.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "13935_kouchaku_ex3",
-      "japanese": "{与野党|よやとう}の{対立|たいりつ}で{国会|こっかい}{審議|しんぎ}が{膠着|こうちゃく}し、{重要|じゅうよう}{法案|ほうあん}の{成立|せいりつ}が{見通|みとお}せない{状況|じょうきょう}だ。",
+      "japanese": "{与野党|よやとう}⟦の→の：09472_no⟧⟦{対立|たいりつ}→対立：04500_tairitsu⟧⟦で→で：00502_de⟧⟦{国会|こっかい}→国会：02761_kokkai⟧⟦{審議|しんぎ}→審議：19112_shingi⟧⟦が→が：00051_ga⟧{膠着|こうちゃく}し、⟦{重要|じゅうよう}→重要：01575_juuyou⟧⟦{法案|ほうあん}→法案：09758_houan⟧⟦の→の：09472_no⟧⟦{成立|せいりつ}→成立：04353_seiritsu⟧⟦が→が：00051_ga⟧⟦{見通|みとお}せない→見通す：18734_mitoosu⟧⟦{状況|じょうきょう}→状況：01576_joukyou⟧だ。",
       "english": "Due to the conflict between the ruling and opposition parties, parliamentary deliberations have deadlocked, and there is no prospect of passing important legislation.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "KANJI NOTE:\n{膠|こう} means \"glue\" (from animal hides), so the word literally evokes the image of things being stuck together and unable to move.\n\nCOMMON COLLOCATIONS:\n- {膠着|こうちゃく}{状態|じょうたい} (state of deadlock/stalemate)\n- {膠着|こうちゃく}に{陥|おちい}る (fall into a stalemate)\n- {膠着|こうちゃく}を{打破|だは}する (break a deadlock)\n- {膠着|こうちゃく}した{戦線|せんせん} (stalled front line)\n\nSIMILAR WORDS:\n- {行|い}き{詰|づ}まり: deadlock, impasse (more everyday)\n- {停滞|ていたい}: stagnation (emphasizes lack of progress; can be one-sided)",
+  "notes": "WRITING:\n{膠|こう} means \"glue\" (from animal hides), so the word literally evokes the image of things being stuck together and unable to move.\n\nCOMMON COLLOCATIONS:\n- {膠着|こうちゃく}⟦{状態|じょうたい}→状態：03345_joutai⟧ (state of deadlock/stalemate)\n- {膠着|こうちゃく}⟦に→に：00314_ni⟧⟦{陥|おちい}る→陥る：14537_ochiiru⟧ (fall into a stalemate)\n- {膠着|こうちゃく}⟦を→を：00422_wo⟧⟦{打破|だは}→打破：12808_daha⟧⟦する→する：00392_suru⟧ (break a deadlock)\n- {膠着|こうちゃく}⟦した→する：00392_suru⟧⟦{戦線|せんせん}→戦線：22999_sensen⟧ (stalled front line)\n\nSIMILAR WORDS:\n- ⟦{行|い}き{詰|づ}まり→行き詰まり：08033_ikizumari⟧: deadlock, impasse (more everyday)\n- ⟦{停滞|ていたい}→停滞：07427_teitai⟧: stagnation (emphasizes lack of progress; can be one-sided)",
   "cross_references": [
     {
       "type": "synonym",
@@ -142,11 +142,25 @@
       "reading": "ていたい",
       "headword": "{停滞|ていたい}",
       "label": "stagnation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08033_ikizumari",
+      "reading": "いきづまり",
+      "headword": "{行|い}き{詰|づ}まり",
+      "label": "deadlock, impasse"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23034_kochaku",
+      "reading": "こちゃく",
+      "headword": "{固着|こちゃく}",
+      "label": "fixation"
     }
   ],
   "metadata": {
     "created": "2026-02-27T07:08:16Z",
-    "modified": "2026-04-29T09:23:58Z",
+    "modified": "2026-09-02T04:01:35Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -162,7 +176,8 @@
       "style": [
         "written"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

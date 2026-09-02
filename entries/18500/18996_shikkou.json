@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "18996_shikkou_ex1",
-      "japanese": "{死刑|しけい}が{執行|しっこう}された。",
+      "japanese": "⟦{死刑|しけい}→死刑：13200_shikei⟧⟦が→が：00051_ga⟧{執行|しっこう}⟦された→する：00392_suru⟧。",
       "english": "The death sentence was carried out.",
       "sense_numbers": [
         1
@@ -114,7 +114,7 @@
     },
     {
       "id": "18996_shikkou_ex2",
-      "japanese": "{予算|よさん}の{執行|しっこう}を{管理|かんり}する。",
+      "japanese": "⟦{予算|よさん}→予算：03663_yosan⟧⟦の→の：09472_no⟧{執行|しっこう}⟦を→を：00422_wo⟧⟦{管理|かんり}する→管理する：21910_kanrisuru⟧。",
       "english": "To manage budget execution.",
       "sense_numbers": [
         1
@@ -124,7 +124,7 @@
     },
     {
       "id": "18996_shikkou_ex3",
-      "japanese": "{裁判所|さいばんしょ}の{命令|めいれい}に{基|もと}づいて{強制執行|きょうせいしっこう}が{行|おこな}われた。",
+      "japanese": "⟦{裁判所|さいばんしょ}→裁判所：09665_saibansho⟧⟦の→の：09472_no⟧⟦{命令|めいれい}→命令：03754_meirei⟧⟦に→に：00314_ni⟧⟦{基|もと}づいて→基づく：02315_motozuku⟧{強制執行|きょうせいしっこう}⟦が→が：00051_ga⟧⟦{行|おこな}われた→行う：01238_okonau⟧。",
       "english": "Compulsory execution was carried out based on a court order.",
       "sense_numbers": [
         1
@@ -133,7 +133,7 @@
       "notes": null
     }
   ],
-  "notes": "{執行|しっこう} means the carrying out or enforcement of a plan, decision, sentence, or duty — a formal, often legal or administrative term.\n\nUSAGE:\n- Functions as a する verb and as a noun.\n- Most common in legal, governmental, and corporate contexts.\n- Note the homophone {失効|しっこう} (expiration, lapse of validity), written with completely different kanji.\n\nCOMMON PATTERNS:\n- {死刑|しけい}を{執行|しっこう}する: to carry out a death sentence\n- {予算|よさん}を{執行|しっこう}する: to execute a budget\n- {職務|しょくむ}を{執行|しっこう}する: to perform one's official duties\n- {執行猶予|しっこうゆうよ}: suspended sentence (an extremely common legal term, similar to probation)\n- {強制|きょうせい}{執行|しっこう}: compulsory execution, forced enforcement (e.g., foreclosure, eviction)\n- {執行部|しっこうぶ}: executive committee, leadership board\n- {執行役員|しっこうやくいん}: executive officer (a corporate title)\n\nSIMILAR WORDS:\n- {実行|じっこう}: putting into practice, carrying out (broader and less formal; can be used for everyday plans).\n- {施行|しこう}: enforcement of a law (specifically the moment a law takes effect).",
+  "notes": "{執行|しっこう} means the carrying out or enforcement of a plan, decision, sentence, or duty — a formal, often legal or administrative term.\n\nUSAGE:\n- Functions as a ⟦する→する：00392_suru⟧ verb and as a noun.\n- Most common in legal, governmental, and corporate contexts.\n- Note the homophone ⟦{失効|しっこう}→失効：17129_shikkou⟧ (expiration, lapse of validity), written with completely different kanji.\n\nCOMMON PATTERNS:\n- ⟦{死刑|しけい}→死刑：13200_shikei⟧⟦を→を：00422_wo⟧{執行|しっこう}⟦する→する：00392_suru⟧: to carry out a death sentence\n- ⟦{予算|よさん}→予算：03663_yosan⟧⟦を→を：00422_wo⟧{執行|しっこう}⟦する→する：00392_suru⟧: to execute a budget\n- ⟦{職務|しょくむ}→職務：13908_shokumu⟧⟦を→を：00422_wo⟧{執行|しっこう}⟦する→する：00392_suru⟧: to perform one's official duties\n- ⟦{執行猶予|しっこうゆうよ}→執行猶予：18434_shikkouyuuyo⟧: suspended sentence (an extremely common legal term, similar to probation)\n- ⟦{強制|きょうせい}→強制：12500_kyousei⟧{執行|しっこう}: compulsory execution, forced enforcement (e.g., foreclosure, eviction)\n- {執行部|しっこうぶ}: executive committee, leadership board\n- {執行役員|しっこうやくいん}: executive officer (a corporate title)\n\nSIMILAR WORDS:\n- ⟦{実行|じっこう}→実行：03274_jikkou⟧: putting into practice, carrying out (broader and less formal; can be used for everyday plans).\n- ⟦{施行|しこう}→施行：06581_shikou⟧: enforcement of a law (specifically the moment a law takes effect).",
   "cross_references": [
     {
       "target_id": "17129_shikkou",
@@ -141,6 +141,20 @@
       "reading": "しっこう",
       "type": "homophone",
       "label": "expiration/lapse"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03274_jikkou",
+      "reading": "じっこう",
+      "headword": "{実行|じっこう}",
+      "label": "putting into practice, carrying out…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06581_shikou",
+      "reading": "しこう",
+      "headword": "{施行|しこう}",
+      "label": "enforcement of a law (specifically…"
     }
   ],
   "schema_version": "2.0",
@@ -163,6 +177,6 @@
       "verb_class": "suru"
     },
     "created": "2026-03-23T12:13:45Z",
-    "modified": "2026-06-16T12:23:55Z"
+    "modified": "2026-09-02T04:01:54Z"
   }
 }

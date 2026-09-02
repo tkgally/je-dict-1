@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24160_gaimu_ex1",
-      "japanese": "{外務|がいむ}{大臣|だいじん}が{会見|かいけん}した。",
+      "japanese": "{外務|がいむ}{大臣|だいじん}⟦が→が：00051_ga⟧⟦{会見|かいけん}→会見：11447_kaiken⟧⟦した→する：00392_suru⟧。",
       "english": "The foreign minister held a press conference.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24160_gaimu_ex2",
-      "japanese": "{外務省|がいむしょう}は{渡航|とこう}{注意|ちゅうい}を{発表|はっぴょう}した。",
+      "japanese": "{外務省|がいむしょう}⟦は→は：00079_ha⟧⟦{渡航|とこう}→渡航：17919_tokou⟧⟦{注意|ちゅうい}→注意：01464_chuui⟧⟦を→を：00422_wo⟧⟦{発表|はっぴょう}した→発表する：25231_happyousuru⟧。",
       "english": "The Ministry of Foreign Affairs issued a travel advisory.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24160_gaimu_ex3",
-      "japanese": "{彼女|かのじょ}は{長年|ながねん}{外務|がいむ}の{仕事|しごと}に{携|たずさ}わってきた。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧⟦{長年|ながねん}→長年：09684_naganen⟧{外務|がいむ}⟦の→の：09472_no⟧⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦に→に：00314_ni⟧⟦{携|たずさ}わって→携わる：09333_tazusawaru⟧きた。",
       "english": "She has been involved in foreign affairs work for many years.",
       "sense_numbers": [
         1
@@ -44,14 +44,32 @@
       "notes": null
     }
   ],
-  "notes": "Refers to a nation's diplomatic and international relations work. Most commonly encountered in the compound {外務省|がいむしょう} (Ministry of Foreign Affairs) and {外務|がいむ}{大臣|だいじん} (Minister of Foreign Affairs).\n\nCOMMON COLLOCATIONS:\n- {外務省|がいむしょう}: Ministry of Foreign Affairs\n- {外務|がいむ}{大臣|だいじん}: Minister of Foreign Affairs\n- {外務|がいむ}{官僚|かんりょう}: foreign affairs bureaucrat\n- {外務|がいむ}{職員|しょくいん}: foreign affairs staff\n\nSIMILAR WORDS:\n- {外交|がいこう}: diplomacy — focuses on the practice of diplomatic relations rather than the administrative domain\n- {内政|ないせい}: domestic affairs — the counterpart to {外務|がいむ}",
+  "notes": "Refers to a nation's diplomatic and international relations work. Most commonly encountered in the compound {外務省|がいむしょう} (Ministry of Foreign Affairs) and {外務|がいむ}{大臣|だいじん} (Minister of Foreign Affairs).\n\nCOMMON COLLOCATIONS:\n- {外務省|がいむしょう}: Ministry of Foreign Affairs\n- {外務|がいむ}{大臣|だいじん}: Minister of Foreign Affairs\n- {外務|がいむ}⟦{官僚|かんりょう}→官僚：02780_kanryou⟧: foreign affairs bureaucrat\n- {外務|がいむ}⟦{職員|しょくいん}→職員：20206_shokuin⟧: foreign affairs staff\n\nSIMILAR WORDS:\n- ⟦{外交|がいこう}→外交：02627_gaikou⟧: diplomacy — focuses on the practice of diplomatic relations rather than the administrative domain\n- ⟦{内政|ないせい}→内政：24159_naisei⟧: domestic affairs — the counterpart to {外務|がいむ}",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02627_gaikou",
+      "reading": "がいこう",
+      "headword": "{外交|がいこう}",
+      "label": "diplomacy"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24159_naisei",
+      "reading": "ないせい",
+      "headword": "{内政|ないせい}",
+      "label": "domestic affairs"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "politics"
       ],
@@ -60,6 +78,6 @@
       ]
     },
     "created": "2026-04-17T21:35:07Z",
-    "modified": "2026-08-02T18:32:34Z"
+    "modified": "2026-09-02T04:02:17Z"
   }
 }

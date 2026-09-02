@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21356_oshou_ex1",
-      "japanese": "{和尚|おしょう}さんにお{経|きょう}をあげてもらった。",
+      "japanese": "{和尚|おしょう}さん⟦に→に：00314_ni⟧⟦お{経|きょう}→お経：17854_okyou⟧⟦を→を：00422_wo⟧⟦あげて→あげる：00546_ageru⟧⟦もらった→もらう：00520_morau⟧。",
       "english": "The priest chanted a sutra for us.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21356_oshou_ex2",
-      "japanese": "この{寺|てら}の{和尚|おしょう}は{話|はなし}が{上手|じょうず}だ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{寺|てら}→寺：01676_tera⟧⟦の→の：09472_no⟧{和尚|おしょう}⟦は→は：00079_ha⟧⟦{話|はなし}→話：01496_hanashi⟧⟦が→が：00051_ga⟧⟦{上手|じょうず}→上手：00707_jouzu⟧だ。",
       "english": "The priest at this temple is a good storyteller.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21356_oshou_ex3",
-      "japanese": "{和尚|おしょう}さんに{人生|じんせい}の{悩|なや}みを{相談|そうだん}したら、{心|こころ}が{軽|かる}くなった。",
+      "japanese": "{和尚|おしょう}さん⟦に→に：00314_ni⟧⟦{人生|じんせい}→人生：03355_jinsei⟧⟦の→の：09472_no⟧⟦{悩|なや}み→悩み：06650_nayami⟧⟦を→を：00422_wo⟧⟦{相談|そうだん}したら→相談する：01845_soudansuru⟧、⟦{心|こころ}→心：01321_kokoro⟧⟦が→が：00051_ga⟧⟦{軽|かる}く→軽い：00785_karui⟧⟦なった→なる：01970_naru⟧。",
       "english": "When I talked to the priest about my life troubles, I felt relieved.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "The reading varies by Buddhist sect: おしょう is standard (especially Zen), but かしょう (Tendai/Shingon) and わじょう (other sects) are also used. In everyday speech, {和尚|おしょう}さん (with the polite さん suffix) is the most common form, used much like calling someone \"Father\" in Christianity.\n\nCOMMON COLLOCATIONS:\n- {和尚|おしょう}さん: priest (polite, everyday form)\n- お{寺|てら}の{和尚|おしょう}: the temple priest\n- {和尚|おしょう}の{説法|せっぽう}: the priest's sermon\n\nSIMILAR WORDS:\n- {住職|じゅうしょく}: chief priest of a temple — the official title for the head priest\n- {僧侶|そうりょ}: Buddhist monk/priest — formal, general term for any ordained member\n- {坊|ぼう}さん: monk/priest — casual, everyday term\n- {尼|あま}: Buddhist nun — the female counterpart",
+  "notes": "The reading varies by Buddhist sect: おしょう is standard (especially Zen), but かしょう (Tendai/Shingon) and わじょう (other sects) are also used. In everyday speech, {和尚|おしょう}さん (with the polite さん suffix) is the most common form, used much like calling someone \"Father\" in Christianity.\n\nCOMMON COLLOCATIONS:\n- {和尚|おしょう}さん: priest (polite, everyday form)\n- ⟦お{寺|てら}→お寺：23515_otera⟧⟦の→の：09472_no⟧{和尚|おしょう}: the temple priest\n- {和尚|おしょう}⟦の→の：09472_no⟧⟦{説法|せっぽう}→説法：19138_seppou⟧: the priest's sermon\n\nSIMILAR WORDS:\n- ⟦{住職|じゅうしょく}→住職：15520_juushoku⟧: chief priest of a temple — the official title for the head priest\n- ⟦{僧侶|そうりょ}→僧侶：11529_souryo⟧: Buddhist monk/priest — formal, general term for any ordained member\n- {坊|ぼう}さん: monk/priest — casual, everyday term\n- {尼|あま}: Buddhist nun — the female counterpart",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15520_juushoku",
+      "reading": "じゅうしょく",
+      "headword": "{住職|じゅうしょく}",
+      "label": "chief priest of a temple"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11529_souryo",
+      "reading": "そうりょ",
+      "headword": "{僧侶|そうりょ}",
+      "label": "Buddhist monk/priest"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +76,6 @@
       ]
     },
     "created": "2026-04-02T01:37:06Z",
-    "modified": "2026-07-29T12:35:11Z"
+    "modified": "2026-09-02T04:02:03Z"
   }
 }

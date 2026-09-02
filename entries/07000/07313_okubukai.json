@@ -19,7 +19,7 @@
   "examples": [
     {
       "id": "07313_okubukai_ex1",
-      "japanese": "{日本|にほん}{文化|ぶんか}は{奥深|おくぶか}い。",
+      "japanese": "⟦{日本|にほん}{文化|ぶんか}→日本文化：28405_nihonbunka⟧⟦は→は：00079_ha⟧{奥深|おくぶか}い。",
       "english": "Japanese culture is profound.",
       "has_audio": false,
       "sense_numbers": [
@@ -28,7 +28,7 @@
     },
     {
       "id": "07313_okubukai_ex2",
-      "japanese": "{将棋|しょうぎ}の{奥深|おくぶか}さに{魅了|みりょう}された。",
+      "japanese": "⟦{将棋|しょうぎ}→将棋：04172_shougi⟧⟦の→の：09472_no⟧{奥深|おくぶか}さ⟦に→に：00314_ni⟧⟦{魅了|みりょう}→魅了：14685_miryou⟧⟦された→する：00392_suru⟧。",
       "english": "I was fascinated by the depth of shogi.",
       "has_audio": false,
       "sense_numbers": [
@@ -37,7 +37,7 @@
     },
     {
       "id": "07313_okubukai_ex3",
-      "japanese": "{料理|りょうり}の{世界|せかい}は{奥深|おくぶか}くて、{学|まな}ぶことが{尽|つ}きない。",
+      "japanese": "⟦{料理|りょうり}→料理：01523_ryouri⟧⟦の→の：09472_no⟧⟦{世界|せかい}→世界：01447_sekai⟧⟦は→は：00079_ha⟧{奥深|おくぶか}くて、⟦{学|まな}ぶ→学ぶ：01987_manabu⟧こと⟦が→が：00051_ga⟧⟦{尽|つ}きない→尽きる：12365_tsukiru⟧。",
       "english": "The world of cooking is so deep that there is always more to learn.",
       "has_audio": false,
       "sense_numbers": [
@@ -46,7 +46,7 @@
     },
     {
       "id": "07313_okubukai_ex4",
-      "japanese": "{奥深|おくぶか}い{森|もり}の{中|なか}を{歩|ある}いた。",
+      "japanese": "{奥深|おくぶか}い⟦{森|もり}→森：02260_mori⟧⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧⟦を→を：00422_wo⟧⟦{歩|ある}いた→歩く：00538_aruku⟧。",
       "english": "I walked deep into the forest.",
       "has_audio": false,
       "sense_numbers": [
@@ -55,7 +55,7 @@
     },
     {
       "id": "07313_okubukai_ex5",
-      "japanese": "{奥深|おくぶか}い{谷|たに}に{川|かわ}が{流|なが}れている。",
+      "japanese": "{奥深|おくぶか}い⟦{谷|たに}→谷：02223_tani⟧⟦に→に：00314_ni⟧⟦{川|かわ}→川：02186_kawa⟧⟦が→が：00051_ga⟧⟦{流|なが}れている→流れる：01969_nagareru⟧。",
       "english": "A river flows through the deep valley.",
       "has_audio": false,
       "sense_numbers": [
@@ -64,7 +64,7 @@
     },
     {
       "id": "07313_okubukai_ex6",
-      "japanese": "{奥深|おくぶか}い{山|やま}の{中|なか}に{古|ふる}い{寺|てら}がひっそりと{建|た}っていた。",
+      "japanese": "{奥深|おくぶか}い⟦{山|やま}→山：02168_yama⟧⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧⟦に→に：00314_ni⟧⟦{古|ふる}い→古い：00488_furui⟧⟦{寺|てら}→寺：01676_tera⟧⟦が→が：00051_ga⟧⟦ひっそり→ひっそり：10473_hissori⟧⟦と→と：00512_to⟧⟦{建|た}っていた→建つ：12544_tatsu⟧。",
       "english": "An old temple stood quietly deep in the mountains.",
       "has_audio": false,
       "sense_numbers": [
@@ -72,10 +72,26 @@
       ]
     }
   ],
-  "notes": "WORD FORMATION:\n{奥|おく} (interior, depth) + {深|ふか}い (deep) → deeply interior = profound\n\nFORMS:\n・{奥深|おくぶか}い{世界|せかい} - a profound world\n・{奥深|おくぶか}さ (noun form) - profoundness, depth\n・{奥深|おくぶか}く - deeply (adverb form)\n\nUSAGE:\nOften used to describe things that have hidden complexity or layers of meaning: culture, art, philosophy, traditional crafts, games like shogi or go.\n\nNUANCE:\nConveys respect and admiration for something's complexity. Suggests that the more you explore something, the more you discover.",
+  "notes": "FORMS:\n⟦{奥|おく}→奥：00980_oku⟧ (interior, depth) + ⟦{深|ふか}い→深い：01211_fukai⟧ (deep) → deeply interior = profound\n- {奥深|おくぶか}い⟦{世界|せかい}→世界：01447_sekai⟧ - a profound world\n- {奥深|おくぶか}さ (noun form) - profoundness, depth\n- {奥深|おくぶか}く - deeply (adverb form)\n\nUSAGE:\nOften used to describe things that have hidden complexity or layers of meaning: culture, art, philosophy, traditional crafts, games like shogi or go.\nConveys respect and admiration for something's complexity. Suggests that the more you explore something, the more you discover.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23018_ganchiku",
+      "reading": "がんちく",
+      "headword": "{含蓄|がんちく}",
+      "label": "implication"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29359_ajiwaibukai",
+      "reading": "あじわいぶかい",
+      "headword": "{味|あじ}わい{深|ぶか}い",
+      "label": "deeply flavorful"
+    }
+  ],
   "metadata": {
     "created": "2026-01-19T04:11:15Z",
-    "modified": "2026-03-15T12:14:50Z",
+    "modified": "2026-09-02T04:01:10Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

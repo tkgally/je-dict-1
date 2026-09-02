@@ -2,7 +2,7 @@
   "id": "04654_tasukeau",
   "headword": "{助|たす}け{合|あ}う",
   "reading": "たすけあう",
-  "part_of_speech": "godan verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to help each other, to cooperate",
   "conjugation": {
     "type": "godan",
@@ -189,7 +189,7 @@
     },
     {
       "id": "04654_tasukeau_ex9",
-      "japanese": "{助|たす}け{合|あ}い⟦の→の：09472_no⟧⟦{精神|せいしん}→精神：03377_seishin⟧⟦を→を：00422_wo⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧⟦に→に：00314_ni⟧⟦して→する：00392_suru⟧⟦いる→いる：00495_iru⟧⟦{学校|がっこう}→学校：00055_gakkou⟧⟦だ→だ：09496_da⟧。",
+      "japanese": "⟦{助|たす}け{合|あ}い→助け合い：16991_tasukeai⟧⟦の→の：09472_no⟧⟦{精神|せいしん}→精神：03377_seishin⟧⟦を→を：00422_wo⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧⟦に→に：00314_ni⟧⟦して→する：00392_suru⟧⟦いる→いる：00495_iru⟧⟦{学校|がっこう}→学校：00055_gakkou⟧⟦だ→だ：09496_da⟧。",
       "english": "It's a school that values the spirit of cooperation.",
       "notes": null,
       "has_audio": false,
@@ -208,18 +208,25 @@
       ]
     }
   ],
-  "notes": "{助|たす}け{合|あ}う is an intransitive verb (⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧) meaning to help each other.\n\nCOMPOUND STRUCTURE:\n- ⟦{助|たす}ける→助ける：00895_tasukeru⟧ (to help) + ⟦{合|あ}う→合う：10466_au⟧ (each other) → to help each other\n\nASPECT (ている):\n{助|たす}け{合|あ}っている indicates an ongoing state of mutual help.\n\nCOMMON PATTERNS:\n- ⟦{互|たが}いに→互いに：07150_tagaini⟧{助|たす}け{合|あ}う (help each other mutually)\n- ⟦{困|こま}った→困る：00861_komaru⟧⟦{時|とき}→とき：02918_toki⟧⟦に→に：00314_ni⟧{助|たす}け{合|あ}う (help each other in times of trouble)\n- {助|たす}け{合|あ}い⟦の→の：09472_no⟧⟦{精神|せいしん}→精神：03377_seishin⟧ (spirit of mutual help)\n\nRELATED NOUN:\n- {助|たす}け{合|あ}い: mutual help, mutual aid\n\nSIMILAR COMPOUNDS WITH ～{合|あ}う:\n- ⟦{支|ささ}え{合|あ}う→支え合う：04658_sasaeau⟧: to support each other\n- ⟦{競|きそ}い{合|あ}う→競い合う：04656_kisoiau⟧: to compete with each other\n- ⟦{話|はな}し{合|あ}う→話し合う：02396_hanashiau⟧: to discuss with each other",
+  "notes": "{助|たす}け{合|あ}う is an intransitive verb (⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧) meaning to help each other.\n\nETYMOLOGY:\n- ⟦{助|たす}ける→助ける：00895_tasukeru⟧ (to help) + ⟦{合|あ}う→合う：10466_au⟧ (each other) → to help each other\n\nASPECT (ている):\n{助|たす}け{合|あ}って⟦いる→いる：00495_iru⟧ indicates an ongoing state of mutual help.\n\nCOMMON PATTERNS:\n- ⟦{互|たが}いに→互いに：07150_tagaini⟧{助|たす}け{合|あ}う (help each other mutually)\n- ⟦{困|こま}った→困る：00861_komaru⟧⟦{時|とき}→とき：02918_toki⟧⟦に→に：00314_ni⟧{助|たす}け{合|あ}う (help each other in times of trouble)\n- ⟦{助|たす}け{合|あ}い→助け合い：16991_tasukeai⟧⟦の→の：09472_no⟧⟦{精神|せいしん}→精神：03377_seishin⟧ (spirit of mutual help)\n\nRELATED NOUN:\n- ⟦{助|たす}け{合|あ}い→助け合い：16991_tasukeai⟧: mutual help, mutual aid\n\nSIMILAR COMPOUNDS WITH ～{合|あ}う:\n- ⟦{支|ささ}え{合|あ}う→支え合う：04658_sasaeau⟧: to support each other\n- ⟦{競|きそ}い{合|あ}う→競い合う：04656_kisoiau⟧: to compete with each other\n- ⟦{話|はな}し{合|あ}う→話し合う：02396_hanashiau⟧: to discuss with each other",
   "cross_references": [
     {
       "type": "related",
       "reading": "ささえあう",
       "label": "to support each other",
       "target_id": "04658_sasaeau"
+    },
+    {
+      "type": "related",
+      "target_id": "16991_tasukeai",
+      "reading": "たすけあい",
+      "headword": "{助|たす}け{合|あ}い",
+      "label": "mutual help, mutual aid"
     }
   ],
   "metadata": {
     "created": "2026-01-14T03:52:00Z",
-    "modified": "2026-06-10T17:34:32Z",
+    "modified": "2026-09-02T04:01:05Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

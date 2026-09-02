@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "11812_seiryoku_ex1",
-      "japanese": "{二|ふた}つの{勢力|せいりょく}が{対立|たいりつ}している。",
+      "japanese": "⟦{二|ふた}つ→二つ：02953_futatsu⟧⟦の→の：09472_no⟧{勢力|せいりょく}⟦が→が：00051_ga⟧⟦{対立|たいりつ}している→対立する：22172_tairitsusuru⟧。",
       "english": "Two forces are in opposition.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "11812_seiryoku_ex2",
-      "japanese": "{台風|たいふう}が{勢力|せいりょく}を{強|つよ}めている。",
+      "japanese": "⟦{台風|たいふう}→台風：01455_taifuu⟧⟦が→が：00051_ga⟧{勢力|せいりょく}⟦を→を：00422_wo⟧⟦{強|つよ}めている→強める：02296_tsuyomeru⟧。",
       "english": "The typhoon is gaining strength.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "11812_seiryoku_ex3",
-      "japanese": "その{政党|せいとう}は{地方|ちほう}を{中心|ちゅうしん}に{勢力|せいりょく}を{拡大|かくだい}し、{全国的|ぜんこくてき}な{影響力|えいきょうりょく}を{持|も}つようになった。",
+      "japanese": "⟦その→その：00993_sono⟧⟦{政党|せいとう}→政党：04338_seitou⟧⟦は→は：00079_ha⟧⟦{地方|ちほう}→地方：02369_chihou⟧⟦を→を：00422_wo⟧⟦{中心|ちゅうしん}→中心：01467_chuushin⟧⟦に→に：00314_ni⟧{勢力|せいりょく}⟦を→を：00422_wo⟧⟦{拡大|かくだい}→拡大：02553_kakudai⟧し、⟦{全国的|ぜんこくてき}→全国的：20017_zenkokuteki⟧な⟦{影響力|えいきょうりょく}→影響力：20040_eikyouryoku⟧⟦を→を：00422_wo⟧⟦{持|も}つ→持つ：00478_motsu⟧ようになった。",
       "english": "The political party expanded its power mainly in rural areas and came to have nationwide influence.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "Used both for political/social power and for the intensity of natural phenomena. In weather reports, {勢力|せいりょく} frequently describes typhoon strength. Distinguished from {精力|せいりょく} (energy, vitality), which is a homophone.\n\nCOMMON COLLOCATIONS:\n・{勢力|せいりょく}を{拡大|かくだい}する: to expand one's power\n・{勢力|せいりょく}を{強|つよ}める: to strengthen one's power\n・{勢力|せいりょく}{圏|けん}: sphere of influence\n・{勢力|せいりょく}{争|あらそ}い: power struggle",
+  "notes": "Used both for political/social power and for the intensity of natural phenomena. In weather reports, {勢力|せいりょく} frequently describes typhoon strength. Distinguished from ⟦{精力|せいりょく}→精力：05526_seiryoku⟧ (energy, vitality), which is a homophone.\n\nCOMMON COLLOCATIONS:\n- {勢力|せいりょく}⟦を→を：00422_wo⟧⟦{拡大|かくだい}→拡大：02553_kakudai⟧⟦する→する：00392_suru⟧: to expand one's power\n- {勢力|せいりょく}⟦を→を：00422_wo⟧⟦{強|つよ}める→強める：02296_tsuyomeru⟧: to strengthen one's power\n- {勢力|せいりょく}{圏|けん}: sphere of influence\n- {勢力|せいりょく}⟦{争|あらそ}い→争い：09992_arasoi⟧: power struggle",
   "cross_references": [
     {
       "type": "homophone",
@@ -51,11 +51,25 @@
       "headword": "{精力|せいりょく}",
       "target_id": "05526_seiryoku",
       "label": "energy, vitality"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10020_kenryoku",
+      "reading": "けんりょく",
+      "headword": "{権力|けんりょく}",
+      "label": "power, authority"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19611_iryoku",
+      "reading": "いりょく",
+      "headword": "{威力|いりょく}",
+      "label": "power"
     }
   ],
   "metadata": {
     "created": "2026-02-18T06:08:50Z",
-    "modified": "2026-02-18T06:08:50Z",
+    "modified": "2026-09-02T04:01:26Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",

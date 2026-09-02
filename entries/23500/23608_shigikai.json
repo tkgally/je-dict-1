@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "23608_shigikai_ex1",
-      "japanese": "{市議会|しぎかい}が{始|はじ}まった。",
+      "japanese": "{市議会|しぎかい}⟦が→が：00051_ga⟧⟦{始|はじ}まった→始まる：00841_hajimaru⟧。",
       "english": "The city council session has begun.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "23608_shigikai_ex2",
-      "japanese": "{市議会|しぎかい}{議員|ぎいん}の{選挙|せんきょ}が{来月|らいげつ}{行|おこな}われる。",
+      "japanese": "{市議会|しぎかい}{議員|ぎいん}⟦の→の：09472_no⟧⟦{選挙|せんきょ}→選挙：03303_senkyo⟧⟦が→が：00051_ga⟧⟦{来月|らいげつ}→来月：00744_raigetsu⟧⟦{行|おこな}われる→行う：01238_okonau⟧。",
       "english": "The city council election will be held next month.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "23608_shigikai_ex3",
-      "japanese": "{新|あたら}しい{条例|じょうれい}は{市議会|しぎかい}で{可決|かけつ}されて{来年|らいねん}から{施行|しこう}される。",
+      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦{条例|じょうれい}→条例：08255_jourei⟧⟦は→は：00079_ha⟧{市議会|しぎかい}⟦で→で：00502_de⟧⟦{可決|かけつ}→可決：00148_kaketsu⟧⟦されて→する：00392_suru⟧⟦{来年|らいねん}→来年：00745_rainen⟧⟦から→から：00504_kara⟧⟦{施行|しこう}→施行：06581_shikou⟧⟦される→する：00392_suru⟧。",
       "english": "The new ordinance was passed by the city council and will take effect next year.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {市|し} (city) and {議会|ぎかい} (assembly, council). Each Japanese city has its own {市議会|しぎかい}, with the number of seats roughly proportional to population. Council members serve four-year terms and work alongside — and often in tension with — the separately elected {市長|しちょう} (mayor).\n\nCOMMON COLLOCATIONS:\n- {市議会|しぎかい}{議員|ぎいん}: city council member\n- {市議会|しぎかい}{選挙|せんきょ}: city council election\n- {市議会|しぎかい}で{可決|かけつ}する: to be passed by the city council\n- {市議会|しぎかい}で{否決|ひけつ}する: to be rejected by the city council\n- {市議会|しぎかい}{議長|ぎちょう}: chairperson of the city council\n\nRELATED TERMS:\n- {議会|ぎかい}: assembly, legislature (the general term at any level)\n- {町議会|ちょうぎかい}: town council (for a {町|まち}, a smaller municipality)\n- {村議会|そんぎかい}: village council\n- {区議会|くぎかい}: ward council (for the 23 special wards of Tokyo)\n- {県議会|けんぎかい}: prefectural assembly\n- {国会|こっかい}: National Diet (the national parliament)",
+  "notes": "Composed of ⟦{市|し}→市：01599_shi⟧ (city) and ⟦{議会|ぎかい}→議会：02661_gikai⟧ (assembly, council). Each Japanese city has its own {市議会|しぎかい}, with the number of seats roughly proportional to population. Council members serve four-year terms and work alongside — and often in tension with — the separately elected ⟦{市長|しちょう}→市長：12472_shichou⟧ (mayor).\n\nCOMMON COLLOCATIONS:\n- {市議会|しぎかい}{議員|ぎいん}: city council member\n- {市議会|しぎかい}⟦{選挙|せんきょ}→選挙：03303_senkyo⟧: city council election\n- {市議会|しぎかい}⟦で→で：00502_de⟧⟦{可決|かけつ}→可決：00148_kaketsu⟧⟦する→する：00392_suru⟧: to be passed by the city council\n- {市議会|しぎかい}⟦で→で：00502_de⟧⟦{否決|ひけつ}→否決：08396_hiketsu⟧⟦する→する：00392_suru⟧: to be rejected by the city council\n- {市議会|しぎかい}⟦{議長|ぎちょう}→議長：02681_gichou⟧: chairperson of the city council\n\nRELATED WORDS:\n- ⟦{議会|ぎかい}→議会：02661_gikai⟧: assembly, legislature (the general term at any level)\n- {町議会|ちょうぎかい}: town council (for a ⟦{町|まち}→町：00613_machi⟧, a smaller municipality)\n- {村議会|そんぎかい}: village council\n- {区議会|くぎかい}: ward council (for the 23 special wards of Tokyo)\n- {県議会|けんぎかい}: prefectural assembly\n- ⟦{国会|こっかい}→国会：02761_kokkai⟧: National Diet (the national parliament)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "02761_kokkai",
+      "reading": "こっかい",
+      "headword": "{国会|こっかい}",
+      "label": "National Diet"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +68,6 @@
       ]
     },
     "created": "2026-04-12T19:25:11Z",
-    "modified": "2026-08-02T06:24:09Z"
+    "modified": "2026-09-02T04:02:13Z"
   }
 }

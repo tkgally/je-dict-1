@@ -3,7 +3,7 @@
   "id": "13629_chokuyaku",
   "headword": "{直訳|ちょくやく}",
   "reading": "ちょくやく",
-  "part_of_speech": "noun; verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "literal translation; word-for-word translation",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "13629_chokuyaku_ex1",
-      "japanese": "これは{英語|えいご}の{直訳|ちょくやく}だ。",
+      "japanese": "⟦これ→これ：00963_kore⟧⟦は→は：00079_ha⟧⟦{英語|えいご}→英語：02274_eigo⟧⟦の→の：09472_no⟧{直訳|ちょくやく}だ。",
       "english": "This is a literal translation from English.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "13629_chokuyaku_ex2",
-      "japanese": "{直訳|ちょくやく}すると{不自然|ふしぜん}な{日本語|にほんご}になる。",
+      "japanese": "{直訳|ちょくやく}⟦する→する：00392_suru⟧⟦と→と：00512_to⟧⟦{不自然|ふしぜん}→不自然：11350_fushizen⟧な⟦{日本語|にほんご}→日本語：00614_nihongo⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧。",
       "english": "If you translate it literally, it becomes unnatural Japanese.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "13629_chokuyaku_ex3",
-      "japanese": "{詩|し}を{直訳|ちょくやく}しても{原文|げんぶん}の{美|うつく}しさは{伝|つた}わらないことが{多|おお}い。",
+      "japanese": "⟦{詩|し}→詩：02139_shi⟧⟦を→を：00422_wo⟧{直訳|ちょくやく}⟦して→する：00392_suru⟧⟦も→も：00484_mo⟧⟦{原文|げんぶん}→原文：20563_genbun⟧⟦の→の：09472_no⟧{美|うつく}しさ⟦は→は：00079_ha⟧⟦{伝|つた}わらない→伝わる：01961_tsutawaru⟧こと⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "Translating poetry literally often fails to convey the beauty of the original.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nFunctions as a する verb: {直訳|ちょくやく}する (to translate literally). Contrasts with {意訳|いやく} (free/liberal translation that prioritizes natural expression over word-for-word accuracy).\n\nNUANCE:\nOften carries a slightly negative connotation, implying that the translation sounds stiff or unnatural. Language learners frequently produce {直訳|ちょくやく} when translating from their native language.\n\nCOMMON COLLOCATIONS:\n- {直訳|ちょくやく}する: to translate literally\n- {直訳|ちょくやく}すると: if translated literally\n- {直訳|ちょくやく}{調|ちょう}: literal-translation style (sounds translated)\n- {直訳|ちょくやく}と{意訳|いやく}: literal vs. free translation",
+  "notes": "USAGE:\nFunctions as a ⟦する→する：00392_suru⟧ verb: {直訳|ちょくやく}⟦する→する：00392_suru⟧ (to translate literally). Contrasts with ⟦{意訳|いやく}→意訳：17846_iyaku⟧ (free/liberal translation that prioritizes natural expression over word-for-word accuracy).\nOften carries a slightly negative connotation, implying that the translation sounds stiff or unnatural. Language learners frequently produce {直訳|ちょくやく} when translating from their native language.\n\nCOMMON COLLOCATIONS:\n- {直訳|ちょくやく}⟦する→する：00392_suru⟧: to translate literally\n- {直訳|ちょくやく}⟦する→する：00392_suru⟧⟦と→と：00512_to⟧: if translated literally\n- {直訳|ちょくやく}{調|ちょう}: literal-translation style (sounds translated)\n- {直訳|ちょくやく}⟦と→と：00512_to⟧⟦{意訳|いやく}→意訳：17846_iyaku⟧: literal vs. free translation",
   "cross_references": [
     {
       "type": "antonym",
@@ -149,11 +149,25 @@
       "reading": "ほんやく",
       "headword": "{翻訳|ほんやく}",
       "label": "translation"
+    },
+    {
+      "type": "related",
+      "target_id": "16317_eiyaku",
+      "reading": "えいやく",
+      "headword": "{英訳|えいやく}",
+      "label": "English translation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26370_wabuneiyaku",
+      "reading": "わぶんえいやく",
+      "headword": "{和文英訳|わぶんえいやく}",
+      "label": "Japanese-to-English translation"
     }
   ],
   "metadata": {
     "created": "2026-02-26T10:37:59Z",
-    "modified": "2026-04-29T06:03:13Z",
+    "modified": "2026-09-02T04:01:34Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

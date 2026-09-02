@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "20056_etto_ex1",
-      "japanese": "えっと、{何|なん}だっけ。",
+      "japanese": "えっと、⟦{何|なん}→何〜：03100_nan⟧だ⟦っけ→っけ：10739_kke⟧。",
       "english": "Um, what was it again?",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "20056_etto_ex2",
-      "japanese": "えっと、{次|つぎ}の{会議|かいぎ}は{三時|さんじ}からです。",
+      "japanese": "えっと、⟦{次|つぎ}→次：00819_tsugi⟧⟦の→の：09472_no⟧⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦は→は：00079_ha⟧⟦{三時|さんじ}→三時：10983_sanji⟧⟦から→から：00504_kara⟧です。",
       "english": "Um, the next meeting is from three o'clock.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "20056_etto_ex3",
-      "japanese": "えっと、{確|たし}か{駅|えき}の{近|ちか}くにあったと{思|おも}うんだけど。",
+      "japanese": "えっと、⟦{確|たし}か→確か：00894_tashika⟧⟦{駅|えき}→駅：02180_eki⟧⟦の→の：09472_no⟧{近|ちか}くにあった⟦と→と：00512_to⟧⟦{思|おも}う→思う：00492_omou⟧んだ⟦けど→けど：09477_kedo⟧。",
       "english": "Let me see... I think it was near the station.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "A common filler word used when pausing to think or recall something. Very natural in casual spoken Japanese. Used at the beginning of a sentence or as a standalone hesitation.\n\nUSAGE:\nTypically placed at the start of a sentence while the speaker gathers their thoughts. Common in everyday conversation. Not used in formal writing or speeches.\n\nSIMILAR WORDS:\n- ええと: a slightly longer variant with the same meaning\n- あの: um/uh — another common hesitation filler, slightly more polite\n- その: well/um — used as a filler, often before a delicate or difficult topic\n- ええ: yes/yeah — can also function as a filler but primarily means \"yes\"\n\nREGISTER:\nInformal spoken language. Avoid in formal contexts, presentations, or written Japanese.",
+  "notes": "A common filler word used when pausing to think or recall something. Very natural in casual spoken Japanese. Used at the beginning of a sentence or as a standalone hesitation.\n\nUSAGE:\nTypically placed at the start of a sentence while the speaker gathers their thoughts. Common in everyday conversation. Not used in formal writing or speeches.\n\nSIMILAR WORDS:\n- ⟦ええ→ええ：02893_ee⟧⟦と→と：00512_to⟧: a slightly longer variant with the same meaning\n- ⟦あの→あの：00915_ano⟧: um/uh — another common hesitation filler, slightly more polite\n- ⟦その→その：00993_sono⟧: well/um — used as a filler, often before a delicate or difficult topic\n- ⟦ええ→ええ：02893_ee⟧: yes/yeah — can also function as a filler but primarily means \"yes\"\n\nREGISTER:\nInformal spoken language. Avoid in formal contexts, presentations, or written Japanese.",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -62,7 +62,7 @@
       ]
     },
     "created": "2026-03-28T06:13:35Z",
-    "modified": "2026-08-13T12:40:48Z"
+    "modified": "2026-09-02T04:01:58Z"
   },
   "cross_references": [
     {
@@ -71,6 +71,34 @@
       "reading": "えーと",
       "headword": "えーと",
       "label": "the standard spelling of this filler"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23425_eeto",
+      "reading": "ええと",
+      "headword": "ええと",
+      "label": "a slightly longer variant with the same…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00915_ano",
+      "reading": "あの",
+      "headword": "あの",
+      "label": "um/uh"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02893_ee",
+      "reading": "ええ",
+      "headword": "ええ",
+      "label": "yes/yeah"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07861_anone",
+      "reading": "あのね",
+      "headword": "あのね",
+      "label": "you know"
     }
   ]
 }

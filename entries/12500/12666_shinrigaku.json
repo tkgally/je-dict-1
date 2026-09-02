@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "12666_shinrigaku_ex1",
-      "japanese": "{大学|だいがく}で{心理学|しんりがく}を{学|まな}ぶ。",
+      "japanese": "⟦{大学|だいがく}→大学：00608_daigaku⟧⟦で→で：00502_de⟧{心理学|しんりがく}⟦を→を：00422_wo⟧⟦{学|まな}ぶ→学ぶ：01987_manabu⟧。",
       "english": "To study psychology at university.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12666_shinrigaku_ex2",
-      "japanese": "{心理学|しんりがく}の{知識|ちしき}はビジネスにも{役立|やくだ}つ。",
+      "japanese": "{心理学|しんりがく}⟦の→の：09472_no⟧⟦{知識|ちしき}→知識：01463_chishiki⟧⟦は→は：00079_ha⟧⟦ビジネス→ビジネス：11162_bijinesu⟧⟦に→に：00314_ni⟧⟦も→も：00484_mo⟧⟦{役立|やくだ}つ→役立つ：03168_yakudatsu⟧。",
       "english": "Knowledge of psychology is useful in business too.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12666_shinrigaku_ex3",
-      "japanese": "{犯罪|はんざい}{心理学|しんりがく}の{専門家|せんもんか}が{事件|じけん}の{分析|ぶんせき}に{協力|きょうりょく}した。",
+      "japanese": "⟦{犯罪|はんざい}→犯罪：03569_hanzai⟧{心理学|しんりがく}⟦の→の：09472_no⟧⟦{専門家|せんもんか}→専門家：03088_senmonka⟧⟦が→が：00051_ga⟧⟦{事件|じけん}→事件：01568_jiken⟧⟦の→の：09472_no⟧⟦{分析|ぶんせき}→分析：03610_bunseki⟧⟦に→に：00314_ni⟧⟦{協力|きょうりょく}した→協力する：25370_kyouryokusuru⟧。",
       "english": "A criminal psychology expert assisted with the analysis of the case.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nThe word breaks down as {心理|しんり} (psychology, mental state) + {学|がく} (study, -ology). {心理学|しんりがく} refers specifically to psychology as an academic discipline, while {心理|しんり} alone refers to the psychological state or mindset of a person.\n\nBranches commonly discussed include {臨床|りんしょう}{心理学|しんりがく} (clinical psychology), {発達|はったつ}{心理学|しんりがく} (developmental psychology), and {社会|しゃかい}{心理学|しんりがく} (social psychology).\n\nCOMMON COLLOCATIONS:\n- {心理学|しんりがく}{者|しゃ}: psychologist\n- {心理学|しんりがく}{部|ぶ}: psychology department\n- {心理学|しんりがく}を{専攻|せんこう}する: to major in psychology\n- {臨床|りんしょう}{心理学|しんりがく}: clinical psychology",
+  "notes": "USAGE:\nThe word breaks down as ⟦{心理|しんり}→心理：03332_shinri⟧ (psychology, mental state) + ⟦{学|がく}→〜学：09846_gaku⟧ (study, -ology). {心理学|しんりがく} refers specifically to psychology as an academic discipline, while ⟦{心理|しんり}→心理：03332_shinri⟧ alone refers to the psychological state or mindset of a person.\n\nBranches commonly discussed include ⟦{臨床|りんしょう}→臨床：13975_rinshou⟧{心理学|しんりがく} (clinical psychology), ⟦{発達|はったつ}→発達：03559_hattatsu⟧{心理学|しんりがく} (developmental psychology), and ⟦{社会|しゃかい}→社会：01427_shakai⟧{心理学|しんりがく} (social psychology).\n\nCOMMON COLLOCATIONS:\n- {心理学|しんりがく}⟦{者|しゃ}→〜者：04662_sha⟧: psychologist\n- {心理学|しんりがく}{部|ぶ}: psychology department\n- {心理学|しんりがく}⟦を→を：00422_wo⟧⟦{専攻|せんこう}→専攻：01587_senkou⟧⟦する→する：00392_suru⟧: to major in psychology\n- ⟦{臨床|りんしょう}→臨床：13975_rinshou⟧{心理学|しんりがく}: clinical psychology",
   "cross_references": [
     {
       "type": "related",
@@ -46,19 +52,39 @@
       "reading": "しんり",
       "headword": "{心理|しんり}",
       "label": "psychology, mental state"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23726_shinrigenshou",
+      "reading": "しんりげんしょう",
+      "headword": "{心理現象|しんりげんしょう}",
+      "label": "psychological phenomenon"
+    },
+    {
+      "type": "related",
+      "target_id": "23843_shakaigaku",
+      "reading": "しゃかいがく",
+      "headword": "{社会学|しゃかいがく}",
+      "label": "sociology"
     }
   ],
   "metadata": {
     "created": "2026-02-22T05:28:21Z",
-    "modified": "2026-04-27T07:31:57Z",
+    "modified": "2026-09-02T04:01:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["education"],
-      "domain": ["academic"]
+      "semantic": [
+        "education"
+      ],
+      "domain": [
+        "academic"
+      ]
     }
   }
 }

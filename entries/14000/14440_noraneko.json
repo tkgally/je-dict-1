@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "14440_noraneko_ex1",
-      "japanese": "{公園|こうえん}に{野良猫|のらねこ}がいた。",
+      "japanese": "⟦{公園|こうえん}→公園：00581_kouen⟧⟦に→に：00314_ni⟧{野良猫|のらねこ}がいた。",
       "english": "There was a stray cat in the park.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "14440_noraneko_ex2",
-      "japanese": "{野良猫|のらねこ}に{餌|えさ}をやる{人|ひと}がいる。",
+      "japanese": "{野良猫|のらねこ}⟦に→に：00314_ni⟧⟦{餌|えさ}→餌：01886_esa⟧⟦を→を：00422_wo⟧⟦やる→やる：02980_yaru⟧⟦{人|ひと}→人：00476_hito⟧⟦が→が：00051_ga⟧⟦いる→いる：00495_iru⟧。",
       "english": "There are people who feed the stray cats.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "14440_noraneko_ex3",
-      "japanese": "{近所|きんじょ}の{野良猫|のらねこ}を{保護|ほご}して、{動物病院|どうぶつびょういん}に{連|つ}れて{行|い}った。",
+      "japanese": "⟦{近所|きんじょ}→近所：01318_kinjo⟧⟦の→の：09472_no⟧{野良猫|のらねこ}⟦を→を：00422_wo⟧⟦{保護|ほご}して→保護する：25374_hogosuru⟧、⟦{動物病院|どうぶつびょういん}→動物病院：15638_doubutsubyouin⟧⟦に→に：00314_ni⟧⟦{連|つ}れて→連れる：01240_tsureru⟧⟦{行|い}った→行く：00119_iku⟧。",
       "english": "I rescued a neighborhood stray cat and took it to the animal hospital.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "A compound of {野良|のら} (stray, ownerless — originally meaning \"field\") and {猫|ねこ} (cat).\n\nCOMMON COLLOCATIONS:\n- {野良猫|のらねこ}に{餌|えさ}をやる (to feed stray cats)\n- {野良猫|のらねこ}を{保護|ほご}する (to rescue a stray cat)\n- {野良猫|のらねこ}の{世話|せわ} (caring for stray cats)\n- {地域|ちいき}{猫|ねこ} (community cat — managed stray cat)\n\nIn Japan, the issue of {野良猫|のらねこ} is a significant community topic. Many neighborhoods have volunteer groups that practice TNR ({捕獲|ほかく}・{不妊|ふにん}{手術|しゅじゅつ}・{返還|へんかん}: trap-neuter-return) and manage stray cat populations as {地域|ちいき}{猫|ねこ} (community cats). The related term {野良犬|のらいぬ} means \"stray dog.\"",
+  "notes": "A compound of {野良|のら} (stray, ownerless — originally meaning \"field\") and ⟦{猫|ねこ}→猫：02237_neko⟧ (cat).\n\nCOMMON COLLOCATIONS:\n- {野良猫|のらねこ}⟦に→に：00314_ni⟧⟦{餌|えさ}→餌：01886_esa⟧⟦を→を：00422_wo⟧⟦やる→やる：02980_yaru⟧ (to feed stray cats)\n- {野良猫|のらねこ}⟦を→を：00422_wo⟧⟦{保護|ほご}する→保護する：25374_hogosuru⟧ (to rescue a stray cat)\n- {野良猫|のらねこ}⟦の→の：09472_no⟧⟦{世話|せわ}→世話：02088_sewa⟧ (caring for stray cats)\n- ⟦{地域|ちいき}→地域：01461_chiiki⟧⟦{猫|ねこ}→猫：02237_neko⟧ (community cat — managed stray cat)\n\nIn Japan, the issue of {野良猫|のらねこ} is a significant community topic. Many neighborhoods have volunteer groups that practice TNR (⟦{捕獲|ほかく}→捕獲：12881_hokaku⟧・⟦{不妊|ふにん}→不妊：15818_funin⟧⟦{手術|しゅじゅつ}→手術：03218_shujutsu⟧・⟦{返還|へんかん}→返還：14357_henkan⟧: trap-neuter-return) and manage stray cat populations as ⟦{地域|ちいき}→地域：01461_chiiki⟧⟦{猫|ねこ}→猫：02237_neko⟧ (community cats). The related term ⟦{野良犬|のらいぬ}→野良犬：14464_norainu⟧ means \"stray dog.\"",
   "cross_references": [
     {
       "type": "related",
@@ -59,11 +59,18 @@
       "reading": "のらいぬ",
       "headword": "{野良犬|のらいぬ}",
       "label": "stray dog"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29324_suteneko",
+      "reading": "すてねこ",
+      "headword": "{捨|す}て{猫|ねこ}",
+      "label": "abandoned cat"
     }
   ],
   "metadata": {
     "created": "2026-03-01T09:36:33Z",
-    "modified": "2026-04-30T07:28:10Z",
+    "modified": "2026-09-02T04:01:37Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

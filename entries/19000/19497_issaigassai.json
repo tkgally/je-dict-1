@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "19497_issaigassai_ex1",
-      "japanese": "{一切合切|いっさいがっさい}{捨|す}ててしまった。",
+      "japanese": "{一切合切|いっさいがっさい}⟦{捨|す}てて→捨てる：00892_suteru⟧しまった。",
       "english": "I threw away absolutely everything.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "19497_issaigassai_ex2",
-      "japanese": "{引|ひ}っ{越|こ}しの{時|とき}に{一切合切|いっさいがっさい}{処分|しょぶん}した。",
+      "japanese": "{引|ひ}っ{越|こ}し⟦の→の：09472_no⟧{時|とき}⟦に→に：00314_ni⟧{一切合切|いっさいがっさい}⟦{処分|しょぶん}→処分：05520_shobun⟧⟦した→する：00392_suru⟧。",
       "english": "I disposed of the whole lot when I moved.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "19497_issaigassai_ex3",
-      "japanese": "{過去|かこ}のことは{一切合切|いっさいがっさい}{忘|わす}れて、{新|あたら}しい{生活|せいかつ}を{始|はじ}めたい。",
+      "japanese": "⟦{過去|かこ}→過去：00152_kako⟧⟦の→の：09472_no⟧こと⟦は→は：00079_ha⟧{一切合切|いっさいがっさい}⟦{忘|わす}れて→忘れる：00474_wasureru⟧、⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦{生活|せいかつ}→生活：01443_seikatsu⟧⟦を→を：00422_wo⟧{始|はじ}めたい。",
       "english": "I want to forget absolutely everything about the past and start a new life.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "A rhyming emphatic doubling of {一切|いっさい} (everything, all). The addition of {合切|がっさい} intensifies the meaning, emphasizing completeness — nothing is excluded. The rhythmic quality gives it a decisive, forceful tone.\n\nUSAGE:\nUsed when emphasizing that something applies to every single thing without exception. Often appears with verbs of disposal, forgetting, or giving up. More dramatic and emphatic than {全部|ぜんぶ} or {一切|いっさい} alone.\n\nCOMMON COLLOCATIONS:\n- {一切合切|いっさいがっさい}{捨|す}てる — to throw away everything\n- {一切合切|いっさいがっさい}{任|まか}せる — to entrust everything\n- {一切合切|いっさいがっさい}{持|も}っていく — to take absolutely everything\n\nSIMILAR WORDS:\n- {一切|いっさい} — all, everything; less emphatic, also used with negatives ({一切|いっさい}ない)\n- {全部|ぜんぶ} — all, everything; neutral and everyday\n- {根|ね}こそぎ — completely, from the roots; implies thorough removal",
+  "notes": "A rhyming emphatic doubling of ⟦{一切|いっさい}→一切：06662_issai⟧ (everything, all). The addition of ⟦{合切|がっさい}→合切：24150_gassai⟧ intensifies the meaning, emphasizing completeness — nothing is excluded. The rhythmic quality gives it a decisive, forceful tone.\n\nUSAGE:\nUsed when emphasizing that something applies to every single thing without exception. Often appears with verbs of disposal, forgetting, or giving up. More dramatic and emphatic than ⟦{全部|ぜんぶ}→全部：02888_zenbu⟧ or ⟦{一切|いっさい}→一切：06662_issai⟧ alone.\n\nCOMMON COLLOCATIONS:\n- {一切合切|いっさいがっさい}⟦{捨|す}てる→捨てる：00892_suteru⟧ — to throw away everything\n- {一切合切|いっさいがっさい}⟦{任|まか}せる→任せる：02417_makaseru⟧ — to entrust everything\n- {一切合切|いっさいがっさい}⟦{持|も}っていく→持っていく：27431_motteiku⟧ — to take absolutely everything\n\nSIMILAR WORDS:\n- ⟦{一切|いっさい}→一切：06662_issai⟧ — all, everything; less emphatic, also used with negatives (⟦{一切|いっさい}→一切：06662_issai⟧⟦ない→ない：01118_nai⟧)\n- ⟦{全部|ぜんぶ}→全部：02888_zenbu⟧ — all, everything; neutral and everyday\n- {根|ね}こそぎ — completely, from the roots; implies thorough removal",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02888_zenbu",
+      "reading": "ぜんぶ",
+      "headword": "{全部|ぜんぶ}",
+      "label": "all, everything"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +69,6 @@
       ]
     },
     "created": "2026-03-26T02:39:46Z",
-    "modified": "2026-03-26T02:39:46Z"
+    "modified": "2026-09-02T04:01:56Z"
   }
 }

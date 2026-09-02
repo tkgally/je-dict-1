@@ -3,7 +3,7 @@
   "headword": "導電",
   "reading": "どうでん",
   "romaji": "douden",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "electrical conduction; conducting electricity",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30048_douden_ex1",
-      "japanese": "{金属|きんぞく}は{電気|でんき}を{導電|どうでん}する。",
+      "japanese": "⟦{金属|きんぞく}→金属：02645_kinzoku⟧⟦は→は：00079_ha⟧⟦{電気|でんき}→電気：09780_denki⟧⟦を→を：00422_wo⟧{導電|どうでん}⟦する→する：00392_suru⟧。",
       "english": "Metals conduct electricity.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30048_douden_ex2",
-      "japanese": "この{素材|そざい}は{導電|どうでん}{性|せい}が{高|たか}い。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{素材|そざい}→素材：09492_sozai⟧⟦は→は：00079_ha⟧{導電|どうでん}⟦{性|せい}→性：09880_sei⟧⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧。",
       "english": "This material has high conductivity.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30048_douden_ex3",
-      "japanese": "{電気|でんき}をよく{導電|どうでん}する{材料|ざいりょう}を{探|さが}している。",
+      "japanese": "⟦{電気|でんき}→電気：09780_denki⟧⟦を→を：00422_wo⟧⟦よく→よく：00601_yoku⟧{導電|どうでん}⟦する→する：00392_suru⟧⟦{材料|ざいりょう}→材料：02831_zairyou⟧⟦を→を：00422_wo⟧⟦{探|さが}している→探す：00493_sagasu⟧。",
       "english": "We are looking for a material that conducts electricity well.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Formed from {導|どう} (to lead, guide) + {電|でん} (electricity). Most often seen in the compound {導電性|どうでんせい} (electrical conductivity).\n\nCOMMON COLLOCATIONS:\n- {導電|どうでん}{性|せい}: electrical conductivity\n- {導電|どうでん}{体|たい}: conductor (of electricity)\n- {導電|どうでん}{材料|ざいりょう}: conductive material\n\nSIMILAR WORDS:\n- {絶縁|ぜつえん}: insulation — the opposite property, blocking current\n- {通電|つうでん}: energizing — passing current through a circuit to power it",
+  "notes": "Formed from {導|どう} (to lead, guide) + {電|でん} (electricity). Most often seen in the compound {導電性|どうでんせい} (electrical conductivity).\n\nCOMMON COLLOCATIONS:\n- {導電|どうでん}⟦{性|せい}→性：09880_sei⟧: electrical conductivity\n- {導電|どうでん}⟦{体|たい}→体：09872_tai⟧: conductor (of electricity)\n- {導電|どうでん}⟦{材料|ざいりょう}→材料：02831_zairyou⟧: conductive material\n\nSIMILAR WORDS:\n- ⟦{絶縁|ぜつえん}→絶縁：08374_zetsuen⟧: insulation — the opposite property, blocking current\n- ⟦{通電|つうでん}→通電：30050_tsuuden⟧: energizing — passing current through a circuit to power it",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08374_zetsuen",
+      "reading": "ぜつえん",
+      "headword": "{絶縁|ぜつえん}",
+      "label": "insulation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30050_tsuuden",
+      "reading": "つうでん",
+      "headword": "{通電|つうでん}",
+      "label": "energizing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26620_dendou",
+      "reading": "でんどう",
+      "headword": "{電導|でんどう}",
+      "label": "electrical conduction"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -54,17 +77,18 @@
         "verb-suru"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "science"
       ],
       "domain": [
         "technical"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-07-22T12:20:02Z",
-    "modified": "2026-07-22T12:20:02Z"
+    "modified": "2026-09-02T04:02:38Z"
   },
   "conjugation": {
     "type": "suru",

@@ -15,39 +15,50 @@
   "examples": [
     {
       "id": "26154_ittsuu_ex1",
-      "japanese": "{手紙|てがみ}が{一通|いっつう}{届|とど}いた。",
+      "japanese": "⟦{手紙|てがみ}→手紙：00675_tegami⟧⟦が→が：00051_ga⟧{一通|いっつう}⟦{届|とど}いた→届く：00899_todoku⟧。",
       "english": "One letter arrived.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26154_ittsuu_ex2",
-      "japanese": "{一通|いっつう}のメールが{人生|じんせい}を{変|か}えた。",
+      "japanese": "{一通|いっつう}⟦の→の：09472_no⟧⟦メール→メール：04435_meeru⟧⟦が→が：00051_ga⟧⟦{人生|じんせい}→人生：03355_jinsei⟧⟦を→を：00422_wo⟧⟦{変|か}えた→変える：01089_kaeru⟧。",
       "english": "A single email changed my life.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26154_ittsuu_ex3",
-      "japanese": "{契約書|けいやくしょ}を{一通|いっつう}ずつ{保管|ほかん}してください。",
+      "japanese": "⟦{契約書|けいやくしょ}→契約書：06416_keiyakusho⟧⟦を→を：00422_wo⟧{一通|いっつう}⟦ずつ→〜ずつ：03092_zutsu⟧⟦{保管|ほかん}して→保管する：25536_hokansuru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please keep one copy each of the contract.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Uses the counter {通|つう}, which counts letters, emails, documents, and written communications. The reading of {一|いっ} changes to いっ before つ due to sound change ({促音便|そくおんびん}).\n\nCOUNTING PATTERN:\n- {一通|いっつう}: one letter/document\n- {二通|につう}: two\n- {三通|さんつう}: three\n- {四通|よんつう}: four\n- {五通|ごつう}: five\n- {何通|なんつう}: how many letters/documents?\n\nNote: {一通|ひととお}り is a different word with a different reading, meaning \"generally; the whole thing; one way.\" Do not confuse the two.\n\nCOMMON COLLOCATIONS:\n- {手紙|てがみ}が{一通|いっつう}: one letter\n- メール{一通|いっつう}: one email\n- {書類|しょるい}を{一通|いっつう}: one document\n- {一通|いっつう}も{届|とど}かない: not a single letter arrives",
+  "notes": "Uses the counter ⟦{通|つう}→〜通：04025_tsuu⟧, which counts letters, emails, documents, and written communications. The reading of {一|いっ} changes to いっ before つ due to sound change ({促音便|そくおんびん}).\n\nCOUNTING PATTERNS:\n- {一通|いっつう}: one letter/document\n- {二通|につう}: two\n- {三通|さんつう}: three\n- {四通|よんつう}: four\n- {五通|ごつう}: five\n- {何通|なんつう}: how many letters/documents?\n\nNote: {一通|ひととお}り is a different word with a different reading, meaning \"generally; the whole thing; one way.\" Do not confuse the two.\n\nCOMMON COLLOCATIONS:\n- ⟦{手紙|てがみ}→手紙：00675_tegami⟧⟦が→が：00051_ga⟧{一通|いっつう}: one letter\n- ⟦メール→メール：04435_meeru⟧{一通|いっつう}: one email\n- ⟦{書類|しょるい}→書類：01103_shorui⟧⟦を→を：00422_wo⟧{一通|いっつう}: one document\n- {一通|いっつう}⟦も→も：00484_mo⟧⟦{届|とど}かない→届く：00899_todoku⟧: not a single letter arrives",
   "cross_references": [],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["counter"],
-      "semantic": ["communication"]
+      "pos": [
+        "counter"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "communication"
+      ]
     },
     "created": "2026-04-29T15:29:44Z",
-    "modified": "2026-04-29T15:29:44Z"
+    "modified": "2026-09-02T04:02:25Z"
   }
 }

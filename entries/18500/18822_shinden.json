@@ -15,43 +15,97 @@
   "examples": [
     {
       "id": "18822_shinden_ex1",
-      "japanese": "ギリシャの{神殿|しんでん}を{訪|おとず}れた。",
+      "japanese": "⟦ギリシャ→ギリシャ：28897_girisha⟧⟦の→の：09472_no⟧{神殿|しんでん}⟦を→を：00422_wo⟧⟦{訪|おとず}れた→訪れる：07678_otozureru⟧。",
       "english": "I visited a Greek temple.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "18822_shinden_ex2",
-      "japanese": "{古代|こだい}エジプトの{神殿|しんでん}が{発掘|はっくつ}された。",
+      "japanese": "⟦{古代|こだい}→古代：05324_kodai⟧エジプト⟦の→の：09472_no⟧{神殿|しんでん}⟦が→が：00051_ga⟧⟦{発掘|はっくつ}→発掘：07995_hakkutsu⟧⟦された→する：00392_suru⟧。",
       "english": "An ancient Egyptian temple was excavated.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "18822_shinden_ex3",
-      "japanese": "{神殿|しんでん}の{柱|はしら}には{美|うつく}しい{彫刻|ちょうこく}が{施|ほどこ}されていた。",
+      "japanese": "{神殿|しんでん}⟦の→の：09472_no⟧⟦{柱|はしら}→柱：05009_hashira⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{美|うつく}しい→美しい：01121_utsukushii⟧⟦{彫刻|ちょうこく}→彫刻：04448_choukoku⟧⟦が→が：00051_ga⟧⟦{施|ほどこ}されていた→施す：12985_hodokosu⟧。",
       "english": "The columns of the temple were adorned with beautiful carvings.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "{神殿|しんでん} refers to a building dedicated to enshrining or worshipping a deity. It covers both foreign temples and the sacred inner buildings of Shinto shrines.\n\nCOMMON USES:\n- パルテノン{神殿|しんでん}: the Parthenon\n- ルクソール{神殿|しんでん}: Luxor Temple\n- {神社|じんじゃ}の{神殿|しんでん}: the sacred hall of a Shinto shrine\n\nRELATED TERMS:\n- {神社|じんじゃ}: Shinto shrine (the whole complex)\n- {本殿|ほんでん}: main hall of a shrine (where the deity resides)\n- {寺|てら}/{寺院|じいん}: Buddhist temple\n- {教会|きょうかい}: church\n\nUSAGE:\nFor ancient foreign temples (Greek, Egyptian, Roman), {神殿|しんでん} is the standard translation. In a Shinto context, it refers specifically to the innermost building where the deity is enshrined, not the shrine grounds as a whole.",
+  "notes": "{神殿|しんでん} refers to a building dedicated to enshrining or worshipping a deity. It covers both foreign temples and the sacred inner buildings of Shinto shrines.\n\nCOMMON COLLOCATIONS:\n- パルテノン{神殿|しんでん}: the Parthenon\n- ルクソール{神殿|しんでん}: Luxor Temple\n- ⟦{神社|じんじゃ}→神社：01620_jinja⟧⟦の→の：09472_no⟧{神殿|しんでん}: the sacred hall of a Shinto shrine\n\nRELATED WORDS:\n- ⟦{神社|じんじゃ}→神社：01620_jinja⟧: Shinto shrine (the whole complex)\n- ⟦{本殿|ほんでん}→本殿：13090_honden⟧: main hall of a shrine (where the deity resides)\n- ⟦{寺|てら}→寺：01676_tera⟧/⟦{寺院|じいん}→寺院：00122_jiin⟧: Buddhist temple\n- ⟦{教会|きょうかい}→教会：01387_kyoukai⟧: church\n\nUSAGE:\nFor ancient foreign temples (Greek, Egyptian, Roman), {神殿|しんでん} is the standard translation. In a Shinto context, it refers specifically to the innermost building where the deity is enshrined, not the shrine grounds as a whole.",
   "synonyms": [],
   "antonyms": [],
   "related": [],
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "01620_jinja",
+      "reading": "じんじゃ",
+      "headword": "{神社|じんじゃ}",
+      "label": "Shinto shrine"
+    },
+    {
+      "type": "related",
+      "target_id": "13090_honden",
+      "reading": "ほんでん",
+      "headword": "{本殿|ほんでん}",
+      "label": "main hall of a shrine"
+    },
+    {
+      "type": "related",
+      "target_id": "01676_tera",
+      "reading": "てら",
+      "headword": "{寺|てら}",
+      "label": "Buddhist temple"
+    },
+    {
+      "type": "related",
+      "target_id": "00122_jiin",
+      "reading": "じいん",
+      "headword": "{寺院|じいん}",
+      "label": "Buddhist temple"
+    },
+    {
+      "type": "related",
+      "target_id": "01387_kyoukai",
+      "reading": "きょうかい",
+      "headword": "{教会|きょうかい}",
+      "label": "church"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26627_saiden",
+      "reading": "さいでん",
+      "headword": "{祭殿|さいでん}",
+      "label": "ceremonial hall"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["building"]
+      "semantic": [
+        "building"
+      ]
     },
     "created": "2026-03-23T04:45:09Z",
-    "modified": "2026-03-29T05:39:31Z"
+    "modified": "2026-09-02T04:01:53Z"
   }
 }

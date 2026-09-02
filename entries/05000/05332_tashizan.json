@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{足|た}し{算|ざん} means addition (mathematical operation).\n\nWORD FORMATION:\n⟦{足|た}す→足す：01168_tasu⟧ (to add) + ⟦{算|さん}→算：noentry⟧ (calculation)\n\nFOUR BASIC OPERATIONS (⟦{四則|しそく}→四則：28865_shisoku⟧⟦{演算|えんざん}→演算：05150_enzan⟧):\n- {足|た}し{算|ざん}: addition (+)\n- ⟦{引|ひ}き{算|ざん}→引き算：05333_hikizan⟧: subtraction (−)\n- ⟦{掛|か}け{算|ざん}→掛け算：05334_kakezan⟧: multiplication (×)\n- ⟦{割|わ}り{算|ざん}→割り算：05335_warizan⟧: division (÷)\n\nRELATED EXPRESSIONS:\n- 1⟦{足|た}す→足す：01168_tasu⟧1⟦は→は：00079_ha⟧2: 1 plus 1 equals 2\n- ⟦{答|こた}え→答え：00790_kotae⟧: answer\n- ⟦{計算|けいさん}→計算：02697_keisan⟧: calculation\n- ⟦{暗算|あんざん}→暗算：15852_anzan⟧: mental arithmetic\n- ⟦{筆算|ひっさん}→筆算：20135_hissan⟧: written calculation\n\nCONTEXT:\nThese terms are commonly learned in elementary school (⟦{小学校|しょうがっこう}→小学校：01055_shougakkou⟧) and used when teaching children basic math.",
+  "notes": "{足|た}し{算|ざん} means addition (mathematical operation).\n\nFORMS:\n⟦{足|た}す→足す：01168_tasu⟧ (to add) + ⟦{算|さん}→算：noentry⟧ (calculation)\n\nFOUR BASIC OPERATIONS (⟦{四則|しそく}→四則：28865_shisoku⟧⟦{演算|えんざん}→演算：05150_enzan⟧):\n- {足|た}し{算|ざん}: addition (+)\n- ⟦{引|ひ}き{算|ざん}→引き算：05333_hikizan⟧: subtraction (−)\n- ⟦{掛|か}け{算|ざん}→掛け算：05334_kakezan⟧: multiplication (×)\n- ⟦{割|わ}り{算|ざん}→割り算：05335_warizan⟧: division (÷)\n\nRELATED WORDS:\n- 1⟦{足|た}す→足す：01168_tasu⟧1⟦は→は：00079_ha⟧2: 1 plus 1 equals 2\n- ⟦{答|こた}え→答え：00790_kotae⟧: answer\n- ⟦{計算|けいさん}→計算：02697_keisan⟧: calculation\n- ⟦{暗算|あんざん}→暗算：15852_anzan⟧: mental arithmetic\n- ⟦{筆算|ひっさん}→筆算：20135_hissan⟧: written calculation\n\nUSAGE:\nThese terms are commonly learned in elementary school (⟦{小学校|しょうがっこう}→小学校：01055_shougakkou⟧) and used when teaching children basic math.",
   "cross_references": [
     {
       "type": "antonym",
@@ -65,11 +65,53 @@
       "reading": "わりざん",
       "headword": "{割|わ}り{算|ざん}",
       "label": "division"
+    },
+    {
+      "type": "related",
+      "target_id": "00790_kotae",
+      "reading": "こたえ",
+      "headword": "{答|こた}え",
+      "label": "answer"
+    },
+    {
+      "type": "related",
+      "target_id": "02697_keisan",
+      "reading": "けいさん",
+      "headword": "{計算|けいさん}",
+      "label": "calculation"
+    },
+    {
+      "type": "related",
+      "target_id": "15852_anzan",
+      "reading": "あんざん",
+      "headword": "{暗算|あんざん}",
+      "label": "mental arithmetic"
+    },
+    {
+      "type": "related",
+      "target_id": "20135_hissan",
+      "reading": "ひっさん",
+      "headword": "{筆算|ひっさん}",
+      "label": "written calculation"
+    },
+    {
+      "type": "related",
+      "target_id": "01168_tasu",
+      "reading": "たす",
+      "headword": "{足|た}す",
+      "label": "to add"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24884_kasan",
+      "reading": "かさん",
+      "headword": "{加算|かさん}",
+      "label": "addition"
     }
   ],
   "metadata": {
     "created": "2026-01-16T05:20:28Z",
-    "modified": "2026-08-20T06:21:38Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

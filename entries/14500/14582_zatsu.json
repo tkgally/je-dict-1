@@ -3,7 +3,7 @@
   "id": "14582_zatsu",
   "headword": "{雑|ざつ}",
   "reading": "ざつ",
-  "part_of_speech": "adjective-na",
+  "part_of_speech": "na-adjective",
   "gloss": "rough; sloppy; careless",
   "definitions": [
     {
@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "14582_zatsu_ex1",
-      "japanese": "{仕事|しごと}が{雑|ざつ}だ。",
+      "japanese": "⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦が→が：00051_ga⟧{雑|ざつ}だ。",
       "english": "The work is sloppy.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14582_zatsu_ex2",
-      "japanese": "{扱|あつか}いが{雑|ざつ}だから{壊|こわ}れたんだよ。",
+      "japanese": "⟦{扱|あつか}い→扱い：12777_atsukai⟧⟦が→が：00051_ga⟧{雑|ざつ}だ⟦から→から：00504_kara⟧⟦{壊|こわ}れた→壊れる：00791_kowareru⟧んだ⟦よ→よ：09475_yo⟧。",
       "english": "It broke because you handled it so roughly.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14582_zatsu_ex3",
-      "japanese": "{性格|せいかく}は{明|あか}るいが、やることが{雑|ざつ}なので{周|まわ}りに{迷惑|めいわく}をかけることがある。",
+      "japanese": "⟦{性格|せいかく}→性格：03371_seikaku⟧⟦は→は：00079_ha⟧⟦{明|あか}るい→明るい：00616_akarui⟧⟦が→が：00051_ga⟧、⟦やる→やる：02980_yaru⟧こと⟦が→が：00051_ga⟧{雑|ざつ}な⟦の→の：09472_no⟧で⟦{周|まわ}り→周り：01732_mawari⟧⟦に→に：00314_ni⟧⟦{迷惑|めいわく}→迷惑：02432_meiwaku⟧⟦を→を：00422_wo⟧⟦かける→かける：00854_kakeru⟧こと⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "She has a cheerful personality, but she does things so carelessly that she sometimes causes trouble for those around her.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\n{雑|ざつ} is very common in everyday speech. It is a na-adjective that describes the quality of someone's work, handling, or approach as lacking attention and care. It is always negative.\n\nCOMMON COLLOCATIONS:\n- {仕事|しごと}が{雑|ざつ} (work is sloppy)\n- {扱|あつか}いが{雑|ざつ} (handling is rough)\n- {雑|ざつ}にやる (to do something carelessly)\n- {雑|ざつ}な{性格|せいかく} (careless personality)\n\nSIMILAR WORDS:\n- {雑|ざつ}: rough, sloppy (lacking care and attention)\n- {適当|てきとう}: halfhearted, not serious (also means \"appropriate\" in other contexts)\n- {大雑把|おおざっぱ}: rough, broad-strokes (less negative; can mean \"big-picture oriented\")",
+  "notes": "USAGE:\n{雑|ざつ} is very common in everyday speech. It is a na-adjective that describes the quality of someone's work, handling, or approach as lacking attention and care. It is always negative.\n\nCOMMON COLLOCATIONS:\n- ⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦が→が：00051_ga⟧{雑|ざつ} (work is sloppy)\n- ⟦{扱|あつか}い→扱い：12777_atsukai⟧⟦が→が：00051_ga⟧{雑|ざつ} (handling is rough)\n- {雑|ざつ}⟦に→に：00314_ni⟧⟦やる→やる：02980_yaru⟧ (to do something carelessly)\n- {雑|ざつ}な⟦{性格|せいかく}→性格：03371_seikaku⟧ (careless personality)\n\nSIMILAR WORDS:\n- {雑|ざつ}: rough, sloppy (lacking care and attention)\n- ⟦{適当|てきとう}→適当：01674_tekitou⟧: halfhearted, not serious (also means \"appropriate\" in other contexts)\n- ⟦{大雑把|おおざっぱ}→大雑把：06867_oozappa⟧: rough, broad-strokes (less negative; can mean \"big-picture oriented\")",
   "cross_references": [
     {
       "type": "synonym",
@@ -60,18 +66,36 @@
       "reading": "ていねい",
       "headword": "{丁寧|ていねい}",
       "label": "polite, careful"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03323_somatsu",
+      "reading": "そまつ",
+      "headword": "{粗末|そまつ}",
+      "label": "crude, rough, poor quality"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07846_zonzai",
+      "reading": "ぞんざい",
+      "headword": "ぞんざい",
+      "label": "careless"
     }
   ],
   "metadata": {
     "created": "2026-03-02T07:45:32Z",
-    "modified": "2026-04-30T09:17:48Z",
+    "modified": "2026-09-02T04:01:37Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-na"],
+      "pos": [
+        "adjective-na"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["descriptive"]
+      "semantic": [
+        "descriptive"
+      ]
     }
   }
 }

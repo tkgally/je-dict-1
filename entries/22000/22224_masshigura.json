@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22224_masshigura_ex1",
-      "japanese": "{犬|いぬ}がまっしぐらに{走|はし}った。",
+      "japanese": "⟦{犬|いぬ}→犬：00632_inu⟧⟦が→が：00051_ga⟧まっしぐら⟦に→に：00314_ni⟧⟦{走|はし}った→走る：00519_hashiru⟧。",
       "english": "The dog ran straight ahead at full speed.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22224_masshigura_ex2",
-      "japanese": "{猫|ねこ}が{餌|えさ}にまっしぐらに{向|む}かった。",
+      "japanese": "⟦{猫|ねこ}→猫：02237_neko⟧⟦が→が：00051_ga⟧⟦{餌|えさ}→餌：01886_esa⟧⟦に→に：00314_ni⟧まっしぐら⟦に→に：00314_ni⟧⟦{向|む}かった→向かう：01186_mukau⟧。",
       "english": "The cat headed straight for the food.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22224_masshigura_ex3",
-      "japanese": "{彼|かれ}は{夢|ゆめ}に{向|む}かってまっしぐらに{進|すす}んでいる。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{夢|ゆめ}→夢：01519_yume⟧⟦に→に：00314_ni⟧⟦{向|む}かって→向かう：01186_mukau⟧まっしぐら⟦に→に：00314_ni⟧⟦{進|すす}んでいる→進む：01225_susumu⟧。",
       "english": "He is heading straight toward his dream without hesitation.",
       "sense_numbers": [
         1
@@ -45,7 +45,7 @@
     },
     {
       "id": "22224_masshigura_ex4",
-      "japanese": "このままでは{破滅|はめつ}にまっしぐらだ。",
+      "japanese": "⟦この→この：00962_kono⟧まま⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{破滅|はめつ}→破滅：20008_hametsu⟧⟦に→に：00314_ni⟧まっしぐらだ。",
       "english": "At this rate, we're heading straight for ruin.",
       "sense_numbers": [
         1
@@ -54,8 +54,24 @@
       "notes": null
     }
   ],
-  "notes": "An expressive adverb conveying rapid, unwavering forward movement toward a goal or destination. It can describe both physical motion (running straight ahead) and figurative pursuits (chasing a dream or heading for disaster). Often used with the particle に.\n\nCOMMON COLLOCATIONS:\n- まっしぐらに{走|はし}る: to run straight ahead\n- まっしぐらに{進|すす}む: to advance headlong\n- まっしぐらに{向|む}かう: to head straight toward\n- {破滅|はめつ}にまっしぐら: heading straight for ruin\n- {成功|せいこう}にまっしぐら: heading straight for success\n\nUSAGE:\nOften used for animals (especially cats drawn to food, a well-known image in Japanese) and for people pursuing goals with single-minded focus. Can have a positive nuance (determination) or negative nuance (recklessly heading for trouble).\n\nSIMILAR WORDS:\n- {一直線|いっちょくせん}に: in a straight line — similar meaning but more neutral, less emotional intensity\n- {一目散|いちもくさん}に: at full speed — emphasizes fleeing or rushing, often away from something",
+  "notes": "An expressive adverb conveying rapid, unwavering forward movement toward a goal or destination. It can describe both physical motion (running straight ahead) and figurative pursuits (chasing a dream or heading for disaster). Often used with the particle ⟦に→に：00314_ni⟧.\n\nCOMMON COLLOCATIONS:\n- まっしぐら⟦に→に：00314_ni⟧⟦{走|はし}る→走る：00519_hashiru⟧: to run straight ahead\n- まっしぐら⟦に→に：00314_ni⟧⟦{進|すす}む→進む：01225_susumu⟧: to advance headlong\n- まっしぐら⟦に→に：00314_ni⟧⟦{向|む}かう→向かう：01186_mukau⟧: to head straight toward\n- ⟦{破滅|はめつ}→破滅：20008_hametsu⟧⟦に→に：00314_ni⟧まっしぐら: heading straight for ruin\n- ⟦{成功|せいこう}→成功：02638_seikou⟧⟦に→に：00314_ni⟧まっしぐら: heading straight for success\n\nUSAGE:\nOften used for animals (especially cats drawn to food, a well-known image in Japanese) and for people pursuing goals with single-minded focus. Can have a positive nuance (determination) or negative nuance (recklessly heading for trouble).\n\nSIMILAR WORDS:\n- ⟦{一直線|いっちょくせん}→一直線：06953_icchokusen⟧⟦に→に：00314_ni⟧: in a straight line — similar meaning but more neutral, less emotional intensity\n- ⟦{一目散|いちもくさん}→一目散：08954_ichimokusan⟧⟦に→に：00314_ni⟧: at full speed — emphasizes fleeing or rushing, often away from something",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06953_icchokusen",
+      "reading": "いっちょくせん",
+      "headword": "{一直線|いっちょくせん}",
+      "label": "in a straight line"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08954_ichimokusan",
+      "reading": "いちもくさん",
+      "headword": "{一目散|いちもくさん}",
+      "label": "at full speed"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -69,6 +85,6 @@
       ]
     },
     "created": "2026-04-05T15:13:24Z",
-    "modified": "2026-04-10T08:28:27Z"
+    "modified": "2026-09-02T04:02:07Z"
   }
 }

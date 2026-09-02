@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "13103_saku_ex1",
-      "japanese": "{庭|にわ}に{柵|さく}を{作|つく}った。",
+      "japanese": "⟦{庭|にわ}→庭：02239_niwa⟧⟦に→に：00314_ni⟧{柵|さく}⟦を→を：00422_wo⟧⟦{作|つく}った→作る：00481_tsukuru⟧。",
       "english": "I built a fence around the garden.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "13103_saku_ex2",
-      "japanese": "{子供|こども}が{柵|さく}を{乗|の}り{越|こ}えようとしている。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧⟦が→が：00051_ga⟧{柵|さく}⟦を→を：00422_wo⟧⟦{乗|の}り{越|こ}えよう→乗り越える：04620_norikoeru⟧⟦として→として：06802_toshite⟧⟦いる→いる：00495_iru⟧。",
       "english": "A child is trying to climb over the fence.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "13103_saku_ex3",
-      "japanese": "{工事|こうじ}{現場|げんば}の{周|まわ}りに{安全|あんぜん}のための{柵|さく}が{設置|せっち}されている。",
+      "japanese": "⟦{工事|こうじ}{現場|げんば}→工事現場：26202_koujigenba⟧⟦の→の：09472_no⟧⟦{周|まわ}り→周り：01732_mawari⟧⟦に→に：00314_ni⟧⟦{安全|あんぜん}→安全：01131_anzen⟧⟦の→の：09472_no⟧⟦ため→ため：01145_tame⟧⟦の→の：09472_no⟧{柵|さく}⟦が→が：00051_ga⟧⟦{設置|せっち}→設置：09750_secchi⟧⟦されている→する：00392_suru⟧。",
       "english": "Safety barriers have been installed around the construction site.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "{柵|さく} refers to a fence, barrier, or railing — a structure with posts and rails or bars, typically with visible gaps between them.\n\nCOMMON COLLOCATIONS:\n- {柵|さく}を{設|もう}ける: to set up a fence/barrier\n- {柵|さく}を{越|こ}える: to go over a fence\n- {柵|さく}を{設置|せっち}する: to install a barrier\n- {柵|さく}で{囲|かこ}む: to enclose with a fence\n\nTYPES:\n- {鉄|てつ}{柵|さく}: iron fence/railing\n- {防護|ぼうご}{柵|さく}: protective barrier\n- {木|き}{柵|さく}: wooden fence\n- {電気|でんき}{柵|さく}: electric fence\n\nSIMILAR WORDS:\n- {塀|へい}: a solid wall (concrete, stone) with no gaps\n- {柵|さく}: a fence or railing with gaps between bars or boards\n- {垣根|かきね}: a hedge or garden fence, often natural",
+  "notes": "{柵|さく} refers to a fence, barrier, or railing — a structure with posts and rails or bars, typically with visible gaps between them.\n\nCOMMON COLLOCATIONS:\n- {柵|さく}⟦を→を：00422_wo⟧⟦{設|もう}ける→設ける：14220_moukeru⟧: to set up a fence/barrier\n- {柵|さく}⟦を→を：00422_wo⟧⟦{越|こ}える→越える：02099_koeru⟧: to go over a fence\n- {柵|さく}⟦を→を：00422_wo⟧⟦{設置|せっち}する→設置する：26989_secchisuru⟧: to install a barrier\n- {柵|さく}⟦で→で：00502_de⟧⟦{囲|かこ}む→囲む：02037_kakomu⟧: to enclose with a fence\n\nTYPES:\n- {鉄|てつ}{柵|さく}: iron fence/railing\n- ⟦{防護|ぼうご}{柵|さく}→防護柵：23820_bougosaku⟧: protective barrier\n- {木|き}{柵|さく}: wooden fence\n- ⟦{電気|でんき}→電気：09780_denki⟧{柵|さく}: electric fence\n\nSIMILAR WORDS:\n- ⟦{塀|へい}→塀：03613_hei⟧: a solid wall (concrete, stone) with no gaps\n- {柵|さく}: a fence or railing with gaps between bars or boards\n- ⟦{垣根|かきね}→垣根：00149_kakine⟧: a hedge or garden fence, often natural",
   "cross_references": [
     {
       "type": "contrast",
@@ -59,11 +59,46 @@
       "reading": "かきね",
       "headword": "{垣根|かきね}",
       "label": "hedge, garden fence"
+    },
+    {
+      "type": "related",
+      "target_id": "12039_kakoi",
+      "reading": "かこい",
+      "headword": "{囲|かこ}い",
+      "label": "enclosure, fence, pen"
+    },
+    {
+      "type": "related",
+      "target_id": "21110_kirimi",
+      "reading": "きりみ",
+      "headword": "{切|き}り{身|み}",
+      "label": "fillet"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26996_fensu",
+      "reading": "ふぇんす",
+      "headword": "フェンス",
+      "label": "fence"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27630_itagaki",
+      "reading": "いたがき",
+      "headword": "{板垣|いたがき}",
+      "label": "wooden board fence"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28564_ori",
+      "reading": "おり",
+      "headword": "{檻|おり}",
+      "label": "cage"
     }
   ],
   "metadata": {
     "created": "2026-02-23T11:16:43Z",
-    "modified": "2026-08-24T00:38:19Z",
+    "modified": "2026-09-02T04:01:31Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

@@ -3,7 +3,7 @@
   "headword": "{初公開|はつこうかい}",
   "reading": "はつこうかい",
   "romaji": "hatsukoukai",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "first public showing; debut exhibition",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "18413_hatsukoukai_ex1",
-      "japanese": "{新作|しんさく}が{初公開|はつこうかい}された。",
+      "japanese": "⟦{新作|しんさく}→新作：09523_shinsaku⟧⟦が→が：00051_ga⟧{初公開|はつこうかい}⟦された→する：00392_suru⟧。",
       "english": "The new work was unveiled for the first time.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "18413_hatsukoukai_ex2",
-      "japanese": "{映画|えいが}の{初公開|はつこうかい}は{来月|らいげつ}の{予定|よてい}だ。",
+      "japanese": "⟦{映画|えいが}→映画：02273_eiga⟧⟦の→の：09472_no⟧{初公開|はつこうかい}⟦は→は：00079_ha⟧⟦{来月|らいげつ}→来月：00744_raigetsu⟧⟦の→の：09472_no⟧⟦{予定|よてい}→予定：00824_yotei⟧だ。",
       "english": "The film's premiere is scheduled for next month.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "18413_hatsukoukai_ex3",
-      "japanese": "{国宝|こくほう}の{絵画|かいが}が{修復後|しゅうふくご}{初|はじ}めて{初公開|はつこうかい}され、{多|おお}くの{来場者|らいじょうしゃ}が{訪|おとず}れた。",
+      "japanese": "⟦{国宝|こくほう}→国宝：09642_kokuhou⟧⟦の→の：09472_no⟧⟦{絵画|かいが}→絵画：02597_kaiga⟧⟦が→が：00051_ga⟧{修復後|しゅうふくご}⟦{初|はじ}めて→初めて：02932_hajimete⟧{初公開|はつこうかい}⟦され→する：00392_suru⟧、{多|おお}く⟦の→の：09472_no⟧⟦{来場者|らいじょうしゃ}→来場者：19023_raijousha⟧⟦が→が：00051_ga⟧⟦{訪|おとず}れた→訪れる：07678_otozureru⟧。",
       "english": "A national treasure painting was shown publicly for the first time after restoration, drawing many visitors.",
       "sense_numbers": [
         1
@@ -134,8 +134,17 @@
       "notes": null
     }
   ],
-  "notes": "{初公開|はつこうかい} means the first time something is shown or revealed to the public. Common in entertainment and media contexts.\n\nWORD FORMATION:\n{初|はつ} (first) + {公開|こうかい} (public showing/release). The prefix {初|はつ} can attach to many nouns to mean \"first\": {初出場|はつしゅつじょう} (first appearance), {初優勝|はつゆうしょう} (first championship).\n\nCOMMON COLLOCATIONS:\n- {世界|せかい}{初公開|はつこうかい}: world premiere\n- {日本|にほん}{初公開|はつこうかい}: first showing in Japan\n- {初公開|はつこうかい}する: to unveil, to show for the first time\n- {初公開|はつこうかい}される: to be unveiled\n\nCONTEXTS:\nUsed for film premieres, art exhibitions, product launches, and the opening of previously restricted buildings or areas. Often appears in news headlines.",
+  "notes": "{初公開|はつこうかい} means the first time something is shown or revealed to the public. Common in entertainment and media contexts.\n\nFORMS:\n⟦{初|はつ}→初：10632_hatsu⟧ (first) + ⟦{公開|こうかい}→公開：11665_koukai⟧ (public showing/release). The prefix ⟦{初|はつ}→初：10632_hatsu⟧ can attach to many nouns to mean \"first\": ⟦{初出場|はつしゅつじょう}→初出場：26884_hatsushutsujou⟧ (first appearance), {初優勝|はつゆうしょう} (first championship).\n\nCOMMON COLLOCATIONS:\n- ⟦{世界|せかい}→世界：01447_sekai⟧{初公開|はつこうかい}: world premiere\n- ⟦{日本|にほん}→日本：03876_nihon⟧{初公開|はつこうかい}: first showing in Japan\n- {初公開|はつこうかい}⟦する→する：00392_suru⟧: to unveil, to show for the first time\n- {初公開|はつこうかい}⟦される→する：00392_suru⟧: to be unveiled\n\nUSAGE:\nUsed for film premieres, art exhibitions, product launches, and the opening of previously restricted buildings or areas. Often appears in news headlines.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "26528_kanseihirou",
+      "reading": "かんせいひろう",
+      "headword": "{完成|かんせい}{披露|ひろう}",
+      "label": "premiere"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -152,6 +161,6 @@
       "verb_class": "suru"
     },
     "created": "2026-03-22T00:41:34Z",
-    "modified": "2026-05-08T10:08:08Z"
+    "modified": "2026-09-02T04:01:52Z"
   }
 }

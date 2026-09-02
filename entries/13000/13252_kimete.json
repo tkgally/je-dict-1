@@ -15,41 +15,66 @@
   "examples": [
     {
       "id": "13252_kimete_ex1",
-      "japanese": "{決|き}め{手|て}に{欠|か}ける。",
+      "japanese": "{決|き}め{手|て}⟦に→に：00314_ni⟧⟦{欠|か}ける→欠ける：13167_kakeru⟧。",
       "english": "To lack a deciding factor.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13252_kimete_ex2",
-      "japanese": "{購入|こうにゅう}の{決|き}め{手|て}は{価格|かかく}だった。",
+      "japanese": "⟦{購入|こうにゅう}→購入：03057_kounyuu⟧⟦の→の：09472_no⟧{決|き}め{手|て}⟦は→は：00079_ha⟧⟦{価格|かかく}→価格：00147_kakaku⟧だった。",
       "english": "The deciding factor for the purchase was the price.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13252_kimete_ex3",
-      "japanese": "{証拠|しょうこ}が{不十分|ふじゅうぶん}で、{有罪|ゆうざい}にする{決|き}め{手|て}がなかった。",
+      "japanese": "⟦{証拠|しょうこ}→証拠：10575_shouko⟧⟦が→が：00051_ga⟧⟦{不十分|ふじゅうぶん}→不十分：05616_fujuubun⟧で、⟦{有罪|ゆうざい}→有罪：13003_yuuzai⟧⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧{決|き}め{手|て}⟦が→が：00051_ga⟧⟦なかった→ない：01118_nai⟧。",
       "english": "The evidence was insufficient, and there was no clincher for a guilty verdict.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\n{決|き}め{手|て} literally combines {決|き}める (to decide) and {手|て} (hand/move), originally referring to a decisive move in sumo or martial arts. It now broadly means any deciding factor. The phrase {決|き}め{手|て}に{欠|か}ける (to lack a deciding factor) is very common and means that nothing stands out enough to tip the balance.\n\nCOMMON COLLOCATIONS:\n- {決|き}め{手|て}に{欠|か}ける: to lack a deciding factor\n- {決|き}め{手|て}になる: to become the deciding factor\n- {決|き}め{手|て}がない: there is no clincher\n- {最大|さいだい}の{決|き}め{手|て}: the biggest deciding factor",
-  "cross_references": [],
+  "notes": "USAGE:\n{決|き}め{手|て} literally combines ⟦{決|き}める→決める：00858_kimeru⟧ (to decide) and ⟦{手|て}→手：00569_te⟧ (hand/move), originally referring to a decisive move in sumo or martial arts. It now broadly means any deciding factor. The phrase {決|き}め{手|て}⟦に→に：00314_ni⟧⟦{欠|か}ける→欠ける：13167_kakeru⟧ (to lack a deciding factor) is very common and means that nothing stands out enough to tip the balance.\n\nCOMMON COLLOCATIONS:\n- {決|き}め{手|て}⟦に→に：00314_ni⟧⟦{欠|か}ける→欠ける：13167_kakeru⟧: to lack a deciding factor\n- {決|き}め{手|て}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧: to become the deciding factor\n- {決|き}め{手|て}⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧: there is no clincher\n- ⟦{最大|さいだい}→最大：04827_saidai⟧⟦の→の：09472_no⟧{決|き}め{手|て}: the biggest deciding factor",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18746_ketteida",
+      "reading": "けっていだ",
+      "headword": "{決定打|けっていだ}",
+      "label": "decisive blow"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25603_ketteiyouso",
+      "reading": "けっていようそ",
+      "headword": "{決定要素|けっていようそ}",
+      "label": "decisive factor"
+    }
+  ],
   "metadata": {
     "created": "2026-02-24T07:24:29Z",
-    "modified": "2026-02-24T07:24:29Z",
+    "modified": "2026-09-02T04:01:32Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

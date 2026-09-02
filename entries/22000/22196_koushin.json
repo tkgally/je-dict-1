@@ -3,7 +3,7 @@
   "headword": "{行進|こうしん}",
   "reading": "こうしん",
   "romaji": "koushin",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "march; parade; procession",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22196_koushin_ex1",
-      "japanese": "{兵士|へいし}たちが{行進|こうしん}している。",
+      "japanese": "⟦{兵士|へいし}→兵士：11680_heishi⟧たち⟦が→が：00051_ga⟧{行進|こうしん}⟦している→する：00392_suru⟧。",
       "english": "The soldiers are marching.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22196_koushin_ex2",
-      "japanese": "{運動会|うんどうかい}で{子|こ}どもたちが{元気|げんき}に{行進|こうしん}した。",
+      "japanese": "⟦{運動会|うんどうかい}→運動会：03013_undoukai⟧⟦で→で：00502_de⟧{子|こ}どもたち⟦が→が：00051_ga⟧⟦{元気|げんき}→元気：00696_genki⟧⟦に→に：00314_ni⟧{行進|こうしん}⟦した→する：00392_suru⟧。",
       "english": "The children marched energetically at the sports day.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22196_koushin_ex3",
-      "japanese": "{市民|しみん}たちは{平和|へいわ}を{求|もと}めて{街|まち}の{中心|ちゅうしん}を{行進|こうしん}した。",
+      "japanese": "⟦{市民|しみん}→市民：01426_shimin⟧たち⟦は→は：00079_ha⟧⟦{平和|へいわ}→平和：01507_heiwa⟧⟦を→を：00422_wo⟧⟦{求|もと}めて→求める：02316_motomeru⟧⟦{街|まち}→街：17306_machi⟧⟦の→の：09472_no⟧⟦{中心|ちゅうしん}→中心：01467_chuushin⟧⟦を→を：00422_wo⟧{行進|こうしん}⟦した→する：00392_suru⟧。",
       "english": "The citizens marched through the city center calling for peace.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {行|こう} (go) + {進|しん} (advance). Refers to organized, purposeful walking in formation. Can be used as a noun or with する as a verb ({行進|こうしん}する — to march).\n\nCOMMON COLLOCATIONS:\n- {行進|こうしん}する — to march\n- {行進|こうしん}{曲|きょく} — march (music); marching song\n- {軍事|ぐんじ}{行進|こうしん} — military march\n- {平和|へいわ}{行進|こうしん} — peace march\n- {凱旋|がいせん}{行進|こうしん} — triumphal procession\n\nSIMILAR WORDS:\n- パレード — parade (loanword; often festive or celebratory)\n- デモ{行進|こうしん} — demonstration march (protest)\n- {行列|ぎょうれつ} — procession; queue (less formal, not necessarily in formation)\n- {進軍|しんぐん} — military advance (specifically troops advancing toward battle)",
+  "notes": "Composed of {行|こう} (go) + {進|しん} (advance). Refers to organized, purposeful walking in formation. Can be used as a noun or with ⟦する→する：00392_suru⟧ as a verb ({行進|こうしん}⟦する→する：00392_suru⟧ — to march).\n\nCOMMON COLLOCATIONS:\n- {行進|こうしん}⟦する→する：00392_suru⟧ — to march\n- {行進|こうしん}{曲|きょく} — march (music); marching song\n- ⟦{軍事|ぐんじ}→軍事：14392_gunji⟧{行進|こうしん} — military march\n- ⟦{平和|へいわ}→平和：01507_heiwa⟧{行進|こうしん} — peace march\n- ⟦{凱旋|がいせん}→凱旋：21075_gaisen⟧{行進|こうしん} — triumphal procession\n\nSIMILAR WORDS:\n- ⟦パレード→パレード：11293_pareedo⟧ — parade (loanword; often festive or celebratory)\n- ⟦デモ→デモ：19416_demo⟧{行進|こうしん} — demonstration march (protest)\n- ⟦{行列|ぎょうれつ}→行列：09699_gyouretsu⟧ — procession; queue (less formal, not necessarily in formation)\n- ⟦{進軍|しんぐん}→進軍：18013_shingun⟧ — military advance (specifically troops advancing toward battle)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11293_pareedo",
+      "reading": "ぱれーど",
+      "headword": "パレード",
+      "label": "parade (loanword"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09699_gyouretsu",
+      "reading": "ぎょうれつ",
+      "headword": "{行列|ぎょうれつ}",
+      "label": "procession"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18013_shingun",
+      "reading": "しんぐん",
+      "headword": "{進軍|しんぐん}",
+      "label": "military advance"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -54,7 +77,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "movement",
         "event"
@@ -62,7 +85,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-05T14:11:40Z",
-    "modified": "2026-04-05T14:11:40Z"
+    "modified": "2026-09-02T04:02:07Z"
   },
   "conjugation": {
     "type": "suru",

@@ -15,41 +15,67 @@
   "examples": [
     {
       "id": "14201_chimamire_ex1",
-      "japanese": "{血|ち}まみれの{手|て}で{助|たす}けを{求|もと}めた。",
+      "japanese": "{血|ち}まみれ⟦の→の：09472_no⟧⟦{手|て}→手：00569_te⟧⟦で→で：00502_de⟧⟦{助|たす}け→助け：07777_tasuke⟧⟦を→を：00422_wo⟧⟦{求|もと}めた→求める：02316_motomeru⟧。",
       "english": "He asked for help with blood-covered hands.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14201_chimamire_ex2",
-      "japanese": "{事故|じこ}{現場|げんば}で{血|ち}まみれの{人|ひと}が{倒|たお}れていた。",
+      "japanese": "⟦{事故|じこ}→事故：00851_jiko⟧⟦{現場|げんば}→現場：02723_genba⟧⟦で→で：00502_de⟧{血|ち}まみれ⟦の→の：09472_no⟧⟦{人|ひと}→人：00476_hito⟧⟦が→が：00051_ga⟧⟦{倒|たお}れていた→倒れる：01160_taoreru⟧。",
       "english": "A blood-soaked person was lying at the accident scene.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14201_chimamire_ex3",
-      "japanese": "{戦|たたか}いが{終|お}わったとき、{彼|かれ}の{鎧|よろい}は{血|ち}まみれだった。",
+      "japanese": "⟦{戦|たたか}い→戦い：02070_tatakai⟧⟦が→が：00051_ga⟧⟦{終|お}わった→終わる：00567_owaru⟧とき、⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧⟦{鎧|よろい}→鎧：14541_yoroi⟧⟦は→は：00079_ha⟧{血|ち}まみれだった。",
       "english": "When the battle ended, his armor was drenched in blood.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "FORMS:\n- {血|ち}まみれの + noun: blood-covered ~ (attributive)\n- {血|ち}まみれだ: is covered in blood (predicative)\n- {血|ち}まみれになる: to become covered in blood\n\nRELATED PATTERN:\nThe suffix ～まみれ means 'covered in/smeared with' and attaches to nouns:\n- {泥|どろ}まみれ: covered in mud\n- {汗|あせ}まみれ: drenched in sweat\n- {借金|しゃっきん}まみれ: buried in debt (figurative)\n\nUSAGE:\nA vivid, graphic word. Common in crime fiction, historical narratives, news reports about accidents or violence, and horror. The ～まみれ pattern always implies being thoroughly coated or overwhelmed.",
-  "cross_references": [],
+  "notes": "FORMS:\n- {血|ち}まみれ⟦の→の：09472_no⟧ + noun: blood-covered ~ (attributive)\n- {血|ち}まみれだ: is covered in blood (predicative)\n- {血|ち}まみれ⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧: to become covered in blood\n\nRELATED PATTERN:\nThe suffix ～まみれ means 'covered in/smeared with' and attaches to nouns:\n- ⟦{泥|どろ}まみれ→泥まみれ：19143_doromamire⟧: covered in mud\n- ⟦{汗|あせ}まみれ→汗まみれ：22902_asemamire⟧: drenched in sweat\n- ⟦{借金|しゃっきん}→借金：03203_shakkin⟧まみれ: buried in debt (figurative)\n\nUSAGE:\nA vivid, graphic word. Common in crime fiction, historical narratives, news reports about accidents or violence, and horror. The ～まみれ pattern always implies being thoroughly coated or overwhelmed.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "22902_asemamire",
+      "reading": "あせまみれ",
+      "headword": "{汗|あせ}まみれ",
+      "label": "soaked in sweat"
+    },
+    {
+      "type": "related",
+      "target_id": "25087_sunamamire",
+      "reading": "すなまみれ",
+      "headword": "{砂|すな}まみれ",
+      "label": "covered in sand"
+    }
+  ],
   "metadata": {
     "created": "2026-02-28T02:21:27Z",
-    "modified": "2026-02-28T02:21:27Z",
+    "modified": "2026-09-02T04:01:36Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-na", "noun"],
+      "pos": [
+        "adjective-na",
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["descriptive"]
+      "semantic": [
+        "descriptive"
+      ]
     }
   }
 }

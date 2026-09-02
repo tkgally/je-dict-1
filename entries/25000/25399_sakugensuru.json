@@ -3,7 +3,7 @@
   "headword": "{削減|さくげん}する",
   "reading": "さくげんする",
   "romaji": "sakugensuru",
-  "part_of_speech": "verb (suru)",
+  "part_of_speech": "suru verb",
   "gloss": "to cut; to reduce; to curtail",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25399_sakugensuru_ex1",
-      "japanese": "コストを{削減|さくげん}する。",
+      "japanese": "⟦コスト→コスト：06666_kosuto⟧⟦を→を：00422_wo⟧{削減|さくげん}する。",
       "english": "To cut costs.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25399_sakugensuru_ex2",
-      "japanese": "{会社|かいしゃ}は{人件費|じんけんひ}を{大幅|おおはば}に{削減|さくげん}した。",
+      "japanese": "⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦は→は：00079_ha⟧⟦{人件費|じんけんひ}→人件費：20616_jinkenhi⟧⟦を→を：00422_wo⟧⟦{大幅|おおはば}→大幅：12170_oohaba⟧⟦に→に：00314_ni⟧{削減|さくげん}した。",
       "english": "The company significantly reduced personnel costs.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25399_sakugensuru_ex3",
-      "japanese": "{温室効果|おんしつこうか}ガスの{排出量|はいしゅつりょう}を{削減|さくげん}することが{急務|きゅうむ}だ。",
+      "japanese": "⟦{温室効果|おんしつこうか}ガス→温室効果ガス：24833_onshitsukoukagasu⟧⟦の→の：09472_no⟧{排出量|はいしゅつりょう}⟦を→を：00422_wo⟧{削減|さくげん}すること⟦が→が：00051_ga⟧⟦{急務|きゅうむ}→急務：21059_kyuumu⟧だ。",
       "english": "Reducing greenhouse gas emissions is an urgent task.",
       "sense_numbers": [
         1
@@ -44,8 +44,52 @@
       "notes": null
     }
   ],
-  "notes": "A formal word frequently used in business and policy discussions. Implies deliberate, planned reductions rather than natural decreases.\n\nCOMMON COLLOCATIONS:\n- {予算|よさん}{削減|さくげん}: budget cuts\n- コスト{削減|さくげん}: cost reduction\n- {人員|じんいん}{削減|さくげん}: personnel cuts, downsizing\n- {経費|けいひ}{削減|さくげん}: expense reduction\n- {排出|はいしゅつ}{削減|さくげん}: emission reduction\n- {大幅|おおはば}に{削減|さくげん}する: to reduce drastically\n\nSIMILAR WORDS:\n- {減|へ}らす: to reduce, to decrease — more general and everyday, applicable to any kind of reduction, while {削減|さくげん} is more formal and typically used for institutional or organizational cuts\n- {節約|せつやく}する: to economize, to save — focuses on being frugal with resources, while {削減|さくげん} implies actively cutting back on scale or quantity\n- {カット}する: to cut — a loanword equivalent, often used more casually in business settings",
+  "notes": "A formal word frequently used in business and policy discussions. Implies deliberate, planned reductions rather than natural decreases.\n\nCOMMON COLLOCATIONS:\n- ⟦{予算|よさん}→予算：03663_yosan⟧⟦{削減|さくげん}→削減：11789_sakugen⟧: budget cuts\n- ⟦コスト→コスト：06666_kosuto⟧⟦{削減|さくげん}→削減：11789_sakugen⟧: cost reduction\n- ⟦{人員|じんいん}→人員：17843_jinin⟧⟦{削減|さくげん}→削減：11789_sakugen⟧: personnel cuts, downsizing\n- ⟦{経費|けいひ}→経費：04696_keihi⟧⟦{削減|さくげん}→削減：11789_sakugen⟧: expense reduction\n- ⟦{排出|はいしゅつ}→排出：04632_haishutsu⟧⟦{削減|さくげん}→削減：11789_sakugen⟧: emission reduction\n- ⟦{大幅|おおはば}→大幅：12170_oohaba⟧⟦に→に：00314_ni⟧{削減|さくげん}する: to reduce drastically\n\nSIMILAR WORDS:\n- ⟦{減|へ}らす→減らす：02414_herasu⟧: to reduce, to decrease — more general and everyday, applicable to any kind of reduction, while ⟦{削減|さくげん}→削減：11789_sakugen⟧ is more formal and typically used for institutional or organizational cuts\n- ⟦{節約|せつやく}する→節約する：25226_setsuyakusuru⟧: to economize, to save — focuses on being frugal with resources, while ⟦{削減|さくげん}→削減：11789_sakugen⟧ implies actively cutting back on scale or quantity\n- ⟦カット→カット：10818_katto⟧⟦する→する：00392_suru⟧: to cut — a loanword equivalent, often used more casually in business settings",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02414_herasu",
+      "reading": "へらす",
+      "headword": "{減|へ}らす",
+      "label": "to reduce, to decrease"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25226_setsuyakusuru",
+      "reading": "せつやくする",
+      "headword": "{節約|せつやく}する",
+      "label": "to economize, to save"
+    },
+    {
+      "type": "related",
+      "target_id": "03922_kezuru",
+      "reading": "けずる",
+      "headword": "{削|けず}る",
+      "label": "to shave, to plane, to whittle"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25359_shukushousuru",
+      "reading": "しゅくしょうする",
+      "headword": "{縮小|しゅくしょう}する",
+      "label": "to reduce"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25372_keigensuru",
+      "reading": "けいげんする",
+      "headword": "{軽減|けいげん}する",
+      "label": "to reduce"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26835_tanshukusuru",
+      "reading": "たんしゅくする",
+      "headword": "{短縮|たんしゅく}する",
+      "label": "to shorten"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -64,7 +108,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-25T11:19:04Z",
-    "modified": "2026-04-25T11:19:04Z"
+    "modified": "2026-09-02T04:02:22Z"
   },
   "conjugation": {
     "type": "suru",

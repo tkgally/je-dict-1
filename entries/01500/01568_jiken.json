@@ -39,7 +39,7 @@
     },
     {
       "id": "01568_jiken_ex3",
-      "japanese": "これ⟦は→は：00079_ha⟧⟦{歴史的|れきしてき}な→歴史的：05671_rekishiteki⟧{事件|じけん}です。",
+      "japanese": "⟦これ→これ：00963_kore⟧⟦は→は：00079_ha⟧⟦{歴史的|れきしてき}な→歴史的：05671_rekishiteki⟧{事件|じけん}です。",
       "english": "This is a historic event.",
       "notes": null,
       "has_audio": false,
@@ -69,7 +69,7 @@
     },
     {
       "id": "01568_jiken_ex6",
-      "japanese": "⟦あの→あの：00915_ano⟧{事件|じけん}⟦は→は：00079_ha⟧⟦{未解決|みかいけつ}→未解決：17292_mikaiketsu⟧のまま⟦{何年|なんねん}→何年：12737_nannen⟧⟦も→も：00484_mo⟧⟦{経|た}った→経つ：09892_tatsu⟧。",
+      "japanese": "⟦あの→あの：00915_ano⟧{事件|じけん}⟦は→は：00079_ha⟧⟦{未解決|みかいけつ}→未解決：17292_mikaiketsu⟧⟦の→の：09472_no⟧まま⟦{何年|なんねん}→何年：12737_nannen⟧⟦も→も：00484_mo⟧⟦{経|た}った→経つ：09892_tatsu⟧。",
       "english": "That case has remained unsolved for many years.",
       "notes": null,
       "has_audio": false,
@@ -78,7 +78,7 @@
       ]
     }
   ],
-  "notes": "{事件|じけん} refers to notable incidents, often with legal or news implications.\n\nCOMMON PATTERNS:\n- {事件|じけん}⟦が→が：00051_ga⟧⟦{起|お}きる→起きる：00521_okiru⟧/⟦{起|お}こる→起こる：01910_okoru⟧ (an incident occurs)\n- {事件|じけん}⟦を→を：00422_wo⟧⟦{解決|かいけつ}する→解決：00136_kaiketsu⟧ (solve a case)\n- {事件|じけん}⟦を→を：00422_wo⟧⟦{調査|ちょうさ}する→調査：03489_chousa⟧ (investigate a case)\n- ⟦{殺人|さつじん}→殺人：13236_satsujin⟧{事件|じけん} (murder case)\n\nSIMILAR WORDS:\n- ⟦{事故|じこ}→事故：00851_jiko⟧: accident (unintentional)\n- {事件|じけん}: incident/case (often intentional or criminal)\n- ⟦{出来事|できごと}→出来事：03446_dekigoto⟧: event, happening (neutral)\n\nCOUNTER: ⟦{件|けん}→件：11720_ken⟧ (～⟦{件|けん}→件：11720_ken⟧の{事件|じけん})",
+  "notes": "{事件|じけん} refers to notable incidents, often with legal or news implications.\n\nCOMMON PATTERNS:\n- {事件|じけん}⟦が→が：00051_ga⟧⟦{起|お}きる→起きる：00521_okiru⟧/⟦{起|お}こる→起こる：01910_okoru⟧ (an incident occurs)\n- {事件|じけん}⟦を→を：00422_wo⟧⟦{解決|かいけつ}する→解決：00136_kaiketsu⟧ (solve a case)\n- {事件|じけん}⟦を→を：00422_wo⟧⟦{調査|ちょうさ}する→調査：03489_chousa⟧ (investigate a case)\n- ⟦{殺人|さつじん}→殺人：13236_satsujin⟧{事件|じけん} (murder case)\n\nSIMILAR WORDS:\n- ⟦{事故|じこ}→事故：00851_jiko⟧: accident (unintentional)\n- {事件|じけん}: incident/case (often intentional or criminal)\n- ⟦{出来事|できごと}→出来事：03446_dekigoto⟧: event, happening (neutral)\n\nCOUNTER: ⟦{件|けん}→件：11720_ken⟧ (～⟦{件|けん}→件：11720_ken⟧⟦の→の：09472_no⟧{事件|じけん})",
   "cross_references": [
     {
       "type": "contrast",
@@ -93,11 +93,25 @@
       "reading": "できごと",
       "headword": "{出来事|できごと}",
       "label": "event, happening (neutral)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19770_chinji",
+      "reading": "ちんじ",
+      "headword": "{珍事|ちんじ}",
+      "label": "rare event"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22752_jian",
+      "reading": "じあん",
+      "headword": "{事案|じあん}",
+      "label": "case"
     }
   ],
   "metadata": {
     "created": "2026-01-09T11:41:04Z",
-    "modified": "2026-05-15T22:08:35Z",
+    "modified": "2026-09-02T04:01:00Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

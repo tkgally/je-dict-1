@@ -54,7 +54,7 @@
     },
     {
       "id": "01919_atari_ex4",
-      "japanese": "⟦{矢|や}→矢：10461_ya⟧⟦が→が：00051_ga⟧⟦{的|まと}→的：19356_mato⟧⟦に→に：00314_ni⟧{当|あ}たりした。",
+      "japanese": "⟦{矢|や}→矢：10461_ya⟧⟦が→が：00051_ga⟧⟦{的|まと}→的：19356_mato⟧⟦に→に：00314_ni⟧{当|あ}たり⟦した→する：00392_suru⟧。",
       "english": "The arrow hit the target.",
       "notes": null,
       "has_audio": false,
@@ -173,7 +173,7 @@
       ]
     }
   ],
-  "notes": "{当|あ}たり is the noun form of the verb ⟦{当|あ}たる→当たる：01860_ataru⟧ (to hit, to be correct).\n\nCOMMON PATTERNS:\n- {当|あ}たり⟦が→が：00051_ga⟧⟦{出|で}る→出る：00513_deru⟧: to win (in a lottery/game)\n- {大|おお}{当|あ}たり: jackpot, big hit\n- {当|あ}たり⟦{外|はず}れ→外れ：10487_hazure⟧: hit or miss, luck of the draw\n- {当|あ}たりくじ: winning ticket\n\nOPPOSITE:\n- ⟦{外|はず}れ→外れ：10487_hazure⟧: miss, losing result, dud\n\nHOMOPHONE:\nDo not confuse with ⟦{辺|あた}り→辺り：01770_atari⟧ (vicinity, area around), which has the same reading but different kanji and meaning.\n\nUSAGE:\nAlso used figuratively: ⟦{映画|えいが}→映画：02273_eiga⟧⟦が→が：00051_ga⟧{当|あ}たり (the movie was a hit), ⟦{天気|てんき}→天気：00582_tenki⟧⟦{予報|よほう}→予報：03668_yohou⟧⟦が→が：00051_ga⟧{当|あ}たり (the weather forecast was right).",
+  "notes": "{当|あ}たり is the noun form of the verb ⟦{当|あ}たる→当たる：01860_ataru⟧ (to hit, to be correct).\n\nCOMMON PATTERNS:\n- {当|あ}たり⟦が→が：00051_ga⟧⟦{出|で}る→出る：00513_deru⟧: to win (in a lottery/game)\n- {大|おお}{当|あ}たり: jackpot, big hit\n- {当|あ}たり⟦{外|はず}れ→外れ：10487_hazure⟧: hit or miss, luck of the draw\n- {当|あ}たりくじ: winning ticket\n\nSIMILAR WORDS:\n- ⟦{外|はず}れ→外れ：10487_hazure⟧: miss, losing result, dud\n\nWATCH OUT:\nDo not confuse with ⟦{辺|あた}り→辺り：01770_atari⟧ (vicinity, area around), which has the same reading but different kanji and meaning.\n\nUSAGE:\nAlso used figuratively: ⟦{映画|えいが}→映画：02273_eiga⟧⟦が→が：00051_ga⟧{当|あ}たり (the movie was a hit), ⟦{天気|てんき}→天気：00582_tenki⟧⟦{予報|よほう}→予報：03668_yohou⟧⟦が→が：00051_ga⟧{当|あ}たり (the weather forecast was right).",
   "cross_references": [
     {
       "type": "antonym",
@@ -181,11 +181,25 @@
       "reading": "はずれ",
       "headword": "{外|はず}れ",
       "label": "miss"
+    },
+    {
+      "type": "related",
+      "target_id": "01860_ataru",
+      "reading": "あたる",
+      "headword": "{当|あ}たる",
+      "label": "to hit, to strike"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30594_zuboshi",
+      "reading": "ずぼし",
+      "headword": "{図星|ずぼし}",
+      "label": "hitting the nail on the head"
     }
   ],
   "metadata": {
     "created": "2026-01-09T12:30:00Z",
-    "modified": "2026-05-17T17:14:21Z",
+    "modified": "2026-09-02T04:01:00Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

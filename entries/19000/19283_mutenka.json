@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "19283_mutenka_ex1",
-      "japanese": "{無添加|むてんか}の{石鹸|せっけん}を{使|つか}う。",
+      "japanese": "{無添加|むてんか}⟦の→の：09472_no⟧⟦{石鹸|せっけん}→石鹸：04981_sekken⟧⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧。",
       "english": "I use additive-free soap.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "19283_mutenka_ex2",
-      "japanese": "この{醤油|しょうゆ}は{無添加|むてんか}で{体|からだ}にいい。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{醤油|しょうゆ}→醤油：01056_shouyu⟧⟦は→は：00079_ha⟧{無添加|むてんか}⟦で→で：00502_de⟧⟦{体|からだ}→体：00784_karada⟧⟦に→に：00314_ni⟧⟦いい→いい：00118_ii⟧。",
       "english": "This soy sauce is additive-free and good for your health.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "19283_mutenka_ex3",
-      "japanese": "{子|こ}どもには{無添加|むてんか}の{食品|しょくひん}を{食|た}べさせたいと{思|おも}っている。",
+      "japanese": "{子|こ}ども⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{無添加|むてんか}⟦の→の：09472_no⟧⟦{食品|しょくひん}→食品：03247_shokuhin⟧⟦を→を：00422_wo⟧⟦{食|た}べさせたい→食べる：00396_taberu⟧⟦と→と：00512_to⟧⟦{思|おも}っている→思う：00492_omou⟧。",
       "english": "I want to feed my children additive-free food.",
       "sense_numbers": [
         1
@@ -44,8 +44,52 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {無|む} (without) + {添加|てんか} (addition/additive). A marketing and labeling term frequently seen on product packaging in Japan.\n\nCOMMON COLLOCATIONS:\n- {無添加|むてんか}{食品|しょくひん} — additive-free food\n- {無添加|むてんか}{化粧品|けしょうひん} — additive-free cosmetics\n- {無添加|むてんか}{石鹸|せっけん} — additive-free soap\n- {無添加|むてんか}・{無着色|むちゃくしょく} — no additives, no artificial coloring\n\nSIMILAR WORDS:\n- {無農薬|むのうやく} — pesticide-free\n- オーガニック — organic\n- {天然|てんねん} — natural (often used for ingredients)",
+  "notes": "Composed of ⟦{無|む}→無：17750_mu⟧ (without) + ⟦{添加|てんか}→添加：13353_tenka⟧ (addition/additive). A marketing and labeling term frequently seen on product packaging in Japan.\n\nCOMMON COLLOCATIONS:\n- {無添加|むてんか}⟦{食品|しょくひん}→食品：03247_shokuhin⟧ — additive-free food\n- {無添加|むてんか}⟦{化粧品|けしょうひん}→化粧品：05119_keshouhin⟧ — additive-free cosmetics\n- {無添加|むてんか}⟦{石鹸|せっけん}→石鹸：04981_sekken⟧ — additive-free soap\n- {無添加|むてんか}・⟦{無着色|むちゃくしょく}→無着色：29231_muchakushoku⟧ — no additives, no artificial coloring\n\nSIMILAR WORDS:\n- ⟦{無農薬|むのうやく}→無農薬：19133_munouyaku⟧ — pesticide-free\n- オーガニック — organic\n- ⟦{天然|てんねん}→天然：03560_tennen⟧ — natural (often used for ingredients)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19133_munouyaku",
+      "reading": "むのうやく",
+      "headword": "{無農薬|むのうやく}",
+      "label": "pesticide-free"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03560_tennen",
+      "reading": "てんねん",
+      "headword": "{天然|てんねん}",
+      "label": "natural"
+    },
+    {
+      "type": "related",
+      "target_id": "15796_mukouryou",
+      "reading": "むこうりょう",
+      "headword": "{無香料|むこうりょう}",
+      "label": "unscented"
+    },
+    {
+      "type": "related",
+      "target_id": "19091_mutou",
+      "reading": "むとう",
+      "headword": "{無糖|むとう}",
+      "label": "sugar-free"
+    },
+    {
+      "type": "related",
+      "target_id": "25624_shokuhintenkabutsu",
+      "reading": "しょくひんてんかぶつ",
+      "headword": "{食品添加物|しょくひんてんかぶつ}",
+      "label": "food additive"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29231_muchakushoku",
+      "reading": "むちゃくしょく",
+      "headword": "{無着色|むちゃくしょく}",
+      "label": "no artificial coloring"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,6 +105,6 @@
       ]
     },
     "created": "2026-03-25T04:44:22Z",
-    "modified": "2026-03-25T04:44:22Z"
+    "modified": "2026-09-02T04:01:55Z"
   }
 }

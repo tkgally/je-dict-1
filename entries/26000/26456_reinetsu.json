@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26456_reinetsu_ex1",
-      "japanese": "{冷熱|れいねつ}の{差|さ}が{激|はげ}しい。",
+      "japanese": "{冷熱|れいねつ}⟦の→の：09472_no⟧⟦{差|さ}→差：02771_sa⟧⟦が→が：00051_ga⟧⟦{激|はげ}しい→激しい：02348_hageshii⟧。",
       "english": "The difference between cold and heat is extreme.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26456_reinetsu_ex2",
-      "japanese": "この{素材|そざい}は{冷熱|れいねつ}に{強|つよ}い。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{素材|そざい}→素材：09492_sozai⟧⟦は→は：00079_ha⟧{冷熱|れいねつ}⟦に→に：00314_ni⟧⟦{強|つよ}い→強い：00820_tsuyoi⟧。",
       "english": "This material is resistant to thermal variation.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26456_reinetsu_ex3",
-      "japanese": "{冷熱|れいねつ}サイクル{試験|しけん}で{製品|せいひん}の{耐久性|たいきゅうせい}を{確認|かくにん}する。",
+      "japanese": "{冷熱|れいねつ}サイクル⟦{試験|しけん}→試験：01422_shiken⟧⟦で→で：00502_de⟧⟦{製品|せいひん}→製品：01445_seihin⟧⟦の→の：09472_no⟧⟦{耐久性|たいきゅうせい}→耐久性：20042_taikyuusei⟧⟦を→を：00422_wo⟧⟦{確認|かくにん}する→確認する：25332_kakuninsuru⟧。",
       "english": "We verify product durability through thermal cycling tests.",
       "sense_numbers": [
         1
@@ -44,8 +44,23 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {冷|れい} (cold) and {熱|ねつ} (heat). This is an example of a paired-opposite compound ({対義|たいぎ}{複合語|ふくごうご}), similar to {寒暖|かんだん} (cold and warm). Frequently appears in engineering and materials science contexts.\n\nCOMMON COLLOCATIONS:\n- {冷熱|れいねつ}サイクル: thermal cycle\n- {冷熱|れいねつ}{試験|しけん}: thermal test\n- {冷熱|れいねつ}の{差|さ}: temperature difference\n- {冷熱|れいねつ}に{強|つよ}い: resistant to temperature extremes\n\nSIMILAR WORDS:\n- {寒暖|かんだん}: cold and warm — refers to atmospheric temperature variation, as in weather or seasonal changes\n- {温度|おんど}: temperature — the measurement of heat itself\n- {温冷|おんれい}: warm and cold — used in contexts like alternating hot and cold baths ({温冷|おんれい}{浴|よく})",
-  "cross_references": [],
+  "notes": "A compound of {冷|れい} (cold) and ⟦{熱|ねつ}→熱：01690_netsu⟧ (heat). This is an example of a paired-opposite compound ({対義|たいぎ}{複合語|ふくごうご}), similar to ⟦{寒暖|かんだん}→寒暖：05561_kandan⟧ (cold and warm). Frequently appears in engineering and materials science contexts.\n\nCOMMON COLLOCATIONS:\n- {冷熱|れいねつ}サイクル: thermal cycle\n- {冷熱|れいねつ}⟦{試験|しけん}→試験：01422_shiken⟧: thermal test\n- {冷熱|れいねつ}⟦の→の：09472_no⟧⟦{差|さ}→差：02771_sa⟧: temperature difference\n- {冷熱|れいねつ}⟦に→に：00314_ni⟧⟦{強|つよ}い→強い：00820_tsuyoi⟧: resistant to temperature extremes\n\nSIMILAR WORDS:\n- ⟦{寒暖|かんだん}→寒暖：05561_kandan⟧: cold and warm — refers to atmospheric temperature variation, as in weather or seasonal changes\n- ⟦{温度|おんど}→温度：00333_ondo⟧: temperature — the measurement of heat itself\n- {温冷|おんれい}: warm and cold — used in contexts like alternating hot and cold baths ({温冷|おんれい}{浴|よく})",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05561_kandan",
+      "reading": "かんだん",
+      "headword": "{寒暖|かんだん}",
+      "label": "cold and warm"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00333_ondo",
+      "reading": "おんど",
+      "headword": "{温度|おんど}",
+      "label": "temperature"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,11 +68,13 @@
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "science"
       ]
     },
     "created": "2026-05-02T11:29:02Z",
-    "modified": "2026-06-15T07:59:29Z"
+    "modified": "2026-09-02T04:02:26Z"
   }
 }

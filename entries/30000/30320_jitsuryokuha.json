@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30320_jitsuryokuha_ex1",
-      "japanese": "{彼|かれ}は{実力派|じつりょくは}の{俳優|はいゆう}だ。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{実力派|じつりょくは}⟦の→の：09472_no⟧⟦{俳優|はいゆう}→俳優：03547_haiyuu⟧だ。",
       "english": "He is a genuinely talented actor.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30320_jitsuryokuha_ex2",
-      "japanese": "アイドルから{実力派|じつりょくは}{歌手|かしゅ}へと{成長|せいちょう}した。",
+      "japanese": "⟦アイドル→アイドル：05111_aidoru⟧⟦から→から：00504_kara⟧{実力派|じつりょくは}⟦{歌手|かしゅ}→歌手：00197_kashu⟧⟦へ→へ：02473_he⟧⟦と→と：00512_to⟧⟦{成長|せいちょう}→成長：03290_seichou⟧⟦した→する：00392_suru⟧。",
       "english": "She grew from an idol into a singer of real ability.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30320_jitsuryokuha_ex3",
-      "japanese": "{地味|じみ}だが{実力派|じつりょくは}ぞろいのチームで、{下馬評|げばひょう}を{覆|くつがえ}した。",
+      "japanese": "⟦{地味|じみ}→地味：01573_jimi⟧だ⟦が→が：00051_ga⟧{実力派|じつりょくは}ぞろい⟦の→の：09472_no⟧⟦チーム→チーム：03858_chiimu⟧⟦で→で：00502_de⟧、{下馬評|げばひょう}⟦を→を：00422_wo⟧⟦{覆|くつがえ}した→覆す：07568_kutsugaesu⟧。",
       "english": "It was an unflashy team full of genuinely skilled players, and they overturned the predictions.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Formed from {実力|じつりょく} (real ability) plus 〜{派|は} (type). Carries clear praise, often with an implied contrast against performers who sell on image.\n\nCOMMON COLLOCATIONS:\n- {実力派|じつりょくは}{俳優|はいゆう}: accomplished actor\n- {実力派|じつりょくは}{揃|そろ}い: full of genuinely skilled people\n- {実力派|じつりょくは}として{評価|ひょうか}される: to be rated as truly capable\n\nSIMILAR WORDS:\n- {演技派|えんぎは}: skilled at acting specifically — narrower than {実力派|じつりょくは}\n- {個性派|こせいは}: distinctive type — praised for uniqueness rather than technical skill",
+  "notes": "Formed from ⟦{実力|じつりょく}→実力：03277_jitsuryoku⟧ (real ability) plus 〜⟦{派|は}→派：28356_ha⟧ (type). Carries clear praise, often with an implied contrast against performers who sell on image.\n\nCOMMON COLLOCATIONS:\n- {実力派|じつりょくは}⟦{俳優|はいゆう}→俳優：03547_haiyuu⟧: accomplished actor\n- {実力派|じつりょくは}⟦{揃|そろ}い→揃う：01953_sorou⟧: full of genuinely skilled people\n- {実力派|じつりょくは}⟦として→として：06802_toshite⟧⟦{評価|ひょうか}→評価：03583_hyouka⟧⟦される→する：00392_suru⟧: to be rated as truly capable\n\nSIMILAR WORDS:\n- ⟦{演技派|えんぎは}→演技派：30339_engiha⟧: skilled at acting specifically — narrower than {実力派|じつりょくは}\n- ⟦{個性派|こせいは}→個性派：30340_koseiha⟧: distinctive type — praised for uniqueness rather than technical skill",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "30339_engiha",
+      "reading": "えんぎは",
+      "headword": "{演技派|えんぎは}",
+      "label": "skilled at acting specifically"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30340_koseiha",
+      "reading": "こせいは",
+      "headword": "{個性派|こせいは}",
+      "label": "distinctive type"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30317_gikouha",
+      "reading": "ぎこうは",
+      "headword": "技巧派",
+      "label": "finesse type"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +76,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "person",
         "evaluation"
@@ -61,6 +84,6 @@
       "domain": []
     },
     "created": "2026-08-02T09:20:18Z",
-    "modified": "2026-08-02T09:20:18Z"
+    "modified": "2026-09-02T04:02:39Z"
   }
 }

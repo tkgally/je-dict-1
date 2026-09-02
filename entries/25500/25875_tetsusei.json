@@ -3,7 +3,7 @@
   "headword": "{鉄製|てつせい}",
   "reading": "てつせい",
   "romaji": "tetsusei",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "made of iron; iron-made",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25875_tetsusei_ex1",
-      "japanese": "{鉄製|てつせい}のフライパンを{買|か}った。",
+      "japanese": "{鉄製|てつせい}⟦の→の：09472_no⟧⟦フライパン→フライパン：01025_furaipan⟧⟦を→を：00422_wo⟧⟦{買|か}った→買う：00489_kau⟧。",
       "english": "I bought an iron frying pan.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25875_tetsusei_ex2",
-      "japanese": "この{門|もん}は{鉄製|てつせい}なので{重|おも}い。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{門|もん}→門：14603_mon⟧⟦は→は：00079_ha⟧{鉄製|てつせい}な⟦の→の：09472_no⟧で⟦{重|おも}い→重い：00804_omoi⟧。",
       "english": "This gate is heavy because it's made of iron.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25875_tetsusei_ex3",
-      "japanese": "{鉄製|てつせい}の{鍋|なべ}は{手入|てい}れが{大切|たいせつ}だ。",
+      "japanese": "{鉄製|てつせい}⟦の→の：09472_no⟧⟦{鍋|なべ}→鍋：01038_nabe⟧⟦は→は：00079_ha⟧⟦{手入|てい}れ→手入れ：07178_teire⟧⟦が→が：00051_ga⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧だ。",
       "english": "Iron pots require proper maintenance.",
       "sense_numbers": [
         1
@@ -45,7 +45,7 @@
     },
     {
       "id": "25875_tetsusei_ex4",
-      "japanese": "{古|ふる}い{鉄製|てつせい}の{階段|かいだん}が{錆|さ}びて{危険|きけん}な{状態|じょうたい}になっていた。",
+      "japanese": "⟦{古|ふる}い→古い：00488_furui⟧{鉄製|てつせい}⟦の→の：09472_no⟧⟦{階段|かいだん}→階段：00782_kaidan⟧⟦が→が：00051_ga⟧⟦{錆|さ}びて→錆びる：07412_sabiru⟧⟦{危険|きけん}→危険：01141_kiken⟧な⟦{状態|じょうたい}→状態：03345_joutai⟧になっていた。",
       "english": "The old iron staircase had rusted and become dangerous.",
       "sense_numbers": [
         1
@@ -54,7 +54,7 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {鉄|てつ} (iron) + {製|せい} (made of). The suffix {製|せい} is highly productive and attaches to material names to indicate what something is made from. Understanding this pattern unlocks many similar compounds.\n\nCOMMON COLLOCATIONS:\n- {鉄製|てつせい}のフライパン: iron frying pan\n- {鉄製|てつせい}の{門|もん}: iron gate\n- {鉄製|てつせい}の{柵|さく}: iron fence\n- {鉄製|てつせい}の{鍋|なべ}: iron pot\n\nSIMILAR PATTERN ({製|せい} compounds):\n- {木製|もくせい}: made of wood\n- {金属製|きんぞくせい}: made of metal\n- {革製|かわせい}: made of leather\n- {陶製|とうせい}: made of ceramic\n- {銅製|どうせい}: made of copper\n- プラスチック{製|せい}: made of plastic",
+  "notes": "Composed of ⟦{鉄|てつ}→鉄：02225_tetsu⟧ (iron) + ⟦{製|せい}→〜製：02001_sei⟧ (made of). The suffix ⟦{製|せい}→〜製：02001_sei⟧ is highly productive and attaches to material names to indicate what something is made from. Understanding this pattern unlocks many similar compounds.\n\nCOMMON COLLOCATIONS:\n- {鉄製|てつせい}⟦の→の：09472_no⟧⟦フライパン→フライパン：01025_furaipan⟧: iron frying pan\n- {鉄製|てつせい}⟦の→の：09472_no⟧⟦{門|もん}→門：14603_mon⟧: iron gate\n- {鉄製|てつせい}⟦の→の：09472_no⟧⟦{柵|さく}→柵：13103_saku⟧: iron fence\n- {鉄製|てつせい}⟦の→の：09472_no⟧⟦{鍋|なべ}→鍋：01038_nabe⟧: iron pot\n\nSIMILAR PATTERN (⟦{製|せい}→〜製：02001_sei⟧ compounds):\n- ⟦{木製|もくせい}→木製：13083_mokusei_b⟧: made of wood\n- ⟦{金属製|きんぞくせい}→金属製：28457_kinzokusei⟧: made of metal\n- ⟦{革製|かわせい}→革製：26255_kawasei⟧: made of leather\n- {陶製|とうせい}: made of ceramic\n- {銅製|どうせい}: made of copper\n- ⟦プラスチック→プラスチック：00347_purasuchikku⟧⟦{製|せい}→〜製：02001_sei⟧: made of plastic",
   "cross_references": [],
   "schema_version": "2.0",
   "metadata": {
@@ -64,11 +64,13 @@
         "noun",
         "adjective-no"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "descriptive"
       ]
     },
     "created": "2026-04-27T16:21:44Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T04:02:24Z"
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "11299_jougen_ex1",
-      "japanese": "{参加|さんか}{人数|にんずう}の{上限|じょうげん}は50{人|にん}です。",
+      "japanese": "⟦{参加|さんか}→参加：02498_sanka⟧⟦{人数|にんずう}→人数：03132_ninzuu⟧⟦の→の：09472_no⟧{上限|じょうげん}⟦は→は：00079_ha⟧50⟦{人|にん}→〜人：00658_nin⟧です。",
       "english": "The maximum number of participants is 50.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "11299_jougen_ex2",
-      "japanese": "{予算|よさん}の{上限|じょうげん}を{超|こ}えてしまった。",
+      "japanese": "⟦{予算|よさん}→予算：03663_yosan⟧⟦の→の：09472_no⟧{上限|じょうげん}⟦を→を：00422_wo⟧⟦{超|こ}えて→超える：01942_koeru⟧しまった。",
       "english": "We exceeded the budget ceiling.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "11299_jougen_ex3",
-      "japanese": "クレジットカードの{利用|りよう}{上限|じょうげん}{額|がく}を{引|ひ}き{上|あ}げたいのですが。",
+      "japanese": "⟦クレジットカード→クレジットカード：06968_kurejittokaado⟧⟦の→の：09472_no⟧⟦{利用|りよう}→利用：01752_riyou⟧{上限|じょうげん}{額|がく}⟦を→を：00422_wo⟧⟦{引|ひ}き{上|あ}げたい→引き上げる：05689_hikiageru⟧⟦の→の：09472_no⟧です⟦が→が：00051_ga⟧。",
       "english": "I'd like to raise the credit limit on my credit card.",
       "notes": null,
       "has_audio": false,
@@ -44,18 +44,46 @@
       ]
     }
   ],
-  "notes": "{上限|じょうげん} refers to the highest permissible level — the maximum or ceiling for a quantity, price, or other measurable value.\n\nCOMMON COLLOCATIONS:\n- {上限|じょうげん}を{設|もう}ける: to set an upper limit\n- {上限|じょうげん}を{超|こ}える: to exceed the upper limit\n- {上限|じょうげん}を{引|ひ}き{上|あ}げる: to raise the upper limit\n- {上限|じょうげん}{額|がく}: maximum amount\n- {上限|じょうげん}なし: no upper limit, unlimited\n\nCONTRAST:\n- {下限|かげん}: lower limit, minimum (opposite)\n- {限度|げんど}: limit, bounds (more general)\n- {最大|さいだい}: maximum (absolute, not a set limit)\n\nUSAGE:\nVery common in business, finance, and administrative contexts: {利用|りよう}{上限|じょうげん}{額|がく} (credit limit), {速度|そくど}{上限|じょうげん} (speed limit), {年齢|ねんれい}{上限|じょうげん} (age limit).",
+  "notes": "{上限|じょうげん} refers to the highest permissible level — the maximum or ceiling for a quantity, price, or other measurable value.\n\nCOMMON COLLOCATIONS:\n- {上限|じょうげん}⟦を→を：00422_wo⟧⟦{設|もう}ける→設ける：14220_moukeru⟧: to set an upper limit\n- {上限|じょうげん}⟦を→を：00422_wo⟧⟦{超|こ}える→超える：01942_koeru⟧: to exceed the upper limit\n- {上限|じょうげん}⟦を→を：00422_wo⟧⟦{引|ひ}き{上|あ}げる→引き上げる：05689_hikiageru⟧: to raise the upper limit\n- {上限|じょうげん}{額|がく}: maximum amount\n- {上限|じょうげん}なし: no upper limit, unlimited\n\nSIMILAR WORDS:\n- ⟦{下限|かげん}→下限：11385_kagen⟧: lower limit, minimum (opposite)\n- ⟦{限度|げんど}→限度：00063_gendo⟧: limit, bounds (more general)\n- ⟦{最大|さいだい}→最大：04827_saidai⟧: maximum (absolute, not a set limit)\n\nUSAGE:\nVery common in business, finance, and administrative contexts: ⟦{利用|りよう}→利用：01752_riyou⟧{上限|じょうげん}{額|がく} (credit limit), ⟦{速度|そくど}→速度：03319_sokudo⟧{上限|じょうげん} (speed limit), ⟦{年齢|ねんれい}→年齢：01490_nenrei⟧{上限|じょうげん} (age limit).",
   "cross_references": [
     {
       "type": "antonym",
       "reading": "かげん",
       "headword": "{下限|かげん}",
       "target_id": "11385_kagen"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00063_gendo",
+      "reading": "げんど",
+      "headword": "{限度|げんど}",
+      "label": "limit, bounds"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04827_saidai",
+      "reading": "さいだい",
+      "headword": "{最大|さいだい}",
+      "label": "maximum"
+    },
+    {
+      "type": "related",
+      "target_id": "23295_ninzuuseigen",
+      "reading": "にんずうせいげん",
+      "headword": "{人数制限|にんずうせいげん}",
+      "label": "limit on the number of people"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27382_itteigaku",
+      "reading": "いっていがく",
+      "headword": "{一定額|いっていがく}",
+      "label": "a fixed amount"
     }
   ],
   "metadata": {
     "created": "2026-02-15T22:35:57Z",
-    "modified": "2026-03-31T03:49:51Z",
+    "modified": "2026-09-02T04:01:24Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

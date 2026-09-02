@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22001_heiryoku_ex1",
-      "japanese": "{兵力|へいりょく}を{増強|ぞうきょう}する。",
+      "japanese": "{兵力|へいりょく}⟦を→を：00422_wo⟧⟦{増強|ぞうきょう}→増強：19103_zoukyou⟧⟦する→する：00392_suru⟧。",
       "english": "To reinforce military strength.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22001_heiryoku_ex2",
-      "japanese": "{敵|てき}の{兵力|へいりょく}は{圧倒的|あっとうてき}だった。",
+      "japanese": "⟦{敵|てき}→敵：03546_teki⟧⟦の→の：09472_no⟧{兵力|へいりょく}⟦は→は：00079_ha⟧⟦{圧倒的|あっとうてき}→圧倒的：05853_attouteki⟧だった。",
       "english": "The enemy's military strength was overwhelming.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22001_heiryoku_ex3",
-      "japanese": "{国境|こっきょう}{付近|ふきん}に{大量|たいりょう}の{兵力|へいりょく}が{集結|しゅうけつ}しているとの{報道|ほうどう}があった。",
+      "japanese": "⟦{国境|こっきょう}→国境：02762_kokkyou⟧⟦{付近|ふきん}→付近：00044_fukin⟧⟦に→に：00314_ni⟧⟦{大量|たいりょう}→大量：03112_tairyou⟧⟦の→の：09472_no⟧{兵力|へいりょく}⟦が→が：00051_ga⟧⟦{集結|しゅうけつ}→集結：14665_shuuketsu⟧⟦している→する：00392_suru⟧⟦と→と：00512_to⟧⟦の→の：09472_no⟧⟦{報道|ほうどう}→報道：04438_houdou⟧⟦が→が：00051_ga⟧⟦あった→ある：00006_aru⟧。",
       "english": "There were reports that a large number of troops had assembled near the border.",
       "sense_numbers": [
         1
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "Used primarily in military, historical, and news contexts. Refers to the quantitative and qualitative strength of armed forces, not just the number of soldiers.\n\nCOMMON COLLOCATIONS:\n- {兵力|へいりょく}を{増強|ぞうきょう}する: to reinforce troops\n- {兵力|へいりょく}を{展開|てんかい}する: to deploy military forces\n- {兵力|へいりょく}を{集結|しゅうけつ}させる: to mass troops\n- {兵力|へいりょく}{不足|ぶそく}: shortage of troops\n- {圧倒的|あっとうてき}な{兵力|へいりょく}: overwhelming military strength\n\nSIMILAR WORDS:\n- {戦力|せんりょく}: combat strength — broader term including weapons, equipment, and morale, not just troop numbers\n- {軍事力|ぐんじりょく}: military power — the overall military capability of a nation\n- {武力|ぶりょく}: armed force — emphasizes the use of weapons and violence",
+  "notes": "Used primarily in military, historical, and news contexts. Refers to the quantitative and qualitative strength of armed forces, not just the number of soldiers.\n\nCOMMON COLLOCATIONS:\n- {兵力|へいりょく}⟦を→を：00422_wo⟧⟦{増強|ぞうきょう}→増強：19103_zoukyou⟧⟦する→する：00392_suru⟧: to reinforce troops\n- {兵力|へいりょく}⟦を→を：00422_wo⟧⟦{展開|てんかい}する→展開する：25229_tenkaisuru⟧: to deploy military forces\n- {兵力|へいりょく}⟦を→を：00422_wo⟧⟦{集結|しゅうけつ}→集結：14665_shuuketsu⟧⟦させる→する：00392_suru⟧: to mass troops\n- {兵力|へいりょく}{不足|ぶそく}: shortage of troops\n- ⟦{圧倒的|あっとうてき}→圧倒的：05853_attouteki⟧な{兵力|へいりょく}: overwhelming military strength\n\nSIMILAR WORDS:\n- ⟦{戦力|せんりょく}→戦力：18977_senryoku⟧: combat strength — broader term including weapons, equipment, and morale, not just troop numbers\n- ⟦{軍事力|ぐんじりょく}→軍事力：23289_gunjiryoku⟧: military power — the overall military capability of a nation\n- ⟦{武力|ぶりょく}→武力：13221_buryoku⟧: armed force — emphasizes the use of weapons and violence",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18977_senryoku",
+      "reading": "せんりょく",
+      "headword": "{戦力|せんりょく}",
+      "label": "combat strength"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23289_gunjiryoku",
+      "reading": "ぐんじりょく",
+      "headword": "{軍事力|ぐんじりょく}",
+      "label": "military power"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13221_buryoku",
+      "reading": "ぶりょく",
+      "headword": "{武力|ぶりょく}",
+      "label": "armed force"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22011_gunbi",
+      "reading": "ぐんび",
+      "headword": "{軍備|ぐんび}",
+      "label": "armaments"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +89,6 @@
       ]
     },
     "created": "2026-04-04T20:19:12Z",
-    "modified": "2026-04-10T08:28:27Z"
+    "modified": "2026-09-02T04:02:06Z"
   }
 }

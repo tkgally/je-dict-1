@@ -15,41 +15,66 @@
   "examples": [
     {
       "id": "17894_shitsunaiken_ex1",
-      "japanese": "うちの{犬|いぬ}は{室内犬|しつないけん}です。",
+      "japanese": "うち⟦の→の：09472_no⟧⟦{犬|いぬ}→犬：00632_inu⟧⟦は→は：00079_ha⟧{室内犬|しつないけん}です。",
       "english": "Our dog is an indoor dog.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17894_shitsunaiken_ex2",
-      "japanese": "{室内犬|しつないけん}には{小型犬|こがたけん}が{向|む}いている。",
+      "japanese": "{室内犬|しつないけん}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{小型犬|こがたけん}⟦が→が：00051_ga⟧⟦{向|む}いている→向く：02304_muku⟧。",
       "english": "Small breeds are suited for keeping indoors.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17894_shitsunaiken_ex3",
-      "japanese": "{最近|さいきん}は{大型犬|おおがたけん}でも{室内犬|しつないけん}として{飼|か}う{人|ひと}が{増|ふ}えている。",
+      "japanese": "⟦{最近|さいきん}→最近：00881_saikin⟧⟦は→は：00079_ha⟧{大型犬|おおがたけん}⟦で→で：00502_de⟧⟦も→も：00484_mo⟧{室内犬|しつないけん}⟦として→として：06802_toshite⟧⟦{飼|か}う→飼う：08151_kau⟧⟦{人|ひと}→人：00476_hito⟧⟦が→が：00051_ga⟧⟦{増|ふ}えている→増える：01183_fueru⟧。",
       "english": "Recently, more people are keeping even large dogs as indoor dogs.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nA compound of {室内|しつない} (indoors) and {犬|けん} (dog). Reflects the modern Japanese trend of keeping dogs inside the home rather than in an outdoor kennel.\n\nCOMMON COLLOCATIONS:\n- {室内犬|しつないけん}として{飼|か}う (to keep as an indoor dog)\n- {室内犬|しつないけん}に{向|む}いている (suited for keeping indoors)\n- {室内犬|しつないけん}{向|む}けの{犬種|けんしゅ} (dog breeds suitable for indoor living)\n\nRELATED WORDS:\n- {室外犬|しつがいけん}: outdoor dog\n- {番犬|ばんけん}: guard dog\n- {愛犬|あいけん}: pet dog, beloved dog",
-  "cross_references": [],
+  "notes": "USAGE:\nA compound of ⟦{室内|しつない}→室内：03061_shitsunai⟧ (indoors) and {犬|けん} (dog). Reflects the modern Japanese trend of keeping dogs inside the home rather than in an outdoor kennel.\n\nCOMMON COLLOCATIONS:\n- {室内犬|しつないけん}⟦として→として：06802_toshite⟧⟦{飼|か}う→飼う：08151_kau⟧ (to keep as an indoor dog)\n- {室内犬|しつないけん}⟦に→に：00314_ni⟧⟦{向|む}いている→向く：02304_muku⟧ (suited for keeping indoors)\n- {室内犬|しつないけん}{向|む}け⟦の→の：09472_no⟧{犬種|けんしゅ} (dog breeds suitable for indoor living)\n\nRELATED WORDS:\n- {室外犬|しつがいけん}: outdoor dog\n- ⟦{番犬|ばんけん}→番犬：22378_banken⟧: guard dog\n- ⟦{愛犬|あいけん}→愛犬：27504_aiken⟧: pet dog, beloved dog",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "22378_banken",
+      "reading": "ばんけん",
+      "headword": "{番犬|ばんけん}",
+      "label": "guard dog"
+    },
+    {
+      "type": "related",
+      "target_id": "27504_aiken",
+      "reading": "あいけん",
+      "headword": "{愛犬|あいけん}",
+      "label": "pet dog, beloved dog"
+    }
+  ],
   "metadata": {
     "created": "2026-03-19T08:29:48Z",
-    "modified": "2026-03-19T08:29:48Z",
+    "modified": "2026-09-02T04:01:50Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["animal-mammal"]
+      "semantic": [
+        "animal-mammal"
+      ]
     }
   }
 }

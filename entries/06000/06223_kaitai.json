@@ -2,7 +2,7 @@
   "id": "06223_kaitai",
   "headword": "{解体|かいたい}",
   "reading": "かいたい",
-  "part_of_speech": "noun / suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "demolition; dismantling",
   "conjugation": {
     "type": "suru",
@@ -203,7 +203,7 @@
       ]
     }
   ],
-  "notes": "USAGE: {解体|かいたい} is used as both a noun and a suru-verb. It can describe physical demolition or metaphorical dismantling.\n\nCOMMON COLLOCATIONS:\n- {解体|かいたい}⟦{工事|こうじ}→工事：00244_kouji⟧ (demolition work)\n- {解体|かいたい}⟦{業者|ぎょうしゃ}→業者：13130_gyousha⟧ (demolition contractor)\n- {解体|かいたい}⟦{費用|ひよう}→費用：03588_hiyou⟧ (demolition cost)\n- ⟦{建物|たてもの}→建物：01458_tatemono⟧⟦を→を：00422_wo⟧{解体|かいたい}⟦する→する：00392_suru⟧ (to demolish a building)\n- ⟦{組織|そしき}→組織：03320_soshiki⟧⟦を→を：00422_wo⟧{解体|かいたい}⟦する→する：00392_suru⟧ (to disband an organization)\n- ⟦マグロ→マグロ：11134_maguro⟧⟦の→の：09472_no⟧{解体|かいたい}⟦ショー→ショー：10950_shoo⟧ (tuna cutting show)\n\nRELATED TERMS:\n- ⟦{取|と}り{壊|こわ}す→取り壊す：15755_torikowasu⟧ (to tear down, demolish)\n- ⟦{撤去|てっきょ}→撤去：14729_tekkyo⟧ (removal, demolition)\n- ⟦{改築|かいちく}→改築：06224_kaichiku⟧ (renovation)\n- ⟦{増築|ぞうちく}→増築：06568_zouchiku⟧ (extension)",
+  "notes": "USAGE: {解体|かいたい} is used as both a noun and a suru-verb. It can describe physical demolition or metaphorical dismantling.\n\nCOMMON COLLOCATIONS:\n- {解体|かいたい}⟦{工事|こうじ}→工事：00244_kouji⟧ (demolition work)\n- {解体|かいたい}⟦{業者|ぎょうしゃ}→業者：13130_gyousha⟧ (demolition contractor)\n- {解体|かいたい}⟦{費用|ひよう}→費用：03588_hiyou⟧ (demolition cost)\n- ⟦{建物|たてもの}→建物：01458_tatemono⟧⟦を→を：00422_wo⟧{解体|かいたい}⟦する→する：00392_suru⟧ (to demolish a building)\n- ⟦{組織|そしき}→組織：03320_soshiki⟧⟦を→を：00422_wo⟧{解体|かいたい}⟦する→する：00392_suru⟧ (to disband an organization)\n- ⟦マグロ→マグロ：11134_maguro⟧⟦の→の：09472_no⟧{解体|かいたい}⟦ショー→ショー：10950_shoo⟧ (tuna cutting show)\n\nRELATED WORDS:\n- ⟦{取|と}り{壊|こわ}す→取り壊す：15755_torikowasu⟧ (to tear down, demolish)\n- ⟦{撤去|てっきょ}→撤去：14729_tekkyo⟧ (removal, demolition)\n- ⟦{改築|かいちく}→改築：06224_kaichiku⟧ (renovation)\n- ⟦{増築|ぞうちく}→増築：06568_zouchiku⟧ (extension)",
   "cross_references": [
     {
       "type": "related",
@@ -225,11 +225,60 @@
       "reading": "てっきょ",
       "headword": "{撤去|てっきょ}",
       "label": "removal"
+    },
+    {
+      "type": "related",
+      "target_id": "06568_zouchiku",
+      "reading": "ぞうちく",
+      "headword": "{増築|ぞうちく}",
+      "label": "extension"
+    },
+    {
+      "type": "related",
+      "target_id": "08389_bunkai",
+      "reading": "ぶんかい",
+      "headword": "{分解|ぶんかい}",
+      "label": "disassembly"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21320_bunkaisuru",
+      "reading": "ぶんかいする",
+      "headword": "{分解|ぶんかい}する",
+      "label": "to disassemble"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21321_tekkyosuru",
+      "reading": "てっきょする",
+      "headword": "{撤去|てっきょ}する",
+      "label": "to remove"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21678_kaisansuru",
+      "reading": "かいさんする",
+      "headword": "{解散|かいさん}する",
+      "label": "to disband"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22325_torikowashi",
+      "reading": "とりこわし",
+      "headword": "{取|と}り{壊|こわ}し",
+      "label": "demolition"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29737_hairo",
+      "reading": "はいろ",
+      "headword": "{廃炉|はいろ}",
+      "label": "decommissioning of a nuclear reactor"
     }
   ],
   "metadata": {
     "created": "2026-01-17T05:25:35Z",
-    "modified": "2026-06-21T15:19:18Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25520_hishokan_ex1",
-      "japanese": "{首相|しゅしょう}{秘書官|ひしょかん}が{記者|きしゃ}{会見|かいけん}を{行|おこな}った。",
+      "japanese": "⟦{首相|しゅしょう}→首相：03217_shushou⟧{秘書官|ひしょかん}⟦が→が：00051_ga⟧⟦{記者|きしゃ}{会見|かいけん}→記者会見：19954_kishakaiken⟧⟦を→を：00422_wo⟧⟦{行|おこな}った→行う：01238_okonau⟧。",
       "english": "The prime minister's secretary held a press conference.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25520_hishokan_ex2",
-      "japanese": "{大臣|だいじん}の{秘書官|ひしょかん}に{任命|にんめい}された。",
+      "japanese": "⟦{大臣|だいじん}→大臣：03417_daijin⟧⟦の→の：09472_no⟧{秘書官|ひしょかん}⟦に→に：00314_ni⟧⟦{任命|にんめい}→任命：09764_ninmei⟧⟦された→する：00392_suru⟧。",
       "english": "He was appointed as secretary to the minister.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25520_hishokan_ex3",
-      "japanese": "{秘書官|ひしょかん}は{大統領|だいとうりょう}の{日程|にってい}{管理|かんり}から{政策|せいさく}{調整|ちょうせい}まで{幅広|はばひろ}い{業務|ぎょうむ}を{担当|たんとう}する。",
+      "japanese": "{秘書官|ひしょかん}⟦は→は：00079_ha⟧⟦{大統領|だいとうりょう}→大統領：03418_daitouryou⟧⟦の→の：09472_no⟧⟦{日程|にってい}→日程：04289_nittei⟧⟦{管理|かんり}→管理：00178_kanri⟧⟦から→から：00504_kara⟧⟦{政策|せいさく}→政策：10070_seisaku⟧⟦{調整|ちょうせい}→調整：14839_chousei⟧⟦まで→まで：00490_made⟧⟦{幅広|はばひろ}い→幅広い：11326_habahiroi⟧⟦{業務|ぎょうむ}→業務：09630_gyoumu⟧⟦を→を：00422_wo⟧⟦{担当|たんとう}→担当：02567_tantou⟧⟦する→する：00392_suru⟧。",
       "english": "The executive secretary handles a wide range of duties, from scheduling for the president to policy coordination.",
       "sense_numbers": [
         1
@@ -44,8 +44,23 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {秘書|ひしょ} (secretary) + {官|かん} (official; government position). Specifically refers to a government-appointed role, not a corporate secretary. The {官|かん} suffix marks it as an official governmental position. Frequently appears in political news and government reporting.\n\nCOMMON COLLOCATIONS:\n- {首相|しゅしょう}{秘書官|ひしょかん}: prime minister's secretary\n- {大臣|だいじん}{秘書官|ひしょかん}: minister's secretary\n- {政務|せいむ}{秘書官|ひしょかん}: political secretary (appointed from the Diet)\n- {事務|じむ}{秘書官|ひしょかん}: administrative secretary (career bureaucrat)\n\nSIMILAR WORDS:\n- {秘書|ひしょ}: secretary — the general term for any secretary, including corporate ones\n- {官房長官|かんぼうちょうかん}: Chief Cabinet Secretary — a much higher-ranking position; effectively the government spokesperson\n- {補佐官|ほさかん}: advisor; aide — an advisor to a top official, with more of a policy advisory role",
-  "cross_references": [],
+  "notes": "Composed of ⟦{秘書|ひしょ}→秘書：05502_hisho⟧ (secretary) + {官|かん} (official; government position). Specifically refers to a government-appointed role, not a corporate secretary. The {官|かん} suffix marks it as an official governmental position. Frequently appears in political news and government reporting.\n\nCOMMON COLLOCATIONS:\n- ⟦{首相|しゅしょう}→首相：03217_shushou⟧{秘書官|ひしょかん}: prime minister's secretary\n- ⟦{大臣|だいじん}→大臣：03417_daijin⟧{秘書官|ひしょかん}: minister's secretary\n- {政務|せいむ}{秘書官|ひしょかん}: political secretary (appointed from the Diet)\n- ⟦{事務|じむ}→事務：11418_jimu⟧{秘書官|ひしょかん}: administrative secretary (career bureaucrat)\n\nSIMILAR WORDS:\n- ⟦{秘書|ひしょ}→秘書：05502_hisho⟧: secretary — the general term for any secretary, including corporate ones\n- ⟦{官房長官|かんぼうちょうかん}→官房長官：28164_kanbouchoukan⟧: Chief Cabinet Secretary — a much higher-ranking position; effectively the government spokesperson\n- ⟦{補佐官|ほさかん}→補佐官：24977_hosakan⟧: advisor; aide — an advisor to a top official, with more of a policy advisory role",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "28164_kanbouchoukan",
+      "reading": "かんぼうちょうかん",
+      "headword": "官房長官",
+      "label": "Chief Cabinet Secretary"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24977_hosakan",
+      "reading": "ほさかん",
+      "headword": "{補佐官|ほさかん}",
+      "label": "advisor"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,11 +68,13 @@
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "politics"
       ]
     },
     "created": "2026-04-25T15:20:47Z",
-    "modified": "2026-08-04T12:59:53Z"
+    "modified": "2026-09-02T04:02:22Z"
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "16509_ryourichou_ex1",
-      "japanese": "この{店|みせ}の{料理長|りょうりちょう}はフランスで{修業|しゅぎょう}した。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{店|みせ}→店：00497_mise⟧⟦の→の：09472_no⟧{料理長|りょうりちょう}⟦は→は：00079_ha⟧⟦フランス→フランス：19418_furansu⟧⟦で→で：00502_de⟧⟦{修業|しゅぎょう}→修業：16906_shugyou⟧⟦した→する：00392_suru⟧。",
       "english": "The head chef of this restaurant trained in France.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "16509_ryourichou_ex2",
-      "japanese": "{新|あたら}しい{料理長|りょうりちょう}が{着任|ちゃくにん}してからメニューが{一新|いっしん}された。",
+      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧{料理長|りょうりちょう}⟦が→が：00051_ga⟧⟦{着任|ちゃくにん}→着任：14905_chakunin⟧⟦して→する：00392_suru⟧⟦から→から：00504_kara⟧⟦メニュー→メニュー：11166_menyuu⟧⟦が→が：00051_ga⟧⟦{一新|いっしん}→一新：19941_isshin⟧⟦された→する：00392_suru⟧。",
       "english": "The menu was completely renewed after the new head chef arrived.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "16509_ryourichou_ex3",
-      "japanese": "{料理長|りょうりちょう}がみずから{仕入|しい}れた{旬|しゅん}の{食材|しょくざい}を{使|つか}った{特別|とくべつ}コースが{好評|こうひょう}だ。",
+      "japanese": "{料理長|りょうりちょう}⟦が→が：00051_ga⟧みずから⟦{仕入|しい}れた→仕入れる：11430_shiireru⟧⟦{旬|しゅん}→旬：12716_shun⟧⟦の→の：09472_no⟧⟦{食材|しょくざい}→食材：04940_shokuzai⟧⟦を→を：00422_wo⟧⟦{使|つか}った→使う：00473_tsukau⟧⟦{特別|とくべつ}→特別：01120_tokubetsu⟧⟦コース→コース：10864_koosu⟧⟦が→が：00051_ga⟧⟦{好評|こうひょう}→好評：16720_kouhyou⟧だ。",
       "english": "The special course using seasonal ingredients personally sourced by the head chef is very popular.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,26 @@
       ]
     }
   ],
-  "notes": "USAGE:\nUsed in both Japanese and Western restaurant contexts. In formal settings, the loanword シェフ (chef) is also common, but {料理長|りょうりちょう} emphasizes the position as head of the kitchen hierarchy.\n\nCOMMON COLLOCATIONS:\n- {料理長|りょうりちょう}おまかせ (chef's choice)\n- {料理長|りょうりちょう}{特製|とくせい} (head chef's special)\n- {料理長|りょうりちょう}を{務|つと}める (to serve as head chef)\n\nSIMILAR WORDS:\n- シェフ: chef — loanword, often used for Western-style cooking\n- {板前|いたまえ}: Japanese chef — specifically a chef of Japanese cuisine, especially sushi",
-  "cross_references": [],
+  "notes": "USAGE:\nUsed in both Japanese and Western restaurant contexts. In formal settings, the loanword ⟦シェフ→シェフ：05062_shefu⟧ (chef) is also common, but {料理長|りょうりちょう} emphasizes the position as head of the kitchen hierarchy.\n\nCOMMON COLLOCATIONS:\n- {料理長|りょうりちょう}⟦おまかせ→おまかせ：08310_omakase⟧ (chef's choice)\n- {料理長|りょうりちょう}⟦{特製|とくせい}→特製：13534_tokusei⟧ (head chef's special)\n- {料理長|りょうりちょう}⟦を→を：00422_wo⟧⟦{務|つと}める→務める：10446_tsutomeru⟧ (to serve as head chef)\n\nSIMILAR WORDS:\n- ⟦シェフ→シェフ：05062_shefu⟧: chef — loanword, often used for Western-style cooking\n- ⟦{板前|いたまえ}→板前：13118_itamae⟧: Japanese chef — specifically a chef of Japanese cuisine, especially sushi",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05062_shefu",
+      "reading": "しぇふ",
+      "headword": "シェフ",
+      "label": "chef"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13118_itamae",
+      "reading": "いたまえ",
+      "headword": "{板前|いたまえ}",
+      "label": "Japanese chef"
+    }
+  ],
   "metadata": {
     "created": "2026-03-13T03:51:33Z",
-    "modified": "2026-07-20T00:31:17Z",
+    "modified": "2026-09-02T04:01:45Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

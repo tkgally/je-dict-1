@@ -15,31 +15,60 @@
   "examples": [
     {
       "id": "21032_riseitekina_ex1",
-      "japanese": "{理性的|りせいてき}に{行動|こうどう}する。",
+      "japanese": "{理性的|りせいてき}に⟦{行動|こうどう}→行動：02728_koudou⟧⟦する→する：00392_suru⟧。",
       "english": "To act rationally.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21032_riseitekina_ex2",
-      "japanese": "{彼|かれ}はいつも{理性的|りせいてき}な{判断|はんだん}ができる{人|ひと}だ。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦いつも→いつも：00599_itsumo⟧{理性的|りせいてき}な⟦{判断|はんだん}→判断：03571_handan⟧⟦が→が：00051_ga⟧⟦できる→できる：00557_dekiru⟧⟦{人|ひと}→人：00476_hito⟧だ。",
       "english": "He is someone who can always make rational judgments.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21032_riseitekina_ex3",
-      "japanese": "{感情的|かんじょうてき}にならず、{理性的|りせいてき}に{話|はな}し{合|あ}うことが{大切|たいせつ}だ。",
+      "japanese": "⟦{感情的|かんじょうてき}→感情的：05678_kanjouteki⟧⟦に→に：00314_ni⟧⟦なら→なる：01970_naru⟧ず、{理性的|りせいてき}に⟦{話|はな}し{合|あ}う→話し合う：02396_hanashiau⟧こと⟦が→が：00051_ga⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧だ。",
       "english": "It's important to discuss things rationally rather than getting emotional.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {理性|りせい} (reason, rationality) + {的|てき} (suffix making na-adjectives). Describes the quality of being governed by reason rather than emotion.\n\nCOMMON COLLOCATIONS:\n- {理性的|りせいてき}な{判断|はんだん}: rational judgment\n- {理性的|りせいてき}な{行動|こうどう}: rational behavior\n- {理性的|りせいてき}な{人|ひと}: a rational person\n- {理性的|りせいてき}に{考|かんが}える: to think rationally\n- {理性的|りせいてき}に{対処|たいしょ}する: to deal with something rationally\n\nCONTRAST:\n- {理性的|りせいてき}な ↔ {感情的|かんじょうてき}な: rational vs. emotional\n\nSIMILAR WORDS:\n- {合理的|ごうりてき}な: rational, logical — focuses on efficiency and logical consistency rather than emotional control\n- {冷静|れいせい}な: calm, composed — emphasizes remaining calm under pressure; overlaps with {理性的|りせいてき} but focuses more on composure\n- {論理的|ろんりてき}な: logical — focuses on the structure of reasoning and arguments",
+  "notes": "Composed of ⟦{理性|りせい}→理性：17951_risei⟧ (reason, rationality) + ⟦{的|てき}→〜的：09839_teki⟧ (suffix making na-adjectives). Describes the quality of being governed by reason rather than emotion.\n\nCOMMON COLLOCATIONS:\n- {理性的|りせいてき}な⟦{判断|はんだん}→判断：03571_handan⟧: rational judgment\n- {理性的|りせいてき}な⟦{行動|こうどう}→行動：02728_koudou⟧: rational behavior\n- {理性的|りせいてき}な⟦{人|ひと}→人：00476_hito⟧: a rational person\n- {理性的|りせいてき}に⟦{考|かんが}える→考える：00856_kangaeru⟧: to think rationally\n- {理性的|りせいてき}に⟦{対処|たいしょ}する→対処する：20049_taishosuru⟧: to deal with something rationally\n\nSIMILAR WORDS:\n- {理性的|りせいてき}な ↔ ⟦{感情的|かんじょうてき}→感情的：05678_kanjouteki⟧な: rational vs. emotional\n- ⟦{合理的|ごうりてき}→合理的：06199_gouriteki⟧な: rational, logical — focuses on efficiency and logical consistency rather than emotional control\n- ⟦{冷静|れいせい}→冷静：03781_reisei⟧な: calm, composed — emphasizes remaining calm under pressure; overlaps with ⟦{理性的|りせいてき}→理性的：16832_riseiteki⟧ but focuses more on composure\n- ⟦{論理的|ろんりてき}→論理的：05672_ronriteki⟧な: logical — focuses on the structure of reasoning and arguments",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06199_gouriteki",
+      "reading": "ごうりてき",
+      "headword": "{合理的|ごうりてき}",
+      "label": "rational, logical"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03781_reisei",
+      "reading": "れいせい",
+      "headword": "{冷静|れいせい}",
+      "label": "calm, composed"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05672_ronriteki",
+      "reading": "ろんりてき",
+      "headword": "{論理的|ろんりてき}",
+      "label": "logical"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -54,6 +83,6 @@
       ]
     },
     "created": "2026-03-31T15:30:51Z",
-    "modified": "2026-03-31T15:30:51Z"
+    "modified": "2026-09-02T04:02:01Z"
   }
 }

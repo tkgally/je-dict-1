@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "07317_ouhei_ex1",
-      "japanese": "{横柄|おうへい}な{態度|たいど}をとる。",
+      "japanese": "{横柄|おうへい}な⟦{態度|たいど}→態度：03396_taido⟧⟦を→を：00422_wo⟧とる。",
       "english": "To behave arrogantly.",
       "has_audio": false,
       "sense_numbers": [
@@ -23,7 +23,7 @@
     },
     {
       "id": "07317_ouhei_ex2",
-      "japanese": "{店員|てんいん}に{横柄|おうへい}な{客|きゃく}がいた。",
+      "japanese": "⟦{店員|てんいん}→店員：00897_tenin⟧⟦に→に：00314_ni⟧{横柄|おうへい}な⟦{客|きゃく}→客：00865_kyaku⟧がいた。",
       "english": "There was an arrogant customer toward the staff.",
       "has_audio": false,
       "sense_numbers": [
@@ -32,7 +32,7 @@
     },
     {
       "id": "07317_ouhei_ex3",
-      "japanese": "{上司|じょうし}の{横柄|おうへい}な{物言|ものい}いに{腹|はら}が{立|た}った。",
+      "japanese": "⟦{上司|じょうし}→上司：03286_joushi⟧⟦の→の：09472_no⟧{横柄|おうへい}な⟦{物言|ものい}い→物言い：13487_monoii⟧⟦に→に：00314_ni⟧⟦{腹|はら}→腹：02165_hara⟧⟦が→が：00051_ga⟧⟦{立|た}った→立つ：00758_tatsu⟧。",
       "english": "I got angry at my boss's overbearing way of speaking.",
       "has_audio": false,
       "sense_numbers": [
@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "notes": "WORD FORMATION:\n{横|おう} (sideways, arbitrary) + {柄|へい} (handle, manner) → arbitrary manner = arrogant\n\nFORMS:\n・{横柄|おうへい}な{態度|たいど} - arrogant attitude\n・{横柄|おうへい}な{物言|ものい}い - overbearing way of speaking\n・{横柄|おうへい}に{振|ふ}る{舞|ま}う - to behave arrogantly\n\nNUANCE:\n{横柄|おうへい} describes someone who treats others with contempt or disregard, often acting as if they are superior. Commonly used to criticize rude behavior toward service staff, subordinates, etc.\n\nRELATED WORDS:\n・{傲慢|ごうまん} - arrogant, haughty\n・{高圧的|こうあつてき} - high-handed, coercive\n・{偉|えら}そう - acting important, condescending",
+  "notes": "FORMS:\n{横|おう} (sideways, arbitrary) + {柄|へい} (handle, manner) → arbitrary manner = arrogant\n- {横柄|おうへい}な⟦{態度|たいど}→態度：03396_taido⟧ - arrogant attitude\n- {横柄|おうへい}な⟦{物言|ものい}い→物言い：13487_monoii⟧ - overbearing way of speaking\n- {横柄|おうへい}⟦に→に：00314_ni⟧⟦{振|ふ}る{舞|ま}う→振る舞う：04233_furumau⟧ - to behave arrogantly\n\nUSAGE:\n{横柄|おうへい} describes someone who treats others with contempt or disregard, often acting as if they are superior. Commonly used to criticize rude behavior toward service staff, subordinates, etc.\n\nRELATED WORDS:\n- ⟦{傲慢|ごうまん}→傲慢：07635_gouman⟧ - arrogant, haughty\n- ⟦{高圧的|こうあつてき}→高圧的：18279_kouatsuteki⟧ - high-handed, coercive\n- {偉|えら}そう - acting important, condescending",
   "cross_references": [
     {
       "type": "related",
@@ -55,11 +55,60 @@
       "reading": "こしがひくい",
       "headword": "{腰|こし}が{低|ひく}い",
       "label": "humble"
+    },
+    {
+      "type": "related",
+      "target_id": "07635_gouman",
+      "reading": "ごうまん",
+      "headword": "{傲慢|ごうまん}",
+      "label": "arrogant, haughty"
+    },
+    {
+      "type": "related",
+      "target_id": "18279_kouatsuteki",
+      "reading": "こうあつてき",
+      "headword": "{高圧的|こうあつてき}",
+      "label": "high-handed, coercive"
+    },
+    {
+      "type": "related",
+      "target_id": "30176_erasou",
+      "reading": "えらそう",
+      "headword": "偉そう",
+      "label": "acting important, condescending"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19519_kouman",
+      "reading": "こうまん",
+      "headword": "{高慢|こうまん}",
+      "label": "arrogant"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21336_kouatsutekina",
+      "reading": "こうあつてきな",
+      "headword": "{高圧的|こうあつてき}な",
+      "label": "overbearing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21337_iatsutekina",
+      "reading": "いあつてきな",
+      "headword": "{威圧的|いあつてき}な",
+      "label": "intimidating"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22538_sondai",
+      "reading": "そんだい",
+      "headword": "{尊大|そんだい}",
+      "label": "haughty"
     }
   ],
   "metadata": {
     "created": "2026-01-19T04:12:32Z",
-    "modified": "2026-04-11T01:25:09Z",
+    "modified": "2026-09-02T04:01:10Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

@@ -2,7 +2,7 @@
   "id": "03275_jisshi",
   "headword": "{実施|じっし}",
   "reading": "じっし",
-  "part_of_speech": "noun, suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "implementation, enforcement",
   "definitions": [
     {
@@ -24,7 +24,7 @@
     },
     {
       "id": "03275_jisshi_ex2",
-      "japanese": "⟦{アンケート|あんけーと}→アンケート：03829_ankeeto⟧⟦を→を：00422_wo⟧{実施|じっし}⟦した→する：00392_suru⟧。",
+      "japanese": "⟦アンケート→アンケート：03829_ankeeto⟧⟦を→を：00422_wo⟧{実施|じっし}⟦した→する：00392_suru⟧。",
       "english": "We conducted a survey.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{実施|じっし}⟦する→する：00392_suru⟧ is used as a する-verb meaning \"to implement\" or \"to carry out.\"\n\nCOMMON COLLOCATIONS:\n- {実施|じっし}⟦する→する：00392_suru⟧ (to implement, to carry out)\n- {実施|じっし}⟦{日|び}→日：12732_nichi⟧ (implementation date)\n- {実施|じっし}⟦{計画|けいかく}→計画：01172_keikaku⟧ (implementation plan)\n- {実施|じっし}⟦{要領|ようりょう}→要領：14109_youryou⟧ (implementation guidelines)\n- ⟦{本格|ほんかく}{的|てき}→本格的：05681_honkakuteki⟧⟦に→に：00314_ni⟧{実施|じっし}⟦する→する：00392_suru⟧ (to implement fully)\n\nCOMPARISON:\n- {実施|じっし}: implementation (of policies, plans, systems - formal)\n- ⟦{実行|じっこう}→実行：03274_jikkou⟧: execution (of individual actions, programs)",
+  "notes": "{実施|じっし}⟦する→する：00392_suru⟧ is used as a ⟦する→する：00392_suru⟧-verb meaning \"to implement\" or \"to carry out.\"\n\nCOMMON COLLOCATIONS:\n- {実施|じっし}⟦する→する：00392_suru⟧ (to implement, to carry out)\n- {実施|じっし}⟦{日|び}→日：12732_nichi⟧ (implementation date)\n- {実施|じっし}⟦{計画|けいかく}→計画：01172_keikaku⟧ (implementation plan)\n- {実施|じっし}⟦{要領|ようりょう}→要領：14109_youryou⟧ (implementation guidelines)\n- ⟦{本格|ほんかく}{的|てき}→本格的：05681_honkakuteki⟧⟦に→に：00314_ni⟧{実施|じっし}⟦する→する：00392_suru⟧ (to implement fully)\n\nSIMILAR WORDS:\n- {実施|じっし}: implementation (of policies, plans, systems - formal)\n- ⟦{実行|じっこう}→実行：03274_jikkou⟧: execution (of individual actions, programs)",
   "cross_references": [
     {
       "type": "related",
@@ -51,11 +51,18 @@
       "headword": "{実行|じっこう}",
       "label": "execution",
       "target_id": "03274_jikkou"
+    },
+    {
+      "type": "related",
+      "target_id": "08241_jissen",
+      "reading": "じっせん",
+      "headword": "{実践|じっせん}",
+      "label": "practice"
     }
   ],
   "metadata": {
     "created": "2026-01-12T00:56:20Z",
-    "modified": "2026-05-24T19:07:01Z",
+    "modified": "2026-09-02T04:01:03Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -68,7 +75,8 @@
       "semantic": [
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   },
   "conjugation": {

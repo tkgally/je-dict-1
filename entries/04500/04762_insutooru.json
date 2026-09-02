@@ -2,7 +2,7 @@
   "id": "04762_insutooru",
   "headword": "インストール",
   "reading": "いんすとーる",
-  "part_of_speech": "noun (verbal)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "install",
   "conjugation": {
     "type": "suru",
@@ -124,7 +124,7 @@
     },
     {
       "id": "04762_insutooru_ex3",
-      "japanese": "⟦この→この：00962_kono⟧⟦プログラム→プログラム：01540_puroguramu⟧⟦を→を：00422_wo⟧インストールして⟦ください→ください：02899_kudasai⟧。",
+      "japanese": "⟦この→この：00962_kono⟧⟦プログラム→プログラム：01540_puroguramu⟧⟦を→を：00422_wo⟧インストール⟦して→する：00392_suru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please install this program.",
       "notes": null,
       "has_audio": false,
@@ -133,18 +133,46 @@
       ]
     }
   ],
-  "notes": "インストール is a loanword from English \"install,\" meaning to set up software on a device.\n\nCOMMON EXPRESSIONS:\n- インストール⟦する→する：00392_suru⟧: to install\n- インストール⟦{中|ちゅう}→〜中：09840_chuu⟧: installing (in progress)\n- インストール⟦{完了|かんりょう}→完了：02560_kanryou⟧: installation complete\n- ⟦{再|さい}→再〜：03953_sai⟧インストール: reinstall\n- ⟦インストーラー→インストーラー：noentry⟧: installer\n\nABBREVIATION:\n⟦インスト→インスト：noentry⟧ is used in casual speech as a shortened form.\n\nCONTRAST:\n- インストール: install (put in)\n- ⟦アンインストール→アンインストール：noentry⟧: uninstall (remove)\n\nRELATED TECH TERMS:\n- ⟦ダウンロード→ダウンロード：04725_daunroodo⟧: download\n- ⟦アップデート→アップデート：05108_appudeeto⟧ / ⟦{更新|こうしん}→更新：04765_koushin⟧: update\n- ⟦セットアップ→セットアップ：noentry⟧: setup\n- ⟦{起動|きどう}→起動：18262_kidou⟧: launch/boot\n\nUSAGE NOTE:\nCan be used as a noun or with する as a verb.",
+  "notes": "インストール is a loanword from English \"install,\" meaning to set up software on a device.\n\nCOMMON EXPRESSIONS:\n- インストール⟦する→する：00392_suru⟧: to install\n- インストール⟦{中|ちゅう}→〜中：09840_chuu⟧: installing (in progress)\n- インストール⟦{完了|かんりょう}→完了：02560_kanryou⟧: installation complete\n- ⟦{再|さい}→再〜：03953_sai⟧インストール: reinstall\n- ⟦インストーラー→インストーラー：noentry⟧: installer\n\nFORMS:\n⟦インスト→インスト：noentry⟧ is used in casual speech as a shortened form.\n\nSIMILAR WORDS:\n- インストール: install (put in)\n- ⟦アンインストール→アンインストール：noentry⟧: uninstall (remove)\n\nRELATED TECH TERMS:\n- ⟦ダウンロード→ダウンロード：04725_daunroodo⟧: download\n- ⟦アップデート→アップデート：05108_appudeeto⟧ / ⟦{更新|こうしん}→更新：04765_koushin⟧: update\n- ⟦セットアップ→セットアップ：noentry⟧: setup\n- ⟦{起動|きどう}→起動：18262_kidou⟧: launch/boot\n\nUSAGE:\nCan be used as a noun or with ⟦する→する：00392_suru⟧ as a verb.",
   "cross_references": [
     {
       "type": "antonym",
       "reading": "あんいんすとーる",
       "headword": "アンインストール",
       "label": "uninstall"
+    },
+    {
+      "type": "related",
+      "target_id": "04725_daunroodo",
+      "reading": "だうんろーど",
+      "headword": "ダウンロード",
+      "label": "download"
+    },
+    {
+      "type": "related",
+      "target_id": "05108_appudeeto",
+      "reading": "あっぷでーと",
+      "headword": "アップデート",
+      "label": "update"
+    },
+    {
+      "type": "related",
+      "target_id": "04765_koushin",
+      "reading": "こうしん",
+      "headword": "{更新|こうしん}",
+      "label": "update"
+    },
+    {
+      "type": "related",
+      "target_id": "18262_kidou",
+      "reading": "きどう",
+      "headword": "{起動|きどう}",
+      "label": "launch/boot"
     }
   ],
   "metadata": {
     "created": "2026-01-16T00:23:38Z",
-    "modified": "2026-06-02T16:11:44Z",
+    "modified": "2026-09-02T04:01:05Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -157,7 +185,8 @@
       "semantic": [
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

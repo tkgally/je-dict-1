@@ -14,40 +14,67 @@
   "examples": [
     {
       "id": "21339_samue_ex1",
-      "japanese": "{作務衣|さむえ}を{着|き}て{庭仕事|にわしごと}をする。",
+      "japanese": "{作務衣|さむえ}⟦を→を：00422_wo⟧⟦{着|き}て→着る：00541_kiru⟧⟦{庭仕事|にわしごと}→庭仕事：20710_niwashigoto⟧⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧。",
       "english": "I do garden work wearing a samue.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21339_samue_ex2",
-      "japanese": "その{旅館|りょかん}のスタッフは{作務衣|さむえ}を{着|き}ていた。",
+      "japanese": "⟦その→その：00993_sono⟧⟦{旅館|りょかん}→旅館：01049_ryokan⟧⟦の→の：09472_no⟧⟦スタッフ→スタッフ：11046_sutaffu⟧⟦は→は：00079_ha⟧{作務衣|さむえ}⟦を→を：00422_wo⟧⟦{着|き}ていた→着る：00541_kiru⟧。",
       "english": "The staff at the ryokan were wearing samue.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21339_samue_ex3",
-      "japanese": "{父|ちち}は{家|いえ}では{作務衣|さむえ}でくつろいでいることが{多|おお}い。",
+      "japanese": "⟦{父|ちち}→父：00566_chichi⟧⟦は→は：00079_ha⟧⟦{家|いえ}→家：00612_ie⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧{作務衣|さむえ}⟦で→で：00502_de⟧⟦くつろいでいる→くつろぐ：02576_kutsurogu⟧こと⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "My father often relaxes at home wearing a samue.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Originally the work uniform of Zen Buddhist monks. {作務|さむ} refers to the daily manual labor (cleaning, cooking, gardening) that monks perform as part of their practice, and {衣|え} means clothing. The garment has become popular as comfortable casual wear.\n\nUSAGE:\nCommonly seen worn by:\n- Staff at {旅館|りょかん} (traditional inns) and {料亭|りょうてい} (high-end restaurants)\n- Potters, craftsmen, and artisans\n- Zen monks during work\n- People relaxing at home (as comfortable loungewear)\n\nCOMMON COLLOCATIONS:\n- {作務衣|さむえ}を{着|き}る: to wear a samue\n- {綿|めん}の{作務衣|さむえ}: cotton samue\n- {夏用|なつよう}{作務衣|さむえ}: summer samue\n\nRELATED TERMS:\n- {甚平|じんべい}: jinbei (similar casual wear, but short-sleeved with shorts — more summery)\n- {法衣|ほうえ}: Buddhist monk's robe (formal ceremonial attire)\n- {着物|きもの}: kimono (traditional formal/semi-formal wear)",
+  "notes": "Originally the work uniform of Zen Buddhist monks. ⟦{作務|さむ}→作務：27139_samu⟧ refers to the daily manual labor (cleaning, cooking, gardening) that monks perform as part of their practice, and {衣|え} means clothing. The garment has become popular as comfortable casual wear.\n\nUSAGE:\nCommonly seen worn by:\n- Staff at ⟦{旅館|りょかん}→旅館：01049_ryokan⟧ (traditional inns) and ⟦{料亭|りょうてい}→料亭：21710_ryoutei⟧ (high-end restaurants)\n- Potters, craftsmen, and artisans\n- Zen monks during work\n- People relaxing at home (as comfortable loungewear)\n\nCOMMON COLLOCATIONS:\n- {作務衣|さむえ}⟦を→を：00422_wo⟧⟦{着|き}る→着る：00541_kiru⟧: to wear a samue\n- ⟦{綿|めん}→綿：03807_men⟧⟦の→の：09472_no⟧{作務衣|さむえ}: cotton samue\n- {夏用|なつよう}{作務衣|さむえ}: summer samue\n\nRELATED WORDS:\n- ⟦{甚平|じんべい}→甚平：10107_jinbei⟧: jinbei (similar casual wear, but short-sleeved with shorts — more summery)\n- {法衣|ほうえ}: Buddhist monk's robe (formal ceremonial attire)\n- ⟦{着物|きもの}→着物：01309_kimono⟧: kimono (traditional formal/semi-formal wear)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "10107_jinbei",
+      "reading": "じんべい",
+      "headword": "{甚平|じんべい}",
+      "label": "jinbei (similar casual wear, but…"
+    },
+    {
+      "type": "related",
+      "target_id": "01309_kimono",
+      "reading": "きもの",
+      "headword": "{着物|きもの}",
+      "label": "kimono"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["clothing", "culture"]
+      "semantic": [
+        "clothing",
+        "culture"
+      ]
     },
     "created": "2026-04-02T01:04:49Z",
-    "modified": "2026-04-02T01:04:49Z"
+    "modified": "2026-09-02T04:02:03Z"
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28659_mukatte_ex1",
-      "japanese": "{駅|えき}に{向|む}かって{歩|ある}いた。",
+      "japanese": "⟦{駅|えき}→駅：02180_eki⟧⟦に→に：00314_ni⟧{向|む}かって⟦{歩|ある}いた→歩く：00538_aruku⟧。",
       "english": "I walked toward the station.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28659_mukatte_ex2",
-      "japanese": "{窓|まど}に{向|む}かって{座|すわ}っている。",
+      "japanese": "⟦{窓|まど}→窓：02254_mado⟧⟦に→に：00314_ni⟧{向|む}かって⟦{座|すわ}っている→座る：00757_suwaru⟧。",
       "english": "I'm sitting facing the window.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28659_mukatte_ex3",
-      "japanese": "{上司|じょうし}に{向|む}かってそんな{口|くち}{調|ちょう}で{話|はな}してはいけない。",
+      "japanese": "⟦{上司|じょうし}→上司：03286_joushi⟧⟦に→に：00314_ni⟧{向|む}かって⟦そんな→そんな：01645_sonna⟧{口|くち}{調|ちょう}⟦で→で：00502_de⟧⟦{話|はな}して→話す：00467_hanasu⟧⟦は→は：00079_ha⟧いけない。",
       "english": "You shouldn't speak to your boss in that tone.",
       "sense_numbers": [
         1
@@ -45,7 +45,7 @@
     },
     {
       "id": "28659_mukatte_ex4",
-      "japanese": "{未来|みらい}に{向|む}かって{一歩|いっぽ}{踏|ふ}み{出|だ}そう。",
+      "japanese": "⟦{未来|みらい}→未来：03748_mirai⟧⟦に→に：00314_ni⟧{向|む}かって⟦{一歩|いっぽ}→一歩：08890_ippo⟧⟦{踏|ふ}み{出|だ}そう→踏み出す：14283_fumidasu⟧。",
       "english": "Let's take a step toward the future.",
       "sense_numbers": [
         1
@@ -54,7 +54,7 @@
       "notes": null
     }
   ],
-  "notes": "Functions almost as a postposition. The full pattern is X{に}{向|む}かって — the に is required.\n\nCOMMON USES:\n- Physical direction: {北|きた}に{向|む}かって{進|すす}む (head north)\n- Facing position: {鏡|かがみ}に{向|む}かって (facing the mirror)\n- Target of speech or action: みんなに{向|む}かって{叫|さけ}んだ (shouted at everyone)\n- Abstract goal: {目標|もくひょう}に{向|む}かって (toward a goal)\n\nSIMILAR WORDS:\n- ～に{対|たい}して: against; toward — more abstract, often for stance or attitude\n- ～の{方|ほう}へ: in the direction of — less directional intent than {向|む}かって\n- ～へ: to; toward — bare directional particle without the 'facing' nuance",
+  "notes": "Functions almost as a postposition. The full pattern is X⟦に→に：00314_ni⟧{向|む}かって — the ⟦に→に：00314_ni⟧ is required.\n\nCOMMON COLLOCATIONS:\n- Physical direction: ⟦{北|きた}→北：00644_kita⟧⟦に→に：00314_ni⟧{向|む}かって⟦{進|すす}む→進む：01225_susumu⟧ (head north)\n- Facing position: ⟦{鏡|かがみ}→鏡：02190_kagami⟧⟦に→に：00314_ni⟧{向|む}かって (facing the mirror)\n- Target of speech or action: ⟦みんな→みんな：02972_minna⟧⟦に→に：00314_ni⟧{向|む}かって⟦{叫|さけ}んだ→叫ぶ：02108_sakebu⟧ (shouted at everyone)\n- Abstract goal: ⟦{目標|もくひょう}→目標：03631_mokuhyou⟧⟦に→に：00314_ni⟧{向|む}かって (toward a goal)\n\nSIMILAR WORDS:\n- ～⟦に{対|たい}して→に対して：06800_nitaishite⟧: against; toward — more abstract, often for stance or attitude\n- ～⟦の→の：09472_no⟧⟦{方|ほう}→方：01139_hou⟧⟦へ→へ：02473_he⟧: in the direction of — less directional intent than {向|む}かって\n- ～⟦へ→へ：02473_he⟧: to; toward — bare directional particle without the 'facing' nuance",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -63,13 +63,13 @@
         "expression"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "direction"
       ],
       "domain": []
     },
     "created": "2026-06-03T04:14:17Z",
-    "modified": "2026-08-08T18:34:17Z"
+    "modified": "2026-09-02T04:02:34Z"
   }
 }

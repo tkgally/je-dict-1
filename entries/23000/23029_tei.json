@@ -3,7 +3,7 @@
   "headword": "{邸|てい}",
   "reading": "てい",
   "romaji": "tei",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suffix",
   "gloss": "mansion; residence; estate",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "23029_tei_ex1",
-      "japanese": "{田中|たなか}{邸|てい}を{訪|たず}ねた。",
+      "japanese": "⟦{田中|たなか}→田中：09528_tanaka⟧{邸|てい}⟦を→を：00422_wo⟧⟦{訪|たず}ねた→訪ねる：01182_tazuneru⟧。",
       "english": "I visited the Tanaka residence.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "23029_tei_ex2",
-      "japanese": "{丘|おか}の{上|うえ}に{立派|りっぱ}な{邸|てい}が{建|た}っている。",
+      "japanese": "⟦{丘|おか}→丘：02183_oka⟧⟦の→の：09472_no⟧⟦{上|うえ}→上：00682_ue⟧⟦に→に：00314_ni⟧⟦{立派|りっぱ}→立派：01093_rippa⟧な{邸|てい}⟦が→が：00051_ga⟧⟦{建|た}っている→建つ：12544_tatsu⟧。",
       "english": "A splendid mansion stands on top of the hill.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "23029_tei_ex3",
-      "japanese": "{首相|しゅしょう}{公邸|こうてい}は{警備|けいび}が{厳|きび}しく、{一般|いっぱん}の{人|ひと}は{入|はい}れない。",
+      "japanese": "⟦{首相|しゅしょう}→首相：03217_shushou⟧⟦{公邸|こうてい}→公邸：30126_koutei⟧⟦は→は：00079_ha⟧⟦{警備|けいび}→警備：00208_keibi⟧⟦が→が：00051_ga⟧⟦{厳|きび}しく→厳しい：01125_kibishii⟧、⟦{一般|いっぱん}→一般：01737_ippan⟧⟦の→の：09472_no⟧⟦{人|ひと}→人：00476_hito⟧⟦は→は：00079_ha⟧⟦{入|はい}れない→入る：00494_hairu⟧。",
       "english": "The Prime Minister's official residence is heavily guarded and ordinary people cannot enter.",
       "sense_numbers": [
         1
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "Most commonly encountered as a suffix after a family name: {田中|たなか}{邸|てい} (the Tanaka residence), {鈴木|すずき}{邸|てい} (the Suzuki residence). This usage is formal and respectful, often seen in invitations, news reports, and historical references. The standalone noun {邸|てい} or {邸宅|ていたく} implies a residence of considerable size and prestige.\n\nCOMMON COLLOCATIONS:\n- ～{邸|てい}: the ～ residence (used as suffix)\n- {邸宅|ていたく}: mansion, stately residence\n- {公邸|こうてい}: official residence\n- {私邸|してい}: private residence\n- {豪邸|ごうてい}: grand mansion, palatial home\n\nSIMILAR WORDS:\n- {屋敷|やしき}: estate, mansion — often implies historical or traditional architecture\n- {家|いえ}/{宅|たく}: house, home — neutral everyday terms without the grand connotation\n- {住居|じゅうきょ}: dwelling, residence — formal but neutral, no implication of grandeur",
+  "notes": "Most commonly encountered as a suffix after a family name: ⟦{田中|たなか}→田中：09528_tanaka⟧{邸|てい} (the Tanaka residence), ⟦{鈴木|すずき}→鈴木：09530_suzuki⟧{邸|てい} (the Suzuki residence). This usage is formal and respectful, often seen in invitations, news reports, and historical references. The standalone noun {邸|てい} or ⟦{邸宅|ていたく}→邸宅：14434_teitaku⟧ implies a residence of considerable size and prestige.\n\nCOMMON COLLOCATIONS:\n- ～{邸|てい}: the ～ residence (used as suffix)\n- ⟦{邸宅|ていたく}→邸宅：14434_teitaku⟧: mansion, stately residence\n- ⟦{公邸|こうてい}→公邸：30126_koutei⟧: official residence\n- ⟦{私邸|してい}→私邸：30145_shitei⟧: private residence\n- ⟦{豪邸|ごうてい}→豪邸：18158_goutei⟧: grand mansion, palatial home\n\nSIMILAR WORDS:\n- ⟦{屋敷|やしき}→屋敷：12395_yashiki⟧: estate, mansion — often implies historical or traditional architecture\n- ⟦{家|いえ}→家：00612_ie⟧/⟦{宅|たく}→宅：12302_taku⟧: house, home — neutral everyday terms without the grand connotation\n- ⟦{住居|じゅうきょ}→住居：11612_juukyo⟧: dwelling, residence — formal but neutral, no implication of grandeur",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12395_yashiki",
+      "reading": "やしき",
+      "headword": "{屋敷|やしき}",
+      "label": "estate, mansion"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00612_ie",
+      "reading": "いえ",
+      "headword": "{家|いえ}",
+      "label": "house, home"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12302_taku",
+      "reading": "たく",
+      "headword": "{宅|たく}",
+      "label": "house, home"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11612_juukyo",
+      "reading": "じゅうきょ",
+      "headword": "{住居|じゅうきょ}",
+      "label": "dwelling, residence"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,6 +91,6 @@
       ]
     },
     "created": "2026-04-08T16:27:23Z",
-    "modified": "2026-07-31T00:22:50Z"
+    "modified": "2026-09-02T04:02:10Z"
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26888_tsugunai_ex1",
-      "japanese": "{罪|つみ}の{償|つぐな}いをする。",
+      "japanese": "⟦{罪|つみ}→罪：03532_tsumi⟧⟦の→の：09472_no⟧{償|つぐな}い⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧。",
       "english": "To atone for one's sins.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26888_tsugunai_ex2",
-      "japanese": "どんな{償|つぐな}いをしても{足|た}りない。",
+      "japanese": "⟦どんな→どんな：02924_donna⟧{償|つぐな}い⟦を→を：00422_wo⟧⟦して→する：00392_suru⟧⟦も→も：00484_mo⟧⟦{足|た}りない→足りる：01209_tariru⟧。",
       "english": "No amount of reparation would be enough.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26888_tsugunai_ex3",
-      "japanese": "{彼|かれ}は{長年|ながねん}にわたって{被害者|ひがいしゃ}への{償|つぐな}いを{続|つづ}けてきた。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{長年|ながねん}→長年：09684_naganen⟧⟦に→に：00314_ni⟧わたって⟦{被害者|ひがいしゃ}→被害者：14106_higaisha⟧⟦へ→へ：02473_he⟧⟦の→の：09472_no⟧{償|つぐな}い⟦を→を：00422_wo⟧⟦{続|つづ}け→続く：00903_tsuzuku⟧てきた。",
       "english": "He has continued making reparations to the victims for many years.",
       "sense_numbers": [
         1
@@ -44,8 +44,37 @@
       "notes": null
     }
   ],
-  "notes": "The noun form of {償|つぐな}う (to compensate, to make amends). Carries a strong moral and emotional weight — it implies a deep sense of responsibility for harm done, going beyond simple financial compensation.\n\nCOMMON COLLOCATIONS:\n- {罪|つみ}の{償|つぐな}い: atonement for sin/crime\n- {償|つぐな}いをする: to make amends\n- {償|つぐな}いを{求|もと}める: to seek reparation\n- {命|いのち}をもって{償|つぐな}う: to pay with one's life\n\nSIMILAR WORDS:\n- {賠償|ばいしょう}: compensation, indemnity — formal/legal term for financial compensation, often in lawsuits or international disputes\n- {弁償|べんしょう}: reimbursement — paying for something broken or lost, more everyday and practical\n- {補償|ほしょう}: compensation — making up for loss or damage, often from institutions or insurance\n- {贖罪|しょくざい}: redemption, expiation — more literary and religious in tone\n\nCULTURAL NOTE:\nThe concept of {償|つぐな}い is central to Japanese narratives about crime and punishment. In legal contexts, showing sincere {償|つぐな}い (such as paying condolence money to victims' families) can influence sentencing.",
-  "cross_references": [],
+  "notes": "The noun form of ⟦{償|つぐな}う→償う：10883_tsugunau⟧ (to compensate, to make amends). Carries a strong moral and emotional weight — it implies a deep sense of responsibility for harm done, going beyond simple financial compensation.\n\nCOMMON COLLOCATIONS:\n- ⟦{罪|つみ}→罪：03532_tsumi⟧⟦の→の：09472_no⟧{償|つぐな}い: atonement for sin/crime\n- {償|つぐな}い⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧: to make amends\n- {償|つぐな}い⟦を→を：00422_wo⟧⟦{求|もと}める→求める：02316_motomeru⟧: to seek reparation\n- ⟦{命|いのち}→命：02371_inochi⟧⟦をもって→をもって：06946_womotte⟧⟦{償|つぐな}う→償う：10883_tsugunau⟧: to pay with one's life\n\nSIMILAR WORDS:\n- ⟦{賠償|ばいしょう}→賠償：07641_baishou⟧: compensation, indemnity — formal/legal term for financial compensation, often in lawsuits or international disputes\n- ⟦{弁償|べんしょう}→弁償：14744_benshou⟧: reimbursement — paying for something broken or lost, more everyday and practical\n- ⟦{補償|ほしょう}→補償：03720_hoshou⟧: compensation — making up for loss or damage, often from institutions or insurance\n- ⟦{贖罪|しょくざい}→贖罪：20808_shokuzai⟧: redemption, expiation — more literary and religious in tone\n\nCULTURAL NOTE:\nThe concept of {償|つぐな}い is central to Japanese narratives about crime and punishment. In legal contexts, showing sincere {償|つぐな}い (such as paying condolence money to victims' families) can influence sentencing.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07641_baishou",
+      "reading": "ばいしょう",
+      "headword": "{賠償|ばいしょう}",
+      "label": "compensation, indemnity"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14744_benshou",
+      "reading": "べんしょう",
+      "headword": "{弁償|べんしょう}",
+      "label": "reimbursement"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03720_hoshou",
+      "reading": "ほしょう",
+      "headword": "{補償|ほしょう}",
+      "label": "compensation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20808_shokuzai",
+      "reading": "しょくざい",
+      "headword": "{贖罪|しょくざい}",
+      "label": "redemption, expiation"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -62,6 +91,6 @@
       "domain": []
     },
     "created": "2026-05-05T15:06:00Z",
-    "modified": "2026-08-06T12:44:19Z"
+    "modified": "2026-09-02T04:02:28Z"
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "19831_girigatai_ex1",
-      "japanese": "{彼|かれ}は{義理堅|ぎりがた}い{人|ひと}だ。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{義理堅|ぎりがた}い⟦{人|ひと}→人：00476_hito⟧だ。",
       "english": "He is a dutiful person.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "19831_girigatai_ex2",
-      "japanese": "{義理堅|ぎりがた}いので、{必|かなら}ずお{返|かえ}しをする。",
+      "japanese": "{義理堅|ぎりがた}い⟦の→の：09472_no⟧で、⟦{必|かなら}ず→必ず：01249_kanarazu⟧⟦お{返|かえ}し→お返し：08354_okaeshi⟧⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧。",
       "english": "Being dutiful, she always returns favors.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "19831_girigatai_ex3",
-      "japanese": "{義理堅|ぎりがた}い{性格|せいかく}で、{昔|むかし}の{恩師|おんし}にも{毎年|まいとし}{年賀状|ねんがじょう}を{送|おく}っている。",
+      "japanese": "{義理堅|ぎりがた}い⟦{性格|せいかく}→性格：03371_seikaku⟧⟦で→で：00502_de⟧、⟦{昔|むかし}→昔：01515_mukashi⟧⟦の→の：09472_no⟧⟦{恩師|おんし}→恩師：12598_onshi⟧⟦に→に：00314_ni⟧⟦も→も：00484_mo⟧⟦{毎年|まいとし}→毎年：00731_maitoshi⟧⟦{年賀状|ねんがじょう}→年賀状：06227_nengajou⟧⟦を→を：00422_wo⟧⟦{送|おく}っている→送る：00742_okuru⟧。",
       "english": "Being faithful to obligations, he sends New Year's cards every year even to his old teachers.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,26 @@
       ]
     }
   ],
-  "notes": "Composed of {義理|ぎり} (social obligation, duty) + {堅|かた}い (firm, strict). Describes someone who reliably fulfills social obligations and reciprocates kindness. This is generally a positive trait in Japanese culture.\n\nCOMMON COLLOCATIONS:\n- {義理堅|ぎりがた}い{人|ひと} — a dutiful person\n- {義理堅|ぎりがた}い{性格|せいかく} — a dutiful personality\n- {義理堅|ぎりがた}く{付|つ}き{合|あ}う — to faithfully maintain a relationship\n\nCULTURAL NOTE:\nIn Japanese culture, {義理|ぎり} (social obligation) is a fundamental concept governing interpersonal relationships. Being {義理堅|ぎりがた}い is considered admirable — it means one does not forget debts of gratitude and always reciprocates appropriately, whether through return gifts, favors, or maintaining relationships.\n\nSIMILAR WORDS:\n- {律儀|りちぎ} — conscientious, faithful (broader, includes general conscientiousness)\n- {誠実|せいじつ} — sincere, honest (focuses on honesty rather than obligation)",
-  "cross_references": [],
+  "notes": "Composed of ⟦{義理|ぎり}→義理：10891_giri⟧ (social obligation, duty) + ⟦{堅|かた}い→堅い：18753_katai⟧ (firm, strict). Describes someone who reliably fulfills social obligations and reciprocates kindness. This is generally a positive trait in Japanese culture.\n\nCOMMON COLLOCATIONS:\n- {義理堅|ぎりがた}い⟦{人|ひと}→人：00476_hito⟧ — a dutiful person\n- {義理堅|ぎりがた}い⟦{性格|せいかく}→性格：03371_seikaku⟧ — a dutiful personality\n- {義理堅|ぎりがた}く⟦{付|つ}き{合|あ}う→付き合う：02291_tsukiau⟧ — to faithfully maintain a relationship\n\nCULTURAL NOTE:\nIn Japanese culture, ⟦{義理|ぎり}→義理：10891_giri⟧ (social obligation) is a fundamental concept governing interpersonal relationships. Being {義理堅|ぎりがた}い is considered admirable — it means one does not forget debts of gratitude and always reciprocates appropriately, whether through return gifts, favors, or maintaining relationships.\n\nSIMILAR WORDS:\n- ⟦{律儀|りちぎ}→律儀：10908_richigi⟧ — conscientious, faithful (broader, includes general conscientiousness)\n- ⟦{誠実|せいじつ}→誠実：14211_seijitsu⟧ — sincere, honest (focuses on honesty rather than obligation)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "10908_richigi",
+      "reading": "りちぎ",
+      "headword": "{律儀|りちぎ}",
+      "label": "conscientious, faithful"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14211_seijitsu",
+      "reading": "せいじつ",
+      "headword": "{誠実|せいじつ}",
+      "label": "sincere, honest"
+    }
+  ],
   "metadata": {
     "created": "2026-03-27T02:10:41Z",
-    "modified": "2026-03-27T02:10:41Z",
+    "modified": "2026-09-02T04:01:57Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

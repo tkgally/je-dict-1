@@ -15,41 +15,60 @@
   "examples": [
     {
       "id": "28209_nuibari_ex1",
-      "japanese": "{縫|ぬ}い{針|ばり}に{糸|いと}を{通|とお}す。",
+      "japanese": "{縫|ぬ}い{針|ばり}⟦に→に：00314_ni⟧⟦{糸|いと}→糸：01315_ito⟧⟦を→を：00422_wo⟧⟦{通|とお}す→通す：02300_toosu⟧。",
       "english": "To thread a sewing needle.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28209_nuibari_ex2",
-      "japanese": "{縫|ぬ}い{針|ばり}で{指|ゆび}を{刺|さ}してしまった。",
+      "japanese": "{縫|ぬ}い{針|ばり}⟦で→で：00502_de⟧⟦{指|ゆび}→指：01518_yubi⟧⟦を→を：00422_wo⟧⟦{刺|さ}して→刺す：02111_sasu⟧しまった。",
       "english": "I pricked my finger with a sewing needle.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28209_nuibari_ex3",
-      "japanese": "ボタンを{付|つ}けるために{縫|ぬ}い{針|ばり}と{糸|いと}を{用意|ようい}した。",
+      "japanese": "⟦ボタン→ボタン：02963_botan⟧⟦を→を：00422_wo⟧⟦{付|つ}ける→付ける：00761_tsukeru⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧{縫|ぬ}い{針|ばり}⟦と→と：00512_to⟧⟦{糸|いと}→糸：01315_ito⟧⟦を→を：00422_wo⟧⟦{用意|ようい}した→用意する：22428_youisuru⟧。",
       "english": "I got a sewing needle and thread ready to attach the button.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "From {縫|ぬ}う (to sew) plus {針|はり} (needle); the は voices to ば in the compound (rendaku).\n\nCOMMON COLLOCATIONS:\n- {縫|ぬ}い{針|ばり}に{糸|いと}を{通|とお}す: to thread a sewing needle\n- {太|ふと}い{縫|ぬ}い{針|ばり}: a thick sewing needle\n\nRELATED WORDS:\n- {編|あ}み{針|ばり}: knitting needle\n- {針箱|はりばこ}: sewing box",
+  "notes": "From ⟦{縫|ぬ}う→縫う：00326_nuu⟧ (to sew) plus ⟦{針|はり}→針：03566_hari⟧ (needle); the ⟦は→は：00079_ha⟧ voices to ば in the compound (rendaku).\n\nCOMMON COLLOCATIONS:\n- {縫|ぬ}い{針|ばり}⟦に→に：00314_ni⟧⟦{糸|いと}→糸：01315_ito⟧⟦を→を：00422_wo⟧⟦{通|とお}す→通す：02300_toosu⟧: to thread a sewing needle\n- ⟦{太|ふと}い→太い：02955_futoi⟧{縫|ぬ}い{針|ばり}: a thick sewing needle\n\nRELATED WORDS:\n- ⟦{編|あ}み{針|ばり}→編み針：28210_amibari⟧: knitting needle\n- {針箱|はりばこ}: sewing box",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "28210_amibari",
+      "reading": "あみばり",
+      "headword": "{編|あ}み{針|ばり}",
+      "label": "knitting needle"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["tool"],
+      "politeness": "plain",
+      "semantic": [
+        "tool"
+      ],
       "domain": []
     },
     "created": "2026-05-27T03:08:15Z",
-    "modified": "2026-05-27T03:08:15Z"
+    "modified": "2026-09-02T04:02:32Z"
   }
 }

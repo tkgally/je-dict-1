@@ -15,41 +15,74 @@
   "examples": [
     {
       "id": "20602_fukumiwarai_ex1",
-      "japanese": "{彼女|かのじょ}は{含|ふく}み{笑|わら}いをした。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧{含|ふく}み{笑|わら}い⟦を→を：00422_wo⟧⟦した→する：00392_suru⟧。",
       "english": "She gave a knowing smile.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "20602_fukumiwarai_ex2",
-      "japanese": "{含|ふく}み{笑|わら}いを{浮|う}かべながら、{秘密|ひみつ}を{話|はな}し{始|はじ}めた。",
+      "japanese": "{含|ふく}み{笑|わら}い⟦を→を：00422_wo⟧⟦{浮|う}かべ→浮かべる：13314_ukaberu⟧⟦ながら→ながら：10530_nagara⟧、⟦{秘密|ひみつ}→秘密：02504_himitsu⟧⟦を→を：00422_wo⟧⟦{話|はな}し→話す：00467_hanasu⟧⟦{始|はじ}めた→始める：00531_hajimeru⟧。",
       "english": "With a smirk on their face, they began to reveal the secret.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "20602_fukumiwarai_ex3",
-      "japanese": "サプライズを{知|し}っている{友人|ゆうじん}は{含|ふく}み{笑|わら}いを{隠|かく}せなかった。",
+      "japanese": "⟦サプライズ→サプライズ：10936_sapuraizu⟧⟦を→を：00422_wo⟧⟦{知|し}っている→知る：00458_shiru⟧⟦{友人|ゆうじん}→友人：03649_yuujin⟧⟦は→は：00079_ha⟧{含|ふく}み{笑|わら}い⟦を→を：00422_wo⟧⟦{隠|かく}せなかった→隠す：02034_kakusu⟧。",
       "english": "My friend, who knew about the surprise, couldn't hide a knowing smile.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "Composed of {含|ふく}み (holding in, containing) + {笑|わら}い (laugh, smile). The word conveys the image of a laugh or smile held partly inside, not fully expressed. Often suggests ulterior knowledge or amusement.\n\nCOMMON COLLOCATIONS:\n- {含|ふく}み{笑|わら}いをする (give a suppressed laugh)\n- {含|ふく}み{笑|わら}いを{浮|う}かべる (show a knowing smile)\n- {含|ふく}み{笑|わら}いを{隠|かく}す (hide a smirk)\n- {含|ふく}み{笑|わら}いを{漏|も}らす (let out a suppressed laugh)\n\nSIMILAR WORDS:\n- {苦笑|くしょう} — wry smile, bitter smile (from embarrassment or awkwardness)\n- {微笑|びしょう} — gentle smile (warm and open, without hidden meaning)\n- {薄笑|うすわら}い — faint, slightly sinister smile (more negative connotation)\n- にやにや — grinning, smirking (onomatopoeia, often implying a sly or mischievous expression)",
-  "cross_references": [],
+  "notes": "Composed of ⟦{含|ふく}み→含み：08056_fukumi⟧ (holding in, containing) + ⟦{笑|わら}い→笑い：02641_warai⟧ (laugh, smile). The word conveys the image of a laugh or smile held partly inside, not fully expressed. Often suggests ulterior knowledge or amusement.\n\nCOMMON COLLOCATIONS:\n- {含|ふく}み{笑|わら}い⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧ (give a suppressed laugh)\n- {含|ふく}み{笑|わら}い⟦を→を：00422_wo⟧⟦{浮|う}かべる→浮かべる：13314_ukaberu⟧ (show a knowing smile)\n- {含|ふく}み{笑|わら}い⟦を→を：00422_wo⟧⟦{隠|かく}す→隠す：02034_kakusu⟧ (hide a smirk)\n- {含|ふく}み{笑|わら}い⟦を→を：00422_wo⟧⟦{漏|も}らす→漏らす：02436_morasu⟧ (let out a suppressed laugh)\n\nSIMILAR WORDS:\n- ⟦{苦笑|くしょう}→苦笑：08688_kushou⟧ — wry smile, bitter smile (from embarrassment or awkwardness)\n- ⟦{微笑|びしょう}→微笑：08687_bishou⟧ — gentle smile (warm and open, without hidden meaning)\n- ⟦{薄笑|うすわら}い→薄笑い：08455_usuwarai⟧ — faint, slightly sinister smile (more negative connotation)\n- ⟦にやにや→にやにや：05766_niyaniya⟧ — grinning, smirking (onomatopoeia, often implying a sly or mischievous expression)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08688_kushou",
+      "reading": "くしょう",
+      "headword": "{苦笑|くしょう}",
+      "label": "wry smile, bitter smile"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08687_bishou",
+      "reading": "びしょう",
+      "headword": "{微笑|びしょう}",
+      "label": "gentle smile"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08455_usuwarai",
+      "reading": "うすわらい",
+      "headword": "{薄笑|うすわら}い",
+      "label": "faint, slightly sinister smile"
+    }
+  ],
   "metadata": {
     "created": "2026-03-29T19:22:59Z",
-    "modified": "2026-03-29T19:22:59Z",
+    "modified": "2026-09-02T04:02:00Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["emotion", "expression"]
+      "semantic": [
+        "emotion",
+        "expression"
+      ]
     }
   }
 }

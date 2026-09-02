@@ -3,7 +3,7 @@
   "headword": "{裏漉|うらご}し",
   "reading": "うらごし",
   "romaji": "uragoshi",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "straining; sieving; passing through a sieve",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "23464_uragoshi_ex1",
-      "japanese": "かぼちゃを{裏漉|うらご}しする。",
+      "japanese": "⟦かぼちゃ→かぼちゃ：10306_kabocha⟧⟦を→を：00422_wo⟧{裏漉|うらご}し⟦する→する：00392_suru⟧。",
       "english": "To strain pumpkin through a sieve.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "23464_uragoshi_ex2",
-      "japanese": "{裏漉|うらご}ししたじゃがいもは{滑|なめ}らかになる。",
+      "japanese": "{裏漉|うらご}し⟦した→する：00392_suru⟧⟦じゃがいも→じゃがいも：05184_jagaimo⟧⟦は→は：00079_ha⟧⟦{滑|なめ}らか→滑らか：06068_nameraka⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧。",
       "english": "Sieved potatoes become smooth.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "23464_uragoshi_ex3",
-      "japanese": "なめらかなプリンを{作|つく}るには、{卵液|らんえき}を{裏漉|うらご}しするのが{大切|たいせつ}だ。",
+      "japanese": "なめらかな⟦プリン→プリン：11123_purin⟧⟦を→を：00422_wo⟧⟦{作|つく}る→作る：00481_tsukuru⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧、{卵液|らんえき}⟦を→を：00422_wo⟧{裏漉|うらご}し⟦する→する：00392_suru⟧⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧だ。",
       "english": "To make smooth pudding, it's important to strain the egg mixture through a sieve.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {裏|うら} (back, reverse side) and {漉|こ}し (straining). The name refers to pressing food through a sieve from the back side. This is a fundamental technique in Japanese cooking, used to achieve a refined, smooth texture.\n\nCOMMON COLLOCATIONS:\n- {裏漉|うらご}しする: to strain, to sieve\n- {裏漉|うらご}し{器|き}: a straining tool, a sieve for this purpose\n- {裏漉|うらご}しした{野菜|やさい}: strained vegetables\n- {裏漉|うらご}しにかける: to pass through a sieve\n\nUSAGE:\nOften used as a suru verb ({裏漉|うらご}しする). The technique is common in:\n- Japanese confections ({和菓子|わがし}): straining {餡|あん} (sweet bean paste)\n- Western-style cooking: making smooth soups and sauces\n- Baby food preparation: creating smooth purees for infants\n\nSIMILAR WORDS:\n- {濾|こ}す: to strain, to filter — a general verb for filtering liquids; {裏漉|うらご}し specifically refers to pushing solid food through a mesh\n- {漉|こ}す: to strain — the base verb; {裏漉|うらご}し is the nominal compound used as a cooking term",
+  "notes": "A compound of ⟦{裏|うら}→裏：02178_ura⟧ (back, reverse side) and {漉|こ}し (straining). The name refers to pressing food through a sieve from the back side. This is a fundamental technique in Japanese cooking, used to achieve a refined, smooth texture.\n\nCOMMON COLLOCATIONS:\n- {裏漉|うらご}し⟦する→する：00392_suru⟧: to strain, to sieve\n- {裏漉|うらご}し{器|き}: a straining tool, a sieve for this purpose\n- {裏漉|うらご}し⟦した→する：00392_suru⟧⟦{野菜|やさい}→野菜：02265_yasai⟧: strained vegetables\n- {裏漉|うらご}し⟦に→に：00314_ni⟧⟦かける→かける：00854_kakeru⟧: to pass through a sieve\n\nUSAGE:\nOften used as a suru verb ({裏漉|うらご}し⟦する→する：00392_suru⟧). The technique is common in:\n- Japanese confections (⟦{和菓子|わがし}→和菓子：04962_wagashi⟧): straining ⟦{餡|あん}→餡：10220_an⟧ (sweet bean paste)\n- Western-style cooking: making smooth soups and sauces\n- Baby food preparation: creating smooth purees for infants\n\nSIMILAR WORDS:\n- {濾|こ}す: to strain, to filter — a general verb for filtering liquids; {裏漉|うらご}し specifically refers to pushing solid food through a mesh\n- ⟦{漉|こ}す→漉す：13512_kosu⟧: to strain — the base verb; {裏漉|うらご}し is the nominal compound used as a cooking term",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13512_kosu",
+      "reading": "こす",
+      "headword": "{漉|こ}す",
+      "label": "to strain"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -58,10 +67,11 @@
       "semantic": [
         "food"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-04-12T07:43:44Z",
-    "modified": "2026-04-12T07:43:44Z"
+    "modified": "2026-09-02T04:02:13Z"
   },
   "conjugation": {
     "type": "suru",

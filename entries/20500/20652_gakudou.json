@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "20652_gakudou_ex1",
-      "japanese": "{学童|がくどう}{保育|ほいく}に{申|もう}し{込|こ}む。",
+      "japanese": "{学童|がくどう}{保育|ほいく}⟦に→に：00314_ni⟧⟦{申|もう}し{込|こ}む→申し込む：02311_moushikomu⟧。",
       "english": "To apply for after-school childcare.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "20652_gakudou_ex2",
-      "japanese": "{学童|がくどう}の{通学路|つうがくろ}を{安全|あんぜん}にする。",
+      "japanese": "{学童|がくどう}⟦の→の：09472_no⟧{通学路|つうがくろ}⟦を→を：00422_wo⟧⟦{安全|あんぜん}→安全：01131_anzen⟧⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧。",
       "english": "To make the route that schoolchildren take to school safe.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "20652_gakudou_ex3",
-      "japanese": "{共働|ともばたら}きの{家庭|かてい}にとって、{学童|がくどう}クラブは{大|おお}きな{助|たす}けになっている。",
+      "japanese": "⟦{共働|ともばたら}き→共働き：08564_tomobataraki⟧⟦の→の：09472_no⟧⟦{家庭|かてい}→家庭：12315_katei⟧⟦にとって→にとって：06803_nitotte⟧、{学童|がくどう}⟦クラブ→クラブ：10812_kurabu⟧⟦は→は：00079_ha⟧⟦{大|おお}きな→大きな：02849_ookina⟧⟦{助|たす}け→助け：07777_tasuke⟧になっている。",
       "english": "For dual-income households, after-school clubs are a great help.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Refers to children of elementary school age (roughly 6–12). While the literal meaning is simply 'school-age child,' in modern usage {学童|がくどう} is strongly associated with {学童|がくどう}{保育|ほいく} — the after-school childcare programs that look after children while parents are at work.\n\nCOMMON COLLOCATIONS:\n- {学童|がくどう}{保育|ほいく}: after-school childcare (for elementary school children)\n- {学童|がくどう}クラブ: after-school club\n- {学童|がくどう}{疎開|そかい}: wartime evacuation of schoolchildren (historical)\n- {学童|がくどう}の{列|れつ}: line of schoolchildren\n\nUSAGE:\nIn everyday conversation, people usually say {小学生|しょうがくせい} (elementary school student) rather than {学童|がくどう}. The term {学童|がくどう} appears primarily in official contexts, policy discussions, and as shorthand for after-school care programs.\n\nSIMILAR WORDS:\n- {小学生|しょうがくせい}: elementary school student (the everyday term)\n- {児童|じどう}: child (legal/official term, used in laws and regulations)",
+  "notes": "Refers to children of elementary school age (roughly 6–12). While the literal meaning is simply 'school-age child,' in modern usage {学童|がくどう} is strongly associated with {学童|がくどう}{保育|ほいく} — the after-school childcare programs that look after children while parents are at work.\n\nCOMMON COLLOCATIONS:\n- {学童|がくどう}{保育|ほいく}: after-school childcare (for elementary school children)\n- {学童|がくどう}⟦クラブ→クラブ：10812_kurabu⟧: after-school club\n- {学童|がくどう}⟦{疎開|そかい}→疎開：13589_sokai⟧: wartime evacuation of schoolchildren (historical)\n- {学童|がくどう}⟦の→の：09472_no⟧⟦{列|れつ}→列：02171_retsu⟧: line of schoolchildren\n\nUSAGE:\nIn everyday conversation, people usually say ⟦{小学生|しょうがくせい}→小学生：03069_shougakusei⟧ (elementary school student) rather than {学童|がくどう}. The term {学童|がくどう} appears primarily in official contexts, policy discussions, and as shorthand for after-school care programs.\n\nSIMILAR WORDS:\n- ⟦{小学生|しょうがくせい}→小学生：03069_shougakusei⟧: elementary school student (the everyday term)\n- ⟦{児童|じどう}→児童：03340_jidou⟧: child (legal/official term, used in laws and regulations)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03069_shougakusei",
+      "reading": "しょうがくせい",
+      "headword": "{小学生|しょうがくせい}",
+      "label": "elementary school student"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03340_jidou",
+      "reading": "じどう",
+      "headword": "{児童|じどう}",
+      "label": "child"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +76,6 @@
       ]
     },
     "created": "2026-03-29T21:21:37Z",
-    "modified": "2026-07-28T09:35:50Z"
+    "modified": "2026-09-02T04:02:00Z"
   }
 }

@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "16628_kaatsu_ex1",
-      "japanese": "{機内|きない}は{加圧|かあつ}されている。",
+      "japanese": "⟦{機内|きない}→機内：18819_kinai⟧⟦は→は：00079_ha⟧{加圧|かあつ}⟦されている→する：00392_suru⟧。",
       "english": "The airplane cabin is pressurized.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "16628_kaatsu_ex2",
-      "japanese": "{加圧|かあつ}トレーニングが{流行|りゅうこう}している。",
+      "japanese": "{加圧|かあつ}⟦トレーニング→トレーニング：00408_toreeningu⟧⟦が→が：00051_ga⟧⟦{流行|りゅうこう}→流行：03678_ryuukou⟧⟦している→する：00392_suru⟧。",
       "english": "Pressure training is popular.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "16628_kaatsu_ex3",
-      "japanese": "ポンプで{水|みず}を{加圧|かあつ}して{送|おく}る{仕組|しく}みだ。",
+      "japanese": "⟦ポンプ→ポンプ：11594_ponpu⟧⟦で→で：00502_de⟧⟦{水|みず}→水：02258_mizu⟧⟦を→を：00422_wo⟧{加圧|かあつ}⟦して→する：00392_suru⟧⟦{送|おく}る→送る：00742_okuru⟧⟦{仕組|しく}み→仕組み：07168_shikumi⟧だ。",
       "english": "It's a system that pressurizes water with a pump and sends it.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nUsed in engineering, aviation, fitness, and medical contexts. {加圧|かあつ}トレーニング (pressure training) is a popular fitness method in Japan that restricts blood flow during exercise.\n\nCOMMON COLLOCATIONS:\n- {加圧|かあつ}する (to pressurize)\n- {加圧|かあつ}トレーニング (pressure/blood-flow restriction training)\n- {加圧|かあつ}{装置|そうち} (pressurization device)\n\nANTONYM:\n- {減圧|げんあつ}: depressurization, reducing pressure",
+  "notes": "USAGE:\nUsed in engineering, aviation, fitness, and medical contexts. {加圧|かあつ}⟦トレーニング→トレーニング：00408_toreeningu⟧ (pressure training) is a popular fitness method in Japan that restricts blood flow during exercise.\n\nCOMMON COLLOCATIONS:\n- {加圧|かあつ}⟦する→する：00392_suru⟧ (to pressurize)\n- {加圧|かあつ}⟦トレーニング→トレーニング：00408_toreeningu⟧ (pressure/blood-flow restriction training)\n- {加圧|かあつ}⟦{装置|そうち}→装置：03318_souchi⟧ (pressurization device)\n\nSIMILAR WORDS:\n- ⟦{減圧|げんあつ}→減圧：24095_genatsu⟧: depressurization, reducing pressure",
   "cross_references": [
     {
       "type": "antonym",
@@ -142,11 +142,18 @@
       "reading": "げんあつ",
       "headword": "{減圧|げんあつ}",
       "label": "depressurization"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24453_assou",
+      "reading": "あっそう",
+      "headword": "{圧送|あっそう}",
+      "label": "pressure feeding"
     }
   ],
   "metadata": {
     "created": "2026-03-14T01:36:58Z",
-    "modified": "2026-07-20T13:24:52Z",
+    "modified": "2026-09-02T04:01:45Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

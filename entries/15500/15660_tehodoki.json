@@ -15,41 +15,66 @@
   "examples": [
     {
       "id": "15660_tehodoki_ex1",
-      "japanese": "{父|ちち}に{将棋|しょうぎ}の{手|て}ほどきを{受|う}けた。",
+      "japanese": "⟦{父|ちち}→父：00566_chichi⟧⟦に→に：00314_ni⟧⟦{将棋|しょうぎ}→将棋：04172_shougi⟧⟦の→の：09472_no⟧{手|て}ほどき⟦を→を：00422_wo⟧⟦{受|う}けた→受ける：01215_ukeru⟧。",
       "english": "I received my first lessons in shogi from my father.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15660_tehodoki_ex2",
-      "japanese": "{茶道|さどう}の{手|て}ほどきをしてもらった。",
+      "japanese": "⟦{茶道|さどう}→茶道：04451_sadou⟧⟦の→の：09472_no⟧{手|て}ほどき⟦を→を：00422_wo⟧⟦して→する：00392_suru⟧⟦もらった→もらう：00520_morau⟧。",
       "english": "I was given an introduction to the tea ceremony.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15660_tehodoki_ex3",
-      "japanese": "{祖母|そぼ}から{料理|りょうり}の{手|て}ほどきを{受|う}けたのが{今|いま}の{仕事|しごと}につながった。",
+      "japanese": "⟦{祖母|そぼ}→祖母：00813_sobo⟧⟦から→から：00504_kara⟧⟦{料理|りょうり}→料理：01523_ryouri⟧⟦の→の：09472_no⟧{手|て}ほどき⟦を→を：00422_wo⟧⟦{受|う}けた→受ける：01215_ukeru⟧⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦{今|いま}→今：00945_ima⟧⟦の→の：09472_no⟧⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦に→に：00314_ni⟧つながった。",
       "english": "The cooking lessons I received from my grandmother led to my current career.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nImplies personal, one-on-one guidance rather than classroom instruction. Often used for traditional arts and skills. The most common patterns are {手|て}ほどきを{受|う}ける (to receive instruction) and {手|て}ほどきをする (to give instruction).\n\nCOMMON COLLOCATIONS:\n- {手|て}ほどきを{受|う}ける (to receive initial instruction)\n- {手|て}ほどきをする (to give initial instruction)\n- 〜の{手|て}ほどき (introduction to ~)\n\nSIMILAR WORDS:\n- {入門|にゅうもん}: introduction to a field (more formal, can be self-study)\n- {指導|しどう}: guidance, coaching (broader, ongoing instruction)",
-  "cross_references": [],
+  "notes": "USAGE:\nImplies personal, one-on-one guidance rather than classroom instruction. Often used for traditional arts and skills. The most common patterns are {手|て}ほどき⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧ (to receive instruction) and {手|て}ほどき⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧ (to give instruction).\n\nCOMMON COLLOCATIONS:\n- {手|て}ほどき⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧ (to receive initial instruction)\n- {手|て}ほどき⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧ (to give initial instruction)\n- 〜⟦の→の：09472_no⟧{手|て}ほどき (introduction to ~)\n\nSIMILAR WORDS:\n- ⟦{入門|にゅうもん}→入門：11643_nyuumon⟧: introduction to a field (more formal, can be self-study)\n- ⟦{指導|しどう}→指導：03190_shidou⟧: guidance, coaching (broader, ongoing instruction)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11643_nyuumon",
+      "reading": "にゅうもん",
+      "headword": "{入門|にゅうもん}",
+      "label": "introduction to a field"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03190_shidou",
+      "reading": "しどう",
+      "headword": "{指導|しどう}",
+      "label": "guidance, coaching"
+    }
+  ],
   "metadata": {
     "created": "2026-03-08T06:44:06Z",
-    "modified": "2026-03-08T06:44:06Z",
+    "modified": "2026-09-02T04:01:42Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["education"]
+      "semantic": [
+        "education"
+      ]
     }
   }
 }

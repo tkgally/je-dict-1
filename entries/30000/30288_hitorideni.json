@@ -16,7 +16,7 @@
   "examples": [
     {
       "id": "30288_hitorideni_ex1",
-      "japanese": "{戸|と}がひとりでに{開|あ}いた。",
+      "japanese": "⟦{戸|と}→戸：00676_to⟧⟦が→が：00051_ga⟧ひとりでに⟦{開|あ}いた→開く：00689_aku⟧。",
       "english": "The door opened by itself.",
       "sense_numbers": [
         1
@@ -26,7 +26,7 @@
     },
     {
       "id": "30288_hitorideni_ex2",
-      "japanese": "{傷|きず}はひとりでに{治|なお}るでしょう。",
+      "japanese": "⟦{傷|きず}→傷：02201_kizu⟧⟦は→は：00079_ha⟧ひとりでに⟦{治|なお}る→治る：19598_naoru⟧でしょう。",
       "english": "The wound will probably heal on its own.",
       "sense_numbers": [
         1
@@ -36,7 +36,7 @@
     },
     {
       "id": "30288_hitorideni_ex3",
-      "japanese": "{誰|だれ}も{触|さわ}っていないのに、{機械|きかい}がひとりでに{動|うご}き{出|だ}した。",
+      "japanese": "⟦{誰|だれ}も→誰も：18610_daremo⟧⟦{触|さわ}っていない→触る：00808_sawaru⟧⟦の→の：09472_no⟧⟦に→に：00314_ni⟧、⟦{機械|きかい}→機械：02366_kikai⟧⟦が→が：00051_ga⟧ひとりでに⟦{動|うご}き{出|だ}した→動き出す：18597_ugokidasu⟧。",
       "english": "Even though no one touched it, the machine started up by itself.",
       "sense_numbers": [
         1
@@ -45,7 +45,7 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {一人|ひとり} (alone) + で + に, but written in kana. Points at the absence of an agent: nobody did it.\n\nCOMMON COLLOCATIONS:\n- ひとりでに{開|あ}く: to open by itself\n- ひとりでに{治|なお}る: to heal on its own\n- ひとりでに{止|と}まる: to stop of its own accord\n\nSIMILAR WORDS:\n- おのずと: naturally, in due course — stresses a natural process leading to an outcome, not the absence of an agent\n- {自然|しぜん}と: naturally — everyday word for outcomes that come about without effort, including feelings\n- {自動的|じどうてき}に: automatically — about a mechanism designed to do it, so no surprise is implied",
+  "notes": "Composed of ⟦{一人|ひとり}→一人：00630_hitori⟧ (alone) + で + ⟦に→に：00314_ni⟧, but written in kana. Points at the absence of an agent: nobody did it.\n\nCOMMON COLLOCATIONS:\n- ひとりでに⟦{開|あ}く→開く：00689_aku⟧: to open by itself\n- ひとりでに⟦{治|なお}る→治る：19598_naoru⟧: to heal on its own\n- ひとりでに⟦{止|と}まる→止まる：00555_tomaru⟧: to stop of its own accord\n\nSIMILAR WORDS:\n- ⟦おのずと→おのずと：06714_onozuto⟧: naturally, in due course — stresses a natural process leading to an outcome, not the absence of an agent\n- ⟦{自然|しぜん}→自然：01423_shizen⟧⟦と→と：00512_to⟧: naturally — everyday word for outcomes that come about without effort, including feelings\n- ⟦{自動的|じどうてき}→自動的：25589_jidouteki⟧⟦に→に：00314_ni⟧: automatically — about a mechanism designed to do it, so no surprise is implied",
   "cross_references": [
     {
       "type": "related",
@@ -53,6 +53,34 @@
       "reading": "おのずと",
       "headword": "おのずと",
       "label": "naturally; of itself"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30290_shizento",
+      "reading": "しぜんと",
+      "headword": "{自然|しぜん}と",
+      "label": "naturally"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25589_jidouteki",
+      "reading": "じどうてき",
+      "headword": "{自動的|じどうてき}",
+      "label": "automatically"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27256_shizenni",
+      "reading": "しぜんに",
+      "headword": "{自然|しぜん}に",
+      "label": "naturally"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30289_onozukara",
+      "reading": "おのずから",
+      "headword": "おのずから",
+      "label": "naturally"
     }
   ],
   "metadata": {
@@ -62,13 +90,13 @@
         "adverb"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "change"
       ],
       "domain": []
     },
     "created": "2026-07-31T21:20:10Z",
-    "modified": "2026-07-31T21:20:10Z"
+    "modified": "2026-09-02T04:02:39Z"
   }
 }

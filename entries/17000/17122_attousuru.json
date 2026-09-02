@@ -3,7 +3,7 @@
   "id": "17122_attousuru",
   "headword": "{圧倒|あっとう}する",
   "reading": "あっとうする",
-  "part_of_speech": "verb (suru)",
+  "part_of_speech": "suru verb",
   "gloss": "to overwhelm; to overpower; to dominate",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "17122_attousuru_ex1",
-      "japanese": "{相手|あいて}チームを{圧倒|あっとう}した。",
+      "japanese": "⟦{相手|あいて}→相手：01677_aite⟧⟦チーム→チーム：03858_chiimu⟧⟦を→を：00422_wo⟧{圧倒|あっとう}した。",
       "english": "We overwhelmed the opposing team.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "17122_attousuru_ex2",
-      "japanese": "その{演奏|えんそう}に{圧倒|あっとう}された。",
+      "japanese": "⟦その→その：00993_sono⟧⟦{演奏|えんそう}→演奏：01896_ensou⟧⟦に→に：00314_ni⟧{圧倒|あっとう}された。",
       "english": "I was overwhelmed by the performance.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "17122_attousuru_ex3",
-      "japanese": "{圧倒的|あっとうてき}な{実力|じつりょく}{差|さ}で{優勝|ゆうしょう}チームが{決勝|けっしょう}を{制|せい}した。",
+      "japanese": "⟦{圧倒的|あっとうてき}→圧倒的：05853_attouteki⟧な⟦{実力|じつりょく}{差|さ}→実力差：17211_jitsuryokusa⟧⟦で→で：00502_de⟧⟦{優勝|ゆうしょう}→優勝：03647_yuushou⟧⟦チーム→チーム：03858_chiimu⟧⟦が→が：00051_ga⟧⟦{決勝|けっしょう}→決勝：04742_kesshou⟧⟦を→を：00422_wo⟧⟦{制|せい}した→制する：11906_seisuru⟧。",
       "english": "The champion team won the final with an overwhelming difference in ability.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nOften used in the passive form {圧倒|あっとう}される (to be overwhelmed). The derived adjective {圧倒的|あっとうてき} (overwhelming) is extremely common and often more frequently used than the verb itself.\n\nCOMMON COLLOCATIONS:\n- {圧倒|あっとう}される (to be overwhelmed)\n- {圧倒的|あっとうてき}な (overwhelming)\n- {圧倒的|あっとうてき}な{勝利|しょうり} (overwhelming victory)\n- {圧倒的|あっとうてき}な{多数|たすう} (overwhelming majority)\n\nSIMILAR WORDS:\n- {制圧|せいあつ}する: to suppress, to overpower — more forceful, military nuance\n- {凌駕|りょうが}する: to surpass, to outstrip — focuses on exceeding rather than defeating\n- {打|う}ち{負|ま}かす: to defeat, to beat — more colloquial",
+  "notes": "USAGE:\nOften used in the passive form {圧倒|あっとう}される (to be overwhelmed). The derived adjective ⟦{圧倒的|あっとうてき}→圧倒的：05853_attouteki⟧ (overwhelming) is extremely common and often more frequently used than the verb itself.\n\nCOMMON COLLOCATIONS:\n- {圧倒|あっとう}される (to be overwhelmed)\n- ⟦{圧倒的|あっとうてき}→圧倒的：05853_attouteki⟧な (overwhelming)\n- ⟦{圧倒的|あっとうてき}→圧倒的：05853_attouteki⟧な⟦{勝利|しょうり}→勝利：11795_shouri⟧ (overwhelming victory)\n- ⟦{圧倒的|あっとうてき}→圧倒的：05853_attouteki⟧な⟦{多数|たすう}→多数：05612_tasuu⟧ (overwhelming majority)\n\nSIMILAR WORDS:\n- ⟦{制圧|せいあつ}→制圧：23059_seiatsu⟧⟦する→する：00392_suru⟧: to suppress, to overpower — more forceful, military nuance\n- ⟦{凌駕|りょうが}→凌駕：07991_ryouga⟧⟦する→する：00392_suru⟧: to surpass, to outstrip — focuses on exceeding rather than defeating\n- ⟦{打|う}ち{負|ま}かす→打ち負かす：15672_uchimakasu⟧: to defeat, to beat — more colloquial",
   "cross_references": [
     {
       "type": "related",
@@ -142,11 +142,39 @@
       "reading": "あっとうてき",
       "headword": "{圧倒的|あっとうてき}",
       "label": "overwhelming (adjective)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23059_seiatsu",
+      "reading": "せいあつ",
+      "headword": "{制圧|せいあつ}",
+      "label": "to suppress, to overpower"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07991_ryouga",
+      "reading": "りょうが",
+      "headword": "{凌駕|りょうが}",
+      "label": "to surpass, to outstrip"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15672_uchimakasu",
+      "reading": "うちまかす",
+      "headword": "{打|う}ち{負|ま}かす",
+      "label": "to defeat, to beat"
+    },
+    {
+      "type": "related",
+      "target_id": "15413_attousareru",
+      "reading": "あっとうされる",
+      "headword": "{圧倒|あっとう}される",
+      "label": "to be overwhelmed"
     }
   ],
   "metadata": {
     "created": "2026-03-16T00:48:31Z",
-    "modified": "2026-07-22T18:50:18Z",
+    "modified": "2026-09-02T04:01:47Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

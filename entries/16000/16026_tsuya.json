@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "16026_tsuya_ex1",
-      "japanese": "{今夜|こんや}は{通夜|つや}に{出席|しゅっせき}する。",
+      "japanese": "⟦{今夜|こんや}→今夜：01411_konya⟧⟦は→は：00079_ha⟧{通夜|つや}⟦に→に：00314_ni⟧⟦{出席|しゅっせき}する→出席する：01830_shussekisuru⟧。",
       "english": "I'm attending a wake tonight.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "16026_tsuya_ex2",
-      "japanese": "{通夜|つや}には{黒|くろ}い{服|ふく}を{着|き}て{行|い}った。",
+      "japanese": "{通夜|つや}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{黒|くろ}い→黒い：00588_kuroi⟧⟦{服|ふく}→服：00695_fuku⟧⟦を→を：00422_wo⟧⟦{着|き}て→着る：00541_kiru⟧⟦{行|い}った→行く：00119_iku⟧。",
       "english": "I wore black clothes to the wake.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "16026_tsuya_ex3",
-      "japanese": "{仕事|しごと}の{都合|つごう}で{葬儀|そうぎ}に{出|で}られないので、{通夜|つや}だけでも{参列|さんれつ}しようと{思|おも}う。",
+      "japanese": "⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦の→の：09472_no⟧⟦{都合|つごう}→都合：01672_tsugou⟧⟦で→で：00502_de⟧⟦{葬儀|そうぎ}→葬儀：15337_sougi⟧⟦に→に：00314_ni⟧⟦{出|で}られない→出る：00513_deru⟧⟦の→の：09472_no⟧で、{通夜|つや}⟦だけ→〜だけ：03093_dake⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧⟦{参列|さんれつ}→参列：11888_sanretsu⟧⟦しよう→する：00392_suru⟧⟦と→と：00512_to⟧⟦{思|おも}う→思う：00492_omou⟧。",
       "english": "Since I can't attend the funeral due to work, I plan to at least attend the wake.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nThe traditional {通夜|つや} involved keeping vigil through the entire night, but modern {通夜|つや} (called {半通夜|はんつや}, literally \"half wake\") typically lasts only a few hours in the evening. It is held the day before the {葬儀|そうぎ} (funeral service).\n\nCOMMON COLLOCATIONS:\n- {通夜|つや}に{参列|さんれつ}する (to attend a wake)\n- {通夜|つや}を{行|おこな}う (to hold a wake)\n- {通夜|つや}{振|ふ}る{舞|ま}い (food and drink served at a wake)\n- お{通夜|つや} (wake, with polite prefix)\n\nCULTURE:\nIn Japanese funeral customs, the {通夜|つや} is typically followed by the {葬儀|そうぎ}・{告別式|こくべつしき} (funeral and farewell ceremony) the next day. Attendees usually bring {香典|こうでん} (condolence money) in a special envelope.",
+  "notes": "USAGE:\nThe traditional {通夜|つや} involved keeping vigil through the entire night, but modern {通夜|つや} (called {半通夜|はんつや}, literally \"half wake\") typically lasts only a few hours in the evening. It is held the day before the ⟦{葬儀|そうぎ}→葬儀：15337_sougi⟧ (funeral service).\n\nCOMMON COLLOCATIONS:\n- {通夜|つや}⟦に→に：00314_ni⟧⟦{参列|さんれつ}→参列：11888_sanretsu⟧⟦する→する：00392_suru⟧ (to attend a wake)\n- {通夜|つや}⟦を→を：00422_wo⟧⟦{行|おこな}う→行う：01238_okonau⟧ (to hold a wake)\n- {通夜|つや}⟦{振|ふ}る{舞|ま}い→振る舞い：10520_furumai⟧ (food and drink served at a wake)\n- お{通夜|つや} (wake, with polite prefix)\n\nCULTURAL NOTE:\nIn Japanese funeral customs, the {通夜|つや} is typically followed by the ⟦{葬儀|そうぎ}→葬儀：15337_sougi⟧・⟦{告別式|こくべつしき}→告別式：05923_kokubetsushiki⟧ (funeral and farewell ceremony) the next day. Attendees usually bring ⟦{香典|こうでん}→香典：06127_kouden⟧ (condolence money) in a special envelope.",
   "cross_references": [
     {
       "type": "related",
@@ -59,11 +59,18 @@
       "reading": "そうぎ",
       "headword": "{葬儀|そうぎ}",
       "label": "funeral"
+    },
+    {
+      "type": "related",
+      "target_id": "23563_choumon",
+      "reading": "ちょうもん",
+      "headword": "{弔問|ちょうもん}",
+      "label": "condolence visit"
     }
   ],
   "metadata": {
     "created": "2026-03-09T08:36:10Z",
-    "modified": "2026-07-18T12:31:39Z",
+    "modified": "2026-09-02T04:01:43Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

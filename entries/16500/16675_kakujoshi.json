@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "16675_kakujoshi_ex1",
-      "japanese": "「が」は{代表的|だいひょうてき}な{格助詞|かくじょし}だ。",
+      "japanese": "「⟦が→が：00051_ga⟧」⟦は→は：00079_ha⟧⟦{代表的|だいひょうてき}→代表的：05670_daihyouteki⟧な{格助詞|かくじょし}だ。",
       "english": "\"Ga\" is a typical case particle.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "16675_kakujoshi_ex2",
-      "japanese": "{格助詞|かくじょし}は{名詞|めいし}の{後|あと}に{付|つ}く。",
+      "japanese": "{格助詞|かくじょし}⟦は→は：00079_ha⟧⟦{名詞|めいし}→名詞：10420_meishi⟧⟦の→の：09472_no⟧⟦{後|あと}→後：09580_ato⟧⟦に→に：00314_ni⟧⟦{付|つ}く→付く：01960_tsuku⟧。",
       "english": "Case particles attach after nouns.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "16675_kakujoshi_ex3",
-      "japanese": "{日本語|にほんご}の{格助詞|かくじょし}を{正|ただ}しく{使|つか}い{分|わ}けることは{外国人|がいこくじん}{学習者|がくしゅうしゃ}にとって{難|むずか}しい。",
+      "japanese": "⟦{日本語|にほんご}→日本語：00614_nihongo⟧⟦の→の：09472_no⟧{格助詞|かくじょし}⟦を→を：00422_wo⟧⟦{正|ただ}しく→正しい：00893_tadashii⟧⟦{使|つか}い{分|わ}ける→使い分ける：07666_tsukaiwakeru⟧こと⟦は→は：00079_ha⟧⟦{外国人|がいこくじん}→外国人：02869_gaikokujin⟧⟦{学習者|がくしゅうしゃ}→学習者：22096_gakushuusha⟧⟦にとって→にとって：06803_nitotte⟧⟦{難|むずか}しい→難しい：00517_muzukashii⟧。",
       "english": "Using Japanese case particles correctly is difficult for foreign learners.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA grammar term essential for discussing Japanese sentence structure. The main {格助詞|かくじょし} are: が (subject), を (object), に (location/target), で (means/place), と (companion/quotation), から (from), まで (until), へ (direction), より (comparison).\n\nCOMMON COLLOCATIONS:\n- {格助詞|かくじょし}の{使|つか}い{方|かた} (how to use case particles)\n- {格助詞|かくじょし}を{省略|しょうりゃく}する (to omit a case particle)\n\nSIMILAR WORDS:\n- {助詞|じょし}: particle — the broader category including all types of particles\n- {係助詞|かかりじょし}: binding particle — particles like は and も that add nuance",
+  "notes": "USAGE:\nA grammar term essential for discussing Japanese sentence structure. The main {格助詞|かくじょし} are: ⟦が→が：00051_ga⟧ (subject), ⟦を→を：00422_wo⟧ (object), ⟦に→に：00314_ni⟧ (location/target), で (means/place), ⟦と→と：00512_to⟧ (companion/quotation), ⟦から→から：00504_kara⟧ (from), ⟦まで→まで：00490_made⟧ (until), ⟦へ→へ：02473_he⟧ (direction), より (comparison).\n\nCOMMON COLLOCATIONS:\n- {格助詞|かくじょし}⟦の→の：09472_no⟧⟦{使|つか}い{方|かた}→使い方：07797_tsukaikata⟧ (how to use case particles)\n- {格助詞|かくじょし}⟦を→を：00422_wo⟧⟦{省略|しょうりゃく}→省略：03244_shouryaku⟧⟦する→する：00392_suru⟧ (to omit a case particle)\n\nSIMILAR WORDS:\n- ⟦{助詞|じょし}→助詞：03351_joshi⟧: particle — the broader category including all types of particles\n- ⟦{係助詞|かかりじょし}→係助詞：29609_kakarijoshi⟧: binding particle — particles like ⟦は→は：00079_ha⟧ and ⟦も→も：00484_mo⟧ that add nuance",
   "cross_references": [
     {
       "type": "related",
@@ -52,11 +52,18 @@
       "reading": "じょし",
       "headword": "{助詞|じょし}",
       "label": "particle (broader)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29609_kakarijoshi",
+      "reading": "かかりじょし",
+      "headword": "{係助詞|かかりじょし}",
+      "label": "binding particle"
     }
   ],
   "metadata": {
     "created": "2026-03-14T02:12:10Z",
-    "modified": "2026-05-04T08:25:28Z",
+    "modified": "2026-09-02T04:01:45Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

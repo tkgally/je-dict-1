@@ -3,7 +3,7 @@
   "headword": "{丸|まる}まる",
   "reading": "まるまる",
   "romaji": "marumaru",
-  "part_of_speech": "verb-godan",
+  "part_of_speech": "verb (godan)",
   "gloss": "to curl up; to roll into a ball; to become rounded",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29052_marumaru_ex1",
-      "japanese": "ネコが{丸|まる}まって{寝|ね}ている。",
+      "japanese": "ネコ⟦が→が：00051_ga⟧{丸|まる}まって⟦{寝|ね}ている→寝る：00470_neru⟧。",
       "english": "The cat is curled up sleeping.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29052_marumaru_ex2",
-      "japanese": "{寒|さむ}くて{布団|ふとん}の{中|なか}で{丸|まる}まっていた。",
+      "japanese": "⟦{寒|さむ}くて→寒い：00664_samui⟧⟦{布団|ふとん}→布団：01720_futon⟧⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧⟦で→で：00502_de⟧{丸|まる}まって⟦いた→いる：00495_iru⟧。",
       "english": "It was cold so I was curled up inside the blanket.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29052_marumaru_ex3",
-      "japanese": " {落|お}ち{葉|ば}が{乾燥|かんそう}して{端|はし}から{丸|まる}まり{始|はじ}めた。",
+      "japanese": " ⟦{落|お}ち{葉|ば}→落ち葉：14108_ochiba⟧⟦が→が：00051_ga⟧⟦{乾燥|かんそう}→乾燥：00184_kansou⟧⟦して→する：00392_suru⟧⟦{端|はし}→端：00936_hashi⟧⟦から→から：00504_kara⟧{丸|まる}まり⟦{始|はじ}めた→始める：00531_hajimeru⟧。",
       "english": "The fallen leaves dried out and began to curl up from the edges.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "A godan verb derived from {丸|まる}い (round). Describes the process of something taking on a round, compact shape — by curling, rolling, or contracting.\n\nCOMMON COLLOCATIONS:\n- {丸|まる}まって{寝|ね}る: to sleep curled up\n- {体|からだ}を{丸|まる}める: to curl one's body up (transitive)\n- {布団|ふとん}の{中|なか}で{丸|まる}まる: to curl up inside the blanket\n- {猫|ねこ}が{丸|まる}まる: a cat curls into a ball\n\nNOTE: The transitive counterpart is {丸|まる}める (to round something; to roll something into a ball): {紙|かみ}を{丸|まる}める (to crumple paper).\n\nSIMILAR WORDS:\n- {縮|ちぢ}こまる: to huddle, to scrunch up — implies shrinking from cold or fear\n- うずくまる: to crouch, to squat — lower-body crouch rather than full body curl",
+  "notes": "A godan verb derived from ⟦{丸|まる}い→丸い：02967_marui⟧ (round). Describes the process of something taking on a round, compact shape — by curling, rolling, or contracting.\n\nCOMMON COLLOCATIONS:\n- {丸|まる}まって⟦{寝|ね}る→寝る：00470_neru⟧: to sleep curled up\n- ⟦{体|からだ}→体：00784_karada⟧⟦を→を：00422_wo⟧⟦{丸|まる}める→丸める：11313_marumeru⟧: to curl one's body up (transitive)\n- ⟦{布団|ふとん}→布団：01720_futon⟧⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧⟦で→で：00502_de⟧{丸|まる}まる: to curl up inside the blanket\n- ⟦{猫|ねこ}→猫：02237_neko⟧⟦が→が：00051_ga⟧{丸|まる}まる: a cat curls into a ball\n\nNOTE: The transitive counterpart is ⟦{丸|まる}める→丸める：11313_marumeru⟧ (to round something; to roll something into a ball): ⟦{紙|かみ}→紙：00712_kami⟧⟦を→を：00422_wo⟧⟦{丸|まる}める→丸める：11313_marumeru⟧ (to crumple paper).\n\nSIMILAR WORDS:\n- ⟦{縮|ちぢ}こまる→縮こまる：08217_chijikomaru⟧: to huddle, to scrunch up — implies shrinking from cold or fear\n- ⟦うずくまる→うずくまる：18290_uzukumaru⟧: to crouch, to squat — lower-body crouch rather than full body curl",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08217_chijikomaru",
+      "reading": "ちぢこまる",
+      "headword": "{縮|ちぢ}こまる",
+      "label": "to huddle, to scrunch up"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18290_uzukumaru",
+      "reading": "うずくまる",
+      "headword": "うずくまる",
+      "label": "to crouch, to squat"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,16 +69,17 @@
         "verb-godan"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "movement",
         "appearance"
       ],
       "domain": [],
-      "verb_class": "godan-ru"
+      "verb_class": "godan-ru",
+      "transitivity": "intransitive"
     },
     "created": "2026-06-09T17:38:37Z",
-    "modified": "2026-08-09T06:33:11Z"
+    "modified": "2026-09-02T04:02:35Z"
   },
   "conjugation": {
     "type": "godan",

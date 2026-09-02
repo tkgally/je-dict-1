@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08479_fukugyou_ex1",
-      "japanese": "{副業|ふくぎょう}を{始|はじ}めた。",
+      "japanese": "{副業|ふくぎょう}⟦を→を：00422_wo⟧⟦{始|はじ}めた→始める：00531_hajimeru⟧。",
       "english": "I started a side job.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "08479_fukugyou_ex2",
-      "japanese": "{会社|かいしゃ}が{副業|ふくぎょう}を{解禁|かいきん}した。",
+      "japanese": "⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦が→が：00051_ga⟧{副業|ふくぎょう}⟦を→を：00422_wo⟧⟦{解禁|かいきん}→解禁：14144_kaikin⟧⟦した→する：00392_suru⟧。",
       "english": "The company lifted its ban on side jobs.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "08479_fukugyou_ex3",
-      "japanese": "{週末|しゅうまつ}は{副業|ふくぎょう}でライターをしている。",
+      "japanese": "⟦{週末|しゅうまつ}→週末：03030_shuumatsu⟧⟦は→は：00079_ha⟧{副業|ふくぎょう}⟦で→で：00502_de⟧⟦ライター→ライター：00350_raitaa⟧⟦を→を：00422_wo⟧⟦している→する：00392_suru⟧。",
       "english": "On weekends, I work as a freelance writer on the side.",
       "sense_numbers": [
         1
@@ -43,7 +43,7 @@
       "notes": null
     }
   ],
-  "notes": "COMPOUND:\n{副|ふく} (secondary, sub-) + {業|ぎょう} (business, occupation)\n\nCONTRAST:\n- {副業|ふくぎょう} (side job) ↔ {本業|ほんぎょう} (main job)\n\nMODERN CONTEXT:\nIn Japan, {副業|ふくぎょう} has become increasingly common and accepted:\n- Many companies now permit side jobs\n- Popular forms include freelance writing, online tutoring, consulting\n- Some do it for income, others for skill development or fulfillment\n\nRELATED:\n- {兼業|けんぎょう} - holding multiple jobs\n- {複業|ふくぎょう} - multiple careers (different kanji, more equal weight)\n- ダブルワーク - double work\n- {在宅|ざいたく}ワーク - work from home\n- フリーランス - freelance",
+  "notes": "COMPOUNDS:\n⟦{副|ふく}→副〜：03965_fuku⟧ (secondary, sub-) + {業|ぎょう} (business, occupation)\n\nSIMILAR WORDS:\n- {副業|ふくぎょう} (side job) ↔ ⟦{本業|ほんぎょう}→本業：12887_hongyou⟧ (main job)\n\nMODERN CONTEXT:\nIn Japan, {副業|ふくぎょう} has become increasingly common and accepted:\n- Many companies now permit side jobs\n- Popular forms include freelance writing, online tutoring, consulting\n- Some do it for income, others for skill development or fulfillment\n\nRELATED WORDS:\n- ⟦{兼業|けんぎょう}→兼業：08562_kengyou⟧ - holding multiple jobs\n- {複業|ふくぎょう} - multiple careers (different kanji, more equal weight)\n- ⟦ダブル→ダブル：24220_daburu⟧ワーク - double work\n- ⟦{在宅|ざいたく}ワーク→在宅ワーク：18868_zaitakuwaaku⟧ - work from home\n- ⟦フリーランス→フリーランス：06152_furiiransu⟧ - freelance",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -51,13 +51,14 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "work",
         "business"
       ]
     },
     "created": "2026-01-27T03:47:32Z",
-    "modified": "2026-07-03T15:18:32Z"
+    "modified": "2026-09-02T04:01:15Z"
   },
   "cross_references": [
     {
@@ -73,6 +74,55 @@
       "reading": "けんぎょう",
       "headword": "{兼業|けんぎょう}",
       "label": "concurrent jobs"
+    },
+    {
+      "type": "related",
+      "target_id": "18868_zaitakuwaaku",
+      "reading": "ざいたくわーく",
+      "headword": "{在宅|ざいたく}ワーク",
+      "label": "work from home"
+    },
+    {
+      "type": "related",
+      "target_id": "06152_furiiransu",
+      "reading": "ふりーらんす",
+      "headword": "フリーランス",
+      "label": "freelance"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19879_naishoku",
+      "reading": "ないしょく",
+      "headword": "{内職|ないしょく}",
+      "label": "side job"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20036_nisokunowaraji",
+      "reading": "にそくのわらじ",
+      "headword": "{二足|にそく}のわらじ",
+      "label": "wearing two hats"
+    },
+    {
+      "type": "related",
+      "target_id": "21129_fukushuunyuu",
+      "reading": "ふくしゅうにゅう",
+      "headword": "{副収入|ふくしゅうにゅう}",
+      "label": "side income"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25283_naishokusuru",
+      "reading": "ないしょくする",
+      "headword": "{内職|ないしょく}する",
+      "label": "to do piecework at home"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26712_shagaikatsudou",
+      "reading": "しゃがいかつどう",
+      "headword": "{社外活動|しゃがいかつどう}",
+      "label": "outside-company activities"
     }
   ]
 }

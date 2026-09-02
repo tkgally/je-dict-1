@@ -66,7 +66,7 @@
   "notes": "{要旨|ようし} means the gist or essential points of a text, speech, or argument. Composed of ⟦{要|よう}→要：10000_you⟧ (essential) + ⟦{旨|し}→旨：noentry⟧ (purport, meaning). Common in academic, legal, and formal business contexts.\n\nCOMMON PATTERNS:\n- {要旨|ようし}⟦を→を：00422_wo⟧⟦まとめる→まとめる：02424_matomeru⟧: to summarize the main points\n- {要旨|ようし}⟦を→を：00422_wo⟧⟦{説明|せつめい}する→説明する：05639_setsumeisuru⟧: to explain the gist\n- ⟦{論文|ろんぶん}→論文：03787_ronbun⟧⟦の→の：09472_no⟧{要旨|ようし}: thesis abstract\n- ⟦{発言|はつげん}→発言：05099_hatsugen⟧⟦の→の：09472_no⟧{要旨|ようし}: summary of remarks\n\nSIMILAR WORDS:\n- {要旨|ようし}: gist, main purport (formal, emphasizes core meaning)\n- ⟦{概要|がいよう}→概要：06747_gaiyou⟧: outline, overview (broader, more general)\n- ⟦{要約|ようやく}→要約：14128_youyaku⟧: summary, abstract (condensed version of a text)\n- ⟦{要点|ようてん}→要点：01668_youten⟧: key point(s) (specific important items)\n- ⟦{趣旨|しゅし}→趣旨：05629_shushi⟧: purpose, intent (why something was done/said)",
   "metadata": {
     "created": "2026-01-13T12:42:08Z",
-    "modified": "2026-05-29T16:11:19Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
@@ -97,6 +97,55 @@
       "reading": "がいよう",
       "headword": "{概要|がいよう}",
       "label": "overview (broader)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01668_youten",
+      "reading": "ようてん",
+      "headword": "{要点|ようてん}",
+      "label": "key point(s)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05629_shushi",
+      "reading": "しゅし",
+      "headword": "{趣旨|しゅし}",
+      "label": "purpose, intent"
+    },
+    {
+      "type": "related",
+      "target_id": "04097_arasuji",
+      "reading": "あらすじ",
+      "headword": "{粗筋|あらすじ}",
+      "label": "outline, synopsis, plot summary"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07287_oosuji",
+      "reading": "おおすじ",
+      "headword": "{大筋|おおすじ}",
+      "label": "outline"
+    },
+    {
+      "type": "related",
+      "target_id": "08414_shouroku",
+      "reading": "しょうろく",
+      "headword": "{抄録|しょうろく}",
+      "label": "abstract"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23346_ronshi",
+      "reading": "ろんし",
+      "headword": "{論旨|ろんし}",
+      "label": "the point of an argument"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28961_shushi",
+      "reading": "しゅし",
+      "headword": "{主旨|しゅし}",
+      "label": "main point"
     }
   ]
 }

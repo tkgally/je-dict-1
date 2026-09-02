@@ -43,10 +43,40 @@
       ]
     }
   ],
-  "notes": "USAGE: コンテスト typically refers to competitions involving skill, talent, or creativity (not athletic competitions).\n\nCOMMON TYPES:\n・⟦スピーチコンテスト→スピーチコンテスト：noentry⟧ (speech contest)\n・⟦{写真|しゃしん}コンテスト→写真コンテスト：noentry⟧ (photo contest)\n・⟦ミスコンテスト→ミスコンテスト：noentry⟧ (beauty contest)\n・⟦{歌|うた}コンテスト→歌コンテスト：noentry⟧ (singing contest)\n・⟦デザインコンテスト→デザインコンテスト：noentry⟧ (design contest)\n\nRELATED WORDS:\n・⟦コンクール→コンクール：28795_konkuuru⟧ (concours - often for music/art)\n・⟦{競争|きょうそう}→競争：01388_kyousou⟧ (competition)\n・⟦{大会|たいかい}→大会：03386_taikai⟧ (tournament, competition)\n・⟦{試合|しあい}→試合：01601_shiai⟧ (match - sports)",
+  "notes": "USAGE: コンテスト typically refers to competitions involving skill, talent, or creativity (not athletic competitions).\n\nTYPES:\n- ⟦スピーチコンテスト→スピーチコンテスト：noentry⟧ (speech contest)\n- ⟦{写真|しゃしん}コンテスト→写真コンテスト：noentry⟧ (photo contest)\n- ⟦ミスコンテスト→ミスコンテスト：noentry⟧ (beauty contest)\n- ⟦{歌|うた}コンテスト→歌コンテスト：noentry⟧ (singing contest)\n- ⟦デザインコンテスト→デザインコンテスト：noentry⟧ (design contest)\n\nRELATED WORDS:\n- ⟦コンクール→コンクール：28795_konkuuru⟧ (concours - often for music/art)\n- ⟦{競争|きょうそう}→競争：01388_kyousou⟧ (competition)\n- ⟦{大会|たいかい}→大会：03386_taikai⟧ (tournament, competition)\n- ⟦{試合|しあい}→試合：01601_shiai⟧ (match - sports)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "28795_konkuuru",
+      "reading": "こんくーる",
+      "headword": "コンクール",
+      "label": "concours"
+    },
+    {
+      "type": "related",
+      "target_id": "01388_kyousou",
+      "reading": "きょうそう",
+      "headword": "{競争|きょうそう}",
+      "label": "competition"
+    },
+    {
+      "type": "related",
+      "target_id": "03386_taikai",
+      "reading": "たいかい",
+      "headword": "{大会|たいかい}",
+      "label": "tournament, competition"
+    },
+    {
+      "type": "related",
+      "target_id": "01601_shiai",
+      "reading": "しあい",
+      "headword": "{試合|しあい}",
+      "label": "match"
+    }
+  ],
   "metadata": {
     "created": "2026-01-12T13:55:10Z",
-    "modified": "2026-08-08T09:25:02Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

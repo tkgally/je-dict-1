@@ -15,41 +15,67 @@
   "examples": [
     {
       "id": "27789_ukauka_ex1",
-      "japanese": "うかうかしていられない。",
+      "japanese": "うかうか⟦していられない→する：00392_suru⟧。",
       "english": "I can't afford to be careless.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27789_ukauka_ex2",
-      "japanese": "うかうかと{時間|じかん}を{過|す}ごしてしまった。",
+      "japanese": "うかうか⟦と→と：00512_to⟧⟦{時間|じかん}→時間：00468_jikan⟧⟦を→を：00422_wo⟧⟦{過|す}ごして→過ごす：02062_sugosu⟧しまった。",
       "english": "I idled the time away.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27789_ukauka_ex3",
-      "japanese": "ライバルが{力|ちから}をつけてきたので、うかうかしていると{追|お}い{抜|ぬ}かれる。",
+      "japanese": "⟦ライバル→ライバル：11197_raibaru⟧⟦が→が：00051_ga⟧⟦{力|ちから}→力：01661_chikara⟧⟦を→を：00422_wo⟧⟦つけて→つける：00562_tsukeru⟧きた⟦の→の：09472_no⟧で、うかうか⟦している→する：00392_suru⟧⟦と→と：00512_to⟧⟦{追|お}い{抜|ぬ}かれる→追い抜く：14960_oinuku⟧。",
       "english": "My rival has been getting stronger, so if I'm not careful I'll be overtaken.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Describes letting time slip by inattentively, or being off one's guard.\n\nUSAGE:\n- Most often appears as うかうか(と)する, or as うかうかしていると ('if you're not careful...').\n- Frequently followed by a warning about a negative consequence.\n\nCOMMON COLLOCATIONS:\n- うかうかしていられない: can't afford to be careless\n- うかうかと{過|す}ごす: to idle (time) away\n\nSIMILAR WORDS:\n- ぼんやり: absent-mindedly — vague and unfocused, but without the 'wasting time / off guard' warning\n- のんびり: in a relaxed way — a positive nuance; うかうか is a criticism",
+  "notes": "Describes letting time slip by inattentively, or being off one's guard.\n\nUSAGE:\n- Most often appears as うかうか(⟦と→と：00512_to⟧)⟦する→する：00392_suru⟧, or as うかうか⟦している→する：00392_suru⟧⟦と→と：00512_to⟧ ('if you're not careful...').\n- Frequently followed by a warning about a negative consequence.\n\nCOMMON COLLOCATIONS:\n- うかうか⟦していられない→する：00392_suru⟧: can't afford to be careless\n- うかうか⟦と→と：00512_to⟧⟦{過|す}ごす→過ごす：02062_sugosu⟧: to idle (time) away\n\nSIMILAR WORDS:\n- ⟦ぼんやり→ぼんやり：03727_bonyari⟧: absent-mindedly — vague and unfocused, but without the 'wasting time / off guard' warning\n- ⟦のんびり→のんびり：01596_nonbiri⟧: in a relaxed way — a positive nuance; うかうか is a criticism",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03727_bonyari",
+      "reading": "ぼんやり",
+      "headword": "ぼんやり",
+      "label": "absent-mindedly"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01596_nonbiri",
+      "reading": "のんびり",
+      "headword": "のんびり",
+      "label": "in a relaxed way"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adverb"],
+      "pos": [
+        "adverb"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["descriptive"],
+      "politeness": "plain",
+      "semantic": [
+        "descriptive"
+      ],
       "domain": []
     },
     "created": "2026-05-18T04:14:41Z",
-    "modified": "2026-05-18T04:14:41Z"
+    "modified": "2026-09-02T04:02:31Z"
   }
 }

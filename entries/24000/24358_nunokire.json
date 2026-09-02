@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24358_nunokire_ex1",
-      "japanese": "{布切|ぬのき}れで{汚|よご}れを{拭|ふ}いた。",
+      "japanese": "{布切|ぬのき}れ⟦で→で：00502_de⟧⟦{汚|よご}れ→汚れ：03186_yogore⟧⟦を→を：00422_wo⟧⟦{拭|ふ}いた→拭く：04261_fuku⟧。",
       "english": "I wiped the dirt with a piece of cloth.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24358_nunokire_ex2",
-      "japanese": "{余|あま}った{布切|ぬのき}れで{小|ちい}さな{袋|ふくろ}を{作|つく}った。",
+      "japanese": "⟦{余|あま}った→余る：00001_amaru⟧{布切|ぬのき}れ⟦で→で：00502_de⟧⟦{小|ちい}さな→小さな：02913_chiisana⟧⟦{袋|ふくろ}→袋：00837_fukuro⟧⟦を→を：00422_wo⟧⟦{作|つく}った→作る：00481_tsukuru⟧。",
       "english": "I made a small pouch from leftover scraps of fabric.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24358_nunokire_ex3",
-      "japanese": "{引|ひ}き{出|だ}しの{中|なか}に{色|いろ}とりどりの{布切|ぬのき}れが{入|はい}っていた。",
+      "japanese": "⟦{引|ひ}き{出|だ}し→引き出し：01498_hikidashi⟧⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧⟦に→に：00314_ni⟧⟦{色|いろ}とりどり→色とりどり：10404_irotoridori⟧⟦の→の：09472_no⟧{布切|ぬのき}れ⟦が→が：00051_ga⟧⟦{入|はい}っていた→入る：00494_hairu⟧。",
       "english": "There were colorful scraps of fabric inside the drawer.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {布|ぬの} ('cloth; fabric') and {切|き}れ ('piece; cutting; scrap'). The suffix {切|き}れ attaches to material nouns to indicate a piece or remnant: {紙切|かみき}れ ('scrap of paper'), {木切|きぎ}れ ('piece of wood').\n\nUSAGE:\n- Commonly encountered in sewing, crafting, and household contexts.\n- Can be neutral ('a piece of fabric for a project') or slightly dismissive ('just a rag').\n- In fairy tales and folk stories, a humble {布切|ぬのき}れ sometimes turns out to be a magical garment or valuable heirloom.\n\nCOMMON COLLOCATIONS:\n- {布切|ぬのき}れで{拭|ふ}く: to wipe with a piece of cloth\n- {余|あま}った{布切|ぬのき}れ: leftover fabric scraps\n- {小|ちい}さな{布切|ぬのき}れ: a small scrap of cloth\n- {布切|ぬのき}れを{縫|ぬ}い{合|あ}わせる: to sew scraps of cloth together\n\nSIMILAR WORDS:\n- {端切|はぎ}れ: fabric remnant — specifically refers to leftover pieces from cutting fabric for sewing\n- {雑巾|ぞうきん}: cleaning rag; dust cloth — a cloth specifically used for cleaning, typically made from old towels or fabric\n- {布|ぬの}: cloth; fabric — the base material word without the 'piece/scrap' nuance\n- ぼろ{切|き}れ: tattered rag — emphasizes the worn, shabby condition of the cloth",
+  "notes": "Compound of ⟦{布|ぬの}→布：01489_nuno⟧ ('cloth; fabric') and {切|き}れ ('piece; cutting; scrap'). The suffix {切|き}れ attaches to material nouns to indicate a piece or remnant: ⟦{紙切|かみき}れ→紙切れ：22090_kamikire⟧ ('scrap of paper'), {木切|きぎ}れ ('piece of wood').\n\nUSAGE:\n- Commonly encountered in sewing, crafting, and household contexts.\n- Can be neutral ('a piece of fabric for a project') or slightly dismissive ('just a rag').\n- In fairy tales and folk stories, a humble {布切|ぬのき}れ sometimes turns out to be a magical garment or valuable heirloom.\n\nCOMMON COLLOCATIONS:\n- {布切|ぬのき}れ⟦で→で：00502_de⟧⟦{拭|ふ}く→拭く：04261_fuku⟧: to wipe with a piece of cloth\n- ⟦{余|あま}った→余る：00001_amaru⟧{布切|ぬのき}れ: leftover fabric scraps\n- ⟦{小|ちい}さな→小さな：02913_chiisana⟧{布切|ぬのき}れ: a small scrap of cloth\n- {布切|ぬのき}れ⟦を→を：00422_wo⟧{縫|ぬ}い{合|あ}わせる: to sew scraps of cloth together\n\nSIMILAR WORDS:\n- ⟦{端切|はぎ}れ→端切れ：24305_hagire⟧: fabric remnant — specifically refers to leftover pieces from cutting fabric for sewing\n- ⟦{雑巾|ぞうきん}→雑巾：04408_zoukin⟧: cleaning rag; dust cloth — a cloth specifically used for cleaning, typically made from old towels or fabric\n- ⟦{布|ぬの}→布：01489_nuno⟧: cloth; fabric — the base material word without the 'piece/scrap' nuance\n- ぼろ{切|き}れ: tattered rag — emphasizes the worn, shabby condition of the cloth",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24305_hagire",
+      "reading": "はぎれ",
+      "headword": "{端切|はぎ}れ",
+      "label": "fabric remnant"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04408_zoukin",
+      "reading": "ぞうきん",
+      "headword": "{雑巾|ぞうきん}",
+      "label": "cleaning rag"
+    },
+    {
+      "type": "related",
+      "target_id": "22090_kamikire",
+      "reading": "かみきれ",
+      "headword": "{紙切|かみき}れ",
+      "label": "scrap of paper"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -64,6 +87,6 @@
       ]
     },
     "created": "2026-04-18T15:17:44Z",
-    "modified": "2026-08-02T18:32:34Z"
+    "modified": "2026-09-02T04:02:17Z"
   }
 }

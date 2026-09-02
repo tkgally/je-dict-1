@@ -15,41 +15,59 @@
   "examples": [
     {
       "id": "13489_shuumai_ex1",
-      "japanese": "{焼売|しゅうまい}を{蒸|む}す。",
+      "japanese": "{焼売|しゅうまい}⟦を→を：00422_wo⟧⟦{蒸|む}す→蒸す：02307_musu⟧。",
       "english": "To steam shumai.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13489_shuumai_ex2",
-      "japanese": "お{弁当|べんとう}に{焼売|しゅうまい}が{入|はい}っていた。",
+      "japanese": "⟦お{弁当|べんとう}→お弁当：02864_obentou⟧⟦に→に：00314_ni⟧{焼売|しゅうまい}⟦が→が：00051_ga⟧⟦{入|はい}っていた→入る：00494_hairu⟧。",
       "english": "There were shumai in the bento box.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13489_shuumai_ex3",
-      "japanese": "{横浜|よこはま}{中華街|ちゅうかがい}で{本場|ほんば}の{焼売|しゅうまい}を{食|た}べてみたい。",
+      "japanese": "⟦{横浜|よこはま}→横浜：28138_yokohama⟧⟦{中華街|ちゅうかがい}→中華街：11353_chuukagai⟧⟦で→で：00502_de⟧⟦{本場|ほんば}→本場：12867_honba⟧⟦の→の：09472_no⟧{焼売|しゅうまい}⟦を→を：00422_wo⟧⟦{食|た}べて→食べる：00396_taberu⟧みたい。",
       "english": "I want to try authentic shumai in Yokohama Chinatown.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "A Chinese-origin steamed dumpling with a thin wheat wrapper left open at the top, typically filled with {豚|ぶた}ひき{肉|にく} (ground pork).\n\nWRITING:\nOften written in katakana (シュウマイ or シューマイ) or hiragana (しゅうまい) in everyday use. The kanji {焼売|しゅうまい} is the original Chinese-derived spelling.\n\nCOMMON COLLOCATIONS:\n- {焼売|しゅうまい}を{蒸|む}す: to steam shumai\n- {焼売|しゅうまい}を{作|つく}る: to make shumai\n- {海老|えび}{焼売|しゅうまい}: shrimp shumai\n- {焼売|しゅうまい}{弁当|べんとう}: shumai bento\n\nCONTRAST WITH {餃子|ぎょうざ}:\n- {焼売|しゅうまい}: open-topped, steamed\n- {餃子|ぎょうざ}: sealed crescent shape, usually pan-fried\n\nCULTURE:\n{横浜|よこはま}{中華街|ちゅうかがい} (Yokohama Chinatown) is especially famous for {焼売|しゅうまい}. The {崎陽軒|きようけん} brand {焼売|しゅうまい}{弁当|べんとう} is an iconic {駅弁|えきべん} (train station bento).",
-  "cross_references": [],
+  "notes": "A Chinese-origin steamed dumpling with a thin wheat wrapper left open at the top, typically filled with ⟦{豚|ぶた}ひき{肉|にく}→豚ひき肉：23445_butahikiniku⟧ (ground pork).\n\nWRITING:\nOften written in katakana (シュウマイ or シューマイ) or hiragana (しゅうまい) in everyday use. The kanji {焼売|しゅうまい} is the original Chinese-derived spelling.\n\nCOMMON COLLOCATIONS:\n- {焼売|しゅうまい}⟦を→を：00422_wo⟧⟦{蒸|む}す→蒸す：02307_musu⟧: to steam shumai\n- {焼売|しゅうまい}⟦を→を：00422_wo⟧⟦{作|つく}る→作る：00481_tsukuru⟧: to make shumai\n- ⟦{海老|えび}→海老：02272_ebi⟧{焼売|しゅうまい}: shrimp shumai\n- {焼売|しゅうまい}⟦{弁当|べんとう}→弁当：01014_bentou⟧: shumai bento\n\nCONTRAST WITH {餃子|ぎょうざ}:\n- {焼売|しゅうまい}: open-topped, steamed\n- ⟦{餃子|ぎょうざ}→餃子：08634_gyouza⟧: sealed crescent shape, usually pan-fried\n\nCULTURAL NOTE:\n⟦{横浜|よこはま}→横浜：28138_yokohama⟧⟦{中華街|ちゅうかがい}→中華街：11353_chuukagai⟧ (Yokohama Chinatown) is especially famous for {焼売|しゅうまい}. The {崎陽軒|きようけん} brand {焼売|しゅうまい}⟦{弁当|べんとう}→弁当：01014_bentou⟧ is an iconic ⟦{駅弁|えきべん}→駅弁：09702_ekiben⟧ (train station bento).",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08634_gyouza",
+      "reading": "ぎょうざ",
+      "headword": "{餃子|ぎょうざ}",
+      "label": "sealed crescent shape, usually pan-fried"
+    }
+  ],
   "metadata": {
     "created": "2026-02-25T13:23:34Z",
-    "modified": "2026-04-02T10:36:17Z",
+    "modified": "2026-09-02T04:01:33Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food"]
+      "semantic": [
+        "food"
+      ]
     }
   }
 }

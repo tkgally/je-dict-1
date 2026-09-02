@@ -15,41 +15,59 @@
   "examples": [
     {
       "id": "17762_niwaki_ex1",
-      "japanese": "{庭木|にわき}の{手入|てい}れをする。",
+      "japanese": "{庭木|にわき}⟦の→の：09472_no⟧⟦{手入|てい}れ→手入れ：07178_teire⟧⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧。",
       "english": "To tend the garden trees.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17762_niwaki_ex2",
-      "japanese": "{庭木|にわき}の{枝|えだ}を{剪定|せんてい}した。",
+      "japanese": "{庭木|にわき}⟦の→の：09472_no⟧⟦{枝|えだ}→枝：02181_eda⟧⟦を→を：00422_wo⟧⟦{剪定|せんてい}→剪定：06327_sentei⟧⟦した→する：00392_suru⟧。",
       "english": "I pruned the branches of the garden trees.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17762_niwaki_ex3",
-      "japanese": "{台風|たいふう}で{庭木|にわき}が{倒|たお}れてしまったので、{業者|ぎょうしゃ}に{撤去|てっきょ}を{頼|たの}んだ。",
+      "japanese": "⟦{台風|たいふう}→台風：01455_taifuu⟧⟦で→で：00502_de⟧{庭木|にわき}⟦が→が：00051_ga⟧⟦{倒|たお}れて→倒れる：01160_taoreru⟧しまった⟦の→の：09472_no⟧で、⟦{業者|ぎょうしゃ}→業者：13130_gyousha⟧⟦に→に：00314_ni⟧⟦{撤去|てっきょ}→撤去：14729_tekkyo⟧⟦を→を：00422_wo⟧⟦{頼|たの}んだ→頼む：01104_tanomu⟧。",
       "english": "A garden tree was knocked over by the typhoon, so I asked a contractor to remove it.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nA common everyday word for trees in residential gardens. Japanese gardens often feature carefully maintained {庭木|にわき}, and tree maintenance (especially {剪定|せんてい}, pruning) is an important part of homeownership.\n\nCOMMON COLLOCATIONS:\n- {庭木|にわき}の{手入|てい}れ: tending garden trees\n- {庭木|にわき}を{植|う}える: to plant a garden tree\n- {庭木|にわき}を{剪定|せんてい}する: to prune garden trees\n- {庭木|にわき}が{茂|しげ}る: garden trees grow thick",
-  "cross_references": [],
+  "notes": "USAGE:\nA common everyday word for trees in residential gardens. Japanese gardens often feature carefully maintained {庭木|にわき}, and tree maintenance (especially ⟦{剪定|せんてい}→剪定：06327_sentei⟧, pruning) is an important part of homeownership.\n\nCOMMON COLLOCATIONS:\n- {庭木|にわき}⟦の→の：09472_no⟧⟦{手入|てい}れ→手入れ：07178_teire⟧: tending garden trees\n- {庭木|にわき}⟦を→を：00422_wo⟧⟦{植|う}える→植える：01210_ueru⟧: to plant a garden tree\n- {庭木|にわき}⟦を→を：00422_wo⟧⟦{剪定|せんてい}→剪定：06327_sentei⟧⟦する→する：00392_suru⟧: to prune garden trees\n- {庭木|にわき}⟦が→が：00051_ga⟧⟦{茂|しげ}る→茂る：03924_shigeru⟧: garden trees grow thick",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "04001_ueki",
+      "reading": "うえき",
+      "headword": "{植木|うえき}",
+      "label": "garden plant"
+    }
+  ],
   "metadata": {
     "created": "2026-03-18T23:15:14Z",
-    "modified": "2026-03-18T23:15:14Z",
+    "modified": "2026-09-02T04:01:49Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["plant-tree"]
+      "semantic": [
+        "plant-tree"
+      ]
     }
   }
 }

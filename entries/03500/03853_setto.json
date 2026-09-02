@@ -2,7 +2,7 @@
   "id": "03853_setto",
   "headword": "セット",
   "reading": "せっと",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "set",
   "conjugation": {
     "type": "suru",
@@ -204,9 +204,25 @@
     }
   ],
   "notes": "From English \"set.\" Extremely common loanword with three main meanings in Japanese.\n\nSENSE 1 — COMBINATION:\n- ⟦ランチ→ランチ：11196_ranchi⟧セット: lunch set (a meal combo)\n- ⟦セットメニュー→セットメニュー：noentry⟧: set menu\n- ⟦{工具|こうぐ}→工具：01401_kougu⟧セット: tool set\n- Very common at restaurants — ordering a セット gets a main dish plus sides/drink\n\nSENSE 2 — SPORTS:\n- ⟦{第|だい}→第〜：03960_dai⟧〜セット: set number ~ (in tennis, volleyball, etc.)\n- セット⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧: to win a set\n\nSENSE 3 — SETTING/ARRANGING:\n- ⟦{髪|かみ}→髪：02196_kami⟧⟦を→を：00422_wo⟧セット⟦する→する：00392_suru⟧: to style hair\n- ⟦アラーム→アラーム：10707_araamu⟧⟦を→を：00422_wo⟧セット⟦する→する：00392_suru⟧: to set an alarm\n- 〜⟦を→を：00422_wo⟧セット⟦する→する：00392_suru⟧: to set up/prepare ~\n\nIn restaurant contexts, セット is often the most economical option, combining several items at a discount.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22667_satsueijo",
+      "reading": "さつえいじょ",
+      "headword": "{撮影所|さつえいじょ}",
+      "label": "film studio"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24227_raundo",
+      "reading": "らうんど",
+      "headword": "ラウンド",
+      "label": "round (of golf, boxing, negotiations)"
+    }
+  ],
   "metadata": {
     "created": "2026-01-12T13:55:10Z",
-    "modified": "2026-08-08T09:25:02Z",
+    "modified": "2026-09-02T04:00:52Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -220,7 +236,8 @@
         "geography",
         "leisure"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24811_kateikei_ex1",
-      "japanese": "「{行|い}く」の{仮定形|かていけい}は「{行|い}けば」だ。",
+      "japanese": "「⟦{行|い}く→行く：00119_iku⟧」⟦の→の：09472_no⟧{仮定形|かていけい}⟦は→は：00079_ha⟧「⟦{行|い}けば→行く：00119_iku⟧」だ。",
       "english": "The hypothetical form of 'iku' is 'ikeba.'",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24811_kateikei_ex2",
-      "japanese": "{仮定形|かていけい}の{作|つく}り{方|かた}を{練習|れんしゅう}しましょう。",
+      "japanese": "{仮定形|かていけい}⟦の→の：09472_no⟧⟦{作|つく}り{方|かた}→作り方：27938_tsukurikata⟧⟦を→を：00422_wo⟧⟦{練習|れんしゅう}しましょう→練習する：22991_renshuusuru⟧。",
       "english": "Let's practice how to form the hypothetical form.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24811_kateikei_ex3",
-      "japanese": "{日本語|にほんご}の{動詞|どうし}には{六|ろく}つの{活用形|かつようけい}があり、{仮定形|かていけい}はそのうちの{一|ひと}つだ。",
+      "japanese": "⟦{日本語|にほんご}→日本語：00614_nihongo⟧⟦の→の：09472_no⟧⟦{動詞|どうし}→動詞：03472_doushi⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{六|ろく}→六：00747_roku⟧つ⟦の→の：09472_no⟧{活用形|かつようけい}⟦が→が：00051_ga⟧⟦あり→ある：00006_aru⟧、{仮定形|かていけい}⟦は→は：00079_ha⟧⟦そのうち→そのうち：00380_sonouchi⟧⟦の→の：09472_no⟧⟦{一|ひと}つ→一つ：02948_hitotsu⟧だ。",
       "english": "Japanese verbs have six conjugation forms, and the hypothetical form is one of them.",
       "sense_numbers": [
         1
@@ -44,14 +44,46 @@
       "notes": null
     }
   ],
-  "notes": "A grammatical term used in Japanese language education. In the traditional six-form conjugation system ({活用|かつよう}), the {仮定形|かていけい} is the form that attaches to the conditional particle ば. For godan verbs, this is the え-row form (e.g., {書|か}く → {書|か}けば); for ichidan verbs, it ends in れば (e.g., {食|た}べる → {食|た}べれば).\n\nTHE SIX CONJUGATION FORMS:\n- {未然形|みぜんけい} — irrealis form (connects to ない, よう, etc.)\n- {連用形|れんようけい} — continuative form (connects to ます, た, etc.)\n- {終止形|しゅうしけい} — terminal form (dictionary form)\n- {連体形|れんたいけい} — attributive form (before nouns)\n- {仮定形|かていけい} — hypothetical form (connects to ば)\n- {命令形|めいれいけい} — imperative form\n\nSIMILAR WORDS:\n- {条件形|じょうけんけい} — conditional form (an alternative name sometimes used in textbooks)\n- {已然形|いぜんけい} — realis form (the classical Japanese predecessor of the {仮定形|かていけい})",
+  "notes": "A grammatical term used in Japanese language education. In the traditional six-form conjugation system (⟦{活用|かつよう}→活用：02620_katsuyou⟧), the {仮定形|かていけい} is the form that attaches to the conditional particle ば. For godan verbs, this is the え-row form (e.g., ⟦{書|か}く→書く：00477_kaku⟧ → ⟦{書|か}けば→書く：00477_kaku⟧); for ichidan verbs, it ends in れば (e.g., ⟦{食|た}べる→食べる：00396_taberu⟧ → ⟦{食|た}べれば→食べる：00396_taberu⟧).\n\nTHE SIX CONJUGATION FORMS:\n- ⟦{未然形|みぜんけい}→未然形：23610_mizenkei⟧ — irrealis form (connects to ⟦ない→ない：01118_nai⟧, よう, etc.)\n- ⟦{連用形|れんようけい}→連用形：16646_renyoukei⟧ — continuative form (connects to ます, た, etc.)\n- ⟦{終止形|しゅうしけい}→終止形：23611_shuushikei⟧ — terminal form (dictionary form)\n- ⟦{連体形|れんたいけい}→連体形：23612_rentaikei⟧ — attributive form (before nouns)\n- {仮定形|かていけい} — hypothetical form (connects to ば)\n- ⟦{命令形|めいれいけい}→命令形：22948_meireikei⟧ — imperative form\n\nSIMILAR WORDS:\n- {条件形|じょうけんけい} — conditional form (an alternative name sometimes used in textbooks)\n- ⟦{已然形|いぜんけい}→已然形：26736_izenkei⟧ — realis form (the classical Japanese predecessor of the {仮定形|かていけい})",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "26736_izenkei",
+      "reading": "いぜんけい",
+      "headword": "{已然形|いぜんけい}",
+      "label": "realis form"
+    },
+    {
+      "type": "related",
+      "target_id": "23610_mizenkei",
+      "reading": "みぜんけい",
+      "headword": "{未然形|みぜんけい}",
+      "label": "irrealis form"
+    },
+    {
+      "type": "related",
+      "target_id": "23611_shuushikei",
+      "reading": "しゅうしけい",
+      "headword": "{終止形|しゅうしけい}",
+      "label": "terminal form"
+    },
+    {
+      "type": "related",
+      "target_id": "23612_rentaikei",
+      "reading": "れんたいけい",
+      "headword": "{連体形|れんたいけい}",
+      "label": "attributive form"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "language",
         "education"
@@ -59,6 +91,6 @@
       "usage": []
     },
     "created": "2026-04-20T16:27:50Z",
-    "modified": "2026-08-03T09:22:27Z"
+    "modified": "2026-09-02T04:02:19Z"
   }
 }

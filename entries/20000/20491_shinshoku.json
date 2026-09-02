@@ -15,40 +15,75 @@
   "examples": [
     {
       "id": "20491_shinshoku_ex1",
-      "japanese": "{神職|しんしょく}が{祝詞|のりと}を{奏上|そうじょう}した。",
+      "japanese": "{神職|しんしょく}⟦が→が：00051_ga⟧⟦{祝詞|のりと}→祝詞：30669_norito⟧⟦を→を：00422_wo⟧⟦{奏上|そうじょう}→奏上：30670_soujou⟧⟦した→する：00392_suru⟧。",
       "english": "The Shinto priest recited the ritual prayer.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20491_shinshoku_ex2",
-      "japanese": "{彼|かれ}は{地元|じもと}の{神社|じんじゃ}で{神職|しんしょく}を{務|つと}めている。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{地元|じもと}→地元：09941_jimoto⟧⟦の→の：09472_no⟧⟦{神社|じんじゃ}→神社：01620_jinja⟧⟦で→で：00502_de⟧{神職|しんしょく}⟦を→を：00422_wo⟧⟦{務|つと}めている→務める：10446_tsutomeru⟧。",
       "english": "He serves as a Shinto priest at the local shrine.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20491_shinshoku_ex3",
-      "japanese": "{神職|しんしょく}になるには{大学|だいがく}で{神道|しんとう}を{学|まな}ぶのが{一般的|いっぱんてき}だ。",
+      "japanese": "{神職|しんしょく}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{大学|だいがく}→大学：00608_daigaku⟧⟦で→で：00502_de⟧⟦{神道|しんとう}→神道：09586_shintou⟧⟦を→を：00422_wo⟧⟦{学|まな}ぶ→学ぶ：01987_manabu⟧⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦{一般的|いっぱんてき}→一般的：04784_ippanteki⟧だ。",
       "english": "To become a Shinto priest, it is common to study Shinto at university.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {神|しん} (god, divine) + {職|しょく} (occupation, profession). The general term for Shinto religious professionals at any rank.\n\nCOMMON COLLOCATIONS:\n- {神職|しんしょく}を{務|つと}める: to serve as a Shinto priest\n- {神職|しんしょく}に{就|つ}く: to take up the Shinto priesthood\n- {神職|しんしょく}の{資格|しかく}: qualification as a Shinto priest\n\nSHINTO PRIESTHOOD RANKS:\n- {宮司|ぐうじ}: chief priest — the head priest of a shrine\n- {禰宜|ねぎ}: senior priest — second in rank\n- {権禰宜|ごんねぎ}: associate priest — a junior priest\n- {巫女|みこ}: shrine maiden — a young woman who assists with shrine duties (not technically a {神職|しんしょく})\n\nSIMILAR WORDS:\n- {僧侶|そうりょ}: Buddhist monk/priest — the equivalent for Buddhism\n- {宮司|ぐうじ}: chief priest — specifically the head of a shrine\n- {神主|かんぬし}: shrine priest — a more colloquial term, often used interchangeably with {神職|しんしょく}",
+  "notes": "A compound of {神|しん} (god, divine) + ⟦{職|しょく}→職：00376_shoku⟧ (occupation, profession). The general term for Shinto religious professionals at any rank.\n\nCOMMON COLLOCATIONS:\n- {神職|しんしょく}⟦を→を：00422_wo⟧⟦{務|つと}める→務める：10446_tsutomeru⟧: to serve as a Shinto priest\n- {神職|しんしょく}⟦に→に：00314_ni⟧⟦{就|つ}く→就く：10123_tsuku⟧: to take up the Shinto priesthood\n- {神職|しんしょく}⟦の→の：09472_no⟧⟦{資格|しかく}→資格：02834_shikaku⟧: qualification as a Shinto priest\n\nSHINTO PRIESTHOOD RANKS:\n- ⟦{宮司|ぐうじ}→宮司：12654_guuji⟧: chief priest — the head priest of a shrine\n- ⟦{禰宜|ねぎ}→禰宜：24980_negi⟧: senior priest — second in rank\n- {権禰宜|ごんねぎ}: associate priest — a junior priest\n- ⟦{巫女|みこ}→巫女：12408_miko⟧: shrine maiden — a young woman who assists with shrine duties (not technically a {神職|しんしょく})\n\nSIMILAR WORDS:\n- ⟦{僧侶|そうりょ}→僧侶：11529_souryo⟧: Buddhist monk/priest — the equivalent for Buddhism\n- ⟦{宮司|ぐうじ}→宮司：12654_guuji⟧: chief priest — specifically the head of a shrine\n- ⟦{神主|かんぬし}→神主：16732_kannushi⟧: shrine priest — a more colloquial term, often used interchangeably with {神職|しんしょく}",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11529_souryo",
+      "reading": "そうりょ",
+      "headword": "{僧侶|そうりょ}",
+      "label": "Buddhist monk/priest"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12654_guuji",
+      "reading": "ぐうじ",
+      "headword": "{宮司|ぐうじ}",
+      "label": "chief priest"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16732_kannushi",
+      "reading": "かんぬし",
+      "headword": "{神主|かんぬし}",
+      "label": "shrine priest"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["religion", "person", "culture"]
+      "semantic": [
+        "religion",
+        "person",
+        "culture"
+      ]
     },
     "created": "2026-03-29T15:25:34Z",
-    "modified": "2026-03-29T15:25:34Z"
+    "modified": "2026-09-02T04:01:59Z"
   }
 }

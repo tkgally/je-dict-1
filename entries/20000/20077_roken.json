@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "20077_roken_ex1",
-      "japanese": "{不正|ふせい}が{露見|ろけん}した。",
+      "japanese": "⟦{不正|ふせい}→不正：01660_fusei⟧⟦が→が：00051_ga⟧{露見|ろけん}⟦した→する：00392_suru⟧。",
       "english": "The fraud was exposed.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "20077_roken_ex2",
-      "japanese": "{嘘|うそ}が{露見|ろけん}するのは{時間|じかん}の{問題|もんだい}だった。",
+      "japanese": "⟦{嘘|うそ}→嘘：01796_uso⟧⟦が→が：00051_ga⟧{露見|ろけん}⟦する→する：00392_suru⟧⟦の→の：09472_no⟧⟦は→は：00079_ha⟧⟦{時間|じかん}→時間：00468_jikan⟧⟦の→の：09472_no⟧⟦{問題|もんだい}→問題：00797_mondai⟧だった。",
       "english": "It was only a matter of time before the lie came to light.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "20077_roken_ex3",
-      "japanese": "{会社|かいしゃ}ぐるみの{隠蔽|いんぺい}が{露見|ろけん}し、{社長|しゃちょう}は{辞任|じにん}に{追|お}い{込|こ}まれた。",
+      "japanese": "⟦{会社|かいしゃ}→会社：00607_kaisha⟧ぐるみ⟦の→の：09472_no⟧⟦{隠蔽|いんぺい}→隠蔽：07627_inpei⟧⟦が→が：00051_ga⟧{露見|ろけん}し、⟦{社長|しゃちょう}→社長：01428_shachou⟧⟦は→は：00079_ha⟧⟦{辞任|じにん}→辞任：10144_jinin⟧⟦に→に：00314_ni⟧⟦{追|お}い{込|こ}まれた→追い込む：06371_oikomu⟧。",
       "english": "The company-wide cover-up was exposed, and the president was forced to resign.",
       "sense_numbers": [
         1
@@ -134,8 +134,38 @@
       "notes": null
     }
   ],
-  "notes": "Used almost exclusively for negative things being uncovered — scandals, fraud, lies, secrets. Typically used with する to form a verb meaning 'to be exposed/come to light.'\n\nCOMMON COLLOCATIONS:\n- {不正|ふせい}が{露見|ろけん}する: fraud/wrongdoing is exposed\n- {嘘|うそ}が{露見|ろけん}する: a lie comes to light\n- {秘密|ひみつ}が{露見|ろけん}する: a secret is revealed\n- {犯行|はんこう}が{露見|ろけん}する: a crime is discovered\n\nSIMILAR WORDS:\n- {発覚|はっかく}: discovery, detection — very similar; also used for negative things being uncovered; slightly more common in news\n- {暴露|ばくろ}: exposure, revelation — implies someone actively reveals information, often whistleblowing\n- {判明|はんめい}: becoming clear — neutral; used for any fact becoming known, not just negative ones",
+  "notes": "Used almost exclusively for negative things being uncovered — scandals, fraud, lies, secrets. Typically used with ⟦する→する：00392_suru⟧ to form a verb meaning 'to be exposed/come to light.'\n\nCOMMON COLLOCATIONS:\n- ⟦{不正|ふせい}→不正：01660_fusei⟧⟦が→が：00051_ga⟧{露見|ろけん}⟦する→する：00392_suru⟧: fraud/wrongdoing is exposed\n- ⟦{嘘|うそ}→嘘：01796_uso⟧⟦が→が：00051_ga⟧{露見|ろけん}⟦する→する：00392_suru⟧: a lie comes to light\n- ⟦{秘密|ひみつ}→秘密：02504_himitsu⟧⟦が→が：00051_ga⟧{露見|ろけん}⟦する→する：00392_suru⟧: a secret is revealed\n- ⟦{犯行|はんこう}→犯行：13472_hankou⟧⟦が→が：00051_ga⟧{露見|ろけん}⟦する→する：00392_suru⟧: a crime is discovered\n\nSIMILAR WORDS:\n- ⟦{発覚|はっかく}→発覚：07629_hakkaku⟧: discovery, detection — very similar; also used for negative things being uncovered; slightly more common in news\n- ⟦{暴露|ばくろ}→暴露：07630_bakuro⟧: exposure, revelation — implies someone actively reveals information, often whistleblowing\n- ⟦{判明|はんめい}→判明：11785_hanmei⟧: becoming clear — neutral; used for any fact becoming known, not just negative ones",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07629_hakkaku",
+      "reading": "はっかく",
+      "headword": "{発覚|はっかく}",
+      "label": "discovery, detection"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07630_bakuro",
+      "reading": "ばくろ",
+      "headword": "{暴露|ばくろ}",
+      "label": "exposure, revelation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11785_hanmei",
+      "reading": "はんめい",
+      "headword": "{判明|はんめい}",
+      "label": "becoming clear"
+    },
+    {
+      "type": "related",
+      "target_id": "15423_hakkakusuru",
+      "reading": "はっかくする",
+      "headword": "{発覚|はっかく}する",
+      "label": "to be revealed"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -148,9 +178,10 @@
       "semantic": [
         "communication"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     },
     "created": "2026-03-28T07:37:39Z",
-    "modified": "2026-03-28T07:37:39Z"
+    "modified": "2026-09-02T04:01:58Z"
   }
 }

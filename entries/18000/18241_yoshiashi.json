@@ -15,41 +15,59 @@
   "examples": [
     {
       "id": "18241_yoshiashi_ex1",
-      "japanese": "{善|よ}し{悪|あ}しは{別|べつ}として、{決|き}まったことだ。",
+      "japanese": "{善|よ}し{悪|あ}し⟦は→は：00079_ha⟧⟦{別|べつ}→別：01216_betsu⟧⟦として→として：06802_toshite⟧、⟦{決|き}まった→決まる：01233_kimaru⟧ことだ。",
       "english": "Regardless of whether it's good or bad, it's been decided.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18241_yoshiashi_ex2",
-      "japanese": "この{方法|ほうほう}の{善|よ}し{悪|あ}しを{検討|けんとう}する{必要|ひつよう}がある。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{方法|ほうほう}→方法：03621_houhou⟧⟦の→の：09472_no⟧{善|よ}し{悪|あ}し⟦を→を：00422_wo⟧⟦{検討|けんとう}する→検討する：17455_kentousuru⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "We need to examine the merits and demerits of this method.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18241_yoshiashi_ex3",
-      "japanese": "{物事|ものごと}の{善|よ}し{悪|あ}しを{判断|はんだん}できる{年齢|ねんれい}になった。",
+      "japanese": "⟦{物事|ものごと}→物事：00291_monogoto⟧⟦の→の：09472_no⟧{善|よ}し{悪|あ}し⟦を→を：00422_wo⟧⟦{判断|はんだん}できる→判断する：06062_handansuru⟧⟦{年齢|ねんれい}→年齢：01490_nenrei⟧になった。",
       "english": "He has reached an age where he can judge right from wrong.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nCommonly used when evaluating something without committing to a judgment: {善|よ}し{悪|あ}しは{別|べつ}として (setting aside whether it's good or bad). Also used to talk about the quality of results or outcomes.\n\nKANJI NOTE:\nAlso written as {良|よ}し{悪|あ}し. Both spellings are common.\n\nCOMMON COLLOCATIONS:\n- {善|よ}し{悪|あ}しは{別|べつ}として (regardless of merits)\n- {善|よ}し{悪|あ}しを{判断|はんだん}する (to judge good and bad)\n- {善|よ}し{悪|あ}しがある (to have pros and cons)\n\nSIMILAR WORDS:\n- {良|りょう}{否|ひ}: pass or fail — more formal, used for evaluation outcomes\n- {是非|ぜひ}: right and wrong — more formal; also commonly used as an adverb meaning \"by all means\"",
-  "cross_references": [],
+  "notes": "USAGE:\nCommonly used when evaluating something without committing to a judgment: {善|よ}し{悪|あ}し⟦は→は：00079_ha⟧⟦{別|べつ}→別：01216_betsu⟧⟦として→として：06802_toshite⟧ (setting aside whether it's good or bad). Also used to talk about the quality of results or outcomes.\n\nWRITING:\nAlso written as {良|よ}し{悪|あ}し. Both spellings are common.\n\nCOMMON COLLOCATIONS:\n- {善|よ}し{悪|あ}し⟦は→は：00079_ha⟧⟦{別|べつ}→別：01216_betsu⟧⟦として→として：06802_toshite⟧ (regardless of merits)\n- {善|よ}し{悪|あ}し⟦を→を：00422_wo⟧⟦{判断|はんだん}する→判断する：06062_handansuru⟧ (to judge good and bad)\n- {善|よ}し{悪|あ}し⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧ (to have pros and cons)\n\nSIMILAR WORDS:\n- {良|りょう}{否|ひ}: pass or fail — more formal, used for evaluation outcomes\n- ⟦{是非|ぜひ}→是非：19460_zehi⟧: right and wrong — more formal; also commonly used as an adverb meaning \"by all means\"",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19460_zehi",
+      "reading": "ぜひ",
+      "headword": "{是非|ぜひ}",
+      "label": "right and wrong"
+    }
+  ],
   "metadata": {
     "created": "2026-03-20T13:45:34Z",
-    "modified": "2026-03-20T13:45:34Z",
+    "modified": "2026-09-02T04:01:51Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

@@ -3,7 +3,7 @@
   "id": "16505_ikkinomi",
   "headword": "{一気飲|いっきの}み",
   "reading": "いっきのみ",
-  "part_of_speech": "noun / verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "chugging; downing a drink in one go",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "16505_ikkinomi_ex1",
-      "japanese": "{一気飲|いっきの}みは{危険|きけん}だ。",
+      "japanese": "{一気飲|いっきの}み⟦は→は：00079_ha⟧⟦{危険|きけん}→危険：01141_kiken⟧だ。",
       "english": "Chugging drinks is dangerous.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "16505_ikkinomi_ex2",
-      "japanese": "{大学|だいがく}の{飲|の}み{会|かい}で{一気飲|いっきの}みを{強要|きょうよう}された。",
+      "japanese": "⟦{大学|だいがく}→大学：00608_daigaku⟧⟦の→の：09472_no⟧⟦{飲|の}み{会|かい}→飲み会：09371_nomikai⟧⟦で→で：00502_de⟧{一気飲|いっきの}み⟦を→を：00422_wo⟧⟦{強要|きょうよう}→強要：12538_kyouyou⟧⟦された→する：00392_suru⟧。",
       "english": "I was pressured to chug at a college drinking party.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "16505_ikkinomi_ex3",
-      "japanese": "{急性|きゅうせい}アルコール{中毒|ちゅうどく}の{事故|じこ}が{続|つづ}いたため、{多|おお}くの{大学|だいがく}が{一気飲|いっきの}みを{禁止|きんし}している。",
+      "japanese": "⟦{急性|きゅうせい}→急性：09015_kyuusei⟧⟦アルコール→アルコール：01771_arukooru⟧⟦{中毒|ちゅうどく}→中毒：16558_chuudoku⟧⟦の→の：09472_no⟧⟦{事故|じこ}→事故：00851_jiko⟧⟦が→が：00051_ga⟧⟦{続|つづ}いた→続く：00903_tsuzuku⟧⟦ため→ため：01145_tame⟧、{多|おお}く⟦の→の：09472_no⟧⟦{大学|だいがく}→大学：00608_daigaku⟧⟦が→が：00051_ga⟧{一気飲|いっきの}み⟦を→を：00422_wo⟧⟦{禁止|きんし}している→禁止する：22145_kinshisuru⟧。",
       "english": "Because incidents of acute alcohol poisoning have continued, many universities have banned chugging.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "CULTURE:\nA practice associated with Japanese drinking culture, particularly at university welcome parties ({新歓|しんかん}コンパ). It has been a serious social issue due to deaths from acute alcohol poisoning. Most universities and companies now prohibit it. The chant \"{一気|いっき}！{一気|いっき}！\" (Chug! Chug!) is used to pressure someone into drinking.\n\nCOMMON COLLOCATIONS:\n- {一気飲|いっきの}みをする (to chug)\n- {一気飲|いっきの}みを{強要|きょうよう}する (to pressure someone to chug)\n- {一気飲|いっきの}み{禁止|きんし} (ban on chugging)\n\nSIMILAR WORDS:\n- {一気|いっき}に{飲|の}む: to drink in one go — verb phrase rather than noun",
+  "notes": "CULTURAL NOTE:\nA practice associated with Japanese drinking culture, particularly at university welcome parties ({新歓|しんかん}コンパ). It has been a serious social issue due to deaths from acute alcohol poisoning. Most universities and companies now prohibit it. The chant \"⟦{一気|いっき}→一気：08891_ikki⟧！⟦{一気|いっき}→一気：08891_ikki⟧！\" (Chug! Chug!) is used to pressure someone into drinking.\n\nCOMMON COLLOCATIONS:\n- {一気飲|いっきの}み⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧ (to chug)\n- {一気飲|いっきの}み⟦を→を：00422_wo⟧⟦{強要|きょうよう}→強要：12538_kyouyou⟧⟦する→する：00392_suru⟧ (to pressure someone to chug)\n- {一気飲|いっきの}み⟦{禁止|きんし}→禁止：02643_kinshi⟧ (ban on chugging)\n\nSIMILAR WORDS:\n- ⟦{一気|いっき}→一気：08891_ikki⟧⟦に→に：00314_ni⟧⟦{飲|の}む→飲む：00322_nomu⟧: to drink in one go — verb phrase rather than noun",
   "cross_references": [
     {
       "type": "related",
@@ -142,11 +142,25 @@
       "reading": "いっき",
       "headword": "{一気|いっき}",
       "label": "in one go (base word)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26347_ichinomi",
+      "reading": "いちのみ",
+      "headword": "{一飲|いちの}み",
+      "label": "one gulp"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26470_hayanomi",
+      "reading": "はやのみ",
+      "headword": "{早飲|はやの}み",
+      "label": "quick drinking"
     }
   ],
   "metadata": {
     "created": "2026-03-13T03:50:15Z",
-    "modified": "2026-07-20T00:31:17Z",
+    "modified": "2026-09-02T04:01:45Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

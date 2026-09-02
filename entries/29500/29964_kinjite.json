@@ -15,41 +15,60 @@
   "examples": [
     {
       "id": "29964_kinjite_ex1",
-      "japanese": "それは{禁|きん}じ{手|て}だ。",
+      "japanese": "⟦それ→それ：00994_sore⟧⟦は→は：00079_ha⟧{禁|きん}じ{手|て}だ。",
       "english": "That's a forbidden move.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29964_kinjite_ex2",
-      "japanese": "{相撲|すもう}では{目|め}つぶしなどが{禁|きん}じ{手|て}とされている。",
+      "japanese": "⟦{相撲|すもう}→相撲：00390_sumou⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧{目|め}つぶし⟦など→〜など：03095_nado⟧⟦が→が：00051_ga⟧{禁|きん}じ{手|て}⟦と→と：00512_to⟧⟦されている→する：00392_suru⟧。",
       "english": "In sumo, moves like eye-gouging are treated as prohibited techniques.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29964_kinjite_ex3",
-      "japanese": "{値下|ねさ}げ{競争|きょうそう}は、{業界|ぎょうかい}では{禁|きん}じ{手|て}に{近|ちか}いと{言|い}われる。",
+      "japanese": "⟦{値下|ねさ}げ→値下げ：07583_nesage⟧⟦{競争|きょうそう}→競争：01388_kyousou⟧⟦は→は：00079_ha⟧、⟦{業界|ぎょうかい}→業界：13129_gyoukai⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧{禁|きん}じ{手|て}⟦に→に：00314_ni⟧⟦{近|ちか}い→近い：00530_chikai⟧⟦と→と：00512_to⟧⟦{言|い}われる→言う：00515_iu⟧。",
       "english": "A price war is said to be almost a forbidden tactic within the industry.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Originates in sumo and traditional games, where certain techniques are formally banned. Now widely used figuratively for a tactic one should not resort to, even if not strictly against written rules.\n\nCOMMON COLLOCATIONS:\n- {禁|きん}じ{手|て}を{使|つか}う: to use a forbidden move\n- {禁|きん}じ{手|て}とされる: to be regarded as off-limits\n\nSIMILAR WORDS:\n- {反則|はんそく}: foul — an actual rule violation and its penalty\n- {奥|おく}の{手|て}: last resort; trump card — a hidden tactic saved for a crucial moment (not necessarily forbidden)",
+  "notes": "Originates in sumo and traditional games, where certain techniques are formally banned. Now widely used figuratively for a tactic one should not resort to, even if not strictly against written rules.\n\nCOMMON COLLOCATIONS:\n- {禁|きん}じ{手|て}⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧: to use a forbidden move\n- {禁|きん}じ{手|て}⟦と→と：00512_to⟧⟦される→する：00392_suru⟧: to be regarded as off-limits\n\nSIMILAR WORDS:\n- ⟦{反則|はんそく}→反則：06541_hansoku⟧: foul — an actual rule violation and its penalty\n- {奥|おく}の{手|て}: last resort; trump card — a hidden tactic saved for a crucial moment (not necessarily forbidden)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06541_hansoku",
+      "reading": "はんそく",
+      "headword": "{反則|はんそく}",
+      "label": "foul"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["sports"],
+      "semantic": [
+        "sports"
+      ],
       "domain": []
     },
     "created": "2026-07-19T18:17:15Z",
-    "modified": "2026-07-19T18:17:15Z"
+    "modified": "2026-09-02T04:02:38Z"
   }
 }

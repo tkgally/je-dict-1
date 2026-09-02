@@ -14,30 +14,36 @@
   "examples": [
     {
       "id": "09972_saishiken_ex1",
-      "japanese": "{再試験|さいしけん}を{受|う}ける。",
+      "japanese": "{再試験|さいしけん}⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧。",
       "english": "To take a retake exam.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09972_saishiken_ex2",
-      "japanese": "{試験|しけん}に{落|お}ちたので、{再試験|さいしけん}を{受|う}けることになった。",
+      "japanese": "⟦{試験|しけん}→試験：01422_shiken⟧⟦に→に：00314_ni⟧⟦{落|お}ちた→落ちる：01242_ochiru⟧⟦の→の：09472_no⟧で、{再試験|さいしけん}⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧ことになった。",
       "english": "I failed the exam, so I have to take a retake.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09972_saishiken_ex3",
-      "japanese": "{再試験|さいしけん}で{合格|ごうかく}しないと{単位|たんい}がもらえない。",
+      "japanese": "{再試験|さいしけん}⟦で→で：00502_de⟧⟦{合格|ごうかく}しない→合格する：27949_goukakusuru⟧⟦と→と：00512_to⟧⟦{単位|たんい}→単位：03412_tani⟧⟦が→が：00051_ga⟧⟦もらえない→もらう：00520_morau⟧。",
       "english": "If I don't pass the retake exam, I won't get the credit.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "Compound of {再|さい} (again) + {試験|しけん} (exam). Specifically for students who took but failed the original exam.\n\nABBREVIATION:\nCommonly shortened to {再試|さいし} in student speech.\n\nCOMMON PATTERNS:\n- {再試験|さいしけん}を{受|う}ける: to take a retake exam\n- {再試験|さいしけん}に{合格|ごうかく}する: to pass the retake\n- {再試験|さいしけん}の{対象|たいしょう}: eligible for a retake\n\nUSAGE:\nSome institutions cap the maximum grade on a retake (e.g., {可|か} or C only). The retake is typically harder or covers more material.\n\nRELATED TERMS:\n- {追試|ついし}: make-up exam (for students who were absent, not who failed)\n- {補講|ほこう}: make-up class\n- {単位|たんい}: academic credit",
+  "notes": "Compound of ⟦{再|さい}→再〜：03953_sai⟧ (again) + ⟦{試験|しけん}→試験：01422_shiken⟧ (exam). Specifically for students who took but failed the original exam.\n\nFORMS:\nCommonly shortened to {再試|さいし} in student speech.\n\nCOMMON PATTERNS:\n- {再試験|さいしけん}⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧: to take a retake exam\n- {再試験|さいしけん}⟦に→に：00314_ni⟧⟦{合格|ごうかく}する→合格する：27949_goukakusuru⟧: to pass the retake\n- {再試験|さいしけん}⟦の→の：09472_no⟧⟦{対象|たいしょう}→対象：03393_taishou⟧: eligible for a retake\n\nUSAGE:\nSome institutions cap the maximum grade on a retake (e.g., {可|か} or C only). The retake is typically harder or covers more material.\n\nRELATED WORDS:\n- ⟦{追試|ついし}→追試：09971_tsuishi⟧: make-up exam (for students who were absent, not who failed)\n- ⟦{補講|ほこう}→補講：09973_hokou⟧: make-up class\n- ⟦{単位|たんい}→単位：03412_tani⟧: academic credit",
   "cross_references": [
     {
       "type": "contrast",
@@ -45,18 +51,36 @@
       "reading": "ついし",
       "headword": "{追試|ついし}",
       "label": "make-up exam (for absences)"
+    },
+    {
+      "type": "related",
+      "target_id": "09973_hokou",
+      "reading": "ほこう",
+      "headword": "{補講|ほこう}",
+      "label": "make-up class"
+    },
+    {
+      "type": "related",
+      "target_id": "03412_tani",
+      "reading": "たんい",
+      "headword": "{単位|たんい}",
+      "label": "academic credit"
     }
   ],
   "metadata": {
     "created": "2026-02-04T12:04:01Z",
-    "modified": "2026-04-23T08:17:03Z",
+    "modified": "2026-09-02T04:01:19Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["education"]
+      "semantic": [
+        "education"
+      ]
     }
   }
 }

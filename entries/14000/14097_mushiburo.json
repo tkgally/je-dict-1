@@ -15,41 +15,66 @@
   "examples": [
     {
       "id": "14097_mushiburo_ex1",
-      "japanese": "{蒸|む}し{風呂|ぶろ}に{入|はい}る。",
+      "japanese": "{蒸|む}し{風呂|ぶろ}⟦に→に：00314_ni⟧⟦{入|はい}る→入る：00494_hairu⟧。",
       "english": "Take a steam bath.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14097_mushiburo_ex2",
-      "japanese": "{真夏|まなつ}の{電車|でんしゃ}は{蒸|む}し{風呂|ぶろ}のようだ。",
+      "japanese": "⟦{真夏|まなつ}→真夏：27793_manatsu⟧⟦の→の：09472_no⟧⟦{電車|でんしゃ}→電車：00522_densha⟧⟦は→は：00079_ha⟧{蒸|む}し{風呂|ぶろ}⟦の→の：09472_no⟧ようだ。",
       "english": "The train in midsummer is like a steam bath.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14097_mushiburo_ex3",
-      "japanese": "エアコンが{壊|こわ}れて、{部屋|へや}の{中|なか}が{蒸|む}し{風呂|ぶろ}のような{状態|じょうたい}になってしまった。",
+      "japanese": "⟦エアコン→エアコン：05282_eakon⟧⟦が→が：00051_ga⟧⟦{壊|こわ}れて→壊れる：00791_kowareru⟧、⟦{部屋|へや}→部屋：00507_heya⟧⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧⟦が→が：00051_ga⟧{蒸|む}し{風呂|ぶろ}⟦の→の：09472_no⟧ような⟦{状態|じょうたい}→状態：03345_joutai⟧になってしまった。",
       "english": "The air conditioner broke down, and the room turned into something like a steam bath.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE NOTE:\n{蒸|む}し{風呂|ぶろ} literally means \"steaming bath.\" In everyday speech, it is very commonly used as a simile with のよう or みたい to describe unbearably hot and humid places, such as crowded trains, rooms without air conditioning, or outdoor spaces during the humid Japanese summer.\n\nCOMMON COLLOCATIONS:\n- {蒸|む}し{風呂|ぶろ}のような{暑|あつ}さ (heat like a steam bath)\n- {蒸|む}し{風呂|ぶろ}に{入|はい}る (take a steam bath)\n- {蒸|む}し{風呂|ぶろ}{状態|じょうたい} (steam-bath conditions)\n\nSIMILAR WORDS:\n- サウナ: sauna (dry heat sauna, loanword from Finnish)\n- {岩盤浴|がんばんよく}: hot stone bath (lying on heated stones)",
-  "cross_references": [],
+  "notes": "USAGE:\n{蒸|む}し{風呂|ぶろ} literally means \"steaming bath.\" In everyday speech, it is very commonly used as a simile with ⟦の→の：09472_no⟧よう or ⟦みたい→みたい：10755_mitai⟧ to describe unbearably hot and humid places, such as crowded trains, rooms without air conditioning, or outdoor spaces during the humid Japanese summer.\n\nCOMMON COLLOCATIONS:\n- {蒸|む}し{風呂|ぶろ}⟦の→の：09472_no⟧ような⟦{暑|あつ}さ→暑さ：12973_atsusa⟧ (heat like a steam bath)\n- {蒸|む}し{風呂|ぶろ}⟦に→に：00314_ni⟧⟦{入|はい}る→入る：00494_hairu⟧ (take a steam bath)\n- {蒸|む}し{風呂|ぶろ}⟦{状態|じょうたい}→状態：03345_joutai⟧ (steam-bath conditions)\n\nSIMILAR WORDS:\n- ⟦サウナ→サウナ：10935_sauna⟧: sauna (dry heat sauna, loanword from Finnish)\n- ⟦{岩盤浴|がんばんよく}→岩盤浴：09832_ganbanyoku⟧: hot stone bath (lying on heated stones)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "10935_sauna",
+      "reading": "さうな",
+      "headword": "サウナ",
+      "label": "sauna"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09832_ganbanyoku",
+      "reading": "がんばんよく",
+      "headword": "{岩盤浴|がんばんよく}",
+      "label": "hot stone bath"
+    }
+  ],
   "metadata": {
     "created": "2026-02-28T00:46:05Z",
-    "modified": "2026-02-28T00:46:05Z",
+    "modified": "2026-09-02T04:01:36Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

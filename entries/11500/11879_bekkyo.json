@@ -2,7 +2,7 @@
   "id": "11879_bekkyo",
   "headword": "{別居|べっきょ}",
   "reading": "べっきょ",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "living apart, separation",
   "conjugation": {
     "type": "suru",
@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "11879_bekkyo_ex1",
-      "japanese": "{夫婦|ふうふ}が{別居|べっきょ}している。",
+      "japanese": "⟦{夫婦|ふうふ}→夫婦：03592_fuufu⟧⟦が→が：00051_ga⟧{別居|べっきょ}⟦している→する：00392_suru⟧。",
       "english": "The married couple is living apart.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "11879_bekkyo_ex2",
-      "japanese": "{二人|ふたり}は{半年|はんとし}{前|まえ}から{別居|べっきょ}を{始|はじ}めた。",
+      "japanese": "⟦{二人|ふたり}→二人：00622_futari⟧⟦は→は：00079_ha⟧⟦{半年|はんとし}→半年：03139_hantoshi⟧⟦{前|まえ}→前：02255_mae⟧⟦から→から：00504_kara⟧{別居|べっきょ}⟦を→を：00422_wo⟧⟦{始|はじ}めた→始める：00531_hajimeru⟧。",
       "english": "The two of them started living apart six months ago.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "11879_bekkyo_ex3",
-      "japanese": "{離婚|りこん}はしていないが、{長|なが}い{間|あいだ}{別居|べっきょ}{状態|じょうたい}が{続|つづ}いている。",
+      "japanese": "⟦{離婚|りこん}→離婚：02530_rikon⟧はして⟦いない→いる：00495_iru⟧⟦が→が：00051_ga⟧、⟦{長|なが}い→長い：00491_nagai⟧⟦{間|あいだ}→間：00914_aida⟧{別居|べっきょ}⟦{状態|じょうたい}→状態：03345_joutai⟧⟦が→が：00051_ga⟧⟦{続|つづ}いている→続く：00903_tsuzuku⟧。",
       "english": "They haven't divorced, but they've been living apart for a long time.",
       "notes": null,
       "has_audio": false,
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "COMMON COLLOCATIONS:\n・{別居|べっきょ}する (to live apart)\n・{別居|べっきょ}{中|ちゅう} (currently separated)\n・{別居|べっきょ}{状態|じょうたい} (state of separation)\n・{別居|べっきょ}{婚|こん} (commuter marriage, married but living apart by choice)\n\nIn legal contexts, {別居|べっきょ} is often a precursor to divorce. {別居|べっきょ}{婚|こん} is a more neutral or positive term for couples who choose to live apart for career or lifestyle reasons.",
+  "notes": "COMMON COLLOCATIONS:\n- {別居|べっきょ}⟦する→する：00392_suru⟧ (to live apart)\n- {別居|べっきょ}{中|ちゅう} (currently separated)\n- {別居|べっきょ}⟦{状態|じょうたい}→状態：03345_joutai⟧ (state of separation)\n- {別居|べっきょ}{婚|こん} (commuter marriage, married but living apart by choice)\n\nIn legal contexts, {別居|べっきょ} is often a precursor to divorce. {別居|べっきょ}{婚|こん} is a more neutral or positive term for couples who choose to live apart for career or lifestyle reasons.",
   "cross_references": [
     {
       "type": "related",
@@ -148,11 +148,25 @@
       "reading": "どうきょ",
       "headword": "{同居|どうきょ}",
       "label": "living together"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18350_ikkarisan",
+      "reading": "いっかりさん",
+      "headword": "{一家離散|いっかりさん}",
+      "label": "breakup of a family"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21333_rikonsuru",
+      "reading": "りこんする",
+      "headword": "{離婚|りこん}する",
+      "label": "to divorce"
     }
   ],
   "metadata": {
     "created": "2026-02-18T13:59:12Z",
-    "modified": "2026-08-15T21:26:29Z",
+    "modified": "2026-09-02T04:01:26Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",

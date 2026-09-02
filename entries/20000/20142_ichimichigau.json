@@ -3,7 +3,7 @@
   "headword": "{一味違|いちみちが}う",
   "reading": "いちみちがう",
   "romaji": "ichimichigau",
-  "part_of_speech": "expression, godan verb",
+  "part_of_speech": "expression, verb (godan)",
   "gloss": "a cut above; distinctly different; with a special twist",
   "conjugation": {
     "type": "godan",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "20142_ichimichigau_ex1",
-      "japanese": "プロの{味|あじ}は{一味違|いちみちが}う。",
+      "japanese": "⟦プロ→プロ：03871_puro⟧⟦の→の：09472_no⟧⟦{味|あじ}→味：00826_aji⟧⟦は→は：00079_ha⟧{一味違|いちみちが}う。",
       "english": "A professional's cooking is a cut above.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "20142_ichimichigau_ex2",
-      "japanese": "このブランドのコーヒーは{一味違|いちみちが}う。",
+      "japanese": "⟦この→この：00962_kono⟧⟦ブランド→ブランド：05221_burando⟧⟦の→の：09472_no⟧⟦コーヒー→コーヒー：00789_koohii⟧⟦は→は：00079_ha⟧{一味違|いちみちが}う。",
       "english": "This brand's coffee has a distinctly different flavor.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "20142_ichimichigau_ex3",
-      "japanese": "{今年|ことし}の{花火大会|はなびたいかい}は{例年|れいねん}とは{一味違|いちみちが}った{演出|えんしゅつ}だった。",
+      "japanese": "⟦{今年|ことし}→今年：00722_kotoshi⟧⟦の→の：09472_no⟧⟦{花火大会|はなびたいかい}→花火大会：10105_hanabitaikai⟧⟦は→は：00079_ha⟧⟦{例年|れいねん}→例年：11561_reinen⟧⟦と→と：00512_to⟧⟦は→は：00079_ha⟧{一味違|いちみちが}った⟦{演出|えんしゅつ}→演出：04460_enshutsu⟧だった。",
       "english": "This year's fireworks festival had a distinctly different presentation from the usual.",
       "sense_numbers": [
         1
@@ -134,8 +134,17 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {一味|いちみ} (one flavor, a touch) + {違|ちが}う (to differ). Literally 'differs by one flavor,' suggesting a subtle but noticeable difference that makes something stand out.\n\nCOMMON COLLOCATIONS:\n- {一味違|いちみちが}った～: a distinctly different ~ (modifying a noun)\n- いつもと{一味違|いちみちが}う: different from the usual in a special way\n- {他|ほか}とは{一味違|いちみちが}う: a cut above the rest\n- ひと{味|あじ}{違|ちが}う: variant spelling/reading (same meaning)\n\nSIMILAR WORDS:\n- ひと{味|あじ}{違|ちが}う: same expression, variant writing — uses the native Japanese reading ひと{味|あじ}\n- {一風変|いっぷうか}わった: unusual, eccentric — different in a quirky or unconventional way\n- {格別|かくべつ}: exceptional, special — more emphatic; clearly superior quality\n\nUSAGE:\nAlmost always used as a compliment, suggesting something has an appealing quality that distinguishes it from ordinary examples. Very common in food and cooking contexts, but broadly applicable to anything from performances to products to experiences.",
+  "notes": "Composed of ⟦{一味|いちみ}→一味：11238_ichimi⟧ (one flavor, a touch) + ⟦{違|ちが}う→違う：01957_chigau⟧ (to differ). Literally 'differs by one flavor,' suggesting a subtle but noticeable difference that makes something stand out.\n\nCOMMON COLLOCATIONS:\n- {一味違|いちみちが}った～: a distinctly different ~ (modifying a noun)\n- ⟦いつも→いつも：00599_itsumo⟧⟦と→と：00512_to⟧{一味違|いちみちが}う: different from the usual in a special way\n- ⟦{他|ほか}→他：04129_hoka⟧⟦と→と：00512_to⟧⟦は→は：00079_ha⟧{一味違|いちみちが}う: a cut above the rest\n- ひと{味|あじ}⟦{違|ちが}う→違う：01957_chigau⟧: variant spelling/reading (same meaning)\n\nSIMILAR WORDS:\n- ひと{味|あじ}⟦{違|ちが}う→違う：01957_chigau⟧: same expression, variant writing — uses the native Japanese reading ひと{味|あじ}\n- {一風変|いっぷうか}わった: unusual, eccentric — different in a quirky or unconventional way\n- ⟦{格別|かくべつ}→格別：00154_kakubetsu⟧: exceptional, special — more emphatic; clearly superior quality\n\nUSAGE:\nAlmost always used as a compliment, suggesting something has an appealing quality that distinguishes it from ordinary examples. Very common in food and cooking contexts, but broadly applicable to anything from performances to products to experiences.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00154_kakubetsu",
+      "reading": "かくべつ",
+      "headword": "{格別|かくべつ}",
+      "label": "exceptional, special"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -148,9 +157,10 @@
       "semantic": [
         "descriptive"
       ],
-      "verb_class": "godan-u"
+      "verb_class": "godan-u",
+      "transitivity": "intransitive"
     },
     "created": "2026-03-28T14:21:13Z",
-    "modified": "2026-07-28T00:51:36Z"
+    "modified": "2026-09-02T04:01:58Z"
   }
 }

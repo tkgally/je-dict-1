@@ -3,7 +3,7 @@
   "headword": "ひやっとする",
   "reading": "ひやっとする",
   "romaji": "hiyattosuru",
-  "part_of_speech": "verb (suru)",
+  "part_of_speech": "suru verb",
   "gloss": "to feel a sudden chill; to feel a momentary shiver of fear",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28813_hiyattosuru_ex1",
-      "japanese": "{一瞬|いっしゅん}ひやっとした。",
+      "japanese": "⟦{一瞬|いっしゅん}→一瞬：01805_isshun⟧ひやっとした。",
       "english": "I felt a chill for a moment.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28813_hiyattosuru_ex2",
-      "japanese": "{車|くるま}が{急|きゅう}に{飛|と}び{出|だ}してきて、ひやっとした。",
+      "japanese": "⟦{車|くるま}→車：00516_kuruma⟧⟦が→が：00051_ga⟧⟦{急|きゅう}→急：13042_kyuu⟧⟦に→に：00314_ni⟧⟦{飛|と}び{出|だ}して→飛び出す：02374_tobidasu⟧きて、ひやっとした。",
       "english": "A car suddenly darted out, and my heart skipped a beat.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28813_hiyattosuru_ex3",
-      "japanese": "{財布|さいふ}を{忘|わす}れたかと{思|おも}って、ひやっとする{瞬間|しゅんかん}があった。",
+      "japanese": "⟦{財布|さいふ}→財布：00663_saifu⟧⟦を→を：00422_wo⟧⟦{忘|わす}れた→忘れる：00474_wasureru⟧⟦か→か：09473_ka⟧⟦と→と：00512_to⟧⟦{思|おも}って→思う：00492_omou⟧、ひやっとする⟦{瞬間|しゅんかん}→瞬間：03226_shunkan⟧⟦が→が：00051_ga⟧⟦あった→ある：00006_aru⟧。",
       "english": "There was a moment when I thought I'd forgotten my wallet and felt a sudden chill.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "From the mimetic ひやっ (a quick chill), plus する. Most often refers to the psychological chill of a near-miss or scary realization, not literal cold air.\n\nCOMMON COLLOCATIONS:\n- {一瞬|いっしゅん}ひやっとする: to feel a momentary chill\n- ひやっとする{瞬間|しゅんかん}: a heart-stopping moment\n- {思|おも}わずひやっとする: to feel a chill in spite of oneself\n\nSIMILAR WORDS:\n- ぞっとする: to shudder — stronger, often from horror or revulsion\n- どきっとする: to feel a sudden thump of the heart — more about surprise than chill\n- はっとする: to be struck by sudden realization — about awareness, not fear",
+  "notes": "From the mimetic ひやっ (a quick chill), plus ⟦する→する：00392_suru⟧. Most often refers to the psychological chill of a near-miss or scary realization, not literal cold air.\n\nCOMMON COLLOCATIONS:\n- ⟦{一瞬|いっしゅん}→一瞬：01805_isshun⟧ひやっとする: to feel a momentary chill\n- ひやっとする⟦{瞬間|しゅんかん}→瞬間：03226_shunkan⟧: a heart-stopping moment\n- ⟦{思|おも}わ→思う：00492_omou⟧ずひやっとする: to feel a chill in spite of oneself\n\nSIMILAR WORDS:\n- ⟦ぞっと→ぞっと：05272_zotto⟧⟦する→する：00392_suru⟧: to shudder — stronger, often from horror or revulsion\n- どきっ⟦と→と：00512_to⟧⟦する→する：00392_suru⟧: to feel a sudden thump of the heart — more about surprise than chill\n- ⟦はっとする→ハッとする：16221_hattosuru⟧: to be struck by sudden realization — about awareness, not fear",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16221_hattosuru",
+      "reading": "はっとする",
+      "headword": "ハッとする",
+      "label": "to be struck by sudden realization"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21641_kimowohiyasu",
+      "reading": "きもをひやす",
+      "headword": "{肝|きも}を{冷|ひ}やす",
+      "label": "to be terrified"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -54,7 +70,7 @@
       ],
       "transitivity": "intransitive",
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "emotion"
       ],
@@ -62,7 +78,7 @@
       "verb_class": "suru"
     },
     "created": "2026-06-06T02:07:42Z",
-    "modified": "2026-06-06T02:07:42Z"
+    "modified": "2026-09-02T04:02:35Z"
   },
   "conjugation": {
     "type": "suru",

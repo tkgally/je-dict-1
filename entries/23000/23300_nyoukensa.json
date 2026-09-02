@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "23300_nyoukensa_ex1",
-      "japanese": "{尿検査|にょうけんさ}を{受|う}ける。",
+      "japanese": "{尿検査|にょうけんさ}⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧。",
       "english": "To have a urine test.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "23300_nyoukensa_ex2",
-      "japanese": "{学校|がっこう}で{尿検査|にょうけんさ}があった。",
+      "japanese": "⟦{学校|がっこう}→学校：00055_gakkou⟧⟦で→で：00502_de⟧{尿検査|にょうけんさ}⟦が→が：00051_ga⟧⟦あった→ある：00006_aru⟧。",
       "english": "There was a urine test at school.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "23300_nyoukensa_ex3",
-      "japanese": "{尿検査|にょうけんさ}の{結果|けっか}、{特|とく}に{問題|もんだい}はなかった。",
+      "japanese": "{尿検査|にょうけんさ}⟦の→の：09472_no⟧⟦{結果|けっか}→結果：02486_kekka⟧、⟦{特|とく}に→特に：01260_tokuni⟧⟦{問題|もんだい}→問題：00797_mondai⟧⟦は→は：00079_ha⟧⟦なかった→ない：01118_nai⟧。",
       "english": "The urine test results showed no particular problems.",
       "sense_numbers": [
         1
@@ -45,7 +45,7 @@
     },
     {
       "id": "23300_nyoukensa_ex4",
-      "japanese": "{健康診断|けんこうしんだん}では{血液検査|けつえきけんさ}と{尿検査|にょうけんさ}の{両方|りょうほう}を{行|おこな}う。",
+      "japanese": "⟦{健康診断|けんこうしんだん}→健康診断：05979_kenkoushindan⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{血液検査|けつえきけんさ}→血液検査：23299_ketsuekikensa⟧⟦と→と：00512_to⟧{尿検査|にょうけんさ}⟦の→の：09472_no⟧⟦{両方|りょうほう}→両方：01750_ryouhou⟧⟦を→を：00422_wo⟧⟦{行|おこな}う→行う：01238_okonau⟧。",
       "english": "At the health checkup, both a blood test and a urine test are conducted.",
       "sense_numbers": [
         1
@@ -54,8 +54,24 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {尿|にょう} (urine) + {検査|けんさ} (examination, test). A common medical test used to detect kidney disease, diabetes, urinary tract infections, and other conditions. In Japan, schools and workplaces often require urine tests as part of annual health checkups.\n\nCOMMON COLLOCATIONS:\n- {尿検査|にょうけんさ}を{受|う}ける: to have a urine test\n- {尿検査|にょうけんさ}の{結果|けっか}: urine test results\n- {尿検査|にょうけんさ}{用|よう}の{容器|ようき}: urine test container\n- {定期|ていき}{尿検査|にょうけんさ}: regular urine test\n\nRELATED TERMS:\n- {血液検査|けつえきけんさ}: blood test — often performed together\n- {健康診断|けんこうしんだん}: health checkup — includes urine test\n- {検尿|けんにょう}: urine testing (more formal/clinical synonym)\n\nCULTURAL NOTE:\nJapanese schools commonly conduct annual urine tests for students, and workplaces do so for employees as part of mandatory health checkups. Participants are typically given a small container and asked to bring a sample on the designated day.",
+  "notes": "Composed of {尿|にょう} (urine) + ⟦{検査|けんさ}→検査：02707_kensa⟧ (examination, test). A common medical test used to detect kidney disease, diabetes, urinary tract infections, and other conditions. In Japan, schools and workplaces often require urine tests as part of annual health checkups.\n\nCOMMON COLLOCATIONS:\n- {尿検査|にょうけんさ}⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧: to have a urine test\n- {尿検査|にょうけんさ}⟦の→の：09472_no⟧⟦{結果|けっか}→結果：02486_kekka⟧: urine test results\n- {尿検査|にょうけんさ}⟦{用|よう}→〜用：09842_you⟧⟦の→の：09472_no⟧⟦{容器|ようき}→容器：03656_youki⟧: urine test container\n- ⟦{定期|ていき}→定期：03538_teiki⟧{尿検査|にょうけんさ}: regular urine test\n\nRELATED WORDS:\n- ⟦{血液検査|けつえきけんさ}→血液検査：23299_ketsuekikensa⟧: blood test — often performed together\n- ⟦{健康診断|けんこうしんだん}→健康診断：05979_kenkoushindan⟧: health checkup — includes urine test\n- {検尿|けんにょう}: urine testing (more formal/clinical synonym)\n\nCULTURAL NOTE:\nJapanese schools commonly conduct annual urine tests for students, and workplaces do so for employees as part of mandatory health checkups. Participants are typically given a small container and asked to bring a sample on the designated day.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "23299_ketsuekikensa",
+      "reading": "けつえきけんさ",
+      "headword": "{血液検査|けつえきけんさ}",
+      "label": "blood test"
+    },
+    {
+      "type": "related",
+      "target_id": "05979_kenkoushindan",
+      "reading": "けんこうしんだん",
+      "headword": "{健康診断|けんこうしんだん}",
+      "label": "health checkup"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -69,6 +85,6 @@
       ]
     },
     "created": "2026-04-11T17:04:08Z",
-    "modified": "2026-07-31T18:20:34Z"
+    "modified": "2026-09-02T04:02:11Z"
   }
 }

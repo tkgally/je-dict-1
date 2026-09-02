@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "14348_keishou_ex1",
-      "japanese": "{幸|さいわ}い{軽症|けいしょう}で{済|す}んだ。",
+      "japanese": "⟦{幸|さいわ}い→幸い：02774_saiwai⟧{軽症|けいしょう}⟦で→で：00502_de⟧⟦{済|す}んだ→済む：01950_sumu⟧。",
       "english": "Fortunately, it was only a minor injury.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "14348_keishou_ex2",
-      "japanese": "{感染者|かんせんしゃ}のほとんどは{軽症|けいしょう}だった。",
+      "japanese": "⟦{感染者|かんせんしゃ}→感染者：28388_kansensha⟧⟦の→の：09472_no⟧⟦ほとんど→ほとんど：00847_hotondo⟧⟦は→は：00079_ha⟧{軽症|けいしょう}だった。",
       "english": "Most of the infected people had mild cases.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "14348_keishou_ex3",
-      "japanese": "{事故|じこ}で{三人|さんにん}が{病院|びょういん}に{運|はこ}ばれたが、いずれも{軽症|けいしょう}で{命|いのち}に{別状|べつじょう}はない。",
+      "japanese": "⟦{事故|じこ}→事故：00851_jiko⟧⟦で→で：00502_de⟧⟦{三人|さんにん}→三人：10978_sannin⟧⟦が→が：00051_ga⟧⟦{病院|びょういん}→病院：00577_byouin⟧⟦に→に：00314_ni⟧⟦{運|はこ}ばれた→運ぶ：01088_hakobu⟧⟦が→が：00051_ga⟧、⟦いずれも→いずれも：16830_izuremo⟧{軽症|けいしょう}⟦で→で：00502_de⟧⟦{命|いのち}→命：02371_inochi⟧⟦に→に：00314_ni⟧{別状|べつじょう}⟦は→は：00079_ha⟧⟦ない→ない：01118_nai⟧。",
       "english": "Three people were taken to the hospital after the accident, but all had minor injuries and their lives are not in danger.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "Compound of {軽|けい} (light, mild) + {症|しょう} (symptom, illness). Antonym: {重症|じゅうしょう} (serious/critical condition).\n\nCOMMON COLLOCATIONS:\n- {軽症|けいしょう}で{済|す}む (to get off with only minor injuries)\n- {軽症|けいしょう}{患者|かんじゃ} (patient with a mild case)\n- {軽症|けいしょう}{者|しゃ} (person with minor injuries/illness)\n\nSEVERITY SCALE:\n{軽症|けいしょう} (mild) → {中等症|ちゅうとうしょう} (moderate) → {重症|じゅうしょう} (severe) → {重篤|じゅうとく} (critical)\n\nUSAGE NOTE:\nCommonly seen in news reports about accidents and disease outbreaks. Not to be confused with the homophone {継承|けいしょう} (succession, inheritance).",
+  "notes": "Compound of {軽|けい} (light, mild) + {症|しょう} (symptom, illness). Antonym: ⟦{重症|じゅうしょう}→重症：09792_juushou⟧ (serious/critical condition).\n\nCOMMON COLLOCATIONS:\n- {軽症|けいしょう}⟦で→で：00502_de⟧⟦{済|す}む→済む：01950_sumu⟧ (to get off with only minor injuries)\n- {軽症|けいしょう}⟦{患者|かんじゃ}→患者：00170_kanja⟧ (patient with a mild case)\n- {軽症|けいしょう}⟦{者|しゃ}→〜者：04662_sha⟧ (person with minor injuries/illness)\n\nSEVERITY SCALE:\n{軽症|けいしょう} (mild) → {中等症|ちゅうとうしょう} (moderate) → ⟦{重症|じゅうしょう}→重症：09792_juushou⟧ (severe) → ⟦{重篤|じゅうとく}→重篤：21643_juutoku⟧ (critical)\n\nUSAGE:\nCommonly seen in news reports about accidents and disease outbreaks. Not to be confused with the homophone ⟦{継承|けいしょう}→継承：13841_keishou⟧ (succession, inheritance).",
   "cross_references": [
     {
       "type": "antonym",
@@ -52,11 +52,18 @@
       "reading": "じゅうしょう",
       "headword": "{重症|じゅうしょう}",
       "label": "serious illness"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28057_mushoujou",
+      "reading": "むしょうじょう",
+      "headword": "{無症状|むしょうじょう}",
+      "label": "asymptomatic"
     }
   ],
   "metadata": {
     "created": "2026-02-28T12:16:15Z",
-    "modified": "2026-02-28T12:16:15Z",
+    "modified": "2026-09-02T04:01:37Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

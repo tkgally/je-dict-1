@@ -15,40 +15,65 @@
   "examples": [
     {
       "id": "11870_meibo_ex1",
-      "japanese": "{名簿|めいぼ}に{名前|なまえ}を{載|の}せる。",
+      "japanese": "{名簿|めいぼ}⟦に→に：00314_ni⟧⟦{名前|なまえ}→名前：02234_namae⟧⟦を→を：00422_wo⟧⟦{載|の}せる→載せる：28290_noseru⟧。",
       "english": "To put one's name on the register.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11870_meibo_ex2",
-      "japanese": "{会員|かいいん}{名簿|めいぼ}を{更新|こうしん}した。",
+      "japanese": "⟦{会員|かいいん}→会員：02535_kaiin⟧{名簿|めいぼ}⟦を→を：00422_wo⟧⟦{更新|こうしん}した→更新する：27994_koushinsuru⟧。",
       "english": "I updated the membership roster.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11870_meibo_ex3",
-      "japanese": "{個人情報|こじんじょうほう}{保護|ほご}のため、{名簿|めいぼ}の{管理|かんり}が{厳|きび}しくなった。",
+      "japanese": "⟦{個人情報|こじんじょうほう}→個人情報：18842_kojinjouhou⟧⟦{保護|ほご}→保護：03625_hogo⟧⟦の→の：09472_no⟧⟦ため→ため：01145_tame⟧、{名簿|めいぼ}⟦の→の：09472_no⟧⟦{管理|かんり}→管理：00178_kanri⟧⟦が→が：00051_ga⟧⟦{厳|きび}しく→厳しい：01125_kibishii⟧⟦なった→なる：01970_naru⟧。",
       "english": "Due to personal data protection, management of name lists has become stricter.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{名簿|めいぼ} is a formal list of names, often with associated details like addresses, affiliations, or contact information. It covers everything from class rosters to membership rolls to voter registries.\n\nCOMMON COLLOCATIONS:\n- {会員|かいいん}{名簿|めいぼ}: membership roster\n- {選挙|せんきょ}{人|にん}{名簿|めいぼ}: voter register\n- {卒業生|そつぎょうせい}{名簿|めいぼ}: alumni directory\n- {名簿|めいぼ}に{載|の}る: to appear on the register\n- {名簿|めいぼ}を{作成|さくせい}する: to compile a name list\n- {名簿|めいぼ}を{管理|かんり}する: to manage a register\n\nCULTURAL NOTE:\nIn recent years, {名簿|めいぼ} management has become a sensitive topic in Japan due to the {個人情報保護法|こじんじょうほうほごほう} (Personal Information Protection Act). Schools and organizations are now much more cautious about distributing name lists.",
-  "cross_references": [],
+  "notes": "{名簿|めいぼ} is a formal list of names, often with associated details like addresses, affiliations, or contact information. It covers everything from class rosters to membership rolls to voter registries.\n\nCOMMON COLLOCATIONS:\n- ⟦{会員|かいいん}→会員：02535_kaiin⟧{名簿|めいぼ}: membership roster\n- ⟦{選挙|せんきょ}→選挙：03303_senkyo⟧⟦{人|にん}→〜人：00658_nin⟧{名簿|めいぼ}: voter register\n- ⟦{卒業生|そつぎょうせい}→卒業生：15284_sotsugyousei⟧{名簿|めいぼ}: alumni directory\n- {名簿|めいぼ}⟦に→に：00314_ni⟧⟦{載|の}る→載る：27882_noru⟧: to appear on the register\n- {名簿|めいぼ}⟦を→を：00422_wo⟧⟦{作成|さくせい}する→作成する：25378_sakuseisuru⟧: to compile a name list\n- {名簿|めいぼ}⟦を→を：00422_wo⟧⟦{管理|かんり}する→管理する：21910_kanrisuru⟧: to manage a register\n\nCULTURAL NOTE:\nIn recent years, {名簿|めいぼ} management has become a sensitive topic in Japan due to the {個人情報保護法|こじんじょうほうほごほう} (Personal Information Protection Act). Schools and organizations are now much more cautious about distributing name lists.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "08001_daichou",
+      "reading": "だいちょう",
+      "headword": "{台帳|だいちょう}",
+      "label": "register"
+    },
+    {
+      "type": "related",
+      "target_id": "20471_juushoroku",
+      "reading": "じゅうしょろく",
+      "headword": "{住所録|じゅうしょろく}",
+      "label": "address book"
+    }
+  ],
   "metadata": {
     "created": "2026-02-18T13:48:23Z",
-    "modified": "2026-04-03T03:01:14Z",
+    "modified": "2026-09-02T04:01:26Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

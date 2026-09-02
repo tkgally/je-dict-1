@@ -3,7 +3,7 @@
   "headword": "{休|やす}まる",
   "reading": "やすまる",
   "romaji": "yasumaru",
-  "part_of_speech": "verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to be rested; to feel at ease",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "27811_yasumaru_ex1",
-      "japanese": "{気|き}が{休|やす}まる。",
+      "japanese": "⟦{気|き}→気：02199_ki⟧⟦が→が：00051_ga⟧{休|やす}まる。",
       "english": "I feel at ease.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "27811_yasumaru_ex2",
-      "japanese": "{家|いえ}にいると{心|こころ}が{休|やす}まる。",
+      "japanese": "⟦{家|いえ}→家：00612_ie⟧⟦に→に：00314_ni⟧⟦いる→いる：00495_iru⟧⟦と→と：00512_to⟧⟦{心|こころ}→心：01321_kokoro⟧⟦が→が：00051_ga⟧{休|やす}まる。",
       "english": "Being at home puts my mind at rest.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "27811_yasumaru_ex3",
-      "japanese": "{仕事|しごと}が{忙|いそが}しくて、{気|き}の{休|やす}まる{時|とき}がない。",
+      "japanese": "⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦が→が：00051_ga⟧⟦{忙|いそが}しくて→忙しい：00591_isogashii⟧、⟦{気|き}→気：02199_ki⟧⟦の→の：09472_no⟧{休|やす}まる{時|とき}⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧。",
       "english": "Work is so busy that I never get a moment's peace.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "TRANSITIVITY: Intransitive godan verb. Xが{休|やす}まる, typically with {気|き}, {心|こころ}, or {体|からだ} as the subject. The transitive pair is {休|やす}める (to rest something).\n\nDescribes tension and fatigue being relieved. Very often in the phrase {気|き}が{休|やす}まる.\n\nCOMMON COLLOCATIONS:\n- {気|き}が{休|やす}まる: to feel at ease\n- {心|こころ}が{休|やす}まる: one's mind is at rest\n- {体|からだ}が{休|やす}まる: one's body gets a rest\n\nSIMILAR WORDS:\n- {休|やす}む: to rest — the basic verb; an action one does, whereas {休|やす}まる is a state one comes into\n- くつろぐ: to relax — to make oneself comfortable and unwind",
+  "notes": "TRANSITIVITY: Intransitive godan verb. X⟦が→が：00051_ga⟧{休|やす}まる, typically with ⟦{気|き}→気：02199_ki⟧, ⟦{心|こころ}→心：01321_kokoro⟧, or ⟦{体|からだ}→体：00784_karada⟧ as the subject. The transitive pair is ⟦{休|やす}める→休める：02437_yasumeru⟧ (to rest something).\n\nDescribes tension and fatigue being relieved. Very often in the phrase ⟦{気|き}→気：02199_ki⟧⟦が→が：00051_ga⟧{休|やす}まる.\n\nCOMMON COLLOCATIONS:\n- ⟦{気|き}→気：02199_ki⟧⟦が→が：00051_ga⟧{休|やす}まる: to feel at ease\n- ⟦{心|こころ}→心：01321_kokoro⟧⟦が→が：00051_ga⟧{休|やす}まる: one's mind is at rest\n- ⟦{体|からだ}→体：00784_karada⟧⟦が→が：00051_ga⟧{休|やす}まる: one's body gets a rest\n\nSIMILAR WORDS:\n- ⟦{休|やす}む→休む：00606_yasumu⟧: to rest — the basic verb; an action one does, whereas {休|やす}まる is a state one comes into\n- ⟦くつろぐ→くつろぐ：02576_kutsurogu⟧: to relax — to make oneself comfortable and unwind",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00606_yasumu",
+      "reading": "やすむ",
+      "headword": "{休|やす}む",
+      "label": "to rest"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02576_kutsurogu",
+      "reading": "くつろぐ",
+      "headword": "くつろぐ",
+      "label": "to relax"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,7 +78,7 @@
       "verb_class": "godan-ru"
     },
     "created": "2026-05-19T03:07:48Z",
-    "modified": "2026-05-19T03:07:48Z"
+    "modified": "2026-09-02T04:02:31Z"
   },
   "conjugation": {
     "type": "godan",

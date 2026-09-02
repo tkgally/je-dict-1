@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "16279_namayasai_ex1",
-      "japanese": "{生野菜|なまやさい}のサラダを{食|た}べる。",
+      "japanese": "{生野菜|なまやさい}⟦の→の：09472_no⟧⟦サラダ→サラダ：01364_sarada⟧⟦を→を：00422_wo⟧⟦{食|た}べる→食べる：00396_taberu⟧。",
       "english": "To eat a raw vegetable salad.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16279_namayasai_ex2",
-      "japanese": "{焼肉|やきにく}には{生野菜|なまやさい}がよく{合|あ}う。",
+      "japanese": "⟦{焼肉|やきにく}→焼肉：04984_yakiniku⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{生野菜|なまやさい}⟦が→が：00051_ga⟧⟦よく→よく：00601_yoku⟧⟦{合|あ}う→合う：10466_au⟧。",
       "english": "Raw vegetables go well with grilled meat.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16279_namayasai_ex3",
-      "japanese": "{健康|けんこう}のために{毎日|まいにち}{生野菜|なまやさい}を{食|た}べるようにしている。",
+      "japanese": "⟦{健康|けんこう}→健康：02706_kenkou⟧⟦の→の：09472_no⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧{毎日|まいにち}{生野菜|なまやさい}⟦を→を：00422_wo⟧⟦{食|た}べる→食べる：00396_taberu⟧ようにして⟦いる→いる：00495_iru⟧。",
       "english": "I try to eat raw vegetables every day for my health.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{生野菜|なまやさい} is composed of {生|なま} (raw, uncooked) + {野菜|やさい} (vegetables).\n\nCOMMON COLLOCATIONS:\n- {生野菜|なまやさい}サラダ: raw vegetable salad\n- {生野菜|なまやさい}スティック: vegetable sticks (crudites)\n\nRELATED WORDS WITH {生|なま}:\n- {生|なま}ビール: draft beer\n- {生|なま}たまご: raw egg\n- {生|なま}もの: raw food (especially raw seafood)\n\nUSAGE: The prefix {生|なま} is commonly used with food items to indicate they are uncooked or unprocessed. In Japanese cuisine, which traditionally favors cooked vegetables, the practice of eating {生野菜|なまやさい} became widespread with the adoption of Western-style salads.",
+  "notes": "{生野菜|なまやさい} is composed of ⟦{生|なま}→生：03509_nama⟧ (raw, uncooked) + ⟦{野菜|やさい}→野菜：02265_yasai⟧ (vegetables).\n\nCOMMON COLLOCATIONS:\n- {生野菜|なまやさい}⟦サラダ→サラダ：01364_sarada⟧: raw vegetable salad\n- {生野菜|なまやさい}スティック: vegetable sticks (crudites)\n\nRELATED WORDS WITH {生|なま}:\n- ⟦{生|なま}ビール→生ビール：23496_namabiiru⟧: draft beer\n- {生|なま}たまご: raw egg\n- {生|なま}もの: raw food (especially raw seafood)\n\nUSAGE: The prefix ⟦{生|なま}→生：03509_nama⟧ is commonly used with food items to indicate they are uncooked or unprocessed. In Japanese cuisine, which traditionally favors cooked vegetables, the practice of eating {生野菜|なまやさい} became widespread with the adoption of Western-style salads.",
   "cross_references": [
     {
       "type": "related",
@@ -46,17 +52,28 @@
       "reading": "やさい",
       "headword": "{野菜|やさい}",
       "label": "vegetables"
+    },
+    {
+      "type": "related",
+      "target_id": "23496_namabiiru",
+      "reading": "なまびーる",
+      "headword": "{生|なま}ビール",
+      "label": "draft beer"
     }
   ],
   "metadata": {
     "created": "2026-03-11T10:38:40Z",
-    "modified": "2026-05-03T07:09:48Z",
+    "modified": "2026-09-02T04:01:44Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food"]
+      "semantic": [
+        "food"
+      ]
     }
   }
 }

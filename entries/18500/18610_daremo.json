@@ -20,65 +20,96 @@
   "examples": [
     {
       "id": "18610_daremo_ex1",
-      "japanese": "{誰|だれ}もいなかった。",
+      "japanese": "{誰|だれ}も⟦いなかった→いる：00495_iru⟧。",
       "english": "Nobody was there.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18610_daremo_ex2",
-      "japanese": "{誰|だれ}もその{質問|しつもん}に{答|こた}えられなかった。",
+      "japanese": "{誰|だれ}も⟦その→その：00993_sono⟧⟦{質問|しつもん}→質問：00888_shitsumon⟧⟦に→に：00314_ni⟧⟦{答|こた}えられなかった→答える：01099_kotaeru⟧。",
       "english": "Nobody could answer that question.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18610_daremo_ex3",
-      "japanese": "{日曜日|にちようび}なのに、{公園|こうえん}には{誰|だれ}もいない。",
+      "japanese": "⟦{日曜日|にちようび}→日曜日：00656_nichiyoubi⟧な⟦の→の：09472_no⟧⟦に→に：00314_ni⟧、⟦{公園|こうえん}→公園：00581_kouen⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{誰|だれ}も⟦いない→いる：00495_iru⟧。",
       "english": "Even though it's Sunday, there's nobody at the park.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18610_daremo_ex4",
-      "japanese": "{誰|だれ}もが{知|し}っている{話|はなし}だ。",
+      "japanese": "{誰|だれ}も⟦が→が：00051_ga⟧⟦{知|し}っている→知る：00458_shiru⟧⟦{話|はなし}→話：01496_hanashi⟧だ。",
       "english": "It's a story everyone knows.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "18610_daremo_ex5",
-      "japanese": "{誰|だれ}もが{一度|いちど}は{失敗|しっぱい}する。",
+      "japanese": "{誰|だれ}も⟦が→が：00051_ga⟧⟦{一度|いちど}→一度：01312_ichido⟧⟦は→は：00079_ha⟧⟦{失敗|しっぱい}→失敗：01636_shippai⟧⟦する→する：00392_suru⟧。",
       "english": "Everyone fails at least once.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "18610_daremo_ex6",
-      "japanese": "{誰|だれ}もが{認|みと}める{実力|じつりょく}の{持|も}ち{主|ぬし}だ。",
+      "japanese": "{誰|だれ}も⟦が→が：00051_ga⟧⟦{認|みと}める→認める：02429_mitomeru⟧⟦{実力|じつりょく}→実力：03277_jitsuryoku⟧⟦の→の：09472_no⟧⟦{持|も}ち{主|ぬし}→持ち主：10439_mochinushi⟧だ。",
       "english": "He's someone whose ability everyone acknowledges.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
-  "notes": "GRAMMAR:\nThe meaning depends on the polarity of the predicate:\n- {誰|だれ}も + NEGATIVE → nobody ({誰|だれ}も{来|こ}ない = nobody comes)\n- {誰|だれ}もが + AFFIRMATIVE → everyone ({誰|だれ}もが{知|し}っている = everyone knows)\n\nThe が particle is often added in the affirmative sense ({誰|だれ}もが) to mark the subject explicitly. In the negative sense, が is typically omitted.\n\nPATTERN:\nThis follows the same pattern as other interrogative + も combinations:\n- {何|なに}も + NEG = nothing\n- どこも + NEG = nowhere\n- いつも = always (exception: affirmative by default)\n\nSIMILAR WORDS:\n- {誰|だれ}か: someone — indefinite, not universal\n- {誰|だれ}でも: anyone (without restriction) — emphasizes lack of limitation",
-  "cross_references": [],
+  "notes": "COMMON PATTERNS:\nThe meaning depends on the polarity of the predicate:\n- {誰|だれ}も + NEGATIVE → nobody ({誰|だれ}も⟦{来|こ}ない→来る：00254_kuru⟧ = nobody comes)\n- {誰|だれ}も⟦が→が：00051_ga⟧ + AFFIRMATIVE → everyone ({誰|だれ}も⟦が→が：00051_ga⟧⟦{知|し}っている→知る：00458_shiru⟧ = everyone knows)\n\nThe ⟦が→が：00051_ga⟧ particle is often added in the affirmative sense ({誰|だれ}も⟦が→が：00051_ga⟧) to mark the subject explicitly. In the negative sense, ⟦が→が：00051_ga⟧ is typically omitted.\nThis follows the same pattern as other interrogative + ⟦も→も：00484_mo⟧ combinations:\n- ⟦{何|なに}も→何も：03874_nanimo⟧ + NEG = nothing\n- ⟦どこ→どこ：00539_doko⟧⟦も→も：00484_mo⟧ + NEG = nowhere\n- ⟦いつも→いつも：00599_itsumo⟧ = always (exception: affirmative by default)\n\nSIMILAR WORDS:\n- ⟦{誰|だれ}か→誰か：02912_dareka⟧: someone — indefinite, not universal\n- ⟦{誰|だれ}→誰：00534_dare⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧: anyone (without restriction) — emphasizes lack of limitation",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02912_dareka",
+      "reading": "だれか",
+      "headword": "{誰|だれ}か",
+      "label": "someone"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08498_daredemo",
+      "reading": "だれでも",
+      "headword": "{誰|だれ}でも",
+      "label": "anyone"
+    }
+  ],
   "metadata": {
     "created": "2026-03-22T09:56:32Z",
-    "modified": "2026-03-22T09:56:32Z",
+    "modified": "2026-09-02T04:01:52Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["pronoun"],
+      "pos": [
+        "pronoun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["grammatical"]
+      "semantic": [
+        "grammatical"
+      ]
     }
   }
 }

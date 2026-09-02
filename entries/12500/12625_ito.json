@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "12625_ito_ex1",
-      "japanese": "{意図|いと}が{読|よ}めない。",
+      "japanese": "{意図|いと}⟦が→が：00051_ga⟧⟦{読|よ}めない→読む：00426_yomu⟧。",
       "english": "I can't read their intention.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "12625_ito_ex2",
-      "japanese": "{意図|いと}した{結果|けっか}ではなかった。",
+      "japanese": "{意図|いと}⟦した→する：00392_suru⟧⟦{結果|けっか}→結果：02486_kekka⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦なかった→ない：01118_nai⟧。",
       "english": "It was not the intended result.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "12625_ito_ex3",
-      "japanese": "{作者|さくしゃ}の{意図|いと}を{正|ただ}しく{理解|りかい}するには、{時代|じだい}{背景|はいけい}を{知|し}る{必要|ひつよう}がある。",
+      "japanese": "⟦{作者|さくしゃ}→作者：04169_sakusha⟧⟦の→の：09472_no⟧{意図|いと}⟦を→を：00422_wo⟧⟦{正|ただ}しく→正しい：00893_tadashii⟧⟦{理解|りかい}する→理解する：06059_rikaisuru⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧、⟦{時代|じだい}→時代：01424_jidai⟧⟦{背景|はいけい}→背景：28348_haikei⟧⟦を→を：00422_wo⟧⟦{知|し}る→知る：00458_shiru⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "To correctly understand the author's intention, you need to know the historical context.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "{意図|いと} refers to a deliberate, calculated intention behind an action. It often implies a planned or strategic purpose.\n\nCOMMON COLLOCATIONS:\n- {意図|いと}する: to intend, to aim for\n- {意図|いと}が{読|よ}めない: can't read the intention\n- {意図|いと}した{通|とお}りに: as intended\n- {意図|いと}せず: unintentionally\n- {意図|いと}{的|てき}に: intentionally, deliberately\n\nSIMILAR WORDS:\n- {意図|いと}: intention, aim (deliberate, calculated, may imply hidden motive)\n- {意向|いこう}: intention, wishes (formal wishes regarding decisions)\n- {目的|もくてき}: purpose, objective (the goal itself)\n- {狙|ねら}い: aim, target (what one is aiming for, slightly informal)",
+  "notes": "{意図|いと} refers to a deliberate, calculated intention behind an action. It often implies a planned or strategic purpose.\n\nCOMMON COLLOCATIONS:\n- {意図|いと}⟦する→する：00392_suru⟧: to intend, to aim for\n- {意図|いと}⟦が→が：00051_ga⟧⟦{読|よ}めない→読む：00426_yomu⟧: can't read the intention\n- {意図|いと}⟦した→する：00392_suru⟧⟦{通|とお}り→通り：01475_toori⟧⟦に→に：00314_ni⟧: as intended\n- {意図|いと}せず: unintentionally\n- {意図|いと}{的|てき}⟦に→に：00314_ni⟧: intentionally, deliberately\n\nSIMILAR WORDS:\n- {意図|いと}: intention, aim (deliberate, calculated, may imply hidden motive)\n- ⟦{意向|いこう}→意向：12624_ikou⟧: intention, wishes (formal wishes regarding decisions)\n- ⟦{目的|もくてき}→目的：02433_mokuteki⟧: purpose, objective (the goal itself)\n- ⟦{狙|ねら}い→狙い：00312_nerai⟧: aim, target (what one is aiming for, slightly informal)",
   "cross_references": [
     {
       "type": "synonym",
@@ -142,11 +142,39 @@
       "reading": "いこう",
       "headword": "{意向|いこう}",
       "label": "intention, wishes (formal)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02433_mokuteki",
+      "reading": "もくてき",
+      "headword": "{目的|もくてき}",
+      "label": "purpose, objective"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00312_nerai",
+      "reading": "ねらい",
+      "headword": "{狙|ねら}い",
+      "label": "aim, target"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05629_shushi",
+      "reading": "しゅし",
+      "headword": "{趣旨|しゅし}",
+      "label": "gist"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22661_kito",
+      "reading": "きと",
+      "headword": "{企図|きと}",
+      "label": "plan"
     }
   ],
   "metadata": {
     "created": "2026-02-22T04:34:17Z",
-    "modified": "2026-04-27T06:29:35Z",
+    "modified": "2026-09-02T04:01:29Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

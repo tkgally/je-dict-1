@@ -15,41 +15,60 @@
   "examples": [
     {
       "id": "27499_yuugengaisha_ex1",
-      "japanese": "{父|ちち}は{有限会社|ゆうげんがいしゃ}を{経営|けいえい}している。",
+      "japanese": "⟦{父|ちち}→父：00566_chichi⟧⟦は→は：00079_ha⟧{有限会社|ゆうげんがいしゃ}⟦を→を：00422_wo⟧⟦{経営|けいえい}→経営：02740_keiei⟧⟦している→する：00392_suru⟧。",
       "english": "My father runs a limited liability company.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27499_yuugengaisha_ex2",
-      "japanese": "{名刺|めいし}には{有限会社|ゆうげんがいしゃ}の{社名|しゃめい}が{書|か}かれていた。",
+      "japanese": "⟦{名刺|めいし}→名刺：01090_meishi⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{有限会社|ゆうげんがいしゃ}⟦の→の：09472_no⟧{社名|しゃめい}⟦が→が：00051_ga⟧⟦{書|か}かれていた→書く：00477_kaku⟧。",
       "english": "The business card had the name of a limited liability company on it.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27499_yuugengaisha_ex3",
-      "japanese": "{制度|せいど}が{変|か}わったため、{新|あら}たに{有限会社|ゆうげんがいしゃ}を{設立|せつりつ}することはできない。",
+      "japanese": "⟦{制度|せいど}→制度：03291_seido⟧⟦が→が：00051_ga⟧⟦{変|か}わった→変わる：00714_kawaru⟧⟦ため→ため：01145_tame⟧、⟦{新|あら}た→新た：01697_arata⟧⟦に→に：00314_ni⟧{有限会社|ゆうげんがいしゃ}⟦を→を：00422_wo⟧⟦{設立|せつりつ}する→設立する：17473_setsuritsusuru⟧こと⟦は→は：00079_ha⟧⟦できない→できる：00557_dekiru⟧。",
       "english": "Because the law changed, it is no longer possible to newly establish a limited liability company.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Often abbreviated {有限|ゆうげん} or written as ㈲ before the company name. The 2006 Companies Act ({会社法|かいしゃほう}) discontinued the category, but existing {有限会社|ゆうげんがいしゃ} were grandfathered in and may still keep the title indefinitely.\n\nCOMMON COLLOCATIONS:\n- {有限会社|ゆうげんがいしゃ}を{設立|せつりつ}する: to establish a limited company\n- {有限会社|ゆうげんがいしゃ}を{経営|けいえい}する: to run a limited company\n- {有限会社|ゆうげんがいしゃ}{○○|まるまる}: \"○○ Ltd.\" (in company names)\n\nSIMILAR WORDS:\n- {株式会社|かぶしきがいしゃ}: stock company; joint-stock corporation — much larger and more common form, with shares\n- {合同会社|ごうどうがいしゃ}: LLC (Japanese-style) — the modern small-business form that replaced {有限会社|ゆうげんがいしゃ} after 2006",
+  "notes": "Often abbreviated ⟦{有限|ゆうげん}→有限：29338_yuugen⟧ or written as ㈲ before the company name. The 2006 Companies Act ({会社法|かいしゃほう}) discontinued the category, but existing {有限会社|ゆうげんがいしゃ} were grandfathered in and may still keep the title indefinitely.\n\nCOMMON COLLOCATIONS:\n- {有限会社|ゆうげんがいしゃ}⟦を→を：00422_wo⟧⟦{設立|せつりつ}する→設立する：17473_setsuritsusuru⟧: to establish a limited company\n- {有限会社|ゆうげんがいしゃ}⟦を→を：00422_wo⟧⟦{経営|けいえい}→経営：02740_keiei⟧⟦する→する：00392_suru⟧: to run a limited company\n- {有限会社|ゆうげんがいしゃ}{○○|まるまる}: \"○○ Ltd.\" (in company names)\n\nSIMILAR WORDS:\n- ⟦{株式会社|かぶしきがいしゃ}→株式会社：19101_kabushikigaisha⟧: stock company; joint-stock corporation — much larger and more common form, with shares\n- {合同会社|ごうどうがいしゃ}: LLC (Japanese-style) — the modern small-business form that replaced {有限会社|ゆうげんがいしゃ} after 2006",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19101_kabushikigaisha",
+      "reading": "かぶしきがいしゃ",
+      "headword": "{株式会社|かぶしきがいしゃ}",
+      "label": "stock company"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["business"],
+      "politeness": "plain",
+      "semantic": [
+        "business"
+      ],
       "domain": []
     },
     "created": "2026-05-13T03:05:34Z",
-    "modified": "2026-05-13T03:05:34Z"
+    "modified": "2026-09-02T04:02:30Z"
   }
 }

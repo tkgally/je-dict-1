@@ -3,7 +3,7 @@
   "headword": "{駐留|ちゅうりゅう}する",
   "reading": "ちゅうりゅうする",
   "romaji": "chuuryuusuru",
-  "part_of_speech": "verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "to station; to be stationed (military forces)",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25774_chuuryuusuru_ex1",
-      "japanese": "{米軍|べいぐん}が{日本|にほん}に{駐留|ちゅうりゅう}している。",
+      "japanese": "{米軍|べいぐん}⟦が→が：00051_ga⟧⟦{日本|にほん}→日本：03876_nihon⟧⟦に→に：00314_ni⟧{駐留|ちゅうりゅう}して⟦いる→いる：00495_iru⟧。",
       "english": "U.S. forces are stationed in Japan.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25774_chuuryuusuru_ex2",
-      "japanese": "{国連|こくれん}{平和維持軍|へいわいじぐん}がその{地域|ちいき}に{駐留|ちゅうりゅう}している。",
+      "japanese": "⟦{国連|こくれん}→国連：12035_kokuren⟧{平和維持軍|へいわいじぐん}⟦が→が：00051_ga⟧⟦その→その：00993_sono⟧⟦{地域|ちいき}→地域：01461_chiiki⟧⟦に→に：00314_ni⟧{駐留|ちゅうりゅう}して⟦いる→いる：00495_iru⟧。",
       "english": "UN peacekeeping forces are stationed in that region.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25774_chuuryuusuru_ex3",
-      "japanese": "{戦後|せんご}、{連合国軍|れんごうこくぐん}が{日本|にほん}{各地|かくち}に{駐留|ちゅうりゅう}し、{占領|せんりょう}{政策|せいさく}を{実施|じっし}した。",
+      "japanese": "⟦{戦後|せんご}→戦後：12853_sengo⟧、{連合国軍|れんごうこくぐん}⟦が→が：00051_ga⟧⟦{日本|にほん}→日本：03876_nihon⟧⟦{各地|かくち}→各地：00155_kakuchi⟧⟦に→に：00314_ni⟧{駐留|ちゅうりゅう}し、⟦{占領|せんりょう}→占領：11863_senryou⟧⟦{政策|せいさく}→政策：10070_seisaku⟧⟦を→を：00422_wo⟧⟦{実施|じっし}した→実施する：19634_jisshisuru⟧。",
       "english": "After the war, Allied forces were stationed throughout Japan and carried out occupation policies.",
       "sense_numbers": [
         1
@@ -44,8 +44,30 @@
       "notes": null
     }
   ],
-  "notes": "A suru-verb formed from {駐留|ちゅうりゅう}, combining {駐|ちゅう} (to stay/park) and {留|りゅう} (to remain). Specifically a military term — not used for civilian stays or visits.\n\nCOMMON COLLOCATIONS:\n- {駐留|ちゅうりゅう}{米軍|べいぐん}: U.S. forces stationed (in Japan)\n- {駐留|ちゅうりゅう}{軍|ぐん}: stationed military forces\n- {駐留|ちゅうりゅう}{経費|けいひ}: stationing costs (host nation support)\n- {海外|かいがい}{駐留|ちゅうりゅう}: overseas stationing\n\nSIMILAR WORDS:\n- {駐屯|ちゅうとん}する: to garrison — similar but emphasizes a permanent military base\n- {派遣|はけん}する: to dispatch — focuses on the act of sending forces, not the ongoing presence\n- {占領|せんりょう}する: to occupy — implies forceful control over territory",
-  "cross_references": [],
+  "notes": "A suru-verb formed from ⟦{駐留|ちゅうりゅう}→駐留：23159_chuuryuu⟧, combining {駐|ちゅう} (to stay/park) and {留|りゅう} (to remain). Specifically a military term — not used for civilian stays or visits.\n\nCOMMON COLLOCATIONS:\n- ⟦{駐留|ちゅうりゅう}→駐留：23159_chuuryuu⟧{米軍|べいぐん}: U.S. forces stationed (in Japan)\n- ⟦{駐留|ちゅうりゅう}→駐留：23159_chuuryuu⟧⟦{軍|ぐん}→軍：02677_gun⟧: stationed military forces\n- ⟦{駐留|ちゅうりゅう}→駐留：23159_chuuryuu⟧⟦{経費|けいひ}→経費：04696_keihi⟧: stationing costs (host nation support)\n- ⟦{海外|かいがい}→海外：00134_kaigai⟧⟦{駐留|ちゅうりゅう}→駐留：23159_chuuryuu⟧: overseas stationing\n\nSIMILAR WORDS:\n- ⟦{駐屯|ちゅうとん}→駐屯：22864_chuuton⟧⟦する→する：00392_suru⟧: to garrison — similar but emphasizes a permanent military base\n- ⟦{派遣|はけん}→派遣：13273_haken⟧⟦する→する：00392_suru⟧: to dispatch — focuses on the act of sending forces, not the ongoing presence\n- ⟦{占領|せんりょう}→占領：11863_senryou⟧⟦する→する：00392_suru⟧: to occupy — implies forceful control over territory",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22864_chuuton",
+      "reading": "ちゅうとん",
+      "headword": "{駐屯|ちゅうとん}",
+      "label": "to garrison"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13273_haken",
+      "reading": "はけん",
+      "headword": "{派遣|はけん}",
+      "label": "to dispatch"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11863_senryou",
+      "reading": "せんりょう",
+      "headword": "{占領|せんりょう}",
+      "label": "to occupy"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -54,6 +76,8 @@
         "noun",
         "verb-suru"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "military",
         "politics"
@@ -61,7 +85,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-27T12:21:26Z",
-    "modified": "2026-04-27T12:21:26Z"
+    "modified": "2026-09-02T04:02:23Z"
   },
   "conjugation": {
     "type": "suru",

@@ -20,65 +20,89 @@
   "examples": [
     {
       "id": "11042_chaato_ex1",
-      "japanese": "チャートを{作成|さくせい}する。",
+      "japanese": "チャート⟦を→を：00422_wo⟧⟦{作成|さくせい}する→作成する：25378_sakuseisuru⟧。",
       "english": "To create a chart.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11042_chaato_ex2",
-      "japanese": "フローチャートで{手順|てじゅん}を{整理|せいり}した。",
+      "japanese": "フローチャート⟦で→で：00502_de⟧⟦{手順|てじゅん}→手順：05452_tejun⟧⟦を→を：00422_wo⟧⟦{整理|せいり}した→整理する：21729_seirisuru⟧。",
       "english": "I organized the procedure using a flowchart.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11042_chaato_ex3",
-      "japanese": "データをチャートにして{分|わ}かりやすくプレゼンした。",
+      "japanese": "⟦データ→データ：03944_deeta⟧⟦を→を：00422_wo⟧チャートにして⟦{分|わ}かり→分かる：00463_wakaru⟧やすく⟦プレゼン→プレゼン：05505_purezen⟧⟦した→する：00392_suru⟧。",
       "english": "I presented the data in chart form to make it easy to understand.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11042_chaato_ex4",
-      "japanese": "チャートの1{位|い}になった。",
+      "japanese": "チャート⟦の→の：09472_no⟧1⟦{位|い}→〜位：00443_i⟧になった。",
       "english": "It reached number one on the chart.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "11042_chaato_ex5",
-      "japanese": "{新曲|しんきょく}がチャートに{入|はい}った。",
+      "japanese": "⟦{新曲|しんきょく}→新曲：12983_shinkyoku⟧⟦が→が：00051_ga⟧チャート⟦に→に：00314_ni⟧⟦{入|はい}った→入る：00494_hairu⟧。",
       "english": "The new song entered the charts.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "11042_chaato_ex6",
-      "japanese": "その{曲|きょく}は{発売|はつばい}{直後|ちょくご}にチャートの{上位|じょうい}に{躍|おど}り{出|で}た。",
+      "japanese": "⟦その→その：00993_sono⟧⟦{曲|きょく}→曲：09881_kyoku⟧⟦は→は：00079_ha⟧⟦{発売|はつばい}→発売：04315_hatsubai⟧⟦{直後|ちょくご}→直後：04525_chokugo⟧⟦に→に：00314_ni⟧チャート⟦の→の：09472_no⟧⟦{上位|じょうい}→上位：11188_joui⟧⟦に→に：00314_ni⟧{躍|おど}り{出|で}た。",
       "english": "The song shot to the top of the charts right after its release.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
-  "notes": "USAGE:\nSense 1 (chart/graph): Used in business and academic contexts. Common types include フローチャート (flowchart), {円|えん}グラフ (pie chart), {棒|ぼう}グラフ (bar chart). Note that グラフ is often preferred for simple graphs.\n\nSense 2 (ranking): Used mainly for music charts. オリコンチャート (Oricon chart) is Japan's primary music ranking system.\n\nCOMMON COLLOCATIONS:\n- フローチャート: flowchart\n- チャートを{作|つく}る: to make a chart\n- チャートに{入|はい}る: to enter the charts\n- チャート1{位|い}: number one on the chart",
-  "cross_references": [],
+  "notes": "USAGE:\nSense 1 (chart/graph): Used in business and academic contexts. Common types include フローチャート (flowchart), ⟦{円|えん}グラフ→円グラフ：19567_engurafu⟧ (pie chart), ⟦{棒|ぼう}グラフ→棒グラフ：20688_bougurafu⟧ (bar chart). Note that ⟦グラフ→グラフ：04864_gurafu⟧ is often preferred for simple graphs.\n\nSense 2 (ranking): Used mainly for music charts. オリコンチャート (Oricon chart) is Japan's primary music ranking system.\n\nCOMMON COLLOCATIONS:\n- フローチャート: flowchart\n- チャート⟦を→を：00422_wo⟧⟦{作|つく}る→作る：00481_tsukuru⟧: to make a chart\n- チャート⟦に→に：00314_ni⟧⟦{入|はい}る→入る：00494_hairu⟧: to enter the charts\n- チャート1⟦{位|い}→〜位：00443_i⟧: number one on the chart",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24004_daiyaguramu",
+      "reading": "だいやぐらむ",
+      "headword": "ダイヤグラム",
+      "label": "diagram"
+    }
+  ],
   "metadata": {
     "created": "2026-02-12T20:10:50Z",
-    "modified": "2026-02-12T20:10:50Z",
+    "modified": "2026-09-02T04:01:23Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

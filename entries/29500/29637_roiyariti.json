@@ -15,41 +15,70 @@
   "examples": [
     {
       "id": "29637_roiyariti_ex1",
-      "japanese": "ロイヤリティを{支払|しはら}う。",
+      "japanese": "ロイヤリティ⟦を→を：00422_wo⟧⟦{支払|しはら}う→支払う：02116_shiharau⟧。",
       "english": "pay royalties",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29637_roiyariti_ex2",
-      "japanese": "{売上|うりあげ}の{五|ご}パーセントをロイヤリティとして{納|おさ}める。",
+      "japanese": "⟦{売上|うりあげ}→売上：04102_uriage⟧⟦の→の：09472_no⟧⟦{五|ご}→五：00697_go⟧⟦パーセント→パーセント：01537_paasento⟧⟦を→を：00422_wo⟧ロイヤリティ⟦として→として：06802_toshite⟧⟦{納|おさ}める→納める：02280_osameru⟧。",
       "english": "pay 5 percent of sales as a royalty",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29637_roiyariti_ex3",
-      "japanese": "フランチャイズ{契約|けいやく}では、{毎月|まいつき}{一定|いってい}のロイヤリティが{発生|はっせい}する。",
+      "japanese": "⟦フランチャイズ→フランチャイズ：20702_furanchaizu⟧⟦{契約|けいやく}→契約：02698_keiyaku⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧、⟦{毎月|まいつき}→毎月：00732_maitsuki⟧⟦{一定|いってい}→一定：01735_ittei⟧⟦の→の：09472_no⟧ロイヤリティ⟦が→が：00051_ga⟧⟦{発生|はっせい}する→発生する：25529_hasseisuru⟧。",
       "english": "Under a franchise contract, a fixed royalty accrues every month.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A loanword from English \"royalty.\" Also written ロイヤルティ.\n\nUSAGE:\nThe separate meaning \"loyalty\" (as in customer loyalty) is usually written ロイヤルティ; context distinguishes the two.\n\nCOMMON COLLOCATIONS:\n- ロイヤリティを{支払|しはら}う: to pay royalties\n- ロイヤリティ{収入|しゅうにゅう}: royalty income\n\nSIMILAR WORDS:\n- {印税|いんぜい}: royalty — specifically an author's royalty on published works\n- {使用料|しようりょう}: usage fee — broader, not necessarily tied to intellectual property",
+  "notes": "A loanword from English \"royalty.\" Also written ロイヤルティ.\n\nUSAGE:\nThe separate meaning \"loyalty\" (as in customer loyalty) is usually written ロイヤルティ; context distinguishes the two.\n\nCOMMON COLLOCATIONS:\n- ロイヤリティ⟦を→を：00422_wo⟧⟦{支払|しはら}う→支払う：02116_shiharau⟧: to pay royalties\n- ロイヤリティ⟦{収入|しゅうにゅう}→収入：03213_shuunyuu⟧: royalty income\n\nSIMILAR WORDS:\n- ⟦{印税|いんぜい}→印税：06368_inzei⟧: royalty — specifically an author's royalty on published works\n- ⟦{使用料|しようりょう}→使用料：29636_shiyouryou⟧: usage fee — broader, not necessarily tied to intellectual property",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06368_inzei",
+      "reading": "いんぜい",
+      "headword": "{印税|いんぜい}",
+      "label": "royalty"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29636_shiyouryou",
+      "reading": "しようりょう",
+      "headword": "{使用料|しようりょう}",
+      "label": "usage fee"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["money", "business"],
-      "domain": ["business"]
+      "politeness": "plain",
+      "semantic": [
+        "money",
+        "business"
+      ],
+      "domain": [
+        "business"
+      ]
     },
     "created": "2026-07-02T12:18:49Z",
-    "modified": "2026-07-02T12:18:49Z"
+    "modified": "2026-09-02T04:02:37Z"
   }
 }

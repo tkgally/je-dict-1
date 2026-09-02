@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26610_hyoushigigiri_ex1",
-      "japanese": "{大根|だいこん}を{拍子木|ひょうしぎ}{切|ぎ}りにする。",
+      "japanese": "⟦{大根|だいこん}→大根：05186_daikon⟧⟦を→を：00422_wo⟧{拍子木|ひょうしぎ}{切|ぎ}り⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧。",
       "english": "Cut the daikon radish into baton shapes.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26610_hyoushigigiri_ex2",
-      "japanese": "にんじんを{拍子木|ひょうしぎ}{切|ぎ}りにして、サラダに{入|い}れた。",
+      "japanese": "にんじん⟦を→を：00422_wo⟧{拍子木|ひょうしぎ}{切|ぎ}りにして、⟦サラダ→サラダ：01364_sarada⟧⟦に→に：00314_ni⟧⟦{入|い}れた→入れる：01098_ireru⟧。",
       "english": "I cut the carrot into sticks and put them in the salad.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26610_hyoushigigiri_ex3",
-      "japanese": "{煮物|にもの}の{材料|ざいりょう}は、{拍子木|ひょうしぎ}{切|ぎ}りにすると{火|ひ}の{通|とお}りが{均一|きんいつ}になる。",
+      "japanese": "⟦{煮物|にもの}→煮物：04971_nimono⟧⟦の→の：09472_no⟧⟦{材料|ざいりょう}→材料：02831_zairyou⟧⟦は→は：00079_ha⟧、{拍子木|ひょうしぎ}{切|ぎ}り⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧⟦と→と：00512_to⟧⟦{火|ひ}→火：02248_hi⟧⟦の→の：09472_no⟧⟦{通|とお}り→通り：01475_toori⟧⟦が→が：00051_ga⟧⟦{均一|きんいつ}→均一：12049_kinitsu⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧。",
       "english": "If you cut the simmered dish ingredients into baton shapes, they cook evenly.",
       "sense_numbers": [
         1
@@ -44,8 +44,37 @@
       "notes": null
     }
   ],
-  "notes": "A standard Japanese cooking cut named after {拍子木|ひょうしぎ}, the wooden clappers used in kabuki and by night watchmen. The resulting pieces are rectangular sticks, typically 4-5 cm long and about 1 cm square. Knowing cutting terminology is essential for following Japanese recipes.\n\nCOMMON COLLOCATIONS:\n- {大根|だいこん}の{拍子木|ひょうしぎ}{切|ぎ}り: baton-cut daikon\n- にんじんを{拍子木|ひょうしぎ}{切|ぎ}りにする: to cut carrots into batons\n- {拍子木|ひょうしぎ}{切|ぎ}りにした{野菜|やさい}: vegetables cut into sticks\n\nRELATED CUTTING TERMS:\n- {千切|せんぎ}り: julienne cut (thin strips)\n- {乱切|らんぎ}り: irregular cut (random chunks)\n- {短冊|たんざく}{切|ぎ}り: rectangular strip cut\n- {賽|さい}の{目|め}{切|ぎ}り: dice cut (small cubes)\n- {輪切|わぎ}り: round slices",
-  "cross_references": [],
+  "notes": "A standard Japanese cooking cut named after {拍子木|ひょうしぎ}, the wooden clappers used in kabuki and by night watchmen. The resulting pieces are rectangular sticks, typically 4-5 cm long and about 1 cm square. Knowing cutting terminology is essential for following Japanese recipes.\n\nCOMMON COLLOCATIONS:\n- ⟦{大根|だいこん}→大根：05186_daikon⟧⟦の→の：09472_no⟧{拍子木|ひょうしぎ}{切|ぎ}り: baton-cut daikon\n- にんじん⟦を→を：00422_wo⟧{拍子木|ひょうしぎ}{切|ぎ}り⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧: to cut carrots into batons\n- {拍子木|ひょうしぎ}{切|ぎ}りにした⟦{野菜|やさい}→野菜：02265_yasai⟧: vegetables cut into sticks\n\nRELATED CUTTING TERMS:\n- ⟦{千切|せんぎ}り→千切り：07473_sengiri⟧: julienne cut (thin strips)\n- ⟦{乱切|らんぎ}り→乱切り：08067_rangiri⟧: irregular cut (random chunks)\n- ⟦{短冊|たんざく}{切|ぎ}り→短冊切り：08087_tanzakugiri⟧: rectangular strip cut\n- {賽|さい}の{目|め}{切|ぎ}り: dice cut (small cubes)\n- ⟦{輪切|わぎ}り→輪切り：07474_wagiri⟧: round slices",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "07473_sengiri",
+      "reading": "せんぎり",
+      "headword": "{千切|せんぎ}り",
+      "label": "julienne cut"
+    },
+    {
+      "type": "related",
+      "target_id": "08067_rangiri",
+      "reading": "らんぎり",
+      "headword": "{乱切|らんぎ}り",
+      "label": "irregular cut"
+    },
+    {
+      "type": "related",
+      "target_id": "08087_tanzakugiri",
+      "reading": "たんざくぎり",
+      "headword": "{短冊切|たんざくぎ}り",
+      "label": "rectangular strip cut"
+    },
+    {
+      "type": "related",
+      "target_id": "07474_wagiri",
+      "reading": "わぎり",
+      "headword": "{輪切|わぎ}り",
+      "label": "round slices"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -61,6 +90,6 @@
       "domain": []
     },
     "created": "2026-05-03T14:28:38Z",
-    "modified": "2026-05-03T14:28:38Z"
+    "modified": "2026-09-02T04:02:27Z"
   }
 }

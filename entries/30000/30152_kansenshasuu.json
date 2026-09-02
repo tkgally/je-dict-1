@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30152_kansenshasuu_ex1",
-      "japanese": "{感染者数|かんせんしゃすう}が{減|へ}ってきた。",
+      "japanese": "{感染者数|かんせんしゃすう}⟦が→が：00051_ga⟧⟦{減|へ}って→減る：01985_heru⟧きた。",
       "english": "The number of infected people has been falling.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30152_kansenshasuu_ex2",
-      "japanese": "{昨日|きのう}の{感染者数|かんせんしゃすう}は{百人|ひゃくにん}を{超|こ}えた。",
+      "japanese": "⟦{昨日|きのう}→昨日：00859_kinou⟧⟦の→の：09472_no⟧{感染者数|かんせんしゃすう}⟦は→は：00079_ha⟧⟦{百人|ひゃくにん}→百人：10985_hyakunin⟧⟦を→を：00422_wo⟧⟦{超|こ}えた→超える：01942_koeru⟧。",
       "english": "Yesterday's case count exceeded one hundred people.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30152_kansenshasuu_ex3",
-      "japanese": "{検査|けんさ}の{数|かず}が{限|かぎ}られているため、{発表|はっぴょう}された{感染者数|かんせんしゃすう}は{実際|じっさい}より{少|すく}ないとみられる。",
+      "japanese": "⟦{検査|けんさ}→検査：02707_kensa⟧⟦の→の：09472_no⟧⟦{数|かず}→数：00204_kazu⟧⟦が→が：00051_ga⟧⟦{限|かぎ}られている→限る：02033_kagiru⟧⟦ため→ため：01145_tame⟧、⟦{発表|はっぴょう}→発表：03562_happyou⟧⟦された→する：00392_suru⟧{感染者数|かんせんしゃすう}⟦は→は：00079_ha⟧⟦{実際|じっさい}→実際：02502_jissai⟧⟦より→より：09476_yori⟧⟦{少|すく}ない→少ない：01136_sukunai⟧とみられる。",
       "english": "Because the number of tests is limited, the announced case count is thought to be lower than the real figure.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "{感染者|かんせんしゃ} (infected person) + {数|すう} (number, count). Became everyday news vocabulary during the coronavirus pandemic and is now the standard way of reporting case figures.\n\nCOMMON COLLOCATIONS:\n- {感染者数|かんせんしゃすう}が{増|ふ}える: for the number of cases to rise\n- {新規|しんき}{感染者数|かんせんしゃすう}: the number of new cases\n- {感染者数|かんせんしゃすう}を{発表|はっぴょう}する: to announce the case count\n\nSIMILAR WORDS:\n- {感染率|かんせんりつ}: infection rate — a proportion rather than a headcount\n- {死者数|ししゃすう}: death toll — the same {数|すう} pattern applied to deaths",
+  "notes": "⟦{感染者|かんせんしゃ}→感染者：28388_kansensha⟧ (infected person) + ⟦{数|すう}→数：03360_suu⟧ (number, count). Became everyday news vocabulary during the coronavirus pandemic and is now the standard way of reporting case figures.\n\nCOMMON COLLOCATIONS:\n- {感染者数|かんせんしゃすう}⟦が→が：00051_ga⟧⟦{増|ふ}える→増える：01183_fueru⟧: for the number of cases to rise\n- ⟦{新規|しんき}→新規：06289_shinki⟧{感染者数|かんせんしゃすう}: the number of new cases\n- {感染者数|かんせんしゃすう}⟦を→を：00422_wo⟧⟦{発表|はっぴょう}する→発表する：25231_happyousuru⟧: to announce the case count\n\nSIMILAR WORDS:\n- ⟦{感染率|かんせんりつ}→感染率：30144_kansenritsu⟧: infection rate — a proportion rather than a headcount\n- ⟦{死者数|ししゃすう}→死者数：30171_shishasuu⟧: death toll — the same ⟦{数|すう}→数：03360_suu⟧ pattern applied to deaths",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "30144_kansenritsu",
+      "reading": "かんせんりつ",
+      "headword": "{感染率|かんせんりつ}",
+      "label": "infection rate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30171_shishasuu",
+      "reading": "ししゃすう",
+      "headword": "死者数",
+      "label": "death toll"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +69,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "health",
         "quantity"
@@ -63,6 +79,6 @@
       ]
     },
     "created": "2026-07-27T03:18:27Z",
-    "modified": "2026-07-27T03:18:27Z"
+    "modified": "2026-09-02T04:02:38Z"
   }
 }

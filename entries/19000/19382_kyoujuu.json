@@ -15,34 +15,53 @@
   "examples": [
     {
       "id": "19382_kyoujuu_ex1",
-      "japanese": "{今日中|きょうじゅう}に{終|お}わらせる。",
+      "japanese": "{今日中|きょうじゅう}⟦に→に：00314_ni⟧⟦{終|お}わらせる→終わる：00567_owaru⟧。",
       "english": "I'll finish it by the end of today.",
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "19382_kyoujuu_ex2",
-      "japanese": "このレポートを{今日中|きょうじゅう}に{提出|ていしゅつ}してください。",
+      "japanese": "⟦この→この：00962_kono⟧⟦レポート→レポート：01543_repooto⟧⟦を→を：00422_wo⟧{今日中|きょうじゅう}⟦に→に：00314_ni⟧⟦{提出|ていしゅつ}して→提出する：19644_teishutsusuru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please submit this report by the end of today.",
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "19382_kyoujuu_ex3",
-      "japanese": "{今日中|きょうじゅう}に{返事|へんじ}がもらえるかどうか{分|わ}からない。",
+      "japanese": "{今日中|きょうじゅう}⟦に→に：00314_ni⟧⟦{返事|へんじ}→返事：00844_henji⟧⟦が→が：00051_ga⟧⟦もらえる→もらう：00520_morau⟧⟦かどうか→かどうか：28299_kadouka⟧⟦{分|わ}からない→分かる：00463_wakaru⟧。",
       "english": "I'm not sure if I can get a reply by the end of today.",
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "A deadline expression meaning \"before today ends.\" It sets the current day as the time limit for completing something, and is common in workplace instructions and promises.\n\nPATTERN: ～{中|じゅう}\nThe suffix ～{中|じゅう} means \"within\" or \"by the end of\" a time period:\n- {今日中|きょうじゅう} — by the end of today\n- {今週中|こんしゅうじゅう} — within this week\n- {今月中|こんげつじゅう} — within this month\n- {午前中|ごぜんちゅう} — during the morning (note: this uses ちゅう)\n\nREADING NOTE:\nRead as きょうじゅう (not きょうちゅう). The ～{中|じゅう} reading emphasizes the deadline sense (\"by the end of\"), while ～{中|ちゅう} emphasizes duration (\"throughout\").",
+  "notes": "A deadline expression meaning \"before today ends.\" It sets the current day as the time limit for completing something, and is common in workplace instructions and promises.\n\nPATTERN: ～{中|じゅう}\nThe suffix ～{中|じゅう} means \"within\" or \"by the end of\" a time period:\n- {今日中|きょうじゅう} — by the end of today\n- {今週中|こんしゅうじゅう} — within this week\n- {今月中|こんげつじゅう} — within this month\n- ⟦{午前中|ごぜんちゅう}→午前中：11495_gozenchuu⟧ — during the morning (note: this uses ちゅう)\n\nPRONUNCIATION:\nRead as きょうじゅう (not きょうちゅう). The ～{中|じゅう} reading emphasizes the deadline sense (\"by the end of\"), while ～⟦{中|ちゅう}→〜中：09840_chuu⟧ emphasizes duration (\"throughout\").",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22830_honjitsuchuu",
+      "reading": "ほんじつちゅう",
+      "headword": "{本日中|ほんじつちゅう}",
+      "label": "by today"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["time-general"]
+      "semantic": [
+        "time-general"
+      ]
     },
     "created": "2026-03-25T12:57:22Z",
-    "modified": "2026-03-25T12:57:22Z"
+    "modified": "2026-09-02T04:01:55Z"
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "13073_saikyou_ex1",
-      "japanese": "{彼|かれ}は{最強|さいきょう}の{選手|せんしゅ}だ。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{最強|さいきょう}⟦の→の：09472_no⟧⟦{選手|せんしゅ}→選手：03823_senshu⟧だ。",
       "english": "He is the strongest player.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "13073_saikyou_ex2",
-      "japanese": "このチームは{今|いま}シーズン{最強|さいきょう}と{言|い}われている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦チーム→チーム：03858_chiimu⟧⟦は→は：00079_ha⟧⟦{今|いま}→今：00945_ima⟧⟦シーズン→シーズン：10944_shiizun⟧{最強|さいきょう}⟦と→と：00512_to⟧⟦{言|い}われている→言う：00515_iu⟧。",
       "english": "This team is said to be the strongest this season.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "13073_saikyou_ex3",
-      "japanese": "{史上|しじょう}{最強|さいきょう}の{台風|たいふう}が{接近|せっきん}しているので、{早|はや}めに{避難|ひなん}してください。",
+      "japanese": "⟦{史上|しじょう}→史上：11806_shijou⟧{最強|さいきょう}⟦の→の：09472_no⟧⟦{台風|たいふう}→台風：01455_taifuu⟧⟦が→が：00051_ga⟧⟦{接近|せっきん}している→接近する：25362_sekkinsuru⟧⟦の→の：09472_no⟧で、⟦{早|はや}め→早め：11176_hayame⟧⟦に→に：00314_ni⟧⟦{避難|ひなん}して→避難する：26827_hinansuru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "The strongest typhoon in recorded history is approaching, so please evacuate early.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{最強|さいきょう} is widely used in everyday language, sports, games, and media. It functions as a noun ({最強|さいきょう}だ) or as a の-adjective modifier ({最強|さいきょう}の〜).\n\nIn casual and internet usage, {最強|さいきょう} is often used hyperbolically to mean \"the best\" or \"unbeatable,\" even for non-physical things like food, apps, or life hacks.\n\nCOMMON COLLOCATIONS:\n- {史上|しじょう}{最強|さいきょう}: strongest in history\n- {最強|さいきょう}の{敵|てき}: the strongest enemy\n- {最強|さいきょう}のチーム: the strongest team\n- {世界|せかい}{最強|さいきょう}: the world's strongest",
+  "notes": "USAGE:\n{最強|さいきょう} is widely used in everyday language, sports, games, and media. It functions as a noun ({最強|さいきょう}だ) or as a ⟦の→の：09472_no⟧-adjective modifier ({最強|さいきょう}⟦の→の：09472_no⟧〜).\n\nIn casual and internet usage, {最強|さいきょう} is often used hyperbolically to mean \"the best\" or \"unbeatable,\" even for non-physical things like food, apps, or life hacks.\n\nCOMMON COLLOCATIONS:\n- ⟦{史上|しじょう}→史上：11806_shijou⟧{最強|さいきょう}: strongest in history\n- {最強|さいきょう}⟦の→の：09472_no⟧⟦{敵|てき}→敵：03546_teki⟧: the strongest enemy\n- {最強|さいきょう}⟦の→の：09472_no⟧⟦チーム→チーム：03858_chiimu⟧: the strongest team\n- ⟦{世界|せかい}→世界：01447_sekai⟧{最強|さいきょう}: the world's strongest",
   "cross_references": [
     {
       "type": "antonym",
@@ -52,11 +52,18 @@
       "reading": "さいじゃく",
       "headword": "{最弱|さいじゃく}",
       "label": "weakest"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21725_muteki",
+      "reading": "むてき",
+      "headword": "{無敵|むてき}",
+      "label": "invincible"
     }
   ],
   "metadata": {
     "created": "2026-02-23T10:39:42Z",
-    "modified": "2026-08-24T00:38:19Z",
+    "modified": "2026-09-02T04:01:31Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

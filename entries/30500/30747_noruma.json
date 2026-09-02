@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30747_noruma_ex1",
-      "japanese": "ノルマがきつい。",
+      "japanese": "ノルマ⟦が→が：00051_ga⟧⟦きつい→きつい：02342_kitsui⟧。",
       "english": "The quota is tough.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30747_noruma_ex2",
-      "japanese": "{今月|こんげつ}のノルマをやっと{達成|たっせい}した。",
+      "japanese": "⟦{今月|こんげつ}→今月：00720_kongetsu⟧⟦の→の：09472_no⟧ノルマ⟦を→を：00422_wo⟧⟦やっと→やっと：01561_yatto⟧⟦{達成|たっせい}した→達成する：22183_tasseisuru⟧。",
       "english": "I finally hit this month's quota.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30747_noruma_ex3",
-      "japanese": "{毎日|まいにち}10ページという{自分|じぶん}なりのノルマを{決|き}めて{勉強|べんきょう}している。",
+      "japanese": "⟦{毎日|まいにち}→毎日：00729_mainichi⟧10⟦ページ→ページ：02961_peeji⟧⟦という→という：09577_toiu⟧⟦{自分|じぶん}→自分：02887_jibun⟧⟦なり→なり：09883_nari⟧⟦の→の：09472_no⟧ノルマ⟦を→を：00422_wo⟧⟦{決|き}めて→決める：00858_kimeru⟧⟦{勉強|べんきょう}している→勉強する：00527_benkyousuru⟧。",
       "english": "I study with a quota I set for myself: ten pages a day.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "From Russian *norma*, borrowed via accounts of Soviet labour targets brought back by returnees after the war — one of very few Russian loanwords in everyday Japanese.\n\nCOMMON COLLOCATIONS:\n- ノルマを{達成|たっせい}する: to meet a quota\n- ノルマを{果|は}たす: to fulfil a quota\n- ノルマがきつい: the quota is harsh\n- ノルマに{追|お}われる: to be driven by quotas\n\nSIMILAR WORDS:\n- {目標|もくひょう}: goal — something you aim for, with no sense of obligation\n- {割|わ}り{当|あ}て: allotment — a neutral share assigned to each person\n\nBecause ノルマ implies pressure, a self-imposed target is stated as {自分|じぶん}なりのノルマ, which sounds half-joking about the strictness.",
+  "notes": "From Russian *norma*, borrowed via accounts of Soviet labour targets brought back by returnees after the war — one of very few Russian loanwords in everyday Japanese.\n\nCOMMON COLLOCATIONS:\n- ノルマ⟦を→を：00422_wo⟧⟦{達成|たっせい}する→達成する：22183_tasseisuru⟧: to meet a quota\n- ノルマ⟦を→を：00422_wo⟧⟦{果|は}たす→果たす：10060_hatasu⟧: to fulfil a quota\n- ノルマ⟦が→が：00051_ga⟧⟦きつい→きつい：02342_kitsui⟧: the quota is harsh\n- ノルマ⟦に→に：00314_ni⟧⟦{追|お}われる→追う：02016_ou⟧: to be driven by quotas\n\nSIMILAR WORDS:\n- ⟦{目標|もくひょう}→目標：03631_mokuhyou⟧: goal — something you aim for, with no sense of obligation\n- ⟦{割|わ}り{当|あ}て→割り当て：16335_wariate⟧: allotment — a neutral share assigned to each person\n\nBecause ノルマ implies pressure, a self-imposed target is stated as ⟦{自分|じぶん}→自分：02887_jibun⟧⟦なり→なり：09883_nari⟧⟦の→の：09472_no⟧ノルマ, which sounds half-joking about the strictness.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03631_mokuhyou",
+      "reading": "もくひょう",
+      "headword": "{目標|もくひょう}",
+      "label": "goal"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16335_wariate",
+      "reading": "わりあて",
+      "headword": "{割|わ}り{当|あ}て",
+      "label": "allotment"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +69,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "work"
       ],
@@ -62,6 +78,6 @@
       ]
     },
     "created": "2026-08-25T12:29:46Z",
-    "modified": "2026-08-25T12:29:46Z"
+    "modified": "2026-09-02T04:02:41Z"
   }
 }

@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "14792_tensou_ex1",
-      "japanese": "メールを{転送|てんそう}した。",
+      "japanese": "⟦メール→メール：04435_meeru⟧⟦を→を：00422_wo⟧{転送|てんそう}⟦した→する：00392_suru⟧。",
       "english": "I forwarded the email.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "14792_tensou_ex2",
-      "japanese": "{引|ひ}っ{越|こ}し{後|ご}の{郵便|ゆうびん}{転送|てんそう}を{申|もう}し{込|こ}んだ。",
+      "japanese": "{引|ひ}っ{越|こ}し⟦{後|ご}→後：30157_go⟧⟦の→の：09472_no⟧⟦{郵便|ゆうびん}→郵便：03803_yuubin⟧{転送|てんそう}⟦を→を：00422_wo⟧⟦{申|もう}し{込|こ}んだ→申し込む：02311_moushikomu⟧。",
       "english": "I applied for mail forwarding after moving.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "14792_tensou_ex3",
-      "japanese": "{電話|でんわ}を{担当者|たんとうしゃ}に{転送|てんそう}しますので、{少々|しょうしょう}お{待|ま}ちください。",
+      "japanese": "⟦{電話|でんわ}→電話：01471_denwa⟧⟦を→を：00422_wo⟧⟦{担当者|たんとうしゃ}→担当者：09676_tantousha⟧⟦に→に：00314_ni⟧{転送|てんそう}⟦します→する：00392_suru⟧⟦の→の：09472_no⟧で、⟦{少々|しょうしょう}→少々：03232_shoushou⟧お⟦{待|ま}ち→待つ：00469_matsu⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "I'll transfer your call to the person in charge, so please hold for a moment.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,26 @@
       ]
     }
   ],
-  "notes": "Used across multiple contexts: postal mail, email, phone calls, and digital data.\n\nCOMMON COLLOCATIONS:\n- メールを{転送|てんそう}する (to forward an email)\n- {電話|でんわ}を{転送|てんそう}する (to transfer a call)\n- {郵便|ゆうびん}{転送|てんそう} (mail forwarding)\n- {自動|じどう}{転送|てんそう} (auto-forwarding)\n- データを{転送|てんそう}する (to transfer data)\n\nUSAGE NOTE:\nFor postal mail, the Japan Post Office offers a free {転送|てんそう} service that redirects mail from your old address to your new one for one year after moving. This is a very common practical use of the word.",
-  "cross_references": [],
+  "notes": "Used across multiple contexts: postal mail, email, phone calls, and digital data.\n\nCOMMON COLLOCATIONS:\n- ⟦メール→メール：04435_meeru⟧⟦を→を：00422_wo⟧{転送|てんそう}⟦する→する：00392_suru⟧ (to forward an email)\n- ⟦{電話|でんわ}→電話：01471_denwa⟧⟦を→を：00422_wo⟧{転送|てんそう}⟦する→する：00392_suru⟧ (to transfer a call)\n- ⟦{郵便|ゆうびん}→郵便：03803_yuubin⟧{転送|てんそう} (mail forwarding)\n- ⟦{自動|じどう}→自動：03339_jidou⟧{転送|てんそう} (auto-forwarding)\n- ⟦データ→データ：03944_deeta⟧⟦を→を：00422_wo⟧{転送|てんそう}⟦する→する：00392_suru⟧ (to transfer data)\n\nUSAGE:\nFor postal mail, the Japan Post Office offers a free {転送|てんそう} service that redirects mail from your old address to your new one for one year after moving. This is a very common practical use of the word.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "15004_gaisen",
+      "reading": "がいせん",
+      "headword": "{外線|がいせん}",
+      "label": "outside line"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25909_densou",
+      "reading": "でんそう",
+      "headword": "{伝送|でんそう}",
+      "label": "transmission"
+    }
+  ],
   "metadata": {
     "created": "2026-03-03T12:49:45Z",
-    "modified": "2026-03-29T03:08:18Z",
+    "modified": "2026-09-02T04:01:38Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -151,7 +166,8 @@
       "semantic": [
         "communication"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

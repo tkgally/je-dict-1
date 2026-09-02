@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "15694_shishagonyuu_ex1",
-      "japanese": "{小数点|しょうすうてん}{以下|いか}を{四捨五入|ししゃごにゅう}する。",
+      "japanese": "⟦{小数点|しょうすうてん}→小数点：30724_shousuuten⟧⟦{以下|いか}→以下：01294_ika⟧⟦を→を：00422_wo⟧{四捨五入|ししゃごにゅう}⟦する→する：00392_suru⟧。",
       "english": "Round off the decimal places.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "15694_shishagonyuu_ex2",
-      "japanese": "3.7を{四捨五入|ししゃごにゅう}すると4になる。",
+      "japanese": "3.7⟦を→を：00422_wo⟧{四捨五入|ししゃごにゅう}⟦する→する：00392_suru⟧⟦と→と：00512_to⟧4⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧。",
       "english": "3.7 rounded off becomes 4.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "15694_shishagonyuu_ex3",
-      "japanese": "{計算|けいさん}{結果|けっか}は{四捨五入|ししゃごにゅう}して{整数|せいすう}で{答|こた}えなさい。",
+      "japanese": "⟦{計算|けいさん}→計算：02697_keisan⟧⟦{結果|けっか}→結果：02486_kekka⟧⟦は→は：00079_ha⟧{四捨五入|ししゃごにゅう}⟦して→する：00392_suru⟧⟦{整数|せいすう}→整数：04328_seisuu⟧⟦で→で：00502_de⟧⟦{答|こた}え→答える：01099_kotaeru⟧⟦なさい→なさる：01307_nasaru⟧。",
       "english": "Round the calculation result and give the answer as a whole number.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "ETYMOLOGY:\nLiterally \"{四|し}を{捨|す}て{五|ご}を{入|い}れる\" — discard (round down) at four, include (round up) at five. This four-character compound elegantly describes the standard rounding rule.\n\nGRAMMAR:\nUsed with する to form a verb: {四捨五入|ししゃごにゅう}する (to round off).\n\nCOMMON COLLOCATIONS:\n- {四捨五入|ししゃごにゅう}する (to round off)\n- {小数点|しょうすうてん}{以下|いか}を{四捨五入|ししゃごにゅう}する (to round off decimal places)\n\nSIMILAR WORDS:\n- {切|き}り{上|あ}げ: rounding up\n- {切|き}り{捨|す}て: rounding down, truncation",
+  "notes": "ETYMOLOGY:\nLiterally \"{四|し}⟦を→を：00422_wo⟧⟦{捨|す}て→捨てる：00892_suteru⟧⟦{五|ご}→五：00697_go⟧⟦を→を：00422_wo⟧⟦{入|い}れる→入れる：01098_ireru⟧\" — discard (round down) at four, include (round up) at five. This four-character compound elegantly describes the standard rounding rule.\n\nCOMMON PATTERNS:\nUsed with ⟦する→する：00392_suru⟧ to form a verb: {四捨五入|ししゃごにゅう}⟦する→する：00392_suru⟧ (to round off).\n\nCOMMON COLLOCATIONS:\n- {四捨五入|ししゃごにゅう}⟦する→する：00392_suru⟧ (to round off)\n- ⟦{小数点|しょうすうてん}→小数点：30724_shousuuten⟧⟦{以下|いか}→以下：01294_ika⟧⟦を→を：00422_wo⟧{四捨五入|ししゃごにゅう}⟦する→する：00392_suru⟧ (to round off decimal places)\n\nSIMILAR WORDS:\n- ⟦{切|き}り{上|あ}げ→切り上げ：24460_kiriage⟧: rounding up\n- ⟦{切|き}り{捨|す}て→切り捨て：20189_kirisute⟧: rounding down, truncation",
   "cross_references": [
     {
       "type": "contrast",
@@ -149,11 +149,32 @@
       "reading": "きりすて",
       "headword": "{切|き}り{捨|す}て",
       "label": "rounding down"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05747_kirisuteru",
+      "reading": "きりすてる",
+      "headword": "{切|き}り{捨|す}てる",
+      "label": "to cut down, to discard"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24883_gaisuu",
+      "reading": "がいすう",
+      "headword": "{概数|がいすう}",
+      "label": "approximate number"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27356_shousuu",
+      "reading": "しょうすう",
+      "headword": "{小数|しょうすう}",
+      "label": "decimal"
     }
   ],
   "metadata": {
     "created": "2026-03-08T07:37:27Z",
-    "modified": "2026-07-17T12:56:16Z",
+    "modified": "2026-09-02T04:01:42Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -166,7 +187,8 @@
       "semantic": [
         "number"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

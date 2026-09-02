@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "15524_fukahi_ex1",
-      "japanese": "{衝突|しょうとつ}は{不可避|ふかひ}だった。",
+      "japanese": "⟦{衝突|しょうとつ}→衝突：03235_shoutotsu⟧⟦は→は：00079_ha⟧{不可避|ふかひ}だった。",
       "english": "The collision was unavoidable.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "15524_fukahi_ex2",
-      "japanese": "{少子化|しょうしか}による{人口|じんこう}{減少|げんしょう}は{不可避|ふかひ}だ。",
+      "japanese": "⟦{少子化|しょうしか}→少子化：04807_shoushika⟧⟦による→による：28349_niyoru⟧⟦{人口|じんこう}{減少|げんしょう}→人口減少：24385_jinkougenshou⟧⟦は→は：00079_ha⟧{不可避|ふかひ}だ。",
       "english": "Population decline due to the falling birthrate is inevitable.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "15524_fukahi_ex3",
-      "japanese": "テクノロジーの{進化|しんか}に{伴|ともな}う{社会|しゃかい}{変化|へんか}は{不可避|ふかひ}であり、{対応策|たいおうさく}を{考|かんが}えるべきだ。",
+      "japanese": "⟦テクノロジー→テクノロジー：11587_tekunorojii⟧⟦の→の：09472_no⟧⟦{進化|しんか}→進化：06029_shinka⟧⟦に→に：00314_ni⟧⟦{伴|ともな}う→伴う：10389_tomonau⟧⟦{社会|しゃかい}→社会：01427_shakai⟧⟦{変化|へんか}→変化：03615_henka⟧⟦は→は：00079_ha⟧{不可避|ふかひ}で⟦あり→ある：00006_aru⟧、{対応策|たいおうさく}⟦を→を：00422_wo⟧⟦{考|かんが}える→考える：00856_kangaeru⟧べきだ。",
       "english": "Social change accompanying technological evolution is inevitable, and we should consider countermeasures.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,33 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{不可避|ふかひ} is a formal, written-style word. In everyday conversation, {避|さ}けられない is more natural. {不可避|ふかひ} appears frequently in news, essays, and academic writing.\n\nCOMMON COLLOCATIONS:\n- {不可避|ふかひ}な{事態|じたい} (an unavoidable situation)\n- {不可避|ふかひ}の{結果|けっか} (an inevitable result)\n- {不可避|ふかひ}{的|てき}に (inevitably)\n\nGRAMMAR:\nFunctions as a noun or na-adjective ({不可避|ふかひ}な). The adverbial form {不可避|ふかひ}{的|てき}に is also used.",
-  "cross_references": [],
+  "notes": "USAGE:\n{不可避|ふかひ} is a formal, written-style word. In everyday conversation, ⟦{避|さ}けられない→避ける：02109_sakeru⟧ is more natural. {不可避|ふかひ} appears frequently in news, essays, and academic writing.\n\nCOMMON COLLOCATIONS:\n- {不可避|ふかひ}な⟦{事態|じたい}→事態：10151_jitai⟧ (an unavoidable situation)\n- {不可避|ふかひ}⟦の→の：09472_no⟧⟦{結果|けっか}→結果：02486_kekka⟧ (an inevitable result)\n- {不可避|ふかひ}⟦{的|てき}→〜的：09839_teki⟧⟦に→に：00314_ni⟧ (inevitably)\n\nCOMMON PATTERNS:\nFunctions as a noun or na-adjective ({不可避|ふかひ}な). The adverbial form {不可避|ふかひ}⟦{的|てき}→〜的：09839_teki⟧⟦に→に：00314_ni⟧ is also used.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17334_hitsuzentekini",
+      "reading": "ひつぜんてきに",
+      "headword": "{必然的|ひつぜんてき}に",
+      "label": "inevitably"
+    },
+    {
+      "type": "related",
+      "target_id": "18497_hitsuzenteki",
+      "reading": "ひつぜんてき",
+      "headword": "{必然的|ひつぜんてき}",
+      "label": "inevitable"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25629_sakerarenai",
+      "reading": "さけられない",
+      "headword": "{避|さ}けられない",
+      "label": "unavoidable"
+    }
+  ],
   "metadata": {
     "created": "2026-03-07T09:34:07Z",
-    "modified": "2026-04-10T07:12:46Z",
+    "modified": "2026-09-02T04:01:41Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

@@ -15,41 +15,66 @@
   "examples": [
     {
       "id": "15380_wagasa_ex1",
-      "japanese": "{和傘|わがさ}を{差|さ}す。",
+      "japanese": "{和傘|わがさ}⟦を→を：00422_wo⟧⟦{差|さ}す→差す：17637_sasu⟧。",
       "english": "To hold up a Japanese umbrella.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15380_wagasa_ex2",
-      "japanese": "{京都|きょうと}の{土産|みやげ}に{和傘|わがさ}を{買|か}った。",
+      "japanese": "⟦{京都|きょうと}→京都：09484_kyouto⟧⟦の→の：09472_no⟧⟦{土産|みやげ}→土産：03746_miyage⟧⟦に→に：00314_ni⟧{和傘|わがさ}⟦を→を：00422_wo⟧⟦{買|か}った→買う：00489_kau⟧。",
       "english": "I bought a Japanese umbrella as a souvenir from Kyoto.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15380_wagasa_ex3",
-      "japanese": "{赤|あか}い{和傘|わがさ}が{庭|にわ}に{飾|かざ}られていて、とても{風情|ふぜい}がある。",
+      "japanese": "⟦{赤|あか}い→赤い：00585_akai⟧{和傘|わがさ}⟦が→が：00051_ga⟧⟦{庭|にわ}→庭：02239_niwa⟧⟦に→に：00314_ni⟧⟦{飾|かざ}られていて→飾る：01185_kazaru⟧、⟦とても→とても：00593_totemo⟧⟦{風情|ふぜい}→風情：09057_fuzei⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "Red Japanese umbrellas are displayed in the garden, creating a very elegant atmosphere.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\n{和傘|わがさ} contrasts with {洋傘|ようがさ} (Western umbrella). In modern Japan, {和傘|わがさ} are primarily decorative or used in traditional arts, tea ceremonies, and festivals rather than as everyday rain gear.\n\nCOMMON COLLOCATIONS:\n- {和傘|わがさ}を{差|さ}す (to hold up a Japanese umbrella)\n- {和傘|わがさ}を{開|ひら}く (to open a Japanese umbrella)\n- {番傘|ばんがさ} (a common type of plain Japanese umbrella)\n- {蛇|じゃ}の{目|め}{傘|がさ} (bull's-eye pattern umbrella)",
-  "cross_references": [],
+  "notes": "USAGE:\n{和傘|わがさ} contrasts with {洋傘|ようがさ} (Western umbrella). In modern Japan, {和傘|わがさ} are primarily decorative or used in traditional arts, tea ceremonies, and festivals rather than as everyday rain gear.\n\nCOMMON COLLOCATIONS:\n- {和傘|わがさ}⟦を→を：00422_wo⟧⟦{差|さ}す→差す：17637_sasu⟧ (to hold up a Japanese umbrella)\n- {和傘|わがさ}⟦を→を：00422_wo⟧⟦{開|ひら}く→開く：01979_hiraku⟧ (to open a Japanese umbrella)\n- ⟦{番傘|ばんがさ}→番傘：06295_bangasa⟧ (a common type of plain Japanese umbrella)\n- ⟦{蛇|じゃ}の{目|め}{傘|がさ}→蛇の目傘：06452_janomegasa⟧ (bull's-eye pattern umbrella)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "06452_janomegasa",
+      "reading": "じゃのめがさ",
+      "headword": "{蛇|じゃ}の{目傘|めがさ}",
+      "label": "traditional Japanese paper umbrella"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29782_karakasa",
+      "reading": "からかさ",
+      "headword": "唐傘",
+      "label": "traditional oiled-paper umbrella"
+    }
+  ],
   "metadata": {
     "created": "2026-03-06T12:29:45Z",
-    "modified": "2026-07-16T12:18:52Z",
+    "modified": "2026-09-02T04:01:41Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["tool"]
+      "semantic": [
+        "tool"
+      ]
     }
   }
 }

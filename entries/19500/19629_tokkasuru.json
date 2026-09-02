@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "19629_tokkasuru_ex1",
-      "japanese": "この{店|みせ}はカレーに{特化|とっか}している。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{店|みせ}→店：00497_mise⟧⟦は→は：00079_ha⟧⟦カレー→カレー：02898_karee⟧⟦に→に：00314_ni⟧{特化|とっか}して⟦いる→いる：00495_iru⟧。",
       "english": "This restaurant specializes in curry.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "19629_tokkasuru_ex2",
-      "japanese": "セキュリティに{特化|とっか}したソフトウェア。",
+      "japanese": "⟦セキュリティ→セキュリティ：04867_sekyuriti⟧⟦に→に：00314_ni⟧{特化|とっか}した⟦ソフトウェア→ソフトウェア：04719_sofutowea⟧。",
       "english": "Software specialized for security.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "19629_tokkasuru_ex3",
-      "japanese": "あの{会社|かいしゃ}は{医療|いりょう}{分野|ぶんや}に{特化|とっか}したサービスを{提供|ていきょう}している。",
+      "japanese": "⟦あの→あの：00915_ano⟧⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦は→は：00079_ha⟧⟦{医療|いりょう}→医療：01836_iryou⟧⟦{分野|ぶんや}→分野：03612_bunya⟧⟦に→に：00314_ni⟧{特化|とっか}した⟦サービス→サービス：01531_saabisu⟧⟦を→を：00422_wo⟧⟦{提供|ていきょう}している→提供する：21736_teikyousuru⟧。",
       "english": "That company provides services specialized in the medical field.",
       "sense_numbers": [
         1
@@ -134,11 +134,19 @@
       "notes": null
     }
   ],
-  "notes": "Very common in business and technology contexts. Often used in the pattern ～に{特化|とっか}した (specialized for ~). Carries a positive nuance of expertise and focus.\n\nCOMMON COLLOCATIONS:\n- ～に{特化|とっか}した{製品|せいひん}: a product specialized for ~\n- ～に{特化|とっか}した{企業|きぎょう}: a company specializing in ~\n- {特化|とっか}した{機能|きのう}: specialized function\n- {特化|とっか}{型|がた}: specialized type\n\nSIMILAR WORDS:\n- {専門|せんもん}: specialty, expertise — a noun describing a field of specialization\n- {特化|とっか}する: to specialize — verb emphasizing the act of narrowing focus to one area",
-  "cross_references": [],
+  "notes": "Very common in business and technology contexts. Often used in the pattern ～⟦に→に：00314_ni⟧{特化|とっか}した (specialized for ~). Carries a positive nuance of expertise and focus.\n\nCOMMON COLLOCATIONS:\n- ～⟦に→に：00314_ni⟧{特化|とっか}した⟦{製品|せいひん}→製品：01445_seihin⟧: a product specialized for ~\n- ～⟦に→に：00314_ni⟧{特化|とっか}した⟦{企業|きぎょう}→企業：00225_kigyou⟧: a company specializing in ~\n- {特化|とっか}した⟦{機能|きのう}→機能：13165_kinou⟧: specialized function\n- ⟦{特化|とっか}→特化：13470_tokka⟧{型|がた}: specialized type\n\nSIMILAR WORDS:\n- ⟦{専門|せんもん}→専門：01251_senmon⟧: specialty, expertise — a noun describing a field of specialization\n- {特化|とっか}する: to specialize — verb emphasizing the act of narrowing focus to one area",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01251_senmon",
+      "reading": "せんもん",
+      "headword": "{専門|せんもん}",
+      "label": "specialty, expertise"
+    }
+  ],
   "metadata": {
     "created": "2026-03-26T09:34:26Z",
-    "modified": "2026-03-29T03:08:58Z",
+    "modified": "2026-09-02T04:01:56Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

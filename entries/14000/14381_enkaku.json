@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "14381_enkaku_ex1",
-      "japanese": "{遠隔|えんかく}{操作|そうさ}でエアコンをつけた。",
+      "japanese": "{遠隔|えんかく}{操作|そうさ}⟦で→で：00502_de⟧⟦エアコン→エアコン：05282_eakon⟧⟦を→を：00422_wo⟧⟦つけた→つける：00562_tsukeru⟧。",
       "english": "I turned on the air conditioner by remote control.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "14381_enkaku_ex2",
-      "japanese": "{遠隔|えんかく}{授業|じゅぎょう}が{増|ふ}えている。",
+      "japanese": "{遠隔|えんかく}⟦{授業|じゅぎょう}→授業：00781_jugyou⟧⟦が→が：00051_ga⟧⟦{増|ふ}えている→増える：01183_fueru⟧。",
       "english": "Remote classes are increasing.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "14381_enkaku_ex3",
-      "japanese": "{遠隔|えんかく}{地|ち}にある{病院|びょういん}では、{専門医|せんもんい}とオンラインで{相談|そうだん}できる{遠隔|えんかく}{医療|いりょう}が{役|やく}に{立|た}っている。",
+      "japanese": "{遠隔|えんかく}{地|ち}⟦に→に：00314_ni⟧⟦ある→ある：00006_aru⟧⟦{病院|びょういん}→病院：00577_byouin⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧、{専門医|せんもんい}⟦と→と：00512_to⟧⟦オンライン→オンライン：05278_onrain⟧⟦で→で：00502_de⟧⟦{相談|そうだん}できる→相談する：01845_soudansuru⟧{遠隔|えんかく}{医療|いりょう}⟦が→が：00051_ga⟧⟦{役|やく}に{立|た}っている→役に立つ：01130_yakunitatsu⟧。",
       "english": "At hospitals in remote areas, telemedicine for online consultations with specialists has proven useful.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,19 @@
       ]
     }
   ],
-  "notes": "USAGE NOTES:\n{遠隔|えんかく} is primarily used as a prefix or modifier in compound words. It became especially common during and after the COVID-19 pandemic with the rise of remote work and online education.\n\nCOMMON COLLOCATIONS:\n- {遠隔|えんかく}{操作|そうさ} (remote control/operation)\n- {遠隔|えんかく}{授業|じゅぎょう} (remote class, distance learning)\n- {遠隔|えんかく}{医療|いりょう} (telemedicine)\n- {遠隔|えんかく}{地|ち} (remote area)\n- {遠隔|えんかく}{会議|かいぎ} (remote conference)\n- {遠隔|えんかく}{勤務|きんむ} (remote work)\n\nNote: Do not confuse with the homophone {沿革|えんかく} (history, development).",
-  "cross_references": [],
+  "notes": "USAGE:\n{遠隔|えんかく} is primarily used as a prefix or modifier in compound words. It became especially common during and after the COVID-19 pandemic with the rise of remote work and online education.\n\nCOMMON COLLOCATIONS:\n- {遠隔|えんかく}{操作|そうさ} (remote control/operation)\n- {遠隔|えんかく}⟦{授業|じゅぎょう}→授業：00781_jugyou⟧ (remote class, distance learning)\n- {遠隔|えんかく}{医療|いりょう} (telemedicine)\n- {遠隔|えんかく}{地|ち} (remote area)\n- {遠隔|えんかく}{会議|かいぎ} (remote conference)\n- {遠隔|えんかく}⟦{勤務|きんむ}→勤務：04545_kinmu⟧ (remote work)\n\nNote: Do not confuse with the homophone ⟦{沿革|えんかく}→沿革：06786_enkaku⟧ (history, development).",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19464_enpou",
+      "reading": "えんぽう",
+      "headword": "{遠方|えんぽう}",
+      "label": "distant place"
+    }
+  ],
   "metadata": {
     "created": "2026-02-28T13:12:54Z",
-    "modified": "2026-02-28T13:12:54Z",
+    "modified": "2026-09-02T04:01:37Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

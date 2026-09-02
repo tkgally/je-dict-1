@@ -3,7 +3,7 @@
   "headword": "{総辞職|そうじしょく}",
   "reading": "そうじしょく",
   "romaji": "soujishoku",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "mass resignation; en bloc resignation (of a cabinet)",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28856_soujishoku_ex1",
-      "japanese": "{内閣|ないかく}が{総辞職|そうじしょく}した。",
+      "japanese": "⟦{内閣|ないかく}→内閣：04800_naikaku⟧⟦が→が：00051_ga⟧{総辞職|そうじしょく}⟦した→する：00392_suru⟧。",
       "english": "The cabinet resigned en masse.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28856_soujishoku_ex2",
-      "japanese": "{首相|しゅしょう}は{総辞職|そうじしょく}を{表明|ひょうめい}した。",
+      "japanese": "⟦{首相|しゅしょう}→首相：03217_shushou⟧⟦は→は：00079_ha⟧{総辞職|そうじしょく}⟦を→を：00422_wo⟧⟦{表明|ひょうめい}→表明：14052_hyoumei⟧⟦した→する：00392_suru⟧。",
       "english": "The prime minister announced the cabinet's en bloc resignation.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28856_soujishoku_ex3",
-      "japanese": "{選挙|せんきょ}での{大敗|たいはい}を{受|う}けて{内閣|ないかく}は{総辞職|そうじしょく}を{余儀|よぎ}なくされた。",
+      "japanese": "⟦{選挙|せんきょ}→選挙：03303_senkyo⟧⟦で→で：00502_de⟧⟦の→の：09472_no⟧⟦{大敗|たいはい}→大敗：08201_taihai⟧⟦を→を：00422_wo⟧⟦{受|う}けて→受ける：01215_ukeru⟧⟦{内閣|ないかく}→内閣：04800_naikaku⟧⟦は→は：00079_ha⟧{総辞職|そうじしょく}⟦を→を：00422_wo⟧⟦{余儀|よぎ}なく→余儀なく：28255_yoginaku⟧⟦された→する：00392_suru⟧。",
       "english": "Following a crushing defeat in the election, the cabinet was forced to resign en masse.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {総|そう} (whole, all) + {辞職|じしょく} (resignation). Most commonly refers to the formal en bloc resignation of the Japanese cabinet — a constitutional event that occurs after a major election loss or a vote of no confidence. Often used with する.\n\nCOMMON COLLOCATIONS:\n- {内閣|ないかく}{総辞職|そうじしょく}: cabinet en bloc resignation (a fixed term)\n- {総辞職|そうじしょく}する: to resign en masse\n- {総辞職|そうじしょく}に{追|お}い{込|こ}まれる: to be driven to mass resignation\n- {総辞職|そうじしょく}を{表明|ひょうめい}する: to announce mass resignation\n\nSIMILAR WORDS:\n- {辞職|じしょく}: resignation — a single person resigning a post\n- {退陣|たいじん}: stepping down — often used for a leader leaving office, with no implication of bringing the whole team down\n- {解散|かいさん}: dissolution — used for the Diet/parliament, not the cabinet",
+  "notes": "Compound of ⟦{総|そう}→総〜：03958_sou⟧ (whole, all) + ⟦{辞職|じしょく}→辞職：06157_jishoku⟧ (resignation). Most commonly refers to the formal en bloc resignation of the Japanese cabinet — a constitutional event that occurs after a major election loss or a vote of no confidence. Often used with ⟦する→する：00392_suru⟧.\n\nCOMMON COLLOCATIONS:\n- ⟦{内閣|ないかく}→内閣：04800_naikaku⟧{総辞職|そうじしょく}: cabinet en bloc resignation (a fixed term)\n- {総辞職|そうじしょく}⟦する→する：00392_suru⟧: to resign en masse\n- {総辞職|そうじしょく}⟦に→に：00314_ni⟧⟦{追|お}い{込|こ}まれる→追い込む：06371_oikomu⟧: to be driven to mass resignation\n- {総辞職|そうじしょく}⟦を→を：00422_wo⟧⟦{表明|ひょうめい}→表明：14052_hyoumei⟧⟦する→する：00392_suru⟧: to announce mass resignation\n\nSIMILAR WORDS:\n- ⟦{辞職|じしょく}→辞職：06157_jishoku⟧: resignation — a single person resigning a post\n- ⟦{退陣|たいじん}→退陣：25312_taijin⟧: stepping down — often used for a leader leaving office, with no implication of bringing the whole team down\n- ⟦{解散|かいさん}→解散：04121_kaisan⟧: dissolution — used for the Diet/parliament, not the cabinet",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25312_taijin",
+      "reading": "たいじん",
+      "headword": "{退陣|たいじん}",
+      "label": "stepping down"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04121_kaisan",
+      "reading": "かいさん",
+      "headword": "{解散|かいさん}",
+      "label": "dissolution"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -54,7 +70,7 @@
         "verb-suru"
       ],
       "formality": "formal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "politics",
         "work"
@@ -63,7 +79,7 @@
       "verb_class": "suru"
     },
     "created": "2026-06-06T03:12:29Z",
-    "modified": "2026-06-06T03:12:29Z"
+    "modified": "2026-09-02T04:02:35Z"
   },
   "conjugation": {
     "type": "suru",

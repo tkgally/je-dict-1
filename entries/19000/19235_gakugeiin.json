@@ -15,40 +15,68 @@
   "examples": [
     {
       "id": "19235_gakugeiin_ex1",
-      "japanese": "{学芸員|がくげいいん}の{資格|しかく}を{取|と}る。",
+      "japanese": "{学芸員|がくげいいん}⟦の→の：09472_no⟧⟦{資格|しかく}→資格：02834_shikaku⟧⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧。",
       "english": "To obtain a curator's qualification.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19235_gakugeiin_ex2",
-      "japanese": "{学芸員|がくげいいん}が{展示|てんじ}の{解説|かいせつ}をしてくれた。",
+      "japanese": "{学芸員|がくげいいん}⟦が→が：00051_ga⟧⟦{展示|てんじ}→展示：12401_tenji⟧⟦の→の：09472_no⟧⟦{解説|かいせつ}→解説：00138_kaisetsu⟧⟦を→を：00422_wo⟧⟦して→する：00392_suru⟧⟦くれた→くれる：00724_kureru⟧。",
       "english": "A curator gave us an explanation of the exhibit.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19235_gakugeiin_ex3",
-      "japanese": "{美術館|びじゅつかん}の{学芸員|がくげいいん}として{働|はたら}くには、{専門|せんもん}の{知識|ちしき}が{必要|ひつよう}だ。",
+      "japanese": "⟦{美術館|びじゅつかん}→美術館：01717_bijutsukan⟧⟦の→の：09472_no⟧{学芸員|がくげいいん}⟦として→として：06802_toshite⟧⟦{働|はたら}く→働く：00503_hataraku⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧、⟦{専門|せんもん}→専門：01251_senmon⟧⟦の→の：09472_no⟧⟦{知識|ちしき}→知識：01463_chishiki⟧⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧だ。",
       "english": "Working as a curator at an art museum requires specialized knowledge.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "WORD FORMATION:\n{学芸|がくげい} (arts and sciences) + {員|いん} (member/staff)\n\nQUALIFICATION:\nThe {学芸員|がくげいいん} certification is defined by the {博物館法|はくぶつかんほう} (Museum Act) and requires completing designated university courses. It is a national qualification specific to Japan.\n\nRELATED TERMS:\n- {学芸員|がくげいいん}{補|ほ}: assistant curator (lower-level qualification)\n- キュレーター: curator (from English, used especially in contemporary art)\n- {博物館|はくぶつかん}: museum\n- {美術館|びじゅつかん}: art museum/gallery\n\nUSAGE:\n{学芸員|がくげいいん} work in {博物館|はくぶつかん}, {美術館|びじゅつかん}, {科学館|かがくかん}, and other cultural institutions. Their duties include collection management, exhibition planning, research, and public education.",
+  "notes": "FORMS:\n⟦{学芸|がくげい}→学芸：24091_gakugei⟧ (arts and sciences) + {員|いん} (member/staff)\n\nQUALIFICATION:\nThe {学芸員|がくげいいん} certification is defined by the {博物館法|はくぶつかんほう} (Museum Act) and requires completing designated university courses. It is a national qualification specific to Japan.\n\nRELATED WORDS:\n- {学芸員|がくげいいん}{補|ほ}: assistant curator (lower-level qualification)\n- キュレーター: curator (from English, used especially in contemporary art)\n- ⟦{博物館|はくぶつかん}→博物館：01494_hakubutsukan⟧: museum\n- ⟦{美術館|びじゅつかん}→美術館：01717_bijutsukan⟧: art museum/gallery\n\nUSAGE:\n{学芸員|がくげいいん} work in ⟦{博物館|はくぶつかん}→博物館：01494_hakubutsukan⟧, ⟦{美術館|びじゅつかん}→美術館：01717_bijutsukan⟧, ⟦{科学館|かがくかん}→科学館：27917_kagakukan⟧, and other cultural institutions. Their duties include collection management, exhibition planning, research, and public education.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "01494_hakubutsukan",
+      "reading": "はくぶつかん",
+      "headword": "{博物館|はくぶつかん}",
+      "label": "museum"
+    },
+    {
+      "type": "related",
+      "target_id": "01717_bijutsukan",
+      "reading": "びじゅつかん",
+      "headword": "{美術館|びじゅつかん}",
+      "label": "art museum/gallery"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["person", "work", "culture"]
+      "semantic": [
+        "person",
+        "work",
+        "culture"
+      ]
     },
     "created": "2026-03-25T01:38:29Z",
-    "modified": "2026-03-30T06:07:33Z"
+    "modified": "2026-09-02T04:01:55Z"
   }
 }

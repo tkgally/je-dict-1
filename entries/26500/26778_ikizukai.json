@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26778_ikizukai_ex1",
-      "japanese": "{荒|あら}い{息遣|いきづか}いが{聞|き}こえた。",
+      "japanese": "⟦{荒|あら}い→荒い：00466_arai⟧{息遣|いきづか}い⟦が→が：00051_ga⟧⟦{聞|き}こえた→聞こえる：01229_kikoeru⟧。",
       "english": "I could hear rough breathing.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26778_ikizukai_ex2",
-      "japanese": "{電話|でんわ}の{向|む}こうで{彼|かれ}の{息遣|いきづか}いだけが{聞|き}こえる。",
+      "japanese": "⟦{電話|でんわ}→電話：01471_denwa⟧⟦の→の：09472_no⟧{向|む}こう⟦で→で：00502_de⟧⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧{息遣|いきづか}い⟦だけ→〜だけ：03093_dake⟧⟦が→が：00051_ga⟧⟦{聞|き}こえる→聞こえる：01229_kikoeru⟧。",
       "english": "I can only hear his breathing on the other end of the phone.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26778_ikizukai_ex3",
-      "japanese": "{寝|ね}ている{赤|あか}ちゃんの{穏|おだ}やかな{息遣|いきづか}いに{安心|あんしん}した。",
+      "japanese": "⟦{寝|ね}ている→寝る：00470_neru⟧⟦{赤|あか}ちゃん→赤ちゃん：01282_akachan⟧⟦の→の：09472_no⟧⟦{穏|おだ}やか→穏やか：02353_odayaka⟧な{息遣|いきづか}い⟦に→に：00314_ni⟧⟦{安心|あんしん}した→安心する：06067_anshinsuru⟧。",
       "english": "I felt relieved hearing the sleeping baby's calm breathing.",
       "sense_numbers": [
         1
@@ -44,8 +44,23 @@
       "notes": null
     }
   ],
-  "notes": "Refers not just to the biological act of breathing but to the audible or perceptible quality of someone's breath. Often used in literary or descriptive contexts to convey emotion, tension, or intimacy.\n\nCOMMON COLLOCATIONS:\n- {荒|あら}い{息遣|いきづか}い: rough/heavy breathing\n- {穏|おだ}やかな{息遣|いきづか}い: calm breathing\n- {息遣|いきづか}いが{聞|き}こえる: to hear someone's breathing\n- {息遣|いきづか}いを{感|かん}じる: to sense someone's breathing\n\nSIMILAR WORDS:\n- {呼吸|こきゅう}: respiration — more clinical/scientific; refers to the biological function\n- {息|いき}: breath — the basic word; neutral and general\n- {吐息|といき}: sigh — specifically an exhaled breath expressing emotion",
-  "cross_references": [],
+  "notes": "Refers not just to the biological act of breathing but to the audible or perceptible quality of someone's breath. Often used in literary or descriptive contexts to convey emotion, tension, or intimacy.\n\nCOMMON COLLOCATIONS:\n- ⟦{荒|あら}い→荒い：00466_arai⟧{息遣|いきづか}い: rough/heavy breathing\n- ⟦{穏|おだ}やか→穏やか：02353_odayaka⟧な{息遣|いきづか}い: calm breathing\n- {息遣|いきづか}い⟦が→が：00051_ga⟧⟦{聞|き}こえる→聞こえる：01229_kikoeru⟧: to hear someone's breathing\n- {息遣|いきづか}い⟦を→を：00422_wo⟧⟦{感|かん}じる→感じる：02044_kanjiru⟧: to sense someone's breathing\n\nSIMILAR WORDS:\n- ⟦{呼吸|こきゅう}→呼吸：02754_kokyuu⟧: respiration — more clinical/scientific; refers to the biological function\n- ⟦{息|いき}→息：02176_iki⟧: breath — the basic word; neutral and general\n- ⟦{吐息|といき}→吐息：20038_toiki⟧: sigh — specifically an exhaled breath expressing emotion",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02754_kokyuu",
+      "reading": "こきゅう",
+      "headword": "{呼吸|こきゅう}",
+      "label": "respiration"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20038_toiki",
+      "reading": "といき",
+      "headword": "{吐息|といき}",
+      "label": "sigh"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -61,6 +76,6 @@
       "domain": []
     },
     "created": "2026-05-05T11:04:15Z",
-    "modified": "2026-08-06T12:44:19Z"
+    "modified": "2026-09-02T04:02:27Z"
   }
 }

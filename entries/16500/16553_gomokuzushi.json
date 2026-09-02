@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "16553_gomokuzushi_ex1",
-      "japanese": "お{祝|いわ}いに{五目寿司|ごもくずし}を{作|つく}った。",
+      "japanese": "⟦お{祝|いわ}い→お祝い：01339_oiwai⟧⟦に→に：00314_ni⟧{五目寿司|ごもくずし}⟦を→を：00422_wo⟧⟦{作|つく}った→作る：00481_tsukuru⟧。",
       "english": "I made mixed sushi for the celebration.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16553_gomokuzushi_ex2",
-      "japanese": "{母|はは}の{五目寿司|ごもくずし}は{具|ぐ}だくさんで{美味|おい}しい。",
+      "japanese": "⟦{母|はは}→母：00549_haha⟧⟦の→の：09472_no⟧{五目寿司|ごもくずし}⟦は→は：00079_ha⟧⟦{具|ぐ}だくさん→具だくさん：15063_gudakusan⟧で⟦{美味|おい}しい→美味しい：00740_oishii⟧。",
       "english": "My mother's mixed sushi is full of toppings and delicious.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16553_gomokuzushi_ex3",
-      "japanese": "ひな{祭|まつ}りには{五目寿司|ごもくずし}を{食|た}べる{家庭|かてい}が{多|おお}い。",
+      "japanese": "⟦ひな{祭|まつ}り→ひな祭り：10517_hinamatsuri⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{五目寿司|ごもくずし}⟦を→を：00422_wo⟧⟦{食|た}べる→食べる：00396_taberu⟧⟦{家庭|かてい}→家庭：12315_katei⟧⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "Many families eat mixed sushi on Girls' Day.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\n{五目|ごもく} means 'five kinds' but in practice refers to 'assorted' or 'various.' {五目寿司|ごもくずし} is essentially the same dish as ちらし{寿司|ずし} (scattered sushi), though {五目寿司|ごもくずし} tends to emphasize the mixed-in ingredients while ちらし{寿司|ずし} emphasizes toppings arranged on top. A popular home-cooked dish for celebrations, especially ひな{祭|まつ}り (Girls' Day).\n\nCOMMON COLLOCATIONS:\n- {五目寿司|ごもくずし}を{作|つく}る (to make mixed sushi)\n- {五目寿司|ごもくずし}の{具|ぐ} (mixed sushi toppings/ingredients)\n\nSIMILAR WORDS:\n- ちらし{寿司|ずし}: scattered sushi — very similar; toppings arranged on top of rice\n- {五目|ごもく}ご{飯|はん}: mixed rice — rice cooked with various ingredients (not sushi)\n- {手巻|てま}き{寿司|ずし}: hand-rolled sushi — a different interactive sushi style",
+  "notes": "USAGE:\n⟦{五目|ごもく}→五目：11474_gomoku⟧ means 'five kinds' but in practice refers to 'assorted' or 'various.' {五目寿司|ごもくずし} is essentially the same dish as ⟦ちらし{寿司|ずし}→ちらし寿司：10513_chirashizushi⟧ (scattered sushi), though {五目寿司|ごもくずし} tends to emphasize the mixed-in ingredients while ⟦ちらし{寿司|ずし}→ちらし寿司：10513_chirashizushi⟧ emphasizes toppings arranged on top. A popular home-cooked dish for celebrations, especially ⟦ひな{祭|まつ}り→ひな祭り：10517_hinamatsuri⟧ (Girls' Day).\n\nCOMMON COLLOCATIONS:\n- {五目寿司|ごもくずし}⟦を→を：00422_wo⟧⟦{作|つく}る→作る：00481_tsukuru⟧ (to make mixed sushi)\n- {五目寿司|ごもくずし}⟦の→の：09472_no⟧⟦{具|ぐ}→具：07857_gu⟧ (mixed sushi toppings/ingredients)\n\nSIMILAR WORDS:\n- ⟦ちらし{寿司|ずし}→ちらし寿司：10513_chirashizushi⟧: scattered sushi — very similar; toppings arranged on top of rice\n- ⟦{五目|ごもく}→五目：11474_gomoku⟧⟦ご{飯|はん}→ご飯：00776_gohan⟧: mixed rice — rice cooked with various ingredients (not sushi)\n- ⟦{手巻|てま}き{寿司|ずし}→手巻き寿司：15996_temakizushi⟧: hand-rolled sushi — a different interactive sushi style",
   "cross_references": [
     {
       "type": "synonym",
@@ -46,18 +52,29 @@
       "reading": "ちらしずし",
       "headword": "ちらし{寿司|ずし}",
       "label": "scattered sushi"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15996_temakizushi",
+      "reading": "てまきずし",
+      "headword": "{手巻|てま}き{寿司|ずし}",
+      "label": "hand-rolled sushi"
     }
   ],
   "metadata": {
     "created": "2026-03-13T06:51:35Z",
-    "modified": "2026-05-04T07:39:45Z",
+    "modified": "2026-09-02T04:01:45Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food"]
+      "semantic": [
+        "food"
+      ]
     }
   }
 }

@@ -3,7 +3,7 @@
   "headword": "{暗譜|あんぷ}",
   "reading": "あんぷ",
   "romaji": "anpu",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "playing from memory; memorizing a musical score",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "18922_anpu_ex1",
-      "japanese": "この{曲|きょく}を{暗譜|あんぷ}した。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{曲|きょく}→曲：09881_kyoku⟧⟦を→を：00422_wo⟧{暗譜|あんぷ}⟦した→する：00392_suru⟧。",
       "english": "I memorized this piece.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "18922_anpu_ex2",
-      "japanese": "{暗譜|あんぷ}で{演奏|えんそう}するのは{緊張|きんちょう}する。",
+      "japanese": "{暗譜|あんぷ}⟦で→で：00502_de⟧⟦{演奏|えんそう}する→演奏する：20349_ensousuru⟧⟦の→の：09472_no⟧⟦は→は：00079_ha⟧⟦{緊張|きんちょう}する→緊張する：20557_kinchousuru⟧。",
       "english": "Performing from memory makes me nervous.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "18922_anpu_ex3",
-      "japanese": "コンクールでは{全曲|ぜんきょく}{暗譜|あんぷ}が{求|もと}められることが{多|おお}い。",
+      "japanese": "⟦コンクール→コンクール：28795_konkuuru⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧{全曲|ぜんきょく}{暗譜|あんぷ}⟦が→が：00051_ga⟧⟦{求|もと}められる→求める：02316_motomeru⟧こと⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "In competitions, memorizing all pieces is often required.",
       "sense_numbers": [
         1
@@ -134,7 +134,7 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {暗|あん} (memorization, by heart) + {譜|ふ} (musical score). Takes する to form a verb: {暗譜|あんぷ}する (to memorize a piece of music). Common collocations: {暗譜|あんぷ}で{弾|ひ}く (to play from memory), {暗譜|あんぷ}で{演奏|えんそう}する (to perform from memory). In classical piano and violin recitals, {暗譜|あんぷ} is generally expected. Related: {暗記|あんき} (memorization — general), {楽譜|がくふ} (sheet music).",
+  "notes": "Composed of {暗|あん} (memorization, by heart) + {譜|ふ} (musical score). Takes ⟦する→する：00392_suru⟧ to form a verb: {暗譜|あんぷ}⟦する→する：00392_suru⟧ (to memorize a piece of music). Common collocations: {暗譜|あんぷ}⟦で→で：00502_de⟧⟦{弾|ひ}く→弾く：02444_hiku⟧ (to play from memory), {暗譜|あんぷ}⟦で→で：00502_de⟧⟦{演奏|えんそう}する→演奏する：20349_ensousuru⟧ (to perform from memory). In classical piano and violin recitals, {暗譜|あんぷ} is generally expected. Related: ⟦{暗記|あんき}→暗記：01701_anki⟧ (memorization — general), ⟦{楽譜|がくふ}→楽譜：06987_gakufu⟧ (sheet music).",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -148,9 +148,10 @@
       "semantic": [
         "leisure"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-03-23T09:29:00Z",
-    "modified": "2026-03-23T09:29:00Z"
+    "modified": "2026-09-02T04:01:54Z"
   }
 }

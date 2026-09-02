@@ -43,11 +43,54 @@
       ]
     }
   ],
-  "notes": "{石油|せきゆ} means petroleum or crude oil, a major energy source.\n\nKANJI:\n⟦{石|せき}→石：02177_ishi⟧ (stone) + ⟦{油|ゆ}→油：01693_abura⟧ (oil) - \"stone oil\" (oil from the ground).\n\nCOMMON COMPOUNDS:\n- {石油|せきゆ}⟦{会社|がいしゃ}→会社：00607_kaisha⟧: oil company\n- {石油|せきゆ}⟦{価格|かかく}→価格：00147_kakaku⟧: oil prices\n- {石油|せきゆ}⟦{製品|せいひん}→製品：01445_seihin⟧: petroleum products\n- {石油|せきゆ}⟦{産出|さんしゅつ}→産出：19750_sanshutsu⟧⟦{国|こく}→国：02204_kuni⟧: oil-producing country\n\nRELATED TERMS:\n- ⟦{灯油|とうゆ}→灯油：04071_touyu⟧: kerosene (for heating)\n- ⟦ガソリン→ガソリン：01346_gasorin⟧: gasoline\n- ⟦{原油|げんゆ}→原油：21637_genyu⟧: crude oil\n\nCONTEXT:\nJapan imports nearly all its {石油|せきゆ}, primarily from the Middle East. {石油|せきゆ}⟦ショック→ショック：03847_shokku⟧ (oil shock) refers to the 1970s oil crises.",
-  "cross_references": [],
+  "notes": "{石油|せきゆ} means petroleum or crude oil, a major energy source.\n\nWRITING:\n⟦{石|せき}→石：02177_ishi⟧ (stone) + ⟦{油|ゆ}→油：01693_abura⟧ (oil) - \"stone oil\" (oil from the ground).\n\nCOMPOUNDS:\n- {石油|せきゆ}⟦{会社|がいしゃ}→会社：00607_kaisha⟧: oil company\n- {石油|せきゆ}⟦{価格|かかく}→価格：00147_kakaku⟧: oil prices\n- {石油|せきゆ}⟦{製品|せいひん}→製品：01445_seihin⟧: petroleum products\n- {石油|せきゆ}⟦{産出|さんしゅつ}→産出：19750_sanshutsu⟧⟦{国|こく}→国：02204_kuni⟧: oil-producing country\n\nRELATED WORDS:\n- ⟦{灯油|とうゆ}→灯油：04071_touyu⟧: kerosene (for heating)\n- ⟦ガソリン→ガソリン：01346_gasorin⟧: gasoline\n- ⟦{原油|げんゆ}→原油：21637_genyu⟧: crude oil\n\nUSAGE:\nJapan imports nearly all its {石油|せきゆ}, primarily from the Middle East. {石油|せきゆ}⟦ショック→ショック：03847_shokku⟧ (oil shock) refers to the 1970s oil crises.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "04071_touyu",
+      "reading": "とうゆ",
+      "headword": "{灯油|とうゆ}",
+      "label": "kerosene"
+    },
+    {
+      "type": "related",
+      "target_id": "01346_gasorin",
+      "reading": "がそりん",
+      "headword": "ガソリン",
+      "label": "gasoline"
+    },
+    {
+      "type": "related",
+      "target_id": "21637_genyu",
+      "reading": "げんゆ",
+      "headword": "{原油|げんゆ}",
+      "label": "crude oil"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13461_nenryou",
+      "reading": "ねんりょう",
+      "headword": "{燃料|ねんりょう}",
+      "label": "fuel"
+    },
+    {
+      "type": "related",
+      "target_id": "21768_juuyu",
+      "reading": "じゅうゆ",
+      "headword": "{重油|じゅうゆ}",
+      "label": "heavy oil"
+    },
+    {
+      "type": "related",
+      "target_id": "23285_sanyukoku",
+      "reading": "さんゆこく",
+      "headword": "{産油国|さんゆこく}",
+      "label": "oil-producing country"
+    }
+  ],
   "metadata": {
     "created": "2026-01-08T12:31:47Z",
-    "modified": "2026-05-15T17:10:22Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

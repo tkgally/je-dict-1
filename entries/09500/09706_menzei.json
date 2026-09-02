@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "09706_menzei_ex1",
-      "japanese": "{免税|めんぜい}で{買|か}い{物|もの}ができる。",
+      "japanese": "{免税|めんぜい}⟦で→で：00502_de⟧⟦{買|か}い{物|もの}→買い物：00853_kaimono⟧⟦が→が：00051_ga⟧⟦できる→できる：00557_dekiru⟧。",
       "english": "You can shop tax-free.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "09706_menzei_ex2",
-      "japanese": "{免税|めんぜい}{手続|てつづ}きはどこでできますか。",
+      "japanese": "{免税|めんぜい}⟦{手続|てつづ}き→手続き：05453_tetsuzuki⟧⟦は→は：00079_ha⟧⟦どこ→どこ：00539_doko⟧⟦で→で：00502_de⟧⟦できます→できる：00557_dekiru⟧⟦か→か：09473_ka⟧。",
       "english": "Where can I complete the tax-free procedure?",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "09706_menzei_ex3",
-      "japanese": "{空港|くうこう}の{免税|めんぜい}{店|てん}でお{土産|みやげ}を{買|か}った。",
+      "japanese": "⟦{空港|くうこう}→空港：00648_kuukou⟧⟦の→の：09472_no⟧{免税|めんぜい}{店|てん}⟦で→で：00502_de⟧⟦お{土産|みやげ}→お土産：01353_omiyage⟧⟦を→を：00422_wo⟧⟦{買|か}った→買う：00489_kau⟧。",
       "english": "I bought souvenirs at the duty-free shop in the airport.",
       "notes": null,
       "has_audio": false,
@@ -43,10 +43,10 @@
       ]
     }
   ],
-  "notes": "{免税|めんぜい} refers to tax exemption, especially for tourists.\n\nCOMMON COLLOCATIONS:\n- {免税|めんぜい}{店|てん} (duty-free shop)\n- {免税|めんぜい}{手続|てつづ}き (tax-free procedure)\n- {免税|めんぜい}{対象|たいしょう} (eligible for tax exemption)\n\nUSAGE NOTES:\n- Available to foreign tourists in Japan\n- Requires passport and minimum purchase amount\n- Look for \"Tax Free\" signs in stores\n\nRELATED TERMS:\n- {消費税|しょうひぜい}: consumption tax\n- {税込|ぜいこ}み: tax included\n- {税抜|ぜいぬ}き: tax not included",
+  "notes": "{免税|めんぜい} refers to tax exemption, especially for tourists.\n\nCOMMON COLLOCATIONS:\n- {免税|めんぜい}{店|てん} (duty-free shop)\n- {免税|めんぜい}⟦{手続|てつづ}き→手続き：05453_tetsuzuki⟧ (tax-free procedure)\n- {免税|めんぜい}⟦{対象|たいしょう}→対象：03393_taishou⟧ (eligible for tax exemption)\n\nUSAGE:\n- Available to foreign tourists in Japan\n- Requires passport and minimum purchase amount\n- Look for \"Tax Free\" signs in stores\n\nRELATED WORDS:\n- ⟦{消費税|しょうひぜい}→消費税：04803_shouhizei⟧: consumption tax\n- {税込|ぜいこ}み: tax included\n- {税抜|ぜいぬ}き: tax not included",
   "metadata": {
     "created": "2026-02-03T06:53:21Z",
-    "modified": "2026-05-08T09:06:15Z",
+    "modified": "2026-09-02T04:01:19Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -75,6 +75,13 @@
       "reading": "ひかぜい",
       "headword": "{非課税|ひかぜい}",
       "label": "tax-exempt; non-taxable"
+    },
+    {
+      "type": "related",
+      "target_id": "04803_shouhizei",
+      "reading": "しょうひぜい",
+      "headword": "{消費税|しょうひぜい}",
+      "label": "consumption tax"
     }
   ]
 }

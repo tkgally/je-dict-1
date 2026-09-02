@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28664_narainareru_ex1",
-      "japanese": "{習|なら}い{慣|な}れた{道|みち}を{通|とお}る。",
+      "japanese": "{習|なら}い{慣|な}れた⟦{道|みち}→道：00505_michi⟧⟦を→を：00422_wo⟧⟦{通|とお}る→通る：01243_tooru⟧。",
       "english": "I take a route I'm used to.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28664_narainareru_ex2",
-      "japanese": "{毎日|まいにち}{使|つか}っているので、{操作|そうさ}にもう{習|なら}い{慣|な}れた。",
+      "japanese": "⟦{毎日|まいにち}→毎日：00729_mainichi⟧⟦{使|つか}っている→使う：00473_tsukau⟧⟦の→の：09472_no⟧で、⟦{操作|そうさ}→操作：03316_sousa⟧⟦に→に：00314_ni⟧⟦もう→もう：00602_mou⟧{習|なら}い{慣|な}れた。",
       "english": "I use it every day, so I've gotten used to operating it.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28664_narainareru_ex3",
-      "japanese": "{敬語|けいご}は{習|なら}い{慣|な}れるまでに{時間|じかん}がかかるが、{自然|しぜん}に{出|で}てくるようになる。",
+      "japanese": "⟦{敬語|けいご}→敬語：04022_keigo⟧⟦は→は：00079_ha⟧{習|なら}い{慣|な}れる⟦まで→まで：00490_made⟧⟦に→に：00314_ni⟧⟦{時間|じかん}がかかる→時間がかかる：26082_jikangakakaru⟧⟦が→が：00051_ga⟧、⟦{自然|しぜん}→自然：01423_shizen⟧⟦に→に：00314_ni⟧⟦{出|で}てくる→出てくる：29121_detekuru⟧⟦ようになる→ようになる：28408_youninaru⟧。",
       "english": "Keigo takes time to get used to, but eventually it comes out naturally.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {習|なら}う (to learn) + {慣|な}れる (to grow accustomed). Conjugates as an ichidan verb like {慣|な}れる. The literary register is mild — common in writing about skills, languages, and work routines.\n\nUSAGE:\n- Past form most common: {習|なら}い{慣|な}れた is used attributively ({習|なら}い{慣|な}れた{道|みち}, {習|なら}い{慣|な}れた{仕事|しごと}).\n- Predicative {習|なら}い{慣|な}れる appears in writing about gradually mastering something.\n\nSIMILAR WORDS:\n- {慣|な}れる: to get used to — broader and more common; covers any kind of habituation\n- {身|み}に{付|つ}く: to be acquired (as a skill) — focuses on the skill becoming a permanent part of oneself\n- {使|つか}い{慣|な}れる: to get used to using something — parallel compound for tools or systems",
+  "notes": "Compound of ⟦{習|なら}う→習う：00479_narau⟧ (to learn) + ⟦{慣|な}れる→慣れる：00870_nareru⟧ (to grow accustomed). Conjugates as an ichidan verb like ⟦{慣|な}れる→慣れる：00870_nareru⟧. The literary register is mild — common in writing about skills, languages, and work routines.\n\nUSAGE:\n- Past form most common: {習|なら}い{慣|な}れた is used attributively ({習|なら}い{慣|な}れた⟦{道|みち}→道：00505_michi⟧, {習|なら}い{慣|な}れた⟦{仕事|しごと}→仕事：00480_shigoto⟧).\n- Predicative {習|なら}い{慣|な}れる appears in writing about gradually mastering something.\n\nSIMILAR WORDS:\n- ⟦{慣|な}れる→慣れる：00870_nareru⟧: to get used to — broader and more common; covers any kind of habituation\n- ⟦{身|み}→身：01764_mi⟧⟦に→に：00314_ni⟧⟦{付|つ}く→付く：01960_tsuku⟧: to be acquired (as a skill) — focuses on the skill becoming a permanent part of oneself\n- ⟦{使|つか}い{慣|な}れる→使い慣れる：07877_tsukainareru⟧: to get used to using something — parallel compound for tools or systems",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07877_tsukainareru",
+      "reading": "つかいなれる",
+      "headword": "{使|つか}い{慣|な}れる",
+      "label": "to get used to using something"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +62,7 @@
         "verb-ichidan"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "education"
       ],
@@ -62,7 +71,7 @@
       "verb_class": "ichidan"
     },
     "created": "2026-06-03T04:16:51Z",
-    "modified": "2026-08-08T18:34:17Z"
+    "modified": "2026-09-02T04:02:34Z"
   },
   "conjugation": {
     "type": "ichidan",

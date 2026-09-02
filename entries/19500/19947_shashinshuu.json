@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "19947_shashinshuu_ex1",
-      "japanese": "{新|あたら}しい{写真集|しゃしんしゅう}が{出|で}た。",
+      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧{写真集|しゃしんしゅう}⟦が→が：00051_ga⟧⟦{出|で}た→出る：00513_deru⟧。",
       "english": "A new photo book came out.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "19947_shashinshuu_ex2",
-      "japanese": "{風景|ふうけい}{写真集|しゃしんしゅう}を{眺|なが}めるのが{好|す}きだ。",
+      "japanese": "⟦{風景|ふうけい}→風景：03591_fuukei⟧{写真集|しゃしんしゅう}⟦を→を：00422_wo⟧⟦{眺|なが}める→眺める：02132_nagameru⟧⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦{好|す}き→好き：02355_suki⟧だ。",
       "english": "I like looking through landscape photography books.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "19947_shashinshuu_ex3",
-      "japanese": "あのアイドルの{写真集|しゃしんしゅう}は{発売|はつばい}{初日|しょにち}に{売|う}り{切|き}れた。",
+      "japanese": "⟦あの→あの：00915_ano⟧⟦アイドル→アイドル：05111_aidoru⟧⟦の→の：09472_no⟧{写真集|しゃしんしゅう}⟦は→は：00079_ha⟧⟦{発売|はつばい}→発売：04315_hatsubai⟧⟦{初日|しょにち}→初日：11741_shonichi⟧⟦に→に：00314_ni⟧⟦{売|う}り{切|き}れた→売り切れる：03012_urikireru⟧。",
       "english": "That idol's photo book sold out on its first day of release.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {写真|しゃしん} (photograph) + {集|しゅう} (collection). In Japan, celebrity {写真集|しゃしんしゅう} are a major publishing genre — idols, actors, and athletes regularly release photo books. The suffix {集|しゅう} is productive and appears in many compound nouns ({詩集|ししゅう}, {短編集|たんぺんしゅう}, etc.).\n\nCOMMON COLLOCATIONS:\n- {写真集|しゃしんしゅう}を{出|だ}す: to publish a photo book\n- {風景|ふうけい}{写真集|しゃしんしゅう}: landscape photography book\n- {写真集|しゃしんしゅう}が{売|う}れる: a photo book sells well\n\nRELATED TERMS:\n- フォトブック: photo book (loanword, often for personal/custom books)\n- アルバム: album — broader, includes personal photo albums\n- {画集|がしゅう}: art book; collection of paintings",
+  "notes": "Composed of ⟦{写真|しゃしん}→写真：00753_shashin⟧ (photograph) + {集|しゅう} (collection). In Japan, celebrity {写真集|しゃしんしゅう} are a major publishing genre — idols, actors, and athletes regularly release photo books. The suffix {集|しゅう} is productive and appears in many compound nouns ({詩集|ししゅう}, ⟦{短編集|たんぺんしゅう}→短編集：28528_tanpenshuu⟧, etc.).\n\nCOMMON COLLOCATIONS:\n- {写真集|しゃしんしゅう}⟦を→を：00422_wo⟧⟦{出|だ}す→出す：01087_dasu⟧: to publish a photo book\n- ⟦{風景|ふうけい}→風景：03591_fuukei⟧{写真集|しゃしんしゅう}: landscape photography book\n- {写真集|しゃしんしゅう}⟦が→が：00051_ga⟧⟦{売|う}れる→売れる：02012_ureru⟧: a photo book sells well\n\nRELATED WORDS:\n- フォトブック: photo book (loanword, often for personal/custom books)\n- ⟦アルバム→アルバム：03831_arubamu⟧: album — broader, includes personal photo albums\n- ⟦{画集|がしゅう}→画集：13709_gashuu⟧: art book; collection of paintings",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "03831_arubamu",
+      "reading": "あるばむ",
+      "headword": "アルバム",
+      "label": "album"
+    },
+    {
+      "type": "related",
+      "target_id": "13709_gashuu",
+      "reading": "がしゅう",
+      "headword": "{画集|がしゅう}",
+      "label": "art book"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +75,6 @@
       ]
     },
     "created": "2026-03-27T06:09:33Z",
-    "modified": "2026-07-27T12:42:09Z"
+    "modified": "2026-09-02T04:01:57Z"
   }
 }

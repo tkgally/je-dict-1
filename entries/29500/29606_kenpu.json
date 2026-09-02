@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29606_kenpu_ex1",
-      "japanese": "{絹布|けんぷ}で{作|つく}った{着物|きもの}。",
+      "japanese": "{絹布|けんぷ}⟦で→で：00502_de⟧⟦{作|つく}った→作る：00481_tsukuru⟧⟦{着物|きもの}→着物：01309_kimono⟧。",
       "english": "A kimono made of silk cloth.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29606_kenpu_ex2",
-      "japanese": "{絹布|けんぷ}は{手触|てざわ}りがなめらかだ。",
+      "japanese": "{絹布|けんぷ}⟦は→は：00079_ha⟧⟦{手触|てざわ}り→手触り：12758_tezawari⟧⟦が→が：00051_ga⟧なめらかだ。",
       "english": "Silk cloth feels smooth to the touch.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29606_kenpu_ex3",
-      "japanese": "{昔|むかし}、{絹布|けんぷ}は{高価|こうか}で、{限|かぎ}られた{人|ひと}しか{身|み}につけられなかった。",
+      "japanese": "⟦{昔|むかし}→昔：01515_mukashi⟧、{絹布|けんぷ}⟦は→は：00079_ha⟧⟦{高価|こうか}→高価：02796_kouka⟧で、⟦{限|かぎ}られた→限る：02033_kagiru⟧⟦{人|ひと}→人：00476_hito⟧しか⟦{身|み}→身：01764_mi⟧につけられなかった。",
       "english": "In the past, silk cloth was expensive and only a select few could wear it.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Cloth woven from silk. A formal or literary word; in daily life people say {絹|きぬ} or シルク.\n\nCOMMON COLLOCATIONS:\n- {絹布|けんぷ}の{着物|きもの}: a silk-cloth kimono\n- {上等|じょうとう}な{絹布|けんぷ}: fine silk fabric\n\nSIMILAR WORDS:\n- {絹|きぬ}: silk — the everyday word for the material itself\n- {綿布|めんぷ}: cotton cloth — the parallel word for cotton",
+  "notes": "Cloth woven from silk. A formal or literary word; in daily life people say ⟦{絹|きぬ}→絹：01383_kinu⟧ or ⟦シルク→シルク：28530_shiruku⟧.\n\nCOMMON COLLOCATIONS:\n- {絹布|けんぷ}⟦の→の：09472_no⟧⟦{着物|きもの}→着物：01309_kimono⟧: a silk-cloth kimono\n- ⟦{上等|じょうとう}→上等：03821_joutou⟧な{絹布|けんぷ}: fine silk fabric\n\nSIMILAR WORDS:\n- ⟦{絹|きぬ}→絹：01383_kinu⟧: silk — the everyday word for the material itself\n- ⟦{綿布|めんぷ}→綿布：25129_menpu⟧: cotton cloth — the parallel word for cotton",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25129_menpu",
+      "reading": "めんぷ",
+      "headword": "{綿布|めんぷ}",
+      "label": "cotton cloth"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29192_kinuorimono",
+      "reading": "きぬおりもの",
+      "headword": "{絹織物|きぬおりもの}",
+      "label": "silk fabric"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +69,13 @@
         "noun"
       ],
       "formality": "formal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "clothing"
       ],
       "domain": []
     },
     "created": "2026-07-01T00:20:08Z",
-    "modified": "2026-07-01T00:20:08Z"
+    "modified": "2026-09-02T04:02:37Z"
   }
 }

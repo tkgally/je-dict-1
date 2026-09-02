@@ -2,7 +2,7 @@
   "id": "21325_teishasuru",
   "headword": "{停車|ていしゃ}する",
   "reading": "ていしゃする",
-  "part_of_speech": "noun, suru verb, intransitive",
+  "part_of_speech": "noun, suru verb (intransitive)",
   "gloss": "to stop (a vehicle); to make a stop",
   "definitions": [
     {
@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "21325_teishasuru_ex1",
-      "japanese": "{電車|でんしゃ}が{停車|ていしゃ}した。",
+      "japanese": "⟦{電車|でんしゃ}→電車：00522_densha⟧⟦が→が：00051_ga⟧{停車|ていしゃ}した。",
       "english": "The train stopped.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "21325_teishasuru_ex2",
-      "japanese": "この{駅|えき}には{急行|きゅうこう}は{停車|ていしゃ}しません。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{駅|えき}→駅：02180_eki⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{急行|きゅうこう}→急行：01386_kyuukou⟧⟦は→は：00079_ha⟧{停車|ていしゃ}しません。",
       "english": "The express train does not stop at this station.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "21325_teishasuru_ex3",
-      "japanese": "{赤信号|あかしんごう}で{停車|ていしゃ}しているときに{追突|ついとつ}された。",
+      "japanese": "⟦{赤信号|あかしんごう}→赤信号：21543_akashingou⟧⟦で→で：00502_de⟧{停車|ていしゃ}して⟦いる→いる：00495_iru⟧とき⟦に→に：00314_ni⟧⟦{追突|ついとつ}→追突：17054_tsuitotsu⟧⟦された→する：00392_suru⟧。",
       "english": "I was rear-ended while stopped at a red light.",
       "sense_numbers": [
         1
@@ -43,8 +43,31 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {停|てい} (stop) + {車|しゃ} (vehicle). Specifically refers to vehicles or trains stopping. Not used for people stopping walking.\n\nCOMMON COLLOCATIONS:\n- {停車|ていしゃ}{駅|えき}: stations where a train stops\n- {停車|ていしゃ}{位置|いち}: stopping position\n- {臨時|りんじ}{停車|ていしゃ}: unscheduled stop\n- {停車|ていしゃ}{中|ちゅう}: while stopped\n\nSIMILAR WORDS:\n- {止|と}まる: to stop (general, everyday — for any object or person)\n- {駐車|ちゅうしゃ}する: to park (leaving a vehicle stationary for a period)\n- {停止|ていし}する: to halt, to cease (broader usage — can be used for operations, activities)",
+  "notes": "Compound of {停|てい} (stop) + ⟦{車|しゃ}→車：09874_sha⟧ (vehicle). Specifically refers to vehicles or trains stopping. Not used for people stopping walking.\n\nCOMMON COLLOCATIONS:\n- ⟦{停車|ていしゃ}→停車：04534_teisha⟧⟦{駅|えき}→駅：02180_eki⟧: stations where a train stops\n- ⟦{停車|ていしゃ}→停車：04534_teisha⟧⟦{位置|いち}→位置：11554_ichi⟧: stopping position\n- ⟦{臨時|りんじ}→臨時：04092_rinji⟧⟦{停車|ていしゃ}→停車：04534_teisha⟧: unscheduled stop\n- ⟦{停車|ていしゃ}{中|ちゅう}→停車中：24482_teishachuu⟧: while stopped\n\nSIMILAR WORDS:\n- ⟦{止|と}まる→止まる：00555_tomaru⟧: to stop (general, everyday — for any object or person)\n- ⟦{駐車|ちゅうしゃ}する→駐車する：22431_chuushasuru⟧: to park (leaving a vehicle stationary for a period)\n- ⟦{停止|ていし}する→停止する：20992_teishisuru⟧: to halt, to cease (broader usage — can be used for operations, activities)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00555_tomaru",
+      "reading": "とまる",
+      "headword": "{止|と}まる",
+      "label": "to stop (general, everyday"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22431_chuushasuru",
+      "reading": "ちゅうしゃする",
+      "headword": "{駐車|ちゅうしゃ}する",
+      "label": "to park"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20992_teishisuru",
+      "reading": "ていしする",
+      "headword": "{停止|ていし}する",
+      "label": "to halt, to cease (broader usage"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,7 +85,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-02T01:00:25Z",
-    "modified": "2026-07-29T12:35:11Z"
+    "modified": "2026-09-02T04:02:03Z"
   },
   "conjugation": {
     "type": "suru",

@@ -3,7 +3,7 @@
   "id": "14542_chinatsu",
   "headword": "{鎮圧|ちんあつ}",
   "reading": "ちんあつ",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "suppression; quelling",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "14542_chinatsu_ex1",
-      "japanese": "{暴動|ぼうどう}を{鎮圧|ちんあつ}する。",
+      "japanese": "⟦{暴動|ぼうどう}→暴動：15533_boudou⟧⟦を→を：00422_wo⟧{鎮圧|ちんあつ}⟦する→する：00392_suru⟧。",
       "english": "Suppress the riot.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "14542_chinatsu_ex2",
-      "japanese": "{警察|けいさつ}がデモを{鎮圧|ちんあつ}した。",
+      "japanese": "⟦{警察|けいさつ}→警察：01393_keisatsu⟧⟦が→が：00051_ga⟧⟦デモ→デモ：19416_demo⟧⟦を→を：00422_wo⟧{鎮圧|ちんあつ}⟦した→する：00392_suru⟧。",
       "english": "The police suppressed the demonstration.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "14542_chinatsu_ex3",
-      "japanese": "{政府|せいふ}は{軍隊|ぐんたい}を{派遣|はけん}して{反乱|はんらん}の{鎮圧|ちんあつ}に{乗|の}り{出|だ}した。",
+      "japanese": "⟦{政府|せいふ}→政府：03294_seifu⟧⟦は→は：00079_ha⟧⟦{軍隊|ぐんたい}→軍隊：02678_guntai⟧⟦を→を：00422_wo⟧⟦{派遣|はけん}→派遣：13273_haken⟧⟦して→する：00392_suru⟧⟦{反乱|はんらん}→反乱：11860_hanran⟧⟦の→の：09472_no⟧{鎮圧|ちんあつ}⟦に→に：00314_ni⟧⟦{乗|の}り{出|だ}した→乗り出す：05760_noridasu⟧。",
       "english": "The government dispatched troops and set about quelling the rebellion.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "A する verb used in formal and written contexts. Implies the use of force or authority to restore order.\n\nCOMMON COLLOCATIONS:\n- {暴動|ぼうどう}を{鎮圧|ちんあつ}する (to suppress a riot)\n- {反乱|はんらん}を{鎮圧|ちんあつ}する (to quell a rebellion)\n- {鎮圧|ちんあつ}に{当|あ}たる (to take charge of suppression)\n\nSIMILAR WORDS:\n{鎮圧|ちんあつ} emphasizes forceful suppression of unrest. {鎮静|ちんせい} means calming or settling down, and is gentler in nuance.",
+  "notes": "A ⟦する→する：00392_suru⟧ verb used in formal and written contexts. Implies the use of force or authority to restore order.\n\nCOMMON COLLOCATIONS:\n- ⟦{暴動|ぼうどう}→暴動：15533_boudou⟧⟦を→を：00422_wo⟧{鎮圧|ちんあつ}⟦する→する：00392_suru⟧ (to suppress a riot)\n- ⟦{反乱|はんらん}→反乱：11860_hanran⟧⟦を→を：00422_wo⟧{鎮圧|ちんあつ}⟦する→する：00392_suru⟧ (to quell a rebellion)\n- {鎮圧|ちんあつ}⟦に→に：00314_ni⟧⟦{当|あ}たる→当たる：01860_ataru⟧ (to take charge of suppression)\n\nSIMILAR WORDS:\n{鎮圧|ちんあつ} emphasizes forceful suppression of unrest. ⟦{鎮静|ちんせい}→鎮静：19769_chinsei⟧ means calming or settling down, and is gentler in nuance.",
   "cross_references": [
     {
       "type": "related",
@@ -142,11 +142,39 @@
       "reading": "とうばつ",
       "headword": "{討伐|とうばつ}",
       "label": "subjugation, punitive expedition"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21861_heitei",
+      "reading": "へいてい",
+      "headword": "{平定|へいてい}",
+      "label": "suppression"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22509_chinkasuru",
+      "reading": "ちんかする",
+      "headword": "{鎮火|ちんか}する",
+      "label": "to extinguish (a fire)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23059_seiatsu",
+      "reading": "せいあつ",
+      "headword": "{制圧|せいあつ}",
+      "label": "suppression"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24740_chintei",
+      "reading": "ちんてい",
+      "headword": "{鎮定|ちんてい}",
+      "label": "pacification"
     }
   ],
   "metadata": {
     "created": "2026-03-02T06:26:12Z",
-    "modified": "2026-07-15T09:17:48Z",
+    "modified": "2026-09-02T04:01:37Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -159,7 +187,8 @@
       "semantic": [
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

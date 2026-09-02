@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "09770_bitamin_ex1",
-      "japanese": "{果実|かじつ}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧ビタミン⟦が→が：00051_ga⟧⟦{豊富|ほうふ}に→豊富：03620_houfu⟧⟦{含|ふく}まれている→含む：01982_fukumu⟧。",
+      "japanese": "⟦{果実|かじつ}→果実：00146_kajitsu⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧ビタミン⟦が→が：00051_ga⟧⟦{豊富|ほうふ}に→豊富：03620_houfu⟧⟦{含|ふく}まれている→含む：01982_fukumu⟧。",
       "english": "Fruit contains abundant vitamins.",
       "has_audio": false,
       "sense_numbers": [
@@ -23,7 +23,7 @@
     },
     {
       "id": "09770_bitamin_ex2",
-      "japanese": "ビタミン{不足|ふそく}⟦に→に：00314_ni⟧⟦{気|き}をつけて→気をつける：09771_kiwotsukeru⟧⟦ください→ください：02899_kudasai⟧。",
+      "japanese": "ビタミン⟦{不足|ふそく}→不足：03598_fusoku⟧⟦に→に：00314_ni⟧⟦{気|き}をつけて→気をつける：09771_kiwotsukeru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please be careful of vitamin deficiency.",
       "has_audio": false,
       "sense_numbers": [
@@ -32,7 +32,7 @@
     },
     {
       "id": "09770_bitamin_ex3",
-      "japanese": "{毎日|まいにち}ビタミン{剤|ざい}⟦を→を：00422_wo⟧{飲|の}んでいる。",
+      "japanese": "⟦{毎日|まいにち}→毎日：00729_mainichi⟧ビタミン{剤|ざい}⟦を→を：00422_wo⟧⟦{飲|の}んでいる→飲む：00322_nomu⟧。",
       "english": "I take vitamin supplements every day.",
       "has_audio": false,
       "sense_numbers": [
@@ -40,10 +40,10 @@
       ]
     }
   ],
-  "notes": "ビタミン is a loanword from German \"Vitamin\" (not directly from English). This is why the pronunciation uses ビ rather than ヴァイ.\n\nCOMMON TYPES:\n- ビタミンA, B, C, D, E, K\n- ビタミンB{群|ぐん}: B vitamin complex\n\nCOMMON COLLOCATIONS:\n- ビタミン{不足|ふそく}: vitamin deficiency\n- ビタミン{剤|ざい}: vitamin supplement\n- ビタミン⟦を→を：00422_wo⟧{摂|と}る: to take/consume vitamins\n- ビタミンが{豊富|ほうふ}: rich in vitamins\n- ビタミン{補給|ほきゅう}: vitamin intake/replenishment\n\nCULTURAL NOTE:\nビタミンC{配合|はいごう} (contains vitamin C) is a common label claim on Japanese beverages and food products. ビタミン drinks like C1000 are popular convenience store items.",
+  "notes": "ビタミン is a loanword from German \"Vitamin\" (not directly from English). This is why the pronunciation uses ビ rather than ヴァイ.\n\nTYPES:\n- ビタミンA, B, C, D, E, K\n- ビタミンB⟦{群|ぐん}→群：02790_gun⟧: B vitamin complex\n\nCOMMON COLLOCATIONS:\n- ビタミン⟦{不足|ふそく}→不足：03598_fusoku⟧: vitamin deficiency\n- ビタミン{剤|ざい}: vitamin supplement\n- ビタミン⟦を→を：00422_wo⟧⟦{摂|と}る→摂る：29372_toru⟧: to take/consume vitamins\n- ビタミン⟦が→が：00051_ga⟧⟦{豊富|ほうふ}→豊富：03620_houfu⟧: rich in vitamins\n- ビタミン⟦{補給|ほきゅう}→補給：14055_hokyuu⟧: vitamin intake/replenishment\n\nCULTURAL NOTE:\nビタミンC⟦{配合|はいごう}→配合：16196_haigou⟧ (contains vitamin C) is a common label claim on Japanese beverages and food products. ビタミン drinks like C1000 are popular convenience store items.",
   "metadata": {
     "created": "2026-02-03T09:58:52Z",
-    "modified": "2026-03-25T09:40:20Z",
+    "modified": "2026-09-02T04:01:19Z",
     "ai_model": "opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -64,6 +64,13 @@
       "reading": "えいよう",
       "headword": "{栄養|えいよう}",
       "label": "nutrition, nourishment"
+    },
+    {
+      "type": "related",
+      "target_id": "23090_mineraru",
+      "reading": "みねらる",
+      "headword": "ミネラル",
+      "label": "mineral"
     }
   ]
 }

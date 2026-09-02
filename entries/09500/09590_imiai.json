@@ -23,7 +23,7 @@
     },
     {
       "id": "09590_imiai_ex2",
-      "japanese": "{政治|せいじ}{的|てき}な{意味合|いみあ}い⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
+      "japanese": "⟦{政治|せいじ}{的|てき}→政治的：05684_seijiteki⟧な{意味合|いみあ}い⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "It has political implications.",
       "has_audio": false,
       "sense_numbers": [
@@ -32,7 +32,7 @@
     },
     {
       "id": "09590_imiai_ex3",
-      "japanese": "⟦その→その：00993_sono⟧{意味合|いみあ}い⟦は→は：00079_ha⟧{分|わ}からない。",
+      "japanese": "⟦その→その：00993_sono⟧{意味合|いみあ}い⟦は→は：00079_ha⟧⟦{分|わ}からない→分かる：00463_wakaru⟧。",
       "english": "I don't understand the implications of that.",
       "has_audio": false,
       "sense_numbers": [
@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "notes": "{意味合|いみあ}い refers to the subtle, implied meaning beyond what is directly stated. It is derived from {意味|いみ} (meaning) + the suffix {合|あ}い (quality, nature).\n\nCOMMON PATTERNS:\n- 〜{的|てき}な{意味合|いみあ}いがある: has ~ implications\n- {意味合|いみあ}いが{強|つよ}い: has strong connotations\n- {意味合|いみあ}いを{持|も}つ: to carry implications\n- {意味合|いみあ}いを{込|こ}める: to imbue with significance\n\nCONTRAST:\n- {意味|いみ}: meaning (direct, literal)\n- {意味合|いみあ}い: implication, nuance (indirect, subtle)\n- ニュアンス: nuance (loanword; often interchangeable)\n\nUSAGE:\nCommon in discussions about language, politics, culture, and social customs — contexts where things carry symbolic or implied meaning beyond their surface.",
+  "notes": "{意味合|いみあ}い refers to the subtle, implied meaning beyond what is directly stated. It is derived from ⟦{意味|いみ}→意味：01155_imi⟧ (meaning) + the suffix ⟦{合|あ}い→合う：10466_au⟧ (quality, nature).\n\nCOMMON PATTERNS:\n- 〜⟦{的|てき}→〜的：09839_teki⟧な{意味合|いみあ}い⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧: has ~ implications\n- {意味合|いみあ}い⟦が→が：00051_ga⟧⟦{強|つよ}い→強い：00820_tsuyoi⟧: has strong connotations\n- {意味合|いみあ}い⟦を→を：00422_wo⟧⟦{持|も}つ→持つ：00478_motsu⟧: to carry implications\n- {意味合|いみあ}い⟦を→を：00422_wo⟧⟦{込|こ}める→込める：01945_komeru⟧: to imbue with significance\n\nSIMILAR WORDS:\n- ⟦{意味|いみ}→意味：01155_imi⟧: meaning (direct, literal)\n- {意味合|いみあ}い: implication, nuance (indirect, subtle)\n- ⟦ニュアンス→ニュアンス：11138_nyuansu⟧: nuance (loanword; often interchangeable)\n\nUSAGE:\nCommon in discussions about language, politics, culture, and social customs — contexts where things carry symbolic or implied meaning beyond their surface.",
   "cross_references": [
     {
       "type": "related",
@@ -48,11 +48,25 @@
       "headword": "{意味|いみ}",
       "target_id": "01155_imi",
       "label": "meaning (direct)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11138_nyuansu",
+      "reading": "にゅあんす",
+      "headword": "ニュアンス",
+      "label": "nuance (loanword"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19467_gani",
+      "reading": "がんい",
+      "headword": "{含意|がんい}",
+      "label": "implication"
     }
   ],
   "metadata": {
     "created": "2026-02-03T01:46:47Z",
-    "modified": "2026-04-10T07:12:46Z",
+    "modified": "2026-09-02T04:01:18Z",
     "ai_model": "opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

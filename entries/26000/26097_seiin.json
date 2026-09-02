@@ -15,39 +15,72 @@
   "examples": [
     {
       "id": "26097_seiin_ex1",
-      "japanese": "{家族|かぞく}の{成員|せいいん}それぞれに{役割|やくわり}がある。",
+      "japanese": "⟦{家族|かぞく}→家族：00552_kazoku⟧⟦の→の：09472_no⟧{成員|せいいん}⟦それぞれ→それぞれ：01453_sorezore⟧⟦に→に：00314_ni⟧⟦{役割|やくわり}→役割：03638_yakuwari⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "Each member of the family has a role.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26097_seiin_ex2",
-      "japanese": "{社会|しゃかい}の{成員|せいいん}として{責任|せきにん}を{果|は}たす。",
+      "japanese": "⟦{社会|しゃかい}→社会：01427_shakai⟧⟦の→の：09472_no⟧{成員|せいいん}⟦として→として：06802_toshite⟧⟦{責任|せきにん}を{果|は}たす→責任を果たす：21268_sekininwohatasu⟧。",
       "english": "To fulfill one's responsibility as a member of society.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26097_seiin_ex3",
-      "japanese": "{組織|そしき}の{成員|せいいん}が{増|ふ}えるにつれて{意思|いし}{決定|けってい}が{難|むずか}しくなる。",
+      "japanese": "⟦{組織|そしき}→組織：03320_soshiki⟧⟦の→の：09472_no⟧{成員|せいいん}⟦が→が：00051_ga⟧⟦{増|ふ}える→増える：01183_fueru⟧⟦につれて→につれて：28400_nitsurete⟧⟦{意思|いし}{決定|けってい}→意思決定：26876_ishikettei⟧⟦が→が：00051_ga⟧⟦{難|むずか}しく→難しい：00517_muzukashii⟧⟦なる→なる：01970_naru⟧。",
       "english": "As the number of members in the organization grows, decision-making becomes more difficult.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A formal, somewhat academic term for a member or constituent of a group. Most commonly encountered in sociology, political science, and formal writing. Unlike {会員|かいいん}, which implies formal enrollment, {成員|せいいん} emphasizes being a constituent part of a collective.\n\nCOMMON COLLOCATIONS:\n- {社会|しゃかい}の{成員|せいいん}: member of society\n- {家族|かぞく}の{成員|せいいん}: family member\n- {組織|そしき}の{成員|せいいん}: member of an organization\n- {集団|しゅうだん}の{成員|せいいん}: member of a group\n\nSIMILAR WORDS:\n- メンバー: member — casual loanword used in everyday speech\n- {会員|かいいん}: member — implies formal registration or membership (in a club, association, etc.)\n- {構成員|こうせいいん}: constituent member — more technical, emphasizes the structural role within an organization\n- {一員|いちいん}: one member (of) — emphasizes being part of a larger whole",
-  "cross_references": [],
+  "notes": "A formal, somewhat academic term for a member or constituent of a group. Most commonly encountered in sociology, political science, and formal writing. Unlike ⟦{会員|かいいん}→会員：02535_kaiin⟧, which implies formal enrollment, {成員|せいいん} emphasizes being a constituent part of a collective.\n\nCOMMON COLLOCATIONS:\n- ⟦{社会|しゃかい}→社会：01427_shakai⟧⟦の→の：09472_no⟧{成員|せいいん}: member of society\n- ⟦{家族|かぞく}→家族：00552_kazoku⟧⟦の→の：09472_no⟧{成員|せいいん}: family member\n- ⟦{組織|そしき}→組織：03320_soshiki⟧⟦の→の：09472_no⟧{成員|せいいん}: member of an organization\n- ⟦{集団|しゅうだん}→集団：03211_shuudan⟧⟦の→の：09472_no⟧{成員|せいいん}: member of a group\n\nSIMILAR WORDS:\n- ⟦メンバー→メンバー：00275_menbaa⟧: member — casual loanword used in everyday speech\n- ⟦{会員|かいいん}→会員：02535_kaiin⟧: member — implies formal registration or membership (in a club, association, etc.)\n- ⟦{構成員|こうせいいん}→構成員：15240_kouseiin⟧: constituent member — more technical, emphasizes the structural role within an organization\n- ⟦{一員|いちいん}→一員：08920_ichiin⟧: one member (of) — emphasizes being part of a larger whole",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00275_menbaa",
+      "reading": "めんばー",
+      "headword": "メンバー",
+      "label": "member"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02535_kaiin",
+      "reading": "かいいん",
+      "headword": "{会員|かいいん}",
+      "label": "member"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08920_ichiin",
+      "reading": "いちいん",
+      "headword": "{一員|いちいん}",
+      "label": "one member"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["society"]
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "society"
+      ]
     },
     "created": "2026-04-29T13:32:19Z",
-    "modified": "2026-04-29T13:32:19Z"
+    "modified": "2026-09-02T04:02:25Z"
   }
 }

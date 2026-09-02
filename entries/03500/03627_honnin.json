@@ -44,7 +44,7 @@
     },
     {
       "id": "03627_honnin_ex4",
-      "japanese": "{本人|ほんにん}⟦の→の：09472_no⟧⟦{同意|どうい}→同意：05092_doui⟧⟦が→が：00051_ga⟧なければ、⟦{個人|こじん}→個人：02758_kojin⟧⟦{情報|じょうほう}→情報：03348_jouhou⟧⟦を→を：00422_wo⟧⟦{他人|たにん}→他人：01459_tanin⟧⟦に→に：00314_ni⟧⟦{教|おし}えてはいけない→教える：00526_oshieru⟧。",
+      "japanese": "{本人|ほんにん}⟦の→の：09472_no⟧⟦{同意|どうい}→同意：05092_doui⟧⟦が→が：00051_ga⟧⟦なければ→ない：01118_nai⟧、⟦{個人|こじん}→個人：02758_kojin⟧⟦{情報|じょうほう}→情報：03348_jouhou⟧⟦を→を：00422_wo⟧⟦{他人|たにん}→他人：01459_tanin⟧⟦に→に：00314_ni⟧⟦{教|おし}えてはいけない→教える：00526_oshieru⟧。",
       "english": "You must not share personal information with others without the person's consent.",
       "notes": null,
       "has_audio": false,
@@ -54,7 +54,7 @@
     },
     {
       "id": "03627_honnin_ex5",
-      "japanese": "⟦{周|まわ}り→周り：01732_mawari⟧⟦は→は：00079_ha⟧みんな⟦{心配|しんぱい}→心配：00811_shinpai⟧しているのに、{本人|ほんにん}⟦は→は：00079_ha⟧⟦{全然|ぜんぜん}→全然：00598_zenzen⟧⟦{気|き}にしていない→気にする：03026_kinisuru⟧。",
+      "japanese": "⟦{周|まわ}り→周り：01732_mawari⟧⟦は→は：00079_ha⟧⟦みんな→みんな：02972_minna⟧⟦{心配|しんぱい}→心配：00811_shinpai⟧⟦している→する：00392_suru⟧⟦の→の：09472_no⟧⟦に→に：00314_ni⟧、{本人|ほんにん}⟦は→は：00079_ha⟧⟦{全然|ぜんぜん}→全然：00598_zenzen⟧⟦{気|き}にしていない→気にする：03026_kinisuru⟧。",
       "english": "Everyone around is worried, but the person himself doesn't seem bothered at all.",
       "notes": null,
       "has_audio": false,
@@ -63,10 +63,33 @@
       ]
     }
   ],
-  "notes": "USAGE: {本人|ほんにん} emphasizes that you're referring to the actual person involved, not someone else on their behalf.\n\nCOMMON PATTERNS:\n・{本人|ほんにん}⟦に→に：00314_ni⟧ (to the person himself)\n・{本人|ほんにん}⟦から→から：00504_kara⟧ (from the person himself)\n・{本人|ほんにん}⟦{確認|かくにん}→確認：00158_kakunin⟧ (identity verification)\n・{本人|ほんにん}⟦の→の：09472_no⟧⟦{意思|いし}→意思：12742_ishi⟧ (the person's own will)\n・{本人|ほんにん}⟦の→の：09472_no⟧⟦{希望|きぼう}→希望：00221_kibou⟧ (the person's own wish)",
+  "notes": "USAGE: {本人|ほんにん} emphasizes that you're referring to the actual person involved, not someone else on their behalf.\n\nCOMMON PATTERNS:\n- {本人|ほんにん}⟦に→に：00314_ni⟧ (to the person himself)\n- {本人|ほんにん}⟦から→から：00504_kara⟧ (from the person himself)\n- {本人|ほんにん}⟦{確認|かくにん}→確認：00158_kakunin⟧ (identity verification)\n- {本人|ほんにん}⟦の→の：09472_no⟧⟦{意思|いし}→意思：12742_ishi⟧ (the person's own will)\n- {本人|ほんにん}⟦の→の：09472_no⟧⟦{希望|きぼう}→希望：00221_kibou⟧ (the person's own wish)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "19668_namami",
+      "reading": "なまみ",
+      "headword": "{生身|なまみ}",
+      "label": "flesh and blood"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23357_jiko",
+      "reading": "じこ",
+      "headword": "{自己|じこ}",
+      "label": "self"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26788_tounin",
+      "reading": "とうにん",
+      "headword": "{当人|とうにん}",
+      "label": "the person in question"
+    }
+  ],
   "metadata": {
     "created": "2026-01-12T15:38:00Z",
-    "modified": "2026-08-13T15:50:29Z",
+    "modified": "2026-09-02T04:01:03Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

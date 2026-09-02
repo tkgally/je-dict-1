@@ -15,41 +15,73 @@
   "examples": [
     {
       "id": "15459_shinnendo_ex1",
-      "japanese": "{新年度|しんねんど}が{始|はじ}まった。",
+      "japanese": "{新年度|しんねんど}⟦が→が：00051_ga⟧⟦{始|はじ}まった→始まる：00841_hajimaru⟧。",
       "english": "The new fiscal year has begun.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15459_shinnendo_ex2",
-      "japanese": "{新年度|しんねんど}の{予算|よさん}を{組|く}む{時期|じき}だ。",
+      "japanese": "{新年度|しんねんど}⟦の→の：09472_no⟧⟦{予算|よさん}→予算：03663_yosan⟧⟦を→を：00422_wo⟧⟦{組|く}む→組む：02050_kumu⟧⟦{時期|じき}→時期：03269_jiki⟧だ。",
       "english": "It's time to draw up the budget for the new fiscal year.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15459_shinnendo_ex3",
-      "japanese": "{新年度|しんねんど}に{向|む}けて、{人事異動|じんじいどう}の{発表|はっぴょう}が{行|おこな}われた。",
+      "japanese": "{新年度|しんねんど}⟦に→に：00314_ni⟧⟦{向|む}けて→向ける：02306_mukeru⟧、⟦{人事異動|じんじいどう}→人事異動：18627_jinjiidou⟧⟦の→の：09472_no⟧⟦{発表|はっぴょう}→発表：03562_happyou⟧⟦が→が：00051_ga⟧⟦{行|おこな}われた→行う：01238_okonau⟧。",
       "english": "Personnel transfers were announced ahead of the new fiscal year.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "CULTURAL NOTE:\nIn Japan, the fiscal year ({会計年度|かいけいねんど}) and the academic year ({学年度|がくねんど}) both begin in April. The weeks surrounding April 1st are a major transition period: new employees start work, students begin new school years, and government budgets take effect.\n\nCOMMON COLLOCATIONS:\n- {新年度|しんねんど}の{予算|よさん} (new fiscal year budget)\n- {新年度|しんねんど}に{向|む}けて (in preparation for the new year)\n- {新年度|しんねんど}から (starting from the new year)\n\nRELATED:\n- {年度|ねんど} (fiscal/academic year)\n- {年度末|ねんどまつ} (end of the fiscal year — March)\n- {新学期|しんがっき} (new school term)",
-  "cross_references": [],
+  "notes": "CULTURAL NOTE:\nIn Japan, the fiscal year ({会計年度|かいけいねんど}) and the academic year ({学年度|がくねんど}) both begin in April. The weeks surrounding April 1st are a major transition period: new employees start work, students begin new school years, and government budgets take effect.\n\nCOMMON COLLOCATIONS:\n- {新年度|しんねんど}⟦の→の：09472_no⟧⟦{予算|よさん}→予算：03663_yosan⟧ (new fiscal year budget)\n- {新年度|しんねんど}⟦に→に：00314_ni⟧⟦{向|む}けて→向ける：02306_mukeru⟧ (in preparation for the new year)\n- {新年度|しんねんど}⟦から→から：00504_kara⟧ (starting from the new year)\n\nRELATED WORDS:\n- ⟦{年度|ねんど}→年度：00309_nendo⟧ (fiscal/academic year)\n- ⟦{年度末|ねんどまつ}→年度末：10202_nendomatsu⟧ (end of the fiscal year — March)\n- ⟦{新学期|しんがっき}→新学期：16070_shingakki⟧ (new school term)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "10202_nendomatsu",
+      "reading": "ねんどまつ",
+      "headword": "{年度末|ねんどまつ}",
+      "label": "end of the fiscal year"
+    },
+    {
+      "type": "related",
+      "target_id": "16070_shingakki",
+      "reading": "しんがっき",
+      "headword": "{新学期|しんがっき}",
+      "label": "new school term"
+    },
+    {
+      "type": "related",
+      "target_id": "10276_nendohajime",
+      "reading": "ねんどはじめ",
+      "headword": "{年度始|ねんどはじ}め",
+      "label": "beginning of the fiscal year"
+    }
+  ],
   "metadata": {
     "created": "2026-03-07T07:39:09Z",
-    "modified": "2026-03-07T07:39:09Z",
+    "modified": "2026-09-02T04:01:41Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["time-period"]
+      "semantic": [
+        "time-period"
+      ]
     }
   }
 }

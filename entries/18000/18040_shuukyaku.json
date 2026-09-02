@@ -2,7 +2,7 @@
   "id": "18040_shuukyaku",
   "headword": "{集客|しゅうきゃく}",
   "reading": "しゅうきゃく",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "attracting customers; drawing a crowd",
   "conjugation": {
     "type": "suru",
@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "18040_shuukyaku_ex1",
-      "japanese": "{集客|しゅうきゃく}{力|りょく}のある{店|みせ}だ。",
+      "japanese": "{集客|しゅうきゃく}{力|りょく}⟦の→の：09472_no⟧⟦ある→ある：00006_aru⟧⟦{店|みせ}→店：00497_mise⟧だ。",
       "english": "It's a store with strong drawing power.",
       "sense_numbers": [
         1
@@ -114,7 +114,7 @@
     },
     {
       "id": "18040_shuukyaku_ex2",
-      "japanese": "SNSを{使|つか}った{集客|しゅうきゃく}が{増|ふ}えている。",
+      "japanese": "SNS⟦を→を：00422_wo⟧⟦{使|つか}った→使う：00473_tsukau⟧{集客|しゅうきゃく}⟦が→が：00051_ga⟧⟦{増|ふ}えている→増える：01183_fueru⟧。",
       "english": "Customer acquisition through social media is increasing.",
       "sense_numbers": [
         1
@@ -124,7 +124,7 @@
     },
     {
       "id": "18040_shuukyaku_ex3",
-      "japanese": "イベントの{集客|しゅうきゃく}{目標|もくひょう}は1{万人|まんにん}だ。",
+      "japanese": "⟦イベント→イベント：09594_ibento⟧⟦の→の：09472_no⟧{集客|しゅうきゃく}⟦{目標|もくひょう}→目標：03631_mokuhyou⟧⟦は→は：00079_ha⟧1{万人|まんにん}だ。",
       "english": "The event's target is to attract 10,000 visitors.",
       "sense_numbers": [
         1
@@ -133,8 +133,24 @@
       "notes": null
     }
   ],
-  "notes": "{集客|しゅうきゃく} is a compound of {集|しゅう} (gather) and {客|きゃく} (customer/guest). It means attracting customers or drawing a crowd to a business, event, or venue.\n\nCOMMON COLLOCATIONS:\n- {集客|しゅうきゃく}{力|りょく}: drawing power, ability to attract customers\n- {集客|しゅうきゃく}{数|すう}: number of visitors/customers drawn\n- {集客|しゅうきゃく}{施策|しさく}: customer acquisition measures\n- {集客|しゅうきゃく}{効果|こうか}: customer-drawing effect\n- {集客|しゅうきゃく}に{成功|せいこう}する: to succeed in attracting customers\n\nUSAGE:\nA key marketing and business term. Used for both physical stores and online businesses. Often appears in discussions of advertising strategy, event planning, and retail management.\n\nSIMILAR WORDS:\n- {客寄|きゃくよ}せ: attracting customers (often for a specific draw or gimmick)\n- {動員|どういん}: mobilization (used for audience/attendance numbers at events)",
+  "notes": "{集客|しゅうきゃく} is a compound of {集|しゅう} (gather) and ⟦{客|きゃく}→客：00865_kyaku⟧ (customer/guest). It means attracting customers or drawing a crowd to a business, event, or venue.\n\nCOMMON COLLOCATIONS:\n- {集客|しゅうきゃく}{力|りょく}: drawing power, ability to attract customers\n- {集客|しゅうきゃく}⟦{数|すう}→数：03360_suu⟧: number of visitors/customers drawn\n- {集客|しゅうきゃく}⟦{施策|しさく}→施策：18514_shisaku⟧: customer acquisition measures\n- {集客|しゅうきゃく}⟦{効果|こうか}→効果：02726_kouka⟧: customer-drawing effect\n- {集客|しゅうきゃく}⟦に→に：00314_ni⟧⟦{成功|せいこう}する→成功する：21445_seikousuru⟧: to succeed in attracting customers\n\nUSAGE:\nA key marketing and business term. Used for both physical stores and online businesses. Often appears in discussions of advertising strategy, event planning, and retail management.\n\nSIMILAR WORDS:\n- {客寄|きゃくよ}せ: attracting customers (often for a specific draw or gimmick)\n- ⟦{動員|どういん}→動員：11927_douin⟧: mobilization (used for audience/attendance numbers at events)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11927_douin",
+      "reading": "どういん",
+      "headword": "{動員|どういん}",
+      "label": "mobilization"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26246_yuukyaku",
+      "reading": "ゆうきゃく",
+      "headword": "{誘客|ゆうきゃく}",
+      "label": "attracting visitors"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -153,6 +169,6 @@
       "verb_class": "suru"
     },
     "created": "2026-03-19T12:20:03Z",
-    "modified": "2026-03-29T09:23:00Z"
+    "modified": "2026-09-02T04:01:50Z"
   }
 }

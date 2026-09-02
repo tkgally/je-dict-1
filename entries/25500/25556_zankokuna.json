@@ -3,7 +3,7 @@
   "headword": "{残酷|ざんこく}な",
   "reading": "ざんこくな",
   "romaji": "zankokuna",
-  "part_of_speech": "adjective",
+  "part_of_speech": "na-adjective",
   "gloss": "cruel; brutal; merciless",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25556_zankokuna_ex1",
-      "japanese": "{残酷|ざんこく}な{話|はなし}だ。",
+      "japanese": "{残酷|ざんこく}な⟦{話|はなし}→話：01496_hanashi⟧だ。",
       "english": "That's a cruel story.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25556_zankokuna_ex2",
-      "japanese": "{彼|かれ}の{残酷|ざんこく}な{仕打|しう}ちに{耐|た}えた。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧{残酷|ざんこく}な{仕打|しう}ち⟦に→に：00314_ni⟧⟦{耐|た}えた→耐える：12087_taeru⟧。",
       "english": "She endured his cruel treatment.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25556_zankokuna_ex3",
-      "japanese": "{戦争|せんそう}は{残酷|ざんこく}な{現実|げんじつ}を{人々|ひとびと}に{突|つ}きつける。",
+      "japanese": "⟦{戦争|せんそう}→戦争：01450_sensou⟧⟦は→は：00079_ha⟧{残酷|ざんこく}な⟦{現実|げんじつ}→現実：02720_genjitsu⟧⟦を→を：00422_wo⟧⟦{人々|ひとびと}→人々：03141_hitobito⟧⟦に→に：00314_ni⟧⟦{突|つ}きつける→突きつける：10542_tsukitsukeru⟧。",
       "english": "War confronts people with a cruel reality.",
       "sense_numbers": [
         1
@@ -44,8 +44,30 @@
       "notes": null
     }
   ],
-  "notes": "Describes cruelty that is deliberate or inherent in a situation, often involving pain or suffering imposed on others. Stronger and more visceral than simply being unkind.\n\nCOMMON COLLOCATIONS:\n- {残酷|ざんこく}な{仕打|しう}ち: cruel treatment\n- {残酷|ざんこく}な{運命|うんめい}: cruel fate\n- {残酷|ざんこく}な{現実|げんじつ}: harsh reality\n- {残酷|ざんこく}な{刑罰|けいばつ}: cruel punishment\n\nSIMILAR WORDS:\n- {酷|ひど}い: mean, terrible — more general and colloquial, covers a wider range from bad weather to unfair treatment\n- {非情|ひじょう}な: heartless, cold-blooded — emphasizes lack of emotion rather than active cruelty\n- {無慈悲|むじひ}な: merciless — focuses specifically on showing no mercy or compassion\n\nREGISTER:\nUsed in both written and spoken Japanese. Common in news, literature, and discussions about social issues. The noun form {残酷|ざんこく} can also be used directly.",
-  "cross_references": [],
+  "notes": "Describes cruelty that is deliberate or inherent in a situation, often involving pain or suffering imposed on others. Stronger and more visceral than simply being unkind.\n\nCOMMON COLLOCATIONS:\n- {残酷|ざんこく}な{仕打|しう}ち: cruel treatment\n- {残酷|ざんこく}な⟦{運命|うんめい}→運命：06879_unmei⟧: cruel fate\n- {残酷|ざんこく}な⟦{現実|げんじつ}→現実：02720_genjitsu⟧: harsh reality\n- {残酷|ざんこく}な⟦{刑罰|けいばつ}→刑罰：20566_keibatsu⟧: cruel punishment\n\nSIMILAR WORDS:\n- {酷|ひど}い: mean, terrible — more general and colloquial, covers a wider range from bad weather to unfair treatment\n- ⟦{非情|ひじょう}→非情：16027_hijou⟧な: heartless, cold-blooded — emphasizes lack of emotion rather than active cruelty\n- ⟦{無慈悲|むじひ}→無慈悲：15759_mujihi⟧な: merciless — focuses specifically on showing no mercy or compassion\n\nREGISTER:\nUsed in both written and spoken Japanese. Common in news, literature, and discussions about social issues. The noun form ⟦{残酷|ざんこく}→残酷：13201_zankoku⟧ can also be used directly.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16027_hijou",
+      "reading": "ひじょう",
+      "headword": "{非情|ひじょう}",
+      "label": "heartless, cold-blooded"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15759_mujihi",
+      "reading": "むじひ",
+      "headword": "{無慈悲|むじひ}",
+      "label": "merciless"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25557_hisanna",
+      "reading": "ひさんな",
+      "headword": "{悲惨|ひさん}な",
+      "label": "tragic"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,12 +75,13 @@
       "pos": [
         "adjective-na"
       ],
+      "politeness": "plain",
       "semantic": [
         "emotion",
         "evaluation"
       ]
     },
     "created": "2026-04-26T11:16:03Z",
-    "modified": "2026-04-26T11:16:03Z"
+    "modified": "2026-09-02T04:02:22Z"
   }
 }

@@ -78,11 +78,40 @@
       ]
     }
   ],
-  "notes": "{鉄|てつ} refers to iron as a material, and by extension, steel and iron products.\n\nCOMMON COMPOUNDS:\n- ⟦{鉄道|てつどう}→鉄道：03550_tetsudou⟧: railroad, railway\n- ⟦{地下鉄|ちかてつ}→地下鉄：01020_chikatetsu⟧: subway\n- ⟦{鉄板|てっぱん}→鉄板：14470_teppan⟧: iron plate, griddle; also slang for \"guaranteed\"\n- ⟦{鉄砲|てっぽう}→鉄砲：04540_teppou⟧: gun, firearm\n- ⟦{鉄橋|てっきょう}→鉄橋：15430_tekkyou⟧: iron bridge\n\nEXPRESSIONS:\n- {鉄|てつ}⟦は→は：00079_ha⟧⟦{熱|あつ}い→熱い：09888_atsui⟧⟦うち→内：01328_uchi⟧⟦に→に：00314_ni⟧⟦{打|う}て→打つ：01221_utsu⟧: Strike while the iron is hot\n\nSIMILAR MATERIALS:\n- ⟦{銅|どう}→銅：19443_dou⟧: copper\n- ⟦{銀|ぎん}→銀：02651_gin⟧: silver\n- ⟦{金|きん}→金：02666_kin⟧: gold\n- ⟦{鋼|はがね}→鋼：14739_hagane⟧: steel (refined iron)\n\nSLANG:\n⟦{鉄板|てっぱん}→鉄板：14470_teppan⟧ also means \"guaranteed\" or \"sure thing\" in modern slang.",
-  "cross_references": [],
+  "notes": "{鉄|てつ} refers to iron as a material, and by extension, steel and iron products.\n\nCOMPOUNDS:\n- ⟦{鉄道|てつどう}→鉄道：03550_tetsudou⟧: railroad, railway\n- ⟦{地下鉄|ちかてつ}→地下鉄：01020_chikatetsu⟧: subway\n- ⟦{鉄板|てっぱん}→鉄板：14470_teppan⟧: iron plate, griddle; also slang for \"guaranteed\"\n- ⟦{鉄砲|てっぽう}→鉄砲：04540_teppou⟧: gun, firearm\n- ⟦{鉄橋|てっきょう}→鉄橋：15430_tekkyou⟧: iron bridge\n\nCOMMON EXPRESSIONS:\n- {鉄|てつ}⟦は→は：00079_ha⟧⟦{熱|あつ}い→熱い：09888_atsui⟧⟦うち→内：01328_uchi⟧⟦に→に：00314_ni⟧⟦{打|う}て→打つ：01221_utsu⟧: Strike while the iron is hot\n\nSIMILAR MATERIALS:\n- ⟦{銅|どう}→銅：19443_dou⟧: copper\n- ⟦{銀|ぎん}→銀：02651_gin⟧: silver\n- ⟦{金|きん}→金：02666_kin⟧: gold\n- ⟦{鋼|はがね}→鋼：14739_hagane⟧: steel (refined iron)\n\nSLANG:\n⟦{鉄板|てっぱん}→鉄板：14470_teppan⟧ also means \"guaranteed\" or \"sure thing\" in modern slang.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19443_dou",
+      "reading": "どう",
+      "headword": "{銅|どう}",
+      "label": "copper"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02651_gin",
+      "reading": "ぎん",
+      "headword": "{銀|ぎん}",
+      "label": "silver"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02666_kin",
+      "reading": "きん",
+      "headword": "{金|きん}",
+      "label": "gold"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14739_hagane",
+      "reading": "はがね",
+      "headword": "{鋼|はがね}",
+      "label": "steel"
+    }
+  ],
   "metadata": {
     "created": "2026-01-09T12:22:24Z",
-    "modified": "2026-05-18T20:26:27Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "09228_onsengai_ex1",
-      "japanese": "{温泉街|おんせんがい}を{散策|さんさく}する。",
+      "japanese": "{温泉街|おんせんがい}⟦を→を：00422_wo⟧⟦{散策|さんさく}→散策：07618_sansaku⟧⟦する→する：00392_suru⟧。",
       "english": "To stroll around the hot spring town.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "09228_onsengai_ex2",
-      "japanese": "{温泉街|おんせんがい}には{旅館|りょかん}が{立|た}ち{並|なら}んでいる。",
+      "japanese": "{温泉街|おんせんがい}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{旅館|りょかん}→旅館：01049_ryokan⟧⟦が→が：00051_ga⟧{立|た}ち{並|なら}んで⟦いる→いる：00495_iru⟧。",
       "english": "Traditional inns line the hot spring district.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "09228_onsengai_ex3",
-      "japanese": "{浴衣|ゆかた}で{温泉街|おんせんがい}を{歩|ある}くのが{楽|たの}しい。",
+      "japanese": "⟦{浴衣|ゆかた}→浴衣：04081_yukata⟧⟦で→で：00502_de⟧{温泉街|おんせんがい}⟦を→を：00422_wo⟧⟦{歩|ある}く→歩く：00538_aruku⟧⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦{楽|たの}しい→楽しい：00817_tanoshii⟧。",
       "english": "It's fun to walk around the spa town in a yukata.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{温泉街|おんせんがい} refers to a town or area developed around hot springs for tourism.\n\nWORD COMPOSITION:\n- {温泉|おんせん}: hot spring\n- {街|がい}: town, district\n\nTYPICAL FEATURES:\n- {旅館|りょかん}: traditional Japanese inns\n- {共同|きょうどう}{浴場|よくじょう}: public baths\n- {土産物屋|みやげものや}: souvenir shops\n- {足湯|あしゆ}: foot baths\n- {射的|しゃてき}: shooting games\n\nFAMOUS HOT SPRING TOWNS:\n- {草津|くさつ}{温泉|おんせん} (Gunma)\n- {箱根|はこね} (Kanagawa)\n- {別府|べっぷ} (Oita)\n- {城崎|きのさき}{温泉|おんせん} (Hyogo)\n\nCULTURAL NOTE:\n- Walking around in {浴衣|ゆかた} (light cotton robe) is a traditional activity in {温泉街|おんせんがい}",
+  "notes": "{温泉街|おんせんがい} refers to a town or area developed around hot springs for tourism.\n\nWORD COMPOSITION:\n- ⟦{温泉|おんせん}→温泉：04117_onsen⟧: hot spring\n- {街|がい}: town, district\n\nTYPICAL FEATURES:\n- ⟦{旅館|りょかん}→旅館：01049_ryokan⟧: traditional Japanese inns\n- ⟦{共同|きょうどう}→共同：02591_kyoudou⟧⟦{浴場|よくじょう}→浴場：13350_yokujou⟧: public baths\n- ⟦{土産物屋|みやげものや}→土産物屋：16801_miyagemonoya⟧: souvenir shops\n- ⟦{足湯|あしゆ}→足湯：14296_ashiyu⟧: foot baths\n- ⟦{射的|しゃてき}→射的：24090_shateki⟧: shooting games\n\nFAMOUS HOT SPRING TOWNS:\n- {草津|くさつ}⟦{温泉|おんせん}→温泉：04117_onsen⟧ (Gunma)\n- ⟦{箱根|はこね}→箱根：30712_hakone⟧ (Kanagawa)\n- {別府|べっぷ} (Oita)\n- {城崎|きのさき}⟦{温泉|おんせん}→温泉：04117_onsen⟧ (Hyogo)\n\nCULTURAL NOTE:\n- Walking around in ⟦{浴衣|ゆかた}→浴衣：04081_yukata⟧ (light cotton robe) is a traditional activity in {温泉街|おんせんがい}",
   "cross_references": [
     {
       "type": "related",
@@ -51,11 +51,18 @@
       "headword": "{温泉|おんせん}",
       "label": "hot spring",
       "target_id": "04117_onsen"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28309_onsenchi",
+      "reading": "おんせんち",
+      "headword": "{温泉地|おんせんち}",
+      "label": "hot spring resort area"
     }
   ],
   "metadata": {
     "created": "2026-02-01T02:45:47Z",
-    "modified": "2026-08-12T21:25:53Z",
+    "modified": "2026-09-02T04:01:17Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

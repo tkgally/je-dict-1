@@ -15,42 +15,69 @@
   "examples": [
     {
       "id": "14232_zaibatsu_ex1",
-      "japanese": "{戦前|せんぜん}の{日本|にほん}は{財閥|ざいばつ}が{経済|けいざい}を{支配|しはい}していた。",
+      "japanese": "⟦{戦前|せんぜん}→戦前：12852_senzen⟧⟦の→の：09472_no⟧⟦{日本|にほん}→日本：03876_nihon⟧⟦は→は：00079_ha⟧{財閥|ざいばつ}⟦が→が：00051_ga⟧⟦{経済|けいざい}→経済：01394_keizai⟧⟦を→を：00422_wo⟧⟦{支配|しはい}していた→支配する：25222_shihaisuru⟧。",
       "english": "Prewar Japan's economy was dominated by zaibatsu.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14232_zaibatsu_ex2",
-      "japanese": "GHQは{財閥|ざいばつ}{解体|かいたい}を{命|めい}じた。",
+      "japanese": "GHQ⟦は→は：00079_ha⟧{財閥|ざいばつ}⟦{解体|かいたい}→解体：06223_kaitai⟧⟦を→を：00422_wo⟧⟦{命|めい}じた→命じる：02309_meijiru⟧。",
       "english": "GHQ ordered the dissolution of the zaibatsu.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14232_zaibatsu_ex3",
-      "japanese": "{三菱|みつびし}は{日本|にほん}を{代表|だいひょう}する{財閥|ざいばつ}の{一|ひと}つだった。",
+      "japanese": "{三菱|みつびし}⟦は→は：00079_ha⟧⟦{日本|にほん}→日本：03876_nihon⟧⟦を→を：00422_wo⟧⟦{代表|だいひょう}→代表：03419_daihyou⟧⟦する→する：00392_suru⟧{財閥|ざいばつ}⟦の→の：09472_no⟧⟦{一|ひと}つ→一つ：02948_hitotsu⟧だった。",
       "english": "Mitsubishi was one of Japan's most prominent zaibatsu.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nThe term {財閥|ざいばつ} is used as a loanword in English (\"zaibatsu\"). In modern Japanese, it sometimes appears in drama and fiction to describe wealthy, powerful families. The {四大|よんだい}{財閥|ざいばつ} (four great zaibatsu) were {三菱|みつびし}, {三井|みつい}, {住友|すみとも}, and {安田|やすだ}.\n\nCOMMON COLLOCATIONS:\n- {財閥|ざいばつ}{解体|かいたい}: dissolution of zaibatsu\n- {四大|よんだい}{財閥|ざいばつ}: the four great zaibatsu\n- {財閥|ざいばつ}{系|けい}: zaibatsu-affiliated\n- {財閥|ざいばつ}{企業|きぎょう}: zaibatsu company\n- {新興|しんこう}{財閥|ざいばつ}: newly-risen conglomerate\n\nSIMILAR WORDS:\nIn modern usage, {企業|きぎょう}グループ (corporate group) or {系列|けいれつ} (keiretsu) describes the successor structures. In Korean context, チェボル ({財閥|ざいばつ}, chaebol) uses the same kanji and refers to similar family-controlled conglomerates.",
-  "cross_references": [],
+  "notes": "USAGE:\nThe term {財閥|ざいばつ} is used as a loanword in English (\"zaibatsu\"). In modern Japanese, it sometimes appears in drama and fiction to describe wealthy, powerful families. The {四大|よんだい}{財閥|ざいばつ} (four great zaibatsu) were {三菱|みつびし}, {三井|みつい}, {住友|すみとも}, and {安田|やすだ}.\n\nCOMMON COLLOCATIONS:\n- {財閥|ざいばつ}⟦{解体|かいたい}→解体：06223_kaitai⟧: dissolution of zaibatsu\n- {四大|よんだい}{財閥|ざいばつ}: the four great zaibatsu\n- {財閥|ざいばつ}⟦{系|けい}→〜系：28466_kei⟧: zaibatsu-affiliated\n- {財閥|ざいばつ}⟦{企業|きぎょう}→企業：00225_kigyou⟧: zaibatsu company\n- ⟦{新興|しんこう}→新興：00457_shinkou⟧{財閥|ざいばつ}: newly-risen conglomerate\n\nSIMILAR WORDS:\nIn modern usage, ⟦{企業|きぎょう}→企業：00225_kigyou⟧⟦グループ→グループ：03840_guruupu⟧ (corporate group) or ⟦{系列|けいれつ}→系列：13821_keiretsu⟧ (keiretsu) describes the successor structures. In Korean context, チェボル ({財閥|ざいばつ}, chaebol) uses the same kanji and refers to similar family-controlled conglomerates.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20556_fugou",
+      "reading": "ふごう",
+      "headword": "{富豪|ふごう}",
+      "label": "wealthy person"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24659_goushou",
+      "reading": "ごうしょう",
+      "headword": "{豪商|ごうしょう}",
+      "label": "wealthy merchant"
+    }
+  ],
   "metadata": {
     "created": "2026-02-28T03:11:49Z",
-    "modified": "2026-02-28T03:11:49Z",
+    "modified": "2026-09-02T04:01:36Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["business"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "business"
+      ]
     }
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24188_shiratamako_ex1",
-      "japanese": "{白玉粉|しらたまこ}で{団子|だんご}を{作|つく}る。",
+      "japanese": "{白玉粉|しらたまこ}⟦で→で：00502_de⟧⟦{団子|だんご}→団子：04959_dango⟧⟦を→を：00422_wo⟧⟦{作|つく}る→作る：00481_tsukuru⟧。",
       "english": "To make dumplings with glutinous rice flour.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24188_shiratamako_ex2",
-      "japanese": "{白玉粉|しらたまこ}に{水|みず}を{少|すこ}しずつ{加|くわ}えて{練|ね}る。",
+      "japanese": "{白玉粉|しらたまこ}⟦に→に：00314_ni⟧⟦{水|みず}→水：02258_mizu⟧⟦を→を：00422_wo⟧⟦{少|すこ}し→少し：00596_sukoshi⟧⟦ずつ→〜ずつ：03092_zutsu⟧⟦{加|くわ}えて→加える：01941_kuwaeru⟧⟦{練|ね}る→練る：09751_neru⟧。",
       "english": "Add water little by little to the glutinous rice flour and knead.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24188_shiratamako_ex3",
-      "japanese": "{白玉粉|しらたまこ}で{作|つく}った{白玉|しらたま}を{冷|つめ}たい{あんみつ|あんみつ}に{入|い}れると{夏|なつ}にぴったりのデザートになる。",
+      "japanese": "{白玉粉|しらたまこ}⟦で→で：00502_de⟧⟦{作|つく}った→作る：00481_tsukuru⟧⟦{白玉|しらたま}→白玉：13711_shiratama⟧⟦を→を：00422_wo⟧⟦{冷|つめ}たい→冷たい：00681_tsumetai⟧⟦あんみつ→あんみつ：20653_anmitsu⟧⟦に→に：00314_ni⟧⟦{入|い}れる→入れる：01098_ireru⟧⟦と→と：00512_to⟧⟦{夏|なつ}→夏：02236_natsu⟧⟦に→に：00314_ni⟧⟦ぴったり→ぴったり：02362_pittari⟧⟦の→の：09472_no⟧⟦デザート→デザート：00036_dezaato⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧。",
       "english": "Adding shiratama dumplings made from glutinous rice flour to chilled anmitsu makes a perfect summer dessert.",
       "sense_numbers": [
         1
@@ -44,14 +44,39 @@
       "notes": null
     }
   ],
-  "notes": "A fine flour made from glutinous rice ({もち米|もちごめ}), used primarily to make {白玉|しらたま} (small, chewy rice dumplings). The dumplings are served in traditional Japanese desserts like {ぜんざい|ぜんざい}, {あんみつ|あんみつ}, and {みつまめ|みつまめ}.\n\nCOMMON COLLOCATIONS:\n- {白玉粉|しらたまこ}を{練|ね}る: to knead glutinous rice flour\n- {白玉粉|しらたまこ}で{団子|だんご}を{作|つく}る: to make dumplings with rice flour\n\nSIMILAR WORDS:\n- {上新粉|じょうしんこ}: non-glutinous rice flour — made from regular rice, producing a firmer texture\n- {もち粉|もちこ}: mochi flour — similar to {白玉粉|しらたまこ} but ground differently; more common in Western markets\n- {片栗粉|かたくりこ}: potato starch — used as a thickener; not a rice flour",
+  "notes": "A fine flour made from glutinous rice (⟦{もち米|もちごめ}→もち米：10664_mochigome⟧), used primarily to make ⟦{白玉|しらたま}→白玉：13711_shiratama⟧ (small, chewy rice dumplings). The dumplings are served in traditional Japanese desserts like ⟦ぜんざい→ぜんざい：20244_zenzai⟧, ⟦あんみつ→あんみつ：20653_anmitsu⟧, and みつまめ.\n\nCOMMON COLLOCATIONS:\n- {白玉粉|しらたまこ}⟦を→を：00422_wo⟧⟦{練|ね}る→練る：09751_neru⟧: to knead glutinous rice flour\n- {白玉粉|しらたまこ}⟦で→で：00502_de⟧⟦{団子|だんご}→団子：04959_dango⟧⟦を→を：00422_wo⟧⟦{作|つく}る→作る：00481_tsukuru⟧: to make dumplings with rice flour\n\nSIMILAR WORDS:\n- ⟦{上新粉|じょうしんこ}→上新粉：28740_joushinko⟧: non-glutinous rice flour — made from regular rice, producing a firmer texture\n- {もち粉|もちこ}: mochi flour — similar to {白玉粉|しらたまこ} but ground differently; more common in Western markets\n- ⟦{片栗粉|かたくりこ}→片栗粉：04923_katakuriko⟧: potato starch — used as a thickener; not a rice flour",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "28740_joushinko",
+      "reading": "じょうしんこ",
+      "headword": "{上新粉|じょうしんこ}",
+      "label": "non-glutinous rice flour"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04923_katakuriko",
+      "reading": "かたくりこ",
+      "headword": "{片栗粉|かたくりこ}",
+      "label": "potato starch"
+    },
+    {
+      "type": "related",
+      "target_id": "24971_mochiko",
+      "reading": "もちこ",
+      "headword": "{餅粉|もちこ}",
+      "label": "glutinous rice flour"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "food",
         "cooking"
@@ -59,6 +84,6 @@
       "usage": []
     },
     "created": "2026-04-17T21:46:28Z",
-    "modified": "2026-08-02T18:32:34Z"
+    "modified": "2026-09-02T04:02:17Z"
   }
 }

@@ -159,7 +159,7 @@
     },
     {
       "id": "02108_sakebu_ex6",
-      "japanese": "⟦{地震|じしん}→地震：01608_jishin⟧⟦が→が：00051_ga⟧⟦{起|お}きた→起きる：00521_okiru⟧⟦{瞬間|しゅんかん}→瞬間：03226_shunkan⟧、⟦{子供|こども}→子供：00554_kodomo⟧⟦たち→〜たち：01551_tachi⟧⟦は→は：00079_ha⟧⟦{一斉|いっせい}→一斉：01726_issei⟧⟦に→に：00314_ni⟧{叫|さけ}び{声|ごえ}⟦を→を：00422_wo⟧⟦{上|あ}げた→上げる：02443_ageru⟧。",
+      "japanese": "⟦{地震|じしん}→地震：01608_jishin⟧⟦が→が：00051_ga⟧⟦{起|お}きた→起きる：00521_okiru⟧⟦{瞬間|しゅんかん}→瞬間：03226_shunkan⟧、⟦{子供|こども}→子供：00554_kodomo⟧⟦たち→〜たち：01551_tachi⟧⟦は→は：00079_ha⟧⟦{一斉|いっせい}→一斉：01726_issei⟧⟦に→に：00314_ni⟧⟦{叫|さけ}び{声|ごえ}→叫び声：26924_sakebigoe⟧⟦を→を：00422_wo⟧⟦{上|あ}げた→上げる：02443_ageru⟧。",
       "english": "The moment the earthquake struck, the children all screamed at once.",
       "notes": null,
       "has_audio": false,
@@ -168,7 +168,7 @@
       ]
     }
   ],
-  "notes": "{叫|さけ}ぶ means to shout, yell, or cry out loudly.\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n\nCOMMON PATTERNS:\n- ⟦{大声|おおごえ}→大声：09592_oogoe⟧⟦で→で：00502_de⟧{叫|さけ}ぶ: to shout loudly\n- ⟦{助|たす}けて→助ける：00895_tasukeru⟧⟦と→と：00512_to⟧{叫|さけ}ぶ: to cry for help\n- {叫|さけ}び⟦{声|ごえ}→声：02207_koe⟧: a shout, scream\n\nSIMILAR WORDS:\n- ⟦{怒鳴|どな}る→怒鳴る：05340_donaru⟧: to yell (angrily, at someone)\n- ⟦わめく→喚く：05345_wameku⟧: to scream, cry out wildly\n- ⟦{悲鳴|ひめい}→悲鳴：12621_himei⟧⟦を→を：00422_wo⟧⟦{上|あ}げる→上げる：02443_ageru⟧: to let out a scream\n\nRELATED:\n- {叫|さけ}び: a shout, cry (noun form)",
+  "notes": "{叫|さけ}ぶ means to shout, yell, or cry out loudly.\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n\nCOMMON PATTERNS:\n- ⟦{大声|おおごえ}→大声：09592_oogoe⟧⟦で→で：00502_de⟧{叫|さけ}ぶ: to shout loudly\n- ⟦{助|たす}けて→助ける：00895_tasukeru⟧⟦と→と：00512_to⟧{叫|さけ}ぶ: to cry for help\n- {叫|さけ}び⟦{声|ごえ}→声：02207_koe⟧: a shout, scream\n\nSIMILAR WORDS:\n- ⟦{怒鳴|どな}る→怒鳴る：05340_donaru⟧: to yell (angrily, at someone)\n- ⟦わめく→喚く：05345_wameku⟧: to scream, cry out wildly\n- ⟦{悲鳴|ひめい}→悲鳴：12621_himei⟧⟦を→を：00422_wo⟧⟦{上|あ}げる→上げる：02443_ageru⟧: to let out a scream\n\nRELATED WORDS:\n- {叫|さけ}び: a shout, cry (noun form)",
   "cross_references": [
     {
       "type": "contrast",
@@ -176,11 +176,32 @@
       "reading": "よぶ",
       "headword": "{呼|よ}ぶ",
       "label": "to call, to invite"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05340_donaru",
+      "reading": "どなる",
+      "headword": "{怒鳴|どな}る",
+      "label": "to yell"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05345_wameku",
+      "reading": "わめく",
+      "headword": "{喚|わめ}く",
+      "label": "to scream, cry out wildly"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29268_hariageru",
+      "reading": "はりあげる",
+      "headword": "{張|は}り{上|あ}げる",
+      "label": "to raise (one's voice)"
     }
   ],
   "metadata": {
     "created": "2026-01-09T12:55:48Z",
-    "modified": "2026-08-12T09:21:26Z",
+    "modified": "2026-09-02T04:01:01Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

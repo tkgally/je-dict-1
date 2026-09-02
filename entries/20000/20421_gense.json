@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "20421_gense_ex1",
-      "japanese": "{現世|げんせ}での{幸|しあわ}せを{願|ねが}う。",
+      "japanese": "{現世|げんせ}⟦で→で：00502_de⟧⟦の→の：09472_no⟧{幸|しあわ}せ⟦を→を：00422_wo⟧⟦{願|ねが}う→願う：02387_negau⟧。",
       "english": "To wish for happiness in this life.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20421_gense_ex2",
-      "japanese": "{仏教|ぶっきょう}では{現世|げんせ}の{行|おこな}いが{来世|らいせ}に{影響|えいきょう}すると{考|かんが}えられている。",
+      "japanese": "⟦{仏教|ぶっきょう}→仏教：11428_bukkyou⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧{現世|げんせ}⟦の→の：09472_no⟧⟦{行|おこな}い→行い：14121_okonai⟧⟦が→が：00051_ga⟧⟦{来世|らいせ}→来世：14988_raise⟧⟦に→に：00314_ni⟧⟦{影響|えいきょう}→影響：01877_eikyou⟧⟦する→する：00392_suru⟧⟦と→と：00512_to⟧⟦{考|かんが}えられている→考える：00856_kangaeru⟧。",
       "english": "In Buddhism, one's actions in this life are believed to affect the next life.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20421_gense_ex3",
-      "japanese": "{現世|げんせ}{利益|りやく}を{求|もと}めてお{寺|てら}に{参|まい}る{人|ひと}も{多|おお}い。",
+      "japanese": "{現世|げんせ}{利益|りやく}⟦を→を：00422_wo⟧⟦{求|もと}めて→求める：02316_motomeru⟧⟦お{寺|てら}→お寺：23515_otera⟧⟦に→に：00314_ni⟧⟦{参|まい}る→参る：01322_mairu⟧⟦{人|ひと}→人：00476_hito⟧⟦も→も：00484_mo⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "Many people visit temples seeking worldly benefits.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A Buddhist-origin concept referring to the present existence. In Buddhist cosmology, existence is divided into three phases: {前世|ぜんせ} (previous life), {現世|げんせ} (this life), and {来世|らいせ} (next life).\n\nALTERNATIVE READING:\nAlso read as げんせい or うつしよ. The reading うつしよ has a more literary, Shinto-influenced nuance meaning \"the visible/real world\" as opposed to the spirit world.\n\nCOMMON COLLOCATIONS:\n- {現世|げんせ}{利益|りやく}: worldly benefits (blessings sought through prayer for this life)\n- {現世|げんせ}での{行|おこな}い: one's conduct in this life\n- {現世|げんせ}を{楽|たの}しむ: to enjoy this life\n\nRELATED TERMS:\n- {前世|ぜんせ}: previous life — the life before this one\n- {来世|らいせ}: next life, afterlife — the life after this one\n- {三世|さんぜ}: three worlds/lives — past, present, and future existences\n- {浮世|うきよ}: the floating world — the transient, pleasure-seeking world (Edo-era concept)",
+  "notes": "A Buddhist-origin concept referring to the present existence. In Buddhist cosmology, existence is divided into three phases: ⟦{前世|ぜんせ}→前世：14987_zense⟧ (previous life), {現世|げんせ} (this life), and ⟦{来世|らいせ}→来世：14988_raise⟧ (next life).\n\nALTERNATIVE READING:\nAlso read as げんせい or うつし⟦よ→よ：09475_yo⟧. The reading うつし⟦よ→よ：09475_yo⟧ has a more literary, Shinto-influenced nuance meaning \"the visible/real world\" as opposed to the spirit world.\n\nCOMMON COLLOCATIONS:\n- {現世|げんせ}{利益|りやく}: worldly benefits (blessings sought through prayer for this life)\n- {現世|げんせ}⟦で→で：00502_de⟧⟦の→の：09472_no⟧⟦{行|おこな}い→行う：01238_okonau⟧: one's conduct in this life\n- {現世|げんせ}⟦を→を：00422_wo⟧⟦{楽|たの}しむ→楽しむ：01203_tanoshimu⟧: to enjoy this life\n\nRELATED WORDS:\n- ⟦{前世|ぜんせ}→前世：14987_zense⟧: previous life — the life before this one\n- ⟦{来世|らいせ}→来世：14988_raise⟧: next life, afterlife — the life after this one\n- {三世|さんぜ}: three worlds/lives — past, present, and future existences\n- {浮世|うきよ}: the floating world — the transient, pleasure-seeking world (Edo-era concept)",
   "cross_references": [
     {
       "type": "related",
@@ -53,18 +59,51 @@
       "reading": "らいせ",
       "headword": "{来世|らいせ}",
       "label": "next life"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10334_konoyo",
+      "reading": "このよ",
+      "headword": "この{世|よ}",
+      "label": "this world"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19857_sezokuteki",
+      "reading": "せぞくてき",
+      "headword": "{世俗的|せぞくてき}",
+      "label": "secular"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24553_sezoku",
+      "reading": "せぞく",
+      "headword": "{世俗|せぞく}",
+      "label": "worldly"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26259_zokuseken",
+      "reading": "ぞくせけん",
+      "headword": "{俗世間|ぞくせけん}",
+      "label": "the secular world"
     }
   ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["religion", "philosophy"]
+      "semantic": [
+        "religion",
+        "philosophy"
+      ]
     },
     "created": "2026-03-29T13:04:14Z",
-    "modified": "2026-05-01T04:26:51Z"
+    "modified": "2026-09-02T04:01:59Z"
   }
 }

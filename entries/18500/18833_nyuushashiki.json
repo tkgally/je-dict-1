@@ -15,44 +15,65 @@
   "examples": [
     {
       "id": "18833_nyuushashiki_ex1",
-      "japanese": "{入社式|にゅうしゃしき}に{出席|しゅっせき}する。",
+      "japanese": "{入社式|にゅうしゃしき}⟦に→に：00314_ni⟧⟦{出席|しゅっせき}する→出席する：01830_shussekisuru⟧。",
       "english": "I'll attend the company entrance ceremony.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "18833_nyuushashiki_ex2",
-      "japanese": "{四月|しがつ}{一日|ついたち}に{入社式|にゅうしゃしき}が{行|おこな}われた。",
+      "japanese": "⟦{四月|しがつ}→四月：00668_shigatsu⟧⟦{一日|ついたち}→一日：10993_tsuitachi⟧⟦に→に：00314_ni⟧{入社式|にゅうしゃしき}⟦が→が：00051_ga⟧⟦{行|おこな}われた→行う：01238_okonau⟧。",
       "english": "The company entrance ceremony was held on April 1st.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "18833_nyuushashiki_ex3",
-      "japanese": "{入社式|にゅうしゃしき}では{社長|しゃちょう}から{新入社員|しんにゅうしゃいん}への{訓示|くんじ}があった。",
+      "japanese": "{入社式|にゅうしゃしき}⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{社長|しゃちょう}→社長：01428_shachou⟧⟦から→から：00504_kara⟧⟦{新入社員|しんにゅうしゃいん}→新入社員：15536_shinnyuushain⟧⟦へ→へ：02473_he⟧⟦の→の：09472_no⟧{訓示|くんじ}⟦が→が：00051_ga⟧⟦あった→ある：00006_aru⟧。",
       "english": "At the company entrance ceremony, the president gave an address to the new employees.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A distinctly Japanese corporate tradition. Nearly all large companies hold this ceremony on April 1st, the start of the Japanese fiscal year. New employees typically wear dark suits and attend together as a cohort ({同期|どうき}). The ceremony usually includes speeches by executives, an oath by a representative of the new hires, and group photos. Smaller companies may have simpler versions or skip the ceremony entirely.",
+  "notes": "A distinctly Japanese corporate tradition. Nearly all large companies hold this ceremony on April 1st, the start of the Japanese fiscal year. New employees typically wear dark suits and attend together as a cohort (⟦{同期|どうき}→同期：12029_douki⟧). The ceremony usually includes speeches by executives, an oath by a representative of the new hires, and group photos. Smaller companies may have simpler versions or skip the ceremony entirely.",
   "synonyms": [],
   "antonyms": [],
   "related": [],
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20145_nyuuenshiki",
+      "reading": "にゅうえんしき",
+      "headword": "{入園式|にゅうえんしき}",
+      "label": "kindergarten entrance ceremony"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["work"],
-      "domain": ["business"]
+      "semantic": [
+        "work"
+      ],
+      "domain": [
+        "business"
+      ]
     },
     "created": "2026-03-23T05:26:58Z",
-    "modified": "2026-03-23T05:26:58Z"
+    "modified": "2026-09-02T04:01:53Z"
   }
 }

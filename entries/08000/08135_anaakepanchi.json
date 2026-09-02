@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08135_anaakepanchi_ex1",
-      "japanese": "{穴|あな}あけパンチで{書類|しょるい}に{穴|あな}をあける。",
+      "japanese": "{穴|あな}あけパンチ⟦で→で：00502_de⟧⟦{書類|しょるい}→書類：01103_shorui⟧⟦に→に：00314_ni⟧⟦{穴|あな}→穴：01691_ana⟧⟦を→を：00422_wo⟧あける。",
       "english": "To punch holes in documents with a hole punch.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "08135_anaakepanchi_ex2",
-      "japanese": "この{穴|あな}あけパンチは{二|に}{穴|あな}{用|よう}だ。",
+      "japanese": "⟦この→この：00962_kono⟧{穴|あな}あけパンチ⟦は→は：00079_ha⟧{二|に}{穴|あな}⟦{用|よう}→〜用：09842_you⟧だ。",
       "english": "This hole punch is for making two holes.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "08135_anaakepanchi_ex3",
-      "japanese": "{穴|あな}あけパンチの{位置|いち}を{調整|ちょうせい}する。",
+      "japanese": "{穴|あな}あけパンチ⟦の→の：09472_no⟧⟦{位置|いち}→位置：11554_ichi⟧⟦を→を：00422_wo⟧⟦{調整|ちょうせい}する→調整する：10442_chouseisuru⟧。",
       "english": "To adjust the position of the hole punch.",
       "sense_numbers": [
         1
@@ -43,7 +43,23 @@
       "notes": null
     }
   ],
-  "notes": "A device used to punch holes in paper so it can be inserted into a ring binder or file. Standard in Japanese offices and schools.\n\nALSO CALLED:\n- パンチ (punch) — abbreviated form, most common in speech\n- {穴|あな}あけ{器|き} (hole maker) — less common variant\n\nTYPES:\n- {二|に}{穴|あな}パンチ (2-hole punch) — standard in Japan\n- {一|いち}{穴|あな}パンチ (single hole punch)\n- {多|た}{穴|あな}パンチ (multi-hole punch)\n\nCOMMON PATTERNS:\n- {穴|あな}あけパンチで{穴|あな}をあける: to punch holes\n- パンチで{書類|しょるい}をとじる{準備|じゅんび}をする: to prepare documents for filing\n\nRELATED TERMS:\n- バインダー (binder)\n- ファイル (file/folder)\n- ホチキス (stapler)",
+  "notes": "A device used to punch holes in paper so it can be inserted into a ring binder or file. Standard in Japanese offices and schools.\n\nALSO CALLED:\n- ⟦パンチ→パンチ：11258_panchi⟧ (punch) — abbreviated form, most common in speech\n- {穴|あな}あけ{器|き} (hole maker) — less common variant\n\nTYPES:\n- {二|に}{穴|あな}⟦パンチ→パンチ：11258_panchi⟧ (2-hole punch) — standard in Japan\n- ⟦{一|いち}→一：00705_ichi⟧⟦{穴|あな}→穴：01691_ana⟧⟦パンチ→パンチ：11258_panchi⟧ (single hole punch)\n- {多|た}⟦{穴|あな}→穴：01691_ana⟧⟦パンチ→パンチ：11258_panchi⟧ (multi-hole punch)\n\nCOMMON PATTERNS:\n- {穴|あな}あけパンチ⟦で→で：00502_de⟧⟦{穴|あな}→穴：01691_ana⟧⟦を→を：00422_wo⟧あける: to punch holes\n- ⟦パンチ→パンチ：11258_panchi⟧⟦で→で：00502_de⟧⟦{書類|しょるい}→書類：01103_shorui⟧⟦を→を：00422_wo⟧とじる⟦{準備|じゅんび}→準備：01431_junbi⟧⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧: to prepare documents for filing\n\nRELATED WORDS:\n- バインダー (binder)\n- ⟦ファイル→ファイル：05280_fairu⟧ (file/folder)\n- ⟦ホチキス→ホチキス：20403_hochikisu⟧ (stapler)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "05280_fairu",
+      "reading": "ふぁいる",
+      "headword": "ファイル",
+      "label": "file/folder"
+    },
+    {
+      "type": "related",
+      "target_id": "20403_hochikisu",
+      "reading": "ほちきす",
+      "headword": "ホチキス",
+      "label": "stapler"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -51,12 +67,13 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "work",
         "tool"
       ]
     },
     "created": "2026-01-25T06:01:52Z",
-    "modified": "2026-08-11T21:34:29Z"
+    "modified": "2026-09-02T04:01:14Z"
   }
 }

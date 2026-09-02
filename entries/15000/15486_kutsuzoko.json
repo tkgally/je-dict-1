@@ -15,40 +15,72 @@
   "examples": [
     {
       "id": "15486_kutsuzoko_ex1",
-      "japanese": "{靴底|くつぞこ}がすり{減|へ}った。",
+      "japanese": "{靴底|くつぞこ}⟦が→が：00051_ga⟧⟦すり{減|へ}った→すり減る：10381_suriheru⟧。",
       "english": "The soles of my shoes are worn down.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15486_kutsuzoko_ex2",
-      "japanese": "{靴底|くつぞこ}にガムがくっついた。",
+      "japanese": "{靴底|くつぞこ}⟦に→に：00314_ni⟧⟦ガム→ガム：00058_gamu⟧⟦が→が：00051_ga⟧⟦くっついた→くっつく：10317_kuttsuku⟧。",
       "english": "Gum stuck to the bottom of my shoe.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15486_kutsuzoko_ex3",
-      "japanese": "{滑|すべ}りにくい{靴底|くつぞこ}の{靴|くつ}を{選|えら}んだほうがいい。",
+      "japanese": "⟦{滑|すべ}り→滑る：01230_suberu⟧にくい{靴底|くつぞこ}⟦の→の：09472_no⟧⟦{靴|くつ}→靴：00725_kutsu⟧⟦を→を：00422_wo⟧⟦{選|えら}んだ→選ぶ：00835_erabu⟧⟦ほうがいい→ほうがいい：10078_hougaii⟧。",
       "english": "You should choose shoes with non-slip soles.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "The bottom surface of a shoe that makes contact with the ground. Often discussed in the context of shoe wear, repair, or traction.\n\nFORMATION:\n{靴|くつ} (shoe) + {底|そこ} (bottom). Rendaku changes そこ to ぞこ.\n\nCOMMON COLLOCATIONS:\n- {靴底|くつぞこ}がすり{減|へ}る: soles wear down\n- {靴底|くつぞこ}を{張|は}り{替|か}える: to resole shoes\n- {靴底|くつぞこ}が{厚|あつ}い: thick soles\n- {靴底|くつぞこ}が{滑|すべ}る: soles are slippery\n\nRELATED WORDS:\n- {中敷|なかじ}き: insole\n- かかと: heel (of a shoe)",
-  "cross_references": [],
+  "notes": "The bottom surface of a shoe that makes contact with the ground. Often discussed in the context of shoe wear, repair, or traction.\n\nFORMS:\n⟦{靴|くつ}→靴：00725_kutsu⟧ (shoe) + ⟦{底|そこ}→底：12560_soko⟧ (bottom). Rendaku changes ⟦そこ→そこ：00991_soko⟧ to ぞこ.\n\nCOMMON COLLOCATIONS:\n- {靴底|くつぞこ}⟦が→が：00051_ga⟧⟦すり{減|へ}る→すり減る：10381_suriheru⟧: soles wear down\n- {靴底|くつぞこ}⟦を→を：00422_wo⟧⟦{張|は}り{替|か}える→張り替える：28418_harikaeru⟧: to resole shoes\n- {靴底|くつぞこ}⟦が→が：00051_ga⟧⟦{厚|あつ}い→厚い：00690_atsui⟧: thick soles\n- {靴底|くつぞこ}⟦が→が：00051_ga⟧⟦{滑|すべ}る→滑る：01230_suberu⟧: soles are slippery\n\nRELATED WORDS:\n- ⟦{中敷|なかじ}き→中敷き：17438_nakajiki⟧: insole\n- かかと: heel (of a shoe)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "17438_nakajiki",
+      "reading": "なかじき",
+      "headword": "{中敷|なかじ}き",
+      "label": "insole"
+    },
+    {
+      "type": "related",
+      "target_id": "04265_kakato",
+      "reading": "かかと",
+      "headword": "{踵|かかと}",
+      "label": "heel"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25739_insooru",
+      "reading": "いんそーる",
+      "headword": "インソール",
+      "label": "insole"
+    }
+  ],
   "metadata": {
     "created": "2026-03-07T08:59:19Z",
-    "modified": "2026-03-25T05:40:40Z",
+    "modified": "2026-09-02T04:01:41Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["clothing"]
+      "semantic": [
+        "clothing"
+      ]
     }
   }
 }

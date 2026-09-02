@@ -3,7 +3,7 @@
   "headword": "{横入|よこい}り",
   "reading": "よこいり",
   "romaji": "yokoiri",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "cutting in line; jumping the queue",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25288_yokoiri_ex1",
-      "japanese": "{横入|よこい}りしないでください。",
+      "japanese": "{横入|よこい}り⟦しないで→する：00392_suru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please don't cut in line.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25288_yokoiri_ex2",
-      "japanese": "{列|れつ}に{横入|よこい}りする{人|ひと}がいて{腹|はら}が{立|た}った。",
+      "japanese": "⟦{列|れつ}→列：02171_retsu⟧⟦に→に：00314_ni⟧{横入|よこい}り⟦する→する：00392_suru⟧⟦{人|ひと}→人：00476_hito⟧がいて⟦{腹|はら}→腹：02165_hara⟧⟦が→が：00051_ga⟧⟦{立|た}った→立つ：00758_tatsu⟧。",
       "english": "I got angry because someone cut into the line.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25288_yokoiri_ex3",
-      "japanese": "ラーメン{屋|や}の{行列|ぎょうれつ}に{横入|よこい}りしたら、{後|うし}ろの{人|ひと}に{注意|ちゅうい}された。",
+      "japanese": "⟦ラーメン→ラーメン：05181_raamen⟧⟦{屋|や}→〜屋：03096_ya⟧⟦の→の：09472_no⟧⟦{行列|ぎょうれつ}→行列：09699_gyouretsu⟧⟦に→に：00314_ni⟧{横入|よこい}り⟦したら→する：00392_suru⟧、⟦{後|うし}ろ→後ろ：00683_ushiro⟧⟦の→の：09472_no⟧⟦{人|ひと}→人：00476_hito⟧⟦に→に：00314_ni⟧⟦{注意|ちゅうい}→注意：01464_chuui⟧⟦された→する：00392_suru⟧。",
       "english": "When I cut into the line at the ramen shop, the person behind me called me out.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {横|よこ} (side, lateral) + {入|い}り (entering). Describes the act of entering a queue from the side rather than joining at the end. Considered rude behavior in Japan, where orderly queuing is a strong social norm.\n\nCOMMON COLLOCATIONS:\n- {横入|よこい}りする: to cut in line\n- {横入|よこい}りされる: to have someone cut in front of you\n- {横入|よこい}り{禁止|きんし}: no cutting in line\n- {列|れつ}に{横入|よこい}りする: to cut into a line\n\nSIMILAR WORDS:\n- {割|わ}り{込|こ}み: cutting in — similar meaning, also used for interrupting conversations or traffic\n- {割|わ}り{込|こ}む: to cut in — verb form; broader usage including cutting into traffic\n- {順番|じゅんばん}を{守|まも}る: to wait one's turn — the expected behavior\n\nNOTE: {横入|よこい}り is particularly common in children's speech and in casual contexts. Adults more often use {割|わ}り{込|こ}み.",
+  "notes": "Composed of ⟦{横|よこ}→横：02984_yoko⟧ (side, lateral) + {入|い}り (entering). Describes the act of entering a queue from the side rather than joining at the end. Considered rude behavior in Japan, where orderly queuing is a strong social norm.\n\nCOMMON COLLOCATIONS:\n- {横入|よこい}り⟦する→する：00392_suru⟧: to cut in line\n- {横入|よこい}り⟦される→する：00392_suru⟧: to have someone cut in front of you\n- {横入|よこい}り⟦{禁止|きんし}→禁止：02643_kinshi⟧: no cutting in line\n- ⟦{列|れつ}→列：02171_retsu⟧⟦に→に：00314_ni⟧{横入|よこい}り⟦する→する：00392_suru⟧: to cut into a line\n\nSIMILAR WORDS:\n- ⟦{割|わ}り{込|こ}み→割り込む：06973_warikomu⟧: cutting in — similar meaning, also used for interrupting conversations or traffic\n- ⟦{割|わ}り{込|こ}む→割り込む：06973_warikomu⟧: to cut in — verb form; broader usage including cutting into traffic\n- ⟦{順番|じゅんばん}→順番：03283_junban⟧⟦を→を：00422_wo⟧⟦{守|まも}る→守る：01986_mamoru⟧: to wait one's turn — the expected behavior\n\nNOTE: {横入|よこい}り is particularly common in children's speech and in casual contexts. Adults more often use ⟦{割|わ}り{込|こ}み→割り込む：06973_warikomu⟧.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25236_warikomi",
+      "reading": "わりこみ",
+      "headword": "{割|わ}り{込|こ}み",
+      "label": "cutting in"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06973_warikomu",
+      "reading": "わりこむ",
+      "headword": "{割|わ}り{込|こ}む",
+      "label": "to cut in"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,6 +69,7 @@
         "noun",
         "verb-suru"
       ],
+      "politeness": "plain",
       "semantic": [
         "daily-life",
         "culture"
@@ -60,7 +77,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-24T13:19:15Z",
-    "modified": "2026-08-04T12:59:53Z"
+    "modified": "2026-09-02T04:02:21Z"
   },
   "conjugation": {
     "type": "suru",

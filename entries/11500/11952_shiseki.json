@@ -14,42 +14,81 @@
   "examples": [
     {
       "id": "11952_shiseki_ex1",
-      "japanese": "{史跡|しせき}を{巡|めぐ}る。",
+      "japanese": "{史跡|しせき}⟦を→を：00422_wo⟧⟦{巡|めぐ}る→巡る：03930_meguru⟧。",
       "english": "Visit historic sites.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11952_shiseki_ex2",
-      "japanese": "この{城跡|しろあと}は{国|くに}の{史跡|しせき}に{指定|してい}されている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{城跡|しろあと}→城跡：16199_shiroato⟧⟦は→は：00079_ha⟧⟦{国|くに}→国：02204_kuni⟧⟦の→の：09472_no⟧{史跡|しせき}⟦に→に：00314_ni⟧⟦{指定|してい}→指定：00373_shitei⟧⟦されている→する：00392_suru⟧。",
       "english": "These castle ruins are designated as a national historic site.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11952_shiseki_ex3",
-      "japanese": "{京都|きょうと}には{数|かず}え{切|き}れないほどの{史跡|しせき}がある。",
+      "japanese": "⟦{京都|きょうと}→京都：09484_kyouto⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{数|かず}え⟦{切|き}れない→切れる：01936_kireru⟧ほど⟦の→の：09472_no⟧{史跡|しせき}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "Kyoto has an uncountable number of historic sites.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "COMMON COLLOCATIONS:\n・{史跡|しせき}{巡|めぐ}り (visiting historic sites, historic site tour)\n・{国|くに}の{史跡|しせき} (nationally designated historic site)\n・{史跡|しせき}に{指定|してい}される (be designated as a historic site)\n・{史跡|しせき}{公園|こうえん} (historic site park)\n\nUSAGE NOTES:\nIn Japan's cultural property system, {史跡|しせき} is one of the official categories under the Cultural Properties Protection Act. Designated {史跡|しせき} receive legal protection. In everyday use, the word can refer to any historically significant location, whether officially designated or not.",
-  "cross_references": [],
+  "notes": "COMMON COLLOCATIONS:\n- {史跡|しせき}{巡|めぐ}り (visiting historic sites, historic site tour)\n- ⟦{国|くに}→国：02204_kuni⟧⟦の→の：09472_no⟧{史跡|しせき} (nationally designated historic site)\n- {史跡|しせき}⟦に→に：00314_ni⟧⟦{指定|してい}→指定：00373_shitei⟧⟦される→する：00392_suru⟧ (be designated as a historic site)\n- {史跡|しせき}⟦{公園|こうえん}→公園：00581_kouen⟧ (historic site park)\n\nUSAGE:\nIn Japan's cultural property system, {史跡|しせき} is one of the official categories under the Cultural Properties Protection Act. Designated {史跡|しせき} receive legal protection. In everyday use, the word can refer to any historically significant location, whether officially designated or not.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "08164_meisho",
+      "reading": "めいしょ",
+      "headword": "{名所|めいしょ}",
+      "label": "famous place"
+    },
+    {
+      "type": "related",
+      "target_id": "09527_iseki",
+      "reading": "いせき",
+      "headword": "{遺跡|いせき}",
+      "label": "ruins, historic site, remains"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24213_meiseki",
+      "reading": "めいせき",
+      "headword": "{名跡|めいせき}",
+      "label": "famous historic site"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29234_isekigun",
+      "reading": "いせきぐん",
+      "headword": "{遺跡群|いせきぐん}",
+      "label": "ruins complex"
+    }
+  ],
   "metadata": {
     "created": "2026-02-19T10:53:39Z",
-    "modified": "2026-02-19T10:53:39Z",
+    "modified": "2026-09-02T04:01:27Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["geography"]
+      "semantic": [
+        "geography"
+      ]
     }
   }
 }

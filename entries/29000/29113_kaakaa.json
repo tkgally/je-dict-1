@@ -9,13 +9,13 @@
     {
       "sense_number": 1,
       "gloss": "caw caw; the cry of a crow",
-      "explanation": "The Japanese representation of a crow's cawing sound. Crows ({カラス|からす}) are common in Japanese cities and their loud calls are a familiar urban sound."
+      "explanation": "The Japanese representation of a crow's cawing sound. Crows (カラス) are common in Japanese cities and their loud calls are a familiar urban sound."
     }
   ],
   "examples": [
     {
       "id": "29113_kaakaa_ex1",
-      "japanese": "{烏|からす}がカーカーと{鳴|な}いている。",
+      "japanese": "{烏|からす}⟦が→が：00051_ga⟧カーカー⟦と→と：00512_to⟧⟦{鳴|な}いている→鳴く：04388_naku⟧。",
       "english": "A crow is cawing.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29113_kaakaa_ex2",
-      "japanese": "カーカーという{声|こえ}が{空|そら}から{聞|き}こえた。",
+      "japanese": "カーカー⟦という→という：09577_toiu⟧⟦{声|こえ}→声：02207_koe⟧⟦が→が：00051_ga⟧⟦{空|そら}→空：02216_sora⟧⟦から→から：00504_kara⟧⟦{聞|き}こえた→聞こえる：01229_kikoeru⟧。",
       "english": "A cawing sound could be heard from the sky.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29113_kaakaa_ex3",
-      "japanese": "{朝早|あさはや}く{ゴミ袋|ごみぶくろ}を{漁|あさ}る{烏|からす}がカーカーとうるさく{鳴|な}いていた。",
+      "japanese": "{朝早|あさはや}く{ゴミ袋|ごみぶくろ}⟦を→を：00422_wo⟧⟦{漁|あさ}る→漁る：04606_asaru⟧{烏|からす}⟦が→が：00051_ga⟧カーカー⟦と→と：00512_to⟧⟦うるさく→うるさい：00763_urusai⟧⟦{鳴|な}いていた→鳴く：04388_naku⟧。",
       "english": "A crow rummaging through garbage bags early in the morning was cawing loudly.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "The standard Japanese onomatopoeia for a crow's caw. Crows ({烏|からす} or カラス) are abundant in Japanese urban areas and their calls are a familiar part of daily life.\n\nCOMMON PATTERNS:\n- カーカーと{鳴|な}く: to caw\n- カーカーという{声|こえ}: the cawing sound\n\nOTHER BIRD SOUNDS:\n- コケコッコー: rooster crowing\n- ぴよぴよ: baby chick chirping\n- チュンチュン: sparrow chirping",
+  "notes": "The standard Japanese onomatopoeia for a crow's caw. Crows ({烏|からす} or ⟦カラス→カラス：09930_karasu⟧) are abundant in Japanese urban areas and their calls are a familiar part of daily life.\n\nCOMMON PATTERNS:\n- カーカー⟦と→と：00512_to⟧⟦{鳴|な}く→鳴く：04388_naku⟧: to caw\n- カーカー⟦という→という：09577_toiu⟧⟦{声|こえ}→声：02207_koe⟧: the cawing sound\n\nOTHER BIRD SOUNDS:\n- ⟦コケコッコー→コケコッコー：29112_kokekokkoo⟧: rooster crowing\n- ⟦ぴよぴよ→ぴよぴよ：05994_piyopiyo⟧: baby chick chirping\n- ⟦チュンチュン→チュンチュン：29101_chunchun⟧: sparrow chirping",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "29101_chunchun",
+      "reading": "ちゅんちゅん",
+      "headword": "チュンチュン",
+      "label": "chirp-chirp"
+    },
+    {
+      "type": "related",
+      "target_id": "29102_hoohokekyo",
+      "reading": "ほーほけきょ",
+      "headword": "ホーホケキョ",
+      "label": "hōhokekyo (bush warbler's call)"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +69,13 @@
         "onomatopoeia"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "descriptive"
       ],
       "domain": []
     },
     "created": "2026-06-10T19:37:55Z",
-    "modified": "2026-06-10T19:46:18Z"
+    "modified": "2026-09-02T04:02:36Z"
   }
 }

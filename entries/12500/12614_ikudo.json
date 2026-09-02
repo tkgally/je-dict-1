@@ -15,42 +15,62 @@
   "examples": [
     {
       "id": "12614_ikudo_ex1",
-      "japanese": "{幾度|いくど}も{挑戦|ちょうせん}した。",
+      "japanese": "{幾度|いくど}⟦も→も：00484_mo⟧⟦{挑戦|ちょうせん}した→挑戦する：21602_chousensuru⟧。",
       "english": "I tried many times.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12614_ikudo_ex2",
-      "japanese": "{幾度|いくど}となく{繰|く}り{返|かえ}された{過|あやま}ちだ。",
+      "japanese": "{幾度|いくど}⟦と→と：00512_to⟧⟦なく→ない：01118_nai⟧⟦{繰|く}り{返|かえ}された→繰り返す：02051_kurikaesu⟧⟦{過|あやま}ち→過ち：14376_ayamachi⟧だ。",
       "english": "It is a mistake that has been repeated time and again.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12614_ikudo_ex3",
-      "japanese": "{幾度|いくど}も{危機|きき}を{乗|の}り{越|こ}えて、この{会社|かいしゃ}は{成長|せいちょう}してきた。",
+      "japanese": "{幾度|いくど}⟦も→も：00484_mo⟧⟦{危機|きき}→危機：11798_kiki⟧⟦を→を：00422_wo⟧⟦{乗|の}り{越|こ}えて→乗り越える：04620_norikoeru⟧、⟦この→この：00962_kono⟧⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦は→は：00079_ha⟧⟦{成長|せいちょう}→成長：03290_seichou⟧してきた。",
       "english": "This company has grown by overcoming crises many times over.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{幾度|いくど} is a literary equivalent of {何度|なんど} (how many times / many times).\n\nCOMMON PATTERNS:\n- {幾度|いくど}も: many times (emphatic)\n- {幾度|いくど}となく: countless times, time and again\n- {幾度|いくど}か: several times\n\nSIMILAR WORDS:\n- {何度|なんど}も: many times (neutral, everyday)\n- {幾度|いくど}も: many times (literary, formal)\n- {度々|たびたび}: repeatedly, often (slightly formal)\n\nRELATED:\n{幾度|いくど} uses the kanji {幾|いく}, which means \"how many\" and appears in other literary expressions like {幾多|いくた} (many, numerous) and {幾年|いくとせ} (many years).",
-  "cross_references": [],
+  "notes": "{幾度|いくど} is a literary equivalent of ⟦{何度|なんど}→何度：17592_nando⟧ (how many times / many times).\n\nCOMMON PATTERNS:\n- {幾度|いくど}⟦も→も：00484_mo⟧: many times (emphatic)\n- {幾度|いくど}⟦と→と：00512_to⟧⟦なく→ない：01118_nai⟧: countless times, time and again\n- {幾度|いくど}⟦か→か：09473_ka⟧: several times\n\nSIMILAR WORDS:\n- ⟦{何度|なんど}→何度：17592_nando⟧⟦も→も：00484_mo⟧: many times (neutral, everyday)\n- {幾度|いくど}⟦も→も：00484_mo⟧: many times (literary, formal)\n- {度々|たびたび}: repeatedly, often (slightly formal)\n\nRELATED WORDS:\n{幾度|いくど} uses the kanji ⟦{幾|いく}→幾〜：00444_iku⟧, which means \"how many\" and appears in other literary expressions like ⟦{幾多|いくた}→幾多：12642_ikuta⟧ (many, numerous) and {幾年|いくとせ} (many years).",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20449_nandomo",
+      "reading": "なんども",
+      "headword": "{何度|なんど}も",
+      "label": "many times"
+    }
+  ],
   "metadata": {
     "created": "2026-02-22T04:30:09Z",
-    "modified": "2026-02-22T04:30:09Z",
+    "modified": "2026-09-02T04:01:29Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adverb"],
+      "pos": [
+        "adverb"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["quantity"],
-      "style": ["literary"]
+      "semantic": [
+        "quantity"
+      ],
+      "style": [
+        "literary"
+      ]
     }
   }
 }

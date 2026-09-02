@@ -2,7 +2,7 @@
   "id": "02582_kanjou",
   "headword": "{勘定|かんじょう}",
   "reading": "かんじょう",
-  "part_of_speech": "noun / suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "bill, check; calculation",
   "definitions": [
     {
@@ -94,7 +94,7 @@
     },
     {
       "id": "02582_kanjou_ex8",
-      "japanese": "⟦{何度|なんど}→何度：17592_nando⟧{勘定|かんじょう}しても⟦{数|かず}→数：00204_kazu⟧⟦が→が：00051_ga⟧⟦{合|あ}わなくて→合う：10466_au⟧⟦{困|こま}っている→困る：00861_komaru⟧。",
+      "japanese": "⟦{何度|なんど}→何度：17592_nando⟧{勘定|かんじょう}⟦して→する：00392_suru⟧⟦も→も：00484_mo⟧⟦{数|かず}→数：00204_kazu⟧⟦が→が：00051_ga⟧⟦{合|あ}わなくて→合う：10466_au⟧⟦{困|こま}っている→困る：00861_komaru⟧。",
       "english": "No matter how many times I count, the numbers don't match and I'm stuck.",
       "notes": null,
       "has_audio": false,
@@ -113,7 +113,7 @@
       ]
     }
   ],
-  "notes": "{勘定|かんじょう} has several related meanings around calculation and payment.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- No standard intransitive pair\n- Pattern: [noun]⟦を→を：00422_wo⟧{勘定|かんじょう}する\n\nSENSE 1 - BILL:\n- お{勘定|かんじょう} (the bill - polite)\n- {勘定|かんじょう}⟦を→を：00422_wo⟧⟦{払|はら}う→払う：00535_harau⟧ (to pay the bill)\n- Traditional term; ⟦{会計|かいけい}→会計：02536_kaikei⟧ is more common now\n\nSENSE 2 - CALCULATION:\n- {勘定|かんじょう}する (to calculate)\n- {勘定|かんじょう}⟦が→が：00051_ga⟧⟦{合|あ}う→合う：10466_au⟧ (numbers match)\n- {勘定|かんじょう}⟦が→が：00051_ga⟧⟦{合|あ}わない→合う：10466_au⟧ (numbers don't match)\n\nSENSE 3 - CONSIDERATION:\n- 〜⟦を→を：00422_wo⟧{勘定|かんじょう}⟦に→に：00314_ni⟧⟦{入|い}れる→入れる：01098_ireru⟧ (to take ~ into account)\n- {勘定|かんじょう}⟦{外|がい}→外〜：03948_gai⟧ (not taken into account)\n\nSIMILAR WORDS:\n- ⟦{会計|かいけい}→会計：02536_kaikei⟧: check (modern term)\n- ⟦{計算|けいさん}→計算：02697_keisan⟧: calculation (general)",
+  "notes": "{勘定|かんじょう} has several related meanings around calculation and payment.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- No standard intransitive pair\n- Pattern: [noun]⟦を→を：00422_wo⟧{勘定|かんじょう}⟦する→する：00392_suru⟧\n\nSENSE 1 - BILL:\n- お{勘定|かんじょう} (the bill - polite)\n- {勘定|かんじょう}⟦を→を：00422_wo⟧⟦{払|はら}う→払う：00535_harau⟧ (to pay the bill)\n- Traditional term; ⟦{会計|かいけい}→会計：02536_kaikei⟧ is more common now\n\nSENSE 2 - CALCULATION:\n- {勘定|かんじょう}⟦する→する：00392_suru⟧ (to calculate)\n- {勘定|かんじょう}⟦が→が：00051_ga⟧⟦{合|あ}う→合う：10466_au⟧ (numbers match)\n- {勘定|かんじょう}⟦が→が：00051_ga⟧⟦{合|あ}わない→合う：10466_au⟧ (numbers don't match)\n\nSENSE 3 - CONSIDERATION:\n- 〜⟦を→を：00422_wo⟧{勘定|かんじょう}⟦に→に：00314_ni⟧⟦{入|い}れる→入れる：01098_ireru⟧ (to take ~ into account)\n- {勘定|かんじょう}⟦{外|がい}→外〜：03948_gai⟧ (not taken into account)\n\nSIMILAR WORDS:\n- ⟦{会計|かいけい}→会計：02536_kaikei⟧: check (modern term)\n- ⟦{計算|けいさん}→計算：02697_keisan⟧: calculation (general)",
   "cross_references": [
     {
       "type": "synonym",
@@ -121,11 +121,18 @@
       "headword": "{会計|かいけい}",
       "label": "check (modern)",
       "target_id": "02536_kaikei"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02697_keisan",
+      "reading": "けいさん",
+      "headword": "{計算|けいさん}",
+      "label": "calculation"
     }
   ],
   "metadata": {
     "created": "2026-01-11T10:51:31Z",
-    "modified": "2026-06-11T18:03:17Z",
+    "modified": "2026-09-02T04:01:02Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

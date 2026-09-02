@@ -53,11 +53,47 @@
       ]
     }
   ],
-  "notes": "COMPOSITION: ⟦{有効|ゆうこう}→有効：03645_yuukou⟧ (valid, effective) + ⟦{期限|きげん}→期限：12861_kigen⟧ (time limit, deadline). Literally \"validity time limit.\"\n\nCOMMON COLLOCATIONS:\n・{有効期限|ゆうこうきげん}⟦が→が：00051_ga⟧⟦{切|き}れる→切れる：01936_kireru⟧ (to expire)\n・{有効期限|ゆうこうきげん}⟦を→を：00422_wo⟧⟦{確認|かくにん}する→確認する：25332_kakuninsuru⟧ (to check the expiration date)\n・{有効期限|ゆうこうきげん}⟦{内|ない}→内：09853_nai⟧ (within the validity period)\n・{有効期限|ゆうこうきげん}⟦を→を：00422_wo⟧⟦{延長|えんちょう}→延長：06447_enchou⟧⟦する→する：00392_suru⟧ (to extend the expiration date)\n・{有効期限|ゆうこうきげん}⟦{切|き}れ→切れる：01936_kireru⟧ (expired)\n\nCOMMON CONTEXTS:\n・⟦クレジットカード→クレジットカード：06968_kurejittokaado⟧ (credit cards)\n・⟦パスポート→パスポート：00341_pasupooto⟧、⟦ビザ→ビザ：08283_biza⟧ (passports, visas)\n・⟦クーポン→クーポン：06446_kuupon⟧、⟦{割引券|わりびきけん}→割引券：09545_waribikiken⟧ (coupons, discount tickets)\n・⟦ポイント→ポイント：11283_pointo⟧ (reward points)\n・⟦{免許証|めんきょしょう}→免許証：03160_menkyoshou⟧ (licenses)\n・⟦{定期券|ていきけん}→定期券：01064_teikiken⟧ (commuter passes)\n\nRELATED TERMS:\n・⟦{賞味期限|しょうみきげん}→賞味期限：06076_shoumikigen⟧ - best-before date (for food)\n・⟦{消費期限|しょうひきげん}→消費期限：06077_shouhikigen⟧ - use-by date (for food)\n・⟦{期限|きげん}→期限：12861_kigen⟧ - deadline, time limit",
-  "cross_references": [],
+  "notes": "COMPOSITION: ⟦{有効|ゆうこう}→有効：03645_yuukou⟧ (valid, effective) + ⟦{期限|きげん}→期限：12861_kigen⟧ (time limit, deadline). Literally \"validity time limit.\"\n\nCOMMON COLLOCATIONS:\n- {有効期限|ゆうこうきげん}⟦が→が：00051_ga⟧⟦{切|き}れる→切れる：01936_kireru⟧ (to expire)\n- {有効期限|ゆうこうきげん}⟦を→を：00422_wo⟧⟦{確認|かくにん}する→確認する：25332_kakuninsuru⟧ (to check the expiration date)\n- {有効期限|ゆうこうきげん}⟦{内|ない}→内：09853_nai⟧ (within the validity period)\n- {有効期限|ゆうこうきげん}⟦を→を：00422_wo⟧⟦{延長|えんちょう}→延長：06447_enchou⟧⟦する→する：00392_suru⟧ (to extend the expiration date)\n- {有効期限|ゆうこうきげん}⟦{切|き}れ→切れる：01936_kireru⟧ (expired)\n\nUSAGE:\n- ⟦クレジットカード→クレジットカード：06968_kurejittokaado⟧ (credit cards)\n- ⟦パスポート→パスポート：00341_pasupooto⟧、⟦ビザ→ビザ：08283_biza⟧ (passports, visas)\n- ⟦クーポン→クーポン：06446_kuupon⟧、⟦{割引券|わりびきけん}→割引券：09545_waribikiken⟧ (coupons, discount tickets)\n- ⟦ポイント→ポイント：11283_pointo⟧ (reward points)\n- ⟦{免許証|めんきょしょう}→免許証：03160_menkyoshou⟧ (licenses)\n- ⟦{定期券|ていきけん}→定期券：01064_teikiken⟧ (commuter passes)\n\nRELATED WORDS:\n- ⟦{賞味期限|しょうみきげん}→賞味期限：06076_shoumikigen⟧ - best-before date (for food)\n- ⟦{消費期限|しょうひきげん}→消費期限：06077_shouhikigen⟧ - use-by date (for food)\n- ⟦{期限|きげん}→期限：12861_kigen⟧ - deadline, time limit",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "06076_shoumikigen",
+      "reading": "しょうみきげん",
+      "headword": "{賞味期限|しょうみきげん}",
+      "label": "best-before date"
+    },
+    {
+      "type": "related",
+      "target_id": "06077_shouhikigen",
+      "reading": "しょうひきげん",
+      "headword": "{消費期限|しょうひきげん}",
+      "label": "use-by date"
+    },
+    {
+      "type": "related",
+      "target_id": "00341_pasupooto",
+      "reading": "ぱすぽーと",
+      "headword": "パスポート",
+      "label": "passport"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22047_shiyoukigen",
+      "reading": "しようきげん",
+      "headword": "{使用期限|しようきげん}",
+      "label": "use-by date"
+    },
+    {
+      "type": "related",
+      "target_id": "22208_kigennai",
+      "reading": "きげんない",
+      "headword": "{期限内|きげんない}",
+      "label": "within the deadline"
+    }
+  ],
   "metadata": {
     "created": "2026-01-17T13:23:13Z",
-    "modified": "2026-07-05T09:28:13Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

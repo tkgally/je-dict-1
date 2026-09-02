@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "07652_hottosuru_ex1",
-      "japanese": "{無事|ぶじ}でほっとした。",
+      "japanese": "⟦{無事|ぶじ}→無事：01602_buji⟧でほっとした。",
       "english": "I felt relieved that you were safe.",
       "has_audio": false,
       "sense_numbers": [
@@ -113,7 +113,7 @@
     },
     {
       "id": "07652_hottosuru_ex2",
-      "japanese": "{試験|しけん}が{終|お}わってほっとしている。",
+      "japanese": "⟦{試験|しけん}→試験：01422_shiken⟧⟦が→が：00051_ga⟧⟦{終|お}わって→終わる：00567_owaru⟧ほっとして⟦いる→いる：00495_iru⟧。",
       "english": "I feel relieved now that the exam is over.",
       "has_audio": false,
       "sense_numbers": [
@@ -122,7 +122,7 @@
     },
     {
       "id": "07652_hottosuru_ex3",
-      "japanese": "{彼|かれ}の{笑顔|えがお}を{見|み}てほっとした{気持|きも}ちになった。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧⟦{笑顔|えがお}→笑顔：01884_egao⟧⟦を→を：00422_wo⟧⟦{見|み}て→見る：00283_miru⟧ほっとした{気持|きも}ちになった。",
       "english": "Seeing his smile made me feel relieved.",
       "has_audio": false,
       "sense_numbers": [
@@ -130,7 +130,7 @@
       ]
     }
   ],
-  "notes": "VERB TYPE:\n{自動詞|じどうし} (intransitive verb)\nする verb ({サ行変格活用|さぎょうへんかくかつよう})\n\n・ほっとしない (negative)\n・ほっとして (te-form)\n・ほっとした (past)\n\nCOMMON PATTERNS:\n・〜てほっとする - to feel relieved that ~\n・ほっとした{表情|ひょうじょう} - relieved expression\n・ほっとする{暇|ひま}もない - no time to catch one's breath\n\nONOMATOPOEIA:\nThe word ほっと is a mimetic expression representing the sound/feeling of exhaling in relief. It captures the physical sensation of releasing tension.",
+  "notes": "VERB TYPE:\n⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive verb)\n⟦する→する：00392_suru⟧ verb ({サ行変格活用|さぎょうへんかくかつよう})\n\n- ほっとしない (negative)\n- ほっとして (te-form)\n- ほっとした (past)\n\nCOMMON PATTERNS:\n- 〜てほっとする - to feel relieved that ~\n- ほっとした⟦{表情|ひょうじょう}→表情：03585_hyoujou⟧ - relieved expression\n- ほっとする⟦{暇|ひま}→暇：00592_hima⟧⟦も→も：00484_mo⟧⟦ない→ない：01118_nai⟧ - no time to catch one's breath\n\nONOMATOPOEIA:\nThe word ほっと is a mimetic expression representing the sound/feeling of exhaling in relief. It captures the physical sensation of releasing tension.",
   "cross_references": [
     {
       "type": "synonym",
@@ -138,11 +138,25 @@
       "reading": "あんど",
       "headword": "{安堵|あんど}",
       "label": "relief (formal)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19541_kigaraku",
+      "reading": "きがらく",
+      "headword": "{気|き}が{楽|らく}",
+      "label": "at ease"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26083_rakuninaru",
+      "reading": "らくになる",
+      "headword": "{楽|らく}になる",
+      "label": "to become easier"
     }
   ],
   "metadata": {
     "created": "2026-01-20T14:05:39Z",
-    "modified": "2026-06-19T21:43:28Z",
+    "modified": "2026-09-02T04:01:12Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -151,6 +165,7 @@
       ],
       "transitivity": "intransitive",
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "emotion"
       ],

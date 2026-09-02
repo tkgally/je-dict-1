@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22348_rekishigakusha_ex1",
-      "japanese": "{有名|ゆうめい}な{歴史|れきし}{学者|がくしゃ}が{講演|こうえん}した。",
+      "japanese": "⟦{有名|ゆうめい}→有名：01106_yuumei⟧な{歴史|れきし}{学者|がくしゃ}⟦が→が：00051_ga⟧⟦{講演|こうえん}→講演：02735_kouen⟧⟦した→する：00392_suru⟧。",
       "english": "A famous historian gave a lecture.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22348_rekishigakusha_ex2",
-      "japanese": "{歴史|れきし}{学者|がくしゃ}たちの{間|あいだ}でも{意見|いけん}が{分|わ}かれている。",
+      "japanese": "{歴史|れきし}{学者|がくしゃ}たち⟦の→の：09472_no⟧⟦{間|あいだ}→間：00914_aida⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧⟦{意見|いけん}→意見：01303_iken⟧⟦が→が：00051_ga⟧⟦{分|わ}かれている→分かれる：10976_wakareru⟧。",
       "english": "Even among historians, opinions are divided.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22348_rekishigakusha_ex3",
-      "japanese": "{多|おお}くの{歴史|れきし}{学者|がくしゃ}が、この{事件|じけん}を{近代|きんだい}{日本|にほん}の{転換点|てんかんてん}と{見|み}なしている。",
+      "japanese": "{多|おお}く⟦の→の：09472_no⟧{歴史|れきし}{学者|がくしゃ}⟦が→が：00051_ga⟧、⟦この→この：00962_kono⟧⟦{事件|じけん}→事件：01568_jiken⟧⟦を→を：00422_wo⟧⟦{近代|きんだい}→近代：02663_kindai⟧⟦{日本|にほん}→日本：03876_nihon⟧⟦の→の：09472_no⟧⟦{転換点|てんかんてん}→転換点：09951_tenkanten⟧⟦と→と：00512_to⟧⟦{見|み}なしている→見なす：10615_minasu⟧。",
       "english": "Many historians regard this incident as a turning point in modern Japan.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "The standard compound for a professional historian or history scholar. Follows the productive pattern of field + {学者|がくしゃ} (scholar).\n\nCOMMON COLLOCATIONS:\n- {歴史|れきし}{学者|がくしゃ}の{見解|けんかい}: a historian's view\n- {歴史|れきし}{学者|がくしゃ}によると: according to historians\n- {著名|ちょめい}な{歴史|れきし}{学者|がくしゃ}: a renowned historian\n\nSIMILAR WORDS:\n- {史家|しか}: historian — more literary and concise synonym\n- {歴史家|れきしか}: historian — slightly less formal variant\n- {研究者|けんきゅうしゃ}: researcher — broader term for any academic researcher\n\nFORMATION:\n{歴史|れきし} (history) + {学者|がくしゃ} (scholar). Same pattern as {経済|けいざい}{学者|がくしゃ} (economist), {政治|せいじ}{学者|がくしゃ} (political scientist), etc.",
+  "notes": "The standard compound for a professional historian or history scholar. Follows the productive pattern of field + ⟦{学者|がくしゃ}→学者：02544_gakusha⟧ (scholar).\n\nCOMMON COLLOCATIONS:\n- {歴史|れきし}{学者|がくしゃ}⟦の→の：09472_no⟧⟦{見解|けんかい}→見解：02743_kenkai⟧: a historian's view\n- {歴史|れきし}{学者|がくしゃ}⟦によると→〜によると：03104_niyoruto⟧: according to historians\n- ⟦{著名|ちょめい}→著名：13992_chomei⟧な{歴史|れきし}{学者|がくしゃ}: a renowned historian\n\nSIMILAR WORDS:\n- {史家|しか}: historian — more literary and concise synonym\n- {歴史家|れきしか}: historian — slightly less formal variant\n- ⟦{研究者|けんきゅうしゃ}→研究者：02573_kenkyuusha⟧: researcher — broader term for any academic researcher\n\nFORMS:\n⟦{歴史|れきし}→歴史：02267_rekishi⟧ (history) + ⟦{学者|がくしゃ}→学者：02544_gakusha⟧ (scholar). Same pattern as ⟦{経済|けいざい}→経済：01394_keizai⟧⟦{学者|がくしゃ}→学者：02544_gakusha⟧ (economist), ⟦{政治|せいじ}→政治：01629_seiji⟧⟦{学者|がくしゃ}→学者：02544_gakusha⟧ (political scientist), etc.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02573_kenkyuusha",
+      "reading": "けんきゅうしゃ",
+      "headword": "{研究者|けんきゅうしゃ}",
+      "label": "researcher"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +68,6 @@
       ]
     },
     "created": "2026-04-05T19:21:00Z",
-    "modified": "2026-04-10T08:28:27Z"
+    "modified": "2026-09-02T04:02:07Z"
   }
 }

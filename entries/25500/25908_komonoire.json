@@ -15,39 +15,67 @@
   "examples": [
     {
       "id": "25908_komonoire_ex1",
-      "japanese": "{鍵|かぎ}は{小物|こもの}{入|い}れに{入|い}れてある。",
+      "japanese": "⟦{鍵|かぎ}→鍵：02189_kagi⟧⟦は→は：00079_ha⟧{小物|こもの}{入|い}れ⟦に→に：00314_ni⟧⟦{入|い}れてある→入れる：01098_ireru⟧。",
       "english": "The keys are in the trinket box.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "25908_komonoire_ex2",
-      "japanese": "{革|かわ}の{小物|こもの}{入|い}れを{誕生日|たんじょうび}にもらった。",
+      "japanese": "⟦{革|かわ}→革：19310_kawa⟧⟦の→の：09472_no⟧{小物|こもの}{入|い}れ⟦を→を：00422_wo⟧⟦{誕生日|たんじょうび}→誕生日：02910_tanjoubi⟧⟦に→に：00314_ni⟧⟦もらった→もらう：00520_morau⟧。",
       "english": "I received a leather accessory case for my birthday.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "25908_komonoire_ex3",
-      "japanese": "{玄関|げんかん}に{小物|こもの}{入|い}れを{置|お}いておくと、{鍵|かぎ}や{定期券|ていきけん}をなくさなくて{済|す}む。",
+      "japanese": "⟦{玄関|げんかん}→玄関：05003_genkan⟧⟦に→に：00314_ni⟧{小物|こもの}{入|い}れ⟦を→を：00422_wo⟧⟦{置|お}いて→置く：01092_oku⟧おく⟦と→と：00512_to⟧、⟦{鍵|かぎ}→鍵：02189_kagi⟧や⟦{定期券|ていきけん}→定期券：01064_teikiken⟧⟦を→を：00422_wo⟧なくさなくて⟦{済|す}む→済む：01950_sumu⟧。",
       "english": "If you keep a catch-all by the entrance, you won't lose your keys or commuter pass.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {小物|こもの} (small items; accessories) + {入|い}れ (container; holder). Refers to any container designed for organizing small personal belongings. Can range from a simple tray on a desk to a zippered pouch in a bag.\n\nCOMMON COLLOCATIONS:\n- {革|かわ}の{小物|こもの}{入|い}れ: leather accessory case\n- {小物|こもの}{入|い}れポーチ: small accessory pouch\n- {小物|こもの}{入|い}れに{入|い}れる: to put in the catch-all\n\nSIMILAR WORDS:\n- ポーチ: pouch — a loanword often used for cosmetic or travel pouches\n- {小物|こもの}{入|い}れ{箱|ばこ}: small items box — specifically a box rather than a pouch or tray\n- {筆|ふで}{箱|ばこ}: pencil case — specifically for writing implements",
-  "cross_references": [],
+  "notes": "Composed of ⟦{小物|こもの}→小物：17814_komono⟧ (small items; accessories) + ⟦{入|い}れ→入れる：01098_ireru⟧ (container; holder). Refers to any container designed for organizing small personal belongings. Can range from a simple tray on a desk to a zippered pouch in a bag.\n\nCOMMON COLLOCATIONS:\n- ⟦{革|かわ}→革：19310_kawa⟧⟦の→の：09472_no⟧{小物|こもの}{入|い}れ: leather accessory case\n- {小物|こもの}{入|い}れ⟦ポーチ→ポーチ：09488_poochi⟧: small accessory pouch\n- {小物|こもの}{入|い}れ⟦に→に：00314_ni⟧⟦{入|い}れる→入れる：01098_ireru⟧: to put in the catch-all\n\nSIMILAR WORDS:\n- ⟦ポーチ→ポーチ：09488_poochi⟧: pouch — a loanword often used for cosmetic or travel pouches\n- {小物|こもの}{入|い}れ{箱|ばこ}: small items box — specifically a box rather than a pouch or tray\n- ⟦{筆|ふで}{箱|ばこ}→筆箱：08263_fudebako⟧: pencil case — specifically for writing implements",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09488_poochi",
+      "reading": "ぽーち",
+      "headword": "ポーチ",
+      "label": "pouch"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08263_fudebako",
+      "reading": "ふでばこ",
+      "headword": "{筆箱|ふでばこ}",
+      "label": "pencil case"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["daily-life", "tool"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "daily-life",
+        "tool"
+      ]
     },
     "created": "2026-04-28T12:20:20Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T04:02:24Z"
   }
 }

@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "TYPES OF ZONES:\n・⟦{立|た}ち{入|い}り{禁止|きんし}→立入禁止：09542_tachiirikinshi⟧{区域|くいき} (restricted area)\n・⟦{禁煙|きんえん}→禁煙：02644_kinen⟧{区域|くいき} (no-smoking area)\n・⟦{商業|しょうぎょう}→商業：09940_shougyou⟧{区域|くいき} (commercial zone)\n・⟦{住宅|じゅうたく}→住宅：03280_juutaku⟧{区域|くいき} (residential area)\n・⟦{警戒|けいかい}→警戒：14224_keikai⟧{区域|くいき} (warning zone)\n・⟦{避難|ひなん}→避難：07908_hinan⟧{区域|くいき} (evacuation zone)\n\nURBAN PLANNING:\n・⟦{用途|ようと}→用途：04089_youto⟧{区域|くいき} (zoning area)\n・⟦{開発|かいはつ}→開発：06746_kaihatsu⟧{区域|くいき} (development area)\n\nSIMILAR WORDS:\n・⟦{地区|ちく}→地区：03463_chiku⟧ (district - often administrative)\n・⟦{地域|ちいき}→地域：01461_chiiki⟧ (region, area - broader)\n・⟦{地帯|ちたい}→地帯：04057_chitai⟧ (zone, belt)\n・⟦エリア→エリア：10726_eria⟧ (area - loanword)",
+  "notes": "TYPES OF ZONES:\n- ⟦{立|た}ち{入|い}り{禁止|きんし}→立入禁止：09542_tachiirikinshi⟧{区域|くいき} (restricted area)\n- ⟦{禁煙|きんえん}→禁煙：02644_kinen⟧{区域|くいき} (no-smoking area)\n- ⟦{商業|しょうぎょう}→商業：09940_shougyou⟧{区域|くいき} (commercial zone)\n- ⟦{住宅|じゅうたく}→住宅：03280_juutaku⟧{区域|くいき} (residential area)\n- ⟦{警戒|けいかい}→警戒：14224_keikai⟧{区域|くいき} (warning zone)\n- ⟦{避難|ひなん}→避難：07908_hinan⟧{区域|くいき} (evacuation zone)\n\nURBAN PLANNING:\n- ⟦{用途|ようと}→用途：04089_youto⟧{区域|くいき} (zoning area)\n- ⟦{開発|かいはつ}→開発：06746_kaihatsu⟧{区域|くいき} (development area)\n\nSIMILAR WORDS:\n- ⟦{地区|ちく}→地区：03463_chiku⟧ (district - often administrative)\n- ⟦{地域|ちいき}→地域：01461_chiiki⟧ (region, area - broader)\n- ⟦{地帯|ちたい}→地帯：04057_chitai⟧ (zone, belt)\n- ⟦エリア→エリア：10726_eria⟧ (area - loanword)",
   "cross_references": [
     {
       "type": "related",
@@ -58,11 +58,32 @@
       "headword": "{地域|ちいき}",
       "label": "region/area",
       "target_id": "01461_chiiki"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04057_chitai",
+      "reading": "ちたい",
+      "headword": "{地帯|ちたい}",
+      "label": "zone, belt"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10726_eria",
+      "reading": "えりあ",
+      "headword": "エリア",
+      "label": "area"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11930_kukaku",
+      "reading": "くかく",
+      "headword": "{区画|くかく}",
+      "label": "block, section, lot, partition"
     }
   ],
   "metadata": {
     "created": "2026-01-13T10:53:53Z",
-    "modified": "2026-05-10T13:22:26Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

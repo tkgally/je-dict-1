@@ -15,40 +15,67 @@
   "examples": [
     {
       "id": "27066_kyousouryoku_ex1",
-      "japanese": "この{製品|せいひん}は{競争力|きょうそうりょく}がある。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{製品|せいひん}→製品：01445_seihin⟧⟦は→は：00079_ha⟧{競争力|きょうそうりょく}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "This product is competitive.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27066_kyousouryoku_ex2",
-      "japanese": "{国際的|こくさいてき}な{競争力|きょうそうりょく}を{高|たか}めることが{急務|きゅうむ}だ。",
+      "japanese": "⟦{国際的|こくさいてき}→国際的：06457_kokusaiteki⟧な{競争力|きょうそうりょく}⟦を→を：00422_wo⟧⟦{高|たか}める→高める：02065_takameru⟧こと⟦が→が：00051_ga⟧⟦{急務|きゅうむ}→急務：21059_kyuumu⟧だ。",
       "english": "Enhancing international competitiveness is an urgent task.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27066_kyousouryoku_ex3",
-      "japanese": "{人件費|じんけんひ}の{上昇|じょうしょう}により、{価格|かかく}{競争力|きょうそうりょく}が{低下|ていか}している。",
+      "japanese": "⟦{人件費|じんけんひ}→人件費：20616_jinkenhi⟧⟦の→の：09472_no⟧⟦{上昇|じょうしょう}→上昇：11296_joushou⟧⟦に→に：00314_ni⟧⟦より→より：09476_yori⟧、⟦{価格|かかく}→価格：00147_kakaku⟧{競争力|きょうそうりょく}⟦が→が：00051_ga⟧⟦{低下|ていか}→低下：04065_teika⟧⟦している→する：00392_suru⟧。",
       "english": "Due to rising labor costs, price competitiveness is declining.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Formed from {競争|きょうそう} (competition) + {力|りょく} (power, ability). A high-frequency term in business news, economic reports, and policy discussions. Describes the objective ability to compete, not the subjective desire to compete (which is {競争心|きょうそうしん}).\n\nCOMMON COLLOCATIONS:\n- {競争力|きょうそうりょく}がある: to be competitive\n- {競争力|きょうそうりょく}を{高|たか}める: to enhance competitiveness\n- {競争力|きょうそうりょく}を{失|うしな}う: to lose competitiveness\n- {価格|かかく}{競争力|きょうそうりょく}: price competitiveness\n- {国際|こくさい}{競争力|きょうそうりょく}: international competitiveness\n\nSIMILAR WORDS:\n- {競争心|きょうそうしん}: competitive spirit — subjective desire to compete, a personality trait\n- {実力|じつりょく}: real ability — broader term for capability, not specifically about competing\n- {優位性|ゆういせい}: superiority, advantage — the result of having competitiveness",
+  "notes": "Formed from ⟦{競争|きょうそう}→競争：01388_kyousou⟧ (competition) + {力|りょく} (power, ability). A high-frequency term in business news, economic reports, and policy discussions. Describes the objective ability to compete, not the subjective desire to compete (which is ⟦{競争心|きょうそうしん}→競争心：27063_kyousoushin⟧).\n\nCOMMON COLLOCATIONS:\n- {競争力|きょうそうりょく}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧: to be competitive\n- {競争力|きょうそうりょく}⟦を→を：00422_wo⟧⟦{高|たか}める→高める：02065_takameru⟧: to enhance competitiveness\n- {競争力|きょうそうりょく}⟦を→を：00422_wo⟧⟦{失|うしな}う→失う：01887_ushinau⟧: to lose competitiveness\n- ⟦{価格|かかく}→価格：00147_kakaku⟧{競争力|きょうそうりょく}: price competitiveness\n- {国際|こくさい}{競争力|きょうそうりょく}: international competitiveness\n\nSIMILAR WORDS:\n- ⟦{競争心|きょうそうしん}→競争心：27063_kyousoushin⟧: competitive spirit — subjective desire to compete, a personality trait\n- ⟦{実力|じつりょく}→実力：03277_jitsuryoku⟧: real ability — broader term for capability, not specifically about competing\n- {優位性|ゆういせい}: superiority, advantage — the result of having competitiveness",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "27063_kyousoushin",
+      "reading": "きょうそうしん",
+      "headword": "{競争心|きょうそうしん}",
+      "label": "competitive spirit"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03277_jitsuryoku",
+      "reading": "じつりょく",
+      "headword": "{実力|じつりょく}",
+      "label": "real ability"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["business", "economics"]
+      "semantic": [
+        "business",
+        "economics"
+      ]
     },
     "created": "2026-05-06T16:06:46Z",
-    "modified": "2026-05-06T16:06:46Z"
+    "modified": "2026-09-02T04:02:29Z"
   }
 }

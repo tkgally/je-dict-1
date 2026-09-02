@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "19595_kijutsu_ex1",
-      "japanese": "{既述|きじゅつ}のとおりである。",
+      "japanese": "{既述|きじゅつ}⟦の→の：09472_no⟧とおり⟦である→である：09855_dearu⟧。",
       "english": "It is as previously stated.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "19595_kijutsu_ex2",
-      "japanese": "{既述|きじゅつ}の{理由|りゆう}により{却下|きゃっか}する。",
+      "japanese": "{既述|きじゅつ}⟦の→の：09472_no⟧⟦{理由|りゆう}→理由：01102_riyuu⟧⟦に→に：00314_ni⟧⟦より→より：09476_yori⟧⟦{却下|きゃっか}→却下：05908_kyakka⟧⟦する→する：00392_suru⟧。",
       "english": "It is rejected for the reasons already stated.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "19595_kijutsu_ex3",
-      "japanese": "この{問題|もんだい}については{既述|きじゅつ}の{章|しょう}で{詳|くわ}しく{論|ろん}じたので、ここでは{省略|しょうりゃく}する。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{問題|もんだい}→問題：00797_mondai⟧⟦について→〜について：03103_nitsuite⟧⟦は→は：00079_ha⟧{既述|きじゅつ}⟦の→の：09472_no⟧⟦{章|しょう}→章：03768_shou⟧⟦で→で：00502_de⟧⟦{詳|くわ}しく→詳しい：02483_kuwashii⟧⟦{論|ろん}じた→論ずる：28402_ronzuru⟧⟦の→の：09472_no⟧で、⟦ここ→ここ：00961_koko⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{省略|しょうりゃく}→省略：03244_shouryaku⟧⟦する→する：00392_suru⟧。",
       "english": "Since this issue was discussed in detail in the previous chapter, it will be omitted here.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {既|き} (already) and {述|じゅつ} (to state, to describe). A formal written-language word used to refer back to earlier content in reports, papers, and official documents. Rarely used in spoken Japanese.\n\nUSAGE:\nAlmost exclusively a written-language word. Commonly appears as {既述|きじゅつ}の (the aforementioned) or {既述|きじゅつ}のとおり (as previously stated).\n\nCOMMON COLLOCATIONS:\n- {既述|きじゅつ}のとおり — as previously stated\n- {既述|きじゅつ}の{内容|ないよう} — the previously described content\n- {既述|きじゅつ}の{理由|りゆう} — the reasons already stated\n\nSIMILAR WORDS:\n- {前述|ぜんじゅつ} — aforementioned; very similar in meaning but {前述|ぜんじゅつ} emphasizes sequence (what came before), while {既述|きじゅつ} emphasizes that it has already been done\n- {記述|きじゅつ} — description, statement; a homophone with a different meaning — the act of writing or describing, rather than a reference to prior content",
+  "notes": "A compound of ⟦{既|き}→既〜：28657_ki⟧ (already) and {述|じゅつ} (to state, to describe). A formal written-language word used to refer back to earlier content in reports, papers, and official documents. Rarely used in spoken Japanese.\n\nUSAGE:\nAlmost exclusively a written-language word. Commonly appears as {既述|きじゅつ}⟦の→の：09472_no⟧ (the aforementioned) or {既述|きじゅつ}⟦の→の：09472_no⟧とおり (as previously stated).\n\nCOMMON COLLOCATIONS:\n- {既述|きじゅつ}⟦の→の：09472_no⟧とおり — as previously stated\n- {既述|きじゅつ}⟦の→の：09472_no⟧⟦{内容|ないよう}→内容：01482_naiyou⟧ — the previously described content\n- {既述|きじゅつ}⟦の→の：09472_no⟧⟦{理由|りゆう}→理由：01102_riyuu⟧ — the reasons already stated\n\nSIMILAR WORDS:\n- ⟦{前述|ぜんじゅつ}→前述：11911_zenjutsu⟧ — aforementioned; very similar in meaning but ⟦{前述|ぜんじゅつ}→前述：11911_zenjutsu⟧ emphasizes sequence (what came before), while {既述|きじゅつ} emphasizes that it has already been done\n- ⟦{記述|きじゅつ}→記述：05819_kijutsu⟧ — description, statement; a homophone with a different meaning — the act of writing or describing, rather than a reference to prior content",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11911_zenjutsu",
+      "reading": "ぜんじゅつ",
+      "headword": "{前述|ぜんじゅつ}",
+      "label": "aforementioned"
+    },
+    {
+      "type": "homophone",
+      "target_id": "05819_kijutsu",
+      "reading": "きじゅつ",
+      "headword": "{記述|きじゅつ}",
+      "label": "description, statement"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +76,6 @@
       ]
     },
     "created": "2026-03-26T07:27:55Z",
-    "modified": "2026-03-26T07:27:55Z"
+    "modified": "2026-09-02T04:01:56Z"
   }
 }

@@ -15,42 +15,70 @@
   "examples": [
     {
       "id": "16642_hinankankoku_ex1",
-      "japanese": "{避難勧告|ひなんかんこく}が{出|で}た。",
+      "japanese": "{避難勧告|ひなんかんこく}⟦が→が：00051_ga⟧⟦{出|で}た→出る：00513_deru⟧。",
       "english": "An evacuation advisory was issued.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16642_hinankankoku_ex2",
-      "japanese": "{大雨|おおあめ}のため{避難勧告|ひなんかんこく}が{発令|はつれい}された。",
+      "japanese": "⟦{大雨|おおあめ}→大雨：03015_ooame⟧⟦の→の：09472_no⟧⟦ため→ため：01145_tame⟧{避難勧告|ひなんかんこく}⟦が→が：00051_ga⟧⟦{発令|はつれい}→発令：09516_hatsurei⟧⟦された→する：00392_suru⟧。",
       "english": "An evacuation advisory was issued due to heavy rain.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16642_hinankankoku_ex3",
-      "japanese": "{避難勧告|ひなんかんこく}を{受|う}けて{住民|じゅうみん}が{避難所|ひなんじょ}に{移動|いどう}した。",
+      "japanese": "{避難勧告|ひなんかんこく}⟦を→を：00422_wo⟧⟦{受|う}けて→受ける：01215_ukeru⟧⟦{住民|じゅうみん}→住民：03281_juumin⟧⟦が→が：00051_ga⟧⟦{避難所|ひなんじょ}→避難所：07374_hinanjo⟧⟦に→に：00314_ni⟧⟦{移動|いどう}した→移動する：22430_idousuru⟧。",
       "english": "Residents moved to evacuation shelters after receiving the evacuation advisory.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "NOTE:\nAs of May 2021, Japan's disaster response system was revised. The previous three-level system ({避難準備|ひなんじゅんび}, {避難勧告|ひなんかんこく}, {避難指示|ひなんしじ}) was simplified, with {避難勧告|ひなんかんこく} being abolished and merged into {避難指示|ひなんしじ}. However, the term remains widely known and may still appear in older materials and historical reports.\n\nCOMMON COLLOCATIONS:\n- {避難勧告|ひなんかんこく}が{出|で}る (an advisory is issued)\n- {避難勧告|ひなんかんこく}を{発令|はつれい}する (to issue an advisory)\n- {避難勧告|ひなんかんこく}が{解除|かいじょ}される (an advisory is lifted)\n\nRELATED:\n- {避難指示|ひなんしじ}: evacuation order (stronger than advisory)\n- {避難所|ひなんじょ}: evacuation shelter",
-  "cross_references": [],
+  "notes": "USAGE:\nAs of May 2021, Japan's disaster response system was revised. The previous three-level system ({避難準備|ひなんじゅんび}, {避難勧告|ひなんかんこく}, ⟦{避難指示|ひなんしじ}→避難指示：20801_hinanshiji⟧) was simplified, with {避難勧告|ひなんかんこく} being abolished and merged into ⟦{避難指示|ひなんしじ}→避難指示：20801_hinanshiji⟧. However, the term remains widely known and may still appear in older materials and historical reports.\n\nCOMMON COLLOCATIONS:\n- {避難勧告|ひなんかんこく}⟦が→が：00051_ga⟧⟦{出|で}る→出る：00513_deru⟧ (an advisory is issued)\n- {避難勧告|ひなんかんこく}⟦を→を：00422_wo⟧⟦{発令|はつれい}→発令：09516_hatsurei⟧⟦する→する：00392_suru⟧ (to issue an advisory)\n- {避難勧告|ひなんかんこく}⟦が→が：00051_ga⟧⟦{解除|かいじょ}される→解除する：26843_kaijosuru⟧ (an advisory is lifted)\n\nRELATED WORDS:\n- ⟦{避難指示|ひなんしじ}→避難指示：20801_hinanshiji⟧: evacuation order (stronger than advisory)\n- ⟦{避難所|ひなんじょ}→避難所：07374_hinanjo⟧: evacuation shelter",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "20801_hinanshiji",
+      "reading": "ひなんしじ",
+      "headword": "{避難指示|ひなんしじ}",
+      "label": "evacuation order"
+    },
+    {
+      "type": "related",
+      "target_id": "07374_hinanjo",
+      "reading": "ひなんじょ",
+      "headword": "{避難所|ひなんじょ}",
+      "label": "evacuation shelter"
+    }
+  ],
   "metadata": {
     "created": "2026-03-14T01:36:58Z",
-    "modified": "2026-03-14T01:36:58Z",
+    "modified": "2026-09-02T04:01:45Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "style": ["written"],
-      "semantic": ["disaster", "safety"]
+      "style": [
+        "written"
+      ],
+      "semantic": [
+        "disaster",
+        "safety"
+      ]
     }
   }
 }

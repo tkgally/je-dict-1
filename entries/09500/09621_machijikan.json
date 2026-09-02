@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "09621_machijikan_ex1",
-      "japanese": "{待|ま}ち{時間|じかん}は30{分|ぷん}です。",
+      "japanese": "{待|ま}ち{時間|じかん}⟦は→は：00079_ha⟧30{分|ぷん}です。",
       "english": "The wait time is 30 minutes.",
       "has_audio": false,
       "sense_numbers": [
@@ -24,7 +24,7 @@
     },
     {
       "id": "09621_machijikan_ex2",
-      "japanese": "{人気|にんき}のレストランは{待|ま}ち{時間|じかん}が{長|なが}い。",
+      "japanese": "⟦{人気|にんき}→人気：01488_ninki⟧⟦の→の：09472_no⟧⟦レストラン→レストラン：01048_resutoran⟧⟦は→は：00079_ha⟧{待|ま}ち{時間|じかん}⟦が→が：00051_ga⟧⟦{長|なが}い→長い：00491_nagai⟧。",
       "english": "Popular restaurants have long wait times.",
       "has_audio": false,
       "sense_numbers": [
@@ -34,7 +34,7 @@
     },
     {
       "id": "09621_machijikan_ex3",
-      "japanese": "アプリで{待|ま}ち{時間|じかん}を{確認|かくにん}できる。",
+      "japanese": "⟦アプリ→アプリ：04722_apuri⟧⟦で→で：00502_de⟧{待|ま}ち{時間|じかん}⟦を→を：00422_wo⟧⟦{確認|かくにん}できる→確認する：25332_kakuninsuru⟧。",
       "english": "You can check the wait time on the app.",
       "has_audio": false,
       "sense_numbers": [
@@ -43,11 +43,26 @@
       "notes": null
     }
   ],
-  "notes": "{待|ま}ち{時間|じかん} is a compound noun: {待|ま}ち (waiting, from {待|ま}つ) + {時間|じかん} (time). It refers to the time spent waiting before being served or admitted.\n\nCOMMON CONTEXTS:\n- {病院|びょういん}の{待|ま}ち{時間|じかん}: hospital waiting time\n- {遊園地|ゆうえんち}の{待|ま}ち{時間|じかん}: theme park queue time\n- {飲食店|いんしょくてん}の{待|ま}ち{時間|じかん}: restaurant wait time\n- {空港|くうこう}での{待|ま}ち{時間|じかん}: airport wait/layover time\n\nCOMMON PATTERNS:\n- {待|ま}ち{時間|じかん}が{長|なが}い: the wait is long\n- {待|ま}ち{時間|じかん}を{短縮|たんしゅく}する: to shorten wait times\n- {待|ま}ち{時間|じかん}{約|やく}〜{分|ふん}: approximately ~ minutes wait\n\nRELATED WORDS:\n- {待|ま}ち{列|れつ}: waiting line, queue\n- {順番待|じゅんばんま}ち: waiting for one's turn\n- {待合室|まちあいしつ}: waiting room",
-  "cross_references": [],
+  "notes": "{待|ま}ち{時間|じかん} is a compound noun: ⟦{待|ま}ち→待つ：00469_matsu⟧ (waiting, from ⟦{待|ま}つ→待つ：00469_matsu⟧) + ⟦{時間|じかん}→時間：00468_jikan⟧ (time). It refers to the time spent waiting before being served or admitted.\n\nUSAGE:\n- ⟦{病院|びょういん}→病院：00577_byouin⟧⟦の→の：09472_no⟧{待|ま}ち{時間|じかん}: hospital waiting time\n- ⟦{遊園地|ゆうえんち}→遊園地：03174_yuuenchi⟧⟦の→の：09472_no⟧{待|ま}ち{時間|じかん}: theme park queue time\n- ⟦{飲食店|いんしょくてん}→飲食店：15093_inshokuten⟧⟦の→の：09472_no⟧{待|ま}ち{時間|じかん}: restaurant wait time\n- ⟦{空港|くうこう}→空港：00648_kuukou⟧⟦で→で：00502_de⟧⟦の→の：09472_no⟧{待|ま}ち{時間|じかん}: airport wait/layover time\n\nCOMMON PATTERNS:\n- {待|ま}ち{時間|じかん}⟦が→が：00051_ga⟧⟦{長|なが}い→長い：00491_nagai⟧: the wait is long\n- {待|ま}ち{時間|じかん}⟦を→を：00422_wo⟧⟦{短縮|たんしゅく}する→短縮する：26835_tanshukusuru⟧: to shorten wait times\n- {待|ま}ち{時間|じかん}⟦{約|やく}→約：09563_yaku⟧〜⟦{分|ふん}→分：00928_fun⟧: approximately ~ minutes wait\n\nRELATED WORDS:\n- ⟦{待|ま}ち→待つ：00469_matsu⟧⟦{列|れつ}→列：02171_retsu⟧: waiting line, queue\n- ⟦{順番待|じゅんばんま}ち→順番待ち：09747_junbanmachi⟧: waiting for one's turn\n- ⟦{待合室|まちあいしつ}→待合室：07373_machiaishitsu⟧: waiting room",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "09747_junbanmachi",
+      "reading": "じゅんばんまち",
+      "headword": "{順番|じゅんばん}{待|ま}ち",
+      "label": "waiting for one's turn"
+    },
+    {
+      "type": "related",
+      "target_id": "07373_machiaishitsu",
+      "reading": "まちあいしつ",
+      "headword": "{待合室|まちあいしつ}",
+      "label": "waiting room"
+    }
+  ],
   "metadata": {
     "created": "2026-02-03T02:36:27Z",
-    "modified": "2026-07-10T00:20:58Z",
+    "modified": "2026-09-02T04:01:18Z",
     "ai_model": "opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

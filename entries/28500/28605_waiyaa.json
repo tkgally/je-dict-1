@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28605_waiyaa_ex1",
-      "japanese": "ワイヤーで{支|ささ}えた。",
+      "japanese": "ワイヤー⟦で→で：00502_de⟧⟦{支|ささ}えた→支える：01946_sasaeru⟧。",
       "english": "I supported it with wire.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28605_waiyaa_ex2",
-      "japanese": "ブレーキのワイヤーが{切|き}れた。",
+      "japanese": "⟦ブレーキ→ブレーキ：00022_bureeki⟧⟦の→の：09472_no⟧ワイヤー⟦が→が：00051_ga⟧⟦{切|き}れた→切れる：01936_kireru⟧。",
       "english": "The brake cable snapped.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28605_waiyaa_ex3",
-      "japanese": "{重|おも}い{荷物|にもつ}を{吊|つ}り{上|あ}げるには{丈夫|じょうぶ}なワイヤーが{必要|ひつよう}だ。",
+      "japanese": "⟦{重|おも}い→重い：00804_omoi⟧⟦{荷物|にもつ}→荷物：00737_nimotsu⟧⟦を→を：00422_wo⟧{吊|つ}り{上|あ}げる⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{丈夫|じょうぶ}→丈夫：01156_joubu⟧なワイヤー⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧だ。",
       "english": "Strong wire cable is needed to lift heavy loads.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "From English 'wire', but the Japanese term is narrower than the English one — limited to physical metal strands and cables.\n\nCOMMON COLLOCATIONS:\n- ワイヤーロープ: wire rope; steel cable\n- ブレーキワイヤー: brake cable\n- ワイヤーアート: wire art\n- ピアノ{線|せん}/ワイヤー: piano wire\n\nIMPORTANT DISTINCTIONS:\n- For electrical wiring, use {電線|でんせん} (power lines) or コード (appliance cord) — not ワイヤー.\n- For news/communications 'wire' (as in wire service), Japanese uses {通信|つうしん} not ワイヤー.\n- The verb 'to wire' (money) is {送金|そうきん}する.",
+  "notes": "From English 'wire', but the Japanese term is narrower than the English one — limited to physical metal strands and cables.\n\nCOMMON COLLOCATIONS:\n- ワイヤー⟦ロープ→ロープ：27860_roopu⟧: wire rope; steel cable\n- ⟦ブレーキ→ブレーキ：00022_bureeki⟧ワイヤー: brake cable\n- ワイヤー⟦アート→アート：10713_aato⟧: wire art\n- ⟦ピアノ→ピアノ：01376_piano⟧⟦{線|せん}→線：09901_sen⟧/ワイヤー: piano wire\n\nIMPORTANT DISTINCTIONS:\n- For electrical wiring, use ⟦{電線|でんせん}→電線：11507_densen⟧ (power lines) or ⟦コード→コード：00241_koodo⟧ (appliance cord) — not ワイヤー.\n- For news/communications 'wire' (as in wire service), Japanese uses ⟦{通信|つうしん}→通信：03514_tsuushin⟧ not ワイヤー.\n- The verb 'to wire' (money) is ⟦{送金|そうきん}→送金：09774_soukin⟧⟦する→する：00392_suru⟧.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04324_harigane",
+      "reading": "はりがね",
+      "headword": "{針金|はりがね}",
+      "label": "wire"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04432_keeburu",
+      "reading": "けーぶる",
+      "headword": "ケーブル",
+      "label": "cable"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +69,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "tool",
         "technology"
@@ -61,6 +77,6 @@
       "domain": []
     },
     "created": "2026-06-02T04:07:08Z",
-    "modified": "2026-08-08T18:34:17Z"
+    "modified": "2026-09-02T04:02:34Z"
   }
 }

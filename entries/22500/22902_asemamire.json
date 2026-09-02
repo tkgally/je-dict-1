@@ -3,7 +3,7 @@
   "headword": "{汗|あせ}まみれ",
   "reading": "あせまみれ",
   "romaji": "asemamire",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "soaked in sweat; drenched with sweat",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22902_asemamire_ex1",
-      "japanese": "{汗|あせ}まみれで{帰|かえ}ってきた。",
+      "japanese": "{汗|あせ}まみれ⟦で→で：00502_de⟧⟦{帰|かえ}って→帰る：00508_kaeru⟧きた。",
       "english": "I came home drenched in sweat.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22902_asemamire_ex2",
-      "japanese": "{練習|れんしゅう}が{終|お}わると、みんな{汗|あせ}まみれだった。",
+      "japanese": "⟦{練習|れんしゅう}→練習：05323_renshuu⟧⟦が→が：00051_ga⟧{終|お}わる⟦と→と：00512_to⟧、⟦みんな→みんな：02972_minna⟧{汗|あせ}まみれだった。",
       "english": "When practice ended, everyone was soaked in sweat.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22902_asemamire_ex3",
-      "japanese": "{汗|あせ}まみれのシャツを{脱|ぬ}いで、シャワーを{浴|あ}びた。",
+      "japanese": "{汗|あせ}まみれ⟦の→の：09472_no⟧⟦シャツ→シャツ：01052_shatsu⟧⟦を→を：00422_wo⟧⟦{脱|ぬ}いで→脱ぐ：00518_nugu⟧、⟦シャワー→シャワー：04503_shawaa⟧⟦を→を：00422_wo⟧⟦{浴|あ}びた→浴びる：02844_abiru⟧。",
       "english": "I took off my sweat-soaked shirt and took a shower.",
       "sense_numbers": [
         1
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "A vivid descriptive word using the suffix まみれ, which indicates being covered or smeared with something (usually unpleasant). Used frequently to describe the aftermath of exercise, sports, or working in heat.\n\nCOMMON COLLOCATIONS:\n- {汗|あせ}まみれになる: to become drenched in sweat\n- {汗|あせ}まみれの{顔|かお}: sweat-drenched face\n- {汗|あせ}まみれのシャツ: sweat-soaked shirt\n\nRELATED ～まみれ EXPRESSIONS:\n- {泥|どろ}まみれ: covered in mud\n- {血|ち}まみれ: covered in blood\n- {埃|ほこり}まみれ: covered in dust\n- {借金|しゃっきん}まみれ: buried in debt (figurative use)\n\nSIMILAR WORDS:\n- {汗|あせ}だく: dripping with sweat — emphasizes the dripping aspect\n- {汗|あせ}びっしょり: soaked with sweat — more colloquial",
+  "notes": "A vivid descriptive word using the suffix まみれ, which indicates being covered or smeared with something (usually unpleasant). Used frequently to describe the aftermath of exercise, sports, or working in heat.\n\nCOMMON COLLOCATIONS:\n- {汗|あせ}まみれ⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧: to become drenched in sweat\n- {汗|あせ}まみれ⟦の→の：09472_no⟧⟦{顔|かお}→顔：00558_kao⟧: sweat-drenched face\n- {汗|あせ}まみれ⟦の→の：09472_no⟧⟦シャツ→シャツ：01052_shatsu⟧: sweat-soaked shirt\n\nRELATED ～まみれ EXPRESSIONS:\n- ⟦{泥|どろ}まみれ→泥まみれ：19143_doromamire⟧: covered in mud\n- ⟦{血|ち}まみれ→血まみれ：14201_chimamire⟧: covered in blood\n- ⟦{埃|ほこり}まみれ→埃まみれ：27264_hokorimamire⟧: covered in dust\n- ⟦{借金|しゃっきん}→借金：03203_shakkin⟧まみれ: buried in debt (figurative use)\n\nSIMILAR WORDS:\n- {汗|あせ}だく: dripping with sweat — emphasizes the dripping aspect\n- ⟦{汗|あせ}→汗：02173_ase⟧びっしょり: soaked with sweat — more colloquial",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "19143_doromamire",
+      "reading": "どろまみれ",
+      "headword": "{泥|どろ}まみれ",
+      "label": "covered in mud"
+    },
+    {
+      "type": "related",
+      "target_id": "14201_chimamire",
+      "reading": "ちまみれ",
+      "headword": "{血|ち}まみれ",
+      "label": "covered in blood"
+    },
+    {
+      "type": "related",
+      "target_id": "27264_hokorimamire",
+      "reading": "ほこりまみれ",
+      "headword": "{埃|ほこり}まみれ",
+      "label": "covered in dust"
+    },
+    {
+      "type": "related",
+      "target_id": "25087_sunamamire",
+      "reading": "すなまみれ",
+      "headword": "{砂|すな}まみれ",
+      "label": "covered in sand"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,6 +91,6 @@
       ]
     },
     "created": "2026-04-07T20:17:00Z",
-    "modified": "2026-07-31T00:22:50Z"
+    "modified": "2026-09-02T04:02:10Z"
   }
 }

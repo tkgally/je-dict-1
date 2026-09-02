@@ -89,7 +89,7 @@
     },
     {
       "id": "03543_nozomi_ex8",
-      "japanese": "⟦{合格|ごうかく}→合格：02816_goukaku⟧⟦の→の：09472_no⟧{望|のぞ}み⟦は→は：00079_ha⟧ゼロ⟦では→では：02945_deha⟧⟦ない→ない：01118_nai⟧。",
+      "japanese": "⟦{合格|ごうかく}→合格：02816_goukaku⟧⟦の→の：09472_no⟧{望|のぞ}み⟦は→は：00079_ha⟧⟦ゼロ→ゼロ：01011_zero⟧⟦では→では：02945_deha⟧⟦ない→ない：01118_nai⟧。",
       "english": "The chance of passing isn't zero.",
       "notes": null,
       "has_audio": false,
@@ -118,7 +118,7 @@
       ]
     }
   ],
-  "notes": "USAGE: {望|のぞ}み is the noun form of ⟦{望|のぞ}む→望む：01976_nozomu⟧ (to hope, to desire). It refers to hopes, wishes, and prospects.\n\nCOMMON PATTERNS:\n・{望|のぞ}み⟦を→を：00422_wo⟧⟦{持|も}つ→持つ：00478_motsu⟧ (to have hope)\n・{望|のぞ}み⟦を→を：00422_wo⟧⟦{叶|かな}える→叶える：11807_kanaeru⟧ (to fulfill a wish)\n・{望|のぞ}み⟦を→を：00422_wo⟧⟦{捨|す}てる→捨てる：00892_suteru⟧ (to abandon hope)\n・{望|のぞ}み⟦が→が：00051_ga⟧{ある／ない} (there is/isn't hope)\n・{望|のぞ}み⟦が→が：00051_ga⟧⟦{薄|うす}い→薄い：00764_usui⟧ (hope is slim)\n・{望|のぞ}み⟦{通|どお}り→通り：01475_toori⟧ (as one wishes)\n\nNOTE: のぞみ is also the name of Japan's fastest Shinkansen (bullet train) service, symbolizing 'hope' for fast travel.\n\nSIMILAR WORDS:\n・⟦{願|ねが}い→願い：03529_negai⟧ - wish, request\n・⟦{希望|きぼう}→希望：00221_kibou⟧ - hope, wish (more formal)\n・⟦{夢|ゆめ}→夢：01519_yume⟧ - dream",
+  "notes": "USAGE: {望|のぞ}み is the noun form of ⟦{望|のぞ}む→望む：01976_nozomu⟧ (to hope, to desire). It refers to hopes, wishes, and prospects.\n\nCOMMON PATTERNS:\n- {望|のぞ}み⟦を→を：00422_wo⟧⟦{持|も}つ→持つ：00478_motsu⟧ (to have hope)\n- {望|のぞ}み⟦を→を：00422_wo⟧⟦{叶|かな}える→叶える：11807_kanaeru⟧ (to fulfill a wish)\n- {望|のぞ}み⟦を→を：00422_wo⟧⟦{捨|す}てる→捨てる：00892_suteru⟧ (to abandon hope)\n- {望|のぞ}み⟦が→が：00051_ga⟧{ある／ない} (there is/isn't hope)\n- {望|のぞ}み⟦が→が：00051_ga⟧⟦{薄|うす}い→薄い：00764_usui⟧ (hope is slim)\n- {望|のぞ}み⟦{通|どお}り→通り：01475_toori⟧ (as one wishes)\n\nNOTE: のぞみ is also the name of Japan's fastest Shinkansen (bullet train) service, symbolizing 'hope' for fast travel.\n\nSIMILAR WORDS:\n- ⟦{願|ねが}い→願い：03529_negai⟧ - wish, request\n- ⟦{希望|きぼう}→希望：00221_kibou⟧ - hope, wish (more formal)\n- ⟦{夢|ゆめ}→夢：01519_yume⟧ - dream",
   "cross_references": [
     {
       "type": "related",
@@ -133,11 +133,46 @@
       "headword": "{希望|きぼう}",
       "label": "hope (formal)",
       "target_id": "00221_kibou"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03529_negai",
+      "reading": "ねがい",
+      "headword": "{願|ねが}い",
+      "label": "wish, request"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01519_yume",
+      "reading": "ゆめ",
+      "headword": "{夢|ゆめ}",
+      "label": "dream"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05085_ganbou",
+      "reading": "がんぼう",
+      "headword": "{願望|がんぼう}",
+      "label": "desire, wish"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12630_akogare",
+      "reading": "あこがれ",
+      "headword": "{憧|あこが}れ",
+      "label": "longing, yearning, admiration"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14621_negaigoto",
+      "reading": "ねがいごと",
+      "headword": "{願|ねが}い{事|ごと}",
+      "label": "wish"
     }
   ],
   "metadata": {
     "created": "2026-01-12T11:14:00Z",
-    "modified": "2026-06-12T18:28:11Z",
+    "modified": "2026-09-02T04:01:03Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

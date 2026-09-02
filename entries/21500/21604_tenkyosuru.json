@@ -3,7 +3,7 @@
   "headword": "{転居|てんきょ}する",
   "reading": "てんきょする",
   "romaji": "tenkyosuru",
-  "part_of_speech": "noun, verb (する)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "to move; to change one's residence",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21604_tenkyosuru_ex1",
-      "japanese": "{来月|らいげつ}{転居|てんきょ}します。",
+      "japanese": "⟦{来月|らいげつ}→来月：00744_raigetsu⟧{転居|てんきょ}します。",
       "english": "I'm moving next month.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21604_tenkyosuru_ex2",
-      "japanese": "{仕事|しごと}の{都合|つごう}で{大阪|おおさか}に{転居|てんきょ}した。",
+      "japanese": "⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦の→の：09472_no⟧⟦{都合|つごう}→都合：01672_tsugou⟧⟦で→で：00502_de⟧⟦{大阪|おおさか}→大阪：09779_oosaka⟧⟦に→に：00314_ni⟧{転居|てんきょ}した。",
       "english": "I moved to Osaka for work reasons.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21604_tenkyosuru_ex3",
-      "japanese": "{転居|てんきょ}したら、{二週間|にしゅうかん}{以内|いない}に{届|とど}け{出|で}を{出|だ}してください。",
+      "japanese": "{転居|てんきょ}したら、{二週間|にしゅうかん}⟦{以内|いない}→以内：01317_inai⟧⟦に→に：00314_ni⟧{届|とど}け{出|で}⟦を→を：00422_wo⟧⟦{出|だ}して→出す：01087_dasu⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "After moving, please submit the notification within two weeks.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "A formal word for changing one's residence, frequently seen on official forms and in administrative contexts. Less casual than {引|ひ}っ{越|こ}し.\n\nCOMMON COLLOCATIONS:\n- {転居|てんきょ}{届|とどけ}: change-of-address notification\n- {転居|てんきょ}{先|さき}: new address, destination of the move\n- {転居|てんきょ}{通知|つうち}: moving notification (sent to contacts)\n- {転居|てんきょ}はがき: change-of-address postcard\n\nSIMILAR WORDS:\n- {引|ひ}っ{越|こ}す: to move (house) — everyday, conversational\n- {移転|いてん}する: to relocate — used for offices or businesses rather than personal homes\n- {転|てん}じる: to move/transfer — broader, literary\n\nREGISTER:\nMore formal than {引|ひ}っ{越|こ}す. Used on {役所|やくしょ} forms, in official correspondence, and in written announcements. In casual conversation, {引|ひ}っ{越|こ}す is preferred.",
+  "notes": "A formal word for changing one's residence, frequently seen on official forms and in administrative contexts. Less casual than {引|ひ}っ{越|こ}し.\n\nCOMMON COLLOCATIONS:\n- ⟦{転居|てんきょ}{届|とどけ}→転居届：10284_tenkyotodoke⟧: change-of-address notification\n- ⟦{転居|てんきょ}{先|さき}→転居先：29866_tenkyosaki⟧: new address, destination of the move\n- ⟦{転居|てんきょ}→転居：15236_tenkyo⟧⟦{通知|つうち}→通知：04061_tsuuchi⟧: moving notification (sent to contacts)\n- ⟦{転居|てんきょ}→転居：15236_tenkyo⟧⟦はがき→はがき：00699_hagaki⟧: change-of-address postcard\n\nSIMILAR WORDS:\n- ⟦{引|ひ}っ{越|こ}す→引っ越す：01171_hikkosu⟧: to move (house) — everyday, conversational\n- ⟦{移転|いてん}する→移転する：20210_itensuru⟧: to relocate — used for offices or businesses rather than personal homes\n- {転|てん}じる: to move/transfer — broader, literary\n\nREGISTER:\nMore formal than ⟦{引|ひ}っ{越|こ}す→引っ越す：01171_hikkosu⟧. Used on ⟦{役所|やくしょ}→役所：06455_yakusho⟧ forms, in official correspondence, and in written announcements. In casual conversation, ⟦{引|ひ}っ{越|こ}す→引っ越す：01171_hikkosu⟧ is preferred.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01171_hikkosu",
+      "reading": "ひっこす",
+      "headword": "{引|ひ}っ{越|こ}す",
+      "label": "to move"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20210_itensuru",
+      "reading": "いてんする",
+      "headword": "{移転|いてん}する",
+      "label": "to relocate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17190_ijuusuru",
+      "reading": "いじゅうする",
+      "headword": "{移住|いじゅう}する",
+      "label": "to emigrate"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,7 +84,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-02T18:11:09Z",
-    "modified": "2026-05-01T06:14:09Z"
+    "modified": "2026-09-02T04:02:04Z"
   },
   "conjugation": {
     "type": "suru",

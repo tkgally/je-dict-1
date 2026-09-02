@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "ビル is a loanword from English \"building,\" typically referring to multi-story commercial buildings.\n\nCOMMON EXPRESSIONS:\n- ⟦{高|たか}い→高い：00500_takai⟧ビル: tall building\n- ⟦オフィス→オフィス：00327_ofisu⟧ビル: office building\n- ビル⟦の→の：09472_no⟧5⟦{階|かい}→階：01034_kai⟧: 5th floor of the building\n- ビル⟦の→の：09472_no⟧⟦{屋上|おくじょう}→屋上：01341_okujou⟧: building rooftop\n\nCOMPARISON:\n- ビル: commercial/office building (loanword)\n- ⟦{建物|たてもの}→建物：01458_tatemono⟧: building (general, native word)\n- ⟦マンション→マンション：01035_manshon⟧: apartment building (residential)\n- ⟦{高層|こうそう}→高層：04145_kousou⟧ビル: high-rise building\n\nNOTE:\nビル typically implies a concrete/steel commercial structure. Residential buildings are more commonly called ⟦マンション→マンション：01035_manshon⟧ or ⟦アパート→アパート：01012_apaato⟧.",
+  "notes": "ビル is a loanword from English \"building,\" typically referring to multi-story commercial buildings.\n\nCOMMON EXPRESSIONS:\n- ⟦{高|たか}い→高い：00500_takai⟧ビル: tall building\n- ⟦オフィス→オフィス：00327_ofisu⟧ビル: office building\n- ビル⟦の→の：09472_no⟧5⟦{階|かい}→階：01034_kai⟧: 5th floor of the building\n- ビル⟦の→の：09472_no⟧⟦{屋上|おくじょう}→屋上：01341_okujou⟧: building rooftop\n\nSIMILAR WORDS:\n- ビル: commercial/office building (loanword)\n- ⟦{建物|たてもの}→建物：01458_tatemono⟧: building (general, native word)\n- ⟦マンション→マンション：01035_manshon⟧: apartment building (residential)\n- ⟦{高層|こうそう}→高層：04145_kousou⟧ビル: high-rise building\n\nUSAGE:\nビル typically implies a concrete/steel commercial structure. Residential buildings are more commonly called ⟦マンション→マンション：01035_manshon⟧ or ⟦アパート→アパート：01012_apaato⟧.",
   "cross_references": [
     {
       "type": "synonym",
@@ -51,11 +51,32 @@
       "reading": "たてもの",
       "headword": "{建物|たてもの}",
       "label": "building (general)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01035_manshon",
+      "reading": "まんしょん",
+      "headword": "マンション",
+      "label": "apartment building"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21292_kenchikubutsu",
+      "reading": "けんちくぶつ",
+      "headword": "{建築物|けんちくぶつ}",
+      "label": "building"
+    },
+    {
+      "type": "related",
+      "target_id": "21449_choukousoubiru",
+      "reading": "ちょうこうそうびる",
+      "headword": "{超高層|ちょうこうそう}ビル",
+      "label": "skyscraper"
     }
   ],
   "metadata": {
     "created": "2026-01-08T12:55:02Z",
-    "modified": "2026-05-15T19:12:04Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

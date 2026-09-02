@@ -20,7 +20,7 @@
   "examples": [
     {
       "id": "10968_obaachan_ex1",
-      "japanese": "おばあちゃんの{家|いえ}に{行|い}く。",
+      "japanese": "おばあちゃん⟦の→の：09472_no⟧⟦{家|いえ}→家：00612_ie⟧⟦に→に：00314_ni⟧⟦{行|い}く→行く：00119_iku⟧。",
       "english": "I'm going to grandma's house.",
       "notes": null,
       "has_audio": false,
@@ -30,7 +30,7 @@
     },
     {
       "id": "10968_obaachan_ex2",
-      "japanese": "おばあちゃんがケーキを{焼|や}いてくれた。",
+      "japanese": "おばあちゃん⟦が→が：00051_ga⟧⟦ケーキ→ケーキ：01356_keeki⟧⟦を→を：00422_wo⟧⟦{焼|や}いて→焼く：01123_yaku⟧⟦くれた→くれる：00724_kureru⟧。",
       "english": "Grandma baked a cake for me.",
       "notes": null,
       "has_audio": false,
@@ -40,7 +40,7 @@
     },
     {
       "id": "10968_obaachan_ex3",
-      "japanese": "{夏休|なつやす}みに{田舎|いなか}のおばあちゃんに{会|あ}いに{行|い}きました。",
+      "japanese": "⟦{夏休|なつやす}み→夏休み：02925_natsuyasumi⟧⟦に→に：00314_ni⟧⟦{田舎|いなか}→田舎：01320_inaka⟧⟦の→の：09472_no⟧おばあちゃん⟦に→に：00314_ni⟧⟦{会|あ}い→会う：00482_au⟧⟦に→に：00314_ni⟧⟦{行|い}きました→行く：00119_iku⟧。",
       "english": "During summer vacation, I went to visit my grandmother in the countryside.",
       "notes": null,
       "has_audio": false,
@@ -50,7 +50,7 @@
     },
     {
       "id": "10968_obaachan_ex4",
-      "japanese": "{近所|きんじょ}のおばあちゃんはいつも{元気|げんき}だ。",
+      "japanese": "⟦{近所|きんじょ}→近所：01318_kinjo⟧⟦の→の：09472_no⟧おばあちゃん⟦は→は：00079_ha⟧⟦いつも→いつも：00599_itsumo⟧⟦{元気|げんき}→元気：00696_genki⟧だ。",
       "english": "The old lady in the neighborhood is always energetic.",
       "notes": null,
       "has_audio": false,
@@ -60,7 +60,7 @@
     },
     {
       "id": "10968_obaachan_ex5",
-      "japanese": "{駅|えき}でおばあちゃんの{荷物|にもつ}を{持|も}ってあげた。",
+      "japanese": "⟦{駅|えき}→駅：02180_eki⟧⟦で→で：00502_de⟧おばあちゃん⟦の→の：09472_no⟧⟦{荷物|にもつ}→荷物：00737_nimotsu⟧⟦を→を：00422_wo⟧⟦{持|も}って→持つ：00478_motsu⟧⟦あげた→あげる：00546_ageru⟧。",
       "english": "I helped carry an elderly woman's bags at the station.",
       "notes": null,
       "has_audio": false,
@@ -69,7 +69,7 @@
       ]
     }
   ],
-  "notes": "おばあちゃん is the informal, affectionate term for \"grandmother\" or \"old lady.\" It's the ちゃん form of おばあさん.\n\nFORMALITY LEVELS:\n- おばあちゃん: informal, affectionate (used by/with family)\n- おばあさん: polite (used for others' grandmothers or elderly women)\n- {祖母|そぼ}: formal/written (used when referring to one's own grandmother to outsiders)\n- おばあさま: very polite/respectful\n\nUSAGE:\nSense 1 (grandmother): Used as a term of address or reference within the family. Children typically call their grandmother おばあちゃん.\n\nSense 2 (elderly woman): Can be used affectionately for any elderly woman, but some women may find it unwelcome if they don't consider themselves old.\n\nRELATED:\n- おじいちゃん: grandfather (informal)\n- {祖父|そふ}: grandfather (formal)",
+  "notes": "おばあちゃん is the informal, affectionate term for \"grandmother\" or \"old lady.\" It's the ちゃん form of ⟦おばあさん→おばあさん：02863_obaasan⟧.\n\nFORMALITY LEVELS:\n- おばあちゃん: informal, affectionate (used by/with family)\n- ⟦おばあさん→おばあさん：02863_obaasan⟧: polite (used for others' grandmothers or elderly women)\n- ⟦{祖母|そぼ}→祖母：00813_sobo⟧: formal/written (used when referring to one's own grandmother to outsiders)\n- おばあさま: very polite/respectful\n\nUSAGE:\nSense 1 (grandmother): Used as a term of address or reference within the family. Children typically call their grandmother おばあちゃん.\n\nSense 2 (elderly woman): Can be used affectionately for any elderly woman, but some women may find it unwelcome if they don't consider themselves old.\n\nRELATED WORDS:\n- ⟦おじいちゃん→おじいちゃん：20642_ojiichan⟧: grandfather (informal)\n- ⟦{祖父|そふ}→祖父：01452_sofu⟧: grandfather (formal)",
   "prominent_see_also": [
     {
       "target_id": "02863_obaasan",
@@ -91,11 +91,25 @@
       "reading": "おじいちゃん",
       "headword": "おじいちゃん",
       "label": "grandfather (informal)"
+    },
+    {
+      "type": "related",
+      "target_id": "01452_sofu",
+      "reading": "そふ",
+      "headword": "{祖父|そふ}",
+      "label": "grandfather"
+    },
+    {
+      "type": "related",
+      "target_id": "10296_obachan",
+      "reading": "おばちゃん",
+      "headword": "おばちゃん",
+      "label": "auntie"
     }
   ],
   "metadata": {
     "created": "2026-02-11T23:06:15Z",
-    "modified": "2026-08-15T00:33:36Z",
+    "modified": "2026-09-02T04:01:23Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

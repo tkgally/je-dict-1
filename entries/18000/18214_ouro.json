@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "18214_ouro_ex1",
-      "japanese": "{往路|おうろ}は{新幹線|しんかんせん}で{行|い}った。",
+      "japanese": "{往路|おうろ}⟦は→は：00079_ha⟧⟦{新幹線|しんかんせん}→新幹線：01053_shinkansen⟧⟦で→で：00502_de⟧⟦{行|い}った→行く：00119_iku⟧。",
       "english": "I took the bullet train on the way there.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18214_ouro_ex2",
-      "japanese": "{往路|おうろ}は{渋滞|じゅうたい}で{三時間|さんじかん}もかかった。",
+      "japanese": "{往路|おうろ}⟦は→は：00079_ha⟧⟦{渋滞|じゅうたい}→渋滞：03279_juutai⟧⟦で→で：00502_de⟧⟦{三時間|さんじかん}→三時間：30478_sanjikan⟧⟦も→も：00484_mo⟧⟦かかった→かかる：00711_kakaru⟧。",
       "english": "The outward journey took three hours because of traffic.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18214_ouro_ex3",
-      "japanese": "{箱根駅伝|はこねえきでん}は{往路|おうろ}{五区間|ごくかん}、{復路|ふくろ}{五区間|ごくかん}で{競|きそ}われる。",
+      "japanese": "{箱根駅伝|はこねえきでん}⟦は→は：00079_ha⟧{往路|おうろ}{五区間|ごくかん}、⟦{復路|ふくろ}→復路：20538_fukuro⟧{五区間|ごくかん}⟦で→で：00502_de⟧⟦{競|きそ}われる→競う：13767_kisou⟧。",
       "english": "The Hakone Ekiden relay race is contested over five legs on the outbound course and five legs on the return.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nThe counterpart of {復路|ふくろ} (return journey). Together they form the pair {往路|おうろ}/{復路|ふくろ}, similar to {往復|おうふく} (round trip). Common in transportation schedules and sports commentary, especially the {箱根駅伝|はこねえきでん} (Hakone Ekiden relay race).\n\nCOMMON COLLOCATIONS:\n- {往路|おうろ}と{復路|ふくろ} (the outward and return journeys)\n- {往路|おうろ}{優勝|ゆうしょう} (winning the outbound leg)\n- {往路|おうろ}の{便|びん} (the outbound flight/service)\n\nSIMILAR WORDS:\n- {復路|ふくろ}: return journey — the trip back from the destination\n- {行|い}き: the way there — the everyday, informal equivalent",
+  "notes": "USAGE:\nThe counterpart of ⟦{復路|ふくろ}→復路：20538_fukuro⟧ (return journey). Together they form the pair {往路|おうろ}/⟦{復路|ふくろ}→復路：20538_fukuro⟧, similar to ⟦{往復|おうふく}→往復：04111_oufuku⟧ (round trip). Common in transportation schedules and sports commentary, especially the {箱根駅伝|はこねえきでん} (Hakone Ekiden relay race).\n\nCOMMON COLLOCATIONS:\n- {往路|おうろ}⟦と→と：00512_to⟧⟦{復路|ふくろ}→復路：20538_fukuro⟧ (the outward and return journeys)\n- {往路|おうろ}⟦{優勝|ゆうしょう}→優勝：03647_yuushou⟧ (winning the outbound leg)\n- {往路|おうろ}⟦の→の：09472_no⟧⟦{便|びん}→便：28160_bin⟧ (the outbound flight/service)\n\nSIMILAR WORDS:\n- ⟦{復路|ふくろ}→復路：20538_fukuro⟧: return journey — the trip back from the destination\n- ⟦{行|い}き→行く：00119_iku⟧: the way there — the everyday, informal equivalent",
   "cross_references": [
     {
       "type": "antonym",
@@ -60,18 +66,30 @@
       "reading": "おうふく",
       "headword": "{往復|おうふく}",
       "label": "round trip"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16824_ikimichi",
+      "reading": "いきみち",
+      "headword": "{行|い}き{道|みち}",
+      "label": "the way there"
     }
   ],
   "metadata": {
     "created": "2026-03-20T12:19:48Z",
-    "modified": "2026-05-08T08:12:00Z",
+    "modified": "2026-09-02T04:01:51Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["travel", "transportation"]
+      "semantic": [
+        "travel",
+        "transportation"
+      ]
     }
   }
 }

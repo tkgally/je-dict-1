@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "19841_kii_ex1",
-      "japanese": "{奇異|きい}な{目|め}で{見|み}られた。",
+      "japanese": "{奇異|きい}な⟦{目|め}→目：00525_me⟧⟦で→で：00502_de⟧⟦{見|み}られた→見る：00283_miru⟧。",
       "english": "I was looked at strangely.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "19841_kii_ex2",
-      "japanese": "{奇異|きい}に{感|かん}じた。",
+      "japanese": "{奇異|きい}⟦に→に：00314_ni⟧⟦{感|かん}じた→感じる：02044_kanjiru⟧。",
       "english": "I found it strange.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "19841_kii_ex3",
-      "japanese": "{周|まわ}りの{人|ひと}が{奇異|きい}の{目|め}で{見|み}ているのに{気|き}づかないようだった。",
+      "japanese": "⟦{周|まわ}り→周り：01732_mawari⟧⟦の→の：09472_no⟧⟦{人|ひと}→人：00476_hito⟧⟦が→が：00051_ga⟧{奇異|きい}⟦の→の：09472_no⟧⟦{目|め}→目：00525_me⟧⟦で→で：00502_de⟧⟦{見|み}ている→見る：00283_miru⟧⟦の→の：09472_no⟧⟦に→に：00314_ni⟧{気|き}づかないようだった。",
       "english": "He didn't seem to notice the people around him looking at him strangely.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,33 @@
       ]
     }
   ],
-  "notes": "A somewhat formal word for strangeness that implies something is unusual enough to draw attention. Often used to describe how others perceive unusual behavior.\n\nCOMMON COLLOCATIONS:\n- {奇異|きい}な{目|め}で{見|み}る — to look at someone strangely\n- {奇異|きい}の{目|め} — strange looks, looks of bewilderment\n- {奇異|きい}に{感|かん}じる — to find something strange\n- {奇異|きい}な{光景|こうけい} — a bizarre sight\n- {奇異|きい}に{映|うつ}る — to appear strange\n\nUSAGE:\nThe phrase {奇異|きい}の{目|め}で{見|み}る / {奇異|きい}な{目|め}で{見|み}る is the most common usage — it means to stare at someone as if they are bizarre. This expression implies social judgment and discomfort.\n\nSIMILAR WORDS:\n- {奇妙|きみょう} — strange, curious (lighter, can be intriguing)\n- {不思議|ふしぎ} — mysterious, puzzling (more neutral, can be positive)\n- {異様|いよう} — bizarre, abnormal (stronger, more alarming)",
-  "cross_references": [],
+  "notes": "A somewhat formal word for strangeness that implies something is unusual enough to draw attention. Often used to describe how others perceive unusual behavior.\n\nCOMMON COLLOCATIONS:\n- {奇異|きい}な⟦{目|め}→目：00525_me⟧⟦で→で：00502_de⟧⟦{見|み}る→見る：00283_miru⟧ — to look at someone strangely\n- {奇異|きい}⟦の→の：09472_no⟧⟦{目|め}→目：00525_me⟧ — strange looks, looks of bewilderment\n- {奇異|きい}⟦に→に：00314_ni⟧⟦{感|かん}じる→感じる：02044_kanjiru⟧ — to find something strange\n- {奇異|きい}な⟦{光景|こうけい}→光景：02799_koukei⟧ — a bizarre sight\n- {奇異|きい}⟦に→に：00314_ni⟧⟦{映|うつ}る→映る：12964_utsuru⟧ — to appear strange\n\nUSAGE:\nThe phrase {奇異|きい}⟦の→の：09472_no⟧⟦{目|め}→目：00525_me⟧⟦で→で：00502_de⟧⟦{見|み}る→見る：00283_miru⟧ / {奇異|きい}な⟦{目|め}→目：00525_me⟧⟦で→で：00502_de⟧⟦{見|み}る→見る：00283_miru⟧ is the most common usage — it means to stare at someone as if they are bizarre. This expression implies social judgment and discomfort.\n\nSIMILAR WORDS:\n- ⟦{奇妙|きみょう}→奇妙：01630_kimyou⟧ — strange, curious (lighter, can be intriguing)\n- ⟦{不思議|ふしぎ}→不思議：02358_fushigi⟧ — mysterious, puzzling (more neutral, can be positive)\n- ⟦{異様|いよう}→異様：13550_iyou⟧ — bizarre, abnormal (stronger, more alarming)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01630_kimyou",
+      "reading": "きみょう",
+      "headword": "{奇妙|きみょう}",
+      "label": "strange, curious"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02358_fushigi",
+      "reading": "ふしぎ",
+      "headword": "{不思議|ふしぎ}",
+      "label": "mysterious, puzzling"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13550_iyou",
+      "reading": "いよう",
+      "headword": "{異様|いよう}",
+      "label": "bizarre, abnormal"
+    }
+  ],
   "metadata": {
     "created": "2026-03-27T02:14:03Z",
-    "modified": "2026-03-27T02:14:03Z",
+    "modified": "2026-09-02T04:01:57Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

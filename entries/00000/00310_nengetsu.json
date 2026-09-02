@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "READING: Also read as としつき, which is a native Japanese reading with the same meaning. ねんげつ is the more common reading in formal contexts.\n\nPATTERNS:\n・{年月|ねんげつ}⟦を→を：00422_wo⟧⟦かける→かける：00854_kakeru⟧ (to spend years on)\n・{年月|ねんげつ}⟦が→が：00051_ga⟧⟦{経|た}つ→経つ：09892_tatsu⟧/⟦{過|す}ぎる→過ぎる：01219_sugiru⟧ (time passes)\n・{年月|ねんげつ}⟦が→が：00051_ga⟧⟦{流|なが}れる→流れる：01969_nagareru⟧ (time flows/passes)\n・⟦{長|なが}い→長い：00491_nagai⟧{年月|ねんげつ} (many years)\n\nSIMILAR WORDS:\n・⟦{歳月|さいげつ}→歳月：13198_saigetsu⟧ (years, time - more literary)\n・⟦{時間|じかん}→時間：00468_jikan⟧ (time - general)\n・⟦{月日|つきひ}→月日：04063_tsukihi⟧ (days and months, time)",
+  "notes": "READING: Also read as としつき, which is a native Japanese reading with the same meaning. ねんげつ is the more common reading in formal contexts.\n\nCOMMON PATTERNS:\n- {年月|ねんげつ}⟦を→を：00422_wo⟧⟦かける→かける：00854_kakeru⟧ (to spend years on)\n- {年月|ねんげつ}⟦が→が：00051_ga⟧⟦{経|た}つ→経つ：09892_tatsu⟧/⟦{過|す}ぎる→過ぎる：01219_sugiru⟧ (time passes)\n- {年月|ねんげつ}⟦が→が：00051_ga⟧⟦{流|なが}れる→流れる：01969_nagareru⟧ (time flows/passes)\n- ⟦{長|なが}い→長い：00491_nagai⟧{年月|ねんげつ} (many years)\n\nSIMILAR WORDS:\n- ⟦{歳月|さいげつ}→歳月：13198_saigetsu⟧ (years, time - more literary)\n- ⟦{時間|じかん}→時間：00468_jikan⟧ (time - general)\n- ⟦{月日|つきひ}→月日：04063_tsukihi⟧ (days and months, time)",
   "cross_references": [
     {
       "type": "related",
@@ -71,11 +71,32 @@
       "headword": "{歳月|さいげつ}",
       "label": "years (literary)",
       "target_id": "13198_saigetsu"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00468_jikan",
+      "reading": "じかん",
+      "headword": "{時間|じかん}",
+      "label": "time"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04063_tsukihi",
+      "reading": "つきひ",
+      "headword": "{月日|つきひ}",
+      "label": "days and months, time"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23485_nensuu",
+      "reading": "ねんすう",
+      "headword": "{年数|ねんすう}",
+      "label": "number of years"
     }
   ],
   "metadata": {
     "created": "2026-01-13T10:53:53Z",
-    "modified": "2026-05-10T15:10:02Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

@@ -139,7 +139,7 @@
     },
     {
       "id": "00481_tsukuru_ex4",
-      "japanese": "⟦この→この：00962_kono⟧⟦{机|つくえ}→机：00762_tsukue⟧⟦は→は：00079_ha⟧⟦{木|き}→木：00524_ki⟧⟦で→で：00502_de⟧{作|つく}られている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{机|つくえ}→机：00762_tsukue⟧⟦は→は：00079_ha⟧⟦{木|き}→木：00524_ki⟧⟦で→で：00502_de⟧{作|つく}られて⟦いる→いる：00495_iru⟧。",
       "english": "This desk is made of wood.",
       "notes": null,
       "has_audio": false,
@@ -208,7 +208,7 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY:\n⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive). No pair verb. Pattern: X⟦を→を：00422_wo⟧{作|つく}る (make X). Passive {作|つく}られる is the ordinary way to say what something is made of or where it is produced.\n\nASPECT:\nている covers both the ongoing action and the resulting state: {作|つく}っている can be \"is making\" or \"has made (and it exists now),\" and context decides which.\n\nCOMMON PATTERNS:\n- ⟦ご{飯|はん}→ご飯：00776_gohan⟧⟦を→を：00422_wo⟧{作|つく}る — to cook a meal\n- ⟦{友達|ともだち}→友達：01478_tomodachi⟧⟦を→を：00422_wo⟧{作|つく}る — to make friends\n- ⟦{計画|けいかく}→計画：01172_keikaku⟧⟦を→を：00422_wo⟧{作|つく}る — to make a plan\n- ⟦{時間|じかん}→時間：00468_jikan⟧⟦を→を：00422_wo⟧{作|つく}る — to make time (for something)\n- X⟦で→で：00502_de⟧{作|つく}る — to make something out of X\n\nKANJI CHOICE:\n- {作|つく}る is the general-purpose spelling and the safe default.\n- ⟦{造|つく}る→造る：17751_tsukuru⟧ is for things built or brewed on a large scale — ships, buildings, sake.\n- ⟦{創|つく}る→創る：30256_tsukuru⟧ is reserved for creating something that did not exist before, and is mostly seen in slogans and company mottos.\n\nSIMILAR WORDS:\n- ⟦{建|た}てる→建てる：01189_tateru⟧ is the verb for putting up a building; {作|つく}る is not used of houses except loosely.\n- ⟦{作成|さくせい}→作成：04186_sakusei⟧⟦する→する：00392_suru⟧ is the formal word for drawing up documents, lists, and plans — the business register of sense 2.",
+  "notes": "TRANSITIVITY:\n⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive). No pair verb. Pattern: X⟦を→を：00422_wo⟧{作|つく}る (make X). Passive {作|つく}られる is the ordinary way to say what something is made of or where it is produced.\n\nASPECT (ている):\nて⟦いる→いる：00495_iru⟧ covers both the ongoing action and the resulting state: {作|つく}って⟦いる→いる：00495_iru⟧ can be \"is making\" or \"has made (and it exists now),\" and context decides which.\n\nCOMMON PATTERNS:\n- ⟦ご{飯|はん}→ご飯：00776_gohan⟧⟦を→を：00422_wo⟧{作|つく}る — to cook a meal\n- ⟦{友達|ともだち}→友達：01478_tomodachi⟧⟦を→を：00422_wo⟧{作|つく}る — to make friends\n- ⟦{計画|けいかく}→計画：01172_keikaku⟧⟦を→を：00422_wo⟧{作|つく}る — to make a plan\n- ⟦{時間|じかん}→時間：00468_jikan⟧⟦を→を：00422_wo⟧{作|つく}る — to make time (for something)\n- X⟦で→で：00502_de⟧{作|つく}る — to make something out of X\n\nWRITING:\n- {作|つく}る is the general-purpose spelling and the safe default.\n- ⟦{造|つく}る→造る：17751_tsukuru⟧ is for things built or brewed on a large scale — ships, buildings, sake.\n- ⟦{創|つく}る→創る：30256_tsukuru⟧ is reserved for creating something that did not exist before, and is mostly seen in slogans and company mottos.\n\nSIMILAR WORDS:\n- ⟦{建|た}てる→建てる：01189_tateru⟧ is the verb for putting up a building; {作|つく}る is not used of houses except loosely.\n- ⟦{作成|さくせい}→作成：04186_sakusei⟧⟦する→する：00392_suru⟧ is the formal word for drawing up documents, lists, and plans — the business register of sense 2.",
   "cross_references": [
     {
       "type": "related",
@@ -221,11 +221,39 @@
       "reading": "さくせい",
       "headword": "{作成|さくせい}",
       "target_id": "04186_sakusei"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25378_sakuseisuru",
+      "reading": "さくせいする",
+      "headword": "{作成|さくせい}する",
+      "label": "is the formal word for drawing up…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10423_umidasu",
+      "reading": "うみだす",
+      "headword": "{生|う}み{出|だ}す",
+      "label": "to produce, to create, to generate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29393_souzousuru",
+      "reading": "そうぞうする",
+      "headword": "{創造|そうぞう}する",
+      "label": "to create"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29531_umu",
+      "reading": "うむ",
+      "headword": "{生|う}む",
+      "label": "to produce"
     }
   ],
   "metadata": {
     "created": "2026-01-05T12:02:30Z",
-    "modified": "2026-08-09T12:25:33Z",
+    "modified": "2026-09-02T04:00:57Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

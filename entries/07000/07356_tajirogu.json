@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "07356_tajirogu_ex1",
-      "japanese": "{相手|あいて}の{迫力|はくりょく}にたじろいだ。",
+      "japanese": "⟦{相手|あいて}→相手：01677_aite⟧⟦の→の：09472_no⟧⟦{迫力|はくりょく}→迫力：14310_hakuryoku⟧⟦に→に：00314_ni⟧たじろいだ。",
       "english": "I faltered at my opponent's intensity.",
       "has_audio": false,
       "sense_numbers": [
@@ -113,7 +113,7 @@
     },
     {
       "id": "07356_tajirogu_ex2",
-      "japanese": "{厳|きび}しい{批判|ひはん}を{受|う}けてもたじろがなかった。",
+      "japanese": "⟦{厳|きび}しい→厳しい：01125_kibishii⟧⟦{批判|ひはん}→批判：03580_hihan⟧⟦を→を：00422_wo⟧⟦{受|う}けて→受ける：01215_ukeru⟧⟦も→も：00484_mo⟧たじろがなかった。",
       "english": "He didn't flinch even when receiving harsh criticism.",
       "has_audio": false,
       "sense_numbers": [
@@ -122,7 +122,7 @@
     },
     {
       "id": "07356_tajirogu_ex3",
-      "japanese": "{彼女|かのじょ}は{困難|こんなん}を{前|まえ}にしてもたじろぐことなく{前進|ぜんしん}した。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧⟦{困難|こんなん}→困難：01410_konnan⟧⟦を→を：00422_wo⟧⟦{前|まえ}→前：02255_mae⟧にして⟦も→も：00484_mo⟧たじろぐこと⟦なく→ない：01118_nai⟧⟦{前進|ぜんしん}した→前進する：17339_zenshinsuru⟧。",
       "english": "She moved forward without faltering even when facing difficulties.",
       "has_audio": false,
       "sense_numbers": [
@@ -130,7 +130,7 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY:\nIntransitive verb ({自動詞|じどうし}). No pair verb.\n\nUSAGE:\nたじろぐ describes a momentary hesitation or wavering, often psychological rather than purely physical. It implies a temporary loss of confidence or resolve in the face of something daunting.\n\nCOMMON PATTERNS:\n・〜にたじろぐ (to flinch at ~)\n・たじろぐことなく (without flinching)\n・たじろがない (doesn't flinch - shows resolve)\n\nSIMILAR WORDS:\n・ひるむ - to cower/flinch (stronger fear, more about backing down)\n・{怯|ひる}む - same as above (kanji form)\n・ためらう - to hesitate (more about indecision)\n・おののく - to tremble (stronger fear response)",
+  "notes": "TRANSITIVITY:\nIntransitive verb (⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧). No pair verb.\n\nUSAGE:\nたじろぐ describes a momentary hesitation or wavering, often psychological rather than purely physical. It implies a temporary loss of confidence or resolve in the face of something daunting.\n\nCOMMON PATTERNS:\n- 〜⟦に→に：00314_ni⟧たじろぐ (to flinch at ~)\n- たじろぐこと⟦なく→ない：01118_nai⟧ (without flinching)\n- たじろがない (doesn't flinch - shows resolve)\n\nSIMILAR WORDS:\n- ⟦ひるむ→ひるむ：07358_hirumu⟧ - to cower/flinch (stronger fear, more about backing down)\n- {怯|ひる}む - same as above (kanji form)\n- ためらう - to hesitate (more about indecision)\n- ⟦おののく→おののく：07361_ononoku⟧ - to tremble (stronger fear response)",
   "cross_references": [
     {
       "type": "synonym",
@@ -138,11 +138,39 @@
       "reading": "ひるむ",
       "headword": "ひるむ",
       "label": "to cower, to flinch"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06034_tamerau",
+      "reading": "ためらう",
+      "headword": "{躊躇|ためら}う",
+      "label": "to hesitate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07361_ononoku",
+      "reading": "おののく",
+      "headword": "おののく",
+      "label": "to tremble"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12442_shirigomi",
+      "reading": "しりごみ",
+      "headword": "{尻込|しりご}み",
+      "label": "flinching, shrinking back, hesitating"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21630_urotaeru",
+      "reading": "うろたえる",
+      "headword": "うろたえる",
+      "label": "to be flustered"
     }
   ],
   "metadata": {
     "created": "2026-01-19T05:56:32Z",
-    "modified": "2026-04-18T08:05:14Z",
+    "modified": "2026-09-02T04:01:11Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

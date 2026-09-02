@@ -78,7 +78,7 @@
       ]
     }
   ],
-  "notes": "{表面|ひょうめん} means surface — both the physical outer layer of an object and figuratively the outward appearance of a situation.\n\nPHYSICAL SENSE:\n- ⟦{水|みず}→水：02258_mizu⟧の{表面|ひょうめん}: water surface\n- {表面|ひょうめん}⟦を→を：00422_wo⟧⟦{磨|みが}く→磨く：02427_migaku⟧: to polish the surface\n- {表面|ひょうめん}⟦{張力|ちょうりょく}→張力：28197_chouryoku⟧: surface tension (physics)\n\nFIGURATIVE SENSE:\n- ⟦{表面|ひょうめん}{上|じょう}→表面上：17830_hyoumenjou⟧: superficially, on the surface\n- ⟦{表面|ひょうめん}{的|てき}→表面的：18749_hyoumenteki⟧（な）: superficial\n- {表面|ひょうめん}は〜だが: on the surface it seems ~, but...\n\nANTONYM:\n⟦{裏面|りめん}→裏面：18245_rimen⟧: reverse side, back surface.\n\nSIMILAR WORDS:\n- ⟦{外見|がいけん}→外見：12114_gaiken⟧: outward appearance (of people)\n- ⟦{見|み}かけ→見かけ：08214_mikake⟧: appearance (casual)",
+  "notes": "{表面|ひょうめん} means surface — both the physical outer layer of an object and figuratively the outward appearance of a situation.\n\nPHYSICAL SENSE:\n- ⟦{水|みず}→水：02258_mizu⟧⟦の→の：09472_no⟧{表面|ひょうめん}: water surface\n- {表面|ひょうめん}⟦を→を：00422_wo⟧⟦{磨|みが}く→磨く：02427_migaku⟧: to polish the surface\n- {表面|ひょうめん}⟦{張力|ちょうりょく}→張力：28197_chouryoku⟧: surface tension (physics)\n\nFIGURATIVE SENSE:\n- ⟦{表面|ひょうめん}{上|じょう}→表面上：17830_hyoumenjou⟧: superficially, on the surface\n- ⟦{表面|ひょうめん}{的|てき}→表面的：18749_hyoumenteki⟧（な）: superficial\n- {表面|ひょうめん}⟦は→は：00079_ha⟧〜だ⟦が→が：00051_ga⟧: on the surface it seems ~, but...\n\nSIMILAR WORDS:\n⟦{裏面|りめん}→裏面：18245_rimen⟧: reverse side, back surface.\n- ⟦{外見|がいけん}→外見：12114_gaiken⟧: outward appearance (of people)\n- ⟦{見|み}かけ→見かけ：08214_mikake⟧: appearance (casual)",
   "cross_references": [
     {
       "type": "antonym",
@@ -86,11 +86,67 @@
       "headword": "{裏面|りめん}",
       "label": "reverse side",
       "target_id": "18245_rimen"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12114_gaiken",
+      "reading": "がいけん",
+      "headword": "{外見|がいけん}",
+      "label": "outward appearance"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08214_mikake",
+      "reading": "みかけ",
+      "headword": "{見掛|みか}け",
+      "label": "appearance"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05450_sotogawa",
+      "reading": "そとがわ",
+      "headword": "{外側|そとがわ}",
+      "label": "outside"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17101_katamen",
+      "reading": "かためん",
+      "headword": "{片面|かためん}",
+      "label": "one side"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20096_heimen",
+      "reading": "へいめん",
+      "headword": "{平面|へいめん}",
+      "label": "flat surface"
+    },
+    {
+      "type": "related",
+      "target_id": "21317_danmen",
+      "reading": "だんめん",
+      "headword": "{断面|だんめん}",
+      "label": "cross-section"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22735_zenmen",
+      "reading": "ぜんめん",
+      "headword": "{全面|ぜんめん}",
+      "label": "the whole surface"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25112_omotegawa",
+      "reading": "おもてがわ",
+      "headword": "{表側|おもてがわ}",
+      "label": "front side"
     }
   ],
   "metadata": {
     "created": "2026-01-12T15:30:00Z",
-    "modified": "2026-08-13T15:50:29Z",
+    "modified": "2026-09-02T04:01:03Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

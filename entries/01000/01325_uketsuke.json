@@ -104,7 +104,7 @@
     },
     {
       "id": "01325_uketsuke_ex9",
-      "japanese": "⟦イベント→イベント：09594_ibento⟧⟦の→の：09472_no⟧{受付|うけつけ}⟦{開始|かいし}→開始：02537_kaishi⟧⟦は→は：00079_ha⟧⟦{午前|ごぜん}→午前：00548_gozen⟧⟦{九時|くじ}→九時：10980_kuji⟧⟦から→から：00504_kara⟧なので、⟦{早|はや}め→早め：11176_hayame⟧⟦に→に：00314_ni⟧⟦{行|い}った→行く：00119_iku⟧⟦ほう→方：01139_hou⟧⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧。",
+      "japanese": "⟦イベント→イベント：09594_ibento⟧⟦の→の：09472_no⟧{受付|うけつけ}⟦{開始|かいし}→開始：02537_kaishi⟧⟦は→は：00079_ha⟧⟦{午前|ごぜん}→午前：00548_gozen⟧⟦{九時|くじ}→九時：10980_kuji⟧⟦から→から：00504_kara⟧な⟦の→の：09472_no⟧で、⟦{早|はや}め→早め：11176_hayame⟧⟦に→に：00314_ni⟧⟦{行|い}った→行く：00119_iku⟧⟦ほう→方：01139_hou⟧⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧。",
       "english": "Registration for the event starts at 9 a.m., so it's better to go early.",
       "notes": null,
       "has_audio": false,
@@ -114,10 +114,60 @@
     }
   ],
   "notes": "{受付|うけつけ} can refer to the reception desk, the receptionist, or the act of accepting/registering.\n\nDerived from: ⟦{受|う}け{付|つ}ける→受け付ける：05683_uketsukeru⟧ (to accept, to receive)\n\nCommon collocations:\n- {受付|うけつけ}で: at the reception desk\n- {受付|うけつけ}⟦{時間|じかん}→時間：00468_jikan⟧: reception hours\n- {受付|うけつけ}⟦{開始|かいし}→開始：02537_kaishi⟧: start of registration\n- {受付|うけつけ}⟦{終了|しゅうりょう}→終了：02563_shuuryou⟧: end of registration\n- {受付|うけつけ}⟦{番号|ばんごう}→番号：02939_bangou⟧: reception number (ticket number)\n\nUsage: Found in hospitals, hotels, offices, event venues, etc.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "08281_chekkuin",
+      "reading": "ちぇっくいん",
+      "headword": "チェックイン",
+      "label": "check-in"
+    },
+    {
+      "type": "related",
+      "target_id": "09708_monshinhyou",
+      "reading": "もんしんひょう",
+      "headword": "{問診票|もんしんひょう}",
+      "label": "medical questionnaire"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17418_annaijo",
+      "reading": "あんないじょ",
+      "headword": "{案内所|あんないじょ}",
+      "label": "information desk, information center"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23067_annaigakari",
+      "reading": "あんないがかり",
+      "headword": "{案内係|あんないがかり}",
+      "label": "guide"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23532_soudanmadoguchi",
+      "reading": "そうだんまどぐち",
+      "headword": "{相談|そうだん}{窓口|まどぐち}",
+      "label": "consultation counter"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25182_hikikaejo",
+      "reading": "ひきかえじょ",
+      "headword": "{引換所|ひきかえじょ}",
+      "label": "exchange counter"
+    },
+    {
+      "type": "related",
+      "target_id": "25815_hishoshitsu",
+      "reading": "ひしょしつ",
+      "headword": "{秘書室|ひしょしつ}",
+      "label": "secretarial office"
+    }
+  ],
   "metadata": {
     "created": "2026-01-08T12:09:08Z",
-    "modified": "2026-05-14T22:19:08Z",
+    "modified": "2026-09-02T04:00:59Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

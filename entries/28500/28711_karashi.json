@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28711_karashi_ex1",
-      "japanese": "{納豆|なっとう}にからしを{入|い}れる。",
+      "japanese": "⟦{納豆|なっとう}→納豆：04930_nattou⟧⟦に→に：00314_ni⟧からし⟦を→を：00422_wo⟧⟦{入|い}れる→入れる：01098_ireru⟧。",
       "english": "I put mustard in my natto.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28711_karashi_ex2",
-      "japanese": "おでんにからしをつけて{食|た}べた。",
+      "japanese": "⟦おでん→おでん：14727_oden⟧⟦に→に：00314_ni⟧からし⟦を→を：00422_wo⟧⟦つけて→つける：00562_tsukeru⟧⟦{食|た}べた→食べる：00396_taberu⟧。",
       "english": "I ate oden with mustard.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28711_karashi_ex3",
-      "japanese": "{練|ね}りからしは{少量|しょうりょう}でも{鼻|はな}にツンとくる{辛|から}さがある。",
+      "japanese": "⟦{練|ね}り→練る：09751_neru⟧からし⟦は→は：00079_ha⟧⟦{少量|しょうりょう}→少量：12436_shouryou⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧⟦{鼻|はな}→鼻：02164_hana⟧⟦に→に：00314_ni⟧ツン⟦と→と：00512_to⟧くる{辛|から}さ⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "Prepared karashi has a sharp, nose-tingling heat even in small amounts.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "Written in kanji as {芥子|からし} or {辛子|からし}, but kana is most common on packaging and menus. Comes in tubes or small packets and is a standard accompaniment in Japanese cuisine.\n\nCOMMON COLLOCATIONS:\n- {練|ね}りからし: prepared mustard paste (sold in tubes)\n- {粉|こな}からし: powdered mustard\n- からしを{添|そ}える: to serve with mustard on the side\n- からし{醤油|じょうゆ}: mustard-soy sauce mixture\n\nSIMILAR WORDS:\n- マスタード: mustard — milder, Western-style; common with sausages and sandwiches\n- わさび: wasabi — green Japanese horseradish, used with sushi and sashimi\n- {柚子|ゆず}{胡椒|こしょう}: yuzu-pepper paste — different condiment, citrusy and spicy",
+  "notes": "Written in kanji as {芥子|からし} or {辛子|からし}, but kana is most common on packaging and menus. Comes in tubes or small packets and is a standard accompaniment in Japanese cuisine.\n\nCOMMON COLLOCATIONS:\n- {練|ね}りからし: prepared mustard paste (sold in tubes)\n- ⟦{粉|こな}→粉：02766_kona⟧からし: powdered mustard\n- からし⟦を→を：00422_wo⟧⟦{添|そ}える→添える：13315_soeru⟧: to serve with mustard on the side\n- からし{醤油|じょうゆ}: mustard-soy sauce mixture\n\nSIMILAR WORDS:\n- マスタード: mustard — milder, Western-style; common with sausages and sandwiches\n- わさび: wasabi — green Japanese horseradish, used with sushi and sashimi\n- ⟦{柚子|ゆず}→柚子：13102_yuzu⟧⟦{胡椒|こしょう}→胡椒：10321_koshou⟧: yuzu-pepper paste — different condiment, citrusy and spicy",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05121_wasabi",
+      "reading": "わさび",
+      "headword": "{山葵|わさび}",
+      "label": "wasabi"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +62,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "food"
       ],
       "domain": []
     },
     "created": "2026-06-04T03:13:09Z",
-    "modified": "2026-08-08T18:34:17Z"
+    "modified": "2026-09-02T04:02:34Z"
   }
 }

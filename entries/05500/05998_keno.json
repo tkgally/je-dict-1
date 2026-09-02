@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "05998_keno_ex1",
-      "japanese": "⟦{暴力|ぼうりょく}→暴力：02528_bouryoku⟧⟦を→を：00422_wo⟧{嫌悪|けんお}する。",
+      "japanese": "⟦{暴力|ぼうりょく}→暴力：02528_bouryoku⟧⟦を→を：00422_wo⟧{嫌悪|けんお}⟦する→する：00392_suru⟧。",
       "english": "I loathe violence.",
       "notes": null,
       "has_audio": false,
@@ -153,7 +153,7 @@
       ]
     }
   ],
-  "notes": "{嫌悪|けんお} expresses strong dislike or revulsion — much stronger than ⟦{嫌|きら}い→嫌い：02871_kirai⟧. It belongs to a formal or literary register and is common in written Japanese, news, and psychology.\n\nWORD FORMATION:\n{嫌|けん} (dislike) + {悪|お} (bad, loathe)\n\nCOMMON COLLOCATIONS:\n- ⟦{嫌悪感|けんおかん}→嫌悪感：15749_kenokan⟧: feeling of disgust\n- ⟦{嫌悪感|けんおかん}→嫌悪感：15749_kenokan⟧⟦を→を：00422_wo⟧⟦{抱|いだ}く→抱く：02010_idaku⟧: to harbor disgust\n- ⟦{自己|じこ}→自己：23357_jiko⟧{嫌悪|けんお}: self-loathing\n- {嫌悪|けんお}⟦を→を：00422_wo⟧⟦{示|しめ}す→示す：01948_shimesu⟧: to show aversion\n\nCONTRAST:\n- ⟦{嫌|きら}い→嫌い：02871_kirai⟧: dislike (casual, everyday)\n- {嫌悪|けんお}: loathing (formal, stronger)\n- ⟦{憎|にく}しみ→憎しみ：15769_nikushimi⟧: hatred (personal, emotional)\n- ⟦{軽蔑|けいべつ}→軽蔑：04849_keibetsu⟧: contempt (looking down on someone)",
+  "notes": "{嫌悪|けんお} expresses strong dislike or revulsion — much stronger than ⟦{嫌|きら}い→嫌い：02871_kirai⟧. It belongs to a formal or literary register and is common in written Japanese, news, and psychology.\n\nFORMS:\n{嫌|けん} (dislike) + {悪|お} (bad, loathe)\n\nCOMMON COLLOCATIONS:\n- ⟦{嫌悪感|けんおかん}→嫌悪感：15749_kenokan⟧: feeling of disgust\n- ⟦{嫌悪感|けんおかん}→嫌悪感：15749_kenokan⟧⟦を→を：00422_wo⟧⟦{抱|いだ}く→抱く：02010_idaku⟧: to harbor disgust\n- ⟦{自己|じこ}→自己：23357_jiko⟧{嫌悪|けんお}: self-loathing\n- {嫌悪|けんお}⟦を→を：00422_wo⟧⟦{示|しめ}す→示す：01948_shimesu⟧: to show aversion\n\nSIMILAR WORDS:\n- ⟦{嫌|きら}い→嫌い：02871_kirai⟧: dislike (casual, everyday)\n- {嫌悪|けんお}: loathing (formal, stronger)\n- ⟦{憎|にく}しみ→憎しみ：15769_nikushimi⟧: hatred (personal, emotional)\n- ⟦{軽蔑|けいべつ}→軽蔑：04849_keibetsu⟧: contempt (looking down on someone)",
   "cross_references": [
     {
       "type": "contrast",
@@ -182,11 +182,18 @@
       "reading": "けんおかん",
       "headword": "{嫌悪感|けんおかん}",
       "label": "feeling of disgust"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20995_zouosuru",
+      "reading": "ぞうおする",
+      "headword": "{憎悪|ぞうお}する",
+      "label": "to hate"
     }
   ],
   "metadata": {
     "created": "2026-01-16T21:25:32Z",
-    "modified": "2026-06-10T00:32:39Z",
+    "modified": "2026-09-02T04:01:07Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
@@ -202,7 +209,8 @@
       "semantic": [
         "emotion"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

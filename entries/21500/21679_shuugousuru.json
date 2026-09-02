@@ -3,7 +3,7 @@
   "headword": "{集合|しゅうごう}する",
   "reading": "しゅうごうする",
   "romaji": "shuugousuru",
-  "part_of_speech": "verb",
+  "part_of_speech": "suru verb",
   "gloss": "to gather; to assemble; to meet up",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21679_shuugousuru_ex1",
-      "japanese": "{九時|くじ}に{駅前|えきまえ}に{集合|しゅうごう}してください。",
+      "japanese": "⟦{九時|くじ}→九時：10980_kuji⟧⟦に→に：00314_ni⟧⟦{駅前|えきまえ}→駅前：09593_ekimae⟧⟦に→に：00314_ni⟧{集合|しゅうごう}して⟦ください→ください：02899_kudasai⟧。",
       "english": "Please meet at the station at nine o'clock.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21679_shuugousuru_ex2",
-      "japanese": "{全員|ぜんいん}が{集合|しゅうごう}したら{出発|しゅっぱつ}します。",
+      "japanese": "⟦{全員|ぜんいん}→全員：03310_zenin⟧⟦が→が：00051_ga⟧{集合|しゅうごう}したら⟦{出発|しゅっぱつ}します→出発する：01832_shuppatsusuru⟧。",
       "english": "We'll depart once everyone has gathered.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21679_shuugousuru_ex3",
-      "japanese": "{避難|ひなん}{訓練|くんれん}では{校庭|こうてい}に{集合|しゅうごう}することになっている。",
+      "japanese": "⟦{避難|ひなん}{訓練|くんれん}→避難訓練：28230_hinankunren⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{校庭|こうてい}→校庭：04147_koutei⟧⟦に→に：00314_ni⟧{集合|しゅうごう}することになっている。",
       "english": "During evacuation drills, we're supposed to assemble in the schoolyard.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Very common in everyday Japanese for organizing group meetups, school events, and workplace gatherings. The noun form {集合|しゅうごう} can be used as a command: {集合|しゅうごう}！(Assemble! / Gather round!). Also used in math for \"set\" ({集合|しゅうごう}{論|ろん} = set theory).\n\nCOMMON COLLOCATIONS:\n- {集合|しゅうごう}{時間|じかん}: meeting time\n- {集合|しゅうごう}{場所|ばしょ}: meeting place\n- {集合|しゅうごう}{住宅|じゅうたく}: apartment complex, housing complex\n\nSIMILAR WORDS:\n- {集|あつ}まる: to gather (intransitive, more natural/spontaneous)\n- {合流|ごうりゅう}する: to join up, merge (used when joining an existing group)",
+  "notes": "Very common in everyday Japanese for organizing group meetups, school events, and workplace gatherings. The noun form ⟦{集合|しゅうごう}→集合：03068_shuugou⟧ can be used as a command: ⟦{集合|しゅうごう}→集合：03068_shuugou⟧！(Assemble! / Gather round!). Also used in math for \"set\" (⟦{集合|しゅうごう}→集合：03068_shuugou⟧⟦{論|ろん}→〜論：04017_ron⟧ = set theory).\n\nCOMMON COLLOCATIONS:\n- ⟦{集合|しゅうごう}→集合：03068_shuugou⟧⟦{時間|じかん}→時間：00468_jikan⟧: meeting time\n- ⟦{集合|しゅうごう}{場所|ばしょ}→集合場所：07814_shuugoubasho⟧: meeting place\n- ⟦{集合|しゅうごう}{住宅|じゅうたく}→集合住宅：09716_shuugoujuutaku⟧: apartment complex, housing complex\n\nSIMILAR WORDS:\n- ⟦{集|あつ}まる→集まる：01162_atsumaru⟧: to gather (intransitive, more natural/spontaneous)\n- ⟦{合流|ごうりゅう}→合流：11902_gouryuu⟧⟦する→する：00392_suru⟧: to join up, merge (used when joining an existing group)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01162_atsumaru",
+      "reading": "あつまる",
+      "headword": "{集|あつ}まる",
+      "label": "to gather"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11902_gouryuu",
+      "reading": "ごうりゅう",
+      "headword": "{合流|ごうりゅう}",
+      "label": "to join up, merge"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,7 +76,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-02T21:20:04Z",
-    "modified": "2026-07-29T12:35:11Z"
+    "modified": "2026-09-02T04:02:04Z"
   },
   "conjugation": {
     "type": "suru",

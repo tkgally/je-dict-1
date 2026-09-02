@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "17598_mangetsu_ex1",
-      "japanese": "{今夜|こんや}は{満月|まんげつ}だ。",
+      "japanese": "⟦{今夜|こんや}→今夜：01411_konya⟧⟦は→は：00079_ha⟧{満月|まんげつ}だ。",
       "english": "Tonight is a full moon.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "17598_mangetsu_ex2",
-      "japanese": "{満月|まんげつ}の{夜|よる}にお{月見|つきみ}をした。",
+      "japanese": "{満月|まんげつ}⟦の→の：09472_no⟧⟦{夜|よる}→夜：00487_yoru⟧⟦に→に：00314_ni⟧お⟦{月見|つきみ}→月見：13001_tsukimi⟧⟦を→を：00422_wo⟧⟦した→する：00392_suru⟧。",
       "english": "We did moon viewing on the night of the full moon.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "17598_mangetsu_ex3",
-      "japanese": "{満月|まんげつ}が{海|うみ}を{明|あか}るく{照|て}らしている。",
+      "japanese": "{満月|まんげつ}⟦が→が：00051_ga⟧⟦{海|うみ}→海：00556_umi⟧⟦を→を：00422_wo⟧⟦{明|あか}るく→明るい：00616_akarui⟧⟦{照|て}らしている→照らす：04669_terasu⟧。",
       "english": "The full moon is brightly illuminating the sea.",
       "sense_numbers": [
         1
@@ -43,7 +43,7 @@
       "notes": null
     }
   ],
-  "notes": "JAPANESE CULTURE:\nお{月見|つきみ} (moon viewing) is a traditional Japanese autumn custom, especially during the {十五夜|じゅうごや} (fifteenth night of the eighth lunar month). People view the full moon and offer {団子|だんご} (rice dumplings) and {薄|すすき} (Japanese pampas grass).\n\nMOON PHASES:\n- {新月|しんげつ} (new moon)\n- {三日月|みかづき} (crescent moon)\n- {半月|はんげつ} (half moon)\n- {満月|まんげつ} (full moon)\n\nFORMATION:\n{満|まん} (full) + {月|げつ} (moon) → full moon",
+  "notes": "JAPANESE CULTURE:\nお⟦{月見|つきみ}→月見：13001_tsukimi⟧ (moon viewing) is a traditional Japanese autumn custom, especially during the ⟦{十五夜|じゅうごや}→十五夜：24745_juugoya⟧ (fifteenth night of the eighth lunar month). People view the full moon and offer ⟦{団子|だんご}→団子：04959_dango⟧ (rice dumplings) and {薄|すすき} (Japanese pampas grass).\n\nMOON PHASES:\n- ⟦{新月|しんげつ}→新月：17599_shingetsu⟧ (new moon)\n- ⟦{三日月|みかづき}→三日月：17597_mikazuki⟧ (crescent moon)\n- ⟦{半月|はんげつ}→半月：08507_hangetsu⟧ (half moon)\n- {満月|まんげつ} (full moon)\n\nFORMS:\n{満|まん} (full) + {月|げつ} (moon) → full moon",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -51,12 +51,13 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "nature"
       ]
     },
     "created": "2026-01-26T13:58:14Z",
-    "modified": "2026-07-24T07:00:08Z"
+    "modified": "2026-09-02T04:01:49Z"
   },
   "cross_references": [
     {
@@ -79,6 +80,20 @@
       "reading": "はんげつ",
       "headword": "{半月|はんげつ}",
       "label": "half moon"
+    },
+    {
+      "type": "related",
+      "target_id": "02428_michiru",
+      "reading": "みちる",
+      "headword": "{満|み}ちる",
+      "label": "to be full"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27639_meigetsu",
+      "reading": "めいげつ",
+      "headword": "{名月|めいげつ}",
+      "label": "harvest moon"
     }
   ]
 }

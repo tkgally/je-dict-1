@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21619_takiagaru_ex1",
-      "japanese": "ご{飯|はん}が{炊|た}き{上|あ}がった。",
+      "japanese": "⟦ご{飯|はん}→ご飯：00776_gohan⟧⟦が→が：00051_ga⟧{炊|た}き{上|あ}がった。",
       "english": "The rice is done cooking.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21619_takiagaru_ex2",
-      "japanese": "{炊|た}き{上|あ}がったら{十分|じゅっぷん}{蒸|む}らしてください。",
+      "japanese": "{炊|た}き{上|あ}がったら⟦{十分|じゅっぷん}→十分：09572_juppun⟧⟦{蒸|む}らして→蒸らす：16150_murasu⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Once the rice finishes cooking, let it steam for ten minutes.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21619_takiagaru_ex3",
-      "japanese": "{炊|た}きたてのご{飯|はん}が{炊|た}き{上|あ}がる{匂|にお}いが{台所|だいどころ}に{広|ひろ}がった。",
+      "japanese": "{炊|た}きたて⟦の→の：09472_no⟧⟦ご{飯|はん}→ご飯：00776_gohan⟧⟦が→が：00051_ga⟧{炊|た}き{上|あ}がる⟦{匂|にお}い→匂い：00874_nioi⟧⟦が→が：00051_ga⟧⟦{台所|だいどころ}→台所：01021_daidokoro⟧⟦に→に：00314_ni⟧⟦{広|ひろ}がった→広がる：01980_hirogaru⟧。",
       "english": "The smell of freshly cooked rice spread through the kitchen.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Specifically used for rice and grains. The subject is always the food itself, not the person cooking.\n\nCOMMON COLLOCATIONS:\n- ご{飯|はん}が{炊|た}き{上|あ}がる: the rice finishes cooking\n- ふっくら{炊|た}き{上|あ}がる: to cook up fluffy\n- おいしく{炊|た}き{上|あ}がる: to finish cooking deliciously\n- {炊|た}き{上|あ}がり: the finished state of cooked rice (noun form)\n\nTRANSITIVITY:\nIntransitive. The transitive counterpart is {炊|た}き{上|あ}げる (to finish cooking something). {炊|た}き{上|あ}がる describes the rice completing the cooking process on its own.\n\nRELATED TERMS:\n- {炊|た}く: to cook (rice) — the base verb\n- {炊飯|すいはん}: rice cooking\n- {炊飯器|すいはんき}: rice cooker\n- {蒸|む}らす: to let steam (an important step after rice finishes cooking)",
+  "notes": "Specifically used for rice and grains. The subject is always the food itself, not the person cooking.\n\nCOMMON COLLOCATIONS:\n- ⟦ご{飯|はん}→ご飯：00776_gohan⟧⟦が→が：00051_ga⟧{炊|た}き{上|あ}がる: the rice finishes cooking\n- ⟦ふっくら→ふっくら：28254_fukkura⟧{炊|た}き{上|あ}がる: to cook up fluffy\n- おいしく{炊|た}き{上|あ}がる: to finish cooking deliciously\n- {炊|た}き{上|あ}がり: the finished state of cooked rice (noun form)\n\nTRANSITIVITY:\nIntransitive. The transitive counterpart is {炊|た}き{上|あ}げる (to finish cooking something). {炊|た}き{上|あ}がる describes the rice completing the cooking process on its own.\n\nRELATED WORDS:\n- ⟦{炊|た}く→炊く：02127_taku⟧: to cook (rice) — the base verb\n- ⟦{炊飯|すいはん}→炊飯：13377_suihan⟧: rice cooking\n- ⟦{炊飯器|すいはんき}→炊飯器：04972_suihanki⟧: rice cooker\n- ⟦{蒸|む}らす→蒸らす：16150_murasu⟧: to let steam (an important step after rice finishes cooking)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "13377_suihan",
+      "reading": "すいはん",
+      "headword": "{炊飯|すいはん}",
+      "label": "rice cooking"
+    },
+    {
+      "type": "related",
+      "target_id": "04972_suihanki",
+      "reading": "すいはんき",
+      "headword": "{炊飯器|すいはんき}",
+      "label": "rice cooker"
+    },
+    {
+      "type": "related",
+      "target_id": "16150_murasu",
+      "reading": "むらす",
+      "headword": "{蒸|む}らす",
+      "label": "to let steam"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,7 +84,7 @@
       "verb_class": "godan-ru"
     },
     "created": "2026-04-02T18:16:06Z",
-    "modified": "2026-04-10T06:41:08Z"
+    "modified": "2026-09-02T04:02:04Z"
   },
   "conjugation": {
     "type": "godan",

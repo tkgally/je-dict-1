@@ -14,39 +14,59 @@
   "examples": [
     {
       "id": "08774_surimi_ex1",
-      "japanese": "すり{身|み}で{団子|だんご}を{作|つく}る。",
+      "japanese": "すり{身|み}⟦で→で：00502_de⟧⟦{団子|だんご}→団子：04959_dango⟧⟦を→を：00422_wo⟧⟦{作|つく}る→作る：00481_tsukuru⟧。",
       "english": "Make dumplings from fish paste.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "08774_surimi_ex2",
-      "japanese": "カニカマはすり{身|み}から{作|つく}られる。",
+      "japanese": "⟦カニカマ→カニカマ：10793_kanikama⟧⟦は→は：00079_ha⟧すり{身|み}⟦から→から：00504_kara⟧⟦{作|つく}られる→作る：00481_tsukuru⟧。",
       "english": "Imitation crab is made from surimi.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "08774_surimi_ex3",
-      "japanese": "{新鮮|しんせん}な{魚|さかな}をすり{身|み}にする。",
+      "japanese": "⟦{新鮮|しんせん}→新鮮：03261_shinsen⟧な⟦{魚|さかな}→魚：00499_sakana⟧⟦を→を：00422_wo⟧すり{身|み}⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧。",
       "english": "Turn fresh fish into paste.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "FOOD TERM:\nすり{身|み} is the base ingredient for many traditional Japanese fish products. The word has been adopted internationally as 'surimi.'\n\nPRODUCTS MADE FROM すり{身|み}:\n- {蒲鉾|かまぼこ} - kamaboko (fish cake)\n- ちくわ - chikuwa (tube-shaped fish cake)\n- さつま{揚|あ}げ - satsuma-age (fried fish cake)\n- カニカマ - imitation crab\n- {魚肉|ぎょにく}ソーセージ - fish sausage\n- はんぺん - hanpen (white fish cake)\n\nCOMMON COLLOCATIONS:\n- すり{身|み}にする - to grind into paste\n- {魚|さかな}のすり{身|み} - fish paste\n- {白身|しろみ}{魚|ざかな}のすり{身|み} - white fish surimi\n\nPROCESS:\n{魚|さかな}の{身|み}をすりつぶす → washing → mixing → shaping",
+  "notes": "FOOD TERM:\nすり{身|み} is the base ingredient for many traditional Japanese fish products. The word has been adopted internationally as 'surimi.'\n\nPRODUCTS MADE FROM すり{身|み}:\n- {蒲鉾|かまぼこ} - kamaboko (fish cake)\n- ⟦ちくわ→ちくわ：07479_chikuwa⟧ - chikuwa (tube-shaped fish cake)\n- ⟦さつま{揚|あ}げ→さつま揚げ：07974_satsumaage⟧ - satsuma-age (fried fish cake)\n- ⟦カニカマ→カニカマ：10793_kanikama⟧ - imitation crab\n- ⟦{魚肉|ぎょにく}→魚肉：23922_gyoniku⟧⟦ソーセージ→ソーセージ：11027_sooseeji⟧ - fish sausage\n- ⟦はんぺん→はんぺん：21733_hanpen⟧ - hanpen (white fish cake)\n\nCOMMON COLLOCATIONS:\n- すり{身|み}⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧ - to grind into paste\n- ⟦{魚|さかな}→魚：00499_sakana⟧⟦の→の：09472_no⟧すり{身|み} - fish paste\n- ⟦{白身|しろみ}{魚|ざかな}→白身魚：21114_shiromizakana⟧⟦の→の：09472_no⟧すり{身|み} - white fish surimi\n\nPROCESS:\n⟦{魚|さかな}→魚：00499_sakana⟧⟦の→の：09472_no⟧⟦{身|み}→身：01764_mi⟧⟦を→を：00422_wo⟧すりつぶす → washing → mixing → shaping",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "26666_kanikamaboko",
+      "reading": "かにかまぼこ",
+      "headword": "カニカマボコ",
+      "label": "imitation crab meat"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food", "cooking"]
+      "semantic": [
+        "food",
+        "cooking"
+      ]
     },
     "created": "2026-01-28T04:51:23Z",
-    "modified": "2026-01-28T04:51:23Z"
+    "modified": "2026-09-02T04:01:16Z"
   }
 }

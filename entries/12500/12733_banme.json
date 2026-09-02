@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "12733_banme_ex1",
-      "japanese": "{一|いち}{番目|ばんめ}に{来|き}た。",
+      "japanese": "{一|いち}{番目|ばんめ}⟦に→に：00314_ni⟧⟦{来|き}た→来る：00254_kuru⟧。",
       "english": "I arrived first (was the first to come).",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "12733_banme_ex2",
-      "japanese": "{上|うえ}から{三|さん}{番目|ばんめ}の{棚|たな}を{見|み}てください。",
+      "japanese": "⟦{上|うえ}→上：00682_ue⟧⟦から→から：00504_kara⟧⟦{三|さん}→三：00749_san⟧{番目|ばんめ}⟦の→の：09472_no⟧⟦{棚|たな}→棚：01650_tana⟧⟦を→を：00422_wo⟧⟦{見|み}て→見る：00283_miru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please look at the third shelf from the top.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "12733_banme_ex3",
-      "japanese": "{日本|にほん}は{世界|せかい}で{三|さん}{番目|ばんめ}に{大|おお}きい{経済|けいざい}{大国|たいこく}だ。",
+      "japanese": "⟦{日本|にほん}→日本：03876_nihon⟧⟦は→は：00079_ha⟧⟦{世界|せかい}→世界：01447_sekai⟧⟦で→で：00502_de⟧⟦{三|さん}→三：00749_san⟧{番目|ばんめ}⟦に→に：00314_ni⟧⟦{大|おお}きい→大きい：00335_ookii⟧⟦{経済|けいざい}{大国|たいこく}→経済大国：27186_keizaitaikoku⟧だ。",
       "english": "Japan is the third-largest economy in the world.",
       "notes": "〜{番目|ばんめ}に + adjective means 'the ~th most [adjective].'",
       "has_audio": false,
@@ -44,11 +44,11 @@
       ]
     }
   ],
-  "notes": "{番目|ばんめ} turns a cardinal number into an ordinal number.\n\nPATTERN:\n- {数字|すうじ} + {番目|ばんめ}: the ~th one\n- {数字|すうじ} + {番目|ばんめ}に + adjective: the ~th most [adjective]\n\nEXAMPLES:\n- {一|いち}{番目|ばんめ}: first\n- {二|に}{番目|ばんめ}: second\n- {三|さん}{番目|ばんめ}: third\n- {十|じゅう}{番目|ばんめ}: tenth\n\nCONTRAST WITH {目|め}:\n- {番目|ばんめ} is used after a number to indicate rank or order in a sequence\n- 〜{目|め} attaches directly to counters: {三人目|さんにんめ} (third person), {二回目|にかいめ} (second time)",
+  "notes": "{番目|ばんめ} turns a cardinal number into an ordinal number.\n\nCOMMON PATTERNS:\n- ⟦{数字|すうじ}→数字：03361_suuji⟧ + {番目|ばんめ}: the ~th one\n- ⟦{数字|すうじ}→数字：03361_suuji⟧ + {番目|ばんめ}⟦に→に：00314_ni⟧ + adjective: the ~th most [adjective]\n\nEXAMPLES:\n- {一|いち}{番目|ばんめ}: first\n- ⟦{二|に}→二：00736_ni⟧{番目|ばんめ}: second\n- ⟦{三|さん}→三：00749_san⟧{番目|ばんめ}: third\n- ⟦{十|じゅう}→十：00708_juu⟧{番目|ばんめ}: tenth\n\nCONTRAST WITH {目|め}:\n- {番目|ばんめ} is used after a number to indicate rank or order in a sequence\n- 〜⟦{目|め}→目：00525_me⟧ attaches directly to counters: {三人目|さんにんめ} (third person), {二回目|にかいめ} (second time)",
   "cross_references": [],
   "metadata": {
     "created": "2026-02-22T06:51:21Z",
-    "modified": "2026-04-27T07:31:57Z",
+    "modified": "2026-09-02T04:01:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

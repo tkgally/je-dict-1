@@ -2,7 +2,7 @@
   "id": "00272_massaaji",
   "headword": "マッサージ",
   "reading": "まっさーじ",
-  "part_of_speech": "noun; suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "massage",
   "conjugation": {
     "type": "suru",
@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "00272_massaaji_ex1",
-      "japanese": "⟦{肩|かた}→肩：02192_kata⟧⟦を→を：00422_wo⟧マッサージして⟦もらう→もらう：00520_morau⟧。",
+      "japanese": "⟦{肩|かた}→肩：02192_kata⟧⟦を→を：00422_wo⟧マッサージ⟦して→する：00392_suru⟧⟦もらう→もらう：00520_morau⟧。",
       "english": "To have someone massage my shoulders.",
       "notes": null,
       "has_audio": false,
@@ -133,11 +133,33 @@
       ]
     }
   ],
-  "cross_references": [],
-  "notes": "マッサージ refers to the therapeutic manipulation of muscles.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- No standard intransitive pair\n- Pattern: [noun]⟦を→を：00422_wo⟧マッサージ⟦する→する：00392_suru⟧\n\nCOMMON COLLOCATIONS:\n- マッサージ⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧ (to receive a massage)\n- マッサージ⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧ (to give a massage)\n- マッサージ⟦に→に：00314_ni⟧⟦{行|い}く→行く：00119_iku⟧ (to go for a massage)\n- マッサージ⟦{師|し}→師：noentry⟧ (massage therapist)\n\nTYPES:\n- ⟦{全身|ぜんしん}→全身：03313_zenshin⟧マッサージ (full-body massage)\n- ⟦オイル→オイル：10731_oiru⟧マッサージ (oil massage)\n- ⟦{足|あし}→足：00575_ashi⟧マッサージ (foot massage)\n- マッサージ⟦チェア→チェア：noentry⟧ (massage chair)\n\nRELATED TERMS:\n- ⟦{指圧|しあつ}→指圧：27406_shiatsu⟧ (shiatsu - Japanese finger pressure massage)\n- ⟦{整体|せいたい}→整体：27407_seitai⟧ (chiropractic/osteopathic treatment)\n- ⟦もみほぐす→もみほぐす：noentry⟧ (to knead/massage thoroughly)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "27406_shiatsu",
+      "reading": "しあつ",
+      "headword": "{指圧|しあつ}",
+      "label": "shiatsu"
+    },
+    {
+      "type": "related",
+      "target_id": "27407_seitai",
+      "reading": "せいたい",
+      "headword": "{整体|せいたい}",
+      "label": "chiropractic/osteopathic treatment"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24143_hogushi",
+      "reading": "ほぐし",
+      "headword": "ほぐし",
+      "label": "loosening"
+    }
+  ],
+  "notes": "マッサージ refers to the therapeutic manipulation of muscles.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- No standard intransitive pair\n- Pattern: [noun]⟦を→を：00422_wo⟧マッサージ⟦する→する：00392_suru⟧\n\nCOMMON COLLOCATIONS:\n- マッサージ⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧ (to receive a massage)\n- マッサージ⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧ (to give a massage)\n- マッサージ⟦に→に：00314_ni⟧⟦{行|い}く→行く：00119_iku⟧ (to go for a massage)\n- マッサージ⟦{師|し}→師：noentry⟧ (massage therapist)\n\nTYPES:\n- ⟦{全身|ぜんしん}→全身：03313_zenshin⟧マッサージ (full-body massage)\n- ⟦オイル→オイル：10731_oiru⟧マッサージ (oil massage)\n- ⟦{足|あし}→足：00575_ashi⟧マッサージ (foot massage)\n- マッサージ⟦チェア→チェア：noentry⟧ (massage chair)\n\nRELATED WORDS:\n- ⟦{指圧|しあつ}→指圧：27406_shiatsu⟧ (shiatsu - Japanese finger pressure massage)\n- ⟦{整体|せいたい}→整体：27407_seitai⟧ (chiropractic/osteopathic treatment)\n- ⟦もみほぐす→もみほぐす：noentry⟧ (to knead/massage thoroughly)",
   "metadata": {
     "created": "2026-01-13T03:14:22Z",
-    "modified": "2026-08-08T09:25:02Z",
+    "modified": "2026-09-02T04:00:57Z",
     "ai_model": "claude-opus-4-5-20251101",
     "vocabulary_tier": "general",
     "tags": {

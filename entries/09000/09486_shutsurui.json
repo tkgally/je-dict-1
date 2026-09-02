@@ -113,7 +113,7 @@
     },
     {
       "id": "09486_shutsurui_ex2",
-      "japanese": "フォアボール⟦で→で：00502_de⟧{出塁|しゅつるい}⟦した→する：00392_suru⟧。",
+      "japanese": "⟦フォアボール→フォアボール：27332_foabooru⟧⟦で→で：00502_de⟧{出塁|しゅつるい}⟦した→する：00392_suru⟧。",
       "english": "Got on base with a walk.",
       "has_audio": false,
       "sense_numbers": [
@@ -122,7 +122,7 @@
     },
     {
       "id": "09486_shutsurui_ex3",
-      "japanese": "{彼|かれ}⟦の→の：09472_no⟧{出塁|しゅつるい}{率|りつ}⟦は→は：00079_ha⟧{高|たか}い。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧{出塁|しゅつるい}{率|りつ}⟦は→は：00079_ha⟧⟦{高|たか}い→高い：00500_takai⟧。",
       "english": "His on-base percentage is high.",
       "has_audio": false,
       "sense_numbers": [
@@ -130,10 +130,26 @@
       ]
     }
   ],
-  "notes": "{出塁|しゅつるい} is a baseball term for reaching base safely. A player can {出塁|しゅつるい}する via a hit, walk, hit-by-pitch, or fielder error.\n\nCOMPOSITION:\n{出|しゅつ} (go out) + {塁|るい} (base).\n\nCOMMON PATTERNS:\n- {出塁|しゅつるい}する: to get on base\n- {出塁|しゅつるい}{率|りつ}: on-base percentage (OBP)\n- {安打|あんだ}で{出塁|しゅつるい}: to reach base with a hit\n- フォアボールで{出塁|しゅつるい}: to reach base on a walk\n- {先頭|せんとう}{打者|だしゃ}が{出塁|しゅつるい}: the leadoff batter gets on base\n\nRELATED BASEBALL TERMS:\n- {塁|るい}: base\n- {打席|だせき}: at-bat, plate appearance\n- {安打|あんだ}: hit\n- {四球|しきゅう}: walk (formal term for フォアボール)",
+  "notes": "{出塁|しゅつるい} is a baseball term for reaching base safely. A player can {出塁|しゅつるい}⟦する→する：00392_suru⟧ via a hit, walk, hit-by-pitch, or fielder error.\n\nETYMOLOGY:\n{出|しゅつ} (go out) + {塁|るい} (base).\n\nCOMMON PATTERNS:\n- {出塁|しゅつるい}⟦する→する：00392_suru⟧: to get on base\n- {出塁|しゅつるい}{率|りつ}: on-base percentage (OBP)\n- ⟦{安打|あんだ}→安打：19717_anda⟧⟦で→で：00502_de⟧{出塁|しゅつるい}: to reach base with a hit\n- ⟦フォアボール→フォアボール：27332_foabooru⟧⟦で→で：00502_de⟧{出塁|しゅつるい}: to reach base on a walk\n- ⟦{先頭|せんとう}→先頭：04374_sentou⟧⟦{打者|だしゃ}→打者：06564_dasha⟧⟦が→が：00051_ga⟧{出塁|しゅつるい}: the leadoff batter gets on base\n\nRELATED BASEBALL TERMS:\n- {塁|るい}: base\n- ⟦{打席|だせき}→打席：06542_daseki⟧: at-bat, plate appearance\n- ⟦{安打|あんだ}→安打：19717_anda⟧: hit\n- {四球|しきゅう}: walk (formal term for ⟦フォアボール→フォアボール：27332_foabooru⟧)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "06542_daseki",
+      "reading": "だせき",
+      "headword": "{打席|だせき}",
+      "label": "at-bat, plate appearance"
+    },
+    {
+      "type": "related",
+      "target_id": "19717_anda",
+      "reading": "あんだ",
+      "headword": "{安打|あんだ}",
+      "label": "hit"
+    }
+  ],
   "metadata": {
     "created": "2026-02-02T07:47:12Z",
-    "modified": "2026-08-13T09:37:24Z",
+    "modified": "2026-09-02T04:01:18Z",
     "ai_model": "claude-opus-4-5-20251101",
     "vocabulary_tier": "general",
     "tags": {

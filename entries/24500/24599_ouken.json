@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24599_ouken_ex1",
-      "japanese": "{王権|おうけん}が{強|つよ}まった{時代|じだい}だった。",
+      "japanese": "{王権|おうけん}⟦が→が：00051_ga⟧⟦{強|つよ}まった→強まる：02295_tsuyomaru⟧⟦{時代|じだい}→時代：01424_jidai⟧だった。",
       "english": "It was an era when royal authority grew stronger.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24599_ouken_ex2",
-      "japanese": "{革命|かくめい}によって{王権|おうけん}は{倒|たお}された。",
+      "japanese": "⟦{革命|かくめい}→革命：05968_kakumei⟧⟦によって→によって：06801_niyotte⟧{王権|おうけん}⟦は→は：00079_ha⟧⟦{倒|たお}された→倒す：01954_taosu⟧。",
       "english": "Royal authority was overthrown by the revolution.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24599_ouken_ex3",
-      "japanese": "{中世|ちゅうせい}ヨーロッパでは、{教会|きょうかい}の{権力|けんりょく}と{王権|おうけん}がしばしば{対立|たいりつ}していた。",
+      "japanese": "⟦{中世|ちゅうせい}→中世：05524_chuusei⟧⟦ヨーロッパ→ヨーロッパ：00427_yooroppa⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧、⟦{教会|きょうかい}→教会：01387_kyoukai⟧⟦の→の：09472_no⟧⟦{権力|けんりょく}→権力：10020_kenryoku⟧⟦と→と：00512_to⟧{王権|おうけん}⟦が→が：00051_ga⟧⟦しばしば→しばしば：02365_shibashiba⟧⟦{対立|たいりつ}していた→対立する：22172_tairitsusuru⟧。",
       "english": "In medieval Europe, the power of the church and royal authority frequently clashed.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Refers to the political authority and sovereign power exercised by a king or monarch. Used in discussions of history, political science, and comparative government.\n\nCOMMON COLLOCATIONS:\n- {王権|おうけん}を{握|にぎ}る: to seize royal power\n- {王権|おうけん}を{主張|しゅちょう}する: to assert royal authority\n- {絶対|ぜったい}{王権|おうけん}: absolute monarchy\n- {王権|おうけん}{神授説|しんじゅせつ}: divine right of kings\n\nSIMILAR WORDS:\n- {権力|けんりょく}: power, authority — general term for political or social power\n- {皇権|こうけん}: imperial authority — specifically the emperor's power\n- {主権|しゅけん}: sovereignty — modern concept of supreme governing authority",
+  "notes": "Refers to the political authority and sovereign power exercised by a king or monarch. Used in discussions of history, political science, and comparative government.\n\nCOMMON COLLOCATIONS:\n- {王権|おうけん}⟦を→を：00422_wo⟧⟦{握|にぎ}る→握る：02383_nigiru⟧: to seize royal power\n- {王権|おうけん}⟦を→を：00422_wo⟧⟦{主張|しゅちょう}する→主張する：25380_shuchousuru⟧: to assert royal authority\n- ⟦{絶対|ぜったい}→絶対：00435_zettai⟧{王権|おうけん}: absolute monarchy\n- {王権|おうけん}{神授説|しんじゅせつ}: divine right of kings\n\nSIMILAR WORDS:\n- ⟦{権力|けんりょく}→権力：10020_kenryoku⟧: power, authority — general term for political or social power\n- {皇権|こうけん}: imperial authority — specifically the emperor's power\n- ⟦{主権|しゅけん}→主権：18294_shuken⟧: sovereignty — modern concept of supreme governing authority",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "10020_kenryoku",
+      "reading": "けんりょく",
+      "headword": "{権力|けんりょく}",
+      "label": "power, authority"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18294_shuken",
+      "reading": "しゅけん",
+      "headword": "{主権|しゅけん}",
+      "label": "sovereignty"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,6 +78,6 @@
       ]
     },
     "created": "2026-04-19T16:28:13Z",
-    "modified": "2026-04-19T16:28:13Z"
+    "modified": "2026-09-02T04:02:18Z"
   }
 }

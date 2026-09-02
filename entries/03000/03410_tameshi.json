@@ -44,10 +44,25 @@
     }
   ],
   "notes": "KEY PATTERN:\n- {試|ため}し⟦に→に：00314_ni⟧ + verb: Just to try, as an experiment\n\nThis pattern is extremely common and useful for suggesting or describing tentative actions.\n\nRELATED WORDS:\n- ⟦{試|ため}す→試す：02130_tamesu⟧ (verb): To try, to test\n- ⟦{試験|しけん}→試験：01422_shiken⟧ (noun): Examination, test\n- ⟦お→お〜：03097_o⟧{試|ため}し (noun): Trial (often for products/services)\n\nCOMMON EXPRESSIONS:\n- {試|ため}し⟦に→に：00314_ni⟧⟦どうぞ→どうぞ：02920_douzo⟧ (Please try it - offering)\n- {試|ため}し⟦{読|よ}み→読む：00426_yomu⟧ (preview reading, trial read)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "01422_shiken",
+      "reading": "しけん",
+      "headword": "{試験|しけん}",
+      "label": "noun"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23966_shiyou",
+      "reading": "しよう",
+      "headword": "{試用|しよう}",
+      "label": "trial use"
+    }
+  ],
   "metadata": {
     "created": "2026-01-12T14:30:00Z",
-    "modified": "2026-05-25T15:08:20Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

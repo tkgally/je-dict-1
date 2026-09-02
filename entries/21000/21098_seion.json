@@ -15,40 +15,73 @@
   "examples": [
     {
       "id": "21098_seion_ex1",
-      "japanese": "{静音|せいおん}キーボードを{買|か}った。",
+      "japanese": "{静音|せいおん}⟦キーボード→キーボード：04410_kiiboodo⟧⟦を→を：00422_wo⟧⟦{買|か}った→買う：00489_kau⟧。",
       "english": "I bought a silent keyboard.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21098_seion_ex2",
-      "japanese": "この{扇風機|せんぷうき}は{静音|せいおん}{設計|せっけい}で{寝室|しんしつ}にぴったりだ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{扇風機|せんぷうき}→扇風機：05069_senpuuki⟧⟦は→は：00079_ha⟧{静音|せいおん}⟦{設計|せっけい}→設計：03300_sekkei⟧⟦で→で：00502_de⟧⟦{寝室|しんしつ}→寝室：05300_shinshitsu⟧⟦に→に：00314_ni⟧⟦ぴったり→ぴったり：02362_pittari⟧だ。",
       "english": "This fan has a quiet design and is perfect for the bedroom.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21098_seion_ex3",
-      "japanese": "{静音|せいおん}モードに{切|き}り{替|か}えると、{動作音|どうさおん}がほとんど{聞|き}こえなくなる。",
+      "japanese": "{静音|せいおん}⟦モード→モード：11596_moodo⟧⟦に→に：00314_ni⟧⟦{切|き}り{替|か}える→切り替える：04239_kirikaeru⟧⟦と→と：00512_to⟧、{動作音|どうさおん}⟦が→が：00051_ga⟧⟦ほとんど→ほとんど：00847_hotondo⟧⟦{聞|き}こえなく→聞こえる：01229_kikoeru⟧⟦なる→なる：01970_naru⟧。",
       "english": "When you switch to silent mode, the operating noise becomes almost inaudible.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A modern, product-oriented word used primarily as a modifier to describe devices and equipment that are designed to operate quietly. Extremely common in electronics and appliance marketing.\n\nCOMMON COLLOCATIONS:\n- {静音|せいおん}キーボード: silent keyboard\n- {静音|せいおん}マウス: silent mouse\n- {静音|せいおん}{設計|せっけい}: quiet design\n- {静音|せいおん}モード: silent mode\n- {静音|せいおん}{性|せい}: quietness (as a specification)\n- {静音|せいおん}{性能|せいのう}: noise reduction performance\n\nUSAGE:\nAlmost always used as a prefix modifier (before another noun). Common in product reviews, specifications, and advertisements for electronics, appliances, and office equipment. Not typically used to describe people or natural environments.\n\nSIMILAR WORDS:\n- {消音|しょうおん}: muting, silencing — focuses on eliminating sound entirely (silencer, mute button)\n- {防音|ぼうおん}: soundproofing — refers to blocking sound from entering or escaping a space\n- {騒音|そうおん}: noise — the opposite concept; unpleasant or disruptive sound\n\nETYMOLOGY:\n{静|せい} (quiet, still) + {音|おん} (sound).",
+  "notes": "A modern, product-oriented word used primarily as a modifier to describe devices and equipment that are designed to operate quietly. Extremely common in electronics and appliance marketing.\n\nCOMMON COLLOCATIONS:\n- {静音|せいおん}⟦キーボード→キーボード：04410_kiiboodo⟧: silent keyboard\n- {静音|せいおん}⟦マウス→マウス：04413_mausu⟧: silent mouse\n- {静音|せいおん}⟦{設計|せっけい}→設計：03300_sekkei⟧: quiet design\n- {静音|せいおん}⟦モード→モード：11596_moodo⟧: silent mode\n- {静音|せいおん}⟦{性|せい}→性：09880_sei⟧: quietness (as a specification)\n- {静音|せいおん}⟦{性能|せいのう}→性能：04340_seinou⟧: noise reduction performance\n\nUSAGE:\nAlmost always used as a prefix modifier (before another noun). Common in product reviews, specifications, and advertisements for electronics, appliances, and office equipment. Not typically used to describe people or natural environments.\n\nSIMILAR WORDS:\n- ⟦{消音|しょうおん}→消音：21005_shouon⟧: muting, silencing — focuses on eliminating sound entirely (silencer, mute button)\n- ⟦{防音|ぼうおん}→防音：14565_bouon⟧: soundproofing — refers to blocking sound from entering or escaping a space\n- ⟦{騒音|そうおん}→騒音：03315_souon⟧: noise — the opposite concept; unpleasant or disruptive sound\n\nETYMOLOGY:\n{静|せい} (quiet, still) + {音|おん} (sound).",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21005_shouon",
+      "reading": "しょうおん",
+      "headword": "{消音|しょうおん}",
+      "label": "muting, silencing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14565_bouon",
+      "reading": "ぼうおん",
+      "headword": "{防音|ぼうおん}",
+      "label": "soundproofing"
+    },
+    {
+      "type": "antonym",
+      "target_id": "03315_souon",
+      "reading": "そうおん",
+      "headword": "{騒音|そうおん}",
+      "label": "noise"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["technology"]
+      "semantic": [
+        "technology"
+      ]
     },
     "created": "2026-03-31T17:17:45Z",
-    "modified": "2026-03-31T17:17:45Z"
+    "modified": "2026-09-02T04:02:02Z"
   }
 }

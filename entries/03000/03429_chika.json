@@ -78,7 +78,7 @@
       ]
     }
   ],
-  "notes": "COMMON COMPOUNDS:\n- ⟦{地下鉄|ちかてつ}→地下鉄：01020_chikatetsu⟧ (subway, underground railway)\n- ⟦{地下街|ちかがい}→地下街：09390_chikagai⟧ (underground shopping area)\n- ⟦{地下室|ちかしつ}→地下室：12047_chikashitsu⟧ (basement room)\n- ⟦{地下水|ちかすい}→地下水：09600_chikasui⟧ (groundwater)\n- ⟦{地下道|ちかどう}→地下道：06495_chikadou⟧ (underground passage)\n\nFLOOR NOTATION:\n- {地下|ちか}1⟦{階|かい}→階：01034_kai⟧ (B1F - first basement floor)\n- {地下|ちか}2⟦{階|かい}→階：01034_kai⟧ (B2F - second basement floor)\n\nCONTRAST:\n- {地下|ちか} (underground) ↔ ⟦{地上|ちじょう}→地上：12108_chijou⟧ (above ground)\n\nCULTURAL NOTE: Japanese cities have extensive ⟦{地下街|ちかがい}→地下街：09390_chikagai⟧ (underground shopping malls) and ⟦{地下鉄|ちかてつ}→地下鉄：01020_chikatetsu⟧ systems, especially in major cities like Tokyo and Osaka.",
+  "notes": "COMPOUNDS:\n- ⟦{地下鉄|ちかてつ}→地下鉄：01020_chikatetsu⟧ (subway, underground railway)\n- ⟦{地下街|ちかがい}→地下街：09390_chikagai⟧ (underground shopping area)\n- ⟦{地下室|ちかしつ}→地下室：12047_chikashitsu⟧ (basement room)\n- ⟦{地下水|ちかすい}→地下水：09600_chikasui⟧ (groundwater)\n- ⟦{地下道|ちかどう}→地下道：06495_chikadou⟧ (underground passage)\n\nFLOOR NOTATION:\n- {地下|ちか}1⟦{階|かい}→階：01034_kai⟧ (B1F - first basement floor)\n- {地下|ちか}2⟦{階|かい}→階：01034_kai⟧ (B2F - second basement floor)\n\nSIMILAR WORDS:\n- {地下|ちか} (underground) ↔ ⟦{地上|ちじょう}→地上：12108_chijou⟧ (above ground)\n\nCULTURAL NOTE: Japanese cities have extensive ⟦{地下街|ちかがい}→地下街：09390_chikagai⟧ (underground shopping malls) and ⟦{地下鉄|ちかてつ}→地下鉄：01020_chikatetsu⟧ systems, especially in major cities like Tokyo and Osaka.",
   "cross_references": [
     {
       "type": "antonym",
@@ -100,11 +100,32 @@
       "headword": "{地下鉄|ちかてつ}",
       "label": "subway",
       "target_id": "01020_chikatetsu"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24566_chikai",
+      "reading": "ちかい",
+      "headword": "{地階|ちかい}",
+      "label": "basement floor"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24854_chitei",
+      "reading": "ちてい",
+      "headword": "{地底|ちてい}",
+      "label": "underground"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26452_dochuu",
+      "reading": "どちゅう",
+      "headword": "{土中|どちゅう}",
+      "label": "in the soil"
     }
   ],
   "metadata": {
     "created": "2026-01-12T14:49:00Z",
-    "modified": "2026-05-25T16:37:15Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

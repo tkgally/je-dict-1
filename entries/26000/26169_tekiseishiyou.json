@@ -3,7 +3,7 @@
   "headword": "{適正使用|てきせいしよう}",
   "reading": "てきせいしよう",
   "romaji": "tekiseishiyou",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "proper use; appropriate use; correct usage",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26169_tekiseishiyou_ex1",
-      "japanese": "{薬|くすり}の{適正使用|てきせいしよう}を{心|こころ}がける。",
+      "japanese": "⟦{薬|くすり}→薬：00793_kusuri⟧⟦の→の：09472_no⟧{適正使用|てきせいしよう}⟦を→を：00422_wo⟧⟦{心|こころ}がける→心がける：10015_kokorogakeru⟧。",
       "english": "To be mindful of the proper use of medication.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26169_tekiseishiyou_ex2",
-      "japanese": "{農薬|のうやく}の{適正使用|てきせいしよう}に{関|かん}するガイドラインが{改定|かいてい}された。",
+      "japanese": "⟦{農薬|のうやく}→農薬：04295_nouyaku⟧⟦の→の：09472_no⟧{適正使用|てきせいしよう}⟦に→に：00314_ni⟧⟦{関|かん}する→関する：02045_kansuru⟧⟦ガイドライン→ガイドライン：10834_gaidorain⟧⟦が→が：00051_ga⟧⟦{改定|かいてい}→改定：13036_kaitei⟧⟦された→する：00392_suru⟧。",
       "english": "The guidelines for proper pesticide use have been revised.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26169_tekiseishiyou_ex3",
-      "japanese": "{抗生物質|こうせいぶっしつ}の{適正使用|てきせいしよう}が{進|すす}まないと、{耐性菌|たいせいきん}の{問題|もんだい}が{深刻化|しんこくか}する。",
+      "japanese": "⟦{抗生物質|こうせいぶっしつ}→抗生物質：11089_kouseibusshitsu⟧⟦の→の：09472_no⟧{適正使用|てきせいしよう}⟦が→が：00051_ga⟧⟦{進|すす}まない→進む：01225_susumu⟧⟦と→と：00512_to⟧、{耐性菌|たいせいきん}⟦の→の：09472_no⟧⟦{問題|もんだい}→問題：00797_mondai⟧⟦が→が：00051_ga⟧⟦{深刻化|しんこくか}する→深刻化する：22672_shinkokukasuru⟧。",
       "english": "If proper use of antibiotics doesn't advance, the problem of resistant bacteria will worsen.",
       "sense_numbers": [
         1
@@ -44,8 +44,16 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {適正|てきせい} (proper, appropriate) + {使用|しよう} (use, usage). Frequently appears in medical, pharmaceutical, agricultural, and regulatory contexts where misuse has consequences.\n\nThis is a more formal and specific term than simply \"using correctly.\" It implies following established guidelines, dosages, or regulations.\n\nCOMMON COLLOCATIONS:\n- {薬|くすり}の{適正使用|てきせいしよう}: proper use of medication\n- {適正使用|てきせいしよう}ガイドライン: proper usage guidelines\n- {適正使用|てきせいしよう}を{推進|すいしん}する: to promote proper use\n- {適正使用|てきせいしよう}の{徹底|てってい}: thorough enforcement of proper use\n\nSIMILAR WORDS:\n- {正|ただ}しい{使|つか}い{方|かた}: correct way to use — more colloquial\n- {用法|ようほう}{用量|ようりょう}: dosage and usage — specifically for medication\n- {誤用|ごよう}: misuse — the opposite\n- {乱用|らんよう}: abuse — deliberate overuse or misuse",
-  "cross_references": [],
+  "notes": "Composed of ⟦{適正|てきせい}→適正：09686_tekisei⟧ (proper, appropriate) + ⟦{使用|しよう}→使用：01637_shiyou⟧ (use, usage). Frequently appears in medical, pharmaceutical, agricultural, and regulatory contexts where misuse has consequences.\n\nThis is a more formal and specific term than simply \"using correctly.\" It implies following established guidelines, dosages, or regulations.\n\nCOMMON COLLOCATIONS:\n- ⟦{薬|くすり}→薬：00793_kusuri⟧⟦の→の：09472_no⟧{適正使用|てきせいしよう}: proper use of medication\n- {適正使用|てきせいしよう}⟦ガイドライン→ガイドライン：10834_gaidorain⟧: proper usage guidelines\n- {適正使用|てきせいしよう}⟦を→を：00422_wo⟧⟦{推進|すいしん}する→推進する：17281_suishinsuru⟧: to promote proper use\n- {適正使用|てきせいしよう}⟦の→の：09472_no⟧⟦{徹底|てってい}→徹底：01652_tettei⟧: thorough enforcement of proper use\n\nSIMILAR WORDS:\n- ⟦{正|ただ}しい→正しい：00893_tadashii⟧⟦{使|つか}い{方|かた}→使い方：07797_tsukaikata⟧: correct way to use — more colloquial\n- ⟦{用法|ようほう}→用法：13541_youhou⟧⟦{用量|ようりょう}→用量：18412_youryou⟧: dosage and usage — specifically for medication\n- {誤用|ごよう}: misuse — the opposite\n- ⟦{乱用|らんよう}→乱用：15259_ranyou⟧: abuse — deliberate overuse or misuse",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15259_ranyou",
+      "reading": "らんよう",
+      "headword": "{乱用|らんよう}",
+      "label": "abuse"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -54,6 +62,7 @@
         "noun",
         "verb-suru"
       ],
+      "politeness": "plain",
       "semantic": [
         "health",
         "society"
@@ -61,7 +70,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-29T15:36:03Z",
-    "modified": "2026-04-29T15:36:03Z"
+    "modified": "2026-09-02T04:02:25Z"
   },
   "conjugation": {
     "type": "suru",

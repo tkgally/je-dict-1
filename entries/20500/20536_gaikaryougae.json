@@ -14,40 +14,67 @@
   "examples": [
     {
       "id": "20536_gaikaryougae_ex1",
-      "japanese": "{空港|くうこう}で{外貨両替|がいかりょうがえ}をした。",
+      "japanese": "⟦{空港|くうこう}→空港：00648_kuukou⟧⟦で→で：00502_de⟧{外貨両替|がいかりょうがえ}⟦を→を：00422_wo⟧⟦した→する：00392_suru⟧。",
       "english": "I exchanged currency at the airport.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20536_gaikaryougae_ex2",
-      "japanese": "{外貨両替|がいかりょうがえ}の{手数料|てすうりょう}は{銀行|ぎんこう}によって{違|ちが}う。",
+      "japanese": "{外貨両替|がいかりょうがえ}⟦の→の：09472_no⟧⟦{手数料|てすうりょう}→手数料：05423_tesuuryou⟧⟦は→は：00079_ha⟧⟦{銀行|ぎんこう}→銀行：00578_ginkou⟧⟦によって→によって：06801_niyotte⟧⟦{違|ちが}う→違う：01957_chigau⟧。",
       "english": "Currency exchange fees differ depending on the bank.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20536_gaikaryougae_ex3",
-      "japanese": "{旅行前|りょこうまえ}に{外貨両替|がいかりょうがえ}をしておいたほうがいい。",
+      "japanese": "{旅行前|りょこうまえ}⟦に→に：00314_ni⟧{外貨両替|がいかりょうがえ}⟦を→を：00422_wo⟧⟦して→する：00392_suru⟧おいた⟦ほうがいい→ほうがいい：10078_hougaii⟧。",
       "english": "It's better to exchange currency before your trip.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {外貨|がいか} (foreign currency) and {両替|りょうがえ} (exchange, conversion). You will often see this on signs at airports and banks.\n\nCOMMON COLLOCATIONS:\n- {外貨両替|がいかりょうがえ}の{窓口|まどぐち}: currency exchange counter\n- {外貨両替|がいかりょうがえ}{手数料|てすうりょう}: exchange fee/commission\n- {外貨両替|がいかりょうがえ}レート: exchange rate\n- {外貨両替|がいかりょうがえ}をする: to exchange currency\n\nRELATED TERMS:\n- {両替|りょうがえ}: currency exchange / changing bills and coins (also used for breaking bills)\n- {為替|かわせ}: foreign exchange (finance term)\n- {為替|かわせ}レート: exchange rate",
+  "notes": "Composed of ⟦{外貨|がいか}→外貨：12152_gaika⟧ (foreign currency) and ⟦{両替|りょうがえ}→両替：03680_ryougae⟧ (exchange, conversion). You will often see this on signs at airports and banks.\n\nCOMMON COLLOCATIONS:\n- {外貨両替|がいかりょうがえ}⟦の→の：09472_no⟧⟦{窓口|まどぐち}→窓口：03154_madoguchi⟧: currency exchange counter\n- {外貨両替|がいかりょうがえ}⟦{手数料|てすうりょう}→手数料：05423_tesuuryou⟧: exchange fee/commission\n- {外貨両替|がいかりょうがえ}⟦レート→レート：11248_reeto⟧: exchange rate\n- {外貨両替|がいかりょうがえ}⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧: to exchange currency\n\nRELATED WORDS:\n- ⟦{両替|りょうがえ}→両替：03680_ryougae⟧: currency exchange / changing bills and coins (also used for breaking bills)\n- ⟦{為替|かわせ}→為替：04021_kawase⟧: foreign exchange (finance term)\n- ⟦{為替|かわせ}レート→為替レート：23524_kawasereeto⟧: exchange rate",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "04021_kawase",
+      "reading": "かわせ",
+      "headword": "{為替|かわせ}",
+      "label": "foreign exchange"
+    },
+    {
+      "type": "related",
+      "target_id": "23524_kawasereeto",
+      "reading": "かわせれーと",
+      "headword": "{為替|かわせ}レート",
+      "label": "exchange rate"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["finance", "travel"]
+      "semantic": [
+        "finance",
+        "travel"
+      ]
     },
     "created": "2026-03-29T17:07:23Z",
-    "modified": "2026-03-29T17:07:23Z"
+    "modified": "2026-09-02T04:02:00Z"
   }
 }

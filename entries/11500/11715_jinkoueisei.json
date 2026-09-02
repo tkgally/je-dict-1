@@ -15,41 +15,68 @@
   "examples": [
     {
       "id": "11715_jinkoueisei_ex1",
-      "japanese": "{人工衛星|じんこうえいせい}を{打|う}ち{上|あ}げた。",
+      "japanese": "{人工衛星|じんこうえいせい}⟦を→を：00422_wo⟧⟦{打|う}ち{上|あ}げた→打ち上げる：06732_uchiageru⟧。",
       "english": "They launched an artificial satellite.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11715_jinkoueisei_ex2",
-      "japanese": "GPS{信号|しんごう}は{人工衛星|じんこうえいせい}から{送|おく}られている。",
+      "japanese": "GPS⟦{信号|しんごう}→信号：03258_shingou⟧⟦は→は：00079_ha⟧{人工衛星|じんこうえいせい}⟦から→から：00504_kara⟧⟦{送|おく}られている→送る：00742_okuru⟧。",
       "english": "GPS signals are transmitted from artificial satellites.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11715_jinkoueisei_ex3",
-      "japanese": "{地球|ちきゅう}の{周|まわ}りには{数千|すうせん}もの{人工衛星|じんこうえいせい}が{軌道|きどう}を{回|まわ}っている。",
+      "japanese": "⟦{地球|ちきゅう}→地球：03461_chikyuu⟧⟦の→の：09472_no⟧⟦{周|まわ}り→周り：01732_mawari⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{数千|すうせん}⟦も→も：00484_mo⟧⟦の→の：09472_no⟧{人工衛星|じんこうえいせい}⟦が→が：00051_ga⟧⟦{軌道|きどう}→軌道：06360_kidou⟧⟦を→を：00422_wo⟧⟦{回|まわ}っている→回る：01150_mawaru⟧。",
       "english": "Thousands of artificial satellites are orbiting around the Earth.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "Compound of {人工|じんこう} (artificial) + {衛星|えいせい} (satellite). Often shortened to {衛星|えいせい} when the context is clear.\n\nCOMMON COLLOCATIONS:\n・{人工衛星|じんこうえいせい}を{打|う}ち{上|あ}げる (to launch a satellite)\n・{気象|きしょう}{衛星|えいせい} (weather satellite)\n・{通信|つうしん}{衛星|えいせい} (communications satellite)\n・{偵察|ていさつ}{衛星|えいせい} (reconnaissance satellite)\n・{衛星|えいせい}{軌道|きどう} (satellite orbit)\n\nUSAGE NOTES:\nIn everyday conversation, {衛星|えいせい} alone is often sufficient when referring to artificial satellites. The full form {人工衛星|じんこうえいせい} is used to distinguish from {天然|てんねん}の{衛星|えいせい} (natural satellites, such as the Moon).",
-  "cross_references": [],
+  "notes": "Compound of ⟦{人工|じんこう}→人工：11573_jinkou⟧ (artificial) + ⟦{衛星|えいせい}→衛星：01880_eisei⟧ (satellite). Often shortened to ⟦{衛星|えいせい}→衛星：01880_eisei⟧ when the context is clear.\n\nCOMMON COLLOCATIONS:\n- {人工衛星|じんこうえいせい}⟦を→を：00422_wo⟧⟦{打|う}ち{上|あ}げる→打ち上げる：06732_uchiageru⟧ (to launch a satellite)\n- ⟦{気象|きしょう}→気象：09943_kishou⟧⟦{衛星|えいせい}→衛星：01880_eisei⟧ (weather satellite)\n- ⟦{通信|つうしん}→通信：03514_tsuushin⟧⟦{衛星|えいせい}→衛星：01880_eisei⟧ (communications satellite)\n- {偵察|ていさつ}⟦{衛星|えいせい}→衛星：01880_eisei⟧ (reconnaissance satellite)\n- ⟦{衛星|えいせい}→衛星：01880_eisei⟧⟦{軌道|きどう}→軌道：06360_kidou⟧ (satellite orbit)\n\nUSAGE:\nIn everyday conversation, ⟦{衛星|えいせい}→衛星：01880_eisei⟧ alone is often sufficient when referring to artificial satellites. The full form {人工衛星|じんこうえいせい} is used to distinguish from ⟦{天然|てんねん}→天然：03560_tennen⟧⟦の→の：09472_no⟧⟦{衛星|えいせい}→衛星：01880_eisei⟧ (natural satellites, such as the Moon).",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "26020_uchuusen",
+      "reading": "うちゅうせん",
+      "headword": "{宇宙船|うちゅうせん}",
+      "label": "spaceship"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29862_seishieisei",
+      "reading": "せいしえいせい",
+      "headword": "静止衛星",
+      "label": "geostationary satellite"
+    }
+  ],
   "metadata": {
     "created": "2026-02-17T21:40:39Z",
-    "modified": "2026-02-17T21:40:39Z",
+    "modified": "2026-09-02T04:01:26Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["technical"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "technical"
+      ]
     }
   }
 }

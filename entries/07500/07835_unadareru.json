@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "07835_unadareru_ex1",
-      "japanese": "{彼|かれ}は{項垂|うなだ}れていた。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{項垂|うなだ}れて⟦いた→いる：00495_iru⟧。",
       "english": "He was hanging his head.",
       "sense_numbers": [
         1
@@ -114,7 +114,7 @@
     },
     {
       "id": "07835_unadareru_ex2",
-      "japanese": "{失敗|しっぱい}を{知|し}って{項垂|うなだ}れた。",
+      "japanese": "⟦{失敗|しっぱい}→失敗：01636_shippai⟧⟦を→を：00422_wo⟧⟦{知|し}って→知る：00458_shiru⟧{項垂|うなだ}れた。",
       "english": "Upon learning of the failure, they hung their head.",
       "sense_numbers": [
         1
@@ -124,7 +124,7 @@
     },
     {
       "id": "07835_unadareru_ex3",
-      "japanese": "{叱|しか}られた{子|こ}どもが{項垂|うなだ}れて{立|た}っていた。",
+      "japanese": "⟦{叱|しか}られた→叱る：01202_shikaru⟧{子|こ}ども⟦が→が：00051_ga⟧{項垂|うなだ}れて⟦{立|た}っていた→立つ：00758_tatsu⟧。",
       "english": "The scolded child stood with their head hung low.",
       "sense_numbers": [
         1
@@ -133,7 +133,30 @@
       "notes": null
     }
   ],
-  "notes": "{項垂|うなだ}れる is an intransitive ichidan verb describing the physical action of hanging one's head, typically due to negative emotions.\n\nTRANSITIVITY: Intransitive ({自動詞|じどうし}).\n\nETYMOLOGY:\n- {項|うなじ} means \"nape of the neck\"\n- The verb describes the neck drooping, causing the head to hang down\n\nUSAGE:\n- Expresses dejection, shame, disappointment, or defeat\n- Often used to describe someone's posture after receiving bad news or being reprimanded\n- The kanji {項垂|うなだ}れる is commonly written, but hiragana うなだれる is also acceptable\n\nCOMMON COLLOCATIONS:\n- がっくり{項垂|うなだ}れる (to hang one's head in despair)\n- {項垂|うなだ}れて{帰|かえ}る (to return with one's head hung low)\n\nSIMILAR EXPRESSIONS:\n- {頭|あたま}を{下|さ}げる: To bow one's head (more neutral, can also mean to apologize)\n- {俯|うつむ}く: To look down, hang one's head (more general)\n- {項垂|うなだ}れる: Specifically conveys emotional dejection\n\nREGISTER: Neutral to slightly literary.",
+  "notes": "{項垂|うなだ}れる is an intransitive ichidan verb describing the physical action of hanging one's head, typically due to negative emotions.\n\nTRANSITIVITY: Intransitive (⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧).\n\nETYMOLOGY:\n- {項|うなじ} means \"nape of the neck\"\n- The verb describes the neck drooping, causing the head to hang down\n\nUSAGE:\n- Expresses dejection, shame, disappointment, or defeat\n- Often used to describe someone's posture after receiving bad news or being reprimanded\n- The kanji {項垂|うなだ}れる is commonly written, but hiragana うなだれる is also acceptable\n\nCOMMON COLLOCATIONS:\n- ⟦がっくり→がっくり：05893_gakkuri⟧{項垂|うなだ}れる (to hang one's head in despair)\n- {項垂|うなだ}れて⟦{帰|かえ}る→帰る：00508_kaeru⟧ (to return with one's head hung low)\n\nSIMILAR WORDS:\n- ⟦{頭|あたま}を{下|さ}げる→頭を下げる：26795_atamawosageru⟧: To bow one's head (more neutral, can also mean to apologize)\n- {俯|うつむ}く: To look down, hang one's head (more general)\n- {項垂|うなだ}れる: Specifically conveys emotional dejection\n\nREGISTER: Neutral to slightly literary.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "26795_atamawosageru",
+      "reading": "あたまをさげる",
+      "headword": "{頭|あたま}を{下|さ}げる",
+      "label": "To bow one's head"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06934_shunto",
+      "reading": "しゅんと",
+      "headword": "しゅんと",
+      "label": "dejected, downcast, crestfallen"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21462_katawootosu",
+      "reading": "かたをおとす",
+      "headword": "{肩|かた}を{落|お}とす",
+      "label": "to be dejected"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -150,6 +173,6 @@
       ]
     },
     "created": "2026-01-21T11:27:04Z",
-    "modified": "2026-08-11T09:39:16Z"
+    "modified": "2026-09-02T04:01:12Z"
   }
 }

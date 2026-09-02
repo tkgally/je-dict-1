@@ -15,40 +15,66 @@
   "examples": [
     {
       "id": "19410_kyuukyuubako_ex1",
-      "japanese": "{救急箱|きゅうきゅうばこ}はどこですか。",
+      "japanese": "{救急箱|きゅうきゅうばこ}⟦は→は：00079_ha⟧⟦どこ→どこ：00539_doko⟧です⟦か→か：09473_ka⟧。",
       "english": "Where is the first-aid kit?",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19410_kyuukyuubako_ex2",
-      "japanese": "{救急箱|きゅうきゅうばこ}から{絆創膏|ばんそうこう}を{出|だ}して{貼|は}った。",
+      "japanese": "{救急箱|きゅうきゅうばこ}⟦から→から：00504_kara⟧⟦{絆創膏|ばんそうこう}→絆創膏：05386_bansoukou⟧⟦を→を：00422_wo⟧⟦{出|だ}して→出す：01087_dasu⟧⟦{貼|は}った→貼る：10447_haru⟧。",
       "english": "I took out a bandage from the first-aid kit and put it on.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19410_kyuukyuubako_ex3",
-      "japanese": "キャンプに{行|い}くときは、{必|かなら}ず{救急箱|きゅうきゅうばこ}を{持|も}っていくようにしている。",
+      "japanese": "⟦キャンプ→キャンプ：03837_kyanpu⟧⟦に→に：00314_ni⟧⟦{行|い}く→行く：00119_iku⟧とき⟦は→は：00079_ha⟧、⟦{必|かなら}ず→必ず：01249_kanarazu⟧{救急箱|きゅうきゅうばこ}⟦を→を：00422_wo⟧⟦{持|も}っていく→持っていく：27431_motteiku⟧ようにして⟦いる→いる：00495_iru⟧。",
       "english": "When going camping, I always make sure to bring a first-aid kit.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "{救急箱|きゅうきゅうばこ} is a box or case containing basic medical supplies for treating minor injuries and sudden illness at home, school, or outdoors. Most Japanese households keep one stocked with bandages, disinfectant, and common medicines.\n\nSTRUCTURE: A compound of {救急|きゅうきゅう} (emergency, first aid) + {箱|はこ} (box).\n\nTYPICAL CONTENTS:\n- {絆創膏|ばんそうこう}: adhesive bandage\n- {包帯|ほうたい}: bandage\n- {消毒液|しょうどくえき}: disinfectant\n- {体温計|たいおんけい}: thermometer\n- はさみ: scissors\n\nRELATED:\n- {救急車|きゅうきゅうしゃ}: ambulance\n- {応急処置|おうきゅうしょち}: first aid (treatment)",
+  "notes": "{救急箱|きゅうきゅうばこ} is a box or case containing basic medical supplies for treating minor injuries and sudden illness at home, school, or outdoors. Most Japanese households keep one stocked with bandages, disinfectant, and common medicines.\n\nSTRUCTURE: A compound of ⟦{救急|きゅうきゅう}→救急：15075_kyuukyuu⟧ (emergency, first aid) + ⟦{箱|はこ}→箱：02162_hako⟧ (box).\n\nTYPICAL CONTENTS:\n- ⟦{絆創膏|ばんそうこう}→絆創膏：05386_bansoukou⟧: adhesive bandage\n- ⟦{包帯|ほうたい}→包帯：05385_houtai⟧: bandage\n- {消毒液|しょうどくえき}: disinfectant\n- ⟦{体温計|たいおんけい}→体温計：05484_taionkei⟧: thermometer\n- ⟦はさみ→はさみ：00702_hasami⟧: scissors\n\nRELATED WORDS:\n- ⟦{救急車|きゅうきゅうしゃ}→救急車：05077_kyuukyuusha⟧: ambulance\n- ⟦{応急処置|おうきゅうしょち}→応急処置：06519_oukyuushochi⟧: first aid (treatment)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "05077_kyuukyuusha",
+      "reading": "きゅうきゅうしゃ",
+      "headword": "{救急車|きゅうきゅうしゃ}",
+      "label": "ambulance"
+    },
+    {
+      "type": "related",
+      "target_id": "06519_oukyuushochi",
+      "reading": "おうきゅうしょち",
+      "headword": "{応急処置|おうきゅうしょち}",
+      "label": "first aid"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["tool"]
+      "semantic": [
+        "tool"
+      ]
     },
     "created": "2026-03-25T13:28:10Z",
-    "modified": "2026-03-25T13:28:10Z"
+    "modified": "2026-09-02T04:01:55Z"
   }
 }

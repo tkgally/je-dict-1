@@ -3,7 +3,7 @@
   "headword": "{合焦|ごうしょう}",
   "reading": "ごうしょう",
   "romaji": "goushou",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "focusing; being in focus",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26508_goushou_ex1",
-      "japanese": "{合焦|ごうしょう}が{速|はや}いレンズだ。",
+      "japanese": "{合焦|ごうしょう}⟦が→が：00051_ga⟧⟦{速|はや}い→速い：00514_hayai⟧⟦レンズ→レンズ：07808_renzu⟧だ。",
       "english": "This lens focuses quickly.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26508_goushou_ex2",
-      "japanese": "{暗|くら}い{場所|ばしょ}では{合焦|ごうしょう}しにくい。",
+      "japanese": "⟦{暗|くら}い→暗い：00647_kurai⟧⟦{場所|ばしょ}→場所：00829_basho⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧{合焦|ごうしょう}しにくい。",
       "english": "It's hard to achieve focus in dark places.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26508_goushou_ex3",
-      "japanese": "シャッターボタンを{半押|はんお}しすると、カメラが{自動的|じどうてき}に{合焦|ごうしょう}して{緑|みどり}のランプが{点灯|てんとう}する。",
+      "japanese": "⟦シャッター→シャッター：06380_shattaa⟧⟦ボタン→ボタン：02963_botan⟧⟦を→を：00422_wo⟧{半押|はんお}し⟦する→する：00392_suru⟧⟦と→と：00512_to⟧、⟦カメラ→カメラ：04417_kamera⟧⟦が→が：00051_ga⟧⟦{自動的|じどうてき}→自動的：25589_jidouteki⟧⟦に→に：00314_ni⟧{合焦|ごうしょう}⟦して→する：00392_suru⟧⟦{緑|みどり}→緑：00970_midori⟧⟦の→の：09472_no⟧⟦ランプ→ランプ：11260_ranpu⟧⟦が→が：00051_ga⟧⟦{点灯|てんとう}する→点灯する：20211_tentousuru⟧。",
       "english": "When you half-press the shutter button, the camera automatically focuses and a green light turns on.",
       "sense_numbers": [
         1
@@ -44,8 +44,23 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {合|ごう} (match, fit) and {焦|しょう} (focal point). A technical term from optics and photography meaning the state where light rays converge to produce a sharp image. Often used in camera specifications, photography guides, and lens reviews.\n\nCOMMON COLLOCATIONS:\n- {合焦|ごうしょう}{速度|そくど}: focusing speed\n- {合焦|ごうしょう}{精度|せいど}: focusing accuracy\n- {合焦|ごうしょう}する: to focus / to achieve focus\n- {合焦|ごうしょう}{距離|きょり}: focused distance\n- {自動|じどう}{合焦|ごうしょう}: autofocus\n\nSIMILAR WORDS:\n- ピント: focus (from Dutch \"brandpunt\") — the everyday term for focus in photography\n- フォーカス: focus (English loanword) — used in both photography and general contexts\n- {焦点|しょうてん}: focal point — the technical/physics term; also used figuratively",
-  "cross_references": [],
+  "notes": "Composed of ⟦{合|ごう}→合：27628_gou⟧ (match, fit) and {焦|しょう} (focal point). A technical term from optics and photography meaning the state where light rays converge to produce a sharp image. Often used in camera specifications, photography guides, and lens reviews.\n\nCOMMON COLLOCATIONS:\n- {合焦|ごうしょう}⟦{速度|そくど}→速度：03319_sokudo⟧: focusing speed\n- {合焦|ごうしょう}⟦{精度|せいど}→精度：13787_seido⟧: focusing accuracy\n- {合焦|ごうしょう}⟦する→する：00392_suru⟧: to focus / to achieve focus\n- {合焦|ごうしょう}⟦{距離|きょり}→距離：05331_kyori⟧: focused distance\n- ⟦{自動|じどう}→自動：03339_jidou⟧{合焦|ごうしょう}: autofocus\n\nSIMILAR WORDS:\n- ⟦ピント→ピント：06363_pinto⟧: focus (from Dutch \"brandpunt\") — the everyday term for focus in photography\n- フォーカス: focus (English loanword) — used in both photography and general contexts\n- ⟦{焦点|しょうてん}→焦点：13413_shouten⟧: focal point — the technical/physics term; also used figuratively",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06363_pinto",
+      "reading": "ぴんと",
+      "headword": "ピント",
+      "label": "focus"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13413_shouten",
+      "reading": "しょうてん",
+      "headword": "{焦点|しょうてん}",
+      "label": "focal point"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -62,10 +77,11 @@
       "domain": [
         "technical"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     },
     "created": "2026-05-02T13:34:44Z",
-    "modified": "2026-05-02T13:34:44Z"
+    "modified": "2026-09-02T04:02:26Z"
   },
   "conjugation": {
     "type": "suru",

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26662_kinnenmarenimiru_ex1",
-      "japanese": "{近年稀|きんねんまれ}にみる{大雪|おおゆき}だった。",
+      "japanese": "{近年稀|きんねんまれ}にみる⟦{大雪|おおゆき}→大雪：03017_ooyuki⟧だった。",
       "english": "It was a heavy snowfall rarely seen in recent years.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26662_kinnenmarenimiru_ex2",
-      "japanese": "{近年稀|きんねんまれ}にみる{好成績|こうせいせき}を{収|おさ}めた。",
+      "japanese": "{近年稀|きんねんまれ}にみる⟦{好成績|こうせいせき}→好成績：24101_kouseiseki⟧⟦を→を：00422_wo⟧⟦{収|おさ}めた→収める：02022_osameru⟧。",
       "english": "They achieved results rarely seen in recent years.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26662_kinnenmarenimiru_ex3",
-      "japanese": "この{映画|えいが}は{近年稀|きんねんまれ}にみる{傑作|けっさく}だと{評価|ひょうか}されている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{映画|えいが}→映画：02273_eiga⟧⟦は→は：00079_ha⟧{近年稀|きんねんまれ}にみる⟦{傑作|けっさく}→傑作：00217_kessaku⟧だ⟦と→と：00512_to⟧⟦{評価|ひょうか}→評価：03583_hyouka⟧⟦されている→する：00392_suru⟧。",
       "english": "This film is regarded as a masterpiece rarely seen in recent years.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "An expression combining {近年|きんねん} (recent years), {稀|まれ} (rare), and みる (to see/find). Functions as a pre-noun modifier meaning \"of a kind rarely seen in recent years,\" emphasizing that something is exceptionally good, bad, or unusual compared to the recent past.\n\nCOMMON PATTERNS:\n- {近年稀|きんねんまれ}にみる + [exceptional noun]: modifies nouns describing extreme events or achievements\n- {近年稀|きんねんまれ}にみる{大|おお}〜: rarely-seen great/large ~\n- {近年稀|きんねんまれ}にみる{好|こう}〜: rarely-seen good ~\n\nUSAGE:\nCan modify both positive and negative nouns:\n- Positive: {傑作|けっさく} (masterpiece), {好成績|こうせいせき} (good results), {豊作|ほうさく} (good harvest)\n- Negative: {大雪|おおゆき} (heavy snow), {不作|ふさく} (bad harvest), {猛暑|もうしょ} (extreme heat)\n\nSIMILAR EXPRESSIONS:\n- {類|るい}を{見|み}ない: unparalleled, without parallel\n- {前代未聞|ぜんだいみもん}: unprecedented, unheard of\n- {空前|くうぜん}の: unprecedented",
+  "notes": "An expression combining ⟦{近年|きんねん}→近年：14349_kinnen⟧ (recent years), ⟦{稀|まれ}→稀：00269_mare⟧ (rare), and みる (to see/find). Functions as a pre-noun modifier meaning \"of a kind rarely seen in recent years,\" emphasizing that something is exceptionally good, bad, or unusual compared to the recent past.\n\nCOMMON PATTERNS:\n- {近年稀|きんねんまれ}にみる + [exceptional noun]: modifies nouns describing extreme events or achievements\n- {近年稀|きんねんまれ}にみる{大|おお}〜: rarely-seen great/large ~\n- {近年稀|きんねんまれ}にみる{好|こう}〜: rarely-seen good ~\n\nUSAGE:\nCan modify both positive and negative nouns:\n- Positive: ⟦{傑作|けっさく}→傑作：00217_kessaku⟧ (masterpiece), ⟦{好成績|こうせいせき}→好成績：24101_kouseiseki⟧ (good results), ⟦{豊作|ほうさく}→豊作：14227_housaku⟧ (good harvest)\n- Negative: ⟦{大雪|おおゆき}→大雪：03017_ooyuki⟧ (heavy snow), ⟦{不作|ふさく}→不作：18799_fusaku⟧ (bad harvest), ⟦{猛暑|もうしょ}→猛暑：08311_mousho⟧ (extreme heat)\n\nSIMILAR WORDS:\n- ⟦{類|るい}→類：15121_rui⟧⟦を→を：00422_wo⟧⟦{見|み}ない→見る：00283_miru⟧: unparalleled, without parallel\n- ⟦{前代未聞|ぜんだいみもん}→前代未聞：05949_zendaimimon⟧: unprecedented, unheard of\n- ⟦{空前|くうぜん}→空前：22320_kuuzen⟧⟦の→の：09472_no⟧: unprecedented",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05949_zendaimimon",
+      "reading": "ぜんだいみもん",
+      "headword": "{前代未聞|ぜんだいみもん}",
+      "label": "unprecedented, unheard of"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +68,6 @@
       ]
     },
     "created": "2026-05-04T11:22:54Z",
-    "modified": "2026-08-06T00:48:47Z"
+    "modified": "2026-09-02T04:02:27Z"
   }
 }

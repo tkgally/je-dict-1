@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30753_shigure_ex1",
-      "japanese": "{時雨|しぐれ}が{降|ふ}ってきた。",
+      "japanese": "{時雨|しぐれ}⟦が→が：00051_ga⟧⟦{降|ふ}って→降る：00839_furu⟧きた。",
       "english": "A passing shower has started.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30753_shigure_ex2",
-      "japanese": "{京都|きょうと}の{冬|ふゆ}は{時雨|しぐれ}が{多|おお}い。",
+      "japanese": "⟦{京都|きょうと}→京都：09484_kyouto⟧⟦の→の：09472_no⟧⟦{冬|ふゆ}→冬：00623_fuyu⟧⟦は→は：00079_ha⟧{時雨|しぐれ}⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "Winter in Kyoto has many passing showers.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30753_shigure_ex3",
-      "japanese": "{時雨|しぐれ}に{濡|ぬ}れた{紅葉|もみじ}が、{石|いし}だたみに{張|は}りついていた。",
+      "japanese": "{時雨|しぐれ}⟦に→に：00314_ni⟧⟦{濡|ぬ}れた→濡れる：00800_nureru⟧⟦{紅葉|もみじ}→紅葉：05387_momiji⟧⟦が→が：00051_ga⟧、{石|いし}だたみ⟦に→に：00314_ni⟧{張|は}りついて⟦いた→いる：00495_iru⟧。",
       "english": "Maple leaves wet from the passing shower were stuck to the stone pavement.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "An irregular reading: the kanji {時雨|しぐれ} are read しぐれ as a unit rather than syllable by syllable.\n\nCOMMON COLLOCATIONS:\n- {時雨|しぐれ}が{降|ふ}る: a passing shower falls\n- {北山|きたやま}{時雨|しぐれ}: the showers that sweep down over northern Kyoto\n- {蝉|せみ}{時雨|しぐれ}: the shower-like din of cicadas (a summer word, by analogy)\n\nCULTURAL CONTEXT:\nA standard {季語|きご} (seasonal word) for early winter in haiku, carrying a mood of transience and quiet melancholy — Basho's death poem is set in a {時雨|しぐれ}. It also appears in given names and in the food name {時雨煮|しぐれに}, a soy-simmered dish.",
+  "notes": "An irregular reading: the kanji {時雨|しぐれ} are read しぐれ as a unit rather than syllable by syllable.\n\nCOMMON COLLOCATIONS:\n- {時雨|しぐれ}⟦が→が：00051_ga⟧⟦{降|ふ}る→降る：00839_furu⟧: a passing shower falls\n- {北山|きたやま}{時雨|しぐれ}: the showers that sweep down over northern Kyoto\n- {蝉|せみ}{時雨|しぐれ}: the shower-like din of cicadas (a summer word, by analogy)\n\nCULTURAL NOTE:\nA standard ⟦{季語|きご}→季語：09561_kigo⟧ (seasonal word) for early winter in haiku, carrying a mood of transience and quiet melancholy — Basho's death poem is set in a {時雨|しぐれ}. It also appears in given names and in the food name ⟦{時雨煮|しぐれに}→時雨煮：30757_shigureni⟧, a soy-simmered dish.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "16749_akisame",
+      "reading": "あきさめ",
+      "headword": "{秋雨|あきさめ}",
+      "label": "autumn rain"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +62,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "weather",
         "time-season"
@@ -61,6 +70,6 @@
       "domain": []
     },
     "created": "2026-08-25T12:29:46Z",
-    "modified": "2026-08-25T12:29:46Z"
+    "modified": "2026-09-02T04:02:41Z"
   }
 }

@@ -15,41 +15,67 @@
   "examples": [
     {
       "id": "29500_yukiyama_ex1",
-      "japanese": "{雪山|ゆきやま}に{登|のぼ}る。",
+      "japanese": "{雪山|ゆきやま}⟦に→に：00314_ni⟧⟦{登|のぼ}る→登る：00660_noboru⟧。",
       "english": "to climb a snowy mountain.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29500_yukiyama_ex2",
-      "japanese": "{冬|ふゆ}の{雪山|ゆきやま}は{美|うつく}しいが{危険|きけん}だ。",
+      "japanese": "⟦{冬|ふゆ}→冬：00623_fuyu⟧⟦の→の：09472_no⟧{雪山|ゆきやま}⟦は→は：00079_ha⟧⟦{美|うつく}しい→美しい：01121_utsukushii⟧⟦が→が：00051_ga⟧⟦{危険|きけん}→危険：01141_kiken⟧だ。",
       "english": "Snowy mountains in winter are beautiful but dangerous.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29500_yukiyama_ex3",
-      "japanese": "{子|こ}どもたちは、{除雪|じょせつ}でできた{雪山|ゆきやま}の{上|うえ}で{遊|あそ}んでいる。",
+      "japanese": "{子|こ}どもたち⟦は→は：00079_ha⟧、⟦{除雪|じょせつ}→除雪：18195_josetsu⟧⟦で→で：00502_de⟧⟦できた→できる：00557_dekiru⟧{雪山|ゆきやま}⟦の→の：09472_no⟧⟦{上|うえ}→上：00682_ue⟧⟦で→で：00502_de⟧⟦{遊|あそ}んでいる→遊ぶ：00550_asobu⟧。",
       "english": "The children are playing on top of the snow pile left by the snow clearing.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Combines {雪|ゆき} (snow) + {山|やま} (mountain). A snow-covered mountain, or a heaped pile of snow. In mountaineering it may be read せつざん.\n\nCOMMON COLLOCATIONS:\n- {雪山|ゆきやま}に{登|のぼ}る: to climb a snowy mountain\n- {雪山|ゆきやま}{登山|とざん}: snow-mountain climbing\n- {雪山|ゆきやま}{遭難|そうなん}: getting stranded on a snowy mountain\n\nSIMILAR WORDS:\n- {雪原|せつげん}: snowfield — a wide expanse of flat, snow-covered land\n- {雪景色|ゆきげしき}: snowy scenery — the view of a snow-covered landscape",
+  "notes": "Combines ⟦{雪|ゆき}→雪：00584_yuki⟧ (snow) + ⟦{山|やま}→山：02168_yama⟧ (mountain). A snow-covered mountain, or a heaped pile of snow. In mountaineering it may be read せつざん.\n\nCOMMON COLLOCATIONS:\n- {雪山|ゆきやま}⟦に→に：00314_ni⟧⟦{登|のぼ}る→登る：00660_noboru⟧: to climb a snowy mountain\n- {雪山|ゆきやま}⟦{登山|とざん}→登山：03457_tozan⟧: snow-mountain climbing\n- {雪山|ゆきやま}⟦{遭難|そうなん}→遭難：09510_sounan⟧: getting stranded on a snowy mountain\n\nSIMILAR WORDS:\n- {雪原|せつげん}: snowfield — a wide expanse of flat, snow-covered land\n- ⟦{雪景色|ゆきげしき}→雪景色：14666_yukigeshiki⟧: snowy scenery — the view of a snow-covered landscape",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14666_yukigeshiki",
+      "reading": "ゆきげしき",
+      "headword": "{雪景色|ゆきげしき}",
+      "label": "snowy scenery"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23907_gerende",
+      "reading": "げれんで",
+      "headword": "ゲレンデ",
+      "label": "ski slope"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["geography"],
+      "politeness": "plain",
+      "semantic": [
+        "geography"
+      ],
       "domain": []
     },
     "created": "2026-06-26T09:20:43Z",
-    "modified": "2026-06-26T09:20:43Z"
+    "modified": "2026-09-02T04:02:37Z"
   }
 }

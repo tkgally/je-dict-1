@@ -15,42 +15,77 @@
   "examples": [
     {
       "id": "16188_keieisha_ex1",
-      "japanese": "{彼|かれ}は{飲食店|いんしょくてん}の{経営者|けいえいしゃ}だ。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{飲食店|いんしょくてん}→飲食店：15093_inshokuten⟧⟦の→の：09472_no⟧{経営者|けいえいしゃ}だ。",
       "english": "He is the owner of a restaurant.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16188_keieisha_ex2",
-      "japanese": "{経営者|けいえいしゃ}としての{判断|はんだん}が{求|もと}められる{場面|ばめん}だ。",
+      "japanese": "{経営者|けいえいしゃ}⟦として→として：06802_toshite⟧⟦の→の：09472_no⟧⟦{判断|はんだん}→判断：03571_handan⟧⟦が→が：00051_ga⟧⟦{求|もと}められる→求める：02316_motomeru⟧⟦{場面|ばめん}→場面：03702_bamen⟧だ。",
       "english": "This is a situation that calls for a decision as a business leader.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16188_keieisha_ex3",
-      "japanese": "{若|わか}い{経営者|けいえいしゃ}が{集|あつ}まるセミナーに{参加|さんか}した。",
+      "japanese": "{若|わか}い{経営者|けいえいしゃ}⟦が→が：00051_ga⟧⟦{集|あつ}まる→集まる：01162_atsumaru⟧⟦セミナー→セミナー：11000_seminaa⟧⟦に→に：00314_ni⟧⟦{参加|さんか}した→参加する：25408_sankasuru⟧。",
       "english": "I attended a seminar where young entrepreneurs gathered.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\n{経営者|けいえいしゃ} is a general term for anyone who manages or owns a business. It can refer to the owner of a small shop or the CEO of a large corporation. It is composed of {経営|けいえい} (management) + {者|しゃ} (person).\n\nSIMILAR WORDS:\n{社長|しゃちょう} (company president) is a specific title, while {経営者|けいえいしゃ} is a broader role description. {起業家|きぎょうか} (entrepreneur) emphasizes starting new businesses.\n\nCOMMON COLLOCATIONS:\n- {経営者|けいえいしゃ}{側|がわ} (management side)\n- {経営者|けいえいしゃ}{団体|だんたい} (business owners' association)\n- {経営者|けいえいしゃ}{目線|めせん} (from a manager's perspective)\n- {若手|わかて}{経営者|けいえいしゃ} (young entrepreneur)",
-  "cross_references": [],
+  "notes": "USAGE:\n{経営者|けいえいしゃ} is a general term for anyone who manages or owns a business. It can refer to the owner of a small shop or the CEO of a large corporation. It is composed of ⟦{経営|けいえい}→経営：02740_keiei⟧ (management) + ⟦{者|しゃ}→〜者：04662_sha⟧ (person).\n\nSIMILAR WORDS:\n⟦{社長|しゃちょう}→社長：01428_shachou⟧ (company president) is a specific title, while {経営者|けいえいしゃ} is a broader role description. ⟦{起業家|きぎょうか}→起業家：14262_kigyouka⟧ (entrepreneur) emphasizes starting new businesses.\n\nCOMMON COLLOCATIONS:\n- {経営者|けいえいしゃ}⟦{側|がわ}→〜側：03090_gawa⟧ (management side)\n- {経営者|けいえいしゃ}⟦{団体|だんたい}→団体：03426_dantai⟧ (business owners' association)\n- {経営者|けいえいしゃ}⟦{目線|めせん}→目線：13650_mesen⟧ (from a manager's perspective)\n- ⟦{若手|わかて}→若手：13989_wakate⟧{経営者|けいえいしゃ} (young entrepreneur)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01428_shachou",
+      "reading": "しゃちょう",
+      "headword": "{社長|しゃちょう}",
+      "label": "company president"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20535_keieijin",
+      "reading": "けいえいじん",
+      "headword": "{経営陣|けいえいじん}",
+      "label": "management team"
+    },
+    {
+      "type": "related",
+      "target_id": "29027_sougyousha",
+      "reading": "そうぎょうしゃ",
+      "headword": "{創業者|そうぎょうしゃ}",
+      "label": "founder"
+    }
+  ],
   "metadata": {
     "created": "2026-03-11T01:04:49Z",
-    "modified": "2026-03-11T01:04:49Z",
+    "modified": "2026-09-02T04:01:44Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "domain": ["business"],
-      "semantic": ["work", "role"]
+      "domain": [
+        "business"
+      ],
+      "semantic": [
+        "work",
+        "role"
+      ]
     }
   }
 }

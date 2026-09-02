@@ -15,41 +15,67 @@
   "examples": [
     {
       "id": "28903_tanikushokubutsu_ex1",
-      "japanese": "{多肉植物|たにくしょくぶつ}を{育|そだ}てる。",
+      "japanese": "{多肉植物|たにくしょくぶつ}⟦を→を：00422_wo⟧⟦{育|そだ}てる→育てる：01235_sodateru⟧。",
       "english": "To grow succulents.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28903_tanikushokubutsu_ex2",
-      "japanese": "{多肉植物|たにくしょくぶつ}は{水|みず}やりが{少|すく}なくて{済|す}む。",
+      "japanese": "{多肉植物|たにくしょくぶつ}⟦は→は：00079_ha⟧⟦{水|みず}やり→水やり：06328_mizuyari⟧⟦が→が：00051_ga⟧⟦{少|すく}なくて→少ない：01136_sukunai⟧⟦{済|す}む→済む：01950_sumu⟧。",
       "english": "Succulents need little watering.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28903_tanikushokubutsu_ex3",
-      "japanese": "{窓辺|まどべ}に{小|ちい}さな{多肉植物|たにくしょくぶつ}をたくさん{並|なら}べて{楽|たの}しんでいる。",
+      "japanese": "⟦{窓辺|まどべ}→窓辺：20444_madobe⟧⟦に→に：00314_ni⟧⟦{小|ちい}さな→小さな：02913_chiisana⟧{多肉植物|たにくしょくぶつ}⟦を→を：00422_wo⟧⟦たくさん→たくさん：00597_takusan⟧⟦{並|なら}べて→並べる：01091_naraberu⟧⟦{楽|たの}しんでいる→楽しむ：01203_tanoshimu⟧。",
       "english": "I line up lots of small succulents on the windowsill and enjoy them.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Compound of {多肉|たにく} (thick-fleshed) + {植物|しょくぶつ} (plant). Succulents are a major hobby category in Japan, with dedicated shops and magazines.\n\nCOMMON COLLOCATIONS:\n- {多肉植物|たにくしょくぶつ}を{育|そだ}てる: to grow succulents\n- {多肉植物|たにくしょくぶつ}の{鉢|はち}: a pot of succulents\n- {多肉|たにく}{女子|じょし}: \"succulent girl\" (informal for women into succulents)\n\nRELATED:\n- サボテン: cactus — a major sub-category of succulent\n- {観葉植物|かんようしょくぶつ}: foliage / houseplant (general term)",
+  "notes": "Compound of {多肉|たにく} (thick-fleshed) + ⟦{植物|しょくぶつ}→植物：03248_shokubutsu⟧ (plant). Succulents are a major hobby category in Japan, with dedicated shops and magazines.\n\nCOMMON COLLOCATIONS:\n- {多肉植物|たにくしょくぶつ}⟦を→を：00422_wo⟧⟦{育|そだ}てる→育てる：01235_sodateru⟧: to grow succulents\n- {多肉植物|たにくしょくぶつ}⟦の→の：09472_no⟧⟦{鉢|はち}→鉢：29581_hachi⟧: a pot of succulents\n- {多肉|たにく}⟦{女子|じょし}→女子：03350_joshi⟧: \"succulent girl\" (informal for women into succulents)\n\nRELATED WORDS:\n- ⟦サボテン→サボテン：05488_saboten⟧: cactus — a major sub-category of succulent\n- ⟦{観葉植物|かんようしょくぶつ}→観葉植物：19239_kanyoushokubutsu⟧: foliage / houseplant (general term)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "05488_saboten",
+      "reading": "さぼてん",
+      "headword": "サボテン",
+      "label": "cactus"
+    },
+    {
+      "type": "related",
+      "target_id": "19239_kanyoushokubutsu",
+      "reading": "かんようしょくぶつ",
+      "headword": "{観葉植物|かんようしょくぶつ}",
+      "label": "foliage / houseplant"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["nature"],
+      "politeness": "plain",
+      "semantic": [
+        "nature"
+      ],
       "domain": []
     },
     "created": "2026-06-07T02:04:13Z",
-    "modified": "2026-06-07T02:04:13Z"
+    "modified": "2026-09-02T04:02:35Z"
   }
 }

@@ -15,41 +15,62 @@
   "examples": [
     {
       "id": "28547_kyoushinshou_ex1",
-      "japanese": "{父|ちち}は{狭心症|きょうしんしょう}を{患|わずら}っている。",
+      "japanese": "⟦{父|ちち}→父：00566_chichi⟧⟦は→は：00079_ha⟧{狭心症|きょうしんしょう}⟦を→を：00422_wo⟧⟦{患|わずら}っている→患う：27883_wazurau⟧。",
       "english": "My father has angina.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28547_kyoushinshou_ex2",
-      "japanese": "{階段|かいだん}を{上|のぼ}ると{狭心症|きょうしんしょう}の{発作|ほっさ}が{起|お}きる。",
+      "japanese": "⟦{階段|かいだん}→階段：00782_kaidan⟧⟦を→を：00422_wo⟧⟦{上|のぼ}る→上る：21460_noboru⟧⟦と→と：00512_to⟧{狭心症|きょうしんしょう}⟦の→の：09472_no⟧⟦{発作|ほっさ}→発作：15023_hossa⟧⟦が→が：00051_ga⟧⟦{起|お}きる→起きる：00521_okiru⟧。",
       "english": "Going up stairs brings on an angina attack.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28547_kyoushinshou_ex3",
-      "japanese": "{狭心症|きょうしんしょう}は{放置|ほうち}しておくと{心筋梗塞|しんきんこうそく}に{進行|しんこう}する{危険|きけん}がある。",
+      "japanese": "{狭心症|きょうしんしょう}⟦は→は：00079_ha⟧⟦{放置|ほうち}して→放置する：25382_houchisuru⟧おく⟦と→と：00512_to⟧⟦{心筋梗塞|しんきんこうそく}→心筋梗塞：20487_shinkinkousoku⟧⟦に→に：00314_ni⟧⟦{進行|しんこう}する→進行する：26794_shinkousuru⟧⟦{危険|きけん}→危険：01141_kiken⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "If left untreated, angina carries a risk of progressing to a heart attack.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Compound of {狭|きょう} (narrow) + {心|しん} (heart) + {症|しょう} (illness, condition). Refers to the symptom complex caused by narrowed coronary arteries.\n\nCOMMON COLLOCATIONS:\n- {狭心症|きょうしんしょう}の{発作|ほっさ}: angina attack\n- {狭心症|きょうしんしょう}を{患|わずら}う: to suffer from angina\n- {狭心症|きょうしんしょう}の{治療|ちりょう}: treatment for angina\n\nSIMILAR WORDS:\n- {心筋梗塞|しんきんこうそく}: myocardial infarction; heart attack — when a coronary artery is completely blocked; more severe than {狭心症|きょうしんしょう}\n- {心臓発作|しんぞうほっさ}: heart attack (colloquial) — non-medical umbrella term covering both",
+  "notes": "Compound of {狭|きょう} (narrow) + {心|しん} (heart) + {症|しょう} (illness, condition). Refers to the symptom complex caused by narrowed coronary arteries.\n\nCOMMON COLLOCATIONS:\n- {狭心症|きょうしんしょう}⟦の→の：09472_no⟧⟦{発作|ほっさ}→発作：15023_hossa⟧: angina attack\n- {狭心症|きょうしんしょう}⟦を→を：00422_wo⟧⟦{患|わずら}う→患う：27883_wazurau⟧: to suffer from angina\n- {狭心症|きょうしんしょう}⟦の→の：09472_no⟧⟦{治療|ちりょう}→治療：03503_chiryou⟧: treatment for angina\n\nSIMILAR WORDS:\n- ⟦{心筋梗塞|しんきんこうそく}→心筋梗塞：20487_shinkinkousoku⟧: myocardial infarction; heart attack — when a coronary artery is completely blocked; more severe than {狭心症|きょうしんしょう}\n- {心臓発作|しんぞうほっさ}: heart attack (colloquial) — non-medical umbrella term covering both",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20487_shinkinkousoku",
+      "reading": "しんきんこうそく",
+      "headword": "{心筋梗塞|しんきんこうそく}",
+      "label": "myocardial infarction"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["health"],
-      "domain": ["medical"]
+      "politeness": "plain",
+      "semantic": [
+        "health"
+      ],
+      "domain": [
+        "medical"
+      ]
     },
     "created": "2026-06-01T04:07:37Z",
-    "modified": "2026-06-01T04:07:37Z"
+    "modified": "2026-09-02T04:02:34Z"
   }
 }

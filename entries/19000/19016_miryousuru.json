@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "19016_miryousuru_ex1",
-      "japanese": "{観客|かんきゃく}を{魅了|みりょう}した。",
+      "japanese": "⟦{観客|かんきゃく}→観客：02556_kankyaku⟧⟦を→を：00422_wo⟧{魅了|みりょう}した。",
       "english": "It captivated the audience.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "19016_miryousuru_ex2",
-      "japanese": "{彼女|かのじょ}の{歌声|うたごえ}に{魅了|みりょう}された。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦の→の：09472_no⟧⟦{歌声|うたごえ}→歌声：20116_utagoe⟧⟦に→に：00314_ni⟧{魅了|みりょう}された。",
       "english": "I was enchanted by her singing voice.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "19016_miryousuru_ex3",
-      "japanese": "その{映画|えいが}は{世界中|せかいじゅう}の{人々|ひとびと}を{魅了|みりょう}し{続|つづ}けている。",
+      "japanese": "⟦その→その：00993_sono⟧⟦{映画|えいが}→映画：02273_eiga⟧⟦は→は：00079_ha⟧⟦{世界中|せかいじゅう}→世界中：10171_sekaijuu⟧⟦の→の：09472_no⟧⟦{人々|ひとびと}→人々：03141_hitobito⟧⟦を→を：00422_wo⟧{魅了|みりょう}し⟦{続|つづ}け→続く：00903_tsuzuku⟧て⟦いる→いる：00495_iru⟧。",
       "english": "That film continues to captivate people around the world.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,33 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA literary and slightly formal word. Often used in reviews, articles, and descriptions of artistic performances. The passive form {魅了|みりょう}される (to be captivated) is very common.\n\nCOMMON COLLOCATIONS:\n- {観客|かんきゃく}を{魅了|みりょう}する: to captivate the audience\n- {魅了|みりょう}される: to be fascinated/captivated\n- {世界|せかい}を{魅了|みりょう}する: to captivate the world\n- {人々|ひとびと}を{魅了|みりょう}し{続|つづ}ける: to continue to fascinate people",
-  "cross_references": [],
+  "notes": "USAGE:\nA literary and slightly formal word. Often used in reviews, articles, and descriptions of artistic performances. The passive form {魅了|みりょう}される (to be captivated) is very common.\n\nCOMMON COLLOCATIONS:\n- ⟦{観客|かんきゃく}→観客：02556_kankyaku⟧⟦を→を：00422_wo⟧{魅了|みりょう}する: to captivate the audience\n- {魅了|みりょう}される: to be fascinated/captivated\n- ⟦{世界|せかい}→世界：01447_sekai⟧⟦を→を：00422_wo⟧{魅了|みりょう}する: to captivate the world\n- ⟦{人々|ひとびと}→人々：03141_hitobito⟧⟦を→を：00422_wo⟧{魅了|みりょう}し⟦{続|つづ}ける→続く：00903_tsuzuku⟧: to continue to fascinate people",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25712_kyuuinsuru",
+      "reading": "きゅういんする",
+      "headword": "{吸引|きゅういん}する",
+      "label": "to suction"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25935_miwakuteki",
+      "reading": "みわくてき",
+      "headword": "{魅惑的|みわくてき}",
+      "label": "fascinating"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30638_mewoubau",
+      "reading": "めをうばう",
+      "headword": "{目|め}を{奪|うば}う",
+      "label": "to captivate the eye"
+    }
+  ],
   "metadata": {
     "created": "2026-03-24T00:59:39Z",
-    "modified": "2026-03-29T03:08:58Z",
+    "modified": "2026-09-02T04:01:54Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -150,7 +172,8 @@
       "semantic": [
         "emotion"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

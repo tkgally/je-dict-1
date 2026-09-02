@@ -15,41 +15,67 @@
   "examples": [
     {
       "id": "16448_saishinban_ex1",
-      "japanese": "{最新版|さいしんばん}にアップデートする。",
+      "japanese": "{最新版|さいしんばん}⟦に→に：00314_ni⟧⟦アップデート→アップデート：05108_appudeeto⟧⟦する→する：00392_suru⟧。",
       "english": "To update to the latest version.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16448_saishinban_ex2",
-      "japanese": "アプリの{最新版|さいしんばん}がリリースされた。",
+      "japanese": "⟦アプリ→アプリ：04722_apuri⟧⟦の→の：09472_no⟧{最新版|さいしんばん}⟦が→が：00051_ga⟧⟦リリース→リリース：11487_ririisu⟧⟦された→する：00392_suru⟧。",
       "english": "The latest version of the app was released.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16448_saishinban_ex3",
-      "japanese": "{辞書|じしょ}の{最新版|さいしんばん}には{新|あたら}しい{単語|たんご}が{数千|すうせん}{語|ご}{追加|ついか}されている。",
+      "japanese": "⟦{辞書|じしょ}→辞書：04707_jisho⟧⟦の→の：09472_no⟧{最新版|さいしんばん}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦{単語|たんご}→単語：03413_tango⟧⟦が→が：00051_ga⟧{数千|すうせん}⟦{語|ご}→〜語：09841_go⟧⟦{追加|ついか}→追加：04060_tsuika⟧⟦されている→する：00392_suru⟧。",
       "english": "The latest edition of the dictionary has several thousand new words added.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "Refers to the most recent edition or version of something, whether software, a publication, or a product. Used in both technology and publishing contexts.\n\nETYMOLOGY:\nCompound of {最新|さいしん} (newest, latest) + {版|ばん} (edition, version).\n\nCOMMON COLLOCATIONS:\n- {最新版|さいしんばん}にアップデートする: to update to the latest version\n- {最新版|さいしんばん}をダウンロードする: to download the latest version\n- {最新版|さいしんばん}が{出|で}る: a new version comes out\n- ソフトウェアの{最新版|さいしんばん}: the latest version of software\n\nRELATED TERMS:\n- {旧版|きゅうばん}: old edition/version\n- {改訂版|かいていばん}: revised edition\n- {最新|さいしん}: latest, newest (standalone adjective/noun)",
-  "cross_references": [],
+  "notes": "Refers to the most recent edition or version of something, whether software, a publication, or a product. Used in both technology and publishing contexts.\n\nETYMOLOGY:\nCompound of ⟦{最新|さいしん}→最新：04831_saishin⟧ (newest, latest) + {版|ばん} (edition, version).\n\nCOMMON COLLOCATIONS:\n- {最新版|さいしんばん}⟦に→に：00314_ni⟧⟦アップデート→アップデート：05108_appudeeto⟧⟦する→する：00392_suru⟧: to update to the latest version\n- {最新版|さいしんばん}⟦を→を：00422_wo⟧⟦ダウンロード→ダウンロード：04725_daunroodo⟧⟦する→する：00392_suru⟧: to download the latest version\n- {最新版|さいしんばん}⟦が→が：00051_ga⟧⟦{出|で}る→出る：00513_deru⟧: a new version comes out\n- ⟦ソフトウェア→ソフトウェア：04719_sofutowea⟧⟦の→の：09472_no⟧{最新版|さいしんばん}: the latest version of software\n\nRELATED WORDS:\n- {旧版|きゅうばん}: old edition/version\n- ⟦{改訂版|かいていばん}→改訂版：17716_kaiteiban⟧: revised edition\n- ⟦{最新|さいしん}→最新：04831_saishin⟧: latest, newest (standalone adjective/noun)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "17716_kaiteiban",
+      "reading": "かいていばん",
+      "headword": "{改訂版|かいていばん}",
+      "label": "revised edition"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26693_saishinmoderu",
+      "reading": "さいしんもでる",
+      "headword": "{最新|さいしん}モデル",
+      "label": "latest model"
+    }
+  ],
   "metadata": {
     "created": "2026-03-12T23:51:21Z",
-    "modified": "2026-03-26T01:40:08Z",
+    "modified": "2026-09-02T04:01:45Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["technology", "general"]
+      "semantic": [
+        "technology",
+        "general"
+      ]
     }
   }
 }

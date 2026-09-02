@@ -15,40 +15,66 @@
   "examples": [
     {
       "id": "19286_atsugami_ex1",
-      "japanese": "{厚紙|あつがみ}で{箱|はこ}を{作|つく}る。",
+      "japanese": "{厚紙|あつがみ}⟦で→で：00502_de⟧⟦{箱|はこ}→箱：02162_hako⟧⟦を→を：00422_wo⟧⟦{作|つく}る→作る：00481_tsukuru⟧。",
       "english": "I make a box out of cardboard.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19286_atsugami_ex2",
-      "japanese": "{写真|しゃしん}を{送|おく}るときは{厚紙|あつがみ}で{挟|はさ}んでください。",
+      "japanese": "⟦{写真|しゃしん}→写真：00753_shashin⟧⟦を→を：00422_wo⟧⟦{送|おく}る→送る：00742_okuru⟧とき⟦は→は：00079_ha⟧{厚紙|あつがみ}⟦で→で：00502_de⟧⟦{挟|はさ}んで→挟む：00091_hasamu⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "When mailing photos, please sandwich them between pieces of cardboard.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19286_atsugami_ex3",
-      "japanese": "{子|こ}どもたちが{厚紙|あつがみ}とハサミを{使|つか}って{工作|こうさく}をしている。",
+      "japanese": "{子|こ}どもたち⟦が→が：00051_ga⟧{厚紙|あつがみ}⟦と→と：00512_to⟧ハサミ⟦を→を：00422_wo⟧⟦{使|つか}って→使う：00473_tsukau⟧⟦{工作|こうさく}→工作：12437_kousaku⟧⟦を→を：00422_wo⟧⟦している→する：00392_suru⟧。",
       "english": "The children are doing crafts with cardboard and scissors.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Compound of {厚|あつ}い (thick) + {紙|かみ} (paper). Refers to stiff paper stock, not corrugated cardboard (which is {段|だん}ボール).\n\nCOMMON COLLOCATIONS:\n- {厚紙|あつがみ}で{作|つく}る — to make from cardboard\n- {厚紙|あつがみ}を{切|き}る — to cut cardboard\n- {厚紙|あつがみ}に{印刷|いんさつ}する — to print on cardstock\n\nSIMILAR WORDS:\n- {段|だん}ボール — corrugated cardboard (heavier, used for shipping boxes)\n- {画用紙|がようし} — drawing paper (thick but for art use)\n- {薄紙|うすがみ} — thin paper, tissue paper (opposite in thickness)",
+  "notes": "Compound of ⟦{厚|あつ}い→厚い：00690_atsui⟧ (thick) + ⟦{紙|かみ}→紙：00712_kami⟧ (paper). Refers to stiff paper stock, not corrugated cardboard (which is ⟦{段|だん}ボール→段ボール：18885_danbooru⟧).\n\nCOMMON COLLOCATIONS:\n- {厚紙|あつがみ}⟦で→で：00502_de⟧⟦{作|つく}る→作る：00481_tsukuru⟧ — to make from cardboard\n- {厚紙|あつがみ}⟦を→を：00422_wo⟧⟦{切|き}る→切る：02693_kiru⟧ — to cut cardboard\n- {厚紙|あつがみ}⟦に→に：00314_ni⟧⟦{印刷|いんさつ}する→印刷する：21677_insatsusuru⟧ — to print on cardstock\n\nSIMILAR WORDS:\n- ⟦{段|だん}ボール→段ボール：18885_danbooru⟧ — corrugated cardboard (heavier, used for shipping boxes)\n- ⟦{画用紙|がようし}→画用紙：11511_gayoushi⟧ — drawing paper (thick but for art use)\n- {薄紙|うすがみ} — thin paper, tissue paper (opposite in thickness)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18885_danbooru",
+      "reading": "だんぼーる",
+      "headword": "{段|だん}ボール",
+      "label": "corrugated cardboard"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11511_gayoushi",
+      "reading": "がようし",
+      "headword": "{画用紙|がようし}",
+      "label": "drawing paper"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["tool"]
+      "semantic": [
+        "tool"
+      ]
     },
     "created": "2026-03-25T04:45:12Z",
-    "modified": "2026-07-26T21:31:07Z"
+    "modified": "2026-09-02T04:01:55Z"
   }
 }

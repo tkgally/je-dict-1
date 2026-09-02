@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "10329_kyoubi_ex1",
-      "japanese": "きょうび、そんなことする{人|ひと}はいない。",
+      "japanese": "きょうび、⟦そんな→そんな：01645_sonna⟧こと⟦する→する：00392_suru⟧⟦{人|ひと}→人：00476_hito⟧はいない。",
       "english": "Nowadays, nobody does that kind of thing.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "10329_kyoubi_ex2",
-      "japanese": "きょうびの{若|わか}い{人|ひと}は{新聞|しんぶん}を{読|よ}まないらしい。",
+      "japanese": "きょうび⟦の→の：09472_no⟧{若|わか}い⟦{人|ひと}→人：00476_hito⟧⟦は→は：00079_ha⟧⟦{新聞|しんぶん}→新聞：01440_shinbun⟧⟦を→を：00422_wo⟧⟦{読|よ}まない→読む：00426_yomu⟧らしい。",
       "english": "Young people these days apparently don't read newspapers.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "10329_kyoubi_ex3",
-      "japanese": "きょうび、{現金|げんきん}しか{使|つか}えない{店|みせ}は{珍|めずら}しくなった。",
+      "japanese": "きょうび、⟦{現金|げんきん}→現金：02716_genkin⟧しか⟦{使|つか}えない→使う：00473_tsukau⟧⟦{店|みせ}→店：00497_mise⟧⟦は→は：00079_ha⟧⟦{珍|めずら}しく→珍しい：01200_mezurashii⟧⟦なった→なる：01970_naru⟧。",
       "english": "These days, shops that only accept cash have become rare.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "きょうび means 'these days' or 'nowadays,' often with a tone of mild complaint or commentary about how things have changed. Sometimes written in kanji as {今日|きょう}び.\n\nCOMMON PATTERNS:\n- きょうび〜ない: these days, nobody does ~\n- きょうびの〜: today's ~, ~ of these days\n- きょうび〜は{珍|めずら}しい: it's rare these days for ~\n\nSIMILAR WORDS:\n- {最近|さいきん}: recently, lately (neutral)\n- {近頃|ちかごろ}: recently, these days (slightly formal)\n- {今時|いまどき}: nowadays (also carries mild disapproval)\n- きょうび: nowadays (colloquial, slightly old-fashioned)\n\nREGISTER:\nMore conversational and somewhat old-fashioned. Commonly used by middle-aged and older speakers to comment on changing times.",
+  "notes": "きょうび means 'these days' or 'nowadays,' often with a tone of mild complaint or commentary about how things have changed. Sometimes written in kanji as {今日|きょう}び.\n\nCOMMON PATTERNS:\n- きょうび〜⟦ない→ない：01118_nai⟧: these days, nobody does ~\n- きょうび⟦の→の：09472_no⟧〜: today's ~, ~ of these days\n- きょうび〜⟦は→は：00079_ha⟧⟦{珍|めずら}しい→珍しい：01200_mezurashii⟧: it's rare these days for ~\n\nSIMILAR WORDS:\n- ⟦{最近|さいきん}→最近：00881_saikin⟧: recently, lately (neutral)\n- ⟦{近頃|ちかごろ}→近頃：00028_chikagoro⟧: recently, these days (slightly formal)\n- ⟦{今時|いまどき}→今時：10230_imadoki⟧: nowadays (also carries mild disapproval)\n- きょうび: nowadays (colloquial, slightly old-fashioned)\n\nREGISTER:\nMore conversational and somewhat old-fashioned. Commonly used by middle-aged and older speakers to comment on changing times.",
   "cross_references": [
     {
       "type": "contrast",
@@ -52,17 +52,32 @@
       "reading": "さいきん",
       "headword": "{最近|さいきん}",
       "label": "recently (neutral)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00028_chikagoro",
+      "reading": "ちかごろ",
+      "headword": "{近頃|ちかごろ}",
+      "label": "recently, these days"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10230_imadoki",
+      "reading": "いまどき",
+      "headword": "{今時|いまどき}",
+      "label": "nowadays"
     }
   ],
   "metadata": {
     "created": "2026-02-07T06:48:21Z",
-    "modified": "2026-04-24T06:24:12Z",
+    "modified": "2026-09-02T04:01:20Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "adverb"
       ],
       "formality": "informal",
+      "politeness": "plain",
       "style": [
         "spoken"
       ],

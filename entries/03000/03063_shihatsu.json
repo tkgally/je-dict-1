@@ -109,7 +109,7 @@
     },
     {
       "id": "03063_shihatsu_ex10",
-      "japanese": "{始発|しはつ}⟦{電車|でんしゃ}→電車：00522_densha⟧⟦は→は：00079_ha⟧⟦{満員|まんいん}→満員：07584_manin⟧ではない。",
+      "japanese": "{始発|しはつ}⟦{電車|でんしゃ}→電車：00522_densha⟧⟦は→は：00079_ha⟧⟦{満員|まんいん}→満員：07584_manin⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦ない→ない：01118_nai⟧。",
       "english": "The first train is not crowded.",
       "notes": null,
       "has_audio": false,
@@ -119,7 +119,7 @@
     },
     {
       "id": "03063_shihatsu_ex11",
-      "japanese": "⟦この→この：00962_kono⟧⟦{路線|ろせん}→路線：11341_rosen⟧⟦の→の：09472_no⟧{始発|しはつ}⟦{駅|えき}→駅：02180_eki⟧⟦は→は：00079_ha⟧⟦どこ→どこ：00539_doko⟧ですか。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{路線|ろせん}→路線：11341_rosen⟧⟦の→の：09472_no⟧{始発|しはつ}⟦{駅|えき}→駅：02180_eki⟧⟦は→は：00079_ha⟧⟦どこ→どこ：00539_doko⟧です⟦か→か：09473_ka⟧。",
       "english": "Where is the originating station for this line?",
       "notes": null,
       "has_audio": false,
@@ -128,7 +128,7 @@
       ]
     }
   ],
-  "notes": "{始発|しはつ} combines ⟦{始|し}→始める：00531_hajimeru⟧ (begin) + ⟦{発|はつ}→〜発：04026_hatsu⟧ (departure).\n\nCOMMON PATTERNS:\n- {始発|しはつ}⟦{電車|でんしゃ}→電車：00522_densha⟧/⟦バス→バス：00769_basu⟧ (first train/bus)\n- {始発|しはつ}⟦{駅|えき}→駅：02180_eki⟧ (originating station)\n- {始発|しはつ}⟦に→に：00314_ni⟧⟦{乗|の}る→乗る：00511_noru⟧ (to catch the first train)\n\nRELATED TERMS:\n- ⟦{終電|しゅうでん}→終電：05296_shuuden⟧ (last train) - antonym\n- ⟦{終発|しゅうはつ}→終発：22004_shuuhatsu⟧ (last departure)\n- ⟦{終点|しゅうてん}→終点：05457_shuuten⟧ (terminal station) - opposite of {始発|しはつ}⟦{駅|えき}→駅：02180_eki⟧\n\nUSAGE NOTES:\n- {始発|しはつ} alone often means \"first train\" in context\n- Useful word for commuters and travelers in Japan",
+  "notes": "{始発|しはつ} combines ⟦{始|し}→始める：00531_hajimeru⟧ (begin) + ⟦{発|はつ}→〜発：04026_hatsu⟧ (departure).\n\nCOMMON PATTERNS:\n- {始発|しはつ}⟦{電車|でんしゃ}→電車：00522_densha⟧/⟦バス→バス：00769_basu⟧ (first train/bus)\n- {始発|しはつ}⟦{駅|えき}→駅：02180_eki⟧ (originating station)\n- {始発|しはつ}⟦に→に：00314_ni⟧⟦{乗|の}る→乗る：00511_noru⟧ (to catch the first train)\n\nRELATED WORDS:\n- ⟦{終電|しゅうでん}→終電：05296_shuuden⟧ (last train) - antonym\n- ⟦{終発|しゅうはつ}→終発：22004_shuuhatsu⟧ (last departure)\n- ⟦{終点|しゅうてん}→終点：05457_shuuten⟧ (terminal station) - opposite of {始発|しはつ}⟦{駅|えき}→駅：02180_eki⟧\n\nUSAGE:\n- {始発|しはつ} alone often means \"first train\" in context\n- Useful word for commuters and travelers in Japan",
   "cross_references": [
     {
       "type": "antonym",
@@ -136,11 +136,25 @@
       "headword": "{終電|しゅうでん}",
       "label": "last train",
       "target_id": "05296_shuuden"
+    },
+    {
+      "type": "related",
+      "target_id": "22004_shuuhatsu",
+      "reading": "しゅうはつ",
+      "headword": "{終発|しゅうはつ}",
+      "label": "last departure"
+    },
+    {
+      "type": "antonym",
+      "target_id": "05457_shuuten",
+      "reading": "しゅうてん",
+      "headword": "{終点|しゅうてん}",
+      "label": "terminal station"
     }
   ],
   "metadata": {
     "created": "2026-01-11T11:14:00Z",
-    "modified": "2026-05-23T18:11:35Z",
+    "modified": "2026-09-02T04:01:02Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

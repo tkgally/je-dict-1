@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "26213_koujo_ex1",
-      "japanese": "{公女|こうじょ}は{城|しろ}で{育|そだ}った。",
+      "japanese": "{公女|こうじょ}⟦は→は：00079_ha⟧⟦{城|しろ}→城：03255_shiro⟧⟦で→で：00502_de⟧⟦{育|そだ}った→育つ：01951_sodatsu⟧。",
       "english": "The princess grew up in a castle.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26213_koujo_ex2",
-      "japanese": "{物語|ものがたり}の{主人公|しゅじんこう}は{ある}{国|くに}の{公女|こうじょ}だった。",
+      "japanese": "⟦{物語|ものがたり}→物語：03634_monogatari⟧⟦の→の：09472_no⟧⟦{主人公|しゅじんこう}→主人公：11404_shujinkou⟧⟦は→は：00079_ha⟧⟦ある→ある：00006_aru⟧⟦{国|くに}→国：02204_kuni⟧⟦の→の：09472_no⟧{公女|こうじょ}だった。",
       "english": "The protagonist of the story was a princess of a certain country.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26213_koujo_ex3",
-      "japanese": "{歴史小説|れきししょうせつ}では{公女|こうじょ}たちの{政略結婚|せいりゃくけっこん}がよく{描|えが}かれる。",
+      "japanese": "{歴史小説|れきししょうせつ}⟦で→で：00502_de⟧⟦は→は：00079_ha⟧{公女|こうじょ}たち⟦の→の：09472_no⟧{政略結婚|せいりゃくけっこん}⟦が→が：00051_ga⟧⟦よく→よく：00601_yoku⟧⟦{描|えが}かれる→描く：02013_egaku⟧。",
       "english": "In historical novels, political marriages of princesses are often depicted.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {公|こう} (duke, public, noble) and {女|じょ} (woman, daughter). Primarily used as a translation equivalent for European titles like \"princess\" or \"duke's daughter\" in historical and literary contexts. Not used for Japanese imperial princesses, who are called {皇女|こうじょ} (same pronunciation, different first kanji).\n\nSIMILAR WORDS:\n- {皇女|こうじょ} — imperial princess (daughter of an emperor; same reading, different kanji)\n- {王女|おうじょ} — princess (daughter of a king)\n- {姫|ひめ} — princess, young lady (broader, more common in daily speech and stories)\n- {令嬢|れいじょう} — young lady of good family (not specifically noble)\n\nCOMMON COLLOCATIONS:\n- {公女|こうじょ}の{身分|みぶん} — the status of a princess\n- {公女|こうじょ}として{育|そだ}つ — to be raised as a princess",
+  "notes": "Composed of {公|こう} (duke, public, noble) and {女|じょ} (woman, daughter). Primarily used as a translation equivalent for European titles like \"princess\" or \"duke's daughter\" in historical and literary contexts. Not used for Japanese imperial princesses, who are called ⟦{皇女|こうじょ}→皇女：24369_koujo⟧ (same pronunciation, different first kanji).\n\nSIMILAR WORDS:\n- ⟦{皇女|こうじょ}→皇女：24369_koujo⟧ — imperial princess (daughter of an emperor; same reading, different kanji)\n- ⟦{王女|おうじょ}→王女：04108_oujo⟧ — princess (daughter of a king)\n- ⟦{姫|ひめ}→姫：12233_hime⟧ — princess, young lady (broader, more common in daily speech and stories)\n- ⟦{令嬢|れいじょう}→令嬢：11609_reijou⟧ — young lady of good family (not specifically noble)\n\nCOMMON COLLOCATIONS:\n- {公女|こうじょ}⟦の→の：09472_no⟧⟦{身分|みぶん}→身分：00278_mibun⟧ — the status of a princess\n- {公女|こうじょ}⟦として→として：06802_toshite⟧⟦{育|そだ}つ→育つ：01951_sodatsu⟧ — to be raised as a princess",
   "cross_references": [
     {
       "type": "homophone",
@@ -46,16 +52,43 @@
       "target_id": "24369_koujo",
       "headword": "{皇女|こうじょ}",
       "label": "imperial princess"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04108_oujo",
+      "reading": "おうじょ",
+      "headword": "{王女|おうじょ}",
+      "label": "princess"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12233_hime",
+      "reading": "ひめ",
+      "headword": "{姫|ひめ}",
+      "label": "princess, young lady"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11609_reijou",
+      "reading": "れいじょう",
+      "headword": "{令嬢|れいじょう}",
+      "label": "young lady of good family"
     }
   ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["history", "society"]
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "history",
+        "society"
+      ]
     },
     "created": "2026-04-30T11:34:48Z",
-    "modified": "2026-04-30T11:34:48Z"
+    "modified": "2026-09-02T04:02:25Z"
   }
 }

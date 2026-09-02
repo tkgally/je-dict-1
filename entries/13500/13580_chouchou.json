@@ -15,41 +15,60 @@
   "examples": [
     {
       "id": "13580_chouchou_ex1",
-      "japanese": "{新|あたら}しい{町長|ちょうちょう}が{選|えら}ばれた。",
+      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧{町長|ちょうちょう}⟦が→が：00051_ga⟧⟦{選|えら}ばれた→選ぶ：00835_erabu⟧。",
       "english": "A new town mayor was elected.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13580_chouchou_ex2",
-      "japanese": "{町長|ちょうちょう}は{住民|じゅうみん}の{意見|いけん}を{聞|き}く{会|かい}を{開|ひら}いた。",
+      "japanese": "{町長|ちょうちょう}⟦は→は：00079_ha⟧⟦{住民|じゅうみん}→住民：03281_juumin⟧⟦の→の：09472_no⟧⟦{意見|いけん}→意見：01303_iken⟧⟦を→を：00422_wo⟧⟦{聞|き}く→聞く：00483_kiku⟧⟦{会|かい}→会：27493_kai⟧⟦を→を：00422_wo⟧⟦{開|ひら}いた→開く：01979_hiraku⟧。",
       "english": "The town mayor held a meeting to hear residents' opinions.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13580_chouchou_ex3",
-      "japanese": "{町長|ちょうちょう}{選挙|せんきょ}には{三|さん}{人|にん}の{候補者|こうほしゃ}が{立候補|りっこうほ}して、{激|はげ}しい{選挙|せんきょ}{戦|せん}になった。",
+      "japanese": "{町長|ちょうちょう}{選挙|せんきょ}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{三|さん}{人|にん}→三人：10978_sannin⟧⟦の→の：09472_no⟧⟦{候補者|こうほしゃ}→候補者：20439_kouhosha⟧⟦が→が：00051_ga⟧⟦{立候補|りっこうほ}→立候補：13778_rikkouho⟧⟦して→する：00392_suru⟧、⟦{激|はげ}しい→激しい：02348_hageshii⟧⟦{選挙|せんきょ}→選挙：03303_senkyo⟧⟦{戦|せん}→〜戦：28346_sen⟧になった。",
       "english": "Three candidates ran in the town mayoral election, and it became a fierce race.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nIn Japan's local government hierarchy, the heads of municipalities have different titles by classification: {市長|しちょう} (city mayor), {町長|ちょうちょう} (town mayor), and {村長|そんちょう} (village chief). A {町長|ちょうちょう} is directly elected by town residents for a four-year term.\n\nPRONUNCIATION NOTE:\nBoth syllables are ちょう, making this a repeated-mora word. Not to be confused with {蝶々|ちょうちょう} (butterfly) or {丁重|ていちょう} (polite).\n\nCOMMON COLLOCATIONS:\n- {町長|ちょうちょう}{選挙|せんきょ}: town mayoral election\n- {町長|ちょうちょう}に{就任|しゅうにん}する: take office as town mayor\n- {前|ぜん}{町長|ちょうちょう}: former town mayor",
-  "cross_references": [],
+  "notes": "USAGE:\nIn Japan's local government hierarchy, the heads of municipalities have different titles by classification: ⟦{市長|しちょう}→市長：12472_shichou⟧ (city mayor), {町長|ちょうちょう} (town mayor), and ⟦{村長|そんちょう}→村長：13091_sonchou⟧ (village chief). A {町長|ちょうちょう} is directly elected by town residents for a four-year term.\n\nPRONUNCIATION:\nBoth syllables are ちょう, making this a repeated-mora word. Not to be confused with {蝶々|ちょうちょう} (butterfly) or ⟦{丁重|ていちょう}→丁重：15777_teichou⟧ (polite).\n\nCOMMON COLLOCATIONS:\n- {町長|ちょうちょう}{選挙|せんきょ}: town mayoral election\n- {町長|ちょうちょう}⟦に→に：00314_ni⟧⟦{就任|しゅうにん}→就任：12368_shuunin⟧⟦する→する：00392_suru⟧: take office as town mayor\n- {前|ぜん}{町長|ちょうちょう}: former town mayor",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "03467_chiji",
+      "reading": "ちじ",
+      "headword": "{知事|ちじ}",
+      "label": "prefectural governor"
+    }
+  ],
   "metadata": {
     "created": "2026-02-26T09:45:17Z",
-    "modified": "2026-02-26T09:45:17Z",
+    "modified": "2026-09-02T04:01:33Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["occupation", "general"]
+      "semantic": [
+        "occupation",
+        "general"
+      ]
     }
   }
 }

@@ -24,7 +24,7 @@
     },
     {
       "id": "01758_wasuremono_ex2",
-      "japanese": "{忘|わす}れ{物|もの}⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧か⟦{確認|かくにん}してください→確認：00158_kakunin⟧。",
+      "japanese": "{忘|わす}れ{物|もの}⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧⟦か→か：09473_ka⟧⟦{確認|かくにん}してください→確認：00158_kakunin⟧。",
       "english": "Please check that you haven't forgotten anything.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "01758_wasuremono_ex3",
-      "japanese": "{忘|わす}れ{物|もの}センター⟦に→に：00314_ni⟧⟦{問|と}い{合|あ}わせてください→問い合わせる：17737_toiawaseru⟧。",
+      "japanese": "{忘|わす}れ{物|もの}⟦センター→センター：03854_sentaa⟧⟦に→に：00314_ni⟧⟦{問|と}い{合|あ}わせてください→問い合わせる：17737_toiawaseru⟧。",
       "english": "Please contact the lost and found center.",
       "notes": null,
       "has_audio": false,
@@ -58,11 +58,53 @@
       "reading": "おとしもの",
       "headword": "{落|お}とし{物|もの}",
       "label": "dropped item"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28874_nakushimono",
+      "reading": "なくしもの",
+      "headword": "{失|な}くし{物|もの}",
+      "label": "something lost"
+    },
+    {
+      "type": "related",
+      "target_id": "10195_amidana",
+      "reading": "あみだな",
+      "headword": "{網棚|あみだな}",
+      "label": "luggage rack, overhead rack"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15652_ishitsubutsu",
+      "reading": "いしつぶつ",
+      "headword": "{遺失物|いしつぶつ}",
+      "label": "lost property"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23031_usemono",
+      "reading": "うせもの",
+      "headword": "{失|う}せ{物|もの}",
+      "label": "lost article"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23045_shuutokubutsu",
+      "reading": "しゅうとくぶつ",
+      "headword": "{拾得物|しゅうとくぶつ}",
+      "label": "found property"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24102_funshitsubutsu",
+      "reading": "ふんしつぶつ",
+      "headword": "{紛失物|ふんしつぶつ}",
+      "label": "lost property"
     }
   ],
   "metadata": {
     "created": "2026-01-09T12:04:37Z",
-    "modified": "2026-08-08T09:25:02Z",
+    "modified": "2026-09-02T04:01:00Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

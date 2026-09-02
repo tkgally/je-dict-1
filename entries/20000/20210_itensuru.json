@@ -110,7 +110,7 @@
   "examples": [
     {
       "id": "20210_itensuru_ex1",
-      "japanese": "{会社|かいしゃ}が{移転|いてん}した。",
+      "japanese": "⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦が→が：00051_ga⟧{移転|いてん}した。",
       "english": "The company relocated.",
       "sense_numbers": [
         1
@@ -120,7 +120,7 @@
     },
     {
       "id": "20210_itensuru_ex2",
-      "japanese": "{来月|らいげつ}、オフィスが{駅前|えきまえ}に{移転|いてん}する。",
+      "japanese": "⟦{来月|らいげつ}→来月：00744_raigetsu⟧、⟦オフィス→オフィス：00327_ofisu⟧⟦が→が：00051_ga⟧⟦{駅前|えきまえ}→駅前：09593_ekimae⟧⟦に→に：00314_ni⟧{移転|いてん}する。",
       "english": "The office is relocating in front of the station next month.",
       "sense_numbers": [
         1
@@ -130,7 +130,7 @@
     },
     {
       "id": "20210_itensuru_ex3",
-      "japanese": "{老朽化|ろうきゅうか}した{工場|こうじょう}を{郊外|こうがい}の{新|あたら}しい{場所|ばしょ}に{移転|いてん}することが{決|き}まった。",
+      "japanese": "⟦{老朽化|ろうきゅうか}→老朽化：07646_roukyuuka⟧⟦した→する：00392_suru⟧⟦{工場|こうじょう}→工場：01082_koujou⟧⟦を→を：00422_wo⟧⟦{郊外|こうがい}→郊外：01403_kougai⟧⟦の→の：09472_no⟧⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦{場所|ばしょ}→場所：00829_basho⟧⟦に→に：00314_ni⟧{移転|いてん}すること⟦が→が：00051_ga⟧⟦{決|き}まった→決まる：01233_kimaru⟧。",
       "english": "It was decided to relocate the aging factory to a new location in the suburbs.",
       "sense_numbers": [
         1
@@ -140,7 +140,7 @@
     },
     {
       "id": "20210_itensuru_ex4",
-      "japanese": "{所有権|しょゆうけん}を{移転|いてん}する。",
+      "japanese": "⟦{所有権|しょゆうけん}→所有権：17082_shoyuuken⟧⟦を→を：00422_wo⟧{移転|いてん}する。",
       "english": "To transfer ownership.",
       "sense_numbers": [
         2
@@ -150,7 +150,7 @@
     },
     {
       "id": "20210_itensuru_ex5",
-      "japanese": "{不動産|ふどうさん}の{登記|とうき}を{移転|いてん}した。",
+      "japanese": "⟦{不動産|ふどうさん}→不動産：06726_fudousan⟧⟦の→の：09472_no⟧⟦{登記|とうき}→登記：19798_touki⟧⟦を→を：00422_wo⟧{移転|いてん}した。",
       "english": "I transferred the real estate registration.",
       "sense_numbers": [
         2
@@ -160,7 +160,7 @@
     },
     {
       "id": "20210_itensuru_ex6",
-      "japanese": "{相続|そうぞく}によって{土地|とち}の{所有権|しょゆうけん}が{子|こ}どもに{移転|いてん}された。",
+      "japanese": "⟦{相続|そうぞく}→相続：03690_souzoku⟧⟦によって→によって：06801_niyotte⟧⟦{土地|とち}→土地：02226_tochi⟧⟦の→の：09472_no⟧⟦{所有権|しょゆうけん}→所有権：17082_shoyuuken⟧⟦が→が：00051_ga⟧{子|こ}ども⟦に→に：00314_ni⟧{移転|いてん}された。",
       "english": "Ownership of the land was transferred to the children through inheritance.",
       "sense_numbers": [
         2
@@ -169,8 +169,31 @@
       "notes": null
     }
   ],
-  "notes": "Used for formal or official moves — businesses, offices, government agencies. Not typically used for individuals moving house (use {引|ひ}っ{越|こ}す instead). Also a key legal term for transfer of rights.\n\nCOMMON COLLOCATIONS:\n- {事務所|じむしょ}を{移転|いてん}する: to relocate an office\n- {本社|ほんしゃ}{移転|いてん}: headquarters relocation\n- {所有権|しょゆうけん}{移転|いてん}: transfer of ownership\n- {移転|いてん}{先|さき}: new location (after relocation)\n- {移転|いてん}{費用|ひよう}: relocation costs\n\nSIMILAR WORDS:\n- {引|ひ}っ{越|こ}す: to move (house) — for personal/household moves\n- {転居|てんきょ}する: to change residence — formal term for personal moves\n- {譲渡|じょうと}する: to transfer, to assign — specifically for rights or assets",
+  "notes": "Used for formal or official moves — businesses, offices, government agencies. Not typically used for individuals moving house (use ⟦{引|ひ}っ{越|こ}す→引っ越す：01171_hikkosu⟧ instead). Also a key legal term for transfer of rights.\n\nCOMMON COLLOCATIONS:\n- ⟦{事務所|じむしょ}→事務所：01032_jimusho⟧⟦を→を：00422_wo⟧{移転|いてん}する: to relocate an office\n- ⟦{本社|ほんしゃ}→本社：09565_honsha⟧⟦{移転|いてん}→移転：04000_iten⟧: headquarters relocation\n- ⟦{所有権|しょゆうけん}→所有権：17082_shoyuuken⟧⟦{移転|いてん}→移転：04000_iten⟧: transfer of ownership\n- ⟦{移転|いてん}→移転：04000_iten⟧⟦{先|さき}→先：02883_saki⟧: new location (after relocation)\n- ⟦{移転|いてん}→移転：04000_iten⟧⟦{費用|ひよう}→費用：03588_hiyou⟧: relocation costs\n\nSIMILAR WORDS:\n- ⟦{引|ひ}っ{越|こ}す→引っ越す：01171_hikkosu⟧: to move (house) — for personal/household moves\n- ⟦{転居|てんきょ}する→転居する：21604_tenkyosuru⟧: to change residence — formal term for personal moves\n- ⟦{譲渡|じょうと}→譲渡：15629_jouto⟧⟦する→する：00392_suru⟧: to transfer, to assign — specifically for rights or assets",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01171_hikkosu",
+      "reading": "ひっこす",
+      "headword": "{引|ひ}っ{越|こ}す",
+      "label": "to move"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21604_tenkyosuru",
+      "reading": "てんきょする",
+      "headword": "{転居|てんきょ}する",
+      "label": "to change residence"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15629_jouto",
+      "reading": "じょうと",
+      "headword": "{譲渡|じょうと}",
+      "label": "to transfer, to assign"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -187,6 +210,6 @@
       "verb_class": "suru"
     },
     "created": "2026-03-28T17:10:08Z",
-    "modified": "2026-03-28T17:10:08Z"
+    "modified": "2026-09-02T04:01:58Z"
   }
 }

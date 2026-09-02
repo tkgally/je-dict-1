@@ -3,7 +3,7 @@
   "id": "16567_oetsu",
   "headword": "{嗚咽|おえつ}",
   "reading": "おえつ",
-  "part_of_speech": "noun / verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "sobbing; choking with tears",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "16567_oetsu_ex1",
-      "japanese": "{彼女|かのじょ}は{嗚咽|おえつ}を{漏|も}らした。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧{嗚咽|おえつ}⟦を→を：00422_wo⟧⟦{漏|も}らした→漏らす：02436_morasu⟧。",
       "english": "She let out a sob.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "16567_oetsu_ex2",
-      "japanese": "{悲|かな}しみをこらえきれず、{嗚咽|おえつ}した。",
+      "japanese": "⟦{悲|かな}しみ→悲しみ：05404_kanashimi⟧⟦を→を：00422_wo⟧こらえきれず、{嗚咽|おえつ}⟦した→する：00392_suru⟧。",
       "english": "Unable to hold back the grief, I broke down sobbing.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "16567_oetsu_ex3",
-      "japanese": "{葬儀|そうぎ}{会場|かいじょう}には{嗚咽|おえつ}の{声|こえ}が{響|ひび}いていた。",
+      "japanese": "⟦{葬儀|そうぎ}→葬儀：15337_sougi⟧⟦{会場|かいじょう}→会場：01269_kaijou⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{嗚咽|おえつ}⟦の→の：09472_no⟧⟦{声|こえ}→声：02207_koe⟧⟦が→が：00051_ga⟧⟦{響|ひび}いていた→響く：00099_hibiku⟧。",
       "english": "The sound of sobbing echoed through the funeral hall.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA literary and somewhat formal word for intense crying. More commonly found in written Japanese — novels, news reports, and formal descriptions — than in everyday conversation. The physical image is of someone whose breath catches as they cry.\n\nCOMMON COLLOCATIONS:\n- {嗚咽|おえつ}する (to sob)\n- {嗚咽|おえつ}を{漏|も}らす (to let out a sob)\n- {嗚咽|おえつ}の{声|こえ} (the sound of sobbing)\n- {嗚咽|おえつ}を{堪|こら}える (to hold back sobs)\n\nSIMILAR WORDS:\n- すすり{泣|な}き: whimpering, quiet sobbing — softer and more subdued\n- {号泣|ごうきゅう}: wailing, crying loudly — louder and more dramatic than {嗚咽|おえつ}",
+  "notes": "USAGE:\nA literary and somewhat formal word for intense crying. More commonly found in written Japanese — novels, news reports, and formal descriptions — than in everyday conversation. The physical image is of someone whose breath catches as they cry.\n\nCOMMON COLLOCATIONS:\n- {嗚咽|おえつ}⟦する→する：00392_suru⟧ (to sob)\n- {嗚咽|おえつ}⟦を→を：00422_wo⟧⟦{漏|も}らす→漏らす：02436_morasu⟧ (to let out a sob)\n- {嗚咽|おえつ}⟦の→の：09472_no⟧⟦{声|こえ}→声：02207_koe⟧ (the sound of sobbing)\n- {嗚咽|おえつ}⟦を→を：00422_wo⟧⟦{堪|こら}える→堪える：08995_koraeru⟧ (to hold back sobs)\n\nSIMILAR WORDS:\n- すすり{泣|な}き: whimpering, quiet sobbing — softer and more subdued\n- ⟦{号泣|ごうきゅう}→号泣：15038_goukyuu⟧: wailing, crying loudly — louder and more dramatic than {嗚咽|おえつ}",
   "cross_references": [
     {
       "type": "synonym",
@@ -149,11 +149,18 @@
       "reading": "すすりなく",
       "headword": "すすり{泣|な}く",
       "label": "sobbing quietly (softer)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18377_goukyuusuru",
+      "reading": "ごうきゅうする",
+      "headword": "{号泣|ごうきゅう}する",
+      "label": "to wail"
     }
   ],
   "metadata": {
     "created": "2026-03-13T23:57:42Z",
-    "modified": "2026-05-05T04:05:07Z",
+    "modified": "2026-09-02T04:01:45Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

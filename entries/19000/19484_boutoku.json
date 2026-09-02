@@ -3,7 +3,7 @@
   "headword": "{冒涜|ぼうとく}",
   "reading": "ぼうとく",
   "romaji": "boutoku",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "blasphemy; profanation; desecration",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "19484_boutoku_ex1",
-      "japanese": "{神|かみ}への{冒涜|ぼうとく}だ。",
+      "japanese": "⟦{神|かみ}→神：02147_kami⟧⟦へ→へ：02473_he⟧⟦の→の：09472_no⟧{冒涜|ぼうとく}だ。",
       "english": "That is blasphemy against God.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "19484_boutoku_ex2",
-      "japanese": "{死者|ししゃ}を{冒涜|ぼうとく}するような{行為|こうい}は{許|ゆる}されない。",
+      "japanese": "⟦{死者|ししゃ}→死者：13225_shisha⟧⟦を→を：00422_wo⟧{冒涜|ぼうとく}⟦する→する：00392_suru⟧ような⟦{行為|こうい}→行為：10021_koui⟧⟦は→は：00079_ha⟧⟦{許|ゆる}されない→許す：02325_yurusu⟧。",
       "english": "Acts that desecrate the dead are unforgivable.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "19484_boutoku_ex3",
-      "japanese": "あの{発言|はつげん}は{芸術|げいじゅつ}に{対|たい}する{冒涜|ぼうとく}であり、{多|おお}くの{批判|ひはん}を{浴|あ}びた。",
+      "japanese": "⟦あの→あの：00915_ano⟧⟦{発言|はつげん}→発言：05099_hatsugen⟧⟦は→は：00079_ha⟧⟦{芸術|げいじゅつ}→芸術：02712_geijutsu⟧⟦に→に：00314_ni⟧⟦{対|たい}する→対する：02126_taisuru⟧{冒涜|ぼうとく}で⟦あり→ある：00006_aru⟧、{多|おお}く⟦の→の：09472_no⟧⟦{批判|ひはん}→批判：03580_hihan⟧⟦を→を：00422_wo⟧⟦{浴|あ}びた→浴びる：02844_abiru⟧。",
       "english": "That remark was a desecration of art and drew much criticism.",
       "sense_numbers": [
         1
@@ -134,8 +134,24 @@
       "notes": null
     }
   ],
-  "notes": "A strong, serious word expressing contempt or violation of something sacred or highly valued. While it can refer to religious blasphemy, in Japanese it is more broadly applied to any act that profanes or degrades something considered important — the memory of the dead, art, human dignity, or cherished traditions.\n\nCOMMON COLLOCATIONS:\n- {冒涜|ぼうとく}する — to blaspheme, to desecrate\n- {神|かみ}への{冒涜|ぼうとく} — blasphemy against God\n- {人権|じんけん}の{冒涜|ぼうとく} — an affront to human rights\n- {冒涜的|ぼうとくてき}な — blasphemous, sacrilegious\n\nSIMILAR WORDS:\n- {侮辱|ぶじょく} — insult, affront; directed at a person's dignity rather than something sacred\n- {不敬|ふけい} — disrespect, irreverence; showing lack of proper respect, lighter than {冒涜|ぼうとく}\n- {汚|けが}す — to defile, to pollute; a verb meaning to make something impure",
+  "notes": "A strong, serious word expressing contempt or violation of something sacred or highly valued. While it can refer to religious blasphemy, in Japanese it is more broadly applied to any act that profanes or degrades something considered important — the memory of the dead, art, human dignity, or cherished traditions.\n\nCOMMON COLLOCATIONS:\n- {冒涜|ぼうとく}⟦する→する：00392_suru⟧ — to blaspheme, to desecrate\n- ⟦{神|かみ}→神：02147_kami⟧⟦へ→へ：02473_he⟧⟦の→の：09472_no⟧{冒涜|ぼうとく} — blasphemy against God\n- ⟦{人権|じんけん}→人権：05416_jinken⟧⟦の→の：09472_no⟧{冒涜|ぼうとく} — an affront to human rights\n- ⟦{冒涜的|ぼうとくてき}→冒涜的：30315_boutokuteki⟧な — blasphemous, sacrilegious\n\nSIMILAR WORDS:\n- ⟦{侮辱|ぶじょく}→侮辱：11448_bujoku⟧ — insult, affront; directed at a person's dignity rather than something sacred\n- ⟦{不敬|ふけい}→不敬：19476_fukei⟧ — disrespect, irreverence; showing lack of proper respect, lighter than {冒涜|ぼうとく}\n- {汚|けが}す — to defile, to pollute; a verb meaning to make something impure",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11448_bujoku",
+      "reading": "ぶじょく",
+      "headword": "{侮辱|ぶじょく}",
+      "label": "insult, affront"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19476_fukei",
+      "reading": "ふけい",
+      "headword": "{不敬|ふけい}",
+      "label": "disrespect, irreverence"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -145,13 +161,16 @@
       ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["religion"],
+      "semantic": [
+        "religion"
+      ],
       "style": [
         "written"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-03-26T01:25:23Z",
-    "modified": "2026-07-26T21:32:58Z"
+    "modified": "2026-09-02T04:01:56Z"
   }
 }

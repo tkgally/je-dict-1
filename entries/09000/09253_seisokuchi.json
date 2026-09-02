@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "09253_seisokuchi_ex1",
-      "japanese": "{生息地|せいそくち}が{減少|げんしょう}している。",
+      "japanese": "{生息地|せいそくち}⟦が→が：00051_ga⟧⟦{減少|げんしょう}している→減少する：19026_genshousuru⟧。",
       "english": "The habitat is decreasing.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "09253_seisokuchi_ex2",
-      "japanese": "パンダの{生息地|せいそくち}を{守|まも}る。",
+      "japanese": "⟦パンダ→パンダ：11257_panda⟧⟦の→の：09472_no⟧{生息地|せいそくち}⟦を→を：00422_wo⟧⟦{守|まも}る→守る：01986_mamoru⟧。",
       "english": "To protect panda habitats.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "09253_seisokuchi_ex3",
-      "japanese": "{森林|しんりん}{伐採|ばっさい}によって{多|おお}くの{動物|どうぶつ}の{生息地|せいそくち}が{失|うしな}われた。",
+      "japanese": "⟦{森林|しんりん}{伐採|ばっさい}→森林伐採：09285_shinrinbassai⟧⟦によって→によって：06801_niyotte⟧{多|おお}く⟦の→の：09472_no⟧⟦{動物|どうぶつ}→動物：01480_doubutsu⟧⟦の→の：09472_no⟧{生息地|せいそくち}⟦が→が：00051_ga⟧⟦{失|うしな}われた→失う：01887_ushinau⟧。",
       "english": "Many animals lost their habitats due to deforestation.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{生息地|せいそくち} is primarily used for animals. For plants, {自生地|じせいち} (native habitat) is also used.\n\nWORD FORMATION:\n- {生息|せいそく} (inhabiting, living) + {地|ち} (place)\n\nRELATED WORDS:\n- {生息|せいそく}する: to inhabit, to live (animals)\n- {自生地|じせいち}: native habitat (plants)\n- {棲息|せいそく}: alternative writing, same meaning\n- {環境|かんきょう}: environment\n\nCOMMON COLLOCATIONS:\n- {生息地|せいそくち}の{保護|ほご}: habitat protection\n- {生息地|せいそくち}の{破壊|はかい}: habitat destruction\n- {生息地|せいそくち}が{脅|おびや}かされる: habitat is threatened",
+  "notes": "{生息地|せいそくち} is primarily used for animals. For plants, {自生地|じせいち} (native habitat) is also used.\n\nFORMS:\n- ⟦{生息|せいそく}→生息：13542_seisoku⟧ (inhabiting, living) + {地|ち} (place)\n\nRELATED WORDS:\n- ⟦{生息|せいそく}→生息：13542_seisoku⟧⟦する→する：00392_suru⟧: to inhabit, to live (animals)\n- {自生地|じせいち}: native habitat (plants)\n- {棲息|せいそく}: alternative writing, same meaning\n- ⟦{環境|かんきょう}→環境：00174_kankyou⟧: environment\n\nCOMMON COLLOCATIONS:\n- {生息地|せいそくち}⟦の→の：09472_no⟧⟦{保護|ほご}→保護：03625_hogo⟧: habitat protection\n- {生息地|せいそくち}⟦の→の：09472_no⟧⟦{破壊|はかい}→破壊：13678_hakai⟧: habitat destruction\n- {生息地|せいそくち}⟦が→が：00051_ga⟧⟦{脅|おびや}かされる→脅かす：13942_obiyakasu⟧: habitat is threatened",
   "cross_references": [
     {
       "type": "related",
@@ -58,11 +58,32 @@
       "reading": "わたりどり",
       "headword": "{渡|わた}り{鳥|どり}",
       "label": "migratory bird"
+    },
+    {
+      "type": "related",
+      "target_id": "13542_seisoku",
+      "reading": "せいそく",
+      "headword": "{生息|せいそく}",
+      "label": "to inhabit, to live"
+    },
+    {
+      "type": "related",
+      "target_id": "00174_kankyou",
+      "reading": "かんきょう",
+      "headword": "{環境|かんきょう}",
+      "label": "environment"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25478_sumika",
+      "reading": "すみか",
+      "headword": "{住処|すみか}",
+      "label": "dwelling"
     }
   ],
   "metadata": {
     "created": "2026-02-01T04:57:35Z",
-    "modified": "2026-08-12T21:25:53Z",
+    "modified": "2026-09-02T04:01:17Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

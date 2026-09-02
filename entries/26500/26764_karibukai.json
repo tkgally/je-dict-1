@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26764_karibukai_ex1",
-      "japanese": "カリブ{海|かい}は{美|うつく}しい。",
+      "japanese": "カリブ{海|かい}⟦は→は：00079_ha⟧⟦{美|うつく}しい→美しい：01121_utsukushii⟧。",
       "english": "The Caribbean Sea is beautiful.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26764_karibukai_ex2",
-      "japanese": "カリブ{海|かい}の{島々|しまじま}は{観光地|かんこうち}として{人気|にんき}がある。",
+      "japanese": "カリブ{海|かい}⟦の→の：09472_no⟧⟦{島々|しまじま}→島々：21165_shimajima⟧⟦は→は：00079_ha⟧⟦{観光地|かんこうち}→観光地：14163_kankouchi⟧⟦として→として：06802_toshite⟧⟦{人気|にんき}→人気：01488_ninki⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "The islands of the Caribbean Sea are popular tourist destinations.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26764_karibukai_ex3",
-      "japanese": "カリブ{海|かい}は{温|あたた}かい{海流|かいりゅう}に{恵|めぐ}まれ、{多様|たよう}なサンゴ{礁|しょう}が{広|ひろ}がっている。",
+      "japanese": "カリブ{海|かい}⟦は→は：00079_ha⟧⟦{温|あたた}かい→温かい：13395_atatakai⟧{海流|かいりゅう}⟦に→に：00314_ni⟧⟦{恵|めぐ}まれ→恵まれる：12619_megumareru⟧、⟦{多様|たよう}→多様：12180_tayou⟧なサンゴ⟦{礁|しょう}→礁：25212_shou⟧⟦が→が：00051_ga⟧⟦{広|ひろ}がっている→広がる：01980_hirogaru⟧。",
       "english": "The Caribbean Sea is blessed with warm currents, and diverse coral reefs spread throughout its waters.",
       "sense_numbers": [
         1
@@ -44,8 +44,16 @@
       "notes": null
     }
   ],
-  "notes": "Written with the katakana カリブ (from the English/Spanish \"Carib\") plus {海|かい} (sea). The name derives from the Carib people, the indigenous inhabitants of the region. Japanese media frequently references the Caribbean in the context of resort travel, cruise ships, and the popular film franchise.\n\nCOMMON COLLOCATIONS:\n- カリブ{海|かい}クルーズ: Caribbean cruise\n- カリブ{海|かい}の{島国|しまぐに}: Caribbean island nations\n- カリブ{海|かい}{沿岸|えんがん}: Caribbean coast\n\nSIMILAR WORDS:\n- カリブ{海域|かいいき}: Caribbean waters — emphasizes the maritime zone\n- {地中海|ちちゅうかい}: Mediterranean Sea — another enclosed sea with resort associations\n- {南太平洋|みなみたいへいよう}: South Pacific — another warm-water region popular for tourism",
-  "cross_references": [],
+  "notes": "Written with the katakana カリブ (from the English/Spanish \"Carib\") plus {海|かい} (sea). The name derives from the Carib people, the indigenous inhabitants of the region. Japanese media frequently references the Caribbean in the context of resort travel, cruise ships, and the popular film franchise.\n\nCOMMON COLLOCATIONS:\n- カリブ{海|かい}クルーズ: Caribbean cruise\n- カリブ{海|かい}⟦の→の：09472_no⟧⟦{島国|しまぐに}→島国：12339_shimaguni⟧: Caribbean island nations\n- カリブ{海|かい}⟦{沿岸|えんがん}→沿岸：13280_engan⟧: Caribbean coast\n\nSIMILAR WORDS:\n- カリブ⟦{海域|かいいき}→海域：26897_kaiiki⟧: Caribbean waters — emphasizes the maritime zone\n- ⟦{地中海|ちちゅうかい}→地中海：20770_chichuukai⟧: Mediterranean Sea — another enclosed sea with resort associations\n- {南太平洋|みなみたいへいよう}: South Pacific — another warm-water region popular for tourism",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20770_chichuukai",
+      "reading": "ちちゅうかい",
+      "headword": "{地中海|ちちゅうかい}",
+      "label": "Mediterranean Sea"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -61,6 +69,6 @@
       "domain": []
     },
     "created": "2026-05-04T16:21:04Z",
-    "modified": "2026-08-06T12:46:55Z"
+    "modified": "2026-09-02T04:02:27Z"
   }
 }

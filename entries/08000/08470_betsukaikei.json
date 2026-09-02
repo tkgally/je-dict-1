@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08470_betsukaikei_ex1",
-      "japanese": "{別会計|べつかいけい}でお{願|ねが}いします。",
+      "japanese": "{別会計|べつかいけい}⟦で→で：00502_de⟧お{願|ねが}いします。",
       "english": "Separate checks, please.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "08470_betsukaikei_ex2",
-      "japanese": "{今日|きょう}は{別会計|べつかいけい}にしよう。",
+      "japanese": "⟦{今日|きょう}→今日：00496_kyou⟧⟦は→は：00079_ha⟧{別会計|べつかいけい}⟦に→に：00314_ni⟧⟦しよう→する：00392_suru⟧。",
       "english": "Let's pay separately today.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "08470_betsukaikei_ex3",
-      "japanese": "このお{店|みせ}は{別会計|べつかいけい}ができません。",
+      "japanese": "⟦この→この：00962_kono⟧⟦お{店|みせ}→お店：21164_omise⟧⟦は→は：00079_ha⟧{別会計|べつかいけい}⟦が→が：00051_ga⟧⟦できません→できる：00557_dekiru⟧。",
       "english": "This restaurant doesn't allow separate checks.",
       "sense_numbers": [
         1
@@ -43,7 +43,23 @@
       "notes": null
     }
   ],
-  "notes": "COMPOUND:\n{別|べつ} (separate) + {会計|かいけい} (bill, check)\n\nRELATED PAYMENT EXPRESSIONS:\n- {割|わ}り{勘|かん} - splitting the bill evenly\n- {奢|おご}る / ご{馳走|ちそう}する - to treat someone\n- {自分|じぶん}{持|も}ち - paying for oneself\n- {別々|べつべつ}に{払|はら}う - to pay separately\n\nCULTURAL NOTE:\nIn Japan, asking for separate checks can sometimes be difficult at busy restaurants. The more common approach is for one person to pay and then settle up later, or to split evenly ({割|わ}り{勘|かん}).",
+  "notes": "COMPOUNDS:\n⟦{別|べつ}→別：01216_betsu⟧ (separate) + ⟦{会計|かいけい}→会計：02536_kaikei⟧ (bill, check)\n\nRELATED PAYMENT EXPRESSIONS:\n- ⟦{割|わ}り{勘|かん}→割り勘：08156_warikan⟧ - splitting the bill evenly\n- {奢|おご}る / ⟦ご{馳走|ちそう}→ご馳走：01336_gochisou⟧⟦する→する：00392_suru⟧ - to treat someone\n- ⟦{自分|じぶん}→自分：02887_jibun⟧{持|も}ち - paying for oneself\n- ⟦{別々|べつべつ}→別々：03972_betsubetsu⟧⟦に→に：00314_ni⟧⟦{払|はら}う→払う：00535_harau⟧ - to pay separately\n\nCULTURAL NOTE:\nIn Japan, asking for separate checks can sometimes be difficult at busy restaurants. The more common approach is for one person to pay and then settle up later, or to split evenly (⟦{割|わ}り{勘|かん}→割り勘：08156_warikan⟧).",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "08156_warikan",
+      "reading": "わりかん",
+      "headword": "{割|わ}り{勘|かん}",
+      "label": "splitting the bill evenly"
+    },
+    {
+      "type": "related",
+      "target_id": "01336_gochisou",
+      "reading": "ごちそう",
+      "headword": "ご馳走",
+      "label": "to treat someone"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -51,12 +67,13 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "money",
         "food"
       ]
     },
     "created": "2026-01-27T03:47:32Z",
-    "modified": "2026-06-22T12:50:00Z"
+    "modified": "2026-09-02T04:01:15Z"
   }
 }

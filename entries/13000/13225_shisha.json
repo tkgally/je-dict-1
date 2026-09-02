@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "13225_shisha_ex1",
-      "japanese": "{地震|じしん}で{多|おお}くの{死者|ししゃ}が{出|で}た。",
+      "japanese": "⟦{地震|じしん}→地震：01608_jishin⟧⟦で→で：00502_de⟧{多|おお}く⟦の→の：09472_no⟧{死者|ししゃ}⟦が→が：00051_ga⟧⟦{出|で}た→出る：00513_deru⟧。",
       "english": "The earthquake caused many fatalities.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "13225_shisha_ex2",
-      "japanese": "{死者|ししゃ}の{数|かず}は{百人|ひゃくにん}を{超|こ}えた。",
+      "japanese": "{死者|ししゃ}⟦の→の：09472_no⟧⟦{数|かず}→数：00204_kazu⟧⟦は→は：00079_ha⟧⟦{百人|ひゃくにん}→百人：10985_hyakunin⟧⟦を→を：00422_wo⟧⟦{超|こ}えた→超える：01942_koeru⟧。",
       "english": "The number of dead exceeded one hundred.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "13225_shisha_ex3",
-      "japanese": "{台風|たいふう}による{死者|ししゃ}と{行方|ゆくえ}{不明者|ふめいしゃ}の{捜索|そうさく}が{続|つづ}いている。",
+      "japanese": "⟦{台風|たいふう}→台風：01455_taifuu⟧⟦による→による：28349_niyoru⟧{死者|ししゃ}⟦と→と：00512_to⟧⟦{行方|ゆくえ}{不明者|ふめいしゃ}→行方不明者：28538_yukuefumeisha⟧⟦の→の：09472_no⟧⟦{捜索|そうさく}→捜索：19220_sousaku⟧⟦が→が：00051_ga⟧⟦{続|つづ}いている→続く：00903_tsuzuku⟧。",
       "english": "The search for fatalities and missing persons from the typhoon continues.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA formal term used primarily in news reporting and official contexts. The pattern {死者|ししゃ}が{出|で}る means 'there are fatalities' or 'people die (in a disaster etc.).' Often paired with {負傷者|ふしょうしゃ} (injured persons) or {行方|ゆくえ}{不明者|ふめいしゃ} (missing persons).\n\nCOMMON COLLOCATIONS:\n- {死者|ししゃ}が{出|で}る: fatalities occur\n- {死者|ししゃ}の{数|かず}: number of dead\n- {死者|ししゃ}を{悼|いた}む: to mourn the dead\n- {死者|ししゃ}と{負傷者|ふしょうしゃ}: the dead and injured",
+  "notes": "USAGE:\nA formal term used primarily in news reporting and official contexts. The pattern {死者|ししゃ}⟦が→が：00051_ga⟧⟦{出|で}る→出る：00513_deru⟧ means 'there are fatalities' or 'people die (in a disaster etc.).' Often paired with ⟦{負傷者|ふしょうしゃ}→負傷者：27169_fushousha⟧ (injured persons) or ⟦{行方|ゆくえ}{不明者|ふめいしゃ}→行方不明者：28538_yukuefumeisha⟧ (missing persons).\n\nCOMMON COLLOCATIONS:\n- {死者|ししゃ}⟦が→が：00051_ga⟧⟦{出|で}る→出る：00513_deru⟧: fatalities occur\n- {死者|ししゃ}⟦の→の：09472_no⟧⟦{数|かず}→数：00204_kazu⟧: number of dead\n- {死者|ししゃ}⟦を→を：00422_wo⟧⟦{悼|いた}む→悼む：12622_itamu⟧: to mourn the dead\n- {死者|ししゃ}⟦と→と：00512_to⟧⟦{負傷者|ふしょうしゃ}→負傷者：27169_fushousha⟧: the dead and injured",
   "cross_references": [
     {
       "type": "related",
@@ -52,11 +52,18 @@
       "headword": "{死因|しいん}",
       "label": "cause of death",
       "target_id": "13224_shiin"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27187_shishousha",
+      "reading": "ししょうしゃ",
+      "headword": "{死傷者|ししょうしゃ}",
+      "label": "casualties"
     }
   ],
   "metadata": {
     "created": "2026-02-24T06:41:18Z",
-    "modified": "2026-07-09T00:44:29Z",
+    "modified": "2026-09-02T04:01:32Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

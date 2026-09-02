@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24600_fuse_ex1",
-      "japanese": "お{坊|ぼう}さんに{布施|ふせ}を{渡|わた}す。",
+      "japanese": "お{坊|ぼう}さん⟦に→に：00314_ni⟧{布施|ふせ}⟦を→を：00422_wo⟧⟦{渡|わた}す→渡す：02442_watasu⟧。",
       "english": "Give alms to the monk.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24600_fuse_ex2",
-      "japanese": "{法事|ほうじ}の{際|さい}に{布施|ふせ}をいくら{包|つつ}むべきか{迷|まよ}った。",
+      "japanese": "⟦{法事|ほうじ}→法事：05634_houji⟧⟦の→の：09472_no⟧⟦{際|さい}→際：02819_sai⟧⟦に→に：00314_ni⟧{布施|ふせ}⟦を→を：00422_wo⟧いくら⟦{包|つつ}む→包む：01226_tsutsumu⟧べき⟦か→か：09473_ka⟧⟦{迷|まよ}った→迷う：02426_mayou⟧。",
       "english": "I was unsure how much to wrap as an offering for the memorial service.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24600_fuse_ex3",
-      "japanese": "{仏教|ぶっきょう}では、{布施|ふせ}は{修行|しゅぎょう}の{一|ひと}つとされ、{物|もの}だけでなく{心|こころ}や{言葉|ことば}で{施|ほどこ}すことも{含|ふく}まれる。",
+      "japanese": "⟦{仏教|ぶっきょう}→仏教：11428_bukkyou⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧、{布施|ふせ}⟦は→は：00079_ha⟧⟦{修行|しゅぎょう}→修行：05522_shugyou⟧⟦の→の：09472_no⟧⟦{一|ひと}つ→一つ：02948_hitotsu⟧⟦と→と：00512_to⟧⟦され→する：00392_suru⟧、⟦{物|もの}→物：02259_mono⟧⟦だけでなく→〜だけでなく：18373_dakedenaku⟧⟦{心|こころ}→心：01321_kokoro⟧や⟦{言葉|ことば}→言葉：02880_kotoba⟧⟦で→で：00502_de⟧⟦{施|ほどこ}す→施す：12985_hodokosu⟧こと⟦も→も：00484_mo⟧⟦{含|ふく}まれる→含む：01982_fukumu⟧。",
       "english": "In Buddhism, almsgiving is considered a form of spiritual practice, and it includes giving not only material things but also kindness and words of encouragement.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "A Buddhist term for charitable giving or almsgiving. In modern Japan, most commonly refers to the monetary offering given to Buddhist monks for conducting funeral services, memorial services, or other religious ceremonies. Often used with the honorific prefix as お{布施|ふせ}.\n\nCOMMON COLLOCATIONS:\n- お{布施|ふせ}: offering, donation (polite form — the standard in everyday usage)\n- {布施|ふせ}を{包|つつ}む: to wrap an offering (in an envelope)\n- {布施|ふせ}を{渡|わた}す: to hand over an offering\n- {布施|ふせ}の{相場|そうば}: the customary amount for an offering\n\nSIMILAR WORDS:\n- {寄付|きふ}: donation — secular charitable donation, not specifically religious\n- {お{賽銭|さいせん}}: monetary offering at a shrine — Shinto context, coins thrown into the offertory box\n- {供物|くもつ}: offering of food or goods — physical items placed on an altar\n\nCULTURAL NOTE:\nIn Buddhism, {布施|ふせ} is one of the six perfections ({六波羅蜜|ろくはらみつ}). Traditional categories include {財施|ざいせ} (material giving), {法施|ほうせ} (teaching the dharma), and {無畏施|むいせ} (giving freedom from fear).",
+  "notes": "A Buddhist term for charitable giving or almsgiving. In modern Japan, most commonly refers to the monetary offering given to Buddhist monks for conducting funeral services, memorial services, or other religious ceremonies. Often used with the honorific prefix as お{布施|ふせ}.\n\nCOMMON COLLOCATIONS:\n- お{布施|ふせ}: offering, donation (polite form — the standard in everyday usage)\n- {布施|ふせ}⟦を→を：00422_wo⟧⟦{包|つつ}む→包む：01226_tsutsumu⟧: to wrap an offering (in an envelope)\n- {布施|ふせ}⟦を→を：00422_wo⟧⟦{渡|わた}す→渡す：02442_watasu⟧: to hand over an offering\n- {布施|ふせ}⟦の→の：09472_no⟧⟦{相場|そうば}→相場：07668_souba⟧: the customary amount for an offering\n\nSIMILAR WORDS:\n- ⟦{寄付|きふ}→寄付：02584_kifu⟧: donation — secular charitable donation, not specifically religious\n- お⟦{賽銭|さいせん}→賽銭：05958_saisen⟧: monetary offering at a shrine — Shinto context, coins thrown into the offertory box\n- {供物|くもつ}: offering of food or goods — physical items placed on an altar\n\nCULTURAL NOTE:\nIn Buddhism, {布施|ふせ} is one of the six perfections ({六波羅蜜|ろくはらみつ}). Traditional categories include {財施|ざいせ} (material giving), {法施|ほうせ} (teaching the dharma), and {無畏施|むいせ} (giving freedom from fear).",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02584_kifu",
+      "reading": "きふ",
+      "headword": "{寄付|きふ}",
+      "label": "donation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22850_kishin",
+      "reading": "きしん",
+      "headword": "{寄進|きしん}",
+      "label": "donation (to a temple or shrine)"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -63,6 +79,6 @@
       ]
     },
     "created": "2026-04-19T16:28:32Z",
-    "modified": "2026-04-19T16:28:32Z"
+    "modified": "2026-09-02T04:02:18Z"
   }
 }

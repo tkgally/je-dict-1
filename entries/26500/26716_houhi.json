@@ -3,7 +3,7 @@
   "headword": "{放屁|ほうひ}",
   "reading": "ほうひ",
   "romaji": "houhi",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "flatulence; passing gas",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26716_houhi_ex1",
-      "japanese": "{放屁|ほうひ}は{自然|しぜん}な{生理現象|せいりげんしょう}です。",
+      "japanese": "{放屁|ほうひ}⟦は→は：00079_ha⟧⟦{自然|しぜん}→自然：01423_shizen⟧な{生理現象|せいりげんしょう}です。",
       "english": "Flatulence is a natural physiological phenomenon.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26716_houhi_ex2",
-      "japanese": "{手術|しゅじゅつ}{後|ご}、{放屁|ほうひ}があれば{腸|ちょう}が{動|うご}いている{証拠|しょうこ}だ。",
+      "japanese": "⟦{手術|しゅじゅつ}→手術：03218_shujutsu⟧⟦{後|ご}→後：30157_go⟧、{放屁|ほうひ}⟦が→が：00051_ga⟧⟦あれば→ある：00006_aru⟧⟦{腸|ちょう}→腸：19348_chou⟧⟦が→が：00051_ga⟧⟦{動|うご}いている→動く：00904_ugoku⟧⟦{証拠|しょうこ}→証拠：10575_shouko⟧だ。",
       "english": "After surgery, flatulence is evidence that the intestines are functioning.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26716_houhi_ex3",
-      "japanese": "{頻繁|ひんぱん}な{放屁|ほうひ}の{原因|げんいん}として、{食事|しょくじ}の{内容|ないよう}やストレスが{考|かんが}えられる。",
+      "japanese": "⟦{頻繁|ひんぱん}→頻繁：08631_hinpan⟧な{放屁|ほうひ}⟦の→の：09472_no⟧⟦{原因|げんいん}→原因：01400_genin⟧⟦として→として：06802_toshite⟧、⟦{食事|しょくじ}→食事：02087_shokuji⟧⟦の→の：09472_no⟧⟦{内容|ないよう}→内容：01482_naiyou⟧や⟦ストレス→ストレス：03827_sutoresu⟧⟦が→が：00051_ga⟧⟦{考|かんが}えられる→考える：00856_kangaeru⟧。",
       "english": "Diet and stress are considered possible causes of frequent flatulence.",
       "sense_numbers": [
         1
@@ -44,8 +44,23 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {放|ほう} (to release) and {屁|ひ} (gas/flatulence). This is the formal, medical, or literary term. In everyday conversation, おなら is overwhelmingly more common. {放屁|ほうひ} appears mainly in medical contexts, formal writing, or humorous elevated speech.\n\nCOMMON COLLOCATIONS:\n- {放屁|ほうひ}する: to pass gas (formal)\n- {頻繁|ひんぱん}な{放屁|ほうひ}: frequent flatulence\n- {放屁|ほうひ}の{回数|かいすう}: number of times passing gas\n\nSIMILAR WORDS:\n- おなら: fart — the standard everyday word\n- {屁|へ}: fart — informal, slightly vulgar\n- ガス: gas — euphemistic medical term (as in お{腹|なか}にガスが{溜|た}まる)",
-  "cross_references": [],
+  "notes": "Composed of {放|ほう} (to release) and {屁|ひ} (gas/flatulence). This is the formal, medical, or literary term. In everyday conversation, ⟦おなら→おなら：09085_onara⟧ is overwhelmingly more common. {放屁|ほうひ} appears mainly in medical contexts, formal writing, or humorous elevated speech.\n\nCOMMON COLLOCATIONS:\n- {放屁|ほうひ}⟦する→する：00392_suru⟧: to pass gas (formal)\n- ⟦{頻繁|ひんぱん}→頻繁：08631_hinpan⟧な{放屁|ほうひ}: frequent flatulence\n- {放屁|ほうひ}⟦の→の：09472_no⟧⟦{回数|かいすう}→回数：00139_kaisuu⟧: number of times passing gas\n\nSIMILAR WORDS:\n- ⟦おなら→おなら：09085_onara⟧: fart — the standard everyday word\n- {屁|へ}: fart — informal, slightly vulgar\n- ⟦ガス→ガス：01344_gasu⟧: gas — euphemistic medical term (as in ⟦お{腹|なか}→お腹：00805_onaka⟧⟦に→に：00314_ni⟧⟦ガス→ガス：01344_gasu⟧⟦が→が：00051_ga⟧⟦{溜|た}まる→溜まる：02067_tamaru⟧)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09085_onara",
+      "reading": "おなら",
+      "headword": "おなら",
+      "label": "fart"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01344_gasu",
+      "reading": "がす",
+      "headword": "ガス",
+      "label": "gas"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -54,6 +69,7 @@
         "noun",
         "verb-suru"
       ],
+      "politeness": "plain",
       "semantic": [
         "body-internal",
         "health"
@@ -61,7 +77,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-04T14:15:34Z",
-    "modified": "2026-08-06T12:44:19Z"
+    "modified": "2026-09-02T04:02:27Z"
   },
   "conjugation": {
     "type": "suru",

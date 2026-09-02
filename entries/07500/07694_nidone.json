@@ -2,7 +2,7 @@
   "id": "07694_nidone",
   "headword": "{二度寝|にどね}",
   "reading": "にどね",
-  "part_of_speech": "noun, suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "going back to sleep; sleeping again after waking",
   "conjugation": {
     "type": "suru",
@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "07694_nidone_ex1",
-      "japanese": "{二度寝|にどね}してしまった。",
+      "japanese": "{二度寝|にどね}⟦して→する：00392_suru⟧しまった。",
       "english": "I went back to sleep.",
       "has_audio": false,
       "sense_numbers": [
@@ -113,7 +113,7 @@
     },
     {
       "id": "07694_nidone_ex2",
-      "japanese": "{休日|きゅうじつ}の{二度寝|にどね}は{最高|さいこう}だ。",
+      "japanese": "⟦{休日|きゅうじつ}→休日：03028_kyuujitsu⟧⟦の→の：09472_no⟧{二度寝|にどね}⟦は→は：00079_ha⟧⟦{最高|さいこう}→最高：02637_saikou⟧だ。",
       "english": "Going back to sleep on holidays is the best.",
       "has_audio": false,
       "sense_numbers": [
@@ -122,7 +122,7 @@
     },
     {
       "id": "07694_nidone_ex3",
-      "japanese": "{二度寝|にどね}したせいで{遅刻|ちこく}した。",
+      "japanese": "{二度寝|にどね}⟦した→する：00392_suru⟧せい⟦で→で：00502_de⟧⟦{遅刻|ちこく}した→遅刻する：22282_chikokusuru⟧。",
       "english": "I was late because I went back to sleep.",
       "has_audio": false,
       "sense_numbers": [
@@ -130,7 +130,7 @@
       ]
     }
   ],
-  "notes": "ETYMOLOGY:\n{二度|にど} (twice, second time) + {寝|ね} (sleeping)\n\nUSAGE:\nOften associated with lazy weekend mornings or the temptation to sleep more after the alarm. Can have both positive connotations (comfort, relaxation) or negative ones (causing lateness).\n\nRELATED SLEEP VOCABULARY:\n・{寝不足|ねぶそく} - lack of sleep\n・{夜更|よふ}かし - staying up late\n・{寝坊|ねぼう} - oversleeping\n・うたた{寝|ね} - dozing off\n\nCOLLOCATIONS:\n・{二度寝|にどね}をする - to go back to sleep\n・{二度寝|にどね}の{誘惑|ゆうわく} - the temptation to go back to sleep",
+  "notes": "ETYMOLOGY:\n⟦{二度|にど}→二度：09503_nido⟧ (twice, second time) + {寝|ね} (sleeping)\n\nUSAGE:\nOften associated with lazy weekend mornings or the temptation to sleep more after the alarm. Can have both positive connotations (comfort, relaxation) or negative ones (causing lateness).\n\nRELATED SLEEP VOCABULARY:\n- ⟦{寝不足|ねぶそく}→寝不足：07692_nebusoku⟧ - lack of sleep\n- ⟦{夜更|よふ}かし→夜更かし：07693_yofukashi⟧ - staying up late\n- ⟦{寝坊|ねぼう}→寝坊：01692_nebou⟧ - oversleeping\n- ⟦うたた{寝|ね}→うたた寝：08036_utatane⟧ - dozing off\n\nCOMMON COLLOCATIONS:\n- {二度寝|にどね}⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧ - to go back to sleep\n- {二度寝|にどね}⟦の→の：09472_no⟧⟦{誘惑|ゆうわく}→誘惑：14209_yuuwaku⟧ - the temptation to go back to sleep",
   "cross_references": [
     {
       "type": "related",
@@ -138,11 +138,46 @@
       "reading": "ねぼうする",
       "headword": "{寝坊|ねぼう}する",
       "label": "to oversleep"
+    },
+    {
+      "type": "related",
+      "target_id": "07692_nebusoku",
+      "reading": "ねぶそく",
+      "headword": "{寝不足|ねぶそく}",
+      "label": "lack of sleep"
+    },
+    {
+      "type": "related",
+      "target_id": "07693_yofukashi",
+      "reading": "よふかし",
+      "headword": "{夜更|よふ}かし",
+      "label": "staying up late"
+    },
+    {
+      "type": "related",
+      "target_id": "01692_nebou",
+      "reading": "ねぼう",
+      "headword": "{寝坊|ねぼう}",
+      "label": "oversleeping"
+    },
+    {
+      "type": "related",
+      "target_id": "08036_utatane",
+      "reading": "うたたね",
+      "headword": "うたた{寝|ね}",
+      "label": "dozing off"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25448_sunuuzu",
+      "reading": "すぬーず",
+      "headword": "スヌーズ",
+      "label": "snooze (alarm function)"
     }
   ],
   "metadata": {
     "created": "2026-01-20T23:30:51Z",
-    "modified": "2026-06-19T21:43:28Z",
+    "modified": "2026-09-02T04:01:12Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -151,6 +186,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "daily-life"
       ],

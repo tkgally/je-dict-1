@@ -3,7 +3,7 @@
   "id": "14252_chouin",
   "headword": "{調印|ちょういん}",
   "reading": "ちょういん",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "signing (a treaty or agreement)",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "14252_chouin_ex1",
-      "japanese": "{条約|じょうやく}に{調印|ちょういん}する。",
+      "japanese": "⟦{条約|じょうやく}→条約：04912_jouyaku⟧⟦に→に：00314_ni⟧{調印|ちょういん}⟦する→する：00392_suru⟧。",
       "english": "To sign a treaty.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "14252_chouin_ex2",
-      "japanese": "{両国|りょうこく}は{平和|へいわ}{条約|じょうやく}に{調印|ちょういん}した。",
+      "japanese": "⟦{両国|りょうこく}→両国：10010_ryoukoku⟧⟦は→は：00079_ha⟧⟦{平和|へいわ}→平和：01507_heiwa⟧⟦{条約|じょうやく}→条約：04912_jouyaku⟧⟦に→に：00314_ni⟧{調印|ちょういん}⟦した→する：00392_suru⟧。",
       "english": "The two countries signed a peace treaty.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "14252_chouin_ex3",
-      "japanese": "{長|なが}い{交渉|こうしょう}の{末|すえ}、ようやく{貿易|ぼうえき}{協定|きょうてい}の{調印式|ちょういんしき}が{行|おこな}われた。",
+      "japanese": "⟦{長|なが}い→長い：00491_nagai⟧⟦{交渉|こうしょう}→交渉：02727_koushou⟧⟦の→の：09472_no⟧⟦{末|すえ}→末：03362_sue⟧、ようやく⟦{貿易|ぼうえき}→貿易：01727_boueki⟧⟦{協定|きょうてい}→協定：05320_kyoutei⟧⟦の→の：09472_no⟧{調印式|ちょういんしき}⟦が→が：00051_ga⟧⟦{行|おこな}われた→行う：01238_okonau⟧。",
       "english": "After long negotiations, the signing ceremony for the trade agreement was finally held.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "{調印|ちょういん} is a formal term for the signing of official documents, particularly treaties and international agreements. It is more formal and ceremonial than {署名|しょめい} (signature).\n\nCOMMON COLLOCATIONS:\n- {条約|じょうやく}に{調印|ちょういん}する (sign a treaty)\n- {調印式|ちょういんしき} (signing ceremony)\n- {調印|ちょういん}{国|こく} (signatory nation)\n\nSIMILAR WORDS:\n- {調印|ちょういん} vs {署名|しょめい}: {調印|ちょういん} refers specifically to the formal signing of treaties and official agreements, while {署名|しょめい} is a more general term for signing one's name on any document.",
+  "notes": "{調印|ちょういん} is a formal term for the signing of official documents, particularly treaties and international agreements. It is more formal and ceremonial than ⟦{署名|しょめい}→署名：03682_shomei⟧ (signature).\n\nCOMMON COLLOCATIONS:\n- ⟦{条約|じょうやく}→条約：04912_jouyaku⟧⟦に→に：00314_ni⟧{調印|ちょういん}⟦する→する：00392_suru⟧ (sign a treaty)\n- {調印式|ちょういんしき} (signing ceremony)\n- {調印|ちょういん}{国|こく} (signatory nation)\n\nSIMILAR WORDS:\n- {調印|ちょういん} vs ⟦{署名|しょめい}→署名：03682_shomei⟧: {調印|ちょういん} refers specifically to the formal signing of treaties and official agreements, while ⟦{署名|しょめい}→署名：03682_shomei⟧ is a more general term for signing one's name on any document.",
   "cross_references": [
     {
       "type": "contrast",
@@ -142,11 +142,25 @@
       "reading": "しょめい",
       "headword": "{署名|しょめい}",
       "label": "signature (general)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13870_teiketsu",
+      "reading": "ていけつ",
+      "headword": "{締結|ていけつ}",
+      "label": "conclusion, signing (of a treaty or agreement)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22432_shomeisuru",
+      "reading": "しょめいする",
+      "headword": "{署名|しょめい}する",
+      "label": "to sign"
     }
   ],
   "metadata": {
     "created": "2026-02-28T07:56:59Z",
-    "modified": "2026-04-30T06:34:37Z",
+    "modified": "2026-09-02T04:01:36Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

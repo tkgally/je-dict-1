@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08718_kentouchuu_ex1",
-      "japanese": "その{提案|ていあん}は{検討中|けんとうちゅう}です。",
+      "japanese": "⟦その→その：00993_sono⟧⟦{提案|ていあん}→提案：03536_teian⟧⟦は→は：00079_ha⟧{検討中|けんとうちゅう}です。",
       "english": "That proposal is under consideration.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "08718_kentouchuu_ex2",
-      "japanese": "{転職|てんしょく}するかどうか{検討中|けんとうちゅう}だ。",
+      "japanese": "⟦{転職|てんしょく}→転職：04557_tenshoku⟧⟦する→する：00392_suru⟧⟦かどうか→かどうか：28299_kadouka⟧{検討中|けんとうちゅう}だ。",
       "english": "I'm considering whether or not to change jobs.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "08718_kentouchuu_ex3",
-      "japanese": "{新|あたら}しいサービスの{導入|どうにゅう}を{検討中|けんとうちゅう}である。",
+      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦サービス→サービス：01531_saabisu⟧⟦の→の：09472_no⟧⟦{導入|どうにゅう}→導入：10127_dounyuu⟧⟦を→を：00422_wo⟧{検討中|けんとうちゅう}⟦である→である：09855_dearu⟧。",
       "english": "We are considering introducing a new service.",
       "sense_numbers": [
         1
@@ -43,7 +43,23 @@
       "notes": null
     }
   ],
-  "notes": "COMPOUND:\n{検討|けんとう} (examination/consideration) + {中|ちゅう} (in the middle of)\n\nUSAGE:\n- {検討中|けんとうちゅう}です/である - is under consideration (formal)\n- {検討中|けんとうちゅう}だ - is being considered (neutral)\n- ただいま{検討中|けんとうちゅう}です - currently under consideration\n\nBUSINESS CONTEXT:\nCommonly used in business settings to indicate that a decision hasn't been made yet. Often used diplomatically to avoid giving a direct \"no.\"\n\nSIMILAR ～{中|ちゅう} COMPOUNDS:\n- {準備中|じゅんびちゅう} - in preparation\n- {審査中|しんさちゅう} - under review\n- {調整中|ちょうせいちゅう} - being adjusted/coordinated\n- {工事中|こうじちゅう} - under construction",
+  "notes": "COMPOUNDS:\n⟦{検討|けんとう}→検討：02710_kentou⟧ (examination/consideration) + ⟦{中|ちゅう}→〜中：09840_chuu⟧ (in the middle of)\n\nUSAGE:\n- {検討中|けんとうちゅう}です/⟦である→である：09855_dearu⟧ - is under consideration (formal)\n- {検討中|けんとうちゅう}だ - is being considered (neutral)\n- ⟦ただいま→ただいま：01062_tadaima⟧{検討中|けんとうちゅう}です - currently under consideration\n\nBUSINESS CONTEXT:\nCommonly used in business settings to indicate that a decision hasn't been made yet. Often used diplomatically to avoid giving a direct \"no.\"\n\nSIMILAR ～{中|ちゅう} COMPOUNDS:\n- ⟦{準備中|じゅんびちゅう}→準備中：09540_junbichuu⟧ - in preparation\n- {審査中|しんさちゅう} - under review\n- {調整中|ちょうせいちゅう} - being adjusted/coordinated\n- ⟦{工事中|こうじちゅう}→工事中：09625_koujichuu⟧ - under construction",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14985_mitei",
+      "reading": "みてい",
+      "headword": "{未定|みてい}",
+      "label": "undecided"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26251_horyuuchuu",
+      "reading": "ほりゅうちゅう",
+      "headword": "{保留中|ほりゅうちゅう}",
+      "label": "on hold"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -51,12 +67,13 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "business",
         "cognition"
       ]
     },
     "created": "2026-01-28T02:55:04Z",
-    "modified": "2026-08-12T12:51:44Z"
+    "modified": "2026-09-02T04:01:16Z"
   }
 }

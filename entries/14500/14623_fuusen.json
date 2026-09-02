@@ -15,41 +15,59 @@
   "examples": [
     {
       "id": "14623_fuusen_ex1",
-      "japanese": "{子|こ}どもが{風船|ふうせん}を{膨|ふく}らませている。",
+      "japanese": "{子|こ}ども⟦が→が：00051_ga⟧{風船|ふうせん}⟦を→を：00422_wo⟧⟦{膨|ふく}らませている→膨らむ：05342_fukuramu⟧。",
       "english": "A child is blowing up a balloon.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14623_fuusen_ex2",
-      "japanese": "{風船|ふうせん}が{風|かぜ}に{飛|と}ばされて{空|そら}に{消|き}えた。",
+      "japanese": "{風船|ふうせん}⟦が→が：00051_ga⟧⟦{風|かぜ}→風：00641_kaze⟧⟦に→に：00314_ni⟧⟦{飛|と}ばされて→飛ばす：02373_tobasu⟧⟦{空|そら}→空：02216_sora⟧⟦に→に：00314_ni⟧⟦{消|き}えた→消える：02520_kieru⟧。",
       "english": "The balloon was carried away by the wind and disappeared into the sky.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14623_fuusen_ex3",
-      "japanese": "{誕生日|たんじょうび}パーティーの{会場|かいじょう}を{色|いろ}とりどりの{風船|ふうせん}で{飾|かざ}り{付|つ}けた。",
+      "japanese": "⟦{誕生日|たんじょうび}→誕生日：02910_tanjoubi⟧⟦パーティー→パーティー：02946_paatii⟧⟦の→の：09472_no⟧⟦{会場|かいじょう}→会場：01269_kaijou⟧⟦を→を：00422_wo⟧⟦{色|いろ}とりどり→色とりどり：10404_irotoridori⟧⟦の→の：09472_no⟧{風船|ふうせん}⟦で→で：00502_de⟧{飾|かざ}り{付|つ}けた。",
       "english": "We decorated the birthday party venue with colorful balloons.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\n{風船|ふうせん} literally means \"wind ship\" from the characters {風|かぜ} (wind) and {船|ふね} (ship). In modern usage, it almost always refers to toy or decorative balloons. For hot air balloons used for flight, {気球|ききゅう} is preferred.\n\nCOMMON COLLOCATIONS:\n- {風船|ふうせん}を{膨|ふく}らませる (to inflate a balloon)\n- {風船|ふうせん}が{割|わ}れる (a balloon pops)\n- {風船|ふうせん}を{飛|と}ばす (to release a balloon into the air)\n- ヘリウム{風船|ふうせん} (helium balloon)\n- {水|みず}{風船|ふうせん} (water balloon)\n\nSIMILAR WORDS:\n- {風船|ふうせん}: balloon (toy or decorative)\n- {気球|ききゅう}: hot air balloon; balloon (for flight)\n- バルーン: balloon (English loanword, used for decorative/event balloons)",
-  "cross_references": [],
+  "notes": "USAGE:\n{風船|ふうせん} literally means \"wind ship\" from the characters ⟦{風|かぜ}→風：00641_kaze⟧ (wind) and ⟦{船|ふね}→船：00775_fune⟧ (ship). In modern usage, it almost always refers to toy or decorative balloons. For hot air balloons used for flight, ⟦{気球|ききゅう}→気球：25477_kikyuu⟧ is preferred.\n\nCOMMON COLLOCATIONS:\n- {風船|ふうせん}⟦を→を：00422_wo⟧⟦{膨|ふく}らませる→膨らむ：05342_fukuramu⟧ (to inflate a balloon)\n- {風船|ふうせん}⟦が→が：00051_ga⟧⟦{割|わ}れる→割れる：00907_wareru⟧ (a balloon pops)\n- {風船|ふうせん}⟦を→を：00422_wo⟧⟦{飛|と}ばす→飛ばす：02373_tobasu⟧ (to release a balloon into the air)\n- ヘリウム{風船|ふうせん} (helium balloon)\n- ⟦{水|みず}→水：02258_mizu⟧{風船|ふうせん} (water balloon)\n\nSIMILAR WORDS:\n- {風船|ふうせん}: balloon (toy or decorative)\n- ⟦{気球|ききゅう}→気球：25477_kikyuu⟧: hot air balloon; balloon (for flight)\n- バルーン: balloon (English loanword, used for decorative/event balloons)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25477_kikyuu",
+      "reading": "ききゅう",
+      "headword": "{気球|ききゅう}",
+      "label": "hot air balloon"
+    }
+  ],
   "metadata": {
     "created": "2026-03-02T08:34:02Z",
-    "modified": "2026-03-02T08:34:02Z",
+    "modified": "2026-09-02T04:01:38Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

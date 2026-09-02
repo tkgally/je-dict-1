@@ -3,7 +3,7 @@
   "headword": "{夢想的|むそうてき}",
   "reading": "むそうてき",
   "romaji": "musouteki",
-  "part_of_speech": "adjective-na",
+  "part_of_speech": "na-adjective",
   "gloss": "dreamy; visionary; fanciful",
   "definitions": [
     {
@@ -15,41 +15,67 @@
   "examples": [
     {
       "id": "28242_musouteki_ex1",
-      "japanese": "{夢想的|むそうてき}な{考|かんが}えだ。",
+      "japanese": "{夢想的|むそうてき}な⟦{考|かんが}え→考え：00855_kangae⟧だ。",
       "english": "It's a fanciful idea.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28242_musouteki_ex2",
-      "japanese": "{彼|かれ}は{夢想的|むそうてき}な{性格|せいかく}だ。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{夢想的|むそうてき}な⟦{性格|せいかく}→性格：03371_seikaku⟧だ。",
       "english": "He has a dreamy disposition.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28242_musouteki_ex3",
-      "japanese": "その{計画|けいかく}は{夢想的|むそうてき}すぎて、{実現|じつげん}は{難|むずか}しいだろう。",
+      "japanese": "⟦その→その：00993_sono⟧⟦{計画|けいかく}→計画：01172_keikaku⟧⟦は→は：00079_ha⟧{夢想的|むそうてき}すぎて、⟦{実現|じつげん}→実現：03276_jitsugen⟧⟦は→は：00079_ha⟧⟦{難|むずか}しい→難しい：00517_muzukashii⟧だろう。",
       "english": "That plan is too visionary; realizing it will likely be difficult.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A な-adjective composed of {夢想|むそう} (reverie, daydream) + {的|てき} (the suffix forming \"-like\" adjectives).\n\nCONJUGATION:\n- Negative: {夢想的|むそうてき}ではない\n- Te-form: {夢想的|むそうてき}で\n- Past: {夢想的|むそうてき}だった\n\nUSAGE PATTERN: Used both as a modifier ({夢想的|むそうてき}な{計画|けいかく}) and as a predicate ({考|かんが}えが{夢想的|むそうてき}だ).\n\nSIMILAR WORDS:\n- {空想的|くうそうてき}: fanciful — near-synonym, emphasizing imaginative fiction\n- {現実的|げんじつてき}: realistic — antonym",
+  "notes": "A な-adjective composed of ⟦{夢想|むそう}→夢想：21442_musou⟧ (reverie, daydream) + ⟦{的|てき}→〜的：09839_teki⟧ (the suffix forming \"-like\" adjectives).\n\nCONJUGATION:\n- Negative: {夢想的|むそうてき}で⟦は→は：00079_ha⟧⟦ない→ない：01118_nai⟧\n- Te-form: {夢想的|むそうてき}で\n- Past: {夢想的|むそうてき}だった\n\nUSAGE PATTERN: Used both as a modifier ({夢想的|むそうてき}な⟦{計画|けいかく}→計画：01172_keikaku⟧) and as a predicate (⟦{考|かんが}え→考え：00855_kangae⟧⟦が→が：00051_ga⟧{夢想的|むそうてき}だ).\n\nSIMILAR WORDS:\n- ⟦{空想的|くうそうてき}→空想的：25937_kuusouteki⟧: fanciful — near-synonym, emphasizing imaginative fiction\n- ⟦{現実的|げんじつてき}→現実的：04794_genjitsuteki⟧: realistic — antonym",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25937_kuusouteki",
+      "reading": "くうそうてき",
+      "headword": "{空想的|くうそうてき}",
+      "label": "fanciful"
+    },
+    {
+      "type": "antonym",
+      "target_id": "04794_genjitsuteki",
+      "reading": "げんじつてき",
+      "headword": "{現実的|げんじつてき}",
+      "label": "realistic"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-na"],
+      "pos": [
+        "adjective-na"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["descriptive"],
+      "semantic": [
+        "descriptive"
+      ],
       "domain": []
     },
     "created": "2026-05-27T04:08:18Z",
-    "modified": "2026-05-27T04:08:18Z"
+    "modified": "2026-09-02T04:02:33Z"
   }
 }

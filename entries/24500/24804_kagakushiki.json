@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24804_kagakushiki_ex1",
-      "japanese": "{水|みず}の{化学式|かがくしき}はH2Oだ。",
+      "japanese": "⟦{水|みず}→水：02258_mizu⟧⟦の→の：09472_no⟧{化学式|かがくしき}⟦は→は：00079_ha⟧H2Oだ。",
       "english": "The chemical formula for water is H₂O.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24804_kagakushiki_ex2",
-      "japanese": "{化学式|かがくしき}を{覚|おぼ}えるのが{苦手|にがて}だ。",
+      "japanese": "{化学式|かがくしき}⟦を→を：00422_wo⟧⟦{覚|おぼ}える→覚える：00739_oboeru⟧⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦{苦手|にがて}→苦手：03513_nigate⟧だ。",
       "english": "I'm bad at memorizing chemical formulas.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24804_kagakushiki_ex3",
-      "japanese": "{中学|ちゅうがく}の{理科|りか}で{初|はじ}めて{化学式|かがくしき}の{書|か}き{方|かた}を{習|なら}った。",
+      "japanese": "⟦{中学|ちゅうがく}→中学：03477_chuugaku⟧⟦の→の：09472_no⟧⟦{理科|りか}→理科：03994_rika⟧⟦で→で：00502_de⟧⟦{初|はじ}めて→初めて：02932_hajimete⟧{化学式|かがくしき}⟦の→の：09472_no⟧⟦{書|か}き{方|かた}→書き方：13054_kakikata⟧⟦を→を：00422_wo⟧⟦{習|なら}った→習う：00479_narau⟧。",
       "english": "I first learned how to write chemical formulas in middle school science class.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {化学|かがく} (chemistry) and {式|しき} (formula/expression). One of the foundational terms in Japanese science education, introduced in middle school ({中学校|ちゅうがっこう}).\n\nCOMMON COLLOCATIONS:\n- {化学式|かがくしき}を{書|か}く — to write a chemical formula\n- {化学式|かがくしき}で{表|あらわ}す — to express in chemical formula\n- {分子式|ぶんしし} — molecular formula\n- {構造式|こうぞうしき} — structural formula\n\nRELATED TERMS:\n- {化学|かがく}{反応式|はんのうしき} — chemical reaction equation\n- {元素|げんそ}{記号|きごう} — element symbol\n- {化学|かがく}{方程式|ほうていしき} — chemical equation",
+  "notes": "A compound of ⟦{化学|かがく}→化学：05336_kagaku_chem⟧ (chemistry) and {式|しき} (formula/expression). One of the foundational terms in Japanese science education, introduced in middle school (⟦{中学校|ちゅうがっこう}→中学校：01465_chuugakkou⟧).\n\nCOMMON COLLOCATIONS:\n- {化学式|かがくしき}⟦を→を：00422_wo⟧⟦{書|か}く→書く：00477_kaku⟧ — to write a chemical formula\n- {化学式|かがくしき}⟦で→で：00502_de⟧⟦{表|あらわ}す→表す：01868_arawasu⟧ — to express in chemical formula\n- {分子式|ぶんしし} — molecular formula\n- {構造式|こうぞうしき} — structural formula\n\nRELATED WORDS:\n- ⟦{化学|かがく}→化学：05336_kagaku_chem⟧{反応式|はんのうしき} — chemical reaction equation\n- ⟦{元素|げんそ}→元素：09662_genso⟧⟦{記号|きごう}→記号：00224_kigou⟧ — element symbol\n- ⟦{化学|かがく}→化学：05336_kagaku_chem⟧⟦{方程式|ほうていしき}→方程式：04795_houteishiki⟧ — chemical equation",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -52,6 +52,8 @@
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "science",
         "education"
@@ -59,6 +61,6 @@
       "usage": []
     },
     "created": "2026-04-20T16:24:09Z",
-    "modified": "2026-04-20T16:24:09Z"
+    "modified": "2026-09-02T04:02:19Z"
   }
 }

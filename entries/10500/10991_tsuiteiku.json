@@ -2,7 +2,7 @@
   "id": "10991_tsuiteiku",
   "headword": "ついていく",
   "reading": "ついていく",
-  "part_of_speech": "godan verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to follow; to keep up with",
   "conjugation": {
     "type": "godan",
@@ -110,7 +110,7 @@
   "examples": [
     {
       "id": "10991_tsuiteiku_ex1",
-      "japanese": "{私|わたし}についてきてください。",
+      "japanese": "⟦{私|わたし}→私：02988_watashi⟧⟦について→〜について：03103_nitsuite⟧きて⟦ください→ください：02899_kudasai⟧。",
       "english": "Please follow me.",
       "notes": null,
       "has_audio": false,
@@ -120,7 +120,7 @@
     },
     {
       "id": "10991_tsuiteiku_ex2",
-      "japanese": "{犬|いぬ}が{飼|か}い{主|ぬし}についていった。",
+      "japanese": "⟦{犬|いぬ}→犬：00632_inu⟧⟦が→が：00051_ga⟧⟦{飼|か}い{主|ぬし}→飼い主：15281_kainushi⟧⟦について→〜について：03103_nitsuite⟧いった。",
       "english": "The dog followed its owner.",
       "notes": null,
       "has_audio": false,
@@ -130,7 +130,7 @@
     },
     {
       "id": "10991_tsuiteiku_ex3",
-      "japanese": "{授業|じゅぎょう}についていけない。",
+      "japanese": "⟦{授業|じゅぎょう}→授業：00781_jugyou⟧⟦について→〜について：03103_nitsuite⟧いけない。",
       "english": "I can't keep up with the class.",
       "notes": null,
       "has_audio": false,
@@ -140,7 +140,7 @@
     },
     {
       "id": "10991_tsuiteiku_ex4",
-      "japanese": "みんなの{話|はなし}が{速|はや}くてついていけなかった。",
+      "japanese": "⟦みんな→みんな：02972_minna⟧⟦の→の：09472_no⟧⟦{話|はなし}→話：01496_hanashi⟧⟦が→が：00051_ga⟧⟦{速|はや}くて→速い：00514_hayai⟧ついていけなかった。",
       "english": "Everyone was talking so fast that I couldn't keep up.",
       "notes": null,
       "has_audio": false,
@@ -150,7 +150,7 @@
     },
     {
       "id": "10991_tsuiteiku_ex5",
-      "japanese": "{彼|かれ}の{歩|ある}くスピードが{速|はや}くて、ついていくのが{大変|たいへん}だった。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧⟦{歩|ある}く→歩く：00538_aruku⟧⟦スピード→スピード：11048_supiido⟧⟦が→が：00051_ga⟧⟦{速|はや}くて→速い：00514_hayai⟧、ついていく⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦{大変|たいへん}→大変：00594_taihen⟧だった。",
       "english": "He walked so fast that it was hard to keep up with him.",
       "notes": null,
       "has_audio": false,
@@ -159,11 +159,19 @@
       ]
     }
   ],
-  "notes": "ついていく is a compound verb from {付|つ}く (to attach/follow) + {行|い}く (to go).\n\nTRANSITIVITY:\n- Intransitive ({自動詞|じどうし})\n- Pattern: [person]に ついていく\n\nASPECT (ている):\n- ついていっている: in the process of following\n\nCOMMON PATTERNS:\n- ～についていく: to follow someone\n- ～についていける: can keep up with\n- ～についていけない: can't keep up with (very common)\n\nSIMILAR WORDS:\n- ついていく vs. ついてくる: ついていく means to follow (going away); ついてくる means to follow (coming toward the speaker).\n- ついていく vs. {従|したが}う: {従|したが}う means to obey or comply; ついていく is physical or metaphorical following.",
-  "cross_references": [],
+  "notes": "ついていく is a compound verb from ⟦{付|つ}く→付く：01960_tsuku⟧ (to attach/follow) + ⟦{行|い}く→行く：00119_iku⟧ (to go).\n\nTRANSITIVITY:\n- Intransitive (⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧)\n- Pattern: [person]⟦に→に：00314_ni⟧ ついていく\n\nASPECT (ている):\n- ついていって⟦いる→いる：00495_iru⟧: in the process of following\n\nCOMMON PATTERNS:\n- ～⟦に→に：00314_ni⟧ついていく: to follow someone\n- ～⟦について→〜について：03103_nitsuite⟧⟦いける→いける：06957_ikeru⟧: can keep up with\n- ～⟦について→〜について：03103_nitsuite⟧いけない: can't keep up with (very common)\n\nSIMILAR WORDS:\n- ついていく vs. ついてくる: ついていく means to follow (going away); ついてくる means to follow (coming toward the speaker).\n- ついていく vs. ⟦{従|したが}う→従う：02059_shitagau⟧: ⟦{従|したが}う→従う：02059_shitagau⟧ means to obey or comply; ついていく is physical or metaphorical following.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "29670_tsuitekuru",
+      "reading": "ついてくる",
+      "headword": "{付|つ}いてくる",
+      "label": "to follow along"
+    }
+  ],
   "metadata": {
     "created": "2026-02-12T06:50:11Z",
-    "modified": "2026-03-29T03:07:35Z",
+    "modified": "2026-09-02T04:01:23Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

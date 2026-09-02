@@ -15,40 +15,59 @@
   "examples": [
     {
       "id": "18768_taikyuu_ex1",
-      "japanese": "{耐久性|たいきゅうせい}に{優|すぐ}れた{素材|そざい}だ。",
+      "japanese": "⟦{耐久性|たいきゅうせい}→耐久性：20042_taikyuusei⟧⟦に→に：00314_ni⟧⟦{優|すぐ}れた→優れる：02119_sugureru⟧⟦{素材|そざい}→素材：09492_sozai⟧だ。",
       "english": "It's a material with excellent durability.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "18768_taikyuu_ex2",
-      "japanese": "この{製品|せいひん}は{耐久|たいきゅう}テストに{合格|ごうかく}している。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{製品|せいひん}→製品：01445_seihin⟧⟦は→は：00079_ha⟧{耐久|たいきゅう}テスト⟦に→に：00314_ni⟧⟦{合格|ごうかく}している→合格する：27949_goukakusuru⟧。",
       "english": "This product has passed durability testing.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "18768_taikyuu_ex3",
-      "japanese": "{耐久|たいきゅう}レースでは{体力|たいりょく}だけでなく{精神力|せいしんりょく}も{試|ため}される。",
+      "japanese": "{耐久|たいきゅう}レース⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{体力|たいりょく}→体力：05318_tairyoku⟧⟦だけでなく→〜だけでなく：18373_dakedenaku⟧⟦{精神力|せいしんりょく}→精神力：17976_seishinryoku⟧⟦も→も：00484_mo⟧⟦{試|ため}される→試す：02130_tamesu⟧。",
       "english": "In endurance races, not only physical strength but also mental fortitude is tested.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Almost always appears in compounds or as a modifier: {耐久性|たいきゅうせい} (durability — the most common form), {耐久|たいきゅう}{消費財|しょうひざい} (durable consumer goods), {耐久|たいきゅう}レース (endurance race), {耐久|たいきゅう}{年数|ねんすう} (service life, expected lifespan). The prefix {耐|たい}～ means \"resistant to\" and appears in: {耐水|たいすい} (waterproof), {耐熱|たいねつ} (heat-resistant), {耐震|たいしん} (earthquake-resistant). Related: {丈夫|じょうぶ} (sturdy — everyday word for toughness), {頑丈|がんじょう} (robust).",
+  "notes": "Almost always appears in compounds or as a modifier: ⟦{耐久性|たいきゅうせい}→耐久性：20042_taikyuusei⟧ (durability — the most common form), {耐久|たいきゅう}⟦{消費財|しょうひざい}→消費財：26100_shouhizai⟧ (durable consumer goods), {耐久|たいきゅう}レース (endurance race), {耐久|たいきゅう}⟦{年数|ねんすう}→年数：23485_nensuu⟧ (service life, expected lifespan). The prefix {耐|たい}～ means \"resistant to\" and appears in: ⟦{耐水|たいすい}→耐水：24232_taisui⟧ (waterproof), ⟦{耐熱|たいねつ}→耐熱：21127_tainetsu⟧ (heat-resistant), ⟦{耐震|たいしん}→耐震：06222_taishin⟧ (earthquake-resistant). Related: ⟦{丈夫|じょうぶ}→丈夫：01156_joubu⟧ (sturdy — everyday word for toughness), ⟦{頑丈|がんじょう}→頑丈：08639_ganjou⟧ (robust).",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24232_taisui",
+      "reading": "たいすい",
+      "headword": "{耐水|たいすい}",
+      "label": "water resistance"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["descriptive"]
+      "semantic": [
+        "descriptive"
+      ]
     },
     "created": "2026-03-23T03:34:49Z",
-    "modified": "2026-03-23T03:34:49Z"
+    "modified": "2026-09-02T04:01:53Z"
   }
 }

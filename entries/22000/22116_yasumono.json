@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22116_yasumono_ex1",
-      "japanese": "これは{安物|やすもの}だからすぐ{壊|こわ}れる。",
+      "japanese": "⟦これ→これ：00963_kore⟧⟦は→は：00079_ha⟧{安物|やすもの}だ⟦から→から：00504_kara⟧⟦すぐ→すぐ：00814_sugu⟧⟦{壊|こわ}れる→壊れる：00791_kowareru⟧。",
       "english": "This is a cheap item, so it breaks easily.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22116_yasumono_ex2",
-      "japanese": "{安物|やすもの}の{傘|かさ}はすぐに{壊|こわ}れてしまう。",
+      "japanese": "{安物|やすもの}⟦の→の：09472_no⟧⟦{傘|かさ}→傘：00639_kasa⟧⟦は→は：00079_ha⟧⟦すぐ→すぐ：00814_sugu⟧⟦に→に：00314_ni⟧⟦{壊|こわ}れて→壊れる：00791_kowareru⟧しまう。",
       "english": "Cheap umbrellas break right away.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22116_yasumono_ex3",
-      "japanese": "{安物|やすもの}{買|か}いの{銭|ぜに}{失|うしな}いという{言葉|ことば}があるように、{安|やす}いものには{理由|りゆう}がある。",
+      "japanese": "{安物|やすもの}{買|か}い⟦の→の：09472_no⟧{銭|ぜに}{失|うしな}い⟦という→という：09577_toiu⟧⟦{言葉|ことば}→言葉：02880_kotoba⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧よう⟦に→に：00314_ni⟧、⟦{安|やす}い→安い：00464_yasui⟧もの⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{理由|りゆう}→理由：01102_riyuu⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "As the saying 'buy cheap, lose money' goes, cheap things come cheap for a reason.",
       "sense_numbers": [
         1
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {安|やす}い (cheap) + {物|もの} (thing). Almost always carries a negative nuance — it does not simply mean \"inexpensive\" but implies low quality. The word is commonly used when criticizing the quality of goods.\n\nCOMMON COLLOCATIONS:\n- {安物|やすもの}の{服|ふく}: cheap clothes\n- {安物|やすもの}の{時計|とけい}: cheap watch\n- {安物|やすもの}{買|か}いの{銭|ぜに}{失|うしな}い: penny wise, pound foolish (proverb)\n\nSIMILAR WORDS:\n- {格安|かくやす}: bargain-priced — neutral or positive, emphasizing good value\n- {粗悪品|そあくひん}: shoddy goods — more formal and strongly negative\n- お{買|か}い{得|どく}: good deal — positive connotation, emphasizing value\n\nCULTURAL NOTE:\nThe proverb {安物|やすもの}{買|か}いの{銭|ぜに}{失|うしな}い is widely known and means buying cheap things ends up costing more in the long run, equivalent to the English \"buy cheap, buy twice.\"",
+  "notes": "Composed of ⟦{安|やす}い→安い：00464_yasui⟧ (cheap) + ⟦{物|もの}→物：02259_mono⟧ (thing). Almost always carries a negative nuance — it does not simply mean \"inexpensive\" but implies low quality. The word is commonly used when criticizing the quality of goods.\n\nCOMMON COLLOCATIONS:\n- {安物|やすもの}⟦の→の：09472_no⟧⟦{服|ふく}→服：00695_fuku⟧: cheap clothes\n- {安物|やすもの}⟦の→の：09472_no⟧⟦{時計|とけい}→時計：00677_tokei⟧: cheap watch\n- {安物|やすもの}{買|か}い⟦の→の：09472_no⟧{銭|ぜに}{失|うしな}い: penny wise, pound foolish (proverb)\n\nSIMILAR WORDS:\n- ⟦{格安|かくやす}→格安：15125_kakuyasu⟧: bargain-priced — neutral or positive, emphasizing good value\n- {粗悪品|そあくひん}: shoddy goods — more formal and strongly negative\n- ⟦お{買|か}い{得|どく}→お買い得：09558_okaidoku⟧: good deal — positive connotation, emphasizing value\n\nCULTURAL NOTE:\nThe proverb {安物|やすもの}{買|か}い⟦の→の：09472_no⟧{銭|ぜに}{失|うしな}い is widely known and means buying cheap things ends up costing more in the long run, equivalent to the English \"buy cheap, buy twice.\"",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15125_kakuyasu",
+      "reading": "かくやす",
+      "headword": "{格安|かくやす}",
+      "label": "bargain-priced"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09558_okaidoku",
+      "reading": "おかいどく",
+      "headword": "お{買|か}い{得|どく}",
+      "label": "good deal"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08644_koukyuu",
+      "reading": "こうきゅう",
+      "headword": "{高級|こうきゅう}",
+      "label": "high-class"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23685_teihinshitsu",
+      "reading": "ていひんしつ",
+      "headword": "{低品質|ていひんしつ}",
+      "label": "low quality"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +90,6 @@
       ]
     },
     "created": "2026-04-05T03:31:10Z",
-    "modified": "2026-04-10T08:28:27Z"
+    "modified": "2026-09-02T04:02:06Z"
   }
 }

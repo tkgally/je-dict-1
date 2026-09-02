@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08421_hadaare_ex1",
-      "japanese": "{冬|ふゆ}は{肌荒|はだあ}れしやすい。",
+      "japanese": "⟦{冬|ふゆ}→冬：00623_fuyu⟧⟦は→は：00079_ha⟧{肌荒|はだあ}れしやすい。",
       "english": "Skin gets rough easily in winter.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "08421_hadaare_ex2",
-      "japanese": "{肌荒|はだあ}れを{防|ふせ}ぐために{保湿|ほしつ}クリームを{塗|ぬ}る。",
+      "japanese": "{肌荒|はだあ}れ⟦を→を：00422_wo⟧⟦{防|ふせ}ぐ→防ぐ：02409_fusegu⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧⟦{保湿|ほしつ}→保湿：11617_hoshitsu⟧⟦クリーム→クリーム：00253_kuriimu⟧⟦を→を：00422_wo⟧⟦{塗|ぬ}る→塗る：01174_nuru⟧。",
       "english": "I apply moisturizing cream to prevent rough skin.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "08421_hadaare_ex3",
-      "japanese": "ストレスで{肌荒|はだあ}れがひどくなった。",
+      "japanese": "⟦ストレス→ストレス：03827_sutoresu⟧⟦で→で：00502_de⟧{肌荒|はだあ}れ⟦が→が：00051_ga⟧⟦ひどく→ひどい：01097_hidoi⟧⟦なった→なる：01970_naru⟧。",
       "english": "My skin irritation got worse from stress.",
       "sense_numbers": [
         1
@@ -43,7 +43,58 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {肌|はだ} (skin) + {荒|あ}れ (roughness). Describes skin that has become rough, dry, red, or irritated.\n\nCOMMON CAUSES:\n- {乾燥|かんそう}: dryness (especially in winter)\n- ストレス: stress\n- {睡眠不足|すいみんぶそく}: lack of sleep\n- {食生活|しょくせいかつ}の{乱|みだ}れ: poor diet\n- {花粉|かふん}: pollen (seasonal allergies)\n\nVERB FORMS:\n- {肌|はだ}が{荒|あ}れる: skin becomes rough (intransitive)\n- {肌荒|はだあ}れする: to have rough skin (suru-verb)\n- {肌荒|はだあ}れを{防|ふせ}ぐ: to prevent rough skin\n- {肌荒|はだあ}れを{治|なお}す: to treat rough skin\n\nRELATED TERMS:\n- {乾燥肌|かんそうはだ}: dry skin (skin type)\n- {敏感肌|びんかんはだ}: sensitive skin\n- {保湿|ほしつ}: moisturizing\n- スキンケア: skincare",
+  "notes": "A compound of ⟦{肌|はだ}→肌：02243_hada⟧ (skin) + {荒|あ}れ (roughness). Describes skin that has become rough, dry, red, or irritated.\n\nCOMMON CAUSES:\n- ⟦{乾燥|かんそう}→乾燥：00184_kansou⟧: dryness (especially in winter)\n- ⟦ストレス→ストレス：03827_sutoresu⟧: stress\n- ⟦{睡眠不足|すいみんぶそく}→睡眠不足：08690_suiminbusoku⟧: lack of sleep\n- ⟦{食生活|しょくせいかつ}→食生活：21071_shokuseikatsu⟧⟦の→の：09472_no⟧⟦{乱|みだ}れ→乱れ：11413_midare⟧: poor diet\n- ⟦{花粉|かふん}→花粉：04372_kafun⟧: pollen (seasonal allergies)\n\nFORMS:\n- ⟦{肌|はだ}→肌：02243_hada⟧⟦が→が：00051_ga⟧⟦{荒|あ}れる→荒れる：04577_areru⟧: skin becomes rough (intransitive)\n- {肌荒|はだあ}れ⟦する→する：00392_suru⟧: to have rough skin (suru-verb)\n- {肌荒|はだあ}れ⟦を→を：00422_wo⟧⟦{防|ふせ}ぐ→防ぐ：02409_fusegu⟧: to prevent rough skin\n- {肌荒|はだあ}れ⟦を→を：00422_wo⟧⟦{治|なお}す→治す：19371_naosu⟧: to treat rough skin\n\nRELATED WORDS:\n- ⟦{乾燥肌|かんそうはだ}→乾燥肌：16609_kansouhada⟧: dry skin (skin type)\n- ⟦{敏感肌|びんかんはだ}→敏感肌：19065_binkanhada⟧: sensitive skin\n- ⟦{保湿|ほしつ}→保湿：11617_hoshitsu⟧: moisturizing\n- ⟦スキンケア→スキンケア：23083_sukinkea⟧: skincare",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "16609_kansouhada",
+      "reading": "かんそうはだ",
+      "headword": "{乾燥肌|かんそうはだ}",
+      "label": "dry skin"
+    },
+    {
+      "type": "related",
+      "target_id": "19065_binkanhada",
+      "reading": "びんかんはだ",
+      "headword": "{敏感肌|びんかんはだ}",
+      "label": "sensitive skin"
+    },
+    {
+      "type": "related",
+      "target_id": "11617_hoshitsu",
+      "reading": "ほしつ",
+      "headword": "{保湿|ほしつ}",
+      "label": "moisturizing"
+    },
+    {
+      "type": "related",
+      "target_id": "23083_sukinkea",
+      "reading": "すきんけあ",
+      "headword": "スキンケア",
+      "label": "skincare"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22122_nikibi",
+      "reading": "にきび",
+      "headword": "ニキビ",
+      "label": "pimple"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23012_atopii",
+      "reading": "あとぴー",
+      "headword": "アトピー",
+      "label": "atopy"
+    },
+    {
+      "type": "related",
+      "target_id": "26329_tehada",
+      "reading": "てはだ",
+      "headword": "{手肌|てはだ}",
+      "label": "skin of the hands"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -51,12 +102,13 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "health",
         "body-part"
       ]
     },
     "created": "2026-01-27T00:58:00Z",
-    "modified": "2026-08-12T12:50:50Z"
+    "modified": "2026-09-02T04:01:15Z"
   }
 }

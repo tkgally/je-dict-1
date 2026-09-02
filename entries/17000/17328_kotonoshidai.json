@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "17328_kotonoshidai_ex1",
-      "japanese": "{事|こと}の{次第|しだい}を{説明|せつめい}する。",
+      "japanese": "{事|こと}の{次第|しだい}⟦を→を：00422_wo⟧⟦{説明|せつめい}する→説明する：05639_setsumeisuru⟧。",
       "english": "To explain the circumstances.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "17328_kotonoshidai_ex2",
-      "japanese": "{事|こと}の{次第|しだい}を{聞|き}いて、ようやく{事情|じじょう}が{分|わ}かった。",
+      "japanese": "{事|こと}の{次第|しだい}⟦を→を：00422_wo⟧⟦{聞|き}いて→聞く：00483_kiku⟧、ようやく⟦{事情|じじょう}→事情：03272_jijou⟧⟦が→が：00051_ga⟧⟦{分|わ}かった→分かる：00463_wakaru⟧。",
       "english": "After hearing the details of what happened, I finally understood the situation.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "17328_kotonoshidai_ex3",
-      "japanese": "{上司|じょうし}に{事|こと}の{次第|しだい}を{報告|ほうこく}しなければならない。",
+      "japanese": "⟦{上司|じょうし}→上司：03286_joushi⟧⟦に→に：00314_ni⟧{事|こと}の{次第|しだい}⟦を→を：00422_wo⟧⟦{報告|ほうこく}→報告：03618_houkoku⟧し⟦なければならない→なければならない：27600_nakerebanaranai⟧。",
       "english": "I must report the full circumstances to my boss.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{事|こと} means \"matter\" or \"affair,\" and {次第|しだい} here means \"order\" or \"sequence of events.\" Together they refer to the full story of how something came to be. Often used in formal explanations or reports about incidents.\n\nCOMMON COLLOCATIONS:\n- {事|こと}の{次第|しだい}を{説明|せつめい}する (to explain the circumstances)\n- {事|こと}の{次第|しだい}を{報告|ほうこく}する (to report the circumstances)\n- {事|こと}の{次第|しだい}を{聞|き}く (to hear the full story)\n\nSIMILAR WORDS:\n- {経緯|けいい}: the background, the history — similar but more formal, emphasizes the process over time\n- {事情|じじょう}: circumstances, reasons — focuses on the underlying reasons rather than the sequence of events\n- {顛末|てんまつ}: the whole story from start to finish — more formal, emphasizes the conclusion",
+  "notes": "USAGE:\n{事|こと} means \"matter\" or \"affair,\" and ⟦{次第|しだい}→次第：03175_shidai⟧ here means \"order\" or \"sequence of events.\" Together they refer to the full story of how something came to be. Often used in formal explanations or reports about incidents.\n\nCOMMON COLLOCATIONS:\n- {事|こと}の{次第|しだい}⟦を→を：00422_wo⟧⟦{説明|せつめい}する→説明する：05639_setsumeisuru⟧ (to explain the circumstances)\n- {事|こと}の{次第|しだい}⟦を→を：00422_wo⟧⟦{報告|ほうこく}する→報告する：05644_houkokusuru⟧ (to report the circumstances)\n- {事|こと}の{次第|しだい}⟦を→を：00422_wo⟧⟦{聞|き}く→聞く：00483_kiku⟧ (to hear the full story)\n\nSIMILAR WORDS:\n- ⟦{経緯|けいい}→経緯：02782_keii⟧: the background, the history — similar but more formal, emphasizes the process over time\n- ⟦{事情|じじょう}→事情：03272_jijou⟧: circumstances, reasons — focuses on the underlying reasons rather than the sequence of events\n- ⟦{顛末|てんまつ}→顛末：21967_tenmatsu⟧: the whole story from start to finish — more formal, emphasizes the conclusion",
   "cross_references": [
     {
       "type": "synonym",
@@ -52,11 +52,25 @@
       "reading": "じじょう",
       "headword": "{事情|じじょう}",
       "label": "circumstances"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02782_keii",
+      "reading": "けいい",
+      "headword": "{経緯|けいい}",
+      "label": "the background, the history"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21967_tenmatsu",
+      "reading": "てんまつ",
+      "headword": "{顛末|てんまつ}",
+      "label": "the whole story from start to finish"
     }
   ],
   "metadata": {
     "created": "2026-03-17T06:03:08Z",
-    "modified": "2026-05-06T06:14:35Z",
+    "modified": "2026-09-02T04:01:48Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

@@ -2,7 +2,7 @@
   "id": "08190_tanren",
   "headword": "{鍛錬|たんれん}",
   "reading": "たんれん",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "training; tempering; discipline",
   "conjugation": {
     "type": "suru",
@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "08190_tanren_ex1",
-      "japanese": "{毎日|まいにち}{体|からだ}を{鍛錬|たんれん}する。",
+      "japanese": "⟦{毎日|まいにち}→毎日：00729_mainichi⟧⟦{体|からだ}→体：00784_karada⟧⟦を→を：00422_wo⟧{鍛錬|たんれん}⟦する→する：00392_suru⟧。",
       "english": "I train my body every day.",
       "sense_numbers": [
         1
@@ -114,7 +114,7 @@
     },
     {
       "id": "08190_tanren_ex2",
-      "japanese": "{精神|せいしん}の{鍛錬|たんれん}が{必要|ひつよう}だ。",
+      "japanese": "⟦{精神|せいしん}→精神：03377_seishin⟧⟦の→の：09472_no⟧{鍛錬|たんれん}⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧だ。",
       "english": "Mental discipline is necessary.",
       "sense_numbers": [
         1
@@ -124,7 +124,7 @@
     },
     {
       "id": "08190_tanren_ex3",
-      "japanese": "{長年|ながねん}の{鍛錬|たんれん}によって{技|わざ}を{磨|みが}いた。",
+      "japanese": "⟦{長年|ながねん}→長年：09684_naganen⟧⟦の→の：09472_no⟧{鍛錬|たんれん}⟦によって→によって：06801_niyotte⟧⟦{技|わざ}→技：02172_waza⟧⟦を→を：00422_wo⟧⟦{磨|みが}いた→磨く：02427_migaku⟧。",
       "english": "I polished my skills through years of training.",
       "sense_numbers": [
         1
@@ -133,7 +133,7 @@
       "notes": null
     }
   ],
-  "notes": "USAGE:\n- {体|からだ}を{鍛錬|たんれん}する (to train one's body)\n- {精神|せいしん}の{鍛錬|たんれん} (mental discipline)\n- {日々|ひび}の{鍛錬|たんれん} (daily training)\n\nNUANCE:\nImplies serious, rigorous training with the goal of strengthening or perfecting. Often used in martial arts, sports, and personal development contexts.\n\nETYMOLOGY:\nOriginally referred to forging metal (tempering). The meaning extended to forging/tempering the body and mind.\n\nRELATED:\n- {訓練|くんれん} (training, drill - more general)\n- {修練|しゅうれん} (training, discipline - similar)\n- {鍛|きた}える (to forge, to train - verb)",
+  "notes": "USAGE:\n- ⟦{体|からだ}→体：00784_karada⟧⟦を→を：00422_wo⟧{鍛錬|たんれん}⟦する→する：00392_suru⟧ (to train one's body)\n- ⟦{精神|せいしん}→精神：03377_seishin⟧⟦の→の：09472_no⟧{鍛錬|たんれん} (mental discipline)\n- ⟦{日々|ひび}→日々：04804_hibi⟧⟦の→の：09472_no⟧{鍛錬|たんれん} (daily training)\nImplies serious, rigorous training with the goal of strengthening or perfecting. Often used in martial arts, sports, and personal development contexts.\n\nETYMOLOGY:\nOriginally referred to forging metal (tempering). The meaning extended to forging/tempering the body and mind.\n\nRELATED WORDS:\n- ⟦{訓練|くんれん}→訓練：02673_kunren⟧ (training, drill - more general)\n- ⟦{修練|しゅうれん}→修練：08246_shuuren⟧ (training, discipline - similar)\n- ⟦{鍛|きた}える→鍛える：12326_kitaeru⟧ (to forge, to train - verb)",
   "cross_references": [
     {
       "type": "synonym",
@@ -141,6 +141,41 @@
       "headword": "{修練|しゅうれん}",
       "label": "training; discipline; practice",
       "target_id": "08246_shuuren"
+    },
+    {
+      "type": "related",
+      "target_id": "02673_kunren",
+      "reading": "くんれん",
+      "headword": "{訓練|くんれん}",
+      "label": "training, drill"
+    },
+    {
+      "type": "related",
+      "target_id": "12326_kitaeru",
+      "reading": "きたえる",
+      "headword": "{鍛|きた}える",
+      "label": "to forge, to train"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21301_seiren",
+      "reading": "せいれん",
+      "headword": "{精錬|せいれん}",
+      "label": "refining"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24374_moutokkun",
+      "reading": "もうとっくん",
+      "headword": "{猛特訓|もうとっくん}",
+      "label": "rigorous intensive training"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26471_renkou",
+      "reading": "れんこう",
+      "headword": "{練功|れんこう}",
+      "label": "training"
     }
   ],
   "metadata": {
@@ -151,13 +186,15 @@
         "verb-suru"
       ],
       "formality": "formal",
+      "politeness": "plain",
       "semantic": [
         "sports",
         "discipline"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-01-25T08:01:38Z",
-    "modified": "2026-01-25T08:01:38Z"
+    "modified": "2026-09-02T04:01:14Z"
   }
 }

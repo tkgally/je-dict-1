@@ -15,40 +15,60 @@
   "examples": [
     {
       "id": "24941_nimotsuokiba_ex1",
-      "japanese": "{荷物置|にもつお}き{場|ば}はどこですか。",
+      "japanese": "{荷物置|にもつお}き{場|ば}⟦は→は：00079_ha⟧⟦どこ→どこ：00539_doko⟧です⟦か→か：09473_ka⟧。",
       "english": "Where is the luggage storage area?",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "24941_nimotsuokiba_ex2",
-      "japanese": "スーツケースは{荷物置|にもつお}き{場|ば}に{預|あず}けてください。",
+      "japanese": "⟦スーツケース→スーツケース：01781_suutsukeesu⟧⟦は→は：00079_ha⟧{荷物置|にもつお}き{場|ば}⟦に→に：00314_ni⟧⟦{預|あず}けて→預ける：01819_azukeru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please leave your suitcase in the luggage storage area.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "24941_nimotsuokiba_ex3",
-      "japanese": "ホテルにチェックイン{前|まえ}でも{使|つか}える{荷物置|にもつお}き{場|ば}があって{助|たす}かった。",
+      "japanese": "⟦ホテル→ホテル：01027_hoteru⟧⟦に→に：00314_ni⟧⟦チェックイン→チェックイン：08281_chekkuin⟧⟦{前|まえ}→前：02255_mae⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧⟦{使|つか}える→使う：00473_tsukau⟧{荷物置|にもつお}き{場|ば}⟦が→が：00051_ga⟧⟦あって→ある：00006_aru⟧⟦{助|たす}かった→助かる：01956_tasukaru⟧。",
       "english": "It was a relief that the hotel had a luggage storage area we could use even before check-in.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Compound of {荷物|にもつ} (luggage; baggage) and {置|お}き{場|ば} (place for putting things). The suffix ~{置|お}き{場|ば} is productive and attaches to other nouns to indicate a storage spot (e.g., {自転車置|じてんしゃお}き{場|ば}, bicycle parking area).\n\nCOMMON COLLOCATIONS:\n- {荷物置|にもつお}き{場|ば}に{預|あず}ける: to leave luggage in storage\n- {荷物置|にもつお}き{場|ば}を{利用|りよう}する: to use the luggage storage area\n- {一時|いちじ}{荷物置|にもつお}き{場|ば}: temporary luggage storage\n\nSIMILAR WORDS:\n- コインロッカー: coin locker, the most common self-service option at Japanese stations\n- {手荷物預|てにもつあず}かり{所|しょ}: staffed baggage check counter, typically at airports and major stations\n- クローク: cloakroom, used at hotels and event venues",
+  "notes": "Compound of ⟦{荷物|にもつ}→荷物：00737_nimotsu⟧ (luggage; baggage) and ⟦{置|お}き{場|ば}→置き場：22477_okiba⟧ (place for putting things). The suffix ~⟦{置|お}き{場|ば}→置き場：22477_okiba⟧ is productive and attaches to other nouns to indicate a storage spot (e.g., {自転車置|じてんしゃお}き{場|ば}, bicycle parking area).\n\nCOMMON COLLOCATIONS:\n- {荷物置|にもつお}き{場|ば}⟦に→に：00314_ni⟧⟦{預|あず}ける→預ける：01819_azukeru⟧: to leave luggage in storage\n- {荷物置|にもつお}き{場|ば}⟦を→を：00422_wo⟧⟦{利用|りよう}する→利用する：21735_riyousuru⟧: to use the luggage storage area\n- ⟦{一時|いちじ}→一時：01799_ichiji⟧{荷物置|にもつお}き{場|ば}: temporary luggage storage\n\nSIMILAR WORDS:\n- ⟦コインロッカー→コインロッカー：30576_koinrokkaa⟧: coin locker, the most common self-service option at Japanese stations\n- {手荷物預|てにもつあず}かり{所|しょ}: staffed baggage check counter, typically at airports and major stations\n- クローク: cloakroom, used at hotels and event venues",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "30576_koinrokkaa",
+      "reading": "こいんろっかー",
+      "headword": "コインロッカー",
+      "label": "coin locker, the most common…"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["building", "transportation"]
+      "semantic": [
+        "building",
+        "transportation"
+      ]
     },
     "created": "2026-04-21T14:18:18Z",
-    "modified": "2026-04-21T14:18:18Z"
+    "modified": "2026-09-02T04:02:20Z"
   }
 }

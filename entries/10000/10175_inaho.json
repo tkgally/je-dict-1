@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "10175_inaho_ex1",
-      "japanese": "{稲穂|いなほ}が{黄金色|こがねいろ}に{輝|かがや}いている。",
+      "japanese": "{稲穂|いなほ}⟦が→が：00051_ga⟧⟦{黄金色|こがねいろ}→黄金色：19037_koganeiro⟧⟦に→に：00314_ni⟧⟦{輝|かがや}いている→輝く：02032_kagayaku⟧。",
       "english": "The ears of rice are shining golden.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "10175_inaho_ex2",
-      "japanese": "{秋|あき}になると{稲穂|いなほ}が{垂|た}れる。",
+      "japanese": "⟦{秋|あき}→秋：02276_aki⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦と→と：00512_to⟧{稲穂|いなほ}⟦が→が：00051_ga⟧⟦{垂|た}れる→垂れる：10075_tareru⟧。",
       "english": "In autumn, the ears of rice droop.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "10175_inaho_ex3",
-      "japanese": "{実|みの}るほど{頭|こうべ}を{垂|た}れる{稲穂|いなほ}かな。",
+      "japanese": "⟦{実|みの}る→実る：00282_minoru⟧ほど{頭|こうべ}⟦を→を：00422_wo⟧⟦{垂|た}れる→垂れる：10075_tareru⟧{稲穂|いなほ}⟦か→か：09473_ka⟧な。",
       "english": "The more the rice ripens, the more it bends its head.",
       "notes": "A famous proverb meaning that the wiser a person becomes, the more humble they are.",
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{稲穂|いなほ} refers to the ear or head of a rice plant — the grain-bearing part that droops when ripe.\n\nWORD FORMATION:\n{稲|いね} (rice plant) + {穂|ほ} (ear, head of grain).\n\nCULTURAL SIGNIFICANCE:\nAppears in the famous proverb: {実|みの}るほど{頭|こうべ}を{垂|た}れる{稲穂|いなほ}かな — \"The more the rice ripens, the more the head bows.\" This teaches that truly accomplished people remain humble.\n\nCOMMON EXPRESSIONS:\n- {稲穂|いなほ}が{実|みの}る: the rice ears ripen\n- {稲穂|いなほ}が{揺|ゆ}れる: the rice ears sway (in the wind)\n- {黄金色|こがねいろ}の{稲穂|いなほ}: golden rice ears\n\nNOTE:\nA seasonal word ({季語|きご}) for autumn in haiku, evoking harvest time and the Japanese countryside.",
+  "notes": "{稲穂|いなほ} refers to the ear or head of a rice plant — the grain-bearing part that droops when ripe.\n\nFORMS:\n⟦{稲|いね}→稲：01820_ine⟧ (rice plant) + {穂|ほ} (ear, head of grain).\n\nCULTURAL NOTE:\nAppears in the famous proverb: ⟦{実|みの}る→実る：00282_minoru⟧ほど{頭|こうべ}⟦を→を：00422_wo⟧⟦{垂|た}れる→垂れる：10075_tareru⟧{稲穂|いなほ}⟦か→か：09473_ka⟧な — \"The more the rice ripens, the more the head bows.\" This teaches that truly accomplished people remain humble.\n\nCOMMON EXPRESSIONS:\n- {稲穂|いなほ}⟦が→が：00051_ga⟧⟦{実|みの}る→実る：00282_minoru⟧: the rice ears ripen\n- {稲穂|いなほ}⟦が→が：00051_ga⟧⟦{揺|ゆ}れる→揺れる：01161_yureru⟧: the rice ears sway (in the wind)\n- ⟦{黄金色|こがねいろ}→黄金色：19037_koganeiro⟧⟦の→の：09472_no⟧{稲穂|いなほ}: golden rice ears\n\nUSAGE:\nA seasonal word (⟦{季語|きご}→季語：09561_kigo⟧) for autumn in haiku, evoking harvest time and the Japanese countryside.",
   "cross_references": [
     {
       "type": "related",
@@ -51,11 +51,18 @@
       "reading": "いね",
       "headword": "{稲|いね}",
       "label": "rice plant"
+    },
+    {
+      "type": "related",
+      "target_id": "05933_inekari",
+      "reading": "いねかり",
+      "headword": "{稲刈|いねか}り",
+      "label": "rice harvesting"
     }
   ],
   "metadata": {
     "created": "2026-02-05T11:49:02Z",
-    "modified": "2026-08-14T01:00:44Z",
+    "modified": "2026-09-02T04:01:20Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

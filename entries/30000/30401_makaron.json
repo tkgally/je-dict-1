@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30401_makaron_ex1",
-      "japanese": "マカロンを{三|みっ}つ{買|か}った。",
+      "japanese": "マカロン⟦を→を：00422_wo⟧⟦{三|みっ}つ→三つ：02970_mittsu⟧⟦{買|か}った→買う：00489_kau⟧。",
       "english": "I bought three macarons.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30401_makaron_ex2",
-      "japanese": "{色|いろ}とりどりのマカロンが{箱|はこ}に{並|なら}んでいる。",
+      "japanese": "⟦{色|いろ}とりどり→色とりどり：10404_irotoridori⟧⟦の→の：09472_no⟧マカロン⟦が→が：00051_ga⟧⟦{箱|はこ}→箱：02162_hako⟧⟦に→に：00314_ni⟧⟦{並|なら}んでいる→並ぶ：00605_narabu⟧。",
       "english": "Colorful macarons are lined up in the box.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30401_makaron_ex3",
-      "japanese": "{手土産|てみやげ}にマカロンを{持|も}っていったら、{子|こ}どもたちがとても{喜|よろこ}んだ。",
+      "japanese": "⟦{手土産|てみやげ}→手土産：08353_temiyage⟧⟦に→に：00314_ni⟧マカロン⟦を→を：00422_wo⟧⟦{持|も}って→持つ：00478_motsu⟧いったら、{子|こ}どもたち⟦が→が：00051_ga⟧⟦とても→とても：00593_totemo⟧⟦{喜|よろこ}んだ→喜ぶ：01169_yorokobu⟧。",
       "english": "When I took macarons as a gift, the children were delighted.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Counted with 〜{個|こ}. Popular as a small gift or souvenir because the colors photograph well and the boxes are attractive.\n\nCOMMON COLLOCATIONS:\n- マカロンを{食|た}べる: to eat a macaron\n- {色|いろ}とりどりのマカロン: colorful macarons\n- マカロンの{詰|つ}め{合|あ}わせ: an assortment of macarons\n- マカロンカラー: pastel \"macaron colors\"\n\nSIMILAR WORDS:\n- マカロニ: macaroni — a completely different word despite the similar sound\n- メレンゲ: meringue — the whipped egg white the shells are made from\n- {焼|や}き{菓子|がし}: baked sweets — the shop category macarons are usually sold under",
+  "notes": "Counted with 〜⟦{個|こ}→〜個：00645_ko⟧. Popular as a small gift or souvenir because the colors photograph well and the boxes are attractive.\n\nCOMMON COLLOCATIONS:\n- マカロン⟦を→を：00422_wo⟧⟦{食|た}べる→食べる：00396_taberu⟧: to eat a macaron\n- ⟦{色|いろ}とりどり→色とりどり：10404_irotoridori⟧⟦の→の：09472_no⟧マカロン: colorful macarons\n- マカロン⟦の→の：09472_no⟧⟦{詰|つ}め{合|あ}わせ→詰め合わせ：14175_tsumeawase⟧: an assortment of macarons\n- マカロン⟦カラー→カラー：10820_karaa⟧: pastel \"macaron colors\"\n\nSIMILAR WORDS:\n- ⟦マカロニ→マカロニ：30384_makaroni⟧: macaroni — a completely different word despite the similar sound\n- ⟦メレンゲ→メレンゲ：29702_merenge⟧: meringue — the whipped egg white the shells are made from\n- ⟦{焼|や}き{菓子|がし}→焼き菓子：15806_yakigashi⟧: baked sweets — the shop category macarons are usually sold under",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "30384_makaroni",
+      "reading": "まかろに",
+      "headword": "マカロニ",
+      "label": "macaroni"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29702_merenge",
+      "reading": "めれんげ",
+      "headword": "メレンゲ",
+      "label": "meringue"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15806_yakigashi",
+      "reading": "やきがし",
+      "headword": "{焼|や}き{菓子|がし}",
+      "label": "baked sweets"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +83,6 @@
       "domain": []
     },
     "created": "2026-08-05T00:20:41Z",
-    "modified": "2026-08-05T00:20:41Z"
+    "modified": "2026-09-02T04:02:40Z"
   }
 }

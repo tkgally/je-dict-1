@@ -3,7 +3,7 @@
   "headword": "{合切|がっさい}",
   "reading": "がっさい",
   "romaji": "gassai",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, adverb",
   "gloss": "all; everything; the whole lot",
   "definitions": [
     {
@@ -15,48 +15,84 @@
   "examples": [
     {
       "id": "24150_gassai_ex1",
-      "japanese": "{合切|がっさい}{捨|す}ててしまった。",
+      "japanese": "{合切|がっさい}⟦{捨|す}てて→捨てる：00892_suteru⟧しまった。",
       "english": "I threw away the whole lot.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "24150_gassai_ex2",
-      "japanese": "{荷物|にもつ}を{合切|がっさい}{袋|ぶくろ}に{入|い}れた。",
+      "japanese": "⟦{荷物|にもつ}→荷物：00737_nimotsu⟧⟦を→を：00422_wo⟧{合切|がっさい}{袋|ぶくろ}⟦に→に：00314_ni⟧⟦{入|い}れた→入れる：01098_ireru⟧。",
       "english": "I put all my belongings into a drawstring bag.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "24150_gassai_ex3",
-      "japanese": "{何|なに}もかも{合切|がっさい}{引|ひ}き{受|う}けると{言|い}ってくれた。",
+      "japanese": "⟦{何|なに}もかも→何もかも：26777_nanimokamo⟧{合切|がっさい}⟦{引|ひ}き{受|う}ける→引き受ける：03140_hikiukeru⟧⟦と→と：00512_to⟧⟦{言|い}って→言う：00515_iu⟧⟦くれた→くれる：00724_kureru⟧。",
       "english": "They said they would take on absolutely everything.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "24150_gassai_ex4",
-      "japanese": "{家財|かざい}{道具|どうぐ}を{合切|がっさい}{持|も}ち{出|だ}して{引|ひ}っ{越|こ}した。",
+      "japanese": "{家財|かざい}⟦{道具|どうぐ}→道具：01479_dougu⟧⟦を→を：00422_wo⟧{合切|がっさい}⟦{持|も}ち{出|だ}して→持ち出す：06160_mochidasu⟧⟦{引|ひ}っ{越|こ}した→引っ越す：01171_hikkosu⟧。",
       "english": "We moved out, taking every last piece of household furniture.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {合|がっ} (combine, bring together) and {切|さい} (all, entirely). The word means \"everything gathered together\" and has a slightly old-fashioned, literary quality. It is most commonly encountered in two forms.\n\nThe first is the standalone adverbial use meaning \"everything, the whole lot,\" often paired with {何|なに}もかも for emphasis. The second is the compound {合切|がっさい}{袋|ぶくろ}, a traditional drawstring bag used to carry all of one's personal items — the name literally means \"everything bag.\"\n\nCOMMON COLLOCATIONS:\n- {合切|がっさい}{袋|ぶくろ}: drawstring bag for carrying everything (traditional)\n- {何|なに}もかも{合切|がっさい}: absolutely everything\n- {合切|がっさい}{捨|す}てる: to throw away the whole lot\n\nSIMILAR WORDS:\n- {一切|いっさい}: all, everything — more common in modern usage and applies to both affirmative and negative contexts ({一切|いっさい}ない = none at all)\n- {全部|ぜんぶ}: all, everything — the everyday equivalent with no literary flavor\n- {丸|まる}ごと: the whole thing, entirely — emphasizes wholeness rather than totality",
+  "notes": "Composed of {合|がっ} (combine, bring together) and {切|さい} (all, entirely). The word means \"everything gathered together\" and has a slightly old-fashioned, literary quality. It is most commonly encountered in two forms.\n\nThe first is the standalone adverbial use meaning \"everything, the whole lot,\" often paired with ⟦{何|なに}もかも→何もかも：26777_nanimokamo⟧ for emphasis. The second is the compound {合切|がっさい}{袋|ぶくろ}, a traditional drawstring bag used to carry all of one's personal items — the name literally means \"everything bag.\"\n\nCOMMON COLLOCATIONS:\n- {合切|がっさい}{袋|ぶくろ}: drawstring bag for carrying everything (traditional)\n- ⟦{何|なに}もかも→何もかも：26777_nanimokamo⟧{合切|がっさい}: absolutely everything\n- {合切|がっさい}⟦{捨|す}てる→捨てる：00892_suteru⟧: to throw away the whole lot\n\nSIMILAR WORDS:\n- ⟦{一切|いっさい}→一切：06662_issai⟧: all, everything — more common in modern usage and applies to both affirmative and negative contexts (⟦{一切|いっさい}→一切：06662_issai⟧⟦ない→ない：01118_nai⟧ = none at all)\n- ⟦{全部|ぜんぶ}→全部：02888_zenbu⟧: all, everything — the everyday equivalent with no literary flavor\n- ⟦{丸|まる}ごと→丸ごと：10545_marugoto⟧: the whole thing, entirely — emphasizes wholeness rather than totality",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06662_issai",
+      "reading": "いっさい",
+      "headword": "{一切|いっさい}",
+      "label": "all, everything"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02888_zenbu",
+      "reading": "ぜんぶ",
+      "headword": "{全部|ぜんぶ}",
+      "label": "all, everything"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10545_marugoto",
+      "reading": "まるごと",
+      "headword": "{丸|まる}ごと",
+      "label": "the whole thing, entirely"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adverb"],
+      "pos": [
+        "noun",
+        "adverb"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["abstract"]
+      "semantic": [
+        "abstract"
+      ]
     },
     "created": "2026-04-17T20:10:20Z",
-    "modified": "2026-04-17T20:10:20Z"
+    "modified": "2026-09-02T04:02:17Z"
   }
 }

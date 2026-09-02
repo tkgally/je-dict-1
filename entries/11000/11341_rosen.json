@@ -19,40 +19,80 @@
   "examples": [
     {
       "id": "11341_rosen_ex1",
-      "japanese": "この{路線|ろせん}は{朝|あさ}{混|こ}む。",
+      "japanese": "⟦この→この：00962_kono⟧{路線|ろせん}⟦は→は：00079_ha⟧⟦{朝|あさ}→朝：02277_asa⟧⟦{混|こ}む→混む：02574_komu⟧。",
       "english": "This line is crowded in the morning.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11341_rosen_ex2",
-      "japanese": "{路線|ろせん}{図|ず}を{見|み}て{乗|の}り{換|か}えの{駅|えき}を{確認|かくにん}した。",
+      "japanese": "{路線|ろせん}⟦{図|ず}→図：03368_zu⟧⟦を→を：00422_wo⟧⟦{見|み}て→見る：00283_miru⟧⟦{乗|の}り{換|か}え→乗り換え：16130_norikae⟧⟦の→の：09472_no⟧⟦{駅|えき}→駅：02180_eki⟧⟦を→を：00422_wo⟧⟦{確認|かくにん}した→確認する：25332_kakuninsuru⟧。",
       "english": "I checked the route map to confirm the transfer station.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11341_rosen_ex3",
-      "japanese": "{政府|せいふ}は{経済|けいざい}{成長|せいちょう}を{重視|じゅうし}する{路線|ろせん}を{取|と}っている。",
+      "japanese": "⟦{政府|せいふ}→政府：03294_seifu⟧⟦は→は：00079_ha⟧⟦{経済|けいざい}{成長|せいちょう}→経済成長：20453_keizaiseichou⟧⟦を→を：00422_wo⟧⟦{重視|じゅうし}する→重視する：26832_juushisuru⟧{路線|ろせん}⟦を→を：00422_wo⟧⟦{取|と}っている→取る：00565_toru⟧。",
       "english": "The government is taking a course that prioritizes economic growth.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
-  "notes": "{路線|ろせん} primarily refers to transportation routes, but is also used figuratively for policy direction.\n\nWORD FORMATION:\n{路|ろ} (road, path) + {線|せん} (line)\n\nCOMMON COLLOCATIONS (transportation):\n- {路線|ろせん}{図|ず}: route map\n- {路線|ろせん}バス: route bus (regular service bus)\n- {路線|ろせん}{変更|へんこう}: route change\n- {新|しん}{路線|ろせん}: new line/route\n\nCOMMON COLLOCATIONS (figurative):\n- {路線|ろせん}を{取|と}る: to take a course/direction\n- {路線|ろせん}{変更|へんこう}: change of course/policy\n- {路線|ろせん}{対立|たいりつ}: policy conflict",
+  "notes": "{路線|ろせん} primarily refers to transportation routes, but is also used figuratively for policy direction.\n\nFORMS:\n{路|ろ} (road, path) + ⟦{線|せん}→線：09901_sen⟧ (line)\n\nCOMMON COLLOCATIONS (transportation):\n- {路線|ろせん}⟦{図|ず}→図：03368_zu⟧: route map\n- {路線|ろせん}⟦バス→バス：00769_basu⟧: route bus (regular service bus)\n- {路線|ろせん}⟦{変更|へんこう}→変更：03616_henkou⟧: route change\n- {新|しん}{路線|ろせん}: new line/route\n\nCOMMON COLLOCATIONS (figurative):\n- {路線|ろせん}⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧: to take a course/direction\n- {路線|ろせん}⟦{変更|へんこう}→変更：03616_henkou⟧: change of course/policy\n- {路線|ろせん}⟦{対立|たいりつ}→対立：04500_tairitsu⟧: policy conflict",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "04041_senro",
+      "reading": "せんろ",
+      "headword": "{線路|せんろ}",
+      "label": "railway track, railroad line"
+    },
+    {
+      "type": "related",
+      "target_id": "21264_koutsuukikan",
+      "reading": "こうつうきかん",
+      "headword": "{交通機関|こうつうきかん}",
+      "label": "transportation system"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22486_honsen",
+      "reading": "ほんせん",
+      "headword": "{本線|ほんせん}",
+      "label": "main line (railway, road, etc.)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24370_shisen",
+      "reading": "しせん",
+      "headword": "{支線|しせん}",
+      "label": "branch line"
+    }
+  ],
   "metadata": {
     "created": "2026-02-16T00:41:26Z",
-    "modified": "2026-02-16T00:41:26Z",
+    "modified": "2026-09-02T04:01:24Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["transportation"]
+      "semantic": [
+        "transportation"
+      ]
     }
   }
 }

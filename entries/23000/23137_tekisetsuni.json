@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "23137_tekisetsuni_ex1",
-      "japanese": "{適切|てきせつ}に{対応|たいおう}してください。",
+      "japanese": "{適切|てきせつ}に⟦{対応|たいおう}→対応：02510_taiou⟧⟦して→する：00392_suru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please respond appropriately.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "23137_tekisetsuni_ex2",
-      "japanese": "データを{適切|てきせつ}に{管理|かんり}する{必要|ひつよう}がある。",
+      "japanese": "⟦データ→データ：03944_deeta⟧⟦を→を：00422_wo⟧{適切|てきせつ}に⟦{管理|かんり}する→管理する：21910_kanrisuru⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "It is necessary to manage data properly.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "23137_tekisetsuni_ex3",
-      "japanese": "{問題|もんだい}が{起|お}きたときに{適切|てきせつ}に{判断|はんだん}できるかどうかが{重要|じゅうよう}だ。",
+      "japanese": "⟦{問題|もんだい}→問題：00797_mondai⟧⟦が→が：00051_ga⟧⟦{起|お}きた→起きる：00521_okiru⟧とき⟦に→に：00314_ni⟧{適切|てきせつ}に⟦{判断|はんだん}できる→判断する：06062_handansuru⟧⟦かどうか→かどうか：28299_kadouka⟧⟦が→が：00051_ga⟧⟦{重要|じゅうよう}→重要：01575_juuyou⟧だ。",
       "english": "What matters is whether you can make appropriate judgments when problems arise.",
       "sense_numbers": [
         1
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "The adverbial form of {適切|てきせつ} (appropriate, suitable), formed by adding に. Very common in business, official, and technical writing. It implies meeting a standard of correctness rather than just being \"good enough.\"\n\nCOMMON COLLOCATIONS:\n- {適切|てきせつ}に{対応|たいおう}する: to respond appropriately\n- {適切|てきせつ}に{管理|かんり}する: to manage properly\n- {適切|てきせつ}に{処理|しょり}する: to process/handle properly\n- {適切|てきせつ}に{判断|はんだん}する: to judge appropriately\n\nSIMILAR WORDS:\n- {正|ただ}しく: correctly — focuses on factual accuracy; {適切|てきせつ}に emphasizes fitness for purpose\n- {的確|てきかく}に: accurately, precisely — emphasizes hitting the mark; more about precision\n- {適当|てきとう}に: appropriately / carelessly — ambiguous: can mean \"suitably\" or \"halfheartedly\" depending on context",
+  "notes": "The adverbial form of ⟦{適切|てきせつ}→適切：01621_tekisetsu⟧ (appropriate, suitable), formed by adding ⟦に→に：00314_ni⟧. Very common in business, official, and technical writing. It implies meeting a standard of correctness rather than just being \"good enough.\"\n\nCOMMON COLLOCATIONS:\n- {適切|てきせつ}に⟦{対応|たいおう}→対応：02510_taiou⟧⟦する→する：00392_suru⟧: to respond appropriately\n- {適切|てきせつ}に⟦{管理|かんり}する→管理する：21910_kanrisuru⟧: to manage properly\n- {適切|てきせつ}に⟦{処理|しょり}する→処理する：25531_shorisuru⟧: to process/handle properly\n- {適切|てきせつ}に⟦{判断|はんだん}する→判断する：06062_handansuru⟧: to judge appropriately\n\nSIMILAR WORDS:\n- ⟦{正|ただ}しく→正しい：00893_tadashii⟧: correctly — focuses on factual accuracy; {適切|てきせつ}に emphasizes fitness for purpose\n- ⟦{的確|てきかく}→的確：04536_tekikaku⟧⟦に→に：00314_ni⟧: accurately, precisely — emphasizes hitting the mark; more about precision\n- ⟦{適当|てきとう}→適当：01674_tekitou⟧⟦に→に：00314_ni⟧: appropriately / carelessly — ambiguous: can mean \"suitably\" or \"halfheartedly\" depending on context",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23304_tadashiku",
+      "reading": "ただしく",
+      "headword": "{正|ただ}しく",
+      "label": "correctly"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04536_tekikaku",
+      "reading": "てきかく",
+      "headword": "{的確|てきかく}",
+      "label": "accurately, precisely"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01674_tekitou",
+      "reading": "てきとう",
+      "headword": "{適当|てきとう}",
+      "label": "appropriately / carelessly"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22373_tekigi",
+      "reading": "てきぎ",
+      "headword": "{適宜|てきぎ}",
+      "label": "as appropriate"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +89,6 @@
       "politeness": "plain"
     },
     "created": "2026-04-08T19:28:51Z",
-    "modified": "2026-04-08T19:28:51Z"
+    "modified": "2026-09-02T04:02:11Z"
   }
 }

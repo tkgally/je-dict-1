@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26644_shinzougo_ex1",
-      "japanese": "この{言葉|ことば}は{最近|さいきん}の{新造語|しんぞうご}だ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{言葉|ことば}→言葉：02880_kotoba⟧⟦は→は：00079_ha⟧⟦{最近|さいきん}→最近：00881_saikin⟧⟦の→の：09472_no⟧{新造語|しんぞうご}だ。",
       "english": "This word is a recent neologism.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26644_shinzougo_ex2",
-      "japanese": "SNSの{普及|ふきゅう}で{新造語|しんぞうご}が{次々|つぎつぎ}と{生|う}まれている。",
+      "japanese": "SNS⟦の→の：09472_no⟧⟦{普及|ふきゅう}→普及：07592_fukyuu⟧⟦で→で：00502_de⟧{新造語|しんぞうご}⟦が→が：00051_ga⟧⟦{次々|つぎつぎ}→次々：03522_tsugitsugi⟧⟦と→と：00512_to⟧⟦{生|う}まれている→生まれる：00905_umareru⟧。",
       "english": "With the spread of social media, new coinages are being born one after another.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26644_shinzougo_ex3",
-      "japanese": "{辞書|じしょ}の{編集者|へんしゅうしゃ}は{毎年|まいとし}{新造語|しんぞうご}を{調査|ちょうさ}して、{掲載|けいさい}するかどうかを{判断|はんだん}する。",
+      "japanese": "⟦{辞書|じしょ}→辞書：04707_jisho⟧⟦の→の：09472_no⟧⟦{編集者|へんしゅうしゃ}→編集者：09587_henshuusha⟧⟦は→は：00079_ha⟧⟦{毎年|まいとし}→毎年：00731_maitoshi⟧{新造語|しんぞうご}⟦を→を：00422_wo⟧⟦{調査|ちょうさ}→調査：03489_chousa⟧⟦して→する：00392_suru⟧、⟦{掲載|けいさい}する→掲載する：19217_keisaisuru⟧⟦かどうか→かどうか：28299_kadouka⟧⟦を→を：00422_wo⟧⟦{判断|はんだん}する→判断する：06062_handansuru⟧。",
       "english": "Dictionary editors survey neologisms every year and decide whether to include them.",
       "sense_numbers": [
         1
@@ -44,8 +44,23 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {新造|しんぞう} (newly made) and {語|ご} (word). Japanese has a rich tradition of word creation, particularly through combining kanji compounds, borrowing from English (wasei-eigo), and blending elements from multiple languages.\n\nCOMMON COLLOCATIONS:\n- {新造語|しんぞうご}を{作|つく}る: to coin a new word\n- {新造語|しんぞうご}が{定着|ていちゃく}する: for a neologism to become established\n- {新造語|しんぞうご}が{生|う}まれる: for a neologism to emerge\n\nSIMILAR WORDS:\n- {造語|ぞうご}: coined word — a broader term that includes any artificially created word regardless of when it was coined\n- {新語|しんご}: new word — a word that has recently entered the language, whether coined or borrowed\n- {流行語|りゅうこうご}: buzzword, trendy expression — a word or phrase that is currently popular, but may not be newly created",
-  "cross_references": [],
+  "notes": "Composed of ⟦{新造|しんぞう}→新造：26611_shinzou⟧ (newly made) and ⟦{語|ご}→〜語：09841_go⟧ (word). Japanese has a rich tradition of word creation, particularly through combining kanji compounds, borrowing from English (wasei-eigo), and blending elements from multiple languages.\n\nCOMMON COLLOCATIONS:\n- {新造語|しんぞうご}⟦を→を：00422_wo⟧⟦{作|つく}る→作る：00481_tsukuru⟧: to coin a new word\n- {新造語|しんぞうご}⟦が→が：00051_ga⟧⟦{定着|ていちゃく}→定着：07594_teichaku⟧⟦する→する：00392_suru⟧: for a neologism to become established\n- {新造語|しんぞうご}⟦が→が：00051_ga⟧⟦{生|う}まれる→生まれる：00905_umareru⟧: for a neologism to emerge\n\nSIMILAR WORDS:\n- ⟦{造語|ぞうご}→造語：25313_zougo⟧: coined word — a broader term that includes any artificially created word regardless of when it was coined\n- ⟦{新語|しんご}→新語：21555_shingo⟧: new word — a word that has recently entered the language, whether coined or borrowed\n- ⟦{流行語|りゅうこうご}→流行語：13307_ryuukougo⟧: buzzword, trendy expression — a word or phrase that is currently popular, but may not be newly created",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21555_shingo",
+      "reading": "しんご",
+      "headword": "{新語|しんご}",
+      "label": "new word"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13307_ryuukougo",
+      "reading": "りゅうこうご",
+      "headword": "{流行語|りゅうこうご}",
+      "label": "buzzword, trendy expression"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -63,6 +78,6 @@
       ]
     },
     "created": "2026-05-03T16:11:20Z",
-    "modified": "2026-05-03T16:11:20Z"
+    "modified": "2026-09-02T04:02:27Z"
   }
 }

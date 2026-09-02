@@ -3,7 +3,7 @@
   "headword": "{薫|かお}る",
   "reading": "かおる",
   "romaji": "kaoru",
-  "part_of_speech": "godan verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to give off a pleasant fragrance; to be redolent",
   "conjugation": {
     "type": "godan",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "19582_kaoru_ex1",
-      "japanese": "{花|はな}が{薫|かお}る{季節|きせつ}だ。",
+      "japanese": "⟦{花|はな}→花：00523_hana⟧⟦が→が：00051_ga⟧{薫|かお}る⟦{季節|きせつ}→季節：01304_kisetsu⟧だ。",
       "english": "It's the season when the flowers are fragrant.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "19582_kaoru_ex2",
-      "japanese": "{風|かぜ}に{薫|かお}る{梅|うめ}の{香|か}りが{心地|ここち}よい。",
+      "japanese": "⟦{風|かぜ}→風：00641_kaze⟧⟦に→に：00314_ni⟧{薫|かお}る⟦{梅|うめ}→梅：01869_ume⟧⟦の→の：09472_no⟧{香|か}り⟦が→が：00051_ga⟧⟦{心地|ここち}よい→心地よい：12515_kokochiyoi⟧。",
       "english": "The plum blossom fragrance carried on the breeze is pleasant.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "19582_kaoru_ex3",
-      "japanese": "{新緑|しんりょく}が{薫|かお}る{五月|ごがつ}の{朝|あさ}は、{散歩|さんぽ}するのに{最高|さいこう}だ。",
+      "japanese": "⟦{新緑|しんりょく}→新緑：12724_shinryoku⟧⟦が→が：00051_ga⟧{薫|かお}る⟦{五月|ごがつ}→五月：00625_gogatsu⟧⟦の→の：09472_no⟧⟦{朝|あさ}→朝：02277_asa⟧⟦は→は：00079_ha⟧、⟦{散歩|さんぽ}する→散歩する：26840_sanposuru⟧⟦の→の：09472_no⟧⟦に→に：00314_ni⟧⟦{最高|さいこう}→最高：02637_saikou⟧だ。",
       "english": "A May morning fragrant with fresh greenery is perfect for a walk.",
       "sense_numbers": [
         1
@@ -134,8 +134,24 @@
       "notes": null
     }
   ],
-  "notes": "A godan verb (る row) that is a literary variant of {香|かお}る. While both mean \"to be fragrant,\" {薫|かお}る has a more refined, evocative quality. It is especially associated with classical poetry and seasonal writing.\n\nKANJI NOTE:\nThe kanji {薫|かおる} suggests a warm, enveloping fragrance (related to smoking or incense), while {香|かおる} is the more general character for scent. In modern usage, {薫|かお}る tends to appear in literary or poetic contexts.\n\nCOMMON COLLOCATIONS:\n- {風|かぜ}{薫|かお}る{五月|ごがつ} — fragrant-breeze May (a classic seasonal expression)\n- {緑|みどり}が{薫|かお}る — the greenery is fragrant\n- {花|はな}が{薫|かお}る — the flowers are fragrant\n\nSIMILAR WORDS:\n- {香|かお}る — to be fragrant; the standard form, used more broadly in everyday contexts\n- {匂|にお}う — to smell; neutral as to whether the scent is pleasant or unpleasant, while {薫|かお}る always implies a pleasant fragrance",
+  "notes": "A godan verb (る row) that is a literary variant of ⟦{香|かお}る→香る：14841_kaoru⟧. While both mean \"to be fragrant,\" {薫|かお}る has a more refined, evocative quality. It is especially associated with classical poetry and seasonal writing.\n\nWRITING:\nThe kanji {薫|かおる} suggests a warm, enveloping fragrance (related to smoking or incense), while {香|かおる} is the more general character for scent. In modern usage, {薫|かお}る tends to appear in literary or poetic contexts.\n\nCOMMON COLLOCATIONS:\n- ⟦{風|かぜ}→風：00641_kaze⟧{薫|かお}る⟦{五月|ごがつ}→五月：00625_gogatsu⟧ — fragrant-breeze May (a classic seasonal expression)\n- ⟦{緑|みどり}→緑：00970_midori⟧⟦が→が：00051_ga⟧{薫|かお}る — the greenery is fragrant\n- ⟦{花|はな}→花：00523_hana⟧⟦が→が：00051_ga⟧{薫|かお}る — the flowers are fragrant\n\nSIMILAR WORDS:\n- ⟦{香|かお}る→香る：14841_kaoru⟧ — to be fragrant; the standard form, used more broadly in everyday contexts\n- ⟦{匂|にお}う→匂う：00319_niou⟧ — to smell; neutral as to whether the scent is pleasant or unpleasant, while {薫|かお}る always implies a pleasant fragrance",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "homophone",
+      "target_id": "14841_kaoru",
+      "reading": "かおる",
+      "headword": "{香|かお}る",
+      "label": "to be fragrant"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00319_niou",
+      "reading": "におう",
+      "headword": "{匂|にお}う",
+      "label": "to smell"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -147,9 +163,10 @@
       "semantic": [
         "nature"
       ],
-      "verb_class": "godan-ru"
+      "verb_class": "godan-ru",
+      "transitivity": "intransitive"
     },
     "created": "2026-03-26T07:23:26Z",
-    "modified": "2026-07-26T21:31:07Z"
+    "modified": "2026-09-02T04:01:56Z"
   }
 }

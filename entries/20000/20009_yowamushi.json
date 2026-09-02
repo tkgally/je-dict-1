@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "20009_yowamushi_ex1",
-      "japanese": "{弱虫|よわむし}！{泣|な}くな。",
+      "japanese": "{弱虫|よわむし}！⟦{泣|な}く→泣く：00655_naku⟧な。",
       "english": "Don't be a crybaby! Stop crying.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "20009_yowamushi_ex2",
-      "japanese": "{子供|こども}の{頃|ころ}は{弱虫|よわむし}だった。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧⟦の→の：09472_no⟧{頃|ころ}⟦は→は：00079_ha⟧{弱虫|よわむし}だった。",
       "english": "I was a wimp when I was a kid.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "20009_yowamushi_ex3",
-      "japanese": "{弱虫|よわむし}と{呼|よ}ばれるのが{嫌|いや}で、{勇気|ゆうき}を{出|だ}して{挑戦|ちょうせん}した。",
+      "japanese": "{弱虫|よわむし}⟦と→と：00512_to⟧⟦{呼|よ}ばれる→呼ぶ：00766_yobu⟧⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦{嫌|いや}→嫌：10232_iya⟧で、⟦{勇気|ゆうき}→勇気：02499_yuuki⟧⟦を→を：00422_wo⟧⟦{出|だ}して→出す：01087_dasu⟧⟦{挑戦|ちょうせん}した→挑戦する：21602_chousensuru⟧。",
       "english": "I didn't want to be called a coward, so I mustered my courage and took on the challenge.",
       "sense_numbers": [
         1
@@ -44,8 +44,45 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {弱|よわ}い (weak) and {虫|むし} (bug/insect). The {虫|むし} suffix is used in several Japanese words to describe personality types, similar to English expressions like \"bookworm.\"\n\nCOMMON COLLOCATIONS:\n- {弱虫|よわむし}な{子|こ}: a timid child\n- {弱虫|よわむし}と{呼|よ}ばれる: to be called a wimp\n- {弱虫|よわむし}を{克服|こくふく}する: to overcome one's timidity\n\nRELATED WORDS WITH {虫|むし}:\n- {泣|な}き{虫|むし}: crybaby (focuses specifically on crying)\n- {怠|なま}け{虫|むし}: lazybones\n- {本|ほん}の{虫|むし}: bookworm\n\nUSAGE:\nMost commonly used by or about children. Among adults, it is playful or teasing rather than a serious insult. Can function as a な-adjective when modifying nouns: {弱虫|よわむし}な{性格|せいかく} (a timid personality).",
+  "notes": "A compound of ⟦{弱|よわ}い→弱い：00825_yowai⟧ (weak) and ⟦{虫|むし}→虫：02262_mushi⟧ (bug/insect). The ⟦{虫|むし}→虫：02262_mushi⟧ suffix is used in several Japanese words to describe personality types, similar to English expressions like \"bookworm.\"\n\nCOMMON COLLOCATIONS:\n- {弱虫|よわむし}な⟦{子|こ}→子：09851_ko⟧: a timid child\n- {弱虫|よわむし}⟦と→と：00512_to⟧⟦{呼|よ}ばれる→呼ぶ：00766_yobu⟧: to be called a wimp\n- {弱虫|よわむし}⟦を→を：00422_wo⟧⟦{克服|こくふく}する→克服する：15863_kokufukusuru⟧: to overcome one's timidity\n\nRELATED WORDS WITH {虫|むし}:\n- {泣|な}き{虫|むし}: crybaby (focuses specifically on crying)\n- ⟦{怠|なま}け→怠ける：02379_namakeru⟧⟦{虫|むし}→虫：02262_mushi⟧: lazybones\n- {本|ほん}⟦の→の：09472_no⟧⟦{虫|むし}→虫：02262_mushi⟧: bookworm\n\nUSAGE:\nMost commonly used by or about children. Among adults, it is playful or teasing rather than a serious insult. Can function as a な-adjective when modifying nouns: {弱虫|よわむし}な⟦{性格|せいかく}→性格：03371_seikaku⟧ (a timid personality).",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "07608_okubyou",
+      "reading": "おくびょう",
+      "headword": "{臆病|おくびょう}",
+      "label": "cowardly"
+    },
+    {
+      "type": "related",
+      "target_id": "18645_shoushinmono",
+      "reading": "しょうしんもの",
+      "headword": "{小心者|しょうしんもの}",
+      "label": "coward"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20912_hetare",
+      "reading": "へたれ",
+      "headword": "へたれ",
+      "label": "wimp"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23114_okubyoumono",
+      "reading": "おくびょうもの",
+      "headword": "{臆病者|おくびょうもの}",
+      "label": "coward"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28439_hikyoumono",
+      "reading": "ひきょうもの",
+      "headword": "{卑怯者|ひきょうもの}",
+      "label": "coward"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +97,6 @@
       ]
     },
     "created": "2026-03-28T05:20:09Z",
-    "modified": "2026-03-28T05:20:09Z"
+    "modified": "2026-09-02T04:01:58Z"
   }
 }

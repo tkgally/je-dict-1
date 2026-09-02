@@ -15,40 +15,65 @@
   "examples": [
     {
       "id": "11868_daihon_ex1",
-      "japanese": "{台本|だいほん}を{読|よ}んで{練習|れんしゅう}する。",
+      "japanese": "{台本|だいほん}⟦を→を：00422_wo⟧⟦{読|よ}んで→読む：00426_yomu⟧⟦{練習|れんしゅう}する→練習する：22991_renshuusuru⟧。",
       "english": "I practice by reading the script.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11868_daihon_ex2",
-      "japanese": "{監督|かんとく}が{台本|だいほん}を{書|か}き{直|なお}した。",
+      "japanese": "⟦{監督|かんとく}→監督：00185_kantoku⟧⟦が→が：00051_ga⟧{台本|だいほん}⟦を→を：00422_wo⟧⟦{書|か}き{直|なお}した→書き直す：04597_kakinaosu⟧。",
       "english": "The director rewrote the script.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11868_daihon_ex3",
-      "japanese": "まるで{台本|だいほん}があるかのように{話|はなし}が{進|すす}んだ。",
+      "japanese": "⟦まるで→まるで：03739_marude⟧{台本|だいほん}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧⟦か→か：09473_ka⟧⟦のように→のように：30291_noyouni⟧⟦{話|はなし}→話：01496_hanashi⟧⟦が→が：00051_ga⟧⟦{進|すす}んだ→進む：01225_susumu⟧。",
       "english": "Things progressed as if there were a script.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "Used for scripts in theater, TV, film, and radio. Can also be used figuratively to suggest something feels planned or staged.\n\nCOMMON COLLOCATIONS:\n・{台本|だいほん}を{書|か}く — to write a script\n・{台本|だいほん}{通|どお}り — according to the script\n・{台本|だいほん}を{覚|おぼ}える — to memorize the script\n・{台本|だいほん}{読|よ}み — script reading (rehearsal)\n\nSIMILAR WORDS:\n・{脚本|きゃくほん} — screenplay, script (more formal, emphasizes the written work)\n・シナリオ — scenario, screenplay (loanword, also used figuratively)",
-  "cross_references": [],
+  "notes": "Used for scripts in theater, TV, film, and radio. Can also be used figuratively to suggest something feels planned or staged.\n\nCOMMON COLLOCATIONS:\n- {台本|だいほん}⟦を→を：00422_wo⟧⟦{書|か}く→書く：00477_kaku⟧ — to write a script\n- {台本|だいほん}{通|どお}り — according to the script\n- {台本|だいほん}⟦を→を：00422_wo⟧⟦{覚|おぼ}える→覚える：00739_oboeru⟧ — to memorize the script\n- {台本|だいほん}⟦{読|よ}み→読み：00425_yomi⟧ — script reading (rehearsal)\n\nSIMILAR WORDS:\n- ⟦{脚本|きゃくほん}→脚本：04459_kyakuhon⟧ — screenplay, script (more formal, emphasizes the written work)\n- ⟦シナリオ→シナリオ：10940_shinario⟧ — scenario, screenplay (loanword, also used figuratively)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04459_kyakuhon",
+      "reading": "きゃくほん",
+      "headword": "{脚本|きゃくほん}",
+      "label": "screenplay, script"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10940_shinario",
+      "reading": "しなりお",
+      "headword": "シナリオ",
+      "label": "scenario, screenplay"
+    }
+  ],
   "metadata": {
     "created": "2026-02-18T13:43:09Z",
-    "modified": "2026-02-18T13:43:09Z",
+    "modified": "2026-09-02T04:01:26Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["leisure"]
+      "semantic": [
+        "leisure"
+      ]
     }
   }
 }

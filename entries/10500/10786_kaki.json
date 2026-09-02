@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "10786_kaki_ex1",
-      "japanese": "{生|なま}ガキを{食|た}べる。",
+      "japanese": "{生|なま}ガキ⟦を→を：00422_wo⟧⟦{食|た}べる→食べる：00396_taberu⟧。",
       "english": "To eat raw oysters.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "10786_kaki_ex2",
-      "japanese": "{冬|ふゆ}は{牡蠣|かき}が{旬|しゅん}だ。",
+      "japanese": "⟦{冬|ふゆ}→冬：00623_fuyu⟧⟦は→は：00079_ha⟧{牡蠣|かき}⟦が→が：00051_ga⟧⟦{旬|しゅん}→旬：12716_shun⟧だ。",
       "english": "Oysters are in season in winter.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "10786_kaki_ex3",
-      "japanese": "{広島|ひろしま}は{牡蠣|かき}の{産地|さんち}として{有名|ゆうめい}だ。",
+      "japanese": "⟦{広島|ひろしま}→広島：28985_hiroshima⟧⟦は→は：00079_ha⟧{牡蠣|かき}⟦の→の：09472_no⟧⟦{産地|さんち}→産地：04031_sanchi⟧⟦として→として：06802_toshite⟧⟦{有名|ゆうめい}→有名：01106_yuumei⟧だ。",
       "english": "Hiroshima is famous as an oyster-producing region.",
       "notes": null,
       "has_audio": false,
@@ -44,8 +44,16 @@
       ]
     }
   ],
-  "notes": "WRITING:\nOften written in katakana as カキ, especially on menus and in food contexts. The kanji {牡蠣|かき} is used in formal writing.\n\nCULTURAL NOTE:\nOysters are a major winter delicacy in Japan. {広島|ひろしま} and {宮城|みやぎ} are the top producing prefectures. Common preparations include {生|なま}ガキ (raw), {焼|や}きガキ (grilled), and {牡蠣|かき}フライ (deep-fried).\n\nCOMMON COLLOCATIONS:\n- {牡蠣|かき}フライ: deep-fried oyster\n- {焼|や}きガキ: grilled oyster\n- {生|なま}ガキ: raw oyster\n- {殻付|からつ}きガキ: oyster in the shell\n- {牡蠣|かき}にあたる: to get food poisoning from oysters",
-  "cross_references": [],
+  "notes": "WRITING:\nOften written in katakana as カキ, especially on menus and in food contexts. The kanji {牡蠣|かき} is used in formal writing.\n\nCULTURAL NOTE:\nOysters are a major winter delicacy in Japan. ⟦{広島|ひろしま}→広島：28985_hiroshima⟧ and {宮城|みやぎ} are the top producing prefectures. Common preparations include {生|なま}ガキ (raw), ⟦{焼|や}き→焼く：01123_yaku⟧⟦ガキ→ガキ：09305_gaki⟧ (grilled), and {牡蠣|かき}⟦フライ→フライ：11124_furai⟧ (deep-fried).\n\nCOMMON COLLOCATIONS:\n- {牡蠣|かき}⟦フライ→フライ：11124_furai⟧: deep-fried oyster\n- ⟦{焼|や}き→焼く：01123_yaku⟧⟦ガキ→ガキ：09305_gaki⟧: grilled oyster\n- {生|なま}ガキ: raw oyster\n- {殻付|からつ}き⟦ガキ→ガキ：09305_gaki⟧: oyster in the shell\n- {牡蠣|かき}⟦に→に：00314_ni⟧あたる: to get food poisoning from oysters",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24033_shinjugai",
+      "reading": "しんじゅがい",
+      "headword": "{真珠貝|しんじゅがい}",
+      "label": "pearl oyster"
+    }
+  ],
   "prominent_see_also": [
     {
       "target_id": "04384_kaki",
@@ -56,7 +64,7 @@
   ],
   "metadata": {
     "created": "2026-02-10T08:06:05Z",
-    "modified": "2026-06-28T03:46:26Z",
+    "modified": "2026-09-02T04:01:22Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

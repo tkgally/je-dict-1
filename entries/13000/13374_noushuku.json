@@ -3,7 +3,7 @@
   "id": "13374_noushuku",
   "headword": "{濃縮|のうしゅく}",
   "reading": "のうしゅく",
-  "part_of_speech": "noun / suru verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "concentration, condensation",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "13374_noushuku_ex1",
-      "japanese": "{濃縮|のうしゅく}ジュースを{水|みず}で{薄|うす}める。",
+      "japanese": "{濃縮|のうしゅく}⟦ジュース→ジュース：01033_juusu⟧⟦を→を：00422_wo⟧⟦{水|みず}→水：02258_mizu⟧⟦で→で：00502_de⟧⟦{薄|うす}める→薄める：10055_usumeru⟧。",
       "english": "To dilute concentrated juice with water.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "13374_noushuku_ex2",
-      "japanese": "ウランを{濃縮|のうしゅく}する{技術|ぎじゅつ}がある。",
+      "japanese": "ウラン⟦を→を：00422_wo⟧{濃縮|のうしゅく}⟦する→する：00392_suru⟧⟦{技術|ぎじゅつ}→技術：01389_gijutsu⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There is technology for enriching uranium.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "13374_noushuku_ex3",
-      "japanese": "{三十年|さんじゅうねん}の{経験|けいけん}が{濃縮|のうしゅく}された{一冊|いっさつ}の{本|ほん}だ。",
+      "japanese": "{三十年|さんじゅうねん}⟦の→の：09472_no⟧⟦{経験|けいけん}→経験：01179_keiken⟧⟦が→が：00051_ga⟧{濃縮|のうしゅく}⟦された→する：00392_suru⟧⟦{一冊|いっさつ}→一冊：23149_issatsu⟧⟦の→の：09472_no⟧{本|ほん}だ。",
       "english": "It is a book that condenses thirty years of experience.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,19 @@
       ]
     }
   ],
-  "notes": "USAGE:\nUsed both literally (chemistry, food science) and figuratively (condensing experience, knowledge, etc.). The passive form {濃縮|のうしゅく}された is common when describing something that has been concentrated.\n\nCOMMON COLLOCATIONS:\n- {濃縮|のうしゅく}ジュース: concentrated juice\n- {濃縮|のうしゅく}ウラン: enriched uranium\n- {濃縮|のうしゅく}された: concentrated, condensed\n- {濃縮|のうしゅく}{還元|かんげん}: from concentrate (on labels)",
-  "cross_references": [],
+  "notes": "USAGE:\nUsed both literally (chemistry, food science) and figuratively (condensing experience, knowledge, etc.). The passive form {濃縮|のうしゅく}⟦された→する：00392_suru⟧ is common when describing something that has been concentrated.\n\nCOMMON COLLOCATIONS:\n- {濃縮|のうしゅく}⟦ジュース→ジュース：01033_juusu⟧: concentrated juice\n- {濃縮|のうしゅく}ウラン: enriched uranium\n- {濃縮|のうしゅく}⟦された→する：00392_suru⟧: concentrated, condensed\n- {濃縮|のうしゅく}⟦{還元|かんげん}→還元：08021_kangen⟧: from concentrate (on labels)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18672_kishaku",
+      "reading": "きしゃく",
+      "headword": "{希釈|きしゃく}",
+      "label": "dilution"
+    }
+  ],
   "metadata": {
     "created": "2026-02-24T11:04:10Z",
-    "modified": "2026-07-10T04:36:00Z",
+    "modified": "2026-09-02T04:01:32Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -152,7 +160,8 @@
         "science",
         "cooking"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

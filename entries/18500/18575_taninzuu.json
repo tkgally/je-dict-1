@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "18575_taninzuu_ex1",
-      "japanese": "{多人数|たにんずう}での{利用|りよう}も{可能|かのう}です。",
+      "japanese": "{多人数|たにんずう}⟦で→で：00502_de⟧⟦の→の：09472_no⟧⟦{利用|りよう}→利用：01752_riyou⟧⟦も→も：00484_mo⟧⟦{可能|かのう}→可能：00175_kanou⟧です。",
       "english": "It can also be used by large groups.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "18575_taninzuu_ex2",
-      "japanese": "{多人数|たにんずう}で{遊|あそ}べるゲームを{探|さが}している。",
+      "japanese": "{多人数|たにんずう}⟦で→で：00502_de⟧⟦{遊|あそ}べる→遊ぶ：00550_asobu⟧⟦ゲーム→ゲーム：03842_geemu⟧⟦を→を：00422_wo⟧⟦{探|さが}している→探す：00493_sagasu⟧。",
       "english": "I'm looking for a game that can be played with many people.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "18575_taninzuu_ex3",
-      "japanese": "{多人数|たにんずう}に{対応|たいおう}できる{会議室|かいぎしつ}を{予約|よやく}した。",
+      "japanese": "{多人数|たにんずう}⟦に→に：00314_ni⟧⟦{対応|たいおう}→対応：02510_taiou⟧⟦できる→できる：00557_dekiru⟧⟦{会議室|かいぎしつ}→会議室：01265_kaigishitsu⟧⟦を→を：00422_wo⟧⟦{予約|よやく}した→予約する：22989_yoyakusuru⟧。",
       "english": "I reserved a conference room that can accommodate a large group.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,26 @@
       ]
     }
   ],
-  "notes": "USAGE:\nOften used with で to indicate the group context ({多人数|たにんずう}で = with many people). Common in gaming, events, and facility descriptions.\n\nCOMMON COLLOCATIONS:\n- {多人数|たにんずう}で{遊|あそ}ぶ (to play with many people)\n- {多人数|たにんずう}{向|む}け (for large groups)\n- {多人数|たにんずう}に{対応|たいおう}する (to accommodate large groups)\n\nSIMILAR WORDS:\n- {大人数|おおにんずう}: large number of people — essentially the same meaning, slightly more common in casual speech\n- {少人数|しょうにんずう}: small number of people — the opposite, a small group",
-  "cross_references": [],
+  "notes": "USAGE:\nOften used with で to indicate the group context ({多人数|たにんずう}⟦で→で：00502_de⟧ = with many people). Common in gaming, events, and facility descriptions.\n\nCOMMON COLLOCATIONS:\n- {多人数|たにんずう}⟦で→で：00502_de⟧⟦{遊|あそ}ぶ→遊ぶ：00550_asobu⟧ (to play with many people)\n- {多人数|たにんずう}{向|む}け (for large groups)\n- {多人数|たにんずう}⟦に→に：00314_ni⟧⟦{対応|たいおう}→対応：02510_taiou⟧⟦する→する：00392_suru⟧ (to accommodate large groups)\n\nSIMILAR WORDS:\n- ⟦{大人数|おおにんずう}→大人数：22750_ooninzuu⟧: large number of people — essentially the same meaning, slightly more common in casual speech\n- ⟦{少人数|しょうにんずう}→少人数：12465_shouninzuu⟧: small number of people — the opposite, a small group",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22750_ooninzuu",
+      "reading": "おおにんずう",
+      "headword": "{大人数|おおにんずう}",
+      "label": "large number of people"
+    },
+    {
+      "type": "antonym",
+      "target_id": "12465_shouninzuu",
+      "reading": "しょうにんずう",
+      "headword": "{少人数|しょうにんずう}",
+      "label": "small number of people"
+    }
+  ],
   "metadata": {
     "created": "2026-03-22T09:00:40Z",
-    "modified": "2026-07-25T21:35:01Z",
+    "modified": "2026-09-02T04:01:52Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

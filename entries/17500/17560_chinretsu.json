@@ -2,7 +2,7 @@
   "id": "17560_chinretsu",
   "headword": "{陳列|ちんれつ}",
   "reading": "ちんれつ",
-  "part_of_speech": "noun, suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "display; exhibition; showcasing",
   "conjugation": {
     "type": "suru",
@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "17560_chinretsu_ex1",
-      "japanese": "{商品|しょうひん}を{棚|たな}に{陳列|ちんれつ}する。",
+      "japanese": "⟦{商品|しょうひん}→商品：01436_shouhin⟧⟦を→を：00422_wo⟧⟦{棚|たな}→棚：01650_tana⟧⟦に→に：00314_ni⟧{陳列|ちんれつ}⟦する→する：00392_suru⟧。",
       "english": "To display products on the shelves.",
       "has_audio": false,
       "sense_numbers": [
@@ -113,7 +113,7 @@
     },
     {
       "id": "17560_chinretsu_ex2",
-      "japanese": "{美術館|びじゅつかん}に{貴重|きちょう}な{絵画|かいが}が{陳列|ちんれつ}されている。",
+      "japanese": "⟦{美術館|びじゅつかん}→美術館：01717_bijutsukan⟧⟦に→に：00314_ni⟧⟦{貴重|きちょう}→貴重：00223_kichou⟧な⟦{絵画|かいが}→絵画：02597_kaiga⟧⟦が→が：00051_ga⟧{陳列|ちんれつ}⟦されている→する：00392_suru⟧。",
       "english": "Valuable paintings are displayed in the museum.",
       "has_audio": false,
       "sense_numbers": [
@@ -122,7 +122,7 @@
     },
     {
       "id": "17560_chinretsu_ex3",
-      "japanese": "{新作|しんさく}の{陳列|ちんれつ}が{終|お}わったら、{店|みせ}を{開|あ}けましょう。",
+      "japanese": "⟦{新作|しんさく}→新作：09523_shinsaku⟧⟦の→の：09472_no⟧{陳列|ちんれつ}⟦が→が：00051_ga⟧⟦{終|お}わったら→終わる：00567_owaru⟧、⟦{店|みせ}→店：00497_mise⟧⟦を→を：00422_wo⟧⟦{開|あ}けましょう→開ける：00563_akeru⟧。",
       "english": "Let's open the store once we're done displaying the new products.",
       "has_audio": false,
       "sense_numbers": [
@@ -130,7 +130,7 @@
       ]
     }
   ],
-  "notes": "COMMON COLLOCATIONS:\n・{商品|しょうひん}{陳列|ちんれつ} - product display\n・{陳列|ちんれつ}{棚|だな} - display shelf\n・{陳列|ちんれつ}ケース - display case\n・{陳列|ちんれつ}{台|だい} - display stand\n・{陳列|ちんれつ}{室|しつ} - showroom\n\nCOMPARISON:\n・{陳列|ちんれつ} - display (formal, for products/exhibits)\n・{展示|てんじ} - exhibition (art, demonstrations)\n・{飾|かざ}る - to decorate/display (general term)\n・ディスプレイ - display (loanword, often for visual merchandising)",
+  "notes": "COMMON COLLOCATIONS:\n- ⟦{商品|しょうひん}→商品：01436_shouhin⟧{陳列|ちんれつ} - product display\n- {陳列|ちんれつ}{棚|だな} - display shelf\n- {陳列|ちんれつ}⟦ケース→ケース：03841_keesu⟧ - display case\n- {陳列|ちんれつ}{台|だい} - display stand\n- {陳列|ちんれつ}⟦{室|しつ}→室：09946_shitsu⟧ - showroom\n\nSIMILAR WORDS:\n- {陳列|ちんれつ} - display (formal, for products/exhibits)\n- ⟦{展示|てんじ}→展示：12401_tenji⟧ - exhibition (art, demonstrations)\n- ⟦{飾|かざ}る→飾る：01185_kazaru⟧ - to decorate/display (general term)\n- ⟦ディスプレイ→ディスプレイ：04891_disupurei⟧ - display (loanword, often for visual merchandising)",
   "cross_references": [
     {
       "type": "synonym",
@@ -145,11 +145,18 @@
       "reading": "かざる",
       "headword": "{飾|かざ}る",
       "label": "to decorate, display"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04891_disupurei",
+      "reading": "でぃすぷれい",
+      "headword": "ディスプレイ",
+      "label": "display"
     }
   ],
   "metadata": {
     "created": "2026-01-22T23:40:24Z",
-    "modified": "2026-07-23T19:02:37Z",
+    "modified": "2026-09-02T04:01:48Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -158,6 +165,7 @@
         "verb-suru"
       ],
       "formality": "formal",
+      "politeness": "plain",
       "semantic": [
         "shopping",
         "business"

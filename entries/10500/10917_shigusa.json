@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "10917_shigusa_ex1",
-      "japanese": "かわいい{仕草|しぐさ}だ。",
+      "japanese": "⟦かわいい→かわいい：00857_kawaii⟧{仕草|しぐさ}だ。",
       "english": "What a cute gesture.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "10917_shigusa_ex2",
-      "japanese": "{赤|あか}ちゃんの{仕草|しぐさ}を{見|み}ていると{癒|いや}される。",
+      "japanese": "⟦{赤|あか}ちゃん→赤ちゃん：01282_akachan⟧⟦の→の：09472_no⟧{仕草|しぐさ}⟦を→を：00422_wo⟧⟦{見|み}ている→見る：00283_miru⟧⟦と→と：00512_to⟧⟦{癒|いや}される→癒す：13616_iyasu⟧。",
       "english": "Watching a baby's gestures is soothing.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "10917_shigusa_ex3",
-      "japanese": "{彼女|かのじょ}は{髪|かみ}を{触|さわ}る{仕草|しぐさ}が{癖|くせ}になっている。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧⟦{髪|かみ}→髪：02196_kami⟧⟦を→を：00422_wo⟧⟦{触|さわ}る→触る：00808_sawaru⟧{仕草|しぐさ}⟦が→が：00051_ga⟧⟦{癖|くせ}→癖：03814_kuse⟧になっている。",
       "english": "She has a habit of touching her hair — it's become one of her mannerisms.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "WRITING:\nAlso written as {仕種|しぐさ}. Both kanji forms are used, but {仕草|しぐさ} is more common.\n\nUSAGE:\nOften describes small, characteristic movements that reveal personality or emotion. Frequently modified by adjectives like かわいい (cute), {上品|じょうひん} (elegant), or {自然|しぜん} (natural). Common in descriptions of people, animals, and acting/performance.\n\nCOMMON COLLOCATIONS:\n- かわいい{仕草|しぐさ}: cute gesture\n- {何気|なにげ}ない{仕草|しぐさ}: casual gesture, unintentional mannerism\n- {仕草|しぐさ}が{似|に}ている: to have similar mannerisms",
+  "notes": "WRITING:\nAlso written as {仕種|しぐさ}. Both kanji forms are used, but {仕草|しぐさ} is more common.\n\nUSAGE:\nOften describes small, characteristic movements that reveal personality or emotion. Frequently modified by adjectives like ⟦かわいい→かわいい：00857_kawaii⟧ (cute), ⟦{上品|じょうひん}→上品：03081_jouhin⟧ (elegant), or ⟦{自然|しぜん}→自然：01423_shizen⟧ (natural). Common in descriptions of people, animals, and acting/performance.\n\nCOMMON COLLOCATIONS:\n- ⟦かわいい→かわいい：00857_kawaii⟧{仕草|しぐさ}: cute gesture\n- ⟦{何気|なにげ}ない→何気ない：10576_nanigenai⟧{仕草|しぐさ}: casual gesture, unintentional mannerism\n- {仕草|しぐさ}⟦が→が：00051_ga⟧⟦{似|に}ている→似る：01159_niru⟧: to have similar mannerisms",
   "cross_references": [
     {
       "type": "synonym",
@@ -59,11 +59,18 @@
       "reading": "どうさ",
       "headword": "{動作|どうさ}",
       "label": "action, movement"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30134_tetsuki",
+      "reading": "てつき",
+      "headword": "{手|て}つき",
+      "label": "way one uses one's hands"
     }
   ],
   "metadata": {
     "created": "2026-02-11T12:59:52Z",
-    "modified": "2026-06-28T18:50:11Z",
+    "modified": "2026-09-02T04:01:23Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

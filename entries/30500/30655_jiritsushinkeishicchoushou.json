@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30655_jiritsushinkeishicchoushou_ex1",
-      "japanese": "{自律神経失調症|じりつしんけいしっちょうしょう}と{診断|しんだん}された。",
+      "japanese": "{自律神経失調症|じりつしんけいしっちょうしょう}⟦と→と：00512_to⟧⟦{診断|しんだん}→診断：04209_shindan⟧⟦された→する：00392_suru⟧。",
       "english": "I was diagnosed with an autonomic nervous system disorder.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30655_jiritsushinkeishicchoushou_ex2",
-      "japanese": "{自律神経失調症|じりつしんけいしっちょうしょう}で{朝|あさ}なかなか{起|お}きられない。",
+      "japanese": "{自律神経失調症|じりつしんけいしっちょうしょう}⟦で→で：00502_de⟧⟦{朝|あさ}→朝：02277_asa⟧⟦なかなか→なかなか：01547_nakanaka⟧⟦{起|お}きられない→起きる：00521_okiru⟧。",
       "english": "Because of dysautonomia, I have a hard time getting up in the morning.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30655_jiritsushinkeishicchoushou_ex3",
-      "japanese": "{季節|きせつ}の{変|か}わり{目|め}に{体調|たいちょう}を{崩|くず}すので、{自律神経失調症|じりつしんけいしっちょうしょう}ではないかと{心配|しんぱい}している。",
+      "japanese": "⟦{季節|きせつ}の{変|か}わり{目|め}→季節の変わり目：22134_kisetsunokawarime⟧⟦に→に：00314_ni⟧⟦{体調|たいちょう}を{崩|くず}す→体調を崩す：16480_taichouwokuzusu⟧⟦の→の：09472_no⟧で、{自律神経失調症|じりつしんけいしっちょうしょう}⟦ではないか→ではないか：30627_dehanaika⟧⟦と→と：00512_to⟧⟦{心配|しんぱい}している→心配する：06066_shinpaisuru⟧。",
       "english": "I fall ill whenever the seasons change, so I'm worried it might be an autonomic nervous system disorder.",
       "sense_numbers": [
         1
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "A broad, everyday diagnostic label rather than a precisely defined disease; Japanese speakers use it conversationally for run-down periods with no clear organic cause.\n\nCOMMON COLLOCATIONS:\n- {自律神経失調症|じりつしんけいしっちょうしょう}と{診断|しんだん}される: to be diagnosed with it\n- {自律神経|じりつしんけい}が{乱|みだ}れる: for the autonomic nerves to get out of balance\n- {自律神経|じりつしんけい}を{整|ととの}える: to restore autonomic balance\n\nSIMILAR WORDS:\n- {更年期障害|こうねんきしょうがい}: menopausal disorder — overlapping symptoms, but tied to a specific life stage\n- {過労|かろう}: overwork, exhaustion — a cause rather than a diagnosis",
+  "notes": "A broad, everyday diagnostic label rather than a precisely defined disease; Japanese speakers use it conversationally for run-down periods with no clear organic cause.\n\nCOMMON COLLOCATIONS:\n- {自律神経失調症|じりつしんけいしっちょうしょう}⟦と→と：00512_to⟧⟦{診断|しんだん}→診断：04209_shindan⟧⟦される→する：00392_suru⟧: to be diagnosed with it\n- ⟦{自律神経|じりつしんけい}→自律神経：08621_jiritsushinkei⟧⟦が→が：00051_ga⟧⟦{乱|みだ}れる→乱れる：09506_midareru⟧: for the autonomic nerves to get out of balance\n- ⟦{自律神経|じりつしんけい}→自律神経：08621_jiritsushinkei⟧⟦を→を：00422_wo⟧⟦{整|ととの}える→整える：04259_totonoeru⟧: to restore autonomic balance\n\nSIMILAR WORDS:\n- ⟦{更年期障害|こうねんきしょうがい}→更年期障害：30679_kounenkishougai⟧: menopausal disorder — overlapping symptoms, but tied to a specific life stage\n- ⟦{過労|かろう}→過労：08563_karou⟧: overwork, exhaustion — a cause rather than a diagnosis",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "30679_kounenkishougai",
+      "reading": "こうねんきしょうがい",
+      "headword": "{更年期障害|こうねんきしょうがい}",
+      "label": "menopausal disorder"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08563_karou",
+      "reading": "かろう",
+      "headword": "{過労|かろう}",
+      "label": "overwork, exhaustion"
+    },
+    {
+      "type": "related",
+      "target_id": "08621_jiritsushinkei",
+      "reading": "じりつしんけい",
+      "headword": "{自律神経|じりつしんけい}",
+      "label": "autonomic nervous system"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30650_shinshinshou",
+      "reading": "しんしんしょう",
+      "headword": "{心身症|しんしんしょう}",
+      "label": "psychosomatic disorder"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +83,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "health"
       ],
@@ -62,6 +92,6 @@
       ]
     },
     "created": "2026-08-15T12:20:22Z",
-    "modified": "2026-08-15T12:20:22Z"
+    "modified": "2026-09-02T04:02:41Z"
   }
 }

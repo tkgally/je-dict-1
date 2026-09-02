@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "17439_kyodoufushin_ex1",
-      "japanese": "{挙動|きょどう}{不審|ふしん}な{人物|じんぶつ}を{見|み}かけた。",
+      "japanese": "{挙動|きょどう}{不審|ふしん}な⟦{人物|じんぶつ}→人物：03356_jinbutsu⟧⟦を→を：00422_wo⟧⟦{見|み}かけた→見かける：01644_mikakeru⟧。",
       "english": "I spotted a person acting suspiciously.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "17439_kyodoufushin_ex2",
-      "japanese": "{彼|かれ}は{質問|しつもん}されると{挙動|きょどう}{不審|ふしん}になった。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{質問|しつもん}される→質問する：05637_shitsumonsuru⟧⟦と→と：00512_to⟧{挙動|きょどう}{不審|ふしん}になった。",
       "english": "He started acting suspiciously when questioned.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "17439_kyodoufushin_ex3",
-      "japanese": "{挙動|きょどう}{不審|ふしん}な{男|おとこ}が{店|みせ}の{前|まえ}をうろうろしていたので、{警察|けいさつ}に{通報|つうほう}した。",
+      "japanese": "{挙動|きょどう}{不審|ふしん}な⟦{男|おとこ}→男：00561_otoko⟧⟦が→が：00051_ga⟧⟦{店|みせ}→店：00497_mise⟧⟦の→の：09472_no⟧⟦{前|まえ}→前：02255_mae⟧⟦を→を：00422_wo⟧⟦うろうろ→うろうろ：05168_urouro⟧⟦していた→する：00392_suru⟧⟦の→の：09472_no⟧で、⟦{警察|けいさつ}→警察：01393_keisatsu⟧⟦に→に：00314_ni⟧⟦{通報|つうほう}→通報：14318_tsuuhou⟧⟦した→する：00392_suru⟧。",
       "english": "A man was acting suspiciously, loitering in front of the store, so I called the police.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nUsed in police and security contexts for describing suspicious persons, but also used casually and humorously. The shortened slang form {挙動|きょどう}る (kyodoru) means \"to act nervously/suspiciously\" in informal speech.\n\nCOMMON COLLOCATIONS:\n- {挙動|きょどう}{不審|ふしん}な{人物|じんぶつ} (suspicious person)\n- {挙動|きょどう}{不審|ふしん}になる (to start acting suspiciously)\n- {挙動|きょどう}{不審|ふしん}で{職務質問|しょくむしつもん}される (to be stopped and questioned for suspicious behavior)\n\nSIMILAR WORDS:\n- {不審者|ふしんしゃ}: suspicious person — focuses on the person rather than the behavior\n- {怪|あや}しい: suspicious, fishy — a broader, more casual adjective",
+  "notes": "USAGE:\nUsed in police and security contexts for describing suspicious persons, but also used casually and humorously. The shortened slang form ⟦{挙動|きょどう}→挙動：16126_kyodou⟧る (kyodoru) means \"to act nervously/suspiciously\" in informal speech.\n\nCOMMON COLLOCATIONS:\n- {挙動|きょどう}{不審|ふしん}な⟦{人物|じんぶつ}→人物：03356_jinbutsu⟧ (suspicious person)\n- {挙動|きょどう}{不審|ふしん}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧ (to start acting suspiciously)\n- {挙動|きょどう}{不審|ふしん}で⟦{職務質問|しょくむしつもん}→職務質問：15010_shokumushitsumon⟧⟦される→する：00392_suru⟧ (to be stopped and questioned for suspicious behavior)\n\nSIMILAR WORDS:\n- ⟦{不審者|ふしんしゃ}→不審者：11348_fushinsha⟧: suspicious person — focuses on the person rather than the behavior\n- ⟦{怪|あや}しい→怪しい：10267_ayashii⟧: suspicious, fishy — a broader, more casual adjective",
   "cross_references": [
     {
       "type": "related",
@@ -52,11 +52,18 @@
       "reading": "ふしんしゃ",
       "headword": "{不審者|ふしんしゃ}",
       "label": "suspicious person"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10267_ayashii",
+      "reading": "あやしい",
+      "headword": "{怪|あや}しい",
+      "label": "suspicious, fishy"
     }
   ],
   "metadata": {
     "created": "2026-03-17T23:24:39Z",
-    "modified": "2026-07-23T19:02:37Z",
+    "modified": "2026-09-02T04:01:48Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

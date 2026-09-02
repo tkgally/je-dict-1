@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "16704_kaitoru_ex1",
-      "japanese": "{中古|ちゅうこ}の{本|ほん}を{買|か}い{取|と}る。",
+      "japanese": "⟦{中古|ちゅうこ}→中古：03479_chuuko⟧⟦の→の：09472_no⟧{本|ほん}⟦を→を：00422_wo⟧{買|か}い{取|と}る。",
       "english": "To buy used books.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "16704_kaitoru_ex2",
-      "japanese": "この{店|みせ}ではブランド{品|ひん}を{高|たか}く{買|か}い{取|と}ってくれる。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{店|みせ}→店：00497_mise⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦ブランド→ブランド：05221_burando⟧⟦{品|ひん}→品：03712_hin⟧⟦を→を：00422_wo⟧⟦{高|たか}く→高い：00500_takai⟧{買|か}い{取|と}って⟦くれる→くれる：00724_kureru⟧。",
       "english": "This shop buys brand-name goods at good prices.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "16704_kaitoru_ex3",
-      "japanese": "{不要|ふよう}になった{家具|かぐ}をリサイクルショップに{買|か}い{取|と}ってもらった。",
+      "japanese": "⟦{不要|ふよう}→不要：02527_fuyou⟧になった⟦{家具|かぐ}→家具：12314_kagu⟧⟦を→を：00422_wo⟧⟦リサイクル→リサイクル：04624_risaikuru⟧⟦ショップ→ショップ：08913_shoppu⟧⟦に→に：00314_ni⟧{買|か}い{取|と}って⟦もらった→もらう：00520_morau⟧。",
       "english": "I had a secondhand shop buy the furniture I no longer needed.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "{買|か}い{取|と}る means to purchase something outright, often used for secondhand goods, trade-ins, and buybacks.\n\nTRANSITIVITY:\n- Type: {他動詞|たどうし} (transitive)\n- Pattern: 〜を{買|か}い{取|と}る\n\nCOMMON PATTERNS:\n- {高|たか}く{買|か}い{取|と}る: to buy at a high price\n- {安|やす}く{買|か}い{取|と}る: to buy at a low price\n- {買|か}い{取|と}ってもらう: to have someone buy (from you)\n- {買|か}い{取|と}り{専門店|せんもんてん}: specialty buyback shop\n\nRELATED TERMS:\n- {買取|かいとり}: purchase, buyback (noun form)\n- {買取|かいとり}{価格|かかく}: buyback price\n- {下取|したど}り: trade-in\n\nUSAGE:\nVery common in the context of secondhand shops (リサイクルショップ), used bookstores ({古本屋|ふるほんや}), and electronics resellers. Signs reading {高価|こうか}{買取|かいとり} (we buy at high prices) are common.",
+  "notes": "{買|か}い{取|と}る means to purchase something outright, often used for secondhand goods, trade-ins, and buybacks.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- Pattern: 〜⟦を→を：00422_wo⟧{買|か}い{取|と}る\n\nCOMMON PATTERNS:\n- ⟦{高|たか}く→高い：00500_takai⟧{買|か}い{取|と}る: to buy at a high price\n- ⟦{安|やす}く→安い：00464_yasui⟧{買|か}い{取|と}る: to buy at a low price\n- {買|か}い{取|と}って⟦もらう→もらう：00520_morau⟧: to have someone buy (from you)\n- {買|か}い{取|と}り⟦{専門店|せんもんてん}→専門店：15924_senmonten⟧: specialty buyback shop\n\nRELATED WORDS:\n- ⟦{買取|かいとり}→買取：14366_kaitori⟧: purchase, buyback (noun form)\n- ⟦{買取|かいとり}→買取：14366_kaitori⟧⟦{価格|かかく}→価格：00147_kakaku⟧: buyback price\n- ⟦{下取|したど}り→下取り：16386_shitadori⟧: trade-in\n\nUSAGE:\nVery common in the context of secondhand shops (⟦リサイクル→リサイクル：04624_risaikuru⟧⟦ショップ→ショップ：08913_shoppu⟧), used bookstores (⟦{古本屋|ふるほんや}→古本屋：16329_furuhonya⟧), and electronics resellers. Signs reading ⟦{高価|こうか}→高価：02796_kouka⟧⟦{買取|かいとり}→買取：14366_kaitori⟧ (we buy at high prices) are common.",
   "cross_references": [
     {
       "type": "related",
@@ -149,11 +149,18 @@
       "reading": "かう",
       "headword": "{買|か}う",
       "label": "to buy (general)"
+    },
+    {
+      "type": "related",
+      "target_id": "14366_kaitori",
+      "reading": "かいとり",
+      "headword": "{買取|かいとり}",
+      "label": "purchase, buyback"
     }
   ],
   "metadata": {
     "created": "2026-03-14T04:25:57Z",
-    "modified": "2026-05-04T09:30:08Z",
+    "modified": "2026-09-02T04:01:45Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

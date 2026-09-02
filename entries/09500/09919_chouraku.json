@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "09919_chouraku_ex1",
-      "japanese": "{帝国|ていこく}の{凋落|ちょうらく}が{始|はじ}まった。",
+      "japanese": "⟦{帝国|ていこく}→帝国：12420_teikoku⟧⟦の→の：09472_no⟧{凋落|ちょうらく}⟦が→が：00051_ga⟧⟦{始|はじ}まった→始まる：00841_hajimaru⟧。",
       "english": "The decline of the empire has begun.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "09919_chouraku_ex2",
-      "japanese": "{名門|めいもん}の{凋落|ちょうらく}を{目|ま}の{当|あ}たりにした。",
+      "japanese": "⟦{名門|めいもん}→名門：11955_meimon⟧⟦の→の：09472_no⟧{凋落|ちょうらく}⟦を→を：00422_wo⟧⟦{目|ま}の{当|あ}たり→目の当たり：13743_manoatari⟧にした。",
       "english": "I witnessed the fall of a distinguished family.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "09919_chouraku_ex3",
-      "japanese": "かつての{大企業|だいきぎょう}が{凋落|ちょうらく}していく{様|さま}は{悲|かな}しいものがある。",
+      "japanese": "⟦かつて→かつて：10303_katsute⟧⟦の→の：09472_no⟧⟦{大企業|だいきぎょう}→大企業：12277_daikigyou⟧⟦が→が：00051_ga⟧{凋落|ちょうらく}⟦して→する：00392_suru⟧いく⟦{様|さま}→様：01549_sama⟧⟦は→は：00079_ha⟧⟦{悲|かな}しい→悲しい：00783_kanashii⟧もの⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "It's sad to see a once-great corporation decline.",
       "notes": null,
       "has_audio": false,
@@ -133,10 +133,33 @@
       ]
     }
   ],
-  "notes": "A literary word often used to describe the decline of institutions, families, or influential figures.\n\nCOMMON COLLOCATIONS:\n- {凋落|ちょうらく}する (to decline, to fall)\n- {凋落|ちょうらく}の{一途|いっと}をたどる (to continue declining)\n- {名門|めいもん}の{凋落|ちょうらく} (fall of a distinguished family)\n\nETYMOLOGY:\nThe character {凋|ちょう} means to wither or fade, originally referring to flowers. The word evokes the image of something once beautiful or powerful fading away.\n\nRELATED TERMS:\n- {衰退|すいたい}: decline, decay\n- {没落|ぼつらく}: ruin, downfall\n- {零落|れいらく}: decline, downfall",
+  "notes": "A literary word often used to describe the decline of institutions, families, or influential figures.\n\nCOMMON COLLOCATIONS:\n- {凋落|ちょうらく}⟦する→する：00392_suru⟧ (to decline, to fall)\n- {凋落|ちょうらく}⟦の→の：09472_no⟧{一途|いっと}⟦を→を：00422_wo⟧たどる (to continue declining)\n- ⟦{名門|めいもん}→名門：11955_meimon⟧⟦の→の：09472_no⟧{凋落|ちょうらく} (fall of a distinguished family)\n\nETYMOLOGY:\nThe character {凋|ちょう} means to wither or fade, originally referring to flowers. The word evokes the image of something once beautiful or powerful fading away.\n\nRELATED WORDS:\n- ⟦{衰退|すいたい}→衰退：07428_suitai⟧: decline, decay\n- ⟦{没落|ぼつらく}→没落：15873_botsuraku⟧: ruin, downfall\n- {零落|れいらく}: decline, downfall",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "07428_suitai",
+      "reading": "すいたい",
+      "headword": "{衰退|すいたい}",
+      "label": "decline, decay"
+    },
+    {
+      "type": "related",
+      "target_id": "15873_botsuraku",
+      "reading": "ぼつらく",
+      "headword": "{没落|ぼつらく}",
+      "label": "ruin, downfall"
+    },
+    {
+      "type": "related",
+      "target_id": "09923_shayou",
+      "reading": "しゃよう",
+      "headword": "{斜陽|しゃよう}",
+      "label": "setting sun, decline, waning"
+    }
+  ],
   "metadata": {
     "created": "2026-02-04T06:17:12Z",
-    "modified": "2026-03-29T03:05:07Z",
+    "modified": "2026-09-02T04:01:19Z",
     "ai_model": "claude-opus-4-5-20251101",
     "vocabulary_tier": "general",
     "tags": {

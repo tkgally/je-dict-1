@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25299_kokyakutaiou_ex1",
-      "japanese": "{顧客対応|こきゃくたいおう}の{研修|けんしゅう}を{受|う}けた。",
+      "japanese": "{顧客対応|こきゃくたいおう}⟦の→の：09472_no⟧⟦{研修|けんしゅう}→研修：05322_kenshuu⟧⟦を→を：00422_wo⟧⟦{受|う}けた→受ける：01215_ukeru⟧。",
       "english": "I received training in customer service.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25299_kokyakutaiou_ex2",
-      "japanese": "{顧客対応|こきゃくたいおう}が{丁寧|ていねい}な{会社|かいしゃ}は{信頼|しんらい}される。",
+      "japanese": "{顧客対応|こきゃくたいおう}⟦が→が：00051_ga⟧⟦{丁寧|ていねい}→丁寧：00896_teinei⟧な⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦は→は：00079_ha⟧⟦{信頼|しんらい}される→信頼する：22988_shinraisuru⟧。",
       "english": "Companies with polite customer service earn trust.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25299_kokyakutaiou_ex3",
-      "japanese": "クレームの{顧客対応|こきゃくたいおう}に{追|お}われて、{今日|きょう}は{一日中|いちにちじゅう}{忙|いそが}しかった。",
+      "japanese": "⟦クレーム→クレーム：27399_kureemu⟧⟦の→の：09472_no⟧{顧客対応|こきゃくたいおう}⟦に→に：00314_ni⟧⟦{追|お}われて→追う：02016_ou⟧、⟦{今日|きょう}→今日：00496_kyou⟧⟦は→は：00079_ha⟧⟦{一日中|いちにちじゅう}→一日中：09519_ichinichijuu⟧⟦{忙|いそが}しかった→忙しい：00591_isogashii⟧。",
       "english": "I was busy all day dealing with customer complaints.",
       "sense_numbers": [
         1
@@ -44,20 +44,44 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {顧客|こきゃく} (customer, client) + {対応|たいおう} (handling, dealing with). A standard business term for the function of attending to customers' needs, whether in person, by phone, or online.\n\nCOMMON COLLOCATIONS:\n- {顧客対応|こきゃくたいおう}の{質|しつ}: quality of customer service\n- {顧客対応|こきゃくたいおう}{窓口|まどぐち}: customer service counter/desk\n- {顧客対応|こきゃくたいおう}マニュアル: customer service manual\n- {顧客対応|こきゃくたいおう}に{当|あ}たる: to handle customer service\n- {顧客対応|こきゃくたいおう}{力|りょく}: customer service ability\n\nSIMILAR WORDS:\n- {接客|せっきゃく}: customer service — emphasizes face-to-face interaction with customers\n- カスタマーサポート: customer support — the loanword equivalent, used mainly in tech/online contexts\n- {客|きゃく}{対応|たいおう}: guest/customer handling — more casual version\n- {苦情|くじょう}{対応|たいおう}: complaint handling — specifically dealing with complaints",
+  "notes": "Composed of ⟦{顧客|こきゃく}→顧客：08632_kokyaku⟧ (customer, client) + ⟦{対応|たいおう}→対応：02510_taiou⟧ (handling, dealing with). A standard business term for the function of attending to customers' needs, whether in person, by phone, or online.\n\nCOMMON COLLOCATIONS:\n- {顧客対応|こきゃくたいおう}⟦の→の：09472_no⟧⟦{質|しつ}→質：01425_shitsu⟧: quality of customer service\n- {顧客対応|こきゃくたいおう}⟦{窓口|まどぐち}→窓口：03154_madoguchi⟧: customer service counter/desk\n- {顧客対応|こきゃくたいおう}⟦マニュアル→マニュアル：26993_manyuaru⟧: customer service manual\n- {顧客対応|こきゃくたいおう}⟦に→に：00314_ni⟧⟦{当|あ}たる→当たる：01860_ataru⟧: to handle customer service\n- {顧客対応|こきゃくたいおう}{力|りょく}: customer service ability\n\nSIMILAR WORDS:\n- ⟦{接客|せっきゃく}→接客：12882_sekkyaku⟧: customer service — emphasizes face-to-face interaction with customers\n- ⟦カスタマーサポート→カスタマーサポート：26396_kasutamaasapooto⟧: customer support — the loanword equivalent, used mainly in tech/online contexts\n- ⟦{客|きゃく}→客：00865_kyaku⟧⟦{対応|たいおう}→対応：02510_taiou⟧: guest/customer handling — more casual version\n- ⟦{苦情|くじょう}→苦情：00252_kujou⟧⟦{対応|たいおう}→対応：02510_taiou⟧: complaint handling — specifically dealing with complaints",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12882_sekkyaku",
+      "reading": "せっきゃく",
+      "headword": "{接客|せっきゃく}",
+      "label": "customer service"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26396_kasutamaasapooto",
+      "reading": "かすたまーさぽーと",
+      "headword": "カスタマーサポート",
+      "label": "customer support"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23725_kokyakusaabisu",
+      "reading": "こきゃくさーびす",
+      "headword": "{顧客|こきゃく}サービス",
+      "label": "customer service"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "business",
         "work"
       ]
     },
     "created": "2026-04-24T13:24:51Z",
-    "modified": "2026-04-24T13:24:51Z"
+    "modified": "2026-09-02T04:02:21Z"
   }
 }

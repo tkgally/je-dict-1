@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "20680_shuujin_ex1",
-      "japanese": "{囚人|しゅうじん}が{脱獄|だつごく}した。",
+      "japanese": "{囚人|しゅうじん}⟦が→が：00051_ga⟧⟦{脱獄|だつごく}→脱獄：15732_datsugoku⟧⟦した→する：00392_suru⟧。",
       "english": "A prisoner escaped.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "20680_shuujin_ex2",
-      "japanese": "{囚人|しゅうじん}たちは{毎日|まいにち}{決|き}まった{時間|じかん}に{運動|うんどう}する。",
+      "japanese": "{囚人|しゅうじん}たち⟦は→は：00079_ha⟧⟦{毎日|まいにち}→毎日：00729_mainichi⟧⟦{決|き}まった→決まる：01233_kimaru⟧⟦{時間|じかん}→時間：00468_jikan⟧⟦に→に：00314_ni⟧⟦{運動|うんどう}→運動：00821_undou⟧⟦する→する：00392_suru⟧。",
       "english": "The prisoners exercise at a set time every day.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "20680_shuujin_ex3",
-      "japanese": "その{映画|えいが}は{無実|むじつ}の{囚人|しゅうじん}が{自由|じゆう}を{取|と}り{戻|もど}すまでの{物語|ものがたり}だ。",
+      "japanese": "⟦その→その：00993_sono⟧⟦{映画|えいが}→映画：02273_eiga⟧⟦は→は：00079_ha⟧⟦{無実|むじつ}→無実：09504_mujitsu⟧⟦の→の：09472_no⟧{囚人|しゅうじん}⟦が→が：00051_ga⟧⟦{自由|じゆう}→自由：01148_jiyuu⟧⟦を→を：00422_wo⟧⟦{取|と}り{戻|もど}す→取り戻す：04223_torimodosu⟧⟦まで→まで：00490_made⟧⟦の→の：09472_no⟧⟦{物語|ものがたり}→物語：03634_monogatari⟧だ。",
       "english": "The movie is about an innocent prisoner's journey to regain his freedom.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "The standard word for a person imprisoned for a crime. Commonly encountered in news, legal contexts, movies, and literature. The kanji {囚|しゅう} literally depicts a person ({人|ひと}) enclosed in a box ({囗|くにがまえ}), visually representing imprisonment.\n\nCOMMON COLLOCATIONS:\n- {囚人|しゅうじん}{番号|ばんごう}: prisoner number\n- {囚人|しゅうじん}{服|ふく}: prison uniform\n- {政治|せいじ}{囚|しゅう}: political prisoner\n- {囚人|しゅうじん}の{権利|けんり}: prisoners' rights\n- {脱獄|だつごく}{囚|しゅう}: escaped prisoner\n\nSIMILAR WORDS:\n- {受刑者|じゅけいしゃ}: convicted prisoner — legal/formal term for someone serving a sentence\n- {捕虜|ほりょ}: prisoner of war — specifically war captives\n- {容疑者|ようぎしゃ}: suspect — not yet convicted\n- {被告人|ひこくにん}: defendant — standing trial, not yet sentenced",
+  "notes": "The standard word for a person imprisoned for a crime. Commonly encountered in news, legal contexts, movies, and literature. The kanji {囚|しゅう} literally depicts a person (⟦{人|ひと}→人：00476_hito⟧) enclosed in a box ({囗|くにがまえ}), visually representing imprisonment.\n\nCOMMON COLLOCATIONS:\n- {囚人|しゅうじん}⟦{番号|ばんごう}→番号：02939_bangou⟧: prisoner number\n- {囚人|しゅうじん}{服|ふく}: prison uniform\n- ⟦{政治|せいじ}→政治：01629_seiji⟧{囚|しゅう}: political prisoner\n- {囚人|しゅうじん}⟦の→の：09472_no⟧⟦{権利|けんり}→権利：02711_kenri⟧: prisoners' rights\n- ⟦{脱獄|だつごく}→脱獄：15732_datsugoku⟧{囚|しゅう}: escaped prisoner\n\nSIMILAR WORDS:\n- {受刑者|じゅけいしゃ}: convicted prisoner — legal/formal term for someone serving a sentence\n- ⟦{捕虜|ほりょ}→捕虜：20662_horyo⟧: prisoner of war — specifically war captives\n- ⟦{容疑者|ようぎしゃ}→容疑者：15039_yougisha⟧: suspect — not yet convicted\n- ⟦{被告人|ひこくにん}→被告人：20130_hikokunin⟧: defendant — standing trial, not yet sentenced",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20662_horyo",
+      "reading": "ほりょ",
+      "headword": "{捕虜|ほりょ}",
+      "label": "prisoner of war"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15039_yougisha",
+      "reading": "ようぎしゃ",
+      "headword": "{容疑者|ようぎしゃ}",
+      "label": "suspect"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20130_hikokunin",
+      "reading": "ひこくにん",
+      "headword": "{被告人|ひこくにん}",
+      "label": "defendant"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +76,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "law",
         "society"
       ]
     },
     "created": "2026-03-30T06:40:32Z",
-    "modified": "2026-03-30T06:40:32Z"
+    "modified": "2026-09-02T04:02:00Z"
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25099_houchichuusha_ex1",
-      "japanese": "{放置駐車|ほうちちゅうしゃ}は{違反|いはん}です。",
+      "japanese": "{放置駐車|ほうちちゅうしゃ}⟦は→は：00079_ha⟧⟦{違反|いはん}→違反：01824_ihan⟧です。",
       "english": "Illegally parking and abandoning a vehicle is a violation.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25099_houchichuusha_ex2",
-      "japanese": "{放置駐車|ほうちちゅうしゃ}の{取|と}り{締|し}まりが{強化|きょうか}された。",
+      "japanese": "{放置駐車|ほうちちゅうしゃ}⟦の→の：09472_no⟧⟦{取|と}り{締|し}まり→取り締まり：07445_torishimari⟧⟦が→が：00051_ga⟧⟦{強化|きょうか}→強化：00260_kyouka⟧⟦された→する：00392_suru⟧。",
       "english": "Enforcement against illegally parked vehicles has been strengthened.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25099_houchichuusha_ex3",
-      "japanese": "{放置駐車|ほうちちゅうしゃ}のせいで{救急車|きゅうきゅうしゃ}が{通|とお}れなくなり、{大|おお}きな{問題|もんだい}になった。",
+      "japanese": "{放置駐車|ほうちちゅうしゃ}⟦の→の：09472_no⟧せい⟦で→で：00502_de⟧⟦{救急車|きゅうきゅうしゃ}→救急車：05077_kyuukyuusha⟧⟦が→が：00051_ga⟧⟦{通|とお}れなく→通る：01243_tooru⟧⟦なり→なる：01970_naru⟧、⟦{大|おお}きな→大きな：02849_ookina⟧⟦{問題|もんだい}→問題：00797_mondai⟧になった。",
       "english": "An ambulance couldn't get through because of an illegally parked vehicle, causing a major problem.",
       "sense_numbers": [
         1
@@ -44,20 +44,45 @@
       "notes": null
     }
   ],
-  "notes": "Combines {放置|ほうち} (leaving unattended, neglecting) and {駐車|ちゅうしゃ} (parking). In Japan, since 2006, private parking enforcement officers ({駐車監視員|ちゅうしゃかんしいん}) can issue tickets for {放置駐車|ほうちちゅうしゃ} violations. This differs from regular illegal parking in that the driver is not present with the vehicle.\n\nCOMMON COLLOCATIONS:\n- {放置駐車|ほうちちゅうしゃ}{違反|いはん}: abandoned parking violation\n- {放置駐車|ほうちちゅうしゃ}の{取|と}り{締|し}まり: crackdown on abandoned parking\n- {放置駐車|ほうちちゅうしゃ}{確認|かくにん}{標章|ひょうしょう}: abandoned parking confirmation sticker (ticket)\n\nSIMILAR WORDS:\n- {違法駐車|いほうちゅうしゃ}: illegal parking — broader term for any unauthorized parking\n- {路上駐車|ろじょうちゅうしゃ}: street parking — parking on the road, may or may not be legal\n- {駐車違反|ちゅうしゃいはん}: parking violation — the general term for any parking offense",
+  "notes": "Combines ⟦{放置|ほうち}→放置：12826_houchi⟧ (leaving unattended, neglecting) and ⟦{駐車|ちゅうしゃ}→駐車：01466_chuusha⟧ (parking). In Japan, since 2006, private parking enforcement officers ({駐車監視員|ちゅうしゃかんしいん}) can issue tickets for {放置駐車|ほうちちゅうしゃ} violations. This differs from regular illegal parking in that the driver is not present with the vehicle.\n\nCOMMON COLLOCATIONS:\n- {放置駐車|ほうちちゅうしゃ}⟦{違反|いはん}→違反：01824_ihan⟧: abandoned parking violation\n- {放置駐車|ほうちちゅうしゃ}⟦の→の：09472_no⟧⟦{取|と}り{締|し}まり→取り締まり：07445_torishimari⟧: crackdown on abandoned parking\n- {放置駐車|ほうちちゅうしゃ}⟦{確認|かくにん}→確認：00158_kakunin⟧{標章|ひょうしょう}: abandoned parking confirmation sticker (ticket)\n\nSIMILAR WORDS:\n- ⟦{違法駐車|いほうちゅうしゃ}→違法駐車：22923_ihouchuusha⟧: illegal parking — broader term for any unauthorized parking\n- ⟦{路上駐車|ろじょうちゅうしゃ}→路上駐車：24063_rojouchuusha⟧: street parking — parking on the road, may or may not be legal\n- ⟦{駐車違反|ちゅうしゃいはん}→駐車違反：21077_chuushaihan⟧: parking violation — the general term for any parking offense",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22923_ihouchuusha",
+      "reading": "いほうちゅうしゃ",
+      "headword": "{違法駐車|いほうちゅうしゃ}",
+      "label": "illegal parking"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24063_rojouchuusha",
+      "reading": "ろじょうちゅうしゃ",
+      "headword": "{路上駐車|ろじょうちゅうしゃ}",
+      "label": "street parking"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21077_chuushaihan",
+      "reading": "ちゅうしゃいはん",
+      "headword": "{駐車違反|ちゅうしゃいはん}",
+      "label": "parking violation"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "transportation",
         "law"
       ]
     },
     "created": "2026-04-22T14:43:35Z",
-    "modified": "2026-08-03T21:48:00Z"
+    "modified": "2026-09-02T04:02:21Z"
   }
 }

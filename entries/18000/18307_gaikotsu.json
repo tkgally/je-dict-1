@@ -15,41 +15,59 @@
   "examples": [
     {
       "id": "18307_gaikotsu_ex1",
-      "japanese": "{理科室|りかしつ}に{骸骨|がいこつ}の{模型|もけい}がある。",
+      "japanese": "⟦{理科室|りかしつ}→理科室：22704_rikashitsu⟧⟦に→に：00314_ni⟧{骸骨|がいこつ}⟦の→の：09472_no⟧⟦{模型|もけい}→模型：07079_mokei⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There is a skeleton model in the science room.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18307_gaikotsu_ex2",
-      "japanese": "ハロウィンの{飾|かざ}りに{骸骨|がいこつ}を{使|つか}った。",
+      "japanese": "⟦ハロウィン→ハロウィン：27505_harowin⟧⟦の→の：09472_no⟧⟦{飾|かざ}り→飾り：02539_kazari⟧⟦に→に：00314_ni⟧{骸骨|がいこつ}⟦を→を：00422_wo⟧⟦{使|つか}った→使う：00473_tsukau⟧。",
       "english": "I used skeletons as Halloween decorations.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18307_gaikotsu_ex3",
-      "japanese": "{洞窟|どうくつ}の{奥|おく}で{古|ふる}い{骸骨|がいこつ}が{発見|はっけん}された。",
+      "japanese": "⟦{洞窟|どうくつ}→洞窟：05038_doukutsu⟧⟦の→の：09472_no⟧⟦{奥|おく}→奥：00980_oku⟧⟦で→で：00502_de⟧⟦{古|ふる}い→古い：00488_furui⟧{骸骨|がいこつ}⟦が→が：00051_ga⟧⟦{発見|はっけん}→発見：00085_hakken⟧⟦された→する：00392_suru⟧。",
       "english": "An old skeleton was discovered deep inside the cave.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nUsed for both real skeletons and decorative/symbolic ones. The skull-and-crossbones symbol (pirate flag, poison warning) is also called {骸骨|がいこつ}マーク.\n\nCOMMON COLLOCATIONS:\n- {骸骨|がいこつ}の{模型|もけい} (skeleton model)\n- {骸骨|がいこつ}マーク (skull-and-crossbones symbol)\n\nSIMILAR WORDS:\n- {骨格|こっかく}: skeletal frame — more technical/anatomical\n- {頭蓋骨|ずがいこつ}: skull — specifically the skull",
-  "cross_references": [],
+  "notes": "USAGE:\nUsed for both real skeletons and decorative/symbolic ones. The skull-and-crossbones symbol (pirate flag, poison warning) is also called {骸骨|がいこつ}⟦マーク→マーク：09478_maaku⟧.\n\nCOMMON COLLOCATIONS:\n- {骸骨|がいこつ}⟦の→の：09472_no⟧⟦{模型|もけい}→模型：07079_mokei⟧ (skeleton model)\n- {骸骨|がいこつ}⟦マーク→マーク：09478_maaku⟧ (skull-and-crossbones symbol)\n\nSIMILAR WORDS:\n- ⟦{骨格|こっかく}→骨格：06233_kokkaku⟧: skeletal frame — more technical/anatomical\n- {頭蓋骨|ずがいこつ}: skull — specifically the skull",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06233_kokkaku",
+      "reading": "こっかく",
+      "headword": "{骨格|こっかく}",
+      "label": "skeletal frame"
+    }
+  ],
   "metadata": {
     "created": "2026-03-21T09:08:11Z",
-    "modified": "2026-03-21T09:08:11Z",
+    "modified": "2026-09-02T04:01:51Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["body-internal"]
+      "semantic": [
+        "body-internal"
+      ]
     }
   }
 }

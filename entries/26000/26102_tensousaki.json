@@ -15,39 +15,74 @@
   "examples": [
     {
       "id": "26102_tensousaki_ex1",
-      "japanese": "{転送先|てんそうさき}を{設定|せってい}する。",
+      "japanese": "{転送先|てんそうさき}⟦を→を：00422_wo⟧⟦{設定|せってい}→設定：04767_settei⟧⟦する→する：00392_suru⟧。",
       "english": "To set a forwarding destination.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26102_tensousaki_ex2",
-      "japanese": "メールの{転送先|てんそうさき}を{変更|へんこう}してください。",
+      "japanese": "⟦メール→メール：04435_meeru⟧⟦の→の：09472_no⟧{転送先|てんそうさき}⟦を→を：00422_wo⟧⟦{変更|へんこう}して→変更する：30779_henkousuru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please change the email forwarding destination.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26102_tensousaki_ex3",
-      "japanese": "{引|ひ}っ{越|こ}しの{際|さい}に{郵便物|ゆうびんぶつ}の{転送先|てんそうさき}を{届|とど}け{出|で}た。",
+      "japanese": "{引|ひ}っ{越|こ}し⟦の→の：09472_no⟧⟦{際|さい}→際：02819_sai⟧⟦に→に：00314_ni⟧⟦{郵便物|ゆうびんぶつ}→郵便物：18044_yuubinbutsu⟧⟦の→の：09472_no⟧{転送先|てんそうさき}⟦を→を：00422_wo⟧⟦{届|とど}け{出|で}た→届け出る：05910_todokederu⟧。",
       "english": "When moving, I submitted a forwarding address for my mail.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {転送|てんそう} (forwarding; transfer) and {先|さき} (destination). Used in both digital contexts (email forwarding, call forwarding, data transfer) and physical contexts (mail forwarding after moving).\n\nCOMMON COLLOCATIONS:\n- {転送先|てんそうさき}を{設定|せってい}する: to set a forwarding destination\n- {転送先|てんそうさき}を{変更|へんこう}する: to change the forwarding destination\n- {転送先|てんそうさき}アドレス: forwarding address\n- {電話|でんわ}の{転送先|てんそうさき}: call forwarding destination\n\nSIMILAR WORDS:\n- {送付先|そうふさき}: delivery destination — where something is sent to (not redirected)\n- {宛先|あてさき}: addressee; destination address — the intended recipient\n- {転居先|てんきょさき}: new address (after moving) — specifically about a residential address change",
-  "cross_references": [],
+  "notes": "A compound of ⟦{転送|てんそう}→転送：14792_tensou⟧ (forwarding; transfer) and ⟦{先|さき}→先：02883_saki⟧ (destination). Used in both digital contexts (email forwarding, call forwarding, data transfer) and physical contexts (mail forwarding after moving).\n\nCOMMON COLLOCATIONS:\n- {転送先|てんそうさき}⟦を→を：00422_wo⟧⟦{設定|せってい}→設定：04767_settei⟧⟦する→する：00392_suru⟧: to set a forwarding destination\n- {転送先|てんそうさき}⟦を→を：00422_wo⟧⟦{変更|へんこう}する→変更する：30779_henkousuru⟧: to change the forwarding destination\n- {転送先|てんそうさき}⟦アドレス→アドレス：27003_adoresu⟧: forwarding address\n- ⟦{電話|でんわ}→電話：01471_denwa⟧⟦の→の：09472_no⟧{転送先|てんそうさき}: call forwarding destination\n\nSIMILAR WORDS:\n- ⟦{送付先|そうふさき}→送付先：23788_soufusaki⟧: delivery destination — where something is sent to (not redirected)\n- ⟦{宛先|あてさき}→宛先：12275_atesaki⟧: addressee; destination address — the intended recipient\n- ⟦{転居先|てんきょさき}→転居先：29866_tenkyosaki⟧: new address (after moving) — specifically about a residential address change",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23788_soufusaki",
+      "reading": "そうふさき",
+      "headword": "{送付先|そうふさき}",
+      "label": "delivery destination"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12275_atesaki",
+      "reading": "あてさき",
+      "headword": "{宛先|あてさき}",
+      "label": "addressee"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29866_tenkyosaki",
+      "reading": "てんきょさき",
+      "headword": "転居先",
+      "label": "new address"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["communication", "technology"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "communication",
+        "technology"
+      ]
     },
     "created": "2026-04-29T13:34:31Z",
-    "modified": "2026-04-29T13:34:31Z"
+    "modified": "2026-09-02T04:02:25Z"
   }
 }

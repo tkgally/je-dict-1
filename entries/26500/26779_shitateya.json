@@ -15,42 +15,74 @@
   "examples": [
     {
       "id": "26779_shitateya_ex1",
-      "japanese": "{仕立屋|したてや}にスーツを{頼|たの}んだ。",
+      "japanese": "{仕立屋|したてや}⟦に→に：00314_ni⟧⟦スーツ→スーツ：01367_suutsu⟧⟦を→を：00422_wo⟧⟦{頼|たの}んだ→頼む：01104_tanomu⟧。",
       "english": "I ordered a suit from the tailor.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26779_shitateya_ex2",
-      "japanese": "この{町|まち}には{腕|うで}のいい{仕立屋|したてや}がある。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{町|まち}→町：00613_machi⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{腕|うで}→腕：01006_ude⟧⟦の→の：09472_no⟧⟦いい→いい：00118_ii⟧{仕立屋|したてや}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There's a skilled tailor in this town.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26779_shitateya_ex3",
-      "japanese": "{祖母|そぼ}は{若|わか}い{頃|ころ}、{仕立屋|したてや}で{着物|きもの}の{仕立|した}てを{習|なら}った。",
+      "japanese": "⟦{祖母|そぼ}→祖母：00813_sobo⟧⟦は→は：00079_ha⟧{若|わか}い{頃|ころ}、{仕立屋|したてや}⟦で→で：00502_de⟧⟦{着物|きもの}→着物：01309_kimono⟧⟦の→の：09472_no⟧⟦{仕立|した}て→仕立て：11645_shitate⟧⟦を→を：00422_wo⟧⟦{習|なら}った→習う：00479_narau⟧。",
       "english": "My grandmother learned kimono tailoring at a tailor's shop when she was young.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A traditional occupation word formed from {仕立|した}て (tailoring, sewing) + {屋|や} (shop/person). While dedicated tailor shops have become less common in modern Japan, the word is still used and understood.\n\nCOMMON COLLOCATIONS:\n- {仕立屋|したてや}に{出|だ}す: to send to the tailor\n- {仕立屋|したてや}に{頼|たの}む: to commission a tailor\n- {腕|うで}のいい{仕立屋|したてや}: a skilled tailor\n\nRELATED TERMS:\n- {仕立|した}てる: to tailor; to sew — the verb form\n- オーダーメイド: custom-made — the modern loanword alternative\n- {洋裁|ようさい}: Western dressmaking\n- {和裁|わさい}: Japanese garment making",
-  "cross_references": [],
+  "notes": "A traditional occupation word formed from ⟦{仕立|した}て→仕立て：11645_shitate⟧ (tailoring, sewing) + ⟦{屋|や}→〜屋：03096_ya⟧ (shop/person). While dedicated tailor shops have become less common in modern Japan, the word is still used and understood.\n\nCOMMON COLLOCATIONS:\n- {仕立屋|したてや}⟦に→に：00314_ni⟧⟦{出|だ}す→出す：01087_dasu⟧: to send to the tailor\n- {仕立屋|したてや}⟦に→に：00314_ni⟧⟦{頼|たの}む→頼む：01104_tanomu⟧: to commission a tailor\n- ⟦{腕|うで}→腕：01006_ude⟧⟦の→の：09472_no⟧⟦いい→いい：00118_ii⟧{仕立屋|したてや}: a skilled tailor\n\nRELATED WORDS:\n- ⟦{仕立|した}てる→仕立てる：09525_shitateru⟧: to tailor; to sew — the verb form\n- オーダー⟦メイド→メイド：12377_meido⟧: custom-made — the modern loanword alternative\n- ⟦{洋裁|ようさい}→洋裁：20802_yousai⟧: Western dressmaking\n- ⟦{和裁|わさい}→和裁：20825_wasai⟧: Japanese garment making",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "09525_shitateru",
+      "reading": "したてる",
+      "headword": "{仕立|した}てる",
+      "label": "to tailor"
+    },
+    {
+      "type": "related",
+      "target_id": "20802_yousai",
+      "reading": "ようさい",
+      "headword": "{洋裁|ようさい}",
+      "label": "Western dressmaking"
+    },
+    {
+      "type": "related",
+      "target_id": "20825_wasai",
+      "reading": "わさい",
+      "headword": "{和裁|わさい}",
+      "label": "Japanese garment making"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["occupation"],
+      "semantic": [
+        "occupation"
+      ],
       "domain": []
     },
     "created": "2026-05-05T11:04:37Z",
-    "modified": "2026-05-05T11:04:37Z"
+    "modified": "2026-09-02T04:02:27Z"
   }
 }

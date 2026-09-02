@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "08669_junkan_ex1",
-      "japanese": "{血液|けつえき}の{循環|じゅんかん}が{悪|わる}い。",
+      "japanese": "⟦{血液|けつえき}→血液：02703_ketsueki⟧⟦の→の：09472_no⟧{循環|じゅんかん}⟦が→が：00051_ga⟧⟦{悪|わる}い→悪い：00908_warui⟧。",
       "english": "My blood circulation is poor.",
       "sense_numbers": [
         1
@@ -114,7 +114,7 @@
     },
     {
       "id": "08669_junkan_ex2",
-      "japanese": "{経済|けいざい}の{好|こう}{循環|じゅんかん}を{目指|めざ}す。",
+      "japanese": "⟦{経済|けいざい}→経済：01394_keizai⟧⟦の→の：09472_no⟧{好|こう}{循環|じゅんかん}⟦を→を：00422_wo⟧⟦{目指|めざ}す→目指す：10528_mezasu⟧。",
       "english": "We aim for a virtuous economic cycle.",
       "sense_numbers": [
         1
@@ -124,7 +124,7 @@
     },
     {
       "id": "08669_junkan_ex3",
-      "japanese": "リサイクルは{資源|しげん}の{循環|じゅんかん}を{促進|そくしん}する。",
+      "japanese": "⟦リサイクル→リサイクル：04624_risaikuru⟧⟦は→は：00079_ha⟧⟦{資源|しげん}→資源：03167_shigen⟧⟦の→の：09472_no⟧{循環|じゅんかん}⟦を→を：00422_wo⟧⟦{促進|そくしん}する→促進する：19632_sokushinsuru⟧。",
       "english": "Recycling promotes the circulation of resources.",
       "sense_numbers": [
         1
@@ -133,7 +133,7 @@
       "notes": null
     }
   ],
-  "notes": "{循環|じゅんかん} means circulation or cycle — the continuous movement of something through a closed circuit or the repetition of a sequence.\n\nCOMMON COLLOCATIONS:\n- {血液|けつえき}{循環|じゅんかん}: blood circulation\n- {好|こう}{循環|じゅんかん}: virtuous cycle\n- {悪|あく}{循環|じゅんかん}: vicious cycle\n- {循環|じゅんかん}{型|がた}{社会|しゃかい}: recycling-oriented society\n- {循環器|じゅんかんき}: circulatory organ/system\n\nUSAGE DOMAINS:\nUsed across medicine ({血液|けつえき}{循環|じゅんかん}), economics ({経済|けいざい}の{循環|じゅんかん}), environment ({資源|しげん}{循環|じゅんかん}), and transportation ({循環|じゅんかん}バス = loop bus).\n\nTRANSITIVITY:\n- Type: {自動詞|じどうし} (intransitive)\n- Pattern: [substance]が{循環|じゅんかん}する",
+  "notes": "{循環|じゅんかん} means circulation or cycle — the continuous movement of something through a closed circuit or the repetition of a sequence.\n\nCOMMON COLLOCATIONS:\n- ⟦{血液|けつえき}→血液：02703_ketsueki⟧{循環|じゅんかん}: blood circulation\n- {好|こう}{循環|じゅんかん}: virtuous cycle\n- {悪|あく}{循環|じゅんかん}: vicious cycle\n- {循環|じゅんかん}{型|がた}⟦{社会|しゃかい}→社会：01427_shakai⟧: recycling-oriented society\n- ⟦{循環器|じゅんかんき}→循環器：06013_junkanki⟧: circulatory organ/system\n\nUSAGE DOMAINS:\nUsed across medicine (⟦{血液|けつえき}→血液：02703_ketsueki⟧{循環|じゅんかん}), economics (⟦{経済|けいざい}→経済：01394_keizai⟧⟦の→の：09472_no⟧{循環|じゅんかん}), environment (⟦{資源|しげん}→資源：03167_shigen⟧{循環|じゅんかん}), and transportation ({循環|じゅんかん}⟦バス→バス：00769_basu⟧ = loop bus).\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n- Pattern: [substance]⟦が→が：00051_ga⟧{循環|じゅんかん}⟦する→する：00392_suru⟧",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -143,6 +143,7 @@
       ],
       "transitivity": "intransitive",
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "science",
         "health",
@@ -151,7 +152,7 @@
       "verb_class": "suru"
     },
     "created": "2026-01-27T23:50:36Z",
-    "modified": "2026-06-23T01:38:10Z"
+    "modified": "2026-09-02T04:01:15Z"
   },
   "cross_references": [
     {
@@ -160,6 +161,13 @@
       "reading": "あくじゅんかん",
       "headword": "{悪循環|あくじゅんかん}",
       "label": "vicious cycle"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23356_kekkou",
+      "reading": "けっこう",
+      "headword": "{血行|けっこう}",
+      "label": "blood circulation"
     }
   ]
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "15006_kokko_ex1",
-      "japanese": "{国庫|こっこ}に{納|おさ}める{税金|ぜいきん}。",
+      "japanese": "{国庫|こっこ}⟦に→に：00314_ni⟧⟦{納|おさ}める→納める：02280_osameru⟧⟦{税金|ぜいきん}→税金：03308_zeikin⟧。",
       "english": "Taxes paid into the national treasury.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "15006_kokko_ex2",
-      "japanese": "{災害|さいがい}{復興|ふっこう}のために{国庫|こっこ}から{資金|しきん}が{出|で}た。",
+      "japanese": "⟦{災害|さいがい}→災害：09636_saigai⟧⟦{復興|ふっこう}→復興：07590_fukkou⟧⟦の→の：09472_no⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧{国庫|こっこ}⟦から→から：00504_kara⟧⟦{資金|しきん}→資金：09937_shikin⟧⟦が→が：00051_ga⟧⟦{出|で}た→出る：00513_deru⟧。",
       "english": "Funds were released from the national treasury for disaster recovery.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "15006_kokko_ex3",
-      "japanese": "{少子化対策|しょうしかたいさく}のために{国庫|こっこ}{負担|ふたん}を{増|ふ}やすべきだという{意見|いけん}がある。",
+      "japanese": "{少子化対策|しょうしかたいさく}⟦の→の：09472_no⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧{国庫|こっこ}⟦{負担|ふたん}→負担：09752_futan⟧⟦を→を：00422_wo⟧⟦{増|ふ}やす→増やす：02410_fuyasu⟧べきだ⟦という→という：09577_toiu⟧⟦{意見|いけん}→意見：01303_iken⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There are opinions that the national treasury's share of the burden should be increased for measures against the declining birthrate.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,33 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{国庫|こっこ} is a formal term used primarily in news, policy discussions, and government documents. It refers to the government's financial resources managed by the Ministry of Finance.\n\nCOMMON COLLOCATIONS:\n- {国庫|こっこ}{負担|ふたん} (national treasury burden; government share of expenses)\n- {国庫|こっこ}{補助金|ほじょきん} (national treasury subsidy)\n- {国庫|こっこ}に{納|おさ}める (to pay into the national treasury)\n- {国庫|こっこ}{収入|しゅうにゅう} (national treasury revenue)\n\nRELATED WORDS:\n- {財政|ざいせい}: government finance\n- {国債|こくさい}: government bond\n- {歳入|さいにゅう}: annual government revenue",
-  "cross_references": [],
+  "notes": "USAGE:\n{国庫|こっこ} is a formal term used primarily in news, policy discussions, and government documents. It refers to the government's financial resources managed by the Ministry of Finance.\n\nCOMMON COLLOCATIONS:\n- {国庫|こっこ}⟦{負担|ふたん}→負担：09752_futan⟧ (national treasury burden; government share of expenses)\n- {国庫|こっこ}{補助金|ほじょきん} (national treasury subsidy)\n- {国庫|こっこ}⟦に→に：00314_ni⟧⟦{納|おさ}める→納める：02280_osameru⟧ (to pay into the national treasury)\n- {国庫|こっこ}⟦{収入|しゅうにゅう}→収入：03213_shuunyuu⟧ (national treasury revenue)\n\nRELATED WORDS:\n- ⟦{財政|ざいせい}→財政：05757_zaisei⟧: government finance\n- ⟦{国債|こくさい}→国債：12016_kokusai⟧: government bond\n- ⟦{歳入|さいにゅう}→歳入：08769_sainyuu⟧: annual government revenue",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "05757_zaisei",
+      "reading": "ざいせい",
+      "headword": "{財政|ざいせい}",
+      "label": "government finance"
+    },
+    {
+      "type": "related",
+      "target_id": "12016_kokusai",
+      "reading": "こくさい",
+      "headword": "{国債|こくさい}",
+      "label": "government bond"
+    },
+    {
+      "type": "related",
+      "target_id": "08769_sainyuu",
+      "reading": "さいにゅう",
+      "headword": "{歳入|さいにゅう}",
+      "label": "annual government revenue"
+    }
+  ],
   "metadata": {
     "created": "2026-03-04T11:12:49Z",
-    "modified": "2026-03-04T11:12:49Z",
+    "modified": "2026-09-02T04:01:39Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

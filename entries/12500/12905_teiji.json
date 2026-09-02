@@ -3,7 +3,7 @@
   "id": "12905_teiji",
   "headword": "{提示|ていじ}",
   "reading": "ていじ",
-  "part_of_speech": "noun / suru verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "presentation, showing, display",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "12905_teiji_ex1",
-      "japanese": "{身分証明書|みぶんしょうめいしょ}を{提示|ていじ}してください。",
+      "japanese": "⟦{身分証明書|みぶんしょうめいしょ}→身分証明書：09809_mibunshoumeisho⟧⟦を→を：00422_wo⟧{提示|ていじ}⟦して→する：00392_suru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please show your identification.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "12905_teiji_ex2",
-      "japanese": "{会社|かいしゃ}から{新|あたら}しい{条件|じょうけん}が{提示|ていじ}された。",
+      "japanese": "⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦から→から：00504_kara⟧⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦{条件|じょうけん}→条件：03285_jouken⟧⟦が→が：00051_ga⟧{提示|ていじ}⟦された→する：00392_suru⟧。",
       "english": "New conditions were presented by the company.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "12905_teiji_ex3",
-      "japanese": "{裁判|さいばん}で{弁護士|べんごし}が{重要|じゅうよう}な{証拠|しょうこ}を{提示|ていじ}し、{流|なが}れが{変|か}わった。",
+      "japanese": "⟦{裁判|さいばん}→裁判：02773_saiban⟧⟦で→で：00502_de⟧⟦{弁護士|べんごし}→弁護士：03150_bengoshi⟧⟦が→が：00051_ga⟧⟦{重要|じゅうよう}→重要：01575_juuyou⟧な⟦{証拠|しょうこ}→証拠：10575_shouko⟧⟦を→を：00422_wo⟧{提示|ていじ}し、⟦{流|なが}れ→流れ：03504_nagare⟧⟦が→が：00051_ga⟧⟦{変|か}わった→変わる：00714_kawaru⟧。",
       "english": "The lawyer presented crucial evidence at the trial, and the tide turned.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,40 @@
       ]
     }
   ],
-  "notes": "USAGE:\nUsed as both a noun and a suru verb. Covers a range of contexts: showing ID or tickets, presenting evidence, offering terms or proposals. The act implies deliberately putting something forward for another person to see or consider. More formal than {見|み}せる (to show).\n\nCOMMON COLLOCATIONS:\n- {身分証|みぶんしょう}を{提示|ていじ}する: to present identification\n- {条件|じょうけん}を{提示|ていじ}する: to present conditions\n- {証拠|しょうこ}を{提示|ていじ}する: to present evidence\n- {価格|かかく}を{提示|ていじ}する: to quote a price\n\nSIMILAR WORDS:\n- {提出|ていしゅつ}: submission (handing over documents formally)\n- {掲示|けいじ}: posting, notice (displaying for public view)\n- {表示|ひょうじ}: display, indication (on screens or labels)",
-  "cross_references": [],
+  "notes": "USAGE:\nUsed as both a noun and a suru verb. Covers a range of contexts: showing ID or tickets, presenting evidence, offering terms or proposals. The act implies deliberately putting something forward for another person to see or consider. More formal than ⟦{見|み}せる→見せる：01988_miseru⟧ (to show).\n\nCOMMON COLLOCATIONS:\n- ⟦{身分証|みぶんしょう}→身分証：11508_mibunshou⟧⟦を→を：00422_wo⟧{提示|ていじ}⟦する→する：00392_suru⟧: to present identification\n- ⟦{条件|じょうけん}→条件：03285_jouken⟧⟦を→を：00422_wo⟧{提示|ていじ}⟦する→する：00392_suru⟧: to present conditions\n- ⟦{証拠|しょうこ}→証拠：10575_shouko⟧⟦を→を：00422_wo⟧{提示|ていじ}⟦する→する：00392_suru⟧: to present evidence\n- ⟦{価格|かかく}→価格：00147_kakaku⟧⟦を→を：00422_wo⟧{提示|ていじ}⟦する→する：00392_suru⟧: to quote a price\n\nSIMILAR WORDS:\n- ⟦{提出|ていしゅつ}→提出：03542_teishutsu⟧: submission (handing over documents formally)\n- ⟦{掲示|けいじ}→掲示：02838_keiji⟧: posting, notice (displaying for public view)\n- ⟦{表示|ひょうじ}→表示：03143_hyouji⟧: display, indication (on screens or labels)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03542_teishutsu",
+      "reading": "ていしゅつ",
+      "headword": "{提出|ていしゅつ}",
+      "label": "submission"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02838_keiji",
+      "reading": "けいじ",
+      "headword": "{掲示|けいじ}",
+      "label": "posting, notice"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03143_hyouji",
+      "reading": "ひょうじ",
+      "headword": "{表示|ひょうじ}",
+      "label": "display, indication"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24053_teiki",
+      "reading": "ていき",
+      "headword": "{提起|ていき}",
+      "label": "raising (an issue)"
+    }
+  ],
   "metadata": {
     "created": "2026-02-22T14:26:00Z",
-    "modified": "2026-03-29T03:07:35Z",
+    "modified": "2026-09-02T04:01:31Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -151,7 +180,8 @@
       "semantic": [
         "communication"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

@@ -3,7 +3,7 @@
   "headword": "{使|つか}い{古|ふる}す",
   "reading": "つかいふるす",
   "romaji": "tsukaifurusu",
-  "part_of_speech": "godan verb, transitive",
+  "part_of_speech": "verb (godan, transitive)",
   "gloss": "to wear out through use; to use until old and worn",
   "conjugation": {
     "type": "godan",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "20300_tsukaifurusu_ex1",
-      "japanese": "{使|つか}い{古|ふる}したタオル。",
+      "japanese": "{使|つか}い{古|ふる}した⟦タオル→タオル：01533_taoru⟧。",
       "english": "A worn-out towel.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "20300_tsukaifurusu_ex2",
-      "japanese": "{使|つか}い{古|ふる}した{辞書|じしょ}はボロボロだ。",
+      "japanese": "{使|つか}い{古|ふる}した⟦{辞書|じしょ}→辞書：04707_jisho⟧⟦は→は：00079_ha⟧ボロボロだ。",
       "english": "My well-worn dictionary is falling apart.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "20300_tsukaifurusu_ex3",
-      "japanese": "{使|つか}い{古|ふる}された{表現|ひょうげん}ではなく、{自分|じぶん}の{言葉|ことば}で{書|か}きなさい。",
+      "japanese": "{使|つか}い{古|ふる}された⟦{表現|ひょうげん}→表現：03584_hyougen⟧⟦ではなく→ではなく：09578_dehanaku⟧、⟦{自分|じぶん}→自分：02887_jibun⟧⟦の→の：09472_no⟧⟦{言葉|ことば}→言葉：02880_kotoba⟧⟦で→で：00502_de⟧⟦{書|か}き→書く：00477_kaku⟧⟦なさい→なさる：01307_nasaru⟧。",
       "english": "Write in your own words, not with worn-out clichés.",
       "sense_numbers": [
         1
@@ -134,8 +134,24 @@
       "notes": null
     }
   ],
-  "notes": "A compound verb from {使|つか}う (to use) + {古|ふる}す (to make old through use). Most commonly encountered in the past participle form {使|つか}い{古|ふる}した (worn-out, well-used) modifying nouns.\n\nUSAGE:\nThe form {使|つか}い{古|ふる}した functions as a common adjective-like modifier. Can carry either a negative nuance (shabby, past its prime) or a positive one (well-loved, seasoned). The passive form {使|つか}い{古|ふる}された is used for figurative contexts like clichés.\n\nCOMMON COLLOCATIONS:\n- {使|つか}い{古|ふる}したタオル — a worn-out towel\n- {使|つか}い{古|ふる}した{道具|どうぐ} — well-worn tools\n- {使|つか}い{古|ふる}された{言葉|ことば} — hackneyed words, clichés\n- {使|つか}い{古|ふる}した{靴|くつ} — worn-out shoes\n\nSIMILAR WORDS:\n- {擦|す}り{減|へ}る — to wear down, to be worn away (physical erosion)\n- くたびれる — to become tired/worn (also used for people and things)\n- ボロボロになる — to become tattered, to fall apart (more extreme deterioration)",
+  "notes": "A compound verb from ⟦{使|つか}う→使う：00473_tsukau⟧ (to use) + {古|ふる}す (to make old through use). Most commonly encountered in the past participle form {使|つか}い{古|ふる}した (worn-out, well-used) modifying nouns.\n\nUSAGE:\nThe form {使|つか}い{古|ふる}した functions as a common adjective-like modifier. Can carry either a negative nuance (shabby, past its prime) or a positive one (well-loved, seasoned). The passive form {使|つか}い{古|ふる}された is used for figurative contexts like clichés.\n\nCOMMON COLLOCATIONS:\n- {使|つか}い{古|ふる}した⟦タオル→タオル：01533_taoru⟧ — a worn-out towel\n- {使|つか}い{古|ふる}した⟦{道具|どうぐ}→道具：01479_dougu⟧ — well-worn tools\n- {使|つか}い{古|ふる}された⟦{言葉|ことば}→言葉：02880_kotoba⟧ — hackneyed words, clichés\n- {使|つか}い{古|ふる}した⟦{靴|くつ}→靴：00725_kutsu⟧ — worn-out shoes\n\nSIMILAR WORDS:\n- ⟦{擦|す}り{減|へ}る→擦り減る：17261_suriheru⟧ — to wear down, to be worn away (physical erosion)\n- ⟦くたびれる→くたびれる：28755_kutabireru⟧ — to become tired/worn (also used for people and things)\n- ボロボロ⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧ — to become tattered, to fall apart (more extreme deterioration)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17261_suriheru",
+      "reading": "すりへる",
+      "headword": "{擦|す}り{減|へ}る",
+      "label": "to wear down, to be worn away"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28755_kutabireru",
+      "reading": "くたびれる",
+      "headword": "くたびれる",
+      "label": "to become tired/worn"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -151,6 +167,6 @@
       "verb_class": "godan-su"
     },
     "created": "2026-03-28T20:11:44Z",
-    "modified": "2026-03-28T20:11:44Z"
+    "modified": "2026-09-02T04:01:59Z"
   }
 }

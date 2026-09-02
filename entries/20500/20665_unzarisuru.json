@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "20665_unzarisuru_ex1",
-      "japanese": "もううんざりだ。",
+      "japanese": "⟦もう→もう：00602_mou⟧⟦うんざり→うんざり：04829_unzari⟧だ。",
       "english": "I've had enough.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "20665_unzarisuru_ex2",
-      "japanese": "{長|なが}い{会議|かいぎ}にうんざりした。",
+      "japanese": "⟦{長|なが}い→長い：00491_nagai⟧⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦に→に：00314_ni⟧うんざりした。",
       "english": "I was fed up with the long meeting.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "20665_unzarisuru_ex3",
-      "japanese": "{彼|かれ}の{自慢話|じまんばなし}にはうんざりさせられる。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧⟦{自慢話|じまんばなし}→自慢話：29001_jimanbanashi⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧うんざりさせられる。",
       "english": "His bragging really makes me sick and tired.",
       "sense_numbers": [
         1
@@ -44,8 +44,45 @@
       "notes": null
     }
   ],
-  "notes": "An onomatopoeic expression conveying strong weariness or boredom. Stronger than {飽|あ}きる and carries more exhaustion than {嫌|いや}になる. Often used when patience has been completely worn out.\n\nUSAGE:\nCan be used as an adverb (うんざりする), a na-adjective-like form (うんざりだ), or in a causative pattern (うんざりさせる). The source of frustration is marked by に: Xにうんざりする.\n\nCOMMON PATTERNS:\n- Xにうんざりする: to be fed up with X\n- うんざりするほど: to the point of being sick of it\n- うんざりさせる: to make someone fed up\n- うんざりした{顔|かお}: a fed-up expression\n\nSIMILAR WORDS:\n- {嫌|いや}になる: to become fed up — similar but slightly milder\n- {飽|あ}き{飽|あ}きする: to be completely bored — emphasizes extreme tedium\n- げんなりする: to feel disheartened — similar weariness but with more deflation than irritation",
+  "notes": "An onomatopoeic expression conveying strong weariness or boredom. Stronger than ⟦{飽|あ}きる→飽きる：01815_akiru⟧ and carries more exhaustion than ⟦{嫌|いや}になる→嫌になる：20664_iyaninaru⟧. Often used when patience has been completely worn out.\n\nUSAGE:\nCan be used as an adverb (うんざりする), a na-adjective-like form (⟦うんざり→うんざり：04829_unzari⟧だ), or in a causative pattern (うんざりさせる). The source of frustration is marked by ⟦に→に：00314_ni⟧: X⟦に→に：00314_ni⟧うんざりする.\n\nCOMMON PATTERNS:\n- X⟦に→に：00314_ni⟧うんざりする: to be fed up with X\n- うんざりするほど: to the point of being sick of it\n- うんざりさせる: to make someone fed up\n- うんざりした⟦{顔|かお}→顔：00558_kao⟧: a fed-up expression\n\nSIMILAR WORDS:\n- ⟦{嫌|いや}になる→嫌になる：20664_iyaninaru⟧: to become fed up — similar but slightly milder\n- ⟦{飽|あ}き{飽|あ}き→飽き飽き：27968_akiaki⟧⟦する→する：00392_suru⟧: to be completely bored — emphasizes extreme tedium\n- ⟦げんなり→げんなり：04830_gennari⟧⟦する→する：00392_suru⟧: to feel disheartened — similar weariness but with more deflation than irritation",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20664_iyaninaru",
+      "reading": "いやになる",
+      "headword": "{嫌|いや}になる",
+      "label": "to become fed up"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27968_akiaki",
+      "reading": "あきあき",
+      "headword": "{飽|あ}き{飽|あ}き",
+      "label": "to be completely bored"
+    },
+    {
+      "type": "related",
+      "target_id": "09169_hekieki",
+      "reading": "へきえき",
+      "headword": "{辟易|へきえき}",
+      "label": "shrinking back, being fed up, weariness"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19530_aisowotsukasu",
+      "reading": "あいそをつかす",
+      "headword": "{愛想|あいそ}を{尽|つ}かす",
+      "label": "to be fed up with"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21461_tameikiwotsuku",
+      "reading": "ためいきをつく",
+      "headword": "ため{息|いき}をつく",
+      "label": "to sigh"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,7 +97,7 @@
       "verb_class": "suru"
     },
     "created": "2026-03-30T06:33:55Z",
-    "modified": "2026-03-30T06:33:55Z"
+    "modified": "2026-09-02T04:02:00Z"
   },
   "conjugation": {
     "type": "suru",

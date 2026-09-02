@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "09488_poochi_ex1",
-      "japanese": "ポーチ⟦に→に：00314_ni⟧{化粧品|けしょうひん}⟦を→を：00422_wo⟧⟦{入|い}れる→入れる：01098_ireru⟧。",
+      "japanese": "ポーチ⟦に→に：00314_ni⟧⟦{化粧品|けしょうひん}→化粧品：05119_keshouhin⟧⟦を→を：00422_wo⟧⟦{入|い}れる→入れる：01098_ireru⟧。",
       "english": "To put cosmetics in a pouch.",
       "has_audio": false,
       "sense_numbers": [
@@ -23,7 +23,7 @@
     },
     {
       "id": "09488_poochi_ex2",
-      "japanese": "{小|ちい}さいポーチ⟦を→を：00422_wo⟧{買|か}う。",
+      "japanese": "⟦{小|ちい}さい→小さい：00025_chiisai⟧ポーチ⟦を→を：00422_wo⟧⟦{買|か}う→買う：00489_kau⟧。",
       "english": "To buy a small pouch.",
       "has_audio": false,
       "sense_numbers": [
@@ -32,7 +32,7 @@
     },
     {
       "id": "09488_poochi_ex3",
-      "japanese": "バッグ⟦に→に：00314_ni⟧ポーチ⟦が→が：00051_ga⟧⟦{付|つ}いている→付く：01960_tsuku⟧。",
+      "japanese": "⟦バッグ→バッグ：00008_baggu⟧⟦に→に：00314_ni⟧ポーチ⟦が→が：00051_ga⟧⟦{付|つ}いている→付く：01960_tsuku⟧。",
       "english": "A pouch comes with the bag.",
       "has_audio": false,
       "sense_numbers": [
@@ -40,10 +40,33 @@
       ]
     }
   ],
-  "notes": "ポーチ comes from English \"pouch.\" It refers to a small bag or case, typically with a zipper, used to organize and carry small items.\n\nCOMMON TYPES:\n- {化粧|けしょう}ポーチ: cosmetics pouch (most common usage)\n- ペンポーチ: pen case\n- トラベルポーチ: travel organizer pouch\n- ガジェットポーチ: gadget/electronics pouch\n\nCOMMON COLLOCATIONS:\n- ポーチに{入|い}れる: to put in a pouch\n- ポーチから{出|だ}す: to take out of a pouch\n\nMULTIPLE MEANINGS:\nIn Japanese, ポーチ has two distinct meanings from different English words:\n1. Pouch — a small bag (more common)\n2. Porch — a covered entrance area of a building\n\nThe intended meaning is usually clear from context.",
+  "notes": "ポーチ comes from English \"pouch.\" It refers to a small bag or case, typically with a zipper, used to organize and carry small items.\n\nTYPES:\n- {化粧|けしょう}ポーチ: cosmetics pouch (most common usage)\n- ペンポーチ: pen case\n- トラベルポーチ: travel organizer pouch\n- ⟦ガジェット→ガジェット：06462_gajetto⟧ポーチ: gadget/electronics pouch\n\nCOMMON COLLOCATIONS:\n- ポーチ⟦に→に：00314_ni⟧⟦{入|い}れる→入れる：01098_ireru⟧: to put in a pouch\n- ポーチ⟦から→から：00504_kara⟧⟦{出|だ}す→出す：01087_dasu⟧: to take out of a pouch\n\nMULTIPLE MEANINGS:\nIn Japanese, ポーチ has two distinct meanings from different English words:\n1. Pouch — a small bag (more common)\n2. Porch — a covered entrance area of a building\n\nThe intended meaning is usually clear from context.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "00008_baggu",
+      "reading": "ばっぐ",
+      "headword": "バッグ",
+      "label": "bag"
+    },
+    {
+      "type": "related",
+      "target_id": "01375_handobaggu",
+      "reading": "はんどばっぐ",
+      "headword": "ハンドバッグ",
+      "label": "handbag"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25908_komonoire",
+      "reading": "こものいれ",
+      "headword": "{小物|こもの}{入|い}れ",
+      "label": "small accessory case"
+    }
+  ],
   "metadata": {
     "created": "2026-02-02T07:47:12Z",
-    "modified": "2026-06-24T06:55:10Z",
+    "modified": "2026-09-02T04:01:18Z",
     "ai_model": "claude-opus-4-5-20251101",
     "vocabulary_tier": "general",
     "tags": {

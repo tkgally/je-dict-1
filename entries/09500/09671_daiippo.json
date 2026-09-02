@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "09671_daiippo_ex1",
-      "japanese": "これが{成功|せいこう}への{第一歩|だいいっぽ}だ。",
+      "japanese": "⟦これ→これ：00963_kore⟧⟦が→が：00051_ga⟧⟦{成功|せいこう}→成功：02638_seikou⟧⟦へ→へ：02473_he⟧⟦の→の：09472_no⟧{第一歩|だいいっぽ}だ。",
       "english": "This is the first step toward success.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "09671_daiippo_ex2",
-      "japanese": "{第一歩|だいいっぽ}を{踏|ふ}み{出|だ}す。",
+      "japanese": "{第一歩|だいいっぽ}⟦を→を：00422_wo⟧⟦{踏|ふ}み{出|だ}す→踏み出す：14283_fumidasu⟧。",
       "english": "To take the first step.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "09671_daiippo_ex3",
-      "japanese": "ここに{来|く}ることが{夢|ゆめ}への{第一歩|だいいっぽ}だった。",
+      "japanese": "⟦ここ→ここ：00961_koko⟧⟦に→に：00314_ni⟧⟦{来|く}る→来る：00254_kuru⟧こと⟦が→が：00051_ga⟧⟦{夢|ゆめ}→夢：01519_yume⟧⟦へ→へ：02473_he⟧⟦の→の：09472_no⟧{第一歩|だいいっぽ}だった。",
       "english": "Coming here was the first step toward my dream.",
       "notes": null,
       "has_audio": false,
@@ -43,10 +43,10 @@
       ]
     }
   ],
-  "notes": "Often used figuratively to mean the beginning of an important undertaking. Emphasizes that the first action, however small, is significant.\n\nETYMOLOGY:\nCompound of {第一|だいいち} (first, number one) + {歩|ぽ} (step).\n\nCOMMON PATTERNS:\n- {第一歩|だいいっぽ}を{踏|ふ}み{出|だ}す: to take the first step\n- 〜への{第一歩|だいいっぽ}: the first step toward ~\n- {第一歩|だいいっぽ}を{記|しる}す: to mark/record the first step (literary)\n\nUSAGE:\nMost commonly used in motivational or aspirational contexts — career goals, personal growth, recovery, etc. Carries a positive, forward-looking nuance.\n\nSIMILAR EXPRESSIONS:\n- {最初|さいしょ}の{一歩|いっぽ}: the first step (more casual)\n- {出発点|しゅっぱつてん}: starting point (more neutral)\n- {手始|てはじ}め: a beginning, start (first action in a series)",
+  "notes": "Often used figuratively to mean the beginning of an important undertaking. Emphasizes that the first action, however small, is significant.\n\nETYMOLOGY:\nCompound of ⟦{第一|だいいち}→第一：19377_daiichi⟧ (first, number one) + {歩|ぽ} (step).\n\nCOMMON PATTERNS:\n- {第一歩|だいいっぽ}⟦を→を：00422_wo⟧⟦{踏|ふ}み{出|だ}す→踏み出す：14283_fumidasu⟧: to take the first step\n- 〜⟦へ→へ：02473_he⟧⟦の→の：09472_no⟧{第一歩|だいいっぽ}: the first step toward ~\n- {第一歩|だいいっぽ}⟦を→を：00422_wo⟧⟦{記|しる}す→記す：14238_shirusu⟧: to mark/record the first step (literary)\n\nUSAGE:\nMost commonly used in motivational or aspirational contexts — career goals, personal growth, recovery, etc. Carries a positive, forward-looking nuance.\n\nSIMILAR WORDS:\n- ⟦{最初|さいしょ}→最初：00882_saisho⟧⟦の→の：09472_no⟧⟦{一歩|いっぽ}→一歩：08890_ippo⟧: the first step (more casual)\n- ⟦{出発点|しゅっぱつてん}→出発点：05816_shuppatsuten⟧: starting point (more neutral)\n- {手始|てはじ}め: a beginning, start (first action in a series)",
   "metadata": {
     "created": "2026-02-03T05:02:44Z",
-    "modified": "2026-04-23T06:13:56Z",
+    "modified": "2026-09-02T04:01:19Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -74,6 +74,13 @@
       "reading": "いっぽいっぽ",
       "headword": "{一歩一歩|いっぽいっぽ}",
       "label": "step by step"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05816_shuppatsuten",
+      "reading": "しゅっぱつてん",
+      "headword": "{出発点|しゅっぱつてん}",
+      "label": "starting point"
     }
   ]
 }

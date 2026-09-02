@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22548_eigan_ex1",
-      "japanese": "{鋭眼|えいがん}の{持|も}ち{主|ぬし}だ。",
+      "japanese": "{鋭眼|えいがん}⟦の→の：09472_no⟧⟦{持|も}ち{主|ぬし}→持ち主：10439_mochinushi⟧だ。",
       "english": "He has a keen eye.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22548_eigan_ex2",
-      "japanese": "{刑事|けいじ}は{鋭眼|えいがん}で{現場|げんば}の{手|て}がかりを{見逃|みのが}さなかった。",
+      "japanese": "⟦{刑事|けいじ}→刑事：02741_keiji⟧⟦は→は：00079_ha⟧{鋭眼|えいがん}⟦で→で：00502_de⟧⟦{現場|げんば}→現場：02723_genba⟧⟦の→の：09472_no⟧{手|て}がかり⟦を→を：00422_wo⟧⟦{見逃|みのが}さなかった→見逃す：04576_minogasu⟧。",
       "english": "The detective's sharp eye didn't miss any clues at the scene.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22548_eigan_ex3",
-      "japanese": "{批評家|ひひょうか}としての{鋭眼|えいがん}は、{若|わか}い{作家|さっか}たちの{才能|さいのう}をいち{早|はや}く{見抜|みぬ}いた。",
+      "japanese": "⟦{批評家|ひひょうか}→批評家：19430_hihyouka⟧⟦として→として：06802_toshite⟧⟦の→の：09472_no⟧{鋭眼|えいがん}⟦は→は：00079_ha⟧、{若|わか}い⟦{作家|さっか}→作家：01414_sakka⟧たち⟦の→の：09472_no⟧⟦{才能|さいのう}→才能：02772_sainou⟧⟦を→を：00422_wo⟧いち{早|はや}く⟦{見抜|みぬ}いた→見抜く：06975_minuku⟧。",
       "english": "His keen critical eye was quick to recognize the talent of young writers.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {鋭|えい} (sharp, keen) + {眼|がん} (eye). A literary word that describes exceptional perceptiveness, whether literal visual acuity or figurative insight. Often used to praise someone's ability to notice or perceive things.\n\nCOMMON COLLOCATIONS:\n- {鋭眼|えいがん}の{持|も}ち{主|ぬし}: a person with sharp eyes\n- {鋭眼|えいがん}で{見抜|みぬ}く: to see through with keen insight\n- {鋭眼|えいがん}を{光|ひか}らせる: to cast a sharp eye (over something)\n\nSIMILAR WORDS:\n- {慧眼|けいがん}: discerning eye — emphasizes wisdom and insight in judgment\n- {鋭|するど}い{目|め}: sharp eye — the everyday expression\n- {炯眼|けいがん}: piercing eye — a sharp, penetrating gaze\n- {節穴|ふしあな}: knothole — used figuratively for someone who fails to notice things (the opposite)",
+  "notes": "Composed of {鋭|えい} (sharp, keen) + {眼|がん} (eye). A literary word that describes exceptional perceptiveness, whether literal visual acuity or figurative insight. Often used to praise someone's ability to notice or perceive things.\n\nCOMMON COLLOCATIONS:\n- {鋭眼|えいがん}⟦の→の：09472_no⟧⟦{持|も}ち{主|ぬし}→持ち主：10439_mochinushi⟧: a person with sharp eyes\n- {鋭眼|えいがん}⟦で→で：00502_de⟧⟦{見抜|みぬ}く→見抜く：06975_minuku⟧: to see through with keen insight\n- {鋭眼|えいがん}⟦を→を：00422_wo⟧⟦{光|ひか}らせる→光る：01163_hikaru⟧: to cast a sharp eye (over something)\n\nSIMILAR WORDS:\n- ⟦{慧眼|けいがん}→慧眼：09115_keigan⟧: discerning eye — emphasizes wisdom and insight in judgment\n- ⟦{鋭|するど}い→鋭い：02347_surudoi⟧⟦{目|め}→目：00525_me⟧: sharp eye — the everyday expression\n- {炯眼|けいがん}: piercing eye — a sharp, penetrating gaze\n- {節穴|ふしあな}: knothole — used figuratively for someone who fails to notice things (the opposite)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09115_keigan",
+      "reading": "けいがん",
+      "headword": "{慧眼|けいがん}",
+      "label": "discerning eye"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +68,6 @@
       ]
     },
     "created": "2026-04-06T17:33:53Z",
-    "modified": "2026-07-30T15:20:15Z"
+    "modified": "2026-09-02T04:02:08Z"
   }
 }

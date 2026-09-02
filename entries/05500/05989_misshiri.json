@@ -24,7 +24,7 @@
     },
     {
       "id": "05989_misshiri_ex2",
-      "japanese": "スケジュール⟦が→が：00051_ga⟧みっしり⟦{埋|う}まっている→埋まる：01897_umaru⟧。",
+      "japanese": "⟦スケジュール→スケジュール：03850_sukejuuru⟧⟦が→が：00051_ga⟧みっしり⟦{埋|う}まっている→埋まる：01897_umaru⟧。",
       "english": "My schedule is completely packed.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "05989_misshiri_ex3",
-      "japanese": "⟦{箱|はこ}→箱：02162_hako⟧⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧⟦に→に：00314_ni⟧みっしりと⟦{荷物|にもつ}→荷物：00737_nimotsu⟧⟦が→が：00051_ga⟧⟦{入|はい}っている→入る：00494_hairu⟧。",
+      "japanese": "⟦{箱|はこ}→箱：02162_hako⟧⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧⟦に→に：00314_ni⟧みっしり⟦と→と：00512_to⟧⟦{荷物|にもつ}→荷物：00737_nimotsu⟧⟦が→が：00051_ga⟧⟦{入|はい}っている→入る：00494_hairu⟧。",
       "english": "The box is tightly filled with luggage.",
       "notes": null,
       "has_audio": false,
@@ -43,11 +43,33 @@
       ]
     }
   ],
-  "notes": "みっしり is an onomatopoeic adverb that emphasizes complete density with no wasted space or gaps. It conveys a sense of things being crammed together so thoroughly that nothing more could fit.\n\nCOMMON PATTERNS:\n- みっしり⟦{詰|つ}まる→詰まる：02079_tsumaru⟧: to be packed tightly\n- みっしり⟦{埋|う}まる→埋まる：01897_umaru⟧: to be completely filled\n- みっしりと⟦{入|はい}っている→入る：00494_hairu⟧: to be tightly packed inside\n- みっしり⟦{並|なら}ぶ→並ぶ：00605_narabu⟧: to be lined up densely\n\nSIMILAR WORDS:\n- ⟦ぎっしり→ぎっしり：05891_gisshiri⟧: tightly packed (more common, nearly interchangeable)\n- ⟦びっしり→びっしり：05892_bisshiri⟧: densely covered/written (emphasizes surface coverage)\n- ⟦ぎゅうぎゅう→ぎゅうぎゅう：05646_gyuugyuu⟧: crammed, squeezed (often for people in tight spaces)\n- ⟦すかすか→すかすか：noentry⟧: sparse, with gaps (opposite meaning)\n\nみっしり often takes the particle と (みっしりと) in more formal or written contexts. In casual speech, と is frequently dropped.",
-  "cross_references": [],
+  "notes": "みっしり is an onomatopoeic adverb that emphasizes complete density with no wasted space or gaps. It conveys a sense of things being crammed together so thoroughly that nothing more could fit.\n\nCOMMON PATTERNS:\n- みっしり⟦{詰|つ}まる→詰まる：02079_tsumaru⟧: to be packed tightly\n- みっしり⟦{埋|う}まる→埋まる：01897_umaru⟧: to be completely filled\n- みっしり⟦と→と：00512_to⟧⟦{入|はい}っている→入る：00494_hairu⟧: to be tightly packed inside\n- みっしり⟦{並|なら}ぶ→並ぶ：00605_narabu⟧: to be lined up densely\n\nSIMILAR WORDS:\n- ⟦ぎっしり→ぎっしり：05891_gisshiri⟧: tightly packed (more common, nearly interchangeable)\n- ⟦びっしり→びっしり：05892_bisshiri⟧: densely covered/written (emphasizes surface coverage)\n- ⟦ぎゅうぎゅう→ぎゅうぎゅう：05646_gyuugyuu⟧: crammed, squeezed (often for people in tight spaces)\n- ⟦すかすか→すかすか：noentry⟧: sparse, with gaps (opposite meaning)\n\nみっしり often takes the particle ⟦と→と：00512_to⟧ (みっしり⟦と→と：00512_to⟧) in more formal or written contexts. In casual speech, ⟦と→と：00512_to⟧ is frequently dropped.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05891_gisshiri",
+      "reading": "ぎっしり",
+      "headword": "ぎっしり",
+      "label": "tightly packed"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05892_bisshiri",
+      "reading": "びっしり",
+      "headword": "びっしり",
+      "label": "densely covered/written"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05646_gyuugyuu",
+      "reading": "ぎゅうぎゅう",
+      "headword": "ぎゅうぎゅう",
+      "label": "crammed, squeezed"
+    }
+  ],
   "metadata": {
     "created": "2026-01-16T21:25:32Z",
-    "modified": "2026-06-09T19:58:47Z",
+    "modified": "2026-09-02T04:01:07Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

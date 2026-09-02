@@ -3,7 +3,7 @@
   "id": "14583_ridatsu",
   "headword": "{離脱|りだつ}",
   "reading": "りだつ",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "withdrawal; secession; breakaway",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "14583_ridatsu_ex1",
-      "japanese": "{党|とう}から{離脱|りだつ}した。",
+      "japanese": "{党|とう}⟦から→から：00504_kara⟧{離脱|りだつ}⟦した→する：00392_suru⟧。",
       "english": "He left the party.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "14583_ridatsu_ex2",
-      "japanese": "その{国|くに}は{条約|じょうやく}からの{離脱|りだつ}を{表明|ひょうめい}した。",
+      "japanese": "⟦その→その：00993_sono⟧⟦{国|くに}→国：02204_kuni⟧⟦は→は：00079_ha⟧⟦{条約|じょうやく}→条約：04912_jouyaku⟧⟦から→から：00504_kara⟧⟦の→の：09472_no⟧{離脱|りだつ}⟦を→を：00422_wo⟧⟦{表明|ひょうめい}→表明：14052_hyoumei⟧⟦した→する：00392_suru⟧。",
       "english": "The country announced its withdrawal from the treaty.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "14583_ridatsu_ex3",
-      "japanese": "エースの{負傷|ふしょう}{離脱|りだつ}はチームにとって{大|おお}きな{痛手|いたで}だった。",
+      "japanese": "⟦エース→エース：28537_eesu⟧⟦の→の：09472_no⟧⟦{負傷|ふしょう}→負傷：15287_fushou⟧{離脱|りだつ}⟦は→は：00079_ha⟧⟦チーム→チーム：03858_chiimu⟧⟦にとって→にとって：06803_nitotte⟧⟦{大|おお}きな→大きな：02849_ookina⟧{痛手|いたで}だった。",
       "english": "The ace's withdrawal due to injury was a major blow to the team.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{離脱|りだつ} is a formal word used for deliberate or significant departures — leaving a political party, withdrawing from a treaty, or a player dropping out due to injury. It is more formal and definitive than simply {辞|や}める.\n\nPARTICLE PATTERNS:\n- ～から{離脱|りだつ}する (to withdraw from ~)\n- ～を{離脱|りだつ}する (to leave ~ — less common)\n\nCOMMON COLLOCATIONS:\n- {党|とう}を{離脱|りだつ}する (to leave a political party)\n- {条約|じょうやく}から{離脱|りだつ}する (to withdraw from a treaty)\n- {負傷|ふしょう}{離脱|りだつ} (withdrawal due to injury)\n- {戦線|せんせん}{離脱|りだつ} (leaving the front line; dropping out)\n- {離脱|りだつ}{症状|しょうじょう} (withdrawal symptoms)",
+  "notes": "USAGE:\n{離脱|りだつ} is a formal word used for deliberate or significant departures — leaving a political party, withdrawing from a treaty, or a player dropping out due to injury. It is more formal and definitive than simply {辞|や}める.\n\nCOMMON PATTERNS:\n- ～⟦から→から：00504_kara⟧{離脱|りだつ}⟦する→する：00392_suru⟧ (to withdraw from ~)\n- ～⟦を→を：00422_wo⟧{離脱|りだつ}⟦する→する：00392_suru⟧ (to leave ~ — less common)\n\nCOMMON COLLOCATIONS:\n- {党|とう}⟦を→を：00422_wo⟧{離脱|りだつ}⟦する→する：00392_suru⟧ (to leave a political party)\n- ⟦{条約|じょうやく}→条約：04912_jouyaku⟧⟦から→から：00504_kara⟧{離脱|りだつ}⟦する→する：00392_suru⟧ (to withdraw from a treaty)\n- ⟦{負傷|ふしょう}→負傷：15287_fushou⟧{離脱|りだつ} (withdrawal due to injury)\n- ⟦{戦線|せんせん}→戦線：22999_sensen⟧{離脱|りだつ} (leaving the front line; dropping out)\n- {離脱|りだつ}⟦{症状|しょうじょう}→症状：03234_shoujou⟧ (withdrawal symptoms)",
   "cross_references": [
     {
       "type": "synonym",
@@ -149,11 +149,39 @@
       "reading": "さんか",
       "headword": "{参加|さんか}",
       "label": "participation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05769_kamei",
+      "reading": "かめい",
+      "headword": "{加盟|かめい}",
+      "label": "joining"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11773_bunri",
+      "reading": "ぶんり",
+      "headword": "{分離|ぶんり}",
+      "label": "separation, isolation, detachment"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21482_rihan",
+      "reading": "りはん",
+      "headword": "{離反|りはん}",
+      "label": "defection"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25360_tettaisuru",
+      "reading": "てったいする",
+      "headword": "{撤退|てったい}する",
+      "label": "to withdraw"
     }
   ],
   "metadata": {
     "created": "2026-03-02T07:45:53Z",
-    "modified": "2026-04-30T09:17:48Z",
+    "modified": "2026-09-02T04:01:37Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

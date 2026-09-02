@@ -168,7 +168,7 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive). Compound verb: ⟦{引|ひ}く→引く：01978_hiku⟧ + ⟦{止|と}める→止める：00678_tomeru⟧. Pattern: Xを{引|ひ}き{止|と}める (hold back X / stop X).\n\nASPECT: ている indicates ongoing effort. {引|ひ}き{止|と}めている = 'is trying to hold back' or 'is detaining.'\n\nCOMMON PATTERNS:\n・⟦{人|ひと}→人：00476_hito⟧⟦を→を：00422_wo⟧{引|ひ}き{止|と}める (hold someone back)\n・⟦{辞職|じしょく}→辞職：06157_jishoku⟧⟦を→を：00422_wo⟧{引|ひ}き{止|と}める (talk someone out of resigning)\n・⟦{何|なん}とか→何とか：01126_nantoka⟧{引|ひ}き{止|と}める (somehow try to stop/retain)\n\nNOTE: Often used in workplace contexts when trying to prevent someone from quitting. Can also be written as {引|ひ}き{留|と}める with the same meaning.",
+  "notes": "TRANSITIVITY: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive). Compound verb: ⟦{引|ひ}く→引く：01978_hiku⟧ + ⟦{止|と}める→止める：00678_tomeru⟧. Pattern: X⟦を→を：00422_wo⟧{引|ひ}き{止|と}める (hold back X / stop X).\n\nASPECT: て⟦いる→いる：00495_iru⟧ indicates ongoing effort. {引|ひ}き{止|と}めて⟦いる→いる：00495_iru⟧ = 'is trying to hold back' or 'is detaining.'\n\nCOMMON PATTERNS:\n- ⟦{人|ひと}→人：00476_hito⟧⟦を→を：00422_wo⟧{引|ひ}き{止|と}める (hold someone back)\n- ⟦{辞職|じしょく}→辞職：06157_jishoku⟧⟦を→を：00422_wo⟧{引|ひ}き{止|と}める (talk someone out of resigning)\n- ⟦{何|なん}とか→何とか：01126_nantoka⟧{引|ひ}き{止|と}める (somehow try to stop/retain)\n\nNOTE: Often used in workplace contexts when trying to prevent someone from quitting. Can also be written as {引|ひ}き{留|と}める with the same meaning.",
   "cross_references": [
     {
       "type": "related",
@@ -181,11 +181,25 @@
       "reading": "ひく",
       "headword": "{引|ひ}く",
       "target_id": "01978_hiku"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22563_oshitodomeru",
+      "reading": "おしとどめる",
+      "headword": "{押|お}し{留|とど}める",
+      "label": "to restrain"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29660_oshitomeru",
+      "reading": "おしとめる",
+      "headword": "{押|お}し{止|と}める",
+      "label": "to hold back"
     }
   ],
   "metadata": {
     "created": "2026-01-17T04:29:29Z",
-    "modified": "2026-06-18T06:20:49Z",
+    "modified": "2026-09-02T04:01:08Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

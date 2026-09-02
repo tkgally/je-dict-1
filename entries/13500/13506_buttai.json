@@ -15,42 +15,62 @@
   "examples": [
     {
       "id": "13506_buttai_ex1",
-      "japanese": "{不審|ふしん}な{物体|ぶったい}が{見|み}つかった。",
+      "japanese": "⟦{不審|ふしん}→不審：16934_fushin⟧な{物体|ぶったい}⟦が→が：00051_ga⟧⟦{見|み}つかった→見つかる：01173_mitsukaru⟧。",
       "english": "A suspicious object was found.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13506_buttai_ex2",
-      "japanese": "{未確認|みかくにん}{飛行|ひこう}{物体|ぶったい}の{目撃|もくげき}{情報|じょうほう}がある。",
+      "japanese": "{未確認|みかくにん}{飛行|ひこう}{物体|ぶったい}⟦の→の：09472_no⟧⟦{目撃|もくげき}→目撃：13627_mokugeki⟧⟦{情報|じょうほう}→情報：03348_jouhou⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There are reports of unidentified flying object sightings.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13506_buttai_ex3",
-      "japanese": "{物体|ぶったい}の{落下|らっか}{速度|そくど}は{質量|しつりょう}に{関係|かんけい}なく{一定|いってい}である。",
+      "japanese": "{物体|ぶったい}⟦の→の：09472_no⟧⟦{落下|らっか}→落下：14051_rakka⟧⟦{速度|そくど}→速度：03319_sokudo⟧⟦は→は：00079_ha⟧⟦{質量|しつりょう}→質量：15753_shitsuryou⟧⟦に→に：00314_ni⟧⟦{関係|かんけい}→関係：01298_kankei⟧⟦なく→ない：01118_nai⟧⟦{一定|いってい}→一定：01735_ittei⟧⟦である→である：09855_dearu⟧。",
       "english": "The falling speed of an object is constant regardless of its mass.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nA somewhat formal or technical word. In everyday speech, {物|もの} or {物体|ぶったい} may be used interchangeably, but {物体|ぶったい} emphasizes the physical, material nature of the object. Often used when the identity of the object is unknown.\n\nThe famous abbreviation UFO comes from {未確認|みかくにん}{飛行|ひこう}{物体|ぶったい} (unidentified flying object).\n\nCOMMON COLLOCATIONS:\n- {不審|ふしん}{物体|ぶったい}: suspicious object\n- {未確認|みかくにん}{飛行|ひこう}{物体|ぶったい}: UFO\n- {飛行|ひこう}{物体|ぶったい}: flying object\n- {物体|ぶったい}の{運動|うんどう}: motion of an object",
-  "cross_references": [],
+  "notes": "USAGE:\nA somewhat formal or technical word. In everyday speech, ⟦{物|もの}→物：02259_mono⟧ or {物体|ぶったい} may be used interchangeably, but {物体|ぶったい} emphasizes the physical, material nature of the object. Often used when the identity of the object is unknown.\n\nThe famous abbreviation UFO comes from {未確認|みかくにん}{飛行|ひこう}{物体|ぶったい} (unidentified flying object).\n\nCOMMON COLLOCATIONS:\n- ⟦{不審|ふしん}→不審：16934_fushin⟧{物体|ぶったい}: suspicious object\n- {未確認|みかくにん}{飛行|ひこう}{物体|ぶったい}: UFO\n- ⟦{飛行|ひこう}→飛行：03578_hikou⟧{物体|ぶったい}: flying object\n- {物体|ぶったい}⟦の→の：09472_no⟧⟦{運動|うんどう}→運動：00821_undou⟧: motion of an object",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25042_museibutsu",
+      "reading": "むせいぶつ",
+      "headword": "{無生物|むせいぶつ}",
+      "label": "inanimate object"
+    }
+  ],
   "metadata": {
     "created": "2026-02-25T13:30:54Z",
-    "modified": "2026-02-25T13:30:54Z",
+    "modified": "2026-09-02T04:01:33Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["academic"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "academic"
+      ]
     }
   }
 }

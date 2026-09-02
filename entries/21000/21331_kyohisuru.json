@@ -2,7 +2,7 @@
   "id": "21331_kyohisuru",
   "headword": "{拒否|きょひ}する",
   "reading": "きょひする",
-  "part_of_speech": "noun, suru verb, transitive",
+  "part_of_speech": "noun, suru verb (transitive)",
   "gloss": "to refuse; to reject; to deny",
   "definitions": [
     {
@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "21331_kyohisuru_ex1",
-      "japanese": "{入国|にゅうこく}を{拒否|きょひ}された。",
+      "japanese": "⟦{入国|にゅうこく}→入国：15859_nyuukoku⟧⟦を→を：00422_wo⟧{拒否|きょひ}された。",
       "english": "I was denied entry into the country.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "21331_kyohisuru_ex2",
-      "japanese": "{彼|かれ}は{取材|しゅざい}を{拒否|きょひ}した。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{取材|しゅざい}→取材：05227_shuzai⟧⟦を→を：00422_wo⟧{拒否|きょひ}した。",
       "english": "He refused the interview.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "21331_kyohisuru_ex3",
-      "japanese": "{会社|かいしゃ}は{労働|ろうどう}{組合|くみあい}の{要求|ようきゅう}を{拒否|きょひ}する{姿勢|しせい}を{崩|くず}さなかった。",
+      "japanese": "⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦は→は：00079_ha⟧⟦{労働|ろうどう}{組合|くみあい}→労働組合：16096_roudoukumiai⟧⟦の→の：09472_no⟧⟦{要求|ようきゅう}→要求：03658_youkyuu⟧⟦を→を：00422_wo⟧{拒否|きょひ}する⟦{姿勢|しせい}→姿勢：00371_shisei⟧⟦を→を：00422_wo⟧⟦{崩|くず}さなかった→崩す：03919_kuzusu⟧。",
       "english": "The company maintained its stance of refusing the labor union's demands.",
       "sense_numbers": [
         1
@@ -43,8 +43,45 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {拒|きょ} (refuse) + {否|ひ} (deny). A strong, formal word for refusal. Implies a firm, definitive rejection rather than a polite decline.\n\nCOMMON COLLOCATIONS:\n- {拒否|きょひ}{反応|はんのう}: rejection reaction (medical)\n- {拒否|きょひ}{権|けん}: right to refuse; veto\n- {着信|ちゃくしん}{拒否|きょひ}: call blocking\n- {受|う}け{取|と}り{拒否|きょひ}: refusal to accept delivery\n- {入国|にゅうこく}{拒否|きょひ}: denial of entry\n\nSIMILAR WORDS:\n- {断|ことわ}る: to decline, to turn down (everyday, can be polite)\n- {却下|きゃっか}する: to reject (official decisions — applications, proposals)\n- {否認|ひにん}する: to deny (facts, allegations — legal contexts)",
+  "notes": "Compound of {拒|きょ} (refuse) + {否|ひ} (deny). A strong, formal word for refusal. Implies a firm, definitive rejection rather than a polite decline.\n\nCOMMON COLLOCATIONS:\n- ⟦{拒否|きょひ}{反応|はんのう}→拒否反応：21642_kyohihannou⟧: rejection reaction (medical)\n- ⟦{拒否|きょひ}→拒否：08242_kyohi⟧{権|けん}: right to refuse; veto\n- ⟦{着信|ちゃくしん}→着信：07685_chakushin⟧⟦{拒否|きょひ}→拒否：08242_kyohi⟧: call blocking\n- {受|う}け{取|と}り⟦{拒否|きょひ}→拒否：08242_kyohi⟧: refusal to accept delivery\n- ⟦{入国|にゅうこく}→入国：15859_nyuukoku⟧⟦{拒否|きょひ}→拒否：08242_kyohi⟧: denial of entry\n\nSIMILAR WORDS:\n- ⟦{断|ことわ}る→断る：02102_kotowaru⟧: to decline, to turn down (everyday, can be polite)\n- ⟦{却下|きゃっか}→却下：05908_kyakka⟧⟦する→する：00392_suru⟧: to reject (official decisions — applications, proposals)\n- ⟦{否認|ひにん}する→否認する：22511_hininsuru⟧: to deny (facts, allegations — legal contexts)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02102_kotowaru",
+      "reading": "ことわる",
+      "headword": "{断|ことわ}る",
+      "label": "to decline, to turn down"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05908_kyakka",
+      "reading": "きゃっか",
+      "headword": "{却下|きゃっか}",
+      "label": "to reject (official decisions"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22511_hininsuru",
+      "reading": "ひにんする",
+      "headword": "{否認|ひにん}する",
+      "label": "to deny (facts, allegations"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06862_ketobasu",
+      "reading": "けとばす",
+      "headword": "{蹴飛|けと}ばす",
+      "label": "to kick away"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19526_kyozetsusuru",
+      "reading": "きょぜつする",
+      "headword": "{拒絶|きょぜつ}する",
+      "label": "to refuse"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,7 +99,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-02T01:02:22Z",
-    "modified": "2026-04-02T01:02:22Z"
+    "modified": "2026-09-02T04:02:03Z"
   },
   "conjugation": {
     "type": "suru",

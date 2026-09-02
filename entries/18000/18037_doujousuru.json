@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "18037_doujousuru_ex1",
-      "japanese": "{彼|かれ}に{同情|どうじょう}する。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦に→に：00314_ni⟧{同情|どうじょう}する。",
       "english": "I feel sorry for him.",
       "sense_numbers": [
         1
@@ -114,7 +114,7 @@
     },
     {
       "id": "18037_doujousuru_ex2",
-      "japanese": "{被害者|ひがいしゃ}に{同情|どうじょう}の{声|こえ}が{集|あつ}まった。",
+      "japanese": "⟦{被害者|ひがいしゃ}→被害者：14106_higaisha⟧⟦に→に：00314_ni⟧⟦{同情|どうじょう}→同情：11954_doujou⟧⟦の→の：09472_no⟧⟦{声|こえ}→声：02207_koe⟧⟦が→が：00051_ga⟧⟦{集|あつ}まった→集まる：01162_atsumaru⟧。",
       "english": "Voices of sympathy gathered for the victims.",
       "sense_numbers": [
         1
@@ -124,7 +124,7 @@
     },
     {
       "id": "18037_doujousuru_ex3",
-      "japanese": "{同情|どうじょう}するなら{金|かね}をくれ。",
+      "japanese": "{同情|どうじょう}するなら⟦{金|かね}→金：02618_kane⟧⟦を→を：00422_wo⟧⟦くれ→くれる：00724_kureru⟧。",
       "english": "If you feel sorry for me, give me money.",
       "sense_numbers": [
         1
@@ -133,7 +133,7 @@
       "notes": "A famous line from the 1994 TV drama 家なき子 (Ie Naki Ko)."
     }
   ],
-  "notes": "{同情|どうじょう}する means to feel sympathy or pity for someone. Takes the particle に for the person: 〜に{同情|どうじょう}する.\n\nCOMMON COLLOCATIONS:\n- {同情|どうじょう}の{余地|よち}: room for sympathy\n- {同情|どうじょう}を{寄|よ}せる: to extend sympathy\n- {同情|どうじょう}を{買|か}う: to win/gain sympathy\n- {同情|どうじょう}{的|てき}（な）: sympathetic\n- {同情|どうじょう}を{禁|きん}じ{得|え}ない: cannot help but feel sympathy\n\nNUANCE:\nCan carry a slightly condescending tone — feeling sorry for someone from a position of relative advantage. For a more equal, shared-feeling sense, {共感|きょうかん}する (to empathize) is preferred.\n\nSIMILAR WORDS:\n- {共感|きょうかん}する: to empathize (more equal, positive)\n- {哀|あわ}れむ: to pity (stronger pity, more literary)\n- {気|き}の{毒|どく}に{思|おも}う: to feel sorry for (everyday expression)",
+  "notes": "{同情|どうじょう}する means to feel sympathy or pity for someone. Takes the particle ⟦に→に：00314_ni⟧ for the person: 〜⟦に→に：00314_ni⟧{同情|どうじょう}する.\n\nCOMMON COLLOCATIONS:\n- ⟦{同情|どうじょう}→同情：11954_doujou⟧⟦の→の：09472_no⟧⟦{余地|よち}→余地：07612_yochi⟧: room for sympathy\n- ⟦{同情|どうじょう}→同情：11954_doujou⟧⟦を→を：00422_wo⟧⟦{寄|よ}せる→寄せる：02329_yoseru⟧: to extend sympathy\n- ⟦{同情|どうじょう}→同情：11954_doujou⟧⟦を→を：00422_wo⟧⟦{買|か}う→買う：00489_kau⟧: to win/gain sympathy\n- ⟦{同情|どうじょう}→同情：11954_doujou⟧{的|てき}（な）: sympathetic\n- ⟦{同情|どうじょう}→同情：11954_doujou⟧⟦を→を：00422_wo⟧⟦{禁|きん}じ→禁ずる：19600_kinzuru⟧⟦{得|え}ない→得る：02014_eru⟧: cannot help but feel sympathy\n\nUSAGE:\nCan carry a slightly condescending tone — feeling sorry for someone from a position of relative advantage. For a more equal, shared-feeling sense, ⟦{共感|きょうかん}する→共感する：19640_kyoukansuru⟧ (to empathize) is preferred.\n\nSIMILAR WORDS:\n- ⟦{共感|きょうかん}する→共感する：19640_kyoukansuru⟧: to empathize (more equal, positive)\n- ⟦{哀|あわ}れむ→哀れむ：11995_awaremu⟧: to pity (stronger pity, more literary)\n- ⟦{気|き}の{毒|どく}→気の毒：02581_kinodoku⟧⟦に→に：00314_ni⟧⟦{思|おも}う→思う：00492_omou⟧: to feel sorry for (everyday expression)",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -151,7 +151,7 @@
       "verb_class": "suru"
     },
     "created": "2026-03-19T12:19:11Z",
-    "modified": "2026-05-08T04:12:06Z"
+    "modified": "2026-09-02T04:01:50Z"
   },
   "cross_references": [
     {
@@ -160,6 +160,34 @@
       "reading": "きょうかん",
       "headword": "{共感|きょうかん}",
       "label": "empathy (more equal)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19640_kyoukansuru",
+      "reading": "きょうかんする",
+      "headword": "{共感|きょうかん}する",
+      "label": "to empathize"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11995_awaremu",
+      "reading": "あわれむ",
+      "headword": "{哀|あわ}れむ",
+      "label": "to pity"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16875_awaremu",
+      "reading": "あわれむ",
+      "headword": "{憐|あわ}れむ",
+      "label": "to pity"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25839_omoiyaru",
+      "reading": "おもいやる",
+      "headword": "{思|おも}いやる",
+      "label": "to sympathize with"
     }
   ]
 }

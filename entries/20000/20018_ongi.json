@@ -15,40 +15,74 @@
   "examples": [
     {
       "id": "20018_ongi_ex1",
-      "japanese": "{恩義|おんぎ}を{感|かん}じている。",
+      "japanese": "{恩義|おんぎ}⟦を→を：00422_wo⟧⟦{感|かん}じている→感じる：02044_kanjiru⟧。",
       "english": "I feel a debt of gratitude.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20018_ongi_ex2",
-      "japanese": "{先生|せんせい}には{大|おお}きな{恩義|おんぎ}がある。",
+      "japanese": "⟦{先生|せんせい}→先生：00609_sensei⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{大|おお}きな→大きな：02849_ookina⟧{恩義|おんぎ}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "I owe my teacher a great debt of gratitude.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20018_ongi_ex3",
-      "japanese": "{命|いのち}を{救|すく}ってくれた{恩義|おんぎ}は{一生|いっしょう}{忘|わす}れない。",
+      "japanese": "⟦{命|いのち}→命：02371_inochi⟧⟦を→を：00422_wo⟧⟦{救|すく}って→救う：02063_sukuu⟧⟦くれた→くれる：00724_kureru⟧{恩義|おんぎ}⟦は→は：00079_ha⟧⟦{一生|いっしょう}→一生：01728_isshou⟧⟦{忘|わす}れない→忘れる：00474_wasureru⟧。",
       "english": "I will never forget the debt I owe to the person who saved my life.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {恩|おん} (kindness, favor) and {義|ぎ} (duty, righteousness). Refers to the moral obligation one feels toward someone who has provided significant help or kindness. A culturally weighted concept in Japan, where reciprocating favors is deeply important.\n\nCOMMON COLLOCATIONS:\n- {恩義|おんぎ}を{感|かん}じる: to feel a debt of gratitude\n- {恩義|おんぎ}がある: to be indebted to\n- {恩義|おんぎ}に{報|むく}いる: to repay a debt of gratitude\n- {恩義|おんぎ}を{忘|わす}れる: to forget one's obligations\n- {恩義|おんぎ}を{受|う}ける: to receive a favor\n\nSIMILAR WORDS:\n- {恩|おん}: favor, kindness — the kindness itself, without the duty component\n- {恩返|おんがえ}し: returning a favor — the act of repaying kindness\n- {義理|ぎり}: social obligation — a broader concept of duty in social relationships, including those without personal gratitude\n\nCULTURAL NOTE:\nIn Japanese culture, {恩義|おんぎ} carries significant moral weight. Forgetting or ignoring an {恩義|おんぎ} is considered a serious character flaw. The concept appears frequently in historical dramas and stories about loyalty.",
+  "notes": "Composed of ⟦{恩|おん}→恩：02550_on⟧ (kindness, favor) and {義|ぎ} (duty, righteousness). Refers to the moral obligation one feels toward someone who has provided significant help or kindness. A culturally weighted concept in Japan, where reciprocating favors is deeply important.\n\nCOMMON COLLOCATIONS:\n- {恩義|おんぎ}⟦を→を：00422_wo⟧⟦{感|かん}じる→感じる：02044_kanjiru⟧: to feel a debt of gratitude\n- {恩義|おんぎ}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧: to be indebted to\n- {恩義|おんぎ}⟦に→に：00314_ni⟧⟦{報|むく}いる→報いる：12088_mukuiru⟧: to repay a debt of gratitude\n- {恩義|おんぎ}⟦を→を：00422_wo⟧⟦{忘|わす}れる→忘れる：00474_wasureru⟧: to forget one's obligations\n- {恩義|おんぎ}⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧: to receive a favor\n\nSIMILAR WORDS:\n- ⟦{恩|おん}→恩：02550_on⟧: favor, kindness — the kindness itself, without the duty component\n- ⟦{恩返|おんがえ}し→恩返し：11063_ongaeshi⟧: returning a favor — the act of repaying kindness\n- ⟦{義理|ぎり}→義理：10891_giri⟧: social obligation — a broader concept of duty in social relationships, including those without personal gratitude\n\nCULTURAL NOTE:\nIn Japanese culture, {恩義|おんぎ} carries significant moral weight. Forgetting or ignoring an {恩義|おんぎ} is considered a serious character flaw. The concept appears frequently in historical dramas and stories about loyalty.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11063_ongaeshi",
+      "reading": "おんがえし",
+      "headword": "{恩返|おんがえ}し",
+      "label": "returning a favor"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10891_giri",
+      "reading": "ぎり",
+      "headword": "{義理|ぎり}",
+      "label": "social obligation"
+    },
+    {
+      "type": "related",
+      "target_id": "22540_houon",
+      "reading": "ほうおん",
+      "headword": "{報恩|ほうおん}",
+      "label": "repaying kindness"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["emotion", "culture"]
+      "semantic": [
+        "emotion",
+        "culture"
+      ]
     },
     "created": "2026-03-28T05:23:30Z",
-    "modified": "2026-03-28T05:23:30Z"
+    "modified": "2026-09-02T04:01:58Z"
   }
 }

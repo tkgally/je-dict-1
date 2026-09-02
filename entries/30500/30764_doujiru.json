@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "30764_doujiru_ex1",
-      "japanese": "{彼|かれ}は{少|すこ}しも{動|どう}じなかった。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{少|すこ}し→少し：00596_sukoshi⟧⟦も→も：00484_mo⟧{動|どう}じなかった。",
       "english": "He wasn't the least bit fazed.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "30764_doujiru_ex2",
-      "japanese": "{何|なに}が{起|お}きても{動|どう}じない{人|ひと}だ。",
+      "japanese": "⟦{何|なに}→何：00498_nani⟧⟦が→が：00051_ga⟧⟦{起|お}きて→起きる：00521_okiru⟧⟦も→も：00484_mo⟧{動|どう}じない⟦{人|ひと}→人：00476_hito⟧だ。",
       "english": "She's someone who stays unruffled no matter what happens.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "30764_doujiru_ex3",
-      "japanese": "{記者|きしゃ}の{厳|きび}しい{質問|しつもん}にも{動|どう}じることなく、{落|お}ち{着|つ}いて{答|こた}えた。",
+      "japanese": "⟦{記者|きしゃ}→記者：14170_kisha⟧⟦の→の：09472_no⟧⟦{厳|きび}しい→厳しい：01125_kibishii⟧⟦{質問|しつもん}→質問：00888_shitsumon⟧⟦に→に：00314_ni⟧⟦も→も：00484_mo⟧{動|どう}じること⟦なく→ない：01118_nai⟧、⟦{落|お}ち{着|つ}いて→落ち着く：04670_ochitsuku⟧⟦{答|こた}えた→答える：01099_kotaeru⟧。",
       "english": "Without being rattled even by the reporters' sharp questions, he answered calmly.",
       "sense_numbers": [
         1
@@ -43,8 +43,24 @@
       "notes": null
     }
   ],
-  "notes": "USAGE:\nThe affirmative is unusual. Learners will meet this verb almost entirely as {動|どう}じない, {動|どう}じることなく, or {動|どう}じずに, describing composure under pressure.\n\nCOMMON FORMS:\n- {動|どう}じない: unshaken, unflappable\n- {動|どう}じることなく: without being fazed\n- {少|すこ}しも{動|どう}じない: not fazed in the slightest\n\nTRANSITIVITY:\nIntransitive. The cause is marked with に: {批判|ひはん}に{動|どう}じない (to be unmoved by criticism).\n\nSIMILAR WORDS:\n- {慌|あわ}てる: to panic, to get flustered — the visible reaction; {動|どう}じる is the inner wobble\n- {驚|おどろ}く: to be surprised — a neutral reaction, with no loss of composure implied\n\n{動|どう}ずる is the older written form and still appears in formal prose.",
+  "notes": "USAGE:\nThe affirmative is unusual. Learners will meet this verb almost entirely as {動|どう}じない, {動|どう}じること⟦なく→ない：01118_nai⟧, or {動|どう}じず⟦に→に：00314_ni⟧, describing composure under pressure.\n\nCOMMON FORMS:\n- {動|どう}じない: unshaken, unflappable\n- {動|どう}じること⟦なく→ない：01118_nai⟧: without being fazed\n- ⟦{少|すこ}し→少し：00596_sukoshi⟧⟦も→も：00484_mo⟧{動|どう}じない: not fazed in the slightest\n\nTRANSITIVITY:\nIntransitive. The cause is marked with ⟦に→に：00314_ni⟧: ⟦{批判|ひはん}→批判：03580_hihan⟧⟦に→に：00314_ni⟧{動|どう}じない (to be unmoved by criticism).\n\nSIMILAR WORDS:\n- ⟦{慌|あわ}てる→慌てる：01874_awateru⟧: to panic, to get flustered — the visible reaction; {動|どう}じる is the inner wobble\n- ⟦{驚|おどろ}く→驚く：01255_odoroku⟧: to be surprised — a neutral reaction, with no loss of composure implied\n\n{動|どう}ずる is the older written form and still appears in formal prose.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01874_awateru",
+      "reading": "あわてる",
+      "headword": "{慌|あわ}てる",
+      "label": "to panic, to get flustered"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01255_odoroku",
+      "reading": "おどろく",
+      "headword": "{驚|おどろ}く",
+      "label": "to be surprised"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -54,14 +70,14 @@
       "transitivity": "intransitive",
       "verb_class": "ichidan",
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "emotion"
       ],
       "domain": []
     },
     "created": "2026-08-28T12:31:33Z",
-    "modified": "2026-08-28T12:31:33Z"
+    "modified": "2026-09-02T04:02:41Z"
   },
   "conjugation": {
     "type": "ichidan",

@@ -3,7 +3,7 @@
   "headword": "{濃緑|のうりょく}",
   "reading": "のうりょく",
   "romaji": "nouryoku",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "dark green; deep green",
   "definitions": [
     {
@@ -15,40 +15,74 @@
   "examples": [
     {
       "id": "24868_nouryoku_ex1",
-      "japanese": "{濃緑|のうりょく}の{森|もり}が{広|ひろ}がっていた。",
+      "japanese": "{濃緑|のうりょく}⟦の→の：09472_no⟧⟦{森|もり}→森：02260_mori⟧⟦が→が：00051_ga⟧⟦{広|ひろ}がっていた→広がる：01980_hirogaru⟧。",
       "english": "A deep green forest stretched out before us.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "24868_nouryoku_ex2",
-      "japanese": "{夏|なつ}になると{葉|は}が{濃緑|のうりょく}{色|しょく}に{変|か}わる。",
+      "japanese": "⟦{夏|なつ}→夏：02236_natsu⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦と→と：00512_to⟧⟦{葉|は}→葉：02241_ha⟧⟦が→が：00051_ga⟧{濃緑|のうりょく}{色|しょく}⟦に→に：00314_ni⟧⟦{変|か}わる→変わる：00714_kawaru⟧。",
       "english": "In summer, the leaves turn a deep green color.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "24868_nouryoku_ex3",
-      "japanese": "{濃緑|のうりょく}の{制服|せいふく}を{着|き}た{生徒|せいと}たちが{校門|こうもん}をくぐっていった。",
+      "japanese": "{濃緑|のうりょく}⟦の→の：09472_no⟧⟦{制服|せいふく}→制服：03086_seifuku⟧⟦を→を：00422_wo⟧⟦{着|き}た→着る：00541_kiru⟧⟦{生徒|せいと}→生徒：01051_seito⟧たち⟦が→が：00051_ga⟧⟦{校門|こうもん}→校門：13116_koumon⟧⟦を→を：00422_wo⟧くぐっていった。",
       "english": "Students wearing dark green uniforms walked through the school gate.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {濃|のう} (dense/thick/dark) + {緑|りょく} (green). The on'yomi reading {のうりょく} is a homophone of {能力|のうりょく} (ability), so context is needed to distinguish them.\n\nCOMMON COLLOCATIONS:\n- {濃緑|のうりょく}{色|しょく}: dark green color\n- {濃緑|のうりょく}の{葉|は}: dark green leaves\n- {濃緑|のうりょく}の{森|もり}: deep green forest\n\nRELATED COLOR WORDS:\n- {深緑|しんりょく}/{深緑|ふかみどり}: deep green — near-synonym; {深緑|ふかみどり} is the native reading\n- {新緑|しんりょく}: fresh green (of new leaves in spring) — bright and light, the opposite mood\n- {淡緑|たんりょく}: light green; pale green — the opposite intensity\n- {黄緑|きみどり}: yellow-green — lighter and warmer",
+  "notes": "Composed of {濃|のう} (dense/thick/dark) + {緑|りょく} (green). The on'yomi reading のうりょく is a homophone of ⟦{能力|のうりょく}→能力：03541_nouryoku⟧ (ability), so context is needed to distinguish them.\n\nCOMMON COLLOCATIONS:\n- {濃緑|のうりょく}{色|しょく}: dark green color\n- {濃緑|のうりょく}⟦の→の：09472_no⟧⟦{葉|は}→葉：02241_ha⟧: dark green leaves\n- {濃緑|のうりょく}⟦の→の：09472_no⟧⟦{森|もり}→森：02260_mori⟧: deep green forest\n\nRELATED COLOR WORDS:\n- {深緑|しんりょく}/⟦{深緑|ふかみどり}→深緑：20363_fukamidori⟧: deep green — near-synonym; ⟦{深緑|ふかみどり}→深緑：20363_fukamidori⟧ is the native reading\n- ⟦{新緑|しんりょく}→新緑：12724_shinryoku⟧: fresh green (of new leaves in spring) — bright and light, the opposite mood\n- {淡緑|たんりょく}: light green; pale green — the opposite intensity\n- ⟦{黄緑|きみどり}→黄緑：15605_kimidori⟧: yellow-green — lighter and warmer",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "20363_fukamidori",
+      "reading": "ふかみどり",
+      "headword": "{深緑|ふかみどり}",
+      "label": "deep green"
+    },
+    {
+      "type": "related",
+      "target_id": "12724_shinryoku",
+      "reading": "しんりょく",
+      "headword": "{新緑|しんりょく}",
+      "label": "fresh green"
+    },
+    {
+      "type": "related",
+      "target_id": "15605_kimidori",
+      "reading": "きみどり",
+      "headword": "{黄緑|きみどり}",
+      "label": "yellow-green"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-no"],
+      "pos": [
+        "noun",
+        "adjective-no"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["color"]
+      "semantic": [
+        "color"
+      ]
     },
     "created": "2026-04-21T10:34:00Z",
-    "modified": "2026-06-15T07:59:02Z"
+    "modified": "2026-09-02T04:02:20Z"
   }
 }

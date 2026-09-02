@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "25041_shuuhasuu_ex1",
-      "japanese": "{周波数|しゅうはすう}を{変|か}える。",
+      "japanese": "{周波数|しゅうはすう}⟦を→を：00422_wo⟧⟦{変|か}える→変える：01089_kaeru⟧。",
       "english": "Change the frequency.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "25041_shuuhasuu_ex2",
-      "japanese": "このラジオ{局|きょく}の{周波数|しゅうはすう}は80.3メガヘルツです。",
+      "japanese": "⟦この→この：00962_kono⟧⟦ラジオ→ラジオ：01541_rajio⟧⟦{局|きょく}→局：02687_kyoku⟧⟦の→の：09472_no⟧{周波数|しゅうはすう}⟦は→は：00079_ha⟧80.3メガヘルツです。",
       "english": "This radio station's frequency is 80.3 megahertz.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "25041_shuuhasuu_ex3",
-      "japanese": "{高|たか}い{周波数|しゅうはすう}の{音|おと}は{年|とし}を{取|と}ると{聞|き}こえにくくなる。",
+      "japanese": "⟦{高|たか}い→高い：00500_takai⟧{周波数|しゅうはすう}⟦の→の：09472_no⟧⟦{音|おと}→音：00743_oto⟧⟦は→は：00079_ha⟧⟦{年|とし}→年：00486_toshi⟧⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧⟦と→と：00512_to⟧⟦{聞|き}こえ→聞こえる：01229_kikoeru⟧にくく⟦なる→なる：01970_naru⟧。",
       "english": "High-frequency sounds become harder to hear as you get older.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
     },
     {
       "id": "25041_shuuhasuu_ex4",
-      "japanese": "{電子|でんし}レンジは2.4ギガヘルツの{周波数|しゅうはすう}の{電磁波|でんじは}を{使|つか}って{食品|しょくひん}を{温|あたた}める。",
+      "japanese": "⟦{電子|でんし}レンジ→電子レンジ：04973_denshirenji⟧⟦は→は：00079_ha⟧2.4ギガヘルツ⟦の→の：09472_no⟧{周波数|しゅうはすう}⟦の→の：09472_no⟧⟦{電磁波|でんじは}→電磁波：17900_denjiha⟧⟦を→を：00422_wo⟧⟦{使|つか}って→使う：00473_tsukau⟧⟦{食品|しょくひん}→食品：03247_shokuhin⟧⟦を→を：00422_wo⟧⟦{温|あたた}める→温める：02096_atatameru⟧。",
       "english": "Microwave ovens use electromagnetic waves at a frequency of 2.4 gigahertz to heat food.",
       "sense_numbers": [
         1
@@ -53,19 +53,44 @@
       "notes": null
     }
   ],
-  "notes": "A technical term from physics referring to the number of cycles a wave completes per unit of time, measured in hertz (Hz). Commonly encountered in contexts related to radio, sound, electronics, and telecommunications.\n\nCOMMON COLLOCATIONS:\n- {周波数|しゅうはすう}{帯|たい}: frequency band\n- {周波数|しゅうはすう}を{合|あ}わせる: to tune to a frequency\n- {高|こう}{周波|しゅうは}: high frequency\n- {低|てい}{周波|しゅうは}: low frequency\n- {周波数|しゅうはすう}{変換|へんかん}: frequency conversion\n\nSIMILAR WORDS:\n- {頻度|ひんど}: frequency — refers to how often something occurs, not wave cycles\n- {振動数|しんどうすう}: vibration frequency — more specific to mechanical oscillations\n- {波長|はちょう}: wavelength — the inverse concept, measuring distance between wave peaks",
+  "notes": "A technical term from physics referring to the number of cycles a wave completes per unit of time, measured in hertz (Hz). Commonly encountered in contexts related to radio, sound, electronics, and telecommunications.\n\nCOMMON COLLOCATIONS:\n- {周波数|しゅうはすう}⟦{帯|たい}→〜帯：30366_tai⟧: frequency band\n- {周波数|しゅうはすう}⟦を→を：00422_wo⟧⟦{合|あ}わせる→合わせる：01872_awaseru⟧: to tune to a frequency\n- ⟦{高|こう}→高〜：03951_kou⟧{周波|しゅうは}: high frequency\n- ⟦{低|てい}→低〜：03961_tei⟧{周波|しゅうは}: low frequency\n- {周波数|しゅうはすう}⟦{変換|へんかん}→変換：12085_henkan⟧: frequency conversion\n\nSIMILAR WORDS:\n- ⟦{頻度|ひんど}→頻度：14619_hindo⟧: frequency — refers to how often something occurs, not wave cycles\n- {振動数|しんどうすう}: vibration frequency — more specific to mechanical oscillations\n- ⟦{波長|はちょう}→波長：27087_hachou⟧: wavelength — the inverse concept, measuring distance between wave peaks",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14619_hindo",
+      "reading": "ひんど",
+      "headword": "{頻度|ひんど}",
+      "label": "frequency"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27087_hachou",
+      "reading": "はちょう",
+      "headword": "{波長|はちょう}",
+      "label": "wavelength"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27154_hakei",
+      "reading": "はけい",
+      "headword": "{波形|はけい}",
+      "label": "waveform"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "science"
       ]
     },
     "created": "2026-04-22T12:37:01Z",
-    "modified": "2026-04-22T12:37:01Z"
+    "modified": "2026-09-02T04:02:20Z"
   }
 }

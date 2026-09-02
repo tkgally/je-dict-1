@@ -2,7 +2,7 @@
   "id": "11758_shutsugen",
   "headword": "{出現|しゅつげん}",
   "reading": "しゅつげん",
-  "part_of_speech": "noun; noun (する)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "appearance, emergence",
   "conjugation": {
     "type": "suru",
@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "11758_shutsugen_ex1",
-      "japanese": "{新|あたら}しい{技術|ぎじゅつ}が{出現|しゅつげん}した。",
+      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦{技術|ぎじゅつ}→技術：01389_gijutsu⟧⟦が→が：00051_ga⟧{出現|しゅつげん}⟦した→する：00392_suru⟧。",
       "english": "A new technology emerged.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "11758_shutsugen_ex2",
-      "japanese": "{珍|めずら}しい{鳥|とり}がこの{地域|ちいき}に{出現|しゅつげん}した。",
+      "japanese": "⟦{珍|めずら}しい→珍しい：01200_mezurashii⟧⟦{鳥|とり}→鳥：00679_tori⟧⟦が→が：00051_ga⟧⟦この→この：00962_kono⟧⟦{地域|ちいき}→地域：01461_chiiki⟧⟦に→に：00314_ni⟧{出現|しゅつげん}⟦した→する：00392_suru⟧。",
       "english": "A rare bird appeared in this area.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "11758_shutsugen_ex3",
-      "japanese": "インターネットの{出現|しゅつげん}により、{情報|じょうほう}の{伝|つた}わり{方|かた}が{大|おお}きく{変|か}わった。",
+      "japanese": "⟦インターネット→インターネット：04723_intaanetto⟧⟦の→の：09472_no⟧{出現|しゅつげん}⟦に→に：00314_ni⟧⟦より→より：09476_yori⟧、⟦{情報|じょうほう}→情報：03348_jouhou⟧⟦の→の：09472_no⟧⟦{伝|つた}わり→伝わる：01961_tsutawaru⟧⟦{方|かた}→方：10665_kata⟧⟦が→が：00051_ga⟧⟦{大|おお}きく→大きい：00335_ookii⟧⟦{変|か}わった→変わる：00714_kawaru⟧。",
       "english": "With the emergence of the internet, the way information spreads changed dramatically.",
       "notes": null,
       "has_audio": false,
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "{出現|しゅつげん} describes something notable appearing or coming into existence — a new technology, phenomenon, creature, or significant figure.\n\nWORD FORMATION:\n{出|しゅつ} (come out) + {現|げん} (appear, manifest).\n\nCOMMON COLLOCATIONS:\n- {突然|とつぜん}{出現|しゅつげん}する: to appear suddenly\n- {新種|しんしゅ}の{出現|しゅつげん}: emergence of a new species\n- {出現|しゅつげん}{頻度|ひんど}: frequency of appearance\n- {出現|しゅつげん}{率|りつ}: appearance rate\n- ～の{出現|しゅつげん}により: with the emergence of ~\n\nREGISTER:\nFormal and written. In everyday speech, {現|あらわ}れる (to appear) or {出|で}てくる (to come out) are more natural.\n\nCONTRAST:\n- {出現|しゅつげん}: appearance of something notable or significant (formal)\n- {登場|とうじょう}: entrance, debut (often for people, characters)\n- {発生|はっせい}: occurrence, outbreak (for events, disasters, problems)",
+  "notes": "{出現|しゅつげん} describes something notable appearing or coming into existence — a new technology, phenomenon, creature, or significant figure.\n\nFORMS:\n{出|しゅつ} (come out) + ⟦{現|げん}→現〜：03950_gen⟧ (appear, manifest).\n\nCOMMON COLLOCATIONS:\n- ⟦{突然|とつぜん}→突然：00409_totsuzen⟧{出現|しゅつげん}⟦する→する：00392_suru⟧: to appear suddenly\n- {新種|しんしゅ}⟦の→の：09472_no⟧{出現|しゅつげん}: emergence of a new species\n- {出現|しゅつげん}⟦{頻度|ひんど}→頻度：14619_hindo⟧: frequency of appearance\n- {出現|しゅつげん}⟦{率|りつ}→率：03802_ritsu⟧: appearance rate\n- ～⟦の→の：09472_no⟧{出現|しゅつげん}⟦に→に：00314_ni⟧⟦より→より：09476_yori⟧: with the emergence of ~\n\nREGISTER:\nFormal and written. In everyday speech, ⟦{現|あらわ}れる→現れる：01870_arawareru⟧ (to appear) or ⟦{出|で}てくる→出てくる：29121_detekuru⟧ (to come out) are more natural.\n\nSIMILAR WORDS:\n- {出現|しゅつげん}: appearance of something notable or significant (formal)\n- ⟦{登場|とうじょう}→登場：13625_toujou⟧: entrance, debut (often for people, characters)\n- ⟦{発生|はっせい}→発生：03133_hassei⟧: occurrence, outbreak (for events, disasters, problems)",
   "cross_references": [
     {
       "type": "antonym",
@@ -155,11 +155,18 @@
       "reading": "はっせい",
       "headword": "{発生|はっせい}",
       "label": "occurrence, outbreak"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11788_tourai",
+      "reading": "とうらい",
+      "headword": "{到来|とうらい}",
+      "label": "arrival"
     }
   ],
   "metadata": {
     "created": "2026-02-17T23:15:01Z",
-    "modified": "2026-04-25T08:21:10Z",
+    "modified": "2026-09-02T04:01:26Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
@@ -173,7 +180,8 @@
       "semantic": [
         "change"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

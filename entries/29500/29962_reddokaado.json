@@ -15,41 +15,67 @@
   "examples": [
     {
       "id": "29962_reddokaado_ex1",
-      "japanese": "レッドカードで{退場|たいじょう}になる。",
+      "japanese": "レッドカード⟦で→で：00502_de⟧⟦{退場|たいじょう}→退場：14353_taijou⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧。",
       "english": "To be sent off with a red card.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29962_reddokaado_ex2",
-      "japanese": "{危険|きけん}なタックルで{選手|せんしゅ}にレッドカードが{出|で}た。",
+      "japanese": "⟦{危険|きけん}→危険：01141_kiken⟧なタックル⟦で→で：00502_de⟧⟦{選手|せんしゅ}→選手：03823_senshu⟧⟦に→に：00314_ni⟧レッドカード⟦が→が：00051_ga⟧⟦{出|で}た→出る：00513_deru⟧。",
       "english": "A red card was shown to the player for a dangerous tackle.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29962_reddokaado_ex3",
-      "japanese": "{前半|ぜんはん}でレッドカードを{受|う}け、チームは{一人|ひとり}{少|すく}ない{状況|じょうきょう}で{戦|たたか}った。",
+      "japanese": "⟦{前半|ぜんはん}→前半：11875_zenhan⟧⟦で→で：00502_de⟧レッドカード⟦を→を：00422_wo⟧⟦{受|う}け→受ける：01215_ukeru⟧、⟦チーム→チーム：03858_chiimu⟧⟦は→は：00079_ha⟧⟦{一人|ひとり}→一人：00630_hitori⟧⟦{少|すく}ない→少ない：01136_sukunai⟧⟦{状況|じょうきょう}→状況：01576_joukyou⟧⟦で→で：00502_de⟧⟦{戦|たたか}った→戦う：02071_tatakau⟧。",
       "english": "After receiving a red card in the first half, the team had to play a man down.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A soccer term, also used figuratively for a decisive expulsion or final warning. The player shown a red card must leave immediately and serves a suspension.\n\nCOMMON COLLOCATIONS:\n- レッドカードを{出|だ}す: (referee) to show a red card\n- レッドカードをもらう: to be given a red card\n- {一発|いっぱつ}レッドカード: a straight (immediate) red card\n\nRELATED WORDS:\n- イエローカード: yellow card — a caution; two yellows in a match equal a red",
+  "notes": "A soccer term, also used figuratively for a decisive expulsion or final warning. The player shown a red card must leave immediately and serves a suspension.\n\nCOMMON COLLOCATIONS:\n- レッドカード⟦を→を：00422_wo⟧⟦{出|だ}す→出す：01087_dasu⟧: (referee) to show a red card\n- レッドカード⟦を→を：00422_wo⟧⟦もらう→もらう：00520_morau⟧: to be given a red card\n- ⟦{一発|いっぱつ}→一発：08895_ippatsu⟧レッドカード: a straight (immediate) red card\n\nRELATED WORDS:\n- ⟦イエローカード→イエローカード：29974_ierookaado⟧: yellow card — a caution; two yellows in a match equal a red",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "29974_ierookaado",
+      "reading": "いえろーかーど",
+      "headword": "イエローカード",
+      "label": "yellow card"
+    },
+    {
+      "type": "related",
+      "target_id": "06584_fauru",
+      "reading": "ふぁうる",
+      "headword": "ファウル",
+      "label": "foul (sports violation)"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["sports"],
+      "semantic": [
+        "sports"
+      ],
       "domain": []
     },
     "created": "2026-07-19T18:17:15Z",
-    "modified": "2026-07-19T18:17:15Z"
+    "modified": "2026-09-02T04:02:38Z"
   }
 }

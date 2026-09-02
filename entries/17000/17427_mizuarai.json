@@ -3,7 +3,7 @@
   "id": "17427_mizuarai",
   "headword": "{水洗|みずあら}い",
   "reading": "みずあらい",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "washing with water",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "17427_mizuarai_ex1",
-      "japanese": "{野菜|やさい}を{水洗|みずあら}いする。",
+      "japanese": "⟦{野菜|やさい}→野菜：02265_yasai⟧⟦を→を：00422_wo⟧{水洗|みずあら}い⟦する→する：00392_suru⟧。",
       "english": "To wash vegetables with water.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "17427_mizuarai_ex2",
-      "japanese": "この{服|ふく}は{水洗|みずあら}いできますか。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{服|ふく}→服：00695_fuku⟧⟦は→は：00079_ha⟧{水洗|みずあら}い⟦できます→できる：00557_dekiru⟧⟦か→か：09473_ka⟧。",
       "english": "Can this clothing be washed with water?",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "17427_mizuarai_ex3",
-      "japanese": "{泥|どろ}で{汚|よご}れた{靴|くつ}を{水洗|みずあら}いしてから{干|ほ}した。",
+      "japanese": "⟦{泥|どろ}→泥：03492_doro⟧⟦で→で：00502_de⟧⟦{汚|よご}れた→汚れる：01293_yogoreru⟧⟦{靴|くつ}→靴：00725_kutsu⟧⟦を→を：00422_wo⟧{水洗|みずあら}い⟦して→する：00392_suru⟧⟦から→から：00504_kara⟧⟦{干|ほ}した→干す：00115_hosu⟧。",
       "english": "I washed the mud-stained shoes with water and then hung them to dry.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,26 @@
       ]
     }
   ],
-  "notes": "USAGE:\nImplies washing with water only, without detergent. In cooking, it refers to rinsing ingredients. For clothing, {水洗|みずあら}いできる means the item can be washed at home with water rather than requiring dry cleaning.\n\nCOMMON COLLOCATIONS:\n- {水洗|みずあら}いする (to wash with water)\n- {水洗|みずあら}い{可|か} (washable with water)\n- {水洗|みずあら}い{不可|ふか} (not washable with water)\n\nSIMILAR WORDS:\n- {洗濯|せんたく}: laundry, doing the wash — general washing of clothes\n- {水洗|みずあら}い: specifically washing with water only, no soap",
-  "cross_references": [],
+  "notes": "USAGE:\nImplies washing with water only, without detergent. In cooking, it refers to rinsing ingredients. For clothing, {水洗|みずあら}い⟦できる→できる：00557_dekiru⟧ means the item can be washed at home with water rather than requiring dry cleaning.\n\nCOMMON COLLOCATIONS:\n- {水洗|みずあら}い⟦する→する：00392_suru⟧ (to wash with water)\n- {水洗|みずあら}い{可|か} (washable with water)\n- {水洗|みずあら}い⟦{不可|ふか}→不可：01922_fuka⟧ (not washable with water)\n\nSIMILAR WORDS:\n- ⟦{洗濯|せんたく}→洗濯：13283_sentaku⟧: laundry, doing the wash — general washing of clothes\n- {水洗|みずあら}い: specifically washing with water only, no soap",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13283_sentaku",
+      "reading": "せんたく",
+      "headword": "{洗濯|せんたく}",
+      "label": "laundry, doing the wash"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17215_maruarai",
+      "reading": "まるあらい",
+      "headword": "{丸洗|まるあら}い",
+      "label": "washing the whole thing"
+    }
+  ],
   "metadata": {
     "created": "2026-03-17T23:20:37Z",
-    "modified": "2026-03-29T03:08:18Z",
+    "modified": "2026-09-02T04:01:48Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -152,7 +167,8 @@
         "daily-life",
         "cooking"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

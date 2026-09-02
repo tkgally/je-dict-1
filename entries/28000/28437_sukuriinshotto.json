@@ -15,41 +15,76 @@
   "examples": [
     {
       "id": "28437_sukuriinshotto_ex1",
-      "japanese": "スクリーンショットを{撮|と}る。",
+      "japanese": "スクリーンショット⟦を→を：00422_wo⟧⟦{撮|と}る→撮る：00760_toru⟧。",
       "english": "Take a screenshot.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28437_sukuriinshotto_ex2",
-      "japanese": "{画面|がめん}のスクリーンショットを{送|おく}ってください。",
+      "japanese": "⟦{画面|がめん}→画面：04406_gamen⟧⟦の→の：09472_no⟧スクリーンショット⟦を→を：00422_wo⟧⟦{送|おく}って→送る：00742_okuru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please send me a screenshot of the screen.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28437_sukuriinshotto_ex3",
-      "japanese": "{操作方法|そうさほうほう}を{説明|せつめい}するために、スクリーンショットを{何枚|なんまい}か{保存|ほぞん}しておいた。",
+      "japanese": "{操作方法|そうさほうほう}⟦を→を：00422_wo⟧⟦{説明|せつめい}する→説明する：05639_setsumeisuru⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧、スクリーンショット⟦を→を：00422_wo⟧⟦{何枚|なんまい}→何枚：08777_nanmai⟧⟦か→か：09473_ka⟧⟦{保存|ほぞん}→保存：03626_hozon⟧⟦して→する：00392_suru⟧おいた。",
       "english": "I saved several screenshots in order to explain how the operation works.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Loanword from English 'screenshot.' The shortened form スクショ is widely used in everyday speech and online.\n\nCOMMON COLLOCATIONS:\n- スクリーンショットを{撮|と}る: take a screenshot\n- スクリーンショットを{保存|ほぞん}する: save a screenshot\n- スクリーンショットを{送|おく}る: send a screenshot\n- スクリーンショット{付|つ}き: with screenshots attached\n\nSIMILAR WORDS:\n- スクショ: screenshot — colloquial abbreviation\n- {画面|がめん}キャプチャ: screen capture — more technical\n- {画像|がぞう}: image — broader; any picture file",
+  "notes": "Loanword from English 'screenshot.' The shortened form ⟦スクショ→スクショ：06719_sukusho⟧ is widely used in everyday speech and online.\n\nCOMMON COLLOCATIONS:\n- スクリーンショット⟦を→を：00422_wo⟧⟦{撮|と}る→撮る：00760_toru⟧: take a screenshot\n- スクリーンショット⟦を→を：00422_wo⟧⟦{保存|ほぞん}→保存：03626_hozon⟧⟦する→する：00392_suru⟧: save a screenshot\n- スクリーンショット⟦を→を：00422_wo⟧⟦{送|おく}る→送る：00742_okuru⟧: send a screenshot\n- スクリーンショット⟦{付|つ}き→付き：26333_tsuki⟧: with screenshots attached\n\nSIMILAR WORDS:\n- ⟦スクショ→スクショ：06719_sukusho⟧: screenshot — colloquial abbreviation\n- ⟦{画面|がめん}→画面：04406_gamen⟧キャプチャ: screen capture — more technical\n- ⟦{画像|がぞう}→画像：13549_gazou⟧: image — broader; any picture file",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06719_sukusho",
+      "reading": "すくしょ",
+      "headword": "スクショ",
+      "label": "screenshot"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13549_gazou",
+      "reading": "がぞう",
+      "headword": "{画像|がぞう}",
+      "label": "image"
+    },
+    {
+      "type": "related",
+      "target_id": "17898_gamenshuuroku",
+      "reading": "がめんしゅうろく",
+      "headword": "{画面収録|がめんしゅうろく}",
+      "label": "screen recording"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["technology"],
-      "domain": ["technical"]
+      "politeness": "plain",
+      "semantic": [
+        "technology"
+      ],
+      "domain": [
+        "technical"
+      ]
     },
     "created": "2026-05-31T02:08:49Z",
-    "modified": "2026-05-31T02:08:49Z"
+    "modified": "2026-09-02T04:02:33Z"
   }
 }

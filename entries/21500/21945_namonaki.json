@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21945_namonaki_ex1",
-      "japanese": "{名|な}もなき{花|はな}が{咲|さ}いている。",
+      "japanese": "{名|な}もなき⟦{花|はな}→花：00523_hana⟧⟦が→が：00051_ga⟧⟦{咲|さ}いている→咲く：08150_saku⟧。",
       "english": "Nameless flowers are blooming.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21945_namonaki_ex2",
-      "japanese": "{名|な}もなき{兵士|へいし}たちの{犠牲|ぎせい}を{忘|わす}れてはならない。",
+      "japanese": "{名|な}もなき⟦{兵士|へいし}→兵士：11680_heishi⟧たち⟦の→の：09472_no⟧⟦{犠牲|ぎせい}→犠牲：14743_gisei⟧⟦を→を：00422_wo⟧⟦{忘|わす}れて→忘れる：00474_wasureru⟧⟦は→は：00079_ha⟧⟦ならない→なる：01970_naru⟧。",
       "english": "We must not forget the sacrifices of the unknown soldiers.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21945_namonaki_ex3",
-      "japanese": "{名|な}もなき{人々|ひとびと}の{日々|ひび}の{努力|どりょく}が{社会|しゃかい}を{支|ささ}えている。",
+      "japanese": "{名|な}もなき⟦{人々|ひとびと}→人々：03141_hitobito⟧⟦の→の：09472_no⟧⟦{日々|ひび}→日々：04804_hibi⟧⟦の→の：09472_no⟧⟦{努力|どりょく}→努力：03490_doryoku⟧⟦が→が：00051_ga⟧⟦{社会|しゃかい}→社会：01427_shakai⟧⟦を→を：00422_wo⟧⟦{支|ささ}えている→支える：01946_sasaeru⟧。",
       "english": "The daily efforts of ordinary, unknown people support society.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "A literary or poetic expression meaning \"nameless\" or \"unknown.\" Composed of {名|な} (name) + も (even/also) + なき (classical negative form of ある, meaning \"without\"). The classical なき gives it a formal, literary feel.\n\nCOMMON COLLOCATIONS:\n- {名|な}もなき{花|はな}: nameless flowers\n- {名|な}もなき{人|ひと}: unknown person; ordinary person\n- {名|な}もなき{英雄|えいゆう}: unsung hero\n- {名|な}もなき{兵士|へいし}: unknown soldier\n\nREGISTER:\nThis is a literary expression. In everyday speech, {名前|なまえ}のない or {無名|むめい}の would be used instead. {名|な}もなき appears in literature, poetry, titles of works, and formal rhetoric.\n\nSIMILAR WORDS:\n- {無名|むめい}: anonymous, unknown — neutral, everyday register\n- {名|な}もない: nameless — modern equivalent, less literary",
+  "notes": "A literary or poetic expression meaning \"nameless\" or \"unknown.\" Composed of ⟦{名|な}→名：03496_na⟧ (name) + ⟦も→も：00484_mo⟧ (even/also) + なき (classical negative form of ⟦ある→ある：00006_aru⟧, meaning \"without\"). The classical なき gives it a formal, literary feel.\n\nCOMMON COLLOCATIONS:\n- {名|な}もなき⟦{花|はな}→花：00523_hana⟧: nameless flowers\n- {名|な}もなき⟦{人|ひと}→人：00476_hito⟧: unknown person; ordinary person\n- {名|な}もなき⟦{英雄|えいゆう}→英雄：14117_eiyuu⟧: unsung hero\n- {名|な}もなき⟦{兵士|へいし}→兵士：11680_heishi⟧: unknown soldier\n\nREGISTER:\nThis is a literary expression. In everyday speech, ⟦{名前|なまえ}→名前：02234_namae⟧⟦の→の：09472_no⟧⟦ない→ない：01118_nai⟧ or ⟦{無名|むめい}→無名：13420_mumei⟧⟦の→の：09472_no⟧ would be used instead. {名|な}もなき appears in literature, poetry, titles of works, and formal rhetoric.\n\nSIMILAR WORDS:\n- ⟦{無名|むめい}→無名：13420_mumei⟧: anonymous, unknown — neutral, everyday register\n- ⟦{名|な}→名：03496_na⟧⟦も→も：00484_mo⟧⟦ない→ない：01118_nai⟧: nameless — modern equivalent, less literary",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13420_mumei",
+      "reading": "むめい",
+      "headword": "{無名|むめい}",
+      "label": "anonymous, unknown"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +68,6 @@
       ]
     },
     "created": "2026-04-03T22:15:13Z",
-    "modified": "2026-07-30T03:35:34Z"
+    "modified": "2026-09-02T04:02:05Z"
   }
 }

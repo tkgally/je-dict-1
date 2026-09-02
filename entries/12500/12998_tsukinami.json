@@ -15,41 +15,67 @@
   "examples": [
     {
       "id": "12998_tsukinami_ex1",
-      "japanese": "{月並|つきな}みな{表現|ひょうげん}だ。",
+      "japanese": "{月並|つきな}みな⟦{表現|ひょうげん}→表現：03584_hyougen⟧だ。",
       "english": "That's a trite expression.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12998_tsukinami_ex2",
-      "japanese": "{月並|つきな}みな{言|い}い{方|かた}かもしれないが、{感謝|かんしゃ}している。",
+      "japanese": "{月並|つきな}みな⟦{言|い}い{方|かた}→言い方：14165_iikata⟧⟦かもしれない→かもしれない：00164_kamoshirenai⟧⟦が→が：00051_ga⟧、⟦{感謝|かんしゃ}している→感謝する：06055_kanshasuru⟧。",
       "english": "It might sound clichéd, but I'm grateful.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12998_tsukinami_ex3",
-      "japanese": "{月並|つきな}みな{感想|かんそう}ではなく、もっと{自分|じぶん}の{言葉|ことば}で{書|か}いてほしい。",
+      "japanese": "{月並|つきな}みな⟦{感想|かんそう}→感想：00450_kansou⟧⟦ではなく→ではなく：09578_dehanaku⟧、⟦もっと→もっと：00798_motto⟧⟦{自分|じぶん}→自分：02887_jibun⟧⟦の→の：09472_no⟧⟦{言葉|ことば}→言葉：02880_kotoba⟧⟦で→で：00502_de⟧⟦{書|か}いて→書く：00477_kaku⟧ほしい。",
       "english": "I want you to write in your own words, not with commonplace impressions.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nUsed as a na-adjective: {月並|つきな}みな{表現|ひょうげん} (a trite expression). Often appears in self-deprecating phrasing: {月並|つきな}みですが... (this may sound clichéd, but...). Generally mildly negative, suggesting something is unoriginal rather than bad.\n\nETYMOLOGY:\nOriginally referred to monthly poetry gatherings ({月並|つきなみ}{句会|くかい}) where the verse produced was often considered routine and uninspired. From this, the word took on its modern meaning of \"commonplace.\"\n\nCOMMON COLLOCATIONS:\n- {月並|つきな}みな{表現|ひょうげん}: trite expression\n- {月並|つきな}みな{言葉|ことば}: commonplace words\n- {月並|つきな}みな{感想|かんそう}: clichéd impressions\n- {月並|つきな}みですが: it may sound clichéd, but...\n\nSIMILAR WORDS:\n- {平凡|へいぼん}: ordinary, mediocre (neutral tone)\n- ありきたり: common, unoriginal",
-  "cross_references": [],
+  "notes": "USAGE:\nUsed as a na-adjective: {月並|つきな}みな⟦{表現|ひょうげん}→表現：03584_hyougen⟧ (a trite expression). Often appears in self-deprecating phrasing: {月並|つきな}みです⟦が→が：00051_ga⟧... (this may sound clichéd, but...). Generally mildly negative, suggesting something is unoriginal rather than bad.\n\nETYMOLOGY:\nOriginally referred to monthly poetry gatherings ({月並|つきなみ}{句会|くかい}) where the verse produced was often considered routine and uninspired. From this, the word took on its modern meaning of \"commonplace.\"\n\nCOMMON COLLOCATIONS:\n- {月並|つきな}みな⟦{表現|ひょうげん}→表現：03584_hyougen⟧: trite expression\n- {月並|つきな}みな⟦{言葉|ことば}→言葉：02880_kotoba⟧: commonplace words\n- {月並|つきな}みな⟦{感想|かんそう}→感想：00450_kansou⟧: clichéd impressions\n- {月並|つきな}みです⟦が→が：00051_ga⟧: it may sound clichéd, but...\n\nSIMILAR WORDS:\n- ⟦{平凡|へいぼん}→平凡：12425_heibon⟧: ordinary, mediocre (neutral tone)\n- ⟦ありきたり→ありきたり：20321_arikitari⟧: common, unoriginal",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12425_heibon",
+      "reading": "へいぼん",
+      "headword": "{平凡|へいぼん}",
+      "label": "ordinary, mediocre"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20321_arikitari",
+      "reading": "ありきたり",
+      "headword": "ありきたり",
+      "label": "common, unoriginal"
+    }
+  ],
   "metadata": {
     "created": "2026-02-23T05:13:12Z",
-    "modified": "2026-02-23T05:13:12Z",
+    "modified": "2026-09-02T04:01:31Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-na", "noun"],
+      "pos": [
+        "adjective-na",
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["evaluation"]
+      "semantic": [
+        "evaluation"
+      ]
     }
   }
 }

@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "09864_sainsuru_ex1",
-      "japanese": "{書留|かきとめ}で{届|とど}いた{荷物|にもつ}にサインした。",
+      "japanese": "⟦{書留|かきとめ}→書留：00150_kakitome⟧⟦で→で：00502_de⟧⟦{届|とど}いた→届く：00899_todoku⟧⟦{荷物|にもつ}→荷物：00737_nimotsu⟧⟦に→に：00314_ni⟧サインした。",
       "english": "I signed for the registered mail package.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "09864_sainsuru_ex2",
-      "japanese": "{契約書|けいやくしょ}にサインする。",
+      "japanese": "⟦{契約書|けいやくしょ}→契約書：06416_keiyakusho⟧⟦に→に：00314_ni⟧サインする。",
       "english": "I sign the contract.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "09864_sainsuru_ex3",
-      "japanese": "{有名|ゆうめい}な{選手|せんしゅ}にサインをもらった。",
+      "japanese": "⟦{有名|ゆうめい}→有名：01106_yuumei⟧な⟦{選手|せんしゅ}→選手：03823_senshu⟧⟦に→に：00314_ni⟧⟦サイン→サイン：03846_sain⟧⟦を→を：00422_wo⟧⟦もらった→もらう：00520_morau⟧。",
       "english": "I got an autograph from a famous player.",
       "notes": "サインをもらう means to get an autograph.",
       "has_audio": false,
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "サインする means to sign one's name.\n\nCOMMON PATTERNS:\n- 〜にサインする: to sign (on something)\n- サインをする: to sign, to give an autograph\n- サインをもらう: to get an autograph\n\nRELATED WORDS:\n- サイン: signature, sign, autograph\n- {署名|しょめい}する: to sign (more formal)\n- {記名|きめい}する: to write one's name\n\nNOTES:\n- サイン as a loanword can also mean \"signal\" or \"sign\"\n- For autographs, サイン is commonly used\n- For formal documents, {署名|しょめい} may be preferred\n\nTRANSITIVITY:\n- Pattern: 〜にサインする",
+  "notes": "サインする means to sign one's name.\n\nCOMMON PATTERNS:\n- 〜⟦に→に：00314_ni⟧サインする: to sign (on something)\n- ⟦サイン→サイン：03846_sain⟧⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧: to sign, to give an autograph\n- ⟦サイン→サイン：03846_sain⟧⟦を→を：00422_wo⟧⟦もらう→もらう：00520_morau⟧: to get an autograph\n\nRELATED WORDS:\n- ⟦サイン→サイン：03846_sain⟧: signature, sign, autograph\n- ⟦{署名|しょめい}する→署名する：22432_shomeisuru⟧: to sign (more formal)\n- ⟦{記名|きめい}→記名：14862_kimei⟧⟦する→する：00392_suru⟧: to write one's name\n\nUSAGE:\n- ⟦サイン→サイン：03846_sain⟧ as a loanword can also mean \"signal\" or \"sign\"\n- For autographs, ⟦サイン→サイン：03846_sain⟧ is commonly used\n- For formal documents, ⟦{署名|しょめい}→署名：03682_shomei⟧ may be preferred\n\nTRANSITIVITY:\n- Pattern: 〜⟦に→に：00314_ni⟧サインする",
   "cross_references": [
     {
       "type": "synonym",
@@ -141,11 +141,18 @@
       "reading": "しょめいする",
       "headword": "{署名|しょめい}する",
       "label": "to sign (formal)"
+    },
+    {
+      "type": "related",
+      "target_id": "14862_kimei",
+      "reading": "きめい",
+      "headword": "{記名|きめい}",
+      "label": "to write one's name"
     }
   ],
   "metadata": {
     "created": "2026-02-04T01:44:31Z",
-    "modified": "2026-03-29T03:05:07Z",
+    "modified": "2026-09-02T04:01:19Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

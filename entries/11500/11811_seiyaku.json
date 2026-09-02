@@ -2,7 +2,7 @@
   "id": "11811_seiyaku",
   "headword": "{制約|せいやく}",
   "reading": "せいやく",
-  "part_of_speech": "noun / suru verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "constraint; restriction",
   "conjugation": {
     "type": "suru",
@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "11811_seiyaku_ex1",
-      "japanese": "{時間|じかん}の{制約|せいやく}がある。",
+      "japanese": "⟦{時間|じかん}→時間：00468_jikan⟧⟦の→の：09472_no⟧{制約|せいやく}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There is a time constraint.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "11811_seiyaku_ex2",
-      "japanese": "{予算|よさん}の{制約|せいやく}の{中|なか}で{工夫|くふう}する。",
+      "japanese": "⟦{予算|よさん}→予算：03663_yosan⟧⟦の→の：09472_no⟧{制約|せいやく}⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧⟦で→で：00502_de⟧⟦{工夫|くふう}する→工夫する：22180_kufuusuru⟧。",
       "english": "To work creatively within budget constraints.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "11811_seiyaku_ex3",
-      "japanese": "{法律|ほうりつ}による{制約|せいやく}があるため、この{土地|とち}には{高|たか}い{建物|たてもの}を{建|た}てることができない。",
+      "japanese": "⟦{法律|ほうりつ}→法律：01722_houritsu⟧⟦による→による：28349_niyoru⟧{制約|せいやく}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧⟦ため→ため：01145_tame⟧、⟦この→この：00962_kono⟧⟦{土地|とち}→土地：02226_tochi⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{高|たか}い→高い：00500_takai⟧⟦{建物|たてもの}→建物：01458_tatemono⟧⟦を→を：00422_wo⟧⟦{建|た}てる→建てる：01189_tateru⟧こと⟦が→が：00051_ga⟧⟦できない→できる：00557_dekiru⟧。",
       "english": "Due to legal restrictions, tall buildings cannot be built on this land.",
       "notes": null,
       "has_audio": false,
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "A formal word commonly used in business, technical, and academic contexts. Often used in the pattern {制約|せいやく}の{中|なか}で (within constraints) or {制約|せいやく}を{受|う}ける (to be subject to restrictions).\n\nCOMMON COLLOCATIONS:\n・{時間|じかん}の{制約|せいやく}: time constraint\n・{予算|よさん}の{制約|せいやく}: budget constraint\n・{制約|せいやく}を{受|う}ける: to be subject to restrictions\n・{制約|せいやく}{条件|じょうけん}: limiting conditions",
+  "notes": "A formal word commonly used in business, technical, and academic contexts. Often used in the pattern {制約|せいやく}⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧⟦で→で：00502_de⟧ (within constraints) or {制約|せいやく}⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧ (to be subject to restrictions).\n\nCOMMON COLLOCATIONS:\n- ⟦{時間|じかん}→時間：00468_jikan⟧⟦の→の：09472_no⟧{制約|せいやく}: time constraint\n- ⟦{予算|よさん}→予算：03663_yosan⟧⟦の→の：09472_no⟧{制約|せいやく}: budget constraint\n- {制約|せいやく}⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧: to be subject to restrictions\n- {制約|せいやく}⟦{条件|じょうけん}→条件：03285_jouken⟧: limiting conditions",
   "cross_references": [
     {
       "type": "synonym",
@@ -141,11 +141,25 @@
       "reading": "せいげん",
       "headword": "{制限|せいげん}",
       "label": "restriction, limit"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20592_kensei",
+      "reading": "けんせい",
+      "headword": "{牽制|けんせい}",
+      "label": "check"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20938_kousokusuru",
+      "reading": "こうそくする",
+      "headword": "{拘束|こうそく}する",
+      "label": "to restrain"
     }
   ],
   "metadata": {
     "created": "2026-02-18T06:08:50Z",
-    "modified": "2026-04-25T09:21:10Z",
+    "modified": "2026-09-02T04:01:26Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",

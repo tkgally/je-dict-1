@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25727_ichibubun_ex1",
-      "japanese": "これは{全体|ぜんたい}の{一部分|いちぶぶん}にすぎない。",
+      "japanese": "⟦これ→これ：00963_kore⟧⟦は→は：00079_ha⟧⟦{全体|ぜんたい}→全体：03314_zentai⟧⟦の→の：09472_no⟧{一部分|いちぶぶん}⟦に→に：00314_ni⟧すぎない。",
       "english": "This is only a part of the whole.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25727_ichibubun_ex2",
-      "japanese": "{壁|かべ}の{一部分|いちぶぶん}が{壊|こわ}れていた。",
+      "japanese": "⟦{壁|かべ}→壁：01290_kabe⟧⟦の→の：09472_no⟧{一部分|いちぶぶん}⟦が→が：00051_ga⟧⟦{壊|こわ}れていた→壊れる：00791_kowareru⟧。",
       "english": "A section of the wall was broken.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25727_ichibubun_ex3",
-      "japanese": "{費用|ひよう}の{一部分|いちぶぶん}は{会社|かいしゃ}が{負担|ふたん}してくれるので、{自分|じぶん}で{払|はら}う{金額|きんがく}は{少|すく}ない。",
+      "japanese": "⟦{費用|ひよう}→費用：03588_hiyou⟧⟦の→の：09472_no⟧{一部分|いちぶぶん}⟦は→は：00079_ha⟧⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦が→が：00051_ga⟧⟦{負担|ふたん}→負担：09752_futan⟧⟦して→する：00392_suru⟧⟦くれる→くれる：00724_kureru⟧⟦の→の：09472_no⟧で、⟦{自分|じぶん}→自分：02887_jibun⟧⟦で→で：00502_de⟧⟦{払|はら}う→払う：00535_harau⟧⟦{金額|きんがく}→金額：02665_kingaku⟧⟦は→は：00079_ha⟧⟦{少|すく}ない→少ない：01136_sukunai⟧。",
       "english": "The company covers a portion of the cost, so the amount I pay out of pocket is small.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {一|いち} (one) + {部分|ぶぶん} (part). While {一部|いちぶ} is the more common and shorter synonym, {一部分|いちぶぶん} is slightly more formal and emphasizes the physical or conceptual segment more concretely.\n\nCOMMON COLLOCATIONS:\n- {全体|ぜんたい}の{一部分|いちぶぶん}: a part of the whole\n- ほんの{一部分|いちぶぶん}: just a small portion\n- {一部分|いちぶぶん}だけ: only a portion\n- {一部分|いちぶぶん}を{占|し}める: to make up a portion\n\nSIMILAR WORDS:\n- {一部|いちぶ}: a part — more common in everyday speech and writing; often interchangeable\n- {部分|ぶぶん}: a part, portion — more general and does not specify \"one\" section\n- {一端|いったん}: one end, a part — emphasizes a glimpse or aspect rather than a physical section",
+  "notes": "Composed of ⟦{一|いち}→一：00705_ichi⟧ (one) + ⟦{部分|ぶぶん}→部分：03715_bubun⟧ (part). While ⟦{一部|いちぶ}→一部：06783_ichibu⟧ is the more common and shorter synonym, {一部分|いちぶぶん} is slightly more formal and emphasizes the physical or conceptual segment more concretely.\n\nCOMMON COLLOCATIONS:\n- ⟦{全体|ぜんたい}→全体：03314_zentai⟧⟦の→の：09472_no⟧{一部分|いちぶぶん}: a part of the whole\n- ⟦ほんの→ほんの：22755_honno⟧{一部分|いちぶぶん}: just a small portion\n- {一部分|いちぶぶん}⟦だけ→〜だけ：03093_dake⟧: only a portion\n- {一部分|いちぶぶん}⟦を→を：00422_wo⟧⟦{占|し}める→占める：11799_shimeru⟧: to make up a portion\n\nSIMILAR WORDS:\n- ⟦{一部|いちぶ}→一部：06783_ichibu⟧: a part — more common in everyday speech and writing; often interchangeable\n- ⟦{部分|ぶぶん}→部分：03715_bubun⟧: a part, portion — more general and does not specify \"one\" section\n- ⟦{一端|いったん}→一端：11384_ittan⟧: one end, a part — emphasizes a glimpse or aspect rather than a physical section",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -52,12 +52,13 @@
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "quantity"
       ]
     },
     "created": "2026-04-27T11:13:23Z",
-    "modified": "2026-08-05T03:18:09Z"
+    "modified": "2026-09-02T04:02:23Z"
   },
   "cross_references": [
     {
@@ -66,6 +67,13 @@
       "reading": "いちぶ",
       "headword": "{一部|いちぶ}",
       "label": "part, portion"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11384_ittan",
+      "reading": "いったん",
+      "headword": "{一端|いったん}",
+      "label": "one end, a part"
     }
   ]
 }

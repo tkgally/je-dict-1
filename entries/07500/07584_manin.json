@@ -2,7 +2,7 @@
   "id": "07584_manin",
   "headword": "{満員|まんいん}",
   "reading": "まんいん",
-  "part_of_speech": "noun/na-adjective",
+  "part_of_speech": "noun, na-adjective",
   "gloss": "full; packed; at capacity",
   "definitions": [
     {
@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "07584_manin_ex1",
-      "japanese": "{電車|でんしゃ}が{満員|まんいん}で{乗|の}れなかった。",
+      "japanese": "⟦{電車|でんしゃ}→電車：00522_densha⟧⟦が→が：00051_ga⟧{満員|まんいん}⟦で→で：00502_de⟧⟦{乗|の}れなかった→乗る：00511_noru⟧。",
       "english": "The train was so packed I couldn't get on.",
       "has_audio": false,
       "sense_numbers": [
@@ -23,7 +23,7 @@
     },
     {
       "id": "07584_manin_ex2",
-      "japanese": "コンサートは{満員|まんいん}{御礼|おんれい}だった。",
+      "japanese": "⟦コンサート→コンサート：01360_konsaato⟧⟦は→は：00079_ha⟧{満員|まんいん}{御礼|おんれい}だった。",
       "english": "The concert was sold out (packed to capacity).",
       "has_audio": false,
       "sense_numbers": [
@@ -32,7 +32,7 @@
     },
     {
       "id": "07584_manin_ex3",
-      "japanese": "{満員|まんいん}バスで{通勤|つうきん}するのは{大変|たいへん}だ。",
+      "japanese": "{満員|まんいん}⟦バス→バス：00769_basu⟧⟦で→で：00502_de⟧⟦{通勤|つうきん}→通勤：03512_tsuukin⟧⟦する→する：00392_suru⟧⟦の→の：09472_no⟧⟦は→は：00079_ha⟧⟦{大変|たいへん}→大変：00594_taihen⟧だ。",
       "english": "Commuting on a packed bus is tough.",
       "has_audio": false,
       "sense_numbers": [
@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "notes": "WORD STRUCTURE:\n{満|まん} (full) + {員|いん} (member, person)\nLiterally: \"full of members/people\"\n\nCOMMON COLLOCATIONS:\n・{満員|まんいん}{電車|でんしゃ} - packed train\n・{満員|まんいん}バス - packed bus\n・{満員|まんいん}{御礼|おんれい} - sold out (theatrical expression, lit. \"thanks for the full house\")\n・{満員|まんいん}になる - to become full\n\nRELATED WORDS:\n・{満席|まんせき} - fully booked (seats)\n・{空席|くうせき} - empty seat, vacancy\n・{定員|ていいん} - capacity, fixed number\n・すし{詰|づ}め - packed like sardines\n\nCULTURAL NOTE:\n{満員|まんいん}{電車|でんしゃ} (packed trains) are a well-known feature of Japanese urban life, especially during rush hours in Tokyo and other major cities.",
+  "notes": "ETYMOLOGY:\n{満|まん} (full) + {員|いん} (member, person)\nLiterally: \"full of members/people\"\n\nCOMMON COLLOCATIONS:\n- {満員|まんいん}⟦{電車|でんしゃ}→電車：00522_densha⟧ - packed train\n- {満員|まんいん}⟦バス→バス：00769_basu⟧ - packed bus\n- {満員|まんいん}{御礼|おんれい} - sold out (theatrical expression, lit. \"thanks for the full house\")\n- {満員|まんいん}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧ - to become full\n\nRELATED WORDS:\n- ⟦{満席|まんせき}→満席：07585_manseki⟧ - fully booked (seats)\n- ⟦{空席|くうせき}→空席：07586_kuuseki⟧ - empty seat, vacancy\n- ⟦{定員|ていいん}→定員：04532_teiin⟧ - capacity, fixed number\n- すし{詰|づ}め - packed like sardines\n\nCULTURAL NOTE:\n{満員|まんいん}⟦{電車|でんしゃ}→電車：00522_densha⟧ (packed trains) are a well-known feature of Japanese urban life, especially during rush hours in Tokyo and other major cities.",
   "cross_references": [
     {
       "type": "contrast",
@@ -76,11 +76,25 @@
       "reading": "まんぱい",
       "headword": "{満杯|まんぱい}",
       "label": "full to capacity (things)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02809_konzatsu",
+      "reading": "こんざつ",
+      "headword": "{混雑|こんざつ}",
+      "label": "congestion, crowding"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22895_ooiri",
+      "reading": "おおいり",
+      "headword": "{大入|おおい}り",
+      "label": "full house"
     }
   ],
   "metadata": {
     "created": "2026-01-20T10:31:31Z",
-    "modified": "2026-08-11T09:37:41Z",
+    "modified": "2026-09-02T04:01:12Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -89,6 +103,7 @@
         "adjective-na"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "quantity",
         "descriptive"

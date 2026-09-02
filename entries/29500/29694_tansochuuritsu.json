@@ -15,41 +15,69 @@
   "examples": [
     {
       "id": "29694_tansochuuritsu_ex1",
-      "japanese": "{政府|せいふ}は{炭素中立|たんそちゅうりつ}を{目指|めざ}している。",
+      "japanese": "⟦{政府|せいふ}→政府：03294_seifu⟧⟦は→は：00079_ha⟧{炭素中立|たんそちゅうりつ}⟦を→を：00422_wo⟧⟦{目指|めざ}している→目指す：10528_mezasu⟧。",
       "english": "The government is aiming for carbon neutrality.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29694_tansochuuritsu_ex2",
-      "japanese": "{炭素中立|たんそちゅうりつ}の{実現|じつげん}には{時間|じかん}がかかる。",
+      "japanese": "{炭素中立|たんそちゅうりつ}⟦の→の：09472_no⟧⟦{実現|じつげん}→実現：03276_jitsugen⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{時間|じかん}がかかる→時間がかかる：26082_jikangakakaru⟧。",
       "english": "Achieving carbon neutrality will take time.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29694_tansochuuritsu_ex3",
-      "japanese": "{多|おお}くの{国|くに}が2050{年|ねん}までの{炭素中立|たんそちゅうりつ}を{宣言|せんげん}している。",
+      "japanese": "{多|おお}く⟦の→の：09472_no⟧⟦{国|くに}→国：02204_kuni⟧⟦が→が：00051_ga⟧2050⟦{年|ねん}→年：09876_nen⟧⟦まで→まで：00490_made⟧⟦の→の：09472_no⟧{炭素中立|たんそちゅうりつ}⟦を→を：00422_wo⟧⟦{宣言|せんげん}している→宣言する：21680_sengensuru⟧。",
       "english": "Many countries have declared carbon neutrality by 2050.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "The native (Sino-Japanese) term for carbon neutrality, formed from {炭素|たんそ} (carbon) + {中立|ちゅうりつ} (neutrality). In everyday news the loanword カーボンニュートラル is more common, while {炭素中立|たんそちゅうりつ} appears in more formal or technical writing.\n\nCOMMON COLLOCATIONS:\n- {炭素中立|たんそちゅうりつ}を{目指|めざ}す: to aim for carbon neutrality\n- {炭素中立|たんそちゅうりつ}を{実現|じつげん}する: to achieve carbon neutrality\n- {炭素中立|たんそちゅうりつ}{社会|しゃかい}: a carbon-neutral society\n\nSIMILAR WORDS:\n- カーボンニュートラル: carbon neutral — the more common loanword with the same meaning\n- カーボンオフセット: carbon offset — one method used to move toward carbon neutrality",
+  "notes": "The native (Sino-Japanese) term for carbon neutrality, formed from ⟦{炭素|たんそ}→炭素：06583_tanso⟧ (carbon) + ⟦{中立|ちゅうりつ}→中立：11324_chuuritsu⟧ (neutrality). In everyday news the loanword ⟦カーボンニュートラル→カーボンニュートラル：06411_kaabonnyuutoraru⟧ is more common, while {炭素中立|たんそちゅうりつ} appears in more formal or technical writing.\n\nCOMMON COLLOCATIONS:\n- {炭素中立|たんそちゅうりつ}⟦を→を：00422_wo⟧⟦{目指|めざ}す→目指す：10528_mezasu⟧: to aim for carbon neutrality\n- {炭素中立|たんそちゅうりつ}⟦を→を：00422_wo⟧⟦{実現|じつげん}→実現：03276_jitsugen⟧⟦する→する：00392_suru⟧: to achieve carbon neutrality\n- {炭素中立|たんそちゅうりつ}⟦{社会|しゃかい}→社会：01427_shakai⟧: a carbon-neutral society\n\nSIMILAR WORDS:\n- ⟦カーボンニュートラル→カーボンニュートラル：06411_kaabonnyuutoraru⟧: carbon neutral — the more common loanword with the same meaning\n- ⟦カーボンオフセット→カーボンオフセット：29693_kaabonofusetto⟧: carbon offset — one method used to move toward carbon neutrality",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06411_kaabonnyuutoraru",
+      "reading": "かーぼんにゅーとらる",
+      "headword": "カーボンニュートラル",
+      "label": "carbon neutral"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29693_kaabonofusetto",
+      "reading": "かーぼんおふせっと",
+      "headword": "カーボンオフセット",
+      "label": "carbon offset"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["science"],
-      "domain": ["business"]
+      "politeness": "plain",
+      "semantic": [
+        "science"
+      ],
+      "domain": [
+        "business"
+      ]
     },
     "created": "2026-07-06T09:17:25Z",
-    "modified": "2026-07-06T09:17:25Z"
+    "modified": "2026-09-02T04:02:37Z"
   }
 }

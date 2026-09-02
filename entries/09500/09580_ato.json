@@ -33,7 +33,7 @@
     },
     {
       "id": "09580_ato_ex2",
-      "japanese": "{後|あと}⟦で→で：00502_de⟧{連絡|れんらく}します。",
+      "japanese": "{後|あと}⟦で→で：00502_de⟧⟦{連絡|れんらく}します→連絡する：20202_renrakusuru⟧。",
       "english": "I'll contact you later.",
       "has_audio": false,
       "sense_numbers": [
@@ -51,7 +51,7 @@
     },
     {
       "id": "09580_ato_ex4",
-      "japanese": "{後|あと}⟦は→は：00079_ha⟧{任|まか}せて。",
+      "japanese": "{後|あと}⟦は→は：00079_ha⟧⟦{任|まか}せて→任せる：02417_makaseru⟧。",
       "english": "Leave the rest to me.",
       "has_audio": false,
       "sense_numbers": [
@@ -69,7 +69,7 @@
       ]
     }
   ],
-  "notes": "{後|あと} is a common word meaning \"after\" or \"remaining.\"\n\nCOMMON EXPRESSIONS:\n- {後|あと}で (later)\n- 〜の{後|あと} (after ~)\n- {後|あと}から (afterward, from behind)\n- もう{少|すこ}しの{後|あと}で (in a little while)\n- あと〜 (~ more, remaining ~)\n\n\"REMAINING\" USAGE:\n- あと{五分|ごふん} (five more minutes)\n- あと{三|みっ}つ (three more)\n- あとは〜 (as for the rest...)\n\nCONTRAST:\n- {後|あと}: everyday/spoken style\n- {後|のち}: formal/written style\n- {後|ご}: in compounds ({食後|しょくご}, {午後|ごご})\n\nNOTE: Not to be confused with {跡|あと} (trace, mark).",
+  "notes": "{後|あと} is a common word meaning \"after\" or \"remaining.\"\n\nCOMMON EXPRESSIONS:\n- {後|あと}⟦で→で：00502_de⟧ (later)\n- 〜⟦の→の：09472_no⟧{後|あと} (after ~)\n- {後|あと}⟦から→から：00504_kara⟧ (afterward, from behind)\n- ⟦もう→もう：00602_mou⟧⟦{少|すこ}し→少し：00596_sukoshi⟧⟦の→の：09472_no⟧{後|あと}⟦で→で：00502_de⟧ (in a little while)\n- あと〜 (~ more, remaining ~)\n\n\"REMAINING\" USAGE:\n- あと⟦{五分|ごふん}→五分：09573_gofun⟧ (five more minutes)\n- あと⟦{三|みっ}つ→三つ：02970_mittsu⟧ (three more)\n- あと⟦は→は：00079_ha⟧〜 (as for the rest...)\n\nSIMILAR WORDS:\n- {後|あと}: everyday/spoken style\n- ⟦{後|のち}→後：03545_nochi⟧: formal/written style\n- ⟦{後|ご}→後：30157_go⟧: in compounds (⟦{食後|しょくご}→食後：09499_shokugo⟧, ⟦{午後|ごご}→午後：00544_gogo⟧)\n\nNOTE: Not to be confused with ⟦{跡|あと}→跡：02174_ato⟧ (trace, mark).",
   "cross_references": [
     {
       "type": "related",
@@ -91,11 +91,53 @@
       "headword": "{先|さき}",
       "target_id": "02883_saki",
       "label": "ahead, earlier (先に vs 後で)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00383_soreto",
+      "reading": "それと",
+      "headword": "それと",
+      "label": "and"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00965_maeni",
+      "reading": "まえに",
+      "headword": "{前|まえ}に",
+      "label": "before, in front of"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01622_nokori",
+      "reading": "のこり",
+      "headword": "{残|のこ}り",
+      "label": "remainder, rest, remaining"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01831_irai",
+      "reading": "いらい",
+      "headword": "{以来|いらい}",
+      "label": "since, ever since, henceforth"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02255_mae",
+      "reading": "まえ",
+      "headword": "{前|まえ}",
+      "label": "front, before, ago"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03999_ikou",
+      "reading": "いこう",
+      "headword": "{以降|いこう}",
+      "label": "from...onward"
     }
   ],
   "metadata": {
     "created": "2026-02-03T01:43:49Z",
-    "modified": "2026-08-13T21:29:55Z",
+    "modified": "2026-09-02T04:01:18Z",
     "ai_model": "opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

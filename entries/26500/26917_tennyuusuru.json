@@ -3,7 +3,7 @@
   "headword": "{転入|てんにゅう}する",
   "reading": "てんにゅうする",
   "romaji": "tennyuusuru",
-  "part_of_speech": "verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "to transfer in; to move in (to a new jurisdiction)",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26917_tennyuusuru_ex1",
-      "japanese": "{東京|とうきょう}から{大阪|おおさか}に{転入|てんにゅう}した。",
+      "japanese": "⟦{東京|とうきょう}→東京：09564_toukyou⟧⟦から→から：00504_kara⟧⟦{大阪|おおさか}→大阪：09779_oosaka⟧⟦に→に：00314_ni⟧{転入|てんにゅう}した。",
       "english": "I transferred my residence from Tokyo to Osaka.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26917_tennyuusuru_ex2",
-      "japanese": "{転入|てんにゅう}{届|とどけ}を{市役所|しやくしょ}に{出|だ}してください。",
+      "japanese": "⟦{転入|てんにゅう}{届|とどけ}→転入届：09811_tennyuutodoke⟧⟦を→を：00422_wo⟧⟦{市役所|しやくしょ}→市役所：03067_shiyakusho⟧⟦に→に：00314_ni⟧⟦{出|だ}して→出す：01087_dasu⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please submit the transfer-in notification at the city hall.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26917_tennyuusuru_ex3",
-      "japanese": "{新|あたら}しい{学校|がっこう}に{転入|てんにゅう}したばかりで、まだ{友達|ともだち}がいない。",
+      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦{学校|がっこう}→学校：00055_gakkou⟧⟦に→に：00314_ni⟧{転入|てんにゅう}した⟦ばかり→〜ばかり：02006_bakari⟧で、⟦まだ→まだ：00603_mada⟧⟦{友達|ともだち}→友達：01478_tomodachi⟧がいない。",
       "english": "I just transferred to a new school, so I don't have any friends yet.",
       "sense_numbers": [
         1
@@ -44,13 +44,27 @@
       "notes": null
     }
   ],
-  "notes": "An administrative term for officially moving into a new municipality or transferring into a new school. When moving between municipalities in Japan, residents must file a {転入|てんにゅう}{届|とどけ} (transfer-in notification) at their new city hall within 14 days.\n\nCOMMON COLLOCATIONS:\n- {転入|てんにゅう}{届|とどけ}: transfer-in notification\n- {転入|てんにゅう}{届出|とどけで}: filing of transfer-in notification\n- {転入|てんにゅう}{手続|てつづ}き: transfer-in procedures\n- {転入|てんにゅう}{生|せい}: transfer student\n- {転入|てんにゅう}{者|しゃ}: new resident\n\nSIMILAR WORDS:\n- {転出|てんしゅつ}する: to transfer out — the opposite; officially leaving a municipality\n- {引|ひ}っ{越|こ}す: to move (house) — the everyday word for physically relocating, without the administrative nuance\n- {転校|てんこう}する: to change schools — specifically for school transfers",
+  "notes": "An administrative term for officially moving into a new municipality or transferring into a new school. When moving between municipalities in Japan, residents must file a ⟦{転入|てんにゅう}{届|とどけ}→転入届：09811_tennyuutodoke⟧ (transfer-in notification) at their new city hall within 14 days.\n\nCOMMON COLLOCATIONS:\n- ⟦{転入|てんにゅう}{届|とどけ}→転入届：09811_tennyuutodoke⟧: transfer-in notification\n- ⟦{転入|てんにゅう}→転入：22235_tennyuu⟧⟦{届出|とどけで}→届出：07555_todokede⟧: filing of transfer-in notification\n- ⟦{転入|てんにゅう}→転入：22235_tennyuu⟧⟦{手続|てつづ}き→手続き：05453_tetsuzuki⟧: transfer-in procedures\n- ⟦{転入|てんにゅう}{生|せい}→転入生：25867_tennyuusei⟧: transfer student\n- ⟦{転入|てんにゅう}→転入：22235_tennyuu⟧⟦{者|しゃ}→〜者：04662_sha⟧: new resident\n\nSIMILAR WORDS:\n- ⟦{転出|てんしゅつ}する→転出する：26918_tenshutsusuru⟧: to transfer out — the opposite; officially leaving a municipality\n- ⟦{引|ひ}っ{越|こ}す→引っ越す：01171_hikkosu⟧: to move (house) — the everyday word for physically relocating, without the administrative nuance\n- ⟦{転校|てんこう}する→転校する：25400_tenkousuru⟧: to change schools — specifically for school transfers",
   "cross_references": [
     {
       "type": "antonym",
       "target_id": "26918_tenshutsusuru",
       "reading": "てんしゅつする",
       "headword": "{転出|てんしゅつ}する"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01171_hikkosu",
+      "reading": "ひっこす",
+      "headword": "{引|ひ}っ{越|こ}す",
+      "label": "to move"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25400_tenkousuru",
+      "reading": "てんこうする",
+      "headword": "{転校|てんこう}する",
+      "label": "to change schools"
     }
   ],
   "schema_version": "2.0",
@@ -70,7 +84,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-05T16:12:26Z",
-    "modified": "2026-05-05T16:12:26Z"
+    "modified": "2026-09-02T04:02:28Z"
   },
   "conjugation": {
     "type": "suru",

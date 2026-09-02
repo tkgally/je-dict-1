@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "27800_kyouki_ex1",
-      "japanese": "{狂気|きょうき}の{沙汰|さた}だ。",
+      "japanese": "{狂気|きょうき}⟦の→の：09472_no⟧⟦{沙汰|さた}→沙汰：13446_sata⟧だ。",
       "english": "It's an act of sheer madness.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "27800_kyouki_ex2",
-      "japanese": "{戦争|せんそう}の{狂気|きょうき}を{描|えが}いた{映画|えいが}。",
+      "japanese": "⟦{戦争|せんそう}→戦争：01450_sensou⟧⟦の→の：09472_no⟧{狂気|きょうき}⟦を→を：00422_wo⟧⟦{描|えが}いた→描く：02013_egaku⟧⟦{映画|えいが}→映画：02273_eiga⟧。",
       "english": "A film depicting the madness of war.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "27800_kyouki_ex3",
-      "japanese": "{彼|かれ}の{目|め}には{狂気|きょうき}じみた{光|ひかり}が{宿|やど}っていた。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧⟦{目|め}→目：00525_me⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{狂気|きょうき}じみた⟦{光|ひかり}→光：01707_hikari⟧⟦が→が：00051_ga⟧⟦{宿|やど}っていた→宿る：12351_yadoru⟧。",
       "english": "There was a crazed gleam in his eyes.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "COMMON COLLOCATIONS:\n- {狂気|きょうき}の{沙汰|さた}: a crazy thing to do; sheer madness\n- {狂気|きょうき}じみた: crazed; bordering on insane\n- {狂気|きょうき}に{陥|おちい}る: to fall into madness\n\nSIMILAR WORDS:\n- {正気|しょうき}: sanity — the direct antonym\n- {異常|いじょう}: abnormality — broader; not limited to the mind",
+  "notes": "COMMON COLLOCATIONS:\n- {狂気|きょうき}⟦の→の：09472_no⟧⟦{沙汰|さた}→沙汰：13446_sata⟧: a crazy thing to do; sheer madness\n- {狂気|きょうき}じみた: crazed; bordering on insane\n- {狂気|きょうき}⟦に→に：00314_ni⟧⟦{陥|おちい}る→陥る：14537_ochiiru⟧: to fall into madness\n\nSIMILAR WORDS:\n- {正気|しょうき}: sanity — the direct antonym\n- ⟦{異常|いじょう}→異常：01716_ijou⟧: abnormality — broader; not limited to the mind",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,14 +53,14 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "emotion"
       ],
       "domain": []
     },
     "created": "2026-05-19T03:07:48Z",
-    "modified": "2026-08-09T18:18:20Z"
+    "modified": "2026-09-02T04:02:31Z"
   },
   "cross_references": [
     {
@@ -69,6 +69,13 @@
       "reading": "くるう",
       "headword": "{狂|くる}う",
       "label": "to go mad"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01716_ijou",
+      "reading": "いじょう",
+      "headword": "{異常|いじょう}",
+      "label": "abnormality"
     }
   ]
 }

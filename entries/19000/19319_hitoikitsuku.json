@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "19319_hitoikitsuku_ex1",
-      "japanese": "ちょっと{一息|ひといき}つこう。",
+      "japanese": "⟦ちょっと→ちょっと：00595_chotto⟧{一息|ひといき}つこう。",
       "english": "Let's take a quick breather.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "19319_hitoikitsuku_ex2",
-      "japanese": "コーヒーを{飲|の}んで{一息|ひといき}ついた。",
+      "japanese": "⟦コーヒー→コーヒー：00789_koohii⟧⟦を→を：00422_wo⟧⟦{飲|の}んで→飲む：00322_nomu⟧{一息|ひといき}ついた。",
       "english": "I had a coffee and took a break.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "19319_hitoikitsuku_ex3",
-      "japanese": "{午前中|ごぜんちゅう}の{仕事|しごと}が{終|お}わって、やっと{一息|ひといき}つくことができた。",
+      "japanese": "⟦{午前中|ごぜんちゅう}→午前中：11495_gozenchuu⟧⟦の→の：09472_no⟧⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦が→が：00051_ga⟧⟦{終|お}わって→終わる：00567_owaru⟧、⟦やっと→やっと：01561_yatto⟧{一息|ひといき}つくこと⟦が→が：00051_ga⟧⟦できた→できる：00557_dekiru⟧。",
       "english": "The morning's work was done, and I was finally able to take a breather.",
       "sense_numbers": [
         1
@@ -134,8 +134,31 @@
       "notes": null
     }
   ],
-  "notes": "A common everyday expression for taking a short break. {一息|ひといき} literally means 'one breath,' suggesting just a moment of rest.\n\nCOMMON COLLOCATIONS:\n- {一息|ひといき}ついてから — after taking a breather\n- やっと{一息|ひといき}つく — to finally get a moment to rest\n- ここで{一息|ひといき}つこう — let's take a break here\n\nUSAGE:\nOften used when finishing a task and pausing before the next one. Frequently appears with コーヒー or お{茶|ちゃ} — having a drink is a typical way to {一息|ひといき}つく. The expression carries a warm, relieved tone.\n\nSIMILAR WORDS:\n- {休憩|きゅうけい}する — to take a break (more formal, can be longer)\n- {一服|いっぷく}する — to take a break (often implies smoking or having tea; slightly old-fashioned)",
+  "notes": "A common everyday expression for taking a short break. ⟦{一息|ひといき}→一息：07781_hitoiki⟧ literally means 'one breath,' suggesting just a moment of rest.\n\nCOMMON COLLOCATIONS:\n- {一息|ひといき}ついて⟦から→から：00504_kara⟧ — after taking a breather\n- ⟦やっと→やっと：01561_yatto⟧{一息|ひといき}つく — to finally get a moment to rest\n- ⟦ここ→ここ：00961_koko⟧⟦で→で：00502_de⟧{一息|ひといき}つこう — let's take a break here\n\nUSAGE:\nOften used when finishing a task and pausing before the next one. Frequently appears with ⟦コーヒー→コーヒー：00789_koohii⟧ or ⟦お{茶|ちゃ}→お茶：00576_ocha⟧ — having a drink is a typical way to {一息|ひといき}つく. The expression carries a warm, relieved tone.\n\nSIMILAR WORDS:\n- ⟦{休憩|きゅうけい}→休憩：00262_kyuukei⟧⟦する→する：00392_suru⟧ — to take a break (more formal, can be longer)\n- ⟦{一服|いっぷく}する→一服する：30189_ippukusuru⟧ — to take a break (often implies smoking or having tea; slightly old-fashioned)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00262_kyuukei",
+      "reading": "きゅうけい",
+      "headword": "{休憩|きゅうけい}",
+      "label": "to take a break"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30189_ippukusuru",
+      "reading": "いっぷくする",
+      "headword": "一服する",
+      "label": "to take a break (often implies smoking…"
+    },
+    {
+      "type": "related",
+      "target_id": "21874_ikiwotsuku",
+      "reading": "いきをつく",
+      "headword": "{息|いき}をつく",
+      "label": "to catch one's breath"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -147,9 +170,10 @@
       "semantic": [
         "daily-life"
       ],
-      "verb_class": "godan-ku"
+      "verb_class": "godan-ku",
+      "transitivity": "intransitive"
     },
     "created": "2026-03-25T08:34:01Z",
-    "modified": "2026-07-23T12:19:07Z"
+    "modified": "2026-09-02T04:01:55Z"
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28192_hankoushin_ex1",
-      "japanese": "{彼|かれ}は{反抗心|はんこうしん}が{強|つよ}い。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{反抗心|はんこうしん}⟦が→が：00051_ga⟧⟦{強|つよ}い→強い：00820_tsuyoi⟧。",
       "english": "He has a strong rebellious streak.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28192_hankoushin_ex2",
-      "japanese": "{厳|きび}しく{叱|しか}ると{反抗心|はんこうしん}を{抱|いだ}くことがある。",
+      "japanese": "⟦{厳|きび}しく→厳しい：01125_kibishii⟧⟦{叱|しか}る→叱る：01202_shikaru⟧⟦と→と：00512_to⟧{反抗心|はんこうしん}⟦を→を：00422_wo⟧⟦{抱|いだ}く→抱く：02010_idaku⟧こと⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "Scolding harshly can sometimes breed defiance.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28192_hankoushin_ex3",
-      "japanese": "{思春期|ししゅんき}には{親|おや}に{対|たい}する{反抗心|はんこうしん}が{芽生|めば}えることが{多|おお}い。",
+      "japanese": "⟦{思春期|ししゅんき}→思春期：12667_shishunki⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{親|おや}→親：01357_oya⟧⟦に→に：00314_ni⟧⟦{対|たい}する→対する：02126_taisuru⟧{反抗心|はんこうしん}⟦が→が：00051_ga⟧⟦{芽生|めば}える→芽生える：04594_mebaeru⟧こと⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "In adolescence, a spirit of defiance toward one's parents often begins to take root.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {反抗|はんこう} (resistance, rebellion) + {心|しん} (mind, spirit). Describes an internal feeling, so it pairs with verbs of holding or arising rather than acting.\n\nCOMMON COLLOCATIONS:\n- {反抗心|はんこうしん}が{強|つよ}い: to have a strong rebellious streak\n- {反抗心|はんこうしん}を{抱|いだ}く: to harbor defiance\n- {反抗心|はんこうしん}が{芽生|めば}える: defiance begins to grow\n\nSIMILAR WORDS:\n- {反抗期|はんこうき}: rebellious phase — the developmental period, not the feeling itself\n- {反発|はんぱつ}: opposition; pushback — an outward reaction against something, often momentary",
+  "notes": "Compound of ⟦{反抗|はんこう}→反抗：03568_hankou⟧ (resistance, rebellion) + {心|しん} (mind, spirit). Describes an internal feeling, so it pairs with verbs of holding or arising rather than acting.\n\nCOMMON COLLOCATIONS:\n- {反抗心|はんこうしん}⟦が→が：00051_ga⟧⟦{強|つよ}い→強い：00820_tsuyoi⟧: to have a strong rebellious streak\n- {反抗心|はんこうしん}⟦を→を：00422_wo⟧⟦{抱|いだ}く→抱く：02010_idaku⟧: to harbor defiance\n- {反抗心|はんこうしん}⟦が→が：00051_ga⟧⟦{芽生|めば}える→芽生える：04594_mebaeru⟧: defiance begins to grow\n\nSIMILAR WORDS:\n- ⟦{反抗期|はんこうき}→反抗期：15877_hankouki⟧: rebellious phase — the developmental period, not the feeling itself\n- ⟦{反発|はんぱつ}→反発：08676_hanpatsu⟧: opposition; pushback — an outward reaction against something, often momentary",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15877_hankouki",
+      "reading": "はんこうき",
+      "headword": "{反抗期|はんこうき}",
+      "label": "rebellious phase"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08676_hanpatsu",
+      "reading": "はんぱつ",
+      "headword": "{反発|はんぱつ}",
+      "label": "opposition"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +69,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "emotion"
       ],
       "domain": []
     },
     "created": "2026-05-27T02:07:43Z",
-    "modified": "2026-05-27T02:07:43Z"
+    "modified": "2026-09-02T04:02:32Z"
   }
 }

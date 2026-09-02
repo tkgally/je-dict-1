@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "15879_shukkoku_ex1",
-      "japanese": "{出国|しゅっこく}{手続|てつづ}きを{済|す}ませた。",
+      "japanese": "{出国|しゅっこく}⟦{手続|てつづ}き→手続き：05453_tetsuzuki⟧⟦を→を：00422_wo⟧⟦{済|す}ませた→済む：01950_sumu⟧。",
       "english": "I completed the departure procedures.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "15879_shukkoku_ex2",
-      "japanese": "{出国|しゅっこく}の{際|さい}にはパスポートの{提示|ていじ}が{必要|ひつよう}です。",
+      "japanese": "{出国|しゅっこく}⟦の→の：09472_no⟧⟦{際|さい}→際：02819_sai⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦パスポート→パスポート：00341_pasupooto⟧⟦の→の：09472_no⟧⟦{提示|ていじ}→提示：12905_teiji⟧⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧です。",
       "english": "You need to present your passport when leaving the country.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "15879_shukkoku_ex3",
-      "japanese": "{出国|しゅっこく}{審査|しんさ}に{長|なが}い{列|れつ}ができていたので、{搭乗|とうじょう}に{間|ま}に{合|あ}うか{心配|しんぱい}だった。",
+      "japanese": "{出国|しゅっこく}⟦{審査|しんさ}→審査：08375_shinsa⟧⟦に→に：00314_ni⟧⟦{長|なが}い→長い：00491_nagai⟧⟦{列|れつ}→列：02171_retsu⟧⟦が→が：00051_ga⟧⟦できていた→できる：00557_dekiru⟧⟦の→の：09472_no⟧で、⟦{搭乗|とうじょう}→搭乗：06200_toujou⟧⟦に→に：00314_ni⟧⟦{間|ま}に{合|あ}う→間に合う：01142_maniau⟧⟦か→か：09473_ka⟧⟦{心配|しんぱい}→心配：00811_shinpai⟧だった。",
       "english": "There was a long line at the departure immigration, so I worried whether I would make it to boarding.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "COMPOSITION:\n{出|しゅつ} (go out, exit) + {国|こく} (country). The reading changes to しゅっ before こく due to consonant assimilation.\n\nGRAMMAR:\n{出国|しゅっこく}する is used as a する verb meaning \"to leave a country.\"\n\nCOMMON COLLOCATIONS:\n- {出国|しゅっこく}する (to leave the country)\n- {出国|しゅっこく}{審査|しんさ} (departure immigration check)\n- {出国|しゅっこく}{手続|てつづ}き (departure procedures)\n- {出国|しゅっこく}ゲート (departure gate)\n- {出国|しゅっこく}{禁止|きんし} (travel ban, exit ban)",
+  "notes": "ETYMOLOGY:\n{出|しゅつ} (go out, exit) + {国|こく} (country). The reading changes to しゅっ before ⟦こく→コク：20672_koku⟧ due to consonant assimilation.\n\nCOMMON PATTERNS:\n{出国|しゅっこく}⟦する→する：00392_suru⟧ is used as a ⟦する→する：00392_suru⟧ verb meaning \"to leave a country.\"\n\nCOMMON COLLOCATIONS:\n- {出国|しゅっこく}⟦する→する：00392_suru⟧ (to leave the country)\n- {出国|しゅっこく}⟦{審査|しんさ}→審査：08375_shinsa⟧ (departure immigration check)\n- {出国|しゅっこく}⟦{手続|てつづ}き→手続き：05453_tetsuzuki⟧ (departure procedures)\n- {出国|しゅっこく}⟦ゲート→ゲート：10851_geeto⟧ (departure gate)\n- {出国|しゅっこく}⟦{禁止|きんし}→禁止：02643_kinshi⟧ (travel ban, exit ban)",
   "cross_references": [
     {
       "type": "antonym",
@@ -142,11 +142,39 @@
       "reading": "にゅうこく",
       "headword": "{入国|にゅうこく}",
       "label": "entry into a country"
+    },
+    {
+      "type": "related",
+      "target_id": "03025_kikoku",
+      "reading": "きこく",
+      "headword": "{帰国|きこく}",
+      "label": "return to one's country"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21995_tokousuru",
+      "reading": "とこうする",
+      "headword": "{渡航|とこう}する",
+      "label": "to travel overseas"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24874_shutsunyuukoku",
+      "reading": "しゅつにゅうこく",
+      "headword": "{出入国|しゅつにゅうこく}",
+      "label": "immigration and emigration"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27137_sainyuukoku",
+      "reading": "さいにゅうこく",
+      "headword": "{再入国|さいにゅうこく}",
+      "label": "re-entry (into a country)"
     }
   ],
   "metadata": {
     "created": "2026-03-08T13:21:32Z",
-    "modified": "2026-04-11T01:25:09Z",
+    "modified": "2026-09-02T04:01:42Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

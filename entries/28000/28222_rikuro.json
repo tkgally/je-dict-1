@@ -15,41 +15,67 @@
   "examples": [
     {
       "id": "28222_rikuro_ex1",
-      "japanese": "{陸路|りくろ}で{国境|こっきょう}を{越|こ}えた。",
+      "japanese": "{陸路|りくろ}⟦で→で：00502_de⟧⟦{国境|こっきょう}→国境：02762_kokkyou⟧⟦を→を：00422_wo⟧⟦{越|こ}えた→越える：02099_koeru⟧。",
       "english": "I crossed the border by land.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28222_rikuro_ex2",
-      "japanese": "{空港|くうこう}が{閉鎖|へいさ}され、{陸路|りくろ}で{移動|いどう}するしかなかった。",
+      "japanese": "⟦{空港|くうこう}→空港：00648_kuukou⟧⟦が→が：00051_ga⟧⟦{閉鎖|へいさ}→閉鎖：14524_heisa⟧⟦され→する：00392_suru⟧、{陸路|りくろ}⟦で→で：00502_de⟧⟦{移動|いどう}する→移動する：22430_idousuru⟧しかなかった。",
       "english": "The airport was closed, so we had no choice but to travel overland.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28222_rikuro_ex3",
-      "japanese": "その{町|まち}へは{陸路|りくろ}でも{海路|かいろ}でも{行|い}ける。",
+      "japanese": "⟦その→その：00993_sono⟧⟦{町|まち}→町：00613_machi⟧⟦へ→へ：02473_he⟧⟦は→は：00079_ha⟧{陸路|りくろ}⟦で→で：00502_de⟧⟦も→も：00484_mo⟧⟦{海路|かいろ}→海路：20373_kairo⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧⟦{行|い}ける→行く：00119_iku⟧。",
       "english": "You can reach that town by land or by sea.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "{陸|りく} (land) plus {路|ろ} (route). Often used adverbially without a particle: {陸路|りくろ}{向|む}かう (to head there overland).\n\nCOMMON COLLOCATIONS:\n- {陸路|りくろ}で{行|い}く: to go by land\n- {陸路|りくろ}{移動|いどう}: overland travel\n\nRELATED WORDS:\n- {海路|かいろ}: sea route\n- {空路|くうろ}: air route",
+  "notes": "⟦{陸|りく}→陸：03675_riku⟧ (land) plus {路|ろ} (route). Often used adverbially without a particle: {陸路|りくろ}⟦{向|む}かう→向かう：01186_mukau⟧ (to head there overland).\n\nCOMMON COLLOCATIONS:\n- {陸路|りくろ}⟦で→で：00502_de⟧⟦{行|い}く→行く：00119_iku⟧: to go by land\n- {陸路|りくろ}⟦{移動|いどう}→移動：01741_idou⟧: overland travel\n\nRELATED WORDS:\n- ⟦{海路|かいろ}→海路：20373_kairo⟧: sea route\n- ⟦{空路|くうろ}→空路：20372_kuuro⟧: air route",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "20373_kairo",
+      "reading": "かいろ",
+      "headword": "{海路|かいろ}",
+      "label": "sea route"
+    },
+    {
+      "type": "related",
+      "target_id": "20372_kuuro",
+      "reading": "くうろ",
+      "headword": "{空路|くうろ}",
+      "label": "air route"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["transportation"],
+      "politeness": "plain",
+      "semantic": [
+        "transportation"
+      ],
       "domain": []
     },
     "created": "2026-05-27T03:08:15Z",
-    "modified": "2026-05-27T03:08:15Z"
+    "modified": "2026-09-02T04:02:33Z"
   }
 }

@@ -15,41 +15,66 @@
   "examples": [
     {
       "id": "15406_dokusaisha_ex1",
-      "japanese": "{独裁者|どくさいしゃ}が{国|くに}を{支配|しはい}した。",
+      "japanese": "{独裁者|どくさいしゃ}⟦が→が：00051_ga⟧⟦{国|くに}→国：02204_kuni⟧⟦を→を：00422_wo⟧⟦{支配|しはい}した→支配する：25222_shihaisuru⟧。",
       "english": "A dictator ruled the country.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15406_dokusaisha_ex2",
-      "japanese": "{独裁者|どくさいしゃ}は{言論|げんろん}の{自由|じゆう}を{奪|うば}った。",
+      "japanese": "{独裁者|どくさいしゃ}⟦は→は：00079_ha⟧⟦{言論|げんろん}の{自由|じゆう}→言論の自由：17047_genronnojiyuu⟧⟦を→を：00422_wo⟧⟦{奪|うば}った→奪う：01895_ubau⟧。",
       "english": "The dictator took away freedom of speech.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15406_dokusaisha_ex3",
-      "japanese": "{歴史|れきし}の{中|なか}で{多|おお}くの{独裁者|どくさいしゃ}が{民衆|みんしゅう}の{反乱|はんらん}によって{倒|たお}されてきた。",
+      "japanese": "⟦{歴史|れきし}→歴史：02267_rekishi⟧⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧⟦で→で：00502_de⟧{多|おお}く⟦の→の：09472_no⟧{独裁者|どくさいしゃ}⟦が→が：00051_ga⟧⟦{民衆|みんしゅう}→民衆：13259_minshuu⟧⟦の→の：09472_no⟧⟦{反乱|はんらん}→反乱：11860_hanran⟧⟦によって→によって：06801_niyotte⟧⟦{倒|たお}されて→倒す：01954_taosu⟧きた。",
       "english": "Throughout history, many dictators have been overthrown by popular uprisings.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\n{独裁者|どくさいしゃ} always carries a negative connotation. It is used in political, historical, and figurative contexts.\n\nCOMMON COLLOCATIONS:\n- {独裁者|どくさいしゃ}を{倒|たお}す (to overthrow a dictator)\n- {独裁者|どくさいしゃ}の{支配|しはい} (a dictator's rule)\n- {軍事|ぐんじ}{独裁者|どくさいしゃ} (military dictator)\n\nWORD FORMATION:\n{独裁|どくさい} (dictatorship) + {者|しゃ} (person). The base noun {独裁|どくさい} also appears in {独裁|どくさい}{政権|せいけん} (dictatorial regime) and {独裁|どくさい}{国家|こっか} (dictatorial state).",
-  "cross_references": [],
+  "notes": "USAGE:\n{独裁者|どくさいしゃ} always carries a negative connotation. It is used in political, historical, and figurative contexts.\n\nCOMMON COLLOCATIONS:\n- {独裁者|どくさいしゃ}⟦を→を：00422_wo⟧⟦{倒|たお}す→倒す：01954_taosu⟧ (to overthrow a dictator)\n- {独裁者|どくさいしゃ}⟦の→の：09472_no⟧⟦{支配|しはい}→支配：01421_shihai⟧ (a dictator's rule)\n- ⟦{軍事|ぐんじ}→軍事：14392_gunji⟧{独裁者|どくさいしゃ} (military dictator)\n\nFORMS:\n⟦{独裁|どくさい}→独裁：05969_dokusai⟧ (dictatorship) + ⟦{者|しゃ}→〜者：04662_sha⟧ (person). The base noun ⟦{独裁|どくさい}→独裁：05969_dokusai⟧ also appears in ⟦{独裁|どくさい}→独裁：05969_dokusai⟧⟦{政権|せいけん}→政権：12883_seiken⟧ (dictatorial regime) and ⟦{独裁|どくさい}→独裁：05969_dokusai⟧⟦{国家|こっか}→国家：02760_kokka⟧ (dictatorial state).",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "21777_dokusaisei",
+      "reading": "どくさいせい",
+      "headword": "{独裁制|どくさいせい}",
+      "label": "dictatorship"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23113_shihaisha",
+      "reading": "しはいしゃ",
+      "headword": "{支配者|しはいしゃ}",
+      "label": "ruler"
+    }
+  ],
   "metadata": {
     "created": "2026-03-06T12:38:34Z",
-    "modified": "2026-03-06T12:38:34Z",
+    "modified": "2026-09-02T04:01:41Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["person"]
+      "semantic": [
+        "person"
+      ]
     }
   }
 }

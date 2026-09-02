@@ -43,11 +43,47 @@
       ]
     }
   ],
-  "notes": "{消印|けしいん} is a postmark stamped by the post office.\n\nCOMMON EXPRESSIONS:\n- {消印|けしいん}⟦{有効|ゆうこう}→有効：03645_yuukou⟧ (postmark valid) - indicates that the postmark date is accepted as the submission/application date\n- {消印|けしいん}⟦を→を：00422_wo⟧⟦{押|お}す→押す：02854_osu⟧ (apply a postmark)\n- {消印|けしいん}⟦の→の：09472_no⟧⟦{日付|ひづけ}→日付：03706_hizuke⟧ (postmark date)\n\nUSAGE NOTE:\nIn Japan, many official deadlines (for applications, contests, tax documents, etc.) specify {消印|けしいん}⟦{有効|ゆうこう}→有効：03645_yuukou⟧, meaning the item must be postmarked by the deadline date, not necessarily received by that date.\n\nRELATED WORDS:\n- ⟦{切手|きって}→切手：00718_kitte⟧: postage stamp\n- ⟦{郵便局|ゆうびんきょく}→郵便局：00579_yuubinkyoku⟧: post office\n- ⟦{郵便|ゆうびん}→郵便：03803_yuubin⟧: mail",
-  "cross_references": [],
+  "notes": "{消印|けしいん} is a postmark stamped by the post office.\n\nCOMMON EXPRESSIONS:\n- {消印|けしいん}⟦{有効|ゆうこう}→有効：03645_yuukou⟧ (postmark valid) - indicates that the postmark date is accepted as the submission/application date\n- {消印|けしいん}⟦を→を：00422_wo⟧⟦{押|お}す→押す：02854_osu⟧ (apply a postmark)\n- {消印|けしいん}⟦の→の：09472_no⟧⟦{日付|ひづけ}→日付：03706_hizuke⟧ (postmark date)\n\nUSAGE:\nIn Japan, many official deadlines (for applications, contests, tax documents, etc.) specify {消印|けしいん}⟦{有効|ゆうこう}→有効：03645_yuukou⟧, meaning the item must be postmarked by the deadline date, not necessarily received by that date.\n\nRELATED WORDS:\n- ⟦{切手|きって}→切手：00718_kitte⟧: postage stamp\n- ⟦{郵便局|ゆうびんきょく}→郵便局：00579_yuubinkyoku⟧: post office\n- ⟦{郵便|ゆうびん}→郵便：03803_yuubin⟧: mail",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "00718_kitte",
+      "reading": "きって",
+      "headword": "{切手|きって}",
+      "label": "postage stamp"
+    },
+    {
+      "type": "related",
+      "target_id": "00579_yuubinkyoku",
+      "reading": "ゆうびんきょく",
+      "headword": "{郵便局|ゆうびんきょく}",
+      "label": "post office"
+    },
+    {
+      "type": "related",
+      "target_id": "03803_yuubin",
+      "reading": "ゆうびん",
+      "headword": "{郵便|ゆうびん}",
+      "label": "mail"
+    },
+    {
+      "type": "related",
+      "target_id": "08984_kitteshuushuu",
+      "reading": "きってしゅうしゅう",
+      "headword": "{切手|きって}{収集|しゅうしゅう}",
+      "label": "stamp collecting"
+    },
+    {
+      "type": "related",
+      "target_id": "24501_hizukein",
+      "reading": "ひづけいん",
+      "headword": "{日付印|ひづけいん}",
+      "label": "date stamp"
+    }
+  ],
   "metadata": {
     "created": "2026-01-17T09:42:23Z",
-    "modified": "2026-06-28T15:18:18Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

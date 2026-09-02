@@ -15,42 +15,70 @@
   "examples": [
     {
       "id": "12855_yuen_ex1",
-      "japanese": "それが{彼|かれ}の{強|つよ}さの{所以|ゆえん}だ。",
+      "japanese": "⟦それ→それ：00994_sore⟧⟦が→が：00051_ga⟧⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧⟦{強|つよ}さ→強さ：25692_tsuyosa⟧⟦の→の：09472_no⟧{所以|ゆえん}だ。",
       "english": "That is the basis of his strength.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12855_yuen_ex2",
-      "japanese": "{人間|にんげん}が{人間|にんげん}たる{所以|ゆえん}は{何|なに}か。",
+      "japanese": "⟦{人間|にんげん}→人間：03523_ningen⟧⟦が→が：00051_ga⟧⟦{人間|にんげん}→人間：03523_ningen⟧たる{所以|ゆえん}⟦は→は：00079_ha⟧⟦{何|なに}か→何か：03873_nanika⟧。",
       "english": "What is it that makes humans human?",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12855_yuen_ex3",
-      "japanese": "この{地域|ちいき}が{名産地|めいさんち}と{呼|よ}ばれる{所以|ゆえん}は、{独特|どくとく}の{気候|きこう}と{土壌|どじょう}にある。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{地域|ちいき}→地域：01461_chiiki⟧⟦が→が：00051_ga⟧{名産地|めいさんち}⟦と→と：00512_to⟧⟦{呼|よ}ばれる→呼ぶ：00766_yobu⟧{所以|ゆえん}⟦は→は：00079_ha⟧、⟦{独特|どくとく}→独特：01656_dokutoku⟧⟦の→の：09472_no⟧⟦{気候|きこう}→気候：00231_kikou⟧⟦と→と：00512_to⟧⟦{土壌|どじょう}→土壌：12040_dojou⟧⟦に→に：00314_ni⟧⟦ある→ある：00006_aru⟧。",
       "english": "The reason this region is called a famous production area lies in its unique climate and soil.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nA literary/formal word. The most common pattern is 「Xの{所以|ゆえん}」 meaning \"the reason for X\" or \"what makes X what it is.\" Also used in the rhetorical pattern 「XがXたる{所以|ゆえん}」 (what makes X truly X), which sounds elevated and philosophical.\n\nCOMMON PATTERNS:\n- ...の{所以|ゆえん}: the reason for..., the basis of...\n- XがXたる{所以|ゆえん}: what makes X truly X\n\nSIMILAR WORDS:\n- {理由|りゆう}: reason (everyday, neutral)\n- {根拠|こんきょ}: grounds, basis (formal, factual)",
-  "cross_references": [],
+  "notes": "USAGE:\nA literary/formal word. The most common pattern is 「X⟦の→の：09472_no⟧{所以|ゆえん}」 meaning \"the reason for X\" or \"what makes X what it is.\" Also used in the rhetorical pattern 「X⟦が→が：00051_ga⟧Xたる{所以|ゆえん}」 (what makes X truly X), which sounds elevated and philosophical.\n\nCOMMON PATTERNS:\n- ...⟦の→の：09472_no⟧{所以|ゆえん}: the reason for..., the basis of...\n- X⟦が→が：00051_ga⟧Xたる{所以|ゆえん}: what makes X truly X\n\nSIMILAR WORDS:\n- ⟦{理由|りゆう}→理由：01102_riyuu⟧: reason (everyday, neutral)\n- ⟦{根拠|こんきょ}→根拠：10147_konkyo⟧: grounds, basis (formal, factual)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01102_riyuu",
+      "reading": "りゆう",
+      "headword": "{理由|りゆう}",
+      "label": "reason"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10147_konkyo",
+      "reading": "こんきょ",
+      "headword": "{根拠|こんきょ}",
+      "label": "grounds, basis"
+    }
+  ],
   "metadata": {
     "created": "2026-02-22T12:00:17Z",
-    "modified": "2026-02-22T12:00:17Z",
+    "modified": "2026-09-02T04:01:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"],
-      "style": ["written", "literary"]
+      "semantic": [
+        "general"
+      ],
+      "style": [
+        "written",
+        "literary"
+      ]
     }
   }
 }

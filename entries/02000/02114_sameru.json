@@ -149,7 +149,7 @@
     },
     {
       "id": "02114_sameru_ex5",
-      "japanese": "⟦お{風呂|ふろ}→お風呂：00802_ofuro⟧⟦の→の：09472_no⟧お⟦{湯|ゆ}→湯：01740_yu⟧⟦が→が：00051_ga⟧{冷|さ}めないうちに⟦{入|はい}った→入る：00494_hairu⟧⟦ほうがいい→ほうがいい：10078_hougaii⟧。",
+      "japanese": "⟦お{風呂|ふろ}→お風呂：00802_ofuro⟧⟦の→の：09472_no⟧お⟦{湯|ゆ}→湯：01740_yu⟧⟦が→が：00051_ga⟧{冷|さ}めないうち⟦に→に：00314_ni⟧⟦{入|はい}った→入る：00494_hairu⟧⟦ほうがいい→ほうがいい：10078_hougaii⟧。",
       "english": "You should take your bath before the hot water cools down.",
       "notes": null,
       "has_audio": false,
@@ -168,11 +168,19 @@
       ]
     }
   ],
-  "notes": "{冷|さ}める is an intransitive verb meaning to cool down or for enthusiasm to fade.\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n- Pair: ⟦{冷|さ}ます→冷ます：02113_samasu⟧ (transitive, to cool something)\n\nHOMOPHONE WARNING:\n- {冷|さ}める: to cool down (temperature/emotions)\n- ⟦{覚|さ}める→覚める：02058_sameru⟧: to wake up\n\nPHYSICAL COOLING:\n- ⟦コーヒー→コーヒー：00789_koohii⟧⟦が→が：00051_ga⟧{冷|さ}めた: the coffee got cold\n- ⟦{料理|りょうり}→料理：01523_ryouri⟧⟦が→が：00051_ga⟧{冷|さ}める⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧⟦{食|た}べて→食べる：00396_taberu⟧: eat before the food gets cold\n\nFIGURATIVE (emotions fading):\n- ⟦{興味|きょうみ}→興味：01316_kyoumi⟧⟦が→が：00051_ga⟧{冷|さ}める: interest fades\n- ⟦{愛情|あいじょう}→愛情：01673_aijou⟧⟦が→が：00051_ga⟧{冷|さ}める: love cools\n- ⟦{熱|ねつ}→熱：01690_netsu⟧⟦が→が：00051_ga⟧{冷|さ}める: enthusiasm wanes\n\nASPECT (ている):\n{冷|さ}めている indicates something is already cold or enthusiasm has already faded.",
-  "cross_references": [],
+  "notes": "{冷|さ}める is an intransitive verb meaning to cool down or for enthusiasm to fade.\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n- Pair: ⟦{冷|さ}ます→冷ます：02113_samasu⟧ (transitive, to cool something)\n\nWATCH OUT:\n- {冷|さ}める: to cool down (temperature/emotions)\n- ⟦{覚|さ}める→覚める：02058_sameru⟧: to wake up\n\nPHYSICAL COOLING:\n- ⟦コーヒー→コーヒー：00789_koohii⟧⟦が→が：00051_ga⟧{冷|さ}めた: the coffee got cold\n- ⟦{料理|りょうり}→料理：01523_ryouri⟧⟦が→が：00051_ga⟧{冷|さ}める⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧⟦{食|た}べて→食べる：00396_taberu⟧: eat before the food gets cold\n\nFIGURATIVE (emotions fading):\n- ⟦{興味|きょうみ}→興味：01316_kyoumi⟧⟦が→が：00051_ga⟧{冷|さ}める: interest fades\n- ⟦{愛情|あいじょう}→愛情：01673_aijou⟧⟦が→が：00051_ga⟧{冷|さ}める: love cools\n- ⟦{熱|ねつ}→熱：01690_netsu⟧⟦が→が：00051_ga⟧{冷|さ}める: enthusiasm wanes\n\nASPECT (ている):\n{冷|さ}めて⟦いる→いる：00495_iru⟧ indicates something is already cold or enthusiasm has already faded.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01154_hieru",
+      "reading": "ひえる",
+      "headword": "{冷|ひ}える",
+      "label": "to grow cold, to get chilly"
+    }
+  ],
   "metadata": {
     "created": "2026-01-09T12:56:14Z",
-    "modified": "2026-05-18T15:06:40Z",
+    "modified": "2026-09-02T04:01:01Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

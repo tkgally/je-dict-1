@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "しとしと is an onomatopoeia specifically for gentle, quiet rain. It evokes a calm, often melancholic atmosphere and is frequently used in literary contexts.\n\nCOMMON PATTERNS:\n- しとしと⟦{降|ふ}る→降る：00839_furu⟧: to fall gently (rain)\n- しとしと⟦と→と：00512_to⟧: variant with と particle for emphasis\n\nCONTRAST WITH OTHER RAIN SOUNDS:\n- ⟦ぽつぽつ→ぽつぽつ：06683_potsupotsu⟧: scattered drops just starting\n- ⟦ざあざあ→ざあざあ：05886_zaazaa⟧: heavy, pouring rain\n- ⟦ぱらぱら→ぱらぱら：19924_parapara⟧: light, sporadic rain",
+  "notes": "しとしと is an onomatopoeia specifically for gentle, quiet rain. It evokes a calm, often melancholic atmosphere and is frequently used in literary contexts.\n\nCOMMON PATTERNS:\n- しとしと⟦{降|ふ}る→降る：00839_furu⟧: to fall gently (rain)\n- しとしと⟦と→と：00512_to⟧: variant with ⟦と→と：00512_to⟧ particle for emphasis\n\nCONTRAST WITH OTHER RAIN SOUNDS:\n- ⟦ぽつぽつ→ぽつぽつ：06683_potsupotsu⟧: scattered drops just starting\n- ⟦ざあざあ→ざあざあ：05886_zaazaa⟧: heavy, pouring rain\n- ⟦ぱらぱら→ぱらぱら：19924_parapara⟧: light, sporadic rain",
   "cross_references": [
     {
       "type": "contrast",
@@ -51,11 +51,25 @@
       "headword": "ざあざあ",
       "label": "heavy rain",
       "target_id": "05886_zaazaa"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06683_potsupotsu",
+      "reading": "ぽつぽつ",
+      "headword": "ぽつぽつ",
+      "label": "scattered drops just starting"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19924_parapara",
+      "reading": "ぱらぱら",
+      "headword": "ぱらぱら",
+      "label": "light, sporadic rain"
     }
   ],
   "metadata": {
     "created": "2026-01-16T14:51:32Z",
-    "modified": "2026-06-08T19:23:00Z",
+    "modified": "2026-09-02T04:01:07Z",
     "schema_version": "2.0",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",

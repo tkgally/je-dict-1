@@ -15,41 +15,59 @@
   "examples": [
     {
       "id": "15650_yakiimo_ex1",
-      "japanese": "{焼|や}き{芋|いも}がおいしい{季節|きせつ}だ。",
+      "japanese": "{焼|や}き{芋|いも}⟦が→が：00051_ga⟧おいしい⟦{季節|きせつ}→季節：01304_kisetsu⟧だ。",
       "english": "It's the season when roasted sweet potatoes are delicious.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15650_yakiimo_ex2",
-      "japanese": "{焼|や}き{芋|いも}{屋|や}さんの{声|こえ}が{聞|き}こえてきた。",
+      "japanese": "{焼|や}き{芋|いも}⟦{屋|や}→〜屋：03096_ya⟧さん⟦の→の：09472_no⟧⟦{声|こえ}→声：02207_koe⟧⟦が→が：00051_ga⟧⟦{聞|き}こえて→聞こえる：01229_kikoeru⟧きた。",
       "english": "I could hear the voice of the roasted sweet potato vendor.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15650_yakiimo_ex3",
-      "japanese": "{寒|さむ}い{日|ひ}にホクホクの{焼|や}き{芋|いも}を{食|た}べると{幸|しあわ}せな{気持|きも}ちになる。",
+      "japanese": "⟦{寒|さむ}い→寒い：00664_samui⟧⟦{日|ひ}→日：02249_hi⟧⟦に→に：00314_ni⟧ホクホク⟦の→の：09472_no⟧{焼|や}き{芋|いも}⟦を→を：00422_wo⟧⟦{食|た}べる→食べる：00396_taberu⟧⟦と→と：00512_to⟧{幸|しあわ}せな{気持|きも}ち⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧。",
       "english": "Eating a fluffy roasted sweet potato on a cold day makes you feel happy.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "CULTURE:\nTraditionally sold from trucks or carts that drive through neighborhoods in autumn and winter, with the vendor calling out 「{石焼|いしや}き{芋|いも}〜」in a distinctive sing-song voice. The potatoes are slowly roasted over hot stones ({石焼|いしや}き), which gives them a caramelized sweetness. Modern convenience stores and supermarkets also sell machine-roasted versions.\n\nCOMMON COLLOCATIONS:\n- {石焼|いしや}き{芋|いも} (stone-roasted sweet potato)\n- {焼|や}き{芋|いも}{屋|や} (roasted sweet potato vendor)\n- ホクホクの{焼|や}き{芋|いも} (fluffy roasted sweet potato)",
-  "cross_references": [],
+  "notes": "CULTURAL NOTE:\nTraditionally sold from trucks or carts that drive through neighborhoods in autumn and winter, with the vendor calling out 「{石焼|いしや}き{芋|いも}〜」in a distinctive sing-song voice. The potatoes are slowly roasted over hot stones ({石焼|いしや}き), which gives them a caramelized sweetness. Modern convenience stores and supermarkets also sell machine-roasted versions.\n\nCOMMON COLLOCATIONS:\n- {石焼|いしや}き{芋|いも} (stone-roasted sweet potato)\n- {焼|や}き{芋|いも}⟦{屋|や}→〜屋：03096_ya⟧ (roasted sweet potato vendor)\n- ホクホク⟦の→の：09472_no⟧{焼|や}き{芋|いも} (fluffy roasted sweet potato)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "24146_yakiguri",
+      "reading": "やきぐり",
+      "headword": "{焼|や}き{栗|ぐり}",
+      "label": "roasted chestnuts"
+    }
+  ],
   "metadata": {
     "created": "2026-03-08T06:40:12Z",
-    "modified": "2026-03-08T06:40:12Z",
+    "modified": "2026-09-02T04:01:42Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food"]
+      "semantic": [
+        "food"
+      ]
     }
   }
 }

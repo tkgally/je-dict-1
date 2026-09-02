@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "17563_chikunensuu_ex1",
-      "japanese": "このマンションは{築年数|ちくねんすう}が20{年|ねん}だ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦マンション→マンション：01035_manshon⟧⟦は→は：00079_ha⟧{築年数|ちくねんすう}⟦が→が：00051_ga⟧20⟦{年|ねん}→年：09876_nen⟧だ。",
       "english": "This apartment building is 20 years old.",
       "has_audio": false,
       "sense_numbers": [
@@ -23,7 +23,7 @@
     },
     {
       "id": "17563_chikunensuu_ex2",
-      "japanese": "{築年数|ちくねんすう}が{浅|あさ}い{物件|ぶっけん}を{探|さが}している。",
+      "japanese": "{築年数|ちくねんすう}⟦が→が：00051_ga⟧⟦{浅|あさ}い→浅い：01274_asai⟧⟦{物件|ぶっけん}→物件：06743_bukken⟧⟦を→を：00422_wo⟧⟦{探|さが}している→探す：00493_sagasu⟧。",
       "english": "I'm looking for a property that's relatively new.",
       "has_audio": false,
       "sense_numbers": [
@@ -32,7 +32,7 @@
     },
     {
       "id": "17563_chikunensuu_ex3",
-      "japanese": "{築年数|ちくねんすう}が{経|た}っている{分|ぶん}、{家賃|やちん}が{安|やす}い。",
+      "japanese": "{築年数|ちくねんすう}⟦が→が：00051_ga⟧⟦{経|た}っている→経つ：09892_tatsu⟧⟦{分|ぶん}→分：26216_bun⟧、⟦{家賃|やちん}→家賃：03639_yachin⟧⟦が→が：00051_ga⟧⟦{安|やす}い→安い：00464_yasui⟧。",
       "english": "The rent is cheap because the building is older.",
       "has_audio": false,
       "sense_numbers": [
@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "notes": "REAL ESTATE TERM:\nA key factor in property valuations. Generally, older buildings have lower rent/prices but may have different characteristics.\n\nCOMMON EXPRESSIONS:\n・{築年数|ちくねんすう}が{浅|あさ}い - relatively new (lit. \"shallow years\")\n・{築年数|ちくねんすう}が{経|た}っている - older building\n・{築|ちく}◯{年|ねん} - ◯ years old (e.g., {築|ちく}10{年|ねん} = 10 years old)\n\nRELATED TERMS:\n・{築|ちく}◯{年|ねん} - ◯ years old (shorter form in listings)\n・{新築|しんちく} - newly constructed\n・{中古|ちゅうこ} - second-hand, pre-owned",
+  "notes": "REAL ESTATE TERM:\nA key factor in property valuations. Generally, older buildings have lower rent/prices but may have different characteristics.\n\nCOMMON EXPRESSIONS:\n- {築年数|ちくねんすう}⟦が→が：00051_ga⟧⟦{浅|あさ}い→浅い：01274_asai⟧ - relatively new (lit. \"shallow years\")\n- {築年数|ちくねんすう}⟦が→が：00051_ga⟧⟦{経|た}っている→経つ：09892_tatsu⟧ - older building\n- ⟦{築|ちく}→築：29014_chiku⟧◯⟦{年|ねん}→年：09876_nen⟧ - ◯ years old (e.g., ⟦{築|ちく}→築：29014_chiku⟧10⟦{年|ねん}→年：09876_nen⟧ = 10 years old)\n\nRELATED WORDS:\n- ⟦{築|ちく}→築：29014_chiku⟧◯⟦{年|ねん}→年：09876_nen⟧ - ◯ years old (shorter form in listings)\n- ⟦{新築|しんちく}→新築：06567_shinchiku⟧ - newly constructed\n- ⟦{中古|ちゅうこ}→中古：03479_chuuko⟧ - second-hand, pre-owned",
   "cross_references": [
     {
       "type": "related",
@@ -59,7 +59,7 @@
   ],
   "metadata": {
     "created": "2026-01-22T23:40:24Z",
-    "modified": "2026-07-24T07:00:08Z",
+    "modified": "2026-09-02T04:01:48Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -67,6 +67,7 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "time-general",
         "building"

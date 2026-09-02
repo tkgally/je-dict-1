@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "11897_koujoushin_ex1",
-      "japanese": "{向上心|こうじょうしん}のある{人|ひと}は{成長|せいちょう}が{早|はや}い。",
+      "japanese": "{向上心|こうじょうしん}⟦の→の：09472_no⟧⟦ある→ある：00006_aru⟧⟦{人|ひと}→人：00476_hito⟧⟦は→は：00079_ha⟧⟦{成長|せいちょう}→成長：03290_seichou⟧⟦が→が：00051_ga⟧⟦{早|はや}い→早い：00514_hayai⟧。",
       "english": "People with a desire to improve grow quickly.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "11897_koujoushin_ex2",
-      "japanese": "{彼女|かのじょ}は{向上心|こうじょうしん}が{強|つよ}く、{常|つね}に{新|あたら}しいことに{挑戦|ちょうせん}している。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧{向上心|こうじょうしん}⟦が→が：00051_ga⟧⟦{強|つよ}く→強い：00820_tsuyoi⟧、⟦{常|つね}→常：28958_tsune⟧⟦に→に：00314_ni⟧⟦{新|あたら}しい→新しい：00506_atarashii⟧こと⟦に→に：00314_ni⟧⟦{挑戦|ちょうせん}している→挑戦する：21602_chousensuru⟧。",
       "english": "She has a strong drive to improve and is always taking on new challenges.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "11897_koujoushin_ex3",
-      "japanese": "{向上心|こうじょうしん}を{持|も}ち{続|つづ}けることが{仕事|しごと}でもプライベートでも{大切|たいせつ}だ。",
+      "japanese": "{向上心|こうじょうしん}⟦を→を：00422_wo⟧⟦{持|も}ち→持つ：00478_motsu⟧⟦{続|つづ}ける→続く：00903_tsuzuku⟧こと⟦が→が：00051_ga⟧⟦{仕事|しごと}→仕事：00480_shigoto⟧で⟦も→も：00484_mo⟧⟦プライベート→プライベート：11277_puraibeeto⟧で⟦も→も：00484_mo⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧だ。",
       "english": "It is important to keep your desire to improve alive, both at work and in your personal life.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "COMMON COLLOCATIONS:\n・{向上心|こうじょうしん}がある (have ambition/drive)\n・{向上心|こうじょうしん}が{強|つよ}い (have a strong desire to improve)\n・{向上心|こうじょうしん}を{持|も}つ (have aspirations)\n・{向上心|こうじょうしん}に{欠|か}ける (lack ambition)\n\nA compound of {向上|こうじょう} (improvement, advancement) and {心|しん} (mind, spirit). Frequently appears in self-help books, job interviews, and discussions about personal development. Always carries a positive connotation.",
+  "notes": "COMMON COLLOCATIONS:\n- {向上心|こうじょうしん}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧ (have ambition/drive)\n- {向上心|こうじょうしん}⟦が→が：00051_ga⟧⟦{強|つよ}い→強い：00820_tsuyoi⟧ (have a strong desire to improve)\n- {向上心|こうじょうしん}⟦を→を：00422_wo⟧⟦{持|も}つ→持つ：00478_motsu⟧ (have aspirations)\n- {向上心|こうじょうしん}⟦に→に：00314_ni⟧⟦{欠|か}ける→欠ける：13167_kakeru⟧ (lack ambition)\n\nA compound of ⟦{向上|こうじょう}→向上：02731_koujou⟧ (improvement, advancement) and {心|しん} (mind, spirit). Frequently appears in self-help books, job interviews, and discussions about personal development. Always carries a positive connotation.",
   "cross_references": [
     {
       "type": "contrast",
@@ -51,11 +51,32 @@
       "reading": "やしん",
       "headword": "{野心|やしん}",
       "label": "ambition; often negative"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07468_kachiki",
+      "reading": "かちき",
+      "headword": "{勝|か}ち{気|き}",
+      "label": "competitive spirit"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23681_shusseyoku",
+      "reading": "しゅっせよく",
+      "headword": "{出世欲|しゅっせよく}",
+      "label": "desire for career advancement"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27063_kyousoushin",
+      "reading": "きょうそうしん",
+      "headword": "{競争心|きょうそうしん}",
+      "label": "competitive spirit"
     }
   ],
   "metadata": {
     "created": "2026-02-18T14:04:30Z",
-    "modified": "2026-07-03T09:29:09Z",
+    "modified": "2026-09-02T04:01:26Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",

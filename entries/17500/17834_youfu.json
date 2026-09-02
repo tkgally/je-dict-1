@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "17834_youfu_ex1",
-      "japanese": "{養父|ようふ}に{育|そだ}てられた。",
+      "japanese": "{養父|ようふ}⟦に→に：00314_ni⟧⟦{育|そだ}てられた→育てる：01235_sodateru⟧。",
       "english": "I was raised by my adoptive father.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "17834_youfu_ex2",
-      "japanese": "{養父|ようふ}との{関係|かんけい}は{良好|りょうこう}だった。",
+      "japanese": "{養父|ようふ}⟦と→と：00512_to⟧⟦の→の：09472_no⟧⟦{関係|かんけい}→関係：01298_kankei⟧⟦は→は：00079_ha⟧⟦{良好|りょうこう}→良好：13954_ryoukou⟧だった。",
       "english": "My relationship with my adoptive father was good.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "17834_youfu_ex3",
-      "japanese": "{養父|ようふ}は{実|じつ}の{父親|ちちおや}のように{私|わたし}を{大切|たいせつ}にしてくれた。",
+      "japanese": "{養父|ようふ}⟦は→は：00079_ha⟧⟦{実|じつ}→実：28344_jitsu⟧⟦の→の：09472_no⟧⟦{父親|ちちおや}→父親：03469_chichioya⟧⟦のように→のように：30291_noyouni⟧⟦{私|わたし}→私：02988_watashi⟧⟦を→を：00422_wo⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧にして⟦くれた→くれる：00724_kureru⟧。",
       "english": "My adoptive father treated me as preciously as a biological father would.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "{養父|ようふ} is a formal, legal term for an adoptive or foster father — a man who raises a child not biologically his own.\n\nKANJI:\n{養|よう} (nurture, adopt) + {父|ふ} (father). The character {養|よう} appears in many adoption-related words.\n\nREGISTER:\nA legal and formal term. In casual conversation, {育|そだ}ての{親|おや} (the parent who raised me) or {育|そだ}ての{父|ちち} is more natural.\n\nRELATED FAMILY TERMS:\n- {養母|ようぼ}: adoptive mother\n- {養子|ようし}: adopted child\n- {養親|ようしん}: adoptive parent\n- {実父|じっぷ}: biological father\n\nCOMMON CONFUSION:\nDo not confuse with {義父|ぎふ} (father-in-law), which refers to a spouse's father. {養父|ようふ} specifically means an adoptive/foster father.",
+  "notes": "{養父|ようふ} is a formal, legal term for an adoptive or foster father — a man who raises a child not biologically his own.\n\nWRITING:\n{養|よう} (nurture, adopt) + {父|ふ} (father). The character {養|よう} appears in many adoption-related words.\n\nREGISTER:\nA legal and formal term. In casual conversation, ⟦{育|そだ}て→育つ：01951_sodatsu⟧⟦の→の：09472_no⟧⟦{親|おや}→親：01357_oya⟧ (the parent who raised me) or ⟦{育|そだ}て→育つ：01951_sodatsu⟧⟦の→の：09472_no⟧⟦{父|ちち}→父：00566_chichi⟧ is more natural.\n\nRELATED FAMILY TERMS:\n- ⟦{養母|ようぼ}→養母：21105_youbo⟧: adoptive mother\n- ⟦{養子|ようし}→養子：14626_youshi⟧: adopted child\n- ⟦{養親|ようしん}→養親：16814_youshin⟧: adoptive parent\n- ⟦{実父|じっぷ}→実父：22861_jippu⟧: biological father\n\nWATCH OUT:\nDo not confuse with ⟦{義父|ぎふ}→義父：06725_gifu⟧ (father-in-law), which refers to a spouse's father. {養父|ようふ} specifically means an adoptive/foster father.",
   "cross_references": [
     {
       "type": "contrast",
@@ -66,11 +66,25 @@
       "reading": "ようし",
       "headword": "{養子|ようし}",
       "label": "adopted child"
+    },
+    {
+      "type": "related",
+      "target_id": "16814_youshin",
+      "reading": "ようしん",
+      "headword": "{養親|ようしん}",
+      "label": "adoptive parent"
+    },
+    {
+      "type": "related",
+      "target_id": "21076_youjo",
+      "reading": "ようじょ",
+      "headword": "{養女|ようじょ}",
+      "label": "adopted daughter"
     }
   ],
   "metadata": {
     "created": "2026-03-19T04:26:15Z",
-    "modified": "2026-05-07T08:09:41Z",
+    "modified": "2026-09-02T04:01:49Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

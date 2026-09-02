@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30324_tobinoru_ex1",
-      "japanese": "{電車|でんしゃ}に{飛|と}び{乗|の}った。",
+      "japanese": "⟦{電車|でんしゃ}→電車：00522_densha⟧⟦に→に：00314_ni⟧{飛|と}び{乗|の}った。",
       "english": "I jumped onto the train.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30324_tobinoru_ex2",
-      "japanese": "{発車|はっしゃ}まぎわのバスに{飛|と}び{乗|の}る。",
+      "japanese": "⟦{発車|はっしゃ}→発車：03694_hassha⟧まぎわ⟦の→の：09472_no⟧⟦バス→バス：00769_basu⟧⟦に→に：00314_ni⟧{飛|と}び{乗|の}る。",
       "english": "To hop onto a bus just as it is pulling out.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30324_tobinoru_ex3",
-      "japanese": "{知|し}らせを{受|う}けて、{近|ちか}くに{止|と}まっていたタクシーに{飛|と}び{乗|の}って{病院|びょういん}へ{向|む}かった。",
+      "japanese": "⟦{知|し}らせ→知らせ：03252_shirase⟧⟦を→を：00422_wo⟧⟦{受|う}けて→受ける：01215_ukeru⟧、{近|ちか}く⟦に→に：00314_ni⟧⟦{止|と}まっていた→止まる：00555_tomaru⟧⟦タクシー→タクシー：00816_takushii⟧⟦に→に：00314_ni⟧{飛|と}び{乗|の}って⟦{病院|びょういん}→病院：00577_byouin⟧⟦へ→へ：02473_he⟧⟦{向|む}かった→向かう：01186_mukau⟧。",
       "english": "On getting the news, I jumped into a taxi parked nearby and headed for the hospital.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {飛|と}ぶ (to jump, to fly) and {乗|の}る (to board, to ride). The thing boarded is marked with に.\n\nTRANSITIVITY:\nIntransitive. Takes に for the vehicle, not を: {電車|でんしゃ}に{飛|と}び{乗|の}る, never ✗{電車|でんしゃ}を{飛|と}び{乗|の}る.\n\nCOMMON COLLOCATIONS:\n- {電車|でんしゃ}に{飛|と}び{乗|の}る: to jump onto a train\n- {自転車|じてんしゃ}に{飛|と}び{乗|の}る: to hop on a bicycle\n- {馬|うま}に{飛|と}び{乗|の}る: to leap onto a horse\n\nSIMILAR WORDS:\n- {飛|と}び{降|お}りる: to jump off — the paired opposite\n- {駆|か}け{込|こ}む: to rush in — running into a train or building, without the leap",
+  "notes": "A compound of ⟦{飛|と}ぶ→飛ぶ：00759_tobu⟧ (to jump, to fly) and ⟦{乗|の}る→乗る：00511_noru⟧ (to board, to ride). The thing boarded is marked with ⟦に→に：00314_ni⟧.\n\nTRANSITIVITY:\nIntransitive. Takes ⟦に→に：00314_ni⟧ for the vehicle, not ⟦を→を：00422_wo⟧: ⟦{電車|でんしゃ}→電車：00522_densha⟧⟦に→に：00314_ni⟧{飛|と}び{乗|の}る, never ✗⟦{電車|でんしゃ}→電車：00522_densha⟧⟦を→を：00422_wo⟧{飛|と}び{乗|の}る.\n\nCOMMON COLLOCATIONS:\n- ⟦{電車|でんしゃ}→電車：00522_densha⟧⟦に→に：00314_ni⟧{飛|と}び{乗|の}る: to jump onto a train\n- ⟦{自転車|じてんしゃ}→自転車：00633_jitensha⟧⟦に→に：00314_ni⟧{飛|と}び{乗|の}る: to hop on a bicycle\n- ⟦{馬|うま}→馬：01865_uma⟧⟦に→に：00314_ni⟧{飛|と}び{乗|の}る: to leap onto a horse\n\nSIMILAR WORDS:\n- ⟦{飛|と}び{降|お}りる→飛び降りる：06734_tobioriru⟧: to jump off — the paired opposite\n- ⟦{駆|か}け{込|こ}む→駆け込む：06112_kakekomu⟧: to rush in — running into a train or building, without the leap",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06734_tobioriru",
+      "reading": "とびおりる",
+      "headword": "{飛|と}び{降|お}りる",
+      "label": "to jump off"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06112_kakekomu",
+      "reading": "かけこむ",
+      "headword": "{駆|か}け{込|こ}む",
+      "label": "to rush in"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,7 +78,7 @@
       "verb_class": "godan-ru"
     },
     "created": "2026-08-02T09:20:18Z",
-    "modified": "2026-08-02T09:20:18Z"
+    "modified": "2026-09-02T04:02:39Z"
   },
   "conjugation": {
     "type": "godan",

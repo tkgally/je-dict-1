@@ -204,7 +204,7 @@
     },
     {
       "id": "04589_kareru_ex10",
-      "japanese": "⟦{アイデア|あいであ}→アイデア：10161_aidea⟧⟦が→が：00051_ga⟧{枯|か}れた。",
+      "japanese": "⟦アイデア→アイデア：10161_aidea⟧⟦が→が：00051_ga⟧{枯|か}れた。",
       "english": "I ran out of ideas.",
       "notes": null,
       "has_audio": false,
@@ -273,7 +273,7 @@
       ]
     }
   ],
-  "notes": "{枯|か}れる is an intransitive verb (⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧). The transitive pair is ⟦{枯|か}らす→枯らす：18233_karasu⟧ (to let wither, to let dry up).\n\nASPECT (ている):\n{枯|か}れている indicates a resulting state of being withered or dried up.\n\nCOMMON PATTERNS:\n- ⟦{花|はな}→花：00523_hana⟧/⟦{草|くさ}→草：02206_kusa⟧⟦が→が：00051_ga⟧{枯|か}れる - flowers/grass withers\n- ⟦{木|き}→木：00524_ki⟧⟦が→が：00051_ga⟧{枯|か}れる - a tree dies\n- ⟦{井戸|いど}→井戸：03977_ido⟧/⟦{川|かわ}→川：02186_kawa⟧⟦が→が：00051_ga⟧{枯|か}れる - well/river dries up\n- ⟦{声|こえ}→声：02207_koe⟧⟦が→が：00051_ga⟧{枯|か}れる - voice becomes hoarse\n- ⟦{枯|か}れ{葉|は}→枯れ葉：20386_kareha⟧ - dead/fallen leaves\n\nRELATED WORDS:\n- ⟦{萎|しお}れる→萎れる：04592_shioreru⟧ - to wilt (temporary, often recoverable)\n- {枯|か}れる is more permanent than ⟦{萎|しお}れる→萎れる：04592_shioreru⟧",
+  "notes": "{枯|か}れる is an intransitive verb (⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧). The transitive pair is ⟦{枯|か}らす→枯らす：18233_karasu⟧ (to let wither, to let dry up).\n\nASPECT (ている):\n{枯|か}れて⟦いる→いる：00495_iru⟧ indicates a resulting state of being withered or dried up.\n\nCOMMON PATTERNS:\n- ⟦{花|はな}→花：00523_hana⟧/⟦{草|くさ}→草：02206_kusa⟧⟦が→が：00051_ga⟧{枯|か}れる - flowers/grass withers\n- ⟦{木|き}→木：00524_ki⟧⟦が→が：00051_ga⟧{枯|か}れる - a tree dies\n- ⟦{井戸|いど}→井戸：03977_ido⟧/⟦{川|かわ}→川：02186_kawa⟧⟦が→が：00051_ga⟧{枯|か}れる - well/river dries up\n- ⟦{声|こえ}→声：02207_koe⟧⟦が→が：00051_ga⟧{枯|か}れる - voice becomes hoarse\n- ⟦{枯|か}れ{葉|は}→枯れ葉：20386_kareha⟧ - dead/fallen leaves\n\nRELATED WORDS:\n- ⟦{萎|しお}れる→萎れる：04592_shioreru⟧ - to wilt (temporary, often recoverable)\n- {枯|か}れる is more permanent than ⟦{萎|しお}れる→萎れる：04592_shioreru⟧",
   "prominent_see_also": [
     {
       "target_id": "18233_karasu",
@@ -282,9 +282,25 @@
       "note": "transitive"
     }
   ],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "04592_shioreru",
+      "reading": "しおれる",
+      "headword": "{萎|しお}れる",
+      "label": "to wilt"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22521_shagareru",
+      "reading": "しゃがれる",
+      "headword": "しゃがれる",
+      "label": "to become hoarse"
+    }
+  ],
   "metadata": {
     "created": "2026-01-14T11:30:36Z",
-    "modified": "2026-06-01T15:45:45Z",
+    "modified": "2026-09-02T04:01:05Z",
     "vocabulary_tier": "core",
     "tags": {
       "pos": [

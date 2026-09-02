@@ -15,41 +15,76 @@
   "examples": [
     {
       "id": "19523_sekkyokusei_ex1",
-      "japanese": "{積極性|せっきょくせい}が{大切|たいせつ}だ。",
+      "japanese": "{積極性|せっきょくせい}⟦が→が：00051_ga⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧だ。",
       "english": "Initiative is important.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19523_sekkyokusei_ex2",
-      "japanese": "{彼|かれ}は{仕事|しごと}に{積極性|せっきょくせい}がある。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦に→に：00314_ni⟧{積極性|せっきょくせい}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "He shows initiative in his work.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19523_sekkyokusei_ex3",
-      "japanese": "{面接|めんせつ}では{積極性|せっきょくせい}をアピールすることが{重要|じゅうよう}だと{言|い}われている。",
+      "japanese": "⟦{面接|めんせつ}→面接：01100_mensetsu⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧{積極性|せっきょくせい}⟦を→を：00422_wo⟧⟦アピール→アピール：10701_apiiru⟧⟦する→する：00392_suru⟧こと⟦が→が：00051_ga⟧⟦{重要|じゅうよう}→重要：01575_juuyou⟧だ⟦と→と：00512_to⟧⟦{言|い}われている→言う：00515_iu⟧。",
       "english": "It is said that demonstrating proactiveness is important in job interviews.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Formed from {積極|せっきょく} (positive, proactive) + {性|せい} (nature, quality). This abstract noun is commonly used in business and educational contexts to describe a valued personal trait — the willingness to take action without being asked.\n\nCOMMON COLLOCATIONS:\n- {積極性|せっきょくせい}がある — to have initiative\n- {積極性|せっきょくせい}に{欠|か}ける — to lack initiative\n- {積極性|せっきょくせい}を{見|み}せる — to show proactiveness\n- {積極性|せっきょくせい}が{足|た}りない — to be lacking in assertiveness\n\nRELATED TERMS:\n- {積極的|せっきょくてき} — proactive, active (na-adjective form)\n- {主体性|しゅたいせい} — autonomy, independence of action; overlaps with {積極性|せっきょくせい} but emphasizes thinking for oneself\n- {消極的|しょうきょくてき} — passive, negative (the opposite attitude)\n\nUSAGE:\nOften appears in job postings, performance reviews, and school evaluations. {積極性|せっきょくせい} is consistently listed as a desirable quality in Japanese workplace culture.",
+  "notes": "Formed from {積極|せっきょく} (positive, proactive) + ⟦{性|せい}→性：09880_sei⟧ (nature, quality). This abstract noun is commonly used in business and educational contexts to describe a valued personal trait — the willingness to take action without being asked.\n\nCOMMON COLLOCATIONS:\n- {積極性|せっきょくせい}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧ — to have initiative\n- {積極性|せっきょくせい}⟦に→に：00314_ni⟧⟦{欠|か}ける→欠ける：13167_kakeru⟧ — to lack initiative\n- {積極性|せっきょくせい}⟦を→を：00422_wo⟧⟦{見|み}せる→見せる：01988_miseru⟧ — to show proactiveness\n- {積極性|せっきょくせい}⟦が→が：00051_ga⟧⟦{足|た}りない→足りる：01209_tariru⟧ — to be lacking in assertiveness\n\nRELATED WORDS:\n- ⟦{積極的|せっきょくてき}→積極的：01585_sekkyokuteki⟧ — proactive, active (na-adjective form)\n- ⟦{主体性|しゅたいせい}→主体性：16041_shutaisei⟧ — autonomy, independence of action; overlaps with {積極性|せっきょくせい} but emphasizes thinking for oneself\n- ⟦{消極的|しょうきょくてき}→消極的：04779_shoukyokuteki⟧ — passive, negative (the opposite attitude)\n\nUSAGE:\nOften appears in job postings, performance reviews, and school evaluations. {積極性|せっきょくせい} is consistently listed as a desirable quality in Japanese workplace culture.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "01585_sekkyokuteki",
+      "reading": "せっきょくてき",
+      "headword": "{積極的|せっきょくてき}",
+      "label": "proactive, active"
+    },
+    {
+      "type": "related",
+      "target_id": "16041_shutaisei",
+      "reading": "しゅたいせい",
+      "headword": "{主体性|しゅたいせい}",
+      "label": "autonomy, independence of action"
+    },
+    {
+      "type": "related",
+      "target_id": "04779_shoukyokuteki",
+      "reading": "しょうきょくてき",
+      "headword": "{消極的|しょうきょくてき}",
+      "label": "passive, negative"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "domain": ["business"],
-      "semantic": ["personality"]
+      "domain": [
+        "business"
+      ],
+      "semantic": [
+        "personality"
+      ]
     },
     "created": "2026-03-26T04:16:11Z",
-    "modified": "2026-03-26T04:16:11Z"
+    "modified": "2026-09-02T04:01:56Z"
   }
 }

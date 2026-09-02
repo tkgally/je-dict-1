@@ -15,41 +15,67 @@
   "examples": [
     {
       "id": "28232_ryuukouka_ex1",
-      "japanese": "{昔|むかし}の{流行歌|りゅうこうか}を{口|くち}ずさんだ。",
+      "japanese": "⟦{昔|むかし}→昔：01515_mukashi⟧⟦の→の：09472_no⟧{流行歌|りゅうこうか}⟦を→を：00422_wo⟧⟦{口|くち}ずさんだ→口ずさむ：18513_kuchizusamu⟧。",
       "english": "I hummed an old popular song.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28232_ryuukouka_ex2",
-      "japanese": "{母|はは}は{若|わか}いころの{流行歌|りゅうこうか}をよく{歌|うた}う。",
+      "japanese": "⟦{母|はは}→母：00549_haha⟧⟦は→は：00079_ha⟧{若|わか}い⟦ころ→〜ころ：03091_koro⟧⟦の→の：09472_no⟧{流行歌|りゅうこうか}⟦を→を：00422_wo⟧⟦よく→よく：00601_yoku⟧⟦{歌|うた}う→歌う：00684_utau⟧。",
       "english": "My mother often sings the popular songs of her youth.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28232_ryuukouka_ex3",
-      "japanese": "その{曲|きょく}は{戦後|せんご}の{流行歌|りゅうこうか}として{多|おお}くの{人|ひと}に{愛|あい}された。",
+      "japanese": "⟦その→その：00993_sono⟧⟦{曲|きょく}→曲：09881_kyoku⟧⟦は→は：00079_ha⟧⟦{戦後|せんご}→戦後：12853_sengo⟧⟦の→の：09472_no⟧{流行歌|りゅうこうか}⟦として→として：06802_toshite⟧{多|おお}く⟦の→の：09472_no⟧⟦{人|ひと}→人：00476_hito⟧⟦に→に：00314_ni⟧⟦{愛|あい}された→愛する：01811_aisuru⟧。",
       "english": "That song was loved by many as a popular song of the postwar period.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Compound of {流行|りゅうこう} (being in vogue) + {歌|か／うた} (song). Also read はやりうた, with the same meaning and a slightly more colloquial feel.\n\nCOMMON COLLOCATIONS:\n- {昔|むかし}の{流行歌|りゅうこうか}: an old popular song\n- {流行歌|りゅうこうか}を{歌|うた}う: to sing a popular song\n\nSIMILAR WORDS:\n- {歌謡曲|かようきょく}: popular song — a genre label for mainstream Japanese pop of the mid-20th century\n- ヒット{曲|きょく}: hit song — modern, neutral term for any currently or recently popular song",
+  "notes": "Compound of ⟦{流行|りゅうこう}→流行：03678_ryuukou⟧ (being in vogue) + {歌|か／うた} (song). Also read はやりうた, with the same meaning and a slightly more colloquial feel.\n\nCOMMON COLLOCATIONS:\n- ⟦{昔|むかし}→昔：01515_mukashi⟧⟦の→の：09472_no⟧{流行歌|りゅうこうか}: an old popular song\n- {流行歌|りゅうこうか}⟦を→を：00422_wo⟧⟦{歌|うた}う→歌う：00684_utau⟧: to sing a popular song\n\nSIMILAR WORDS:\n- ⟦{歌謡曲|かようきょく}→歌謡曲：20396_kayoukyoku⟧: popular song — a genre label for mainstream Japanese pop of the mid-20th century\n- ⟦ヒット{曲|きょく}→ヒット曲：25764_hittokyoku⟧: hit song — modern, neutral term for any currently or recently popular song",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20396_kayoukyoku",
+      "reading": "かようきょく",
+      "headword": "{歌謡曲|かようきょく}",
+      "label": "popular song"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25764_hittokyoku",
+      "reading": "ひっときょく",
+      "headword": "ヒット{曲|きょく}",
+      "label": "hit song"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["leisure"],
+      "semantic": [
+        "leisure"
+      ],
       "domain": []
     },
     "created": "2026-05-27T04:08:18Z",
-    "modified": "2026-05-27T04:08:18Z"
+    "modified": "2026-09-02T04:02:33Z"
   }
 }

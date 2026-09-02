@@ -3,7 +3,7 @@
   "id": "12495_chouai",
   "headword": "{寵愛|ちょうあい}",
   "reading": "ちょうあい",
-  "part_of_speech": "noun / suru verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "favor, patronage, doting",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "12495_chouai_ex1",
-      "japanese": "{王|おう}は{若|わか}い{妃|きさき}を{寵愛|ちょうあい}した。",
+      "japanese": "⟦{王|おう}→王：19353_ou⟧⟦は→は：00079_ha⟧{若|わか}い⟦{妃|きさき}→妃：14750_kisaki⟧⟦を→を：00422_wo⟧{寵愛|ちょうあい}⟦した→する：00392_suru⟧。",
       "english": "The king doted on his young queen.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "12495_chouai_ex2",
-      "japanese": "{殿様|とのさま}の{寵愛|ちょうあい}を{受|う}けた{家臣|かしん}は{出世|しゅっせ}が{早|はや}かった。",
+      "japanese": "⟦{殿様|とのさま}→殿様：10455_tonosama⟧⟦の→の：09472_no⟧{寵愛|ちょうあい}⟦を→を：00422_wo⟧⟦{受|う}けた→受ける：01215_ukeru⟧⟦{家臣|かしん}→家臣：12655_kashin⟧⟦は→は：00079_ha⟧⟦{出世|しゅっせ}→出世：08359_shusse⟧⟦が→が：00051_ga⟧⟦{早|はや}かった→早い：00514_hayai⟧。",
       "english": "The retainer who received the lord's favor was promoted quickly.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "12495_chouai_ex3",
-      "japanese": "{彼女|かのじょ}は{父親|ちちおや}に{寵愛|ちょうあい}されて{育|そだ}ったため、わがままなところがある。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧⟦{父親|ちちおや}→父親：03469_chichioya⟧⟦に→に：00314_ni⟧{寵愛|ちょうあい}⟦されて→する：00392_suru⟧⟦{育|そだ}った→育つ：01951_sodatsu⟧⟦ため→ため：01145_tame⟧、⟦わがまま→わがまま：03789_wagamama⟧な⟦ところ→ところ：01137_tokoro⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "Because she was doted on by her father growing up, she has a spoiled side.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,11 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA literary word with historical associations. Originally described the favor of rulers, nobles, or other powerful figures toward particular subordinates or consorts. In modern usage, it can describe any strong favoritism or doting, though it retains a somewhat elevated tone. Can be used as a noun ({寵愛|ちょうあい}を{受|う}ける) or as a suru verb ({寵愛|ちょうあい}する).\n\nCOMMON COLLOCATIONS:\n- {寵愛|ちょうあい}を{受|う}ける: to receive favor\n- {寵愛|ちょうあい}する: to dote on, to favor\n- {寵愛|ちょうあい}を{一身|いっしん}に{集|あつ}める: to monopolize someone's affection",
+  "notes": "USAGE:\nA literary word with historical associations. Originally described the favor of rulers, nobles, or other powerful figures toward particular subordinates or consorts. In modern usage, it can describe any strong favoritism or doting, though it retains a somewhat elevated tone. Can be used as a noun ({寵愛|ちょうあい}⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧) or as a suru verb ({寵愛|ちょうあい}⟦する→する：00392_suru⟧).\n\nCOMMON COLLOCATIONS:\n- {寵愛|ちょうあい}⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧: to receive favor\n- {寵愛|ちょうあい}⟦する→する：00392_suru⟧: to dote on, to favor\n- {寵愛|ちょうあい}⟦を→を：00422_wo⟧{一身|いっしん}⟦に→に：00314_ni⟧⟦{集|あつ}める→集める：01170_atsumeru⟧: to monopolize someone's affection",
   "cross_references": [],
   "metadata": {
     "created": "2026-02-21T11:01:55Z",
-    "modified": "2026-03-29T03:07:35Z",
+    "modified": "2026-09-02T04:01:29Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -155,7 +155,8 @@
         "written",
         "literary"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

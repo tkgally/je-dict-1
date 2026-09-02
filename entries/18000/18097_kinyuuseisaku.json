@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "18097_kinyuuseisaku_ex1",
-      "japanese": "{金融|きんゆう}{政策|せいさく}を{見直|みなお}す。",
+      "japanese": "{金融|きんゆう}{政策|せいさく}⟦を→を：00422_wo⟧⟦{見直|みなお}す→見直す：04579_minaosu⟧。",
       "english": "To review monetary policy.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "18097_kinyuuseisaku_ex2",
-      "japanese": "{日本|にほん}{銀行|ぎんこう}が{金融|きんゆう}{政策|せいさく}の{変更|へんこう}を{発表|はっぴょう}した。",
+      "japanese": "{日本|にほん}{銀行|ぎんこう}⟦が→が：00051_ga⟧{金融|きんゆう}{政策|せいさく}⟦の→の：09472_no⟧⟦{変更|へんこう}→変更：03616_henkou⟧⟦を→を：00422_wo⟧⟦{発表|はっぴょう}した→発表する：25231_happyousuru⟧。",
       "english": "The Bank of Japan announced a change in monetary policy.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA frequent term in Japanese economic news. Japan's monetary policy decisions by the Bank of Japan are closely watched both domestically and internationally.\n\nCOMMON COLLOCATIONS:\n- {金融|きんゆう}{緩和|かんわ}{政策|せいさく} (monetary easing policy)\n- {金融|きんゆう}{引|ひ}き{締|し}め{政策|せいさく} (monetary tightening policy)\n- {金融|きんゆう}{政策|せいさく}{決定|けってい}{会合|かいごう} (monetary policy decision meeting)\n\nSIMILAR WORDS:\n- {財政|ざいせい}{政策|せいさく}: fiscal policy — government spending and taxation decisions, as opposed to central bank monetary controls",
+  "notes": "USAGE:\nA frequent term in Japanese economic news. Japan's monetary policy decisions by the Bank of Japan are closely watched both domestically and internationally.\n\nCOMMON COLLOCATIONS:\n- ⟦{金融|きんゆう}{緩和|かんわ}→金融緩和：24263_kinyuukanwa⟧⟦{政策|せいさく}→政策：10070_seisaku⟧ (monetary easing policy)\n- ⟦{金融|きんゆう}{引|ひ}き{締|し}め→金融引き締め：26659_kinyuuhikishime⟧⟦{政策|せいさく}→政策：10070_seisaku⟧ (monetary tightening policy)\n- {金融|きんゆう}{政策|せいさく}⟦{決定|けってい}→決定：02701_kettei⟧⟦{会合|かいごう}→会合：02605_kaigou⟧ (monetary policy decision meeting)\n\nSIMILAR WORDS:\n- ⟦{財政|ざいせい}{政策|せいさく}→財政政策：26281_zaiseiseisaku⟧: fiscal policy — government spending and taxation decisions, as opposed to central bank monetary controls",
   "cross_references": [
     {
       "type": "contrast",
@@ -42,11 +42,25 @@
       "reading": "ざいせいせいさく",
       "headword": "{財政|ざいせい}{政策|せいさく}",
       "label": "fiscal policy"
+    },
+    {
+      "type": "related",
+      "target_id": "10141_nipponginkou",
+      "reading": "にっぽんぎんこう",
+      "headword": "{日本銀行|にっぽんぎんこう}",
+      "label": "Bank of Japan"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21753_keizaiseisaku",
+      "reading": "けいざいせいさく",
+      "headword": "{経済政策|けいざいせいさく}",
+      "label": "economic policy"
     }
   ],
   "metadata": {
     "created": "2026-03-20T02:41:17Z",
-    "modified": "2026-06-12T12:41:12Z",
+    "modified": "2026-09-02T04:01:50Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

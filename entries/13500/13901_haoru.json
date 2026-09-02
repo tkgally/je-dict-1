@@ -3,7 +3,7 @@
   "id": "13901_haoru",
   "headword": "{羽織|はお}る",
   "reading": "はおる",
-  "part_of_speech": "godan verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to throw on, to drape over one's shoulders",
   "conjugation": {
     "type": "godan",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "13901_haoru_ex1",
-      "japanese": "カーディガンを{羽織|はお}る。",
+      "japanese": "⟦カーディガン→カーディガン：04520_kaadigan⟧⟦を→を：00422_wo⟧{羽織|はお}る。",
       "english": "To throw on a cardigan.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "13901_haoru_ex2",
-      "japanese": "{寒|さむ}くなったので{上着|うわぎ}を{羽織|はお}った。",
+      "japanese": "⟦{寒|さむ}く→寒い：00664_samui⟧⟦なった→なる：01970_naru⟧⟦の→の：09472_no⟧で⟦{上着|うわぎ}→上着：01066_uwagi⟧⟦を→を：00422_wo⟧{羽織|はお}った。",
       "english": "It got cold, so I threw on a jacket.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "13901_haoru_ex3",
-      "japanese": "{肩|かた}にブランケットを{羽織|はお}って、ソファで{映画|えいが}を{見|み}た。",
+      "japanese": "⟦{肩|かた}→肩：02192_kata⟧⟦に→に：00314_ni⟧ブランケット⟦を→を：00422_wo⟧{羽織|はお}って、⟦ソファ→ソファ：04485_sofa⟧⟦で→で：00502_de⟧⟦{映画|えいが}→映画：02273_eiga⟧⟦を→を：00422_wo⟧⟦{見|み}た→見る：00283_miru⟧。",
       "english": "I draped a blanket over my shoulders and watched a movie on the sofa.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,26 @@
       ]
     }
   ],
-  "notes": "Godan verb ({五段動詞|ごだんどうし}), る-ending.\n- Negative: {羽織|はお}らない\n- Polite: {羽織|はお}ります\n- Te-form: {羽織|はお}って\n- Past: {羽織|はお}った\n\nUSAGE:\nUsed specifically for outer garments or coverings worn loosely over the shoulders. Not used for putting on pants, shoes, or tightly fitted clothing. The related noun {羽織|はおり} is a traditional Japanese jacket worn over a kimono.\n\nCOMMON COLLOCATIONS:\n- {上着|うわぎ}を{羽織|はお}る: to throw on a jacket\n- コートを{羽織|はお}る: to throw on a coat\n- {肩|かた}に{羽織|はお}る: to drape over one's shoulders",
-  "cross_references": [],
+  "notes": "Godan verb ({五段動詞|ごだんどうし}), る-ending.\n- Negative: {羽織|はお}らない\n- Polite: {羽織|はお}ります\n- Te-form: {羽織|はお}って\n- Past: {羽織|はお}った\n\nUSAGE:\nUsed specifically for outer garments or coverings worn loosely over the shoulders. Not used for putting on pants, shoes, or tightly fitted clothing. The related noun ⟦{羽織|はおり}→羽織：05712_haori⟧ is a traditional Japanese jacket worn over a kimono.\n\nCOMMON COLLOCATIONS:\n- ⟦{上着|うわぎ}→上着：01066_uwagi⟧⟦を→を：00422_wo⟧{羽織|はお}る: to throw on a jacket\n- ⟦コート→コート：01358_kooto⟧⟦を→を：00422_wo⟧{羽織|はお}る: to throw on a coat\n- ⟦{肩|かた}→肩：02192_kata⟧⟦に→に：00314_ni⟧{羽織|はお}る: to drape over one's shoulders",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "01066_uwagi",
+      "reading": "うわぎ",
+      "headword": "{上着|うわぎ}",
+      "label": "jacket, coat"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26962_kikomu",
+      "reading": "きこむ",
+      "headword": "{着込|きこ}む",
+      "label": "to bundle up"
+    }
+  ],
   "metadata": {
     "created": "2026-02-27T06:32:19Z",
-    "modified": "2026-03-29T03:07:35Z",
+    "modified": "2026-09-02T04:01:35Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

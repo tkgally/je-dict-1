@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30134_tetsuki_ex1",
-      "japanese": "{慣|な}れた{手|て}つきで{魚|さかな}をさばく。",
+      "japanese": "⟦{慣|な}れた→慣れる：00870_nareru⟧{手|て}つき⟦で→で：00502_de⟧⟦{魚|さかな}→魚：00499_sakana⟧⟦を→を：00422_wo⟧さばく。",
       "english": "To fillet a fish with practiced hands.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30134_tetsuki_ex2",
-      "japanese": "{危|あぶ}なっかしい{手|て}つきで{包丁|ほうちょう}を{使|つか}っている。",
+      "japanese": "{危|あぶ}なっかしい{手|て}つき⟦で→で：00502_de⟧⟦{包丁|ほうちょう}→包丁：04976_houchou⟧⟦を→を：00422_wo⟧⟦{使|つか}っている→使う：00473_tsukau⟧。",
       "english": "He is using the kitchen knife with an alarmingly clumsy grip.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30134_tetsuki_ex3",
-      "japanese": "{彼女|かのじょ}は{優|やさ}しい{手|て}つきで{赤|あか}ちゃんを{抱|だ}き{上|あ}げ、そっと{布団|ふとん}に{寝|ね}かせた。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧{優|やさ}しい{手|て}つき⟦で→で：00502_de⟧⟦{赤|あか}ちゃん→赤ちゃん：01282_akachan⟧⟦を→を：00422_wo⟧{抱|だ}き{上|あ}げ、⟦そっと→そっと：03321_sotto⟧⟦{布団|ふとん}→布団：01720_futon⟧⟦に→に：00314_ni⟧⟦{寝|ね}かせた→寝かせる：12322_nekaseru⟧。",
       "english": "She picked the baby up with gentle hands and laid it softly on the futon.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Nearly always appears as 「{modifier}な{手|て}つきで」 describing how an action is performed. It is about the look of the movement, not about the hands themselves.\n\nCOMMON COLLOCATIONS:\n- {慣|な}れた{手|て}つき: practiced, assured hand movements\n- {危|あぶ}なっかしい{手|て}つき: clumsy, unsafe-looking handling\n- {優|やさ}しい{手|て}つき: gentle hands\n- {鮮|あざ}やかな{手|て}つき: deft, impressive handling\n\nSIMILAR WORDS:\n- {手|て}さばき: handling, dexterity — emphasizes technique and speed, typically praising skill\n- {仕草|しぐさ}: gesture, mannerism — any bodily movement or habit, not limited to the hands",
+  "notes": "Nearly always appears as 「{modifier}な{手|て}つき⟦で→で：00502_de⟧」 describing how an action is performed. It is about the look of the movement, not about the hands themselves.\n\nCOMMON COLLOCATIONS:\n- ⟦{慣|な}れた→慣れる：00870_nareru⟧{手|て}つき: practiced, assured hand movements\n- {危|あぶ}なっかしい{手|て}つき: clumsy, unsafe-looking handling\n- {優|やさ}しい{手|て}つき: gentle hands\n- ⟦{鮮|あざ}やか→鮮やか：05702_azayaka⟧な{手|て}つき: deft, impressive handling\n\nSIMILAR WORDS:\n- ⟦{手|て}さばき→手さばき：30146_tesabaki⟧: handling, dexterity — emphasizes technique and speed, typically praising skill\n- ⟦{仕草|しぐさ}→仕草：10917_shigusa⟧: gesture, mannerism — any bodily movement or habit, not limited to the hands",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "30146_tesabaki",
+      "reading": "てさばき",
+      "headword": "{手|て}さばき",
+      "label": "handling, dexterity"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10917_shigusa",
+      "reading": "しぐさ",
+      "headword": "{仕草|しぐさ}",
+      "label": "gesture, mannerism"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +69,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "body-part",
         "movement"
@@ -61,6 +77,6 @@
       "domain": []
     },
     "created": "2026-07-26T12:19:17Z",
-    "modified": "2026-07-26T12:19:17Z"
+    "modified": "2026-09-02T04:02:38Z"
   }
 }

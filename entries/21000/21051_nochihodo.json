@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21051_nochihodo_ex1",
-      "japanese": "{後程|のちほど}ご{連絡|れんらく}します。",
+      "japanese": "{後程|のちほど}ご⟦{連絡|れんらく}します→連絡する：20202_renrakusuru⟧。",
       "english": "I will contact you later.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21051_nochihodo_ex2",
-      "japanese": "{資料|しりょう}は{後程|のちほど}お{送|おく}りいたします。",
+      "japanese": "⟦{資料|しりょう}→資料：04166_shiryou⟧⟦は→は：00079_ha⟧{後程|のちほど}お⟦{送|おく}り→送る：00742_okuru⟧⟦いたします→いたす：01314_itasu⟧。",
       "english": "I will send you the materials later.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21051_nochihodo_ex3",
-      "japanese": "{詳|くわ}しいことは{後程|のちほど}{改|あらた}めてご{説明|せつめい}させていただきます。",
+      "japanese": "⟦{詳|くわ}しい→詳しい：02483_kuwashii⟧こと⟦は→は：00079_ha⟧{後程|のちほど}{改|あらた}めてご⟦{説明|せつめい}→説明：01449_setsumei⟧⟦させて→する：00392_suru⟧⟦いただきます→いただく：01326_itadaku⟧。",
       "english": "I will explain the details properly at a later time.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "A polite, somewhat formal adverb meaning 'later.' Very common in business Japanese, customer service, and formal spoken contexts. Typically implies the action will take place relatively soon — within hours rather than days.\n\nREGISTER:\nMore formal than {後|あと}で, which is the casual equivalent. {後程|のちほど} is standard in business emails, phone calls, and formal speech.\n\nCOMMON COLLOCATIONS:\n- {後程|のちほど}ご{連絡|れんらく}します: I'll contact you later\n- {後程|のちほど}お{送|おく}りします: I'll send it later\n- {後程|のちほど}{改|あらた}めて: again at a later time (even more formal)\n- {後程|のちほど}お{伺|うかが}いします: I'll visit later (humble)\n\nSIMILAR WORDS:\n- {後|あと}で: later — casual, everyday equivalent\n- {後日|ごじつ}: at a later date — implies a different day, more formal\n- {改|あらた}めて: again, on another occasion — focuses on doing something over properly",
+  "notes": "A polite, somewhat formal adverb meaning 'later.' Very common in business Japanese, customer service, and formal spoken contexts. Typically implies the action will take place relatively soon — within hours rather than days.\n\nREGISTER:\nMore formal than ⟦{後|あと}→後：09580_ato⟧⟦で→で：00502_de⟧, which is the casual equivalent. {後程|のちほど} is standard in business emails, phone calls, and formal speech.\n\nCOMMON COLLOCATIONS:\n- {後程|のちほど}ご⟦{連絡|れんらく}します→連絡する：20202_renrakusuru⟧: I'll contact you later\n- {後程|のちほど}お⟦{送|おく}り→送る：00742_okuru⟧⟦します→する：00392_suru⟧: I'll send it later\n- {後程|のちほど}{改|あらた}めて: again at a later time (even more formal)\n- {後程|のちほど}お{伺|うかが}い⟦します→する：00392_suru⟧: I'll visit later (humble)\n\nSIMILAR WORDS:\n- ⟦{後|あと}→後：09580_ato⟧⟦で→で：00502_de⟧: later — casual, everyday equivalent\n- ⟦{後日|ごじつ}→後日：12510_gojitsu⟧: at a later date — implies a different day, more formal\n- {改|あらた}めて: again, on another occasion — focuses on doing something over properly",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00920_atode",
+      "reading": "あとで",
+      "headword": "{後|あと}で",
+      "label": "later"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12510_gojitsu",
+      "reading": "ごじつ",
+      "headword": "{後日|ごじつ}",
+      "label": "at a later date"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08526_aratamete",
+      "reading": "あらためて",
+      "headword": "{改|あらた}めて",
+      "label": "again, on another occasion"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +82,6 @@
       ]
     },
     "created": "2026-03-31T16:18:11Z",
-    "modified": "2026-07-29T00:22:41Z"
+    "modified": "2026-09-02T04:02:02Z"
   }
 }

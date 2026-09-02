@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "19636_seigensuru_ex1",
-      "japanese": "{速度|そくど}を{制限|せいげん}する。",
+      "japanese": "⟦{速度|そくど}→速度：03319_sokudo⟧⟦を→を：00422_wo⟧{制限|せいげん}する。",
       "english": "To limit the speed.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "19636_seigensuru_ex2",
-      "japanese": "{一日|いちにち}のカロリー{摂取|せっしゅ}を{制限|せいげん}する。",
+      "japanese": "⟦{一日|いちにち}→一日：00942_ichinichi⟧⟦の→の：09472_no⟧⟦カロリー→カロリー：06109_karorii⟧⟦{摂取|せっしゅ}→摂取：09322_sesshu⟧⟦を→を：00422_wo⟧{制限|せいげん}する。",
       "english": "To restrict daily calorie intake.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "19636_seigensuru_ex3",
-      "japanese": "このアプリは{子供|こども}の{使用|しよう}{時間|じかん}を{制限|せいげん}する{機能|きのう}がある。",
+      "japanese": "⟦この→この：00962_kono⟧⟦アプリ→アプリ：04722_apuri⟧⟦は→は：00079_ha⟧⟦{子供|こども}→子供：00554_kodomo⟧⟦の→の：09472_no⟧⟦{使用|しよう}→使用：01637_shiyou⟧⟦{時間|じかん}→時間：00468_jikan⟧⟦を→を：00422_wo⟧{制限|せいげん}する⟦{機能|きのう}→機能：13165_kinou⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "This app has a function to limit children's usage time.",
       "sense_numbers": [
         1
@@ -134,11 +134,40 @@
       "notes": null
     }
   ],
-  "notes": "Emphasizes setting a numerical or measurable cap. The noun form {制限|せいげん} is very common in everyday life.\n\nCOMMON COLLOCATIONS:\n- {速度|そくど}{制限|せいげん}: speed limit\n- {年齢|ねんれい}{制限|せいげん}: age restriction\n- {時間|じかん}{制限|せいげん}: time limit\n- {制限|せいげん}{速度|そくど}: restricted speed\n- {食事|しょくじ}{制限|せいげん}: dietary restriction\n- {制限|せいげん}なく: without restriction\n\nSIMILAR WORDS:\n- {限定|げんてい}する: to limit — narrows scope or target group (members only, limited edition)\n- {制限|せいげん}する: to restrict — sets a numerical cap or upper bound (speed limit, time limit)\n- {規制|きせい}する: to regulate — imposes official rules and controls",
-  "cross_references": [],
+  "notes": "Emphasizes setting a numerical or measurable cap. The noun form ⟦{制限|せいげん}→制限：03375_seigen⟧ is very common in everyday life.\n\nCOMMON COLLOCATIONS:\n- ⟦{速度|そくど}{制限|せいげん}→速度制限：15738_sokudoseigen⟧: speed limit\n- ⟦{年齢|ねんれい}{制限|せいげん}→年齢制限：17929_nenreiseigen⟧: age restriction\n- ⟦{時間|じかん}{制限|せいげん}→時間制限：26085_jikanseigen⟧: time limit\n- ⟦{制限|せいげん}{速度|そくど}→制限速度：26875_seigensokudo⟧: restricted speed\n- ⟦{食事|しょくじ}→食事：02087_shokuji⟧⟦{制限|せいげん}→制限：03375_seigen⟧: dietary restriction\n- ⟦{制限|せいげん}→制限：03375_seigen⟧⟦なく→ない：01118_nai⟧: without restriction\n\nSIMILAR WORDS:\n- ⟦{限定|げんてい}する→限定する：19626_genteisuru⟧: to limit — narrows scope or target group (members only, limited edition)\n- {制限|せいげん}する: to restrict — sets a numerical cap or upper bound (speed limit, time limit)\n- ⟦{規制|きせい}する→規制する：19635_kiseisuru⟧: to regulate — imposes official rules and controls",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19626_genteisuru",
+      "reading": "げんていする",
+      "headword": "{限定|げんてい}する",
+      "label": "to limit"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19635_kiseisuru",
+      "reading": "きせいする",
+      "headword": "{規制|きせい}する",
+      "label": "to regulate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19600_kinzuru",
+      "reading": "きんずる",
+      "headword": "{禁|きん}ずる",
+      "label": "to forbid"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22145_kinshisuru",
+      "reading": "きんしする",
+      "headword": "{禁止|きんし}する",
+      "label": "to prohibit"
+    }
+  ],
   "metadata": {
     "created": "2026-03-26T09:36:34Z",
-    "modified": "2026-03-29T03:08:58Z",
+    "modified": "2026-09-02T04:01:56Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

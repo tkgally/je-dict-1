@@ -3,7 +3,7 @@
   "headword": "{除去|じょきょ}する",
   "reading": "じょきょする",
   "romaji": "jokyosuru",
-  "part_of_speech": "verb",
+  "part_of_speech": "suru verb",
   "gloss": "to remove; to eliminate; to get rid of",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22368_jokyosuru_ex1",
-      "japanese": "{汚|よご}れを{除去|じょきょ}する。",
+      "japanese": "⟦{汚|よご}れ→汚れ：03186_yogore⟧⟦を→を：00422_wo⟧{除去|じょきょ}する。",
       "english": "To remove the dirt.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22368_jokyosuru_ex2",
-      "japanese": "{不純物|ふじゅんぶつ}を{除去|じょきょ}する{必要|ひつよう}がある。",
+      "japanese": "⟦{不純物|ふじゅんぶつ}→不純物：15163_fujunbutsu⟧⟦を→を：00422_wo⟧{除去|じょきょ}する⟦{必要|ひつよう}→必要：00846_hitsuyou⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "It is necessary to remove the impurities.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22368_jokyosuru_ex3",
-      "japanese": "この{装置|そうち}は{空気中|くうきちゅう}の{有害|ゆうがい}{物質|ぶっしつ}を{除去|じょきょ}することができる。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{装置|そうち}→装置：03318_souchi⟧⟦は→は：00079_ha⟧{空気中|くうきちゅう}⟦の→の：09472_no⟧⟦{有害|ゆうがい}{物質|ぶっしつ}→有害物質：22132_yuugaibusshitsu⟧⟦を→を：00422_wo⟧{除去|じょきょ}すること⟦が→が：00051_ga⟧⟦できる→できる：00557_dekiru⟧。",
       "english": "This device can remove harmful substances from the air.",
       "sense_numbers": [
         1
@@ -44,8 +44,45 @@
       "notes": null
     }
   ],
-  "notes": "Focuses on removing something unwanted or harmful to restore a clean or safe state. The thing being removed is typically something negative: dirt, contaminants, obstacles, or hazards.\n\nCOMMON COLLOCATIONS:\n- {汚|よご}れを{除去|じょきょ}する: to remove dirt/stains\n- {不純物|ふじゅんぶつ}を{除去|じょきょ}する: to remove impurities\n- {障害|しょうがい}を{除去|じょきょ}する: to remove obstacles\n- {地雷|じらい}を{除去|じょきょ}する: to clear landmines\n- {除去|じょきょ}{作業|さぎょう}: removal work\n\nSIMILAR WORDS:\n- {取|と}り{除|のぞ}く: to remove — everyday equivalent, less formal\n- {排除|はいじょ}する: to exclude / to eliminate — stronger nuance of forcefully driving out; often used for people or abstract threats\n- {撤去|てっきょ}する: to remove / to dismantle — specifically for removing installed structures or equipment\n- {削除|さくじょ}する: to delete — specifically for removing data, text, or digital content\n\nREGISTER:\nFormal. Common in technical, scientific, and official contexts. In everyday speech, {取|と}り{除|のぞ}く or {取|と}る are more natural.",
+  "notes": "Focuses on removing something unwanted or harmful to restore a clean or safe state. The thing being removed is typically something negative: dirt, contaminants, obstacles, or hazards.\n\nCOMMON COLLOCATIONS:\n- ⟦{汚|よご}れ→汚れ：03186_yogore⟧⟦を→を：00422_wo⟧{除去|じょきょ}する: to remove dirt/stains\n- ⟦{不純物|ふじゅんぶつ}→不純物：15163_fujunbutsu⟧⟦を→を：00422_wo⟧{除去|じょきょ}する: to remove impurities\n- ⟦{障害|しょうがい}→障害：03228_shougai⟧⟦を→を：00422_wo⟧{除去|じょきょ}する: to remove obstacles\n- ⟦{地雷|じらい}→地雷：22476_jirai⟧⟦を→を：00422_wo⟧{除去|じょきょ}する: to clear landmines\n- ⟦{除去|じょきょ}→除去：14567_jokyo⟧⟦{作業|さぎょう}→作業：02775_sagyou⟧: removal work\n\nSIMILAR WORDS:\n- ⟦{取|と}り{除|のぞ}く→取り除く：04222_torinozoku⟧: to remove — everyday equivalent, less formal\n- ⟦{排除|はいじょ}→排除：07631_haijo⟧⟦する→する：00392_suru⟧: to exclude / to eliminate — stronger nuance of forcefully driving out; often used for people or abstract threats\n- ⟦{撤去|てっきょ}する→撤去する：21321_tekkyosuru⟧: to remove / to dismantle — specifically for removing installed structures or equipment\n- ⟦{削除|さくじょ}→削除：04171_sakujo⟧⟦する→する：00392_suru⟧: to delete — specifically for removing data, text, or digital content\n\nREGISTER:\nFormal. Common in technical, scientific, and official contexts. In everyday speech, ⟦{取|と}り{除|のぞ}く→取り除く：04222_torinozoku⟧ or ⟦{取|と}る→取る：00565_toru⟧ are more natural.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04222_torinozoku",
+      "reading": "とりのぞく",
+      "headword": "{取|と}り{除|のぞ}く",
+      "label": "to remove"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07631_haijo",
+      "reading": "はいじょ",
+      "headword": "{排除|はいじょ}",
+      "label": "to exclude / to eliminate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21321_tekkyosuru",
+      "reading": "てっきょする",
+      "headword": "{撤去|てっきょ}する",
+      "label": "to remove / to dismantle"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04171_sakujo",
+      "reading": "さくじょ",
+      "headword": "{削除|さくじょ}",
+      "label": "to delete"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21319_kujosuru",
+      "reading": "くじょする",
+      "headword": "{駆除|くじょ}する",
+      "label": "to exterminate"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -57,10 +94,11 @@
       "semantic": [
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-04-05T20:07:36Z",
-    "modified": "2026-04-05T20:07:36Z"
+    "modified": "2026-09-02T04:02:07Z"
   },
   "conjugation": {
     "type": "suru",

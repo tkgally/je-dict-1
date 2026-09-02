@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22749_kagakuseni_ex1",
-      "japanese": "このシャツは{化学繊維|かがくせんい}でできている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦シャツ→シャツ：01052_shatsu⟧⟦は→は：00079_ha⟧{化学繊維|かがくせんい}⟦で→で：00502_de⟧⟦できている→できる：00557_dekiru⟧。",
       "english": "This shirt is made of synthetic fiber.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22749_kagakuseni_ex2",
-      "japanese": "{化学繊維|かがくせんい}は{乾|かわ}きやすいのが{特徴|とくちょう}だ。",
+      "japanese": "{化学繊維|かがくせんい}⟦は→は：00079_ha⟧⟦{乾|かわ}き→乾く：00786_kawaku⟧やすい⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦{特徴|とくちょう}→特徴：03456_tokuchou⟧だ。",
       "english": "A characteristic of synthetic fibers is that they dry quickly.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22749_kagakuseni_ex3",
-      "japanese": "{天然繊維|てんねんせんい}と{化学繊維|かがくせんい}を{混|ま}ぜた{素材|そざい}が{多|おお}く{使|つか}われている。",
+      "japanese": "{天然繊維|てんねんせんい}⟦と→と：00512_to⟧{化学繊維|かがくせんい}⟦を→を：00422_wo⟧⟦{混|ま}ぜた→混ぜる：02423_mazeru⟧⟦{素材|そざい}→素材：09492_sozai⟧⟦が→が：00051_ga⟧⟦{多|おお}く→多い：01127_ooi⟧⟦{使|つか}われている→使う：00473_tsukau⟧。",
       "english": "Materials that blend natural and synthetic fibers are widely used.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {化学|かがく} ('chemistry') and {繊維|せんい} ('fiber'). Often abbreviated to {化繊|かせん} in everyday speech. Covers a broad category including polyester (ポリエステル), nylon (ナイロン), acrylic (アクリル), and rayon (レーヨン). Commonly encountered when shopping for clothing or discussing textiles.\n\nCOMMON COLLOCATIONS:\n- {化学繊維|かがくせんい}の{服|ふく}: synthetic clothing\n- {化学繊維|かがくせんい}{製|せい}: made of synthetic fiber\n- {合成|ごうせい}{繊維|せんい}: synthetic fiber (near-synonym)\n\nSIMILAR WORDS:\n- {化繊|かせん}: synthetic fiber — the common abbreviation\n- {天然繊維|てんねんせんい}: natural fiber — the opposite: cotton, wool, silk, etc.\n- {合成繊維|ごうせいせんい}: synthetic fiber — a near-synonym that specifically refers to fully artificial fibers (excluding semi-synthetics like rayon)",
+  "notes": "A compound of ⟦{化学|かがく}→化学：05336_kagaku_chem⟧ ('chemistry') and ⟦{繊維|せんい}→繊維：13857_seni⟧ ('fiber'). Often abbreviated to {化繊|かせん} in everyday speech. Covers a broad category including polyester (⟦ポリエステル→ポリエステル：26376_poriesuteru⟧), nylon (⟦ナイロン→ナイロン：20177_nairon⟧), acrylic (⟦アクリル→アクリル：28698_akuriru⟧), and rayon (レーヨン). Commonly encountered when shopping for clothing or discussing textiles.\n\nCOMMON COLLOCATIONS:\n- {化学繊維|かがくせんい}⟦の→の：09472_no⟧⟦{服|ふく}→服：00695_fuku⟧: synthetic clothing\n- {化学繊維|かがくせんい}⟦{製|せい}→〜製：02001_sei⟧: made of synthetic fiber\n- ⟦{合成|ごうせい}{繊維|せんい}→合成繊維：22280_gouseiseni⟧: synthetic fiber (near-synonym)\n\nSIMILAR WORDS:\n- {化繊|かせん}: synthetic fiber — the common abbreviation\n- {天然繊維|てんねんせんい}: natural fiber — the opposite: cotton, wool, silk, etc.\n- ⟦{合成繊維|ごうせいせんい}→合成繊維：22280_gouseiseni⟧: synthetic fiber — a near-synonym that specifically refers to fully artificial fibers (excluding semi-synthetics like rayon)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22280_gouseiseni",
+      "reading": "ごうせいせんい",
+      "headword": "{合成繊維|ごうせいせんい}",
+      "label": "synthetic fiber"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +69,6 @@
       "politeness": "plain"
     },
     "created": "2026-04-07T14:16:30Z",
-    "modified": "2026-07-30T15:49:39Z"
+    "modified": "2026-09-02T04:02:09Z"
   }
 }

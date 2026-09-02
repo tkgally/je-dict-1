@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "18644_uramon_ex1",
-      "japanese": "{裏門|うらもん}から{入|はい}った。",
+      "japanese": "{裏門|うらもん}⟦から→から：00504_kara⟧⟦{入|はい}った→入る：00494_hairu⟧。",
       "english": "I entered through the back gate.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "18644_uramon_ex2",
-      "japanese": "{学校|がっこう}の{裏門|うらもん}は{放課後|ほうかご}に{閉|し}まる。",
+      "japanese": "⟦{学校|がっこう}→学校：00055_gakkou⟧⟦の→の：09472_no⟧{裏門|うらもん}⟦は→は：00079_ha⟧⟦{放課後|ほうかご}→放課後：12720_houkago⟧⟦に→に：00314_ni⟧⟦{閉|し}まる→閉まる：00754_shimaru⟧。",
       "english": "The school's back gate closes after school hours.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "18644_uramon_ex3",
-      "japanese": "{工事|こうじ}{中|ちゅう}のため{正門|せいもん}は{使|つか}えず、{裏門|うらもん}を{利用|りよう}してください。",
+      "japanese": "⟦{工事|こうじ}{中|ちゅう}→工事中：09625_koujichuu⟧⟦の→の：09472_no⟧⟦ため→ため：01145_tame⟧⟦{正門|せいもん}→正門：04350_seimon⟧⟦は→は：00079_ha⟧⟦{使|つか}え→使う：00473_tsukau⟧ず、{裏門|うらもん}⟦を→を：00422_wo⟧⟦{利用|りよう}して→利用する：21735_riyousuru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "The main gate is unavailable due to construction; please use the back gate.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nContrasts with {正門|せいもん} (main gate) and {表門|おもてもん} (front gate). Schools, temples, and large properties typically have both a main gate and a back gate. Sometimes used figuratively to mean a backdoor route or shortcut.\n\nCOMMON COLLOCATIONS:\n- {裏門|うらもん}から{入|はい}る (to enter from the back gate)\n- {裏門|うらもん}を{開|あ}ける (to open the back gate)\n- {学校|がっこう}の{裏門|うらもん} (school back gate)",
+  "notes": "USAGE:\nContrasts with ⟦{正門|せいもん}→正門：04350_seimon⟧ (main gate) and {表門|おもてもん} (front gate). Schools, temples, and large properties typically have both a main gate and a back gate. Sometimes used figuratively to mean a backdoor route or shortcut.\n\nCOMMON COLLOCATIONS:\n- {裏門|うらもん}⟦から→から：00504_kara⟧⟦{入|はい}る→入る：00494_hairu⟧ (to enter from the back gate)\n- {裏門|うらもん}⟦を→を：00422_wo⟧⟦{開|あ}ける→開ける：00563_akeru⟧ (to open the back gate)\n- ⟦{学校|がっこう}→学校：00055_gakkou⟧⟦の→の：09472_no⟧{裏門|うらもん} (school back gate)",
   "cross_references": [
     {
       "type": "antonym",
@@ -52,11 +52,18 @@
       "reading": "せいもん",
       "headword": "{正門|せいもん}",
       "label": "main gate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24623_tsuuyoumon",
+      "reading": "つうようもん",
+      "headword": "{通用門|つうようもん}",
+      "label": "service entrance"
     }
   ],
   "metadata": {
     "created": "2026-03-22T10:41:08Z",
-    "modified": "2026-07-25T21:35:01Z",
+    "modified": "2026-09-02T04:01:53Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "16790_kanenbutsu_ex1",
-      "japanese": "{可燃物|かねんぶつ}は{火曜日|かようび}に{出|だ}してください。",
+      "japanese": "{可燃物|かねんぶつ}⟦は→は：00079_ha⟧⟦{火曜日|かようび}→火曜日：00640_kayoubi⟧⟦に→に：00314_ni⟧⟦{出|だ}して→出す：01087_dasu⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please put out burnable trash on Tuesdays.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16790_kanenbutsu_ex2",
-      "japanese": "ゴミを{可燃物|かねんぶつ}と{不燃物|ふねんぶつ}に{分|わ}けなければならない。",
+      "japanese": "⟦ゴミ→ゴミ：00840_gomi⟧⟦を→を：00422_wo⟧{可燃物|かねんぶつ}⟦と→と：00512_to⟧⟦{不燃物|ふねんぶつ}→不燃物：19230_funenbutsu⟧⟦に→に：00314_ni⟧⟦{分|わ}け→分ける：02333_wakeru⟧⟦なければならない→なければならない：27600_nakerebanaranai⟧。",
       "english": "You have to separate garbage into burnable and non-burnable items.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16790_kanenbutsu_ex3",
-      "japanese": "{引|ひ}っ{越|こ}してきたばかりで、{可燃物|かねんぶつ}の{収集日|しゅうしゅうび}がまだわからない。",
+      "japanese": "⟦{引|ひ}っ{越|こ}して→引っ越す：01171_hikkosu⟧きた⟦ばかり→〜ばかり：02006_bakari⟧で、{可燃物|かねんぶつ}⟦の→の：09472_no⟧⟦{収集日|しゅうしゅうび}→収集日：17710_shuushuubi⟧⟦が→が：00051_ga⟧⟦まだ→まだ：00603_mada⟧わからない。",
       "english": "I just moved in and don't know the burnable trash collection day yet.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nEssential vocabulary for daily life in Japan, where garbage separation is strictly enforced. {可燃物|かねんぶつ} (also called {可燃|かねん}ゴミ or {燃|も}えるゴミ) includes paper, food scraps, and some plastics. Each municipality has specific rules.\n\nCOMMON COLLOCATIONS:\n- {可燃物|かねんぶつ}の{日|ひ} (burnable trash day)\n- {可燃物|かねんぶつ}{収集|しゅうしゅう} (burnable trash collection)\n\nSIMILAR WORDS:\n- {不燃物|ふねんぶつ}: non-burnable trash — glass, metals, ceramics\n- {燃|も}えるゴミ: burnable garbage — casual, everyday equivalent\n- {資源|しげん}ゴミ: recyclable waste — a separate category",
+  "notes": "USAGE:\nEssential vocabulary for daily life in Japan, where garbage separation is strictly enforced. {可燃物|かねんぶつ} (also called ⟦{可燃|かねん}→可燃：26077_kanen⟧⟦ゴミ→ゴミ：00840_gomi⟧ or ⟦{燃|も}えるゴミ→燃えるゴミ：17105_moerugomi⟧) includes paper, food scraps, and some plastics. Each municipality has specific rules.\n\nCOMMON COLLOCATIONS:\n- {可燃物|かねんぶつ}⟦の→の：09472_no⟧⟦{日|ひ}→日：02249_hi⟧ (burnable trash day)\n- {可燃物|かねんぶつ}⟦{収集|しゅうしゅう}→収集：11829_shuushuu⟧ (burnable trash collection)\n\nSIMILAR WORDS:\n- ⟦{不燃物|ふねんぶつ}→不燃物：19230_funenbutsu⟧: non-burnable trash — glass, metals, ceramics\n- ⟦{燃|も}えるゴミ→燃えるゴミ：17105_moerugomi⟧: burnable garbage — casual, everyday equivalent\n- ⟦{資源|しげん}→資源：03167_shigen⟧⟦ゴミ→ゴミ：00840_gomi⟧: recyclable waste — a separate category",
   "cross_references": [
     {
       "type": "antonym",
@@ -46,18 +52,30 @@
       "reading": "ふねんぶつ",
       "headword": "{不燃物|ふねんぶつ}",
       "label": "non-burnable trash"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17105_moerugomi",
+      "reading": "もえるごみ",
+      "headword": "{燃|も}えるゴミ",
+      "label": "burnable garbage"
     }
   ],
   "metadata": {
     "created": "2026-03-14T10:32:03Z",
-    "modified": "2026-05-05T04:05:07Z",
+    "modified": "2026-09-02T04:01:46Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["daily-life", "environment"]
+      "semantic": [
+        "daily-life",
+        "environment"
+      ]
     }
   }
 }

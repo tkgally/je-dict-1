@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "06960_debaisu_ex1",
-      "japanese": "{複数|ふくすう}のデバイスで{同期|どうき}できます。",
+      "japanese": "⟦{複数|ふくすう}→複数：14236_fukusuu⟧⟦の→の：09472_no⟧デバイス⟦で→で：00502_de⟧⟦{同期|どうき}→同期：12029_douki⟧⟦できます→できる：00557_dekiru⟧。",
       "english": "You can sync across multiple devices.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "06960_debaisu_ex2",
-      "japanese": "{新|あたら}しいデバイスを{登録|とうろく}してください。",
+      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧デバイス⟦を→を：00422_wo⟧⟦{登録|とうろく}して→登録する：25227_tourokusuru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please register your new device.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "06960_debaisu_ex3",
-      "japanese": "このアプリは{全|すべ}てのデバイスに{対応|たいおう}している。",
+      "japanese": "⟦この→この：00962_kono⟧⟦アプリ→アプリ：04722_apuri⟧⟦は→は：00079_ha⟧⟦{全|すべ}て→全て：03822_subete⟧⟦の→の：09472_no⟧デバイス⟦に→に：00314_ni⟧⟦{対応|たいおう}→対応：02510_taiou⟧⟦している→する：00392_suru⟧。",
       "english": "This app is compatible with all devices.",
       "notes": null,
       "has_audio": false,
@@ -43,11 +43,40 @@
       ]
     }
   ],
-  "notes": "ORIGIN:\nFrom English \"device\"\n\nUSAGE:\nPrimarily used for electronic devices, especially in tech contexts.\n\nCOLLOCATIONS:\n・モバイルデバイス (mobile device)\n・ウェアラブルデバイス (wearable device)\n・デバイスを{接続|せつぞく}する (to connect a device)\n・デバイスを{認識|にんしき}する (to recognize a device)\n・デバイス{管理|かんり} (device management)\n\nRELATED TERMS:\n・{端末|たんまつ} - terminal, device (formal)\n・ガジェット - gadget\n・{機器|きき} - equipment, apparatus",
-  "cross_references": [],
+  "notes": "ETYMOLOGY:\nFrom English \"device\"\n\nUSAGE:\nPrimarily used for electronic devices, especially in tech contexts.\n\nCOMMON COLLOCATIONS:\n- モバイルデバイス (mobile device)\n- ウェアラブルデバイス (wearable device)\n- デバイス⟦を→を：00422_wo⟧⟦{接続|せつぞく}→接続：04367_setsuzoku⟧⟦する→する：00392_suru⟧ (to connect a device)\n- デバイス⟦を→を：00422_wo⟧⟦{認識|にんしき}する→認識する：25356_ninshikisuru⟧ (to recognize a device)\n- デバイス⟦{管理|かんり}→管理：00178_kanri⟧ (device management)\n\nRELATED WORDS:\n- ⟦{端末|たんまつ}→端末：05627_tanmatsu⟧ - terminal, device (formal)\n- ⟦ガジェット→ガジェット：06462_gajetto⟧ - gadget\n- ⟦{機器|きき}→機器：13180_kiki⟧ - equipment, apparatus",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "05627_tanmatsu",
+      "reading": "たんまつ",
+      "headword": "{端末|たんまつ}",
+      "label": "terminal, device"
+    },
+    {
+      "type": "related",
+      "target_id": "06462_gajetto",
+      "reading": "がじぇっと",
+      "headword": "ガジェット",
+      "label": "gadget"
+    },
+    {
+      "type": "related",
+      "target_id": "13180_kiki",
+      "reading": "きき",
+      "headword": "{機器|きき}",
+      "label": "equipment, apparatus"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23391_keitaitanmatsu",
+      "reading": "けいたいたんまつ",
+      "headword": "{携帯端末|けいたいたんまつ}",
+      "label": "mobile device"
+    }
+  ],
   "metadata": {
     "created": "2026-01-18T12:06:47Z",
-    "modified": "2026-01-19T12:14:28.744923Z",
+    "modified": "2026-09-02T04:01:09Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

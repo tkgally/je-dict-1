@@ -14,34 +14,55 @@
   "examples": [
     {
       "id": "25200_komekouji_ex1",
-      "japanese": "{米麹|こめこうじ}で{甘酒|あまざけ}を{作|つく}る。",
+      "japanese": "{米麹|こめこうじ}⟦で→で：00502_de⟧⟦{甘酒|あまざけ}→甘酒：13519_amazake⟧⟦を→を：00422_wo⟧⟦{作|つく}る→作る：00481_tsukuru⟧。",
       "english": "I make amazake with rice koji.",
       "has_audio": false,
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "notes": null
     },
     {
       "id": "25200_komekouji_ex2",
-      "japanese": "この{味噌|みそ}は{米麹|こめこうじ}を{使|つか}っている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{味噌|みそ}→味噌：01037_miso⟧⟦は→は：00079_ha⟧{米麹|こめこうじ}⟦を→を：00422_wo⟧⟦{使|つか}っている→使う：00473_tsukau⟧。",
       "english": "This miso uses rice koji.",
       "has_audio": false,
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "notes": null
     },
     {
       "id": "25200_komekouji_ex3",
-      "japanese": "{米麹|こめこうじ}は{日本|にほん}の{発酵食品|はっこうしょくひん}に{欠|か}かせない{材料|ざいりょう}だ。",
+      "japanese": "{米麹|こめこうじ}⟦は→は：00079_ha⟧⟦{日本|にほん}→日本：03876_nihon⟧⟦の→の：09472_no⟧⟦{発酵食品|はっこうしょくひん}→発酵食品：16504_hakkoushokuhin⟧⟦に→に：00314_ni⟧⟦{欠|か}かせない→欠かす：10138_kakasu⟧⟦{材料|ざいりょう}→材料：02831_zairyou⟧だ。",
       "english": "Rice koji is an indispensable ingredient in Japanese fermented foods.",
       "has_audio": false,
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "notes": null
     }
   ],
-  "notes": "Composed of {米|こめ} (rice) + {麹|こうじ} (koji mold). Rice koji is the foundation of many traditional Japanese fermented products and is sometimes called Japan's \"national mold.\"\n\nCOMMON USES:\n- {味噌|みそ}: miso paste\n- {醤油|しょうゆ}: soy sauce\n- {日本酒|にほんしゅ}: sake\n- {甘酒|あまざけ}: sweet fermented rice drink\n- {塩麹|しおこうじ}: salt koji (seasoning)\n- {味醂|みりん}: mirin (sweet rice wine)\n\nCOMMON COLLOCATIONS:\n- {米麹|こめこうじ}で{作|つく}る: to make with rice koji\n- {米麹|こめこうじ}を{使|つか}った: made using rice koji\n- {手作|てづく}り{米麹|こめこうじ}: homemade rice koji\n\nRELATED TERMS:\n- {麦麹|むぎこうじ}: barley koji — used for mugi miso and shochu\n- {豆麹|まめこうじ}: soybean koji — used for hatcho miso\n- {麹菌|こうじきん}: koji mold (Aspergillus oryzae)",
-  "cross_references": [],
+  "notes": "Composed of ⟦{米|こめ}→米：01323_kome⟧ (rice) + ⟦{麹|こうじ}→麹：18900_kouji⟧ (koji mold). Rice koji is the foundation of many traditional Japanese fermented products and is sometimes called Japan's \"national mold.\"\n\nCOMMON COLLOCATIONS:\n- ⟦{味噌|みそ}→味噌：01037_miso⟧: miso paste\n- ⟦{醤油|しょうゆ}→醤油：01056_shouyu⟧: soy sauce\n- ⟦{日本酒|にほんしゅ}→日本酒：12954_nihonshu⟧: sake\n- ⟦{甘酒|あまざけ}→甘酒：13519_amazake⟧: sweet fermented rice drink\n- {塩麹|しおこうじ}: salt koji (seasoning)\n- ⟦{味醂|みりん}→味醂：04918_mirin⟧: mirin (sweet rice wine)\n- {米麹|こめこうじ}⟦で→で：00502_de⟧⟦{作|つく}る→作る：00481_tsukuru⟧: to make with rice koji\n- {米麹|こめこうじ}⟦を→を：00422_wo⟧⟦{使|つか}った→使う：00473_tsukau⟧: made using rice koji\n- ⟦{手作|てづく}り→手作り：08300_tezukuri⟧{米麹|こめこうじ}: homemade rice koji\n\nRELATED WORDS:\n- {麦麹|むぎこうじ}: barley koji — used for mugi miso and shochu\n- {豆麹|まめこうじ}: soybean koji — used for hatcho miso\n- ⟦{麹菌|こうじきん}→麹菌：25193_koujikin⟧: koji mold (Aspergillus oryzae)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "25193_koujikin",
+      "reading": "こうじきん",
+      "headword": "{麹菌|こうじきん}",
+      "label": "koji mold"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25192_sakekouji",
+      "reading": "さけこうじ",
+      "headword": "{酒麹|さけこうじ}",
+      "label": "sake koji"
+    }
+  ],
   "metadata": {
     "created": "2026-04-23T14:40:06Z",
-    "modified": "2026-04-23T14:40:06Z",
+    "modified": "2026-09-02T04:02:21Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",

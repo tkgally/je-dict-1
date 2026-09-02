@@ -14,27 +14,33 @@
   "examples": [
     {
       "id": "07528_honma_ex1",
-      "japanese": "ほんまに{美味|おい}しいわ。",
+      "japanese": "ほんま⟦に→に：00314_ni⟧⟦{美味|おい}しい→美味しい：00740_oishii⟧わ。",
       "english": "It's really delicious.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "07528_honma_ex2",
-      "japanese": "ほんま？{信|しん}じられへん。",
+      "japanese": "ほんま？⟦{信|しん}じられ→信じる：01111_shinjiru⟧へん。",
       "english": "Really? I can't believe it.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "07528_honma_ex3",
-      "japanese": "それ、ほんまの{話|はなし}？",
+      "japanese": "⟦それ→それ：00994_sore⟧、ほんま⟦の→の：09472_no⟧⟦{話|はなし}→話：01496_hanashi⟧？",
       "english": "Is that a true story?",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "DIALECT:\nKansai ({関西|かんさい}) dialect, primarily used in Osaka, Kyoto, and surrounding regions.\n\nSTANDARD EQUIVALENT:\n{本当|ほんとう} / ほんと (standard Japanese)\n\nCOMMON PATTERNS:\n・ほんまに - really (adverb)\n・ほんまの - real, true (adjective)\n・ほんま？ - Really? (question)\n・ほんまや - That's true (affirmation)\n\nUSAGE NOTES:\n{関西弁|かんさいべん} has become widely recognized throughout Japan due to TV comedians and media. ほんま is one of the most commonly understood Kansai expressions.\n\nRELATED DIALECT WORDS:\n・{嘘|うそ}やん - No way! / You're kidding!\n・まじで - Really/Seriously (youth slang, nationwide)",
+  "notes": "DIALECT:\nKansai (⟦{関西|かんさい}→関西：00179_kansai⟧) dialect, primarily used in Osaka, Kyoto, and surrounding regions.\n\nSTANDARD EQUIVALENT:\n⟦{本当|ほんとう}→本当：00779_hontou⟧ / ⟦ほんと→ほんと：08758_honto⟧ (standard Japanese)\n\nCOMMON PATTERNS:\n- ほんま⟦に→に：00314_ni⟧ - really (adverb)\n- ほんま⟦の→の：09472_no⟧ - real, true (adjective)\n- ほんま？ - Really? (question)\n- ほんまや - That's true (affirmation)\n\nUSAGE:\n⟦{関西弁|かんさいべん}→関西弁：17855_kansaiben⟧ has become widely recognized throughout Japan due to TV comedians and media. ほんま is one of the most commonly understood Kansai expressions.\n\nRELATED DIALECT WORDS:\n- ⟦{嘘|うそ}→嘘：01796_uso⟧⟦やん→やん：29708_yan⟧ - No way! / You're kidding!\n- ⟦まじ→マジ：04744_maji⟧で - Really/Seriously (youth slang, nationwide)",
   "prominent_see_also": [
     {
       "target_id": "00779_hontou",
@@ -43,16 +49,40 @@
       "note": "standard equivalent"
     }
   ],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "09319_majide",
+      "reading": "まじで",
+      "headword": "まじで",
+      "label": "Really/Seriously"
+    },
+    {
+      "type": "related",
+      "target_id": "07549_eeyan",
+      "reading": "ええやん",
+      "headword": "ええやん",
+      "label": "it's good"
+    }
+  ],
   "metadata": {
     "created": "2026-01-20T08:22:58Z",
-    "modified": "2026-04-19T06:26:07Z",
+    "modified": "2026-09-02T04:01:11Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adverb", "adjective-na"],
+      "pos": [
+        "adverb",
+        "adjective-na"
+      ],
       "formality": "informal",
-      "semantic": ["descriptive"],
-      "domain": ["colloquial"]
+      "politeness": "plain",
+      "semantic": [
+        "descriptive"
+      ],
+      "domain": [
+        "colloquial"
+      ]
     }
   }
 }

@@ -22,12 +22,24 @@ JST = timezone(timedelta(hours=9))
 # Site configuration
 SITE_URL = "https://www.tkgje.jp"
 
-# Main pages to include (excluding utility pages: recent, random, pending)
+# Main pages to include (excluding curator/utility pages: random, pending, curator)
 MAIN_PAGES = [
-    ("index.html", 1.0, "daily"),      # Homepage
-    ("browse.html", 0.9, "weekly"),    # Browse interface
-    ("about.html", 0.9, "monthly"),    # About page
-    ("advanced.html", 0.9, "monthly"), # Advanced features
+    ("index.html", 1.0, "daily"),           # Homepage
+    ("browse.html", 0.9, "weekly"),         # Browse index (kana rows)
+    ("about.html", 0.9, "monthly"),         # About page
+    ("advanced.html", 0.8, "monthly"),      # Tag-based search
+    ("kanji.html", 0.8, "weekly"),          # Kanji index
+    ("recent.html", 0.6, "daily"),          # Recently added/revised entries
+    ("lists/index.html", 0.8, "weekly"),    # Study lists
+    ("lists/basic.html", 0.8, "weekly"),
+    ("lists/core.html", 0.8, "weekly"),
+    ("articles/index.html", 0.8, "weekly"), # Article index
+]
+
+# Generated page groups (glob relative to docs/; index.html files are already listed above)
+GLOB_PAGES = [
+    ("articles/*.html", 0.8, "monthly"),
+    ("browse/*.html", 0.7, "weekly"),
 ]
 
 
@@ -109,6 +121,14 @@ def generate_sitemap_pages(docs_dir: Path) -> int:
         page_path = docs_dir / page
         if page_path.exists():
             loc = f"{SITE_URL}/{page}"
+            content += generate_url_entry(loc, lastmod, changefreq, priority)
+            count += 1
+
+    for pattern, priority, changefreq in GLOB_PAGES:
+        for page_path in sorted(docs_dir.glob(pattern)):
+            if page_path.name == "index.html":
+                continue
+            loc = f"{SITE_URL}/{page_path.relative_to(docs_dir).as_posix()}"
             content += generate_url_entry(loc, lastmod, changefreq, priority)
             count += 1
 

@@ -3,7 +3,7 @@
   "headword": "{再稼働|さいかどう}",
   "reading": "さいかどう",
   "romaji": "saikadou",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "restart (of a plant or reactor); resumption of operation",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29736_saikadou_ex1",
-      "japanese": "{原発|げんぱつ}が{再稼働|さいかどう}した。",
+      "japanese": "⟦{原発|げんぱつ}→原発：11943_genpatsu⟧⟦が→が：00051_ga⟧{再稼働|さいかどう}⟦した→する：00392_suru⟧。",
       "english": "The nuclear plant restarted.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29736_saikadou_ex2",
-      "japanese": "{工場|こうじょう}の{設備|せつび}を{再稼働|さいかどう}する。",
+      "japanese": "⟦{工場|こうじょう}→工場：01082_koujou⟧⟦の→の：09472_no⟧⟦{設備|せつび}→設備：03301_setsubi⟧⟦を→を：00422_wo⟧{再稼働|さいかどう}⟦する→する：00392_suru⟧。",
       "english": "to restart the factory's equipment.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29736_saikadou_ex3",
-      "japanese": "{安全|あんぜん}{検査|けんさ}が{終|お}わり、{発電所|はつでんしょ}を{再稼働|さいかどう}することになった。",
+      "japanese": "⟦{安全|あんぜん}→安全：01131_anzen⟧⟦{検査|けんさ}→検査：02707_kensa⟧⟦が→が：00051_ga⟧{終|お}わり、⟦{発電所|はつでんしょ}→発電所：15991_hatsudensho⟧⟦を→を：00422_wo⟧{再稼働|さいかどう}⟦する→する：00392_suru⟧ことになった。",
       "english": "After the safety inspection ended, it was decided to restart the power plant.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Refers to restarting a facility — especially a nuclear reactor or power plant — that had been stopped. A common term in reporting on energy and safety policy.\n\nCOMMON COLLOCATIONS:\n- {原発|げんぱつ}の{再稼働|さいかどう}: restart of a nuclear plant\n- {再稼働|さいかどう}を{認|みと}める: to approve a restart\n- {再稼働|さいかどう}に{反対|はんたい}する: to oppose a restart",
+  "notes": "Refers to restarting a facility — especially a nuclear reactor or power plant — that had been stopped. A common term in reporting on energy and safety policy.\n\nCOMMON COLLOCATIONS:\n- ⟦{原発|げんぱつ}→原発：11943_genpatsu⟧⟦の→の：09472_no⟧{再稼働|さいかどう}: restart of a nuclear plant\n- {再稼働|さいかどう}⟦を→を：00422_wo⟧⟦{認|みと}める→認める：02429_mitomeru⟧: to approve a restart\n- {再稼働|さいかどう}⟦に→に：00314_ni⟧⟦{反対|はんたい}する→反対する：05648_hantaisuru⟧: to oppose a restart",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -54,15 +54,16 @@
         "verb-suru"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "technology"
       ],
       "domain": [],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "both"
     },
     "created": "2026-07-09T21:19:28Z",
-    "modified": "2026-07-09T21:19:28Z"
+    "modified": "2026-09-02T04:02:37Z"
   },
   "conjugation": {
     "type": "suru",

@@ -15,41 +15,66 @@
   "examples": [
     {
       "id": "14273_miotoshi_ex1",
-      "japanese": "{書類|しょるい}に{見落|みお}としがないか{確認|かくにん}する。",
+      "japanese": "⟦{書類|しょるい}→書類：01103_shorui⟧⟦に→に：00314_ni⟧{見落|みお}とし⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧⟦か→か：09473_ka⟧⟦{確認|かくにん}する→確認する：25332_kakuninsuru⟧。",
       "english": "Check the documents for any oversights.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14273_miotoshi_ex2",
-      "japanese": "{小|ちい}さな{見落|みお}としが{大|おお}きなミスにつながることがある。",
+      "japanese": "⟦{小|ちい}さな→小さな：02913_chiisana⟧{見落|みお}とし⟦が→が：00051_ga⟧⟦{大|おお}きな→大きな：02849_ookina⟧⟦ミス→ミス：00285_misu⟧⟦に→に：00314_ni⟧つながること⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "A small oversight can lead to a big mistake.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14273_miotoshi_ex3",
-      "japanese": "{何度|なんど}も{読|よ}み{返|かえ}したが、それでも{見落|みお}としがあった。",
+      "japanese": "⟦{何度|なんど}→何度：17592_nando⟧⟦も→も：00484_mo⟧⟦{読|よ}み{返|かえ}した→読み返す：07954_yomikaesu⟧⟦が→が：00051_ga⟧、⟦それ→それ：00994_sore⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧{見落|みお}とし⟦が→が：00051_ga⟧⟦あった→ある：00006_aru⟧。",
       "english": "I reread it many times, but there were still things I missed.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "Noun form derived from the verb {見落|みお}とす (to overlook, to miss). Commonly used in work and professional contexts when checking for errors.\n\nCOMMON COLLOCATIONS:\n- {見落|みお}としがある (there is an oversight)\n- {見落|みお}としがないか{確認|かくにん}する (check for oversights)\n- {重大|じゅうだい}な{見落|みお}とし (a serious oversight)\n\nSIMILAR WORDS:\n- {見逃|みのが}し: missing something (can imply intentionally letting it pass)\n- ミス: mistake (broader, includes all types of errors)",
-  "cross_references": [],
+  "notes": "Noun form derived from the verb ⟦{見落|みお}とす→見落とす：04578_miotosu⟧ (to overlook, to miss). Commonly used in work and professional contexts when checking for errors.\n\nCOMMON COLLOCATIONS:\n- {見落|みお}とし⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧ (there is an oversight)\n- {見落|みお}とし⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧⟦か→か：09473_ka⟧⟦{確認|かくにん}する→確認する：25332_kakuninsuru⟧ (check for oversights)\n- ⟦{重大|じゅうだい}→重大：01641_juudai⟧な{見落|みお}とし (a serious oversight)\n\nSIMILAR WORDS:\n- ⟦{見逃|みのが}し→見逃す：04576_minogasu⟧: missing something (can imply intentionally letting it pass)\n- ⟦ミス→ミス：00285_misu⟧: mistake (broader, includes all types of errors)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08297_minogashi",
+      "reading": "みのがし",
+      "headword": "{見逃|みのが}し",
+      "label": "missing something"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00285_misu",
+      "reading": "みす",
+      "headword": "ミス",
+      "label": "mistake"
+    }
+  ],
   "metadata": {
     "created": "2026-02-28T09:21:12Z",
-    "modified": "2026-02-28T09:21:12Z",
+    "modified": "2026-09-02T04:01:36Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["cognition"]
+      "semantic": [
+        "cognition"
+      ]
     }
   }
 }

@@ -15,41 +15,66 @@
   "examples": [
     {
       "id": "18896_shinkohin_ex1",
-      "japanese": "この{靴|くつ}は{新古品|しんこひん}です。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{靴|くつ}→靴：00725_kutsu⟧⟦は→は：00079_ha⟧{新古品|しんこひん}です。",
       "english": "These shoes are unused but second-hand.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18896_shinkohin_ex2",
-      "japanese": "{新古品|しんこひん}なら{新品|しんぴん}より{安|やす}く{買|か}える。",
+      "japanese": "{新古品|しんこひん}なら⟦{新品|しんぴん}→新品：08303_shinpin⟧⟦より→より：09476_yori⟧⟦{安|やす}く→安い：00464_yasui⟧⟦{買|か}える→買う：00489_kau⟧。",
       "english": "If it's a like-new item, you can buy it cheaper than new.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18896_shinkohin_ex3",
-      "japanese": "フリマアプリで{新古品|しんこひん}のブランドバッグを{見|み}つけて、{半額|はんがく}で{手|て}に{入|い}れた。",
+      "japanese": "フリマ⟦アプリ→アプリ：04722_apuri⟧⟦で→で：00502_de⟧{新古品|しんこひん}⟦の→の：09472_no⟧⟦ブランド→ブランド：05221_burando⟧⟦バッグ→バッグ：00008_baggu⟧⟦を→を：00422_wo⟧⟦{見|み}つけて→見つける：01180_mitsukeru⟧、⟦{半額|はんがく}→半額：09546_hangaku⟧⟦で→で：00502_de⟧⟦{手|て}→手：00569_te⟧⟦に→に：00314_ni⟧⟦{入|い}れた→入れる：01098_ireru⟧。",
       "english": "I found a like-new brand-name bag on a flea market app and got it for half price.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nA compound of {新|しん} (new) and {古品|こひん} (used item), describing the in-between status of items that are technically second-hand but have never been used. Very common on Japanese auction and flea market sites like メルカリ and ヤフオク.\n\nCOMMON COLLOCATIONS:\n- {新古品|しんこひん}の{状態|じょうたい} (like-new condition)\n- {新古品|しんこひん}を{買|か}う (to buy a like-new item)\n- {新古品|しんこひん}として{出品|しゅっぴん}する (to list as a like-new item)\n\nSIMILAR WORDS:\n- {新品|しんぴん}: brand new — completely new, never sold before\n- {中古品|ちゅうこひん}: used item — has been used by a previous owner\n- {未使用品|みしようひん}: unused item — essentially synonymous but more formal",
-  "cross_references": [],
+  "notes": "USAGE:\nA compound of {新|しん} (new) and {古品|こひん} (used item), describing the in-between status of items that are technically second-hand but have never been used. Very common on Japanese auction and flea market sites like メルカリ and ヤフオク.\n\nCOMMON COLLOCATIONS:\n- {新古品|しんこひん}⟦の→の：09472_no⟧⟦{状態|じょうたい}→状態：03345_joutai⟧ (like-new condition)\n- {新古品|しんこひん}⟦を→を：00422_wo⟧⟦{買|か}う→買う：00489_kau⟧ (to buy a like-new item)\n- {新古品|しんこひん}⟦として→として：06802_toshite⟧⟦{出品|しゅっぴん}→出品：11726_shuppin⟧⟦する→する：00392_suru⟧ (to list as a like-new item)\n\nSIMILAR WORDS:\n- ⟦{新品|しんぴん}→新品：08303_shinpin⟧: brand new — completely new, never sold before\n- ⟦{中古品|ちゅうこひん}→中古品：08302_chuukohin⟧: used item — has been used by a previous owner\n- {未使用品|みしようひん}: unused item — essentially synonymous but more formal",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08303_shinpin",
+      "reading": "しんぴん",
+      "headword": "{新品|しんぴん}",
+      "label": "brand new"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08302_chuukohin",
+      "reading": "ちゅうこひん",
+      "headword": "{中古品|ちゅうこひん}",
+      "label": "used item"
+    }
+  ],
   "metadata": {
     "created": "2026-03-23T06:26:41Z",
-    "modified": "2026-03-23T06:26:41Z",
+    "modified": "2026-09-02T04:01:54Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

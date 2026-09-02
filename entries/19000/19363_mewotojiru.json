@@ -15,40 +15,67 @@
   "examples": [
     {
       "id": "19363_mewotojiru_ex1",
-      "japanese": "そっと{目|め}を{閉|と}じた。",
+      "japanese": "⟦そっと→そっと：03321_sotto⟧{目|め}を{閉|と}じた。",
       "english": "I gently closed my eyes.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19363_mewotojiru_ex2",
-      "japanese": "{目|め}を{閉|と}じて、{深呼吸|しんこきゅう}してください。",
+      "japanese": "{目|め}を{閉|と}じて、⟦{深呼吸|しんこきゅう}→深呼吸：13294_shinkokyuu⟧⟦して→する：00392_suru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Close your eyes and take a deep breath.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19363_mewotojiru_ex3",
-      "japanese": "{目|め}を{閉|と}じると、{子|こ}どもの{頃|ころ}の{風景|ふうけい}が{浮|う}かんでくる。",
+      "japanese": "{目|め}を{閉|と}じる⟦と→と：00512_to⟧、{子|こ}ども⟦の→の：09472_no⟧{頃|ころ}⟦の→の：09472_no⟧⟦{風景|ふうけい}→風景：03591_fuukei⟧⟦が→が：00051_ga⟧⟦{浮|う}かんで→浮かぶ：03916_ukabu⟧くる。",
       "english": "When I close my eyes, scenes from my childhood come to mind.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "The standard expression for closing one's eyes. Used in literal, meditative, and figurative contexts.\n\nCOMMON USES:\n- Physical: relaxation, meditation, sleeping\n- Figurative: death (euphemistic — {静|しず}かに{目|め}を{閉|と}じた 'peacefully closed their eyes')\n- Figurative: deliberately ignoring something ({不正|ふせい}に{目|め}を{閉|と}じる 'to turn a blind eye to corruption')\n\nRELATED EXPRESSIONS:\n- {目|め}を{開|あ}ける — to open one's eyes\n- {目|め}をつぶる — to close one's eyes; to overlook (more colloquial)\n- {目|め}を{伏|ふ}せる — to cast one's eyes down\n\nSIMILAR EXPRESSIONS:\n- {目|め}をつぶる — also means 'to close one's eyes,' but more colloquial and more commonly used in the sense of overlooking or tolerating something ({目|め}をつぶる is more natural for 'turning a blind eye' in casual speech)",
+  "notes": "The standard expression for closing one's eyes. Used in literal, meditative, and figurative contexts.\n\nCOMMON COLLOCATIONS:\n- Physical: relaxation, meditation, sleeping\n- Figurative: death (euphemistic — ⟦{静|しず}か→静か：00755_shizuka⟧⟦に→に：00314_ni⟧{目|め}を{閉|と}じた 'peacefully closed their eyes')\n- Figurative: deliberately ignoring something (⟦{不正|ふせい}→不正：01660_fusei⟧⟦に→に：00314_ni⟧{目|め}を{閉|と}じる 'to turn a blind eye to corruption')\n\nRELATED WORDS:\n- ⟦{目|め}→目：00525_me⟧⟦を→を：00422_wo⟧⟦{開|あ}ける→開ける：00563_akeru⟧ — to open one's eyes\n- ⟦{目|め}をつぶる→目をつぶる：26005_mewotsuburu⟧ — to close one's eyes; to overlook (more colloquial)\n- ⟦{目|め}を{伏|ふ}せる→目を伏せる：15313_mewofuseru⟧ — to cast one's eyes down\n\nSIMILAR WORDS:\n- ⟦{目|め}をつぶる→目をつぶる：26005_mewotsuburu⟧ — also means 'to close one's eyes,' but more colloquial and more commonly used in the sense of overlooking or tolerating something (⟦{目|め}をつぶる→目をつぶる：26005_mewotsuburu⟧ is more natural for 'turning a blind eye' in casual speech)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "26005_mewotsuburu",
+      "reading": "めをつぶる",
+      "headword": "{目|め}をつぶる",
+      "label": "to close one's eyes"
+    },
+    {
+      "type": "related",
+      "target_id": "15313_mewofuseru",
+      "reading": "めをふせる",
+      "headword": "{目|め}を{伏|ふ}せる",
+      "label": "to cast one's eyes down"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["expression"],
+      "pos": [
+        "expression"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["body-part", "action"]
+      "semantic": [
+        "body-part",
+        "action"
+      ]
     },
     "created": "2026-03-25T10:17:51Z",
-    "modified": "2026-03-25T10:17:51Z"
+    "modified": "2026-09-02T04:01:55Z"
   }
 }

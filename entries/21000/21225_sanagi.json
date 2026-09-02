@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21225_sanagi_ex1",
-      "japanese": "{幼虫|ようちゅう}が{蛹|さなぎ}になる。",
+      "japanese": "⟦{幼虫|ようちゅう}→幼虫：16411_youchuu⟧⟦が→が：00051_ga⟧{蛹|さなぎ}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧。",
       "english": "The larva becomes a pupa.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21225_sanagi_ex2",
-      "japanese": "{蛹|さなぎ}の{中|なか}で{体|からだ}が{作|つく}り{変|か}えられている。",
+      "japanese": "{蛹|さなぎ}⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧⟦で→で：00502_de⟧⟦{体|からだ}→体：00784_karada⟧⟦が→が：00051_ga⟧{作|つく}り{変|か}えられて⟦いる→いる：00495_iru⟧。",
       "english": "Inside the pupa, the body is being rebuilt.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21225_sanagi_ex3",
-      "japanese": "{蛹|さなぎ}から{美|うつく}しい{蝶|ちょう}が{羽化|うか}する{様子|ようす}を{子供|こども}たちが{観察|かんさつ}していた。",
+      "japanese": "{蛹|さなぎ}⟦から→から：00504_kara⟧⟦{美|うつく}しい→美しい：01121_utsukushii⟧⟦{蝶|ちょう}→蝶：04288_chou⟧⟦が→が：00051_ga⟧⟦{羽化|うか}→羽化：18950_uka⟧⟦する→する：00392_suru⟧⟦{様子|ようす}→様子：01521_yousu⟧⟦を→を：00422_wo⟧⟦{子供|こども}→子供：00554_kodomo⟧たち⟦が→が：00051_ga⟧⟦{観察|かんさつ}していた→観察する：21989_kansatsusuru⟧。",
       "english": "The children were observing how a beautiful butterfly emerges from its chrysalis.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "The pupal stage of insects with complete metamorphosis ({完全変態|かんぜんへんたい}). During this stage, the insect's body is broken down and rebuilt into its adult form. The kanji uses the {虫|むし} radical.\n\nLIFE CYCLE STAGES:\n- {卵|たまご}: egg\n- {幼虫|ようちゅう}: larva (caterpillar, grub, etc.)\n- {蛹|さなぎ}: pupa (chrysalis, cocoon stage)\n- {成虫|せいちゅう}: adult insect (imago)\n\nCOMMON COLLOCATIONS:\n- {蛹|さなぎ}になる: to pupate, to enter the pupal stage\n- {蛹|さなぎ}から{羽化|うか}する: to emerge (as an adult insect) from the pupa\n- {蛹|さなぎ}の{期間|きかん}: pupal period\n\nRELATED WORDS:\n- {繭|まゆ}: cocoon — the silk casing spun by silkworms and some moth larvae; not all pupae form cocoons\n- {羽化|うか}: eclosion, emergence — the process of an adult insect emerging from the pupa",
+  "notes": "The pupal stage of insects with complete metamorphosis ({完全変態|かんぜんへんたい}). During this stage, the insect's body is broken down and rebuilt into its adult form. The kanji uses the ⟦{虫|むし}→虫：02262_mushi⟧ radical.\n\nLIFE CYCLE STAGES:\n- ⟦{卵|たまご}→卵：02222_tamago⟧: egg\n- ⟦{幼虫|ようちゅう}→幼虫：16411_youchuu⟧: larva (caterpillar, grub, etc.)\n- {蛹|さなぎ}: pupa (chrysalis, cocoon stage)\n- ⟦{成虫|せいちゅう}→成虫：18745_seichuu⟧: adult insect (imago)\n\nCOMMON COLLOCATIONS:\n- {蛹|さなぎ}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧: to pupate, to enter the pupal stage\n- {蛹|さなぎ}⟦から→から：00504_kara⟧⟦{羽化|うか}→羽化：18950_uka⟧⟦する→する：00392_suru⟧: to emerge (as an adult insect) from the pupa\n- {蛹|さなぎ}⟦の→の：09472_no⟧⟦{期間|きかん}→期間：00229_kikan⟧: pupal period\n\nRELATED WORDS:\n- ⟦{繭|まゆ}→繭：13861_mayu⟧: cocoon — the silk casing spun by silkworms and some moth larvae; not all pupae form cocoons\n- ⟦{羽化|うか}→羽化：18950_uka⟧: eclosion, emergence — the process of an adult insect emerging from the pupa",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "13861_mayu",
+      "reading": "まゆ",
+      "headword": "{繭|まゆ}",
+      "label": "cocoon"
+    },
+    {
+      "type": "related",
+      "target_id": "18950_uka",
+      "reading": "うか",
+      "headword": "{羽化|うか}",
+      "label": "eclosion, emergence"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +76,6 @@
       ]
     },
     "created": "2026-04-01T14:16:10Z",
-    "modified": "2026-07-29T00:22:41Z"
+    "modified": "2026-09-02T04:02:02Z"
   }
 }

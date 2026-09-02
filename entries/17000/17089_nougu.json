@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "17089_nougu_ex1",
-      "japanese": "{農具|のうぐ}を{倉庫|そうこ}にしまった。",
+      "japanese": "{農具|のうぐ}⟦を→を：00422_wo⟧⟦{倉庫|そうこ}→倉庫：04044_souko⟧⟦に→に：00314_ni⟧しまった。",
       "english": "I put the farming tools away in the shed.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17089_nougu_ex2",
-      "japanese": "{昔|むかし}の{農具|のうぐ}が{博物館|はくぶつかん}に{展示|てんじ}されている。",
+      "japanese": "⟦{昔|むかし}→昔：01515_mukashi⟧⟦の→の：09472_no⟧{農具|のうぐ}⟦が→が：00051_ga⟧⟦{博物館|はくぶつかん}→博物館：01494_hakubutsukan⟧⟦に→に：00314_ni⟧⟦{展示|てんじ}→展示：12401_tenji⟧⟦されている→する：00392_suru⟧。",
       "english": "Old farming tools are displayed in the museum.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17089_nougu_ex3",
-      "japanese": "{祖父|そふ}は{農具|のうぐ}の{手入|てい}れを{欠|か}かさなかった。",
+      "japanese": "⟦{祖父|そふ}→祖父：01452_sofu⟧⟦は→は：00079_ha⟧{農具|のうぐ}⟦の→の：09472_no⟧⟦{手入|てい}れ→手入れ：07178_teire⟧⟦を→を：00422_wo⟧⟦{欠|か}かさなかった→欠かす：10138_kakasu⟧。",
       "english": "My grandfather never neglected the maintenance of his farming tools.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nUsed in agricultural, historical, and museum contexts. Traditional Japanese {農具|のうぐ} like {鎌|かま} (sickle), {鍬|くわ} (hoe), and {鋤|すき} (plow) are important cultural artifacts.\n\nCOMMON COLLOCATIONS:\n- {農具|のうぐ}を{使|つか}う (to use farming tools)\n- {農具|のうぐ}の{手入|てい}れ (maintenance of farming tools)\n- {伝統的|でんとうてき}な{農具|のうぐ} (traditional farming implements)\n- {農具|のうぐ}{小屋|ごや} (tool shed)\n\nSIMILAR WORDS:\n- {工具|こうぐ}: tools — general tools for construction or repair work\n- {道具|どうぐ}: implements, tools — the broadest general term for tools of any kind",
+  "notes": "USAGE:\nUsed in agricultural, historical, and museum contexts. Traditional Japanese {農具|のうぐ} like ⟦{鎌|かま}→鎌：16402_kama⟧ (sickle), ⟦{鍬|くわ}→鍬：08280_kuwa⟧ (hoe), and ⟦{鋤|すき}→鋤：27971_suki⟧ (plow) are important cultural artifacts.\n\nCOMMON COLLOCATIONS:\n- {農具|のうぐ}⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧ (to use farming tools)\n- {農具|のうぐ}⟦の→の：09472_no⟧⟦{手入|てい}れ→手入れ：07178_teire⟧ (maintenance of farming tools)\n- ⟦{伝統的|でんとうてき}→伝統的：04802_dentouteki⟧な{農具|のうぐ} (traditional farming implements)\n- {農具|のうぐ}{小屋|ごや} (tool shed)\n\nSIMILAR WORDS:\n- ⟦{工具|こうぐ}→工具：01401_kougu⟧: tools — general tools for construction or repair work\n- ⟦{道具|どうぐ}→道具：01479_dougu⟧: implements, tools — the broadest general term for tools of any kind",
   "cross_references": [
     {
       "type": "related",
@@ -53,18 +59,29 @@
       "reading": "こうぐ",
       "headword": "{工具|こうぐ}",
       "label": "tools (construction)"
+    },
+    {
+      "type": "related",
+      "target_id": "08280_kuwa",
+      "reading": "くわ",
+      "headword": "{鍬|くわ}",
+      "label": "hoe"
     }
   ],
   "metadata": {
     "created": "2026-03-15T09:55:45Z",
-    "modified": "2026-05-05T09:06:09Z",
+    "modified": "2026-09-02T04:01:47Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["tool"]
+      "semantic": [
+        "tool"
+      ]
     }
   }
 }

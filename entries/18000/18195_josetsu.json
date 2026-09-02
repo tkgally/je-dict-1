@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "18195_josetsu_ex1",
-      "japanese": "{朝|あさ}から{除雪|じょせつ}{作業|さぎょう}が{行|おこな}われた。",
+      "japanese": "⟦{朝|あさ}→朝：02277_asa⟧⟦から→から：00504_kara⟧{除雪|じょせつ}⟦{作業|さぎょう}→作業：02775_sagyou⟧⟦が→が：00051_ga⟧⟦{行|おこな}われた→行う：01238_okonau⟧。",
       "english": "Snow removal work was carried out from the morning.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "18195_josetsu_ex2",
-      "japanese": "{大雪|おおゆき}で{除雪|じょせつ}が{間|ま}に{合|あ}わない{地域|ちいき}が{出|で}た。",
+      "japanese": "⟦{大雪|おおゆき}→大雪：03017_ooyuki⟧⟦で→で：00502_de⟧{除雪|じょせつ}⟦が→が：00051_ga⟧⟦{間|ま}に{合|あ}わない→間に合う：01142_maniau⟧⟦{地域|ちいき}→地域：01461_chiiki⟧⟦が→が：00051_ga⟧⟦{出|で}た→出る：00513_deru⟧。",
       "english": "Some areas couldn't keep up with snow removal due to the heavy snowfall.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "18195_josetsu_ex3",
-      "japanese": "{雪国|ゆきぐに}では{毎朝|まいあさ}{家|いえ}の{前|まえ}の{除雪|じょせつ}をするのが{日課|にっか}になっている。",
+      "japanese": "⟦{雪国|ゆきぐに}→雪国：14608_yukiguni⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{毎朝|まいあさ}→毎朝：00966_maiasa⟧⟦{家|いえ}→家：00612_ie⟧⟦の→の：09472_no⟧⟦{前|まえ}→前：02255_mae⟧⟦の→の：09472_no⟧{除雪|じょせつ}⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦{日課|にっか}→日課：00317_nikka⟧になっている。",
       "english": "In snow country, clearing snow in front of the house every morning is part of the daily routine.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,33 @@
       ]
     }
   ],
-  "notes": "USAGE:\nCan function as a する verb ({除雪|じょせつ}する). Very common in news reports during winter, especially regarding road conditions in northern Japan.\n\nCOMMON COLLOCATIONS:\n- {除雪|じょせつ}{作業|さぎょう} (snow removal work)\n- {除雪|じょせつ}{車|しゃ} (snowplow)\n- {除雪|じょせつ}{費|ひ} (snow removal costs)\n- {屋根|やね}の{除雪|じょせつ} (clearing snow from rooftops)\n\nSIMILAR WORDS:\n- {雪|ゆき}かき: shoveling snow — the everyday, informal word for physically shoveling snow by hand",
-  "cross_references": [],
+  "notes": "USAGE:\nCan function as a ⟦する→する：00392_suru⟧ verb ({除雪|じょせつ}⟦する→する：00392_suru⟧). Very common in news reports during winter, especially regarding road conditions in northern Japan.\n\nCOMMON COLLOCATIONS:\n- {除雪|じょせつ}⟦{作業|さぎょう}→作業：02775_sagyou⟧ (snow removal work)\n- {除雪|じょせつ}{車|しゃ} (snowplow)\n- {除雪|じょせつ}⟦{費|ひ}→費：09877_hi⟧ (snow removal costs)\n- ⟦{屋根|やね}→屋根：02264_yane⟧⟦の→の：09472_no⟧{除雪|じょせつ} (clearing snow from rooftops)\n\nSIMILAR WORDS:\n- ⟦{雪|ゆき}かき→雪かき：21572_yukikaki⟧: shoveling snow — the everyday, informal word for physically shoveling snow by hand",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21572_yukikaki",
+      "reading": "ゆきかき",
+      "headword": "{雪|ゆき}かき",
+      "label": "shoveling snow"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24038_johyou",
+      "reading": "じょひょう",
+      "headword": "{除氷|じょひょう}",
+      "label": "de-icing"
+    },
+    {
+      "type": "related",
+      "target_id": "27471_gousetsuchitai",
+      "reading": "ごうせつちたい",
+      "headword": "{豪雪地帯|ごうせつちたい}",
+      "label": "heavy snowfall region"
+    }
+  ],
   "metadata": {
     "created": "2026-03-20T12:13:02Z",
-    "modified": "2026-03-29T03:08:58Z",
+    "modified": "2026-09-02T04:01:51Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

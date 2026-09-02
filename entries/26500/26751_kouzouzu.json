@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26751_kouzouzu_ex1",
-      "japanese": "{建物|たてもの}の{構造図|こうぞうず}を{確認|かくにん}する。",
+      "japanese": "⟦{建物|たてもの}→建物：01458_tatemono⟧⟦の→の：09472_no⟧{構造図|こうぞうず}⟦を→を：00422_wo⟧⟦{確認|かくにん}する→確認する：25332_kakuninsuru⟧。",
       "english": "Check the structural diagram of the building.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26751_kouzouzu_ex2",
-      "japanese": "{構造図|こうぞうず}を{見|み}れば{内部|ないぶ}の{仕組|しく}みがわかる。",
+      "japanese": "{構造図|こうぞうず}⟦を→を：00422_wo⟧⟦{見|み}れば→見る：00283_miru⟧⟦{内部|ないぶ}→内部：05583_naibu⟧⟦の→の：09472_no⟧⟦{仕組|しく}み→仕組み：07168_shikumi⟧⟦が→が：00051_ga⟧わかる。",
       "english": "You can understand the internal mechanism by looking at the structural diagram.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26751_kouzouzu_ex3",
-      "japanese": "{教科書|きょうかしょ}には{細胞|さいぼう}の{構造図|こうぞうず}が{載|の}っていて、それぞれの{部分|ぶぶん}の{役割|やくわり}が{説明|せつめい}されている。",
+      "japanese": "⟦{教科書|きょうかしょ}→教科書：01085_kyoukasho⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{細胞|さいぼう}→細胞：05030_saibou⟧⟦の→の：09472_no⟧{構造図|こうぞうず}⟦が→が：00051_ga⟧⟦{載|の}っていて→載る：27882_noru⟧、⟦それぞれ→それぞれ：01453_sorezore⟧⟦の→の：09472_no⟧⟦{部分|ぶぶん}→部分：03715_bubun⟧⟦の→の：09472_no⟧⟦{役割|やくわり}→役割：03638_yakuwari⟧⟦が→が：00051_ga⟧⟦{説明|せつめい}→説明：01449_setsumei⟧⟦されている→する：00392_suru⟧。",
       "english": "The textbook has a structural diagram of a cell, with the role of each part explained.",
       "sense_numbers": [
         1
@@ -44,8 +44,30 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {構造|こうぞう} (structure) and {図|ず} (diagram, drawing). Applied broadly: in architecture and engineering it means a structural drawing of a building's framework; in science it means a diagram showing internal components; in business it can mean an organizational chart.\n\nCOMMON COLLOCATIONS:\n- {構造図|こうぞうず}を{描|えが}く: to draw a structural diagram\n- {構造図|こうぞうず}を{見|み}る: to look at a structural diagram\n- {組織|そしき}{構造図|こうぞうず}: organizational structure chart\n- {建築|けんちく}{構造図|こうぞうず}: architectural structural drawing\n\nRELATED TERMS:\n- {設計図|せっけいず}: blueprint, design drawing — focuses on the design intent rather than structural analysis\n- {断面図|だんめんず}: cross-section diagram — shows a cut-through view\n- {配置図|はいちず}: layout diagram — shows the arrangement of elements",
-  "cross_references": [],
+  "notes": "A compound of ⟦{構造|こうぞう}→構造：02730_kouzou⟧ (structure) and ⟦{図|ず}→図：03368_zu⟧ (diagram, drawing). Applied broadly: in architecture and engineering it means a structural drawing of a building's framework; in science it means a diagram showing internal components; in business it can mean an organizational chart.\n\nCOMMON COLLOCATIONS:\n- {構造図|こうぞうず}⟦を→を：00422_wo⟧⟦{描|えが}く→描く：02013_egaku⟧: to draw a structural diagram\n- {構造図|こうぞうず}⟦を→を：00422_wo⟧⟦{見|み}る→見る：00283_miru⟧: to look at a structural diagram\n- {組織|そしき}{構造図|こうぞうず}: organizational structure chart\n- ⟦{建築|けんちく}→建築：02709_kenchiku⟧{構造図|こうぞうず}: architectural structural drawing\n\nRELATED WORDS:\n- ⟦{設計図|せっけいず}→設計図：14805_sekkeizu⟧: blueprint, design drawing — focuses on the design intent rather than structural analysis\n- ⟦{断面図|だんめんず}→断面図：14837_danmenzu⟧: cross-section diagram — shows a cut-through view\n- {配置図|はいちず}: layout diagram — shows the arrangement of elements",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "14805_sekkeizu",
+      "reading": "せっけいず",
+      "headword": "{設計図|せっけいず}",
+      "label": "blueprint, design drawing"
+    },
+    {
+      "type": "related",
+      "target_id": "14837_danmenzu",
+      "reading": "だんめんず",
+      "headword": "{断面図|だんめんず}",
+      "label": "cross-section diagram"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24008_bunkaizu",
+      "reading": "ぶんかいず",
+      "headword": "{分解図|ぶんかいず}",
+      "label": "exploded view"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -63,6 +85,6 @@
       ]
     },
     "created": "2026-05-04T15:35:33Z",
-    "modified": "2026-08-06T12:46:55Z"
+    "modified": "2026-09-02T04:02:27Z"
   }
 }

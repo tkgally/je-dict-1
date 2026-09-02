@@ -15,41 +15,62 @@
   "examples": [
     {
       "id": "18656_kyouwa_ex1",
-      "japanese": "{共和|きょうわ}{国|こく}の{大統領|だいとうりょう}。",
+      "japanese": "{共和|きょうわ}{国|こく}⟦の→の：09472_no⟧⟦{大統領|だいとうりょう}→大統領：03418_daitouryou⟧。",
       "english": "The president of a republic.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "18656_kyouwa_ex2",
-      "japanese": "フランスは{共和|きょうわ}{制|せい}の{国|くに}である。",
+      "japanese": "⟦フランス→フランス：19418_furansu⟧⟦は→は：00079_ha⟧{共和|きょうわ}{制|せい}⟦の→の：09472_no⟧⟦{国|くに}→国：02204_kuni⟧⟦である→である：09855_dearu⟧。",
       "english": "France is a republican country.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "18656_kyouwa_ex3",
-      "japanese": "{王政|おうせい}が{倒|たお}れた{後|あと}、{共和|きょうわ}{政治|せいじ}が{始|はじ}まった。",
+      "japanese": "{王政|おうせい}⟦が→が：00051_ga⟧⟦{倒|たお}れた→倒れる：01160_taoreru⟧⟦{後|あと}→後：09580_ato⟧、{共和|きょうわ}⟦{政治|せいじ}→政治：01629_seiji⟧⟦が→が：00051_ga⟧⟦{始|はじ}まった→始まる：00841_hajimaru⟧。",
       "english": "After the monarchy fell, republican government began.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "{共和|きょうわ} refers to a system of government in which power is held by elected representatives, as opposed to a monarchy. It rarely stands alone — it almost always appears in compounds.\n\nWORD FORMATION:\n{共|きょう} (together) + {和|わ} (harmony).\n\nCOMMON COMPOUNDS:\n- {共和国|きょうわこく}: republic (as a country name)\n- {共和制|きょうわせい}: republican system of government\n- {共和党|きょうわとう}: Republican Party (in U.S. politics)\n- {共和政|きょうわせい}: republican government\n\nCOUNTRY NAME EXAMPLES:\n- ドイツ{連邦|れんぽう}{共和国|きょうわこく}: Federal Republic of Germany\n- {中華人民共和国|ちゅうかじんみんきょうわこく}: People's Republic of China\n- {大韓民国|だいかんみんこく}: Republic of Korea (uses {民国|みんこく} instead)\n\nCONTRAST:\n- {君主制|くんしゅせい}: monarchy\n- {王政|おうせい}: royal government",
+  "notes": "{共和|きょうわ} refers to a system of government in which power is held by elected representatives, as opposed to a monarchy. It rarely stands alone — it almost always appears in compounds.\n\nFORMS:\n{共|きょう} (together) + {和|わ} (harmony).\n\nCOMPOUNDS:\n- ⟦{共和国|きょうわこく}→共和国：24322_kyouwakoku⟧: republic (as a country name)\n- ⟦{共和制|きょうわせい}→共和制：22243_kyouwasei⟧: republican system of government\n- {共和党|きょうわとう}: Republican Party (in U.S. politics)\n- {共和政|きょうわせい}: republican government\n\nCOUNTRY NAME EXAMPLES:\n- ドイツ{連邦|れんぽう}⟦{共和国|きょうわこく}→共和国：24322_kyouwakoku⟧: Federal Republic of Germany\n- {中華人民共和国|ちゅうかじんみんきょうわこく}: People's Republic of China\n- {大韓民国|だいかんみんこく}: Republic of Korea (uses {民国|みんこく} instead)\n\nSIMILAR WORDS:\n- ⟦{君主制|くんしゅせい}→君主制：21776_kunshusei⟧: monarchy\n- {王政|おうせい}: royal government",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21776_kunshusei",
+      "reading": "くんしゅせい",
+      "headword": "{君主制|くんしゅせい}",
+      "label": "monarchy"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["academic"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "academic"
+      ]
     },
     "created": "2026-03-22T11:45:31Z",
-    "modified": "2026-04-05T09:38:27Z"
+    "modified": "2026-09-02T04:01:53Z"
   }
 }

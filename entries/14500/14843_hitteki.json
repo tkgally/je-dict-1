@@ -3,7 +3,7 @@
   "id": "14843_hitteki",
   "headword": "{匹敵|ひってき}",
   "reading": "ひってき",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "to rival; to be comparable to; to match",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "14843_hitteki_ex1",
-      "japanese": "{彼|かれ}に{匹敵|ひってき}する{選手|せんしゅ}はいない。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦に→に：00314_ni⟧{匹敵|ひってき}⟦する→する：00392_suru⟧⟦{選手|せんしゅ}→選手：03823_senshu⟧はいない。",
       "english": "There is no player who can rival him.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "14843_hitteki_ex2",
-      "japanese": "この{作品|さくひん}は{名作|めいさく}に{匹敵|ひってき}する{出来|でき}だ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{作品|さくひん}→作品：02776_sakuhin⟧⟦は→は：00079_ha⟧⟦{名作|めいさく}→名作：11869_meisaku⟧⟦に→に：00314_ni⟧{匹敵|ひってき}⟦する→する：00392_suru⟧⟦{出来|でき}→出来：11763_deki⟧だ。",
       "english": "This work is of a quality that rivals the masterpieces.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "14843_hitteki_ex3",
-      "japanese": "{東京|とうきょう}の{人口|じんこう}に{匹敵|ひってき}する{規模|きぼ}の{都市|とし}は、{世界|せかい}でもそう{多|おお}くない。",
+      "japanese": "⟦{東京|とうきょう}→東京：09564_toukyou⟧⟦の→の：09472_no⟧⟦{人口|じんこう}→人口：01618_jinkou⟧⟦に→に：00314_ni⟧{匹敵|ひってき}⟦する→する：00392_suru⟧⟦{規模|きぼ}→規模：05095_kibo⟧⟦の→の：09472_no⟧⟦{都市|とし}→都市：01477_toshi⟧⟦は→は：00079_ha⟧、⟦{世界|せかい}→世界：01447_sekai⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧そう⟦{多|おお}くない→多い：01127_ooi⟧。",
       "english": "There are not many cities in the world on a scale comparable to Tokyo's population.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,19 @@
       ]
     }
   ],
-  "notes": "USAGE NOTES:\n{匹敵|ひってき} is a する-verb that takes the particle に to mark what is being rivaled or matched. It implies the comparison is at a high level and carries a tone of respect or acknowledgment.\n\nPARTICLE PATTERNS:\n- AはBに{匹敵|ひってき}する (A rivals B / A is comparable to B)\n- Bに{匹敵|ひってき}するA (A that rivals B)\n\nCOMMON COLLOCATIONS:\n- {実力|じつりょく}に{匹敵|ひってき}する (rival in ability)\n- プロに{匹敵|ひってき}する (comparable to a professional)\n- {過去|かこ}の{記録|きろく}に{匹敵|ひってき}する (match past records)\n\nSIMILAR WORDS:\n- {対抗|たいこう}する emphasizes active competition or opposition\n- {匹敵|ひってき}する emphasizes being on the same level, without implying direct conflict",
-  "cross_references": [],
+  "notes": "USAGE:\n{匹敵|ひってき} is a ⟦する→する：00392_suru⟧-verb that takes the particle ⟦に→に：00314_ni⟧ to mark what is being rivaled or matched. It implies the comparison is at a high level and carries a tone of respect or acknowledgment.\n\nCOMMON PATTERNS:\n- A⟦は→は：00079_ha⟧B⟦に→に：00314_ni⟧{匹敵|ひってき}⟦する→する：00392_suru⟧ (A rivals B / A is comparable to B)\n- B⟦に→に：00314_ni⟧{匹敵|ひってき}⟦する→する：00392_suru⟧A (A that rivals B)\n\nCOMMON COLLOCATIONS:\n- ⟦{実力|じつりょく}→実力：03277_jitsuryoku⟧⟦に→に：00314_ni⟧{匹敵|ひってき}⟦する→する：00392_suru⟧ (rival in ability)\n- ⟦プロ→プロ：03871_puro⟧⟦に→に：00314_ni⟧{匹敵|ひってき}⟦する→する：00392_suru⟧ (comparable to a professional)\n- ⟦{過去|かこ}→過去：00152_kako⟧⟦の→の：09472_no⟧⟦{記録|きろく}→記録：02490_kiroku⟧⟦に→に：00314_ni⟧{匹敵|ひってき}⟦する→する：00392_suru⟧ (match past records)\n\nSIMILAR WORDS:\n- ⟦{対抗|たいこう}する→対抗する：17344_taikousuru⟧ emphasizes active competition or opposition\n- {匹敵|ひってき}⟦する→する：00392_suru⟧ emphasizes being on the same level, without implying direct conflict",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17344_taikousuru",
+      "reading": "たいこうする",
+      "headword": "{対抗|たいこう}する",
+      "label": "emphasizes active competition…"
+    }
+  ],
   "metadata": {
     "created": "2026-03-04T04:30:49Z",
-    "modified": "2026-03-29T03:08:18Z",
+    "modified": "2026-09-02T04:01:39Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

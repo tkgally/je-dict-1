@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "14991_chourikigu_ex1",
-      "japanese": "{調理器具|ちょうりきぐ}を{洗|あら}う。",
+      "japanese": "{調理器具|ちょうりきぐ}⟦を→を：00422_wo⟧⟦{洗|あら}う→洗う：00827_arau⟧。",
       "english": "Wash the cooking utensils.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "14991_chourikigu_ex2",
-      "japanese": "{新|あたら}しい{調理器具|ちょうりきぐ}を{買|か}いに{行|い}った。",
+      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧{調理器具|ちょうりきぐ}⟦を→を：00422_wo⟧⟦{買|か}い→買う：00489_kau⟧⟦に→に：00314_ni⟧⟦{行|い}った→行く：00119_iku⟧。",
       "english": "I went to buy new cooking utensils.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "14991_chourikigu_ex3",
-      "japanese": "この{料理|りょうり}は{特別|とくべつ}な{調理器具|ちょうりきぐ}がなくても{簡単|かんたん}に{作|つく}れる。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{料理|りょうり}→料理：01523_ryouri⟧⟦は→は：00079_ha⟧⟦{特別|とくべつ}→特別：01120_tokubetsu⟧な{調理器具|ちょうりきぐ}⟦が→が：00051_ga⟧⟦なくて→ない：01118_nai⟧⟦も→も：00484_mo⟧⟦{簡単|かんたん}→簡単：00713_kantan⟧⟦に→に：00314_ni⟧⟦{作|つく}れる→作る：00481_tsukuru⟧。",
       "english": "This dish can be easily made without any special cooking utensils.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,47 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{調理器具|ちょうりきぐ} is a general term covering all tools used in food preparation. It is commonly used in recipes, product descriptions, and cooking instructions.\n\nCOMMON COLLOCATIONS:\n- {調理器具|ちょうりきぐ}を{揃|そろ}える (to get a set of cooking utensils)\n- {調理器具|ちょうりきぐ}{売|う}り{場|ば} (kitchenware section/department)\n- {調理器具|ちょうりきぐ}の{手入|てい}れ (maintenance of cooking tools)\n\nRELATED WORDS:\n- {包丁|ほうちょう}: kitchen knife\n- {鍋|なべ}: pot\n- {食器|しょっき}: tableware, dishes",
-  "cross_references": [],
+  "notes": "USAGE:\n{調理器具|ちょうりきぐ} is a general term covering all tools used in food preparation. It is commonly used in recipes, product descriptions, and cooking instructions.\n\nCOMMON COLLOCATIONS:\n- {調理器具|ちょうりきぐ}⟦を→を：00422_wo⟧⟦{揃|そろ}える→揃える：01952_soroeru⟧ (to get a set of cooking utensils)\n- {調理器具|ちょうりきぐ}⟦{売|う}り{場|ば}→売り場：01331_uriba⟧ (kitchenware section/department)\n- {調理器具|ちょうりきぐ}⟦の→の：09472_no⟧⟦{手入|てい}れ→手入れ：07178_teire⟧ (maintenance of cooking tools)\n\nRELATED WORDS:\n- ⟦{包丁|ほうちょう}→包丁：04976_houchou⟧: kitchen knife\n- ⟦{鍋|なべ}→鍋：01038_nabe⟧: pot\n- ⟦{食器|しょっき}→食器：04204_shokki⟧: tableware, dishes",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "04976_houchou",
+      "reading": "ほうちょう",
+      "headword": "{包丁|ほうちょう}",
+      "label": "kitchen knife"
+    },
+    {
+      "type": "related",
+      "target_id": "01038_nabe",
+      "reading": "なべ",
+      "headword": "{鍋|なべ}",
+      "label": "pot"
+    },
+    {
+      "type": "related",
+      "target_id": "04204_shokki",
+      "reading": "しょっき",
+      "headword": "{食器|しょっき}",
+      "label": "tableware, dishes"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23293_chouriyougu",
+      "reading": "ちょうりようぐ",
+      "headword": "{調理用具|ちょうりようぐ}",
+      "label": "cooking utensils"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29323_chuuboukiki",
+      "reading": "ちゅうぼうきき",
+      "headword": "{厨房機器|ちゅうぼうきき}",
+      "label": "kitchen equipment"
+    }
+  ],
   "metadata": {
     "created": "2026-03-04T11:07:09Z",
-    "modified": "2026-03-04T11:07:09Z",
+    "modified": "2026-09-02T04:01:39Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

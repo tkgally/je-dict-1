@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "08024_joutaika_ex1",
-      "japanese": "{残業|ざんぎょう}が{常態化|じょうたいか}している。",
+      "japanese": "⟦{残業|ざんぎょう}→残業：01071_zangyou⟧⟦が→が：00051_ga⟧{常態化|じょうたいか}⟦している→する：00392_suru⟧。",
       "english": "Overtime work has become the norm.",
       "sense_numbers": [
         1
@@ -114,7 +114,7 @@
     },
     {
       "id": "08024_joutaika_ex2",
-      "japanese": "テレワークの{常態化|じょうたいか}が{進|すす}んでいる。",
+      "japanese": "⟦テレワーク→テレワーク：05397_terewaaku⟧⟦の→の：09472_no⟧{常態化|じょうたいか}⟦が→が：00051_ga⟧⟦{進|すす}んでいる→進む：01225_susumu⟧。",
       "english": "Remote work is becoming normalized.",
       "sense_numbers": [
         1
@@ -124,7 +124,7 @@
     },
     {
       "id": "08024_joutaika_ex3",
-      "japanese": "{異常|いじょう}{事態|じたい}が{常態化|じょうたいか}してはならない。",
+      "japanese": "⟦{異常|いじょう}→異常：01716_ijou⟧⟦{事態|じたい}→事態：10151_jitai⟧⟦が→が：00051_ga⟧{常態化|じょうたいか}⟦して→する：00392_suru⟧⟦は→は：00079_ha⟧⟦ならない→なる：01970_naru⟧。",
       "english": "Abnormal situations must not become normalized.",
       "sense_numbers": [
         1
@@ -133,7 +133,23 @@
       "notes": null
     }
   ],
-  "notes": "{常態化|じょうたいか} often describes problematic situations becoming accepted.\n\nKANJI BREAKDOWN:\n- {常|じょう} (normal, regular, constant)\n- {態|たい} (state, condition)\n- {化|か} (-ization)\n\nUSAGE:\n- {常態化|じょうたいか}する (to become normalized - suru verb)\n- {常態化|じょうたいか}させる (to normalize something)\n- {常態化|じょうたいか}している (has become routine/normalized)\n\nCOMMON CONTEXTS:\n- {残業|ざんぎょう}の{常態化|じょうたいか} (normalization of overtime)\n- {違反|いはん}の{常態化|じょうたいか} (normalization of violations)\n- {赤字|あかじ}の{常態化|じょうたいか} (persistent deficits)\n\nNOTE:\nOften used with negative connotation to describe undesirable situations that have become accepted as normal.",
+  "notes": "{常態化|じょうたいか} often describes problematic situations becoming accepted.\n\nWRITING:\n- {常|じょう} (normal, regular, constant)\n- {態|たい} (state, condition)\n- ⟦{化|か}→〜化：28335_ka⟧ (-ization)\n\nUSAGE:\n- {常態化|じょうたいか}⟦する→する：00392_suru⟧ (to become normalized - suru verb)\n- {常態化|じょうたいか}⟦させる→する：00392_suru⟧ (to normalize something)\n- {常態化|じょうたいか}⟦している→する：00392_suru⟧ (has become routine/normalized)\n- ⟦{残業|ざんぎょう}→残業：01071_zangyou⟧⟦の→の：09472_no⟧{常態化|じょうたいか} (normalization of overtime)\n- ⟦{違反|いはん}→違反：01824_ihan⟧⟦の→の：09472_no⟧{常態化|じょうたいか} (normalization of violations)\n- ⟦{赤字|あかじ}→赤字：04712_akaji⟧⟦の→の：09472_no⟧{常態化|じょうたいか} (persistent deficits)\nOften used with negative connotation to describe undesirable situations that have become accepted as normal.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "11108_choukika",
+      "reading": "ちょうきか",
+      "headword": "{長期化|ちょうきか}",
+      "label": "prolongation, becoming prolonged"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22354_koujouka",
+      "reading": "こうじょうか",
+      "headword": "{恒常化|こうじょうか}",
+      "label": "becoming permanent"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -142,15 +158,17 @@
         "verb-suru"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "domain": [
         "business"
       ],
       "semantic": [
         "change"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     },
     "created": "2026-01-25T00:32:35Z",
-    "modified": "2026-06-21T00:53:31Z"
+    "modified": "2026-09-02T04:01:13Z"
   }
 }

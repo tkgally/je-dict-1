@@ -15,41 +15,74 @@
   "examples": [
     {
       "id": "27227_omoiagari_ex1",
-      "japanese": "それは{思|おも}い{上|あ}がりだ。",
+      "japanese": "⟦それ→それ：00994_sore⟧⟦は→は：00079_ha⟧{思|おも}い{上|あ}がりだ。",
       "english": "That's arrogance.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27227_omoiagari_ex2",
-      "japanese": "{思|おも}い{上|あ}がりも{甚|はなは}だしい。",
+      "japanese": "{思|おも}い{上|あ}がり⟦も→も：00484_mo⟧⟦{甚|はなは}だしい→甚だしい：13520_hanahadashii⟧。",
       "english": "The arrogance is extreme.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27227_omoiagari_ex3",
-      "japanese": "{自分|じぶん}だけが{正|ただ}しいと{思|おも}うのは{思|おも}い{上|あ}がりではないか。",
+      "japanese": "⟦{自分|じぶん}→自分：02887_jibun⟧⟦だけ→〜だけ：03093_dake⟧⟦が→が：00051_ga⟧⟦{正|ただ}しい→正しい：00893_tadashii⟧⟦と→と：00512_to⟧⟦{思|おも}う→思う：00492_omou⟧⟦の→の：09472_no⟧⟦は→は：00079_ha⟧{思|おも}い{上|あ}がり⟦ではないか→ではないか：30627_dehanaika⟧。",
       "english": "Isn't it arrogant to think that only you are right?",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "The noun form of the verb {思|おも}い{上|あ}がる (to be conceited; to have an inflated opinion of oneself). Both the noun and the verb are strongly negative, implying the person lacks self-awareness about their actual standing or abilities.\n\nCOMMON COLLOCATIONS:\n- {思|おも}い{上|あ}がりも{甚|はなは}だしい: extremely arrogant\n- {思|おも}い{上|あ}がった{態度|たいど}: a conceited attitude\n- {思|おも}い{上|あ}がるな: don't get full of yourself\n\nSIMILAR WORDS:\n- {高飛車|たかびしゃ}: high-handed; overbearing — emphasizes bossy, domineering behavior toward others\n- {傲慢|ごうまん}: arrogance; haughtiness — a more formal, literary term for arrogance\n- うぬぼれ: vanity; conceit — focuses on excessive self-admiration, especially regarding appearance or charm\n- {自惚|うぬぼ}れ: vanity — the kanji form of the same word",
+  "notes": "The noun form of the verb {思|おも}い{上|あ}がる (to be conceited; to have an inflated opinion of oneself). Both the noun and the verb are strongly negative, implying the person lacks self-awareness about their actual standing or abilities.\n\nCOMMON COLLOCATIONS:\n- {思|おも}い{上|あ}がり⟦も→も：00484_mo⟧⟦{甚|はなは}だしい→甚だしい：13520_hanahadashii⟧: extremely arrogant\n- {思|おも}い{上|あ}がった⟦{態度|たいど}→態度：03396_taido⟧: a conceited attitude\n- {思|おも}い{上|あ}がるな: don't get full of yourself\n\nSIMILAR WORDS:\n- ⟦{高飛車|たかびしゃ}→高飛車：14947_takabisha⟧: high-handed; overbearing — emphasizes bossy, domineering behavior toward others\n- ⟦{傲慢|ごうまん}→傲慢：07635_gouman⟧: arrogance; haughtiness — a more formal, literary term for arrogance\n- うぬぼれ: vanity; conceit — focuses on excessive self-admiration, especially regarding appearance or charm\n- {自惚|うぬぼ}れ: vanity — the kanji form of the same word",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14947_takabisha",
+      "reading": "たかびしゃ",
+      "headword": "{高飛車|たかびしゃ}",
+      "label": "high-handed"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07635_gouman",
+      "reading": "ごうまん",
+      "headword": "{傲慢|ごうまん}",
+      "label": "arrogance"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10925_unubore",
+      "reading": "うぬぼれ",
+      "headword": "{自惚|うぬぼ}れ",
+      "label": "vanity"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["personality"],
+      "semantic": [
+        "personality"
+      ],
       "domain": []
     },
     "created": "2026-05-07T16:23:34Z",
-    "modified": "2026-05-07T16:23:34Z"
+    "modified": "2026-09-02T04:02:29Z"
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "15601_harapeko_ex1",
-      "japanese": "もう{腹|はら}ぺこだ！",
+      "japanese": "⟦もう→もう：00602_mou⟧{腹|はら}ぺこだ！",
       "english": "I'm starving!",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "15601_harapeko_ex2",
-      "japanese": "{腹|はら}ぺこで{何|なに}も{考|かんが}えられない。",
+      "japanese": "{腹|はら}ぺこ⟦で→で：00502_de⟧⟦{何|なに}も→何も：03874_nanimo⟧⟦{考|かんが}えられない→考える：00856_kangaeru⟧。",
       "english": "I'm so hungry I can't think straight.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "15601_harapeko_ex3",
-      "japanese": "{子供|こども}たちは{腹|はら}ぺこで{学校|がっこう}から{帰|かえ}ってきた。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧たち⟦は→は：00079_ha⟧{腹|はら}ぺこ⟦で→で：00502_de⟧⟦{学校|がっこう}→学校：00055_gakkou⟧⟦から→から：00504_kara⟧⟦{帰|かえ}って→帰る：00508_kaeru⟧きた。",
       "english": "The kids came home from school starving.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{腹|はら}ぺこ is a casual, playful way to say \"very hungry.\" It is common in everyday speech and children's language. The famous children's book \"はらぺこあおむし\" (The Very Hungry Caterpillar) uses this word.\n\nCOMMON COLLOCATIONS:\n- {腹|はら}ぺこで{死|し}にそう (so hungry I could die)\n- {腹|はら}ぺこの{状態|じょうたい} (a state of being famished)\n\nSIMILAR WORDS:\nお{腹|なか}がすいた is the standard way to say \"I'm hungry.\" {腹|はら}ぺこ is more emphatic and informal, expressing extreme hunger in a lighthearted way. {空腹|くうふく} is the formal equivalent.",
+  "notes": "USAGE:\n{腹|はら}ぺこ is a casual, playful way to say \"very hungry.\" It is common in everyday speech and children's language. The famous children's book \"はらぺこあおむし\" (The Very Hungry Caterpillar) uses this word.\n\nCOMMON COLLOCATIONS:\n- {腹|はら}ぺこ⟦で→で：00502_de⟧⟦{死|し}に→死ぬ：00669_shinu⟧そう (so hungry I could die)\n- {腹|はら}ぺこ⟦の→の：09472_no⟧⟦{状態|じょうたい}→状態：03345_joutai⟧ (a state of being famished)\n\nSIMILAR WORDS:\n⟦お{腹|なか}→お腹：00805_onaka⟧⟦が→が：00051_ga⟧⟦すいた→すく：00756_suku⟧ is the standard way to say \"I'm hungry.\" {腹|はら}ぺこ is more emphatic and informal, expressing extreme hunger in a lighthearted way. ⟦{空腹|くうふく}→空腹：06532_kuufuku⟧ is the formal equivalent.",
   "cross_references": [
     {
       "type": "synonym",
@@ -52,11 +52,18 @@
       "reading": "くうふく",
       "headword": "{空腹|くうふく}",
       "label": "hunger (formal)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21222_kobara",
+      "reading": "こばら",
+      "headword": "{小腹|こばら}",
+      "label": "slight hunger"
     }
   ],
   "metadata": {
     "created": "2026-03-07T13:05:45Z",
-    "modified": "2026-05-01T08:11:13Z",
+    "modified": "2026-09-02T04:01:41Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

@@ -14,30 +14,36 @@
   "examples": [
     {
       "id": "09634_kisuu_ex1",
-      "japanese": "{奇数|きすう}か{偶数|ぐうすう}かを{判定|はんてい}する。",
+      "japanese": "{奇数|きすう}⟦か→か：09473_ka⟧⟦{偶数|ぐうすう}→偶数：00077_guusuu⟧⟦か→か：09473_ka⟧⟦を→を：00422_wo⟧⟦{判定|はんてい}→判定：09767_hantei⟧⟦する→する：00392_suru⟧。",
       "english": "I determine whether it's an odd or even number.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09634_kisuu_ex2",
-      "japanese": "3は{奇数|きすう}で、4は{偶数|ぐうすう}だ。",
+      "japanese": "3⟦は→は：00079_ha⟧{奇数|きすう}⟦で→で：00502_de⟧、4⟦は→は：00079_ha⟧⟦{偶数|ぐうすう}→偶数：00077_guusuu⟧だ。",
       "english": "3 is an odd number, and 4 is an even number.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09634_kisuu_ex3",
-      "japanese": "{奇数|きすう}の{日|ひ}だけゴミを{出|だ}せる。",
+      "japanese": "{奇数|きすう}⟦の→の：09472_no⟧⟦{日|ひ}→日：02249_hi⟧⟦だけ→〜だけ：03093_dake⟧⟦ゴミ→ゴミ：00840_gomi⟧⟦を→を：00422_wo⟧⟦{出|だ}せる→出す：01087_dasu⟧。",
       "english": "Trash can only be put out on odd-numbered days.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{奇数|きすう} means odd number — any integer not divisible by two (1, 3, 5, 7, etc.). The kanji {奇|き} means \"strange/unusual\" and {数|すう} means \"number.\"\n\nANTONYM:\n- {偶数|ぐうすう}: even number\n\nCOMMON PATTERNS:\n- {奇数|きすう}の{日|ひ}: odd-numbered days\n- {奇数|きすう}{月|がつ}: odd-numbered months (January, March, etc.)\n- {奇数|きすう}{番号|ばんごう}: odd-numbered\n\nRELATED MATH TERMS:\n- {自然数|しぜんすう}: natural number\n- {整数|せいすう}: integer\n- {素数|そすう}: prime number\n- {分数|ぶんすう}: fraction\n\nCULTURAL NOTE:\nOdd numbers are traditionally considered lucky in Japan ({吉数|きっすう}). Gift money ({祝儀|しゅうぎ}) is typically given in odd-numbered amounts (10,000, 30,000, 50,000 yen).",
+  "notes": "{奇数|きすう} means odd number — any integer not divisible by two (1, 3, 5, 7, etc.). The kanji {奇|き} means \"strange/unusual\" and ⟦{数|すう}→数：03360_suu⟧ means \"number.\"\n\nSIMILAR WORDS:\n- ⟦{偶数|ぐうすう}→偶数：00077_guusuu⟧: even number\n\nCOMMON PATTERNS:\n- {奇数|きすう}⟦の→の：09472_no⟧⟦{日|ひ}→日：02249_hi⟧: odd-numbered days\n- {奇数|きすう}⟦{月|がつ}→月：30418_gatsu⟧: odd-numbered months (January, March, etc.)\n- {奇数|きすう}⟦{番号|ばんごう}→番号：02939_bangou⟧: odd-numbered\n\nRELATED MATH TERMS:\n- ⟦{自然数|しぜんすう}→自然数：23397_shizensuu⟧: natural number\n- ⟦{整数|せいすう}→整数：04328_seisuu⟧: integer\n- ⟦{素数|そすう}→素数：20727_sosuu⟧: prime number\n- ⟦{分数|ぶんすう}→分数：06952_bunsuu⟧: fraction\n\nCULTURAL NOTE:\nOdd numbers are traditionally considered lucky in Japan ({吉数|きっすう}). Gift money (⟦{祝儀|しゅうぎ}→祝儀：06225_shuugi⟧) is typically given in odd-numbered amounts (10,000, 30,000, 50,000 yen).",
   "cross_references": [
     {
       "type": "antonym",
@@ -45,18 +51,50 @@
       "reading": "ぐうすう",
       "headword": "{偶数|ぐうすう}",
       "label": "even number"
+    },
+    {
+      "type": "related",
+      "target_id": "23397_shizensuu",
+      "reading": "しぜんすう",
+      "headword": "{自然数|しぜんすう}",
+      "label": "natural number"
+    },
+    {
+      "type": "related",
+      "target_id": "04328_seisuu",
+      "reading": "せいすう",
+      "headword": "{整数|せいすう}",
+      "label": "integer"
+    },
+    {
+      "type": "related",
+      "target_id": "20727_sosuu",
+      "reading": "そすう",
+      "headword": "{素数|そすう}",
+      "label": "prime number"
+    },
+    {
+      "type": "related",
+      "target_id": "06952_bunsuu",
+      "reading": "ぶんすう",
+      "headword": "{分数|ぶんすう}",
+      "label": "fraction"
     }
   ],
   "metadata": {
     "created": "2026-02-03T02:58:32Z",
-    "modified": "2026-04-04T03:56:09Z",
+    "modified": "2026-09-02T04:01:18Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["number"]
+      "semantic": [
+        "number"
+      ]
     }
   }
 }

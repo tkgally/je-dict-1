@@ -15,42 +15,63 @@
   "examples": [
     {
       "id": "14090_seika_ex1",
-      "japanese": "{製菓|せいか}{学校|がっこう}に{通|かよ}っている。",
+      "japanese": "{製菓|せいか}⟦{学校|がっこう}→学校：00055_gakkou⟧⟦に→に：00314_ni⟧⟦{通|かよ}っている→通う：01217_kayou⟧。",
       "english": "I attend a confectionery school.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14090_seika_ex2",
-      "japanese": "{姉|あね}は{製菓|せいか}{会社|がいしゃ}で{新商品|しんしょうひん}の{開発|かいはつ}をしている。",
+      "japanese": "⟦{姉|あね}→姉：00571_ane⟧⟦は→は：00079_ha⟧{製菓|せいか}{会社|がいしゃ}⟦で→で：00502_de⟧⟦{新商品|しんしょうひん}→新商品：11504_shinshouhin⟧⟦の→の：09472_no⟧⟦{開発|かいはつ}→開発：06746_kaihatsu⟧⟦を→を：00422_wo⟧⟦している→する：00392_suru⟧。",
       "english": "My older sister develops new products at a confectionery company.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14090_seika_ex3",
-      "japanese": "{製菓|せいか}の{技術|ぎじゅつ}を{学|まな}ぶためにフランスに{留学|りゅうがく}し、{帰国|きこく}してから{自分|じぶん}の{店|みせ}を{開|ひら}いた。",
+      "japanese": "{製菓|せいか}⟦の→の：09472_no⟧⟦{技術|ぎじゅつ}→技術：01389_gijutsu⟧⟦を→を：00422_wo⟧⟦{学|まな}ぶ→学ぶ：01987_manabu⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧⟦フランス→フランス：19418_furansu⟧⟦に→に：00314_ni⟧⟦{留学|りゅうがく}→留学：03677_ryuugaku⟧し、⟦{帰国|きこく}して→帰国する：21786_kikokusuru⟧⟦から→から：00504_kara⟧⟦{自分|じぶん}→自分：02887_jibun⟧⟦の→の：09472_no⟧⟦{店|みせ}→店：00497_mise⟧⟦を→を：00422_wo⟧⟦{開|ひら}いた→開く：01979_hiraku⟧。",
       "english": "I studied abroad in France to learn confectionery techniques, and opened my own shop after returning to Japan.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE NOTE:\n{製菓|せいか} refers specifically to the making or manufacturing of confections and sweets. It is commonly seen in compound words related to the confectionery industry.\n\nCOMMON COLLOCATIONS:\n- {製菓|せいか}{学校|がっこう} (confectionery school, pastry school)\n- {製菓|せいか}{会社|がいしゃ} (confectionery company)\n- {製菓|せいか}{業|ぎょう} (confectionery industry)\n- {製菓|せいか}{材料|ざいりょう} (confectionery ingredients)\n- {製菓|せいか}{用|よう} (for confectionery use)\n\nSIMILAR WORDS:\n- {製パン|せいぱん}: bread making, bakery production\n- {菓子|かし}: confections, sweets (the product itself rather than the process)",
-  "cross_references": [],
+  "notes": "USAGE:\n{製菓|せいか} refers specifically to the making or manufacturing of confections and sweets. It is commonly seen in compound words related to the confectionery industry.\n\nCOMMON COLLOCATIONS:\n- {製菓|せいか}⟦{学校|がっこう}→学校：00055_gakkou⟧ (confectionery school, pastry school)\n- {製菓|せいか}{会社|がいしゃ} (confectionery company)\n- {製菓|せいか}{業|ぎょう} (confectionery industry)\n- {製菓|せいか}⟦{材料|ざいりょう}→材料：02831_zairyou⟧ (confectionery ingredients)\n- {製菓|せいか}⟦{用|よう}→〜用：09842_you⟧ (for confectionery use)\n\nSIMILAR WORDS:\n- {製パン|せいぱん}: bread making, bakery production\n- ⟦{菓子|かし}→菓子：00191_kashi⟧: confections, sweets (the product itself rather than the process)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00191_kashi",
+      "reading": "かし",
+      "headword": "{菓子|かし}",
+      "label": "confections, sweets"
+    }
+  ],
   "metadata": {
     "created": "2026-02-28T00:43:09Z",
-    "modified": "2026-07-15T09:17:48Z",
+    "modified": "2026-09-02T04:01:35Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food", "work"],
-      "domain": ["business"]
+      "semantic": [
+        "food",
+        "work"
+      ],
+      "domain": [
+        "business"
+      ]
     }
   }
 }

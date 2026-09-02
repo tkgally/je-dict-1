@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "20676_kanryousuru_ex1",
-      "japanese": "ダウンロードが{完了|かんりょう}した。",
+      "japanese": "⟦ダウンロード→ダウンロード：04725_daunroodo⟧⟦が→が：00051_ga⟧{完了|かんりょう}した。",
       "english": "The download is complete.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "20676_kanryousuru_ex2",
-      "japanese": "{登録|とうろく}{手続|てつづ}きが{完了|かんりょう}しました。",
+      "japanese": "⟦{登録|とうろく}→登録：05703_touroku⟧⟦{手続|てつづ}き→手続き：05453_tetsuzuki⟧⟦が→が：00051_ga⟧{完了|かんりょう}しました。",
       "english": "The registration process has been completed.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "20676_kanryousuru_ex3",
-      "japanese": "{工事|こうじ}は{予定|よてい}どおり{来月|らいげつ}{末|まつ}に{完了|かんりょう}する{見込|みこ}みです。",
+      "japanese": "⟦{工事|こうじ}→工事：00244_kouji⟧⟦は→は：00079_ha⟧⟦{予定|よてい}→予定：00824_yotei⟧⟦どおり→どおり：09884_doori⟧⟦{来月|らいげつ}→来月：00744_raigetsu⟧{末|まつ}⟦に→に：00314_ni⟧{完了|かんりょう}する⟦{見込|みこ}み→見込み：06872_mikomi⟧です。",
       "english": "The construction is expected to be completed at the end of next month as scheduled.",
       "sense_numbers": [
         1
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "A formal word for completion, commonly used in business, technology, and official contexts. Frequently seen in system messages, notifications, and formal reports. In grammar, {完了|かんりょう} also refers to the perfective aspect.\n\nCOMMON COLLOCATIONS:\n- {完了|かんりょう}する: to complete\n- {完了|かんりょう}しました: (it) has been completed (polite notification)\n- {作業|さぎょう}{完了|かんりょう}: task complete\n- {手続|てつづ}き{完了|かんりょう}: procedure complete\n- {支払|しはら}い{完了|かんりょう}: payment complete\n\nGRAMMAR NOTE:\nIn Japanese grammar, {完了|かんりょう}{形|けい} refers to the perfective form (past tense), indicating a completed action.\n\nSIMILAR WORDS:\n- {終了|しゅうりょう}する: to end, to finish — emphasizes that something has stopped or ended\n- {完成|かんせい}する: to complete (a creation) — used for completing a product, building, or work of art\n- {済|す}む: to be finished — more casual and conversational",
+  "notes": "A formal word for completion, commonly used in business, technology, and official contexts. Frequently seen in system messages, notifications, and formal reports. In grammar, ⟦{完了|かんりょう}→完了：02560_kanryou⟧ also refers to the perfective aspect.\n\nCOMMON COLLOCATIONS:\n- {完了|かんりょう}する: to complete\n- {完了|かんりょう}しました: (it) has been completed (polite notification)\n- ⟦{作業|さぎょう}→作業：02775_sagyou⟧⟦{完了|かんりょう}→完了：02560_kanryou⟧: task complete\n- ⟦{手続|てつづ}き→手続き：05453_tetsuzuki⟧⟦{完了|かんりょう}→完了：02560_kanryou⟧: procedure complete\n- ⟦{支払|しはら}い→支払う：02116_shiharau⟧⟦{完了|かんりょう}→完了：02560_kanryou⟧: payment complete\n\nCOMMON PATTERNS:\nIn Japanese grammar, ⟦{完了|かんりょう}{形|けい}→完了形：30331_kanryoukei⟧ refers to the perfective form (past tense), indicating a completed action.\n\nSIMILAR WORDS:\n- ⟦{終了|しゅうりょう}する→終了する：22990_shuuryousuru⟧: to end, to finish — emphasizes that something has stopped or ended\n- ⟦{完成|かんせい}する→完成する：25528_kanseisuru⟧: to complete (a creation) — used for completing a product, building, or work of art\n- ⟦{済|す}む→済む：01950_sumu⟧: to be finished — more casual and conversational",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22990_shuuryousuru",
+      "reading": "しゅうりょうする",
+      "headword": "{終了|しゅうりょう}する",
+      "label": "to end, to finish"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25528_kanseisuru",
+      "reading": "かんせいする",
+      "headword": "{完成|かんせい}する",
+      "label": "to complete"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01950_sumu",
+      "reading": "すむ",
+      "headword": "{済|す}む",
+      "label": "to be finished"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20679_kanketsusuru",
+      "reading": "かんけつする",
+      "headword": "{完結|かんけつ}する",
+      "label": "to conclude"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +83,7 @@
         "verb-suru"
       ],
       "formality": "formal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "action",
         "business"
@@ -61,7 +91,7 @@
       "verb_class": "suru"
     },
     "created": "2026-03-30T06:39:03Z",
-    "modified": "2026-03-30T06:39:03Z"
+    "modified": "2026-09-02T04:02:00Z"
   },
   "conjugation": {
     "type": "suru",

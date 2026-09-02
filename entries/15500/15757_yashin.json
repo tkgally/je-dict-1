@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "15757_yashin_ex1",
-      "japanese": "{彼|かれ}は{野心|やしん}のある{人|ひと}だ。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{野心|やしん}⟦の→の：09472_no⟧⟦ある→ある：00006_aru⟧⟦{人|ひと}→人：00476_hito⟧だ。",
       "english": "He is an ambitious person.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15757_yashin_ex2",
-      "japanese": "{政治的|せいじてき}な{野心|やしん}を{隠|かく}そうともしない。",
+      "japanese": "⟦{政治的|せいじてき}→政治的：05684_seijiteki⟧な{野心|やしん}⟦を→を：00422_wo⟧⟦{隠|かく}そう→隠す：02034_kakusu⟧⟦と→と：00512_to⟧もしない。",
       "english": "He doesn't even try to hide his political ambition.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15757_yashin_ex3",
-      "japanese": "{野心|やしん}に{燃|も}える{若者|わかもの}が{次々|つぎつぎ}と{都会|とかい}を{目指|めざ}した{時代|じだい}があった。",
+      "japanese": "{野心|やしん}⟦に→に：00314_ni⟧⟦{燃|も}える→燃える：02312_moeru⟧⟦{若者|わかもの}→若者：03037_wakamono⟧⟦が→が：00051_ga⟧⟦{次々|つぎつぎ}→次々：03522_tsugitsugi⟧⟦と→と：00512_to⟧⟦{都会|とかい}→都会：02475_tokai⟧⟦を→を：00422_wo⟧⟦{目指|めざ}した→目指す：10528_mezasu⟧⟦{時代|じだい}→時代：01424_jidai⟧⟦が→が：00051_ga⟧⟦あった→ある：00006_aru⟧。",
       "english": "There was an era when ambitious young people flocked to the city one after another.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\n{野心|やしん} typically carries a negative or cautious nuance in Japanese, unlike the generally positive English word \"ambition.\" It often implies scheming, aggression, or overreaching. For positive ambition, {志|こころざし} or {向上心|こうじょうしん} are more appropriate.\n\nCOMMON COLLOCATIONS:\n- {野心|やしん}を{抱|いだ}く (harbor ambition)\n- {野心|やしん}に{燃|も}える (burn with ambition)\n- {野心|やしん}{家|か} (an ambitious person — often negative)\n- {野心|やしん}{的|てき}な (ambitious — often aggressive)\n- {政治的|せいじてき}{野心|やしん} (political ambition)\n\nSIMILAR WORDS:\n{向上心|こうじょうしん} is a positive word meaning \"desire for self-improvement.\" {志|こころざし} means \"aspiration\" or \"aim\" with a noble or idealistic nuance. {大志|たいし} means \"great ambition\" and is generally positive.",
+  "notes": "USAGE:\n{野心|やしん} typically carries a negative or cautious nuance in Japanese, unlike the generally positive English word \"ambition.\" It often implies scheming, aggression, or overreaching. For positive ambition, ⟦{志|こころざし}→志：06655_kokorozashi⟧ or ⟦{向上心|こうじょうしん}→向上心：11897_koujoushin⟧ are more appropriate.\n\nCOMMON COLLOCATIONS:\n- {野心|やしん}⟦を→を：00422_wo⟧⟦{抱|いだ}く→抱く：02010_idaku⟧ (harbor ambition)\n- {野心|やしん}⟦に→に：00314_ni⟧⟦{燃|も}える→燃える：02312_moeru⟧ (burn with ambition)\n- {野心|やしん}{家|か} (an ambitious person — often negative)\n- {野心|やしん}⟦{的|てき}→〜的：09839_teki⟧な (ambitious — often aggressive)\n- ⟦{政治的|せいじてき}→政治的：05684_seijiteki⟧{野心|やしん} (political ambition)\n\nSIMILAR WORDS:\n⟦{向上心|こうじょうしん}→向上心：11897_koujoushin⟧ is a positive word meaning \"desire for self-improvement.\" ⟦{志|こころざし}→志：06655_kokorozashi⟧ means \"aspiration\" or \"aim\" with a noble or idealistic nuance. ⟦{大志|たいし}→大志：28925_taishi⟧ means \"great ambition\" and is generally positive.",
   "cross_references": [
     {
       "type": "contrast",
@@ -53,18 +59,37 @@
       "reading": "こころざし",
       "headword": "{志|こころざし}",
       "label": "noble aspiration"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23681_shusseyoku",
+      "reading": "しゅっせよく",
+      "headword": "{出世欲|しゅっせよく}",
+      "label": "desire for career advancement"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28925_taishi",
+      "reading": "たいし",
+      "headword": "{大志|たいし}",
+      "label": "great ambition"
     }
   ],
   "metadata": {
     "created": "2026-03-08T09:13:50Z",
-    "modified": "2026-05-02T05:13:00Z",
+    "modified": "2026-09-02T04:01:42Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["emotion", "cognition"]
+      "semantic": [
+        "emotion",
+        "cognition"
+      ]
     }
   }
 }

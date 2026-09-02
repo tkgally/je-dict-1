@@ -3,7 +3,7 @@
   "headword": "{受贈|じゅぞう}",
   "reading": "じゅぞう",
   "romaji": "juzou",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "receiving a gift; accepting a donation",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30102_juzou_ex1",
-      "japanese": "{受贈品|じゅぞうひん}を{展示|てんじ}する。",
+      "japanese": "{受贈品|じゅぞうひん}⟦を→を：00422_wo⟧⟦{展示|てんじ}→展示：12401_tenji⟧⟦する→する：00392_suru⟧。",
       "english": "To display the donated items.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30102_juzou_ex2",
-      "japanese": "{美術館|びじゅつかん}が{絵画|かいが}を{受贈|じゅぞう}した。",
+      "japanese": "⟦{美術館|びじゅつかん}→美術館：01717_bijutsukan⟧⟦が→が：00051_ga⟧⟦{絵画|かいが}→絵画：02597_kaiga⟧⟦を→を：00422_wo⟧{受贈|じゅぞう}⟦した→する：00392_suru⟧。",
       "english": "The museum received a painting as a donation.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30102_juzou_ex3",
-      "japanese": "{図書館|としょかん}は{多|おお}くの{本|ほん}を{受贈|じゅぞう}し、{蔵書|ぞうしょ}が{増|ふ}えた。",
+      "japanese": "⟦{図書館|としょかん}→図書館：00580_toshokan⟧⟦は→は：00079_ha⟧{多|おお}く⟦の→の：09472_no⟧{本|ほん}⟦を→を：00422_wo⟧{受贈|じゅぞう}し、⟦{蔵書|ぞうしょ}→蔵書：15479_zousho⟧⟦が→が：00051_ga⟧⟦{増|ふ}えた→増える：01183_fueru⟧。",
       "english": "The library received many books as donations, and its collection grew.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "A formal term for receiving a gift or donation, used mainly of institutions such as museums, libraries, and schools. It is the receiving side of a donation; the giving side is {寄贈|きぞう}.\n\nCOMMON COLLOCATIONS:\n- {受贈|じゅぞう}する: to receive as a gift or donation\n- {受贈品|じゅぞうひん}: received or donated items\n- {受贈者|じゅぞうしゃ}: the recipient\n\nSIMILAR WORDS:\n- {寄贈|きぞう}: donation — from the giver's side\n- {贈呈|ぞうてい}: presentation — formally giving something to someone",
+  "notes": "A formal term for receiving a gift or donation, used mainly of institutions such as museums, libraries, and schools. It is the receiving side of a donation; the giving side is ⟦{寄贈|きぞう}→寄贈：12345_kizou⟧.\n\nCOMMON COLLOCATIONS:\n- {受贈|じゅぞう}⟦する→する：00392_suru⟧: to receive as a gift or donation\n- {受贈品|じゅぞうひん}: received or donated items\n- {受贈者|じゅぞうしゃ}: the recipient\n\nSIMILAR WORDS:\n- ⟦{寄贈|きぞう}→寄贈：12345_kizou⟧: donation — from the giver's side\n- ⟦{贈呈|ぞうてい}→贈呈：16752_zoutei⟧: presentation — formally giving something to someone",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12345_kizou",
+      "reading": "きぞう",
+      "headword": "{寄贈|きぞう}",
+      "label": "donation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16752_zoutei",
+      "reading": "ぞうてい",
+      "headword": "{贈呈|ぞうてい}",
+      "label": "presentation"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -54,15 +70,16 @@
         "verb-suru"
       ],
       "formality": "formal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "action"
       ],
       "domain": [],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-07-25T03:20:29Z",
-    "modified": "2026-07-25T03:20:29Z"
+    "modified": "2026-09-02T04:02:38Z"
   },
   "conjugation": {
     "type": "suru",

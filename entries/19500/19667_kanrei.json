@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "19667_kanrei_ex1",
-      "japanese": "{寒冷|かんれい}な{気候|きこう}に{慣|な}れる。",
+      "japanese": "{寒冷|かんれい}な⟦{気候|きこう}→気候：00231_kikou⟧⟦に→に：00314_ni⟧⟦{慣|な}れる→慣れる：00870_nareru⟧。",
       "english": "Get used to a cold climate.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "19667_kanrei_ex2",
-      "japanese": "{北海道|ほっかいどう}は{寒冷|かんれい}な{地域|ちいき}として{知|し}られている。",
+      "japanese": "⟦{北海道|ほっかいどう}→北海道：11010_hokkaidou⟧⟦は→は：00079_ha⟧{寒冷|かんれい}な⟦{地域|ちいき}→地域：01461_chiiki⟧⟦として→として：06802_toshite⟧⟦{知|し}られている→知る：00458_shiru⟧。",
       "english": "Hokkaido is known as a cold region.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "19667_kanrei_ex3",
-      "japanese": "{寒冷|かんれい}{前線|ぜんせん}の{通過|つうか}に{伴|ともな}い、{気温|きおん}が{急激|きゅうげき}に{下|さ}がる{見込|みこ}みです。",
+      "japanese": "{寒冷|かんれい}{前線|ぜんせん}⟦の→の：09472_no⟧⟦{通過|つうか}→通過：03506_tsuuka⟧⟦に{伴|ともな}い→に伴い：06804_nitomonai⟧、⟦{気温|きおん}→気温：00235_kion⟧⟦が→が：00051_ga⟧⟦{急激|きゅうげき}→急激：02633_kyuugeki⟧⟦に→に：00314_ni⟧⟦{下|さ}がる→下がる：01188_sagaru⟧⟦{見込|みこ}み→見込み：06872_mikomi⟧です。",
       "english": "Temperatures are expected to drop sharply as the cold front passes through.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {寒|かん} (cold) and {冷|れい} (cool, chill). A formal na-adjective used in weather, geography, and scientific writing rather than everyday conversation.\n\nUSAGE:\nWhile {寒|さむ}い is the everyday word for cold weather, {寒冷|かんれい} is used in formal or technical contexts — weather forecasts, climate descriptions, and scientific writing. It modifies nouns with な: {寒冷|かんれい}な{地域|ちいき}.\n\nCOMMON COLLOCATIONS:\n- {寒冷|かんれい}{前線|ぜんせん} — cold front\n- {寒冷|かんれい}{地|ち} — cold region\n- {寒冷|かんれい}な{気候|きこう} — cold climate\n- {寒冷|かんれい}{紗|しゃ} — cold-weather gauze (medical)\n\nSIMILAR WORDS:\n- {寒|さむ}い — cold; the everyday i-adjective for cold weather\n- {冷涼|れいりょう} — cool and refreshing; a pleasant coolness\n- {極寒|ごっかん} — extreme cold; bitterly cold",
+  "notes": "A compound of {寒|かん} (cold) and {冷|れい} (cool, chill). A formal na-adjective used in weather, geography, and scientific writing rather than everyday conversation.\n\nUSAGE:\nWhile ⟦{寒|さむ}い→寒い：00664_samui⟧ is the everyday word for cold weather, {寒冷|かんれい} is used in formal or technical contexts — weather forecasts, climate descriptions, and scientific writing. It modifies nouns with な: {寒冷|かんれい}な⟦{地域|ちいき}→地域：01461_chiiki⟧.\n\nCOMMON COLLOCATIONS:\n- {寒冷|かんれい}{前線|ぜんせん} — cold front\n- {寒冷|かんれい}{地|ち} — cold region\n- {寒冷|かんれい}な⟦{気候|きこう}→気候：00231_kikou⟧ — cold climate\n- {寒冷|かんれい}{紗|しゃ} — cold-weather gauze (medical)\n\nSIMILAR WORDS:\n- ⟦{寒|さむ}い→寒い：00664_samui⟧ — cold; the everyday i-adjective for cold weather\n- {冷涼|れいりょう} — cool and refreshing; a pleasant coolness\n- ⟦{極寒|ごっかん}→極寒：21345_gokkan⟧ — extreme cold; bitterly cold",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00664_samui",
+      "reading": "さむい",
+      "headword": "{寒|さむ}い",
+      "label": "cold"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21345_gokkan",
+      "reading": "ごっかん",
+      "headword": "{極寒|ごっかん}",
+      "label": "extreme cold"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +76,6 @@
       ]
     },
     "created": "2026-03-26T11:44:54Z",
-    "modified": "2026-03-26T11:44:54Z"
+    "modified": "2026-09-02T04:01:56Z"
   }
 }

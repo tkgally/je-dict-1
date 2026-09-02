@@ -14,41 +14,80 @@
   "examples": [
     {
       "id": "09264_tsumikomi_ex1",
-      "japanese": "{荷物|にもつ}の{積|つ}み{込|こ}みが{終|お}わった。",
+      "japanese": "⟦{荷物|にもつ}→荷物：00737_nimotsu⟧⟦の→の：09472_no⟧{積|つ}み{込|こ}み⟦が→が：00051_ga⟧⟦{終|お}わった→終わる：00567_owaru⟧。",
       "english": "The loading of the luggage is finished.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "09264_tsumikomi_ex2",
-      "japanese": "{積|つ}み{込|こ}み{作業|さぎょう}は{午前中|ごぜんちゅう}に{行|おこな}われる。",
+      "japanese": "{積|つ}み{込|こ}み⟦{作業|さぎょう}→作業：02775_sagyou⟧⟦は→は：00079_ha⟧⟦{午前中|ごぜんちゅう}→午前中：11495_gozenchuu⟧⟦に→に：00314_ni⟧⟦{行|おこな}われる→行う：01238_okonau⟧。",
       "english": "The loading work is done in the morning.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "09264_tsumikomi_ex3",
-      "japanese": "トラックへの{積|つ}み{込|こ}みには{二時間|にじかん}かかった。",
+      "japanese": "⟦トラック→トラック：03863_torakku⟧⟦へ→へ：02473_he⟧⟦の→の：09472_no⟧{積|つ}み{込|こ}み⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{二時間|にじかん}→二時間：27637_nijikan⟧⟦かかった→かかる：00711_kakaru⟧。",
       "english": "Loading onto the truck took two hours.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Noun form of the verb {積|つ}み{込|こ}む (to load). Refers to the act or process of loading cargo onto vehicles, ships, or containers.\n\nCOMMON COLLOCATIONS:\n- {積|つ}み{込|こ}み{作業|さぎょう}: loading work/operation\n- {積|つ}み{込|こ}み{完了|かんりょう}: loading complete\n- {積|つ}み{込|こ}み{開始|かいし}: start of loading\n- {積|つ}み{込|こ}み{場所|ばしょ}: loading area\n\nOPPOSITE:\n- {積|つ}み{下|お}ろし: unloading\n\nRELATED TERMS:\n- {積|つ}み{込|こ}む: to load (verb form)\n- {荷積|にづ}み: loading cargo\n- {出荷|しゅっか}: shipping, dispatching\n\nREGISTER:\nUsed in logistics, transportation, and warehouse contexts.",
-  "cross_references": [],
+  "notes": "Noun form of the verb ⟦{積|つ}み{込|こ}む→積み込む：16751_tsumikomu⟧ (to load). Refers to the act or process of loading cargo onto vehicles, ships, or containers.\n\nCOMMON COLLOCATIONS:\n- {積|つ}み{込|こ}み⟦{作業|さぎょう}→作業：02775_sagyou⟧: loading work/operation\n- {積|つ}み{込|こ}み⟦{完了|かんりょう}→完了：02560_kanryou⟧: loading complete\n- {積|つ}み{込|こ}み⟦{開始|かいし}→開始：02537_kaishi⟧: start of loading\n- {積|つ}み{込|こ}み⟦{場所|ばしょ}→場所：00829_basho⟧: loading area\n\nSIMILAR WORDS:\n- ⟦{積|つ}み{下|お}ろし→積み下ろし：09801_tsumioroshi⟧: unloading\n\nRELATED WORDS:\n- ⟦{積|つ}み{込|こ}む→積み込む：16751_tsumikomu⟧: to load (verb form)\n- ⟦{荷積|にづ}み→荷積み：24584_nizumi⟧: loading cargo\n- ⟦{出荷|しゅっか}→出荷：05135_shukka⟧: shipping, dispatching\n\nREGISTER:\nUsed in logistics, transportation, and warehouse contexts.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09801_tsumioroshi",
+      "reading": "つみおろし",
+      "headword": "{積|つ}み{下|お}ろし",
+      "label": "unloading"
+    },
+    {
+      "type": "related",
+      "target_id": "16751_tsumikomu",
+      "reading": "つみこむ",
+      "headword": "{積|つ}み{込|こ}む",
+      "label": "to load"
+    },
+    {
+      "type": "related",
+      "target_id": "24584_nizumi",
+      "reading": "にづみ",
+      "headword": "{荷積|にづ}み",
+      "label": "loading cargo"
+    },
+    {
+      "type": "related",
+      "target_id": "05135_shukka",
+      "reading": "しゅっか",
+      "headword": "{出荷|しゅっか}",
+      "label": "shipping, dispatching"
+    }
+  ],
   "metadata": {
     "created": "2026-02-01T06:15:45Z",
-    "modified": "2026-04-06T04:02:27Z",
+    "modified": "2026-09-02T04:01:17Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["work"]
+      "semantic": [
+        "work"
+      ]
     }
   }
 }

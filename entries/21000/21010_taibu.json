@@ -15,40 +15,66 @@
   "examples": [
     {
       "id": "21010_taibu_ex1",
-      "japanese": "サッカー{部|ぶ}を{退部|たいぶ}した。",
+      "japanese": "⟦サッカー→サッカー：04726_sakkaa⟧⟦{部|ぶ}→〜部：00440_bu⟧⟦を→を：00422_wo⟧{退部|たいぶ}⟦した→する：00392_suru⟧。",
       "english": "I quit the soccer club.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21010_taibu_ex2",
-      "japanese": "{退部届|たいぶとどけ}を{顧問|こもん}の{先生|せんせい}に{出|だ}した。",
+      "japanese": "{退部届|たいぶとどけ}⟦を→を：00422_wo⟧⟦{顧問|こもん}→顧問：16146_komon⟧⟦の→の：09472_no⟧⟦{先生|せんせい}→先生：00609_sensei⟧⟦に→に：00314_ni⟧⟦{出|だ}した→出す：01087_dasu⟧。",
       "english": "I submitted a withdrawal form to the club advisor.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21010_taibu_ex3",
-      "japanese": "{怪我|けが}がなかなか{治|なお}らなくて、{結局|けっきょく}{退部|たいぶ}することにした。",
+      "japanese": "{怪我|けが}⟦が→が：00051_ga⟧⟦なかなか→なかなか：01547_nakanaka⟧⟦{治|なお}らなくて→治る：19598_naoru⟧、⟦{結局|けっきょく}→結局：03815_kekkyoku⟧{退部|たいぶ}⟦する→する：00392_suru⟧ことにした。",
       "english": "My injury wouldn't heal, so in the end I decided to quit the club.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Used primarily in the context of Japanese school club activities ({部活動|ぶかつどう}). Club membership is a significant part of student life in Japan, so {退部|たいぶ} can carry emotional weight, especially when the departure is not voluntary.\n\nCOMMON COLLOCATIONS:\n- {退部|たいぶ}する: to leave a club, to quit\n- {退部届|たいぶとどけ}: club withdrawal form\n- {退部|たいぶ}を{申|もう}し{出|で}る: to request to leave a club\n\nSIMILAR WORDS:\n- {入部|にゅうぶ}: joining a club — the opposite action\n- {退会|たいかい}: withdrawing from an organization — broader, covering any membership-based group\n- {休部|きゅうぶ}: taking a break from a club — temporarily stepping away without formally leaving",
+  "notes": "Used primarily in the context of Japanese school club activities (⟦{部活動|ぶかつどう}→部活動：14539_bukatsudou⟧). Club membership is a significant part of student life in Japan, so {退部|たいぶ} can carry emotional weight, especially when the departure is not voluntary.\n\nCOMMON COLLOCATIONS:\n- {退部|たいぶ}⟦する→する：00392_suru⟧: to leave a club, to quit\n- {退部届|たいぶとどけ}: club withdrawal form\n- {退部|たいぶ}⟦を→を：00422_wo⟧⟦{申|もう}し{出|で}る→申し出る：10465_moushideru⟧: to request to leave a club\n\nSIMILAR WORDS:\n- ⟦{入部|にゅうぶ}→入部：11685_nyuubu⟧: joining a club — the opposite action\n- ⟦{退会|たいかい}→退会：16082_taikai⟧: withdrawing from an organization — broader, covering any membership-based group\n- {休部|きゅうぶ}: taking a break from a club — temporarily stepping away without formally leaving",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11685_nyuubu",
+      "reading": "にゅうぶ",
+      "headword": "{入部|にゅうぶ}",
+      "label": "joining a club"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16082_taikai",
+      "reading": "たいかい",
+      "headword": "{退会|たいかい}",
+      "label": "withdrawing from an organization"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["education"]
+      "semantic": [
+        "education"
+      ]
     },
     "created": "2026-03-31T14:09:57Z",
-    "modified": "2026-03-31T14:09:57Z"
+    "modified": "2026-09-02T04:02:01Z"
   }
 }

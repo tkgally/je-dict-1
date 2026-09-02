@@ -15,40 +15,66 @@
   "examples": [
     {
       "id": "24947_kuuponken_ex1",
-      "japanese": "クーポン{券|けん}を{使|つか}いますか。",
+      "japanese": "クーポン{券|けん}⟦を→を：00422_wo⟧⟦{使|つか}います→使う：00473_tsukau⟧⟦か→か：09473_ka⟧。",
       "english": "Would you like to use a coupon?",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "24947_kuuponken_ex2",
-      "japanese": "アプリでクーポン{券|けん}を{配布|はいふ}しています。",
+      "japanese": "⟦アプリ→アプリ：04722_apuri⟧⟦で→で：00502_de⟧クーポン{券|けん}⟦を→を：00422_wo⟧⟦{配布|はいふ}→配布：14410_haifu⟧⟦しています→する：00392_suru⟧。",
       "english": "We're distributing coupons through the app.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "24947_kuuponken_ex3",
-      "japanese": "{誕生日|たんじょうび}に{届|とど}いたクーポン{券|けん}を{使|つか}って、ケーキを{無料|むりょう}でもらえた。",
+      "japanese": "⟦{誕生日|たんじょうび}→誕生日：02910_tanjoubi⟧⟦に→に：00314_ni⟧⟦{届|とど}いた→届く：00899_todoku⟧クーポン{券|けん}⟦を→を：00422_wo⟧⟦{使|つか}って→使う：00473_tsukau⟧、⟦ケーキ→ケーキ：01356_keeki⟧⟦を→を：00422_wo⟧⟦{無料|むりょう}→無料：01662_muryou⟧⟦で→で：00502_de⟧⟦もらえた→もらう：00520_morau⟧。",
       "english": "I used a coupon I received for my birthday and got a cake for free.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Compound of クーポン (coupon, from French/English) and {券|けん} (ticket; certificate). Strictly speaking, クーポン alone already means coupon, so クーポン{券|けん} is somewhat redundant, but this full form is extremely common in everyday Japanese, especially for physical paper coupons.\n\nCOMMON COLLOCATIONS:\n- クーポン{券|けん}を{使|つか}う: to use a coupon\n- クーポン{券|けん}を{配|くば}る: to hand out coupons\n- {割引|わりびき}クーポン{券|けん}: discount coupon\n- {食事|しょくじ}クーポン{券|けん}: meal voucher\n\nUSAGE:\nIn casual speech and digital contexts, the shorter クーポン is increasingly common. The full form クーポン{券|けん} is preferred when referring to physical paper coupons or in more formal commercial contexts.\n\nSIMILAR WORDS:\n- クーポン: the shorter form, especially common for digital coupons\n- {商品券|しょうひんけん}: gift certificate, exchangeable for merchandise\n- {割引券|わりびきけん}: discount ticket, more generic term",
+  "notes": "Compound of ⟦クーポン→クーポン：06446_kuupon⟧ (coupon, from French/English) and ⟦{券|けん}→券：02150_ken⟧ (ticket; certificate). Strictly speaking, ⟦クーポン→クーポン：06446_kuupon⟧ alone already means coupon, so クーポン{券|けん} is somewhat redundant, but this full form is extremely common in everyday Japanese, especially for physical paper coupons.\n\nCOMMON COLLOCATIONS:\n- クーポン{券|けん}⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧: to use a coupon\n- クーポン{券|けん}⟦を→を：00422_wo⟧⟦{配|くば}る→配る：03921_kubaru⟧: to hand out coupons\n- ⟦{割引|わりびき}→割引：01526_waribiki⟧クーポン{券|けん}: discount coupon\n- ⟦{食事|しょくじ}→食事：02087_shokuji⟧クーポン{券|けん}: meal voucher\n\nUSAGE:\nIn casual speech and digital contexts, the shorter ⟦クーポン→クーポン：06446_kuupon⟧ is increasingly common. The full form クーポン{券|けん} is preferred when referring to physical paper coupons or in more formal commercial contexts.\n\nSIMILAR WORDS:\n- ⟦クーポン→クーポン：06446_kuupon⟧: the shorter form, especially common for digital coupons\n- ⟦{商品券|しょうひんけん}→商品券：22121_shouhinken⟧: gift certificate, exchangeable for merchandise\n- ⟦{割引券|わりびきけん}→割引券：09545_waribikiken⟧: discount ticket, more generic term",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22121_shouhinken",
+      "reading": "しょうひんけん",
+      "headword": "{商品券|しょうひんけん}",
+      "label": "gift certificate, exchangeable…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09545_waribikiken",
+      "reading": "わりびきけん",
+      "headword": "{割引券|わりびきけん}",
+      "label": "discount ticket, more generic term"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     },
     "created": "2026-04-21T14:21:21Z",
-    "modified": "2026-04-21T14:21:21Z"
+    "modified": "2026-09-02T04:02:20Z"
   }
 }

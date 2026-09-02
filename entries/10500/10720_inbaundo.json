@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "10720_inbaundo_ex1",
-      "japanese": "インバウンド{需要|じゅよう}が{伸|の}びている。",
+      "japanese": "インバウンド⟦{需要|じゅよう}→需要：02616_juyou⟧⟦が→が：00051_ga⟧⟦{伸|の}びている→伸びる：01974_nobiru⟧。",
       "english": "Inbound tourism demand is growing.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "10720_inbaundo_ex2",
-      "japanese": "インバウンドの{観光客|かんこうきゃく}が{増|ふ}えて、{京都|きょうと}は{混雑|こんざつ}している。",
+      "japanese": "インバウンド⟦の→の：09472_no⟧⟦{観光客|かんこうきゃく}→観光客：03022_kankoukyaku⟧⟦が→が：00051_ga⟧⟦{増|ふ}えて→増える：01183_fueru⟧、⟦{京都|きょうと}→京都：09484_kyouto⟧⟦は→は：00079_ha⟧⟦{混雑|こんざつ}している→混雑する：25387_konzatsusuru⟧。",
       "english": "Kyoto is crowded because of the increase in inbound tourists.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "10720_inbaundo_ex3",
-      "japanese": "インバウンド{対策|たいさく}として、{多言語|たげんご}の{案内|あんない}{表示|ひょうじ}を{設置|せっち}する{自治体|じちたい}が{増|ふ}えている。",
+      "japanese": "インバウンド⟦{対策|たいさく}→対策：02511_taisaku⟧⟦として→として：06802_toshite⟧、{多言語|たげんご}⟦の→の：09472_no⟧⟦{案内|あんない}→案内：01291_annai⟧⟦{表示|ひょうじ}→表示：03143_hyouji⟧⟦を→を：00422_wo⟧⟦{設置|せっち}する→設置する：26989_secchisuru⟧⟦{自治体|じちたい}→自治体：13946_jichitai⟧⟦が→が：00051_ga⟧⟦{増|ふ}えている→増える：01183_fueru⟧。",
       "english": "As a measure for inbound tourism, more local governments are installing multilingual signage.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,19 @@
       ]
     }
   ],
-  "notes": "USAGE:\nインバウンド became a major buzzword in Japan starting around 2015 as the government actively promoted foreign tourism. It is used as both a noun and a modifier. The term appears constantly in news, business, and policy discussions about tourism. The opposite concept (Japanese traveling abroad) is アウトバウンド.\n\nCOMMON COLLOCATIONS:\n- インバウンド{需要|じゅよう}: inbound tourism demand\n- インバウンド{対策|たいさく}: measures for inbound tourism\n- インバウンド{消費|しょうひ}: spending by foreign tourists\n- インバウンド{効果|こうか}: inbound tourism effect",
-  "cross_references": [],
+  "notes": "USAGE:\nインバウンド became a major buzzword in Japan starting around 2015 as the government actively promoted foreign tourism. It is used as both a noun and a modifier. The term appears constantly in news, business, and policy discussions about tourism. The opposite concept (Japanese traveling abroad) is ⟦アウト→アウト：00007_auto⟧バウンド.\n\nCOMMON COLLOCATIONS:\n- インバウンド⟦{需要|じゅよう}→需要：02616_juyou⟧: inbound tourism demand\n- インバウンド⟦{対策|たいさく}→対策：02511_taisaku⟧: measures for inbound tourism\n- インバウンド⟦{消費|しょうひ}→消費：03240_shouhi⟧: spending by foreign tourists\n- インバウンド⟦{効果|こうか}→効果：02726_kouka⟧: inbound tourism effect",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "03022_kankoukyaku",
+      "reading": "かんこうきゃく",
+      "headword": "{観光客|かんこうきゃく}",
+      "label": "tourist, sightseer"
+    }
+  ],
   "metadata": {
     "created": "2026-02-09T07:23:05Z",
-    "modified": "2026-06-28T03:47:16Z",
+    "modified": "2026-09-02T04:01:22Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

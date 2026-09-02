@@ -15,41 +15,66 @@
   "examples": [
     {
       "id": "11445_shimei_ex1",
-      "japanese": "{使命|しめい}を{果|は}たす。",
+      "japanese": "{使命|しめい}⟦を→を：00422_wo⟧⟦{果|は}たす→果たす：10060_hatasu⟧。",
       "english": "To fulfill one's mission.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11445_shimei_ex2",
-      "japanese": "{教育|きょういく}は{社会|しゃかい}の{使命|しめい}だ。",
+      "japanese": "⟦{教育|きょういく}→教育：01313_kyouiku⟧⟦は→は：00079_ha⟧⟦{社会|しゃかい}→社会：01427_shakai⟧⟦の→の：09472_no⟧{使命|しめい}だ。",
       "english": "Education is a mission of society.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11445_shimei_ex3",
-      "japanese": "{医者|いしゃ}として{命|いのち}を{救|すく}うことが{自分|じぶん}の{使命|しめい}だと{感|かん}じている。",
+      "japanese": "⟦{医者|いしゃ}→医者：02847_isha⟧⟦として→として：06802_toshite⟧⟦{命|いのち}→命：02371_inochi⟧⟦を→を：00422_wo⟧⟦{救|すく}う→救う：02063_sukuu⟧こと⟦が→が：00051_ga⟧⟦{自分|じぶん}→自分：02887_jibun⟧⟦の→の：09472_no⟧{使命|しめい}だ⟦と→と：00512_to⟧⟦{感|かん}じている→感じる：02044_kanjiru⟧。",
       "english": "As a doctor, I feel that saving lives is my calling.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{使命|しめい} refers to an important duty, mission, or calling — a responsibility entrusted to someone, often implying a higher purpose.\n\nWORD FORMATION:\n{使|し} (use, envoy) + {命|めい} (command, life) = a commanded purpose\n\nCOMMON COLLOCATIONS:\n- {使命|しめい}を{果|は}たす: to fulfill a mission\n- {使命|しめい}を{帯|お}びる: to be entrusted with a mission\n- {使命|しめい}{感|かん}: sense of mission, sense of purpose\n- {歴史的|れきしてき}{使命|しめい}: historical mission\n- {使命|しめい}を{全|まっと}うする: to carry out one's mission completely\n\nSIMILAR WORDS:\n- {使命|しめい}: mission, calling (implies higher purpose or destiny)\n- {任務|にんむ}: duty, assignment (more concrete, assigned task)\n- {役割|やくわり}: role (function within a group)\n- {天職|てんしょく}: vocation, calling (emphasis on being naturally suited)\n\n{使命|しめい} is weightier than {任務|にんむ}. A soldier has a {任務|にんむ} (assigned task), but a doctor may feel saving lives is their {使命|しめい} (calling).\n\nREGISTER:\nSlightly formal. Common in speeches, organizational mission statements, and personal expressions of purpose.",
-  "cross_references": [],
+  "notes": "{使命|しめい} refers to an important duty, mission, or calling — a responsibility entrusted to someone, often implying a higher purpose.\n\nFORMS:\n{使|し} (use, envoy) + {命|めい} (command, life) = a commanded purpose\n\nCOMMON COLLOCATIONS:\n- {使命|しめい}⟦を→を：00422_wo⟧⟦{果|は}たす→果たす：10060_hatasu⟧: to fulfill a mission\n- {使命|しめい}⟦を→を：00422_wo⟧⟦{帯|お}びる→帯びる：12428_obiru⟧: to be entrusted with a mission\n- {使命|しめい}{感|かん}: sense of mission, sense of purpose\n- ⟦{歴史的|れきしてき}→歴史的：05671_rekishiteki⟧{使命|しめい}: historical mission\n- {使命|しめい}⟦を→を：00422_wo⟧⟦{全|まっと}うする→全うする：11651_mattousuru⟧: to carry out one's mission completely\n\nSIMILAR WORDS:\n- {使命|しめい}: mission, calling (implies higher purpose or destiny)\n- ⟦{任務|にんむ}→任務：05513_ninmu⟧: duty, assignment (more concrete, assigned task)\n- ⟦{役割|やくわり}→役割：03638_yakuwari⟧: role (function within a group)\n- {天職|てんしょく}: vocation, calling (emphasis on being naturally suited)\n\n{使命|しめい} is weightier than ⟦{任務|にんむ}→任務：05513_ninmu⟧. A soldier has a ⟦{任務|にんむ}→任務：05513_ninmu⟧ (assigned task), but a doctor may feel saving lives is their {使命|しめい} (calling).\n\nREGISTER:\nSlightly formal. Common in speeches, organizational mission statements, and personal expressions of purpose.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05513_ninmu",
+      "reading": "にんむ",
+      "headword": "{任務|にんむ}",
+      "label": "duty, assignment"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03638_yakuwari",
+      "reading": "やくわり",
+      "headword": "{役割|やくわり}",
+      "label": "role"
+    }
+  ],
   "metadata": {
     "created": "2026-02-16T10:57:49Z",
-    "modified": "2026-04-04T12:31:47Z",
+    "modified": "2026-09-02T04:01:25Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

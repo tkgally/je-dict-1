@@ -78,7 +78,7 @@
       ]
     }
   ],
-  "notes": "MATHEMATICAL TERMS:\n・⟦{直角|ちょっかく}→直角：05444_chokkaku⟧ (right angle - 90°)\n・⟦{鋭角|えいかく}→鋭角：05554_eikaku⟧ (acute angle - less than 90°)\n・⟦{鈍角|どんかく}→鈍角：05555_donkaku⟧ (obtuse angle - more than 90°)\n・{角度|かくど}⟦を→を：00422_wo⟧⟦{測|はか}る→測る：01977_hakaru⟧ (to measure an angle)\n\nFIGURATIVE USAGE:\n・{角度|かくど}⟦を→を：00422_wo⟧⟦{変|か}える→変える：01089_kaeru⟧ (to change one's approach/perspective)\n・⟦{別|べつ}→別：01216_betsu⟧⟦の→の：09472_no⟧{角度|かくど}⟦から→から：00504_kara⟧ (from a different angle/perspective)\n・⟦{様々|さまざま}→様々：01559_samazama⟧⟦な→な：09497_na⟧{角度|かくど}⟦から→から：00504_kara⟧ (from various perspectives)\n・⟦この→この：00962_kono⟧{角度|かくど}⟦から→から：00504_kara⟧⟦{見|み}る→見る：00283_miru⟧⟦と→と：00512_to⟧ (from this perspective)\n\nRELATED WORDS:\n・⟦{視点|してん}→視点：03187_shiten⟧ (viewpoint - more abstract)\n・⟦{観点|かんてん}→観点：05582_kanten⟧ (standpoint - formal)\n・⟦アングル→アングル：27368_anguru⟧ (angle - photography/film term)",
+  "notes": "MATHEMATICAL TERMS:\n- ⟦{直角|ちょっかく}→直角：05444_chokkaku⟧ (right angle - 90°)\n- ⟦{鋭角|えいかく}→鋭角：05554_eikaku⟧ (acute angle - less than 90°)\n- ⟦{鈍角|どんかく}→鈍角：05555_donkaku⟧ (obtuse angle - more than 90°)\n- {角度|かくど}⟦を→を：00422_wo⟧⟦{測|はか}る→測る：01977_hakaru⟧ (to measure an angle)\n\nUSAGE:\n- {角度|かくど}⟦を→を：00422_wo⟧⟦{変|か}える→変える：01089_kaeru⟧ (to change one's approach/perspective)\n- ⟦{別|べつ}→別：01216_betsu⟧⟦の→の：09472_no⟧{角度|かくど}⟦から→から：00504_kara⟧ (from a different angle/perspective)\n- ⟦{様々|さまざま}→様々：01559_samazama⟧⟦な→な：09497_na⟧{角度|かくど}⟦から→から：00504_kara⟧ (from various perspectives)\n- ⟦この→この：00962_kono⟧{角度|かくど}⟦から→から：00504_kara⟧⟦{見|み}る→見る：00283_miru⟧⟦と→と：00512_to⟧ (from this perspective)\n\nRELATED WORDS:\n- ⟦{視点|してん}→視点：03187_shiten⟧ (viewpoint - more abstract)\n- ⟦{観点|かんてん}→観点：05582_kanten⟧ (standpoint - formal)\n- ⟦アングル→アングル：27368_anguru⟧ (angle - photography/film term)",
   "cross_references": [
     {
       "type": "related",
@@ -93,11 +93,39 @@
       "headword": "{観点|かんてん}",
       "label": "standpoint, perspective",
       "target_id": "05582_kanten"
+    },
+    {
+      "type": "related",
+      "target_id": "27368_anguru",
+      "reading": "あんぐる",
+      "headword": "アングル",
+      "label": "angle"
+    },
+    {
+      "type": "related",
+      "target_id": "05554_eikaku",
+      "reading": "えいかく",
+      "headword": "{鋭角|えいかく}",
+      "label": "acute angle"
+    },
+    {
+      "type": "related",
+      "target_id": "05555_donkaku",
+      "reading": "どんかく",
+      "headword": "{鈍角|どんかく}",
+      "label": "obtuse angle"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22311_kirikuchi",
+      "reading": "きりくち",
+      "headword": "{切|き}り{口|くち}",
+      "label": "cut end"
     }
   ],
   "metadata": {
     "created": "2026-01-13T10:53:53Z",
-    "modified": "2026-08-08T09:25:02Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "20191_saisen_ex1",
-      "japanese": "{市長|しちょう}が{再選|さいせん}された。",
+      "japanese": "⟦{市長|しちょう}→市長：12472_shichou⟧⟦が→が：00051_ga⟧{再選|さいせん}⟦された→する：00392_suru⟧。",
       "english": "The mayor was re-elected.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "20191_saisen_ex2",
-      "japanese": "{彼|かれ}は{再選|さいせん}を{目指|めざ}して{選挙活動|せんきょかつどう}を{始|はじ}めた。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{再選|さいせん}⟦を→を：00422_wo⟧⟦{目指|めざ}して→目指す：10528_mezasu⟧{選挙活動|せんきょかつどう}⟦を→を：00422_wo⟧⟦{始|はじ}めた→始める：00531_hajimeru⟧。",
       "english": "He started campaigning with the aim of re-election.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "20191_saisen_ex3",
-      "japanese": "{圧倒的|あっとうてき}な{支持|しじ}を{得|え}て、{三期連続|さんきれんぞく}で{再選|さいせん}を{果|は}たした。",
+      "japanese": "⟦{圧倒的|あっとうてき}→圧倒的：05853_attouteki⟧な⟦{支持|しじ}→支持：12933_shiji⟧⟦を→を：00422_wo⟧⟦{得|え}て→得る：02014_eru⟧、{三期連続|さんきれんぞく}⟦で→で：00502_de⟧{再選|さいせん}⟦を→を：00422_wo⟧⟦{果|は}たした→果たす：10060_hatasu⟧。",
       "english": "With overwhelming support, they achieved re-election for a third consecutive term.",
       "sense_numbers": [
         1
@@ -134,8 +134,31 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {再|さい} (again) + {選|せん} (election/selection). A standard political term frequently seen in news about elections.\n\nCOMMON COLLOCATIONS:\n- {再選|さいせん}される: to be re-elected\n- {再選|さいせん}を{目指|めざ}す: to aim for re-election\n- {再選|さいせん}を{果|は}たす: to achieve re-election\n- {再選|さいせん}{出馬|しゅつば}: running for re-election\n\nSIMILAR WORDS:\n- {当選|とうせん}: winning an election — used for both first-time and subsequent wins\n- {落選|らくせん}: losing an election — the opposite outcome\n- {再任|さいにん}: reappointment — for appointed rather than elected positions",
+  "notes": "Composed of ⟦{再|さい}→再〜：03953_sai⟧ (again) + ⟦{選|せん}→選：09879_sen⟧ (election/selection). A standard political term frequently seen in news about elections.\n\nCOMMON COLLOCATIONS:\n- {再選|さいせん}⟦される→する：00392_suru⟧: to be re-elected\n- {再選|さいせん}⟦を→を：00422_wo⟧⟦{目指|めざ}す→目指す：10528_mezasu⟧: to aim for re-election\n- {再選|さいせん}⟦を→を：00422_wo⟧⟦{果|は}たす→果たす：10060_hatasu⟧: to achieve re-election\n- {再選|さいせん}⟦{出馬|しゅつば}→出馬：14954_shutsuba⟧: running for re-election\n\nSIMILAR WORDS:\n- ⟦{当選|とうせん}→当選：07074_tousen⟧: winning an election — used for both first-time and subsequent wins\n- ⟦{落選|らくせん}→落選：07075_rakusen⟧: losing an election — the opposite outcome\n- ⟦{再任|さいにん}→再任：17443_sainin⟧: reappointment — for appointed rather than elected positions",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07074_tousen",
+      "reading": "とうせん",
+      "headword": "{当選|とうせん}",
+      "label": "winning an election"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07075_rakusen",
+      "reading": "らくせん",
+      "headword": "{落選|らくせん}",
+      "label": "losing an election"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17443_sainin",
+      "reading": "さいにん",
+      "headword": "{再任|さいにん}",
+      "label": "reappointment"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -151,6 +174,6 @@
       "verb_class": "suru"
     },
     "created": "2026-03-28T16:18:32Z",
-    "modified": "2026-03-28T16:18:32Z"
+    "modified": "2026-09-02T04:01:58Z"
   }
 }

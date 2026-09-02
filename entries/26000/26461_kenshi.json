@@ -15,39 +15,74 @@
   "examples": [
     {
       "id": "26461_kenshi_ex1",
-      "japanese": "{繭|まゆ}から{繭糸|けんし}を{取|と}り{出|だ}す。",
+      "japanese": "⟦{繭|まゆ}→繭：13861_mayu⟧⟦から→から：00504_kara⟧{繭糸|けんし}⟦を→を：00422_wo⟧⟦{取|と}り{出|だ}す→取り出す：04220_toridasu⟧。",
       "english": "To extract silk thread from cocoons.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26461_kenshi_ex2",
-      "japanese": "{繭糸|けんし}の{品質|ひんしつ}は{蚕|かいこ}の{育|そだ}て{方|かた}で{変|か}わる。",
+      "japanese": "{繭糸|けんし}⟦の→の：09472_no⟧⟦{品質|ひんしつ}→品質：09507_hinshitsu⟧⟦は→は：00079_ha⟧⟦{蚕|かいこ}→蚕：21218_kaiko⟧⟦の→の：09472_no⟧⟦{育|そだ}て→育てる：01235_sodateru⟧⟦{方|かた}→方：10665_kata⟧⟦で→で：00502_de⟧⟦{変|か}わる→変わる：00714_kawaru⟧。",
       "english": "The quality of silk thread changes depending on how the silkworms are raised.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26461_kenshi_ex3",
-      "japanese": "{明治|めいじ}{時代|じだい}、{日本|にほん}は{繭糸|けんし}の{輸出|ゆしゅつ}で{外貨|がいか}を{稼|かせ}いだ。",
+      "japanese": "⟦{明治|めいじ}{時代|じだい}→明治時代：28080_meijijidai⟧、⟦{日本|にほん}→日本：03876_nihon⟧⟦は→は：00079_ha⟧{繭糸|けんし}⟦の→の：09472_no⟧⟦{輸出|ゆしゅつ}→輸出：02094_yushutsu⟧⟦で→で：00502_de⟧⟦{外貨|がいか}→外貨：12152_gaika⟧⟦を→を：00422_wo⟧⟦{稼|かせ}いだ→稼ぐ：02040_kasegu⟧。",
       "english": "In the Meiji era, Japan earned foreign currency through silk thread exports.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {繭|けん} (cocoon) and {糸|し} (thread). Japan has a long history of sericulture ({養蚕|ようさん}), and silk production was a major industry from the Edo period through the early twentieth century. The {富岡|とみおか}{製糸場|せいしじょう} (Tomioka Silk Mill), a UNESCO World Heritage Site, is a famous example of Japan's silk industry.\n\nCOMMON COLLOCATIONS:\n- {繭糸|けんし}を{紡|つむ}ぐ: to spin silk thread\n- {繭糸|けんし}の{生産|せいさん}: silk thread production\n- {生|き}{繭糸|けんし}: raw silk thread\n- {繭糸|けんし}の{品質|ひんしつ}: silk thread quality\n\nSIMILAR WORDS:\n- {生糸|きいと}: raw silk — the native Japanese reading for unprocessed silk thread\n- {絹糸|きぬいと}: silk thread — processed silk thread ready for weaving\n- {絹|きぬ}: silk — the finished fabric material",
-  "cross_references": [],
+  "notes": "Composed of {繭|けん} (cocoon) and {糸|し} (thread). Japan has a long history of sericulture (⟦{養蚕|ようさん}→養蚕：27720_yousan⟧), and silk production was a major industry from the Edo period through the early twentieth century. The {富岡|とみおか}{製糸場|せいしじょう} (Tomioka Silk Mill), a UNESCO World Heritage Site, is a famous example of Japan's silk industry.\n\nCOMMON COLLOCATIONS:\n- {繭糸|けんし}⟦を→を：00422_wo⟧⟦{紡|つむ}ぐ→紡ぐ：13801_tsumugu⟧: to spin silk thread\n- {繭糸|けんし}⟦の→の：09472_no⟧⟦{生産|せいさん}→生産：01444_seisan⟧: silk thread production\n- {生|き}{繭糸|けんし}: raw silk thread\n- {繭糸|けんし}⟦の→の：09472_no⟧⟦{品質|ひんしつ}→品質：09507_hinshitsu⟧: silk thread quality\n\nSIMILAR WORDS:\n- ⟦{生糸|きいと}→生糸：27719_kiito⟧: raw silk — the native Japanese reading for unprocessed silk thread\n- ⟦{絹糸|きぬいと}→絹糸：27626_kinuito⟧: silk thread — processed silk thread ready for weaving\n- ⟦{絹|きぬ}→絹：01383_kinu⟧: silk — the finished fabric material",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "27719_kiito",
+      "reading": "きいと",
+      "headword": "{生糸|きいと}",
+      "label": "raw silk"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27626_kinuito",
+      "reading": "きぬいと",
+      "headword": "{絹糸|きぬいと}",
+      "label": "silk thread"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01383_kinu",
+      "reading": "きぬ",
+      "headword": "{絹|きぬ}",
+      "label": "silk"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["culture", "history"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "culture",
+        "history"
+      ]
     },
     "created": "2026-05-02T11:30:38Z",
-    "modified": "2026-05-02T11:30:38Z"
+    "modified": "2026-09-02T04:02:26Z"
   }
 }

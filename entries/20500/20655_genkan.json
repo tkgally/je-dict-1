@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "20655_genkan_ex1",
-      "japanese": "{厳寒|げんかん}の{季節|きせつ}がやってきた。",
+      "japanese": "{厳寒|げんかん}⟦の→の：09472_no⟧⟦{季節|きせつ}→季節：01304_kisetsu⟧⟦が→が：00051_ga⟧⟦やって→やる：02980_yaru⟧きた。",
       "english": "The season of severe cold has arrived.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "20655_genkan_ex2",
-      "japanese": "{厳寒|げんかん}の{中|なか}、{作業|さぎょう}を{続|つづ}けた。",
+      "japanese": "{厳寒|げんかん}⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧、⟦{作業|さぎょう}→作業：02775_sagyou⟧⟦を→を：00422_wo⟧⟦{続|つづ}け→続く：00903_tsuzuku⟧た。",
       "english": "They continued working in the bitter cold.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "20655_genkan_ex3",
-      "japanese": "{北海道|ほっかいどう}の{厳寒|げんかん}{期|き}には{気温|きおん}がマイナス30{度|ど}を{下回|したまわ}ることもある。",
+      "japanese": "⟦{北海道|ほっかいどう}→北海道：11010_hokkaidou⟧⟦の→の：09472_no⟧{厳寒|げんかん}{期|き}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{気温|きおん}→気温：00235_kion⟧⟦が→が：00051_ga⟧⟦マイナス→マイナス：00268_mainasu⟧30⟦{度|ど}→〜度：09845_do⟧⟦を→を：00422_wo⟧⟦{下回|したまわ}る→下回る：07649_shitamawaru⟧こと⟦も→も：00484_mo⟧⟦ある→ある：00006_aru⟧。",
       "english": "During the severe cold season in Hokkaido, temperatures can drop below minus 30 degrees.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Describes extremely harsh winter cold. Composed of {厳|げん} (severe, strict) + {寒|かん} (cold). Has a literary or formal quality and is commonly used in weather reports, news, and written descriptions of winter conditions.\n\nCOMMON COLLOCATIONS:\n- {厳寒|げんかん}の{候|こう}: the season of bitter cold (used in formal letters)\n- {厳寒|げんかん}{期|き}: period of severe cold\n- {厳寒|げんかん}の{地|ち}: a place of severe cold\n- {厳寒|げんかん}に{耐|た}える: to endure the bitter cold\n\nSIMILAR WORDS:\n- {極寒|ごっかん}: extreme cold — even more intense than {厳寒|げんかん}; suggests the most extreme cold conditions\n- {酷寒|こっかん}: cruel cold — literary synonym emphasizing harshness\n- {寒波|かんぱ}: cold wave — a specific weather event, not a general season\n\nNOTE:\nHomophone: {玄関|げんかん} (entrance hall) is a completely different word with the same reading.",
+  "notes": "Describes extremely harsh winter cold. Composed of {厳|げん} (severe, strict) + {寒|かん} (cold). Has a literary or formal quality and is commonly used in weather reports, news, and written descriptions of winter conditions.\n\nCOMMON COLLOCATIONS:\n- {厳寒|げんかん}⟦の→の：09472_no⟧{候|こう}: the season of bitter cold (used in formal letters)\n- {厳寒|げんかん}{期|き}: period of severe cold\n- {厳寒|げんかん}⟦の→の：09472_no⟧{地|ち}: a place of severe cold\n- {厳寒|げんかん}⟦に→に：00314_ni⟧⟦{耐|た}える→耐える：12087_taeru⟧: to endure the bitter cold\n\nSIMILAR WORDS:\n- ⟦{極寒|ごっかん}→極寒：21345_gokkan⟧: extreme cold — even more intense than {厳寒|げんかん}; suggests the most extreme cold conditions\n- ⟦{酷寒|こっかん}→酷寒：15568_kokkan⟧: cruel cold — literary synonym emphasizing harshness\n- ⟦{寒波|かんぱ}→寒波：12354_kanpa⟧: cold wave — a specific weather event, not a general season\n\nUSAGE:\nHomophone: ⟦{玄関|げんかん}→玄関：05003_genkan⟧ (entrance hall) is a completely different word with the same reading.",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -60,7 +60,7 @@
       ]
     },
     "created": "2026-03-29T21:22:45Z",
-    "modified": "2026-05-01T08:11:13Z"
+    "modified": "2026-09-02T04:02:00Z"
   },
   "cross_references": [
     {
@@ -69,6 +69,34 @@
       "reading": "こっかん",
       "headword": "{酷寒|こっかん}",
       "label": "severe cold (literary)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21345_gokkan",
+      "reading": "ごっかん",
+      "headword": "{極寒|ごっかん}",
+      "label": "extreme cold"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12354_kanpa",
+      "reading": "かんぱ",
+      "headword": "{寒波|かんぱ}",
+      "label": "cold wave"
+    },
+    {
+      "type": "related",
+      "target_id": "08556_gentou",
+      "reading": "げんとう",
+      "headword": "{厳冬|げんとう}",
+      "label": "severe winter"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21194_moukan",
+      "reading": "もうかん",
+      "headword": "{猛寒|もうかん}",
+      "label": "severe cold"
     }
   ]
 }

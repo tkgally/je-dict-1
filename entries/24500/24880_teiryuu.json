@@ -3,7 +3,7 @@
   "headword": "{停留|ていりゅう}",
   "reading": "ていりゅう",
   "romaji": "teiryuu",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "stopping; halting; staying in one place",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24880_teiryuu_ex1",
-      "japanese": "{次|つぎ}の{停留所|ていりゅうじょ}で{降|お}ります。",
+      "japanese": "⟦{次|つぎ}→次：00819_tsugi⟧⟦の→の：09472_no⟧⟦{停留所|ていりゅうじょ}→停留所：03440_teiryuujo⟧⟦で→で：00502_de⟧⟦{降|お}ります→降りる：00568_oriru⟧。",
       "english": "I'll get off at the next stop.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24880_teiryuu_ex2",
-      "japanese": "バスが{停留所|ていりゅうじょ}に{近|ちか}づいている。",
+      "japanese": "⟦バス→バス：00769_basu⟧⟦が→が：00051_ga⟧⟦{停留所|ていりゅうじょ}→停留所：03440_teiryuujo⟧⟦に→に：00314_ni⟧⟦{近|ちか}づいている→近づく：01958_chikazuku⟧。",
       "english": "The bus is approaching the stop.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24880_teiryuu_ex3",
-      "japanese": "この{辺|あた}りは{路面|ろめん}{電車|でんしゃ}の{停留所|ていりゅうじょ}が{多|おお}いので{注意|ちゅうい}して{運転|うんてん}してください。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{辺|あた}り→辺り：01770_atari⟧⟦は→は：00079_ha⟧⟦{路面|ろめん}{電車|でんしゃ}→路面電車：14282_romendensha⟧⟦の→の：09472_no⟧⟦{停留所|ていりゅうじょ}→停留所：03440_teiryuujo⟧⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧⟦の→の：09472_no⟧で⟦{注意|ちゅうい}→注意：01464_chuui⟧⟦して→する：00392_suru⟧⟦{運転|うんてん}して→運転する：20318_untensuru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please drive carefully around here since there are many streetcar stops.",
       "sense_numbers": [
         1
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {停|てい} (halt) + {留|りゅう} (stay/remain). Most commonly encountered in the compound {停留所|ていりゅうじょ} (bus stop/tram stop), which is one of the first words visitors to Japan learn for navigating public transport.\n\nCOMMON COLLOCATIONS:\n- {停留所|ていりゅうじょ}: bus stop; tram stop\n- バス{停留所|ていりゅうじょ}: bus stop\n- {路面|ろめん}{電車|でんしゃ}{停留所|ていりゅうじょ}: streetcar stop\n- {停留|ていりゅう}{時間|じかん}: stopping time; dwell time\n\nSIMILAR WORDS:\n- {停車|ていしゃ}: stopping (of a vehicle) — specifically about a vehicle stopping temporarily, not the place\n- {停止|ていし}: halt; cessation — broader; can mean stopping any activity or process\n- {滞留|たいりゅう}: staying; lingering — implies remaining longer than expected\n- バス{停|てい}: bus stop (abbreviated form) — casual abbreviation often seen on maps",
+  "notes": "Compound of {停|てい} (halt) + {留|りゅう} (stay/remain). Most commonly encountered in the compound ⟦{停留所|ていりゅうじょ}→停留所：03440_teiryuujo⟧ (bus stop/tram stop), which is one of the first words visitors to Japan learn for navigating public transport.\n\nCOMMON COLLOCATIONS:\n- ⟦{停留所|ていりゅうじょ}→停留所：03440_teiryuujo⟧: bus stop; tram stop\n- ⟦バス→バス：00769_basu⟧⟦{停留所|ていりゅうじょ}→停留所：03440_teiryuujo⟧: bus stop\n- ⟦{路面|ろめん}{電車|でんしゃ}→路面電車：14282_romendensha⟧⟦{停留所|ていりゅうじょ}→停留所：03440_teiryuujo⟧: streetcar stop\n- {停留|ていりゅう}⟦{時間|じかん}→時間：00468_jikan⟧: stopping time; dwell time\n\nSIMILAR WORDS:\n- ⟦{停車|ていしゃ}→停車：04534_teisha⟧: stopping (of a vehicle) — specifically about a vehicle stopping temporarily, not the place\n- ⟦{停止|ていし}→停止：04067_teishi⟧: halt; cessation — broader; can mean stopping any activity or process\n- ⟦{滞留|たいりゅう}→滞留：25835_tairyuu⟧: staying; lingering — implies remaining longer than expected\n- ⟦バス{停|てい}→バス停：05295_basutei⟧: bus stop (abbreviated form) — casual abbreviation often seen on maps",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04534_teisha",
+      "reading": "ていしゃ",
+      "headword": "{停車|ていしゃ}",
+      "label": "stopping"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04067_teishi",
+      "reading": "ていし",
+      "headword": "{停止|ていし}",
+      "label": "halt"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25835_tairyuu",
+      "reading": "たいりゅう",
+      "headword": "{滞留|たいりゅう}",
+      "label": "staying"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05295_basutei",
+      "reading": "ばすてい",
+      "headword": "バス{停|てい}",
+      "label": "bus stop"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,7 +91,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-21T11:22:54Z",
-    "modified": "2026-08-03T09:22:27Z"
+    "modified": "2026-09-02T04:02:20Z"
   },
   "conjugation": {
     "type": "suru",

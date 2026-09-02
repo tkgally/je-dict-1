@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "07400_meguriawase_ex1",
-      "japanese": "{運命|うんめい}の{巡|めぐ}り{合|あ}わせで{彼|かれ}と{出会|であ}った。",
+      "japanese": "⟦{運命|うんめい}→運命：06879_unmei⟧⟦の→の：09472_no⟧{巡|めぐ}り{合|あ}わせ⟦で→で：00502_de⟧⟦{彼|かれ}→彼：01292_kare⟧⟦と→と：00512_to⟧⟦{出会|であ}った→出会う：02298_deau⟧。",
       "english": "I met him through a twist of fate.",
       "has_audio": false,
       "sense_numbers": [
@@ -23,7 +23,7 @@
     },
     {
       "id": "07400_meguriawase_ex2",
-      "japanese": "{不思議|ふしぎ}な{巡|めぐ}り{合|あ}わせだね。",
+      "japanese": "⟦{不思議|ふしぎ}→不思議：02358_fushigi⟧な{巡|めぐ}り{合|あ}わせだ⟦ね→ね：09474_ne⟧。",
       "english": "What a strange coincidence, isn't it?",
       "has_audio": false,
       "sense_numbers": [
@@ -32,7 +32,7 @@
     },
     {
       "id": "07400_meguriawase_ex3",
-      "japanese": "これも{何|なに}かの{巡|めぐ}り{合|あ}わせかもしれない。",
+      "japanese": "⟦これ→これ：00963_kore⟧⟦も→も：00484_mo⟧⟦{何|なに}か→何か：03873_nanika⟧⟦の→の：09472_no⟧{巡|めぐ}り{合|あ}わせ⟦かもしれない→かもしれない：00164_kamoshirenai⟧。",
       "english": "This might also be some kind of fate.",
       "has_audio": false,
       "sense_numbers": [
@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "notes": "WORD FORMATION:\n{巡|めぐ}り (going around, from {巡|めぐ}る) + {合|あ}わせ (meeting, combining)\nLiterally: \"coming around to meet\"\n\nUSAGE:\n{巡|めぐ}り{合|あ}わせ often implies that events were fated to happen, whether good or bad. It suggests that the circumstances were beyond one's control.\n\nCOMMON PATTERNS:\n・{運命|うんめい}の{巡|めぐ}り{合|あ}わせ - twist of fate, destiny\n・{不思議|ふしぎ}な{巡|めぐ}り{合|あ}わせ - strange coincidence\n・{悪|わる}い{巡|めぐ}り{合|あ}わせ - bad luck, unfortunate circumstances\n\nRELATED WORDS:\n・{縁|えん} - fate, connection, karma\n・{因縁|いんねん} - fate, karma, destiny\n・{宿命|しゅくめい} - destiny, fate (predetermined)\n・{偶然|ぐうぜん} - coincidence (more neutral, less fated)\n\nREGISTER:\nNeutral. Common in both casual and literary contexts.",
+  "notes": "FORMS:\n{巡|めぐ}り (going around, from ⟦{巡|めぐ}る→巡る：03930_meguru⟧) + {合|あ}わせ (meeting, combining)\nLiterally: \"coming around to meet\"\n\nUSAGE:\n{巡|めぐ}り{合|あ}わせ often implies that events were fated to happen, whether good or bad. It suggests that the circumstances were beyond one's control.\n\nCOMMON PATTERNS:\n- ⟦{運命|うんめい}→運命：06879_unmei⟧⟦の→の：09472_no⟧{巡|めぐ}り{合|あ}わせ - twist of fate, destiny\n- ⟦{不思議|ふしぎ}→不思議：02358_fushigi⟧な{巡|めぐ}り{合|あ}わせ - strange coincidence\n- ⟦{悪|わる}い→悪い：00908_warui⟧{巡|めぐ}り{合|あ}わせ - bad luck, unfortunate circumstances\n\nRELATED WORDS:\n- ⟦{縁|えん}→縁：02182_en⟧ - fate, connection, karma\n- ⟦{因縁|いんねん}→因縁：07460_innen⟧ - fate, karma, destiny\n- ⟦{宿命|しゅくめい}→宿命：07401_shukumei⟧ - destiny, fate (predetermined)\n- ⟦{偶然|ぐうぜん}→偶然：02674_guuzen⟧ - coincidence (more neutral, less fated)\n\nREGISTER:\nNeutral. Common in both casual and literary contexts.",
   "cross_references": [
     {
       "type": "related",
@@ -48,11 +48,32 @@
       "headword": "{宿命|しゅくめい}",
       "label": "destiny",
       "target_id": "07401_shukumei"
+    },
+    {
+      "type": "related",
+      "target_id": "02182_en",
+      "reading": "えん",
+      "headword": "{縁|えん}",
+      "label": "fate, connection, karma"
+    },
+    {
+      "type": "related",
+      "target_id": "07460_innen",
+      "reading": "いんねん",
+      "headword": "{因縁|いんねん}",
+      "label": "fate, karma, destiny"
+    },
+    {
+      "type": "related",
+      "target_id": "02674_guuzen",
+      "reading": "ぐうぜん",
+      "headword": "{偶然|ぐうぜん}",
+      "label": "coincidence"
     }
   ],
   "metadata": {
     "created": "2026-01-19T07:23:25Z",
-    "modified": "2026-01-24T14:24:36Z",
+    "modified": "2026-09-02T04:01:11Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

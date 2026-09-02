@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28149_oikutsu_ex1",
-      "japanese": "{失礼|しつれい}ですが、おいくつですか。",
+      "japanese": "⟦{失礼|しつれい}→失礼：01247_shitsurei⟧です⟦が→が：00051_ga⟧、おいくつです⟦か→か：09473_ka⟧。",
       "english": "Excuse me, but how old are you?",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28149_oikutsu_ex2",
-      "japanese": "お{子|こ}さんはおいくつですか。",
+      "japanese": "⟦お{子|こ}さん→お子さん：01564_okosan⟧⟦は→は：00079_ha⟧おいくつです⟦か→か：09473_ka⟧。",
       "english": "How old is your child?",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28149_oikutsu_ex3",
-      "japanese": "おいくつのときに{日本|にほん}へ{来|こ}られたのですか。",
+      "japanese": "おいくつ⟦の→の：09472_no⟧とき⟦に→に：00314_ni⟧⟦{日本|にほん}→日本：03876_nihon⟧⟦へ→へ：02473_he⟧{来|こ}られた⟦の→の：09472_no⟧です⟦か→か：09473_ka⟧。",
       "english": "At what age did you come to Japan?",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "The polite form of いくつ (how many / how old), made by adding the honorific お-. It is most often used to ask someone's age courteously.\n\nUSAGE:\n- Because asking age directly can be sensitive, おいくつ softens the question.\n- It can also politely ask a quantity, though this is less common.\n\nSIMILAR WORDS:\n- いくつ: how many / how old — the plain form\n- {何歳|なんさい}: how old — direct and neutral, common with children or in casual speech",
+  "notes": "The polite form of いくつ (how many / how old), made by adding the honorific お-. It is most often used to ask someone's age courteously.\n\nUSAGE:\n- Because asking age directly can be sensitive, おいくつ softens the question.\n- It can also politely ask a quantity, though this is less common.\n\nSIMILAR WORDS:\n- いくつ: how many / how old — the plain form\n- ⟦{何歳|なんさい}→何歳：17594_nansai⟧: how old — direct and neutral, common with children or in casual speech",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17594_nansai",
+      "reading": "なんさい",
+      "headword": "{何歳|なんさい}",
+      "label": "how old"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +69,6 @@
       "domain": []
     },
     "created": "2026-05-26T03:08:00Z",
-    "modified": "2026-08-08T03:27:39Z"
+    "modified": "2026-09-02T04:02:32Z"
   }
 }

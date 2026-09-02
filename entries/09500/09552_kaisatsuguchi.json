@@ -14,27 +14,33 @@
   "examples": [
     {
       "id": "09552_kaisatsuguchi_ex1",
-      "japanese": "{改札口|かいさつぐち}で{待|ま}っています。",
+      "japanese": "{改札口|かいさつぐち}⟦で→で：00502_de⟧⟦{待|ま}っています→待つ：00469_matsu⟧。",
       "english": "I'll be waiting at the ticket gate.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09552_kaisatsuguchi_ex2",
-      "japanese": "{改札口|かいさつぐち}を{通|とお}る。",
+      "japanese": "{改札口|かいさつぐち}⟦を→を：00422_wo⟧⟦{通|とお}る→通る：01243_tooru⟧。",
       "english": "To pass through the ticket gate.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09552_kaisatsuguchi_ex3",
-      "japanese": "{中央|ちゅうおう}{改札口|かいさつぐち}で{待|ま}ち{合|あ}わせしましょう。",
+      "japanese": "⟦{中央|ちゅうおう}→中央：03475_chuuou⟧{改札口|かいさつぐち}⟦で→で：00502_de⟧⟦{待|ま}ち{合|あ}わせ→待ち合わせ：07397_machiawase⟧⟦しましょう→する：00392_suru⟧。",
       "english": "Let's meet at the central ticket gate.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "COMMON COLLOCATIONS:\n- {改札口|かいさつぐち}を{通|とお}る: to pass through the ticket gate\n- {改札口|かいさつぐち}で{待|ま}ち{合|あ}わせる: to meet at the ticket gate\n- {中央|ちゅうおう}{改札口|かいさつぐち}: central ticket gate\n\nUSAGE NOTE:\nA common meeting spot in Japan. Large stations often have multiple ticket gates (north, south, central, etc.).\n\nRELATED:\n- {改札|かいさつ}: ticket inspection\n- {自動|じどう}{改札|かいさつ}{機|き}: automatic ticket gate\n- ICカード: IC card (Suica, Pasmo, etc.)",
+  "notes": "COMMON COLLOCATIONS:\n- {改札口|かいさつぐち}⟦を→を：00422_wo⟧⟦{通|とお}る→通る：01243_tooru⟧: to pass through the ticket gate\n- {改札口|かいさつぐち}⟦で→で：00502_de⟧⟦{待|ま}ち{合|あ}わせる→待ち合わせる：12328_machiawaseru⟧: to meet at the ticket gate\n- ⟦{中央|ちゅうおう}→中央：03475_chuuou⟧{改札口|かいさつぐち}: central ticket gate\n\nUSAGE:\nA common meeting spot in Japan. Large stations often have multiple ticket gates (north, south, central, etc.).\n\nRELATED WORDS:\n- ⟦{改札|かいさつ}→改札：04120_kaisatsu⟧: ticket inspection\n- ⟦{自動|じどう}{改札|かいさつ}{機|き}→自動改札機：16261_jidoukaisatsuki⟧: automatic ticket gate\n- ICカード: IC card (Suica, Pasmo, etc.)",
   "cross_references": [
     {
       "type": "related",
@@ -49,18 +55,50 @@
       "reading": "きっぷ",
       "headword": "{切符|きっぷ}",
       "label": "ticket"
+    },
+    {
+      "type": "related",
+      "target_id": "16261_jidoukaisatsuki",
+      "reading": "じどうかいさつき",
+      "headword": "{自動改札機|じどうかいさつき}",
+      "label": "automatic ticket gate"
+    },
+    {
+      "type": "related",
+      "target_id": "18965_jidoukaisatsu",
+      "reading": "じどうかいさつ",
+      "headword": "{自動改札|じどうかいさつ}",
+      "label": "automatic ticket gate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20029_touchakuguchi",
+      "reading": "とうちゃくぐち",
+      "headword": "{到着口|とうちゃくぐち}",
+      "label": "arrival gate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26431_koushaguchi",
+      "reading": "こうしゃぐち",
+      "headword": "{降車口|こうしゃぐち}",
+      "label": "exit door (of a bus or train)"
     }
   ],
   "metadata": {
     "created": "2026-02-02T10:42:08Z",
-    "modified": "2026-04-23T05:18:28Z",
+    "modified": "2026-09-02T04:01:18Z",
     "ai_model": "claude-opus-4-5-20251101",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["transportation"]
+      "semantic": [
+        "transportation"
+      ]
     }
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "17767_joujun_ex1",
-      "japanese": "{四月|しがつ}{上旬|じょうじゅん}に{桜|さくら}が{咲|さ}く。",
+      "japanese": "⟦{四月|しがつ}→四月：00668_shigatsu⟧{上旬|じょうじゅん}⟦に→に：00314_ni⟧⟦{桜|さくら}→桜：02212_sakura⟧⟦が→が：00051_ga⟧⟦{咲|さ}く→咲く：08150_saku⟧。",
       "english": "The cherry blossoms bloom in early April.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "17767_joujun_ex2",
-      "japanese": "{商品|しょうひん}は{来月|らいげつ}{上旬|じょうじゅん}に{届|とど}く{予定|よてい}です。",
+      "japanese": "⟦{商品|しょうひん}→商品：01436_shouhin⟧⟦は→は：00079_ha⟧⟦{来月|らいげつ}→来月：00744_raigetsu⟧{上旬|じょうじゅん}⟦に→に：00314_ni⟧⟦{届|とど}く→届く：00899_todoku⟧⟦{予定|よてい}→予定：00824_yotei⟧です。",
       "english": "The product is expected to arrive in the first part of next month.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "17767_joujun_ex3",
-      "japanese": "{十一月|じゅういちがつ}{上旬|じょうじゅん}から{中旬|ちゅうじゅん}にかけて{紅葉|こうよう}が{見頃|みごろ}を{迎|むか}える。",
+      "japanese": "⟦{十一月|じゅういちがつ}→十一月：00635_juuichigatsu⟧{上旬|じょうじゅん}⟦から→から：00504_kara⟧⟦{中旬|ちゅうじゅん}→中旬：11309_chuujun⟧⟦にかけて→〜にかけて：30530_nikakete⟧⟦{紅葉|こうよう}→紅葉：04151_kouyou⟧⟦が→が：00051_ga⟧⟦{見頃|みごろ}→見頃：16868_migoro⟧⟦を→を：00422_wo⟧⟦{迎|むか}える→迎える：01193_mukaeru⟧。",
       "english": "The autumn leaves reach their peak from early to mid-November.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nJapanese divides each month into three periods:\n- {上旬|じょうじゅん}: days 1-10 (early)\n- {中旬|ちゅうじゅん}: days 11-20 (middle)\n- {下旬|げじゅん}: days 21-end (late)\n\nThis system is commonly used in business, weather forecasts, shipping estimates, and seasonal descriptions. More precise than saying {初|はじ}め (beginning) and very common in everyday Japanese.\n\nCOMMON COLLOCATIONS:\n- ～{月|がつ}{上旬|じょうじゅん}: early [month]\n- {上旬|じょうじゅん}から{中旬|ちゅうじゅん}にかけて: from early to mid-month\n- {上旬|じょうじゅん}ごろ: around the beginning of the month",
+  "notes": "USAGE:\nJapanese divides each month into three periods:\n- {上旬|じょうじゅん}: days 1-10 (early)\n- ⟦{中旬|ちゅうじゅん}→中旬：11309_chuujun⟧: days 11-20 (middle)\n- ⟦{下旬|げじゅん}→下旬：00062_gejun⟧: days 21-end (late)\n\nThis system is commonly used in business, weather forecasts, shipping estimates, and seasonal descriptions. More precise than saying ⟦{初|はじ}め→初め：02931_hajime⟧ (beginning) and very common in everyday Japanese.\n\nCOMMON COLLOCATIONS:\n- ～⟦{月|がつ}→月：30418_gatsu⟧{上旬|じょうじゅん}: early [month]\n- {上旬|じょうじゅん}⟦から→から：00504_kara⟧⟦{中旬|ちゅうじゅん}→中旬：11309_chuujun⟧⟦にかけて→〜にかけて：30530_nikakete⟧: from early to mid-month\n- {上旬|じょうじゅん}ごろ: around the beginning of the month",
   "cross_references": [
     {
       "type": "related",
@@ -66,11 +66,25 @@
       "reading": "げじゅん",
       "headword": "{下旬|げじゅん}",
       "label": "late month"
+    },
+    {
+      "type": "related",
+      "target_id": "15144_tsukihajime",
+      "reading": "つきはじめ",
+      "headword": "{月|つき}{初|はじ}め",
+      "label": "beginning of the month"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27355_tsukinakaba",
+      "reading": "つきなかば",
+      "headword": "{月|つき}{半|なか}ば",
+      "label": "middle of the month"
     }
   ],
   "metadata": {
     "created": "2026-03-18T23:17:22Z",
-    "modified": "2026-05-02T04:22:54Z",
+    "modified": "2026-09-02T04:01:49Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "09335_honsou_ex1",
-      "japanese": "{資金|しきん}{集|あつ}めに{奔走|ほんそう}する。",
+      "japanese": "⟦{資金|しきん}→資金：09937_shikin⟧{集|あつ}め⟦に→に：00314_ni⟧{奔走|ほんそう}⟦する→する：00392_suru⟧。",
       "english": "To run around raising funds.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "09335_honsou_ex2",
-      "japanese": "{彼|かれ}は{問題|もんだい}{解決|かいけつ}のために{奔走|ほんそう}している。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{問題|もんだい}{解決|かいけつ}→問題解決：26071_mondaikaiketsu⟧⟦の→の：09472_no⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧{奔走|ほんそう}⟦している→する：00392_suru⟧。",
       "english": "He's working hard to solve the problem.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "09335_honsou_ex3",
-      "japanese": "イベントの{成功|せいこう}のために、スタッフ{全員|ぜんいん}が{奔走|ほんそう}した。",
+      "japanese": "⟦イベント→イベント：09594_ibento⟧⟦の→の：09472_no⟧⟦{成功|せいこう}→成功：02638_seikou⟧⟦の→の：09472_no⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧、⟦スタッフ→スタッフ：11046_sutaffu⟧⟦{全員|ぜんいん}→全員：03310_zenin⟧⟦が→が：00051_ga⟧{奔走|ほんそう}⟦した→する：00392_suru⟧。",
       "english": "All the staff worked tirelessly for the success of the event.",
       "notes": null,
       "has_audio": false,
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "{奔走|ほんそう} describes making energetic efforts, often involving physically going to various places.\n\nCOMMON COLLOCATIONS:\n- ～のために{奔走|ほんそう}する (work hard for ~)\n- {東西|とうざい}{奔走|ほんそう}する (rush about in all directions)\n- {資金|しきん}{集|あつ}めに{奔走|ほんそう}する (rush around raising funds)\n\nUSAGE NOTE: Implies active, energetic effort, often involving movement from place to place. Has a positive connotation of dedicated effort.",
+  "notes": "{奔走|ほんそう} describes making energetic efforts, often involving physically going to various places.\n\nCOMMON COLLOCATIONS:\n- ～⟦の→の：09472_no⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧{奔走|ほんそう}⟦する→する：00392_suru⟧ (work hard for ~)\n- ⟦{東西|とうざい}→東西：04554_touzai⟧{奔走|ほんそう}⟦する→する：00392_suru⟧ (rush about in all directions)\n- ⟦{資金|しきん}→資金：09937_shikin⟧{集|あつ}め⟦に→に：00314_ni⟧{奔走|ほんそう}⟦する→する：00392_suru⟧ (rush around raising funds)\n\nUSAGE NOTE: Implies active, energetic effort, often involving movement from place to place. Has a positive connotation of dedicated effort.",
   "cross_references": [
     {
       "type": "synonym",
@@ -152,7 +152,7 @@
   ],
   "metadata": {
     "created": "2026-02-01T07:47:33Z",
-    "modified": "2026-06-23T15:56:03Z",
+    "modified": "2026-09-02T04:01:18Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -165,7 +165,8 @@
       "semantic": [
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

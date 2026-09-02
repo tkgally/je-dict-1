@@ -3,7 +3,7 @@
   "headword": "{決然|けつぜん}",
   "reading": "けつぜん",
   "romaji": "ketsuzen",
-  "part_of_speech": "adjective-na",
+  "part_of_speech": "na-adjective",
   "gloss": "resolute; determined",
   "definitions": [
     {
@@ -15,41 +15,77 @@
   "examples": [
     {
       "id": "21280_ketsuzen_ex1",
-      "japanese": "{決然|けつぜん}とした{表情|ひょうじょう}で{立|た}ち{上|あ}がった。",
+      "japanese": "{決然|けつぜん}とした⟦{表情|ひょうじょう}→表情：03585_hyoujou⟧⟦で→で：00502_de⟧⟦{立|た}ち{上|あ}がった→立ち上がる：02128_tachiagaru⟧。",
       "english": "He stood up with a determined expression.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21280_ketsuzen_ex2",
-      "japanese": "{彼女|かのじょ}は{決然|けつぜん}と{辞表|じひょう}を{提出|ていしゅつ}した。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧{決然|けつぜん}⟦と→と：00512_to⟧⟦{辞表|じひょう}→辞表：27086_jihyou⟧⟦を→を：00422_wo⟧⟦{提出|ていしゅつ}した→提出する：19644_teishutsusuru⟧。",
       "english": "She resolutely submitted her resignation.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21280_ketsuzen_ex3",
-      "japanese": "{決然|けつぜん}たる{意志|いし}で{困難|こんなん}に{立|た}ち{向|む}かった。",
+      "japanese": "{決然|けつぜん}たる⟦{意志|いし}→意志：01712_ishi⟧⟦で→で：00502_de⟧⟦{困難|こんなん}→困難：01410_konnan⟧⟦に→に：00314_ni⟧⟦{立|た}ち{向|む}かった→立ち向かう：06981_tachimukau⟧。",
       "english": "She faced the difficulties with firm resolve.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A たる/と adjective-adverb. Used in three main patterns: {決然|けつぜん}と + verb (resolutely ~), {決然|けつぜん}とした + noun (resolute ~), and the literary {決然|けつぜん}たる + noun (resolute ~). Carries a literary, somewhat elevated tone.\n\nCOMMON PATTERNS:\n- {決然|けつぜん}とした{態度|たいど}: a resolute attitude\n- {決然|けつぜん}と{立|た}ち{上|あ}がる: to stand up resolutely\n- {決然|けつぜん}たる{意志|いし}: firm will\n\nSIMILAR WORDS:\n- {毅然|きぜん}: firm, resolute — more about moral strength and composure under pressure\n- {断固|だんこ}: firm, decisive — stronger emphasis on being unyielding; often used with {反対|はんたい} or {拒否|きょひ}\n- {果敢|かかん}: bold, daring — adds a nuance of bravery in the face of danger",
+  "notes": "A たる/⟦と→と：00512_to⟧ adjective-adverb. Used in three main patterns: {決然|けつぜん}⟦と→と：00512_to⟧ + verb (resolutely ~), {決然|けつぜん}とした + noun (resolute ~), and the literary {決然|けつぜん}たる + noun (resolute ~). Carries a literary, somewhat elevated tone.\n\nCOMMON PATTERNS:\n- {決然|けつぜん}とした⟦{態度|たいど}→態度：03396_taido⟧: a resolute attitude\n- {決然|けつぜん}⟦と→と：00512_to⟧⟦{立|た}ち{上|あ}がる→立ち上がる：02128_tachiagaru⟧: to stand up resolutely\n- {決然|けつぜん}たる⟦{意志|いし}→意志：01712_ishi⟧: firm will\n\nSIMILAR WORDS:\n- ⟦{毅然|きぜん}→毅然：09174_kizen⟧: firm, resolute — more about moral strength and composure under pressure\n- ⟦{断固|だんこ}→断固：12714_danko⟧: firm, decisive — stronger emphasis on being unyielding; often used with ⟦{反対|はんたい}→反対：01497_hantai⟧ or ⟦{拒否|きょひ}→拒否：08242_kyohi⟧\n- ⟦{果敢|かかん}→果敢：07934_kakan⟧: bold, daring — adds a nuance of bravery in the face of danger",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09174_kizen",
+      "reading": "きぜん",
+      "headword": "{毅然|きぜん}",
+      "label": "firm, resolute"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12714_danko",
+      "reading": "だんこ",
+      "headword": "{断固|だんこ}",
+      "label": "firm, decisive"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07934_kakan",
+      "reading": "かかん",
+      "headword": "{果敢|かかん}",
+      "label": "bold, daring"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-na"],
+      "pos": [
+        "adjective-na"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["emotion"],
-      "style": ["written", "literary"]
+      "semantic": [
+        "emotion"
+      ],
+      "style": [
+        "written",
+        "literary"
+      ]
     },
     "created": "2026-04-01T16:17:53Z",
-    "modified": "2026-04-01T16:17:53Z"
+    "modified": "2026-09-02T04:02:02Z"
   }
 }

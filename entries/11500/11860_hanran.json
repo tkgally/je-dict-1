@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "11860_hanran_ex1",
-      "japanese": "{反乱|はんらん}が{起|お}きた。",
+      "japanese": "{反乱|はんらん}⟦が→が：00051_ga⟧⟦{起|お}きた→起きる：00521_okiru⟧。",
       "english": "A rebellion broke out.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "11860_hanran_ex2",
-      "japanese": "{軍|ぐん}が{反乱|はんらん}を{鎮圧|ちんあつ}した。",
+      "japanese": "⟦{軍|ぐん}→軍：02677_gun⟧⟦が→が：00051_ga⟧{反乱|はんらん}⟦を→を：00422_wo⟧⟦{鎮圧|ちんあつ}→鎮圧：14542_chinatsu⟧⟦した→する：00392_suru⟧。",
       "english": "The army suppressed the rebellion.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "11860_hanran_ex3",
-      "japanese": "{農民|のうみん}たちは{重|おも}い{税|ぜい}に{耐|た}えかねて{反乱|はんらん}を{起|お}こした。",
+      "japanese": "⟦{農民|のうみん}→農民：03759_noumin⟧たち⟦は→は：00079_ha⟧⟦{重|おも}い→重い：00804_omoi⟧⟦{税|ぜい}→税：03767_zei⟧⟦に→に：00314_ni⟧⟦{耐|た}え→耐える：12087_taeru⟧かねて{反乱|はんらん}⟦を→を：00422_wo⟧⟦{起|お}こした→起こす：01234_okosu⟧。",
       "english": "The farmers, unable to bear the heavy taxes, raised a revolt.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,33 @@
       ]
     }
   ],
-  "notes": "Distinguished from the homophone {氾濫|はんらん} (flood, overflow). {反乱|はんらん} specifically refers to armed resistance or revolt against authority.\n\nCOMMON COLLOCATIONS:\n・{反乱|はんらん}を{起|お}こす — to stage a rebellion\n・{反乱|はんらん}を{鎮圧|ちんあつ}する — to suppress a rebellion\n・{反乱|はんらん}{軍|ぐん} — rebel army\n・{反乱|はんらん}{分子|ぶんし} — rebel element, insurgent\n\nSIMILAR WORDS:\n・{暴動|ぼうどう} — riot (more spontaneous, less organized)\n・{謀反|むほん} — treason, revolt (historical, against a lord)\n・{革命|かくめい} — revolution (larger scale, aims to change the system)",
-  "cross_references": [],
+  "notes": "Distinguished from the homophone ⟦{氾濫|はんらん}→氾濫：09256_hanran⟧ (flood, overflow). {反乱|はんらん} specifically refers to armed resistance or revolt against authority.\n\nCOMMON COLLOCATIONS:\n- {反乱|はんらん}⟦を→を：00422_wo⟧⟦{起|お}こす→起こす：01234_okosu⟧ — to stage a rebellion\n- {反乱|はんらん}⟦を→を：00422_wo⟧⟦{鎮圧|ちんあつ}→鎮圧：14542_chinatsu⟧⟦する→する：00392_suru⟧ — to suppress a rebellion\n- {反乱|はんらん}{軍|ぐん} — rebel army\n- {反乱|はんらん}⟦{分子|ぶんし}→分子：11769_bunshi⟧ — rebel element, insurgent\n\nSIMILAR WORDS:\n- ⟦{暴動|ぼうどう}→暴動：15533_boudou⟧ — riot (more spontaneous, less organized)\n- ⟦{謀反|むほん}→謀反：14455_muhon⟧ — treason, revolt (historical, against a lord)\n- ⟦{革命|かくめい}→革命：05968_kakumei⟧ — revolution (larger scale, aims to change the system)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15533_boudou",
+      "reading": "ぼうどう",
+      "headword": "{暴動|ぼうどう}",
+      "label": "riot"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14455_muhon",
+      "reading": "むほん",
+      "headword": "{謀反|むほん}",
+      "label": "treason, revolt"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05968_kakumei",
+      "reading": "かくめい",
+      "headword": "{革命|かくめい}",
+      "label": "revolution"
+    }
+  ],
   "metadata": {
     "created": "2026-02-18T13:40:50Z",
-    "modified": "2026-02-18T13:40:50Z",
+    "modified": "2026-09-02T04:01:26Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

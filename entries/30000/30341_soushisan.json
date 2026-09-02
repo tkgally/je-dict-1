@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30341_soushisan_ex1",
-      "japanese": "{総資産|そうしさん}が{増|ふ}えた。",
+      "japanese": "{総資産|そうしさん}⟦が→が：00051_ga⟧⟦{増|ふ}えた→増える：01183_fueru⟧。",
       "english": "Total assets increased.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30341_soushisan_ex2",
-      "japanese": "この{銀行|ぎんこう}の{総資産|そうしさん}は{世界|せかい}{有数|ゆうすう}だ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{銀行|ぎんこう}→銀行：00578_ginkou⟧⟦の→の：09472_no⟧{総資産|そうしさん}⟦は→は：00079_ha⟧⟦{世界|せかい}→世界：01447_sekai⟧⟦{有数|ゆうすう}→有数：13006_yuusuu⟧だ。",
       "english": "This bank's total assets are among the largest in the world.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30341_soushisan_ex3",
-      "japanese": "{総資産|そうしさん}から{負債|ふさい}を{引|ひ}くと、{会社|かいしゃ}の{本当|ほんとう}の{価値|かち}が{見|み}えてくる。",
+      "japanese": "{総資産|そうしさん}⟦から→から：00504_kara⟧⟦{負債|ふさい}→負債：14950_fusai⟧⟦を→を：00422_wo⟧⟦{引|ひ}く→引く：01978_hiku⟧⟦と→と：00512_to⟧、⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦の→の：09472_no⟧⟦{本当|ほんとう}→本当：00779_hontou⟧⟦の→の：09472_no⟧⟦{価値|かち}→価値：00131_kachi⟧⟦が→が：00051_ga⟧⟦{見|み}えて→見える：01165_mieru⟧くる。",
       "english": "Subtracting liabilities from total assets reveals a company's real value.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Formed from {総|そう} (total, gross) plus {資産|しさん} (assets). A standard accounting heading, also used loosely for an individual's total holdings.\n\nCOMMON COLLOCATIONS:\n- {総資産|そうしさん}{額|がく}: the amount of total assets\n- {総資産|そうしさん}{利益率|りえきりつ}: return on assets (ROA)\n- {総資産|そうしさん}{回転率|かいてんりつ}: asset turnover ratio\n- {総資産|そうしさん}{ランキング|らんきんぐ}: ranking by total assets\n\nSIMILAR WORDS:\n- {純資産|じゅんしさん}: net assets — what remains after liabilities are subtracted\n- {資産|しさん}: assets — the general term, without the \"whole balance sheet\" implication",
+  "notes": "Formed from ⟦{総|そう}→総〜：03958_sou⟧ (total, gross) plus ⟦{資産|しさん}→資産：15655_shisan⟧ (assets). A standard accounting heading, also used loosely for an individual's total holdings.\n\nCOMMON COLLOCATIONS:\n- {総資産|そうしさん}⟦{額|がく}→額：02607_gaku⟧: the amount of total assets\n- {総資産|そうしさん}{利益率|りえきりつ}: return on assets (ROA)\n- {総資産|そうしさん}{回転率|かいてんりつ}: asset turnover ratio\n- {総資産|そうしさん}⟦ランキング→ランキング：11195_rankingu⟧: ranking by total assets\n\nSIMILAR WORDS:\n- ⟦{純資産|じゅんしさん}→純資産：30322_junshisan⟧: net assets — what remains after liabilities are subtracted\n- ⟦{資産|しさん}→資産：15655_shisan⟧: assets — the general term, without the \"whole balance sheet\" implication",
   "cross_references": [
     {
       "type": "related",
@@ -67,7 +67,7 @@
         "noun"
       ],
       "formality": "formal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "finance",
         "business"
@@ -77,6 +77,6 @@
       ]
     },
     "created": "2026-08-03T00:18:03Z",
-    "modified": "2026-08-03T00:18:03Z"
+    "modified": "2026-09-02T04:02:39Z"
   }
 }

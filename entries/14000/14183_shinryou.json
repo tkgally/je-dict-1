@@ -3,7 +3,7 @@
   "id": "14183_shinryou",
   "headword": "{診療|しんりょう}",
   "reading": "しんりょう",
-  "part_of_speech": "noun, suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "medical examination and treatment",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "14183_shinryou_ex1",
-      "japanese": "{午後|ごご}の{診療|しんりょう}は{三時|さんじ}からです。",
+      "japanese": "⟦{午後|ごご}→午後：00544_gogo⟧⟦の→の：09472_no⟧{診療|しんりょう}⟦は→は：00079_ha⟧⟦{三時|さんじ}→三時：10983_sanji⟧⟦から→から：00504_kara⟧です。",
       "english": "Afternoon consultations start from three o'clock.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "14183_shinryou_ex2",
-      "japanese": "この{病院|びょういん}は{土曜日|どようび}も{診療|しんりょう}している。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{病院|びょういん}→病院：00577_byouin⟧⟦は→は：00079_ha⟧⟦{土曜日|どようび}→土曜日：00621_doyoubi⟧⟦も→も：00484_mo⟧{診療|しんりょう}⟦している→する：00392_suru⟧。",
       "english": "This hospital also sees patients on Saturdays.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "14183_shinryou_ex3",
-      "japanese": "{診療|しんりょう}{時間|じかん}が{終|お}わっていたので、{救急|きゅうきゅう}{外来|がいらい}に{行|い}った。",
+      "japanese": "{診療|しんりょう}⟦{時間|じかん}→時間：00468_jikan⟧⟦が→が：00051_ga⟧⟦{終|お}わっていた→終わる：00567_owaru⟧⟦の→の：09472_no⟧で、⟦{救急|きゅうきゅう}→救急：15075_kyuukyuu⟧⟦{外来|がいらい}→外来：09895_gairai⟧⟦に→に：00314_ni⟧⟦{行|い}った→行く：00119_iku⟧。",
       "english": "Since consultation hours were over, I went to the emergency outpatient department.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "COMMON COLLOCATIONS:\n- {診療|しんりょう}{時間|じかん}: consultation hours, office hours\n- {診療|しんりょう}{科|か}: medical department/specialty\n- {診療|しんりょう}{所|じょ}/{診療|しんりょう}{所|しょ}: clinic, medical office\n- {外来|がいらい}{診療|しんりょう}: outpatient care\n- {診療|しんりょう}{報酬|ほうしゅう}: medical fees (insurance-based reimbursement)\n\nUSAGE:\n{診療|しんりょう} combines {診|しん} (examine) and {療|りょう} (treat), covering the full scope of a medical visit. Signs reading {診療|しんりょう}{中|ちゅう} (currently seeing patients) and {診療|しんりょう}{時間|じかん} (consultation hours) are seen at every clinic in Japan. The term is neutral and formal, appropriate for signs, forms, and general discussion of medical services.",
+  "notes": "COMMON COLLOCATIONS:\n- {診療|しんりょう}⟦{時間|じかん}→時間：00468_jikan⟧: consultation hours, office hours\n- {診療|しんりょう}{科|か}: medical department/specialty\n- {診療|しんりょう}{所|じょ}/{診療|しんりょう}{所|しょ}: clinic, medical office\n- ⟦{外来|がいらい}→外来：09895_gairai⟧{診療|しんりょう}: outpatient care\n- {診療|しんりょう}{報酬|ほうしゅう}: medical fees (insurance-based reimbursement)\n\nUSAGE:\n{診療|しんりょう} combines {診|しん} (examine) and {療|りょう} (treat), covering the full scope of a medical visit. Signs reading {診療|しんりょう}⟦{中|ちゅう}→〜中：09840_chuu⟧ (currently seeing patients) and {診療|しんりょう}⟦{時間|じかん}→時間：00468_jikan⟧ (consultation hours) are seen at every clinic in Japan. The term is neutral and formal, appropriate for signs, forms, and general discussion of medical services.",
   "cross_references": [
     {
       "type": "related",
@@ -156,11 +156,18 @@
       "reading": "しんだん",
       "headword": "{診断|しんだん}",
       "label": "diagnosis"
+    },
+    {
+      "type": "related",
+      "target_id": "09798_miru",
+      "reading": "みる",
+      "headword": "{診|み}る",
+      "label": "to examine (medically)"
     }
   ],
   "metadata": {
     "created": "2026-02-28T02:14:48Z",
-    "modified": "2026-04-30T05:18:10Z",
+    "modified": "2026-09-02T04:01:36Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -176,7 +183,8 @@
       "semantic": [
         "general"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

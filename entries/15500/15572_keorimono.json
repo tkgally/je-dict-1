@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "15572_keorimono_ex1",
-      "japanese": "{毛織物|けおりもの}は{暖|あたた}かい。",
+      "japanese": "{毛織物|けおりもの}⟦は→は：00079_ha⟧⟦{暖|あたた}かい→暖かい：00618_atatakai⟧。",
       "english": "Woolen fabrics are warm.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "15572_keorimono_ex2",
-      "japanese": "この{地方|ちほう}は{毛織物|けおりもの}の{産地|さんち}として{有名|ゆうめい}だ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{地方|ちほう}→地方：02369_chihou⟧⟦は→は：00079_ha⟧{毛織物|けおりもの}⟦の→の：09472_no⟧⟦{産地|さんち}→産地：04031_sanchi⟧⟦として→として：06802_toshite⟧⟦{有名|ゆうめい}→有名：01106_yuumei⟧だ。",
       "english": "This region is famous as a production area for wool textiles.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "15572_keorimono_ex3",
-      "japanese": "{高品質|こうひんしつ}な{毛織物|けおりもの}を{使|つか}ったコートは{何年|なんねん}も{長持|ながも}ちする。",
+      "japanese": "⟦{高品質|こうひんしつ}→高品質：18051_kouhinshitsu⟧な{毛織物|けおりもの}⟦を→を：00422_wo⟧⟦{使|つか}った→使う：00473_tsukau⟧⟦コート→コート：01358_kooto⟧⟦は→は：00079_ha⟧⟦{何年|なんねん}→何年：12737_nannen⟧⟦も→も：00484_mo⟧⟦{長持|ながも}ち→長持ち：14474_nagamochi⟧⟦する→する：00392_suru⟧。",
       "english": "A coat made from high-quality wool fabric lasts for many years.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,26 @@
       ]
     }
   ],
-  "notes": "Composed of {毛|け} (hair, wool), {織|おり} (weaving), and {物|もの} (thing, product). Part of a family of textile terms using the {織物|おりもの} (woven fabric) pattern.\n\nCOMMON COLLOCATIONS:\n- {毛織物|けおりもの}の{産地|さんち} (wool textile production area)\n- {毛織物|けおりもの}{工場|こうじょう} (wool textile factory)\n- {上質|じょうしつ}な{毛織物|けおりもの} (fine wool fabric)\n\nSIMILAR WORDS:\n- {毛織物|けおりもの}: woven wool fabric\n- {絹織物|きぬおりもの}: silk fabric\n- {綿織物|めんおりもの}: cotton fabric",
-  "cross_references": [],
+  "notes": "Composed of ⟦{毛|け}→毛：01392_ke⟧ (hair, wool), {織|おり} (weaving), and ⟦{物|もの}→物：02259_mono⟧ (thing, product). Part of a family of textile terms using the ⟦{織物|おりもの}→織物：10583_orimono⟧ (woven fabric) pattern.\n\nCOMMON COLLOCATIONS:\n- {毛織物|けおりもの}⟦の→の：09472_no⟧⟦{産地|さんち}→産地：04031_sanchi⟧ (wool textile production area)\n- {毛織物|けおりもの}⟦{工場|こうじょう}→工場：01082_koujou⟧ (wool textile factory)\n- ⟦{上質|じょうしつ}→上質：20493_joushitsu⟧な{毛織物|けおりもの} (fine wool fabric)\n\nSIMILAR WORDS:\n- {毛織物|けおりもの}: woven wool fabric\n- ⟦{絹織物|きぬおりもの}→絹織物：29192_kinuorimono⟧: silk fabric\n- {綿織物|めんおりもの}: cotton fabric",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "29192_kinuorimono",
+      "reading": "きぬおりもの",
+      "headword": "{絹織物|きぬおりもの}",
+      "label": "silk fabric"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20649_youmou",
+      "reading": "ようもう",
+      "headword": "{羊毛|ようもう}",
+      "label": "wool"
+    }
+  ],
   "metadata": {
     "created": "2026-03-07T11:21:01Z",
-    "modified": "2026-07-17T12:56:16Z",
+    "modified": "2026-09-02T04:01:41Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

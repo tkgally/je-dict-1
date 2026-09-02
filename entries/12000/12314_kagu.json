@@ -15,41 +15,66 @@
   "examples": [
     {
       "id": "12314_kagu_ex1",
-      "japanese": "{新|あたら}しい{家具|かぐ}を{買|か}った。",
+      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧{家具|かぐ}⟦を→を：00422_wo⟧⟦{買|か}った→買う：00489_kau⟧。",
       "english": "I bought new furniture.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12314_kagu_ex2",
-      "japanese": "{引|ひ}っ{越|こ}しのときに{家具|かぐ}を{全部|ぜんぶ}{買|か}い{替|か}えた。",
+      "japanese": "{引|ひ}っ{越|こ}し⟦の→の：09472_no⟧とき⟦に→に：00314_ni⟧{家具|かぐ}⟦を→を：00422_wo⟧⟦{全部|ぜんぶ}→全部：02888_zenbu⟧⟦{買|か}い{替|か}えた→買い替える：19456_kaikaeru⟧。",
       "english": "I replaced all the furniture when I moved.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12314_kagu_ex3",
-      "japanese": "このアパートは{家具|かぐ}{付|つ}きなので、すぐに{住|す}み{始|はじ}められる。",
+      "japanese": "⟦この→この：00962_kono⟧⟦アパート→アパート：01012_apaato⟧⟦は→は：00079_ha⟧{家具|かぐ}⟦{付|つ}き→付き：26333_tsuki⟧な⟦の→の：09472_no⟧で、⟦すぐ→すぐ：00814_sugu⟧⟦に→に：00314_ni⟧⟦{住|す}み→住む：00673_sumu⟧⟦{始|はじ}められる→始める：00531_hajimeru⟧。",
       "english": "This apartment comes furnished, so you can start living there right away.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{家具|かぐ} combines {家|か} (house) and {具|ぐ} (tool, implement).\n\nCOMMON COLLOCATIONS:\n- {家具|かぐ}を{買|か}う (to buy furniture)\n- {家具|かぐ}を{置|お}く (to place furniture)\n- {家具|かぐ}{付|つ}き (furnished — of apartments or rooms)\n- {家具|かぐ}{屋|や} (furniture store)\n- {家具|かぐ}を{組|く}み{立|た}てる (to assemble furniture)\n\nCOUNTER:\nFurniture is counted with {点|てん} (items) or {個|こ} (pieces). Large furniture may use {台|だい}.",
-  "cross_references": [],
+  "notes": "{家具|かぐ} combines ⟦{家|か}→〜家：28339_ka⟧ (house) and ⟦{具|ぐ}→具：07857_gu⟧ (tool, implement).\n\nCOMMON COLLOCATIONS:\n- {家具|かぐ}⟦を→を：00422_wo⟧⟦{買|か}う→買う：00489_kau⟧ (to buy furniture)\n- {家具|かぐ}⟦を→を：00422_wo⟧⟦{置|お}く→置く：01092_oku⟧ (to place furniture)\n- {家具|かぐ}⟦{付|つ}き→付き：26333_tsuki⟧ (furnished — of apartments or rooms)\n- {家具|かぐ}{屋|や} (furniture store)\n- {家具|かぐ}⟦を→を：00422_wo⟧⟦{組|く}み{立|た}てる→組み立てる：04661_kumitateru⟧ (to assemble furniture)\n\nCOUNTER:\nFurniture is counted with ⟦{点|てん}→点：01553_ten⟧ (items) or ⟦{個|こ}→〜個：00645_ko⟧ (pieces). Large furniture may use {台|だい}.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20368_juuki",
+      "reading": "じゅうき",
+      "headword": "{什器|じゅうき}",
+      "label": "fixtures"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22335_interia",
+      "reading": "いんてりあ",
+      "headword": "インテリア",
+      "label": "interior"
+    }
+  ],
   "metadata": {
     "created": "2026-02-20T16:42:19Z",
-    "modified": "2026-02-20T16:42:19Z",
+    "modified": "2026-09-02T04:01:28Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["furniture"]
+      "semantic": [
+        "furniture"
+      ]
     }
   }
 }

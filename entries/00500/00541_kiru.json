@@ -124,7 +124,7 @@
     },
     {
       "id": "00541_kiru_ex3",
-      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧⟦{赤|あか}い→赤い：00585_akai⟧⟦ドレス→ドレス：00037_doresu⟧⟦を→を：00422_wo⟧{着|き}ています。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧⟦{赤|あか}い→赤い：00585_akai⟧⟦ドレス→ドレス：00037_doresu⟧⟦を→を：00422_wo⟧{着|き}て⟦います→いる：00495_iru⟧。",
       "english": "She is wearing a red dress.",
       "notes": "{着|き}ている = wearing (state)",
       "has_audio": false,
@@ -144,7 +144,7 @@
     },
     {
       "id": "00541_kiru_ex5",
-      "japanese": "⟦{兄|あに}→兄：00570_ani⟧⟦の→の：09472_no⟧⟦シャツ→シャツ：01052_shatsu⟧⟦を→を：00422_wo⟧{着|き}ていたら、「⟦{返|かえ}して→返す：09648_kaesu⟧」⟦と→と：00512_to⟧⟦{言|い}われました→言う：00515_iu⟧。",
+      "japanese": "⟦{兄|あに}→兄：00570_ani⟧⟦の→の：09472_no⟧⟦シャツ→シャツ：01052_shatsu⟧⟦を→を：00422_wo⟧{着|き}て⟦いたら→いる：00495_iru⟧、「⟦{返|かえ}して→返す：09648_kaesu⟧」⟦と→と：00512_to⟧⟦{言|い}われました→言う：00515_iu⟧。",
       "english": "When I was wearing my older brother's shirt, he said 'Give it back.'",
       "notes": null,
       "has_audio": false,
@@ -153,7 +153,7 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive). No pair verb. Pattern: Xを{着|き}る (wear/put on X).\n\nASPECT: ている indicates resulting state. {着|き}ている = 'is wearing' (not 'is putting on').\n\nCOMMON PATTERNS:\n・⟦コート→コート：01358_kooto⟧⟦を→を：00422_wo⟧{着|き}る (put on/wear a coat)\n・{着|き}ている (is wearing - state)\n・⟦{着|き}{替|か}える→着替える：04603_kigaeru⟧ (change clothes)\n・⟦{着物|きもの}→着物：01309_kimono⟧⟦を→を：00422_wo⟧{着|き}る (wear kimono)\n\nCLOTHING VERBS:\n・{着|き}る: upper body/full body\n・⟦はく→履く：00700_haku⟧: pants, shoes, skirts\n・⟦かぶる→かぶる：00709_kaburu⟧: hats\n・⟦する→する：00392_suru⟧: accessories\n\nOpposite: ⟦{脱|ぬ}ぐ→脱ぐ：00518_nugu⟧ (take off). Don't confuse with ⟦{切|き}る→切る：02693_kiru⟧ (to cut - godan).",
+  "notes": "TRANSITIVITY: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive). No pair verb. Pattern: X⟦を→を：00422_wo⟧{着|き}る (wear/put on X).\n\nASPECT: て⟦いる→いる：00495_iru⟧ indicates resulting state. {着|き}て⟦いる→いる：00495_iru⟧ = 'is wearing' (not 'is putting on').\n\nCOMMON PATTERNS:\n- ⟦コート→コート：01358_kooto⟧⟦を→を：00422_wo⟧{着|き}る (put on/wear a coat)\n- {着|き}て⟦いる→いる：00495_iru⟧ (is wearing - state)\n- ⟦{着|き}{替|か}える→着替える：04603_kigaeru⟧ (change clothes)\n- ⟦{着物|きもの}→着物：01309_kimono⟧⟦を→を：00422_wo⟧{着|き}る (wear kimono)\n\nCLOTHING VERBS:\n- {着|き}る: upper body/full body\n- ⟦はく→履く：00700_haku⟧: pants, shoes, skirts\n- ⟦かぶる→かぶる：00709_kaburu⟧: hats\n- ⟦する→する：00392_suru⟧: accessories\n\nOpposite: ⟦{脱|ぬ}ぐ→脱ぐ：00518_nugu⟧ (take off). Don't confuse with ⟦{切|き}る→切る：02693_kiru⟧ (to cut - godan).",
   "cross_references": [
     {
       "type": "antonym",
@@ -168,11 +168,32 @@
       "reading": "かぶる",
       "headword": "かぶる",
       "label": "to put on (head)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26849_chakuyousuru",
+      "reading": "ちゃくようする",
+      "headword": "{着用|ちゃくよう}する",
+      "label": "to wear"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26962_kikomu",
+      "reading": "きこむ",
+      "headword": "{着込|きこ}む",
+      "label": "to bundle up"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27008_chakudatsusuru",
+      "reading": "ちゃくだつする",
+      "headword": "{着脱|ちゃくだつ}する",
+      "label": "to put on and take off"
     }
   ],
   "metadata": {
     "created": "2026-01-07T14:25:20Z",
-    "modified": "2026-05-11T22:12:09Z",
+    "modified": "2026-09-02T04:00:57Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "basic",
     "tags": {

@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "14860_ryouchi_ex1",
-      "japanese": "{広大|こうだい}な{領地|りょうち}を{治|おさ}める。",
+      "japanese": "⟦{広大|こうだい}→広大：11328_koudai⟧な{領地|りょうち}⟦を→を：00422_wo⟧⟦{治|おさ}める→治める：02462_osameru⟧。",
       "english": "Govern a vast territory.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14860_ryouchi_ex2",
-      "japanese": "{戦|いくさ}に{勝|か}って{領地|りょうち}を{広|ひろ}げた。",
+      "japanese": "⟦{戦|いくさ}→戦：28574_ikusa⟧⟦に→に：00314_ni⟧⟦{勝|か}って→勝つ：01199_katsu⟧{領地|りょうち}⟦を→を：00422_wo⟧⟦{広|ひろ}げた→広げる：01981_hirogeru⟧。",
       "english": "They won the battle and expanded their territory.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14860_ryouchi_ex3",
-      "japanese": "{大名|だいみょう}の{領地|りょうち}は{代替|だいが}わりのたびに{幕府|ばくふ}によって{安堵|あんど}されるか、{移封|いほう}される{場合|ばあい}もあった。",
+      "japanese": "⟦{大名|だいみょう}→大名：10378_daimyou⟧⟦の→の：09472_no⟧{領地|りょうち}⟦は→は：00079_ha⟧{代替|だいが}わり⟦の→の：09472_no⟧たび⟦に→に：00314_ni⟧⟦{幕府|ばくふ}→幕府：12448_bakufu⟧⟦によって→によって：06801_niyotte⟧⟦{安堵|あんど}される→安堵する：15624_andosuru⟧⟦か→か：09473_ka⟧、{移封|いほう}⟦される→する：00392_suru⟧⟦{場合|ばあい}→場合：01704_baai⟧⟦も→も：00484_mo⟧⟦あった→ある：00006_aru⟧。",
       "english": "A daimyo's domain could be either confirmed by the shogunate upon succession or reassigned to a different territory.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE NOTES:\n{領地|りょうち} is composed of {領|りょう} (territory, possession) and {地|ち} (land). It is primarily a historical term but also appears in fantasy fiction and games.\n\nSIMILAR WORDS:\n- {領土|りょうど} — national territory, sovereign land (used in modern political/international contexts)\n- {領地|りょうち} — feudal domain, fief (used in historical contexts)\n- {藩|はん} — a feudal domain in the Edo period (a specific Japanese institution)\n\nCOMMON COLLOCATIONS:\n- {領地|りょうち}を{治|おさ}める (govern a territory)\n- {領地|りょうち}を{広|ひろ}げる (expand one's territory)\n- {領地|りょうち}を{没収|ぼっしゅう}する (confiscate a territory)\n- {領地|りょうち}{争|あらそ}い (territorial dispute)",
+  "notes": "USAGE:\n{領地|りょうち} is composed of {領|りょう} (territory, possession) and {地|ち} (land). It is primarily a historical term but also appears in fantasy fiction and games.\n\nSIMILAR WORDS:\n- ⟦{領土|りょうど}→領土：15711_ryoudo⟧ — national territory, sovereign land (used in modern political/international contexts)\n- {領地|りょうち} — feudal domain, fief (used in historical contexts)\n- ⟦{藩|はん}→藩：14124_han⟧ — a feudal domain in the Edo period (a specific Japanese institution)\n\nCOMMON COLLOCATIONS:\n- {領地|りょうち}⟦を→を：00422_wo⟧⟦{治|おさ}める→治める：02462_osameru⟧ (govern a territory)\n- {領地|りょうち}⟦を→を：00422_wo⟧⟦{広|ひろ}げる→広げる：01981_hirogeru⟧ (expand one's territory)\n- {領地|りょうち}⟦を→を：00422_wo⟧⟦{没収|ぼっしゅう}→没収：18517_bosshuu⟧⟦する→する：00392_suru⟧ (confiscate a territory)\n- {領地|りょうち}⟦{争|あらそ}い→争い：09992_arasoi⟧ (territorial dispute)",
   "cross_references": [
     {
       "type": "related",
@@ -53,18 +59,36 @@
       "reading": "りょうど",
       "headword": "{領土|りょうど}",
       "label": "national territory"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14124_han",
+      "reading": "はん",
+      "headword": "{藩|はん}",
+      "label": "a feudal domain in the Edo period"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29277_chokkatsuchi",
+      "reading": "ちょっかつち",
+      "headword": "{直轄地|ちょっかつち}",
+      "label": "directly controlled territory"
     }
   ],
   "metadata": {
     "created": "2026-03-04T04:37:06Z",
-    "modified": "2026-05-02T04:22:54Z",
+    "modified": "2026-09-02T04:01:39Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["geography"]
+      "semantic": [
+        "geography"
+      ]
     }
   }
 }

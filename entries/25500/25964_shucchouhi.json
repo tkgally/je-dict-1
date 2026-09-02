@@ -15,39 +15,81 @@
   "examples": [
     {
       "id": "25964_shucchouhi_ex1",
-      "japanese": "{出張費|しゅっちょうひ}を{申請|しんせい}する。",
+      "japanese": "{出張費|しゅっちょうひ}⟦を→を：00422_wo⟧⟦{申請|しんせい}する→申請する：25228_shinseisuru⟧。",
       "english": "To submit a claim for business trip expenses.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "25964_shucchouhi_ex2",
-      "japanese": "{今月|こんげつ}の{出張費|しゅっちょうひ}は{予算|よさん}を{超|こ}えてしまった。",
+      "japanese": "⟦{今月|こんげつ}→今月：00720_kongetsu⟧⟦の→の：09472_no⟧{出張費|しゅっちょうひ}⟦は→は：00079_ha⟧⟦{予算|よさん}→予算：03663_yosan⟧⟦を→を：00422_wo⟧⟦{超|こ}えて→超える：01942_koeru⟧しまった。",
       "english": "This month's business trip expenses went over budget.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "25964_shucchouhi_ex3",
-      "japanese": "{会社|かいしゃ}の{規定|きてい}では、{出張費|しゅっちょうひ}は{領収書|りょうしゅうしょ}を{添|そ}えて{一週間以内|いっしゅうかんいない}に{精算|せいさん}することになっている。",
+      "japanese": "⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦の→の：09472_no⟧⟦{規定|きてい}→規定：14136_kitei⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧、{出張費|しゅっちょうひ}⟦は→は：00079_ha⟧⟦{領収書|りょうしゅうしょ}→領収書：04697_ryoushuusho⟧⟦を→を：00422_wo⟧⟦{添|そ}えて→添える：13315_soeru⟧{一週間以内|いっしゅうかんいない}⟦に→に：00314_ni⟧⟦{精算|せいさん}→精算：10899_seisan⟧⟦する→する：00392_suru⟧ことになっている。",
       "english": "According to company policy, business trip expenses must be settled within one week with receipts attached.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {出張|しゅっちょう} (business trip) and {費|ひ} (expense; cost). Covers all costs associated with a business trip, including transportation ({交通費|こうつうひ}), accommodation ({宿泊費|しゅくはくひ}), and per diem allowances ({日当|にっとう}). A standard term in Japanese workplace vocabulary, commonly appearing on expense reports and reimbursement forms.\n\nCOMMON COLLOCATIONS:\n- {出張費|しゅっちょうひ}を{精算|せいさん}する: to settle business trip expenses\n- {出張費|しゅっちょうひ}を{申請|しんせい}する: to file for business trip expenses\n- {出張費|しゅっちょうひ}の{上限|じょうげん}: expense limit for business trips\n- {出張費|しゅっちょうひ}{規定|きてい}: business trip expense policy\n\nSIMILAR WORDS:\n- {交通費|こうつうひ}: transportation costs — a subcategory covering only travel fares\n- {旅費|りょひ}: travel expenses — a more general term that can apply to both business and personal travel\n- {経費|けいひ}: expenses — a broader business term covering all operational costs",
-  "cross_references": [],
+  "notes": "A compound of ⟦{出張|しゅっちょう}→出張：01094_shucchou⟧ (business trip) and ⟦{費|ひ}→費：09877_hi⟧ (expense; cost). Covers all costs associated with a business trip, including transportation (⟦{交通費|こうつうひ}→交通費：03056_koutsuuhi⟧), accommodation (⟦{宿泊費|しゅくはくひ}→宿泊費：25963_shukuhakuhi⟧), and per diem allowances (⟦{日当|にっとう}→日当：19259_nittou⟧). A standard term in Japanese workplace vocabulary, commonly appearing on expense reports and reimbursement forms.\n\nCOMMON COLLOCATIONS:\n- {出張費|しゅっちょうひ}⟦を→を：00422_wo⟧⟦{精算|せいさん}→精算：10899_seisan⟧⟦する→する：00392_suru⟧: to settle business trip expenses\n- {出張費|しゅっちょうひ}⟦を→を：00422_wo⟧⟦{申請|しんせい}する→申請する：25228_shinseisuru⟧: to file for business trip expenses\n- {出張費|しゅっちょうひ}⟦の→の：09472_no⟧⟦{上限|じょうげん}→上限：11299_jougen⟧: expense limit for business trips\n- {出張費|しゅっちょうひ}⟦{規定|きてい}→規定：14136_kitei⟧: business trip expense policy\n\nSIMILAR WORDS:\n- ⟦{交通費|こうつうひ}→交通費：03056_koutsuuhi⟧: transportation costs — a subcategory covering only travel fares\n- ⟦{旅費|りょひ}→旅費：20646_ryohi⟧: travel expenses — a more general term that can apply to both business and personal travel\n- ⟦{経費|けいひ}→経費：04696_keihi⟧: expenses — a broader business term covering all operational costs",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03056_koutsuuhi",
+      "reading": "こうつうひ",
+      "headword": "{交通費|こうつうひ}",
+      "label": "transportation costs"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20646_ryohi",
+      "reading": "りょひ",
+      "headword": "{旅費|りょひ}",
+      "label": "travel expenses"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04696_keihi",
+      "reading": "けいひ",
+      "headword": "{経費|けいひ}",
+      "label": "expenses"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23390_tokouhi",
+      "reading": "とこうひ",
+      "headword": "{渡航費|とこうひ}",
+      "label": "travel expenses (for overseas travel)"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["work", "money"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "work",
+        "money"
+      ]
     },
     "created": "2026-04-28T14:09:30Z",
-    "modified": "2026-04-28T14:09:30Z"
+    "modified": "2026-09-02T04:02:24Z"
   }
 }

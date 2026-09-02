@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "10120_kamisori_ex1",
-      "japanese": "{電気|でんき}かみそりで{剃|そ}る。",
+      "japanese": "{電気|でんき}かみそり⟦で→で：00502_de⟧⟦{剃|そ}る→剃る：00384_soru⟧。",
       "english": "I shave with an electric razor.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "10120_kamisori_ex2",
-      "japanese": "かみそりの{刃|は}を{交換|こうかん}する。",
+      "japanese": "かみそり⟦の→の：09472_no⟧⟦{刃|は}→刃：09865_ha⟧⟦を→を：00422_wo⟧⟦{交換|こうかん}→交換：02746_koukan⟧⟦する→する：00392_suru⟧。",
       "english": "I replace the razor blade.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "10120_kamisori_ex3",
-      "japanese": "かみそりで{手|て}を{切|き}ってしまった。",
+      "japanese": "かみそり⟦で→で：00502_de⟧⟦{手|て}→手：00569_te⟧⟦を→を：00422_wo⟧⟦{切|き}って→切る：02693_kiru⟧しまった。",
       "english": "I accidentally cut my hand with a razor.",
       "notes": null,
       "has_audio": false,
@@ -43,10 +43,26 @@
       ]
     }
   ],
-  "notes": "WRITING:\nCan be written as {剃刀|かみそり} in kanji, but hiragana かみそり is much more common in everyday use.\n\nCOMMON COLLOCATIONS:\n- {電気|でんき}かみそり: electric razor/shaver\n- かみそりの{刃|は}: razor blade\n- かみそり{負|ま}け: razor burn (skin irritation from shaving)\n- {使|つか}い{捨|す}てかみそり: disposable razor\n- かみそりで{剃|そ}る: to shave with a razor\n\nSIMILAR WORDS:\n- シェーバー: shaver (loanword, usually for electric razors)\n- T{字|じ}かみそり: safety razor (T-shaped)\n\nCULTURAL NOTE:\nAt Japanese {理髪店|りはつてん} (barbershops), a straight razor shave ({顔剃|かおそ}り) is a standard part of the service. {床屋|とこや} (barbers) are licensed to use straight razors, whereas {美容室|びようしつ} (beauty salons) traditionally are not.",
+  "notes": "WRITING:\nCan be written as {剃刀|かみそり} in kanji, but hiragana かみそり is much more common in everyday use.\n\nCOMMON COLLOCATIONS:\n- {電気|でんき}かみそり: electric razor/shaver\n- かみそり⟦の→の：09472_no⟧⟦{刃|は}→刃：09865_ha⟧: razor blade\n- かみそり⟦{負|ま}け→負け：02569_make⟧: razor burn (skin irritation from shaving)\n- ⟦{使|つか}い{捨|す}て→使い捨て：07665_tsukaisute⟧かみそり: disposable razor\n- かみそり⟦で→で：00502_de⟧⟦{剃|そ}る→剃る：00384_soru⟧: to shave with a razor\n\nSIMILAR WORDS:\n- シェーバー: shaver (loanword, usually for electric razors)\n- T⟦{字|じ}→字：01606_ji⟧かみそり: safety razor (T-shaped)\n\nCULTURAL NOTE:\nAt Japanese ⟦{理髪店|りはつてん}→理髪店：06320_rihatsuten⟧ (barbershops), a straight razor shave ({顔剃|かおそ}り) is a standard part of the service. ⟦{床屋|とこや}→床屋：01682_tokoya⟧ (barbers) are licensed to use straight razors, whereas ⟦{美容室|びようしつ}→美容室：20238_biyoushitsu⟧ (beauty salons) traditionally are not.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "00384_soru",
+      "reading": "そる",
+      "headword": "{剃|そ}る",
+      "label": "to shave"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29238_datsumouzai",
+      "reading": "だつもうざい",
+      "headword": "{脱毛剤|だつもうざい}",
+      "label": "hair removal cream"
+    }
+  ],
   "metadata": {
     "created": "2026-02-05T08:37:56Z",
-    "modified": "2026-03-25T06:54:04Z",
+    "modified": "2026-09-02T04:01:20Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

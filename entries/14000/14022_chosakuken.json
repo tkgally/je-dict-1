@@ -15,42 +15,62 @@
   "examples": [
     {
       "id": "14022_chosakuken_ex1",
-      "japanese": "この{写真|しゃしん}の{著作権|ちょさくけん}は{撮影者|さつえいしゃ}にある。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{写真|しゃしん}→写真：00753_shashin⟧⟦の→の：09472_no⟧{著作権|ちょさくけん}⟦は→は：00079_ha⟧⟦{撮影者|さつえいしゃ}→撮影者：26286_satsueisha⟧⟦に→に：00314_ni⟧⟦ある→ある：00006_aru⟧。",
       "english": "The copyright for this photo belongs to the photographer.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14022_chosakuken_ex2",
-      "japanese": "{著作権|ちょさくけん}を{侵害|しんがい}すると{法的|ほうてき}{責任|せきにん}を{問|と}われる。",
+      "japanese": "{著作権|ちょさくけん}⟦を→を：00422_wo⟧⟦{侵害|しんがい}→侵害：11563_shingai⟧⟦する→する：00392_suru⟧⟦と→と：00512_to⟧⟦{法的|ほうてき}{責任|せきにん}→法的責任：25085_houtekisekinin⟧⟦を→を：00422_wo⟧⟦{問|と}われる→問う：02299_tou⟧。",
       "english": "Violating copyright can result in legal liability.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14022_chosakuken_ex3",
-      "japanese": "インターネット{上|じょう}のコンテンツにも{著作権|ちょさくけん}があるので、{無断|むだん}で{転載|てんさい}してはいけない。",
+      "japanese": "⟦インターネット→インターネット：04723_intaanetto⟧⟦{上|じょう}→〜上：30365_jou⟧⟦の→の：09472_no⟧⟦コンテンツ→コンテンツ：06234_kontentsu⟧⟦に→に：00314_ni⟧⟦も→も：00484_mo⟧{著作権|ちょさくけん}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧⟦の→の：09472_no⟧で、⟦{無断|むだん}→無断：13382_mudan⟧⟦で→で：00502_de⟧⟦{転載|てんさい}→転載：14359_tensai⟧⟦して→する：00392_suru⟧⟦は→は：00079_ha⟧いけない。",
       "english": "Online content is also protected by copyright, so you must not repost it without permission.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "A compound of {著作|ちょさく} (authorship, literary work) and {権|けん} (right). One of the most important legal terms in modern Japanese.\n\nCOMMON COLLOCATIONS:\n- {著作権|ちょさくけん}を{侵害|しんがい}する (infringe copyright)\n- {著作権|ちょさくけん}を{保護|ほご}する (protect copyright)\n- {著作権|ちょさくけん}{法|ほう} (copyright law)\n- {著作権|ちょさくけん}フリー (copyright-free, royalty-free)\n- {著作権|ちょさくけん}の{切|き}れた (out of copyright, in the public domain)\n\nJapanese copyright law ({著作権法|ちょさくけんほう}) generally protects works for 70 years after the death of the author. The term has become increasingly important in discussions about AI-generated content and digital media.",
-  "cross_references": [],
+  "notes": "A compound of ⟦{著作|ちょさく}→著作：18234_chosaku⟧ (authorship, literary work) and {権|けん} (right). One of the most important legal terms in modern Japanese.\n\nCOMMON COLLOCATIONS:\n- {著作権|ちょさくけん}⟦を→を：00422_wo⟧⟦{侵害|しんがい}→侵害：11563_shingai⟧⟦する→する：00392_suru⟧ (infringe copyright)\n- {著作権|ちょさくけん}⟦を→を：00422_wo⟧⟦{保護|ほご}する→保護する：25374_hogosuru⟧ (protect copyright)\n- {著作権|ちょさくけん}⟦{法|ほう}→法：13620_hou⟧ (copyright law)\n- {著作権|ちょさくけん}⟦フリー→フリー：11001_furii⟧ (copyright-free, royalty-free)\n- {著作権|ちょさくけん}⟦の→の：09472_no⟧⟦{切|き}れた→切れる：01936_kireru⟧ (out of copyright, in the public domain)\n\nJapanese copyright law ({著作権法|ちょさくけんほう}) generally protects works for 70 years after the death of the author. The term has become increasingly important in discussions about AI-generated content and digital media.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "27049_shouhyouken",
+      "reading": "しょうひょうけん",
+      "headword": "{商標権|しょうひょうけん}",
+      "label": "trademark rights"
+    }
+  ],
   "metadata": {
     "created": "2026-02-27T09:17:51Z",
-    "modified": "2026-02-27T09:17:51Z",
+    "modified": "2026-09-02T04:01:35Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["legal"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "legal"
+      ]
     }
   }
 }

@@ -3,7 +3,7 @@
   "headword": "{一本気|いっぽんぎ}",
   "reading": "いっぽんぎ",
   "romaji": "ippongi",
-  "part_of_speech": "na-adjective",
+  "part_of_speech": "na-adjective, noun",
   "gloss": "single-minded; straightforward; wholehearted",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22492_ippongi_ex1",
-      "japanese": "{一本気|いっぽんぎ}な{性格|せいかく}だ。",
+      "japanese": "{一本気|いっぽんぎ}な⟦{性格|せいかく}→性格：03371_seikaku⟧だ。",
       "english": "He has a single-minded personality.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22492_ippongi_ex2",
-      "japanese": "{彼|かれ}は{一本気|いっぽんぎ}で{融通|ゆうずう}が{利|き}かない。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{一本気|いっぽんぎ}⟦で→で：00502_de⟧⟦{融通|ゆうずう}→融通：10914_yuuzuu⟧⟦が→が：00051_ga⟧⟦{利|き}かない→利く：11845_kiku⟧。",
       "english": "He's single-minded and inflexible.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22492_ippongi_ex3",
-      "japanese": "{一本気|いっぽんぎ}な{彼女|かのじょ}は{一度|いちど}{決|き}めたら{最後|さいご}まで{貫|つらぬ}く。",
+      "japanese": "{一本気|いっぽんぎ}な⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧⟦{一度|いちど}→一度：01312_ichido⟧⟦{決|き}めたら→決める：00858_kimeru⟧⟦{最後|さいご}→最後：01413_saigo⟧⟦まで→まで：00490_made⟧⟦{貫|つらぬ}く→貫く：18728_tsuranuku⟧。",
       "english": "She's so single-minded that once she decides something, she sees it through to the end.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Describes someone who pursues one thing wholeheartedly without wavering. Can be positive (dedicated, sincere) or slightly negative (stubborn, inflexible), depending on context. The word literally suggests having one ({一本|いっぽん}) core spirit ({気|き}).\n\nCOMMON COLLOCATIONS:\n- {一本気|いっぽんぎ}な{人|ひと}: a single-minded person\n- {一本気|いっぽんぎ}な{性格|せいかく}: a straightforward personality\n- {一本気|いっぽんぎ}に{進|すす}む: to push forward single-mindedly\n\nSIMILAR WORDS:\n- {一途|いちず}: devoted, single-hearted — usually positive; often used about romantic devotion\n- {頑固|がんこ}: stubborn — negative connotation; emphasizes unwillingness to change\n- {真|ま}っ{直|す}ぐ: straight, honest — focuses on being straightforward and upright",
+  "notes": "Describes someone who pursues one thing wholeheartedly without wavering. Can be positive (dedicated, sincere) or slightly negative (stubborn, inflexible), depending on context. The word literally suggests having one (⟦{一本|いっぽん}→一本：08888_ippon⟧) core spirit (⟦{気|き}→気：02199_ki⟧).\n\nCOMMON COLLOCATIONS:\n- {一本気|いっぽんぎ}な⟦{人|ひと}→人：00476_hito⟧: a single-minded person\n- {一本気|いっぽんぎ}な⟦{性格|せいかく}→性格：03371_seikaku⟧: a straightforward personality\n- {一本気|いっぽんぎ}⟦に→に：00314_ni⟧⟦{進|すす}む→進む：01225_susumu⟧: to push forward single-mindedly\n\nSIMILAR WORDS:\n- ⟦{一途|いちず}→一途：18242_ichizu⟧: devoted, single-hearted — usually positive; often used about romantic devotion\n- ⟦{頑固|がんこ}→頑固：06643_ganko⟧: stubborn — negative connotation; emphasizes unwillingness to change\n- {真|ま}っ{直|す}ぐ: straight, honest — focuses on being straightforward and upright",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18242_ichizu",
+      "reading": "いちず",
+      "headword": "{一途|いちず}",
+      "label": "devoted, single-hearted"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06643_ganko",
+      "reading": "がんこ",
+      "headword": "{頑固|がんこ}",
+      "label": "stubborn"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +76,6 @@
       "politeness": "plain"
     },
     "created": "2026-04-06T14:26:45Z",
-    "modified": "2026-04-06T14:26:45Z"
+    "modified": "2026-09-02T04:02:08Z"
   }
 }

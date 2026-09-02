@@ -15,41 +15,60 @@
   "examples": [
     {
       "id": "29890_tobiishirenkyuu_ex1",
-      "japanese": "{今年|ことし}は{飛|と}び{石|いし}{連休|れんきゅう}だ。",
+      "japanese": "⟦{今年|ことし}→今年：00722_kotoshi⟧⟦は→は：00079_ha⟧{飛|と}び{石|いし}{連休|れんきゅう}だ。",
       "english": "This year the holidays are broken up by workdays.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29890_tobiishirenkyuu_ex2",
-      "japanese": "{飛|と}び{石|いし}{連休|れんきゅう}なので{遠出|とおで}はしない。",
+      "japanese": "{飛|と}び{石|いし}{連休|れんきゅう}な⟦の→の：09472_no⟧で⟦{遠出|とおで}→遠出：14430_toode⟧はしない。",
       "english": "Since the holidays are split up by workdays, I won't take a long trip.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29890_tobiishirenkyuu_ex3",
-      "japanese": "{間|あいだ}の{平日|へいじつ}に{休|やす}みを{取|と}れば、{飛|と}び{石|いし}{連休|れんきゅう}が{大型|おおがた}{連休|れんきゅう}になる。",
+      "japanese": "⟦{間|あいだ}→間：00914_aida⟧⟦の→の：09472_no⟧⟦{平日|へいじつ}→平日：03033_heijitsu⟧⟦に→に：00314_ni⟧⟦{休|やす}み→休み：02266_yasumi⟧⟦を→を：00422_wo⟧⟦{取|と}れば→取る：00565_toru⟧、{飛|と}び{石|いし}{連休|れんきゅう}⟦が→が：00051_ga⟧⟦{大型|おおがた}{連休|れんきゅう}→大型連休：14847_oogatarenkyuu⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧。",
       "english": "If you take the weekday in between off, the scattered holidays turn into one long break.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Named after {飛|と}び{石|いし} (stepping stones), which are set apart from one another. The image is of days off dotted across the calendar with workdays between them, unlike a {大型|おおがた}{連休|れんきゅう} (one long continuous holiday).\n\nCOMMON COLLOCATIONS:\n- {飛|と}び{石|いし}{連休|れんきゅう}になる: to fall as scattered holidays\n- {間|あいだ}の{平日|へいじつ}: the workday(s) in between\n\nSIMILAR WORDS:\n- {大型|おおがた}{連休|れんきゅう}: a long, continuous run of consecutive holidays — the opposite situation",
+  "notes": "Named after ⟦{飛|と}び{石|いし}→飛び石：29881_tobiishi⟧ (stepping stones), which are set apart from one another. The image is of days off dotted across the calendar with workdays between them, unlike a ⟦{大型|おおがた}{連休|れんきゅう}→大型連休：14847_oogatarenkyuu⟧ (one long continuous holiday).\n\nCOMMON COLLOCATIONS:\n- {飛|と}び{石|いし}{連休|れんきゅう}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧: to fall as scattered holidays\n- ⟦{間|あいだ}→間：00914_aida⟧⟦の→の：09472_no⟧⟦{平日|へいじつ}→平日：03033_heijitsu⟧: the workday(s) in between\n\nSIMILAR WORDS:\n- ⟦{大型|おおがた}{連休|れんきゅう}→大型連休：14847_oogatarenkyuu⟧: a long, continuous run of consecutive holidays — the opposite situation",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14847_oogatarenkyuu",
+      "reading": "おおがたれんきゅう",
+      "headword": "{大型連休|おおがたれんきゅう}",
+      "label": "a long, continuous run of consecutive…"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["time-period"],
+      "politeness": "plain",
+      "semantic": [
+        "time-period"
+      ],
       "domain": []
     },
     "created": "2026-07-16T21:18:06Z",
-    "modified": "2026-07-16T21:18:06Z"
+    "modified": "2026-09-02T04:02:38Z"
   }
 }

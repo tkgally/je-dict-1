@@ -15,43 +15,76 @@
   "examples": [
     {
       "id": "18843_oshirase_ex1",
-      "japanese": "お{知|し}らせがあります。",
+      "japanese": "お{知|し}らせ⟦が→が：00051_ga⟧⟦あります→ある：00006_aru⟧。",
       "english": "I have an announcement.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "18843_oshirase_ex2",
-      "japanese": "{大切|たいせつ}なお{知|し}らせですので、よくお{読|よ}みください。",
+      "japanese": "⟦{大切|たいせつ}→大切：01456_taisetsu⟧なお{知|し}らせです⟦の→の：09472_no⟧で、⟦よく→よく：00601_yoku⟧お⟦{読|よ}み→読む：00426_yomu⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "This is an important notice, so please read it carefully.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "18843_oshirase_ex3",
-      "japanese": "{休業|きゅうぎょう}のお{知|し}らせが{店|みせ}の{入|い}り{口|ぐち}に{貼|は}ってあった。",
+      "japanese": "⟦{休業|きゅうぎょう}→休業：11541_kyuugyou⟧⟦の→の：09472_no⟧お{知|し}らせ⟦が→が：00051_ga⟧⟦{店|みせ}→店：00497_mise⟧⟦の→の：09472_no⟧⟦{入|い}り{口|ぐち}→入り口：02507_iriguchi⟧⟦に→に：00314_ni⟧⟦{貼|は}ってあった→貼る：10447_haru⟧。",
       "english": "A notice about the closure was posted at the entrance of the shop.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Ubiquitous in daily life — seen on websites, in emails, on signs, and in apps. Common patterns include ～のお{知|し}らせ (notice about ~) and お{知|し}らせいたします (we would like to inform you). Without the お prefix, {知|し}らせ is a plain noun meaning news or information. The phrase {嬉|うれ}しいお{知|し}らせ (happy news) and {悲|かな}しいお{知|し}らせ (sad news) are set expressions for delivering good or bad news.",
+  "notes": "Ubiquitous in daily life — seen on websites, in emails, on signs, and in apps. Common patterns include ～⟦の→の：09472_no⟧お{知|し}らせ (notice about ~) and お{知|し}らせ⟦いたします→いたす：01314_itasu⟧ (we would like to inform you). Without the お prefix, ⟦{知|し}らせ→知らせ：03252_shirase⟧ is a plain noun meaning news or information. The phrase ⟦{嬉|うれ}しい→嬉しい：00822_ureshii⟧お{知|し}らせ (happy news) and ⟦{悲|かな}しい→悲しい：00783_kanashii⟧お{知|し}らせ (sad news) are set expressions for delivering good or bad news.",
   "synonyms": [],
   "antonyms": [],
   "related": [],
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "01208_shiraseru",
+      "reading": "しらせる",
+      "headword": "{知|し}らせる",
+      "label": "to notify, to inform"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23842_tsuuchisho",
+      "reading": "つうちしょ",
+      "headword": "{通知書|つうちしょ}",
+      "label": "notice"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25620_gyoumurenraku",
+      "reading": "ぎょうむれんらく",
+      "headword": "{業務連絡|ぎょうむれんらく}",
+      "label": "work-related notice"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "polite",
-      "semantic": ["communication"]
+      "semantic": [
+        "communication"
+      ]
     },
     "created": "2026-03-23T05:29:56Z",
-    "modified": "2026-03-23T05:29:56Z"
+    "modified": "2026-09-02T04:01:53Z"
   }
 }

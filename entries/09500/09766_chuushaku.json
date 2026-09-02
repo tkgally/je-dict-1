@@ -2,7 +2,7 @@
   "id": "09766_chuushaku",
   "headword": "{注釈|ちゅうしゃく}",
   "reading": "ちゅうしゃく",
-  "part_of_speech": "noun / suru verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "annotation, commentary, notes",
   "conjugation": {
     "type": "suru",
@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "09766_chuushaku_ex1",
-      "japanese": "{注釈|ちゅうしゃく}⟦を→を：00422_wo⟧{括弧|かっこ}⟦に→に：00314_ni⟧⟦{入|い}れる→入れる：01098_ireru⟧。",
+      "japanese": "{注釈|ちゅうしゃく}⟦を→を：00422_wo⟧⟦{括弧|かっこ}→括弧：00151_kakko⟧⟦に→に：00314_ni⟧⟦{入|い}れる→入れる：01098_ireru⟧。",
       "english": "To put annotations in parentheses.",
       "has_audio": false,
       "sense_numbers": [
@@ -113,7 +113,7 @@
     },
     {
       "id": "09766_chuushaku_ex2",
-      "japanese": "⟦この→この：00962_kono⟧⟦{本|ほん}→本：00111_hon⟧⟦には→には：00314_ni⟧{詳|くわ}しい{注釈|ちゅうしゃく}⟦が→が：00051_ga⟧{付|つ}いている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{本|ほん}→本：00111_hon⟧⟦には→には：00314_ni⟧⟦{詳|くわ}しい→詳しい：02483_kuwashii⟧{注釈|ちゅうしゃく}⟦が→が：00051_ga⟧⟦{付|つ}いている→付く：01960_tsuku⟧。",
       "english": "This book has detailed annotations.",
       "has_audio": false,
       "sense_numbers": [
@@ -122,7 +122,7 @@
     },
     {
       "id": "09766_chuushaku_ex3",
-      "japanese": "{難|むずか}しい{言葉|ことば}⟦に→に：00314_ni⟧{注釈|ちゅうしゃく}⟦を→を：00422_wo⟧{付|つ}ける。",
+      "japanese": "⟦{難|むずか}しい→難しい：00517_muzukashii⟧⟦{言葉|ことば}→言葉：02880_kotoba⟧⟦に→に：00314_ni⟧{注釈|ちゅうしゃく}⟦を→を：00422_wo⟧⟦{付|つ}ける→付ける：00761_tsukeru⟧。",
       "english": "To add annotations to difficult words.",
       "has_audio": false,
       "sense_numbers": [
@@ -130,10 +130,10 @@
       ]
     }
   ],
-  "notes": "{注釈|ちゅうしゃく} refers to explanatory notes or comments added to a text to help the reader understand difficult words, historical context, or technical terms.\n\nCOMMON COLLOCATIONS:\n- {注釈|ちゅうしゃく}を{付|つ}ける: to add annotations\n- {注釈|ちゅうしゃく}を{入|い}れる: to insert notes\n- {注釈|ちゅうしゃく}{付|つ}き: annotated, with notes\n- {注釈|ちゅうしゃく}{書|しょ}: annotated edition, commentary\n\nSIMILAR WORDS:\n- {解説|かいせつ}: explanation, commentary (more detailed and interpretive)\n- {脚注|きゃくちゅう}: footnote (specifically at the bottom of a page)\n- {注|ちゅう}: note (shorter form, often used in academic writing)\n- {補足|ほそく}: supplement, additional explanation",
+  "notes": "{注釈|ちゅうしゃく} refers to explanatory notes or comments added to a text to help the reader understand difficult words, historical context, or technical terms.\n\nCOMMON COLLOCATIONS:\n- {注釈|ちゅうしゃく}⟦を→を：00422_wo⟧⟦{付|つ}ける→付ける：00761_tsukeru⟧: to add annotations\n- {注釈|ちゅうしゃく}⟦を→を：00422_wo⟧⟦{入|い}れる→入れる：01098_ireru⟧: to insert notes\n- {注釈|ちゅうしゃく}⟦{付|つ}き→付き：26333_tsuki⟧: annotated, with notes\n- {注釈|ちゅうしゃく}⟦{書|しょ}→〜書：28467_sho⟧: annotated edition, commentary\n\nSIMILAR WORDS:\n- ⟦{解説|かいせつ}→解説：00138_kaisetsu⟧: explanation, commentary (more detailed and interpretive)\n- ⟦{脚注|きゃくちゅう}→脚注：06423_kyakuchuu⟧: footnote (specifically at the bottom of a page)\n- ⟦{注|ちゅう}→注：03434_chuu⟧: note (shorter form, often used in academic writing)\n- ⟦{補足|ほそく}→補足：08386_hosoku⟧: supplement, additional explanation",
   "metadata": {
     "created": "2026-02-03T09:58:52Z",
-    "modified": "2026-08-13T09:37:24Z",
+    "modified": "2026-09-02T04:01:19Z",
     "ai_model": "opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -156,6 +156,62 @@
       "reading": "かいせつ",
       "headword": "{解説|かいせつ}",
       "label": "explanation, commentary"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06423_kyakuchuu",
+      "reading": "きゃくちゅう",
+      "headword": "{脚注|きゃくちゅう}",
+      "label": "footnote"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08386_hosoku",
+      "reading": "ほそく",
+      "headword": "{補足|ほそく}",
+      "label": "supplement, additional explanation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22220_chuuki",
+      "reading": "ちゅうき",
+      "headword": "{注記|ちゅうき}",
+      "label": "note"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25912_kakkogaki",
+      "reading": "かっこがき",
+      "headword": "{括弧|かっこ}{書|が}き",
+      "label": "parenthetical note"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26903_rangai",
+      "reading": "らんがい",
+      "headword": "{欄外|らんがい}",
+      "label": "margin (of a page)"
+    },
+    {
+      "type": "related",
+      "target_id": "29709_touchuu",
+      "reading": "とうちゅう",
+      "headword": "{頭注|とうちゅう}",
+      "label": "headnote"
+    },
+    {
+      "type": "related",
+      "target_id": "29710_bouchuu",
+      "reading": "ぼうちゅう",
+      "headword": "{傍注|ぼうちゅう}",
+      "label": "marginal note"
+    },
+    {
+      "type": "related",
+      "target_id": "29711_kanmatsuchuu",
+      "reading": "かんまつちゅう",
+      "headword": "{巻末注|かんまつちゅう}",
+      "label": "endnote"
     }
   ]
 }

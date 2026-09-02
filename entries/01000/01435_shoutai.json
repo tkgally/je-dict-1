@@ -2,7 +2,7 @@
   "id": "01435_shoutai",
   "headword": "{招待|しょうたい}",
   "reading": "しょうたい",
-  "part_of_speech": "noun (verbal)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "invitation",
   "conjugation": {
     "type": "suru",
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "{招待|しょうたい} refers to formally inviting someone to an event or place.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- No standard intransitive pair\n- Pattern: [noun]⟦を→を：00422_wo⟧{招待|しょうたい}⟦する→する：00392_suru⟧\n\nVERBAL USE:\n{招待|しょうたい}⟦する→する：00392_suru⟧: to invite (takes を for person, に for event/place)\n\nCOMMON PATTERNS:\n- ⟦パーティー→パーティー：02946_paatii⟧⟦に→に：00314_ni⟧{招待|しょうたい}⟦する→する：00392_suru⟧: to invite to a party\n- ⟦{結婚式|けっこんしき}→結婚式：05493_kekkonshiki⟧⟦に→に：00314_ni⟧{招待|しょうたい}⟦される→する：00392_suru⟧: to be invited to a wedding\n- ⟦{家|いえ}→家：00612_ie⟧⟦に→に：00314_ni⟧{招待|しょうたい}⟦する→する：00392_suru⟧: to invite to one's home\n- ⟦ご→ご：09882_go⟧{招待|しょうたい}⟦ありがとうございます→ありがとうございます：09886_arigatougozaimasu⟧: thank you for the invitation\n\nRELATED WORDS:\n- ⟦{招待状|しょうたいじょう}→招待状：14769_shoutaijou⟧: invitation card/letter\n- ⟦{招待客|しょうたいきゃく}→招待客：28262_shoutaikyaku⟧: invited guest\n- ⟦{招待席|しょうたいせき}→招待席：noentry⟧: reserved seat (for invited guests)\n\nSIMILAR WORDS:\n- ⟦{誘|さそ}う→誘う：01947_sasou⟧: to invite casually, to ask someone to join\n- ⟦{招|まね}く→招く：02425_maneku⟧: to invite, to beckon (more literary)",
+  "notes": "{招待|しょうたい} refers to formally inviting someone to an event or place.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- No standard intransitive pair\n- Pattern: [noun]⟦を→を：00422_wo⟧{招待|しょうたい}⟦する→する：00392_suru⟧\n\nVERBAL USE:\n{招待|しょうたい}⟦する→する：00392_suru⟧: to invite (takes ⟦を→を：00422_wo⟧ for person, ⟦に→に：00314_ni⟧ for event/place)\n\nCOMMON PATTERNS:\n- ⟦パーティー→パーティー：02946_paatii⟧⟦に→に：00314_ni⟧{招待|しょうたい}⟦する→する：00392_suru⟧: to invite to a party\n- ⟦{結婚式|けっこんしき}→結婚式：05493_kekkonshiki⟧⟦に→に：00314_ni⟧{招待|しょうたい}⟦される→する：00392_suru⟧: to be invited to a wedding\n- ⟦{家|いえ}→家：00612_ie⟧⟦に→に：00314_ni⟧{招待|しょうたい}⟦する→する：00392_suru⟧: to invite to one's home\n- ⟦ご→ご：09882_go⟧{招待|しょうたい}⟦ありがとうございます→ありがとうございます：09886_arigatougozaimasu⟧: thank you for the invitation\n\nRELATED WORDS:\n- ⟦{招待状|しょうたいじょう}→招待状：14769_shoutaijou⟧: invitation card/letter\n- ⟦{招待客|しょうたいきゃく}→招待客：28262_shoutaikyaku⟧: invited guest\n- ⟦{招待席|しょうたいせき}→招待席：noentry⟧: reserved seat (for invited guests)\n\nSIMILAR WORDS:\n- ⟦{誘|さそ}う→誘う：01947_sasou⟧: to invite casually, to ask someone to join\n- ⟦{招|まね}く→招く：02425_maneku⟧: to invite, to beckon (more literary)",
   "cross_references": [
     {
       "type": "related",
@@ -141,11 +141,32 @@
       "reading": "しょうたいじょう",
       "headword": "{招待状|しょうたいじょう}",
       "label": "invitation card"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01947_sasou",
+      "reading": "さそう",
+      "headword": "{誘|さそ}う",
+      "label": "to invite casually, to ask someone…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02425_maneku",
+      "reading": "まねく",
+      "headword": "{招|まね}く",
+      "label": "to invite, to beckon"
+    },
+    {
+      "type": "related",
+      "target_id": "16850_kanyuu",
+      "reading": "かんゆう",
+      "headword": "{勧誘|かんゆう}",
+      "label": "solicitation"
     }
   ],
   "metadata": {
     "created": "2026-01-08T12:47:24Z",
-    "modified": "2026-08-09T12:26:58Z",
+    "modified": "2026-09-02T04:00:59Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

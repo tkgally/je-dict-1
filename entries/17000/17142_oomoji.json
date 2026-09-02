@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "17142_oomoji_ex1",
-      "japanese": "{大文字|おおもじ}で{書|か}いてください。",
+      "japanese": "{大文字|おおもじ}⟦で→で：00502_de⟧⟦{書|か}いて→書く：00477_kaku⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please write in uppercase.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17142_oomoji_ex2",
-      "japanese": "パスワードには{大文字|おおもじ}と{小文字|こもじ}を{混|ま}ぜてください。",
+      "japanese": "⟦パスワード→パスワード：05277_pasuwaado⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{大文字|おおもじ}⟦と→と：00512_to⟧⟦{小文字|こもじ}→小文字：12464_komoji⟧⟦を→を：00422_wo⟧⟦{混|ま}ぜて→混ぜる：02423_mazeru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please mix uppercase and lowercase letters in your password.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17142_oomoji_ex3",
-      "japanese": "{英語|えいご}では{文|ぶん}の{最初|さいしょ}の{文字|もじ}を{大文字|おおもじ}にするのがルールだ。",
+      "japanese": "⟦{英語|えいご}→英語：02274_eigo⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{文|ぶん}→文：03716_bun⟧⟦の→の：09472_no⟧⟦{最初|さいしょ}→最初：00882_saisho⟧⟦の→の：09472_no⟧⟦{文字|もじ}→文字：03632_moji⟧⟦を→を：00422_wo⟧{大文字|おおもじ}⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦ルール→ルール：00354_ruuru⟧だ。",
       "english": "In English, the rule is to capitalize the first letter of a sentence.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nA compound of {大|おお} (large) + {文字|もじ} (character, letter). Primarily used when discussing the Latin alphabet or other writing systems with case distinctions.\n\nNOTE:\nThe reading おおもじ means uppercase letter. The same kanji can also be read だいもんじ, which refers to the famous Daimonji bonfire on a mountainside in Kyoto during the Obon festival.\n\nCOMMON COLLOCATIONS:\n- {大文字|おおもじ}と{小文字|こもじ} (uppercase and lowercase)\n- {大文字|おおもじ}に{変換|へんかん}する (to convert to uppercase)\n- {大文字|おおもじ}{小文字|こもじ}を{区別|くべつ}する (to distinguish between upper and lower case)\n\nSIMILAR WORDS:\n- {小文字|こもじ}: lowercase letter — the smaller form of a letter",
+  "notes": "USAGE:\nA compound of {大|おお} (large) + ⟦{文字|もじ}→文字：03632_moji⟧ (character, letter). Primarily used when discussing the Latin alphabet or other writing systems with case distinctions.\nThe reading おおもじ means uppercase letter. The same kanji can also be read だいもんじ, which refers to the famous Daimonji bonfire on a mountainside in Kyoto during the Obon festival.\n\nCOMMON COLLOCATIONS:\n- {大文字|おおもじ}⟦と→と：00512_to⟧⟦{小文字|こもじ}→小文字：12464_komoji⟧ (uppercase and lowercase)\n- {大文字|おおもじ}⟦に→に：00314_ni⟧⟦{変換|へんかん}する→変換する：09890_henkansuru⟧ (to convert to uppercase)\n- {大文字|おおもじ}⟦{小文字|こもじ}→小文字：12464_komoji⟧⟦を→を：00422_wo⟧⟦{区別|くべつ}する→区別する：26970_kubetsusuru⟧ (to distinguish between upper and lower case)\n\nSIMILAR WORDS:\n- ⟦{小文字|こもじ}→小文字：12464_komoji⟧: lowercase letter — the smaller form of a letter",
   "cross_references": [
     {
       "type": "antonym",
@@ -50,14 +56,18 @@
   ],
   "metadata": {
     "created": "2026-03-16T03:09:35Z",
-    "modified": "2026-04-27T05:19:15Z",
+    "modified": "2026-09-02T04:01:47Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["language"]
+      "semantic": [
+        "language"
+      ]
     }
   }
 }

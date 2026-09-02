@@ -15,41 +15,74 @@
   "examples": [
     {
       "id": "29833_tourokuryou_ex1",
-      "japanese": "{登録料|とうろくりょう}を{払|はら}う。",
+      "japanese": "{登録料|とうろくりょう}⟦を→を：00422_wo⟧⟦{払|はら}う→払う：00535_harau⟧。",
       "english": "Pay the registration fee.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29833_tourokuryou_ex2",
-      "japanese": "{入会|にゅうかい}には{登録料|とうろくりょう}が{必要|ひつよう}だ。",
+      "japanese": "⟦{入会|にゅうかい}→入会：11671_nyuukai⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{登録料|とうろくりょう}⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧だ。",
       "english": "A registration fee is required to join.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29833_tourokuryou_ex3",
-      "japanese": "このジムは{登録料|とうろくりょう}が{無料|むりょう}のキャンペーンを{行|おこな}っている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦ジム→ジム：04735_jimu⟧⟦は→は：00079_ha⟧{登録料|とうろくりょう}⟦が→が：00051_ga⟧⟦{無料|むりょう}→無料：01662_muryou⟧⟦の→の：09472_no⟧⟦キャンペーン→キャンペーン：10809_kyanpeen⟧⟦を→を：00422_wo⟧⟦{行|おこな}っている→行う：01238_okonau⟧。",
       "english": "This gym is running a campaign with no registration fee.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "{登録|とうろく} (registration) + {料|りょう} (charge, fee). Charged when signing up for a service, membership, or course.\n\nRELATED FEES:\n- {入会金|にゅうかいきん}: membership or joining fee\n- {年会費|ねんかいひ}: annual membership fee\n- {手数料|てすうりょう}: handling or service charge",
+  "notes": "⟦{登録|とうろく}→登録：05703_touroku⟧ (registration) + ⟦{料|りょう}→料：28172_ryou⟧ (charge, fee). Charged when signing up for a service, membership, or course.\n\nRELATED FEES:\n- ⟦{入会金|にゅうかいきん}→入会金：06478_nyuukaikin⟧: membership or joining fee\n- ⟦{年会費|ねんかいひ}→年会費：06414_nenkaihi⟧: annual membership fee\n- ⟦{手数料|てすうりょう}→手数料：05423_tesuuryou⟧: handling or service charge",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "06478_nyuukaikin",
+      "reading": "にゅうかいきん",
+      "headword": "{入会金|にゅうかいきん}",
+      "label": "membership or joining fee"
+    },
+    {
+      "type": "related",
+      "target_id": "06414_nenkaihi",
+      "reading": "ねんかいひ",
+      "headword": "{年会費|ねんかいひ}",
+      "label": "annual membership fee"
+    },
+    {
+      "type": "related",
+      "target_id": "05423_tesuuryou",
+      "reading": "てすうりょう",
+      "headword": "{手数料|てすうりょう}",
+      "label": "handling or service charge"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["money"],
+      "politeness": "plain",
+      "semantic": [
+        "money"
+      ],
       "domain": []
     },
     "created": "2026-07-14T06:18:33Z",
-    "modified": "2026-07-14T06:18:33Z"
+    "modified": "2026-09-02T04:02:38Z"
   }
 }

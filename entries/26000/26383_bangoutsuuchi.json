@@ -15,39 +15,67 @@
   "examples": [
     {
       "id": "26383_bangoutsuuchi_ex1",
-      "japanese": "{番号通知|ばんごうつうち}がオフになっている。",
+      "japanese": "{番号通知|ばんごうつうち}⟦が→が：00051_ga⟧⟦オフ→オフ：10733_ofu⟧になっている。",
       "english": "Caller ID is turned off.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26383_bangoutsuuchi_ex2",
-      "japanese": "{番号通知|ばんごうつうち}なしの{電話|でんわ}には{出|で}ないことにしている。",
+      "japanese": "{番号通知|ばんごうつうち}なし⟦の→の：09472_no⟧⟦{電話|でんわ}→電話：01471_denwa⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{出|で}ない→出る：00513_deru⟧ことにして⟦いる→いる：00495_iru⟧。",
       "english": "I've decided not to answer calls without caller ID.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26383_bangoutsuuchi_ex3",
-      "japanese": "{迷惑|めいわく}{電話|でんわ}が{多|おお}いので、{番号通知|ばんごうつうち}を{確認|かくにん}してから{出|で}るようにしている。",
+      "japanese": "⟦{迷惑|めいわく}→迷惑：02432_meiwaku⟧⟦{電話|でんわ}→電話：01471_denwa⟧⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧⟦の→の：09472_no⟧で、{番号通知|ばんごうつうち}⟦を→を：00422_wo⟧⟦{確認|かくにん}して→確認する：25332_kakuninsuru⟧⟦から→から：00504_kara⟧⟦{出|で}る→出る：00513_deru⟧ようにして⟦いる→いる：00495_iru⟧。",
       "english": "Since I get a lot of spam calls, I check the caller ID before answering.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {番号|ばんごう} (number) and {通知|つうち} (notification). In Japan, NTT's caller ID service is called ナンバーディスプレイ, but {番号通知|ばんごうつうち} is the more general, carrier-neutral term used for the concept itself.\n\nCalls made without displaying the number are described as {非通知|ひつうち} (withheld number), and many Japanese people automatically reject {非通知|ひつうち} calls due to the prevalence of phone scams.\n\nCOMMON COLLOCATIONS:\n- {番号通知|ばんごうつうち}サービス: caller ID service\n- {番号通知|ばんごうつうち}を{設定|せってい}する: to set up caller ID\n- {番号通知|ばんごうつうち}{拒否|きょひ}: blocking calls without caller ID\n\nSIMILAR WORDS:\n- ナンバーディスプレイ: Number Display — NTT's branded caller ID service\n- {非通知|ひつうち}: withheld number; anonymous call\n- {着信|ちゃくしん}{履歴|りれき}: call history; call log",
-  "cross_references": [],
+  "notes": "Composed of ⟦{番号|ばんごう}→番号：02939_bangou⟧ (number) and ⟦{通知|つうち}→通知：04061_tsuuchi⟧ (notification). In Japan, NTT's caller ID service is called ナンバー⟦ディスプレイ→ディスプレイ：04891_disupurei⟧, but {番号通知|ばんごうつうち} is the more general, carrier-neutral term used for the concept itself.\n\nCalls made without displaying the number are described as ⟦{非通知|ひつうち}→非通知：29603_hitsuuchi⟧ (withheld number), and many Japanese people automatically reject ⟦{非通知|ひつうち}→非通知：29603_hitsuuchi⟧ calls due to the prevalence of phone scams.\n\nCOMMON COLLOCATIONS:\n- {番号通知|ばんごうつうち}⟦サービス→サービス：01531_saabisu⟧: caller ID service\n- {番号通知|ばんごうつうち}⟦を→を：00422_wo⟧⟦{設定|せってい}→設定：04767_settei⟧⟦する→する：00392_suru⟧: to set up caller ID\n- {番号通知|ばんごうつうち}⟦{拒否|きょひ}→拒否：08242_kyohi⟧: blocking calls without caller ID\n\nSIMILAR WORDS:\n- ナンバー⟦ディスプレイ→ディスプレイ：04891_disupurei⟧: Number Display — NTT's branded caller ID service\n- ⟦{非通知|ひつうち}→非通知：29603_hitsuuchi⟧: withheld number; anonymous call\n- ⟦{着信|ちゃくしん}{履歴|りれき}→着信履歴：17362_chakushinrireki⟧: call history; call log",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "29603_hitsuuchi",
+      "reading": "ひつうち",
+      "headword": "{非通知|ひつうち}",
+      "label": "withheld number"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17362_chakushinrireki",
+      "reading": "ちゃくしんりれき",
+      "headword": "{着信|ちゃくしん}{履歴|りれき}",
+      "label": "call history"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["technology", "communication"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "technology",
+        "communication"
+      ]
     },
     "created": "2026-05-01T13:31:38Z",
-    "modified": "2026-05-01T13:31:38Z"
+    "modified": "2026-09-02T04:02:26Z"
   }
 }

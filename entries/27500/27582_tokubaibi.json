@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "27582_tokubaibi_ex1",
-      "japanese": "{今日|きょう}は{特売日|とくばいび}だ。",
+      "japanese": "⟦{今日|きょう}→今日：00496_kyou⟧⟦は→は：00079_ha⟧{特売日|とくばいび}だ。",
       "english": "Today is sale day.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "27582_tokubaibi_ex2",
-      "japanese": "{特売日|とくばいび}は{店内|てんない}が{混|こ}んでいる。",
+      "japanese": "{特売日|とくばいび}⟦は→は：00079_ha⟧⟦{店内|てんない}→店内：03124_tennai⟧⟦が→が：00051_ga⟧⟦{混|こ}んでいる→混む：02574_komu⟧。",
       "english": "The store is crowded on sale days.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "27582_tokubaibi_ex3",
-      "japanese": "{毎週|まいしゅう}{水曜日|すいようび}は{野菜|やさい}の{特売日|とくばいび}なので、まとめて{買|か}いに{行|い}く。",
+      "japanese": "⟦{毎週|まいしゅう}→毎週：00730_maishuu⟧⟦{水曜日|すいようび}→水曜日：00672_suiyoubi⟧⟦は→は：00079_ha⟧⟦{野菜|やさい}→野菜：02265_yasai⟧⟦の→の：09472_no⟧{特売日|とくばいび}な⟦の→の：09472_no⟧で、⟦まとめて→まとめる：02424_matomeru⟧⟦{買|か}い→買う：00489_kau⟧⟦に→に：00314_ni⟧⟦{行|い}く→行く：00119_iku⟧。",
       "english": "Every Wednesday is the vegetable sale day, so I go shopping in bulk.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {特売|とくばい} (special sale) + {日|び} (day). Most often refers to weekly or monthly sales at supermarkets, with categories like 'meat day,' 'vegetable day,' or 'tenth-of-the-month sale.'\n\nCOMMON COLLOCATIONS:\n- {毎週|まいしゅう}{特売日|とくばいび}: weekly sale day\n- {野菜|やさい}の{特売日|とくばいび}: vegetable sale day\n- {特売日|とくばいび}に{買|か}いに{行|い}く: to go shopping on sale day\n\nSIMILAR WORDS:\n- セール: sale (general loanword)\n- {特売|とくばい}: special sale (the discount itself)\n- バーゲンセール: bargain sale (often for clothing)\n- {大売|おおう}り{出|だ}し: big sale event",
+  "notes": "Compound of ⟦{特売|とくばい}→特売：04277_tokubai⟧ (special sale) + {日|び} (day). Most often refers to weekly or monthly sales at supermarkets, with categories like 'meat day,' 'vegetable day,' or 'tenth-of-the-month sale.'\n\nCOMMON COLLOCATIONS:\n- ⟦{毎週|まいしゅう}→毎週：00730_maishuu⟧{特売日|とくばいび}: weekly sale day\n- ⟦{野菜|やさい}→野菜：02265_yasai⟧⟦の→の：09472_no⟧{特売日|とくばいび}: vegetable sale day\n- {特売日|とくばいび}⟦に→に：00314_ni⟧⟦{買|か}い→買う：00489_kau⟧⟦に→に：00314_ni⟧⟦{行|い}く→行く：00119_iku⟧: to go shopping on sale day\n\nSIMILAR WORDS:\n- ⟦セール→セール：07780_seeru⟧: sale (general loanword)\n- ⟦{特売|とくばい}→特売：04277_tokubai⟧: special sale (the discount itself)\n- ⟦バーゲン→バーゲン：08258_baagen⟧⟦セール→セール：07780_seeru⟧: bargain sale (often for clothing)\n- {大売|おおう}り{出|だ}し: big sale event",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07780_seeru",
+      "reading": "せーる",
+      "headword": "セール",
+      "label": "sale"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +62,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "business",
         "shopping"
@@ -61,6 +70,6 @@
       "domain": []
     },
     "created": "2026-05-14T03:17:15Z",
-    "modified": "2026-08-07T16:10:18Z"
+    "modified": "2026-09-02T04:02:31Z"
   }
 }

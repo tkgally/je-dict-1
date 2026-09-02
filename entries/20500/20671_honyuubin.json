@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "20671_honyuubin_ex1",
-      "japanese": "{哺乳瓶|ほにゅうびん}を{消毒|しょうどく}する。",
+      "japanese": "{哺乳瓶|ほにゅうびん}⟦を→を：00422_wo⟧⟦{消毒|しょうどく}する→消毒する：17818_shoudokusuru⟧。",
       "english": "To sterilize a baby bottle.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "20671_honyuubin_ex2",
-      "japanese": "{赤|あか}ちゃんが{哺乳瓶|ほにゅうびん}でミルクを{飲|の}んでいる。",
+      "japanese": "⟦{赤|あか}ちゃん→赤ちゃん：01282_akachan⟧⟦が→が：00051_ga⟧{哺乳瓶|ほにゅうびん}⟦で→で：00502_de⟧⟦ミルク→ミルク：00284_miruku⟧⟦を→を：00422_wo⟧⟦{飲|の}んでいる→飲む：00322_nomu⟧。",
       "english": "The baby is drinking milk from a bottle.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "20671_honyuubin_ex3",
-      "japanese": "{新生児用|しんせいじよう}の{哺乳瓶|ほにゅうびん}はサイズが{小|ちい}さくて、{乳首|ちくび}の{穴|あな}も{小|ちい}さい。",
+      "japanese": "{新生児用|しんせいじよう}⟦の→の：09472_no⟧{哺乳瓶|ほにゅうびん}⟦は→は：00079_ha⟧⟦サイズ→サイズ：01363_saizu⟧⟦が→が：00051_ga⟧⟦{小|ちい}さくて→小さい：00025_chiisai⟧、{乳首|ちくび}⟦の→の：09472_no⟧⟦{穴|あな}→穴：01691_ana⟧⟦も→も：00484_mo⟧⟦{小|ちい}さい→小さい：00025_chiisai⟧。",
       "english": "Baby bottles for newborns are small in size, and the nipple holes are also small.",
       "sense_numbers": [
         1
@@ -44,8 +44,45 @@
       "notes": null
     }
   ],
-  "notes": "The standard word for baby bottles in Japanese. Essential vocabulary for parenting contexts. The word combines {哺乳|ほにゅう} (nursing, suckling) with {瓶|びん} (bottle).\n\nCOMMON COLLOCATIONS:\n- {哺乳瓶|ほにゅうびん}を{消毒|しょうどく}する: to sterilize a baby bottle\n- {哺乳瓶|ほにゅうびん}の{乳首|ちくび}: the nipple of a baby bottle\n- ガラスの{哺乳瓶|ほにゅうびん}: glass baby bottle\n- プラスチックの{哺乳瓶|ほにゅうびん}: plastic baby bottle\n- {哺乳瓶|ほにゅうびん}{拒否|きょひ}: bottle refusal (when a baby refuses the bottle)\n\nRELATED TERMS:\n- {哺乳|ほにゅう}: nursing, breast-feeding; also \"mammalian\" ({哺乳類|ほにゅうるい} = mammals)\n- {授乳|じゅにゅう}: feeding (breast or bottle)\n- {母乳|ぼにゅう}: breast milk\n- ミルク: formula milk (in parenting context)",
+  "notes": "The standard word for baby bottles in Japanese. Essential vocabulary for parenting contexts. The word combines ⟦{哺乳|ほにゅう}→哺乳：24166_honyuu⟧ (nursing, suckling) with ⟦{瓶|びん}→瓶：01016_bin⟧ (bottle).\n\nCOMMON COLLOCATIONS:\n- {哺乳瓶|ほにゅうびん}⟦を→を：00422_wo⟧⟦{消毒|しょうどく}する→消毒する：17818_shoudokusuru⟧: to sterilize a baby bottle\n- {哺乳瓶|ほにゅうびん}⟦の→の：09472_no⟧{乳首|ちくび}: the nipple of a baby bottle\n- ⟦ガラス→ガラス：01777_garasu⟧⟦の→の：09472_no⟧{哺乳瓶|ほにゅうびん}: glass baby bottle\n- ⟦プラスチック→プラスチック：00347_purasuchikku⟧⟦の→の：09472_no⟧{哺乳瓶|ほにゅうびん}: plastic baby bottle\n- {哺乳瓶|ほにゅうびん}⟦{拒否|きょひ}→拒否：08242_kyohi⟧: bottle refusal (when a baby refuses the bottle)\n\nRELATED WORDS:\n- ⟦{哺乳|ほにゅう}→哺乳：24166_honyuu⟧: nursing, breast-feeding; also \"mammalian\" (⟦{哺乳類|ほにゅうるい}→哺乳類：04920_honyuurui⟧ = mammals)\n- ⟦{授乳|じゅにゅう}→授乳：14937_junyuu⟧: feeding (breast or bottle)\n- ⟦{母乳|ぼにゅう}→母乳：13237_bonyuu⟧: breast milk\n- ⟦ミルク→ミルク：00284_miruku⟧: formula milk (in parenting context)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "14937_junyuu",
+      "reading": "じゅにゅう",
+      "headword": "{授乳|じゅにゅう}",
+      "label": "feeding"
+    },
+    {
+      "type": "related",
+      "target_id": "13237_bonyuu",
+      "reading": "ぼにゅう",
+      "headword": "{母乳|ぼにゅう}",
+      "label": "breast milk"
+    },
+    {
+      "type": "related",
+      "target_id": "00284_miruku",
+      "reading": "みるく",
+      "headword": "ミルク",
+      "label": "formula milk"
+    },
+    {
+      "type": "related",
+      "target_id": "21060_konamiruku",
+      "reading": "こなみるく",
+      "headword": "{粉|こな}ミルク",
+      "label": "powdered milk"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26408_chounyuu",
+      "reading": "ちょうにゅう",
+      "headword": "{調乳|ちょうにゅう}",
+      "label": "preparing formula"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +90,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "family",
         "daily-life"
       ]
     },
     "created": "2026-03-30T06:37:10Z",
-    "modified": "2026-03-30T06:37:10Z"
+    "modified": "2026-09-02T04:02:00Z"
   }
 }

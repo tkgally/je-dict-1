@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "07158_kisaku_ex1",
-      "japanese": "{社長|しゃちょう}はとても{気|き}さくな{人|ひと}だ。",
+      "japanese": "⟦{社長|しゃちょう}→社長：01428_shachou⟧⟦は→は：00079_ha⟧⟦とても→とても：00593_totemo⟧{気|き}さくな⟦{人|ひと}→人：00476_hito⟧だ。",
       "english": "The company president is a very approachable person.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "07158_kisaku_ex2",
-      "japanese": "{彼女|かのじょ}は{気|き}さくに{話|はな}しかけてくれた。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧{気|き}さく⟦に→に：00314_ni⟧⟦{話|はな}しかけて→話しかける：03134_hanashikakeru⟧⟦くれた→くれる：00724_kureru⟧。",
       "english": "She spoke to me in a friendly manner.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "07158_kisaku_ex3",
-      "japanese": "{気|き}さくな{性格|せいかく}で、{誰|だれ}とでもすぐ{仲良|なかよ}くなれる。",
+      "japanese": "{気|き}さくな⟦{性格|せいかく}→性格：03371_seikaku⟧⟦で→で：00502_de⟧、⟦{誰|だれ}→誰：00534_dare⟧⟦と→と：00512_to⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧⟦すぐ→すぐ：00814_sugu⟧⟦{仲良|なかよ}く→仲良い：29434_nakayoi⟧⟦なれる→なる：01970_naru⟧。",
       "english": "With his friendly personality, he can quickly become friends with anyone.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "FORMS:\n・{気|き}さくな + noun - friendly (modifier)\n・{気|き}さくに + verb - in a friendly manner (adverb)\n\nNUANCE:\nDescribes someone who doesn't put on airs and is easy to approach despite their status. Often used positively about people in higher positions (bosses, celebrities) who are down-to-earth.\n\nCOLLOCATIONS:\n・{気|き}さくな{人柄|ひとがら} - friendly personality\n・{気|き}さくに{話|はな}す - to talk in a friendly way\n・{気|き}さくに{応|おう}じる - to respond amiably\n\nSIMILAR WORDS:\n・フレンドリー - friendly (loanword)\n・{親|した}しみやすい - approachable\n・{気軽|きがる} - casual, lighthearted\n・{気前|きまえ}がいい - generous",
+  "notes": "FORMS:\n- {気|き}さくな + noun - friendly (modifier)\n- {気|き}さく⟦に→に：00314_ni⟧ + verb - in a friendly manner (adverb)\n\nUSAGE:\nDescribes someone who doesn't put on airs and is easy to approach despite their status. Often used positively about people in higher positions (bosses, celebrities) who are down-to-earth.\n\nCOMMON COLLOCATIONS:\n- {気|き}さくな⟦{人柄|ひとがら}→人柄：08163_hitogara⟧ - friendly personality\n- {気|き}さく⟦に→に：00314_ni⟧⟦{話|はな}す→話す：00467_hanasu⟧ - to talk in a friendly way\n- {気|き}さく⟦に→に：00314_ni⟧⟦{応|おう}じる→応じる：02018_oujiru⟧ - to respond amiably\n\nSIMILAR WORDS:\n- フレンドリー - friendly (loanword)\n- ⟦{親|した}しみやすい→親しみやすい：19142_shitashimiyasui⟧ - approachable\n- ⟦{気軽|きがる}→気軽：06865_kigaru⟧ - casual, lighthearted\n- ⟦{気前|きまえ}がいい→気前がいい：20378_kimaegaii⟧ - generous",
   "cross_references": [
     {
       "type": "related",
@@ -65,11 +65,18 @@
       "reading": "したしみやすい",
       "headword": "{親|した}しみやすい",
       "label": "approachable"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20378_kimaegaii",
+      "reading": "きまえがいい",
+      "headword": "{気前|きまえ}がいい",
+      "label": "generous"
     }
   ],
   "metadata": {
     "created": "2026-01-19T02:58:14Z",
-    "modified": "2026-08-10T06:41:18Z",
+    "modified": "2026-09-02T04:01:10Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

@@ -69,7 +69,7 @@
     },
     {
       "id": "02622_kankaku_ex6",
-      "japanese": "⟦{電車|でんしゃ}→電車：00522_densha⟧⟦の→の：09472_no⟧⟦{運転|うんてん}→運転：01335_unten⟧{間隔|かんかく}⟦が→が：00051_ga⟧⟦{短|みじか}く→短い：00510_mijikai⟧⟦なった→なる：01970_naru⟧ので、⟦{待|ま}つ→待つ：00469_matsu⟧⟦{時間|じかん}→時間：00468_jikan⟧⟦が→が：00051_ga⟧⟦{減|へ}った→減る：01985_heru⟧。",
+      "japanese": "⟦{電車|でんしゃ}→電車：00522_densha⟧⟦の→の：09472_no⟧⟦{運転|うんてん}→運転：01335_unten⟧{間隔|かんかく}⟦が→が：00051_ga⟧⟦{短|みじか}く→短い：00510_mijikai⟧⟦なった→なる：01970_naru⟧⟦の→の：09472_no⟧で、⟦{待|ま}つ→待つ：00469_matsu⟧⟦{時間|じかん}→時間：00468_jikan⟧⟦が→が：00051_ga⟧⟦{減|へ}った→減る：01985_heru⟧。",
       "english": "The interval between trains has gotten shorter, so the waiting time has decreased.",
       "notes": null,
       "has_audio": false,
@@ -78,7 +78,7 @@
       ]
     }
   ],
-  "notes": "{間隔|かんかく} refers to both spatial and temporal intervals.\n\nCOMMON PATTERNS:\n- {間隔|かんかく}⟦を→を：00422_wo⟧⟦{空|あ}ける→空ける：18694_akeru⟧ (to leave an interval/gap)\n- 〜{間隔|かんかく}⟦で→で：00502_de⟧ (at intervals of ~)\n- ⟦{等|とう}→等：noentry⟧{間隔|かんかく} (equal intervals)\n\nCOMPOUND WORDS:\n- ⟦{時間|じかん}→時間：00468_jikan⟧{間隔|かんかく} (time interval)\n- ⟦{運転|うんてん}→運転：01335_unten⟧{間隔|かんかく} (service interval, headway)\n\nSIMILAR WORDS:\n- {間隔|かんかく}: interval, gap (neutral)\n- ⟦{隙間|すきま}→隙間：00389_sukima⟧: gap, crack (smaller, often unintended)\n- ⟦{距離|きょり}→距離：05331_kyori⟧: distance (between two points)\n- ⟦{感覚|かんかく}→感覚：02593_kankaku⟧: sense, sensation (different word, same reading)",
+  "notes": "{間隔|かんかく} refers to both spatial and temporal intervals.\n\nCOMMON PATTERNS:\n- {間隔|かんかく}⟦を→を：00422_wo⟧⟦{空|あ}ける→空ける：18694_akeru⟧ (to leave an interval/gap)\n- 〜{間隔|かんかく}⟦で→で：00502_de⟧ (at intervals of ~)\n- ⟦{等|とう}→等：noentry⟧{間隔|かんかく} (equal intervals)\n\nCOMPOUNDS:\n- ⟦{時間|じかん}→時間：00468_jikan⟧{間隔|かんかく} (time interval)\n- ⟦{運転|うんてん}→運転：01335_unten⟧{間隔|かんかく} (service interval, headway)\n\nSIMILAR WORDS:\n- {間隔|かんかく}: interval, gap (neutral)\n- ⟦{隙間|すきま}→隙間：00389_sukima⟧: gap, crack (smaller, often unintended)\n- ⟦{距離|きょり}→距離：05331_kyori⟧: distance (between two points)\n- ⟦{感覚|かんかく}→感覚：02593_kankaku⟧: sense, sensation (different word, same reading)",
   "cross_references": [
     {
       "type": "contrast",
@@ -86,11 +86,25 @@
       "headword": "{感覚|かんかく}",
       "label": "sense, sensation",
       "target_id": "02593_kankaku"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00389_sukima",
+      "reading": "すきま",
+      "headword": "{隙間|すきま}",
+      "label": "gap, crack"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05331_kyori",
+      "reading": "きょり",
+      "headword": "{距離|きょり}",
+      "label": "distance"
     }
   ],
   "metadata": {
     "created": "2026-01-11T06:43:14Z",
-    "modified": "2026-05-21T16:10:36Z",
+    "modified": "2026-09-02T04:01:02Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

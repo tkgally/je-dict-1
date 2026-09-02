@@ -2,7 +2,7 @@
   "id": "02775_sagyou",
   "headword": "{作業|さぎょう}",
   "reading": "さぎょう",
-  "part_of_speech": "noun / suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "work, operation, task",
   "conjugation": {
     "type": "suru",
@@ -143,7 +143,7 @@
       ]
     }
   ],
-  "notes": "{作業|さぎょう} refers to work tasks, usually manual or procedural.\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n- No standard transitive pair\n- Pattern: {作業|さぎょう}する\n\nCOMMON PATTERNS:\n- {作業|さぎょう}をする (to do work)\n- {作業|さぎょう}を⟦{進|すす}める→進める：01949_susumeru⟧ (to proceed with work)\n- {作業|さぎょう}が⟦{終|お}わる→終わる：00567_owaru⟧ (work finishes)\n- {作業|さぎょう}に⟦{取|と}りかかる→取りかかる：20182_torikakaru⟧ (to get started on work)\n\nCOMPOUND WORDS:\n- ⟦{作業|さぎょう}{服|ふく}→作業服：16786_sagyoufuku⟧ (work clothes)\n- {作業|さぎょう}⟦{場|ば}→場所：00829_basho⟧ (workplace, work site)\n- {作業|さぎょう}⟦{効率|こうりつ}→効率：11794_kouritsu⟧ (work efficiency)\n- {作業|さぎょう}⟦{中|ちゅう}→中：00654_naka⟧ (during work, in operation)\n\nSIMILAR WORDS:\n- {作業|さぎょう}: work (procedural, manual tasks)\n- ⟦{仕事|しごと}→仕事：00480_shigoto⟧: work (general, job)\n- ⟦{業務|ぎょうむ}→業務：09630_gyoumu⟧: business operations",
+  "notes": "{作業|さぎょう} refers to work tasks, usually manual or procedural.\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n- No standard transitive pair\n- Pattern: {作業|さぎょう}⟦する→する：00392_suru⟧\n\nCOMMON PATTERNS:\n- {作業|さぎょう}⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧ (to do work)\n- {作業|さぎょう}⟦を→を：00422_wo⟧⟦{進|すす}める→進める：01949_susumeru⟧ (to proceed with work)\n- {作業|さぎょう}⟦が→が：00051_ga⟧⟦{終|お}わる→終わる：00567_owaru⟧ (work finishes)\n- {作業|さぎょう}⟦に→に：00314_ni⟧⟦{取|と}りかかる→取りかかる：20182_torikakaru⟧ (to get started on work)\n\nCOMPOUNDS:\n- ⟦{作業|さぎょう}{服|ふく}→作業服：16786_sagyoufuku⟧ (work clothes)\n- {作業|さぎょう}⟦{場|ば}→場所：00829_basho⟧ (workplace, work site)\n- {作業|さぎょう}⟦{効率|こうりつ}→効率：11794_kouritsu⟧ (work efficiency)\n- {作業|さぎょう}⟦{中|ちゅう}→中：00654_naka⟧ (during work, in operation)\n\nSIMILAR WORDS:\n- {作業|さぎょう}: work (procedural, manual tasks)\n- ⟦{仕事|しごと}→仕事：00480_shigoto⟧: work (general, job)\n- ⟦{業務|ぎょうむ}→業務：09630_gyoumu⟧: business operations",
   "cross_references": [
     {
       "type": "synonym",
@@ -151,11 +151,18 @@
       "reading": "しごと",
       "headword": "{仕事|しごと}",
       "label": "work (general, job)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09630_gyoumu",
+      "reading": "ぎょうむ",
+      "headword": "{業務|ぎょうむ}",
+      "label": "business operations"
     }
   ],
   "metadata": {
     "created": "2026-01-11T08:04:15Z",
-    "modified": "2026-08-01T12:19:09Z",
+    "modified": "2026-09-02T04:01:02Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

@@ -3,7 +3,7 @@
   "headword": "ほっそり",
   "reading": "ほっそり",
   "romaji": "hossori",
-  "part_of_speech": "adverb",
+  "part_of_speech": "adverb, onomatopoeia",
   "gloss": "slender; slim; willowy",
   "schema_version": "2.0",
   "definitions": [
@@ -16,39 +16,74 @@
   "examples": [
     {
       "id": "29039_hossori_ex1",
-      "japanese": "ほっそりした{腰|こし}。",
+      "japanese": "ほっそり⟦した→する：00392_suru⟧⟦{腰|こし}→腰：02210_koshi⟧。",
       "english": "A slender waist.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29039_hossori_ex2",
-      "japanese": "{彼女|かのじょ}はほっそりとしていて{背|せ}が{高|たか}い。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧ほっそり⟦として→として：06802_toshite⟧⟦いて→いる：00495_iru⟧⟦{背|せ}→背：02907_se⟧⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧。",
       "english": "She has a slender, tall figure.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29039_hossori_ex3",
-      "japanese":" {産後|さんご}もほっそりした{スタイル|すたいる}を{保|たも}っているのはすごいと{思|おも}う。",
+      "japanese": " ⟦{産後|さんご}→産後：29056_sango⟧⟦も→も：00484_mo⟧ほっそり⟦した→する：00392_suru⟧⟦スタイル→スタイル：03851_sutairu⟧⟦を→を：00422_wo⟧⟦{保|たも}っている→保つ：10134_tamotsu⟧⟦の→の：09472_no⟧⟦は→は：00079_ha⟧⟦すごい→すごい：01128_sugoi⟧⟦と→と：00512_to⟧⟦{思|おも}う→思う：00492_omou⟧。",
       "english": "I think it's amazing that she has maintained her slim figure even after giving birth.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Mimetic adverb with a positive nuance. Unlike simply 細い (thin), ほっそり implies a graceful, aesthetically pleasing slenderness.\n\nCOMMON COLLOCATIONS:\n- ほっそりした{体型|たいけい} — a slender build\n- ほっそりとしている — to be slim/slender (state)\n- ほっそりした{指|ゆび} — slender fingers\n\nSIMILAR WORDS:\n- スリム: slim (loanword; neutral to positive, often used for clothing fit)\n- {細|ほそ}い: thin, slender (neutral; can describe objects, not just people)\n- やせた: thin, skinny (can carry a negative nuance of being too thin)",
+  "notes": "Mimetic adverb with a positive nuance. Unlike simply 細い (thin), ほっそり implies a graceful, aesthetically pleasing slenderness.\n\nCOMMON COLLOCATIONS:\n- ほっそり⟦した→する：00392_suru⟧⟦{体型|たいけい}→体型：16561_taikei⟧ — a slender build\n- ほっそり⟦として→として：06802_toshite⟧⟦いる→いる：00495_iru⟧ — to be slim/slender (state)\n- ほっそり⟦した→する：00392_suru⟧⟦{指|ゆび}→指：01518_yubi⟧ — slender fingers\n\nSIMILAR WORDS:\n- ⟦スリム→スリム：21695_surimu⟧: slim (loanword; neutral to positive, often used for clothing fit)\n- ⟦{細|ほそ}い→細い：02962_hosoi⟧: thin, slender (neutral; can describe objects, not just people)\n- やせた: thin, skinny (can carry a negative nuance of being too thin)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02962_hosoi",
+      "reading": "ほそい",
+      "headword": "{細|ほそ}い",
+      "label": "thin, slender (neutral"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20121_suratto",
+      "reading": "すらっと",
+      "headword": "すらっと",
+      "label": "slender"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20744_surari",
+      "reading": "すらり",
+      "headword": "すらり",
+      "label": "slenderly"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adverb", "onomatopoeia"],
+      "pos": [
+        "adverb",
+        "onomatopoeia"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["descriptive", "body-part"]
+      "semantic": [
+        "descriptive",
+        "body-part"
+      ]
     },
     "created": "2026-06-09T06:05:49Z",
-    "modified": "2026-06-09T06:05:49Z"
+    "modified": "2026-09-02T04:02:35Z"
   }
 }

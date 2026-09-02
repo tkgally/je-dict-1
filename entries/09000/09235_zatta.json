@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "09235_zatta_ex1",
-      "japanese": "{雑多|ざった}な{品物|しなもの}が{並|なら}ぶ。",
+      "japanese": "{雑多|ざった}な⟦{品物|しなもの}→品物：00886_shinamono⟧⟦が→が：00051_ga⟧⟦{並|なら}ぶ→並ぶ：00605_narabu⟧。",
       "english": "Miscellaneous items are lined up.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "09235_zatta_ex2",
-      "japanese": "{雑多|ざった}な{情報|じょうほう}が{飛|と}び{交|か}う。",
+      "japanese": "{雑多|ざった}な⟦{情報|じょうほう}→情報：03348_jouhou⟧⟦が→が：00051_ga⟧{飛|と}び{交|か}う。",
       "english": "Various kinds of information are flying around.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "09235_zatta_ex3",
-      "japanese": "この{店|みせ}には{雑多|ざった}な{商品|しょうひん}が{所狭|ところせま}しと{置|お}かれている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{店|みせ}→店：00497_mise⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{雑多|ざった}な⟦{商品|しょうひん}→商品：01436_shouhin⟧⟦が→が：00051_ga⟧{所狭|ところせま}し⟦と→と：00512_to⟧⟦{置|お}かれている→置く：01092_oku⟧。",
       "english": "This shop is crammed with a diverse assortment of goods.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{雑多|ざった} describes a state of being mixed with various different things. It can be neutral or slightly negative depending on context.\n\nRELATED WORDS:\n- {雑然|ざつぜん}: cluttered, disorderly (more negative, emphasizes disorder)\n- {多様|たよう}: diverse (more positive, emphasizes variety)\n- {様々|さまざま}: various (neutral)\n\nCOMMON COLLOCATIONS:\n- {雑多|ざった}な{品物|しなもの}: miscellaneous goods\n- {雑多|ざった}な{情報|じょうほう}: various kinds of information\n- {雑多|ざった}な{人々|ひとびと}: diverse people",
+  "notes": "{雑多|ざった} describes a state of being mixed with various different things. It can be neutral or slightly negative depending on context.\n\nRELATED WORDS:\n- ⟦{雑然|ざつぜん}→雑然：09236_zatsuzen⟧: cluttered, disorderly (more negative, emphasizes disorder)\n- ⟦{多様|たよう}→多様：12180_tayou⟧: diverse (more positive, emphasizes variety)\n- ⟦{様々|さまざま}→様々：01559_samazama⟧: various (neutral)\n\nCOMMON COLLOCATIONS:\n- {雑多|ざった}な⟦{品物|しなもの}→品物：00886_shinamono⟧: miscellaneous goods\n- {雑多|ざった}な⟦{情報|じょうほう}→情報：03348_jouhou⟧: various kinds of information\n- {雑多|ざった}な⟦{人々|ひとびと}→人々：03141_hitobito⟧: diverse people",
   "cross_references": [
     {
       "type": "synonym",
@@ -51,11 +51,25 @@
       "reading": "ざつぜん",
       "headword": "{雑然|ざつぜん}",
       "label": "emphasizes disorder"
+    },
+    {
+      "type": "related",
+      "target_id": "12180_tayou",
+      "reading": "たよう",
+      "headword": "{多様|たよう}",
+      "label": "diverse"
+    },
+    {
+      "type": "related",
+      "target_id": "01559_samazama",
+      "reading": "さまざま",
+      "headword": "{様々|さまざま}",
+      "label": "various"
     }
   ],
   "metadata": {
     "created": "2026-02-01T04:57:35Z",
-    "modified": "2026-08-12T21:25:53Z",
+    "modified": "2026-09-02T04:01:17Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

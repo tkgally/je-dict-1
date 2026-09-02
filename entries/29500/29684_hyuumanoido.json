@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29684_hyuumanoido_ex1",
-      "japanese": "ヒューマノイドが{受付|うけつけ}に{立|た}っている。",
+      "japanese": "ヒューマノイド⟦が→が：00051_ga⟧⟦{受付|うけつけ}→受付：01325_uketsuke⟧⟦に→に：00314_ni⟧⟦{立|た}っている→立つ：00758_tatsu⟧。",
       "english": "A humanoid is standing at the reception desk.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29684_hyuumanoido_ex2",
-      "japanese": "この{会社|かいしゃ}はヒューマノイドの{開発|かいはつ}を{進|すす}めている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦は→は：00079_ha⟧ヒューマノイド⟦の→の：09472_no⟧⟦{開発|かいはつ}→開発：06746_kaihatsu⟧⟦を→を：00422_wo⟧⟦{進|すす}めている→進める：01949_susumeru⟧。",
       "english": "This company is advancing the development of humanoids.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29684_hyuumanoido_ex3",
-      "japanese": "{最新|さいしん}のヒューマノイドは、{表情|ひょうじょう}まで{人間|にんげん}にそっくりだ。",
+      "japanese": "⟦{最新|さいしん}→最新：04831_saishin⟧⟦の→の：09472_no⟧ヒューマノイド⟦は→は：00079_ha⟧、⟦{表情|ひょうじょう}→表情：03585_hyoujou⟧⟦まで→まで：00490_made⟧⟦{人間|にんげん}→人間：03523_ningen⟧⟦に→に：00314_ni⟧⟦そっくり→そっくり：00378_sokkuri⟧だ。",
       "english": "The latest humanoids resemble humans right down to their facial expressions.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "From English \"humanoid.\" In Japanese it is used as a noun for a human-shaped robot, often interchangeably with {人型|ひとがた}ロボット.\n\nCOMMON COLLOCATIONS:\n- ヒューマノイドロボット: humanoid robot\n- ヒューマノイドを{開発|かいはつ}する: to develop a humanoid\n- {二足|にそく}{歩行|ほこう}のヒューマノイド: a bipedal humanoid\n\nSIMILAR WORDS:\n- {人型|ひとがた}: humanoid; human-shaped — a native word for the same idea, common in the compound {人型|ひとがた}ロボット\n- アンドロイド: android — emphasizes a robot made to look indistinguishable from a real human",
+  "notes": "From English \"humanoid.\" In Japanese it is used as a noun for a human-shaped robot, often interchangeably with ⟦{人型|ひとがた}→人型：29683_hitogata⟧⟦ロボット→ロボット：06404_robotto⟧.\n\nCOMMON COLLOCATIONS:\n- ヒューマノイド⟦ロボット→ロボット：06404_robotto⟧: humanoid robot\n- ヒューマノイド⟦を→を：00422_wo⟧⟦{開発|かいはつ}→開発：06746_kaihatsu⟧⟦する→する：00392_suru⟧: to develop a humanoid\n- ⟦{二足|にそく}{歩行|ほこう}→二足歩行：29490_nisokuhokou⟧⟦の→の：09472_no⟧ヒューマノイド: a bipedal humanoid\n\nSIMILAR WORDS:\n- ⟦{人型|ひとがた}→人型：29683_hitogata⟧: humanoid; human-shaped — a native word for the same idea, common in the compound ⟦{人型|ひとがた}→人型：29683_hitogata⟧⟦ロボット→ロボット：06404_robotto⟧\n- ⟦アンドロイド→アンドロイド：29691_andoroido⟧: android — emphasizes a robot made to look indistinguishable from a real human",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "29683_hitogata",
+      "reading": "ひとがた",
+      "headword": "{人型|ひとがた}",
+      "label": "humanoid"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29691_andoroido",
+      "reading": "あんどろいど",
+      "headword": "アンドロイド",
+      "label": "android"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +69,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "technology"
       ],
       "domain": []
     },
     "created": "2026-07-05T03:18:57Z",
-    "modified": "2026-07-05T03:18:57Z"
+    "modified": "2026-09-02T04:02:37Z"
   }
 }

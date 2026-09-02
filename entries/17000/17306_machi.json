@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "17306_machi_ex1",
-      "japanese": "{街|まち}に{出|で}かける。",
+      "japanese": "{街|まち}⟦に→に：00314_ni⟧⟦{出|で}かける→出かける：00833_dekakeru⟧。",
       "english": "To go out to town.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "17306_machi_ex2",
-      "japanese": "{休日|きゅうじつ}は{街|まち}で{買|か}い{物|もの}をした。",
+      "japanese": "⟦{休日|きゅうじつ}→休日：03028_kyuujitsu⟧⟦は→は：00079_ha⟧{街|まち}⟦で→で：00502_de⟧⟦{買|か}い{物|もの}→買い物：00853_kaimono⟧⟦を→を：00422_wo⟧⟦した→する：00392_suru⟧。",
       "english": "On the holiday, I went shopping downtown.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "17306_machi_ex3",
-      "japanese": "クリスマスの{街|まち}はイルミネーションで{美|うつく}しく{輝|かがや}いていた。",
+      "japanese": "⟦クリスマス→クリスマス：03839_kurisumasu⟧⟦の→の：09472_no⟧{街|まち}⟦は→は：00079_ha⟧⟦イルミネーション→イルミネーション：29122_irumineeshon⟧⟦で→で：00502_de⟧⟦{美|うつく}しく→美しい：01121_utsukushii⟧⟦{輝|かがや}いていた→輝く：02032_kagayaku⟧。",
       "english": "The town was beautifully lit up with Christmas illuminations.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{街|まち} emphasizes the physical streetscape, commercial areas, and atmosphere of a place. It evokes images of busy streets lined with shops, restaurants, and people. Use {街|まち} when describing going out to the lively parts of a city.\n\nCOMMON COLLOCATIONS:\n- {街|まち}に{出|で}る (to go out to town)\n- {街|まち}を{歩|ある}く (to walk around town)\n- {街並|まちな}み (townscape, rows of buildings along a street)\n- {街角|まちかど} (street corner)\n\nSIMILAR WORDS:\n- {町|まち}: town, municipality — refers to the administrative unit or a residential neighborhood, while {街|まち} focuses on commercial streets and urban atmosphere\n- {都市|とし}: city — a formal term for a large urban area",
+  "notes": "USAGE:\n{街|まち} emphasizes the physical streetscape, commercial areas, and atmosphere of a place. It evokes images of busy streets lined with shops, restaurants, and people. Use {街|まち} when describing going out to the lively parts of a city.\n\nCOMMON COLLOCATIONS:\n- {街|まち}⟦に→に：00314_ni⟧⟦{出|で}る→出る：00513_deru⟧ (to go out to town)\n- {街|まち}⟦を→を：00422_wo⟧⟦{歩|ある}く→歩く：00538_aruku⟧ (to walk around town)\n- {街並|まちな}み (townscape, rows of buildings along a street)\n- ⟦{街角|まちかど}→街角：15540_machikado⟧ (street corner)\n\nSIMILAR WORDS:\n- ⟦{町|まち}→町：00613_machi⟧: town, municipality — refers to the administrative unit or a residential neighborhood, while {街|まち} focuses on commercial streets and urban atmosphere\n- ⟦{都市|とし}→都市：01477_toshi⟧: city — a formal term for a large urban area",
   "cross_references": [
     {
       "type": "contrast",
@@ -52,11 +52,18 @@
       "headword": "{町|まち}",
       "label": "administrative unit",
       "target_id": "00613_machi"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01477_toshi",
+      "reading": "とし",
+      "headword": "{都市|とし}",
+      "label": "city"
     }
   ],
   "metadata": {
     "created": "2026-03-17T05:55:51Z",
-    "modified": "2026-03-29T10:42:23Z",
+    "modified": "2026-09-02T04:01:47Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

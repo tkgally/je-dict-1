@@ -15,40 +15,66 @@
   "examples": [
     {
       "id": "11394_rizooto_ex1",
-      "japanese": "{南|みなみ}の{島|しま}のリゾートに{泊|と}まった。",
+      "japanese": "⟦{南|みなみ}→南：00652_minami⟧⟦の→の：09472_no⟧⟦{島|しま}→島：00885_shima⟧⟦の→の：09472_no⟧リゾート⟦に→に：00314_ni⟧⟦{泊|と}まった→泊まる：10445_tomaru⟧。",
       "english": "I stayed at a resort on a southern island.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11394_rizooto_ex2",
-      "japanese": "リゾートホテルのプールで{一日中|いちにちじゅう}{過|す}ごした。",
+      "japanese": "リゾートホテル⟦の→の：09472_no⟧⟦プール→プール：02958_puuru⟧⟦で→で：00502_de⟧⟦{一日中|いちにちじゅう}→一日中：09519_ichinichijuu⟧⟦{過|す}ごした→過ごす：02062_sugosu⟧。",
       "english": "I spent the whole day at the resort hotel pool.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11394_rizooto_ex3",
-      "japanese": "{沖縄|おきなわ}はリゾート{地|ち}として{国内外|こくないがい}から{多|おお}くの{観光客|かんこうきゃく}を{集|あつ}めている。",
+      "japanese": "⟦{沖縄|おきなわ}→沖縄：11009_okinawa⟧⟦は→は：00079_ha⟧リゾート{地|ち}⟦として→として：06802_toshite⟧⟦{国内外|こくないがい}→国内外：17208_kokunaigai⟧⟦から→から：00504_kara⟧{多|おお}く⟦の→の：09472_no⟧⟦{観光客|かんこうきゃく}→観光客：03022_kankoukyaku⟧⟦を→を：00422_wo⟧⟦{集|あつ}めている→集める：01170_atsumeru⟧。",
       "english": "Okinawa attracts many tourists from both within and outside Japan as a resort destination.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE: リゾート is a loanword from English \"resort.\" It is widely used in travel and tourism contexts.\n\nCOMMON COLLOCATIONS:\n- リゾート{地|ち} (resort area, resort destination)\n- リゾートホテル (resort hotel)\n- ビーチリゾート (beach resort)\n- スキーリゾート (ski resort)\n- リゾート{気分|きぶん} (resort mood, vacation feeling)\n- リゾート{開発|かいはつ} (resort development)\n\nNOTE: In Japanese, {保養地|ほようち} (health resort) and {行楽地|こうらくち} (recreation spot) are native alternatives, but リゾート is more common in modern usage for commercial vacation destinations.",
-  "cross_references": [],
+  "notes": "USAGE: リゾート is a loanword from English \"resort.\" It is widely used in travel and tourism contexts.\n\nCOMMON COLLOCATIONS:\n- リゾート{地|ち} (resort area, resort destination)\n- リゾートホテル (resort hotel)\n- ⟦ビーチ→ビーチ：10163_biichi⟧リゾート (beach resort)\n- ⟦スキー→スキー：03849_sukii⟧リゾート (ski resort)\n- リゾート⟦{気分|きぶん}→気分：01306_kibun⟧ (resort mood, vacation feeling)\n- リゾート⟦{開発|かいはつ}→開発：06746_kaihatsu⟧ (resort development)\n\nNOTE: In Japanese, ⟦{保養地|ほようち}→保養地：20922_hoyouchi⟧ (health resort) and ⟦{行楽地|こうらくち}→行楽地：16447_kourakuchi⟧ (recreation spot) are native alternatives, but リゾート is more common in modern usage for commercial vacation destinations.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16447_kourakuchi",
+      "reading": "こうらくち",
+      "headword": "{行楽地|こうらくち}",
+      "label": "pleasure resort"
+    },
+    {
+      "type": "related",
+      "target_id": "20922_hoyouchi",
+      "reading": "ほようち",
+      "headword": "{保養地|ほようち}",
+      "label": "health resort"
+    }
+  ],
   "metadata": {
     "created": "2026-02-16T02:05:17Z",
-    "modified": "2026-02-16T02:05:17Z",
+    "modified": "2026-09-02T04:01:25Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["leisure", "building"]
+      "semantic": [
+        "leisure",
+        "building"
+      ]
     }
   }
 }

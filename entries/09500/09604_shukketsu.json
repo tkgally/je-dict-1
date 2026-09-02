@@ -14,30 +14,36 @@
   "examples": [
     {
       "id": "09604_shukketsu_ex1",
-      "japanese": "{出欠|しゅっけつ}を{取|と}る。",
+      "japanese": "{出欠|しゅっけつ}⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧。",
       "english": "To take attendance.",
       "has_audio": false,
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "notes": null
     },
     {
       "id": "09604_shukketsu_ex2",
-      "japanese": "{出欠|しゅっけつ}の{確認|かくにん}をお{願|ねが}いします。",
+      "japanese": "{出欠|しゅっけつ}⟦の→の：09472_no⟧⟦{確認|かくにん}→確認：00158_kakunin⟧⟦を→を：00422_wo⟧お{願|ねが}いします。",
       "english": "Please confirm your attendance.",
       "has_audio": false,
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "notes": null
     },
     {
       "id": "09604_shukketsu_ex3",
-      "japanese": "{会議|かいぎ}への{出欠|しゅっけつ}を{週末|しゅうまつ}までに{連絡|れんらく}してください。",
+      "japanese": "⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦へ→へ：02473_he⟧⟦の→の：09472_no⟧{出欠|しゅっけつ}⟦を→を：00422_wo⟧⟦{週末|しゅうまつ}→週末：03030_shuumatsu⟧⟦まで→まで：00490_made⟧⟦に→に：00314_ni⟧⟦{連絡|れんらく}して→連絡する：20202_renrakusuru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please let us know whether you will attend the meeting by the weekend.",
       "has_audio": false,
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "notes": null
     }
   ],
-  "notes": "{出欠|しゅっけつ} combines {出席|しゅっせき} (presence) and {欠席|けっせき} (absence).\n\nCOMMON PATTERNS:\n- {出欠|しゅっけつ}を{取|と}る: to take attendance\n- {出欠|しゅっけつ}の{確認|かくにん}: confirmation of attendance\n- {出欠|しゅっけつ}を{連絡|れんらく}する: to inform of attendance status\n- {出欠|しゅっけつ}{簿|ぼ}: attendance register\n\nUSAGE NOTE:\nUsed in schools, meetings, and events. When responding to invitations, this refers to whether someone will attend or not.",
+  "notes": "{出欠|しゅっけつ} combines ⟦{出席|しゅっせき}→出席：02084_shusseki⟧ (presence) and ⟦{欠席|けっせき}→欠席：02495_kesseki⟧ (absence).\n\nCOMMON PATTERNS:\n- {出欠|しゅっけつ}⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧: to take attendance\n- {出欠|しゅっけつ}⟦の→の：09472_no⟧⟦{確認|かくにん}→確認：00158_kakunin⟧: confirmation of attendance\n- {出欠|しゅっけつ}⟦を→を：00422_wo⟧⟦{連絡|れんらく}する→連絡する：20202_renrakusuru⟧: to inform of attendance status\n- {出欠|しゅっけつ}{簿|ぼ}: attendance register\n\nUSAGE:\nUsed in schools, meetings, and events. When responding to invitations, this refers to whether someone will attend or not.",
   "cross_references": [
     {
       "type": "homophone",
@@ -49,14 +55,19 @@
   ],
   "metadata": {
     "created": "2026-02-03T02:32:59Z",
-    "modified": "2026-04-11T00:58:17Z",
+    "modified": "2026-09-02T04:01:18Z",
     "ai_model": "opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["education", "work"]
+      "semantic": [
+        "education",
+        "work"
+      ]
     }
   }
 }

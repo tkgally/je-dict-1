@@ -15,41 +15,68 @@
   "examples": [
     {
       "id": "27639_meigetsu_ex1",
-      "japanese": "{今夜|こんや}は{名月|めいげつ}が{見|み}られる。",
+      "japanese": "⟦{今夜|こんや}→今夜：01411_konya⟧⟦は→は：00079_ha⟧{名月|めいげつ}⟦が→が：00051_ga⟧⟦{見|み}られる→見る：00283_miru⟧。",
       "english": "We can see the harvest moon tonight.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27639_meigetsu_ex2",
-      "japanese": "{縁側|えんがわ}で{名月|めいげつ}を{眺|なが}めた。",
+      "japanese": "⟦{縁側|えんがわ}→縁側：04495_engawa⟧⟦で→で：00502_de⟧{名月|めいげつ}⟦を→を：00422_wo⟧⟦{眺|なが}めた→眺める：02132_nagameru⟧。",
       "english": "We gazed at the harvest moon from the veranda.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27639_meigetsu_ex3",
-      "japanese": "{中秋|ちゅうしゅう}の{名月|めいげつ}を{楽|たの}しむために、{家族|かぞく}で{団子|だんご}を{用意|ようい}した。",
+      "japanese": "⟦{中秋|ちゅうしゅう}→中秋：27638_chuushuu⟧⟦の→の：09472_no⟧{名月|めいげつ}⟦を→を：00422_wo⟧⟦{楽|たの}しむ→楽しむ：01203_tanoshimu⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧、⟦{家族|かぞく}→家族：00552_kazoku⟧⟦で→で：00502_de⟧⟦{団子|だんご}→団子：04959_dango⟧⟦を→を：00422_wo⟧⟦{用意|ようい}した→用意する：22428_youisuru⟧。",
       "english": "To enjoy the mid-autumn harvest moon, the family prepared dumplings.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "{名|めい} (renowned, fine) + {月|げつ} (moon). Specifically a moon worth celebrating, not just any full moon.\n\nCULTURAL CONTEXT:\nThe canonical {名月|めいげつ} is the {中秋|ちゅうしゅう}の{名月|めいげつ}, the harvest moon of the 15th night of the 8th lunar month. A secondary {十三夜|じゅうさんや} ('13th night') moon a month later is also traditionally viewed. Skipping either was considered bad luck ({片見月|かたみつき}).\n\nCOMMON COLLOCATIONS:\n- {中秋|ちゅうしゅう}の{名月|めいげつ}: the mid-autumn harvest moon\n- {名月|めいげつ}を{眺|なが}める: to gaze at the harvest moon\n- {名月|めいげつ}を{楽|たの}しむ: to enjoy the harvest moon\n\nSIMILAR WORDS:\n- {満月|まんげつ}: full moon — neutral astronomical term, any month\n- {十五夜|じゅうごや}: the 15th night — the night the harvest moon is viewed\n- {望月|もちづき}: full moon (literary)",
+  "notes": "{名|めい} (renowned, fine) + {月|げつ} (moon). Specifically a moon worth celebrating, not just any full moon.\n\nCULTURAL NOTE:\nThe canonical {名月|めいげつ} is the ⟦{中秋|ちゅうしゅう}→中秋：27638_chuushuu⟧⟦の→の：09472_no⟧{名月|めいげつ}, the harvest moon of the 15th night of the 8th lunar month. A secondary {十三夜|じゅうさんや} ('13th night') moon a month later is also traditionally viewed. Skipping either was considered bad luck ({片見月|かたみつき}).\n\nCOMMON COLLOCATIONS:\n- ⟦{中秋|ちゅうしゅう}→中秋：27638_chuushuu⟧⟦の→の：09472_no⟧{名月|めいげつ}: the mid-autumn harvest moon\n- {名月|めいげつ}⟦を→を：00422_wo⟧⟦{眺|なが}める→眺める：02132_nagameru⟧: to gaze at the harvest moon\n- {名月|めいげつ}⟦を→を：00422_wo⟧⟦{楽|たの}しむ→楽しむ：01203_tanoshimu⟧: to enjoy the harvest moon\n\nSIMILAR WORDS:\n- ⟦{満月|まんげつ}→満月：17598_mangetsu⟧: full moon — neutral astronomical term, any month\n- ⟦{十五夜|じゅうごや}→十五夜：24745_juugoya⟧: the 15th night — the night the harvest moon is viewed\n- {望月|もちづき}: full moon (literary)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17598_mangetsu",
+      "reading": "まんげつ",
+      "headword": "{満月|まんげつ}",
+      "label": "full moon"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24745_juugoya",
+      "reading": "じゅうごや",
+      "headword": "{十五夜|じゅうごや}",
+      "label": "the 15th night"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
-      "politeness": null,
-      "semantic": ["nature", "culture"],
+      "politeness": "plain",
+      "semantic": [
+        "nature",
+        "culture"
+      ],
       "domain": []
     },
     "created": "2026-05-15T04:12:19Z",
-    "modified": "2026-05-15T04:12:19Z"
+    "modified": "2026-09-02T04:02:31Z"
   }
 }

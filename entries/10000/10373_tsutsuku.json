@@ -115,7 +115,7 @@
   "examples": [
     {
       "id": "10373_tsutsuku_ex1",
-      "japanese": "{指|ゆび}でつつく。",
+      "japanese": "⟦{指|ゆび}→指：01518_yubi⟧⟦で→で：00502_de⟧つつく。",
       "english": "To poke with a finger.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "10373_tsutsuku_ex2",
-      "japanese": "{隣|となり}の{人|ひと}の{肘|ひじ}をつついた。",
+      "japanese": "⟦{隣|となり}→隣：01003_tonari⟧⟦の→の：09472_no⟧⟦{人|ひと}→人：00476_hito⟧⟦の→の：09472_no⟧⟦{肘|ひじ}→肘：00938_hiji⟧⟦を→を：00422_wo⟧つついた。",
       "english": "I poked the person next to me with my elbow.",
       "notes": null,
       "has_audio": false,
@@ -135,7 +135,7 @@
     },
     {
       "id": "10373_tsutsuku_ex3",
-      "japanese": "{箸|はし}で{料理|りょうり}をつつきながら、ぼんやりしていた。",
+      "japanese": "⟦{箸|はし}→箸：01026_hashi⟧⟦で→で：00502_de⟧⟦{料理|りょうり}→料理：01523_ryouri⟧⟦を→を：00422_wo⟧つつき⟦ながら→ながら：10530_nagara⟧、⟦ぼんやりしていた→ぼんやりする：21687_bonyarisuru⟧。",
       "english": "I was spacing out while picking at the food with my chopsticks.",
       "notes": null,
       "has_audio": false,
@@ -146,7 +146,7 @@
     },
     {
       "id": "10373_tsutsuku_ex4",
-      "japanese": "{鍋|なべ}をみんなでつつく。",
+      "japanese": "⟦{鍋|なべ}→鍋：01038_nabe⟧⟦を→を：00422_wo⟧⟦みんな→みんな：02972_minna⟧⟦で→で：00502_de⟧つつく。",
       "english": "Everyone picks at the hot pot together.",
       "notes": null,
       "has_audio": false,
@@ -156,7 +156,7 @@
     },
     {
       "id": "10373_tsutsuku_ex5",
-      "japanese": "ビールを{飲|の}みながら{枝豆|えだまめ}をつつく。",
+      "japanese": "⟦ビール→ビール：01015_biiru⟧⟦を→を：00422_wo⟧⟦{飲|の}み→飲む：00322_nomu⟧⟦ながら→ながら：10530_nagara⟧⟦{枝豆|えだまめ}→枝豆：21197_edamame⟧⟦を→を：00422_wo⟧つつく。",
       "english": "I snack on edamame while drinking beer.",
       "notes": null,
       "has_audio": false,
@@ -166,7 +166,7 @@
     },
     {
       "id": "10373_tsutsuku_ex6",
-      "japanese": "{酒|さけ}のつまみをつつきながら{話|はなし}が{弾|はず}んだ。",
+      "japanese": "⟦{酒|さけ}→酒：02211_sake⟧⟦の→の：09472_no⟧⟦つまみ→つまみ：16139_tsumami⟧⟦を→を：00422_wo⟧つつき⟦ながら→ながら：10530_nagara⟧⟦{話|はなし}→話：01496_hanashi⟧⟦が→が：00051_ga⟧⟦{弾|はず}んだ→弾む：04247_hazumu⟧。",
       "english": "The conversation flowed as we picked at snacks with our drinks.",
       "notes": null,
       "has_audio": false,
@@ -176,7 +176,7 @@
     },
     {
       "id": "10373_tsutsuku_ex7",
-      "japanese": "{鳥|とり}が{地面|じめん}をつついている。",
+      "japanese": "⟦{鳥|とり}→鳥：00679_tori⟧⟦が→が：00051_ga⟧⟦{地面|じめん}→地面：00125_jimen⟧⟦を→を：00422_wo⟧つついて⟦いる→いる：00495_iru⟧。",
       "english": "A bird is pecking at the ground.",
       "notes": null,
       "has_audio": false,
@@ -186,7 +186,7 @@
     },
     {
       "id": "10373_tsutsuku_ex8",
-      "japanese": "にわとりが{餌|えさ}をつつく。",
+      "japanese": "にわとり⟦が→が：00051_ga⟧⟦{餌|えさ}→餌：01886_esa⟧⟦を→を：00422_wo⟧つつく。",
       "english": "The chicken pecks at its food.",
       "notes": null,
       "has_audio": false,
@@ -196,7 +196,7 @@
     },
     {
       "id": "10373_tsutsuku_ex9",
-      "japanese": "カラスが{袋|ふくろ}をつついてゴミを{散|ち}らかしていた。",
+      "japanese": "⟦カラス→カラス：09930_karasu⟧⟦が→が：00051_ga⟧⟦{袋|ふくろ}→袋：00837_fukuro⟧⟦を→を：00422_wo⟧つついて⟦ゴミ→ゴミ：00840_gomi⟧⟦を→を：00422_wo⟧⟦{散|ち}らかしていた→散らかす：04360_chirakasu⟧。",
       "english": "Crows were pecking at the bag and scattering the garbage.",
       "notes": null,
       "has_audio": false,
@@ -205,11 +205,19 @@
       ]
     }
   ],
-  "notes": "つつく is a godan verb describing repeated light poking or pecking motions.\n\nTRANSITIVITY:\n- Type: {他動詞|たどうし} (transitive)\n- Pattern: ～をつつく\n\nASPECT (ている):\nつついている describes an ongoing action — \"is poking\" or \"is pecking.\"\n\nCOMMON PATTERNS:\n- {鍋|なべ}をつつく: to eat from a shared pot\n- つまみをつつく: to pick at snacks (with drinks)\n- {箸|はし}でつつく: to poke/pick at with chopsticks\n- {指|ゆび}でつつく: to poke with a finger\n\nKANJI:\nCan be written as {突|つ}つく, though hiragana is more common.\n\nUSAGE:\nSense 2 (picking at food) is very common in casual speech, especially for shared meals ({鍋|なべ}) or snacking at a bar ({居酒屋|いざかや}). It implies a relaxed, unhurried eating style.",
-  "cross_references": [],
+  "notes": "つつく is a godan verb describing repeated light poking or pecking motions.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- Pattern: ～⟦を→を：00422_wo⟧つつく\n\nASPECT (ている):\nつついて⟦いる→いる：00495_iru⟧ describes an ongoing action — \"is poking\" or \"is pecking.\"\n\nCOMMON PATTERNS:\n- ⟦{鍋|なべ}→鍋：01038_nabe⟧⟦を→を：00422_wo⟧つつく: to eat from a shared pot\n- ⟦つまみ→つまみ：16139_tsumami⟧⟦を→を：00422_wo⟧つつく: to pick at snacks (with drinks)\n- ⟦{箸|はし}→箸：01026_hashi⟧⟦で→で：00502_de⟧つつく: to poke/pick at with chopsticks\n- ⟦{指|ゆび}→指：01518_yubi⟧⟦で→で：00502_de⟧つつく: to poke with a finger\n\nWRITING:\nCan be written as ⟦{突|つ}つく→突く：12735_tsuku⟧, though hiragana is more common.\n\nUSAGE:\nSense 2 (picking at food) is very common in casual speech, especially for shared meals (⟦{鍋|なべ}→鍋：01038_nabe⟧) or snacking at a bar (⟦{居酒屋|いざかや}→居酒屋：09635_izakaya⟧). It implies a relaxed, unhurried eating style.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20719_tsuttsuku",
+      "reading": "つっつく",
+      "headword": "{突|つ}っつく",
+      "label": "to poke"
+    }
+  ],
   "metadata": {
     "created": "2026-02-07T08:30:48Z",
-    "modified": "2026-04-05T09:38:27Z",
+    "modified": "2026-09-02T04:01:21Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
@@ -218,6 +226,7 @@
       "transitivity": "transitive",
       "verb_class": "godan-ku",
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "body-action",
         "food-eating"

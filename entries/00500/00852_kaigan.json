@@ -64,10 +64,67 @@
     }
   ],
   "notes": "{海岸|かいがん} refers to the coastline or seashore—the boundary where land meets the ocean. It's a general term for coastal areas.\n\nETYMOLOGY: Combines ⟦{海|うみ}→海：00556_umi⟧ (sea) + ⟦{岸|きし}→岸：02545_kishi⟧ (shore/bank).\n\nCOMMON EXPRESSIONS:\n- {海岸|かいがん}⟦を→を：00422_wo⟧⟦{歩|ある}く→歩く：00538_aruku⟧: to walk along the shore\n- {海岸|かいがん}⟦{線|せん}→線：09901_sen⟧: coastline\n- {海岸|かいがん}⟦{沿|ぞ}い→沿う：13279_sou⟧: along the coast\n\nSIMILAR WORDS:\n- ⟦{砂浜|すなはま}→砂浜：12333_sunahama⟧: sandy beach (specific type)\n- ⟦{浜辺|はまべ}→浜辺：17948_hamabe⟧: beach, seashore (slightly more poetic)\n- ⟦{海辺|うみべ}→海辺：05498_umibe⟧: seaside, by the sea\n- ⟦{岸|きし}→岸：02545_kishi⟧: shore, bank (general, also for rivers)\n\nJapan is an island nation with extensive coastlines, making {海岸|かいがん} a frequently used word in geography and daily life.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12333_sunahama",
+      "reading": "すなはま",
+      "headword": "{砂浜|すなはま}",
+      "label": "sandy beach"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17948_hamabe",
+      "reading": "はまべ",
+      "headword": "{浜辺|はまべ}",
+      "label": "beach, seashore"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05498_umibe",
+      "reading": "うみべ",
+      "headword": "{海辺|うみべ}",
+      "label": "seaside, by the sea"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02144_oki",
+      "reading": "おき",
+      "headword": "{沖|おき}",
+      "label": "open sea, offshore"
+    },
+    {
+      "type": "related",
+      "target_id": "05041_hama",
+      "reading": "はま",
+      "headword": "{浜|はま}",
+      "label": "beach, shore"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10163_biichi",
+      "reading": "びーち",
+      "headword": "ビーチ",
+      "label": "beach"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21009_kaisuiyokujou",
+      "reading": "かいすいよくじょう",
+      "headword": "{海水浴場|かいすいよくじょう}",
+      "label": "swimming beach"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26240_kogan",
+      "reading": "こがん",
+      "headword": "{湖岸|こがん}",
+      "label": "lakeshore"
+    }
+  ],
   "metadata": {
     "created": "2026-01-07T12:08:11Z",
-    "modified": "2026-05-12T23:06:47Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

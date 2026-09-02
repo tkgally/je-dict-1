@@ -15,41 +15,89 @@
   "examples": [
     {
       "id": "11723_nakigara_ex1",
-      "japanese": "{亡骸|なきがら}は{故郷|ふるさと}に{送|おく}られた。",
+      "japanese": "{亡骸|なきがら}⟦は→は：00079_ha⟧⟦{故郷|ふるさと}→故郷：25466_furusato⟧⟦に→に：00314_ni⟧⟦{送|おく}られた→送る：00742_okuru⟧。",
       "english": "The remains were sent to the deceased's hometown.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11723_nakigara_ex2",
-      "japanese": "{家族|かぞく}は{亡骸|なきがら}の{前|まえ}で{静|しず}かに{手|て}を{合|あ}わせた。",
+      "japanese": "⟦{家族|かぞく}→家族：00552_kazoku⟧⟦は→は：00079_ha⟧{亡骸|なきがら}⟦の→の：09472_no⟧⟦{前|まえ}→前：02255_mae⟧⟦で→で：00502_de⟧⟦{静|しず}か→静か：00755_shizuka⟧⟦に→に：00314_ni⟧⟦{手|て}→手：00569_te⟧⟦を→を：00422_wo⟧⟦{合|あ}わせた→合わせる：01872_awaseru⟧。",
       "english": "The family quietly put their hands together in prayer before the remains.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11723_nakigara_ex3",
-      "japanese": "{戦場|せんじょう}に{残|のこ}された{兵士|へいし}の{亡骸|なきがら}を{収容|しゅうよう}する{作業|さぎょう}が{続|つづ}けられた。",
+      "japanese": "⟦{戦場|せんじょう}→戦場：12746_senjou⟧⟦に→に：00314_ni⟧⟦{残|のこ}された→残す：01975_nokosu⟧⟦{兵士|へいし}→兵士：11680_heishi⟧⟦の→の：09472_no⟧{亡骸|なきがら}⟦を→を：00422_wo⟧⟦{収容|しゅうよう}→収容：11800_shuuyou⟧⟦する→する：00392_suru⟧⟦{作業|さぎょう}→作業：02775_sagyou⟧⟦が→が：00051_ga⟧⟦{続|つづ}け→続く：00903_tsuzuku⟧られた。",
       "english": "The work of recovering the remains of soldiers left on the battlefield continued.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "A literary and respectful term for a dead body. Written with the kanji {亡|な}き (deceased) + {骸|がら} (shell, remains), though the word is often written in hiragana as なきがら.\n\nDISTINCTIONS:\n・{亡骸|なきがら}: literary, respectful; treats the body with dignity\n・{遺体|いたい}: formal, standard term for a dead body (news, official contexts)\n・{死体|したい}: clinical, neutral; can sound cold or blunt\n・{遺骨|いこつ}: remains (specifically bones/ashes after cremation)\n\nUSAGE NOTES:\n{亡骸|なきがら} is primarily used in literary works, formal eulogies, and historical narratives. In everyday news reporting, {遺体|いたい} is preferred. {死体|したい} is used in medical, forensic, and police contexts.",
-  "cross_references": [],
+  "notes": "A literary and respectful term for a dead body. Written with the kanji {亡|な}き (deceased) + {骸|がら} (shell, remains), though the word is often written in hiragana as なきがら.\n\nSIMILAR WORDS:\n- {亡骸|なきがら}: literary, respectful; treats the body with dignity\n- ⟦{遺体|いたい}→遺体：14433_itai⟧: formal, standard term for a dead body (news, official contexts)\n- ⟦{死体|したい}→死体：04032_shitai⟧: clinical, neutral; can sound cold or blunt\n- ⟦{遺骨|いこつ}→遺骨：19163_ikotsu⟧: remains (specifically bones/ashes after cremation)\n\nUSAGE:\n{亡骸|なきがら} is primarily used in literary works, formal eulogies, and historical narratives. In everyday news reporting, ⟦{遺体|いたい}→遺体：14433_itai⟧ is preferred. ⟦{死体|したい}→死体：04032_shitai⟧ is used in medical, forensic, and police contexts.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14433_itai",
+      "reading": "いたい",
+      "headword": "{遺体|いたい}",
+      "label": "formal, standard term for a dead body"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04032_shitai",
+      "reading": "したい",
+      "headword": "{死体|したい}",
+      "label": "clinical, neutral"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19163_ikotsu",
+      "reading": "いこつ",
+      "headword": "{遺骨|いこつ}",
+      "label": "remains"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24751_igai",
+      "reading": "いがい",
+      "headword": "{遺骸|いがい}",
+      "label": "remains"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28379_shigai",
+      "reading": "しがい",
+      "headword": "{死骸|しがい}",
+      "label": "carcass"
+    }
+  ],
   "metadata": {
     "created": "2026-02-17T21:44:13Z",
-    "modified": "2026-02-17T21:44:13Z",
+    "modified": "2026-09-02T04:01:26Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"],
-      "style": ["literary"]
+      "semantic": [
+        "general"
+      ],
+      "style": [
+        "literary"
+      ]
     }
   }
 }

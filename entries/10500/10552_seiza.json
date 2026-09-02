@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "10552_seiza_ex1",
-      "japanese": "{正座|せいざ}して{待|ま}っていた。",
+      "japanese": "{正座|せいざ}⟦して→する：00392_suru⟧⟦{待|ま}っていた→待つ：00469_matsu⟧。",
       "english": "I was waiting in formal sitting position.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "10552_seiza_ex2",
-      "japanese": "{長|なが}い{時間|じかん}{正座|せいざ}すると{足|あし}が{痺|しび}れる。",
+      "japanese": "⟦{長|なが}い→長い：00491_nagai⟧⟦{時間|じかん}→時間：00468_jikan⟧{正座|せいざ}⟦する→する：00392_suru⟧⟦と→と：00512_to⟧⟦{足|あし}→足：00575_ashi⟧⟦が→が：00051_ga⟧⟦{痺|しび}れる→痺れる：06814_shibireru⟧。",
       "english": "Your legs go numb if you sit in seiza for a long time.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "10552_seiza_ex3",
-      "japanese": "{茶道|さどう}では{正座|せいざ}が{基本|きほん}の{姿勢|しせい}とされている。",
+      "japanese": "⟦{茶道|さどう}→茶道：04451_sadou⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧{正座|せいざ}⟦が→が：00051_ga⟧⟦{基本|きほん}→基本：00226_kihon⟧⟦の→の：09472_no⟧⟦{姿勢|しせい}→姿勢：00371_shisei⟧⟦と→と：00512_to⟧⟦されている→する：00392_suru⟧。",
       "english": "In the tea ceremony, seiza is considered the standard posture.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,26 @@
       ]
     }
   ],
-  "notes": "KANJI:\n{正|せい} (correct/proper) + {座|ざ} (sitting). Literally \"correct sitting.\"\n\nUSAGE:\n{正座|せいざ}する is the verb form (to sit in seiza). This posture is expected in formal settings like {茶道|さどう} (tea ceremony), {書道|しょどう} (calligraphy), and {武道|ぶどう} (martial arts), as well as at funerals and formal gatherings on {畳|たたみ}.\n\nMany modern Japanese people find {正座|せいざ} uncomfortable for extended periods, and it is common for legs to fall asleep ({足|あし}が{痺|しび}れる).\n\nNOTE ON HOMOPHONES:\nDo not confuse with {星座|せいざ} (constellation), which has the same reading.\n\nCOMMON COLLOCATIONS:\n- {正座|せいざ}する: to sit in seiza\n- {正座|せいざ}を{崩|くず}す: to shift out of seiza into a more relaxed position\n- {足|あし}が{痺|しび}れる: legs go numb (from seiza)",
-  "cross_references": [],
+  "notes": "WRITING:\n⟦{正|せい}→正：09511_sei⟧ (correct/proper) + ⟦{座|ざ}→座：28170_za⟧ (sitting). Literally \"correct sitting.\"\n\nUSAGE:\n{正座|せいざ}⟦する→する：00392_suru⟧ is the verb form (to sit in seiza). This posture is expected in formal settings like ⟦{茶道|さどう}→茶道：04451_sadou⟧ (tea ceremony), ⟦{書道|しょどう}→書道：04178_shodou⟧ (calligraphy), and ⟦{武道|ぶどう}→武道：09640_budou⟧ (martial arts), as well as at funerals and formal gatherings on ⟦{畳|たたみ}→畳：02224_tatami⟧.\n\nMany modern Japanese people find {正座|せいざ} uncomfortable for extended periods, and it is common for legs to fall asleep (⟦{足|あし}→足：00575_ashi⟧⟦が→が：00051_ga⟧⟦{痺|しび}れる→痺れる：06814_shibireru⟧).\n\nNOTE ON HOMOPHONES:\nDo not confuse with ⟦{星座|せいざ}→星座：06313_seiza⟧ (constellation), which has the same reading.\n\nCOMMON COLLOCATIONS:\n- {正座|せいざ}⟦する→する：00392_suru⟧: to sit in seiza\n- {正座|せいざ}⟦を→を：00422_wo⟧⟦{崩|くず}す→崩す：03919_kuzusu⟧: to shift out of seiza into a more relaxed position\n- ⟦{足|あし}→足：00575_ashi⟧⟦が→が：00051_ga⟧⟦{痺|しび}れる→痺れる：06814_shibireru⟧: legs go numb (from seiza)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25420_agura",
+      "reading": "あぐら",
+      "headword": "あぐら",
+      "label": "sitting cross-legged"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26464_shikkou",
+      "reading": "しっこう",
+      "headword": "{膝行|しっこう}",
+      "label": "crawling on one's knees"
+    }
+  ],
   "metadata": {
     "created": "2026-02-08T04:46:48Z",
-    "modified": "2026-08-14T09:51:20Z",
+    "modified": "2026-09-02T04:01:21Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

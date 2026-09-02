@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30722_sousakan_ex1",
-      "japanese": "{捜査官|そうさかん}が{現場|げんば}に{入|はい}った。",
+      "japanese": "{捜査官|そうさかん}⟦が→が：00051_ga⟧⟦{現場|げんば}→現場：02723_genba⟧⟦に→に：00314_ni⟧⟦{入|はい}った→入る：00494_hairu⟧。",
       "english": "Investigators entered the scene.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30722_sousakan_ex2",
-      "japanese": "ベテランの{捜査官|そうさかん}が{事件|じけん}を{担当|たんとう}している。",
+      "japanese": "⟦ベテラン→ベテラン：11121_beteran⟧⟦の→の：09472_no⟧{捜査官|そうさかん}⟦が→が：00051_ga⟧⟦{事件|じけん}→事件：01568_jiken⟧⟦を→を：00422_wo⟧⟦{担当|たんとう}→担当：02567_tantou⟧⟦している→する：00392_suru⟧。",
       "english": "A veteran investigator is handling the case.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30722_sousakan_ex3",
-      "japanese": "{捜査官|そうさかん}たちは{防犯|ぼうはん}カメラの{映像|えいぞう}を{一日中|いちにちじゅう}{調|しら}べ{続|つづ}けた。",
+      "japanese": "{捜査官|そうさかん}たち⟦は→は：00079_ha⟧⟦{防犯|ぼうはん}カメラ→防犯カメラ：07137_bouhankamera⟧⟦の→の：09472_no⟧⟦{映像|えいぞう}→映像：04444_eizou⟧⟦を→を：00422_wo⟧⟦{一日中|いちにちじゅう}→一日中：09519_ichinichijuu⟧⟦{調|しら}べ→調べる：01213_shiraberu⟧⟦{続|つづ}け→続く：00903_tsuzuku⟧た。",
       "english": "The investigators kept going through the security camera footage all day long.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "From {捜査|そうさ} (criminal investigation) plus the suffix {官|かん}, which marks a public official ({警察官|けいさつかん}, {外交官|がいこうかん}, {裁判官|さいばんかん}).\n\nCOMMON COLLOCATIONS:\n- {捜査官|そうさかん}を{派遣|はけん}する: to send in investigators\n- {麻薬|まやく}{捜査官|そうさかん}: narcotics agent\n- {潜入|せんにゅう}{捜査官|そうさかん}: undercover investigator\n- ベテラン{捜査官|そうさかん}: veteran investigator\n\nSIMILAR WORDS:\n- {刑事|けいじ}: detective — the everyday word for a police detective, used in speech far more often\n- {警察官|けいさつかん}: police officer — any officer, not specifically one who investigates\n- {探偵|たんてい}: private detective — works for clients, not the state",
+  "notes": "From ⟦{捜査|そうさ}→捜査：03688_sousa⟧ (criminal investigation) plus the suffix {官|かん}, which marks a public official (⟦{警察官|けいさつかん}→警察官：05056_keisatsukan⟧, ⟦{外交官|がいこうかん}→外交官：14758_gaikoukan⟧, ⟦{裁判官|さいばんかん}→裁判官：09562_saibankan⟧).\n\nCOMMON COLLOCATIONS:\n- {捜査官|そうさかん}⟦を→を：00422_wo⟧⟦{派遣|はけん}→派遣：13273_haken⟧⟦する→する：00392_suru⟧: to send in investigators\n- ⟦{麻薬|まやく}→麻薬：18796_mayaku⟧{捜査官|そうさかん}: narcotics agent\n- ⟦{潜入|せんにゅう}→潜入：13389_sennyuu⟧{捜査官|そうさかん}: undercover investigator\n- ⟦ベテラン→ベテラン：11121_beteran⟧{捜査官|そうさかん}: veteran investigator\n\nSIMILAR WORDS:\n- ⟦{刑事|けいじ}→刑事：02741_keiji⟧: detective — the everyday word for a police detective, used in speech far more often\n- ⟦{警察官|けいさつかん}→警察官：05056_keisatsukan⟧: police officer — any officer, not specifically one who investigates\n- ⟦{探偵|たんてい}→探偵：07033_tantei⟧: private detective — works for clients, not the state",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02741_keiji",
+      "reading": "けいじ",
+      "headword": "{刑事|けいじ}",
+      "label": "detective"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05056_keisatsukan",
+      "reading": "けいさつかん",
+      "headword": "{警察官|けいさつかん}",
+      "label": "police officer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07033_tantei",
+      "reading": "たんてい",
+      "headword": "{探偵|たんてい}",
+      "label": "private detective"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +76,7 @@
         "noun"
       ],
       "formality": "formal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "occupation",
         "law"
@@ -61,6 +84,6 @@
       "domain": []
     },
     "created": "2026-08-22T12:17:21Z",
-    "modified": "2026-08-22T12:17:21Z"
+    "modified": "2026-09-02T04:02:41Z"
   }
 }

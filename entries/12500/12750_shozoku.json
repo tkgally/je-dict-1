@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "12750_shozoku_ex1",
-      "japanese": "サッカー{部|ぶ}に{所属|しょぞく}している。",
+      "japanese": "⟦サッカー→サッカー：04726_sakkaa⟧⟦{部|ぶ}→〜部：00440_bu⟧⟦に→に：00314_ni⟧{所属|しょぞく}⟦している→する：00392_suru⟧。",
       "english": "I belong to the soccer club.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "12750_shozoku_ex2",
-      "japanese": "{彼|かれ}は{営業|えいぎょう}{部|ぶ}に{所属|しょぞく}している。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{営業|えいぎょう}{部|ぶ}→営業部：19381_eigyoubu⟧⟦に→に：00314_ni⟧{所属|しょぞく}⟦している→する：00392_suru⟧。",
       "english": "He belongs to the sales department.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "12750_shozoku_ex3",
-      "japanese": "{所属|しょぞく}{先|さき}の{名前|なまえ}と{部署|ぶしょ}を{書|か}いてください。",
+      "japanese": "{所属|しょぞく}{先|さき}⟦の→の：09472_no⟧⟦{名前|なまえ}→名前：02234_namae⟧⟦と→と：00512_to⟧⟦{部署|ぶしょ}→部署：08187_busho⟧⟦を→を：00422_wo⟧⟦{書|か}いて→書く：00477_kaku⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please write the name and department of your affiliation.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "{所属|しょぞく} means belonging to or being affiliated with a group or organization. It is commonly used for workplace departments, sports teams, and academic institutions.\n\nPATTERN:\n- 〜に{所属|しょぞく}する: to belong to ~\n\nCOMMON COLLOCATIONS:\n- {所属|しょぞく}{先|さき}: one's affiliation, organization one belongs to\n- {所属|しょぞく}{部署|ぶしょ}: department one belongs to\n- {所属|しょぞく}{選手|せんしゅ}: affiliated player\n- {所属|しょぞく}{事務所|じむしょ}: talent agency one belongs to",
+  "notes": "{所属|しょぞく} means belonging to or being affiliated with a group or organization. It is commonly used for workplace departments, sports teams, and academic institutions.\n\nCOMMON PATTERNS:\n- 〜⟦に→に：00314_ni⟧{所属|しょぞく}⟦する→する：00392_suru⟧: to belong to ~\n\nCOMMON COLLOCATIONS:\n- {所属|しょぞく}{先|さき}: one's affiliation, organization one belongs to\n- {所属|しょぞく}{部署|ぶしょ}: department one belongs to\n- {所属|しょぞく}⟦{選手|せんしゅ}→選手：03823_senshu⟧: affiliated player\n- {所属|しょぞく}⟦{事務所|じむしょ}→事務所：01032_jimusho⟧: talent agency one belongs to",
   "cross_references": [
     {
       "type": "related",
@@ -142,11 +142,39 @@
       "reading": "むしょぞく",
       "headword": "{無所属|むしょぞく}",
       "label": "independent, unaffiliated"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19297_chokuzoku",
+      "reading": "ちょくぞく",
+      "headword": "{直属|ちょくぞく}",
+      "label": "directly under"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20867_kizoku",
+      "reading": "きぞく",
+      "headword": "{帰属|きぞく}",
+      "label": "belonging, attribution, affiliation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21036_kizokusuru",
+      "reading": "きぞくする",
+      "headword": "{帰属|きぞく}する",
+      "label": "to belong to"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21436_zaiseki",
+      "reading": "ざいせき",
+      "headword": "{在籍|ざいせき}",
+      "label": "enrollment"
     }
   ],
   "metadata": {
     "created": "2026-02-22T10:00:18Z",
-    "modified": "2026-04-29T05:15:51Z",
+    "modified": "2026-09-02T04:01:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

@@ -2,7 +2,7 @@
   "id": "11670_nyuushou",
   "headword": "{入賞|にゅうしょう}",
   "reading": "にゅうしょう",
-  "part_of_speech": "noun / suru verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "winning a prize, placing (in a competition)",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "11670_nyuushou_ex1",
-      "japanese": "コンクールで{入賞|にゅうしょう}した。",
+      "japanese": "⟦コンクール→コンクール：28795_konkuuru⟧⟦で→で：00502_de⟧{入賞|にゅうしょう}⟦した→する：00392_suru⟧。",
       "english": "I won a prize at the contest.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "11670_nyuushou_ex2",
-      "japanese": "{娘|むすめ}が{絵画|かいが}コンテストで{入賞|にゅうしょう}を{果|は}たした。",
+      "japanese": "⟦{娘|むすめ}→娘：02263_musume⟧⟦が→が：00051_ga⟧⟦{絵画|かいが}→絵画：02597_kaiga⟧⟦コンテスト→コンテスト：03843_kontesuto⟧⟦で→で：00502_de⟧{入賞|にゅうしょう}⟦を→を：00422_wo⟧⟦{果|は}たした→果たす：10060_hatasu⟧。",
       "english": "My daughter placed in the painting contest.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "11670_nyuushou_ex3",
-      "japanese": "{入賞|にゅうしょう}{者|しゃ}には{賞金|しょうきん}と{記念品|きねんひん}が{贈|おく}られる。",
+      "japanese": "{入賞|にゅうしょう}⟦{者|しゃ}→〜者：04662_sha⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{賞金|しょうきん}→賞金：14234_shoukin⟧⟦と→と：00512_to⟧⟦{記念品|きねんひん}→記念品：03049_kinenhin⟧⟦が→が：00051_ga⟧⟦{贈|おく}られる→贈る：09862_okuru⟧。",
       "english": "Prize money and a commemorative gift will be awarded to the winners.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,47 @@
       ]
     }
   ],
-  "notes": "Covers any prize-winning placement, not just first place. Often used with specific competitions like コンクール, コンテスト, {大会|たいかい}.\n\nCOMMON COLLOCATIONS:\n・{入賞|にゅうしょう}を{果|は}たす (achieve a prize-winning placement)\n・{入賞|にゅうしょう}{者|しゃ} (prize winner)\n・{入賞|にゅうしょう}{作品|さくひん} (prize-winning work)\n・{入賞|にゅうしょう}を{逃|のが}す (miss out on a prize)\n\nDISTINCTIONS:\n・{入賞|にゅうしょう}: placing in a competition (any prize-winning rank)\n・{優勝|ゆうしょう}: winning first place, championship\n・{受賞|じゅしょう}: receiving a specific named award or prize",
-  "cross_references": [],
+  "notes": "Covers any prize-winning placement, not just first place. Often used with specific competitions like ⟦コンクール→コンクール：28795_konkuuru⟧, ⟦コンテスト→コンテスト：03843_kontesuto⟧, ⟦{大会|たいかい}→大会：03386_taikai⟧.\n\nCOMMON COLLOCATIONS:\n- {入賞|にゅうしょう}⟦を→を：00422_wo⟧⟦{果|は}たす→果たす：10060_hatasu⟧ (achieve a prize-winning placement)\n- {入賞|にゅうしょう}⟦{者|しゃ}→〜者：04662_sha⟧ (prize winner)\n- {入賞|にゅうしょう}⟦{作品|さくひん}→作品：02776_sakuhin⟧ (prize-winning work)\n- {入賞|にゅうしょう}⟦を→を：00422_wo⟧⟦{逃|のが}す→逃す：04611_nogasu⟧ (miss out on a prize)\n\nSIMILAR WORDS:\n- {入賞|にゅうしょう}: placing in a competition (any prize-winning rank)\n- ⟦{優勝|ゆうしょう}→優勝：03647_yuushou⟧: winning first place, championship\n- ⟦{受賞|じゅしょう}→受賞：11867_jushou⟧: receiving a specific named award or prize",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03647_yuushou",
+      "reading": "ゆうしょう",
+      "headword": "{優勝|ゆうしょう}",
+      "label": "winning first place, championship"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11867_jushou",
+      "reading": "じゅしょう",
+      "headword": "{受賞|じゅしょう}",
+      "label": "receiving a specific named award…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11686_nyuusen",
+      "reading": "にゅうせん",
+      "headword": "{入選|にゅうせん}",
+      "label": "being selected, accepted (for exhibition)"
+    },
+    {
+      "type": "related",
+      "target_id": "22344_doumedaru",
+      "reading": "どうめだる",
+      "headword": "{銅|どう}メダル",
+      "label": "bronze medal"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29989_sankashou",
+      "reading": "さんかしょう",
+      "headword": "{参加賞|さんかしょう}",
+      "label": "participation prize"
+    }
+  ],
   "metadata": {
     "created": "2026-02-17T20:18:17Z",
-    "modified": "2026-03-29T03:07:35Z",
+    "modified": "2026-09-02T04:01:26Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

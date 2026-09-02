@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "29508_meshibe_ex1",
-      "japanese": "{花|はな}の{雌|め}しべを{調|しら}べる。",
+      "japanese": "⟦{花|はな}→花：00523_hana⟧⟦の→の：09472_no⟧{雌|め}しべ⟦を→を：00422_wo⟧⟦{調|しら}べる→調べる：01213_shiraberu⟧。",
       "english": "To examine the pistil of a flower.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29508_meshibe_ex2",
-      "japanese": "{雌|め}しべに{花粉|かふん}がつくと{実|み}ができる。",
+      "japanese": "{雌|め}しべ⟦に→に：00314_ni⟧⟦{花粉|かふん}→花粉：04372_kafun⟧⟦が→が：00051_ga⟧つく⟦と→と：00512_to⟧⟦{実|み}→実：03741_mi⟧⟦が→が：00051_ga⟧⟦できる→できる：00557_dekiru⟧。",
       "english": "When pollen reaches the pistil, fruit forms.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29508_meshibe_ex3",
-      "japanese": "{理科|りか}の{授業|じゅぎょう}で、{雄|お}しべと{雌|め}しべの{違|ちが}いを{習|なら}った。",
+      "japanese": "⟦{理科|りか}→理科：03994_rika⟧⟦の→の：09472_no⟧⟦{授業|じゅぎょう}→授業：00781_jugyou⟧⟦で→で：00502_de⟧、⟦{雄|お}しべ→雄しべ：29501_oshibe⟧⟦と→と：00512_to⟧{雌|め}しべ⟦の→の：09472_no⟧⟦{違|ちが}い→違い：03432_chigai⟧⟦を→を：00422_wo⟧⟦{習|なら}った→習う：00479_narau⟧。",
       "english": "In science class we learned the difference between the stamen and the pistil.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "The female reproductive part of a flower, which receives pollen and becomes the fruit or seed. Usually written in kana, or as {雌|め}しべ.\n\nCOMMON COLLOCATIONS:\n- {雄|お}しべと{雌|め}しべ: stamen and pistil\n- {雌|め}しべの{先|さき}: the tip of the pistil\n\nSIMILAR WORDS:\n- {雄|お}しべ: stamen — the male reproductive organ of a flower\n- {花粉|かふん}: pollen — the powder that fertilizes the pistil",
+  "notes": "The female reproductive part of a flower, which receives pollen and becomes the fruit or seed. Usually written in kana, or as {雌|め}しべ.\n\nCOMMON COLLOCATIONS:\n- ⟦{雄|お}しべ→雄しべ：29501_oshibe⟧⟦と→と：00512_to⟧{雌|め}しべ: stamen and pistil\n- {雌|め}しべ⟦の→の：09472_no⟧⟦{先|さき}→先：02883_saki⟧: the tip of the pistil\n\nSIMILAR WORDS:\n- ⟦{雄|お}しべ→雄しべ：29501_oshibe⟧: stamen — the male reproductive organ of a flower\n- ⟦{花粉|かふん}→花粉：04372_kafun⟧: pollen — the powder that fertilizes the pistil",
   "cross_references": [
     {
       "type": "related",
@@ -46,19 +52,37 @@
       "reading": "おしべ",
       "headword": "{雄|お}しべ",
       "note": "stamen; the male part of a flower"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04372_kafun",
+      "reading": "かふん",
+      "headword": "{花粉|かふん}",
+      "label": "pollen"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24444_kashin",
+      "reading": "かしん",
+      "headword": "{花芯|かしん}",
+      "label": "center of a flower"
     }
   ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["plant-flower"],
+      "politeness": "plain",
+      "semantic": [
+        "plant-flower"
+      ],
       "domain": []
     },
     "created": "2026-06-27T00:21:08Z",
-    "modified": "2026-06-27T00:21:08Z"
+    "modified": "2026-09-02T04:02:37Z"
   }
 }

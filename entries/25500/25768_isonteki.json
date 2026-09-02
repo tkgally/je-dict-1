@@ -3,7 +3,7 @@
   "headword": "{依存的|いそんてき}",
   "reading": "いそんてき",
   "romaji": "isonteki",
-  "part_of_speech": "adjective",
+  "part_of_speech": "na-adjective",
   "gloss": "dependent; reliant",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25768_isonteki_ex1",
-      "japanese": "{依存的|いそんてき}な{関係|かんけい}は{良|よ}くない。",
+      "japanese": "{依存的|いそんてき}な⟦{関係|かんけい}→関係：01298_kankei⟧⟦は→は：00079_ha⟧⟦{良|よ}くない→良い：02350_yoi⟧。",
       "english": "A dependent relationship is not healthy.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25768_isonteki_ex2",
-      "japanese": "{彼|かれ}は{親|おや}に{対|たい}して{依存的|いそんてき}な{態度|たいど}を{取|と}りがちだ。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{親|おや}→親：01357_oya⟧⟦に{対|たい}して→に対して：06800_nitaishite⟧{依存的|いそんてき}な⟦{態度|たいど}→態度：03396_taido⟧⟦を→を：00422_wo⟧⟦{取|と}り→取る：00565_toru⟧がちだ。",
       "english": "He tends to have a dependent attitude toward his parents.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25768_isonteki_ex3",
-      "japanese": "スマートフォンに{依存的|いそんてき}になりすぎると、{日常生活|にちじょうせいかつ}に{支障|ししょう}が{出|で}ることがある。",
+      "japanese": "⟦スマートフォン→スマートフォン：04434_sumaatofon⟧⟦に→に：00314_ni⟧{依存的|いそんてき}⟦に→に：00314_ni⟧⟦なり→なる：01970_naru⟧すぎる⟦と→と：00512_to⟧、{日常生活|にちじょうせいかつ}⟦に→に：00314_ni⟧⟦{支障|ししょう}→支障：12934_shishou⟧⟦が→が：00051_ga⟧⟦{出|で}る→出る：00513_deru⟧こと⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "If you become too dependent on your smartphone, it can interfere with daily life.",
       "sense_numbers": [
         1
@@ -44,8 +44,16 @@
       "notes": null
     }
   ],
-  "notes": "Formed from {依存|いそん} (dependence) plus the adjectival suffix {的|てき}. Primarily used in psychology, relationships, and social commentary. Almost always carries a negative connotation — healthy reliance is usually expressed differently.\n\nCOMMON COLLOCATIONS:\n- {依存的|いそんてき}な{関係|かんけい}: dependent relationship\n- {依存的|いそんてき}な{性格|せいかく}: dependent personality\n- {依存的|いそんてき}な{態度|たいど}: dependent attitude\n- {依存的|いそんてき}になる: to become dependent\n\nSIMILAR WORDS:\n- {依存|いそん}する: to depend on — the verb form; more neutral than {依存的|いそんてき}\n- {甘|あま}えた: spoiled; clingy — describes dependency in a more emotional, interpersonal way\n- {自立|じりつ}した: independent; self-reliant — the antonym\n\nPRONUNCIATION NOTE:\nThe reading いそん is now standard, though the older pronunciation いぞん is still heard.",
-  "cross_references": [],
+  "notes": "Formed from {依存|いそん} (dependence) plus the adjectival suffix ⟦{的|てき}→〜的：09839_teki⟧. Primarily used in psychology, relationships, and social commentary. Almost always carries a negative connotation — healthy reliance is usually expressed differently.\n\nCOMMON COLLOCATIONS:\n- {依存的|いそんてき}な⟦{関係|かんけい}→関係：01298_kankei⟧: dependent relationship\n- {依存的|いそんてき}な⟦{性格|せいかく}→性格：03371_seikaku⟧: dependent personality\n- {依存的|いそんてき}な⟦{態度|たいど}→態度：03396_taido⟧: dependent attitude\n- {依存的|いそんてき}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧: to become dependent\n\nSIMILAR WORDS:\n- {依存|いそん}⟦する→する：00392_suru⟧: to depend on — the verb form; more neutral than {依存的|いそんてき}\n- ⟦{甘|あま}えた→甘える：06624_amaeru⟧: spoiled; clingy — describes dependency in a more emotional, interpersonal way\n- ⟦{自立|じりつ}→自立：13970_jiritsu⟧⟦した→する：00392_suru⟧: independent; self-reliant — the antonym\n\nPRONUNCIATION:\nThe reading いそん is now standard, though the older pronunciation いぞん is still heard.",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "13970_jiritsu",
+      "reading": "じりつ",
+      "headword": "{自立|じりつ}",
+      "label": "independent"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,12 +61,14 @@
       "pos": [
         "adjective-na"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "cognition",
         "evaluation"
       ]
     },
     "created": "2026-04-27T12:19:03Z",
-    "modified": "2026-08-04T21:28:28Z"
+    "modified": "2026-09-02T04:02:23Z"
   }
 }

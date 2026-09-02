@@ -3,7 +3,7 @@
   "headword": "ちらりと",
   "reading": "ちらりと",
   "romaji": "chirarito",
-  "part_of_speech": "adverb",
+  "part_of_speech": "adverb, onomatopoeia",
   "gloss": "briefly; at a glance; fleetingly",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21444_chirarito_ex1",
-      "japanese": "{時計|とけい}をちらりと{見|み}た。",
+      "japanese": "⟦{時計|とけい}→時計：00677_tokei⟧⟦を→を：00422_wo⟧ちらりと⟦{見|み}た→見る：00283_miru⟧。",
       "english": "I glanced briefly at the clock.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21444_chirarito_ex2",
-      "japanese": "{彼女|かのじょ}はちらりとこちらを{見|み}て、すぐに{目|め}をそらした。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧ちらりと⟦こちら→こちら：00960_kochira⟧⟦を→を：00422_wo⟧⟦{見|み}て→見る：00283_miru⟧、⟦すぐ→すぐ：00814_sugu⟧⟦に→に：00314_ni⟧⟦{目|め}→目：00525_me⟧⟦を→を：00422_wo⟧そらした。",
       "english": "She glanced over here for a moment and immediately looked away.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21444_chirarito_ex3",
-      "japanese": "{窓|まど}の{外|そと}にちらりと{白|しろ}い{影|かげ}が{見|み}えたが、すぐに{消|き}えてしまった。",
+      "japanese": "⟦{窓|まど}→窓：02254_mado⟧⟦の→の：09472_no⟧⟦{外|そと}→外：00671_soto⟧⟦に→に：00314_ni⟧ちらりと⟦{白|しろ}い→白い：00587_shiroi⟧⟦{影|かげ}→影：02191_kage⟧⟦が→が：00051_ga⟧⟦{見|み}えた→見える：01165_mieru⟧⟦が→が：00051_ga⟧、⟦すぐ→すぐ：00814_sugu⟧⟦に→に：00314_ni⟧⟦{消|き}えて→消える：02520_kieru⟧しまった。",
       "english": "I caught a brief glimpse of a white shadow outside the window, but it vanished immediately.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "An onomatopoeic/mimetic adverb from the base ちらり, with the particle と. Describes a quick, momentary glance or a fleeting appearance. The reduplication ちらちら indicates repeated or continuous flickering/glancing, while ちらりと emphasizes a single brief instance.\n\nUSAGE:\nMost commonly paired with {見|み}る (to look) or {見|み}える (to be visible). Can also describe something briefly appearing or being noticed.\n\nCOMMON COLLOCATIONS:\n- ちらりと{見|み}る: to glance at\n- ちらりと{見|み}える: to catch a glimpse of\n- ちらりと{目|め}をやる: to dart one's eyes toward\n- ちらりと{覗|のぞ}く: to peek briefly\n\nSIMILAR WORDS:\n- ちらっと: briefly, at a glance — very similar, slightly more casual\n- じろじろ: staringly — the opposite: looking at someone persistently and rudely\n- ちらちら: flickering, intermittently — repeated or continuous glancing/flickering",
+  "notes": "An onomatopoeic/mimetic adverb from the base ⟦ちらり→ちらり：21204_chirari⟧, with the particle ⟦と→と：00512_to⟧. Describes a quick, momentary glance or a fleeting appearance. The reduplication ⟦ちらちら→ちらちら：07407_chirachira⟧ indicates repeated or continuous flickering/glancing, while ちらりと emphasizes a single brief instance.\n\nUSAGE:\nMost commonly paired with ⟦{見|み}る→見る：00283_miru⟧ (to look) or ⟦{見|み}える→見える：01165_mieru⟧ (to be visible). Can also describe something briefly appearing or being noticed.\n\nCOMMON COLLOCATIONS:\n- ちらりと⟦{見|み}る→見る：00283_miru⟧: to glance at\n- ちらりと⟦{見|み}える→見える：01165_mieru⟧: to catch a glimpse of\n- ちらりと⟦{目|め}→目：00525_me⟧⟦を→を：00422_wo⟧⟦やる→やる：02980_yaru⟧: to dart one's eyes toward\n- ちらりと⟦{覗|のぞ}く→覗く：02388_nozoku⟧: to peek briefly\n\nSIMILAR WORDS:\n- ちらっ⟦と→と：00512_to⟧: briefly, at a glance — very similar, slightly more casual\n- ⟦じろじろ→じろじろ：06907_jirojiro⟧: staringly — the opposite: looking at someone persistently and rudely\n- ⟦ちらちら→ちらちら：07407_chirachira⟧: flickering, intermittently — repeated or continuous glancing/flickering",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "06907_jirojiro",
+      "reading": "じろじろ",
+      "headword": "じろじろ",
+      "label": "staringly"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07407_chirachira",
+      "reading": "ちらちら",
+      "headword": "ちらちら",
+      "label": "flickering, intermittently"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +76,6 @@
       ]
     },
     "created": "2026-04-02T03:26:17Z",
-    "modified": "2026-07-29T12:35:11Z"
+    "modified": "2026-09-02T04:02:03Z"
   }
 }

@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "15724_tenko_ex1",
-      "japanese": "{朝|あさ}の{点呼|てんこ}が{始|はじ}まった。",
+      "japanese": "⟦{朝|あさ}→朝：02277_asa⟧⟦の→の：09472_no⟧{点呼|てんこ}⟦が→が：00051_ga⟧⟦{始|はじ}まった→始まる：00841_hajimaru⟧。",
       "english": "The morning roll call began.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "15724_tenko_ex2",
-      "japanese": "{避難|ひなん}{後|ご}、{全員|ぜんいん}の{点呼|てんこ}をとった。",
+      "japanese": "⟦{避難|ひなん}→避難：07908_hinan⟧⟦{後|ご}→後：30157_go⟧、⟦{全員|ぜんいん}→全員：03310_zenin⟧⟦の→の：09472_no⟧{点呼|てんこ}⟦を→を：00422_wo⟧とった。",
       "english": "After the evacuation, a head count of everyone was taken.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "15724_tenko_ex3",
-      "japanese": "バスの{運転手|うんてんしゅ}は{出発前|しゅっぱつまえ}に{乗客|じょうきゃく}の{点呼|てんこ}を{行|おこな}った。",
+      "japanese": "⟦バス→バス：00769_basu⟧⟦の→の：09472_no⟧⟦{運転手|うんてんしゅ}→運転手：01333_untenshu⟧⟦は→は：00079_ha⟧{出発前|しゅっぱつまえ}⟦に→に：00314_ni⟧⟦{乗客|じょうきゃく}→乗客：03284_joukyaku⟧⟦の→の：09472_no⟧{点呼|てんこ}⟦を→を：00422_wo⟧⟦{行|おこな}った→行う：01238_okonau⟧。",
       "english": "The bus driver conducted a roll call of passengers before departure.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,19 @@
       ]
     }
   ],
-  "notes": "Compound of {点|てん} (point/check) + {呼|こ} (call). The act of calling names or numbers to verify attendance.\n\nCOMMON COLLOCATIONS:\n- {点呼|てんこ}をとる: to take roll call\n- {点呼|てんこ}する: to do a roll call\n- {点呼|てんこ}を{行|おこな}う: to conduct a roll call (formal)\n- {朝|あさ}の{点呼|てんこ}: morning roll call\n\nCONTEXTS:\nUsed in settings where attendance verification is important:\n- {軍隊|ぐんたい}: military\n- {学校|がっこう}: school (especially field trips, evacuations)\n- {避難|ひなん}{訓練|くんれん}: evacuation drills\n- {工事|こうじ}{現場|げんば}: construction sites\n\nSIMILAR WORDS:\n- {出欠|しゅっけつ}をとる: to take attendance (classroom setting, more everyday)\n- {人数|にんずう}{確認|かくにん}: headcount/confirmation of numbers",
-  "cross_references": [],
+  "notes": "Compound of ⟦{点|てん}→点：01553_ten⟧ (point/check) + {呼|こ} (call). The act of calling names or numbers to verify attendance.\n\nCOMMON COLLOCATIONS:\n- {点呼|てんこ}⟦を→を：00422_wo⟧とる: to take roll call\n- {点呼|てんこ}⟦する→する：00392_suru⟧: to do a roll call\n- {点呼|てんこ}⟦を→を：00422_wo⟧⟦{行|おこな}う→行う：01238_okonau⟧: to conduct a roll call (formal)\n- ⟦{朝|あさ}→朝：02277_asa⟧⟦の→の：09472_no⟧{点呼|てんこ}: morning roll call\n\nUSAGE:\nUsed in settings where attendance verification is important:\n- ⟦{軍隊|ぐんたい}→軍隊：02678_guntai⟧: military\n- ⟦{学校|がっこう}→学校：00055_gakkou⟧: school (especially field trips, evacuations)\n- ⟦{避難|ひなん}{訓練|くんれん}→避難訓練：28230_hinankunren⟧: evacuation drills\n- ⟦{工事|こうじ}{現場|げんば}→工事現場：26202_koujigenba⟧: construction sites\n\nSIMILAR WORDS:\n- ⟦{出欠|しゅっけつ}→出欠：09604_shukketsu⟧⟦を→を：00422_wo⟧とる: to take attendance (classroom setting, more everyday)\n- ⟦{人数|にんずう}→人数：03132_ninzuu⟧⟦{確認|かくにん}→確認：00158_kakunin⟧: headcount/confirmation of numbers",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "26585_komei",
+      "reading": "こめい",
+      "headword": "{呼名|こめい}",
+      "label": "roll call"
+    }
+  ],
   "metadata": {
     "created": "2026-03-08T08:50:45Z",
-    "modified": "2026-07-17T12:56:16Z",
+    "modified": "2026-09-02T04:01:42Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

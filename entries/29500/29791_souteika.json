@@ -15,41 +15,61 @@
   "examples": [
     {
       "id": "29791_souteika_ex1",
-      "japanese": "{有名|ゆうめい}な{装丁家|そうていか}が{表紙|ひょうし}を{手|て}がけた。",
+      "japanese": "⟦{有名|ゆうめい}→有名：01106_yuumei⟧な{装丁家|そうていか}⟦が→が：00051_ga⟧⟦{表紙|ひょうし}→表紙：04351_hyoushi⟧⟦を→を：00422_wo⟧⟦{手|て}がけた→手がける：12753_tegakeru⟧。",
       "english": "A famous book designer worked on the cover.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29791_souteika_ex2",
-      "japanese": "この{本|ほん}の{美|うつく}しさは{装丁家|そうていか}の{力|ちから}によるものだ。",
+      "japanese": "⟦この→この：00962_kono⟧{本|ほん}⟦の→の：09472_no⟧{美|うつく}しさ⟦は→は：00079_ha⟧{装丁家|そうていか}⟦の→の：09472_no⟧⟦{力|ちから}→力：01661_chikara⟧⟦による→による：28349_niyoru⟧ものだ。",
       "english": "The beauty of this book is thanks to the book designer.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29791_souteika_ex3",
-      "japanese": "{装丁家|そうていか}は、{紙|かみ}の{質感|しつかん}や{文字|もじ}の{配置|はいち}まで{細|こま}かく{考|かんが}える。",
+      "japanese": "{装丁家|そうていか}⟦は→は：00079_ha⟧、⟦{紙|かみ}→紙：00712_kami⟧⟦の→の：09472_no⟧⟦{質感|しつかん}→質感：18028_shitsukan⟧や⟦{文字|もじ}→文字：03632_moji⟧⟦の→の：09472_no⟧⟦{配置|はいち}→配置：14409_haichi⟧⟦まで→まで：00490_made⟧⟦{細|こま}かく→細かい：01245_komakai⟧⟦{考|かんが}える→考える：00856_kangaeru⟧。",
       "english": "A book designer thinks carefully about everything down to the texture of the paper and the placement of the type.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Formed from {装丁|そうてい} (book design, binding) + {家|か} (specialist; -ist). Refers to a professional who designs books.\n\nCOMMON COLLOCATIONS:\n- {装丁家|そうていか}が{手|て}がける: a book designer works on (a book)\n- {人気|にんき}の{装丁家|そうていか}: a popular book designer\n\nSIMILAR WORDS:\n- {装丁|そうてい}: book design; binding — the work itself, not the person.\n- デザイナー: designer — the general loanword, not specific to books.",
+  "notes": "Formed from ⟦{装丁|そうてい}→装丁：15665_soutei⟧ (book design, binding) + ⟦{家|か}→〜家：28339_ka⟧ (specialist; -ist). Refers to a professional who designs books.\n\nCOMMON COLLOCATIONS:\n- {装丁家|そうていか}⟦が→が：00051_ga⟧⟦{手|て}がける→手がける：12753_tegakeru⟧: a book designer works on (a book)\n- ⟦{人気|にんき}→人気：01488_ninki⟧⟦の→の：09472_no⟧{装丁家|そうていか}: a popular book designer\n\nSIMILAR WORDS:\n- ⟦{装丁|そうてい}→装丁：15665_soutei⟧: book design; binding — the work itself, not the person.\n- ⟦デザイナー→デザイナー：05061_dezainaa⟧: designer — the general loanword, not specific to books.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05061_dezainaa",
+      "reading": "でざいなー",
+      "headword": "デザイナー",
+      "label": "designer"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["occupation", "art"],
+      "politeness": "plain",
+      "semantic": [
+        "occupation",
+        "art"
+      ],
       "domain": []
     },
     "created": "2026-07-11T21:17:16Z",
-    "modified": "2026-07-11T21:17:16Z"
+    "modified": "2026-09-02T04:02:37Z"
   }
 }

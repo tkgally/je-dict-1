@@ -3,7 +3,7 @@
   "headword": "{妬|ねた}ましい",
   "reading": "ねたましい",
   "romaji": "netamashii",
-  "part_of_speech": "adjective-i",
+  "part_of_speech": "i-adjective",
   "gloss": "enviable in a resentful way; jealous; galling",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "27843_netamashii_ex1",
-      "japanese": "{彼|かれ}の{成功|せいこう}が{妬|ねた}ましい。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧⟦{成功|せいこう}→成功：02638_seikou⟧⟦が→が：00051_ga⟧{妬|ねた}ましい。",
       "english": "I'm resentfully envious of his success.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "27843_netamashii_ex2",
-      "japanese": "{妬|ねた}ましいほど{仲|なか}がいい{二人|ふたり}だ。",
+      "japanese": "{妬|ねた}ましいほど⟦{仲|なか}→仲：09513_naka⟧⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧⟦{二人|ふたり}→二人：00622_futari⟧だ。",
       "english": "The two of them are so close it's almost galling.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "27843_netamashii_ex3",
-      "japanese": "{自分|じぶん}より{楽|らく}に{結果|けっか}を{出|だ}す{同僚|どうりょう}が、どうしても{妬|ねた}ましく{感|かん}じてしまう。",
+      "japanese": "⟦{自分|じぶん}→自分：02887_jibun⟧⟦より→より：09476_yori⟧⟦{楽|らく}→楽：02169_raku⟧⟦に→に：00314_ni⟧⟦{結果|けっか}→結果：02486_kekka⟧⟦を→を：00422_wo⟧⟦{出|だ}す→出す：01087_dasu⟧⟦{同僚|どうりょう}→同僚：01023_douryou⟧⟦が→が：00051_ga⟧、⟦どうしても→どうしても：03476_doushitemo⟧{妬|ねた}ましく⟦{感|かん}じて→感じる：02044_kanjiru⟧しまう。",
       "english": "I can't help feeling bitterly envious of a colleague who gets results more easily than I do.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "The adjective form of {妬|ねた}む (to be jealous). Conveys envy mixed with resentment, a more negative feeling than simple admiration.\n\nCOMMON COLLOCATIONS:\n- {妬|ねた}ましく{思|おも}う: to feel resentfully envious\n- {妬|ねた}ましいほど: enviably (to a galling degree)\n\nSIMILAR WORDS:\n- {羨|うらや}ましい: envious — wishing one had what another has, but without the bitter resentment; much more neutral and common",
+  "notes": "The adjective form of {妬|ねた}む (to be jealous). Conveys envy mixed with resentment, a more negative feeling than simple admiration.\n\nCOMMON COLLOCATIONS:\n- {妬|ねた}ましく⟦{思|おも}う→思う：00492_omou⟧: to feel resentfully envious\n- {妬|ねた}ましいほど: enviably (to a galling degree)\n\nSIMILAR WORDS:\n- ⟦{羨|うらや}ましい→羨ましい：02336_urayamashii⟧: envious — wishing one had what another has, but without the bitter resentment; much more neutral and common",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02336_urayamashii",
+      "reading": "うらやましい",
+      "headword": "{羨|うらや}ましい",
+      "label": "envious"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,14 +62,14 @@
         "adjective-i"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "emotion"
       ],
       "domain": []
     },
     "created": "2026-05-21T03:11:38Z",
-    "modified": "2026-05-21T03:11:38Z"
+    "modified": "2026-09-02T04:02:31Z"
   },
   "conjugation": {
     "type": "i-adjective",

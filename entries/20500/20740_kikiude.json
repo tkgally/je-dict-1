@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "20740_kikiude_ex1",
-      "japanese": "{利|き}き{腕|うで}はどちらですか。",
+      "japanese": "{利|き}き{腕|うで}⟦は→は：00079_ha⟧⟦どちら→どちら：00927_dochira⟧です⟦か→か：09473_ka⟧。",
       "english": "Which is your dominant hand?",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "20740_kikiude_ex2",
-      "japanese": "{利|き}き{腕|うで}を{怪我|けが}してしまった。",
+      "japanese": "{利|き}き{腕|うで}⟦を→を：00422_wo⟧{怪我|けが}⟦して→する：00392_suru⟧しまった。",
       "english": "I injured my dominant arm.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "20740_kikiude_ex3",
-      "japanese": "ピッチャーの{利|き}き{腕|うで}が{左|ひだり}か{右|みぎ}かで{打者|だしゃ}の{戦略|せんりゃく}が{変|か}わる。",
+      "japanese": "⟦ピッチャー→ピッチャー：09482_picchaa⟧⟦の→の：09472_no⟧{利|き}き{腕|うで}⟦が→が：00051_ga⟧⟦{左|ひだり}→左：00628_hidari⟧⟦か→か：09473_ka⟧⟦{右|みぎ}→右：02257_migi⟧⟦か→か：09473_ka⟧⟦で→で：00502_de⟧⟦{打者|だしゃ}→打者：06564_dasha⟧⟦の→の：09472_no⟧⟦{戦略|せんりゃく}→戦略：04869_senryaku⟧⟦が→が：00051_ga⟧⟦{変|か}わる→変わる：00714_kawaru⟧。",
       "english": "The batter's strategy changes depending on whether the pitcher is left-handed or right-handed.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {利|き}き (dominant/effective, from {利|き}く 'to be effective') + {腕|うで} (arm). Often used interchangeably with {利|き}き{手|て} (dominant hand), though {利|き}き{腕|うで} specifically refers to the arm.\n\nCOMMON COLLOCATIONS:\n- {利|き}き{腕|うで}は{右|みぎ}: right-handed (dominant arm is the right)\n- {利|き}き{腕|うで}は{左|ひだり}: left-handed (dominant arm is the left)\n- {利|き}き{腕|うで}を{怪我|けが}する: to injure one's dominant arm\n\nRELATED {利|き}き WORDS:\n- {利|き}き{手|て}: dominant hand — the most common term for handedness\n- {利|き}き{足|あし}: dominant foot/leg\n- {利|き}き{目|め}: dominant eye\n\nSIMILAR WORDS:\n- {利|き}き{手|て}: dominant hand — more general and common in everyday conversation\n- {右利|みぎき}き: right-handed\n- {左利|ひだりき}き: left-handed",
+  "notes": "Composed of ⟦{利|き}き→利く：11845_kiku⟧ (dominant/effective, from ⟦{利|き}く→利く：11845_kiku⟧ 'to be effective') + ⟦{腕|うで}→腕：01006_ude⟧ (arm). Often used interchangeably with ⟦{利|き}き{手|て}→利き手：19086_kikite⟧ (dominant hand), though {利|き}き{腕|うで} specifically refers to the arm.\n\nCOMMON COLLOCATIONS:\n- {利|き}き{腕|うで}⟦は→は：00079_ha⟧⟦{右|みぎ}→右：02257_migi⟧: right-handed (dominant arm is the right)\n- {利|き}き{腕|うで}⟦は→は：00079_ha⟧⟦{左|ひだり}→左：00628_hidari⟧: left-handed (dominant arm is the left)\n- {利|き}き{腕|うで}⟦を→を：00422_wo⟧{怪我|けが}⟦する→する：00392_suru⟧: to injure one's dominant arm\n\nRELATED {利|き}き WORDS:\n- ⟦{利|き}き{手|て}→利き手：19086_kikite⟧: dominant hand — the most common term for handedness\n- {利|き}き{足|あし}: dominant foot/leg\n- {利|き}き{目|め}: dominant eye\n\nSIMILAR WORDS:\n- ⟦{利|き}き{手|て}→利き手：19086_kikite⟧: dominant hand — more general and common in everyday conversation\n- ⟦{右利|みぎき}き→右利き：17053_migikiki⟧: right-handed\n- ⟦{左利|ひだりき}き→左利き：22396_hidarikiki⟧: left-handed",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "19086_kikite",
+      "reading": "ききて",
+      "headword": "{利|き}き{手|て}",
+      "label": "dominant hand"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17053_migikiki",
+      "reading": "みぎきき",
+      "headword": "{右利|みぎき}き",
+      "label": "right-handed"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22396_hidarikiki",
+      "reading": "ひだりきき",
+      "headword": "{左利|ひだりき}き",
+      "label": "left-handed"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +82,6 @@
       ]
     },
     "created": "2026-03-30T14:31:53Z",
-    "modified": "2026-07-29T00:22:41Z"
+    "modified": "2026-09-02T04:02:00Z"
   }
 }

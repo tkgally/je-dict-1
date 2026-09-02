@@ -3,7 +3,7 @@
   "headword": "{常備|じょうび}",
   "reading": "じょうび",
   "romaji": "joubi",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "always having on hand; keeping in stock; standing (army, equipment)",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "27113_joubi_ex1",
-      "japanese": "{常備|じょうび}{薬|やく}を{持|も}っていますか。",
+      "japanese": "{常備|じょうび}{薬|やく}⟦を→を：00422_wo⟧⟦{持|も}っています→持つ：00478_motsu⟧⟦か→か：09473_ka⟧。",
       "english": "Do you have any medicines you keep on hand?",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "27113_joubi_ex2",
-      "japanese": "{冷蔵庫|れいぞうこ}に{常備|じょうび}している{食材|しょくざい}がある。",
+      "japanese": "⟦{冷蔵庫|れいぞうこ}→冷蔵庫：01046_reizouko⟧⟦に→に：00314_ni⟧{常備|じょうび}⟦している→する：00392_suru⟧⟦{食材|しょくざい}→食材：04940_shokuzai⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There are ingredients I always keep stocked in the fridge.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "27113_joubi_ex3",
-      "japanese": "{非常|ひじょう}{用|よう}の{懐中電灯|かいちゅうでんとう}を{家|いえ}に{常備|じょうび}しておくべきだ。",
+      "japanese": "⟦{非常|ひじょう}{用|よう}→非常用：28550_hijouyou⟧⟦の→の：09472_no⟧⟦{懐中電灯|かいちゅうでんとう}→懐中電灯：05479_kaichuudentou⟧⟦を→を：00422_wo⟧⟦{家|いえ}→家：00612_ie⟧⟦に→に：00314_ni⟧{常備|じょうび}⟦して→する：00392_suru⟧おくべきだ。",
       "english": "You should always keep an emergency flashlight at home.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Means keeping something always available and ready to use. The word combines {常|じょう} (always) and {備|び} (preparation). In everyday use, it most commonly appears in the compound {常備薬|じょうびやく} (medicines kept on hand) and in cooking contexts where people talk about {常備菜|じょうびさい} (prepared dishes kept ready in the fridge).\n\nCOMMON COLLOCATIONS:\n- {常備薬|じょうびやく}: medicines kept on hand\n- {常備菜|じょうびさい}: meal-prepped side dishes\n- {常備|じょうび}する: to keep on hand, stock regularly\n- {常備品|じょうびひん}: items kept in stock\n- {常備軍|じょうびぐん}: standing army\n\nSIMILAR WORDS:\n- {備蓄|びちく}: stockpiling — emphasizes accumulating reserves, especially for emergencies\n- {用意|ようい}: preparation — broader term for getting something ready",
+  "notes": "Means keeping something always available and ready to use. The word combines {常|じょう} (always) and {備|び} (preparation). In everyday use, it most commonly appears in the compound {常備薬|じょうびやく} (medicines kept on hand) and in cooking contexts where people talk about ⟦{常備菜|じょうびさい}→常備菜：19169_joubisai⟧ (prepared dishes kept ready in the fridge).\n\nCOMMON COLLOCATIONS:\n- {常備薬|じょうびやく}: medicines kept on hand\n- ⟦{常備菜|じょうびさい}→常備菜：19169_joubisai⟧: meal-prepped side dishes\n- {常備|じょうび}⟦する→する：00392_suru⟧: to keep on hand, stock regularly\n- {常備品|じょうびひん}: items kept in stock\n- {常備軍|じょうびぐん}: standing army\n\nSIMILAR WORDS:\n- ⟦{備蓄|びちく}→備蓄：07589_bichiku⟧: stockpiling — emphasizes accumulating reserves, especially for emergencies\n- ⟦{用意|ようい}→用意：01746_youi⟧: preparation — broader term for getting something ready",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07589_bichiku",
+      "reading": "びちく",
+      "headword": "{備蓄|びちく}",
+      "label": "stockpiling"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01746_youi",
+      "reading": "ようい",
+      "headword": "{用意|ようい}",
+      "label": "preparation"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,7 +77,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-07T12:11:10Z",
-    "modified": "2026-05-07T12:11:10Z"
+    "modified": "2026-09-02T04:02:29Z"
   },
   "conjugation": {
     "type": "suru",

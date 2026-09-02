@@ -15,41 +15,67 @@
   "examples": [
     {
       "id": "29897_jooubachi_ex1",
-      "japanese": "{巣|す}には{女王蜂|じょおうばち}が{一匹|いっぴき}いる。",
+      "japanese": "⟦{巣|す}→巣：02140_su⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{女王蜂|じょおうばち}⟦が→が：00051_ga⟧⟦{一匹|いっぴき}→一匹：08930_ippiki⟧⟦いる→いる：00495_iru⟧。",
       "english": "There is one queen bee in the hive.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29897_jooubachi_ex2",
-      "japanese": "{女王蜂|じょおうばち}は{卵|たまご}を{産|う}む{役目|やくめ}を{持|も}つ。",
+      "japanese": "{女王蜂|じょおうばち}⟦は→は：00079_ha⟧⟦{卵|たまご}→卵：02222_tamago⟧⟦を→を：00422_wo⟧⟦{産|う}む→産む：01899_umu⟧⟦{役目|やくめ}→役目：00423_yakume⟧⟦を→を：00422_wo⟧⟦{持|も}つ→持つ：00478_motsu⟧。",
       "english": "The queen bee has the role of laying eggs.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29897_jooubachi_ex3",
-      "japanese": "{女王蜂|じょおうばち}がいなくなると、{巣|す}{全体|ぜんたい}が{混乱|こんらん}する。",
+      "japanese": "{女王蜂|じょおうばち}がいなくなる⟦と→と：00512_to⟧、⟦{巣|す}→巣：02140_su⟧⟦{全体|ぜんたい}→全体：03314_zentai⟧⟦が→が：00051_ga⟧⟦{混乱|こんらん}→混乱：02811_konran⟧⟦する→する：00392_suru⟧。",
       "english": "When the queen bee is gone, the whole hive falls into disorder.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "The reproductive female that heads a bee colony. Formed from {女王|じょおう} (queen) + {蜂|はち} (bee), with rendaku turning はち into ばち.\n\nCOMMON COLLOCATIONS:\n- {女王蜂|じょおうばち}が{卵|たまご}を{産|う}む: the queen bee lays eggs\n- {女王蜂|じょおうばち}を{中心|ちゅうしん}にした{群|む}れ: a colony centered on the queen bee\n\nSIMILAR WORDS:\n- {働|はたら}き{蜂|ばち}: worker bee — a non-reproductive female that gathers food and tends the hive",
+  "notes": "The reproductive female that heads a bee colony. Formed from ⟦{女王|じょおう}→女王：03349_joou⟧ (queen) + ⟦{蜂|はち}→蜂：02242_hachi⟧ (bee), with rendaku turning はち into ばち.\n\nCOMMON COLLOCATIONS:\n- {女王蜂|じょおうばち}⟦が→が：00051_ga⟧⟦{卵|たまご}→卵：02222_tamago⟧⟦を→を：00422_wo⟧⟦{産|う}む→産む：01899_umu⟧: the queen bee lays eggs\n- {女王蜂|じょおうばち}⟦を→を：00422_wo⟧⟦{中心|ちゅうしん}→中心：01467_chuushin⟧にした⟦{群|む}れ→群れ：00298_mure⟧: a colony centered on the queen bee\n\nSIMILAR WORDS:\n- ⟦{働|はたら}き{蜂|ばち}→働き蜂：29898_hatarakibachi⟧: worker bee — a non-reproductive female that gathers food and tends the hive",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "29898_hatarakibachi",
+      "reading": "はたらきばち",
+      "headword": "{働|はたら}き{蜂|ばち}",
+      "label": "worker bee"
+    },
+    {
+      "type": "related",
+      "target_id": "06514_mitsubachi",
+      "reading": "みつばち",
+      "headword": "{蜜蜂|みつばち}",
+      "label": "honeybee"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["animal-insect"],
+      "politeness": "plain",
+      "semantic": [
+        "animal-insect"
+      ],
       "domain": []
     },
     "created": "2026-07-16T21:18:06Z",
-    "modified": "2026-07-16T21:18:06Z"
+    "modified": "2026-09-02T04:02:38Z"
   }
 }

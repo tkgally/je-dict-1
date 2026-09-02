@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26560_hen_ex1",
-      "japanese": "この{漢字|かんじ}の{偏|へん}は{何|なん}ですか。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{漢字|かんじ}→漢字：09480_kanji⟧⟦の→の：09472_no⟧{偏|へん}⟦は→は：00079_ha⟧⟦{何|なん}→何〜：03100_nan⟧です⟦か→か：09473_ka⟧。",
       "english": "What is the left-side radical of this kanji?",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26560_hen_ex2",
-      "japanese": "「{語|ご}」の{偏|へん}は{言偏|ごんべん}だ。",
+      "japanese": "「⟦{語|ご}→〜語：09841_go⟧」⟦の→の：09472_no⟧{偏|へん}⟦は→は：00079_ha⟧{言偏|ごんべん}だ。",
       "english": "The left-side component of the kanji for 'word' is the speech radical.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26560_hen_ex3",
-      "japanese": "{偏|へん}と{旁|つくり}を{組|く}み{合|あ}わせると{一|ひと}つの{漢字|かんじ}になる。",
+      "japanese": "{偏|へん}⟦と→と：00512_to⟧⟦{旁|つくり}→旁：23626_tsukuri⟧⟦を→を：00422_wo⟧⟦{組|く}み{合|あ}わせる→組み合わせる：04659_kumiawaseru⟧⟦と→と：00512_to⟧⟦{一|ひと}つ→一つ：02948_hitotsu⟧⟦の→の：09472_no⟧⟦{漢字|かんじ}→漢字：09480_kanji⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧。",
       "english": "When you combine a left component and a right component, you get a single kanji.",
       "sense_numbers": [
         1
@@ -44,13 +44,34 @@
       "notes": null
     }
   ],
-  "notes": "A term used in kanji study to refer to the left-side structural component of a character. In the traditional classification system, kanji components are categorized by their position within the character.\n\nKANJI COMPONENT POSITIONS:\n- {偏|へん}: left side (e.g., the {氵|さんずい} in {海|うみ})\n- {旁|つくり}: right side (e.g., the {刂|りっとう} in {割|わ}る)\n- {冠|かんむり}: top (e.g., the {宀|うかんむり} in {家|いえ})\n- {脚|あし}: bottom (e.g., the {灬|れんが} in {点|てん})\n- {構|かまえ}: enclosure (e.g., the {門|もんがまえ} in {間|あいだ})\n- {垂|たれ}: top-left wrap (e.g., the {广|まだれ} in {店|みせ})\n- {繞|にょう}: bottom-left wrap (e.g., the {辶|しんにょう} in {道|みち})\n\nCOMMON RADICALS CALLED {偏|へん}:\n- {人偏|にんべん}: person\n- {言偏|ごんべん}: speech\n- {手偏|てへん}: hand\n- {木偏|きへん}: tree\n- {水偏|さんずい}: water\n- {金偏|かねへん}: metal\n\nNOTE ON HOMOPHONES:\nNot to be confused with {変|へん} (strange) or {辺|へん} (area, vicinity), which have the same reading but completely different meanings.",
+  "notes": "A term used in kanji study to refer to the left-side structural component of a character. In the traditional classification system, kanji components are categorized by their position within the character.\n\nKANJI COMPONENT POSITIONS:\n- {偏|へん}: left side (e.g., the {氵|さんずい} in ⟦{海|うみ}→海：00556_umi⟧)\n- ⟦{旁|つくり}→旁：23626_tsukuri⟧: right side (e.g., the {刂|りっとう} in ⟦{割|わ}る→割る：02334_waru⟧)\n- ⟦{冠|かんむり}→冠：03906_kanmuri⟧: top (e.g., the {宀|うかんむり} in ⟦{家|いえ}→家：00612_ie⟧)\n- ⟦{脚|あし}→脚：28733_ashi⟧: bottom (e.g., the {灬|れんが} in ⟦{点|てん}→点：01553_ten⟧)\n- {構|かまえ}: enclosure (e.g., the {門|もんがまえ} in ⟦{間|あいだ}→間：00914_aida⟧)\n- {垂|たれ}: top-left wrap (e.g., the {广|まだれ} in ⟦{店|みせ}→店：00497_mise⟧)\n- {繞|にょう}: bottom-left wrap (e.g., the {辶|しんにょう} in ⟦{道|みち}→道：00505_michi⟧)\n\nCOMMON RADICALS CALLED {偏|へん}:\n- {人偏|にんべん}: person\n- {言偏|ごんべん}: speech\n- {手偏|てへん}: hand\n- {木偏|きへん}: tree\n- {水偏|さんずい}: water\n- {金偏|かねへん}: metal\n\nNOTE ON HOMOPHONES:\nNot to be confused with ⟦{変|へん}→変：01124_hen⟧ (strange) or ⟦{辺|へん}→辺：00937_hen⟧ (area, vicinity), which have the same reading but completely different meanings.",
   "cross_references": [
     {
       "word": "旁",
       "reading": "つくり",
       "type": "related",
       "target_id": "23626_tsukuri"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23624_ninben",
+      "reading": "にんべん",
+      "headword": "にんべん",
+      "label": "person radical (亻)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23625_kihen",
+      "reading": "きへん",
+      "headword": "きへん",
+      "label": "tree radical (木)"
+    },
+    {
+      "type": "related",
+      "target_id": "27336_tehen",
+      "reading": "てへん",
+      "headword": "てへん",
+      "label": "the \"hand\" radical (扌)"
     }
   ],
   "schema_version": "2.0",
@@ -70,6 +91,6 @@
       ]
     },
     "created": "2026-05-03T11:10:37Z",
-    "modified": "2026-06-19T03:23:54Z"
+    "modified": "2026-09-02T04:02:26Z"
   }
 }

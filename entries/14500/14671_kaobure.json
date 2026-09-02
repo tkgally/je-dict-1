@@ -15,41 +15,59 @@
   "examples": [
     {
       "id": "14671_kaobure_ex1",
-      "japanese": "{今回|こんかい}の{顔|かお}ぶれは{豪華|ごうか}だ。",
+      "japanese": "⟦{今回|こんかい}→今回：01409_konkai⟧⟦の→の：09472_no⟧{顔|かお}ぶれ⟦は→は：00079_ha⟧⟦{豪華|ごうか}→豪華：02815_gouka⟧だ。",
       "english": "The lineup this time is impressive.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14671_kaobure_ex2",
-      "japanese": "{委員会|いいんかい}の{顔|かお}ぶれが{発表|はっぴょう}された。",
+      "japanese": "⟦{委員会|いいんかい}→委員会：12234_iinkai⟧⟦の→の：09472_no⟧{顔|かお}ぶれ⟦が→が：00051_ga⟧⟦{発表|はっぴょう}→発表：03562_happyou⟧⟦された→する：00392_suru⟧。",
       "english": "The members of the committee were announced.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14671_kaobure_ex3",
-      "japanese": "{毎年|まいとし}{同|おな}じ{顔|かお}ぶれが{集|あつ}まるので、そろそろ{新|あたら}しいメンバーがほしい。",
+      "japanese": "⟦{毎年|まいとし}→毎年：00731_maitoshi⟧⟦{同|おな}じ→同じ：02857_onaji⟧{顔|かお}ぶれ⟦が→が：00051_ga⟧⟦{集|あつ}まる→集まる：01162_atsumaru⟧⟦の→の：09472_no⟧で、⟦そろそろ→そろそろ：01259_sorosoro⟧⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦メンバー→メンバー：00275_menbaa⟧⟦が→が：00051_ga⟧ほしい。",
       "english": "The same faces gather every year, so I'd like some new members soon.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "Literally \"face lineup\" — {顔|かお} (face) + ぶれ (from {触|ふ}れ, announcement/display). Focuses on who the people are rather than how many there are.\n\nCOMMON COLLOCATIONS:\n- {豪華|ごうか}な{顔|かお}ぶれ (an impressive/star-studded lineup)\n- {同|おな}じ{顔|かお}ぶれ (the same faces/people)\n- {顔|かお}ぶれが{揃|そろ}う (the members are all assembled)\n- {顔|かお}ぶれが{変|か}わる (the lineup changes)\n\nSIMILAR WORDS:\n- メンバー is a neutral term for members\n- {顔|かお}ぶれ emphasizes the identities and often implies a notable or scrutinized group",
-  "cross_references": [],
+  "notes": "Literally \"face lineup\" — ⟦{顔|かお}→顔：00558_kao⟧ (face) + ⟦ぶれ→ぶれ：19846_bure⟧ (from ⟦{触|ふ}れ→触れる：01984_fureru⟧, announcement/display). Focuses on who the people are rather than how many there are.\n\nCOMMON COLLOCATIONS:\n- ⟦{豪華|ごうか}→豪華：02815_gouka⟧な{顔|かお}ぶれ (an impressive/star-studded lineup)\n- ⟦{同|おな}じ→同じ：02857_onaji⟧{顔|かお}ぶれ (the same faces/people)\n- {顔|かお}ぶれ⟦が→が：00051_ga⟧⟦{揃|そろ}う→揃う：01953_sorou⟧ (the members are all assembled)\n- {顔|かお}ぶれ⟦が→が：00051_ga⟧⟦{変|か}わる→変わる：00714_kawaru⟧ (the lineup changes)\n\nSIMILAR WORDS:\n- ⟦メンバー→メンバー：00275_menbaa⟧ is a neutral term for members\n- {顔|かお}ぶれ emphasizes the identities and often implies a notable or scrutinized group",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00275_menbaa",
+      "reading": "めんばー",
+      "headword": "メンバー",
+      "label": "is a neutral term for members"
+    }
+  ],
   "metadata": {
     "created": "2026-03-02T10:58:14Z",
-    "modified": "2026-03-02T10:58:14Z",
+    "modified": "2026-09-02T04:01:38Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["person"]
+      "semantic": [
+        "person"
+      ]
     }
   }
 }

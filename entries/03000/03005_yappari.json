@@ -34,7 +34,7 @@
     },
     {
       "id": "03005_yappari_ex3",
-      "japanese": "やっぱり⟦{日本|にほん}→日本：03876_nihon⟧が⟦いい→いい：00118_ii⟧。",
+      "japanese": "やっぱり⟦{日本|にほん}→日本：03876_nihon⟧⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧。",
       "english": "Japan is still the best.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
     },
     {
       "id": "03005_yappari_ex4",
-      "japanese": "やっぱり⟦{自分|じぶん}→自分：02887_jibun⟧で⟦{作|つく}った→作る：00481_tsukuru⟧⟦{料理|りょうり}→料理：01523_ryouri⟧が⟦{一番|いちばん}→一番：01140_ichiban⟧⟦おいしい→美味しい：00740_oishii⟧。",
+      "japanese": "やっぱり⟦{自分|じぶん}→自分：02887_jibun⟧⟦で→で：00502_de⟧⟦{作|つく}った→作る：00481_tsukuru⟧⟦{料理|りょうり}→料理：01523_ryouri⟧⟦が→が：00051_ga⟧⟦{一番|いちばん}→一番：01140_ichiban⟧⟦おいしい→美味しい：00740_oishii⟧。",
       "english": "Food you make yourself really is the best after all.",
       "notes": null,
       "has_audio": false,
@@ -54,7 +54,7 @@
     },
     {
       "id": "03005_yappari_ex5",
-      "japanese": "⟦{天気|てんき}→天気：00582_tenki⟧⟦{予報|よほう}→予報：03668_yohou⟧の⟦{通|とお}り→通り：01475_toori⟧、やっぱり⟦{午後|ごご}→午後：00544_gogo⟧から⟦{雨|あめ}→雨：00583_ame⟧が⟦{降|ふ}り{出|だ}した→降り出す：03004_furidasu⟧。",
+      "japanese": "⟦{天気|てんき}→天気：00582_tenki⟧⟦{予報|よほう}→予報：03668_yohou⟧⟦の→の：09472_no⟧⟦{通|とお}り→通り：01475_toori⟧、やっぱり⟦{午後|ごご}→午後：00544_gogo⟧⟦から→から：00504_kara⟧⟦{雨|あめ}→雨：00583_ame⟧⟦が→が：00051_ga⟧⟦{降|ふ}り{出|だ}した→降り出す：03004_furidasu⟧。",
       "english": "Just as the weather forecast said, it started raining in the afternoon after all.",
       "notes": null,
       "has_audio": false,
@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "やっぱり confirms expectations or expresses \"after all\".\n\nVARIATIONS:\n- やっぱり: common spoken form\n- ⟦やはり→やはり：01991_yahari⟧: formal/written form\n- やっぱ: casual abbreviation\n\nMEANINGS:\n1. As expected: やっぱり⟦そう→そう：01167_sou⟧だった (it was as I thought)\n2. After all (reversal): やっぱり⟦{行|い}かない→行く：00119_iku⟧ (not going after all)\n3. Still/anyway: やっぱり⟦{日本|にほん}→日本：03876_nihon⟧が⟦いい→いい：00118_ii⟧ (Japan is still best)\n\nCOMMON PATTERNS:\n- やっぱり⟦{思|おも}った→思う：00492_omou⟧⟦{通|とお}り→通り：01475_toori⟧ (just as I thought)\n- やっぱり⟦{無理|むり}→無理：01558_muri⟧だ (it's impossible after all)",
+  "notes": "やっぱり confirms expectations or expresses \"after all\".\n\nFORMS:\n- やっぱり: common spoken form\n- ⟦やはり→やはり：01991_yahari⟧: formal/written form\n- ⟦やっぱ→やっぱ：06915_yappa⟧: casual abbreviation\n\nUSAGE:\n1. As expected: やっぱり⟦そう→そう：01167_sou⟧だった (it was as I thought)\n2. After all (reversal): やっぱり⟦{行|い}かない→行く：00119_iku⟧ (not going after all)\n3. Still/anyway: やっぱり⟦{日本|にほん}→日本：03876_nihon⟧⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧ (Japan is still best)\n\nCOMMON PATTERNS:\n- やっぱり⟦{思|おも}った→思う：00492_omou⟧⟦{通|とお}り→通り：01475_toori⟧ (just as I thought)\n- やっぱり⟦{無理|むり}→無理：01558_muri⟧だ (it's impossible after all)",
   "cross_references": [
     {
       "type": "contrast",
@@ -71,11 +71,32 @@
       "reading": "やはり",
       "headword": "やはり",
       "label": "formal/written equivalent"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06699_nandakanda",
+      "reading": "なんだかんだ",
+      "headword": "なんだかんだ",
+      "label": "one way or another"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07578_annojou",
+      "reading": "あんのじょう",
+      "headword": "{案|あん}の{定|じょう}",
+      "label": "sure enough"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28992_nantoittemo",
+      "reading": "なんといっても",
+      "headword": "{何|なん}といっても",
+      "label": "above all"
     }
   ],
   "metadata": {
     "created": "2026-01-11T10:41:41Z",
-    "modified": "2026-02-27T10:38:42Z",
+    "modified": "2026-09-02T04:01:02Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

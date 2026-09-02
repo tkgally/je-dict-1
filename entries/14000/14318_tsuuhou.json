@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "14318_tsuuhou_ex1",
-      "japanese": "{警察|けいさつ}に{通報|つうほう}した。",
+      "japanese": "⟦{警察|けいさつ}→警察：01393_keisatsu⟧⟦に→に：00314_ni⟧{通報|つうほう}⟦した→する：00392_suru⟧。",
       "english": "I reported it to the police.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "14318_tsuuhou_ex2",
-      "japanese": "{近所|きんじょ}の{人|ひと}からの{通報|つうほう}で{警察|けいさつ}が{駆|か}けつけた。",
+      "japanese": "⟦{近所|きんじょ}→近所：01318_kinjo⟧⟦の→の：09472_no⟧⟦{人|ひと}→人：00476_hito⟧⟦から→から：00504_kara⟧⟦の→の：09472_no⟧{通報|つうほう}⟦で→で：00502_de⟧⟦{警察|けいさつ}→警察：01393_keisatsu⟧⟦が→が：00051_ga⟧⟦{駆|か}けつけた→駆けつける：14632_kaketsukeru⟧。",
       "english": "The police rushed to the scene after a tip from a neighbor.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "14318_tsuuhou_ex3",
-      "japanese": "{不審|ふしん}な{人物|じんぶつ}を{見|み}かけたら、すぐに{通報|つうほう}してください。",
+      "japanese": "⟦{不審|ふしん}→不審：16934_fushin⟧な⟦{人物|じんぶつ}→人物：03356_jinbutsu⟧⟦を→を：00422_wo⟧⟦{見|み}かけたら→見かける：01644_mikakeru⟧、⟦すぐ→すぐ：00814_sugu⟧⟦に→に：00314_ni⟧{通報|つうほう}⟦して→する：00392_suru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "If you see a suspicious person, please report it immediately.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "Most commonly used for reporting incidents to the police or emergency services.\n\nCOMMON COLLOCATIONS:\n- {警察|けいさつ}に{通報|つうほう}する (report to the police)\n- {消防|しょうぼう}に{通報|つうほう}する (report to the fire department)\n- {匿名|とくめい}で{通報|つうほう}する (report anonymously)\n- {通報|つうほう}を{受|う}ける (receive a report)\n- {通報|つうほう}{者|しゃ} (the person who reported)\n\nIn Japan, 110 is the police emergency number and 119 is fire/ambulance. The phrase 110{番|ばん}{通報|つうほう} specifically means calling the police emergency line.",
+  "notes": "Most commonly used for reporting incidents to the police or emergency services.\n\nCOMMON COLLOCATIONS:\n- ⟦{警察|けいさつ}→警察：01393_keisatsu⟧⟦に→に：00314_ni⟧{通報|つうほう}⟦する→する：00392_suru⟧ (report to the police)\n- ⟦{消防|しょうぼう}→消防：03241_shoubou⟧⟦に→に：00314_ni⟧{通報|つうほう}⟦する→する：00392_suru⟧ (report to the fire department)\n- ⟦{匿名|とくめい}→匿名：11797_tokumei⟧⟦で→で：00502_de⟧{通報|つうほう}⟦する→する：00392_suru⟧ (report anonymously)\n- {通報|つうほう}⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧ (receive a report)\n- {通報|つうほう}{者|しゃ} (the person who reported)\n\nIn Japan, 110 is the police emergency number and 119 is fire/ambulance. The phrase 110⟦{番|ばん}→番：09873_ban⟧{通報|つうほう} specifically means calling the police emergency line.",
   "cross_references": [
     {
       "type": "contrast",
@@ -149,11 +149,18 @@
       "reading": "ほうこくする",
       "headword": "{報告|ほうこく}する",
       "label": "to report"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24691_naibukokuhatsu",
+      "reading": "ないぶこくはつ",
+      "headword": "{内部告発|ないぶこくはつ}",
+      "label": "whistleblowing"
     }
   ],
   "metadata": {
     "created": "2026-02-28T11:01:44Z",
-    "modified": "2026-08-04T18:18:49Z",
+    "modified": "2026-09-02T04:01:36Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

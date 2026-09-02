@@ -15,39 +15,70 @@
   "examples": [
     {
       "id": "29199_kouuirusuyaku_ex1",
-      "japanese": "{抗ウイルス薬|こうういるすやく}を{服用|ふくよう}する。",
+      "japanese": "{抗ウイルス薬|こうういるすやく}⟦を→を：00422_wo⟧⟦{服用|ふくよう}する→服用する：21605_fukuyousuru⟧。",
       "english": "To take an antiviral drug.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29199_kouuirusuyaku_ex2",
-      "japanese": "{インフルエンザ|いんふるえんざ}には{抗ウイルス薬|こうういるすやく}が{有効|ゆうこう}だ。",
+      "japanese": "⟦インフルエンザ→インフルエンザ：05384_infuruenza⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{抗ウイルス薬|こうういるすやく}⟦が→が：00051_ga⟧⟦{有効|ゆうこう}→有効：03645_yuukou⟧だ。",
       "english": "Antiviral drugs are effective against influenza.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29199_kouuirusuyaku_ex3",
-      "japanese": "{医師|いし}から{抗ウイルス薬|こうういるすやく}を{処方|しょほう}してもらったが、{副作用|ふくさよう}に{注意|ちゅうい}が{必要|ひつよう}だ。",
+      "japanese": "⟦{医師|いし}→医師：11851_ishi⟧⟦から→から：00504_kara⟧{抗ウイルス薬|こうういるすやく}⟦を→を：00422_wo⟧⟦{処方|しょほう}→処方：05976_shohou⟧⟦して→する：00392_suru⟧⟦もらった→もらう：00520_morau⟧⟦が→が：00051_ga⟧、⟦{副作用|ふくさよう}→副作用：05015_fukusayou⟧⟦に→に：00314_ni⟧⟦{注意|ちゅうい}→注意：01464_chuui⟧⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧だ。",
       "english": "I was prescribed an antiviral drug by my doctor, but I need to watch out for side effects.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "COMMON COLLOCATIONS:\n- {抗ウイルス薬|こうういるすやく}を{処方|しょほう}する: to prescribe an antiviral drug\n- {抗ウイルス薬|こうういるすやく}を{投与|とうよ}する: to administer an antiviral drug\n- {新型|しんがた}{抗ウイルス薬|こうういるすやく}: new antiviral drug\n\nSIMILAR WORDS:\n- {抗生物質|こうせいぶっしつ}: antibiotic (targets bacteria, not viruses)\n- {抗菌薬|こうきんやく}: antibacterial drug",
+  "notes": "COMMON COLLOCATIONS:\n- {抗ウイルス薬|こうういるすやく}⟦を→を：00422_wo⟧⟦{処方|しょほう}→処方：05976_shohou⟧⟦する→する：00392_suru⟧: to prescribe an antiviral drug\n- {抗ウイルス薬|こうういるすやく}⟦を→を：00422_wo⟧⟦{投与|とうよ}→投与：12894_touyo⟧⟦する→する：00392_suru⟧: to administer an antiviral drug\n- ⟦{新型|しんがた}→新型：19411_shingata⟧{抗ウイルス薬|こうういるすやく}: new antiviral drug\n\nSIMILAR WORDS:\n- ⟦{抗生物質|こうせいぶっしつ}→抗生物質：11089_kouseibusshitsu⟧: antibiotic (targets bacteria, not viruses)\n- ⟦{抗菌薬|こうきんやく}→抗菌薬：26144_koukinyaku⟧: antibacterial drug",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11089_kouseibusshitsu",
+      "reading": "こうせいぶっしつ",
+      "headword": "{抗生物質|こうせいぶっしつ}",
+      "label": "antibiotic"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26144_koukinyaku",
+      "reading": "こうきんやく",
+      "headword": "{抗菌薬|こうきんやく}",
+      "label": "antibacterial drug"
+    }
+  ],
   "metadata": {
     "created": "2026-06-12T13:43:54Z",
-    "modified": "2026-06-12T13:43:54Z",
+    "modified": "2026-09-02T04:02:36Z",
     "schema_version": "2.0",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["health"],
-      "domain": ["medical"],
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "health"
+      ],
+      "domain": [
+        "medical"
+      ],
       "vocabulary_tier": "general"
-    }
+    },
+    "vocabulary_tier": "general"
   }
 }

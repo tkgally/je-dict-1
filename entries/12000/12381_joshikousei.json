@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "12381_joshikousei_ex1",
-      "japanese": "{女子高生|じょしこうせい}が{歩|ある}いている。",
+      "japanese": "{女子高生|じょしこうせい}⟦が→が：00051_ga⟧⟦{歩|ある}いている→歩く：00538_aruku⟧。",
       "english": "High school girls are walking.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12381_joshikousei_ex2",
-      "japanese": "{女子高生|じょしこうせい}の{間|あいだ}で{新|あたら}しいスイーツが{流行|はや}っている。",
+      "japanese": "{女子高生|じょしこうせい}⟦の→の：09472_no⟧⟦{間|あいだ}→間：00914_aida⟧⟦で→で：00502_de⟧⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦スイーツ→スイーツ：27370_suiitsu⟧⟦が→が：00051_ga⟧⟦{流行|はや}っている→流行る：02400_hayaru⟧。",
       "english": "A new sweet is popular among high school girls.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12381_joshikousei_ex3",
-      "japanese": "{駅前|えきまえ}のカフェは{放課後|ほうかご}になると{女子高生|じょしこうせい}でいっぱいになる。",
+      "japanese": "⟦{駅前|えきまえ}→駅前：09593_ekimae⟧⟦の→の：09472_no⟧⟦カフェ→カフェ：06767_kafe⟧⟦は→は：00079_ha⟧⟦{放課後|ほうかご}→放課後：12720_houkago⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦と→と：00512_to⟧{女子高生|じょしこうせい}⟦で→で：00502_de⟧いっぱい⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧。",
       "english": "The cafe in front of the station fills up with high school girls after school.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "STRUCTURE:\n{女子|じょし} (female) + {高生|こうせい} (high school student, abbreviation of {高校生|こうこうせい}).\n\nABBREVIATION:\nCommonly abbreviated as JK (じぇーけー) in casual contexts, social media, and marketing. JK{語|ご} refers to slang used by high school girls.\n\nRELATED TERMS:\n- {男子高生|だんしこうせい}: male high school student (abbreviated DK)\n- {女子中学生|じょしちゅうがくせい}: female middle school student\n- {女子大生|じょしだいせい}: female university student\n\nCULTURAL CONTEXT:\n{女子高生|じょしこうせい} are considered trendsetters in Japanese pop culture. Their fashion, slang, and consumer preferences often influence broader trends.",
+  "notes": "COMMON PATTERNS:\n⟦{女子|じょし}→女子：03350_joshi⟧ (female) + {高生|こうせい} (high school student, abbreviation of ⟦{高校生|こうこうせい}→高校生：01580_koukousei⟧).\n\nFORMS:\nCommonly abbreviated as JK (じぇーけー) in casual contexts, social media, and marketing. JK⟦{語|ご}→〜語：09841_go⟧ refers to slang used by high school girls.\n\nRELATED WORDS:\n- {男子高生|だんしこうせい}: male high school student (abbreviated DK)\n- ⟦{女子中学生|じょしちゅうがくせい}→女子中学生：23376_joshichuugakusei⟧: female middle school student\n- ⟦{女子大生|じょしだいせい}→女子大生：23937_joshidaisei⟧: female university student\n\nCULTURAL NOTE:\n{女子高生|じょしこうせい} are considered trendsetters in Japanese pop culture. Their fashion, slang, and consumer preferences often influence broader trends.",
   "cross_references": [
     {
       "type": "related",
@@ -46,18 +52,58 @@
       "reading": "こうこうせい",
       "headword": "{高校生|こうこうせい}",
       "label": "high school student"
+    },
+    {
+      "type": "related",
+      "target_id": "23376_joshichuugakusei",
+      "reading": "じょしちゅうがくせい",
+      "headword": "{女子中学生|じょしちゅうがくせい}",
+      "label": "female middle school student"
+    },
+    {
+      "type": "related",
+      "target_id": "23937_joshidaisei",
+      "reading": "じょしだいせい",
+      "headword": "{女子大生|じょしだいせい}",
+      "label": "female university student"
+    },
+    {
+      "type": "related",
+      "target_id": "07743_jeeshii",
+      "reading": "じぇーしー",
+      "headword": "JC",
+      "label": "middle school girl"
+    },
+    {
+      "type": "related",
+      "target_id": "07744_diikee",
+      "reading": "でぃーけー",
+      "headword": "DK",
+      "label": "high school boy"
+    },
+    {
+      "type": "related",
+      "target_id": "07745_jeedii",
+      "reading": "じぇーでぃー",
+      "headword": "JD",
+      "label": "female college student"
     }
   ],
   "metadata": {
     "created": "2026-02-21T05:47:52Z",
-    "modified": "2026-04-26T10:06:49Z",
+    "modified": "2026-09-02T04:01:28Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["person", "education"]
+      "semantic": [
+        "person",
+        "education"
+      ]
     }
   }
 }

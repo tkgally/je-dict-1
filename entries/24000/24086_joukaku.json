@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24086_joukaku_ex1",
-      "japanese": "{日本|にほん}には{多|おお}くの{城郭|じょうかく}が{残|のこ}っている。",
+      "japanese": "⟦{日本|にほん}→日本：03876_nihon⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{多|おお}く⟦の→の：09472_no⟧{城郭|じょうかく}⟦が→が：00051_ga⟧⟦{残|のこ}っている→残る：01187_nokoru⟧。",
       "english": "Many castles remain in Japan.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24086_joukaku_ex2",
-      "japanese": "この{城郭|じょうかく}は{戦国|せんごく}{時代|じだい}に{築|きず}かれた。",
+      "japanese": "⟦この→この：00962_kono⟧{城郭|じょうかく}⟦は→は：00079_ha⟧⟦{戦国|せんごく}{時代|じだい}→戦国時代：19200_sengokujidai⟧⟦に→に：00314_ni⟧⟦{築|きず}かれた→築く：02046_kizuku⟧。",
       "english": "This castle was built during the Warring States period.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24086_joukaku_ex3",
-      "japanese": "{石垣|いしがき}や{堀|ほり}を{含|ふく}めた{城郭|じょうかく}{全体|ぜんたい}が{史跡|しせき}に{指定|してい}されている。",
+      "japanese": "⟦{石垣|いしがき}→石垣：19673_ishigaki⟧や⟦{堀|ほり}→堀：03725_hori⟧⟦を→を：00422_wo⟧⟦{含|ふく}めた→含める：02408_fukumeru⟧{城郭|じょうかく}⟦{全体|ぜんたい}→全体：03314_zentai⟧⟦が→が：00051_ga⟧⟦{史跡|しせき}→史跡：11952_shiseki⟧⟦に→に：00314_ni⟧⟦{指定|してい}→指定：00373_shitei⟧⟦されている→する：00392_suru⟧。",
       "english": "The entire castle complex including stone walls and moats is designated as a historic site.",
       "sense_numbers": [
         1
@@ -44,20 +44,37 @@
       "notes": null
     }
   ],
-  "notes": "A more formal and comprehensive term than {城|しろ}, emphasizing the entire fortified compound rather than just the main keep. Used in academic, historical, and tourism contexts. Japan's castles are major tourist attractions, and understanding {城郭|じょうかく} terminology enriches the experience of visiting them.\n\nCOMMON COLLOCATIONS:\n- {城郭|じょうかく}{建築|けんちく}: castle architecture\n- {城郭|じょうかく}{都市|とし}: castle town (fortified city)\n- {城郭|じょうかく}の{構造|こうぞう}: castle structure\n- {城郭|じょうかく}{跡|あと}: castle ruins\n\nSIMILAR WORDS:\n- {城|しろ}: castle — the everyday word, can refer to just the main tower or the whole complex\n- {砦|とりで}: fort/stronghold — smaller and simpler defensive structure\n- {要塞|ようさい}: fortress — emphasizes military defensive capability",
+  "notes": "A more formal and comprehensive term than ⟦{城|しろ}→城：03255_shiro⟧, emphasizing the entire fortified compound rather than just the main keep. Used in academic, historical, and tourism contexts. Japan's castles are major tourist attractions, and understanding {城郭|じょうかく} terminology enriches the experience of visiting them.\n\nCOMMON COLLOCATIONS:\n- {城郭|じょうかく}⟦{建築|けんちく}→建築：02709_kenchiku⟧: castle architecture\n- {城郭|じょうかく}⟦{都市|とし}→都市：01477_toshi⟧: castle town (fortified city)\n- {城郭|じょうかく}⟦の→の：09472_no⟧⟦{構造|こうぞう}→構造：02730_kouzou⟧: castle structure\n- {城郭|じょうかく}⟦{跡|あと}→跡：02174_ato⟧: castle ruins\n\nSIMILAR WORDS:\n- ⟦{城|しろ}→城：03255_shiro⟧: castle — the everyday word, can refer to just the main tower or the whole complex\n- ⟦{砦|とりで}→砦：24127_toride⟧: fort/stronghold — smaller and simpler defensive structure\n- ⟦{要塞|ようさい}→要塞：14157_yousai⟧: fortress — emphasizes military defensive capability",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24127_toride",
+      "reading": "とりで",
+      "headword": "{砦|とりで}",
+      "label": "fort/stronghold"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14157_yousai",
+      "reading": "ようさい",
+      "headword": "{要塞|ようさい}",
+      "label": "fortress"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "building",
         "history"
       ]
     },
     "created": "2026-04-17T17:41:06Z",
-    "modified": "2026-08-02T18:32:34Z"
+    "modified": "2026-09-02T04:02:16Z"
   }
 }

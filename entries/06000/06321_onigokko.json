@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{鬼|おに}ごっこ is the Japanese name for the game of tag.\n\nHOW TO PLAY:\n1. One person is chosen as the ⟦{鬼|おに}→鬼：02184_oni⟧ (\"demon/it\")\n2. The ⟦{鬼|おに}→鬼：02184_oni⟧ counts while others hide or scatter\n3. The ⟦{鬼|おに}→鬼：02184_oni⟧ chases and tries to touch (⟦タッチ→タッチ：08915_tacchi⟧⟦する→する：00392_suru⟧) others\n4. The person touched becomes the new ⟦{鬼|おに}→鬼：02184_oni⟧\n\nVARIATIONS:\n- ⟦{氷|こおり}{鬼|おに}→氷鬼：noentry⟧ (freeze tag)\n- ⟦{高|たか}{鬼|おに}→高鬼：noentry⟧ (safe when on high ground)\n- ⟦{色|いろ}{鬼|おに}→色鬼：noentry⟧ (safe when touching a specified color)\n\nETYMOLOGY:\n⟦{鬼|おに}→鬼：02184_oni⟧ (demon/ogre) + ⟦ごっこ→ごっこ：09095_gokko⟧ (play-acting suffix). The name comes from the chaser playing the role of a demon.\n\nRELATED GAMES:\n- ⟦かくれんぼ→かくれんぼ：06322_kakurenbo⟧ (hide and seek)\n- ⟦{缶蹴|かんけ}り→缶蹴り：29568_kankeri⟧ (kick the can)\n- ⟦だるま→だるま：06539_daruma⟧⟦さん→さん：09848_san⟧⟦が→が：00051_ga⟧⟦{転|ころ}んだ→転ぶ：00863_korobu⟧ (Red Light, Green Light)",
+  "notes": "{鬼|おに}ごっこ is the Japanese name for the game of tag.\n\nHOW TO PLAY:\n1. One person is chosen as the ⟦{鬼|おに}→鬼：02184_oni⟧ (\"demon/it\")\n2. The ⟦{鬼|おに}→鬼：02184_oni⟧ counts while others hide or scatter\n3. The ⟦{鬼|おに}→鬼：02184_oni⟧ chases and tries to touch (⟦タッチ→タッチ：08915_tacchi⟧⟦する→する：00392_suru⟧) others\n4. The person touched becomes the new ⟦{鬼|おに}→鬼：02184_oni⟧\n\nFORMS:\n- ⟦{氷|こおり}{鬼|おに}→氷鬼：noentry⟧ (freeze tag)\n- ⟦{高|たか}{鬼|おに}→高鬼：noentry⟧ (safe when on high ground)\n- ⟦{色|いろ}{鬼|おに}→色鬼：noentry⟧ (safe when touching a specified color)\n\nETYMOLOGY:\n⟦{鬼|おに}→鬼：02184_oni⟧ (demon/ogre) + ⟦ごっこ→ごっこ：09095_gokko⟧ (play-acting suffix). The name comes from the chaser playing the role of a demon.\n\nRELATED GAMES:\n- ⟦かくれんぼ→かくれんぼ：06322_kakurenbo⟧ (hide and seek)\n- ⟦{缶蹴|かんけ}り→缶蹴り：29568_kankeri⟧ (kick the can)\n- ⟦だるま→だるま：06539_daruma⟧⟦さん→さん：09848_san⟧⟦が→が：00051_ga⟧⟦{転|ころ}んだ→転ぶ：00863_korobu⟧ (Red Light, Green Light)",
   "cross_references": [
     {
       "type": "related",
@@ -51,11 +51,25 @@
       "headword": "かくれんぼ",
       "label": "hide and seek",
       "target_id": "06322_kakurenbo"
+    },
+    {
+      "type": "related",
+      "target_id": "29568_kankeri",
+      "reading": "かんけり",
+      "headword": "{缶|かん}{蹴|け}り",
+      "label": "kick the can"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28599_oikakekko",
+      "reading": "おいかけっこ",
+      "headword": "{追|お}いかけっこ",
+      "label": "game of tag"
     }
   ],
   "metadata": {
     "created": "2026-01-17T09:45:49Z",
-    "modified": "2026-08-25T00:21:26Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

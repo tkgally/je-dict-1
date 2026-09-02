@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29438_nikutairoudousha_ex1",
-      "japanese": "{彼|かれ}は{肉体労働者|にくたいろうどうしゃ}だ。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{肉体労働者|にくたいろうどうしゃ}だ。",
       "english": "He is a manual laborer.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29438_nikutairoudousha_ex2",
-      "japanese": "{肉体労働者|にくたいろうどうしゃ}は{体力|たいりょく}が{必要|ひつよう}だ。",
+      "japanese": "{肉体労働者|にくたいろうどうしゃ}⟦は→は：00079_ha⟧⟦{体力|たいりょく}→体力：05318_tairyoku⟧⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧だ。",
       "english": "Manual laborers need physical strength.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29438_nikutairoudousha_ex3",
-      "japanese": "{若|わか}いころは{肉体労働者|にくたいろうどうしゃ}として{建設|けんせつ}{現場|げんば}で{働|はたら}いていた。",
+      "japanese": "{若|わか}い⟦ころ→〜ころ：03091_koro⟧⟦は→は：00079_ha⟧{肉体労働者|にくたいろうどうしゃ}⟦として→として：06802_toshite⟧⟦{建設|けんせつ}→建設：02708_kensetsu⟧⟦{現場|げんば}→現場：02723_genba⟧⟦で→で：00502_de⟧⟦{働|はたら}いていた→働く：00503_hataraku⟧。",
       "english": "When he was young, he worked as a manual laborer at construction sites.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "Written {肉体|にくたい} (the body) + {労働者|ろうどうしゃ} (worker). Contrasts with office or desk work.\n\nSIMILAR WORDS:\n- {頭脳労働者|ずのうろうどうしゃ}: brain worker; white-collar worker — the contrasting term\n- {作業員|さぎょういん}: worker, operative — a neutral term for someone doing on-site work",
+  "notes": "Written ⟦{肉体|にくたい}→肉体：13912_nikutai⟧ (the body) + ⟦{労働者|ろうどうしゃ}→労働者：23971_roudousha⟧ (worker). Contrasts with office or desk work.\n\nSIMILAR WORDS:\n- {頭脳労働者|ずのうろうどうしゃ}: brain worker; white-collar worker — the contrasting term\n- ⟦{作業員|さぎょういん}→作業員：24136_sagyouin⟧: worker, operative — a neutral term for someone doing on-site work",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24136_sagyouin",
+      "reading": "さぎょういん",
+      "headword": "{作業員|さぎょういん}",
+      "label": "worker, operative"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +62,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "occupation"
       ],
       "domain": []
     },
     "created": "2026-06-23T09:30:32Z",
-    "modified": "2026-06-23T09:30:32Z"
+    "modified": "2026-09-02T04:02:36Z"
   }
 }

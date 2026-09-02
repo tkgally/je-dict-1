@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "16328_yuusei_ex1",
-      "japanese": "{日本|にほん}チームが{優勢|ゆうせい}だ。",
+      "japanese": "⟦{日本|にほん}→日本：03876_nihon⟧⟦チーム→チーム：03858_chiimu⟧⟦が→が：00051_ga⟧{優勢|ゆうせい}だ。",
       "english": "The Japanese team has the advantage.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "16328_yuusei_ex2",
-      "japanese": "{与党|よとう}が{優勢|ゆうせい}と{伝|つた}えられている。",
+      "japanese": "⟦{与党|よとう}→与党：05241_yotou⟧⟦が→が：00051_ga⟧{優勢|ゆうせい}⟦と→と：00512_to⟧⟦{伝|つた}えられている→伝える：01220_tsutaeru⟧。",
       "english": "The ruling party is reported to be in a dominant position.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "16328_yuusei_ex3",
-      "japanese": "{前半|ぜんはん}は{相手|あいて}チームに{優勢|ゆうせい}を{保|たも}たれたが、{後半|こうはん}に{逆転|ぎゃくてん}した。",
+      "japanese": "⟦{前半|ぜんはん}→前半：11875_zenhan⟧⟦は→は：00079_ha⟧⟦{相手|あいて}→相手：01677_aite⟧⟦チーム→チーム：03858_chiimu⟧⟦に→に：00314_ni⟧{優勢|ゆうせい}⟦を→を：00422_wo⟧⟦{保|たも}たれた→保つ：10134_tamotsu⟧⟦が→が：00051_ga⟧、⟦{後半|こうはん}→後半：12555_kouhan⟧⟦に→に：00314_ni⟧⟦{逆転|ぎゃくてん}→逆転：06839_gyakuten⟧⟦した→する：00392_suru⟧。",
       "english": "The opposing team held the advantage in the first half, but we turned it around in the second half.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "COMMON COLLOCATIONS:\n- {優勢|ゆうせい}に{立|た}つ: to gain the upper hand\n- {優勢|ゆうせい}を{保|たも}つ: to maintain an advantage\n- {優勢|ゆうせい}が{伝|つた}えられる: to be reported as dominant\n\nOPPOSITE:\n- {劣勢|れっせい}: inferiority, disadvantage\n\nSIMILAR WORDS:\n- {有利|ゆうり}: advantageous, favorable (broader; used in everyday contexts)\n- {形勢|けいせい}: the state of affairs, how things stand (often with {有利|ゆうり}/{不利|ふり})",
+  "notes": "COMMON COLLOCATIONS:\n- {優勢|ゆうせい}⟦に→に：00314_ni⟧⟦{立|た}つ→立つ：00758_tatsu⟧: to gain the upper hand\n- {優勢|ゆうせい}⟦を→を：00422_wo⟧⟦{保|たも}つ→保つ：10134_tamotsu⟧: to maintain an advantage\n- {優勢|ゆうせい}⟦が→が：00051_ga⟧⟦{伝|つた}えられる→伝える：01220_tsutaeru⟧: to be reported as dominant\n\nSIMILAR WORDS:\n- ⟦{劣勢|れっせい}→劣勢：08647_ressei⟧: inferiority, disadvantage\n- ⟦{有利|ゆうり}→有利：03651_yuuri⟧: advantageous, favorable (broader; used in everyday contexts)\n- ⟦{形勢|けいせい}→形勢：16342_keisei⟧: the state of affairs, how things stand (often with ⟦{有利|ゆうり}→有利：03651_yuuri⟧/⟦{不利|ふり}→不利：03603_furi⟧)",
   "cross_references": [
     {
       "type": "antonym",
@@ -51,11 +51,32 @@
       "reading": "れっせい",
       "headword": "{劣勢|れっせい}",
       "label": "inferiority"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03651_yuuri",
+      "reading": "ゆうり",
+      "headword": "{有利|ゆうり}",
+      "label": "advantageous, favorable (broader"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16342_keisei",
+      "reading": "けいせい",
+      "headword": "{形勢|けいせい}",
+      "label": "the state of affairs, how things stand"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11531_yuui",
+      "reading": "ゆうい",
+      "headword": "{優位|ゆうい}",
+      "label": "superiority, advantage, dominance"
     }
   ],
   "metadata": {
     "created": "2026-03-12T01:24:42Z",
-    "modified": "2026-04-20T08:21:42Z",
+    "modified": "2026-09-02T04:01:44Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

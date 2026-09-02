@@ -15,40 +15,66 @@
   "examples": [
     {
       "id": "21515_shikatsu_ex1",
-      "japanese": "これは{死活|しかつ}{問題|もんだい}だ。",
+      "japanese": "⟦これ→これ：00963_kore⟧⟦は→は：00079_ha⟧{死活|しかつ}⟦{問題|もんだい}→問題：00797_mondai⟧だ。",
       "english": "This is a matter of life and death.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21515_shikatsu_ex2",
-      "japanese": "{中小企業|ちゅうしょうきぎょう}にとって{死活|しかつ}に{関|かか}わる{問題|もんだい}だ。",
+      "japanese": "⟦{中小企業|ちゅうしょうきぎょう}→中小企業：24117_chuushoukigyou⟧⟦にとって→にとって：06803_nitotte⟧{死活|しかつ}⟦に→に：00314_ni⟧⟦{関|かか}わる→関わる：03020_kakawaru⟧⟦{問題|もんだい}→問題：00797_mondai⟧だ。",
       "english": "For small and medium businesses, it is a matter of survival.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21515_shikatsu_ex3",
-      "japanese": "{水|みず}の{確保|かくほ}は{砂漠|さばく}では{死活|しかつ}に{関|かか}わる{重要|じゅうよう}な{課題|かだい}である。",
+      "japanese": "⟦{水|みず}→水：02258_mizu⟧⟦の→の：09472_no⟧⟦{確保|かくほ}→確保：13681_kakuho⟧⟦は→は：00079_ha⟧⟦{砂漠|さばく}→砂漠：09508_sabaku⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧{死活|しかつ}⟦に→に：00314_ni⟧⟦{関|かか}わる→関わる：03020_kakawaru⟧⟦{重要|じゅうよう}→重要：01575_juuyou⟧な⟦{課題|かだい}→課題：00132_kadai⟧⟦である→である：09855_dearu⟧。",
       "english": "Securing water is a critically important issue in the desert — a matter of life and death.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {死|し} (death) + {活|かつ} (life, living). Almost always appears in fixed expressions rather than being used independently.\n\nCOMMON PATTERNS:\n- {死活|しかつ}{問題|もんだい}: matter of life and death; critically important issue\n- {死活|しかつ}に{関|かか}わる: relating to survival; of vital importance\n- {死活|しかつ}を{制|せい}する: to determine life or death; to hold the key to survival\n- {死活|しかつ}{的|てき}に{重要|じゅうよう}: vitally important\n\nUSAGE:\nWhile the literal meaning is 'life and death,' {死活|しかつ}{問題|もんだい} is commonly used figuratively for any issue of critical importance — for a business, an industry, a career, etc. — not just situations involving actual physical danger.\n\nSIMILAR WORDS:\n- {生死|せいし}: life and death — focuses on the literal state of being alive or dead\n- {存亡|そんぼう}: survival or ruin — used for organizations, nations, or systems rather than individuals\n- {生|い}き{死|し}に: life and death — a more colloquial compound with similar meaning",
+  "notes": "Composed of ⟦{死|し}→死：13248_shi⟧ (death) + {活|かつ} (life, living). Almost always appears in fixed expressions rather than being used independently.\n\nCOMMON PATTERNS:\n- {死活|しかつ}⟦{問題|もんだい}→問題：00797_mondai⟧: matter of life and death; critically important issue\n- {死活|しかつ}⟦に→に：00314_ni⟧⟦{関|かか}わる→関わる：03020_kakawaru⟧: relating to survival; of vital importance\n- {死活|しかつ}⟦を→を：00422_wo⟧⟦{制|せい}する→制する：11906_seisuru⟧: to determine life or death; to hold the key to survival\n- {死活|しかつ}⟦{的|てき}→〜的：09839_teki⟧⟦に→に：00314_ni⟧⟦{重要|じゅうよう}→重要：01575_juuyou⟧: vitally important\n\nUSAGE:\nWhile the literal meaning is 'life and death,' {死活|しかつ}⟦{問題|もんだい}→問題：00797_mondai⟧ is commonly used figuratively for any issue of critical importance — for a business, an industry, a career, etc. — not just situations involving actual physical danger.\n\nSIMILAR WORDS:\n- ⟦{生死|せいし}→生死：05565_seishi⟧: life and death — focuses on the literal state of being alive or dead\n- ⟦{存亡|そんぼう}→存亡：05570_sonbou⟧: survival or ruin — used for organizations, nations, or systems rather than individuals\n- {生|い}き{死|し}に: life and death — a more colloquial compound with similar meaning",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05565_seishi",
+      "reading": "せいし",
+      "headword": "{生死|せいし}",
+      "label": "life and death"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05570_sonbou",
+      "reading": "そんぼう",
+      "headword": "{存亡|そんぼう}",
+      "label": "survival or ruin"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["abstract"]
+      "semantic": [
+        "abstract"
+      ]
     },
     "created": "2026-04-02T14:13:35Z",
-    "modified": "2026-04-02T14:13:35Z"
+    "modified": "2026-09-02T04:02:03Z"
   }
 }

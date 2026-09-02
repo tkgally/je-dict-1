@@ -14,30 +14,36 @@
   "examples": [
     {
       "id": "08089_buaisei_ex1",
-      "japanese": "この{仕事|しごと}は{歩合制|ぶあいせい}だ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦は→は：00079_ha⟧{歩合制|ぶあいせい}だ。",
       "english": "This job is commission-based.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "08089_buaisei_ex2",
-      "japanese": "{歩合制|ぶあいせい}の{営業職|えいぎょうしょく}は{成績|せいせき}によって{収入|しゅうにゅう}が{変|か}わる。",
+      "japanese": "{歩合制|ぶあいせい}⟦の→の：09472_no⟧⟦{営業職|えいぎょうしょく}→営業職：19232_eigyoushoku⟧⟦は→は：00079_ha⟧⟦{成績|せいせき}→成績：03379_seiseki⟧⟦によって→によって：06801_niyotte⟧⟦{収入|しゅうにゅう}→収入：03213_shuunyuu⟧⟦が→が：00051_ga⟧⟦{変|か}わる→変わる：00714_kawaru⟧。",
       "english": "In commission-based sales positions, income varies depending on performance.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "08089_buaisei_ex3",
-      "japanese": "{固定給|こていきゅう}と{歩合制|ぶあいせい}を{組|く}み{合|あ}わせた{給与|きゅうよ}{体系|たいけい}もある。",
+      "japanese": "⟦{固定給|こていきゅう}→固定給：18879_koteikyuu⟧⟦と→と：00512_to⟧{歩合制|ぶあいせい}⟦を→を：00422_wo⟧⟦{組|く}み{合|あ}わせた→組み合わせる：04659_kumiawaseru⟧⟦{給与|きゅうよ}→給与：00264_kyuuyo⟧⟦{体系|たいけい}→体系：04487_taikei⟧⟦も→も：00484_mo⟧⟦ある→ある：00006_aru⟧。",
       "english": "Some compensation systems combine fixed salary with commission.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "{歩合制|ぶあいせい} is a commission-based pay system where compensation depends on sales or performance results.\n\nETYMOLOGY:\n{歩合|ぶあい} (percentage/rate) + {制|せい} (system).\n\nCOMMON CONTEXTS:\n- {営業職|えいぎょうしょく}: sales positions\n- {不動産|ふどうさん}: real estate agents\n- {保険|ほけん}{営業|えいぎょう}: insurance sales\n- タクシー{運転手|うんてんしゅ}: taxi drivers\n\nCONTRAST WITH OTHER PAY SYSTEMS:\n- {固定給|こていきゅう}: fixed salary\n- {時給制|じきゅうせい}: hourly wage system\n- {月給制|げっきゅうせい}: monthly salary system\n- {出来高制|できだかせい}: piece-rate system\n- {年俸制|ねんぽうせい}: annual salary system\n\nRELATED TERMS:\n- {歩合|ぶあい}: commission rate, percentage\n- {成果報酬|せいかほうしゅう}: performance-based pay\n- {基本給|きほんきゅう} + {歩合|ぶあい}: base salary plus commission",
+  "notes": "{歩合制|ぶあいせい} is a commission-based pay system where compensation depends on sales or performance results.\n\nETYMOLOGY:\n⟦{歩合|ぶあい}→歩合：17561_buai⟧ (percentage/rate) + ⟦{制|せい}→〜制：30791_sei⟧ (system).\n\nUSAGE:\n- ⟦{営業職|えいぎょうしょく}→営業職：19232_eigyoushoku⟧: sales positions\n- ⟦{不動産|ふどうさん}→不動産：06726_fudousan⟧: real estate agents\n- ⟦{保険|ほけん}→保険：01509_hoken⟧⟦{営業|えいぎょう}→営業：01878_eigyou⟧: insurance sales\n- ⟦タクシー{運転手|うんてんしゅ}→タクシー運転手：28025_takushiiuntenshu⟧: taxi drivers\n\nCONTRAST WITH OTHER PAY SYSTEMS:\n- ⟦{固定給|こていきゅう}→固定給：18879_koteikyuu⟧: fixed salary\n- {時給制|じきゅうせい}: hourly wage system\n- ⟦{月給制|げっきゅうせい}→月給制：28589_gekkyuusei⟧: monthly salary system\n- {出来高制|できだかせい}: piece-rate system\n- {年俸制|ねんぽうせい}: annual salary system\n\nRELATED WORDS:\n- ⟦{歩合|ぶあい}→歩合：17561_buai⟧: commission rate, percentage\n- {成果報酬|せいかほうしゅう}: performance-based pay\n- ⟦{基本給|きほんきゅう}→基本給：21335_kihonkyuu⟧ + ⟦{歩合|ぶあい}→歩合：17561_buai⟧: base salary plus commission",
   "cross_references": [
     {
       "type": "contrast",
@@ -45,16 +51,30 @@
       "reading": "こていきゅう",
       "headword": "{固定給|こていきゅう}",
       "label": "fixed salary"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28589_gekkyuusei",
+      "reading": "げっきゅうせい",
+      "headword": "{月給制|げっきゅうせい}",
+      "label": "monthly salary system"
     }
   ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
-      "semantic": ["business", "employment", "compensation"]
+      "politeness": "plain",
+      "semantic": [
+        "business",
+        "employment",
+        "compensation"
+      ]
     },
     "created": "2026-01-25T01:25:57Z",
-    "modified": "2026-04-20T04:12:15Z"
+    "modified": "2026-09-02T04:01:13Z"
   }
 }

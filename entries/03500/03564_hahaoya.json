@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "USAGE: {母親|ははおや} is a neutral/objective term for 'mother.' It's used when discussing mothers in general or referring to someone else's mother in a neutral way.\n\nFAMILY TERM COMPARISON:\n・⟦{母|はは}→母：00549_haha⟧ - my mother (humble, when speaking to others)\n・{母親|ははおや} - mother (neutral, objective)\n・⟦お{母|かあ}さん→お母さん：02851_okaasan⟧ - mother, mom (familiar, can be used for others' mothers too)\n・⟦ママ→ママ：03155_mama⟧ - mommy (casual)\n\nCOMMON PATTERNS:\n・{母親|ははおや}⟦として→として：06802_toshite⟧ (as a mother)\n・{母親|ははおや}⟦の→の：09472_no⟧⟦{愛|あい}→愛：02370_ai⟧ (mother's love)\n・⟦{片|かた}{親|おや}→片親：27516_kataoya⟧ (single parent)\n・⟦{実|じつ}→実：noentry⟧⟦の→の：09472_no⟧{母親|ははおや} (biological mother)\n\nANTONYM:\n・⟦{父親|ちちおや}→父親：03469_chichioya⟧ (father)",
+  "notes": "USAGE: {母親|ははおや} is a neutral/objective term for 'mother.' It's used when discussing mothers in general or referring to someone else's mother in a neutral way.\n\nFAMILY TERM COMPARISON:\n- ⟦{母|はは}→母：00549_haha⟧ - my mother (humble, when speaking to others)\n- {母親|ははおや} - mother (neutral, objective)\n- ⟦お{母|かあ}さん→お母さん：02851_okaasan⟧ - mother, mom (familiar, can be used for others' mothers too)\n- ⟦ママ→ママ：03155_mama⟧ - mommy (casual)\n\nCOMMON PATTERNS:\n- {母親|ははおや}⟦として→として：06802_toshite⟧ (as a mother)\n- {母親|ははおや}⟦の→の：09472_no⟧⟦{愛|あい}→愛：02370_ai⟧ (mother's love)\n- ⟦{片|かた}{親|おや}→片親：27516_kataoya⟧ (single parent)\n- ⟦{実|じつ}→実：noentry⟧⟦の→の：09472_no⟧{母親|ははおや} (biological mother)\n\nSIMILAR WORDS:\n- ⟦{父親|ちちおや}→父親：03469_chichioya⟧ (father)",
   "cross_references": [
     {
       "type": "antonym",
@@ -78,11 +78,32 @@
       "headword": "{母|はは}",
       "label": "my mother (humble)",
       "target_id": "00549_haha"
+    },
+    {
+      "type": "related",
+      "target_id": "00806_ryoushin",
+      "reading": "りょうしん",
+      "headword": "{両親|りょうしん}",
+      "label": "parents"
+    },
+    {
+      "type": "related",
+      "target_id": "10246_ofukuro",
+      "reading": "おふくろ",
+      "headword": "おふくろ",
+      "label": "mother (informal)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15688_bosei",
+      "reading": "ぼせい",
+      "headword": "{母性|ぼせい}",
+      "label": "motherhood"
     }
   ],
   "metadata": {
     "created": "2026-01-12T11:38:00Z",
-    "modified": "2026-06-12T18:28:11Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

@@ -3,7 +3,7 @@
   "headword": "{高身長|こうしんちょう}",
   "reading": "こうしんちょう",
   "romaji": "koushinchou",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "tall stature; tall height",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26602_koushinchou_ex1",
-      "japanese": "{彼|かれ}は{高身長|こうしんちょう}でスタイルがいい。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{高身長|こうしんちょう}⟦で→で：00502_de⟧⟦スタイル→スタイル：03851_sutairu⟧⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧。",
       "english": "He is tall and has a good build.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26602_koushinchou_ex2",
-      "japanese": "{高身長|こうしんちょう}の{女性|じょせい}はモデルに{向|む}いている。",
+      "japanese": "{高身長|こうしんちょう}⟦の→の：09472_no⟧⟦{女性|じょせい}→女性：01617_josei⟧⟦は→は：00079_ha⟧⟦モデル→モデル：05112_moderu⟧⟦に→に：00314_ni⟧⟦{向|む}いている→向く：02304_muku⟧。",
       "english": "Tall women are well-suited for modeling.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26602_koushinchou_ex3",
-      "japanese": "バスケットボールでは{高身長|こうしんちょう}が{有利|ゆうり}だと{言|い}われるが、スピードも{大切|たいせつ}だ。",
+      "japanese": "⟦バスケットボール→バスケットボール：04724_basukettobooru⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧{高身長|こうしんちょう}⟦が→が：00051_ga⟧⟦{有利|ゆうり}→有利：03651_yuuri⟧だ⟦と→と：00512_to⟧⟦{言|い}われる→言う：00515_iu⟧⟦が→が：00051_ga⟧、⟦スピード→スピード：11048_supiido⟧⟦も→も：00484_mo⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧だ。",
       "english": "They say being tall is an advantage in basketball, but speed is important too.",
       "sense_numbers": [
         1
@@ -44,8 +44,23 @@
       "notes": null
     }
   ],
-  "notes": "Combines {高|こう} (high/tall) with {身長|しんちょう} (body height). Commonly used as a descriptor in dating profiles, fashion, and sports discussions. In Japan, where the average adult male height is around 170 cm and female around 158 cm, this term generally implies heights significantly above these averages.\n\nCOMMON COLLOCATIONS:\n- {高身長|こうしんちょう}イケメン: tall handsome man\n- {高身長|こうしんちょう}モデル: tall model\n- {高身長|こうしんちょう}{女子|じょし}: tall woman/girl\n- {高身長|こうしんちょう}を{活|い}かす: to take advantage of one's height\n\nSIMILAR EXPRESSIONS:\n- {背|せ}が{高|たか}い: tall (everyday expression using an adjective)\n- {長身|ちょうしん}: tall stature (a more literary synonym)\n- {低身長|ていしんちょう}: short stature (the opposite)",
-  "cross_references": [],
+  "notes": "Combines ⟦{高|こう}→高〜：03951_kou⟧ (high/tall) with ⟦{身長|しんちょう}→身長：03263_shinchou⟧ (body height). Commonly used as a descriptor in dating profiles, fashion, and sports discussions. In Japan, where the average adult male height is around 170 cm and female around 158 cm, this term generally implies heights significantly above these averages.\n\nCOMMON COLLOCATIONS:\n- {高身長|こうしんちょう}⟦イケメン→イケメン：04761_ikemen⟧: tall handsome man\n- {高身長|こうしんちょう}⟦モデル→モデル：05112_moderu⟧: tall model\n- {高身長|こうしんちょう}⟦{女子|じょし}→女子：03350_joshi⟧: tall woman/girl\n- {高身長|こうしんちょう}⟦を→を：00422_wo⟧⟦{活|い}かす→活かす：10422_ikasu⟧: to take advantage of one's height\n\nSIMILAR WORDS:\n- ⟦{背|せ}→背：02907_se⟧⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧: tall (everyday expression using an adjective)\n- ⟦{長身|ちょうしん}→長身：14558_choushin⟧: tall stature (a more literary synonym)\n- ⟦{低身長|ていしんちょう}→低身長：26205_teishinchou⟧: short stature (the opposite)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14558_choushin",
+      "reading": "ちょうしん",
+      "headword": "{長身|ちょうしん}",
+      "label": "tall stature"
+    },
+    {
+      "type": "antonym",
+      "target_id": "26205_teishinchou",
+      "reading": "ていしんちょう",
+      "headword": "{低身長|ていしんちょう}",
+      "label": "short stature"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -62,6 +77,6 @@
       "domain": []
     },
     "created": "2026-05-03T14:24:06Z",
-    "modified": "2026-05-03T14:24:06Z"
+    "modified": "2026-09-02T04:02:27Z"
   }
 }

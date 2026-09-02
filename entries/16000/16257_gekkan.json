@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "16257_gekkan_ex1",
-      "japanese": "この{雑誌|ざっし}は{月刊|げっかん}です。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{雑誌|ざっし}→雑誌：00686_zasshi⟧⟦は→は：00079_ha⟧{月刊|げっかん}です。",
       "english": "This magazine is a monthly publication.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "16257_gekkan_ex2",
-      "japanese": "{月刊|げっかん}{誌|し}を{定期|ていき}{購読|こうどく}している。",
+      "japanese": "{月刊|げっかん}{誌|し}⟦を→を：00422_wo⟧⟦{定期|ていき}{購読|こうどく}→定期購読：16116_teikikoudoku⟧⟦している→する：00392_suru⟧。",
       "english": "I have a regular subscription to a monthly magazine.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "16257_gekkan_ex3",
-      "japanese": "その{文芸|ぶんげい}{月刊|げっかん}{誌|し}は{毎月|まいつき}{十五日|じゅうごにち}に{発売|はつばい}される。",
+      "japanese": "⟦その→その：00993_sono⟧⟦{文芸|ぶんげい}→文芸：12990_bungei⟧{月刊|げっかん}{誌|し}⟦は→は：00079_ha⟧⟦{毎月|まいつき}→毎月：00732_maitsuki⟧⟦{十五日|じゅうごにち}→十五日：27633_juugonichi⟧⟦に→に：00314_ni⟧⟦{発売|はつばい}→発売：04315_hatsubai⟧⟦される→する：00392_suru⟧。",
       "english": "That monthly literary magazine goes on sale on the fifteenth of every month.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "{月刊|げっかん} is composed of {月|げつ} (month) + {刊|かん} (publish, edition).\n\nCOMMON COLLOCATIONS:\n- {月刊|げっかん}{誌|し}: monthly magazine\n- {月刊|げっかん}{紙|し}: monthly newspaper\n\nRELATED WORDS:\n- {週刊|しゅうかん}: weekly publication\n- {日刊|にっかん}: daily publication\n- {季刊|きかん}: quarterly publication\n- {年刊|ねんかん}: annual publication\n\nUSAGE: Often used as a prefix in magazine titles, e.g., {月刊|げっかん}○○.",
+  "notes": "{月刊|げっかん} is composed of {月|げつ} (month) + {刊|かん} (publish, edition).\n\nCOMMON COLLOCATIONS:\n- {月刊|げっかん}{誌|し}: monthly magazine\n- {月刊|げっかん}{紙|し}: monthly newspaper\n\nRELATED WORDS:\n- ⟦{週刊|しゅうかん}→週刊：14373_shuukan⟧: weekly publication\n- ⟦{日刊|にっかん}→日刊：19258_nikkan⟧: daily publication\n- ⟦{季刊|きかん}→季刊：02787_kikan⟧: quarterly publication\n- {年刊|ねんかん}: annual publication\n\nUSAGE: Often used as a prefix in magazine titles, e.g., {月刊|げっかん}○○.",
   "cross_references": [
     {
       "type": "related",
@@ -52,11 +52,32 @@
       "reading": "しゅうかん",
       "headword": "{週刊|しゅうかん}",
       "label": "weekly publication"
+    },
+    {
+      "type": "related",
+      "target_id": "19258_nikkan",
+      "reading": "にっかん",
+      "headword": "{日刊|にっかん}",
+      "label": "daily publication"
+    },
+    {
+      "type": "related",
+      "target_id": "02787_kikan",
+      "reading": "きかん",
+      "headword": "{季刊|きかん}",
+      "label": "quarterly publication"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26653_kakushuukan",
+      "reading": "かくしゅうかん",
+      "headword": "{隔週刊|かくしゅうかん}",
+      "label": "biweekly publication"
     }
   ],
   "metadata": {
     "created": "2026-03-11T10:31:47Z",
-    "modified": "2026-05-03T07:09:48Z",
+    "modified": "2026-09-02T04:01:44Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

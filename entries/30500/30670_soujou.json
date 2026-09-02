@@ -3,7 +3,7 @@
   "headword": "{奏上|そうじょう}",
   "reading": "そうじょう",
   "romaji": "soujou",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "reporting to the emperor or a deity; respectful address",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30670_soujou_ex1",
-      "japanese": "{神前|しんぜん}で{祝詞|のりと}を{奏上|そうじょう}する。",
+      "japanese": "{神前|しんぜん}⟦で→で：00502_de⟧⟦{祝詞|のりと}→祝詞：30669_norito⟧⟦を→を：00422_wo⟧{奏上|そうじょう}⟦する→する：00392_suru⟧。",
       "english": "To offer the ritual prayer before the deity.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30670_soujou_ex2",
-      "japanese": "{天皇|てんのう}に{調査|ちょうさ}の{結果|けっか}を{奏上|そうじょう}した。",
+      "japanese": "⟦{天皇|てんのう}→天皇：04546_tennou⟧⟦に→に：00314_ni⟧⟦{調査|ちょうさ}→調査：03489_chousa⟧⟦の→の：09472_no⟧⟦{結果|けっか}→結果：02486_kekka⟧⟦を→を：00422_wo⟧{奏上|そうじょう}⟦した→する：00392_suru⟧。",
       "english": "He reported the results of the investigation to the emperor.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30670_soujou_ex3",
-      "japanese": "この{絵巻|えまき}には、{大臣|だいじん}が{国|くに}の{現状|げんじょう}を{奏上|そうじょう}する{場面|ばめん}が{描|えが}かれている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{絵巻|えまき}→絵巻：14098_emaki⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧、⟦{大臣|だいじん}→大臣：03417_daijin⟧⟦が→が：00051_ga⟧⟦{国|くに}→国：02204_kuni⟧⟦の→の：09472_no⟧⟦{現状|げんじょう}→現状：02721_genjou⟧⟦を→を：00422_wo⟧{奏上|そうじょう}⟦する→する：00392_suru⟧⟦{場面|ばめん}→場面：03702_bamen⟧⟦が→が：00051_ga⟧⟦{描|えが}かれている→描く：02013_egaku⟧。",
       "english": "This picture scroll depicts a scene in which a minister reports the state of the country to the emperor.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "An extremely formal word with no everyday use; a learner will meet it at shrines, in historical drama, and in writing about the imperial court.\n\nCOMMON COLLOCATIONS:\n- {祝詞|のりと}を{奏上|そうじょう}する: to offer a Shinto prayer to the deity\n- {天皇|てんのう}に{奏上|そうじょう}する: to report to the emperor\n\nSIMILAR WORDS:\n- {上奏|じょうそう}: memorial to the throne — near-synonym, more common in political and legal history\n- {報告|ほうこく}: report — the neutral everyday word for telling a superior something",
+  "notes": "An extremely formal word with no everyday use; a learner will meet it at shrines, in historical drama, and in writing about the imperial court.\n\nCOMMON COLLOCATIONS:\n- ⟦{祝詞|のりと}→祝詞：30669_norito⟧⟦を→を：00422_wo⟧{奏上|そうじょう}⟦する→する：00392_suru⟧: to offer a Shinto prayer to the deity\n- ⟦{天皇|てんのう}→天皇：04546_tennou⟧⟦に→に：00314_ni⟧{奏上|そうじょう}⟦する→する：00392_suru⟧: to report to the emperor\n\nSIMILAR WORDS:\n- ⟦{上奏|じょうそう}→上奏：30675_jousou⟧: memorial to the throne — near-synonym, more common in political and legal history\n- ⟦{報告|ほうこく}→報告：03618_houkoku⟧: report — the neutral everyday word for telling a superior something",
   "cross_references": [
     {
       "type": "related",
@@ -56,6 +56,13 @@
       "type": "synonym",
       "reading": "じょうそう",
       "headword": "{上奏|じょうそう}"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03618_houkoku",
+      "reading": "ほうこく",
+      "headword": "{報告|ほうこく}",
+      "label": "report"
     }
   ],
   "schema_version": "2.0",
@@ -67,16 +74,17 @@
         "verb-suru"
       ],
       "formality": "formal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "communication",
         "history"
       ],
       "domain": [],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-08-15T12:20:22Z",
-    "modified": "2026-08-15T12:20:22Z"
+    "modified": "2026-09-02T04:02:41Z"
   },
   "conjugation": {
     "type": "suru",

@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "09080_rouren_ex1",
-      "japanese": "{老練|ろうれん}な{政治家|せいじか}だ。",
+      "japanese": "{老練|ろうれん}な⟦{政治家|せいじか}→政治家：03084_seijika⟧だ。",
       "english": "He's a seasoned politician.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "09080_rouren_ex2",
-      "japanese": "{老練|ろうれん}な{手腕|しゅわん}で{危機|きき}を{乗|の}り{越|こ}えた。",
+      "japanese": "{老練|ろうれん}な⟦{手腕|しゅわん}→手腕：07466_shuwan⟧⟦で→で：00502_de⟧⟦{危機|きき}→危機：11798_kiki⟧⟦を→を：00422_wo⟧⟦{乗|の}り{越|こ}えた→乗り越える：04620_norikoeru⟧。",
       "english": "He overcame the crisis with his experienced skills.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "09080_rouren_ex3",
-      "japanese": "{老練|ろうれん}な{交渉|こうしょう}{術|じゅつ}を{持|も}つベテラン{弁護士|べんごし}。",
+      "japanese": "{老練|ろうれん}な⟦{交渉|こうしょう}→交渉：02727_koushou⟧⟦{術|じゅつ}→術：14265_jutsu⟧⟦を→を：00422_wo⟧⟦{持|も}つ→持つ：00478_motsu⟧⟦ベテラン→ベテラン：11121_beteran⟧⟦{弁護士|べんごし}→弁護士：03150_bengoshi⟧。",
       "english": "A veteran lawyer with seasoned negotiation skills.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{老練|ろうれん} describes someone with extensive experience and refined skills.\n\nWORD FORMATION:\n- {老|ろう} (old, experienced) + {練|れん} (train, refine)\n- Literally: refined through age/experience\n\nNUANCE:\n{老練|ろうれん} emphasizes:\n- Years of accumulated experience\n- Skills honed through practice\n- Wisdom gained from experience\n- Reliable, dependable expertise\n\nCOMMON COLLOCATIONS:\n- {老練|ろうれん}な{政治家|せいじか}: seasoned politician\n- {老練|ろうれん}な{手腕|しゅわん}: experienced skill\n- {老練|ろうれん}な{技|わざ}: veteran technique\n\nRELATED WORDS:\n- {熟練|じゅくれん}: skilled, proficient\n- {円熟|えんじゅく}: mature, mellow\n- {練達|れんたつ}: mastery, proficiency",
+  "notes": "{老練|ろうれん} describes someone with extensive experience and refined skills.\n\nFORMS:\n- {老|ろう} (old, experienced) + {練|れん} (train, refine)\n- Literally: refined through age/experience\n\nUSAGE:\n{老練|ろうれん} emphasizes:\n- Years of accumulated experience\n- Skills honed through practice\n- Wisdom gained from experience\n- Reliable, dependable expertise\n\nCOMMON COLLOCATIONS:\n- {老練|ろうれん}な⟦{政治家|せいじか}→政治家：03084_seijika⟧: seasoned politician\n- {老練|ろうれん}な⟦{手腕|しゅわん}→手腕：07466_shuwan⟧: experienced skill\n- {老練|ろうれん}な⟦{技|わざ}→技：02172_waza⟧: veteran technique\n\nRELATED WORDS:\n- ⟦{熟練|じゅくれん}→熟練：09081_jukuren⟧: skilled, proficient\n- ⟦{円熟|えんじゅく}→円熟：09112_enjuku⟧: mature, mellow\n- ⟦{練達|れんたつ}→練達：09113_rentatsu⟧: mastery, proficiency",
   "cross_references": [
     {
       "type": "synonym",
@@ -51,11 +51,32 @@
       "reading": "じゅくれん",
       "headword": "{熟練|じゅくれん}",
       "label": "skilled, proficient"
+    },
+    {
+      "type": "related",
+      "target_id": "09112_enjuku",
+      "reading": "えんじゅく",
+      "headword": "{円熟|えんじゅく}",
+      "label": "mature, mellow"
+    },
+    {
+      "type": "related",
+      "target_id": "09113_rentatsu",
+      "reading": "れんたつ",
+      "headword": "{練達|れんたつ}",
+      "label": "mastery, proficiency"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09078_kakedashi",
+      "reading": "かけだし",
+      "headword": "{駆|か}け{出|だ}し",
+      "label": "novice"
     }
   ],
   "metadata": {
     "created": "2026-01-31T02:29:38Z",
-    "modified": "2026-08-12T21:25:53Z",
+    "modified": "2026-09-02T04:01:17Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "10939_sanpuru_ex1",
-      "japanese": "サンプルを{送|おく}ってください。",
+      "japanese": "サンプル⟦を→を：00422_wo⟧⟦{送|おく}って→送る：00742_okuru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please send me a sample.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "10939_sanpuru_ex2",
-      "japanese": "{新|あたら}しい{化粧品|けしょうひん}のサンプルをもらった。",
+      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦{化粧品|けしょうひん}→化粧品：05119_keshouhin⟧⟦の→の：09472_no⟧サンプル⟦を→を：00422_wo⟧⟦もらった→もらう：00520_morau⟧。",
       "english": "I received a sample of the new cosmetics.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "10939_sanpuru_ex3",
-      "japanese": "{製品|せいひん}のサンプルを{確認|かくにん}してから{注文|ちゅうもん}することにした。",
+      "japanese": "⟦{製品|せいひん}→製品：01445_seihin⟧⟦の→の：09472_no⟧サンプル⟦を→を：00422_wo⟧⟦{確認|かくにん}して→確認する：25332_kakuninsuru⟧⟦から→から：00504_kara⟧⟦{注文|ちゅうもん}する→注文する：21390_chuumon⟧ことにした。",
       "english": "I decided to check the product sample before placing an order.",
       "notes": null,
       "has_audio": false,
@@ -44,17 +44,45 @@
       ]
     }
   ],
-  "notes": "COMMON COLLOCATIONS:\n- {無料|むりょう}サンプル: free sample\n- サンプルを{配|くば}る: to hand out samples\n- サンプルを{取|と}る: to take a sample\n- サンプル{品|ひん}: sample item\n- {食品|しょくひん}サンプル: food sample (also refers to the realistic plastic food displays in restaurant windows)\n\nUSAGE:\nIn Japan, {食品|しょくひん}サンプル also refers to the wax or plastic food models displayed in restaurant windows to show what dishes look like. These models are a famous aspect of Japanese food culture.",
+  "notes": "COMMON COLLOCATIONS:\n- ⟦{無料|むりょう}→無料：01662_muryou⟧サンプル: free sample\n- サンプル⟦を→を：00422_wo⟧⟦{配|くば}る→配る：03921_kubaru⟧: to hand out samples\n- サンプル⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧: to take a sample\n- サンプル⟦{品|ひん}→品：03712_hin⟧: sample item\n- ⟦{食品|しょくひん}→食品：03247_shokuhin⟧サンプル: food sample (also refers to the realistic plastic food displays in restaurant windows)\n\nUSAGE:\nIn Japan, ⟦{食品|しょくひん}→食品：03247_shokuhin⟧サンプル also refers to the wax or plastic food models displayed in restaurant windows to show what dishes look like. These models are a famous aspect of Japanese food culture.",
   "cross_references": [
     {
       "type": "related",
       "reading": "みほん",
       "target_id": "00279_mihon"
+    },
+    {
+      "type": "related",
+      "target_id": "09820_otameshi",
+      "reading": "おためし",
+      "headword": "お{試|ため}し",
+      "label": "trial"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13174_hyouhon",
+      "reading": "ひょうほん",
+      "headword": "{標本|ひょうほん}",
+      "label": "specimen, sample"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16767_shikyouhin",
+      "reading": "しきょうひん",
+      "headword": "{試供品|しきょうひん}",
+      "label": "free sample"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21508_shiryou",
+      "reading": "しりょう",
+      "headword": "{試料|しりょう}",
+      "label": "sample"
     }
   ],
   "metadata": {
     "created": "2026-02-11T19:09:08Z",
-    "modified": "2026-05-10T14:08:28Z",
+    "modified": "2026-09-02T04:01:23Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

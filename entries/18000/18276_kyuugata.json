@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "18276_kyuugata_ex1",
-      "japanese": "これは{旧型|きゅうがた}のモデルだ。",
+      "japanese": "⟦これ→これ：00963_kore⟧⟦は→は：00079_ha⟧{旧型|きゅうがた}⟦の→の：09472_no⟧⟦モデル→モデル：05112_moderu⟧だ。",
       "english": "This is an old model.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "18276_kyuugata_ex2",
-      "japanese": "{旧型|きゅうがた}のスマホはバッテリーの{持|も}ちが{悪|わる}い。",
+      "japanese": "{旧型|きゅうがた}⟦の→の：09472_no⟧⟦スマホ→スマホ：04721_sumaho⟧⟦は→は：00079_ha⟧⟦バッテリー→バッテリー：04425_batterii⟧⟦の→の：09472_no⟧{持|も}ち⟦が→が：00051_ga⟧⟦{悪|わる}い→悪い：00908_warui⟧。",
       "english": "Old model smartphones have poor battery life.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "18276_kyuugata_ex3",
-      "japanese": "{旧型|きゅうがた}の{機器|きき}を{新型|しんがた}に{入|い}れ{替|か}える{計画|けいかく}が{進|すす}んでいる。",
+      "japanese": "{旧型|きゅうがた}⟦の→の：09472_no⟧⟦{機器|きき}→機器：13180_kiki⟧⟦を→を：00422_wo⟧⟦{新型|しんがた}→新型：19411_shingata⟧⟦に→に：00314_ni⟧⟦{入|い}れ{替|か}える→入れ替える：08227_irekaeru⟧⟦{計画|けいかく}→計画：01172_keikaku⟧⟦が→が：00051_ga⟧⟦{進|すす}んでいる→進む：01225_susumu⟧。",
       "english": "Plans to replace old equipment with new models are underway.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA compound of {旧|きゅう} (old, former) + {型|がた} (model, type). Often used as a noun modifier with の: {旧型|きゅうがた}の～. The opposite is {新型|しんがた} (new model).\n\nCOMMON COLLOCATIONS:\n- {旧型|きゅうがた}の{車|くるま} (an old model car)\n- {旧型|きゅうがた}から{新型|しんがた}に{買|か}い{替|か}える (to upgrade from the old model to the new model)\n\nSIMILAR WORDS:\n- {新型|しんがた}: new model — the antonym\n- {型落|かたお}ち: discontinued model — specifically a model no longer in production, often sold at a discount",
+  "notes": "USAGE:\nA compound of ⟦{旧|きゅう}→旧：19346_kyuu⟧ (old, former) + {型|がた} (model, type). Often used as a noun modifier with ⟦の→の：09472_no⟧: {旧型|きゅうがた}⟦の→の：09472_no⟧～. The opposite is ⟦{新型|しんがた}→新型：19411_shingata⟧ (new model).\n\nCOMMON COLLOCATIONS:\n- {旧型|きゅうがた}⟦の→の：09472_no⟧⟦{車|くるま}→車：00516_kuruma⟧ (an old model car)\n- {旧型|きゅうがた}⟦から→から：00504_kara⟧⟦{新型|しんがた}→新型：19411_shingata⟧⟦に→に：00314_ni⟧⟦{買|か}い{替|か}える→買い替える：19456_kaikaeru⟧ (to upgrade from the old model to the new model)\n\nSIMILAR WORDS:\n- ⟦{新型|しんがた}→新型：19411_shingata⟧: new model — the antonym\n- ⟦{型落|かたお}ち→型落ち：16064_kataochi⟧: discontinued model — specifically a model no longer in production, often sold at a discount",
   "cross_references": [
     {
       "type": "antonym",
@@ -52,11 +52,32 @@
       "reading": "しんがた",
       "headword": "{新型|しんがた}",
       "label": "new model"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16064_kataochi",
+      "reading": "かたおち",
+      "headword": "{型落|かたお}ち",
+      "label": "discontinued model"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22165_kairyougata",
+      "reading": "かいりょうがた",
+      "headword": "{改良|かいりょう}{型|がた}",
+      "label": "improved model"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23959_juuraihin",
+      "reading": "じゅうらいひん",
+      "headword": "{従来品|じゅうらいひん}",
+      "label": "previous model"
     }
   ],
   "metadata": {
     "created": "2026-03-21T01:12:17Z",
-    "modified": "2026-05-08T08:12:00Z",
+    "modified": "2026-09-02T04:01:51Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

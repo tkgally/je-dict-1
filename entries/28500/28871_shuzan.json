@@ -9,13 +9,13 @@
     {
       "sense_number": 1,
       "gloss": "abacus calculation; soroban arithmetic",
-      "explanation": "The art and skill of calculating with a {そろばん} (abacus). Often refers to the school subject or after-school class where children learn this skill."
+      "explanation": "The art and skill of calculating with a そろばん (abacus). Often refers to the school subject or after-school class where children learn this skill."
     }
   ],
   "examples": [
     {
       "id": "28871_shuzan_ex1",
-      "japanese": "{珠算|しゅざん}を{習|なら}う。",
+      "japanese": "{珠算|しゅざん}⟦を→を：00422_wo⟧⟦{習|なら}う→習う：00479_narau⟧。",
       "english": "To learn abacus.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28871_shuzan_ex2",
-      "japanese": "{彼女|かのじょ}は{珠算|しゅざん}{二級|にきゅう}を{持|も}っている。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧{珠算|しゅざん}{二級|にきゅう}⟦を→を：00422_wo⟧⟦{持|も}っている→持つ：00478_motsu⟧。",
       "english": "She has a second-rank abacus certification.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28871_shuzan_ex3",
-      "japanese": "{子供|こども}の{頃|ころ}に{珠算|しゅざん}を{学|まな}んだおかげで、{今|いま}でも{暗算|あんざん}が{得意|とくい}だ。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧⟦の→の：09472_no⟧{頃|ころ}⟦に→に：00314_ni⟧{珠算|しゅざん}⟦を→を：00422_wo⟧⟦{学|まな}んだ→学ぶ：01987_manabu⟧⟦おかげ→おかげ：01362_okage⟧で、⟦{今|いま}→今：00945_ima⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧⟦{暗算|あんざん}→暗算：15852_anzan⟧⟦が→が：00051_ga⟧⟦{得意|とくい}→得意：03455_tokui⟧だ。",
       "english": "Thanks to learning abacus as a child, I'm still good at mental arithmetic.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "{珠|しゅ} refers to the beads of the abacus; {算|さん} means 'calculation.'\n\nCOMMON COLLOCATIONS:\n- {珠算|しゅざん}{教室|きょうしつ}: abacus class/school\n- {珠算|しゅざん}{検定|けんてい}: abacus proficiency exam\n- {珠算|しゅざん}{大会|たいかい}: abacus competition\n\nCULTURAL CONTEXT:\nThe abacus remains a popular after-school activity in Japan, valued for building number sense and mental-calculation speed. Proficiency is measured by ranked levels ({級|きゅう} and {段|だん}), the same grading system used in martial arts. Advanced students can perform large calculations mentally by visualizing the abacus.\n\nSIMILAR WORDS:\n- そろばん: the abacus itself (the physical device) — more common in everyday speech\n- {暗算|あんざん}: mental arithmetic — calculation without any tool",
+  "notes": "{珠|しゅ} refers to the beads of the abacus; {算|さん} means 'calculation.'\n\nCOMMON COLLOCATIONS:\n- {珠算|しゅざん}⟦{教室|きょうしつ}→教室：00794_kyoushitsu⟧: abacus class/school\n- {珠算|しゅざん}⟦{検定|けんてい}→検定：13131_kentei⟧: abacus proficiency exam\n- {珠算|しゅざん}⟦{大会|たいかい}→大会：03386_taikai⟧: abacus competition\n\nCULTURAL NOTE:\nThe abacus remains a popular after-school activity in Japan, valued for building number sense and mental-calculation speed. Proficiency is measured by ranked levels (⟦{級|きゅう}→級：28171_kyuu⟧ and ⟦{段|だん}→段：03424_dan⟧), the same grading system used in martial arts. Advanced students can perform large calculations mentally by visualizing the abacus.\n\nSIMILAR WORDS:\n- そろばん: the abacus itself (the physical device) — more common in everyday speech\n- ⟦{暗算|あんざん}→暗算：15852_anzan⟧: mental arithmetic — calculation without any tool",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04400_soroban",
+      "reading": "そろばん",
+      "headword": "{算盤|そろばん}",
+      "label": "the abacus itself"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15852_anzan",
+      "reading": "あんざん",
+      "headword": "{暗算|あんざん}",
+      "label": "mental arithmetic"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +69,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "education",
         "number"
@@ -63,6 +79,6 @@
       ]
     },
     "created": "2026-06-06T04:04:02Z",
-    "modified": "2026-08-08T18:34:17Z"
+    "modified": "2026-09-02T04:02:35Z"
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "15347_maruta_ex1",
-      "japanese": "{丸太|まるた}を{運|はこ}ぶ。",
+      "japanese": "{丸太|まるた}⟦を→を：00422_wo⟧⟦{運|はこ}ぶ→運ぶ：01088_hakobu⟧。",
       "english": "To carry logs.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "15347_maruta_ex2",
-      "japanese": "{川|かわ}に{丸太|まるた}が{流|なが}れてきた。",
+      "japanese": "⟦{川|かわ}→川：02186_kawa⟧⟦に→に：00314_ni⟧{丸太|まるた}⟦が→が：00051_ga⟧⟦{流|なが}れて→流れる：01969_nagareru⟧きた。",
       "english": "A log came floating down the river.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "15347_maruta_ex3",
-      "japanese": "キャンプ{場|じょう}に{丸太|まるた}で{作|つく}ったベンチがあった。",
+      "japanese": "⟦キャンプ→キャンプ：03837_kyanpu⟧{場|じょう}⟦に→に：00314_ni⟧{丸太|まるた}⟦で→で：00502_de⟧⟦{作|つく}った→作る：00481_tsukuru⟧⟦ベンチ→ベンチ：00013_benchi⟧⟦が→が：00051_ga⟧⟦あった→ある：00006_aru⟧。",
       "english": "There was a bench made from logs at the campground.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,40 @@
       ]
     }
   ],
-  "notes": "{丸太|まるた} refers to a log — a section of tree trunk that has been cut but retains its round, natural shape. Not yet processed into boards or lumber.\n\nWORD FORMATION:\n{丸|まる} (round) + {太|た} (thick). Describes the round, thick shape of an uncut tree trunk.\n\nCOMMON COLLOCATIONS:\n- {丸太小屋|まるたごや}: log cabin\n- {丸太|まるた}を{切|き}る: to cut logs\n- {丸太|まるた}を{組|く}む: to assemble logs\n- {丸太|まるた}を{運|はこ}ぶ: to carry/transport logs\n- {丸太|まるた}{橋|ばし}: log bridge\n\nCONTEXTS:\nAppears in forestry, construction, camping, and nature contexts. {丸太小屋|まるたごや} (log cabin) is probably the most commonly encountered compound.\n\nSIMILAR WORDS:\n- {木材|もくざい}: lumber, timber (processed wood)\n- {材木|ざいもく}: building timber\n- {丸太|まるた}: raw, unprocessed log",
-  "cross_references": [],
+  "notes": "{丸太|まるた} refers to a log — a section of tree trunk that has been cut but retains its round, natural shape. Not yet processed into boards or lumber.\n\nFORMS:\n⟦{丸|まる}→丸：02167_maru⟧ (round) + {太|た} (thick). Describes the round, thick shape of an uncut tree trunk.\n\nCOMMON COLLOCATIONS:\n- {丸太小屋|まるたごや}: log cabin\n- {丸太|まるた}⟦を→を：00422_wo⟧⟦{切|き}る→切る：02693_kiru⟧: to cut logs\n- {丸太|まるた}⟦を→を：00422_wo⟧⟦{組|く}む→組む：02050_kumu⟧: to assemble logs\n- {丸太|まるた}⟦を→を：00422_wo⟧⟦{運|はこ}ぶ→運ぶ：01088_hakobu⟧: to carry/transport logs\n- {丸太|まるた}{橋|ばし}: log bridge\n\nUSAGE:\nAppears in forestry, construction, camping, and nature contexts. {丸太小屋|まるたごや} (log cabin) is probably the most commonly encountered compound.\n\nSIMILAR WORDS:\n- ⟦{木材|もくざい}→木材：13017_mokuzai⟧: lumber, timber (processed wood)\n- ⟦{材木|ざいもく}→材木：04190_zaimoku⟧: building timber\n- {丸太|まるた}: raw, unprocessed log",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13017_mokuzai",
+      "reading": "もくざい",
+      "headword": "{木材|もくざい}",
+      "label": "lumber, timber"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04190_zaimoku",
+      "reading": "ざいもく",
+      "headword": "{材木|ざいもく}",
+      "label": "building timber"
+    },
+    {
+      "type": "related",
+      "target_id": "16812_seizai",
+      "reading": "せいざい",
+      "headword": "{製材|せいざい}",
+      "label": "lumbering"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28391_kakuzai",
+      "reading": "かくざい",
+      "headword": "{角材|かくざい}",
+      "label": "square timber"
+    }
+  ],
   "metadata": {
     "created": "2026-03-06T09:54:55Z",
-    "modified": "2026-07-16T07:06:35Z",
+    "modified": "2026-09-02T04:01:40Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -56,6 +85,7 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "nature"
       ]

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30703_dedashi_ex1",
-      "japanese": "{出|で}だしが{良|よ}い。",
+      "japanese": "{出|で}だし⟦が→が：00051_ga⟧⟦{良|よ}い→良い：02350_yoi⟧。",
       "english": "It's off to a good start.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30703_dedashi_ex2",
-      "japanese": "この{小説|しょうせつ}は{出|で}だしが{印象的|いんしょうてき}だ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{小説|しょうせつ}→小説：01434_shousetsu⟧⟦は→は：00079_ha⟧{出|で}だし⟦が→が：00051_ga⟧⟦{印象的|いんしょうてき}→印象的：15547_inshouteki⟧だ。",
       "english": "This novel has a striking opening.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30703_dedashi_ex3",
-      "japanese": "{出|で}だしでつまずいたが、{後半|こうはん}で{順位|じゅんい}を{取|と}り{戻|もど}した。",
+      "japanese": "{出|で}だし⟦で→で：00502_de⟧⟦つまずいた→つまずく：06970_tsumazuku⟧⟦が→が：00051_ga⟧、⟦{後半|こうはん}→後半：12555_kouhan⟧⟦で→で：00502_de⟧⟦{順位|じゅんい}→順位：14679_juni⟧⟦を→を：00422_wo⟧⟦{取|と}り{戻|もど}した→取り戻す：04223_torimodosu⟧。",
       "english": "He stumbled at the start, but got his position back in the second half.",
       "sense_numbers": [
         1
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "The noun form of {出|で}る (to come out) plus だし, literally \"the coming-out part.\"\n\nCOMMON COLLOCATIONS:\n- {出|で}だしが{好調|こうちょう}だ: to get off to a strong start\n- {出|で}だしでつまずく: to stumble at the start\n- {出|で}だしの{一行|いちぎょう}: the opening line\n- {出|で}だしから{飛|と}ばす: to go all out from the start\n\nSIMILAR WORDS:\n- {冒頭|ぼうとう}: the opening — more formal, and used mainly of texts, speeches, and meetings\n- スタート: start — the moment of setting off, rather than the opening stretch\n- {書|か}き{出|だ}し: opening lines — specifically the first words of a piece of writing",
+  "notes": "The noun form of ⟦{出|で}る→出る：00513_deru⟧ (to come out) plus だし, literally \"the coming-out part.\"\n\nCOMMON COLLOCATIONS:\n- {出|で}だし⟦が→が：00051_ga⟧⟦{好調|こうちょう}→好調：12209_kouchou⟧だ: to get off to a strong start\n- {出|で}だし⟦で→で：00502_de⟧⟦つまずく→つまずく：06970_tsumazuku⟧: to stumble at the start\n- {出|で}だし⟦の→の：09472_no⟧{一行|いちぎょう}: the opening line\n- {出|で}だし⟦から→から：00504_kara⟧⟦{飛|と}ばす→飛ばす：02373_tobasu⟧: to go all out from the start\n\nSIMILAR WORDS:\n- ⟦{冒頭|ぼうとう}→冒頭：11725_boutou⟧: the opening — more formal, and used mainly of texts, speeches, and meetings\n- ⟦スタート→スタート：11053_sutaato⟧: start — the moment of setting off, rather than the opening stretch\n- ⟦{書|か}き{出|だ}し→書き出し：19293_kakidashi⟧: opening lines — specifically the first words of a piece of writing",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11725_boutou",
+      "reading": "ぼうとう",
+      "headword": "{冒頭|ぼうとう}",
+      "label": "the opening"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11053_sutaato",
+      "reading": "すたーと",
+      "headword": "スタート",
+      "label": "start"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19293_kakidashi",
+      "reading": "かきだし",
+      "headword": "{書|か}き{出|だ}し",
+      "label": "opening lines"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28049_suberidashi",
+      "reading": "すべりだし",
+      "headword": "{滑|すべ}り{出|だ}し",
+      "label": "start"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +83,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "time-general",
         "abstract"
@@ -61,6 +91,6 @@
       "domain": []
     },
     "created": "2026-08-20T02:40:41Z",
-    "modified": "2026-08-20T02:40:41Z"
+    "modified": "2026-09-02T04:02:41Z"
   }
 }

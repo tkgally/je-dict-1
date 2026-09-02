@@ -14,41 +14,59 @@
   "examples": [
     {
       "id": "09624_keikoutou_ex1",
-      "japanese": "{蛍光灯|けいこうとう}が{切|き}れた。",
+      "japanese": "{蛍光灯|けいこうとう}⟦が→が：00051_ga⟧⟦{切|き}れた→切れる：01936_kireru⟧。",
       "english": "The fluorescent light burned out.",
       "has_audio": false,
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "notes": null
     },
     {
       "id": "09624_keikoutou_ex2",
-      "japanese": "{蛍光灯|けいこうとう}を{交換|こうかん}する。",
+      "japanese": "{蛍光灯|けいこうとう}⟦を→を：00422_wo⟧⟦{交換|こうかん}→交換：02746_koukan⟧⟦する→する：00392_suru⟧。",
       "english": "To replace the fluorescent light.",
       "has_audio": false,
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "notes": null
     },
     {
       "id": "09624_keikoutou_ex3",
-      "japanese": "{蛍光灯|けいこうとう}からLEDに{替|か}える{家庭|かてい}が{増|ふ}えている。",
+      "japanese": "{蛍光灯|けいこうとう}⟦から→から：00504_kara⟧LED⟦に→に：00314_ni⟧⟦{替|か}える→替える：13399_kaeru⟧⟦{家庭|かてい}→家庭：12315_katei⟧⟦が→が：00051_ga⟧⟦{増|ふ}えている→増える：01183_fueru⟧。",
       "english": "More households are switching from fluorescent lights to LEDs.",
       "has_audio": false,
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "notes": null
     }
   ],
-  "notes": "{蛍光灯|けいこうとう} is the standard term for fluorescent lighting.\n\nCOMMON PATTERNS:\n- {蛍光灯|けいこうとう}が{切|き}れる: the fluorescent light burns out\n- {蛍光灯|けいこうとう}を{交換|こうかん}する: to replace the fluorescent light\n- {蛍光灯|けいこうとう}の{光|ひかり}: fluorescent lighting\n\nUSAGE NOTE:\nStill widely used in Japan, though being gradually replaced by LED lighting. The tubes come in various shapes including {丸型|まるがた} (circular) and {直管|ちょっかん} (straight tube).",
-  "cross_references": [],
+  "notes": "{蛍光灯|けいこうとう} is the standard term for fluorescent lighting.\n\nCOMMON PATTERNS:\n- {蛍光灯|けいこうとう}⟦が→が：00051_ga⟧⟦{切|き}れる→切れる：01936_kireru⟧: the fluorescent light burns out\n- {蛍光灯|けいこうとう}⟦を→を：00422_wo⟧⟦{交換|こうかん}→交換：02746_koukan⟧⟦する→する：00392_suru⟧: to replace the fluorescent light\n- {蛍光灯|けいこうとう}⟦の→の：09472_no⟧⟦{光|ひかり}→光：01707_hikari⟧: fluorescent lighting\n\nUSAGE:\nStill widely used in Japan, though being gradually replaced by LED lighting. The tubes come in various shapes including {丸型|まるがた} (circular) and {直管|ちょっかん} (straight tube).",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23585_hakkoudaioodo",
+      "reading": "はっこうだいおーど",
+      "headword": "{発光|はっこう}ダイオード",
+      "label": "light-emitting diode"
+    }
+  ],
   "metadata": {
     "created": "2026-02-03T02:37:23Z",
-    "modified": "2026-02-03T02:37:23Z",
+    "modified": "2026-09-02T04:01:18Z",
     "ai_model": "opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["electronics"]
+      "semantic": [
+        "electronics"
+      ]
     }
   }
 }

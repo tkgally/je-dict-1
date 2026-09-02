@@ -15,44 +15,100 @@
   "examples": [
     {
       "id": "18860_shohouyaku_ex1",
-      "japanese": "{処方薬|しょほうやく}をもらいに{薬局|やっきょく}に{行|い}く。",
+      "japanese": "{処方薬|しょほうやく}⟦を→を：00422_wo⟧⟦もらい→もらう：00520_morau⟧⟦に→に：00314_ni⟧⟦{薬局|やっきょく}→薬局：01069_yakkyoku⟧⟦に→に：00314_ni⟧⟦{行|い}く→行く：00119_iku⟧。",
       "english": "I'm going to the pharmacy to pick up my prescription.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "18860_shohouyaku_ex2",
-      "japanese": "この{薬|くすり}は{処方薬|しょほうやく}なので、{医師|いし}の{処方箋|しょほうせん}が{必要|ひつよう}です。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{薬|くすり}→薬：00793_kusuri⟧⟦は→は：00079_ha⟧{処方薬|しょほうやく}な⟦の→の：09472_no⟧で、⟦{医師|いし}→医師：11851_ishi⟧⟦の→の：09472_no⟧⟦{処方箋|しょほうせん}→処方箋：06496_shohousen⟧⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧です。",
       "english": "This medicine is a prescription drug, so you need a doctor's prescription.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "18860_shohouyaku_ex3",
-      "japanese": "{処方薬|しょほうやく}は{用法|ようほう}・{用量|ようりょう}を{守|まも}って{正|ただ}しく{服用|ふくよう}してください。",
+      "japanese": "{処方薬|しょほうやく}⟦は→は：00079_ha⟧⟦{用法|ようほう}→用法：13541_youhou⟧・⟦{用量|ようりょう}→用量：18412_youryou⟧⟦を→を：00422_wo⟧⟦{守|まも}って→守る：01986_mamoru⟧⟦{正|ただ}しく→正しい：00893_tadashii⟧⟦{服用|ふくよう}して→服用する：21605_fukuyousuru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please take prescription medicine correctly, following the prescribed dosage and instructions.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "In Japan, prescription medicines are dispensed at {調剤薬局|ちょうざいやっきょく} (dispensing pharmacies) separate from the hospital. The doctor writes a {処方箋|しょほうせん} (prescription), which the patient takes to a pharmacy. Contrasts with {市販薬|しはんやく} (over-the-counter medicine) and {一般用医薬品|いっぱんよういやくひん} (general-use pharmaceuticals). The verb pattern is {処方薬|しょほうやく}を{処方|しょほう}する or {処方薬|しょほうやく}を{出|だ}す (to prescribe medication).",
+  "notes": "In Japan, prescription medicines are dispensed at ⟦{調剤薬局|ちょうざいやっきょく}→調剤薬局：29876_chouzaiyakkyoku⟧ (dispensing pharmacies) separate from the hospital. The doctor writes a ⟦{処方箋|しょほうせん}→処方箋：06496_shohousen⟧ (prescription), which the patient takes to a pharmacy. Contrasts with ⟦{市販薬|しはんやく}→市販薬：09834_shihanyaku⟧ (over-the-counter medicine) and {一般用医薬品|いっぱんよういやくひん} (general-use pharmaceuticals). The verb pattern is {処方薬|しょほうやく}⟦を→を：00422_wo⟧⟦{処方|しょほう}→処方：05976_shohou⟧⟦する→する：00392_suru⟧ or {処方薬|しょほうやく}⟦を→を：00422_wo⟧⟦{出|だ}す→出す：01087_dasu⟧ (to prescribe medication).",
   "synonyms": [],
   "antonyms": [],
   "related": [],
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "09711_zutsuuyaku",
+      "reading": "ずつうやく",
+      "headword": "{頭痛薬|ずつうやく}",
+      "label": "headache medicine"
+    },
+    {
+      "type": "related",
+      "target_id": "09713_genetsuzai",
+      "reading": "げねつざい",
+      "headword": "{解熱剤|げねつざい}",
+      "label": "fever reducer"
+    },
+    {
+      "type": "related",
+      "target_id": "09834_shihanyaku",
+      "reading": "しはんやく",
+      "headword": "{市販薬|しはんやく}",
+      "label": "over-the-counter medicine"
+    },
+    {
+      "type": "related",
+      "target_id": "24532_kouatsuyaku",
+      "reading": "こうあつやく",
+      "headword": "{降圧薬|こうあつやく}",
+      "label": "antihypertensive drug"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25994_jouyouyaku",
+      "reading": "じょうようやく",
+      "headword": "{常用薬|じょうようやく}",
+      "label": "regular medication"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26175_tonpukuyaku",
+      "reading": "とんぷくやく",
+      "headword": "{頓服薬|とんぷくやく}",
+      "label": "medicine taken as needed"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["medical"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "medical"
+      ]
     },
     "created": "2026-03-23T05:35:09Z",
-    "modified": "2026-03-23T05:35:09Z"
+    "modified": "2026-09-02T04:01:53Z"
   }
 }

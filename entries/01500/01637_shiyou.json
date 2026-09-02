@@ -114,7 +114,7 @@
     },
     {
       "id": "01637_shiyou_ex2",
-      "japanese": "⟦{携帯|けいたい}{電話|でんわ}→携帯電話：04433_keitaidenwa⟧⟦の→の：09472_no⟧{使用|しよう}⟦は→は：00079_ha⟧⟦{禁止|きんし}→禁止：02643_kinshi⟧されています。",
+      "japanese": "⟦{携帯|けいたい}{電話|でんわ}→携帯電話：04433_keitaidenwa⟧⟦の→の：09472_no⟧{使用|しよう}⟦は→は：00079_ha⟧⟦{禁止|きんし}→禁止：02643_kinshi⟧⟦されています→する：00392_suru⟧。",
       "english": "The use of mobile phones is prohibited.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "01637_shiyou_ex3",
-      "japanese": "⟦この→この：00962_kono⟧⟦ソフト→ソフト：01532_sofuto⟧⟦を→を：00422_wo⟧{使用|しよう}しています。",
+      "japanese": "⟦この→この：00962_kono⟧⟦ソフト→ソフト：01532_sofuto⟧⟦を→を：00422_wo⟧{使用|しよう}⟦しています→する：00392_suru⟧。",
       "english": "I am using this software.",
       "notes": null,
       "has_audio": false,
@@ -144,7 +144,7 @@
     },
     {
       "id": "01637_shiyou_ex5",
-      "japanese": "⟦この→この：00962_kono⟧⟦{部屋|へや}→部屋：00507_heya⟧⟦は→は：00079_ha⟧⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦で→で：00502_de⟧{使用|しよう}{中|ちゅう}ですので、お⟦{待|ま}ち→待つ：00469_matsu⟧⟦ください→ください：02899_kudasai⟧。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{部屋|へや}→部屋：00507_heya⟧⟦は→は：00079_ha⟧⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦で→で：00502_de⟧{使用|しよう}⟦{中|ちゅう}→〜中：09840_chuu⟧です⟦の→の：09472_no⟧で、お⟦{待|ま}ち→待つ：00469_matsu⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "This room is currently in use for a meeting, so please wait.",
       "notes": null,
       "has_audio": false,
@@ -153,7 +153,7 @@
       ]
     }
   ],
-  "notes": "{使用|しよう} is a formal noun/suru verb meaning use.\n\nTRANSITIVITY (as suru verb):\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- Pattern: Xを{使用|しよう}する (use X)\n\nCOMMON PATTERNS:\n- {使用|しよう}⟦{方法|ほうほう}→方法：03621_houhou⟧ (method of use)\n- {使用|しよう}⟦{禁止|きんし}→禁止：02643_kinshi⟧ (use prohibited)\n- {使用|しよう}⟦{中|ちゅう}→中：09840_chuu⟧ (in use)\n- {使用|しよう}⟦{料|りょう}→料：noentry⟧ (usage fee)\n- {使用|しよう}⟦{説明書|せつめいしょ}→説明書：19368_setsumeisho⟧ (user manual)\n\nSIMILAR WORDS:\n- ⟦{使|つか}う→使う：00473_tsukau⟧: to use (casual verb)\n- {使用|しよう}する: to use (formal)\n- ⟦{利用|りよう}→利用：01752_riyou⟧する: to utilize, make use of (broader scope)",
+  "notes": "{使用|しよう} is a formal noun/suru verb meaning use.\n\nTRANSITIVITY (as suru verb):\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- Pattern: X⟦を→を：00422_wo⟧{使用|しよう}⟦する→する：00392_suru⟧ (use X)\n\nCOMMON PATTERNS:\n- {使用|しよう}⟦{方法|ほうほう}→方法：03621_houhou⟧ (method of use)\n- {使用|しよう}⟦{禁止|きんし}→禁止：02643_kinshi⟧ (use prohibited)\n- {使用|しよう}⟦{中|ちゅう}→中：09840_chuu⟧ (in use)\n- {使用|しよう}⟦{料|りょう}→料：noentry⟧ (usage fee)\n- {使用|しよう}⟦{説明書|せつめいしょ}→説明書：19368_setsumeisho⟧ (user manual)\n\nSIMILAR WORDS:\n- ⟦{使|つか}う→使う：00473_tsukau⟧: to use (casual verb)\n- {使用|しよう}⟦する→する：00392_suru⟧: to use (formal)\n- ⟦{利用|りよう}→利用：01752_riyou⟧⟦する→する：00392_suru⟧: to utilize, make use of (broader scope)",
   "cross_references": [
     {
       "type": "synonym",
@@ -161,11 +161,46 @@
       "reading": "りよう",
       "headword": "{利用|りよう}",
       "label": "utilize (broader)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00473_tsukau",
+      "reading": "つかう",
+      "headword": "{使|つか}う",
+      "label": "to use"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21735_riyousuru",
+      "reading": "りようする",
+      "headword": "{利用|りよう}する",
+      "label": "to utilize, make use of"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02620_katsuyou",
+      "reading": "かつよう",
+      "headword": "{活用|かつよう}",
+      "label": "conjugation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21424_katsuyousuru",
+      "reading": "かつようする",
+      "headword": "{活用|かつよう}する",
+      "label": "to utilize"
+    },
+    {
+      "type": "homophone",
+      "target_id": "23966_shiyou",
+      "reading": "しよう",
+      "headword": "{試用|しよう}",
+      "label": "trial use"
     }
   ],
   "metadata": {
     "created": "2026-01-09T11:41:04Z",
-    "modified": "2026-05-16T14:16:05Z",
+    "modified": "2026-09-02T04:01:00Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

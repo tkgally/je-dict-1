@@ -3,7 +3,7 @@
   "id": "14333_gyakusatsu",
   "headword": "{虐殺|ぎゃくさつ}",
   "reading": "ぎゃくさつ",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "massacre; slaughter; genocide",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "14333_gyakusatsu_ex1",
-      "japanese": "{罪|つみ}のない{市民|しみん}が{虐殺|ぎゃくさつ}された。",
+      "japanese": "⟦{罪|つみ}→罪：03532_tsumi⟧⟦の→の：09472_no⟧⟦ない→ない：01118_nai⟧⟦{市民|しみん}→市民：01426_shimin⟧⟦が→が：00051_ga⟧{虐殺|ぎゃくさつ}⟦された→する：00392_suru⟧。",
       "english": "Innocent civilians were massacred.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "14333_gyakusatsu_ex2",
-      "japanese": "{戦争|せんそう}による{虐殺|ぎゃくさつ}の{歴史|れきし}を{忘|わす}れてはならない。",
+      "japanese": "⟦{戦争|せんそう}→戦争：01450_sensou⟧⟦による→による：28349_niyoru⟧{虐殺|ぎゃくさつ}⟦の→の：09472_no⟧⟦{歴史|れきし}→歴史：02267_rekishi⟧⟦を→を：00422_wo⟧⟦{忘|わす}れて→忘れる：00474_wasureru⟧⟦は→は：00079_ha⟧⟦ならない→なる：01970_naru⟧。",
       "english": "We must not forget the history of wartime massacres.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "14333_gyakusatsu_ex3",
-      "japanese": "{国際|こくさい}{社会|しゃかい}は{大量|たいりょう}{虐殺|ぎゃくさつ}を{防|ふせ}ぐための{仕組|しく}みを{整|ととの}えるべきだ。",
+      "japanese": "⟦{国際|こくさい}→国際：01406_kokusai⟧⟦{社会|しゃかい}→社会：01427_shakai⟧⟦は→は：00079_ha⟧⟦{大量|たいりょう}→大量：03112_tairyou⟧{虐殺|ぎゃくさつ}⟦を→を：00422_wo⟧⟦{防|ふせ}ぐ→防ぐ：02409_fusegu⟧⟦ため→ため：01145_tame⟧⟦の→の：09472_no⟧⟦{仕組|しく}み→仕組み：07168_shikumi⟧⟦を→を：00422_wo⟧⟦{整|ととの}える→整える：04259_totonoeru⟧べきだ。",
       "english": "The international community should establish mechanisms to prevent mass slaughter.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "Used as a suru-verb: {虐殺|ぎゃくさつ}する (to massacre, to slaughter).\n\nCOMMON COLLOCATIONS:\n- {大量|たいりょう}{虐殺|ぎゃくさつ} (mass slaughter, genocide)\n- {民間人|みんかんじん}の{虐殺|ぎゃくさつ} (massacre of civilians)\n- {虐殺|ぎゃくさつ}を{行|おこな}う (to carry out a massacre)\n- {虐殺|ぎゃくさつ}{事件|じけん} (massacre incident)\n\nUSAGE NOTE:\nA strong, serious word used in historical, political, and news contexts. The component kanji {虐|ぎゃく} means \"to oppress\" and {殺|さつ} means \"to kill.\"",
+  "notes": "Used as a suru-verb: {虐殺|ぎゃくさつ}⟦する→する：00392_suru⟧ (to massacre, to slaughter).\n\nCOMMON COLLOCATIONS:\n- ⟦{大量|たいりょう}→大量：03112_tairyou⟧{虐殺|ぎゃくさつ} (mass slaughter, genocide)\n- {民間人|みんかんじん}⟦の→の：09472_no⟧{虐殺|ぎゃくさつ} (massacre of civilians)\n- {虐殺|ぎゃくさつ}⟦を→を：00422_wo⟧⟦{行|おこな}う→行う：01238_okonau⟧ (to carry out a massacre)\n- {虐殺|ぎゃくさつ}⟦{事件|じけん}→事件：01568_jiken⟧ (massacre incident)\n\nUSAGE:\nA strong, serious word used in historical, political, and news contexts. The component kanji {虐|ぎゃく} means \"to oppress\" and {殺|さつ} means \"to kill.\"",
   "cross_references": [
     {
       "type": "related",
@@ -142,11 +142,32 @@
       "reading": "さつがい",
       "headword": "{殺害|さつがい}",
       "label": "murder, killing"
+    },
+    {
+      "type": "related",
+      "target_id": "15165_minagoroshi",
+      "reading": "みなごろし",
+      "headword": "{皆殺|みなごろ}し",
+      "label": "massacre"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23634_tairyousatsujin",
+      "reading": "たいりょうさつじん",
+      "headword": "{大量殺人|たいりょうさつじん}",
+      "label": "mass murder"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26265_satsuriku",
+      "reading": "さつりく",
+      "headword": "{殺戮|さつりく}",
+      "label": "massacre"
     }
   ],
   "metadata": {
     "created": "2026-02-28T12:10:05Z",
-    "modified": "2026-03-29T03:08:18Z",
+    "modified": "2026-09-02T04:01:36Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "23910_meika_ex1",
-      "japanese": "{彼|かれ}は{名家|めいか}の{出|で}だ。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{名家|めいか}⟦の→の：09472_no⟧{出|で}だ。",
       "english": "He comes from a distinguished family.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "23910_meika_ex2",
-      "japanese": "{地元|じもと}の{名家|めいか}として{知|し}られている。",
+      "japanese": "⟦{地元|じもと}→地元：09941_jimoto⟧⟦の→の：09472_no⟧{名家|めいか}⟦として→として：06802_toshite⟧⟦{知|し}られている→知る：00458_shiru⟧。",
       "english": "They are known as a distinguished family in the area.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "23910_meika_ex3",
-      "japanese": "この{町|まち}には{江戸|えど}{時代|じだい}からの{名家|めいか}がいくつもある。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{町|まち}→町：00613_machi⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{江戸|えど}{時代|じだい}→江戸時代：20431_edojidai⟧⟦から→から：00504_kara⟧⟦の→の：09472_no⟧{名家|めいか}⟦が→が：00051_ga⟧いくつ⟦も→も：00484_mo⟧⟦ある→ある：00006_aru⟧。",
       "english": "There are several distinguished families in this town that go back to the Edo period.",
       "sense_numbers": [
         1
@@ -45,7 +45,7 @@
     },
     {
       "id": "23910_meika_ex4",
-      "japanese": "{名家|めいか}の{生|う}まれであることを、{本人|ほんにん}はあまり{口|くち}にしない。",
+      "japanese": "{名家|めいか}⟦の→の：09472_no⟧⟦{生|う}まれ→生まれ：01867_umare⟧⟦である→である：09855_dearu⟧こと⟦を→を：00422_wo⟧、⟦{本人|ほんにん}→本人：03627_honnin⟧⟦は→は：00079_ha⟧⟦あまり→あまり：00604_amari⟧⟦{口|くち}にしない→口にする：21471_kuchinisuru⟧。",
       "english": "He rarely speaks about the fact that he was born into a distinguished family.",
       "sense_numbers": [
         1
@@ -54,8 +54,38 @@
       "notes": null
     }
   ],
-  "notes": "Refers to a prestigious household with long-standing social standing, often with inherited status or a hereditary role.\n\nUSAGE:\n- Often paired with {出|で} (origin): {名家|めいか}の{出|で} = \"of distinguished family origin.\"\n- Commonly used in historical and biographical writing, and occasionally in everyday speech to describe someone's background.\n- Can refer to families distinguished in a specific field, e.g., a {茶道|さどう}の{名家|めいか} (renowned tea ceremony family).\n\nCOMMON COLLOCATIONS:\n- {名家|めいか}の{出|で}: (someone) of distinguished family origin\n- {名家|めいか}の{子息|しそく}: the son of a distinguished family\n- {名家|めいか}に{生|う}まれる: to be born into a distinguished family\n- {政治|せいじ}の{名家|めいか}: a distinguished political family\n- {地元|じもと}の{名家|めいか}: a prominent local family\n\nSIMILAR WORDS:\n- {旧家|きゅうか}: an old established family — emphasizes length of history more than prestige.\n- {名門|めいもん}: prestigious family or institution — also used for schools, clubs, etc.; broader in application than {名家|めいか}.\n- {家柄|いえがら}: family lineage or pedigree — abstract quality, not a family itself.\n- {名士|めいし}: a distinguished person — refers to an individual rather than a family.",
+  "notes": "Refers to a prestigious household with long-standing social standing, often with inherited status or a hereditary role.\n\nUSAGE:\n- Often paired with {出|で} (origin): {名家|めいか}⟦の→の：09472_no⟧{出|で} = \"of distinguished family origin.\"\n- Commonly used in historical and biographical writing, and occasionally in everyday speech to describe someone's background.\n- Can refer to families distinguished in a specific field, e.g., a ⟦{茶道|さどう}→茶道：04451_sadou⟧⟦の→の：09472_no⟧{名家|めいか} (renowned tea ceremony family).\n\nCOMMON COLLOCATIONS:\n- {名家|めいか}⟦の→の：09472_no⟧{出|で}: (someone) of distinguished family origin\n- {名家|めいか}⟦の→の：09472_no⟧⟦{子息|しそく}→子息：28912_shisoku⟧: the son of a distinguished family\n- {名家|めいか}⟦に→に：00314_ni⟧⟦{生|う}まれる→生まれる：00905_umareru⟧: to be born into a distinguished family\n- ⟦{政治|せいじ}→政治：01629_seiji⟧⟦の→の：09472_no⟧{名家|めいか}: a distinguished political family\n- ⟦{地元|じもと}→地元：09941_jimoto⟧⟦の→の：09472_no⟧{名家|めいか}: a prominent local family\n\nSIMILAR WORDS:\n- ⟦{旧家|きゅうか}→旧家：21512_kyuuka⟧: an old established family — emphasizes length of history more than prestige.\n- ⟦{名門|めいもん}→名門：11955_meimon⟧: prestigious family or institution — also used for schools, clubs, etc.; broader in application than {名家|めいか}.\n- ⟦{家柄|いえがら}→家柄：16695_iegara⟧: family lineage or pedigree — abstract quality, not a family itself.\n- ⟦{名士|めいし}→名士：21860_meishi⟧: a distinguished person — refers to an individual rather than a family.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21512_kyuuka",
+      "reading": "きゅうか",
+      "headword": "{旧家|きゅうか}",
+      "label": "an old established family"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11955_meimon",
+      "reading": "めいもん",
+      "headword": "{名門|めいもん}",
+      "label": "prestigious family or institution"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16695_iegara",
+      "reading": "いえがら",
+      "headword": "{家柄|いえがら}",
+      "label": "family lineage or pedigree"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21860_meishi",
+      "reading": "めいし",
+      "headword": "{名士|めいし}",
+      "label": "a distinguished person"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -70,6 +100,6 @@
       ]
     },
     "created": "2026-04-15T12:15:03Z",
-    "modified": "2026-08-02T18:32:34Z"
+    "modified": "2026-09-02T04:02:15Z"
   }
 }

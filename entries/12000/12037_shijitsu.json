@@ -15,42 +15,76 @@
   "examples": [
     {
       "id": "12037_shijitsu_ex1",
-      "japanese": "この{映画|えいが}は{史実|しじつ}に{基|もと}づいている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{映画|えいが}→映画：02273_eiga⟧⟦は→は：00079_ha⟧{史実|しじつ}⟦に→に：00314_ni⟧⟦{基|もと}づいている→基づく：02315_motozuku⟧。",
       "english": "This film is based on historical fact.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12037_shijitsu_ex2",
-      "japanese": "{史実|しじつ}と{伝説|でんせつ}を{区別|くべつ}するのは{難|むずか}しい。",
+      "japanese": "{史実|しじつ}⟦と→と：00512_to⟧⟦{伝説|でんせつ}→伝説：11446_densetsu⟧⟦を→を：00422_wo⟧⟦{区別|くべつ}する→区別する：26970_kubetsusuru⟧⟦の→の：09472_no⟧⟦は→は：00079_ha⟧⟦{難|むずか}しい→難しい：00517_muzukashii⟧。",
       "english": "It is difficult to distinguish historical fact from legend.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12037_shijitsu_ex3",
-      "japanese": "{大河|たいが}ドラマは{史実|しじつ}とフィクションを{織|お}り{交|ま}ぜて{描|えが}かれている。",
+      "japanese": "⟦{大河|たいが}→大河：12197_taiga⟧⟦ドラマ→ドラマ：03867_dorama⟧⟦は→は：00079_ha⟧{史実|しじつ}⟦と→と：00512_to⟧⟦フィクション→フィクション：11005_fikushon⟧⟦を→を：00422_wo⟧{織|お}り{交|ま}ぜて⟦{描|えが}かれている→描く：02013_egaku⟧。",
       "english": "The historical drama series is depicted with a blend of historical fact and fiction.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{史実|しじつ} refers to events that actually occurred in history, as distinct from legend, myth, or fictional embellishment.\n\nUSAGE:\nCommonly appears in discussions of historical dramas ({大河|たいが}ドラマ), historical novels, and debates about historical accuracy.\n\nCOMMON COLLOCATIONS:\n- {史実|しじつ}に{基|もと}づく: based on historical fact\n- {史実|しじつ}と{異|こと}なる: to differ from historical fact\n- {史実|しじつ}に{忠実|ちゅうじつ}: faithful to historical fact\n- {史実|しじつ}を{歪|ゆが}める: to distort historical fact\n\nRELATED WORDS:\n- {事実|じじつ}: fact (general, not limited to history)\n- {実話|じつわ}: true story (narrative-focused)\n- {伝説|でんせつ}: legend (often contrasted with {史実|しじつ})",
-  "cross_references": [],
+  "notes": "{史実|しじつ} refers to events that actually occurred in history, as distinct from legend, myth, or fictional embellishment.\n\nUSAGE:\nCommonly appears in discussions of historical dramas (⟦{大河|たいが}→大河：12197_taiga⟧⟦ドラマ→ドラマ：03867_dorama⟧), historical novels, and debates about historical accuracy.\n\nCOMMON COLLOCATIONS:\n- {史実|しじつ}⟦に→に：00314_ni⟧⟦{基|もと}づく→基づく：02315_motozuku⟧: based on historical fact\n- {史実|しじつ}⟦と→と：00512_to⟧⟦{異|こと}なる→異なる：02101_kotonaru⟧: to differ from historical fact\n- {史実|しじつ}⟦に→に：00314_ni⟧⟦{忠実|ちゅうじつ}→忠実：12570_chuujitsu⟧: faithful to historical fact\n- {史実|しじつ}⟦を→を：00422_wo⟧⟦{歪|ゆが}める→歪める：28422_yugameru⟧: to distort historical fact\n\nRELATED WORDS:\n- ⟦{事実|じじつ}→事実：03271_jijitsu⟧: fact (general, not limited to history)\n- ⟦{実話|じつわ}→実話：15897_jitsuwa⟧: true story (narrative-focused)\n- ⟦{伝説|でんせつ}→伝説：11446_densetsu⟧: legend (often contrasted with {史実|しじつ})",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "03271_jijitsu",
+      "reading": "じじつ",
+      "headword": "{事実|じじつ}",
+      "label": "fact"
+    },
+    {
+      "type": "related",
+      "target_id": "15897_jitsuwa",
+      "reading": "じつわ",
+      "headword": "{実話|じつわ}",
+      "label": "true story"
+    },
+    {
+      "type": "related",
+      "target_id": "11446_densetsu",
+      "reading": "でんせつ",
+      "headword": "{伝説|でんせつ}",
+      "label": "legend"
+    }
+  ],
   "metadata": {
     "created": "2026-02-19T13:34:23Z",
-    "modified": "2026-04-04T01:54:53Z",
+    "modified": "2026-09-02T04:01:27Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "domain": ["academic"],
-      "semantic": ["history"]
+      "domain": [
+        "academic"
+      ],
+      "semantic": [
+        "history"
+      ]
     }
   }
 }

@@ -3,7 +3,7 @@
   "headword": "{毒殺|どくさつ}",
   "reading": "どくさつ",
   "romaji": "dokusatsu",
-  "part_of_speech": "noun / verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "poisoning (to death); killing by poison",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "23180_dokusatsu_ex1",
-      "japanese": "{王|おう}は{毒殺|どくさつ}された。",
+      "japanese": "⟦{王|おう}→王：19353_ou⟧⟦は→は：00079_ha⟧{毒殺|どくさつ}⟦された→する：00392_suru⟧。",
       "english": "The king was poisoned to death.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "23180_dokusatsu_ex2",
-      "japanese": "{毒殺|どくさつ}{事件|じけん}の{犯人|はんにん}が{逮捕|たいほ}された。",
+      "japanese": "{毒殺|どくさつ}⟦{事件|じけん}→事件：01568_jiken⟧⟦の→の：09472_no⟧⟦{犯人|はんにん}→犯人：03572_hannin⟧⟦が→が：00051_ga⟧⟦{逮捕|たいほ}→逮捕：03397_taiho⟧⟦された→する：00392_suru⟧。",
       "english": "The perpetrator of the poisoning was arrested.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "23180_dokusatsu_ex3",
-      "japanese": "ミステリー{小説|しょうせつ}では{毒殺|どくさつ}がよく{使|つか}われるトリックだ。",
+      "japanese": "⟦ミステリー→ミステリー：22731_misuterii⟧⟦{小説|しょうせつ}→小説：01434_shousetsu⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧{毒殺|どくさつ}⟦が→が：00051_ga⟧⟦よく→よく：00601_yoku⟧⟦{使|つか}われる→使う：00473_tsukau⟧⟦トリック→トリック：25890_torikku⟧だ。",
       "english": "Poisoning is a trick often used in mystery novels.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {毒|どく} (poison) and {殺|さつ} (killing). Refers specifically to killing by poison, as opposed to other methods. Frequently encountered in historical accounts (court intrigues, assassinations), crime fiction, and news reports.\n\nCOMMON COLLOCATIONS:\n- {毒殺|どくさつ}する: to poison (someone) to death\n- {毒殺|どくさつ}{事件|じけん}: poisoning case\n- {毒殺|どくさつ}{未遂|みすい}: attempted poisoning\n- {毒殺|どくさつ}された: was poisoned to death\n\nSIMILAR WORDS:\n- {中毒|ちゅうどく}: poisoning — refers to the medical condition of being poisoned, not necessarily intentional killing\n- {暗殺|あんさつ}: assassination — killing by any method, typically for political reasons\n- {殺害|さつがい}: killing, murder — general term for killing, regardless of method",
+  "notes": "Composed of ⟦{毒|どく}→毒：10052_doku⟧ (poison) and {殺|さつ} (killing). Refers specifically to killing by poison, as opposed to other methods. Frequently encountered in historical accounts (court intrigues, assassinations), crime fiction, and news reports.\n\nCOMMON COLLOCATIONS:\n- {毒殺|どくさつ}⟦する→する：00392_suru⟧: to poison (someone) to death\n- {毒殺|どくさつ}⟦{事件|じけん}→事件：01568_jiken⟧: poisoning case\n- {毒殺|どくさつ}⟦{未遂|みすい}→未遂：13085_misui⟧: attempted poisoning\n- {毒殺|どくさつ}⟦された→する：00392_suru⟧: was poisoned to death\n\nSIMILAR WORDS:\n- ⟦{中毒|ちゅうどく}→中毒：16558_chuudoku⟧: poisoning — refers to the medical condition of being poisoned, not necessarily intentional killing\n- ⟦{暗殺|あんさつ}→暗殺：10142_ansatsu⟧: assassination — killing by any method, typically for political reasons\n- ⟦{殺害|さつがい}→殺害：13226_satsugai⟧: killing, murder — general term for killing, regardless of method",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16558_chuudoku",
+      "reading": "ちゅうどく",
+      "headword": "{中毒|ちゅうどく}",
+      "label": "poisoning"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10142_ansatsu",
+      "reading": "あんさつ",
+      "headword": "{暗殺|あんさつ}",
+      "label": "assassination"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13226_satsugai",
+      "reading": "さつがい",
+      "headword": "{殺害|さつがい}",
+      "label": "killing, murder"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,7 +84,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-08T21:22:17Z",
-    "modified": "2026-07-31T18:20:34Z"
+    "modified": "2026-09-02T04:02:11Z"
   },
   "conjugation": {
     "type": "suru",

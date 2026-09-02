@@ -109,7 +109,7 @@
   "examples": [
     {
       "id": "01186_mukau_ex1",
-      "japanese": "⟦{空港|くうこう}→空港：00648_kuukou⟧⟦に→に：00314_ni⟧{向|む}かっている。",
+      "japanese": "⟦{空港|くうこう}→空港：00648_kuukou⟧⟦に→に：00314_ni⟧{向|む}かって⟦いる→いる：00495_iru⟧。",
       "english": "I'm heading to the airport.",
       "notes": null,
       "has_audio": false,
@@ -168,7 +168,7 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: {自動詞|じどうし} (intransitive). Pattern: X⟦に→に：00314_ni⟧{向|む}かう (face toward X / head toward X).\n\nASPECT: ている indicates ongoing movement or state. {向|む}かっている = 'is heading toward' or 'is facing.'\n\nCOMMON PATTERNS:\n・X⟦に→に：00314_ni⟧{向|む}かう (head toward X, face X)\n・⟦{向|む}かい{合|あ}う→向かい合う：23708_mukaiau⟧ (face each other)\n・{向|む}かって⟦{右|みぎ}→右：02257_migi⟧ (on your right as you face it)\n・⟦{向|む}かい{側|がわ}→向かい側：26865_mukaigawa⟧ (opposite side)\n・⟦{未来|みらい}→未来：03748_mirai⟧⟦に→に：00314_ni⟧{向|む}かう (face the future)\n\nRELATED:\n・⟦{向|む}く→向く：02304_muku⟧: to turn, to face (more general)\n・⟦{向|む}ける→向ける：02306_mukeru⟧: to turn something toward (transitive)\n・⟦{向|む}かい→向かい：03750_mukai⟧: opposite, facing (noun)",
+  "notes": "TRANSITIVITY: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive). Pattern: X⟦に→に：00314_ni⟧{向|む}かう (face toward X / head toward X).\n\nASPECT: て⟦いる→いる：00495_iru⟧ indicates ongoing movement or state. {向|む}かって⟦いる→いる：00495_iru⟧ = 'is heading toward' or 'is facing.'\n\nCOMMON PATTERNS:\n- X⟦に→に：00314_ni⟧{向|む}かう (head toward X, face X)\n- ⟦{向|む}かい{合|あ}う→向かい合う：23708_mukaiau⟧ (face each other)\n- {向|む}かって⟦{右|みぎ}→右：02257_migi⟧ (on your right as you face it)\n- ⟦{向|む}かい{側|がわ}→向かい側：26865_mukaigawa⟧ (opposite side)\n- ⟦{未来|みらい}→未来：03748_mirai⟧⟦に→に：00314_ni⟧{向|む}かう (face the future)\n\nRELATED WORDS:\n- ⟦{向|む}く→向く：02304_muku⟧: to turn, to face (more general)\n- ⟦{向|む}ける→向ける：02306_mukeru⟧: to turn something toward (transitive)\n- ⟦{向|む}かい→向かい：03750_mukai⟧: opposite, facing (noun)",
   "cross_references": [
     {
       "type": "related",
@@ -183,11 +183,32 @@
       "reading": "むける",
       "headword": "{向|む}ける",
       "label": "transitive: to turn something toward"
+    },
+    {
+      "type": "antonym",
+      "target_id": "03750_mukai",
+      "reading": "むかい",
+      "headword": "{向|む}かい",
+      "label": "opposite, facing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23708_mukaiau",
+      "reading": "むかいあう",
+      "headword": "{向|む}かい{合|あ}う",
+      "label": "to face each other"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29038_nozomu",
+      "reading": "のぞむ",
+      "headword": "{臨|のぞ}む",
+      "label": "to face"
     }
   ],
   "metadata": {
     "created": "2026-01-08T12:56:28Z",
-    "modified": "2026-05-14T16:10:07Z",
+    "modified": "2026-09-02T04:00:59Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

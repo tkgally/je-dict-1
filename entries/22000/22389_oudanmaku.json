@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22389_oudanmaku_ex1",
-      "japanese": "{横断幕|おうだんまく}を{掲|かか}げる。",
+      "japanese": "{横断幕|おうだんまく}⟦を→を：00422_wo⟧⟦{掲|かか}げる→掲げる：12791_kakageru⟧。",
       "english": "To hold up a banner.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22389_oudanmaku_ex2",
-      "japanese": "スタジアムに{応援|おうえん}の{横断幕|おうだんまく}が{並|なら}んでいた。",
+      "japanese": "⟦スタジアム→スタジアム：23905_sutajiamu⟧⟦に→に：00314_ni⟧⟦{応援|おうえん}→応援：01900_ouen⟧⟦の→の：09472_no⟧{横断幕|おうだんまく}⟦が→が：00051_ga⟧⟦{並|なら}んでいた→並ぶ：00605_narabu⟧。",
       "english": "Cheering banners were lined up at the stadium.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22389_oudanmaku_ex3",
-      "japanese": "デモの{参加者|さんかしゃ}たちは「{戦争|せんそう}{反対|はんたい}」と{書|か}かれた{横断幕|おうだんまく}を{持|も}って{行進|こうしん}した。",
+      "japanese": "⟦デモ→デモ：19416_demo⟧⟦の→の：09472_no⟧⟦{参加者|さんかしゃ}→参加者：03059_sankasha⟧たち⟦は→は：00079_ha⟧「⟦{戦争|せんそう}→戦争：01450_sensou⟧⟦{反対|はんたい}→反対：01497_hantai⟧」⟦と→と：00512_to⟧⟦{書|か}かれた→書く：00477_kaku⟧{横断幕|おうだんまく}⟦を→を：00422_wo⟧⟦{持|も}って→持つ：00478_motsu⟧⟦{行進|こうしん}→行進：22196_koushin⟧⟦した→する：00392_suru⟧。",
       "english": "The demonstrators marched carrying banners that read \"No War.\"",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {横断|おうだん} (crossing horizontally) and {幕|まく} (curtain/screen). The name describes the horizontal orientation of the banner, distinguishing it from vertical banners ({垂|た}れ{幕|まく}).\n\nCOMMON COLLOCATIONS:\n- {横断幕|おうだんまく}を{掲|かか}げる: to hold up / display a banner\n- {横断幕|おうだんまく}を{張|は}る: to stretch out a banner\n- {応援|おうえん}{横断幕|おうだんまく}: cheering banner\n- {抗議|こうぎ}の{横断幕|おうだんまく}: protest banner\n- {横断幕|おうだんまく}に{書|か}く: to write on a banner\n\nSIMILAR WORDS:\n- {垂|た}れ{幕|まく}: vertical banner / hanging banner — hangs vertically rather than stretching horizontally\n- {旗|はた}: flag — a piece of cloth attached to a pole, not stretched between two points\n- {幕|まく}: curtain / screen — broader term for any large piece of fabric used as a screen\n- のぼり: vertical flag / streamer — a tall, narrow flag on a pole, common at shops and events",
+  "notes": "Composed of ⟦{横断|おうだん}→横断：01906_oudan⟧ (crossing horizontally) and ⟦{幕|まく}→幕：12518_maku⟧ (curtain/screen). The name describes the horizontal orientation of the banner, distinguishing it from vertical banners ({垂|た}れ{幕|まく}).\n\nCOMMON COLLOCATIONS:\n- {横断幕|おうだんまく}⟦を→を：00422_wo⟧⟦{掲|かか}げる→掲げる：12791_kakageru⟧: to hold up / display a banner\n- {横断幕|おうだんまく}⟦を→を：00422_wo⟧⟦{張|は}る→張る：12583_haru⟧: to stretch out a banner\n- ⟦{応援|おうえん}→応援：01900_ouen⟧{横断幕|おうだんまく}: cheering banner\n- ⟦{抗議|こうぎ}→抗議：12807_kougi⟧⟦の→の：09472_no⟧{横断幕|おうだんまく}: protest banner\n- {横断幕|おうだんまく}⟦に→に：00314_ni⟧⟦{書|か}く→書く：00477_kaku⟧: to write on a banner\n\nSIMILAR WORDS:\n- {垂|た}れ{幕|まく}: vertical banner / hanging banner — hangs vertically rather than stretching horizontally\n- ⟦{旗|はた}→旗：02161_hata⟧: flag — a piece of cloth attached to a pole, not stretched between two points\n- ⟦{幕|まく}→幕：12518_maku⟧: curtain / screen — broader term for any large piece of fabric used as a screen\n- のぼり: vertical flag / streamer — a tall, narrow flag on a pole, common at shops and events",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02161_hata",
+      "reading": "はた",
+      "headword": "{旗|はた}",
+      "label": "flag"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03943_nobori",
+      "reading": "のぼり",
+      "headword": "{上|のぼ}り",
+      "label": "vertical flag / streamer"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +75,6 @@
       ]
     },
     "created": "2026-04-05T20:15:33Z",
-    "modified": "2026-08-01T06:42:57Z"
+    "modified": "2026-09-02T04:02:07Z"
   }
 }

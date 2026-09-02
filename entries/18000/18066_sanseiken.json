@@ -15,42 +15,69 @@
   "examples": [
     {
       "id": "18066_sanseiken_ex1",
-      "japanese": "{女性|じょせい}の{参政権|さんせいけん}が{認|みと}められた。",
+      "japanese": "⟦{女性|じょせい}→女性：01617_josei⟧⟦の→の：09472_no⟧{参政権|さんせいけん}⟦が→が：00051_ga⟧⟦{認|みと}められた→認める：02429_mitomeru⟧。",
       "english": "Women's suffrage was recognized.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18066_sanseiken_ex2",
-      "japanese": "{参政権|さんせいけん}は{民主主義|みんしゅしゅぎ}の{基本|きほん}だ。",
+      "japanese": "{参政権|さんせいけん}⟦は→は：00079_ha⟧⟦{民主主義|みんしゅしゅぎ}→民主主義：05413_minshushugi⟧⟦の→の：09472_no⟧⟦{基本|きほん}→基本：00226_kihon⟧だ。",
       "english": "Suffrage is fundamental to democracy.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18066_sanseiken_ex3",
-      "japanese": "{日本|にほん}では{満|まん}18{歳|さい}から{参政権|さんせいけん}が{与|あた}えられる。",
+      "japanese": "⟦{日本|にほん}→日本：03876_nihon⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧{満|まん}18⟦{歳|さい}→歳：10017_sai⟧⟦から→から：00504_kara⟧{参政権|さんせいけん}⟦が→が：00051_ga⟧⟦{与|あた}えられる→与える：01821_ataeru⟧。",
       "english": "In Japan, political rights are granted from the age of 18.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "WORD FORMATION:\n{参政|さんせい} (participation in government) + {権|けん} (right). {参政|さんせい} itself is {参|さん} (participate) + {政|せい} (politics).\n\nUSAGE:\nIncludes both {選挙権|せんきょけん} (right to vote) and {被選挙権|ひせんきょけん} (right to run for office). Often appears in discussions of history, civics, and constitutional law.\n\nCOMMON COLLOCATIONS:\n- {参政権|さんせいけん}を{認|みと}める: to recognize suffrage\n- {参政権|さんせいけん}を{与|あた}える: to grant suffrage\n- {参政権|さんせいけん}を{獲得|かくとく}する: to obtain suffrage\n- {女性|じょせい}{参政権|さんせいけん}: women's suffrage",
-  "cross_references": [],
+  "notes": "FORMS:\n{参政|さんせい} (participation in government) + {権|けん} (right). {参政|さんせい} itself is {参|さん} (participate) + {政|せい} (politics).\n\nUSAGE:\nIncludes both ⟦{選挙権|せんきょけん}→選挙権：10427_senkyoken⟧ (right to vote) and ⟦{被選挙権|ひせんきょけん}→被選挙権：24950_hisenkyoken⟧ (right to run for office). Often appears in discussions of history, civics, and constitutional law.\n\nCOMMON COLLOCATIONS:\n- {参政権|さんせいけん}⟦を→を：00422_wo⟧⟦{認|みと}める→認める：02429_mitomeru⟧: to recognize suffrage\n- {参政権|さんせいけん}⟦を→を：00422_wo⟧⟦{与|あた}える→与える：01821_ataeru⟧: to grant suffrage\n- {参政権|さんせいけん}⟦を→を：00422_wo⟧⟦{獲得|かくとく}→獲得：05624_kakutoku⟧⟦する→する：00392_suru⟧: to obtain suffrage\n- ⟦{女性|じょせい}→女性：01617_josei⟧{参政権|さんせいけん}: women's suffrage",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "10427_senkyoken",
+      "reading": "せんきょけん",
+      "headword": "{選挙権|せんきょけん}",
+      "label": "right to vote, suffrage"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24950_hisenkyoken",
+      "reading": "ひせんきょけん",
+      "headword": "{被選挙権|ひせんきょけん}",
+      "label": "right to run for office"
+    }
+  ],
   "metadata": {
     "created": "2026-03-20T01:07:39Z",
-    "modified": "2026-03-20T01:07:39Z",
+    "modified": "2026-09-02T04:01:50Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["legal"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "legal"
+      ]
     }
   }
 }

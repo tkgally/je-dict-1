@@ -44,10 +44,53 @@
     }
   ],
   "notes": "{玄関|げんかん} is the entrance area of a Japanese building, culturally significant as the boundary between inside and outside.\n\nComponents:\n- ⟦{上|あ}がり{框|かまち}→上がり框：10774_agarigamachi⟧ (step up into the house)\n- ⟦{土間|どま}→土間：07849_doma⟧/⟦たたき→たたき：10765_tataki⟧ (earthen floor/concrete area)\n- ⟦{下駄箱|げたばこ}→下駄箱：06490_getabako⟧ (shoe cabinet)\n- ⟦{傘立|かさた}て→傘立て：07013_kasatate⟧ (umbrella stand)\n\nCultural aspects:\n- Shoes are removed before stepping up\n- The lowered floor keeps dirt from entering\n- Often has ⟦{表札|ひょうさつ}→表札：04886_hyousatsu⟧ (nameplate) outside\n- Guests may be greeted but not invited further (⟦{玄関先|げんかんさき}→玄関先：noentry⟧⟦で→で：00502_de⟧)\n\nExpressions:\n- {玄関|げんかん}⟦{払|ばら}い→払い：09655_barai⟧ - turning someone away at the door\n- ⟦{玄関先|げんかんさき}→玄関先：noentry⟧ - at the entrance (without inviting in)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "07849_doma",
+      "reading": "どま",
+      "headword": "{土間|どま}",
+      "label": "dirt floor"
+    },
+    {
+      "type": "related",
+      "target_id": "07880_omoteguchi",
+      "reading": "おもてぐち",
+      "headword": "{表口|おもてぐち}",
+      "label": "front entrance"
+    },
+    {
+      "type": "related",
+      "target_id": "19491_katteguchi",
+      "reading": "かってぐち",
+      "headword": "{勝手口|かってぐち}",
+      "label": "kitchen door"
+    },
+    {
+      "type": "related",
+      "target_id": "19979_kutsubera",
+      "reading": "くつべら",
+      "headword": "{靴|くつ}べら",
+      "label": "shoehorn"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26995_robii",
+      "reading": "ろびー",
+      "headword": "ロビー",
+      "label": "lobby"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29871_shoukouguchi",
+      "reading": "しょうこうぐち",
+      "headword": "昇降口",
+      "label": "entrance"
+    }
+  ],
   "metadata": {
     "created": "2026-01-14T13:31:53Z",
-    "modified": "2026-06-03T19:09:00Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

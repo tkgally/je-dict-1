@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08565_ikukyuu_ex1",
-      "japanese": "{育休|いくきゅう}を{取|と}る{予定|よてい}です。",
+      "japanese": "{育休|いくきゅう}⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧⟦{予定|よてい}→予定：00824_yotei⟧です。",
       "english": "I plan to take childcare leave.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "08565_ikukyuu_ex2",
-      "japanese": "{男性|だんせい}の{育休|いくきゅう}{取得|しゅとく}が{増|ふ}えている。",
+      "japanese": "⟦{男性|だんせい}→男性：01655_dansei⟧⟦の→の：09472_no⟧{育休|いくきゅう}⟦{取得|しゅとく}→取得：11947_shutoku⟧⟦が→が：00051_ga⟧⟦{増|ふ}えている→増える：01183_fueru⟧。",
       "english": "More men are taking childcare leave.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "08565_ikukyuu_ex3",
-      "japanese": "{育休|いくきゅう}から{復帰|ふっき}したばかりだ。",
+      "japanese": "{育休|いくきゅう}⟦から→から：00504_kara⟧⟦{復帰|ふっき}した→復帰する：25395_fukkisuru⟧⟦ばかり→〜ばかり：02006_bakari⟧だ。",
       "english": "I just returned from childcare leave.",
       "sense_numbers": [
         1
@@ -43,7 +43,7 @@
       "notes": null
     }
   ],
-  "notes": "ABBREVIATED FORM:\n{育休|いくきゅう} is an abbreviation of {育児休業|いくじきゅうぎょう} (childcare leave).\n\nIN JAPAN:\n- Legally available to both mothers and fathers\n- Typically up to 1 year (can be extended to 2 years in some cases)\n- Employees receive partial pay through employment insurance\n- Government is promoting increased uptake by fathers\n\nCOMMON COLLOCATIONS:\n- {育休|いくきゅう}を{取|と}る - to take childcare leave\n- {育休|いくきゅう}{取得|しゅとく} - taking childcare leave\n- {育休|いくきゅう}から{復帰|ふっき}する - to return from childcare leave\n- {育休|いくきゅう}{明|あ}け - after returning from childcare leave\n\nGENDER CONTEXT:\n{男性|だんせい}{育休|いくきゅう} (paternity leave) is increasingly encouraged in Japan but uptake rates remain low compared to other countries.\n\nRELATED:\n- {産休|さんきゅう} - maternity leave\n- {育児休業|いくじきゅうぎょう} - childcare leave (full term)\n- {介護休暇|かいごきゅうか} - nursing care leave\n- {時短|じたん}{勤務|きんむ} - reduced work hours",
+  "notes": "ABBREVIATED FORM:\n{育休|いくきゅう} is an abbreviation of ⟦{育児休業|いくじきゅうぎょう}→育児休業：25440_ikujikyuugyou⟧ (childcare leave).\n\nCULTURAL NOTE:\n- Legally available to both mothers and fathers\n- Typically up to 1 year (can be extended to 2 years in some cases)\n- Employees receive partial pay through employment insurance\n- Government is promoting increased uptake by fathers\n\nCOMMON COLLOCATIONS:\n- {育休|いくきゅう}⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧ - to take childcare leave\n- {育休|いくきゅう}⟦{取得|しゅとく}→取得：11947_shutoku⟧ - taking childcare leave\n- {育休|いくきゅう}⟦から→から：00504_kara⟧⟦{復帰|ふっき}する→復帰する：25395_fukkisuru⟧ - to return from childcare leave\n- {育休|いくきゅう}{明|あ}け - after returning from childcare leave\n\nGENDER CONTEXT:\n⟦{男性|だんせい}→男性：01655_dansei⟧{育休|いくきゅう} (paternity leave) is increasingly encouraged in Japan but uptake rates remain low compared to other countries.\n\nRELATED WORDS:\n- ⟦{産休|さんきゅう}→産休：06997_sankyuu⟧ - maternity leave\n- ⟦{育児休業|いくじきゅうぎょう}→育児休業：25440_ikujikyuugyou⟧ - childcare leave (full term)\n- ⟦{介護休暇|かいごきゅうか}→介護休暇：08566_kaigokyuuka⟧ - nursing care leave\n- ⟦{時短|じたん}{勤務|きんむ}→時短勤務：18090_jitankinmu⟧ - reduced work hours",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -51,13 +51,14 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "work",
         "family"
       ]
     },
     "created": "2026-01-27T11:29:42Z",
-    "modified": "2026-04-20T08:21:42Z"
+    "modified": "2026-09-02T04:01:15Z"
   },
   "cross_references": [
     {
@@ -66,6 +67,34 @@
       "reading": "かいごきゅうか",
       "headword": "{介護休暇|かいごきゅうか}",
       "label": "nursing care leave"
+    },
+    {
+      "type": "related",
+      "target_id": "06997_sankyuu",
+      "reading": "さんきゅう",
+      "headword": "{産休|さんきゅう}",
+      "label": "maternity leave"
+    },
+    {
+      "type": "related",
+      "target_id": "25440_ikujikyuugyou",
+      "reading": "いくじきゅうぎょう",
+      "headword": "{育児|いくじ}{休業|きゅうぎょう}",
+      "label": "childcare leave"
+    },
+    {
+      "type": "related",
+      "target_id": "18090_jitankinmu",
+      "reading": "じたんきんむ",
+      "headword": "{時短|じたん}{勤務|きんむ}",
+      "label": "reduced work hours"
+    },
+    {
+      "type": "related",
+      "target_id": "06723_ikumen",
+      "reading": "いくめん",
+      "headword": "イクメン",
+      "label": "hands-on father"
     }
   ]
 }

@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "15811_junkyo_ex1",
-      "japanese": "{国際|こくさい}{規格|きかく}に{準拠|じゅんきょ}している。",
+      "japanese": "⟦{国際|こくさい}→国際：01406_kokusai⟧⟦{規格|きかく}→規格：16939_kikaku⟧⟦に→に：00314_ni⟧{準拠|じゅんきょ}⟦している→する：00392_suru⟧。",
       "english": "It conforms to international standards.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "15811_junkyo_ex2",
-      "japanese": "この{製品|せいひん}はJIS{規格|きかく}に{準拠|じゅんきょ}して{製造|せいぞう}されている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{製品|せいひん}→製品：01445_seihin⟧⟦は→は：00079_ha⟧JIS{規格|きかく}⟦に→に：00314_ni⟧{準拠|じゅんきょ}⟦して→する：00392_suru⟧⟦{製造|せいぞう}→製造：03289_seizou⟧⟦されている→する：00392_suru⟧。",
       "english": "This product is manufactured in compliance with JIS standards.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "15811_junkyo_ex3",
-      "japanese": "{法律|ほうりつ}に{準拠|じゅんきょ}した{手続|てつづ}きを{踏|ふ}む{必要|ひつよう}がある。",
+      "japanese": "⟦{法律|ほうりつ}→法律：01722_houritsu⟧⟦に→に：00314_ni⟧{準拠|じゅんきょ}⟦した→する：00392_suru⟧⟦{手続|てつづ}き→手続き：05453_tetsuzuki⟧⟦を→を：00422_wo⟧⟦{踏|ふ}む→踏む：01197_fumu⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "It is necessary to follow procedures that comply with the law.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{準拠|じゅんきょ} is commonly used with the particle に to indicate what standard is being followed: ～に{準拠|じゅんきょ}する (conform to ~). It is a formal, written-register word found in technical documents, legal texts, and product specifications.\n\nCOMMON COLLOCATIONS:\n- ～に{準拠|じゅんきょ}する (conform to, comply with)\n- {規格|きかく}に{準拠|じゅんきょ} (compliance with a standard)\n- {法令|ほうれい}{準拠|じゅんきょ} (legal compliance)\n- {準拠|じゅんきょ}{法|ほう} (governing law, applicable law)\n\nSIMILAR WORDS:\n{基|もと}づく means 'to be based on' and is more general. {適合|てきごう} means 'conformity' and focuses on meeting specific requirements. {準拠|じゅんきょ} emphasizes following an authoritative standard or framework.",
+  "notes": "USAGE:\n{準拠|じゅんきょ} is commonly used with the particle ⟦に→に：00314_ni⟧ to indicate what standard is being followed: ～⟦に→に：00314_ni⟧{準拠|じゅんきょ}⟦する→する：00392_suru⟧ (conform to ~). It is a formal, written-register word found in technical documents, legal texts, and product specifications.\n\nCOMMON COLLOCATIONS:\n- ～⟦に→に：00314_ni⟧{準拠|じゅんきょ}⟦する→する：00392_suru⟧ (conform to, comply with)\n- ⟦{規格|きかく}→規格：16939_kikaku⟧⟦に→に：00314_ni⟧{準拠|じゅんきょ} (compliance with a standard)\n- ⟦{法令|ほうれい}→法令：13299_hourei⟧{準拠|じゅんきょ} (legal compliance)\n- {準拠|じゅんきょ}{法|ほう} (governing law, applicable law)\n\nSIMILAR WORDS:\n⟦{基|もと}づく→基づく：02315_motozuku⟧ means 'to be based on' and is more general. ⟦{適合|てきごう}→適合：20897_tekigou⟧ means 'conformity' and focuses on meeting specific requirements. {準拠|じゅんきょ} emphasizes following an authoritative standard or framework.",
   "cross_references": [
     {
       "type": "synonym",
@@ -149,11 +149,18 @@
       "reading": "てきごう",
       "headword": "{適合|てきごう}",
       "label": "conformity; requirements"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23070_ikyo",
+      "reading": "いきょ",
+      "headword": "{依拠|いきょ}",
+      "label": "reliance"
     }
   ],
   "metadata": {
     "created": "2026-03-08T10:09:19Z",
-    "modified": "2026-05-02T05:13:00Z",
+    "modified": "2026-09-02T04:01:42Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

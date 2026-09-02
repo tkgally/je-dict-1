@@ -15,38 +15,60 @@
   "examples": [
     {
       "id": "25732_misshuuchi_ex1",
-      "japanese": "ここは{住宅|じゅうたく}{密集地|みっしゅうち}だ。",
+      "japanese": "⟦ここ→ここ：00961_koko⟧⟦は→は：00079_ha⟧⟦{住宅|じゅうたく}→住宅：03280_juutaku⟧{密集地|みっしゅうち}だ。",
       "english": "This is a densely packed residential area.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "25732_misshuuchi_ex2",
-      "japanese": "{密集地|みっしゅうち}では{火災|かさい}が{広|ひろ}がりやすい。",
+      "japanese": "{密集地|みっしゅうち}⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{火災|かさい}→火災：02561_kasai⟧⟦が→が：00051_ga⟧⟦{広|ひろ}がり→広がる：01980_hirogaru⟧やすい。",
       "english": "Fires spread easily in densely built areas.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "25732_misshuuchi_ex3",
-      "japanese": "{東京|とうきょう}の{下町|したまち}には{木造|もくぞう}{住宅|じゅうたく}の{密集地|みっしゅうち}が{多|おお}く、{防災|ぼうさい}{対策|たいさく}が{課題|かだい}となっている。",
+      "japanese": "⟦{東京|とうきょう}→東京：09564_toukyou⟧⟦の→の：09472_no⟧⟦{下町|したまち}→下町：04193_shitamachi⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{木造|もくぞう}→木造：08328_mokuzou⟧⟦{住宅|じゅうたく}→住宅：03280_juutaku⟧⟦の→の：09472_no⟧{密集地|みっしゅうち}⟦が→が：00051_ga⟧⟦{多|おお}く→多い：01127_ooi⟧、⟦{防災|ぼうさい}→防災：07907_bousai⟧⟦{対策|たいさく}→対策：02511_taisaku⟧⟦が→が：00051_ga⟧⟦{課題|かだい}→課題：00132_kadai⟧⟦と→と：00512_to⟧⟦なっている→なる：01970_naru⟧。",
       "english": "In the old downtown areas of Tokyo, there are many zones with densely packed wooden houses, and disaster prevention is an ongoing challenge.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {密集|みっしゅう} (dense gathering, clustering) + {地|ち} (place, area). Frequently appears in news and policy discussions about urban planning, fire safety, and earthquake preparedness, especially regarding older neighborhoods with narrow streets and wooden buildings.\n\nCOMMON COLLOCATIONS:\n- {住宅|じゅうたく}{密集地|みっしゅうち}: densely packed residential area\n- {人口|じんこう}{密集地|みっしゅうち}: densely populated area\n- {密集地|みっしゅうち}の{防災|ぼうさい}: disaster prevention in dense areas\n- {密集地|みっしゅうち}を{避|さ}ける: to avoid crowded areas\n\nSIMILAR WORDS:\n- {密集地帯|みっしゅうちたい}: dense zone — near-synonym; {地帯|ちたい} implies a broader belt or zone\n- {過密地域|かみつちいき}: overcrowded region — emphasizes that the density has exceeded a desirable level\n- {市街地|しがいち}: urban area — describes any built-up area, not necessarily densely packed",
+  "notes": "Composed of ⟦{密集|みっしゅう}→密集：12342_misshuu⟧ (dense gathering, clustering) + {地|ち} (place, area). Frequently appears in news and policy discussions about urban planning, fire safety, and earthquake preparedness, especially regarding older neighborhoods with narrow streets and wooden buildings.\n\nCOMMON COLLOCATIONS:\n- ⟦{住宅|じゅうたく}→住宅：03280_juutaku⟧{密集地|みっしゅうち}: densely packed residential area\n- ⟦{人口|じんこう}→人口：01618_jinkou⟧{密集地|みっしゅうち}: densely populated area\n- {密集地|みっしゅうち}⟦の→の：09472_no⟧⟦{防災|ぼうさい}→防災：07907_bousai⟧: disaster prevention in dense areas\n- {密集地|みっしゅうち}⟦を→を：00422_wo⟧⟦{避|さ}ける→避ける：02109_sakeru⟧: to avoid crowded areas\n\nSIMILAR WORDS:\n- {密集地帯|みっしゅうちたい}: dense zone — near-synonym; ⟦{地帯|ちたい}→地帯：04057_chitai⟧ implies a broader belt or zone\n- {過密地域|かみつちいき}: overcrowded region — emphasizes that the density has exceeded a desirable level\n- ⟦{市街地|しがいち}→市街地：17083_shigaichi⟧: urban area — describes any built-up area, not necessarily densely packed",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17083_shigaichi",
+      "reading": "しがいち",
+      "headword": "{市街地|しがいち}",
+      "label": "urban area"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["geography", "society"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "geography",
+        "society"
+      ]
     },
     "created": "2026-04-27T11:15:06Z",
-    "modified": "2026-04-27T11:15:06Z"
+    "modified": "2026-09-02T04:02:23Z"
   }
 }

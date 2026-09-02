@@ -15,41 +15,67 @@
   "examples": [
     {
       "id": "19839_one_ex1",
-      "japanese": "{尾根|おね}を{歩|ある}く。",
+      "japanese": "{尾根|おね}⟦を→を：00422_wo⟧⟦{歩|ある}く→歩く：00538_aruku⟧。",
       "english": "To walk along the ridge.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "19839_one_ex2",
-      "japanese": "{尾根|おね}から{景色|けしき}が{見渡|みわた}せた。",
+      "japanese": "{尾根|おね}⟦から→から：00504_kara⟧⟦{景色|けしき}→景色：01395_keshiki⟧⟦が→が：00051_ga⟧⟦{見渡|みわた}せた→見渡す：07169_miwatasu⟧。",
       "english": "I could see the scenery spread out from the ridge.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "19839_one_ex3",
-      "japanese": "{尾根|おね}{伝|づた}いに{次|つぎ}の{山頂|さんちょう}を{目指|めざ}して{進|すす}んだ。",
+      "japanese": "{尾根|おね}{伝|づた}い⟦に→に：00314_ni⟧⟦{次|つぎ}→次：00819_tsugi⟧⟦の→の：09472_no⟧⟦{山頂|さんちょう}→山頂：09942_sanchou⟧⟦を→を：00422_wo⟧⟦{目指|めざ}して→目指す：10528_mezasu⟧⟦{進|すす}んだ→進む：01225_susumu⟧。",
       "english": "I made my way along the ridge toward the next summit.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "A term commonly used in hiking and mountaineering. The ridge is the elevated line connecting peaks, and ridge walks ({尾根|おね}{歩|ある}き) are a popular style of mountain hiking in Japan.\n\nCOMMON COLLOCATIONS:\n- {尾根|おね}{道|みち} — ridge trail\n- {尾根|おね}{歩|ある}き — ridge walking\n- {尾根|おね}{伝|づた}い — along the ridge\n- {尾根|おね}{筋|すじ} — ridgeline\n- {痩|や}せ{尾根|おね} — narrow ridge (dangerous terrain)\n\nSIMILAR WORDS:\n- {稜線|りょうせん} — ridgeline (more technical/literary)\n- {峰|みね} — peak, summit\n- {谷|たに} — valley (opposite: the low point between ridges)",
-  "cross_references": [],
+  "notes": "A term commonly used in hiking and mountaineering. The ridge is the elevated line connecting peaks, and ridge walks ({尾根|おね}⟦{歩|ある}き→歩く：00538_aruku⟧) are a popular style of mountain hiking in Japan.\n\nCOMMON COLLOCATIONS:\n- {尾根|おね}⟦{道|みち}→道：00505_michi⟧ — ridge trail\n- {尾根|おね}⟦{歩|ある}き→歩く：00538_aruku⟧ — ridge walking\n- {尾根|おね}{伝|づた}い — along the ridge\n- {尾根|おね}⟦{筋|すじ}→筋：03366_suji⟧ — ridgeline\n- {痩|や}せ{尾根|おね} — narrow ridge (dangerous terrain)\n\nSIMILAR WORDS:\n- {稜線|りょうせん} — ridgeline (more technical/literary)\n- ⟦{峰|みね}→峰：23001_mine⟧ — peak, summit\n- ⟦{谷|たに}→谷：02223_tani⟧ — valley (opposite: the low point between ridges)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23001_mine",
+      "reading": "みね",
+      "headword": "{峰|みね}",
+      "label": "peak, summit"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02223_tani",
+      "reading": "たに",
+      "headword": "{谷|たに}",
+      "label": "valley (opposite"
+    }
+  ],
   "metadata": {
     "created": "2026-03-27T02:13:23Z",
-    "modified": "2026-03-27T02:13:23Z",
+    "modified": "2026-09-02T04:01:57Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["nature", "geography"]
+      "semantic": [
+        "nature",
+        "geography"
+      ]
     }
   }
 }

@@ -15,38 +15,86 @@
   "examples": [
     {
       "id": "25591_juerii_ex1",
-      "japanese": "ジュエリーを{身|み}につける。",
+      "japanese": "ジュエリー⟦を→を：00422_wo⟧⟦{身|み}につける→身につける：03158_minitsukeru⟧。",
       "english": "To wear jewelry.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "25591_juerii_ex2",
-      "japanese": "{母|はは}の{誕生日|たんじょうび}にジュエリーをプレゼントした。",
+      "japanese": "⟦{母|はは}→母：00549_haha⟧⟦の→の：09472_no⟧⟦{誕生日|たんじょうび}→誕生日：02910_tanjoubi⟧⟦に→に：00314_ni⟧ジュエリー⟦を→を：00422_wo⟧⟦プレゼント→プレゼント：01791_purezento⟧⟦した→する：00392_suru⟧。",
       "english": "I gave jewelry as a gift for my mother's birthday.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "25591_juerii_ex3",
-      "japanese": "{彼女|かのじょ}は{高級|こうきゅう}ジュエリーブランドの{新作|しんさく}コレクションを{楽|たの}しみにしている。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧⟦{高級|こうきゅう}→高級：08644_koukyuu⟧ジュエリー⟦ブランド→ブランド：05221_burando⟧⟦の→の：09472_no⟧⟦{新作|しんさく}→新作：09523_shinsaku⟧⟦コレクション→コレクション：07327_korekushon⟧⟦を→を：00422_wo⟧⟦{楽|たの}しみ→楽しみ：01651_tanoshimi⟧にして⟦いる→いる：00495_iru⟧。",
       "english": "She is looking forward to the new collection from a luxury jewelry brand.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A loanword from English \"jewelry.\" In Japanese, ジュエリー typically refers to fine jewelry made with precious metals and gemstones, as opposed to cheaper fashion accessories.\n\nThe distinction between ジュエリー and アクセサリー is important: ジュエリー implies higher quality and value, while アクセサリー is the broader term for all accessories including costume jewelry.\n\nCOMMON COLLOCATIONS:\n- ジュエリーショップ: jewelry shop\n- ジュエリーブランド: jewelry brand\n- ジュエリーボックス: jewelry box\n- ハンドメイドジュエリー: handmade jewelry\n\nSIMILAR WORDS:\n- アクセサリー: accessory — broader term covering all decorative accessories, including costume jewelry\n- {宝石|ほうせき}: gemstone, jewel — refers specifically to the stones themselves\n- {装飾品|そうしょくひん}: ornament, decorative item — formal term for decorative accessories in general",
+  "notes": "A loanword from English \"jewelry.\" In Japanese, ジュエリー typically refers to fine jewelry made with precious metals and gemstones, as opposed to cheaper fashion accessories.\n\nThe distinction between ジュエリー and ⟦アクセサリー→アクセサリー：01761_akusesarii⟧ is important: ジュエリー implies higher quality and value, while ⟦アクセサリー→アクセサリー：01761_akusesarii⟧ is the broader term for all accessories including costume jewelry.\n\nCOMMON COLLOCATIONS:\n- ジュエリー⟦ショップ→ショップ：08913_shoppu⟧: jewelry shop\n- ジュエリー⟦ブランド→ブランド：05221_burando⟧: jewelry brand\n- ジュエリー⟦ボックス→ボックス：30522_bokkusu⟧: jewelry box\n- ハンドメイドジュエリー: handmade jewelry\n\nSIMILAR WORDS:\n- ⟦アクセサリー→アクセサリー：01761_akusesarii⟧: accessory — broader term covering all decorative accessories, including costume jewelry\n- ⟦{宝石|ほうせき}→宝石：03619_houseki⟧: gemstone, jewel — refers specifically to the stones themselves\n- ⟦{装飾品|そうしょくひん}→装飾品：15213_soushokuhin⟧: ornament, decorative item — formal term for decorative accessories in general",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01761_akusesarii",
+      "reading": "あくせさりー",
+      "headword": "アクセサリー",
+      "label": "accessory"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03619_houseki",
+      "reading": "ほうせき",
+      "headword": "{宝石|ほうせき}",
+      "label": "gemstone, jewel"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15213_soushokuhin",
+      "reading": "そうしょくひん",
+      "headword": "{装飾品|そうしょくひん}",
+      "label": "ornament, decorative item"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22333_houshokuhin",
+      "reading": "ほうしょくひん",
+      "headword": "{宝飾品|ほうしょくひん}",
+      "label": "jewelry"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24234_soushingu",
+      "reading": "そうしんぐ",
+      "headword": "{装身具|そうしんぐ}",
+      "label": "accessories"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["clothing"]
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "clothing"
+      ]
     },
     "created": "2026-04-26T12:31:59Z",
-    "modified": "2026-04-26T12:31:59Z"
+    "modified": "2026-09-02T04:02:23Z"
   }
 }

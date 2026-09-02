@@ -63,11 +63,40 @@
       ]
     }
   ],
-  "notes": "{足首|あしくび} means ankle - the joint connecting the foot to the leg.\n\nWORD FORMATION:\n⟦{足|あし}→足：00575_ashi⟧ (foot/leg) + ⟦{首|くび}→首：00792_kubi⟧ (neck) = ankle\nThis follows a body part pattern:\n- ⟦{手首|てくび}→手首：01000_tekubi⟧: wrist (hand-neck)\n- {足首|あしくび}: ankle (foot-neck)\n\nCOMMON EXPRESSIONS:\n- {足首|あしくび}⟦を→を：00422_wo⟧⟦{捻|ひね}る→捻る：00102_hineru⟧: to twist one's ankle\n- {足首|あしくび}⟦を→を：00422_wo⟧⟦{回|まわ}す→回す：01158_mawasu⟧: to rotate one's ankle\n- {足首|あしくび}⟦が→が：00051_ga⟧⟦{腫|は}れる→腫れる：12325_hareru⟧: ankle swells\n- {足首|あしくび}⟦の→の：09472_no⟧⟦{怪我|けが}→けが：00787_kega⟧: ankle injury\n\nRELATED:\n- ⟦くるぶし→踝：06486_kurubushi⟧: ankle bone (the protruding bone)\n- ⟦{足|あし}→足：00575_ashi⟧: foot, leg\n- ⟦{脚|あし}→脚：noentry⟧: leg (literary)\n\nNOTE:\nAnkle injuries are common in sports. ⟦{捻挫|ねんざ}→捻挫：05016_nenza⟧ (sprain) is a common diagnosis for twisted ankles.",
-  "cross_references": [],
+  "notes": "{足首|あしくび} means ankle - the joint connecting the foot to the leg.\n\nFORMS:\n⟦{足|あし}→足：00575_ashi⟧ (foot/leg) + ⟦{首|くび}→首：00792_kubi⟧ (neck) = ankle\nThis follows a body part pattern:\n- ⟦{手首|てくび}→手首：01000_tekubi⟧: wrist (hand-neck)\n- {足首|あしくび}: ankle (foot-neck)\n\nCOMMON EXPRESSIONS:\n- {足首|あしくび}⟦を→を：00422_wo⟧⟦{捻|ひね}る→捻る：00102_hineru⟧: to twist one's ankle\n- {足首|あしくび}⟦を→を：00422_wo⟧⟦{回|まわ}す→回す：01158_mawasu⟧: to rotate one's ankle\n- {足首|あしくび}⟦が→が：00051_ga⟧⟦{腫|は}れる→腫れる：12325_hareru⟧: ankle swells\n- {足首|あしくび}⟦の→の：09472_no⟧⟦{怪我|けが}→けが：00787_kega⟧: ankle injury\n\nRELATED WORDS:\n- ⟦くるぶし→踝：06486_kurubushi⟧: ankle bone (the protruding bone)\n- ⟦{足|あし}→足：00575_ashi⟧: foot, leg\n- ⟦{脚|あし}→脚：noentry⟧: leg (literary)\n\nUSAGE:\nAnkle injuries are common in sports. ⟦{捻挫|ねんざ}→捻挫：05016_nenza⟧ (sprain) is a common diagnosis for twisted ankles.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "06486_kurubushi",
+      "reading": "くるぶし",
+      "headword": "{踝|くるぶし}",
+      "label": "ankle bone"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01000_tekubi",
+      "reading": "てくび",
+      "headword": "{手首|てくび}",
+      "label": "wrist"
+    },
+    {
+      "type": "related",
+      "target_id": "19778_sune",
+      "reading": "すね",
+      "headword": "すね",
+      "label": "shin"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29580_sokukansetsu",
+      "reading": "そくかんせつ",
+      "headword": "{足|そく}{関節|かんせつ}",
+      "label": "ankle joint"
+    }
+  ],
   "metadata": {
     "created": "2026-01-07T12:25:43Z",
-    "modified": "2026-02-21T02:56:32Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

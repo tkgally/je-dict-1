@@ -3,7 +3,7 @@
   "id": "11074_saiketsu",
   "headword": "{採血|さいけつ}",
   "reading": "さいけつ",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "blood draw, blood sampling",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "11074_saiketsu_ex1",
-      "japanese": "{採血|さいけつ}は{痛|いた}くなかった。",
+      "japanese": "{採血|さいけつ}⟦は→は：00079_ha⟧⟦{痛|いた}くなかった→痛い：01108_itai⟧。",
       "english": "The blood draw didn't hurt.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "11074_saiketsu_ex2",
-      "japanese": "{健康|けんこう}{診断|しんだん}で{採血|さいけつ}をした。",
+      "japanese": "⟦{健康|けんこう}{診断|しんだん}→健康診断：05979_kenkoushindan⟧⟦で→で：00502_de⟧{採血|さいけつ}⟦を→を：00422_wo⟧⟦した→する：00392_suru⟧。",
       "english": "I had blood drawn during my health checkup.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "11074_saiketsu_ex3",
-      "japanese": "{採血|さいけつ}の{前|まえ}は{食事|しょくじ}を{控|ひか}えてくださいと{言|い}われた。",
+      "japanese": "{採血|さいけつ}⟦の→の：09472_no⟧⟦{前|まえ}→前：02255_mae⟧⟦は→は：00079_ha⟧⟦{食事|しょくじ}→食事：02087_shokuji⟧⟦を→を：00422_wo⟧⟦{控|ひか}えて→控える：10054_hikaeru⟧⟦ください→ください：02899_kudasai⟧⟦と→と：00512_to⟧⟦{言|い}われた→言う：00515_iu⟧。",
       "english": "I was told to refrain from eating before the blood draw.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA common medical procedure word. Patients encounter this during {健康|けんこう}{診断|しんだん} (health checkups), hospital visits, and blood donation. The procedure is performed by a nurse or phlebotomist.\n\nSIMILAR WORDS:\n- {献血|けんけつ}: blood donation (giving blood voluntarily for others)\n- {採血|さいけつ}: blood draw (having blood taken for testing)\n\nCOMMON COLLOCATIONS:\n- {採血|さいけつ}する: to draw blood\n- {採血|さいけつ}{室|しつ}: blood draw room\n- {空腹時|くうふくじ}{採血|さいけつ}: fasting blood draw\n- {採血|さいけつ}{結果|けっか}: blood test results",
+  "notes": "USAGE:\nA common medical procedure word. Patients encounter this during ⟦{健康|けんこう}{診断|しんだん}→健康診断：05979_kenkoushindan⟧ (health checkups), hospital visits, and blood donation. The procedure is performed by a nurse or phlebotomist.\n\nSIMILAR WORDS:\n- ⟦{献血|けんけつ}→献血：16161_kenketsu⟧: blood donation (giving blood voluntarily for others)\n- {採血|さいけつ}: blood draw (having blood taken for testing)\n\nCOMMON COLLOCATIONS:\n- {採血|さいけつ}⟦する→する：00392_suru⟧: to draw blood\n- {採血|さいけつ}⟦{室|しつ}→室：09946_shitsu⟧: blood draw room\n- ⟦{空腹時|くうふくじ}→空腹時：17888_kuufukuji⟧{採血|さいけつ}: fasting blood draw\n- {採血|さいけつ}⟦{結果|けっか}→結果：02486_kekka⟧: blood test results",
   "cross_references": [
     {
       "type": "related",
@@ -142,11 +142,32 @@
       "reading": "けんけつ",
       "headword": "{献血|けんけつ}",
       "label": "blood donation"
+    },
+    {
+      "type": "related",
+      "target_id": "04083_yuketsu",
+      "reading": "ゆけつ",
+      "headword": "{輸血|ゆけつ}",
+      "label": "blood transfusion"
+    },
+    {
+      "type": "related",
+      "target_id": "23299_ketsuekikensa",
+      "reading": "けつえきけんさ",
+      "headword": "{血液検査|けつえきけんさ}",
+      "label": "blood test"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26274_kyuuketsu",
+      "reading": "きゅうけつ",
+      "headword": "{吸血|きゅうけつ}",
+      "label": "blood-sucking"
     }
   ],
   "metadata": {
     "created": "2026-02-13T05:17:28Z",
-    "modified": "2026-04-25T04:12:08Z",
+    "modified": "2026-09-02T04:01:23Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

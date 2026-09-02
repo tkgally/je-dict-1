@@ -2,7 +2,7 @@
   "id": "04441_rokuga",
   "headword": "{録画|ろくが}",
   "reading": "ろくが",
-  "part_of_speech": "noun, suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "recording (video)",
   "conjugation": {
     "type": "suru",
@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "04441_rokuga_ex1",
-      "japanese": "⟦ドラマ→ドラマ：03867_dorama⟧⟦を→を：00422_wo⟧{録画|ろくが}して⟦おいた→置く：01092_oku⟧。",
+      "japanese": "⟦ドラマ→ドラマ：03867_dorama⟧⟦を→を：00422_wo⟧{録画|ろくが}⟦して→する：00392_suru⟧⟦おいた→置く：01092_oku⟧。",
       "english": "I recorded the drama.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "04441_rokuga_ex3",
-      "japanese": "{録画|ろくが}した⟦{番組|ばんぐみ}→番組：01705_bangumi⟧⟦を→を：00422_wo⟧⟦{見|み}る→見る：00283_miru⟧。",
+      "japanese": "{録画|ろくが}⟦した→する：00392_suru⟧⟦{番組|ばんぐみ}→番組：01705_bangumi⟧⟦を→を：00422_wo⟧⟦{見|み}る→見る：00283_miru⟧。",
       "english": "I watch the recorded program.",
       "notes": null,
       "has_audio": false,
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "COMPOUND: {録|ろく} (record) + {画|が} (image)\n\nCOMMON COLLOCATIONS:\n・{録画|ろくが}⟦{予約|よやく}→予約：01522_yoyaku⟧ (scheduled recording)\n・{録画|ろくが}⟦{再生|さいせい}→再生：04442_saisei⟧ (playback)\n・{録画|ろくが}⟦を→を：00422_wo⟧⟦{消|け}す→消す：00528_kesu⟧ (to delete a recording)\n・{録画|ろくが}⟦{時間|じかん}→時間：00468_jikan⟧ (recording time)\n\nCONTRAST:\n・{録画|ろくが} - video recording\n・⟦{録音|ろくおん}→録音：05107_rokuon⟧ - audio recording\n\nRELATED TERMS:\n・⟦{再生|さいせい}→再生：04442_saisei⟧ (playback)\n・⟦HDDレコーダー→HDDレコーダー：noentry⟧ (HDD recorder)",
+  "notes": "COMPOUND: {録|ろく} (record) + {画|が} (image)\n\nCOMMON COLLOCATIONS:\n- {録画|ろくが}⟦{予約|よやく}→予約：01522_yoyaku⟧ (scheduled recording)\n- {録画|ろくが}⟦{再生|さいせい}→再生：04442_saisei⟧ (playback)\n- {録画|ろくが}⟦を→を：00422_wo⟧⟦{消|け}す→消す：00528_kesu⟧ (to delete a recording)\n- {録画|ろくが}⟦{時間|じかん}→時間：00468_jikan⟧ (recording time)\n\nSIMILAR WORDS:\n- {録画|ろくが} - video recording\n- ⟦{録音|ろくおん}→録音：05107_rokuon⟧ - audio recording\n\nRELATED WORDS:\n- ⟦{再生|さいせい}→再生：04442_saisei⟧ (playback)\n- ⟦HDDレコーダー→HDDレコーダー：noentry⟧ (HDD recorder)",
   "cross_references": [
     {
       "type": "contrast",
@@ -148,11 +148,67 @@
       "reading": "さいせい",
       "headword": "{再生|さいせい}",
       "label": "playback"
+    },
+    {
+      "type": "related",
+      "target_id": "07137_bouhankamera",
+      "reading": "ぼうはんかめら",
+      "headword": "{防犯|ぼうはん}カメラ",
+      "label": "security camera"
+    },
+    {
+      "type": "related",
+      "target_id": "08172_namahousou",
+      "reading": "なまほうそう",
+      "headword": "{生放送|なまほうそう}",
+      "label": "live broadcast"
+    },
+    {
+      "type": "related",
+      "target_id": "08297_minogashi",
+      "reading": "みのがし",
+      "headword": "{見逃|みのが}し",
+      "label": "overlooking"
+    },
+    {
+      "type": "related",
+      "target_id": "08378_shuuroku",
+      "reading": "しゅうろく",
+      "headword": "{収録|しゅうろく}",
+      "label": "recording (TV/audio)"
+    },
+    {
+      "type": "antonym",
+      "target_id": "16355_namachuukei",
+      "reading": "なまちゅうけい",
+      "headword": "{生中継|なまちゅうけい}",
+      "label": "live broadcast"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21990_satsueisuru",
+      "reading": "さつえいする",
+      "headword": "{撮影|さつえい}する",
+      "label": "to photograph"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25341_kirokusuru",
+      "reading": "きろくする",
+      "headword": "{記録|きろく}する",
+      "label": "to record"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25388_rokuonsuru",
+      "reading": "ろくおんする",
+      "headword": "{録音|ろくおん}する",
+      "label": "to record (audio)"
     }
   ],
   "metadata": {
     "created": "2026-01-14T14:59:53Z",
-    "modified": "2026-06-10T17:34:32Z",
+    "modified": "2026-09-02T04:01:04Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -166,7 +222,8 @@
         "electronics",
         "leisure"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

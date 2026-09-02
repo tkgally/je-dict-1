@@ -3,7 +3,7 @@
   "id": "14202_toubatsu",
   "headword": "{討伐|とうばつ}",
   "reading": "とうばつ",
-  "part_of_speech": "noun, suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "subjugation, suppression, punitive expedition",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "14202_toubatsu_ex1",
-      "japanese": "{反乱軍|はんらんぐん}を{討伐|とうばつ}する。",
+      "japanese": "{反乱軍|はんらんぐん}⟦を→を：00422_wo⟧{討伐|とうばつ}⟦する→する：00392_suru⟧。",
       "english": "To subjugate the rebel army.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "14202_toubatsu_ex2",
-      "japanese": "{朝廷|ちょうてい}は{討伐|とうばつ}{軍|ぐん}を{派遣|はけん}した。",
+      "japanese": "⟦{朝廷|ちょうてい}→朝廷：13081_choutei⟧⟦は→は：00079_ha⟧{討伐|とうばつ}⟦{軍|ぐん}→軍：02677_gun⟧⟦を→を：00422_wo⟧⟦{派遣|はけん}→派遣：13273_haken⟧⟦した→する：00392_suru⟧。",
       "english": "The imperial court dispatched a punitive force.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "14202_toubatsu_ex3",
-      "japanese": "このゲームでは{仲間|なかま}と{協力|きょうりょく}して{強敵|きょうてき}を{討伐|とうばつ}するのが{醍醐味|だいごみ}だ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦ゲーム→ゲーム：03842_geemu⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{仲間|なかま}→仲間：03498_nakama⟧⟦と→と：00512_to⟧⟦{協力|きょうりょく}して→協力する：25370_kyouryokusuru⟧⟦{強敵|きょうてき}→強敵：19957_kyouteki⟧⟦を→を：00422_wo⟧{討伐|とうばつ}⟦する→する：00392_suru⟧⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦{醍醐味|だいごみ}→醍醐味：14412_daigomi⟧だ。",
       "english": "The appeal of this game is cooperating with allies to defeat powerful enemies.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "COMMON COLLOCATIONS:\n- {討伐|とうばつ}{軍|ぐん}: punitive force, subjugation army\n- {討伐|とうばつ}{隊|たい}: subjugation squad\n- {賊|ぞく}を{討伐|とうばつ}する: to suppress bandits/rebels\n- モンスター{討伐|とうばつ}: monster subjugation (gaming)\n\nUSAGE:\nOriginally a historical and military term, now widely used in gaming, anime, and fantasy fiction for defeating enemies or bosses. In historical contexts, it implies authorized military action against those deemed rebels or outlaws. In gaming contexts, it has become a standard term for organized attacks against powerful foes.",
+  "notes": "COMMON COLLOCATIONS:\n- {討伐|とうばつ}⟦{軍|ぐん}→軍：02677_gun⟧: punitive force, subjugation army\n- {討伐|とうばつ}⟦{隊|たい}→隊：03383_tai⟧: subjugation squad\n- {賊|ぞく}⟦を→を：00422_wo⟧{討伐|とうばつ}⟦する→する：00392_suru⟧: to suppress bandits/rebels\n- ⟦モンスター→モンスター：12842_monsutaa⟧{討伐|とうばつ}: monster subjugation (gaming)\n\nUSAGE:\nOriginally a historical and military term, now widely used in gaming, anime, and fantasy fiction for defeating enemies or bosses. In historical contexts, it implies authorized military action against those deemed rebels or outlaws. In gaming contexts, it has become a standard term for organized attacks against powerful foes.",
   "cross_references": [
     {
       "type": "synonym",
@@ -149,11 +149,18 @@
       "reading": "ちんあつ",
       "headword": "{鎮圧|ちんあつ}",
       "label": "suppression, crackdown"
+    },
+    {
+      "type": "related",
+      "target_id": "14820_utsu",
+      "reading": "うつ",
+      "headword": "{討|う}つ",
+      "label": "to strike down"
     }
   ],
   "metadata": {
     "created": "2026-02-28T02:21:48Z",
-    "modified": "2026-04-30T06:34:37Z",
+    "modified": "2026-09-02T04:01:36Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -166,7 +173,8 @@
       "semantic": [
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

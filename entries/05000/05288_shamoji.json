@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "05288_shamoji_ex1",
-      "japanese": "{杓文字|しゃもじ}で⟦ご{飯|はん}→ご飯：00776_gohan⟧⟦を→を：00422_wo⟧⟦よそう→よそう：12736_yosou⟧。",
+      "japanese": "{杓文字|しゃもじ}⟦で→で：00502_de⟧⟦ご{飯|はん}→ご飯：00776_gohan⟧⟦を→を：00422_wo⟧⟦よそう→よそう：12736_yosou⟧。",
       "english": "To scoop rice with a rice paddle.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "05288_shamoji_ex3",
-      "japanese": "⟦{木|き}→木：00524_ki⟧の{杓文字|しゃもじ}とプラスチックの{杓文字|しゃもじ}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
+      "japanese": "⟦{木|き}→木：00524_ki⟧⟦の→の：09472_no⟧{杓文字|しゃもじ}⟦と→と：00512_to⟧⟦プラスチック→プラスチック：00347_purasuchikku⟧⟦の→の：09472_no⟧{杓文字|しゃもじ}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There are wooden and plastic rice paddles.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
     },
     {
       "id": "05288_shamoji_ex4",
-      "japanese": "⟦ご{飯|はん}→ご飯：00776_gohan⟧⟦が→が：00051_ga⟧⟦{炊|た}けたら→炊く：02127_taku⟧{杓文字|しゃもじ}で⟦{混|ま}ぜて→混ぜる：02423_mazeru⟧⟦ください→ください：02899_kudasai⟧。",
+      "japanese": "⟦ご{飯|はん}→ご飯：00776_gohan⟧⟦が→が：00051_ga⟧⟦{炊|た}けたら→炊く：02127_taku⟧{杓文字|しゃもじ}⟦で→で：00502_de⟧⟦{混|ま}ぜて→混ぜる：02423_mazeru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "When the rice is done, please mix it with the rice paddle.",
       "notes": null,
       "has_audio": false,
@@ -63,11 +63,26 @@
       ]
     }
   ],
-  "notes": "{杓文字|しゃもじ} is a flat paddle used for scooping and serving rice — an essential kitchen tool in Japanese homes. Usually written in hiragana as しゃもじ.\n\nCOMMON PATTERNS:\n- しゃもじで⟦ご{飯|はん}→ご飯：00776_gohan⟧⟦を→を：00422_wo⟧⟦よそう→よそう：12736_yosou⟧: to scoop rice with a paddle\n- しゃもじで⟦{混|ま}ぜる→混ぜる：02423_mazeru⟧: to stir/mix with a paddle\n- しゃもじ⟦を→を：00422_wo⟧⟦{水|みず}→水：02258_mizu⟧⟦で→で：00502_de⟧⟦ぬらす→ぬらす：02386_nurasu⟧: to wet the paddle (prevents sticking)\n\nMATERIALS:\n- ⟦{木|き}→木：00524_ki⟧のしゃもじ: wooden rice paddle (traditional)\n- プラスチックのしゃもじ: plastic rice paddle (modern, often non-stick)\n\nCULTURAL NOTE:\n{宮島|みやじま} ({広島県|ひろしまけん}) is famous for large decorative しゃもじ sold as souvenirs. Historically, しゃもじ have been associated with good luck and prayers for victory.",
-  "cross_references": [],
+  "notes": "{杓文字|しゃもじ} is a flat paddle used for scooping and serving rice — an essential kitchen tool in Japanese homes. Usually written in hiragana as しゃもじ.\n\nCOMMON PATTERNS:\n- しゃもじ⟦で→で：00502_de⟧⟦ご{飯|はん}→ご飯：00776_gohan⟧⟦を→を：00422_wo⟧⟦よそう→よそう：12736_yosou⟧: to scoop rice with a paddle\n- しゃもじ⟦で→で：00502_de⟧⟦{混|ま}ぜる→混ぜる：02423_mazeru⟧: to stir/mix with a paddle\n- しゃもじ⟦を→を：00422_wo⟧⟦{水|みず}→水：02258_mizu⟧⟦で→で：00502_de⟧⟦ぬらす→ぬらす：02386_nurasu⟧: to wet the paddle (prevents sticking)\n\nMATERIALS:\n- ⟦{木|き}→木：00524_ki⟧⟦の→の：09472_no⟧しゃもじ: wooden rice paddle (traditional)\n- ⟦プラスチック→プラスチック：00347_purasuchikku⟧⟦の→の：09472_no⟧しゃもじ: plastic rice paddle (modern, often non-stick)\n\nCULTURAL NOTE:\n{宮島|みやじま} ({広島県|ひろしまけん}) is famous for large decorative しゃもじ sold as souvenirs. Historically, しゃもじ have been associated with good luck and prayers for victory.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "04471_otama",
+      "reading": "おたま",
+      "headword": "おたま",
+      "label": "ladle"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25493_hishaku",
+      "reading": "ひしゃく",
+      "headword": "{柄杓|ひしゃく}",
+      "label": "ladle"
+    }
+  ],
   "metadata": {
     "created": "2026-01-16T05:20:28Z",
-    "modified": "2026-07-29T21:21:40Z",
+    "modified": "2026-09-02T04:01:06Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

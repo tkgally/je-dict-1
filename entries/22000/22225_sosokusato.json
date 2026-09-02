@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22225_sosokusato_ex1",
-      "japanese": "そそくさと{帰|かえ}った。",
+      "japanese": "そそくさと⟦{帰|かえ}った→帰る：00508_kaeru⟧。",
       "english": "He left in a hurry.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22225_sosokusato_ex2",
-      "japanese": "{彼女|かのじょ}はそそくさと{席|せき}を{立|た}った。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧そそくさと⟦{席|せき}→席：02215_seki⟧⟦を→を：00422_wo⟧⟦{立|た}った→立つ：00758_tatsu⟧。",
       "english": "She hastily got up from her seat.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22225_sosokusato_ex3",
-      "japanese": "{食事|しょくじ}をそそくさと{済|す}ませて{出|で}かけた。",
+      "japanese": "⟦{食事|しょくじ}→食事：02087_shokuji⟧⟦を→を：00422_wo⟧そそくさと⟦{済|す}ませて→済む：01950_sumu⟧⟦{出|で}かけた→出かける：00833_dekakeru⟧。",
       "english": "I hurriedly finished my meal and headed out.",
       "sense_numbers": [
         1
@@ -45,7 +45,7 @@
     },
     {
       "id": "22225_sosokusato_ex4",
-      "japanese": "{気|き}まずい{雰囲気|ふんいき}を{感|かん}じたのか、{彼|かれ}はそそくさとその{場|ば}を{離|はな}れた。",
+      "japanese": "⟦{気|き}まずい→気まずい：06536_kimazui⟧⟦{雰囲気|ふんいき}→雰囲気：03604_funiki⟧⟦を→を：00422_wo⟧⟦{感|かん}じた→感じる：02044_kanjiru⟧⟦の→の：09472_no⟧⟦か→か：09473_ka⟧、⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧そそくさと⟦その→その：00993_sono⟧⟦{場|ば}→場：03699_ba⟧⟦を→を：00422_wo⟧⟦{離|はな}れた→離れる：02397_hanareru⟧。",
       "english": "Perhaps sensing the awkward atmosphere, he hurriedly left the place.",
       "sense_numbers": [
         1
@@ -54,8 +54,31 @@
       "notes": null
     }
   ],
-  "notes": "An onomatopoeic adverb describing hurried, somewhat restless movement. Unlike neutral words for 'quickly,' そそくさと carries a nuance of wanting to escape a situation — the person feels uncomfortable, guilty, or simply doesn't want to linger.\n\nCOMMON COLLOCATIONS:\n- そそくさと{帰|かえ}る: to hurry home\n- そそくさと{立|た}ち{去|さ}る: to leave hastily\n- そそくさと{片|かた}づける: to hastily clean up\n- そそくさと{席|せき}を{立|た}つ: to hastily leave one's seat\n\nUSAGE:\nThe と particle is almost always attached. Can also appear without と as そそくさ before certain verbs. The word implies a psychological motivation for haste — the person isn't just fast, they actively want to leave or finish.\n\nSIMILAR WORDS:\n- {急|いそ}いで: hurriedly — neutral, no implication of discomfort\n- さっさと: quickly; promptly — can be impatient or efficient, not necessarily uncomfortable\n- こそこそ: sneakily; furtively — emphasizes secrecy rather than haste",
+  "notes": "An onomatopoeic adverb describing hurried, somewhat restless movement. Unlike neutral words for 'quickly,' そそくさと carries a nuance of wanting to escape a situation — the person feels uncomfortable, guilty, or simply doesn't want to linger.\n\nCOMMON COLLOCATIONS:\n- そそくさと⟦{帰|かえ}る→帰る：00508_kaeru⟧: to hurry home\n- そそくさと⟦{立|た}ち{去|さ}る→立ち去る：04640_tachisaru⟧: to leave hastily\n- そそくさと{片|かた}づける: to hastily clean up\n- そそくさと⟦{席|せき}→席：02215_seki⟧⟦を→を：00422_wo⟧⟦{立|た}つ→立つ：00758_tatsu⟧: to hastily leave one's seat\n\nUSAGE:\nThe ⟦と→と：00512_to⟧ particle is almost always attached. Can also appear without ⟦と→と：00512_to⟧ as ⟦そそくさ→そそくさ：07516_sosokusa⟧ before certain verbs. The word implies a psychological motivation for haste — the person isn't just fast, they actively want to leave or finish.\n\nSIMILAR WORDS:\n- ⟦{急|いそ}いで→急ぐ：01191_isogu⟧: hurriedly — neutral, no implication of discomfort\n- ⟦さっさと→さっさと：05795_sassato⟧: quickly; promptly — can be impatient or efficient, not necessarily uncomfortable\n- ⟦こそこそ→こそこそ：05792_kosokoso⟧: sneakily; furtively — emphasizes secrecy rather than haste",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19486_isoide",
+      "reading": "いそいで",
+      "headword": "{急|いそ}いで",
+      "label": "hurriedly"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05795_sassato",
+      "reading": "さっさと",
+      "headword": "さっさと",
+      "label": "quickly"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05792_kosokoso",
+      "reading": "こそこそ",
+      "headword": "こそこそ",
+      "label": "sneakily"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -70,6 +93,6 @@
       ]
     },
     "created": "2026-04-05T15:13:24Z",
-    "modified": "2026-04-10T08:28:27Z"
+    "modified": "2026-09-02T04:02:07Z"
   }
 }

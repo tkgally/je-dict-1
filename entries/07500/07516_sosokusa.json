@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "07516_sosokusa_ex1",
-      "japanese": "{彼|かれ}はそそくさと{帰|かえ}っていった。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧そそくさ⟦と→と：00512_to⟧⟦{帰|かえ}って→帰る：00508_kaeru⟧いった。",
       "english": "He hurried away.",
       "has_audio": false,
       "sense_numbers": [
@@ -23,7 +23,7 @@
     },
     {
       "id": "07516_sosokusa_ex2",
-      "japanese": "{食事|しょくじ}を{終|お}えるとそそくさと{席|せき}を{立|た}った。",
+      "japanese": "⟦{食事|しょくじ}→食事：02087_shokuji⟧⟦を→を：00422_wo⟧⟦{終|お}える→終える：02019_oeru⟧⟦と→と：00512_to⟧そそくさ⟦と→と：00512_to⟧⟦{席|せき}→席：02215_seki⟧⟦を→を：00422_wo⟧⟦{立|た}った→立つ：00758_tatsu⟧。",
       "english": "After finishing the meal, they hastily got up from their seat.",
       "has_audio": false,
       "sense_numbers": [
@@ -32,7 +32,7 @@
     },
     {
       "id": "07516_sosokusa_ex3",
-      "japanese": "そそくさと{準備|じゅんび}をして{出|で}かけた。",
+      "japanese": "そそくさ⟦と→と：00512_to⟧⟦{準備|じゅんび}→準備：01431_junbi⟧⟦を→を：00422_wo⟧⟦して→する：00392_suru⟧⟦{出|で}かけた→出かける：00833_dekakeru⟧。",
       "english": "They hurriedly got ready and left.",
       "has_audio": false,
       "sense_numbers": [
@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "notes": "MIMETIC TYPE:\nOnomatopoeia expressing quick, somewhat furtive movement.\n\nCOMMON PATTERNS:\n・そそくさと{帰|かえ}る - to hurry home\n・そそくさと{立|た}ち{去|さ}る - to leave in a hurry\n・そそくさと{片付|かたづ}ける - to clean up hastily\n\nNUANCE:\nImplies leaving without staying to chat or lingering. Often suggests the person wants to avoid further interaction or has somewhere urgent to be. Can have a slightly negative connotation of being unsociable.\n\nSIMILAR EXPRESSIONS:\n・{急|いそ}いで - in a hurry (neutral)\n・ばたばたと - frantically, busily\n・こそこそ - stealthily, sneakily",
+  "notes": "MIMETIC TYPE:\nOnomatopoeia expressing quick, somewhat furtive movement.\n\nCOMMON PATTERNS:\n- そそくさ⟦と→と：00512_to⟧⟦{帰|かえ}る→帰る：00508_kaeru⟧ - to hurry home\n- そそくさ⟦と→と：00512_to⟧⟦{立|た}ち{去|さ}る→立ち去る：04640_tachisaru⟧ - to leave in a hurry\n- そそくさ⟦と→と：00512_to⟧⟦{片付|かたづ}ける→片付ける：01192_katazukeru⟧ - to clean up hastily\n\nUSAGE:\nImplies leaving without staying to chat or lingering. Often suggests the person wants to avoid further interaction or has somewhere urgent to be. Can have a slightly negative connotation of being unsociable.\n\nSIMILAR WORDS:\n- ⟦{急|いそ}いで→急ぐ：01191_isogu⟧ - in a hurry (neutral)\n- ⟦ばたばた→ばたばた：05353_batabata⟧⟦と→と：00512_to⟧ - frantically, busily\n- ⟦こそこそ→こそこそ：05792_kosokoso⟧ - stealthily, sneakily",
   "cross_references": [
     {
       "type": "related",
@@ -48,11 +48,18 @@
       "reading": "こそこそ",
       "headword": "こそこそ",
       "label": "stealthily, sneakily"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19486_isoide",
+      "reading": "いそいで",
+      "headword": "{急|いそ}いで",
+      "label": "in a hurry"
     }
   ],
   "metadata": {
     "created": "2026-01-20T08:19:38Z",
-    "modified": "2026-04-18T08:05:14Z",
+    "modified": "2026-09-02T04:01:11Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +67,7 @@
         "adverb"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "descriptive"
       ]

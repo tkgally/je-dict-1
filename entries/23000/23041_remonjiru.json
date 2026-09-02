@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "23041_remonjiru_ex1",
-      "japanese": "レモン{汁|じる}をかける。",
+      "japanese": "レモン{汁|じる}⟦を→を：00422_wo⟧⟦かける→かける：00854_kakeru⟧。",
       "english": "To drizzle lemon juice on something.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "23041_remonjiru_ex2",
-      "japanese": "{料理|りょうり}にレモン{汁|じる}を{加|くわ}える。",
+      "japanese": "⟦{料理|りょうり}→料理：01523_ryouri⟧⟦に→に：00314_ni⟧レモン{汁|じる}⟦を→を：00422_wo⟧⟦{加|くわ}える→加える：01941_kuwaeru⟧。",
       "english": "To add lemon juice to the dish.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "23041_remonjiru_ex3",
-      "japanese": "りんごの{変色|へんしょく}を{防|ふせ}ぐために、レモン{汁|じる}を{少|すこ}し{垂|た}らすとよい。",
+      "japanese": "⟦りんご→りんご：02269_ringo⟧⟦の→の：09472_no⟧{変色|へんしょく}⟦を→を：00422_wo⟧⟦{防|ふせ}ぐ→防ぐ：02409_fusegu⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧、レモン{汁|じる}⟦を→を：00422_wo⟧⟦{少|すこ}し→少し：00596_sukoshi⟧⟦{垂|た}らす→垂らす：05339_tarasu⟧⟦と→と：00512_to⟧よい。",
       "english": "To prevent apples from discoloring, it helps to add a few drops of lemon juice.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "A straightforward compound of the loanword レモン (lemon) and {汁|じる} (juice, liquid). In recipes, レモン{汁|じる} is one of the most frequently called-for ingredients. The reading じる (not しる) is standard in this compound.\n\nCOMMON COLLOCATIONS:\n- レモン{汁|じる}をかける: to sprinkle lemon juice\n- レモン{汁|じる}を{絞|しぼ}る: to squeeze lemon juice\n- レモン{汁|じる}{大|おお}さじ1: one tablespoon of lemon juice\n- レモン{汁|じる}を{加|くわ}える: to add lemon juice\n\nSIMILAR WORDS:\n- レモン{果汁|かじゅう}: lemon juice — a more formal term, often used on product labels\n- {柑橘類|かんきつるい}の{果汁|かじゅう}: citrus juice — the broader category\n- {酢|す}: vinegar — sometimes used as a substitute for lemon juice in cooking",
+  "notes": "A straightforward compound of the loanword ⟦レモン→レモン：10456_remon⟧ (lemon) and {汁|じる} (juice, liquid). In recipes, レモン{汁|じる} is one of the most frequently called-for ingredients. The reading じる (not しる) is standard in this compound.\n\nCOMMON COLLOCATIONS:\n- レモン{汁|じる}⟦を→を：00422_wo⟧⟦かける→かける：00854_kakeru⟧: to sprinkle lemon juice\n- レモン{汁|じる}⟦を→を：00422_wo⟧⟦{絞|しぼ}る→絞る：03926_shiboru⟧: to squeeze lemon juice\n- レモン{汁|じる}⟦{大|おお}さじ→大さじ：22527_oosaji⟧1: one tablespoon of lemon juice\n- レモン{汁|じる}⟦を→を：00422_wo⟧⟦{加|くわ}える→加える：01941_kuwaeru⟧: to add lemon juice\n\nSIMILAR WORDS:\n- ⟦レモン→レモン：10456_remon⟧⟦{果汁|かじゅう}→果汁：15335_kajuu⟧: lemon juice — a more formal term, often used on product labels\n- ⟦{柑橘類|かんきつるい}→柑橘類：15619_kankitsurui⟧⟦の→の：09472_no⟧⟦{果汁|かじゅう}→果汁：15335_kajuu⟧: citrus juice — the broader category\n- ⟦{酢|す}→酢：01057_su⟧: vinegar — sometimes used as a substitute for lemon juice in cooking",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01057_su",
+      "reading": "す",
+      "headword": "{酢|す}",
+      "label": "vinegar"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +69,6 @@
       ]
     },
     "created": "2026-04-08T16:33:14Z",
-    "modified": "2026-04-10T08:28:27Z"
+    "modified": "2026-09-02T04:02:10Z"
   }
 }

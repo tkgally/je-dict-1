@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28834_oshibana_ex1",
-      "japanese": "{押|お}し{花|ばな}を{作|つく}った。",
+      "japanese": "{押|お}し{花|ばな}⟦を→を：00422_wo⟧⟦{作|つく}った→作る：00481_tsukuru⟧。",
       "english": "I made pressed flowers.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28834_oshibana_ex2",
-      "japanese": "{本|ほん}の{間|あいだ}に{挟|はさ}んで{押|お}し{花|ばな}にした。",
+      "japanese": "{本|ほん}⟦の→の：09472_no⟧⟦{間|あいだ}→間：00914_aida⟧⟦に→に：00314_ni⟧⟦{挟|はさ}んで→挟む：00091_hasamu⟧{押|お}し{花|ばな}にした。",
       "english": "I pressed it between the pages of a book to make a pressed flower.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28834_oshibana_ex3",
-      "japanese": "{祖母|そぼ}は{押|お}し{花|ばな}で{作|つく}ったしおりを{大切|たいせつ}に{保管|ほかん}していた。",
+      "japanese": "⟦{祖母|そぼ}→祖母：00813_sobo⟧⟦は→は：00079_ha⟧{押|お}し{花|ばな}⟦で→で：00502_de⟧⟦{作|つく}った→作る：00481_tsukuru⟧⟦しおり→しおり：09754_shiori⟧⟦を→を：00422_wo⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧⟦に→に：00314_ni⟧⟦{保管|ほかん}していた→保管する：25536_hokansuru⟧。",
       "english": "My grandmother carefully kept the bookmark she had made from pressed flowers.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "{押|お}し (pressing) + {花|はな} (flower); the second element voices to ばな in the compound. A classic summer-vacation craft project for elementary school children.\n\nCOMMON COLLOCATIONS:\n- {押|お}し{花|ばな}を{作|つく}る: to make pressed flowers\n- {押|お}し{花|ばな}にする: to turn into a pressed flower\n- {押|お}し{花|ばな}のしおり: a pressed-flower bookmark\n- {押|お}し{花|ばな}{教室|きょうしつ}: pressed-flower class\n\nSIMILAR WORDS:\n- ドライフラワー: dried flowers — air-dried, three-dimensional, not pressed flat\n- {標本|ひょうほん}: specimen — a more scientific term, for plants preserved for study",
+  "notes": "{押|お}し (pressing) + ⟦{花|はな}→花：00523_hana⟧ (flower); the second element voices to ばな in the compound. A classic summer-vacation craft project for elementary school children.\n\nCOMMON COLLOCATIONS:\n- {押|お}し{花|ばな}⟦を→を：00422_wo⟧⟦{作|つく}る→作る：00481_tsukuru⟧: to make pressed flowers\n- {押|お}し{花|ばな}⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧: to turn into a pressed flower\n- {押|お}し{花|ばな}⟦の→の：09472_no⟧⟦しおり→しおり：09754_shiori⟧: a pressed-flower bookmark\n- {押|お}し{花|ばな}⟦{教室|きょうしつ}→教室：00794_kyoushitsu⟧: pressed-flower class\n\nSIMILAR WORDS:\n- ⟦ドライ→ドライ：11147_dorai⟧フラワー: dried flowers — air-dried, three-dimensional, not pressed flat\n- ⟦{標本|ひょうほん}→標本：13174_hyouhon⟧: specimen — a more scientific term, for plants preserved for study",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13174_hyouhon",
+      "reading": "ひょうほん",
+      "headword": "{標本|ひょうほん}",
+      "label": "specimen"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +62,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "leisure",
         "plant-flower"
@@ -61,6 +70,6 @@
       "domain": []
     },
     "created": "2026-06-06T02:07:42Z",
-    "modified": "2026-08-08T18:34:17Z"
+    "modified": "2026-09-02T04:02:35Z"
   }
 }

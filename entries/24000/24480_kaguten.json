@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24480_kaguten_ex1",
-      "japanese": "{家具店|かぐてん}で{机|つくえ}を{買|か}った。",
+      "japanese": "{家具店|かぐてん}⟦で→で：00502_de⟧⟦{机|つくえ}→机：00762_tsukue⟧⟦を→を：00422_wo⟧⟦{買|か}った→買う：00489_kau⟧。",
       "english": "I bought a desk at a furniture store.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24480_kaguten_ex2",
-      "japanese": "{駅前|えきまえ}に{大|おお}きな{家具店|かぐてん}がある。",
+      "japanese": "⟦{駅前|えきまえ}→駅前：09593_ekimae⟧⟦に→に：00314_ni⟧⟦{大|おお}きな→大きな：02849_ookina⟧{家具店|かぐてん}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There is a large furniture store in front of the station.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24480_kaguten_ex3",
-      "japanese": "{引|ひ}っ{越|こ}しの{前|まえ}に{家具店|かぐてん}を{何軒|なんけん}か{回|まわ}って、ソファを{選|えら}んだ。",
+      "japanese": "{引|ひ}っ{越|こ}し⟦の→の：09472_no⟧⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧{家具店|かぐてん}⟦を→を：00422_wo⟧{何軒|なんけん}⟦か→か：09473_ka⟧⟦{回|まわ}って→回る：01150_mawaru⟧、⟦ソファ→ソファ：04485_sofa⟧⟦を→を：00422_wo⟧⟦{選|えら}んだ→選ぶ：00835_erabu⟧。",
       "english": "Before moving, I visited several furniture stores and chose a sofa.",
       "sense_numbers": [
         1
@@ -44,20 +44,30 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {家具|かぐ} (furniture) and {店|てん} (shop/store). This follows the standard Japanese pattern of combining a product category with {店|てん} to name a type of shop.\n\nCOMMON COLLOCATIONS:\n- {家具店|かぐてん}で{買|か}う: to buy at a furniture store\n- {家具店|かぐてん}を{回|まわ}る: to visit furniture stores\n- {大型|おおがた}{家具店|かぐてん}: large-scale furniture store\n- {老舗|しにせ}の{家具店|かぐてん}: long-established furniture shop\n\nRELATED TERMS:\n- {家具|かぐ}: furniture\n- {家具屋|かぐや}: furniture shop (more colloquial variant using {屋|や})\n- {家電量販店|かでんりょうはんてん}: electronics retail store",
+  "notes": "A compound of ⟦{家具|かぐ}→家具：12314_kagu⟧ (furniture) and ⟦{店|てん}→店：10011_ten⟧ (shop/store). This follows the standard Japanese pattern of combining a product category with ⟦{店|てん}→店：10011_ten⟧ to name a type of shop.\n\nCOMMON COLLOCATIONS:\n- {家具店|かぐてん}⟦で→で：00502_de⟧⟦{買|か}う→買う：00489_kau⟧: to buy at a furniture store\n- {家具店|かぐてん}⟦を→を：00422_wo⟧⟦{回|まわ}る→回る：01150_mawaru⟧: to visit furniture stores\n- ⟦{大型|おおがた}→大型：03016_oogata⟧{家具店|かぐてん}: large-scale furniture store\n- ⟦{老舗|しにせ}→老舗：16152_shinise⟧⟦の→の：09472_no⟧{家具店|かぐてん}: long-established furniture shop\n\nRELATED WORDS:\n- ⟦{家具|かぐ}→家具：12314_kagu⟧: furniture\n- {家具屋|かぐや}: furniture shop (more colloquial variant using ⟦{屋|や}→〜屋：03096_ya⟧)\n- ⟦{家電量販店|かでんりょうはんてん}→家電量販店：23345_kadenryouhanten⟧: electronics retail store",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "23345_kadenryouhanten",
+      "reading": "かでんりょうはんてん",
+      "headword": "{家電|かでん}{量販店|りょうはんてん}",
+      "label": "electronics retail store"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "shopping",
         "building"
       ]
     },
     "created": "2026-04-19T12:26:41Z",
-    "modified": "2026-08-02T18:32:34Z"
+    "modified": "2026-09-02T04:02:18Z"
   }
 }

@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "13679_hason_ex1",
-      "japanese": "{配送中|はいそうちゅう}に{破損|はそん}した。",
+      "japanese": "{配送中|はいそうちゅう}⟦に→に：00314_ni⟧{破損|はそん}⟦した→する：00392_suru⟧。",
       "english": "It was damaged during shipping.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "13679_hason_ex2",
-      "japanese": "{破損|はそん}した{部品|ぶひん}を{交換|こうかん}する{必要|ひつよう}がある。",
+      "japanese": "{破損|はそん}⟦した→する：00392_suru⟧⟦{部品|ぶひん}→部品：00020_buhin⟧⟦を→を：00422_wo⟧⟦{交換|こうかん}→交換：02746_koukan⟧⟦する→する：00392_suru⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "The damaged parts need to be replaced.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "13679_hason_ex3",
-      "japanese": "{台風|たいふう}で{屋根|やね}が{破損|はそん}し、{雨漏|あまも}りがひどくなった。",
+      "japanese": "⟦{台風|たいふう}→台風：01455_taifuu⟧⟦で→で：00502_de⟧⟦{屋根|やね}→屋根：02264_yane⟧⟦が→が：00051_ga⟧{破損|はそん}し、⟦{雨漏|あまも}り→雨漏り：07935_amamori⟧⟦が→が：00051_ga⟧⟦ひどく→ひどい：01097_hidoi⟧⟦なった→なる：01970_naru⟧。",
       "english": "The roof was damaged by the typhoon, and the leaking got worse.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nUsed for physical damage to concrete objects — goods, equipment, buildings, etc. Unlike {破壊|はかい} (total destruction), {破損|はそん} implies partial damage where the object still exists but is impaired. Frequently used in business, insurance, and logistics contexts.\n\nKANJI:\n{破|は} means \"to break\" and {損|そん} means \"loss\" or \"damage.\" The compound conveys the idea of breaking that results in loss of function or value.\n\nCOMMON COLLOCATIONS:\n- {破損|はそん}した{商品|しょうひん}: damaged goods\n- {破損|はそん}を{防|ふせ}ぐ: to prevent damage\n- {破損|はそん}{箇所|かしょ}: damaged area/point\n- {配送中|はいそうちゅう}の{破損|はそん}: damage during shipping",
+  "notes": "USAGE:\nUsed for physical damage to concrete objects — goods, equipment, buildings, etc. Unlike ⟦{破壊|はかい}→破壊：13678_hakai⟧ (total destruction), {破損|はそん} implies partial damage where the object still exists but is impaired. Frequently used in business, insurance, and logistics contexts.\n\nWRITING:\n{破|は} means \"to break\" and ⟦{損|そん}→損：03325_son⟧ means \"loss\" or \"damage.\" The compound conveys the idea of breaking that results in loss of function or value.\n\nCOMMON COLLOCATIONS:\n- {破損|はそん}⟦した→する：00392_suru⟧⟦{商品|しょうひん}→商品：01436_shouhin⟧: damaged goods\n- {破損|はそん}⟦を→を：00422_wo⟧⟦{防|ふせ}ぐ→防ぐ：02409_fusegu⟧: to prevent damage\n- {破損|はそん}⟦{箇所|かしょ}→箇所：00196_kasho⟧: damaged area/point\n- {配送中|はいそうちゅう}⟦の→の：09472_no⟧{破損|はそん}: damage during shipping",
   "cross_references": [
     {
       "type": "contrast",
@@ -148,11 +148,25 @@
       "reading": "きそん",
       "headword": "{毀損|きそん}",
       "label": "damage, defamation (legal)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21079_sonshou",
+      "reading": "そんしょう",
+      "headword": "{損傷|そんしょう}",
+      "label": "damage"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24642_busson",
+      "reading": "ぶっそん",
+      "headword": "{物損|ぶっそん}",
+      "label": "property damage"
     }
   ],
   "metadata": {
     "created": "2026-02-26T12:53:08Z",
-    "modified": "2026-04-28T08:04:59Z",
+    "modified": "2026-09-02T04:01:34Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

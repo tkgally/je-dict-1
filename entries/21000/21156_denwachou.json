@@ -15,40 +15,66 @@
   "examples": [
     {
       "id": "21156_denwachou_ex1",
-      "japanese": "{電話帳|でんわちょう}で{番号|ばんごう}を{調|しら}べた。",
+      "japanese": "{電話帳|でんわちょう}⟦で→で：00502_de⟧⟦{番号|ばんごう}→番号：02939_bangou⟧⟦を→を：00422_wo⟧⟦{調|しら}べた→調べる：01213_shiraberu⟧。",
       "english": "I looked up the number in the phone book.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21156_denwachou_ex2",
-      "japanese": "スマホの{電話帳|でんわちょう}に{登録|とうろく}しておく。",
+      "japanese": "⟦スマホ→スマホ：04721_sumaho⟧⟦の→の：09472_no⟧{電話帳|でんわちょう}⟦に→に：00314_ni⟧⟦{登録|とうろく}して→登録する：25227_tourokusuru⟧おく。",
       "english": "I'll save it in my phone's contacts.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21156_denwachou_ex3",
-      "japanese": "{昔|むかし}はどの{家庭|かてい}にも{分厚|ぶあつ}い{電話帳|でんわちょう}があったが、{今|いま}ではほとんど{見|み}かけない。",
+      "japanese": "⟦{昔|むかし}→昔：01515_mukashi⟧⟦は→は：00079_ha⟧⟦どの→どの：00551_dono⟧⟦{家庭|かてい}→家庭：12315_katei⟧⟦に→に：00314_ni⟧⟦も→も：00484_mo⟧⟦{分厚|ぶあつ}い→分厚い：10502_buatsui⟧{電話帳|でんわちょう}⟦が→が：00051_ga⟧⟦あった→ある：00006_aru⟧⟦が→が：00051_ga⟧、⟦{今|いま}→今：00945_ima⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦ほとんど→ほとんど：00847_hotondo⟧⟦{見|み}かけない→見かける：01644_mikakeru⟧。",
       "english": "Every household used to have a thick phone book, but you hardly see them anymore.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {電話|でんわ} (telephone) + {帳|ちょう} (notebook, register). Traditionally referred to the printed telephone directory (like the Yellow Pages), but now more commonly refers to the contacts list on a smartphone.\n\nCOMMON COLLOCATIONS:\n- {電話帳|でんわちょう}に{載|の}っている: to be listed in the phone book\n- {電話帳|でんわちょう}に{登録|とうろく}する: to register in one's contacts\n- {電話帳|でんわちょう}を{整理|せいり}する: to organize one's contacts\n\nSIMILAR WORDS:\n- {連絡先|れんらくさき}: contact information — more general, not limited to phone numbers\n- {住所録|じゅうしょろく}: address book — includes physical addresses\n- タウンページ: Town Pages — Japan's yellow pages directory (brand name)",
+  "notes": "Composed of ⟦{電話|でんわ}→電話：01471_denwa⟧ (telephone) + ⟦{帳|ちょう}→帳：10012_chou⟧ (notebook, register). Traditionally referred to the printed telephone directory (like the Yellow Pages), but now more commonly refers to the contacts list on a smartphone.\n\nCOMMON COLLOCATIONS:\n- {電話帳|でんわちょう}⟦に→に：00314_ni⟧⟦{載|の}っている→載る：27882_noru⟧: to be listed in the phone book\n- {電話帳|でんわちょう}⟦に→に：00314_ni⟧⟦{登録|とうろく}する→登録する：25227_tourokusuru⟧: to register in one's contacts\n- {電話帳|でんわちょう}⟦を→を：00422_wo⟧⟦{整理|せいり}する→整理する：21729_seirisuru⟧: to organize one's contacts\n\nSIMILAR WORDS:\n- ⟦{連絡先|れんらくさき}→連絡先：03191_renrakusaki⟧: contact information — more general, not limited to phone numbers\n- ⟦{住所録|じゅうしょろく}→住所録：20471_juushoroku⟧: address book — includes physical addresses\n- タウン⟦ページ→ページ：02961_peeji⟧: Town Pages — Japan's yellow pages directory (brand name)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03191_renrakusaki",
+      "reading": "れんらくさき",
+      "headword": "{連絡先|れんらくさき}",
+      "label": "contact information"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20471_juushoroku",
+      "reading": "じゅうしょろく",
+      "headword": "{住所録|じゅうしょろく}",
+      "label": "address book"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["technology"]
+      "semantic": [
+        "technology"
+      ]
     },
     "created": "2026-03-31T21:37:50Z",
-    "modified": "2026-03-31T21:37:50Z"
+    "modified": "2026-09-02T04:02:02Z"
   }
 }

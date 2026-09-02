@@ -15,41 +15,88 @@
   "examples": [
     {
       "id": "13024_shotai_ex1",
-      "japanese": "{書体|しょたい}を{変|か}える。",
+      "japanese": "{書体|しょたい}⟦を→を：00422_wo⟧⟦{変|か}える→変える：01089_kaeru⟧。",
       "english": "To change the font.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13024_shotai_ex2",
-      "japanese": "この{書類|しょるい}にはどの{書体|しょたい}を{使|つか}いますか。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{書類|しょるい}→書類：01103_shorui⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦どの→どの：00551_dono⟧{書体|しょたい}⟦を→を：00422_wo⟧⟦{使|つか}います→使う：00473_tsukau⟧⟦か→か：09473_ka⟧。",
       "english": "Which typeface will you use for this document?",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13024_shotai_ex3",
-      "japanese": "{日本語|にほんご}には{楷書|かいしょ}や{行書|ぎょうしょ}など、さまざまな{書体|しょたい}がある。",
+      "japanese": "⟦{日本語|にほんご}→日本語：00614_nihongo⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{楷書|かいしょ}→楷書：13247_kaisho⟧や⟦{行書|ぎょうしょ}→行書：19195_gyousho⟧⟦など→〜など：03095_nado⟧、さまざまな{書体|しょたい}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "Japanese has various script styles such as block script and semi-cursive.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{書体|しょたい} refers to the style or design of written characters, covering both traditional calligraphic styles and modern digital typefaces.\n\nTRADITIONAL STYLES:\n- {楷書|かいしょ}: block script (standard, clear strokes)\n- {行書|ぎょうしょ}: semi-cursive script\n- {草書|そうしょ}: cursive script\n\nMODERN TYPEFACES:\n- {明朝体|みんちょうたい}: Ming/serif typeface\n- ゴシック{体|たい}: Gothic/sans-serif typeface\n\nCOMMON COLLOCATIONS:\n- {書体|しょたい}を{選|えら}ぶ: to choose a typeface\n- {書体|しょたい}を{変更|へんこう}する: to change the font\n- {書体|しょたい}の{種類|しゅるい}: types of typefaces\n\nSIMILAR WORDS:\nThe loanword フォント (font) is commonly used in digital contexts and is nearly interchangeable with {書体|しょたい} when referring to computer fonts.",
-  "cross_references": [],
+  "notes": "{書体|しょたい} refers to the style or design of written characters, covering both traditional calligraphic styles and modern digital typefaces.\n\nTRADITIONAL STYLES:\n- ⟦{楷書|かいしょ}→楷書：13247_kaisho⟧: block script (standard, clear strokes)\n- ⟦{行書|ぎょうしょ}→行書：19195_gyousho⟧: semi-cursive script\n- ⟦{草書|そうしょ}→草書：19196_sousho⟧: cursive script\n\nMODERN TYPEFACES:\n- ⟦{明朝体|みんちょうたい}→明朝体：22715_minchoutai⟧: Ming/serif typeface\n- ⟦ゴシック{体|たい}→ゴシック体：26661_goshikkutai⟧: Gothic/sans-serif typeface\n\nCOMMON COLLOCATIONS:\n- {書体|しょたい}⟦を→を：00422_wo⟧⟦{選|えら}ぶ→選ぶ：00835_erabu⟧: to choose a typeface\n- {書体|しょたい}⟦を→を：00422_wo⟧⟦{変更|へんこう}する→変更する：30779_henkousuru⟧: to change the font\n- {書体|しょたい}⟦の→の：09472_no⟧⟦{種類|しゅるい}→種類：01560_shurui⟧: types of typefaces\n\nSIMILAR WORDS:\nThe loanword ⟦フォント→フォント：20915_fonto⟧ (font) is commonly used in digital contexts and is nearly interchangeable with {書体|しょたい} when referring to computer fonts.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03337_jitai",
+      "reading": "じたい",
+      "headword": "{字体|じたい}",
+      "label": "font, typeface, lettering style"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17416_hisseki",
+      "reading": "ひっせき",
+      "headword": "{筆跡|ひっせき}",
+      "label": "handwriting"
+    },
+    {
+      "type": "related",
+      "target_id": "20915_fonto",
+      "reading": "ふぉんと",
+      "headword": "フォント",
+      "label": "font"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21946_shofuu",
+      "reading": "しょふう",
+      "headword": "{書風|しょふう}",
+      "label": "calligraphic style"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24284_jikei",
+      "reading": "じけい",
+      "headword": "{字形|じけい}",
+      "label": "character shape"
+    }
+  ],
   "metadata": {
     "created": "2026-02-23T06:33:33Z",
-    "modified": "2026-03-31T03:49:51Z",
+    "modified": "2026-09-02T04:01:31Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["art", "communication"]
+      "semantic": [
+        "art",
+        "communication"
+      ]
     }
   }
 }

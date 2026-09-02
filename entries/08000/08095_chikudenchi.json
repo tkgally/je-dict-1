@@ -14,30 +14,36 @@
   "examples": [
     {
       "id": "08095_chikudenchi_ex1",
-      "japanese": "{家庭用|かていよう}{蓄電池|ちくでんち}を{設置|せっち}した。",
+      "japanese": "⟦{家庭用|かていよう}→家庭用：16544_kateiyou⟧{蓄電池|ちくでんち}⟦を→を：00422_wo⟧⟦{設置|せっち}した→設置する：26989_secchisuru⟧。",
       "english": "We installed a home storage battery.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "08095_chikudenchi_ex2",
-      "japanese": "{蓄電池|ちくでんち}があれば{停電|ていでん}{時|じ}も{電気|でんき}が{使|つか}える。",
+      "japanese": "{蓄電池|ちくでんち}⟦が→が：00051_ga⟧⟦あれば→ある：00006_aru⟧⟦{停電|ていでん}→停電：03544_teiden⟧⟦{時|じ}→時：09869_ji⟧⟦も→も：00484_mo⟧⟦{電気|でんき}→電気：09780_denki⟧⟦が→が：00051_ga⟧⟦{使|つか}える→使う：00473_tsukau⟧。",
       "english": "With a storage battery, you can use electricity even during power outages.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "08095_chikudenchi_ex3",
-      "japanese": "{太陽光発電|たいようこうはつでん}と{蓄電池|ちくでんち}を{組|く}み{合|あ}わせることで{電気代|でんきだい}を{節約|せつやく}できる。",
+      "japanese": "⟦{太陽光発電|たいようこうはつでん}→太陽光発電：07831_taiyoukouhatsuden⟧⟦と→と：00512_to⟧{蓄電池|ちくでんち}⟦を→を：00422_wo⟧⟦{組|く}み{合|あ}わせる→組み合わせる：04659_kumiawaseru⟧こと⟦で→で：00502_de⟧⟦{電気代|でんきだい}→電気代：09543_denkidai⟧⟦を→を：00422_wo⟧⟦{節約|せつやく}できる→節約する：25226_setsuyakusuru⟧。",
       "english": "By combining solar power generation with a storage battery, you can save on electricity costs.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "USAGE:\n{蓄電池|ちくでんち} typically refers to larger rechargeable batteries used for home energy storage or industrial applications. For smaller rechargeable batteries like those in phones, {充電池|じゅうでんち} is more commonly used.\n\nRELATED TERMS:\n- {充電池|じゅうでんち} (rechargeable battery - for smaller devices)\n- {乾電池|かんでんち} (dry cell battery)\n- {太陽光発電|たいようこうはつでん} (solar power generation)\n- {蓄電|ちくでん} (electricity storage)",
+  "notes": "USAGE:\n{蓄電池|ちくでんち} typically refers to larger rechargeable batteries used for home energy storage or industrial applications. For smaller rechargeable batteries like those in phones, ⟦{充電池|じゅうでんち}→充電池：23748_juudenchi⟧ is more commonly used.\n\nRELATED WORDS:\n- ⟦{充電池|じゅうでんち}→充電池：23748_juudenchi⟧ (rechargeable battery - for smaller devices)\n- ⟦{乾電池|かんでんち}→乾電池：10188_kandenchi⟧ (dry cell battery)\n- ⟦{太陽光発電|たいようこうはつでん}→太陽光発電：07831_taiyoukouhatsuden⟧ (solar power generation)\n- ⟦{蓄電|ちくでん}→蓄電：06599_chikuden⟧ (electricity storage)",
   "cross_references": [
     {
       "type": "contrast",
@@ -52,16 +58,38 @@
       "reading": "じゅうでんち",
       "headword": "{充電池|じゅうでんち}",
       "label": "for smaller devices"
+    },
+    {
+      "type": "related",
+      "target_id": "07831_taiyoukouhatsuden",
+      "reading": "たいようこうはつでん",
+      "headword": "{太陽光発電|たいようこうはつでん}",
+      "label": "solar power generation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30068_richiumuiondenchi",
+      "reading": "りちうむいおんでんち",
+      "headword": "リチウムイオン{電池|でんち}",
+      "label": "lithium-ion battery"
     }
   ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "semantic": ["technology", "energy", "electricity", "equipment"]
+      "politeness": "plain",
+      "semantic": [
+        "technology",
+        "energy",
+        "electricity",
+        "equipment"
+      ]
     },
     "created": "2026-01-25T05:10:14Z",
-    "modified": "2026-04-20T04:12:15Z"
+    "modified": "2026-09-02T04:01:13Z"
   }
 }

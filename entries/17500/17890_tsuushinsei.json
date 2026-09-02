@@ -15,41 +15,66 @@
   "examples": [
     {
       "id": "17890_tsuushinsei_ex1",
-      "japanese": "{通信制|つうしんせい}の{高校|こうこう}に{通|かよ}っている。",
+      "japanese": "{通信制|つうしんせい}⟦の→の：09472_no⟧⟦{高校|こうこう}→高校：01083_koukou⟧⟦に→に：00314_ni⟧⟦{通|かよ}っている→通う：01217_kayou⟧。",
       "english": "I attend a correspondence high school.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17890_tsuushinsei_ex2",
-      "japanese": "{仕事|しごと}をしながら{通信制|つうしんせい}{大学|だいがく}で{学|まな}んでいる。",
+      "japanese": "⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦を→を：00422_wo⟧し⟦ながら→ながら：10530_nagara⟧{通信制|つうしんせい}{大学|だいがく}⟦で→で：00502_de⟧⟦{学|まな}んでいる→学ぶ：01987_manabu⟧。",
       "english": "I am studying at a correspondence university while working.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17890_tsuushinsei_ex3",
-      "japanese": "{通信制|つうしんせい}は{自分|じぶん}のペースで{勉強|べんきょう}できるのが{利点|りてん}だ。",
+      "japanese": "{通信制|つうしんせい}⟦は→は：00079_ha⟧⟦{自分|じぶん}→自分：02887_jibun⟧⟦の→の：09472_no⟧⟦ペース→ペース：11173_peesu⟧⟦で→で：00502_de⟧⟦{勉強|べんきょう}できる→勉強する：00527_benkyousuru⟧⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦{利点|りてん}→利点：11787_riten⟧だ。",
       "english": "The advantage of distance learning is that you can study at your own pace.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nMost commonly used as a modifier before educational institutions: {通信制|つうしんせい}{高校|こうこう} (correspondence high school) and {通信制|つうしんせい}{大学|だいがく} (correspondence university). Japan has a well-established system of {通信制|つうしんせい} schools.\n\nCOMMON COLLOCATIONS:\n- {通信制|つうしんせい}{高校|こうこう} (correspondence high school)\n- {通信制|つうしんせい}{大学|だいがく} (correspondence university)\n- {通信制|つうしんせい}の{課程|かてい} (correspondence course)\n\nRELATED WORDS:\n- {全日制|ぜんにちせい}: full-time (school) system\n- {定時制|ていじせい}: part-time (evening) school system",
-  "cross_references": [],
+  "notes": "USAGE:\nMost commonly used as a modifier before educational institutions: {通信制|つうしんせい}⟦{高校|こうこう}→高校：01083_koukou⟧ (correspondence high school) and {通信制|つうしんせい}{大学|だいがく} (correspondence university). Japan has a well-established system of {通信制|つうしんせい} schools.\n\nCOMMON COLLOCATIONS:\n- {通信制|つうしんせい}⟦{高校|こうこう}→高校：01083_koukou⟧ (correspondence high school)\n- {通信制|つうしんせい}{大学|だいがく} (correspondence university)\n- {通信制|つうしんせい}⟦の→の：09472_no⟧⟦{課程|かてい}→課程：02653_katei⟧ (correspondence course)\n\nRELATED WORDS:\n- ⟦{全日制|ぜんにちせい}→全日制：27057_zennichisei⟧: full-time (school) system\n- ⟦{定時制|ていじせい}→定時制：19786_teijisei⟧: part-time (evening) school system",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "27057_zennichisei",
+      "reading": "ぜんにちせい",
+      "headword": "{全日制|ぜんにちせい}",
+      "label": "full-time (school) system"
+    },
+    {
+      "type": "related",
+      "target_id": "19786_teijisei",
+      "reading": "ていじせい",
+      "headword": "{定時制|ていじせい}",
+      "label": "part-time (evening) school system"
+    }
+  ],
   "metadata": {
     "created": "2026-03-19T08:28:37Z",
-    "modified": "2026-03-19T08:28:37Z",
+    "modified": "2026-09-02T04:01:50Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["education"]
+      "semantic": [
+        "education"
+      ]
     }
   }
 }

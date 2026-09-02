@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "27139_samu_ex1",
-      "japanese": "{朝|あさ}の{作務|さむ}で{庭|にわ}を{掃|は}いた。",
+      "japanese": "⟦{朝|あさ}→朝：02277_asa⟧⟦の→の：09472_no⟧{作務|さむ}⟦で→で：00502_de⟧⟦{庭|にわ}→庭：02239_niwa⟧⟦を→を：00422_wo⟧⟦{掃|は}いた→掃く：04260_haku⟧。",
       "english": "I swept the garden during the morning work session.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "27139_samu_ex2",
-      "japanese": "{作務衣|さむえ}を{着|き}て{作務|さむ}に{取|と}りかかる。",
+      "japanese": "⟦{作務衣|さむえ}→作務衣：21339_samue⟧⟦を→を：00422_wo⟧⟦{着|き}て→着る：00541_kiru⟧{作務|さむ}⟦に→に：00314_ni⟧{取|と}りかかる。",
       "english": "I put on work clothes and start the temple chores.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "27139_samu_ex3",
-      "japanese": "{禅寺|ぜんでら}では{作務|さむ}も{修行|しゅぎょう}の{一環|いっかん}とされる。",
+      "japanese": "{禅寺|ぜんでら}⟦で→で：00502_de⟧⟦は→は：00079_ha⟧{作務|さむ}⟦も→も：00484_mo⟧⟦{修行|しゅぎょう}→修行：05522_shugyou⟧⟦の→の：09472_no⟧⟦{一環|いっかん}→一環：17696_ikkan⟧⟦と→と：00512_to⟧⟦される→する：00392_suru⟧。",
       "english": "At Zen temples, manual labor is considered part of spiritual training.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "A Zen Buddhist concept where daily physical labor — sweeping, cleaning, cooking, gardening — is regarded as a form of meditative practice equal in value to seated meditation ({座禅|ざぜん}). The word is best known through the compound {作務衣|さむえ}, the simple work clothing worn during these tasks.\n\nCOMMON COLLOCATIONS:\n- {作務衣|さむえ}: work clothes (originally for temple work, now popular as casual wear)\n- {作務|さむ}をする: to do temple work\n- {朝|あさ}の{作務|さむ}: morning work session\n\nCULTURAL NOTE:\n{作務衣|さむえ} has become popular as comfortable casual clothing beyond temple settings. Many craftspeople, artists, and restaurants use {作務衣|さむえ} as work uniforms.\n\nRELATED WORDS:\n- {修行|しゅぎょう}: ascetic training, spiritual discipline — broader term for religious practice\n- {座禅|ざぜん}: seated meditation — the contemplative counterpart to active {作務|さむ}",
+  "notes": "A Zen Buddhist concept where daily physical labor — sweeping, cleaning, cooking, gardening — is regarded as a form of meditative practice equal in value to seated meditation (⟦{座禅|ざぜん}→座禅：09641_zazen⟧). The word is best known through the compound ⟦{作務衣|さむえ}→作務衣：21339_samue⟧, the simple work clothing worn during these tasks.\n\nCOMMON COLLOCATIONS:\n- ⟦{作務衣|さむえ}→作務衣：21339_samue⟧: work clothes (originally for temple work, now popular as casual wear)\n- {作務|さむ}⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧: to do temple work\n- ⟦{朝|あさ}→朝：02277_asa⟧⟦の→の：09472_no⟧{作務|さむ}: morning work session\n\nCULTURAL NOTE:\n⟦{作務衣|さむえ}→作務衣：21339_samue⟧ has become popular as comfortable casual clothing beyond temple settings. Many craftspeople, artists, and restaurants use ⟦{作務衣|さむえ}→作務衣：21339_samue⟧ as work uniforms.\n\nRELATED WORDS:\n- ⟦{修行|しゅぎょう}→修行：05522_shugyou⟧: ascetic training, spiritual discipline — broader term for religious practice\n- ⟦{座禅|ざぜん}→座禅：09641_zazen⟧: seated meditation — the contemplative counterpart to active {作務|さむ}",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "05522_shugyou",
+      "reading": "しゅぎょう",
+      "headword": "{修行|しゅぎょう}",
+      "label": "ascetic training, spiritual discipline"
+    },
+    {
+      "type": "related",
+      "target_id": "09641_zazen",
+      "reading": "ざぜん",
+      "headword": "{座禅|ざぜん}",
+      "label": "seated meditation"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +76,6 @@
       ]
     },
     "created": "2026-05-07T12:20:37Z",
-    "modified": "2026-05-07T12:20:37Z"
+    "modified": "2026-09-02T04:02:29Z"
   }
 }

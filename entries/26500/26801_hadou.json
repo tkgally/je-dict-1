@@ -20,7 +20,7 @@
   "examples": [
     {
       "id": "26801_hadou_ex1",
-      "japanese": "{光|ひかり}は{波動|はどう}の{性質|せいしつ}を{持|も}つ。",
+      "japanese": "⟦{光|ひかり}→光：01707_hikari⟧⟦は→は：00079_ha⟧{波動|はどう}⟦の→の：09472_no⟧⟦{性質|せいしつ}→性質：01638_seishitsu⟧⟦を→を：00422_wo⟧⟦{持|も}つ→持つ：00478_motsu⟧。",
       "english": "Light has wave-like properties.",
       "sense_numbers": [
         1
@@ -30,7 +30,7 @@
     },
     {
       "id": "26801_hadou_ex2",
-      "japanese": "{波動|はどう}{方程式|ほうていしき}を{解|と}く。",
+      "japanese": "{波動|はどう}⟦{方程式|ほうていしき}→方程式：04795_houteishiki⟧⟦を→を：00422_wo⟧⟦{解|と}く→解く：02301_toku⟧。",
       "english": "To solve the wave equation.",
       "sense_numbers": [
         1
@@ -40,7 +40,7 @@
     },
     {
       "id": "26801_hadou_ex3",
-      "japanese": "{音|おと}は{空気|くうき}の{波動|はどう}として{伝|つた}わる。",
+      "japanese": "⟦{音|おと}→音：00743_oto⟧⟦は→は：00079_ha⟧⟦{空気|くうき}→空気：01390_kuuki⟧⟦の→の：09472_no⟧{波動|はどう}⟦として→として：06802_toshite⟧⟦{伝|つた}わる→伝わる：01961_tsutawaru⟧。",
       "english": "Sound travels as wave motion through the air.",
       "sense_numbers": [
         1
@@ -50,7 +50,7 @@
     },
     {
       "id": "26801_hadou_ex4",
-      "japanese": "{革命|かくめい}の{波動|はどう}がヨーロッパ{中|じゅう}に{広|ひろ}がった。",
+      "japanese": "⟦{革命|かくめい}→革命：05968_kakumei⟧⟦の→の：09472_no⟧{波動|はどう}⟦が→が：00051_ga⟧⟦ヨーロッパ→ヨーロッパ：00427_yooroppa⟧{中|じゅう}⟦に→に：00314_ni⟧⟦{広|ひろ}がった→広がる：01980_hirogaru⟧。",
       "english": "The wave of revolution spread throughout Europe.",
       "sense_numbers": [
         2
@@ -60,7 +60,7 @@
     },
     {
       "id": "26801_hadou_ex5",
-      "japanese": "{経済|けいざい}の{波動|はどう}は{避|さ}けられない。",
+      "japanese": "⟦{経済|けいざい}→経済：01394_keizai⟧⟦の→の：09472_no⟧{波動|はどう}⟦は→は：00079_ha⟧⟦{避|さ}けられない→避ける：02109_sakeru⟧。",
       "english": "Economic fluctuations are unavoidable.",
       "sense_numbers": [
         2
@@ -70,7 +70,7 @@
     },
     {
       "id": "26801_hadou_ex6",
-      "japanese": "{社会|しゃかい}{変革|へんかく}の{波動|はどう}が{若|わか}い{世代|せだい}から{生|う}まれている。",
+      "japanese": "⟦{社会|しゃかい}→社会：01427_shakai⟧⟦{変革|へんかく}→変革：12100_henkaku⟧⟦の→の：09472_no⟧{波動|はどう}⟦が→が：00051_ga⟧{若|わか}い⟦{世代|せだい}→世代：05102_sedai⟧⟦から→から：00504_kara⟧⟦{生|う}まれている→生まれる：00905_umareru⟧。",
       "english": "A wave of social change is emerging from the younger generation.",
       "sense_numbers": [
         2
@@ -79,8 +79,23 @@
       "notes": null
     }
   ],
-  "notes": "A Sino-Japanese compound of {波|は} (wave) + {動|どう} (movement). Primarily used in scientific contexts for wave phenomena, but also has figurative uses for describing wave-like spread or fluctuation.\n\nCOMMON COLLOCATIONS:\n- {波動|はどう}{方程式|ほうていしき}: wave equation\n- {波動|はどう}{関数|かんすう}: wave function (quantum mechanics)\n- {電磁|でんじ}{波動|はどう}: electromagnetic wave\n- {波動|はどう}{エネルギー}: wave energy\n\nSIMILAR WORDS:\n- {波|なみ}: wave — everyday word; both literal (ocean wave) and figurative\n- {振動|しんどう}: vibration — back-and-forth movement at a point rather than propagation\n- {波長|はちょう}: wavelength — a specific measurement of waves",
-  "cross_references": [],
+  "notes": "A Sino-Japanese compound of {波|は} (wave) + {動|どう} (movement). Primarily used in scientific contexts for wave phenomena, but also has figurative uses for describing wave-like spread or fluctuation.\n\nCOMMON COLLOCATIONS:\n- {波動|はどう}⟦{方程式|ほうていしき}→方程式：04795_houteishiki⟧: wave equation\n- {波動|はどう}{関数|かんすう}: wave function (quantum mechanics)\n- {電磁|でんじ}{波動|はどう}: electromagnetic wave\n- {波動|はどう}⟦エネルギー→エネルギー：03834_enerugii⟧: wave energy\n\nSIMILAR WORDS:\n- ⟦{波|なみ}→波：00868_nami⟧: wave — everyday word; both literal (ocean wave) and figurative\n- ⟦{振動|しんどう}→振動：08179_shindou⟧: vibration — back-and-forth movement at a point rather than propagation\n- ⟦{波長|はちょう}→波長：27087_hachou⟧: wavelength — a specific measurement of waves",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08179_shindou",
+      "reading": "しんどう",
+      "headword": "{振動|しんどう}",
+      "label": "vibration"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27087_hachou",
+      "reading": "はちょう",
+      "headword": "{波長|はちょう}",
+      "label": "wavelength"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -95,6 +110,6 @@
       ]
     },
     "created": "2026-05-05T11:12:26Z",
-    "modified": "2026-05-05T11:12:26Z"
+    "modified": "2026-09-02T04:02:27Z"
   }
 }

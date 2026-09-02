@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "13564_irei_ex1",
-      "japanese": "{異例|いれい}の{速|はや}さで{決定|けってい}された。",
+      "japanese": "{異例|いれい}⟦の→の：09472_no⟧⟦{速|はや}さ→速さ：28072_hayasa⟧⟦で→で：00502_de⟧⟦{決定|けってい}→決定：02701_kettei⟧⟦された→する：00392_suru⟧。",
       "english": "It was decided with unusual speed.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "13564_irei_ex2",
-      "japanese": "{首相|しゅしょう}が{直接|ちょくせつ}{謝罪|しゃざい}するのは{異例|いれい}のことだ。",
+      "japanese": "⟦{首相|しゅしょう}→首相：03217_shushou⟧⟦が→が：00051_ga⟧⟦{直接|ちょくせつ}→直接：03499_chokusetsu⟧⟦{謝罪|しゃざい}する→謝罪する：19520_shazaisuru⟧⟦の→の：09472_no⟧⟦は→は：00079_ha⟧{異例|いれい}⟦の→の：09472_no⟧ことだ。",
       "english": "It is unusual for the prime minister to apologize directly.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "13564_irei_ex3",
-      "japanese": "{異例|いれい}の{大型|おおがた}{台風|たいふう}が{接近|せっきん}しているため、{全国的|ぜんこくてき}に{厳重|げんじゅう}な{警戒|けいかい}が{呼|よ}びかけられている。",
+      "japanese": "{異例|いれい}⟦の→の：09472_no⟧⟦{大型|おおがた}→大型：03016_oogata⟧⟦{台風|たいふう}→台風：01455_taifuu⟧⟦が→が：00051_ga⟧⟦{接近|せっきん}している→接近する：25362_sekkinsuru⟧⟦ため→ため：01145_tame⟧、⟦{全国的|ぜんこくてき}→全国的：20017_zenkokuteki⟧⟦に→に：00314_ni⟧⟦{厳重|げんじゅう}→厳重：11887_genjuu⟧な⟦{警戒|けいかい}→警戒：14224_keikai⟧⟦が→が：00051_ga⟧⟦{呼|よ}びかけられている→呼びかける：06480_yobikakeru⟧。",
       "english": "Because an exceptionally large typhoon is approaching, strict precautions are being called for nationwide.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nUsed as a na-adjective ({異例|いれい}な or {異例|いれい}の) to describe something that breaks from established norms or precedent. Very common in news reporting and formal contexts. Often implies the situation is noteworthy because it rarely happens.\n\nCOMMON COLLOCATIONS:\n- {異例|いれい}の{措置|そち} (exceptional measure)\n- {異例|いれい}の{速|はや}さ (unusual speed)\n- {異例|いれい}の{事態|じたい} (unusual situation)\n- {異例|いれい}の{人事|じんじ} (unusual personnel appointment)\n- {異例|いれい}ずくめ (full of unusual things)\n\nSIMILAR WORDS:\n- {例外|れいがい}: exception (a case that doesn't follow the rule)\n- {前例|ぜんれい}のない: unprecedented (no prior cases)\n- {異常|いじょう}: abnormal, anomalous (implies something is wrong, not just unusual)",
+  "notes": "USAGE:\nUsed as a na-adjective ({異例|いれい}な or {異例|いれい}⟦の→の：09472_no⟧) to describe something that breaks from established norms or precedent. Very common in news reporting and formal contexts. Often implies the situation is noteworthy because it rarely happens.\n\nCOMMON COLLOCATIONS:\n- {異例|いれい}⟦の→の：09472_no⟧⟦{措置|そち}→措置：05519_sochi⟧ (exceptional measure)\n- {異例|いれい}⟦の→の：09472_no⟧⟦{速|はや}さ→速さ：28072_hayasa⟧ (unusual speed)\n- {異例|いれい}⟦の→の：09472_no⟧⟦{事態|じたい}→事態：10151_jitai⟧ (unusual situation)\n- {異例|いれい}⟦の→の：09472_no⟧⟦{人事|じんじ}→人事：00126_jinji⟧ (unusual personnel appointment)\n- {異例|いれい}ずくめ (full of unusual things)\n\nSIMILAR WORDS:\n- ⟦{例外|れいがい}→例外：03798_reigai⟧: exception (a case that doesn't follow the rule)\n- ⟦{前例|ぜんれい}→前例：11790_zenrei⟧⟦の→の：09472_no⟧⟦ない→ない：01118_nai⟧: unprecedented (no prior cases)\n- ⟦{異常|いじょう}→異常：01716_ijou⟧: abnormal, anomalous (implies something is wrong, not just unusual)",
   "cross_references": [
     {
       "type": "synonym",
@@ -59,11 +59,32 @@
       "reading": "いじょう",
       "headword": "{異常|いじょう}",
       "label": "abnormal"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20236_hakaku",
+      "reading": "はかく",
+      "headword": "{破格|はかく}",
+      "label": "exceptional"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20786_reigaiteki",
+      "reading": "れいがいてき",
+      "headword": "{例外的|れいがいてき}",
+      "label": "exceptional"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25314_hensoku",
+      "reading": "へんそく",
+      "headword": "{変則|へんそく}",
+      "label": "irregular"
     }
   ],
   "metadata": {
     "created": "2026-02-25T14:29:48Z",
-    "modified": "2026-04-29T04:08:17Z",
+    "modified": "2026-09-02T04:01:33Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

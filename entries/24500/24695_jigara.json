@@ -15,40 +15,73 @@
   "examples": [
     {
       "id": "24695_jigara_ex1",
-      "japanese": "この{辺|あた}りは{地柄|じがら}がいい。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{辺|あた}り→辺り：01770_atari⟧⟦は→は：00079_ha⟧{地柄|じがら}⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧。",
       "english": "This area has a good character.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "24695_jigara_ex2",
-      "japanese": "{地柄|じがら}のせいか、{犯罪|はんざい}が{少|すく}ない。",
+      "japanese": "{地柄|じがら}⟦の→の：09472_no⟧せい⟦か→か：09473_ka⟧、⟦{犯罪|はんざい}→犯罪：03569_hanzai⟧⟦が→が：00051_ga⟧⟦{少|すく}ない→少ない：01136_sukunai⟧。",
       "english": "Perhaps because of the nature of the area, there is little crime.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "24695_jigara_ex3",
-      "japanese": "{下町|したまち}の{地柄|じがら}を{反映|はんえい}して、この{商店街|しょうてんがい}は{人情味|にんじょうみ}にあふれている。",
+      "japanese": "⟦{下町|したまち}→下町：04193_shitamachi⟧⟦の→の：09472_no⟧{地柄|じがら}⟦を→を：00422_wo⟧⟦{反映|はんえい}して→反映する：17186_haneisuru⟧、⟦この→この：00962_kono⟧⟦{商店街|しょうてんがい}→商店街：09391_shoutengai⟧⟦は→は：00079_ha⟧{人情味|にんじょうみ}⟦に→に：00314_ni⟧あふれて⟦いる→いる：00495_iru⟧。",
       "english": "Reflecting the character of the downtown area, this shopping street is full of warmth and neighborliness.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Refers to the overall feel or reputation of a place as shaped by its residents, history, and social environment. Often used when evaluating neighborhoods for housing, discussing regional differences, or explaining local customs.\n\nCOMMON COLLOCATIONS:\n- {地柄|じがら}がいい: the area has a good reputation\n- {地柄|じがら}が{悪|わる}い: the area has a bad reputation\n- {土地柄|とちがら}: synonym, slightly more formal\n- {地柄|じがら}を{考|かんが}える: to consider the character of an area\n\nSIMILAR WORDS:\n- {土地柄|とちがら}: character of a place — essentially the same meaning, used somewhat more commonly\n- {風土|ふうど}: climate and culture — broader concept including natural environment and cultural traditions\n- {雰囲気|ふんいき}: atmosphere — more general, applies to any space or situation, not specifically a locality\n- {家柄|いえがら}: family background, pedigree — same 柄 suffix but refers to family rather than place",
+  "notes": "Refers to the overall feel or reputation of a place as shaped by its residents, history, and social environment. Often used when evaluating neighborhoods for housing, discussing regional differences, or explaining local customs.\n\nCOMMON COLLOCATIONS:\n- {地柄|じがら}⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧: the area has a good reputation\n- {地柄|じがら}⟦が→が：00051_ga⟧⟦{悪|わる}い→悪い：00908_warui⟧: the area has a bad reputation\n- ⟦{土地柄|とちがら}→土地柄：12138_tochigara⟧: synonym, slightly more formal\n- {地柄|じがら}⟦を→を：00422_wo⟧⟦{考|かんが}える→考える：00856_kangaeru⟧: to consider the character of an area\n\nSIMILAR WORDS:\n- ⟦{土地柄|とちがら}→土地柄：12138_tochigara⟧: character of a place — essentially the same meaning, used somewhat more commonly\n- ⟦{風土|ふうど}→風土：14628_fuudo⟧: climate and culture — broader concept including natural environment and cultural traditions\n- ⟦{雰囲気|ふんいき}→雰囲気：03604_funiki⟧: atmosphere — more general, applies to any space or situation, not specifically a locality\n- ⟦{家柄|いえがら}→家柄：16695_iegara⟧: family background, pedigree — same 柄 suffix but refers to family rather than place",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14628_fuudo",
+      "reading": "ふうど",
+      "headword": "{風土|ふうど}",
+      "label": "climate and culture"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03604_funiki",
+      "reading": "ふんいき",
+      "headword": "{雰囲気|ふんいき}",
+      "label": "atmosphere"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16695_iegara",
+      "reading": "いえがら",
+      "headword": "{家柄|いえがら}",
+      "label": "family background, pedigree"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["geography"]
+      "semantic": [
+        "geography"
+      ]
     },
     "created": "2026-04-20T12:10:46Z",
-    "modified": "2026-04-20T12:10:46Z"
+    "modified": "2026-09-02T04:02:19Z"
   }
 }

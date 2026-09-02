@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: {他動詞|たどうし} (transitive). Pattern: X⟦を→を：00422_wo⟧{叱|しか}る (scold X).\n\nASPECT: ている indicates ongoing action. {叱|しか}っている = 'is scolding.'\n\nCOMMON PATTERNS:\n・⟦{子供|こども}→子供：00554_kodomo⟧⟦を→を：00422_wo⟧{叱|しか}る (scold a child)\n・{叱|しか}られる (be scolded—passive, very common)\n・⟦{厳|きび}しく→厳しい：01125_kibishii⟧{叱|しか}る (scold harshly)\n・⟦{愛情|あいじょう}→愛情：01673_aijou⟧⟦を→を：00422_wo⟧{込|こ}めて{叱|しか}る (scold with love)\n\nCONTRAST WITH ⟦{怒|おこ}る→怒る：00876_okoru⟧:\n・{叱|しか}る: to scold (corrective, educational purpose)\n・⟦{怒|おこ}る→怒る：00876_okoru⟧: to get angry (emotional reaction)\n\nIn theory, {叱|しか}る is done for the other person's benefit, while {怒|おこ}る is simply expressing anger. In practice, these often overlap.\n\nREGISTER: Neutral.",
+  "notes": "TRANSITIVITY: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive). Pattern: X⟦を→を：00422_wo⟧{叱|しか}る (scold X).\n\nASPECT: て⟦いる→いる：00495_iru⟧ indicates ongoing action. {叱|しか}って⟦いる→いる：00495_iru⟧ = 'is scolding.'\n\nCOMMON PATTERNS:\n- ⟦{子供|こども}→子供：00554_kodomo⟧⟦を→を：00422_wo⟧{叱|しか}る (scold a child)\n- {叱|しか}られる (be scolded—passive, very common)\n- ⟦{厳|きび}しく→厳しい：01125_kibishii⟧{叱|しか}る (scold harshly)\n- ⟦{愛情|あいじょう}→愛情：01673_aijou⟧⟦を→を：00422_wo⟧⟦{込|こ}めて→込める：01945_komeru⟧{叱|しか}る (scold with love)\n\nCONTRAST WITH ⟦{怒|おこ}る→怒る：00876_okoru⟧:\n- {叱|しか}る: to scold (corrective, educational purpose)\n- ⟦{怒|おこ}る→怒る：00876_okoru⟧: to get angry (emotional reaction)\n\nIn theory, {叱|しか}る is done for the other person's benefit, while ⟦{怒|おこ}る→怒る：00876_okoru⟧ is simply expressing anger. In practice, these often overlap.\n\nREGISTER: Neutral.",
   "cross_references": [
     {
       "type": "antonym",
@@ -155,11 +155,32 @@
       "reading": "おこる",
       "headword": "{怒|おこ}る",
       "label": "to get angry; to scold"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10408_najiru",
+      "reading": "なじる",
+      "headword": "なじる",
+      "label": "to reproach, to rebuke, to scold"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23199_tashinameru",
+      "reading": "たしなめる",
+      "headword": "{窘|たしな}める",
+      "label": "to admonish"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25625_kogotowoiu",
+      "reading": "こごとをいう",
+      "headword": "{小言|こごと}を{言|い}う",
+      "label": "to nag"
     }
   ],
   "metadata": {
     "created": "2026-01-08T12:18:11Z",
-    "modified": "2026-07-31T03:21:29Z",
+    "modified": "2026-09-02T04:00:59Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "15681_kansenshou_ex1",
-      "japanese": "{感染症|かんせんしょう}が{流行|りゅうこう}している。",
+      "japanese": "{感染症|かんせんしょう}⟦が→が：00051_ga⟧⟦{流行|りゅうこう}→流行：03678_ryuukou⟧⟦している→する：00392_suru⟧。",
       "english": "An infectious disease is spreading.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "15681_kansenshou_ex2",
-      "japanese": "{新型|しんがた}の{感染症|かんせんしょう}に{注意|ちゅうい}してください。",
+      "japanese": "⟦{新型|しんがた}→新型：19411_shingata⟧⟦の→の：09472_no⟧{感染症|かんせんしょう}⟦に→に：00314_ni⟧⟦{注意|ちゅうい}→注意：01464_chuui⟧⟦して→する：00392_suru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please be careful of the new infectious disease.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "15681_kansenshou_ex3",
-      "japanese": "{政府|せいふ}は{感染症|かんせんしょう}の{拡大|かくだい}を{防|ふせ}ぐために{対策|たいさく}を{発表|はっぴょう}した。",
+      "japanese": "⟦{政府|せいふ}→政府：03294_seifu⟧⟦は→は：00079_ha⟧{感染症|かんせんしょう}⟦の→の：09472_no⟧⟦{拡大|かくだい}→拡大：02553_kakudai⟧⟦を→を：00422_wo⟧⟦{防|ふせ}ぐ→防ぐ：02409_fusegu⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧⟦{対策|たいさく}→対策：02511_taisaku⟧⟦を→を：00422_wo⟧⟦{発表|はっぴょう}した→発表する：25231_happyousuru⟧。",
       "english": "The government announced measures to prevent the spread of the infectious disease.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA formal medical and public health term frequently used in news reports and official announcements. Became especially prominent in everyday Japanese during the COVID-19 pandemic.\n\nCOMMON COLLOCATIONS:\n- {感染症|かんせんしょう}の{予防|よぼう} (disease prevention)\n- {感染症|かんせんしょう}の{拡大|かくだい} (spread of disease)\n- {感染症|かんせんしょう}{対策|たいさく} (disease countermeasures)\n- {感染症|かんせんしょう}{法|ほう} (Infectious Disease Control Law)\n\nSIMILAR WORDS:\n- {伝染病|でんせんびょう}: contagious disease (older term, still used)\n- {疫病|えきびょう}: epidemic, plague (literary or historical)",
+  "notes": "USAGE:\nA formal medical and public health term frequently used in news reports and official announcements. Became especially prominent in everyday Japanese during the COVID-19 pandemic.\n\nCOMMON COLLOCATIONS:\n- {感染症|かんせんしょう}⟦の→の：09472_no⟧⟦{予防|よぼう}→予防：03669_yobou⟧ (disease prevention)\n- {感染症|かんせんしょう}⟦の→の：09472_no⟧⟦{拡大|かくだい}→拡大：02553_kakudai⟧ (spread of disease)\n- {感染症|かんせんしょう}⟦{対策|たいさく}→対策：02511_taisaku⟧ (disease countermeasures)\n- {感染症|かんせんしょう}{法|ほう} (Infectious Disease Control Law)\n\nSIMILAR WORDS:\n- ⟦{伝染病|でんせんびょう}→伝染病：29731_densenbyou⟧: contagious disease (older term, still used)\n- ⟦{疫病|えきびょう}→疫病：13609_ekibyou⟧: epidemic, plague (literary or historical)",
   "cross_references": [
     {
       "type": "synonym",
@@ -59,11 +59,39 @@
       "reading": "かんせん",
       "headword": "{感染|かんせん}",
       "label": "infection"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29731_densenbyou",
+      "reading": "でんせんびょう",
+      "headword": "{伝染病|でんせんびょう}",
+      "label": "contagious disease"
+    },
+    {
+      "type": "related",
+      "target_id": "11400_pandemikku",
+      "reading": "ぱんでみっく",
+      "headword": "パンデミック",
+      "label": "pandemic"
+    },
+    {
+      "type": "related",
+      "target_id": "19570_byougentai",
+      "reading": "びょうげんたい",
+      "headword": "{病原体|びょうげんたい}",
+      "label": "pathogen"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23735_ounetsubyou",
+      "reading": "おうねつびょう",
+      "headword": "{黄熱病|おうねつびょう}",
+      "label": "yellow fever"
     }
   ],
   "metadata": {
     "created": "2026-03-08T07:32:27Z",
-    "modified": "2026-05-01T10:15:30Z",
+    "modified": "2026-09-02T04:01:42Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

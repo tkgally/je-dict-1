@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "14955_denju_ex1",
-      "japanese": "{師匠|ししょう}から{技|わざ}を{伝授|でんじゅ}された。",
+      "japanese": "⟦{師匠|ししょう}→師匠：12421_shishou⟧⟦から→から：00504_kara⟧⟦{技|わざ}→技：02172_waza⟧⟦を→を：00422_wo⟧{伝授|でんじゅ}⟦された→する：00392_suru⟧。",
       "english": "I was taught the technique by my master.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "14955_denju_ex2",
-      "japanese": "{祖母|そぼ}から{秘伝|ひでん}の{味噌|みそ}の{作|つく}り{方|かた}を{伝授|でんじゅ}してもらった。",
+      "japanese": "⟦{祖母|そぼ}→祖母：00813_sobo⟧⟦から→から：00504_kara⟧⟦{秘伝|ひでん}→秘伝：13779_hiden⟧⟦の→の：09472_no⟧⟦{味噌|みそ}→味噌：01037_miso⟧⟦の→の：09472_no⟧⟦{作|つく}り{方|かた}→作り方：27938_tsukurikata⟧⟦を→を：00422_wo⟧{伝授|でんじゅ}⟦して→する：00392_suru⟧⟦もらった→もらう：00520_morau⟧。",
       "english": "My grandmother passed down her secret miso recipe to me.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "14955_denju_ex3",
-      "japanese": "{先輩|せんぱい}がプレゼンのコツを{伝授|でんじゅ}してくれた。",
+      "japanese": "⟦{先輩|せんぱい}→先輩：01451_senpai⟧⟦が→が：00051_ga⟧⟦プレゼン→プレゼン：05505_purezen⟧⟦の→の：09472_no⟧⟦コツ→コツ：06658_kotsu⟧⟦を→を：00422_wo⟧{伝授|でんじゅ}⟦して→する：00392_suru⟧⟦くれた→くれる：00724_kureru⟧。",
       "english": "My senior colleague taught me the tricks of giving presentations.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,11 @@
       ]
     }
   ],
-  "notes": "Implies a personal, almost ceremonial transfer of knowledge from someone with expertise to a learner. More elevated than simple {教|おし}える (to teach).\n\nCOMMON COLLOCATIONS:\n- {技|わざ}を{伝授|でんじゅ}する (to pass down a technique)\n- {秘伝|ひでん}を{伝授|でんじゅ}する (to transmit a secret tradition)\n- コツを{伝授|でんじゅ}する (to teach the tricks/knack)\n\nUSAGE NOTE:\nOriginally associated with martial arts, tea ceremony, and other traditional arts, where masters pass secret knowledge to chosen disciples. In modern usage, it is also used more casually for sharing tips and expertise, though it retains a nuance of valued, personal instruction.",
+  "notes": "Implies a personal, almost ceremonial transfer of knowledge from someone with expertise to a learner. More elevated than simple ⟦{教|おし}える→教える：00526_oshieru⟧ (to teach).\n\nCOMMON COLLOCATIONS:\n- ⟦{技|わざ}→技：02172_waza⟧⟦を→を：00422_wo⟧{伝授|でんじゅ}⟦する→する：00392_suru⟧ (to pass down a technique)\n- ⟦{秘伝|ひでん}→秘伝：13779_hiden⟧⟦を→を：00422_wo⟧{伝授|でんじゅ}⟦する→する：00392_suru⟧ (to transmit a secret tradition)\n- ⟦コツ→コツ：06658_kotsu⟧⟦を→を：00422_wo⟧{伝授|でんじゅ}⟦する→する：00392_suru⟧ (to teach the tricks/knack)\n\nUSAGE:\nOriginally associated with martial arts, tea ceremony, and other traditional arts, where masters pass secret knowledge to chosen disciples. In modern usage, it is also used more casually for sharing tips and expertise, though it retains a nuance of valued, personal instruction.",
   "cross_references": [],
   "metadata": {
     "created": "2026-03-04T07:28:28Z",
-    "modified": "2026-07-15T09:17:48Z",
+    "modified": "2026-09-02T04:01:39Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -151,7 +151,8 @@
       "semantic": [
         "communication"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

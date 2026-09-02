@@ -3,7 +3,7 @@
   "id": "18123_fukisouji",
   "headword": "{拭|ふ}き{掃除|そうじ}",
   "reading": "ふきそうじ",
-  "part_of_speech": "noun / verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "cleaning by wiping; wiping down",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "18123_fukisouji_ex1",
-      "japanese": "{毎朝|まいあさ}{拭|ふ}き{掃除|そうじ}をする。",
+      "japanese": "⟦{毎朝|まいあさ}→毎朝：00966_maiasa⟧{拭|ふ}き{掃除|そうじ}⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧。",
       "english": "I wipe down the floors every morning.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "18123_fukisouji_ex2",
-      "japanese": "{雑巾|ぞうきん}で{廊下|ろうか}の{拭|ふ}き{掃除|そうじ}をした。",
+      "japanese": "⟦{雑巾|ぞうきん}→雑巾：04408_zoukin⟧⟦で→で：00502_de⟧⟦{廊下|ろうか}→廊下：05005_rouka⟧⟦の→の：09472_no⟧{拭|ふ}き{掃除|そうじ}⟦を→を：00422_wo⟧⟦した→する：00392_suru⟧。",
       "english": "I wiped the hallway floor with a rag.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "18123_fukisouji_ex3",
-      "japanese": "{子|こ}どもたちは{教室|きょうしつ}の{拭|ふ}き{掃除|そうじ}を{担当|たんとう}している。",
+      "japanese": "{子|こ}どもたち⟦は→は：00079_ha⟧⟦{教室|きょうしつ}→教室：00794_kyoushitsu⟧⟦の→の：09472_no⟧{拭|ふ}き{掃除|そうじ}⟦を→を：00422_wo⟧⟦{担当|たんとう}→担当：02567_tantou⟧⟦している→する：00392_suru⟧。",
       "english": "The children are in charge of wiping down the classroom.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nIn Japanese schools, students traditionally clean their own classrooms, and {拭|ふ}き{掃除|そうじ} of the floors with a {雑巾|ぞうきん} (cleaning rag) is a common task. This type of cleaning is contrasted with {掃|は}き{掃除|そうじ} (sweeping).\n\nCOMMON COLLOCATIONS:\n- {床|ゆか}の{拭|ふ}き{掃除|そうじ} (wiping the floor)\n- {雑巾|ぞうきん}で{拭|ふ}き{掃除|そうじ}をする (to wipe-clean with a rag)\n- {水拭|みずぶ}き (wet wiping) / {乾拭|からぶ}き (dry wiping)",
+  "notes": "USAGE:\nIn Japanese schools, students traditionally clean their own classrooms, and {拭|ふ}き{掃除|そうじ} of the floors with a ⟦{雑巾|ぞうきん}→雑巾：04408_zoukin⟧ (cleaning rag) is a common task. This type of cleaning is contrasted with ⟦{掃|は}き→掃く：04260_haku⟧⟦{掃除|そうじ}→掃除：02889_souji⟧ (sweeping).\n\nCOMMON COLLOCATIONS:\n- ⟦{床|ゆか}→床：03652_yuka⟧⟦の→の：09472_no⟧{拭|ふ}き{掃除|そうじ} (wiping the floor)\n- ⟦{雑巾|ぞうきん}→雑巾：04408_zoukin⟧⟦で→で：00502_de⟧{拭|ふ}き{掃除|そうじ}⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧ (to wipe-clean with a rag)\n- {水拭|みずぶ}き (wet wiping) / {乾拭|からぶ}き (dry wiping)",
   "cross_references": [
     {
       "type": "related",
@@ -148,11 +148,18 @@
       "reading": "はきそうじ",
       "headword": "{掃|は}き{掃除|そうじ}",
       "label": "sweeping"
+    },
+    {
+      "type": "related",
+      "target_id": "25660_fukitori",
+      "reading": "ふきとり",
+      "headword": "{拭|ふ}き{取|と}り",
+      "label": "wiping off"
     }
   ],
   "metadata": {
     "created": "2026-03-20T06:39:42Z",
-    "modified": "2026-05-08T05:05:08Z",
+    "modified": "2026-09-02T04:01:51Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

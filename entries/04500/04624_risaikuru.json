@@ -2,7 +2,7 @@
   "id": "04624_risaikuru",
   "headword": "リサイクル",
   "reading": "りさいくる",
-  "part_of_speech": "noun, suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "recycling",
   "conjugation": {
     "type": "suru",
@@ -113,7 +113,7 @@
     },
     {
       "id": "04624_risaikuru_ex2",
-      "japanese": "リサイクルできる⟦{素材|そざい}→素材：09492_sozai⟧⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧⟦{製品|せいひん}→製品：01445_seihin⟧⟦が→が：00051_ga⟧⟦{増|ふ}えている→増える：01183_fueru⟧。",
+      "japanese": "リサイクル⟦できる→できる：00557_dekiru⟧⟦{素材|そざい}→素材：09492_sozai⟧⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧⟦{製品|せいひん}→製品：01445_seihin⟧⟦が→が：00051_ga⟧⟦{増|ふ}えている→増える：01183_fueru⟧。",
       "english": "Products using recyclable materials are increasing.",
       "has_audio": false,
       "sense_numbers": [
@@ -130,10 +130,68 @@
       ]
     }
   ],
-  "notes": "リサイクル is a loanword from English \"recycle.\"\n\nCOMMON COLLOCATIONS:\n- リサイクルに⟦{出|だ}す→出す：01087_dasu⟧ - to put out for recycling\n- リサイクル⟦{可能|かのう}→可能：00175_kanou⟧ - recyclable\n- リサイクル⟦{率|りつ}→率：03802_ritsu⟧ - recycling rate\n- リサイクル⟦{品|ひん}→品：03712_hin⟧ - recycled goods\n- リサイクルショップ - secondhand shop, thrift store\n\nSURU-VERB USAGE:\n[object]をリサイクルする - to recycle [object]\n\nRELATED TERMS:\n- ⟦{分別|ぶんべつ}→分別：07706_bunbetsu⟧ - sorting (of garbage)\n- ⟦{再利用|さいりよう}→再利用：18649_sairiyou⟧ - reuse\n- エコ - eco (ecological)\n- ⟦{廃棄物|はいきぶつ}→廃棄物：04634_haikibutsu⟧ - waste\n\nCULTURAL NOTE:\nJapan has extensive recycling programs. Many municipalities require residents to sort garbage into detailed categories, and リサイクルショップ (secondhand shops) are common.",
+  "notes": "リサイクル is a loanword from English \"recycle.\"\n\nCOMMON COLLOCATIONS:\n- リサイクル⟦に→に：00314_ni⟧⟦{出|だ}す→出す：01087_dasu⟧ - to put out for recycling\n- リサイクル⟦{可能|かのう}→可能：00175_kanou⟧ - recyclable\n- リサイクル⟦{率|りつ}→率：03802_ritsu⟧ - recycling rate\n- リサイクル⟦{品|ひん}→品：03712_hin⟧ - recycled goods\n- リサイクル⟦ショップ→ショップ：08913_shoppu⟧ - secondhand shop, thrift store\n\nSURU-VERB USAGE:\n[object]⟦を→を：00422_wo⟧リサイクル⟦する→する：00392_suru⟧ - to recycle [object]\n\nRELATED WORDS:\n- ⟦{分別|ぶんべつ}→分別：07706_bunbetsu⟧ - sorting (of garbage)\n- ⟦{再利用|さいりよう}→再利用：18649_sairiyou⟧ - reuse\n- ⟦エコ→エコ：05400_eko⟧ - eco (ecological)\n- ⟦{廃棄物|はいきぶつ}→廃棄物：04634_haikibutsu⟧ - waste\n\nCULTURAL NOTE:\nJapan has extensive recycling programs. Many municipalities require residents to sort garbage into detailed categories, and リサイクル⟦ショップ→ショップ：08913_shoppu⟧ (secondhand shops) are common.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "07706_bunbetsu",
+      "reading": "ぶんべつ",
+      "headword": "{分別|ぶんべつ}",
+      "label": "sorting"
+    },
+    {
+      "type": "related",
+      "target_id": "18649_sairiyou",
+      "reading": "さいりよう",
+      "headword": "{再利用|さいりよう}",
+      "label": "reuse"
+    },
+    {
+      "type": "related",
+      "target_id": "05400_eko",
+      "reading": "えこ",
+      "headword": "エコ",
+      "label": "eco"
+    },
+    {
+      "type": "related",
+      "target_id": "04634_haikibutsu",
+      "reading": "はいきぶつ",
+      "headword": "{廃棄物|はいきぶつ}",
+      "label": "waste"
+    },
+    {
+      "type": "related",
+      "target_id": "03146_fuyouhin",
+      "reading": "ふようひん",
+      "headword": "{不用品|ふようひん}",
+      "label": "unwanted items, disused articles"
+    },
+    {
+      "type": "related",
+      "target_id": "09537_shigengomi",
+      "reading": "しげんごみ",
+      "headword": "{資源|しげん}ごみ",
+      "label": "recyclable waste, recyclables"
+    },
+    {
+      "type": "related",
+      "target_id": "22826_saiseishi",
+      "reading": "さいせいし",
+      "headword": "{再生紙|さいせいし}",
+      "label": "recycled paper"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25604_shoushigen",
+      "reading": "しょうしげん",
+      "headword": "{省資源|しょうしげん}",
+      "label": "resource conservation"
+    }
+  ],
   "metadata": {
     "created": "2026-01-14T11:30:36Z",
-    "modified": "2026-06-01T17:07:07Z",
+    "modified": "2026-09-02T04:01:05Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

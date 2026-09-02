@@ -15,42 +15,63 @@
   "examples": [
     {
       "id": "26504_hentousho_ex1",
-      "japanese": "{返答書|へんとうしょ}を{提出|ていしゅつ}した。",
+      "japanese": "{返答書|へんとうしょ}⟦を→を：00422_wo⟧⟦{提出|ていしゅつ}した→提出する：19644_teishutsusuru⟧。",
       "english": "I submitted a written reply.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26504_hentousho_ex2",
-      "japanese": "{期限|きげん}までに{返答書|へんとうしょ}を{送|おく}ってください。",
+      "japanese": "⟦{期限|きげん}→期限：12861_kigen⟧⟦まで→まで：00490_made⟧⟦に→に：00314_ni⟧{返答書|へんとうしょ}⟦を→を：00422_wo⟧⟦{送|おく}って→送る：00742_okuru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please send your written reply by the deadline.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26504_hentousho_ex3",
-      "japanese": "{相手方|あいてがた}の{弁護士|べんごし}から{正式|せいしき}な{返答書|へんとうしょ}が{届|とど}いたので、{内容|ないよう}を{確認|かくにん}してほしい。",
+      "japanese": "{相手方|あいてがた}⟦の→の：09472_no⟧⟦{弁護士|べんごし}→弁護士：03150_bengoshi⟧⟦から→から：00504_kara⟧⟦{正式|せいしき}→正式：03376_seishiki⟧な{返答書|へんとうしょ}⟦が→が：00051_ga⟧⟦{届|とど}いた→届く：00899_todoku⟧⟦の→の：09472_no⟧で、⟦{内容|ないよう}→内容：01482_naiyou⟧⟦を→を：00422_wo⟧⟦{確認|かくにん}して→確認する：25332_kakuninsuru⟧ほしい。",
       "english": "A formal written reply arrived from the opposing party's lawyer, so please review its contents.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {返答|へんとう} (reply, answer) and {書|しょ} (document, writing). A formal term used primarily in business correspondence, legal proceedings, and government administration. The emphasis is on the written and official nature of the reply, distinguishing it from a casual verbal response.\n\nCOMMON COLLOCATIONS:\n- {返答書|へんとうしょ}を{提出|ていしゅつ}する: to submit a written reply\n- {返答書|へんとうしょ}を{作成|さくせい}する: to prepare a written reply\n- {正式|せいしき}な{返答書|へんとうしょ}: formal written reply\n\nSIMILAR WORDS:\n- {回答書|かいとうしょ}: written answer — more commonly used in official and survey contexts\n- {答弁書|とうべんしょ}: written defense/answer — specifically a legal term for the defendant's response\n- {返信|へんしん}: reply — broader term covering letters, emails, and messages",
-  "cross_references": [],
+  "notes": "Composed of ⟦{返答|へんとう}→返答：10440_hentou⟧ (reply, answer) and ⟦{書|しょ}→〜書：28467_sho⟧ (document, writing). A formal term used primarily in business correspondence, legal proceedings, and government administration. The emphasis is on the written and official nature of the reply, distinguishing it from a casual verbal response.\n\nCOMMON COLLOCATIONS:\n- {返答書|へんとうしょ}⟦を→を：00422_wo⟧⟦{提出|ていしゅつ}する→提出する：19644_teishutsusuru⟧: to submit a written reply\n- {返答書|へんとうしょ}⟦を→を：00422_wo⟧⟦{作成|さくせい}する→作成する：25378_sakuseisuru⟧: to prepare a written reply\n- ⟦{正式|せいしき}→正式：03376_seishiki⟧な{返答書|へんとうしょ}: formal written reply\n\nSIMILAR WORDS:\n- {回答書|かいとうしょ}: written answer — more commonly used in official and survey contexts\n- {答弁書|とうべんしょ}: written defense/answer — specifically a legal term for the defendant's response\n- ⟦{返信|へんしん}→返信：14350_henshin⟧: reply — broader term covering letters, emails, and messages",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14350_henshin",
+      "reading": "へんしん",
+      "headword": "{返信|へんしん}",
+      "label": "reply"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["business", "legal"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "business",
+        "legal"
+      ]
     },
     "created": "2026-05-02T13:33:18Z",
-    "modified": "2026-05-02T13:33:18Z"
+    "modified": "2026-09-02T04:02:26Z"
   }
 }

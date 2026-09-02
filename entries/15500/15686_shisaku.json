@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "15686_shisaku_ex1",
-      "japanese": "{思索|しさく}にふける。",
+      "japanese": "{思索|しさく}⟦に→に：00314_ni⟧⟦ふける→ふける：09960_fukeru⟧。",
       "english": "To be lost in thought.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "15686_shisaku_ex2",
-      "japanese": "{散歩|さんぽ}しながら{思索|しさく}を{巡|めぐ}らせた。",
+      "japanese": "⟦{散歩|さんぽ}→散歩：02885_sanpo⟧し⟦ながら→ながら：10530_nagara⟧{思索|しさく}⟦を→を：00422_wo⟧⟦{巡|めぐ}らせた→巡る：03930_meguru⟧。",
       "english": "I turned over deep thoughts while taking a walk.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "15686_shisaku_ex3",
-      "japanese": "{哲学者|てつがくしゃ}は{人生|じんせい}の{意味|いみ}について{長年|ながねん}{思索|しさく}を{重|かさ}ねてきた。",
+      "japanese": "⟦{哲学者|てつがくしゃ}→哲学者：23941_tetsugakusha⟧⟦は→は：00079_ha⟧⟦{人生|じんせい}→人生：03355_jinsei⟧⟦の→の：09472_no⟧⟦{意味|いみ}→意味：01155_imi⟧⟦について→〜について：03103_nitsuite⟧⟦{長年|ながねん}→長年：09684_naganen⟧{思索|しさく}⟦を→を：00422_wo⟧⟦{重|かさ}ねて→重ねる：02039_kasaneru⟧きた。",
       "english": "The philosopher has spent many years in deep contemplation about the meaning of life.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA literary and intellectual term used to describe deep, sustained thinking, particularly about philosophical or abstract subjects. More elevated in register than ordinary {考|かんが}える.\n\nCOMMON COLLOCATIONS:\n- {思索|しさく}にふける (to be absorbed in thought)\n- {思索|しさく}を{重|かさ}ねる (to think deeply over time)\n- {思索|しさく}を{巡|めぐ}らす (to turn thoughts over in one's mind)\n- {思索|しさく}{的|てき} (contemplative, meditative)\n\nSIMILAR WORDS:\n- {熟考|じゅっこう}: careful deliberation (more practical, decision-oriented)\n- {瞑想|めいそう}: meditation (spiritual or physical practice)\n- {考察|こうさつ}: examination, analysis (more academic)",
+  "notes": "USAGE:\nA literary and intellectual term used to describe deep, sustained thinking, particularly about philosophical or abstract subjects. More elevated in register than ordinary ⟦{考|かんが}える→考える：00856_kangaeru⟧.\n\nCOMMON COLLOCATIONS:\n- {思索|しさく}⟦に→に：00314_ni⟧⟦ふける→ふける：09960_fukeru⟧ (to be absorbed in thought)\n- {思索|しさく}⟦を→を：00422_wo⟧⟦{重|かさ}ねる→重ねる：02039_kasaneru⟧ (to think deeply over time)\n- {思索|しさく}⟦を→を：00422_wo⟧⟦{巡|めぐ}らす→巡らす：12414_megurasu⟧ (to turn thoughts over in one's mind)\n- {思索|しさく}⟦{的|てき}→〜的：09839_teki⟧ (contemplative, meditative)\n\nSIMILAR WORDS:\n- ⟦{熟考|じゅっこう}→熟考：07966_jukkou⟧: careful deliberation (more practical, decision-oriented)\n- ⟦{瞑想|めいそう}→瞑想：13660_meisou⟧: meditation (spiritual or physical practice)\n- ⟦{考察|こうさつ}→考察：02736_kousatsu⟧: examination, analysis (more academic)",
   "cross_references": [
     {
       "type": "synonym",
@@ -156,11 +156,25 @@
       "reading": "こうさつ",
       "headword": "{考察|こうさつ}",
       "label": "examination, analysis"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24602_chinshi",
+      "reading": "ちんし",
+      "headword": "{沈思|ちんし}",
+      "label": "deep thought"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24990_kansou",
+      "reading": "かんそう",
+      "headword": "{観想|かんそう}",
+      "label": "contemplation"
     }
   ],
   "metadata": {
     "created": "2026-03-08T07:34:22Z",
-    "modified": "2026-05-01T10:15:30Z",
+    "modified": "2026-09-02T04:01:42Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

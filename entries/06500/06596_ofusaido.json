@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "06596_ofusaido_ex1",
-      "japanese": "オフサイドで{得点|とくてん}が{取|と}り{消|け}された。",
+      "japanese": "オフサイド⟦で→で：00502_de⟧⟦{得点|とくてん}→得点：04909_tokuten⟧⟦が→が：00051_ga⟧⟦{取|と}り{消|け}された→取り消す：04224_torikesu⟧。",
       "english": "The goal was disallowed due to offside.",
       "has_audio": false,
       "sense_numbers": [
@@ -23,7 +23,7 @@
     },
     {
       "id": "06596_ofusaido_ex2",
-      "japanese": "{線審|せんしん}がオフサイドの{旗|はた}を{上|あ}げた。",
+      "japanese": "⟦{線審|せんしん}→線審：08629_senshin⟧⟦が→が：00051_ga⟧オフサイド⟦の→の：09472_no⟧⟦{旗|はた}→旗：02161_hata⟧⟦を→を：00422_wo⟧⟦{上|あ}げた→上げる：02443_ageru⟧。",
       "english": "The linesman raised the flag for offside.",
       "has_audio": false,
       "sense_numbers": [
@@ -32,7 +32,7 @@
     },
     {
       "id": "06596_ofusaido_ex3",
-      "japanese": "VAR{判定|はんてい}でオフサイドが{確認|かくにん}された。",
+      "japanese": "VAR⟦{判定|はんてい}→判定：09767_hantei⟧⟦で→で：00502_de⟧オフサイド⟦が→が：00051_ga⟧⟦{確認|かくにん}→確認：00158_kakunin⟧⟦された→する：00392_suru⟧。",
       "english": "Offside was confirmed by VAR review.",
       "has_audio": false,
       "sense_numbers": [
@@ -40,10 +40,33 @@
       ]
     }
   ],
-  "notes": "SOCCER RULE:\nA player is offside if:\n・They are in the opponent's half\n・They are closer to the goal line than both the ball and the second-last opponent\n・They are actively involved in play\n\nRELATED TERMS:\n・オフサイドトラップ (offside trap)\n・オフサイドライン (offside line)\n・VAR (Video Assistant Referee)\n・{線審|せんしん} / {副審|ふくしん} (assistant referee, linesman)\n\nJAPANESE EQUIVALENT:\n・{越位|えつい} (offside - formal/technical term, rarely used)",
+  "notes": "SOCCER RULE:\nA player is offside if:\n- They are in the opponent's half\n- They are closer to the goal line than both the ball and the second-last opponent\n- They are actively involved in play\n\nRELATED WORDS:\n- オフサイドトラップ (offside trap)\n- オフサイドライン (offside line)\n- VAR (Video Assistant Referee)\n- ⟦{線審|せんしん}→線審：08629_senshin⟧ / ⟦{副審|ふくしん}→副審：09269_fukushin⟧ (assistant referee, linesman)\n\nJAPANESE EQUIVALENT:\n- {越位|えつい} (offside - formal/technical term, rarely used)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "08629_senshin",
+      "reading": "せんしん",
+      "headword": "{線審|せんしん}",
+      "label": "assistant referee, linesman"
+    },
+    {
+      "type": "related",
+      "target_id": "09269_fukushin",
+      "reading": "ふくしん",
+      "headword": "{副審|ふくしん}",
+      "label": "assistant referee, linesman"
+    },
+    {
+      "type": "antonym",
+      "target_id": "27756_onsaido",
+      "reading": "おんさいど",
+      "headword": "オンサイド",
+      "label": "onside"
+    }
+  ],
   "metadata": {
     "created": "2026-01-18T00:57:28Z",
-    "modified": "2026-06-17T19:18:07Z",
+    "modified": "2026-09-02T04:01:09Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

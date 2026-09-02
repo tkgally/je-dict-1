@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28350_makotoni_ex1",
-      "japanese": "{誠|まこと}にありがとうございます。",
+      "japanese": "{誠|まこと}に⟦ありがとうございます→ありがとうございます：09886_arigatougozaimasu⟧。",
       "english": "Thank you very much (sincerely).",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28350_makotoni_ex2",
-      "japanese": "{誠|まこと}に{申|もう}し{訳|わけ}ございません。",
+      "japanese": "{誠|まこと}に⟦{申|もう}し{訳|わけ}ございません→申し訳ございません：18087_moushiwakegozaimasen⟧。",
       "english": "I am truly sorry.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28350_makotoni_ex3",
-      "japanese": "{誠|まこと}に{勝手|かって}ながら、{明日|あす}は{休業|きゅうぎょう}とさせていただきます。",
+      "japanese": "{誠|まこと}に⟦{勝手|かって}→勝手：03021_katte⟧⟦ながら→ながら：10530_nagara⟧、{明日|あす}⟦は→は：00079_ha⟧⟦{休業|きゅうぎょう}→休業：11541_kyuugyou⟧⟦と→と：00512_to⟧⟦させて→する：00392_suru⟧⟦いただきます→いただく：01326_itadaku⟧。",
       "english": "Most regrettably, we will be closed tomorrow.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Very formal adverb that heightens the sincerity of the following expression. Heard constantly in customer-service announcements, business emails, and ceremonial speech, but rare in casual conversation.\n\nCOMMON COLLOCATIONS:\n- {誠|まこと}にありがとうございます: thank you very much\n- {誠|まこと}に{申|もう}し{訳|わけ}ございません / ありません: I am truly sorry\n- {誠|まこと}に{恐縮|きょうしゅく}ですが: I am extremely sorry to ask, but...\n- {誠|まこと}に{残念|ざんねん}ながら: most regrettably\n- {誠|まこと}に{勝手|かって}ながら: most presumptuously (set phrase for business notices)\n\nSIMILAR WORDS:\n- {本当|ほんとう}に: really — neutral; all registers\n- {実|じつ}に: truly; indeed — formal/literary, more emphatic of feeling\n- {大変|たいへん}: very; greatly — formal but less humble than {誠|まこと}に",
+  "notes": "Very formal adverb that heightens the sincerity of the following expression. Heard constantly in customer-service announcements, business emails, and ceremonial speech, but rare in casual conversation.\n\nCOMMON COLLOCATIONS:\n- {誠|まこと}に⟦ありがとうございます→ありがとうございます：09886_arigatougozaimasu⟧: thank you very much\n- {誠|まこと}に⟦{申|もう}し{訳|わけ}ございません→申し訳ございません：18087_moushiwakegozaimasen⟧ / ⟦ありません→ある：00006_aru⟧: I am truly sorry\n- {誠|まこと}に⟦{恐縮|きょうしゅく}→恐縮：07596_kyoushuku⟧です⟦が→が：00051_ga⟧: I am extremely sorry to ask, but...\n- {誠|まこと}に⟦{残念|ざんねん}→残念：01244_zannen⟧⟦ながら→ながら：10530_nagara⟧: most regrettably\n- {誠|まこと}に⟦{勝手|かって}→勝手：03021_katte⟧⟦ながら→ながら：10530_nagara⟧: most presumptuously (set phrase for business notices)\n\nSIMILAR WORDS:\n- ⟦{本当|ほんとう}→本当：00779_hontou⟧⟦に→に：00314_ni⟧: really — neutral; all registers\n- ⟦{実|じつ}→実：28344_jitsu⟧⟦に→に：00314_ni⟧: truly; indeed — formal/literary, more emphatic of feeling\n- ⟦{大変|たいへん}→大変：00594_taihen⟧: very; greatly — formal but less humble than {誠|まこと}に",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04714_hontouni",
+      "reading": "ほんとうに",
+      "headword": "{本当|ほんとう}に",
+      "label": "really"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03820_jitsuni",
+      "reading": "じつに",
+      "headword": "{実|じつ}に",
+      "label": "truly"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00594_taihen",
+      "reading": "たいへん",
+      "headword": "{大変|たいへん}",
+      "label": "very"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +83,6 @@
       "domain": []
     },
     "created": "2026-05-29T03:08:25Z",
-    "modified": "2026-08-08T03:27:39Z"
+    "modified": "2026-09-02T04:02:33Z"
   }
 }

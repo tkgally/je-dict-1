@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "27117_gakuyuu_ex1",
-      "japanese": "{彼|かれ}は{大学|だいがく}の{学友|がくゆう}です。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{大学|だいがく}→大学：00608_daigaku⟧⟦の→の：09472_no⟧{学友|がくゆう}です。",
       "english": "He is a college friend of mine.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "27117_gakuyuu_ex2",
-      "japanese": "{学友|がくゆう}と{久|ひさ}しぶりに{再会|さいかい}した。",
+      "japanese": "{学友|がくゆう}⟦と→と：00512_to⟧⟦{久|ひさ}しぶり→久しぶり：01711_hisashiburi⟧⟦に→に：00314_ni⟧⟦{再会|さいかい}→再会：11667_saikai⟧⟦した→する：00392_suru⟧。",
       "english": "I reunited with an old school friend after a long time.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "27117_gakuyuu_ex3",
-      "japanese": "{高校|こうこう}{時代|じだい}の{学友|がくゆう}と{今|いま}でも{連絡|れんらく}を{取|と}り{合|あ}っている。",
+      "japanese": "⟦{高校|こうこう}→高校：01083_koukou⟧⟦{時代|じだい}→時代：01424_jidai⟧⟦の→の：09472_no⟧{学友|がくゆう}⟦と→と：00512_to⟧⟦{今|いま}→今：00945_ima⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧⟦{連絡|れんらく}→連絡：01524_renraku⟧⟦を→を：00422_wo⟧⟦{取|と}り{合|あ}っている→取り合う：12000_toriau⟧。",
       "english": "I still keep in touch with friends from my high school days.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "A somewhat formal or literary term for a friend from one's school or university days. Combines {学|がく} (learning/school) and {友|ゆう} (friend). While {同級生|どうきゅうせい} or {クラスメート} are more common in everyday speech, {学友|がくゆう} has a warmer nuance emphasizing the bond of having studied together.\n\nCOMMON COLLOCATIONS:\n- {大学|だいがく}の{学友|がくゆう}: university friend\n- {学友|がくゆう}と{再会|さいかい}する: to reunite with a school friend\n- {旧|きゅう}{学友|がくゆう}: old school friend\n\nSIMILAR WORDS:\n- {同級生|どうきゅうせい}: classmate — neutral, emphasizes being in the same grade\n- {級友|きゅうゆう}: classmate — also somewhat formal, specifically same class\n- クラスメート: classmate — casual loanword equivalent",
+  "notes": "A somewhat formal or literary term for a friend from one's school or university days. Combines ⟦{学|がく}→〜学：09846_gaku⟧ (learning/school) and {友|ゆう} (friend). While ⟦{同級生|どうきゅうせい}→同級生：03032_doukyuusei⟧ or ⟦クラスメート→クラスメート：20969_kurasumeeto⟧ are more common in everyday speech, {学友|がくゆう} has a warmer nuance emphasizing the bond of having studied together.\n\nCOMMON COLLOCATIONS:\n- ⟦{大学|だいがく}→大学：00608_daigaku⟧⟦の→の：09472_no⟧{学友|がくゆう}: university friend\n- {学友|がくゆう}⟦と→と：00512_to⟧⟦{再会|さいかい}→再会：11667_saikai⟧⟦する→する：00392_suru⟧: to reunite with a school friend\n- ⟦{旧|きゅう}→旧：19346_kyuu⟧{学友|がくゆう}: old school friend\n\nSIMILAR WORDS:\n- ⟦{同級生|どうきゅうせい}→同級生：03032_doukyuusei⟧: classmate — neutral, emphasizes being in the same grade\n- {級友|きゅうゆう}: classmate — also somewhat formal, specifically same class\n- ⟦クラスメート→クラスメート：20969_kurasumeeto⟧: classmate — casual loanword equivalent",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03032_doukyuusei",
+      "reading": "どうきゅうせい",
+      "headword": "{同級生|どうきゅうせい}",
+      "label": "classmate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20969_kurasumeeto",
+      "reading": "くらすめーと",
+      "headword": "クラスメート",
+      "label": "classmate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21773_dousousei",
+      "reading": "どうそうせい",
+      "headword": "{同窓生|どうそうせい}",
+      "label": "alumnus"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +83,6 @@
       ]
     },
     "created": "2026-05-07T12:12:41Z",
-    "modified": "2026-08-07T06:30:05Z"
+    "modified": "2026-09-02T04:02:29Z"
   }
 }

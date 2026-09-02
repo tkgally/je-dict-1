@@ -2,7 +2,7 @@
   "id": "04121_kaisan",
   "headword": "{解散|かいさん}",
   "reading": "かいさん",
-  "part_of_speech": "noun, suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "dissolution, breaking up, dismissal",
   "conjugation": {
     "type": "suru",
@@ -168,10 +168,10 @@
       ]
     }
   ],
-  "notes": "USAGE: {解散|かいさん} is used for both formal dissolutions and casual breakups.\n\nCOMMON PATTERNS:\n・{解散|かいさん}⟦する→する：00392_suru⟧ (to break up, dissolve, dismiss)\n・{解散|かいさん}⟦を→を：00422_wo⟧⟦{宣言|せんげん}→宣言：12284_sengen⟧⟦する→する：00392_suru⟧ (to announce dissolution)\n・{解散|かいさん}⟦{総選挙|そうせんきょ}→総選挙：noentry⟧ (dissolution and general election)\n\nCONTEXTS:\n・⟦バンド→バンド：05508_bando⟧/⟦グループ→グループ：03840_guruupu⟧⟦の→の：09472_no⟧{解散|かいさん} (band/group breakup)\n・⟦{国会|こっかい}→国会：02761_kokkai⟧/⟦{議会|ぎかい}→議会：02661_gikai⟧⟦の→の：09472_no⟧{解散|かいさん} (dissolution of parliament)\n・⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦の→の：09472_no⟧{解散|かいさん} (dissolution of a company)\n・⟦{現地|げんち}→現地：13502_genchi⟧{解散|かいさん} (dismissal on site - everyone goes home separately)\n\nCONTRAST:\n・⟦{結成|けっせい}→結成：13809_kessei⟧ - formation (opposite)",
+  "notes": "USAGE: {解散|かいさん} is used for both formal dissolutions and casual breakups.\n\nCOMMON PATTERNS:\n- {解散|かいさん}⟦する→する：00392_suru⟧ (to break up, dissolve, dismiss)\n- {解散|かいさん}⟦を→を：00422_wo⟧⟦{宣言|せんげん}→宣言：12284_sengen⟧⟦する→する：00392_suru⟧ (to announce dissolution)\n- {解散|かいさん}⟦{総選挙|そうせんきょ}→総選挙：noentry⟧ (dissolution and general election)\n\nUSAGE:\n- ⟦バンド→バンド：05508_bando⟧/⟦グループ→グループ：03840_guruupu⟧⟦の→の：09472_no⟧{解散|かいさん} (band/group breakup)\n- ⟦{国会|こっかい}→国会：02761_kokkai⟧/⟦{議会|ぎかい}→議会：02661_gikai⟧⟦の→の：09472_no⟧{解散|かいさん} (dissolution of parliament)\n- ⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦の→の：09472_no⟧{解散|かいさん} (dissolution of a company)\n- ⟦{現地|げんち}→現地：13502_genchi⟧{解散|かいさん} (dismissal on site - everyone goes home separately)\n\nSIMILAR WORDS:\n- ⟦{結成|けっせい}→結成：13809_kessei⟧ - formation (opposite)",
   "metadata": {
     "created": "2026-01-13T12:42:08Z",
-    "modified": "2026-05-29T17:08:55Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -194,6 +194,34 @@
       "headword": "{集合|しゅうごう}",
       "label": "gathering, assembly",
       "target_id": "03068_shuugou"
+    },
+    {
+      "type": "antonym",
+      "target_id": "13809_kessei",
+      "reading": "けっせい",
+      "headword": "{結成|けっせい}",
+      "label": "formation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24772_sankai",
+      "reading": "さんかい",
+      "headword": "{散会|さんかい}",
+      "label": "adjournment, breaking up (of a meeting)"
+    },
+    {
+      "type": "antonym",
+      "target_id": "25991_saikessei",
+      "reading": "さいけっせい",
+      "headword": "{再結成|さいけっせい}",
+      "label": "reunion"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28856_soujishoku",
+      "reading": "そうじしょく",
+      "headword": "{総辞職|そうじしょく}",
+      "label": "mass resignation"
     }
   ]
 }

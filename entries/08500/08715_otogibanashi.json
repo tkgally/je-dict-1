@@ -19,7 +19,7 @@
   "examples": [
     {
       "id": "08715_otogibanashi_ex1",
-      "japanese": "{子供|こども}におとぎ{話|ばなし}を{読|よ}んであげた。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧⟦に→に：00314_ni⟧おとぎ{話|ばなし}⟦を→を：00422_wo⟧⟦{読|よ}んで→読む：00426_yomu⟧⟦あげた→あげる：00546_ageru⟧。",
       "english": "I read a fairy tale to the children.",
       "sense_numbers": [
         1
@@ -29,7 +29,7 @@
     },
     {
       "id": "08715_otogibanashi_ex2",
-      "japanese": "おとぎ{話|ばなし}のような{美|うつく}しい{景色|けしき}だった。",
+      "japanese": "おとぎ{話|ばなし}⟦の→の：09472_no⟧ような⟦{美|うつく}しい→美しい：01121_utsukushii⟧⟦{景色|けしき}→景色：01395_keshiki⟧だった。",
       "english": "It was a beautiful scene like something out of a fairy tale.",
       "sense_numbers": [
         1
@@ -39,7 +39,7 @@
     },
     {
       "id": "08715_otogibanashi_ex3",
-      "japanese": "{日本|にほん}のおとぎ{話|ばなし}には{桃太郎|ももたろう}がある。",
+      "japanese": "⟦{日本|にほん}→日本：03876_nihon⟧⟦の→の：09472_no⟧おとぎ{話|ばなし}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{桃太郎|ももたろう}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "Momotaro is one of the Japanese fairy tales.",
       "sense_numbers": [
         1
@@ -49,7 +49,7 @@
     },
     {
       "id": "08715_otogibanashi_ex4",
-      "japanese": "そんなおとぎ{話|ばなし}を{信|しん}じるな。",
+      "japanese": "⟦そんな→そんな：01645_sonna⟧おとぎ{話|ばなし}⟦を→を：00422_wo⟧⟦{信|しん}じる→信じる：01111_shinjiru⟧な。",
       "english": "Don't believe such fairy tales (unrealistic stories).",
       "sense_numbers": [
         2
@@ -59,7 +59,7 @@
     },
     {
       "id": "08715_otogibanashi_ex5",
-      "japanese": "{一攫千金|いっかくせんきん}なんておとぎ{話|ばなし}だ。",
+      "japanese": "⟦{一攫千金|いっかくせんきん}→一攫千金：18500_ikkakusenkin⟧⟦なんて→なんて：06918_nante⟧おとぎ{話|ばなし}だ。",
       "english": "Getting rich quick is just a fairy tale.",
       "sense_numbers": [
         2
@@ -69,7 +69,7 @@
     },
     {
       "id": "08715_otogibanashi_ex6",
-      "japanese": "おとぎ{話|ばなし}みたいな{話|はなし}だが、{本当|ほんとう}にあったことだ。",
+      "japanese": "おとぎ{話|ばなし}⟦みたい→みたい：10755_mitai⟧な⟦{話|はなし}→話：01496_hanashi⟧だ⟦が→が：00051_ga⟧、⟦{本当|ほんとう}→本当：00779_hontou⟧にあったことだ。",
       "english": "It sounds like a fairy tale, but it really happened.",
       "sense_numbers": [
         2
@@ -78,7 +78,23 @@
       "notes": null
     }
   ],
-  "notes": "ETYMOLOGY:\nおとぎ comes from {御伽|おとぎ} (keeping company, entertaining), originally referring to stories told to entertain or put children to sleep.\n\nFAMOUS JAPANESE FAIRY TALES:\n- {桃太郎|ももたろう} - Momotaro (Peach Boy)\n- {浦島太郎|うらしまたろう} - Urashima Taro\n- {金太郎|きんたろう} - Kintaro (Golden Boy)\n- {一寸法師|いっすんぼうし} - Issun-boshi (One-Inch Boy)\n- かぐや{姫|ひめ} - Princess Kaguya\n\nALTERNATIVE SPELLINGS:\n- お{伽話|とぎばなし}\n- {御伽噺|おとぎばなし}\n\nRELATED:\n- {昔話|むかしばなし} - folk tale, old story\n- {童話|どうわ} - children's story",
+  "notes": "ETYMOLOGY:\nおとぎ comes from {御伽|おとぎ} (keeping company, entertaining), originally referring to stories told to entertain or put children to sleep.\n\nFAMOUS JAPANESE FAIRY TALES:\n- {桃太郎|ももたろう} - Momotaro (Peach Boy)\n- {浦島太郎|うらしまたろう} - Urashima Taro\n- {金太郎|きんたろう} - Kintaro (Golden Boy)\n- ⟦{一寸法師|いっすんぼうし}→一寸法師：24967_issunboushi⟧ - Issun-boshi (One-Inch Boy)\n- かぐや{姫|ひめ} - Princess Kaguya\n\nALTERNATIVE SPELLINGS:\n- お{伽話|とぎばなし}\n- {御伽噺|おとぎばなし}\n\nRELATED WORDS:\n- ⟦{昔話|むかしばなし}→昔話：12718_mukashibanashi⟧ - folk tale, old story\n- ⟦{童話|どうわ}→童話：04075_douwa⟧ - children's story",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "12718_mukashibanashi",
+      "reading": "むかしばなし",
+      "headword": "{昔話|むかしばなし}",
+      "label": "folk tale, old story"
+    },
+    {
+      "type": "related",
+      "target_id": "04075_douwa",
+      "reading": "どうわ",
+      "headword": "{童話|どうわ}",
+      "label": "children's story"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -86,12 +102,13 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "art",
         "culture"
       ]
     },
     "created": "2026-01-28T02:52:54Z",
-    "modified": "2026-06-12T12:41:12Z"
+    "modified": "2026-09-02T04:01:16Z"
   }
 }

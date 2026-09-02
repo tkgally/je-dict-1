@@ -3,7 +3,7 @@
   "headword": "{潜入|せんにゅう}する",
   "reading": "せんにゅうする",
   "romaji": "sennyuusuru",
-  "part_of_speech": "verb",
+  "part_of_speech": "suru verb",
   "gloss": "to infiltrate; to sneak in; to go undercover",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "20994_sennyuusuru_ex1",
-      "japanese": "スパイが{敵|てき}の{基地|きち}に{潜入|せんにゅう}した。",
+      "japanese": "⟦スパイ→スパイ：18236_supai⟧⟦が→が：00051_ga⟧⟦{敵|てき}→敵：03546_teki⟧⟦の→の：09472_no⟧⟦{基地|きち}→基地：03982_kichi⟧⟦に→に：00314_ni⟧{潜入|せんにゅう}した。",
       "english": "The spy infiltrated the enemy base.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "20994_sennyuusuru_ex2",
-      "japanese": "{記者|きしゃ}が{潜入|せんにゅう}{取材|しゅざい}を{行|おこな}った。",
+      "japanese": "⟦{記者|きしゃ}→記者：14170_kisha⟧⟦が→が：00051_ga⟧⟦{潜入|せんにゅう}→潜入：13389_sennyuu⟧⟦{取材|しゅざい}→取材：05227_shuzai⟧⟦を→を：00422_wo⟧⟦{行|おこな}った→行う：01238_okonau⟧。",
       "english": "The journalist conducted undercover reporting.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "20994_sennyuusuru_ex3",
-      "japanese": "{警察官|けいさつかん}が{犯罪|はんざい}グループに{潜入|せんにゅう}して、{内部|ないぶ}{情報|じょうほう}を{集|あつ}めた。",
+      "japanese": "⟦{警察官|けいさつかん}→警察官：05056_keisatsukan⟧⟦が→が：00051_ga⟧⟦{犯罪|はんざい}→犯罪：03569_hanzai⟧⟦グループ→グループ：03840_guruupu⟧⟦に→に：00314_ni⟧{潜入|せんにゅう}して、⟦{内部|ないぶ}{情報|じょうほう}→内部情報：27190_naibujouhou⟧⟦を→を：00422_wo⟧⟦{集|あつ}めた→集める：01170_atsumeru⟧。",
       "english": "A police officer infiltrated the criminal group and gathered inside information.",
       "sense_numbers": [
         1
@@ -44,9 +44,32 @@
       "notes": null
     }
   ],
-  "notes": "A する verb composed of {潜|せん} (hide, lurk) + {入|にゅう} (enter). Implies secrecy and stealth — entering without being detected or while concealing one's true purpose.\n\nCOMMON COLLOCATIONS:\n- {潜入|せんにゅう}{捜査|そうさ}: undercover investigation\n- {潜入|せんにゅう}{取材|しゅざい}: undercover reporting/journalism\n- {潜入|せんにゅう}{工作員|こうさくいん}: infiltrator, covert agent\n- ～に{潜入|せんにゅう}する: to infiltrate ~\n\nSIMILAR WORDS:\n- {忍|しの}び{込|こ}む: to sneak in, to creep in — everyday word; physical stealth without necessarily a mission\n- {侵入|しんにゅう}する: to intrude, to break in — focuses on unauthorized entry; not necessarily secret\n- {潜伏|せんぷく}する: to lie low, to go into hiding — hiding after entry rather than the act of entering",
+  "notes": "A ⟦する→する：00392_suru⟧ verb composed of {潜|せん} (hide, lurk) + {入|にゅう} (enter). Implies secrecy and stealth — entering without being detected or while concealing one's true purpose.\n\nCOMMON COLLOCATIONS:\n- ⟦{潜入|せんにゅう}→潜入：13389_sennyuu⟧⟦{捜査|そうさ}→捜査：03688_sousa⟧: undercover investigation\n- ⟦{潜入|せんにゅう}→潜入：13389_sennyuu⟧⟦{取材|しゅざい}→取材：05227_shuzai⟧: undercover reporting/journalism\n- ⟦{潜入|せんにゅう}→潜入：13389_sennyuu⟧⟦{工作員|こうさくいん}→工作員：30169_kousakuin⟧: infiltrator, covert agent\n- ～⟦に→に：00314_ni⟧{潜入|せんにゅう}する: to infiltrate ~\n\nSIMILAR WORDS:\n- ⟦{忍|しの}び{込|こ}む→忍び込む：12578_shinobikomu⟧: to sneak in, to creep in — everyday word; physical stealth without necessarily a mission\n- ⟦{侵入|しんにゅう}する→侵入する：17343_shinnyuusuru⟧: to intrude, to break in — focuses on unauthorized entry; not necessarily secret\n- ⟦{潜伏|せんぷく}する→潜伏する：25505_senpukusuru⟧: to lie low, to go into hiding — hiding after entry rather than the act of entering",
   "conjugation_type": "suru",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12578_shinobikomu",
+      "reading": "しのびこむ",
+      "headword": "{忍|しの}び{込|こ}む",
+      "label": "to sneak in, to creep in"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17343_shinnyuusuru",
+      "reading": "しんにゅうする",
+      "headword": "{侵入|しんにゅう}する",
+      "label": "to intrude, to break in"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25505_senpukusuru",
+      "reading": "せんぷくする",
+      "headword": "{潜伏|せんぷく}する",
+      "label": "to lie low, to go into hiding"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,7 +85,7 @@
       "verb_class": "suru"
     },
     "created": "2026-03-31T09:51:25Z",
-    "modified": "2026-07-29T00:22:41Z"
+    "modified": "2026-09-02T04:02:01Z"
   },
   "conjugation": {
     "type": "suru",

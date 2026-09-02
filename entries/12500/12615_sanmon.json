@@ -15,41 +15,59 @@
   "examples": [
     {
       "id": "12615_sanmon_ex1",
-      "japanese": "{山門|さんもん}をくぐる。",
+      "japanese": "{山門|さんもん}⟦を→を：00422_wo⟧くぐる。",
       "english": "To pass through the temple gate.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12615_sanmon_ex2",
-      "japanese": "{立派|りっぱ}な{山門|さんもん}が{見|み}えてきた。",
+      "japanese": "⟦{立派|りっぱ}→立派：01093_rippa⟧な{山門|さんもん}⟦が→が：00051_ga⟧⟦{見|み}えて→見える：01165_mieru⟧きた。",
       "english": "An impressive temple gate came into view.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12615_sanmon_ex3",
-      "japanese": "{南禅寺|なんぜんじ}の{山門|さんもん}は{日本|にほん}でも{有数|ゆうすう}の{大|おお}きさを{誇|ほこ}る。",
+      "japanese": "{南禅寺|なんぜんじ}⟦の→の：09472_no⟧{山門|さんもん}⟦は→は：00079_ha⟧⟦{日本|にほん}→日本：03876_nihon⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧⟦{有数|ゆうすう}→有数：13006_yuusuu⟧⟦の→の：09472_no⟧⟦{大|おお}きさ→大きさ：10969_ookisa⟧⟦を→を：00422_wo⟧⟦{誇|ほこ}る→誇る：14180_hokoru⟧。",
       "english": "The temple gate of Nanzen-ji boasts one of the largest sizes in Japan.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{山門|さんもん} literally means \"mountain gate\" because Buddhist temples in Japan were traditionally built on mountains ({山寺|やまでら}).\n\nSIMILAR WORDS:\n- {山門|さんもん}: main gate of a Buddhist temple\n- {鳥居|とりい}: gate of a Shinto shrine\n- {門|もん}: gate (general)\n\nNOTE:\nAlso written {三門|さんもん} (three gates), referring to the three gates of enlightenment in Buddhism: {空|くう} (emptiness), {無相|むそう} (formlessness), and {無願|むがん} (desirelessness). Both kanji spellings are used.",
-  "cross_references": [],
+  "notes": "{山門|さんもん} literally means \"mountain gate\" because Buddhist temples in Japan were traditionally built on mountains ({山寺|やまでら}).\n\nSIMILAR WORDS:\n- {山門|さんもん}: main gate of a Buddhist temple\n- ⟦{鳥居|とりい}→鳥居：05956_torii⟧: gate of a Shinto shrine\n- ⟦{門|もん}→門：14603_mon⟧: gate (general)\n\nUSAGE:\nAlso written {三門|さんもん} (three gates), referring to the three gates of enlightenment in Buddhism: ⟦{空|くう}→空〜：03949_kuu⟧ (emptiness), {無相|むそう} (formlessness), and {無願|むがん} (desirelessness). Both kanji spellings are used.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05956_torii",
+      "reading": "とりい",
+      "headword": "{鳥居|とりい}",
+      "label": "gate of a Shinto shrine"
+    }
+  ],
   "metadata": {
     "created": "2026-02-22T04:30:31Z",
-    "modified": "2026-02-22T04:30:31Z",
+    "modified": "2026-09-02T04:01:29Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["building"]
+      "semantic": [
+        "building"
+      ]
     }
   }
 }

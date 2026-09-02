@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "07131_juzu_ex1",
-      "japanese": "{葬儀|そうぎ}には{数珠|じゅず}を{持参|じさん}した。",
+      "japanese": "⟦{葬儀|そうぎ}→葬儀：15337_sougi⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{数珠|じゅず}⟦を→を：00422_wo⟧⟦{持参|じさん}した→持参する：21143_jisansuru⟧。",
       "english": "I brought prayer beads to the funeral.",
       "sense_numbers": [
         1
@@ -22,7 +22,7 @@
     },
     {
       "id": "07131_juzu_ex2",
-      "japanese": "{祖母|そぼ}は{毎日|まいにち}{数珠|じゅず}を{手|て}にお{経|きょう}を{唱|とな}えていた。",
+      "japanese": "⟦{祖母|そぼ}→祖母：00813_sobo⟧⟦は→は：00079_ha⟧⟦{毎日|まいにち}→毎日：00729_mainichi⟧{数珠|じゅず}⟦を→を：00422_wo⟧⟦{手|て}→手：00569_te⟧⟦に→に：00314_ni⟧⟦お{経|きょう}→お経：17854_okyou⟧⟦を→を：00422_wo⟧⟦{唱|とな}えていた→唱える：10467_tonaeru⟧。",
       "english": "My grandmother used to chant sutras every day with prayer beads in hand.",
       "sense_numbers": [
         1
@@ -30,14 +30,14 @@
     },
     {
       "id": "07131_juzu_ex3",
-      "japanese": "{法事|ほうじ}に{行|い}くので{数珠|じゅず}を{用意|ようい}した。",
+      "japanese": "⟦{法事|ほうじ}→法事：05634_houji⟧⟦に→に：00314_ni⟧⟦{行|い}く→行く：00119_iku⟧⟦の→の：09472_no⟧で{数珠|じゅず}⟦を→を：00422_wo⟧⟦{用意|ようい}した→用意する：22428_youisuru⟧。",
       "english": "I prepared prayer beads since I'm going to a memorial service.",
       "sense_numbers": [
         1
       ]
     }
   ],
-  "notes": "CULTURAL CONTEXT: {数珠|じゅず} are essential items for Buddhist ceremonies in Japan, including funerals ({葬儀|そうぎ}/{告別式|こくべつしき}), memorial services ({法事|ほうじ}), and visits to graves ({墓参|はかまい}り).\n\nTYPES:\n- {本式|ほんしき}{数珠|じゅず}: formal type with 108 beads\n- {略式|りゃくしき}{数珠|じゅず}: simplified type (more common)\n- Varies by Buddhist sect\n\nNUMBER SIGNIFICANCE:\n- Traditional: 108 beads representing 108 worldly desires ({煩悩|ぼんのう})\n- Simplified versions may have 27, 36, or 54 beads\n\nETIQUETTE:\n- Hold in left hand or wrap around both hands during prayer\n- Should not be placed on the floor\n- Often kept in a small pouch ({数珠袋|じゅずぶくろ})\n\nRELATED VOCABULARY:\n- {念珠|ねんじゅ}: alternative formal term\n- {数珠|じゅず}つなぎ: strung together like beads (idiom)\n\nALTERNATE READING: Also read as ずず in some contexts.",
+  "notes": "CULTURAL CONTEXT: {数珠|じゅず} are essential items for Buddhist ceremonies in Japan, including funerals (⟦{葬儀|そうぎ}→葬儀：15337_sougi⟧/⟦{告別式|こくべつしき}→告別式：05923_kokubetsushiki⟧), memorial services (⟦{法事|ほうじ}→法事：05634_houji⟧), and visits to graves (⟦{墓参|はかまい}り→墓参り：10663_hakamairi⟧).\n\nTYPES:\n- {本式|ほんしき}{数珠|じゅず}: formal type with 108 beads\n- ⟦{略式|りゃくしき}→略式：13718_ryakushiki⟧{数珠|じゅず}: simplified type (more common)\n- Varies by Buddhist sect\n\nNUMBER SIGNIFICANCE:\n- Traditional: 108 beads representing 108 worldly desires (⟦{煩悩|ぼんのう}→煩悩：14880_bonnou⟧)\n- Simplified versions may have 27, 36, or 54 beads\n\nETIQUETTE:\n- Hold in left hand or wrap around both hands during prayer\n- Should not be placed on the floor\n- Often kept in a small pouch ({数珠袋|じゅずぶくろ})\n\nRELATED WORDS:\n- ⟦{念珠|ねんじゅ}→念珠：18449_nenju⟧: alternative formal term\n- {数珠|じゅず}つなぎ: strung together like beads (idiom)\n\nALTERNATE READING: Also read as ずず in some contexts.",
   "cross_references": [
     {
       "type": "related",
@@ -52,11 +52,18 @@
       "headword": "{仏壇|ぶつだん}",
       "label": "Buddhist altar",
       "target_id": "07116_butsudan"
+    },
+    {
+      "type": "related",
+      "target_id": "24966_butsugu",
+      "reading": "ぶつぐ",
+      "headword": "{仏具|ぶつぐ}",
+      "label": "Buddhist altar fittings"
     }
   ],
   "metadata": {
     "created": "2026-01-18T23:54:32Z",
-    "modified": "2026-05-08T10:08:08Z",
+    "modified": "2026-09-02T04:01:10Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

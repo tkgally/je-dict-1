@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25245_secchakusuru_ex1",
-      "japanese": "{部品|ぶひん}を{接着|せっちゃく}する。",
+      "japanese": "⟦{部品|ぶひん}→部品：00020_buhin⟧⟦を→を：00422_wo⟧{接着|せっちゃく}する。",
       "english": "I glue the parts together.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25245_secchakusuru_ex2",
-      "japanese": "{壊|こわ}れた{花瓶|かびん}を{接着剤|せっちゃくざい}で{接着|せっちゃく}した。",
+      "japanese": "⟦{壊|こわ}れた→壊れる：00791_kowareru⟧⟦{花瓶|かびん}→花瓶：02867_kabin⟧⟦を→を：00422_wo⟧⟦{接着剤|せっちゃくざい}→接着剤：07089_secchakuzai⟧⟦で→で：00502_de⟧{接着|せっちゃく}した。",
       "english": "I glued the broken vase back together with adhesive.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25245_secchakusuru_ex3",
-      "japanese": "この{素材|そざい}は{熱|ねつ}を{加|くわ}えると{接着|せっちゃく}する{性質|せいしつ}がある。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{素材|そざい}→素材：09492_sozai⟧⟦は→は：00079_ha⟧⟦{熱|ねつ}→熱：01690_netsu⟧⟦を→を：00422_wo⟧⟦{加|くわ}える→加える：01941_kuwaeru⟧⟦と→と：00512_to⟧{接着|せっちゃく}する⟦{性質|せいしつ}→性質：01638_seishitsu⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "This material has the property of bonding when heat is applied.",
       "sense_numbers": [
         1
@@ -45,7 +45,7 @@
     },
     {
       "id": "25245_secchakusuru_ex4",
-      "japanese": "{タイル|たいる}がしっかり{接着|せっちゃく}していないと、{剥|は}がれてしまう。",
+      "japanese": "⟦タイル→タイル：29719_tairu⟧⟦が→が：00051_ga⟧⟦しっかり→しっかり：01272_shikkari⟧{接着|せっちゃく}して⟦いない→いる：00495_iru⟧⟦と→と：00512_to⟧、⟦{剥|は}がれて→剥がれる：04363_hagareru⟧しまう。",
       "english": "If the tiles aren't firmly bonded, they'll come off.",
       "sense_numbers": [
         1
@@ -54,22 +54,47 @@
       "notes": null
     }
   ],
-  "notes": "Refers to making two surfaces stick together, either with adhesive or through a bonding process. Used in both everyday (craft, repair) and industrial/technical contexts.\n\nCOMMON COLLOCATIONS:\n- {接着剤|せっちゃくざい}: adhesive; glue\n- {接着|せっちゃく}テープ: adhesive tape\n- {接着|せっちゃく}{面|めん}: bonding surface\n- {接着|せっちゃく}{強度|きょうど}: adhesive strength\n- {接着|せっちゃく}{力|りょく}: bonding power\n\nSIMILAR WORDS:\n- くっつける: to stick; to attach — a more colloquial, everyday word for sticking things together\n- {貼|は}る: to paste; to affix — used for putting stickers, labels, or wallpaper on a surface\n- {固定|こてい}する: to fix; to secure — focuses on holding something in place, not necessarily through adhesion",
+  "notes": "Refers to making two surfaces stick together, either with adhesive or through a bonding process. Used in both everyday (craft, repair) and industrial/technical contexts.\n\nCOMMON COLLOCATIONS:\n- ⟦{接着剤|せっちゃくざい}→接着剤：07089_secchakuzai⟧: adhesive; glue\n- {接着|せっちゃく}⟦テープ→テープ：01535_teepu⟧: adhesive tape\n- {接着|せっちゃく}⟦{面|めん}→面：09933_men⟧: bonding surface\n- {接着|せっちゃく}⟦{強度|きょうど}→強度：27803_kyoudo⟧: adhesive strength\n- {接着|せっちゃく}{力|りょく}: bonding power\n\nSIMILAR WORDS:\n- ⟦くっつける→くっつける：10331_kuttsukeru⟧: to stick; to attach — a more colloquial, everyday word for sticking things together\n- ⟦{貼|は}る→貼る：10447_haru⟧: to paste; to affix — used for putting stickers, labels, or wallpaper on a surface\n- ⟦{固定|こてい}する→固定する：19647_koteisuru⟧: to fix; to secure — focuses on holding something in place, not necessarily through adhesion",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "10331_kuttsukeru",
+      "reading": "くっつける",
+      "headword": "くっつける",
+      "label": "to stick"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10447_haru",
+      "reading": "はる",
+      "headword": "{貼|は}る",
+      "label": "to paste"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19647_koteisuru",
+      "reading": "こていする",
+      "headword": "{固定|こてい}する",
+      "label": "to fix"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "verb-suru"
       ],
+      "politeness": "plain",
       "semantic": [
         "creation",
         "daily-life"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-04-24T11:33:14Z",
-    "modified": "2026-08-04T12:59:53Z"
+    "modified": "2026-09-02T04:02:21Z"
   },
   "conjugation": {
     "type": "suru",

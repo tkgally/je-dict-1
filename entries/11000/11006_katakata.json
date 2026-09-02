@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "11006_katakata_ex1",
-      "japanese": "{窓|まど}がカタカタと{鳴|な}っている。",
+      "japanese": "⟦{窓|まど}→窓：02254_mado⟧⟦が→が：00051_ga⟧カタカタ⟦と→と：00512_to⟧⟦{鳴|な}っている→鳴る：01143_naru⟧。",
       "english": "The window is rattling.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "11006_katakata_ex2",
-      "japanese": "{寒|さむ}くて{歯|は}がカタカタする。",
+      "japanese": "⟦{寒|さむ}くて→寒い：00664_samui⟧⟦{歯|は}→歯：00778_ha⟧⟦が→が：00051_ga⟧カタカタ⟦する→する：00392_suru⟧。",
       "english": "My teeth are chattering from the cold.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "11006_katakata_ex3",
-      "japanese": "キーボードをカタカタと{打|う}つ{音|おと}が{聞|き}こえる。",
+      "japanese": "⟦キーボード→キーボード：04410_kiiboodo⟧⟦を→を：00422_wo⟧カタカタ⟦と→と：00512_to⟧⟦{打|う}つ→打つ：01221_utsu⟧⟦{音|おと}→音：00743_oto⟧⟦が→が：00051_ga⟧⟦{聞|き}こえる→聞こえる：01229_kikoeru⟧。",
       "english": "I can hear the clatter of someone typing on a keyboard.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "カタカタ is an onomatopoeia describing a light, repeated rattling or clattering sound. It suggests small, hard objects tapping against each other.\n\nUSAGE:\n- カタカタと + verb (with a clattering sound)\n- カタカタする (to clatter/rattle)\n- カタカタ{音|おと} (clattering noise)\n\nRELATED ONOMATOPOEIA:\n- ガタガタ: heavier rattling, shaking (louder/rougher than カタカタ)\n- パタパタ: flapping, pattering (lighter sounds)\n- カチカチ: clicking (sharper, more distinct sounds)",
+  "notes": "カタカタ is an onomatopoeia describing a light, repeated rattling or clattering sound. It suggests small, hard objects tapping against each other.\n\nUSAGE:\n- カタカタ⟦と→と：00512_to⟧ + verb (with a clattering sound)\n- カタカタ⟦する→する：00392_suru⟧ (to clatter/rattle)\n- カタカタ⟦{音|おと}→音：00743_oto⟧ (clattering noise)\n\nRELATED ONOMATOPOEIA:\n- ガタガタ: heavier rattling, shaking (louder/rougher than カタカタ)\n- パタパタ: flapping, pattering (lighter sounds)\n- ⟦カチカチ→カチカチ：05719_kachikachi⟧: clicking (sharper, more distinct sounds)",
   "cross_references": [
     {
       "type": "contrast",
@@ -51,12 +51,26 @@
       "reading": "がたがた",
       "headword": "がたがた",
       "label": "heavier rattling/shaking"
+    },
+    {
+      "type": "related",
+      "target_id": "05992_patapata",
+      "reading": "ぱたぱた",
+      "headword": "ぱたぱた",
+      "label": "flapping, pattering"
+    },
+    {
+      "type": "related",
+      "target_id": "05719_kachikachi",
+      "reading": "かちかち",
+      "headword": "カチカチ",
+      "label": "clicking"
     }
   ],
   "schema_version": "2.0",
   "metadata": {
     "created": "2026-02-12T07:24:00Z",
-    "modified": "2026-02-19T12:32:33Z",
+    "modified": "2026-09-02T04:01:23Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

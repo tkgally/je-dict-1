@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "19763_yamunaku_ex1",
-      "japanese": "やむなく{中止|ちゅうし}した。",
+      "japanese": "やむなく⟦{中止|ちゅうし}した→中止する：21909_chuushisuru⟧。",
       "english": "We had no choice but to cancel.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "19763_yamunaku_ex2",
-      "japanese": "{電車|でんしゃ}が{止|と}まり、やむなくタクシーで{帰|かえ}った。",
+      "japanese": "⟦{電車|でんしゃ}→電車：00522_densha⟧⟦が→が：00051_ga⟧⟦{止|と}まり→止まる：00555_tomaru⟧、やむなく⟦タクシー→タクシー：00816_takushii⟧⟦で→で：00502_de⟧⟦{帰|かえ}った→帰る：00508_kaeru⟧。",
       "english": "The trains stopped, so I reluctantly took a taxi home.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "19763_yamunaku_ex3",
-      "japanese": "{予算|よさん}の{都合|つごう}で、やむなく{計画|けいかく}を{縮小|しゅくしょう}することになった。",
+      "japanese": "⟦{予算|よさん}→予算：03663_yosan⟧⟦の→の：09472_no⟧⟦{都合|つごう}→都合：01672_tsugou⟧⟦で→で：00502_de⟧、やむなく⟦{計画|けいかく}→計画：01172_keikaku⟧⟦を→を：00422_wo⟧⟦{縮小|しゅくしょう}する→縮小する：25359_shukushousuru⟧ことになった。",
       "english": "Due to budget constraints, we had no choice but to scale back the plan.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "An adverbial form derived from {止|や}むなし (unavoidable), itself from the verb {止|や}む (to cease, to stop). Conveys that the speaker or subject acts only because circumstances leave no alternative.\n\nUSAGE:\nUsed in both spoken and written Japanese, though it has a slightly formal or stiff quality. Common in news reports, business communication, and narrative writing. In casual speech, しかたなく or しょうがなく are more natural.\n\nCOMMON COLLOCATIONS:\n- やむなく{中止|ちゅうし}する — to cancel unavoidably\n- やむなく{断念|だんねん}する — to reluctantly give up\n- やむなく{辞退|じたい}する — to withdraw reluctantly\n- やむなく{同意|どうい}する — to agree reluctantly\n\nSIMILAR WORDS:\n- しかたなく — reluctantly; more casual and conversational\n- しょうがなく — reluctantly; casual, often implies mild resignation\n- やむを{得|え}ず — unavoidably; more formal written variant with the same meaning",
+  "notes": "An adverbial form derived from ⟦{止|や}む→止む：01153_yamu⟧なし (unavoidable), itself from the verb ⟦{止|や}む→止む：01153_yamu⟧ (to cease, to stop). Conveys that the speaker or subject acts only because circumstances leave no alternative.\n\nUSAGE:\nUsed in both spoken and written Japanese, though it has a slightly formal or stiff quality. Common in news reports, business communication, and narrative writing. In casual speech, しかたなく or しょう⟦が→が：00051_ga⟧⟦なく→ない：01118_nai⟧ are more natural.\n\nCOMMON COLLOCATIONS:\n- やむなく⟦{中止|ちゅうし}する→中止する：21909_chuushisuru⟧ — to cancel unavoidably\n- やむなく⟦{断念|だんねん}する→断念する：20717_dannensuru⟧ — to reluctantly give up\n- やむなく⟦{辞退|じたい}する→辞退する：18992_jitaisuru⟧ — to withdraw reluctantly\n- やむなく⟦{同意|どうい}する→同意する：06056_douisuru⟧ — to agree reluctantly\n\nSIMILAR WORDS:\n- しかたなく — reluctantly; more casual and conversational\n- しょう⟦が→が：00051_ga⟧⟦なく→ない：01118_nai⟧ — reluctantly; casual, often implies mild resignation\n- ⟦やむを{得|え}ず→やむを得ず：08528_yamuwoezu⟧ — unavoidably; more formal written variant with the same meaning",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07161_shikatanaku",
+      "reading": "しかたなく",
+      "headword": "{仕方|しかた}なく",
+      "label": "reluctantly"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08528_yamuwoezu",
+      "reading": "やむをえず",
+      "headword": "やむを{得|え}ず",
+      "label": "unavoidably"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +75,6 @@
       ]
     },
     "created": "2026-03-26T23:22:42Z",
-    "modified": "2026-07-27T12:42:09Z"
+    "modified": "2026-09-02T04:01:57Z"
   }
 }

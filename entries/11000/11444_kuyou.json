@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "11444_kuyou_ex1",
-      "japanese": "{先祖|せんぞ}の{供養|くよう}をする。",
+      "japanese": "⟦{先祖|せんぞ}→先祖：04040_senzo⟧⟦の→の：09472_no⟧{供養|くよう}⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧。",
       "english": "To hold a memorial service for one's ancestors.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "11444_kuyou_ex2",
-      "japanese": "{毎年|まいとし}{命日|めいにち}に{供養|くよう}を{行|おこな}っている。",
+      "japanese": "⟦{毎年|まいとし}→毎年：00731_maitoshi⟧⟦{命日|めいにち}→命日：17539_meinichi⟧⟦に→に：00314_ni⟧{供養|くよう}⟦を→を：00422_wo⟧⟦{行|おこな}っている→行う：01238_okonau⟧。",
       "english": "We hold a memorial service every year on the anniversary of the death.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "11444_kuyou_ex3",
-      "japanese": "{古|ふる}くなった{人形|にんぎょう}を{寺|てら}で{供養|くよう}してもらった。",
+      "japanese": "⟦{古|ふる}く→古い：00488_furui⟧⟦なった→なる：01970_naru⟧⟦{人形|にんぎょう}→人形：01487_ningyou⟧⟦を→を：00422_wo⟧⟦{寺|てら}→寺：01676_tera⟧⟦で→で：00502_de⟧{供養|くよう}⟦して→する：00392_suru⟧⟦もらった→もらう：00520_morau⟧。",
       "english": "We had old dolls given a memorial ceremony at the temple.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,19 @@
       ]
     }
   ],
-  "notes": "GRAMMAR: Functions as a noun and as a する verb ({供養|くよう}する).\n\nCOMMON COLLOCATIONS:\n- {先祖|せんぞ}{供養|くよう} (memorial service for ancestors)\n- {供養|くよう}を{行|おこな}う (to hold a memorial service)\n- {水子|みずこ}{供養|くよう} (memorial for miscarried/aborted children)\n- {針|はり}{供養|くよう} (needle memorial ceremony)\n- {人形|にんぎょう}{供養|くよう} (doll memorial ceremony)\n\nCULTURAL: In Japanese Buddhism, {供養|くよう} is not limited to human deaths. There are ceremonies for broken needles ({針|はり}{供養|くよう}), old dolls, and even used chopsticks, reflecting the belief that objects develop a spirit after long use.",
-  "cross_references": [],
+  "notes": "GRAMMAR: Functions as a noun and as a ⟦する→する：00392_suru⟧ verb ({供養|くよう}⟦する→する：00392_suru⟧).\n\nCOMMON COLLOCATIONS:\n- ⟦{先祖|せんぞ}→先祖：04040_senzo⟧{供養|くよう} (memorial service for ancestors)\n- {供養|くよう}⟦を→を：00422_wo⟧⟦{行|おこな}う→行う：01238_okonau⟧ (to hold a memorial service)\n- {水子|みずこ}{供養|くよう} (memorial for miscarried/aborted children)\n- {針|はり}{供養|くよう} (needle memorial ceremony)\n- ⟦{人形|にんぎょう}→人形：01487_ningyou⟧{供養|くよう} (doll memorial ceremony)\n\nCULTURAL: In Japanese Buddhism, {供養|くよう} is not limited to human deaths. There are ceremonies for broken needles ({針|はり}{供養|くよう}), old dolls, and even used chopsticks, reflecting the belief that objects develop a spirit after long use.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24620_higane",
+      "reading": "ひがんえ",
+      "headword": "{彼岸会|ひがんえ}",
+      "label": "higan service"
+    }
+  ],
   "metadata": {
     "created": "2026-02-16T10:57:49Z",
-    "modified": "2026-03-29T03:07:35Z",
+    "modified": "2026-09-02T04:01:25Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

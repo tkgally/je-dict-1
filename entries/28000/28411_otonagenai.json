@@ -3,7 +3,7 @@
   "headword": "{大人|おとな}げない",
   "reading": "おとなげない",
   "romaji": "otonagenai",
-  "part_of_speech": "adjective-i",
+  "part_of_speech": "i-adjective",
   "gloss": "childish; immature; unbecoming of an adult",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28411_otonagenai_ex1",
-      "japanese": "{大人|おとな}げないことを{言|い}ってしまった。",
+      "japanese": "{大人|おとな}げないこと⟦を→を：00422_wo⟧⟦{言|い}って→言う：00515_iu⟧しまった。",
       "english": "I ended up saying something childish.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28411_otonagenai_ex2",
-      "japanese": "{彼|かれ}の{態度|たいど}は{大人|おとな}げない。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧⟦{態度|たいど}→態度：03396_taido⟧⟦は→は：00079_ha⟧{大人|おとな}げない。",
       "english": "His attitude is childish.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28411_otonagenai_ex3",
-      "japanese": "そんなことで{怒|おこ}るなんて、{自分|じぶん}でも{大人|おとな}げないと{思|おも}う。",
+      "japanese": "⟦そんな→そんな：01645_sonna⟧こと⟦で→で：00502_de⟧⟦{怒|おこ}る→怒る：00876_okoru⟧⟦なんて→なんて：06918_nante⟧、⟦{自分|じぶん}→自分：02887_jibun⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧{大人|おとな}げない⟦と→と：00512_to⟧⟦{思|おも}う→思う：00492_omou⟧。",
       "english": "Getting angry over something like that — even I think it's childish.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {大人|おとな} (adult) + the suffix 〜げ (an appearance, a quality) + ない (not). Literally 'not having the quality of an adult.'\n\nCOMMON COLLOCATIONS:\n- {大人|おとな}げない{態度|たいど}: childish attitude\n- {大人|おとな}げない{発言|はつげん}: immature remark\n- {大人|おとな}げないことを{言|い}う: say something childish\n- {大人|おとな}げない{反応|はんのう}: childish reaction\n\nUSAGE:\nOften applied to small acts of pettiness by an adult — losing temper at a child, refusing to apologize, sulking. Saying {大人|おとな}げなかった about oneself is a common form of mild self-criticism.\n\nSIMILAR WORDS:\n- {子供|こども}っぽい: childish — broader; describes anything reminiscent of a child, including charm\n- {幼稚|ようち}: infantile — stronger, often critical of intellectual immaturity\n- {大人|おとな}げない: unbecoming of an adult — focuses specifically on the gap between behavior and age",
+  "notes": "Compound of ⟦{大人|おとな}→大人：02856_otona⟧ (adult) + the suffix 〜げ (an appearance, a quality) + ⟦ない→ない：01118_nai⟧ (not). Literally 'not having the quality of an adult.'\n\nCOMMON COLLOCATIONS:\n- {大人|おとな}げない⟦{態度|たいど}→態度：03396_taido⟧: childish attitude\n- {大人|おとな}げない⟦{発言|はつげん}→発言：05099_hatsugen⟧: immature remark\n- {大人|おとな}げないこと⟦を→を：00422_wo⟧⟦{言|い}う→言う：00515_iu⟧: say something childish\n- {大人|おとな}げない⟦{反応|はんのう}→反応：04812_hannou⟧: childish reaction\n\nUSAGE:\nOften applied to small acts of pettiness by an adult — losing temper at a child, refusing to apologize, sulking. Saying {大人|おとな}げなかった about oneself is a common form of mild self-criticism.\n\nSIMILAR WORDS:\n- ⟦{子供|こども}っぽい→子供っぽい：16825_kodomoppoi⟧: childish — broader; describes anything reminiscent of a child, including charm\n- ⟦{幼稚|ようち}→幼稚：04088_youchi⟧: infantile — stronger, often critical of intellectual immaturity\n- {大人|おとな}げない: unbecoming of an adult — focuses specifically on the gap between behavior and age",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16825_kodomoppoi",
+      "reading": "こどもっぽい",
+      "headword": "{子供|こども}っぽい",
+      "label": "childish"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04088_youchi",
+      "reading": "ようち",
+      "headword": "{幼稚|ようち}",
+      "label": "infantile"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +69,7 @@
         "adjective-i"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "personality",
         "evaluation"
@@ -61,7 +77,7 @@
       "domain": []
     },
     "created": "2026-05-30T04:08:44Z",
-    "modified": "2026-05-30T04:08:44Z"
+    "modified": "2026-09-02T04:02:33Z"
   },
   "conjugation": {
     "type": "i-adjective",

@@ -15,40 +15,66 @@
   "examples": [
     {
       "id": "19489_ochitsukanai_ex1",
-      "japanese": "{試験|しけん}{前|まえ}で{落|お}ち{着|つ}かない。",
+      "japanese": "⟦{試験|しけん}→試験：01422_shiken⟧⟦{前|まえ}→前：02255_mae⟧⟦で→で：00502_de⟧{落|お}ち{着|つ}かない。",
       "english": "I'm restless because of the exam coming up.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19489_ochitsukanai_ex2",
-      "japanese": "{子供|こども}が{落|お}ち{着|つ}かなくて{困|こま}っている。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧⟦が→が：00051_ga⟧{落|お}ち{着|つ}かなくて⟦{困|こま}っている→困る：00861_komaru⟧。",
       "english": "I'm having trouble because the child can't sit still.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19489_ochitsukanai_ex3",
-      "japanese": "{結果|けっか}が{気|き}になって、{一日中|いちにちじゅう}{落|お}ち{着|つ}かなかった。",
+      "japanese": "⟦{結果|けっか}→結果：02486_kekka⟧⟦が→が：00051_ga⟧⟦{気|き}になって→気になる：03027_kininaru⟧、⟦{一日中|いちにちじゅう}→一日中：09519_ichinichijuu⟧{落|お}ち{着|つ}かなかった。",
       "english": "I was anxious about the results and couldn't settle down all day.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "The negative form of {落|お}ち{着|つ}く (to calm down, to settle). As an expression, it describes a state of being unable to relax — whether from anxiety, excitement, or an uncomfortable environment.\n\nUSAGE:\nCan describe inner feelings (nervousness before an event) or outward behavior (a fidgety child). Also used for places or atmospheres that feel unsettling or chaotic.\n\nCOMMON COLLOCATIONS:\n- {気持|きも}ちが{落|お}ち{着|つ}かない — to feel uneasy\n- そわそわして{落|お}ち{着|つ}かない — to be fidgety and restless\n- {落|お}ち{着|つ}かない{雰囲気|ふんいき} — an unsettled atmosphere\n\nSIMILAR WORDS:\n- そわそわする — to be fidgety, restless; emphasizes visible nervous behavior\n- {不安|ふあん} — anxiety, unease; a noun describing the emotion itself\n- {居|い}ても{立|た}ってもいられない — unable to sit still; much stronger urgency than {落|お}ち{着|つ}かない",
+  "notes": "The negative form of ⟦{落|お}ち{着|つ}く→落ち着く：04670_ochitsuku⟧ (to calm down, to settle). As an expression, it describes a state of being unable to relax — whether from anxiety, excitement, or an uncomfortable environment.\n\nUSAGE:\nCan describe inner feelings (nervousness before an event) or outward behavior (a fidgety child). Also used for places or atmospheres that feel unsettling or chaotic.\n\nCOMMON COLLOCATIONS:\n- {気持|きも}ち⟦が→が：00051_ga⟧{落|お}ち{着|つ}かない — to feel uneasy\n- ⟦そわそわ→そわそわ：05267_sowasowa⟧⟦して→する：00392_suru⟧{落|お}ち{着|つ}かない — to be fidgety and restless\n- {落|お}ち{着|つ}かない⟦{雰囲気|ふんいき}→雰囲気：03604_funiki⟧ — an unsettled atmosphere\n\nSIMILAR WORDS:\n- ⟦そわそわ→そわそわ：05267_sowasowa⟧⟦する→する：00392_suru⟧ — to be fidgety, restless; emphasizes visible nervous behavior\n- ⟦{不安|ふあん}→不安：00836_fuan⟧ — anxiety, unease; a noun describing the emotion itself\n- {居|い}て⟦も→も：00484_mo⟧⟦{立|た}って→立つ：00758_tatsu⟧⟦も→も：00484_mo⟧⟦いられない→いる：00495_iru⟧ — unable to sit still; much stronger urgency than {落|お}ち{着|つ}かない",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00836_fuan",
+      "reading": "ふあん",
+      "headword": "{不安|ふあん}",
+      "label": "anxiety, unease"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19540_kigakidenai",
+      "reading": "きがきでない",
+      "headword": "{気|き}が{気|き}でない",
+      "label": "anxious"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["expression"],
+      "pos": [
+        "expression"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["emotion"]
+      "semantic": [
+        "emotion"
+      ]
     },
     "created": "2026-03-26T02:36:37Z",
-    "modified": "2026-07-26T21:31:07Z"
+    "modified": "2026-09-02T04:01:56Z"
   }
 }

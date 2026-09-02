@@ -14,41 +14,87 @@
   "examples": [
     {
       "id": "09965_genseirin_ex1",
-      "japanese": "{原生林|げんせいりん}を{守|まも}る。",
+      "japanese": "{原生林|げんせいりん}⟦を→を：00422_wo⟧⟦{守|まも}る→守る：01986_mamoru⟧。",
       "english": "To protect the primeval forest.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09965_genseirin_ex2",
-      "japanese": "この{島|しま}には{手付|てつ}かずの{原生林|げんせいりん}が{残|のこ}っている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{島|しま}→島：00885_shima⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{手付|てつ}かず→手付かず：19324_tetsukazu⟧⟦の→の：09472_no⟧{原生林|げんせいりん}⟦が→が：00051_ga⟧⟦{残|のこ}っている→残る：01187_nokoru⟧。",
       "english": "Untouched primeval forest remains on this island.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09965_genseirin_ex3",
-      "japanese": "{原生林|げんせいりん}は{多|おお}くの{希少|きしょう}な{動植物|どうしょくぶつ}の{生息地|せいそくち}になっている。",
+      "japanese": "{原生林|げんせいりん}⟦は→は：00079_ha⟧{多|おお}く⟦の→の：09472_no⟧⟦{希少|きしょう}→希少：12444_kishou⟧な⟦{動植物|どうしょくぶつ}→動植物：23782_doushokubutsu⟧⟦の→の：09472_no⟧⟦{生息地|せいそくち}→生息地：09253_seisokuchi⟧になっている。",
       "english": "Primeval forests serve as habitats for many rare plants and animals.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{原生林|げんせいりん} refers to a forest that has grown naturally without significant human intervention. A compound of {原生|げんせい} (primeval, original) + {林|りん} (forest).\n\nCOMMON EXPRESSIONS:\n- {原生林|げんせいりん}を{守|まも}る: to protect primeval forest\n- {原生林|げんせいりん}が{残|のこ}る: primeval forest remains\n- {手付|てつ}かずの{原生林|げんせいりん}: untouched primeval forest\n\nCONTRAST:\n- {原生林|げんせいりん}: primeval/virgin forest (never logged or significantly altered)\n- {天然林|てんねんりん}: natural forest (grew naturally but may have some human impact)\n- {人工林|じんこうりん}: planted forest, plantation\n- {二次林|にじりん}: secondary forest (regrown after logging)\n\nIn Japan, notable {原生林|げんせいりん} include {白神山地|しらかみさんち} ({世界遺産|せかいいさん}, beech forest) and {屋久島|やくしま} (ancient cedar forest).",
-  "cross_references": [],
+  "notes": "{原生林|げんせいりん} refers to a forest that has grown naturally without significant human intervention. A compound of {原生|げんせい} (primeval, original) + {林|りん} (forest).\n\nCOMMON EXPRESSIONS:\n- {原生林|げんせいりん}⟦を→を：00422_wo⟧⟦{守|まも}る→守る：01986_mamoru⟧: to protect primeval forest\n- {原生林|げんせいりん}⟦が→が：00051_ga⟧⟦{残|のこ}る→残る：01187_nokoru⟧: primeval forest remains\n- ⟦{手付|てつ}かず→手付かず：19324_tetsukazu⟧⟦の→の：09472_no⟧{原生林|げんせいりん}: untouched primeval forest\n\nSIMILAR WORDS:\n- {原生林|げんせいりん}: primeval/virgin forest (never logged or significantly altered)\n- {天然林|てんねんりん}: natural forest (grew naturally but may have some human impact)\n- {人工林|じんこうりん}: planted forest, plantation\n- {二次林|にじりん}: secondary forest (regrown after logging)\n\nIn Japan, notable {原生林|げんせいりん} include {白神山地|しらかみさんち} (⟦{世界遺産|せかいいさん}→世界遺産：04897_sekaiisan⟧, beech forest) and {屋久島|やくしま} (ancient cedar forest).",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "06619_nettairin",
+      "reading": "ねったいりん",
+      "headword": "{熱帯林|ねったいりん}",
+      "label": "tropical forest"
+    },
+    {
+      "type": "related",
+      "target_id": "15384_urin",
+      "reading": "うりん",
+      "headword": "{雨林|うりん}",
+      "label": "rainforest"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19969_mitsurin",
+      "reading": "みつりん",
+      "headword": "{密林|みつりん}",
+      "label": "dense forest"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23672_genshirin",
+      "reading": "げんしりん",
+      "headword": "{原始林|げんしりん}",
+      "label": "primeval forest"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26769_fukaimori",
+      "reading": "ふかいもり",
+      "headword": "{深|ふか}い{森|もり}",
+      "label": "deep forest"
+    }
+  ],
   "metadata": {
     "created": "2026-02-04T12:01:35Z",
-    "modified": "2026-04-08T04:19:25Z",
+    "modified": "2026-09-02T04:01:19Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["geography"]
+      "semantic": [
+        "geography"
+      ]
     }
   }
 }

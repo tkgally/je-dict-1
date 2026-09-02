@@ -15,42 +15,62 @@
   "examples": [
     {
       "id": "14984_kakyou_ex1",
-      "japanese": "{物語|ものがたり}は{佳境|かきょう}に{入|はい}った。",
+      "japanese": "⟦{物語|ものがたり}→物語：03634_monogatari⟧⟦は→は：00079_ha⟧{佳境|かきょう}⟦に→に：00314_ni⟧⟦{入|はい}った→入る：00494_hairu⟧。",
       "english": "The story has reached its climax.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14984_kakyou_ex2",
-      "japanese": "{試合|しあい}は{佳境|かきょう}を{迎|むか}え、{観客|かんきゃく}は{息|いき}をのんだ。",
+      "japanese": "⟦{試合|しあい}→試合：01601_shiai⟧⟦は→は：00079_ha⟧{佳境|かきょう}⟦を→を：00422_wo⟧⟦{迎|むか}え→迎える：01193_mukaeru⟧、⟦{観客|かんきゃく}→観客：02556_kankyaku⟧⟦は→は：00079_ha⟧⟦{息|いき}→息：02176_iki⟧⟦を→を：00422_wo⟧のんだ。",
       "english": "The match reached its climax and the audience held their breath.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14984_kakyou_ex3",
-      "japanese": "プロジェクトがいよいよ{佳境|かきょう}に{入|はい}り、チーム{全員|ぜんいん}が{残業|ざんぎょう}を{続|つづ}けている。",
+      "japanese": "⟦プロジェクト→プロジェクト：06764_purojekuto⟧⟦が→が：00051_ga⟧⟦いよいよ→いよいよ：06353_iyoiyo⟧{佳境|かきょう}⟦に→に：00314_ni⟧⟦{入|はい}り→入る：00494_hairu⟧、⟦チーム→チーム：03858_chiimu⟧⟦{全員|ぜんいん}→全員：03310_zenin⟧⟦が→が：00051_ga⟧⟦{残業|ざんぎょう}→残業：01071_zangyou⟧⟦を→を：00422_wo⟧⟦{続|つづ}け→続く：00903_tsuzuku⟧て⟦いる→いる：00495_iru⟧。",
       "english": "The project has finally entered its critical phase, and the entire team is working overtime.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "Originally {佳|か} meant 'beautiful' and {境|きょう} meant 'place,' so {佳境|かきょう} literally meant 'a beautiful place' or 'scenic spot.' The modern meaning has shifted to the most interesting or critical phase of something.\n\nAlmost always appears in the fixed expressions {佳境|かきょう}に{入|はい}る (to enter the climax) or {佳境|かきょう}を{迎|むか}える (to reach the climax).\n\nCOMMON COLLOCATIONS:\n- {佳境|かきょう}に{入|はい}る (to enter the climax / critical phase)\n- {佳境|かきょう}を{迎|むか}える (to reach the climax)\n- いよいよ{佳境|かきょう} (finally reaching the best part)",
-  "cross_references": [],
+  "notes": "Originally {佳|か} meant 'beautiful' and {境|きょう} meant 'place,' so {佳境|かきょう} literally meant 'a beautiful place' or 'scenic spot.' The modern meaning has shifted to the most interesting or critical phase of something.\n\nAlmost always appears in the fixed expressions {佳境|かきょう}⟦に→に：00314_ni⟧⟦{入|はい}る→入る：00494_hairu⟧ (to enter the climax) or {佳境|かきょう}⟦を→を：00422_wo⟧⟦{迎|むか}える→迎える：01193_mukaeru⟧ (to reach the climax).\n\nCOMMON COLLOCATIONS:\n- {佳境|かきょう}⟦に→に：00314_ni⟧⟦{入|はい}る→入る：00494_hairu⟧ (to enter the climax / critical phase)\n- {佳境|かきょう}⟦を→を：00422_wo⟧⟦{迎|むか}える→迎える：01193_mukaeru⟧ (to reach the climax)\n- ⟦いよいよ→いよいよ：06353_iyoiyo⟧{佳境|かきょう} (finally reaching the best part)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19935_oozume",
+      "reading": "おおづめ",
+      "headword": "{大詰|おおづ}め",
+      "label": "final stage"
+    }
+  ],
   "metadata": {
     "created": "2026-03-04T08:08:22Z",
-    "modified": "2026-03-04T08:08:22Z",
+    "modified": "2026-09-02T04:01:39Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"],
-      "style": ["written"]
+      "semantic": [
+        "general"
+      ],
+      "style": [
+        "written"
+      ]
     }
   }
 }

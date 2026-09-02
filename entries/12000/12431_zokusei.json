@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "12431_zokusei_ex1",
-      "japanese": "キャラクターの{属性|ぞくせい}は{火|ひ}だ。",
+      "japanese": "⟦キャラクター→キャラクター：23518_kyarakutaa⟧⟦の→の：09472_no⟧{属性|ぞくせい}⟦は→は：00079_ha⟧⟦{火|ひ}→火：02248_hi⟧だ。",
       "english": "The character's element is fire.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12431_zokusei_ex2",
-      "japanese": "{個人|こじん}の{属性|ぞくせい}に{基|もと}づく{差別|さべつ}は{許|ゆる}されない。",
+      "japanese": "⟦{個人|こじん}→個人：02758_kojin⟧⟦の→の：09472_no⟧{属性|ぞくせい}⟦に→に：00314_ni⟧⟦{基|もと}づく→基づく：02315_motozuku⟧⟦{差別|さべつ}→差別：01633_sabetsu⟧⟦は→は：00079_ha⟧⟦{許|ゆる}されない→許す：02325_yurusu⟧。",
       "english": "Discrimination based on personal attributes is not permitted.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12431_zokusei_ex3",
-      "japanese": "データベースの{各|かく}フィールドには{異|こと}なる{属性|ぞくせい}が{設定|せってい}されている。",
+      "japanese": "⟦データベース→データベース：04720_deetabeesu⟧⟦の→の：09472_no⟧⟦{各|かく}→各〜：00449_kaku⟧フィールド⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{異|こと}なる→異なる：02101_kotonaru⟧{属性|ぞくせい}⟦が→が：00051_ga⟧⟦{設定|せってい}→設定：04767_settei⟧⟦されている→する：00392_suru⟧。",
       "english": "Each field in the database has a different attribute assigned to it.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nWidely used in gaming (element type of characters or attacks), computing (data attributes), and formal/academic writing (personal characteristics, demographic attributes). In everyday conversation, {特徴|とくちょう} is more common for general characteristics.\n\nCOMMON COLLOCATIONS:\n- {属性|ぞくせい}を{持|も}つ: to have an attribute\n- {属性|ぞくせい}を{設定|せってい}する: to set an attribute\n- {個人|こじん}{属性|ぞくせい}: personal attributes\n- {属性|ぞくせい}{情報|じょうほう}: attribute information",
+  "notes": "USAGE:\nWidely used in gaming (element type of characters or attacks), computing (data attributes), and formal/academic writing (personal characteristics, demographic attributes). In everyday conversation, ⟦{特徴|とくちょう}→特徴：03456_tokuchou⟧ is more common for general characteristics.\n\nCOMMON COLLOCATIONS:\n- {属性|ぞくせい}⟦を→を：00422_wo⟧⟦{持|も}つ→持つ：00478_motsu⟧: to have an attribute\n- {属性|ぞくせい}⟦を→を：00422_wo⟧⟦{設定|せってい}→設定：04767_settei⟧⟦する→する：00392_suru⟧: to set an attribute\n- ⟦{個人|こじん}→個人：02758_kojin⟧{属性|ぞくせい}: personal attributes\n- {属性|ぞくせい}⟦{情報|じょうほう}→情報：03348_jouhou⟧: attribute information",
   "cross_references": [
     {
       "type": "synonym",
@@ -50,15 +56,21 @@
   ],
   "metadata": {
     "created": "2026-02-21T06:48:49Z",
-    "modified": "2026-04-27T04:29:29Z",
+    "modified": "2026-09-02T04:01:29Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "domain": ["technical"],
-      "semantic": ["abstract"]
+      "domain": [
+        "technical"
+      ],
+      "semantic": [
+        "abstract"
+      ]
     }
   }
 }

@@ -3,7 +3,7 @@
   "id": "17850_kaisetsusuru",
   "headword": "{解説|かいせつ}する",
   "reading": "かいせつする",
-  "part_of_speech": "verb (suru)",
+  "part_of_speech": "suru verb",
   "gloss": "to explain; to commentate",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "17850_kaisetsusuru_ex1",
-      "japanese": "{専門家|せんもんか}がニュースを{解説|かいせつ}する。",
+      "japanese": "⟦{専門家|せんもんか}→専門家：03088_senmonka⟧⟦が→が：00051_ga⟧⟦ニュース→ニュース：04437_nyuusu⟧⟦を→を：00422_wo⟧{解説|かいせつ}する。",
       "english": "An expert provides commentary on the news.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "17850_kaisetsusuru_ex2",
-      "japanese": "この{本|ほん}は{日本|にほん}の{歴史|れきし}をわかりやすく{解説|かいせつ}している。",
+      "japanese": "⟦この→この：00962_kono⟧{本|ほん}⟦は→は：00079_ha⟧⟦{日本|にほん}→日本：03876_nihon⟧⟦の→の：09472_no⟧⟦{歴史|れきし}→歴史：02267_rekishi⟧⟦を→を：00422_wo⟧⟦わかりやすく→わかりやすい：09582_wakariyasui⟧{解説|かいせつ}して⟦いる→いる：00495_iru⟧。",
       "english": "This book explains Japanese history in an easy-to-understand way.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "17850_kaisetsusuru_ex3",
-      "japanese": "{試合|しあい}の{解説|かいせつ}を{担当|たんとう}しているアナウンサーの{話|はなし}がとても{面白|おもしろ}い。",
+      "japanese": "⟦{試合|しあい}→試合：01601_shiai⟧⟦の→の：09472_no⟧⟦{解説|かいせつ}→解説：00138_kaisetsu⟧⟦を→を：00422_wo⟧⟦{担当|たんとう}→担当：02567_tantou⟧⟦している→する：00392_suru⟧⟦アナウンサー→アナウンサー：01765_anaunsaa⟧⟦の→の：09472_no⟧⟦{話|はなし}→話：01496_hanashi⟧⟦が→が：00051_ga⟧⟦とても→とても：00593_totemo⟧⟦{面白|おもしろ}い→面白い：00589_omoshiroi⟧。",
       "english": "The announcer in charge of the game commentary is very interesting.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nUsed both as a suru verb and as a standalone noun. As a noun, it often refers to commentary or explanatory notes. Common in media, sports broadcasting, and educational contexts.\n\nCOMMON COLLOCATIONS:\n- {解説者|かいせつしゃ} (commentator)\n- {解説記事|かいせつきじ} (explanatory article)\n- {解説番組|かいせつばんぐみ} (commentary program)\n- わかりやすく{解説|かいせつ}する (to explain clearly)\n\nSIMILAR WORDS:\n- {説明|せつめい}する: to explain — more general, everyday explanation\n- {解説|かいせつ}する: to explain with expert analysis or commentary — more detailed and authoritative",
+  "notes": "USAGE:\nUsed both as a suru verb and as a standalone noun. As a noun, it often refers to commentary or explanatory notes. Common in media, sports broadcasting, and educational contexts.\n\nCOMMON COLLOCATIONS:\n- ⟦{解説者|かいせつしゃ}→解説者：09688_kaisetsusha⟧ (commentator)\n- {解説記事|かいせつきじ} (explanatory article)\n- {解説番組|かいせつばんぐみ} (commentary program)\n- ⟦わかりやすく→わかりやすい：09582_wakariyasui⟧{解説|かいせつ}する (to explain clearly)\n\nSIMILAR WORDS:\n- ⟦{説明|せつめい}する→説明する：05639_setsumeisuru⟧: to explain — more general, everyday explanation\n- {解説|かいせつ}する: to explain with expert analysis or commentary — more detailed and authoritative",
   "cross_references": [
     {
       "type": "synonym",
@@ -142,11 +142,18 @@
       "reading": "せつめい",
       "headword": "{説明|せつめい}",
       "label": "explanation (general)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05639_setsumeisuru",
+      "reading": "せつめいする",
+      "headword": "{説明|せつめい}する",
+      "label": "to explain"
     }
   ],
   "metadata": {
     "created": "2026-03-19T06:58:32Z",
-    "modified": "2026-05-07T08:09:41Z",
+    "modified": "2026-09-02T04:01:50Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

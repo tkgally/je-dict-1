@@ -15,40 +15,59 @@
   "examples": [
     {
       "id": "22056_saikougaku_ex1",
-      "japanese": "{過去|かこ}{最高額|さいこうがく}の{予算|よさん}が{組|く}まれた。",
+      "japanese": "⟦{過去|かこ}→過去：00152_kako⟧{最高額|さいこうがく}⟦の→の：09472_no⟧⟦{予算|よさん}→予算：03663_yosan⟧⟦が→が：00051_ga⟧⟦{組|く}まれた→組む：02050_kumu⟧。",
       "english": "A record-high budget was drawn up.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "22056_saikougaku_ex2",
-      "japanese": "{賠償金|ばいしょうきん}は{史上|しじょう}{最高額|さいこうがく}となった。",
+      "japanese": "{賠償金|ばいしょうきん}⟦は→は：00079_ha⟧⟦{史上|しじょう}→史上：11806_shijou⟧{最高額|さいこうがく}⟦と→と：00512_to⟧⟦なった→なる：01970_naru⟧。",
       "english": "The compensation became the highest amount in history.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "22056_saikougaku_ex3",
-      "japanese": "この{絵画|かいが}は、オークションで{日本人|にほんじん}{画家|がか}の{作品|さくひん}としては{最高額|さいこうがく}の{十億円|じゅうおくえん}で{落札|らくさつ}された。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{絵画|かいが}→絵画：02597_kaiga⟧⟦は→は：00079_ha⟧、オークション⟦で→で：00502_de⟧⟦{日本人|にほんじん}→日本人：10112_nihonjin⟧⟦{画家|がか}→画家：02583_gaka⟧⟦の→の：09472_no⟧⟦{作品|さくひん}→作品：02776_sakuhin⟧⟦として→として：06802_toshite⟧⟦は→は：00079_ha⟧{最高額|さいこうがく}⟦の→の：09472_no⟧{十億円|じゅうおくえん}⟦で→で：00502_de⟧{落札|らくさつ}⟦された→する：00392_suru⟧。",
       "english": "This painting was sold at auction for one billion yen, the highest amount ever for a work by a Japanese painter.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {最高|さいこう} (highest, maximum) and {額|がく} (amount, sum). Used for monetary amounts in budgets, transactions, compensation, and similar contexts.\n\nCOMMON COLLOCATIONS:\n- {過去|かこ}{最高額|さいこうがく}: highest amount ever\n- {史上|しじょう}{最高額|さいこうがく}: highest amount in history\n- {最高額|さいこうがく}を{更新|こうしん}する: to set a new record amount\n- {最高額|さいこうがく}の{契約|けいやく}: the highest-value contract\n\nSIMILAR WORDS:\n- {最高値|さいこうね}: highest price — used for market prices (stocks, commodities)\n- {最低額|さいていがく}: lowest amount — the opposite\n- {高額|こうがく}: large sum — a large amount, but not necessarily the highest\n\nNOTE:\nWhile {最高値|さいこうね} is used for fluctuating market prices, {最高額|さいこうがく} is used for specific monetary amounts in transactions, budgets, and awards.",
+  "notes": "Composed of ⟦{最高|さいこう}→最高：02637_saikou⟧ (highest, maximum) and ⟦{額|がく}→額：02607_gaku⟧ (amount, sum). Used for monetary amounts in budgets, transactions, compensation, and similar contexts.\n\nCOMMON COLLOCATIONS:\n- ⟦{過去|かこ}→過去：00152_kako⟧{最高額|さいこうがく}: highest amount ever\n- ⟦{史上|しじょう}→史上：11806_shijou⟧{最高額|さいこうがく}: highest amount in history\n- {最高額|さいこうがく}⟦を→を：00422_wo⟧⟦{更新|こうしん}する→更新する：27994_koushinsuru⟧: to set a new record amount\n- {最高額|さいこうがく}⟦の→の：09472_no⟧⟦{契約|けいやく}→契約：02698_keiyaku⟧: the highest-value contract\n\nSIMILAR WORDS:\n- ⟦{最高値|さいこうね}→最高値：22055_saikoune⟧: highest price — used for market prices (stocks, commodities)\n- {最低額|さいていがく}: lowest amount — the opposite\n- ⟦{高額|こうがく}→高額：14704_kougaku⟧: large sum — a large amount, but not necessarily the highest\n\nUSAGE:\nWhile ⟦{最高値|さいこうね}→最高値：22055_saikoune⟧ is used for fluctuating market prices, {最高額|さいこうがく} is used for specific monetary amounts in transactions, budgets, and awards.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22055_saikoune",
+      "reading": "さいこうね",
+      "headword": "{最高値|さいこうね}",
+      "label": "highest price"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["money"]
+      "semantic": [
+        "money"
+      ]
     },
     "created": "2026-04-04T21:20:38Z",
-    "modified": "2026-04-04T21:20:38Z"
+    "modified": "2026-09-02T04:02:06Z"
   }
 }

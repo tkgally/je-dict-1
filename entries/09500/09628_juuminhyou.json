@@ -14,30 +14,36 @@
   "examples": [
     {
       "id": "09628_juuminhyou_ex1",
-      "japanese": "{住民票|じゅうみんひょう}を{取|と}りに{行|い}く。",
+      "japanese": "{住民票|じゅうみんひょう}⟦を→を：00422_wo⟧⟦{取|と}り→取る：00565_toru⟧⟦に→に：00314_ni⟧⟦{行|い}く→行く：00119_iku⟧。",
       "english": "To go get a certificate of residence.",
       "has_audio": false,
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "notes": null
     },
     {
       "id": "09628_juuminhyou_ex2",
-      "japanese": "{銀行|ぎんこう}{口座|こうざ}を{開|ひら}くには{住民票|じゅうみんひょう}が{必要|ひつよう}だ。",
+      "japanese": "⟦{銀行|ぎんこう}{口座|こうざ}→銀行口座：27021_ginkoukouza⟧⟦を→を：00422_wo⟧⟦{開|ひら}く→開く：01979_hiraku⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{住民票|じゅうみんひょう}⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧だ。",
       "english": "You need a certificate of residence to open a bank account.",
       "has_audio": false,
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "notes": null
     },
     {
       "id": "09628_juuminhyou_ex3",
-      "japanese": "{役所|やくしょ}で{住民票|じゅうみんひょう}の{写|うつ}しを{発行|はっこう}してもらった。",
+      "japanese": "⟦{役所|やくしょ}→役所：06455_yakusho⟧⟦で→で：00502_de⟧{住民票|じゅうみんひょう}⟦の→の：09472_no⟧⟦{写|うつ}し→写し：22466_utsushi⟧⟦を→を：00422_wo⟧⟦{発行|はっこう}して→発行する：19236_hakkousuru⟧⟦もらった→もらう：00520_morau⟧。",
       "english": "I had a copy of my certificate of residence issued at the city hall.",
       "has_audio": false,
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "notes": null
     }
   ],
-  "notes": "{住民票|じゅうみんひょう} is an essential official document in Japan.\n\nCOMMON PATTERNS:\n- {住民票|じゅうみんひょう}を{取|と}る: to obtain a certificate of residence\n- {住民票|じゅうみんひょう}の{写|うつ}し: copy of residence certificate\n- {住民票|じゅうみんひょう}を{移|うつ}す: to transfer one's residence registration\n\nOTHER OFFICIAL DOCUMENTS:\n- {戸籍謄本|こせきとうほん}: family register copy\n- {印鑑証明|いんかんしょうめい}: seal registration certificate\n- {転居届|てんきょとどけ}: change of address notification\n\nUSAGE NOTE:\nOften required for opening bank accounts, signing contracts, or various administrative procedures.",
+  "notes": "{住民票|じゅうみんひょう} is an essential official document in Japan.\n\nCOMMON PATTERNS:\n- {住民票|じゅうみんひょう}⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧: to obtain a certificate of residence\n- {住民票|じゅうみんひょう}⟦の→の：09472_no⟧⟦{写|うつ}し→写し：22466_utsushi⟧: copy of residence certificate\n- {住民票|じゅうみんひょう}⟦を→を：00422_wo⟧⟦{移|うつ}す→移す：10122_utsusu⟧: to transfer one's residence registration\n\nOTHER OFFICIAL DOCUMENTS:\n- ⟦{戸籍謄本|こせきとうほん}→戸籍謄本：10286_kosekitouhon⟧: family register copy\n- ⟦{印鑑証明|いんかんしょうめい}→印鑑証明：10285_inkanshoumei⟧: seal registration certificate\n- ⟦{転居届|てんきょとどけ}→転居届：10284_tenkyotodoke⟧: change of address notification\n\nUSAGE:\nOften required for opening bank accounts, signing contracts, or various administrative procedures.",
   "cross_references": [
     {
       "type": "related",
@@ -52,19 +58,46 @@
       "reading": "いんかんしょうめい",
       "headword": "{印鑑証明|いんかんしょうめい}",
       "label": "seal registration certificate"
+    },
+    {
+      "type": "related",
+      "target_id": "09810_tenshutsutodoke",
+      "reading": "てんしゅつとどけ",
+      "headword": "{転出届|てんしゅつとどけ}",
+      "label": "moving-out notification"
+    },
+    {
+      "type": "related",
+      "target_id": "09811_tennyuutodoke",
+      "reading": "てんにゅうとどけ",
+      "headword": "{転入届|てんにゅうとどけ}",
+      "label": "moving-in notification"
+    },
+    {
+      "type": "related",
+      "target_id": "10284_tenkyotodoke",
+      "reading": "てんきょとどけ",
+      "headword": "{転居届|てんきょとどけ}",
+      "label": "change of address notification"
     }
   ],
   "metadata": {
     "created": "2026-02-03T02:37:23Z",
-    "modified": "2026-04-23T06:13:56Z",
+    "modified": "2026-09-02T04:01:18Z",
     "ai_model": "opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["legal"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "legal"
+      ]
     }
   }
 }

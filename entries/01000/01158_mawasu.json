@@ -203,11 +203,26 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive). Pair: ⟦{回|まわ}る→回る：01150_mawaru⟧ (intransitive, to turn). Pattern: X⟦を→を：00422_wo⟧{回|まわ}す (turn X).\n\nASPECT: ている indicates ongoing action. {回|まわ}している = 'is turning.'\n\nCOMMON PATTERNS:\n・⟦ハンドル→ハンドル：06331_handoru⟧⟦を→を：00422_wo⟧{回|まわ}す (turn a handle/steering wheel)\n・⟦ねじ→ねじ：00307_neji⟧⟦を→を：00422_wo⟧{回|まわ}す (turn a screw)\n・⟦{書類|しょるい}→書類：01103_shorui⟧⟦を→を：00422_wo⟧{回|まわ}す (circulate documents)\n・⟦{電話|でんわ}→電話：01471_denwa⟧⟦を→を：00422_wo⟧{回|まわ}す (transfer a call)\n・⟦{頭|あたま}→頭：00574_atama⟧⟦を→を：00422_wo⟧{回|まわ}す (use one's head, think hard)\n\nCONTRAST:\n・{回|まわ}す (transitive): turn X\n・⟦{回|まわ}る→回る：01150_mawaru⟧ (intransitive): X turns",
-  "cross_references": [],
+  "notes": "TRANSITIVITY: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive). Pair: ⟦{回|まわ}る→回る：01150_mawaru⟧ (intransitive, to turn). Pattern: X⟦を→を：00422_wo⟧{回|まわ}す (turn X).\n\nASPECT: て⟦いる→いる：00495_iru⟧ indicates ongoing action. {回|まわ}して⟦いる→いる：00495_iru⟧ = 'is turning.'\n\nCOMMON PATTERNS:\n- ⟦ハンドル→ハンドル：06331_handoru⟧⟦を→を：00422_wo⟧{回|まわ}す (turn a handle/steering wheel)\n- ⟦ねじ→ねじ：00307_neji⟧⟦を→を：00422_wo⟧{回|まわ}す (turn a screw)\n- ⟦{書類|しょるい}→書類：01103_shorui⟧⟦を→を：00422_wo⟧{回|まわ}す (circulate documents)\n- ⟦{電話|でんわ}→電話：01471_denwa⟧⟦を→を：00422_wo⟧{回|まわ}す (transfer a call)\n- ⟦{頭|あたま}→頭：00574_atama⟧⟦を→を：00422_wo⟧{回|まわ}す (use one's head, think hard)\n\nSIMILAR WORDS:\n- {回|まわ}す (transitive): turn X\n- ⟦{回|まわ}る→回る：01150_mawaru⟧ (intransitive): X turns",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00102_hineru",
+      "reading": "ひねる",
+      "headword": "{捻|ひね}る",
+      "label": "to twist"
+    },
+    {
+      "type": "related",
+      "target_id": "04474_nejiru",
+      "reading": "ねじる",
+      "headword": "{捩|ね}じる",
+      "label": "to twist, to wrench"
+    }
+  ],
   "metadata": {
     "created": "2026-01-08T12:21:11Z",
-    "modified": "2026-05-14T14:17:02Z",
+    "modified": "2026-09-02T04:00:59Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

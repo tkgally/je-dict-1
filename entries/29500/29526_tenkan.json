@@ -15,41 +15,69 @@
   "examples": [
     {
       "id": "29526_tenkan_ex1",
-      "japanese": "てんかんの{発作|ほっさ}が{起|お}きる。",
+      "japanese": "てんかん⟦の→の：09472_no⟧⟦{発作|ほっさ}→発作：15023_hossa⟧⟦が→が：00051_ga⟧⟦{起|お}きる→起きる：00521_okiru⟧。",
       "english": "An epileptic seizure occurs.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29526_tenkan_ex2",
-      "japanese": "てんかんは{薬|くすり}で{発作|ほっさ}を{抑|おさ}えられる。",
+      "japanese": "てんかん⟦は→は：00079_ha⟧⟦{薬|くすり}→薬：00793_kusuri⟧⟦で→で：00502_de⟧⟦{発作|ほっさ}→発作：15023_hossa⟧⟦を→を：00422_wo⟧⟦{抑|おさ}えられる→抑える：12806_osaeru⟧。",
       "english": "With epilepsy, seizures can be controlled with medication.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29526_tenkan_ex3",
-      "japanese": "{医師|いし}はてんかんと{診断|しんだん}し、{定期的|ていきてき}な{通院|つういん}を{勧|すす}めた。",
+      "japanese": "⟦{医師|いし}→医師：11851_ishi⟧⟦は→は：00079_ha⟧てんかん⟦と→と：00512_to⟧⟦{診断|しんだん}→診断：04209_shindan⟧し、⟦{定期的|ていきてき}→定期的：06173_teikiteki⟧な⟦{通院|つういん}→通院：05975_tsuuin⟧⟦を→を：00422_wo⟧⟦{勧|すす}めた→勧める：02120_susumeru⟧。",
       "english": "The doctor diagnosed epilepsy and recommended regular hospital visits.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A medical term for the seizure disorder. Normally written in hiragana in everyday text; the kanji {癲癇|てんかん} is rare and considered difficult.\n\nCOMMON COLLOCATIONS:\n- てんかんの{発作|ほっさ}: an epileptic seizure\n- てんかんを{患|わずら}う: to suffer from epilepsy\n- てんかん{薬|やく}: anti-epileptic medication\n\nSIMILAR WORDS:\n- {発作|ほっさ}: a fit, attack, seizure — a single episode, not the disorder itself\n- {痙攣|けいれん}: convulsion, cramp — the muscle spasms that can occur during a seizure",
+  "notes": "A medical term for the seizure disorder. Normally written in hiragana in everyday text; the kanji {癲癇|てんかん} is rare and considered difficult.\n\nCOMMON COLLOCATIONS:\n- てんかん⟦の→の：09472_no⟧⟦{発作|ほっさ}→発作：15023_hossa⟧: an epileptic seizure\n- てんかん⟦を→を：00422_wo⟧⟦{患|わずら}う→患う：27883_wazurau⟧: to suffer from epilepsy\n- てんかん{薬|やく}: anti-epileptic medication\n\nSIMILAR WORDS:\n- ⟦{発作|ほっさ}→発作：15023_hossa⟧: a fit, attack, seizure — a single episode, not the disorder itself\n- ⟦{痙攣|けいれん}→痙攣：06301_keiren⟧: convulsion, cramp — the muscle spasms that can occur during a seizure",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15023_hossa",
+      "reading": "ほっさ",
+      "headword": "{発作|ほっさ}",
+      "label": "a fit, attack, seizure"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06301_keiren",
+      "reading": "けいれん",
+      "headword": "{痙攣|けいれん}",
+      "label": "convulsion, cramp"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["health"],
-      "domain": ["medical"]
+      "politeness": "plain",
+      "semantic": [
+        "health"
+      ],
+      "domain": [
+        "medical"
+      ]
     },
     "created": "2026-06-27T18:18:39Z",
-    "modified": "2026-06-27T18:18:39Z"
+    "modified": "2026-09-02T04:02:37Z"
   }
 }

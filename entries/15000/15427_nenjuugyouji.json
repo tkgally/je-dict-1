@@ -15,41 +15,73 @@
   "examples": [
     {
       "id": "15427_nenjuugyouji_ex1",
-      "japanese": "{花見|はなみ}は{日本|にほん}の{年中行事|ねんじゅうぎょうじ}だ。",
+      "japanese": "⟦{花見|はなみ}→花見：01700_hanami⟧⟦は→は：00079_ha⟧⟦{日本|にほん}→日本：03876_nihon⟧⟦の→の：09472_no⟧{年中行事|ねんじゅうぎょうじ}だ。",
       "english": "Cherry blossom viewing is a Japanese annual event.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15427_nenjuugyouji_ex2",
-      "japanese": "{学校|がっこう}の{年中行事|ねんじゅうぎょうじ}には{運動会|うんどうかい}や{文化祭|ぶんかさい}がある。",
+      "japanese": "⟦{学校|がっこう}→学校：00055_gakkou⟧⟦の→の：09472_no⟧{年中行事|ねんじゅうぎょうじ}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{運動会|うんどうかい}→運動会：03013_undoukai⟧や⟦{文化祭|ぶんかさい}→文化祭：05589_bunkasai⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "The school's annual events include sports day and the culture festival.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15427_nenjuugyouji_ex3",
-      "japanese": "{大掃除|おおそうじ}は{年末|ねんまつ}の{年中行事|ねんじゅうぎょうじ}として{定着|ていちゃく}している。",
+      "japanese": "⟦{大掃除|おおそうじ}→大掃除：08347_oosouji⟧⟦は→は：00079_ha⟧⟦{年末|ねんまつ}→年末：17688_nenmatsu⟧⟦の→の：09472_no⟧{年中行事|ねんじゅうぎょうじ}⟦として→として：06802_toshite⟧⟦{定着|ていちゃく}→定着：07594_teichaku⟧⟦している→する：00392_suru⟧。",
       "english": "Year-end deep cleaning has become an established annual event.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\n{年中行事|ねんじゅうぎょうじ} covers both traditional events (festivals, religious observances) and modern institutional events (school ceremonies, corporate traditions). Can also be used humorously for things that happen predictably every year.\n\nCOMMON COLLOCATIONS:\n- {日本|にほん}の{年中行事|ねんじゅうぎょうじ} (Japanese annual events)\n- {伝統的|でんとうてき}な{年中行事|ねんじゅうぎょうじ} (traditional annual events)\n- {年中行事|ねんじゅうぎょうじ}のカレンダー (calendar of annual events)\n\nRELATED WORDS:\n- {行事|ぎょうじ}: event, function\n- {祭|まつ}り: festival\n- {風習|ふうしゅう}: custom, practice\n- {恒例|こうれい}: customary, annual (used as modifier)",
-  "cross_references": [],
+  "notes": "USAGE:\n{年中行事|ねんじゅうぎょうじ} covers both traditional events (festivals, religious observances) and modern institutional events (school ceremonies, corporate traditions). Can also be used humorously for things that happen predictably every year.\n\nCOMMON COLLOCATIONS:\n- ⟦{日本|にほん}→日本：03876_nihon⟧⟦の→の：09472_no⟧{年中行事|ねんじゅうぎょうじ} (Japanese annual events)\n- ⟦{伝統的|でんとうてき}→伝統的：04802_dentouteki⟧な{年中行事|ねんじゅうぎょうじ} (traditional annual events)\n- {年中行事|ねんじゅうぎょうじ}⟦の→の：09472_no⟧⟦カレンダー→カレンダー：02897_karendaa⟧ (calendar of annual events)\n\nRELATED WORDS:\n- ⟦{行事|ぎょうじ}→行事：00078_gyouji⟧: event, function\n- ⟦{祭|まつ}り→祭り：03735_matsuri⟧: festival\n- ⟦{風習|ふうしゅう}→風習：05826_fuushuu⟧: custom, practice\n- ⟦{恒例|こうれい}→恒例：12597_kourei⟧: customary, annual (used as modifier)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "03735_matsuri",
+      "reading": "まつり",
+      "headword": "{祭|まつ}り",
+      "label": "festival"
+    },
+    {
+      "type": "related",
+      "target_id": "05826_fuushuu",
+      "reading": "ふうしゅう",
+      "headword": "{風習|ふうしゅう}",
+      "label": "custom, practice"
+    },
+    {
+      "type": "related",
+      "target_id": "12597_kourei",
+      "reading": "こうれい",
+      "headword": "{恒例|こうれい}",
+      "label": "customary, annual"
+    }
+  ],
   "metadata": {
     "created": "2026-03-06T13:47:45Z",
-    "modified": "2026-03-06T13:47:45Z",
+    "modified": "2026-09-02T04:01:41Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["culture"],
+      "semantic": [
+        "culture"
+      ],
       "domain": []
     }
   }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26870_kounai_ex1",
-      "japanese": "{校内|こうない}は{禁煙|きんえん}です。",
+      "japanese": "{校内|こうない}⟦は→は：00079_ha⟧⟦{禁煙|きんえん}→禁煙：02644_kinen⟧です。",
       "english": "Smoking is prohibited on school grounds.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26870_kounai_ex2",
-      "japanese": "{校内|こうない}で{携帯電話|けいたいでんわ}を{使|つか}ってはいけない。",
+      "japanese": "{校内|こうない}⟦で→で：00502_de⟧⟦{携帯電話|けいたいでんわ}→携帯電話：04433_keitaidenwa⟧⟦を→を：00422_wo⟧⟦{使|つか}って→使う：00473_tsukau⟧⟦は→は：00079_ha⟧いけない。",
       "english": "You must not use mobile phones inside the school.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26870_kounai_ex3",
-      "japanese": "{校内|こうない}マラソン{大会|たいかい}が{来週|らいしゅう}{行|おこな}われる。",
+      "japanese": "{校内|こうない}⟦マラソン→マラソン：04732_marason⟧⟦{大会|たいかい}→大会：03386_taikai⟧⟦が→が：00051_ga⟧⟦{来週|らいしゅう}→来週：00746_raishuu⟧⟦{行|おこな}われる→行う：01238_okonau⟧。",
       "english": "The school marathon event will be held next week.",
       "sense_numbers": [
         1
@@ -45,7 +45,7 @@
     },
     {
       "id": "26870_kounai_ex4",
-      "japanese": "{校内|こうない}の{掲示板|けいじばん}に{文化祭|ぶんかさい}のポスターが{貼|は}ってあった。",
+      "japanese": "{校内|こうない}⟦の→の：09472_no⟧⟦{掲示板|けいじばん}→掲示板：03052_keijiban⟧⟦に→に：00314_ni⟧⟦{文化祭|ぶんかさい}→文化祭：05589_bunkasai⟧⟦の→の：09472_no⟧⟦ポスター→ポスター：09598_posutaa⟧⟦が→が：00051_ga⟧⟦{貼|は}ってあった→貼る：10447_haru⟧。",
       "english": "Posters for the school festival were put up on the bulletin board inside the school.",
       "sense_numbers": [
         1
@@ -54,8 +54,16 @@
       "notes": null
     }
   ],
-  "notes": "Part of a productive pattern where 内 (inside) attaches to place nouns: 校内, 社内, 院内, 市内, 国内, etc. Very common in school rules and announcements. The antonym is 校外 (outside school grounds).\n\nCOMMON COLLOCATIONS:\n- {校内|こうない}{放送|ほうそう}: school-wide broadcast/PA announcement\n- {校内|こうない}{暴力|ぼうりょく}: school violence\n- {校内|こうない}{規則|きそく}: school rules\n- {校内|こうない}マラソン: school marathon\n- {校内|こうない}{新聞|しんぶん}: school newspaper\n\nRELATED ～内 COMPOUNDS:\n- {社内|しゃない}: within the company\n- {院内|いんない}: within the hospital/institution\n- {市内|しない}: within the city\n- {国内|こくない}: within the country",
-  "cross_references": [],
+  "notes": "Part of a productive pattern where 内 (inside) attaches to place nouns: 校内, 社内, 院内, 市内, 国内, etc. Very common in school rules and announcements. The antonym is 校外 (outside school grounds).\n\nCOMMON COLLOCATIONS:\n- {校内|こうない}⟦{放送|ほうそう}→放送：02093_housou⟧: school-wide broadcast/PA announcement\n- {校内|こうない}⟦{暴力|ぼうりょく}→暴力：02528_bouryoku⟧: school violence\n- {校内|こうない}⟦{規則|きそく}→規則：01382_kisoku⟧: school rules\n- {校内|こうない}⟦マラソン→マラソン：04732_marason⟧: school marathon\n- {校内|こうない}⟦{新聞|しんぶん}→新聞：01440_shinbun⟧: school newspaper\n\nRELATED ～内 COMPOUNDS:\n- ⟦{社内|しゃない}→社内：13731_shanai⟧: within the company\n- {院内|いんない}: within the hospital/institution\n- ⟦{市内|しない}→市内：20934_shinai⟧: within the city\n- ⟦{国内|こくない}→国内：02998_kokunai⟧: within the country",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "24139_kougai",
+      "reading": "こうがい",
+      "headword": "{校外|こうがい}",
+      "label": "outside school"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -70,6 +78,6 @@
       ]
     },
     "created": "2026-05-05T14:16:16Z",
-    "modified": "2026-08-06T12:44:19Z"
+    "modified": "2026-09-02T04:02:28Z"
   }
 }

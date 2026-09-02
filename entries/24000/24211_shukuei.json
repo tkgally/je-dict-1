@@ -4,7 +4,7 @@
   "headword": "{宿営|しゅくえい}",
   "reading": "しゅくえい",
   "romaji": "shukuei",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "encampment; bivouac; making camp",
   "definitions": [
     {
@@ -16,7 +16,7 @@
   "examples": [
     {
       "id": "24211_shukuei_ex1",
-      "japanese": "{川|かわ}のそばに{宿営|しゅくえい}する。",
+      "japanese": "⟦{川|かわ}→川：02186_kawa⟧⟦の→の：09472_no⟧そば⟦に→に：00314_ni⟧{宿営|しゅくえい}⟦する→する：00392_suru⟧。",
       "english": "Make camp by the river.",
       "sense_numbers": [
         1
@@ -26,7 +26,7 @@
     },
     {
       "id": "24211_shukuei_ex2",
-      "japanese": "{部隊|ぶたい}は{山中|さんちゅう}で{宿営|しゅくえい}した。",
+      "japanese": "⟦{部隊|ぶたい}→部隊：28119_butai⟧⟦は→は：00079_ha⟧{山中|さんちゅう}⟦で→で：00502_de⟧{宿営|しゅくえい}⟦した→する：00392_suru⟧。",
       "english": "The troops encamped in the mountains.",
       "sense_numbers": [
         1
@@ -36,7 +36,7 @@
     },
     {
       "id": "24211_shukuei_ex3",
-      "japanese": "{宿営|しゅくえい}{地|ち}を{探|さが}す{必要|ひつよう}がある。",
+      "japanese": "{宿営|しゅくえい}{地|ち}⟦を→を：00422_wo⟧⟦{探|さが}す→探す：00493_sagasu⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "We need to find a campsite.",
       "sense_numbers": [
         1
@@ -46,7 +46,7 @@
     },
     {
       "id": "24211_shukuei_ex4",
-      "japanese": "{探検隊|たんけんたい}は{三日間|みっかかん}の{宿営|しゅくえい}の{後|あと}、{頂上|ちょうじょう}を{目指|めざ}した。",
+      "japanese": "⟦{探検隊|たんけんたい}→探検隊：25022_tankentai⟧⟦は→は：00079_ha⟧{三日間|みっかかん}⟦の→の：09472_no⟧{宿営|しゅくえい}⟦の→の：09472_no⟧⟦{後|あと}→後：09580_ato⟧、⟦{頂上|ちょうじょう}→頂上：03493_choujou⟧⟦を→を：00422_wo⟧⟦{目指|めざ}した→目指す：10528_mezasu⟧。",
       "english": "After three days of camping, the expedition team aimed for the summit.",
       "sense_numbers": [
         1
@@ -55,7 +55,7 @@
       "notes": null
     }
   ],
-  "notes": "{宿|しゅく} (lodging, staying overnight) + {営|えい} (camp, barracks). Originally a military term for setting up a temporary camp, now also used for organized outdoor camping such as scout camps and expeditions.\n\nCOMMON COLLOCATIONS:\n- {宿営|しゅくえい}{地|ち}: campsite, encampment area\n- {宿営|しゅくえい}{訓練|くんれん}: bivouac training\n- {宿営|しゅくえい}を{張|は}る: set up camp\n- {野外|やがい}{宿営|しゅくえい}: outdoor encampment\n\nSIMILAR WORDS:\n- {露営|ろえい}: bivouac, camping in the open — implies sleeping outdoors without shelter\n- {野営|やえい}: field camping — a broader term for camping outdoors, used for both military and recreational contexts\n- キャンプ: camping — the everyday loanword for recreational camping\n- {駐屯|ちゅうとん}: stationing, garrisoning — a more permanent military posting\n\nUSAGE:\nMore formal and organized than casual camping (キャンプ). Often appears in historical or military contexts, scouting activities, and mountaineering.",
+  "notes": "{宿|しゅく} (lodging, staying overnight) + {営|えい} (camp, barracks). Originally a military term for setting up a temporary camp, now also used for organized outdoor camping such as scout camps and expeditions.\n\nCOMMON COLLOCATIONS:\n- {宿営|しゅくえい}{地|ち}: campsite, encampment area\n- {宿営|しゅくえい}⟦{訓練|くんれん}→訓練：02673_kunren⟧: bivouac training\n- {宿営|しゅくえい}⟦を→を：00422_wo⟧⟦{張|は}る→張る：12583_haru⟧: set up camp\n- ⟦{野外|やがい}→野外：17152_yagai⟧{宿営|しゅくえい}: outdoor encampment\n\nSIMILAR WORDS:\n- ⟦{露営|ろえい}→露営：24212_roei⟧: bivouac, camping in the open — implies sleeping outdoors without shelter\n- ⟦{野営|やえい}→野営：16708_yaei⟧: field camping — a broader term for camping outdoors, used for both military and recreational contexts\n- ⟦キャンプ→キャンプ：03837_kyanpu⟧: camping — the everyday loanword for recreational camping\n- ⟦{駐屯|ちゅうとん}→駐屯：22864_chuuton⟧: stationing, garrisoning — a more permanent military posting\n\nUSAGE:\nMore formal and organized than casual camping (⟦キャンプ→キャンプ：03837_kyanpu⟧). Often appears in historical or military contexts, scouting activities, and mountaineering.",
   "cross_references": [
     {
       "type": "related",
@@ -63,17 +63,46 @@
       "reading": "ろえい",
       "headword": "{露営|ろえい}",
       "label": "camping in the open, without shelter"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16708_yaei",
+      "reading": "やえい",
+      "headword": "{野営|やえい}",
+      "label": "field camping"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03837_kyanpu",
+      "reading": "きゃんぷ",
+      "headword": "キャンプ",
+      "label": "camping"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22864_chuuton",
+      "reading": "ちゅうとん",
+      "headword": "{駐屯|ちゅうとん}",
+      "label": "stationing, garrisoning"
+    },
+    {
+      "type": "related",
+      "target_id": "24987_heiei",
+      "reading": "へいえい",
+      "headword": "{兵営|へいえい}",
+      "label": "barracks"
     }
   ],
   "metadata": {
     "created": "2026-04-18T09:18:20Z",
-    "modified": "2026-04-18T09:18:20Z",
+    "modified": "2026-09-02T04:02:17Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun",
         "verb-suru"
       ],
+      "politeness": "plain",
       "semantic": [
         "military",
         "travel"

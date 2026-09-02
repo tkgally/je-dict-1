@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "17426_kanseihin_ex1",
-      "japanese": "{完成品|かんせいひん}を{検査|けんさ}する。",
+      "japanese": "{完成品|かんせいひん}⟦を→を：00422_wo⟧⟦{検査|けんさ}→検査：02707_kensa⟧⟦する→する：00392_suru⟧。",
       "english": "To inspect the finished products.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "17426_kanseihin_ex2",
-      "japanese": "この{模型|もけい}は{完成品|かんせいひん}なので、{組|く}み{立|た}てる{必要|ひつよう}がない。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{模型|もけい}→模型：07079_mokei⟧⟦は→は：00079_ha⟧{完成品|かんせいひん}な⟦の→の：09472_no⟧で、⟦{組|く}み{立|た}てる→組み立てる：04661_kumitateru⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧。",
       "english": "This model is a finished product, so there is no need to assemble it.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "17426_kanseihin_ex3",
-      "japanese": "{工場|こうじょう}では{毎日|まいにち}{何千|なんぜん}もの{完成品|かんせいひん}が{出荷|しゅっか}されている。",
+      "japanese": "⟦{工場|こうじょう}→工場：01082_koujou⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{毎日|まいにち}→毎日：00729_mainichi⟧{何千|なんぜん}⟦も→も：00484_mo⟧⟦の→の：09472_no⟧{完成品|かんせいひん}⟦が→が：00051_ga⟧⟦{出荷|しゅっか}→出荷：05135_shukka⟧⟦されている→する：00392_suru⟧。",
       "english": "Thousands of finished products are shipped from the factory every day.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,26 @@
       ]
     }
   ],
-  "notes": "USAGE:\nUsed in manufacturing, commerce, and hobbyist contexts (models, crafts). In online shopping, {完成品|かんせいひん} indicates a ready-made item as opposed to a kit that requires assembly.\n\nCOMMON COLLOCATIONS:\n- {完成品|かんせいひん}を{出荷|しゅっか}する (to ship finished products)\n- {完成品|かんせいひん}{在庫|ざいこ} (finished goods inventory)\n- {完成品|かんせいひん}{検査|けんさ} (finished product inspection)\n\nSIMILAR WORDS:\n- {製品|せいひん}: product, manufactured goods — broader term for any product\n- {半製品|はんせいひん}: semi-finished product, work in progress",
-  "cross_references": [],
+  "notes": "USAGE:\nUsed in manufacturing, commerce, and hobbyist contexts (models, crafts). In online shopping, {完成品|かんせいひん} indicates a ready-made item as opposed to a kit that requires assembly.\n\nCOMMON COLLOCATIONS:\n- {完成品|かんせいひん}⟦を→を：00422_wo⟧⟦{出荷|しゅっか}→出荷：05135_shukka⟧⟦する→する：00392_suru⟧ (to ship finished products)\n- {完成品|かんせいひん}⟦{在庫|ざいこ}→在庫：04701_zaiko⟧ (finished goods inventory)\n- {完成品|かんせいひん}⟦{検査|けんさ}→検査：02707_kensa⟧ (finished product inspection)\n\nSIMILAR WORDS:\n- ⟦{製品|せいひん}→製品：01445_seihin⟧: product, manufactured goods — broader term for any product\n- ⟦{半製品|はんせいひん}→半製品：26437_hanseihin⟧: semi-finished product, work in progress",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01445_seihin",
+      "reading": "せいひん",
+      "headword": "{製品|せいひん}",
+      "label": "product, manufactured goods"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26437_hanseihin",
+      "reading": "はんせいひん",
+      "headword": "{半製品|はんせいひん}",
+      "label": "semi-finished product, work in progress"
+    }
+  ],
   "metadata": {
     "created": "2026-03-17T23:20:18Z",
-    "modified": "2026-07-23T19:02:37Z",
+    "modified": "2026-09-02T04:01:48Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

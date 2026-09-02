@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "20980_chiryouin_ex1",
-      "japanese": "{近所|きんじょ}の{治療院|ちりょういん}に{通|かよ}っている。",
+      "japanese": "⟦{近所|きんじょ}→近所：01318_kinjo⟧⟦の→の：09472_no⟧{治療院|ちりょういん}⟦に→に：00314_ni⟧⟦{通|かよ}っている→通う：01217_kayou⟧。",
       "english": "I go to a clinic in my neighborhood.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "20980_chiryouin_ex2",
-      "japanese": "{腰痛|ようつう}がひどいので、{治療院|ちりょういん}を{探|さが}している。",
+      "japanese": "⟦{腰痛|ようつう}→腰痛：05020_youtsuu⟧⟦が→が：00051_ga⟧⟦ひどい→ひどい：01097_hidoi⟧⟦の→の：09472_no⟧で、{治療院|ちりょういん}⟦を→を：00422_wo⟧⟦{探|さが}している→探す：00493_sagasu⟧。",
       "english": "My back pain is bad, so I'm looking for a treatment clinic.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "20980_chiryouin_ex3",
-      "japanese": "この{治療院|ちりょういん}は{鍼灸|しんきゅう}と{整体|せいたい}の{両方|りょうほう}を{行|おこな}っている。",
+      "japanese": "⟦この→この：00962_kono⟧{治療院|ちりょういん}⟦は→は：00079_ha⟧{鍼灸|しんきゅう}⟦と→と：00512_to⟧⟦{整体|せいたい}→整体：27407_seitai⟧⟦の→の：09472_no⟧⟦{両方|りょうほう}→両方：01750_ryouhou⟧⟦を→を：00422_wo⟧⟦{行|おこな}っている→行う：01238_okonau⟧。",
       "english": "This clinic offers both acupuncture and chiropractic treatment.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {治療|ちりょう} (treatment, therapy) + {院|いん} (institution, clinic). In practice, {治療院|ちりょういん} most commonly refers to clinics providing traditional or alternative therapies rather than Western medical hospitals.\n\nCOMMON COLLOCATIONS:\n- {治療院|ちりょういん}に{通|かよ}う: to go to a clinic regularly\n- {治療院|ちりょういん}を{開|ひら}く: to open a clinic\n- {鍼灸|しんきゅう}{治療院|ちりょういん}: acupuncture clinic\n\nSIMILAR WORDS:\n- {病院|びょういん}: hospital — larger; provides Western medical care\n- {診療所|しんりょうじょ}: medical clinic, doctor's office — smaller than a hospital; Western medicine\n- {接骨院|せっこついん}: bone-setting clinic — specifically for bone and joint treatments",
+  "notes": "Compound of ⟦{治療|ちりょう}→治療：03503_chiryou⟧ (treatment, therapy) + {院|いん} (institution, clinic). In practice, {治療院|ちりょういん} most commonly refers to clinics providing traditional or alternative therapies rather than Western medical hospitals.\n\nCOMMON COLLOCATIONS:\n- {治療院|ちりょういん}⟦に→に：00314_ni⟧⟦{通|かよ}う→通う：01217_kayou⟧: to go to a clinic regularly\n- {治療院|ちりょういん}⟦を→を：00422_wo⟧⟦{開|ひら}く→開く：01979_hiraku⟧: to open a clinic\n- {鍼灸|しんきゅう}{治療院|ちりょういん}: acupuncture clinic\n\nSIMILAR WORDS:\n- ⟦{病院|びょういん}→病院：00577_byouin⟧: hospital — larger; provides Western medical care\n- ⟦{診療所|しんりょうじょ}→診療所：14205_shinryoujo⟧: medical clinic, doctor's office — smaller than a hospital; Western medicine\n- ⟦{接骨院|せっこついん}→接骨院：20981_sekkotsuin⟧: bone-setting clinic — specifically for bone and joint treatments",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00577_byouin",
+      "reading": "びょういん",
+      "headword": "{病院|びょういん}",
+      "label": "hospital"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14205_shinryoujo",
+      "reading": "しんりょうじょ",
+      "headword": "{診療所|しんりょうじょ}",
+      "label": "medical clinic, doctor's office"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20981_sekkotsuin",
+      "reading": "せっこついん",
+      "headword": "{接骨院|せっこついん}",
+      "label": "bone-setting clinic"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +83,6 @@
       ]
     },
     "created": "2026-03-31T09:46:43Z",
-    "modified": "2026-07-29T00:22:41Z"
+    "modified": "2026-09-02T04:02:01Z"
   }
 }

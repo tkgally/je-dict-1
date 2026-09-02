@@ -3,7 +3,7 @@
   "id": "17455_kentousuru",
   "headword": "{検討|けんとう}する",
   "reading": "けんとうする",
-  "part_of_speech": "verb-suru",
+  "part_of_speech": "suru verb",
   "gloss": "to consider; to examine; to review",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "17455_kentousuru_ex1",
-      "japanese": "もう{少|すこ}し{検討|けんとう}させてください。",
+      "japanese": "⟦もう→もう：00602_mou⟧⟦{少|すこ}し→少し：00596_sukoshi⟧{検討|けんとう}させて⟦ください→ください：02899_kudasai⟧。",
       "english": "Please let me think about it a bit more.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "17455_kentousuru_ex2",
-      "japanese": "その{提案|ていあん}を{社内|しゃない}で{検討|けんとう}してから{回答|かいとう}します。",
+      "japanese": "⟦その→その：00993_sono⟧⟦{提案|ていあん}→提案：03536_teian⟧⟦を→を：00422_wo⟧⟦{社内|しゃない}→社内：13731_shanai⟧⟦で→で：00502_de⟧{検討|けんとう}して⟦から→から：00504_kara⟧⟦{回答|かいとう}します→回答する：18400_kaitousuru⟧。",
       "english": "I'll review the proposal internally and then respond.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "17455_kentousuru_ex3",
-      "japanese": "{新|あたら}しい{制度|せいど}の{導入|どうにゅう}について、{委員会|いいんかい}で{慎重|しんちょう}に{検討|けんとう}した{結果|けっか}、{来年度|らいねんど}から{実施|じっし}することが{決|き}まった。",
+      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦{制度|せいど}→制度：03291_seido⟧⟦の→の：09472_no⟧⟦{導入|どうにゅう}→導入：10127_dounyuu⟧⟦について→〜について：03103_nitsuite⟧、⟦{委員会|いいんかい}→委員会：12234_iinkai⟧⟦で→で：00502_de⟧⟦{慎重|しんちょう}→慎重：03264_shinchou⟧⟦に→に：00314_ni⟧{検討|けんとう}した⟦{結果|けっか}→結果：02486_kekka⟧、⟦{来年度|らいねんど}→来年度：28221_rainendo⟧⟦から→から：00504_kara⟧⟦{実施|じっし}する→実施する：19634_jisshisuru⟧こと⟦が→が：00051_ga⟧⟦{決|き}まった→決まる：01233_kimaru⟧。",
       "english": "After careful consideration by the committee regarding the introduction of the new system, it was decided to implement it from next fiscal year.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,26 @@
       ]
     }
   ],
-  "notes": "USAGE:\nOne of the most common business Japanese words. In practice, {検討|けんとう}します is often used as a polite way to avoid saying no directly. When someone says {検討|けんとう}します in response to a request, it can mean genuine consideration, but it can also be a soft refusal.\n\nCOMMON COLLOCATIONS:\n- {検討|けんとう}する{余地|よち}がある (there is room for consideration)\n- {前向|まえむ}きに{検討|けんとう}する (to consider positively)\n- {慎重|しんちょう}に{検討|けんとう}する (to consider carefully)\n- {検討|けんとう}{結果|けっか} (result of the review)\n- {検討|けんとう}{中|ちゅう} (under consideration)\n\nNOTE FOR LEARNERS:\nBe aware that {検討|けんとう}します does not always mean the matter will truly be considered. In business, it is often a diplomatic way to decline without saying no.",
-  "cross_references": [],
+  "notes": "USAGE:\nOne of the most common business Japanese words. In practice, {検討|けんとう}します is often used as a polite way to avoid saying no directly. When someone says {検討|けんとう}します in response to a request, it can mean genuine consideration, but it can also be a soft refusal.\n\nCOMMON COLLOCATIONS:\n- {検討|けんとう}する⟦{余地|よち}→余地：07612_yochi⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧ (there is room for consideration)\n- ⟦{前向|まえむ}き→前向き：10073_maemuki⟧⟦に→に：00314_ni⟧{検討|けんとう}する (to consider positively)\n- ⟦{慎重|しんちょう}→慎重：03264_shinchou⟧⟦に→に：00314_ni⟧{検討|けんとう}する (to consider carefully)\n- ⟦{検討|けんとう}→検討：02710_kentou⟧⟦{結果|けっか}→結果：02486_kekka⟧ (result of the review)\n- ⟦{検討|けんとう}{中|ちゅう}→検討中：08718_kentouchuu⟧ (under consideration)\n\nNOTE FOR LEARNERS:\nBe aware that {検討|けんとう}します does not always mean the matter will truly be considered. In business, it is often a diplomatic way to decline without saying no.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07966_jukkou",
+      "reading": "じゅっこう",
+      "headword": "{熟考|じゅっこう}",
+      "label": "careful consideration"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25338_bunsekisuru",
+      "reading": "ぶんせきする",
+      "headword": "{分析|ぶんせき}する",
+      "label": "to analyze"
+    }
+  ],
   "metadata": {
     "created": "2026-03-18T02:03:19Z",
-    "modified": "2026-03-29T03:08:18Z",
+    "modified": "2026-09-02T04:01:48Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

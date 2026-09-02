@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "09747_junbanmachi_ex1",
-      "japanese": "{順番|じゅんばん}{待|ま}ちをしている。",
+      "japanese": "{順番|じゅんばん}{待|ま}ち⟦を→を：00422_wo⟧⟦している→する：00392_suru⟧。",
       "english": "I'm waiting in line.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "09747_junbanmachi_ex2",
-      "japanese": "{順番|じゅんばん}{待|ま}ちの{人|ひと}が{多|おお}い。",
+      "japanese": "{順番|じゅんばん}{待|ま}ち⟦の→の：09472_no⟧⟦{人|ひと}→人：00476_hito⟧⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "There are a lot of people waiting in line.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "09747_junbanmachi_ex3",
-      "japanese": "アプリで{順番|じゅんばん}{待|ま}ちの{登録|とうろく}ができるから、{店|みせ}で{並|なら}ばなくていい。",
+      "japanese": "⟦アプリ→アプリ：04722_apuri⟧⟦で→で：00502_de⟧{順番|じゅんばん}{待|ま}ち⟦の→の：09472_no⟧⟦{登録|とうろく}→登録：05703_touroku⟧⟦が→が：00051_ga⟧⟦できる→できる：00557_dekiru⟧⟦から→から：00504_kara⟧、⟦{店|みせ}→店：00497_mise⟧⟦で→で：00502_de⟧⟦{並|なら}ばなくて→並ぶ：00605_narabu⟧⟦いい→いい：00118_ii⟧。",
       "english": "You can register for a spot in line on the app, so you don't have to wait at the store.",
       "notes": null,
       "has_audio": false,
@@ -43,10 +43,10 @@
       ]
     }
   ],
-  "notes": "{順番|じゅんばん}{待|ま}ち is common at popular restaurants and services.\n\nCOMMON COLLOCATIONS:\n- {順番|じゅんばん}{待|ま}ちをする (to wait in line)\n- {順番|じゅんばん}{待|ま}ちシステム (queue management system)\n- {順番|じゅんばん}{待|ま}ち{時間|じかん} (waiting time)\n\nMODERN SYSTEMS:\n- Many restaurants use digital queue systems.\n- You can often register via apps and receive notifications.\n- {呼|よ}び{出|だ}し (calling your number/name)\n\nRELATED TERMS:\n- {行列|ぎょうれつ}: queue, line\n- {整理券|せいりけん}: numbered ticket",
+  "notes": "{順番|じゅんばん}{待|ま}ち is common at popular restaurants and services.\n\nCOMMON COLLOCATIONS:\n- {順番|じゅんばん}{待|ま}ち⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧ (to wait in line)\n- {順番|じゅんばん}{待|ま}ち⟦システム→システム：08428_shisutemu⟧ (queue management system)\n- {順番|じゅんばん}{待|ま}ち⟦{時間|じかん}→時間：00468_jikan⟧ (waiting time)\n\nMODERN SYSTEMS:\n- Many restaurants use digital queue systems.\n- You can often register via apps and receive notifications.\n- ⟦{呼|よ}び{出|だ}し→呼び出す：04813_yobidasu⟧ (calling your number/name)\n\nRELATED WORDS:\n- ⟦{行列|ぎょうれつ}→行列：09699_gyouretsu⟧: queue, line\n- ⟦{整理券|せいりけん}→整理券：08288_seiriken⟧: numbered ticket",
   "metadata": {
     "created": "2026-02-03T07:22:33Z",
-    "modified": "2026-06-25T09:42:48Z",
+    "modified": "2026-09-02T04:01:19Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -74,6 +74,27 @@
       "reading": "せいりけん",
       "headword": "{整理券|せいりけん}",
       "label": "numbered ticket"
+    },
+    {
+      "type": "related",
+      "target_id": "09621_machijikan",
+      "reading": "まちじかん",
+      "headword": "{待|ま}ち{時間|じかん}",
+      "label": "waiting time, wait time"
+    },
+    {
+      "type": "related",
+      "target_id": "09828_yobidashi",
+      "reading": "よびだし",
+      "headword": "{呼|よ}び{出|だ}し",
+      "label": "calling out"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30410_kyanserumachi",
+      "reading": "きゃんせるまち",
+      "headword": "キャンセル{待|ま}ち",
+      "label": "waitlist"
     }
   ]
 }

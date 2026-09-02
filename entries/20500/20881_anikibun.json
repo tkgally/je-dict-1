@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "20881_anikibun_ex1",
-      "japanese": "{彼|かれ}はチームの{兄貴分|あにきぶん}だ。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦チーム→チーム：03858_chiimu⟧⟦の→の：09472_no⟧{兄貴分|あにきぶん}だ。",
       "english": "He's the big-brother figure of the team.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "20881_anikibun_ex2",
-      "japanese": "{兄貴分|あにきぶん}として{後輩|こうはい}の{面倒|めんどう}を{見|み}ている。",
+      "japanese": "{兄貴分|あにきぶん}⟦として→として：06802_toshite⟧⟦{後輩|こうはい}→後輩：02501_kouhai⟧⟦の→の：09472_no⟧⟦{面倒|めんどう}を{見|み}ている→面倒を見る：18263_mendouwomiru⟧。",
       "english": "As a senior mentor, he looks after the younger members.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "20881_anikibun_ex3",
-      "japanese": "{入社|にゅうしゃ}したばかりの{頃|ころ}、{兄貴分|あにきぶん}の{先輩|せんぱい}にいろいろ{教|おし}えてもらった。",
+      "japanese": "⟦{入社|にゅうしゃ}した→入社する：25409_nyuushasuru⟧⟦ばかり→〜ばかり：02006_bakari⟧⟦の→の：09472_no⟧{頃|ころ}、{兄貴分|あにきぶん}⟦の→の：09472_no⟧⟦{先輩|せんぱい}→先輩：01451_senpai⟧⟦に→に：00314_ni⟧いろいろ⟦{教|おし}えて→教える：00526_oshieru⟧⟦もらった→もらう：00520_morau⟧。",
       "english": "When I first joined the company, a senior colleague who was like a big brother taught me a lot.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,26 @@
       ]
     }
   ],
-  "notes": "A compound of {兄貴|あにき} (big brother, colloquial) + {分|ぶん} (role, status, part). The ～{分|ぶん} suffix indicates that the person fills that role without literally being one. The word has a warm, informal tone and is typically used among men.\n\nIn yakuza or gang contexts, {兄貴分|あにきぶん} refers to a higher-ranking member who mentors and protects a junior member.\n\nCOMMON COLLOCATIONS:\n- {兄貴分|あにきぶん}として: in the role of big brother\n- チームの{兄貴分|あにきぶん}: the big brother of the team\n- {兄貴分|あにきぶん}の{存在|そんざい}: a big-brother presence\n\nRELATED WORDS:\n- {姉御分|あねごぶん}: big-sister figure — the female equivalent\n- {兄貴|あにき}: big brother — informal/colloquial term for an older brother or older male figure\n- {先輩|せんぱい}: senior — a broader term for someone senior in an organization or school",
-  "cross_references": [],
+  "notes": "A compound of ⟦{兄貴|あにき}→兄貴：11623_aniki⟧ (big brother, colloquial) + ⟦{分|ぶん}→分：26216_bun⟧ (role, status, part). The ～⟦{分|ぶん}→分：26216_bun⟧ suffix indicates that the person fills that role without literally being one. The word has a warm, informal tone and is typically used among men.\n\nIn yakuza or gang contexts, {兄貴分|あにきぶん} refers to a higher-ranking member who mentors and protects a junior member.\n\nCOMMON COLLOCATIONS:\n- {兄貴分|あにきぶん}⟦として→として：06802_toshite⟧: in the role of big brother\n- ⟦チーム→チーム：03858_chiimu⟧⟦の→の：09472_no⟧{兄貴分|あにきぶん}: the big brother of the team\n- {兄貴分|あにきぶん}⟦の→の：09472_no⟧⟦{存在|そんざい}→存在：03326_sonzai⟧: a big-brother presence\n\nRELATED WORDS:\n- {姉御分|あねごぶん}: big-sister figure — the female equivalent\n- ⟦{兄貴|あにき}→兄貴：11623_aniki⟧: big brother — informal/colloquial term for an older brother or older male figure\n- ⟦{先輩|せんぱい}→先輩：01451_senpai⟧: senior — a broader term for someone senior in an organization or school",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "01451_senpai",
+      "reading": "せんぱい",
+      "headword": "{先輩|せんぱい}",
+      "label": "senior"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24782_otoutobun",
+      "reading": "おとうとぶん",
+      "headword": "{弟分|おとうとぶん}",
+      "label": "younger-brother figure, junior (in a close relationship)"
+    }
+  ],
   "metadata": {
     "created": "2026-03-30T19:12:47Z",
-    "modified": "2026-07-29T00:22:41Z",
+    "modified": "2026-09-02T04:02:01Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

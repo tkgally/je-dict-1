@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21293_saigishin_ex1",
-      "japanese": "{猜疑心|さいぎしん}が{強|つよ}い{人|ひと}だ。",
+      "japanese": "{猜疑心|さいぎしん}⟦が→が：00051_ga⟧⟦{強|つよ}い→強い：00820_tsuyoi⟧⟦{人|ひと}→人：00476_hito⟧だ。",
       "english": "That person is very suspicious of others.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21293_saigishin_ex2",
-      "japanese": "{猜疑心|さいぎしん}から{誰|だれ}も{信|しん}じられなくなった。",
+      "japanese": "{猜疑心|さいぎしん}⟦から→から：00504_kara⟧⟦{誰|だれ}も→誰も：18610_daremo⟧⟦{信|しん}じられなく→信じる：01111_shinjiru⟧⟦なった→なる：01970_naru⟧。",
       "english": "Because of suspiciousness, they couldn't trust anyone anymore.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21293_saigishin_ex3",
-      "japanese": "{長年|ながねん}の{裏切|うらぎ}りが{彼|かれ}の{心|こころ}に{深|ふか}い{猜疑心|さいぎしん}を{植|う}え{付|つ}けた。",
+      "japanese": "⟦{長年|ながねん}→長年：09684_naganen⟧⟦の→の：09472_no⟧⟦{裏切|うらぎ}り→裏切り：17967_uragiri⟧⟦が→が：00051_ga⟧⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧⟦{心|こころ}→心：01321_kokoro⟧⟦に→に：00314_ni⟧⟦{深|ふか}い→深い：01211_fukai⟧{猜疑心|さいぎしん}⟦を→を：00422_wo⟧⟦{植|う}え{付|つ}けた→植え付ける：19913_uetsukeru⟧。",
       "english": "Years of betrayal planted deep suspiciousness in his heart.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "A literary word describing a deep, persistent tendency to distrust others. Composed of {猜疑|さいぎ} (suspicion, jealousy) + {心|しん} (heart, mind). The character {猜|さい} specifically implies jealous suspicion.\n\nCOMMON COLLOCATIONS:\n- {猜疑心|さいぎしん}が{強|つよ}い: to be very suspicious\n- {猜疑心|さいぎしん}を{抱|いだ}く: to harbor suspicion\n- {猜疑心|さいぎしん}に{駆|か}られる: to be driven by suspicion\n- {猜疑心|さいぎしん}の{塊|かたまり}: a bundle of suspicion (very distrustful person)\n\nSIMILAR WORDS:\n- {疑|うたが}い: doubt, suspicion — everyday word for doubt or suspicion\n- {不信感|ふしんかん}: distrust, mistrust — more neutral; can refer to specific distrust\n- {警戒心|けいかいしん}: wariness, vigilance — more positive; implies reasonable caution\n- {被害妄想|ひがいもうそう}: persecution complex — stronger; implies delusion\n\nREGISTER:\nAppears in literature, psychology, and formal writing. In everyday conversation, {疑|うたが}い{深|ぶか}い (suspicious, skeptical) is more natural.",
+  "notes": "A literary word describing a deep, persistent tendency to distrust others. Composed of {猜疑|さいぎ} (suspicion, jealousy) + {心|しん} (heart, mind). The character {猜|さい} specifically implies jealous suspicion.\n\nCOMMON COLLOCATIONS:\n- {猜疑心|さいぎしん}⟦が→が：00051_ga⟧⟦{強|つよ}い→強い：00820_tsuyoi⟧: to be very suspicious\n- {猜疑心|さいぎしん}⟦を→を：00422_wo⟧⟦{抱|いだ}く→抱く：02010_idaku⟧: to harbor suspicion\n- {猜疑心|さいぎしん}⟦に→に：00314_ni⟧⟦{駆|か}られる→駆る：14715_karu⟧: to be driven by suspicion\n- {猜疑心|さいぎしん}⟦の→の：09472_no⟧⟦{塊|かたまり}→塊：03905_katamari⟧: a bundle of suspicion (very distrustful person)\n\nSIMILAR WORDS:\n- ⟦{疑|うたが}い→疑い：09757_utagai⟧: doubt, suspicion — everyday word for doubt or suspicion\n- ⟦{不信感|ふしんかん}→不信感：16762_fushinkan⟧: distrust, mistrust — more neutral; can refer to specific distrust\n- {警戒心|けいかいしん}: wariness, vigilance — more positive; implies reasonable caution\n- ⟦{被害妄想|ひがいもうそう}→被害妄想：18124_higaimousou⟧: persecution complex — stronger; implies delusion\n\nREGISTER:\nAppears in literature, psychology, and formal writing. In everyday conversation, ⟦{疑|うたが}い{深|ぶか}い→疑い深い：18592_utagaibukai⟧ (suspicious, skeptical) is more natural.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09757_utagai",
+      "reading": "うたがい",
+      "headword": "{疑|うたが}い",
+      "label": "doubt, suspicion"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16762_fushinkan",
+      "reading": "ふしんかん",
+      "headword": "{不信感|ふしんかん}",
+      "label": "distrust, mistrust"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18124_higaimousou",
+      "reading": "ひがいもうそう",
+      "headword": "{被害妄想|ひがいもうそう}",
+      "label": "persecution complex"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +83,6 @@
       ]
     },
     "created": "2026-04-01T17:23:23Z",
-    "modified": "2026-07-29T00:22:41Z"
+    "modified": "2026-09-02T04:02:02Z"
   }
 }

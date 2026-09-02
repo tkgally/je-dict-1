@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28370_iroenpitsu_ex1",
-      "japanese": "{色鉛筆|いろえんぴつ}で{絵|え}を{描|か}く。",
+      "japanese": "{色鉛筆|いろえんぴつ}⟦で→で：00502_de⟧⟦{絵|え}→絵：02613_e⟧⟦を→を：00422_wo⟧⟦{描|か}く→描く：28436_kaku⟧。",
       "english": "Draw a picture with colored pencils.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28370_iroenpitsu_ex2",
-      "japanese": "{二十四色|にじゅうよんしょく}の{色鉛筆|いろえんぴつ}セットを{買|か}った。",
+      "japanese": "{二十四色|にじゅうよんしょく}⟦の→の：09472_no⟧{色鉛筆|いろえんぴつ}⟦セット→セット：03853_setto⟧⟦を→を：00422_wo⟧⟦{買|か}った→買う：00489_kau⟧。",
       "english": "I bought a 24-color colored pencil set.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28370_iroenpitsu_ex3",
-      "japanese": "{大人|おとな}{向|む}けの{塗|ぬ}り{絵|え}が{人気|にんき}になり、{高級|こうきゅう}{色鉛筆|いろえんぴつ}の{売|う}れ{行|ゆ}きも{伸|の}びている。",
+      "japanese": "⟦{大人|おとな}→大人：02856_otona⟧{向|む}け⟦の→の：09472_no⟧⟦{塗|ぬ}り{絵|え}→塗り絵：28879_nurie⟧⟦が→が：00051_ga⟧⟦{人気|にんき}→人気：01488_ninki⟧⟦に→に：00314_ni⟧⟦なり→なる：01970_naru⟧、⟦{高級|こうきゅう}→高級：08644_koukyuu⟧{色鉛筆|いろえんぴつ}⟦の→の：09472_no⟧⟦{売|う}れ{行|ゆ}き→売れ行き：14897_ureyuki⟧⟦も→も：00484_mo⟧⟦{伸|の}びている→伸びる：01974_nobiru⟧。",
       "english": "Adult coloring books have become popular, and sales of high-end colored pencils are growing too.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {色|いろ} (color) + {鉛筆|えんぴつ} (pencil). Counted with the counter {本|ほん}: {一本|いっぽん} \"one pencil.\"\n\nCOMMON COLLOCATIONS:\n- {色鉛筆|いろえんぴつ}で{描|か}く: draw with colored pencils\n- {色鉛筆|いろえんぴつ}を{削|けず}る: sharpen a colored pencil\n- {色鉛筆|いろえんぴつ}セット: colored pencil set\n- {十二色|じゅうにしょく}の{色鉛筆|いろえんぴつ}: a 12-color pencil set\n\nSIMILAR WORDS:\n- クレヨン: crayon — softer, waxier, broader strokes\n- マーカー: marker — felt-tip, bold lines\n- {水彩|すいさい}{色鉛筆|いろえんぴつ}: watercolor pencils — can be blended with water",
+  "notes": "Compound of ⟦{色|いろ}→色：00849_iro⟧ (color) + ⟦{鉛筆|えんぴつ}→鉛筆：00694_enpitsu⟧ (pencil). Counted with the counter {本|ほん}: ⟦{一本|いっぽん}→一本：08888_ippon⟧ \"one pencil.\"\n\nCOMMON COLLOCATIONS:\n- {色鉛筆|いろえんぴつ}⟦で→で：00502_de⟧⟦{描|か}く→描く：28436_kaku⟧: draw with colored pencils\n- {色鉛筆|いろえんぴつ}⟦を→を：00422_wo⟧⟦{削|けず}る→削る：03922_kezuru⟧: sharpen a colored pencil\n- {色鉛筆|いろえんぴつ}⟦セット→セット：03853_setto⟧: colored pencil set\n- {十二色|じゅうにしょく}⟦の→の：09472_no⟧{色鉛筆|いろえんぴつ}: a 12-color pencil set\n\nSIMILAR WORDS:\n- クレヨン: crayon — softer, waxier, broader strokes\n- ⟦マーカー→マーカー：21828_maakaa⟧: marker — felt-tip, bold lines\n- {水彩|すいさい}{色鉛筆|いろえんぴつ}: watercolor pencils — can be blended with water",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21828_maakaa",
+      "reading": "まーかー",
+      "headword": "マーカー",
+      "label": "marker"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24163_suisai",
+      "reading": "すいさい",
+      "headword": "{水彩|すいさい}",
+      "label": "watercolor (painting technique or medium)"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +69,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "tool"
       ],
       "domain": []
     },
     "created": "2026-05-29T04:09:30Z",
-    "modified": "2026-08-08T18:34:17Z"
+    "modified": "2026-09-02T04:02:33Z"
   }
 }

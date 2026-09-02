@@ -20,64 +20,88 @@
   "examples": [
     {
       "id": "11699_pakkeeji_ex1",
-      "japanese": "パッケージがおしゃれだ。",
+      "japanese": "パッケージ⟦が→が：00051_ga⟧⟦おしゃれ→おしゃれ：02515_oshare⟧だ。",
       "english": "The packaging is stylish.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11699_pakkeeji_ex2",
-      "japanese": "{新|あたら}しいパッケージにリニューアルされた。",
+      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧パッケージ⟦に→に：00314_ni⟧リニューアル⟦された→する：00392_suru⟧。",
       "english": "It was renewed with new packaging.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11699_pakkeeji_ex3",
-      "japanese": "パッケージのデザインが{商品|しょうひん}の{売|う}り{上|あ}げに{大|おお}きく{影響|えいきょう}する。",
+      "japanese": "パッケージ⟦の→の：09472_no⟧⟦デザイン→デザイン：03860_dezain⟧⟦が→が：00051_ga⟧⟦{商品|しょうひん}→商品：01436_shouhin⟧⟦の→の：09472_no⟧{売|う}り{上|あ}げ⟦に→に：00314_ni⟧⟦{大|おお}きく→大きい：00335_ookii⟧⟦{影響|えいきょう}→影響：01877_eikyou⟧⟦する→する：00392_suru⟧。",
       "english": "The package design greatly affects product sales.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11699_pakkeeji_ex4",
-      "japanese": "パッケージツアーに{申|もう}し{込|こ}んだ。",
+      "japanese": "パッケージツアー⟦に→に：00314_ni⟧⟦{申|もう}し{込|こ}んだ→申し込む：02311_moushikomu⟧。",
       "english": "I signed up for a package tour.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "11699_pakkeeji_ex5",
-      "japanese": "ソフトウェアのパッケージ{版|ばん}を{購入|こうにゅう}した。",
+      "japanese": "⟦ソフトウェア→ソフトウェア：04719_sofutowea⟧⟦の→の：09472_no⟧パッケージ{版|ばん}⟦を→を：00422_wo⟧⟦{購入|こうにゅう}→購入：03057_kounyuu⟧⟦した→する：00392_suru⟧。",
       "english": "I purchased the packaged version of the software.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "11699_pakkeeji_ex6",
-      "japanese": "{宿泊|しゅくはく}と{食事|しょくじ}がセットになったパッケージプランが{人気|にんき}だ。",
+      "japanese": "⟦{宿泊|しゅくはく}→宿泊：03216_shukuhaku⟧⟦と→と：00512_to⟧⟦{食事|しょくじ}→食事：02087_shokuji⟧⟦が→が：00051_ga⟧⟦セット→セット：03853_setto⟧になったパッケージ⟦プラン→プラン：00345_puran⟧⟦が→が：00051_ga⟧⟦{人気|にんき}→人気：01488_ninki⟧だ。",
       "english": "Package plans that include accommodation and meals are popular.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
-  "notes": "Borrowed from English \"package.\" Used broadly for both physical packaging and bundled deals.\n\nCOMMON COLLOCATIONS:\n・パッケージデザイン (package design)\n・パッケージツアー (package tour)\n・パッケージ{版|ばん} (packaged version — software)\n・パッケージを{開|あ}ける (to open a package)\n\nUSAGE NOTES:\nFor physical parcels and shipping packages, {荷物|にもつ} or {小包|こづつみ} are more natural. パッケージ emphasizes the design, branding, or bundling aspect rather than the container itself.",
-  "cross_references": [],
+  "notes": "Borrowed from English \"package.\" Used broadly for both physical packaging and bundled deals.\n\nCOMMON COLLOCATIONS:\n- パッケージ⟦デザイン→デザイン：03860_dezain⟧ (package design)\n- パッケージツアー (package tour)\n- パッケージ{版|ばん} (packaged version — software)\n- パッケージ⟦を→を：00422_wo⟧⟦{開|あ}ける→開ける：00563_akeru⟧ (to open a package)\n\nUSAGE:\nFor physical parcels and shipping packages, ⟦{荷物|にもつ}→荷物：00737_nimotsu⟧ or ⟦{小包|こづつみ}→小包：02764_kozutsumi⟧ are more natural. パッケージ emphasizes the design, branding, or bundling aspect rather than the container itself.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "29020_youkihousou",
+      "reading": "ようきほうそう",
+      "headword": "{容器包装|ようきほうそう}",
+      "label": "containers and packaging"
+    }
+  ],
   "metadata": {
     "created": "2026-02-17T21:33:30Z",
-    "modified": "2026-02-17T21:33:30Z",
+    "modified": "2026-09-02T04:01:26Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

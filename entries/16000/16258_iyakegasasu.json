@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "16258_iyakegasasu_ex1",
-      "japanese": "{毎日|まいにち}の{残業|ざんぎょう}に{嫌気|いやけ}が{差|さ}した。",
+      "japanese": "⟦{毎日|まいにち}→毎日：00729_mainichi⟧⟦の→の：09472_no⟧⟦{残業|ざんぎょう}→残業：01071_zangyou⟧⟦に→に：00314_ni⟧{嫌気|いやけ}が{差|さ}した。",
       "english": "I got fed up with the daily overtime.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16258_iyakegasasu_ex2",
-      "japanese": "{同|おな}じことの{繰|く}り{返|かえ}しに{嫌気|いやけ}が{差|さ}してきた。",
+      "japanese": "⟦{同|おな}じ→同じ：02857_onaji⟧こと⟦の→の：09472_no⟧⟦{繰|く}り{返|かえ}し→繰り返し：10320_kurikaeshi⟧⟦に→に：00314_ni⟧{嫌気|いやけ}が{差|さ}してきた。",
       "english": "I'm starting to get tired of the same thing over and over.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16258_iyakegasasu_ex3",
-      "japanese": "{都会|とかい}の{生活|せいかつ}に{嫌気|いやけ}が{差|さ}して、{田舎|いなか}に{引|ひ}っ{越|こ}すことにした。",
+      "japanese": "⟦{都会|とかい}→都会：02475_tokai⟧⟦の→の：09472_no⟧⟦{生活|せいかつ}→生活：01443_seikatsu⟧⟦に→に：00314_ni⟧{嫌気|いやけ}が{差|さ}して、⟦{田舎|いなか}→田舎：01320_inaka⟧⟦に→に：00314_ni⟧⟦{引|ひ}っ{越|こ}す→引っ越す：01171_hikkosu⟧ことにした。",
       "english": "I grew weary of city life and decided to move to the countryside.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "PATTERN: 〜に{嫌気|いやけ}が{差|さ}す\nThe thing one is fed up with is marked by に.\n\nCONJUGATION:\n- {嫌気|いやけ}が{差|さ}す（{現在|げんざい}）\n- {嫌気|いやけ}が{差|さ}した（{過去|かこ}）\n- {嫌気|いやけ}が{差|さ}して（て{形|けい}）\n- {嫌気|いやけ}が{差|さ}してきた: started to feel fed up (gradual onset)\n\nUSAGE: This expression conveys a sense of accumulated frustration or dissatisfaction. It often implies that the feeling built up over time rather than arising suddenly. Frequently used when explaining a motivation for change, such as quitting a job or leaving a place.",
+  "notes": "PATTERN: 〜⟦に→に：00314_ni⟧{嫌気|いやけ}が{差|さ}す\nThe thing one is fed up with is marked by ⟦に→に：00314_ni⟧.\n\nCONJUGATION:\n- {嫌気|いやけ}が{差|さ}す（⟦{現在|げんざい}→現在：01556_genzai⟧）\n- {嫌気|いやけ}が{差|さ}した（⟦{過去|かこ}→過去：00152_kako⟧）\n- {嫌気|いやけ}が{差|さ}して（て{形|けい}）\n- {嫌気|いやけ}が{差|さ}してきた: started to feel fed up (gradual onset)\n\nUSAGE: This expression conveys a sense of accumulated frustration or dissatisfaction. It often implies that the feeling built up over time rather than arising suddenly. Frequently used when explaining a motivation for change, such as quitting a job or leaving a place.",
   "cross_references": [
     {
       "type": "related",
@@ -53,17 +59,28 @@
       "reading": "うんざり",
       "headword": "うんざり",
       "label": "fed up, sick of"
+    },
+    {
+      "type": "related",
+      "target_id": "09169_hekieki",
+      "reading": "へきえき",
+      "headword": "{辟易|へきえき}",
+      "label": "shrinking back, being fed up, weariness"
     }
   ],
   "metadata": {
     "created": "2026-03-11T10:32:03Z",
-    "modified": "2026-05-03T07:09:48Z",
+    "modified": "2026-09-02T04:01:44Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["expression"],
+      "pos": [
+        "expression"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["emotion"]
+      "semantic": [
+        "emotion"
+      ]
     }
   }
 }

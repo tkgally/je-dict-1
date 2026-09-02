@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "18870_shoruisakusei_ex1",
-      "japanese": "{書類|しょるい}{作成|さくせい}に{時間|じかん}がかかった。",
+      "japanese": "{書類|しょるい}{作成|さくせい}⟦に→に：00314_ni⟧⟦{時間|じかん}→時間：00468_jikan⟧⟦が→が：00051_ga⟧⟦かかった→かかる：00711_kakaru⟧。",
       "english": "Preparing the documents took time.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "18870_shoruisakusei_ex2",
-      "japanese": "{書類|しょるい}{作成|さくせい}は{今週中|こんしゅうちゅう}に{終|お}わらせてください。",
+      "japanese": "{書類|しょるい}{作成|さくせい}⟦は→は：00079_ha⟧{今週中|こんしゅうちゅう}⟦に→に：00314_ni⟧{終|お}わらせて⟦ください→ください：02899_kudasai⟧。",
       "english": "Please finish the paperwork by the end of this week.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "18870_shoruisakusei_ex3",
-      "japanese": "{確定|かくてい}{申告|しんこく}の{書類|しょるい}{作成|さくせい}を{税理士|ぜいりし}に{依頼|いらい}した。",
+      "japanese": "⟦{確定|かくてい}{申告|しんこく}→確定申告：04902_kakuteishinkoku⟧⟦の→の：09472_no⟧{書類|しょるい}{作成|さくせい}⟦を→を：00422_wo⟧⟦{税理士|ぜいりし}→税理士：06571_zeirishi⟧⟦に→に：00314_ni⟧⟦{依頼|いらい}した→依頼する：21376_irai⟧。",
       "english": "I asked a tax accountant to prepare my tax return documents.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,26 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA common compound noun in business and administrative contexts. Can be used with する to function as a verb.\n\nCOMMON COLLOCATIONS:\n- {書類|しょるい}{作成|さくせい}をする (to prepare documents)\n- {書類|しょるい}{作成|さくせい}に{時間|じかん}がかかる (document preparation takes time)\n- {書類|しょるい}{作成|さくせい}を{依頼|いらい}する (to request document preparation)\n- {書類|しょるい}{作成|さくせい}{能力|のうりょく} (document preparation skills)\n\nSIMILAR WORDS:\n- {事務|じむ}{作業|さぎょう}: office work, clerical tasks — broader, includes filing, data entry, etc.\n- {文書|ぶんしょ}{作成|さくせい}: document creation — more formal; {文書|ぶんしょ} emphasizes the written text itself",
-  "cross_references": [],
+  "notes": "USAGE:\nA common compound noun in business and administrative contexts. Can be used with ⟦する→する：00392_suru⟧ to function as a verb.\n\nCOMMON COLLOCATIONS:\n- {書類|しょるい}{作成|さくせい}⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧ (to prepare documents)\n- {書類|しょるい}{作成|さくせい}⟦に→に：00314_ni⟧⟦{時間|じかん}がかかる→時間がかかる：26082_jikangakakaru⟧ (document preparation takes time)\n- {書類|しょるい}{作成|さくせい}⟦を→を：00422_wo⟧⟦{依頼|いらい}する→依頼する：21376_irai⟧ (to request document preparation)\n- {書類|しょるい}{作成|さくせい}⟦{能力|のうりょく}→能力：03541_nouryoku⟧ (document preparation skills)\n\nSIMILAR WORDS:\n- ⟦{事務|じむ}{作業|さぎょう}→事務作業：23101_jimusagyou⟧: office work, clerical tasks — broader, includes filing, data entry, etc.\n- ⟦{文書|ぶんしょ}{作成|さくせい}→文書作成：26116_bunshosakusei⟧: document creation — more formal; ⟦{文書|ぶんしょ}→文書：12947_bunsho⟧ emphasizes the written text itself",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23101_jimusagyou",
+      "reading": "じむさぎょう",
+      "headword": "{事務作業|じむさぎょう}",
+      "label": "office work, clerical tasks"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26116_bunshosakusei",
+      "reading": "ぶんしょさくせい",
+      "headword": "{文書|ぶんしょ}{作成|さくせい}",
+      "label": "document creation"
+    }
+  ],
   "metadata": {
     "created": "2026-03-23T06:16:28Z",
-    "modified": "2026-03-29T03:08:58Z",
+    "modified": "2026-09-02T04:01:53Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

@@ -15,41 +15,60 @@
   "examples": [
     {
       "id": "28843_kizugusuri_ex1",
-      "japanese": "{傷薬|きずぐすり}を{塗|ぬ}った。",
+      "japanese": "{傷薬|きずぐすり}⟦を→を：00422_wo⟧⟦{塗|ぬ}った→塗る：01174_nuru⟧。",
       "english": "I applied wound medicine.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28843_kizugusuri_ex2",
-      "japanese": "{転|ころ}んでひざをすりむいたので{傷薬|きずぐすり}をつけた。",
+      "japanese": "⟦{転|ころ}んで→転ぶ：00863_korobu⟧ひざ⟦を→を：00422_wo⟧⟦すりむいた→すりむく：09100_surimuku⟧⟦の→の：09472_no⟧で{傷薬|きずぐすり}⟦を→を：00422_wo⟧⟦つけた→つける：00562_tsukeru⟧。",
       "english": "I fell and scraped my knee, so I put some antiseptic on it.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28843_kizugusuri_ex3",
-      "japanese": "{救急箱|きゅうきゅうばこ}に{傷薬|きずぐすり}と{包帯|ほうたい}を{常備|じょうび}している。",
+      "japanese": "⟦{救急箱|きゅうきゅうばこ}→救急箱：19410_kyuukyuubako⟧⟦に→に：00314_ni⟧{傷薬|きずぐすり}⟦と→と：00512_to⟧⟦{包帯|ほうたい}→包帯：05385_houtai⟧⟦を→を：00422_wo⟧⟦{常備|じょうび}→常備：27113_joubi⟧⟦している→する：00392_suru⟧。",
       "english": "I keep wound medicine and bandages in the first-aid kit.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Compound of {傷|きず} (wound, scratch) + {薬|くすり} (medicine), with rendaku on the second element (くすり → ぐすり). A general everyday term covering disinfectants, ointments, and topical creams for minor injuries.\n\nCOMMON COLLOCATIONS:\n- {傷薬|きずぐすり}を{塗|ぬ}る: to apply wound medicine\n- {傷薬|きずぐすり}をつける: to put on wound medicine\n- {傷薬|きずぐすり}が{効|き}く: the medicine is effective\n\nSIMILAR WORDS:\n- {軟膏|なんこう}: ointment — more clinical term\n- {消毒液|しょうどくえき}: disinfectant liquid — specifically for cleaning, not healing\n- {絆創膏|ばんそうこう}: adhesive bandage, Band-Aid",
+  "notes": "Compound of ⟦{傷|きず}→傷：02201_kizu⟧ (wound, scratch) + ⟦{薬|くすり}→薬：00793_kusuri⟧ (medicine), with rendaku on the second element (くすり → ぐすり). A general everyday term covering disinfectants, ointments, and topical creams for minor injuries.\n\nCOMMON COLLOCATIONS:\n- {傷薬|きずぐすり}⟦を→を：00422_wo⟧⟦{塗|ぬ}る→塗る：01174_nuru⟧: to apply wound medicine\n- {傷薬|きずぐすり}⟦を→を：00422_wo⟧⟦つける→つける：00562_tsukeru⟧: to put on wound medicine\n- {傷薬|きずぐすり}⟦が→が：00051_ga⟧⟦{効|き}く→効く：01932_kiku⟧: the medicine is effective\n\nSIMILAR WORDS:\n- {軟膏|なんこう}: ointment — more clinical term\n- {消毒液|しょうどくえき}: disinfectant liquid — specifically for cleaning, not healing\n- ⟦{絆創膏|ばんそうこう}→絆創膏：05386_bansoukou⟧: adhesive bandage, Band-Aid",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05386_bansoukou",
+      "reading": "ばんそうこう",
+      "headword": "{絆創膏|ばんそうこう}",
+      "label": "adhesive bandage, Band-Aid"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["health"],
+      "politeness": "plain",
+      "semantic": [
+        "health"
+      ],
       "domain": []
     },
     "created": "2026-06-06T03:07:38Z",
-    "modified": "2026-06-06T03:07:38Z"
+    "modified": "2026-09-02T04:02:35Z"
   }
 }

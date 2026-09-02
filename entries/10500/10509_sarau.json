@@ -110,7 +110,7 @@
   "examples": [
     {
       "id": "10509_sarau_ex1",
-      "japanese": "{子供|こども}が{攫|さら}われた。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧⟦が→が：00051_ga⟧{攫|さら}われた。",
       "english": "A child was kidnapped.",
       "notes": null,
       "has_audio": false,
@@ -120,7 +120,7 @@
     },
     {
       "id": "10509_sarau_ex2",
-      "japanese": "{鬼|おに}が{村|むら}の{娘|むすめ}を{攫|さら}う{話|はなし}。",
+      "japanese": "⟦{鬼|おに}→鬼：02184_oni⟧⟦が→が：00051_ga⟧⟦{村|むら}→村：02261_mura⟧⟦の→の：09472_no⟧⟦{娘|むすめ}→娘：02263_musume⟧⟦を→を：00422_wo⟧{攫|さら}う⟦{話|はなし}→話：01496_hanashi⟧。",
       "english": "A story about a demon carrying off a village girl.",
       "notes": null,
       "has_audio": false,
@@ -130,7 +130,7 @@
     },
     {
       "id": "10509_sarau_ex3",
-      "japanese": "{昔話|むかしばなし}では、{天狗|てんぐ}が{人|ひと}を{攫|さら}うと{言|い}われていた。",
+      "japanese": "⟦{昔話|むかしばなし}→昔話：12718_mukashibanashi⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧、⟦{天狗|てんぐ}→天狗：06522_tengu⟧⟦が→が：00051_ga⟧⟦{人|ひと}→人：00476_hito⟧⟦を→を：00422_wo⟧{攫|さら}う⟦と→と：00512_to⟧⟦{言|い}われていた→言う：00515_iu⟧。",
       "english": "In old tales, it was said that tengu would snatch people away.",
       "notes": null,
       "has_audio": false,
@@ -140,7 +140,7 @@
     },
     {
       "id": "10509_sarau_ex4",
-      "japanese": "{波|なみ}に{攫|さら}われた。",
+      "japanese": "⟦{波|なみ}→波：00868_nami⟧⟦に→に：00314_ni⟧{攫|さら}われた。",
       "english": "I was swept away by a wave.",
       "notes": null,
       "has_audio": false,
@@ -150,7 +150,7 @@
     },
     {
       "id": "10509_sarau_ex5",
-      "japanese": "{大雨|おおあめ}で{橋|はし}が{攫|さら}われた。",
+      "japanese": "⟦{大雨|おおあめ}→大雨：03015_ooame⟧⟦で→で：00502_de⟧⟦{橋|はし}→橋：02163_hashi⟧⟦が→が：00051_ga⟧{攫|さら}われた。",
       "english": "The bridge was swept away by heavy rain.",
       "notes": null,
       "has_audio": false,
@@ -160,7 +160,7 @@
     },
     {
       "id": "10509_sarau_ex6",
-      "japanese": "{洪水|こうずい}で{家|いえ}ごと{攫|さら}われる{危険|きけん}があった。",
+      "japanese": "⟦{洪水|こうずい}→洪水：05065_kouzui⟧⟦で→で：00502_de⟧⟦{家|いえ}→家：00612_ie⟧ごと{攫|さら}われる⟦{危険|きけん}→危険：01141_kiken⟧⟦が→が：00051_ga⟧⟦あった→ある：00006_aru⟧。",
       "english": "There was a danger of being swept away house and all by the flood.",
       "notes": null,
       "has_audio": false,
@@ -169,11 +169,19 @@
       ]
     }
   ],
-  "notes": "CONJUGATION (godan-u):\n- Negative: {攫|さら}わない\n- Te-form: {攫|さら}って\n- Past: {攫|さら}った\n- Passive: {攫|さら}われる\n\nTRANSITIVITY:\nTransitive.\n\nWRITING:\nThe kanji {攫|さら} is difficult and often written in hiragana as さらう.\n\nDISTINCTION:\nNot to be confused with the homophone さらう meaning \"to clean out\" or \"to review\" (written as {浚|さら}う).\n\nCOMMON COLLOCATIONS:\n- {波|なみ}に{攫|さら}われる: to be swept away by a wave\n- {風|かぜ}に{攫|さら}われる: to be carried off by the wind",
-  "cross_references": [],
+  "notes": "CONJUGATION (godan-u):\n- Negative: {攫|さら}わない\n- Te-form: {攫|さら}って\n- Past: {攫|さら}った\n- Passive: {攫|さら}われる\n\nTRANSITIVITY:\nTransitive.\n\nWRITING:\nThe kanji {攫|さら} is difficult and often written in hiragana as さらう.\n\nSIMILAR WORDS:\nNot to be confused with the homophone さらう meaning \"to clean out\" or \"to review\" (written as {浚|さら}う).\n\nCOMMON COLLOCATIONS:\n- ⟦{波|なみ}→波：00868_nami⟧⟦に→に：00314_ni⟧{攫|さら}われる: to be swept away by a wave\n- ⟦{風|かぜ}→風：00641_kaze⟧⟦に→に：00314_ni⟧{攫|さら}われる: to be carried off by the wind",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25711_rachisuru",
+      "reading": "らちする",
+      "headword": "{拉致|らち}する",
+      "label": "to abduct"
+    }
+  ],
   "metadata": {
     "created": "2026-02-07T23:54:21Z",
-    "modified": "2026-06-27T03:38:18Z",
+    "modified": "2026-09-02T04:01:21Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "19211_kinko_ex1",
-      "japanese": "{禁錮|きんこ}3{年|ねん}の{判決|はんけつ}が{下|くだ}された。",
+      "japanese": "{禁錮|きんこ}3⟦{年|ねん}→年：09876_nen⟧⟦の→の：09472_no⟧⟦{判決|はんけつ}→判決：05906_hanketsu⟧⟦が→が：00051_ga⟧⟦{下|くだ}された→下す：12329_kudasu⟧。",
       "english": "A sentence of three years' imprisonment was handed down.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "19211_kinko_ex2",
-      "japanese": "{禁錮|きんこ}{以上|いじょう}の{刑|けい}に{処|しょ}せられると{公務員|こうむいん}になれない。",
+      "japanese": "{禁錮|きんこ}⟦{以上|いじょう}→以上：01308_ijou⟧⟦の→の：09472_no⟧⟦{刑|けい}→刑：02786_kei⟧⟦に→に：00314_ni⟧⟦{処|しょ}せられる→処する：30647_shosuru⟧⟦と→と：00512_to⟧⟦{公務員|こうむいん}→公務員：01588_koumuin⟧⟦に→に：00314_ni⟧⟦なれない→なる：01970_naru⟧。",
       "english": "Anyone sentenced to imprisonment or above cannot become a civil servant.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "19211_kinko_ex3",
-      "japanese": "{被告人|ひこくにん}は{業務上過失致死|ぎょうむじょうかしつちし}で{禁錮|きんこ}2{年|ねん}、{執行猶予|しっこうゆうよ}4{年|ねん}の{判決|はんけつ}を{受|う}けた。",
+      "japanese": "⟦{被告人|ひこくにん}→被告人：20130_hikokunin⟧⟦は→は：00079_ha⟧{業務上過失致死|ぎょうむじょうかしつちし}⟦で→で：00502_de⟧{禁錮|きんこ}2⟦{年|ねん}→年：09876_nen⟧、⟦{執行猶予|しっこうゆうよ}→執行猶予：18434_shikkouyuuyo⟧4⟦{年|ねん}→年：09876_nen⟧⟦の→の：09472_no⟧⟦{判決|はんけつ}→判決：05906_hanketsu⟧⟦を→を：00422_wo⟧⟦{受|う}けた→受ける：01215_ukeru⟧。",
       "english": "The defendant received a sentence of two years' imprisonment, suspended for four years, for professional negligence resulting in death.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {禁|きん} (prohibit, confine) + {錮|こ} (imprison). Also written {禁固|きんこ}. In Japanese criminal law, the traditional distinction is: {懲役|ちょうえき} (imprisonment with labor) vs. {禁錮|きんこ} (imprisonment without labor). {禁錮|きんこ} was typically applied to negligent crimes rather than intentional ones. Note: Japan's 2022 Penal Code reform merged {懲役|ちょうえき} and {禁錮|きんこ} into a new unified category called {拘禁刑|こうきんけい} (effective 2025). Common collocations: {禁錮|きんこ}〜{年|ねん} (~ years' imprisonment), {禁錮|きんこ}{刑|けい} (imprisonment sentence). Not to be confused with the homophone {金庫|きんこ} (safe, vault).",
+  "notes": "Composed of ⟦{禁|きん}→禁：28295_kin⟧ (prohibit, confine) + {錮|こ} (imprison). Also written {禁固|きんこ}. In Japanese criminal law, the traditional distinction is: ⟦{懲役|ちょうえき}→懲役：11087_choueki⟧ (imprisonment with labor) vs. {禁錮|きんこ} (imprisonment without labor). {禁錮|きんこ} was typically applied to negligent crimes rather than intentional ones. Note: Japan's 2022 Penal Code reform merged ⟦{懲役|ちょうえき}→懲役：11087_choueki⟧ and {禁錮|きんこ} into a new unified category called {拘禁刑|こうきんけい} (effective 2025). Common collocations: {禁錮|きんこ}〜⟦{年|ねん}→年：09876_nen⟧ (~ years' imprisonment), {禁錮|きんこ}⟦{刑|けい}→刑：02786_kei⟧ (imprisonment sentence). Not to be confused with the homophone ⟦{金庫|きんこ}→金庫：01749_kinko⟧ (safe, vault).",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -54,13 +54,15 @@
       ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["law"],
+      "semantic": [
+        "law"
+      ],
       "domain": [
         "legal"
       ]
     },
     "created": "2026-03-24T14:04:37Z",
-    "modified": "2026-07-26T21:32:58Z"
+    "modified": "2026-09-02T04:01:55Z"
   },
   "cross_references": [
     {
@@ -69,6 +71,20 @@
       "reading": "ちょうえき",
       "headword": "{懲役|ちょうえき}",
       "label": "imprisonment with labor"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15733_tougoku",
+      "reading": "とうごく",
+      "headword": "{投獄|とうごく}",
+      "label": "imprisonment"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29150_yuukichoueki",
+      "reading": "ゆうきちょうえき",
+      "headword": "{有期|ゆうき}{懲役|ちょうえき}",
+      "label": "fixed-term imprisonment"
     }
   ]
 }

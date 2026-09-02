@@ -15,40 +15,66 @@
   "examples": [
     {
       "id": "27694_shootokeeki_ex1",
-      "japanese": "ショートケーキを{一|ひと}つください。",
+      "japanese": "ショートケーキ⟦を→を：00422_wo⟧⟦{一|ひと}つ→一つ：02948_hitotsu⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "One strawberry shortcake, please.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27694_shootokeeki_ex2",
-      "japanese": "{誕生日|たんじょうび}にはやっぱりショートケーキだ。",
+      "japanese": "⟦{誕生日|たんじょうび}→誕生日：02910_tanjoubi⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦やっぱり→やっぱり：03005_yappari⟧ショートケーキだ。",
       "english": "For a birthday, it's got to be strawberry shortcake.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27694_shootokeeki_ex3",
-      "japanese": "この{店|みせ}のショートケーキは{生|なま}クリームがあっさりしていておいしい。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{店|みせ}→店：00497_mise⟧⟦の→の：09472_no⟧ショートケーキ⟦は→は：00079_ha⟧⟦{生|なま}クリーム→生クリーム：15884_namakuriimu⟧⟦が→が：00051_ga⟧⟦あっさり→あっさり：05650_assari⟧⟦していて→する：00392_suru⟧おいしい。",
       "english": "This shop's shortcake is delicious because the whipped cream is light.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Despite the English name, Japanese ショートケーキ is not the biscuit-based dessert of British or American shortcake. It is a soft sponge cake (スポンジ) with whipped cream and strawberries.\n\nCOMMON COLLOCATIONS:\n- {苺|いちご}のショートケーキ: strawberry shortcake\n- ショートケーキを{切|き}り{分|わ}ける: to slice up a shortcake\n\nCULTURAL NOTE:\nA whole decorated ショートケーキ is the standard cake for Christmas in Japan, and a single slice is a typical everyday treat at cafes and cake shops.",
+  "notes": "Despite the English name, Japanese ショートケーキ is not the biscuit-based dessert of British or American shortcake. It is a soft sponge cake (⟦スポンジ→スポンジ：04505_suponji⟧) with whipped cream and strawberries.\n\nCOMMON COLLOCATIONS:\n- {苺|いちご}⟦の→の：09472_no⟧ショートケーキ: strawberry shortcake\n- ショートケーキ⟦を→を：00422_wo⟧⟦{切|き}り{分|わ}ける→切り分ける：11774_kiriwakeru⟧: to slice up a shortcake\n\nCULTURAL NOTE:\nA whole decorated ショートケーキ is the standard cake for Christmas in Japan, and a single slice is a typical everyday treat at cafes and cake shops.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24221_roorukeeki",
+      "reading": "ろーるけーき",
+      "headword": "ロールケーキ",
+      "label": "Swiss roll"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25894_chiizukeeki",
+      "reading": "ちーずけーき",
+      "headword": "チーズケーキ",
+      "label": "cheesecake"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food"]
+      "semantic": [
+        "food"
+      ]
     },
     "created": "2026-05-17T03:10:36Z",
-    "modified": "2026-05-17T03:10:36Z"
+    "modified": "2026-09-02T04:02:31Z"
   }
 }

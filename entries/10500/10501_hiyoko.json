@@ -20,7 +20,7 @@
   "examples": [
     {
       "id": "10501_hiyoko_ex1",
-      "japanese": "ひよこが{生|う}まれた。",
+      "japanese": "ひよこ⟦が→が：00051_ga⟧⟦{生|う}まれた→生まれる：00905_umareru⟧。",
       "english": "A chick was born.",
       "notes": null,
       "has_audio": false,
@@ -30,7 +30,7 @@
     },
     {
       "id": "10501_hiyoko_ex2",
-      "japanese": "ひよこが{親鳥|おやどり}のあとをついていく。",
+      "japanese": "ひよこ⟦が→が：00051_ga⟧⟦{親鳥|おやどり}→親鳥：25490_oyadori⟧⟦の→の：09472_no⟧あと⟦を→を：00422_wo⟧⟦ついていく→ついていく：10991_tsuiteiku⟧。",
       "english": "The chicks follow after the mother bird.",
       "notes": null,
       "has_audio": false,
@@ -40,7 +40,7 @@
     },
     {
       "id": "10501_hiyoko_ex3",
-      "japanese": "{卵|たまご}からひよこが{殻|から}を{破|やぶ}って{出|で}てくるのを{見|み}た。",
+      "japanese": "⟦{卵|たまご}→卵：02222_tamago⟧⟦から→から：00504_kara⟧ひよこ⟦が→が：00051_ga⟧⟦{殻|から}→殻：02148_kara⟧⟦を→を：00422_wo⟧⟦{破|やぶ}って→破る：02321_yaburu⟧⟦{出|で}てくる→出てくる：29121_detekuru⟧⟦の→の：09472_no⟧⟦を→を：00422_wo⟧⟦{見|み}た→見る：00283_miru⟧。",
       "english": "I watched a chick break through the shell and emerge from the egg.",
       "notes": null,
       "has_audio": false,
@@ -50,7 +50,7 @@
     },
     {
       "id": "10501_hiyoko_ex4",
-      "japanese": "まだひよこだから。",
+      "japanese": "⟦まだ→まだ：00603_mada⟧ひよこだ⟦から→から：00504_kara⟧。",
       "english": "I'm still a beginner, so...",
       "notes": null,
       "has_audio": false,
@@ -60,7 +60,7 @@
     },
     {
       "id": "10501_hiyoko_ex5",
-      "japanese": "{社会人|しゃかいじん}としてはまだひよこだ。",
+      "japanese": "⟦{社会人|しゃかいじん}→社会人：13730_shakaijin⟧⟦として→として：06802_toshite⟧⟦は→は：00079_ha⟧⟦まだ→まだ：00603_mada⟧ひよこだ。",
       "english": "As a working adult, I'm still a fledgling.",
       "notes": null,
       "has_audio": false,
@@ -70,7 +70,7 @@
     },
     {
       "id": "10501_hiyoko_ex6",
-      "japanese": "ひよこ{同然|どうぜん}の{新人|しんじん}に{大|おお}きなプロジェクトは{任|まか}せられない。",
+      "japanese": "ひよこ⟦{同然|どうぜん}→同然：09487_douzen⟧⟦の→の：09472_no⟧⟦{新人|しんじん}→新人：02500_shinjin⟧⟦に→に：00314_ni⟧⟦{大|おお}きな→大きな：02849_ookina⟧⟦プロジェクト→プロジェクト：06764_purojekuto⟧⟦は→は：00079_ha⟧⟦{任|まか}せられない→任せる：02417_makaseru⟧。",
       "english": "You can't entrust a big project to a newcomer who is practically a novice.",
       "notes": null,
       "has_audio": false,
@@ -79,11 +79,19 @@
       ]
     }
   ],
-  "notes": "WRITING:\nUsually written in hiragana. The kanji {雛|ひよこ} exists but is rarely used for this word.\n\nSENSE 1 — CHICK:\nRefers specifically to a baby chicken or newly hatched bird. The word is onomatopoeic, imitating the ピヨピヨ sound chicks make.\n\nSENSE 2 — NOVICE:\nUsed figuratively for someone who is inexperienced. Often self-deprecating or affectionate — less harsh than {素人|しろうと} (amateur) or {未熟者|みじゅくもの} (unskilled person).\n\nCOMMON COLLOCATIONS:\n- ひよこ{豆|まめ}: chickpea\n- ひよこ{鑑定士|かんていし}: chick sexer (profession)\n- まだひよこだ: still a beginner\n- ひよこ{同然|どうぜん}: practically a novice",
-  "cross_references": [],
+  "notes": "WRITING:\nUsually written in hiragana. The kanji {雛|ひよこ} exists but is rarely used for this word.\n\nSENSE 1 — CHICK:\nRefers specifically to a baby chicken or newly hatched bird. The word is onomatopoeic, imitating the ピヨピヨ sound chicks make.\n\nSENSE 2 — NOVICE:\nUsed figuratively for someone who is inexperienced. Often self-deprecating or affectionate — less harsh than ⟦{素人|しろうと}→素人：04270_shirouto⟧ (amateur) or ⟦{未熟者|みじゅくもの}→未熟者：26952_mijukumono⟧ (unskilled person).\n\nCOMMON COLLOCATIONS:\n- ひよこ{豆|まめ}: chickpea\n- ひよこ⟦{鑑定士|かんていし}→鑑定士：22112_kanteishi⟧: chick sexer (profession)\n- ⟦まだ→まだ：00603_mada⟧ひよこだ: still a beginner\n- ひよこ⟦{同然|どうぜん}→同然：09487_douzen⟧: practically a novice",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24779_hinadori",
+      "reading": "ひなどり",
+      "headword": "{雛鳥|ひなどり}",
+      "label": "chick, baby bird, fledgling"
+    }
+  ],
   "metadata": {
     "created": "2026-02-07T23:54:21Z",
-    "modified": "2026-06-27T03:38:18Z",
+    "modified": "2026-09-02T04:01:21Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

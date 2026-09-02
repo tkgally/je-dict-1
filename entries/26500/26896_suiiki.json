@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26896_suiiki_ex1",
-      "japanese": "この{水域|すいいき}は{遊泳|ゆうえい}{禁止|きんし}です。",
+      "japanese": "⟦この→この：00962_kono⟧{水域|すいいき}⟦は→は：00079_ha⟧{遊泳|ゆうえい}⟦{禁止|きんし}→禁止：02643_kinshi⟧です。",
       "english": "Swimming is prohibited in this water area.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26896_suiiki_ex2",
-      "japanese": "{汚染|おせん}された{水域|すいいき}の{浄化|じょうか}が{進|すす}んでいる。",
+      "japanese": "⟦{汚染|おせん}→汚染：02595_osen⟧⟦された→する：00392_suru⟧{水域|すいいき}⟦の→の：09472_no⟧⟦{浄化|じょうか}→浄化：14936_jouka⟧⟦が→が：00051_ga⟧⟦{進|すす}んでいる→進む：01225_susumu⟧。",
       "english": "Cleanup of the polluted waters is underway.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26896_suiiki_ex3",
-      "japanese": "{港|みなと}の{周辺|しゅうへん}{水域|すいいき}では{大型|おおがた}{船舶|せんぱく}の{航行|こうこう}が{制限|せいげん}されている。",
+      "japanese": "⟦{港|みなと}→港：01512_minato⟧⟦の→の：09472_no⟧⟦{周辺|しゅうへん}→周辺：09896_shuuhen⟧{水域|すいいき}⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{大型|おおがた}→大型：03016_oogata⟧{船舶|せんぱく}⟦の→の：09472_no⟧{航行|こうこう}⟦が→が：00051_ga⟧⟦{制限|せいげん}→制限：03375_seigen⟧⟦されている→する：00392_suru⟧。",
       "english": "Navigation of large vessels is restricted in the waters around the port.",
       "sense_numbers": [
         1
@@ -44,13 +44,27 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {水|すい} (water) and {域|いき} (area, zone). This is a somewhat formal and technical term used in environmental science, maritime regulation, and geography.\n\nCOMMON COLLOCATIONS:\n- {閉鎖|へいさ}{水域|すいいき}: enclosed waters (bay, lake)\n- {沿岸|えんがん}{水域|すいいき}: coastal waters\n- {内陸|ないりく}{水域|すいいき}: inland waters\n- {水域|すいいき}{汚染|おせん}: water area pollution\n- {保護|ほご}{水域|すいいき}: protected waters\n\nSIMILAR WORDS:\n- {海域|かいいき}: sea area, maritime zone — specifically ocean/sea areas\n- {領海|りょうかい}: territorial waters — a legal term for sovereign sea territory\n- {流域|りゅういき}: river basin, watershed — the area drained by a river system",
+  "notes": "A compound of {水|すい} (water) and {域|いき} (area, zone). This is a somewhat formal and technical term used in environmental science, maritime regulation, and geography.\n\nCOMMON COLLOCATIONS:\n- ⟦{閉鎖|へいさ}→閉鎖：14524_heisa⟧{水域|すいいき}: enclosed waters (bay, lake)\n- ⟦{沿岸|えんがん}→沿岸：13280_engan⟧{水域|すいいき}: coastal waters\n- {内陸|ないりく}{水域|すいいき}: inland waters\n- {水域|すいいき}⟦{汚染|おせん}→汚染：02595_osen⟧: water area pollution\n- ⟦{保護|ほご}→保護：03625_hogo⟧{水域|すいいき}: protected waters\n\nSIMILAR WORDS:\n- ⟦{海域|かいいき}→海域：26897_kaiiki⟧: sea area, maritime zone — specifically ocean/sea areas\n- ⟦{領海|りょうかい}→領海：15850_ryoukai⟧: territorial waters — a legal term for sovereign sea territory\n- ⟦{流域|りゅういき}→流域：19664_ryuuiki⟧: river basin, watershed — the area drained by a river system",
   "cross_references": [
     {
       "reading": "かいいき",
       "type": "see_also",
       "description": "specifically sea/ocean areas",
       "target_id": "26897_kaiiki"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15850_ryoukai",
+      "reading": "りょうかい",
+      "headword": "{領海|りょうかい}",
+      "label": "territorial waters"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19664_ryuuiki",
+      "reading": "りゅういき",
+      "headword": "{流域|りゅういき}",
+      "label": "river basin, watershed"
     }
   ],
   "schema_version": "2.0",
@@ -69,6 +83,6 @@
       "domain": []
     },
     "created": "2026-05-05T15:09:07Z",
-    "modified": "2026-06-19T03:23:54Z"
+    "modified": "2026-09-02T04:02:28Z"
   }
 }

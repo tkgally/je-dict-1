@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25665_yunyuukoku_ex1",
-      "japanese": "{日本|にほん}は{資源|しげん}の{輸入国|ゆにゅうこく}だ。",
+      "japanese": "⟦{日本|にほん}→日本：03876_nihon⟧⟦は→は：00079_ha⟧⟦{資源|しげん}→資源：03167_shigen⟧⟦の→の：09472_no⟧{輸入国|ゆにゅうこく}だ。",
       "english": "Japan is a resource-importing country.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25665_yunyuukoku_ex2",
-      "japanese": "{食料|しょくりょう}{輸入国|ゆにゅうこく}は{価格|かかく}{変動|へんどう}の{影響|えいきょう}を{受|う}けやすい。",
+      "japanese": "⟦{食料|しょくりょう}→食料：03250_shokuryou⟧{輸入国|ゆにゅうこく}⟦は→は：00079_ha⟧⟦{価格|かかく}→価格：00147_kakaku⟧⟦{変動|へんどう}→変動：09936_hendou⟧⟦の→の：09472_no⟧⟦{影響|えいきょう}→影響：01877_eikyou⟧⟦を→を：00422_wo⟧⟦{受|う}け→受ける：01215_ukeru⟧やすい。",
       "english": "Food-importing countries are susceptible to price fluctuations.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25665_yunyuukoku_ex3",
-      "japanese": "{世界|せかい}{最大|さいだい}の{石油|せきゆ}{輸入国|ゆにゅうこく}はエネルギーの{安定|あんてい}{供給|きょうきゅう}を{確保|かくほ}するために{外交|がいこう}{努力|どりょく}を{続|つづ}けている。",
+      "japanese": "⟦{世界|せかい}→世界：01447_sekai⟧⟦{最大|さいだい}→最大：04827_saidai⟧⟦の→の：09472_no⟧⟦{石油|せきゆ}→石油：01448_sekiyu⟧{輸入国|ゆにゅうこく}⟦は→は：00079_ha⟧⟦エネルギー→エネルギー：03834_enerugii⟧⟦の→の：09472_no⟧⟦{安定|あんてい}→安定：01703_antei⟧⟦{供給|きょうきゅう}→供給：02599_kyoukyuu⟧⟦を→を：00422_wo⟧⟦{確保|かくほ}→確保：13681_kakuho⟧⟦する→する：00392_suru⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧⟦{外交|がいこう}→外交：02627_gaikou⟧⟦{努力|どりょく}→努力：03490_doryoku⟧⟦を→を：00422_wo⟧⟦{続|つづ}け→続く：00903_tsuzuku⟧て⟦いる→いる：00495_iru⟧。",
       "english": "The world's largest oil-importing country continues diplomatic efforts to secure a stable energy supply.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {輸入|ゆにゅう} (import) and {国|こく} (country). The counterpart of {輸出国|ゆしゅつこく} (exporting country). Frequently appears in news and economic discussions about trade balances and resource dependency.\n\nCOMMON COLLOCATIONS:\n- {石油|せきゆ}{輸入国|ゆにゅうこく}: oil-importing country\n- {食料|しょくりょう}{輸入国|ゆにゅうこく}: food-importing country\n- {最大|さいだい}の{輸入国|ゆにゅうこく}: the largest importing country\n- {純|じゅん}{輸入国|ゆにゅうこく}: net importer\n\nSIMILAR/RELATED WORDS:\n- {輸出国|ゆしゅつこく}: exporting country — the counterpart\n- {輸入|ゆにゅう}: import (the act itself)\n- {貿易|ぼうえき}{赤字|あかじ}{国|こく}: trade deficit country",
+  "notes": "A compound of ⟦{輸入|ゆにゅう}→輸入：01742_yunyuu⟧ (import) and {国|こく} (country). The counterpart of ⟦{輸出国|ゆしゅつこく}→輸出国：25664_yushutsukoku⟧ (exporting country). Frequently appears in news and economic discussions about trade balances and resource dependency.\n\nCOMMON COLLOCATIONS:\n- ⟦{石油|せきゆ}→石油：01448_sekiyu⟧{輸入国|ゆにゅうこく}: oil-importing country\n- ⟦{食料|しょくりょう}→食料：03250_shokuryou⟧{輸入国|ゆにゅうこく}: food-importing country\n- ⟦{最大|さいだい}→最大：04827_saidai⟧⟦の→の：09472_no⟧{輸入国|ゆにゅうこく}: the largest importing country\n- ⟦{純|じゅん}→純〜：28361_jun⟧{輸入国|ゆにゅうこく}: net importer\n\nSIMILAR/RELATED WORDS:\n- ⟦{輸出国|ゆしゅつこく}→輸出国：25664_yushutsukoku⟧: exporting country — the counterpart\n- ⟦{輸入|ゆにゅう}→輸入：01742_yunyuu⟧: import (the act itself)\n- ⟦{貿易|ぼうえき}→貿易：01727_boueki⟧⟦{赤字|あかじ}→赤字：04712_akaji⟧{国|こく}: trade deficit country",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25664_yushutsukoku",
+      "reading": "ゆしゅつこく",
+      "headword": "{輸出国|ゆしゅつこく}",
+      "label": "exporting country"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,6 +71,6 @@
       ]
     },
     "created": "2026-04-26T14:31:38Z",
-    "modified": "2026-08-04T21:23:34Z"
+    "modified": "2026-09-02T04:02:23Z"
   }
 }

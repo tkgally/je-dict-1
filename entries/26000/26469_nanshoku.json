@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26469_nanshoku_ex1",
-      "japanese": "{男色|なんしょく}は{日本|にほん}の{歴史|れきし}で{広|ひろ}く{見|み}られた。",
+      "japanese": "{男色|なんしょく}⟦は→は：00079_ha⟧⟦{日本|にほん}→日本：03876_nihon⟧⟦の→の：09472_no⟧⟦{歴史|れきし}→歴史：02267_rekishi⟧⟦で→で：00502_de⟧⟦{広|ひろ}く→広い：00704_hiroi⟧⟦{見|み}られた→見る：00283_miru⟧。",
       "english": "Male homosexuality was widely observed in Japanese history.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26469_nanshoku_ex2",
-      "japanese": "{井原|いはら}{西鶴|さいかく}は{男色|なんしょく}を{題材|だいざい}にした{作品|さくひん}を{書|か}いた。",
+      "japanese": "{井原|いはら}{西鶴|さいかく}⟦は→は：00079_ha⟧{男色|なんしょく}⟦を→を：00422_wo⟧⟦{題材|だいざい}→題材：10140_daizai⟧にした⟦{作品|さくひん}→作品：02776_sakuhin⟧⟦を→を：00422_wo⟧⟦{書|か}いた→書く：00477_kaku⟧。",
       "english": "Ihara Saikaku wrote works on the theme of male love.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26469_nanshoku_ex3",
-      "japanese": "{武士|ぶし}{社会|しゃかい}における{男色|なんしょく}の{文化|ぶんか}は{衆道|しゅどう}とも{呼|よ}ばれた。",
+      "japanese": "⟦{武士|ぶし}→武士：03989_bushi⟧⟦{社会|しゃかい}→社会：01427_shakai⟧⟦における→〜における：21802_niokeru⟧{男色|なんしょく}⟦の→の：09472_no⟧⟦{文化|ぶんか}→文化：01504_bunka⟧⟦は→は：00079_ha⟧{衆道|しゅどう}⟦と→と：00512_to⟧⟦も→も：00484_mo⟧⟦{呼|よ}ばれた→呼ぶ：00766_yobu⟧。",
       "english": "The culture of male love in samurai society was also called shudō.",
       "sense_numbers": [
         1
@@ -44,8 +44,23 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {男|なん} (male) and {色|しょく} (sensuality, love). {色|しょく} in classical Japanese often refers to romantic or sexual love. This is primarily a historical and literary term found in academic texts and classical literature. The most famous literary work on this topic is {井原|いはら}{西鶴|さいかく}'s {男色|なんしょく}{大鑑|たいかん} (The Great Mirror of Male Love, 1687).\n\nIn samurai culture, this practice was formalized as {衆道|しゅどう} (the way of youths), a mentoring relationship between an older and younger samurai.\n\nCOMMON COLLOCATIONS:\n- {男色|なんしょく}の{文化|ぶんか}: culture of male love\n- {男色|なんしょく}{大鑑|たいかん}: The Great Mirror of Male Love (literary work)\n- {男色|なんしょく}を{好|この}む: to have a taste for male love\n\nSIMILAR WORDS:\n- {衆道|しゅどう}: the way of youths — formalized male-male relationships in samurai culture\n- {同性愛|どうせいあい}: homosexuality — the modern, neutral term\n- {難色|なんしょく}: reluctance, disapproval — a homophone with completely different meaning and kanji",
-  "cross_references": [],
+  "notes": "Composed of {男|なん} (male) and {色|しょく} (sensuality, love). {色|しょく} in classical Japanese often refers to romantic or sexual love. This is primarily a historical and literary term found in academic texts and classical literature. The most famous literary work on this topic is {井原|いはら}{西鶴|さいかく}'s {男色|なんしょく}{大鑑|たいかん} (The Great Mirror of Male Love, 1687).\n\nIn samurai culture, this practice was formalized as {衆道|しゅどう} (the way of youths), a mentoring relationship between an older and younger samurai.\n\nCOMMON COLLOCATIONS:\n- {男色|なんしょく}⟦の→の：09472_no⟧⟦{文化|ぶんか}→文化：01504_bunka⟧: culture of male love\n- {男色|なんしょく}{大鑑|たいかん}: The Great Mirror of Male Love (literary work)\n- {男色|なんしょく}⟦を→を：00422_wo⟧⟦{好|この}む→好む：02103_konomu⟧: to have a taste for male love\n\nSIMILAR WORDS:\n- {衆道|しゅどう}: the way of youths — formalized male-male relationships in samurai culture\n- ⟦{同性愛|どうせいあい}→同性愛：23993_douseiai⟧: homosexuality — the modern, neutral term\n- ⟦{難色|なんしょく}→難色：14585_nanshoku⟧: reluctance, disapproval — a homophone with completely different meaning and kanji",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23993_douseiai",
+      "reading": "どうせいあい",
+      "headword": "{同性愛|どうせいあい}",
+      "label": "homosexuality"
+    },
+    {
+      "type": "homophone",
+      "target_id": "14585_nanshoku",
+      "reading": "なんしょく",
+      "headword": "{難色|なんしょく}",
+      "label": "reluctance, disapproval"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,12 +68,13 @@
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "history",
         "culture"
       ]
     },
     "created": "2026-05-02T11:33:30Z",
-    "modified": "2026-06-16T12:23:55Z"
+    "modified": "2026-09-02T04:02:26Z"
   }
 }

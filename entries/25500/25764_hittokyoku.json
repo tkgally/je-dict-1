@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25764_hittokyoku_ex1",
-      "japanese": "この{歌手|かしゅ}にはヒット{曲|きょく}が{多|おお}い。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{歌手|かしゅ}→歌手：00197_kashu⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧ヒット{曲|きょく}⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "This singer has many hit songs.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25764_hittokyoku_ex2",
-      "japanese": "90{年代|ねんだい}のヒット{曲|きょく}を{集|あつ}めたアルバムが{発売|はつばい}された。",
+      "japanese": "90⟦{年代|ねんだい}→年代：03533_nendai⟧⟦の→の：09472_no⟧ヒット{曲|きょく}⟦を→を：00422_wo⟧⟦{集|あつ}めた→集める：01170_atsumeru⟧⟦アルバム→アルバム：03831_arubamu⟧⟦が→が：00051_ga⟧⟦{発売|はつばい}→発売：04315_hatsubai⟧⟦された→する：00392_suru⟧。",
       "english": "An album collecting hit songs from the 90s was released.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25764_hittokyoku_ex3",
-      "japanese": "{新人|しんじん}アーティストの{最初|さいしょ}の{曲|きょく}がいきなりヒット{曲|きょく}になった。",
+      "japanese": "⟦{新人|しんじん}→新人：02500_shinjin⟧⟦アーティスト→アーティスト：10712_aatisuto⟧⟦の→の：09472_no⟧⟦{最初|さいしょ}→最初：00882_saisho⟧⟦の→の：09472_no⟧⟦{曲|きょく}→曲：09881_kyoku⟧⟦が→が：00051_ga⟧⟦いきなり→いきなり：09379_ikinari⟧ヒット{曲|きょく}になった。",
       "english": "The new artist's first song immediately became a hit.",
       "sense_numbers": [
         1
@@ -44,8 +44,30 @@
       "notes": null
     }
   ],
-  "notes": "A compound of ヒット (hit, from English) and {曲|きょく} (song/tune). Widely used in music media, rankings, and everyday conversation about popular music.\n\nCOMMON COLLOCATIONS:\n- {大|だい}ヒット{曲|きょく}: big hit song\n- ヒット{曲|きょく}を{生|う}み{出|だ}す: to produce a hit song\n- ヒット{曲|きょく}に{恵|めぐ}まれる: to be blessed with hit songs\n- {歴代|れきだい}のヒット{曲|きょく}: hit songs through the ages\n\nSIMILAR WORDS:\n- {名曲|めいきょく}: masterpiece; famous song — focuses on artistic quality rather than commercial success\n- {流行歌|りゅうこうか}: popular song — a somewhat dated term for a trendy song\n- {人気曲|にんききょく}: popular song — emphasizes current popularity rather than chart performance",
-  "cross_references": [],
+  "notes": "A compound of ⟦ヒット→ヒット：11161_hitto⟧ (hit, from English) and ⟦{曲|きょく}→曲：09881_kyoku⟧ (song/tune). Widely used in music media, rankings, and everyday conversation about popular music.\n\nCOMMON COLLOCATIONS:\n- {大|だい}ヒット{曲|きょく}: big hit song\n- ヒット{曲|きょく}⟦を→を：00422_wo⟧⟦{生|う}み{出|だ}す→生み出す：10423_umidasu⟧: to produce a hit song\n- ヒット{曲|きょく}⟦に→に：00314_ni⟧⟦{恵|めぐ}まれる→恵まれる：12619_megumareru⟧: to be blessed with hit songs\n- ⟦{歴代|れきだい}→歴代：13199_rekidai⟧⟦の→の：09472_no⟧ヒット{曲|きょく}: hit songs through the ages\n\nSIMILAR WORDS:\n- ⟦{名曲|めいきょく}→名曲：17476_meikyoku⟧: masterpiece; famous song — focuses on artistic quality rather than commercial success\n- ⟦{流行歌|りゅうこうか}→流行歌：28232_ryuukouka⟧: popular song — a somewhat dated term for a trendy song\n- {人気曲|にんききょく}: popular song — emphasizes current popularity rather than chart performance",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17476_meikyoku",
+      "reading": "めいきょく",
+      "headword": "{名曲|めいきょく}",
+      "label": "masterpiece"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28232_ryuukouka",
+      "reading": "りゅうこうか",
+      "headword": "{流行歌|りゅうこうか}",
+      "label": "popular song"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24183_daihyoukyoku",
+      "reading": "だいひょうきょく",
+      "headword": "{代表曲|だいひょうきょく}",
+      "label": "signature song"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,12 +75,14 @@
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "music",
         "entertainment"
       ]
     },
     "created": "2026-04-27T12:17:40Z",
-    "modified": "2026-08-04T21:24:38Z"
+    "modified": "2026-09-02T04:02:23Z"
   }
 }

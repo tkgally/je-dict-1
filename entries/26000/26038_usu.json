@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26038_usu_ex1",
-      "japanese": "{臼|うす}で{餅|もち}をつく。",
+      "japanese": "{臼|うす}⟦で→で：00502_de⟧⟦{餅|もち}→餅：03900_mochi⟧⟦を→を：00422_wo⟧つく。",
       "english": "To pound mochi in a mortar.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26038_usu_ex2",
-      "japanese": "{石|いし}の{臼|うす}はとても{重|おも}い。",
+      "japanese": "⟦{石|いし}→石：02177_ishi⟧⟦の→の：09472_no⟧{臼|うす}⟦は→は：00079_ha⟧⟦とても→とても：00593_totemo⟧⟦{重|おも}い→重い：00804_omoi⟧。",
       "english": "A stone mortar is very heavy.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26038_usu_ex3",
-      "japanese": "{祖父|そふ}の{家|いえ}には{古|ふる}い{木|き}の{臼|うす}が{残|のこ}っていて、{正月|しょうがつ}に{餅|もち}つきをする。",
+      "japanese": "⟦{祖父|そふ}→祖父：01452_sofu⟧⟦の→の：09472_no⟧⟦{家|いえ}→家：00612_ie⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{古|ふる}い→古い：00488_furui⟧⟦{木|き}→木：00524_ki⟧⟦の→の：09472_no⟧{臼|うす}⟦が→が：00051_ga⟧⟦{残|のこ}っていて→残る：01187_nokoru⟧、⟦{正月|しょうがつ}→正月：01433_shougatsu⟧⟦に→に：00314_ni⟧⟦{餅|もち}つき→餅つき：14676_mochitsuki⟧⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧。",
       "english": "An old wooden mortar remains at my grandfather's house, and we use it for mochi pounding at New Year's.",
       "sense_numbers": [
         1
@@ -44,19 +44,21 @@
       "notes": null
     }
   ],
-  "notes": "A large, heavy vessel with a concave center, traditionally used for pounding {餅|もち} or grinding grains and spices. Made from stone ({石臼|いしうす}) or wood. The stone type is also used for grinding tea leaves, soybeans, and other ingredients.\n\nTYPES:\n- {石臼|いしうす}: stone mortar, used for grinding flour or tea\n- {木臼|きうす}: wooden mortar, typically used for mochi pounding\n\nCOMMON COLLOCATIONS:\n- {臼|うす}と{杵|きね}: mortar and mallet (traditional pair)\n- {臼|うす}で{挽|ひ}く: to grind with a millstone\n- {臼|うす}に{入|い}れる: to put into the mortar\n\nCULTURAL NOTE:\n{石臼|いしうす} were once essential household tools for grinding grain. Today they are mostly seen at traditional events, craft workshops, and matcha production facilities where tea leaves are stone-ground.\n\nRELATED TERMS:\n- {杵|きね}: the wooden mallet used together with the mortar\n- {餅|もち}つき: mochi pounding event\n- {すり鉢|すりばち}: a ribbed ceramic mortar used for grinding smaller quantities",
+  "notes": "A large, heavy vessel with a concave center, traditionally used for pounding ⟦{餅|もち}→餅：03900_mochi⟧ or grinding grains and spices. Made from stone ({石臼|いしうす}) or wood. The stone type is also used for grinding tea leaves, soybeans, and other ingredients.\n\nTYPES:\n- {石臼|いしうす}: stone mortar, used for grinding flour or tea\n- {木臼|きうす}: wooden mortar, typically used for mochi pounding\n\nCOMMON COLLOCATIONS:\n- {臼|うす}⟦と→と：00512_to⟧⟦{杵|きね}→杵：26037_kine⟧: mortar and mallet (traditional pair)\n- {臼|うす}⟦で→で：00502_de⟧⟦{挽|ひ}く→挽く：12794_hiku⟧: to grind with a millstone\n- {臼|うす}⟦に→に：00314_ni⟧⟦{入|い}れる→入れる：01098_ireru⟧: to put into the mortar\n\nCULTURAL NOTE:\n{石臼|いしうす} were once essential household tools for grinding grain. Today they are mostly seen at traditional events, craft workshops, and matcha production facilities where tea leaves are stone-ground.\n\nRELATED WORDS:\n- ⟦{杵|きね}→杵：26037_kine⟧: the wooden mallet used together with the mortar\n- ⟦{餅|もち}つき→餅つき：14676_mochitsuki⟧: mochi pounding event\n- {すり鉢|すりばち}: a ribbed ceramic mortar used for grinding smaller quantities",
   "metadata": {
     "tags": {
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "tool"
       ]
     },
     "vocabulary_tier": "general",
     "created": "2026-04-29T11:13:19Z",
-    "modified": "2026-04-29T11:13:19Z"
+    "modified": "2026-09-02T04:02:24Z"
   },
   "cross_references": [
     {
@@ -64,6 +66,13 @@
       "type": "related",
       "reading": "きね",
       "label": "paired tool for mochi pounding"
+    },
+    {
+      "type": "related",
+      "target_id": "14676_mochitsuki",
+      "reading": "もちつき",
+      "headword": "{餅|もち}つき",
+      "label": "mochi pounding event"
     }
   ]
 }

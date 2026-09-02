@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "10930_shiitake_ex1",
-      "japanese": "シイタケを{焼|や}く。",
+      "japanese": "シイタケ⟦を→を：00422_wo⟧⟦{焼|や}く→焼く：01123_yaku⟧。",
       "english": "To grill shiitake mushrooms.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "10930_shiitake_ex2",
-      "japanese": "{干|ほ}しシイタケは{出汁|だし}に{使|つか}うと{美味|おい}しい。",
+      "japanese": "⟦{干|ほ}し→干す：00115_hosu⟧シイタケ⟦は→は：00079_ha⟧⟦{出汁|だし}→出汁：04917_dashi⟧⟦に→に：00314_ni⟧⟦{使|つか}う→使う：00473_tsukau⟧⟦と→と：00512_to⟧⟦{美味|おい}しい→美味しい：00740_oishii⟧。",
       "english": "Dried shiitake mushrooms are delicious when used for making broth.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "10930_shiitake_ex3",
-      "japanese": "シイタケは{好|す}き{嫌|きら}いが{分|わ}かれるけど、{栄養|えいよう}たっぷりだ。",
+      "japanese": "シイタケ⟦は→は：00079_ha⟧⟦{好|す}き{嫌|きら}い→好き嫌い：12206_sukikirai⟧⟦が→が：00051_ga⟧⟦{分|わ}かれる→分かれる：10976_wakareru⟧⟦けど→けど：09477_kedo⟧、⟦{栄養|えいよう}→栄養：01882_eiyou⟧⟦たっぷり→たっぷり：03404_tappuri⟧だ。",
       "english": "People are divided on shiitake mushrooms, but they're packed with nutrition.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,19 @@
       ]
     }
   ],
-  "notes": "WRITING:\nUsually written in katakana. The kanji {椎茸|しいたけ} is also used, especially on product labels.\n\nCULTURAL NOTE:\nShiitake is one of the most important mushrooms in Japanese cooking, used fresh or dried. {干|ほ}しシイタケ (dried shiitake) is a staple ingredient for making {出汁|だし} (broth) and adds deep umami flavor.\n\nCOMMON COLLOCATIONS:\n- {干|ほ}しシイタケ: dried shiitake\n- シイタケ{栽培|さいばい}: shiitake cultivation\n- {原木|げんぼく}シイタケ: log-grown shiitake",
-  "cross_references": [],
+  "notes": "WRITING:\nUsually written in katakana. The kanji {椎茸|しいたけ} is also used, especially on product labels.\n\nCULTURAL NOTE:\nShiitake is one of the most important mushrooms in Japanese cooking, used fresh or dried. ⟦{干|ほ}し→干す：00115_hosu⟧シイタケ (dried shiitake) is a staple ingredient for making ⟦{出汁|だし}→出汁：04917_dashi⟧ (broth) and adds deep umami flavor.\n\nCOMMON COLLOCATIONS:\n- ⟦{干|ほ}し→干す：00115_hosu⟧シイタケ: dried shiitake\n- シイタケ⟦{栽培|さいばい}→栽培：13108_saibai⟧: shiitake cultivation\n- {原木|げんぼく}シイタケ: log-grown shiitake",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "22741_shimeji",
+      "reading": "しめじ",
+      "headword": "しめじ",
+      "label": "shimeji mushroom"
+    }
+  ],
   "metadata": {
     "created": "2026-02-11T12:59:52Z",
-    "modified": "2026-06-28T18:50:11Z",
+    "modified": "2026-09-02T04:01:23Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

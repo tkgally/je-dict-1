@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "09323_tainou_ex1",
-      "japanese": "{家賃|やちん}を{滞納|たいのう}している。",
+      "japanese": "⟦{家賃|やちん}→家賃：03639_yachin⟧⟦を→を：00422_wo⟧{滞納|たいのう}⟦している→する：00392_suru⟧。",
       "english": "I'm behind on rent payments.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "09323_tainou_ex2",
-      "japanese": "{税金|ぜいきん}を{滞納|たいのう}すると{罰金|ばっきん}がかかる。",
+      "japanese": "⟦{税金|ぜいきん}→税金：03308_zeikin⟧⟦を→を：00422_wo⟧{滞納|たいのう}⟦する→する：00392_suru⟧⟦と→と：00512_to⟧⟦{罰金|ばっきん}→罰金：18767_bakkin⟧⟦が→が：00051_ga⟧⟦かかる→かかる：00711_kakaru⟧。",
       "english": "If you don't pay your taxes on time, you'll be fined.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "09323_tainou_ex3",
-      "japanese": "{滞納|たいのう}が{続|つづ}くと、サービスが{停止|ていし}される{可能性|かのうせい}がある。",
+      "japanese": "{滞納|たいのう}⟦が→が：00051_ga⟧⟦{続|つづ}く→続く：00903_tsuzuku⟧⟦と→と：00512_to⟧、⟦サービス→サービス：01531_saabisu⟧⟦が→が：00051_ga⟧⟦{停止|ていし}される→停止する：20992_teishisuru⟧⟦{可能性|かのうせい}→可能性：04818_kanousei⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "If non-payment continues, service may be suspended.",
       "notes": null,
       "has_audio": false,
@@ -133,11 +133,33 @@
       ]
     }
   ],
-  "notes": "{滞納|たいのう} is a formal term for failing to pay bills, taxes, or other obligations on time.\n\nCOMMON COLLOCATIONS:\n- {税金|ぜいきん}を{滞納|たいのう}する (fail to pay taxes)\n- {家賃|やちん}の{滞納|たいのう} (rent arrears)\n- {滞納|たいのう}{者|しゃ} (delinquent payer)\n- {滞納|たいのう}{金|きん} (overdue payment)\n- {滞納|たいのう}{処分|しょぶん} (action for non-payment)\n\nUSAGE NOTE: A formal/legal term. In casual conversation, people might say {払|はら}っていない (haven't paid) instead.",
-  "cross_references": [],
+  "notes": "{滞納|たいのう} is a formal term for failing to pay bills, taxes, or other obligations on time.\n\nCOMMON COLLOCATIONS:\n- ⟦{税金|ぜいきん}→税金：03308_zeikin⟧⟦を→を：00422_wo⟧{滞納|たいのう}⟦する→する：00392_suru⟧ (fail to pay taxes)\n- ⟦{家賃|やちん}→家賃：03639_yachin⟧⟦の→の：09472_no⟧{滞納|たいのう} (rent arrears)\n- {滞納|たいのう}⟦{者|しゃ}→〜者：04662_sha⟧ (delinquent payer)\n- {滞納|たいのう}{金|きん} (overdue payment)\n- {滞納|たいのう}⟦{処分|しょぶん}→処分：05520_shobun⟧ (action for non-payment)\n\nUSAGE NOTE: A formal/legal term. In casual conversation, people might say ⟦{払|はら}っていない→払う：00535_harau⟧ (haven't paid) instead.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "07387_todokooru",
+      "reading": "とどこおる",
+      "headword": "{滞|とどこお}る",
+      "label": "to stagnate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30179_miharaikin",
+      "reading": "みはらいきん",
+      "headword": "未払い金",
+      "label": "unpaid amount"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30183_mishuukin",
+      "reading": "みしゅうきん",
+      "headword": "未収金",
+      "label": "uncollected receivable"
+    }
+  ],
   "metadata": {
     "created": "2026-02-01T07:44:14Z",
-    "modified": "2026-08-12T21:25:53Z",
+    "modified": "2026-09-02T04:01:18Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -151,7 +173,8 @@
         "finance",
         "law"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

@@ -3,7 +3,7 @@
   "headword": "{厳正|げんせい}",
   "reading": "げんせい",
   "romaji": "gensei",
-  "part_of_speech": "adjective-na",
+  "part_of_speech": "na-adjective",
   "gloss": "strict; rigorous; impartial",
   "definitions": [
     {
@@ -15,40 +15,66 @@
   "examples": [
     {
       "id": "28252_gensei_ex1",
-      "japanese": "{厳正|げんせい}な{審査|しんさ}を{行|おこな}う。",
+      "japanese": "{厳正|げんせい}な⟦{審査|しんさ}→審査：08375_shinsa⟧⟦を→を：00422_wo⟧⟦{行|おこな}う→行う：01238_okonau⟧。",
       "english": "To conduct a rigorous review.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28252_gensei_ex2",
-      "japanese": "{当選者|とうせんしゃ}は{厳正|げんせい}な{抽選|ちゅうせん}で{決|き}める。",
+      "japanese": "⟦{当選者|とうせんしゃ}→当選者：26293_tousensha⟧⟦は→は：00079_ha⟧{厳正|げんせい}な⟦{抽選|ちゅうせん}→抽選：07054_chuusen⟧⟦で→で：00502_de⟧⟦{決|き}める→決める：00858_kimeru⟧。",
       "english": "The winners are decided by an impartial drawing.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28252_gensei_ex3",
-      "japanese": "{審判|しんぱん}は{両|りょう}チームに{対|たい}して{厳正|げんせい}に{試合|しあい}を{さば}いた。",
+      "japanese": "⟦{審判|しんぱん}→審判：03331_shinpan⟧⟦は→は：00079_ha⟧⟦{両|りょう}→両：11182_ryou⟧⟦チーム→チーム：03858_chiimu⟧⟦に{対|たい}して→に対して：06800_nitaishite⟧{厳正|げんせい}⟦に→に：00314_ni⟧⟦{試合|しあい}→試合：01601_shiai⟧⟦を→を：00422_wo⟧さばいた。",
       "english": "The referee officiated the match impartially toward both teams.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A formal word stressing both strictness and fairness. Frequently used in fixed phrases about screening and selection where impartiality is promised.\n\nCONJUGATION:\n- Negative: {厳正|げんせい}ではない\n- Te-form: {厳正|げんせい}で\n- Past: {厳正|げんせい}だった\n\nCOMMON COLLOCATIONS:\n- {厳正|げんせい}な{審査|しんさ}: rigorous screening\n- {厳正|げんせい}な{抽選|ちゅうせん}: impartial drawing\n- {厳正|げんせい}に{対処|たいしょ}する: deal with strictly\n\nSIMILAR WORDS:\n- {厳格|げんかく}: strict, stern — about strict standards or upbringing, without the 'impartial' nuance.\n- {公正|こうせい}: fair, just — emphasizes fairness alone, not strictness.",
+  "notes": "A formal word stressing both strictness and fairness. Frequently used in fixed phrases about screening and selection where impartiality is promised.\n\nCONJUGATION:\n- Negative: {厳正|げんせい}で⟦は→は：00079_ha⟧⟦ない→ない：01118_nai⟧\n- Te-form: {厳正|げんせい}で\n- Past: {厳正|げんせい}だった\n\nCOMMON COLLOCATIONS:\n- {厳正|げんせい}な⟦{審査|しんさ}→審査：08375_shinsa⟧: rigorous screening\n- {厳正|げんせい}な⟦{抽選|ちゅうせん}→抽選：07054_chuusen⟧: impartial drawing\n- {厳正|げんせい}⟦に→に：00314_ni⟧⟦{対処|たいしょ}する→対処する：20049_taishosuru⟧: deal with strictly\n\nSIMILAR WORDS:\n- ⟦{厳格|げんかく}→厳格：11886_genkaku⟧: strict, stern — about strict standards or upbringing, without the 'impartial' nuance.\n- ⟦{公正|こうせい}→公正：01751_kousei⟧: fair, just — emphasizes fairness alone, not strictness.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11886_genkaku",
+      "reading": "げんかく",
+      "headword": "{厳格|げんかく}",
+      "label": "strict, stern"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01751_kousei",
+      "reading": "こうせい",
+      "headword": "{公正|こうせい}",
+      "label": "fair, just"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-na"],
+      "pos": [
+        "adjective-na"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["descriptive"]
+      "semantic": [
+        "descriptive"
+      ]
     },
     "created": "2026-05-28T02:09:06Z",
-    "modified": "2026-05-28T02:09:06Z"
+    "modified": "2026-09-02T04:02:33Z"
   }
 }

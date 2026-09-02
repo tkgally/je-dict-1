@@ -15,41 +15,68 @@
   "examples": [
     {
       "id": "27865_mushiyaki_ex1",
-      "japanese": "{鶏肉|とりにく}を{蒸|む}し{焼|や}きにする。",
+      "japanese": "⟦{鶏肉|とりにく}→鶏肉：02919_toriniku⟧⟦を→を：00422_wo⟧{蒸|む}し{焼|や}き⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧。",
       "english": "to steam-bake chicken.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27865_mushiyaki_ex2",
-      "japanese": "ホイルで{包|つつ}んで{蒸|む}し{焼|や}きにすると、{魚|さかな}がふっくら{仕上|しあ}がる。",
+      "japanese": "⟦ホイル→ホイル：11255_hoiru⟧⟦で→で：00502_de⟧⟦{包|つつ}んで→包む：01226_tsutsumu⟧{蒸|む}し{焼|や}き⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧⟦と→と：00512_to⟧、⟦{魚|さかな}→魚：00499_sakana⟧⟦が→が：00051_ga⟧⟦ふっくら→ふっくら：28254_fukkura⟧⟦{仕上|しあ}がる→仕上がる：11429_shiagaru⟧。",
       "english": "If you wrap it in foil and steam-bake it, the fish turns out plump and tender.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27865_mushiyaki_ex3",
-      "japanese": "キャンプでは、アルミホイルに{野菜|やさい}と{肉|にく}を{包|つつ}んで{炭火|すみび}で{蒸|む}し{焼|や}きにするのが{定番|ていばん}だ。",
+      "japanese": "⟦キャンプ→キャンプ：03837_kyanpu⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧、アルミホイル⟦に→に：00314_ni⟧⟦{野菜|やさい}→野菜：02265_yasai⟧⟦と→と：00512_to⟧⟦{肉|にく}→肉：02240_niku⟧⟦を→を：00422_wo⟧⟦{包|つつ}んで→包む：01226_tsutsumu⟧⟦{炭火|すみび}→炭火：25320_sumibi⟧⟦で→で：00502_de⟧{蒸|む}し{焼|や}き⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦{定番|ていばん}→定番：12265_teiban⟧だ。",
       "english": "When camping, wrapping vegetables and meat in foil and steam-baking them over charcoal is a standard dish.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A method of cooking food in a sealed environment (a lidded pan, foil, or leaves) so it cooks gently in trapped steam, keeping it moist. Usually used in the phrase {蒸|む}し{焼|や}きにする.\n\nCOMMON COLLOCATIONS:\n- {蒸|む}し{焼|や}きにする: to cook by steam-baking\n- ホイル{蒸|む}し{焼|や}き: foil-wrapped steam-baking\n\nSIMILAR WORDS:\n- {蒸|む}す: to steam — cooks with steam from boiling water, without browning\n- {焼|や}く: to grill, bake, or roast — uses direct dry heat, browning the surface",
+  "notes": "A method of cooking food in a sealed environment (a lidded pan, foil, or leaves) so it cooks gently in trapped steam, keeping it moist. Usually used in the phrase {蒸|む}し{焼|や}き⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧.\n\nCOMMON COLLOCATIONS:\n- {蒸|む}し{焼|や}き⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧: to cook by steam-baking\n- ⟦ホイル→ホイル：11255_hoiru⟧{蒸|む}し{焼|や}き: foil-wrapped steam-baking\n\nSIMILAR WORDS:\n- ⟦{蒸|む}す→蒸す：02307_musu⟧: to steam — cooks with steam from boiling water, without browning\n- ⟦{焼|や}く→焼く：01123_yaku⟧: to grill, bake, or roast — uses direct dry heat, browning the surface",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02307_musu",
+      "reading": "むす",
+      "headword": "{蒸|む}す",
+      "label": "to steam"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01123_yaku",
+      "reading": "やく",
+      "headword": "{焼|や}く",
+      "label": "to grill, bake, or roast"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["food", "cooking"],
+      "politeness": "plain",
+      "semantic": [
+        "food",
+        "cooking"
+      ],
       "domain": []
     },
     "created": "2026-05-21T04:04:20Z",
-    "modified": "2026-05-21T04:04:20Z"
+    "modified": "2026-09-02T04:02:32Z"
   }
 }

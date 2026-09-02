@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21507_atogaki_ex1",
-      "japanese": "あとがきを{読|よ}むのが{好|す}きだ。",
+      "japanese": "あとがき⟦を→を：00422_wo⟧⟦{読|よ}む→読む：00426_yomu⟧⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦{好|す}き→好き：02355_suki⟧だ。",
       "english": "I like reading afterwords.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21507_atogaki_ex2",
-      "japanese": "{著者|ちょしゃ}はあとがきで{感謝|かんしゃ}の{言葉|ことば}を{述|の}べた。",
+      "japanese": "⟦{著者|ちょしゃ}→著者：03501_chosha⟧⟦は→は：00079_ha⟧あとがき⟦で→で：00502_de⟧⟦{感謝|かんしゃ}→感謝：00181_kansha⟧⟦の→の：09472_no⟧⟦{言葉|ことば}→言葉：02880_kotoba⟧⟦を→を：00422_wo⟧⟦{述|の}べた→述べる：02389_noberu⟧。",
       "english": "The author expressed words of gratitude in the afterword.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21507_atogaki_ex3",
-      "japanese": "この{小説|しょうせつ}のあとがきには、{執筆|しっぴつ}の{裏話|うらばなし}が{書|か}かれていて{興味深|きょうみぶか}い。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{小説|しょうせつ}→小説：01434_shousetsu⟧⟦の→の：09472_no⟧あとがき⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧、⟦{執筆|しっぴつ}→執筆：04194_shippitsu⟧⟦の→の：09472_no⟧⟦{裏話|うらばなし}→裏話：14031_urabanashi⟧⟦が→が：00051_ga⟧⟦{書|か}かれていて→書く：00477_kaku⟧⟦{興味深|きょうみぶか}い→興味深い：20118_kyoumibukai⟧。",
       "english": "The afterword of this novel contains behind-the-scenes stories about the writing process, which is fascinating.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Usually written in hiragana, though the kanji form {後書|あとが}き exists. A standard part of Japanese books where the author addresses readers directly, often in a more personal and informal tone than the main text.\n\nCOMMON COLLOCATIONS:\n- あとがきを{書|か}く: to write an afterword\n- あとがきを{読|よ}む: to read the afterword\n- あとがきに{代|か}えて: in place of an afterword\n\nSIMILAR WORDS:\n- {前書|まえが}き: foreword, preface — the corresponding introductory section at the beginning of a book\n- {解説|かいせつ}: commentary — an analytical essay sometimes appended to novels, often written by a critic or another author rather than the original author\n- {跋|ばつ}: postface — a more formal literary term for an afterword; rarely used in modern contexts\n\nCULTURAL NOTE:\nIn manga and light novels, the afterword is a beloved feature where authors share personal anecdotes, thank their editors and assistants, and sometimes include bonus illustrations. Readers often look forward to these personal sections.",
+  "notes": "Usually written in hiragana, though the kanji form {後書|あとが}き exists. A standard part of Japanese books where the author addresses readers directly, often in a more personal and informal tone than the main text.\n\nCOMMON COLLOCATIONS:\n- あとがき⟦を→を：00422_wo⟧⟦{書|か}く→書く：00477_kaku⟧: to write an afterword\n- あとがき⟦を→を：00422_wo⟧⟦{読|よ}む→読む：00426_yomu⟧: to read the afterword\n- あとがき⟦に→に：00314_ni⟧⟦{代|か}えて→代える：11717_kaeru⟧: in place of an afterword\n\nSIMILAR WORDS:\n- ⟦{前書|まえが}き→前書き：17127_maegaki⟧: foreword, preface — the corresponding introductory section at the beginning of a book\n- ⟦{解説|かいせつ}→解説：00138_kaisetsu⟧: commentary — an analytical essay sometimes appended to novels, often written by a critic or another author rather than the original author\n- {跋|ばつ}: postface — a more formal literary term for an afterword; rarely used in modern contexts\n\nCULTURAL NOTE:\nIn manga and light novels, the afterword is a beloved feature where authors share personal anecdotes, thank their editors and assistants, and sometimes include bonus illustrations. Readers often look forward to these personal sections.",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -59,7 +59,7 @@
       ]
     },
     "created": "2026-04-02T14:09:18Z",
-    "modified": "2026-07-29T12:35:11Z"
+    "modified": "2026-09-02T04:02:03Z"
   },
   "cross_references": [
     {
@@ -67,6 +67,34 @@
       "target_id": "17127_maegaki",
       "reading": "まえがき",
       "headword": "{前書|まえが}き",
+      "label": "preface"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00138_kaisetsu",
+      "reading": "かいせつ",
+      "headword": "{解説|かいせつ}",
+      "label": "commentary"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21973_kanmatsu",
+      "reading": "かんまつ",
+      "headword": "{巻末|かんまつ}",
+      "label": "end of a book"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26698_atogatari",
+      "reading": "あとがたり",
+      "headword": "あとがたり",
+      "label": "afterword"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29373_shogen",
+      "reading": "しょげん",
+      "headword": "{緒言|しょげん}",
       "label": "preface"
     }
   ]

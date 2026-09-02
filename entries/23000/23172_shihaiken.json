@@ -15,40 +15,67 @@
   "examples": [
     {
       "id": "23172_shihaiken_ex1",
-      "japanese": "{支配権|しはいけん}を{握|にぎ}る。",
+      "japanese": "{支配権|しはいけん}⟦を→を：00422_wo⟧⟦{握|にぎ}る→握る：02383_nigiru⟧。",
       "english": "To seize control.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "23172_shihaiken_ex2",
-      "japanese": "その{地域|ちいき}の{支配権|しはいけん}をめぐって{争|あらそ}いが{続|つづ}いた。",
+      "japanese": "⟦その→その：00993_sono⟧⟦{地域|ちいき}→地域：01461_chiiki⟧⟦の→の：09472_no⟧{支配権|しはいけん}をめぐって⟦{争|あらそ}い→争い：09992_arasoi⟧⟦が→が：00051_ga⟧⟦{続|つづ}いた→続く：00903_tsuzuku⟧。",
       "english": "Conflict continued over control of the region.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "23172_shihaiken_ex3",
-      "japanese": "{会社|かいしゃ}の{支配権|しはいけん}が{新|あたら}しい{経営陣|けいえいじん}に{移|うつ}った。",
+      "japanese": "⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦の→の：09472_no⟧{支配権|しはいけん}⟦が→が：00051_ga⟧⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦{経営陣|けいえいじん}→経営陣：20535_keieijin⟧⟦に→に：00314_ni⟧⟦{移|うつ}った→移る：01232_utsuru⟧。",
       "english": "Control of the company was transferred to a new management team.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {支配|しはい} (control, domination) and {権|けん} (right, authority). Refers to the legitimate or de facto authority to exercise control. Often used in discussions of political power, colonial history, corporate governance, and legal disputes.\n\nCOMMON COLLOCATIONS:\n- {支配権|しはいけん}を{握|にぎ}る: to seize control\n- {支配権|しはいけん}を{失|うしな}う: to lose control\n- {支配権|しはいけん}が{移|うつ}る: control shifts\n- {支配権|しはいけん}をめぐる{争|あらそ}い: struggle over control\n\nSIMILAR WORDS:\n- {主権|しゅけん}: sovereignty — specifically national sovereignty over a state or territory\n- {覇権|はけん}: hegemony — dominance on a larger scale, often international\n- {統治権|とうちけん}: governing authority — focuses on the legal right to govern",
+  "notes": "Composed of ⟦{支配|しはい}→支配：01421_shihai⟧ (control, domination) and {権|けん} (right, authority). Refers to the legitimate or de facto authority to exercise control. Often used in discussions of political power, colonial history, corporate governance, and legal disputes.\n\nCOMMON COLLOCATIONS:\n- {支配権|しはいけん}⟦を→を：00422_wo⟧⟦{握|にぎ}る→握る：02383_nigiru⟧: to seize control\n- {支配権|しはいけん}⟦を→を：00422_wo⟧⟦{失|うしな}う→失う：01887_ushinau⟧: to lose control\n- {支配権|しはいけん}⟦が→が：00051_ga⟧⟦{移|うつ}る→移る：01232_utsuru⟧: control shifts\n- {支配権|しはいけん}⟦を→を：00422_wo⟧めぐる⟦{争|あらそ}い→争い：09992_arasoi⟧: struggle over control\n\nSIMILAR WORDS:\n- ⟦{主権|しゅけん}→主権：18294_shuken⟧: sovereignty — specifically national sovereignty over a state or territory\n- ⟦{覇権|はけん}→覇権：14113_haken⟧: hegemony — dominance on a larger scale, often international\n- {統治権|とうちけん}: governing authority — focuses on the legal right to govern",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18294_shuken",
+      "reading": "しゅけん",
+      "headword": "{主権|しゅけん}",
+      "label": "sovereignty"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14113_haken",
+      "reading": "はけん",
+      "headword": "{覇権|はけん}",
+      "label": "hegemony"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["politics", "law"],
+      "pos": [
+        "noun"
+      ],
+      "semantic": [
+        "politics",
+        "law"
+      ],
       "formality": "formal",
       "politeness": "plain"
     },
     "created": "2026-04-08T21:19:10Z",
-    "modified": "2026-04-08T21:19:10Z"
+    "modified": "2026-09-02T04:02:11Z"
   }
 }

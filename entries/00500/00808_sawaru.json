@@ -134,7 +134,7 @@
     },
     {
       "id": "00808_sawaru_ex4",
-      "japanese": "⟦{猫|ねこ}→猫：02237_neko⟧⟦に→に：00314_ni⟧{触|さわ}ってもいいです⟦か→か：09473_ka⟧。",
+      "japanese": "⟦{猫|ねこ}→猫：02237_neko⟧⟦に→に：00314_ni⟧{触|さわ}って⟦も→も：00484_mo⟧⟦いい→いい：00118_ii⟧です⟦か→か：09473_ka⟧。",
       "english": "May I touch the cat?",
       "notes": null,
       "has_audio": false,
@@ -153,7 +153,7 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive - takes に). No pair verb. Pattern: X⟦に→に：00314_ni⟧{触|さわ}る (touch X).\n\nASPECT: ている indicates ongoing/repeated action. {触|さわ}っている = 'is touching.'\n\nCOMMON PATTERNS:\n・X⟦に→に：00314_ni⟧{触|さわ}る (touch X)\n・{触|さわ}らないで⟦ください→ください：02899_kudasai⟧ (please don't touch)\n・{触|さわ}る⟦と→と：00512_to⟧⟦{分|わ}かる→分かる：00463_wakaru⟧ (you can tell by touching)\n・⟦{手|て}→手：00569_te⟧⟦で→で：00502_de⟧{触|さわ}る (touch with hand)\n\nNote: Uses に (not を) for the thing being touched.\n\nSIMILAR WORDS:\n・⟦{触|ふ}れる→触れる：01984_fureru⟧ is more formal and literary. It also covers brief or accidental contact and, figuratively, touching on a topic (⟦{問題|もんだい}→問題：00797_mondai⟧⟦に→に：00314_ni⟧{触|ふ}れる = to touch on an issue). {触|さわ}る is everyday speech and almost always means deliberate physical contact.\n・{触|さわ}る often carries a nuance of handling something one perhaps should not, which is why it is the verb used on 'do not touch' signs.",
+  "notes": "TRANSITIVITY: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive - takes ⟦に→に：00314_ni⟧). No pair verb. Pattern: X⟦に→に：00314_ni⟧{触|さわ}る (touch X).\n\nASPECT: て⟦いる→いる：00495_iru⟧ indicates ongoing/repeated action. {触|さわ}って⟦いる→いる：00495_iru⟧ = 'is touching.'\n\nCOMMON PATTERNS:\n- X⟦に→に：00314_ni⟧{触|さわ}る (touch X)\n- {触|さわ}らないで⟦ください→ください：02899_kudasai⟧ (please don't touch)\n- {触|さわ}る⟦と→と：00512_to⟧⟦{分|わ}かる→分かる：00463_wakaru⟧ (you can tell by touching)\n- ⟦{手|て}→手：00569_te⟧⟦で→で：00502_de⟧{触|さわ}る (touch with hand)\n\nNote: Uses ⟦に→に：00314_ni⟧ (not ⟦を→を：00422_wo⟧) for the thing being touched.\n\nSIMILAR WORDS:\n- ⟦{触|ふ}れる→触れる：01984_fureru⟧ is more formal and literary. It also covers brief or accidental contact and, figuratively, touching on a topic (⟦{問題|もんだい}→問題：00797_mondai⟧⟦に→に：00314_ni⟧⟦{触|ふ}れる→触れる：01984_fureru⟧ = to touch on an issue). {触|さわ}る is everyday speech and almost always means deliberate physical contact.\n- {触|さわ}る often carries a nuance of handling something one perhaps should not, which is why it is the verb used on 'do not touch' signs.",
   "cross_references": [
     {
       "type": "synonym",
@@ -161,11 +161,25 @@
       "reading": "ふれる",
       "headword": "{触|ふ}れる",
       "label": "formal/literary"
+    },
+    {
+      "type": "homophone",
+      "target_id": "19589_sawaru",
+      "reading": "さわる",
+      "headword": "{障|さわ}る",
+      "label": "to hinder"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20168_tewotsukeru",
+      "reading": "てをつける",
+      "headword": "{手|て}をつける",
+      "label": "to start on"
     }
   ],
   "metadata": {
     "created": "2026-01-07T12:30:02Z",
-    "modified": "2026-08-04T00:18:21Z",
+    "modified": "2026-09-02T04:00:58Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

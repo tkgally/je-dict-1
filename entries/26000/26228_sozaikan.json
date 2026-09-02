@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26228_sozaikan_ex1",
-      "japanese": "この{生地|きじ}は{素材感|そざいかん}がいい。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{生地|きじ}→生地：02631_kiji⟧⟦は→は：00079_ha⟧{素材感|そざいかん}⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧。",
       "english": "This fabric has a nice texture.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26228_sozaikan_ex2",
-      "japanese": "{天然|てんねん}の{木|き}の{素材感|そざいかん}を{生|い}かしたデザインだ。",
+      "japanese": "⟦{天然|てんねん}→天然：03560_tennen⟧⟦の→の：09472_no⟧⟦{木|き}→木：00524_ki⟧⟦の→の：09472_no⟧{素材感|そざいかん}⟦を→を：00422_wo⟧{生|い}かした⟦デザイン→デザイン：03860_dezain⟧だ。",
       "english": "It's a design that makes the most of the natural wood's texture.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26228_sozaikan_ex3",
-      "japanese": "シンプルな{料理|りょうり}ほど、{素材感|そざいかん}が{大事|だいじ}になる。",
+      "japanese": "⟦シンプル→シンプル：10943_shinpuru⟧な⟦{料理|りょうり}→料理：01523_ryouri⟧ほど、{素材感|そざいかん}⟦が→が：00051_ga⟧⟦{大事|だいじ}→大事：01253_daiji⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧。",
       "english": "The simpler the dish, the more the natural character of the ingredients matters.",
       "sense_numbers": [
         1
@@ -44,8 +44,23 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {素材|そざい} (raw material, ingredient) and {感|かん} (sense, feeling). The suffix {感|かん} turns a noun into a word about how something feels or is perceived, similar to English \"-ness\" or \"sense of.\"\n\nWidely used across creative fields. In fashion, it describes the drape and hand of fabric. In interior design, the character of wood, stone, or metal. In cooking, the freshness and quality of ingredients that comes through in the final dish.\n\nCOMMON COLLOCATIONS:\n- {素材感|そざいかん}を{生|い}かす: to make the most of the material's texture\n- {素材感|そざいかん}のある: having a rich/distinct texture\n- {素材感|そざいかん}が{伝|つた}わる: the texture comes through\n- {素材感|そざいかん}を{大切|たいせつ}にする: to value the natural feel of materials\n\nSIMILAR WORDS:\n- {手触|てざわ}り: the feel (to the touch) — specifically about tactile sensation\n- {質感|しつかん}: texture; material quality — similar meaning but more formal/technical\n- {風合|ふうあ}い: texture; hand (of fabric) — traditional textile term",
-  "cross_references": [],
+  "notes": "Composed of ⟦{素材|そざい}→素材：09492_sozai⟧ (raw material, ingredient) and ⟦{感|かん}→〜感：28578_kan⟧ (sense, feeling). The suffix ⟦{感|かん}→〜感：28578_kan⟧ turns a noun into a word about how something feels or is perceived, similar to English \"-ness\" or \"sense of.\"\n\nWidely used across creative fields. In fashion, it describes the drape and hand of fabric. In interior design, the character of wood, stone, or metal. In cooking, the freshness and quality of ingredients that comes through in the final dish.\n\nCOMMON COLLOCATIONS:\n- {素材感|そざいかん}⟦を→を：00422_wo⟧{生|い}かす: to make the most of the material's texture\n- {素材感|そざいかん}⟦の→の：09472_no⟧⟦ある→ある：00006_aru⟧: having a rich/distinct texture\n- {素材感|そざいかん}⟦が→が：00051_ga⟧⟦{伝|つた}わる→伝わる：01961_tsutawaru⟧: the texture comes through\n- {素材感|そざいかん}⟦を→を：00422_wo⟧⟦{大切|たいせつ}にする→大切にする：26940_taisetsunisuru⟧: to value the natural feel of materials\n\nSIMILAR WORDS:\n- ⟦{手触|てざわ}り→手触り：12758_tezawari⟧: the feel (to the touch) — specifically about tactile sensation\n- ⟦{質感|しつかん}→質感：18028_shitsukan⟧: texture; material quality — similar meaning but more formal/technical\n- {風合|ふうあ}い: texture; hand (of fabric) — traditional textile term",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12758_tezawari",
+      "reading": "てざわり",
+      "headword": "{手触|てざわ}り",
+      "label": "the feel"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18028_shitsukan",
+      "reading": "しつかん",
+      "headword": "{質感|しつかん}",
+      "label": "texture"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -60,6 +75,6 @@
       ]
     },
     "created": "2026-04-30T12:16:59Z",
-    "modified": "2026-08-06T00:44:09Z"
+    "modified": "2026-09-02T04:02:25Z"
   }
 }

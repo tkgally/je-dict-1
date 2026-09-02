@@ -15,41 +15,69 @@
   "examples": [
     {
       "id": "18784_douryoku_ex1",
-      "japanese": "{蒸気|じょうき}を{動力|どうりょく}にする。",
+      "japanese": "⟦{蒸気|じょうき}→蒸気：04278_jouki⟧⟦を→を：00422_wo⟧{動力|どうりょく}⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧。",
       "english": "To use steam as the power source.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "18784_douryoku_ex2",
-      "japanese": "この{船|ふね}は{風力|ふうりょく}を{動力|どうりょく}として{利用|りよう}している。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{船|ふね}→船：00775_fune⟧⟦は→は：00079_ha⟧⟦{風力|ふうりょく}→風力：06432_fuuryoku⟧⟦を→を：00422_wo⟧{動力|どうりょく}⟦として→として：06802_toshite⟧⟦{利用|りよう}している→利用する：21735_riyousuru⟧。",
       "english": "This ship uses wind power as its driving force.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "18784_douryoku_ex3",
-      "japanese": "{電気自動車|でんきじどうしゃ}は{電池|でんち}を{動力源|どうりょくげん}とし、ガソリンを{使|つか}わない。",
+      "japanese": "⟦{電気自動車|でんきじどうしゃ}→電気自動車：15581_denkijidousha⟧⟦は→は：00079_ha⟧⟦{電池|でんち}→電池：01472_denchi⟧⟦を→を：00422_wo⟧{動力源|どうりょくげん}とし、⟦ガソリン→ガソリン：01346_gasorin⟧⟦を→を：00422_wo⟧⟦{使|つか}わない→使う：00473_tsukau⟧。",
       "english": "Electric vehicles use batteries as their power source and do not use gasoline.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Common collocations: {動力源|どうりょくげん} (power source), {動力|どうりょく}{装置|そうち} (power unit/drive system), {動力|どうりょく}{伝達|でんたつ} (power transmission), {原子力|げんしりょく}{動力|どうりょく} (nuclear power). Often appears in discussions of engines, industrial machinery, and energy technology. Related: エンジン (engine — the mechanical device itself), {馬力|ばりき} (horsepower — a unit of power), {推進力|すいしんりょく} (propulsive force — emphasizes forward movement).",
+  "notes": "Common collocations: {動力源|どうりょくげん} (power source), {動力|どうりょく}⟦{装置|そうち}→装置：03318_souchi⟧ (power unit/drive system), {動力|どうりょく}⟦{伝達|でんたつ}→伝達：11570_dentatsu⟧ (power transmission), {原子力|げんしりょく}{動力|どうりょく} (nuclear power). Often appears in discussions of engines, industrial machinery, and energy technology. Related: ⟦エンジン→エンジン：03835_enjin⟧ (engine — the mechanical device itself), ⟦{馬力|ばりき}→馬力：14653_bariki⟧ (horsepower — a unit of power), ⟦{推進力|すいしんりょく}→推進力：15905_suishinryoku⟧ (propulsive force — emphasizes forward movement).",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23127_mootaa",
+      "reading": "もーたー",
+      "headword": "モーター",
+      "label": "motor"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24244_kudou",
+      "reading": "くどう",
+      "headword": "{駆動|くどう}",
+      "label": "drive"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["technical"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "technical"
+      ]
     },
     "created": "2026-03-23T03:39:42Z",
-    "modified": "2026-03-23T03:39:42Z"
+    "modified": "2026-09-02T04:01:53Z"
   }
 }

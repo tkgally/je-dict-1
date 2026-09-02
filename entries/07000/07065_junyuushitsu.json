@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "07065_junyuushitsu_ex1",
-      "japanese": "この{施設|しせつ}には{授乳室|じゅにゅうしつ}がありますか。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{施設|しせつ}→施設：02503_shisetsu⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{授乳室|じゅにゅうしつ}⟦が→が：00051_ga⟧⟦あります→ある：00006_aru⟧⟦か→か：09473_ka⟧。",
       "english": "Does this facility have a nursing room?",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "07065_junyuushitsu_ex2",
-      "japanese": "{授乳室|じゅにゅうしつ}は2{階|かい}にあります。",
+      "japanese": "{授乳室|じゅにゅうしつ}⟦は→は：00079_ha⟧2⟦{階|かい}→階：01034_kai⟧⟦に→に：00314_ni⟧⟦あります→ある：00006_aru⟧。",
       "english": "The nursing room is on the second floor.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "07065_junyuushitsu_ex3",
-      "japanese": "{授乳室|じゅにゅうしつ}に{給湯器|きゅうとうき}が{設置|せっち}されている。",
+      "japanese": "{授乳室|じゅにゅうしつ}⟦に→に：00314_ni⟧⟦{給湯器|きゅうとうき}→給湯器：04904_kyuutouki⟧⟦が→が：00051_ga⟧⟦{設置|せっち}→設置：09750_secchi⟧⟦されている→する：00392_suru⟧。",
       "english": "A hot water dispenser is installed in the nursing room.",
       "notes": null,
       "has_audio": false,
@@ -43,11 +43,19 @@
       ]
     }
   ],
-  "notes": "{授乳室|じゅにゅうしつ} are commonly found in shopping malls, department stores, train stations, and public facilities in Japan. Many are equipped with:\n・{給湯器|きゅうとうき} (hot water dispenser)\n・おむつ{替|か}え{台|だい} (diaper changing table)\n・{個室|こしつ} (private booths)\n\nALTERNATE TERMS:\n・ベビールーム (baby room)\n・おむつ{替|か}え{室|しつ} (diaper changing room)\n\nRELATED TERMS:\n・{授乳|じゅにゅう} (breastfeeding/nursing)\n・{粉|こな}ミルク (formula milk)",
-  "cross_references": [],
+  "notes": "{授乳室|じゅにゅうしつ} are commonly found in shopping malls, department stores, train stations, and public facilities in Japan. Many are equipped with:\n- ⟦{給湯器|きゅうとうき}→給湯器：04904_kyuutouki⟧ (hot water dispenser)\n- ⟦おむつ→おむつ：15772_omutsu⟧{替|か}え{台|だい} (diaper changing table)\n- ⟦{個室|こしつ}→個室：11535_koshitsu⟧ (private booths)\n\nALTERNATE TERMS:\n- ベビールーム (baby room)\n- ⟦おむつ→おむつ：15772_omutsu⟧{替|か}え⟦{室|しつ}→室：09946_shitsu⟧ (diaper changing room)\n\nRELATED WORDS:\n- ⟦{授乳|じゅにゅう}→授乳：14937_junyuu⟧ (breastfeeding/nursing)\n- ⟦{粉|こな}ミルク→粉ミルク：21060_konamiruku⟧ (formula milk)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "21060_konamiruku",
+      "reading": "こなみるく",
+      "headword": "{粉|こな}ミルク",
+      "label": "formula milk"
+    }
+  ],
   "metadata": {
     "created": "2026-01-18T23:40:23Z",
-    "modified": "2026-01-19T12:17:44.892614Z",
+    "modified": "2026-09-02T04:01:10Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

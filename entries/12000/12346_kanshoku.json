@@ -3,7 +3,7 @@
   "id": "12346_kanshoku",
   "headword": "{完食|かんしょく}",
   "reading": "かんしょく",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "eating everything, cleaning one's plate",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "12346_kanshoku_ex1",
-      "japanese": "{大盛|おおも}りを{完食|かんしょく}した。",
+      "japanese": "⟦{大盛|おおも}り→大盛り：08162_oomori⟧⟦を→を：00422_wo⟧{完食|かんしょく}⟦した→する：00392_suru⟧。",
       "english": "I finished the large serving completely.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "12346_kanshoku_ex2",
-      "japanese": "{子供|こども}が{給食|きゅうしょく}を{完食|かんしょく}できた。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧⟦が→が：00051_ga⟧⟦{給食|きゅうしょく}→給食：13800_kyuushoku⟧⟦を→を：00422_wo⟧{完食|かんしょく}⟦できた→できる：00557_dekiru⟧。",
       "english": "The child was able to eat all of the school lunch.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "12346_kanshoku_ex3",
-      "japanese": "このラーメン{屋|や}の{特大|とくだい}サイズを{完食|かんしょく}したら{無料|むりょう}になる。",
+      "japanese": "⟦この→この：00962_kono⟧⟦ラーメン→ラーメン：05181_raamen⟧⟦{屋|や}→〜屋：03096_ya⟧⟦の→の：09472_no⟧⟦{特大|とくだい}→特大：18760_tokudai⟧⟦サイズ→サイズ：01363_saizu⟧⟦を→を：00422_wo⟧{完食|かんしょく}⟦したら→する：00392_suru⟧⟦{無料|むりょう}→無料：01662_muryou⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧。",
       "english": "If you finish the extra-large size at this ramen shop, it's free.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,11 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{完食|かんしょく} is relatively informal and became popular in food-related media and social media. It implies a sense of achievement, as though finishing a meal is a challenge completed.\n\nCOLLOCATIONS:\n- {大盛|おおも}りを{完食|かんしょく}する — to finish a large serving\n- {完食|かんしょく}できる — to be able to eat everything\n- {完食|かんしょく}チャレンジ — eating challenge\n\nNOTE:\n{完食|かんしょく} contrasts with {残|のこ}す (to leave food behind). In Japanese dining culture, leaving food can be seen as wasteful, and {完食|かんしょく} carries a positive connotation of not wasting food.",
+  "notes": "USAGE:\n{完食|かんしょく} is relatively informal and became popular in food-related media and social media. It implies a sense of achievement, as though finishing a meal is a challenge completed.\n{完食|かんしょく} contrasts with ⟦{残|のこ}す→残す：01975_nokosu⟧ (to leave food behind). In Japanese dining culture, leaving food can be seen as wasteful, and {完食|かんしょく} carries a positive connotation of not wasting food.\n\nCOMMON COLLOCATIONS:\n- ⟦{大盛|おおも}り→大盛り：08162_oomori⟧⟦を→を：00422_wo⟧{完食|かんしょく}⟦する→する：00392_suru⟧ — to finish a large serving\n- {完食|かんしょく}⟦できる→できる：00557_dekiru⟧ — to be able to eat everything\n- {完食|かんしょく}⟦チャレンジ→チャレンジ：11013_charenji⟧ — eating challenge",
   "cross_references": [],
   "metadata": {
     "created": "2026-02-21T05:20:25Z",
-    "modified": "2026-03-29T03:07:35Z",
+    "modified": "2026-09-02T04:01:28Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -151,7 +151,8 @@
       "semantic": [
         "consumption"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

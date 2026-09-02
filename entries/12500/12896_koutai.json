@@ -15,42 +15,69 @@
   "examples": [
     {
       "id": "12896_koutai_ex1",
-      "japanese": "ワクチンで{抗体|こうたい}ができる。",
+      "japanese": "⟦ワクチン→ワクチン：05074_wakuchin⟧⟦で→で：00502_de⟧{抗体|こうたい}⟦が→が：00051_ga⟧⟦できる→できる：00557_dekiru⟧。",
       "english": "Antibodies are produced through vaccination.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12896_koutai_ex2",
-      "japanese": "{血液|けつえき}{検査|けんさ}で{抗体|こうたい}の{有無|うむ}を{調|しら}べた。",
+      "japanese": "⟦{血液|けつえき}{検査|けんさ}→血液検査：23299_ketsuekikensa⟧⟦で→で：00502_de⟧{抗体|こうたい}⟦の→の：09472_no⟧⟦{有無|うむ}→有無：13019_umu⟧⟦を→を：00422_wo⟧⟦{調|しら}べた→調べる：01213_shiraberu⟧。",
       "english": "The presence or absence of antibodies was checked through a blood test.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12896_koutai_ex3",
-      "japanese": "{感染|かんせん}から{回復|かいふく}した{人|ひと}は{抗体|こうたい}を{持|も}っているため、{再感染|さいかんせん}しにくいと{言|い}われている。",
+      "japanese": "⟦{感染|かんせん}→感染：05977_kansen⟧⟦から→から：00504_kara⟧⟦{回復|かいふく}した→回復する：21330_kaifukusuru⟧⟦{人|ひと}→人：00476_hito⟧⟦は→は：00079_ha⟧{抗体|こうたい}⟦を→を：00422_wo⟧⟦{持|も}っている→持つ：00478_motsu⟧⟦ため→ため：01145_tame⟧、{再感染|さいかんせん}しにくい⟦と→と：00512_to⟧⟦{言|い}われている→言う：00515_iu⟧。",
       "english": "It is said that people who have recovered from infection have antibodies, making them less likely to be reinfected.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nA scientific and medical term that has become widely known through public health discussions, especially regarding vaccination and infectious disease. Commonly encountered in news reports and health-related conversations.\n\nCOMMON COLLOCATIONS:\n- {抗体|こうたい}ができる: antibodies form/develop\n- {抗体|こうたい}を{持|も}つ: to have antibodies\n- {抗体|こうたい}{検査|けんさ}: antibody test\n- {抗体|こうたい}{値|ち}: antibody level/titer\n\nSIMILAR WORDS:\n- {抗原|こうげん}: antigen (the foreign substance that triggers antibody production)\n- {免疫|めんえき}: immunity (the broader system of defense)",
-  "cross_references": [],
+  "notes": "USAGE:\nA scientific and medical term that has become widely known through public health discussions, especially regarding vaccination and infectious disease. Commonly encountered in news reports and health-related conversations.\n\nCOMMON COLLOCATIONS:\n- {抗体|こうたい}⟦が→が：00051_ga⟧⟦できる→できる：00557_dekiru⟧: antibodies form/develop\n- {抗体|こうたい}⟦を→を：00422_wo⟧⟦{持|も}つ→持つ：00478_motsu⟧: to have antibodies\n- {抗体|こうたい}{検査|けんさ}: antibody test\n- {抗体|こうたい}{値|ち}: antibody level/titer\n\nSIMILAR WORDS:\n- ⟦{抗原|こうげん}→抗原：17907_kougen⟧: antigen (the foreign substance that triggers antibody production)\n- ⟦{免疫|めんえき}→免疫：05032_meneki⟧: immunity (the broader system of defense)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17907_kougen",
+      "reading": "こうげん",
+      "headword": "{抗原|こうげん}",
+      "label": "antigen"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05032_meneki",
+      "reading": "めんえき",
+      "headword": "{免疫|めんえき}",
+      "label": "immunity"
+    }
+  ],
   "metadata": {
     "created": "2026-02-22T14:22:25Z",
-    "modified": "2026-02-22T14:22:25Z",
+    "modified": "2026-09-02T04:01:31Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["medical"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "medical"
+      ]
     }
   }
 }

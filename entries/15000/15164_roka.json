@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "15164_roka_ex1",
-      "japanese": "{水|みず}をろ{過|か}する。",
+      "japanese": "⟦{水|みず}→水：02258_mizu⟧⟦を→を：00422_wo⟧ろ{過|か}⟦する→する：00392_suru⟧。",
       "english": "To filter water.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "15164_roka_ex2",
-      "japanese": "コーヒーのろ{過|か}には{紙|かみ}フィルターを{使|つか}う。",
+      "japanese": "⟦コーヒー→コーヒー：00789_koohii⟧⟦の→の：09472_no⟧ろ{過|か}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{紙|かみ}→紙：00712_kami⟧⟦フィルター→フィルター：21847_firutaa⟧⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧。",
       "english": "A paper filter is used for filtering coffee.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "15164_roka_ex3",
-      "japanese": "{浄水場|じょうすいじょう}では{何|なん}{段階|だんかい}ものろ{過|か}{装置|そうち}を{通|とお}して{水|みず}をきれいにしている。",
+      "japanese": "{浄水場|じょうすいじょう}⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{何|なん}→何〜：03100_nan⟧⟦{段階|だんかい}→段階：04515_dankai⟧⟦も→も：00484_mo⟧⟦の→の：09472_no⟧ろ{過|か}⟦{装置|そうち}→装置：03318_souchi⟧⟦を→を：00422_wo⟧⟦{通|とお}して→通す：02300_toosu⟧⟦{水|みず}→水：02258_mizu⟧⟦を→を：00422_wo⟧⟦きれい→きれい：00717_kirei⟧にして⟦いる→いる：00495_iru⟧。",
       "english": "Water treatment plants purify water by passing it through multiple stages of filtration equipment.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,11 @@
       ]
     }
   ],
-  "notes": "ろ{過|か} means to pass a liquid or gas through a filter to remove impurities.\n\nKANJI:\nThe full kanji form is {濾|ろ}{過|か}, but since {濾|ろ} is not in the {常用|じょうよう}{漢字|かんじ} list, it is normally written in mixed form as ろ{過|か}.\n\nCOMMON COLLOCATIONS:\n- ろ{過|か}する: to filter\n- ろ{過|か}{装置|そうち}: filtration device/equipment\n- ろ{過|か}{器|き}: filter (the device itself)\n- ろ{過|か}{水|すい}: filtered water\n\nUSAGE:\nUsed in scientific, industrial, and everyday contexts. Coffee brewing, water purification, and laboratory work all use ろ{過|か}. The noun can be used with する to form the verb \"to filter.\"",
+  "notes": "ろ{過|か} means to pass a liquid or gas through a filter to remove impurities.\n\nWRITING:\nThe full kanji form is {濾|ろ}{過|か}, but since {濾|ろ} is not in the ⟦{常用|じょうよう}{漢字|かんじ}→常用漢字：20778_jouyoukanji⟧ list, it is normally written in mixed form as ろ{過|か}.\n\nCOMMON COLLOCATIONS:\n- ろ{過|か}⟦する→する：00392_suru⟧: to filter\n- ろ{過|か}⟦{装置|そうち}→装置：03318_souchi⟧: filtration device/equipment\n- ろ{過|か}{器|き}: filter (the device itself)\n- ろ{過|か}{水|すい}: filtered water\n\nUSAGE:\nUsed in scientific, industrial, and everyday contexts. Coffee brewing, water purification, and laboratory work all use ろ{過|か}. The noun can be used with ⟦する→する：00392_suru⟧ to form the verb \"to filter.\"",
   "cross_references": [],
   "metadata": {
     "created": "2026-03-05T08:43:31Z",
-    "modified": "2026-07-15T18:53:39Z",
+    "modified": "2026-09-02T04:01:40Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -154,7 +154,8 @@
       "semantic": [
         "science"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

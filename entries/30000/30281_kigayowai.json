@@ -16,7 +16,7 @@
   "examples": [
     {
       "id": "30281_kigayowai_ex1",
-      "japanese": "{弟|おとうと}は{気|き}が{弱|よわ}い。",
+      "japanese": "⟦{弟|おとうと}→弟：00572_otouto⟧⟦は→は：00079_ha⟧{気|き}が{弱|よわ}い。",
       "english": "My younger brother is timid.",
       "sense_numbers": [
         1
@@ -26,7 +26,7 @@
     },
     {
       "id": "30281_kigayowai_ex2",
-      "japanese": "{気|き}が{弱|よわ}くて{断|ことわ}れなかった。",
+      "japanese": "{気|き}が{弱|よわ}くて⟦{断|ことわ}れなかった→断る：02102_kotowaru⟧。",
       "english": "I was too faint-hearted to say no.",
       "sense_numbers": [
         1
@@ -36,7 +36,7 @@
     },
     {
       "id": "30281_kigayowai_ex3",
-      "japanese": "{気|き}の{弱|よわ}い{人|ひと}ほど、{無理|むり}な{仕事|しごと}を{引|ひ}き{受|う}けてしまいがちだ。",
+      "japanese": "⟦{気|き}→気：02199_ki⟧⟦の→の：09472_no⟧⟦{弱|よわ}い→弱い：00825_yowai⟧⟦{人|ひと}→人：00476_hito⟧ほど、⟦{無理|むり}→無理：01558_muri⟧な⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦を→を：00422_wo⟧⟦{引|ひ}き{受|う}けて→引き受ける：03140_hikiukeru⟧しまいがちだ。",
       "english": "The more timid a person is, the more likely they are to take on impossible work.",
       "sense_numbers": [
         1
@@ -45,7 +45,7 @@
       "notes": null
     }
   ],
-  "notes": "A fixed {気|き} expression: the subject of {弱|よわ}い is {気|き}, so the person takes は or が in a double-subject pattern ({彼|かれ}は{気|き}が{弱|よわ}い). In attributive position the が becomes の: {気|き}の{弱|よわ}い{人|ひと}.\n\nCOMMON COLLOCATIONS:\n- {気|き}の{弱|よわ}い{人|ひと}: a timid person (attributive form)\n- {気|き}が{弱|よわ}くて{断|ことわ}れない: too timid to refuse\n- {気|き}が{弱|よわ}そう: to look faint-hearted\n\nSIMILAR WORDS:\n- {気|き}が{強|つよ}い: strong-willed, assertive — the direct opposite\n- {臆病|おくびょう}な: cowardly — about fear itself, stronger and more negative\n- {内気|うちき}な: shy, reserved — about reticence with people, not about caving in to pressure",
+  "notes": "A fixed ⟦{気|き}→気：02199_ki⟧ expression: the subject of ⟦{弱|よわ}い→弱い：00825_yowai⟧ is ⟦{気|き}→気：02199_ki⟧, so the person takes ⟦は→は：00079_ha⟧ or ⟦が→が：00051_ga⟧ in a double-subject pattern (⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{気|き}が{弱|よわ}い). In attributive position the ⟦が→が：00051_ga⟧ becomes ⟦の→の：09472_no⟧: ⟦{気|き}→気：02199_ki⟧⟦の→の：09472_no⟧⟦{弱|よわ}い→弱い：00825_yowai⟧⟦{人|ひと}→人：00476_hito⟧.\n\nCOMMON COLLOCATIONS:\n- ⟦{気|き}→気：02199_ki⟧⟦の→の：09472_no⟧⟦{弱|よわ}い→弱い：00825_yowai⟧⟦{人|ひと}→人：00476_hito⟧: a timid person (attributive form)\n- {気|き}が{弱|よわ}くて⟦{断|ことわ}れない→断る：02102_kotowaru⟧: too timid to refuse\n- {気|き}が{弱|よわ}そう: to look faint-hearted\n\nSIMILAR WORDS:\n- ⟦{気|き}が{強|つよ}い→気が強い：30270_kigatsuyoi⟧: strong-willed, assertive — the direct opposite\n- ⟦{臆病|おくびょう}→臆病：07608_okubyou⟧な: cowardly — about fear itself, stronger and more negative\n- ⟦{内気|うちき}→内気：16836_uchiki⟧な: shy, reserved — about reticence with people, not about caving in to pressure",
   "cross_references": [
     {
       "type": "antonym",
@@ -53,6 +53,20 @@
       "reading": "きがつよい",
       "headword": "{気|き}が{強|つよ}い",
       "label": "strong-willed; assertive"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07608_okubyou",
+      "reading": "おくびょう",
+      "headword": "{臆病|おくびょう}",
+      "label": "cowardly"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16836_uchiki",
+      "reading": "うちき",
+      "headword": "{内気|うちき}",
+      "label": "shy, reserved"
     }
   ],
   "metadata": {
@@ -70,7 +84,7 @@
       "domain": []
     },
     "created": "2026-07-31T21:20:10Z",
-    "modified": "2026-07-31T21:20:10Z"
+    "modified": "2026-09-02T04:02:39Z"
   },
   "conjugation": {
     "type": "i-adjective",

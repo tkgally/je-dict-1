@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22572_katsudoujikan_ex1",
-      "japanese": "{活動時間|かつどうじかん}は{朝|あさ}から{夕方|ゆうがた}までだ。",
+      "japanese": "{活動時間|かつどうじかん}⟦は→は：00079_ha⟧⟦{朝|あさ}→朝：02277_asa⟧⟦から→から：00504_kara⟧⟦{夕方|ゆうがた}→夕方：01010_yuugata⟧⟦まで→まで：00490_made⟧だ。",
       "english": "The active hours are from morning to evening.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22572_katsudoujikan_ex2",
-      "japanese": "フクロウは{夜|よる}が{活動時間|かつどうじかん}だ。",
+      "japanese": "フクロウ⟦は→は：00079_ha⟧⟦{夜|よる}→夜：00487_yoru⟧⟦が→が：00051_ga⟧{活動時間|かつどうじかん}だ。",
       "english": "Owls are active during the nighttime.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22572_katsudoujikan_ex3",
-      "japanese": "ボランティアの{活動時間|かつどうじかん}は{一日|いちにち}{三時間|さんじかん}が{目安|めやす}です。",
+      "japanese": "⟦ボランティア→ボランティア：04834_borantia⟧⟦の→の：09472_no⟧{活動時間|かつどうじかん}⟦は→は：00079_ha⟧⟦{一日|いちにち}→一日：00942_ichinichi⟧⟦{三時間|さんじかん}→三時間：30478_sanjikan⟧⟦が→が：00051_ga⟧⟦{目安|めやす}→目安：00276_meyasu⟧です。",
       "english": "The guideline for volunteer activity hours is about three hours per day.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {活動|かつどう} (activity) and {時間|じかん} (time, hours). Can refer to the time period when an animal is active, the hours during which a group or organization operates, or the total amount of time spent on an activity.\n\nCOMMON COLLOCATIONS:\n- {活動時間|かつどうじかん}が{長|なが}い: to have long active hours\n- {活動時間|かつどうじかん}を{制限|せいげん}する: to limit activity time\n- {活動時間|かつどうじかん}{外|がい}: outside of active hours\n- {一日|いちにち}の{活動時間|かつどうじかん}: daily activity hours\n\nSIMILAR WORDS:\n- {営業時間|えいぎょうじかん}: business hours — specifically for commercial establishments\n- {稼働時間|かどうじかん}: operating time — for machines and systems\n- {勤務時間|きんむじかん}: working hours — specifically for employees on the job",
+  "notes": "A compound of ⟦{活動|かつどう}→活動：00201_katsudou⟧ (activity) and ⟦{時間|じかん}→時間：00468_jikan⟧ (time, hours). Can refer to the time period when an animal is active, the hours during which a group or organization operates, or the total amount of time spent on an activity.\n\nCOMMON COLLOCATIONS:\n- {活動時間|かつどうじかん}⟦が→が：00051_ga⟧⟦{長|なが}い→長い：00491_nagai⟧: to have long active hours\n- {活動時間|かつどうじかん}⟦を→を：00422_wo⟧⟦{制限|せいげん}する→制限する：19636_seigensuru⟧: to limit activity time\n- {活動時間|かつどうじかん}{外|がい}: outside of active hours\n- ⟦{一日|いちにち}→一日：00942_ichinichi⟧⟦の→の：09472_no⟧{活動時間|かつどうじかん}: daily activity hours\n\nSIMILAR WORDS:\n- ⟦{営業時間|えいぎょうじかん}→営業時間：18476_eigyoujikan⟧: business hours — specifically for commercial establishments\n- {稼働時間|かどうじかん}: operating time — for machines and systems\n- ⟦{勤務時間|きんむじかん}→勤務時間：24137_kinmujikan⟧: working hours — specifically for employees on the job",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18476_eigyoujikan",
+      "reading": "えいぎょうじかん",
+      "headword": "{営業時間|えいぎょうじかん}",
+      "label": "business hours"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24137_kinmujikan",
+      "reading": "きんむじかん",
+      "headword": "{勤務時間|きんむじかん}",
+      "label": "working hours"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +76,6 @@
       "politeness": "plain"
     },
     "created": "2026-04-06T18:14:27Z",
-    "modified": "2026-07-30T15:20:15Z"
+    "modified": "2026-09-02T04:02:08Z"
   }
 }

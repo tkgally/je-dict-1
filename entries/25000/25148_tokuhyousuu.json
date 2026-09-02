@@ -15,38 +15,59 @@
   "examples": [
     {
       "id": "25148_tokuhyousuu_ex1",
-      "japanese": "{得票数|とくひょうすう}が{一番|いちばん}{多|おお}い{候補者|こうほしゃ}が{当選|とうせん}する。",
+      "japanese": "{得票数|とくひょうすう}⟦が→が：00051_ga⟧⟦{一番|いちばん}→一番：01140_ichiban⟧⟦{多|おお}い→多い：01127_ooi⟧⟦{候補者|こうほしゃ}→候補者：20439_kouhosha⟧⟦が→が：00051_ga⟧⟦{当選|とうせん}→当選：07074_tousen⟧⟦する→する：00392_suru⟧。",
       "english": "The candidate with the highest number of votes wins.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "25148_tokuhyousuu_ex2",
-      "japanese": "{前回|ぜんかい}の{選挙|せんきょ}と{比|くら}べて{得票数|とくひょうすう}が{大幅|おおはば}に{増|ふ}えた。",
+      "japanese": "⟦{前回|ぜんかい}→前回：11817_zenkai⟧⟦の→の：09472_no⟧⟦{選挙|せんきょ}→選挙：03303_senkyo⟧⟦と→と：00512_to⟧⟦{比|くら}べて→比べる：01237_kuraberu⟧{得票数|とくひょうすう}⟦が→が：00051_ga⟧⟦{大幅|おおはば}→大幅：12170_oohaba⟧⟦に→に：00314_ni⟧⟦{増|ふ}えた→増える：01183_fueru⟧。",
       "english": "The number of votes received increased significantly compared to the previous election.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "25148_tokuhyousuu_ex3",
-      "japanese": "{各|かく}{候補者|こうほしゃ}の{得票数|とくひょうすう}は{選挙管理委員会|せんきょかんりいいんかい}のウェブサイトで{確認|かくにん}できる。",
+      "japanese": "⟦{各|かく}→各〜：00449_kaku⟧⟦{候補者|こうほしゃ}→候補者：20439_kouhosha⟧⟦の→の：09472_no⟧{得票数|とくひょうすう}⟦は→は：00079_ha⟧{選挙管理委員会|せんきょかんりいいんかい}⟦の→の：09472_no⟧⟦ウェブサイト→ウェブサイト：05152_webusaito⟧⟦で→で：00502_de⟧⟦{確認|かくにん}できる→確認する：25332_kakuninsuru⟧。",
       "english": "The vote tally for each candidate can be checked on the election commission's website.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {得票|とくひょう} (receiving votes) and {数|すう} (number). Specifically refers to the number of votes a particular candidate or option has garnered, as opposed to the total votes cast.\n\nThis is a standard term in election reporting and political analysis. It appears frequently in news coverage of elections at all levels.\n\nCOMMON COLLOCATIONS:\n- {得票数|とくひょうすう}が{多|おお}い: to have a high vote count\n- {得票数|とくひょうすう}が{伸|の}びる: vote count increases\n- {得票数|とくひょうすう}で{上回|うわまわ}る: to surpass in vote count\n- {最多|さいた}{得票|とくひょう}: most votes received\n\nSIMILAR WORDS:\n- {票数|ひょうすう}: number of votes — the total vote count, not specific to one candidate\n- {得票率|とくひょうりつ}: percentage of votes received — the proportion rather than the raw count\n- {投票数|とうひょうすう}: number of ballots cast — focuses on total participation",
+  "notes": "A compound of ⟦{得票|とくひょう}→得票：19111_tokuhyou⟧ (receiving votes) and ⟦{数|すう}→数：03360_suu⟧ (number). Specifically refers to the number of votes a particular candidate or option has garnered, as opposed to the total votes cast.\n\nThis is a standard term in election reporting and political analysis. It appears frequently in news coverage of elections at all levels.\n\nCOMMON COLLOCATIONS:\n- {得票数|とくひょうすう}⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧: to have a high vote count\n- {得票数|とくひょうすう}⟦が→が：00051_ga⟧⟦{伸|の}びる→伸びる：01974_nobiru⟧: vote count increases\n- {得票数|とくひょうすう}⟦で→で：00502_de⟧⟦{上回|うわまわ}る→上回る：07648_uwamawaru⟧: to surpass in vote count\n- ⟦{最多|さいた}→最多：28216_saita⟧⟦{得票|とくひょう}→得票：19111_tokuhyou⟧: most votes received\n\nSIMILAR WORDS:\n- ⟦{票数|ひょうすう}→票数：25137_hyousuu⟧: number of votes — the total vote count, not specific to one candidate\n- {得票率|とくひょうりつ}: percentage of votes received — the proportion rather than the raw count\n- ⟦{投票数|とうひょうすう}→投票数：26674_touhyousuu⟧: number of ballots cast — focuses on total participation",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "26674_touhyousuu",
+      "reading": "とうひょうすう",
+      "headword": "{投票数|とうひょうすう}",
+      "label": "number of ballots cast"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["politics"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "politics"
+      ]
     },
     "created": "2026-04-23T12:28:10Z",
-    "modified": "2026-04-23T12:28:10Z"
+    "modified": "2026-09-02T04:02:21Z"
   }
 }

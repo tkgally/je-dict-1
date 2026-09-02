@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "17716_kaiteiban_ex1",
-      "japanese": "{改訂版|かいていばん}が{出版|しゅっぱん}された。",
+      "japanese": "{改訂版|かいていばん}⟦が→が：00051_ga⟧⟦{出版|しゅっぱん}→出版：03222_shuppan⟧⟦された→する：00392_suru⟧。",
       "english": "The revised edition was published.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "17716_kaiteiban_ex2",
-      "japanese": "この{辞書|じしょ}の{改訂版|かいていばん}には{新語|しんご}が{多数|たすう}{追加|ついか}されている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{辞書|じしょ}→辞書：04707_jisho⟧⟦の→の：09472_no⟧{改訂版|かいていばん}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{新語|しんご}→新語：21555_shingo⟧⟦が→が：00051_ga⟧⟦{多数|たすう}→多数：05612_tasuu⟧⟦{追加|ついか}→追加：04060_tsuika⟧⟦されている→する：00392_suru⟧。",
       "english": "Numerous new words have been added to the revised edition of this dictionary.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "17716_kaiteiban_ex3",
-      "japanese": "{教科書|きょうかしょ}の{改訂版|かいていばん}では、{最新|さいしん}の{研究|けんきゅう}{成果|せいか}が{反映|はんえい}されている。",
+      "japanese": "⟦{教科書|きょうかしょ}→教科書：01085_kyoukasho⟧⟦の→の：09472_no⟧{改訂版|かいていばん}⟦で→で：00502_de⟧⟦は→は：00079_ha⟧、⟦{最新|さいしん}→最新：04831_saishin⟧⟦の→の：09472_no⟧⟦{研究|けんきゅう}→研究：01396_kenkyuu⟧⟦{成果|せいか}→成果：06745_seika⟧⟦が→が：00051_ga⟧⟦{反映|はんえい}→反映：04327_hanei⟧⟦されている→する：00392_suru⟧。",
       "english": "The revised edition of the textbook reflects the latest research findings.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{改訂版|かいていばん} combines {改訂|かいてい} (revision) + {版|ばん} (edition). It is used for books, manuals, software, and other published works.\n\nCOMMON COLLOCATIONS:\n- {改訂版|かいていばん}を{出|だ}す (to release a revised edition)\n- {第|だい}{二|に}{改訂版|かいていばん} (second revised edition)\n- {改訂版|かいていばん}が{出|で}る (a revised edition comes out)\n\nSIMILAR WORDS:\n{新版|しんぱん} (new edition) may involve more substantial changes. {増補版|ぞうほばん} (augmented edition) specifically adds new content. {改訂版|かいていばん} focuses on corrections and updates.",
+  "notes": "USAGE:\n{改訂版|かいていばん} combines ⟦{改訂|かいてい}→改訂：13044_kaitei⟧ (revision) + {版|ばん} (edition). It is used for books, manuals, software, and other published works.\n\nCOMMON COLLOCATIONS:\n- {改訂版|かいていばん}⟦を→を：00422_wo⟧⟦{出|だ}す→出す：01087_dasu⟧ (to release a revised edition)\n- ⟦{第|だい}→第〜：03960_dai⟧⟦{二|に}→二：00736_ni⟧{改訂版|かいていばん} (second revised edition)\n- {改訂版|かいていばん}⟦が→が：00051_ga⟧⟦{出|で}る→出る：00513_deru⟧ (a revised edition comes out)\n\nSIMILAR WORDS:\n⟦{新版|しんぱん}→新版：22067_shinpan⟧ (new edition) may involve more substantial changes. ⟦{増補版|ぞうほばん}→増補版：24013_zouhoban⟧ (augmented edition) specifically adds new content. {改訂版|かいていばん} focuses on corrections and updates.",
   "cross_references": [
     {
       "type": "synonym",
@@ -66,11 +66,25 @@
       "reading": "かいてい",
       "headword": "{改訂|かいてい}",
       "label": "revision"
+    },
+    {
+      "type": "related",
+      "target_id": "16448_saishinban",
+      "reading": "さいしんばん",
+      "headword": "{最新版|さいしんばん}",
+      "label": "latest version"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17391_genteiban",
+      "reading": "げんていばん",
+      "headword": "{限定版|げんていばん}",
+      "label": "limited edition"
     }
   ],
   "metadata": {
     "created": "2026-03-18T14:39:27Z",
-    "modified": "2026-07-24T07:00:08Z",
+    "modified": "2026-09-02T04:01:49Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

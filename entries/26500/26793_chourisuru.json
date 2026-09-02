@@ -3,7 +3,7 @@
   "headword": "{調理|ちょうり}する",
   "reading": "ちょうりする",
   "romaji": "chourisuru",
-  "part_of_speech": "verb-suru",
+  "part_of_speech": "suru verb",
   "gloss": "to cook; to prepare food",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26793_chourisuru_ex1",
-      "japanese": "{魚|さかな}を{調理|ちょうり}する。",
+      "japanese": "⟦{魚|さかな}→魚：00499_sakana⟧⟦を→を：00422_wo⟧{調理|ちょうり}する。",
       "english": "To prepare fish.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26793_chourisuru_ex2",
-      "japanese": "{食材|しょくざい}を{衛生的|えいせいてき}に{調理|ちょうり}することが{大切|たいせつ}だ。",
+      "japanese": "⟦{食材|しょくざい}→食材：04940_shokuzai⟧⟦を→を：00422_wo⟧⟦{衛生的|えいせいてき}→衛生的：27737_eiseiteki⟧⟦に→に：00314_ni⟧{調理|ちょうり}すること⟦が→が：00051_ga⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧だ。",
       "english": "It's important to prepare food hygienically.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26793_chourisuru_ex3",
-      "japanese": "この{肉|にく}は{低温|ていおん}でじっくり{調理|ちょうり}すると{柔|やわ}らかくなる。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{肉|にく}→肉：02240_niku⟧⟦は→は：00079_ha⟧⟦{低温|ていおん}→低温：29339_teion⟧で⟦じっくり→じっくり：06252_jikkuri⟧{調理|ちょうり}する⟦と→と：00512_to⟧⟦{柔|やわ}らかく→柔らかい：01096_yawarakai⟧⟦なる→なる：01970_naru⟧。",
       "english": "This meat becomes tender when cooked slowly at low temperature.",
       "sense_numbers": [
         1
@@ -44,8 +44,30 @@
       "notes": null
     }
   ],
-  "notes": "More formal and technical than {料理|りょうり}する. While {料理|りょうり}する is the everyday word for cooking, {調理|ちょうり}する emphasizes the technical process of food preparation and is preferred in professional, institutional, and regulatory contexts.\n\nCOMMON COLLOCATIONS:\n- {食材|しょくざい}を{調理|ちょうり}する: to prepare ingredients\n- {調理|ちょうり}{器具|きぐ}: cooking utensils\n- {調理|ちょうり}{師|し}: licensed cook\n- {調理|ちょうり}{場|ば}: kitchen (professional)\n- {調理|ちょうり}{法|ほう}: cooking method\n- {調理|ちょうり}{実習|じっしゅう}: cooking practice (in school)\n\nSIMILAR WORDS:\n- {料理|りょうり}する: to cook — everyday word; also used as a noun meaning \"cuisine\" or \"dish\"\n- {煮炊|にた}きする: to cook (general boiling/simmering) — traditional; emphasizes basic home cooking\n- {炊事|すいじ}する: to do the cooking — focuses on cooking as a household chore",
-  "cross_references": [],
+  "notes": "More formal and technical than ⟦{料理|りょうり}→料理：01523_ryouri⟧⟦する→する：00392_suru⟧. While ⟦{料理|りょうり}→料理：01523_ryouri⟧⟦する→する：00392_suru⟧ is the everyday word for cooking, {調理|ちょうり}する emphasizes the technical process of food preparation and is preferred in professional, institutional, and regulatory contexts.\n\nCOMMON COLLOCATIONS:\n- ⟦{食材|しょくざい}→食材：04940_shokuzai⟧⟦を→を：00422_wo⟧{調理|ちょうり}する: to prepare ingredients\n- ⟦{調理|ちょうり}{器具|きぐ}→調理器具：14991_chourikigu⟧: cooking utensils\n- ⟦{調理|ちょうり}{師|し}→調理師：16099_chourishi⟧: licensed cook\n- ⟦{調理|ちょうり}{場|ば}→調理場：23278_chouriba⟧: kitchen (professional)\n- ⟦{調理|ちょうり}{法|ほう}→調理法：20458_chourihou⟧: cooking method\n- ⟦{調理|ちょうり}→調理：07156_chouri⟧⟦{実習|じっしゅう}→実習：03077_jisshuu⟧: cooking practice (in school)\n\nSIMILAR WORDS:\n- ⟦{料理|りょうり}→料理：01523_ryouri⟧⟦する→する：00392_suru⟧: to cook — everyday word; also used as a noun meaning \"cuisine\" or \"dish\"\n- ⟦{煮炊|にた}き→煮炊き：16635_nitaki⟧⟦する→する：00392_suru⟧: to cook (general boiling/simmering) — traditional; emphasizes basic home cooking\n- ⟦{炊事|すいじ}→炊事：00385_suiji⟧⟦する→する：00392_suru⟧: to do the cooking — focuses on cooking as a household chore",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01523_ryouri",
+      "reading": "りょうり",
+      "headword": "{料理|りょうり}",
+      "label": "to cook"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16635_nitaki",
+      "reading": "にたき",
+      "headword": "{煮炊|にた}き",
+      "label": "to cook"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00385_suiji",
+      "reading": "すいじ",
+      "headword": "{炊事|すいじ}",
+      "label": "to do the cooking"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -59,10 +81,11 @@
         "food"
       ],
       "domain": [],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-05-05T11:09:37Z",
-    "modified": "2026-05-05T11:09:37Z"
+    "modified": "2026-09-02T04:02:27Z"
   },
   "conjugation": {
     "type": "suru",

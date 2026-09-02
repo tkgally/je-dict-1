@@ -15,41 +15,51 @@
   "examples": [
     {
       "id": "29934_jigo_ex1",
-      "japanese": "{今日|きょう}の{対局|たいきょく}は{持|じ}{碁|ご}になった。",
+      "japanese": "⟦{今日|きょう}→今日：00496_kyou⟧⟦の→の：09472_no⟧⟦{対局|たいきょく}→対局：17420_taikyoku⟧⟦は→は：00079_ha⟧{持|じ}{碁|ご}になった。",
       "english": "Today's game ended in a draw.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29934_jigo_ex2",
-      "japanese": "{持|じ}{碁|ご}は{珍|めずら}しい{結果|けっか}だ。",
+      "japanese": "{持|じ}{碁|ご}⟦は→は：00079_ha⟧⟦{珍|めずら}しい→珍しい：01200_mezurashii⟧⟦{結果|けっか}→結果：02486_kekka⟧だ。",
       "english": "A drawn game is a rare result.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29934_jigo_ex3",
-      "japanese": "{両者|りょうしゃ}の{地|じ}が{同|おな}じで、{持|じ}{碁|ご}と{判定|はんてい}された。",
+      "japanese": "⟦{両者|りょうしゃ}→両者：11357_ryousha⟧⟦の→の：09472_no⟧{地|じ}⟦が→が：00051_ga⟧⟦{同|おな}じ→同じ：02857_onaji⟧で、{持|じ}{碁|ご}⟦と→と：00512_to⟧⟦{判定|はんてい}→判定：09767_hantei⟧⟦された→する：00392_suru⟧。",
       "english": "Both players had the same amount of territory, so it was ruled a draw.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Compound of {持|じ} + {碁|ご} (go). A drawn result in go, where both players end with equal territory. It has become rare under modern rules, which add {込|こ}み (a points allowance for the second player) to make ties almost impossible.\n\nMainly a go term. Contrast {勝|か}ち (a win) and {負|ま}け (a loss).",
+  "notes": "Compound of {持|じ} + ⟦{碁|ご}→碁：02138_go⟧ (go). A drawn result in go, where both players end with equal territory. It has become rare under modern rules, which add ⟦{込|こ}み→込み：28615_komi⟧ (a points allowance for the second player) to make ties almost impossible.\n\nMainly a go term. Contrast ⟦{勝|か}ち→勝ち：02540_kachi⟧ (a win) and ⟦{負|ま}け→負け：02569_make⟧ (a loss).",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["leisure"],
+      "politeness": "plain",
+      "semantic": [
+        "leisure"
+      ],
       "domain": []
     },
     "created": "2026-07-18T06:23:31Z",
-    "modified": "2026-07-18T06:23:31Z"
+    "modified": "2026-09-02T04:02:38Z"
   }
 }

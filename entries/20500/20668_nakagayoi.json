@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "20668_nakagayoi_ex1",
-      "japanese": "あの{二人|ふたり}は{仲|なか}が{良|よ}い。",
+      "japanese": "⟦あの→あの：00915_ano⟧⟦{二人|ふたり}→二人：00622_futari⟧⟦は→は：00079_ha⟧{仲|なか}が{良|よ}い。",
       "english": "Those two are on good terms.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "20668_nakagayoi_ex2",
-      "japanese": "{隣|となり}の{家族|かぞく}とは{仲|なか}が{良|よ}くて、よく{一緒|いっしょ}にバーベキューをする。",
+      "japanese": "⟦{隣|となり}→隣：01003_tonari⟧⟦の→の：09472_no⟧⟦{家族|かぞく}→家族：00552_kazoku⟧⟦と→と：00512_to⟧⟦は→は：00079_ha⟧{仲|なか}が{良|よ}くて、⟦よく→よく：00601_yoku⟧⟦{一緒|いっしょ}→一緒：02848_issho⟧⟦に→に：00314_ni⟧⟦バーベキュー→バーベキュー：27519_baabekyuu⟧⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧。",
       "english": "We get along well with the family next door and often have barbecues together.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "20668_nakagayoi_ex3",
-      "japanese": "{兄弟|きょうだい}の{仲|なか}が{良|よ}いのは{親|おや}にとってうれしいことだ。",
+      "japanese": "⟦{兄弟|きょうだい}→兄弟：00964_kyoudai⟧⟦の→の：09472_no⟧{仲|なか}が{良|よ}い⟦の→の：09472_no⟧⟦は→は：00079_ha⟧⟦{親|おや}→親：01357_oya⟧⟦にとって→にとって：06803_nitotte⟧うれしいことだ。",
       "english": "It makes parents happy when siblings get along well.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "A fundamental expression for describing interpersonal relationships. Often written as {仲|なか}がいい in casual contexts. The opposite is {仲|なか}が{悪|わる}い (to be on bad terms).\n\nUSAGE:\nOften modifies nouns: {仲|なか}の{良|よ}い{友達|ともだち} (a close friend). Can also be used predicatively: {仲|なか}が{良|よ}い (they get along well). The colloquial form uses いい instead of {良|よ}い.\n\nCOMMON PATTERNS:\n- {仲|なか}の{良|よ}い{友達|ともだち}: a close friend\n- {仲|なか}{良|よ}くする: to get along with, to be friendly\n- {仲|なか}{良|よ}く{暮|く}らす: to live harmoniously\n- {仲|なか}が{良|よ}さそう: they seem to get along well\n\nSIMILAR WORDS:\n- {親|した}しい: close, intimate — describes the depth of a relationship\n- {気|き}が{合|あ}う: to hit it off — emphasizes compatibility\n- {仲|なか}が{悪|わる}い: to be on bad terms — the opposite expression",
+  "notes": "A fundamental expression for describing interpersonal relationships. Often written as ⟦{仲|なか}→仲：09513_naka⟧⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧ in casual contexts. The opposite is ⟦{仲|なか}が{悪|わる}い→仲が悪い：25621_nakagawarui⟧ (to be on bad terms).\n\nUSAGE:\nOften modifies nouns: ⟦{仲|なか}→仲：09513_naka⟧⟦の→の：09472_no⟧⟦{良|よ}い→良い：02350_yoi⟧⟦{友達|ともだち}→友達：01478_tomodachi⟧ (a close friend). Can also be used predicatively: {仲|なか}が{良|よ}い (they get along well). The colloquial form uses ⟦いい→いい：00118_ii⟧ instead of ⟦{良|よ}い→良い：02350_yoi⟧.\n\nCOMMON PATTERNS:\n- ⟦{仲|なか}→仲：09513_naka⟧⟦の→の：09472_no⟧⟦{良|よ}い→良い：02350_yoi⟧⟦{友達|ともだち}→友達：01478_tomodachi⟧: a close friend\n- ⟦{仲|なか}{良|よ}くする→仲良くする：25567_nakayokusuru⟧: to get along with, to be friendly\n- ⟦{仲|なか}{良|よ}く→仲良い：29434_nakayoi⟧⟦{暮|く}らす→暮らす：01937_kurasu⟧: to live harmoniously\n- {仲|なか}が{良|よ}さそう: they seem to get along well\n\nSIMILAR WORDS:\n- ⟦{親|した}しい→親しい：02345_shitashii⟧: close, intimate — describes the depth of a relationship\n- ⟦{気|き}が{合|あ}う→気が合う：22839_kigaau⟧: to hit it off — emphasizes compatibility\n- ⟦{仲|なか}が{悪|わる}い→仲が悪い：25621_nakagawarui⟧: to be on bad terms — the opposite expression",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02345_shitashii",
+      "reading": "したしい",
+      "headword": "{親|した}しい",
+      "label": "close, intimate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22839_kigaau",
+      "reading": "きがあう",
+      "headword": "{気|き}が{合|あ}う",
+      "label": "to hit it off"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25621_nakagawarui",
+      "reading": "なかがわるい",
+      "headword": "{仲|なか}が{悪|わる}い",
+      "label": "to be on bad terms"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +76,13 @@
         "expression"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "society",
         "emotion"
       ]
     },
     "created": "2026-03-30T06:35:22Z",
-    "modified": "2026-07-28T09:35:50Z"
+    "modified": "2026-09-02T04:02:00Z"
   }
 }

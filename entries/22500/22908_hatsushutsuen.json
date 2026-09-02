@@ -3,7 +3,7 @@
   "headword": "{初出演|はつしゅつえん}",
   "reading": "はつしゅつえん",
   "romaji": "hatsushutsuen",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "first appearance; debut performance",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22908_hatsushutsuen_ex1",
-      "japanese": "テレビに{初出演|はつしゅつえん}した。",
+      "japanese": "⟦テレビ→テレビ：01536_terebi⟧⟦に→に：00314_ni⟧{初出演|はつしゅつえん}⟦した→する：00392_suru⟧。",
       "english": "I made my first TV appearance.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22908_hatsushutsuen_ex2",
-      "japanese": "{彼女|かのじょ}は{映画|えいが}{初出演|はつしゅつえん}で{主演|しゅえん}を{務|つと}めた。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧⟦{映画|えいが}→映画：02273_eiga⟧{初出演|はつしゅつえん}⟦で→で：00502_de⟧⟦{主演|しゅえん}→主演：08254_shuen⟧⟦を→を：00422_wo⟧⟦{務|つと}めた→務める：10446_tsutomeru⟧。",
       "english": "She played the lead role in her first movie appearance.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22908_hatsushutsuen_ex3",
-      "japanese": "{初出演|はつしゅつえん}のドラマが{高視聴率|こうしちょうりつ}を{記録|きろく}して、{一躍|いちやく}{人気者|にんきもの}になった。",
+      "japanese": "{初出演|はつしゅつえん}⟦の→の：09472_no⟧⟦ドラマ→ドラマ：03867_dorama⟧⟦が→が：00051_ga⟧{高視聴率|こうしちょうりつ}⟦を→を：00422_wo⟧⟦{記録|きろく}して→記録する：25341_kirokusuru⟧、⟦{一躍|いちやく}→一躍：11183_ichiyaku⟧⟦{人気者|にんきもの}→人気者：19887_ninkimono⟧になった。",
       "english": "The drama of her debut appearance recorded high ratings, and she became an overnight sensation.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {初|はつ} (first) and {出演|しゅつえん} (appearance, performance). Commonly used in entertainment journalism and celebrity news. Can function as a noun or with する as a verb.\n\nCOMMON COLLOCATIONS:\n- {初出演|はつしゅつえん}する: to make one's first appearance\n- テレビ{初出演|はつしゅつえん}: first TV appearance\n- {映画|えいが}{初出演|はつしゅつえん}: first movie appearance\n- {舞台|ぶたい}{初出演|はつしゅつえん}: first stage appearance\n\nRELATED TERMS:\n- {出演|しゅつえん}: appearance, performance\n- デビュー: debut — loanword with broader usage beyond performance\n- {初登場|はつとうじょう}: first appearance — used more broadly, including for characters and products\n- {初|はつ}～: prefix meaning \"first\" — productive prefix: {初出場|はつしゅつじょう} (first tournament entry), {初主演|はつしゅえん} (first lead role)",
+  "notes": "A compound of ⟦{初|はつ}→初：10632_hatsu⟧ (first) and ⟦{出演|しゅつえん}→出演：11732_shutsuen⟧ (appearance, performance). Commonly used in entertainment journalism and celebrity news. Can function as a noun or with ⟦する→する：00392_suru⟧ as a verb.\n\nCOMMON COLLOCATIONS:\n- {初出演|はつしゅつえん}⟦する→する：00392_suru⟧: to make one's first appearance\n- ⟦テレビ→テレビ：01536_terebi⟧{初出演|はつしゅつえん}: first TV appearance\n- ⟦{映画|えいが}→映画：02273_eiga⟧{初出演|はつしゅつえん}: first movie appearance\n- ⟦{舞台|ぶたい}→舞台：03606_butai⟧{初出演|はつしゅつえん}: first stage appearance\n\nRELATED WORDS:\n- ⟦{出演|しゅつえん}→出演：11732_shutsuen⟧: appearance, performance\n- ⟦デビュー→デビュー：11016_debyuu⟧: debut — loanword with broader usage beyond performance\n- {初登場|はつとうじょう}: first appearance — used more broadly, including for characters and products\n- ⟦{初|はつ}→初：10632_hatsu⟧～: prefix meaning \"first\" — productive prefix: ⟦{初出場|はつしゅつじょう}→初出場：26884_hatsushutsujou⟧ (first tournament entry), {初主演|はつしゅえん} (first lead role)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "11016_debyuu",
+      "reading": "でびゅー",
+      "headword": "デビュー",
+      "label": "debut"
+    },
+    {
+      "type": "related",
+      "target_id": "15437_hatsubutai",
+      "reading": "はつぶたい",
+      "headword": "{初舞台|はつぶたい}",
+      "label": "first stage appearance"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,7 +77,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-07T20:17:00Z",
-    "modified": "2026-04-07T20:17:00Z"
+    "modified": "2026-09-02T04:02:10Z"
   },
   "conjugation": {
     "type": "suru",

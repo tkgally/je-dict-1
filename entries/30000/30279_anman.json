@@ -16,7 +16,7 @@
   "examples": [
     {
       "id": "30279_anman_ex1",
-      "japanese": "あんまんを{一|ひと}つください。",
+      "japanese": "あんまん⟦を→を：00422_wo⟧⟦{一|ひと}つ→一つ：02948_hitotsu⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "One anman, please.",
       "sense_numbers": [
         1
@@ -26,7 +26,7 @@
     },
     {
       "id": "30279_anman_ex2",
-      "japanese": "{寒|さむ}い{日|ひ}はあんまんが{食|た}べたくなる。",
+      "japanese": "⟦{寒|さむ}い→寒い：00664_samui⟧⟦{日|ひ}→日：02249_hi⟧⟦は→は：00079_ha⟧あんまん⟦が→が：00051_ga⟧⟦{食|た}べたく→食べる：00396_taberu⟧⟦なる→なる：01970_naru⟧。",
       "english": "On cold days I start wanting an anman.",
       "sense_numbers": [
         1
@@ -36,7 +36,7 @@
     },
     {
       "id": "30279_anman_ex3",
-      "japanese": "コンビニであんまんと{肉|にく}まんを{一|ひと}つずつ{買|か}って{帰|かえ}った。",
+      "japanese": "⟦コンビニ→コンビニ：01081_konbini⟧⟦で→で：00502_de⟧あんまん⟦と→と：00512_to⟧⟦{肉|にく}まん→肉まん：28810_nikuman⟧⟦を→を：00422_wo⟧⟦{一|ひと}つずつ→一つずつ：24348_hitotsuzutsu⟧⟦{買|か}って→買う：00489_kau⟧⟦{帰|かえ}った→帰る：00508_kaeru⟧。",
       "english": "I bought one anman and one nikuman at the convenience store and headed home.",
       "sense_numbers": [
         1
@@ -45,7 +45,7 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {餡|あん} (sweet bean paste) + まん, a shortening of {饅頭|まんじゅう}. Usually written in kana.\n\nCOMMON COLLOCATIONS:\n- あんまんを{蒸|む}す: to steam an anman\n- {温|あたた}かいあんまん: a warm anman\n- あんまん{一|ひと}つ: one anman (ordering at a counter)\n\nSIMILAR WORDS:\n- {肉|にく}まん: steamed pork bun — the savory counterpart, sold side by side\n- {中華|ちゅうか}まん: Chinese-style steamed bun — the category term covering both\n- {饅頭|まんじゅう}: manju — a broader class of bean-filled confections, not necessarily steamed hot for eating on the spot",
+  "notes": "Composed of ⟦{餡|あん}→餡：10220_an⟧ (sweet bean paste) + まん, a shortening of ⟦{饅頭|まんじゅう}→饅頭：05000_manjuu⟧. Usually written in kana.\n\nCOMMON COLLOCATIONS:\n- あんまん⟦を→を：00422_wo⟧⟦{蒸|む}す→蒸す：02307_musu⟧: to steam an anman\n- ⟦{温|あたた}かい→温かい：13395_atatakai⟧あんまん: a warm anman\n- あんまん⟦{一|ひと}つ→一つ：02948_hitotsu⟧: one anman (ordering at a counter)\n\nSIMILAR WORDS:\n- ⟦{肉|にく}まん→肉まん：28810_nikuman⟧: steamed pork bun — the savory counterpart, sold side by side\n- ⟦{中華|ちゅうか}まん→中華まん：30274_chuukaman⟧: Chinese-style steamed bun — the category term covering both\n- ⟦{饅頭|まんじゅう}→饅頭：05000_manjuu⟧: manju — a broader class of bean-filled confections, not necessarily steamed hot for eating on the spot",
   "cross_references": [
     {
       "type": "related",
@@ -60,6 +60,20 @@
       "reading": "ちゅうかまん",
       "headword": "{中華|ちゅうか}まん",
       "label": "Chinese-style steamed bun"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05000_manjuu",
+      "reading": "まんじゅう",
+      "headword": "{饅頭|まんじゅう}",
+      "label": "manju"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28811_mushipan",
+      "reading": "むしぱん",
+      "headword": "{蒸|む}しパン",
+      "label": "steamed cake"
     }
   ],
   "metadata": {
@@ -69,13 +83,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "food"
       ],
       "domain": []
     },
     "created": "2026-07-31T21:20:10Z",
-    "modified": "2026-07-31T21:20:10Z"
+    "modified": "2026-09-02T04:02:39Z"
   }
 }

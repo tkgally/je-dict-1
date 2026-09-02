@@ -15,41 +15,67 @@
   "examples": [
     {
       "id": "17438_nakajiki_ex1",
-      "japanese": "{靴|くつ}の{中敷|なかじ}きを{交換|こうかん}した。",
+      "japanese": "⟦{靴|くつ}→靴：00725_kutsu⟧⟦の→の：09472_no⟧{中敷|なかじ}き⟦を→を：00422_wo⟧⟦{交換|こうかん}→交換：02746_koukan⟧⟦した→する：00392_suru⟧。",
       "english": "I replaced the insoles in my shoes.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17438_nakajiki_ex2",
-      "japanese": "{中敷|なかじ}きを{入|い}れたら、{靴|くつ}の{履|は}き{心地|ごこち}がよくなった。",
+      "japanese": "{中敷|なかじ}き⟦を→を：00422_wo⟧⟦{入|い}れたら→入れる：01098_ireru⟧、⟦{靴|くつ}→靴：00725_kutsu⟧⟦の→の：09472_no⟧{履|は}き{心地|ごこち}⟦が→が：00051_ga⟧⟦よく→よく：00601_yoku⟧⟦なった→なる：01970_naru⟧。",
       "english": "After putting in insoles, the shoes became more comfortable to wear.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17438_nakajiki_ex3",
-      "japanese": "{足|あし}の{疲|つか}れを{軽減|けいげん}するために、クッション{性|せい}の{高|たか}い{中敷|なかじ}きを{使|つか}っている。",
+      "japanese": "⟦{足|あし}→足：00575_ashi⟧⟦の→の：09472_no⟧⟦{疲|つか}れ→疲れ：03518_tsukare⟧⟦を→を：00422_wo⟧⟦{軽減|けいげん}する→軽減する：25372_keigensuru⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧、⟦クッション→クッション：10799_kusshon⟧⟦{性|せい}→性：09880_sei⟧⟦の→の：09472_no⟧⟦{高|たか}い→高い：00500_takai⟧{中敷|なかじ}き⟦を→を：00422_wo⟧⟦{使|つか}っている→使う：00473_tsukau⟧。",
       "english": "I use highly cushioned insoles to reduce foot fatigue.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "A removable liner placed inside a shoe for comfort, support, or hygiene purposes.\n\nCOMPOUND: {中|なか} (inside) + {敷|し}き (laying/spreading)\n\nCOMMON COLLOCATIONS:\n- {中敷|なかじ}きを{入|い}れる: to insert insoles\n- {中敷|なかじ}きを{交換|こうかん}する: to replace insoles\n- {中敷|なかじ}きを{外|はず}す: to remove insoles\n- クッション{中敷|なかじ}き: cushioned insole\n- {消臭|しょうしゅう}{中敷|なかじ}き: deodorizing insole\n\nSIMILAR WORDS:\n- インソール: insole (loanword, often used for athletic or specialty insoles)\n\nUSAGE:\nWidely available in Japan at shoe stores, drugstores, and {百均|ひゃっきん} (100-yen shops). Also used more broadly for any liner placed inside a drawer or container, though the shoe meaning is far more common.",
-  "cross_references": [],
+  "notes": "A removable liner placed inside a shoe for comfort, support, or hygiene purposes.\n\nCOMPOUND: ⟦{中|なか}→中：00654_naka⟧ (inside) + {敷|し}き (laying/spreading)\n\nCOMMON COLLOCATIONS:\n- {中敷|なかじ}き⟦を→を：00422_wo⟧⟦{入|い}れる→入れる：01098_ireru⟧: to insert insoles\n- {中敷|なかじ}き⟦を→を：00422_wo⟧⟦{交換|こうかん}→交換：02746_koukan⟧⟦する→する：00392_suru⟧: to replace insoles\n- {中敷|なかじ}き⟦を→を：00422_wo⟧⟦{外|はず}す→外す：02394_hazusu⟧: to remove insoles\n- ⟦クッション→クッション：10799_kusshon⟧{中敷|なかじ}き: cushioned insole\n- ⟦{消臭|しょうしゅう}→消臭：21552_shoushuu⟧{中敷|なかじ}き: deodorizing insole\n\nSIMILAR WORDS:\n- ⟦インソール→インソール：25739_insooru⟧: insole (loanword, often used for athletic or specialty insoles)\n\nUSAGE:\nWidely available in Japan at shoe stores, drugstores, and {百均|ひゃっきん} (100-yen shops). Also used more broadly for any liner placed inside a drawer or container, though the shoe meaning is far more common.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25739_insooru",
+      "reading": "いんそーる",
+      "headword": "インソール",
+      "label": "insole"
+    },
+    {
+      "type": "related",
+      "target_id": "15486_kutsuzoko",
+      "reading": "くつぞこ",
+      "headword": "{靴底|くつぞこ}",
+      "label": "sole of a shoe"
+    }
+  ],
   "metadata": {
     "created": "2026-03-17T23:24:13Z",
-    "modified": "2026-04-07T03:52:40Z",
+    "modified": "2026-09-02T04:01:48Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["clothing", "daily-life"]
+      "semantic": [
+        "clothing",
+        "daily-life"
+      ]
     }
   }
 }

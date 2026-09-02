@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "19761_nikomi_ex1",
-      "japanese": "{牛|ぎゅう}すじの{煮込|にこ}みが{好|す}きだ。",
+      "japanese": "{牛|ぎゅう}すじ⟦の→の：09472_no⟧{煮込|にこ}み⟦が→が：00051_ga⟧⟦{好|す}き→好き：02355_suki⟧だ。",
       "english": "I like beef tendon stew.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "19761_nikomi_ex2",
-      "japanese": "{今日|きょう}は{煮込|にこ}み{料理|りょうり}を{作|つく}ろう。",
+      "japanese": "⟦{今日|きょう}→今日：00496_kyou⟧⟦は→は：00079_ha⟧{煮込|にこ}み⟦{料理|りょうり}→料理：01523_ryouri⟧⟦を→を：00422_wo⟧⟦{作|つく}ろう→作る：00481_tsukuru⟧。",
       "english": "Let's make a stew today.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "19761_nikomi_ex3",
-      "japanese": "{寒|さむ}い{日|ひ}は、{野菜|やさい}たっぷりの{煮込|にこ}みが{体|からだ}を{温|あたた}めてくれる。",
+      "japanese": "⟦{寒|さむ}い→寒い：00664_samui⟧⟦{日|ひ}→日：02249_hi⟧⟦は→は：00079_ha⟧、⟦{野菜|やさい}→野菜：02265_yasai⟧⟦たっぷり→たっぷり：03404_tappuri⟧⟦の→の：09472_no⟧{煮込|にこ}み⟦が→が：00051_ga⟧⟦{体|からだ}→体：00784_karada⟧⟦を→を：00422_wo⟧⟦{温|あたた}めて→温める：02096_atatameru⟧⟦くれる→くれる：00724_kureru⟧。",
       "english": "On cold days, a stew full of vegetables warms you up.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "The noun form of {煮込|にこ}む (to simmer, to stew). Refers to any dish where ingredients are cooked slowly in liquid until tender and flavorful. A hearty comfort food category in Japanese cuisine.\n\nCOMMON COLLOCATIONS:\n- {煮込|にこ}み{料理|りょうり} — stewed dish, slow-cooked cuisine\n- {煮込|にこ}みうどん — udon noodles simmered in broth\n- {煮込|にこ}みハンバーグ — hamburger steak simmered in sauce\n- もつ{煮込|にこ}み — simmered offal (a popular izakaya dish)\n\nCULTURAL NOTES:\nもつ{煮込|にこ}み (offal stew) is a classic working-class dish often found at izakaya and street stalls. {煮込|にこ}みうどん is a winter favorite, especially in the Nagoya region where it is called {味噌|みそ}{煮込|にこ}みうどん.\n\nRELATED TERMS:\n- {煮込|にこ}む — to simmer, to stew (the verb form)\n- {煮物|にもの} — simmered dishes in general; a broader category in Japanese home cooking",
+  "notes": "The noun form of ⟦{煮込|にこ}む→煮込む：05822_nikomu⟧ (to simmer, to stew). Refers to any dish where ingredients are cooked slowly in liquid until tender and flavorful. A hearty comfort food category in Japanese cuisine.\n\nCOMMON COLLOCATIONS:\n- {煮込|にこ}み⟦{料理|りょうり}→料理：01523_ryouri⟧ — stewed dish, slow-cooked cuisine\n- {煮込|にこ}み⟦うどん→うどん：05182_udon⟧ — udon noodles simmered in broth\n- {煮込|にこ}み⟦ハンバーグ→ハンバーグ：01785_hanbaagu⟧ — hamburger steak simmered in sauce\n- もつ{煮込|にこ}み — simmered offal (a popular izakaya dish)\n\nCULTURAL NOTE:\nもつ{煮込|にこ}み (offal stew) is a classic working-class dish often found at izakaya and street stalls. {煮込|にこ}み⟦うどん→うどん：05182_udon⟧ is a winter favorite, especially in the Nagoya region where it is called {味噌|みそ}{煮込|にこ}みうどん.\n\nRELATED WORDS:\n- ⟦{煮込|にこ}む→煮込む：05822_nikomu⟧ — to simmer, to stew (the verb form)\n- ⟦{煮物|にもの}→煮物：04971_nimono⟧ — simmered dishes in general; a broader category in Japanese home cooking",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "05822_nikomu",
+      "reading": "にこむ",
+      "headword": "{煮込|にこ}む",
+      "label": "to simmer, to stew"
+    },
+    {
+      "type": "related",
+      "target_id": "04971_nimono",
+      "reading": "にもの",
+      "headword": "{煮物|にもの}",
+      "label": "simmered dishes in general"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +75,6 @@
       ]
     },
     "created": "2026-03-26T23:22:00Z",
-    "modified": "2026-03-26T23:22:00Z"
+    "modified": "2026-09-02T04:01:57Z"
   }
 }

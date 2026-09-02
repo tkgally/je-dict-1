@@ -15,41 +15,61 @@
   "examples": [
     {
       "id": "27421_bikini_ex1",
-      "japanese": "{新|あたら}しいビキニを{買|か}った。",
+      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧ビキニ⟦を→を：00422_wo⟧⟦{買|か}った→買う：00489_kau⟧。",
       "english": "I bought a new bikini.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27421_bikini_ex2",
-      "japanese": "{白|しろ}いビキニを{着|き}て{海|うみ}で{泳|およ}いだ。",
+      "japanese": "⟦{白|しろ}い→白い：00587_shiroi⟧ビキニ⟦を→を：00422_wo⟧⟦{着|き}て→着る：00541_kiru⟧⟦{海|うみ}→海：00556_umi⟧⟦で→で：00502_de⟧⟦{泳|およ}いだ→泳ぐ：00545_oyogu⟧。",
       "english": "I wore a white bikini and swam in the sea.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27421_bikini_ex3",
-      "japanese": "{夏休|なつやす}みに{合|あ}わせて、おしゃれなビキニを{探|さが}している。",
+      "japanese": "⟦{夏休|なつやす}み→夏休み：02925_natsuyasumi⟧⟦に→に：00314_ni⟧⟦{合|あ}わせて→合わせる：01872_awaseru⟧、⟦おしゃれ→おしゃれ：02515_oshare⟧なビキニ⟦を→を：00422_wo⟧⟦{探|さが}している→探す：00493_sagasu⟧。",
       "english": "I'm looking for a stylish bikini for summer vacation.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Loanword from English \"bikini.\" Refers to the two-piece swimsuit style; can be replaced by the longer ビキニタイプの{水着|みずぎ} when contrast with one-piece styles is needed.\n\nCOMMON COLLOCATIONS:\n- ビキニを{着|き}る: to wear a bikini\n- ビキニ{姿|すがた}: bikini-clad figure\n- ハイウエストビキニ: high-waisted bikini\n- ビキニトップ / ビキニボトム: bikini top / bottom\n\nSIMILAR WORDS:\n- {水着|みずぎ}: swimsuit — general term; includes bikinis, one-pieces, and trunks\n- ワンピース{水着|みずぎ}: one-piece swimsuit — explicit contrast term\n- タンキニ: tankini — bikini bottom with a longer tank-style top",
+  "notes": "Loanword from English \"bikini.\" Refers to the two-piece swimsuit style; can be replaced by the longer ビキニ⟦タイプ→タイプ：01534_taipu⟧⟦の→の：09472_no⟧⟦{水着|みずぎ}→水着：00286_mizugi⟧ when contrast with one-piece styles is needed.\n\nCOMMON COLLOCATIONS:\n- ビキニ⟦を→を：00422_wo⟧⟦{着|き}る→着る：00541_kiru⟧: to wear a bikini\n- ビキニ⟦{姿|すがた}→姿：03363_sugata⟧: bikini-clad figure\n- ハイウエストビキニ: high-waisted bikini\n- ビキニ⟦トップ→トップ：03862_toppu⟧ / ビキニボトム: bikini top / bottom\n\nSIMILAR WORDS:\n- ⟦{水着|みずぎ}→水着：00286_mizugi⟧: swimsuit — general term; includes bikinis, one-pieces, and trunks\n- ⟦ワンピース→ワンピース：04526_wanpiisu⟧⟦{水着|みずぎ}→水着：00286_mizugi⟧: one-piece swimsuit — explicit contrast term\n- タンキニ: tankini — bikini bottom with a longer tank-style top",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00286_mizugi",
+      "reading": "みずぎ",
+      "headword": "{水着|みずぎ}",
+      "label": "swimsuit"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["clothing", "loanword"],
+      "politeness": "plain",
+      "semantic": [
+        "clothing",
+        "loanword"
+      ],
       "domain": []
     },
     "created": "2026-05-11T07:40:10Z",
-    "modified": "2026-05-11T07:40:10Z"
+    "modified": "2026-09-02T04:02:30Z"
   }
 }

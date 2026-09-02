@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "25044_hyakujuu_ex1",
-      "japanese": "ライオンは{百獣|ひゃくじゅう}の{王|おう}だ。",
+      "japanese": "⟦ライオン→ライオン：05197_raion⟧⟦は→は：00079_ha⟧{百獣|ひゃくじゅう}⟦の→の：09472_no⟧⟦{王|おう}→王：19353_ou⟧だ。",
       "english": "The lion is the king of beasts.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "25044_hyakujuu_ex2",
-      "japanese": "{百獣|ひゃくじゅう}の{王|おう}と{呼|よ}ばれるライオンにも{天敵|てんてき}はいる。",
+      "japanese": "{百獣|ひゃくじゅう}⟦の→の：09472_no⟧⟦{王|おう}→王：19353_ou⟧⟦と→と：00512_to⟧⟦{呼|よ}ばれる→呼ぶ：00766_yobu⟧⟦ライオン→ライオン：05197_raion⟧⟦に→に：00314_ni⟧⟦も→も：00484_mo⟧⟦{天敵|てんてき}→天敵：15846_tenteki⟧はいる。",
       "english": "Even the lion, called the king of beasts, has natural enemies.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "25044_hyakujuu_ex3",
-      "japanese": "{古代|こだい}の{神話|しんわ}では、{百獣|ひゃくじゅう}を{従|したが}える{神|かみ}の{物語|ものがたり}が{数多|かずおお}く{語|かた}られている。",
+      "japanese": "⟦{古代|こだい}→古代：05324_kodai⟧⟦の→の：09472_no⟧⟦{神話|しんわ}→神話：00367_shinwa⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧、{百獣|ひゃくじゅう}⟦を→を：00422_wo⟧⟦{従|したが}える→従える：12561_shitagaeru⟧⟦{神|かみ}→神：02147_kami⟧⟦の→の：09472_no⟧⟦{物語|ものがたり}→物語：03634_monogatari⟧⟦が→が：00051_ga⟧⟦{数多|かずおお}く→数多く：12948_kazuooku⟧⟦{語|かた}られている→語る：01930_kataru⟧。",
       "english": "In ancient mythology, there are many stories told of gods who commanded all the beasts.",
       "sense_numbers": [
         1
@@ -43,19 +43,36 @@
       "notes": null
     }
   ],
-  "notes": "A literary term where {百|ひゃく} means \"all\" or \"many\" (not literally one hundred) and {獣|じゅう} means \"beast.\" Most commonly encountered in the set phrase {百獣|ひゃくじゅう}の{王|おう} (king of beasts).\n\nCOMMON COLLOCATIONS:\n- {百獣|ひゃくじゅう}の{王|おう}: king of beasts (referring to the lion)\n- {百獣|ひゃくじゅう}を{従|したが}える: to command all beasts\n\nCULTURAL NOTE:\nThe phrase {百獣|ひゃくじゅう}の{王|おう} appears in anime, manga, and television. The professional wrestler and mixed martial artist Akira Maeda was famously nicknamed {百獣|ひゃくじゅう}の{王|おう}. The concept also features in various Japanese card games and fantasy media.\n\nSIMILAR WORDS:\n- {野獣|やじゅう}: wild beast — refers to specific savage animals\n- {猛獣|もうじゅう}: fierce beast, dangerous animal — emphasizes danger\n- {動物|どうぶつ}: animal — the general, everyday word",
+  "notes": "A literary term where ⟦{百|ひゃく}→百：00780_hyaku⟧ means \"all\" or \"many\" (not literally one hundred) and {獣|じゅう} means \"beast.\" Most commonly encountered in the set phrase {百獣|ひゃくじゅう}⟦の→の：09472_no⟧⟦{王|おう}→王：19353_ou⟧ (king of beasts).\n\nCOMMON COLLOCATIONS:\n- {百獣|ひゃくじゅう}⟦の→の：09472_no⟧⟦{王|おう}→王：19353_ou⟧: king of beasts (referring to the lion)\n- {百獣|ひゃくじゅう}⟦を→を：00422_wo⟧⟦{従|したが}える→従える：12561_shitagaeru⟧: to command all beasts\n\nCULTURAL NOTE:\nThe phrase {百獣|ひゃくじゅう}⟦の→の：09472_no⟧⟦{王|おう}→王：19353_ou⟧ appears in anime, manga, and television. The professional wrestler and mixed martial artist Akira Maeda was famously nicknamed {百獣|ひゃくじゅう}⟦の→の：09472_no⟧⟦{王|おう}→王：19353_ou⟧. The concept also features in various Japanese card games and fantasy media.\n\nSIMILAR WORDS:\n- {野獣|やじゅう}: wild beast — refers to specific savage animals\n- ⟦{猛獣|もうじゅう}→猛獣：15715_moujuu⟧: fierce beast, dangerous animal — emphasizes danger\n- ⟦{動物|どうぶつ}→動物：01480_doubutsu⟧: animal — the general, everyday word",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15715_moujuu",
+      "reading": "もうじゅう",
+      "headword": "{猛獣|もうじゅう}",
+      "label": "fierce beast, dangerous animal"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01480_doubutsu",
+      "reading": "どうぶつ",
+      "headword": "{動物|どうぶつ}",
+      "label": "animal"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "general"
       ]
     },
     "created": "2026-04-22T12:38:15Z",
-    "modified": "2026-04-22T12:38:15Z"
+    "modified": "2026-09-02T04:02:20Z"
   }
 }

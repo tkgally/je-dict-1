@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "12048_jinushi_ex1",
-      "japanese": "{地主|じぬし}に{許可|きょか}をもらう。",
+      "japanese": "{地主|じぬし}⟦に→に：00314_ni⟧⟦{許可|きょか}→許可：00259_kyoka⟧⟦を→を：00422_wo⟧⟦もらう→もらう：00520_morau⟧。",
       "english": "To get permission from the landowner.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12048_jinushi_ex2",
-      "japanese": "{地主|じぬし}と{借地人|しゃくちにん}の{間|あいだ}でトラブルが{起|お}きた。",
+      "japanese": "{地主|じぬし}⟦と→と：00512_to⟧{借地人|しゃくちにん}⟦の→の：09472_no⟧⟦{間|あいだ}→間：00914_aida⟧⟦で→で：00502_de⟧⟦トラブル→トラブル：07061_toraburu⟧⟦が→が：00051_ga⟧⟦{起|お}きた→起きる：00521_okiru⟧。",
       "english": "A dispute arose between the landowner and the tenant.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12048_jinushi_ex3",
-      "japanese": "{戦前|せんぜん}の{日本|にほん}では{大|おお}{地主|じぬし}が{広大|こうだい}な{農地|のうち}を{所有|しょゆう}していた。",
+      "japanese": "⟦{戦前|せんぜん}→戦前：12852_senzen⟧⟦の→の：09472_no⟧⟦{日本|にほん}→日本：03876_nihon⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧{大|おお}{地主|じぬし}⟦が→が：00051_ga⟧⟦{広大|こうだい}→広大：11328_koudai⟧な⟦{農地|のうち}→農地：14354_nouchi⟧⟦を→を：00422_wo⟧⟦{所有|しょゆう}→所有：12752_shoyuu⟧⟦していた→する：00392_suru⟧。",
       "english": "In prewar Japan, large landowners possessed vast farmland.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "HISTORY:\nThe {地主|じぬし} system was central to pre-modern Japanese agriculture. Large landowners leased rice paddies to tenant farmers ({小作人|こさくにん}), who paid rent in rice. After World War II, the Allied occupation carried out land reform ({農地|のうち}{改革|かいかく}), breaking up large estates and distributing land to tenant farmers.\n\nCOMMON COLLOCATIONS:\n- {大|おお}{地主|じぬし}: large landowner\n- {地主|じぬし}と{小作人|こさくにん}: landowner and tenant farmer\n- {不在|ふざい}{地主|じぬし}: absentee landlord",
+  "notes": "ETYMOLOGY:\nThe {地主|じぬし} system was central to pre-modern Japanese agriculture. Large landowners leased rice paddies to tenant farmers ({小作人|こさくにん}), who paid rent in rice. After World War II, the Allied occupation carried out land reform (⟦{農地|のうち}→農地：14354_nouchi⟧⟦{改革|かいかく}→改革：04815_kaikaku⟧), breaking up large estates and distributing land to tenant farmers.\n\nCOMMON COLLOCATIONS:\n- {大|おお}{地主|じぬし}: large landowner\n- {地主|じぬし}⟦と→と：00512_to⟧{小作人|こさくにん}: landowner and tenant farmer\n- ⟦{不在|ふざい}→不在：11302_fuzai⟧{地主|じぬし}: absentee landlord",
   "cross_references": [
     {
       "type": "contrast",
@@ -46,18 +52,37 @@
       "reading": "おおや",
       "headword": "{大家|おおや}",
       "label": "building landlord"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04079_yanushi",
+      "reading": "やぬし",
+      "headword": "{家主|やぬし}",
+      "label": "landlord, homeowner"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14859_ryoushu",
+      "reading": "りょうしゅ",
+      "headword": "{領主|りょうしゅ}",
+      "label": "feudal lord"
     }
   ],
   "metadata": {
     "created": "2026-02-19T13:38:26Z",
-    "modified": "2026-04-26T04:23:53Z",
+    "modified": "2026-09-02T04:01:27Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["society", "history"]
+      "semantic": [
+        "society",
+        "history"
+      ]
     }
   }
 }

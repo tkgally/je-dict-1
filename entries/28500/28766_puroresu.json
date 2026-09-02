@@ -15,41 +15,67 @@
   "examples": [
     {
       "id": "28766_puroresu_ex1",
-      "japanese": "{父|ちち}はプロレスが{好|す}きだ。",
+      "japanese": "⟦{父|ちち}→父：00566_chichi⟧⟦は→は：00079_ha⟧プロレス⟦が→が：00051_ga⟧⟦{好|す}き→好き：02355_suki⟧だ。",
       "english": "My father loves pro wrestling.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28766_puroresu_ex2",
-      "japanese": "{子供|こども}の{頃|ころ}、テレビでプロレスを{見|み}ていた。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧⟦の→の：09472_no⟧{頃|ころ}、⟦テレビ→テレビ：01536_terebi⟧⟦で→で：00502_de⟧プロレス⟦を→を：00422_wo⟧⟦{見|み}ていた→見る：00283_miru⟧。",
       "english": "I used to watch pro wrestling on TV as a kid.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28766_puroresu_ex3",
-      "japanese": "{日本|にほん}のプロレスは、{格闘技|かくとうぎ}と{演出|えんしゅつ}が{融合|ゆうごう}した{独特|どくとく}の{文化|ぶんか}を{持|も}つ。",
+      "japanese": "⟦{日本|にほん}→日本：03876_nihon⟧⟦の→の：09472_no⟧プロレス⟦は→は：00079_ha⟧、⟦{格闘技|かくとうぎ}→格闘技：09246_kakutougi⟧⟦と→と：00512_to⟧⟦{演出|えんしゅつ}→演出：04460_enshutsu⟧⟦が→が：00051_ga⟧⟦{融合|ゆうごう}→融合：14036_yuugou⟧⟦した→する：00392_suru⟧⟦{独特|どくとく}→独特：01656_dokutoku⟧⟦の→の：09472_no⟧⟦{文化|ぶんか}→文化：01504_bunka⟧⟦を→を：00422_wo⟧⟦{持|も}つ→持つ：00478_motsu⟧。",
       "english": "Japanese pro wrestling has a unique culture that blends martial arts with theatrical staging.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Short for プロフェッショナル・レスリング. Pro wrestling has been a major spectator sport in Japan since the 1950s, and Japanese-style プロレス is distinct from American pro wrestling in its emphasis on technical grappling.\n\nCOMMON COLLOCATIONS:\n- プロレスを{見|み}る: to watch pro wrestling\n- プロレス{団体|だんたい}: pro wrestling promotion/organization\n- プロレスラー: pro wrestler\n- プロレスの{試合|しあい}: a pro wrestling match\n\nSIMILAR WORDS:\n- {格闘技|かくとうぎ}: combat sports — broader category including MMA, boxing, judo\n- レスリング: wrestling — usually refers to amateur/Olympic wrestling, not pro wrestling",
+  "notes": "Short for ⟦プロフェッショナル→プロフェッショナル：26668_purofesshonaru⟧・⟦レスリング→レスリング：05236_resuringu⟧. Pro wrestling has been a major spectator sport in Japan since the 1950s, and Japanese-style プロレス is distinct from American pro wrestling in its emphasis on technical grappling.\n\nCOMMON COLLOCATIONS:\n- プロレス⟦を→を：00422_wo⟧⟦{見|み}る→見る：00283_miru⟧: to watch pro wrestling\n- プロレス⟦{団体|だんたい}→団体：03426_dantai⟧: pro wrestling promotion/organization\n- プロレスラー: pro wrestler\n- プロレス⟦の→の：09472_no⟧⟦{試合|しあい}→試合：01601_shiai⟧: a pro wrestling match\n\nSIMILAR WORDS:\n- ⟦{格闘技|かくとうぎ}→格闘技：09246_kakutougi⟧: combat sports — broader category including MMA, boxing, judo\n- ⟦レスリング→レスリング：05236_resuringu⟧: wrestling — usually refers to amateur/Olympic wrestling, not pro wrestling",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09246_kakutougi",
+      "reading": "かくとうぎ",
+      "headword": "{格闘技|かくとうぎ}",
+      "label": "combat sports"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05236_resuringu",
+      "reading": "れすりんぐ",
+      "headword": "レスリング",
+      "label": "wrestling"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["sports"],
+      "politeness": "plain",
+      "semantic": [
+        "sports"
+      ],
       "domain": []
     },
     "created": "2026-06-05T02:07:15Z",
-    "modified": "2026-06-05T02:07:15Z"
+    "modified": "2026-09-02T04:02:34Z"
   }
 }

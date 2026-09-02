@@ -15,40 +15,66 @@
   "examples": [
     {
       "id": "21881_shiji_ex1",
-      "japanese": "{私事|しじ}で{恐縮|きょうしゅく}ですが。",
+      "japanese": "{私事|しじ}⟦で→で：00502_de⟧⟦{恐縮|きょうしゅく}→恐縮：07596_kyoushuku⟧です⟦が→が：00051_ga⟧。",
       "english": "I'm sorry to bring up a personal matter, but...",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21881_shiji_ex2",
-      "japanese": "{私事|しじ}ではございますが、この{度|たび}{結婚|けっこん}いたしました。",
+      "japanese": "{私事|しじ}⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦ございます→ございます：01300_gozaimasu⟧⟦が→が：00051_ga⟧、⟦この→この：00962_kono⟧⟦{度|たび}→度：03431_tabi⟧⟦{結婚|けっこん}→結婚：02514_kekkon⟧⟦いたしました→いたす：01314_itasu⟧。",
       "english": "On a personal note, I recently got married.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21881_shiji_ex3",
-      "japanese": "{仕事|しごと}と{私事|しじ}はきちんと{分|わ}けるべきだ。",
+      "japanese": "⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦と→と：00512_to⟧{私事|しじ}⟦は→は：00079_ha⟧⟦きちんと→きちんと：00222_kichinto⟧⟦{分|わ}ける→分ける：02333_wakeru⟧べきだ。",
       "english": "One should properly separate work and personal matters.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {私|し} (private/personal) + {事|じ} (matter/affair). A formal word used especially in business and professional settings when introducing personal topics.\n\nREADING:\nAlso sometimes read as わたくしごと, which sounds even more formal and humble.\n\nCOMMON COLLOCATIONS:\n- {私事|しじ}で{恐縮|きょうしゅく}ですが: I'm sorry to mention something personal, but...\n- {私事|しじ}ではございますが: on a personal note (very polite)\n- {私事|しじ}を{優先|ゆうせん}する: to prioritize personal matters\n\nSIMILAR WORDS:\n- {個人的|こじんてき}なこと: personal thing — more casual, everyday usage\n- {公私|こうし}: public and private (matters) — used for the contrast between work and personal life\n- {私用|しよう}: personal use/business — focuses on activities done for personal reasons",
+  "notes": "Composed of {私|し} (private/personal) + {事|じ} (matter/affair). A formal word used especially in business and professional settings when introducing personal topics.\n\nPRONUNCIATION:\nAlso sometimes read as わたくしごと, which sounds even more formal and humble.\n\nCOMMON COLLOCATIONS:\n- {私事|しじ}⟦で→で：00502_de⟧⟦{恐縮|きょうしゅく}→恐縮：07596_kyoushuku⟧です⟦が→が：00051_ga⟧: I'm sorry to mention something personal, but...\n- {私事|しじ}⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦ございます→ございます：01300_gozaimasu⟧⟦が→が：00051_ga⟧: on a personal note (very polite)\n- {私事|しじ}⟦を→を：00422_wo⟧⟦{優先|ゆうせん}→優先：15243_yuusen⟧⟦する→する：00392_suru⟧: to prioritize personal matters\n\nSIMILAR WORDS:\n- ⟦{個人的|こじんてき}→個人的：04788_kojinteki⟧なこと: personal thing — more casual, everyday usage\n- ⟦{公私|こうし}→公私：21213_koushi⟧: public and private (matters) — used for the contrast between work and personal life\n- ⟦{私用|しよう}→私用：00459_shiyou⟧: personal use/business — focuses on activities done for personal reasons",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21213_koushi",
+      "reading": "こうし",
+      "headword": "{公私|こうし}",
+      "label": "public and private"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00459_shiyou",
+      "reading": "しよう",
+      "headword": "{私用|しよう}",
+      "label": "personal use/business"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["daily-life"]
+      "semantic": [
+        "daily-life"
+      ]
     },
     "created": "2026-04-03T20:24:39Z",
-    "modified": "2026-04-03T20:24:39Z"
+    "modified": "2026-09-02T04:02:05Z"
   }
 }

@@ -2,7 +2,7 @@
   "id": "11640_kouhyou",
   "headword": "{公表|こうひょう}",
   "reading": "こうひょう",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "public announcement, disclosure",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "11640_kouhyou_ex1",
-      "japanese": "{調査|ちょうさ}{結果|けっか}を{公表|こうひょう}する。",
+      "japanese": "⟦{調査|ちょうさ}→調査：03489_chousa⟧⟦{結果|けっか}→結果：02486_kekka⟧⟦を→を：00422_wo⟧{公表|こうひょう}⟦する→する：00392_suru⟧。",
       "english": "Make the investigation results public.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "11640_kouhyou_ex2",
-      "japanese": "{政府|せいふ}は{新|あら}たな{対策|たいさく}を{公表|こうひょう}した。",
+      "japanese": "⟦{政府|せいふ}→政府：03294_seifu⟧⟦は→は：00079_ha⟧⟦{新|あら}た→新た：01697_arata⟧な⟦{対策|たいさく}→対策：02511_taisaku⟧⟦を→を：00422_wo⟧{公表|こうひょう}⟦した→する：00392_suru⟧。",
       "english": "The government announced new measures.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "11640_kouhyou_ex3",
-      "japanese": "{個人|こじん}{情報|じょうほう}の{保護|ほご}のため、{氏名|しめい}は{公表|こうひょう}されなかった。",
+      "japanese": "⟦{個人|こじん}{情報|じょうほう}→個人情報：18842_kojinjouhou⟧⟦の→の：09472_no⟧⟦{保護|ほご}→保護：03625_hogo⟧⟦の→の：09472_no⟧⟦ため→ため：01145_tame⟧、⟦{氏名|しめい}→氏名：04033_shimei⟧⟦は→は：00079_ha⟧{公表|こうひょう}⟦されなかった→する：00392_suru⟧。",
       "english": "The names were not disclosed in order to protect personal information.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,33 @@
       ]
     }
   ],
-  "notes": "A formal word used for official disclosures. Common in news reporting and government communications.\n\nCOMMON COLLOCATIONS:\n・{結果|けっか}を{公表|こうひょう}する (announce results)\n・データを{公表|こうひょう}する (release data)\n・{氏名|しめい}を{公表|こうひょう}する (disclose names)\n・{公表|こうひょう}を{控|ひか}える (refrain from disclosure)\n\nCOMPARISON:\n・{発表|はっぴょう}: a broader term for announcements, presentations, and releases\n・{公表|こうひょう}: specifically making something public that was previously private\n・{公開|こうかい}: opening something to the public (documents, facilities, events)",
-  "cross_references": [],
+  "notes": "A formal word used for official disclosures. Common in news reporting and government communications.\n\nCOMMON COLLOCATIONS:\n- ⟦{結果|けっか}→結果：02486_kekka⟧⟦を→を：00422_wo⟧{公表|こうひょう}⟦する→する：00392_suru⟧ (announce results)\n- ⟦データ→データ：03944_deeta⟧⟦を→を：00422_wo⟧{公表|こうひょう}⟦する→する：00392_suru⟧ (release data)\n- ⟦{氏名|しめい}→氏名：04033_shimei⟧⟦を→を：00422_wo⟧{公表|こうひょう}⟦する→する：00392_suru⟧ (disclose names)\n- {公表|こうひょう}⟦を→を：00422_wo⟧⟦{控|ひか}える→控える：10054_hikaeru⟧ (refrain from disclosure)\n\nSIMILAR WORDS:\n- ⟦{発表|はっぴょう}→発表：03562_happyou⟧: a broader term for announcements, presentations, and releases\n- {公表|こうひょう}: specifically making something public that was previously private\n- ⟦{公開|こうかい}→公開：11665_koukai⟧: opening something to the public (documents, facilities, events)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03562_happyou",
+      "reading": "はっぴょう",
+      "headword": "{発表|はっぴょう}",
+      "label": "a broader term for announcements…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11665_koukai",
+      "reading": "こうかい",
+      "headword": "{公開|こうかい}",
+      "label": "opening something to the public"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25231_happyousuru",
+      "reading": "はっぴょうする",
+      "headword": "{発表|はっぴょう}する",
+      "label": "to announce"
+    }
+  ],
   "metadata": {
     "created": "2026-02-17T18:34:11Z",
-    "modified": "2026-03-29T03:07:35Z",
+    "modified": "2026-09-02T04:01:25Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

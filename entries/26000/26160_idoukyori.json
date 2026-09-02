@@ -15,39 +15,59 @@
   "examples": [
     {
       "id": "26160_idoukyori_ex1",
-      "japanese": "{一日|いちにち}の{移動距離|いどうきょり}は{約|やく}20キロだった。",
+      "japanese": "⟦{一日|いちにち}→一日：00942_ichinichi⟧⟦の→の：09472_no⟧{移動距離|いどうきょり}⟦は→は：00079_ha⟧⟦{約|やく}→約：09563_yaku⟧20⟦キロ→キロ：01350_kiro⟧だった。",
       "english": "The travel distance for the day was about 20 kilometers.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26160_idoukyori_ex2",
-      "japanese": "{移動距離|いどうきょり}が{長|なが}いので、{飛行機|ひこうき}を{使|つか}った{方|ほう}がいい。",
+      "japanese": "{移動距離|いどうきょり}⟦が→が：00051_ga⟧⟦{長|なが}い→長い：00491_nagai⟧⟦の→の：09472_no⟧で、⟦{飛行機|ひこうき}→飛行機：00629_hikouki⟧⟦を→を：00422_wo⟧⟦{使|つか}った→使う：00473_tsukau⟧⟦{方|ほう}→方：01139_hou⟧⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧。",
       "english": "Since the travel distance is long, it's better to use a plane.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26160_idoukyori_ex3",
-      "japanese": "スマートウォッチで{一日|いちにち}の{移動距離|いどうきょり}を{記録|きろく}している。",
+      "japanese": "⟦スマートウォッチ→スマートウォッチ：28554_sumaatowocchi⟧⟦で→で：00502_de⟧⟦{一日|いちにち}→一日：00942_ichinichi⟧⟦の→の：09472_no⟧{移動距離|いどうきょり}⟦を→を：00422_wo⟧⟦{記録|きろく}している→記録する：25341_kirokusuru⟧。",
       "english": "I record my daily travel distance with a smartwatch.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {移動|いどう} (movement, travel) + {距離|きょり} (distance). A practical compound used across many contexts — from everyday commuting discussions to logistics planning and fitness tracking.\n\nCOMMON COLLOCATIONS:\n- {移動距離|いどうきょり}が{長|なが}い: long travel distance\n- {移動距離|いどうきょり}を{短縮|たんしゅく}する: to shorten travel distance\n- {一日|いちにち}の{移動距離|いどうきょり}: daily travel distance\n- {総|そう}{移動距離|いどうきょり}: total distance traveled\n\nSIMILAR WORDS:\n- {走行距離|そうこうきょり}: mileage, distance driven — specifically for vehicles\n- {道のり|みちのり}: route distance — emphasizes the path taken\n- {直線距離|ちょくせんきょり}: straight-line distance — as the crow flies",
-  "cross_references": [],
+  "notes": "Composed of ⟦{移動|いどう}→移動：01741_idou⟧ (movement, travel) + ⟦{距離|きょり}→距離：05331_kyori⟧ (distance). A practical compound used across many contexts — from everyday commuting discussions to logistics planning and fitness tracking.\n\nCOMMON COLLOCATIONS:\n- {移動距離|いどうきょり}⟦が→が：00051_ga⟧⟦{長|なが}い→長い：00491_nagai⟧: long travel distance\n- {移動距離|いどうきょり}⟦を→を：00422_wo⟧⟦{短縮|たんしゅく}する→短縮する：26835_tanshukusuru⟧: to shorten travel distance\n- ⟦{一日|いちにち}→一日：00942_ichinichi⟧⟦の→の：09472_no⟧{移動距離|いどうきょり}: daily travel distance\n- ⟦{総|そう}→総〜：03958_sou⟧{移動距離|いどうきょり}: total distance traveled\n\nSIMILAR WORDS:\n- ⟦{走行距離|そうこうきょり}→走行距離：18176_soukoukyori⟧: mileage, distance driven — specifically for vehicles\n- {道|みち}のり: route distance — emphasizes the path taken\n- {直線距離|ちょくせんきょり}: straight-line distance — as the crow flies",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18176_soukoukyori",
+      "reading": "そうこうきょり",
+      "headword": "{走行距離|そうこうきょり}",
+      "label": "mileage, distance driven"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["transportation"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "transportation"
+      ]
     },
     "created": "2026-04-29T15:32:04Z",
-    "modified": "2026-04-29T15:32:04Z"
+    "modified": "2026-09-02T04:02:25Z"
   }
 }

@@ -15,41 +15,67 @@
   "examples": [
     {
       "id": "29536_haneigesshoku_ex1",
-      "japanese": "{半影|はんえい}{月食|げっしょく}は{分|わ}かりにくい。",
+      "japanese": "{半影|はんえい}{月食|げっしょく}⟦は→は：00079_ha⟧⟦{分|わ}かり→分かる：00463_wakaru⟧にくい。",
       "english": "A penumbral lunar eclipse is hard to notice.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29536_haneigesshoku_ex2",
-      "japanese": "{今日|きょう}の{半影|はんえい}{月食|げっしょく}では{月|つき}がわずかに{暗|くら}くなった。",
+      "japanese": "⟦{今日|きょう}→今日：00496_kyou⟧⟦の→の：09472_no⟧{半影|はんえい}{月食|げっしょく}⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{月|つき}→月：02230_tsuki⟧⟦が→が：00051_ga⟧わずか⟦に→に：00314_ni⟧⟦{暗|くら}く→暗い：00647_kurai⟧⟦なった→なる：01970_naru⟧。",
       "english": "In today's penumbral lunar eclipse the Moon dimmed only slightly.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29536_haneigesshoku_ex3",
-      "japanese": "{半影|はんえい}{月食|げっしょく}は{部分|ぶぶん}{月食|げっしょく}よりも{変化|へんか}が{小|ちい}さいので{見逃|みのが}しやすい。",
+      "japanese": "{半影|はんえい}{月食|げっしょく}⟦は→は：00079_ha⟧⟦{部分|ぶぶん}{月食|げっしょく}→部分月食：29535_bubungesshoku⟧⟦より→より：09476_yori⟧⟦も→も：00484_mo⟧⟦{変化|へんか}→変化：03615_henka⟧⟦が→が：00051_ga⟧⟦{小|ちい}さい→小さい：00025_chiisai⟧⟦の→の：09472_no⟧で⟦{見逃|みのが}し→見逃す：04576_minogasu⟧やすい。",
       "english": "A penumbral lunar eclipse changes less than a partial one, so it is easy to miss.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {半影|はんえい} (penumbra; partial shadow) + {月食|げっしょく} (lunar eclipse).\n\nCOMMON COLLOCATIONS:\n- {半影|はんえい}{月食|げっしょく}が{起|お}こる: a penumbral lunar eclipse occurs\n- {半影|はんえい}{月食|げっしょく}を{観測|かんそく}する: to observe a penumbral lunar eclipse\n\nSIMILAR WORDS:\n- {部分|ぶぶん}{月食|げっしょく}: partial eclipse — part of the Moon enters the dark umbra\n- {皆既|かいき}{月食|げっしょく}: total eclipse — the whole Moon is in shadow",
+  "notes": "Composed of {半影|はんえい} (penumbra; partial shadow) + ⟦{月食|げっしょく}→月食：06312_gesshoku⟧ (lunar eclipse).\n\nCOMMON COLLOCATIONS:\n- {半影|はんえい}{月食|げっしょく}⟦が→が：00051_ga⟧⟦{起|お}こる→起こる：01910_okoru⟧: a penumbral lunar eclipse occurs\n- {半影|はんえい}{月食|げっしょく}⟦を→を：00422_wo⟧⟦{観測|かんそく}→観測：00183_kansoku⟧⟦する→する：00392_suru⟧: to observe a penumbral lunar eclipse\n\nSIMILAR WORDS:\n- ⟦{部分|ぶぶん}{月食|げっしょく}→部分月食：29535_bubungesshoku⟧: partial eclipse — part of the Moon enters the dark umbra\n- ⟦{皆既|かいき}{月食|げっしょく}→皆既月食：17892_kaikigesshoku⟧: total eclipse — the whole Moon is in shadow",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "29535_bubungesshoku",
+      "reading": "ぶぶんげっしょく",
+      "headword": "{部分|ぶぶん}{月食|げっしょく}",
+      "label": "partial eclipse"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17892_kaikigesshoku",
+      "reading": "かいきげっしょく",
+      "headword": "{皆既月食|かいきげっしょく}",
+      "label": "total eclipse"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["science"],
+      "politeness": "plain",
+      "semantic": [
+        "science"
+      ],
       "domain": []
     },
     "created": "2026-06-28T09:18:52Z",
-    "modified": "2026-06-28T09:18:52Z"
+    "modified": "2026-09-02T04:02:37Z"
   }
 }

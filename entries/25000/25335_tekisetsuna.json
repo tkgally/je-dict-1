@@ -3,7 +3,7 @@
   "headword": "{適切|てきせつ}な",
   "reading": "てきせつな",
   "romaji": "tekisetsuna",
-  "part_of_speech": "adjective",
+  "part_of_speech": "na-adjective",
   "gloss": "appropriate; suitable; proper",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25335_tekisetsuna_ex1",
-      "japanese": "{適切|てきせつ}な{対応|たいおう}をお{願|ねが}いします。",
+      "japanese": "{適切|てきせつ}な⟦{対応|たいおう}→対応：02510_taiou⟧⟦を→を：00422_wo⟧お{願|ねが}いします。",
       "english": "Please respond appropriately.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25335_tekisetsuna_ex2",
-      "japanese": "{状況|じょうきょう}に{適切|てきせつ}な{判断|はんだん}が{求|もと}められる。",
+      "japanese": "⟦{状況|じょうきょう}→状況：01576_joukyou⟧⟦に→に：00314_ni⟧{適切|てきせつ}な⟦{判断|はんだん}→判断：03571_handan⟧⟦が→が：00051_ga⟧⟦{求|もと}められる→求める：02316_motomeru⟧。",
       "english": "Making an appropriate judgment for the situation is required.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25335_tekisetsuna_ex3",
-      "japanese": "{適切|てきせつ}な{時期|じき}に{適切|てきせつ}な{治療|ちりょう}を{受|う}ければ、{回復|かいふく}の{可能性|かのうせい}は{高|たか}い。",
+      "japanese": "{適切|てきせつ}な⟦{時期|じき}→時期：03269_jiki⟧⟦に→に：00314_ni⟧{適切|てきせつ}な⟦{治療|ちりょう}→治療：03503_chiryou⟧⟦を→を：00422_wo⟧⟦{受|う}ければ→受ける：01215_ukeru⟧、⟦{回復|かいふく}→回復：03812_kaifuku⟧⟦の→の：09472_no⟧⟦{可能性|かのうせい}→可能性：04818_kanousei⟧⟦は→は：00079_ha⟧⟦{高|たか}い→高い：00500_takai⟧。",
       "english": "If you receive proper treatment at the right time, the chances of recovery are high.",
       "sense_numbers": [
         1
@@ -44,19 +44,50 @@
       "notes": null
     }
   ],
-  "notes": "A formal and versatile na-adjective used across many contexts — business, medicine, education, law, and daily life. It implies that the choice or action is well-matched to the situation at hand. Often used in written language and formal speech.\n\nThe adverbial form {適切|てきせつ}に (appropriately) is equally common.\n\nCOMMON COLLOCATIONS:\n- {適切|てきせつ}な{対応|たいおう}: appropriate response\n- {適切|てきせつ}な{判断|はんだん}: proper judgment\n- {適切|てきせつ}な{表現|ひょうげん}: appropriate expression\n- {適切|てきせつ}な{処置|しょち}: proper treatment/measures\n- {適切|てきせつ}な{時期|じき}: the right time\n- {適切|てきせつ}に{対処|たいしょ}する: to deal with appropriately\n\nSIMILAR WORDS:\n- {適当|てきとう}な: suitable; appropriate — can also mean \"random\" or \"half-hearted\" in colloquial use, making it ambiguous\n- {妥当|だとう}な: reasonable; valid — emphasizes logical soundness rather than fitness for purpose\n- {相応|そうおう}しい: befitting; worthy of — emphasizes matching in status or level\n- {的確|てきかく}な: precise; accurate — emphasizes hitting the mark exactly",
+  "notes": "A formal and versatile na-adjective used across many contexts — business, medicine, education, law, and daily life. It implies that the choice or action is well-matched to the situation at hand. Often used in written language and formal speech.\n\nThe adverbial form {適切|てきせつ}に (appropriately) is equally common.\n\nCOMMON COLLOCATIONS:\n- {適切|てきせつ}な⟦{対応|たいおう}→対応：02510_taiou⟧: appropriate response\n- {適切|てきせつ}な⟦{判断|はんだん}→判断：03571_handan⟧: proper judgment\n- {適切|てきせつ}な⟦{表現|ひょうげん}→表現：03584_hyougen⟧: appropriate expression\n- {適切|てきせつ}な⟦{処置|しょち}→処置：05823_shochi⟧: proper treatment/measures\n- {適切|てきせつ}な⟦{時期|じき}→時期：03269_jiki⟧: the right time\n- {適切|てきせつ}に⟦{対処|たいしょ}する→対処する：20049_taishosuru⟧: to deal with appropriately\n\nSIMILAR WORDS:\n- ⟦{適当|てきとう}→適当：01674_tekitou⟧な: suitable; appropriate — can also mean \"random\" or \"half-hearted\" in colloquial use, making it ambiguous\n- ⟦{妥当|だとう}→妥当：04053_datou⟧な: reasonable; valid — emphasizes logical soundness rather than fitness for purpose\n- {相応|そうおう}しい: befitting; worthy of — emphasizes matching in status or level\n- ⟦{的確|てきかく}→的確：04536_tekikaku⟧な: precise; accurate — emphasizes hitting the mark exactly",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01674_tekitou",
+      "reading": "てきとう",
+      "headword": "{適当|てきとう}",
+      "label": "suitable"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04053_datou",
+      "reading": "だとう",
+      "headword": "{妥当|だとう}",
+      "label": "reasonable"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04536_tekikaku",
+      "reading": "てきかく",
+      "headword": "{的確|てきかく}",
+      "label": "precise"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16686_tekishita",
+      "reading": "てきした",
+      "headword": "{適|てき}した",
+      "label": "suitable"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "adjective-na"
       ],
+      "politeness": "plain",
       "semantic": [
         "abstract"
       ]
     },
     "created": "2026-04-24T15:22:47Z",
-    "modified": "2026-08-04T12:59:53Z"
+    "modified": "2026-09-02T04:02:22Z"
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "11090_shoshin_ex1",
-      "japanese": "{初診|しょしん}の{方|かた}は{受付|うけつけ}にお{申|もう}し{出|で}ください。",
+      "japanese": "{初診|しょしん}⟦の→の：09472_no⟧⟦{方|かた}→方：10665_kata⟧⟦は→は：00079_ha⟧⟦{受付|うけつけ}→受付：01325_uketsuke⟧⟦に→に：00314_ni⟧お⟦{申|もう}し{出|で}→申し出る：10465_moushideru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "First-time patients, please check in at the reception desk.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "11090_shoshin_ex2",
-      "japanese": "{初診|しょしん}には{保険証|ほけんしょう}を{持参|じさん}してください。",
+      "japanese": "{初診|しょしん}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{保険証|ほけんしょう}→保険証：09707_hokenshou⟧⟦を→を：00422_wo⟧⟦{持参|じさん}して→持参する：21143_jisansuru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please bring your insurance card for your first visit.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "11090_shoshin_ex3",
-      "japanese": "{初診|しょしん}{料|りょう}は{再診|さいしん}{料|りょう}より{高|たか}いことが{多|おお}い。",
+      "japanese": "{初診|しょしん}{料|りょう}⟦は→は：00079_ha⟧⟦{再診|さいしん}→再診：23254_saishin⟧⟦{料|りょう}→料：28172_ryou⟧⟦より→より：09476_yori⟧⟦{高|たか}い→高い：00500_takai⟧こと⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "The initial consultation fee is often higher than the follow-up fee.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{初診|しょしん} is commonly seen on signs and forms at hospitals and clinics in Japan. Patients are typically divided into {初診|しょしん} (first-time) and {再診|さいしん} (returning) at the reception desk.\n\nCOMMON COLLOCATIONS:\n- {初診|しょしん}{料|りょう} (initial consultation fee)\n- {初診|しょしん}の{患者|かんじゃ} (first-time patient)\n- {初診|しょしん}{予約|よやく} (first-visit appointment)\n\nRELATED TERMS:\n- {再診|さいしん} (follow-up visit, return visit)\n- {紹介状|しょうかいじょう} (referral letter — often needed for a first visit to a large hospital)",
+  "notes": "USAGE:\n{初診|しょしん} is commonly seen on signs and forms at hospitals and clinics in Japan. Patients are typically divided into {初診|しょしん} (first-time) and ⟦{再診|さいしん}→再診：23254_saishin⟧ (returning) at the reception desk.\n\nCOMMON COLLOCATIONS:\n- {初診|しょしん}{料|りょう} (initial consultation fee)\n- {初診|しょしん}⟦の→の：09472_no⟧⟦{患者|かんじゃ}→患者：00170_kanja⟧ (first-time patient)\n- {初診|しょしん}⟦{予約|よやく}→予約：01522_yoyaku⟧ (first-visit appointment)\n\nRELATED WORDS:\n- ⟦{再診|さいしん}→再診：23254_saishin⟧ (follow-up visit, return visit)\n- ⟦{紹介状|しょうかいじょう}→紹介状：23208_shoukaijou⟧ (referral letter — often needed for a first visit to a large hospital)",
   "cross_references": [
     {
       "type": "antonym",
@@ -52,11 +52,32 @@
       "reading": "さいしん",
       "headword": "{再診|さいしん}",
       "label": "return visit"
+    },
+    {
+      "type": "related",
+      "target_id": "23208_shoukaijou",
+      "reading": "しょうかいじょう",
+      "headword": "{紹介状|しょうかいじょう}",
+      "label": "referral letter"
+    },
+    {
+      "type": "related",
+      "target_id": "03259_shinsatsu",
+      "reading": "しんさつ",
+      "headword": "{診察|しんさつ}",
+      "label": "medical examination"
+    },
+    {
+      "type": "related",
+      "target_id": "09709_shinsatsuken",
+      "reading": "しんさつけん",
+      "headword": "{診察券|しんさつけん}",
+      "label": "patient registration card"
     }
   ],
   "metadata": {
     "created": "2026-02-13T12:38:59Z",
-    "modified": "2026-04-25T04:12:08Z",
+    "modified": "2026-09-02T04:01:23Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

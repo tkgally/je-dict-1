@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28081_nokorijikan_ex1",
-      "japanese": "{残|のこ}り{時間|じかん}はあと{5分|ごふん}だ。",
+      "japanese": "{残|のこ}り{時間|じかん}⟦は→は：00079_ha⟧あと{5分|ごふん}だ。",
       "english": "There are five minutes of time remaining.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28081_nokorijikan_ex2",
-      "japanese": "{残|のこ}り{時間|じかん}を{確認|かくにん}する。",
+      "japanese": "{残|のこ}り{時間|じかん}⟦を→を：00422_wo⟧⟦{確認|かくにん}する→確認する：25332_kakuninsuru⟧。",
       "english": "to check the remaining time.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28081_nokorijikan_ex3",
-      "japanese": "{試験|しけん}の{残|のこ}り{時間|じかん}が{少|すく}なくなり、{彼|かれ}は{焦|あせ}り{始|はじ}めた。",
+      "japanese": "⟦{試験|しけん}→試験：01422_shiken⟧⟦の→の：09472_no⟧{残|のこ}り{時間|じかん}⟦が→が：00051_ga⟧⟦{少|すく}なく→少ない：01136_sukunai⟧⟦なり→なる：01970_naru⟧、⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{焦|あせ}り→焦る：04619_aseru⟧⟦{始|はじ}めた→始める：00531_hajimeru⟧。",
       "english": "As the time left in the exam ran short, he began to panic.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {残|のこ}り (remainder, what is left) + {時間|じかん} (time). Used for countdowns, deadlines, sports matches, parking meters, and the like.\n\nCOMMON COLLOCATIONS:\n- {残|のこ}り{時間|じかん}わずか: very little time left\n- {残|のこ}り{時間|じかん}を{表示|ひょうじ}する: to display the time remaining\n\nSIMILAR WORDS:\n- {経過|けいか}{時間|じかん}: elapsed time — the opposite, time already passed\n- {制限|せいげん}{時間|じかん}: time limit — the total time allotted",
+  "notes": "Compound of ⟦{残|のこ}り→残り：01622_nokori⟧ (remainder, what is left) + ⟦{時間|じかん}→時間：00468_jikan⟧ (time). Used for countdowns, deadlines, sports matches, parking meters, and the like.\n\nCOMMON COLLOCATIONS:\n- {残|のこ}り{時間|じかん}わずか: very little time left\n- {残|のこ}り{時間|じかん}⟦を→を：00422_wo⟧⟦{表示|ひょうじ}する→表示する：26973_hyoujisuru⟧: to display the time remaining\n\nSIMILAR WORDS:\n- ⟦{経過|けいか}{時間|じかん}→経過時間：28083_keikajikan⟧: elapsed time — the opposite, time already passed\n- ⟦{制限|せいげん}{時間|じかん}→制限時間：30577_seigenjikan⟧: time limit — the total time allotted",
   "cross_references": [
     {
       "type": "contrast",
@@ -52,6 +52,13 @@
       "headword": "{経過|けいか}{時間|じかん}",
       "label": "elapsed time",
       "target_id": "28083_keikajikan"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30577_seigenjikan",
+      "reading": "せいげんじかん",
+      "headword": "{制限時間|せいげんじかん}",
+      "label": "time limit"
     }
   ],
   "schema_version": "2.0",
@@ -62,13 +69,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "time-general"
       ],
       "domain": []
     },
     "created": "2026-05-25T03:05:12Z",
-    "modified": "2026-08-08T03:27:39Z"
+    "modified": "2026-09-02T04:02:32Z"
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25068_paakingueria_ex1",
-      "japanese": "{次|つぎ}のパーキングエリアで{休|やす}もう。",
+      "japanese": "⟦{次|つぎ}→次：00819_tsugi⟧⟦の→の：09472_no⟧パーキングエリア⟦で→で：00502_de⟧⟦{休|やす}もう→休む：00606_yasumu⟧。",
       "english": "Let's take a break at the next parking area.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25068_paakingueria_ex2",
-      "japanese": "パーキングエリアでトイレに{行|い}きたい。",
+      "japanese": "パーキングエリア⟦で→で：00502_de⟧⟦トイレ→トイレ：00818_toire⟧⟦に→に：00314_ni⟧⟦{行|い}きたい→行く：00119_iku⟧。",
       "english": "I want to go to the restroom at the parking area.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25068_paakingueria_ex3",
-      "japanese": "このパーキングエリアには{自動販売機|じどうはんばいき}しかないので、{食事|しょくじ}はサービスエリアまで{待|ま}ってください。",
+      "japanese": "⟦この→この：00962_kono⟧パーキングエリア⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{自動販売機|じどうはんばいき}→自動販売機：03078_jidouhanbaiki⟧⟦しかない→〜しかない：30533_shikanai⟧⟦の→の：09472_no⟧で、⟦{食事|しょくじ}→食事：02087_shokuji⟧⟦は→は：00079_ha⟧⟦サービスエリア→サービスエリア：11333_saabisueria⟧⟦まで→まで：00490_made⟧⟦{待|ま}って→待つ：00469_matsu⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "This parking area only has vending machines, so please wait until the service area for a meal.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Abbreviated as PA. A type of rest facility on Japanese expressways that is smaller and more basic than a service area (SA). Typically provides parking, restrooms, and vending machines, but may not have restaurants, gas stations, or shops.\n\nCOMMON COLLOCATIONS:\n- パーキングエリアに{立|た}ち{寄|よ}る: to stop by a parking area\n- パーキングエリアで{休憩|きゅうけい}する: to take a break at a parking area\n- {次|つぎ}のパーキングエリア: the next parking area\n\nSIMILAR WORDS:\n- サービスエリア (SA): service area — larger rest facilities on expressways with restaurants, gas stations, shops, and sometimes tourist attractions\n- {道|みち}の{駅|えき}: roadside station — rest facilities along regular roads (not expressways), often featuring local products and tourist information\n- {駐車場|ちゅうしゃじょう}: parking lot — a general parking facility, not specifically a highway rest stop",
+  "notes": "Abbreviated as PA. A type of rest facility on Japanese expressways that is smaller and more basic than a service area (SA). Typically provides parking, restrooms, and vending machines, but may not have restaurants, gas stations, or shops.\n\nCOMMON COLLOCATIONS:\n- パーキングエリア⟦に→に：00314_ni⟧⟦{立|た}ち{寄|よ}る→立ち寄る：04638_tachiyoru⟧: to stop by a parking area\n- パーキングエリア⟦で→で：00502_de⟧⟦{休憩|きゅうけい}→休憩：00262_kyuukei⟧⟦する→する：00392_suru⟧: to take a break at a parking area\n- ⟦{次|つぎ}→次：00819_tsugi⟧⟦の→の：09472_no⟧パーキングエリア: the next parking area\n\nSIMILAR WORDS:\n- ⟦サービスエリア→サービスエリア：11333_saabisueria⟧ (SA): service area — larger rest facilities on expressways with restaurants, gas stations, shops, and sometimes tourist attractions\n- {道|みち}の{駅|えき}: roadside station — rest facilities along regular roads (not expressways), often featuring local products and tourist information\n- ⟦{駐車場|ちゅうしゃじょう}→駐車場：01667_chuushajou⟧: parking lot — a general parking facility, not specifically a highway rest stop",
   "cross_references": [
     {
       "type": "contrast",
@@ -59,6 +59,20 @@
       "reading": "きゅうけいじょ",
       "headword": "{休憩所|きゅうけいじょ}",
       "label": "rest area, rest stop"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01667_chuushajou",
+      "reading": "ちゅうしゃじょう",
+      "headword": "{駐車場|ちゅうしゃじょう}",
+      "label": "parking lot"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24421_koinpaakingu",
+      "reading": "こいんぱーきんぐ",
+      "headword": "コインパーキング",
+      "label": "pay parking lot"
     }
   ],
   "schema_version": "2.0",
@@ -68,12 +82,14 @@
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "travel",
         "building"
       ]
     },
     "created": "2026-04-22T13:16:02Z",
-    "modified": "2026-08-29T00:23:31Z"
+    "modified": "2026-09-02T04:02:21Z"
   }
 }

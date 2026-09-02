@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "15832_rouya_ex1",
-      "japanese": "{牢屋|ろうや}に{入|い}れられた。",
+      "japanese": "{牢屋|ろうや}⟦に→に：00314_ni⟧⟦{入|い}れられた→入れる：01098_ireru⟧。",
       "english": "He was thrown in jail.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "15832_rouya_ex2",
-      "japanese": "{犯人|はんにん}は{暗|くら}い{牢屋|ろうや}の{中|なか}で{過|す}ごした。",
+      "japanese": "⟦{犯人|はんにん}→犯人：03572_hannin⟧⟦は→は：00079_ha⟧⟦{暗|くら}い→暗い：00647_kurai⟧{牢屋|ろうや}⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧⟦で→で：00502_de⟧⟦{過|す}ごした→過ごす：02062_sugosu⟧。",
       "english": "The criminal spent time in a dark prison cell.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "15832_rouya_ex3",
-      "japanese": "{江戸|えど}{時代|じだい}の{牢屋|ろうや}は{今|いま}の{刑務所|けいむしょ}とはまったく{違|ちが}っていた。",
+      "japanese": "⟦{江戸|えど}{時代|じだい}→江戸時代：20431_edojidai⟧⟦の→の：09472_no⟧{牢屋|ろうや}⟦は→は：00079_ha⟧⟦{今|いま}→今：00945_ima⟧⟦の→の：09472_no⟧⟦{刑務所|けいむしょ}→刑務所：19074_keimusho⟧⟦と→と：00512_to⟧⟦は→は：00079_ha⟧まったく⟦{違|ちが}っていた→違う：01957_chigau⟧。",
       "english": "Jails in the Edo period were completely different from today's prisons.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{牢屋|ろうや} has a somewhat old-fashioned or dramatic tone. In modern everyday language, {刑務所|けいむしょ} (prison) is the standard term for penal institutions. {牢屋|ろうや} is commonly used in historical contexts, fiction, and colloquial expressions.\n\nCOMMON COLLOCATIONS:\n- {牢屋|ろうや}に{入|い}れる (to put in jail)\n- {牢屋|ろうや}に{入|はい}る (to go to jail)\n- {牢屋|ろうや}から{出|で}る (to get out of jail)",
+  "notes": "USAGE:\n{牢屋|ろうや} has a somewhat old-fashioned or dramatic tone. In modern everyday language, ⟦{刑務所|けいむしょ}→刑務所：19074_keimusho⟧ (prison) is the standard term for penal institutions. {牢屋|ろうや} is commonly used in historical contexts, fiction, and colloquial expressions.\n\nCOMMON COLLOCATIONS:\n- {牢屋|ろうや}⟦に→に：00314_ni⟧⟦{入|い}れる→入れる：01098_ireru⟧ (to put in jail)\n- {牢屋|ろうや}⟦に→に：00314_ni⟧⟦{入|はい}る→入る：00494_hairu⟧ (to go to jail)\n- {牢屋|ろうや}⟦から→から：00504_kara⟧⟦{出|で}る→出る：00513_deru⟧ (to get out of jail)",
   "cross_references": [
     {
       "type": "related",
@@ -52,11 +52,25 @@
       "headword": "{刑務所|けいむしょ}",
       "label": "prison (modern)",
       "target_id": "19074_keimusho"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15716_kangoku",
+      "reading": "かんごく",
+      "headword": "{監獄|かんごく}",
+      "label": "prison"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25940_rougoku",
+      "reading": "ろうごく",
+      "headword": "{牢獄|ろうごく}",
+      "label": "prison"
     }
   ],
   "metadata": {
     "created": "2026-03-08T12:24:55Z",
-    "modified": "2026-03-29T10:42:23Z",
+    "modified": "2026-09-02T04:01:42Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

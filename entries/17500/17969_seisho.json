@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "17969_seisho_ex1",
-      "japanese": "{聖書|せいしょ}を{読|よ}むのが{日課|にっか}だ。",
+      "japanese": "{聖書|せいしょ}⟦を→を：00422_wo⟧⟦{読|よ}む→読む：00426_yomu⟧⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦{日課|にっか}→日課：00317_nikka⟧だ。",
       "english": "Reading the Bible is my daily routine.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17969_seisho_ex2",
-      "japanese": "ホテルの{部屋|へや}に{聖書|せいしょ}が{置|お}いてあった。",
+      "japanese": "⟦ホテル→ホテル：01027_hoteru⟧⟦の→の：09472_no⟧⟦{部屋|へや}→部屋：00507_heya⟧⟦に→に：00314_ni⟧{聖書|せいしょ}⟦が→が：00051_ga⟧⟦{置|お}いてあった→置く：01092_oku⟧。",
       "english": "There was a Bible placed in the hotel room.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17969_seisho_ex3",
-      "japanese": "この{小説|しょうせつ}には{聖書|せいしょ}からの{引用|いんよう}がたくさん{含|ふく}まれている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{小説|しょうせつ}→小説：01434_shousetsu⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{聖書|せいしょ}⟦から→から：00504_kara⟧⟦の→の：09472_no⟧⟦{引用|いんよう}→引用：01850_inyou⟧⟦が→が：00051_ga⟧⟦たくさん→たくさん：00597_takusan⟧⟦{含|ふく}まれている→含む：01982_fukumu⟧。",
       "english": "This novel contains many quotations from the Bible.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nRefers specifically to the Christian Bible. The word is also used figuratively to mean an authoritative or definitive reference in a field (e.g., 「この{本|ほん}はプログラミングの{聖書|せいしょ}だ」 — \"This book is the bible of programming\").\n\nCOMMON COLLOCATIONS:\n- {聖書|せいしょ}を{読|よ}む (read the Bible)\n- {旧約聖書|きゅうやくせいしょ} (Old Testament)\n- {新約聖書|しんやくせいしょ} (New Testament)\n- {聖書|せいしょ}の{教|おし}え (teachings of the Bible)\n\nNOTE:\nDo not confuse with the homophone {清書|せいしょ} (fair copy — making a clean, final copy of a document).",
+  "notes": "USAGE:\nRefers specifically to the Christian Bible. The word is also used figuratively to mean an authoritative or definitive reference in a field (e.g., 「⟦この→この：00962_kono⟧{本|ほん}⟦は→は：00079_ha⟧⟦プログラミング→プログラミング：06099_puroguramingu⟧⟦の→の：09472_no⟧{聖書|せいしょ}だ」 — \"This book is the bible of programming\").\nDo not confuse with the homophone ⟦{清書|せいしょ}→清書：04326_seisho⟧ (fair copy — making a clean, final copy of a document).\n\nCOMMON COLLOCATIONS:\n- {聖書|せいしょ}⟦を→を：00422_wo⟧⟦{読|よ}む→読む：00426_yomu⟧ (read the Bible)\n- ⟦{旧約聖書|きゅうやくせいしょ}→旧約聖書：24049_kyuuyakuseisho⟧ (Old Testament)\n- ⟦{新約聖書|しんやくせいしょ}→新約聖書：24050_shinyakuseisho⟧ (New Testament)\n- {聖書|せいしょ}⟦の→の：09472_no⟧⟦{教|おし}え→教え：01909_oshie⟧ (teachings of the Bible)",
   "cross_references": [
     {
       "type": "homophone",
@@ -46,18 +52,50 @@
       "reading": "せいしょ",
       "headword": "{清書|せいしょ}",
       "label": "fair copy, clean copy"
+    },
+    {
+      "type": "related",
+      "target_id": "10823_kirisutokyou",
+      "reading": "きりすときょう",
+      "headword": "キリスト{教|きょう}",
+      "label": "Christianity"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24153_kyouten",
+      "reading": "きょうてん",
+      "headword": "{経典|きょうてん}",
+      "label": "scripture"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24170_seiten",
+      "reading": "せいてん",
+      "headword": "{聖典|せいてん}",
+      "label": "sacred scripture"
+    },
+    {
+      "type": "related",
+      "target_id": "27659_fukuinsho",
+      "reading": "ふくいんしょ",
+      "headword": "{福音書|ふくいんしょ}",
+      "label": "Gospel (book of the Bible)"
     }
   ],
   "metadata": {
     "created": "2026-03-19T10:05:42Z",
-    "modified": "2026-03-19T10:05:42Z",
+    "modified": "2026-09-02T04:01:50Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

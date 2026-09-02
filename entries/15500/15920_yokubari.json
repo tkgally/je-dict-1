@@ -3,7 +3,7 @@
   "id": "15920_yokubari",
   "headword": "{欲張|よくば}り",
   "reading": "よくばり",
-  "part_of_speech": "noun / na-adjective",
+  "part_of_speech": "noun, na-adjective",
   "gloss": "greedy; greedy person",
   "definitions": [
     {
@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "15920_yokubari_ex1",
-      "japanese": "あの{子|こ}は{欲張|よくば}りだ。",
+      "japanese": "⟦あの→あの：00915_ano⟧⟦{子|こ}→子：09851_ko⟧⟦は→は：00079_ha⟧{欲張|よくば}りだ。",
       "english": "That kid is greedy.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15920_yokubari_ex2",
-      "japanese": "{欲張|よくば}りな{人|ひと}は{嫌|きら}われる。",
+      "japanese": "{欲張|よくば}りな⟦{人|ひと}→人：00476_hito⟧⟦は→は：00079_ha⟧⟦{嫌|きら}われる→嫌う：02048_kirau⟧。",
       "english": "Greedy people are disliked.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15920_yokubari_ex3",
-      "japanese": "もう{十分|じゅうぶん}もらったのに、まだ{欲張|よくば}りなことを{言|い}っている。",
+      "japanese": "⟦もう→もう：00602_mou⟧⟦{十分|じゅうぶん}→十分：01614_juubun⟧⟦もらった→もらう：00520_morau⟧⟦の→の：09472_no⟧⟦に→に：00314_ni⟧、⟦まだ→まだ：00603_mada⟧{欲張|よくば}りなこと⟦を→を：00422_wo⟧⟦{言|い}っている→言う：00515_iu⟧。",
       "english": "Even though you've already received plenty, you're still saying greedy things.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\n{欲張|よくば}り can function as both a noun (a greedy person) and a na-adjective ({欲張|よくば}りな). It carries a mildly negative connotation but is common in everyday speech, including when teasing someone lightheartedly.\n\nCOMMON COLLOCATIONS:\n- {欲張|よくば}りな{人|ひと} (a greedy person)\n- {欲張|よくば}りなことを{言|い}う (to say greedy things)\n- {欲張|よくば}りすぎる (to be too greedy)\n\nRELATED WORDS:\nThe verb {欲張|よくば}る means \"to be greedy\" or \"to want too much.\" {貪欲|どんよく} is a more formal and stronger term for greed.",
+  "notes": "USAGE:\n{欲張|よくば}り can function as both a noun (a greedy person) and a na-adjective ({欲張|よくば}りな). It carries a mildly negative connotation but is common in everyday speech, including when teasing someone lightheartedly.\n\nCOMMON COLLOCATIONS:\n- {欲張|よくば}りな⟦{人|ひと}→人：00476_hito⟧ (a greedy person)\n- {欲張|よくば}りなこと⟦を→を：00422_wo⟧⟦{言|い}う→言う：00515_iu⟧ (to say greedy things)\n- {欲張|よくば}りすぎる (to be too greedy)\n\nRELATED WORDS:\nThe verb ⟦{欲張|よくば}る→欲張る：15774_yokubaru⟧ means \"to be greedy\" or \"to want too much.\" ⟦{貪欲|どんよく}→貪欲：08199_donyoku⟧ is a more formal and stronger term for greed.",
   "prominent_see_also": [
     {
       "target_id": "15774_yokubaru",
@@ -61,18 +67,51 @@
       "reading": "むよく",
       "headword": "{無欲|むよく}",
       "label": "selfless, ungreedy"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09097_kechinbo",
+      "reading": "けちんぼ",
+      "headword": "けちんぼ",
+      "label": "cheapskate, miser"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12507_gouyoku",
+      "reading": "ごうよく",
+      "headword": "{強欲|ごうよく}",
+      "label": "greedy, avaricious"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20854_yokufukai",
+      "reading": "よくふかい",
+      "headword": "{欲深|よくふか}い",
+      "label": "greedy"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24326_kinsenyoku",
+      "reading": "きんせんよく",
+      "headword": "{金銭欲|きんせんよく}",
+      "label": "greed for money"
     }
   ],
   "metadata": {
     "created": "2026-03-09T00:34:40Z",
-    "modified": "2026-05-02T09:03:34Z",
+    "modified": "2026-09-02T04:01:43Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-na"],
+      "pos": [
+        "noun",
+        "adjective-na"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["descriptive"]
+      "semantic": [
+        "descriptive"
+      ]
     }
   }
 }

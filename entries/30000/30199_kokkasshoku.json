@@ -4,7 +4,7 @@
   "headword": "黒褐色",
   "reading": "こっかっしょく",
   "romaji": "kokkasshoku",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "dark brown; blackish brown",
   "definitions": [
     {
@@ -16,7 +16,7 @@
   "examples": [
     {
       "id": "30199_kokkasshoku_ex1",
-      "japanese": "{羽|はね}は{黒褐色|こっかっしょく}をしている。",
+      "japanese": "{羽|はね}⟦は→は：00079_ha⟧{黒褐色|こっかっしょく}⟦を→を：00422_wo⟧⟦している→する：00392_suru⟧。",
       "english": "The feathers are dark brown.",
       "sense_numbers": [
         1
@@ -26,7 +26,7 @@
     },
     {
       "id": "30199_kokkasshoku_ex2",
-      "japanese": "この{甲虫|こうちゅう}は{黒褐色|こっかっしょく}の{体|からだ}をしている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{甲虫|こうちゅう}→甲虫：04929_kouchuu⟧⟦は→は：00079_ha⟧{黒褐色|こっかっしょく}⟦の→の：09472_no⟧⟦{体|からだ}→体：00784_karada⟧⟦を→を：00422_wo⟧⟦している→する：00392_suru⟧。",
       "english": "This beetle has a blackish-brown body.",
       "sense_numbers": [
         1
@@ -36,7 +36,7 @@
     },
     {
       "id": "30199_kokkasshoku_ex3",
-      "japanese": "{長時間|ちょうじかん}{煮込|にこ}むと、ソースは{黒褐色|こっかっしょく}に{変|か}わる。",
+      "japanese": "⟦{長時間|ちょうじかん}→長時間：10165_choujikan⟧⟦{煮込|にこ}む→煮込む：05822_nikomu⟧⟦と→と：00512_to⟧、⟦ソース→ソース：17673_soosu⟧⟦は→は：00079_ha⟧{黒褐色|こっかっしょく}⟦に→に：00314_ni⟧⟦{変|か}わる→変わる：00714_kawaru⟧。",
       "english": "Simmered for a long time, the sauce turns dark brown.",
       "sense_numbers": [
         1
@@ -46,7 +46,7 @@
     },
     {
       "id": "30199_kokkasshoku_ex4",
-      "japanese": "{化石|かせき}の{表面|ひょうめん}は{黒褐色|こっかっしょく}で、ところどころに{白|しろ}い{筋|すじ}が{見|み}える。",
+      "japanese": "⟦{化石|かせき}→化石：11796_kaseki⟧⟦の→の：09472_no⟧⟦{表面|ひょうめん}→表面：03587_hyoumen⟧⟦は→は：00079_ha⟧{黒褐色|こっかっしょく}⟦で→で：00502_de⟧、ところどころ⟦に→に：00314_ni⟧⟦{白|しろ}い→白い：00587_shiroi⟧⟦{筋|すじ}→筋：03366_suji⟧⟦が→が：00051_ga⟧⟦{見|み}える→見える：01165_mieru⟧。",
       "english": "The surface of the fossil is dark brown, with white streaks visible here and there.",
       "sense_numbers": [
         1
@@ -55,7 +55,16 @@
       "notes": null
     }
   ],
-  "notes": "Used with の before a noun ({黒褐色|こっかっしょく}の{羽|はね}) and with をしている to describe what something looks like.\n\nRELATED FORMS:\n- {赤褐色|せっかっしょく}: reddish brown\n- {黄褐色|おうかっしょく}: yellowish brown\n- {灰褐色|かいかっしょく}: grayish brown\n\nSIMILAR WORDS:\n- {茶色|ちゃいろ}: brown — the ordinary everyday word\n- {褐色|かっしょく}: brown, tan — written register, but without the darkness of {黒褐色|こっかっしょく}",
+  "notes": "Used with ⟦の→の：09472_no⟧ before a noun ({黒褐色|こっかっしょく}⟦の→の：09472_no⟧{羽|はね}) and with ⟦を→を：00422_wo⟧⟦している→する：00392_suru⟧ to describe what something looks like.\n\nFORMS:\n- {赤褐色|せっかっしょく}: reddish brown\n- ⟦{黄褐色|おうかっしょく}→黄褐色：29419_oukasshoku⟧: yellowish brown\n- {灰褐色|かいかっしょく}: grayish brown\n\nSIMILAR WORDS:\n- ⟦{茶色|ちゃいろ}→茶色：02915_chairo⟧: brown — the ordinary everyday word\n- ⟦{褐色|かっしょく}→褐色：14115_kasshoku⟧: brown, tan — written register, but without the darkness of {黒褐色|こっかっしょく}",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02915_chairo",
+      "reading": "ちゃいろ",
+      "headword": "{茶色|ちゃいろ}",
+      "label": "brown"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -64,13 +73,13 @@
         "adjective-no"
       ],
       "formality": "formal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "color"
       ],
       "domain": []
     },
     "created": "2026-07-28T12:21:16Z",
-    "modified": "2026-07-28T12:21:16Z"
+    "modified": "2026-09-02T04:02:39Z"
   }
 }

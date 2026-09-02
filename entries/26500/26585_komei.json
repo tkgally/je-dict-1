@@ -3,7 +3,7 @@
   "headword": "{呼名|こめい}",
   "reading": "こめい",
   "romaji": "komei",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "roll call; calling names aloud; designation",
   "definitions": [
     {
@@ -20,7 +20,7 @@
   "examples": [
     {
       "id": "26585_komei_ex1",
-      "japanese": "{呼名|こめい}が{始|はじ}まった。",
+      "japanese": "{呼名|こめい}⟦が→が：00051_ga⟧⟦{始|はじ}まった→始まる：00841_hajimaru⟧。",
       "english": "The roll call began.",
       "sense_numbers": [
         1
@@ -30,7 +30,7 @@
     },
     {
       "id": "26585_komei_ex2",
-      "japanese": "{先生|せんせい}が{一人|ひとり}ずつ{呼名|こめい}して{出欠|しゅっけつ}を{確認|かくにん}した。",
+      "japanese": "⟦{先生|せんせい}→先生：00609_sensei⟧⟦が→が：00051_ga⟧⟦{一人|ひとり}→一人：00630_hitori⟧⟦ずつ→〜ずつ：03092_zutsu⟧{呼名|こめい}⟦して→する：00392_suru⟧⟦{出欠|しゅっけつ}→出欠：09604_shukketsu⟧⟦を→を：00422_wo⟧⟦{確認|かくにん}した→確認する：25332_kakuninsuru⟧。",
       "english": "The teacher called each name one by one to check attendance.",
       "sense_numbers": [
         1
@@ -40,7 +40,7 @@
     },
     {
       "id": "26585_komei_ex3",
-      "japanese": "{卒業式|そつぎょうしき}では{卒業生|そつぎょうせい}の{呼名|こめい}が{行|おこな}われる。",
+      "japanese": "⟦{卒業式|そつぎょうしき}→卒業式：05584_sotsugyoushiki⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{卒業生|そつぎょうせい}→卒業生：15284_sotsugyousei⟧⟦の→の：09472_no⟧{呼名|こめい}⟦が→が：00051_ga⟧⟦{行|おこな}われる→行う：01238_okonau⟧。",
       "english": "At the graduation ceremony, the names of graduates are called out.",
       "sense_numbers": [
         1
@@ -50,7 +50,7 @@
     },
     {
       "id": "26585_komei_ex4",
-      "japanese": "この{部品|ぶひん}の{呼名|こめい}は{何|なん}ですか。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{部品|ぶひん}→部品：00020_buhin⟧⟦の→の：09472_no⟧{呼名|こめい}⟦は→は：00079_ha⟧⟦{何|なん}→何〜：03100_nan⟧です⟦か→か：09473_ka⟧。",
       "english": "What is the designation for this part?",
       "sense_numbers": [
         2
@@ -60,7 +60,7 @@
     },
     {
       "id": "26585_komei_ex5",
-      "japanese": "{規格|きかく}における{呼名|こめい}と{実際|じっさい}の{寸法|すんぽう}は{異|こと}なる{場合|ばあい}がある。",
+      "japanese": "⟦{規格|きかく}→規格：16939_kikaku⟧⟦における→〜における：21802_niokeru⟧{呼名|こめい}⟦と→と：00512_to⟧⟦{実際|じっさい}→実際：02502_jissai⟧⟦の→の：09472_no⟧⟦{寸法|すんぽう}→寸法：04311_sunpou⟧⟦は→は：00079_ha⟧⟦{異|こと}なる→異なる：02101_kotonaru⟧⟦{場合|ばあい}→場合：01704_baai⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "The nominal designation in the standard and the actual dimensions may differ.",
       "sense_numbers": [
         2
@@ -70,7 +70,7 @@
     },
     {
       "id": "26585_komei_ex6",
-      "japanese": "{呼名|こめい}{寸法|すんぽう}はあくまで{目安|めやす}であり、{正確|せいかく}な{数値|すうち}ではない。",
+      "japanese": "{呼名|こめい}⟦{寸法|すんぽう}→寸法：04311_sunpou⟧⟦は→は：00079_ha⟧⟦あくまで→あくまで：06713_akumade⟧⟦{目安|めやす}→目安：00276_meyasu⟧で⟦あり→ある：00006_aru⟧、⟦{正確|せいかく}→正確：03372_seikaku⟧な⟦{数値|すうち}→数値：12913_suuchi⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦ない→ない：01118_nai⟧。",
       "english": "The nominal dimensions are only a guide and are not exact figures.",
       "sense_numbers": [
         2
@@ -79,8 +79,30 @@
       "notes": null
     }
   ],
-  "notes": "Combines {呼|こ} (to call) and {名|めい} (name). Sense 1 is more commonly encountered in everyday life (schools, ceremonies), while sense 2 is technical, appearing in engineering and manufacturing standards.\n\nCOMMON COLLOCATIONS:\n- {呼名|こめい}する: to call out names\n- {呼名|こめい}{点呼|てんこ}: name-calling roll call\n- {呼名|こめい}{寸法|すんぽう}: nominal dimensions\n- {呼名|こめい}{径|けい}: nominal diameter\n\nSIMILAR WORDS:\n- {点呼|てんこ}: roll call — specifically checking attendance, often in military or organizational settings\n- {呼称|こしょう}: designation, name — a more common word for the naming/designation sense\n- {名称|めいしょう}: official name — the formal, fixed name of something",
-  "cross_references": [],
+  "notes": "Combines {呼|こ} (to call) and {名|めい} (name). Sense 1 is more commonly encountered in everyday life (schools, ceremonies), while sense 2 is technical, appearing in engineering and manufacturing standards.\n\nCOMMON COLLOCATIONS:\n- {呼名|こめい}⟦する→する：00392_suru⟧: to call out names\n- {呼名|こめい}⟦{点呼|てんこ}→点呼：15724_tenko⟧: name-calling roll call\n- {呼名|こめい}⟦{寸法|すんぽう}→寸法：04311_sunpou⟧: nominal dimensions\n- {呼名|こめい}{径|けい}: nominal diameter\n\nSIMILAR WORDS:\n- ⟦{点呼|てんこ}→点呼：15724_tenko⟧: roll call — specifically checking attendance, often in military or organizational settings\n- ⟦{呼称|こしょう}→呼称：12126_koshou⟧: designation, name — a more common word for the naming/designation sense\n- ⟦{名称|めいしょう}→名称：12031_meishou⟧: official name — the formal, fixed name of something",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15724_tenko",
+      "reading": "てんこ",
+      "headword": "{点呼|てんこ}",
+      "label": "roll call"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12126_koshou",
+      "reading": "こしょう",
+      "headword": "{呼称|こしょう}",
+      "label": "designation, name"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12031_meishou",
+      "reading": "めいしょう",
+      "headword": "{名称|めいしょう}",
+      "label": "official name"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -97,7 +119,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-03T12:32:34Z",
-    "modified": "2026-05-03T12:32:34Z"
+    "modified": "2026-09-02T04:02:26Z"
   },
   "conjugation": {
     "type": "suru",

@@ -20,7 +20,7 @@
   "examples": [
     {
       "id": "13154_honsuu_ex1",
-      "japanese": "ペンの{本数|ほんすう}を{数|かぞ}えた。",
+      "japanese": "⟦ペン→ペン：02960_pen⟧⟦の→の：09472_no⟧{本数|ほんすう}⟦を→を：00422_wo⟧⟦{数|かぞ}えた→数える：01926_kazoeru⟧。",
       "english": "I counted the number of pens.",
       "notes": null,
       "has_audio": false,
@@ -30,7 +30,7 @@
     },
     {
       "id": "13154_honsuu_ex2",
-      "japanese": "{木|き}の{本数|ほんすう}が{足|た}りない。",
+      "japanese": "⟦{木|き}→木：00524_ki⟧⟦の→の：09472_no⟧{本数|ほんすう}⟦が→が：00051_ga⟧⟦{足|た}りない→足りる：01209_tariru⟧。",
       "english": "We don't have enough trees.",
       "notes": null,
       "has_audio": false,
@@ -40,7 +40,7 @@
     },
     {
       "id": "13154_honsuu_ex3",
-      "japanese": "{映画|えいが}の{撮影|さつえい}で{使|つか}うフィルムの{本数|ほんすう}を{確認|かくにん}した。",
+      "japanese": "⟦{映画|えいが}→映画：02273_eiga⟧⟦の→の：09472_no⟧⟦{撮影|さつえい}→撮影：04175_satsuei⟧⟦で→で：00502_de⟧⟦{使|つか}う→使う：00473_tsukau⟧⟦フィルム→フィルム：02951_firumu⟧⟦の→の：09472_no⟧{本数|ほんすう}⟦を→を：00422_wo⟧⟦{確認|かくにん}した→確認する：25332_kakuninsuru⟧。",
       "english": "I confirmed the number of film rolls to use in the movie shoot.",
       "notes": null,
       "has_audio": false,
@@ -50,7 +50,7 @@
     },
     {
       "id": "13154_honsuu_ex4",
-      "japanese": "この{路線|ろせん}は{本数|ほんすう}が{少|すく}ない。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{路線|ろせん}→路線：11341_rosen⟧⟦は→は：00079_ha⟧{本数|ほんすう}⟦が→が：00051_ga⟧⟦{少|すく}ない→少ない：01136_sukunai⟧。",
       "english": "This train line has few runs.",
       "notes": null,
       "has_audio": false,
@@ -60,7 +60,7 @@
     },
     {
       "id": "13154_honsuu_ex5",
-      "japanese": "{朝|あさ}のラッシュ{時|じ}はバスの{本数|ほんすう}が{増|ふ}える。",
+      "japanese": "⟦{朝|あさ}→朝：02277_asa⟧⟦の→の：09472_no⟧⟦ラッシュ→ラッシュ：11221_rasshu⟧⟦{時|じ}→時：09869_ji⟧⟦は→は：00079_ha⟧⟦バス→バス：00769_basu⟧⟦の→の：09472_no⟧{本数|ほんすう}⟦が→が：00051_ga⟧⟦{増|ふ}える→増える：01183_fueru⟧。",
       "english": "The number of bus services increases during the morning rush.",
       "notes": null,
       "has_audio": false,
@@ -70,7 +70,7 @@
     },
     {
       "id": "13154_honsuu_ex6",
-      "japanese": "{終電|しゅうでん}{後|ご}の{電車|でんしゃ}の{本数|ほんすう}が{減|へ}らされて{不便|ふべん}になった。",
+      "japanese": "⟦{終電|しゅうでん}→終電：05296_shuuden⟧⟦{後|ご}→後：30157_go⟧⟦の→の：09472_no⟧⟦{電車|でんしゃ}→電車：00522_densha⟧⟦の→の：09472_no⟧{本数|ほんすう}⟦が→が：00051_ga⟧⟦{減|へ}らされて→減らす：02414_herasu⟧⟦{不便|ふべん}→不便：01501_fuben⟧になった。",
       "english": "The number of late-night train services was reduced, making things inconvenient.",
       "notes": null,
       "has_audio": false,
@@ -79,18 +79,25 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA compound of the counter {本|ほん} (for long, thin objects) and {数|すう} (number). Sense 2 (transportation frequency) is extremely common in daily life — {本数|ほんすう}が{少|すく}ない (few trains/buses running) is a frequent complaint about rural or late-night services.\n\nCOMMON COLLOCATIONS:\n- {電車|でんしゃ}の{本数|ほんすう}: number of train runs\n- バスの{本数|ほんすう}: number of bus services\n- {本数|ほんすう}が{少|すく}ない: few runs/services\n- {本数|ほんすう}を{増|ふ}やす: to increase the number of services",
+  "notes": "USAGE:\nA compound of the counter {本|ほん} (for long, thin objects) and ⟦{数|すう}→数：03360_suu⟧ (number). Sense 2 (transportation frequency) is extremely common in daily life — {本数|ほんすう}⟦が→が：00051_ga⟧⟦{少|すく}ない→少ない：01136_sukunai⟧ (few trains/buses running) is a frequent complaint about rural or late-night services.\n\nCOMMON COLLOCATIONS:\n- ⟦{電車|でんしゃ}→電車：00522_densha⟧⟦の→の：09472_no⟧{本数|ほんすう}: number of train runs\n- ⟦バス→バス：00769_basu⟧⟦の→の：09472_no⟧{本数|ほんすう}: number of bus services\n- {本数|ほんすう}⟦が→が：00051_ga⟧⟦{少|すく}ない→少ない：01136_sukunai⟧: few runs/services\n- {本数|ほんすう}⟦を→を：00422_wo⟧⟦{増|ふ}やす→増やす：02410_fuyasu⟧: to increase the number of services",
   "cross_references": [
     {
       "type": "related",
       "reading": "まいすう",
       "headword": "{枚数|まいすう}",
       "target_id": "13143_maisuu"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30234_binsuu",
+      "reading": "びんすう",
+      "headword": "{便数|びんすう}",
+      "label": "number of scheduled services"
     }
   ],
   "metadata": {
     "created": "2026-02-23T11:52:49Z",
-    "modified": "2026-03-29T10:42:23Z",
+    "modified": "2026-09-02T04:01:32Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

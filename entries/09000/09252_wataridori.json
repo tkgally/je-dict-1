@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "09252_wataridori_ex1",
-      "japanese": "{渡|わた}り{鳥|どり}が{飛来|ひらい}した。",
+      "japanese": "{渡|わた}り{鳥|どり}⟦が→が：00051_ga⟧{飛来|ひらい}⟦した→する：00392_suru⟧。",
       "english": "Migratory birds have arrived.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "09252_wataridori_ex2",
-      "japanese": "{秋|あき}になると{渡|わた}り{鳥|どり}がやってくる。",
+      "japanese": "⟦{秋|あき}→秋：02276_aki⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦と→と：00512_to⟧{渡|わた}り{鳥|どり}⟦が→が：00051_ga⟧⟦やって→やる：02980_yaru⟧くる。",
       "english": "Migratory birds come when autumn arrives.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "09252_wataridori_ex3",
-      "japanese": "この{湿地|しっち}は{渡|わた}り{鳥|どり}の{重要|じゅうよう}な{中継地|ちゅうけいち}だ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{湿地|しっち}→湿地：05036_shicchi⟧⟦は→は：00079_ha⟧{渡|わた}り{鳥|どり}⟦の→の：09472_no⟧⟦{重要|じゅうよう}→重要：01575_juuyou⟧な{中継地|ちゅうけいち}だ。",
       "english": "This wetland is an important stopover point for migratory birds.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{渡|わた}り{鳥|どり} refers to birds that migrate seasonally.\n\nWORD FORMATION:\n- {渡|わた}り (crossing, migration) + {鳥|どり} (bird)\n\nCOMMON MIGRATORY BIRDS IN JAPAN:\n- {白鳥|はくちょう}: swan\n- {雁|がん}: wild goose\n- {鶴|つる}: crane\n- ツバメ: swallow\n\nRELATED WORDS:\n- {留鳥|りゅうちょう}: resident bird (non-migratory)\n- {夏鳥|なつどり}: summer visitor (bird)\n- {冬鳥|ふゆどり}: winter visitor (bird)\n\nCOMMON COLLOCATIONS:\n- {渡|わた}り{鳥|どり}が{飛来|ひらい}する: migratory birds arrive\n- {渡|わた}り{鳥|どり}の{群|む}れ: flock of migratory birds",
+  "notes": "{渡|わた}り{鳥|どり} refers to birds that migrate seasonally.\n\nFORMS:\n- ⟦{渡|わた}り→渡る：02441_wataru⟧ (crossing, migration) + {鳥|どり} (bird)\n\nCOMMON MIGRATORY BIRDS IN JAPAN:\n- ⟦{白鳥|はくちょう}→白鳥：04937_hakuchou⟧: swan\n- {雁|がん}: wild goose\n- ⟦{鶴|つる}→鶴：04359_tsuru⟧: crane\n- ツバメ: swallow\n\nRELATED WORDS:\n- ⟦{留鳥|りゅうちょう}→留鳥：26177_ryuuchou⟧: resident bird (non-migratory)\n- ⟦{夏鳥|なつどり}→夏鳥：24277_natsudori⟧: summer visitor (bird)\n- ⟦{冬鳥|ふゆどり}→冬鳥：24278_fuyudori⟧: winter visitor (bird)\n\nCOMMON COLLOCATIONS:\n- {渡|わた}り{鳥|どり}⟦が→が：00051_ga⟧{飛来|ひらい}⟦する→する：00392_suru⟧: migratory birds arrive\n- {渡|わた}り{鳥|どり}⟦の→の：09472_no⟧⟦{群|む}れ→群れ：00298_mure⟧: flock of migratory birds",
   "cross_references": [
     {
       "type": "related",
@@ -51,11 +51,39 @@
       "reading": "せいそくち",
       "headword": "{生息地|せいそくち}",
       "label": "habitat"
+    },
+    {
+      "type": "related",
+      "target_id": "26177_ryuuchou",
+      "reading": "りゅうちょう",
+      "headword": "{留鳥|りゅうちょう}",
+      "label": "resident bird"
+    },
+    {
+      "type": "related",
+      "target_id": "24277_natsudori",
+      "reading": "なつどり",
+      "headword": "{夏鳥|なつどり}",
+      "label": "summer visitor"
+    },
+    {
+      "type": "related",
+      "target_id": "24278_fuyudori",
+      "reading": "ふゆどり",
+      "headword": "{冬鳥|ふゆどり}",
+      "label": "winter visitor"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16087_mizutori",
+      "reading": "みずとり",
+      "headword": "{水鳥|みずとり}",
+      "label": "waterfowl"
     }
   ],
   "metadata": {
     "created": "2026-02-01T04:57:35Z",
-    "modified": "2026-08-12T21:25:53Z",
+    "modified": "2026-09-02T04:01:17Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

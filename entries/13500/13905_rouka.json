@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "13905_rouka_ex1",
-      "japanese": "{肌|はだ}の{老化|ろうか}を{防|ふせ}ぐ。",
+      "japanese": "⟦{肌|はだ}→肌：02243_hada⟧⟦の→の：09472_no⟧{老化|ろうか}⟦を→を：00422_wo⟧⟦{防|ふせ}ぐ→防ぐ：02409_fusegu⟧。",
       "english": "To prevent skin aging.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "13905_rouka_ex2",
-      "japanese": "インフラの{老化|ろうか}が{深刻|しんこく}な{問題|もんだい}になっている。",
+      "japanese": "⟦インフラ→インフラ：09898_infura⟧⟦の→の：09472_no⟧{老化|ろうか}⟦が→が：00051_ga⟧⟦{深刻|しんこく}→深刻：01567_shinkoku⟧な⟦{問題|もんだい}→問題：00797_mondai⟧になっている。",
       "english": "The deterioration of infrastructure has become a serious problem.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "13905_rouka_ex3",
-      "japanese": "{適度|てきど}な{運動|うんどう}と{栄養|えいよう}バランスのよい{食事|しょくじ}は、{老化|ろうか}の{進行|しんこう}を{遅|おく}らせる{効果|こうか}がある。",
+      "japanese": "⟦{適度|てきど}→適度：03441_tekido⟧な⟦{運動|うんどう}→運動：00821_undou⟧⟦と→と：00512_to⟧⟦{栄養|えいよう}→栄養：01882_eiyou⟧⟦バランス→バランス：03870_baransu⟧⟦の→の：09472_no⟧よい⟦{食事|しょくじ}→食事：02087_shokuji⟧⟦は→は：00079_ha⟧、{老化|ろうか}⟦の→の：09472_no⟧⟦{進行|しんこう}→進行：03686_shinkou⟧⟦を→を：00422_wo⟧⟦{遅|おく}らせる→遅らせる：02480_okuraseru⟧⟦{効果|こうか}→効果：02726_kouka⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "Moderate exercise and a well-balanced diet are effective in slowing the progression of aging.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nUsed in both medical/biological contexts (human aging, cell deterioration) and non-biological contexts (deterioration of buildings, rubber, equipment). Common in health-related discussions and infrastructure policy.\n\nCOMMON COLLOCATIONS:\n- {老化|ろうか}を{防|ふせ}ぐ: to prevent aging\n- {老化|ろうか}が{進|すす}む: aging progresses\n- {老化|ろうか}{現象|げんしょう}: aging phenomenon\n- {老化|ろうか}{防止|ぼうし}: anti-aging\n- {細胞|さいぼう}の{老化|ろうか}: cell aging",
+  "notes": "USAGE:\nUsed in both medical/biological contexts (human aging, cell deterioration) and non-biological contexts (deterioration of buildings, rubber, equipment). Common in health-related discussions and infrastructure policy.\n\nCOMMON COLLOCATIONS:\n- {老化|ろうか}⟦を→を：00422_wo⟧⟦{防|ふせ}ぐ→防ぐ：02409_fusegu⟧: to prevent aging\n- {老化|ろうか}⟦が→が：00051_ga⟧⟦{進|すす}む→進む：01225_susumu⟧: aging progresses\n- {老化|ろうか}⟦{現象|げんしょう}→現象：02718_genshou⟧: aging phenomenon\n- {老化|ろうか}⟦{防止|ぼうし}→防止：14571_boushi⟧: anti-aging\n- ⟦{細胞|さいぼう}→細胞：05030_saibou⟧⟦の→の：09472_no⟧{老化|ろうか}: cell aging",
   "cross_references": [
     {
       "type": "contrast",
@@ -142,11 +142,18 @@
       "reading": "かれい",
       "headword": "{加齢|かれい}",
       "label": "aging (neutral, clinical)"
+    },
+    {
+      "type": "related",
+      "target_id": "07646_roukyuuka",
+      "reading": "ろうきゅうか",
+      "headword": "{老朽化|ろうきゅうか}",
+      "label": "deterioration"
     }
   ],
   "metadata": {
     "created": "2026-02-27T06:37:43Z",
-    "modified": "2026-04-25T09:21:10Z",
+    "modified": "2026-09-02T04:01:35Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

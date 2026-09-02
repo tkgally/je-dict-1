@@ -14,30 +14,36 @@
   "examples": [
     {
       "id": "08097_hoshimi_ex1",
-      "japanese": "{今夜|こんや}は{星見|ほしみ}に{最適|さいてき}だ。",
+      "japanese": "⟦{今夜|こんや}→今夜：01411_konya⟧⟦は→は：00079_ha⟧{星見|ほしみ}⟦に→に：00314_ni⟧⟦{最適|さいてき}→最適：13010_saiteki⟧だ。",
       "english": "Tonight is perfect for stargazing.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "08097_hoshimi_ex2",
-      "japanese": "{山|やま}で{星見|ほしみ}をすると{満天|まんてん}の{星|ほし}が{見|み}える。",
+      "japanese": "⟦{山|やま}→山：02168_yama⟧⟦で→で：00502_de⟧{星見|ほしみ}⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧⟦と→と：00512_to⟧⟦{満天|まんてん}→満天：13358_manten⟧⟦の→の：09472_no⟧⟦{星|ほし}→星：01510_hoshi⟧⟦が→が：00051_ga⟧⟦{見|み}える→見える：01165_mieru⟧。",
       "english": "When you stargaze in the mountains, you can see a sky full of stars.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "08097_hoshimi_ex3",
-      "japanese": "{子供|こども}の{頃|ころ}から{星見|ほしみ}が{好|す}きで、{天文学|てんもんがく}を{専攻|せんこう}した。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧⟦の→の：09472_no⟧{頃|ころ}⟦から→から：00504_kara⟧{星見|ほしみ}⟦が→が：00051_ga⟧⟦{好|す}き→好き：02355_suki⟧で、⟦{天文学|てんもんがく}→天文学：07108_tenmongaku⟧⟦を→を：00422_wo⟧⟦{専攻|せんこう}→専攻：01587_senkou⟧⟦した→する：00392_suru⟧。",
       "english": "I've loved stargazing since childhood, so I majored in astronomy.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "USAGE:\n{星見|ほしみ} is a casual, native Japanese word for stargazing. For more formal contexts, {天体観測|てんたいかんそく} (astronomical observation) is used.\n\nCOMMON COLLOCATIONS:\n- {星見|ほしみ}に{行|い}く (to go stargazing)\n- {星見|ほしみ}スポット (stargazing spot)\n- {星見|ほしみ}ツアー (stargazing tour)\n\nRELATED TERMS:\n- {天体観測|てんたいかんそく} (astronomical observation)\n- {流星群|りゅうせいぐん} (meteor shower)\n- {望遠鏡|ぼうえんきょう} (telescope)",
+  "notes": "USAGE:\n{星見|ほしみ} is a casual, native Japanese word for stargazing. For more formal contexts, ⟦{天体観測|てんたいかんそく}→天体観測：07330_tentaikansoku⟧ (astronomical observation) is used.\n\nCOMMON COLLOCATIONS:\n- {星見|ほしみ}⟦に→に：00314_ni⟧⟦{行|い}く→行く：00119_iku⟧ (to go stargazing)\n- {星見|ほしみ}⟦スポット→スポット：11578_supotto⟧ (stargazing spot)\n- {星見|ほしみ}⟦ツアー→ツアー：08285_tsuaa⟧ (stargazing tour)\n\nRELATED WORDS:\n- ⟦{天体観測|てんたいかんそく}→天体観測：07330_tentaikansoku⟧ (astronomical observation)\n- ⟦{流星群|りゅうせいぐん}→流星群：20408_ryuuseigun⟧ (meteor shower)\n- ⟦{望遠鏡|ぼうえんきょう}→望遠鏡：05483_bouenkyou⟧ (telescope)",
   "cross_references": [
     {
       "type": "related",
@@ -45,16 +51,45 @@
       "reading": "とりみ",
       "headword": "{鳥見|とりみ}",
       "label": "birdwatching"
+    },
+    {
+      "type": "related",
+      "target_id": "07330_tentaikansoku",
+      "reading": "てんたいかんそく",
+      "headword": "{天体観測|てんたいかんそく}",
+      "label": "astronomical observation"
+    },
+    {
+      "type": "related",
+      "target_id": "20408_ryuuseigun",
+      "reading": "りゅうせいぐん",
+      "headword": "{流星群|りゅうせいぐん}",
+      "label": "meteor shower"
+    },
+    {
+      "type": "related",
+      "target_id": "05483_bouenkyou",
+      "reading": "ぼうえんきょう",
+      "headword": "{望遠鏡|ぼうえんきょう}",
+      "label": "telescope"
     }
   ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "semantic": ["hobby", "nature", "outdoor activity", "astronomy"]
+      "politeness": "plain",
+      "semantic": [
+        "hobby",
+        "nature",
+        "outdoor activity",
+        "astronomy"
+      ]
     },
     "created": "2026-01-25T05:10:50Z",
-    "modified": "2026-04-20T04:12:15Z"
+    "modified": "2026-09-02T04:01:13Z"
   }
 }

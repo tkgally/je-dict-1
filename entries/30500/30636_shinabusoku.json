@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30636_shinabusoku_ex1",
-      "japanese": "マスクが{品不足|しなぶそく}だ。",
+      "japanese": "⟦マスク→マスク：05075_masuku⟧⟦が→が：00051_ga⟧{品不足|しなぶそく}だ。",
       "english": "Masks are in short supply.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30636_shinabusoku_ex2",
-      "japanese": "{台風|たいふう}の{影響|えいきょう}で{野菜|やさい}が{品不足|しなぶそく}になった。",
+      "japanese": "⟦{台風|たいふう}→台風：01455_taifuu⟧⟦の→の：09472_no⟧⟦{影響|えいきょう}→影響：01877_eikyou⟧⟦で→で：00502_de⟧⟦{野菜|やさい}→野菜：02265_yasai⟧⟦が→が：00051_ga⟧{品不足|しなぶそく}になった。",
       "english": "Vegetables ran short because of the typhoon.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30636_shinabusoku_ex3",
-      "japanese": "{部品|ぶひん}の{品不足|しなぶそく}が{続|つづ}いており、{新車|しんしゃ}の{納車|のうしゃ}は{半年待|はんとしま}ちだそうだ。",
+      "japanese": "⟦{部品|ぶひん}→部品：00020_buhin⟧⟦の→の：09472_no⟧{品不足|しなぶそく}⟦が→が：00051_ga⟧⟦{続|つづ}いて→続く：00903_tsuzuku⟧おり、⟦{新車|しんしゃ}→新車：11334_shinsha⟧⟦の→の：09472_no⟧{納車|のうしゃ}⟦は→は：00079_ha⟧{半年待|はんとしま}ちだそうだ。",
       "english": "The parts shortage is continuing, and delivery of a new car reportedly takes six months.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "COMMON COLLOCATIONS:\n- {品不足|しなぶそく}になる: to run short\n- {品不足|しなぶそく}が{続|つづ}く: for a shortage to continue\n- {品不足|しなぶそく}が{解消|かいしょう}される: for a shortage to be resolved\n- {深刻|しんこく}な{品不足|しなぶそく}: a serious shortage\n\nSIMILAR WORDS:\n- {品切|しなぎ}れ: sold out — the stock of one item at one shop is gone\n- {在庫切|ざいこぎ}れ: out of stock — focuses on the inventory itself\n- {供給不足|きょうきゅうぶそく}: supply shortage — more technical, used of markets and industries",
+  "notes": "COMMON COLLOCATIONS:\n- {品不足|しなぶそく}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧: to run short\n- {品不足|しなぶそく}⟦が→が：00051_ga⟧⟦{続|つづ}く→続く：00903_tsuzuku⟧: for a shortage to continue\n- {品不足|しなぶそく}⟦が→が：00051_ga⟧⟦{解消|かいしょう}される→解消する：21324_kaishousuru⟧: for a shortage to be resolved\n- ⟦{深刻|しんこく}→深刻：01567_shinkoku⟧な{品不足|しなぶそく}: a serious shortage\n\nSIMILAR WORDS:\n- ⟦{品切|しなぎ}れ→品切れ：09557_shinagire⟧: sold out — the stock of one item at one shop is gone\n- ⟦{在庫切|ざいこぎ}れ→在庫切れ：08305_zaikogire⟧: out of stock — focuses on the inventory itself\n- ⟦{供給不足|きょうきゅうぶそく}→供給不足：30658_kyoukyuubusoku⟧: supply shortage — more technical, used of markets and industries",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09557_shinagire",
+      "reading": "しなぎれ",
+      "headword": "{品切|しなぎ}れ",
+      "label": "sold out"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08305_zaikogire",
+      "reading": "ざいこぎれ",
+      "headword": "{在庫切|ざいこぎ}れ",
+      "label": "out of stock"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30658_kyoukyuubusoku",
+      "reading": "きょうきゅうぶそく",
+      "headword": "{供給不足|きょうきゅうぶそく}",
+      "label": "supply shortage"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +76,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "economics",
         "shopping"
@@ -63,6 +86,6 @@
       ]
     },
     "created": "2026-08-14T15:52:31Z",
-    "modified": "2026-08-14T15:52:31Z"
+    "modified": "2026-09-02T04:02:41Z"
   }
 }

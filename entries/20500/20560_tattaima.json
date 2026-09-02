@@ -20,7 +20,7 @@
   "examples": [
     {
       "id": "20560_tattaima_ex1",
-      "japanese": "たった{今|いま}{着|つ}いたところだ。",
+      "japanese": "たった{今|いま}⟦{着|つ}いた→着く：00680_tsuku⟧⟦ところ→ところ：01137_tokoro⟧だ。",
       "english": "I just got here right now.",
       "sense_numbers": [
         1
@@ -30,7 +30,7 @@
     },
     {
       "id": "20560_tattaima_ex2",
-      "japanese": "たった{今|いま}{電話|でんわ}があったよ。",
+      "japanese": "たった{今|いま}⟦{電話|でんわ}→電話：01471_denwa⟧⟦が→が：00051_ga⟧⟦あった→ある：00006_aru⟧⟦よ→よ：09475_yo⟧。",
       "english": "There was a phone call just now.",
       "sense_numbers": [
         1
@@ -40,7 +40,7 @@
     },
     {
       "id": "20560_tattaima_ex3",
-      "japanese": "たった{今|いま}{田中|たなか}さんが{帰|かえ}ったばかりなのに、もう{戻|もど}ってきた。",
+      "japanese": "たった{今|いま}{田中|たなか}さん⟦が→が：00051_ga⟧⟦{帰|かえ}った→帰る：00508_kaeru⟧⟦ばかり→〜ばかり：02006_bakari⟧な⟦の→の：09472_no⟧⟦に→に：00314_ni⟧、⟦もう→もう：00602_mou⟧⟦{戻|もど}って→戻る：01117_modoru⟧きた。",
       "english": "Tanaka-san just left a moment ago, but he's already back.",
       "sense_numbers": [
         1
@@ -50,7 +50,7 @@
     },
     {
       "id": "20560_tattaima_ex4",
-      "japanese": "たった{今|いま}から{始|はじ}める。",
+      "japanese": "たった{今|いま}⟦から→から：00504_kara⟧{始|はじ}める。",
       "english": "I'll start right now.",
       "sense_numbers": [
         2
@@ -60,7 +60,7 @@
     },
     {
       "id": "20560_tattaima_ex5",
-      "japanese": "たった{今|いま}、{大事|だいじ}なことを{思|おも}い{出|だ}した。",
+      "japanese": "たった{今|いま}、⟦{大事|だいじ}→大事：01253_daiji⟧なこと⟦を→を：00422_wo⟧⟦{思|おも}い{出|だ}した→思い出す：01258_omoidasu⟧。",
       "english": "Right this moment, I remembered something important.",
       "sense_numbers": [
         2
@@ -70,7 +70,7 @@
     },
     {
       "id": "20560_tattaima_ex6",
-      "japanese": "たった{今|いま}{決|き}めたんだけど、{来月|らいげつ}{引|ひ}っ{越|こ}すことにした。",
+      "japanese": "たった{今|いま}⟦{決|き}めた→決める：00858_kimeru⟧んだ⟦けど→けど：09477_kedo⟧、⟦{来月|らいげつ}→来月：00744_raigetsu⟧⟦{引|ひ}っ{越|こ}す→引っ越す：01171_hikkosu⟧ことにした。",
       "english": "I just decided this very moment — I'm going to move next month.",
       "sense_numbers": [
         2
@@ -79,7 +79,7 @@
       "notes": null
     }
   ],
-  "notes": "An emphatic form of {今|いま}. The word たった adds emphasis meaning \"just\" or \"only,\" making the time reference more immediate than {今|いま} alone. Very common in everyday conversation.\n\nCOMMON PATTERNS:\n- たった{今|いま}〜たところだ: just did something right now\n- たった{今|いま}〜たばかりだ: only just did something\n- たった{今|いま}から: starting right now\n\nSIMILAR WORDS:\n- {今|いま}しがた: just now — slightly more formal\n- さっき: a while ago — refers to a slightly more distant past than たった{今|いま}\n- ちょうど{今|いま}: just now, right now — similar but less emphatic",
+  "notes": "An emphatic form of ⟦{今|いま}→今：00945_ima⟧. The word ⟦たった→たった：00403_tatta⟧ adds emphasis meaning \"just\" or \"only,\" making the time reference more immediate than ⟦{今|いま}→今：00945_ima⟧ alone. Very common in everyday conversation.\n\nCOMMON PATTERNS:\n- たった{今|いま}〜た⟦ところ→ところ：01137_tokoro⟧だ: just did something right now\n- たった{今|いま}〜たばかりだ: only just did something\n- たった{今|いま}⟦から→から：00504_kara⟧: starting right now\n\nSIMILAR WORDS:\n- ⟦{今|いま}しがた→今しがた：06930_imashigata⟧: just now — slightly more formal\n- ⟦さっき→さっき：01264_sakki⟧: a while ago — refers to a slightly more distant past than たった{今|いま}\n- ⟦ちょうど→ちょうど：02916_choudo⟧⟦{今|いま}→今：00945_ima⟧: just now, right now — similar but less emphatic",
   "schema_version": "2.0",
   "cross_references": [
     {
@@ -88,6 +88,27 @@
       "reading": "いましがた",
       "headword": "{今|いま}しがた",
       "label": "just now (formal)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01264_sakki",
+      "reading": "さっき",
+      "headword": "さっき",
+      "label": "a while ago"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27657_tsuisakihodo",
+      "reading": "ついさきほど",
+      "headword": "つい{先|さき}ほど",
+      "label": "just a moment ago"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30662_tsuisakki",
+      "reading": "ついさっき",
+      "headword": "ついさっき",
+      "label": "just a moment ago"
     }
   ],
   "metadata": {
@@ -103,6 +124,6 @@
       ]
     },
     "created": "2026-03-29T18:09:06Z",
-    "modified": "2026-04-18T08:05:14Z"
+    "modified": "2026-09-02T04:02:00Z"
   }
 }

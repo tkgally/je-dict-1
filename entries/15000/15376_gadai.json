@@ -15,40 +15,65 @@
   "examples": [
     {
       "id": "15376_gadai_ex1",
-      "japanese": "{富士山|ふじさん}は{人気|にんき}のある{画題|がだい}だ。",
+      "japanese": "⟦{富士山|ふじさん}→富士山：09514_fujisan⟧⟦は→は：00079_ha⟧⟦{人気|にんき}→人気：01488_ninki⟧⟦の→の：09472_no⟧⟦ある→ある：00006_aru⟧{画題|がだい}だ。",
       "english": "Mount Fuji is a popular painting subject.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15376_gadai_ex2",
-      "japanese": "{花鳥|かちょう}は{日本画|にほんが}の{代表的|だいひょうてき}な{画題|がだい}である。",
+      "japanese": "⟦{花鳥|かちょう}→花鳥：14018_kachou⟧⟦は→は：00079_ha⟧⟦{日本画|にほんが}→日本画：18225_nihonga⟧⟦の→の：09472_no⟧⟦{代表的|だいひょうてき}→代表的：05670_daihyouteki⟧な{画題|がだい}⟦である→である：09855_dearu⟧。",
       "english": "Flowers and birds are a quintessential subject in Japanese painting.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15376_gadai_ex3",
-      "japanese": "コンクールの{画題|がだい}は「{私|わたし}の{故郷|ふるさと}」で、{参加者|さんかしゃ}は{自由|じゆう}に{描|えが}いてよい。",
+      "japanese": "⟦コンクール→コンクール：28795_konkuuru⟧⟦の→の：09472_no⟧{画題|がだい}⟦は→は：00079_ha⟧「⟦{私|わたし}→私：02988_watashi⟧⟦の→の：09472_no⟧⟦{故郷|ふるさと}→故郷：25466_furusato⟧」⟦で→で：00502_de⟧、⟦{参加者|さんかしゃ}→参加者：03059_sankasha⟧⟦は→は：00079_ha⟧⟦{自由|じゆう}→自由：01148_jiyuu⟧⟦に→に：00314_ni⟧⟦{描|えが}いて→描く：02013_egaku⟧よい。",
       "english": "The painting theme for the contest is 'My Hometown,' and participants may paint freely.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE: {画題|がだい} is used in art criticism, exhibition descriptions, and discussions of painting. It can mean both the subject matter (what is depicted) and the title (the name of the work).\n\nCOMMON COLLOCATIONS:\n- {画題|がだい}を{選|えら}ぶ: to choose a subject for a painting\n- {画題|がだい}にする: to use as a painting subject\n- {人気|にんき}のある{画題|がだい}: a popular painting subject\n\nSIMILAR WORDS:\n- {画題|がだい}: painting subject or title\n- {題材|だいざい}: subject matter (broader, not limited to painting)\n- {主題|しゅだい}: main theme (of any work of art or discourse)",
-  "cross_references": [],
+  "notes": "USAGE: {画題|がだい} is used in art criticism, exhibition descriptions, and discussions of painting. It can mean both the subject matter (what is depicted) and the title (the name of the work).\n\nCOMMON COLLOCATIONS:\n- {画題|がだい}⟦を→を：00422_wo⟧⟦{選|えら}ぶ→選ぶ：00835_erabu⟧: to choose a subject for a painting\n- {画題|がだい}⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧: to use as a painting subject\n- ⟦{人気|にんき}→人気：01488_ninki⟧⟦の→の：09472_no⟧⟦ある→ある：00006_aru⟧{画題|がだい}: a popular painting subject\n\nSIMILAR WORDS:\n- {画題|がだい}: painting subject or title\n- ⟦{題材|だいざい}→題材：10140_daizai⟧: subject matter (broader, not limited to painting)\n- ⟦{主題|しゅだい}→主題：11545_shudai⟧: main theme (of any work of art or discourse)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "10140_daizai",
+      "reading": "だいざい",
+      "headword": "{題材|だいざい}",
+      "label": "subject matter"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11545_shudai",
+      "reading": "しゅだい",
+      "headword": "{主題|しゅだい}",
+      "label": "main theme"
+    }
+  ],
   "metadata": {
     "created": "2026-03-06T11:53:43Z",
-    "modified": "2026-03-06T11:53:43Z",
+    "modified": "2026-09-02T04:01:41Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["leisure"]
+      "semantic": [
+        "leisure"
+      ]
     }
   }
 }

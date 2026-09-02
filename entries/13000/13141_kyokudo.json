@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "13141_kyokudo_ex1",
-      "japanese": "{極度|きょくど}の{疲労|ひろう}で{倒|たお}れた。",
+      "japanese": "{極度|きょくど}⟦の→の：09472_no⟧⟦{疲労|ひろう}→疲労：13603_hirou⟧⟦で→で：00502_de⟧⟦{倒|たお}れた→倒れる：01160_taoreru⟧。",
       "english": "I collapsed from extreme fatigue.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "13141_kyokudo_ex2",
-      "japanese": "{極度|きょくど}の{緊張|きんちょう}で{手|て}が{震|ふる}えていた。",
+      "japanese": "{極度|きょくど}⟦の→の：09472_no⟧⟦{緊張|きんちょう}→緊張：02494_kinchou⟧⟦で→で：00502_de⟧⟦{手|て}→手：00569_te⟧⟦が→が：00051_ga⟧⟦{震|ふる}えていた→震える：02411_furueru⟧。",
       "english": "My hands were trembling from extreme nervousness.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "13141_kyokudo_ex3",
-      "japanese": "{被災地|ひさいち}では{食料|しょくりょう}が{極度|きょくど}に{不足|ふそく}しており、{支援|しえん}が{急|きゅう}がれている。",
+      "japanese": "⟦{被災地|ひさいち}→被災地：27434_hisaichi⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{食料|しょくりょう}→食料：03250_shokuryou⟧⟦が→が：00051_ga⟧{極度|きょくど}⟦に→に：00314_ni⟧⟦{不足|ふそく}→不足：03598_fusoku⟧⟦して→する：00392_suru⟧おり、⟦{支援|しえん}→支援：07778_shien⟧⟦が→が：00051_ga⟧{急|きゅう}がれて⟦いる→いる：00495_iru⟧。",
       "english": "Food is extremely scarce in the disaster area, and aid is urgently needed.",
       "notes": null,
       "has_audio": false,
@@ -44,18 +44,25 @@
       ]
     }
   ],
-  "notes": "USAGE:\nUsed as a no-adjective ({極度|きょくど}の{疲労|ひろう}) or adverbially with に ({極度|きょくど}に{緊張|きんちょう}する). Tends to appear with states that are inherently unpleasant or stressful: fatigue, tension, fear, anxiety, stress. More formal than {非常|ひじょう}に or すごく.\n\nCOMMON COLLOCATIONS:\n- {極度|きょくど}の{疲労|ひろう}: extreme fatigue\n- {極度|きょくど}の{緊張|きんちょう}: extreme tension\n- {極度|きょくど}の{不安|ふあん}: extreme anxiety\n- {極度|きょくど}に{達|たっ}する: to reach the extreme\n\nSIMILAR WORDS:\n- {極|きわ}み: the extreme, the peak (literary, noun form)\n- {過度|かど}: excessive (implies going beyond what is appropriate)",
+  "notes": "USAGE:\nUsed as a no-adjective ({極度|きょくど}⟦の→の：09472_no⟧⟦{疲労|ひろう}→疲労：13603_hirou⟧) or adverbially with ⟦に→に：00314_ni⟧ ({極度|きょくど}⟦に→に：00314_ni⟧⟦{緊張|きんちょう}する→緊張する：20557_kinchousuru⟧). Tends to appear with states that are inherently unpleasant or stressful: fatigue, tension, fear, anxiety, stress. More formal than ⟦{非常|ひじょう}→非常：01598_hijou⟧⟦に→に：00314_ni⟧ or ⟦すごく→すごい：01128_sugoi⟧.\n\nCOMMON COLLOCATIONS:\n- {極度|きょくど}⟦の→の：09472_no⟧⟦{疲労|ひろう}→疲労：13603_hirou⟧: extreme fatigue\n- {極度|きょくど}⟦の→の：09472_no⟧⟦{緊張|きんちょう}→緊張：02494_kinchou⟧: extreme tension\n- {極度|きょくど}⟦の→の：09472_no⟧⟦{不安|ふあん}→不安：00836_fuan⟧: extreme anxiety\n- {極度|きょくど}⟦に→に：00314_ni⟧⟦{達|たっ}する→達する：02129_tassuru⟧: to reach the extreme\n\nSIMILAR WORDS:\n- ⟦{極|きわ}み→極み：13140_kiwami⟧: the extreme, the peak (literary, noun form)\n- ⟦{過度|かど}→過度：14377_kado⟧: excessive (implies going beyond what is appropriate)",
   "cross_references": [
     {
       "type": "related",
       "reading": "きわみ",
       "headword": "{極|きわ}み",
       "target_id": "13140_kiwami"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14377_kado",
+      "reading": "かど",
+      "headword": "{過度|かど}",
+      "label": "excessive"
     }
   ],
   "metadata": {
     "created": "2026-02-23T11:46:59Z",
-    "modified": "2026-08-24T00:38:19Z",
+    "modified": "2026-09-02T04:01:32Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

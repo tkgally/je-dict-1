@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "07898_hakanai_ex1",
-      "japanese": "{人生|じんせい}は{儚|はかな}い。",
+      "japanese": "⟦{人生|じんせい}→人生：03355_jinsei⟧⟦は→は：00079_ha⟧{儚|はかな}い。",
       "english": "Life is fleeting.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "07898_hakanai_ex2",
-      "japanese": "{桜|さくら}の{美|うつく}しさは{儚|はかな}いからこそ{愛|あい}される。",
+      "japanese": "⟦{桜|さくら}→桜：02212_sakura⟧⟦の→の：09472_no⟧{美|うつく}しさ⟦は→は：00079_ha⟧{儚|はかな}い⟦から→から：00504_kara⟧⟦こそ→こそ：12731_koso⟧⟦{愛|あい}される→愛する：01811_aisuru⟧。",
       "english": "Cherry blossoms are loved precisely because their beauty is fleeting.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "07898_hakanai_ex3",
-      "japanese": "{彼女|かのじょ}の{儚|はかな}い{笑顔|えがお}が{印象|いんしょう}に{残|のこ}っている。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦の→の：09472_no⟧{儚|はかな}い⟦{笑顔|えがお}→笑顔：01884_egao⟧⟦が→が：00051_ga⟧⟦{印象|いんしょう}→印象：01846_inshou⟧⟦に→に：00314_ni⟧⟦{残|のこ}っている→残る：01187_nokoru⟧。",
       "english": "Her fragile smile left an impression on me.",
       "sense_numbers": [
         1
@@ -43,7 +43,7 @@
       "notes": null
     }
   ],
-  "notes": "{儚|はかな}い expresses the transient, ephemeral nature of things, often with a sense of beauty or sadness.\n\nFORMS:\n- Attributive: {儚|はかな}い + noun\n- Predicate: {儚|はかな}い\n- Adverbial: {儚|はかな}く\n- Noun form: {儚|はかな}さ (transience)\n\nKANJI NOTE:\n- The kanji {儚|はかな} ({人|にんべん} + {夢|ゆめ}) literally suggests \"person + dream,\" evoking the dreamlike, insubstantial quality of fleeting things.\n- Often written in hiragana (はかない) in modern usage.\n\nCULTURAL CONTEXT:\n- Central to Japanese aesthetics ({物|もの}の{哀|あわ}れ)\n- Associated with cherry blossoms, fireflies, and other symbols of transience\n- Reflects Buddhist concepts of impermanence ({無常|むじょう})\n\nCOMMON COLLOCATIONS:\n- {儚|はかな}い{命|いのち} (fleeting life)\n- {儚|はかな}い{夢|ゆめ} (ephemeral dream)\n- {儚|はかな}い{美|うつく}しさ (transient beauty)\n- {儚|はかな}い{希望|きぼう} (fragile hope)\n\nSIMILAR WORDS:\n- {短|みじか}い (short - neutral, objective)\n- {束|つか}の{間|ま} (momentary - time-focused)\n- {脆|もろ}い (fragile - physical fragility)\n\nREGISTER: Literary/formal. Often used in poetry and emotional contexts.",
+  "notes": "{儚|はかな}い expresses the transient, ephemeral nature of things, often with a sense of beauty or sadness.\n\nFORMS:\n- Attributive: {儚|はかな}い + noun\n- Predicate: {儚|はかな}い\n- Adverbial: {儚|はかな}く\n- Noun form: {儚|はかな}さ (transience)\n\nWRITING:\n- The kanji {儚|はかな} ({人|にんべん} + ⟦{夢|ゆめ}→夢：01519_yume⟧) literally suggests \"person + dream,\" evoking the dreamlike, insubstantial quality of fleeting things.\n- Often written in hiragana (はかない) in modern usage.\n\nCULTURAL NOTE:\n- Central to Japanese aesthetics (⟦{物|もの}の{哀|あわ}れ→物の哀れ：30312_mononoaware⟧)\n- Associated with cherry blossoms, fireflies, and other symbols of transience\n- Reflects Buddhist concepts of impermanence (⟦{無常|むじょう}→無常：13422_mujou⟧)\n\nCOMMON COLLOCATIONS:\n- {儚|はかな}い⟦{命|いのち}→命：02371_inochi⟧ (fleeting life)\n- {儚|はかな}い⟦{夢|ゆめ}→夢：01519_yume⟧ (ephemeral dream)\n- {儚|はかな}い{美|うつく}しさ (transient beauty)\n- {儚|はかな}い⟦{希望|きぼう}→希望：00221_kibou⟧ (fragile hope)\n\nSIMILAR WORDS:\n- ⟦{短|みじか}い→短い：00510_mijikai⟧ (short - neutral, objective)\n- ⟦{束|つか}の{間|ま}→束の間：12863_tsukanoma⟧ (momentary - time-focused)\n- ⟦{脆|もろ}い→脆い：06069_moroi⟧ (fragile - physical fragility)\n\nREGISTER: Literary/formal. Often used in poetry and emotional contexts.",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -58,7 +58,7 @@
       ]
     },
     "created": "2026-01-22T05:13:53Z",
-    "modified": "2026-06-21T00:53:31Z"
+    "modified": "2026-09-02T04:01:13Z"
   },
   "cross_references": [
     {
@@ -67,6 +67,62 @@
       "reading": "つかのま",
       "headword": "{束|つか}の{間|ま}",
       "label": "momentary"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00510_mijikai",
+      "reading": "みじかい",
+      "headword": "{短|みじか}い",
+      "label": "short"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06069_moroi",
+      "reading": "もろい",
+      "headword": "{脆|もろ}い",
+      "label": "fragile"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07390_munashii",
+      "reading": "むなしい",
+      "headword": "{空|むな}しい",
+      "label": "empty"
+    },
+    {
+      "type": "related",
+      "target_id": "07869_kayowai",
+      "reading": "かよわい",
+      "headword": "か{弱|よわ}い",
+      "label": "weak"
+    },
+    {
+      "type": "related",
+      "target_id": "13422_mujou",
+      "reading": "むじょう",
+      "headword": "{無常|むじょう}",
+      "label": "impermanence, transience"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21190_hakanage",
+      "reading": "はかなげ",
+      "headword": "{儚|はかな}げ",
+      "label": "seemingly fragile"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21421_houmatsu",
+      "reading": "ほうまつ",
+      "headword": "{泡沫|ほうまつ}",
+      "label": "foam"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23416_karenna",
+      "reading": "かれんな",
+      "headword": "{可憐|かれん}な",
+      "label": "sweet and lovable"
     }
   ],
   "conjugation": {

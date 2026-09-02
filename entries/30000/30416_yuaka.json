@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30416_yuaka_ex1",
-      "japanese": "やかんに{湯垢|ゆあか}がついた。",
+      "japanese": "やかん⟦に→に：00314_ni⟧{湯垢|ゆあか}⟦が→が：00051_ga⟧ついた。",
       "english": "Scale has built up in the kettle.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30416_yuaka_ex2",
-      "japanese": "{風呂|ふろ}の{湯垢|ゆあか}をこすって{落|お}とす。",
+      "japanese": "⟦{風呂|ふろ}→風呂：14633_furo⟧⟦の→の：09472_no⟧{湯垢|ゆあか}⟦を→を：00422_wo⟧こすって⟦{落|お}とす→落とす：01246_otosu⟧。",
       "english": "I scrub off the scum in the bathtub.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30416_yuaka_ex3",
-      "japanese": "{湯垢|ゆあか}はクエン{酸|さん}を{使|つか}うときれいに{取|と}れる。",
+      "japanese": "{湯垢|ゆあか}⟦は→は：00079_ha⟧クエン⟦{酸|さん}→酸：28620_san⟧⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧⟦と→と：00512_to⟧⟦きれい→きれい：00717_kirei⟧⟦に→に：00314_ni⟧⟦{取|と}れる→取れる：02376_toreru⟧。",
       "english": "Limescale comes off nicely if you use citric acid.",
       "sense_numbers": [
         1
@@ -45,7 +45,7 @@
     },
     {
       "id": "30416_yuaka_ex4",
-      "japanese": "{毎日|まいにち}{洗|あら}っていても、{浴槽|よくそう}には{少|すこ}しずつ{湯垢|ゆあか}がたまっていく。",
+      "japanese": "⟦{毎日|まいにち}→毎日：00729_mainichi⟧⟦{洗|あら}っていて→洗う：00827_arau⟧⟦も→も：00484_mo⟧、⟦{浴槽|よくそう}→浴槽：04985_yokusou⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{少|すこ}し→少し：00596_sukoshi⟧⟦ずつ→〜ずつ：03092_zutsu⟧{湯垢|ゆあか}⟦が→が：00051_ga⟧たまっていく。",
       "english": "Even if you wash it every day, scum gradually builds up in the bathtub.",
       "sense_numbers": [
         1
@@ -54,8 +54,17 @@
       "notes": null
     }
   ],
-  "notes": "Formed from {湯|ゆ} (hot water) + {垢|あか} (grime, dirt). It refers to deposits left by the water itself, mostly minerals, rather than to body dirt.\n\nCOMMON COLLOCATIONS:\n- {湯垢|ゆあか}がつく: scale forms\n- {湯垢|ゆあか}がたまる: scale builds up\n- {湯垢|ゆあか}を{落|お}とす: to remove scale\n- {湯垢|ゆあか}{取|と}り: scale remover (product)\n\nSIMILAR WORDS:\n- {水垢|みずあか}: water stains — the same kind of deposit left by cold water, on sinks and faucets\n- {垢|あか}: grime — the general word, including dirt from the skin",
+  "notes": "Formed from ⟦{湯|ゆ}→湯：01740_yu⟧ (hot water) + ⟦{垢|あか}→垢：19701_aka⟧ (grime, dirt). It refers to deposits left by the water itself, mostly minerals, rather than to body dirt.\n\nCOMMON COLLOCATIONS:\n- {湯垢|ゆあか}⟦が→が：00051_ga⟧つく: scale forms\n- {湯垢|ゆあか}⟦が→が：00051_ga⟧たまる: scale builds up\n- {湯垢|ゆあか}⟦を→を：00422_wo⟧⟦{落|お}とす→落とす：01246_otosu⟧: to remove scale\n- {湯垢|ゆあか}{取|と}り: scale remover (product)\n\nSIMILAR WORDS:\n- ⟦{水垢|みずあか}→水垢：30399_mizuaka⟧: water stains — the same kind of deposit left by cold water, on sinks and faucets\n- ⟦{垢|あか}→垢：19701_aka⟧: grime — the general word, including dirt from the skin",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "30399_mizuaka",
+      "reading": "みずあか",
+      "headword": "{水垢|みずあか}",
+      "label": "water stains"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -63,13 +72,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "daily-life"
       ],
       "domain": []
     },
     "created": "2026-08-05T15:24:36Z",
-    "modified": "2026-08-05T15:24:36Z"
+    "modified": "2026-09-02T04:02:40Z"
   }
 }

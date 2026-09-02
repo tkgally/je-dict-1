@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24270_gaiyouyaku_ex1",
-      "japanese": "この{薬|くすり}は{外用薬|がいようやく}です。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{薬|くすり}→薬：00793_kusuri⟧⟦は→は：00079_ha⟧{外用薬|がいようやく}です。",
       "english": "This medicine is for external use.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24270_gaiyouyaku_ex2",
-      "japanese": "{外用薬|がいようやく}は{患部|かんぶ}に{直接|ちょくせつ}{塗|ぬ}ってください。",
+      "japanese": "{外用薬|がいようやく}⟦は→は：00079_ha⟧⟦{患部|かんぶ}→患部：18653_kanbu⟧⟦に→に：00314_ni⟧⟦{直接|ちょくせつ}→直接：03499_chokusetsu⟧⟦{塗|ぬ}って→塗る：01174_nuru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please apply the topical medication directly to the affected area.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24270_gaiyouyaku_ex3",
-      "japanese": "{内服薬|ないふくやく}と{外用薬|がいようやく}の{両方|りょうほう}を{処方|しょほう}されたが、{外用薬|がいようやく}は{一日|いちにち}{二回|にかい}{塗布|とふ}するよう{指示|しじ}された。",
+      "japanese": "⟦{内服薬|ないふくやく}→内服薬：22643_naifukuyaku⟧⟦と→と：00512_to⟧{外用薬|がいようやく}⟦の→の：09472_no⟧⟦{両方|りょうほう}→両方：01750_ryouhou⟧⟦を→を：00422_wo⟧⟦{処方|しょほう}→処方：05976_shohou⟧⟦された→する：00392_suru⟧⟦が→が：00051_ga⟧、{外用薬|がいようやく}⟦は→は：00079_ha⟧⟦{一日|いちにち}→一日：00942_ichinichi⟧⟦{二回|にかい}→二回：27625_nikai⟧⟦{塗布|とふ}→塗布：24594_tofu⟧⟦する→する：00392_suru⟧よう⟦{指示|しじ}→指示：09674_shiji⟧⟦された→する：00392_suru⟧。",
       "english": "I was prescribed both oral and topical medication, and was instructed to apply the topical one twice a day.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {外用|がいよう} ('external use') and {薬|やく} ('medicine'). The standard pharmaceutical term for any medication not taken by mouth or injection, including creams, ointments, patches, and drops.\n\nUSAGE:\n- The label {外用|がいよう} appears on medicine packaging to indicate it should not be ingested\n- Contrasts with {内服薬|ないふくやく} ('oral medication') and {注射薬|ちゅうしゃやく} ('injectable medication')\n- Common in pharmacy, hospital, and product labeling contexts\n\nCOMMON COLLOCATIONS:\n- {外用薬|がいようやく}を{塗|ぬ}る: to apply topical medication\n- {外用薬|がいようやく}を{処方|しょほう}する: to prescribe external medication\n- {外用薬|がいようやく}の{使用方法|しようほうほう}: how to use external medication\n- {皮膚|ひふ}{外用薬|がいようやく}: dermatological topical medication\n\nSIMILAR WORDS:\n- {内服薬|ないふくやく}: oral medicine; internal medicine — medication taken by mouth\n- {塗り薬|ぬりぐすり}: ointment; cream — the everyday word for topical medicine you spread on skin\n- {貼り薬|はりぐすり}: medicated patch — a specific type of external medicine applied as a patch",
+  "notes": "Compound of {外用|がいよう} ('external use') and {薬|やく} ('medicine'). The standard pharmaceutical term for any medication not taken by mouth or injection, including creams, ointments, patches, and drops.\n\nUSAGE:\n- The label {外用|がいよう} appears on medicine packaging to indicate it should not be ingested\n- Contrasts with ⟦{内服薬|ないふくやく}→内服薬：22643_naifukuyaku⟧ ('oral medication') and {注射薬|ちゅうしゃやく} ('injectable medication')\n- Common in pharmacy, hospital, and product labeling contexts\n\nCOMMON COLLOCATIONS:\n- {外用薬|がいようやく}⟦を→を：00422_wo⟧⟦{塗|ぬ}る→塗る：01174_nuru⟧: to apply topical medication\n- {外用薬|がいようやく}⟦を→を：00422_wo⟧⟦{処方|しょほう}→処方：05976_shohou⟧⟦する→する：00392_suru⟧: to prescribe external medication\n- {外用薬|がいようやく}⟦の→の：09472_no⟧{使用方法|しようほうほう}: how to use external medication\n- ⟦{皮膚|ひふ}→皮膚：03987_hifu⟧{外用薬|がいようやく}: dermatological topical medication\n\nSIMILAR WORDS:\n- ⟦{内服薬|ないふくやく}→内服薬：22643_naifukuyaku⟧: oral medicine; internal medicine — medication taken by mouth\n- ⟦{塗り薬|ぬりぐすり}→塗り薬：17374_nurigusuri⟧: ointment; cream — the everyday word for topical medicine you spread on skin\n- {貼り薬|はりぐすり}: medicated patch — a specific type of external medicine applied as a patch",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22643_naifukuyaku",
+      "reading": "ないふくやく",
+      "headword": "{内服薬|ないふくやく}",
+      "label": "oral medicine"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17374_nurigusuri",
+      "reading": "ぬりぐすり",
+      "headword": "{塗|ぬ}り{薬|ぐすり}",
+      "label": "ointment"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24269_tenganyaku",
+      "reading": "てんがんやく",
+      "headword": "{点眼薬|てんがんやく}",
+      "label": "eye drops"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,6 +85,6 @@
       ]
     },
     "created": "2026-04-18T12:20:09Z",
-    "modified": "2026-04-18T12:20:09Z"
+    "modified": "2026-09-02T04:02:17Z"
   }
 }

@@ -2,7 +2,7 @@
   "id": "01460_tanjou",
   "headword": "{誕生|たんじょう}",
   "reading": "たんじょう",
-  "part_of_speech": "noun (verbal)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "birth",
   "conjugation": {
     "type": "suru",
@@ -208,7 +208,7 @@
       ]
     }
   ],
-  "notes": "{誕生|たんじょう} means birth or the creation/beginning of something new.\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n- No standard transitive pair\n- Pattern: {誕生|たんじょう}⟦する→する：00392_suru⟧\n\nMEANINGS:\n1. Birth (of a person): ⟦{赤|あか}ちゃん→赤ちゃん：01282_akachan⟧⟦の→の：09472_no⟧{誕生|たんじょう}\n2. Creation/beginning (figurative): ⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦{時代|じだい}→時代：01424_jidai⟧⟦の→の：09472_no⟧{誕生|たんじょう}\n\nVERBAL USE:\n{誕生|たんじょう}⟦する→する：00392_suru⟧: to be born, to come into existence\n\nCOMMON COMPOUNDS:\n- ⟦{誕生日|たんじょうび}→誕生日：02910_tanjoubi⟧: birthday\n- {誕生|たんじょう}⟦パーティー→パーティー：02946_paatii⟧: birthday party\n- ⟦{生|う}まれる→生まれる：00905_umareru⟧: to be born (more common verb)\n\nCOMMON EXPRESSIONS:\n- ⟦お→お〜：03097_o⟧⟦{誕生日|たんじょうび}→誕生日：02910_tanjoubi⟧⟦おめでとう→おめでとう：01043_omedetou⟧: happy birthday\n- ⟦{新記録|しんきろく}→新記録：16705_shinkiroku⟧⟦が→が：00051_ga⟧{誕生|たんじょう}⟦した→する：00392_suru⟧: a new record was set\n\nNOTE:\nFor everyday \"birth,\" ⟦{生|う}まれる→生まれる：00905_umareru⟧ is more common. {誕生|たんじょう} is more formal/literary.",
+  "notes": "{誕生|たんじょう} means birth or the creation/beginning of something new.\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n- No standard transitive pair\n- Pattern: {誕生|たんじょう}⟦する→する：00392_suru⟧\n\nUSAGE:\n1. Birth (of a person): ⟦{赤|あか}ちゃん→赤ちゃん：01282_akachan⟧⟦の→の：09472_no⟧{誕生|たんじょう}\n2. Creation/beginning (figurative): ⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦{時代|じだい}→時代：01424_jidai⟧⟦の→の：09472_no⟧{誕生|たんじょう}\nFor everyday \"birth,\" ⟦{生|う}まれる→生まれる：00905_umareru⟧ is more common. {誕生|たんじょう} is more formal/literary.\n\nVERBAL USE:\n{誕生|たんじょう}⟦する→する：00392_suru⟧: to be born, to come into existence\n\nCOMPOUNDS:\n- ⟦{誕生日|たんじょうび}→誕生日：02910_tanjoubi⟧: birthday\n- {誕生|たんじょう}⟦パーティー→パーティー：02946_paatii⟧: birthday party\n- ⟦{生|う}まれる→生まれる：00905_umareru⟧: to be born (more common verb)\n\nCOMMON EXPRESSIONS:\n- ⟦お→お〜：03097_o⟧⟦{誕生日|たんじょうび}→誕生日：02910_tanjoubi⟧⟦おめでとう→おめでとう：01043_omedetou⟧: happy birthday\n- ⟦{新記録|しんきろく}→新記録：16705_shinkiroku⟧⟦が→が：00051_ga⟧{誕生|たんじょう}⟦した→する：00392_suru⟧: a new record was set",
   "cross_references": [
     {
       "type": "related",
@@ -216,11 +216,25 @@
       "reading": "たんじょうび",
       "headword": "{誕生日|たんじょうび}",
       "label": "birthday"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22909_shinsei",
+      "reading": "しんせい",
+      "headword": "{新生|しんせい}",
+      "label": "rebirth"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22914_seitan",
+      "reading": "せいたん",
+      "headword": "{生誕|せいたん}",
+      "label": "birth"
     }
   ],
   "metadata": {
     "created": "2026-01-08T12:28:49Z",
-    "modified": "2026-05-15T17:10:22Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

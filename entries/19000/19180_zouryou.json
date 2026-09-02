@@ -3,7 +3,7 @@
   "headword": "{増量|ぞうりょう}",
   "reading": "ぞうりょう",
   "romaji": "zouryou",
-  "part_of_speech": "noun / suru verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "increase in quantity; extra amount",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "19180_zouryou_ex1",
-      "japanese": "{期間|きかん}{限定|げんてい}で20%{増量|ぞうりょう}。",
+      "japanese": "⟦{期間|きかん}{限定|げんてい}→期間限定：09744_kikangentei⟧⟦で→で：00502_de⟧20%{増量|ぞうりょう}。",
       "english": "20% extra for a limited time.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "19180_zouryou_ex2",
-      "japanese": "{薬|くすり}の{量|りょう}を{増量|ぞうりょう}してもらった。",
+      "japanese": "⟦{薬|くすり}→薬：00793_kusuri⟧⟦の→の：09472_no⟧⟦{量|りょう}→量：03799_ryou⟧⟦を→を：00422_wo⟧{増量|ぞうりょう}⟦して→する：00392_suru⟧⟦もらった→もらう：00520_morau⟧。",
       "english": "I had my medication dosage increased.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "19180_zouryou_ex3",
-      "japanese": "このスナック{菓子|がし}は{今月|こんげつ}だけ{中身|なかみ}が{増量|ぞうりょう}されている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦スナック→スナック：27527_sunakku⟧{菓子|がし}⟦は→は：00079_ha⟧⟦{今月|こんげつ}→今月：00720_kongetsu⟧⟦だけ→〜だけ：03093_dake⟧⟦{中身|なかみ}→中身：01483_nakami⟧⟦が→が：00051_ga⟧{増量|ぞうりょう}⟦されている→する：00392_suru⟧。",
       "english": "This snack has extra contents only this month.",
       "sense_numbers": [
         1
@@ -134,7 +134,7 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {増|ぞう} (increase) + {量|りょう} (quantity). Very commonly seen on food packaging in Japan as a marketing term: {増量|ぞうりょう}{中|ちゅう} (now with more!), 20%{増量|ぞうりょう} (20% extra). The opposite is {減量|げんりょう} (reduction in quantity; also weight loss in sports/dieting). Common collocations: {増量|ぞうりょう}する (to increase the amount), {増量|ぞうりょう}{中|ちゅう} (currently offering extra), {増量|ぞうりょう}{分|ぶん} (the extra portion).",
+  "notes": "Composed of {増|ぞう} (increase) + ⟦{量|りょう}→量：03799_ryou⟧ (quantity). Very commonly seen on food packaging in Japan as a marketing term: {増量|ぞうりょう}⟦{中|ちゅう}→〜中：09840_chuu⟧ (now with more!), 20%{増量|ぞうりょう} (20% extra). The opposite is ⟦{減量|げんりょう}→減量：13355_genryou⟧ (reduction in quantity; also weight loss in sports/dieting). Common collocations: {増量|ぞうりょう}⟦する→する：00392_suru⟧ (to increase the amount), {増量|ぞうりょう}⟦{中|ちゅう}→〜中：09840_chuu⟧ (currently offering extra), {増量|ぞうりょう}⟦{分|ぶん}→分：26216_bun⟧ (the extra portion).",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -148,9 +148,10 @@
       "semantic": [
         "quantity"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-03-24T13:54:17Z",
-    "modified": "2026-03-24T13:54:17Z"
+    "modified": "2026-09-02T04:01:55Z"
   }
 }

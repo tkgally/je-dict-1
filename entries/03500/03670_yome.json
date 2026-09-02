@@ -118,10 +118,10 @@
       ]
     }
   ],
-  "notes": "USAGE: {嫁|よめ} can mean (1) bride, (2) wife (casual/informal), or (3) daughter-in-law. The meaning depends on context and the speaker's perspective.\n\nCOMMON PATTERNS:\n・{嫁|よめ}⟦に→に：00314_ni⟧⟦{行|い}く→行く：00119_iku⟧ (to get married - for women)\n・{嫁|よめ}⟦に→に：00314_ni⟧⟦もらう→もらう：00520_morau⟧ (to take as a wife)\n・{嫁|よめ}⟦さん→〜さん：09848_san⟧ (wife - casual/affectionate)\n・⟦お→お〜：03097_o⟧{嫁|よめ}⟦さん→〜さん：09848_san⟧ (bride)\n\nRELATED:\n・⟦{花嫁|はなよめ}→花嫁：04318_hanayome⟧ - bride (at wedding)\n・⟦{婿|むこ}→婿：10617_muko⟧ - groom, son-in-law\n・⟦{妻|つま}→妻：01005_tsuma⟧ - wife (formal)",
+  "notes": "USAGE: {嫁|よめ} can mean (1) bride, (2) wife (casual/informal), or (3) daughter-in-law. The meaning depends on context and the speaker's perspective.\n\nCOMMON PATTERNS:\n- {嫁|よめ}⟦に→に：00314_ni⟧⟦{行|い}く→行く：00119_iku⟧ (to get married - for women)\n- {嫁|よめ}⟦に→に：00314_ni⟧⟦もらう→もらう：00520_morau⟧ (to take as a wife)\n- {嫁|よめ}⟦さん→〜さん：09848_san⟧ (wife - casual/affectionate)\n- ⟦お→お〜：03097_o⟧{嫁|よめ}⟦さん→〜さん：09848_san⟧ (bride)\n\nRELATED WORDS:\n- ⟦{花嫁|はなよめ}→花嫁：04318_hanayome⟧ - bride (at wedding)\n- ⟦{婿|むこ}→婿：10617_muko⟧ - groom, son-in-law\n- ⟦{妻|つま}→妻：01005_tsuma⟧ - wife (formal)",
   "metadata": {
     "created": "2026-01-12T16:08:00Z",
-    "modified": "2026-07-26T06:18:50Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
@@ -142,6 +142,34 @@
       "reading": "つま",
       "headword": "{妻|つま}",
       "label": "wife (neutral, standard)"
+    },
+    {
+      "type": "related",
+      "target_id": "10617_muko",
+      "reading": "むこ",
+      "headword": "{婿|むこ}",
+      "label": "groom, son-in-law"
+    },
+    {
+      "type": "related",
+      "target_id": "00958_kanai",
+      "reading": "かない",
+      "headword": "{家内|かない}",
+      "label": "wife (humble)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12337_okusama",
+      "reading": "おくさま",
+      "headword": "{奥様|おくさま}",
+      "label": "wife (polite), madam"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12981_shinpu",
+      "reading": "しんぷ",
+      "headword": "{新婦|しんぷ}",
+      "label": "bride"
     }
   ]
 }

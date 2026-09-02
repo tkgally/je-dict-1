@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "20118_kyoumibukai_ex1",
-      "japanese": "{興味深|きょうみぶか}い{結果|けっか}だ。",
+      "japanese": "{興味深|きょうみぶか}い⟦{結果|けっか}→結果：02486_kekka⟧だ。",
       "english": "That's a fascinating result.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "20118_kyoumibukai_ex2",
-      "japanese": "この{研究|けんきゅう}は{非常|ひじょう}に{興味深|きょうみぶか}い。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{研究|けんきゅう}→研究：01396_kenkyuu⟧⟦は→は：00079_ha⟧⟦{非常|ひじょう}→非常：01598_hijou⟧⟦に→に：00314_ni⟧{興味深|きょうみぶか}い。",
       "english": "This research is extremely interesting.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "20118_kyoumibukai_ex3",
-      "japanese": "{歴史的|れきしてき}な{背景|はいけい}を{知|し}ると、この{建物|たてもの}はさらに{興味深|きょうみぶか}くなる。",
+      "japanese": "⟦{歴史的|れきしてき}→歴史的：05671_rekishiteki⟧な⟦{背景|はいけい}→背景：28348_haikei⟧⟦を→を：00422_wo⟧⟦{知|し}る→知る：00458_shiru⟧⟦と→と：00512_to⟧、⟦この→この：00962_kono⟧⟦{建物|たてもの}→建物：01458_tatemono⟧⟦は→は：00079_ha⟧さらに{興味深|きょうみぶか}く⟦なる→なる：01970_naru⟧。",
       "english": "When you learn the historical background, this building becomes even more fascinating.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {興味|きょうみ} (interest) + {深|ふか}い (deep). Used to express genuine intellectual curiosity or fascination with a topic. More formal and objective than {面白|おもしろ}い, which can also mean 'fun' or 'amusing.'\n\nCOMMON COLLOCATIONS:\n- {興味深|きょうみぶか}い{結果|けっか}: fascinating result\n- {興味深|きょうみぶか}い{発見|はっけん}: interesting discovery\n- {興味深|きょうみぶか}い{事実|じじつ}: interesting fact\n- {興味深|きょうみぶか}い{話|はなし}: interesting story\n- {興味深|きょうみぶか}く{読|よ}む: to read with great interest\n\nSIMILAR WORDS:\n- {面白|おもしろ}い: interesting, fun — broader in meaning; can mean entertaining or amusing, not just intellectually interesting\n- {関心|かんしん}がある: to be interested in — expresses personal interest rather than describing the object as interesting\n\nUSAGE:\nOften used in academic, journalistic, and formal contexts. The adverbial form {興味深|きょうみぶか}く is also common, as in {興味深|きょうみぶか}く{拝見|はいけん}しました (I read/viewed it with great interest).",
+  "notes": "Composed of ⟦{興味|きょうみ}→興味：01316_kyoumi⟧ (interest) + ⟦{深|ふか}い→深い：01211_fukai⟧ (deep). Used to express genuine intellectual curiosity or fascination with a topic. More formal and objective than ⟦{面白|おもしろ}い→面白い：00589_omoshiroi⟧, which can also mean 'fun' or 'amusing.'\n\nCOMMON COLLOCATIONS:\n- {興味深|きょうみぶか}い⟦{結果|けっか}→結果：02486_kekka⟧: fascinating result\n- {興味深|きょうみぶか}い⟦{発見|はっけん}→発見：00085_hakken⟧: interesting discovery\n- {興味深|きょうみぶか}い⟦{事実|じじつ}→事実：03271_jijitsu⟧: interesting fact\n- {興味深|きょうみぶか}い⟦{話|はなし}→話：01496_hanashi⟧: interesting story\n- {興味深|きょうみぶか}く⟦{読|よ}む→読む：00426_yomu⟧: to read with great interest\n\nSIMILAR WORDS:\n- ⟦{面白|おもしろ}い→面白い：00589_omoshiroi⟧: interesting, fun — broader in meaning; can mean entertaining or amusing, not just intellectually interesting\n- ⟦{関心|かんしん}→関心：00182_kanshin⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧: to be interested in — expresses personal interest rather than describing the object as interesting\n\nUSAGE:\nOften used in academic, journalistic, and formal contexts. The adverbial form {興味深|きょうみぶか}く is also common, as in {興味深|きょうみぶか}く⟦{拝見|はいけん}しました→拝見する：01823_haikensuru⟧ (I read/viewed it with great interest).",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00589_omoshiroi",
+      "reading": "おもしろい",
+      "headword": "{面白|おもしろ}い",
+      "label": "interesting, fun"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29009_kikigotaegaaru",
+      "reading": "ききごたえがある",
+      "headword": "{聞|き}き{応|ごた}えがある",
+      "label": "worth listening to"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,7 +75,7 @@
       ]
     },
     "created": "2026-03-28T14:11:55Z",
-    "modified": "2026-07-28T00:51:36Z"
+    "modified": "2026-09-02T04:01:58Z"
   },
   "conjugation": {
     "type": "i-adjective",

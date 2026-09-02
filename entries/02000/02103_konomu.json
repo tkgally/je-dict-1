@@ -114,7 +114,7 @@
     },
     {
       "id": "02103_konomu_ex2",
-      "japanese": "お{好|この}み⟦の→の：09472_no⟧⟦{色|いろ}→色：00849_iro⟧⟦は→は：00079_ha⟧⟦あります→ある：00006_aru⟧⟦か→か：09473_ka⟧。",
+      "japanese": "お⟦{好|この}み→好み：02767_konomi⟧⟦の→の：09472_no⟧⟦{色|いろ}→色：00849_iro⟧⟦は→は：00079_ha⟧⟦あります→ある：00006_aru⟧⟦か→か：09473_ka⟧。",
       "english": "Do you have a preferred color?",
       "notes": null,
       "has_audio": false,
@@ -153,7 +153,7 @@
       ]
     }
   ],
-  "notes": "{好|この}む is a godan verb meaning \"to like\" or \"to prefer.\" It's slightly more formal than ⟦{好|す}き→好き：02355_suki⟧.\n\nTRANSITIVITY: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive) - takes ⟦を→を：00422_wo⟧ particle\n\nCOMMON PATTERNS:\n- 〜⟦を→を：00422_wo⟧{好|この}む: to like/prefer ~\n- {好|この}んで〜する: to willingly do ~, to like to do ~\n\nWORD FAMILY:\n- {好|この}む: to like (verb)\n- ⟦{好|この}み→好み：02767_konomi⟧: preference, taste (noun)\n- お{好|この}み: one's preference (polite)\n- ⟦{お好み焼|おこのみや}き→お好み焼き：10252_okonomiyaki⟧: savory pancake (lit. \"as you like it\")\n\nCONTRAST WITH ⟦{好|す}き→好き：02355_suki⟧:\n- {好|この}む: to like (verb, slightly formal, written)\n- ⟦{好|す}き→好き：02355_suki⟧: to like (na-adjective, casual, spoken)\n\nExample: ⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{静|しず}かな→静か：00755_shizuka⟧⟦{場所|ばしょ}→場所：00829_basho⟧⟦を→を：00422_wo⟧{好|この}む (He prefers quiet places)\n\nASPECT (ている):\n- {好|この}んでいる: likes, prefers (ongoing mental state)\n- Note: {好|この}む is a stative mental verb, so the ている form describes someone's standing preference, not an ongoing act of \"liking.\" In most sentences, though, the plain {好|この}む or the adjective ⟦{好|す}き→好き：02355_suki⟧ is used instead; {好|この}んでいる is somewhat formal and typically appears in writing.",
+  "notes": "{好|この}む is a godan verb meaning \"to like\" or \"to prefer.\" It's slightly more formal than ⟦{好|す}き→好き：02355_suki⟧.\n\nTRANSITIVITY: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive) - takes ⟦を→を：00422_wo⟧ particle\n\nCOMMON PATTERNS:\n- 〜⟦を→を：00422_wo⟧{好|この}む: to like/prefer ~\n- {好|この}んで〜⟦する→する：00392_suru⟧: to willingly do ~, to like to do ~\n\nWORD FAMILY:\n- {好|この}む: to like (verb)\n- ⟦{好|この}み→好み：02767_konomi⟧: preference, taste (noun)\n- お⟦{好|この}み→好み：02767_konomi⟧: one's preference (polite)\n- ⟦お{好み焼|このみや}き→お好み焼き：10252_okonomiyaki⟧: savory pancake (lit. \"as you like it\")\n\nCONTRAST WITH ⟦{好|す}き→好き：02355_suki⟧:\n- {好|この}む: to like (verb, slightly formal, written)\n- ⟦{好|す}き→好き：02355_suki⟧: to like (na-adjective, casual, spoken)\n\nExample: ⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{静|しず}かな→静か：00755_shizuka⟧⟦{場所|ばしょ}→場所：00829_basho⟧⟦を→を：00422_wo⟧{好|この}む (He prefers quiet places)\n\nASPECT (ている):\n- {好|この}んで⟦いる→いる：00495_iru⟧: likes, prefers (ongoing mental state)\n- Note: {好|この}む is a stative mental verb, so the て⟦いる→いる：00495_iru⟧ form describes someone's standing preference, not an ongoing act of \"liking.\" In most sentences, though, the plain {好|この}む or the adjective ⟦{好|す}き→好き：02355_suki⟧ is used instead; {好|この}んで⟦いる→いる：00495_iru⟧ is somewhat formal and typically appears in writing.",
   "prominent_see_also": [
     {
       "target_id": "02767_konomi",
@@ -162,10 +162,32 @@
       "note": "noun form"
     }
   ],
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02355_suki",
+      "reading": "すき",
+      "headword": "{好|す}き",
+      "label": "like, fond of"
+    },
+    {
+      "type": "related",
+      "target_id": "08186_konomashii",
+      "reading": "このましい",
+      "headword": "{好|この}ましい",
+      "label": "favorable"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30762_suku",
+      "reading": "すく",
+      "headword": "{好|す}く",
+      "label": "to like"
+    }
+  ],
   "metadata": {
     "created": "2026-01-09T12:20:06Z",
-    "modified": "2026-06-11T18:03:17Z",
+    "modified": "2026-09-02T04:01:01Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

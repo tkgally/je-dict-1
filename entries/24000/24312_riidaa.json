@@ -20,7 +20,7 @@
   "examples": [
     {
       "id": "24312_riidaa_ex1",
-      "japanese": "チームのリーダーに{選|えら}ばれた。",
+      "japanese": "⟦チーム→チーム：03858_chiimu⟧⟦の→の：09472_no⟧リーダー⟦に→に：00314_ni⟧⟦{選|えら}ばれた→選ぶ：00835_erabu⟧。",
       "english": "I was chosen as the team leader.",
       "sense_numbers": [
         1
@@ -30,7 +30,7 @@
     },
     {
       "id": "24312_riidaa_ex2",
-      "japanese": "{彼|かれ}はグループのリーダーとして{信頼|しんらい}されている。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦グループ→グループ：03840_guruupu⟧⟦の→の：09472_no⟧リーダー⟦として→として：06802_toshite⟧⟦{信頼|しんらい}→信頼：03268_shinrai⟧⟦されている→する：00392_suru⟧。",
       "english": "He is trusted as the group leader.",
       "sense_numbers": [
         1
@@ -40,7 +40,7 @@
     },
     {
       "id": "24312_riidaa_ex3",
-      "japanese": "リーダーには{決断力|けつだんりょく}と{責任感|せきにんかん}が{求|もと}められる。",
+      "japanese": "リーダー⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{決断力|けつだんりょく}→決断力：08521_ketsudanryoku⟧⟦と→と：00512_to⟧⟦{責任感|せきにんかん}→責任感：20441_sekininkan⟧⟦が→が：00051_ga⟧⟦{求|もと}められる→求める：02316_motomeru⟧。",
       "english": "A leader is expected to have decisiveness and a sense of responsibility.",
       "sense_numbers": [
         1
@@ -50,7 +50,7 @@
     },
     {
       "id": "24312_riidaa_ex4",
-      "japanese": "カードリーダーにカードをかざす。",
+      "japanese": "カードリーダー⟦に→に：00314_ni⟧⟦カード→カード：03836_kaado⟧⟦を→を：00422_wo⟧⟦かざす→かざす：28115_kazasu⟧。",
       "english": "Hold the card over the card reader.",
       "sense_numbers": [
         2
@@ -60,7 +60,7 @@
     },
     {
       "id": "24312_riidaa_ex5",
-      "japanese": "PDFリーダーをインストールした。",
+      "japanese": "PDFリーダー⟦を→を：00422_wo⟧⟦インストールした→インストールする：27107_insutoorusuru⟧。",
       "english": "I installed a PDF reader.",
       "sense_numbers": [
         2
@@ -70,7 +70,7 @@
     },
     {
       "id": "24312_riidaa_ex6",
-      "japanese": "この{電子書籍|でんししょせき}リーダーは{軽|かる}くて{持|も}ち{運|はこ}びやすい。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{電子書籍|でんししょせき}→電子書籍：16435_denshishoseki⟧リーダー⟦は→は：00079_ha⟧⟦{軽|かる}くて→軽い：00785_karui⟧⟦{持|も}ち{運|はこ}び→持ち運ぶ：19699_mochihakobu⟧やすい。",
       "english": "This e-book reader is light and easy to carry around.",
       "sense_numbers": [
         2
@@ -79,20 +79,58 @@
       "notes": null
     }
   ],
-  "notes": "A loanword from English with two distinct origins: \"leader\" (sense 1) and \"reader\" (sense 2). In Japanese, both are written identically as リーダー. The intended meaning is usually clear from context.\n\nCOMMON COLLOCATIONS:\n- リーダーシップ — leadership\n- チームリーダー — team leader\n- プロジェクトリーダー — project leader\n- カードリーダー — card reader\n- {電子書籍|でんししょせき}リーダー — e-book reader\n\nSIMILAR WORDS:\n- {指導者|しどうしゃ} — leader, guide; more formal, emphasizing guidance and teaching, often used for political or social leaders\n- キャプテン — captain; specifically the leader of a sports team\n- {長|ちょう} — head, chief; a suffix attached to titles ({部長|ぶちょう}, {社長|しゃちょう}), indicating formal organizational rank",
+  "notes": "A loanword from English with two distinct origins: \"leader\" (sense 1) and \"reader\" (sense 2). In Japanese, both are written identically as リーダー. The intended meaning is usually clear from context.\n\nCOMMON COLLOCATIONS:\n- リーダーシップ — leadership\n- チームリーダー — team leader\n- プロジェクトリーダー — project leader\n- カードリーダー — card reader\n- ⟦{電子書籍|でんししょせき}→電子書籍：16435_denshishoseki⟧リーダー — e-book reader\n\nSIMILAR WORDS:\n- ⟦{指導者|しどうしゃ}→指導者：03062_shidousha⟧ — leader, guide; more formal, emphasizing guidance and teaching, often used for political or social leaders\n- ⟦キャプテン→キャプテン：00258_kyaputen⟧ — captain; specifically the leader of a sports team\n- {長|ちょう} — head, chief; a suffix attached to titles (⟦{部長|ぶちょう}→部長：01017_buchou⟧, ⟦{社長|しゃちょう}→社長：01428_shachou⟧), indicating formal organizational rank",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03062_shidousha",
+      "reading": "しどうしゃ",
+      "headword": "{指導者|しどうしゃ}",
+      "label": "leader, guide"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00258_kyaputen",
+      "reading": "きゃぷてん",
+      "headword": "キャプテン",
+      "label": "captain"
+    },
+    {
+      "type": "related",
+      "target_id": "09596_riidaashippu",
+      "reading": "りーだーしっぷ",
+      "headword": "リーダーシップ",
+      "label": "leadership"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15631_shunou",
+      "reading": "しゅのう",
+      "headword": "{首脳|しゅのう}",
+      "label": "head"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27273_sendousha",
+      "reading": "せんどうしゃ",
+      "headword": "{先導者|せんどうしゃ}",
+      "label": "leader"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "person",
         "technology"
       ]
     },
     "created": "2026-04-18T13:19:48Z",
-    "modified": "2026-08-02T18:32:34Z"
+    "modified": "2026-09-02T04:02:17Z"
   }
 }

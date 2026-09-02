@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "25045_kicchinpeepaa_ex1",
-      "japanese": "キッチンペーパーで{油|あぶら}を{拭|ふ}く。",
+      "japanese": "キッチンペーパー⟦で→で：00502_de⟧⟦{油|あぶら}→油：01693_abura⟧⟦を→を：00422_wo⟧⟦{拭|ふ}く→拭く：04261_fuku⟧。",
       "english": "Wipe up the oil with a paper towel.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "25045_kicchinpeepaa_ex2",
-      "japanese": "{揚|あ}げ{物|もの}はキッチンペーパーの{上|うえ}に{置|お}いて{油|あぶら}を{切|き}る。",
+      "japanese": "⟦{揚|あ}げ{物|もの}→揚げ物：04975_agemono⟧⟦は→は：00079_ha⟧キッチンペーパー⟦の→の：09472_no⟧⟦{上|うえ}→上：00682_ue⟧⟦に→に：00314_ni⟧⟦{置|お}いて→置く：01092_oku⟧⟦{油|あぶら}を{切|き}る→油を切る：22553_aburawokiru⟧。",
       "english": "Place fried food on kitchen paper to drain the oil.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "25045_kicchinpeepaa_ex3",
-      "japanese": "{豆腐|とうふ}をキッチンペーパーで{包|つつ}んで{電子|でんし}レンジで{温|あたた}めると、{簡単|かんたん}に{水切|みずき}りができる。",
+      "japanese": "⟦{豆腐|とうふ}→豆腐：04928_toufu⟧⟦を→を：00422_wo⟧キッチンペーパー⟦で→で：00502_de⟧⟦{包|つつ}んで→包む：01226_tsutsumu⟧⟦{電子|でんし}レンジ→電子レンジ：04973_denshirenji⟧⟦で→で：00502_de⟧⟦{温|あたた}める→温める：02096_atatameru⟧⟦と→と：00512_to⟧、⟦{簡単|かんたん}→簡単：00713_kantan⟧⟦に→に：00314_ni⟧⟦{水切|みずき}り→水切り：08573_mizukiri⟧⟦が→が：00051_ga⟧⟦できる→できる：00557_dekiru⟧。",
       "english": "If you wrap tofu in kitchen paper and microwave it, you can easily drain the water.",
       "sense_numbers": [
         1
@@ -43,14 +43,39 @@
       "notes": null
     }
   ],
-  "notes": "A wasei-eigo (Japanese-coined English) term. In English, these are usually called \"paper towels,\" while \"kitchen paper\" is more common in British English. In Japan, キッチンペーパー specifically refers to absorbent paper used in cooking.\n\nCOMMON COLLOCATIONS:\n- キッチンペーパーで{拭|ふ}く: to wipe with kitchen paper\n- キッチンペーパーで{油|あぶら}を{切|き}る: to drain oil with kitchen paper\n- キッチンペーパーで{水気|みずけ}を{取|と}る: to pat dry with kitchen paper\n- キッチンペーパーで{包|つつ}む: to wrap in kitchen paper\n\nSIMILAR WORDS:\n- ペーパータオル: paper towel — sometimes used interchangeably, but can also refer to hand-drying towels in restrooms\n- ティッシュ: tissue — thinner and used for wiping the face or nose, not for cooking\n- クッキングシート: cooking sheet, parchment paper — used for baking, not absorbing",
+  "notes": "A wasei-eigo (Japanese-coined English) term. In English, these are usually called \"paper towels,\" while \"kitchen paper\" is more common in British English. In Japan, キッチンペーパー specifically refers to absorbent paper used in cooking.\n\nCOMMON COLLOCATIONS:\n- キッチンペーパー⟦で→で：00502_de⟧⟦{拭|ふ}く→拭く：04261_fuku⟧: to wipe with kitchen paper\n- キッチンペーパー⟦で→で：00502_de⟧⟦{油|あぶら}を{切|き}る→油を切る：22553_aburawokiru⟧: to drain oil with kitchen paper\n- キッチンペーパー⟦で→で：00502_de⟧⟦{水気|みずけ}→水気：07952_mizuke⟧⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧: to pat dry with kitchen paper\n- キッチンペーパー⟦で→で：00502_de⟧⟦{包|つつ}む→包む：01226_tsutsumu⟧: to wrap in kitchen paper\n\nSIMILAR WORDS:\n- ⟦ペーパータオル→ペーパータオル：24995_peepaataoru⟧: paper towel — sometimes used interchangeably, but can also refer to hand-drying towels in restrooms\n- ⟦ティッシュ→ティッシュ：08816_tisshu⟧: tissue — thinner and used for wiping the face or nose, not for cooking\n- クッキング⟦シート→シート：10945_shiito⟧: cooking sheet, parchment paper — used for baking, not absorbing",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24995_peepaataoru",
+      "reading": "ぺーぱーたおる",
+      "headword": "ペーパータオル",
+      "label": "paper towel"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08816_tisshu",
+      "reading": "てぃっしゅ",
+      "headword": "ティッシュ",
+      "label": "tissue"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23909_tisshupeepaa",
+      "reading": "てぃっしゅぺーぱー",
+      "headword": "ティッシュペーパー",
+      "label": "tissue paper"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "daily-life"
       ],
@@ -59,6 +84,6 @@
       ]
     },
     "created": "2026-04-22T12:38:36Z",
-    "modified": "2026-04-22T12:38:36Z"
+    "modified": "2026-09-02T04:02:20Z"
   }
 }

@@ -3,7 +3,7 @@
   "headword": "{節食|せっしょく}",
   "reading": "せっしょく",
   "romaji": "sesshoku",
-  "part_of_speech": "noun/verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "eating moderately; dietary restraint",
   "suru_verb": true,
   "definitions": [
@@ -16,7 +16,7 @@
   "examples": [
     {
       "id": "21360_sesshoku_ex1",
-      "japanese": "{健康|けんこう}のために{節食|せっしょく}している。",
+      "japanese": "⟦{健康|けんこう}→健康：02706_kenkou⟧⟦の→の：09472_no⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧{節食|せっしょく}⟦している→する：00392_suru⟧。",
       "english": "I'm restricting my diet for my health.",
       "sense_numbers": [
         1
@@ -26,7 +26,7 @@
     },
     {
       "id": "21360_sesshoku_ex2",
-      "japanese": "{医者|いしゃ}に{節食|せっしょく}を{勧|すす}められた。",
+      "japanese": "⟦{医者|いしゃ}→医者：02847_isha⟧⟦に→に：00314_ni⟧{節食|せっしょく}⟦を→を：00422_wo⟧⟦{勧|すす}められた→勧める：02120_susumeru⟧。",
       "english": "The doctor recommended dietary restraint.",
       "sense_numbers": [
         1
@@ -36,7 +36,7 @@
     },
     {
       "id": "21360_sesshoku_ex3",
-      "japanese": "{無理|むり}な{節食|せっしょく}は{体|からだ}に{悪|わる}いので、バランスの{良|よ}い{食事|しょくじ}を{心|こころ}がけている。",
+      "japanese": "⟦{無理|むり}→無理：01558_muri⟧な{節食|せっしょく}⟦は→は：00079_ha⟧⟦{体|からだ}→体：00784_karada⟧⟦に→に：00314_ni⟧⟦{悪|わる}い→悪い：00908_warui⟧⟦の→の：09472_no⟧で、⟦バランス→バランス：03870_baransu⟧⟦の→の：09472_no⟧⟦{良|よ}い→良い：02350_yoi⟧⟦{食事|しょくじ}→食事：02087_shokuji⟧⟦を→を：00422_wo⟧⟦{心|こころ}がけている→心がける：10015_kokorogakeru⟧。",
       "english": "Since extreme dieting is bad for the body, I try to eat a well-balanced diet.",
       "sense_numbers": [
         1
@@ -45,8 +45,17 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {節|せつ} (moderation/restraint) and {食|しょく} (eating/food). Implies a deliberate, health-conscious reduction in food intake, not starvation. More formal and measured than ダイエット, which in Japanese broadly means any weight-loss effort. {節食|せっしょく} focuses specifically on moderating food quantity.\n\nCOMMON COLLOCATIONS:\n- {節食|せっしょく}する: to restrict one's diet\n- {節食|せっしょく}を{心|こころ}がける: to make an effort to eat moderately\n- {無理|むり}な{節食|せっしょく}: excessive dietary restriction\n- {節食|せっしょく}と{運動|うんどう}: diet and exercise\n\nSIMILAR WORDS:\n- ダイエット: diet, weight loss — broader, includes exercise and lifestyle changes\n- {食事制限|しょくじせいげん}: dietary restriction — more clinical, often medically prescribed\n- {減食|げんしょく}: reducing food intake — similar meaning, slightly more direct\n- {断食|だんじき}: fasting — complete abstention from food, much more extreme",
+  "notes": "A compound of ⟦{節|せつ}→節：19359_setsu⟧ (moderation/restraint) and {食|しょく} (eating/food). Implies a deliberate, health-conscious reduction in food intake, not starvation. More formal and measured than ⟦ダイエット→ダイエット：17678_daietto⟧, which in Japanese broadly means any weight-loss effort. {節食|せっしょく} focuses specifically on moderating food quantity.\n\nCOMMON COLLOCATIONS:\n- {節食|せっしょく}⟦する→する：00392_suru⟧: to restrict one's diet\n- {節食|せっしょく}⟦を→を：00422_wo⟧⟦{心|こころ}がける→心がける：10015_kokorogakeru⟧: to make an effort to eat moderately\n- ⟦{無理|むり}→無理：01558_muri⟧な{節食|せっしょく}: excessive dietary restriction\n- {節食|せっしょく}⟦と→と：00512_to⟧⟦{運動|うんどう}→運動：00821_undou⟧: diet and exercise\n\nSIMILAR WORDS:\n- ⟦ダイエット→ダイエット：17678_daietto⟧: diet, weight loss — broader, includes exercise and lifestyle changes\n- {食事制限|しょくじせいげん}: dietary restriction — more clinical, often medically prescribed\n- {減食|げんしょく}: reducing food intake — similar meaning, slightly more direct\n- {断食|だんじき}: fasting — complete abstention from food, much more extreme",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17678_daietto",
+      "reading": "だいえっと",
+      "headword": "ダイエット",
+      "label": "diet, weight loss"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -63,7 +72,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-02T01:38:27Z",
-    "modified": "2026-04-02T01:38:27Z"
+    "modified": "2026-09-02T04:02:03Z"
   },
   "conjugation": {
     "type": "suru",

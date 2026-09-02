@@ -15,41 +15,67 @@
   "examples": [
     {
       "id": "16941_shuushuuka_ex1",
-      "japanese": "{彼|かれ}は{切手|きって}の{収集家|しゅうしゅうか}だ。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{切手|きって}→切手：00718_kitte⟧⟦の→の：09472_no⟧{収集家|しゅうしゅうか}だ。",
       "english": "He is a stamp collector.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16941_shuushuuka_ex2",
-      "japanese": "{美術|びじゅつ}{収集家|しゅうしゅうか}がその{絵|え}を{高額|こうがく}で{落札|らくさつ}した。",
+      "japanese": "⟦{美術|びじゅつ}→美術：04447_bijutsu⟧{収集家|しゅうしゅうか}⟦が→が：00051_ga⟧⟦その→その：00993_sono⟧⟦{絵|え}→絵：02613_e⟧⟦を→を：00422_wo⟧⟦{高額|こうがく}→高額：14704_kougaku⟧⟦で→で：00502_de⟧{落札|らくさつ}⟦した→する：00392_suru⟧。",
       "english": "An art collector won the painting at a high price at auction.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16941_shuushuuka_ex3",
-      "japanese": "{世界中|せかいじゅう}の{収集家|しゅうしゅうか}がこのオークションに{注目|ちゅうもく}している。",
+      "japanese": "⟦{世界中|せかいじゅう}→世界中：10171_sekaijuu⟧⟦の→の：09472_no⟧{収集家|しゅうしゅうか}⟦が→が：00051_ga⟧⟦この→この：00962_kono⟧オークション⟦に→に：00314_ni⟧⟦{注目|ちゅうもく}している→注目する：25530_chuumokusuru⟧。",
       "english": "Collectors from around the world are paying attention to this auction.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nOften preceded by the type of item collected: {切手|きって}{収集家|しゅうしゅうか} (stamp collector), {美術|びじゅつ}{収集家|しゅうしゅうか} (art collector), {骨董|こっとう}{収集家|しゅうしゅうか} (antique collector).\n\nFORMATION:\n{収集|しゅうしゅう} (collection, gathering) + {家|か} (person who does something, expert).\n\nSIMILAR WORDS:\n- コレクター: collector — loanword, more casual and widely used in everyday speech\n- {愛好家|あいこうか}: enthusiast, aficionado — broader term for someone who loves a particular thing",
-  "cross_references": [],
+  "notes": "USAGE:\nOften preceded by the type of item collected: ⟦{切手|きって}→切手：00718_kitte⟧{収集家|しゅうしゅうか} (stamp collector), ⟦{美術|びじゅつ}→美術：04447_bijutsu⟧{収集家|しゅうしゅうか} (art collector), {骨董|こっとう}{収集家|しゅうしゅうか} (antique collector).\n\nFORMS:\n⟦{収集|しゅうしゅう}→収集：11829_shuushuu⟧ (collection, gathering) + ⟦{家|か}→〜家：28339_ka⟧ (person who does something, expert).\n\nSIMILAR WORDS:\n- ⟦コレクター→コレクター：20000_korekutaa⟧: collector — loanword, more casual and widely used in everyday speech\n- ⟦{愛好家|あいこうか}→愛好家：15008_aikouka⟧: enthusiast, aficionado — broader term for someone who loves a particular thing",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20000_korekutaa",
+      "reading": "これくたー",
+      "headword": "コレクター",
+      "label": "collector"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15008_aikouka",
+      "reading": "あいこうか",
+      "headword": "{愛好家|あいこうか}",
+      "label": "enthusiast, aficionado"
+    }
+  ],
   "metadata": {
     "created": "2026-03-15T02:17:46Z",
-    "modified": "2026-03-15T02:17:46Z",
+    "modified": "2026-09-02T04:01:46Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["person", "leisure"]
+      "semantic": [
+        "person",
+        "leisure"
+      ]
     }
   }
 }

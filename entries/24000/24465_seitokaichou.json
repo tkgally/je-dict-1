@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24465_seitokaichou_ex1",
-      "japanese": "{彼女|かのじょ}は{生徒|せいと}{会長|かいちょう}に{選|えら}ばれた。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧{生徒|せいと}{会長|かいちょう}⟦に→に：00314_ni⟧⟦{選|えら}ばれた→選ぶ：00835_erabu⟧。",
       "english": "She was elected student council president.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24465_seitokaichou_ex2",
-      "japanese": "{生徒|せいと}{会長|かいちょう}として{全校|ぜんこう}{集会|しゅうかい}でスピーチをした。",
+      "japanese": "{生徒|せいと}{会長|かいちょう}⟦として→として：06802_toshite⟧⟦{全校|ぜんこう}→全校：28166_zenkou⟧⟦{集会|しゅうかい}→集会：14654_shuukai⟧⟦で→で：00502_de⟧⟦スピーチ→スピーチ：03852_supiichi⟧⟦を→を：00422_wo⟧⟦した→する：00392_suru⟧。",
       "english": "I gave a speech at the school assembly as student council president.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24465_seitokaichou_ex3",
-      "japanese": "{来月|らいげつ}の{生徒|せいと}{会長|かいちょう}{選挙|せんきょ}に{立候補|りっこうほ}するつもりだ。",
+      "japanese": "⟦{来月|らいげつ}→来月：00744_raigetsu⟧⟦の→の：09472_no⟧{生徒|せいと}{会長|かいちょう}⟦{選挙|せんきょ}→選挙：03303_senkyo⟧⟦に→に：00314_ni⟧⟦{立候補|りっこうほ}→立候補：13778_rikkouho⟧⟦する→する：00392_suru⟧⟦つもり→つもり：01152_tsumori⟧だ。",
       "english": "I plan to run in next month's student council president election.",
       "sense_numbers": [
         1
@@ -44,20 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {生徒|せいと}{会|かい} (student council) + {長|ちょう} (head, chief). The leader of the student government at a Japanese middle school ({中学校|ちゅうがっこう}) or high school ({高校|こうこう}). This role is prominent in Japanese school life and frequently appears in anime, manga, and school-themed media.\n\nCOMMON COLLOCATIONS:\n- {生徒|せいと}{会長|かいちょう}{選挙|せんきょ}: student council president election\n- {生徒|せいと}{会長|かいちょう}に{立候補|りっこうほ}する: to run for student council president\n- {生徒|せいと}{会長|かいちょう}を{務|つと}める: to serve as student council president\n\nCULTURAL NOTES:\nIn Japanese schools, the {生徒|せいと}{会|かい} (student council) plays a significant role in organizing school events such as the {文化|ぶんか}{祭|さい} (cultural festival) and {体育|たいいく}{祭|さい} (sports day). The {生徒|せいと}{会長|かいちょう} is typically elected by popular vote and is seen as a leadership position.\n\nRELATED TERMS:\n- {生徒|せいと}{会|かい}: student council\n- {副|ふく}{会長|かいちょう}: vice president\n- {学生|がくせい}{会長|かいちょう}: student president (university level)",
+  "notes": "Composed of ⟦{生徒|せいと}{会|かい}→生徒会：05378_seitokai⟧ (student council) + {長|ちょう} (head, chief). The leader of the student government at a Japanese middle school (⟦{中学校|ちゅうがっこう}→中学校：01465_chuugakkou⟧) or high school (⟦{高校|こうこう}→高校：01083_koukou⟧). This role is prominent in Japanese school life and frequently appears in anime, manga, and school-themed media.\n\nCOMMON COLLOCATIONS:\n- {生徒|せいと}{会長|かいちょう}⟦{選挙|せんきょ}→選挙：03303_senkyo⟧: student council president election\n- {生徒|せいと}{会長|かいちょう}⟦に→に：00314_ni⟧⟦{立候補|りっこうほ}→立候補：13778_rikkouho⟧⟦する→する：00392_suru⟧: to run for student council president\n- {生徒|せいと}{会長|かいちょう}⟦を→を：00422_wo⟧⟦{務|つと}める→務める：10446_tsutomeru⟧: to serve as student council president\n\nCULTURAL NOTE:\nIn Japanese schools, the ⟦{生徒|せいと}{会|かい}→生徒会：05378_seitokai⟧ (student council) plays a significant role in organizing school events such as the ⟦{文化|ぶんか}{祭|さい}→文化祭：05589_bunkasai⟧ (cultural festival) and ⟦{体育|たいいく}{祭|さい}→体育祭：21233_taiikusai⟧ (sports day). The {生徒|せいと}{会長|かいちょう} is typically elected by popular vote and is seen as a leadership position.\n\nRELATED WORDS:\n- ⟦{生徒|せいと}{会|かい}→生徒会：05378_seitokai⟧: student council\n- ⟦{副|ふく}{会長|かいちょう}→副会長：20469_fukukaichou⟧: vice president\n- ⟦{学生|がくせい}→学生：00610_gakusei⟧⟦{会長|かいちょう}→会長：11610_kaichou⟧: student president (university level)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "20469_fukukaichou",
+      "reading": "ふくかいちょう",
+      "headword": "{副会長|ふくかいちょう}",
+      "label": "vice president"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "education",
         "person"
       ]
     },
     "created": "2026-04-19T11:16:22Z",
-    "modified": "2026-08-02T18:32:34Z"
+    "modified": "2026-09-02T04:02:18Z"
   }
 }

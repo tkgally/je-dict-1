@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "15905_suishinryoku_ex1",
-      "japanese": "{経済|けいざい}{成長|せいちょう}の{推進力|すいしんりょく}となる。",
+      "japanese": "⟦{経済|けいざい}{成長|せいちょう}→経済成長：20453_keizaiseichou⟧⟦の→の：09472_no⟧{推進力|すいしんりょく}⟦と→と：00512_to⟧⟦なる→なる：01970_naru⟧。",
       "english": "It becomes a driving force for economic growth.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15905_suishinryoku_ex2",
-      "japanese": "{若|わか}い{世代|せだい}が{改革|かいかく}の{推進力|すいしんりょく}になっている。",
+      "japanese": "{若|わか}い⟦{世代|せだい}→世代：05102_sedai⟧⟦が→が：00051_ga⟧⟦{改革|かいかく}→改革：04815_kaikaku⟧⟦の→の：09472_no⟧{推進力|すいしんりょく}になっている。",
       "english": "The younger generation is becoming the driving force behind reform.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15905_suishinryoku_ex3",
-      "japanese": "この{技術|ぎじゅつ}{革新|かくしん}が{産業|さんぎょう}{全体|ぜんたい}の{推進力|すいしんりょく}として{大|おお}きな{役割|やくわり}を{果|は}たした。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{技術|ぎじゅつ}{革新|かくしん}→技術革新：12892_gijutsukakushin⟧⟦が→が：00051_ga⟧⟦{産業|さんぎょう}→産業：01419_sangyou⟧⟦{全体|ぜんたい}→全体：03314_zentai⟧⟦の→の：09472_no⟧{推進力|すいしんりょく}⟦として→として：06802_toshite⟧⟦{大|おお}きな→大きな：02849_ookina⟧⟦{役割|やくわり}→役割：03638_yakuwari⟧⟦を→を：00422_wo⟧⟦{果|は}たした→果たす：10060_hatasu⟧。",
       "english": "This technological innovation played a major role as the driving force for the entire industry.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE: {推進力|すいしんりょく} is used both literally (propulsion, thrust) and figuratively (the force driving progress or change). The figurative usage is more common in everyday contexts.\n\nCOMMON COLLOCATIONS:\n- {推進力|すいしんりょく}となる: to become a driving force\n- {推進力|すいしんりょく}を{得|え}る: to gain momentum\n- {経済|けいざい}の{推進力|すいしんりょく}: economic driving force\n- {改革|かいかく}の{推進力|すいしんりょく}: driving force for reform\n\nThe word is a compound of {推進|すいしん} (propulsion, promotion) and {力|りょく} (force, power).",
+  "notes": "USAGE: {推進力|すいしんりょく} is used both literally (propulsion, thrust) and figuratively (the force driving progress or change). The figurative usage is more common in everyday contexts.\n\nCOMMON COLLOCATIONS:\n- {推進力|すいしんりょく}⟦と→と：00512_to⟧⟦なる→なる：01970_naru⟧: to become a driving force\n- {推進力|すいしんりょく}⟦を→を：00422_wo⟧⟦{得|え}る→得る：02014_eru⟧: to gain momentum\n- ⟦{経済|けいざい}→経済：01394_keizai⟧⟦の→の：09472_no⟧{推進力|すいしんりょく}: economic driving force\n- ⟦{改革|かいかく}→改革：04815_kaikaku⟧⟦の→の：09472_no⟧{推進力|すいしんりょく}: driving force for reform\n\nThe word is a compound of ⟦{推進|すいしん}→推進：12908_suishin⟧ (propulsion, promotion) and {力|りょく} (force, power).",
   "cross_references": [
     {
       "type": "related",
@@ -46,19 +52,53 @@
       "reading": "すいしん",
       "headword": "{推進|すいしん}",
       "label": "propulsion, promotion"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20578_gendouryoku",
+      "reading": "げんどうりょく",
+      "headword": "{原動力|げんどうりょく}",
+      "label": "driving force"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24849_keninryoku",
+      "reading": "けんいんりょく",
+      "headword": "{牽引力|けんいんりょく}",
+      "label": "pulling power"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24910_suiryoku",
+      "reading": "すいりょく",
+      "headword": "{推力|すいりょく}",
+      "label": "thrust"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27173_topparyoku",
+      "reading": "とっぱりょく",
+      "headword": "{突破力|とっぱりょく}",
+      "label": "breakthrough power"
     }
   ],
   "metadata": {
     "created": "2026-03-08T13:59:23Z",
-    "modified": "2026-05-02T08:18:57Z",
+    "modified": "2026-09-02T04:01:43Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "domain": ["business"],
-      "semantic": ["abstract"]
+      "domain": [
+        "business"
+      ],
+      "semantic": [
+        "abstract"
+      ]
     }
   }
 }

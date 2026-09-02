@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "23142_zendai_ex1",
-      "japanese": "{前代未聞|ぜんだいみもん}の{事件|じけん}だ。",
+      "japanese": "⟦{前代未聞|ぜんだいみもん}→前代未聞：05949_zendaimimon⟧⟦の→の：09472_no⟧⟦{事件|じけん}→事件：01568_jiken⟧だ。",
       "english": "This is an unprecedented incident.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "23142_zendai_ex2",
-      "japanese": "{前代|ぜんだい}の{社長|しゃちょう}が{築|きず}いた{基盤|きばん}を{引|ひ}き{継|つ}いだ。",
+      "japanese": "{前代|ぜんだい}⟦の→の：09472_no⟧⟦{社長|しゃちょう}→社長：01428_shachou⟧⟦が→が：00051_ga⟧⟦{築|きず}いた→築く：02046_kizuku⟧⟦{基盤|きばん}→基盤：00220_kiban⟧⟦を→を：00422_wo⟧⟦{引|ひ}き{継|つ}いだ→引き継ぐ：12458_hikitsugu⟧。",
       "english": "He inherited the foundation built by the previous president.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "23142_zendai_ex3",
-      "japanese": "{前代|ぜんだい}の{記録|きろく}を{大幅|おおはば}に{更新|こうしん}する{前代未聞|ぜんだいみもん}の{快挙|かいきょ}だった。",
+      "japanese": "{前代|ぜんだい}⟦の→の：09472_no⟧⟦{記録|きろく}→記録：02490_kiroku⟧⟦を→を：00422_wo⟧⟦{大幅|おおはば}→大幅：12170_oohaba⟧⟦に→に：00314_ni⟧⟦{更新|こうしん}する→更新する：27994_koushinsuru⟧⟦{前代未聞|ぜんだいみもん}→前代未聞：05949_zendaimimon⟧⟦の→の：09472_no⟧⟦{快挙|かいきょ}→快挙：12579_kaikyo⟧だった。",
       "english": "It was an unprecedented feat that smashed the previous era's record by a wide margin.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {前|ぜん} (previous) + {代|だい} (generation, era). While it can refer to a preceding generation or era in a general sense, in modern Japanese it appears overwhelmingly in the fixed expression {前代未聞|ぜんだいみもん} (literally 'unheard of in previous generations'), meaning unprecedented or unheard of.\n\nCOMMON COLLOCATIONS:\n- {前代未聞|ぜんだいみもん}: unprecedented; unheard of (by far the most common usage)\n- {前代|ぜんだい}の{記録|きろく}: record from the previous era\n- {前代|ぜんだい}の{王|おう}: the previous king\n\nSIMILAR WORDS:\n- {先代|せんだい}: predecessor — specifically the person who held a position before the current holder (family head, shop owner, etc.)\n- {前任|ぜんにん}: predecessor in office — focuses on the role/position rather than the era\n- {旧来|きゅうらい}: traditional, from the past — describes things that have continued from earlier times",
+  "notes": "Composed of ⟦{前|ぜん}→前〜：03957_zen⟧ (previous) + ⟦{代|だい}→〜代：28331_dai⟧ (generation, era). While it can refer to a preceding generation or era in a general sense, in modern Japanese it appears overwhelmingly in the fixed expression ⟦{前代未聞|ぜんだいみもん}→前代未聞：05949_zendaimimon⟧ (literally 'unheard of in previous generations'), meaning unprecedented or unheard of.\n\nCOMMON COLLOCATIONS:\n- ⟦{前代未聞|ぜんだいみもん}→前代未聞：05949_zendaimimon⟧: unprecedented; unheard of (by far the most common usage)\n- {前代|ぜんだい}⟦の→の：09472_no⟧⟦{記録|きろく}→記録：02490_kiroku⟧: record from the previous era\n- {前代|ぜんだい}⟦の→の：09472_no⟧⟦{王|おう}→王：19353_ou⟧: the previous king\n\nSIMILAR WORDS:\n- ⟦{先代|せんだい}→先代：14793_sendai⟧: predecessor — specifically the person who held a position before the current holder (family head, shop owner, etc.)\n- ⟦{前任|ぜんにん}→前任：20113_zennin⟧: predecessor in office — focuses on the role/position rather than the era\n- ⟦{旧来|きゅうらい}→旧来：13155_kyuurai⟧: traditional, from the past — describes things that have continued from earlier times",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14793_sendai",
+      "reading": "せんだい",
+      "headword": "{先代|せんだい}",
+      "label": "predecessor"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20113_zennin",
+      "reading": "ぜんにん",
+      "headword": "{前任|ぜんにん}",
+      "label": "predecessor in office"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13155_kyuurai",
+      "reading": "きゅうらい",
+      "headword": "{旧来|きゅうらい}",
+      "label": "traditional, from the past"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +82,6 @@
       ]
     },
     "created": "2026-04-08T20:30:23Z",
-    "modified": "2026-07-31T18:20:34Z"
+    "modified": "2026-09-02T04:02:11Z"
   }
 }

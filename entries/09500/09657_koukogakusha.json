@@ -14,30 +14,36 @@
   "examples": [
     {
       "id": "09657_koukogakusha_ex1",
-      "japanese": "{考古学者|こうこがくしゃ}が{古|ふる}い{土器|どき}を{発見|はっけん}した。",
+      "japanese": "{考古学者|こうこがくしゃ}⟦が→が：00051_ga⟧⟦{古|ふる}い→古い：00488_furui⟧⟦{土器|どき}→土器：09658_doki⟧⟦を→を：00422_wo⟧⟦{発見|はっけん}した→発見する：26929_hakkensuru⟧。",
       "english": "The archaeologist discovered ancient pottery.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09657_koukogakusha_ex2",
-      "japanese": "{彼|かれ}は{有名|ゆうめい}な{考古学者|こうこがくしゃ}だ。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{有名|ゆうめい}→有名：01106_yuumei⟧な{考古学者|こうこがくしゃ}だ。",
       "english": "He is a famous archaeologist.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09657_koukogakusha_ex3",
-      "japanese": "{考古学者|こうこがくしゃ}たちは{遺跡|いせき}の{発掘|はっくつ}{調査|ちょうさ}を{続|つづ}けている。",
+      "japanese": "{考古学者|こうこがくしゃ}たち⟦は→は：00079_ha⟧⟦{遺跡|いせき}→遺跡：09527_iseki⟧⟦の→の：09472_no⟧⟦{発掘|はっくつ}→発掘：07995_hakkutsu⟧⟦{調査|ちょうさ}→調査：03489_chousa⟧⟦を→を：00422_wo⟧⟦{続|つづ}け→続く：00903_tsuzuku⟧て⟦いる→いる：00495_iru⟧。",
       "english": "The archaeologists continue their excavation research at the ruins.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{考古学者|こうこがくしゃ} means archaeologist. The word combines {考古学|こうこがく} (archaeology) with {者|しゃ} (person/practitioner).\n\nWORD FORMATION:\n{考古|こうこ} (examining the old) + {学|がく} (study) + {者|しゃ} (person)\n\nRELATED TERMS:\n- {考古学|こうこがく}: archaeology\n- {発掘|はっくつ}: excavation\n- {遺跡|いせき}: ruins, archaeological site\n- {遺物|いぶつ}: artifact, relic\n- {土器|どき}: earthenware, pottery\n\nSIMILAR {学者|がくしゃ} COMPOUNDS:\n- {歴史学者|れきしがくしゃ}: historian\n- {科学者|かがくしゃ}: scientist\n- {言語学者|げんごがくしゃ}: linguist",
+  "notes": "{考古学者|こうこがくしゃ} means archaeologist. The word combines ⟦{考古学|こうこがく}→考古学：20088_koukogaku⟧ (archaeology) with ⟦{者|しゃ}→〜者：04662_sha⟧ (person/practitioner).\n\nFORMS:\n{考古|こうこ} (examining the old) + ⟦{学|がく}→〜学：09846_gaku⟧ (study) + ⟦{者|しゃ}→〜者：04662_sha⟧ (person)\n\nRELATED WORDS:\n- ⟦{考古学|こうこがく}→考古学：20088_koukogaku⟧: archaeology\n- ⟦{発掘|はっくつ}→発掘：07995_hakkutsu⟧: excavation\n- ⟦{遺跡|いせき}→遺跡：09527_iseki⟧: ruins, archaeological site\n- ⟦{遺物|いぶつ}→遺物：14545_ibutsu⟧: artifact, relic\n- ⟦{土器|どき}→土器：09658_doki⟧: earthenware, pottery\n\nSIMILAR {学者|がくしゃ} COMPOUNDS:\n- ⟦{歴史学者|れきしがくしゃ}→歴史学者：22348_rekishigakusha⟧: historian\n- ⟦{科学者|かがくしゃ}→科学者：19378_kagakusha⟧: scientist\n- {言語学者|げんごがくしゃ}: linguist",
   "cross_references": [
     {
       "type": "related",
@@ -45,18 +51,57 @@
       "reading": "こうこがく",
       "headword": "{考古学|こうこがく}",
       "label": "archaeology"
+    },
+    {
+      "type": "related",
+      "target_id": "07995_hakkutsu",
+      "reading": "はっくつ",
+      "headword": "{発掘|はっくつ}",
+      "label": "excavation"
+    },
+    {
+      "type": "related",
+      "target_id": "09527_iseki",
+      "reading": "いせき",
+      "headword": "{遺跡|いせき}",
+      "label": "ruins, archaeological site"
+    },
+    {
+      "type": "related",
+      "target_id": "14545_ibutsu",
+      "reading": "いぶつ",
+      "headword": "{遺物|いぶつ}",
+      "label": "artifact, relic"
+    },
+    {
+      "type": "related",
+      "target_id": "09658_doki",
+      "reading": "どき",
+      "headword": "{土器|どき}",
+      "label": "earthenware, pottery"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24015_jinruigakusha",
+      "reading": "じんるいがくしゃ",
+      "headword": "{人類学者|じんるいがくしゃ}",
+      "label": "anthropologist"
     }
   ],
   "metadata": {
     "created": "2026-02-03T02:58:32Z",
-    "modified": "2026-04-23T06:13:56Z",
+    "modified": "2026-09-02T04:01:19Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["occupation"]
+      "semantic": [
+        "occupation"
+      ]
     }
   }
 }

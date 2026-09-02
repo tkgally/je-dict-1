@@ -15,38 +15,81 @@
   "examples": [
     {
       "id": "25473_sorairo_ex1",
-      "japanese": "{空色|そらいろ}のワンピースを{着|き}た。",
+      "japanese": "{空色|そらいろ}⟦の→の：09472_no⟧⟦ワンピース→ワンピース：04526_wanpiisu⟧⟦を→を：00422_wo⟧⟦{着|き}た→着る：00541_kiru⟧。",
       "english": "I wore a sky-blue dress.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "25473_sorairo_ex2",
-      "japanese": "{壁|かべ}を{空色|そらいろ}に{塗|ぬ}り{替|か}えた。",
+      "japanese": "⟦{壁|かべ}→壁：01290_kabe⟧⟦を→を：00422_wo⟧{空色|そらいろ}⟦に→に：00314_ni⟧⟦{塗|ぬ}り{替|か}えた→塗り替える：06270_nurikaeru⟧。",
       "english": "I repainted the wall sky blue.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "25473_sorairo_ex3",
-      "japanese": "{窓|まど}から{見|み}える{空色|そらいろ}のグラデーションが{美|うつく}しく、しばらく{見|み}とれていた。",
+      "japanese": "⟦{窓|まど}→窓：02254_mado⟧⟦から→から：00504_kara⟧⟦{見|み}える→見える：01165_mieru⟧{空色|そらいろ}⟦の→の：09472_no⟧グラデーション⟦が→が：00051_ga⟧⟦{美|うつく}しく→美しい：01121_utsukushii⟧、⟦しばらく→しばらく：01267_shibaraku⟧{見|み}とれて⟦いた→いる：00495_iru⟧。",
       "english": "The gradation of sky blue visible from the window was so beautiful that I gazed at it for a while.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {空|そら} (sky) and {色|いろ} (color). One of the traditional Japanese color names ({和色|わしょく}), referring to the clear light blue of a fair-weather sky. It can function as an adjective with の (e.g., {空色|そらいろ}の{花|はな}).\n\nCOMMON COLLOCATIONS:\n- {空色|そらいろ}の{花|はな}: sky-blue flowers\n- {空色|そらいろ}の{目|め}: sky-blue eyes\n- {空色|そらいろ}に{染|そ}まる: to be dyed sky blue\n\nSIMILAR WORDS:\n- {水色|みずいろ}: light blue — very similar shade; {水色|みずいろ} is the more common everyday term for light blue\n- {青|あお}: blue — the general term for blue; covers a wider range of shades\n- {紺色|こんいろ}: dark blue; navy — a much darker blue than {空色|そらいろ}\n- {藍色|あいいろ}: indigo — a deep blue-purple traditional color",
+  "notes": "A compound of ⟦{空|そら}→空：02216_sora⟧ (sky) and ⟦{色|いろ}→色：00849_iro⟧ (color). One of the traditional Japanese color names ({和色|わしょく}), referring to the clear light blue of a fair-weather sky. It can function as an adjective with ⟦の→の：09472_no⟧ (e.g., {空色|そらいろ}⟦の→の：09472_no⟧⟦{花|はな}→花：00523_hana⟧).\n\nCOMMON COLLOCATIONS:\n- {空色|そらいろ}⟦の→の：09472_no⟧⟦{花|はな}→花：00523_hana⟧: sky-blue flowers\n- {空色|そらいろ}⟦の→の：09472_no⟧⟦{目|め}→目：00525_me⟧: sky-blue eyes\n- {空色|そらいろ}⟦に→に：00314_ni⟧⟦{染|そ}まる→染まる：04254_somaru⟧: to be dyed sky blue\n\nSIMILAR WORDS:\n- ⟦{水色|みずいろ}→水色：15336_mizuiro⟧: light blue — very similar shade; ⟦{水色|みずいろ}→水色：15336_mizuiro⟧ is the more common everyday term for light blue\n- ⟦{青|あお}→青：02841_ao⟧: blue — the general term for blue; covers a wider range of shades\n- ⟦{紺色|こんいろ}→紺色：13792_koniro⟧: dark blue; navy — a much darker blue than {空色|そらいろ}\n- ⟦{藍色|あいいろ}→藍色：15519_aiiro⟧: indigo — a deep blue-purple traditional color",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15336_mizuiro",
+      "reading": "みずいろ",
+      "headword": "{水色|みずいろ}",
+      "label": "light blue"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02841_ao",
+      "reading": "あお",
+      "headword": "{青|あお}",
+      "label": "blue"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13792_koniro",
+      "reading": "こんいろ",
+      "headword": "{紺色|こんいろ}",
+      "label": "dark blue"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15519_aiiro",
+      "reading": "あいいろ",
+      "headword": "{藍色|あいいろ}",
+      "label": "indigo"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["color", "nature"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "color",
+        "nature"
+      ]
     },
     "created": "2026-04-25T14:15:30Z",
-    "modified": "2026-04-25T14:15:30Z"
+    "modified": "2026-09-02T04:02:22Z"
   }
 }

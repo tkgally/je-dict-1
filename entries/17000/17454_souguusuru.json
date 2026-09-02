@@ -3,7 +3,7 @@
   "id": "17454_souguusuru",
   "headword": "{遭遇|そうぐう}する",
   "reading": "そうぐうする",
-  "part_of_speech": "verb-suru",
+  "part_of_speech": "suru verb",
   "gloss": "to encounter; to run into; to come across",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "17454_souguusuru_ex1",
-      "japanese": "{山|やま}で{熊|くま}に{遭遇|そうぐう}した。",
+      "japanese": "⟦{山|やま}→山：02168_yama⟧⟦で→で：00502_de⟧⟦{熊|くま}→熊：04343_kuma⟧⟦に→に：00314_ni⟧{遭遇|そうぐう}した。",
       "english": "I encountered a bear in the mountains.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "17454_souguusuru_ex2",
-      "japanese": "{旅行中|りょこうちゅう}に{思|おも}いがけないトラブルに{遭遇|そうぐう}した。",
+      "japanese": "⟦{旅行中|りょこうちゅう}→旅行中：28581_ryokouchuu⟧⟦に→に：00314_ni⟧{思|おも}いがけない⟦トラブル→トラブル：07061_toraburu⟧⟦に→に：00314_ni⟧{遭遇|そうぐう}した。",
       "english": "I ran into unexpected trouble during my trip.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "17454_souguusuru_ex3",
-      "japanese": "ドライブ{中|ちゅう}に{野生|やせい}の{鹿|しか}の{群|む}れに{遭遇|そうぐう}して、しばらく{車|くるま}を{止|と}めなければならなかった。",
+      "japanese": "⟦ドライブ→ドライブ：03866_doraibu⟧⟦{中|ちゅう}→〜中：09840_chuu⟧⟦に→に：00314_ni⟧⟦{野生|やせい}→野生：14439_yasei⟧⟦の→の：09472_no⟧⟦{鹿|しか}→鹿：04347_shika⟧⟦の→の：09472_no⟧⟦{群|む}れ→群れ：00298_mure⟧⟦に→に：00314_ni⟧{遭遇|そうぐう}して、⟦しばらく→しばらく：01267_shibaraku⟧⟦{車|くるま}→車：00516_kuruma⟧⟦を→を：00422_wo⟧⟦{止|と}めなければ→止める：00678_tomeru⟧⟦ならなかった→なる：01970_naru⟧。",
       "english": "While driving, I came across a herd of wild deer and had to stop the car for a while.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,40 @@
       ]
     }
   ],
-  "notes": "USAGE:\nImplies an unexpected and often notable encounter. Typically used for encounters with dangers, wildlife, unusual situations, or significant events rather than casual meetings with friends.\n\nCOMMON COLLOCATIONS:\n- {事故|じこ}に{遭遇|そうぐう}する (to encounter an accident)\n- {危険|きけん}に{遭遇|そうぐう}する (to face danger)\n- {野生動物|やせいどうぶつ}に{遭遇|そうぐう}する (to encounter wild animals)\n- {偶然|ぐうぜん}{遭遇|そうぐう}する (to encounter by chance)\n\nSIMILAR WORDS:\n- {出会|であ}う: to meet — neutral, used for both pleasant and unpleasant encounters\n- {出|で}くわす: to run into — more colloquial, implies surprise\n- {遭|あ}う: to meet with (misfortune) — often used with negative events",
-  "cross_references": [],
+  "notes": "USAGE:\nImplies an unexpected and often notable encounter. Typically used for encounters with dangers, wildlife, unusual situations, or significant events rather than casual meetings with friends.\n\nCOMMON COLLOCATIONS:\n- ⟦{事故|じこ}→事故：00851_jiko⟧⟦に→に：00314_ni⟧{遭遇|そうぐう}する (to encounter an accident)\n- ⟦{危険|きけん}→危険：01141_kiken⟧⟦に→に：00314_ni⟧{遭遇|そうぐう}する (to face danger)\n- ⟦{野生動物|やせいどうぶつ}→野生動物：09251_yaseidoubutsu⟧⟦に→に：00314_ni⟧{遭遇|そうぐう}する (to encounter wild animals)\n- ⟦{偶然|ぐうぜん}→偶然：02674_guuzen⟧{遭遇|そうぐう}する (to encounter by chance)\n\nSIMILAR WORDS:\n- ⟦{出会|であ}う→出会う：02298_deau⟧: to meet — neutral, used for both pleasant and unpleasant encounters\n- ⟦{出|で}くわす→出くわす：04631_dekuwasu⟧: to run into — more colloquial, implies surprise\n- ⟦{遭|あ}う→遭う：09500_au⟧: to meet with (misfortune) — often used with negative events",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02298_deau",
+      "reading": "であう",
+      "headword": "{出会|であ}う",
+      "label": "to meet"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04631_dekuwasu",
+      "reading": "でくわす",
+      "headword": "{出|で}くわす",
+      "label": "to run into"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09500_au",
+      "reading": "あう",
+      "headword": "{遭|あ}う",
+      "label": "to meet with"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17401_hachiawaseru",
+      "reading": "はちあわせる",
+      "headword": "{鉢合|はちあ}わせる",
+      "label": "to bump into"
+    }
+  ],
   "metadata": {
     "created": "2026-03-18T02:02:58Z",
-    "modified": "2026-03-29T03:08:18Z",
+    "modified": "2026-09-02T04:01:48Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

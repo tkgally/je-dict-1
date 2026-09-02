@@ -15,41 +15,82 @@
   "examples": [
     {
       "id": "27936_enchou_ex1",
-      "japanese": "{園長|えんちょう}{先生|せんせい}にあいさつする。",
+      "japanese": "{園長|えんちょう}⟦{先生|せんせい}→先生：00609_sensei⟧⟦に→に：00314_ni⟧あいさつする。",
       "english": "I greet the principal.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27936_enchou_ex2",
-      "japanese": "{新|あたら}しい{園長|えんちょう}が{就任|しゅうにん}した。",
+      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧{園長|えんちょう}⟦が→が：00051_ga⟧⟦{就任|しゅうにん}→就任：12368_shuunin⟧⟦した→する：00392_suru⟧。",
       "english": "A new principal took office.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27936_enchou_ex3",
-      "japanese": "{入園式|にゅうえんしき}で{園長|えんちょう}が{保護者|ほごしゃ}にあいさつをした。",
+      "japanese": "⟦{入園式|にゅうえんしき}→入園式：20145_nyuuenshiki⟧⟦で→で：00502_de⟧{園長|えんちょう}⟦が→が：00051_ga⟧⟦{保護者|ほごしゃ}→保護者：11564_hogosha⟧⟦に→に：00314_ni⟧あいさつ⟦を→を：00422_wo⟧⟦した→する：00392_suru⟧。",
       "english": "At the entrance ceremony, the principal greeted the parents.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Compound of {園|えん} (garden; facility ending in 園) + {長|ちょう} (head, chief). In everyday school contexts it means the head of a kindergarten or nursery, usually addressed as {園長|えんちょう}{先生|せんせい}.\n\nSIMILAR WORDS:\n- {校長|こうちょう}: principal — of an elementary, junior-high, or high school\n- {学長|がくちょう}: president — of a university\n- {理事長|りじちょう}: chairman — head of a board of directors",
+  "notes": "Compound of {園|えん} (garden; facility ending in 園) + {長|ちょう} (head, chief). In everyday school contexts it means the head of a kindergarten or nursery, usually addressed as {園長|えんちょう}⟦{先生|せんせい}→先生：00609_sensei⟧.\n\nSIMILAR WORDS:\n- ⟦{校長|こうちょう}→校長：01582_kouchou⟧: principal — of an elementary, junior-high, or high school\n- ⟦{学長|がくちょう}→学長：29864_gakuchou⟧: president — of a university\n- ⟦{理事長|りじちょう}→理事長：26898_rijichou⟧: chairman — head of a board of directors",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01582_kouchou",
+      "reading": "こうちょう",
+      "headword": "{校長|こうちょう}",
+      "label": "principal"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29864_gakuchou",
+      "reading": "がくちょう",
+      "headword": "学長",
+      "label": "president"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26898_rijichou",
+      "reading": "りじちょう",
+      "headword": "{理事長|りじちょう}",
+      "label": "chairman"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23995_fukukouchou",
+      "reading": "ふくこうちょう",
+      "headword": "{副校長|ふくこうちょう}",
+      "label": "vice-principal"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["education", "occupation"],
+      "politeness": "plain",
+      "semantic": [
+        "education",
+        "occupation"
+      ],
       "domain": []
     },
     "created": "2026-05-23T03:06:48Z",
-    "modified": "2026-05-23T03:06:48Z"
+    "modified": "2026-09-02T04:02:32Z"
   }
 }

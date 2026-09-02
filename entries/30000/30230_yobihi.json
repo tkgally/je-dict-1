@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30230_yobihi_ex1",
-      "japanese": "{予備費|よびひ}を{計上|けいじょう}する。",
+      "japanese": "{予備費|よびひ}⟦を→を：00422_wo⟧⟦{計上|けいじょう}→計上：08006_keijou⟧⟦する→する：00392_suru⟧。",
       "english": "To set aside a contingency fund.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30230_yobihi_ex2",
-      "japanese": "{災害|さいがい}{対応|たいおう}に{予備費|よびひ}を{使|つか}うことになった。",
+      "japanese": "⟦{災害|さいがい}→災害：09636_saigai⟧⟦{対応|たいおう}→対応：02510_taiou⟧⟦に→に：00314_ni⟧{予備費|よびひ}⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧ことになった。",
       "english": "It was decided to use the contingency fund for disaster response.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30230_yobihi_ex3",
-      "japanese": "{工事|こうじ}の{予算|よさん}には、{想定外|そうていがい}の{支出|ししゅつ}に{備|そな}えた{予備費|よびひ}が{含|ふく}まれている。",
+      "japanese": "⟦{工事|こうじ}→工事：00244_kouji⟧⟦の→の：09472_no⟧⟦{予算|よさん}→予算：03663_yosan⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧、⟦{想定外|そうていがい}→想定外：17518_souteigai⟧⟦の→の：09472_no⟧⟦{支出|ししゅつ}→支出：03169_shishutsu⟧⟦に→に：00314_ni⟧⟦{備|そな}えた→備える：02125_sonaeru⟧{予備費|よびひ}⟦が→が：00051_ga⟧⟦{含|ふく}まれている→含む：01982_fukumu⟧。",
       "english": "The construction budget includes a contingency fund for unexpected expenses.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "{予備|よび} (spare, reserve) + {費|ひ} (expense). Common in news coverage of government budgets, where the size of the {予備費|よびひ} is often debated.\n\nCOMMON COLLOCATIONS:\n- {予備費|よびひ}を{計上|けいじょう}する: to include a contingency in the budget\n- {予備費|よびひ}を{取|と}り{崩|くず}す: to draw on the contingency fund\n- {予備費|よびひ}から{支出|ししゅつ}する: to pay out of the contingency fund\n\nSIMILAR WORDS:\n- {予算|よさん}: budget — the overall plan; {予備費|よびひ} is one line within it\n- {積立金|つみたてきん}: reserve fund — money accumulated over time for a known future purpose",
+  "notes": "⟦{予備|よび}→予備：03993_yobi⟧ (spare, reserve) + ⟦{費|ひ}→費：09877_hi⟧ (expense). Common in news coverage of government budgets, where the size of the {予備費|よびひ} is often debated.\n\nCOMMON COLLOCATIONS:\n- {予備費|よびひ}⟦を→を：00422_wo⟧⟦{計上|けいじょう}→計上：08006_keijou⟧⟦する→する：00392_suru⟧: to include a contingency in the budget\n- {予備費|よびひ}⟦を→を：00422_wo⟧{取|と}り{崩|くず}す: to draw on the contingency fund\n- {予備費|よびひ}⟦から→から：00504_kara⟧⟦{支出|ししゅつ}→支出：03169_shishutsu⟧⟦する→する：00392_suru⟧: to pay out of the contingency fund\n\nSIMILAR WORDS:\n- ⟦{予算|よさん}→予算：03663_yosan⟧: budget — the overall plan; {予備費|よびひ} is one line within it\n- ⟦{積立金|つみたてきん}→積立金：28915_tsumitatekin⟧: reserve fund — money accumulated over time for a known future purpose",
   "cross_references": [
     {
       "type": "related",
@@ -57,6 +57,20 @@
       "target_id": "03663_yosan",
       "reading": "よさん",
       "headword": "{予算|よさん}"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28915_tsumitatekin",
+      "reading": "つみたてきん",
+      "headword": "{積立金|つみたてきん}",
+      "label": "reserve fund"
+    },
+    {
+      "type": "related",
+      "target_id": "23371_tsuikayosan",
+      "reading": "ついかよさん",
+      "headword": "{追加|ついか}{予算|よさん}",
+      "label": "additional budget"
     }
   ],
   "schema_version": "2.0",
@@ -67,7 +81,7 @@
         "noun"
       ],
       "formality": "formal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "finance",
         "money"
@@ -77,6 +91,6 @@
       ]
     },
     "created": "2026-07-29T18:17:31Z",
-    "modified": "2026-07-29T18:17:31Z"
+    "modified": "2026-09-02T04:02:39Z"
   }
 }

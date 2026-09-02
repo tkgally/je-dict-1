@@ -15,42 +15,79 @@
   "examples": [
     {
       "id": "19467_gani_ex1",
-      "japanese": "この{言葉|ことば}の{含意|がんい}は{深|ふか}い。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{言葉|ことば}→言葉：02880_kotoba⟧⟦の→の：09472_no⟧{含意|がんい}⟦は→は：00079_ha⟧⟦{深|ふか}い→深い：01211_fukai⟧。",
       "english": "The implications of this word are deep.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19467_gani_ex2",
-      "japanese": "{発言|はつげん}の{含意|がんい}を{正|ただ}しく{読|よ}み{取|と}る。",
+      "japanese": "⟦{発言|はつげん}→発言：05099_hatsugen⟧⟦の→の：09472_no⟧{含意|がんい}⟦を→を：00422_wo⟧⟦{正|ただ}しく→正しい：00893_tadashii⟧⟦{読|よ}み{取|と}る→読み取る：04602_yomitoru⟧。",
       "english": "To correctly read the implication of a statement.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19467_gani_ex3",
-      "japanese": "この{政策|せいさく}には{将来的|しょうらいてき}な{増税|ぞうぜい}という{含意|がんい}があると{指摘|してき}された。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{政策|せいさく}→政策：10070_seisaku⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{将来的|しょうらいてき}→将来的：21872_shouraiteki⟧な⟦{増税|ぞうぜい}→増税：12091_zouzei⟧⟦という→という：09577_toiu⟧{含意|がんい}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧⟦と→と：00512_to⟧⟦{指摘|してき}→指摘：05630_shiteki⟧⟦された→する：00392_suru⟧。",
       "english": "It was pointed out that this policy carries the implication of future tax increases.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A formal, somewhat academic word for the implied or underlying meaning of words, actions, or policies. Commonly encountered in literary criticism, philosophy, political analysis, and formal writing.\n\nCOMMON COLLOCATIONS:\n- {含意|がんい}を{読|よ}み{取|と}る — to read/grasp the implication\n- {含意|がんい}を{持|も}つ — to carry an implication\n- {政治的|せいじてき}{含意|がんい} — political implications\n- {含意|がんい}に{気|き}づく — to notice the implication\n\nSIMILAR WORDS:\n- {意味合|いみあ}い — nuance, connotation; more accessible and commonly used in everyday language\n- {暗示|あんじ} — hint, suggestion; implies something is communicated indirectly or subtly\n- {示唆|しさ} — suggestion, implication; used when something is hinted at, often in formal discussions",
+  "notes": "A formal, somewhat academic word for the implied or underlying meaning of words, actions, or policies. Commonly encountered in literary criticism, philosophy, political analysis, and formal writing.\n\nCOMMON COLLOCATIONS:\n- {含意|がんい}⟦を→を：00422_wo⟧⟦{読|よ}み{取|と}る→読み取る：04602_yomitoru⟧ — to read/grasp the implication\n- {含意|がんい}⟦を→を：00422_wo⟧⟦{持|も}つ→持つ：00478_motsu⟧ — to carry an implication\n- ⟦{政治的|せいじてき}→政治的：05684_seijiteki⟧{含意|がんい} — political implications\n- {含意|がんい}⟦に→に：00314_ni⟧{気|き}づく — to notice the implication\n\nSIMILAR WORDS:\n- ⟦{意味合|いみあ}い→意味合い：09590_imiai⟧ — nuance, connotation; more accessible and commonly used in everyday language\n- ⟦{暗示|あんじ}→暗示：07711_anji⟧ — hint, suggestion; implies something is communicated indirectly or subtly\n- ⟦{示唆|しさ}→示唆：10893_shisa⟧ — suggestion, implication; used when something is hinted at, often in formal discussions",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09590_imiai",
+      "reading": "いみあい",
+      "headword": "{意味合|いみあ}い",
+      "label": "nuance, connotation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07711_anji",
+      "reading": "あんじ",
+      "headword": "{暗示|あんじ}",
+      "label": "hint, suggestion"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10893_shisa",
+      "reading": "しさ",
+      "headword": "{示唆|しさ}",
+      "label": "suggestion, implication"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["cognition"],
-      "style": ["written"],
-      "domain": ["academic"]
+      "semantic": [
+        "cognition"
+      ],
+      "style": [
+        "written"
+      ],
+      "domain": [
+        "academic"
+      ]
     },
     "created": "2026-03-26T01:19:09Z",
-    "modified": "2026-03-26T01:19:09Z"
+    "modified": "2026-09-02T04:01:56Z"
   }
 }

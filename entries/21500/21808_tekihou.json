@@ -3,7 +3,7 @@
   "headword": "{適法|てきほう}",
   "reading": "てきほう",
   "romaji": "tekihou",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, na-adjective",
   "gloss": "lawful; legal; legitimate",
   "definitions": [
     {
@@ -15,40 +15,74 @@
   "examples": [
     {
       "id": "21808_tekihou_ex1",
-      "japanese": "{適法|てきほう}な{手続|てつづ}きを{踏|ふ}む。",
+      "japanese": "{適法|てきほう}な⟦{手続|てつづ}き→手続き：05453_tetsuzuki⟧⟦を→を：00422_wo⟧⟦{踏|ふ}む→踏む：01197_fumu⟧。",
       "english": "To follow lawful procedures.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21808_tekihou_ex2",
-      "japanese": "この{取引|とりひき}は{適法|てきほう}であると{認|みと}められた。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{取引|とりひき}→取引：04700_torihiki⟧⟦は→は：00079_ha⟧{適法|てきほう}⟦である→である：09855_dearu⟧⟦と→と：00512_to⟧⟦{認|みと}められた→認める：02429_mitomeru⟧。",
       "english": "This transaction was deemed to be lawful.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21808_tekihou_ex3",
-      "japanese": "{裁判所|さいばんしょ}は{逮捕|たいほ}の{手続|てつづ}きが{適法|てきほう}かどうかを{審査|しんさ}した。",
+      "japanese": "⟦{裁判所|さいばんしょ}→裁判所：09665_saibansho⟧⟦は→は：00079_ha⟧⟦{逮捕|たいほ}→逮捕：03397_taiho⟧⟦の→の：09472_no⟧⟦{手続|てつづ}き→手続き：05453_tetsuzuki⟧⟦が→が：00051_ga⟧{適法|てきほう}⟦かどうか→かどうか：28299_kadouka⟧⟦を→を：00422_wo⟧⟦{審査|しんさ}→審査：08375_shinsa⟧⟦した→する：00392_suru⟧。",
       "english": "The court examined whether the arrest procedure was lawful.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {適|てき} (suitable, fitting) and {法|ほう} (law). A formal legal term indicating compliance with the law. Used primarily in legal, administrative, and business contexts.\n\nCOMMON COLLOCATIONS:\n- {適法|てきほう}な{手続|てつづ}き: lawful procedures\n- {適法|てきほう}な{行為|こうい}: lawful act\n- {適法|てきほう}に{処理|しょり}する: to handle lawfully\n- {適法|てきほう}かどうか: whether something is lawful or not\n- {適法|てきほう}{性|せい}: legality, lawfulness\n\nSIMILAR WORDS:\n- {合法|ごうほう}: legal, lawful — more commonly used in everyday language\n- {違法|いほう}: illegal, unlawful — the direct opposite\n- {合法的|ごうほうてき}: legitimate — na-adjective form, slightly more conversational than {適法|てきほう}",
+  "notes": "A compound of {適|てき} (suitable, fitting) and ⟦{法|ほう}→法：13620_hou⟧ (law). A formal legal term indicating compliance with the law. Used primarily in legal, administrative, and business contexts.\n\nCOMMON COLLOCATIONS:\n- {適法|てきほう}な⟦{手続|てつづ}き→手続き：05453_tetsuzuki⟧: lawful procedures\n- {適法|てきほう}な⟦{行為|こうい}→行為：10021_koui⟧: lawful act\n- {適法|てきほう}⟦に→に：00314_ni⟧⟦{処理|しょり}する→処理する：25531_shorisuru⟧: to handle lawfully\n- {適法|てきほう}⟦かどうか→かどうか：28299_kadouka⟧: whether something is lawful or not\n- {適法|てきほう}{性|せい}: legality, lawfulness\n\nSIMILAR WORDS:\n- ⟦{合法|ごうほう}→合法：15024_gouhou⟧: legal, lawful — more commonly used in everyday language\n- ⟦{違法|いほう}→違法：09687_ihou⟧: illegal, unlawful — the direct opposite\n- {合法的|ごうほうてき}: legitimate — na-adjective form, slightly more conversational than {適法|てきほう}",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15024_gouhou",
+      "reading": "ごうほう",
+      "headword": "{合法|ごうほう}",
+      "label": "legal, lawful"
+    },
+    {
+      "type": "antonym",
+      "target_id": "09687_ihou",
+      "reading": "いほう",
+      "headword": "{違法|いほう}",
+      "label": "illegal, unlawful"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20964_gouken",
+      "reading": "ごうけん",
+      "headword": "{合憲|ごうけん}",
+      "label": "constitutional"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-na"],
+      "pos": [
+        "noun",
+        "adjective-na"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["law"]
+      "semantic": [
+        "law"
+      ]
     },
     "created": "2026-04-03T18:22:28Z",
-    "modified": "2026-04-03T18:22:28Z"
+    "modified": "2026-09-02T04:02:05Z"
   }
 }

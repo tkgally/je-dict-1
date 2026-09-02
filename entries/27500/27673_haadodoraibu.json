@@ -15,41 +15,62 @@
   "examples": [
     {
       "id": "27673_haadodoraibu_ex1",
-      "japanese": "ハードドライブが{壊|こわ}れた。",
+      "japanese": "ハードドライブ⟦が→が：00051_ga⟧⟦{壊|こわ}れた→壊れる：00791_kowareru⟧。",
       "english": "The hard drive broke.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27673_haadodoraibu_ex2",
-      "japanese": "データを{外付|そとづ}けのハードドライブに{保存|ほぞん}する。",
+      "japanese": "⟦データ→データ：03944_deeta⟧⟦を→を：00422_wo⟧⟦{外付|そとづ}け→外付け：22099_sotozuke⟧⟦の→の：09472_no⟧ハードドライブ⟦に→に：00314_ni⟧⟦{保存|ほぞん}→保存：03626_hozon⟧⟦する→する：00392_suru⟧。",
       "english": "Save the data to an external hard drive.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27673_haadodoraibu_ex3",
-      "japanese": "このパソコンはハードドライブの{容量|ようりょう}が{足|た}りなくなってきた。",
+      "japanese": "⟦この→この：00962_kono⟧⟦パソコン→パソコン：01538_pasokon⟧⟦は→は：00079_ha⟧ハードドライブ⟦の→の：09472_no⟧⟦{容量|ようりょう}→容量：04887_youryou⟧⟦が→が：00051_ga⟧⟦{足|た}りなく→足りる：01209_tariru⟧⟦なって→なる：01970_naru⟧きた。",
       "english": "This computer is starting to run out of hard drive space.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A loanword from English \"hard drive\". Often shortened to ハード in casual speech.\n\nCOMMON COLLOCATIONS:\n- {外付|そとづ}けハードドライブ: external hard drive\n- ハードドライブの{容量|ようりょう}: hard drive capacity\n- ハードドライブにデータを{保存|ほぞん}する: to save data to a hard drive\n- ハードドライブが{壊|こわ}れる: the hard drive breaks down\n\nSIMILAR WORDS:\n- ハードディスク: hard disk — nearly synonymous; refers to the disk component itself\n- SSD: solid-state drive — newer storage with no moving parts, faster than a hard drive",
+  "notes": "A loanword from English \"hard drive\". Often shortened to ⟦ハード→ハード：08867_haado⟧ in casual speech.\n\nCOMMON COLLOCATIONS:\n- ⟦{外付|そとづ}け→外付け：22099_sotozuke⟧ハードドライブ: external hard drive\n- ハードドライブ⟦の→の：09472_no⟧⟦{容量|ようりょう}→容量：04887_youryou⟧: hard drive capacity\n- ハードドライブ⟦に→に：00314_ni⟧⟦データ→データ：03944_deeta⟧⟦を→を：00422_wo⟧⟦{保存|ほぞん}→保存：03626_hozon⟧⟦する→する：00392_suru⟧: to save data to a hard drive\n- ハードドライブ⟦が→が：00051_ga⟧⟦{壊|こわ}れる→壊れる：00791_kowareru⟧: the hard drive breaks down\n\nSIMILAR WORDS:\n- ⟦ハードディスク→ハードディスク：06603_haadodisuku⟧: hard disk — nearly synonymous; refers to the disk component itself\n- SSD: solid-state drive — newer storage with no moving parts, faster than a hard drive",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06603_haadodisuku",
+      "reading": "はーどでぃすく",
+      "headword": "ハードディスク",
+      "label": "hard disk"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["technology"],
-      "domain": ["technical"]
+      "politeness": "plain",
+      "semantic": [
+        "technology"
+      ],
+      "domain": [
+        "technical"
+      ]
     },
     "created": "2026-05-16T04:08:30Z",
-    "modified": "2026-05-16T04:08:30Z"
+    "modified": "2026-09-02T04:02:31Z"
   }
 }

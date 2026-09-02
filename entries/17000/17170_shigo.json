@@ -20,7 +20,7 @@
   "examples": [
     {
       "id": "17170_shigo_ex1",
-      "japanese": "その{言葉|ことば}はもう{死語|しご}だよ。",
+      "japanese": "⟦その→その：00993_sono⟧⟦{言葉|ことば}→言葉：02880_kotoba⟧⟦は→は：00079_ha⟧⟦もう→もう：00602_mou⟧{死語|しご}だ⟦よ→よ：09475_yo⟧。",
       "english": "That word is already obsolete.",
       "notes": null,
       "has_audio": false,
@@ -30,7 +30,7 @@
     },
     {
       "id": "17170_shigo_ex2",
-      "japanese": "「ナウい」は{完全|かんぜん}に{死語|しご}になった。",
+      "japanese": "「ナウい」⟦は→は：00079_ha⟧⟦{完全|かんぜん}→完全：01552_kanzen⟧⟦に→に：00314_ni⟧{死語|しご}になった。",
       "english": "\"Naui\" (trendy) has become completely obsolete.",
       "notes": null,
       "has_audio": false,
@@ -40,7 +40,7 @@
     },
     {
       "id": "17170_shigo_ex3",
-      "japanese": "{若者|わかもの}の{流行語|りゅうこうご}はすぐに{死語|しご}になりやすい。",
+      "japanese": "⟦{若者|わかもの}→若者：03037_wakamono⟧⟦の→の：09472_no⟧⟦{流行語|りゅうこうご}→流行語：13307_ryuukougo⟧⟦は→は：00079_ha⟧⟦すぐ→すぐ：00814_sugu⟧⟦に→に：00314_ni⟧{死語|しご}⟦に→に：00314_ni⟧⟦なり→なる：01970_naru⟧やすい。",
       "english": "Youth slang tends to become obsolete quickly.",
       "notes": null,
       "has_audio": false,
@@ -50,7 +50,7 @@
     },
     {
       "id": "17170_shigo_ex4",
-      "japanese": "ラテン{語|ご}は{死語|しご}だ。",
+      "japanese": "ラテン⟦{語|ご}→〜語：09841_go⟧⟦は→は：00079_ha⟧{死語|しご}だ。",
       "english": "Latin is a dead language.",
       "notes": null,
       "has_audio": false,
@@ -60,7 +60,7 @@
     },
     {
       "id": "17170_shigo_ex5",
-      "japanese": "{死語|しご}とされる{言語|げんご}でも{研究者|けんきゅうしゃ}には{重要|じゅうよう}だ。",
+      "japanese": "{死語|しご}⟦と→と：00512_to⟧⟦される→する：00392_suru⟧⟦{言語|げんご}→言語：02717_gengo⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧⟦{研究者|けんきゅうしゃ}→研究者：02573_kenkyuusha⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{重要|じゅうよう}→重要：01575_juuyou⟧だ。",
       "english": "Even languages considered dead are important to researchers.",
       "notes": null,
       "has_audio": false,
@@ -70,7 +70,7 @@
     },
     {
       "id": "17170_shigo_ex6",
-      "japanese": "{死語|しご}を{復活|ふっかつ}させようとする{運動|うんどう}もある。",
+      "japanese": "{死語|しご}⟦を→を：00422_wo⟧⟦{復活|ふっかつ}→復活：12565_fukkatsu⟧⟦させよう→する：00392_suru⟧⟦と→と：00512_to⟧⟦する→する：00392_suru⟧⟦{運動|うんどう}→運動：00821_undou⟧⟦も→も：00484_mo⟧⟦ある→ある：00006_aru⟧。",
       "english": "There are also movements trying to revive dead languages.",
       "notes": null,
       "has_audio": false,
@@ -79,7 +79,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nSense 1 is the more common usage in everyday Japanese. Often used humorously when someone uses an outdated slang term or expression. Japanese has many generational slang words that quickly become {死語|しご}, such as ナウい (1980s slang for \"trendy\").\n\nCOMMON COLLOCATIONS:\n- {死語|しご}になる (to become obsolete)\n- {死語|しご}と{化|か}す (to turn into a dead word)\n- もはや{死語|しご} (already a dead word)\n\nSIMILAR WORDS:\n- {廃語|はいご}: obsolete word — more technical, linguistic term\n- {古語|こご}: archaic word — specifically refers to words from classical Japanese",
+  "notes": "USAGE:\nSense 1 is the more common usage in everyday Japanese. Often used humorously when someone uses an outdated slang term or expression. Japanese has many generational slang words that quickly become {死語|しご}, such as ナウい (1980s slang for \"trendy\").\n\nCOMMON COLLOCATIONS:\n- {死語|しご}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧ (to become obsolete)\n- {死語|しご}⟦と→と：00512_to⟧⟦{化|か}す→化す：29802_kasu⟧ (to turn into a dead word)\n- もはや{死語|しご} (already a dead word)\n\nSIMILAR WORDS:\n- ⟦{廃語|はいご}→廃語：26501_haigo⟧: obsolete word — more technical, linguistic term\n- ⟦{古語|こご}→古語：12065_kogo⟧: archaic word — specifically refers to words from classical Japanese",
   "cross_references": [
     {
       "type": "related",
@@ -87,11 +87,25 @@
       "reading": "こご",
       "headword": "{古語|こご}",
       "label": "archaic/classical word"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26501_haigo",
+      "reading": "はいご",
+      "headword": "{廃語|はいご}",
+      "label": "obsolete word"
+    },
+    {
+      "type": "homophone",
+      "target_id": "21150_shigo",
+      "reading": "しご",
+      "headword": "{死後|しご}",
+      "label": "after death"
     }
   ],
   "metadata": {
     "created": "2026-03-16T05:42:09Z",
-    "modified": "2026-05-05T10:11:30Z",
+    "modified": "2026-09-02T04:01:47Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

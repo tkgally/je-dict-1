@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "17077_raishuu_ex1",
-      "japanese": "{敵|てき}の{来襲|らいしゅう}に{備|そな}える。",
+      "japanese": "⟦{敵|てき}→敵：03546_teki⟧⟦の→の：09472_no⟧{来襲|らいしゅう}⟦に→に：00314_ni⟧⟦{備|そな}える→備える：02125_sonaeru⟧。",
       "english": "To prepare for an enemy attack.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "17077_raishuu_ex2",
-      "japanese": "{台風|たいふう}の{来襲|らいしゅう}で{大|おお}きな{被害|ひがい}が{出|で}た。",
+      "japanese": "⟦{台風|たいふう}→台風：01455_taifuu⟧⟦の→の：09472_no⟧{来襲|らいしゅう}⟦で→で：00502_de⟧⟦{大|おお}きな→大きな：02849_ookina⟧⟦{被害|ひがい}→被害：02572_higai⟧⟦が→が：00051_ga⟧⟦{出|で}た→出る：00513_deru⟧。",
       "english": "The typhoon's onslaught caused major damage.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "17077_raishuu_ex3",
-      "japanese": "{歴史|れきし}の{授業|じゅぎょう}で、モンゴル{軍|ぐん}の{来襲|らいしゅう}について{学|まな}んだ。",
+      "japanese": "⟦{歴史|れきし}→歴史：02267_rekishi⟧⟦の→の：09472_no⟧⟦{授業|じゅぎょう}→授業：00781_jugyou⟧⟦で→で：00502_de⟧、モンゴル⟦{軍|ぐん}→軍：02677_gun⟧⟦の→の：09472_no⟧{来襲|らいしゅう}⟦について→〜について：03103_nitsuite⟧⟦{学|まな}んだ→学ぶ：01987_manabu⟧。",
       "english": "In history class, we learned about the Mongol invasions.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,33 @@
       ]
     }
   ],
-  "notes": "USAGE:\nUsed for military attacks and metaphorically for natural disasters approaching a location. The word emphasizes the enemy or threat coming toward you. Historical context: the Mongol invasions of Japan ({元寇|げんこう}) are sometimes described using this word.\n\nCOMMON COLLOCATIONS:\n- {来襲|らいしゅう}に{備|そな}える (to prepare for an attack)\n- {敵|てき}の{来襲|らいしゅう} (enemy attack)\n- {台風|たいふう}の{来襲|らいしゅう} (typhoon onslaught)\n\nSIMILAR WORDS:\n- {襲撃|しゅうげき}: assault, raid — emphasizes the act of attacking, not the approaching\n- {侵攻|しんこう}: invasion — a military advance into territory\n- {来週|らいしゅう}: next week — identical pronunciation but completely different meaning and kanji",
-  "cross_references": [],
+  "notes": "USAGE:\nUsed for military attacks and metaphorically for natural disasters approaching a location. The word emphasizes the enemy or threat coming toward you. Historical context: the Mongol invasions of Japan ({元寇|げんこう}) are sometimes described using this word.\n\nCOMMON COLLOCATIONS:\n- {来襲|らいしゅう}⟦に→に：00314_ni⟧⟦{備|そな}える→備える：02125_sonaeru⟧ (to prepare for an attack)\n- ⟦{敵|てき}→敵：03546_teki⟧⟦の→の：09472_no⟧{来襲|らいしゅう} (enemy attack)\n- ⟦{台風|たいふう}→台風：01455_taifuu⟧⟦の→の：09472_no⟧{来襲|らいしゅう} (typhoon onslaught)\n\nSIMILAR WORDS:\n- ⟦{襲撃|しゅうげき}→襲撃：14127_shuugeki⟧: assault, raid — emphasizes the act of attacking, not the approaching\n- ⟦{侵攻|しんこう}→侵攻：11614_shinkou⟧: invasion — a military advance into territory\n- ⟦{来週|らいしゅう}→来週：00746_raishuu⟧: next week — identical pronunciation but completely different meaning and kanji",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14127_shuugeki",
+      "reading": "しゅうげき",
+      "headword": "{襲撃|しゅうげき}",
+      "label": "assault, raid"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11614_shinkou",
+      "reading": "しんこう",
+      "headword": "{侵攻|しんこう}",
+      "label": "invasion"
+    },
+    {
+      "type": "homophone",
+      "target_id": "00746_raishuu",
+      "reading": "らいしゅう",
+      "headword": "{来週|らいしゅう}",
+      "label": "next week"
+    }
+  ],
   "metadata": {
     "created": "2026-03-15T09:51:59Z",
-    "modified": "2026-03-29T03:08:43Z",
+    "modified": "2026-09-02T04:01:47Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

@@ -2,7 +2,7 @@
   "id": "09777_saigen",
   "headword": "{再現|さいげん}",
   "reading": "さいげん",
-  "part_of_speech": "noun / suru verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "reproduction, reenactment, recreation",
   "conjugation": {
     "type": "suru",
@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "09777_saigen_ex1",
-      "japanese": "⟦{古代|こだい}→古代：05324_kodai⟧⟦から→から：00504_kara⟧⟦{伝|つた}わる→伝わる：01961_tsutawaru⟧⟦{儀式|ぎしき}→儀式：00071_gishiki⟧⟦を→を：00422_wo⟧{再現|さいげん}した。",
+      "japanese": "⟦{古代|こだい}→古代：05324_kodai⟧⟦から→から：00504_kara⟧⟦{伝|つた}わる→伝わる：01961_tsutawaru⟧⟦{儀式|ぎしき}→儀式：00071_gishiki⟧⟦を→を：00422_wo⟧{再現|さいげん}⟦した→する：00392_suru⟧。",
       "english": "We reenacted a ceremony passed down from ancient times.",
       "has_audio": false,
       "sense_numbers": [
@@ -113,7 +113,7 @@
     },
     {
       "id": "09777_saigen_ex2",
-      "japanese": "{事故|じこ}⟦の→の：09472_no⟧{状況|じょうきょう}⟦を→を：00422_wo⟧{再現|さいげん}する。",
+      "japanese": "⟦{事故|じこ}→事故：00851_jiko⟧⟦の→の：09472_no⟧⟦{状況|じょうきょう}→状況：01576_joukyou⟧⟦を→を：00422_wo⟧{再現|さいげん}⟦する→する：00392_suru⟧。",
       "english": "To recreate the circumstances of the accident.",
       "has_audio": false,
       "sense_numbers": [
@@ -122,7 +122,7 @@
     },
     {
       "id": "09777_saigen_ex3",
-      "japanese": "{実験|じっけん}{結果|けっか}⟦の→の：09472_no⟧{再現|さいげん}⟦に→に：00314_ni⟧{成功|せいこう}した。",
+      "japanese": "⟦{実験|じっけん}→実験：03273_jikken⟧⟦{結果|けっか}→結果：02486_kekka⟧⟦の→の：09472_no⟧{再現|さいげん}⟦に→に：00314_ni⟧⟦{成功|せいこう}した→成功する：21445_seikousuru⟧。",
       "english": "We succeeded in reproducing the experimental results.",
       "has_audio": false,
       "sense_numbers": [
@@ -130,10 +130,10 @@
       ]
     }
   ],
-  "notes": "{再現|さいげん} means to reproduce or recreate something that existed or happened before. Used in scientific, investigative, and media contexts.\n\nCOMMON COLLOCATIONS:\n- {再現|さいげん}する: to reproduce, to recreate\n- {再現|さいげん}{性|せい}: reproducibility (especially in science)\n- {再現|さいげん}{映像|えいぞう}: reconstructed footage\n- {再現|さいげん}ドラマ: reenactment drama (common on TV)\n- {事故|じこ}を{再現|さいげん}する: to recreate an accident\n\nUSAGE:\nIn science, {再現|さいげん}{性|せい} (reproducibility) is a key concept — experiments must be reproducible. In media, {再現|さいげん}ドラマ are dramatized reenactments of real events, very common on Japanese TV.\n\nSIMILAR WORDS:\n- {復元|ふくげん}: restoration (returning something to its original state)\n- {再生|さいせい}: regeneration, playback (broader meaning)",
+  "notes": "{再現|さいげん} means to reproduce or recreate something that existed or happened before. Used in scientific, investigative, and media contexts.\n\nCOMMON COLLOCATIONS:\n- {再現|さいげん}⟦する→する：00392_suru⟧: to reproduce, to recreate\n- {再現|さいげん}{性|せい}: reproducibility (especially in science)\n- {再現|さいげん}⟦{映像|えいぞう}→映像：04444_eizou⟧: reconstructed footage\n- {再現|さいげん}⟦ドラマ→ドラマ：03867_dorama⟧: reenactment drama (common on TV)\n- ⟦{事故|じこ}→事故：00851_jiko⟧⟦を→を：00422_wo⟧{再現|さいげん}⟦する→する：00392_suru⟧: to recreate an accident\n\nUSAGE:\nIn science, {再現|さいげん}{性|せい} (reproducibility) is a key concept — experiments must be reproducible. In media, {再現|さいげん}⟦ドラマ→ドラマ：03867_dorama⟧ are dramatized reenactments of real events, very common on Japanese TV.\n\nSIMILAR WORDS:\n- ⟦{復元|ふくげん}→復元：09249_fukugen⟧: restoration (returning something to its original state)\n- ⟦{再生|さいせい}→再生：04442_saisei⟧: regeneration, playback (broader meaning)",
   "metadata": {
     "created": "2026-02-03T09:58:52Z",
-    "modified": "2026-03-29T03:05:07Z",
+    "modified": "2026-09-02T04:01:19Z",
     "ai_model": "opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -146,7 +146,8 @@
       "semantic": [
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   },
   "cross_references": [

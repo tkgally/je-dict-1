@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "19006_shirokujichuu_ex1",
-      "japanese": "{四六時中|しろくじちゅう}スマホを{見|み}ている。",
+      "japanese": "{四六時中|しろくじちゅう}⟦スマホ→スマホ：04721_sumaho⟧⟦を→を：00422_wo⟧⟦{見|み}ている→見る：00283_miru⟧。",
       "english": "You're looking at your phone all the time.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "19006_shirokujichuu_ex2",
-      "japanese": "{彼|かれ}は{四六時中|しろくじちゅう}{仕事|しごと}のことを{考|かんが}えている。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{四六時中|しろくじちゅう}⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦の→の：09472_no⟧こと⟦を→を：00422_wo⟧⟦{考|かんが}えている→考える：00856_kangaeru⟧。",
       "english": "He thinks about work around the clock.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "19006_shirokujichuu_ex3",
-      "japanese": "{赤|あか}ちゃんが{生|う}まれてから、{四六時中|しろくじちゅう}{目|め}が{離|はな}せない。",
+      "japanese": "⟦{赤|あか}ちゃん→赤ちゃん：01282_akachan⟧⟦が→が：00051_ga⟧⟦{生|う}まれて→生まれる：00905_umareru⟧⟦から→から：00504_kara⟧、{四六時中|しろくじちゅう}{目|め}⟦が→が：00051_ga⟧⟦{離|はな}せない→離す：19372_hanasu⟧。",
       "english": "Since the baby was born, I can't take my eyes off them day or night.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,19 @@
       ]
     }
   ],
-  "notes": "ETYMOLOGY:\nFrom {四|し} × {六|ろく} = 24, referring to the 24 hours in a day. An older form {二六時中|にろくじちゅう} (2 × 6 = 12) referred to the old Japanese system of 12 time divisions per day.\n\nUSAGE:\nOften carries a slightly exaggerated or critical tone, implying someone is doing something too much or obsessively.\n\nCOMMON COLLOCATIONS:\n- {四六時中|しろくじちゅう}～している: to be doing ~ all the time\n- {四六時中|しろくじちゅう}{考|かんが}える: to think about constantly\n- {四六時中|しろくじちゅう}{一緒|いっしょ}: together all the time",
-  "cross_references": [],
+  "notes": "ETYMOLOGY:\nFrom {四|し} × ⟦{六|ろく}→六：00747_roku⟧ = 24, referring to the 24 hours in a day. An older form {二六時中|にろくじちゅう} (2 × 6 = 12) referred to the old Japanese system of 12 time divisions per day.\n\nUSAGE:\nOften carries a slightly exaggerated or critical tone, implying someone is doing something too much or obsessively.\n\nCOMMON COLLOCATIONS:\n- {四六時中|しろくじちゅう}～⟦している→する：00392_suru⟧: to be doing ~ all the time\n- {四六時中|しろくじちゅう}⟦{考|かんが}える→考える：00856_kangaeru⟧: to think about constantly\n- {四六時中|しろくじちゅう}⟦{一緒|いっしょ}→一緒：02848_issho⟧: together all the time",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03130_nichiya",
+      "reading": "にちや",
+      "headword": "{日夜|にちや}",
+      "label": "day and night, constantly"
+    }
+  ],
   "metadata": {
     "created": "2026-03-24T00:56:26Z",
-    "modified": "2026-07-26T09:39:42Z",
+    "modified": "2026-09-02T04:01:54Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

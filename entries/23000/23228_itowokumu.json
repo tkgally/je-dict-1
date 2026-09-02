@@ -3,7 +3,7 @@
   "headword": "{意図|いと}を{汲|く}む",
   "reading": "いとをくむ",
   "romaji": "itowokumu",
-  "part_of_speech": "verb",
+  "part_of_speech": "expression, verb (godan)",
   "gloss": "to grasp (someone's) intent; to take (someone's) intentions into account",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "23228_itowokumu_ex1",
-      "japanese": "{相手|あいて}の{意図|いと}を{汲|く}む。",
+      "japanese": "⟦{相手|あいて}→相手：01677_aite⟧⟦の→の：09472_no⟧{意図|いと}を{汲|く}む。",
       "english": "To grasp the other person's intent.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "23228_itowokumu_ex2",
-      "japanese": "{質問|しつもん}の{意図|いと}を{汲|く}んで{答|こた}える。",
+      "japanese": "⟦{質問|しつもん}→質問：00888_shitsumon⟧⟦の→の：09472_no⟧{意図|いと}を{汲|く}んで⟦{答|こた}える→答える：01099_kotaeru⟧。",
       "english": "To answer with an understanding of what the question is really asking.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "23228_itowokumu_ex3",
-      "japanese": "{作者|さくしゃ}の{意図|いと}を{汲|く}み{取|と}って{翻訳|ほんやく}することが{大切|たいせつ}だ。",
+      "japanese": "⟦{作者|さくしゃ}→作者：04169_sakusha⟧⟦の→の：09472_no⟧⟦{意図|いと}→意図：12625_ito⟧⟦を→を：00422_wo⟧⟦{汲|く}み{取|と}って→汲み取る：25269_kumitoru⟧⟦{翻訳|ほんやく}→翻訳：01725_honyaku⟧⟦する→する：00392_suru⟧こと⟦が→が：00051_ga⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧だ。",
       "english": "It is important to translate in a way that takes the author's intent into account.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "A set expression in which {汲|く}む (literally \"to draw water, to scoop up\") is used figuratively to mean \"to take in\" or \"to sympathetically understand.\" The expression carries a nuance of considerate, attentive understanding — not just grasping information, but respecting the other person's feelings or purposes. The longer form {意図|いと}を{汲|く}み{取|と}る is also very common and has the same meaning.\n\nCOMMON COLLOCATIONS:\n- {相手|あいて}の{意図|いと}を{汲|く}む: to grasp the other person's intent\n- {質問|しつもん}の{意図|いと}を{汲|く}む: to understand what a question is getting at\n- {意図|いと}を{汲|く}み{取|と}る: to grasp/take in someone's intent (more emphatic; same meaning)\n- {作者|さくしゃ}の{意図|いと}を{汲|く}む: to understand the author's intent\n\nSIMILAR WORDS:\n- {意図|いと}を{理解|りかい}する: to understand someone's intent — more neutral; simply to comprehend\n- {気持|きも}ちを{汲|く}む: to take someone's feelings into account — focuses on feelings rather than stated purposes\n- {察|さっ}する: to sense, to infer — perceiving unstated feelings or thoughts from cues",
+  "notes": "A set expression in which ⟦{汲|く}む→汲む：02281_kumu⟧ (literally \"to draw water, to scoop up\") is used figuratively to mean \"to take in\" or \"to sympathetically understand.\" The expression carries a nuance of considerate, attentive understanding — not just grasping information, but respecting the other person's feelings or purposes. The longer form ⟦{意図|いと}→意図：12625_ito⟧⟦を→を：00422_wo⟧⟦{汲|く}み{取|と}る→汲み取る：25269_kumitoru⟧ is also very common and has the same meaning.\n\nCOMMON COLLOCATIONS:\n- ⟦{相手|あいて}→相手：01677_aite⟧⟦の→の：09472_no⟧{意図|いと}を{汲|く}む: to grasp the other person's intent\n- ⟦{質問|しつもん}→質問：00888_shitsumon⟧⟦の→の：09472_no⟧{意図|いと}を{汲|く}む: to understand what a question is getting at\n- ⟦{意図|いと}→意図：12625_ito⟧⟦を→を：00422_wo⟧⟦{汲|く}み{取|と}る→汲み取る：25269_kumitoru⟧: to grasp/take in someone's intent (more emphatic; same meaning)\n- ⟦{作者|さくしゃ}→作者：04169_sakusha⟧⟦の→の：09472_no⟧{意図|いと}を{汲|く}む: to understand the author's intent\n\nSIMILAR WORDS:\n- ⟦{意図|いと}→意図：12625_ito⟧⟦を→を：00422_wo⟧⟦{理解|りかい}する→理解する：06059_rikaisuru⟧: to understand someone's intent — more neutral; simply to comprehend\n- {気持|きも}ち⟦を→を：00422_wo⟧⟦{汲|く}む→汲む：02281_kumu⟧: to take someone's feelings into account — focuses on feelings rather than stated purposes\n- ⟦{察|さっ}する→察する：08053_sassuru⟧: to sense, to infer — perceiving unstated feelings or thoughts from cues",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08053_sassuru",
+      "reading": "さっする",
+      "headword": "{察|さっ}する",
+      "label": "to sense, to infer"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,10 +68,11 @@
       ],
       "formality": "neutral",
       "politeness": "plain",
-      "verb_class": "godan-mu"
+      "verb_class": "godan-mu",
+      "transitivity": "transitive"
     },
     "created": "2026-04-11T12:54:47Z",
-    "modified": "2026-07-31T18:20:34Z"
+    "modified": "2026-09-02T04:02:11Z"
   },
   "conjugation": {
     "type": "godan",

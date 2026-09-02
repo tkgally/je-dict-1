@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "09561_kigo_ex1",
-      "japanese": "{俳句|はいく}には{季語|きご}が{必要|ひつよう}だ。",
+      "japanese": "⟦{俳句|はいく}→俳句：00083_haiku⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{季語|きご}⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧だ。",
       "english": "Haiku require a seasonal word.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "09561_kigo_ex2",
-      "japanese": "{桜|さくら}は{春|はる}の{季語|きご}です。",
+      "japanese": "⟦{桜|さくら}→桜：02212_sakura⟧⟦は→は：00079_ha⟧⟦{春|はる}→春：00627_haru⟧⟦の→の：09472_no⟧{季語|きご}です。",
       "english": "Cherry blossoms are a spring seasonal word.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "09561_kigo_ex3",
-      "japanese": "{季語|きご}を{入|い}れないと{俳句|はいく}にならない。",
+      "japanese": "{季語|きご}⟦を→を：00422_wo⟧⟦{入|い}れない→入れる：01098_ireru⟧⟦と→と：00512_to⟧⟦{俳句|はいく}→俳句：00083_haiku⟧⟦に→に：00314_ni⟧⟦ならない→なる：01970_naru⟧。",
       "english": "Without a seasonal word, it doesn't count as haiku.",
       "notes": null,
       "has_audio": false,
@@ -43,15 +43,7 @@
       ]
     }
   ],
-  "notes": "{季語|きご} is a word that indicates a specific season, required in traditional {俳句|はいく} (haiku) and {連歌|れんが} (linked verse).\n\nSEASONAL CATEGORIES:\n- {春|はる} (spring): {桜|さくら}, {梅|うめ}, {花見|はなみ}\n- {夏|なつ} (summer): {蝉|せみ}, {花火|はなび}, {西瓜|すいか}\n- {秋|あき} (autumn): {紅葉|もみじ}, {月|つき}, {虫|むし}の{声|こえ}\n- {冬|ふゆ} (winter): {雪|ゆき}, {霜|しも}, {炬燵|こたつ}\n\nRELATED TERMS:\n- {歳時記|さいじき}: seasonal almanac that catalogues {季語|きご}",
-  "cross_references": [
-    {
-      "type": "related",
-      "reading": "はいく",
-      "target_id": "00083_haiku",
-      "headword": "{俳句|はいく}"
-    }
-  ],
+  "notes": "{季語|きご} is a word that indicates a specific season, required in traditional ⟦{俳句|はいく}→俳句：00083_haiku⟧ (haiku) and ⟦{連歌|れんが}→連歌：16508_renga⟧ (linked verse).\n\nSEASONAL CATEGORIES:\n- ⟦{春|はる}→春：00627_haru⟧ (spring): ⟦{桜|さくら}→桜：02212_sakura⟧, ⟦{梅|うめ}→梅：01869_ume⟧, ⟦{花見|はなみ}→花見：01700_hanami⟧\n- ⟦{夏|なつ}→夏：02236_natsu⟧ (summer): {蝉|せみ}, ⟦{花火|はなび}→花火：00087_hanabi⟧, {西瓜|すいか}\n- ⟦{秋|あき}→秋：02276_aki⟧ (autumn): ⟦{紅葉|もみじ}→紅葉：05387_momiji⟧, ⟦{月|つき}→月：02230_tsuki⟧, ⟦{虫|むし}→虫：02262_mushi⟧⟦の→の：09472_no⟧⟦{声|こえ}→声：02207_koe⟧\n- ⟦{冬|ふゆ}→冬：00623_fuyu⟧ (winter): ⟦{雪|ゆき}→雪：00584_yuki⟧, ⟦{霜|しも}→霜：03202_shimo⟧, ⟦{炬燵|こたつ}→炬燵：05070_kotatsu⟧\n\nRELATED WORDS:\n- ⟦{歳時記|さいじき}→歳時記：18452_saijiki⟧: seasonal almanac that catalogues {季語|きご}",
   "cross_references": [
     {
       "type": "related",
@@ -59,11 +51,25 @@
       "reading": "はいく",
       "headword": "{俳句|はいく}",
       "label": "haiku"
+    },
+    {
+      "type": "related",
+      "target_id": "18452_saijiki",
+      "reading": "さいじき",
+      "headword": "{歳時記|さいじき}",
+      "label": "seasonal almanac that catalogues"
+    },
+    {
+      "type": "related",
+      "target_id": "09993_kireji",
+      "reading": "きれじ",
+      "headword": "{切|き}れ{字|じ}",
+      "label": "cutting word (in haiku)"
     }
   ],
   "metadata": {
     "created": "2026-02-03T00:29:56Z",
-    "modified": "2026-04-23T05:18:28Z",
+    "modified": "2026-09-02T04:01:18Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

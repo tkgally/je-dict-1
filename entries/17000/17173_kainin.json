@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "17173_kainin_ex1",
-      "japanese": "{社長|しゃちょう}が{解任|かいにん}された。",
+      "japanese": "⟦{社長|しゃちょう}→社長：01428_shachou⟧⟦が→が：00051_ga⟧{解任|かいにん}⟦された→する：00392_suru⟧。",
       "english": "The company president was dismissed.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "17173_kainin_ex2",
-      "japanese": "{取締役会|とりしまりやくかい}は{監督|かんとく}の{解任|かいにん}を{決定|けってい}した。",
+      "japanese": "⟦{取締役会|とりしまりやくかい}→取締役会：28600_torishimariyakukai⟧⟦は→は：00079_ha⟧⟦{監督|かんとく}→監督：00185_kantoku⟧⟦の→の：09472_no⟧{解任|かいにん}⟦を→を：00422_wo⟧⟦{決定|けってい}した→決定する：21022_ketteisuru⟧。",
       "english": "The board of directors decided to dismiss the manager.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "17173_kainin_ex3",
-      "japanese": "{不祥事|ふしょうじ}が{発覚|はっかく}し、{役員|やくいん}の{解任|かいにん}{動議|どうぎ}が{出|だ}された。",
+      "japanese": "⟦{不祥事|ふしょうじ}→不祥事：14981_fushouji⟧⟦が→が：00051_ga⟧⟦{発覚|はっかく}→発覚：07629_hakkaku⟧し、⟦{役員|やくいん}→役員：11329_yakuin⟧⟦の→の：09472_no⟧{解任|かいにん}⟦{動議|どうぎ}→動議：09762_dougi⟧⟦が→が：00051_ga⟧⟦{出|だ}された→出す：01087_dasu⟧。",
       "english": "After the scandal came to light, a motion to dismiss the executive was submitted.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA formal legal and business term. Unlike {解雇|かいこ} (firing an employee), {解任|かいにん} specifically refers to removing someone from an appointed position or office, such as a company officer, director, or official.\n\nCOMMON COLLOCATIONS:\n- {解任|かいにん}する (to dismiss from office)\n- {解任|かいにん}される (to be dismissed from office)\n- {解任|かいにん}{動議|どうぎ} (motion for dismissal)\n- {解任|かいにん}{決議|けつぎ} (resolution for dismissal)\n\nSIMILAR WORDS:\n- {解雇|かいこ}: firing, dismissal — for regular employees\n- {罷免|ひめん}: removal from office — stronger, more formal, often for public officials\n- {更迭|こうてつ}: replacement, reshuffle — replacing someone in a position",
+  "notes": "USAGE:\nA formal legal and business term. Unlike ⟦{解雇|かいこ}→解雇：04561_kaiko⟧ (firing an employee), {解任|かいにん} specifically refers to removing someone from an appointed position or office, such as a company officer, director, or official.\n\nCOMMON COLLOCATIONS:\n- {解任|かいにん}⟦する→する：00392_suru⟧ (to dismiss from office)\n- {解任|かいにん}⟦される→する：00392_suru⟧ (to be dismissed from office)\n- {解任|かいにん}⟦{動議|どうぎ}→動議：09762_dougi⟧ (motion for dismissal)\n- {解任|かいにん}⟦{決議|けつぎ}→決議：16467_ketsugi⟧ (resolution for dismissal)\n\nSIMILAR WORDS:\n- ⟦{解雇|かいこ}→解雇：04561_kaiko⟧: firing, dismissal — for regular employees\n- ⟦{罷免|ひめん}→罷免：29397_himen⟧: removal from office — stronger, more formal, often for public officials\n- ⟦{更迭|こうてつ}→更迭：07969_koutetsu⟧: replacement, reshuffle — replacing someone in a position",
   "cross_references": [
     {
       "type": "synonym",
@@ -155,11 +155,25 @@
       "reading": "ひめん",
       "headword": "{罷免|ひめん}",
       "label": "stronger, public officials"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14904_tainin",
+      "reading": "たいにん",
+      "headword": "{退任|たいにん}",
+      "label": "leaving office"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26138_menkan",
+      "reading": "めんかん",
+      "headword": "{免官|めんかん}",
+      "label": "dismissal from office"
     }
   ],
   "metadata": {
     "created": "2026-03-16T05:43:18Z",
-    "modified": "2026-07-22T18:50:18Z",
+    "modified": "2026-09-02T04:01:47Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

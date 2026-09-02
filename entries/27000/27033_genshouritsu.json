@@ -15,41 +15,69 @@
   "examples": [
     {
       "id": "27033_genshouritsu_ex1",
-      "japanese": "{出生率|しゅっしょうりつ}の{減少率|げんしょうりつ}が{問題|もんだい}になっている。",
+      "japanese": "{出生率|しゅっしょうりつ}⟦の→の：09472_no⟧{減少率|げんしょうりつ}⟦が→が：00051_ga⟧⟦{問題|もんだい}→問題：00797_mondai⟧になっている。",
       "english": "The rate of decline in the birth rate has become a problem.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27033_genshouritsu_ex2",
-      "japanese": "{売上|うりあげ}の{減少率|げんしょうりつ}は{前月比|ぜんげつひ}{十|じゅう}パーセントだった。",
+      "japanese": "⟦{売上|うりあげ}→売上：04102_uriage⟧⟦の→の：09472_no⟧{減少率|げんしょうりつ}⟦は→は：00079_ha⟧{前月比|ぜんげつひ}⟦{十|じゅう}→十：00708_juu⟧⟦パーセント→パーセント：01537_paasento⟧だった。",
       "english": "The rate of sales decline was ten percent compared to the previous month.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27033_genshouritsu_ex3",
-      "japanese": "{地方|ちほう}の{人口|じんこう}{減少率|げんしょうりつ}は{都市部|としぶ}よりもはるかに{高|たか}い。",
+      "japanese": "⟦{地方|ちほう}→地方：02369_chihou⟧⟦の→の：09472_no⟧⟦{人口|じんこう}→人口：01618_jinkou⟧{減少率|げんしょうりつ}⟦は→は：00079_ha⟧⟦{都市部|としぶ}→都市部：14549_toshibu⟧⟦より→より：09476_yori⟧⟦も→も：00484_mo⟧はるか⟦に→に：00314_ni⟧⟦{高|たか}い→高い：00500_takai⟧。",
       "english": "The population decline rate in rural areas is far higher than in urban areas.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {減少|げんしょう} (decrease) + {率|りつ} (rate). The counterpart of {増加率|ぞうかりつ}. Frequently used in discussions of demographics, economics, and public health in Japan, where population decline is a major social issue.\n\nCOMMON COLLOCATIONS:\n- {人口|じんこう}{減少率|げんしょうりつ}: population decline rate\n- {減少率|げんしょうりつ}が{加速|かそく}する: the rate of decline accelerates\n- {減少率|げんしょうりつ}が{縮小|しゅくしょう}する: the rate of decline narrows\n- {年間|ねんかん}{減少率|げんしょうりつ}: annual rate of decrease\n\nSIMILAR WORDS:\n- {増加率|ぞうかりつ}: rate of increase — the opposite\n- {低下率|ていかりつ}: rate of decline — focuses more on levels falling (quality, ability, rates) rather than quantities shrinking\n- {下落率|げらくりつ}: rate of decline; drop rate — mainly used for prices and market values",
+  "notes": "A compound of ⟦{減少|げんしょう}→減少：02719_genshou⟧ (decrease) + ⟦{率|りつ}→率：03802_ritsu⟧ (rate). The counterpart of ⟦{増加率|ぞうかりつ}→増加率：27032_zoukaritsu⟧. Frequently used in discussions of demographics, economics, and public health in Japan, where population decline is a major social issue.\n\nCOMMON COLLOCATIONS:\n- ⟦{人口|じんこう}→人口：01618_jinkou⟧{減少率|げんしょうりつ}: population decline rate\n- {減少率|げんしょうりつ}⟦が→が：00051_ga⟧{加速|かそく}する: the rate of decline accelerates\n- {減少率|げんしょうりつ}⟦が→が：00051_ga⟧⟦{縮小|しゅくしょう}する→縮小する：25359_shukushousuru⟧: the rate of decline narrows\n- ⟦{年間|ねんかん}→年間：00974_nenkan⟧{減少率|げんしょうりつ}: annual rate of decrease\n\nSIMILAR WORDS:\n- ⟦{増加率|ぞうかりつ}→増加率：27032_zoukaritsu⟧: rate of increase — the opposite\n- {低下率|ていかりつ}: rate of decline — focuses more on levels falling (quality, ability, rates) rather than quantities shrinking\n- ⟦{下落率|げらくりつ}→下落率：30147_gerakuritsu⟧: rate of decline; drop rate — mainly used for prices and market values",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "27032_zoukaritsu",
+      "reading": "ぞうかりつ",
+      "headword": "{増加率|ぞうかりつ}",
+      "label": "rate of increase"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30147_gerakuritsu",
+      "reading": "げらくりつ",
+      "headword": "{下落率|げらくりつ}",
+      "label": "rate of decline"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["quantity"],
-      "domain": ["academic"]
+      "semantic": [
+        "quantity"
+      ],
+      "domain": [
+        "academic"
+      ]
     },
     "created": "2026-05-06T14:25:07Z",
-    "modified": "2026-05-06T14:25:07Z"
+    "modified": "2026-09-02T04:02:28Z"
   }
 }

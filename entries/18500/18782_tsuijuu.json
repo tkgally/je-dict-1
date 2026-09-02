@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "18782_tsuijuu_ex1",
-      "japanese": "{大手|おおて}に{追従|ついじゅう}する。",
+      "japanese": "⟦{大手|おおて}→大手：12171_oote⟧⟦に→に：00314_ni⟧{追従|ついじゅう}⟦する→する：00392_suru⟧。",
       "english": "To follow the major companies' lead.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "18782_tsuijuu_ex2",
-      "japanese": "{他社|たしゃ}の{値下|ねさ}げに{追従|ついじゅう}して{価格|かかく}を{下|さ}げた。",
+      "japanese": "⟦{他社|たしゃ}→他社：17803_tasha⟧⟦の→の：09472_no⟧⟦{値下|ねさ}げ→値下げ：07583_nesage⟧⟦に→に：00314_ni⟧{追従|ついじゅう}⟦して→する：00392_suru⟧⟦{価格|かかく}→価格：00147_kakaku⟧⟦を→を：00422_wo⟧⟦{下|さ}げた→下げる：00807_sageru⟧。",
       "english": "We followed other companies' lead and lowered our prices.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "18782_tsuijuu_ex3",
-      "japanese": "{権力者|けんりょくしゃ}に{追従|ついじゅう}するだけでは、{本当|ほんとう}の{改革|かいかく}はできない。",
+      "japanese": "⟦{権力者|けんりょくしゃ}→権力者：17021_kenryokusha⟧⟦に→に：00314_ni⟧{追従|ついじゅう}⟦する→する：00392_suru⟧⟦だけ→〜だけ：03093_dake⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧、⟦{本当|ほんとう}→本当：00779_hontou⟧⟦の→の：09472_no⟧⟦{改革|かいかく}→改革：04815_kaikaku⟧⟦は→は：00079_ha⟧⟦できない→できる：00557_dekiru⟧。",
       "english": "True reform cannot be achieved by merely following those in power.",
       "sense_numbers": [
         1
@@ -134,8 +134,24 @@
       "notes": null
     }
   ],
-  "notes": "Used with する to form {追従|ついじゅう}する (to follow, to tag along). Common collocations: {追従|ついじゅう}を{許|ゆる}さない (to be unrivaled, to be beyond compare — literally \"not allowing others to follow\"). Note: the same kanji {追従|ついしょう} with a different reading means \"flattery\" or \"sycophancy\" — a completely different meaning. The reading {追従|ついじゅう} specifically means following/imitating. Related: {追随|ついずい} (following — very close synonym, slightly more formal), {模倣|もほう} (imitation — emphasizes copying).",
+  "notes": "Used with ⟦する→する：00392_suru⟧ to form {追従|ついじゅう}⟦する→する：00392_suru⟧ (to follow, to tag along). Common collocations: {追従|ついじゅう}⟦を→を：00422_wo⟧⟦{許|ゆる}さない→許す：02325_yurusu⟧ (to be unrivaled, to be beyond compare — literally \"not allowing others to follow\"). Note: the same kanji {追従|ついしょう} with a different reading means \"flattery\" or \"sycophancy\" — a completely different meaning. The reading {追従|ついじゅう} specifically means following/imitating. Related: {追随|ついずい} (following — very close synonym, slightly more formal), ⟦{模倣|もほう}→模倣：15752_mohou⟧ (imitation — emphasizes copying).",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15351_fukujuu",
+      "reading": "ふくじゅう",
+      "headword": "{服従|ふくじゅう}",
+      "label": "obedience"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19905_tsuizuisuru",
+      "reading": "ついずいする",
+      "headword": "{追随|ついずい}する",
+      "label": "to follow, to emulate"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -152,6 +168,6 @@
       "verb_class": "suru"
     },
     "created": "2026-03-23T03:39:08Z",
-    "modified": "2026-03-23T03:39:08Z"
+    "modified": "2026-09-02T04:01:53Z"
   }
 }

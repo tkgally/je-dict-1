@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "10810_gyagu_ex1",
-      "japanese": "ギャグを{言|い}う。",
+      "japanese": "ギャグ⟦を→を：00422_wo⟧⟦{言|い}う→言う：00515_iu⟧。",
       "english": "To crack a joke.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "10810_gyagu_ex2",
-      "japanese": "{彼|かれ}のギャグはいつも{寒|さむ}い。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧ギャグ⟦は→は：00079_ha⟧⟦いつも→いつも：00599_itsumo⟧⟦{寒|さむ}い→寒い：00664_samui⟧。",
       "english": "His jokes are always lame.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "10810_gyagu_ex3",
-      "japanese": "あの{漫画|まんが}はギャグとシリアスのバランスがよくて、{読|よ}んでいて{飽|あ}きない。",
+      "japanese": "⟦あの→あの：00915_ano⟧⟦{漫画|まんが}→漫画：01511_manga⟧⟦は→は：00079_ha⟧ギャグ⟦と→と：00512_to⟧シリアス⟦の→の：09472_no⟧⟦バランス→バランス：03870_baransu⟧⟦が→が：00051_ga⟧⟦よくて→いい：00118_ii⟧、⟦{読|よ}んでいて→読む：00426_yomu⟧⟦{飽|あ}きない→飽きる：01815_akiru⟧。",
       "english": "That manga has a good balance of comedy and seriousness, so it never gets boring.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,33 @@
       ]
     }
   ],
-  "notes": "ギャグ (from English \"gag\") refers to a joke or comedic bit, especially physical comedy, visual humor, or punchlines. Particularly associated with manga and variety shows.\n\nCOMMON COLLOCATIONS:\n- ギャグを{言|い}う: to tell a joke\n- ギャグを{飛|と}ばす: to crack jokes (casual)\n- ギャグ{漫画|まんが}: comedy manga\n- {寒|さむ}いギャグ: a lame/unfunny joke\n- ギャグセンス: sense of humor (for jokes)\n\nIDIOM:\nギャグが{寒|さむ}い (literally \"the gag is cold\") means a joke falls flat or is unfunny. {滑|すべ}る is also used: ギャグが{滑|すべ}った (the joke bombed).\n\nSIMILAR WORDS:\n- {冗談|じょうだん}: joke (more general, verbal)\n- ボケ: the funny-man role in comedy (sets up the punchline)\n- ネタ: material, bit (comedy routine content)",
-  "cross_references": [],
+  "notes": "ギャグ (from English \"gag\") refers to a joke or comedic bit, especially physical comedy, visual humor, or punchlines. Particularly associated with manga and variety shows.\n\nCOMMON COLLOCATIONS:\n- ギャグ⟦を→を：00422_wo⟧⟦{言|い}う→言う：00515_iu⟧: to tell a joke\n- ギャグ⟦を→を：00422_wo⟧⟦{飛|と}ばす→飛ばす：02373_tobasu⟧: to crack jokes (casual)\n- ギャグ⟦{漫画|まんが}→漫画：01511_manga⟧: comedy manga\n- ⟦{寒|さむ}い→寒い：00664_samui⟧ギャグ: a lame/unfunny joke\n- ギャグ⟦センス→センス：10468_sensu⟧: sense of humor (for jokes)\n\nCOMMON EXPRESSIONS:\nギャグ⟦が→が：00051_ga⟧⟦{寒|さむ}い→寒い：00664_samui⟧ (literally \"the gag is cold\") means a joke falls flat or is unfunny. ⟦{滑|すべ}る→滑る：01230_suberu⟧ is also used: ギャグ⟦が→が：00051_ga⟧⟦{滑|すべ}った→滑る：01230_suberu⟧ (the joke bombed).\n\nSIMILAR WORDS:\n- ⟦{冗談|じょうだん}→冗談：03347_joudan⟧: joke (more general, verbal)\n- ⟦ボケ→ボケ：08822_boke⟧: the funny-man role in comedy (sets up the punchline)\n- ⟦ネタ→ネタ：06309_neta⟧: material, bit (comedy routine content)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03347_joudan",
+      "reading": "じょうだん",
+      "headword": "{冗談|じょうだん}",
+      "label": "joke"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08822_boke",
+      "reading": "ぼけ",
+      "headword": "ボケ",
+      "label": "the funny-man role in comedy"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06309_neta",
+      "reading": "ねた",
+      "headword": "ネタ",
+      "label": "material, bit"
+    }
+  ],
   "metadata": {
     "created": "2026-02-10T08:06:05Z",
-    "modified": "2026-06-28T03:46:26Z",
+    "modified": "2026-09-02T04:01:22Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

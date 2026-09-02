@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "14475_chouhen_ex1",
-      "japanese": "{長編|ちょうへん}{小説|しょうせつ}を{読|よ}む。",
+      "japanese": "{長編|ちょうへん}⟦{小説|しょうせつ}→小説：01434_shousetsu⟧⟦を→を：00422_wo⟧⟦{読|よ}む→読む：00426_yomu⟧。",
       "english": "To read a full-length novel.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "14475_chouhen_ex2",
-      "japanese": "この{監督|かんとく}の{長編|ちょうへん}{映画|えいが}は{三時間|さんじかん}もある。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{監督|かんとく}→監督：00185_kantoku⟧⟦の→の：09472_no⟧{長編|ちょうへん}⟦{映画|えいが}→映画：02273_eiga⟧⟦は→は：00079_ha⟧⟦{三時間|さんじかん}→三時間：30478_sanjikan⟧⟦も→も：00484_mo⟧⟦ある→ある：00006_aru⟧。",
       "english": "This director's feature film is three hours long.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "14475_chouhen_ex3",
-      "japanese": "{短編|たんぺん}で{人気|にんき}を{得|え}た{作家|さっか}が、{初|はじ}めての{長編|ちょうへん}に{挑戦|ちょうせん}した。",
+      "japanese": "⟦{短編|たんぺん}→短編：04512_tanpen⟧⟦で→で：00502_de⟧⟦{人気|にんき}→人気：01488_ninki⟧⟦を→を：00422_wo⟧⟦{得|え}た→得る：02014_eru⟧⟦{作家|さっか}→作家：01414_sakka⟧⟦が→が：00051_ga⟧、⟦{初|はじ}めて→初めて：02932_hajimete⟧⟦の→の：09472_no⟧{長編|ちょうへん}⟦に→に：00314_ni⟧⟦{挑戦|ちょうせん}した→挑戦する：21602_chousensuru⟧。",
       "english": "A writer who gained popularity with short stories attempted their first full-length novel.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "USAGE:\n{長編|ちょうへん} is a prefix-like noun that modifies other nouns to indicate full or extended length. It is most commonly paired with {小説|しょうせつ} (novel), {映画|えいが} (film), and {漫画|まんが} (manga).\n\nCONTRAST:\n- {短編|たんぺん} (short work — short story, short film)\n- {中編|ちゅうへん} (medium-length work — novella)\n- {長編|ちょうへん} (full-length work — novel, feature film)\n\nCOMMON COLLOCATIONS:\n- {長編|ちょうへん}{小説|しょうせつ} (full-length novel)\n- {長編|ちょうへん}{映画|えいが} (feature-length film)\n- {長編|ちょうへん}アニメ (feature-length anime)\n- {長編|ちょうへん}{大作|たいさく} (full-length masterwork)",
+  "notes": "USAGE:\n{長編|ちょうへん} is a prefix-like noun that modifies other nouns to indicate full or extended length. It is most commonly paired with ⟦{小説|しょうせつ}→小説：01434_shousetsu⟧ (novel), ⟦{映画|えいが}→映画：02273_eiga⟧ (film), and ⟦{漫画|まんが}→漫画：01511_manga⟧ (manga).\n\nSIMILAR WORDS:\n- ⟦{短編|たんぺん}→短編：04512_tanpen⟧ (short work — short story, short film)\n- ⟦{中編|ちゅうへん}→中編：19271_chuuhen⟧ (medium-length work — novella)\n- {長編|ちょうへん} (full-length work — novel, feature film)\n\nCOMMON COLLOCATIONS:\n- {長編|ちょうへん}⟦{小説|しょうせつ}→小説：01434_shousetsu⟧ (full-length novel)\n- {長編|ちょうへん}⟦{映画|えいが}→映画：02273_eiga⟧ (feature-length film)\n- {長編|ちょうへん}⟦アニメ→アニメ：01527_anime⟧ (feature-length anime)\n- {長編|ちょうへん}⟦{大作|たいさく}→大作：12196_taisaku⟧ (full-length masterwork)",
   "cross_references": [
     {
       "type": "antonym",
@@ -46,18 +52,36 @@
       "reading": "たんぺん",
       "headword": "{短編|たんぺん}",
       "label": "short work"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19271_chuuhen",
+      "reading": "ちゅうへん",
+      "headword": "{中編|ちゅうへん}",
+      "label": "medium-length work"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08299_yomikiri",
+      "reading": "よみきり",
+      "headword": "{読|よ}み{切|き}り",
+      "label": "one-shot story"
     }
   ],
   "metadata": {
     "created": "2026-03-01T10:05:47Z",
-    "modified": "2026-04-08T02:45:29Z",
+    "modified": "2026-09-02T04:01:37Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

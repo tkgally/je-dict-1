@@ -15,41 +15,69 @@
   "examples": [
     {
       "id": "13917_taisei_ex1",
-      "japanese": "{耐性|たいせい}のある{菌|きん}が{増|ふ}えている。",
+      "japanese": "{耐性|たいせい}⟦の→の：09472_no⟧⟦ある→ある：00006_aru⟧⟦{菌|きん}→菌：02682_kin⟧⟦が→が：00051_ga⟧⟦{増|ふ}えている→増える：01183_fueru⟧。",
       "english": "Resistant bacteria are increasing.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13917_taisei_ex2",
-      "japanese": "{暑|あつ}さに{対|たい}する{耐性|たいせい}は{人|ひと}によって{違|ちが}う。",
+      "japanese": "⟦{暑|あつ}さ→暑さ：12973_atsusa⟧⟦に→に：00314_ni⟧⟦{対|たい}する→対する：02126_taisuru⟧{耐性|たいせい}⟦は→は：00079_ha⟧⟦{人|ひと}→人：00476_hito⟧⟦によって→によって：06801_niyotte⟧⟦{違|ちが}う→違う：01957_chigau⟧。",
       "english": "Tolerance for heat differs from person to person.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13917_taisei_ex3",
-      "japanese": "{抗生|こうせい}{物質|ぶっしつ}の{乱用|らんよう}が{薬剤|やくざい}{耐性|たいせい}を{持|も}つ{細菌|さいきん}を{生|う}み{出|だ}す{原因|げんいん}になっている。",
+      "japanese": "⟦{抗生|こうせい}{物質|ぶっしつ}→抗生物質：11089_kouseibusshitsu⟧⟦の→の：09472_no⟧⟦{乱用|らんよう}→乱用：15259_ranyou⟧⟦が→が：00051_ga⟧⟦{薬剤|やくざい}→薬剤：14100_yakuzai⟧{耐性|たいせい}⟦を→を：00422_wo⟧⟦{持|も}つ→持つ：00478_motsu⟧⟦{細菌|さいきん}→細菌：13791_saikin⟧⟦を→を：00422_wo⟧⟦{生|う}み{出|だ}す→生み出す：10423_umidasu⟧⟦{原因|げんいん}→原因：01400_genin⟧になっている。",
       "english": "The overuse of antibiotics is a cause of producing drug-resistant bacteria.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE NOTE:\nPrimarily used in scientific and medical contexts. In everyday speech, {強|つよ}い or {慣|な}れている is more natural for expressing tolerance or resilience.\n\nCOMMON COLLOCATIONS:\n- {耐性|たいせい}がある (have resistance)\n- {耐性|たいせい}を{持|も}つ (possess resistance)\n- {耐性|たいせい}がつく (develop resistance)\n- {薬剤|やくざい}{耐性|たいせい} (drug resistance)\n- {耐性|たいせい}{菌|きん} (resistant bacteria)\n\nSIMILAR WORDS:\n- {抵抗力|ていこうりょく}: resistance (capacity to resist; more general)\n- {免疫|めんえき}: immunity (specifically biological immunity to disease)",
+  "notes": "USAGE:\nPrimarily used in scientific and medical contexts. In everyday speech, ⟦{強|つよ}い→強い：00820_tsuyoi⟧ or ⟦{慣|な}れている→慣れる：00870_nareru⟧ is more natural for expressing tolerance or resilience.\n\nCOMMON COLLOCATIONS:\n- {耐性|たいせい}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧ (have resistance)\n- {耐性|たいせい}⟦を→を：00422_wo⟧⟦{持|も}つ→持つ：00478_motsu⟧ (possess resistance)\n- {耐性|たいせい}⟦が→が：00051_ga⟧つく (develop resistance)\n- ⟦{薬剤|やくざい}→薬剤：14100_yakuzai⟧{耐性|たいせい} (drug resistance)\n- {耐性|たいせい}{菌|きん} (resistant bacteria)\n\nSIMILAR WORDS:\n- ⟦{抵抗力|ていこうりょく}→抵抗力：21012_teikouryoku⟧: resistance (capacity to resist; more general)\n- ⟦{免疫|めんえき}→免疫：05032_meneki⟧: immunity (specifically biological immunity to disease)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21012_teikouryoku",
+      "reading": "ていこうりょく",
+      "headword": "{抵抗力|ていこうりょく}",
+      "label": "resistance (capacity to resist"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05032_meneki",
+      "reading": "めんえき",
+      "headword": "{免疫|めんえき}",
+      "label": "immunity"
+    }
+  ],
   "metadata": {
     "created": "2026-02-27T06:57:47Z",
-    "modified": "2026-02-27T06:57:47Z",
+    "modified": "2026-09-02T04:01:35Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["medical"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "medical"
+      ]
     }
   }
 }

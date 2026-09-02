@@ -14,40 +14,88 @@
   "examples": [
     {
       "id": "21773_dousousei_ex1",
-      "japanese": "{彼|かれ}は{高校|こうこう}の{同窓生|どうそうせい}だ。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{高校|こうこう}→高校：01083_koukou⟧⟦の→の：09472_no⟧{同窓生|どうそうせい}だ。",
       "english": "He is a fellow graduate from my high school.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21773_dousousei_ex2",
-      "japanese": "{同窓生|どうそうせい}と{久|ひさ}しぶりに{再会|さいかい}した。",
+      "japanese": "{同窓生|どうそうせい}⟦と→と：00512_to⟧⟦{久|ひさ}しぶり→久しぶり：01711_hisashiburi⟧⟦に→に：00314_ni⟧⟦{再会|さいかい}→再会：11667_saikai⟧⟦した→する：00392_suru⟧。",
       "english": "I reunited with a fellow alumnus after a long time.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21773_dousousei_ex3",
-      "japanese": "{同窓生|どうそうせい}のネットワークを{通|とお}じて{仕事|しごと}の{紹介|しょうかい}を{受|う}けた。",
+      "japanese": "{同窓生|どうそうせい}⟦の→の：09472_no⟧⟦ネットワーク→ネットワーク：04759_nettowaaku⟧⟦を→を：00422_wo⟧{通|とお}じて⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦の→の：09472_no⟧⟦{紹介|しょうかい}→紹介：01432_shoukai⟧⟦を→を：00422_wo⟧⟦{受|う}けた→受ける：01215_ukeru⟧。",
       "english": "I received a job referral through my alumni network.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {同窓|どうそう} (same school) + {生|せい} (student, person). {窓|まど} literally means \"window\" but here metaphorically refers to the classroom or school. Alumni connections ({同窓|どうそう}のつながり) are important in Japanese society, especially for career networking.\n\nCOMMON COLLOCATIONS:\n- {同窓会|どうそうかい}: alumni reunion, class reunion\n- {同窓生|どうそうせい}のつながり: alumni connections\n- {同窓生|どうそうせい}ネットワーク: alumni network\n- {大学|だいがく}の{同窓生|どうそうせい}: university alumni\n\nSIMILAR WORDS:\n- {同級生|どうきゅうせい}: classmate — specifically someone in the same year/grade\n- {同期|どうき}: same cohort — people who entered the same company or school at the same time\n- {学友|がくゆう}: school friend — emphasizes the friendship aspect\n- {卒業生|そつぎょうせい}: graduate — focuses on having completed a program",
+  "notes": "Composed of ⟦{同窓|どうそう}→同窓：21161_dousou⟧ (same school) + {生|せい} (student, person). ⟦{窓|まど}→窓：02254_mado⟧ literally means \"window\" but here metaphorically refers to the classroom or school. Alumni connections (⟦{同窓|どうそう}→同窓：21161_dousou⟧⟦の→の：09472_no⟧つながり) are important in Japanese society, especially for career networking.\n\nCOMMON COLLOCATIONS:\n- ⟦{同窓会|どうそうかい}→同窓会：15875_dousoukai⟧: alumni reunion, class reunion\n- {同窓生|どうそうせい}⟦の→の：09472_no⟧つながり: alumni connections\n- {同窓生|どうそうせい}⟦ネットワーク→ネットワーク：04759_nettowaaku⟧: alumni network\n- ⟦{大学|だいがく}→大学：00608_daigaku⟧⟦の→の：09472_no⟧{同窓生|どうそうせい}: university alumni\n\nSIMILAR WORDS:\n- ⟦{同級生|どうきゅうせい}→同級生：03032_doukyuusei⟧: classmate — specifically someone in the same year/grade\n- ⟦{同期|どうき}→同期：12029_douki⟧: same cohort — people who entered the same company or school at the same time\n- ⟦{学友|がくゆう}→学友：27117_gakuyuu⟧: school friend — emphasizes the friendship aspect\n- ⟦{卒業生|そつぎょうせい}→卒業生：15284_sotsugyousei⟧: graduate — focuses on having completed a program",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03032_doukyuusei",
+      "reading": "どうきゅうせい",
+      "headword": "{同級生|どうきゅうせい}",
+      "label": "classmate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12029_douki",
+      "reading": "どうき",
+      "headword": "{同期|どうき}",
+      "label": "same cohort"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27117_gakuyuu",
+      "reading": "がくゆう",
+      "headword": "{学友|がくゆう}",
+      "label": "school friend"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15284_sotsugyousei",
+      "reading": "そつぎょうせい",
+      "headword": "{卒業生|そつぎょうせい}",
+      "label": "graduate"
+    },
+    {
+      "type": "related",
+      "target_id": "15875_dousoukai",
+      "reading": "どうそうかい",
+      "headword": "{同窓会|どうそうかい}",
+      "label": "class reunion"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["education", "society"]
+      "semantic": [
+        "education",
+        "society"
+      ]
     },
     "created": "2026-04-03T16:13:37Z",
-    "modified": "2026-04-03T16:13:37Z"
+    "modified": "2026-09-02T04:02:05Z"
   }
 }

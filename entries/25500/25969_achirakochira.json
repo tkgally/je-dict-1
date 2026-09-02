@@ -3,7 +3,7 @@
   "headword": "あちらこちら",
   "reading": "あちらこちら",
   "romaji": "achirakochira",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, adverb",
   "gloss": "here and there; all over the place; various places",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25969_achirakochira_ex1",
-      "japanese": "あちらこちらに{花|はな}が{咲|さ}いている。",
+      "japanese": "あちらこちら⟦に→に：00314_ni⟧⟦{花|はな}→花：00523_hana⟧⟦が→が：00051_ga⟧⟦{咲|さ}いている→咲く：08150_saku⟧。",
       "english": "Flowers are blooming here and there.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25969_achirakochira_ex2",
-      "japanese": "{仕事|しごと}であちらこちらに{出張|しゅっちょう}する。",
+      "japanese": "⟦{仕事|しごと}→仕事：00480_shigoto⟧であちらこちら⟦に→に：00314_ni⟧⟦{出張|しゅっちょう}する→出張する：26986_shucchousuru⟧。",
       "english": "I travel here and there on business trips for work.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25969_achirakochira_ex3",
-      "japanese": "{古|ふる}い{建物|たてもの}なので、あちらこちらに{傷|きず}みが{目立|めだ}つようになってきた。",
+      "japanese": "⟦{古|ふる}い→古い：00488_furui⟧⟦{建物|たてもの}→建物：01458_tatemono⟧な⟦の→の：09472_no⟧で、あちらこちら⟦に→に：00314_ni⟧{傷|きず}み⟦が→が：00051_ga⟧⟦{目立|めだ}つ→目立つ：02431_medatsu⟧ようになってきた。",
       "english": "Since it's an old building, damage has become noticeable here and there.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Formed by combining あちら (over there) and こちら (over here). Describes scattered or widespread distribution across multiple locations. The more casual equivalent is あっちこっち, which is common in everyday speech. Both expressions can function as nouns or adverbs.\n\nCOMMON COLLOCATIONS:\n- あちらこちらに: in various places\n- あちらこちらで: at various places\n- あちらこちらを{回|まわ}る: to go around various places\n- あちらこちらから: from various places\n\nSIMILAR WORDS:\n- あっちこっち: here and there — casual form of あちらこちら, more common in spoken language\n- {方々|ほうぼう}: all around; everywhere — slightly more formal, emphasizes searching or moving around\n- {至|いた}る{所|ところ}: everywhere; all over — stronger emphasis on ubiquity",
+  "notes": "Formed by combining ⟦あちら→あちら：00913_achira⟧ (over there) and ⟦こちら→こちら：00960_kochira⟧ (over here). Describes scattered or widespread distribution across multiple locations. The more casual equivalent is ⟦あっちこっち→あっちこっち：30344_acchikocchi⟧, which is common in everyday speech. Both expressions can function as nouns or adverbs.\n\nCOMMON COLLOCATIONS:\n- あちらこちら⟦に→に：00314_ni⟧: in various places\n- あちらこちら⟦で→で：00502_de⟧: at various places\n- あちらこちら⟦を→を：00422_wo⟧⟦{回|まわ}る→回る：01150_mawaru⟧: to go around various places\n- あちらこちら⟦から→から：00504_kara⟧: from various places\n\nSIMILAR WORDS:\n- ⟦あっちこっち→あっちこっち：30344_acchikocchi⟧: here and there — casual form of あちらこちら, more common in spoken language\n- ⟦{方々|ほうぼう}→方々：00116_houbou⟧: all around; everywhere — slightly more formal, emphasizes searching or moving around\n- ⟦{至|いた}る{所|ところ}→至る所：15861_itarutokoro⟧: everywhere; all over — stronger emphasis on ubiquity",
   "cross_references": [
     {
       "type": "synonym",
@@ -52,6 +52,34 @@
       "headword": "あちこち",
       "label": "same meaning, more common",
       "target_id": "01687_achikochi"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30344_acchikocchi",
+      "reading": "あっちこっち",
+      "headword": "あっちこっち",
+      "label": "here and there"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00116_houbou",
+      "reading": "ほうぼう",
+      "headword": "{方々|ほうぼう}",
+      "label": "all around"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15861_itarutokoro",
+      "reading": "いたるところ",
+      "headword": "{至|いた}る{所|ところ}",
+      "label": "everywhere"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21008_sokokashiko",
+      "reading": "そこかしこ",
+      "headword": "そこかしこ",
+      "label": "here and there"
     }
   ],
   "schema_version": "2.0",
@@ -62,11 +90,12 @@
         "noun",
         "adverb"
       ],
+      "politeness": "plain",
       "semantic": [
         "direction"
       ]
     },
     "created": "2026-04-28T14:11:31Z",
-    "modified": "2026-08-02T12:18:13Z"
+    "modified": "2026-09-02T04:02:24Z"
   }
 }

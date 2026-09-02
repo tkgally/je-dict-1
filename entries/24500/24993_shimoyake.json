@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24993_shimoyake_ex1",
-      "japanese": "{冬|ふゆ}になるとしもやけができる。",
+      "japanese": "⟦{冬|ふゆ}→冬：00623_fuyu⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦と→と：00512_to⟧しもやけ⟦が→が：00051_ga⟧⟦できる→できる：00557_dekiru⟧。",
       "english": "I get chilblains when winter comes.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24993_shimoyake_ex2",
-      "japanese": "{指先|ゆびさき}のしもやけが{痒|かゆ}くてたまらない。",
+      "japanese": "⟦{指先|ゆびさき}→指先：12727_yubisaki⟧⟦の→の：09472_no⟧しもやけ⟦が→が：00051_ga⟧{痒|かゆ}くて⟦たまらない→たまらない：03409_tamaranai⟧。",
       "english": "The chilblains on my fingertips are unbearably itchy.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24993_shimoyake_ex3",
-      "japanese": "{子供|こども}の{頃|ころ}は{毎年|まいとし}しもやけに{悩|なや}まされていたが、{大人|おとな}になってからはほとんどできなくなった。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧⟦の→の：09472_no⟧{頃|ころ}⟦は→は：00079_ha⟧⟦{毎年|まいとし}→毎年：00731_maitoshi⟧しもやけ⟦に→に：00314_ni⟧⟦{悩|なや}まされていた→悩ます：12602_nayamasu⟧⟦が→が：00051_ga⟧、⟦{大人|おとな}→大人：02856_otona⟧になって⟦から→から：00504_kara⟧⟦は→は：00079_ha⟧⟦ほとんど→ほとんど：00847_hotondo⟧⟦できなく→できる：00557_dekiru⟧⟦なった→なる：01970_naru⟧。",
       "english": "When I was a child, I suffered from chilblains every year, but since becoming an adult I hardly get them anymore.",
       "sense_numbers": [
         1
@@ -44,19 +44,29 @@
       "notes": null
     }
   ],
-  "notes": "A common winter ailment in Japan, especially among children. Chilblains are caused by repeated exposure to cold (but not freezing) temperatures, which damages small blood vessels in the skin. Unlike frostbite ({凍傷|とうしょう}), しもやけ occurs at temperatures above freezing and involves itchy, red, swollen patches rather than tissue damage from ice crystals.\n\nThe word is written in hiragana in modern usage, though the kanji {霜焼|しもや}け (literally \"frost burn\") is occasionally seen.\n\nCOMMON COLLOCATIONS:\n- しもやけができる: to get chilblains\n- しもやけに{悩|なや}まされる: to suffer from chilblains\n- しもやけが{痒|かゆ}い: chilblains are itchy\n- しもやけの{予防|よぼう}: prevention of chilblains\n- しもやけの{薬|くすり}: medicine for chilblains\n\nSIMILAR WORDS:\n- {凍傷|とうしょう}: frostbite — more severe, caused by actual freezing of tissue\n- {あかぎれ}: chapped skin; cracks in the skin from cold and dryness",
+  "notes": "A common winter ailment in Japan, especially among children. Chilblains are caused by repeated exposure to cold (but not freezing) temperatures, which damages small blood vessels in the skin. Unlike frostbite (⟦{凍傷|とうしょう}→凍傷：05018_toushou⟧), しもやけ occurs at temperatures above freezing and involves itchy, red, swollen patches rather than tissue damage from ice crystals.\n\nThe word is written in hiragana in modern usage, though the kanji {霜焼|しもや}け (literally \"frost burn\") is occasionally seen.\n\nCOMMON COLLOCATIONS:\n- しもやけ⟦が→が：00051_ga⟧⟦できる→できる：00557_dekiru⟧: to get chilblains\n- しもやけ⟦に→に：00314_ni⟧⟦{悩|なや}まされる→悩ます：12602_nayamasu⟧: to suffer from chilblains\n- しもやけ⟦が→が：00051_ga⟧{痒|かゆ}い: chilblains are itchy\n- しもやけ⟦の→の：09472_no⟧⟦{予防|よぼう}→予防：03669_yobou⟧: prevention of chilblains\n- しもやけ⟦の→の：09472_no⟧⟦{薬|くすり}→薬：00793_kusuri⟧: medicine for chilblains\n\nSIMILAR WORDS:\n- ⟦{凍傷|とうしょう}→凍傷：05018_toushou⟧: frostbite — more severe, caused by actual freezing of tissue\n- あかぎれ: chapped skin; cracks in the skin from cold and dryness",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05018_toushou",
+      "reading": "とうしょう",
+      "headword": "{凍傷|とうしょう}",
+      "label": "frostbite"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "health"
       ]
     },
     "created": "2026-04-22T10:10:18Z",
-    "modified": "2026-08-03T21:47:49Z"
+    "modified": "2026-09-02T04:02:20Z"
   }
 }

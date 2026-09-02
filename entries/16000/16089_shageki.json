@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "16089_shageki_ex1",
-      "japanese": "{射撃|しゃげき}の{練習|れんしゅう}をする。",
+      "japanese": "{射撃|しゃげき}⟦の→の：09472_no⟧⟦{練習|れんしゅう}→練習：05323_renshuu⟧⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧。",
       "english": "To practice shooting.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "16089_shageki_ex2",
-      "japanese": "オリンピックの{射撃|しゃげき}{競技|きょうぎ}を{見|み}た。",
+      "japanese": "⟦オリンピック→オリンピック：09899_orinpikku⟧⟦の→の：09472_no⟧{射撃|しゃげき}⟦{競技|きょうぎ}→競技：02606_kyougi⟧⟦を→を：00422_wo⟧⟦{見|み}た→見る：00283_miru⟧。",
       "english": "I watched the shooting competition at the Olympics.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "16089_shageki_ex3",
-      "japanese": "{警察官|けいさつかん}は{定期的|ていきてき}に{射撃|しゃげき}{訓練|くんれん}を{受|う}けなければならない。",
+      "japanese": "⟦{警察官|けいさつかん}→警察官：05056_keisatsukan⟧⟦は→は：00079_ha⟧⟦{定期的|ていきてき}→定期的：06173_teikiteki⟧⟦に→に：00314_ni⟧{射撃|しゃげき}⟦{訓練|くんれん}→訓練：02673_kunren⟧⟦を→を：00422_wo⟧⟦{受|う}け→受ける：01215_ukeru⟧⟦なければならない→なければならない：27600_nakerebanaranai⟧。",
       "english": "Police officers must undergo regular firearms training.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,40 @@
       ]
     }
   ],
-  "notes": "USAGE:\nUsed as a suru-verb ({射撃|しゃげき}する). Covers both military/law enforcement shooting and the Olympic sport. In Japan, civilian gun ownership is extremely restricted, so the word often appears in military, police, or sports contexts.\n\nCOMMON COLLOCATIONS:\n- {射撃|しゃげき}{訓練|くんれん} (shooting training, firearms drill)\n- {射撃|しゃげき}{場|じょう} (shooting range)\n- {射撃|しゃげき}{競技|きょうぎ} (shooting competition)\n\nSIMILAR WORDS:\n- {発砲|はっぽう}: discharge of a firearm — specifically the act of firing a shot, often in a news context\n- {狙撃|そげき}: sniping — shooting from a concealed position at a specific target",
-  "cross_references": [],
+  "notes": "USAGE:\nUsed as a suru-verb ({射撃|しゃげき}⟦する→する：00392_suru⟧). Covers both military/law enforcement shooting and the Olympic sport. In Japan, civilian gun ownership is extremely restricted, so the word often appears in military, police, or sports contexts.\n\nCOMMON COLLOCATIONS:\n- {射撃|しゃげき}⟦{訓練|くんれん}→訓練：02673_kunren⟧ (shooting training, firearms drill)\n- {射撃|しゃげき}{場|じょう} (shooting range)\n- {射撃|しゃげき}⟦{競技|きょうぎ}→競技：02606_kyougi⟧ (shooting competition)\n\nSIMILAR WORDS:\n- {発砲|はっぽう}: discharge of a firearm — specifically the act of firing a shot, often in a news context\n- ⟦{狙撃|そげき}→狙撃：17429_sogeki⟧: sniping — shooting from a concealed position at a specific target",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17429_sogeki",
+      "reading": "そげき",
+      "headword": "{狙撃|そげき}",
+      "label": "sniping"
+    },
+    {
+      "type": "related",
+      "target_id": "03695_hassha",
+      "reading": "はっしゃ",
+      "headword": "{発射|はっしゃ}",
+      "label": "firing, shooting, launch"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24090_shateki",
+      "reading": "しゃてき",
+      "headword": "{射的|しゃてき}",
+      "label": "shooting gallery"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27092_juugeki",
+      "reading": "じゅうげき",
+      "headword": "{銃撃|じゅうげき}",
+      "label": "shooting"
+    }
+  ],
   "metadata": {
     "created": "2026-03-09T12:22:45Z",
-    "modified": "2026-07-18T12:31:39Z",
+    "modified": "2026-09-02T04:01:43Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

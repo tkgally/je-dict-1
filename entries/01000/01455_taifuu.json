@@ -43,11 +43,54 @@
       ]
     }
   ],
-  "notes": "{台風|たいふう} is a tropical cyclone in the western Pacific, common in Japan from August to October.\n\nNAMING:\nIn Japan, typhoons are numbered sequentially each year: {台風|たいふう}⟦{十|じゅう}→十：00708_juu⟧⟦{号|ごう}→〜号：04024_gou⟧ (Typhoon #10).\n\nCOMMON EXPRESSIONS:\n- {台風|たいふう}⟦が→が：00051_ga⟧⟦{来|く}る→来る：00254_kuru⟧/⟦{近|ちか}づく→近づく：01958_chikazuku⟧: a typhoon is coming/approaching\n- {台風|たいふう}⟦が→が：00051_ga⟧⟦{上陸|じょうりく}→上陸：20591_jouriku⟧⟦する→する：00392_suru⟧: a typhoon makes landfall\n- {台風|たいふう}⟦が→が：00051_ga⟧⟦{過|す}ぎる→過ぎる：01219_sugiru⟧: a typhoon passes\n- {台風|たいふう}⟦{情報|じょうほう}→情報：03348_jouhou⟧: typhoon information\n\nRELATED:\n- ⟦{暴風雨|ぼうふうう}→暴風雨：07670_boufuuu⟧: storm\n- ⟦{避難|ひなん}→避難：07908_hinan⟧: evacuation\n- ⟦{警報|けいほう}→警報：09515_keihou⟧: warning",
-  "cross_references": [],
+  "notes": "{台風|たいふう} is a tropical cyclone in the western Pacific, common in Japan from August to October.\n\nNAMING:\nIn Japan, typhoons are numbered sequentially each year: {台風|たいふう}⟦{十|じゅう}→十：00708_juu⟧⟦{号|ごう}→〜号：04024_gou⟧ (Typhoon #10).\n\nCOMMON EXPRESSIONS:\n- {台風|たいふう}⟦が→が：00051_ga⟧⟦{来|く}る→来る：00254_kuru⟧/⟦{近|ちか}づく→近づく：01958_chikazuku⟧: a typhoon is coming/approaching\n- {台風|たいふう}⟦が→が：00051_ga⟧⟦{上陸|じょうりく}→上陸：20591_jouriku⟧⟦する→する：00392_suru⟧: a typhoon makes landfall\n- {台風|たいふう}⟦が→が：00051_ga⟧⟦{過|す}ぎる→過ぎる：01219_sugiru⟧: a typhoon passes\n- {台風|たいふう}⟦{情報|じょうほう}→情報：03348_jouhou⟧: typhoon information\n\nRELATED WORDS:\n- ⟦{暴風雨|ぼうふうう}→暴風雨：07670_boufuuu⟧: storm\n- ⟦{避難|ひなん}→避難：07908_hinan⟧: evacuation\n- ⟦{警報|けいほう}→警報：09515_keihou⟧: warning",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "07670_boufuuu",
+      "reading": "ぼうふうう",
+      "headword": "{暴風雨|ぼうふうう}",
+      "label": "storm"
+    },
+    {
+      "type": "related",
+      "target_id": "07908_hinan",
+      "reading": "ひなん",
+      "headword": "{避難|ひなん}",
+      "label": "evacuation"
+    },
+    {
+      "type": "related",
+      "target_id": "09515_keihou",
+      "reading": "けいほう",
+      "headword": "{警報|けいほう}",
+      "label": "warning"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01695_arashi",
+      "reading": "あらし",
+      "headword": "{嵐|あらし}",
+      "label": "storm, tempest"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21712_teikiatsu",
+      "reading": "ていきあつ",
+      "headword": "{低気圧|ていきあつ}",
+      "label": "low pressure"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27360_kiryuu",
+      "reading": "きりゅう",
+      "headword": "{気流|きりゅう}",
+      "label": "air current"
+    }
+  ],
   "metadata": {
     "created": "2026-01-08T12:58:36Z",
-    "modified": "2026-05-15T17:10:22Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

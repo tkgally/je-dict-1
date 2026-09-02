@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30245_kariharaiki_ex1",
-      "japanese": "{刈|か}り{払|はら}い{機|き}を{借|か}りた。",
+      "japanese": "{刈|か}り{払|はら}い{機|き}⟦を→を：00422_wo⟧⟦{借|か}りた→借りる：00532_kariru⟧。",
       "english": "I rented a brush cutter.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30245_kariharaiki_ex2",
-      "japanese": "{刈|か}り{払|はら}い{機|き}を{使|つか}うときは{保護|ほご}メガネをつける。",
+      "japanese": "{刈|か}り{払|はら}い{機|き}⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧とき⟦は→は：00079_ha⟧⟦{保護|ほご}→保護：03625_hogo⟧メガネ⟦を→を：00422_wo⟧⟦つける→つける：00562_tsukeru⟧。",
       "english": "Wear safety goggles when using a brush cutter.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30245_kariharaiki_ex3",
-      "japanese": "{刈|か}り{払|はら}い{機|き}の{刃|は}が{石|いし}に{当|あ}たると{危|あぶ}ないので、{足元|あしもと}をよく{確認|かくにん}すること。",
+      "japanese": "{刈|か}り{払|はら}い{機|き}⟦の→の：09472_no⟧⟦{刃|は}→刃：09865_ha⟧⟦が→が：00051_ga⟧⟦{石|いし}→石：02177_ishi⟧⟦に→に：00314_ni⟧⟦{当|あ}たる→当たる：01860_ataru⟧⟦と→と：00512_to⟧⟦{危|あぶ}ない→危ない：00768_abunai⟧⟦の→の：09472_no⟧で、⟦{足元|あしもと}→足元：04096_ashimoto⟧⟦を→を：00422_wo⟧⟦よく→よく：00601_yoku⟧⟦{確認|かくにん}する→確認する：25332_kakuninsuru⟧こと。",
       "english": "It is dangerous if the brush cutter's blade hits a stone, so check the ground carefully.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "{刈|か}り{払|はら}う (to cut down and clear away) + {機|き} (machine). Written {刈払機|かりはらいき} without okurigana in technical documents and product names.\n\nCOMMON COLLOCATIONS:\n- {刈|か}り{払|はら}い{機|き}を{使|つか}う: to use a brush cutter\n- {刈|か}り{払|はら}い{機|き}の{刃|は}: the blade of a brush cutter\n- {刈|か}り{払|はら}い{機|き}の{取扱|とりあつか}い{講習|こうしゅう}: brush cutter handling course\n\nSIMILAR WORDS:\n- {草刈|くさか}り{機|き}: grass cutter — the everyday word for the same tool; {刈|か}り{払|はら}い{機|き} is the term used in manuals and safety regulations\n- {芝刈|しばか}り{機|き}: lawn mower — a wheeled machine for lawns, not a handheld one",
+  "notes": "{刈|か}り{払|はら}う (to cut down and clear away) + ⟦{機|き}→〜機：09843_ki⟧ (machine). Written {刈払機|かりはらいき} without okurigana in technical documents and product names.\n\nCOMMON COLLOCATIONS:\n- {刈|か}り{払|はら}い{機|き}⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧: to use a brush cutter\n- {刈|か}り{払|はら}い{機|き}⟦の→の：09472_no⟧⟦{刃|は}→刃：09865_ha⟧: the blade of a brush cutter\n- {刈|か}り{払|はら}い{機|き}⟦の→の：09472_no⟧{取扱|とりあつか}い{講習|こうしゅう}: brush cutter handling course\n\nSIMILAR WORDS:\n- ⟦{草刈|くさか}り{機|き}→草刈り機：30228_kusakariki⟧: grass cutter — the everyday word for the same tool; {刈|か}り{払|はら}い{機|き} is the term used in manuals and safety regulations\n- ⟦{芝刈|しばか}り{機|き}→芝刈り機：17028_shibakariki⟧: lawn mower — a wheeled machine for lawns, not a handheld one",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "30228_kusakariki",
+      "reading": "くさかりき",
+      "headword": "{草刈|くさか}り{機|き}",
+      "label": "grass cutter"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17028_shibakariki",
+      "reading": "しばかりき",
+      "headword": "{芝刈|しばか}り{機|き}",
+      "label": "lawn mower"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +69,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "tool"
       ],
@@ -62,6 +78,6 @@
       ]
     },
     "created": "2026-07-30T12:18:26Z",
-    "modified": "2026-07-30T12:18:26Z"
+    "modified": "2026-09-02T04:02:39Z"
   }
 }

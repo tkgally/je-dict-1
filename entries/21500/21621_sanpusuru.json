@@ -3,7 +3,7 @@
   "headword": "{散布|さんぷ}する",
   "reading": "さんぷする",
   "romaji": "sanpusuru",
-  "part_of_speech": "noun, verb (する)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "to scatter; to spray; to spread",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21621_sanpusuru_ex1",
-      "japanese": "{農薬|のうやく}を{散布|さんぷ}する。",
+      "japanese": "⟦{農薬|のうやく}→農薬：04295_nouyaku⟧⟦を→を：00422_wo⟧{散布|さんぷ}する。",
       "english": "To spray pesticide.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21621_sanpusuru_ex2",
-      "japanese": "{庭|にわ}に{除草剤|じょそうざい}を{散布|さんぷ}した。",
+      "japanese": "⟦{庭|にわ}→庭：02239_niwa⟧⟦に→に：00314_ni⟧⟦{除草剤|じょそうざい}→除草剤：24124_josouzai⟧⟦を→を：00422_wo⟧{散布|さんぷ}した。",
       "english": "I sprayed herbicide in the garden.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21621_sanpusuru_ex3",
-      "japanese": "ヘリコプターで{広|ひろ}い{範囲|はんい}に{薬剤|やくざい}を{散布|さんぷ}した。",
+      "japanese": "⟦ヘリコプター→ヘリコプター：05117_herikoputaa⟧⟦で→で：00502_de⟧⟦{広|ひろ}い→広い：00704_hiroi⟧⟦{範囲|はんい}→範囲：03567_hani⟧⟦に→に：00314_ni⟧⟦{薬剤|やくざい}→薬剤：14100_yakuzai⟧⟦を→を：00422_wo⟧{散布|さんぷ}した。",
       "english": "They sprayed chemicals over a wide area by helicopter.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Primarily used in agricultural, environmental, and public health contexts for distributing substances over an area.\n\nCOMMON COLLOCATIONS:\n- {農薬|のうやく}{散布|さんぷ}: pesticide spraying\n- {除草剤|じょそうざい}を{散布|さんぷ}: to spray herbicide\n- {肥料|ひりょう}を{散布|さんぷ}: to spread fertilizer\n- {空中|くうちゅう}{散布|さんぷ}: aerial spraying\n- ビラを{散布|さんぷ}する: to distribute flyers/leaflets\n\nSIMILAR WORDS:\n- {撒|ま}く: to scatter, to sprinkle — everyday word, more general\n- {噴霧|ふんむ}する: to atomize, to mist — finer spray\n- {散|ち}らす: to scatter — more general, also used for non-liquid things\n\nFORMATION:\n{散|さん} (scatter) + {布|ぷ} (spread). The {布|ぷ} element implies spreading over a surface area.",
+  "notes": "Primarily used in agricultural, environmental, and public health contexts for distributing substances over an area.\n\nCOMMON COLLOCATIONS:\n- ⟦{農薬|のうやく}→農薬：04295_nouyaku⟧⟦{散布|さんぷ}→散布：21064_sanpu⟧: pesticide spraying\n- ⟦{除草剤|じょそうざい}→除草剤：24124_josouzai⟧⟦を→を：00422_wo⟧⟦{散布|さんぷ}→散布：21064_sanpu⟧: to spray herbicide\n- ⟦{肥料|ひりょう}→肥料：06102_hiryou⟧⟦を→を：00422_wo⟧⟦{散布|さんぷ}→散布：21064_sanpu⟧: to spread fertilizer\n- ⟦{空中|くうちゅう}→空中：21842_kuuchuu⟧⟦{散布|さんぷ}→散布：21064_sanpu⟧: aerial spraying\n- ⟦ビラ→ビラ：11240_bira⟧⟦を→を：00422_wo⟧{散布|さんぷ}する: to distribute flyers/leaflets\n\nSIMILAR WORDS:\n- ⟦{撒|ま}く→撒く：12711_maku⟧: to scatter, to sprinkle — everyday word, more general\n- ⟦{噴霧|ふんむ}→噴霧：21104_funmu⟧⟦する→する：00392_suru⟧: to atomize, to mist — finer spray\n- ⟦{散|ち}らす→散らす：02288_chirasu⟧: to scatter — more general, also used for non-liquid things\n\nFORMS:\n{散|さん} (scatter) + {布|ぷ} (spread). The {布|ぷ} element implies spreading over a surface area.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12711_maku",
+      "reading": "まく",
+      "headword": "{撒|ま}く",
+      "label": "to scatter, to sprinkle"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21104_funmu",
+      "reading": "ふんむ",
+      "headword": "{噴霧|ふんむ}",
+      "label": "to atomize, to mist"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02288_chirasu",
+      "reading": "ちらす",
+      "headword": "{散|ち}らす",
+      "label": "to scatter"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -58,10 +81,11 @@
       "semantic": [
         "nature"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-04-02T18:16:46Z",
-    "modified": "2026-04-02T18:16:46Z"
+    "modified": "2026-09-02T04:02:04Z"
   },
   "conjugation": {
     "type": "suru",

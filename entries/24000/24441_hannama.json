@@ -4,7 +4,7 @@
   "headword": "{半生|はんなま}",
   "reading": "はんなま",
   "romaji": "hannama",
-  "part_of_speech": "noun, adjective-na, adjective-no",
+  "part_of_speech": "noun, na-adjective, no-adjective",
   "gloss": "half-raw; half-cooked; medium-rare",
   "definitions": [
     {
@@ -16,7 +16,7 @@
   "examples": [
     {
       "id": "24441_hannama_ex1",
-      "japanese": "ステーキは{半生|はんなま}で{焼|や}いてください。",
+      "japanese": "⟦ステーキ→ステーキ：01369_suteeki⟧⟦は→は：00079_ha⟧{半生|はんなま}⟦で→で：00502_de⟧⟦{焼|や}いて→焼く：01123_yaku⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please cook the steak medium-rare.",
       "sense_numbers": [
         1
@@ -26,7 +26,7 @@
     },
     {
       "id": "24441_hannama_ex2",
-      "japanese": "この{卵|たまご}はまだ{半生|はんなま}だ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{卵|たまご}→卵：02222_tamago⟧⟦は→は：00079_ha⟧⟦まだ→まだ：00603_mada⟧{半生|はんなま}だ。",
       "english": "This egg is still half-raw.",
       "sense_numbers": [
         1
@@ -36,7 +36,7 @@
     },
     {
       "id": "24441_hannama_ex3",
-      "japanese": "{半生|はんなま}の{鶏肉|とりにく}を{食|た}べると{食中毒|しょくちゅうどく}になる{危険|きけん}があるので、しっかり{火|ひ}を{通|とお}してください。",
+      "japanese": "{半生|はんなま}⟦の→の：09472_no⟧⟦{鶏肉|とりにく}→鶏肉：02919_toriniku⟧⟦を→を：00422_wo⟧⟦{食|た}べる→食べる：00396_taberu⟧⟦と→と：00512_to⟧⟦{食中毒|しょくちゅうどく}→食中毒：07020_shokuchuudoku⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦{危険|きけん}→危険：01141_kiken⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧⟦の→の：09472_no⟧で、⟦しっかり→しっかり：01272_shikkari⟧⟦{火|ひ}→火：02248_hi⟧⟦を→を：00422_wo⟧⟦{通|とお}して→通す：02300_toosu⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Eating undercooked chicken can cause food poisoning, so please make sure it is thoroughly cooked.",
       "sense_numbers": [
         1
@@ -45,7 +45,30 @@
       "notes": null
     }
   ],
-  "notes": "Describes food that is only partially cooked. Can be desirable (as with a medium-rare steak or a soft-boiled egg) or a health concern (as with undercooked chicken). Note the reading: {半生|はんなま} refers to cooking doneness, while the same kanji read as はんせい means \"half a lifetime.\"\n\nCOMMON COLLOCATIONS:\n- {半生|はんなま}の{卵|たまご}: soft-boiled/half-raw egg\n- {半生|はんなま}で{焼|や}く: to cook medium-rare\n- {半生|はんなま}{状態|じょうたい}: half-cooked state\n\nSIMILAR WORDS:\n- {生|なま}: raw — completely uncooked\n- レア: rare — loanword used specifically for steak doneness\n- {半熟|はんじゅく}: soft-boiled — specifically for eggs, where the yolk is still runny\n- {生焼|なまや}け: undercooked — implies the food should have been cooked more",
+  "notes": "Describes food that is only partially cooked. Can be desirable (as with a medium-rare steak or a soft-boiled egg) or a health concern (as with undercooked chicken). Note the reading: {半生|はんなま} refers to cooking doneness, while the same kanji read as はんせい means \"half a lifetime.\"\n\nCOMMON COLLOCATIONS:\n- {半生|はんなま}⟦の→の：09472_no⟧⟦{卵|たまご}→卵：02222_tamago⟧: soft-boiled/half-raw egg\n- {半生|はんなま}⟦で→で：00502_de⟧⟦{焼|や}く→焼く：01123_yaku⟧: to cook medium-rare\n- {半生|はんなま}⟦{状態|じょうたい}→状態：03345_joutai⟧: half-cooked state\n\nSIMILAR WORDS:\n- ⟦{生|なま}→生：03509_nama⟧: raw — completely uncooked\n- ⟦レア→レア：11251_rea⟧: rare — loanword used specifically for steak doneness\n- ⟦{半熟|はんじゅく}→半熟：11935_hanjuku⟧: soft-boiled — specifically for eggs, where the yolk is still runny\n- ⟦{生焼|なまや}け→生焼け：22421_namayake⟧: undercooked — implies the food should have been cooked more",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11251_rea",
+      "reading": "れあ",
+      "headword": "レア",
+      "label": "rare"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11935_hanjuku",
+      "reading": "はんじゅく",
+      "headword": "{半熟|はんじゅく}",
+      "label": "soft-boiled"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22421_namayake",
+      "reading": "なまやけ",
+      "headword": "{生焼|なまや}け",
+      "label": "undercooked"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -54,11 +77,13 @@
         "adjective-na",
         "adjective-no"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "food"
       ]
     },
     "created": "2026-04-19T10:10:44Z",
-    "modified": "2026-04-19T10:10:44Z"
+    "modified": "2026-09-02T04:02:18Z"
   }
 }

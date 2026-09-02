@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "15848_kaihou_ex1",
-      "japanese": "{酔|よ}った{友人|ゆうじん}を{介抱|かいほう}した。",
+      "japanese": "⟦{酔|よ}った→酔う：14437_you⟧⟦{友人|ゆうじん}→友人：03649_yuujin⟧⟦を→を：00422_wo⟧{介抱|かいほう}⟦した→する：00392_suru⟧。",
       "english": "I looked after my drunk friend.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "15848_kaihou_ex2",
-      "japanese": "{倒|たお}れた{人|ひと}を{介抱|かいほう}する{人|ひと}がすぐに{現|あらわ}れた。",
+      "japanese": "⟦{倒|たお}れた→倒れる：01160_taoreru⟧⟦{人|ひと}→人：00476_hito⟧⟦を→を：00422_wo⟧{介抱|かいほう}⟦する→する：00392_suru⟧⟦{人|ひと}→人：00476_hito⟧⟦が→が：00051_ga⟧⟦すぐ→すぐ：00814_sugu⟧⟦に→に：00314_ni⟧⟦{現|あらわ}れた→現れる：01870_arawareru⟧。",
       "english": "Someone quickly appeared to tend to the person who collapsed.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "15848_kaihou_ex3",
-      "japanese": "{彼女|かのじょ}は{一晩中|ひとばんじゅう}{病気|びょうき}の{子供|こども}を{介抱|かいほう}していた。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧⟦{一晩中|ひとばんじゅう}→一晩中：20338_hitobanjuu⟧⟦{病気|びょうき}→病気：00771_byouki⟧⟦の→の：09472_no⟧⟦{子供|こども}→子供：00554_kodomo⟧⟦を→を：00422_wo⟧{介抱|かいほう}⟦していた→する：00392_suru⟧。",
       "english": "She spent all night nursing her sick child.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "GRAMMAR:\n{介抱|かいほう}する is used as a する verb meaning \"to nurse, to tend to.\"\n\nUSAGE:\n{介抱|かいほう} often implies personal, hands-on care in an immediate situation — helping someone who has collapsed, nursing a drunk person, or tending to someone who is suddenly ill. It differs from {看護|かんご} (professional nursing) and {介護|かいご} (long-term caregiving).\n\nCOMMON COLLOCATIONS:\n- {酔|よ}っ{払|ぱら}いを{介抱|かいほう}する (to look after a drunk person)\n- {怪我人|けがにん}を{介抱|かいほう}する (to tend to an injured person)",
+  "notes": "COMMON PATTERNS:\n{介抱|かいほう}⟦する→する：00392_suru⟧ is used as a ⟦する→する：00392_suru⟧ verb meaning \"to nurse, to tend to.\"\n\nUSAGE:\n{介抱|かいほう} often implies personal, hands-on care in an immediate situation — helping someone who has collapsed, nursing a drunk person, or tending to someone who is suddenly ill. It differs from ⟦{看護|かんご}→看護：13668_kango⟧ (professional nursing) and ⟦{介護|かいご}→介護：04805_kaigo⟧ (long-term caregiving).\n\nCOMMON COLLOCATIONS:\n- ⟦{酔|よ}っ{払|ぱら}い→酔っ払い：09429_yopparai⟧⟦を→を：00422_wo⟧{介抱|かいほう}⟦する→する：00392_suru⟧ (to look after a drunk person)\n- ⟦{怪我人|けがにん}→怪我人：23513_keganin⟧⟦を→を：00422_wo⟧{介抱|かいほう}⟦する→する：00392_suru⟧ (to tend to an injured person)",
   "cross_references": [
     {
       "type": "contrast",
@@ -153,7 +153,7 @@
   ],
   "metadata": {
     "created": "2026-03-08T12:24:55Z",
-    "modified": "2026-05-02T06:35:29Z",
+    "modified": "2026-09-02T04:01:42Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -167,7 +167,8 @@
         "health",
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

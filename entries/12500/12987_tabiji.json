@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "12987_tabiji_ex1",
-      "japanese": "{長|なが}い{旅路|たびじ}に{疲|つか}れた。",
+      "japanese": "⟦{長|なが}い→長い：00491_nagai⟧{旅路|たびじ}⟦に→に：00314_ni⟧⟦{疲|つか}れた→疲れる：00901_tsukareru⟧。",
       "english": "I was tired from the long journey.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "12987_tabiji_ex2",
-      "japanese": "{旅路|たびじ}の{途中|とちゅう}で{美|うつく}しい{景色|けしき}に{出会|であ}った。",
+      "japanese": "{旅路|たびじ}⟦の→の：09472_no⟧⟦{途中|とちゅう}→途中：01684_tochuu⟧⟦で→で：00502_de⟧⟦{美|うつく}しい→美しい：01121_utsukushii⟧⟦{景色|けしき}→景色：01395_keshiki⟧⟦に→に：00314_ni⟧⟦{出会|であ}った→出会う：02298_deau⟧。",
       "english": "I encountered beautiful scenery along the way.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "12987_tabiji_ex3",
-      "japanese": "{人生|じんせい}という{旅路|たびじ}の{中|なか}で、{多|おお}くの{人|ひと}と{出会|であ}い、{別|わか}れてきた。",
+      "japanese": "⟦{人生|じんせい}→人生：03355_jinsei⟧⟦という→という：09577_toiu⟧{旅路|たびじ}⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧⟦で→で：00502_de⟧、{多|おお}く⟦の→の：09472_no⟧⟦{人|ひと}→人：00476_hito⟧⟦と→と：00512_to⟧⟦{出会|であ}い→出会う：02298_deau⟧、⟦{別|わか}れて→別れる：01113_wakareru⟧きた。",
       "english": "Along the journey of life, I have met and parted with many people.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA literary and poetic word. Often used figuratively for the journey of life ({人生|じんせい}の{旅路|たびじ}). Less common in everyday speech than {旅|たび} or {旅行|りょこう}. Frequently appears in literature, poetry, and song lyrics.\n\nCOMMON COLLOCATIONS:\n- {長|なが}い{旅路|たびじ}: long journey\n- {旅路|たびじ}の{途中|とちゅう}: on the way, mid-journey\n- {人生|じんせい}の{旅路|たびじ}: the journey of life\n- {旅路|たびじ}に{就|つ}く: to set out on a journey\n\nSIMILAR WORDS:\n- {旅|たび}: trip, travel (common, everyday)\n- {旅行|りょこう}: trip, travel (practical, neutral)\n- {道中|どうちゅう}: en route, along the way",
+  "notes": "USAGE:\nA literary and poetic word. Often used figuratively for the journey of life (⟦{人生|じんせい}→人生：03355_jinsei⟧⟦の→の：09472_no⟧{旅路|たびじ}). Less common in everyday speech than ⟦{旅|たび}→旅：03407_tabi⟧ or ⟦{旅行|りょこう}→旅行：00748_ryokou⟧. Frequently appears in literature, poetry, and song lyrics.\n\nCOMMON COLLOCATIONS:\n- ⟦{長|なが}い→長い：00491_nagai⟧{旅路|たびじ}: long journey\n- {旅路|たびじ}⟦の→の：09472_no⟧⟦{途中|とちゅう}→途中：01684_tochuu⟧: on the way, mid-journey\n- ⟦{人生|じんせい}→人生：03355_jinsei⟧⟦の→の：09472_no⟧{旅路|たびじ}: the journey of life\n- {旅路|たびじ}⟦に→に：00314_ni⟧⟦{就|つ}く→就く：10123_tsuku⟧: to set out on a journey\n\nSIMILAR WORDS:\n- ⟦{旅|たび}→旅：03407_tabi⟧: trip, travel (common, everyday)\n- ⟦{旅行|りょこう}→旅行：00748_ryokou⟧: trip, travel (practical, neutral)\n- ⟦{道中|どうちゅう}→道中：14427_douchuu⟧: en route, along the way",
   "cross_references": [
     {
       "type": "related",
@@ -52,11 +52,32 @@
       "headword": "{旅立|たびだ}ち",
       "label": "departure on a journey",
       "target_id": "12986_tabidachi"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00748_ryokou",
+      "reading": "りょこう",
+      "headword": "{旅行|りょこう}",
+      "label": "trip, travel"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14427_douchuu",
+      "reading": "どうちゅう",
+      "headword": "{道中|どうちゅう}",
+      "label": "en route, along the way"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19615_ieji",
+      "reading": "いえじ",
+      "headword": "{家路|いえじ}",
+      "label": "the road home"
     }
   ],
   "metadata": {
     "created": "2026-02-23T05:08:38Z",
-    "modified": "2026-03-29T10:42:23Z",
+    "modified": "2026-09-02T04:01:31Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

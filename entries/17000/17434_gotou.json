@@ -15,41 +15,67 @@
   "examples": [
     {
       "id": "17434_gotou_ex1",
-      "japanese": "{誤答|ごとう}が{三|みっ}つあった。",
+      "japanese": "{誤答|ごとう}⟦が→が：00051_ga⟧⟦{三|みっ}つ→三つ：02970_mittsu⟧⟦あった→ある：00006_aru⟧。",
       "english": "There were three wrong answers.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17434_gotou_ex2",
-      "japanese": "{誤答|ごとう}の{原因|げんいん}を{分析|ぶんせき}して、{次|つぎ}に{活|い}かそう。",
+      "japanese": "{誤答|ごとう}⟦の→の：09472_no⟧⟦{原因|げんいん}→原因：01400_genin⟧⟦を→を：00422_wo⟧⟦{分析|ぶんせき}して→分析する：25338_bunsekisuru⟧、⟦{次|つぎ}→次：00819_tsugi⟧⟦に→に：00314_ni⟧⟦{活|い}かそう→活かす：10422_ikasu⟧。",
       "english": "Let's analyze the causes of the wrong answers and use that for next time.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17434_gotou_ex3",
-      "japanese": "クイズ{番組|ばんぐみ}で{誤答|ごとう}すると、{回答者|かいとうしゃ}は{席|せき}を{外|はず}される。",
+      "japanese": "⟦クイズ→クイズ：10804_kuizu⟧⟦{番組|ばんぐみ}→番組：01705_bangumi⟧⟦で→で：00502_de⟧{誤答|ごとう}⟦する→する：00392_suru⟧⟦と→と：00512_to⟧、{回答者|かいとうしゃ}⟦は→は：00079_ha⟧⟦{席|せき}→席：02215_seki⟧⟦を→を：00422_wo⟧⟦{外|はず}される→外す：02394_hazusu⟧。",
       "english": "On the quiz show, if you give a wrong answer, the contestant is removed from their seat.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nA formal term for incorrect answers, commonly used in testing, education, and quiz contexts. The opposite is {正答|せいとう} (correct answer).\n\nCOMMON COLLOCATIONS:\n- {誤答|ごとう}{率|りつ} (error rate)\n- {誤答|ごとう}{例|れい} (example of an incorrect answer)\n- {誤答|ごとう}{分析|ぶんせき} (error analysis)\n\nSIMILAR WORDS:\n- {不正解|ふせいかい}: incorrect answer — common in quizzes and game shows\n- {誤答|ごとう}: wrong answer — more formal, used in education and testing\n- {正答|せいとう}: correct answer — the antonym",
-  "cross_references": [],
+  "notes": "USAGE:\nA formal term for incorrect answers, commonly used in testing, education, and quiz contexts. The opposite is {正答|せいとう} (correct answer).\n\nCOMMON COLLOCATIONS:\n- {誤答|ごとう}⟦{率|りつ}→率：03802_ritsu⟧ (error rate)\n- {誤答|ごとう}⟦{例|れい}→例：09932_rei⟧ (example of an incorrect answer)\n- {誤答|ごとう}⟦{分析|ぶんせき}→分析：03610_bunseki⟧ (error analysis)\n\nSIMILAR WORDS:\n- ⟦{不正解|ふせいかい}→不正解：18929_fuseikai⟧: incorrect answer — common in quizzes and game shows\n- {誤答|ごとう}: wrong answer — more formal, used in education and testing\n- {正答|せいとう}: correct answer — the antonym",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18929_fuseikai",
+      "reading": "ふせいかい",
+      "headword": "{不正解|ふせいかい}",
+      "label": "incorrect answer"
+    },
+    {
+      "type": "related",
+      "target_id": "03083_seikai",
+      "reading": "せいかい",
+      "headword": "{正解|せいかい}",
+      "label": "correct answer, right answer"
+    }
+  ],
   "metadata": {
     "created": "2026-03-17T23:22:57Z",
-    "modified": "2026-03-17T23:22:57Z",
+    "modified": "2026-09-02T04:01:48Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["education", "evaluation"]
+      "semantic": [
+        "education",
+        "evaluation"
+      ]
     }
   }
 }

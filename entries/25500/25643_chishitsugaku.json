@@ -15,38 +15,67 @@
   "examples": [
     {
       "id": "25643_chishitsugaku_ex1",
-      "japanese": "{地質学|ちしつがく}を{専攻|せんこう}して{火山|かざん}を{研究|けんきゅう}したい。",
+      "japanese": "{地質学|ちしつがく}⟦を→を：00422_wo⟧⟦{専攻|せんこう}→専攻：01587_senkou⟧⟦して→する：00392_suru⟧⟦{火山|かざん}→火山：04020_kazan⟧⟦を→を：00422_wo⟧⟦{研究|けんきゅう}→研究：01396_kenkyuu⟧⟦したい→する：00392_suru⟧。",
       "english": "I want to major in geology and study volcanoes.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "25643_chishitsugaku_ex2",
-      "japanese": "{地質学|ちしつがく}の{調査|ちょうさ}で、この{地域|ちいき}には{活断層|かつだんそう}があることが{分|わ}かった。",
+      "japanese": "{地質学|ちしつがく}⟦の→の：09472_no⟧⟦{調査|ちょうさ}→調査：03489_chousa⟧⟦で→で：00502_de⟧、⟦この→この：00962_kono⟧⟦{地域|ちいき}→地域：01461_chiiki⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{活断層|かつだんそう}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧こと⟦が→が：00051_ga⟧⟦{分|わ}かった→分かる：00463_wakaru⟧。",
       "english": "A geological survey revealed that there is an active fault in this area.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "25643_chishitsugaku_ex3",
-      "japanese": "{地震|じしん}が{頻発|ひんぱつ}する{日本|にほん}では、{地質学|ちしつがく}の{知識|ちしき}が{建築|けんちく}や{都市計画|としけいかく}にも{活|い}かされている。",
+      "japanese": "⟦{地震|じしん}→地震：01608_jishin⟧⟦が→が：00051_ga⟧⟦{頻発|ひんぱつ}する→頻発する：22178_hinpatsusuru⟧⟦{日本|にほん}→日本：03876_nihon⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧、{地質学|ちしつがく}⟦の→の：09472_no⟧⟦{知識|ちしき}→知識：01463_chishiki⟧⟦が→が：00051_ga⟧⟦{建築|けんちく}→建築：02709_kenchiku⟧や⟦{都市計画|としけいかく}→都市計画：19746_toshikeikaku⟧⟦に→に：00314_ni⟧⟦も→も：00484_mo⟧⟦{活|い}かされている→活かす：10422_ikasu⟧。",
       "english": "In earthquake-prone Japan, geological knowledge is also applied to architecture and urban planning.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {地質|ちしつ} (geological composition) and {学|がく} (study, discipline). Particularly relevant in Japan, which sits on the junction of four tectonic plates and has numerous active volcanoes and frequent earthquakes.\n\nCOMMON COLLOCATIONS:\n- {地質学|ちしつがく}{者|しゃ}: geologist\n- {地質学|ちしつがく}の{教授|きょうじゅ}: geology professor\n- {地質学|ちしつがく}{的|てき}{調査|ちょうさ}: geological survey\n- {応用|おうよう}{地質学|ちしつがく}: applied geology\n\nSIMILAR WORDS:\n- {地学|ちがく}: earth science — a broader field that includes geology, meteorology, and oceanography\n- {鉱物学|こうぶつがく}: mineralogy — the study of minerals specifically\n- {地理学|ちりがく}: geography — studies spatial relationships between people and environments, overlaps with geology in physical geography",
+  "notes": "A compound of ⟦{地質|ちしつ}→地質：04055_chishitsu⟧ (geological composition) and ⟦{学|がく}→〜学：09846_gaku⟧ (study, discipline). Particularly relevant in Japan, which sits on the junction of four tectonic plates and has numerous active volcanoes and frequent earthquakes.\n\nCOMMON COLLOCATIONS:\n- {地質学|ちしつがく}⟦{者|しゃ}→〜者：04662_sha⟧: geologist\n- {地質学|ちしつがく}⟦の→の：09472_no⟧⟦{教授|きょうじゅ}→教授：02589_kyouju⟧: geology professor\n- {地質学|ちしつがく}⟦{的|てき}→〜的：09839_teki⟧⟦{調査|ちょうさ}→調査：03489_chousa⟧: geological survey\n- ⟦{応用|おうよう}→応用：04135_ouyou⟧{地質学|ちしつがく}: applied geology\n\nSIMILAR WORDS:\n- ⟦{地学|ちがく}→地学：07106_chigaku⟧: earth science — a broader field that includes geology, meteorology, and oceanography\n- {鉱物学|こうぶつがく}: mineralogy — the study of minerals specifically\n- ⟦{地理学|ちりがく}→地理学：25641_chirigaku⟧: geography — studies spatial relationships between people and environments, overlaps with geology in physical geography",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07106_chigaku",
+      "reading": "ちがく",
+      "headword": "{地学|ちがく}",
+      "label": "earth science"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25641_chirigaku",
+      "reading": "ちりがく",
+      "headword": "{地理学|ちりがく}",
+      "label": "geography"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["education", "nature"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "education",
+        "nature"
+      ]
     },
     "created": "2026-04-26T13:27:11Z",
-    "modified": "2026-04-26T13:27:11Z"
+    "modified": "2026-09-02T04:02:23Z"
   }
 }

@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "17910_meiban_ex1",
-      "japanese": "{機械|きかい}の{銘板|めいばん}を{確認|かくにん}してください。",
+      "japanese": "⟦{機械|きかい}→機械：02366_kikai⟧⟦の→の：09472_no⟧{銘板|めいばん}⟦を→を：00422_wo⟧⟦{確認|かくにん}して→確認する：25332_kakuninsuru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please check the nameplate on the machine.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17910_meiban_ex2",
-      "japanese": "{銘板|めいばん}に{製造年月日|せいぞうねんがっぴ}が{記載|きさい}されている。",
+      "japanese": "{銘板|めいばん}⟦に→に：00314_ni⟧{製造年月日|せいぞうねんがっぴ}⟦が→が：00051_ga⟧⟦{記載|きさい}→記載：14169_kisai⟧⟦されている→する：00392_suru⟧。",
       "english": "The date of manufacture is listed on the nameplate.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17910_meiban_ex3",
-      "japanese": "{古|ふる}い{建物|たてもの}の{入口|いりぐち}に{真鍮|しんちゅう}の{銘板|めいばん}が{取|と}り{付|つ}けられていた。",
+      "japanese": "⟦{古|ふる}い→古い：00488_furui⟧⟦{建物|たてもの}→建物：01458_tatemono⟧⟦の→の：09472_no⟧{入口|いりぐち}⟦に→に：00314_ni⟧{真鍮|しんちゅう}⟦の→の：09472_no⟧{銘板|めいばん}⟦が→が：00051_ga⟧⟦{取|と}り{付|つ}けられていた→取り付ける：06797_toritsukeru⟧。",
       "english": "A brass nameplate was mounted at the entrance of the old building.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nUsed in manufacturing, engineering, and building contexts. The {銘板|めいばん} provides essential identification and specification data for equipment.\n\nCOMMON COLLOCATIONS:\n- {銘板|めいばん}を{確認|かくにん}する (to check the nameplate)\n- {銘板|めいばん}に{記載|きさい}されている (listed on the nameplate)\n- {銘板|めいばん}を{取|と}り{付|つ}ける (to attach a nameplate)\n\nRELATED WORDS:\n- {表札|ひょうさつ}: house nameplate (at a residence)\n- {名札|なふだ}: name tag (worn by a person)",
+  "notes": "USAGE:\nUsed in manufacturing, engineering, and building contexts. The {銘板|めいばん} provides essential identification and specification data for equipment.\n\nCOMMON COLLOCATIONS:\n- {銘板|めいばん}⟦を→を：00422_wo⟧⟦{確認|かくにん}する→確認する：25332_kakuninsuru⟧ (to check the nameplate)\n- {銘板|めいばん}⟦に→に：00314_ni⟧⟦{記載|きさい}→記載：14169_kisai⟧⟦されている→する：00392_suru⟧ (listed on the nameplate)\n- {銘板|めいばん}⟦を→を：00422_wo⟧⟦{取|と}り{付|つ}ける→取り付ける：06797_toritsukeru⟧ (to attach a nameplate)\n\nRELATED WORDS:\n- ⟦{表札|ひょうさつ}→表札：04886_hyousatsu⟧: house nameplate (at a residence)\n- ⟦{名札|なふだ}→名札：12338_nafuda⟧: name tag (worn by a person)",
   "cross_references": [
     {
       "type": "related",
@@ -57,15 +63,21 @@
   ],
   "metadata": {
     "created": "2026-03-19T08:34:45Z",
-    "modified": "2026-05-07T10:07:56Z",
+    "modified": "2026-09-02T04:01:50Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["tool"],
-      "domain": ["technical"]
+      "semantic": [
+        "tool"
+      ],
+      "domain": [
+        "technical"
+      ]
     }
   }
 }

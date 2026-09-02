@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "19289_houden_ex1",
-      "japanese": "バッテリーが{放電|ほうでん}した。",
+      "japanese": "⟦バッテリー→バッテリー：04425_batterii⟧⟦が→が：00051_ga⟧{放電|ほうでん}⟦した→する：00392_suru⟧。",
       "english": "The battery discharged.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "19289_houden_ex2",
-      "japanese": "{静電気|せいでんき}の{放電|ほうでん}でパチッと{音|おと}がした。",
+      "japanese": "⟦{静電気|せいでんき}→静電気：18522_seidenki⟧⟦の→の：09472_no⟧{放電|ほうでん}⟦で→で：00502_de⟧パチッ⟦と→と：00512_to⟧⟦{音|おと}→音：00743_oto⟧がした。",
       "english": "There was a crackling sound from the static electricity discharge.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "19289_houden_ex3",
-      "japanese": "{長期間|ちょうきかん}{使|つか}わないと、バッテリーが{自然|しぜん}{放電|ほうでん}してしまうことがある。",
+      "japanese": "⟦{長期間|ちょうきかん}→長期間：25696_choukikan⟧⟦{使|つか}わない→使う：00473_tsukau⟧⟦と→と：00512_to⟧、⟦バッテリー→バッテリー：04425_batterii⟧⟦が→が：00051_ga⟧⟦{自然|しぜん}→自然：01423_shizen⟧{放電|ほうでん}⟦して→する：00392_suru⟧しまうこと⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "If left unused for a long time, the battery may naturally discharge on its own.",
       "sense_numbers": [
         1
@@ -134,7 +134,7 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {放|ほう} (release) + {電|でん} (electricity). The opposite of {充電|じゅうでん} (charging).\n\nCOMMON COLLOCATIONS:\n- {放電|ほうでん}する — to discharge (する verb)\n- {自然|しぜん}{放電|ほうでん} — natural discharge, self-discharge\n- {放電|ほうでん}{現象|げんしょう} — discharge phenomenon\n- {過|か}{放電|ほうでん} — over-discharge (damaging a battery by draining it too far)\n\nRELATED TERMS:\n- {充電|じゅうでん} — charging (opposite)\n- {蓄電|ちくでん} — storing electricity\n- {感電|かんでん} — electric shock (receiving a discharge)",
+  "notes": "Compound of {放|ほう} (release) + {電|でん} (electricity). The opposite of ⟦{充電|じゅうでん}→充電：04427_juuden⟧ (charging).\n\nCOMMON COLLOCATIONS:\n- {放電|ほうでん}⟦する→する：00392_suru⟧ — to discharge (⟦する→する：00392_suru⟧ verb)\n- ⟦{自然|しぜん}→自然：01423_shizen⟧{放電|ほうでん} — natural discharge, self-discharge\n- {放電|ほうでん}⟦{現象|げんしょう}→現象：02718_genshou⟧ — discharge phenomenon\n- {過|か}{放電|ほうでん} — over-discharge (damaging a battery by draining it too far)\n\nRELATED WORDS:\n- ⟦{充電|じゅうでん}→充電：04427_juuden⟧ — charging (opposite)\n- ⟦{蓄電|ちくでん}→蓄電：06599_chikuden⟧ — storing electricity\n- ⟦{感電|かんでん}→感電：15792_kanden⟧ — electric shock (receiving a discharge)",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -151,7 +151,7 @@
       "verb_class": "suru"
     },
     "created": "2026-03-25T04:46:07Z",
-    "modified": "2026-07-29T15:19:07Z"
+    "modified": "2026-09-02T04:01:55Z"
   },
   "cross_references": [
     {
@@ -160,6 +160,27 @@
       "headword": "{充電|じゅうでん}",
       "label": "charging (a battery)",
       "target_id": "04427_juuden"
+    },
+    {
+      "type": "related",
+      "target_id": "06599_chikuden",
+      "reading": "ちくでん",
+      "headword": "{蓄電|ちくでん}",
+      "label": "storing electricity"
+    },
+    {
+      "type": "related",
+      "target_id": "15792_kanden",
+      "reading": "かんでん",
+      "headword": "{感電|かんでん}",
+      "label": "electric shock"
+    },
+    {
+      "type": "related",
+      "target_id": "21702_taiden",
+      "reading": "たいでん",
+      "headword": "{帯電|たいでん}",
+      "label": "electrification"
     }
   ]
 }

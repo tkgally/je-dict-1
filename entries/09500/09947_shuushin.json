@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "09947_shuushin_ex1",
-      "japanese": "{就寝|しゅうしん}{時間|じかん}は10{時|じ}です。",
+      "japanese": "{就寝|しゅうしん}⟦{時間|じかん}→時間：00468_jikan⟧⟦は→は：00079_ha⟧10⟦{時|じ}→時：09869_ji⟧です。",
       "english": "Bedtime is 10 o'clock.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "09947_shuushin_ex2",
-      "japanese": "{就寝|しゅうしん}{前|まえ}にスマホを{見|み}ない。",
+      "japanese": "{就寝|しゅうしん}⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧⟦スマホ→スマホ：04721_sumaho⟧⟦を→を：00422_wo⟧⟦{見|み}ない→見る：00283_miru⟧。",
       "english": "I don't look at my smartphone before bed.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "09947_shuushin_ex3",
-      "japanese": "{学校|がっこう}の{規則|きそく}では{起床|きしょう}は6{時|じ}、{就寝|しゅうしん}は10{時|じ}だ。",
+      "japanese": "⟦{学校|がっこう}→学校：00055_gakkou⟧⟦の→の：09472_no⟧⟦{規則|きそく}→規則：01382_kisoku⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{起床|きしょう}→起床：00237_kishou⟧⟦は→は：00079_ha⟧6⟦{時|じ}→時：09869_ji⟧、{就寝|しゅうしん}⟦は→は：00079_ha⟧10⟦{時|じ}→時：09869_ji⟧だ。",
       "english": "According to school rules, wake-up time is 6 o'clock and bedtime is 10 o'clock.",
       "notes": null,
       "has_audio": false,
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "{就寝|しゅうしん} is a formal word for going to bed or retiring for the night. It is more commonly seen in written language, schedules, and institutional settings than in casual conversation.\n\nCOMPOSITION:\n{就|しゅう} (to take up, to settle into) + {寝|しん} (sleep).\n\nCOMMON COMPOUNDS:\n- {就寝|しゅうしん}{時間|じかん}: bedtime\n- {就寝|しゅうしん}{前|まえ}: before bed\n- {就寝|しゅうしん}{中|ちゅう}: while sleeping\n\nCONTRAST:\n- {就寝|しゅうしん}: going to bed (formal)\n- {寝|ね}る: to sleep, to go to bed (everyday)\n- {起床|きしょう}: waking up, getting up (formal opposite)\n\nREGISTER:\nUsed in schedules ({起床|きしょう}6{時|じ}、{就寝|しゅうしん}10{時|じ}), hotel and dormitory rules, health advice articles, and formal writing. In conversation, {寝|ね}る is the natural choice.",
+  "notes": "{就寝|しゅうしん} is a formal word for going to bed or retiring for the night. It is more commonly seen in written language, schedules, and institutional settings than in casual conversation.\n\nETYMOLOGY:\n{就|しゅう} (to take up, to settle into) + {寝|しん} (sleep).\n\nCOMPOUNDS:\n- {就寝|しゅうしん}⟦{時間|じかん}→時間：00468_jikan⟧: bedtime\n- {就寝|しゅうしん}⟦{前|まえ}→前：02255_mae⟧: before bed\n- {就寝|しゅうしん}⟦{中|ちゅう}→〜中：09840_chuu⟧: while sleeping\n\nSIMILAR WORDS:\n- {就寝|しゅうしん}: going to bed (formal)\n- ⟦{寝|ね}る→寝る：00470_neru⟧: to sleep, to go to bed (everyday)\n- ⟦{起床|きしょう}→起床：00237_kishou⟧: waking up, getting up (formal opposite)\n\nREGISTER:\nUsed in schedules (⟦{起床|きしょう}→起床：00237_kishou⟧6⟦{時|じ}→時：09869_ji⟧、{就寝|しゅうしん}10⟦{時|じ}→時：09869_ji⟧), hotel and dormitory rules, health advice articles, and formal writing. In conversation, ⟦{寝|ね}る→寝る：00470_neru⟧ is the natural choice.",
   "cross_references": [
     {
       "type": "antonym",
@@ -141,11 +141,25 @@
       "reading": "きしょう",
       "headword": "{起床|きしょう}",
       "label": "waking up"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00470_neru",
+      "reading": "ねる",
+      "headword": "{寝|ね}る",
+      "label": "to sleep, to go to bed"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20594_nyuumin",
+      "reading": "にゅうみん",
+      "headword": "{入眠|にゅうみん}",
+      "label": "falling asleep"
     }
   ],
   "metadata": {
     "created": "2026-02-04T10:52:33Z",
-    "modified": "2026-08-14T01:00:44Z",
+    "modified": "2026-09-02T04:01:19Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

@@ -15,41 +15,73 @@
   "examples": [
     {
       "id": "18867_furidashinimodoru_ex1",
-      "japanese": "{計画|けいかく}が{振|ふ}り{出|だ}しに{戻|もど}った。",
+      "japanese": "⟦{計画|けいかく}→計画：01172_keikaku⟧⟦が→が：00051_ga⟧{振|ふ}り{出|だ}しに{戻|もど}った。",
       "english": "The plan went back to square one.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18867_furidashinimodoru_ex2",
-      "japanese": "ミスが{見|み}つかって、{振|ふ}り{出|だ}しに{戻|もど}ることになった。",
+      "japanese": "⟦ミス→ミス：00285_misu⟧⟦が→が：00051_ga⟧⟦{見|み}つかって→見つかる：01173_mitsukaru⟧、{振|ふ}り{出|だ}しに{戻|もど}ることになった。",
       "english": "A mistake was found, and we had to go back to the beginning.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18867_furidashinimodoru_ex3",
-      "japanese": "せっかく{半年|はんとし}かけて{準備|じゅんび}したのに、{予算|よさん}の{問題|もんだい}で{全|すべ}てが{振|ふ}り{出|だ}しに{戻|もど}ってしまった。",
+      "japanese": "せっかく⟦{半年|はんとし}→半年：03139_hantoshi⟧⟦かけて→かける：00854_kakeru⟧⟦{準備|じゅんび}した→準備する：22427_junbisuru⟧⟦の→の：09472_no⟧⟦に→に：00314_ni⟧、⟦{予算|よさん}→予算：03663_yosan⟧⟦の→の：09472_no⟧⟦{問題|もんだい}→問題：00797_mondai⟧⟦で→で：00502_de⟧⟦{全|すべ}て→全て：03822_subete⟧⟦が→が：00051_ga⟧{振|ふ}り{出|だ}しに{戻|もど}ってしまった。",
       "english": "Even though we spent half a year preparing, a budget issue sent everything back to square one.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "ETYMOLOGY:\nFrom the start square ({振|ふ}り{出|だ}し) in traditional Japanese board games like sugoroku, where landing on certain squares sends you back to the beginning.\n\nUSAGE:\nUsed when progress is completely lost and one must restart from zero. Carries a sense of frustration or disappointment.\n\nCOMMON COLLOCATIONS:\n- {全|すべ}てが{振|ふ}り{出|だ}しに{戻|もど}る (everything goes back to square one)\n- {振|ふ}り{出|だ}しに{戻|もど}ることになる (end up going back to the start)\n- また{振|ふ}り{出|だ}しに{戻|もど}る (go back to square one again)",
-  "cross_references": [],
+  "notes": "ETYMOLOGY:\nFrom the start square (⟦{振|ふ}り{出|だ}し→振り出し：15931_furidashi⟧) in traditional Japanese board games like sugoroku, where landing on certain squares sends you back to the beginning.\n\nUSAGE:\nUsed when progress is completely lost and one must restart from zero. Carries a sense of frustration or disappointment.\n\nCOMMON COLLOCATIONS:\n- ⟦{全|すべ}て→全て：03822_subete⟧⟦が→が：00051_ga⟧{振|ふ}り{出|だ}しに{戻|もど}る (everything goes back to square one)\n- {振|ふ}り{出|だ}しに{戻|もど}ること⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧ (end up going back to the start)\n- ⟦また→また：00969_mata⟧{振|ふ}り{出|だ}しに{戻|もど}る (go back to square one again)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "19276_furidasu",
+      "reading": "ふりだす",
+      "headword": "{振|ふ}り{出|だ}す",
+      "label": "to issue (a check)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19685_hakushinimodosu",
+      "reading": "はくしにもどす",
+      "headword": "{白紙|はくし}に{戻|もど}す",
+      "label": "to go back to square one"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21793_hakushinimodoru",
+      "reading": "はくしにもどる",
+      "headword": "{白紙|はくし}に{戻|もど}る",
+      "label": "to go back to square one"
+    }
+  ],
   "metadata": {
     "created": "2026-03-23T06:15:16Z",
-    "modified": "2026-03-23T06:15:16Z",
+    "modified": "2026-09-02T04:01:53Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["expression"],
+      "pos": [
+        "expression"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["expression"]
+      "semantic": [
+        "expression"
+      ]
     }
   }
 }

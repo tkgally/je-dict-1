@@ -24,7 +24,7 @@
     },
     {
       "id": "04551_touitsu_ex2",
-      "japanese": "⟦{ドイツ|どいつ}→ドイツ：noentry⟧{統一|とういつ}⟦は→は：00079_ha⟧{1990|せんきゅうひゃくきゅうじゅう}⟦{年|ねん}→年：09876_nen⟧⟦だった→だ：09496_da⟧。",
+      "japanese": "⟦ドイツ→ドイツ：noentry⟧{統一|とういつ}⟦は→は：00079_ha⟧{1990|せんきゅうひゃくきゅうじゅう}⟦{年|ねん}→年：09876_nen⟧⟦だった→だ：09496_da⟧。",
       "english": "German unification was in 1990.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "04551_touitsu_ex3",
-      "japanese": "⟦{ルール|るーる}→ルール：00354_ruuru⟧⟦を→を：00422_wo⟧{統一|とういつ}⟦する→する：00392_suru⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
+      "japanese": "⟦ルール→ルール：00354_ruuru⟧⟦を→を：00422_wo⟧{統一|とういつ}⟦する→する：00392_suru⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "We need to standardize the rules.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{統一|とういつ} describes bringing things together into a unified whole.\n\nCOMMON EXPRESSIONS:\n- {統一|とういつ}する: to unify, to standardize\n- {統一|とういつ}⟦{感|かん}→感：noentry⟧: sense of unity\n- {統一|とういつ}⟦{見解|けんかい}→見解：02743_kenkai⟧: unified view\n- ⟦{国家|こっか}→国家：02760_kokka⟧{統一|とういつ}: national unification\n- ⟦{規格|きかく}→規格：16939_kikaku⟧の{統一|とういつ}: standardization\n\nRELATED WORDS:\n- ⟦{統合|とうごう}→統合：09615_tougou⟧: integration\n- ⟦{一致|いっち}→一致：01733_icchi⟧: agreement, unity\n- ⟦{調和|ちょうわ}→調和：05216_chouwa⟧: harmony",
+  "notes": "{統一|とういつ} describes bringing things together into a unified whole.\n\nCOMMON EXPRESSIONS:\n- {統一|とういつ}⟦する→する：00392_suru⟧: to unify, to standardize\n- {統一|とういつ}⟦{感|かん}→感：noentry⟧: sense of unity\n- {統一|とういつ}⟦{見解|けんかい}→見解：02743_kenkai⟧: unified view\n- ⟦{国家|こっか}→国家：02760_kokka⟧{統一|とういつ}: national unification\n- ⟦{規格|きかく}→規格：16939_kikaku⟧⟦の→の：09472_no⟧{統一|とういつ}: standardization\n\nRELATED WORDS:\n- ⟦{統合|とうごう}→統合：09615_tougou⟧: integration\n- ⟦{一致|いっち}→一致：01733_icchi⟧: agreement, unity\n- ⟦{調和|ちょうわ}→調和：05216_chouwa⟧: harmony",
   "cross_references": [
     {
       "type": "related",
@@ -58,11 +58,39 @@
       "reading": "いっち",
       "headword": "{一致|いっち}",
       "label": "agreement, unity"
+    },
+    {
+      "type": "related",
+      "target_id": "05216_chouwa",
+      "reading": "ちょうわ",
+      "headword": "{調和|ちょうわ}",
+      "label": "harmony"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20534_hyoujunka",
+      "reading": "ひょうじゅんか",
+      "headword": "{標準化|ひょうじゅんか}",
+      "label": "standardization"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22353_kakuitsuka",
+      "reading": "かくいつか",
+      "headword": "{画一化|かくいつか}",
+      "label": "standardization"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23401_kakuitsukasuru",
+      "reading": "かくいつかする",
+      "headword": "{画一化|かくいつか}する",
+      "label": "to standardize"
     }
   ],
   "metadata": {
     "created": "2026-01-14T00:33:36Z",
-    "modified": "2026-06-10T17:34:32Z",
+    "modified": "2026-09-02T04:01:05Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

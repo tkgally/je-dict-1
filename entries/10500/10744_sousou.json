@@ -15,41 +15,83 @@
   "examples": [
     {
       "id": "10744_sousou_ex1",
-      "japanese": "そうそう、それだよ。",
+      "japanese": "そうそう、⟦それ→それ：00994_sore⟧だ⟦よ→よ：09475_yo⟧。",
       "english": "Yeah yeah, that's it.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10744_sousou_ex2",
-      "japanese": "「{昨日|きのう}のニュース{見|み}た？」「そうそう、{驚|おどろ}いたよね。」",
+      "japanese": "「⟦{昨日|きのう}→昨日：00859_kinou⟧⟦の→の：09472_no⟧⟦ニュース→ニュース：04437_nyuusu⟧⟦{見|み}た→見る：00283_miru⟧？」「そうそう、⟦{驚|おどろ}いた→驚く：01255_odoroku⟧⟦よ→よ：09475_yo⟧⟦ね→ね：09474_ne⟧。」",
       "english": "\"Did you see yesterday's news?\" \"Yeah, I was surprised.\"",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10744_sousou_ex3",
-      "japanese": "そうそう、{言|い}い{忘|わす}れてたけど、{来週|らいしゅう}の{予定|よてい}が{変|か}わったよ。",
+      "japanese": "そうそう、⟦{言|い}い→言う：00515_iu⟧⟦{忘|わす}れ→忘れる：00474_wasureru⟧てた⟦けど→けど：09477_kedo⟧、⟦{来週|らいしゅう}→来週：00746_raishuu⟧⟦の→の：09472_no⟧⟦{予定|よてい}→予定：00824_yotei⟧⟦が→が：00051_ga⟧⟦{変|か}わった→変わる：00714_kawaru⟧⟦よ→よ：09475_yo⟧。",
       "english": "Oh right, I forgot to mention — next week's plans have changed.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "そうそう is a casual conversational interjection with two main functions.\n\nFUNCTION 1 — AGREEMENT:\nEnthusiastically confirms what someone just said, stronger than a single そう. Often used while nodding along in conversation.\n- Example: 「あの{店|みせ}おいしいよね」「そうそう！」\n\nFUNCTION 2 — RECOLLECTION:\nIntroduces something the speaker just remembered, similar to \"oh right\" or \"that reminds me.\"\n- Example: そうそう、{言|い}い{忘|わす}れてたけど… (Oh right, I forgot to mention…)\n\nSIMILAR EXPRESSIONS:\n- そうだね: agreement (neutral)\n- そうですね: agreement (polite)\n- そういえば: speaking of which, come to think of it\n- あ、そうだ: oh, that's right (sudden recollection)\n\nREGISTER:\nCasual/informal. The repetition of そう adds emphasis and friendliness. In polite or formal conversation, そうですね is preferred. Very common in spoken Japanese but rarely appears in formal writing.",
+  "notes": "そうそう is a casual conversational interjection with two main functions.\n\nFUNCTION 1 — AGREEMENT:\nEnthusiastically confirms what someone just said, stronger than a single そう. Often used while nodding along in conversation.\n- Example: 「⟦あの→あの：00915_ano⟧⟦{店|みせ}→店：00497_mise⟧おいしい⟦よ→よ：09475_yo⟧⟦ね→ね：09474_ne⟧」「そうそう！」\n\nFUNCTION 2 — RECOLLECTION:\nIntroduces something the speaker just remembered, similar to \"oh right\" or \"that reminds me.\"\n- Example: そうそう、⟦{言|い}い→言う：00515_iu⟧⟦{忘|わす}れ→忘れる：00474_wasureru⟧てた⟦けど→けど：09477_kedo⟧… (Oh right, I forgot to mention…)\n\nSIMILAR WORDS:\n- そうだ⟦ね→ね：09474_ne⟧: agreement (neutral)\n- そうです⟦ね→ね：09474_ne⟧: agreement (polite)\n- ⟦そういえば→そういえば：27571_souieba⟧: speaking of which, come to think of it\n- あ、そうだ: oh, that's right (sudden recollection)\n\nREGISTER:\nCasual/informal. The repetition of そう adds emphasis and friendliness. In polite or formal conversation, そうです⟦ね→ね：09474_ne⟧ is preferred. Very common in spoken Japanese but rarely appears in formal writing.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17638_soudane",
+      "reading": "そうだね",
+      "headword": "そうだね",
+      "label": "agreement"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30293_soudesune",
+      "reading": "そうですね",
+      "headword": "そうですね",
+      "label": "agreement"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27571_souieba",
+      "reading": "そういえば",
+      "headword": "そういえば",
+      "label": "speaking of which, come to think of it"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10076_souda",
+      "reading": "そうだ",
+      "headword": "そうだ",
+      "label": "oh, that's right"
+    }
+  ],
   "metadata": {
     "created": "2026-02-09T16:01:15Z",
-    "modified": "2026-04-05T09:02:55Z",
+    "modified": "2026-09-02T04:01:22Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["interjection"],
+      "pos": [
+        "interjection"
+      ],
       "formality": "informal",
       "politeness": "plain",
-      "style": ["spoken"],
-      "semantic": ["expression"]
+      "style": [
+        "spoken"
+      ],
+      "semantic": [
+        "expression"
+      ]
     }
   }
 }

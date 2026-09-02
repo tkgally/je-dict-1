@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "10155_nise_ex1",
-      "japanese": "これは{偽|にせ}のブランド{品|ひん}だ。",
+      "japanese": "⟦これ→これ：00963_kore⟧⟦は→は：00079_ha⟧{偽|にせ}⟦の→の：09472_no⟧⟦ブランド→ブランド：05221_burando⟧⟦{品|ひん}→品：03712_hin⟧だ。",
       "english": "This is a counterfeit brand-name product.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "10155_nise_ex2",
-      "japanese": "{偽|にせ}{札|さつ}が{見|み}つかった。",
+      "japanese": "⟦{偽|にせ}{札|さつ}→偽札：16634_nisesatsu⟧⟦が→が：00051_ga⟧⟦{見|み}つかった→見つかる：01173_mitsukaru⟧。",
       "english": "Counterfeit bills were found.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "10155_nise_ex3",
-      "japanese": "{本物|ほんもの}か{偽|にせ}かを{見分|みわ}けるのは{難|むずか}しい。",
+      "japanese": "⟦{本物|ほんもの}→本物：03628_honmono⟧⟦か→か：09473_ka⟧{偽|にせ}⟦か→か：09473_ka⟧⟦を→を：00422_wo⟧⟦{見分|みわ}ける→見分ける：06348_miwakeru⟧⟦の→の：09472_no⟧⟦は→は：00079_ha⟧⟦{難|むずか}しい→難しい：00517_muzukashii⟧。",
       "english": "It's difficult to tell the real from the fake.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{偽|にせ} means \"fake\" or \"counterfeit\" and functions both as a standalone noun and as a prefix that attaches to other nouns to indicate something is not genuine.\n\nCOMMON COMPOUNDS:\n- {偽|にせ}もの: fake item, counterfeit\n- {偽|にせ}{札|さつ}: counterfeit money/bills\n- {偽|にせ}{名|な}: false name, alias\n- {偽|にせ}{医者|いしゃ}: fake doctor, quack\n- {偽|にせ}{情報|じょうほう}: false information\n\nSIMILAR WORDS:\n- {偽物|にせもの}: counterfeit, imitation (the noun form)\n- {贋作|がんさく}: forgery (specifically of art or antiques)\n- フェイク: fake (loanword, common in fashion and media)\n- {模造品|もぞうひん}: imitation product (neutral; focuses on the copying)\n\nCONTRAST:\n{本物|ほんもの} (the real thing, genuine article) is the opposite of {偽物|にせもの}. The pattern {本物|ほんもの}か{偽物|にせもの}か (real or fake?) is very common.",
+  "notes": "{偽|にせ} means \"fake\" or \"counterfeit\" and functions both as a standalone noun and as a prefix that attaches to other nouns to indicate something is not genuine.\n\nCOMPOUNDS:\n- {偽|にせ}もの: fake item, counterfeit\n- ⟦{偽|にせ}{札|さつ}→偽札：16634_nisesatsu⟧: counterfeit money/bills\n- {偽|にせ}{名|な}: false name, alias\n- {偽|にせ}⟦{医者|いしゃ}→医者：02847_isha⟧: fake doctor, quack\n- {偽|にせ}⟦{情報|じょうほう}→情報：03348_jouhou⟧: false information\n\nSIMILAR WORDS:\n- ⟦{偽物|にせもの}→偽物：11521_nisemono⟧: counterfeit, imitation (the noun form)\n- {贋作|がんさく}: forgery (specifically of art or antiques)\n- ⟦フェイク→フェイク：11282_feiku⟧: fake (loanword, common in fashion and media)\n- {模造品|もぞうひん}: imitation product (neutral; focuses on the copying)\n⟦{本物|ほんもの}→本物：03628_honmono⟧ (the real thing, genuine article) is the opposite of ⟦{偽物|にせもの}→偽物：11521_nisemono⟧. The pattern ⟦{本物|ほんもの}→本物：03628_honmono⟧⟦か→か：09473_ka⟧⟦{偽物|にせもの}→偽物：11521_nisemono⟧⟦か→か：09473_ka⟧ (real or fake?) is very common.",
   "cross_references": [
     {
       "type": "related",
@@ -58,11 +58,18 @@
       "reading": "ほんもの",
       "headword": "{本物|ほんもの}",
       "label": "genuine"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11282_feiku",
+      "reading": "ふぇいく",
+      "headword": "フェイク",
+      "label": "fake"
     }
   ],
   "metadata": {
     "created": "2026-02-05T11:49:02Z",
-    "modified": "2026-03-29T09:23:00Z",
+    "modified": "2026-09-02T04:01:20Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

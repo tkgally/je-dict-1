@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30599_ishiatama_ex1",
-      "japanese": "うちの{父|ちち}は{石頭|いしあたま}だ。",
+      "japanese": "うち⟦の→の：09472_no⟧⟦{父|ちち}→父：00566_chichi⟧⟦は→は：00079_ha⟧{石頭|いしあたま}だ。",
       "english": "My father is a hardhead.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30599_ishiatama_ex2",
-      "japanese": "そんな{石頭|いしあたま}では{話|はなし}が{進|すす}まない。",
+      "japanese": "⟦そんな→そんな：01645_sonna⟧{石頭|いしあたま}⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{話|はなし}→話：01496_hanashi⟧⟦が→が：00051_ga⟧⟦{進|すす}まない→進む：01225_susumu⟧。",
       "english": "We'll get nowhere with someone that stubborn.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30599_ishiatama_ex3",
-      "japanese": "{規則|きそく}どおりでないと{許|ゆる}さない{石頭|いしあたま}の{担当者|たんとうしゃ}に{当|あ}たってしまった。",
+      "japanese": "⟦{規則|きそく}→規則：01382_kisoku⟧⟦どおり→どおり：09884_doori⟧⟦でないと→でないと：30684_denaito⟧⟦{許|ゆる}さない→許す：02325_yurusu⟧{石頭|いしあたま}⟦の→の：09472_no⟧⟦{担当者|たんとうしゃ}→担当者：09676_tantousha⟧⟦に→に：00314_ni⟧⟦{当|あ}たって→当たる：01860_ataru⟧しまった。",
       "english": "I ended up dealing with an inflexible official who wouldn't allow anything outside the rules.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "USAGE:\nNormally used of another person, in casual speech; calling someone {石頭|いしあたま} to their face is blunt. It can also describe a literally hard skull, but the figurative sense is far more common.\n\nCOMMON COLLOCATIONS:\n- {石頭|いしあたま}の{上司|じょうし}: a rigid boss\n- {石頭|いしあたま}だから{話|はなし}にならない: too stubborn to reason with\n- あの{石頭|いしあたま}め: that blockhead (irritated)\n\nSIMILAR WORDS:\n- {頑固|がんこ}: stubborn — the neutral, everyday word; can be affectionate\n- {石頭|いしあたま}: emphasizes an inability to think flexibly, not just refusal to yield\n- {融通|ゆうずう}が{利|き}かない: unable to make exceptions — describes the behavior rather than the person",
+  "notes": "USAGE:\nNormally used of another person, in casual speech; calling someone {石頭|いしあたま} to their face is blunt. It can also describe a literally hard skull, but the figurative sense is far more common.\n\nCOMMON COLLOCATIONS:\n- {石頭|いしあたま}⟦の→の：09472_no⟧⟦{上司|じょうし}→上司：03286_joushi⟧: a rigid boss\n- {石頭|いしあたま}だ⟦から→から：00504_kara⟧⟦{話|はなし}→話：01496_hanashi⟧⟦に→に：00314_ni⟧⟦ならない→なる：01970_naru⟧: too stubborn to reason with\n- ⟦あの→あの：00915_ano⟧{石頭|いしあたま}め: that blockhead (irritated)\n\nSIMILAR WORDS:\n- ⟦{頑固|がんこ}→頑固：06643_ganko⟧: stubborn — the neutral, everyday word; can be affectionate\n- {石頭|いしあたま}: emphasizes an inability to think flexibly, not just refusal to yield\n- ⟦{融通|ゆうずう}→融通：10914_yuuzuu⟧⟦が→が：00051_ga⟧⟦{利|き}かない→利く：11845_kiku⟧: unable to make exceptions — describes the behavior rather than the person",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06643_ganko",
+      "reading": "がんこ",
+      "headword": "{頑固|がんこ}",
+      "label": "stubborn"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06893_atamagakatai",
+      "reading": "あたまがかたい",
+      "headword": "{頭|あたま}が{固|かた}い",
+      "label": "stubborn, inflexible, rigid in thinking"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +69,7 @@
         "noun"
       ],
       "formality": "informal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "personality",
         "person"
@@ -63,6 +79,6 @@
       ]
     },
     "created": "2026-08-13T00:22:39Z",
-    "modified": "2026-08-13T00:22:39Z"
+    "modified": "2026-09-02T04:02:40Z"
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "18551_ranzatsu_ex1",
-      "japanese": "{部屋|へや}が{乱雑|らんざつ}だ。",
+      "japanese": "⟦{部屋|へや}→部屋：00507_heya⟧⟦が→が：00051_ga⟧{乱雑|らんざつ}だ。",
       "english": "The room is messy.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "18551_ranzatsu_ex2",
-      "japanese": "{机|つくえ}の{上|うえ}に{書類|しょるい}が{乱雑|らんざつ}に{置|お}かれている。",
+      "japanese": "⟦{机|つくえ}→机：00762_tsukue⟧⟦の→の：09472_no⟧⟦{上|うえ}→上：00682_ue⟧⟦に→に：00314_ni⟧⟦{書類|しょるい}→書類：01103_shorui⟧⟦が→が：00051_ga⟧{乱雑|らんざつ}⟦に→に：00314_ni⟧⟦{置|お}かれている→置く：01092_oku⟧。",
       "english": "Papers are scattered messily on the desk.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "18551_ranzatsu_ex3",
-      "japanese": "{引|ひ}っ{越|こ}しの{準備|じゅんび}で{家|いえ}の{中|なか}が{乱雑|らんざつ}になっている。",
+      "japanese": "{引|ひ}っ{越|こ}し⟦の→の：09472_no⟧⟦{準備|じゅんび}→準備：01431_junbi⟧⟦で→で：00502_de⟧⟦{家|いえ}→家：00612_ie⟧⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧⟦が→が：00051_ga⟧{乱雑|らんざつ}になっている。",
       "english": "The house is in disarray because of moving preparations.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,33 @@
       ]
     }
   ],
-  "notes": "USAGE:\nUsed as a na-adjective ({乱雑|らんざつ}な) to modify nouns, or with に to describe how things are arranged. Describes physical untidiness rather than abstract disorder.\n\nCOMMON COLLOCATIONS:\n- {乱雑|らんざつ}な{部屋|へや} (a messy room)\n- {乱雑|らんざつ}に{積|つ}み{上|あ}げる (to pile up messily)\n- {乱雑|らんざつ}に{並|なら}ぶ (to be arranged in disorder)\n\nSIMILAR WORDS:\n- {雑然|ざつぜん}: cluttered — similar meaning, often used with と ({雑然|ざつぜん}としている)\n- {散|ち}らかる: to be scattered about — a verb describing the same state of messiness",
-  "cross_references": [],
+  "notes": "USAGE:\nUsed as a na-adjective ({乱雑|らんざつ}な) to modify nouns, or with ⟦に→に：00314_ni⟧ to describe how things are arranged. Describes physical untidiness rather than abstract disorder.\n\nCOMMON COLLOCATIONS:\n- {乱雑|らんざつ}な⟦{部屋|へや}→部屋：00507_heya⟧ (a messy room)\n- {乱雑|らんざつ}⟦に→に：00314_ni⟧⟦{積|つ}み{上|あ}げる→積み上げる：07920_tsumiageru⟧ (to pile up messily)\n- {乱雑|らんざつ}⟦に→に：00314_ni⟧⟦{並|なら}ぶ→並ぶ：00605_narabu⟧ (to be arranged in disorder)\n\nSIMILAR WORDS:\n- ⟦{雑然|ざつぜん}→雑然：09236_zatsuzen⟧: cluttered — similar meaning, often used with ⟦と→と：00512_to⟧ (⟦{雑然|ざつぜん}→雑然：09236_zatsuzen⟧⟦として→として：06802_toshite⟧⟦いる→いる：00495_iru⟧)\n- ⟦{散|ち}らかる→散らかる：04357_chirakaru⟧: to be scattered about — a verb describing the same state of messiness",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09236_zatsuzen",
+      "reading": "ざつぜん",
+      "headword": "{雑然|ざつぜん}",
+      "label": "cluttered"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04357_chirakaru",
+      "reading": "ちらかる",
+      "headword": "{散|ち}らかる",
+      "label": "to be scattered about"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21487_sanran",
+      "reading": "さんらん",
+      "headword": "{散乱|さんらん}",
+      "label": "scattering"
+    }
+  ],
   "metadata": {
     "created": "2026-03-22T08:53:04Z",
-    "modified": "2026-03-22T08:53:04Z",
+    "modified": "2026-09-02T04:01:52Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

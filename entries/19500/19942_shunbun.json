@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "19942_shunbun_ex1",
-      "japanese": "{春分|しゅんぶん}の{日|ひ}は{祝日|しゅくじつ}だ。",
+      "japanese": "{春分|しゅんぶん}の{日|ひ}⟦は→は：00079_ha⟧⟦{祝日|しゅくじつ}→祝日：07588_shukujitsu⟧だ。",
       "english": "The Vernal Equinox Day is a national holiday.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "19942_shunbun_ex2",
-      "japanese": "{春分|しゅんぶん}を{過|す}ぎると、{昼|ひる}が{長|なが}くなる。",
+      "japanese": "{春分|しゅんぶん}⟦を→を：00422_wo⟧⟦{過|す}ぎる→過ぎる：01219_sugiru⟧⟦と→と：00512_to⟧、⟦{昼|ひる}→昼：00540_hiru⟧⟦が→が：00051_ga⟧⟦{長|なが}く→長い：00491_nagai⟧⟦なる→なる：01970_naru⟧。",
       "english": "After the spring equinox, the days get longer.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "19942_shunbun_ex3",
-      "japanese": "{春分|しゅんぶん}の{日|ひ}には、{家族|かぞく}でお{墓参|はかまい}りに{行|い}く{習慣|しゅうかん}がある。",
+      "japanese": "{春分|しゅんぶん}の{日|ひ}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧、⟦{家族|かぞく}→家族：00552_kazoku⟧⟦で→で：00502_de⟧⟦お{墓参|はかまい}り→お墓参り：15303_ohakamairi⟧⟦に→に：00314_ni⟧⟦{行|い}く→行く：00119_iku⟧⟦{習慣|しゅうかん}→習慣：01429_shuukan⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There is a custom of visiting family graves on the Vernal Equinox Day.",
       "sense_numbers": [
         1
@@ -44,8 +44,30 @@
       "notes": null
     }
   ],
-  "notes": "{春分|しゅんぶん}の{日|ひ} (Vernal Equinox Day) is a Japanese national holiday, typically on March 20 or 21. It falls during {春|はる}の{彼岸|ひがん} (spring equinox week), a Buddhist period for visiting family graves and honoring ancestors. Traditional foods include ぼた{餅|もち} (rice cakes coated in sweet bean paste).\n\nCOMMON COLLOCATIONS:\n- {春分|しゅんぶん}の{日|ひ}: Vernal Equinox Day (national holiday)\n- {春分|しゅんぶん}{点|てん}: vernal equinox point (astronomy)\n\nRELATED TERMS:\n- {秋分|しゅうぶん}: autumnal equinox\n- {彼岸|ひがん}: equinox period (Buddhist observance)\n- {夏至|げし}: summer solstice\n- {冬至|とうじ}: winter solstice",
-  "cross_references": [],
+  "notes": "{春分|しゅんぶん}の{日|ひ} (Vernal Equinox Day) is a Japanese national holiday, typically on March 20 or 21. It falls during ⟦{春|はる}→春：00627_haru⟧⟦の→の：09472_no⟧⟦{彼岸|ひがん}→彼岸：12612_higan⟧ (spring equinox week), a Buddhist period for visiting family graves and honoring ancestors. Traditional foods include ぼた{餅|もち} (rice cakes coated in sweet bean paste).\n\nCOMMON COLLOCATIONS:\n- {春分|しゅんぶん}の{日|ひ}: Vernal Equinox Day (national holiday)\n- {春分|しゅんぶん}{点|てん}: vernal equinox point (astronomy)\n\nRELATED WORDS:\n- ⟦{秋分|しゅうぶん}→秋分：19657_shuubun⟧: autumnal equinox\n- ⟦{彼岸|ひがん}→彼岸：12612_higan⟧: equinox period (Buddhist observance)\n- ⟦{夏至|げし}→夏至：19819_geshi⟧: summer solstice\n- ⟦{冬至|とうじ}→冬至：11756_touji⟧: winter solstice",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "12612_higan",
+      "reading": "ひがん",
+      "headword": "{彼岸|ひがん}",
+      "label": "equinox period"
+    },
+    {
+      "type": "related",
+      "target_id": "19819_geshi",
+      "reading": "げし",
+      "headword": "{夏至|げし}",
+      "label": "summer solstice"
+    },
+    {
+      "type": "related",
+      "target_id": "11756_touji",
+      "reading": "とうじ",
+      "headword": "{冬至|とうじ}",
+      "label": "winter solstice"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -61,7 +83,7 @@
       ]
     },
     "created": "2026-03-27T06:09:33Z",
-    "modified": "2026-07-27T12:42:09Z"
+    "modified": "2026-09-02T04:01:57Z"
   },
   "prominent_see_also": [
     {

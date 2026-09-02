@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "30765_kyouyu_ex1",
-      "japanese": "{父|ちち}は{中学校|ちゅうがっこう}の{教諭|きょうゆ}だ。",
+      "japanese": "⟦{父|ちち}→父：00566_chichi⟧⟦は→は：00079_ha⟧⟦{中学校|ちゅうがっこう}→中学校：01465_chuugakkou⟧⟦の→の：09472_no⟧{教諭|きょうゆ}だ。",
       "english": "My father is a junior high school teacher.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "30765_kyouyu_ex2",
-      "japanese": "{来年|らいねん}から{小学校|しょうがっこう}{教諭|きょうゆ}として{働|はたら}く。",
+      "japanese": "⟦{来年|らいねん}→来年：00745_rainen⟧⟦から→から：00504_kara⟧⟦{小学校|しょうがっこう}→小学校：01055_shougakkou⟧{教諭|きょうゆ}⟦として→として：06802_toshite⟧⟦{働|はたら}く→働く：00503_hataraku⟧。",
       "english": "From next year I'll be working as an elementary school teacher.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "30765_kyouyu_ex3",
-      "japanese": "{市内|しない}の{高校|こうこう}に{勤|つと}める{教諭|きょうゆ}が、{優|すぐ}れた{授業|じゅぎょう}で{表彰|ひょうしょう}された。",
+      "japanese": "⟦{市内|しない}→市内：20934_shinai⟧⟦の→の：09472_no⟧⟦{高校|こうこう}→高校：01083_koukou⟧⟦に→に：00314_ni⟧⟦{勤|つと}める→勤める：00902_tsutomeru⟧{教諭|きょうゆ}⟦が→が：00051_ga⟧、⟦{優|すぐ}れた→優れる：02119_sugureru⟧⟦{授業|じゅぎょう}→授業：00781_jugyou⟧⟦で→で：00502_de⟧⟦{表彰|ひょうしょう}→表彰：17400_hyoushou⟧⟦された→する：00392_suru⟧。",
       "english": "A teacher working at a high school in the city was honoured for the quality of his lessons.",
       "sense_numbers": [
         1
@@ -43,8 +43,31 @@
       "notes": null
     }
   ],
-  "notes": "COMMON COLLOCATIONS:\n- {小学校|しょうがっこう}{教諭|きょうゆ}: elementary school teacher\n- {養護|ようご}{教諭|きょうゆ}: school nurse-teacher\n- {教諭|きょうゆ}{免許|めんきょ}: teaching licence\n- {教諭|きょうゆ}になる: to become a licensed teacher\n\nSIMILAR WORDS:\n- {先生|せんせい}: teacher — how you actually address or refer to one; never a job title on paper\n- {教師|きょうし}: teacher — the general occupational word, usable of any school and of private tutors\n- {講師|こうし}: lecturer, part-time instructor — a different employment category from {教諭|きょうゆ}\n\nRegister note: news stories append it directly to a surname, as in {山田|やまだ}{教諭|きょうゆ}, the way English reports say \"Ms Smith, a teacher at…\".",
+  "notes": "COMMON COLLOCATIONS:\n- ⟦{小学校|しょうがっこう}→小学校：01055_shougakkou⟧{教諭|きょうゆ}: elementary school teacher\n- {養護|ようご}{教諭|きょうゆ}: school nurse-teacher\n- {教諭|きょうゆ}⟦{免許|めんきょ}→免許：03808_menkyo⟧: teaching licence\n- {教諭|きょうゆ}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧: to become a licensed teacher\n\nSIMILAR WORDS:\n- ⟦{先生|せんせい}→先生：00609_sensei⟧: teacher — how you actually address or refer to one; never a job title on paper\n- ⟦{教師|きょうし}→教師：03029_kyoushi⟧: teacher — the general occupational word, usable of any school and of private tutors\n- ⟦{講師|こうし}→講師：00451_koushi⟧: lecturer, part-time instructor — a different employment category from {教諭|きょうゆ}\n\nRegister note: news stories append it directly to a surname, as in ⟦{山田|やまだ}→山田：09529_yamada⟧{教諭|きょうゆ}, the way English reports say \"Ms Smith, a teacher at…\".",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00609_sensei",
+      "reading": "せんせい",
+      "headword": "{先生|せんせい}",
+      "label": "teacher"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03029_kyoushi",
+      "reading": "きょうし",
+      "headword": "{教師|きょうし}",
+      "label": "teacher"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00451_koushi",
+      "reading": "こうし",
+      "headword": "{講師|こうし}",
+      "label": "lecturer, part-time instructor"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -52,7 +75,7 @@
         "noun"
       ],
       "formality": "formal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "occupation",
         "education"
@@ -60,6 +83,6 @@
       "domain": []
     },
     "created": "2026-08-28T12:31:33Z",
-    "modified": "2026-08-28T12:31:33Z"
+    "modified": "2026-09-02T04:02:41Z"
   }
 }

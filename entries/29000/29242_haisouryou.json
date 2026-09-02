@@ -15,41 +15,70 @@
   "examples": [
     {
       "id": "29242_haisouryou_ex1",
-      "japanese": "{配送料|はいそうりょう}は{無料|むりょう}です。",
+      "japanese": "{配送料|はいそうりょう}⟦は→は：00079_ha⟧⟦{無料|むりょう}→無料：01662_muryou⟧です。",
       "english": "Delivery is free of charge.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29242_haisouryou_ex2",
-      "japanese": "{合計|ごうけい}{金額|きんがく}に{配送料|はいそうりょう}が{加|くわ}わる。",
+      "japanese": "⟦{合計|ごうけい}→合計：02817_goukei⟧⟦{金額|きんがく}→金額：02665_kingaku⟧⟦に→に：00314_ni⟧{配送料|はいそうりょう}⟦が→が：00051_ga⟧⟦{加|くわ}わる→加わる：01940_kuwawaru⟧。",
       "english": "A delivery fee is added to the total amount.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29242_haisouryou_ex3",
-      "japanese": "{一定|いってい}の{金額|きんがく}{以上|いじょう}{買|か}うと{配送料|はいそうりょう}が{無料|むりょう}になるお{店|みせ}が{多|おお}い。",
+      "japanese": "⟦{一定|いってい}→一定：01735_ittei⟧⟦の→の：09472_no⟧⟦{金額|きんがく}→金額：02665_kingaku⟧⟦{以上|いじょう}→以上：01308_ijou⟧⟦{買|か}う→買う：00489_kau⟧⟦と→と：00512_to⟧{配送料|はいそうりょう}⟦が→が：00051_ga⟧⟦{無料|むりょう}→無料：01662_muryou⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦お{店|みせ}→お店：21164_omise⟧⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "Many shops waive the delivery fee once you buy above a certain amount.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Formed from {配送|はいそう} (delivery, distribution) + {料|りょう} (fee, charge). Standard term on shopping sites for the cost of shipping an order.\n\nCOMMON COLLOCATIONS:\n- {配送料|はいそうりょう}{無料|むりょう}: free delivery\n- {配送料|はいそうりょう}がかかる: a delivery fee applies\n- {配送料|はいそうりょう}を{含|ふく}む: to include the delivery fee\n\nSIMILAR WORDS:\n- {送料|そうりょう}: postage; shipping — the most common everyday word; {配送料|はいそうりょう} sounds slightly more formal or business-like\n- {手数料|てすうりょう}: handling fee — a service charge, not specifically for delivery",
+  "notes": "Formed from ⟦{配送|はいそう}→配送：05464_haisou⟧ (delivery, distribution) + ⟦{料|りょう}→料：28172_ryou⟧ (fee, charge). Standard term on shopping sites for the cost of shipping an order.\n\nCOMMON COLLOCATIONS:\n- {配送料|はいそうりょう}⟦{無料|むりょう}→無料：01662_muryou⟧: free delivery\n- {配送料|はいそうりょう}⟦が→が：00051_ga⟧⟦かかる→かかる：00711_kakaru⟧: a delivery fee applies\n- {配送料|はいそうりょう}⟦を→を：00422_wo⟧⟦{含|ふく}む→含む：01982_fukumu⟧: to include the delivery fee\n\nSIMILAR WORDS:\n- ⟦{送料|そうりょう}→送料：06128_souryou⟧: postage; shipping — the most common everyday word; {配送料|はいそうりょう} sounds slightly more formal or business-like\n- ⟦{手数料|てすうりょう}→手数料：05423_tesuuryou⟧: handling fee — a service charge, not specifically for delivery",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05423_tesuuryou",
+      "reading": "てすうりょう",
+      "headword": "{手数料|てすうりょう}",
+      "label": "handling fee"
+    },
+    {
+      "type": "related",
+      "target_id": "07950_chakubarai",
+      "reading": "ちゃくばらい",
+      "headword": "{着払|ちゃくばら}い",
+      "label": "collect on delivery"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["money", "shopping"],
-      "domain": ["business"]
+      "politeness": "plain",
+      "semantic": [
+        "money",
+        "shopping"
+      ],
+      "domain": [
+        "business"
+      ]
     },
     "created": "2026-06-14T12:18:51Z",
-    "modified": "2026-06-14T12:18:51Z"
+    "modified": "2026-09-02T04:02:36Z"
   }
 }

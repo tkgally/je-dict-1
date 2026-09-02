@@ -2,7 +2,7 @@
   "id": "03734_makka",
   "headword": "{真|ま}っ{赤|か}",
   "reading": "まっか",
-  "part_of_speech": "na-adjective / noun",
+  "part_of_speech": "na-adjective, noun",
   "gloss": "bright red, deep red",
   "definitions": [
     {
@@ -113,7 +113,7 @@
       ]
     }
   ],
-  "notes": "Part of a series of intensified color expressions using {真|ま}っ〜.\n\nSIMILAR INTENSIFIED COLORS:\n・⟦{真|ま}っ{白|しろ}→真っ白：07613_masshiro⟧ (pure white)\n・⟦{真|ま}っ{黒|くろ}→真っ黒：07614_makkuro⟧ (jet black)\n・⟦{真|ま}っ{青|さお}→真っ青：07615_massao⟧ (deep blue; pale - from shock)\n・⟦{真|ま}っ{暗|くら}→真っ暗：07616_makkura⟧ (pitch dark)\n\nCOMMON EXPRESSIONS:\n・{真|ま}っ{赤|か}な⟦{嘘|うそ}→嘘：01796_uso⟧ (outright lie, blatant lie)\n・⟦{顔|かお}→顔：00558_kao⟧⟦が→が：00051_ga⟧{真|ま}っ{赤|か} (face is flushed/blushing)\n・{真|ま}っ{赤|か}⟦に→に：00314_ni⟧⟦{燃|も}える→燃える：02312_moeru⟧ (to burn bright red)",
+  "notes": "Part of a series of intensified color expressions using {真|ま}っ〜.\n\nSIMILAR INTENSIFIED COLORS:\n- ⟦{真|ま}っ{白|しろ}→真っ白：07613_masshiro⟧ (pure white)\n- ⟦{真|ま}っ{黒|くろ}→真っ黒：07614_makkuro⟧ (jet black)\n- ⟦{真|ま}っ{青|さお}→真っ青：07615_massao⟧ (deep blue; pale - from shock)\n- ⟦{真|ま}っ{暗|くら}→真っ暗：07616_makkura⟧ (pitch dark)\n\nCOMMON EXPRESSIONS:\n- {真|ま}っ{赤|か}な⟦{嘘|うそ}→嘘：01796_uso⟧ (outright lie, blatant lie)\n- ⟦{顔|かお}→顔：00558_kao⟧⟦が→が：00051_ga⟧{真|ま}っ{赤|か} (face is flushed/blushing)\n- {真|ま}っ{赤|か}⟦に→に：00314_ni⟧⟦{燃|も}える→燃える：02312_moeru⟧ (to burn bright red)",
   "cross_references": [
     {
       "type": "related",
@@ -121,11 +121,53 @@
       "headword": "{赤|あか}い",
       "label": "red (basic)",
       "target_id": "00585_akai"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07613_masshiro",
+      "reading": "まっしろ",
+      "headword": "{真|ま}っ{白|しろ}",
+      "label": "pure white"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07614_makkuro",
+      "reading": "まっくろ",
+      "headword": "{真|ま}っ{黒|くろ}",
+      "label": "jet black"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07615_massao",
+      "reading": "まっさお",
+      "headword": "{真|ま}っ{青|さお}",
+      "label": "deep blue"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07616_makkura",
+      "reading": "まっくら",
+      "headword": "{真|ま}っ{暗|くら}",
+      "label": "pitch dark"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22034_hiiro",
+      "reading": "ひいろ",
+      "headword": "{緋色|ひいろ}",
+      "label": "scarlet"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23780_beniiro",
+      "reading": "べにいろ",
+      "headword": "{紅色|べにいろ}",
+      "label": "crimson"
     }
   ],
   "metadata": {
     "created": "2026-01-12T12:48:00Z",
-    "modified": "2026-06-12T18:23:45Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

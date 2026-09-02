@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "07493_tonaa_ex1",
-      "japanese": "プリンターのトナーが{切|き}れそうだ。",
+      "japanese": "⟦プリンター→プリンター：04416_purintaa⟧⟦の→の：09472_no⟧トナー⟦が→が：00051_ga⟧⟦{切|き}れ→切れる：01936_kireru⟧そうだ。",
       "english": "The printer is running low on toner.",
       "has_audio": false,
       "sense_numbers": [
@@ -23,7 +23,7 @@
     },
     {
       "id": "07493_tonaa_ex2",
-      "japanese": "トナーを{交換|こうかん}してください。",
+      "japanese": "トナー⟦を→を：00422_wo⟧⟦{交換|こうかん}→交換：02746_koukan⟧⟦して→する：00392_suru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please replace the toner.",
       "has_audio": false,
       "sense_numbers": [
@@ -32,7 +32,7 @@
     },
     {
       "id": "07493_tonaa_ex3",
-      "japanese": "{互換|ごかん}トナーを{使|つか}えば{経費|けいひ}{削減|さくげん}になる。",
+      "japanese": "{互換|ごかん}トナー⟦を→を：00422_wo⟧⟦{使|つか}えば→使う：00473_tsukau⟧⟦{経費|けいひ}→経費：04696_keihi⟧⟦{削減|さくげん}→削減：11789_sakugen⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧。",
       "english": "Using compatible toner can reduce costs.",
       "has_audio": false,
       "sense_numbers": [
@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "notes": "LOANWORD:\nFrom English \"toner\"\n\nUSED IN:\n・レーザープリンター - laser printers\n・コピー{機|き}/{複合機|ふくごうき} - photocopiers/multifunction printers\n\nTONER TYPES:\n・{純正|じゅんせい}トナー - genuine/OEM toner (made by printer manufacturer)\n・{互換|ごかん}トナー - compatible toner (third-party)\n・リサイクルトナー - recycled/remanufactured toner\n\nCOMMON EXPRESSIONS:\n・トナーが{切|き}れる - toner runs out\n・トナーを{交換|こうかん}する - to replace toner\n・トナー{残量|ざんりょう} - toner level/remaining toner\n\nCONTRAST WITH:\n・インク - ink (used in inkjet printers)\n・トナー - toner (used in laser printers)\n\nNote: トナー is powder-based and heat-fused, while インク is liquid-based.",
+  "notes": "LOANWORD:\nFrom English \"toner\"\n\nUSED IN:\n- レーザー⟦プリンター→プリンター：04416_purintaa⟧ - laser printers\n- ⟦コピー{機|き}→コピー機：23548_kopiiki⟧/⟦{複合機|ふくごうき}→複合機：16525_fukugouki⟧ - photocopiers/multifunction printers\n\nTONER TYPES:\n- ⟦{純正|じゅんせい}→純正：21689_junsei⟧トナー - genuine/OEM toner (made by printer manufacturer)\n- {互換|ごかん}トナー - compatible toner (third-party)\n- ⟦リサイクル→リサイクル：04624_risaikuru⟧トナー - recycled/remanufactured toner\n\nCOMMON EXPRESSIONS:\n- トナー⟦が→が：00051_ga⟧⟦{切|き}れる→切れる：01936_kireru⟧ - toner runs out\n- トナー⟦を→を：00422_wo⟧⟦{交換|こうかん}→交換：02746_koukan⟧⟦する→する：00392_suru⟧ - to replace toner\n- トナー⟦{残量|ざんりょう}→残量：18269_zanryou⟧ - toner level/remaining toner\n\nSIMILAR WORDS:\n- ⟦インク→インク：00120_inku⟧ - ink (used in inkjet printers)\n- トナー - toner (used in laser printers)\n\nNote: トナー is powder-based and heat-fused, while ⟦インク→インク：00120_inku⟧ is liquid-based.",
   "cross_references": [
     {
       "type": "related",
@@ -48,11 +48,25 @@
       "headword": "カートリッジ",
       "label": "cartridge",
       "target_id": "08142_kaatorijji"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00120_inku",
+      "reading": "いんく",
+      "headword": "インク",
+      "label": "ink"
+    },
+    {
+      "type": "related",
+      "target_id": "29628_tonaakaatorijji",
+      "reading": "となーかーとりっじ",
+      "headword": "トナーカートリッジ",
+      "label": "toner cartridge"
     }
   ],
   "metadata": {
     "created": "2026-01-20T05:43:45Z",
-    "modified": "2026-08-10T18:29:45Z",
+    "modified": "2026-09-02T04:01:11Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +74,7 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "tool",
         "technology"

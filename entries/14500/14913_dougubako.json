@@ -15,41 +15,66 @@
   "examples": [
     {
       "id": "14913_dougubako_ex1",
-      "japanese": "{道具箱|どうぐばこ}からハンマーを{取|と}り{出|だ}した。",
+      "japanese": "{道具箱|どうぐばこ}⟦から→から：00504_kara⟧⟦ハンマー→ハンマー：25887_hanmaa⟧⟦を→を：00422_wo⟧⟦{取|と}り{出|だ}した→取り出す：04220_toridasu⟧。",
       "english": "I took a hammer out of the toolbox.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14913_dougubako_ex2",
-      "japanese": "{図工|ずこう}の{道具箱|どうぐばこ}に{名前|なまえ}を{書|か}いてください。",
+      "japanese": "⟦{図工|ずこう}→図工：19698_zukou⟧⟦の→の：09472_no⟧{道具箱|どうぐばこ}⟦に→に：00314_ni⟧⟦{名前|なまえ}→名前：02234_namae⟧⟦を→を：00422_wo⟧⟦{書|か}いて→書く：00477_kaku⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please write your name on the arts and crafts toolbox.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14913_dougubako_ex3",
-      "japanese": "{道具箱|どうぐばこ}の{中|なか}が{散|ち}らかっていて、{必要|ひつよう}なネジが{見|み}つからなかった。",
+      "japanese": "{道具箱|どうぐばこ}⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧⟦が→が：00051_ga⟧⟦{散|ち}らかっていて→散らかる：04357_chirakaru⟧、⟦{必要|ひつよう}→必要：00846_hitsuyou⟧なネジ⟦が→が：00051_ga⟧⟦{見|み}つからなかった→見つかる：01173_mitsukaru⟧。",
       "english": "The toolbox was such a mess that I couldn't find the screws I needed.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\n{道具箱|どうぐばこ} is a straightforward compound of {道具|どうぐ} (tools) and {箱|はこ} (box). In Japanese elementary schools, students have a {道具箱|どうぐばこ} for art and craft supplies that they keep at their desks.\n\nCOMMON COLLOCATIONS:\n- {道具箱|どうぐばこ}から{取|と}り{出|だ}す (to take out from the toolbox)\n- {道具箱|どうぐばこ}を{整理|せいり}する (to organize the toolbox)\n- {道具箱|どうぐばこ}に{入|い}れる (to put in the toolbox)",
-  "cross_references": [],
+  "notes": "USAGE:\n{道具箱|どうぐばこ} is a straightforward compound of ⟦{道具|どうぐ}→道具：01479_dougu⟧ (tools) and ⟦{箱|はこ}→箱：02162_hako⟧ (box). In Japanese elementary schools, students have a {道具箱|どうぐばこ} for art and craft supplies that they keep at their desks.\n\nCOMMON COLLOCATIONS:\n- {道具箱|どうぐばこ}⟦から→から：00504_kara⟧⟦{取|と}り{出|だ}す→取り出す：04220_toridasu⟧ (to take out from the toolbox)\n- {道具箱|どうぐばこ}⟦を→を：00422_wo⟧⟦{整理|せいり}する→整理する：21729_seirisuru⟧ (to organize the toolbox)\n- {道具箱|どうぐばこ}⟦に→に：00314_ni⟧⟦{入|い}れる→入れる：01098_ireru⟧ (to put in the toolbox)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "08263_fudebako",
+      "reading": "ふでばこ",
+      "headword": "{筆箱|ふでばこ}",
+      "label": "pencil case"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29542_kougubako",
+      "reading": "こうぐばこ",
+      "headword": "{工具|こうぐ}{箱|ばこ}",
+      "label": "toolbox"
+    }
+  ],
   "metadata": {
     "created": "2026-03-04T05:54:19Z",
-    "modified": "2026-03-04T05:54:19Z",
+    "modified": "2026-09-02T04:01:39Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["tool"]
+      "semantic": [
+        "tool"
+      ]
     }
   }
 }

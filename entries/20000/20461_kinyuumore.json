@@ -15,40 +15,60 @@
   "examples": [
     {
       "id": "20461_kinyuumore_ex1",
-      "japanese": "{記入漏|きにゅうも}れがないか{確認|かくにん}してください。",
+      "japanese": "{記入漏|きにゅうも}れ⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧⟦か→か：09473_ka⟧⟦{確認|かくにん}して→確認する：25332_kakuninsuru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please check that nothing has been left blank.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20461_kinyuumore_ex2",
-      "japanese": "{記入漏|きにゅうも}れがあったため、{書類|しょるい}が{返|かえ}されてきた。",
+      "japanese": "{記入漏|きにゅうも}れ⟦が→が：00051_ga⟧⟦あった→ある：00006_aru⟧⟦ため→ため：01145_tame⟧、⟦{書類|しょるい}→書類：01103_shorui⟧⟦が→が：00051_ga⟧⟦{返|かえ}されて→返す：09648_kaesu⟧きた。",
       "english": "The documents were returned because there was an omission.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20461_kinyuumore_ex3",
-      "japanese": "{提出前|ていしゅつまえ}に{記入漏|きにゅうも}れや{誤字|ごじ}がないか、もう{一度|いちど}{見直|みなお}しましょう。",
+      "japanese": "{提出前|ていしゅつまえ}⟦に→に：00314_ni⟧{記入漏|きにゅうも}れや⟦{誤字|ごじ}→誤字：16131_goji⟧⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧⟦か→か：09473_ka⟧、⟦もう{一度|いちど}→もう一度：02976_mouichido⟧⟦{見直|みなお}しましょう→見直す：04579_minaosu⟧。",
       "english": "Before submitting, let's review one more time for any omissions or typos.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {記入|きにゅう} (filling in, writing in) and {漏|も}れ (leak, omission). Refers specifically to accidentally leaving fields blank on forms and paperwork.\n\nUSAGE:\nVery common in bureaucratic and administrative contexts — government forms, applications, contracts, surveys, etc. Japan's culture of meticulous paperwork makes this a frequently encountered term. Often appears in instructions printed on forms themselves.\n\nCOMMON COLLOCATIONS:\n- {記入漏|きにゅうも}れがある — there is an omission\n- {記入漏|きにゅうも}れがないか{確認|かくにん}する — to check for omissions\n- {記入漏|きにゅうも}れに{注意|ちゅうい} — be careful of omissions\n- {記入漏|きにゅうも}れのないように — so as not to leave anything blank\n\nSIMILAR WORDS:\n- {書|か}き{漏|も}らし — something left unwritten (more general)\n- {未記入|みきにゅう} — unfilled, not yet filled in (more neutral, no implication of error)\n- {不備|ふび} — deficiency, incompleteness (broader, covers any problem with documents)",
+  "notes": "A compound of ⟦{記入|きにゅう}→記入：02624_kinyuu⟧ (filling in, writing in) and ⟦{漏|も}れ→漏れ：13362_more⟧ (leak, omission). Refers specifically to accidentally leaving fields blank on forms and paperwork.\n\nUSAGE:\nVery common in bureaucratic and administrative contexts — government forms, applications, contracts, surveys, etc. Japan's culture of meticulous paperwork makes this a frequently encountered term. Often appears in instructions printed on forms themselves.\n\nCOMMON COLLOCATIONS:\n- {記入漏|きにゅうも}れ⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧ — there is an omission\n- {記入漏|きにゅうも}れ⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧⟦か→か：09473_ka⟧⟦{確認|かくにん}する→確認する：25332_kakuninsuru⟧ — to check for omissions\n- {記入漏|きにゅうも}れ⟦に→に：00314_ni⟧⟦{注意|ちゅうい}→注意：01464_chuui⟧ — be careful of omissions\n- {記入漏|きにゅうも}れ⟦の→の：09472_no⟧⟦ない→ない：01118_nai⟧よう⟦に→に：00314_ni⟧ — so as not to leave anything blank\n\nSIMILAR WORDS:\n- ⟦{書|か}き{漏|も}らし→書き漏らす：26053_kakimorasu⟧ — something left unwritten (more general)\n- {未記入|みきにゅう} — unfilled, not yet filled in (more neutral, no implication of error)\n- ⟦{不備|ふび}→不備：07599_fubi⟧ — deficiency, incompleteness (broader, covers any problem with documents)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07599_fubi",
+      "reading": "ふび",
+      "headword": "{不備|ふび}",
+      "label": "deficiency, incompleteness"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["business", "administrative"]
+      "semantic": [
+        "business",
+        "administrative"
+      ]
     },
     "created": "2026-03-29T14:16:55Z",
-    "modified": "2026-03-29T14:16:55Z"
+    "modified": "2026-09-02T04:01:59Z"
   }
 }

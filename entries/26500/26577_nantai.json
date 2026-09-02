@@ -3,7 +3,7 @@
   "headword": "{軟体|なんたい}",
   "reading": "なんたい",
   "romaji": "nantai",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "soft body; soft-bodied",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26577_nantai_ex1",
-      "japanese": "タコは{軟体|なんたい}{動物|どうぶつ}です。",
+      "japanese": "タコ⟦は→は：00079_ha⟧{軟体|なんたい}{動物|どうぶつ}です。",
       "english": "Octopuses are mollusks.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26577_nantai_ex2",
-      "japanese": "{軟体|なんたい}{動物|どうぶつ}は{骨|ほね}がないため{狭|せま}い{隙間|すきま}にも{入|はい}れる。",
+      "japanese": "{軟体|なんたい}{動物|どうぶつ}⟦は→は：00079_ha⟧⟦{骨|ほね}→骨：02166_hone⟧⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧⟦ため→ため：01145_tame⟧⟦{狭|せま}い→狭い：00750_semai⟧⟦{隙間|すきま}→隙間：00389_sukima⟧⟦に→に：00314_ni⟧⟦も→も：00484_mo⟧⟦{入|はい}れる→入る：00494_hairu⟧。",
       "english": "Soft-bodied animals have no bones, so they can fit into narrow gaps.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26577_nantai_ex3",
-      "japanese": "イカや{貝|かい}など、{軟体|なんたい}{動物|どうぶつ}の{種類|しゅるい}は{世界中|せかいじゅう}に{約|やく}10{万|まん}{種|しゅ}いると{言|い}われている。",
+      "japanese": "イカや⟦{貝|かい}→貝：02145_kai⟧⟦など→〜など：03095_nado⟧、{軟体|なんたい}{動物|どうぶつ}⟦の→の：09472_no⟧⟦{種類|しゅるい}→種類：01560_shurui⟧⟦は→は：00079_ha⟧⟦{世界中|せかいじゅう}→世界中：10171_sekaijuu⟧⟦に→に：00314_ni⟧⟦{約|やく}→約：09563_yaku⟧10{万|まん}⟦{種|しゅ}→種：28584_shu⟧⟦いる→いる：00495_iru⟧⟦と→と：00512_to⟧⟦{言|い}われている→言う：00515_iu⟧。",
       "english": "It is said that there are approximately 100,000 species of mollusks, including squid and shellfish, worldwide.",
       "sense_numbers": [
         1
@@ -44,8 +44,23 @@
       "notes": null
     }
   ],
-  "notes": "Combines {軟|なん} (soft) and {体|たい} (body). Almost always encountered in the compound {軟体動物|なんたいどうぶつ} (mollusks — the phylum Mollusca), which includes snails, clams, octopuses, and squid. Also used figuratively to describe a person with unusual flexibility.\n\nCOMMON COLLOCATIONS:\n- {軟体|なんたい}{動物|どうぶつ}: mollusk (the most common usage)\n- {軟体|なんたい}{動物|どうぶつ}{門|もん}: phylum Mollusca\n- {軟体|なんたい}{生物|せいぶつ}: soft-bodied organism\n\nRELATED TERMS:\n- {節足|せっそく}{動物|どうぶつ}: arthropod — another major invertebrate group\n- {甲殻|こうかく}{類|るい}: crustaceans — hard-shelled invertebrates, in contrast to soft-bodied ones",
-  "cross_references": [],
+  "notes": "Combines {軟|なん} (soft) and ⟦{体|たい}→体：09872_tai⟧ (body). Almost always encountered in the compound ⟦{軟体動物|なんたいどうぶつ}→軟体動物：23827_nantaidoubutsu⟧ (mollusks — the phylum Mollusca), which includes snails, clams, octopuses, and squid. Also used figuratively to describe a person with unusual flexibility.\n\nCOMMON COLLOCATIONS:\n- {軟体|なんたい}{動物|どうぶつ}: mollusk (the most common usage)\n- {軟体|なんたい}{動物|どうぶつ}⟦{門|もん}→門：14603_mon⟧: phylum Mollusca\n- {軟体|なんたい}⟦{生物|せいぶつ}→生物：03295_seibutsu⟧: soft-bodied organism\n\nRELATED WORDS:\n- ⟦{節足|せっそく}{動物|どうぶつ}→節足動物：27745_sessokudoubutsu⟧: arthropod — another major invertebrate group\n- ⟦{甲殻|こうかく}{類|るい}→甲殻類：20910_koukakurui⟧: crustaceans — hard-shelled invertebrates, in contrast to soft-bodied ones",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "27745_sessokudoubutsu",
+      "reading": "せっそくどうぶつ",
+      "headword": "{節足|せっそく}{動物|どうぶつ}",
+      "label": "arthropod"
+    },
+    {
+      "type": "related",
+      "target_id": "20910_koukakurui",
+      "reading": "こうかくるい",
+      "headword": "{甲殻類|こうかくるい}",
+      "label": "crustaceans"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -61,6 +76,6 @@
       ]
     },
     "created": "2026-05-03T12:29:43Z",
-    "modified": "2026-06-15T07:59:29Z"
+    "modified": "2026-09-02T04:02:26Z"
   }
 }

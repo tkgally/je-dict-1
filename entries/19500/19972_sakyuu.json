@@ -15,40 +15,67 @@
   "examples": [
     {
       "id": "19972_sakyuu_ex1",
-      "japanese": "{砂丘|さきゅう}を{歩|ある}く。",
+      "japanese": "{砂丘|さきゅう}⟦を→を：00422_wo⟧⟦{歩|ある}く→歩く：00538_aruku⟧。",
       "english": "To walk on a sand dune.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19972_sakyuu_ex2",
-      "japanese": "{鳥取|とっとり}{砂丘|さきゅう}は{日本|にほん}で{一番|いちばん}{有名|ゆうめい}な{砂丘|さきゅう}だ。",
+      "japanese": "{鳥取|とっとり}{砂丘|さきゅう}⟦は→は：00079_ha⟧⟦{日本|にほん}→日本：03876_nihon⟧⟦で→で：00502_de⟧⟦{一番|いちばん}→一番：01140_ichiban⟧⟦{有名|ゆうめい}→有名：01106_yuumei⟧な{砂丘|さきゅう}だ。",
       "english": "The Tottori Sand Dunes are the most famous sand dunes in Japan.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19972_sakyuu_ex3",
-      "japanese": "{風|かぜ}が{作|つく}り{出|だ}す{砂丘|さきゅう}の{模様|もよう}は{美|うつく}しく、{毎日|まいにち}{表情|ひょうじょう}が{変|か}わる。",
+      "japanese": "⟦{風|かぜ}→風：00641_kaze⟧⟦が→が：00051_ga⟧⟦{作|つく}り{出|だ}す→作り出す：11634_tsukuridasu⟧{砂丘|さきゅう}⟦の→の：09472_no⟧⟦{模様|もよう}→模様：03635_moyou⟧⟦は→は：00079_ha⟧⟦{美|うつく}しく→美しい：01121_utsukushii⟧、⟦{毎日|まいにち}→毎日：00729_mainichi⟧⟦{表情|ひょうじょう}→表情：03585_hyoujou⟧⟦が→が：00051_ga⟧⟦{変|か}わる→変わる：00714_kawaru⟧。",
       "english": "The patterns the wind creates on the sand dunes are beautiful and change every day.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {砂|さ} (sand) + {丘|きゅう} (hill, mound). Japan's most famous sand dunes are the {鳥取砂丘|とっとりさきゅう} in Tottori Prefecture, which are a major tourist destination and a designated natural monument.\n\nCOMMON COLLOCATIONS:\n- {砂丘|さきゅう}を{歩|ある}く: to walk on sand dunes\n- {海岸|かいがん}{砂丘|さきゅう}: coastal sand dune\n- {砂丘|さきゅう}{地帯|ちたい}: dune area\n- {砂丘|さきゅう}の{風紋|ふうもん}: wind ripples on sand dunes\n\nSIMILAR WORDS:\n- {砂漠|さばく}: desert (a much larger arid landscape; {砂丘|さきゅう} are individual formations)\n- {砂浜|すなはま}: sandy beach (flat, along the shoreline)\n- {丘|おか}: hill (general; not necessarily sand)",
+  "notes": "Composed of {砂|さ} (sand) + {丘|きゅう} (hill, mound). Japan's most famous sand dunes are the {鳥取砂丘|とっとりさきゅう} in Tottori Prefecture, which are a major tourist destination and a designated natural monument.\n\nCOMMON COLLOCATIONS:\n- {砂丘|さきゅう}⟦を→を：00422_wo⟧⟦{歩|ある}く→歩く：00538_aruku⟧: to walk on sand dunes\n- ⟦{海岸|かいがん}→海岸：00852_kaigan⟧{砂丘|さきゅう}: coastal sand dune\n- {砂丘|さきゅう}⟦{地帯|ちたい}→地帯：04057_chitai⟧: dune area\n- {砂丘|さきゅう}⟦の→の：09472_no⟧{風紋|ふうもん}: wind ripples on sand dunes\n\nSIMILAR WORDS:\n- ⟦{砂漠|さばく}→砂漠：09508_sabaku⟧: desert (a much larger arid landscape; {砂丘|さきゅう} are individual formations)\n- ⟦{砂浜|すなはま}→砂浜：12333_sunahama⟧: sandy beach (flat, along the shoreline)\n- ⟦{丘|おか}→丘：02183_oka⟧: hill (general; not necessarily sand)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09508_sabaku",
+      "reading": "さばく",
+      "headword": "{砂漠|さばく}",
+      "label": "desert (a much larger arid landscape"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12333_sunahama",
+      "reading": "すなはま",
+      "headword": "{砂浜|すなはま}",
+      "label": "sandy beach"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["geography", "nature"]
+      "semantic": [
+        "geography",
+        "nature"
+      ]
     },
     "created": "2026-03-27T07:24:03Z",
-    "modified": "2026-03-27T07:24:03Z"
+    "modified": "2026-09-02T04:01:57Z"
   }
 }

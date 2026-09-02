@@ -15,42 +15,83 @@
   "examples": [
     {
       "id": "11162_bijinesu_ex1",
-      "japanese": "ビジネスで{大阪|おおさか}に{行|い}く。",
+      "japanese": "ビジネス⟦で→で：00502_de⟧⟦{大阪|おおさか}→大阪：09779_oosaka⟧⟦に→に：00314_ni⟧⟦{行|い}く→行く：00119_iku⟧。",
       "english": "I'm going to Osaka on business.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11162_bijinesu_ex2",
-      "japanese": "ビジネスマナーを{身|み}につけることは{大切|たいせつ}だ。",
+      "japanese": "ビジネスマナー⟦を→を：00422_wo⟧⟦{身|み}につける→身につける：03158_minitsukeru⟧こと⟦は→は：00079_ha⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧だ。",
       "english": "It's important to learn business etiquette.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11162_bijinesu_ex3",
-      "japanese": "{新|あたら}しいビジネスモデルを{考|かんが}えて、{起業|きぎょう}する{人|ひと}が{増|ふ}えている。",
+      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧ビジネスモデル⟦を→を：00422_wo⟧⟦{考|かんが}えて→考える：00856_kangaeru⟧、⟦{起業|きぎょう}→起業：16193_kigyou⟧⟦する→する：00392_suru⟧⟦{人|ひと}→人：00476_hito⟧⟦が→が：00051_ga⟧⟦{増|ふ}えている→増える：01183_fueru⟧。",
       "english": "More people are thinking up new business models and starting companies.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nビジネス is extremely productive as a compound modifier in Japanese. It attaches to many words to create business-context terms that may not have direct English equivalents.\n\nCOMMON COMPOUNDS:\n- ビジネスマナー: business etiquette\n- ビジネスメール: business email\n- ビジネス{敬語|けいご}: business-level polite language\n- ビジネスモデル: business model\n- ビジネスパートナー: business partner\n- ビジネスホテル: business hotel (budget hotel for business travelers)\n- ビジネスクラス: business class (on a flight)\n- ビジネスマン: businessman (note: ビジネスパーソン is increasingly used as a gender-neutral alternative)",
-  "cross_references": [],
+  "notes": "USAGE:\nビジネス is extremely productive as a compound modifier in Japanese. It attaches to many words to create business-context terms that may not have direct English equivalents.\n\nCOMPOUNDS:\n- ビジネスマナー: business etiquette\n- ビジネス⟦メール→メール：04435_meeru⟧: business email\n- ビジネス⟦{敬語|けいご}→敬語：04022_keigo⟧: business-level polite language\n- ビジネスモデル: business model\n- ビジネスパートナー: business partner\n- ビジネスホテル: business hotel (budget hotel for business travelers)\n- ビジネスクラス: business class (on a flight)\n- ビジネスマン: businessman (note: ビジネスパーソン is increasingly used as a gender-neutral alternative)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03239_shoubai",
+      "reading": "しょうばい",
+      "headword": "{商売|しょうばい}",
+      "label": "business, trade"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09940_shougyou",
+      "reading": "しょうぎょう",
+      "headword": "{商業|しょうぎょう}",
+      "label": "commerce"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17167_akinai",
+      "reading": "あきない",
+      "headword": "{商|あきな}い",
+      "label": "trade"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24265_shoukai",
+      "reading": "しょうかい",
+      "headword": "{商界|しょうかい}",
+      "label": "business world"
+    }
+  ],
   "metadata": {
     "created": "2026-02-14T05:12:51Z",
-    "modified": "2026-02-14T05:12:51Z",
+    "modified": "2026-09-02T04:01:24Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "domain": ["business"],
-      "semantic": ["work"]
+      "domain": [
+        "business"
+      ],
+      "semantic": [
+        "work"
+      ]
     }
   }
 }

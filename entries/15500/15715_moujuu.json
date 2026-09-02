@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "15715_moujuu_ex1",
-      "japanese": "{猛獣|もうじゅう}に{注意|ちゅうい}。",
+      "japanese": "{猛獣|もうじゅう}⟦に→に：00314_ni⟧⟦{注意|ちゅうい}→注意：01464_chuui⟧。",
       "english": "Beware of dangerous animals.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "15715_moujuu_ex2",
-      "japanese": "{動物園|どうぶつえん}で{猛獣|もうじゅう}が{檻|おり}から{逃|に}げた。",
+      "japanese": "⟦{動物園|どうぶつえん}→動物園：01686_doubutsuen⟧⟦で→で：00502_de⟧{猛獣|もうじゅう}⟦が→が：00051_ga⟧⟦{檻|おり}→檻：28564_ori⟧⟦から→から：00504_kara⟧⟦{逃|に}げた→逃げる：01151_nigeru⟧。",
       "english": "A wild beast escaped from its cage at the zoo.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "15715_moujuu_ex3",
-      "japanese": "{猛獣|もうじゅう}の{飼育|しいく}には{特別|とくべつ}な{許可|きょか}と{設備|せつび}が{必要|ひつよう}だ。",
+      "japanese": "{猛獣|もうじゅう}⟦の→の：09472_no⟧⟦{飼育|しいく}→飼育：06422_shiiku⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{特別|とくべつ}→特別：01120_tokubetsu⟧な⟦{許可|きょか}→許可：00259_kyoka⟧⟦と→と：00512_to⟧⟦{設備|せつび}→設備：03301_setsubi⟧⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧だ。",
       "english": "Keeping wild beasts requires special permits and facilities.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,33 @@
       ]
     }
   ],
-  "notes": "{猛獣|もうじゅう} refers to large, dangerous animals such as lions, tigers, bears, and other powerful predators. It does not apply to small or harmless wild animals.\n\nWORD FORMATION:\n{猛|もう} (fierce, violent) + {獣|じゅう} (beast). The character {猛|もう} also appears in {猛烈|もうれつ} (fierce), {猛暑|もうしょ} (intense heat).\n\nCOMMON COLLOCATIONS:\n- {猛獣|もうじゅう}{使|つか}い: animal tamer (circus/show)\n- {猛獣|もうじゅう}に{襲|おそ}われる: to be attacked by a wild beast\n- {猛獣|もうじゅう}の{檻|おり}: cage for dangerous animals\n- {猛獣|もうじゅう}に{注意|ちゅうい}: beware of dangerous animals\n\nCONTRAST:\n- {猛獣|もうじゅう}: ferocious/dangerous animal\n- {野生|やせい}{動物|どうぶつ}: wild animal (any species)\n- {害獣|がいじゅう}: pest animal (causing damage to crops, etc.)",
-  "cross_references": [],
+  "notes": "{猛獣|もうじゅう} refers to large, dangerous animals such as lions, tigers, bears, and other powerful predators. It does not apply to small or harmless wild animals.\n\nFORMS:\n{猛|もう} (fierce, violent) + {獣|じゅう} (beast). The character {猛|もう} also appears in ⟦{猛烈|もうれつ}→猛烈：13490_mouretsu⟧ (fierce), ⟦{猛暑|もうしょ}→猛暑：08311_mousho⟧ (intense heat).\n\nCOMMON COLLOCATIONS:\n- {猛獣|もうじゅう}⟦{使|つか}い→使い：25633_tsukai⟧: animal tamer (circus/show)\n- {猛獣|もうじゅう}⟦に→に：00314_ni⟧⟦{襲|おそ}われる→襲う：01915_osou⟧: to be attacked by a wild beast\n- {猛獣|もうじゅう}⟦の→の：09472_no⟧⟦{檻|おり}→檻：28564_ori⟧: cage for dangerous animals\n- {猛獣|もうじゅう}⟦に→に：00314_ni⟧⟦{注意|ちゅうい}→注意：01464_chuui⟧: beware of dangerous animals\n\nSIMILAR WORDS:\n- {猛獣|もうじゅう}: ferocious/dangerous animal\n- ⟦{野生|やせい}{動物|どうぶつ}→野生動物：09251_yaseidoubutsu⟧: wild animal (any species)\n- ⟦{害獣|がいじゅう}→害獣：24662_gaijuu⟧: pest animal (causing damage to crops, etc.)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09251_yaseidoubutsu",
+      "reading": "やせいどうぶつ",
+      "headword": "{野生動物|やせいどうぶつ}",
+      "label": "wild animal"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24662_gaijuu",
+      "reading": "がいじゅう",
+      "headword": "{害獣|がいじゅう}",
+      "label": "pest animal"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25044_hyakujuu",
+      "reading": "ひゃくじゅう",
+      "headword": "{百獣|ひゃくじゅう}",
+      "label": "all beasts"
+    }
+  ],
   "metadata": {
     "created": "2026-03-08T08:47:42Z",
-    "modified": "2026-07-17T12:56:16Z",
+    "modified": "2026-09-02T04:01:42Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

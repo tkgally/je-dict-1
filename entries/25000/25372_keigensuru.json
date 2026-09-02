@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25372_keigensuru_ex1",
-      "japanese": "{負担|ふたん}を{軽減|けいげん}する。",
+      "japanese": "⟦{負担|ふたん}→負担：09752_futan⟧⟦を→を：00422_wo⟧{軽減|けいげん}する。",
       "english": "To reduce the burden.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25372_keigensuru_ex2",
-      "japanese": "ストレスを{軽減|けいげん}するために{運動|うんどう}する。",
+      "japanese": "⟦ストレス→ストレス：03827_sutoresu⟧⟦を→を：00422_wo⟧{軽減|けいげん}する⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧⟦{運動|うんどう}→運動：00821_undou⟧⟦する→する：00392_suru⟧。",
       "english": "I exercise to reduce stress.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25372_keigensuru_ex3",
-      "japanese": "{軽減|けいげん}{税率|ぜいりつ}が{食料品|しょくりょうひん}に{適用|てきよう}される。",
+      "japanese": "⟦{軽減|けいげん}→軽減：16954_keigen⟧⟦{税率|ぜいりつ}→税率：28616_zeiritsu⟧⟦が→が：00051_ga⟧⟦{食料品|しょくりょうひん}→食料品：01439_shokuryouhin⟧⟦に→に：00314_ni⟧⟦{適用|てきよう}される→適用する：21739_tekiyousuru⟧。",
       "english": "A reduced tax rate is applied to food products.",
       "sense_numbers": [
         1
@@ -45,7 +45,7 @@
     },
     {
       "id": "25372_keigensuru_ex4",
-      "japanese": "{介護|かいご}する{家族|かぞく}の{精神的|せいしんてき}{負担|ふたん}を{軽減|けいげん}する{仕組|しく}みが{求|もと}められている。",
+      "japanese": "⟦{介護|かいご}→介護：04805_kaigo⟧⟦する→する：00392_suru⟧⟦{家族|かぞく}→家族：00552_kazoku⟧⟦の→の：09472_no⟧⟦{精神的|せいしんてき}→精神的：05851_seishinteki⟧⟦{負担|ふたん}→負担：09752_futan⟧⟦を→を：00422_wo⟧{軽減|けいげん}する⟦{仕組|しく}み→仕組み：07168_shikumi⟧⟦が→が：00051_ga⟧⟦{求|もと}められている→求める：02316_motomeru⟧。",
       "english": "Systems to alleviate the psychological burden on caregiving families are needed.",
       "sense_numbers": [
         1
@@ -54,8 +54,38 @@
       "notes": null
     }
   ],
-  "notes": "Commonly used in policy, healthcare, and everyday contexts. Implies making something less burdensome rather than eliminating it entirely. Especially frequent in discussions of taxes, workloads, and pain management.\n\nCOMMON COLLOCATIONS:\n- {負担|ふたん}{軽減|けいげん}: burden reduction\n- {税|ぜい}の{軽減|けいげん}: tax reduction\n- {軽減|けいげん}{税率|ぜいりつ}: reduced tax rate\n- {痛|いた}みを{軽減|けいげん}する: to alleviate pain\n- {リスク|りすく}を{軽減|けいげん}する: to mitigate risk\n\nSIMILAR WORDS:\n- {削減|さくげん}する: to cut, to reduce — implies deliberate cutting, often of budgets or staff\n- {緩和|かんわ}する: to ease, to relax — implies softening restrictions, tension, or pain\n- {減|へ}らす: to decrease, to reduce — more casual and general; can apply to quantity of anything",
+  "notes": "Commonly used in policy, healthcare, and everyday contexts. Implies making something less burdensome rather than eliminating it entirely. Especially frequent in discussions of taxes, workloads, and pain management.\n\nCOMMON COLLOCATIONS:\n- ⟦{負担|ふたん}→負担：09752_futan⟧⟦{軽減|けいげん}→軽減：16954_keigen⟧: burden reduction\n- ⟦{税|ぜい}→税：03767_zei⟧⟦の→の：09472_no⟧⟦{軽減|けいげん}→軽減：16954_keigen⟧: tax reduction\n- ⟦{軽減|けいげん}→軽減：16954_keigen⟧⟦{税率|ぜいりつ}→税率：28616_zeiritsu⟧: reduced tax rate\n- ⟦{痛|いた}み→痛み：01795_itami⟧⟦を→を：00422_wo⟧{軽減|けいげん}する: to alleviate pain\n- ⟦リスク→リスク：06752_risuku⟧⟦を→を：00422_wo⟧{軽減|けいげん}する: to mitigate risk\n\nSIMILAR WORDS:\n- ⟦{削減|さくげん}する→削減する：25399_sakugensuru⟧: to cut, to reduce — implies deliberate cutting, often of budgets or staff\n- ⟦{緩和|かんわ}する→緩和する：19641_kanwasuru⟧: to ease, to relax — implies softening restrictions, tension, or pain\n- ⟦{減|へ}らす→減らす：02414_herasu⟧: to decrease, to reduce — more casual and general; can apply to quantity of anything",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25399_sakugensuru",
+      "reading": "さくげんする",
+      "headword": "{削減|さくげん}する",
+      "label": "to cut, to reduce"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19641_kanwasuru",
+      "reading": "かんわする",
+      "headword": "{緩和|かんわ}する",
+      "label": "to ease, to relax"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02414_herasu",
+      "reading": "へらす",
+      "headword": "{減|へ}らす",
+      "label": "to decrease, to reduce"
+    },
+    {
+      "type": "related",
+      "target_id": "07897_yawarageru",
+      "reading": "やわらげる",
+      "headword": "{和|やわ}らげる",
+      "label": "to soften"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -69,10 +99,11 @@
         "abstract",
         "politics"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-04-24T16:16:17Z",
-    "modified": "2026-08-04T12:59:53Z"
+    "modified": "2026-09-02T04:02:22Z"
   },
   "conjugation": {
     "type": "suru",

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "23868_fune_ex1",
-      "japanese": "{舟|ふね}に{乗|の}る。",
+      "japanese": "{舟|ふね}⟦に→に：00314_ni⟧⟦{乗|の}る→乗る：00511_noru⟧。",
       "english": "To get on a small boat.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "23868_fune_ex2",
-      "japanese": "{川|かわ}に{小|ちい}さな{舟|ふね}が{浮|う}かんでいる。",
+      "japanese": "⟦{川|かわ}→川：02186_kawa⟧⟦に→に：00314_ni⟧⟦{小|ちい}さな→小さな：02913_chiisana⟧{舟|ふね}⟦が→が：00051_ga⟧⟦{浮|う}かんでいる→浮かぶ：03916_ukabu⟧。",
       "english": "A small boat is floating on the river.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "23868_fune_ex3",
-      "japanese": "{漁師|りょうし}は{毎朝|まいあさ}{舟|ふね}をこいで{湖|みずうみ}に{出|で}ていく。",
+      "japanese": "⟦{漁師|りょうし}→漁師：21205_ryoushi⟧⟦は→は：00079_ha⟧⟦{毎朝|まいあさ}→毎朝：00966_maiasa⟧{舟|ふね}⟦を→を：00422_wo⟧こいで⟦{湖|みずうみ}→湖：00867_mizuumi⟧⟦に→に：00314_ni⟧⟦{出|で}て→出る：00513_deru⟧いく。",
       "english": "The fisherman rows out onto the lake on his small boat every morning.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "{舟|ふね} and {船|ふね} share the same reading but are written with different kanji depending on the size and type of vessel.\n\nUSAGE:\n- {舟|ふね} is used for small, often traditional craft — rowboats, canoes, sampans, and the like — especially when they are human-powered or very modest in size.\n- {船|ふね} is the general and modern term, used for ships, ferries, and larger boats of any kind.\n- In ambiguous cases or everyday writing, {船|ふね} is the default. {舟|ふね} is chosen to evoke a smaller, more rustic, or literary image.\n\nCOMMON COLLOCATIONS:\n- {舟|ふね}に{乗|の}る: to get on a (small) boat\n- {舟|ふね}をこぐ: to row a boat (also idiomatic for nodding off to sleep)\n- {舟|ふね}を{出|だ}す: to launch a boat; to set out in a boat\n- {小|ちい}さな{舟|ふね}: a small boat\n- {渡|わた}し{舟|ぶね}: a ferry boat (across a river)\n\nSIMILAR WORDS:\n- {船|ふね}: ship, boat (general) — preferred for larger modern vessels such as ferries, cargo ships, and passenger ships.\n- {ボート}: boat — the English loanword, common for rowboats or pleasure craft such as those in parks.\n- {舟艇|しゅうてい}: small craft — a technical term, used in military or maritime contexts.\n\nCULTURAL NOTE:\nThe idiom {舟|ふね}をこぐ literally means 'to row a boat' but is commonly used to describe someone nodding off to sleep, since the up-and-down motion of the head resembles the motion of rowing.",
+  "notes": "{舟|ふね} and ⟦{船|ふね}→船：00775_fune⟧ share the same reading but are written with different kanji depending on the size and type of vessel.\n\nUSAGE:\n- {舟|ふね} is used for small, often traditional craft — rowboats, canoes, sampans, and the like — especially when they are human-powered or very modest in size.\n- ⟦{船|ふね}→船：00775_fune⟧ is the general and modern term, used for ships, ferries, and larger boats of any kind.\n- In ambiguous cases or everyday writing, ⟦{船|ふね}→船：00775_fune⟧ is the default. {舟|ふね} is chosen to evoke a smaller, more rustic, or literary image.\n\nCOMMON COLLOCATIONS:\n- {舟|ふね}⟦に→に：00314_ni⟧⟦{乗|の}る→乗る：00511_noru⟧: to get on a (small) boat\n- {舟|ふね}⟦を→を：00422_wo⟧こぐ: to row a boat (also idiomatic for nodding off to sleep)\n- {舟|ふね}⟦を→を：00422_wo⟧⟦{出|だ}す→出す：01087_dasu⟧: to launch a boat; to set out in a boat\n- ⟦{小|ちい}さな→小さな：02913_chiisana⟧{舟|ふね}: a small boat\n- ⟦{渡|わた}し{舟|ぶね}→渡し舟：21176_watashibune⟧: a ferry boat (across a river)\n\nSIMILAR WORDS:\n- ⟦{船|ふね}→船：00775_fune⟧: ship, boat (general) — preferred for larger modern vessels such as ferries, cargo ships, and passenger ships.\n- ⟦ボート→ボート：00018_booto⟧: boat — the English loanword, common for rowboats or pleasure craft such as those in parks.\n- {舟艇|しゅうてい}: small craft — a technical term, used in military or maritime contexts.\n\nCULTURAL NOTE:\nThe idiom {舟|ふね}⟦を→を：00422_wo⟧こぐ literally means 'to row a boat' but is commonly used to describe someone nodding off to sleep, since the up-and-down motion of the head resembles the motion of rowing.",
   "cross_references": [
     {
       "type": "related",
@@ -52,6 +52,13 @@
       "reading": "ふね",
       "headword": "{船|ふね}",
       "label": "ship, boat (larger or more modern vessels)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00018_booto",
+      "reading": "ぼーと",
+      "headword": "ボート",
+      "label": "boat"
     }
   ],
   "schema_version": "2.0",
@@ -68,6 +75,6 @@
       ]
     },
     "created": "2026-04-15T09:08:58Z",
-    "modified": "2026-08-02T06:25:32Z"
+    "modified": "2026-09-02T04:02:15Z"
   }
 }

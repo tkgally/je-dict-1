@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "16599_hikoukai_ex1",
-      "japanese": "この{会議|かいぎ}は{非公開|ひこうかい}です。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦は→は：00079_ha⟧{非公開|ひこうかい}です。",
       "english": "This meeting is closed to the public.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "16599_hikoukai_ex2",
-      "japanese": "アカウントを{非公開|ひこうかい}に{設定|せってい}した。",
+      "japanese": "⟦アカウント→アカウント：05103_akaunto⟧⟦を→を：00422_wo⟧{非公開|ひこうかい}⟦に→に：00314_ni⟧⟦{設定|せってい}→設定：04767_settei⟧⟦した→する：00392_suru⟧。",
       "english": "I set my account to private.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "16599_hikoukai_ex3",
-      "japanese": "{裁判|さいばん}は{被害者|ひがいしゃ}のプライバシー{保護|ほご}のため{非公開|ひこうかい}で{行|おこな}われた。",
+      "japanese": "⟦{裁判|さいばん}→裁判：02773_saiban⟧⟦は→は：00079_ha⟧⟦{被害者|ひがいしゃ}→被害者：14106_higaisha⟧⟦の→の：09472_no⟧⟦プライバシー→プライバシー：06806_puraibashii⟧⟦{保護|ほご}→保護：03625_hogo⟧⟦の→の：09472_no⟧⟦ため→ため：01145_tame⟧{非公開|ひこうかい}⟦で→で：00502_de⟧⟦{行|おこな}われた→行う：01238_okonau⟧。",
       "english": "The trial was held behind closed doors to protect the victim's privacy.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nUsed as a noun or as a modifier with の or で. Very common in modern contexts including social media (private accounts), business (closed meetings), and legal settings.\n\nCOMMON COLLOCATIONS:\n- {非公開|ひこうかい}にする (to make private)\n- {非公開|ひこうかい}の{情報|じょうほう} (private information)\n- {非公開|ひこうかい}で{行|おこな}う (to conduct privately)\n- {非公開|ひこうかい}アカウント (private account)\n\nANTONYM:\n- {公開|こうかい}: public, open to the public",
+  "notes": "USAGE:\nUsed as a noun or as a modifier with ⟦の→の：09472_no⟧ or ⟦で→で：00502_de⟧. Very common in modern contexts including social media (private accounts), business (closed meetings), and legal settings.\n\nCOMMON COLLOCATIONS:\n- {非公開|ひこうかい}⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧ (to make private)\n- {非公開|ひこうかい}⟦の→の：09472_no⟧⟦{情報|じょうほう}→情報：03348_jouhou⟧ (private information)\n- {非公開|ひこうかい}⟦で→で：00502_de⟧⟦{行|おこな}う→行う：01238_okonau⟧ (to conduct privately)\n- {非公開|ひこうかい}⟦アカウント→アカウント：05103_akaunto⟧ (private account)\n\nSIMILAR WORDS:\n- ⟦{公開|こうかい}→公開：11665_koukai⟧: public, open to the public",
   "cross_references": [
     {
       "type": "antonym",
@@ -52,11 +52,32 @@
       "reading": "こうかい",
       "headword": "{公開|こうかい}",
       "label": "public, open"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20757_hikouhyou",
+      "reading": "ひこうひょう",
+      "headword": "{非公表|ひこうひょう}",
+      "label": "undisclosed"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22714_kabushikikoukai",
+      "reading": "かぶしきこうかい",
+      "headword": "{株式公開|かぶしきこうかい}",
+      "label": "stock listing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24845_mihappyou",
+      "reading": "みはっぴょう",
+      "headword": "{未発表|みはっぴょう}",
+      "label": "unpublished"
     }
   ],
   "metadata": {
     "created": "2026-03-14T01:36:58Z",
-    "modified": "2026-07-20T00:31:17Z",
+    "modified": "2026-09-02T04:01:45Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

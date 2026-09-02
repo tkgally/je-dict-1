@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25088_pari_ex1",
-      "japanese": "パリに{行|い}ったことがある。",
+      "japanese": "パリ⟦に→に：00314_ni⟧⟦{行|い}った→行く：00119_iku⟧こと⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "I've been to Paris.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25088_pari_ex2",
-      "japanese": "パリは「{花|はな}の{都|みやこ}」と{呼|よ}ばれている。",
+      "japanese": "パリ⟦は→は：00079_ha⟧「⟦{花|はな}→花：00523_hana⟧⟦の→の：09472_no⟧⟦{都|みやこ}→都：03747_miyako⟧」⟦と→と：00512_to⟧⟦{呼|よ}ばれている→呼ぶ：00766_yobu⟧。",
       "english": "Paris is called the 'City of Flowers.'",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25088_pari_ex3",
-      "japanese": "{来年|らいねん}の{夏|なつ}にパリで{開|ひら}かれる{美術展|びじゅつてん}を{見|み}に{行|い}く{予定|よてい}です。",
+      "japanese": "⟦{来年|らいねん}→来年：00745_rainen⟧⟦の→の：09472_no⟧⟦{夏|なつ}→夏：02236_natsu⟧⟦に→に：00314_ni⟧パリ⟦で→で：00502_de⟧⟦{開|ひら}かれる→開く：01979_hiraku⟧{美術展|びじゅつてん}⟦を→を：00422_wo⟧⟦{見|み}→見る：00283_miru⟧⟦に→に：00314_ni⟧⟦{行|い}く→行く：00119_iku⟧⟦{予定|よてい}→予定：00824_yotei⟧です。",
       "english": "I plan to go see an art exhibition being held in Paris next summer.",
       "sense_numbers": [
         1
@@ -44,14 +44,25 @@
       "notes": null
     }
   ],
-  "notes": "The Japanese name for Paris, the capital of France. In Japanese, Paris is often associated with fashion, art, cuisine, and romance. The phrase {花|はな}の{都|みやこ} ('city of flowers') is a traditional Japanese epithet for Paris.\n\nCOMMON COLLOCATIONS:\n- パリに{住|す}む: to live in Paris\n- パリ{旅行|りょこう}: a trip to Paris\n- パリコレクション: Paris Fashion Week (Paris Collection)\n- パリ{万博|ばんぱく}: Paris World Exposition\n\nRELATED TERMS:\n- フランス: France — the country\n- エッフェル{塔|とう}: Eiffel Tower — the most famous Paris landmark\n- ルーブル{美術館|びじゅつかん}: the Louvre Museum",
+  "notes": "The Japanese name for Paris, the capital of France. In Japanese, Paris is often associated with fashion, art, cuisine, and romance. The phrase ⟦{花|はな}→花：00523_hana⟧⟦の→の：09472_no⟧⟦{都|みやこ}→都：03747_miyako⟧ ('city of flowers') is a traditional Japanese epithet for Paris.\n\nCOMMON COLLOCATIONS:\n- パリ⟦に→に：00314_ni⟧⟦{住|す}む→住む：00673_sumu⟧: to live in Paris\n- パリ⟦{旅行|りょこう}→旅行：00748_ryokou⟧: a trip to Paris\n- パリコレクション: Paris Fashion Week (Paris Collection)\n- パリ{万博|ばんぱく}: Paris World Exposition\n\nRELATED WORDS:\n- ⟦フランス→フランス：19418_furansu⟧: France — the country\n- エッフェル⟦{塔|とう}→塔：09944_tou⟧: Eiffel Tower — the most famous Paris landmark\n- ルーブル⟦{美術館|びじゅつかん}→美術館：01717_bijutsukan⟧: the Louvre Museum",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "19418_furansu",
+      "reading": "ふらんす",
+      "headword": "フランス",
+      "label": "France"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "geography",
         "proper-noun",
@@ -59,6 +70,6 @@
       ]
     },
     "created": "2026-04-22T14:38:46Z",
-    "modified": "2026-08-11T04:24:46Z"
+    "modified": "2026-09-02T04:02:21Z"
   }
 }

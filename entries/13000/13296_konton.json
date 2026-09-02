@@ -15,42 +15,63 @@
   "examples": [
     {
       "id": "13296_konton_ex1",
-      "japanese": "{政局|せいきょく}は{混沌|こんとん}としている。",
+      "japanese": "{政局|せいきょく}⟦は→は：00079_ha⟧{混沌|こんとん}⟦として→として：06802_toshite⟧⟦いる→いる：00495_iru⟧。",
       "english": "The political situation is chaotic.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13296_konton_ex2",
-      "japanese": "{戦後|せんご}の{混沌|こんとん}とした{時代|じだい}を{生|い}き{抜|ぬ}いた。",
+      "japanese": "⟦{戦後|せんご}→戦後：12853_sengo⟧⟦の→の：09472_no⟧{混沌|こんとん}とした⟦{時代|じだい}→時代：01424_jidai⟧⟦を→を：00422_wo⟧⟦{生|い}き→生きる：01184_ikiru⟧⟦{抜|ぬ}いた→抜く：02384_nuku⟧。",
       "english": "They survived the chaotic postwar era.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13296_konton_ex3",
-      "japanese": "{情報|じょうほう}が{多|おお}すぎて{頭|あたま}の{中|なか}が{混沌|こんとん}としてきた。",
+      "japanese": "⟦{情報|じょうほう}→情報：03348_jouhou⟧⟦が→が：00051_ga⟧{多|おお}すぎて⟦{頭|あたま}→頭：00574_atama⟧⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧⟦が→が：00051_ga⟧{混沌|こんとん}⟦として→として：06802_toshite⟧きた。",
       "english": "There is too much information and my mind has become muddled.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nMost commonly used in the form {混沌|こんとん}とした (chaotic, disordered) or {混沌|こんとん}としている (is in a state of chaos). Grammatically functions as a taru-adjective: {混沌|こんとん}とした{状態|じょうたい} (a chaotic state).\n\nAlso written in katakana as カオス (from English \"chaos\"), which is more casual and common in everyday speech and internet culture.\n\nCOMMON COLLOCATIONS:\n- {混沌|こんとん}とした{状況|じょうきょう}: chaotic situation\n- {混沌|こんとん}とした{時代|じだい}: chaotic era\n- {混沌|こんとん}としている: to be in chaos\n- {混沌|こんとん}の{中|なか}: in the midst of chaos",
-  "cross_references": [],
+  "notes": "USAGE:\nMost commonly used in the form {混沌|こんとん}とした (chaotic, disordered) or {混沌|こんとん}⟦として→として：06802_toshite⟧⟦いる→いる：00495_iru⟧ (is in a state of chaos). Grammatically functions as a taru-adjective: {混沌|こんとん}とした⟦{状態|じょうたい}→状態：03345_joutai⟧ (a chaotic state).\n\nAlso written in katakana as ⟦カオス→カオス：10817_kaosu⟧ (from English \"chaos\"), which is more casual and common in everyday speech and internet culture.\n\nCOMMON COLLOCATIONS:\n- {混沌|こんとん}とした⟦{状況|じょうきょう}→状況：01576_joukyou⟧: chaotic situation\n- {混沌|こんとん}とした⟦{時代|じだい}→時代：01424_jidai⟧: chaotic era\n- {混沌|こんとん}⟦として→として：06802_toshite⟧⟦いる→いる：00495_iru⟧: to be in chaos\n- {混沌|こんとん}⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧: in the midst of chaos",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21429_muchitsujo",
+      "reading": "むちつじょ",
+      "headword": "{無秩序|むちつじょ}",
+      "label": "disorder"
+    }
+  ],
   "metadata": {
     "created": "2026-02-24T08:57:47Z",
-    "modified": "2026-02-24T08:57:47Z",
+    "modified": "2026-09-02T04:01:32Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-taru"],
+      "pos": [
+        "noun",
+        "adjective-taru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "style": ["written"]
+      "semantic": [
+        "general"
+      ],
+      "style": [
+        "written"
+      ]
     }
   }
 }

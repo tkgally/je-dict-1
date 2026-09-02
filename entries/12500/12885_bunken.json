@@ -15,42 +15,90 @@
   "examples": [
     {
       "id": "12885_bunken_ex1",
-      "japanese": "{関連|かんれん}{文献|ぶんけん}を{調|しら}べた。",
+      "japanese": "⟦{関連|かんれん}→関連：00177_kanren⟧{文献|ぶんけん}⟦を→を：00422_wo⟧⟦{調|しら}べた→調べる：01213_shiraberu⟧。",
       "english": "I looked into the relevant literature.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12885_bunken_ex2",
-      "japanese": "{参考|さんこう}{文献|ぶんけん}のリストを{論文|ろんぶん}の{末尾|まつび}に{付|つ}ける。",
+      "japanese": "{参考|さんこう}{文献|ぶんけん}⟦の→の：09472_no⟧⟦リスト→リスト：09786_risuto⟧⟦を→を：00422_wo⟧⟦{論文|ろんぶん}→論文：03787_ronbun⟧⟦の→の：09472_no⟧⟦{末尾|まつび}→末尾：13065_matsubi⟧⟦に→に：00314_ni⟧⟦{付|つ}ける→付ける：00761_tsukeru⟧。",
       "english": "Attach a list of references at the end of the paper.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12885_bunken_ex3",
-      "japanese": "この{時代|じだい}については{残|のこ}っている{文献|ぶんけん}が{少|すく}なく、{詳|くわ}しいことがわかっていない。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{時代|じだい}→時代：01424_jidai⟧⟦について→〜について：03103_nitsuite⟧⟦は→は：00079_ha⟧⟦{残|のこ}っている→残る：01187_nokoru⟧{文献|ぶんけん}⟦が→が：00051_ga⟧⟦{少|すく}なく→少ない：01136_sukunai⟧、⟦{詳|くわ}しい→詳しい：02483_kuwashii⟧こと⟦が→が：00051_ga⟧わかって⟦いない→いる：00495_iru⟧。",
       "english": "Few documents survive from this period, so little is known in detail.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nPrimarily an academic and scholarly term. In research, {参考|さんこう}{文献|ぶんけん} (references, bibliography) is the standard term for citing sources. In historical contexts, {文献|ぶんけん} refers to surviving written records.\n\nCOMMON COLLOCATIONS:\n- {参考|さんこう}{文献|ぶんけん}: reference literature, bibliography\n- {関連|かんれん}{文献|ぶんけん}: related literature\n- {文献|ぶんけん}{調査|ちょうさ}: literature review, documentary research\n- {歴史|れきし}{文献|ぶんけん}: historical documents\n\nSIMILAR WORDS:\n- {資料|しりょう}: materials, data (broader, includes non-written sources)\n- {文書|ぶんしょ}: document, written text (individual document, more official)",
-  "cross_references": [],
+  "notes": "USAGE:\nPrimarily an academic and scholarly term. In research, {参考|さんこう}{文献|ぶんけん} (references, bibliography) is the standard term for citing sources. In historical contexts, {文献|ぶんけん} refers to surviving written records.\n\nCOMMON COLLOCATIONS:\n- {参考|さんこう}{文献|ぶんけん}: reference literature, bibliography\n- ⟦{関連|かんれん}→関連：00177_kanren⟧{文献|ぶんけん}: related literature\n- {文献|ぶんけん}⟦{調査|ちょうさ}→調査：03489_chousa⟧: literature review, documentary research\n- ⟦{歴史|れきし}→歴史：02267_rekishi⟧{文献|ぶんけん}: historical documents\n\nSIMILAR WORDS:\n- ⟦{資料|しりょう}→資料：04166_shiryou⟧: materials, data (broader, includes non-written sources)\n- ⟦{文書|ぶんしょ}→文書：12947_bunsho⟧: document, written text (individual document, more official)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04166_shiryou",
+      "reading": "しりょう",
+      "headword": "{資料|しりょう}",
+      "label": "materials, data"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12947_bunsho",
+      "reading": "ぶんしょ",
+      "headword": "{文書|ぶんしょ}",
+      "label": "document, written text"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03459_tosho",
+      "reading": "としょ",
+      "headword": "{図書|としょ}",
+      "label": "books, library books"
+    },
+    {
+      "type": "related",
+      "target_id": "15839_komonjo",
+      "reading": "こもんじょ",
+      "headword": "{古文書|こもんじょ}",
+      "label": "ancient document"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20753_shiryou",
+      "reading": "しりょう",
+      "headword": "{史料|しりょう}",
+      "label": "historical materials"
+    }
+  ],
   "metadata": {
     "created": "2026-02-22T12:47:41Z",
-    "modified": "2026-02-22T12:47:41Z",
+    "modified": "2026-09-02T04:01:31Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["academic"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "academic"
+      ]
     }
   }
 }

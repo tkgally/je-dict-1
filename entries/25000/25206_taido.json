@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "25206_taido_ex1",
-      "japanese": "{彼|かれ}は{大度|たいど}な{人物|じんぶつ}だ。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{大度|たいど}な⟦{人物|じんぶつ}→人物：03356_jinbutsu⟧だ。",
       "english": "He is a magnanimous person.",
       "has_audio": false,
       "sense_numbers": [
@@ -24,7 +24,7 @@
     },
     {
       "id": "25206_taido_ex2",
-      "japanese": "{大度|たいど}をもって{相手|あいて}を{許|ゆる}した。",
+      "japanese": "{大度|たいど}⟦をもって→をもって：06946_womotte⟧⟦{相手|あいて}→相手：01677_aite⟧⟦を→を：00422_wo⟧⟦{許|ゆる}した→許す：02325_yurusu⟧。",
       "english": "He forgave the other person with magnanimity.",
       "has_audio": false,
       "sense_numbers": [
@@ -34,7 +34,7 @@
     },
     {
       "id": "25206_taido_ex3",
-      "japanese": "{指導者|しどうしゃ}には{大度|たいど}な{心|こころ}が{求|もと}められる。",
+      "japanese": "⟦{指導者|しどうしゃ}→指導者：03062_shidousha⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{大度|たいど}な⟦{心|こころ}→心：01321_kokoro⟧⟦が→が：00051_ga⟧⟦{求|もと}められる→求める：02316_motomeru⟧。",
       "english": "Leaders are expected to have a magnanimous heart.",
       "has_audio": false,
       "sense_numbers": [
@@ -43,11 +43,33 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {大|たい} (great) + {度|ど} (measure, degree). Literally \"great measure,\" suggesting a person whose capacity for tolerance and understanding is vast. A literary and somewhat formal word.\n\nUSAGE:\n- {大度|たいど}な＋noun — as a na-adjective modifying a noun\n- {大度|たいど}をもって — \"with magnanimity\"\n- Most often used to describe leaders, historical figures, and respected individuals\n- Appears more in written and formal speech than casual conversation\n\nCOMMON COLLOCATIONS:\n- {大度|たいど}な{態度|たいど}: magnanimous attitude\n- {大度|たいど}な{人物|じんぶつ}: magnanimous person\n- {大度|たいど}をもって{接|せっ}する: to deal with others magnanimously\n\nSIMILAR WORDS:\n- {寛大|かんだい}: lenient, generous — more commonly used, emphasizes forgiveness\n- {度量|どりょう}: generosity of spirit, broadmindedness — similar meaning, slightly more common\n- {器|うつわ}が{大|おお}きい: to be big-hearted — a colloquial expression for the same quality",
-  "cross_references": [],
+  "notes": "Composed of {大|たい} (great) + ⟦{度|ど}→〜度：09845_do⟧ (measure, degree). Literally \"great measure,\" suggesting a person whose capacity for tolerance and understanding is vast. A literary and somewhat formal word.\n\nUSAGE:\n- {大度|たいど}な＋noun — as a na-adjective modifying a noun\n- {大度|たいど}⟦をもって→をもって：06946_womotte⟧ — \"with magnanimity\"\n- Most often used to describe leaders, historical figures, and respected individuals\n- Appears more in written and formal speech than casual conversation\n\nCOMMON COLLOCATIONS:\n- {大度|たいど}な⟦{態度|たいど}→態度：03396_taido⟧: magnanimous attitude\n- {大度|たいど}な⟦{人物|じんぶつ}→人物：03356_jinbutsu⟧: magnanimous person\n- {大度|たいど}⟦をもって→をもって：06946_womotte⟧⟦{接|せっ}する→接する：12920_sessuru⟧: to deal with others magnanimously\n\nSIMILAR WORDS:\n- ⟦{寛大|かんだい}→寛大：15278_kandai⟧: lenient, generous — more commonly used, emphasizes forgiveness\n- ⟦{度量|どりょう}→度量：21413_doryou⟧: generosity of spirit, broadmindedness — similar meaning, slightly more common\n- ⟦{器|うつわ}が{大|おお}きい→器が大きい：25704_utsuwagaookii⟧: to be big-hearted — a colloquial expression for the same quality",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15278_kandai",
+      "reading": "かんだい",
+      "headword": "{寛大|かんだい}",
+      "label": "lenient, generous"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21413_doryou",
+      "reading": "どりょう",
+      "headword": "{度量|どりょう}",
+      "label": "generosity of spirit, broadmindedness"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25704_utsuwagaookii",
+      "reading": "うつわがおおきい",
+      "headword": "{器|うつわ}が{大|おお}きい",
+      "label": "to be big-hearted"
+    }
+  ],
   "metadata": {
     "created": "2026-04-23T14:43:26Z",
-    "modified": "2026-08-04T12:59:53Z",
+    "modified": "2026-09-02T04:02:21Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",

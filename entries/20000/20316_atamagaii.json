@@ -15,40 +15,88 @@
   "examples": [
     {
       "id": "20316_atamagaii_ex1",
-      "japanese": "{彼女|かのじょ}は{頭|あたま}がいい。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧{頭|あたま}がいい。",
       "english": "She is smart.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20316_atamagaii_ex2",
-      "japanese": "{頭|あたま}がいい{人|ひと}は{説明|せつめい}が{上手|じょうず}だ。",
+      "japanese": "{頭|あたま}がいい⟦{人|ひと}→人：00476_hito⟧⟦は→は：00079_ha⟧⟦{説明|せつめい}→説明：01449_setsumei⟧⟦が→が：00051_ga⟧⟦{上手|じょうず}→上手：00707_jouzu⟧だ。",
       "english": "Smart people are good at explaining things.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20316_atamagaii_ex3",
-      "japanese": "あの{子|こ}は{頭|あたま}がいいだけでなく、{運動|うんどう}もできる。",
+      "japanese": "⟦あの→あの：00915_ano⟧⟦{子|こ}→子：09851_ko⟧⟦は→は：00079_ha⟧{頭|あたま}がいい⟦だけでなく→〜だけでなく：18373_dakedenaku⟧、⟦{運動|うんどう}→運動：00821_undou⟧⟦も→も：00484_mo⟧⟦できる→できる：00557_dekiru⟧。",
       "english": "That kid is not only smart but also good at sports.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Literally \"head is good.\" The most natural and common way to express that someone is intelligent in casual Japanese. The opposite is {頭|あたま}が{悪|わる}い (not smart, slow-witted), which is quite blunt and can be offensive.\n\nUSAGE:\nUsed freely in conversation but avoided in formal writing, where {聡明|そうめい}な or {知的|ちてき}な is preferred. Can refer to academic intelligence, quick thinking, or practical cleverness depending on context. Sometimes used sarcastically: {頭|あたま}がいいね can mean \"aren't you clever\" in an ironic way.\n\nCOMMON COLLOCATIONS:\n- {頭|あたま}がいい{人|ひと} — a smart person\n- {頭|あたま}が{悪|わる}い — not smart, slow (opposite; blunt)\n- {頭|あたま}の{良|よ}さ — smartness, intelligence\n- {頭|あたま}の{良|い}い{子|こ} — a bright child\n\nSIMILAR WORDS:\n- {賢|かしこ}い — wise, clever (slightly more formal; includes practical wisdom)\n- {聡明|そうめい}な — brilliant, sagacious (formal; literary)\n- {利口|りこう}な — clever, shrewd (can imply street-smarts or being calculating)",
+  "notes": "Literally \"head is good.\" The most natural and common way to express that someone is intelligent in casual Japanese. The opposite is ⟦{頭|あたま}→頭：00574_atama⟧⟦が→が：00051_ga⟧⟦{悪|わる}い→悪い：00908_warui⟧ (not smart, slow-witted), which is quite blunt and can be offensive.\n\nUSAGE:\nUsed freely in conversation but avoided in formal writing, where ⟦{聡明|そうめい}→聡明：28251_soumei⟧な or ⟦{知的|ちてき}→知的：13700_chiteki⟧な is preferred. Can refer to academic intelligence, quick thinking, or practical cleverness depending on context. Sometimes used sarcastically: {頭|あたま}がいい⟦ね→ね：09474_ne⟧ can mean \"aren't you clever\" in an ironic way.\n\nCOMMON COLLOCATIONS:\n- {頭|あたま}がいい⟦{人|ひと}→人：00476_hito⟧ — a smart person\n- ⟦{頭|あたま}→頭：00574_atama⟧⟦が→が：00051_ga⟧⟦{悪|わる}い→悪い：00908_warui⟧ — not smart, slow (opposite; blunt)\n- ⟦{頭|あたま}→頭：00574_atama⟧⟦の→の：09472_no⟧{良|よ}さ — smartness, intelligence\n- ⟦{頭|あたま}→頭：00574_atama⟧⟦の→の：09472_no⟧{良|い}い⟦{子|こ}→子：09851_ko⟧ — a bright child\n\nSIMILAR WORDS:\n- ⟦{賢|かしこ}い→賢い：00192_kashikoi⟧ — wise, clever (slightly more formal; includes practical wisdom)\n- ⟦{聡明|そうめい}→聡明：28251_soumei⟧な — brilliant, sagacious (formal; literary)\n- ⟦{利口|りこう}→利口：03801_rikou⟧な — clever, shrewd (can imply street-smarts or being calculating)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00192_kashikoi",
+      "reading": "かしこい",
+      "headword": "{賢|かしこ}い",
+      "label": "wise, clever (slightly more formal"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28251_soumei",
+      "reading": "そうめい",
+      "headword": "{聡明|そうめい}",
+      "label": "brilliant, sagacious (formal"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03801_rikou",
+      "reading": "りこう",
+      "headword": "{利口|りこう}",
+      "label": "clever, shrewd"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06893_atamagakatai",
+      "reading": "あたまがかたい",
+      "headword": "{頭|あたま}が{固|かた}い",
+      "label": "stubborn, inflexible, rigid in thinking"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22114_atamanokaitengahayai",
+      "reading": "あたまのかいてんがはやい",
+      "headword": "{頭|あたま}の{回転|かいてん}が{速|はや}い",
+      "label": "quick-witted"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["expression"],
+      "pos": [
+        "expression"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["evaluation", "personal-quality"]
+      "semantic": [
+        "evaluation",
+        "personal-quality"
+      ]
     },
     "created": "2026-03-28T20:18:32Z",
-    "modified": "2026-03-28T20:18:32Z"
+    "modified": "2026-09-02T04:01:59Z"
   }
 }

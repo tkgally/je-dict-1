@@ -15,41 +15,66 @@
   "examples": [
     {
       "id": "15614_sakurairo_ex1",
-      "japanese": "{桜色|さくらいろ}のスカーフを{買|か}った。",
+      "japanese": "{桜色|さくらいろ}⟦の→の：09472_no⟧スカーフ⟦を→を：00422_wo⟧⟦{買|か}った→買う：00489_kau⟧。",
       "english": "I bought a cherry-blossom-pink scarf.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15614_sakurairo_ex2",
-      "japanese": "{空|そら}が{夕焼|ゆうや}けで{桜色|さくらいろ}に{染|そ}まった。",
+      "japanese": "⟦{空|そら}→空：02216_sora⟧⟦が→が：00051_ga⟧⟦{夕焼|ゆうや}け→夕焼け：05045_yuuyake⟧⟦で→で：00502_de⟧{桜色|さくらいろ}⟦に→に：00314_ni⟧⟦{染|そ}まった→染まる：04254_somaru⟧。",
       "english": "The sky was dyed cherry blossom pink by the sunset.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15614_sakurairo_ex3",
-      "japanese": "{春|はる}になると{桜色|さくらいろ}のお{菓子|かし}や{飲|の}み{物|もの}が{店頭|てんとう}に{並|なら}ぶ。",
+      "japanese": "⟦{春|はる}→春：00627_haru⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦と→と：00512_to⟧{桜色|さくらいろ}⟦の→の：09472_no⟧⟦お{菓子|かし}→お菓子：02852_okashi⟧や⟦{飲|の}み{物|もの}→飲み物：02929_nomimono⟧⟦が→が：00051_ga⟧⟦{店頭|てんとう}→店頭：12488_tentou⟧⟦に→に：00314_ni⟧⟦{並|なら}ぶ→並ぶ：00605_narabu⟧。",
       "english": "When spring comes, cherry-blossom-pink sweets and drinks line the store shelves.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "CULTURAL NOTE:\n{桜色|さくらいろ} is one of Japan's traditional color names ({伝統色|でんとうしょく}). It is strongly associated with spring and is widely used in seasonal marketing — many spring-limited products feature this color.\n\nCOMMON COLLOCATIONS:\n- {桜色|さくらいろ}に{染|そ}まる (to be dyed cherry blossom pink)\n- {桜色|さくらいろ}の{頬|ほお} (rosy/blushing cheeks)\n- {桜色|さくらいろ}の{着物|きもの} (a pink kimono)\n\nRELATED COLORS:\n- {薄桃色|うすももいろ} (light peach) — similar but slightly warmer\n- ピンク — the general loanword for pink",
-  "cross_references": [],
+  "notes": "CULTURAL NOTE:\n{桜色|さくらいろ} is one of Japan's traditional color names ({伝統色|でんとうしょく}). It is strongly associated with spring and is widely used in seasonal marketing — many spring-limited products feature this color.\n\nCOMMON COLLOCATIONS:\n- {桜色|さくらいろ}⟦に→に：00314_ni⟧⟦{染|そ}まる→染まる：04254_somaru⟧ (to be dyed cherry blossom pink)\n- {桜色|さくらいろ}⟦の→の：09472_no⟧⟦{頬|ほお}→頬：03717_hoo⟧ (rosy/blushing cheeks)\n- {桜色|さくらいろ}⟦の→の：09472_no⟧⟦{着物|きもの}→着物：01309_kimono⟧ (a pink kimono)\n\nRELATED COLORS:\n- {薄桃色|うすももいろ} (light peach) — similar but slightly warmer\n- ⟦ピンク→ピンク：04718_pinku⟧ — the general loanword for pink",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "04718_pinku",
+      "reading": "ぴんく",
+      "headword": "ピンク",
+      "label": "the general loanword for pink"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24019_usubeniiro",
+      "reading": "うすべにいろ",
+      "headword": "{薄紅色|うすべにいろ}",
+      "label": "pale pink"
+    }
+  ],
   "metadata": {
     "created": "2026-03-07T13:10:37Z",
-    "modified": "2026-03-07T13:10:37Z",
+    "modified": "2026-09-02T04:01:41Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["color"]
+      "semantic": [
+        "color"
+      ]
     }
   }
 }

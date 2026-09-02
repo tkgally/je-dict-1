@@ -2,7 +2,7 @@
   "id": "04840_koyou",
   "headword": "{雇用|こよう}",
   "reading": "こよう",
-  "part_of_speech": "noun (verbal)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "employment",
   "conjugation": {
     "type": "suru",
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "{雇用|こよう} is a key term in labor and economic discussions, referring to the act of hiring or the state of employment.\n\nCOMMON EXPRESSIONS:\n- {雇用|こよう}する: to employ, to hire\n- {雇用|こよう}⟦{契約|けいやく}→契約：02698_keiyaku⟧: employment contract\n- {雇用|こよう}⟦{保険|ほけん}→保険：01509_hoken⟧: employment insurance\n- {雇用|こよう}⟦を→を：00422_wo⟧⟦{創出|そうしゅつ}する→創出する：noentry⟧: to create employment\n\nEMPLOYMENT TYPES IN JAPAN:\n- ⟦{正規|せいき}→正規：03776_seiki⟧{雇用|こよう}: regular employment (full-time, permanent)\n- ⟦{非正規|ひせいき}→非正規：26236_hiseiki⟧{雇用|こよう}: non-regular employment (part-time, contract, temp)\n- ⟦{終身|しゅうしん}→終身：09947_shuushin⟧{雇用|こよう}: lifetime employment (traditional Japanese system, declining)\n\nCULTURAL NOTE:\nJapan's traditional ⟦{終身|しゅうしん}→終身：09947_shuushin⟧{雇用|こよう} system — where employees stay with one company for their entire career — has been weakening. The rise of ⟦{非正規|ひせいき}→非正規：26236_hiseiki⟧{雇用|こよう} is a major social issue.",
+  "notes": "{雇用|こよう} is a key term in labor and economic discussions, referring to the act of hiring or the state of employment.\n\nCOMMON EXPRESSIONS:\n- {雇用|こよう}⟦する→する：00392_suru⟧: to employ, to hire\n- {雇用|こよう}⟦{契約|けいやく}→契約：02698_keiyaku⟧: employment contract\n- {雇用|こよう}⟦{保険|ほけん}→保険：01509_hoken⟧: employment insurance\n- {雇用|こよう}⟦を→を：00422_wo⟧⟦{創出|そうしゅつ}する→創出する：noentry⟧: to create employment\n\nEMPLOYMENT TYPES IN JAPAN:\n- ⟦{正規|せいき}→正規：03776_seiki⟧{雇用|こよう}: regular employment (full-time, permanent)\n- ⟦{非正規|ひせいき}→非正規：26236_hiseiki⟧{雇用|こよう}: non-regular employment (part-time, contract, temp)\n- ⟦{終身|しゅうしん}→終身：09947_shuushin⟧{雇用|こよう}: lifetime employment (traditional Japanese system, declining)\n\nCULTURAL NOTE:\nJapan's traditional ⟦{終身|しゅうしん}→終身：09947_shuushin⟧{雇用|こよう} system — where employees stay with one company for their entire career — has been weakening. The rise of ⟦{非正規|ひせいき}→非正規：26236_hiseiki⟧{雇用|こよう} is a major social issue.",
   "cross_references": [
     {
       "type": "related",
@@ -141,11 +141,25 @@
       "reading": "やとう",
       "headword": "{雇|やと}う",
       "label": "to hire (verb)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03776_seiki",
+      "reading": "せいき",
+      "headword": "{正規|せいき}",
+      "label": "regular, legitimate, official"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20129_shieki",
+      "reading": "しえき",
+      "headword": "{使役|しえき}",
+      "label": "employment"
     }
   ],
   "metadata": {
     "created": "2026-01-16T00:30:19Z",
-    "modified": "2026-07-31T09:22:34Z",
+    "modified": "2026-09-02T04:01:05Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

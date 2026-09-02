@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25874_hiren_ex1",
-      "japanese": "これは{悲恋|ひれん}の{物語|ものがたり}だ。",
+      "japanese": "⟦これ→これ：00963_kore⟧⟦は→は：00079_ha⟧{悲恋|ひれん}⟦の→の：09472_no⟧⟦{物語|ものがたり}→物語：03634_monogatari⟧だ。",
       "english": "This is a story of tragic love.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25874_hiren_ex2",
-      "japanese": "{二人|ふたり}の{悲恋|ひれん}は{多|おお}くの{人|ひと}の{涙|なみだ}を{誘|さそ}った。",
+      "japanese": "⟦{二人|ふたり}→二人：00622_futari⟧⟦の→の：09472_no⟧{悲恋|ひれん}⟦は→は：00079_ha⟧{多|おお}く⟦の→の：09472_no⟧⟦{人|ひと}→人：00476_hito⟧⟦の→の：09472_no⟧⟦{涙|なみだ}→涙：02235_namida⟧⟦を→を：00422_wo⟧⟦{誘|さそ}った→誘う：01947_sasou⟧。",
       "english": "Their tragic love story moved many people to tears.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25874_hiren_ex3",
-      "japanese": "{戦争|せんそう}に{引|ひ}き{裂|さ}かれた{悲恋|ひれん}を{描|えが}いた{映画|えいが}が{公開|こうかい}された。",
+      "japanese": "⟦{戦争|せんそう}→戦争：01450_sensou⟧⟦に→に：00314_ni⟧⟦{引|ひ}き{裂|さ}かれた→引き裂く：12459_hikisaku⟧{悲恋|ひれん}⟦を→を：00422_wo⟧⟦{描|えが}いた→描く：02013_egaku⟧⟦{映画|えいが}→映画：02273_eiga⟧⟦が→が：00051_ga⟧⟦{公開|こうかい}→公開：11665_koukai⟧⟦された→する：00392_suru⟧。",
       "english": "A movie depicting a tragic romance torn apart by war was released.",
       "sense_numbers": [
         1
@@ -44,8 +44,37 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {悲|ひ} (sad, tragic) + {恋|れん} (love, romance). A literary and dramatic term used to describe love stories with unhappy endings — separation, death, social barriers, or unrequited love. Very common in descriptions of novels, films, and historical romances.\n\nCOMMON COLLOCATIONS:\n- {悲恋|ひれん}の{物語|ものがたり}: tale of tragic love\n- {悲恋|ひれん}を{描|えが}く: depict a tragic romance\n- {悲恋|ひれん}に{終|お}わる: end in tragic love\n- {悲恋|ひれん}{小説|しょうせつ}: tragic love novel\n- {悲恋|ひれん}{映画|えいが}: tragic romance film\n\nSIMILAR WORDS:\n- {失恋|しつれん}: heartbreak, broken love (more everyday/personal)\n- {悲劇|ひげき}: tragedy (broader, not limited to love)\n- {純愛|じゅんあい}: pure love (can be tragic or happy)\n- {片思|かたおも}い: unrequited love (one-sided, may not be tragic)",
-  "cross_references": [],
+  "notes": "Composed of {悲|ひ} (sad, tragic) + {恋|れん} (love, romance). A literary and dramatic term used to describe love stories with unhappy endings — separation, death, social barriers, or unrequited love. Very common in descriptions of novels, films, and historical romances.\n\nCOMMON COLLOCATIONS:\n- {悲恋|ひれん}⟦の→の：09472_no⟧⟦{物語|ものがたり}→物語：03634_monogatari⟧: tale of tragic love\n- {悲恋|ひれん}⟦を→を：00422_wo⟧⟦{描|えが}く→描く：02013_egaku⟧: depict a tragic romance\n- {悲恋|ひれん}⟦に→に：00314_ni⟧{終|お}わる: end in tragic love\n- {悲恋|ひれん}⟦{小説|しょうせつ}→小説：01434_shousetsu⟧: tragic love novel\n- {悲恋|ひれん}⟦{映画|えいが}→映画：02273_eiga⟧: tragic romance film\n\nSIMILAR WORDS:\n- ⟦{失恋|しつれん}→失恋：04195_shitsuren⟧: heartbreak, broken love (more everyday/personal)\n- ⟦{悲劇|ひげき}→悲劇：03577_higeki⟧: tragedy (broader, not limited to love)\n- ⟦{純愛|じゅんあい}→純愛：25311_junai⟧: pure love (can be tragic or happy)\n- ⟦{片思|かたおも}い→片思い：16834_kataomoi⟧: unrequited love (one-sided, may not be tragic)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04195_shitsuren",
+      "reading": "しつれん",
+      "headword": "{失恋|しつれん}",
+      "label": "heartbreak, broken love"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03577_higeki",
+      "reading": "ひげき",
+      "headword": "{悲劇|ひげき}",
+      "label": "tragedy"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25311_junai",
+      "reading": "じゅんあい",
+      "headword": "{純愛|じゅんあい}",
+      "label": "pure love"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16834_kataomoi",
+      "reading": "かたおもい",
+      "headword": "{片思|かたおも}い",
+      "label": "unrequited love"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,12 +82,13 @@
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "emotion",
         "culture"
       ]
     },
     "created": "2026-04-27T16:21:44Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T04:02:24Z"
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "18388_nandoku_ex1",
-      "japanese": "これは{難読|なんどく}{漢字|かんじ}だ。",
+      "japanese": "⟦これ→これ：00963_kore⟧⟦は→は：00079_ha⟧{難読|なんどく}{漢字|かんじ}だ。",
       "english": "This is a hard-to-read kanji.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "18388_nandoku_ex2",
-      "japanese": "{日本|にほん}には{難読|なんどく}{地名|ちめい}がたくさんある。",
+      "japanese": "⟦{日本|にほん}→日本：03876_nihon⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{難読|なんどく}⟦{地名|ちめい}→地名：04059_chimei⟧⟦が→が：00051_ga⟧⟦たくさん→たくさん：00597_takusan⟧⟦ある→ある：00006_aru⟧。",
       "english": "There are many hard-to-read place names in Japan.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "18388_nandoku_ex3",
-      "japanese": "{難読|なんどく}{名字|みょうじ}の{持|も}ち{主|ぬし}は、いつも{名前|なまえ}の{読|よ}み{方|かた}を{説明|せつめい}しなければならない。",
+      "japanese": "{難読|なんどく}{名字|みょうじ}⟦の→の：09472_no⟧⟦{持|も}ち{主|ぬし}→持ち主：10439_mochinushi⟧⟦は→は：00079_ha⟧、⟦いつも→いつも：00599_itsumo⟧⟦{名前|なまえ}→名前：02234_namae⟧⟦の→の：09472_no⟧⟦{読|よ}み{方|かた}→読み方：14269_yomikata⟧⟦を→を：00422_wo⟧⟦{説明|せつめい}→説明：01449_setsumei⟧し⟦なければならない→なければならない：27600_nakerebanaranai⟧。",
       "english": "People with hard-to-read surnames always have to explain how to read their names.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,19 @@
       ]
     }
   ],
-  "notes": "COMMON COMPOUNDS:\n- {難読|なんどく}{漢字|かんじ} (hard-to-read kanji)\n- {難読|なんどく}{地名|ちめい} (hard-to-read place names)\n- {難読|なんどく}{名字|みょうじ} (hard-to-read surnames)\n- {難読|なんどく}{語|ご} (hard-to-read words)\n\nCULTURAL NOTE:\nKanji quizzes featuring {難読|なんどく}{漢字|かんじ} are a popular form of entertainment in Japan, appearing in TV quiz shows, books, and online content. Common examples include {薔薇|ばら} (rose), {蝸牛|かたつむり} (snail), and {海豚|いるか} (dolphin).\n\nSIMILAR WORDS:\n- {読|よ}みにくい: Hard to read — more general, can refer to handwriting, small print, or poor formatting, not just kanji difficulty.",
-  "cross_references": [],
+  "notes": "COMPOUNDS:\n- {難読|なんどく}{漢字|かんじ} (hard-to-read kanji)\n- {難読|なんどく}⟦{地名|ちめい}→地名：04059_chimei⟧ (hard-to-read place names)\n- {難読|なんどく}{名字|みょうじ} (hard-to-read surnames)\n- {難読|なんどく}⟦{語|ご}→〜語：09841_go⟧ (hard-to-read words)\n\nCULTURAL NOTE:\nKanji quizzes featuring {難読|なんどく}{漢字|かんじ} are a popular form of entertainment in Japan, appearing in TV quiz shows, books, and online content. Common examples include ⟦{薔薇|ばら}→薔薇：04390_bara⟧ (rose), ⟦{蝸牛|かたつむり}→蝸牛：04297_katatsumuri⟧ (snail), and ⟦{海豚|いるか}→海豚：04313_iruka⟧ (dolphin).\n\nSIMILAR WORDS:\n- ⟦{読|よ}み→読む：00426_yomu⟧にくい: Hard to read — more general, can refer to handwriting, small print, or poor formatting, not just kanji difficulty.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24368_jukujikun",
+      "reading": "じゅくじくん",
+      "headword": "{熟字訓|じゅくじくん}",
+      "label": "special kanji compound reading"
+    }
+  ],
   "metadata": {
     "created": "2026-03-21T10:58:48Z",
-    "modified": "2026-05-08T10:08:08Z",
+    "modified": "2026-09-02T04:01:52Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

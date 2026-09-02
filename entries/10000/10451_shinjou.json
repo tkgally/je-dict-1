@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "10451_shinjou_ex1",
-      "japanese": "{信条|しんじょう}を{貫|つらぬ}く。",
+      "japanese": "{信条|しんじょう}⟦を→を：00422_wo⟧⟦{貫|つらぬ}く→貫く：18728_tsuranuku⟧。",
       "english": "To hold fast to one's beliefs.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "10451_shinjou_ex2",
-      "japanese": "{彼|かれ}は{善|ぜん}を{行|おこな}うことを{信条|しんじょう}としている。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{善|ぜん}→善：00465_zen⟧⟦を→を：00422_wo⟧⟦{行|おこな}う→行う：01238_okonau⟧こと⟦を→を：00422_wo⟧{信条|しんじょう}⟦として→として：06802_toshite⟧⟦いる→いる：00495_iru⟧。",
       "english": "He makes it his creed to do good.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "10451_shinjou_ex3",
-      "japanese": "{正直|しょうじき}であることが{私|わたし}の{信条|しんじょう}だ。",
+      "japanese": "⟦{正直|しょうじき}→正直：01562_shoujiki⟧⟦である→である：09855_dearu⟧こと⟦が→が：00051_ga⟧⟦{私|わたし}→私：02988_watashi⟧⟦の→の：09472_no⟧{信条|しんじょう}だ。",
       "english": "Being honest is my principle.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,54 @@
       ]
     }
   ],
-  "notes": "{信条|しんじょう} is composed of {信|しん} (belief) + {条|じょう} (article, clause).\n\nCOMMON PATTERNS:\n- 〜を{信条|しんじょう}とする: to make ~ one's creed\n- {信条|しんじょう}を{貫|つらぬ}く: to stick to one's beliefs\n- {信条|しんじょう}を{持|も}つ: to hold a belief\n\nSIMILAR WORDS:\n- {信条|しんじょう}: creed, personal principle (personal convictions)\n- {信念|しんねん}: conviction, belief (stronger, unwavering)\n- {主義|しゅぎ}: principle, -ism (ideological)",
-  "cross_references": [],
+  "notes": "{信条|しんじょう} is composed of {信|しん} (belief) + {条|じょう} (article, clause).\n\nCOMMON PATTERNS:\n- 〜⟦を→を：00422_wo⟧{信条|しんじょう}⟦と→と：00512_to⟧⟦する→する：00392_suru⟧: to make ~ one's creed\n- {信条|しんじょう}⟦を→を：00422_wo⟧⟦{貫|つらぬ}く→貫く：18728_tsuranuku⟧: to stick to one's beliefs\n- {信条|しんじょう}⟦を→を：00422_wo⟧⟦{持|も}つ→持つ：00478_motsu⟧: to hold a belief\n\nSIMILAR WORDS:\n- {信条|しんじょう}: creed, personal principle (personal convictions)\n- ⟦{信念|しんねん}→信念：03074_shinnen⟧: conviction, belief (stronger, unwavering)\n- ⟦{主義|しゅぎ}→主義：03215_shugi⟧: principle, -ism (ideological)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03074_shinnen",
+      "reading": "しんねん",
+      "headword": "{信念|しんねん}",
+      "label": "conviction, belief"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03215_shugi",
+      "reading": "しゅぎ",
+      "headword": "{主義|しゅぎ}",
+      "label": "principle, -ism"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12978_kyougi",
+      "reading": "きょうぎ",
+      "headword": "{教義|きょうぎ}",
+      "label": "doctrine, dogma, tenet"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20568_zayuunomei",
+      "reading": "ざゆうのめい",
+      "headword": "{座右|ざゆう}の{銘|めい}",
+      "label": "personal motto"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26090_jinseitetsugaku",
+      "reading": "じんせいてつがく",
+      "headword": "{人生哲学|じんせいてつがく}",
+      "label": "philosophy of life"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29293_mottoo",
+      "reading": "もっとー",
+      "headword": "モットー",
+      "label": "motto"
+    }
+  ],
   "metadata": {
     "created": "2026-02-07T11:20:16Z",
-    "modified": "2026-08-14T09:51:20Z",
+    "modified": "2026-09-02T04:01:21Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

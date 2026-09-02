@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "23003_seizentosuru_ex1",
-      "japanese": "{部屋|へや}が{整然|せいぜん}としている。",
+      "japanese": "⟦{部屋|へや}→部屋：00507_heya⟧⟦が→が：00051_ga⟧{整然|せいぜん}として⟦いる→いる：00495_iru⟧。",
       "english": "The room is neat and orderly.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "23003_seizentosuru_ex2",
-      "japanese": "{整然|せいぜん}とした{議論|ぎろん}が{行|おこな}われた。",
+      "japanese": "{整然|せいぜん}とした⟦{議論|ぎろん}→議論：02650_giron⟧⟦が→が：00051_ga⟧⟦{行|おこな}われた→行う：01238_okonau⟧。",
       "english": "An orderly discussion took place.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "23003_seizentosuru_ex3",
-      "japanese": "{災害|さいがい}のときでも、{人々|ひとびと}は{整然|せいぜん}と{列|れつ}に{並|なら}んでいた。",
+      "japanese": "⟦{災害|さいがい}→災害：09636_saigai⟧⟦の→の：09472_no⟧とき⟦で→で：00502_de⟧⟦も→も：00484_mo⟧、⟦{人々|ひとびと}→人々：03141_hitobito⟧⟦は→は：00079_ha⟧⟦{整然|せいぜん}→整然：09210_seizen⟧⟦と→と：00512_to⟧⟦{列|れつ}→列：02171_retsu⟧⟦に→に：00314_ni⟧⟦{並|なら}んでいた→並ぶ：00605_narabu⟧。",
       "english": "Even during the disaster, people lined up in an orderly manner.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Describes a state of order and organization. Most commonly used in the adverbial form {整然|せいぜん}と or as the modifier {整然|せいぜん}とした. Conveys a sense of neatness, systematic arrangement, and discipline.\n\nCOMMON PATTERNS:\n- {整然|せいぜん}と{並|なら}ぶ: to line up in an orderly way\n- {整然|せいぜん}とした{部屋|へや}: a tidy room\n- {整然|せいぜん}とした{態度|たいど}: composed, orderly behavior\n- {整然|せいぜん}と{進|すす}める: to proceed in an orderly fashion\n\nOPPOSITE:\n- {雑然|ざつぜん}とする: to be cluttered, messy, in disorder — the direct antonym\n\nSIMILAR WORDS:\n- きちんとする: to be tidy, proper — more casual and everyday; covers both physical tidiness and behavioral correctness\n- {秩序|ちつじょ}{正|ただ}しい: orderly, disciplined — emphasizes following rules and social order\n- {整|ととの}った: well-arranged, in order — describes the result of organizing",
+  "notes": "Describes a state of order and organization. Most commonly used in the adverbial form ⟦{整然|せいぜん}→整然：09210_seizen⟧⟦と→と：00512_to⟧ or as the modifier {整然|せいぜん}とした. Conveys a sense of neatness, systematic arrangement, and discipline.\n\nCOMMON PATTERNS:\n- ⟦{整然|せいぜん}→整然：09210_seizen⟧⟦と→と：00512_to⟧⟦{並|なら}ぶ→並ぶ：00605_narabu⟧: to line up in an orderly way\n- {整然|せいぜん}とした⟦{部屋|へや}→部屋：00507_heya⟧: a tidy room\n- {整然|せいぜん}とした⟦{態度|たいど}→態度：03396_taido⟧: composed, orderly behavior\n- ⟦{整然|せいぜん}→整然：09210_seizen⟧⟦と→と：00512_to⟧⟦{進|すす}める→進める：01949_susumeru⟧: to proceed in an orderly fashion\n\nSIMILAR WORDS:\n- ⟦{雑然|ざつぜん}→雑然：09236_zatsuzen⟧⟦と→と：00512_to⟧⟦する→する：00392_suru⟧: to be cluttered, messy, in disorder — the direct antonym\n- ⟦きちんとする→きちんとする：25802_kichintosuru⟧: to be tidy, proper — more casual and everyday; covers both physical tidiness and behavioral correctness\n- ⟦{秩序|ちつじょ}{正|ただ}しい→秩序正しい：22040_chitsujotadashii⟧: orderly, disciplined — emphasizes following rules and social order\n- ⟦{整|ととの}った→整う：03935_totonou⟧: well-arranged, in order — describes the result of organizing",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25802_kichintosuru",
+      "reading": "きちんとする",
+      "headword": "きちんとする",
+      "label": "to be tidy, proper"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22040_chitsujotadashii",
+      "reading": "ちつじょただしい",
+      "headword": "{秩序正|ちつじょただ}しい",
+      "label": "orderly, disciplined"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -54,11 +70,14 @@
       ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["descriptive"],
-      "verb_class": "suru"
+      "semantic": [
+        "descriptive"
+      ],
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     },
     "created": "2026-04-08T15:38:14Z",
-    "modified": "2026-07-31T00:22:30Z"
+    "modified": "2026-09-02T04:02:10Z"
   },
   "conjugation": {
     "type": "suru",

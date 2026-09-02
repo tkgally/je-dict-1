@@ -3,7 +3,7 @@
   "headword": "{取|と}り{押|お}さえる",
   "reading": "とりおさえる",
   "romaji": "toriosaeru",
-  "part_of_speech": "verb-ichidan",
+  "part_of_speech": "verb (ichidan)",
   "gloss": "to restrain; to pin down; to apprehend",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28563_toriosaeru_ex1",
-      "japanese": "{警官|けいかん}が{犯人|はんにん}を{取|と}り{押|お}さえた。",
+      "japanese": "⟦{警官|けいかん}→警官：02876_keikan⟧⟦が→が：00051_ga⟧⟦{犯人|はんにん}→犯人：03572_hannin⟧⟦を→を：00422_wo⟧{取|と}り{押|お}さえた。",
       "english": "The police officer apprehended the suspect.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28563_toriosaeru_ex2",
-      "japanese": "{店員|てんいん}が{万引|まんび}き{犯|はん}を{取|と}り{押|お}さえた。",
+      "japanese": "⟦{店員|てんいん}→店員：00897_tenin⟧⟦が→が：00051_ga⟧⟦{万引|まんび}き→万引き：16838_manbiki⟧{犯|はん}⟦を→を：00422_wo⟧{取|と}り{押|お}さえた。",
       "english": "The store clerk apprehended the shoplifter.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28563_toriosaeru_ex3",
-      "japanese": "{暴|あば}れる{男|おとこ}を{周|まわ}りの{乗客|じょうきゃく}が{取|と}り{押|お}さえ、{警察|けいさつ}が{到着|とうちゃく}するのを{待|ま}った。",
+      "japanese": "⟦{暴|あば}れる→暴れる：04575_abareru⟧⟦{男|おとこ}→男：00561_otoko⟧⟦を→を：00422_wo⟧⟦{周|まわ}り→周り：01732_mawari⟧⟦の→の：09472_no⟧⟦{乗客|じょうきゃく}→乗客：03284_joukyaku⟧⟦が→が：00051_ga⟧{取|と}り{押|お}さえ、⟦{警察|けいさつ}→警察：01393_keisatsu⟧⟦が→が：00051_ga⟧⟦{到着|とうちゃく}→到着：02526_touchaku⟧⟦する→する：00392_suru⟧⟦の→の：09472_no⟧⟦を→を：00422_wo⟧⟦{待|ま}った→待つ：00469_matsu⟧。",
       "english": "The other passengers restrained the violent man and waited for the police to arrive.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {取|と}る (to take/catch) + {押|お}さえる (to press down/hold). Strongly associated with apprehending suspects, criminals, or violent individuals — implies physical force and an attempt to escape or resist.\n\nTRANSITIVITY:\nTransitive (takes を).\n- subject + object + を + {取|と}り{押|お}さえる\n\nCOMMON COLLOCATIONS:\n- {犯人|はんにん}を{取|と}り{押|お}さえる: to apprehend a suspect\n- {容疑者|ようぎしゃ}を{取|と}り{押|お}さえる: to apprehend a suspect\n- {暴|あば}れる{男|おとこ}を{取|と}り{押|お}さえる: to restrain a violent man\n\nSIMILAR WORDS:\n- {捕|つか}まえる: to catch — broader, includes catching balls, animals, opportunities\n- {逮捕|たいほ}する: to arrest — formal legal action by police\n- {押|お}さえる: to press down, hold — simpler physical action without the apprehension nuance",
+  "notes": "Compound of ⟦{取|と}る→取る：00565_toru⟧ (to take/catch) + ⟦{押|お}さえる→押さえる：02021_osaeru⟧ (to press down/hold). Strongly associated with apprehending suspects, criminals, or violent individuals — implies physical force and an attempt to escape or resist.\n\nTRANSITIVITY:\nTransitive (takes ⟦を→を：00422_wo⟧).\n- subject + object + ⟦を→を：00422_wo⟧ + {取|と}り{押|お}さえる\n\nCOMMON COLLOCATIONS:\n- ⟦{犯人|はんにん}→犯人：03572_hannin⟧⟦を→を：00422_wo⟧{取|と}り{押|お}さえる: to apprehend a suspect\n- ⟦{容疑者|ようぎしゃ}→容疑者：15039_yougisha⟧⟦を→を：00422_wo⟧{取|と}り{押|お}さえる: to apprehend a suspect\n- ⟦{暴|あば}れる→暴れる：04575_abareru⟧⟦{男|おとこ}→男：00561_otoko⟧⟦を→を：00422_wo⟧{取|と}り{押|お}さえる: to restrain a violent man\n\nSIMILAR WORDS:\n- ⟦{捕|つか}まえる→捕まえる：01214_tsukamaeru⟧: to catch — broader, includes catching balls, animals, opportunities\n- ⟦{逮捕|たいほ}する→逮捕する：26830_taihosuru⟧: to arrest — formal legal action by police\n- ⟦{押|お}さえる→押さえる：02021_osaeru⟧: to press down, hold — simpler physical action without the apprehension nuance",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01214_tsukamaeru",
+      "reading": "つかまえる",
+      "headword": "{捕|つか}まえる",
+      "label": "to catch"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26830_taihosuru",
+      "reading": "たいほする",
+      "headword": "{逮捕|たいほ}する",
+      "label": "to arrest"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15007_kumifuseru",
+      "reading": "くみふせる",
+      "headword": "{組|く}み{伏|ふ}せる",
+      "label": "to pin someone down"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,15 +76,16 @@
         "verb-ichidan"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "action"
       ],
       "domain": [],
-      "verb_class": "ichidan"
+      "verb_class": "ichidan",
+      "transitivity": "transitive"
     },
     "created": "2026-06-02T02:07:31Z",
-    "modified": "2026-06-02T02:07:31Z"
+    "modified": "2026-09-02T04:02:34Z"
   },
   "conjugation": {
     "type": "ichidan",

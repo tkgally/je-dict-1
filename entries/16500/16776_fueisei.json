@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "16776_fueisei_ex1",
-      "japanese": "{不衛生|ふえいせい}な{環境|かんきょう}で{暮|く}らしている。",
+      "japanese": "{不衛生|ふえいせい}な⟦{環境|かんきょう}→環境：00174_kankyou⟧⟦で→で：00502_de⟧⟦{暮|く}らしている→暮らす：01937_kurasu⟧。",
       "english": "They are living in unsanitary conditions.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "16776_fueisei_ex2",
-      "japanese": "{手|て}を{洗|あら}わないのは{不衛生|ふえいせい}だ。",
+      "japanese": "⟦{手|て}→手：00569_te⟧⟦を→を：00422_wo⟧⟦{洗|あら}わない→洗う：00827_arau⟧⟦の→の：09472_no⟧⟦は→は：00079_ha⟧{不衛生|ふえいせい}だ。",
       "english": "Not washing your hands is unhygienic.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "16776_fueisei_ex3",
-      "japanese": "{不衛生|ふえいせい}な{調理場|ちょうりば}が{保健所|ほけんじょ}に{指摘|してき}され、{営業停止|えいぎょうていし}になった。",
+      "japanese": "{不衛生|ふえいせい}な⟦{調理場|ちょうりば}→調理場：23278_chouriba⟧⟦が→が：00051_ga⟧{保健所|ほけんじょ}⟦に→に：00314_ni⟧⟦{指摘|してき}→指摘：05630_shiteki⟧⟦され→する：00392_suru⟧、{営業停止|えいぎょうていし}になった。",
       "english": "The unsanitary kitchen was flagged by the health center, and the business was shut down.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "{不衛生|ふえいせい} describes conditions or practices that fail to meet hygiene standards and could harm health. Functions as both a noun and na-adjective.\n\nWORD FORMATION:\n{不|ふ} (non-/un-) + {衛生|えいせい} (hygiene, sanitation)\n\nCOMMON COLLOCATIONS:\n- {不衛生|ふえいせい}な{環境|かんきょう}: unsanitary environment\n- {不衛生|ふえいせい}な{状態|じょうたい}: unsanitary conditions\n- {不衛生|ふえいせい}な{食品|しょくひん}: unsanitary food\n- {不衛生|ふえいせい}な{調理場|ちょうりば}: unsanitary kitchen\n\nCONTRAST:\n- {衛生的|えいせいてき}: hygienic, sanitary (positive counterpart, na-adjective)\n- {衛生|えいせい}: hygiene, sanitation (noun base)\n\nUSAGE:\nOften appears in health inspections, news about food safety, and public health contexts. The {不|ふ}〜 prefix pattern is productive: {不安定|ふあんてい} (unstable), {不十分|ふじゅうぶん} (insufficient).",
+  "notes": "{不衛生|ふえいせい} describes conditions or practices that fail to meet hygiene standards and could harm health. Functions as both a noun and na-adjective.\n\nFORMS:\n{不|ふ} (non-/un-) + ⟦{衛生|えいせい}→衛生：14049_eisei⟧ (hygiene, sanitation)\n\nCOMMON COLLOCATIONS:\n- {不衛生|ふえいせい}な⟦{環境|かんきょう}→環境：00174_kankyou⟧: unsanitary environment\n- {不衛生|ふえいせい}な⟦{状態|じょうたい}→状態：03345_joutai⟧: unsanitary conditions\n- {不衛生|ふえいせい}な⟦{食品|しょくひん}→食品：03247_shokuhin⟧: unsanitary food\n- {不衛生|ふえいせい}な⟦{調理場|ちょうりば}→調理場：23278_chouriba⟧: unsanitary kitchen\n\nSIMILAR WORDS:\n- ⟦{衛生的|えいせいてき}→衛生的：27737_eiseiteki⟧: hygienic, sanitary (positive counterpart, na-adjective)\n- ⟦{衛生|えいせい}→衛生：14049_eisei⟧: hygiene, sanitation (noun base)\n\nUSAGE:\nOften appears in health inspections, news about food safety, and public health contexts. The {不|ふ}〜 prefix pattern is productive: ⟦{不安定|ふあんてい}→不安定：11318_fuantei⟧ (unstable), ⟦{不十分|ふじゅうぶん}→不十分：05616_fujuubun⟧ (insufficient).",
   "cross_references": [
     {
       "type": "antonym",
@@ -52,11 +52,25 @@
       "reading": "えいせい",
       "headword": "{衛生|えいせい}",
       "label": "hygiene, sanitation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27737_eiseiteki",
+      "reading": "えいせいてき",
+      "headword": "{衛生的|えいせいてき}",
+      "label": "hygienic, sanitary"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19753_fukenzen",
+      "reading": "ふけんぜん",
+      "headword": "{不健全|ふけんぜん}",
+      "label": "unhealthy"
     }
   ],
   "metadata": {
     "created": "2026-03-14T06:28:39Z",
-    "modified": "2026-05-04T10:11:42Z",
+    "modified": "2026-09-02T04:01:46Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

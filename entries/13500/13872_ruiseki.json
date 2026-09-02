@@ -3,7 +3,7 @@
   "id": "13872_ruiseki",
   "headword": "{累積|るいせき}",
   "reading": "るいせき",
-  "part_of_speech": "noun / verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "accumulation, buildup",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "13872_ruiseki_ex1",
-      "japanese": "{赤字|あかじ}が{累積|るいせき}している。",
+      "japanese": "⟦{赤字|あかじ}→赤字：04712_akaji⟧⟦が→が：00051_ga⟧{累積|るいせき}⟦している→する：00392_suru⟧。",
       "english": "Deficits are accumulating.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "13872_ruiseki_ex2",
-      "japanese": "{累積|るいせき}{債務|さいむ}が{膨大|ぼうだい}な{額|がく}に{達|たっ}した。",
+      "japanese": "{累積|るいせき}⟦{債務|さいむ}→債務：06578_saimu⟧⟦が→が：00051_ga⟧⟦{膨大|ぼうだい}→膨大：08997_boudai⟧な⟦{額|がく}→額：02607_gaku⟧⟦に→に：00314_ni⟧⟦{達|たっ}した→達する：02129_tassuru⟧。",
       "english": "The accumulated debt has reached an enormous amount.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "13872_ruiseki_ex3",
-      "japanese": "{長年|ながねん}の{疲労|ひろう}が{累積|るいせき}して{体|からだ}を{壊|こわ}した。",
+      "japanese": "⟦{長年|ながねん}→長年：09684_naganen⟧⟦の→の：09472_no⟧⟦{疲労|ひろう}→疲労：13603_hirou⟧⟦が→が：00051_ga⟧{累積|るいせき}⟦して→する：00392_suru⟧⟦{体|からだ}→体：00784_karada⟧⟦を→を：00422_wo⟧⟦{壊|こわ}した→壊す：01241_kowasu⟧。",
       "english": "Years of accumulated fatigue broke down my body.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nOften used with negative quantities — debts, deficits, losses, fatigue. Also used in neutral/technical contexts like {累積|るいせき}データ (cumulative data) and {累積|るいせき}{販売|はんばい}{数|すう} (cumulative sales figures). Common in finance, business, and statistics.\n\nSIMILAR WORDS:\n- {蓄積|ちくせき}: accumulation, storage (more positive, for knowledge, experience)\n- {集積|しゅうせき}: aggregation, concentration (clustering together)\n\nCOMMON COLLOCATIONS:\n- {累積|るいせき}{赤字|あかじ}: accumulated deficit\n- {累積|るいせき}{債務|さいむ}: accumulated debt\n- {累積|るいせき}{販売|はんばい}{数|すう}: cumulative sales figures\n- {疲労|ひろう}が{累積|るいせき}する: fatigue accumulates",
+  "notes": "USAGE:\nOften used with negative quantities — debts, deficits, losses, fatigue. Also used in neutral/technical contexts like {累積|るいせき}⟦データ→データ：03944_deeta⟧ (cumulative data) and {累積|るいせき}⟦{販売|はんばい}→販売：03573_hanbai⟧⟦{数|すう}→数：03360_suu⟧ (cumulative sales figures). Common in finance, business, and statistics.\n\nSIMILAR WORDS:\n- ⟦{蓄積|ちくせき}→蓄積：14023_chikuseki⟧: accumulation, storage (more positive, for knowledge, experience)\n- {集積|しゅうせき}: aggregation, concentration (clustering together)\n\nCOMMON COLLOCATIONS:\n- {累積|るいせき}⟦{赤字|あかじ}→赤字：04712_akaji⟧: accumulated deficit\n- {累積|るいせき}⟦{債務|さいむ}→債務：06578_saimu⟧: accumulated debt\n- {累積|るいせき}⟦{販売|はんばい}→販売：03573_hanbai⟧⟦{数|すう}→数：03360_suu⟧: cumulative sales figures\n- ⟦{疲労|ひろう}→疲労：13603_hirou⟧⟦が→が：00051_ga⟧{累積|るいせき}⟦する→する：00392_suru⟧: fatigue accumulates",
   "cross_references": [
     {
       "type": "synonym",
@@ -146,7 +146,7 @@
   ],
   "metadata": {
     "created": "2026-02-27T05:50:03Z",
-    "modified": "2026-04-29T09:23:58Z",
+    "modified": "2026-09-02T04:01:35Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -162,7 +162,8 @@
       "domain": [
         "business"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

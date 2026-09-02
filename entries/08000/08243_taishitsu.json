@@ -19,7 +19,7 @@
   "examples": [
     {
       "id": "08243_taishitsu_ex1",
-      "japanese": "アレルギー{体質|たいしつ}だ。",
+      "japanese": "⟦アレルギー→アレルギー：04645_arerugii⟧{体質|たいしつ}だ。",
       "english": "I have an allergic constitution.",
       "sense_numbers": [
         1
@@ -29,7 +29,7 @@
     },
     {
       "id": "08243_taishitsu_ex2",
-      "japanese": "{体質|たいしつ}に{合|あ}わない{薬|くすり}がある。",
+      "japanese": "{体質|たいしつ}⟦に→に：00314_ni⟧⟦{合|あ}わない→合う：10466_au⟧⟦{薬|くすり}→薬：00793_kusuri⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "Some medicines don't suit my constitution.",
       "sense_numbers": [
         1
@@ -39,7 +39,7 @@
     },
     {
       "id": "08243_taishitsu_ex3",
-      "japanese": "{太|ふと}りやすい{体質|たいしつ}だ。",
+      "japanese": "⟦{太|ふと}り→太る：01190_futoru⟧やすい{体質|たいしつ}だ。",
       "english": "I have a constitution that gains weight easily.",
       "sense_numbers": [
         1
@@ -49,7 +49,7 @@
     },
     {
       "id": "08243_taishitsu_ex4",
-      "japanese": "{会社|かいしゃ}の{体質|たいしつ}を{変|か}える。",
+      "japanese": "⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦の→の：09472_no⟧{体質|たいしつ}⟦を→を：00422_wo⟧⟦{変|か}える→変える：01089_kaeru⟧。",
       "english": "To change the company's culture.",
       "sense_numbers": [
         2
@@ -59,7 +59,7 @@
     },
     {
       "id": "08243_taishitsu_ex5",
-      "japanese": "{官僚的|かんりょうてき}な{体質|たいしつ}が{問題|もんだい}だ。",
+      "japanese": "{官僚的|かんりょうてき}な{体質|たいしつ}⟦が→が：00051_ga⟧⟦{問題|もんだい}→問題：00797_mondai⟧だ。",
       "english": "The bureaucratic culture is the problem.",
       "sense_numbers": [
         2
@@ -69,7 +69,7 @@
     },
     {
       "id": "08243_taishitsu_ex6",
-      "japanese": "{古|ふる}い{体質|たいしつ}から{脱却|だっきゃく}する。",
+      "japanese": "⟦{古|ふる}い→古い：00488_furui⟧{体質|たいしつ}⟦から→から：00504_kara⟧⟦{脱却|だっきゃく}→脱却：13944_dakkyaku⟧⟦する→する：00392_suru⟧。",
       "english": "To break away from old organizational habits.",
       "sense_numbers": [
         2
@@ -78,7 +78,44 @@
       "notes": null
     }
   ],
-  "notes": "USAGE:\n- {体質|たいしつ}に{合|あ}う/{合|あ}わない (suits/doesn't suit one's constitution)\n- 〜{体質|たいしつ} (having a ~ disposition)\n- {体質|たいしつ}{改善|かいぜん} (improving constitution/organizational culture)\n\nCOMMON TYPES:\n- アレルギー{体質|たいしつ} (allergic constitution)\n- {冷|ひ}え{性|しょう}{体質|たいしつ} (tendency to feel cold)\n- {太|ふと}りやすい{体質|たいしつ} (tendency to gain weight)\n\nFIGURATIVE (Sense 2):\nUsed to describe organizations, systems, or societies that have deep-rooted characteristics that are hard to change.\n\nRELATED:\n- {性質|せいしつ} (nature, character)\n- {気質|きしつ} (temperament)\n- {風土|ふうど} (culture, climate)",
+  "notes": "USAGE:\n- {体質|たいしつ}⟦に→に：00314_ni⟧⟦{合|あ}う→合う：10466_au⟧/⟦{合|あ}わない→合う：10466_au⟧ (suits/doesn't suit one's constitution)\n- 〜{体質|たいしつ} (having a ~ disposition)\n- {体質|たいしつ}⟦{改善|かいぜん}→改善：00144_kaizen⟧ (improving constitution/organizational culture)\n\nTYPES:\n- ⟦アレルギー→アレルギー：04645_arerugii⟧{体質|たいしつ} (allergic constitution)\n- ⟦{冷|ひ}え{性|しょう}→冷え性：18211_hieshou⟧{体質|たいしつ} (tendency to feel cold)\n- ⟦{太|ふと}り→太る：01190_futoru⟧やすい{体質|たいしつ} (tendency to gain weight)\n\nFIGURATIVE (Sense 2):\nUsed to describe organizations, systems, or societies that have deep-rooted characteristics that are hard to change.\n\nRELATED WORDS:\n- ⟦{性質|せいしつ}→性質：01638_seishitsu⟧ (nature, character)\n- ⟦{気質|きしつ}→気質：13256_kishitsu⟧ (temperament)\n- ⟦{風土|ふうど}→風土：14628_fuudo⟧ (culture, climate)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "01638_seishitsu",
+      "reading": "せいしつ",
+      "headword": "{性質|せいしつ}",
+      "label": "nature, character"
+    },
+    {
+      "type": "related",
+      "target_id": "13256_kishitsu",
+      "reading": "きしつ",
+      "headword": "{気質|きしつ}",
+      "label": "temperament"
+    },
+    {
+      "type": "related",
+      "target_id": "14628_fuudo",
+      "reading": "ふうど",
+      "headword": "{風土|ふうど}",
+      "label": "culture, climate"
+    },
+    {
+      "type": "related",
+      "target_id": "23230_arerugiitaishitsu",
+      "reading": "あれるぎーたいしつ",
+      "headword": "アレルギー{体質|たいしつ}",
+      "label": "allergic constitution"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25996_hadashitsu",
+      "reading": "はだしつ",
+      "headword": "{肌質|はだしつ}",
+      "label": "skin type"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -86,12 +123,13 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "health",
         "organization"
       ]
     },
     "created": "2026-01-25T09:58:37Z",
-    "modified": "2026-08-11T21:34:47Z"
+    "modified": "2026-09-02T04:01:14Z"
   }
 }

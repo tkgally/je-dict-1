@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "12693_aiyou_ex1",
-      "japanese": "{愛用|あいよう}の{万年筆|まんねんひつ}。",
+      "japanese": "{愛用|あいよう}⟦の→の：09472_no⟧⟦{万年筆|まんねんひつ}→万年筆：02968_mannenhitsu⟧。",
       "english": "My favorite fountain pen.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "12693_aiyou_ex2",
-      "japanese": "このカバンは{十年|じゅうねん}も{愛用|あいよう}している。",
+      "japanese": "⟦この→この：00962_kono⟧カバン⟦は→は：00079_ha⟧{十年|じゅうねん}⟦も→も：00484_mo⟧{愛用|あいよう}⟦している→する：00392_suru⟧。",
       "english": "I have been using this bag for ten years.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "12693_aiyou_ex3",
-      "japanese": "{祖父|そふ}が{愛用|あいよう}していた{腕時計|うでどけい}を{形見|かたみ}として{大切|たいせつ}にしている。",
+      "japanese": "⟦{祖父|そふ}→祖父：01452_sofu⟧⟦が→が：00051_ga⟧{愛用|あいよう}⟦していた→する：00392_suru⟧⟦{腕時計|うでどけい}→腕時計：04538_udedokei⟧⟦を→を：00422_wo⟧⟦{形見|かたみ}→形見：12505_katami⟧⟦として→として：06802_toshite⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧にして⟦いる→いる：00495_iru⟧。",
       "english": "I treasure the wristwatch that my grandfather used to use regularly as a keepsake.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{愛用|あいよう} implies both regular use and personal fondness. The item is not just used frequently — it is valued and chosen over alternatives. Common for personal belongings, tools, and products.\n\nCOMMON COLLOCATIONS:\n- {愛用|あいよう}する: to use regularly (with affection)\n- {愛用|あいよう}の～: one's favorite ~, one's go-to ~\n- {愛用|あいよう}{品|ひん}: personal belongings, favorite items\n- {愛用|あいよう}{者|しゃ}: regular user, loyal user\n\nSIMILAR WORDS:\n- {愛用|あいよう}: regular use with personal attachment\n- {使用|しよう}: use (neutral, no emotional attachment)\n- {常用|じょうよう}: regular use (habitual, without emotional nuance)",
+  "notes": "USAGE:\n{愛用|あいよう} implies both regular use and personal fondness. The item is not just used frequently — it is valued and chosen over alternatives. Common for personal belongings, tools, and products.\n\nCOMMON COLLOCATIONS:\n- {愛用|あいよう}⟦する→する：00392_suru⟧: to use regularly (with affection)\n- {愛用|あいよう}⟦の→の：09472_no⟧～: one's favorite ~, one's go-to ~\n- {愛用|あいよう}⟦{品|ひん}→品：03712_hin⟧: personal belongings, favorite items\n- {愛用|あいよう}⟦{者|しゃ}→〜者：04662_sha⟧: regular user, loyal user\n\nSIMILAR WORDS:\n- {愛用|あいよう}: regular use with personal attachment\n- ⟦{使用|しよう}→使用：01637_shiyou⟧: use (neutral, no emotional attachment)\n- {常用|じょうよう}: regular use (habitual, without emotional nuance)",
   "cross_references": [
     {
       "type": "contrast",
@@ -142,11 +142,18 @@
       "reading": "しよう",
       "headword": "{使用|しよう}",
       "label": "use (neutral)"
+    },
+    {
+      "type": "related",
+      "target_id": "15421_aidokusho",
+      "reading": "あいどくしょ",
+      "headword": "{愛読書|あいどくしょ}",
+      "label": "favorite book"
     }
   ],
   "metadata": {
     "created": "2026-02-22T05:54:35Z",
-    "modified": "2026-04-27T07:31:57Z",
+    "modified": "2026-09-02T04:01:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "27924_ringogari_ex1",
-      "japanese": "{秋|あき}にりんご{狩|が}りに{行|い}った。",
+      "japanese": "⟦{秋|あき}→秋：02276_aki⟧⟦に→に：00314_ni⟧りんご{狩|が}り⟦に→に：00314_ni⟧⟦{行|い}った→行く：00119_iku⟧。",
       "english": "We went apple picking in autumn.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "27924_ringogari_ex2",
-      "japanese": "{家族|かぞく}でりんご{狩|が}りを{楽|たの}しんだ。",
+      "japanese": "⟦{家族|かぞく}→家族：00552_kazoku⟧⟦で→で：00502_de⟧りんご{狩|が}り⟦を→を：00422_wo⟧⟦{楽|たの}しんだ→楽しむ：01203_tanoshimu⟧。",
       "english": "My family enjoyed apple picking.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "27924_ringogari_ex3",
-      "japanese": "この{農園|のうえん}では{時間|じかん}{制限|せいげん}なしでりんご{狩|が}りが{楽|たの}しめる。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{農園|のうえん}→農園：26824_nouen⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{時間|じかん}{制限|せいげん}→時間制限：26085_jikanseigen⟧なし⟦で→で：00502_de⟧りんご{狩|が}り⟦が→が：00051_ga⟧⟦{楽|たの}しめる→楽しむ：01203_tanoshimu⟧。",
       "english": "At this orchard you can enjoy apple picking with no time limit.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Formed from りんご (apple) + {狩|が}り (gathering, picking), with rendaku making it がり. The suffix {狩|が}り is used for going out to gather or pick produce, as in ぶどう{狩|が}り (grape picking) and いちご{狩|が}り (strawberry picking).\n\nCOMMON COLLOCATIONS:\n- りんご{狩|が}りに{行|い}く: go apple picking\n- りんご{狩|が}りを{楽|たの}しむ: enjoy apple picking\n\nSIMILAR WORDS:\n- {潮干狩|しおひが}り: clam digging — another {狩|が}り outing\n- ぶどう{狩|が}り: grape picking — a parallel fruit-picking activity",
+  "notes": "Formed from ⟦りんご→りんご：02269_ringo⟧ (apple) + {狩|が}り (gathering, picking), with rendaku making it ⟦がり→ガリ：27408_gari⟧. The suffix {狩|が}り is used for going out to gather or pick produce, as in ぶどう{狩|が}り (grape picking) and いちご{狩|が}り (strawberry picking).\n\nCOMMON COLLOCATIONS:\n- りんご{狩|が}り⟦に→に：00314_ni⟧⟦{行|い}く→行く：00119_iku⟧: go apple picking\n- りんご{狩|が}り⟦を→を：00422_wo⟧⟦{楽|たの}しむ→楽しむ：01203_tanoshimu⟧: enjoy apple picking\n\nSIMILAR WORDS:\n- ⟦{潮干狩|しおひが}り→潮干狩り：18507_shiohigari⟧: clam digging — another {狩|が}り outing\n- ぶどう{狩|が}り: grape picking — a parallel fruit-picking activity",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18507_shiohigari",
+      "reading": "しおひがり",
+      "headword": "{潮干狩|しおひが}り",
+      "label": "clam digging"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24041_ringoen",
+      "reading": "りんごえん",
+      "headword": "りんご{園|えん}",
+      "label": "apple orchard"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +69,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "leisure"
       ],
       "domain": []
     },
     "created": "2026-05-23T02:04:30Z",
-    "modified": "2026-06-09T15:41:12Z"
+    "modified": "2026-09-02T04:02:32Z"
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30346_nanyoubi_ex1",
-      "japanese": "{今日|きょう}は{何曜日|なんようび}ですか。",
+      "japanese": "⟦{今日|きょう}→今日：00496_kyou⟧⟦は→は：00079_ha⟧{何曜日|なんようび}です⟦か→か：09473_ka⟧。",
       "english": "What day of the week is it today?",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30346_nanyoubi_ex2",
-      "japanese": "{試験|しけん}は{何曜日|なんようび}にありますか。",
+      "japanese": "⟦{試験|しけん}→試験：01422_shiken⟧⟦は→は：00079_ha⟧{何曜日|なんようび}⟦に→に：00314_ni⟧⟦あります→ある：00006_aru⟧⟦か→か：09473_ka⟧。",
       "english": "What day of the week is the exam on?",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30346_nanyoubi_ex3",
-      "japanese": "{来月|らいげつ}の{十日|とおか}が{何曜日|なんようび}か、カレンダーで{確|たし}かめてください。",
+      "japanese": "⟦{来月|らいげつ}→来月：00744_raigetsu⟧⟦の→の：09472_no⟧⟦{十日|とおか}→十日：02917_tooka⟧⟦が→が：00051_ga⟧{何曜日|なんようび}⟦か→か：09473_ka⟧、⟦カレンダー→カレンダー：02897_karendaa⟧⟦で→で：00502_de⟧⟦{確|たし}かめて→確かめる：01955_tashikameru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please check on the calendar what day of the week the tenth of next month falls on.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Formed from {何|なん} (what) plus {曜日|ようび} (day of the week).\n\nCOMMON PATTERNS:\n- {今日|きょう}は{何曜日|なんようび}: what day is it today\n- {何曜日|なんようび}がいい: which day works for you\n- {何曜日|なんようび}に: on what day of the week\n\nANSWERING:\nThe answer is one of {月曜日|げつようび}, {火曜日|かようび}, {水曜日|すいようび}, {木曜日|もくようび}, {金曜日|きんようび}, {土曜日|どようび}, {日曜日|にちようび}.\n\nSIMILAR WORDS:\n- {何日|なんにち}: what date — asks for the day of the month, not the weekday",
+  "notes": "Formed from ⟦{何|なん}→何〜：03100_nan⟧ (what) plus ⟦{曜日|ようび}→曜日：03877_youbi⟧ (day of the week).\n\nCOMMON PATTERNS:\n- ⟦{今日|きょう}→今日：00496_kyou⟧⟦は→は：00079_ha⟧{何曜日|なんようび}: what day is it today\n- {何曜日|なんようび}⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧: which day works for you\n- {何曜日|なんようび}⟦に→に：00314_ni⟧: on what day of the week\n\nANSWERING:\nThe answer is one of ⟦{月曜日|げつようび}→月曜日：00624_getsuyoubi⟧, ⟦{火曜日|かようび}→火曜日：00640_kayoubi⟧, ⟦{水曜日|すいようび}→水曜日：00672_suiyoubi⟧, ⟦{木曜日|もくようび}→木曜日：00653_mokuyoubi⟧, ⟦{金曜日|きんようび}→金曜日：00642_kinyoubi⟧, ⟦{土曜日|どようび}→土曜日：00621_doyoubi⟧, ⟦{日曜日|にちようび}→日曜日：00656_nichiyoubi⟧.\n\nSIMILAR WORDS:\n- ⟦{何日|なんにち}→何日：23870_nannichi⟧: what date — asks for the day of the month, not the weekday",
   "cross_references": [
     {
       "type": "related",
@@ -56,6 +56,13 @@
       "type": "contrast",
       "reading": "なんにち",
       "headword": "{何日|なんにち}"
+    },
+    {
+      "type": "related",
+      "target_id": "22086_nangatsu",
+      "reading": "なんがつ",
+      "headword": "{何月|なんがつ}",
+      "label": "what month"
     }
   ],
   "schema_version": "2.0",
@@ -66,13 +73,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "time-day-of-week"
       ],
       "domain": []
     },
     "created": "2026-08-03T00:18:03Z",
-    "modified": "2026-08-03T00:18:03Z"
+    "modified": "2026-09-02T04:02:39Z"
   }
 }

@@ -15,41 +15,81 @@
   "examples": [
     {
       "id": "12241_gakushoku_ex1",
-      "japanese": "{学食|がくしょく}で{昼|ひる}ご{飯|はん}を{食|た}べた。",
+      "japanese": "{学食|がくしょく}⟦で→で：00502_de⟧⟦{昼|ひる}ご{飯|はん}→昼ご飯：02950_hirugohan⟧⟦を→を：00422_wo⟧⟦{食|た}べた→食べる：00396_taberu⟧。",
       "english": "I ate lunch at the school cafeteria.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12241_gakushoku_ex2",
-      "japanese": "この{大学|だいがく}の{学食|がくしょく}は{安|やす}くておいしい。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{大学|だいがく}→大学：00608_daigaku⟧⟦の→の：09472_no⟧{学食|がくしょく}⟦は→は：00079_ha⟧⟦{安|やす}くて→安い：00464_yasui⟧おいしい。",
       "english": "This university's cafeteria is cheap and delicious.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12241_gakushoku_ex3",
-      "japanese": "{昼休|ひるやす}みの{学食|がくしょく}は{学生|がくせい}でいっぱいになる。",
+      "japanese": "⟦{昼休|ひるやす}み→昼休み：01715_hiruyasumi⟧⟦の→の：09472_no⟧{学食|がくしょく}⟦は→は：00079_ha⟧⟦{学生|がくせい}→学生：00610_gakusei⟧⟦で→で：00502_de⟧いっぱい⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧。",
       "english": "The cafeteria gets packed with students during lunch break.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nAn abbreviation of {学校|がっこう}{食堂|しょくどう}. Used almost exclusively in reference to university or college dining halls, not elementary or middle school cafeterias. Very common in student conversation.\n\nCOMMON COLLOCATIONS:\n- {学食|がくしょく}で{食|た}べる: to eat at the cafeteria\n- {学食|がくしょく}のメニュー: cafeteria menu\n- {学食|がくしょく}が{混|こ}む: the cafeteria is crowded\n\nWORD FORMATION:\nAbbreviation pattern: {学|がく} (school) + {食|しょく} (food/dining). This type of two-kanji abbreviation is common in Japanese campus slang.",
-  "cross_references": [],
+  "notes": "USAGE:\nAn abbreviation of ⟦{学校|がっこう}→学校：00055_gakkou⟧⟦{食堂|しょくどう}→食堂：01054_shokudou⟧. Used almost exclusively in reference to university or college dining halls, not elementary or middle school cafeterias. Very common in student conversation.\n\nCOMMON COLLOCATIONS:\n- {学食|がくしょく}⟦で→で：00502_de⟧⟦{食|た}べる→食べる：00396_taberu⟧: to eat at the cafeteria\n- {学食|がくしょく}⟦の→の：09472_no⟧⟦メニュー→メニュー：11166_menyuu⟧: cafeteria menu\n- {学食|がくしょく}⟦が→が：00051_ga⟧⟦{混|こ}む→混む：02574_komu⟧: the cafeteria is crowded\n\nFORMS:\nAbbreviation pattern: ⟦{学|がく}→〜学：09846_gaku⟧ (school) + {食|しょく} (food/dining). This type of two-kanji abbreviation is common in Japanese campus slang.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "19803_shainshokudou",
+      "reading": "しゃいんしょくどう",
+      "headword": "{社員食堂|しゃいんしょくどう}",
+      "label": "employee cafeteria"
+    },
+    {
+      "type": "related",
+      "target_id": "19934_shokken",
+      "reading": "しょっけん",
+      "headword": "{食券|しょっけん}",
+      "label": "meal ticket"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25190_daigakuseikyou",
+      "reading": "だいがくせいきょう",
+      "headword": "{大学生協|だいがくせいきょう}",
+      "label": "university co-op"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27579_shashoku",
+      "reading": "しゃしょく",
+      "headword": "{社食|しゃしょく}",
+      "label": "company cafeteria"
+    }
+  ],
   "metadata": {
     "created": "2026-02-20T13:35:36Z",
-    "modified": "2026-02-20T13:35:36Z",
+    "modified": "2026-09-02T04:01:28Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "informal",
       "politeness": "plain",
-      "semantic": ["education", "food"]
+      "semantic": [
+        "education",
+        "food"
+      ]
     }
   }
 }

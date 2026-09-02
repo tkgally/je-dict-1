@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "12999_gesshuu_ex1",
-      "japanese": "{月収|げっしゅう}はいくらですか。",
+      "japanese": "{月収|げっしゅう}⟦は→は：00079_ha⟧いくらです⟦か→か：09473_ka⟧。",
       "english": "What is your monthly income?",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "12999_gesshuu_ex2",
-      "japanese": "{月収|げっしゅう}30{万円|まんえん}で{生活|せいかつ}している。",
+      "japanese": "{月収|げっしゅう}30{万円|まんえん}⟦で→で：00502_de⟧⟦{生活|せいかつ}している→生活する：01839_seikatsusuru⟧。",
       "english": "I live on a monthly income of 300,000 yen.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "12999_gesshuu_ex3",
-      "japanese": "{転職|てんしょく}してから{月収|げっしゅう}が{大幅|おおはば}に{上|あ}がったので、{貯金|ちょきん}ができるようになった。",
+      "japanese": "⟦{転職|てんしょく}→転職：04557_tenshoku⟧⟦して→する：00392_suru⟧⟦から→から：00504_kara⟧{月収|げっしゅう}⟦が→が：00051_ga⟧⟦{大幅|おおはば}→大幅：12170_oohaba⟧⟦に→に：00314_ni⟧⟦{上|あ}がった→上がる：00615_agaru⟧⟦の→の：09472_no⟧で、⟦{貯金|ちょきん}→貯金：03497_chokin⟧⟦が→が：00051_ga⟧⟦できる→できる：00557_dekiru⟧ようになった。",
       "english": "Since changing jobs, my monthly income has increased significantly, so I've been able to save money.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nUsed in discussions about salary, living expenses, and financial planning. Can refer to gross or net income depending on context. Often followed by a specific amount: {月収|げっしゅう}20{万円|まんえん}.\n\nCOMMON COLLOCATIONS:\n- {月収|げっしゅう}〜{万円|まんえん}: monthly income of ~ ten-thousand yen\n- {手取|てど}り{月収|げっしゅう}: take-home monthly income\n- {月収|げっしゅう}が{上|あ}がる: monthly income goes up\n- {月収|げっしゅう}が{下|さ}がる: monthly income goes down\n\nSIMILAR WORDS:\n- {年収|ねんしゅう}: annual income\n- {給料|きゅうりょう}: salary, pay (general)\n- {収入|しゅうにゅう}: income (broader, includes all sources)",
+  "notes": "USAGE:\nUsed in discussions about salary, living expenses, and financial planning. Can refer to gross or net income depending on context. Often followed by a specific amount: {月収|げっしゅう}20{万円|まんえん}.\n\nCOMMON COLLOCATIONS:\n- {月収|げっしゅう}〜⟦{万円|まんえん}→万円：09900_manen⟧: monthly income of ~ ten-thousand yen\n- ⟦{手取|てど}り→手取り：06833_tedori⟧{月収|げっしゅう}: take-home monthly income\n- {月収|げっしゅう}⟦が→が：00051_ga⟧⟦{上|あ}がる→上がる：00615_agaru⟧: monthly income goes up\n- {月収|げっしゅう}⟦が→が：00051_ga⟧⟦{下|さ}がる→下がる：01188_sagaru⟧: monthly income goes down\n\nSIMILAR WORDS:\n- ⟦{年収|ねんしゅう}→年収：05504_nenshuu⟧: annual income\n- ⟦{給料|きゅうりょう}→給料：01086_kyuuryou⟧: salary, pay (general)\n- ⟦{収入|しゅうにゅう}→収入：03213_shuunyuu⟧: income (broader, includes all sources)",
   "cross_references": [
     {
       "type": "related",
@@ -59,11 +59,18 @@
       "reading": "しゅうにゅう",
       "headword": "{収入|しゅうにゅう}",
       "label": "income (general)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01086_kyuuryou",
+      "reading": "きゅうりょう",
+      "headword": "{給料|きゅうりょう}",
+      "label": "salary, pay"
     }
   ],
   "metadata": {
     "created": "2026-02-23T05:13:40Z",
-    "modified": "2026-04-27T10:17:30Z",
+    "modified": "2026-09-02T04:01:31Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

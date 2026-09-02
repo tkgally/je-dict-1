@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "18558_hanpirei_ex1",
-      "japanese": "{速度|そくど}と{時間|じかん}は{反比例|はんぴれい}する。",
+      "japanese": "⟦{速度|そくど}→速度：03319_sokudo⟧⟦と→と：00512_to⟧⟦{時間|じかん}→時間：00468_jikan⟧⟦は→は：00079_ha⟧{反比例|はんぴれい}⟦する→する：00392_suru⟧。",
       "english": "Speed and time are inversely proportional.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "18558_hanpirei_ex2",
-      "japanese": "{収入|しゅうにゅう}と{自由|じゆう}な{時間|じかん}は{反比例|はんぴれい}の{関係|かんけい}にある。",
+      "japanese": "⟦{収入|しゅうにゅう}→収入：03213_shuunyuu⟧⟦と→と：00512_to⟧⟦{自由|じゆう}→自由：01148_jiyuu⟧な⟦{時間|じかん}→時間：00468_jikan⟧⟦は→は：00079_ha⟧{反比例|はんぴれい}⟦の→の：09472_no⟧⟦{関係|かんけい}→関係：01298_kankei⟧⟦に→に：00314_ni⟧⟦ある→ある：00006_aru⟧。",
       "english": "Income and free time are in an inverse relationship.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "18558_hanpirei_ex3",
-      "japanese": "{反比例|はんぴれい}のグラフは{双曲線|そうきょくせん}になる。",
+      "japanese": "{反比例|はんぴれい}⟦の→の：09472_no⟧⟦グラフ→グラフ：04864_gurafu⟧⟦は→は：00079_ha⟧{双曲線|そうきょくせん}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧。",
       "english": "The graph of an inverse proportion forms a hyperbola.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,19 @@
       ]
     }
   ],
-  "notes": "USAGE:\nUsed with する to mean \"to be inversely proportional.\" Taught in middle school mathematics. Also used loosely in everyday language to describe any situation where two things move in opposite directions.\n\nCOMMON COLLOCATIONS:\n- {反比例|はんぴれい}する (to be inversely proportional)\n- {反比例|はんぴれい}の{関係|かんけい} (inverse relationship)\n- {反比例|はんぴれい}のグラフ (inverse proportion graph)\n\nSIMILAR WORDS:\n- {比例|ひれい}: proportion — a direct proportional relationship where both quantities increase together",
-  "cross_references": [],
+  "notes": "USAGE:\nUsed with ⟦する→する：00392_suru⟧ to mean \"to be inversely proportional.\" Taught in middle school mathematics. Also used loosely in everyday language to describe any situation where two things move in opposite directions.\n\nCOMMON COLLOCATIONS:\n- {反比例|はんぴれい}⟦する→する：00392_suru⟧ (to be inversely proportional)\n- {反比例|はんぴれい}⟦の→の：09472_no⟧⟦{関係|かんけい}→関係：01298_kankei⟧ (inverse relationship)\n- {反比例|はんぴれい}⟦の→の：09472_no⟧⟦グラフ→グラフ：04864_gurafu⟧ (inverse proportion graph)\n\nSIMILAR WORDS:\n- ⟦{比例|ひれい}→比例：13215_hirei⟧: proportion — a direct proportional relationship where both quantities increase together",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "23676_seihirei",
+      "reading": "せいひれい",
+      "headword": "{正比例|せいひれい}",
+      "label": "direct proportion"
+    }
+  ],
   "metadata": {
     "created": "2026-03-22T08:55:16Z",
-    "modified": "2026-03-29T03:08:58Z",
+    "modified": "2026-09-02T04:01:52Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -154,7 +162,8 @@
       "domain": [
         "academic"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

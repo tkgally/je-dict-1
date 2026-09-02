@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "18220_mamahaha_ex1",
-      "japanese": "{彼女|かのじょ}は{五歳|ごさい}の{時|とき}に{継母|ままはは}に{育|そだ}てられた。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧{五歳|ごさい}⟦の→の：09472_no⟧{時|とき}⟦に→に：00314_ni⟧{継母|ままはは}⟦に→に：00314_ni⟧⟦{育|そだ}てられた→育てる：01235_sodateru⟧。",
       "english": "She was raised by her stepmother from the age of five.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18220_mamahaha_ex2",
-      "japanese": "{継母|ままはは}との{関係|かんけい}は{最初|さいしょ}は{難|むずか}しかったが、{少|すこ}しずつ{打|う}ち{解|と}けていった。",
+      "japanese": "{継母|ままはは}⟦と→と：00512_to⟧⟦の→の：09472_no⟧⟦{関係|かんけい}→関係：01298_kankei⟧⟦は→は：00079_ha⟧⟦{最初|さいしょ}→最初：00882_saisho⟧⟦は→は：00079_ha⟧⟦{難|むずか}しかった→難しい：00517_muzukashii⟧⟦が→が：00051_ga⟧、⟦{少|すこ}し→少し：00596_sukoshi⟧⟦ずつ→〜ずつ：03092_zutsu⟧⟦{打|う}ち{解|と}けて→打ち解ける：07894_uchitokeru⟧いった。",
       "english": "The relationship with my stepmother was difficult at first, but we gradually opened up to each other.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18220_mamahaha_ex3",
-      "japanese": "シンデレラの{物語|ものがたり}には{意地悪|いじわる}な{継母|ままはは}が{登場|とうじょう}する。",
+      "japanese": "シンデレラ⟦の→の：09472_no⟧⟦{物語|ものがたり}→物語：03634_monogatari⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{意地悪|いじわる}→意地悪：01626_ijiwaru⟧な{継母|ままはは}⟦が→が：00051_ga⟧⟦{登場|とうじょう}→登場：13625_toujou⟧⟦する→する：00392_suru⟧。",
       "english": "The story of Cinderella features a wicked stepmother.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nThe reading ままはは is the standard modern reading. The word まま in old Japanese meant 'not real' or 'step-.' In fairy tales and folk stories, the {継母|ままはは} often appears as a villainous figure, similar to Western 'wicked stepmother' tropes.\n\nRELATED FAMILY TERMS:\n- {継父|ままちち}: stepfather\n- {継子|ままこ}: stepchild\n- {実母|じつぼ}: biological mother\n\nSIMILAR WORDS:\n- {義母|ぎぼ}: mother-in-law; stepmother — a formal term that can mean either; context determines meaning",
+  "notes": "USAGE:\nThe reading ままはは is the standard modern reading. The word まま in old Japanese meant 'not real' or 'step-.' In fairy tales and folk stories, the {継母|ままはは} often appears as a villainous figure, similar to Western 'wicked stepmother' tropes.\n\nRELATED FAMILY TERMS:\n- ⟦{継父|ままちち}→継父：20982_mamachichi⟧: stepfather\n- ⟦{継子|ままこ}→継子：20695_mamako⟧: stepchild\n- {実母|じつぼ}: biological mother\n\nSIMILAR WORDS:\n- ⟦{義母|ぎぼ}→義母：06724_gibo⟧: mother-in-law; stepmother — a formal term that can mean either; context determines meaning",
   "cross_references": [
     {
       "type": "contrast",
@@ -46,18 +52,36 @@
       "reading": "ぎぼ",
       "headword": "{義母|ぎぼ}",
       "label": "formal; also mother-in-law"
+    },
+    {
+      "type": "related",
+      "target_id": "20982_mamachichi",
+      "reading": "ままちち",
+      "headword": "{継父|ままちち}",
+      "label": "stepfather"
+    },
+    {
+      "type": "related",
+      "target_id": "20695_mamako",
+      "reading": "ままこ",
+      "headword": "{継子|ままこ}",
+      "label": "stepchild"
     }
   ],
   "metadata": {
     "created": "2026-03-20T12:21:43Z",
-    "modified": "2026-05-08T08:12:00Z",
+    "modified": "2026-09-02T04:01:51Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["family"]
+      "semantic": [
+        "family"
+      ]
     }
   }
 }

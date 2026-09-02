@@ -15,39 +15,66 @@
   "examples": [
     {
       "id": "25709_undougi_ex1",
-      "japanese": "{運動着|うんどうぎ}に{着替|きが}える。",
+      "japanese": "{運動着|うんどうぎ}⟦に→に：00314_ni⟧⟦{着替|きが}える→着替える：04603_kigaeru⟧。",
       "english": "To change into sportswear.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "25709_undougi_ex2",
-      "japanese": "{学校|がっこう}の{体育|たいいく}の{時間|じかん}には{運動着|うんどうぎ}を{着|き}る。",
+      "japanese": "⟦{学校|がっこう}→学校：00055_gakkou⟧⟦の→の：09472_no⟧⟦{体育|たいいく}→体育：03384_taiiku⟧⟦の→の：09472_no⟧⟦{時間|じかん}→時間：00468_jikan⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{運動着|うんどうぎ}⟦を→を：00422_wo⟧⟦{着|き}る→着る：00541_kiru⟧。",
       "english": "We wear gym clothes during PE class at school.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "25709_undougi_ex3",
-      "japanese": "{汗|あせ}をかいたので、{運動着|うんどうぎ}を{洗濯|せんたく}に{出|だ}した。",
+      "japanese": "⟦{汗|あせ}→汗：02173_ase⟧⟦を→を：00422_wo⟧かいた⟦の→の：09472_no⟧で、{運動着|うんどうぎ}⟦を→を：00422_wo⟧⟦{洗濯|せんたく}→洗濯：13283_sentaku⟧⟦に→に：00314_ni⟧⟦{出|だ}した→出す：01087_dasu⟧。",
       "english": "Since I had sweated, I put my gym clothes in the laundry.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "{運動|うんどう} (exercise, sports) + {着|ぎ} (clothing). A general term for clothing worn during physical activity. In school contexts, it often refers specifically to the standard PE uniform (white shirt and shorts or track pants).\n\nCOMMON COLLOCATIONS:\n- {運動着|うんどうぎ}に{着替|きが}える — change into sportswear\n- {運動着|うんどうぎ}を{着|き}る — wear sportswear\n- {運動着|うんどうぎ}を{洗|あら}う — wash sportswear\n\nSIMILAR WORDS:\n- {体操着|たいそうぎ} — PE clothes — specifically the gym uniform worn at school\n- {体操服|たいそうふく} — PE clothes — another common term for school gym uniforms\n- ジャージ — jersey; tracksuit — casual sportswear, often worn outside of exercise\n- ウエア — (sports) wear — loanword used in retail and fashion contexts",
-  "cross_references": [],
+  "notes": "⟦{運動|うんどう}→運動：00821_undou⟧ (exercise, sports) + {着|ぎ} (clothing). A general term for clothing worn during physical activity. In school contexts, it often refers specifically to the standard PE uniform (white shirt and shorts or track pants).\n\nCOMMON COLLOCATIONS:\n- {運動着|うんどうぎ}⟦に→に：00314_ni⟧⟦{着替|きが}える→着替える：04603_kigaeru⟧ — change into sportswear\n- {運動着|うんどうぎ}⟦を→を：00422_wo⟧⟦{着|き}る→着る：00541_kiru⟧ — wear sportswear\n- {運動着|うんどうぎ}⟦を→を：00422_wo⟧⟦{洗|あら}う→洗う：00827_arau⟧ — wash sportswear\n\nSIMILAR WORDS:\n- ⟦{体操着|たいそうぎ}→体操着：24194_taisougi⟧ — PE clothes — specifically the gym uniform worn at school\n- {体操服|たいそうふく} — PE clothes — another common term for school gym uniforms\n- ジャージ — jersey; tracksuit — casual sportswear, often worn outside of exercise\n- ウエア — (sports) wear — loanword used in retail and fashion contexts",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24194_taisougi",
+      "reading": "たいそうぎ",
+      "headword": "{体操着|たいそうぎ}",
+      "label": "PE clothes"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28131_taiikugi",
+      "reading": "たいいくぎ",
+      "headword": "{体育着|たいいくぎ}",
+      "label": "gym clothes"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["clothing", "sports"]
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "clothing",
+        "sports"
+      ]
     },
     "created": "2026-04-26T16:30:58Z",
-    "modified": "2026-04-26T16:30:58Z"
+    "modified": "2026-09-02T04:02:23Z"
   }
 }

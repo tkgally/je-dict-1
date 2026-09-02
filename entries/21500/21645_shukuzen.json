@@ -15,31 +15,53 @@
   "examples": [
     {
       "id": "21645_shukuzen_ex1",
-      "japanese": "{会場|かいじょう}は{粛然|しゅくぜん}としていた。",
+      "japanese": "⟦{会場|かいじょう}→会場：01269_kaijou⟧⟦は→は：00079_ha⟧{粛然|しゅくぜん}⟦として→として：06802_toshite⟧⟦いた→いる：00495_iru⟧。",
       "english": "The venue was solemn and quiet.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21645_shukuzen_ex2",
-      "japanese": "{参列者|さんれつしゃ}は{粛然|しゅくぜん}と{頭|あたま}を{下|さ}げた。",
+      "japanese": "⟦{参列者|さんれつしゃ}→参列者：28435_sanretsusha⟧⟦は→は：00079_ha⟧{粛然|しゅくぜん}⟦と→と：00512_to⟧⟦{頭|あたま}→頭：00574_atama⟧⟦を→を：00422_wo⟧⟦{下|さ}げた→下げる：00807_sageru⟧。",
       "english": "The attendees solemnly bowed their heads.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21645_shukuzen_ex3",
-      "japanese": "{判決|はんけつ}が{読|よ}み{上|あ}げられると、{法廷|ほうてい}は{粛然|しゅくぜん}とした{空気|くうき}に{包|つつ}まれた。",
+      "japanese": "⟦{判決|はんけつ}→判決：05906_hanketsu⟧⟦が→が：00051_ga⟧⟦{読|よ}み{上|あ}げられる→読み上げる：04604_yomiageru⟧⟦と→と：00512_to⟧、⟦{法廷|ほうてい}→法廷：15113_houtei⟧⟦は→は：00079_ha⟧{粛然|しゅくぜん}とした⟦{空気|くうき}→空気：01390_kuuki⟧⟦に→に：00314_ni⟧⟦{包|つつ}まれた→包む：01226_tsutsumu⟧。",
       "english": "When the verdict was read, the courtroom was enveloped in a solemn atmosphere.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A literary word used to describe an atmosphere of solemn stillness and gravity. Most commonly appears as {粛然|しゅくぜん}と (adverbial form) or {粛然|しゅくぜん}とした (modifying a noun).\n\nFORMS:\n- {粛然|しゅくぜん}と: adverbial (solemnly)\n- {粛然|しゅくぜん}とした: modifying a noun ({粛然|しゅくぜん}とした{雰囲気|ふんいき}, a solemn atmosphere)\n- {粛然|しゅくぜん}たる: literary attributive form\n\nCOMMON COLLOCATIONS:\n- {粛然|しゅくぜん}とした{空気|くうき}: a solemn atmosphere\n- {粛然|しゅくぜん}と{立|た}つ: to stand solemnly\n- {粛然|しゅくぜん}とした{面持|おもも}ち: a grave expression\n\nSIMILAR WORDS:\n- {厳粛|げんしゅく}: solemn, grave — a more common word; used as a na-adjective\n- {荘厳|そうごん}: majestic, sublime — emphasizes grandeur and awe rather than quiet gravity\n- しんと: dead silent — focuses purely on the absence of sound without the ceremonial gravity",
+  "notes": "A literary word used to describe an atmosphere of solemn stillness and gravity. Most commonly appears as {粛然|しゅくぜん}⟦と→と：00512_to⟧ (adverbial form) or {粛然|しゅくぜん}とした (modifying a noun).\n\nFORMS:\n- {粛然|しゅくぜん}⟦と→と：00512_to⟧: adverbial (solemnly)\n- {粛然|しゅくぜん}とした: modifying a noun ({粛然|しゅくぜん}とした⟦{雰囲気|ふんいき}→雰囲気：03604_funiki⟧, a solemn atmosphere)\n- {粛然|しゅくぜん}たる: literary attributive form\n\nCOMMON COLLOCATIONS:\n- {粛然|しゅくぜん}とした⟦{空気|くうき}→空気：01390_kuuki⟧: a solemn atmosphere\n- {粛然|しゅくぜん}⟦と→と：00512_to⟧⟦{立|た}つ→立つ：00758_tatsu⟧: to stand solemnly\n- {粛然|しゅくぜん}とした{面持|おもも}ち: a grave expression\n\nSIMILAR WORDS:\n- ⟦{厳粛|げんしゅく}→厳粛：14755_genshuku⟧: solemn, grave — a more common word; used as a na-adjective\n- ⟦{荘厳|そうごん}→荘厳：14754_sougon⟧: majestic, sublime — emphasizes grandeur and awe rather than quiet gravity\n- しんと: dead silent — focuses purely on the absence of sound without the ceremonial gravity",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14755_genshuku",
+      "reading": "げんしゅく",
+      "headword": "{厳粛|げんしゅく}",
+      "label": "solemn, grave"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14754_sougon",
+      "reading": "そうごん",
+      "headword": "{荘厳|そうごん}",
+      "label": "majestic, sublime"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,6 +75,6 @@
       ]
     },
     "created": "2026-04-02T19:21:53Z",
-    "modified": "2026-04-02T19:21:53Z"
+    "modified": "2026-09-02T04:02:04Z"
   }
 }

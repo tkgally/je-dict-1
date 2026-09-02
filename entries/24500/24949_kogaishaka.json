@@ -3,7 +3,7 @@
   "headword": "{子会社化|こがいしゃか}",
   "reading": "こがいしゃか",
   "romaji": "kogaishaka",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "subsidiarization; making into a subsidiary",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24949_kogaishaka_ex1",
-      "japanese": "A{社|しゃ}がB{社|しゃ}を{子会社化|こがいしゃか}した。",
+      "japanese": "A⟦{社|しゃ}→〜社：04660_sha⟧⟦が→が：00051_ga⟧B⟦{社|しゃ}→〜社：04660_sha⟧⟦を→を：00422_wo⟧{子会社化|こがいしゃか}⟦した→する：00392_suru⟧。",
       "english": "Company A turned Company B into a subsidiary.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24949_kogaishaka_ex2",
-      "japanese": "{株式|かぶしき}の{過半数|かはんすう}を{取得|しゅとく}して{子会社化|こがいしゃか}する{方針|ほうしん}だ。",
+      "japanese": "⟦{株式|かぶしき}→株式：04772_kabushiki⟧⟦の→の：09472_no⟧⟦{過半数|かはんすう}→過半数：05610_kahansuu⟧⟦を→を：00422_wo⟧⟦{取得|しゅとく}して→取得する：10444_shutokusuru⟧{子会社化|こがいしゃか}⟦する→する：00392_suru⟧⟦{方針|ほうしん}→方針：04871_houshin⟧だ。",
       "english": "The plan is to acquire a majority stake and make it a subsidiary.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24949_kogaishaka_ex3",
-      "japanese": "{海外|かいがい}の{企業|きぎょう}を{子会社化|こがいしゃか}することで、グローバル{展開|てんかい}を{加速|かそく}させる{狙|ねら}いがある。",
+      "japanese": "⟦{海外|かいがい}→海外：00134_kaigai⟧⟦の→の：09472_no⟧⟦{企業|きぎょう}→企業：00225_kigyou⟧⟦を→を：00422_wo⟧{子会社化|こがいしゃか}⟦する→する：00392_suru⟧ことで、⟦グローバル→グローバル：10847_guroobaru⟧⟦{展開|てんかい}→展開：04542_tenkai⟧⟦を→を：00422_wo⟧{加速|かそく}させる⟦{狙|ねら}い→狙い：00312_nerai⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "By making overseas companies into subsidiaries, they aim to accelerate their global expansion.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {子会社|こがいしゃ} (subsidiary company) and the suffix {化|か} (turning into; -ization). The suffix ~{化|か} is extremely productive in business Japanese for describing transformation processes.\n\nCOMMON COLLOCATIONS:\n- {完全|かんぜん}{子会社化|こがいしゃか}: making a wholly-owned subsidiary\n- {子会社化|こがいしゃか}を{発表|はっぴょう}する: to announce subsidiarization\n- {子会社化|こがいしゃか}を{検討|けんとう}する: to consider making into a subsidiary\n- {買収|ばいしゅう}による{子会社化|こがいしゃか}: subsidiarization through acquisition\n\nSIMILAR WORDS:\n- {買収|ばいしゅう}: acquisition, the broader act of purchasing a company\n- {合併|がっぺい}: merger, combining two companies into one entity\n- {分社化|ぶんしゃか}: spin-off, splitting off a division into its own company\n- {吸収合併|きゅうしゅうがっぺい}: absorption merger, one company absorbs another",
+  "notes": "Compound of ⟦{子会社|こがいしゃ}→子会社：12258_kogaisha⟧ (subsidiary company) and the suffix ⟦{化|か}→〜化：28335_ka⟧ (turning into; -ization). The suffix ~⟦{化|か}→〜化：28335_ka⟧ is extremely productive in business Japanese for describing transformation processes.\n\nCOMMON COLLOCATIONS:\n- ⟦{完全|かんぜん}→完全：01552_kanzen⟧{子会社化|こがいしゃか}: making a wholly-owned subsidiary\n- {子会社化|こがいしゃか}⟦を→を：00422_wo⟧⟦{発表|はっぴょう}する→発表する：25231_happyousuru⟧: to announce subsidiarization\n- {子会社化|こがいしゃか}⟦を→を：00422_wo⟧⟦{検討|けんとう}する→検討する：17455_kentousuru⟧: to consider making into a subsidiary\n- ⟦{買収|ばいしゅう}→買収：04780_baishuu⟧⟦による→による：28349_niyoru⟧{子会社化|こがいしゃか}: subsidiarization through acquisition\n\nSIMILAR WORDS:\n- ⟦{買収|ばいしゅう}→買収：04780_baishuu⟧: acquisition, the broader act of purchasing a company\n- ⟦{合併|がっぺい}→合併：04778_gappei⟧: merger, combining two companies into one entity\n- {分社化|ぶんしゃか}: spin-off, splitting off a division into its own company\n- {吸収合併|きゅうしゅうがっぺい}: absorption merger, one company absorbs another",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04780_baishuu",
+      "reading": "ばいしゅう",
+      "headword": "{買収|ばいしゅう}",
+      "label": "acquisition, the broader act…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04778_gappei",
+      "reading": "がっぺい",
+      "headword": "{合併|がっぺい}",
+      "label": "merger, combining two companies…"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,10 +77,11 @@
       "domain": [
         "business"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-04-21T14:22:27Z",
-    "modified": "2026-06-15T07:57:17Z"
+    "modified": "2026-09-02T04:02:20Z"
   },
   "conjugation": {
     "type": "suru",

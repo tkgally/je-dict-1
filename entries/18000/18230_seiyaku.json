@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "18230_seiyaku_ex1",
-      "japanese": "{二人|ふたり}は{愛|あい}の{誓約|せいやく}を{交|か}わした。",
+      "japanese": "⟦{二人|ふたり}→二人：00622_futari⟧⟦は→は：00079_ha⟧⟦{愛|あい}→愛：02370_ai⟧⟦の→の：09472_no⟧{誓約|せいやく}⟦を→を：00422_wo⟧⟦{交|か}わした→交わす：19373_kawasu⟧。",
       "english": "The two exchanged vows of love.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "18230_seiyaku_ex2",
-      "japanese": "{入社時|にゅうしゃじ}に{秘密保持|ひみつほじ}の{誓約書|せいやくしょ}に{署名|しょめい}した。",
+      "japanese": "{入社時|にゅうしゃじ}⟦に→に：00314_ni⟧⟦{秘密保持|ひみつほじ}→秘密保持：26520_himitsuhoji⟧⟦の→の：09472_no⟧⟦{誓約書|せいやくしょ}→誓約書：08013_seiyakusho⟧⟦に→に：00314_ni⟧⟦{署名|しょめい}した→署名する：22432_shomeisuru⟧。",
       "english": "I signed a confidentiality pledge when joining the company.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "18230_seiyaku_ex3",
-      "japanese": "{環境|かんきょう}を{守|まも}るという{誓約|せいやく}のもとに、{各国|かっこく}が{協力|きょうりょく}することになった。",
+      "japanese": "⟦{環境|かんきょう}→環境：00174_kankyou⟧⟦を→を：00422_wo⟧⟦{守|まも}る→守る：01986_mamoru⟧⟦という→という：09577_toiu⟧{誓約|せいやく}⟦の→の：09472_no⟧もと⟦に→に：00314_ni⟧、⟦{各国|かっこく}→各国：12055_kakkoku⟧⟦が→が：00051_ga⟧⟦{協力|きょうりょく}する→協力する：25370_kyouryokusuru⟧ことになった。",
       "english": "Under a pledge to protect the environment, the countries agreed to cooperate.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nMore formal and solemn than {約束|やくそく}. Often appears in legal, religious, and ceremonial contexts. The compound {誓約書|せいやくしょ} (written pledge) is very common in business and legal settings.\n\nCOMMON COLLOCATIONS:\n- {誓約|せいやく}を{交|か}わす (to exchange vows)\n- {誓約書|せいやくしょ} (written pledge; sworn statement)\n- {誓約|せいやく}を{守|まも}る (to keep a pledge)\n- {誓約|せいやく}に{違反|いはん}する (to violate a pledge)\n\nSIMILAR WORDS:\n- {約束|やくそく}: promise — everyday, less formal\n- {誓|ちか}い: oath; vow — literary or ceremonial, often used in personal and religious contexts\n- {契約|けいやく}: contract — a legally binding agreement, more transactional than moral",
+  "notes": "USAGE:\nMore formal and solemn than ⟦{約束|やくそく}→約束：01517_yakusoku⟧. Often appears in legal, religious, and ceremonial contexts. The compound ⟦{誓約書|せいやくしょ}→誓約書：08013_seiyakusho⟧ (written pledge) is very common in business and legal settings.\n\nCOMMON COLLOCATIONS:\n- {誓約|せいやく}⟦を→を：00422_wo⟧⟦{交|か}わす→交わす：19373_kawasu⟧ (to exchange vows)\n- ⟦{誓約書|せいやくしょ}→誓約書：08013_seiyakusho⟧ (written pledge; sworn statement)\n- {誓約|せいやく}⟦を→を：00422_wo⟧⟦{守|まも}る→守る：01986_mamoru⟧ (to keep a pledge)\n- {誓約|せいやく}⟦に→に：00314_ni⟧⟦{違反|いはん}→違反：01824_ihan⟧⟦する→する：00392_suru⟧ (to violate a pledge)\n\nSIMILAR WORDS:\n- ⟦{約束|やくそく}→約束：01517_yakusoku⟧: promise — everyday, less formal\n- ⟦{誓|ちか}い→誓う：00030_chikau⟧: oath; vow — literary or ceremonial, often used in personal and religious contexts\n- ⟦{契約|けいやく}→契約：02698_keiyaku⟧: contract — a legally binding agreement, more transactional than moral",
   "cross_references": [
     {
       "type": "synonym",
@@ -156,11 +156,18 @@
       "reading": "けいやく",
       "headword": "{契約|けいやく}",
       "label": "contract (legally binding)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22627_senseisuru",
+      "reading": "せんせいする",
+      "headword": "{宣誓|せんせい}する",
+      "label": "to swear an oath"
     }
   ],
   "metadata": {
     "created": "2026-03-20T13:42:00Z",
-    "modified": "2026-05-08T08:12:00Z",
+    "modified": "2026-09-02T04:01:51Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25259_konomae_ex1",
-      "japanese": "この{前|まえ}、ありがとう。",
+      "japanese": "この{前|まえ}、⟦ありがとう→ありがとう：00917_arigatou⟧。",
       "english": "Thanks for the other day.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25259_konomae_ex2",
-      "japanese": "この{前|まえ}の{日曜日|にちようび}に{映画|えいが}を{見|み}た。",
+      "japanese": "この{前|まえ}⟦の→の：09472_no⟧⟦{日曜日|にちようび}→日曜日：00656_nichiyoubi⟧⟦に→に：00314_ni⟧⟦{映画|えいが}→映画：02273_eiga⟧⟦を→を：00422_wo⟧⟦{見|み}た→見る：00283_miru⟧。",
       "english": "I watched a movie last Sunday.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25259_konomae_ex3",
-      "japanese": "この{前|まえ}{話|はな}した{件|けん}、どうなった？",
+      "japanese": "この{前|まえ}⟦{話|はな}した→話す：00467_hanasu⟧⟦{件|けん}→件：11720_ken⟧、⟦どう→どう：00543_dou⟧⟦なった→なる：01970_naru⟧？",
       "english": "What happened with that thing we talked about the other day?",
       "sense_numbers": [
         1
@@ -45,7 +45,7 @@
     },
     {
       "id": "25259_konomae_ex4",
-      "japanese": "この{前|まえ}{初|はじ}めて{行|い}ったレストランがとても{美味|おい}しかった。",
+      "japanese": "この{前|まえ}⟦{初|はじ}めて→初めて：02932_hajimete⟧⟦{行|い}った→行く：00119_iku⟧⟦レストラン→レストラン：01048_resutoran⟧⟦が→が：00051_ga⟧⟦とても→とても：00593_totemo⟧⟦{美味|おい}しかった→美味しい：00740_oishii⟧。",
       "english": "The restaurant I went to for the first time recently was really delicious.",
       "sense_numbers": [
         1
@@ -54,8 +54,38 @@
       "notes": null
     }
   ],
-  "notes": "An extremely common time expression in conversational Japanese. The time frame it refers to is intentionally vague — it could be anything from a few days ago to several weeks ago, depending on context.\n\nCOMMON PATTERNS:\n- この{前|まえ}、～: The other day, ~\n- この{前|まえ}の + noun: last ~ / the previous ~\n- この{前|まえ}{会|あ}った{時|とき}: when we met the other day\n\nSIMILAR WORDS:\n- {先日|せんじつ}: the other day; more formal and polite, suitable for business and written contexts\n- {最近|さいきん}: recently; refers to a broader, ongoing time period rather than a specific point\n- {前回|ぜんかい}: last time; more precise, referring to a specific previous occasion in a series\n- このあいだ: the other day; essentially synonymous with この{前|まえ} in casual speech\n\nREGISTER:\nCasual. In formal or business settings, {先日|せんじつ} is preferred.",
+  "notes": "An extremely common time expression in conversational Japanese. The time frame it refers to is intentionally vague — it could be anything from a few days ago to several weeks ago, depending on context.\n\nCOMMON PATTERNS:\n- この{前|まえ}、～: The other day, ~\n- この{前|まえ}⟦の→の：09472_no⟧ + noun: last ~ / the previous ~\n- この{前|まえ}⟦{会|あ}った→会う：00482_au⟧{時|とき}: when we met the other day\n\nSIMILAR WORDS:\n- ⟦{先日|せんじつ}→先日：03305_senjitsu⟧: the other day; more formal and polite, suitable for business and written contexts\n- ⟦{最近|さいきん}→最近：00881_saikin⟧: recently; refers to a broader, ongoing time period rather than a specific point\n- ⟦{前回|ぜんかい}→前回：11817_zenkai⟧: last time; more precise, referring to a specific previous occasion in a series\n- このあいだ: the other day; essentially synonymous with この{前|まえ} in casual speech\n\nREGISTER:\nCasual. In formal or business settings, ⟦{先日|せんじつ}→先日：03305_senjitsu⟧ is preferred.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03305_senjitsu",
+      "reading": "せんじつ",
+      "headword": "{先日|せんじつ}",
+      "label": "the other day"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00881_saikin",
+      "reading": "さいきん",
+      "headword": "{最近|さいきん}",
+      "label": "recently"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11817_zenkai",
+      "reading": "ぜんかい",
+      "headword": "{前回|ぜんかい}",
+      "label": "last time"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01257_konoaida",
+      "reading": "このあいだ",
+      "headword": "この{間|あいだ}",
+      "label": "the other day"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -63,11 +93,12 @@
         "expression",
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "time-general"
       ]
     },
     "created": "2026-04-24T12:15:12Z",
-    "modified": "2026-08-04T12:59:53Z"
+    "modified": "2026-09-02T04:02:21Z"
   }
 }

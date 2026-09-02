@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28384_kongetsumatsu_ex1",
-      "japanese": "{締|し}め{切|き}りは{今月末|こんげつまつ}だ。",
+      "japanese": "⟦{締|し}め{切|き}り→締め切り：04162_shimekiri⟧⟦は→は：00079_ha⟧{今月末|こんげつまつ}だ。",
       "english": "The deadline is the end of this month.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28384_kongetsumatsu_ex2",
-      "japanese": "{今月末|こんげつまつ}までに{報告書|ほうこくしょ}を{提出|ていしゅつ}してください。",
+      "japanese": "{今月末|こんげつまつ}⟦まで→まで：00490_made⟧⟦に→に：00314_ni⟧⟦{報告書|ほうこくしょ}→報告書：06744_houkokusho⟧⟦を→を：00422_wo⟧⟦{提出|ていしゅつ}して→提出する：19644_teishutsusuru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please submit the report by the end of this month.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28384_kongetsumatsu_ex3",
-      "japanese": "{今月末|こんげつまつ}に{引|ひ}っ{越|こ}すので、{荷造|にづく}りで{忙|いそが}しい。",
+      "japanese": "{今月末|こんげつまつ}⟦に→に：00314_ni⟧⟦{引|ひ}っ{越|こ}す→引っ越す：01171_hikkosu⟧⟦の→の：09472_no⟧で、⟦{荷造|にづく}り→荷造り：07938_nizukuri⟧で⟦{忙|いそが}しい→忙しい：00591_isogashii⟧。",
       "english": "I'm moving at the end of this month, so I'm busy packing.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Frequently appears in deadlines, contracts, and payment schedules. The suffix {末|まつ} marks the closing portion of a unit of time.\n\nCOMMON COLLOCATIONS:\n- {今月末|こんげつまつ}まで: by the end of this month\n- {今月末|こんげつまつ}までに: by the end of this month (with deadline nuance)\n- {今月末|こんげつまつ}{締|し}め{切|き}り: end-of-month deadline\n- {今月末|こんげつまつ}{払|ばら}い: end-of-month payment\n\nRELATED EXPRESSIONS:\n- {月末|げつまつ}: end of the month (any month)\n- {来月末|らいげつまつ}: end of next month\n- {先月末|せんげつまつ}: end of last month\n- {年末|ねんまつ}: end of the year\n- {月初|げっしょ}: beginning of the month",
+  "notes": "Frequently appears in deadlines, contracts, and payment schedules. The suffix {末|まつ} marks the closing portion of a unit of time.\n\nCOMMON COLLOCATIONS:\n- {今月末|こんげつまつ}⟦まで→まで：00490_made⟧: by the end of this month\n- {今月末|こんげつまつ}⟦まで→まで：00490_made⟧⟦に→に：00314_ni⟧: by the end of this month (with deadline nuance)\n- {今月末|こんげつまつ}⟦{締|し}め{切|き}り→締め切り：04162_shimekiri⟧: end-of-month deadline\n- {今月末|こんげつまつ}⟦{払|ばら}い→払い：09655_barai⟧: end-of-month payment\n\nRELATED WORDS:\n- ⟦{月末|げつまつ}→月末：00070_getsumatsu⟧: end of the month (any month)\n- {来月末|らいげつまつ}: end of next month\n- {先月末|せんげつまつ}: end of last month\n- ⟦{年末|ねんまつ}→年末：17688_nenmatsu⟧: end of the year\n- ⟦{月初|げっしょ}→月初：18530_gessho⟧: beginning of the month",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "17688_nenmatsu",
+      "reading": "ねんまつ",
+      "headword": "{年末|ねんまつ}",
+      "label": "end of the year"
+    },
+    {
+      "type": "related",
+      "target_id": "18530_gessho",
+      "reading": "げっしょ",
+      "headword": "{月初|げっしょ}",
+      "label": "beginning of the month"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +69,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "time-general"
       ],
       "domain": []
     },
     "created": "2026-05-30T03:10:00Z",
-    "modified": "2026-08-08T18:34:17Z"
+    "modified": "2026-09-02T04:02:33Z"
   }
 }

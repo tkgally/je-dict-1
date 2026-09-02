@@ -15,41 +15,68 @@
   "examples": [
     {
       "id": "19657_shuubun_ex1",
-      "japanese": "{秋分|しゅうぶん}の{日|ひ}は{祝日|しゅくじつ}だ。",
+      "japanese": "{秋分|しゅうぶん}の{日|ひ}⟦は→は：00079_ha⟧⟦{祝日|しゅくじつ}→祝日：07588_shukujitsu⟧だ。",
       "english": "The autumnal equinox is a national holiday.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19657_shuubun_ex2",
-      "japanese": "{秋分|しゅうぶん}を{過|す}ぎると、{日|ひ}が{短|みじか}くなる。",
+      "japanese": "{秋分|しゅうぶん}⟦を→を：00422_wo⟧⟦{過|す}ぎる→過ぎる：01219_sugiru⟧⟦と→と：00512_to⟧、⟦{日|ひ}→日：02249_hi⟧⟦が→が：00051_ga⟧⟦{短|みじか}く→短い：00510_mijikai⟧⟦なる→なる：01970_naru⟧。",
       "english": "After the autumnal equinox, the days get shorter.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19657_shuubun_ex3",
-      "japanese": "{秋分|しゅうぶん}の{日|ひ}は{毎年|まいとし}9{月|がつ}22{日|にち}か23{日|にち}ごろになる。",
+      "japanese": "{秋分|しゅうぶん}の{日|ひ}⟦は→は：00079_ha⟧⟦{毎年|まいとし}→毎年：00731_maitoshi⟧9⟦{月|がつ}→月：30418_gatsu⟧22⟦{日|にち}→日：12732_nichi⟧⟦か→か：09473_ka⟧23⟦{日|にち}→日：12732_nichi⟧ごろ⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧。",
       "english": "The autumnal equinox falls around September 22nd or 23rd every year.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {秋|あき} (autumn) and {分|ぶん} (division, equinox). Refers to the astronomical event when the sun crosses the celestial equator heading south.\n\nCULTURAL CONTEXT:\n{秋分|しゅうぶん}の{日|ひ} (Autumnal Equinox Day) is a national holiday in Japan. It falls during {秋|あき}の{彼岸|ひがん} (the autumn equinox week), when people visit family graves, clean them, and offer {おはぎ} (rice balls coated in sweet bean paste).\n\nCOMMON COLLOCATIONS:\n- {秋分|しゅうぶん}の{日|ひ} — Autumnal Equinox Day (national holiday)\n- {秋分|しゅうぶん}{点|てん} — autumnal equinox point (astronomical term)\n\nSIMILAR WORDS:\n- {春分|しゅんぶん} — vernal equinox; the spring counterpart\n- {彼岸|ひがん} — equinox week; the Buddhist observance period around each equinox",
+  "notes": "A compound of ⟦{秋|あき}→秋：02276_aki⟧ (autumn) and ⟦{分|ぶん}→分：26216_bun⟧ (division, equinox). Refers to the astronomical event when the sun crosses the celestial equator heading south.\n\nCULTURAL NOTE:\n{秋分|しゅうぶん}の{日|ひ} (Autumnal Equinox Day) is a national holiday in Japan. It falls during ⟦{秋|あき}→秋：02276_aki⟧⟦の→の：09472_no⟧⟦{彼岸|ひがん}→彼岸：12612_higan⟧ (the autumn equinox week), when people visit family graves, clean them, and offer ⟦おはぎ→おはぎ：29365_ohagi⟧ (rice balls coated in sweet bean paste).\n\nCOMMON COLLOCATIONS:\n- {秋分|しゅうぶん}の{日|ひ} — Autumnal Equinox Day (national holiday)\n- {秋分|しゅうぶん}{点|てん} — autumnal equinox point (astronomical term)\n\nSIMILAR WORDS:\n- ⟦{春分|しゅんぶん}→春分：19942_shunbun⟧ — vernal equinox; the spring counterpart\n- ⟦{彼岸|ひがん}→彼岸：12612_higan⟧ — equinox week; the Buddhist observance period around each equinox",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12612_higan",
+      "reading": "ひがん",
+      "headword": "{彼岸|ひがん}",
+      "label": "equinox week"
+    },
+    {
+      "type": "related",
+      "target_id": "19819_geshi",
+      "reading": "げし",
+      "headword": "{夏至|げし}",
+      "label": "summer solstice"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["time", "culture"]
+      "semantic": [
+        "time",
+        "culture"
+      ]
     },
     "created": "2026-03-26T11:41:40Z",
-    "modified": "2026-04-11T02:03:14Z"
+    "modified": "2026-09-02T04:01:56Z"
   },
   "prominent_see_also": [
     {

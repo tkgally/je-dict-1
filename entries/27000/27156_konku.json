@@ -3,7 +3,7 @@
   "headword": "{困苦|こんく}",
   "reading": "こんく",
   "romaji": "konku",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "hardship; privation; suffering",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "27156_konku_ex1",
-      "japanese": "{困苦|こんく}に{耐|た}える。",
+      "japanese": "{困苦|こんく}⟦に→に：00314_ni⟧⟦{耐|た}える→耐える：12087_taeru⟧。",
       "english": "To endure hardship.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "27156_konku_ex2",
-      "japanese": "{困苦|こんく}{欠乏|けつぼう}の{生活|せいかつ}を{送|おく}った。",
+      "japanese": "{困苦|こんく}⟦{欠乏|けつぼう}→欠乏：15114_ketsubou⟧⟦の→の：09472_no⟧⟦{生活|せいかつ}→生活：01443_seikatsu⟧⟦を→を：00422_wo⟧⟦{送|おく}った→送る：00742_okuru⟧。",
       "english": "They lived a life of hardship and privation.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "27156_konku_ex3",
-      "japanese": "{幼少期|ようしょうき}の{困苦|こんく}を{乗|の}り{越|こ}えて、{彼|かれ}は{立派|りっぱ}な{人物|じんぶつ}に{成長|せいちょう}した。",
+      "japanese": "⟦{幼少期|ようしょうき}→幼少期：21168_youshouki⟧⟦の→の：09472_no⟧{困苦|こんく}⟦を→を：00422_wo⟧⟦{乗|の}り{越|こ}えて→乗り越える：04620_norikoeru⟧、⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{立派|りっぱ}→立派：01093_rippa⟧な⟦{人物|じんぶつ}→人物：03356_jinbutsu⟧⟦に→に：00314_ni⟧⟦{成長|せいちょう}→成長：03290_seichou⟧⟦した→する：00392_suru⟧。",
       "english": "Overcoming the hardships of his childhood, he grew into a fine person.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "A literary compound of {困|こま}る (to be troubled) and {苦|く} (suffering). Used in formal writing and speeches, not in everyday conversation. Often appears in historical and biographical narratives describing difficult living conditions.\n\nCOMMON COLLOCATIONS:\n- {困苦|こんく}に{耐|た}える — to endure hardship\n- {困苦|こんく}{欠乏|けつぼう} — hardship and want\n- {困苦|こんく}を{乗|の}り{越|こ}える — to overcome hardship\n- {困苦|こんく}の{生活|せいかつ} — a life of hardship\n\nSIMILAR WORDS:\n- {苦労|くろう} — hardship, trouble; the most common everyday word for difficulty and hard work\n- {苦難|くなん} — suffering, ordeal; similar formality level, focuses on painful trials\n- {辛苦|しんく} — toil, hard labor; emphasizes the painful effort involved\n- {難儀|なんぎ} — difficulty, trouble; can also mean troublesome or arduous",
+  "notes": "A literary compound of ⟦{困|こま}る→困る：00861_komaru⟧ (to be troubled) and {苦|く} (suffering). Used in formal writing and speeches, not in everyday conversation. Often appears in historical and biographical narratives describing difficult living conditions.\n\nCOMMON COLLOCATIONS:\n- {困苦|こんく}⟦に→に：00314_ni⟧⟦{耐|た}える→耐える：12087_taeru⟧ — to endure hardship\n- {困苦|こんく}⟦{欠乏|けつぼう}→欠乏：15114_ketsubou⟧ — hardship and want\n- {困苦|こんく}⟦を→を：00422_wo⟧⟦{乗|の}り{越|こ}える→乗り越える：04620_norikoeru⟧ — to overcome hardship\n- {困苦|こんく}⟦の→の：09472_no⟧⟦{生活|せいかつ}→生活：01443_seikatsu⟧ — a life of hardship\n\nSIMILAR WORDS:\n- ⟦{苦労|くろう}→苦労：02672_kurou⟧ — hardship, trouble; the most common everyday word for difficulty and hard work\n- ⟦{苦難|くなん}→苦難：25318_kunan⟧ — suffering, ordeal; similar formality level, focuses on painful trials\n- {辛苦|しんく} — toil, hard labor; emphasizes the painful effort involved\n- {難儀|なんぎ} — difficulty, trouble; can also mean troublesome or arduous",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02672_kurou",
+      "reading": "くろう",
+      "headword": "{苦労|くろう}",
+      "label": "hardship, trouble"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25318_kunan",
+      "reading": "くなん",
+      "headword": "{苦難|くなん}",
+      "label": "suffering, ordeal"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -65,7 +81,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-07T13:14:59Z",
-    "modified": "2026-05-07T13:14:59Z"
+    "modified": "2026-09-02T04:02:29Z"
   },
   "conjugation": {
     "type": "suru",

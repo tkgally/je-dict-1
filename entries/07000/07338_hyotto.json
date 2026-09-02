@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "07338_hyotto_ex1",
-      "japanese": "ひょっとしたら{雨|あめ}が{降|ふ}るかもしれない。",
+      "japanese": "ひょっと⟦したら→する：00392_suru⟧⟦{雨|あめ}→雨：00583_ame⟧⟦が→が：00051_ga⟧⟦{降|ふ}る→降る：00839_furu⟧⟦かもしれない→かもしれない：00164_kamoshirenai⟧。",
       "english": "It might possibly rain.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "07338_hyotto_ex2",
-      "japanese": "ひょっとして、{田中|たなか}さんですか。",
+      "japanese": "ひょっと⟦して→する：00392_suru⟧、⟦{田中|たなか}→田中：09528_tanaka⟧さんです⟦か→か：09473_ka⟧。",
       "english": "By any chance, are you Mr./Ms. Tanaka?",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "07338_hyotto_ex3",
-      "japanese": "ひょっとすると{間|ま}に{合|あ}わないかも。",
+      "japanese": "ひょっと⟦する→する：00392_suru⟧⟦と→と：00512_to⟧⟦{間|ま}に{合|あ}わない→間に合う：01142_maniau⟧⟦か→か：09473_ka⟧⟦も→も：00484_mo⟧。",
       "english": "There's a possibility we might not make it in time.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "ひょっと expresses the idea of something happening by chance or the possibility of something occurring. It is almost always used with したら, して, or すると rather than on its own.\n\nCOMMON PATTERNS:\n- ひょっとしたら〜かもしれない: there's a possibility that ~ (speculation)\n- ひょっとして〜？: by any chance ~? (checking a guess)\n- ひょっとすると〜: possibly ~ (tentative prediction)\n\nNUANCE:\nひょっとしたら suggests a somewhat low probability — the speaker thinks something is unlikely but possible. It is softer and more tentative than もしかしたら, which is more neutral about probability.\n\nREGISTER:\nCasual to neutral. Very common in everyday conversation. Not typically used in formal writing.\n\nSIMILAR WORDS:\n- もしかしたら: perhaps, maybe (similar but slightly higher probability)\n- もしかして: by any chance (similar to ひょっとして)\n- たぶん: probably (higher certainty)\n- おそらく: most likely (formal, higher certainty)",
+  "notes": "ひょっと expresses the idea of something happening by chance or the possibility of something occurring. It is almost always used with ⟦したら→する：00392_suru⟧, ⟦して→する：00392_suru⟧, or ⟦する→する：00392_suru⟧⟦と→と：00512_to⟧ rather than on its own.\n\nCOMMON PATTERNS:\n- ひょっと⟦したら→する：00392_suru⟧〜⟦かもしれない→かもしれない：00164_kamoshirenai⟧: there's a possibility that ~ (speculation)\n- ひょっと⟦して→する：00392_suru⟧〜？: by any chance ~? (checking a guess)\n- ひょっと⟦する→する：00392_suru⟧⟦と→と：00512_to⟧〜: possibly ~ (tentative prediction)\n\nUSAGE:\nひょっと⟦したら→する：00392_suru⟧ suggests a somewhat low probability — the speaker thinks something is unlikely but possible. It is softer and more tentative than ⟦もしかしたら→もしかしたら：08420_moshikashitara⟧, which is more neutral about probability.\n\nREGISTER:\nCasual to neutral. Very common in everyday conversation. Not typically used in formal writing.\n\nSIMILAR WORDS:\n- ⟦もしかしたら→もしかしたら：08420_moshikashitara⟧: perhaps, maybe (similar but slightly higher probability)\n- ⟦もしかして→もしかして：05713_moshikashite⟧: by any chance (similar to ひょっと⟦して→する：00392_suru⟧)\n- ⟦たぶん→たぶん：00815_tabun⟧: probably (higher certainty)\n- ⟦おそらく→おそらく：02492_osoraku⟧: most likely (formal, higher certainty)",
   "cross_references": [
     {
       "type": "synonym",
@@ -58,11 +58,32 @@
       "reading": "ひょっとして",
       "headword": "ひょっとして",
       "label": "by any chance"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05713_moshikashite",
+      "reading": "もしかして",
+      "headword": "もしかして",
+      "label": "by any chance"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00815_tabun",
+      "reading": "たぶん",
+      "headword": "たぶん",
+      "label": "probably"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02492_osoraku",
+      "reading": "おそらく",
+      "headword": "おそらく",
+      "label": "most likely"
     }
   ],
   "metadata": {
     "created": "2026-01-19T04:35:46Z",
-    "modified": "2026-08-13T03:30:24Z",
+    "modified": "2026-09-02T04:01:10Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08444_zensoku_ex1",
-      "japanese": "{喘息|ぜんそく}の{発作|ほっさ}が{起|お}きた。",
+      "japanese": "{喘息|ぜんそく}⟦の→の：09472_no⟧⟦{発作|ほっさ}→発作：15023_hossa⟧⟦が→が：00051_ga⟧⟦{起|お}きた→起きる：00521_okiru⟧。",
       "english": "I had an asthma attack.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "08444_zensoku_ex2",
-      "japanese": "{子供|こども}の{頃|ころ}から{喘息|ぜんそく}を{持|も}っている。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧⟦の→の：09472_no⟧{頃|ころ}⟦から→から：00504_kara⟧{喘息|ぜんそく}⟦を→を：00422_wo⟧⟦{持|も}っている→持つ：00478_motsu⟧。",
       "english": "I've had asthma since childhood.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "08444_zensoku_ex3",
-      "japanese": "{喘息|ぜんそく}の{薬|くすり}を{常備|じょうび}している。",
+      "japanese": "{喘息|ぜんそく}⟦の→の：09472_no⟧⟦{薬|くすり}→薬：00793_kusuri⟧⟦を→を：00422_wo⟧⟦{常備|じょうび}→常備：27113_joubi⟧⟦している→する：00392_suru⟧。",
       "english": "I always keep asthma medication on hand.",
       "sense_numbers": [
         1
@@ -43,7 +43,30 @@
       "notes": null
     }
   ],
-  "notes": "{喘息|ぜんそく} means asthma — a chronic respiratory condition. Composed of {喘|ぜん} (wheeze, pant) + {息|そく} (breath).\n\nCOMMON COLLOCATIONS:\n- {喘息|ぜんそく}の{発作|ほっさ}: asthma attack\n- {喘息|ぜんそく}の{薬|くすり}: asthma medication\n- {喘息|ぜんそく}{持|も}ち: someone who has asthma\n- {喘息|ぜんそく}を{患|わずら}う: to suffer from asthma\n\nTYPES:\n- {気管支|きかんし}{喘息|ぜんそく}: bronchial asthma\n- {小児|しょうに}{喘息|ぜんそく}: childhood asthma\n- アレルギー{性|せい}{喘息|ぜんそく}: allergic asthma\n\nRELATED TERMS:\n- {吸入器|きゅうにゅうき}: inhaler\n- {発作|ほっさ}: attack/episode\n- {呼吸困難|こきゅうこんなん}: difficulty breathing",
+  "notes": "{喘息|ぜんそく} means asthma — a chronic respiratory condition. Composed of {喘|ぜん} (wheeze, pant) + {息|そく} (breath).\n\nCOMMON COLLOCATIONS:\n- {喘息|ぜんそく}⟦の→の：09472_no⟧⟦{発作|ほっさ}→発作：15023_hossa⟧: asthma attack\n- {喘息|ぜんそく}⟦の→の：09472_no⟧⟦{薬|くすり}→薬：00793_kusuri⟧: asthma medication\n- {喘息|ぜんそく}{持|も}ち: someone who has asthma\n- {喘息|ぜんそく}⟦を→を：00422_wo⟧⟦{患|わずら}う→患う：27883_wazurau⟧: to suffer from asthma\n\nTYPES:\n- {気管支|きかんし}{喘息|ぜんそく}: bronchial asthma\n- ⟦{小児|しょうに}→小児：27025_shouni⟧{喘息|ぜんそく}: childhood asthma\n- ⟦アレルギー→アレルギー：04645_arerugii⟧⟦{性|せい}→性：09880_sei⟧{喘息|ぜんそく}: allergic asthma\n\nRELATED WORDS:\n- ⟦{吸入器|きゅうにゅうき}→吸入器：16305_kyuunyuuki⟧: inhaler\n- ⟦{発作|ほっさ}→発作：15023_hossa⟧: attack/episode\n- {呼吸困難|こきゅうこんなん}: difficulty breathing",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "16305_kyuunyuuki",
+      "reading": "きゅうにゅうき",
+      "headword": "{吸入器|きゅうにゅうき}",
+      "label": "inhaler"
+    },
+    {
+      "type": "related",
+      "target_id": "15023_hossa",
+      "reading": "ほっさ",
+      "headword": "{発作|ほっさ}",
+      "label": "attack/episode"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27056_kikanshien",
+      "reading": "きかんしえん",
+      "headword": "{気管支炎|きかんしえん}",
+      "label": "bronchitis"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -51,11 +74,12 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "health"
       ]
     },
     "created": "2026-01-27T00:58:00Z",
-    "modified": "2026-08-12T12:51:44Z"
+    "modified": "2026-09-02T04:01:15Z"
   }
 }

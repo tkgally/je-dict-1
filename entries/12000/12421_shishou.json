@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "12421_shishou_ex1",
-      "japanese": "{師匠|ししょう}に{弟子入|でしい}りする。",
+      "japanese": "{師匠|ししょう}⟦に→に：00314_ni⟧{弟子入|でしい}り⟦する→する：00392_suru⟧。",
       "english": "To become an apprentice to a master.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "12421_shishou_ex2",
-      "japanese": "{落語|らくご}の{師匠|ししょう}のもとで{修業|しゅぎょう}した。",
+      "japanese": "⟦{落語|らくご}→落語：04457_rakugo⟧⟦の→の：09472_no⟧{師匠|ししょう}⟦の→の：09472_no⟧もと⟦で→で：00502_de⟧⟦{修業|しゅぎょう}→修業：16906_shugyou⟧⟦した→する：00392_suru⟧。",
       "english": "I trained under a rakugo master.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "12421_shishou_ex3",
-      "japanese": "{師匠|ししょう}から{教|おそ}わった{技|わざ}を{大切|たいせつ}にしながら、{自分|じぶん}なりの{表現|ひょうげん}を{追求|ついきゅう}している。",
+      "japanese": "{師匠|ししょう}⟦から→から：00504_kara⟧⟦{教|おそ}わった→教わる：02024_osowaru⟧⟦{技|わざ}→技：02172_waza⟧⟦を→を：00422_wo⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧にし⟦ながら→ながら：10530_nagara⟧、⟦{自分|じぶん}→自分：02887_jibun⟧⟦なり→なり：09883_nari⟧⟦の→の：09472_no⟧⟦{表現|ひょうげん}→表現：03584_hyougen⟧⟦を→を：00422_wo⟧⟦{追求|ついきゅう}→追求：14401_tsuikyuu⟧⟦している→する：00392_suru⟧。",
       "english": "While cherishing the techniques learned from my master, I am pursuing my own form of expression.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "STRUCTURE:\n{師|し} (teacher, master) + {匠|しょう} (artisan, skilled worker).\n\nUSAGE:\n{師匠|ししょう} is used in traditional arts such as {落語|らくご} (comic storytelling), {茶道|さどう} (tea ceremony), {花道|かどう} (flower arrangement), {書道|しょどう} (calligraphy), martial arts, and traditional music. The relationship between {師匠|ししょう} and {弟子|でし} (apprentice/disciple) is central to the transmission of traditional skills in Japan. Compare with {先生|せんせい}, which is a more general and widely applicable term for teacher.\n\nCOMMON COLLOCATIONS:\n- {師匠|ししょう}に{弟子入|でしい}りする: to become someone's apprentice\n- {師匠|ししょう}と{弟子|でし}: master and apprentice\n- {師匠|ししょう}の{教|おし}え: the master's teachings\n- {師匠|ししょう}{筋|すじ}: lineage of masters",
+  "notes": "COMMON PATTERNS:\n{師|し} (teacher, master) + {匠|しょう} (artisan, skilled worker).\n\nUSAGE:\n{師匠|ししょう} is used in traditional arts such as ⟦{落語|らくご}→落語：04457_rakugo⟧ (comic storytelling), ⟦{茶道|さどう}→茶道：04451_sadou⟧ (tea ceremony), {花道|かどう} (flower arrangement), ⟦{書道|しょどう}→書道：04178_shodou⟧ (calligraphy), martial arts, and traditional music. The relationship between {師匠|ししょう} and ⟦{弟子|でし}→弟子：03986_deshi⟧ (apprentice/disciple) is central to the transmission of traditional skills in Japan. Compare with ⟦{先生|せんせい}→先生：00609_sensei⟧, which is a more general and widely applicable term for teacher.\n\nCOMMON COLLOCATIONS:\n- {師匠|ししょう}⟦に→に：00314_ni⟧{弟子入|でしい}り⟦する→する：00392_suru⟧: to become someone's apprentice\n- {師匠|ししょう}⟦と→と：00512_to⟧⟦{弟子|でし}→弟子：03986_deshi⟧: master and apprentice\n- {師匠|ししょう}⟦の→の：09472_no⟧⟦{教|おし}え→教え：01909_oshie⟧: the master's teachings\n- {師匠|ししょう}⟦{筋|すじ}→筋：03366_suji⟧: lineage of masters",
   "cross_references": [
     {
       "type": "antonym",
@@ -66,11 +66,18 @@
       "reading": "ししょう",
       "headword": "{支障|ししょう}",
       "label": "hindrance, obstacle"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21880_shitei",
+      "reading": "してい",
+      "headword": "{師弟|してい}",
+      "label": "master and disciple"
     }
   ],
   "metadata": {
     "created": "2026-02-21T06:12:01Z",
-    "modified": "2026-04-27T04:29:29Z",
+    "modified": "2026-09-02T04:01:29Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

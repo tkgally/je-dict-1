@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "09800_tsumini_ex1",
-      "japanese": "{積|つ}み{荷|に}⟦を→を：00422_wo⟧{降|お}ろす。",
+      "japanese": "{積|つ}み{荷|に}⟦を→を：00422_wo⟧⟦{降|お}ろす→降ろす：01923_orosu⟧。",
       "english": "To unload the cargo.",
       "has_audio": false,
       "sense_numbers": [
@@ -23,7 +23,7 @@
     },
     {
       "id": "09800_tsumini_ex2",
-      "japanese": "{積|つ}み{荷|に}⟦が→が：00051_ga⟧{重|おも}い。",
+      "japanese": "{積|つ}み{荷|に}⟦が→が：00051_ga⟧⟦{重|おも}い→重い：00804_omoi⟧。",
       "english": "The cargo is heavy.",
       "has_audio": false,
       "sense_numbers": [
@@ -32,7 +32,7 @@
     },
     {
       "id": "09800_tsumini_ex3",
-      "japanese": "{船|ふね}⟦の→の：09472_no⟧{積|つ}み{荷|に}⟦を→を：00422_wo⟧⟦{確認|かくにん}→確認：00158_kakunin⟧⟦する→する：00392_suru⟧。",
+      "japanese": "⟦{船|ふね}→船：00775_fune⟧⟦の→の：09472_no⟧{積|つ}み{荷|に}⟦を→を：00422_wo⟧⟦{確認|かくにん}→確認：00158_kakunin⟧⟦する→する：00392_suru⟧。",
       "english": "To check the ship's cargo.",
       "has_audio": false,
       "sense_numbers": [
@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "notes": "{積|つ}み{荷|に} refers to cargo or freight being transported.\n\nCOMMON COLLOCATIONS:\n- {積|つ}み{荷|に}を{載|の}せる (to load cargo)\n- {積|つ}み{荷|に}を{降|お}ろす (to unload cargo)\n- {積|つ}み{荷|に}を{検査|けんさ}する (to inspect cargo)\n\nRELATED TERMS:\n- {貨物|かもつ}: freight, cargo (more formal)\n- {荷物|にもつ}: luggage, baggage\n- ⟦{積|つ}み{下|おろ}し→積み下ろし：09801_tsumioroshi⟧: loading and unloading\n- ⟦{運送|うんそう}→運送：09791_unsou⟧: transport, shipping\n- ⟦コンテナ→コンテナ：09805_kontena⟧: container",
+  "notes": "{積|つ}み{荷|に} refers to cargo or freight being transported.\n\nCOMMON COLLOCATIONS:\n- {積|つ}み{荷|に}⟦を→を：00422_wo⟧⟦{載|の}せる→載せる：28290_noseru⟧ (to load cargo)\n- {積|つ}み{荷|に}⟦を→を：00422_wo⟧⟦{降|お}ろす→降ろす：01923_orosu⟧ (to unload cargo)\n- {積|つ}み{荷|に}⟦を→を：00422_wo⟧⟦{検査|けんさ}→検査：02707_kensa⟧⟦する→する：00392_suru⟧ (to inspect cargo)\n\nRELATED WORDS:\n- ⟦{貨物|かもつ}→貨物：00165_kamotsu⟧: freight, cargo (more formal)\n- ⟦{荷物|にもつ}→荷物：00737_nimotsu⟧: luggage, baggage\n- ⟦{積|つ}み{下|おろ}し→積み下ろし：09801_tsumioroshi⟧: loading and unloading\n- ⟦{運送|うんそう}→運送：09791_unsou⟧: transport, shipping\n- ⟦コンテナ→コンテナ：09805_kontena⟧: container",
   "cross_references": [
     {
       "type": "synonym",
@@ -62,11 +62,25 @@
       "reading": "つみおろし",
       "headword": "{積|つ}み{下|お}ろし",
       "label": "loading and unloading"
+    },
+    {
+      "type": "related",
+      "target_id": "09791_unsou",
+      "reading": "うんそう",
+      "headword": "{運送|うんそう}",
+      "label": "transport, shipping"
+    },
+    {
+      "type": "related",
+      "target_id": "09805_kontena",
+      "reading": "こんてな",
+      "headword": "コンテナ",
+      "label": "container"
     }
   ],
   "metadata": {
     "created": "2026-02-03T11:36:14Z",
-    "modified": "2026-04-23T07:31:27Z",
+    "modified": "2026-09-02T04:01:19Z",
     "ai_model": "claude-opus-4-5-20251101",
     "vocabulary_tier": "general",
     "tags": {

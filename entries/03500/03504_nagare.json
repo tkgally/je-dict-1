@@ -118,7 +118,7 @@
       ]
     }
   ],
-  "notes": "USAGE: {流|なが}れ is the noun form of ⟦{流|なが}れる→流れる：01969_nagareru⟧ (to flow). It's used both literally (water, air) and figuratively (events, time, trends).\n\nCOMMON PATTERNS:\n・⟦{川|かわ}→川：02186_kawa⟧の{流|なが}れ (river current)\n・⟦{時|とき}→時：02918_toki⟧の{流|なが}れ (passage of time)\n・{流|なが}れに⟦{逆|さか}らう→逆らう：02106_sakarau⟧ (to go against the flow)\n・{流|なが}れに⟦{身|み}→身：01764_mi⟧を⟦{任|まか}せる→任せる：02417_makaseru⟧ (to go with the flow)\n・{流|なが}れ⟦{作業|さぎょう}→作業：02775_sagyou⟧ (assembly line work)\n\nCOMPOUNDS:\n・⟦{流|なが}れ{星|ぼし}→流れ星：05049_nagareboshi⟧ (shooting star)\n・{流|なが}れ⟦{者|もの}→者：12734_mono⟧ (drifter, wanderer)\n・⟦{血|ち}→血：01659_chi⟧の{流|なが}れ (bloodline, lineage)",
+  "notes": "USAGE: {流|なが}れ is the noun form of ⟦{流|なが}れる→流れる：01969_nagareru⟧ (to flow). It's used both literally (water, air) and figuratively (events, time, trends).\n\nCOMMON PATTERNS:\n- ⟦{川|かわ}→川：02186_kawa⟧⟦の→の：09472_no⟧{流|なが}れ (river current)\n- ⟦{時|とき}→時：02918_toki⟧⟦の→の：09472_no⟧{流|なが}れ (passage of time)\n- {流|なが}れ⟦に→に：00314_ni⟧⟦{逆|さか}らう→逆らう：02106_sakarau⟧ (to go against the flow)\n- {流|なが}れ⟦に→に：00314_ni⟧⟦{身|み}→身：01764_mi⟧⟦を→を：00422_wo⟧⟦{任|まか}せる→任せる：02417_makaseru⟧ (to go with the flow)\n- {流|なが}れ⟦{作業|さぎょう}→作業：02775_sagyou⟧ (assembly line work)\n\nCOMPOUNDS:\n- ⟦{流|なが}れ{星|ぼし}→流れ星：05049_nagareboshi⟧ (shooting star)\n- {流|なが}れ⟦{者|もの}→者：12734_mono⟧ (drifter, wanderer)\n- ⟦{血|ち}→血：01659_chi⟧⟦の→の：09472_no⟧{流|なが}れ (bloodline, lineage)",
   "cross_references": [
     {
       "type": "related",
@@ -126,11 +126,32 @@
       "headword": "{流|なが}れる",
       "label": "verb: to flow",
       "target_id": "01969_nagareru"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20844_utsuroi",
+      "reading": "うつろい",
+      "headword": "{移|うつ}ろい",
+      "label": "change"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21750_suiryuu",
+      "reading": "すいりゅう",
+      "headword": "{水流|すいりゅう}",
+      "label": "water current"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26821_uneri",
+      "reading": "うねり",
+      "headword": "うねり",
+      "label": "swell"
     }
   ],
   "metadata": {
     "created": "2026-01-12T10:34:00Z",
-    "modified": "2026-06-12T18:28:11Z",
+    "modified": "2026-09-02T04:01:03Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

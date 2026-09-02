@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25585_guuzenni_ex1",
-      "japanese": "{偶然|ぐうぜん}に{旧友|きゅうゆう}に{会|あ}った。",
+      "japanese": "{偶然|ぐうぜん}に⟦{旧友|きゅうゆう}→旧友：17475_kyuuyuu⟧⟦に→に：00314_ni⟧⟦{会|あ}った→会う：00482_au⟧。",
       "english": "I ran into an old friend by chance.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25585_guuzenni_ex2",
-      "japanese": "{偶然|ぐうぜん}にその{店|みせ}を{見|み}つけて{入|はい}ってみた。",
+      "japanese": "{偶然|ぐうぜん}に⟦その→その：00993_sono⟧⟦{店|みせ}→店：00497_mise⟧⟦を→を：00422_wo⟧⟦{見|み}つけて→見つける：01180_mitsukeru⟧⟦{入|はい}って→入る：00494_hairu⟧みた。",
       "english": "I happened to find the shop and decided to go in.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25585_guuzenni_ex3",
-      "japanese": "{偶然|ぐうぜん}に{同|おな}じ{電車|でんしゃ}に{乗|の}り{合|あ}わせたのがきっかけで{親|した}しくなった。",
+      "japanese": "{偶然|ぐうぜん}に⟦{同|おな}じ→同じ：02857_onaji⟧⟦{電車|でんしゃ}→電車：00522_densha⟧⟦に→に：00314_ni⟧{乗|の}り{合|あ}わせた⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦きっかけ→きっかけ：10309_kikkake⟧⟦で→で：00502_de⟧⟦{親|した}しく→親しい：02345_shitashii⟧⟦なった→なる：01970_naru⟧。",
       "english": "We became close after coincidentally being on the same train.",
       "sense_numbers": [
         1
@@ -44,8 +44,23 @@
       "notes": null
     }
   ],
-  "notes": "The adverbial form of {偶然|ぐうぜん} (coincidence). Can also be used without に as an adverb ({偶然|ぐうぜん}{会|あ}った is equally common). The に form emphasizes the manner in which something happened.\n\nCOMMON COLLOCATIONS:\n- {偶然|ぐうぜん}に{出会|であ}う: to meet by chance\n- {偶然|ぐうぜん}に{見|み}つける: to find accidentally\n- {偶然|ぐうぜん}に{知|し}る: to learn by chance\n- {偶然|ぐうぜん}の{一致|いっち}: coincidence, chance match\n\nSIMILAR WORDS:\n- たまたま: by chance, happen to — more casual and spoken; often implies a lucky or unlucky coincidence\n- {思|おも}いがけず: unexpectedly — emphasizes the surprise element\n- {図|はか}らずも: unexpectedly, by a twist of fate — literary, often for fortunate or ironic coincidences\n\nGRAMMAR NOTE:\nBoth {偶然|ぐうぜん} and {偶然|ぐうぜん}に function as adverbs. The form without に is slightly more common in casual speech.",
-  "cross_references": [],
+  "notes": "The adverbial form of ⟦{偶然|ぐうぜん}→偶然：02674_guuzen⟧ (coincidence). Can also be used without ⟦に→に：00314_ni⟧ as an adverb (⟦{偶然|ぐうぜん}→偶然：02674_guuzen⟧⟦{会|あ}った→会う：00482_au⟧ is equally common). The ⟦に→に：00314_ni⟧ form emphasizes the manner in which something happened.\n\nCOMMON COLLOCATIONS:\n- {偶然|ぐうぜん}に⟦{出会|であ}う→出会う：02298_deau⟧: to meet by chance\n- {偶然|ぐうぜん}に⟦{見|み}つける→見つける：01180_mitsukeru⟧: to find accidentally\n- {偶然|ぐうぜん}に⟦{知|し}る→知る：00458_shiru⟧: to learn by chance\n- ⟦{偶然|ぐうぜん}→偶然：02674_guuzen⟧⟦の→の：09472_no⟧⟦{一致|いっち}→一致：01733_icchi⟧: coincidence, chance match\n\nSIMILAR WORDS:\n- たまたま: by chance, happen to — more casual and spoken; often implies a lucky or unlucky coincidence\n- {思|おも}いがけず: unexpectedly — emphasizes the surprise element\n- ⟦{図|はか}ら→図る：12006_hakaru⟧ず⟦も→も：00484_mo⟧: unexpectedly, by a twist of fate — literary, often for fortunate or ironic coincidences\n\nCOMMON PATTERNS:\nBoth ⟦{偶然|ぐうぜん}→偶然：02674_guuzen⟧ and {偶然|ぐうぜん}に function as adverbs. The form without ⟦に→に：00314_ni⟧ is slightly more common in casual speech.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03408_tamatama",
+      "reading": "たまたま",
+      "headword": "{偶々|たまたま}",
+      "label": "by chance, happen to"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07152_omoigakezu",
+      "reading": "おもいがけず",
+      "headword": "{思|おも}いがけず",
+      "label": "unexpectedly"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,11 +68,12 @@
       "pos": [
         "adverb"
       ],
+      "politeness": "plain",
       "semantic": [
         "abstract"
       ]
     },
     "created": "2026-04-26T11:26:39Z",
-    "modified": "2026-08-04T12:59:53Z"
+    "modified": "2026-09-02T04:02:23Z"
   }
 }

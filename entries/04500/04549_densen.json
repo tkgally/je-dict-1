@@ -49,7 +49,7 @@
     },
     {
       "id": "04549_densen_ex4",
-      "japanese": "この⟦{病気|びょうき}→病気：00771_byouki⟧⟦は→は：00079_ha⟧⟦{人|ひと}→人：00476_hito⟧⟦から→から：00504_kara⟧⟦{人|ひと}→人：00476_hito⟧へ{伝染|でんせん}⟦する→する：00392_suru⟧。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{病気|びょうき}→病気：00771_byouki⟧⟦は→は：00079_ha⟧⟦{人|ひと}→人：00476_hito⟧⟦から→から：00504_kara⟧⟦{人|ひと}→人：00476_hito⟧⟦へ→へ：02473_he⟧{伝染|でんせん}⟦する→する：00392_suru⟧。",
       "english": "This disease is transmitted from person to person.",
       "notes": null,
       "has_audio": false,
@@ -59,7 +59,7 @@
     },
     {
       "id": "04549_densen_ex5",
-      "japanese": "{伝染|でんせん}⟦を→を：00422_wo⟧⟦{防|ふせ}ぐ→防ぐ：02409_fusegu⟧ために⟦{手|て}→手：00569_te⟧⟦を→を：00422_wo⟧⟦{洗|あら}う→洗う：00827_arau⟧ことが⟦{大切|たいせつ}→大切：01456_taisetsu⟧⟦だ→だ：09496_da⟧。",
+      "japanese": "{伝染|でんせん}⟦を→を：00422_wo⟧⟦{防|ふせ}ぐ→防ぐ：02409_fusegu⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧⟦{手|て}→手：00569_te⟧⟦を→を：00422_wo⟧⟦{洗|あら}う→洗う：00827_arau⟧こと⟦が→が：00051_ga⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧⟦だ→だ：09496_da⟧。",
       "english": "Washing your hands is important to prevent the spread of infection.",
       "notes": null,
       "has_audio": false,
@@ -78,7 +78,7 @@
       ]
     }
   ],
-  "notes": "{伝染|でんせん} refers to the transmission of disease from one organism to another, and also the figurative spread of emotions or behaviors.\n\nCOMMON COLLOCATIONS:\n- {伝染|でんせん}する: to spread, to be transmitted\n- {伝染|でんせん}⟦{病|びょう}→病：noentry⟧: infectious disease\n- {伝染|でんせん}{力|りょく}: infectivity\n- ⟦{空気|くうき}→空気：01390_kuuki⟧{伝染|でんせん}: airborne transmission\n\nFIGURATIVE USE:\nCommonly used for emotions and involuntary actions that spread from person to person: ⟦あくび→欠伸：06484_akubi⟧が{伝染|でんせん}する (yawning is contagious), ⟦{笑|わら}い→笑い：02641_warai⟧が{伝染|でんせん}する (laughter is contagious), ⟦{不安|ふあん}→不安：00836_fuan⟧が{伝染|でんせん}する (anxiety spreads).\n\nSIMILAR WORDS:\n- ⟦{感染|かんせん}→感染：05977_kansen⟧: infection (medical, more technical — {感染|かんせん}する is more common in modern medical usage)\n- ⟦{蔓延|まんえん}→蔓延：09460_manen⟧: widespread spread, rampancy\n- {伝染|でんせん} has a slightly older feel; {感染|かんせん} is now preferred in clinical contexts",
+  "notes": "{伝染|でんせん} refers to the transmission of disease from one organism to another, and also the figurative spread of emotions or behaviors.\n\nCOMMON COLLOCATIONS:\n- {伝染|でんせん}⟦する→する：00392_suru⟧: to spread, to be transmitted\n- {伝染|でんせん}⟦{病|びょう}→病：noentry⟧: infectious disease\n- {伝染|でんせん}{力|りょく}: infectivity\n- ⟦{空気|くうき}→空気：01390_kuuki⟧{伝染|でんせん}: airborne transmission\n\nUSAGE:\nCommonly used for emotions and involuntary actions that spread from person to person: ⟦あくび→欠伸：06484_akubi⟧⟦が→が：00051_ga⟧{伝染|でんせん}⟦する→する：00392_suru⟧ (yawning is contagious), ⟦{笑|わら}い→笑い：02641_warai⟧⟦が→が：00051_ga⟧{伝染|でんせん}⟦する→する：00392_suru⟧ (laughter is contagious), ⟦{不安|ふあん}→不安：00836_fuan⟧⟦が→が：00051_ga⟧{伝染|でんせん}⟦する→する：00392_suru⟧ (anxiety spreads).\n\nSIMILAR WORDS:\n- ⟦{感染|かんせん}→感染：05977_kansen⟧: infection (medical, more technical — ⟦{感染|かんせん}する→感染する：26931_kansensuru⟧ is more common in modern medical usage)\n- ⟦{蔓延|まんえん}→蔓延：09460_manen⟧: widespread spread, rampancy\n- {伝染|でんせん} has a slightly older feel; ⟦{感染|かんせん}→感染：05977_kansen⟧ is now preferred in clinical contexts",
   "cross_references": [
     {
       "type": "synonym",
@@ -86,11 +86,32 @@
       "reading": "かんせん",
       "headword": "{感染|かんせん}",
       "label": "infection (medical)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09460_manen",
+      "reading": "まんえん",
+      "headword": "{蔓延|まんえん}",
+      "label": "widespread spread, rampancy"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22510_denpasuru",
+      "reading": "でんぱする",
+      "headword": "{伝播|でんぱ}する",
+      "label": "to spread"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26931_kansensuru",
+      "reading": "かんせんする",
+      "headword": "{感染|かんせん}する",
+      "label": "to be infected"
     }
   ],
   "metadata": {
     "created": "2026-01-14T00:33:36Z",
-    "modified": "2026-06-01T13:09:35Z",
+    "modified": "2026-09-02T04:01:05Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

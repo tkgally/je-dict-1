@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "27276_kankikou_ex1",
-      "japanese": "{換気口|かんきこう}を{塞|ふさ}がないでください。",
+      "japanese": "{換気口|かんきこう}⟦を→を：00422_wo⟧⟦{塞|ふさ}がないで→塞ぐ：00046_fusagu⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please do not block the ventilation opening.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "27276_kankikou_ex2",
-      "japanese": "{台所|だいどころ}の{換気口|かんきこう}が{汚|よご}れているので、{掃除|そうじ}しよう。",
+      "japanese": "⟦{台所|だいどころ}→台所：01021_daidokoro⟧⟦の→の：09472_no⟧{換気口|かんきこう}⟦が→が：00051_ga⟧⟦{汚|よご}れている→汚れる：01293_yogoreru⟧⟦の→の：09472_no⟧で、⟦{掃除|そうじ}→掃除：02889_souji⟧⟦しよう→する：00392_suru⟧。",
       "english": "The kitchen vent is dirty, so let's clean it.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "27276_kankikou_ex3",
-      "japanese": "{地下室|ちかしつ}には{換気口|かんきこう}が{設|もう}けられており、{新鮮|しんせん}な{空気|くうき}が{入|はい}るようになっている。",
+      "japanese": "⟦{地下室|ちかしつ}→地下室：12047_chikashitsu⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{換気口|かんきこう}⟦が→が：00051_ga⟧⟦{設|もう}けられて→設ける：14220_moukeru⟧おり、⟦{新鮮|しんせん}→新鮮：03261_shinsen⟧な⟦{空気|くうき}→空気：01390_kuuki⟧⟦が→が：00051_ga⟧⟦{入|はい}る→入る：00494_hairu⟧ようになっている。",
       "english": "The basement is equipped with ventilation openings so that fresh air can enter.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {換気|かんき} (ventilation; air exchange) + {口|こう} (opening; hole). Note that {口|こう} here is read こう (the on'yomi reading), unlike {乗車口|じょうしゃぐち} where it is read ぐち.\n\nTHE ～{口|こう} PATTERN (on'yomi compounds):\n- {排気口|はいきこう}: exhaust vent\n- {吸気口|きゅうきこう}: air intake\n- {通気口|つうきこう}: air vent; ventilation hole\n- {排水口|はいすいこう}: drain outlet\n\nCOMMON COLLOCATIONS:\n- {換気口|かんきこう}を{設|もう}ける: to install a vent\n- {換気口|かんきこう}を{掃除|そうじ}する: to clean a vent\n- {換気口|かんきこう}を{塞|ふさ}ぐ: to block a vent\n- {換気口|かんきこう}のフィルター: vent filter\n\nSIMILAR WORDS:\n- {通気口|つうきこう}: ventilation hole — similar meaning, slightly more emphasis on allowing air to pass through\n- {換気扇|かんきせん}: ventilation fan — an active fan for ventilation, not just a passive opening",
+  "notes": "Compound of ⟦{換気|かんき}→換気：00172_kanki⟧ (ventilation; air exchange) + {口|こう} (opening; hole). Note that {口|こう} here is read こう (the on'yomi reading), unlike ⟦{乗車口|じょうしゃぐち}→乗車口：27272_joushaguchi⟧ where it is read ぐち.\n\nTHE ～{口|こう} PATTERN (on'yomi compounds):\n- {排気口|はいきこう}: exhaust vent\n- {吸気口|きゅうきこう}: air intake\n- {通気口|つうきこう}: air vent; ventilation hole\n- ⟦{排水口|はいすいこう}→排水口：16250_haisuikou⟧: drain outlet\n\nCOMMON COLLOCATIONS:\n- {換気口|かんきこう}⟦を→を：00422_wo⟧⟦{設|もう}ける→設ける：14220_moukeru⟧: to install a vent\n- {換気口|かんきこう}⟦を→を：00422_wo⟧⟦{掃除|そうじ}→掃除：02889_souji⟧⟦する→する：00392_suru⟧: to clean a vent\n- {換気口|かんきこう}⟦を→を：00422_wo⟧⟦{塞|ふさ}ぐ→塞ぐ：00046_fusagu⟧: to block a vent\n- {換気口|かんきこう}⟦の→の：09472_no⟧⟦フィルター→フィルター：21847_firutaa⟧: vent filter\n\nSIMILAR WORDS:\n- {通気口|つうきこう}: ventilation hole — similar meaning, slightly more emphasis on allowing air to pass through\n- ⟦{換気扇|かんきせん}→換気扇：04678_kankisen⟧: ventilation fan — an active fan for ventilation, not just a passive opening",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04678_kankisen",
+      "reading": "かんきせん",
+      "headword": "{換気扇|かんきせん}",
+      "label": "ventilation fan"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +62,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "building"
       ],
       "domain": []
     },
     "created": "2026-05-08T12:14:19Z",
-    "modified": "2026-08-07T06:31:23Z"
+    "modified": "2026-09-02T04:02:29Z"
   }
 }

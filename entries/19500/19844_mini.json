@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "19844_mini_ex1",
-      "japanese": "ミニスカートが{流行|はや}っている。",
+      "japanese": "ミニスカート⟦が→が：00051_ga⟧⟦{流行|はや}っている→流行る：02400_hayaru⟧。",
       "english": "Miniskirts are in fashion.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "19844_mini_ex2",
-      "japanese": "ミニサイズの{弁当|べんとう}を{買|か}った。",
+      "japanese": "ミニサイズ⟦の→の：09472_no⟧⟦{弁当|べんとう}→弁当：01014_bentou⟧⟦を→を：00422_wo⟧⟦{買|か}った→買う：00489_kau⟧。",
       "english": "I bought a mini-sized bento.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "19844_mini_ex3",
-      "japanese": "{駅前|えきまえ}でミニコンサートが{開|ひら}かれていた。",
+      "japanese": "⟦{駅前|えきまえ}→駅前：09593_ekimae⟧⟦で→で：00502_de⟧ミニコンサート⟦が→が：00051_ga⟧⟦{開|ひら}かれていた→開く：01979_hiraku⟧。",
       "english": "A mini concert was being held in front of the station.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,19 @@
       ]
     }
   ],
-  "notes": "A loanword from English \"mini\" used as a prefix to indicate a smaller or shorter version of something. Very productive in forming compound words.\n\nCOMMON COMPOUNDS:\n- ミニスカート — miniskirt (often shortened to ミニスカ)\n- ミニサイズ — mini size\n- ミニゲーム — mini game\n- ミニコンサート — mini concert\n- ミニバン — minivan\n- ミニチュア — miniature\n\nUSAGE:\nWhen used alone (as a noun), ミニ often refers to a miniskirt: ミニを{履|は}く (to wear a mini). As a prefix, it attaches freely to both Japanese and loanwords to create new compounds.\n\nOPPOSITE:\n- マキシ — maxi (for clothing length)\n- {大型|おおがた} — large-sized",
-  "cross_references": [],
+  "notes": "A loanword from English \"mini\" used as a prefix to indicate a smaller or shorter version of something. Very productive in forming compound words.\n\nCOMPOUNDS:\n- ミニスカート — miniskirt (often shortened to ミニスカ)\n- ミニサイズ — mini size\n- ミニゲーム — mini game\n- ミニコンサート — mini concert\n- ミニバン — minivan\n- ミニチュア — miniature\n\nUSAGE:\nWhen used alone (as a noun), ミニ often refers to a miniskirt: ミニ⟦を→を：00422_wo⟧⟦{履|は}く→履く：00700_haku⟧ (to wear a mini). As a prefix, it attaches freely to both Japanese and loanwords to create new compounds.\n\nSIMILAR WORDS:\n- マキシ — maxi (for clothing length)\n- ⟦{大型|おおがた}→大型：03016_oogata⟧ — large-sized",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03016_oogata",
+      "reading": "おおがた",
+      "headword": "{大型|おおがた}",
+      "label": "large-sized"
+    }
+  ],
   "metadata": {
     "created": "2026-03-27T02:15:00Z",
-    "modified": "2026-03-27T02:15:00Z",
+    "modified": "2026-09-02T04:01:57Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

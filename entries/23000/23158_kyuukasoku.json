@@ -3,7 +3,7 @@
   "headword": "{急加速|きゅうかそく}",
   "reading": "きゅうかそく",
   "romaji": "kyuukasoku",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "rapid acceleration; sudden speeding up",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "23158_kyuukasoku_ex1",
-      "japanese": "{急加速|きゅうかそく}は{危険|きけん}だ。",
+      "japanese": "{急加速|きゅうかそく}⟦は→は：00079_ha⟧⟦{危険|きけん}→危険：01141_kiken⟧だ。",
       "english": "Rapid acceleration is dangerous.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "23158_kyuukasoku_ex2",
-      "japanese": "{車|くるま}が{急加速|きゅうかそく}して{事故|じこ}が{起|お}きた。",
+      "japanese": "⟦{車|くるま}→車：00516_kuruma⟧⟦が→が：00051_ga⟧{急加速|きゅうかそく}⟦して→する：00392_suru⟧⟦{事故|じこ}→事故：00851_jiko⟧⟦が→が：00051_ga⟧⟦{起|お}きた→起きる：00521_okiru⟧。",
       "english": "The car suddenly accelerated and caused an accident.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "23158_kyuukasoku_ex3",
-      "japanese": "AI{技術|ぎじゅつ}の{発展|はってん}が{急加速|きゅうかそく}している。",
+      "japanese": "AI⟦{技術|ぎじゅつ}→技術：01389_gijutsu⟧⟦の→の：09472_no⟧⟦{発展|はってん}→発展：03561_hatten⟧⟦が→が：00051_ga⟧{急加速|きゅうかそく}⟦している→する：00392_suru⟧。",
       "english": "The development of AI technology is rapidly accelerating.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {急|きゅう} (sudden, rapid) + {加速|かそく} (acceleration). Used both for literal vehicle acceleration and figuratively for any process that suddenly speeds up. The {急|きゅう}〜 prefix pattern is productive: {急停止|きゅうていし} (sudden stop), {急発進|きゅうはっしん} (sudden start), etc.\n\nCOMMON COLLOCATIONS:\n- {急加速|きゅうかそく}する: to accelerate rapidly\n- {急加速|きゅうかそく}{事故|じこ}: sudden-acceleration accident\n- {急加速|きゅうかそく}を{避|さ}ける: to avoid sudden acceleration\n\nSIMILAR WORDS:\n- {加速|かそく}: acceleration — the general term, without the 'sudden' nuance\n- {急発進|きゅうはっしん}: sudden start — starting from a stop abruptly, while {急加速|きゅうかそく} can happen at any speed\n- {急停止|きゅうていし}: sudden stop — the opposite action",
+  "notes": "Composed of ⟦{急|きゅう}→急：13042_kyuu⟧ (sudden, rapid) + ⟦{加速|かそく}→加速：00198_kasoku⟧ (acceleration). Used both for literal vehicle acceleration and figuratively for any process that suddenly speeds up. The ⟦{急|きゅう}→急：13042_kyuu⟧〜 prefix pattern is productive: {急停止|きゅうていし} (sudden stop), {急発進|きゅうはっしん} (sudden start), etc.\n\nCOMMON COLLOCATIONS:\n- {急加速|きゅうかそく}⟦する→する：00392_suru⟧: to accelerate rapidly\n- {急加速|きゅうかそく}⟦{事故|じこ}→事故：00851_jiko⟧: sudden-acceleration accident\n- {急加速|きゅうかそく}⟦を→を：00422_wo⟧⟦{避|さ}ける→避ける：02109_sakeru⟧: to avoid sudden acceleration\n\nSIMILAR WORDS:\n- ⟦{加速|かそく}→加速：00198_kasoku⟧: acceleration — the general term, without the 'sudden' nuance\n- {急発進|きゅうはっしん}: sudden start — starting from a stop abruptly, while {急加速|きゅうかそく} can happen at any speed\n- {急停止|きゅうていし}: sudden stop — the opposite action",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -58,10 +58,11 @@
       "semantic": [
         "transportation"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     },
     "created": "2026-04-08T20:37:39Z",
-    "modified": "2026-07-31T18:20:34Z"
+    "modified": "2026-09-02T04:02:11Z"
   },
   "conjugation": {
     "type": "suru",

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26895_ooyasan_ex1",
-      "japanese": "{大家|おおや}さんに{家賃|やちん}を{払|はら}う。",
+      "japanese": "{大家|おおや}さん⟦に→に：00314_ni⟧⟦{家賃|やちん}→家賃：03639_yachin⟧⟦を→を：00422_wo⟧⟦{払|はら}う→払う：00535_harau⟧。",
       "english": "Pay rent to the landlord.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26895_ooyasan_ex2",
-      "japanese": "{大家|おおや}さんに{修理|しゅうり}を{頼|たの}んだ。",
+      "japanese": "{大家|おおや}さん⟦に→に：00314_ni⟧⟦{修理|しゅうり}→修理：03214_shuuri⟧⟦を→を：00422_wo⟧⟦{頼|たの}んだ→頼む：01104_tanomu⟧。",
       "english": "I asked the landlord to make repairs.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26895_ooyasan_ex3",
-      "japanese": "うちの{大家|おおや}さんはとても{親切|しんせつ}で、{引|ひ}っ{越|こ}しの{時|とき}も{手伝|てつだ}ってくれた。",
+      "japanese": "うち⟦の→の：09472_no⟧{大家|おおや}さん⟦は→は：00079_ha⟧⟦とても→とても：00593_totemo⟧⟦{親切|しんせつ}→親切：01144_shinsetsu⟧で、{引|ひ}っ{越|こ}し⟦の→の：09472_no⟧{時|とき}⟦も→も：00484_mo⟧⟦{手伝|てつだ}って→手伝う：00898_tetsudau⟧⟦くれた→くれる：00724_kureru⟧。",
       "english": "Our landlord is very kind and even helped us when we moved in.",
       "sense_numbers": [
         1
@@ -44,8 +44,23 @@
       "notes": null
     }
   ],
-  "notes": "The word {大家|おおや} means landlord/property owner, and さん is the standard respectful suffix. In everyday conversation, {大家|おおや}さん is far more common than the plain form {大家|おおや}.\n\nCOMMON COLLOCATIONS:\n- {大家|おおや}さんに{連絡|れんらく}する: to contact the landlord\n- {大家|おおや}さんの{許可|きょか}: the landlord's permission\n- {大家|おおや}さんに{相談|そうだん}する: to consult with the landlord\n- {大家|おおや}さんが{住|す}んでいる: the landlord lives (on the premises)\n\nSIMILAR WORDS:\n- {家主|やぬし}: landlord, property owner — more formal, used in legal and real estate contexts\n- {貸主|かしぬし}: lessor — legal/contractual term\n- {管理人|かんりにん}: building manager, superintendent — manages the property but may not own it\n\nCAUTION:\nDo not confuse with {大家|たいか} (master, authority in a field), which uses the same kanji but a different reading. {大家|おおや}さん always refers to a landlord.",
-  "cross_references": [],
+  "notes": "The word ⟦{大家|おおや}→大家：01907_ooya⟧ means landlord/property owner, and さん is the standard respectful suffix. In everyday conversation, {大家|おおや}さん is far more common than the plain form ⟦{大家|おおや}→大家：01907_ooya⟧.\n\nCOMMON COLLOCATIONS:\n- {大家|おおや}さん⟦に→に：00314_ni⟧⟦{連絡|れんらく}する→連絡する：20202_renrakusuru⟧: to contact the landlord\n- {大家|おおや}さん⟦の→の：09472_no⟧⟦{許可|きょか}→許可：00259_kyoka⟧: the landlord's permission\n- {大家|おおや}さん⟦に→に：00314_ni⟧⟦{相談|そうだん}する→相談する：01845_soudansuru⟧: to consult with the landlord\n- {大家|おおや}さん⟦が→が：00051_ga⟧⟦{住|す}んでいる→住む：00673_sumu⟧: the landlord lives (on the premises)\n\nSIMILAR WORDS:\n- ⟦{家主|やぬし}→家主：04079_yanushi⟧: landlord, property owner — more formal, used in legal and real estate contexts\n- {貸主|かしぬし}: lessor — legal/contractual term\n- ⟦{管理人|かんりにん}→管理人：03047_kanrinin⟧: building manager, superintendent — manages the property but may not own it\n\nWATCH OUT:\nDo not confuse with {大家|たいか} (master, authority in a field), which uses the same kanji but a different reading. {大家|おおや}さん always refers to a landlord.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04079_yanushi",
+      "reading": "やぬし",
+      "headword": "{家主|やぬし}",
+      "label": "landlord, property owner"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03047_kanrinin",
+      "reading": "かんりにん",
+      "headword": "{管理人|かんりにん}",
+      "label": "building manager, superintendent"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -62,6 +77,6 @@
       "domain": []
     },
     "created": "2026-05-05T15:08:48Z",
-    "modified": "2026-08-06T12:44:19Z"
+    "modified": "2026-09-02T04:02:28Z"
   }
 }

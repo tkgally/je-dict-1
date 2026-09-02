@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "17313_jisshaka_ex1",
-      "japanese": "あの{漫画|まんが}が{実写化|じっしゃか}された。",
+      "japanese": "⟦あの→あの：00915_ano⟧⟦{漫画|まんが}→漫画：01511_manga⟧⟦が→が：00051_ga⟧{実写化|じっしゃか}⟦された→する：00392_suru⟧。",
       "english": "That manga was adapted into a live-action film.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "17313_jisshaka_ex2",
-      "japanese": "{人気|にんき}アニメの{実写化|じっしゃか}が{発表|はっぴょう}された。",
+      "japanese": "⟦{人気|にんき}→人気：01488_ninki⟧⟦アニメ→アニメ：01527_anime⟧⟦の→の：09472_no⟧{実写化|じっしゃか}⟦が→が：00051_ga⟧⟦{発表|はっぴょう}→発表：03562_happyou⟧⟦された→する：00392_suru⟧。",
       "english": "A live-action adaptation of the popular anime was announced.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "17313_jisshaka_ex3",
-      "japanese": "{実写化|じっしゃか}に{対|たい}してファンの{反応|はんのう}は{賛否両論|さんぴりょうろん}だった。",
+      "japanese": "{実写化|じっしゃか}⟦に{対|たい}して→に対して：06800_nitaishite⟧⟦ファン→ファン：10065_fan⟧⟦の→の：09472_no⟧⟦{反応|はんのう}→反応：04812_hannou⟧⟦は→は：00079_ha⟧{賛否両論|さんぴりょうろん}だった。",
       "english": "Fan reactions to the live-action adaptation were mixed.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,26 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{実写|じっしゃ} means \"real photography\" or \"live action\" (as opposed to animation), and {化|か} means \"turning into.\" The word is very common in entertainment news and among anime/manga fans. Can be used as a noun or with する as a verb ({実写化|じっしゃか}する).\n\nCOMMON COLLOCATIONS:\n- {実写化|じっしゃか}する (to make a live-action adaptation)\n- {実写化|じっしゃか}が{決定|けってい}する (a live-action adaptation is confirmed)\n- {実写版|じっしゃばん} (live-action version)\n\nSIMILAR WORDS:\n- アニメ{化|か}: anime adaptation — adapting a work into anime, the reverse direction\n- {映画化|えいがか}: film adaptation — adapting into a movie (not specifically live-action)",
-  "cross_references": [],
+  "notes": "USAGE:\n⟦{実写|じっしゃ}→実写：12271_jissha⟧ means \"real photography\" or \"live action\" (as opposed to animation), and ⟦{化|か}→〜化：28335_ka⟧ means \"turning into.\" The word is very common in entertainment news and among anime/manga fans. Can be used as a noun or with ⟦する→する：00392_suru⟧ as a verb ({実写化|じっしゃか}⟦する→する：00392_suru⟧).\n\nCOMMON COLLOCATIONS:\n- {実写化|じっしゃか}⟦する→する：00392_suru⟧ (to make a live-action adaptation)\n- {実写化|じっしゃか}⟦が→が：00051_ga⟧⟦{決定|けってい}する→決定する：21022_ketteisuru⟧ (a live-action adaptation is confirmed)\n- {実写版|じっしゃばん} (live-action version)\n\nSIMILAR WORDS:\n- ⟦アニメ{化|か}→アニメ化：23065_animeka⟧: anime adaptation — adapting a work into anime, the reverse direction\n- ⟦{映画化|えいがか}→映画化：23773_eigaka⟧: film adaptation — adapting into a movie (not specifically live-action)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23065_animeka",
+      "reading": "あにめか",
+      "headword": "アニメ{化|か}",
+      "label": "anime adaptation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23773_eigaka",
+      "reading": "えいがか",
+      "headword": "{映画化|えいがか}",
+      "label": "film adaptation"
+    }
+  ],
   "metadata": {
     "created": "2026-03-17T05:58:09Z",
-    "modified": "2026-03-29T03:08:43Z",
+    "modified": "2026-09-02T04:01:48Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

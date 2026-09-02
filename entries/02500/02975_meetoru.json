@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "メートル is the standard unit of length in the metric system, borrowed from French 'mètre.'\n\nETYMOLOGY:\nFrom French 'mètre,' ultimately from Greek 'metron' (measure).\n\nRELATED UNITS:\n- ⟦キロメートル→キロメートル：02873_kiromeetoru⟧ (km): kilometer (1000m)\n- ⟦センチメートル→センチメートル：23738_senchimeetoru⟧ (cm): centimeter (1/100m)\n- ⟦ミリメートル→ミリメートル：23178_mirimeetoru⟧ (mm): millimeter (1/1000m)\n- ⟦{平方|へいほう}→平方：27997_heihou⟧メートル: square meter (m²)\n\nCOMMON EXPRESSIONS:\n- 〜メートル⟦{先|さき}→先：02883_saki⟧: ~ meters ahead\n- ⟦{身長|しんちょう}→身長：03263_shinchou⟧は1メートル70⟦センチ→センチ：01372_senchi⟧: height is 1 meter 70 cm\n- 100メートル⟦{走|そう}→走：noentry⟧: 100-meter dash\n\nUSAGE:\nNumbers attach directly without a counter: 5メートル (5 meters). Written as 'm' in abbreviations: 100m.",
+  "notes": "メートル is the standard unit of length in the metric system, borrowed from French 'mètre.'\n\nETYMOLOGY:\nFrom French 'mètre,' ultimately from Greek 'metron' (measure).\n\nRELATED UNITS:\n- ⟦キロメートル→キロメートル：02873_kiromeetoru⟧ (km): kilometer (1000m)\n- ⟦センチメートル→センチメートル：23738_senchimeetoru⟧ (cm): centimeter (1/100m)\n- ⟦ミリメートル→ミリメートル：23178_mirimeetoru⟧ (mm): millimeter (1/1000m)\n- ⟦{平方|へいほう}→平方：27997_heihou⟧メートル: square meter (m²)\n\nCOMMON EXPRESSIONS:\n- 〜メートル⟦{先|さき}→先：02883_saki⟧: ~ meters ahead\n- ⟦{身長|しんちょう}→身長：03263_shinchou⟧⟦は→は：00079_ha⟧1メートル70⟦センチ→センチ：01372_senchi⟧: height is 1 meter 70 cm\n- 100メートル⟦{走|そう}→走：noentry⟧: 100-meter dash\n\nUSAGE:\nNumbers attach directly without a counter: 5メートル (5 meters). Written as 'm' in abbreviations: 100m.",
   "cross_references": [
     {
       "type": "related",
@@ -51,11 +51,32 @@
       "reading": "きろめーとる",
       "headword": "キロメートル",
       "label": "kilometer"
+    },
+    {
+      "type": "related",
+      "target_id": "23738_senchimeetoru",
+      "reading": "せんちめーとる",
+      "headword": "センチメートル",
+      "label": "cm"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23517_meetaa",
+      "reading": "めーたー",
+      "headword": "メーター",
+      "label": "meter"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26043_shaku",
+      "reading": "しゃく",
+      "headword": "{尺|しゃく}",
+      "label": "shaku (traditional unit of length, approx. 30.3 cm)"
     }
   ],
   "metadata": {
     "created": "2026-01-11T10:10:00Z",
-    "modified": "2026-08-12T06:29:54Z",
+    "modified": "2026-09-02T04:01:02Z",
     "ai_model": "claude-opus-4-5",
     "schema_version": "2.0",
     "vocabulary_tier": "general",

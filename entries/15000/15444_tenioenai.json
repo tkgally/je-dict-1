@@ -15,41 +15,59 @@
   "examples": [
     {
       "id": "15444_tenioenai_ex1",
-      "japanese": "あの{子|こ}は{手|て}に{負|お}えない。",
+      "japanese": "⟦あの→あの：00915_ano⟧⟦{子|こ}→子：09851_ko⟧⟦は→は：00079_ha⟧{手|て}に{負|お}えない。",
       "english": "That child is unmanageable.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15444_tenioenai_ex2",
-      "japanese": "この{問題|もんだい}は{私|わたし}には{手|て}に{負|お}えない。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{問題|もんだい}→問題：00797_mondai⟧⟦は→は：00079_ha⟧⟦{私|わたし}→私：02988_watashi⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{手|て}に{負|お}えない。",
       "english": "This problem is beyond my ability to handle.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15444_tenioenai_ex3",
-      "japanese": "{手|て}に{負|お}えない{状況|じょうきょう}になる{前|まえ}に、{専門家|せんもんか}に{相談|そうだん}したほうがいい。",
+      "japanese": "{手|て}に{負|お}えない⟦{状況|じょうきょう}→状況：01576_joukyou⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧、⟦{専門家|せんもんか}→専門家：03088_senmonka⟧⟦に→に：00314_ni⟧⟦{相談|そうだん}した→相談する：01845_soudansuru⟧⟦ほうがいい→ほうがいい：10078_hougaii⟧。",
       "english": "You should consult an expert before the situation gets out of hand.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nThis expression functions as an adjective-like phrase modifying nouns with の or used as a predicate. It is always used in the negative form; the affirmative {手|て}に{負|お}える (manageable) is rarely used on its own.\n\nCOMMON PATTERNS:\n- {手|て}に{負|お}えない + noun ({子供|こども}, {状況|じょうきょう}, {問題|もんだい})\n- ～は{手|て}に{負|お}えない (~ is unmanageable)\n\nNUANCE:\nOften used about unruly children, out-of-control situations, or problems that exceed one's capabilities. Can also describe difficult animals or machines.",
-  "cross_references": [],
+  "notes": "USAGE:\nThis expression functions as an adjective-like phrase modifying nouns with ⟦の→の：09472_no⟧ or used as a predicate. It is always used in the negative form; the affirmative ⟦{手|て}→手：00569_te⟧⟦に→に：00314_ni⟧⟦{負|お}える→負う：02017_ou⟧ (manageable) is rarely used on its own.\nOften used about unruly children, out-of-control situations, or problems that exceed one's capabilities. Can also describe difficult animals or machines.\n\nCOMMON PATTERNS:\n- {手|て}に{負|お}えない + noun (⟦{子供|こども}→子供：00554_kodomo⟧, ⟦{状況|じょうきょう}→状況：01576_joukyou⟧, ⟦{問題|もんだい}→問題：00797_mondai⟧)\n- ～⟦は→は：00079_ha⟧{手|て}に{負|お}えない (~ is unmanageable)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07438_tewoyaku",
+      "reading": "てをやく",
+      "headword": "{手|て}を{焼|や}く",
+      "label": "to have trouble with"
+    }
+  ],
   "metadata": {
     "created": "2026-03-07T07:33:13Z",
-    "modified": "2026-03-07T07:33:13Z",
+    "modified": "2026-09-02T04:01:41Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["expression"],
+      "pos": [
+        "expression"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["descriptive"]
+      "semantic": [
+        "descriptive"
+      ]
     }
   }
 }

@@ -34,7 +34,7 @@
     },
     {
       "id": "02776_sakuhin_ex3",
-      "japanese": "⟦{代表|だいひょう}{作|さく}→代表作：09952_daihyousaku⟧⟦は→は：00079_ha⟧⟦どの→どの：00551_dono⟧{作品|さくひん}ですか。",
+      "japanese": "⟦{代表|だいひょう}{作|さく}→代表作：09952_daihyousaku⟧⟦は→は：00079_ha⟧⟦どの→どの：00551_dono⟧{作品|さくひん}です⟦か→か：09473_ka⟧。",
       "english": "Which is your representative work?",
       "notes": null,
       "has_audio": false,
@@ -54,10 +54,18 @@
     }
   ],
   "notes": "{作品|さくひん} refers to creative works.\n\nTYPES OF WORKS:\n- ⟦{文学|ぶんがく}→文学：01505_bungaku⟧{作品|さくひん} (literary work)\n- ⟦{芸術|げいじゅつ}→芸術：02712_geijutsu⟧{作品|さくひん} (work of art)\n- ⟦{映画|えいが}→映画：02273_eiga⟧{作品|さくひん} (film, movie)\n- ⟦{音楽|おんがく}→音楽：00661_ongaku⟧{作品|さくひん} (musical work)\n- ⟦{入選|にゅうせん}→入選：11686_nyuusen⟧{作品|さくひん} (prize-winning work)\n\nCOMMON PATTERNS:\n- {作品|さくひん}⟦を→を：00422_wo⟧⟦{作|つく}る→作る：00481_tsukuru⟧ (to create a work)\n- {作品|さくひん}⟦を→を：00422_wo⟧⟦{発表|はっぴょう}する→発表：03562_happyou⟧ (to release a work)\n- {作品|さくひん}⟦を→を：00422_wo⟧⟦{展示|てんじ}する→展示：12401_tenji⟧ (to exhibit a work)\n\nDESCRIPTIVE TERMS:\n- ⟦{傑作|けっさく}→傑作：00217_kessaku⟧ (masterpiece)\n- ⟦{代表|だいひょう}{作|さく}→代表作：09952_daihyousaku⟧ (representative work)\n- ⟦{最新|さいしん}→最新：04831_saishin⟧⟦{作|さく}→作：noentry⟧ (latest work)\n- ⟦{初期|しょき}→初期：11742_shoki⟧⟦の→の：09472_no⟧{作品|さくひん} (early works)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "28420_chojutsu",
+      "reading": "ちょじゅつ",
+      "headword": "{著述|ちょじゅつ}",
+      "label": "writing"
+    }
+  ],
   "metadata": {
     "created": "2026-01-11T08:04:45Z",
-    "modified": "2026-06-12T04:00:00Z",
+    "modified": "2026-09-02T04:01:02Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

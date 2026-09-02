@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "17897_kakunenryou_ex1",
-      "japanese": "{核燃料|かくねんりょう}の{処理|しょり}が{課題|かだい}だ。",
+      "japanese": "{核燃料|かくねんりょう}⟦の→の：09472_no⟧⟦{処理|しょり}→処理：03251_shori⟧⟦が→が：00051_ga⟧⟦{課題|かだい}→課題：00132_kadai⟧だ。",
       "english": "The processing of nuclear fuel is a challenge.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17897_kakunenryou_ex2",
-      "japanese": "{使用済|しようず}み{核燃料|かくねんりょう}は{安全|あんぜん}に{保管|ほかん}しなければならない。",
+      "japanese": "{使用済|しようず}み{核燃料|かくねんりょう}⟦は→は：00079_ha⟧⟦{安全|あんぜん}→安全：01131_anzen⟧⟦に→に：00314_ni⟧⟦{保管|ほかん}→保管：11442_hokan⟧し⟦なければならない→なければならない：27600_nakerebanaranai⟧。",
       "english": "Spent nuclear fuel must be stored safely.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17897_kakunenryou_ex3",
-      "japanese": "{核燃料|かくねんりょう}サイクルは{日本|にほん}のエネルギー{政策|せいさく}の{重要|じゅうよう}な{柱|はしら}とされている。",
+      "japanese": "{核燃料|かくねんりょう}サイクル⟦は→は：00079_ha⟧⟦{日本|にほん}→日本：03876_nihon⟧⟦の→の：09472_no⟧⟦エネルギー→エネルギー：03834_enerugii⟧⟦{政策|せいさく}→政策：10070_seisaku⟧⟦の→の：09472_no⟧⟦{重要|じゅうよう}→重要：01575_juuyou⟧な⟦{柱|はしら}→柱：05009_hashira⟧⟦と→と：00512_to⟧⟦されている→する：00392_suru⟧。",
       "english": "The nuclear fuel cycle is considered an important pillar of Japan's energy policy.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nA compound of {核|かく} (nuclear) and {燃料|ねんりょう} (fuel). Frequently appears in news about nuclear power and energy policy, especially in Japan where nuclear energy is a major topic.\n\nCOMMON COLLOCATIONS:\n- {使用済|しようず}み{核燃料|かくねんりょう} (spent nuclear fuel)\n- {核燃料|かくねんりょう}サイクル (nuclear fuel cycle)\n- {核燃料|かくねんりょう}の{再処理|さいしょり} (reprocessing of nuclear fuel)\n- {核燃料|かくねんりょう}{棒|ぼう} (fuel rod)\n\nRELATED WORDS:\n- {原子力発電|げんしりょくはつでん}: nuclear power generation\n- {放射性廃棄物|ほうしゃせいはいきぶつ}: radioactive waste",
+  "notes": "USAGE:\nA compound of ⟦{核|かく}→核：13127_kaku⟧ (nuclear) and ⟦{燃料|ねんりょう}→燃料：13461_nenryou⟧ (fuel). Frequently appears in news about nuclear power and energy policy, especially in Japan where nuclear energy is a major topic.\n\nCOMMON COLLOCATIONS:\n- {使用済|しようず}み{核燃料|かくねんりょう} (spent nuclear fuel)\n- {核燃料|かくねんりょう}サイクル (nuclear fuel cycle)\n- {核燃料|かくねんりょう}⟦の→の：09472_no⟧{再処理|さいしょり} (reprocessing of nuclear fuel)\n- {核燃料|かくねんりょう}{棒|ぼう} (fuel rod)\n\nRELATED WORDS:\n- ⟦{原子力発電|げんしりょくはつでん}→原子力発電：17903_genshiryokuhatsuden⟧: nuclear power generation\n- ⟦{放射性廃棄物|ほうしゃせいはいきぶつ}→放射性廃棄物：17909_houshaseihaikibutsu⟧: radioactive waste",
   "cross_references": [
     {
       "type": "related",
@@ -46,19 +52,32 @@
       "reading": "げんしりょくはつでん",
       "headword": "{原子力発電|げんしりょくはつでん}",
       "label": "nuclear power generation"
+    },
+    {
+      "type": "related",
+      "target_id": "17909_houshaseihaikibutsu",
+      "reading": "ほうしゃせいはいきぶつ",
+      "headword": "{放射性廃棄物|ほうしゃせいはいきぶつ}",
+      "label": "radioactive waste"
     }
   ],
   "metadata": {
     "created": "2026-03-19T08:30:40Z",
-    "modified": "2026-05-07T09:10:12Z",
+    "modified": "2026-09-02T04:01:50Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["technical"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "technical"
+      ]
     }
   }
 }

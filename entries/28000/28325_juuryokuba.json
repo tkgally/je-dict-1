@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28325_juuryokuba_ex1",
-      "japanese": "{重力場|じゅうりょくば}を{研究|けんきゅう}する。",
+      "japanese": "{重力場|じゅうりょくば}⟦を→を：00422_wo⟧⟦{研究|けんきゅう}→研究：01396_kenkyuu⟧⟦する→する：00392_suru⟧。",
       "english": "To study gravitational fields.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28325_juuryokuba_ex2",
-      "japanese": "{地球|ちきゅう}の{重力場|じゅうりょくば}は{均一|きんいつ}ではない。",
+      "japanese": "⟦{地球|ちきゅう}→地球：03461_chikyuu⟧⟦の→の：09472_no⟧{重力場|じゅうりょくば}⟦は→は：00079_ha⟧⟦{均一|きんいつ}→均一：12049_kinitsu⟧で⟦は→は：00079_ha⟧⟦ない→ない：01118_nai⟧。",
       "english": "Earth's gravitational field is not uniform.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28325_juuryokuba_ex3",
-      "japanese": "ブラックホールの{周囲|しゅうい}では{重力場|じゅうりょくば}が{極端|きょくたん}に{強|つよ}くなる。",
+      "japanese": "⟦ブラックホール→ブラックホール：28747_burakkuhooru⟧⟦の→の：09472_no⟧⟦{周囲|しゅうい}→周囲：03206_shuui⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧{重力場|じゅうりょくば}⟦が→が：00051_ga⟧⟦{極端|きょくたん}→極端：13161_kyokutan⟧⟦に→に：00314_ni⟧⟦{強|つよ}く→強い：00820_tsuyoi⟧⟦なる→なる：01970_naru⟧。",
       "english": "The gravitational field becomes extremely strong around a black hole.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {重力|じゅうりょく} (gravity) + {場|ば} (field). Same {場|ば} used in {電磁場|でんじば}, {電場|でんば}, etc.\n\nCOMMON COLLOCATIONS:\n- {重力場|じゅうりょくば}の{強|つよ}さ: strength of a gravitational field\n- {重力場|じゅうりょくば}を{測定|そくてい}する: to measure a gravitational field\n- {重力場|じゅうりょくば}{方程式|ほうていしき}: gravitational field equations\n\nSIMILAR WORDS:\n- {重力|じゅうりょく}: gravity — the force itself, not the spatial field\n- {電磁場|でんじば}: electromagnetic field — the electromagnetic counterpart\n- {重力波|じゅうりょくは}: gravitational wave — propagating ripples in the field",
+  "notes": "Compound of ⟦{重力|じゅうりょく}→重力：25301_juuryoku⟧ (gravity) + ⟦{場|ば}→場：03699_ba⟧ (field). Same ⟦{場|ば}→場：03699_ba⟧ used in ⟦{電磁場|でんじば}→電磁場：28324_denjiba⟧, {電場|でんば}, etc.\n\nCOMMON COLLOCATIONS:\n- {重力場|じゅうりょくば}⟦の→の：09472_no⟧⟦{強|つよ}さ→強さ：25692_tsuyosa⟧: strength of a gravitational field\n- {重力場|じゅうりょくば}⟦を→を：00422_wo⟧⟦{測定|そくてい}→測定：04398_sokutei⟧⟦する→する：00392_suru⟧: to measure a gravitational field\n- {重力場|じゅうりょくば}⟦{方程式|ほうていしき}→方程式：04795_houteishiki⟧: gravitational field equations\n\nSIMILAR WORDS:\n- ⟦{重力|じゅうりょく}→重力：25301_juuryoku⟧: gravity — the force itself, not the spatial field\n- ⟦{電磁場|でんじば}→電磁場：28324_denjiba⟧: electromagnetic field — the electromagnetic counterpart\n- {重力波|じゅうりょくは}: gravitational wave — propagating ripples in the field",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "28324_denjiba",
+      "reading": "でんじば",
+      "headword": "{電磁場|でんじば}",
+      "label": "electromagnetic field"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +62,7 @@
         "noun"
       ],
       "formality": "formal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "science"
       ],
@@ -62,6 +71,6 @@
       ]
     },
     "created": "2026-05-29T02:13:49Z",
-    "modified": "2026-05-29T02:13:49Z"
+    "modified": "2026-09-02T04:02:33Z"
   }
 }

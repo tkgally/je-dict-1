@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "11767_wakeau_ex1",
-      "japanese": "おやつを{分|わ}け{合|あ}った。",
+      "japanese": "⟦おやつ→おやつ：17921_oyatsu⟧⟦を→を：00422_wo⟧{分|わ}け{合|あ}った。",
       "english": "We shared the snacks.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "11767_wakeau_ex2",
-      "japanese": "{喜|よろこ}びも{悲|かな}しみも{分|わ}け{合|あ}う{仲間|なかま}がいる。",
+      "japanese": "⟦{喜|よろこ}び→喜び：03672_yorokobi⟧⟦も→も：00484_mo⟧⟦{悲|かな}しみ→悲しみ：05404_kanashimi⟧⟦も→も：00484_mo⟧{分|わ}け{合|あ}う⟦{仲間|なかま}→仲間：03498_nakama⟧⟦が→が：00051_ga⟧⟦いる→いる：00495_iru⟧。",
       "english": "I have friends with whom I share both joy and sorrow.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "11767_wakeau_ex3",
-      "japanese": "{家族|かぞく}で{一|ひと}つのケーキを{分|わ}け{合|あ}って{食|た}べた。",
+      "japanese": "⟦{家族|かぞく}→家族：00552_kazoku⟧⟦で→で：00502_de⟧⟦{一|ひと}つ→一つ：02948_hitotsu⟧⟦の→の：09472_no⟧⟦ケーキ→ケーキ：01356_keeki⟧⟦を→を：00422_wo⟧{分|わ}け{合|あ}って⟦{食|た}べた→食べる：00396_taberu⟧。",
       "english": "The family shared one cake and ate it together.",
       "notes": null,
       "has_audio": false,
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "A compound verb from {分|わ}ける (to divide) + {合|あ}う (to do mutually). The {合|あ}う component adds the nuance of reciprocity — everyone participates in the sharing.\n\nCan be used for both physical items and abstract things like feelings, experiences, or burdens.\n\nCOMMON COLLOCATIONS:\n・{食|た}べ{物|もの}を{分|わ}け{合|あ}う (share food)\n・{利益|りえき}を{分|わ}け{合|あ}う (share profits)\n・{苦楽|くらく}を{分|わ}け{合|あ}う (share hardships and joys)",
+  "notes": "A compound verb from ⟦{分|わ}ける→分ける：02333_wakeru⟧ (to divide) + ⟦{合|あ}う→合う：10466_au⟧ (to do mutually). The ⟦{合|あ}う→合う：10466_au⟧ component adds the nuance of reciprocity — everyone participates in the sharing.\n\nCan be used for both physical items and abstract things like feelings, experiences, or burdens.\n\nCOMMON COLLOCATIONS:\n- ⟦{食|た}べ{物|もの}→食べ物：02890_tabemono⟧⟦を→を：00422_wo⟧{分|わ}け{合|あ}う (share food)\n- ⟦{利益|りえき}→利益：03673_rieki⟧⟦を→を：00422_wo⟧{分|わ}け{合|あ}う (share profits)\n- ⟦{苦楽|くらく}→苦楽：05566_kuraku⟧⟦を→を：00422_wo⟧{分|わ}け{合|あ}う (share hardships and joys)",
   "cross_references": [
     {
       "type": "related",
@@ -141,11 +141,18 @@
       "reading": "わける",
       "headword": "{分|わ}ける",
       "label": "to divide (base verb)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19639_kyouyuusuru",
+      "reading": "きょうゆうする",
+      "headword": "{共有|きょうゆう}する",
+      "label": "to share"
     }
   ],
   "metadata": {
     "created": "2026-02-17T23:15:01Z",
-    "modified": "2026-08-15T21:25:25Z",
+    "modified": "2026-09-02T04:01:26Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",

@@ -15,41 +15,68 @@
   "examples": [
     {
       "id": "27539_haiyaa_ex1",
-      "japanese": "ハイヤーを{呼|よ}んでください。",
+      "japanese": "ハイヤー⟦を→を：00422_wo⟧⟦{呼|よ}んで→呼ぶ：00766_yobu⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please call a hire car.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27539_haiyaa_ex2",
-      "japanese": "{社長|しゃちょう}は{出張|しゅっちょう}の{際|さい}、ハイヤーを{使|つか}うことが{多|おお}い。",
+      "japanese": "⟦{社長|しゃちょう}→社長：01428_shachou⟧⟦は→は：00079_ha⟧⟦{出張|しゅっちょう}→出張：01094_shucchou⟧⟦の→の：09472_no⟧⟦{際|さい}→際：02819_sai⟧、ハイヤー⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧こと⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "The president often uses a hire car when traveling for business.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27539_haiyaa_ex3",
-      "japanese": "{空港|くうこう}までハイヤーを{予約|よやく}しておけば、{荷物|にもつ}が{多|おお}くても{安心|あんしん}だ。",
+      "japanese": "⟦{空港|くうこう}→空港：00648_kuukou⟧⟦まで→まで：00490_made⟧ハイヤー⟦を→を：00422_wo⟧⟦{予約|よやく}して→予約する：22989_yoyakusuru⟧おけば、⟦{荷物|にもつ}→荷物：00737_nimotsu⟧⟦が→が：00051_ga⟧⟦{多|おお}くて→多い：01127_ooi⟧⟦も→も：00484_mo⟧⟦{安心|あんしん}→安心：01288_anshin⟧だ。",
       "english": "If you book a hire car to the airport in advance, you can relax even with lots of luggage.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Loanword from English 'hire (car)'. Pronounced ハイヤー, with a long final vowel. Always booked in advance through a company; not flagged down on the street like a taxi.\n\nCOMMON COLLOCATIONS:\n- ハイヤーを{呼|よ}ぶ: to call (book) a hire car\n- ハイヤーを{手配|てはい}する: to arrange a hire car\n- ハイヤーで{送迎|そうげい}する: to provide pickup / drop-off by hire car\n- {役員|やくいん}ハイヤー: executive hire car\n\nSIMILAR WORDS:\n- タクシー: taxi — hailed on the street or at a stand; metered\n- {送迎|そうげい}バス: shuttle bus — for groups, fixed routes\n- リムジン: limousine — larger / fancier; in Japan often means an airport limo bus, not a stretch limousine",
+  "notes": "Loanword from English 'hire (car)'. Pronounced ハイヤー, with a long final vowel. Always booked in advance through a company; not flagged down on the street like a taxi.\n\nCOMMON COLLOCATIONS:\n- ハイヤー⟦を→を：00422_wo⟧⟦{呼|よ}ぶ→呼ぶ：00766_yobu⟧: to call (book) a hire car\n- ハイヤー⟦を→を：00422_wo⟧⟦{手配|てはい}→手配：07604_tehai⟧⟦する→する：00392_suru⟧: to arrange a hire car\n- ハイヤー⟦で→で：00502_de⟧⟦{送迎|そうげい}→送迎：07050_sougei⟧⟦する→する：00392_suru⟧: to provide pickup / drop-off by hire car\n- ⟦{役員|やくいん}→役員：11329_yakuin⟧ハイヤー: executive hire car\n\nSIMILAR WORDS:\n- ⟦タクシー→タクシー：00816_takushii⟧: taxi — hailed on the street or at a stand; metered\n- ⟦{送迎|そうげい}バス→送迎バス：30786_sougeibasu⟧: shuttle bus — for groups, fixed routes\n- リムジン: limousine — larger / fancier; in Japan often means an airport limo bus, not a stretch limousine",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00816_takushii",
+      "reading": "たくしー",
+      "headword": "タクシー",
+      "label": "taxi"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30786_sougeibasu",
+      "reading": "そうげいばす",
+      "headword": "{送迎|そうげい}バス",
+      "label": "shuttle bus"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["transportation", "business"],
+      "politeness": "plain",
+      "semantic": [
+        "transportation",
+        "business"
+      ],
       "domain": []
     },
     "created": "2026-05-13T04:11:06Z",
-    "modified": "2026-05-13T04:11:06Z"
+    "modified": "2026-09-02T04:02:31Z"
   }
 }

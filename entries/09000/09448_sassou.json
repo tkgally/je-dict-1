@@ -2,7 +2,7 @@
   "id": "09448_sassou",
   "headword": "{颯爽|さっそう}",
   "reading": "さっそう",
-  "part_of_speech": "adjective-taru",
+  "part_of_speech": "taru-adjective",
   "gloss": "gallant, dashing, smart-looking",
   "definitions": [
     {
@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "09448_sassou_ex1",
-      "japanese": "{颯爽|さっそう}と{歩|ある}く。",
+      "japanese": "{颯爽|さっそう}⟦と→と：00512_to⟧⟦{歩|ある}く→歩く：00538_aruku⟧。",
       "english": "To walk briskly and smartly.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "09448_sassou_ex2",
-      "japanese": "{彼女|かのじょ}は{颯爽|さっそう}と{登場|とうじょう}した。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧{颯爽|さっそう}⟦と→と：00512_to⟧⟦{登場|とうじょう}→登場：13625_toujou⟧⟦した→する：00392_suru⟧。",
       "english": "She made a dashing entrance.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "09448_sassou_ex3",
-      "japanese": "スーツ{姿|すがた}で{颯爽|さっそう}と{現|あらわ}れた。",
+      "japanese": "⟦スーツ→スーツ：01367_suutsu⟧⟦{姿|すがた}→姿：03363_sugata⟧⟦で→で：00502_de⟧{颯爽|さっそう}⟦と→と：00512_to⟧⟦{現|あらわ}れた→現れる：01870_arawareru⟧。",
       "english": "He appeared smartly dressed in a suit.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
     },
     {
       "id": "09448_sassou_ex4",
-      "japanese": "{白馬|はくば}に{乗|の}った{王子|おうじ}が{颯爽|さっそう}と{駆|か}けてきた。",
+      "japanese": "⟦{白馬|はくば}→白馬：19404_hakuba⟧⟦に→に：00314_ni⟧⟦{乗|の}った→乗る：00511_noru⟧⟦{王子|おうじ}→王子：01904_ouji⟧⟦が→が：00051_ga⟧{颯爽|さっそう}⟦と→と：00512_to⟧⟦{駆|か}けて→駆ける：14714_kakeru⟧きた。",
       "english": "A prince on a white horse came galloping up dashingly.",
       "notes": null,
       "has_audio": false,
@@ -53,10 +53,10 @@
       ]
     }
   ],
-  "notes": "{颯爽|さっそう} is a taru-adjective (〜たる/〜と type) that describes a crisp, stylish, and confident manner of movement or appearance.\n\nUsage patterns:\n- {颯爽|さっそう}と + verb (dashingly, smartly)\n- {颯爽|さっそう}たる + noun (dashing, gallant)\n\nCommon collocations:\n- {颯爽|さっそう}と{歩|ある}く (to walk briskly)\n- {颯爽|さっそう}と{現|あらわ}れる (to appear smartly)\n- {颯爽|さっそう}たる{姿|すがた} (dashing figure)\n\nNote: The kanji {颯|さつ} suggests a refreshing breeze, giving the word connotations of freshness and vitality.\n\nRelated words:\n- {凛々|りり}しい: dignified, gallant\n- {格好|かっこう}いい: cool, stylish (casual)\n- スマート: smart, stylish",
+  "notes": "{颯爽|さっそう} is a taru-adjective (〜たる/〜⟦と→と：00512_to⟧ type) that describes a crisp, stylish, and confident manner of movement or appearance.\n\nUsage patterns:\n- {颯爽|さっそう}⟦と→と：00512_to⟧ + verb (dashingly, smartly)\n- {颯爽|さっそう}たる + noun (dashing, gallant)\n\nCommon collocations:\n- {颯爽|さっそう}⟦と→と：00512_to⟧⟦{歩|ある}く→歩く：00538_aruku⟧ (to walk briskly)\n- {颯爽|さっそう}⟦と→と：00512_to⟧⟦{現|あらわ}れる→現れる：01870_arawareru⟧ (to appear smartly)\n- {颯爽|さっそう}たる⟦{姿|すがた}→姿：03363_sugata⟧ (dashing figure)\n\nNote: The kanji {颯|さつ} suggests a refreshing breeze, giving the word connotations of freshness and vitality.\n\nRelated words:\n- ⟦{凛々|りり}しい→凛々しい：09175_ririshii⟧: dignified, gallant\n- ⟦{格好|かっこう}いい→格好いい：18585_kakkouii⟧: cool, stylish (casual)\n- スマート: smart, stylish",
   "metadata": {
     "created": "2026-02-01T15:12:49Z",
-    "modified": "2026-08-13T09:37:24Z",
+    "modified": "2026-09-02T04:01:18Z",
     "ai_model": "opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -64,7 +64,7 @@
         "adjective-taru"
       ],
       "formality": "formal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "appearance",
         "descriptive"
@@ -82,6 +82,13 @@
       "reading": "りんぜん",
       "headword": "{凛然|りんぜん}",
       "label": "dignified, majestic"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26774_sakkai",
+      "reading": "さっかい",
+      "headword": "{颯快|さっかい}",
+      "label": "brisk"
     }
   ]
 }

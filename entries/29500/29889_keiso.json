@@ -15,41 +15,62 @@
   "examples": [
     {
       "id": "29889_keiso_ex1",
-      "japanese": "{珪素|けいそ}は{半導体|はんどうたい}の{材料|ざいりょう}だ。",
+      "japanese": "{珪素|けいそ}⟦は→は：00079_ha⟧⟦{半導体|はんどうたい}→半導体：09248_handoutai⟧⟦の→の：09472_no⟧⟦{材料|ざいりょう}→材料：02831_zairyou⟧だ。",
       "english": "Silicon is a material for semiconductors.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29889_keiso_ex2",
-      "japanese": "{地殻|ちかく}には{珪素|けいそ}が{多|おお}く{含|ふく}まれている。",
+      "japanese": "⟦{地殻|ちかく}→地殻：12142_chikaku⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{珪素|けいそ}⟦が→が：00051_ga⟧⟦{多|おお}く→多い：01127_ooi⟧⟦{含|ふく}まれている→含む：01982_fukumu⟧。",
       "english": "The earth's crust contains a lot of silicon.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29889_keiso_ex3",
-      "japanese": "{珪素|けいそ}は{酸素|さんそ}に{次|つ}いで{地球上|ちきゅうじょう}で{二番目|にばんめ}に{多|おお}い{元素|げんそ}だ。",
+      "japanese": "{珪素|けいそ}⟦は→は：00079_ha⟧⟦{酸素|さんそ}→酸素：02830_sanso⟧⟦に→に：00314_ni⟧⟦{次|つ}いで→次ぐ：02076_tsugu⟧{地球上|ちきゅうじょう}⟦で→で：00502_de⟧⟦{二番目|にばんめ}→二番目：30362_nibanme⟧⟦に→に：00314_ni⟧⟦{多|おお}い→多い：01127_ooi⟧⟦{元素|げんそ}→元素：09662_genso⟧だ。",
       "english": "Silicon is the second most abundant element on Earth after oxygen.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "The element silicon (Si). In technical and everyday writing it is often spelled {ケイ素|けいそ} with the first character in katakana.\n\nCOMMON COLLOCATIONS:\n- {珪素|けいそ}{樹脂|じゅし}: silicone resin\n- {二酸化|にさんか}{珪素|けいそ}: silicon dioxide (silica)\n- {珪素|けいそ}{鋼|こう}: silicon steel\n\nSIMILAR WORDS:\n- シリコン: silicon/silicone — the katakana loanword, used especially for the semiconductor material and for silicone products",
+  "notes": "The element silicon (Si). In technical and everyday writing it is often spelled {ケイ素|けいそ} with the first character in katakana.\n\nCOMMON COLLOCATIONS:\n- {珪素|けいそ}⟦{樹脂|じゅし}→樹脂：17424_jushi⟧: silicone resin\n- {二酸化|にさんか}{珪素|けいそ}: silicon dioxide (silica)\n- {珪素|けいそ}{鋼|こう}: silicon steel\n\nSIMILAR WORDS:\n- ⟦シリコン→シリコン：29883_shirikon⟧: silicon/silicone — the katakana loanword, used especially for the semiconductor material and for silicone products",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "29883_shirikon",
+      "reading": "しりこん",
+      "headword": "シリコン",
+      "label": "silicon/silicone"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["science"],
-      "domain": ["technical"]
+      "politeness": "plain",
+      "semantic": [
+        "science"
+      ],
+      "domain": [
+        "technical"
+      ]
     },
     "created": "2026-07-16T21:18:06Z",
-    "modified": "2026-07-16T21:18:06Z"
+    "modified": "2026-09-02T04:02:38Z"
   }
 }

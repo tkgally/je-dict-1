@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "12098_hensou_ex1",
-      "japanese": "{警察官|けいさつかん}に{変装|へんそう}した。",
+      "japanese": "⟦{警察官|けいさつかん}→警察官：05056_keisatsukan⟧⟦に→に：00314_ni⟧{変装|へんそう}⟦した→する：00392_suru⟧。",
       "english": "I disguised myself as a police officer.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "12098_hensou_ex2",
-      "japanese": "サングラスと{帽子|ぼうし}で{変装|へんそう}しても{見破|みやぶ}られた。",
+      "japanese": "⟦サングラス→サングラス：04535_sangurasu⟧⟦と→と：00512_to⟧⟦{帽子|ぼうし}→帽子：00692_boushi⟧⟦で→で：00502_de⟧{変装|へんそう}⟦して→する：00392_suru⟧⟦も→も：00484_mo⟧⟦{見破|みやぶ}られた→見破る：18726_miyaburu⟧。",
       "english": "Even though I disguised myself with sunglasses and a hat, I was found out.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "12098_hensou_ex3",
-      "japanese": "{有名人|ゆうめいじん}が{変装|へんそう}して{街|まち}を{歩|ある}くのは{大変|たいへん}らしい。",
+      "japanese": "⟦{有名人|ゆうめいじん}→有名人：17812_yuumeijin⟧⟦が→が：00051_ga⟧{変装|へんそう}⟦して→する：00392_suru⟧⟦{街|まち}→街：17306_machi⟧⟦を→を：00422_wo⟧⟦{歩|ある}く→歩く：00538_aruku⟧⟦の→の：09472_no⟧⟦は→は：00079_ha⟧⟦{大変|たいへん}→大変：00594_taihen⟧らしい。",
       "english": "Apparently it's hard for celebrities to walk around town in disguise.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nThe pattern ～に{変装|へんそう}する means \"to disguise oneself as ~.\" {変装|へんそう} focuses on altering one's external appearance. It can be used for serious concealment (criminals, spies) or lighthearted contexts (Halloween, costume parties).\n\nCOMMON COLLOCATIONS:\n- ～に{変装|へんそう}する: disguise oneself as ~\n- {変装|へんそう}を{見破|みやぶ}る: see through a disguise\n- {変装|へんそう}グッズ: disguise goods/accessories\n- {完璧|かんぺき}な{変装|へんそう}: perfect disguise\n\nSIMILAR WORDS:\n{変装|へんそう} means changing appearance to look like someone else. {仮装|かそう} (costume, fancy dress) is used for costume events and Halloween — it emphasizes dressing up for fun rather than concealment. {変身|へんしん} (transformation) is a more complete change of form.",
+  "notes": "USAGE:\nThe pattern ～⟦に→に：00314_ni⟧{変装|へんそう}⟦する→する：00392_suru⟧ means \"to disguise oneself as ~.\" {変装|へんそう} focuses on altering one's external appearance. It can be used for serious concealment (criminals, spies) or lighthearted contexts (Halloween, costume parties).\n\nCOMMON COLLOCATIONS:\n- ～⟦に→に：00314_ni⟧{変装|へんそう}⟦する→する：00392_suru⟧: disguise oneself as ~\n- {変装|へんそう}⟦を→を：00422_wo⟧⟦{見破|みやぶ}る→見破る：18726_miyaburu⟧: see through a disguise\n- {変装|へんそう}⟦グッズ→グッズ：10800_guzzu⟧: disguise goods/accessories\n- ⟦{完璧|かんぺき}→完璧：09505_kanpeki⟧な{変装|へんそう}: perfect disguise\n\nSIMILAR WORDS:\n{変装|へんそう} means changing appearance to look like someone else. ⟦{仮装|かそう}→仮装：18785_kasou⟧ (costume, fancy dress) is used for costume events and Halloween — it emphasizes dressing up for fun rather than concealment. ⟦{変身|へんしん}→変身：12099_henshin⟧ (transformation) is a more complete change of form.",
   "cross_references": [
     {
       "type": "homophone",
@@ -156,11 +156,18 @@
       "reading": "へんしん",
       "headword": "{変身|へんしん}",
       "label": "transformation (dramatic)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23925_dansou",
+      "reading": "だんそう",
+      "headword": "{男装|だんそう}",
+      "label": "dressing as a man"
     }
   ],
   "metadata": {
     "created": "2026-02-20T04:56:40Z",
-    "modified": "2026-04-26T06:29:08Z",
+    "modified": "2026-09-02T04:01:27Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

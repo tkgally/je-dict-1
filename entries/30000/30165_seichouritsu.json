@@ -16,7 +16,7 @@
   "examples": [
     {
       "id": "30165_seichouritsu_ex1",
-      "japanese": "{経済|けいざい}{成長率|せいちょうりつ}が{鈍|にぶ}った。",
+      "japanese": "⟦{経済|けいざい}→経済：01394_keizai⟧{成長率|せいちょうりつ}⟦が→が：00051_ga⟧⟦{鈍|にぶ}った→鈍る：14469_niburu⟧。",
       "english": "The economic growth rate slowed.",
       "sense_numbers": [
         1
@@ -26,7 +26,7 @@
     },
     {
       "id": "30165_seichouritsu_ex2",
-      "japanese": "{今年|ことし}の{売上|うりあげ}{成長率|せいちょうりつ}は3パーセントだった。",
+      "japanese": "⟦{今年|ことし}→今年：00722_kotoshi⟧⟦の→の：09472_no⟧⟦{売上|うりあげ}→売上：04102_uriage⟧{成長率|せいちょうりつ}⟦は→は：00079_ha⟧3⟦パーセント→パーセント：01537_paasento⟧だった。",
       "english": "This year's sales growth rate was three percent.",
       "sense_numbers": [
         1
@@ -36,7 +36,7 @@
     },
     {
       "id": "30165_seichouritsu_ex3",
-      "japanese": "{政府|せいふ}は{来年|らいねん}の{成長率|せいちょうりつ}を1.5パーセントと{予測|よそく}している。",
+      "japanese": "⟦{政府|せいふ}→政府：03294_seifu⟧⟦は→は：00079_ha⟧⟦{来年|らいねん}→来年：00745_rainen⟧⟦の→の：09472_no⟧{成長率|せいちょうりつ}⟦を→を：00422_wo⟧1.5⟦パーセント→パーセント：01537_paasento⟧⟦と→と：00512_to⟧⟦{予測|よそく}している→予測する：19654_yosokusuru⟧。",
       "english": "The government forecasts next year's growth rate at 1.5 percent.",
       "sense_numbers": [
         1
@@ -45,7 +45,23 @@
       "notes": null
     }
   ],
-  "notes": "Formed from {成長|せいちょう} (growth) plus the suffix {率|りつ} (rate, ratio).\n\nCOMMON COLLOCATIONS:\n- {経済|けいざい}{成長率|せいちょうりつ}: economic growth rate\n- {成長率|せいちょうりつ}が{高|たか}い: to have a high growth rate\n- {成長率|せいちょうりつ}が{鈍|にぶ}る: for the growth rate to slow\n- {年|ねん}{平均|へいきん}{成長率|せいちょうりつ}: average annual growth rate\n\nSIMILAR WORDS:\n- {伸|の}び{率|りつ}: rate of increase — plainer, more everyday word for the same figure\n- {増加率|ぞうかりつ}: rate of increase — purely quantitative, with none of {成長率|せいちょうりつ}'s sense of healthy development",
+  "notes": "Formed from ⟦{成長|せいちょう}→成長：03290_seichou⟧ (growth) plus the suffix ⟦{率|りつ}→率：03802_ritsu⟧ (rate, ratio).\n\nCOMMON COLLOCATIONS:\n- ⟦{経済|けいざい}→経済：01394_keizai⟧{成長率|せいちょうりつ}: economic growth rate\n- {成長率|せいちょうりつ}⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧: to have a high growth rate\n- {成長率|せいちょうりつ}⟦が→が：00051_ga⟧⟦{鈍|にぶ}る→鈍る：14469_niburu⟧: for the growth rate to slow\n- ⟦{年|ねん}→年：09876_nen⟧⟦{平均|へいきん}→平均：03614_heikin⟧{成長率|せいちょうりつ}: average annual growth rate\n\nSIMILAR WORDS:\n- ⟦{伸|の}び{率|りつ}→伸び率：30148_nobiritsu⟧: rate of increase — plainer, more everyday word for the same figure\n- ⟦{増加率|ぞうかりつ}→増加率：27032_zoukaritsu⟧: rate of increase — purely quantitative, with none of {成長率|せいちょうりつ}'s sense of healthy development",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "30148_nobiritsu",
+      "reading": "のびりつ",
+      "headword": "{伸|の}び{率|りつ}",
+      "label": "rate of increase"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27032_zoukaritsu",
+      "reading": "ぞうかりつ",
+      "headword": "{増加率|ぞうかりつ}",
+      "label": "rate of increase"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +69,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "economics"
       ],
@@ -62,6 +78,6 @@
       ]
     },
     "created": "2026-07-27T21:18:32Z",
-    "modified": "2026-07-27T21:18:32Z"
+    "modified": "2026-09-02T04:02:39Z"
   }
 }

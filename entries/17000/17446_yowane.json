@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "17446_yowane_ex1",
-      "japanese": "{弱音|よわね}を{吐|は}くな。",
+      "japanese": "{弱音|よわね}⟦を→を：00422_wo⟧⟦{吐|は}く→吐く：04397_haku⟧な。",
       "english": "Don't whine.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "17446_yowane_ex2",
-      "japanese": "{彼|かれ}は{一度|いちど}も{弱音|よわね}を{吐|は}かなかった。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{一度|いちど}→一度：01312_ichido⟧⟦も→も：00484_mo⟧{弱音|よわね}⟦を→を：00422_wo⟧⟦{吐|は}かなかった→吐く：04397_haku⟧。",
       "english": "He never once complained.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "17446_yowane_ex3",
-      "japanese": "つらい{時|とき}は{弱音|よわね}を{吐|は}いてもいいんだよと、{友達|ともだち}に{言|い}われた。",
+      "japanese": "つらい{時|とき}⟦は→は：00079_ha⟧{弱音|よわね}⟦を→を：00422_wo⟧⟦{吐|は}いて→吐く：04397_haku⟧⟦も→も：00484_mo⟧⟦いい→いい：00118_ii⟧んだ⟦よ→よ：09475_yo⟧⟦と→と：00512_to⟧、⟦{友達|ともだち}→友達：01478_tomodachi⟧⟦に→に：00314_ni⟧⟦{言|い}われた→言う：00515_iu⟧。",
       "english": "A friend told me it's okay to let out your feelings when things are tough.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nAlmost exclusively appears in the phrase {弱音|よわね}を{吐|は}く (to whine, to show weakness). Traditionally viewed negatively, as showing weakness is often discouraged in Japanese culture. However, in modern usage, people also say {弱音|よわね}を{吐|は}いてもいい (it's okay to express your struggles).\n\nCOMMON COLLOCATIONS:\n- {弱音|よわね}を{吐|は}く (to whine, to complain)\n- {弱音|よわね}を{吐|は}かない (to not show weakness)\n- {弱音|よわね}を{吐|は}いてもいい (it's okay to express weakness)\n\nSIMILAR WORDS:\n- {愚痴|ぐち}: complaints about everyday frustrations — less about weakness, more about venting\n- {泣|な}き{言|ごと}: tearful complaints — similar to {弱音|よわね} but emphasizes emotional distress",
+  "notes": "USAGE:\nAlmost exclusively appears in the phrase {弱音|よわね}⟦を→を：00422_wo⟧⟦{吐|は}く→吐く：04397_haku⟧ (to whine, to show weakness). Traditionally viewed negatively, as showing weakness is often discouraged in Japanese culture. However, in modern usage, people also say {弱音|よわね}⟦を→を：00422_wo⟧⟦{吐|は}いて→吐く：04397_haku⟧⟦も→も：00484_mo⟧⟦いい→いい：00118_ii⟧ (it's okay to express your struggles).\n\nCOMMON COLLOCATIONS:\n- {弱音|よわね}⟦を→を：00422_wo⟧⟦{吐|は}く→吐く：04397_haku⟧ (to whine, to complain)\n- {弱音|よわね}⟦を→を：00422_wo⟧⟦{吐|は}かない→吐く：04397_haku⟧ (to not show weakness)\n- {弱音|よわね}⟦を→を：00422_wo⟧⟦{吐|は}いて→吐く：04397_haku⟧⟦も→も：00484_mo⟧⟦いい→いい：00118_ii⟧ (it's okay to express weakness)\n\nSIMILAR WORDS:\n- ⟦{愚痴|ぐち}→愚痴：06623_guchi⟧: complaints about everyday frustrations — less about weakness, more about venting\n- ⟦{泣|な}き{言|ごと}→泣き言：15899_nakigoto⟧: tearful complaints — similar to {弱音|よわね} but emphasizes emotional distress",
   "cross_references": [
     {
       "type": "synonym",
@@ -52,11 +52,18 @@
       "reading": "ぐち",
       "headword": "{愚痴|ぐち}",
       "label": "complaints (venting)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15899_nakigoto",
+      "reading": "なきごと",
+      "headword": "{泣|な}き{言|ごと}",
+      "label": "tearful complaints"
     }
   ],
   "metadata": {
     "created": "2026-03-18T01:59:42Z",
-    "modified": "2026-05-06T07:07:17Z",
+    "modified": "2026-09-02T04:01:48Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

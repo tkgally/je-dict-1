@@ -2,7 +2,7 @@
   "id": "11399_burendo",
   "headword": "ブレンド",
   "reading": "ぶれんど",
-  "part_of_speech": "noun / verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "blend, mixture",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "11399_burendo_ex1",
-      "japanese": "ブレンドコーヒーを{一|ひと}つください。",
+      "japanese": "ブレンド⟦コーヒー→コーヒー：00789_koohii⟧⟦を→を：00422_wo⟧⟦{一|ひと}つ→一つ：02948_hitotsu⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "One blended coffee, please.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "11399_burendo_ex2",
-      "japanese": "{数|すう}{種類|しゅるい}の{茶葉|ちゃば}をブレンドした{紅茶|こうちゃ}です。",
+      "japanese": "⟦{数|すう}{種類|しゅるい}→数種類：28382_suushurui⟧⟦の→の：09472_no⟧⟦{茶葉|ちゃば}→茶葉：15508_chaba⟧⟦を→を：00422_wo⟧ブレンド⟦した→する：00392_suru⟧⟦{紅茶|こうちゃ}→紅茶：02878_koucha⟧です。",
       "english": "This is a tea made by blending several types of tea leaves.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "11399_burendo_ex3",
-      "japanese": "このウイスキーは{複数|ふくすう}の{原酒|げんしゅ}をブレンドして{作|つく}られている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦ウイスキー→ウイスキー：00412_uisukii⟧⟦は→は：00079_ha⟧⟦{複数|ふくすう}→複数：14236_fukusuu⟧⟦の→の：09472_no⟧{原酒|げんしゅ}⟦を→を：00422_wo⟧ブレンド⟦して→する：00392_suru⟧⟦{作|つく}られている→作る：00481_tsukuru⟧。",
       "english": "This whisky is made by blending multiple base spirits.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,19 @@
       ]
     }
   ],
-  "notes": "USAGE: ブレンド is a loanword from English \"blend.\" It can be used as a noun (ブレンド) or as a suru-verb (ブレンドする).\n\nCOMMON COLLOCATIONS:\n- ブレンドコーヒー (blended coffee — the default \"house coffee\" at most Japanese cafes)\n- オリジナルブレンド (original/house blend)\n- ブレンドする (to blend, to mix)\n- ブレンド{茶|ちゃ} (blended tea)\n\nCOFFEE CULTURE NOTE: At Japanese {喫茶店|きっさてん} (coffee shops), ブレンド is the standard house coffee made from a mix of beans. It is typically the most affordable and popular option on the menu. Ordering just \"ブレンド\" is understood to mean a cup of blended coffee.",
-  "cross_references": [],
+  "notes": "USAGE: ブレンド is a loanword from English \"blend.\" It can be used as a noun (ブレンド) or as a suru-verb (ブレンド⟦する→する：00392_suru⟧).\n\nCOMMON COLLOCATIONS:\n- ブレンド⟦コーヒー→コーヒー：00789_koohii⟧ (blended coffee — the default \"house coffee\" at most Japanese cafes)\n- ⟦オリジナル→オリジナル：10829_orijinaru⟧ブレンド (original/house blend)\n- ブレンド⟦する→する：00392_suru⟧ (to blend, to mix)\n- ブレンド⟦{茶|ちゃ}→茶：03433_cha⟧ (blended tea)\n\nCOFFEE CULTURE NOTE: At Japanese ⟦{喫茶店|きっさてん}→喫茶店：01079_kissaten⟧ (coffee shops), ブレンド is the standard house coffee made from a mix of beans. It is typically the most affordable and popular option on the menu. Ordering just \"ブレンド\" is understood to mean a cup of blended coffee.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21415_kongoubutsu",
+      "reading": "こんごうぶつ",
+      "headword": "{混合物|こんごうぶつ}",
+      "label": "mixture"
+    }
+  ],
   "metadata": {
     "created": "2026-02-16T02:06:50Z",
-    "modified": "2026-03-29T03:07:35Z",
+    "modified": "2026-09-02T04:01:25Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
@@ -151,7 +159,8 @@
         "food",
         "consumption"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

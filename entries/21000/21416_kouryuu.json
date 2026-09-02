@@ -3,7 +3,7 @@
   "headword": "{拘留|こうりゅう}",
   "reading": "こうりゅう",
   "romaji": "kouryuu",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "detention; custody",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21416_kouryuu_ex1",
-      "japanese": "{容疑者|ようぎしゃ}は{拘留|こうりゅう}された。",
+      "japanese": "⟦{容疑者|ようぎしゃ}→容疑者：15039_yougisha⟧⟦は→は：00079_ha⟧{拘留|こうりゅう}⟦された→する：00392_suru⟧。",
       "english": "The suspect was detained.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21416_kouryuu_ex2",
-      "japanese": "{拘留|こうりゅう}{期間|きかん}は{最大|さいだい}で{二十九日|にじゅうくにち}だ。",
+      "japanese": "{拘留|こうりゅう}⟦{期間|きかん}→期間：00229_kikan⟧⟦は→は：00079_ha⟧⟦{最大|さいだい}→最大：04827_saidai⟧⟦で→で：00502_de⟧{二十九日|にじゅうくにち}だ。",
       "english": "The maximum detention period is twenty-nine days.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21416_kouryuu_ex3",
-      "japanese": "{裁判所|さいばんしょ}は{被告人|ひこくにん}の{拘留|こうりゅう}を{延長|えんちょう}する{決定|けってい}を{下|くだ}した。",
+      "japanese": "⟦{裁判所|さいばんしょ}→裁判所：09665_saibansho⟧⟦は→は：00079_ha⟧⟦{被告人|ひこくにん}→被告人：20130_hikokunin⟧⟦の→の：09472_no⟧{拘留|こうりゅう}⟦を→を：00422_wo⟧⟦{延長|えんちょう}→延長：06447_enchou⟧⟦する→する：00392_suru⟧⟦{決定|けってい}→決定：02701_kettei⟧⟦を→を：00422_wo⟧⟦{下|くだ}した→下す：12329_kudasu⟧。",
       "english": "The court issued a decision to extend the defendant's detention.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "A legal term for holding someone in custody. In Japanese criminal law, {拘留|こうりゅう} as a penalty specifically refers to a minor form of imprisonment lasting 1 to 29 days, used for misdemeanor offenses. It is also used more broadly for pre-trial detention.\n\nCOMMON COLLOCATIONS:\n- {拘留|こうりゅう}する: to detain\n- {拘留|こうりゅう}{期間|きかん}: detention period\n- {拘留|こうりゅう}を{延長|えんちょう}する: to extend detention\n- {拘留|こうりゅう}{中|ちゅう}: during detention\n\nSIMILAR WORDS:\n- {勾留|こうりゅう}: pretrial detention — same reading but different kanji; specifically refers to detention during criminal investigation (before trial)\n- {拘束|こうそく}: restraint, confinement — broader term for restricting someone's freedom\n- {留置|りゅうち}: holding in custody — detention at a police station specifically\n- {収監|しゅうかん}: imprisonment — being placed in a prison facility",
+  "notes": "A legal term for holding someone in custody. In Japanese criminal law, {拘留|こうりゅう} as a penalty specifically refers to a minor form of imprisonment lasting 1 to 29 days, used for misdemeanor offenses. It is also used more broadly for pre-trial detention.\n\nCOMMON COLLOCATIONS:\n- {拘留|こうりゅう}⟦する→する：00392_suru⟧: to detain\n- {拘留|こうりゅう}⟦{期間|きかん}→期間：00229_kikan⟧: detention period\n- {拘留|こうりゅう}⟦を→を：00422_wo⟧⟦{延長|えんちょう}→延長：06447_enchou⟧⟦する→する：00392_suru⟧: to extend detention\n- {拘留|こうりゅう}⟦{中|ちゅう}→〜中：09840_chuu⟧: during detention\n\nSIMILAR WORDS:\n- {勾留|こうりゅう}: pretrial detention — same reading but different kanji; specifically refers to detention during criminal investigation (before trial)\n- ⟦{拘束|こうそく}→拘束：02803_kousoku⟧: restraint, confinement — broader term for restricting someone's freedom\n- {留置|りゅうち}: holding in custody — detention at a police station specifically\n- {収監|しゅうかん}: imprisonment — being placed in a prison facility",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02803_kousoku",
+      "reading": "こうそく",
+      "headword": "{拘束|こうそく}",
+      "label": "restraint, confinement"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23731_kinkokei",
+      "reading": "きんこけい",
+      "headword": "{禁固刑|きんこけい}",
+      "label": "imprisonment without labor"
+    },
+    {
+      "type": "related",
+      "target_id": "24500_hoshakukin",
+      "reading": "ほしゃくきん",
+      "headword": "{保釈金|ほしゃくきん}",
+      "label": "bail money"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,7 +84,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-02T02:54:03Z",
-    "modified": "2026-04-02T02:54:03Z"
+    "modified": "2026-09-02T04:02:03Z"
   },
   "conjugation": {
     "type": "suru",

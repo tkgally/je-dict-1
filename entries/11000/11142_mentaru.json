@@ -15,41 +15,59 @@
   "examples": [
     {
       "id": "11142_mentaru_ex1",
-      "japanese": "メンタルが{強|つよ}い。",
+      "japanese": "メンタル⟦が→が：00051_ga⟧⟦{強|つよ}い→強い：00820_tsuyoi⟧。",
       "english": "To be mentally strong.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11142_mentaru_ex2",
-      "japanese": "{最近|さいきん}メンタルがやられている。",
+      "japanese": "⟦{最近|さいきん}→最近：00881_saikin⟧メンタル⟦が→が：00051_ga⟧⟦やられている→やる：02980_yaru⟧。",
       "english": "My mental state has been suffering lately.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11142_mentaru_ex3",
-      "japanese": "アスリートにとってメンタルのケアはフィジカルのトレーニングと{同|おな}じくらい{大切|たいせつ}だ。",
+      "japanese": "アスリート⟦にとって→にとって：06803_nitotte⟧メンタル⟦の→の：09472_no⟧⟦ケア→ケア：10848_kea⟧⟦は→は：00079_ha⟧フィジカル⟦の→の：09472_no⟧⟦トレーニング→トレーニング：00408_toreeningu⟧⟦と→と：00512_to⟧⟦{同|おな}じ→同じ：02857_onaji⟧くらい⟦{大切|たいせつ}→大切：01456_taisetsu⟧だ。",
       "english": "For athletes, taking care of their mental health is just as important as physical training.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nVery common in modern Japanese, especially among younger speakers. Used both as a standalone noun (メンタルが{強|つよ}い) and as a modifier (メンタルヘルス). The noun usage to mean \"one's mental state\" is a Japanese extension of the English adjective.\n\nCOMMON COLLOCATIONS:\n- メンタルが{強|つよ}い/{弱|よわ}い (mentally strong/weak)\n- メンタルがやられる (one's mental state takes a hit)\n- メンタルを{鍛|きた}える (strengthen one's mentality)\n- メンタルヘルス (mental health)\n- メンタルケア (mental care)\n- メンタル{面|めん} (the mental aspect)\n\nETYMOLOGY:\nFrom English \"mental.\" The Japanese usage as a noun (meaning \"one's mental state\") goes beyond the original English adjective.",
-  "cross_references": [],
+  "notes": "USAGE:\nVery common in modern Japanese, especially among younger speakers. Used both as a standalone noun (メンタル⟦が→が：00051_ga⟧⟦{強|つよ}い→強い：00820_tsuyoi⟧) and as a modifier (メンタルヘルス). The noun usage to mean \"one's mental state\" is a Japanese extension of the English adjective.\n\nCOMMON COLLOCATIONS:\n- メンタル⟦が→が：00051_ga⟧⟦{強|つよ}い→強い：00820_tsuyoi⟧/⟦{弱|よわ}い→弱い：00825_yowai⟧ (mentally strong/weak)\n- メンタル⟦が→が：00051_ga⟧⟦やられる→やる：02980_yaru⟧ (one's mental state takes a hit)\n- メンタル⟦を→を：00422_wo⟧⟦{鍛|きた}える→鍛える：12326_kitaeru⟧ (strengthen one's mentality)\n- メンタルヘルス (mental health)\n- メンタルケア (mental care)\n- メンタル⟦{面|めん}→面：09933_men⟧ (the mental aspect)\n\nETYMOLOGY:\nFrom English \"mental.\" The Japanese usage as a noun (meaning \"one's mental state\") goes beyond the original English adjective.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14919_seishinmen",
+      "reading": "せいしんめん",
+      "headword": "{精神面|せいしんめん}",
+      "label": "mental aspect"
+    }
+  ],
   "metadata": {
     "created": "2026-02-14T03:15:22Z",
-    "modified": "2026-02-14T03:15:22Z",
+    "modified": "2026-09-02T04:01:24Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["emotion"]
+      "semantic": [
+        "emotion"
+      ]
     }
   }
 }

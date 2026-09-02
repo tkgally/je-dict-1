@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08126_chuumonsho_ex1",
-      "japanese": "{注文書|ちゅうもんしょ}を{送|おく}る。",
+      "japanese": "{注文書|ちゅうもんしょ}⟦を→を：00422_wo⟧⟦{送|おく}る→送る：00742_okuru⟧。",
       "english": "To send an order form.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "08126_chuumonsho_ex2",
-      "japanese": "{注文書|ちゅうもんしょ}に{必要事項|ひつようじこう}を{記入|きにゅう}してください。",
+      "japanese": "{注文書|ちゅうもんしょ}⟦に→に：00314_ni⟧{必要事項|ひつようじこう}⟦を→を：00422_wo⟧⟦{記入|きにゅう}→記入：02624_kinyuu⟧⟦して→する：00392_suru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please fill in the required information on the order form.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "08126_chuumonsho_ex3",
-      "japanese": "{注文書|ちゅうもんしょ}を{受|う}け{取|と}り{次第|しだい}、{発送|はっそう}します。",
+      "japanese": "{注文書|ちゅうもんしょ}⟦を→を：00422_wo⟧⟦{受|う}け{取|と}り→受け取る：01883_uketoru⟧⟦{次第|しだい}→次第：03175_shidai⟧、⟦{発送|はっそう}します→発送する：21737_hassousuru⟧。",
       "english": "We will ship as soon as we receive the order form.",
       "sense_numbers": [
         1
@@ -43,7 +43,7 @@
       "notes": null
     }
   ],
-  "notes": "{注文書|ちゅうもんしょ} is a formal document used to place orders for goods or services.\n\nCOMMON EXPRESSIONS:\n- {注文書|ちゅうもんしょ}を{送|おく}る: to send an order form\n- {注文書|ちゅうもんしょ}を{作成|さくせい}する: to prepare an order form\n- {注文書|ちゅうもんしょ}に{記入|きにゅう}する: to fill out an order form\n- {注文書|ちゅうもんしょ}を{受|う}け{取|と}る: to receive an order form\n\nWORD FORMATION:\nCombines {注文|ちゅうもん} (order) + {書|しょ} (document). The suffix {〜書|しょ} appears in many document names.\n\nRELATED BUSINESS DOCUMENTS:\n- {発注書|はっちゅうしょ}: purchase order (more formal)\n- {見積書|みつもりしょ}: quotation/estimate\n- {請求書|せいきゅうしょ}: invoice\n- {納品書|のうひんしょ}: delivery slip\n- {領収書|りょうしゅうしょ}: receipt",
+  "notes": "{注文書|ちゅうもんしょ} is a formal document used to place orders for goods or services.\n\nCOMMON EXPRESSIONS:\n- {注文書|ちゅうもんしょ}⟦を→を：00422_wo⟧⟦{送|おく}る→送る：00742_okuru⟧: to send an order form\n- {注文書|ちゅうもんしょ}⟦を→を：00422_wo⟧⟦{作成|さくせい}する→作成する：25378_sakuseisuru⟧: to prepare an order form\n- {注文書|ちゅうもんしょ}⟦に→に：00314_ni⟧⟦{記入|きにゅう}→記入：02624_kinyuu⟧⟦する→する：00392_suru⟧: to fill out an order form\n- {注文書|ちゅうもんしょ}⟦を→を：00422_wo⟧⟦{受|う}け{取|と}る→受け取る：01883_uketoru⟧: to receive an order form\n\nFORMS:\nCombines ⟦{注文|ちゅうもん}→注文：03485_chuumon⟧ (order) + ⟦{書|しょ}→〜書：28467_sho⟧ (document). The suffix {〜書|しょ} appears in many document names.\n\nRELATED BUSINESS DOCUMENTS:\n- ⟦{発注書|はっちゅうしょ}→発注書：08069_hacchuusho⟧: purchase order (more formal)\n- ⟦{見積書|みつもりしょ}→見積書：07484_mitsumorisho⟧: quotation/estimate\n- ⟦{請求書|せいきゅうしょ}→請求書：04698_seikyuusho⟧: invoice\n- ⟦{納品書|のうひんしょ}→納品書：06594_nouhinsho⟧: delivery slip\n- ⟦{領収書|りょうしゅうしょ}→領収書：04697_ryoushuusho⟧: receipt",
   "cross_references": [
     {
       "type": "synonym",
@@ -51,6 +51,34 @@
       "headword": "{発注書|はっちゅうしょ}",
       "label": "purchase order (more formal)",
       "target_id": "08069_hacchuusho"
+    },
+    {
+      "type": "related",
+      "target_id": "07484_mitsumorisho",
+      "reading": "みつもりしょ",
+      "headword": "{見積書|みつもりしょ}",
+      "label": "quotation/estimate"
+    },
+    {
+      "type": "related",
+      "target_id": "04698_seikyuusho",
+      "reading": "せいきゅうしょ",
+      "headword": "{請求書|せいきゅうしょ}",
+      "label": "invoice"
+    },
+    {
+      "type": "related",
+      "target_id": "06594_nouhinsho",
+      "reading": "のうひんしょ",
+      "headword": "{納品書|のうひんしょ}",
+      "label": "delivery slip"
+    },
+    {
+      "type": "related",
+      "target_id": "04697_ryoushuusho",
+      "reading": "りょうしゅうしょ",
+      "headword": "{領収書|りょうしゅうしょ}",
+      "label": "receipt"
     }
   ],
   "metadata": {
@@ -60,12 +88,13 @@
         "noun"
       ],
       "formality": "formal",
+      "politeness": "plain",
       "semantic": [
         "business",
         "documents"
       ]
     },
     "created": "2026-01-25T05:58:52Z",
-    "modified": "2026-08-11T21:34:29Z"
+    "modified": "2026-09-02T04:01:14Z"
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26600_koseibutsu_ex1",
-      "japanese": "{古生物|こせいぶつ}の{化石|かせき}が{発見|はっけん}された。",
+      "japanese": "{古生物|こせいぶつ}⟦の→の：09472_no⟧⟦{化石|かせき}→化石：11796_kaseki⟧⟦が→が：00051_ga⟧⟦{発見|はっけん}→発見：00085_hakken⟧⟦された→する：00392_suru⟧。",
       "english": "Fossils of ancient organisms were discovered.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26600_koseibutsu_ex2",
-      "japanese": "{子供|こども}のころから{古生物|こせいぶつ}に{興味|きょうみ}があった。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧⟦の→の：09472_no⟧⟦ころ→〜ころ：03091_koro⟧⟦から→から：00504_kara⟧{古生物|こせいぶつ}⟦に→に：00314_ni⟧⟦{興味|きょうみ}→興味：01316_kyoumi⟧⟦が→が：00051_ga⟧⟦あった→ある：00006_aru⟧。",
       "english": "I've been interested in prehistoric life since I was a child.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26600_koseibutsu_ex3",
-      "japanese": "この{博物館|はくぶつかん}には{古生物|こせいぶつ}の{標本|ひょうほん}が{数多|かずおお}く{展示|てんじ}されている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{博物館|はくぶつかん}→博物館：01494_hakubutsukan⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{古生物|こせいぶつ}⟦の→の：09472_no⟧⟦{標本|ひょうほん}→標本：13174_hyouhon⟧⟦が→が：00051_ga⟧⟦{数多|かずおお}く→数多く：12948_kazuooku⟧⟦{展示|てんじ}→展示：12401_tenji⟧⟦されている→する：00392_suru⟧。",
       "english": "This museum has a large number of paleontological specimens on display.",
       "sense_numbers": [
         1
@@ -44,8 +44,30 @@
       "notes": null
     }
   ],
-  "notes": "Combines {古|こ} (ancient) with {生物|せいぶつ} (living thing). Refers to any organism from the geological past, typically studied through fossils.\n\nCOMMON COLLOCATIONS:\n- {古生物|こせいぶつ}{学|がく}: paleontology\n- {古生物|こせいぶつ}{学者|がくしゃ}: paleontologist\n- {古生物|こせいぶつ}の{化石|かせき}: fossils of ancient organisms\n- {古生物|こせいぶつ}の{復元|ふくげん}: reconstruction of ancient life forms\n\nRELATED TERMS:\n- {化石|かせき}: fossil\n- {恐竜|きょうりゅう}: dinosaur\n- {絶滅|ぜつめつ}: extinction\n- {古生代|こせいだい}: Paleozoic era",
-  "cross_references": [],
+  "notes": "Combines {古|こ} (ancient) with ⟦{生物|せいぶつ}→生物：03295_seibutsu⟧ (living thing). Refers to any organism from the geological past, typically studied through fossils.\n\nCOMMON COLLOCATIONS:\n- {古生物|こせいぶつ}{学|がく}: paleontology\n- {古生物|こせいぶつ}{学者|がくしゃ}: paleontologist\n- {古生物|こせいぶつ}⟦の→の：09472_no⟧⟦{化石|かせき}→化石：11796_kaseki⟧: fossils of ancient organisms\n- {古生物|こせいぶつ}⟦の→の：09472_no⟧⟦{復元|ふくげん}→復元：09249_fukugen⟧: reconstruction of ancient life forms\n\nRELATED WORDS:\n- ⟦{化石|かせき}→化石：11796_kaseki⟧: fossil\n- ⟦{恐竜|きょうりゅう}→恐竜：10428_kyouryuu⟧: dinosaur\n- ⟦{絶滅|ぜつめつ}→絶滅：03756_zetsumetsu⟧: extinction\n- {古生代|こせいだい}: Paleozoic era",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "11796_kaseki",
+      "reading": "かせき",
+      "headword": "{化石|かせき}",
+      "label": "fossil"
+    },
+    {
+      "type": "related",
+      "target_id": "10428_kyouryuu",
+      "reading": "きょうりゅう",
+      "headword": "{恐竜|きょうりゅう}",
+      "label": "dinosaur"
+    },
+    {
+      "type": "related",
+      "target_id": "03756_zetsumetsu",
+      "reading": "ぜつめつ",
+      "headword": "{絶滅|ぜつめつ}",
+      "label": "extinction"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -63,6 +85,6 @@
       ]
     },
     "created": "2026-05-03T14:23:11Z",
-    "modified": "2026-05-03T14:23:11Z"
+    "modified": "2026-09-02T04:02:27Z"
   }
 }

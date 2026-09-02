@@ -15,41 +15,73 @@
   "examples": [
     {
       "id": "12754_tesuri_ex1",
-      "japanese": "{手|て}すりにつかまってください。",
+      "japanese": "{手|て}すり⟦に→に：00314_ni⟧つかまって⟦ください→ください：02899_kudasai⟧。",
       "english": "Please hold on to the handrail.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12754_tesuri_ex2",
-      "japanese": "{階段|かいだん}の{手|て}すりが{壊|こわ}れている。",
+      "japanese": "⟦{階段|かいだん}→階段：00782_kaidan⟧⟦の→の：09472_no⟧{手|て}すり⟦が→が：00051_ga⟧⟦{壊|こわ}れている→壊れる：00791_kowareru⟧。",
       "english": "The stair railing is broken.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12754_tesuri_ex3",
-      "japanese": "バルコニーの{手|て}すりにもたれて{景色|けしき}を{眺|なが}めた。",
+      "japanese": "⟦バルコニー→バルコニー：06772_barukonii⟧⟦の→の：09472_no⟧{手|て}すり⟦に→に：00314_ni⟧もたれて⟦{景色|けしき}→景色：01395_keshiki⟧⟦を→を：00422_wo⟧⟦{眺|なが}めた→眺める：02132_nagameru⟧。",
       "english": "I leaned against the balcony railing and gazed at the scenery.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{手|て}すり refers to any handrail or railing — on stairs, balconies, bridges, walkways, etc. The kanji form {手摺|てすり} exists but kana or mixed writing ({手|て}すり) is more common.\n\nCOMMON COLLOCATIONS:\n- {手|て}すりにつかまる: to hold on to the handrail\n- {手|て}すりにもたれる: to lean on the railing\n- {階段|かいだん}の{手|て}すり: stair railing\n- {手|て}すりを{設置|せっち}する: to install a handrail\n- {手|て}すりを{握|にぎ}る: to grip the handrail\n\nTYPES:\n- {階段|かいだん}の{手|て}すり: stair handrail\n- ベランダの{手|て}すり: balcony railing\n- {橋|はし}の{手|て}すり: bridge railing\n\nCULTURAL NOTE:\nPublic announcements in trains and stations often remind passengers: {手|て}すりにおつかまりください (Please hold on to the handrail).",
-  "cross_references": [],
+  "notes": "{手|て}すり refers to any handrail or railing — on stairs, balconies, bridges, walkways, etc. The kanji form {手摺|てすり} exists but kana or mixed writing ({手|て}すり) is more common.\n\nCOMMON COLLOCATIONS:\n- {手|て}すり⟦に→に：00314_ni⟧つかまる: to hold on to the handrail\n- {手|て}すり⟦に→に：00314_ni⟧もたれる: to lean on the railing\n- ⟦{階段|かいだん}→階段：00782_kaidan⟧⟦の→の：09472_no⟧{手|て}すり: stair railing\n- {手|て}すり⟦を→を：00422_wo⟧⟦{設置|せっち}する→設置する：26989_secchisuru⟧: to install a handrail\n- {手|て}すり⟦を→を：00422_wo⟧⟦{握|にぎ}る→握る：02383_nigiru⟧: to grip the handrail\n\nTYPES:\n- ⟦{階段|かいだん}→階段：00782_kaidan⟧⟦の→の：09472_no⟧{手|て}すり: stair handrail\n- ⟦ベランダ→ベランダ：05072_beranda⟧⟦の→の：09472_no⟧{手|て}すり: balcony railing\n- ⟦{橋|はし}→橋：02163_hashi⟧⟦の→の：09472_no⟧{手|て}すり: bridge railing\n\nCULTURAL NOTE:\nPublic announcements in trains and stations often remind passengers: {手|て}すり⟦に→に：00314_ni⟧おつかまり⟦ください→ください：02899_kudasai⟧ (Please hold on to the handrail).",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "08351_tsurikawa",
+      "reading": "つりかわ",
+      "headword": "{吊|つ}り{革|かわ}",
+      "label": "hanging strap"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28082_tsurite",
+      "reading": "つりて",
+      "headword": "つり{手|て}",
+      "label": "hanging strap"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30202_anzensaku",
+      "reading": "あんぜんさく",
+      "headword": "安全柵",
+      "label": "safety fence"
+    }
+  ],
   "metadata": {
     "created": "2026-02-22T10:01:48Z",
-    "modified": "2026-03-31T03:49:51Z",
+    "modified": "2026-09-02T04:01:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["building"]
+      "semantic": [
+        "building"
+      ]
     }
   }
 }

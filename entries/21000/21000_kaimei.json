@@ -15,40 +15,66 @@
   "examples": [
     {
       "id": "21000_kaimei_ex1",
-      "japanese": "{結婚|けっこん}を{機|き}に{改名|かいめい}した。",
+      "japanese": "⟦{結婚|けっこん}→結婚：02514_kekkon⟧⟦を→を：00422_wo⟧⟦{機|き}→〜機：09843_ki⟧⟦に→に：00314_ni⟧{改名|かいめい}⟦した→する：00392_suru⟧。",
       "english": "I changed my name upon getting married.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21000_kaimei_ex2",
-      "japanese": "{改名|かいめい}の{手続|てつづ}きには{家庭裁判所|かていさいばんしょ}の{許可|きょか}が{必要|ひつよう}だ。",
+      "japanese": "{改名|かいめい}⟦の→の：09472_no⟧⟦{手続|てつづ}き→手続き：05453_tetsuzuki⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{家庭裁判所|かていさいばんしょ}⟦の→の：09472_no⟧⟦{許可|きょか}→許可：00259_kyoka⟧⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧だ。",
       "english": "Changing one's name requires permission from the family court.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21000_kaimei_ex3",
-      "japanese": "あの{会社|かいしゃ}は{不祥事|ふしょうじ}の{後|あと}、{社名|しゃめい}を{改名|かいめい}してイメージを{一新|いっしん}しようとした。",
+      "japanese": "⟦あの→あの：00915_ano⟧⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦は→は：00079_ha⟧⟦{不祥事|ふしょうじ}→不祥事：14981_fushouji⟧⟦の→の：09472_no⟧⟦{後|あと}→後：09580_ato⟧、{社名|しゃめい}⟦を→を：00422_wo⟧{改名|かいめい}⟦して→する：00392_suru⟧⟦イメージ→イメージ：03832_imeeji⟧⟦を→を：00422_wo⟧⟦{一新|いっしん}→一新：19941_isshin⟧⟦しよう→する：00392_suru⟧とした。",
       "english": "After the scandal, that company tried to refresh its image by changing its name.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Covers changing a personal name, a company name, a place name, or any other formal name. In Japan, legal name changes for individuals require approval from a family court ({家庭裁判所|かていさいばんしょ}) and are granted only for justifiable reasons.\n\nCOMMON COLLOCATIONS:\n- {改名|かいめい}する: to change one's name\n- {改名|かいめい}{手続|てつづ}き: name-change procedures\n- {改名|かいめい}{届|とど}け: name-change notification\n\nSIMILAR WORDS:\n- {改姓|かいせい}: changing one's surname — specifically the family name, typically upon marriage or divorce\n- {芸名|げいめい}: stage name — a name adopted for professional use in entertainment\n- {襲名|しゅうめい}: name succession — inheriting a traditional name, common in kabuki and traditional arts",
+  "notes": "Covers changing a personal name, a company name, a place name, or any other formal name. In Japan, legal name changes for individuals require approval from a family court ({家庭裁判所|かていさいばんしょ}) and are granted only for justifiable reasons.\n\nCOMMON COLLOCATIONS:\n- {改名|かいめい}⟦する→する：00392_suru⟧: to change one's name\n- {改名|かいめい}⟦{手続|てつづ}き→手続き：05453_tetsuzuki⟧: name-change procedures\n- {改名|かいめい}⟦{届|とど}け→届ける：01248_todokeru⟧: name-change notification\n\nSIMILAR WORDS:\n- {改姓|かいせい}: changing one's surname — specifically the family name, typically upon marriage or divorce\n- ⟦{芸名|げいめい}→芸名：25284_geimei⟧: stage name — a name adopted for professional use in entertainment\n- {襲名|しゅうめい}: name succession — inheriting a traditional name, common in kabuki and traditional arts",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25284_geimei",
+      "reading": "げいめい",
+      "headword": "{芸名|げいめい}",
+      "label": "stage name"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25030_meishouhenkou",
+      "reading": "めいしょうへんこう",
+      "headword": "{名称変更|めいしょうへんこう}",
+      "label": "name change"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["society"]
+      "semantic": [
+        "society"
+      ]
     },
     "created": "2026-03-31T14:05:47Z",
-    "modified": "2026-03-31T14:05:47Z"
+    "modified": "2026-09-02T04:02:01Z"
   }
 }

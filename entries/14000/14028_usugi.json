@@ -3,7 +3,7 @@
   "id": "14028_usugi",
   "headword": "{薄着|うすぎ}",
   "reading": "うすぎ",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "light clothing; dressing lightly",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "14028_usugi_ex1",
-      "japanese": "{薄着|うすぎ}で{出|で}かけたら{風邪|かぜ}を{引|ひ}いた。",
+      "japanese": "{薄着|うすぎ}⟦で→で：00502_de⟧⟦{出|で}かけたら→出かける：00833_dekakeru⟧⟦{風邪|かぜ}→風邪：02188_kaze⟧⟦を→を：00422_wo⟧⟦{引|ひ}いた→引く：01978_hiku⟧。",
       "english": "I caught a cold because I went out in light clothing.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "14028_usugi_ex2",
-      "japanese": "{子|こ}どもに{薄着|うすぎ}させないでね。",
+      "japanese": "{子|こ}ども⟦に→に：00314_ni⟧{薄着|うすぎ}⟦させないで→する：00392_suru⟧⟦ね→ね：09474_ne⟧。",
       "english": "Don't let the child go out lightly dressed, okay?",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "14028_usugi_ex3",
-      "japanese": "{春|はる}になると{薄着|うすぎ}の{人|ひと}が{増|ふ}えて、{街|まち}の{雰囲気|ふんいき}が{明|あか}るくなる。",
+      "japanese": "⟦{春|はる}→春：00627_haru⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦と→と：00512_to⟧{薄着|うすぎ}⟦の→の：09472_no⟧⟦{人|ひと}→人：00476_hito⟧⟦が→が：00051_ga⟧⟦{増|ふ}えて→増える：01183_fueru⟧、⟦{街|まち}→街：17306_machi⟧⟦の→の：09472_no⟧⟦{雰囲気|ふんいき}→雰囲気：03604_funiki⟧⟦が→が：00051_ga⟧⟦{明|あか}るく→明るい：00616_akarui⟧⟦なる→なる：01970_naru⟧。",
       "english": "When spring comes, more people dress in lighter clothes and the town takes on a brighter atmosphere.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "A compound of {薄|うす} (thin) and {着|ぎ} (wearing). The antonym is {厚着|あつぎ} (heavy clothing, dressing warmly).\n\nCOMMON COLLOCATIONS:\n- {薄着|うすぎ}で{出|で}かける (go out lightly dressed)\n- {薄着|うすぎ}をする (dress lightly)\n- {薄着|うすぎ}すぎる (be too lightly dressed)\n\nOften used in the context of parents warning children to dress warmly, or in seasonal observations about clothing changes. In health discussions, {薄着|うすぎ} for children is sometimes recommended as a way to build resilience to cold ({薄着|うすぎ}{健康法|けんこうほう}).",
+  "notes": "A compound of {薄|うす} (thin) and {着|ぎ} (wearing). The antonym is ⟦{厚着|あつぎ}→厚着：15266_atsugi⟧ (heavy clothing, dressing warmly).\n\nCOMMON COLLOCATIONS:\n- {薄着|うすぎ}⟦で→で：00502_de⟧⟦{出|で}かける→出かける：00833_dekakeru⟧ (go out lightly dressed)\n- {薄着|うすぎ}⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧ (dress lightly)\n- {薄着|うすぎ}すぎる (be too lightly dressed)\n\nOften used in the context of parents warning children to dress warmly, or in seasonal observations about clothing changes. In health discussions, {薄着|うすぎ} for children is sometimes recommended as a way to build resilience to cold ({薄着|うすぎ}{健康法|けんこうほう}).",
   "cross_references": [
     {
       "type": "antonym",
@@ -149,11 +149,32 @@
       "reading": "うすい",
       "headword": "{薄|うす}い",
       "label": "thin, light"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19252_keisou",
+      "reading": "けいそう",
+      "headword": "{軽装|けいそう}",
+      "label": "light clothing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23421_natsufuku",
+      "reading": "なつふく",
+      "headword": "{夏服|なつふく}",
+      "label": "summer clothes"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26975_kasanegi",
+      "reading": "かさねぎ",
+      "headword": "{重|かさ}ね{着|ぎ}",
+      "label": "layering"
     }
   ],
   "metadata": {
     "created": "2026-02-27T09:50:56Z",
-    "modified": "2026-08-10T21:19:56Z",
+    "modified": "2026-09-02T04:01:35Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "13038_sasae_ex1",
-      "japanese": "{家族|かぞく}の{支|ささ}えがあった。",
+      "japanese": "⟦{家族|かぞく}→家族：00552_kazoku⟧⟦の→の：09472_no⟧{支|ささ}え⟦が→が：00051_ga⟧⟦あった→ある：00006_aru⟧。",
       "english": "I had the support of my family.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "13038_sasae_ex2",
-      "japanese": "{彼女|かのじょ}は{私|わたし}の{心|こころ}の{支|ささ}えだ。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧⟦{私|わたし}→私：02988_watashi⟧⟦の→の：09472_no⟧⟦{心|こころ}→心：01321_kokoro⟧⟦の→の：09472_no⟧{支|ささ}えだ。",
       "english": "She is my emotional support.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "13038_sasae_ex3",
-      "japanese": "{多|おお}くの{人|ひと}の{支|ささ}えのおかげで、{困難|こんなん}を{乗|の}り{越|こ}えることができた。",
+      "japanese": "{多|おお}く⟦の→の：09472_no⟧⟦{人|ひと}→人：00476_hito⟧⟦の→の：09472_no⟧{支|ささ}え⟦の→の：09472_no⟧⟦おかげ→おかげ：01362_okage⟧で、⟦{困難|こんなん}→困難：01410_konnan⟧⟦を→を：00422_wo⟧⟦{乗|の}り{越|こ}える→乗り越える：04620_norikoeru⟧こと⟦が→が：00051_ga⟧⟦できた→できる：00557_dekiru⟧。",
       "english": "Thanks to the support of many people, I was able to overcome the difficulties.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nThe noun form of the verb {支|ささ}える (to support). Frequently used in the pattern ～の{支|ささ}え (the support of ~) to express gratitude for emotional or practical help from others. Very common in speeches and thank-you messages.\n\nCOMMON COLLOCATIONS:\n- {心|こころ}の{支|ささ}え: emotional support\n- {精神的|せいしんてき}な{支|ささ}え: psychological support\n- {大|おお}きな{支|ささ}え: great support\n- ～の{支|ささ}えなしには: without the support of ~",
+  "notes": "USAGE:\nThe noun form of the verb {支|ささ}える (to support). Frequently used in the pattern ～⟦の→の：09472_no⟧{支|ささ}え (the support of ~) to express gratitude for emotional or practical help from others. Very common in speeches and thank-you messages.\n\nCOMMON COLLOCATIONS:\n- ⟦{心|こころ}→心：01321_kokoro⟧⟦の→の：09472_no⟧{支|ささ}え: emotional support\n- ⟦{精神的|せいしんてき}→精神的：05851_seishinteki⟧な{支|ささ}え: psychological support\n- ⟦{大|おお}きな→大きな：02849_ookina⟧{支|ささ}え: great support\n- ～⟦の→の：09472_no⟧{支|ささ}えなし⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧: without the support of ~",
   "cross_references": [
     {
       "type": "related",
@@ -52,11 +52,25 @@
       "headword": "{支|ささ}える",
       "label": "to support (verb)",
       "target_id": "01946_sasaeru"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12866_yoridokoro",
+      "reading": "よりどころ",
+      "headword": "{拠|よ}り{所|どころ}",
+      "label": "basis, foundation, support"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14634_tayori",
+      "reading": "たより",
+      "headword": "{頼|たよ}り",
+      "label": "reliance"
     }
   ],
   "metadata": {
     "created": "2026-02-23T06:38:30Z",
-    "modified": "2026-03-29T10:42:23Z",
+    "modified": "2026-09-02T04:01:31Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

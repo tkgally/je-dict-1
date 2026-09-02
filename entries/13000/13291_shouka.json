@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "13291_shouka_ex1",
-      "japanese": "{消火|しょうか}{活動|かつどう}が{始|はじ}まった。",
+      "japanese": "{消火|しょうか}⟦{活動|かつどう}→活動：00201_katsudou⟧⟦が→が：00051_ga⟧⟦{始|はじ}まった→始まる：00841_hajimaru⟧。",
       "english": "Firefighting operations began.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "13291_shouka_ex2",
-      "japanese": "{消火器|しょうかき}の{使|つか}い{方|かた}を{覚|おぼ}えておこう。",
+      "japanese": "⟦{消火器|しょうかき}→消火器：15332_shoukaki⟧⟦の→の：09472_no⟧⟦{使|つか}い{方|かた}→使い方：07797_tsukaikata⟧⟦を→を：00422_wo⟧⟦{覚|おぼ}えて→覚える：00739_oboeru⟧おこう。",
       "english": "Let's learn how to use a fire extinguisher.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "13291_shouka_ex3",
-      "japanese": "{消防士|しょうぼうし}たちは{三時間|さんじかん}かけて{火|ひ}を{消火|しょうか}した。",
+      "japanese": "⟦{消防士|しょうぼうし}→消防士：05057_shouboushi⟧たち⟦は→は：00079_ha⟧⟦{三時間|さんじかん}→三時間：30478_sanjikan⟧⟦かけて→かける：00854_kakeru⟧⟦{火|ひ}→火：02248_hi⟧⟦を→を：00422_wo⟧{消火|しょうか}⟦した→する：00392_suru⟧。",
       "english": "The firefighters put out the fire over three hours.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "{消火|しょうか} means extinguishing or putting out a fire. A compound of {消|けし} (extinguish) + {火|か} (fire).\n\nCAUTION:\nDo not confuse with the homophone {消化|しょうか} (digestion), which uses different kanji. {消火|しょうか} uses {火|ひ} (fire), while {消化|しょうか} uses {化|か} (change/transform).\n\nCOMMON COMPOUNDS:\n- {消火器|しょうかき}: fire extinguisher\n- {消火|しょうか}{活動|かつどう}: firefighting operations\n- {消火|しょうか}{栓|せん}: fire hydrant\n- {初期|しょき}{消火|しょうか}: initial fire suppression\n\nUSAGE:\nUsed as a noun or with する as a verb. Common in safety training, news reports about fires, and emergency procedures. Related to {消防|しょうぼう} (fire prevention/firefighting), which refers to the broader field.",
+  "notes": "{消火|しょうか} means extinguishing or putting out a fire. A compound of {消|けし} (extinguish) + {火|か} (fire).\n\nWATCH OUT:\nDo not confuse with the homophone ⟦{消化|しょうか}→消化：04200_shouka⟧ (digestion), which uses different kanji. {消火|しょうか} uses ⟦{火|ひ}→火：02248_hi⟧ (fire), while ⟦{消化|しょうか}→消化：04200_shouka⟧ uses ⟦{化|か}→〜化：28335_ka⟧ (change/transform).\n\nCOMPOUNDS:\n- ⟦{消火器|しょうかき}→消火器：15332_shoukaki⟧: fire extinguisher\n- {消火|しょうか}⟦{活動|かつどう}→活動：00201_katsudou⟧: firefighting operations\n- {消火|しょうか}{栓|せん}: fire hydrant\n- ⟦{初期|しょき}→初期：11742_shoki⟧{消火|しょうか}: initial fire suppression\n\nUSAGE:\nUsed as a noun or with ⟦する→する：00392_suru⟧ as a verb. Common in safety training, news reports about fires, and emergency procedures. Related to ⟦{消防|しょうぼう}→消防：03241_shoubou⟧ (fire prevention/firefighting), which refers to the broader field.",
   "cross_references": [
     {
       "type": "antonym",
@@ -149,11 +149,25 @@
       "reading": "ちんか",
       "headword": "{鎮火|ちんか}",
       "label": "fire extinguished (result)"
+    },
+    {
+      "type": "related",
+      "target_id": "02561_kasai",
+      "reading": "かさい",
+      "headword": "{火災|かさい}",
+      "label": "fire, conflagration"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21169_bouka",
+      "reading": "ぼうか",
+      "headword": "{防火|ぼうか}",
+      "label": "fire prevention"
     }
   ],
   "metadata": {
     "created": "2026-02-24T08:55:51Z",
-    "modified": "2026-05-06T07:07:17Z",
+    "modified": "2026-09-02T04:01:32Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

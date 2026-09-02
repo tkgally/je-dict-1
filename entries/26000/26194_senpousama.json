@@ -15,39 +15,58 @@
   "examples": [
     {
       "id": "26194_senpousama_ex1",
-      "japanese": "{先方様|せんぽうさま}にご{連絡|れんらく}ください。",
+      "japanese": "{先方様|せんぽうさま}⟦に→に：00314_ni⟧ご⟦{連絡|れんらく}→連絡：01524_renraku⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please contact the other party.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26194_senpousama_ex2",
-      "japanese": "{先方様|せんぽうさま}のご{都合|つごう}に{合|あ}わせます。",
+      "japanese": "{先方様|せんぽうさま}⟦の→の：09472_no⟧ご⟦{都合|つごう}→都合：01672_tsugou⟧⟦に→に：00314_ni⟧⟦{合|あ}わせます→合わせる：01872_awaseru⟧。",
       "english": "We will accommodate the other party's schedule.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26194_senpousama_ex3",
-      "japanese": "{先方様|せんぽうさま}から{返事|へんじ}がまだ{届|とど}いていないので、もう{一度|いちど}{確認|かくにん}していただけますか。",
+      "japanese": "{先方様|せんぽうさま}⟦から→から：00504_kara⟧⟦{返事|へんじ}→返事：00844_henji⟧⟦が→が：00051_ga⟧⟦まだ→まだ：00603_mada⟧⟦{届|とど}いていない→届く：00899_todoku⟧⟦の→の：09472_no⟧で、⟦もう{一度|いちど}→もう一度：02976_mouichido⟧⟦{確認|かくにん}して→確認する：25332_kakuninsuru⟧⟦いただけます→いただく：01326_itadaku⟧⟦か→か：09473_ka⟧。",
       "english": "We haven't received a reply from the other party yet, so could you please check again?",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A keigo (polite language) term used primarily in business settings. The base word {先方|せんぽう} means \"the other party\" and is already polite; adding {様|さま} makes it more honorific. This form is standard in business email, phone conversations, and internal discussions when referring to a client, partner, or counterpart.\n\nUSAGE:\n- Used when speaking about (not to) the other party in the third person\n- Appropriate in business emails, memos, and internal meetings\n- More formal than simply saying {相手|あいて} (the other person)\n\nCOMMON COLLOCATIONS:\n- {先方様|せんぽうさま}のご{意向|いこう} — the other party's wishes\n- {先方様|せんぽうさま}にお{伝|つた}えする — to convey to the other party\n- {先方様|せんぽうさま}のご{要望|ようぼう} — the other party's request\n\nSIMILAR WORDS:\n- {先方|せんぽう} — the other party (less formal, without {様|さま})\n- {相手方|あいてがた} — the other side (legal or formal contexts)\n- お{客様|きゃくさま} — customer (when the other party is specifically a client)",
-  "cross_references": [],
+  "notes": "A keigo (polite language) term used primarily in business settings. The base word ⟦{先方|せんぽう}→先方：20241_senpou⟧ means \"the other party\" and is already polite; adding ⟦{様|さま}→様：01549_sama⟧ makes it more honorific. This form is standard in business email, phone conversations, and internal discussions when referring to a client, partner, or counterpart.\n\nUSAGE:\n- Used when speaking about (not to) the other party in the third person\n- Appropriate in business emails, memos, and internal meetings\n- More formal than simply saying ⟦{相手|あいて}→相手：01677_aite⟧ (the other person)\n\nCOMMON COLLOCATIONS:\n- {先方様|せんぽうさま}⟦の→の：09472_no⟧ご⟦{意向|いこう}→意向：12624_ikou⟧ — the other party's wishes\n- {先方様|せんぽうさま}⟦に→に：00314_ni⟧お⟦{伝|つた}え→伝える：01220_tsutaeru⟧⟦する→する：00392_suru⟧ — to convey to the other party\n- {先方様|せんぽうさま}⟦の→の：09472_no⟧ご⟦{要望|ようぼう}→要望：14111_youbou⟧ — the other party's request\n\nSIMILAR WORDS:\n- ⟦{先方|せんぽう}→先方：20241_senpou⟧ — the other party (less formal, without ⟦{様|さま}→様：01549_sama⟧)\n- {相手方|あいてがた} — the other side (legal or formal contexts)\n- ⟦お{客様|きゃくさま}→お客様：08780_okyakusama⟧ — customer (when the other party is specifically a client)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08780_okyakusama",
+      "reading": "おきゃくさま",
+      "headword": "お{客様|きゃくさま}",
+      "label": "customer"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["business", "expression"]
+      "pos": [
+        "noun"
+      ],
+      "semantic": [
+        "business",
+        "expression"
+      ]
     },
     "created": "2026-04-30T11:28:00Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T04:02:25Z"
   }
 }

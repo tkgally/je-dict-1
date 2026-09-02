@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22284_doryokuka_ex1",
-      "japanese": "{彼女|かのじょ}は{努力家|どりょくか}だ。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧{努力家|どりょくか}だ。",
       "english": "She is a hard worker.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22284_doryokuka_ex2",
-      "japanese": "{努力家|どりょくか}の{彼|かれ}なら{成功|せいこう}するだろう。",
+      "japanese": "{努力家|どりょくか}⟦の→の：09472_no⟧⟦{彼|かれ}→彼：01292_kare⟧なら⟦{成功|せいこう}する→成功する：21445_seikousuru⟧だろう。",
       "english": "Being the hard worker he is, he will probably succeed.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22284_doryokuka_ex3",
-      "japanese": "{天才|てんさい}というより{努力家|どりょくか}と{呼|よ}ばれるほうが{嬉|うれ}しい。",
+      "japanese": "⟦{天才|てんさい}→天才：09934_tensai⟧⟦というより→というより：17867_toiuyori⟧{努力家|どりょくか}⟦と→と：00512_to⟧⟦{呼|よ}ばれる→呼ぶ：00766_yobu⟧ほう⟦が→が：00051_ga⟧⟦{嬉|うれ}しい→嬉しい：00822_ureshii⟧。",
       "english": "I'd rather be called a hard worker than a genius.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Formed with the suffix {家|か} meaning \"person who does\" (as in {専門家|せんもんか} or {芸術家|げいじゅつか}). Almost always used as a positive character assessment. In Japanese culture, effort is often valued more highly than innate talent, making this a meaningful compliment.\n\nCOMMON COLLOCATIONS:\n- {努力家|どりょくか}で{知|し}られる: to be known as a hard worker\n- {相当|そうとう}な{努力家|どりょくか}: a considerable hard worker\n- {努力家|どりょくか}タイプ: the hardworking type\n\nSIMILAR WORDS:\n- {勤勉|きんべん}: diligent — describes the quality of being hardworking, not the person\n- {頑張|がんば}り{屋|や}: someone who perseveres — similar but more casual and emphasizes grit over steady effort\n- {働|はたら}き{者|もの}: hard worker — focuses on labor and productivity rather than personal effort",
+  "notes": "Formed with the suffix ⟦{家|か}→〜家：28339_ka⟧ meaning \"person who does\" (as in ⟦{専門家|せんもんか}→専門家：03088_senmonka⟧ or ⟦{芸術家|げいじゅつか}→芸術家：14979_geijutsuka⟧). Almost always used as a positive character assessment. In Japanese culture, effort is often valued more highly than innate talent, making this a meaningful compliment.\n\nCOMMON COLLOCATIONS:\n- {努力家|どりょくか}⟦で→で：00502_de⟧⟦{知|し}られる→知る：00458_shiru⟧: to be known as a hard worker\n- ⟦{相当|そうとう}→相当：01589_soutou⟧な{努力家|どりょくか}: a considerable hard worker\n- {努力家|どりょくか}⟦タイプ→タイプ：01534_taipu⟧: the hardworking type\n\nSIMILAR WORDS:\n- ⟦{勤勉|きんべん}→勤勉：10145_kinben⟧: diligent — describes the quality of being hardworking, not the person\n- ⟦{頑張|がんば}り→頑張る：01222_ganbaru⟧⟦{屋|や}→〜屋：03096_ya⟧: someone who perseveres — similar but more casual and emphasizes grit over steady effort\n- ⟦{働|はたら}き{者|もの}→働き者：11528_hatarakimono⟧: hard worker — focuses on labor and productivity rather than personal effort",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "10145_kinben",
+      "reading": "きんべん",
+      "headword": "{勤勉|きんべん}",
+      "label": "diligent"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11528_hatarakimono",
+      "reading": "はたらきもの",
+      "headword": "{働|はたら}き{者|もの}",
+      "label": "hard worker"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15661_kurounin",
+      "reading": "くろうにん",
+      "headword": "{苦労人|くろうにん}",
+      "label": "person who has experienced hardship"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +82,6 @@
       ]
     },
     "created": "2026-04-05T17:03:27Z",
-    "modified": "2026-04-10T08:28:27Z"
+    "modified": "2026-09-02T04:02:07Z"
   }
 }

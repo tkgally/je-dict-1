@@ -15,41 +15,87 @@
   "examples": [
     {
       "id": "16670_shidouan_ex1",
-      "japanese": "{指導案|しどうあん}を{作成|さくせい}した。",
+      "japanese": "{指導案|しどうあん}⟦を→を：00422_wo⟧⟦{作成|さくせい}した→作成する：25378_sakuseisuru⟧。",
       "english": "I prepared a lesson plan.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16670_shidouan_ex2",
-      "japanese": "{研究授業|けんきゅうじゅぎょう}のために{指導案|しどうあん}を{書|か}き{直|なお}した。",
+      "japanese": "{研究授業|けんきゅうじゅぎょう}⟦の→の：09472_no⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧{指導案|しどうあん}⟦を→を：00422_wo⟧⟦{書|か}き{直|なお}した→書き直す：04597_kakinaosu⟧。",
       "english": "I rewrote the lesson plan for the research lesson.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16670_shidouan_ex3",
-      "japanese": "{新任|しんにん}の{先生|せんせい}は{指導案|しどうあん}の{書|か}き{方|かた}を{先輩|せんぱい}に{教|おそ}わった。",
+      "japanese": "{新任|しんにん}⟦の→の：09472_no⟧⟦{先生|せんせい}→先生：00609_sensei⟧⟦は→は：00079_ha⟧{指導案|しどうあん}⟦の→の：09472_no⟧⟦{書|か}き{方|かた}→書き方：13054_kakikata⟧⟦を→を：00422_wo⟧⟦{先輩|せんぱい}→先輩：01451_senpai⟧⟦に→に：00314_ni⟧⟦{教|おそ}わった→教わる：02024_osowaru⟧。",
       "english": "The new teacher learned how to write lesson plans from senior colleagues.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nA fundamental document in Japanese teaching practice. Teachers create {指導案|しどうあん} for each class, and more detailed versions are prepared for {研究授業|けんきゅうじゅぎょう} (research lessons observed by other teachers). The full formal name is {学習指導案|がくしゅうしどうあん}.\n\nCOMMON COLLOCATIONS:\n- {指導案|しどうあん}を{書|か}く (to write a lesson plan)\n- {指導案|しどうあん}を{作成|さくせい}する (to prepare a lesson plan)\n- {学習|がくしゅう}{指導案|しどうあん} (formal lesson plan)\n\nSIMILAR WORDS:\n- カリキュラム: curriculum — the overall course of study\n- {時間割|じかんわり}: timetable — the schedule of classes",
-  "cross_references": [],
+  "notes": "USAGE:\nA fundamental document in Japanese teaching practice. Teachers create {指導案|しどうあん} for each class, and more detailed versions are prepared for {研究授業|けんきゅうじゅぎょう} (research lessons observed by other teachers). The full formal name is {学習指導案|がくしゅうしどうあん}.\n\nCOMMON COLLOCATIONS:\n- {指導案|しどうあん}⟦を→を：00422_wo⟧⟦{書|か}く→書く：00477_kaku⟧ (to write a lesson plan)\n- {指導案|しどうあん}⟦を→を：00422_wo⟧⟦{作成|さくせい}する→作成する：25378_sakuseisuru⟧ (to prepare a lesson plan)\n- {学習|がくしゅう}{指導案|しどうあん} (formal lesson plan)\n\nSIMILAR WORDS:\n- ⟦カリキュラム→カリキュラム：10947_karikyuramu⟧: curriculum — the overall course of study\n- ⟦{時間割|じかんわり}→時間割：08552_jikanwari⟧: timetable — the schedule of classes",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "10947_karikyuramu",
+      "reading": "かりきゅらむ",
+      "headword": "カリキュラム",
+      "label": "curriculum"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08552_jikanwari",
+      "reading": "じかんわり",
+      "headword": "{時間割|じかんわり}",
+      "label": "timetable"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24023_jugyoukeikaku",
+      "reading": "じゅぎょうけいかく",
+      "headword": "{授業計画|じゅぎょうけいかく}",
+      "label": "lesson plan"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26171_kyouan",
+      "reading": "きょうあん",
+      "headword": "{教案|きょうあん}",
+      "label": "lesson plan"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26607_jugyouan",
+      "reading": "じゅぎょうあん",
+      "headword": "{授業案|じゅぎょうあん}",
+      "label": "lesson plan"
+    }
+  ],
   "metadata": {
     "created": "2026-03-14T02:12:10Z",
-    "modified": "2026-04-10T07:12:46Z",
+    "modified": "2026-09-02T04:01:45Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["education"]
+      "semantic": [
+        "education"
+      ]
     }
   }
 }

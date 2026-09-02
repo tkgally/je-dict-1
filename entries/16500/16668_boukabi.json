@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "16668_boukabi_ex1",
-      "japanese": "{防|ぼう}カビスプレーを{使|つか}った。",
+      "japanese": "{防|ぼう}カビ⟦スプレー→スプレー：11581_supuree⟧⟦を→を：00422_wo⟧⟦{使|つか}った→使う：00473_tsukau⟧。",
       "english": "I used anti-mold spray.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "16668_boukabi_ex2",
-      "japanese": "このペンキは{防|ぼう}カビ{効果|こうか}がある。",
+      "japanese": "⟦この→この：00962_kono⟧⟦ペンキ→ペンキ：00342_penki⟧⟦は→は：00079_ha⟧{防|ぼう}カビ⟦{効果|こうか}→効果：02726_kouka⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "This paint has anti-mold properties.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "16668_boukabi_ex3",
-      "japanese": "{浴室|よくしつ}の{防|ぼう}カビ{対策|たいさく}として、{換気|かんき}をしっかり{行|おこな}うことが{大切|たいせつ}だ。",
+      "japanese": "⟦{浴室|よくしつ}→浴室：05301_yokushitsu⟧⟦の→の：09472_no⟧{防|ぼう}カビ⟦{対策|たいさく}→対策：02511_taisaku⟧⟦として→として：06802_toshite⟧、⟦{換気|かんき}→換気：00172_kanki⟧⟦を→を：00422_wo⟧⟦しっかり→しっかり：01272_shikkari⟧⟦{行|おこな}う→行う：01238_okonau⟧こと⟦が→が：00051_ga⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧だ。",
       "english": "As an anti-mold measure for the bathroom, it is important to ventilate properly.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nCommonly used in household product descriptions and home maintenance discussions. Japan's humid climate makes mold prevention a frequent concern.\n\nCOMMON COLLOCATIONS:\n- {防|ぼう}カビ{剤|ざい} (anti-mold agent)\n- {防|ぼう}カビ{対策|たいさく} (mold prevention measures)\n- {防|ぼう}カビ{加工|かこう} (anti-mold treatment)\n\nSIMILAR WORDS:\n- {防水|ぼうすい}: waterproof — preventing water penetration\n- {防虫|ぼうちゅう}: insect-proofing — preventing insect damage",
+  "notes": "USAGE:\nCommonly used in household product descriptions and home maintenance discussions. Japan's humid climate makes mold prevention a frequent concern.\n\nCOMMON COLLOCATIONS:\n- {防|ぼう}カビ⟦{剤|ざい}→〜剤：30790_zai⟧ (anti-mold agent)\n- {防|ぼう}カビ⟦{対策|たいさく}→対策：02511_taisaku⟧ (mold prevention measures)\n- {防|ぼう}カビ⟦{加工|かこう}→加工：11793_kakou⟧ (anti-mold treatment)\n\nSIMILAR WORDS:\n- ⟦{防水|ぼうすい}→防水：06428_bousui⟧: waterproof — preventing water penetration\n- ⟦{防虫|ぼうちゅう}→防虫：17752_bouchuu⟧: insect-proofing — preventing insect damage",
   "cross_references": [
     {
       "type": "related",
@@ -52,11 +52,25 @@
       "reading": "ぼうすい",
       "headword": "{防水|ぼうすい}",
       "label": "waterproof"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17752_bouchuu",
+      "reading": "ぼうちゅう",
+      "headword": "{防虫|ぼうちゅう}",
+      "label": "insect-proofing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24235_boufu",
+      "reading": "ぼうふ",
+      "headword": "{防腐|ぼうふ}",
+      "label": "antisepsis"
     }
   ],
   "metadata": {
     "created": "2026-03-14T02:12:10Z",
-    "modified": "2026-07-20T13:24:52Z",
+    "modified": "2026-09-02T04:01:45Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

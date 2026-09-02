@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21752_sakushika_ex1",
-      "japanese": "{有名|ゆうめい}な{作詞家|さくしか}が{亡|な}くなった。",
+      "japanese": "⟦{有名|ゆうめい}→有名：01106_yuumei⟧な{作詞家|さくしか}⟦が→が：00051_ga⟧⟦{亡|な}くなった→亡くなる：02639_nakunaru⟧。",
       "english": "A famous lyricist passed away.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21752_sakushika_ex2",
-      "japanese": "{彼女|かのじょ}は{作詞家|さくしか}として{数多|かずおお}くのヒット{曲|きょく}を{生|う}み{出|だ}した。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧{作詞家|さくしか}⟦として→として：06802_toshite⟧⟦{数多|かずおお}く→数多く：12948_kazuooku⟧⟦の→の：09472_no⟧⟦ヒット{曲|きょく}→ヒット曲：25764_hittokyoku⟧⟦を→を：00422_wo⟧⟦{生|う}み{出|だ}した→生み出す：10423_umidasu⟧。",
       "english": "She produced numerous hit songs as a lyricist.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21752_sakushika_ex3",
-      "japanese": "この{歌|うた}の{作詞家|さくしか}は{自分|じぶん}の{体験|たいけん}をもとに{歌詞|かし}を{書|か}いたと{言|い}われている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{歌|うた}→歌：02179_uta⟧⟦の→の：09472_no⟧{作詞家|さくしか}⟦は→は：00079_ha⟧⟦{自分|じぶん}→自分：02887_jibun⟧⟦の→の：09472_no⟧⟦{体験|たいけん}→体験：11443_taiken⟧⟦を→を：00422_wo⟧もと⟦に→に：00314_ni⟧⟦{歌詞|かし}→歌詞：13160_kashi⟧⟦を→を：00422_wo⟧⟦{書|か}いた→書く：00477_kaku⟧⟦と→と：00512_to⟧⟦{言|い}われている→言う：00515_iu⟧。",
       "english": "It is said that the lyricist of this song wrote the lyrics based on personal experience.",
       "sense_numbers": [
         1
@@ -44,7 +44,23 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {作詞|さくし} (writing lyrics) and {家|か} (professional, expert). In the Japanese music industry, {作詞|さくし} (lyrics) and {作曲|さっきょく} (composition) are traditionally treated as separate roles, and credits are always listed separately.\n\nUSAGE:\n- Used to describe someone whose profession or recognized skill is writing song lyrics\n- In song credits, you will see {作詞|さくし}: (lyrics by:) and {作曲|さっきょく}: (music by:) listed separately\n- Some artists write both lyrics and music — they may be called シンガーソングライター (singer-songwriter)\n\nCOMMON COLLOCATIONS:\n- {作詞家|さくしか}として{活躍|かつやく}する: to be active as a lyricist\n- {作詞家|さくしか}デビュー: debut as a lyricist\n- {人気|にんき}{作詞家|さくしか}: popular lyricist\n\nSIMILAR WORDS:\n- {作曲家|さっきょくか}: composer — writes the melody and music\n- {作詞|さくし}{作曲|さっきょく}: lyrics and composition — the combined credit\n- {歌手|かしゅ}: singer — the performer, not the writer",
+  "notes": "A compound of ⟦{作詞|さくし}→作詞：05233_sakushi⟧ (writing lyrics) and ⟦{家|か}→〜家：28339_ka⟧ (professional, expert). In the Japanese music industry, ⟦{作詞|さくし}→作詞：05233_sakushi⟧ (lyrics) and ⟦{作曲|さっきょく}→作曲：02824_sakkyoku⟧ (composition) are traditionally treated as separate roles, and credits are always listed separately.\n\nUSAGE:\n- Used to describe someone whose profession or recognized skill is writing song lyrics\n- In song credits, you will see ⟦{作詞|さくし}→作詞：05233_sakushi⟧: (lyrics by:) and ⟦{作曲|さっきょく}→作曲：02824_sakkyoku⟧: (music by:) listed separately\n- Some artists write both lyrics and music — they may be called ⟦シンガーソングライター→シンガーソングライター：27385_shingaasonguraitaa⟧ (singer-songwriter)\n\nCOMMON COLLOCATIONS:\n- {作詞家|さくしか}⟦として→として：06802_toshite⟧⟦{活躍|かつやく}する→活躍する：25354_katsuyakusuru⟧: to be active as a lyricist\n- {作詞家|さくしか}⟦デビュー→デビュー：11016_debyuu⟧: debut as a lyricist\n- ⟦{人気|にんき}→人気：01488_ninki⟧{作詞家|さくしか}: popular lyricist\n\nSIMILAR WORDS:\n- {作曲家|さっきょくか}: composer — writes the melody and music\n- ⟦{作詞|さくし}→作詞：05233_sakushi⟧⟦{作曲|さっきょく}→作曲：02824_sakkyoku⟧: lyrics and composition — the combined credit\n- ⟦{歌手|かしゅ}→歌手：00197_kashu⟧: singer — the performer, not the writer",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00197_kashu",
+      "reading": "かしゅ",
+      "headword": "{歌手|かしゅ}",
+      "label": "singer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27385_shingaasonguraitaa",
+      "reading": "しんがーそんぐらいたー",
+      "headword": "シンガーソングライター",
+      "label": "singer-songwriter (a musician who writes and performs their own songs)"
+    }
+  ],
   "metadata": {
     "entry_id": "21752_sakushika",
     "schema_version": "2.0",
@@ -55,6 +71,8 @@
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "person",
         "art"
@@ -62,6 +80,6 @@
       "register": [],
       "usage": []
     },
-    "modified": "2026-07-29T12:35:11Z"
+    "modified": "2026-09-02T04:02:05Z"
   }
 }

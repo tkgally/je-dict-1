@@ -15,42 +15,62 @@
   "examples": [
     {
       "id": "15415_gensanchi_ex1",
-      "japanese": "コーヒーの{原産地|げんさんち}はエチオピアだ。",
+      "japanese": "⟦コーヒー→コーヒー：00789_koohii⟧⟦の→の：09472_no⟧{原産地|げんさんち}⟦は→は：00079_ha⟧エチオピアだ。",
       "english": "The place of origin of coffee is Ethiopia.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15415_gensanchi_ex2",
-      "japanese": "{原産地|げんさんち}がラベルに{表示|ひょうじ}されている。",
+      "japanese": "{原産地|げんさんち}⟦が→が：00051_ga⟧⟦ラベル→ラベル：00348_raberu⟧⟦に→に：00314_ni⟧⟦{表示|ひょうじ}→表示：03143_hyouji⟧⟦されている→する：00392_suru⟧。",
       "english": "The place of origin is displayed on the label.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15415_gensanchi_ex3",
-      "japanese": "{消費者|しょうひしゃ}は{食品|しょくひん}の{原産地|げんさんち}を{確認|かくにん}してから{購入|こうにゅう}する{人|ひと}が{増|ふ}えている。",
+      "japanese": "⟦{消費者|しょうひしゃ}→消費者：09866_shouhisha⟧⟦は→は：00079_ha⟧⟦{食品|しょくひん}→食品：03247_shokuhin⟧⟦の→の：09472_no⟧{原産地|げんさんち}⟦を→を：00422_wo⟧⟦{確認|かくにん}して→確認する：25332_kakuninsuru⟧⟦から→から：00504_kara⟧⟦{購入|こうにゅう}→購入：03057_kounyuu⟧⟦する→する：00392_suru⟧⟦{人|ひと}→人：00476_hito⟧⟦が→が：00051_ga⟧⟦{増|ふ}えている→増える：01183_fueru⟧。",
       "english": "More and more consumers are checking the place of origin of food before purchasing.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\n{原産地|げんさんち} is commonly encountered on food packaging and product labels in Japan, where origin labeling is required by law for many products. It refers to where something was originally produced or where a species naturally originates.\n\nCOMMON COLLOCATIONS:\n- {原産地|げんさんち}{表示|ひょうじ} (country-of-origin labeling)\n- {原産地|げんさんち}{証明書|しょうめいしょ} (certificate of origin)\n- {原産地|げんさんち}を{確認|かくにん}する (to check the place of origin)\n\nRELATED WORDS:\n- {産地|さんち}: production area\n- {原産|げんさん}: originating from\n- {生産地|せいさんち}: production site",
-  "cross_references": [],
+  "notes": "USAGE:\n{原産地|げんさんち} is commonly encountered on food packaging and product labels in Japan, where origin labeling is required by law for many products. It refers to where something was originally produced or where a species naturally originates.\n\nCOMMON COLLOCATIONS:\n- {原産地|げんさんち}⟦{表示|ひょうじ}→表示：03143_hyouji⟧ (country-of-origin labeling)\n- {原産地|げんさんち}⟦{証明書|しょうめいしょ}→証明書：09785_shoumeisho⟧ (certificate of origin)\n- {原産地|げんさんち}⟦を→を：00422_wo⟧⟦{確認|かくにん}する→確認する：25332_kakuninsuru⟧ (to check the place of origin)\n\nRELATED WORDS:\n- ⟦{産地|さんち}→産地：04031_sanchi⟧: production area\n- ⟦{原産|げんさん}→原産：04180_gensan⟧: originating from\n- ⟦{生産地|せいさんち}→生産地：26234_seisanchi⟧: production site",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "26234_seisanchi",
+      "reading": "せいさんち",
+      "headword": "{生産地|せいさんち}",
+      "label": "production site"
+    }
+  ],
   "metadata": {
     "created": "2026-03-06T13:43:11Z",
-    "modified": "2026-03-06T13:43:11Z",
+    "modified": "2026-09-02T04:01:41Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["business"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "business"
+      ]
     }
   }
 }

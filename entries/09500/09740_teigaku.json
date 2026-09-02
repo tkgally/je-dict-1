@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "09740_teigaku_ex1",
-      "japanese": "{定額|ていがく}{制|せい}だから{使|つか}い{放題|ほうだい}だ。",
+      "japanese": "{定額|ていがく}{制|せい}だ⟦から→から：00504_kara⟧⟦{使|つか}い{放題|ほうだい}→使い放題：09741_tsukaihoudai⟧だ。",
       "english": "It's a flat rate, so you can use it as much as you want.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "09740_teigaku_ex2",
-      "japanese": "{定額|ていがく}プランに{変更|へんこう}した。",
+      "japanese": "{定額|ていがく}⟦プラン→プラン：00345_puran⟧⟦に→に：00314_ni⟧⟦{変更|へんこう}した→変更する：30779_henkousuru⟧。",
       "english": "I switched to a flat-rate plan.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "09740_teigaku_ex3",
-      "japanese": "{動画|どうが}サービスは{定額|ていがく}で{見|み}{放題|ほうだい}のものが{多|おお}い。",
+      "japanese": "⟦{動画|どうが}→動画：04443_douga⟧⟦サービス→サービス：01531_saabisu⟧⟦は→は：00079_ha⟧{定額|ていがく}⟦で→で：00502_de⟧⟦{見|み}→見る：00283_miru⟧⟦{放題|ほうだい}→放題：03151_houdai⟧⟦の→の：09472_no⟧もの⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "Many video streaming services offer unlimited viewing for a flat fee.",
       "notes": null,
       "has_audio": false,
@@ -43,10 +43,10 @@
       ]
     }
   ],
-  "notes": "Compound of {定|てい} (fixed) + {額|がく} (amount). Refers to a set, unchanging price or quantity, widely used in subscription and service plan contexts.\n\nCOMMON COLLOCATIONS:\n- {定額|ていがく}{制|せい}: flat-rate system\n- {定額|ていがく}プラン: flat-rate plan\n- {定額|ていがく}サービス: flat-rate service\n- {定額|ていがく}{給付金|きゅうふきん}: fixed-amount benefit/stipend\n\nCONTRASTS:\n- {従量|じゅうりょう}{制|せい}: pay-per-use, metered (opposite pricing model)\n- {変動|へんどう}: variable, fluctuating\n\nRELATED TERMS:\n- {月額|げつがく}: monthly fee\n- {年額|ねんがく}: annual fee\n- {使|つか}い{放題|ほうだい}: unlimited use (often paired with {定額|ていがく})\n\nWith the rise of subscription services (streaming, software, etc.), {定額|ていがく}{制|せい} and サブスク (subscription) have become everyday terms in Japan.",
+  "notes": "Compound of {定|てい} (fixed) + ⟦{額|がく}→額：02607_gaku⟧ (amount). Refers to a set, unchanging price or quantity, widely used in subscription and service plan contexts.\n\nCOMMON COLLOCATIONS:\n- {定額|ていがく}{制|せい}: flat-rate system\n- {定額|ていがく}⟦プラン→プラン：00345_puran⟧: flat-rate plan\n- {定額|ていがく}⟦サービス→サービス：01531_saabisu⟧: flat-rate service\n- {定額|ていがく}⟦{給付金|きゅうふきん}→給付金：20806_kyuufukin⟧: fixed-amount benefit/stipend\n\nSIMILAR WORDS:\n- ⟦{従量|じゅうりょう}{制|せい}→従量制：26340_juuryousei⟧: pay-per-use, metered (opposite pricing model)\n- ⟦{変動|へんどう}→変動：09936_hendou⟧: variable, fluctuating\n\nRELATED WORDS:\n- ⟦{月額|げつがく}→月額：09739_getsugaku⟧: monthly fee\n- ⟦{年額|ねんがく}→年額：22568_nengaku⟧: annual fee\n- ⟦{使|つか}い{放題|ほうだい}→使い放題：09741_tsukaihoudai⟧: unlimited use (often paired with {定額|ていがく})\n\nWith the rise of subscription services (streaming, software, etc.), {定額|ていがく}{制|せい} and ⟦サブスク→サブスク：05396_sabusuku⟧ (subscription) have become everyday terms in Japan.",
   "metadata": {
     "created": "2026-02-03T07:21:36Z",
-    "modified": "2026-06-24T18:40:49Z",
+    "modified": "2026-09-02T04:01:19Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -81,6 +81,27 @@
       "reading": "つかいほうだい",
       "headword": "{使|つか}い{放題|ほうだい}",
       "label": "unlimited use"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26340_juuryousei",
+      "reading": "じゅうりょうせい",
+      "headword": "{従量制|じゅうりょうせい}",
+      "label": "pay-per-use, metered"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09936_hendou",
+      "reading": "へんどう",
+      "headword": "{変動|へんどう}",
+      "label": "variable, fluctuating"
+    },
+    {
+      "type": "related",
+      "target_id": "08291_tabehoudai",
+      "reading": "たべほうだい",
+      "headword": "{食|た}べ{放題|ほうだい}",
+      "label": "all-you-can-eat"
     }
   ]
 }

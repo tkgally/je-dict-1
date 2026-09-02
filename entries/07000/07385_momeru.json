@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "07385_momeru_ex1",
-      "japanese": "{遺産|いさん}のことで{兄弟|きょうだい}が{揉|も}めている。",
+      "japanese": "⟦{遺産|いさん}→遺産：14405_isan⟧⟦の→の：09472_no⟧こと⟦で→で：00502_de⟧⟦{兄弟|きょうだい}→兄弟：00964_kyoudai⟧⟦が→が：00051_ga⟧⟦{揉|も}め→揉む：00289_momu⟧て⟦いる→いる：00495_iru⟧。",
       "english": "The siblings are fighting over the inheritance.",
       "has_audio": false,
       "sense_numbers": [
@@ -113,7 +113,7 @@
     },
     {
       "id": "07385_momeru_ex2",
-      "japanese": "{近所|きんじょ}と{騒音|そうおん}のことで{揉|も}めた。",
+      "japanese": "⟦{近所|きんじょ}→近所：01318_kinjo⟧⟦と→と：00512_to⟧⟦{騒音|そうおん}→騒音：03315_souon⟧⟦の→の：09472_no⟧こと⟦で→で：00502_de⟧⟦{揉|も}め→揉む：00289_momu⟧た。",
       "english": "We had a dispute with the neighbors over noise.",
       "has_audio": false,
       "sense_numbers": [
@@ -122,7 +122,7 @@
     },
     {
       "id": "07385_momeru_ex3",
-      "japanese": "{会社|かいしゃ}と{揉|も}めずに{円満|えんまん}{退社|たいしゃ}したい。",
+      "japanese": "⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦と→と：00512_to⟧⟦{揉|も}め→揉む：00289_momu⟧ず⟦に→に：00314_ni⟧⟦{円満|えんまん}→円満：17922_enman⟧⟦{退社|たいしゃ}→退社：06156_taisha⟧⟦したい→する：00392_suru⟧。",
       "english": "I want to leave the company amicably without any conflict.",
       "has_audio": false,
       "sense_numbers": [
@@ -130,10 +130,10 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY:\nIntransitive verb ({自動詞|じどうし}). Related transitive form: {揉|も}む (to massage; to rub).\n\nUSAGE:\n{揉|も}める specifically refers to interpersonal or inter-party conflicts and disputes. Common contexts include:\n・お{金|かね}で{揉|も}める - to fight over money\n・{遺産|いさん}で{揉|も}める - to dispute over inheritance\n・{離婚|りこん}で{揉|も}める - to have conflicts during divorce\n\nCOMMON PATTERNS:\n・〜と{揉|も}める (to have a dispute with ~)\n・〜のことで{揉|も}める (to fight over ~)\n・{揉|も}め{事|ごと} (trouble, dispute - noun form)\n\nRELATED WORDS:\n・{揉|も}め{事|ごと} - trouble, dispute\n・{揉|も}め{合|あ}う - to struggle/scuffle together\n\nREGISTER:\nCasual to neutral. Common in everyday conversation.",
+  "notes": "TRANSITIVITY:\nIntransitive verb (⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧). Related transitive form: ⟦{揉|も}む→揉む：00289_momu⟧ (to massage; to rub).\n\nUSAGE:\n{揉|も}める specifically refers to interpersonal or inter-party conflicts and disputes. Common contexts include:\n- ⟦お{金|かね}→お金：00611_okane⟧⟦で→で：00502_de⟧{揉|も}める - to fight over money\n- ⟦{遺産|いさん}→遺産：14405_isan⟧⟦で→で：00502_de⟧{揉|も}める - to dispute over inheritance\n- ⟦{離婚|りこん}→離婚：02530_rikon⟧⟦で→で：00502_de⟧{揉|も}める - to have conflicts during divorce\n\nCOMMON PATTERNS:\n- 〜⟦と→と：00512_to⟧{揉|も}める (to have a dispute with ~)\n- 〜⟦の→の：09472_no⟧こと⟦で→で：00502_de⟧{揉|も}める (to fight over ~)\n- ⟦{揉|も}め{事|ごと}→揉め事：08361_momegoto⟧ (trouble, dispute - noun form)\n\nRELATED WORDS:\n- ⟦{揉|も}め{事|ごと}→揉め事：08361_momegoto⟧ - trouble, dispute\n- ⟦{揉|も}め→揉む：00289_momu⟧⟦{合|あ}う→合う：10466_au⟧ - to struggle/scuffle together\n\nREGISTER:\nCasual to neutral. Common in everyday conversation.",
   "metadata": {
     "created": "2026-01-19T07:19:54Z",
-    "modified": "2026-08-10T18:32:12Z",
+    "modified": "2026-09-02T04:01:11Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -157,6 +157,20 @@
       "reading": "けんか",
       "headword": "{喧嘩|けんか}",
       "label": "quarrel, fight"
+    },
+    {
+      "type": "related",
+      "target_id": "08361_momegoto",
+      "reading": "もめごと",
+      "headword": "{揉|も}め{事|ごと}",
+      "label": "trouble, dispute"
+    },
+    {
+      "type": "related",
+      "target_id": "07891_funkyuu",
+      "reading": "ふんきゅう",
+      "headword": "{紛糾|ふんきゅう}",
+      "label": "complication"
     }
   ]
 }

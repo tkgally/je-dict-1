@@ -15,42 +15,63 @@
   "examples": [
     {
       "id": "26893_chiryouhi_ex1",
-      "japanese": "{治療費|ちりょうひ}が{高|たか}い。",
+      "japanese": "{治療費|ちりょうひ}⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧。",
       "english": "The medical expenses are high.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26893_chiryouhi_ex2",
-      "japanese": "{保険|ほけん}で{治療費|ちりょうひ}の{一部|いちぶ}がカバーされる。",
+      "japanese": "⟦{保険|ほけん}→保険：01509_hoken⟧⟦で→で：00502_de⟧{治療費|ちりょうひ}⟦の→の：09472_no⟧⟦{一部|いちぶ}→一部：06783_ichibu⟧⟦が→が：00051_ga⟧⟦カバー→カバー：07812_kabaa⟧⟦される→する：00392_suru⟧。",
       "english": "Insurance covers part of the medical expenses.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26893_chiryouhi_ex3",
-      "japanese": "{事故|じこ}の{加害者|かがいしゃ}に{治療費|ちりょうひ}を{請求|せいきゅう}するつもりだ。",
+      "japanese": "⟦{事故|じこ}→事故：00851_jiko⟧⟦の→の：09472_no⟧⟦{加害者|かがいしゃ}→加害者：11916_kagaisha⟧⟦に→に：00314_ni⟧{治療費|ちりょうひ}⟦を→を：00422_wo⟧⟦{請求|せいきゅう}する→請求する：26988_seikyuusuru⟧⟦つもり→つもり：01152_tsumori⟧だ。",
       "english": "I intend to claim medical expenses from the person who caused the accident.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {治療|ちりょう} (treatment, therapy) and {費|ひ} (cost, expense). The {費|ひ} suffix attaches to many nouns to form expense-related words.\n\nCOMMON COLLOCATIONS:\n- {治療費|ちりょうひ}を{払|はら}う: to pay medical expenses\n- {治療費|ちりょうひ}を{請求|せいきゅう}する: to bill for / claim medical expenses\n- {治療費|ちりょうひ}の{負担|ふたん}: burden of medical costs\n- {治療費|ちりょうひ}の{自己|じこ}{負担|ふたん}: out-of-pocket medical costs\n- {高額|こうがく}{治療費|ちりょうひ}: expensive medical bills\n\nRELATED TERMS:\n- {医療費|いりょうひ}: medical costs — broader term that includes all healthcare-related expenses\n- {入院費|にゅういんひ}: hospitalization costs\n- {薬代|くすりだい}: medication costs\n- {診察料|しんさつりょう}: consultation fee\n\nUSAGE:\nIn Japan's universal healthcare system, patients typically pay 30% of {治療費|ちりょうひ} out of pocket, with national health insurance covering the rest. The term frequently appears in discussions about healthcare costs, insurance claims, and accident liability.",
-  "cross_references": [],
+  "notes": "A compound of ⟦{治療|ちりょう}→治療：03503_chiryou⟧ (treatment, therapy) and ⟦{費|ひ}→費：09877_hi⟧ (cost, expense). The ⟦{費|ひ}→費：09877_hi⟧ suffix attaches to many nouns to form expense-related words.\n\nCOMMON COLLOCATIONS:\n- {治療費|ちりょうひ}⟦を→を：00422_wo⟧⟦{払|はら}う→払う：00535_harau⟧: to pay medical expenses\n- {治療費|ちりょうひ}⟦を→を：00422_wo⟧⟦{請求|せいきゅう}する→請求する：26988_seikyuusuru⟧: to bill for / claim medical expenses\n- {治療費|ちりょうひ}⟦の→の：09472_no⟧⟦{負担|ふたん}→負担：09752_futan⟧: burden of medical costs\n- {治療費|ちりょうひ}⟦の→の：09472_no⟧⟦{自己|じこ}{負担|ふたん}→自己負担：20462_jikofutan⟧: out-of-pocket medical costs\n- ⟦{高額|こうがく}→高額：14704_kougaku⟧{治療費|ちりょうひ}: expensive medical bills\n\nRELATED WORDS:\n- ⟦{医療費|いりょうひ}→医療費：24692_iryouhi⟧: medical costs — broader term that includes all healthcare-related expenses\n- {入院費|にゅういんひ}: hospitalization costs\n- {薬代|くすりだい}: medication costs\n- {診察料|しんさつりょう}: consultation fee\n\nUSAGE:\nIn Japan's universal healthcare system, patients typically pay 30% of {治療費|ちりょうひ} out of pocket, with national health insurance covering the rest. The term frequently appears in discussions about healthcare costs, insurance claims, and accident liability.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "24692_iryouhi",
+      "reading": "いりょうひ",
+      "headword": "{医療費|いりょうひ}",
+      "label": "medical costs"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["health", "money"],
-      "domain": ["medical"]
+      "semantic": [
+        "health",
+        "money"
+      ],
+      "domain": [
+        "medical"
+      ]
     },
     "created": "2026-05-05T15:08:11Z",
-    "modified": "2026-05-05T15:08:11Z"
+    "modified": "2026-09-02T04:02:28Z"
   }
 }

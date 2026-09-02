@@ -2,7 +2,7 @@
   "id": "04792_kenshou",
   "headword": "{検証|けんしょう}",
   "reading": "けんしょう",
-  "part_of_speech": "noun (verbal)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "verification",
   "conjugation": {
     "type": "suru",
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nCommon in scientific, journalistic, and investigative contexts for rigorous verification.\n\nCOMMON EXPRESSIONS:\n- {検証|けんしょう}⟦する→する：00392_suru⟧: to verify, to validate\n- {検証|けんしょう}⟦{結果|けっか}→結果：02486_kekka⟧: verification results\n- ⟦{事実|じじつ}→事実：03271_jijitsu⟧{検証|けんしょう}: fact-checking\n- {検証|けんしょう}⟦{実験|じっけん}→実験：03273_jikken⟧: verification experiment\n\nRELATED TERMS:\n- ⟦{確認|かくにん}→確認：00158_kakunin⟧: confirmation (more general)\n- ⟦{証明|しょうめい}→証明：03242_shoumei⟧: proof, demonstration\n- ⟦{立証|りっしょう}→立証：23853_risshou⟧: proving (legal/formal)\n\n{検証|けんしょう} implies systematic investigation or testing, while ⟦{確認|かくにん}→確認：00158_kakunin⟧ is simpler confirmation.",
+  "notes": "USAGE:\nCommon in scientific, journalistic, and investigative contexts for rigorous verification.\n\nCOMMON EXPRESSIONS:\n- {検証|けんしょう}⟦する→する：00392_suru⟧: to verify, to validate\n- {検証|けんしょう}⟦{結果|けっか}→結果：02486_kekka⟧: verification results\n- ⟦{事実|じじつ}→事実：03271_jijitsu⟧{検証|けんしょう}: fact-checking\n- {検証|けんしょう}⟦{実験|じっけん}→実験：03273_jikken⟧: verification experiment\n\nRELATED WORDS:\n- ⟦{確認|かくにん}→確認：00158_kakunin⟧: confirmation (more general)\n- ⟦{証明|しょうめい}→証明：03242_shoumei⟧: proof, demonstration\n- ⟦{立証|りっしょう}→立証：23853_risshou⟧: proving (legal/formal)\n\n{検証|けんしょう} implies systematic investigation or testing, while ⟦{確認|かくにん}→確認：00158_kakunin⟧ is simpler confirmation.",
   "cross_references": [
     {
       "type": "synonym",
@@ -148,11 +148,32 @@
       "reading": "しょうめい",
       "headword": "{証明|しょうめい}",
       "label": "proof"
+    },
+    {
+      "type": "related",
+      "target_id": "23853_risshou",
+      "reading": "りっしょう",
+      "headword": "{立証|りっしょう}",
+      "label": "proving"
+    },
+    {
+      "type": "related",
+      "target_id": "04786_kasetsu",
+      "reading": "かせつ",
+      "headword": "{仮説|かせつ}",
+      "label": "hypothesis"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24567_koushou",
+      "reading": "こうしょう",
+      "headword": "{考証|こうしょう}",
+      "label": "historical research"
     }
   ],
   "metadata": {
     "created": "2026-01-16T00:25:58Z",
-    "modified": "2026-06-02T17:10:05Z",
+    "modified": "2026-09-02T04:00:52Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -165,7 +186,8 @@
       "semantic": [
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

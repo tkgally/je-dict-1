@@ -43,11 +43,33 @@
       ]
     }
   ],
-  "notes": "USAGE IN BASEBALL:\n・{完封|かんぷう}⟦{勝利|しょうり}→勝利：11795_shouri⟧/{完封|かんぷう}⟦{勝|が}ち→勝ち：02540_kachi⟧ (shutout win)\n・9⟦{回|かい}→回：00957_kai⟧{完封|かんぷう} (9-inning complete game shutout)\n・⟦{継投|けいとう}→継投：29967_keitou⟧{完封|かんぷう} (combined shutout by multiple pitchers)\n\nRELATED PITCHING TERMS:\n・⟦{完投|かんとう}→完投：24619_kantou⟧ (complete game - but may allow runs)\n・⟦{無失点|むしってん}→無失点：noentry⟧ (scoreless)\n・⟦{完全|かんぜん}{試合|しあい}→完全試合：noentry⟧ (perfect game - no baserunners)\n・⟦ノーヒットノーラン→ノーヒットノーラン：29973_noohittonooran⟧ (no-hitter)\n\nCOLLOCATIONS:\n・{完封|かんぷう}⟦する→する：00392_suru⟧ (to shut out)\n・{完封|かんぷう}⟦を→を：00422_wo⟧⟦{達成|たっせい}→達成：04816_tassei⟧⟦する→する：00392_suru⟧ (to achieve a shutout)\n・{完封|かんぷう}⟦{負|ま}け→負け：02569_make⟧ (shutout loss)\n・{完封|かんぷう}⟦リレー→リレー：09278_riree⟧ (combined shutout)",
-  "cross_references": [],
+  "notes": "USAGE IN BASEBALL:\n- {完封|かんぷう}⟦{勝利|しょうり}→勝利：11795_shouri⟧/{完封|かんぷう}⟦{勝|が}ち→勝ち：02540_kachi⟧ (shutout win)\n- 9⟦{回|かい}→回：00957_kai⟧{完封|かんぷう} (9-inning complete game shutout)\n- ⟦{継投|けいとう}→継投：29967_keitou⟧{完封|かんぷう} (combined shutout by multiple pitchers)\n\nRELATED PITCHING TERMS:\n- ⟦{完投|かんとう}→完投：24619_kantou⟧ (complete game - but may allow runs)\n- ⟦{無失点|むしってん}→無失点：noentry⟧ (scoreless)\n- ⟦{完全|かんぜん}{試合|しあい}→完全試合：noentry⟧ (perfect game - no baserunners)\n- ⟦ノーヒットノーラン→ノーヒットノーラン：29973_noohittonooran⟧ (no-hitter)\n\nCOMMON COLLOCATIONS:\n- {完封|かんぷう}⟦する→する：00392_suru⟧ (to shut out)\n- {完封|かんぷう}⟦を→を：00422_wo⟧⟦{達成|たっせい}→達成：04816_tassei⟧⟦する→する：00392_suru⟧ (to achieve a shutout)\n- {完封|かんぷう}⟦{負|ま}け→負け：02569_make⟧ (shutout loss)\n- {完封|かんぷう}⟦リレー→リレー：09278_riree⟧ (combined shutout)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "24619_kantou",
+      "reading": "かんとう",
+      "headword": "{完投|かんとう}",
+      "label": "complete game"
+    },
+    {
+      "type": "related",
+      "target_id": "29973_noohittonooran",
+      "reading": "のーひっとのーらん",
+      "headword": "ノーヒットノーラン",
+      "label": "no-hitter"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29968_kanzenjiai",
+      "reading": "かんぜんじあい",
+      "headword": "{完|かん}{全|ぜん}{試合|じあい}",
+      "label": "perfect game (baseball)"
+    }
+  ],
   "metadata": {
     "created": "2026-01-17T23:51:31Z",
-    "modified": "2026-08-29T12:18:50Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

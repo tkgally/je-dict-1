@@ -3,7 +3,7 @@
   "id": "17443_sainin",
   "headword": "{再任|さいにん}",
   "reading": "さいにん",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "reappointment",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "17443_sainin_ex1",
-      "japanese": "{委員長|いいんちょう}に{再任|さいにん}された。",
+      "japanese": "⟦{委員長|いいんちょう}→委員長：19385_iinchou⟧⟦に→に：00314_ni⟧{再任|さいにん}⟦された→する：00392_suru⟧。",
       "english": "I was reappointed as committee chair.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "17443_sainin_ex2",
-      "japanese": "{社長|しゃちょう}の{再任|さいにん}が{株主|かぶぬし}{総会|そうかい}で{承認|しょうにん}された。",
+      "japanese": "⟦{社長|しゃちょう}→社長：01428_shachou⟧⟦の→の：09472_no⟧{再任|さいにん}⟦が→が：00051_ga⟧⟦{株主|かぶぬし}→株主：15274_kabunushi⟧⟦{総会|そうかい}→総会：13855_soukai⟧⟦で→で：00502_de⟧⟦{承認|しょうにん}→承認：03237_shounin⟧⟦された→する：00392_suru⟧。",
       "english": "The president's reappointment was approved at the shareholders' meeting.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "17443_sainin_ex3",
-      "japanese": "{任期|にんき}{満了|まんりょう}に{伴|ともな}い、{再任|さいにん}するかどうかが{議論|ぎろん}されている。",
+      "japanese": "⟦{任期|にんき}→任期：11553_ninki⟧⟦{満了|まんりょう}→満了：13357_manryou⟧⟦に{伴|ともな}い→に伴い：06804_nitomonai⟧、{再任|さいにん}⟦する→する：00392_suru⟧⟦かどうか→かどうか：28299_kadouka⟧⟦が→が：00051_ga⟧⟦{議論|ぎろん}→議論：02650_giron⟧⟦されている→する：00392_suru⟧。",
       "english": "With the term expiring, there is discussion about whether to reappoint.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nUsed in formal contexts — corporate governance, government appointments, academic positions, and organizational leadership. Often paired with {任期|にんき} (term of office).\n\nCOMMON COLLOCATIONS:\n- {再任|さいにん}される (to be reappointed)\n- {再任|さいにん}を{求|もと}める (to seek reappointment)\n- {再任|さいにん}{可|か} (eligible for reappointment)\n- {再任|さいにん}{不可|ふか} (not eligible for reappointment)\n\nSIMILAR WORDS:\n- {任命|にんめい}: appointment — the first appointment to a position\n- {再選|さいせん}: reelection — specifically for elected positions",
+  "notes": "USAGE:\nUsed in formal contexts — corporate governance, government appointments, academic positions, and organizational leadership. Often paired with ⟦{任期|にんき}→任期：11553_ninki⟧ (term of office).\n\nCOMMON COLLOCATIONS:\n- {再任|さいにん}⟦される→する：00392_suru⟧ (to be reappointed)\n- {再任|さいにん}⟦を→を：00422_wo⟧⟦{求|もと}める→求める：02316_motomeru⟧ (to seek reappointment)\n- {再任|さいにん}{可|か} (eligible for reappointment)\n- {再任|さいにん}⟦{不可|ふか}→不可：01922_fuka⟧ (not eligible for reappointment)\n\nSIMILAR WORDS:\n- ⟦{任命|にんめい}→任命：09764_ninmei⟧: appointment — the first appointment to a position\n- ⟦{再選|さいせん}→再選：20191_saisen⟧: reelection — specifically for elected positions",
   "cross_references": [
     {
       "type": "contrast",
@@ -142,11 +142,25 @@
       "reading": "にんめい",
       "headword": "{任命|にんめい}",
       "label": "appointment (first)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20191_saisen",
+      "reading": "さいせん",
+      "headword": "{再選|さいせん}",
+      "label": "reelection"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26713_saishuunin",
+      "reading": "さいしゅうにん",
+      "headword": "{再就任|さいしゅうにん}",
+      "label": "reappointment"
     }
   ],
   "metadata": {
     "created": "2026-03-17T23:26:01Z",
-    "modified": "2026-07-23T19:02:37Z",
+    "modified": "2026-09-02T04:01:48Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

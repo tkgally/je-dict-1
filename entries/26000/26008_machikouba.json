@@ -15,47 +15,77 @@
   "examples": [
     {
       "id": "26008_machikouba_ex1",
-      "japanese": "{町工場|まちこうば}で{働|はたら}いている。",
+      "japanese": "{町工場|まちこうば}⟦で→で：00502_de⟧⟦{働|はたら}いている→働く：00503_hataraku⟧。",
       "english": "I work at a small neighborhood factory.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26008_machikouba_ex2",
-      "japanese": "この{部品|ぶひん}は{町工場|まちこうば}で{作|つく}られている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{部品|ぶひん}→部品：00020_buhin⟧⟦は→は：00079_ha⟧{町工場|まちこうば}⟦で→で：00502_de⟧⟦{作|つく}られている→作る：00481_tsukuru⟧。",
       "english": "These parts are made at small workshops.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26008_machikouba_ex3",
-      "japanese": "{大田区|おおたく}には{高|たか}い{技術|ぎじゅつ}を{持|も}つ{町工場|まちこうば}がたくさんある。",
+      "japanese": "{大田区|おおたく}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{高|たか}い→高い：00500_takai⟧⟦{技術|ぎじゅつ}→技術：01389_gijutsu⟧⟦を→を：00422_wo⟧⟦{持|も}つ→持つ：00478_motsu⟧{町工場|まちこうば}⟦が→が：00051_ga⟧⟦たくさん→たくさん：00597_takusan⟧⟦ある→ある：00006_aru⟧。",
       "english": "Ota Ward has many small factories with advanced technical skills.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26008_machikouba_ex4",
-      "japanese": "{町工場|まちこうば}の{後継者|こうけいしゃ}{不足|ぶそく}が{深刻|しんこく}な{問題|もんだい}になっている。",
+      "japanese": "{町工場|まちこうば}⟦の→の：09472_no⟧⟦{後継者|こうけいしゃ}→後継者：12592_koukeisha⟧{不足|ぶそく}⟦が→が：00051_ga⟧⟦{深刻|しんこく}→深刻：01567_shinkoku⟧な⟦{問題|もんだい}→問題：00797_mondai⟧になっている。",
       "english": "The lack of successors for small factories has become a serious problem.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A culturally significant word in Japan. {町工場|まちこうば} refers to the small, often family-owned factories found in urban neighborhoods like {大田区|おおたく} in Tokyo or {東大阪|ひがしおおさか} in Osaka. These workshops are celebrated for their craftsmanship and play a vital role in Japan's supply chain, producing precision parts for larger manufacturers.\n\nCOMMON COLLOCATIONS:\n- {町工場|まちこうば}の{技術|ぎじゅつ}: small-factory craftsmanship\n- {町工場|まちこうば}の{後継者|こうけいしゃ}: small-factory successor\n- {町工場|まちこうば}を{営|いとな}む: to run a small factory\n- {下町|したまち}の{町工場|まちこうば}: downtown workshop\n\nSIMILAR WORDS:\n- {工場|こうじょう}: factory — the general term, often for larger-scale facilities\n- {作業場|さぎょうば}: workshop; worksite — focuses on the workspace itself, not the business\n- {工房|こうぼう}: studio; atelier — often used for artistic or artisanal workshops",
-  "cross_references": [],
+  "notes": "A culturally significant word in Japan. {町工場|まちこうば} refers to the small, often family-owned factories found in urban neighborhoods like {大田区|おおたく} in Tokyo or {東大阪|ひがしおおさか} in Osaka. These workshops are celebrated for their craftsmanship and play a vital role in Japan's supply chain, producing precision parts for larger manufacturers.\n\nCOMMON COLLOCATIONS:\n- {町工場|まちこうば}⟦の→の：09472_no⟧⟦{技術|ぎじゅつ}→技術：01389_gijutsu⟧: small-factory craftsmanship\n- {町工場|まちこうば}⟦の→の：09472_no⟧⟦{後継者|こうけいしゃ}→後継者：12592_koukeisha⟧: small-factory successor\n- {町工場|まちこうば}⟦を→を：00422_wo⟧⟦{営|いとな}む→営む：11837_itonamu⟧: to run a small factory\n- ⟦{下町|したまち}→下町：04193_shitamachi⟧⟦の→の：09472_no⟧{町工場|まちこうば}: downtown workshop\n\nSIMILAR WORDS:\n- ⟦{工場|こうじょう}→工場：01082_koujou⟧: factory — the general term, often for larger-scale facilities\n- ⟦{作業場|さぎょうば}→作業場：07878_sagyouba⟧: workshop; worksite — focuses on the workspace itself, not the business\n- ⟦{工房|こうぼう}→工房：12418_koubou⟧: studio; atelier — often used for artistic or artisanal workshops",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07878_sagyouba",
+      "reading": "さぎょうば",
+      "headword": "{作業場|さぎょうば}",
+      "label": "workshop"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12418_koubou",
+      "reading": "こうぼう",
+      "headword": "{工房|こうぼう}",
+      "label": "studio"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["business", "building"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "business",
+        "building"
+      ]
     },
     "created": "2026-04-28T16:10:14Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T04:02:24Z"
   }
 }

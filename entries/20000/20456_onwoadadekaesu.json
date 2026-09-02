@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "20456_onwoadadekaeesu_ex1",
-      "japanese": "{恩|おん}を{仇|あだ}で{返|かえ}すようなことはしたくない。",
+      "japanese": "{恩|おん}を{仇|あだ}で{返|かえ}すようなことはしたく⟦ない→ない：01118_nai⟧。",
       "english": "I don't want to do anything that would repay kindness with ingratitude.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "20456_onwoadadekaeesu_ex2",
-      "japanese": "あれだけ{助|たす}けてもらったのに、{恩|おん}を{仇|あだ}で{返|かえ}すなんてひどい。",
+      "japanese": "⟦あれ→あれ：00916_are⟧⟦だけ→〜だけ：03093_dake⟧⟦{助|たす}けて→助ける：00895_tasukeru⟧⟦もらった→もらう：00520_morau⟧⟦の→の：09472_no⟧⟦に→に：00314_ni⟧、{恩|おん}を{仇|あだ}で{返|かえ}す⟦なんて→なんて：06918_nante⟧⟦ひどい→ひどい：01097_hidoi⟧。",
       "english": "After being helped that much, to repay it with ingratitude is terrible.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "20456_onwoadadekaeesu_ex3",
-      "japanese": "{育|そだ}ててくれた{親|おや}に{恩|おん}を{仇|あだ}で{返|かえ}すような{真似|まね}だけは、{絶対|ぜったい}にしてはいけない。",
+      "japanese": "⟦{育|そだ}てて→育てる：01235_sodateru⟧⟦くれた→くれる：00724_kureru⟧⟦{親|おや}→親：01357_oya⟧⟦に→に：00314_ni⟧{恩|おん}を{仇|あだ}で{返|かえ}すような⟦{真似|まね}→真似：03736_mane⟧⟦だけ→〜だけ：03093_dake⟧⟦は→は：00079_ha⟧、⟦{絶対|ぜったい}→絶対：00435_zettai⟧にして⟦は→は：00079_ha⟧いけない。",
       "english": "You absolutely must not do anything that repays the parents who raised you with ingratitude.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Literally \"to return {恩|おん} (a debt of gratitude) with {仇|あだ} (enmity/harm).\" One of the most strongly negative moral expressions in Japanese, condemning betrayal of someone who has been kind.\n\nCULTURAL NOTE:\nThe concept of {恩|おん} (obligation/gratitude for kindness received) is deeply important in Japanese culture. Repaying {恩|おん} with harm is considered one of the most morally reprehensible acts. The expression reflects the strong cultural emphasis on reciprocity and loyalty.\n\nUSAGE:\nUsed when someone acts against a benefactor. Can be used as a direct accusation or as a cautionary expression about what one must never do. Often appears with ような (like, as if) to describe behavior.\n\nCOMMON COLLOCATIONS:\n- {恩|おん}を{仇|あだ}で{返|かえ}すような{人|ひと} — the kind of person who bites the hand that feeds them\n- {恩|おん}を{仇|あだ}で{返|かえ}すような{真似|まね} — an act of repaying kindness with evil\n\nSIMILAR WORDS:\n- {恩知|おんし}らず — ingrate, ungrateful person\n- {裏切|うらぎ}る — to betray (more general)\n- {仇|あだ}で{返|かえ}す — to return with harm (shorter form)",
+  "notes": "Literally \"to return ⟦{恩|おん}→恩：02550_on⟧ (a debt of gratitude) with {仇|あだ} (enmity/harm).\" One of the most strongly negative moral expressions in Japanese, condemning betrayal of someone who has been kind.\n\nCULTURAL NOTE:\nThe concept of ⟦{恩|おん}→恩：02550_on⟧ (obligation/gratitude for kindness received) is deeply important in Japanese culture. Repaying ⟦{恩|おん}→恩：02550_on⟧ with harm is considered one of the most morally reprehensible acts. The expression reflects the strong cultural emphasis on reciprocity and loyalty.\n\nUSAGE:\nUsed when someone acts against a benefactor. Can be used as a direct accusation or as a cautionary expression about what one must never do. Often appears with ような (like, as if) to describe behavior.\n\nCOMMON COLLOCATIONS:\n- {恩|おん}を{仇|あだ}で{返|かえ}すような⟦{人|ひと}→人：00476_hito⟧ — the kind of person who bites the hand that feeds them\n- {恩|おん}を{仇|あだ}で{返|かえ}すような⟦{真似|まね}→真似：03736_mane⟧ — an act of repaying kindness with evil\n\nSIMILAR WORDS:\n- ⟦{恩知|おんし}らず→恩知らず：15485_onshirazu⟧ — ingrate, ungrateful person\n- ⟦{裏切|うらぎ}る→裏切る：02011_uragiru⟧ — to betray (more general)\n- {仇|あだ}⟦で→で：00502_de⟧⟦{返|かえ}す→返す：09648_kaesu⟧ — to return with harm (shorter form)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15485_onshirazu",
+      "reading": "おんしらず",
+      "headword": "{恩知|おんし}らず",
+      "label": "ingrate, ungrateful person"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02011_uragiru",
+      "reading": "うらぎる",
+      "headword": "{裏切|うらぎ}る",
+      "label": "to betray"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +76,6 @@
       ]
     },
     "created": "2026-03-29T14:15:07Z",
-    "modified": "2026-03-29T14:15:07Z"
+    "modified": "2026-09-02T04:01:59Z"
   }
 }

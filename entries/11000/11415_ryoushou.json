@@ -2,7 +2,7 @@
   "id": "11415_ryoushou",
   "headword": "{了承|りょうしょう}",
   "reading": "りょうしょう",
-  "part_of_speech": "noun / suru verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "consent, acknowledgment, approval",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "11415_ryoushou_ex1",
-      "japanese": "ご{了承|りょうしょう}ください。",
+      "japanese": "ご{了承|りょうしょう}⟦ください→ください：02899_kudasai⟧。",
       "english": "Please understand. / Please accept this.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "11415_ryoushou_ex2",
-      "japanese": "{上司|じょうし}の{了承|りょうしょう}を{得|え}てから{進|すす}めます。",
+      "japanese": "⟦{上司|じょうし}→上司：03286_joushi⟧⟦の→の：09472_no⟧{了承|りょうしょう}⟦を→を：00422_wo⟧⟦{得|え}て→得る：02014_eru⟧⟦から→から：00504_kara⟧⟦{進|すす}めます→進める：01949_susumeru⟧。",
       "english": "I'll proceed after getting my supervisor's approval.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "11415_ryoushou_ex3",
-      "japanese": "{予定|よてい}が{変更|へんこう}になる{場合|ばあい}がありますので、あらかじめご{了承|りょうしょう}ください。",
+      "japanese": "⟦{予定|よてい}→予定：00824_yotei⟧⟦が→が：00051_ga⟧⟦{変更|へんこう}→変更：03616_henkou⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦{場合|ばあい}→場合：01704_baai⟧⟦が→が：00051_ga⟧⟦あります→ある：00006_aru⟧⟦の→の：09472_no⟧で、あらかじめご{了承|りょうしょう}⟦ください→ください：02899_kudasai⟧。",
       "english": "The schedule may change, so please be aware of this in advance.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,26 @@
       ]
     }
   ],
-  "notes": "COMMON COLLOCATIONS:\n- ご{了承|りょうしょう}ください (please understand/accept)\n- {了承|りょうしょう}を{得|え}る (to obtain approval)\n- {了承|りょうしょう}を{求|もと}める (to seek consent)\n- あらかじめご{了承|りょうしょう}ください (please be forewarned)\n\nREGISTER: This is a formal word commonly seen in business emails, official notices, and customer-facing communications. The ご prefix makes it honorific. In casual speech, {了解|りょうかい} is more common for simple acknowledgment.",
-  "cross_references": [],
+  "notes": "COMMON COLLOCATIONS:\n- ご{了承|りょうしょう}⟦ください→ください：02899_kudasai⟧ (please understand/accept)\n- {了承|りょうしょう}⟦を→を：00422_wo⟧⟦{得|え}る→得る：02014_eru⟧ (to obtain approval)\n- {了承|りょうしょう}⟦を→を：00422_wo⟧⟦{求|もと}める→求める：02316_motomeru⟧ (to seek consent)\n- あらかじめご{了承|りょうしょう}⟦ください→ください：02899_kudasai⟧ (please be forewarned)\n\nREGISTER: This is a formal word commonly seen in business emails, official notices, and customer-facing communications. The ご prefix makes it honorific. In casual speech, ⟦{了解|りょうかい}→了解：05091_ryoukai⟧ is more common for simple acknowledgment.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22885_haishou",
+      "reading": "はいしょう",
+      "headword": "{拝承|はいしょう}",
+      "label": "acknowledged"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24195_iginashi",
+      "reading": "いぎなし",
+      "headword": "{異議|いぎ}なし",
+      "label": "no objection"
+    }
+  ],
   "metadata": {
     "created": "2026-02-16T07:35:11Z",
-    "modified": "2026-03-29T03:07:35Z",
+    "modified": "2026-09-02T04:01:25Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

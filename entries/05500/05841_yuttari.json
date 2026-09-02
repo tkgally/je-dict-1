@@ -2,7 +2,7 @@
   "id": "05841_yuttari",
   "headword": "ゆったり",
   "reading": "ゆったり",
-  "part_of_speech": "adverb, verb (suru)",
+  "part_of_speech": "adverb, suru verb",
   "gloss": "relaxed, loose, spacious",
   "conjugation": {
     "type": "suru",
@@ -208,7 +208,7 @@
       ]
     }
   ],
-  "notes": "ゆったり is a mimetic word expressing relaxation, spaciousness, or looseness.\n\nTWO MAIN MEANINGS:\n1. Relaxed manner: doing something at a calm, unhurried pace\n2. Loose/spacious: having plenty of room (clothing, space)\n\nUSAGE PATTERNS:\n- ゆったり⟦する→する：00392_suru⟧: to relax, to be at ease\n- ゆったり（と）+ verb: to do something in a relaxed way\n- ゆったり⟦した→する：00392_suru⟧ + noun: loose, spacious (modifying noun)\n\nCOMMON EXPRESSIONS:\n- ゆったり⟦{過|す}ごす→過ごす：02062_sugosu⟧: to spend time relaxing\n- ゆったり⟦した→する：00392_suru⟧⟦{服|ふく}→服：00695_fuku⟧: loose-fitting clothes\n- ゆったり⟦した→する：00392_suru⟧⟦{気分|きぶん}→気分：01306_kibun⟧: relaxed feeling\n- ゆったり⟦と→と：00512_to⟧⟦した→する：00392_suru⟧⟦{時間|じかん}→時間：00468_jikan⟧: leisurely time\n\nCONTRAST:\n- ⟦きつい→きつい：02342_kitsui⟧: tight (opposite for clothing/space)\n- ⟦ばたばた→ばたばた：05353_batabata⟧: busy, hectic (opposite for pace)\n- ⟦のんびり→のんびり：01596_nonbiri⟧: leisurely, carefree (similar but emphasizes lack of worry)",
+  "notes": "ゆったり is a mimetic word expressing relaxation, spaciousness, or looseness.\n\nTWO MAIN MEANINGS:\n1. Relaxed manner: doing something at a calm, unhurried pace\n2. Loose/spacious: having plenty of room (clothing, space)\n\nCOMMON PATTERNS:\n- ゆったり⟦する→する：00392_suru⟧: to relax, to be at ease\n- ゆったり（⟦と→と：00512_to⟧）+ verb: to do something in a relaxed way\n- ゆったり⟦した→する：00392_suru⟧ + noun: loose, spacious (modifying noun)\n\nCOMMON EXPRESSIONS:\n- ゆったり⟦{過|す}ごす→過ごす：02062_sugosu⟧: to spend time relaxing\n- ゆったり⟦した→する：00392_suru⟧⟦{服|ふく}→服：00695_fuku⟧: loose-fitting clothes\n- ゆったり⟦した→する：00392_suru⟧⟦{気分|きぶん}→気分：01306_kibun⟧: relaxed feeling\n- ゆったり⟦と→と：00512_to⟧⟦した→する：00392_suru⟧⟦{時間|じかん}→時間：00468_jikan⟧: leisurely time\n\nSIMILAR WORDS:\n- ⟦きつい→きつい：02342_kitsui⟧: tight (opposite for clothing/space)\n- ⟦ばたばた→ばたばた：05353_batabata⟧: busy, hectic (opposite for pace)\n- ⟦のんびり→のんびり：01596_nonbiri⟧: leisurely, carefree (similar but emphasizes lack of worry)",
   "cross_references": [
     {
       "type": "contrast",
@@ -230,11 +230,53 @@
       "reading": "きゅうくつ",
       "headword": "{窮屈|きゅうくつ}",
       "label": "cramped, constrained"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02342_kitsui",
+      "reading": "きつい",
+      "headword": "きつい",
+      "label": "tight"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05353_batabata",
+      "reading": "ばたばた",
+      "headword": "ばたばた",
+      "label": "busy, hectic"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01596_nonbiri",
+      "reading": "のんびり",
+      "headword": "のんびり",
+      "label": "leisurely, carefree"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02982_yukkurito",
+      "reading": "ゆっくりと",
+      "headword": "ゆっくりと",
+      "label": "slowly, at ease"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08270_ottori",
+      "reading": "おっとり",
+      "headword": "おっとり",
+      "label": "calm"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20548_hirobirotoshita",
+      "reading": "ひろびろとした",
+      "headword": "{広々|ひろびろ}とした",
+      "label": "spacious"
     }
   ],
   "metadata": {
     "created": "2026-01-16T13:46:51Z",
-    "modified": "2026-08-11T06:36:10Z",
+    "modified": "2026-09-02T04:01:07Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
@@ -248,7 +290,8 @@
         "action",
         "descriptive"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   }
 }

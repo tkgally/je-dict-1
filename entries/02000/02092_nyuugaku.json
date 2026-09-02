@@ -2,7 +2,7 @@
   "id": "02092_nyuugaku",
   "headword": "{入学|にゅうがく}",
   "reading": "にゅうがく",
-  "part_of_speech": "noun (verbal)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "enrollment, entry to school",
   "conjugation": {
     "type": "suru",
@@ -124,7 +124,7 @@
     },
     {
       "id": "02092_nyuugaku_ex3",
-      "japanese": "⟦{息子|むすこ}→息子：00799_musuko⟧⟦が→が：00051_ga⟧⟦{来年|らいねん}→来年：00745_rainen⟧⟦{小学校|しょうがっこう}→小学校：01055_shougakkou⟧⟦に→に：00314_ni⟧{入学|にゅうがく}する⟦ので→ので：09501_node⟧、⟦ランドセル→ランドセル：11191_randoseru⟧⟦を→を：00422_wo⟧⟦{買|か}った→買う：00489_kau⟧。",
+      "japanese": "⟦{息子|むすこ}→息子：00799_musuko⟧⟦が→が：00051_ga⟧⟦{来年|らいねん}→来年：00745_rainen⟧⟦{小学校|しょうがっこう}→小学校：01055_shougakkou⟧⟦に→に：00314_ni⟧{入学|にゅうがく}⟦する→する：00392_suru⟧⟦ので→ので：09501_node⟧、⟦ランドセル→ランドセル：11191_randoseru⟧⟦を→を：00422_wo⟧⟦{買|か}った→買う：00489_kau⟧。",
       "english": "My son is entering elementary school next year, so I bought him a school backpack.",
       "notes": null,
       "has_audio": false,
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "{入学|にゅうがく} means enrollment or entering school. Composed of {入|にゅう} (enter) + {学|がく} (study/school).\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n- No standard transitive pair\n- Pattern: {入学|にゅうがく}する\n\nCOMMON EXPRESSIONS:\n- {入学|にゅうがく}する: to enroll, enter school\n- {入学|にゅうがく}⟦{式|しき}→〜式：02000_shiki⟧: entrance ceremony\n- {入学|にゅうがく}⟦{試験|しけん}→試験：01422_shiken⟧: entrance examination\n- {入学|にゅうがく}⟦{願書|がんしょ}→願書：16223_gansho⟧: application for admission\n- {入学|にゅうがく}⟦{金|きん}→金：02666_kin⟧: enrollment fee\n\nOPPOSITE:\n- ⟦{卒業|そつぎょう}→卒業：01643_sotsugyou⟧: graduation\n\nCULTURAL NOTE:\nIn Japan, the school year starts in April, so {入学|にゅうがく}⟦{式|しき}→〜式：02000_shiki⟧ (entrance ceremonies) are held in spring. Cherry blossoms (⟦{桜|さくら}→桜：02212_sakura⟧) are associated with new beginnings in education.\n\nSIMILAR PATTERNS:\n- ⟦{入社|にゅうしゃ}→入社：03131_nyuusha⟧: joining a company\n- ⟦{入会|にゅうかい}→入会：11671_nyuukai⟧: joining a club/organization",
+  "notes": "{入学|にゅうがく} means enrollment or entering school. Composed of {入|にゅう} (enter) + ⟦{学|がく}→〜学：09846_gaku⟧ (study/school).\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n- No standard transitive pair\n- Pattern: {入学|にゅうがく}⟦する→する：00392_suru⟧\n\nCOMMON EXPRESSIONS:\n- {入学|にゅうがく}⟦する→する：00392_suru⟧: to enroll, enter school\n- {入学|にゅうがく}⟦{式|しき}→〜式：02000_shiki⟧: entrance ceremony\n- {入学|にゅうがく}⟦{試験|しけん}→試験：01422_shiken⟧: entrance examination\n- {入学|にゅうがく}⟦{願書|がんしょ}→願書：16223_gansho⟧: application for admission\n- {入学|にゅうがく}⟦{金|きん}→金：02666_kin⟧: enrollment fee\n\nSIMILAR WORDS:\n- ⟦{卒業|そつぎょう}→卒業：01643_sotsugyou⟧: graduation\n\nCULTURAL NOTE:\nIn Japan, the school year starts in April, so {入学|にゅうがく}⟦{式|しき}→〜式：02000_shiki⟧ (entrance ceremonies) are held in spring. Cherry blossoms (⟦{桜|さくら}→桜：02212_sakura⟧) are associated with new beginnings in education.\n\nSIMILAR PATTERNS:\n- ⟦{入社|にゅうしゃ}→入社：03131_nyuusha⟧: joining a company\n- ⟦{入会|にゅうかい}→入会：11671_nyuukai⟧: joining a club/organization",
   "cross_references": [
     {
       "type": "antonym",
@@ -155,11 +155,32 @@
       "reading": "しゅうがく",
       "headword": "{就学|しゅうがく}",
       "label": "school attendance"
+    },
+    {
+      "type": "related",
+      "target_id": "05140_kyuugaku",
+      "reading": "きゅうがく",
+      "headword": "{休学|きゅうがく}",
+      "label": "leave of absence from school"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20847_nyuuen",
+      "reading": "にゅうえん",
+      "headword": "{入園|にゅうえん}",
+      "label": "entering kindergarten"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21436_zaiseki",
+      "reading": "ざいせき",
+      "headword": "{在籍|ざいせき}",
+      "label": "enrollment"
     }
   ],
   "metadata": {
     "created": "2026-01-09T12:38:48Z",
-    "modified": "2026-05-18T14:17:42Z",
+    "modified": "2026-09-02T04:01:01Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

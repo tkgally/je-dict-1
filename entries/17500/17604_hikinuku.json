@@ -109,7 +109,7 @@
   "examples": [
     {
       "id": "17604_hikinuku_ex1",
-      "japanese": "{雑草|ざっそう}を{引|ひ}き{抜|ぬ}いた。",
+      "japanese": "⟦{雑草|ざっそう}→雑草：04996_zassou⟧⟦を→を：00422_wo⟧{引|ひ}き{抜|ぬ}いた。",
       "english": "I pulled out the weeds.",
       "sense_numbers": [
         1
@@ -119,7 +119,7 @@
     },
     {
       "id": "17604_hikinuku_ex2",
-      "japanese": "{刀|かたな}を{鞘|さや}から{引|ひ}き{抜|ぬ}いた。",
+      "japanese": "⟦{刀|かたな}→刀：02194_katana⟧⟦を→を：00422_wo⟧⟦{鞘|さや}→鞘：14698_saya⟧⟦から→から：00504_kara⟧{引|ひ}き{抜|ぬ}いた。",
       "english": "He drew the sword from its sheath.",
       "sense_numbers": [
         1
@@ -129,7 +129,7 @@
     },
     {
       "id": "17604_hikinuku_ex3",
-      "japanese": "{優秀|ゆうしゅう}なエンジニアを{競合他社|きょうごうたしゃ}から{引|ひ}き{抜|ぬ}いた。",
+      "japanese": "⟦{優秀|ゆうしゅう}→優秀：03646_yuushuu⟧な⟦エンジニア→エンジニア：05059_enjinia⟧⟦を→を：00422_wo⟧⟦{競合他社|きょうごうたしゃ}→競合他社：25602_kyougoutasha⟧⟦から→から：00504_kara⟧{引|ひ}き{抜|ぬ}いた。",
       "english": "We headhunted an excellent engineer from a competitor.",
       "sense_numbers": [
         2
@@ -139,7 +139,7 @@
     },
     {
       "id": "17604_hikinuku_ex4",
-      "japanese": "{彼|かれ}は{大手企業|おおてきぎょう}に{引|ひ}き{抜|ぬ}かれた。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{大手企業|おおてきぎょう}⟦に→に：00314_ni⟧{引|ひ}き{抜|ぬ}かれた。",
       "english": "He was headhunted by a major company.",
       "sense_numbers": [
         2
@@ -149,7 +149,7 @@
     },
     {
       "id": "17604_hikinuku_ex5",
-      "japanese": "{虫歯|むしば}を{引|ひ}き{抜|ぬ}いてもらった。",
+      "japanese": "⟦{虫歯|むしば}→虫歯：00299_mushiba⟧⟦を→を：00422_wo⟧{引|ひ}き{抜|ぬ}いて⟦もらった→もらう：00520_morau⟧。",
       "english": "I had my decayed tooth pulled out.",
       "sense_numbers": [
         1
@@ -159,7 +159,7 @@
     },
     {
       "id": "17604_hikinuku_ex6",
-      "japanese": "ヘッドハンターに{引|ひ}き{抜|ぬ}きの{話|はなし}を{持|も}ちかけられた。",
+      "japanese": "ヘッドハンター⟦に→に：00314_ni⟧{引|ひ}き{抜|ぬ}き⟦の→の：09472_no⟧⟦{話|はなし}→話：01496_hanashi⟧⟦を→を：00422_wo⟧⟦{持|も}ちかけられた→持ちかける：06795_mochikakeru⟧。",
       "english": "A headhunter approached me with an offer to switch companies.",
       "sense_numbers": [
         2
@@ -168,7 +168,16 @@
       "notes": null
     }
   ],
-  "notes": "FORMATION:\n{引|ひ}く (to pull) + {抜|ぬ}く (to extract) → to pull and extract\n\nTRANSITIVITY:\nTransitive verb - takes を to mark the object being pulled out.\n\nBUSINESS USAGE (Sense 2):\nIn business contexts, {引|ひ}き{抜|ぬ}き is a noun meaning \"headhunting\" or \"poaching (of talent).\" The practice is common in industries with talent shortages.\n\nRELATED WORDS:\n- {抜|ぬ}く (to pull out - simpler form)\n- {引|ひ}っこ{抜|ぬ}く (to yank out - more forceful)\n- ヘッドハンティング (headhunting - loanword)",
+  "notes": "FORMS:\n⟦{引|ひ}く→引く：01978_hiku⟧ (to pull) + ⟦{抜|ぬ}く→抜く：02384_nuku⟧ (to extract) → to pull and extract\n\nTRANSITIVITY:\nTransitive verb - takes ⟦を→を：00422_wo⟧ to mark the object being pulled out.\n\nBUSINESS USAGE (Sense 2):\nIn business contexts, {引|ひ}き{抜|ぬ}き is a noun meaning \"headhunting\" or \"poaching (of talent).\" The practice is common in industries with talent shortages.\n\nRELATED WORDS:\n- ⟦{抜|ぬ}く→抜く：02384_nuku⟧ (to pull out - simpler form)\n- {引|ひ}っこ{抜|ぬ}く (to yank out - more forceful)\n- ヘッドハンティング (headhunting - loanword)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21037_nukitoru",
+      "reading": "ぬきとる",
+      "headword": "{抜|ぬ}き{取|と}る",
+      "label": "to pull out"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -178,6 +187,7 @@
       "transitivity": "transitive",
       "verb_class": "godan-ku",
       "formality": "neutral",
+      "politeness": "plain",
       "domain": [
         "business"
       ],
@@ -187,6 +197,6 @@
       ]
     },
     "created": "2026-01-26T13:58:14Z",
-    "modified": "2026-07-24T07:00:08Z"
+    "modified": "2026-09-02T04:01:49Z"
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21014_keshoudai_ex1",
-      "japanese": "{化粧台|けしょうだい}の{前|まえ}に{座|すわ}る。",
+      "japanese": "{化粧台|けしょうだい}⟦の→の：09472_no⟧⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧⟦{座|すわ}る→座る：00757_suwaru⟧。",
       "english": "To sit in front of the dressing table.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21014_keshoudai_ex2",
-      "japanese": "{新|あたら}しい{化粧台|けしょうだい}を{買|か}って{寝室|しんしつ}に{置|お}いた。",
+      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧{化粧台|けしょうだい}⟦を→を：00422_wo⟧⟦{買|か}って→買う：00489_kau⟧⟦{寝室|しんしつ}→寝室：05300_shinshitsu⟧⟦に→に：00314_ni⟧⟦{置|お}いた→置く：01092_oku⟧。",
       "english": "I bought a new vanity and put it in the bedroom.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21014_keshoudai_ex3",
-      "japanese": "この{部屋|へや}の{化粧台|けしょうだい}は{照明|しょうめい}つきの{大|おお}きな{鏡|かがみ}があって、とても{使|つか}いやすい。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{部屋|へや}→部屋：00507_heya⟧⟦の→の：09472_no⟧{化粧台|けしょうだい}⟦は→は：00079_ha⟧⟦{照明|しょうめい}→照明：03243_shoumei⟧つき⟦の→の：09472_no⟧⟦{大|おお}きな→大きな：02849_ookina⟧⟦{鏡|かがみ}→鏡：02190_kagami⟧⟦が→が：00051_ga⟧⟦あって→ある：00006_aru⟧、⟦とても→とても：00593_totemo⟧⟦{使|つか}いやすい→使いやすい：30380_tsukaiyasui⟧。",
       "english": "The vanity in this room has a large mirror with lighting and is very easy to use.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {化粧|けしょう} (makeup, grooming) + {台|だい} (stand, table). In modern Japanese, this word has two main uses: a bedroom dressing table with a mirror for applying makeup, and a bathroom vanity unit with a sink and mirror ({洗面化粧台|せんめんけしょうだい}).\n\nCOMMON COLLOCATIONS:\n- {化粧台|けしょうだい}の{鏡|かがみ}: vanity mirror\n- {洗面化粧台|せんめんけしょうだい}: bathroom vanity (with sink)\n- {化粧台|けしょうだい}の{引|ひ}き{出|だ}し: vanity drawer\n\nSIMILAR WORDS:\n- ドレッサー: dresser — the loanword equivalent, used interchangeably for a bedroom vanity\n- {鏡台|きょうだい}: mirror stand — a traditional Japanese dressing table, often a low, floor-level piece\n- {洗面台|せんめんだい}: washstand, bathroom sink — focuses on the sink function rather than grooming",
+  "notes": "Composed of ⟦{化粧|けしょう}→化粧：02699_keshou⟧ (makeup, grooming) + {台|だい} (stand, table). In modern Japanese, this word has two main uses: a bedroom dressing table with a mirror for applying makeup, and a bathroom vanity unit with a sink and mirror ({洗面化粧台|せんめんけしょうだい}).\n\nCOMMON COLLOCATIONS:\n- {化粧台|けしょうだい}⟦の→の：09472_no⟧⟦{鏡|かがみ}→鏡：02190_kagami⟧: vanity mirror\n- {洗面化粧台|せんめんけしょうだい}: bathroom vanity (with sink)\n- {化粧台|けしょうだい}⟦の→の：09472_no⟧⟦{引|ひ}き{出|だ}し→引き出し：01498_hikidashi⟧: vanity drawer\n\nSIMILAR WORDS:\n- ⟦ドレッサー→ドレッサー：23739_doressaa⟧: dresser — the loanword equivalent, used interchangeably for a bedroom vanity\n- ⟦{鏡台|きょうだい}→鏡台：16427_kyoudai⟧: mirror stand — a traditional Japanese dressing table, often a low, floor-level piece\n- ⟦{洗面台|せんめんだい}→洗面台：04988_senmendai⟧: washstand, bathroom sink — focuses on the sink function rather than grooming",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23739_doressaa",
+      "reading": "どれっさー",
+      "headword": "ドレッサー",
+      "label": "dresser"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16427_kyoudai",
+      "reading": "きょうだい",
+      "headword": "{鏡台|きょうだい}",
+      "label": "mirror stand"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04988_senmendai",
+      "reading": "せんめんだい",
+      "headword": "{洗面台|せんめんだい}",
+      "label": "washstand, bathroom sink"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +82,6 @@
       ]
     },
     "created": "2026-03-31T14:11:11Z",
-    "modified": "2026-07-29T00:22:41Z"
+    "modified": "2026-09-02T04:02:01Z"
   }
 }

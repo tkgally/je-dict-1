@@ -1,16 +1,23 @@
 /**
  * Tag-Based Search functionality for je-dict-1 dictionary
- * Provides filtering by tags, statistics, missing tag detection, and combined queries
+ * Provides filtering by tags, statistics, missing tag detection, and combined queries.
+ *
+ * Data: SEARCH_ENTRIES (search-index.js: num -> [id, headword, reading, gloss, pos, tier])
+ * plus SEARCH_TAGS (search-tags.js: num -> tag record). advanced.html only has the
+ * filter and combined-query panels; curator.html adds statistics, missing-tag
+ * detection and export, so every optional element is null-checked here.
  */
 (function() {
     'use strict';
 
     const RESULTS_PER_PAGE = 50;
     const VERB_POS_TAGS = ['verb-godan', 'verb-ichidan', 'verb-suru', 'verb-kuru', 'verb-irregular'];
+    const TIER_NAMES = { b: 'basic', c: 'core', g: 'general' };
 
     let currentResults = [];
     let currentPage = 1;
     let currentMode = 'filter';
+    let allEntries = null;
 
     const filterPanel = document.getElementById('filter-panel');
     const statsPanel = document.getElementById('stats-panel');
@@ -21,9 +28,32 @@
     const resultsListEl = document.getElementById('tag-results-list');
     const paginationEl = document.getElementById('tag-pagination');
 
+    function rubyHtml(text) {
+        return text.replace(/\{([^|{}]+)\|([^}]+)\}/g, '<ruby>$1<rp>(</rp><rt>$2</rt><rp>)</rp></ruby>');
+    }
+
+    function dirRange(id) {
+        const n = Math.floor(parseInt(id.slice(0, 5), 10) / 500) * 500;
+        return ('00000' + n).slice(-5);
+    }
+
     function getAllEntries() {
-        if (!window.SEARCH_ENTRIES) return [];
-        return Object.values(window.SEARCH_ENTRIES);
+        if (!window.SEARCH_ENTRIES || !window.SEARCH_TAGS) return [];
+        if (allEntries) return allEntries;
+        allEntries = Object.keys(window.SEARCH_ENTRIES).map(num => {
+            const row = window.SEARCH_ENTRIES[num];
+            return {
+                id: row[0],
+                headword: rubyHtml(row[1]),
+                headwordPlain: row[1].replace(/\{([^|{}]+)\|([^}]+)\}/g, '$1'),
+                reading: row[2],
+                gloss: row[3],
+                tier: TIER_NAMES[row[5]] || 'general',
+                dirRange: dirRange(row[0]),
+                tags: window.SEARCH_TAGS[num] || {}
+            };
+        });
+        return allEntries;
     }
 
     function entryHasTag(entry, category, value) {
@@ -91,7 +121,8 @@
 
     function applyFilters() {
         const filters = getSelectedFilters();
-        const andMode = document.getElementById('filter-and-mode').checked;
+        const andModeEl = document.getElementById('filter-and-mode');
+        const andMode = andModeEl ? andModeEl.checked : true;
         const entries = getAllEntries();
         currentResults = filterEntries(entries, filters, andMode);
         currentResults.sort((a, b) => a.reading.localeCompare(b.reading, 'ja'));
@@ -180,8 +211,8 @@
             const semanticStr = (tags.semantic || []).slice(0, 3).join(', ');
             const tagSummary = [posStr, tags.formality, semanticStr].filter(Boolean).join(' | ');
             return '<a href="entries/' + entry.dirRange + '/' + entry.id + '.html" class="tag-result-item">' +
-                '<div class="tag-result-headword">' + entry.headword + '</div>' +
-                '<div class="tag-result-reading">' + entry.reading + '</div>' +
+                '<div class="tag-result-headword" lang="ja">' + entry.headword + '</div>' +
+                '<div class="tag-result-reading" lang="ja">' + entry.reading + '</div>' +
                 '<div class="tag-result-gloss">' + entry.gloss + '</div>' +
                 '<div class="tag-result-tags">' + tagSummary + '</div>' +
             '</a>';
@@ -275,7 +306,7 @@
         const headers = ['id', 'headword', 'reading', 'gloss', 'tier', 'pos', 'formality', 'politeness', 'transitivity', 'semantic', 'style', 'domain'];
         const rows = currentResults.map(entry => {
             const tags = entry.tags || {};
-            return [entry.id, entry.headword.replace(/<[^>]+>/g, ''), entry.reading, entry.gloss, entry.tier || '',
+            return [entry.id, entry.headwordPlain, entry.reading, entry.gloss, entry.tier || '',
                 (tags.pos || []).join(';'), tags.formality || '', tags.politeness || '', tags.transitivity || '',
                 (tags.semantic || []).join(';'), (tags.style || []).join(';'), (tags.domain || []).join(';')
             ].map(v => '"' + String(v).replace(/"/g, '""') + '"').join(',');
@@ -313,10 +344,10 @@
         document.querySelectorAll('.mode-btn').forEach(btn => {
             btn.classList.toggle('active', btn.dataset.mode === mode);
         });
-        filterPanel.style.display = mode === 'filter' ? 'block' : 'none';
-        statsPanel.classList.toggle('active', mode === 'stats');
-        missingPanel.classList.toggle('active', mode === 'missing');
-        combinedPanel.classList.toggle('active', mode === 'combined');
+        if (filterPanel) filterPanel.style.display = mode === 'filter' ? 'block' : 'none';
+        if (statsPanel) statsPanel.classList.toggle('active', mode === 'stats');
+        if (missingPanel) missingPanel.classList.toggle('active', mode === 'missing');
+        if (combinedPanel) combinedPanel.classList.toggle('active', mode === 'combined');
         if (mode === 'stats') {
             calculateStats();
             resultsContainer.style.display = 'none';
@@ -328,7 +359,8 @@
             cb.checked = false;
             cb.closest('label').classList.remove('checked');
         });
-        document.getElementById('filter-and-mode').checked = false;
+        const andModeEl = document.getElementById('filter-and-mode');
+        if (andModeEl) andModeEl.checked = true;
     }
 
     function updateCheckboxStyling(checkbox) {
@@ -359,20 +391,25 @@
         });
     }
 
+    function on(id, handler) {
+        const el = document.getElementById(id);
+        if (el) el.addEventListener('click', handler);
+    }
+
     function init() {
         document.querySelectorAll('.mode-btn').forEach(btn => {
             btn.addEventListener('click', () => switchMode(btn.dataset.mode));
         });
-        document.getElementById('apply-filters').addEventListener('click', applyFilters);
-        document.getElementById('clear-filters').addEventListener('click', clearFilters);
+        on('apply-filters', applyFilters);
+        on('clear-filters', clearFilters);
         document.querySelectorAll('.filter-options input[type="checkbox"]').forEach(cb => {
             cb.addEventListener('change', () => updateCheckboxStyling(cb));
         });
-        document.getElementById('find-missing').addEventListener('click', findMissingTags);
-        document.getElementById('run-query').addEventListener('click', runCombinedQuery);
-        document.getElementById('export-csv').addEventListener('click', exportCSV);
-        document.getElementById('export-json').addEventListener('click', exportJSON);
-        document.getElementById('copy-ids').addEventListener('click', copyIDs);
+        on('find-missing', findMissingTags);
+        on('run-query', runCombinedQuery);
+        on('export-csv', exportCSV);
+        on('export-json', exportJSON);
+        on('copy-ids', copyIDs);
         paginationEl.addEventListener('click', (e) => {
             if (e.target.tagName === 'BUTTON' && e.target.dataset.page) {
                 currentPage = parseInt(e.target.dataset.page, 10);

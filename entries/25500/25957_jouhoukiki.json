@@ -15,39 +15,66 @@
   "examples": [
     {
       "id": "25957_jouhoukiki_ex1",
-      "japanese": "{情報機器|じょうほうきき}の{取|と}り{扱|あつか}いに{注意|ちゅうい}する。",
+      "japanese": "{情報機器|じょうほうきき}⟦の→の：09472_no⟧⟦{取|と}り{扱|あつか}い→取り扱い：09806_toriatsukai⟧⟦に→に：00314_ni⟧⟦{注意|ちゅうい}→注意：01464_chuui⟧⟦する→する：00392_suru⟧。",
       "english": "To exercise caution when handling IT equipment.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "25957_jouhoukiki_ex2",
-      "japanese": "{学校|がっこう}では{児童|じどう}に{情報機器|じょうほうきき}の{正|ただ}しい{使|つか}い{方|かた}を{教|おし}えている。",
+      "japanese": "⟦{学校|がっこう}→学校：00055_gakkou⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{児童|じどう}→児童：03340_jidou⟧⟦に→に：00314_ni⟧{情報機器|じょうほうきき}⟦の→の：09472_no⟧⟦{正|ただ}しい→正しい：00893_tadashii⟧⟦{使|つか}い{方|かた}→使い方：07797_tsukaikata⟧⟦を→を：00422_wo⟧⟦{教|おし}えている→教える：00526_oshieru⟧。",
       "english": "Schools are teaching children the proper use of IT devices.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "25957_jouhoukiki_ex3",
-      "japanese": "{情報機器|じょうほうきき}の{進化|しんか}により、{働|はたら}き{方|かた}が{大|おお}きく{変|か}わった。",
+      "japanese": "{情報機器|じょうほうきき}⟦の→の：09472_no⟧⟦{進化|しんか}→進化：06029_shinka⟧⟦に→に：00314_ni⟧⟦より→より：09476_yori⟧、⟦{働|はたら}き{方|かた}→働き方：25439_hatarakikata⟧⟦が→が：00051_ga⟧⟦{大|おお}きく→大きい：00335_ookii⟧⟦{変|か}わった→変わる：00714_kawaru⟧。",
       "english": "The evolution of information devices has greatly changed the way we work.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {情報|じょうほう} (information) and {機器|きき} (equipment; devices). A broad term encompassing computers, smartphones, tablets, servers, and other digital devices. Commonly used in business, education, and policy contexts.\n\nCOMMON COLLOCATIONS:\n- {情報機器|じょうほうきき}の{操作|そうさ}: operating IT equipment\n- {情報機器|じょうほうきき}の{管理|かんり}: IT equipment management\n- {携帯型|けいたいがた}{情報機器|じょうほうきき}: portable information device\n- {情報機器|じょうほうきき}の{導入|どうにゅう}: introduction of IT equipment\n\nSIMILAR WORDS:\n- {電子機器|でんしきき}: electronic device — broader category that includes non-information electronics like appliances\n- {端末|たんまつ}: terminal; device — often used for individual computing devices like smartphones or tablets\n- {通信機器|つうしんきき}: communication equipment — specifically devices for transmitting and receiving data",
-  "cross_references": [],
+  "notes": "A compound of ⟦{情報|じょうほう}→情報：03348_jouhou⟧ (information) and ⟦{機器|きき}→機器：13180_kiki⟧ (equipment; devices). A broad term encompassing computers, smartphones, tablets, servers, and other digital devices. Commonly used in business, education, and policy contexts.\n\nCOMMON COLLOCATIONS:\n- {情報機器|じょうほうきき}⟦の→の：09472_no⟧⟦{操作|そうさ}→操作：03316_sousa⟧: operating IT equipment\n- {情報機器|じょうほうきき}⟦の→の：09472_no⟧⟦{管理|かんり}→管理：00178_kanri⟧: IT equipment management\n- {携帯型|けいたいがた}{情報機器|じょうほうきき}: portable information device\n- {情報機器|じょうほうきき}⟦の→の：09472_no⟧⟦{導入|どうにゅう}→導入：10127_dounyuu⟧: introduction of IT equipment\n\nSIMILAR WORDS:\n- ⟦{電子機器|でんしきき}→電子機器：18079_denshikiki⟧: electronic device — broader category that includes non-information electronics like appliances\n- ⟦{端末|たんまつ}→端末：05627_tanmatsu⟧: terminal; device — often used for individual computing devices like smartphones or tablets\n- {通信機器|つうしんきき}: communication equipment — specifically devices for transmitting and receiving data",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18079_denshikiki",
+      "reading": "でんしきき",
+      "headword": "{電子機器|でんしきき}",
+      "label": "electronic device"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05627_tanmatsu",
+      "reading": "たんまつ",
+      "headword": "{端末|たんまつ}",
+      "label": "terminal"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["technology"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "technology"
+      ]
     },
     "created": "2026-04-28T13:37:13Z",
-    "modified": "2026-04-28T13:37:13Z"
+    "modified": "2026-09-02T04:02:24Z"
   }
 }

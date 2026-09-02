@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "23115_hosshin_ex1",
-      "japanese": "{発疹|ほっしん}が{出|で}た。",
+      "japanese": "{発疹|ほっしん}⟦が→が：00051_ga⟧⟦{出|で}た→出る：00513_deru⟧。",
       "english": "A rash appeared.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "23115_hosshin_ex2",
-      "japanese": "{腕|うで}に{赤|あか}い{発疹|ほっしん}ができた。",
+      "japanese": "⟦{腕|うで}→腕：01006_ude⟧⟦に→に：00314_ni⟧⟦{赤|あか}い→赤い：00585_akai⟧{発疹|ほっしん}⟦が→が：00051_ga⟧⟦できた→できる：00557_dekiru⟧。",
       "english": "Red spots appeared on my arm.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "23115_hosshin_ex3",
-      "japanese": "{薬|くすり}を{飲|の}んだら{全身|ぜんしん}に{発疹|ほっしん}が{出|で}て、すぐに{病院|びょういん}に{行|い}った。",
+      "japanese": "⟦{薬|くすり}→薬：00793_kusuri⟧⟦を→を：00422_wo⟧⟦{飲|の}んだら→飲む：00322_nomu⟧⟦{全身|ぜんしん}→全身：03313_zenshin⟧⟦に→に：00314_ni⟧{発疹|ほっしん}⟦が→が：00051_ga⟧⟦{出|で}て→出る：00513_deru⟧、⟦すぐ→すぐ：00814_sugu⟧⟦に→に：00314_ni⟧⟦{病院|びょういん}→病院：00577_byouin⟧⟦に→に：00314_ni⟧⟦{行|い}った→行く：00119_iku⟧。",
       "english": "After taking the medicine, a rash appeared all over my body, so I went to the hospital immediately.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {発|ほつ} (emit, develop) and {疹|しん} (rash). Can also be read はっしん, though ほっしん is more common in medical and everyday usage. The duplicate check flagged entry 20451 ({発信|はっしん}, transmission) as sharing the same kanji with a different reading — these are unrelated words.\n\nCOMMON COLLOCATIONS:\n- {発疹|ほっしん}が{出|で}る: a rash appears\n- {発疹|ほっしん}が{広|ひろ}がる: a rash spreads\n- アレルギー{性|せい}{発疹|ほっしん}: allergic rash\n- {薬疹|やくしん}: drug-induced rash\n\nSIMILAR WORDS:\n- {湿疹|しっしん}: eczema — a specific type of chronic or recurring skin inflammation\n- かぶれ: rash from contact — typically caused by touching an irritant (plants, chemicals)\n- {蕁麻疹|じんましん}: hives, urticaria — raised itchy welts, often from allergies",
+  "notes": "Composed of {発|ほつ} (emit, develop) and {疹|しん} (rash). Can also be read はっしん, though ほっしん is more common in medical and everyday usage. The duplicate check flagged entry 20451 (⟦{発信|はっしん}→発信：04895_hasshin⟧, transmission) as sharing the same kanji with a different reading — these are unrelated words.\n\nCOMMON COLLOCATIONS:\n- {発疹|ほっしん}⟦が→が：00051_ga⟧⟦{出|で}る→出る：00513_deru⟧: a rash appears\n- {発疹|ほっしん}⟦が→が：00051_ga⟧⟦{広|ひろ}がる→広がる：01980_hirogaru⟧: a rash spreads\n- ⟦アレルギー→アレルギー：04645_arerugii⟧⟦{性|せい}→性：09880_sei⟧{発疹|ほっしん}: allergic rash\n- {薬疹|やくしん}: drug-induced rash\n\nSIMILAR WORDS:\n- ⟦{湿疹|しっしん}→湿疹：06951_shisshin⟧: eczema — a specific type of chronic or recurring skin inflammation\n- ⟦かぶれ→かぶれ：25271_kabure⟧: rash from contact — typically caused by touching an irritant (plants, chemicals)\n- ⟦{蕁麻疹|じんましん}→蕁麻疹：15182_jinmashin⟧: hives, urticaria — raised itchy welts, often from allergies",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06951_shisshin",
+      "reading": "しっしん",
+      "headword": "{湿疹|しっしん}",
+      "label": "eczema"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25271_kabure",
+      "reading": "かぶれ",
+      "headword": "かぶれ",
+      "label": "rash from contact"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15182_jinmashin",
+      "reading": "じんましん",
+      "headword": "{蕁麻疹|じんましん}",
+      "label": "hives, urticaria"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +83,6 @@
       "politeness": "plain"
     },
     "created": "2026-04-08T19:20:39Z",
-    "modified": "2026-07-31T18:20:34Z"
+    "modified": "2026-09-02T04:02:11Z"
   }
 }

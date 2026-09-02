@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08060_fumeiryou_ex1",
-      "japanese": "{説明|せつめい}が{不明瞭|ふめいりょう}だ。",
+      "japanese": "⟦{説明|せつめい}→説明：01449_setsumei⟧⟦が→が：00051_ga⟧{不明瞭|ふめいりょう}だ。",
       "english": "The explanation is unclear.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "08060_fumeiryou_ex2",
-      "japanese": "{発音|はつおん}が{不明瞭|ふめいりょう}で{聞|き}き{取|と}れない。",
+      "japanese": "⟦{発音|はつおん}→発音：01698_hatsuon⟧⟦が→が：00051_ga⟧{不明瞭|ふめいりょう}で⟦{聞|き}き{取|と}れない→聞き取る：04583_kikitoru⟧。",
       "english": "The pronunciation is indistinct and hard to catch.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "08060_fumeiryou_ex3",
-      "japanese": "{境界線|きょうかいせん}が{不明瞭|ふめいりょう}なまま{放置|ほうち}されている。",
+      "japanese": "⟦{境界線|きょうかいせん}→境界線：12158_kyoukaisen⟧⟦が→が：00051_ga⟧{不明瞭|ふめいりょう}なまま⟦{放置|ほうち}→放置：12826_houchi⟧⟦されている→する：00392_suru⟧。",
       "english": "The boundary line has been left in an unclear state.",
       "sense_numbers": [
         1
@@ -43,7 +43,7 @@
       "notes": null
     }
   ],
-  "notes": "{不明瞭|ふめいりょう} is a na-adjective meaning unclear, indistinct, or obscure.\n\nFORMS:\n- Adverbial: {不明瞭|ふめいりょう}に (unclearly)\n- Noun form: {不明瞭|ふめいりょう}さ (unclearness)\n\nCOMMON COLLOCATIONS:\n- {不明瞭|ふめいりょう}な{発音|はつおん}: unclear pronunciation\n- {不明瞭|ふめいりょう}な{説明|せつめい}: vague explanation\n- {不明瞭|ふめいりょう}な{回答|かいとう}: unclear answer\n- {境界|きょうかい}が{不明瞭|ふめいりょう}: boundary is unclear\n\nANTONYM:\n{明瞭|めいりょう} (clear, distinct)\n\nREGISTER:\nSomewhat formal; used in written language and formal speech. In casual speech, わかりにくい or はっきりしない is more common.",
+  "notes": "{不明瞭|ふめいりょう} is a na-adjective meaning unclear, indistinct, or obscure.\n\nFORMS:\n- Adverbial: {不明瞭|ふめいりょう}⟦に→に：00314_ni⟧ (unclearly)\n- Noun form: {不明瞭|ふめいりょう}さ (unclearness)\n\nCOMMON COLLOCATIONS:\n- {不明瞭|ふめいりょう}な⟦{発音|はつおん}→発音：01698_hatsuon⟧: unclear pronunciation\n- {不明瞭|ふめいりょう}な⟦{説明|せつめい}→説明：01449_setsumei⟧: vague explanation\n- {不明瞭|ふめいりょう}な⟦{回答|かいとう}→回答：00142_kaitou⟧: unclear answer\n- ⟦{境界|きょうかい}→境界：12096_kyoukai⟧⟦が→が：00051_ga⟧{不明瞭|ふめいりょう}: boundary is unclear\n\nSIMILAR WORDS:\n⟦{明瞭|めいりょう}→明瞭：20647_meiryou⟧ (clear, distinct)\n\nREGISTER:\nSomewhat formal; used in written language and formal speech. In casual speech, わかりにくい or ⟦はっきりしない→はっきりする：26886_hakkirisuru⟧ is more common.",
   "cross_references": [
     {
       "type": "synonym",
@@ -58,6 +58,13 @@
       "headword": "{明瞭|めいりょう}",
       "label": "clear; distinct",
       "target_id": "20647_meiryou"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08049_uyamuya",
+      "reading": "うやむや",
+      "headword": "うやむや",
+      "label": "vague"
     }
   ],
   "metadata": {
@@ -67,12 +74,13 @@
         "adjective-na"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "descriptive",
         "communication"
       ]
     },
     "created": "2026-01-25T01:21:00Z",
-    "modified": "2026-08-11T09:37:41Z"
+    "modified": "2026-09-02T04:01:13Z"
   }
 }

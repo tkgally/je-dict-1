@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24856_mushokusha_ex1",
-      "japanese": "{無職者|むしょくしゃ}の{数|かず}が{増|ふ}えている。",
+      "japanese": "{無職者|むしょくしゃ}⟦の→の：09472_no⟧⟦{数|かず}→数：00204_kazu⟧⟦が→が：00051_ga⟧⟦{増|ふ}えている→増える：01183_fueru⟧。",
       "english": "The number of unemployed people is increasing.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24856_mushokusha_ex2",
-      "japanese": "{若年|じゃくねん}{無職者|むしょくしゃ}への{支援|しえん}{策|さく}が{議論|ぎろん}されている。",
+      "japanese": "⟦{若年|じゃくねん}→若年：14126_jakunen⟧{無職者|むしょくしゃ}⟦へ→へ：02473_he⟧⟦の→の：09472_no⟧⟦{支援|しえん}→支援：07778_shien⟧⟦{策|さく}→策：09997_saku⟧⟦が→が：00051_ga⟧⟦{議論|ぎろん}→議論：02650_giron⟧⟦されている→する：00392_suru⟧。",
       "english": "Support measures for young unemployed people are being discussed.",
       "sense_numbers": [
         1
@@ -34,8 +34,24 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {無職|むしょく} (no occupation) + {者|しゃ} (person). The base form {無職|むしょく} is more commonly used in everyday speech and news reporting, while {無職者|むしょくしゃ} appears in statistical and policy contexts.\n\nCOMMON COLLOCATIONS:\n- {若年|じゃくねん}{無職者|むしょくしゃ}: young unemployed person\n- {長期|ちょうき}{無職者|むしょくしゃ}: long-term unemployed person\n- {無職者|むしょくしゃ}{数|すう}: number of unemployed people\n- {無職者|むしょくしゃ}{支援|しえん}: support for the unemployed\n\nCULTURAL NOTE:\nIn Japanese news reporting, a person's occupation is routinely mentioned. Being identified as {無職|むしょく} carries social stigma, as it can imply a lack of social responsibility. The term is neutral in statistics but loaded in news contexts.\n\nSIMILAR WORDS:\n- {無職|むしょく}: unemployed; without occupation — the base form, more common in everyday use\n- {失業者|しつぎょうしゃ}: unemployed person (who lost a job) — implies having previously been employed\n- ニート (NEET): young person not in education, employment, or training — specifically about youth who are not seeking work",
+  "notes": "Composed of ⟦{無職|むしょく}→無職：13386_mushoku⟧ (no occupation) + ⟦{者|しゃ}→〜者：04662_sha⟧ (person). The base form ⟦{無職|むしょく}→無職：13386_mushoku⟧ is more commonly used in everyday speech and news reporting, while {無職者|むしょくしゃ} appears in statistical and policy contexts.\n\nCOMMON COLLOCATIONS:\n- ⟦{若年|じゃくねん}→若年：14126_jakunen⟧{無職者|むしょくしゃ}: young unemployed person\n- ⟦{長期|ちょうき}→長期：03487_chouki⟧{無職者|むしょくしゃ}: long-term unemployed person\n- {無職者|むしょくしゃ}⟦{数|すう}→数：03360_suu⟧: number of unemployed people\n- {無職者|むしょくしゃ}⟦{支援|しえん}→支援：07778_shien⟧: support for the unemployed\n\nCULTURAL NOTE:\nIn Japanese news reporting, a person's occupation is routinely mentioned. Being identified as ⟦{無職|むしょく}→無職：13386_mushoku⟧ carries social stigma, as it can imply a lack of social responsibility. The term is neutral in statistics but loaded in news contexts.\n\nSIMILAR WORDS:\n- ⟦{無職|むしょく}→無職：13386_mushoku⟧: unemployed; without occupation — the base form, more common in everyday use\n- ⟦{失業者|しつぎょうしゃ}→失業者：22385_shitsugyousha⟧: unemployed person (who lost a job) — implies having previously been employed\n- ニート (NEET): young person not in education, employment, or training — specifically about youth who are not seeking work",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22385_shitsugyousha",
+      "reading": "しつぎょうしゃ",
+      "headword": "{失業者|しつぎょうしゃ}",
+      "label": "unemployed person"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08752_niito",
+      "reading": "にーと",
+      "headword": "NEET",
+      "label": "NEET"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -50,6 +66,6 @@
       ]
     },
     "created": "2026-04-21T10:28:34Z",
-    "modified": "2026-06-12T12:41:12Z"
+    "modified": "2026-09-02T04:02:20Z"
   }
 }

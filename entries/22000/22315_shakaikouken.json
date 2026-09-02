@@ -15,40 +15,74 @@
   "examples": [
     {
       "id": "22315_shakaikouken_ex1",
-      "japanese": "{社会|しゃかい}{貢献|こうけん}{活動|かつどう}に{参加|さんか}する。",
+      "japanese": "{社会|しゃかい}{貢献|こうけん}⟦{活動|かつどう}→活動：00201_katsudou⟧⟦に→に：00314_ni⟧⟦{参加|さんか}する→参加する：25408_sankasuru⟧。",
       "english": "To participate in community service activities.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "22315_shakaikouken_ex2",
-      "japanese": "この{会社|かいしゃ}は{社会|しゃかい}{貢献|こうけん}に{力|ちから}を{入|い}れている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦は→は：00079_ha⟧{社会|しゃかい}{貢献|こうけん}⟦に→に：00314_ni⟧⟦{力|ちから}→力：01661_chikara⟧⟦を→を：00422_wo⟧⟦{入|い}れている→入れる：01098_ireru⟧。",
       "english": "This company puts effort into social contribution.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "22315_shakaikouken_ex3",
-      "japanese": "{仕事|しごと}を{通|つう}じて{社会|しゃかい}{貢献|こうけん}ができることに{誇|ほこ}りを{感|かん}じている。",
+      "japanese": "⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦を→を：00422_wo⟧⟦{通|つう}じて→通じる：02289_tsuujiru⟧{社会|しゃかい}{貢献|こうけん}⟦が→が：00051_ga⟧⟦できる→できる：00557_dekiru⟧こと⟦に→に：00314_ni⟧⟦{誇|ほこ}り→誇り：03623_hokori⟧⟦を→を：00422_wo⟧⟦{感|かん}じている→感じる：02044_kanjiru⟧。",
       "english": "I feel proud that I can contribute to society through my work.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {社会|しゃかい} (society) + {貢献|こうけん} (contribution). This is a highly valued concept in Japanese society, frequently used in corporate mission statements, job interviews, and discussions about civic responsibility. Japanese companies often have dedicated CSR ({企業|きぎょう}の{社会的|しゃかいてき}{責任|せきにん}) departments.\n\nCOMMON COLLOCATIONS:\n- {社会|しゃかい}{貢献|こうけん}{活動|かつどう}: social contribution activities\n- {社会|しゃかい}{貢献|こうけん}をする: to contribute to society\n- {地域|ちいき}{社会|しゃかい}への{貢献|こうけん}: contribution to the local community\n- {社会|しゃかい}{貢献|こうけん}{度|ど}: degree of social contribution\n\nCULTURAL NOTE:\nIn Japanese job interviews, expressing a desire to contribute to society ({社会|しゃかい}{貢献|こうけん}がしたい) is a common and valued response when discussing career motivation.",
+  "notes": "A compound of ⟦{社会|しゃかい}→社会：01427_shakai⟧ (society) + ⟦{貢献|こうけん}→貢献：02737_kouken⟧ (contribution). This is a highly valued concept in Japanese society, frequently used in corporate mission statements, job interviews, and discussions about civic responsibility. Japanese companies often have dedicated CSR (⟦{企業|きぎょう}→企業：00225_kigyou⟧⟦の→の：09472_no⟧⟦{社会的|しゃかいてき}→社会的：04791_shakaiteki⟧⟦{責任|せきにん}→責任：03298_sekinin⟧) departments.\n\nCOMMON COLLOCATIONS:\n- {社会|しゃかい}{貢献|こうけん}⟦{活動|かつどう}→活動：00201_katsudou⟧: social contribution activities\n- {社会|しゃかい}{貢献|こうけん}⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧: to contribute to society\n- ⟦{地域|ちいき}→地域：01461_chiiki⟧⟦{社会|しゃかい}→社会：01427_shakai⟧⟦へ→へ：02473_he⟧⟦の→の：09472_no⟧⟦{貢献|こうけん}→貢献：02737_kouken⟧: contribution to the local community\n- {社会|しゃかい}{貢献|こうけん}{度|ど}: degree of social contribution\n\nCULTURAL NOTE:\nIn Japanese job interviews, expressing a desire to contribute to society ({社会|しゃかい}{貢献|こうけん}がしたい) is a common and valued response when discussing career motivation.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22722_jizenjigyou",
+      "reading": "じぜんじぎょう",
+      "headword": "{慈善事業|じぜんじぎょう}",
+      "label": "charitable work"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25435_shakaisanka",
+      "reading": "しゃかいさんか",
+      "headword": "{社会参加|しゃかいさんか}",
+      "label": "social participation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26273_houshikatsudou",
+      "reading": "ほうしかつどう",
+      "headword": "{奉仕活動|ほうしかつどう}",
+      "label": "volunteer work"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["society", "business"]
+      "semantic": [
+        "society",
+        "business"
+      ]
     },
     "created": "2026-04-05T18:25:51Z",
-    "modified": "2026-04-05T18:25:51Z"
+    "modified": "2026-09-02T04:02:07Z"
   }
 }

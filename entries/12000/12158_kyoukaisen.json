@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "12158_kyoukaisen_ex1",
-      "japanese": "{境界線|きょうかいせん}を{引|ひ}く。",
+      "japanese": "{境界線|きょうかいせん}⟦を→を：00422_wo⟧⟦{引|ひ}く→引く：01978_hiku⟧。",
       "english": "To draw a boundary line.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "12158_kyoukaisen_ex2",
-      "japanese": "{仕事|しごと}と{私生活|しせいかつ}の{境界線|きょうかいせん}があいまいになっている。",
+      "japanese": "⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦と→と：00512_to⟧⟦{私生活|しせいかつ}→私生活：15112_shiseikatsu⟧⟦の→の：09472_no⟧{境界線|きょうかいせん}⟦が→が：00051_ga⟧あいまいになっている。",
       "english": "The boundary between work and private life has become blurred.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "12158_kyoukaisen_ex3",
-      "japanese": "この{川|かわ}が{二|ふた}つの{県|けん}の{境界線|きょうかいせん}になっていて、{向|む}こう{岸|ぎし}はもう{隣|となり}の{県|けん}だ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{川|かわ}→川：02186_kawa⟧⟦が→が：00051_ga⟧⟦{二|ふた}つ→二つ：02953_futatsu⟧⟦の→の：09472_no⟧⟦{県|けん}→県：02151_ken⟧⟦の→の：09472_no⟧{境界線|きょうかいせん}になって⟦いて→いる：00495_iru⟧、⟦{向|む}こう{岸|ぎし}→向こう岸：27267_mukougishi⟧⟦は→は：00079_ha⟧⟦もう→もう：00602_mou⟧⟦{隣|となり}→隣：01003_tonari⟧⟦の→の：09472_no⟧⟦{県|けん}→県：02151_ken⟧だ。",
       "english": "This river serves as the boundary between the two prefectures, and the other bank is already the next prefecture.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nUsed for both physical boundaries (between countries, properties, regions) and abstract ones (between categories, concepts, roles). The figurative use is very common in modern Japanese.\n\nCOMMON COLLOCATIONS:\n- {境界線|きょうかいせん}を{引|ひ}く: to draw a boundary line\n- {境界線|きょうかいせん}を{越|こ}える: to cross a boundary\n- {境界線|きょうかいせん}があいまい: the boundary is unclear\n- {境界線|きょうかいせん}{上|じょう}: on the borderline",
+  "notes": "USAGE:\nUsed for both physical boundaries (between countries, properties, regions) and abstract ones (between categories, concepts, roles). The figurative use is very common in modern Japanese.\n\nCOMMON COLLOCATIONS:\n- {境界線|きょうかいせん}⟦を→を：00422_wo⟧⟦{引|ひ}く→引く：01978_hiku⟧: to draw a boundary line\n- {境界線|きょうかいせん}⟦を→を：00422_wo⟧⟦{越|こ}える→越える：02099_koeru⟧: to cross a boundary\n- {境界線|きょうかいせん}⟦が→が：00051_ga⟧あいまい: the boundary is unclear\n- {境界線|きょうかいせん}{上|じょう}: on the borderline",
   "cross_references": [
     {
       "type": "related",
@@ -52,11 +52,18 @@
       "headword": "{境界|きょうかい}",
       "label": "boundary",
       "target_id": "12096_kyoukai"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20110_issen",
+      "reading": "いっせん",
+      "headword": "{一線|いっせん}",
+      "label": "front line"
     }
   ],
   "metadata": {
     "created": "2026-02-20T09:52:44Z",
-    "modified": "2026-04-26T07:25:09Z",
+    "modified": "2026-09-02T04:01:27Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

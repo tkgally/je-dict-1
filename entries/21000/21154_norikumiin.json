@@ -15,40 +15,73 @@
   "examples": [
     {
       "id": "21154_norikumiin_ex1",
-      "japanese": "{乗組員|のりくみいん}は{全員|ぜんいん}{無事|ぶじ}だった。",
+      "japanese": "{乗組員|のりくみいん}⟦は→は：00079_ha⟧⟦{全員|ぜんいん}→全員：03310_zenin⟧⟦{無事|ぶじ}→無事：01602_buji⟧だった。",
       "english": "All crew members were safe.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21154_norikumiin_ex2",
-      "japanese": "{船|ふね}の{乗組員|のりくみいん}が{救助|きゅうじょ}された。",
+      "japanese": "⟦{船|ふね}→船：00775_fune⟧⟦の→の：09472_no⟧{乗組員|のりくみいん}⟦が→が：00051_ga⟧⟦{救助|きゅうじょ}→救助：02588_kyuujo⟧⟦された→する：00392_suru⟧。",
       "english": "The ship's crew members were rescued.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21154_norikumiin_ex3",
-      "japanese": "{宇宙|うちゅう}ステーションには{現在|げんざい}６{人|にん}の{乗組員|のりくみいん}が{滞在|たいざい}している。",
+      "japanese": "⟦{宇宙|うちゅう}→宇宙：01861_uchuu⟧⟦ステーション→ステーション：27940_suteeshon⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{現在|げんざい}→現在：01556_genzai⟧６⟦{人|にん}→〜人：00658_nin⟧⟦の→の：09472_no⟧{乗組員|のりくみいん}⟦が→が：00051_ga⟧⟦{滞在|たいざい}している→滞在する：26834_taizaisuru⟧。",
       "english": "There are currently six crew members aboard the space station.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {乗|の}り{組|く}む (to be on board as crew) + {員|いん} (member). Primarily used for ship and spacecraft crews. For airplane cabin crew, {客室乗務員|きゃくしつじょうむいん} (flight attendant) is more specific.\n\nCOMMON COLLOCATIONS:\n- {船|ふね}の{乗組員|のりくみいん}: ship's crew\n- {乗組員|のりくみいん}{全員|ぜんいん}: all crew members\n- {乗組員|のりくみいん}{名簿|めいぼ}: crew roster\n\nSIMILAR WORDS:\n- {船員|せんいん}: sailor; seaman — specifically for ship crew\n- {搭乗員|とうじょういん}: person on board — often used for military aircraft crew\n- {客室乗務員|きゃくしつじょうむいん}: flight attendant — cabin crew on commercial flights\n- クルー: crew — borrowed from English, used casually",
+  "notes": "Composed of {乗|の}り{組|く}む (to be on board as crew) + {員|いん} (member). Primarily used for ship and spacecraft crews. For airplane cabin crew, ⟦{客室乗務員|きゃくしつじょうむいん}→客室乗務員：18095_kyakushitsujoumuin⟧ (flight attendant) is more specific.\n\nCOMMON COLLOCATIONS:\n- ⟦{船|ふね}→船：00775_fune⟧⟦の→の：09472_no⟧{乗組員|のりくみいん}: ship's crew\n- {乗組員|のりくみいん}⟦{全員|ぜんいん}→全員：03310_zenin⟧: all crew members\n- {乗組員|のりくみいん}⟦{名簿|めいぼ}→名簿：11870_meibo⟧: crew roster\n\nSIMILAR WORDS:\n- ⟦{船員|せんいん}→船員：22495_senin⟧: sailor; seaman — specifically for ship crew\n- {搭乗員|とうじょういん}: person on board — often used for military aircraft crew\n- ⟦{客室乗務員|きゃくしつじょうむいん}→客室乗務員：18095_kyakushitsujoumuin⟧: flight attendant — cabin crew on commercial flights\n- クルー: crew — borrowed from English, used casually",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22495_senin",
+      "reading": "せんいん",
+      "headword": "{船員|せんいん}",
+      "label": "sailor"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18095_kyakushitsujoumuin",
+      "reading": "きゃくしつじょうむいん",
+      "headword": "{客室|きゃくしつ}{乗務員|じょうむいん}",
+      "label": "flight attendant"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23493_suifu",
+      "reading": "すいふ",
+      "headword": "{水夫|すいふ}",
+      "label": "sailor"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["travel"]
+      "semantic": [
+        "travel"
+      ]
     },
     "created": "2026-03-31T21:37:03Z",
-    "modified": "2026-03-31T21:37:03Z"
+    "modified": "2026-09-02T04:02:02Z"
   }
 }

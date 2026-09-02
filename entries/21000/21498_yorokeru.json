@@ -3,7 +3,7 @@
   "headword": "よろける",
   "reading": "よろける",
   "romaji": "yorokeru",
-  "part_of_speech": "verb",
+  "part_of_speech": "verb (ichidan)",
   "gloss": "to stumble; to stagger; to totter; to lose one's balance",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21498_yorokeru_ex1",
-      "japanese": "{石|いし}につまずいてよろけた。",
+      "japanese": "⟦{石|いし}→石：02177_ishi⟧⟦に→に：00314_ni⟧⟦つまずいて→つまずく：06970_tsumazuku⟧よろけた。",
       "english": "I tripped on a stone and stumbled.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21498_yorokeru_ex2",
-      "japanese": "{強風|きょうふう}でよろけそうになった。",
+      "japanese": "⟦{強風|きょうふう}→強風：15269_kyoufuu⟧⟦で→で：00502_de⟧よろけそうになった。",
       "english": "The strong wind almost knocked me off balance.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21498_yorokeru_ex3",
-      "japanese": "{満員|まんいん}{電車|でんしゃ}で{急|きゅう}ブレーキがかかり、{乗客|じょうきゃく}たちが{一斉|いっせい}によろけた。",
+      "japanese": "⟦{満員|まんいん}{電車|でんしゃ}→満員電車：08350_manindensha⟧⟦で→で：00502_de⟧⟦{急|きゅう}→急：13042_kyuu⟧⟦ブレーキ→ブレーキ：00022_bureeki⟧⟦が→が：00051_ga⟧⟦かかり→かかる：00711_kakaru⟧、⟦{乗客|じょうきゃく}→乗客：03284_joukyaku⟧たち⟦が→が：00051_ga⟧⟦{一斉|いっせい}→一斉：01726_issei⟧⟦に→に：00314_ni⟧よろけた。",
       "english": "When the brakes were suddenly applied on the packed train, all the passengers staggered at once.",
       "sense_numbers": [
         1
@@ -44,7 +44,30 @@
       "notes": null
     }
   ],
-  "notes": "Describes the sudden loss of balance causing someone to stumble or totter. Unlike ふらつく which implies ongoing unsteadiness, よろける describes a momentary event — a sudden stumble or lurch.\n\nUSAGE:\n- Describes a brief, involuntary loss of balance\n- Can be caused by external forces (wind, collision, sudden stops) or internal (tripping, weakness)\n- The related form よろめく has the same physical meaning but also has a figurative sense of being tempted romantically\n\nCOMMON COLLOCATIONS:\n- つまずいてよろける: to trip and stumble\n- {押|お}されてよろける: to be pushed and stagger\n- よろけながら{歩|ある}く: to walk unsteadily\n- よろけそうになる: to nearly lose one's balance\n\nSIMILAR WORDS:\n- よろめく: to stumble, totter — also means to be tempted (romantically); slightly more literary\n- ふらつく: to sway, stagger — implies continuous unsteadiness rather than a single moment\n- つまずく: to trip, stumble — specifically about catching one's foot on something\n- たたらを{踏|ふ}む: to stagger forward trying to regain balance — vivid and specific",
+  "notes": "Describes the sudden loss of balance causing someone to stumble or totter. Unlike ⟦ふらつく→ふらつく：21497_furatsuku⟧ which implies ongoing unsteadiness, よろける describes a momentary event — a sudden stumble or lurch.\n\nUSAGE:\n- Describes a brief, involuntary loss of balance\n- Can be caused by external forces (wind, collision, sudden stops) or internal (tripping, weakness)\n- The related form ⟦よろめく→よろめく：06971_yoromeku⟧ has the same physical meaning but also has a figurative sense of being tempted romantically\n\nCOMMON COLLOCATIONS:\n- ⟦つまずいて→つまずく：06970_tsumazuku⟧よろける: to trip and stumble\n- ⟦{押|お}されて→押す：02854_osu⟧よろける: to be pushed and stagger\n- よろけ⟦ながら→ながら：10530_nagara⟧⟦{歩|ある}く→歩く：00538_aruku⟧: to walk unsteadily\n- よろけそう⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧: to nearly lose one's balance\n\nSIMILAR WORDS:\n- ⟦よろめく→よろめく：06971_yoromeku⟧: to stumble, totter — also means to be tempted (romantically); slightly more literary\n- ⟦ふらつく→ふらつく：21497_furatsuku⟧: to sway, stagger — implies continuous unsteadiness rather than a single moment\n- ⟦つまずく→つまずく：06970_tsumazuku⟧: to trip, stumble — specifically about catching one's foot on something\n- たたら⟦を→を：00422_wo⟧⟦{踏|ふ}む→踏む：01197_fumu⟧: to stagger forward trying to regain balance — vivid and specific",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06971_yoromeku",
+      "reading": "よろめく",
+      "headword": "よろめく",
+      "label": "to stumble, totter"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21497_furatsuku",
+      "reading": "ふらつく",
+      "headword": "ふらつく",
+      "label": "to sway, stagger"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06970_tsumazuku",
+      "reading": "つまずく",
+      "headword": "つまずく",
+      "label": "to trip, stumble"
+    }
+  ],
   "metadata": {
     "entry_id": "21498_yorokeru",
     "schema_version": "2.0",
@@ -55,14 +78,16 @@
       "pos": [
         "verb-ichidan"
       ],
+      "politeness": "plain",
       "semantic": [
         "movement"
       ],
       "register": [],
       "usage": [],
-      "verb_class": "ichidan"
+      "verb_class": "ichidan",
+      "transitivity": "intransitive"
     },
-    "modified": "2026-07-29T12:35:11Z"
+    "modified": "2026-09-02T04:02:03Z"
   },
   "conjugation": {
     "type": "ichidan",

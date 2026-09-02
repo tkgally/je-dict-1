@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28446_repurika_ex1",
-      "japanese": "{有名|ゆうめい}な{彫刻|ちょうこく}のレプリカ。",
+      "japanese": "⟦{有名|ゆうめい}→有名：01106_yuumei⟧な⟦{彫刻|ちょうこく}→彫刻：04448_choukoku⟧⟦の→の：09472_no⟧レプリカ。",
       "english": "A replica of a famous sculpture.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28446_repurika_ex2",
-      "japanese": "{博物館|はくぶつかん}で{展示|てんじ}されているのはレプリカだ。",
+      "japanese": "⟦{博物館|はくぶつかん}→博物館：01494_hakubutsukan⟧⟦で→で：00502_de⟧⟦{展示|てんじ}→展示：12401_tenji⟧⟦されている→する：00392_suru⟧⟦の→の：09472_no⟧⟦は→は：00079_ha⟧レプリカだ。",
       "english": "What is displayed at the museum is a replica.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28446_repurika_ex3",
-      "japanese": "{息子|むすこ}の{誕生日|たんじょうび}にお{気|き}に{入|い}りのチームのレプリカユニフォームを{買|か}ってあげた。",
+      "japanese": "⟦{息子|むすこ}→息子：00799_musuko⟧⟦の→の：09472_no⟧⟦{誕生日|たんじょうび}→誕生日：02910_tanjoubi⟧⟦に→に：00314_ni⟧⟦お{気|き}に{入|い}り→お気に入り：10297_okiniiri⟧⟦の→の：09472_no⟧⟦チーム→チーム：03858_chiimu⟧⟦の→の：09472_no⟧レプリカユニフォーム⟦を→を：00422_wo⟧⟦{買|か}って→買う：00489_kau⟧⟦あげた→あげる：00546_ageru⟧。",
       "english": "For my son's birthday I bought him a replica jersey of his favorite team.",
       "sense_numbers": [
         1
@@ -44,8 +44,45 @@
       "notes": null
     }
   ],
-  "notes": "Loanword from English 'replica'. Often implies an officially produced or high-quality copy, not a forgery or knockoff.\n\nCOMMON COLLOCATIONS:\n- レプリカユニフォーム: replica jersey (fan version of a team uniform)\n- レプリカを{作|つく}る: to make a replica\n- {精巧|せいこう}なレプリカ: a finely crafted replica\n\nSIMILAR WORDS:\n- {複製|ふくせい}: reproduction; duplicate — the native Japanese term; broader in scope\n- {模型|もけい}: model; scale model — typically a smaller-scale representation\n- {偽物|にせもの}: fake; counterfeit — implies deception, unlike レプリカ",
+  "notes": "Loanword from English 'replica'. Often implies an officially produced or high-quality copy, not a forgery or knockoff.\n\nCOMMON COLLOCATIONS:\n- レプリカユニフォーム: replica jersey (fan version of a team uniform)\n- レプリカ⟦を→を：00422_wo⟧⟦{作|つく}る→作る：00481_tsukuru⟧: to make a replica\n- ⟦{精巧|せいこう}→精巧：03775_seikou⟧なレプリカ: a finely crafted replica\n\nSIMILAR WORDS:\n- ⟦{複製|ふくせい}→複製：17528_fukusei⟧: reproduction; duplicate — the native Japanese term; broader in scope\n- ⟦{模型|もけい}→模型：07079_mokei⟧: model; scale model — typically a smaller-scale representation\n- ⟦{偽物|にせもの}→偽物：11521_nisemono⟧: fake; counterfeit — implies deception, unlike レプリカ",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17528_fukusei",
+      "reading": "ふくせい",
+      "headword": "{複製|ふくせい}",
+      "label": "reproduction"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07079_mokei",
+      "reading": "もけい",
+      "headword": "{模型|もけい}",
+      "label": "model"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11521_nisemono",
+      "reading": "にせもの",
+      "headword": "{偽物|にせもの}",
+      "label": "fake"
+    },
+    {
+      "type": "antonym",
+      "target_id": "04215_jitsubutsu",
+      "reading": "じつぶつ",
+      "headword": "{実物|じつぶつ}",
+      "label": "the real thing, actual object"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18492_mozou",
+      "reading": "もぞう",
+      "headword": "{模造|もぞう}",
+      "label": "imitation"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +90,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "general"
       ],
       "domain": []
     },
     "created": "2026-05-31T03:09:05Z",
-    "modified": "2026-08-08T18:34:17Z"
+    "modified": "2026-09-02T04:02:33Z"
   }
 }

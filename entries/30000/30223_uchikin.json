@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30223_uchikin_ex1",
-      "japanese": "{内金|うちきん}を{入|い}れた。",
+      "japanese": "{内金|うちきん}⟦を→を：00422_wo⟧⟦{入|い}れた→入れる：01098_ireru⟧。",
       "english": "I put down a part payment.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30223_uchikin_ex2",
-      "japanese": "{代金|だいきん}の{半分|はんぶん}を{内金|うちきん}として{払|はら}った。",
+      "japanese": "⟦{代金|だいきん}→代金：03416_daikin⟧⟦の→の：09472_no⟧⟦{半分|はんぶん}→半分：02938_hanbun⟧⟦を→を：00422_wo⟧{内金|うちきん}⟦として→として：06802_toshite⟧⟦{払|はら}った→払う：00535_harau⟧。",
       "english": "I paid half the price as a part payment.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30223_uchikin_ex3",
-      "japanese": "{内金|うちきん}を{受|う}け{取|と}った{時点|じてん}で、{商品|しょうひん}を{確保|かくほ}しておきます。",
+      "japanese": "{内金|うちきん}⟦を→を：00422_wo⟧⟦{受|う}け{取|と}った→受け取る：01883_uketoru⟧⟦{時点|じてん}→時点：12970_jiten⟧⟦で→で：00502_de⟧、⟦{商品|しょうひん}→商品：01436_shouhin⟧⟦を→を：00422_wo⟧⟦{確保|かくほ}→確保：13681_kakuho⟧⟦して→する：00392_suru⟧おきます。",
       "english": "We will set the item aside as soon as we receive the part payment.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Money paid toward a price before delivery. The amount is deducted from the final bill, so it is always part of the price rather than an extra charge.\n\nCOMMON COLLOCATIONS:\n- {内金|うちきん}を{入|い}れる: to put down a part payment\n- {内金|うちきん}を{払|はら}う: to pay part of the price up front\n- {内金|うちきん}として: as a part payment\n\nSIMILAR WORDS:\n- {手付金|てつけきん}: deposit — secures a contract and can be forfeited if the buyer withdraws\n- {頭金|あたまきん}: down payment — the first, larger payment in an installment purchase\n- {前払金|まえばらいきん}: advance payment — money paid ahead of delivery, often the full amount",
+  "notes": "Money paid toward a price before delivery. The amount is deducted from the final bill, so it is always part of the price rather than an extra charge.\n\nCOMMON COLLOCATIONS:\n- {内金|うちきん}⟦を→を：00422_wo⟧⟦{入|い}れる→入れる：01098_ireru⟧: to put down a part payment\n- {内金|うちきん}⟦を→を：00422_wo⟧⟦{払|はら}う→払う：00535_harau⟧: to pay part of the price up front\n- {内金|うちきん}⟦として→として：06802_toshite⟧: as a part payment\n\nSIMILAR WORDS:\n- ⟦{手付金|てつけきん}→手付金：29465_tetsukekin⟧: deposit — secures a contract and can be forfeited if the buyer withdraws\n- ⟦{頭金|あたまきん}→頭金：29480_atamakin⟧: down payment — the first, larger payment in an installment purchase\n- ⟦{前払金|まえばらいきん}→前払金：30222_maebaraikin⟧: advance payment — money paid ahead of delivery, often the full amount",
   "cross_references": [
     {
       "type": "related",
@@ -63,6 +63,13 @@
       "target_id": "30222_maebaraikin",
       "reading": "まえばらいきん",
       "headword": "{前払金|まえばらいきん}"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30206_maeukekin",
+      "reading": "まえうけきん",
+      "headword": "前受金",
+      "label": "advance payment received"
     }
   ],
   "schema_version": "2.0",
@@ -73,7 +80,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "finance",
         "money"
@@ -83,6 +90,6 @@
       ]
     },
     "created": "2026-07-29T18:17:31Z",
-    "modified": "2026-07-29T18:17:31Z"
+    "modified": "2026-09-02T04:02:39Z"
   }
 }

@@ -3,7 +3,7 @@
   "headword": "{消|き}え{失|う}せる",
   "reading": "きえうせる",
   "romaji": "kieuseru",
-  "part_of_speech": "verb-ichidan",
+  "part_of_speech": "verb (ichidan)",
   "gloss": "to vanish; to disappear completely",
   "conjugation": {
     "type": "ichidan",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "18705_kieuseru_ex1",
-      "japanese": "{霧|きり}が{消|き}え{失|う}せた。",
+      "japanese": "⟦{霧|きり}→霧：02200_kiri⟧⟦が→が：00051_ga⟧{消|き}え{失|う}せた。",
       "english": "The fog vanished completely.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "18705_kieuseru_ex2",
-      "japanese": "{希望|きぼう}が{消|き}え{失|う}せてしまった。",
+      "japanese": "⟦{希望|きぼう}→希望：00221_kibou⟧⟦が→が：00051_ga⟧{消|き}え{失|う}せてしまった。",
       "english": "All hope vanished.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "18705_kieuseru_ex3",
-      "japanese": "{夢|ゆめ}から{覚|さ}めると、さっきまでの{幸|しあわ}せな{気持|きも}ちが{消|き}え{失|う}せていた。",
+      "japanese": "⟦{夢|ゆめ}→夢：01519_yume⟧⟦から→から：00504_kara⟧⟦{覚|さ}める→覚める：02058_sameru⟧⟦と→と：00512_to⟧、⟦さっき→さっき：01264_sakki⟧⟦まで→まで：00490_made⟧⟦の→の：09472_no⟧{幸|しあわ}せな{気持|きも}ち⟦が→が：00051_ga⟧{消|き}え{失|う}せて⟦いた→いる：00495_iru⟧。",
       "english": "When I woke from the dream, the happy feeling from moments ago had completely vanished.",
       "sense_numbers": [
         1
@@ -134,8 +134,24 @@
       "notes": null
     }
   ],
-  "notes": "Compound verb from {消|き}える (to disappear) + {失|う}せる (to vanish/be lost). Stronger and more emphatic than {消|き}える alone — emphasizes complete, total disappearance.\n\nTRANSITIVITY:\n- Type: {自動詞|じどうし} (intransitive)\n\nCOMMON COLLOCATIONS:\n- {痕跡|こんせき}が{消|き}え{失|う}せる: traces vanish\n- {希望|きぼう}が{消|き}え{失|う}せる: hope vanishes\n- {不安|ふあん}が{消|き}え{失|う}せる: anxiety disappears\n- {霧|きり}が{消|き}え{失|う}せる: fog vanishes completely\n\nIMPERATIVE FORM:\n{消|き}え{失|う}せろ！ is an extremely harsh way to say 'get lost!' It is very rude and aggressive — avoid using this casually.\n\nCONTRAST:\n- {消|き}える: to disappear (neutral)\n- {消|き}え{失|う}せる: to vanish completely (emphatic, literary)",
+  "notes": "Compound verb from ⟦{消|き}える→消える：02520_kieru⟧ (to disappear) + ⟦{失|う}せる→失せる：12175_useru⟧ (to vanish/be lost). Stronger and more emphatic than ⟦{消|き}える→消える：02520_kieru⟧ alone — emphasizes complete, total disappearance.\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n\nCOMMON COLLOCATIONS:\n- ⟦{痕跡|こんせき}→痕跡：10924_konseki⟧⟦が→が：00051_ga⟧{消|き}え{失|う}せる: traces vanish\n- ⟦{希望|きぼう}→希望：00221_kibou⟧⟦が→が：00051_ga⟧{消|き}え{失|う}せる: hope vanishes\n- ⟦{不安|ふあん}→不安：00836_fuan⟧⟦が→が：00051_ga⟧{消|き}え{失|う}せる: anxiety disappears\n- ⟦{霧|きり}→霧：02200_kiri⟧⟦が→が：00051_ga⟧{消|き}え{失|う}せる: fog vanishes completely\n\nIMPERATIVE FORM:\n{消|き}え{失|う}せろ！ is an extremely harsh way to say 'get lost!' It is very rude and aggressive — avoid using this casually.\n\nSIMILAR WORDS:\n- ⟦{消|き}える→消える：02520_kieru⟧: to disappear (neutral)\n- {消|き}え{失|う}せる: to vanish completely (emphatic, literary)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02520_kieru",
+      "reading": "きえる",
+      "headword": "{消|き}える",
+      "label": "to disappear"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21491_kakikieru",
+      "reading": "かききえる",
+      "headword": "かき{消|き}える",
+      "label": "to vanish completely"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -152,6 +168,6 @@
       "verb_class": "ichidan"
     },
     "created": "2026-03-23T00:22:35Z",
-    "modified": "2026-04-10T06:54:00Z"
+    "modified": "2026-09-02T04:01:53Z"
   }
 }

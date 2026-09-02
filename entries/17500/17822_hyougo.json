@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "17822_hyougo_ex1",
-      "japanese": "{安全|あんぜん}{標語|ひょうご}を{考|かんが}える。",
+      "japanese": "⟦{安全|あんぜん}→安全：01131_anzen⟧{標語|ひょうご}⟦を→を：00422_wo⟧⟦{考|かんが}える→考える：00856_kangaeru⟧。",
       "english": "To come up with a safety slogan.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "17822_hyougo_ex2",
-      "japanese": "{学校|がっこう}で{交通|こうつう}{安全|あんぜん}の{標語|ひょうご}を{募集|ぼしゅう}している。",
+      "japanese": "⟦{学校|がっこう}→学校：00055_gakkou⟧⟦で→で：00502_de⟧⟦{交通|こうつう}{安全|あんぜん}→交通安全：22217_koutsuuanzen⟧⟦の→の：09472_no⟧{標語|ひょうご}⟦を→を：00422_wo⟧⟦{募集|ぼしゅう}→募集：03035_boshuu⟧⟦している→する：00392_suru⟧。",
       "english": "The school is soliciting traffic safety slogans.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "17822_hyougo_ex3",
-      "japanese": "{職場|しょくば}の{壁|かべ}に{貼|は}られた{標語|ひょうご}には「{安全|あんぜん}{第一|だいいち}」と{書|か}かれていた。",
+      "japanese": "⟦{職場|しょくば}→職場：04164_shokuba⟧⟦の→の：09472_no⟧⟦{壁|かべ}→壁：01290_kabe⟧⟦に→に：00314_ni⟧⟦{貼|は}られた→貼る：10447_haru⟧{標語|ひょうご}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧「⟦{安全|あんぜん}{第一|だいいち}→安全第一：24120_anzendaiichi⟧」⟦と→と：00512_to⟧⟦{書|か}かれていた→書く：00477_kaku⟧。",
       "english": "The slogan posted on the workplace wall read 'Safety First.'",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{標語|ひょうご} is a very common word in Japanese workplaces, schools, and public spaces. Safety slogans ({安全|あんぜん}{標語|ひょうご}) are particularly ubiquitous in Japanese construction sites and factories.\n\nCOMMON COLLOCATIONS:\n- {安全|あんぜん}{標語|ひょうご} (safety slogan)\n- {交通|こうつう}{安全|あんぜん}{標語|ひょうご} (traffic safety slogan)\n- {標語|ひょうご}コンクール (slogan contest)\n- {標語|ひょうご}を{掲|かか}げる (to put up a slogan)\n\nSIMILAR WORDS:\n- スローガン: loanword \"slogan\" — used more in political and social movement contexts\n- モットー: loanword \"motto\" — a personal or organizational guiding principle\n- キャッチフレーズ: catchphrase — used more in advertising",
+  "notes": "USAGE:\n{標語|ひょうご} is a very common word in Japanese workplaces, schools, and public spaces. Safety slogans (⟦{安全|あんぜん}→安全：01131_anzen⟧{標語|ひょうご}) are particularly ubiquitous in Japanese construction sites and factories.\n\nCOMMON COLLOCATIONS:\n- ⟦{安全|あんぜん}→安全：01131_anzen⟧{標語|ひょうご} (safety slogan)\n- ⟦{交通|こうつう}{安全|あんぜん}→交通安全：22217_koutsuuanzen⟧{標語|ひょうご} (traffic safety slogan)\n- {標語|ひょうご}⟦コンクール→コンクール：28795_konkuuru⟧ (slogan contest)\n- {標語|ひょうご}⟦を→を：00422_wo⟧⟦{掲|かか}げる→掲げる：12791_kakageru⟧ (to put up a slogan)\n\nSIMILAR WORDS:\n- ⟦スローガン→スローガン：11629_suroogan⟧: loanword \"slogan\" — used more in political and social movement contexts\n- ⟦モットー→モットー：29293_mottoo⟧: loanword \"motto\" — a personal or organizational guiding principle\n- ⟦キャッチフレーズ→キャッチフレーズ：22831_kyacchifureezu⟧: catchphrase — used more in advertising",
   "cross_references": [
     {
       "type": "synonym",
@@ -52,11 +52,25 @@
       "reading": "すろーがん",
       "headword": "スローガン",
       "label": "loanword slogan"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29293_mottoo",
+      "reading": "もっとー",
+      "headword": "モットー",
+      "label": "loanword \"motto\""
+    },
+    {
+      "type": "contrast",
+      "target_id": "22831_kyacchifureezu",
+      "reading": "きゃっちふれーず",
+      "headword": "キャッチフレーズ",
+      "label": "catchphrase"
     }
   ],
   "metadata": {
     "created": "2026-03-19T04:22:18Z",
-    "modified": "2026-05-07T08:09:41Z",
+    "modified": "2026-09-02T04:01:49Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

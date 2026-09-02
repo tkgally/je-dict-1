@@ -15,41 +15,73 @@
   "examples": [
     {
       "id": "10970_sakuban_ex1",
-      "japanese": "{昨晩|さくばん}はよく{眠|ねむ}れた。",
+      "japanese": "{昨晩|さくばん}⟦は→は：00079_ha⟧⟦よく→よく：00601_yoku⟧⟦{眠|ねむ}れた→眠れる：15166_nemureru⟧。",
       "english": "I slept well last night.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10970_sakuban_ex2",
-      "japanese": "{昨晩|さくばん}の{地震|じしん}は{大|おお}きかった。",
+      "japanese": "{昨晩|さくばん}⟦の→の：09472_no⟧⟦{地震|じしん}→地震：01608_jishin⟧⟦は→は：00079_ha⟧⟦{大|おお}きかった→大きい：00335_ookii⟧。",
       "english": "Last night's earthquake was big.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10970_sakuban_ex3",
-      "japanese": "{昨晩|さくばん}は{友人|ゆうじん}と{食事|しょくじ}をしてから{映画|えいが}を{見|み}ました。",
+      "japanese": "{昨晩|さくばん}⟦は→は：00079_ha⟧⟦{友人|ゆうじん}→友人：03649_yuujin⟧⟦と→と：00512_to⟧⟦{食事|しょくじ}→食事：02087_shokuji⟧⟦を→を：00422_wo⟧⟦して→する：00392_suru⟧⟦から→から：00504_kara⟧⟦{映画|えいが}→映画：02273_eiga⟧⟦を→を：00422_wo⟧⟦{見|み}ました→見る：00283_miru⟧。",
       "english": "Last night I had dinner with a friend and then watched a movie.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "SYNONYMS:\n・ゆうべ — the most common everyday word for \"last night\" (informal)\n・{昨夜|さくや} — literary/formal, often seen in writing\n・{昨晩|さくばん} — slightly formal, common in both speech and writing\n\n{昨晩|さくばん} is a time noun and can be used adverbially without a particle: {昨晩|さくばん}{食|た}べた (I ate last night).",
-  "cross_references": [],
+  "notes": "SIMILAR WORDS:\n- ⟦ゆうべ→ゆうべ：02487_yuube⟧ — the most common everyday word for \"last night\" (informal)\n- ⟦{昨夜|さくや}→昨夜：02999_sakuya⟧ — literary/formal, often seen in writing\n- {昨晩|さくばん} — slightly formal, common in both speech and writing\n\n{昨晩|さくばん} is a time noun and can be used adverbially without a particle: {昨晩|さくばん}⟦{食|た}べた→食べる：00396_taberu⟧ (I ate last night).",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02487_yuube",
+      "reading": "ゆうべ",
+      "headword": "ゆうべ",
+      "label": "the most common everyday word for \"last…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02999_sakuya",
+      "reading": "さくや",
+      "headword": "{昨夜|さくや}",
+      "label": "literary/formal, often seen in writing"
+    },
+    {
+      "type": "related",
+      "target_id": "02882_konban",
+      "reading": "こんばん",
+      "headword": "{今晩|こんばん}",
+      "label": "tonight, this evening"
+    }
+  ],
   "metadata": {
     "created": "2026-02-11T23:06:15Z",
-    "modified": "2026-02-11T23:06:15Z",
+    "modified": "2026-09-02T04:01:23Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["time-period"]
+      "semantic": [
+        "time-period"
+      ]
     }
   }
 }

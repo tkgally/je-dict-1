@@ -3,7 +3,7 @@
   "headword": "ぶるぶる",
   "reading": "ぶるぶる",
   "romaji": "buruburu",
-  "part_of_speech": "adverb",
+  "part_of_speech": "adverb, onomatopoeia",
   "gloss": "trembling; shivering; shaking",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26864_buruburu_ex1",
-      "japanese": "{寒|さむ}くてぶるぶる{震|ふる}えた。",
+      "japanese": "⟦{寒|さむ}くて→寒い：00664_samui⟧ぶるぶる⟦{震|ふる}えた→震える：02411_furueru⟧。",
       "english": "I was shivering from the cold.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26864_buruburu_ex2",
-      "japanese": "{犬|いぬ}が{怖|こわ}がってぶるぶる{震|ふる}えている。",
+      "japanese": "⟦{犬|いぬ}→犬：00632_inu⟧⟦が→が：00051_ga⟧{怖|こわ}がってぶるぶる⟦{震|ふる}えている→震える：02411_furueru⟧。",
       "english": "The dog is trembling with fear.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26864_buruburu_ex3",
-      "japanese": "{怒|いか}りでぶるぶると{手|て}が{震|ふる}えた。",
+      "japanese": "⟦{怒|いか}り→怒り：01780_ikari⟧⟦で→で：00502_de⟧ぶるぶる⟦と→と：00512_to⟧⟦{手|て}→手：00569_te⟧⟦が→が：00051_ga⟧⟦{震|ふる}えた→震える：02411_furueru⟧。",
       "english": "My hands trembled with anger.",
       "sense_numbers": [
         1
@@ -45,7 +45,7 @@
     },
     {
       "id": "26864_buruburu_ex4",
-      "japanese": "{薄着|うすぎ}で{外|そと}に{出|で}たら、ぶるぶる{震|ふる}えが{止|と}まらなかった。",
+      "japanese": "⟦{薄着|うすぎ}→薄着：14028_usugi⟧⟦で→で：00502_de⟧⟦{外|そと}→外：00671_soto⟧⟦に→に：00314_ni⟧⟦{出|で}たら→出る：00513_deru⟧、ぶるぶる⟦{震|ふる}え→震え：18840_furue⟧⟦が→が：00051_ga⟧⟦{止|と}まらなかった→止まる：00555_tomaru⟧。",
       "english": "When I went outside in light clothing, I couldn't stop shivering.",
       "sense_numbers": [
         1
@@ -54,8 +54,30 @@
       "notes": null
     }
   ],
-  "notes": "One of the most common body-related onomatopoeia in Japanese. The voiced consonant ぶ gives it a heavier, more visceral feeling than the lighter がたがた. Always involuntary — the shaking is caused by an external stimulus (cold, fear, anger) that the person cannot control.\n\nCOMMON COLLOCATIONS:\n- ぶるぶる{震|ふる}える: to tremble/shiver\n- ぶるぶると{震|ふる}える: to tremble (with と particle)\n- {寒|さむ}さでぶるぶる: shivering from cold\n- {恐怖|きょうふ}でぶるぶる: trembling with fear\n\nSIMILAR WORDS:\n- がたがた{震|ふる}える: to shiver violently — stronger, implies teeth chattering or louder shaking\n- わなわな{震|ふる}える: to tremble (with emotion) — emphasizes emotional intensity, especially anger or shock\n- ぷるぷる: to quiver — lighter, cuter vibration; used for jelly-like textures or small movements",
-  "cross_references": [],
+  "notes": "One of the most common body-related onomatopoeia in Japanese. The voiced consonant ぶ gives it a heavier, more visceral feeling than the lighter ⟦がたがた→がたがた：05274_gatagata⟧. Always involuntary — the shaking is caused by an external stimulus (cold, fear, anger) that the person cannot control.\n\nCOMMON COLLOCATIONS:\n- ぶるぶる⟦{震|ふる}える→震える：02411_furueru⟧: to tremble/shiver\n- ぶるぶる⟦と→と：00512_to⟧⟦{震|ふる}える→震える：02411_furueru⟧: to tremble (with ⟦と→と：00512_to⟧ particle)\n- ⟦{寒|さむ}さ→寒さ：12336_samusa⟧⟦で→で：00502_de⟧ぶるぶる: shivering from cold\n- ⟦{恐怖|きょうふ}→恐怖：02585_kyoufu⟧⟦で→で：00502_de⟧ぶるぶる: trembling with fear\n\nSIMILAR WORDS:\n- ⟦がたがた→がたがた：05274_gatagata⟧⟦{震|ふる}える→震える：02411_furueru⟧: to shiver violently — stronger, implies teeth chattering or louder shaking\n- わなわな⟦{震|ふる}える→震える：02411_furueru⟧: to tremble (with emotion) — emphasizes emotional intensity, especially anger or shock\n- ⟦ぷるぷる→ぷるぷる：28624_purupuru⟧: to quiver — lighter, cuter vibration; used for jelly-like textures or small movements",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "28624_purupuru",
+      "reading": "ぷるぷる",
+      "headword": "ぷるぷる",
+      "label": "to quiver"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10791_gakugaku",
+      "reading": "がくがく",
+      "headword": "ガクガク",
+      "label": "shaking, trembling"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27435_zokuzoku",
+      "reading": "ぞくぞく",
+      "headword": "ぞくぞく",
+      "label": "shivering"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -71,6 +93,6 @@
       ]
     },
     "created": "2026-05-05T14:13:53Z",
-    "modified": "2026-08-06T12:44:19Z"
+    "modified": "2026-09-02T04:02:28Z"
   }
 }

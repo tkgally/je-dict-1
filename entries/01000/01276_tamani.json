@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "たまに indicates infrequent occurrence, typically less often than ⟦ときどき→時々：00600_tokidoki⟧.\n\nFREQUENCY SCALE (HIGH → LOW):\n- ⟦いつも→いつも：00599_itsumo⟧: always (100%)\n- ⟦よく→よく：00601_yoku⟧: often (~70-80%)\n- ⟦ときどき→時々：00600_tokidoki⟧: sometimes (~40-60%)\n- たまに: occasionally (~10-30%)\n- ⟦めったに→滅多に：03806_mettani⟧〜ない: rarely (~1-5%)\n- ⟦{全然|ぜんぜん}→全然：00598_zenzen⟧〜ない: never (0%)\n\nたまに vs たまには:\n- たまに: neutral statement of infrequent occurrence\n- たまには: emphatic, suggests 'for once' or 'for a change'\n  Example: たまには⟦{外|そと}→外：00671_soto⟧で⟦{食|た}べよう→食べる：00396_taberu⟧ (Let's eat out for a change)\n\nCOMMON PATTERNS:\n- たまに〜する: to occasionally do ~\n- たまに〜ことがある: sometimes ~ happens\n- たまにしか〜ない: only rarely ~\n\nETYMOLOGY:\nFrom {偶|たま} (chance, accident) + に (particle)",
+  "notes": "たまに indicates infrequent occurrence, typically less often than ⟦ときどき→時々：00600_tokidoki⟧.\n\nFREQUENCY SCALE (HIGH → LOW):\n- ⟦いつも→いつも：00599_itsumo⟧: always (100%)\n- ⟦よく→よく：00601_yoku⟧: often (~70-80%)\n- ⟦ときどき→時々：00600_tokidoki⟧: sometimes (~40-60%)\n- たまに: occasionally (~10-30%)\n- ⟦めったに→滅多に：03806_mettani⟧〜⟦ない→ない：01118_nai⟧: rarely (~1-5%)\n- ⟦{全然|ぜんぜん}→全然：00598_zenzen⟧〜⟦ない→ない：01118_nai⟧: never (0%)\n\nたまに vs たまに⟦は→は：00079_ha⟧:\n- たまに: neutral statement of infrequent occurrence\n- たまに⟦は→は：00079_ha⟧: emphatic, suggests 'for once' or 'for a change'\n  Example: たまに⟦は→は：00079_ha⟧⟦{外|そと}→外：00671_soto⟧⟦で→で：00502_de⟧⟦{食|た}べよう→食べる：00396_taberu⟧ (Let's eat out for a change)\n\nCOMMON PATTERNS:\n- たまに〜⟦する→する：00392_suru⟧: to occasionally do ~\n- たまに〜こと⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧: sometimes ~ happens\n- たまにしか〜⟦ない→ない：01118_nai⟧: only rarely ~\n\nETYMOLOGY:\nFrom {偶|たま} (chance, accident) + ⟦に→に：00314_ni⟧ (particle)",
   "cross_references": [
     {
       "type": "contrast",
@@ -77,11 +77,18 @@
       "reading": "まれ",
       "headword": "{稀|まれ}",
       "target_id": "00269_mare"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10406_tokiori",
+      "reading": "ときおり",
+      "headword": "{時折|ときおり}",
+      "label": "occasionally, from time to time"
     }
   ],
   "metadata": {
     "created": "2026-01-08T03:55:00Z",
-    "modified": "2026-07-30T09:18:34Z",
+    "modified": "2026-09-02T04:00:59Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

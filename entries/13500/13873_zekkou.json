@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "13873_zekkou_ex1",
-      "japanese": "{絶好|ぜっこう}のチャンスだ。",
+      "japanese": "{絶好|ぜっこう}⟦の→の：09472_no⟧⟦チャンス→チャンス：03857_chansu⟧だ。",
       "english": "It's a golden opportunity.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "13873_zekkou_ex2",
-      "japanese": "{今日|きょう}は{花見|はなみ}に{絶好|ぜっこう}の{天気|てんき}だ。",
+      "japanese": "⟦{今日|きょう}→今日：00496_kyou⟧⟦は→は：00079_ha⟧⟦{花見|はなみ}→花見：01700_hanami⟧⟦に→に：00314_ni⟧{絶好|ぜっこう}⟦の→の：09472_no⟧⟦{天気|てんき}→天気：00582_tenki⟧だ。",
       "english": "Today's weather is perfect for cherry blossom viewing.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "13873_zekkou_ex3",
-      "japanese": "この{丘|おか}は{街|まち}を{見渡|みわた}す{絶好|ぜっこう}のスポットだ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{丘|おか}→丘：02183_oka⟧⟦は→は：00079_ha⟧⟦{街|まち}→街：17306_machi⟧⟦を→を：00422_wo⟧⟦{見渡|みわた}す→見渡す：07169_miwatasu⟧{絶好|ぜっこう}⟦の→の：09472_no⟧⟦スポット→スポット：11578_supotto⟧だ。",
       "english": "This hill is the perfect spot for overlooking the city.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,26 @@
       ]
     }
   ],
-  "notes": "USAGE:\nAlmost always used as a modifier with の: {絶好|ぜっこう}の + noun. Common nouns it modifies include チャンス (chance), {機会|きかい} (opportunity), {天気|てんき}/{日和|びより} (weather), {条件|じょうけん} (conditions), and スポット/{場所|ばしょ} (spot/place). Rarely used as a standalone noun or predicate.\n\nSIMILAR WORDS:\n- {最高|さいこう}: the best, the greatest (broader usage)\n- {最適|さいてき}: most suitable, optimal (more analytical)\n\nCOMMON COLLOCATIONS:\n- {絶好|ぜっこう}のチャンス: golden opportunity\n- {絶好|ぜっこう}の{機会|きかい}: perfect opportunity\n- {絶好|ぜっこう}の{天気|てんき}: perfect weather\n- {絶好|ぜっこう}の{日和|びより}: ideal weather (for an activity)\n- {絶好|ぜっこう}の{条件|じょうけん}: ideal conditions\n- {絶好|ぜっこう}の{場所|ばしょ}: perfect location",
-  "cross_references": [],
+  "notes": "USAGE:\nAlmost always used as a modifier with ⟦の→の：09472_no⟧: {絶好|ぜっこう}⟦の→の：09472_no⟧ + noun. Common nouns it modifies include ⟦チャンス→チャンス：03857_chansu⟧ (chance), ⟦{機会|きかい}→機会：01302_kikai⟧ (opportunity), ⟦{天気|てんき}→天気：00582_tenki⟧/{日和|びより} (weather), ⟦{条件|じょうけん}→条件：03285_jouken⟧ (conditions), and ⟦スポット→スポット：11578_supotto⟧/⟦{場所|ばしょ}→場所：00829_basho⟧ (spot/place). Rarely used as a standalone noun or predicate.\n\nSIMILAR WORDS:\n- ⟦{最高|さいこう}→最高：02637_saikou⟧: the best, the greatest (broader usage)\n- ⟦{最適|さいてき}→最適：13010_saiteki⟧: most suitable, optimal (more analytical)\n\nCOMMON COLLOCATIONS:\n- {絶好|ぜっこう}⟦の→の：09472_no⟧⟦チャンス→チャンス：03857_chansu⟧: golden opportunity\n- {絶好|ぜっこう}⟦の→の：09472_no⟧⟦{機会|きかい}→機会：01302_kikai⟧: perfect opportunity\n- {絶好|ぜっこう}⟦の→の：09472_no⟧⟦{天気|てんき}→天気：00582_tenki⟧: perfect weather\n- {絶好|ぜっこう}⟦の→の：09472_no⟧{日和|びより}: ideal weather (for an activity)\n- {絶好|ぜっこう}⟦の→の：09472_no⟧⟦{条件|じょうけん}→条件：03285_jouken⟧: ideal conditions\n- {絶好|ぜっこう}⟦の→の：09472_no⟧⟦{場所|ばしょ}→場所：00829_basho⟧: perfect location",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02637_saikou",
+      "reading": "さいこう",
+      "headword": "{最高|さいこう}",
+      "label": "the best, the greatest"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13010_saiteki",
+      "reading": "さいてき",
+      "headword": "{最適|さいてき}",
+      "label": "most suitable, optimal"
+    }
+  ],
   "metadata": {
     "created": "2026-02-27T05:50:24Z",
-    "modified": "2026-02-27T05:50:24Z",
+    "modified": "2026-09-02T04:01:35Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

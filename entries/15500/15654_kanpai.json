@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "15654_kanpai_ex1",
-      "japanese": "{今日|きょう}の{試合|しあい}は{完敗|かんぱい}だった。",
+      "japanese": "⟦{今日|きょう}→今日：00496_kyou⟧⟦の→の：09472_no⟧⟦{試合|しあい}→試合：01601_shiai⟧⟦は→は：00079_ha⟧{完敗|かんぱい}だった。",
       "english": "Today's match was a complete defeat.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "15654_kanpai_ex2",
-      "japanese": "{相手|あいて}チームに{完敗|かんぱい}を{喫|きっ}した。",
+      "japanese": "⟦{相手|あいて}→相手：01677_aite⟧⟦チーム→チーム：03858_chiimu⟧⟦に→に：00314_ni⟧{完敗|かんぱい}⟦を→を：00422_wo⟧⟦{喫|きっ}した→喫する：29124_kissuru⟧。",
       "english": "We suffered a total defeat at the hands of the opposing team.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "15654_kanpai_ex3",
-      "japanese": "{選挙|せんきょ}で{完敗|かんぱい}した{候補者|こうほしゃ}は{引退|いんたい}を{表明|ひょうめい}した。",
+      "japanese": "⟦{選挙|せんきょ}→選挙：03303_senkyo⟧⟦で→で：00502_de⟧{完敗|かんぱい}⟦した→する：00392_suru⟧⟦{候補者|こうほしゃ}→候補者：20439_kouhosha⟧⟦は→は：00079_ha⟧⟦{引退|いんたい}→引退：01848_intai⟧⟦を→を：00422_wo⟧⟦{表明|ひょうめい}→表明：14052_hyoumei⟧⟦した→する：00392_suru⟧。",
       "english": "The candidate who suffered a crushing defeat in the election announced their retirement.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nOften used with {喫|きっ}する (to suffer/sustain) in the formal expression {完敗|かんぱい}を{喫|きっ}する. Common in sports reporting and political commentary.\n\nCOMMON COLLOCATIONS:\n- {完敗|かんぱい}を{喫|きっ}する (to suffer a complete defeat)\n- {完敗|かんぱい}に{終|お}わる (to end in total defeat)\n\nSIMILAR WORDS:\n- {惨敗|ざんぱい}: miserable defeat (emphasizes how devastating it was)\n- {大敗|たいはい}: major defeat (large-scale loss)\n- {完勝|かんしょう}: complete victory (the opposite)",
+  "notes": "USAGE:\nOften used with ⟦{喫|きっ}する→喫する：29124_kissuru⟧ (to suffer/sustain) in the formal expression {完敗|かんぱい}⟦を→を：00422_wo⟧⟦{喫|きっ}する→喫する：29124_kissuru⟧. Common in sports reporting and political commentary.\n\nCOMMON COLLOCATIONS:\n- {完敗|かんぱい}⟦を→を：00422_wo⟧⟦{喫|きっ}する→喫する：29124_kissuru⟧ (to suffer a complete defeat)\n- {完敗|かんぱい}⟦に→に：00314_ni⟧{終|お}わる (to end in total defeat)\n\nSIMILAR WORDS:\n- ⟦{惨敗|ざんぱい}→惨敗：08236_zanpai⟧: miserable defeat (emphasizes how devastating it was)\n- ⟦{大敗|たいはい}→大敗：08201_taihai⟧: major defeat (large-scale loss)\n- ⟦{完勝|かんしょう}→完勝：18824_kanshou⟧: complete victory (the opposite)",
   "cross_references": [
     {
       "type": "antonym",
@@ -142,11 +142,25 @@
       "reading": "かんしょう",
       "headword": "{完勝|かんしょう}",
       "label": "complete victory"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08236_zanpai",
+      "reading": "ざんぱい",
+      "headword": "{惨敗|ざんぱい}",
+      "label": "miserable defeat"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08201_taihai",
+      "reading": "たいはい",
+      "headword": "{大敗|たいはい}",
+      "label": "major defeat"
     }
   ],
   "metadata": {
     "created": "2026-03-08T06:41:30Z",
-    "modified": "2026-05-01T09:03:34Z",
+    "modified": "2026-09-02T04:01:42Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

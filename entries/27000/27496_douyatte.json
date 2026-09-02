@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "27496_douyatte_ex1",
-      "japanese": "どうやって{使|つか}うんですか？",
+      "japanese": "どうやって⟦{使|つか}う→使う：00473_tsukau⟧んです⟦か→か：09473_ka⟧？",
       "english": "How do you use it?",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "27496_douyatte_ex2",
-      "japanese": "{駅|えき}までどうやって{行|い}きますか？",
+      "japanese": "⟦{駅|えき}→駅：02180_eki⟧⟦まで→まで：00490_made⟧どうやって⟦{行|い}きます→行く：00119_iku⟧⟦か→か：09473_ka⟧？",
       "english": "How do you get to the station?",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "27496_douyatte_ex3",
-      "japanese": "{彼|かれ}はどうやってあの{難|むずか}しい{問題|もんだい}を{解|と}いたのだろう。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧どうやって⟦あの→あの：00915_ano⟧⟦{難|むずか}しい→難しい：00517_muzukashii⟧⟦{問題|もんだい}→問題：00797_mondai⟧⟦を→を：00422_wo⟧⟦{解|と}いた→解く：02301_toku⟧⟦の→の：09472_no⟧だろう。",
       "english": "I wonder how he solved that difficult problem.",
       "sense_numbers": [
         1
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "Asks about the method, procedure, or means of an action. Normally followed by a verb describing the action whose method is being asked about.\n\nCOMMON PATTERNS:\n- どうやって + {verb}: how does one do X?\n- どうやって{作|つく}る？: how do you make it?\n- どうやって{覚|おぼ}える？: how do you memorize it?\n- どうやってここに{来|き}たの？: how did you get here?\n\nSIMILAR WORDS:\n- どう: how; what — broader; asks about state or impression as well as method ({味|あじ}はどう？ \"How does it taste?\")\n- どのように: how; in what way — more formal/written equivalent of どうやって\n- なぜ / どうして: why — asks for reason, not method",
+  "notes": "Asks about the method, procedure, or means of an action. Normally followed by a verb describing the action whose method is being asked about.\n\nCOMMON PATTERNS:\n- どうやって + {verb}: how does one do X?\n- どうやって⟦{作|つく}る→作る：00481_tsukuru⟧？: how do you make it?\n- どうやって⟦{覚|おぼ}える→覚える：00739_oboeru⟧？: how do you memorize it?\n- どうやって⟦ここ→ここ：00961_koko⟧⟦に→に：00314_ni⟧⟦{来|き}た→来る：00254_kuru⟧⟦の→の：09472_no⟧？: how did you get here?\n\nSIMILAR WORDS:\n- ⟦どう→どう：00543_dou⟧: how; what — broader; asks about state or impression as well as method (⟦{味|あじ}→味：00826_aji⟧はどう？ \"How does it taste?\")\n- ⟦どのように→どのように：23674_donoyouni⟧: how; in what way — more formal/written equivalent of どうやって\n- ⟦なぜ→なぜ：01484_naze⟧ / ⟦どうして→どうして：00834_doushite⟧: why — asks for reason, not method",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23674_donoyouni",
+      "reading": "どのように",
+      "headword": "どのように",
+      "label": "how"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01484_naze",
+      "reading": "なぜ",
+      "headword": "なぜ",
+      "label": "why"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00834_doushite",
+      "reading": "どうして",
+      "headword": "どうして",
+      "label": "why"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25841_ikanishite",
+      "reading": "いかにして",
+      "headword": "いかにして",
+      "label": "how"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +83,13 @@
         "expression"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "grammatical"
       ],
       "domain": []
     },
     "created": "2026-05-13T03:04:47Z",
-    "modified": "2026-08-07T16:10:18Z"
+    "modified": "2026-09-02T04:02:30Z"
   }
 }

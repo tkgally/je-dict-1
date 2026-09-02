@@ -2,7 +2,7 @@
   "id": "02088_sewa",
   "headword": "{世話|せわ}",
   "reading": "せわ",
-  "part_of_speech": "noun (verbal)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "care, looking after, help",
   "definitions": [
     {
@@ -79,11 +79,33 @@
       ]
     }
   ],
-  "notes": "{世話|せわ} means care, assistance, or looking after someone/something.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- No standard intransitive pair\n- Pattern: [noun]⟦を→を：00422_wo⟧{世話|せわ}する\n\nGRAMMAR:\nUsed as a noun or with する ({世話|せわ}する = to take care of).\n\nKEY EXPRESSIONS:\n- {世話|せわ}⟦を→を：00422_wo⟧する: to take care of, to look after\n- お{世話|せわ}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧: to receive someone's help/care (polite)\n- お{世話|せわ}になりました: Thank you for your help (past)\n- {世話|せわ}⟦を→を：00422_wo⟧⟦{焼|や}く→焼く：01123_yaku⟧: to meddle, to be overly helpful\n- {世話|せわ}⟦が→が：00051_ga⟧⟦{焼|や}ける→焼ける：01138_yakeru⟧: to be troublesome, high-maintenance\n\nCOMMON COLLOCATIONS:\n- ⟦{子供|こども}→子供：00554_kodomo⟧⟦の→の：09472_no⟧{世話|せわ}: childcare\n- ⟦ペット→ペット：02959_petto⟧⟦の→の：09472_no⟧{世話|せわ}: pet care\n- ⟦{介護|かいご}→介護：04805_kaigo⟧⟦の→の：09472_no⟧{世話|せわ}: nursing care\n\nBUSINESS USAGE:\nお{世話|せわ}になっております is a standard business greeting meaning \"Thank you for your continued support.\"\n\nRELATED:\n- ⟦{面倒|めんどう}→面倒：03809_mendou⟧⟦を→を：00422_wo⟧⟦{見|み}る→見る：00283_miru⟧: to look after, take care of\n- ⟦{介護|かいご}→介護：04805_kaigo⟧: nursing care (elderly/disabled)",
-  "cross_references": [],
+  "notes": "{世話|せわ} means care, assistance, or looking after someone/something.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- No standard intransitive pair\n- Pattern: [noun]⟦を→を：00422_wo⟧{世話|せわ}⟦する→する：00392_suru⟧\n\nCOMMON PATTERNS:\nUsed as a noun or with ⟦する→する：00392_suru⟧ ({世話|せわ}⟦する→する：00392_suru⟧ = to take care of).\n\nCOMMON EXPRESSIONS:\n- {世話|せわ}⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧: to take care of, to look after\n- お{世話|せわ}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧: to receive someone's help/care (polite)\n- お{世話|せわ}⟦に→に：00314_ni⟧⟦なりました→なる：01970_naru⟧: Thank you for your help (past)\n- {世話|せわ}⟦を→を：00422_wo⟧⟦{焼|や}く→焼く：01123_yaku⟧: to meddle, to be overly helpful\n- {世話|せわ}⟦が→が：00051_ga⟧⟦{焼|や}ける→焼ける：01138_yakeru⟧: to be troublesome, high-maintenance\n\nCOMMON COLLOCATIONS:\n- ⟦{子供|こども}→子供：00554_kodomo⟧⟦の→の：09472_no⟧{世話|せわ}: childcare\n- ⟦ペット→ペット：02959_petto⟧⟦の→の：09472_no⟧{世話|せわ}: pet care\n- ⟦{介護|かいご}→介護：04805_kaigo⟧⟦の→の：09472_no⟧{世話|せわ}: nursing care\n\nBUSINESS USAGE:\nお{世話|せわ}になって⟦おります→おる：01324_oru⟧ is a standard business greeting meaning \"Thank you for your continued support.\"\n\nRELATED WORDS:\n- ⟦{面倒|めんどう}→面倒：03809_mendou⟧⟦を→を：00422_wo⟧⟦{見|み}る→見る：00283_miru⟧: to look after, take care of\n- ⟦{介護|かいご}→介護：04805_kaigo⟧: nursing care (elderly/disabled)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "18263_mendouwomiru",
+      "reading": "めんどうをみる",
+      "headword": "{面倒|めんどう}を{見|み}る",
+      "label": "to look after, take care of"
+    },
+    {
+      "type": "related",
+      "target_id": "04805_kaigo",
+      "reading": "かいご",
+      "headword": "{介護|かいご}",
+      "label": "nursing care"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07178_teire",
+      "reading": "ていれ",
+      "headword": "{手入|てい}れ",
+      "label": "maintenance"
+    }
+  ],
   "metadata": {
     "created": "2026-01-09T12:23:03Z",
-    "modified": "2026-05-18T14:17:42Z",
+    "modified": "2026-09-02T04:01:01Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

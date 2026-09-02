@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "17241_hikiniku_ex1",
-      "japanese": "ひき{肉|にく}を200グラム{買|か}った。",
+      "japanese": "ひき{肉|にく}⟦を→を：00422_wo⟧200⟦グラム→グラム：01354_guramu⟧⟦{買|か}った→買う：00489_kau⟧。",
       "english": "I bought 200 grams of ground meat.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "17241_hikiniku_ex2",
-      "japanese": "ハンバーグにはひき{肉|にく}を{使|つか}う。",
+      "japanese": "⟦ハンバーグ→ハンバーグ：01785_hanbaagu⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧ひき{肉|にく}⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧。",
       "english": "Ground meat is used for hamburger steaks.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "17241_hikiniku_ex3",
-      "japanese": "{豚|ぶた}と{牛|ぎゅう}の{合|あ}いびきの ひき{肉|にく}で{餃子|ぎょうざ}を{作|つく}った。",
+      "japanese": "⟦{豚|ぶた}→豚：04710_buta⟧⟦と→と：00512_to⟧{牛|ぎゅう}⟦の→の：09472_no⟧{合|あ}いびき⟦の→の：09472_no⟧ ひき{肉|にく}⟦で→で：00502_de⟧⟦{餃子|ぎょうざ}→餃子：08634_gyouza⟧⟦を→を：00422_wo⟧⟦{作|つく}った→作る：00481_tsukuru⟧。",
       "english": "I made gyoza with a mix of ground pork and beef.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,40 @@
       ]
     }
   ],
-  "notes": "WORD FORMATION:\nひき ({挽|ひ}き, grinding) + {肉|にく} (meat) = ground meat\n\nKANJI NOTE:\nCan be written as {挽肉|ひきにく} or {挽|ひ}き{肉|にく}. The mixed form ひき{肉|にく} and full hiragana ひきにく are also common, especially at supermarkets.\n\nCOMMON TYPES:\n- {豚|ぶた}ひき{肉|にく}: ground pork\n- {牛|ぎゅう}ひき{肉|にく}: ground beef\n- {鶏|とり}ひき{肉|にく}: ground chicken\n- {合|あ}いびき{肉|にく}: mixed ground meat (usually pork and beef)",
-  "cross_references": [],
+  "notes": "FORMS:\nひき (⟦{挽|ひ}き→挽く：12794_hiku⟧, grinding) + ⟦{肉|にく}→肉：02240_niku⟧ (meat) = ground meat\n\nWRITING:\nCan be written as ⟦{挽肉|ひきにく}→挽肉：14783_hikiniku⟧ or {挽|ひ}き{肉|にく}. The mixed form ひき{肉|にく} and full hiragana ひきにく are also common, especially at supermarkets.\n\nTYPES:\n- ⟦{豚|ぶた}→豚：04710_buta⟧ひき{肉|にく}: ground pork\n- {牛|ぎゅう}ひき{肉|にく}: ground beef\n- {鶏|とり}ひき{肉|にく}: ground chicken\n- ⟦{合|あ}いびき{肉|にく}→合いびき肉：22856_aibikiniku⟧: mixed ground meat (usually pork and beef)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20032_minchi",
+      "reading": "みんち",
+      "headword": "ミンチ",
+      "label": "minced meat"
+    },
+    {
+      "type": "related",
+      "target_id": "22856_aibikiniku",
+      "reading": "あいびきにく",
+      "headword": "{合|あ}いびき{肉|にく}",
+      "label": "mixed ground meat (beef and pork)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23063_aibiki",
+      "reading": "あいびき",
+      "headword": "{合挽|あいび}き",
+      "label": "mixed ground meat (beef and pork)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23446_nikudane",
+      "reading": "にくだね",
+      "headword": "{肉|にく}だね",
+      "label": "meat mixture"
+    }
+  ],
   "metadata": {
     "created": "2026-03-17T02:12:24Z",
-    "modified": "2026-03-17T02:12:24Z",
+    "modified": "2026-09-02T04:01:47Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

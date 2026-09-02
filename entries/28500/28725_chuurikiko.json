@@ -15,41 +15,67 @@
   "examples": [
     {
       "id": "28725_chuurikiko_ex1",
-      "japanese": "{中力粉|ちゅうりきこ}を{使|つか}う。",
+      "japanese": "{中力粉|ちゅうりきこ}⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧。",
       "english": "Use medium-gluten flour.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28725_chuurikiko_ex2",
-      "japanese": "うどんは{中力粉|ちゅうりきこ}で{作|つく}る。",
+      "japanese": "⟦うどん→うどん：05182_udon⟧⟦は→は：00079_ha⟧{中力粉|ちゅうりきこ}⟦で→で：00502_de⟧⟦{作|つく}る→作る：00481_tsukuru⟧。",
       "english": "Udon is made with medium-gluten flour.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28725_chuurikiko_ex3",
-      "japanese": "{中力粉|ちゅうりきこ}は{薄力粉|はくりきこ}より{弾力|だんりょく}があり、{強力粉|きょうりきこ}よりやわらかい{食感|しょっかん}になる。",
+      "japanese": "{中力粉|ちゅうりきこ}⟦は→は：00079_ha⟧⟦{薄力粉|はくりきこ}→薄力粉：20705_hakurikiko⟧⟦より→より：09476_yori⟧⟦{弾力|だんりょく}→弾力：14924_danryoku⟧⟦が→が：00051_ga⟧⟦あり→ある：00006_aru⟧、⟦{強力粉|きょうりきこ}→強力粉：20706_kyourikiko⟧⟦より→より：09476_yori⟧やわらかい⟦{食感|しょっかん}→食感：06636_shokkan⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧。",
       "english": "Medium-gluten flour has more elasticity than cake flour but produces a softer texture than bread flour.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Japanese wheat flour is classified by protein content into three main grades. {中力粉|ちゅうりきこ} sits in the middle and is the standard flour for udon, somen, and similar noodles.\n\nFLOUR GRADES:\n- {薄力粉|はくりきこ}: cake flour (low protein) — tempura batter, cakes, cookies\n- {中力粉|ちゅうりきこ}: medium flour — udon, takoyaki, okonomiyaki\n- {強力粉|きょうりきこ}: bread flour (high protein) — bread, pizza dough\n\nNote that Japanese {中力粉|ちゅうりきこ} is closer in protein content to European \"plain flour\" than to American all-purpose flour, which is closer to a blend of {薄力粉|はくりきこ} and {中力粉|ちゅうりきこ}.",
+  "notes": "Japanese wheat flour is classified by protein content into three main grades. {中力粉|ちゅうりきこ} sits in the middle and is the standard flour for udon, somen, and similar noodles.\n\nFLOUR GRADES:\n- ⟦{薄力粉|はくりきこ}→薄力粉：20705_hakurikiko⟧: cake flour (low protein) — tempura batter, cakes, cookies\n- {中力粉|ちゅうりきこ}: medium flour — udon, takoyaki, okonomiyaki\n- ⟦{強力粉|きょうりきこ}→強力粉：20706_kyourikiko⟧: bread flour (high protein) — bread, pizza dough\n\nNote that Japanese {中力粉|ちゅうりきこ} is closer in protein content to European \"plain flour\" than to American all-purpose flour, which is closer to a blend of ⟦{薄力粉|はくりきこ}→薄力粉：20705_hakurikiko⟧ and {中力粉|ちゅうりきこ}.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20705_hakurikiko",
+      "reading": "はくりきこ",
+      "headword": "{薄力粉|はくりきこ}",
+      "label": "cake flour"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20706_kyourikiko",
+      "reading": "きょうりきこ",
+      "headword": "{強力粉|きょうりきこ}",
+      "label": "bread flour"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["food"],
+      "politeness": "plain",
+      "semantic": [
+        "food"
+      ],
       "domain": []
     },
     "created": "2026-06-04T04:07:37Z",
-    "modified": "2026-06-04T04:07:37Z"
+    "modified": "2026-09-02T04:02:34Z"
   }
 }

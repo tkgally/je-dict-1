@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "15634_dozou_ex1",
-      "japanese": "この{町|まち}には{古|ふる}い{土蔵|どぞう}が{残|のこ}っている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{町|まち}→町：00613_machi⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{古|ふる}い→古い：00488_furui⟧{土蔵|どぞう}⟦が→が：00051_ga⟧⟦{残|のこ}っている→残る：01187_nokoru⟧。",
       "english": "Old earthen storehouses remain in this town.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "15634_dozou_ex2",
-      "japanese": "{土蔵|どぞう}の{中|なか}から{江戸|えど}{時代|じだい}の{絵|え}が{見|み}つかった。",
+      "japanese": "{土蔵|どぞう}⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧⟦から→から：00504_kara⟧⟦{江戸|えど}{時代|じだい}→江戸時代：20431_edojidai⟧⟦の→の：09472_no⟧⟦{絵|え}→絵：02613_e⟧⟦が→が：00051_ga⟧⟦{見|み}つかった→見つかる：01173_mitsukaru⟧。",
       "english": "A painting from the Edo period was found inside the storehouse.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "15634_dozou_ex3",
-      "japanese": "{土蔵|どぞう}の{厚|あつ}い{壁|かべ}は{火事|かじ}から{中|なか}の{品物|しなもの}を{守|まも}る{役割|やくわり}を{果|は}たした。",
+      "japanese": "{土蔵|どぞう}⟦の→の：09472_no⟧⟦{厚|あつ}い→厚い：00690_atsui⟧⟦{壁|かべ}→壁：01290_kabe⟧⟦は→は：00079_ha⟧⟦{火事|かじ}→火事：01283_kaji⟧⟦から→から：00504_kara⟧⟦{中|なか}→中：00654_naka⟧⟦の→の：09472_no⟧⟦{品物|しなもの}→品物：00886_shinamono⟧⟦を→を：00422_wo⟧⟦{守|まも}る→守る：01986_mamoru⟧⟦{役割|やくわり}→役割：03638_yakuwari⟧⟦を→を：00422_wo⟧⟦{果|は}たした→果たす：10060_hatasu⟧。",
       "english": "The thick walls of the earthen storehouse served to protect the goods inside from fire.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{土蔵|どぞう} refers specifically to a storehouse with thick walls made of earth and plaster. They are typically white-walled and can still be seen in historic towns and merchant districts across Japan. Many have been converted into cafes, galleries, or shops.\n\nCOMMON COLLOCATIONS:\n- {土蔵|どぞう}{造|づく}り (storehouse-style construction)\n- {白壁|しろかべ}の{土蔵|どぞう} (white-walled storehouse)\n- {土蔵|どぞう}を{改装|かいそう}する (to renovate a storehouse)\n\nSIMILAR WORDS:\n- {蔵|くら}: storehouse, warehouse (general term)\n- {倉庫|そうこ}: warehouse (modern, commercial)",
+  "notes": "USAGE:\n{土蔵|どぞう} refers specifically to a storehouse with thick walls made of earth and plaster. They are typically white-walled and can still be seen in historic towns and merchant districts across Japan. Many have been converted into cafes, galleries, or shops.\n\nCOMMON COLLOCATIONS:\n- {土蔵|どぞう}{造|づく}り (storehouse-style construction)\n- {白壁|しろかべ}⟦の→の：09472_no⟧{土蔵|どぞう} (white-walled storehouse)\n- {土蔵|どぞう}⟦を→を：00422_wo⟧⟦{改装|かいそう}→改装：09682_kaisou⟧⟦する→する：00392_suru⟧ (to renovate a storehouse)\n\nSIMILAR WORDS:\n- ⟦{蔵|くら}→蔵：13991_kura⟧: storehouse, warehouse (general term)\n- ⟦{倉庫|そうこ}→倉庫：04044_souko⟧: warehouse (modern, commercial)",
   "cross_references": [
     {
       "type": "related",
@@ -52,11 +52,18 @@
       "reading": "くら",
       "headword": "{蔵|くら}",
       "label": "general term"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04044_souko",
+      "reading": "そうこ",
+      "headword": "{倉庫|そうこ}",
+      "label": "warehouse"
     }
   ],
   "metadata": {
     "created": "2026-03-07T13:43:42Z",
-    "modified": "2026-07-17T12:56:16Z",
+    "modified": "2026-09-02T04:01:41Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

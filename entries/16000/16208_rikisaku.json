@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "16208_rikisaku_ex1",
-      "japanese": "これは{彼|かれ}の{力作|りきさく}だ。",
+      "japanese": "⟦これ→これ：00963_kore⟧⟦は→は：00079_ha⟧⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧{力作|りきさく}だ。",
       "english": "This is his masterpiece.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "16208_rikisaku_ex2",
-      "japanese": "{三|さん}{年|ねん}かけて{完成|かんせい}させた{力作|りきさく}だ。",
+      "japanese": "⟦{三|さん}{年|ねん}→三年：10984_sannen⟧⟦かけて→かける：00854_kakeru⟧⟦{完成|かんせい}させた→完成させる：02519_kanseisaseru⟧{力作|りきさく}だ。",
       "english": "It's a painstaking work that took three years to complete.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "16208_rikisaku_ex3",
-      "japanese": "{今回|こんかい}の{映画祭|えいがさい}には{世界中|せかいじゅう}から{力作|りきさく}が{集|あつ}まった。",
+      "japanese": "⟦{今回|こんかい}→今回：01409_konkai⟧⟦の→の：09472_no⟧⟦{映画祭|えいがさい}→映画祭：30642_eigasai⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{世界中|せかいじゅう}→世界中：10171_sekaijuu⟧⟦から→から：00504_kara⟧{力作|りきさく}⟦が→が：00051_ga⟧⟦{集|あつ}まった→集まる：01162_atsumaru⟧。",
       "english": "Ambitious works from around the world gathered at this film festival.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,33 @@
       ]
     }
   ],
-  "notes": "{力作|りきさく} refers to a work into which great effort and dedication have been poured. It is always complimentary.\n\nWORD FORMATION:\n{力|りき} (effort, power) + {作|さく} (work, creation). Emphasizes the effort invested, not necessarily the artistic quality of the result.\n\nCOMMON COLLOCATIONS:\n- {渾身|こんしん}の{力作|りきさく}: a work of one's whole heart and soul\n- {力作|りきさく}ぞろい: a lineup of masterpieces\n- {大|だい}{力作|りきさく}: a great ambitious work\n- {力作|りきさく}を{発表|はっぴょう}する: to present a major work\n\nUSAGE:\nApplied to art, literature, film, music, academic papers, and even ambitious cooking or craft projects. Often used in reviews, praise, and introductions of creative works.\n\nSIMILAR WORDS:\n- {傑作|けっさく}: masterpiece (emphasizes quality/brilliance)\n- {名作|めいさく}: masterpiece, classic (emphasizes lasting reputation)\n- {力作|りきさく}: painstaking work (emphasizes effort invested)",
-  "cross_references": [],
+  "notes": "{力作|りきさく} refers to a work into which great effort and dedication have been poured. It is always complimentary.\n\nFORMS:\n{力|りき} (effort, power) + ⟦{作|さく}→作：27430_saku⟧ (work, creation). Emphasizes the effort invested, not necessarily the artistic quality of the result.\n\nCOMMON COLLOCATIONS:\n- ⟦{渾身|こんしん}→渾身：13349_konshin⟧⟦の→の：09472_no⟧{力作|りきさく}: a work of one's whole heart and soul\n- {力作|りきさく}ぞろい: a lineup of masterpieces\n- {大|だい}{力作|りきさく}: a great ambitious work\n- {力作|りきさく}⟦を→を：00422_wo⟧⟦{発表|はっぴょう}する→発表する：25231_happyousuru⟧: to present a major work\n\nUSAGE:\nApplied to art, literature, film, music, academic papers, and even ambitious cooking or craft projects. Often used in reviews, praise, and introductions of creative works.\n\nSIMILAR WORDS:\n- ⟦{傑作|けっさく}→傑作：00217_kessaku⟧: masterpiece (emphasizes quality/brilliance)\n- ⟦{名作|めいさく}→名作：11869_meisaku⟧: masterpiece, classic (emphasizes lasting reputation)\n- {力作|りきさく}: painstaking work (emphasizes effort invested)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00217_kessaku",
+      "reading": "けっさく",
+      "headword": "{傑作|けっさく}",
+      "label": "masterpiece"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11869_meisaku",
+      "reading": "めいさく",
+      "headword": "{名作|めいさく}",
+      "label": "masterpiece, classic"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22677_shuusaku",
+      "reading": "しゅうさく",
+      "headword": "{秀作|しゅうさく}",
+      "label": "excellent work"
+    }
+  ],
   "metadata": {
     "created": "2026-03-11T04:35:13Z",
-    "modified": "2026-04-05T11:45:12Z",
+    "modified": "2026-09-02T04:01:44Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

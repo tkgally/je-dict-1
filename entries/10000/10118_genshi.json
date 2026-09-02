@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "10118_genshi_ex1",
-      "japanese": "{原子|げんし}は{目|め}に{見|み}えない。",
+      "japanese": "{原子|げんし}⟦は→は：00079_ha⟧⟦{目|め}→目：00525_me⟧⟦に→に：00314_ni⟧⟦{見|み}えない→見える：01165_mieru⟧。",
       "english": "Atoms are invisible to the eye.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "10118_genshi_ex2",
-      "japanese": "{水|みず}は{水素|すいそ}{原子|げんし}と{酸素|さんそ}{原子|げんし}からできている。",
+      "japanese": "⟦{水|みず}→水：02258_mizu⟧⟦は→は：00079_ha⟧⟦{水素|すいそ}→水素：00387_suiso⟧{原子|げんし}⟦と→と：00512_to⟧⟦{酸素|さんそ}→酸素：02830_sanso⟧{原子|げんし}⟦から→から：00504_kara⟧⟦できている→できる：00557_dekiru⟧。",
       "english": "Water is made of hydrogen atoms and oxygen atoms.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "10118_genshi_ex3",
-      "japanese": "{原子|げんし}{爆弾|ばくだん}は{原子|げんし}の{分裂|ぶんれつ}を{利用|りよう}する。",
+      "japanese": "{原子|げんし}{爆弾|ばくだん}⟦は→は：00079_ha⟧{原子|げんし}⟦の→の：09472_no⟧⟦{分裂|ぶんれつ}→分裂：11747_bunretsu⟧⟦を→を：00422_wo⟧⟦{利用|りよう}する→利用する：21735_riyousuru⟧。",
       "english": "Atomic bombs use the splitting of atoms.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{原子|げんし} is the smallest unit of a chemical element. Composed of {原|げん} (origin/fundamental) + {子|し} (small unit/particle).\n\nCOMMON COMPOUNDS:\n- {原子|げんし}{爆弾|ばくだん} ({原爆|げんばく}): atomic bomb\n- {原子|げんし}{力|りょく}: atomic/nuclear power\n- {原子|げんし}{番号|ばんごう}: atomic number\n- {原子|げんし}{核|かく}: atomic nucleus\n- {原子|げんし}{力|りょく}{発電所|はつでんしょ} ({原発|げんぱつ}): nuclear power plant\n\nRELATED PARTICLES:\n- {分子|ぶんし}: molecule (group of atoms)\n- {電子|でんし}: electron\n- {陽子|ようし}: proton\n- {中性子|ちゅうせいし}: neutron\n\nHOMOPHONE:\n{原始|げんし} means \"primitive\" or \"primeval\" — a completely different word. See the cross-reference above.",
+  "notes": "{原子|げんし} is the smallest unit of a chemical element. Composed of {原|げん} (origin/fundamental) + {子|し} (small unit/particle).\n\nCOMPOUNDS:\n- {原子|げんし}{爆弾|ばくだん} (⟦{原爆|げんばく}→原爆：11942_genbaku⟧): atomic bomb\n- {原子|げんし}{力|りょく}: atomic/nuclear power\n- {原子|げんし}⟦{番号|ばんごう}→番号：02939_bangou⟧: atomic number\n- {原子|げんし}{核|かく}: atomic nucleus\n- {原子|げんし}{力|りょく}{発電所|はつでんしょ} (⟦{原発|げんぱつ}→原発：11943_genpatsu⟧): nuclear power plant\n\nRELATED PARTICLES:\n- ⟦{分子|ぶんし}→分子：11769_bunshi⟧: molecule (group of atoms)\n- ⟦{電子|でんし}→電子：03449_denshi⟧: electron\n- ⟦{陽子|ようし}→陽子：28122_youshi⟧: proton\n- ⟦{中性子|ちゅうせいし}→中性子：28123_chuuseishi⟧: neutron\n\nWATCH OUT:\n⟦{原始|げんし}→原始：00067_genshi⟧ means \"primitive\" or \"primeval\" — a completely different word. See the cross-reference above.",
   "cross_references": [
     {
       "type": "related",
@@ -58,11 +58,18 @@
       "reading": "げんばく",
       "headword": "{原爆|げんばく}",
       "label": "atomic bomb"
+    },
+    {
+      "type": "related",
+      "target_id": "09662_genso",
+      "reading": "げんそ",
+      "headword": "{元素|げんそ}",
+      "label": "element (chemical)"
     }
   ],
   "metadata": {
     "created": "2026-02-05T08:37:56Z",
-    "modified": "2026-04-24T04:04:43Z",
+    "modified": "2026-09-02T04:01:20Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

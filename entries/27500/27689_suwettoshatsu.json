@@ -15,41 +15,67 @@
   "examples": [
     {
       "id": "27689_suwettoshatsu_ex1",
-      "japanese": "{寒|さむ}いのでスウェットシャツを{着|き}た。",
+      "japanese": "⟦{寒|さむ}い→寒い：00664_samui⟧⟦の→の：09472_no⟧でスウェットシャツ⟦を→を：00422_wo⟧⟦{着|き}た→着る：00541_kiru⟧。",
       "english": "It was cold, so I put on a sweatshirt.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27689_suwettoshatsu_ex2",
-      "japanese": "{休|やす}みの{日|ひ}はたいていスウェットシャツで{過|す}ごす。",
+      "japanese": "⟦{休|やす}み→休み：02266_yasumi⟧⟦の→の：09472_no⟧⟦{日|ひ}→日：02249_hi⟧⟦は→は：00079_ha⟧⟦たいてい→たいてい：01129_taitei⟧スウェットシャツ⟦で→で：00502_de⟧⟦{過|す}ごす→過ごす：02062_sugosu⟧。",
       "english": "On days off I usually spend the day in a sweatshirt.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27689_suwettoshatsu_ex3",
-      "japanese": "このスウェットシャツは{裏起毛|うらきもう}で{暖|あたた}かい。",
+      "japanese": "⟦この→この：00962_kono⟧スウェットシャツ⟦は→は：00079_ha⟧{裏起毛|うらきもう}⟦で→で：00502_de⟧⟦{暖|あたた}かい→暖かい：00618_atatakai⟧。",
       "english": "This sweatshirt has a fleece lining and is warm.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A loanword from English \"sweatshirt\". Often shortened to スウェット, which can also refer to matching sweatpants or the fabric itself.\n\nCOMMON COLLOCATIONS:\n- スウェットシャツを{着|き}る: to wear a sweatshirt\n- {裏起毛|うらきもう}のスウェットシャツ: a fleece-lined sweatshirt\n\nSIMILAR WORDS:\n- トレーナー: sweatshirt — a common Japanese term for the same garment\n- パーカー: hoodie — a sweatshirt with a hood",
+  "notes": "A loanword from English \"sweatshirt\". Often shortened to ⟦スウェット→スウェット：28532_suwetto⟧, which can also refer to matching sweatpants or the fabric itself.\n\nCOMMON COLLOCATIONS:\n- スウェットシャツ⟦を→を：00422_wo⟧⟦{着|き}る→着る：00541_kiru⟧: to wear a sweatshirt\n- {裏起毛|うらきもう}⟦の→の：09472_no⟧スウェットシャツ: a fleece-lined sweatshirt\n\nSIMILAR WORDS:\n- ⟦トレーナー→トレーナー：21469_toreenaa⟧: sweatshirt — a common Japanese term for the same garment\n- ⟦パーカー→パーカー：04524_paakaa⟧: hoodie — a sweatshirt with a hood",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21469_toreenaa",
+      "reading": "とれーなー",
+      "headword": "トレーナー",
+      "label": "sweatshirt"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04524_paakaa",
+      "reading": "ぱーかー",
+      "headword": "パーカー",
+      "label": "hoodie"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["clothing"],
+      "politeness": "plain",
+      "semantic": [
+        "clothing"
+      ],
       "domain": []
     },
     "created": "2026-05-16T04:08:30Z",
-    "modified": "2026-05-16T04:08:30Z"
+    "modified": "2026-09-02T04:02:31Z"
   }
 }

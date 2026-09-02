@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "12204_daitoshi_ex1",
-      "japanese": "{大都市|だいとし}に{人口|じんこう}が{集中|しゅうちゅう}している。",
+      "japanese": "{大都市|だいとし}⟦に→に：00314_ni⟧⟦{人口|じんこう}→人口：01618_jinkou⟧⟦が→が：00051_ga⟧⟦{集中|しゅうちゅう}している→集中する：21908_shuuchuusuru⟧。",
       "english": "The population is concentrated in major cities.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "12204_daitoshi_ex2",
-      "japanese": "{大都市|だいとし}での{生活|せいかつ}は{便利|べんり}だが、{家賃|やちん}が{高|たか}い。",
+      "japanese": "{大都市|だいとし}⟦で→で：00502_de⟧⟦の→の：09472_no⟧⟦{生活|せいかつ}→生活：01443_seikatsu⟧⟦は→は：00079_ha⟧⟦{便利|べんり}→便利：00830_benri⟧だ⟦が→が：00051_ga⟧、⟦{家賃|やちん}→家賃：03639_yachin⟧⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧。",
       "english": "Life in a big city is convenient, but rent is expensive.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "12204_daitoshi_ex3",
-      "japanese": "{若者|わかもの}が{地方|ちほう}から{大都市|だいとし}へ{流出|りゅうしゅつ}する{問題|もんだい}は{深刻|しんこく}になっている。",
+      "japanese": "⟦{若者|わかもの}→若者：03037_wakamono⟧⟦が→が：00051_ga⟧⟦{地方|ちほう}→地方：02369_chihou⟧⟦から→から：00504_kara⟧{大都市|だいとし}⟦へ→へ：02473_he⟧⟦{流出|りゅうしゅつ}→流出：13327_ryuushutsu⟧⟦する→する：00392_suru⟧⟦{問題|もんだい}→問題：00797_mondai⟧⟦は→は：00079_ha⟧⟦{深刻|しんこく}→深刻：01567_shinkoku⟧になっている。",
       "english": "The problem of young people migrating from rural areas to major cities is becoming serious.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "{大都市|だいとし} is a compound of {大|だい} (large) and {都市|とし} (city).\n\nCOMMON COLLOCATIONS:\n- {大都市|だいとし}{圏|けん}: metropolitan area\n- {大都市|だいとし}に{集中|しゅうちゅう}する: to concentrate in major cities\n- {大都市|だいとし}{問題|もんだい}: big city problems\n- {大都市|だいとし}{近郊|きんこう}: suburbs of a major city\n\nRELATED TERMS:\n- {都市|とし}: city (general)\n- {大都市|だいとし}: major city, metropolis\n- {中都市|ちゅうとし}: medium-sized city\n- {地方|ちほう}{都市|とし}: regional/provincial city\n- {大都会|だいとかい}: big city (similar meaning, slightly more colloquial)",
+  "notes": "{大都市|だいとし} is a compound of {大|だい} (large) and ⟦{都市|とし}→都市：01477_toshi⟧ (city).\n\nCOMMON COLLOCATIONS:\n- {大都市|だいとし}{圏|けん}: metropolitan area\n- {大都市|だいとし}⟦に→に：00314_ni⟧⟦{集中|しゅうちゅう}する→集中する：21908_shuuchuusuru⟧: to concentrate in major cities\n- {大都市|だいとし}⟦{問題|もんだい}→問題：00797_mondai⟧: big city problems\n- {大都市|だいとし}⟦{近郊|きんこう}→近郊：14356_kinkou⟧: suburbs of a major city\n\nRELATED WORDS:\n- ⟦{都市|とし}→都市：01477_toshi⟧: city (general)\n- {大都市|だいとし}: major city, metropolis\n- {中都市|ちゅうとし}: medium-sized city\n- ⟦{地方|ちほう}{都市|とし}→地方都市：17442_chihoutoshi⟧: regional/provincial city\n- ⟦{大都会|だいとかい}→大都会：03115_daitokai⟧: big city (similar meaning, slightly more colloquial)",
   "prominent_see_also": [
     {
       "target_id": "03115_daitokai",
@@ -67,11 +67,25 @@
       "reading": "ちほうとし",
       "headword": "{地方|ちほう}{都市|とし}",
       "label": "regional city"
+    },
+    {
+      "type": "related",
+      "target_id": "03224_shuto",
+      "reading": "しゅと",
+      "headword": "{首都|しゅと}",
+      "label": "capital city"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26531_kamitsutoshi",
+      "reading": "かみつとし",
+      "headword": "{過密|かみつ}{都市|とし}",
+      "label": "overcrowded city"
     }
   ],
   "metadata": {
     "created": "2026-02-20T10:30:43Z",
-    "modified": "2026-05-06T07:07:17Z",
+    "modified": "2026-09-02T04:01:28Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

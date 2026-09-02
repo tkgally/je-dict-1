@@ -15,39 +15,61 @@
   "examples": [
     {
       "id": "29194_nyuukansha_ex1",
-      "japanese": "{今日|きょう}の{入館者|にゅうかんしゃ}は{千人|せんにん}を{超|こ}えた。",
+      "japanese": "⟦{今日|きょう}→今日：00496_kyou⟧⟦の→の：09472_no⟧{入館者|にゅうかんしゃ}⟦は→は：00079_ha⟧{千人|せんにん}⟦を→を：00422_wo⟧⟦{超|こ}えた→超える：01942_koeru⟧。",
       "english": "Today's visitors exceeded one thousand people.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29194_nyuukansha_ex2",
-      "japanese": "{入館者|にゅうかんしゃ}は{受付|うけつけ}で{名前|なまえ}を{記入|きにゅう}してください。",
+      "japanese": "{入館者|にゅうかんしゃ}⟦は→は：00079_ha⟧⟦{受付|うけつけ}→受付：01325_uketsuke⟧⟦で→で：00502_de⟧⟦{名前|なまえ}→名前：02234_namae⟧⟦を→を：00422_wo⟧⟦{記入|きにゅう}→記入：02624_kinyuu⟧⟦して→する：00392_suru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Visitors, please write your name at the reception desk.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29194_nyuukansha_ex3",
-      "japanese": "その{美術館|びじゅつかん}は{開館|かいかん}から{一週間|いっしゅうかん}で{入館者|にゅうかんしゃ}が{一万人|いちまんにん}に{達|たっ}した。",
+      "japanese": "⟦その→その：00993_sono⟧⟦{美術館|びじゅつかん}→美術館：01717_bijutsukan⟧⟦は→は：00079_ha⟧{開館|かいかん}⟦から→から：00504_kara⟧⟦{一週間|いっしゅうかん}→一週間：10979_isshuukan⟧⟦で→で：00502_de⟧{入館者|にゅうかんしゃ}⟦が→が：00051_ga⟧{一万人|いちまんにん}⟦に→に：00314_ni⟧⟦{達|たっ}した→達する：02129_tassuru⟧。",
       "english": "That art museum reached ten thousand visitors within one week of opening.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Used in formal and institutional settings. The related compound {入館者数|にゅうかんしゃすう} (number of visitors) is very common in reports and announcements.\n\nCOMMON COLLOCATIONS:\n- {入館者|にゅうかんしゃ}{数|すう}: number of visitors\n- {入館者|にゅうかんしゃ}を{迎|むか}える: to receive visitors\n- {入館者|にゅうかんしゃ}{記録|きろく}: visitor record",
+  "notes": "Used in formal and institutional settings. The related compound {入館者数|にゅうかんしゃすう} (number of visitors) is very common in reports and announcements.\n\nCOMMON COLLOCATIONS:\n- {入館者|にゅうかんしゃ}⟦{数|すう}→数：03360_suu⟧: number of visitors\n- {入館者|にゅうかんしゃ}⟦を→を：00422_wo⟧⟦{迎|むか}える→迎える：01193_mukaeru⟧: to receive visitors\n- {入館者|にゅうかんしゃ}⟦{記録|きろく}→記録：02490_kiroku⟧: visitor record",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23179_raikansha",
+      "reading": "らいかんしゃ",
+      "headword": "{来館者|らいかんしゃ}",
+      "label": "visitor (to a museum, library, or facility)"
+    }
+  ],
   "metadata": {
     "created": "2026-06-12T13:42:34Z",
-    "modified": "2026-06-12T13:42:34Z",
+    "modified": "2026-09-02T04:02:36Z",
     "schema_version": "2.0",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["person", "building"],
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "person",
+        "building"
+      ],
       "domain": [],
       "vocabulary_tier": "general"
-    }
+    },
+    "vocabulary_tier": "general"
   }
 }

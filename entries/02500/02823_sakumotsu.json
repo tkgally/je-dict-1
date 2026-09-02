@@ -63,11 +63,33 @@
       ]
     }
   ],
-  "notes": "{作物|さくもつ} refers to plants cultivated by humans for food, fiber, or other uses. It covers all types of crops including grains, vegetables, and fruits.\n\nCOMMON COMPOUNDS:\n- ⟦{農作物|のうさくもつ}→農作物：noentry⟧: agricultural products/crops\n- {作物|さくもつ}⟦{栽培|さいばい}→栽培：13108_saibai⟧: crop cultivation\n- ⟦{主要|しゅよう}→主要：01649_shuyou⟧{作物|さくもつ}: main/staple crops\n- ⟦{畑作物|はたさくもつ}→畑作物：noentry⟧: dry-field crops (as opposed to rice paddy crops)\n\nCOMMON PATTERNS:\n- {作物|さくもつ}⟦を→を：00422_wo⟧⟦{育|そだ}てる→育てる：01235_sodateru⟧: to grow crops\n- {作物|さくもつ}⟦が→が：00051_ga⟧⟦{実|みの}る→実る：00282_minoru⟧: the crops bear fruit\n- {作物|さくもつ}⟦を→を：00422_wo⟧⟦{収穫|しゅうかく}→収穫：03207_shuukaku⟧⟦する→する：00392_suru⟧: to harvest crops\n- {作物|さくもつ}⟦が→が：00051_ga⟧⟦{被害|ひがい}→被害：02572_higai⟧⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧: crops suffer damage\n\nSIMILAR WORDS:\n- ⟦{穀物|こくもつ}→穀物：02806_kokumotsu⟧: grains specifically (rice, wheat, corn)\n- ⟦{農産物|のうさんぶつ}→農産物：14360_nousanbutsu⟧: agricultural products (broader, includes processed goods)\n- ⟦{野菜|やさい}→野菜：02265_yasai⟧: vegetables (one type of crop)",
-  "cross_references": [],
+  "notes": "{作物|さくもつ} refers to plants cultivated by humans for food, fiber, or other uses. It covers all types of crops including grains, vegetables, and fruits.\n\nCOMPOUNDS:\n- ⟦{農作物|のうさくもつ}→農作物：noentry⟧: agricultural products/crops\n- {作物|さくもつ}⟦{栽培|さいばい}→栽培：13108_saibai⟧: crop cultivation\n- ⟦{主要|しゅよう}→主要：01649_shuyou⟧{作物|さくもつ}: main/staple crops\n- ⟦{畑作物|はたさくもつ}→畑作物：noentry⟧: dry-field crops (as opposed to rice paddy crops)\n\nCOMMON PATTERNS:\n- {作物|さくもつ}⟦を→を：00422_wo⟧⟦{育|そだ}てる→育てる：01235_sodateru⟧: to grow crops\n- {作物|さくもつ}⟦が→が：00051_ga⟧⟦{実|みの}る→実る：00282_minoru⟧: the crops bear fruit\n- {作物|さくもつ}⟦を→を：00422_wo⟧⟦{収穫|しゅうかく}→収穫：03207_shuukaku⟧⟦する→する：00392_suru⟧: to harvest crops\n- {作物|さくもつ}⟦が→が：00051_ga⟧⟦{被害|ひがい}→被害：02572_higai⟧⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧: crops suffer damage\n\nSIMILAR WORDS:\n- ⟦{穀物|こくもつ}→穀物：02806_kokumotsu⟧: grains specifically (rice, wheat, corn)\n- ⟦{農産物|のうさんぶつ}→農産物：14360_nousanbutsu⟧: agricultural products (broader, includes processed goods)\n- ⟦{野菜|やさい}→野菜：02265_yasai⟧: vegetables (one type of crop)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02806_kokumotsu",
+      "reading": "こくもつ",
+      "headword": "{穀物|こくもつ}",
+      "label": "grains specifically"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14360_nousanbutsu",
+      "reading": "のうさんぶつ",
+      "headword": "{農産物|のうさんぶつ}",
+      "label": "agricultural products"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02265_yasai",
+      "reading": "やさい",
+      "headword": "{野菜|やさい}",
+      "label": "vegetables"
+    }
+  ],
   "metadata": {
     "created": "2026-01-11T08:56:30Z",
-    "modified": "2026-05-22T16:28:00Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

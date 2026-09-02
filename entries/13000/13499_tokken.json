@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "13499_tokken_ex1",
-      "japanese": "{外交官|がいこうかん}には{特権|とっけん}がある。",
+      "japanese": "⟦{外交官|がいこうかん}→外交官：14758_gaikoukan⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{特権|とっけん}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "Diplomats have special privileges.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "13499_tokken_ex2",
-      "japanese": "それは{会員|かいいん}だけの{特権|とっけん}です。",
+      "japanese": "⟦それ→それ：00994_sore⟧⟦は→は：00079_ha⟧⟦{会員|かいいん}→会員：02535_kaiin⟧⟦だけ→〜だけ：03093_dake⟧⟦の→の：09472_no⟧{特権|とっけん}です。",
       "english": "That is a privilege reserved for members only.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "13499_tokken_ex3",
-      "japanese": "{一部|いちぶ}の{人間|にんげん}だけが{特権|とっけん}を{享受|きょうじゅ}している{社会|しゃかい}は{不公平|ふこうへい}だ。",
+      "japanese": "⟦{一部|いちぶ}→一部：06783_ichibu⟧⟦の→の：09472_no⟧⟦{人間|にんげん}→人間：03523_ningen⟧⟦だけ→〜だけ：03093_dake⟧⟦が→が：00051_ga⟧{特権|とっけん}⟦を→を：00422_wo⟧⟦{享受|きょうじゅ}→享受：02789_kyouju⟧⟦している→する：00392_suru⟧⟦{社会|しゃかい}→社会：01427_shakai⟧⟦は→は：00079_ha⟧⟦{不公平|ふこうへい}→不公平：16851_fukouhei⟧だ。",
       "english": "A society where only a select few enjoy privileges is unfair.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{特権|とっけん} refers to rights that go beyond what is ordinarily available. It often carries a critical nuance when describing unfair advantages. The compound {特権|とっけん}{階級|かいきゅう} (privileged class) is commonly used in discussions of social inequality.\n\nCOMMON COLLOCATIONS:\n- {特権|とっけん}を{持|も}つ: to have privileges\n- {特権|とっけん}を{享受|きょうじゅ}する: to enjoy privileges\n- {特権|とっけん}{階級|かいきゅう}: privileged class\n- {外交|がいこう}{特権|とっけん}: diplomatic immunity\n- {特権|とっけん}{意識|いしき}: sense of privilege/entitlement",
+  "notes": "USAGE:\n{特権|とっけん} refers to rights that go beyond what is ordinarily available. It often carries a critical nuance when describing unfair advantages. The compound {特権|とっけん}{階級|かいきゅう} (privileged class) is commonly used in discussions of social inequality.\n\nCOMMON COLLOCATIONS:\n- {特権|とっけん}⟦を→を：00422_wo⟧⟦{持|も}つ→持つ：00478_motsu⟧: to have privileges\n- {特権|とっけん}⟦を→を：00422_wo⟧⟦{享受|きょうじゅ}→享受：02789_kyouju⟧⟦する→する：00392_suru⟧: to enjoy privileges\n- {特権|とっけん}{階級|かいきゅう}: privileged class\n- {外交|がいこう}{特権|とっけん}: diplomatic immunity\n- {特権|とっけん}⟦{意識|いしき}→意識：01714_ishiki⟧: sense of privilege/entitlement",
   "cross_references": [
     {
       "type": "related",
@@ -52,11 +52,18 @@
       "reading": "けんり",
       "headword": "{権利|けんり}",
       "label": "right, privilege"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22634_kitokukeneki",
+      "reading": "きとくけんえき",
+      "headword": "{既得権益|きとくけんえき}",
+      "label": "vested interests"
     }
   ],
   "metadata": {
     "created": "2026-02-25T13:27:49Z",
-    "modified": "2026-04-29T04:08:17Z",
+    "modified": "2026-09-02T04:01:33Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

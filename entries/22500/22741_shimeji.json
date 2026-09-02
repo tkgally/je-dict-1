@@ -15,40 +15,74 @@
   "examples": [
     {
       "id": "22741_shimeji_ex1",
-      "japanese": "しめじを{炒|いた}める。",
+      "japanese": "しめじ⟦を→を：00422_wo⟧⟦{炒|いた}める→炒める：01879_itameru⟧。",
       "english": "To stir-fry shimeji mushrooms.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "22741_shimeji_ex2",
-      "japanese": "{味噌汁|みそしる}にしめじを{入|い}れた。",
+      "japanese": "⟦{味噌汁|みそしる}→味噌汁：04954_misoshiru⟧⟦に→に：00314_ni⟧しめじ⟦を→を：00422_wo⟧⟦{入|い}れた→入れる：01098_ireru⟧。",
       "english": "I put shimeji mushrooms in the miso soup.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "22741_shimeji_ex3",
-      "japanese": "しめじは{一年中|いちねんじゅう}スーパーで{手|て}に{入|はい}るので{便利|べんり}だ。",
+      "japanese": "しめじ⟦は→は：00079_ha⟧⟦{一年中|いちねんじゅう}→一年中：17104_ichinenjuu⟧⟦スーパー→スーパー：01061_suupaa⟧⟦で→で：00502_de⟧⟦{手|て}→手：00569_te⟧⟦に→に：00314_ni⟧⟦{入|はい}る→入る：00494_hairu⟧⟦の→の：09472_no⟧で⟦{便利|べんり}→便利：00830_benri⟧だ。",
       "english": "Shimeji mushrooms are convenient because they're available at the supermarket year-round.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "One of the most common mushrooms in Japanese home cooking. The commercially cultivated variety sold in supermarkets is technically ぶなしめじ (beech shimeji), which grows in clusters. It has a mild, slightly nutty flavor and a firm texture that holds up well in cooking.\n\nCOMMON COLLOCATIONS:\n- しめじの{炒|いた}め{物|もの}: stir-fried shimeji\n- しめじの{味噌汁|みそしる}: miso soup with shimeji\n- しめじの{炊|た}き{込|こ}みご{飯|はん}: shimeji mixed rice\n\nRELATED TERMS:\n- えのき: enoki mushroom — another very common supermarket mushroom\n- しいたけ: shiitake mushroom — the most well-known Japanese mushroom internationally\n- まいたけ: maitake mushroom — another popular cooking mushroom\n- きのこ: mushroom — the general term",
+  "notes": "One of the most common mushrooms in Japanese home cooking. The commercially cultivated variety sold in supermarkets is technically ぶなしめじ (beech shimeji), which grows in clusters. It has a mild, slightly nutty flavor and a firm texture that holds up well in cooking.\n\nCOMMON COLLOCATIONS:\n- しめじ⟦の→の：09472_no⟧⟦{炒|いた}め{物|もの}→炒め物：08537_itamemono⟧: stir-fried shimeji\n- しめじ⟦の→の：09472_no⟧⟦{味噌汁|みそしる}→味噌汁：04954_misoshiru⟧: miso soup with shimeji\n- しめじ⟦の→の：09472_no⟧⟦{炊|た}き{込|こ}みご{飯|はん}→炊き込みご飯：05883_takikomigohan⟧: shimeji mixed rice\n\nRELATED WORDS:\n- えのき: enoki mushroom — another very common supermarket mushroom\n- ⟦しいたけ→シイタケ：10930_shiitake⟧: shiitake mushroom — the most well-known Japanese mushroom internationally\n- まいたけ: maitake mushroom — another popular cooking mushroom\n- きのこ: mushroom — the general term",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "10930_shiitake",
+      "reading": "しいたけ",
+      "headword": "シイタケ",
+      "label": "shiitake mushroom"
+    },
+    {
+      "type": "related",
+      "target_id": "20031_maitake",
+      "reading": "まいたけ",
+      "headword": "{舞茸|まいたけ}",
+      "label": "maitake mushroom"
+    },
+    {
+      "type": "related",
+      "target_id": "04994_kinoko",
+      "reading": "きのこ",
+      "headword": "{茸|きのこ}",
+      "label": "mushroom"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["food", "nature"],
+      "pos": [
+        "noun"
+      ],
+      "semantic": [
+        "food",
+        "nature"
+      ],
       "formality": "neutral",
       "politeness": "plain"
     },
     "created": "2026-04-07T14:13:45Z",
-    "modified": "2026-04-07T14:13:45Z"
+    "modified": "2026-09-02T04:02:09Z"
   }
 }

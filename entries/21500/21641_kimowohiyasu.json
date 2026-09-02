@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21641_kimowohiyasu_ex1",
-      "japanese": "{車|くるま}にぶつかりそうになって{肝|きも}を{冷|ひ}やした。",
+      "japanese": "⟦{車|くるま}→車：00516_kuruma⟧⟦に→に：00314_ni⟧⟦ぶつかり→ぶつかる：02412_butsukaru⟧そうになって{肝|きも}を{冷|ひ}やした。",
       "english": "I was terrified when I nearly got hit by a car.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21641_kimowohiyasu_ex2",
-      "japanese": "{子供|こども}が{階段|かいだん}から{落|お}ちそうになって、{肝|きも}を{冷|ひ}やした。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧⟦が→が：00051_ga⟧⟦{階段|かいだん}→階段：00782_kaidan⟧⟦から→から：00504_kara⟧⟦{落|お}ち→落ちる：01242_ochiru⟧そうになって、{肝|きも}を{冷|ひ}やした。",
       "english": "My heart nearly stopped when my child almost fell down the stairs.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21641_kimowohiyasu_ex3",
-      "japanese": "{締|し}め{切|き}りの{直前|ちょくぜん}にパソコンが{動|うご}かなくなって、{肝|きも}を{冷|ひ}やした{経験|けいけん}がある。",
+      "japanese": "⟦{締|し}め{切|き}り→締め切り：04162_shimekiri⟧⟦の→の：09472_no⟧⟦{直前|ちょくぜん}→直前：13651_chokuzen⟧⟦に→に：00314_ni⟧⟦パソコン→パソコン：01538_pasokon⟧⟦が→が：00051_ga⟧⟦{動|うご}かなく→動く：00904_ugoku⟧⟦なって→なる：01970_naru⟧、{肝|きも}を{冷|ひ}やした⟦{経験|けいけん}→経験：01179_keiken⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "I've had the terrifying experience of my computer dying right before a deadline.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Literally \"to chill one's liver ({肝|きも}).\" In traditional Japanese and Chinese medicine, the liver was considered the seat of courage and spirit, so chilling it means losing one's nerve from fright.\n\nUSAGE:\nMost commonly used in the past tense ({肝|きも}を{冷|ひ}やした) to describe a frightening experience that has already passed. Typically involves a moment of danger or a close call rather than prolonged fear.\n\nCOMMON PATTERNS:\n- {肝|きも}を{冷|ひ}やした: was terrified (past tense, most common)\n- {肝|きも}を{冷|ひ}やす{思|おも}いをする: to have a terrifying experience\n- {肝|きも}を{冷|ひ}やす{場面|ばめん}: a terrifying moment\n\nRELATED EXPRESSIONS:\n- {肝|きも}が{据|す}わる: to have nerves of steel (the liver is settled = one is fearless)\n- {肝|きも}が{太|ふと}い: to be bold, gutsy\n- {肝|きも}{試|だめ}し: a test of courage (e.g., visiting a haunted place)\n\nSIMILAR EXPRESSIONS:\n- ひやっとする: to feel a chill (of fear) — a lighter, momentary scare\n- {冷|ひ}や{汗|あせ}をかく: to break out in a cold sweat — similar intensity but focuses on the physical reaction",
+  "notes": "Literally \"to chill one's liver (⟦{肝|きも}→肝：10796_kimo⟧).\" In traditional Japanese and Chinese medicine, the liver was considered the seat of courage and spirit, so chilling it means losing one's nerve from fright.\n\nUSAGE:\nMost commonly used in the past tense ({肝|きも}を{冷|ひ}やした) to describe a frightening experience that has already passed. Typically involves a moment of danger or a close call rather than prolonged fear.\n\nCOMMON PATTERNS:\n- {肝|きも}を{冷|ひ}やした: was terrified (past tense, most common)\n- {肝|きも}を{冷|ひ}やす⟦{思|おも}い→思い：10248_omoi⟧⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧: to have a terrifying experience\n- {肝|きも}を{冷|ひ}やす⟦{場面|ばめん}→場面：03702_bamen⟧: a terrifying moment\n\nRELATED WORDS:\n- ⟦{肝|きも}→肝：10796_kimo⟧⟦が→が：00051_ga⟧{据|す}わる: to have nerves of steel (the liver is settled = one is fearless)\n- ⟦{肝|きも}→肝：10796_kimo⟧⟦が→が：00051_ga⟧⟦{太|ふと}い→太い：02955_futoi⟧: to be bold, gutsy\n- ⟦{肝|きも}{試|だめ}し→肝試し：10621_kimodameshi⟧: a test of courage (e.g., visiting a haunted place)\n\nSIMILAR WORDS:\n- ⟦ひやっとする→ひやっとする：28813_hiyattosuru⟧: to feel a chill (of fear) — a lighter, momentary scare\n- ⟦{冷|ひ}や{汗|あせ}→冷や汗：19109_hiyaase⟧⟦を→を：00422_wo⟧かく: to break out in a cold sweat — similar intensity but focuses on the physical reaction",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "10621_kimodameshi",
+      "reading": "きもだめし",
+      "headword": "{肝試|きもだめ}し",
+      "label": "a test of courage"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28813_hiyattosuru",
+      "reading": "ひやっとする",
+      "headword": "ひやっとする",
+      "label": "to feel a chill"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +76,6 @@
       ]
     },
     "created": "2026-04-02T19:20:23Z",
-    "modified": "2026-07-29T12:35:11Z"
+    "modified": "2026-09-02T04:02:04Z"
   }
 }

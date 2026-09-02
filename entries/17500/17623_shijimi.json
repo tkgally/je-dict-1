@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "17623_shijimi_ex1",
-      "japanese": "しじみの{味噌汁|みそしる}。",
+      "japanese": "しじみ⟦の→の：09472_no⟧⟦{味噌汁|みそしる}→味噌汁：04954_misoshiru⟧。",
       "english": "Freshwater clam miso soup.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "17623_shijimi_ex2",
-      "japanese": "しじみは{肝臓|かんぞう}に{良|よ}いと{言|い}われている。",
+      "japanese": "しじみ⟦は→は：00079_ha⟧⟦{肝臓|かんぞう}→肝臓：05029_kanzou⟧⟦に→に：00314_ni⟧⟦{良|よ}い→良い：02350_yoi⟧⟦と→と：00512_to⟧⟦{言|い}われている→言う：00515_iu⟧。",
       "english": "Freshwater clams are said to be good for the liver.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "17623_shijimi_ex3",
-      "japanese": "{宍道湖|しんじこ}はしじみの{産地|さんち}として{有名|ゆうめい}だ。",
+      "japanese": "{宍道湖|しんじこ}⟦は→は：00079_ha⟧しじみ⟦の→の：09472_no⟧⟦{産地|さんち}→産地：04031_sanchi⟧⟦として→として：06802_toshite⟧⟦{有名|ゆうめい}→有名：01106_yuumei⟧だ。",
       "english": "Lake Shinji is famous as a production area for freshwater clams.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,19 @@
       ]
     }
   ],
-  "notes": "KANJI:\nCan be written as {蜆|しじみ}, but the hiragana or katakana form is far more common in everyday use.\n\nCULTURAL CONTEXT:\nしじみの{味噌汁|みそしる} is a classic Japanese home-cooking dish, often served the morning after drinking alcohol because しじみ is believed to support liver function. {宍道湖|しんじこ} (Lake Shinji) in Shimane Prefecture is Japan's most famous しじみ production area.\n\nCOMMON COLLOCATIONS:\n- しじみの{味噌汁|みそしる}: freshwater clam miso soup\n- しじみ{汁|じる}: clam broth\n- しじみの{砂抜|すなぬ}き: purging sand from clams",
-  "cross_references": [],
+  "notes": "WRITING:\nCan be written as {蜆|しじみ}, but the hiragana or katakana form is far more common in everyday use.\n\nCULTURAL NOTE:\nしじみ⟦の→の：09472_no⟧⟦{味噌汁|みそしる}→味噌汁：04954_misoshiru⟧ is a classic Japanese home-cooking dish, often served the morning after drinking alcohol because しじみ is believed to support liver function. {宍道湖|しんじこ} (Lake Shinji) in Shimane Prefecture is Japan's most famous しじみ production area.\n\nCOMMON COLLOCATIONS:\n- しじみ⟦の→の：09472_no⟧⟦{味噌汁|みそしる}→味噌汁：04954_misoshiru⟧: freshwater clam miso soup\n- しじみ{汁|じる}: clam broth\n- しじみ⟦の→の：09472_no⟧{砂抜|すなぬ}き: purging sand from clams",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23183_hamaguri",
+      "reading": "はまぐり",
+      "headword": "ハマグリ",
+      "label": "clam (hard-shell clam)"
+    }
+  ],
   "metadata": {
     "created": "2026-02-09T04:11:25Z",
-    "modified": "2026-07-24T07:00:08Z",
+    "modified": "2026-09-02T04:01:49Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

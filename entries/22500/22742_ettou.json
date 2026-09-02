@@ -3,7 +3,7 @@
   "headword": "{越冬|えっとう}",
   "reading": "えっとう",
   "romaji": "ettou",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "overwintering; passing the winter",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22742_ettou_ex1",
-      "japanese": "{渡|わた}り{鳥|どり}が{越冬|えっとう}のために{南|みなみ}へ{飛|と}ぶ。",
+      "japanese": "⟦{渡|わた}り{鳥|どり}→渡り鳥：09252_wataridori⟧⟦が→が：00051_ga⟧{越冬|えっとう}⟦の→の：09472_no⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧⟦{南|みなみ}→南：00652_minami⟧⟦へ→へ：02473_he⟧⟦{飛|と}ぶ→飛ぶ：00759_tobu⟧。",
       "english": "Migratory birds fly south for the winter.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22742_ettou_ex2",
-      "japanese": "この{昆虫|こんちゅう}は{土|つち}の{中|なか}で{越冬|えっとう}する。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{昆虫|こんちゅう}→昆虫：05010_konchuu⟧⟦は→は：00079_ha⟧⟦{土|つち}→土：02229_tsuchi⟧⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧⟦で→で：00502_de⟧{越冬|えっとう}⟦する→する：00392_suru⟧。",
       "english": "This insect overwinters in the soil.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22742_ettou_ex3",
-      "japanese": "{南極|なんきょく}{観測隊|かんそくたい}は{厳|きび}しい{環境|かんきょう}の{中|なか}で{越冬|えっとう}しなければならない。",
+      "japanese": "⟦{南極|なんきょく}→南極：11936_nankyoku⟧{観測隊|かんそくたい}⟦は→は：00079_ha⟧⟦{厳|きび}しい→厳しい：01125_kibishii⟧⟦{環境|かんきょう}→環境：00174_kankyou⟧⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧⟦で→で：00502_de⟧{越冬|えっとう}し⟦なければならない→なければならない：27600_nakerebanaranai⟧。",
       "english": "The Antarctic expedition team must endure the winter in a harsh environment.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {越|こ}える ('to cross over, pass') and {冬|ふゆ} ('winter'). Most commonly used in nature and science contexts — describing how animals hibernate, migrate, or otherwise survive winter. Also used for humans in extreme conditions, such as polar expeditions.\n\nCOMMON COLLOCATIONS:\n- {越冬|えっとう}する: to overwinter, to pass the winter\n- {越冬|えっとう}{準備|じゅんび}: preparations for winter\n- {越冬|えっとう}{隊|たい}: overwintering team (e.g., Antarctic expedition)\n- {越冬地|えっとうち}: wintering ground (for migratory birds)\n\nSIMILAR WORDS:\n- {冬越|ふゆご}し: getting through winter — a more colloquial native Japanese synonym\n- {冬眠|とうみん}: hibernation — specifically for animals that sleep through winter\n- {避寒|ひかん}: escaping the cold — going to a warmer place for winter",
+  "notes": "Composed of ⟦{越|こ}える→越える：02099_koeru⟧ ('to cross over, pass') and ⟦{冬|ふゆ}→冬：00623_fuyu⟧ ('winter'). Most commonly used in nature and science contexts — describing how animals hibernate, migrate, or otherwise survive winter. Also used for humans in extreme conditions, such as polar expeditions.\n\nCOMMON COLLOCATIONS:\n- {越冬|えっとう}⟦する→する：00392_suru⟧: to overwinter, to pass the winter\n- {越冬|えっとう}⟦{準備|じゅんび}→準備：01431_junbi⟧: preparations for winter\n- {越冬|えっとう}⟦{隊|たい}→隊：03383_tai⟧: overwintering team (e.g., Antarctic expedition)\n- {越冬地|えっとうち}: wintering ground (for migratory birds)\n\nSIMILAR WORDS:\n- {冬越|ふゆご}し: getting through winter — a more colloquial native Japanese synonym\n- ⟦{冬眠|とうみん}→冬眠：15853_toumin⟧: hibernation — specifically for animals that sleep through winter\n- ⟦{避寒|ひかん}→避寒：29344_hikan⟧: escaping the cold — going to a warmer place for winter",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15853_toumin",
+      "reading": "とうみん",
+      "headword": "{冬眠|とうみん}",
+      "label": "hibernation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29344_hikan",
+      "reading": "ひかん",
+      "headword": "{避寒|ひかん}",
+      "label": "escaping the cold"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,7 +78,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-07T14:14:04Z",
-    "modified": "2026-07-30T15:20:15Z"
+    "modified": "2026-09-02T04:02:09Z"
   },
   "conjugation": {
     "type": "suru",

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28898_hyoumenseki_ex1",
-      "japanese": "{表面積|ひょうめんせき}を{計算|けいさん}する。",
+      "japanese": "{表面積|ひょうめんせき}⟦を→を：00422_wo⟧⟦{計算|けいさん}する→計算する：25526_keisansuru⟧。",
       "english": "Calculate the surface area.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28898_hyoumenseki_ex2",
-      "japanese": "{球|きゅう}の{表面積|ひょうめんせき}を{求|もと}める。",
+      "japanese": "⟦{球|きゅう}→球：28895_kyuu⟧⟦の→の：09472_no⟧{表面積|ひょうめんせき}⟦を→を：00422_wo⟧⟦{求|もと}める→求める：02316_motomeru⟧。",
       "english": "Find the surface area of a sphere.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28898_hyoumenseki_ex3",
-      "japanese": "{小|ちい}さく{切|き}ると{表面積|ひょうめんせき}が{増|ふ}えて、{反応|はんのう}が{早|はや}くなる。",
+      "japanese": "⟦{小|ちい}さく→小さい：00025_chiisai⟧⟦{切|き}る→切る：02693_kiru⟧⟦と→と：00512_to⟧{表面積|ひょうめんせき}⟦が→が：00051_ga⟧⟦{増|ふ}えて→増える：01183_fueru⟧、⟦{反応|はんのう}→反応：04812_hannou⟧⟦が→が：00051_ga⟧⟦{早|はや}く→早い：00514_hayai⟧⟦なる→なる：01970_naru⟧。",
       "english": "Cutting it small increases the surface area and speeds up the reaction.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {表面|ひょうめん} (surface) + {積|せき} (product / area). Standard term in math and science contexts.\n\nCOMMON COLLOCATIONS:\n- {表面積|ひょうめんせき}を{求|もと}める: to find the surface area\n- {表面積|ひょうめんせき}が{大|おお}きい/{小|ちい}さい: large / small surface area\n- {表面積|ひょうめんせき}と{体積|たいせき}: surface area and volume\n\nSIMILAR WORDS:\n- {面積|めんせき}: area (of a 2D region or one face of a solid)\n- {体積|たいせき}: volume (3D)",
+  "notes": "Compound of ⟦{表面|ひょうめん}→表面：03587_hyoumen⟧ (surface) + {積|せき} (product / area). Standard term in math and science contexts.\n\nCOMMON COLLOCATIONS:\n- {表面積|ひょうめんせき}⟦を→を：00422_wo⟧⟦{求|もと}める→求める：02316_motomeru⟧: to find the surface area\n- {表面積|ひょうめんせき}⟦が→が：00051_ga⟧⟦{大|おお}きい→大きい：00335_ookii⟧/⟦{小|ちい}さい→小さい：00025_chiisai⟧: large / small surface area\n- {表面積|ひょうめんせき}⟦と→と：00512_to⟧⟦{体積|たいせき}→体積：04492_taiseki⟧: surface area and volume\n\nSIMILAR WORDS:\n- ⟦{面積|めんせき}→面積：05330_menseki⟧: area (of a 2D region or one face of a solid)\n- ⟦{体積|たいせき}→体積：04492_taiseki⟧: volume (3D)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04492_taiseki",
+      "reading": "たいせき",
+      "headword": "{体積|たいせき}",
+      "label": "volume"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +62,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "number"
       ],
       "domain": []
     },
     "created": "2026-06-07T02:04:13Z",
-    "modified": "2026-08-08T18:34:17Z"
+    "modified": "2026-09-02T04:02:35Z"
   }
 }

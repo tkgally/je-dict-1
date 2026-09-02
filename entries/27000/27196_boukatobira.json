@@ -15,40 +15,66 @@
   "examples": [
     {
       "id": "27196_boukatobira_ex1",
-      "japanese": "{防火扉|ぼうかとびら}は{常|つね}に{閉|し}めておいてください。",
+      "japanese": "{防火扉|ぼうかとびら}⟦は→は：00079_ha⟧⟦{常|つね}→常：28958_tsune⟧⟦に→に：00314_ni⟧⟦{閉|し}めて→閉める：00485_shimeru⟧おいて⟦ください→ください：02899_kudasai⟧。",
       "english": "Please keep the fire door closed at all times.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27196_boukatobira_ex2",
-      "japanese": "{火災|かさい}が{発生|はっせい}すると、{防火扉|ぼうかとびら}が{自動的|じどうてき}に{閉|し}まる。",
+      "japanese": "⟦{火災|かさい}→火災：02561_kasai⟧⟦が→が：00051_ga⟧⟦{発生|はっせい}する→発生する：25529_hasseisuru⟧⟦と→と：00512_to⟧、{防火扉|ぼうかとびら}⟦が→が：00051_ga⟧⟦{自動的|じどうてき}→自動的：25589_jidouteki⟧⟦に→に：00314_ni⟧⟦{閉|し}まる→閉まる：00754_shimaru⟧。",
       "english": "When a fire breaks out, the fire doors close automatically.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27196_boukatobira_ex3",
-      "japanese": "{避難訓練|ひなんくんれん}の{際|さい}、{防火扉|ぼうかとびら}の{前|まえ}に{物|もの}を{置|お}いてはいけないと{注意|ちゅうい}された。",
+      "japanese": "⟦{避難訓練|ひなんくんれん}→避難訓練：28230_hinankunren⟧⟦の→の：09472_no⟧⟦{際|さい}→際：02819_sai⟧、{防火扉|ぼうかとびら}⟦の→の：09472_no⟧⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧⟦{物|もの}→物：02259_mono⟧⟦を→を：00422_wo⟧⟦{置|お}いて→置く：01092_oku⟧⟦は→は：00079_ha⟧いけない⟦と→と：00512_to⟧⟦{注意|ちゅうい}→注意：01464_chuui⟧⟦された→する：00392_suru⟧。",
       "english": "During the evacuation drill, we were warned not to place objects in front of the fire doors.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {防火|ぼうか} (fire prevention/fireproofing) + {扉|とびら} (door). Found in apartment buildings, offices, schools, and commercial buildings throughout Japan. Japanese building codes ({建築基準法|けんちくきじゅんほう}) require fire doors in structures above a certain size.\n\nCOMMON COLLOCATIONS:\n- {防火扉|ぼうかとびら}を{閉|し}める: to close the fire door\n- {防火扉|ぼうかとびら}が{作動|さどう}する: the fire door activates\n- {防火扉|ぼうかとびら}の{点検|てんけん}: fire door inspection\n- {防火扉|ぼうかとびら}の{前|まえ}: in front of the fire door\n\nRELATED TERMS:\n- {防火|ぼうか}: fire prevention; fireproofing\n- {防火壁|ぼうかへき}: firewall (physical wall in a building)\n- {非常口|ひじょうぐち}: emergency exit\n- {避難経路|ひなんけいろ}: evacuation route",
+  "notes": "A compound of ⟦{防火|ぼうか}→防火：21169_bouka⟧ (fire prevention/fireproofing) + ⟦{扉|とびら}→扉：04494_tobira⟧ (door). Found in apartment buildings, offices, schools, and commercial buildings throughout Japan. Japanese building codes ({建築基準法|けんちくきじゅんほう}) require fire doors in structures above a certain size.\n\nCOMMON COLLOCATIONS:\n- {防火扉|ぼうかとびら}⟦を→を：00422_wo⟧⟦{閉|し}める→閉める：00485_shimeru⟧: to close the fire door\n- {防火扉|ぼうかとびら}⟦が→が：00051_ga⟧⟦{作動|さどう}→作動：11692_sadou⟧⟦する→する：00392_suru⟧: the fire door activates\n- {防火扉|ぼうかとびら}⟦の→の：09472_no⟧⟦{点検|てんけん}→点検：09765_tenken⟧: fire door inspection\n- {防火扉|ぼうかとびら}⟦の→の：09472_no⟧⟦{前|まえ}→前：02255_mae⟧: in front of the fire door\n\nRELATED WORDS:\n- ⟦{防火|ぼうか}→防火：21169_bouka⟧: fire prevention; fireproofing\n- {防火壁|ぼうかへき}: firewall (physical wall in a building)\n- ⟦{非常口|ひじょうぐち}→非常口：07045_hijouguchi⟧: emergency exit\n- ⟦{避難経路|ひなんけいろ}→避難経路：07138_hinankeiro⟧: evacuation route",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "07045_hijouguchi",
+      "reading": "ひじょうぐち",
+      "headword": "{非常口|ひじょうぐち}",
+      "label": "emergency exit"
+    },
+    {
+      "type": "related",
+      "target_id": "07138_hinankeiro",
+      "reading": "ひなんけいろ",
+      "headword": "{避難経路|ひなんけいろ}",
+      "label": "evacuation route"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["building"]
+      "semantic": [
+        "building"
+      ]
     },
     "created": "2026-05-07T15:23:07Z",
-    "modified": "2026-05-07T15:23:07Z"
+    "modified": "2026-09-02T04:02:29Z"
   }
 }

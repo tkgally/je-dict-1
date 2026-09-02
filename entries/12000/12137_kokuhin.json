@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "12137_kokuhin_ex1",
-      "japanese": "{大統領|だいとうりょう}が{国賓|こくひん}として{来日|らいにち}する。",
+      "japanese": "⟦{大統領|だいとうりょう}→大統領：03418_daitouryou⟧⟦が→が：00051_ga⟧{国賓|こくひん}⟦として→として：06802_toshite⟧⟦{来日|らいにち}→来日：13060_rainichi⟧⟦する→する：00392_suru⟧。",
       "english": "The president will visit Japan as a state guest.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "12137_kokuhin_ex2",
-      "japanese": "{国賓|こくひん}を{迎|むか}えるための{晩餐会|ばんさんかい}が{開|ひら}かれた。",
+      "japanese": "{国賓|こくひん}⟦を→を：00422_wo⟧⟦{迎|むか}える→迎える：01193_mukaeru⟧⟦ため→ため：01145_tame⟧⟦の→の：09472_no⟧⟦{晩餐会|ばんさんかい}→晩餐会：13094_bansankai⟧⟦が→が：00051_ga⟧⟦{開|ひら}かれた→開く：01979_hiraku⟧。",
       "english": "A state dinner was held to welcome the state guest.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "12137_kokuhin_ex3",
-      "japanese": "{国賓|こくひん}としての{訪問|ほうもん}は{両国|りょうこく}の{外交|がいこう}{関係|かんけい}において{最|もっと}も{格式|かくしき}の{高|たか}いものとされている。",
+      "japanese": "{国賓|こくひん}⟦として→として：06802_toshite⟧⟦の→の：09472_no⟧⟦{訪問|ほうもん}→訪問：03622_houmon⟧⟦は→は：00079_ha⟧⟦{両国|りょうこく}→両国：10010_ryoukoku⟧⟦の→の：09472_no⟧⟦{外交|がいこう}→外交：02627_gaikou⟧⟦{関係|かんけい}→関係：01298_kankei⟧⟦において→において：06799_nioite⟧⟦{最|もっと}も→最も：01736_mottomo⟧⟦{格式|かくしき}→格式：16025_kakushiki⟧⟦の→の：09472_no⟧⟦{高|たか}い→高い：00500_takai⟧もの⟦と→と：00512_to⟧⟦されている→する：00392_suru⟧。",
       "english": "A visit as a state guest is considered the most formal level of diplomatic relations between the two countries.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,19 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{国賓|こくひん} is the highest category of foreign guest reception in Japanese diplomacy. It is distinct from {公賓|こうひん} (official guest) and {公式|こうしき}{実務|じつむ}{訪問|ほうもん}{賓客|ひんきゃく} (official working visit guest), which are lower levels of protocol.\n\nCOMMON COLLOCATIONS:\n- {国賓|こくひん}として{招|まね}く: to invite as a state guest\n- {国賓|こくひん}として{来日|らいにち}する: to visit Japan as a state guest\n- {国賓|こくひん}を{迎|むか}える: to receive a state guest\n- {国賓|こくひん}{待遇|たいぐう}: state guest treatment",
-  "cross_references": [],
+  "notes": "USAGE:\n{国賓|こくひん} is the highest category of foreign guest reception in Japanese diplomacy. It is distinct from {公賓|こうひん} (official guest) and ⟦{公式|こうしき}→公式：04167_koushiki⟧⟦{実務|じつむ}→実務：12307_jitsumu⟧⟦{訪問|ほうもん}→訪問：03622_houmon⟧⟦{賓客|ひんきゃく}→賓客：23124_hinkyaku⟧ (official working visit guest), which are lower levels of protocol.\n\nCOMMON COLLOCATIONS:\n- {国賓|こくひん}⟦として→として：06802_toshite⟧⟦{招|まね}く→招く：02425_maneku⟧: to invite as a state guest\n- {国賓|こくひん}⟦として→として：06802_toshite⟧⟦{来日|らいにち}→来日：13060_rainichi⟧⟦する→する：00392_suru⟧: to visit Japan as a state guest\n- {国賓|こくひん}⟦を→を：00422_wo⟧⟦{迎|むか}える→迎える：01193_mukaeru⟧: to receive a state guest\n- {国賓|こくひん}⟦{待遇|たいぐう}→待遇：12517_taiguu⟧: state guest treatment",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23124_hinkyaku",
+      "reading": "ひんきゃく",
+      "headword": "{賓客|ひんきゃく}",
+      "label": "honored guest"
+    }
+  ],
   "metadata": {
     "created": "2026-02-20T08:57:58Z",
-    "modified": "2026-08-16T12:31:26Z",
+    "modified": "2026-09-02T04:01:27Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

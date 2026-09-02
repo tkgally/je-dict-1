@@ -15,41 +15,66 @@
   "examples": [
     {
       "id": "14541_yoroi_ex1",
-      "japanese": "{博物館|はくぶつかん}に{鎧|よろい}が{展示|てんじ}されている。",
+      "japanese": "⟦{博物館|はくぶつかん}→博物館：01494_hakubutsukan⟧⟦に→に：00314_ni⟧{鎧|よろい}⟦が→が：00051_ga⟧⟦{展示|てんじ}→展示：12401_tenji⟧⟦されている→する：00392_suru⟧。",
       "english": "Armor is on display at the museum.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14541_yoroi_ex2",
-      "japanese": "{武士|ぶし}は{鎧|よろい}を{身|み}につけて{戦|たたか}った。",
+      "japanese": "⟦{武士|ぶし}→武士：03989_bushi⟧⟦は→は：00079_ha⟧{鎧|よろい}⟦を→を：00422_wo⟧⟦{身|み}→身：01764_mi⟧につけて⟦{戦|たたか}った→戦う：02071_tatakau⟧。",
       "english": "The samurai fought wearing armor.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14541_yoroi_ex3",
-      "japanese": "{端午|たんご}の{節句|せっく}には{鎧|よろい}や{兜|かぶと}を{飾|かざ}る{家庭|かてい}もある。",
+      "japanese": "⟦{端午|たんご}の{節句|せっく}→端午の節句：16518_tangonosekku⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{鎧|よろい}や⟦{兜|かぶと}→兜：11625_kabuto⟧⟦を→を：00422_wo⟧⟦{飾|かざ}る→飾る：01185_kazaru⟧⟦{家庭|かてい}→家庭：12315_katei⟧⟦も→も：00484_mo⟧⟦ある→ある：00006_aru⟧。",
       "english": "Some families display armor and helmets for the Boys' Day festival.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "Refers specifically to Japanese-style armor unless otherwise qualified. Western-style armor is usually distinguished as {西洋|せいよう}の{鎧|よろい}.\n\nCOMMON COLLOCATIONS:\n- {鎧|よろい}を{着|き}る / {鎧|よろい}を{身|み}につける (to put on armor)\n- {鎧|よろい}{兜|かぶと} (armor and helmet — a set phrase)\n- {鎧|よろい}を{脱|ぬ}ぐ (to remove armor; figuratively, to drop one's guard)\n\nCULTURAL NOTE:\nJapanese armor ({鎧|よろい}) is displayed during {端午|たんご}の{節句|せっく} (Boys' Day, May 5) as a symbol of strength and protection for boys.",
-  "cross_references": [],
+  "notes": "Refers specifically to Japanese-style armor unless otherwise qualified. Western-style armor is usually distinguished as ⟦{西洋|せいよう}→西洋：01446_seiyou⟧⟦の→の：09472_no⟧{鎧|よろい}.\n\nCOMMON COLLOCATIONS:\n- {鎧|よろい}⟦を→を：00422_wo⟧⟦{着|き}る→着る：00541_kiru⟧ / {鎧|よろい}⟦を→を：00422_wo⟧⟦{身|み}につける→身につける：03158_minitsukeru⟧ (to put on armor)\n- {鎧|よろい}{兜|かぶと} (armor and helmet — a set phrase)\n- {鎧|よろい}⟦を→を：00422_wo⟧⟦{脱|ぬ}ぐ→脱ぐ：00518_nugu⟧ (to remove armor; figuratively, to drop one's guard)\n\nCULTURAL NOTE:\nJapanese armor ({鎧|よろい}) is displayed during ⟦{端午|たんご}の{節句|せっく}→端午の節句：16518_tangonosekku⟧ (Boys' Day, May 5) as a symbol of strength and protection for boys.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15370_kacchuu",
+      "reading": "かっちゅう",
+      "headword": "{甲冑|かっちゅう}",
+      "label": "armor and helmet"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30741_soukou",
+      "reading": "そうこう",
+      "headword": "{装甲|そうこう}",
+      "label": "armour plating"
+    }
+  ],
   "metadata": {
     "created": "2026-03-02T06:25:52Z",
-    "modified": "2026-03-02T06:25:52Z",
+    "modified": "2026-09-02T04:01:37Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["clothing"]
+      "semantic": [
+        "clothing"
+      ]
     }
   }
 }

@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08498_daredemo_ex1",
-      "japanese": "{誰|だれ}でも{参加|さんか}できます。",
+      "japanese": "{誰|だれ}でも⟦{参加|さんか}→参加：02498_sanka⟧⟦できます→できる：00557_dekiru⟧。",
       "english": "Anyone can participate.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "08498_daredemo_ex2",
-      "japanese": "{誰|だれ}でも{間違|まちが}いはある。",
+      "japanese": "{誰|だれ}でも⟦{間違|まちが}い→間違い：03733_machigai⟧⟦は→は：00079_ha⟧⟦ある→ある：00006_aru⟧。",
       "english": "Everyone makes mistakes.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "08498_daredemo_ex3",
-      "japanese": "{誰|だれ}でもいいから{手伝|てつだ}ってほしい。",
+      "japanese": "{誰|だれ}でも⟦いい→いい：00118_ii⟧⟦から→から：00504_kara⟧⟦{手伝|てつだ}って→手伝う：00898_tetsudau⟧ほしい。",
       "english": "I want anyone at all to help me.",
       "sense_numbers": [
         1
@@ -43,7 +43,7 @@
       "notes": null
     }
   ],
-  "notes": "COMPOUND:\n{誰|だれ} (who) + でも (even, any)\n\nPATTERN:\nThe ~でも pattern creates \"any-\" words:\n- {何|なん}でも - anything\n- {何処|どこ}でも - anywhere\n- いつでも - anytime\n- どちらでも - either one\n\nNUANCE:\n- With positive: \"anyone can\" → universal possibility\n- With negative: \"not anyone\" → nobody\n- {誰|だれ}でもいい - anyone is fine (indifference)\n\nCONTRAST:\n- {誰|だれ}でも (anyone/everyone) ↔ {誰|だれ}か (someone)\n- {誰|だれ}でも (anyone/everyone) ↔ {誰|だれ}も + neg (no one)",
+  "notes": "COMPOUNDS:\n⟦{誰|だれ}→誰：00534_dare⟧ (who) + ⟦でも→でも：00925_demo⟧ (even, any)\n\nCOMMON PATTERNS:\nThe ~⟦でも→でも：00925_demo⟧ pattern creates \"any-\" words:\n- ⟦{何|なん}→何〜：03100_nan⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧ - anything\n- {何処|どこ}⟦で→で：00502_de⟧⟦も→も：00484_mo⟧ - anywhere\n- ⟦いつ→いつ：00536_itsu⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧ - anytime\n- ⟦どちら→どちら：00927_dochira⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧ - either one\n\nUSAGE:\n- With positive: \"anyone can\" → universal possibility\n- With negative: \"not anyone\" → nobody\n- {誰|だれ}でも⟦いい→いい：00118_ii⟧ - anyone is fine (indifference)\n\nSIMILAR WORDS:\n- {誰|だれ}でも (anyone/everyone) ↔ ⟦{誰|だれ}か→誰か：02912_dareka⟧ (someone)\n- {誰|だれ}でも (anyone/everyone) ↔ ⟦{誰|だれ}も→誰も：18610_daremo⟧ + neg (no one)",
   "cross_references": [
     {
       "type": "related",
@@ -51,6 +51,41 @@
       "headword": "{何|なん}でも",
       "label": "anything, everything",
       "target_id": "00304_nandemo"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03826_itsudemo",
+      "reading": "いつでも",
+      "headword": "いつでも",
+      "label": "anytime, always"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13926_rounyakunannyo",
+      "reading": "ろうにゃくなんにょ",
+      "headword": "{老若男女|ろうにゃくなんにょ}",
+      "label": "men and women of all ages"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18610_daremo",
+      "reading": "だれも",
+      "headword": "{誰|だれ}も",
+      "label": "nobody"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22974_darekare",
+      "reading": "だれかれ",
+      "headword": "{誰彼|だれかれ}",
+      "label": "this person and that"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25587_dareshimo",
+      "reading": "だれしも",
+      "headword": "{誰|だれ}しも",
+      "label": "everyone"
     }
   ],
   "metadata": {
@@ -60,11 +95,12 @@
         "pronoun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "grammatical"
       ]
     },
     "created": "2026-01-27T08:12:28Z",
-    "modified": "2026-06-26T00:19:24Z"
+    "modified": "2026-09-02T04:01:15Z"
   }
 }

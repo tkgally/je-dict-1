@@ -15,40 +15,59 @@
   "examples": [
     {
       "id": "21250_utsuteganai_ex1",
-      "japanese": "もう{打|う}つ{手|て}がない。",
+      "japanese": "⟦もう→もう：00602_mou⟧{打|う}つ{手|て}がない。",
       "english": "There's nothing more we can do.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21250_utsuteganai_ex2",
-      "japanese": "{医者|いしゃ}は{打|う}つ{手|て}がないと{言|い}った。",
+      "japanese": "⟦{医者|いしゃ}→医者：02847_isha⟧⟦は→は：00079_ha⟧{打|う}つ{手|て}がない⟦と→と：00512_to⟧⟦{言|い}った→言う：00515_iu⟧。",
       "english": "The doctor said nothing more could be done.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21250_utsuteganai_ex3",
-      "japanese": "{赤字|あかじ}が{続|つづ}き、{経営陣|けいえいじん}は{打|う}つ{手|て}がない{状態|じょうたい}に{追|お}い{込|こ}まれた。",
+      "japanese": "⟦{赤字|あかじ}→赤字：04712_akaji⟧⟦が→が：00051_ga⟧⟦{続|つづ}き→続く：00903_tsuzuku⟧、⟦{経営陣|けいえいじん}→経営陣：20535_keieijin⟧⟦は→は：00079_ha⟧{打|う}つ{手|て}がない⟦{状態|じょうたい}→状態：03345_joutai⟧⟦に→に：00314_ni⟧⟦{追|お}い{込|こ}まれた→追い込む：06371_oikomu⟧。",
       "english": "Losses continued, and the management was driven into a state where nothing could be done.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Literally \"there is no move to play\" — a metaphor from board games (go, shogi) where no viable move remains. Expresses helplessness in the face of a problem that cannot be solved.\n\nVARIATIONS:\n- {打|う}つ{手|て}がなくなる: to run out of options\n- {打|う}つ{手|て}なし: no recourse (more concise form)\n- {打|う}つ{手|て}を{失|うしな}う: to lose all options\n\nSIMILAR EXPRESSIONS:\n- {手|て}の{施|ほどこ}しようがない: nothing can be done (more formal)\n- お{手上|てあ}げ: throwing up one's hands; giving up\n- {為|な}す{術|すべ}がない: there is nothing one can do (literary)\n\nETYMOLOGY:\nFrom board game terminology — {打|う}つ{手|て} refers to a move or play one can make. When there are no more moves available, one has lost.",
+  "notes": "Literally \"there is no move to play\" — a metaphor from board games (go, shogi) where no viable move remains. Expresses helplessness in the face of a problem that cannot be solved.\n\nFORMS:\n- ⟦{打|う}つ{手|て}→打つ手：30191_utsute⟧⟦が→が：00051_ga⟧なくなる: to run out of options\n- ⟦{打|う}つ{手|て}→打つ手：30191_utsute⟧なし: no recourse (more concise form)\n- ⟦{打|う}つ{手|て}→打つ手：30191_utsute⟧⟦を→を：00422_wo⟧⟦{失|うしな}う→失う：01887_ushinau⟧: to lose all options\n\nSIMILAR WORDS:\n- ⟦{手|て}→手：00569_te⟧⟦の→の：09472_no⟧⟦{施|ほどこ}し→施す：12985_hodokosu⟧よう⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧: nothing can be done (more formal)\n- ⟦お{手上|てあ}げ→お手上げ：07399_oteage⟧: throwing up one's hands; giving up\n- ⟦{為|な}す→為す：03915_nasu⟧{術|すべ}⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧: there is nothing one can do (literary)\n\nETYMOLOGY:\nFrom board game terminology — ⟦{打|う}つ{手|て}→打つ手：30191_utsute⟧ refers to a move or play one can make. When there are no more moves available, one has lost.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07399_oteage",
+      "reading": "おてあげ",
+      "headword": "お{手上|てあ}げ",
+      "label": "throwing up one's hands"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["expression"],
+      "pos": [
+        "expression"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["abstract"]
+      "semantic": [
+        "abstract"
+      ]
     },
     "created": "2026-04-01T15:28:11Z",
-    "modified": "2026-04-01T15:28:11Z"
+    "modified": "2026-09-02T04:02:02Z"
   }
 }

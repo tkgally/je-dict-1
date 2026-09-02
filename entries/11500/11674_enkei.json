@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "11674_enkei_ex1",
-      "japanese": "{円形|えんけい}のテーブルを{使|つか}う。",
+      "japanese": "{円形|えんけい}⟦の→の：09472_no⟧⟦テーブル→テーブル：04488_teeburu⟧⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧。",
       "english": "Use a circular table.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "11674_enkei_ex2",
-      "japanese": "{広場|ひろば}の{中央|ちゅうおう}に{円形|えんけい}の{噴水|ふんすい}がある。",
+      "japanese": "⟦{広場|ひろば}→広場：00104_hiroba⟧⟦の→の：09472_no⟧⟦{中央|ちゅうおう}→中央：03475_chuuou⟧⟦に→に：00314_ni⟧{円形|えんけい}⟦の→の：09472_no⟧⟦{噴水|ふんすい}→噴水：09637_funsui⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There is a circular fountain in the center of the plaza.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "11674_enkei_ex3",
-      "japanese": "{円形|えんけい}{脱毛症|だつもうしょう}はストレスが{原因|げんいん}で{起|お}こることがある。",
+      "japanese": "{円形|えんけい}⟦{脱毛症|だつもうしょう}→脱毛症：26309_datsumoushou⟧⟦は→は：00079_ha⟧⟦ストレス→ストレス：03827_sutoresu⟧⟦が→が：00051_ga⟧⟦{原因|げんいん}→原因：01400_genin⟧⟦で→で：00502_de⟧⟦{起|お}こる→起こる：01910_okoru⟧こと⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "Alopecia areata can be caused by stress.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,33 @@
       ]
     }
   ],
-  "notes": "Typically used as a modifier (の or compound) before another noun. Rarely appears as a standalone noun.\n\nCOMMON COLLOCATIONS:\n・{円形|えんけい}の (circular, round)\n・{円形|えんけい}{脱毛症|だつもうしょう} (alopecia areata, spot baldness)\n・{円形|えんけい}{劇場|げきじょう} (amphitheater)\n・{円形|えんけい}{交差点|こうさてん} (roundabout, traffic circle)\n\nRELATED SHAPES:\n・{三角形|さんかくけい} (triangle)\n・{四角形|しかくけい} (quadrilateral)\n・{長方形|ちょうほうけい} (rectangle)\n・{楕円形|だえんけい} (ellipse, oval)",
-  "cross_references": [],
+  "notes": "Typically used as a modifier (⟦の→の：09472_no⟧ or compound) before another noun. Rarely appears as a standalone noun.\n\nCOMMON COLLOCATIONS:\n- {円形|えんけい}⟦の→の：09472_no⟧ (circular, round)\n- {円形|えんけい}⟦{脱毛症|だつもうしょう}→脱毛症：26309_datsumoushou⟧ (alopecia areata, spot baldness)\n- {円形|えんけい}⟦{劇場|げきじょう}→劇場：02714_gekijou⟧ (amphitheater)\n- {円形|えんけい}⟦{交差点|こうさてん}→交差点：01404_kousaten⟧ (roundabout, traffic circle)\n\nRELATED SHAPES:\n- ⟦{三角形|さんかくけい}→三角形：05436_sankakukei⟧ (triangle)\n- ⟦{四角形|しかくけい}→四角形：05437_shikakukei⟧ (quadrilateral)\n- ⟦{長方形|ちょうほうけい}→長方形：05439_chouhoukei⟧ (rectangle)\n- ⟦{楕円形|だえんけい}→楕円形：29616_daenkei⟧ (ellipse, oval)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "05436_sankakukei",
+      "reading": "さんかくけい",
+      "headword": "{三角形|さんかくけい}",
+      "label": "triangle"
+    },
+    {
+      "type": "related",
+      "target_id": "05437_shikakukei",
+      "reading": "しかくけい",
+      "headword": "{四角形|しかくけい}",
+      "label": "quadrilateral"
+    },
+    {
+      "type": "related",
+      "target_id": "05439_chouhoukei",
+      "reading": "ちょうほうけい",
+      "headword": "{長方形|ちょうほうけい}",
+      "label": "rectangle"
+    }
+  ],
   "metadata": {
     "created": "2026-02-17T20:19:46Z",
-    "modified": "2026-08-15T21:21:56Z",
+    "modified": "2026-09-02T04:01:26Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

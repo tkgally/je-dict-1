@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "09168_okusuru_ex1",
-      "japanese": "{臆|おく}することなく",
+      "japanese": "{臆|おく}すること⟦なく→ない：01118_nai⟧",
       "english": "without flinching/hesitating",
       "sense_numbers": [
         1
@@ -114,7 +114,7 @@
     },
     {
       "id": "09168_okusuru_ex2",
-      "japanese": "{困難|こんなん}に{臆|おく}してはいけない。",
+      "japanese": "⟦{困難|こんなん}→困難：01410_konnan⟧⟦に→に：00314_ni⟧{臆|おく}して⟦は→は：00079_ha⟧いけない。",
       "english": "Don't be daunted by difficulties.",
       "sense_numbers": [
         1
@@ -124,7 +124,7 @@
     },
     {
       "id": "09168_okusuru_ex3",
-      "japanese": "{彼|かれ}は{臆|おく}することなく、{大勢|おおぜい}の{前|まえ}で{自分|じぶん}の{意見|いけん}を{主張|しゅちょう}した。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{臆|おく}すること⟦なく→ない：01118_nai⟧、⟦{大勢|おおぜい}→大勢：02850_oozei⟧⟦の→の：09472_no⟧⟦{前|まえ}→前：02255_mae⟧⟦で→で：00502_de⟧⟦{自分|じぶん}→自分：02887_jibun⟧⟦の→の：09472_no⟧⟦{意見|いけん}→意見：01303_iken⟧⟦を→を：00422_wo⟧⟦{主張|しゅちょう}した→主張する：25380_shuchousuru⟧。",
       "english": "Without flinching, he asserted his opinion in front of a large crowd.",
       "sense_numbers": [
         1
@@ -133,7 +133,7 @@
       "notes": null
     }
   ],
-  "notes": "TRANSITIVITY: Intransitive ({自動詞|じどうし}).\n\nCONJUGATION: サ{変|へん}{動詞|どうし} (irregular する verb): {臆|おく}しない, {臆|おく}します, {臆|おく}して.\n\nNUANCE: {臆|おく}する is a literary/formal word implying cowardice or losing nerve. It's often used in negative constructions ({臆|おく}せず, {臆|おく}することなく) to describe courage or determination.\n\nCOMMON EXPRESSIONS:\n- {臆|おく}することなく (without flinching)\n- {臆|おく}せずに (unflinchingly)\n- ～に{臆|おく}する (to be daunted by ~)\n\nRELATED ADJECTIVE: {臆病|おくびょう} (cowardly, timid)\n\nRELATED WORDS:\n- {物怖|ものお}じする (to be shy/timid)\n- {気後|きおく}れする (to feel intimidated)\n- {怯|ひる}む (to flinch, cower)\n- {尻込|しりご}みする (to shrink back)",
+  "notes": "TRANSITIVITY: Intransitive (⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧).\n\nCONJUGATION: サ{変|へん}⟦{動詞|どうし}→動詞：03472_doushi⟧ (irregular ⟦する→する：00392_suru⟧ verb): {臆|おく}しない, {臆|おく}します, {臆|おく}して.\n\nNUANCE: {臆|おく}する is a literary/formal word implying cowardice or losing nerve. It's often used in negative constructions ({臆|おく}せず, {臆|おく}すること⟦なく→ない：01118_nai⟧) to describe courage or determination.\n\nCOMMON EXPRESSIONS:\n- {臆|おく}すること⟦なく→ない：01118_nai⟧ (without flinching)\n- {臆|おく}せず⟦に→に：00314_ni⟧ (unflinchingly)\n- ～⟦に→に：00314_ni⟧{臆|おく}する (to be daunted by ~)\n\nRELATED ADJECTIVE: ⟦{臆病|おくびょう}→臆病：07608_okubyou⟧ (cowardly, timid)\n\nRELATED WORDS:\n- ⟦{物怖|ものお}じ→物怖じ：09167_monooji⟧⟦する→する：00392_suru⟧ (to be shy/timid)\n- ⟦{気後|きおく}れ→気後れ：09166_kiokure⟧⟦する→する：00392_suru⟧ (to feel intimidated)\n- {怯|ひる}む (to flinch, cower)\n- ⟦{尻込|しりご}み→尻込み：12442_shirigomi⟧⟦する→する：00392_suru⟧ (to shrink back)",
   "cross_references": [
     {
       "type": "synonym",
@@ -148,11 +148,25 @@
       "reading": "きおくれ",
       "headword": "{気後|きおく}れ",
       "label": "feeling daunted"
+    },
+    {
+      "type": "related",
+      "target_id": "12442_shirigomi",
+      "reading": "しりごみ",
+      "headword": "{尻込|しりご}み",
+      "label": "to shrink back"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25255_ojikezuku",
+      "reading": "おじけづく",
+      "headword": "{怖気|おじけ}づく",
+      "label": "to get cold feet"
     }
   ],
   "metadata": {
     "created": "2026-01-31T11:35:03Z",
-    "modified": "2026-07-06T18:18:54Z",
+    "modified": "2026-09-02T04:01:17Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

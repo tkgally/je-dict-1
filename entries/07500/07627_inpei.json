@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "07627_inpei_ex1",
-      "japanese": "{証拠|しょうこ}を{隠蔽|いんぺい}する。",
+      "japanese": "⟦{証拠|しょうこ}→証拠：10575_shouko⟧⟦を→を：00422_wo⟧{隠蔽|いんぺい}⟦する→する：00392_suru⟧。",
       "english": "To conceal evidence.",
       "has_audio": false,
       "sense_numbers": [
@@ -113,7 +113,7 @@
     },
     {
       "id": "07627_inpei_ex2",
-      "japanese": "{会社|かいしゃ}は{不正|ふせい}を{隠蔽|いんぺい}しようとした。",
+      "japanese": "⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦は→は：00079_ha⟧⟦{不正|ふせい}→不正：01660_fusei⟧⟦を→を：00422_wo⟧{隠蔽|いんぺい}⟦しよう→する：00392_suru⟧とした。",
       "english": "The company tried to cover up the misconduct.",
       "has_audio": false,
       "sense_numbers": [
@@ -122,7 +122,7 @@
     },
     {
       "id": "07627_inpei_ex3",
-      "japanese": "{情報|じょうほう}{隠蔽|いんぺい}が{発覚|はっかく}し、{大|おお}きなスキャンダルになった。",
+      "japanese": "⟦{情報|じょうほう}→情報：03348_jouhou⟧{隠蔽|いんぺい}⟦が→が：00051_ga⟧⟦{発覚|はっかく}→発覚：07629_hakkaku⟧し、⟦{大|おお}きな→大きな：02849_ookina⟧スキャンダルになった。",
       "english": "The information cover-up came to light and became a major scandal.",
       "has_audio": false,
       "sense_numbers": [
@@ -130,7 +130,7 @@
       ]
     }
   ],
-  "notes": "COMMON COLLOCATIONS:\n・{証拠|しょうこ}を{隠蔽|いんぺい}する - to conceal evidence\n・{事実|じじつ}を{隠蔽|いんぺい}する - to cover up facts\n・{情報|じょうほう}{隠蔽|いんぺい} - information concealment\n・{隠蔽|いんぺい}{工作|こうさく} - cover-up operation\n\nNUANCE:\nThis word has a strongly negative connotation, implying deliberate and often illegal concealment of wrongdoing.\n\nRELATED WORDS:\n・{発覚|はっかく} - coming to light (opposite outcome)\n・{暴露|ばくろ} - exposure (the act of revealing)\n・{捏造|ねつぞう} - fabrication",
+  "notes": "COMMON COLLOCATIONS:\n- ⟦{証拠|しょうこ}→証拠：10575_shouko⟧⟦を→を：00422_wo⟧{隠蔽|いんぺい}⟦する→する：00392_suru⟧ - to conceal evidence\n- ⟦{事実|じじつ}→事実：03271_jijitsu⟧⟦を→を：00422_wo⟧{隠蔽|いんぺい}⟦する→する：00392_suru⟧ - to cover up facts\n- ⟦{情報|じょうほう}→情報：03348_jouhou⟧{隠蔽|いんぺい} - information concealment\n- {隠蔽|いんぺい}⟦{工作|こうさく}→工作：12437_kousaku⟧ - cover-up operation\n\nUSAGE:\nThis word has a strongly negative connotation, implying deliberate and often illegal concealment of wrongdoing.\n\nRELATED WORDS:\n- ⟦{発覚|はっかく}→発覚：07629_hakkaku⟧ - coming to light (opposite outcome)\n- ⟦{暴露|ばくろ}→暴露：07630_bakuro⟧ - exposure (the act of revealing)\n- ⟦{捏造|ねつぞう}→捏造：07628_netsuzou⟧ - fabrication",
   "cross_references": [
     {
       "type": "antonym",
@@ -145,11 +145,39 @@
       "headword": "{発覚|はっかく}",
       "label": "coming to light",
       "target_id": "07629_hakkaku"
+    },
+    {
+      "type": "related",
+      "target_id": "07628_netsuzou",
+      "reading": "ねつぞう",
+      "headword": "{捏造|ねつぞう}",
+      "label": "fabrication"
+    },
+    {
+      "type": "related",
+      "target_id": "07874_houmuru",
+      "reading": "ほうむる",
+      "headword": "{葬|ほうむ}る",
+      "label": "to bury"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21903_hitoku",
+      "reading": "ひとく",
+      "headword": "{秘匿|ひとく}",
+      "label": "concealment"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25905_himitsushugi",
+      "reading": "ひみつしゅぎ",
+      "headword": "{秘密|ひみつ}{主義|しゅぎ}",
+      "label": "secretiveness"
     }
   ],
   "metadata": {
     "created": "2026-01-20T13:21:59Z",
-    "modified": "2026-08-11T09:37:41Z",
+    "modified": "2026-09-02T04:01:12Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -158,6 +186,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "communication",
         "action"
@@ -165,7 +194,8 @@
       "domain": [
         "legal"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

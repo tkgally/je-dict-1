@@ -129,7 +129,7 @@
     },
     {
       "id": "05748_nagarekomu_ex3",
-      "japanese": "⟦{窓|まど}→窓：02254_mado⟧⟦を→を：00422_wo⟧⟦{開|あ}ける→開ける：00563_akeru⟧と、⟦{朝|あさ}→朝：02277_asa⟧⟦の→の：09472_no⟧⟦{光|ひかり}→光：01707_hikari⟧⟦が→が：00051_ga⟧⟦{部屋|へや}→部屋：00507_heya⟧⟦に→に：00314_ni⟧{流|なが}れ{込|こ}んできた。",
+      "japanese": "⟦{窓|まど}→窓：02254_mado⟧⟦を→を：00422_wo⟧⟦{開|あ}ける→開ける：00563_akeru⟧⟦と→と：00512_to⟧、⟦{朝|あさ}→朝：02277_asa⟧⟦の→の：09472_no⟧⟦{光|ひかり}→光：01707_hikari⟧⟦が→が：00051_ga⟧⟦{部屋|へや}→部屋：00507_heya⟧⟦に→に：00314_ni⟧{流|なが}れ{込|こ}んできた。",
       "english": "When I opened the window, the morning light streamed into the room.",
       "notes": null,
       "has_audio": false,
@@ -168,7 +168,7 @@
       ]
     }
   ],
-  "notes": "{流|なが}れ{込|こ}む means to flow or stream into a place.\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n- Takes ⟦に→に：00314_ni⟧ particle for the destination\n\nCOMPOUND VERB:\nFormed from ⟦{流|なが}れる→流れる：01969_nagareru⟧ (to flow) + ⟦{込|こ}む→込む：00719_komu⟧ (to enter into).\n\nCOMMON PATTERNS:\n- ⟦{川|かわ}→川：02186_kawa⟧⟦が→が：00051_ga⟧⟦{海|うみ}→海：00556_umi⟧⟦に→に：00314_ni⟧{流|なが}れ{込|こ}む: river flows into the sea\n- ⟦{光|ひかり}→光：01707_hikari⟧⟦が→が：00051_ga⟧⟦{部屋|へや}→部屋：00507_heya⟧⟦に→に：00314_ni⟧{流|なが}れ{込|こ}む: light streams into the room\n- ⟦{人|ひと}→人：00476_hito⟧⟦が→が：00051_ga⟧{流|なが}れ{込|こ}む: people flood in\n- ⟦{資金|しきん}→資金：09937_shikin⟧⟦が→が：00051_ga⟧{流|なが}れ{込|こ}む: funds flow in\n\nASPECT (ている):\n{流|なが}れ{込|こ}んでいる indicates a continuous state of flowing in.\n\nRELATED:\n- ⟦{流|なが}れ{出|だ}す→流れ出す：06086_nagaredasu⟧: to flow out\n- ⟦{流|なが}れる→流れる：01969_nagareru⟧: to flow (base verb)",
+  "notes": "{流|なが}れ{込|こ}む means to flow or stream into a place.\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n- Takes ⟦に→に：00314_ni⟧ particle for the destination\n\nCOMPOUND VERB:\nFormed from ⟦{流|なが}れる→流れる：01969_nagareru⟧ (to flow) + ⟦{込|こ}む→込む：00719_komu⟧ (to enter into).\n\nCOMMON PATTERNS:\n- ⟦{川|かわ}→川：02186_kawa⟧⟦が→が：00051_ga⟧⟦{海|うみ}→海：00556_umi⟧⟦に→に：00314_ni⟧{流|なが}れ{込|こ}む: river flows into the sea\n- ⟦{光|ひかり}→光：01707_hikari⟧⟦が→が：00051_ga⟧⟦{部屋|へや}→部屋：00507_heya⟧⟦に→に：00314_ni⟧{流|なが}れ{込|こ}む: light streams into the room\n- ⟦{人|ひと}→人：00476_hito⟧⟦が→が：00051_ga⟧{流|なが}れ{込|こ}む: people flood in\n- ⟦{資金|しきん}→資金：09937_shikin⟧⟦が→が：00051_ga⟧{流|なが}れ{込|こ}む: funds flow in\n\nASPECT (ている):\n{流|なが}れ{込|こ}んで⟦いる→いる：00495_iru⟧ indicates a continuous state of flowing in.\n\nRELATED WORDS:\n- ⟦{流|なが}れ{出|だ}す→流れ出す：06086_nagaredasu⟧: to flow out\n- ⟦{流|なが}れる→流れる：01969_nagareru⟧: to flow (base verb)",
   "cross_references": [
     {
       "type": "antonym",
@@ -183,11 +183,18 @@
       "reading": "ながれる",
       "headword": "{流|なが}れる",
       "label": "base verb: to flow"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21384_ryuunyuu",
+      "reading": "りゅうにゅう",
+      "headword": "{流入|りゅうにゅう}する",
+      "label": "to flow in"
     }
   ],
   "metadata": {
     "created": "2026-01-16T08:43:51Z",
-    "modified": "2026-07-29T21:21:40Z",
+    "modified": "2026-09-02T04:01:07Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

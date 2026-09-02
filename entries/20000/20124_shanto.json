@@ -20,7 +20,7 @@
   "examples": [
     {
       "id": "20124_shanto_ex1",
-      "japanese": "しゃんと{立|た}ちなさい。",
+      "japanese": "しゃんと⟦{立|た}ち→立つ：00758_tatsu⟧⟦なさい→なさる：01307_nasaru⟧。",
       "english": "Stand up straight.",
       "sense_numbers": [
         1
@@ -30,7 +30,7 @@
     },
     {
       "id": "20124_shanto_ex2",
-      "japanese": "{背筋|せすじ}をしゃんと{伸|の}ばす。",
+      "japanese": "⟦{背筋|せすじ}→背筋：13931_sesuji⟧⟦を→を：00422_wo⟧しゃんと⟦{伸|の}ばす→伸ばす：01973_nobasu⟧。",
       "english": "Straighten your back properly.",
       "sense_numbers": [
         1
@@ -40,7 +40,7 @@
     },
     {
       "id": "20124_shanto_ex3",
-      "japanese": "{祖母|そぼ}は{九十歳|きゅうじゅっさい}でもしゃんと{歩|ある}いている。",
+      "japanese": "⟦{祖母|そぼ}→祖母：00813_sobo⟧⟦は→は：00079_ha⟧{九十歳|きゅうじゅっさい}⟦で→で：00502_de⟧⟦も→も：00484_mo⟧しゃんと⟦{歩|ある}いている→歩く：00538_aruku⟧。",
       "english": "My grandmother walks upright even at ninety years old.",
       "sense_numbers": [
         1
@@ -50,7 +50,7 @@
     },
     {
       "id": "20124_shanto_ex4",
-      "japanese": "しゃんとしなさい！",
+      "japanese": "しゃんとし⟦なさい→なさる：01307_nasaru⟧！",
       "english": "Pull yourself together!",
       "sense_numbers": [
         2
@@ -60,7 +60,7 @@
     },
     {
       "id": "20124_shanto_ex5",
-      "japanese": "{祖父|そふ}はまだしゃんとしている。",
+      "japanese": "⟦{祖父|そふ}→祖父：01452_sofu⟧⟦は→は：00079_ha⟧⟦まだ→まだ：00603_mada⟧しゃんと⟦している→する：00392_suru⟧。",
       "english": "My grandfather is still in good shape.",
       "sense_numbers": [
         2
@@ -70,7 +70,7 @@
     },
     {
       "id": "20124_shanto_ex6",
-      "japanese": "{泣|な}いてばかりいないで、しゃんとして{前|まえ}を{向|む}きなさい。",
+      "japanese": "⟦{泣|な}いて→泣く：00655_naku⟧⟦ばかり→〜ばかり：02006_bakari⟧⟦いないで→いる：00495_iru⟧、しゃんと⟦して→する：00392_suru⟧⟦{前|まえ}→前：02255_mae⟧⟦を→を：00422_wo⟧⟦{向|む}き→向く：02304_muku⟧⟦なさい→なさる：01307_nasaru⟧。",
       "english": "Stop crying and pull yourself together — face forward.",
       "sense_numbers": [
         2
@@ -79,8 +79,24 @@
       "notes": null
     }
   ],
-  "notes": "An onomatopoeic adverb conveying uprightness, alertness, and firmness. The core image is of something straight, stable, and properly in place.\n\nCOMMON COLLOCATIONS:\n- しゃんと{立|た}つ: to stand up straight\n- しゃんとする: to straighten up; to pull oneself together\n- しゃんとしている: to be in good shape; to be alert and capable\n- {背筋|せすじ}をしゃんと{伸|の}ばす: to straighten one's back\n\nSIMILAR WORDS:\n- しゃきっと: alert, refreshed — emphasizes waking up or becoming energized\n- きちんと: properly, neatly — more about orderliness and correctness than posture\n- ぴんと: straight, taut — focuses on physical straightness or tension\n\nUSAGE:\nOften used by older people addressing younger ones, or when encouraging someone who seems weak, dispirited, or slouching. しゃんとしている is commonly used to praise elderly people who remain physically or mentally sharp for their age.",
+  "notes": "An onomatopoeic adverb conveying uprightness, alertness, and firmness. The core image is of something straight, stable, and properly in place.\n\nCOMMON COLLOCATIONS:\n- しゃんと⟦{立|た}つ→立つ：00758_tatsu⟧: to stand up straight\n- しゃんと⟦する→する：00392_suru⟧: to straighten up; to pull oneself together\n- しゃんと⟦している→する：00392_suru⟧: to be in good shape; to be alert and capable\n- ⟦{背筋|せすじ}→背筋：13931_sesuji⟧⟦を→を：00422_wo⟧しゃんと⟦{伸|の}ばす→伸ばす：01973_nobasu⟧: to straighten one's back\n\nSIMILAR WORDS:\n- しゃきっ⟦と→と：00512_to⟧: alert, refreshed — emphasizes waking up or becoming energized\n- ⟦きちんと→きちんと：00222_kichinto⟧: properly, neatly — more about orderliness and correctness than posture\n- ⟦ぴん→ピン：00344_pin⟧⟦と→と：00512_to⟧: straight, taut — focuses on physical straightness or tension\n\nUSAGE:\nOften used by older people addressing younger ones, or when encouraging someone who seems weak, dispirited, or slouching. しゃんと⟦している→する：00392_suru⟧ is commonly used to praise elderly people who remain physically or mentally sharp for their age.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22896_shakitto",
+      "reading": "しゃきっと",
+      "headword": "しゃきっと",
+      "label": "alert, refreshed"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00222_kichinto",
+      "reading": "きちんと",
+      "headword": "きちんと",
+      "label": "properly, neatly"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -96,6 +112,6 @@
       ]
     },
     "created": "2026-03-28T14:14:21Z",
-    "modified": "2026-07-28T00:51:36Z"
+    "modified": "2026-09-02T04:01:58Z"
   }
 }

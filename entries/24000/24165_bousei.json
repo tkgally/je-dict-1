@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24165_bousei_ex1",
-      "japanese": "{暴政|ぼうせい}に{苦|くる}しむ{民衆|みんしゅう}。",
+      "japanese": "{暴政|ぼうせい}⟦に→に：00314_ni⟧⟦{苦|くる}しむ→苦しむ：01938_kurushimu⟧⟦{民衆|みんしゅう}→民衆：13259_minshuu⟧。",
       "english": "The people suffering under tyranny.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24165_bousei_ex2",
-      "japanese": "{国民|こくみん}は{暴政|ぼうせい}に{対|たい}して{立|た}ち{上|あ}がった。",
+      "japanese": "⟦{国民|こくみん}→国民：02757_kokumin⟧⟦は→は：00079_ha⟧{暴政|ぼうせい}⟦に{対|たい}して→に対して：06800_nitaishite⟧⟦{立|た}ち{上|あ}がった→立ち上がる：02128_tachiagaru⟧。",
       "english": "The citizens rose up against the tyrannical rule.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24165_bousei_ex3",
-      "japanese": "{歴史|れきし}の{教科書|きょうかしょ}には、{暴政|ぼうせい}を{敷|し}いた{王|おう}の{話|はなし}が{数多|かずおお}く{載|の}っている。",
+      "japanese": "⟦{歴史|れきし}→歴史：02267_rekishi⟧⟦の→の：09472_no⟧⟦{教科書|きょうかしょ}→教科書：01085_kyoukasho⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧、{暴政|ぼうせい}⟦を→を：00422_wo⟧⟦{敷|し}いた→敷く：00366_shiku⟧⟦{王|おう}→王：19353_ou⟧⟦の→の：09472_no⟧⟦{話|はなし}→話：01496_hanashi⟧⟦が→が：00051_ga⟧⟦{数多|かずおお}く→数多く：12948_kazuooku⟧⟦{載|の}っている→載る：27882_noru⟧。",
       "english": "History textbooks contain many stories of kings who imposed tyrannical rule.",
       "sense_numbers": [
         1
@@ -44,14 +44,52 @@
       "notes": null
     }
   ],
-  "notes": "Describes cruel and oppressive governance by a ruler or government. Frequently encountered in historical and political contexts.\n\nCOMMON COLLOCATIONS:\n- {暴政|ぼうせい}を{敷|し}く: to impose tyranny\n- {暴政|ぼうせい}に{苦|くる}しむ: to suffer under tyranny\n- {暴政|ぼうせい}に{立|た}ち{向|む}かう: to stand up against tyranny\n- {暴政|ぼうせい}を{倒|たお}す: to overthrow a tyranny\n\nSIMILAR WORDS:\n- {独裁|どくさい}: dictatorship — rule by a single person, not necessarily cruel\n- {圧政|あっせい}: oppression — similar in meaning but emphasizes the weight of authoritarian control\n- {苛政|かせい}: harsh government — emphasizes cruelty and harshness in governance; more literary",
+  "notes": "Describes cruel and oppressive governance by a ruler or government. Frequently encountered in historical and political contexts.\n\nCOMMON COLLOCATIONS:\n- {暴政|ぼうせい}⟦を→を：00422_wo⟧⟦{敷|し}く→敷く：00366_shiku⟧: to impose tyranny\n- {暴政|ぼうせい}⟦に→に：00314_ni⟧⟦{苦|くる}しむ→苦しむ：01938_kurushimu⟧: to suffer under tyranny\n- {暴政|ぼうせい}⟦に→に：00314_ni⟧⟦{立|た}ち{向|む}かう→立ち向かう：06981_tachimukau⟧: to stand up against tyranny\n- {暴政|ぼうせい}⟦を→を：00422_wo⟧⟦{倒|たお}す→倒す：01954_taosu⟧: to overthrow a tyranny\n\nSIMILAR WORDS:\n- ⟦{独裁|どくさい}→独裁：05969_dokusai⟧: dictatorship — rule by a single person, not necessarily cruel\n- ⟦{圧政|あっせい}→圧政：12133_assei⟧: oppression — similar in meaning but emphasizes the weight of authoritarian control\n- ⟦{苛政|かせい}→苛政：24187_kasei⟧: harsh government — emphasizes cruelty and harshness in governance; more literary",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05969_dokusai",
+      "reading": "どくさい",
+      "headword": "{独裁|どくさい}",
+      "label": "dictatorship"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12133_assei",
+      "reading": "あっせい",
+      "headword": "{圧政|あっせい}",
+      "label": "oppression"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24187_kasei",
+      "reading": "かせい",
+      "headword": "{苛政|かせい}",
+      "label": "harsh government"
+    },
+    {
+      "type": "related",
+      "target_id": "17739_sensei",
+      "reading": "せんせい",
+      "headword": "{専制|せんせい}",
+      "label": "despotism, autocracy, tyranny"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26580_gyakusei",
+      "reading": "ぎゃくせい",
+      "headword": "{虐政|ぎゃくせい}",
+      "label": "tyranny"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "politics",
         "history"
@@ -61,6 +99,6 @@
       ]
     },
     "created": "2026-04-17T21:37:09Z",
-    "modified": "2026-04-17T21:37:09Z"
+    "modified": "2026-09-02T04:02:17Z"
   }
 }

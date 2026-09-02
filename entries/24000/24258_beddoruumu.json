@@ -15,40 +15,67 @@
   "examples": [
     {
       "id": "24258_beddoruumu_ex1",
-      "japanese": "ベッドルームは{二階|にかい}にある。",
+      "japanese": "ベッドルーム⟦は→は：00079_ha⟧⟦{二階|にかい}→二階：27513_nikai⟧⟦に→に：00314_ni⟧⟦ある→ある：00006_aru⟧。",
       "english": "The bedroom is on the second floor.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "24258_beddoruumu_ex2",
-      "japanese": "このマンションはベッドルームが{三|みっ}つある。",
+      "japanese": "⟦この→この：00962_kono⟧⟦マンション→マンション：01035_manshon⟧⟦は→は：00079_ha⟧ベッドルーム⟦が→が：00051_ga⟧⟦{三|みっ}つ→三つ：02970_mittsu⟧⟦ある→ある：00006_aru⟧。",
       "english": "This apartment has three bedrooms.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "24258_beddoruumu_ex3",
-      "japanese": "ベッドルームの{壁|かべ}を{落|お}ち{着|つ}いた{色|いろ}に{塗|ぬ}り{替|か}えた。",
+      "japanese": "ベッドルーム⟦の→の：09472_no⟧⟦{壁|かべ}→壁：01290_kabe⟧⟦を→を：00422_wo⟧⟦{落|お}ち{着|つ}いた→落ち着く：04670_ochitsuku⟧⟦{色|いろ}→色：00849_iro⟧⟦に→に：00314_ni⟧⟦{塗|ぬ}り{替|か}えた→塗り替える：06270_nurikaeru⟧。",
       "english": "We repainted the bedroom walls in a calming color.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Loanword from English 'bedroom.' In Japan, the distinction between a bedroom and a general-purpose room is culturally significant — traditional Japanese rooms ({和室|わしつ}) double as living spaces by day and sleeping spaces by night using futons, while ベッドルーム implies a dedicated Western-style sleeping room with a permanent bed.\n\nUSAGE:\n- Common in real estate listings: 「3ベッドルーム」 means a three-bedroom unit\n- In everyday speech, {寝室|しんしつ} is the more traditional native word, while ベッドルーム sounds more modern and Western\n- Often used when discussing interior design and home furnishing\n\nCOMMON COLLOCATIONS:\n- マスターベッドルーム: master bedroom\n- ベッドルームの{家具|かぐ}: bedroom furniture\n- ベッドルームの{照明|しょうめい}: bedroom lighting\n- ベッドルームに{入|はい}る: to go into the bedroom\n\nSIMILAR WORDS:\n- {寝室|しんしつ}: bedroom — the native Japanese equivalent; more traditional and neutral in register\n- {寝間|ねま}: sleeping room — a slightly old-fashioned term for the room where one sleeps\n- {和室|わしつ}: Japanese-style room — a tatami-floored room that can serve as a bedroom when futons are laid out",
+  "notes": "Loanword from English 'bedroom.' In Japan, the distinction between a bedroom and a general-purpose room is culturally significant — traditional Japanese rooms (⟦{和室|わしつ}→和室：10437_washitsu⟧) double as living spaces by day and sleeping spaces by night using futons, while ベッドルーム implies a dedicated Western-style sleeping room with a permanent bed.\n\nUSAGE:\n- Common in real estate listings: 「3ベッドルーム」 means a three-bedroom unit\n- In everyday speech, ⟦{寝室|しんしつ}→寝室：05300_shinshitsu⟧ is the more traditional native word, while ベッドルーム sounds more modern and Western\n- Often used when discussing interior design and home furnishing\n\nCOMMON COLLOCATIONS:\n- ⟦マスター→マスター：00273_masutaa⟧ベッドルーム: master bedroom\n- ベッドルーム⟦の→の：09472_no⟧⟦{家具|かぐ}→家具：12314_kagu⟧: bedroom furniture\n- ベッドルーム⟦の→の：09472_no⟧⟦{照明|しょうめい}→照明：03243_shoumei⟧: bedroom lighting\n- ベッドルーム⟦に→に：00314_ni⟧⟦{入|はい}る→入る：00494_hairu⟧: to go into the bedroom\n\nSIMILAR WORDS:\n- ⟦{寝室|しんしつ}→寝室：05300_shinshitsu⟧: bedroom — the native Japanese equivalent; more traditional and neutral in register\n- {寝間|ねま}: sleeping room — a slightly old-fashioned term for the room where one sleeps\n- ⟦{和室|わしつ}→和室：10437_washitsu⟧: Japanese-style room — a tatami-floored room that can serve as a bedroom when futons are laid out",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05300_shinshitsu",
+      "reading": "しんしつ",
+      "headword": "{寝室|しんしつ}",
+      "label": "bedroom"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10437_washitsu",
+      "reading": "わしつ",
+      "headword": "{和室|わしつ}",
+      "label": "Japanese-style room"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["building", "furniture"]
+      "semantic": [
+        "building",
+        "furniture"
+      ]
     },
     "created": "2026-04-18T11:28:01Z",
-    "modified": "2026-04-18T11:28:01Z"
+    "modified": "2026-09-02T04:02:17Z"
   }
 }

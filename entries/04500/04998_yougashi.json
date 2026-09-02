@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "{洋菓子|ようがし} refers to Western-style sweets and desserts.\n\n{洋|よう} = Western, ⟦{菓子|かし}→菓子：00191_kashi⟧ = sweets/confectionery\n\nCommon types:\n- ⟦ケーキ→ケーキ：01356_keeki⟧ (cake)\n- ⟦クッキー→クッキー：10798_kukkii⟧ (cookies)\n- ⟦チョコレート→チョコレート：05183_chokoreeto⟧ (chocolate)\n- ⟦シュークリーム→シュークリーム：noentry⟧ (cream puff)\n- ⟦タルト→タルト：27311_taruto⟧ (tart)\n- ⟦マカロン→マカロン：30401_makaron⟧ (macaron)\n- ⟦プリン→プリン：11123_purin⟧ (pudding/crème caramel)\n\nCharacteristics:\n- Uses dairy (butter, cream, milk)\n- Often uses wheat flour\n- Typically sweeter than Japanese sweets\n- Paired with coffee or tea\n\nOpposite: ⟦{和菓子|わがし}→和菓子：04962_wagashi⟧ (Japanese sweets)\n- Uses ⟦{餡子|あんこ}→餡子：08654_anko⟧, rice flour, etc.\n- Less dairy, more natural flavors\n- Paired with green tea",
+  "notes": "{洋菓子|ようがし} refers to Western-style sweets and desserts.\n\n⟦{洋|よう}→洋：28890_you⟧ = Western, ⟦{菓子|かし}→菓子：00191_kashi⟧ = sweets/confectionery\n\nCommon types:\n- ⟦ケーキ→ケーキ：01356_keeki⟧ (cake)\n- ⟦クッキー→クッキー：10798_kukkii⟧ (cookies)\n- ⟦チョコレート→チョコレート：05183_chokoreeto⟧ (chocolate)\n- ⟦シュークリーム→シュークリーム：noentry⟧ (cream puff)\n- ⟦タルト→タルト：27311_taruto⟧ (tart)\n- ⟦マカロン→マカロン：30401_makaron⟧ (macaron)\n- ⟦プリン→プリン：11123_purin⟧ (pudding/crème caramel)\n\nCharacteristics:\n- Uses dairy (butter, cream, milk)\n- Often uses wheat flour\n- Typically sweeter than Japanese sweets\n- Paired with coffee or tea\n\nOpposite: ⟦{和菓子|わがし}→和菓子：04962_wagashi⟧ (Japanese sweets)\n- Uses ⟦{餡子|あんこ}→餡子：08654_anko⟧, rice flour, etc.\n- Less dairy, more natural flavors\n- Paired with green tea",
   "cross_references": [
     {
       "type": "contrast",
@@ -71,11 +71,32 @@
       "reading": "わがし",
       "headword": "{和菓子|わがし}",
       "label": "Japanese sweets"
+    },
+    {
+      "type": "related",
+      "target_id": "15806_yakigashi",
+      "reading": "やきがし",
+      "headword": "{焼|や}き{菓子|がし}",
+      "label": "baked goods"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26227_satougashi",
+      "reading": "さとうがし",
+      "headword": "{砂糖菓子|さとうがし}",
+      "label": "sugar confection"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27370_suiitsu",
+      "reading": "すいーつ",
+      "headword": "スイーツ",
+      "label": "sweets"
     }
   ],
   "metadata": {
     "created": "2026-01-14T13:31:53Z",
-    "modified": "2026-08-08T09:25:02Z",
+    "modified": "2026-09-02T04:01:05Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

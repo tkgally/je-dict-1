@@ -3,7 +3,7 @@
   "headword": "{苛烈|かれつ}",
   "reading": "かれつ",
   "romaji": "karetsu",
-  "part_of_speech": "adjective",
+  "part_of_speech": "na-adjective",
   "gloss": "fierce; severe; intense; harsh",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "20937_karetsu_ex1",
-      "japanese": "{苛烈|かれつ}な{競争|きょうそう}が{続|つづ}く。",
+      "japanese": "{苛烈|かれつ}な⟦{競争|きょうそう}→競争：01388_kyousou⟧⟦が→が：00051_ga⟧⟦{続|つづ}く→続く：00903_tsuzuku⟧。",
       "english": "Fierce competition continues.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "20937_karetsu_ex2",
-      "japanese": "{苛烈|かれつ}を{極|きわ}める{戦|たたか}いだった。",
+      "japanese": "{苛烈|かれつ}⟦を→を：00422_wo⟧⟦{極|きわ}める→極める：13139_kiwameru⟧⟦{戦|たたか}い→戦い：02070_tatakai⟧だった。",
       "english": "It was an extremely fierce battle.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "20937_karetsu_ex3",
-      "japanese": "{彼女|かのじょ}は{苛烈|かれつ}な{批判|ひはん}にさらされながらも、{自分|じぶん}の{信念|しんねん}を{貫|つらぬ}いた。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧{苛烈|かれつ}な⟦{批判|ひはん}→批判：03580_hihan⟧⟦に→に：00314_ni⟧さらされ⟦ながら→ながら：10530_nagara⟧⟦も→も：00484_mo⟧、⟦{自分|じぶん}→自分：02887_jibun⟧⟦の→の：09472_no⟧⟦{信念|しんねん}→信念：03074_shinnen⟧⟦を→を：00422_wo⟧⟦{貫|つらぬ}いた→貫く：18728_tsuranuku⟧。",
       "english": "Despite being subjected to harsh criticism, she held fast to her convictions.",
       "sense_numbers": [
         1
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "A な-adjective composed of {苛|か} (harsh, severe) + {烈|れつ} (intense, fierce). A literary, somewhat formal word that conveys extreme intensity or harshness. Often appears in written language, news, and historical descriptions.\n\nCOMMON COLLOCATIONS:\n- {苛烈|かれつ}な{競争|きょうそう}: fierce competition\n- {苛烈|かれつ}な{批判|ひはん}: harsh criticism\n- {苛烈|かれつ}な{戦|たたか}い: fierce battle\n- {苛烈|かれつ}を{極|きわ}める: to be extremely fierce/intense\n- {苛烈|かれつ}な{環境|かんきょう}: harsh environment\n\nSIMILAR WORDS:\n- {激烈|げきれつ}: violent, fierce — similar intensity, more commonly used\n- {過酷|かこく}: harsh, severe — often for conditions or treatment\n- {熾烈|しれつ}: fierce, intense — very close synonym, especially for competition\n- {厳|きび}しい: strict, severe — more everyday and versatile",
+  "notes": "A な-adjective composed of {苛|か} (harsh, severe) + {烈|れつ} (intense, fierce). A literary, somewhat formal word that conveys extreme intensity or harshness. Often appears in written language, news, and historical descriptions.\n\nCOMMON COLLOCATIONS:\n- {苛烈|かれつ}な⟦{競争|きょうそう}→競争：01388_kyousou⟧: fierce competition\n- {苛烈|かれつ}な⟦{批判|ひはん}→批判：03580_hihan⟧: harsh criticism\n- {苛烈|かれつ}な⟦{戦|たたか}い→戦い：02070_tatakai⟧: fierce battle\n- {苛烈|かれつ}⟦を→を：00422_wo⟧⟦{極|きわ}める→極める：13139_kiwameru⟧: to be extremely fierce/intense\n- {苛烈|かれつ}な⟦{環境|かんきょう}→環境：00174_kankyou⟧: harsh environment\n\nSIMILAR WORDS:\n- ⟦{激烈|げきれつ}→激烈：21840_gekiretsu⟧: violent, fierce — similar intensity, more commonly used\n- ⟦{過酷|かこく}→過酷：10901_kakoku⟧: harsh, severe — often for conditions or treatment\n- ⟦{熾烈|しれつ}→熾烈：16024_shiretsu⟧: fierce, intense — very close synonym, especially for competition\n- ⟦{厳|きび}しい→厳しい：01125_kibishii⟧: strict, severe — more everyday and versatile",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21840_gekiretsu",
+      "reading": "げきれつ",
+      "headword": "{激烈|げきれつ}",
+      "label": "violent, fierce"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10901_kakoku",
+      "reading": "かこく",
+      "headword": "{過酷|かこく}",
+      "label": "harsh, severe"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16024_shiretsu",
+      "reading": "しれつ",
+      "headword": "{熾烈|しれつ}",
+      "label": "fierce, intense"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01125_kibishii",
+      "reading": "きびしい",
+      "headword": "{厳|きび}しい",
+      "label": "strict, severe"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +89,6 @@
       ]
     },
     "created": "2026-03-30T21:36:34Z",
-    "modified": "2026-07-28T09:34:52Z"
+    "modified": "2026-09-02T04:02:01Z"
   }
 }

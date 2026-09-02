@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "16027_hijou_ex1",
-      "japanese": "それは{非情|ひじょう}な{決断|けつだん}だった。",
+      "japanese": "⟦それ→それ：00994_sore⟧⟦は→は：00079_ha⟧{非情|ひじょう}な⟦{決断|けつだん}→決断：13250_ketsudan⟧だった。",
       "english": "That was a heartless decision.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "16027_hijou_ex2",
-      "japanese": "{社会|しゃかい}の{非情|ひじょう}さを{思|おも}い{知|し}らされた。",
+      "japanese": "⟦{社会|しゃかい}→社会：01427_shakai⟧⟦の→の：09472_no⟧{非情|ひじょう}さ⟦を→を：00422_wo⟧{思|おも}い{知|し}らされた。",
       "english": "I was made to realize the cruelty of society.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "16027_hijou_ex3",
-      "japanese": "{非情|ひじょう}にも、{会社|かいしゃ}は{長年|ながねん}{勤|つと}めた{社員|しゃいん}をリストラの{対象|たいしょう}にした。",
+      "japanese": "{非情|ひじょう}⟦に→に：00314_ni⟧⟦も→も：00484_mo⟧、⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦は→は：00079_ha⟧⟦{長年|ながねん}→長年：09684_naganen⟧⟦{勤|つと}めた→勤める：00902_tsutomeru⟧⟦{社員|しゃいん}→社員：03065_shain⟧⟦を→を：00422_wo⟧⟦リストラ→リストラ：04689_risutora⟧⟦の→の：09472_no⟧⟦{対象|たいしょう}→対象：03393_taishou⟧にした。",
       "english": "Heartlessly, the company targeted long-serving employees for restructuring.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{非情|ひじょう} can function as a noun ({非情|ひじょう}さ — heartlessness), a na-adjective ({非情|ひじょう}な — heartless), or an adverb ({非情|ひじょう}にも — heartlessly, cruelly).\n\nCOMMON COLLOCATIONS:\n- {非情|ひじょう}な{仕打|しう}ち (cruel treatment)\n- {非情|ひじょう}な{現実|げんじつ} (cruel reality)\n- {非情|ひじょう}にも (heartlessly, cruelly)\n- {非情|ひじょう}さ (heartlessness)\n\nCAUTION:\nDo not confuse with the homophone {非常|ひじょう} (emergency; extremely). {非情|ひじょう} uses {情|じょう} (emotion/feeling) with the negative prefix {非|ひ}, meaning \"without feeling.\" {非常|ひじょう} uses {常|じょう} (ordinary) and means \"extraordinary\" or \"emergency.\"",
+  "notes": "USAGE:\n{非情|ひじょう} can function as a noun ({非情|ひじょう}さ — heartlessness), a na-adjective ({非情|ひじょう}な — heartless), or an adverb ({非情|ひじょう}⟦に→に：00314_ni⟧⟦も→も：00484_mo⟧ — heartlessly, cruelly).\n\nCOMMON COLLOCATIONS:\n- {非情|ひじょう}な{仕打|しう}ち (cruel treatment)\n- {非情|ひじょう}な⟦{現実|げんじつ}→現実：02720_genjitsu⟧ (cruel reality)\n- {非情|ひじょう}⟦に→に：00314_ni⟧⟦も→も：00484_mo⟧ (heartlessly, cruelly)\n- {非情|ひじょう}さ (heartlessness)\n\nWATCH OUT:\nDo not confuse with the homophone ⟦{非常|ひじょう}→非常：01598_hijou⟧ (emergency; extremely). {非情|ひじょう} uses ⟦{情|じょう}→情：03343_jou⟧ (emotion/feeling) with the negative prefix ⟦{非|ひ}→非：28419_hi⟧, meaning \"without feeling.\" ⟦{非常|ひじょう}→非常：01598_hijou⟧ uses {常|じょう} (ordinary) and means \"extraordinary\" or \"emergency.\"",
   "cross_references": [
     {
       "type": "synonym",
@@ -52,11 +52,25 @@
       "reading": "むじひ",
       "headword": "{無慈悲|むじひ}",
       "label": "merciless; cruel"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13201_zankoku",
+      "reading": "ざんこく",
+      "headword": "{残酷|ざんこく}",
+      "label": "cruel, brutal, merciless"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25556_zankokuna",
+      "reading": "ざんこくな",
+      "headword": "{残酷|ざんこく}な",
+      "label": "cruel"
     }
   ],
   "metadata": {
     "created": "2026-03-09T08:36:31Z",
-    "modified": "2026-05-02T05:13:00Z",
+    "modified": "2026-09-02T04:01:43Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

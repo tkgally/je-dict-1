@@ -15,40 +15,88 @@
   "examples": [
     {
       "id": "27028_akuhitsu_ex1",
-      "japanese": "{彼|かれ}は{悪筆|あくひつ}で{有名|ゆうめい}だ。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{悪筆|あくひつ}⟦で→で：00502_de⟧⟦{有名|ゆうめい}→有名：01106_yuumei⟧だ。",
       "english": "He is famous for his bad handwriting.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27028_akuhitsu_ex2",
-      "japanese": "{悪筆|あくひつ}で{読|よ}めない{字|じ}が{多|おお}い。",
+      "japanese": "{悪筆|あくひつ}⟦で→で：00502_de⟧⟦{読|よ}めない→読む：00426_yomu⟧⟦{字|じ}→字：01606_ji⟧⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "His handwriting is so bad that many characters are unreadable.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27028_akuhitsu_ex3",
-      "japanese": "{医者|いしゃ}の{処方箋|しょほうせん}が{悪筆|あくひつ}で、{薬剤師|やくざいし}が{読|よ}み{取|と}るのに{苦労|くろう}した。",
+      "japanese": "⟦{医者|いしゃ}→医者：02847_isha⟧⟦の→の：09472_no⟧⟦{処方箋|しょほうせん}→処方箋：06496_shohousen⟧⟦が→が：00051_ga⟧{悪筆|あくひつ}⟦で→で：00502_de⟧、⟦{薬剤師|やくざいし}→薬剤師：07030_yakuzaishi⟧⟦が→が：00051_ga⟧⟦{読|よ}み{取|と}る→読み取る：04602_yomitoru⟧⟦の→の：09472_no⟧⟦に→に：00314_ni⟧⟦{苦労|くろう}した→苦労する：25357_kurousuru⟧。",
       "english": "The doctor's prescription was so poorly written that the pharmacist had trouble reading it.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {悪|あく} (bad) + {筆|ひつ} (brush/writing). In Japan, where calligraphy ({書道|しょどう}) is part of school education, handwriting quality is taken more seriously than in many other cultures. Having {悪筆|あくひつ} can be seen as a minor social embarrassment.\n\nCOMMON COLLOCATIONS:\n- {悪筆|あくひつ}で{有名|ゆうめい}: famous for bad handwriting\n- {悪筆|あくひつ}を{直|なお}す: to fix one's bad handwriting\n- ひどい{悪筆|あくひつ}: terrible handwriting\n\nSIMILAR WORDS:\n- {達筆|たっぴつ}: beautiful handwriting; fine penmanship — the opposite; a compliment for skilled calligraphy\n- {癖字|くせじ}: idiosyncratic handwriting — not necessarily bad, just distinctive or hard for others to read\n- {乱筆|らんぴつ}: messy writing — often used as a humble apology for one's own handwriting in letters",
+  "notes": "A compound of {悪|あく} (bad) + {筆|ひつ} (brush/writing). In Japan, where calligraphy (⟦{書道|しょどう}→書道：04178_shodou⟧) is part of school education, handwriting quality is taken more seriously than in many other cultures. Having {悪筆|あくひつ} can be seen as a minor social embarrassment.\n\nCOMMON COLLOCATIONS:\n- {悪筆|あくひつ}⟦で→で：00502_de⟧⟦{有名|ゆうめい}→有名：01106_yuumei⟧: famous for bad handwriting\n- {悪筆|あくひつ}⟦を→を：00422_wo⟧{直|なお}す: to fix one's bad handwriting\n- ⟦ひどい→ひどい：01097_hidoi⟧{悪筆|あくひつ}: terrible handwriting\n\nSIMILAR WORDS:\n- ⟦{達筆|たっぴつ}→達筆：26860_tappitsu⟧: beautiful handwriting; fine penmanship — the opposite; a compliment for skilled calligraphy\n- ⟦{癖字|くせじ}→癖字：28674_kuseji⟧: idiosyncratic handwriting — not necessarily bad, just distinctive or hard for others to read\n- ⟦{乱筆|らんぴつ}→乱筆：26287_ranpitsu⟧: messy writing — often used as a humble apology for one's own handwriting in letters",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "26860_tappitsu",
+      "reading": "たっぴつ",
+      "headword": "{達筆|たっぴつ}",
+      "label": "beautiful handwriting"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28674_kuseji",
+      "reading": "くせじ",
+      "headword": "{癖字|くせじ}",
+      "label": "idiosyncratic handwriting"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26287_ranpitsu",
+      "reading": "らんぴつ",
+      "headword": "{乱筆|らんぴつ}",
+      "label": "messy writing"
+    },
+    {
+      "type": "related",
+      "target_id": "08301_tegaki",
+      "reading": "てがき",
+      "headword": "{手書|てが}き",
+      "label": "handwriting"
+    },
+    {
+      "type": "antonym",
+      "target_id": "27136_bimoji",
+      "reading": "びもじ",
+      "headword": "{美文字|びもじ}",
+      "label": "beautiful handwriting"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["education", "evaluation"]
+      "semantic": [
+        "education",
+        "evaluation"
+      ]
     },
     "created": "2026-05-06T14:22:23Z",
-    "modified": "2026-05-06T14:22:23Z"
+    "modified": "2026-09-02T04:02:28Z"
   }
 }

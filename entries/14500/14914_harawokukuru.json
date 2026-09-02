@@ -15,41 +15,60 @@
   "examples": [
     {
       "id": "14914_harawokukuru_ex1",
-      "japanese": "もう{腹|はら}を{括|くく}るしかない。",
+      "japanese": "⟦もう→もう：00602_mou⟧{腹|はら}を{括|くく}る⟦しかない→〜しかない：30533_shikanai⟧。",
       "english": "There's nothing to do but brace ourselves.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14914_harawokukuru_ex2",
-      "japanese": "{結果|けっか}がどうなろうと{腹|はら}を{括|くく}って{挑|いど}む。",
+      "japanese": "⟦{結果|けっか}→結果：02486_kekka⟧⟦が→が：00051_ga⟧⟦どう→どう：00543_dou⟧⟦なろう→なる：01970_naru⟧⟦と→と：00512_to⟧{腹|はら}を{括|くく}って⟦{挑|いど}む→挑む：12708_idomu⟧。",
       "english": "No matter what the outcome, I'll steel myself and take on the challenge.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14914_harawokukuru_ex3",
-      "japanese": "{彼|かれ}は{腹|はら}を{括|くく}って{社長|しゃちょう}に{直接|ちょくせつ}{辞表|じひょう}を{提出|ていしゅつ}した。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{腹|はら}を{括|くく}って⟦{社長|しゃちょう}→社長：01428_shachou⟧⟦に→に：00314_ni⟧⟦{直接|ちょくせつ}→直接：03499_chokusetsu⟧⟦{辞表|じひょう}→辞表：27086_jihyou⟧⟦を→を：00422_wo⟧⟦{提出|ていしゅつ}した→提出する：19644_teishutsusuru⟧。",
       "english": "He steeled himself and submitted his resignation directly to the company president.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\n{腹|はら}を{括|くく}る is an idiomatic expression meaning to resolve oneself mentally for a difficult situation. The literal image is of tying up ({括|くく}る) the belly ({腹|はら}), symbolizing inner firmness. It is used when someone decides to stop hesitating and commit to a course of action, accepting whatever consequences may follow.\n\nCOMMON PATTERNS:\n- {腹|はら}を{括|くく}って + verb (to do something with resolve)\n- {腹|はら}を{括|くく}るしかない (there's no choice but to brace oneself)\n\nSIMILAR EXPRESSIONS:\n- {腹|はら}を{括|くく}る: to steel oneself (firm resolve to accept any outcome)\n- {覚悟|かくご}を{決|き}める: to make up one's mind (to accept a serious consequence)\n- {腹|はら}を{据|す}える: to gather one's resolve (very similar in meaning)\n- {開|ひら}き{直|なお}る: to brazen it out (giving up pretense, sometimes negatively)",
-  "cross_references": [],
+  "notes": "USAGE:\n{腹|はら}を{括|くく}る is an idiomatic expression meaning to resolve oneself mentally for a difficult situation. The literal image is of tying up (⟦{括|くく}る→括る：04600_kukuru⟧) the belly (⟦{腹|はら}→腹：02165_hara⟧), symbolizing inner firmness. It is used when someone decides to stop hesitating and commit to a course of action, accepting whatever consequences may follow.\n\nCOMMON PATTERNS:\n- {腹|はら}を{括|くく}って + verb (to do something with resolve)\n- {腹|はら}を{括|くく}る⟦しかない→〜しかない：30533_shikanai⟧ (there's no choice but to brace oneself)\n\nSIMILAR WORDS:\n- {腹|はら}を{括|くく}る: to steel oneself (firm resolve to accept any outcome)\n- ⟦{覚悟|かくご}→覚悟：02551_kakugo⟧⟦を→を：00422_wo⟧⟦{決|き}める→決める：00858_kimeru⟧: to make up one's mind (to accept a serious consequence)\n- ⟦{腹|はら}→腹：02165_hara⟧⟦を→を：00422_wo⟧⟦{据|す}える→据える：12796_sueru⟧: to gather one's resolve (very similar in meaning)\n- ⟦{開|ひら}き{直|なお}る→開き直る：08204_hirakinaoru⟧: to brazen it out (giving up pretense, sometimes negatively)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08204_hirakinaoru",
+      "reading": "ひらきなおる",
+      "headword": "{開|ひら}き{直|なお}る",
+      "label": "to brazen it out"
+    }
+  ],
   "metadata": {
     "created": "2026-03-04T05:54:43Z",
-    "modified": "2026-03-04T05:54:43Z",
+    "modified": "2026-09-02T04:01:39Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["expression"],
+      "pos": [
+        "expression"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["cognition", "expression"]
+      "semantic": [
+        "cognition",
+        "expression"
+      ]
     }
   }
 }

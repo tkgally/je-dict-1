@@ -3,7 +3,7 @@
   "id": "14104_soushoku",
   "headword": "{装飾|そうしょく}",
   "reading": "そうしょく",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "decoration, ornamentation",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "14104_soushoku_ex1",
-      "japanese": "{華|はな}やかな{装飾|そうしょく}が{施|ほどこ}されている。",
+      "japanese": "⟦{華|はな}やか→華やか：06070_hanayaka⟧な{装飾|そうしょく}⟦が→が：00051_ga⟧⟦{施|ほどこ}されている→施す：12985_hodokosu⟧。",
       "english": "Gorgeous decorations have been applied.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "14104_soushoku_ex2",
-      "japanese": "クリスマスの{装飾|そうしょく}で{街|まち}が{彩|いろど}られている。",
+      "japanese": "⟦クリスマス→クリスマス：03839_kurisumasu⟧⟦の→の：09472_no⟧{装飾|そうしょく}⟦で→で：00502_de⟧⟦{街|まち}→街：17306_machi⟧⟦が→が：00051_ga⟧⟦{彩|いろど}られている→彩る：12542_irodoru⟧。",
       "english": "The town is adorned with Christmas decorations.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "14104_soushoku_ex3",
-      "japanese": "この{教会|きょうかい}の{天井|てんじょう}には{精巧|せいこう}な{装飾|そうしょく}が{施|ほどこ}されており、{訪|おとず}れる{人々|ひとびと}を{圧倒|あっとう}する。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{教会|きょうかい}→教会：01387_kyoukai⟧⟦の→の：09472_no⟧⟦{天井|てんじょう}→天井：05008_tenjou⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{精巧|せいこう}→精巧：03775_seikou⟧な{装飾|そうしょく}⟦が→が：00051_ga⟧⟦{施|ほどこ}されて→施す：12985_hodokosu⟧おり、⟦{訪|おとず}れる→訪れる：07678_otozureru⟧⟦{人々|ひとびと}→人々：03141_hitobito⟧⟦を→を：00422_wo⟧⟦{圧倒|あっとう}する→圧倒する：17122_attousuru⟧。",
       "english": "The ceiling of this church has elaborate decorations applied to it, overwhelming visitors.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,33 @@
       ]
     }
   ],
-  "notes": "USAGE NOTE:\n{装飾|そうしょく} refers to ornamentation that is deliberate and often artistic. It implies a degree of craft or design effort, rather than simple arrangement.\n\nCOMMON COLLOCATIONS:\n- {装飾|そうしょく}を{施|ほどこ}す (apply decoration)\n- {装飾|そうしょく}{品|ひん} (ornament, decorative item)\n- {装飾|そうしょく}{的|てき} (decorative, ornamental)\n- {過剰|かじょう}な{装飾|そうしょく} (excessive decoration)\n- {装飾|そうしょく}{美術|びじゅつ} (decorative arts)\n\nSIMILAR WORDS:\n- {飾|かざ}り: decoration (everyday, informal)\n- デコレーション: decoration (loanword, often for cakes or events)\n- {修飾|しゅうしょく}: modification (grammatical term, or rhetorical embellishment)",
-  "cross_references": [],
+  "notes": "USAGE:\n{装飾|そうしょく} refers to ornamentation that is deliberate and often artistic. It implies a degree of craft or design effort, rather than simple arrangement.\n\nCOMMON COLLOCATIONS:\n- {装飾|そうしょく}⟦を→を：00422_wo⟧⟦{施|ほどこ}す→施す：12985_hodokosu⟧ (apply decoration)\n- {装飾|そうしょく}{品|ひん} (ornament, decorative item)\n- {装飾|そうしょく}⟦{的|てき}→〜的：09839_teki⟧ (decorative, ornamental)\n- ⟦{過剰|かじょう}→過剰：04123_kajou⟧な{装飾|そうしょく} (excessive decoration)\n- {装飾|そうしょく}{美術|びじゅつ} (decorative arts)\n\nSIMILAR WORDS:\n- ⟦{飾|かざ}り→飾り：02539_kazari⟧: decoration (everyday, informal)\n- ⟦デコレーション→デコレーション：23431_dekoreeshon⟧: decoration (loanword, often for cakes or events)\n- ⟦{修飾|しゅうしょく}→修飾：00460_shuushoku⟧: modification (grammatical term, or rhetorical embellishment)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02539_kazari",
+      "reading": "かざり",
+      "headword": "{飾|かざ}り",
+      "label": "decoration"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23431_dekoreeshon",
+      "reading": "でこれーしょん",
+      "headword": "デコレーション",
+      "label": "decoration"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00460_shuushoku",
+      "reading": "しゅうしょく",
+      "headword": "{修飾|しゅうしょく}",
+      "label": "modification"
+    }
+  ],
   "metadata": {
     "created": "2026-02-28T00:49:04Z",
-    "modified": "2026-03-29T03:08:18Z",
+    "modified": "2026-09-02T04:01:36Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

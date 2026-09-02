@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "15213_soushokuhin_ex1",
-      "japanese": "{装飾品|そうしょくひん}を{身|み}につける。",
+      "japanese": "{装飾品|そうしょくひん}⟦を→を：00422_wo⟧⟦{身|み}につける→身につける：03158_minitsukeru⟧。",
       "english": "To wear accessories.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "15213_soushokuhin_ex2",
-      "japanese": "{古代|こだい}の{装飾品|そうしょくひん}が{発掘|はっくつ}された。",
+      "japanese": "⟦{古代|こだい}→古代：05324_kodai⟧⟦の→の：09472_no⟧{装飾品|そうしょくひん}⟦が→が：00051_ga⟧⟦{発掘|はっくつ}→発掘：07995_hakkutsu⟧⟦された→する：00392_suru⟧。",
       "english": "Ancient ornaments were excavated.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "15213_soushokuhin_ex3",
-      "japanese": "この{博物館|はくぶつかん}には{金|きん}や{銀|ぎん}の{装飾品|そうしょくひん}が{数多|かずおお}く{展示|てんじ}されている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{博物館|はくぶつかん}→博物館：01494_hakubutsukan⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{金|きん}や⟦{銀|ぎん}→銀：02651_gin⟧⟦の→の：09472_no⟧{装飾品|そうしょくひん}⟦が→が：00051_ga⟧⟦{数多|かずおお}く→数多く：12948_kazuooku⟧⟦{展示|てんじ}→展示：12401_tenji⟧⟦されている→する：00392_suru⟧。",
       "english": "This museum has many gold and silver ornaments on display.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{装飾品|そうしょくひん} is a broad term covering both personal adornments (jewelry, accessories) and decorative objects (ornamental items). It is more formal than アクセサリー, which specifically refers to fashion accessories.\n\nCOMMON COLLOCATIONS:\n- {装飾品|そうしょくひん}を{身|み}につける (to wear accessories)\n- {金属|きんぞく}{装飾品|そうしょくひん} (metal ornaments)\n- {装飾品|そうしょくひん}{売|う}り{場|ば} (accessories department)",
+  "notes": "USAGE:\n{装飾品|そうしょくひん} is a broad term covering both personal adornments (jewelry, accessories) and decorative objects (ornamental items). It is more formal than ⟦アクセサリー→アクセサリー：01761_akusesarii⟧, which specifically refers to fashion accessories.\n\nCOMMON COLLOCATIONS:\n- {装飾品|そうしょくひん}⟦を→を：00422_wo⟧⟦{身|み}につける→身につける：03158_minitsukeru⟧ (to wear accessories)\n- ⟦{金属|きんぞく}→金属：02645_kinzoku⟧{装飾品|そうしょくひん} (metal ornaments)\n- {装飾品|そうしょくひん}⟦{売|う}り{場|ば}→売り場：01331_uriba⟧ (accessories department)",
   "cross_references": [
     {
       "type": "related",
@@ -52,11 +52,32 @@
       "reading": "そうしょく",
       "headword": "{装飾|そうしょく}",
       "label": "decoration"
+    },
+    {
+      "type": "related",
+      "target_id": "01761_akusesarii",
+      "reading": "あくせさりー",
+      "headword": "アクセサリー",
+      "label": "accessory"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24299_houshoku",
+      "reading": "ほうしょく",
+      "headword": "{宝飾|ほうしょく}",
+      "label": "jewelry"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25591_juerii",
+      "reading": "じゅえりー",
+      "headword": "ジュエリー",
+      "label": "jewelry"
     }
   ],
   "metadata": {
     "created": "2026-03-05T09:37:40Z",
-    "modified": "2026-07-15T18:53:39Z",
+    "modified": "2026-09-02T04:01:40Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

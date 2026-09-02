@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "09696_ranchitaimu_ex1",
-      "japanese": "ランチタイムは{混|こ}んでいる。",
+      "japanese": "ランチタイム⟦は→は：00079_ha⟧⟦{混|こ}んでいる→混む：02574_komu⟧。",
       "english": "It's crowded during lunch time.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "09696_ranchitaimu_ex2",
-      "japanese": "ランチタイムは11{時|じ}から2{時|じ}までです。",
+      "japanese": "ランチタイム⟦は→は：00079_ha⟧11⟦{時|じ}→時：09869_ji⟧⟦から→から：00504_kara⟧2⟦{時|じ}→時：09869_ji⟧⟦まで→まで：00490_made⟧です。",
       "english": "Lunch hours are from 11 to 2.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "09696_ranchitaimu_ex3",
-      "japanese": "ランチタイム{限定|げんてい}のセットメニューがお{得|とく}だ。",
+      "japanese": "ランチタイム⟦{限定|げんてい}→限定：10997_gentei⟧⟦の→の：09472_no⟧⟦セット→セット：03853_setto⟧⟦メニュー→メニュー：11166_menyuu⟧⟦が→が：00051_ga⟧⟦お{得|とく}→お得：07739_otoku⟧だ。",
       "english": "The lunch-time-only set menu is a good deal.",
       "notes": null,
       "has_audio": false,
@@ -43,10 +43,33 @@
       ]
     }
   ],
-  "notes": "ランチタイム is a loanword from English \"lunch time\" referring specifically to the lunch service period at restaurants, cafes, and cafeterias — not just the general time of day when one eats lunch.\n\nCOMMON PATTERNS:\n- ランチタイム{限定|げんてい} (lunch-time-only)\n- ランチタイムのメニュー/セット (lunch time menu/set)\n- ランチタイムは〜{時|じ}から〜{時|じ}まで (lunch hours are from ~ to ~)\n\nCULTURAL NOTE:\nIn Japan, restaurant lunch service typically runs 11:00-14:00 (sometimes to 15:00). During ランチタイム, many restaurants offer セットメニュー (set menus) at lower prices than dinner. Restaurants often close between lunch and dinner ({中休|なかやす}み).\n\nRELATED TERMS:\n- ランチ: lunch (the meal itself)\n- {昼食|ちゅうしょく}: lunch (formal/written)\n- お{昼|ひる}: lunch (casual)\n- ディナータイム: dinner service hours",
+  "notes": "ランチタイム is a loanword from English \"lunch time\" referring specifically to the lunch service period at restaurants, cafes, and cafeterias — not just the general time of day when one eats lunch.\n\nCOMMON PATTERNS:\n- ランチタイム⟦{限定|げんてい}→限定：10997_gentei⟧ (lunch-time-only)\n- ランチタイム⟦の→の：09472_no⟧⟦メニュー→メニュー：11166_menyuu⟧/⟦セット→セット：03853_setto⟧ (lunch time menu/set)\n- ランチタイム⟦は→は：00079_ha⟧〜⟦{時|じ}→時：09869_ji⟧⟦から→から：00504_kara⟧〜⟦{時|じ}→時：09869_ji⟧⟦まで→まで：00490_made⟧ (lunch hours are from ~ to ~)\n\nCULTURAL NOTE:\nIn Japan, restaurant lunch service typically runs 11:00-14:00 (sometimes to 15:00). During ランチタイム, many restaurants offer ⟦セット→セット：03853_setto⟧⟦メニュー→メニュー：11166_menyuu⟧ (set menus) at lower prices than dinner. Restaurants often close between lunch and dinner (⟦{中休|なかやす}み→中休み：15674_nakayasumi⟧).\n\nRELATED WORDS:\n- ⟦ランチ→ランチ：11196_ranchi⟧: lunch (the meal itself)\n- ⟦{昼食|ちゅうしょく}→昼食：01616_chuushoku⟧: lunch (formal/written)\n- ⟦お{昼|ひる}→お昼：02532_ohiru⟧: lunch (casual)\n- ⟦ディナー→ディナー：27996_dinaa⟧⟦タイム→タイム：23539_taimu⟧: dinner service hours",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "11196_ranchi",
+      "reading": "らんち",
+      "headword": "ランチ",
+      "label": "lunch"
+    },
+    {
+      "type": "related",
+      "target_id": "01616_chuushoku",
+      "reading": "ちゅうしょく",
+      "headword": "{昼食|ちゅうしょく}",
+      "label": "lunch"
+    },
+    {
+      "type": "related",
+      "target_id": "02532_ohiru",
+      "reading": "おひる",
+      "headword": "お{昼|ひる}",
+      "label": "lunch"
+    }
+  ],
   "metadata": {
     "created": "2026-02-03T06:50:17Z",
-    "modified": "2026-06-24T18:40:49Z",
+    "modified": "2026-09-02T04:01:19Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

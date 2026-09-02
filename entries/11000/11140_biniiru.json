@@ -15,41 +15,66 @@
   "examples": [
     {
       "id": "11140_biniiru_ex1",
-      "japanese": "ビニール{袋|ぶくろ}をもらえますか。",
+      "japanese": "ビニール{袋|ぶくろ}⟦を→を：00422_wo⟧⟦もらえます→もらう：00520_morau⟧⟦か→か：09473_ka⟧。",
       "english": "Can I get a plastic bag?",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11140_biniiru_ex2",
-      "japanese": "{雨|あめ}の{日|ひ}はビニール{傘|がさ}を{使|つか}っている。",
+      "japanese": "⟦{雨|あめ}→雨：00583_ame⟧⟦の→の：09472_no⟧⟦{日|ひ}→日：02249_hi⟧⟦は→は：00079_ha⟧ビニール{傘|がさ}⟦を→を：00422_wo⟧⟦{使|つか}っている→使う：00473_tsukau⟧。",
       "english": "I use a vinyl umbrella on rainy days.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11140_biniiru_ex3",
-      "japanese": "レジ{袋|ぶくろ}が{有料|ゆうりょう}になってからビニール{袋|ぶくろ}の{使用量|しようりょう}が{減|へ}った。",
+      "japanese": "⟦レジ{袋|ぶくろ}→レジ袋：09531_rejibukuro⟧⟦が→が：00051_ga⟧⟦{有料|ゆうりょう}→有料：03178_yuuryou⟧になって⟦から→から：00504_kara⟧ビニール{袋|ぶくろ}⟦の→の：09472_no⟧{使用量|しようりょう}⟦が→が：00051_ga⟧⟦{減|へ}った→減る：01985_heru⟧。",
       "english": "Since shopping bags became paid, the use of plastic bags has decreased.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nIn Japanese, ビニール is used as a general term for plastic film and related products, even when the material is not technically vinyl (polyvinyl chloride). The word functions both as a standalone noun and as a modifier.\n\nCOMMON COLLOCATIONS:\n- ビニール{袋|ぶくろ} (plastic bag)\n- ビニール{傘|がさ} (vinyl umbrella — clear, disposable)\n- ビニールハウス (vinyl greenhouse)\n- ビニールシート (vinyl/plastic sheet)\n- ビニール{手袋|てぶくろ} (vinyl/plastic gloves)\n\nNOTE:\nSince July 2020, Japan has required retailers to charge for ビニール{袋|ぶくろ} (plastic bags), leading many people to carry エコバッグ (reusable bags) instead.\n\nETYMOLOGY:\nFrom English \"vinyl.\"",
-  "cross_references": [],
+  "notes": "USAGE:\nIn Japanese, ビニール is used as a general term for plastic film and related products, even when the material is not technically vinyl (polyvinyl chloride). The word functions both as a standalone noun and as a modifier.\nSince July 2020, Japan has required retailers to charge for ビニール{袋|ぶくろ} (plastic bags), leading many people to carry ⟦エコバッグ→エコバッグ：08937_ekobaggu⟧ (reusable bags) instead.\n\nCOMMON COLLOCATIONS:\n- ビニール{袋|ぶくろ} (plastic bag)\n- ビニール{傘|がさ} (vinyl umbrella — clear, disposable)\n- ビニールハウス (vinyl greenhouse)\n- ビニールシート (vinyl/plastic sheet)\n- ビニール⟦{手袋|てぶくろ}→手袋：01063_tebukuro⟧ (vinyl/plastic gloves)\n\nETYMOLOGY:\nFrom English \"vinyl.\"",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23276_gouseijushi",
+      "reading": "ごうせいじゅし",
+      "headword": "{合成樹脂|ごうせいじゅし}",
+      "label": "synthetic resin"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29521_aburagami",
+      "reading": "あぶらがみ",
+      "headword": "{油紙|あぶらがみ}",
+      "label": "oilpaper"
+    }
+  ],
   "metadata": {
     "created": "2026-02-14T03:15:22Z",
-    "modified": "2026-02-14T03:15:22Z",
+    "modified": "2026-09-02T04:01:24Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

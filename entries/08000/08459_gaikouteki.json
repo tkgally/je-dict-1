@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "08459_gaikouteki_ex1",
-      "japanese": "{彼|かれ}は{外向的|がいこうてき}な{人|ひと}だ。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{外向的|がいこうてき}な⟦{人|ひと}→人：00476_hito⟧だ。",
       "english": "He is an extroverted person.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "08459_gaikouteki_ex2",
-      "japanese": "{外向的|がいこうてき}な{性格|せいかく}なので、{初対面|しょたいめん}でも{話|はなし}しやすい。",
+      "japanese": "{外向的|がいこうてき}な⟦{性格|せいかく}→性格：03371_seikaku⟧な⟦の→の：09472_no⟧で、⟦{初対面|しょたいめん}→初対面：07306_shotaimen⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧{話|はなし}しやすい。",
       "english": "Because of my extroverted personality, I find it easy to talk even with people I just met.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "08459_gaikouteki_ex3",
-      "japanese": "{外向的|がいこうてき}な{人|ひと}は{人|ひと}との{交流|こうりゅう}からエネルギーを{得|え}る。",
+      "japanese": "{外向的|がいこうてき}な⟦{人|ひと}→人：00476_hito⟧⟦は→は：00079_ha⟧⟦{人|ひと}→人：00476_hito⟧⟦と→と：00512_to⟧⟦の→の：09472_no⟧⟦{交流|こうりゅう}→交流：02732_kouryuu⟧⟦から→から：00504_kara⟧⟦エネルギー→エネルギー：03834_enerugii⟧⟦を→を：00422_wo⟧⟦{得|え}る→得る：02014_eru⟧。",
       "english": "Extroverts gain energy from interacting with others.",
       "sense_numbers": [
         1
@@ -43,7 +43,7 @@
       "notes": null
     }
   ],
-  "notes": "COMPOUND:\n{外向|がいこう} (extroversion) + {的|てき} (suffix: -like, -ish)\n\nPSYCHOLOGY:\nThis is a psychological term referring to how a person directs their attention and derives energy. {外向的|がいこうてき} people feel energized by social interaction and external stimulation.\n\nCONTRAST:\n{外向的|がいこうてき} (extroverted) ↔ {内向的|ないこうてき} (introverted)\n\nNOTE:\nBoth {外向的|がいこうてき} and {内向的|ないこうてき} are psychological terms popularized by Carl Jung. Most people fall somewhere on a spectrum between the two.\n\nADVERBIAL FORM:\n{外向的|がいこうてき}に - in an extroverted manner",
+  "notes": "COMPOUNDS:\n{外向|がいこう} (extroversion) + ⟦{的|てき}→〜的：09839_teki⟧ (suffix: -like, -ish)\n\nPSYCHOLOGY:\nThis is a psychological term referring to how a person directs their attention and derives energy. {外向的|がいこうてき} people feel energized by social interaction and external stimulation.\n\nSIMILAR WORDS:\n{外向的|がいこうてき} (extroverted) ↔ ⟦{内向的|ないこうてき}→内向的：08458_naikouteki⟧ (introverted)\n\nUSAGE:\nBoth {外向的|がいこうてき} and ⟦{内向的|ないこうてき}→内向的：08458_naikouteki⟧ are psychological terms popularized by Carl Jung. Most people fall somewhere on a spectrum between the two.\n\nFORMS:\n{外向的|がいこうてき}⟦に→に：00314_ni⟧ - in an extroverted manner",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -51,13 +51,14 @@
         "adjective-na"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "personality",
         "cognition"
       ]
     },
     "created": "2026-01-27T03:47:32Z",
-    "modified": "2026-06-22T12:50:00Z"
+    "modified": "2026-09-02T04:01:15Z"
   },
   "cross_references": [
     {
@@ -73,6 +74,20 @@
       "reading": "しゃこうてき",
       "headword": "{社交的|しゃこうてき}",
       "label": "sociable"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06442_youkya",
+      "reading": "ようきゃ",
+      "headword": "{陽|よう}キャ",
+      "label": "extrovert, outgoing person (slang)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26800_sotomuki",
+      "reading": "そとむき",
+      "headword": "{外向|そとむ}き",
+      "label": "outward-looking"
     }
   ]
 }

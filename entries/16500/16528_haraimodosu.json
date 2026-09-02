@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "16528_haraimodosu_ex1",
-      "japanese": "チケット{代|だい}を{払|はら}い{戻|もど}した。",
+      "japanese": "⟦チケット→チケット：11014_chiketto⟧⟦{代|だい}→〜代：28331_dai⟧⟦を→を：00422_wo⟧{払|はら}い{戻|もど}した。",
       "english": "I refunded the ticket price.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "16528_haraimodosu_ex2",
-      "japanese": "{不良品|ふりょうひん}だったので{全額|ぜんがく}{払|はら}い{戻|もど}してもらった。",
+      "japanese": "⟦{不良品|ふりょうひん}→不良品：19452_furyouhin⟧だった⟦の→の：09472_no⟧で⟦{全額|ぜんがく}→全額：16829_zengaku⟧{払|はら}い{戻|もど}して⟦もらった→もらう：00520_morau⟧。",
       "english": "Since it was defective, I got a full refund.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "16528_haraimodosu_ex3",
-      "japanese": "{解約|かいやく}した{場合|ばあい}、{残額|ざんがく}は{口座|こうざ}に{払|はら}い{戻|もど}されます。",
+      "japanese": "⟦{解約|かいやく}→解約：06129_kaiyaku⟧⟦した→する：00392_suru⟧⟦{場合|ばあい}→場合：01704_baai⟧、⟦{残額|ざんがく}→残額：20756_zangaku⟧⟦は→は：00079_ha⟧⟦{口座|こうざ}→口座：05419_kouza⟧⟦に→に：00314_ni⟧{払|はら}い{戻|もど}されます。",
       "english": "In the case of cancellation, the remaining balance will be refunded to your account.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,26 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA godan verb ({五段動詞|ごだんどうし}). The noun form {払|はら}い{戻|もど}し is very common, especially in business and administrative contexts. The passive form {払|はら}い{戻|もど}される is frequently used to describe refunds being processed.\n\nCOMMON COLLOCATIONS:\n- {全額|ぜんがく}{払|はら}い{戻|もど}す (to refund the full amount)\n- {口座|こうざ}に{払|はら}い{戻|もど}す (to refund to an account)\n- {払|はら}い{戻|もど}しを{受|う}ける (to receive a refund)\n\nSIMILAR WORDS:\n- {返金|へんきん}する: to refund — a more concise, commonly used synonym\n- {返済|へんさい}する: to repay — used for loans and debts, not for refunds",
-  "cross_references": [],
+  "notes": "USAGE:\nA godan verb ({五段動詞|ごだんどうし}). The noun form {払|はら}い{戻|もど}し is very common, especially in business and administrative contexts. The passive form {払|はら}い{戻|もど}される is frequently used to describe refunds being processed.\n\nCOMMON COLLOCATIONS:\n- ⟦{全額|ぜんがく}→全額：16829_zengaku⟧{払|はら}い{戻|もど}す (to refund the full amount)\n- ⟦{口座|こうざ}→口座：05419_kouza⟧⟦に→に：00314_ni⟧{払|はら}い{戻|もど}す (to refund to an account)\n- {払|はら}い{戻|もど}し⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧ (to receive a refund)\n\nSIMILAR WORDS:\n- ⟦{返金|へんきん}する→返金する：21322_henkinsuru⟧: to refund — a more concise, commonly used synonym\n- ⟦{返済|へんさい}→返済：04776_hensai⟧⟦する→する：00392_suru⟧: to repay — used for loans and debts, not for refunds",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21322_henkinsuru",
+      "reading": "へんきんする",
+      "headword": "{返金|へんきん}する",
+      "label": "to refund"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04776_hensai",
+      "reading": "へんさい",
+      "headword": "{返済|へんさい}",
+      "label": "to repay"
+    }
+  ],
   "metadata": {
     "created": "2026-03-13T06:43:18Z",
-    "modified": "2026-05-04T06:23:57Z",
+    "modified": "2026-09-02T04:01:45Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

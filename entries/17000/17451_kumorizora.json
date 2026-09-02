@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "17451_kumorizora_ex1",
-      "japanese": "{今日|きょう}は{朝|あさ}から{曇|くも}り{空|ぞら}だ。",
+      "japanese": "⟦{今日|きょう}→今日：00496_kyou⟧⟦は→は：00079_ha⟧⟦{朝|あさ}→朝：02277_asa⟧⟦から→から：00504_kara⟧{曇|くも}り{空|ぞら}だ。",
       "english": "It's been overcast since this morning.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "17451_kumorizora_ex2",
-      "japanese": "{曇|くも}り{空|ぞら}の{下|した}で{洗濯物|せんたくもの}を{干|ほ}すのは{心配|しんぱい}だ。",
+      "japanese": "{曇|くも}り{空|ぞら}⟦の→の：09472_no⟧⟦{下|した}→下：00670_shita⟧⟦で→で：00502_de⟧⟦{洗濯物|せんたくもの}→洗濯物：09533_sentakumono⟧⟦を→を：00422_wo⟧⟦{干|ほ}す→干す：00115_hosu⟧⟦の→の：09472_no⟧⟦は→は：00079_ha⟧⟦{心配|しんぱい}→心配：00811_shinpai⟧だ。",
       "english": "I'm worried about hanging laundry out under a cloudy sky.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "17451_kumorizora_ex3",
-      "japanese": "{曇|くも}り{空|ぞら}が{続|つづ}いていたが、{午後|ごご}から{急|きゅう}に{晴|は}れて{青空|あおぞら}が{広|ひろ}がった。",
+      "japanese": "{曇|くも}り{空|ぞら}⟦が→が：00051_ga⟧⟦{続|つづ}いていた→続く：00903_tsuzuku⟧⟦が→が：00051_ga⟧、⟦{午後|ごご}→午後：00544_gogo⟧⟦から→から：00504_kara⟧⟦{急|きゅう}→急：13042_kyuu⟧⟦に→に：00314_ni⟧⟦{晴|は}れて→晴れる：00701_hareru⟧⟦{青空|あおぞら}→青空：10084_aozora⟧⟦が→が：00051_ga⟧⟦{広|ひろ}がった→広がる：01980_hirogaru⟧。",
       "english": "The overcast sky continued, but in the afternoon it suddenly cleared up and blue sky spread across.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA compound of {曇|くも}り (cloudy) and {空|そら} (sky), with {空|そら} becoming {空|ぞら} through rendaku (sequential voicing). A simple, commonly used weather word.\n\nCOMMON COLLOCATIONS:\n- {曇|くも}り{空|ぞら}が{続|つづ}く (overcast skies continue)\n- {曇|くも}り{空|ぞら}の{下|した} (under a cloudy sky)\n- どんよりした{曇|くも}り{空|ぞら} (a gloomy, overcast sky)\n\nSIMILAR WORDS:\n- {青空|あおぞら}: blue sky — the opposite\n- {夕焼|ゆうや}け{空|ぞら}: sunset sky",
+  "notes": "USAGE:\nA compound of ⟦{曇|くも}り→曇り：02875_kumori⟧ (cloudy) and ⟦{空|そら}→空：02216_sora⟧ (sky), with ⟦{空|そら}→空：02216_sora⟧ becoming {空|ぞら} through rendaku (sequential voicing). A simple, commonly used weather word.\n\nCOMMON COLLOCATIONS:\n- {曇|くも}り{空|ぞら}⟦が→が：00051_ga⟧⟦{続|つづ}く→続く：00903_tsuzuku⟧ (overcast skies continue)\n- {曇|くも}り{空|ぞら}⟦の→の：09472_no⟧⟦{下|した}→下：00670_shita⟧ (under a cloudy sky)\n- どんより⟦した→する：00392_suru⟧{曇|くも}り{空|ぞら} (a gloomy, overcast sky)\n\nSIMILAR WORDS:\n- ⟦{青空|あおぞら}→青空：10084_aozora⟧: blue sky — the opposite\n- ⟦{夕焼|ゆうや}け→夕焼け：05045_yuuyake⟧{空|ぞら}: sunset sky",
   "cross_references": [
     {
       "type": "antonym",
@@ -52,11 +52,18 @@
       "reading": "あおぞら",
       "headword": "{青空|あおぞら}",
       "label": "blue sky"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21810_amazora",
+      "reading": "あまぞら",
+      "headword": "{雨空|あまぞら}",
+      "label": "rainy sky"
     }
   ],
   "metadata": {
     "created": "2026-03-18T02:01:43Z",
-    "modified": "2026-05-06T07:07:17Z",
+    "modified": "2026-09-02T04:01:48Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

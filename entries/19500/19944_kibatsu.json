@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "19944_kibatsu_ex1",
-      "japanese": "{奇抜|きばつ}なデザインの{服|ふく}。",
+      "japanese": "{奇抜|きばつ}な⟦デザイン→デザイン：03860_dezain⟧⟦の→の：09472_no⟧⟦{服|ふく}→服：00695_fuku⟧。",
       "english": "Clothing with an outlandish design.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "19944_kibatsu_ex2",
-      "japanese": "{彼|かれ}の{奇抜|きばつ}なアイデアに{皆|みんな}{驚|おどろ}いた。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧{奇抜|きばつ}な⟦アイデア→アイデア：10161_aidea⟧⟦に→に：00314_ni⟧{皆|みんな}⟦{驚|おどろ}いた→驚く：01255_odoroku⟧。",
       "english": "Everyone was surprised by his unconventional idea.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "19944_kibatsu_ex3",
-      "japanese": "{奇抜|きばつ}な{髪型|かみがた}で{注目|ちゅうもく}を{集|あつ}めるのが{好|す}きらしい。",
+      "japanese": "{奇抜|きばつ}な⟦{髪型|かみがた}→髪型：14646_kamigata⟧⟦で→で：00502_de⟧⟦{注目|ちゅうもく}→注目：03483_chuumoku⟧⟦を→を：00422_wo⟧⟦{集|あつ}める→集める：01170_atsumeru⟧⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦{好|す}き→好き：02355_suki⟧らしい。",
       "english": "Apparently, he likes attracting attention with eccentric hairstyles.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "The nuance depends on the speaker's attitude: when used approvingly, it means \"strikingly original\" or \"boldly creative\"; when used critically, it means \"bizarre\" or \"outrageous.\" Often used for fashion, art, ideas, and designs.\n\nCOMMON COLLOCATIONS:\n- {奇抜|きばつ}なデザイン: outlandish design\n- {奇抜|きばつ}なアイデア: unconventional idea\n- {奇抜|きばつ}な{服装|ふくそう}: eccentric clothing\n- {奇抜|きばつ}な{発想|はっそう}: unconventional thinking\n\nSIMILAR WORDS:\n- {斬新|ざんしん}: novel, fresh — more clearly positive\n- {奇妙|きみょう}: strange, peculiar — more negative, implies oddness\n- {独創的|どくそうてき}: original, creative — purely positive\n- {突飛|とっぴ}: outrageous, far-fetched — more negative",
+  "notes": "The nuance depends on the speaker's attitude: when used approvingly, it means \"strikingly original\" or \"boldly creative\"; when used critically, it means \"bizarre\" or \"outrageous.\" Often used for fashion, art, ideas, and designs.\n\nCOMMON COLLOCATIONS:\n- {奇抜|きばつ}な⟦デザイン→デザイン：03860_dezain⟧: outlandish design\n- {奇抜|きばつ}な⟦アイデア→アイデア：10161_aidea⟧: unconventional idea\n- {奇抜|きばつ}な⟦{服装|ふくそう}→服装：03594_fukusou⟧: eccentric clothing\n- {奇抜|きばつ}な⟦{発想|はっそう}→発想：04309_hassou⟧: unconventional thinking\n\nSIMILAR WORDS:\n- ⟦{斬新|ざんしん}→斬新：09069_zanshin⟧: novel, fresh — more clearly positive\n- ⟦{奇妙|きみょう}→奇妙：01630_kimyou⟧: strange, peculiar — more negative, implies oddness\n- ⟦{独創的|どくそうてき}→独創的：06242_dokusouteki⟧: original, creative — purely positive\n- ⟦{突飛|とっぴ}→突飛：13783_toppi⟧: outrageous, far-fetched — more negative",
   "cross_references": [
     {
       "type": "synonym",
@@ -52,6 +52,27 @@
       "reading": "とっぴ",
       "headword": "{突飛|とっぴ}",
       "label": "far-fetched (more negative)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09069_zanshin",
+      "reading": "ざんしん",
+      "headword": "{斬新|ざんしん}",
+      "label": "novel, fresh"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01630_kimyou",
+      "reading": "きみょう",
+      "headword": "{奇妙|きみょう}",
+      "label": "strange, peculiar"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06242_dokusouteki",
+      "reading": "どくそうてき",
+      "headword": "{独創的|どくそうてき}",
+      "label": "original, creative"
     }
   ],
   "schema_version": "2.0",
@@ -68,6 +89,6 @@
       ]
     },
     "created": "2026-03-27T06:09:33Z",
-    "modified": "2026-07-27T12:42:09Z"
+    "modified": "2026-09-02T04:01:57Z"
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22005_doumeikoku_ex1",
-      "japanese": "{同盟国|どうめいこく}と{協力|きょうりょく}する。",
+      "japanese": "{同盟国|どうめいこく}⟦と→と：00512_to⟧⟦{協力|きょうりょく}する→協力する：25370_kyouryokusuru⟧。",
       "english": "To cooperate with allied nations.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22005_doumeikoku_ex2",
-      "japanese": "{日本|にほん}はアメリカの{重要|じゅうよう}な{同盟国|どうめいこく}である。",
+      "japanese": "⟦{日本|にほん}→日本：03876_nihon⟧⟦は→は：00079_ha⟧⟦アメリカ→アメリカ：01769_amerika⟧⟦の→の：09472_no⟧⟦{重要|じゅうよう}→重要：01575_juuyou⟧な{同盟国|どうめいこく}⟦である→である：09855_dearu⟧。",
       "english": "Japan is an important ally of the United States.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22005_doumeikoku_ex3",
-      "japanese": "{首脳会談|しゅのうかいだん}では、{同盟国|どうめいこく}との{連携|れんけい}{強化|きょうか}が{主要|しゅよう}な{議題|ぎだい}となった。",
+      "japanese": "{首脳会談|しゅのうかいだん}⟦で→で：00502_de⟧⟦は→は：00079_ha⟧、{同盟国|どうめいこく}⟦と→と：00512_to⟧⟦の→の：09472_no⟧⟦{連携|れんけい}→連携：05094_renkei⟧⟦{強化|きょうか}→強化：00260_kyouka⟧⟦が→が：00051_ga⟧⟦{主要|しゅよう}→主要：01649_shuyou⟧な⟦{議題|ぎだい}→議題：11330_gidai⟧⟦と→と：00512_to⟧⟦なった→なる：01970_naru⟧。",
       "english": "At the summit, strengthening cooperation with allied nations was a major agenda item.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {同盟|どうめい} (alliance) and {国|こく} (country). Frequently appears in news coverage of international relations, diplomacy, and security policy.\n\nCOMMON COLLOCATIONS:\n- {同盟国|どうめいこく}との{関係|かんけい}: relations with allied nations\n- {同盟国|どうめいこく}を{支援|しえん}する: to support an ally\n- {主要|しゅよう}{同盟国|どうめいこく}: major ally\n- {同盟国|どうめいこく}に{対|たい}する{義務|ぎむ}: obligations to allies\n\nSIMILAR WORDS:\n- {友好国|ゆうこうこく}: friendly nation — countries with good relations but not necessarily a formal alliance\n- {同盟|どうめい}: alliance — the alliance itself, not the member country\n- {連合国|れんごうこく}: allied powers — historically refers to the Allied Powers in the World Wars\n- {加盟国|かめいこく}: member state — a country belonging to an organization like the UN",
+  "notes": "A compound of ⟦{同盟|どうめい}→同盟：05321_doumei⟧ (alliance) and {国|こく} (country). Frequently appears in news coverage of international relations, diplomacy, and security policy.\n\nCOMMON COLLOCATIONS:\n- {同盟国|どうめいこく}⟦と→と：00512_to⟧⟦の→の：09472_no⟧⟦{関係|かんけい}→関係：01298_kankei⟧: relations with allied nations\n- {同盟国|どうめいこく}⟦を→を：00422_wo⟧⟦{支援|しえん}する→支援する：25534_shiensuru⟧: to support an ally\n- ⟦{主要|しゅよう}→主要：01649_shuyou⟧{同盟国|どうめいこく}: major ally\n- {同盟国|どうめいこく}⟦に→に：00314_ni⟧⟦{対|たい}する→対する：02126_taisuru⟧⟦{義務|ぎむ}→義務：02647_gimu⟧: obligations to allies\n\nSIMILAR WORDS:\n- {友好国|ゆうこうこく}: friendly nation — countries with good relations but not necessarily a formal alliance\n- ⟦{同盟|どうめい}→同盟：05321_doumei⟧: alliance — the alliance itself, not the member country\n- {連合国|れんごうこく}: allied powers — historically refers to the Allied Powers in the World Wars\n- ⟦{加盟国|かめいこく}→加盟国：19160_kameikoku⟧: member state — a country belonging to an organization like the UN",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19160_kameikoku",
+      "reading": "かめいこく",
+      "headword": "{加盟国|かめいこく}",
+      "label": "member state"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +69,6 @@
       ]
     },
     "created": "2026-04-04T20:20:36Z",
-    "modified": "2026-04-10T08:28:27Z"
+    "modified": "2026-09-02T04:02:06Z"
   }
 }

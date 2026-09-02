@@ -15,40 +15,73 @@
   "examples": [
     {
       "id": "23113_shihaisha_ex1",
-      "japanese": "{彼|かれ}はこの{国|くに}の{支配者|しはいしゃ}だ。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦この→この：00962_kono⟧⟦{国|くに}→国：02204_kuni⟧⟦の→の：09472_no⟧{支配者|しはいしゃ}だ。",
       "english": "He is the ruler of this country.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "23113_shihaisha_ex2",
-      "japanese": "{新|あたら}しい{支配者|しはいしゃ}が{権力|けんりょく}を{握|にぎ}った。",
+      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧{支配者|しはいしゃ}⟦が→が：00051_ga⟧⟦{権力|けんりょく}→権力：10020_kenryoku⟧⟦を→を：00422_wo⟧⟦{握|にぎ}った→握る：02383_nigiru⟧。",
       "english": "A new ruler seized power.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "23113_shihaisha_ex3",
-      "japanese": "{歴史|れきし}の{中|なか}で{多|おお}くの{支配者|しはいしゃ}が{興|おこ}り、そして{滅|ほろ}んでいった。",
+      "japanese": "⟦{歴史|れきし}→歴史：02267_rekishi⟧⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧⟦で→で：00502_de⟧{多|おお}く⟦の→の：09472_no⟧{支配者|しはいしゃ}⟦が→が：00051_ga⟧{興|おこ}り、⟦そして→そして：00997_soshite⟧{滅|ほろ}んでいった。",
       "english": "Throughout history, many rulers rose to power and then perished.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {支配|しはい} (rule, control, domination) and {者|しゃ} (person). Refers to someone who holds authority and exercises control. Can be used for historical rulers, political leaders, or figuratively for anyone who dominates a situation or domain.\n\nCOMMON COLLOCATIONS:\n- {絶対的|ぜったいてき}な{支配者|しはいしゃ}: absolute ruler\n- {支配者|しはいしゃ}{層|そう}: ruling class\n- {支配者|しはいしゃ}{側|がわ}: the ruling side\n\nSIMILAR WORDS:\n- {統治者|とうちしゃ}: governor, ruler — emphasizes the act of governing or administering; more formal and institutional\n- {権力者|けんりょくしゃ}: person of power — focuses on having power rather than exercising control\n- {独裁者|どくさいしゃ}: dictator — specifically an authoritarian ruler with absolute power",
+  "notes": "Composed of ⟦{支配|しはい}→支配：01421_shihai⟧ (rule, control, domination) and ⟦{者|しゃ}→〜者：04662_sha⟧ (person). Refers to someone who holds authority and exercises control. Can be used for historical rulers, political leaders, or figuratively for anyone who dominates a situation or domain.\n\nCOMMON COLLOCATIONS:\n- ⟦{絶対的|ぜったいてき}→絶対的：05849_zettaiteki⟧な{支配者|しはいしゃ}: absolute ruler\n- {支配者|しはいしゃ}⟦{層|そう}→層：12441_sou⟧: ruling class\n- {支配者|しはいしゃ}⟦{側|がわ}→〜側：03090_gawa⟧: the ruling side\n\nSIMILAR WORDS:\n- ⟦{統治者|とうちしゃ}→統治者：23032_touchisha⟧: governor, ruler — emphasizes the act of governing or administering; more formal and institutional\n- ⟦{権力者|けんりょくしゃ}→権力者：17021_kenryokusha⟧: person of power — focuses on having power rather than exercising control\n- ⟦{独裁者|どくさいしゃ}→独裁者：15406_dokusaisha⟧: dictator — specifically an authoritarian ruler with absolute power",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23032_touchisha",
+      "reading": "とうちしゃ",
+      "headword": "{統治者|とうちしゃ}",
+      "label": "governor, ruler"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17021_kenryokusha",
+      "reading": "けんりょくしゃ",
+      "headword": "{権力者|けんりょくしゃ}",
+      "label": "person of power"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15406_dokusaisha",
+      "reading": "どくさいしゃ",
+      "headword": "{独裁者|どくさいしゃ}",
+      "label": "dictator"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["politics"],
+      "pos": [
+        "noun"
+      ],
+      "semantic": [
+        "politics"
+      ],
       "formality": "neutral",
       "politeness": "plain"
     },
     "created": "2026-04-08T19:20:00Z",
-    "modified": "2026-04-08T19:20:00Z"
+    "modified": "2026-09-02T04:02:11Z"
   }
 }

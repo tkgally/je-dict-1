@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22059_nomisugi_ex1",
-      "japanese": "{飲|の}みすぎに{注意|ちゅうい}。",
+      "japanese": "{飲|の}みすぎ⟦に→に：00314_ni⟧⟦{注意|ちゅうい}→注意：01464_chuui⟧。",
       "english": "Be careful not to drink too much.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22059_nomisugi_ex2",
-      "japanese": "{昨日|きのう}は{飲|の}みすぎて{頭|あたま}が{痛|いた}い。",
+      "japanese": "⟦{昨日|きのう}→昨日：00859_kinou⟧⟦は→は：00079_ha⟧{飲|の}みすぎて⟦{頭|あたま}→頭：00574_atama⟧⟦が→が：00051_ga⟧⟦{痛|いた}い→痛い：01108_itai⟧。",
       "english": "I drank too much yesterday and have a headache.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22059_nomisugi_ex3",
-      "japanese": "{飲|の}みすぎは{体|からだ}に{悪|わる}いとわかっていても、つい{飲|の}んでしまう。",
+      "japanese": "{飲|の}みすぎ⟦は→は：00079_ha⟧⟦{体|からだ}→体：00784_karada⟧⟦に→に：00314_ni⟧⟦{悪|わる}い→悪い：00908_warui⟧⟦と→と：00512_to⟧わかって⟦いて→いる：00495_iru⟧⟦も→も：00484_mo⟧、つい⟦{飲|の}んで→飲む：00322_nomu⟧しまう。",
       "english": "Even though I know drinking too much is bad for my health, I end up drinking anyway.",
       "sense_numbers": [
         1
@@ -44,14 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "The noun form of {飲|の}みすぎる (to drink too much), used to describe the state or act of excessive drinking. Most commonly refers to alcohol, but can also apply to any beverage. Very common in everyday conversation, especially the morning after a night out.\n\nCOMMON COLLOCATIONS:\n- {飲|の}みすぎに{注意|ちゅうい}する: to be careful about overdrinking\n- {飲|の}みすぎで{気持|きも}ち{悪|わる}い: feeling sick from drinking too much\n- {飲|の}みすぎた: drank too much (past tense of the verb form)\n\nRELATED WORDS:\n- {食|た}べすぎ — overeating (same ~すぎ pattern)\n- {二日酔|ふつかよ}い — hangover (a common result of {飲|の}みすぎ)\n- {深酒|ふかざけ} — heavy drinking (more literary)",
+  "notes": "The noun form of {飲|の}みすぎる (to drink too much), used to describe the state or act of excessive drinking. Most commonly refers to alcohol, but can also apply to any beverage. Very common in everyday conversation, especially the morning after a night out.\n\nCOMMON COLLOCATIONS:\n- {飲|の}みすぎ⟦に→に：00314_ni⟧⟦{注意|ちゅうい}→注意：01464_chuui⟧⟦する→する：00392_suru⟧: to be careful about overdrinking\n- {飲|の}みすぎで⟦{気持|きも}ち{悪|わる}い→気持ち悪い：07154_kimochiwarui⟧: feeling sick from drinking too much\n- {飲|の}みすぎた: drank too much (past tense of the verb form)\n\nRELATED WORDS:\n- ⟦{食|た}べ→食べる：00396_taberu⟧すぎ — overeating (same ~すぎ pattern)\n- ⟦{二日酔|ふつかよ}い→二日酔い：08331_futsukayoi⟧ — hangover (a common result of {飲|の}みすぎ)\n- ⟦{深酒|ふかざけ}→深酒：14790_fukazake⟧ — heavy drinking (more literary)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "08331_futsukayoi",
+      "reading": "ふつかよい",
+      "headword": "{二日酔|ふつかよ}い",
+      "label": "hangover"
+    },
+    {
+      "type": "related",
+      "target_id": "14790_fukazake",
+      "reading": "ふかざけ",
+      "headword": "{深酒|ふかざけ}",
+      "label": "heavy drinking"
+    },
+    {
+      "type": "related",
+      "target_id": "08974_waraisugi",
+      "reading": "わらいすぎ",
+      "headword": "{笑|わら}いすぎ",
+      "label": "laughing too much"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "food",
         "health"
@@ -59,6 +83,6 @@
       "usage_context": []
     },
     "created": "2026-04-04T22:14:26Z",
-    "modified": "2026-07-30T03:35:34Z"
+    "modified": "2026-09-02T04:02:06Z"
   }
 }

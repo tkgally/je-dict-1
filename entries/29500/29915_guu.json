@@ -15,41 +15,67 @@
   "examples": [
     {
       "id": "29915_guu_ex1",
-      "japanese": "{最初|さいしょ}はグーを{出|だ}した。",
+      "japanese": "⟦{最初|さいしょ}→最初：00882_saisho⟧⟦は→は：00079_ha⟧グー⟦を→を：00422_wo⟧⟦{出|だ}した→出す：01087_dasu⟧。",
       "english": "I threw rock first.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29915_guu_ex2",
-      "japanese": "グーはチョキに{勝|か}つ。",
+      "japanese": "グー⟦は→は：00079_ha⟧⟦チョキ→チョキ：29916_choki⟧⟦に→に：00314_ni⟧⟦{勝|か}つ→勝つ：01199_katsu⟧。",
       "english": "Rock beats scissors.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29915_guu_ex3",
-      "japanese": "{手|て}をグーにして、{力|ちから}を{込|こ}めた。",
+      "japanese": "⟦{手|て}→手：00569_te⟧⟦を→を：00422_wo⟧グーにして、⟦{力|ちから}→力：01661_chikara⟧⟦を→を：00422_wo⟧⟦{込|こ}めた→込める：01945_komeru⟧。",
       "english": "I made my hand into a fist and put strength into it.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "One of the three hand shapes in {じゃんけん|じゃんけん} (rock-paper-scissors), together with チョキ (scissors) and パー (paper). グー is a closed fist; it beats チョキ and loses to パー.\n\nCOMMON COLLOCATIONS:\n- グーを{出|だ}す: to throw rock\n- {手|て}をグーにする: to clench the hand into a fist\n- {最初|さいしょ}はグー: \"rock first\" (the standard call that starts a game)\n\nSIMILAR WORDS:\n- チョキ: scissors — the two-finger shape\n- パー: paper — the open-hand shape",
+  "notes": "One of the three hand shapes in ⟦じゃんけん→じゃんけん：06520_janken⟧ (rock-paper-scissors), together with ⟦チョキ→チョキ：29916_choki⟧ (scissors) and ⟦パー→パー：29917_paa⟧ (paper). グー is a closed fist; it beats ⟦チョキ→チョキ：29916_choki⟧ and loses to ⟦パー→パー：29917_paa⟧.\n\nCOMMON COLLOCATIONS:\n- グー⟦を→を：00422_wo⟧⟦{出|だ}す→出す：01087_dasu⟧: to throw rock\n- ⟦{手|て}→手：00569_te⟧⟦を→を：00422_wo⟧グー⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧: to clench the hand into a fist\n- ⟦{最初|さいしょ}→最初：00882_saisho⟧⟦は→は：00079_ha⟧グー: \"rock first\" (the standard call that starts a game)\n\nSIMILAR WORDS:\n- ⟦チョキ→チョキ：29916_choki⟧: scissors — the two-finger shape\n- ⟦パー→パー：29917_paa⟧: paper — the open-hand shape",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "29916_choki",
+      "reading": "ちょき",
+      "headword": "チョキ",
+      "label": "scissors"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29917_paa",
+      "reading": "ぱー",
+      "headword": "パー",
+      "label": "paper"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["leisure"],
+      "politeness": "plain",
+      "semantic": [
+        "leisure"
+      ],
       "domain": []
     },
     "created": "2026-07-17T21:17:43Z",
-    "modified": "2026-07-17T21:17:43Z"
+    "modified": "2026-09-02T04:02:38Z"
   }
 }

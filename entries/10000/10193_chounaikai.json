@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "10193_chounaikai_ex1",
-      "japanese": "{町内会|ちょうないかい}に{入|はい}る。",
+      "japanese": "{町内会|ちょうないかい}⟦に→に：00314_ni⟧⟦{入|はい}る→入る：00494_hairu⟧。",
       "english": "Join the neighborhood association.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "10193_chounaikai_ex2",
-      "japanese": "{町内会|ちょうないかい}の{会合|かいごう}がある。",
+      "japanese": "{町内会|ちょうないかい}⟦の→の：09472_no⟧⟦{会合|かいごう}→会合：02605_kaigou⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There is a neighborhood association meeting.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "10193_chounaikai_ex3",
-      "japanese": "{町内会|ちょうないかい}が{夏祭|なつまつ}りを{主催|しゅさい}している。",
+      "japanese": "{町内会|ちょうないかい}⟦が→が：00051_ga⟧⟦{夏祭|なつまつ}り→夏祭り：09871_natsumatsuri⟧⟦を→を：00422_wo⟧⟦{主催|しゅさい}している→主催する：17278_shusaisuru⟧。",
       "english": "The neighborhood association is hosting the summer festival.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "WORD FORMATION:\n{町内|ちょうない} (within the neighborhood) + {会|かい} (association, group)\n\nCULTURAL NOTES:\n{町内会|ちょうないかい} is a fundamental part of Japanese community life. Activities include:\n- Managing garbage collection points\n- Organizing local festivals\n- Conducting crime prevention patrols\n- Distributing {回覧板|かいらんばん} (neighborhood circulars)\n- Coordinating disaster preparedness\n\nMembership is typically household-based, with monthly or yearly dues.\n\nSYNONYMS:\n- {自治会|じちかい}: residents' association (same meaning, different term)\n\nRELATED TERMS:\n- {回覧板|かいらんばん}: neighborhood circular\n- {町内会費|ちょうないかいひ}: association dues",
+  "notes": "FORMS:\n⟦{町内|ちょうない}→町内：13561_chounai⟧ (within the neighborhood) + ⟦{会|かい}→会：27493_kai⟧ (association, group)\n\nCULTURAL NOTE:\n{町内会|ちょうないかい} is a fundamental part of Japanese community life. Activities include:\n- Managing garbage collection points\n- Organizing local festivals\n- Conducting crime prevention patrols\n- Distributing ⟦{回覧板|かいらんばん}→回覧板：10192_kairanban⟧ (neighborhood circulars)\n- Coordinating disaster preparedness\n\nMembership is typically household-based, with monthly or yearly dues.\n\nSIMILAR WORDS:\n- ⟦{自治会|じちかい}→自治会：22488_jichikai⟧: residents' association (same meaning, different term)\n\nRELATED WORDS:\n- ⟦{回覧板|かいらんばん}→回覧板：10192_kairanban⟧: neighborhood circular\n- {町内会費|ちょうないかいひ}: association dues",
   "cross_references": [
     {
       "type": "related",
@@ -51,11 +51,32 @@
       "reading": "かいらんばん",
       "headword": "{回覧板|かいらんばん}",
       "label": "neighborhood circular"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22488_jichikai",
+      "reading": "じちかい",
+      "headword": "{自治会|じちかい}",
+      "label": "residents' association"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24652_fujinkai",
+      "reading": "ふじんかい",
+      "headword": "{婦人会|ふじんかい}",
+      "label": "women's association"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24894_choukai",
+      "reading": "ちょうかい",
+      "headword": "{町会|ちょうかい}",
+      "label": "neighborhood association"
     }
   ],
   "metadata": {
     "created": "2026-02-05T12:58:08Z",
-    "modified": "2026-08-14T01:00:44Z",
+    "modified": "2026-09-02T04:01:20Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

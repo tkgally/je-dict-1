@@ -15,38 +15,65 @@
   "examples": [
     {
       "id": "24996_chuuingamu_ex1",
-      "japanese": "チューインガムを{噛|か}む。",
+      "japanese": "チューインガム⟦を→を：00422_wo⟧⟦{噛|か}む→噛む：01205_kamu⟧。",
       "english": "To chew chewing gum.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "24996_chuuingamu_ex2",
-      "japanese": "{眠気|ねむけ}{覚|ざ}ましにチューインガムを{買|か}った。",
+      "japanese": "⟦{眠気|ねむけ}→眠気：06534_nemuke⟧{覚|ざ}まし⟦に→に：00314_ni⟧チューインガム⟦を→を：00422_wo⟧⟦{買|か}った→買う：00489_kau⟧。",
       "english": "I bought some chewing gum to stay awake.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "24996_chuuingamu_ex3",
-      "japanese": "チューインガムを{噛|か}みながら{人|ひと}と{話|はな}すのは{失礼|しつれい}だと{言|い}われることが{多|おお}い。",
+      "japanese": "チューインガム⟦を→を：00422_wo⟧⟦{噛|か}み→噛む：01205_kamu⟧⟦ながら→ながら：10530_nagara⟧⟦{人|ひと}→人：00476_hito⟧⟦と→と：00512_to⟧⟦{話|はな}す→話す：00467_hanasu⟧⟦の→の：09472_no⟧⟦は→は：00079_ha⟧⟦{失礼|しつれい}→失礼：01247_shitsurei⟧だ⟦と→と：00512_to⟧⟦{言|い}われる→言う：00515_iu⟧こと⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "Chewing gum while talking to someone is often considered rude.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A loanword from English \"chewing gum.\" In everyday conversation, the shortened form ガム is far more common. チューインガム is the formal, full-length term seen on product packaging and in official contexts.\n\nCOMMON COLLOCATIONS:\n- チューインガムを{噛|か}む: to chew gum\n- チューインガムを{捨|す}てる: to throw away gum\n- チューインガムを{吐|は}き{出|だ}す: to spit out gum\n- {板|いた}ガム: stick gum (flat rectangular pieces)\n- {粒|つぶ}ガム: pellet gum (coated pieces)\n\nSIMILAR WORDS:\n- ガム: gum — the everyday abbreviated form, used much more frequently in speech\n- {風船|ふうせん}ガム: bubble gum — gum specifically designed for blowing bubbles",
+  "notes": "A loanword from English \"chewing gum.\" In everyday conversation, the shortened form ⟦ガム→ガム：00058_gamu⟧ is far more common. チューインガム is the formal, full-length term seen on product packaging and in official contexts.\n\nCOMMON COLLOCATIONS:\n- チューインガム⟦を→を：00422_wo⟧⟦{噛|か}む→噛む：01205_kamu⟧: to chew gum\n- チューインガム⟦を→を：00422_wo⟧⟦{捨|す}てる→捨てる：00892_suteru⟧: to throw away gum\n- チューインガム⟦を→を：00422_wo⟧⟦{吐|は}き{出|だ}す→吐き出す：06856_hakidasu⟧: to spit out gum\n- ⟦{板|いた}ガム→板ガム：18366_itagamu⟧: stick gum (flat rectangular pieces)\n- ⟦{粒|つぶ}→粒：03892_tsubu⟧⟦ガム→ガム：00058_gamu⟧: pellet gum (coated pieces)\n\nSIMILAR WORDS:\n- ⟦ガム→ガム：00058_gamu⟧: gum — the everyday abbreviated form, used much more frequently in speech\n- ⟦{風船|ふうせん}ガム→風船ガム：25082_fuusengamu⟧: bubble gum — gum specifically designed for blowing bubbles",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "00058_gamu",
+      "reading": "がむ",
+      "headword": "ガム",
+      "label": "gum"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25082_fuusengamu",
+      "reading": "ふうせんがむ",
+      "headword": "{風船|ふうせん}ガム",
+      "label": "bubble gum"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["food"]
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "food"
+      ]
     },
     "created": "2026-04-22T10:11:57Z",
-    "modified": "2026-04-22T10:11:57Z"
+    "modified": "2026-09-02T04:02:20Z"
   }
 }

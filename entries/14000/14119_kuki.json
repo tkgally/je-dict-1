@@ -15,41 +15,80 @@
   "examples": [
     {
       "id": "14119_kuki_ex1",
-      "japanese": "{花|はな}の{茎|くき}を{切|き}る。",
+      "japanese": "⟦{花|はな}→花：00523_hana⟧⟦の→の：09472_no⟧{茎|くき}⟦を→を：00422_wo⟧⟦{切|き}る→切る：02693_kiru⟧。",
       "english": "I cut the flower stem.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14119_kuki_ex2",
-      "japanese": "ブロッコリーは{茎|くき}も{食|た}べられる。",
+      "japanese": "⟦ブロッコリー→ブロッコリー：11131_burokkorii⟧⟦は→は：00079_ha⟧{茎|くき}⟦も→も：00484_mo⟧⟦{食|た}べられる→食べる：00396_taberu⟧。",
       "english": "You can eat broccoli stems too.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14119_kuki_ex3",
-      "japanese": "{台風|たいふう}で{茎|くき}が{折|お}れて、{花|はな}が{全部|ぜんぶ}だめになった。",
+      "japanese": "⟦{台風|たいふう}→台風：01455_taifuu⟧⟦で→で：00502_de⟧{茎|くき}⟦が→が：00051_ga⟧⟦{折|お}れて→折れる：01266_oreru⟧、⟦{花|はな}→花：00523_hana⟧⟦が→が：00051_ga⟧⟦{全部|ぜんぶ}→全部：02888_zenbu⟧⟦だめ→だめ：00693_dame⟧になった。",
       "english": "The stems broke in the typhoon, and all the flowers were ruined.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{茎|くき} refers to the stem or stalk of any plant — the part that supports leaves, flowers, and fruit.\n\nUSAGE:\nApplies to flowers, vegetables, and herbs alike. For tree trunks, use {幹|みき} instead. For mushroom stems, {軸|じく} is more common.\n\nCOMMON COLLOCATIONS:\n- {茎|くき}を{切|き}る: to cut a stem\n- {茎|くき}が{伸|の}びる: a stem grows/extends\n- {茎|くき}が{折|お}れる: a stem breaks\n- {太|ふと}い{茎|くき}: thick stalk\n- {茎|くき}わかめ: stem wakame (a popular snack)\n\nIN COOKING:\nMany vegetable stems are edible and commonly used in Japanese cooking. ブロッコリーの{茎|くき} (broccoli stems) and セロリの{茎|くき} (celery stalks) are everyday ingredients.\n\nRELATED:\n- {幹|みき}: tree trunk\n- {枝|えだ}: branch\n- {根|ね}: root\n- {葉|は}: leaf",
-  "cross_references": [],
+  "notes": "{茎|くき} refers to the stem or stalk of any plant — the part that supports leaves, flowers, and fruit.\n\nUSAGE:\nApplies to flowers, vegetables, and herbs alike. For tree trunks, use ⟦{幹|みき}→幹：04364_miki⟧ instead. For mushroom stems, ⟦{軸|じく}→軸：14304_jiku⟧ is more common.\n\nCOMMON COLLOCATIONS:\n- {茎|くき}⟦を→を：00422_wo⟧⟦{切|き}る→切る：02693_kiru⟧: to cut a stem\n- {茎|くき}⟦が→が：00051_ga⟧⟦{伸|の}びる→伸びる：01974_nobiru⟧: a stem grows/extends\n- {茎|くき}⟦が→が：00051_ga⟧⟦{折|お}れる→折れる：01266_oreru⟧: a stem breaks\n- ⟦{太|ふと}い→太い：02955_futoi⟧{茎|くき}: thick stalk\n- {茎|くき}⟦わかめ→わかめ：10654_wakame⟧: stem wakame (a popular snack)\n\nIN COOKING:\nMany vegetable stems are edible and commonly used in Japanese cooking. ⟦ブロッコリー→ブロッコリー：11131_burokkorii⟧⟦の→の：09472_no⟧{茎|くき} (broccoli stems) and ⟦セロリ→セロリ：25680_serori⟧⟦の→の：09472_no⟧{茎|くき} (celery stalks) are everyday ingredients.\n\nRELATED WORDS:\n- ⟦{幹|みき}→幹：04364_miki⟧: tree trunk\n- ⟦{枝|えだ}→枝：02181_eda⟧: branch\n- ⟦{根|ね}→根：03525_ne⟧: root\n- ⟦{葉|は}→葉：02241_ha⟧: leaf",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "04364_miki",
+      "reading": "みき",
+      "headword": "{幹|みき}",
+      "label": "tree trunk"
+    },
+    {
+      "type": "related",
+      "target_id": "02181_eda",
+      "reading": "えだ",
+      "headword": "{枝|えだ}",
+      "label": "branch"
+    },
+    {
+      "type": "related",
+      "target_id": "03525_ne",
+      "reading": "ね",
+      "headword": "{根|ね}",
+      "label": "root"
+    },
+    {
+      "type": "related",
+      "target_id": "02241_ha",
+      "reading": "は",
+      "headword": "{葉|は}",
+      "label": "leaf"
+    }
+  ],
   "metadata": {
     "created": "2026-02-28T01:12:33Z",
-    "modified": "2026-03-30T02:50:29Z",
+    "modified": "2026-09-02T04:01:36Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["plant-general"]
+      "semantic": [
+        "plant-general"
+      ]
     }
   }
 }

@@ -3,7 +3,7 @@
   "headword": "{調湿|ちょうしつ}",
   "reading": "ちょうしつ",
   "romaji": "choushitsu",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "humidity regulation; moisture control",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29735_choushitsu_ex1",
-      "japanese": "この{素材|そざい}は{調湿|ちょうしつ}{効果|こうか}が{高|たか}い。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{素材|そざい}→素材：09492_sozai⟧⟦は→は：00079_ha⟧{調湿|ちょうしつ}⟦{効果|こうか}→効果：02726_kouka⟧⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧。",
       "english": "This material has a strong humidity-regulating effect.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29735_choushitsu_ex2",
-      "japanese": "{炭|すみ}は{調湿|ちょうしつ}のために{使|つか}われる。",
+      "japanese": "⟦{炭|すみ}→炭：13375_sumi⟧⟦は→は：00079_ha⟧{調湿|ちょうしつ}⟦の→の：09472_no⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧⟦{使|つか}われる→使う：00473_tsukau⟧。",
       "english": "Charcoal is used for moisture control.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29735_choushitsu_ex3",
-      "japanese": "この{壁|かべ}は{湿気|しっけ}を{吸|す}って{室内|しつない}を{調湿|ちょうしつ}してくれる。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{壁|かべ}→壁：01290_kabe⟧⟦は→は：00079_ha⟧⟦{湿気|しっけ}→湿気：03177_shikke⟧⟦を→を：00422_wo⟧⟦{吸|す}って→吸う：04394_suu⟧⟦{室内|しつない}→室内：03061_shitsunai⟧⟦を→を：00422_wo⟧{調湿|ちょうしつ}⟦して→する：00392_suru⟧⟦くれる→くれる：00724_kureru⟧。",
       "english": "This wall absorbs moisture and regulates the humidity of the room.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Refers to keeping humidity at a comfortable level, either passively through materials or actively with equipment. Most often used attributively of building materials and appliances.\n\nCOMMON COLLOCATIONS:\n- {調湿|ちょうしつ}{機能|きのう}: humidity-regulating function\n- {調湿|ちょうしつ}{効果|こうか}: moisture-regulating effect\n- {調湿|ちょうしつ}{材|ざい}: humidity-control material\n\nSIMILAR WORDS:\n- {除湿|じょしつ}: dehumidification — removing moisture only\n- {加湿|かしつ}: humidification — adding moisture only",
+  "notes": "Refers to keeping humidity at a comfortable level, either passively through materials or actively with equipment. Most often used attributively of building materials and appliances.\n\nCOMMON COLLOCATIONS:\n- {調湿|ちょうしつ}⟦{機能|きのう}→機能：13165_kinou⟧: humidity-regulating function\n- {調湿|ちょうしつ}⟦{効果|こうか}→効果：02726_kouka⟧: moisture-regulating effect\n- {調湿|ちょうしつ}⟦{材|ざい}→〜材：28347_zai⟧: humidity-control material\n\nSIMILAR WORDS:\n- ⟦{除湿|じょしつ}→除湿：09623_joshitsu⟧: dehumidification — removing moisture only\n- ⟦{加湿|かしつ}→加湿：29748_kashitsu⟧: humidification — adding moisture only",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09623_joshitsu",
+      "reading": "じょしつ",
+      "headword": "{除湿|じょしつ}",
+      "label": "dehumidification"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29748_kashitsu",
+      "reading": "かしつ",
+      "headword": "{加湿|かしつ}",
+      "label": "humidification"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -54,7 +70,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "technology"
       ],
@@ -62,7 +78,7 @@
       "verb_class": "suru"
     },
     "created": "2026-07-09T21:19:28Z",
-    "modified": "2026-07-09T21:19:28Z"
+    "modified": "2026-09-02T04:02:37Z"
   },
   "conjugation": {
     "type": "suru",

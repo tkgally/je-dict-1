@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{体温|たいおん} refers to the temperature of a living body. Compound of {体|たい} (body) + {温|おん} (temperature).\n\nCOMMON PATTERNS:\n- {体温|たいおん}⟦を→を：00422_wo⟧⟦{測|はか}る→測る：01977_hakaru⟧: to take one's temperature\n- {体温|たいおん}⟦が→が：00051_ga⟧⟦{上|あ}がる→上がる：00615_agaru⟧: temperature rises\n- {体温|たいおん}⟦が→が：00051_ga⟧⟦{下|さ}がる→下がる：01188_sagaru⟧: temperature drops\n- {体温|たいおん}⟦チェック→チェック：03000_chekku⟧: temperature check\n\nCOMPOUNDS:\n- ⟦{体温計|たいおんけい}→体温計：05484_taionkei⟧: thermometer (body temperature)\n- ⟦{低体温|ていたいおん}→低体温：26320_teitaion⟧: hypothermia\n- ⟦{平熱|へいねつ}→平熱：15477_heinetsu⟧: normal body temperature\n\nCULTURAL NOTE:\nNormal body temperature in Japan is typically considered around 36-37°C. Japan uses Celsius exclusively. Temperature checks became ubiquitous at building entrances during health screening periods.\n\nRELATED:\n- ⟦{熱|ねつ}→熱：01690_netsu⟧: fever / heat\n- ⟦{気温|きおん}→気温：00235_kion⟧: air temperature (weather)",
+  "notes": "{体温|たいおん} refers to the temperature of a living body. Compound of ⟦{体|たい}→体：09872_tai⟧ (body) + {温|おん} (temperature).\n\nCOMMON PATTERNS:\n- {体温|たいおん}⟦を→を：00422_wo⟧⟦{測|はか}る→測る：01977_hakaru⟧: to take one's temperature\n- {体温|たいおん}⟦が→が：00051_ga⟧⟦{上|あ}がる→上がる：00615_agaru⟧: temperature rises\n- {体温|たいおん}⟦が→が：00051_ga⟧⟦{下|さ}がる→下がる：01188_sagaru⟧: temperature drops\n- {体温|たいおん}⟦チェック→チェック：03000_chekku⟧: temperature check\n\nCOMPOUNDS:\n- ⟦{体温計|たいおんけい}→体温計：05484_taionkei⟧: thermometer (body temperature)\n- ⟦{低体温|ていたいおん}→低体温：26320_teitaion⟧: hypothermia\n- ⟦{平熱|へいねつ}→平熱：15477_heinetsu⟧: normal body temperature\n\nCULTURAL NOTE:\nNormal body temperature in Japan is typically considered around 36-37°C. Japan uses Celsius exclusively. Temperature checks became ubiquitous at building entrances during health screening periods.\n\nRELATED WORDS:\n- ⟦{熱|ねつ}→熱：01690_netsu⟧: fever / heat\n- ⟦{気温|きおん}→気温：00235_kion⟧: air temperature (weather)",
   "cross_references": [
     {
       "type": "related",
@@ -51,11 +51,39 @@
       "headword": "{熱|ねつ}",
       "label": "fever",
       "target_id": "01690_netsu"
+    },
+    {
+      "type": "related",
+      "target_id": "00235_kion",
+      "reading": "きおん",
+      "headword": "{気温|きおん}",
+      "label": "air temperature"
+    },
+    {
+      "type": "related",
+      "target_id": "19228_kenon",
+      "reading": "けんおん",
+      "headword": "{検温|けんおん}",
+      "label": "taking one's temperature"
+    },
+    {
+      "type": "related",
+      "target_id": "25310_shitsuon",
+      "reading": "しつおん",
+      "headword": "{室温|しつおん}",
+      "label": "room temperature"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27380_suion",
+      "reading": "すいおん",
+      "headword": "{水温|すいおん}",
+      "label": "water temperature"
     }
   ],
   "metadata": {
     "created": "2026-01-12T14:05:00Z",
-    "modified": "2026-07-29T21:21:40Z",
+    "modified": "2026-09-02T04:01:03Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

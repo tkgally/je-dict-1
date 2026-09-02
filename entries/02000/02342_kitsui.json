@@ -24,7 +24,7 @@
   "examples": [
     {
       "id": "02342_kitsui_ex1",
-      "japanese": "この⟦{靴|くつ}→靴：00725_kutsu⟧⟦は→は：00079_ha⟧きつい。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{靴|くつ}→靴：00725_kutsu⟧⟦は→は：00079_ha⟧きつい。",
       "english": "These shoes are too tight.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
     },
     {
       "id": "02342_kitsui_ex3",
-      "japanese": "⟦{太|ふと}った→太る：01190_futoru⟧ので⟦{服|ふく}→服：00695_fuku⟧⟦が→が：00051_ga⟧きつい。",
+      "japanese": "⟦{太|ふと}った→太る：01190_futoru⟧⟦の→の：09472_no⟧で⟦{服|ふく}→服：00695_fuku⟧⟦が→が：00051_ga⟧きつい。",
       "english": "I gained weight so my clothes are tight.",
       "notes": null,
       "has_audio": false,
@@ -74,7 +74,7 @@
     },
     {
       "id": "02342_kitsui_ex6",
-      "japanese": "そんなきついこと⟦を→を：00422_wo⟧⟦{言|い}わないで→言う：00515_iu⟧⟦よ→よ：09475_yo⟧。",
+      "japanese": "⟦そんな→そんな：01645_sonna⟧きついこと⟦を→を：00422_wo⟧⟦{言|い}わないで→言う：00515_iu⟧⟦よ→よ：09475_yo⟧。",
       "english": "Don't say such harsh things.",
       "notes": null,
       "has_audio": false,
@@ -94,7 +94,7 @@
     },
     {
       "id": "02342_kitsui_ex8",
-      "japanese": "この⟦{坂|さか}→坂：01415_saka⟧⟦は→は：00079_ha⟧きつい。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{坂|さか}→坂：01415_saka⟧⟦は→は：00079_ha⟧きつい。",
       "english": "This slope is tough.",
       "notes": null,
       "has_audio": false,
@@ -113,7 +113,7 @@
       ]
     }
   ],
-  "notes": "きつい is an i-adjective with a wide range of meanings from physical tightness to emotional harshness.\n\nFORMS:\n- Adverb: きつく\n- Noun form: きつさ\n\nCOMMON USES:\n- ⟦{服|ふく}→服：00695_fuku⟧⟦が→が：00051_ga⟧きつい: clothes are tight\n- ⟦{坂|さか}→坂：01415_saka⟧⟦が→が：00051_ga⟧きつい: the slope is steep/demanding\n- ⟦{性格|せいかく}→性格：03371_seikaku⟧⟦が→が：00051_ga⟧きつい: personality is harsh\n- ⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦が→が：00051_ga⟧きつい: work is tough/demanding\n- きつい⟦{言|い}い{方|かた}→言い方：14165_iikata⟧: harsh way of speaking\n- ⟦{匂|にお}い→匂い：00874_nioi⟧⟦が→が：00051_ga⟧きつい: smell is strong/overpowering\n\nSIMILAR WORDS:\n- きつい vs. ⟦{厳|きび}しい→厳しい：01125_kibishii⟧: きつい emphasizes difficulty or discomfort; ⟦{厳|きび}しい→厳しい：01125_kibishii⟧ emphasizes strictness or severity",
+  "notes": "きつい is an i-adjective with a wide range of meanings from physical tightness to emotional harshness.\n\nFORMS:\n- Adverb: きつく\n- Noun form: きつさ\n\nCOMMON COLLOCATIONS:\n- ⟦{服|ふく}→服：00695_fuku⟧⟦が→が：00051_ga⟧きつい: clothes are tight\n- ⟦{坂|さか}→坂：01415_saka⟧⟦が→が：00051_ga⟧きつい: the slope is steep/demanding\n- ⟦{性格|せいかく}→性格：03371_seikaku⟧⟦が→が：00051_ga⟧きつい: personality is harsh\n- ⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦が→が：00051_ga⟧きつい: work is tough/demanding\n- きつい⟦{言|い}い{方|かた}→言い方：14165_iikata⟧: harsh way of speaking\n- ⟦{匂|にお}い→匂い：00874_nioi⟧⟦が→が：00051_ga⟧きつい: smell is strong/overpowering\n\nSIMILAR WORDS:\n- きつい vs. ⟦{厳|きび}しい→厳しい：01125_kibishii⟧: きつい emphasizes difficulty or discomfort; ⟦{厳|きび}しい→厳しい：01125_kibishii⟧ emphasizes strictness or severity",
   "cross_references": [
     {
       "type": "contrast",
@@ -121,11 +121,32 @@
       "reading": "きびしい",
       "headword": "{厳|きび}しい",
       "label": "strict, severe"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00430_yurui",
+      "reading": "ゆるい",
+      "headword": "{緩|ゆる}い",
+      "label": "loose"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05841_yuttari",
+      "reading": "ゆったり",
+      "headword": "ゆったり",
+      "label": "relaxed, loose, spacious"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20573_bukabuka",
+      "reading": "ぶかぶか",
+      "headword": "ぶかぶか",
+      "label": "baggy"
     }
   ],
   "metadata": {
     "created": "2026-01-09T08:23:41Z",
-    "modified": "2026-05-20T14:12:34Z",
+    "modified": "2026-09-02T04:01:01Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "17180_ryourishu_ex1",
-      "japanese": "{料理酒|りょうりしゅ}を{大|おお}さじ{一杯|いっぱい}{加|くわ}える。",
+      "japanese": "{料理酒|りょうりしゅ}⟦を→を：00422_wo⟧⟦{大|おお}さじ→大さじ：22527_oosaji⟧⟦{一杯|いっぱい}→一杯：01793_ippai⟧⟦{加|くわ}える→加える：01941_kuwaeru⟧。",
       "english": "Add one tablespoon of cooking sake.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17180_ryourishu_ex2",
-      "japanese": "{料理酒|りょうりしゅ}は{肉|にく}や{魚|さかな}の{臭|くさ}みを{取|と}るのに{使|つか}う。",
+      "japanese": "{料理酒|りょうりしゅ}⟦は→は：00079_ha⟧⟦{肉|にく}→肉：02240_niku⟧や⟦{魚|さかな}→魚：00499_sakana⟧⟦の→の：09472_no⟧{臭|くさ}み⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧⟦の→の：09472_no⟧⟦に→に：00314_ni⟧⟦{使|つか}う→使う：00473_tsukau⟧。",
       "english": "Cooking sake is used to remove the odor from meat and fish.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17180_ryourishu_ex3",
-      "japanese": "{料理酒|りょうりしゅ}がないときは{普通|ふつう}の{日本酒|にほんしゅ}で{代用|だいよう}できる。",
+      "japanese": "{料理酒|りょうりしゅ}⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧とき⟦は→は：00079_ha⟧⟦{普通|ふつう}→普通：01502_futsuu⟧⟦の→の：09472_no⟧⟦{日本酒|にほんしゅ}→日本酒：12954_nihonshu⟧⟦で→で：00502_de⟧⟦{代用|だいよう}→代用：16439_daiyou⟧⟦できる→できる：00557_dekiru⟧。",
       "english": "When you don't have cooking sake, you can substitute regular sake.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nA staple seasoning in Japanese cooking alongside {醤油|しょうゆ} (soy sauce) and {味醂|みりん} (sweet rice wine). {料理酒|りょうりしゅ} typically has salt added to make it undrinkable, which classifies it as a seasoning rather than an alcoholic beverage in Japan. This allows it to be sold without a liquor license.\n\nCOMMON COLLOCATIONS:\n- {料理酒|りょうりしゅ}を{加|くわ}える (to add cooking sake)\n- {料理酒|りょうりしゅ}で{下味|したあじ}をつける (to season with cooking sake)\n- {料理酒|りょうりしゅ}と{醤油|しょうゆ} (cooking sake and soy sauce)\n\nSIMILAR WORDS:\n- {味醂|みりん}: mirin, sweet rice wine — sweeter, used for glazing and sweetening\n- {日本酒|にほんしゅ}: sake — drinking sake, can also be used for cooking",
+  "notes": "USAGE:\nA staple seasoning in Japanese cooking alongside ⟦{醤油|しょうゆ}→醤油：01056_shouyu⟧ (soy sauce) and ⟦{味醂|みりん}→味醂：04918_mirin⟧ (sweet rice wine). {料理酒|りょうりしゅ} typically has salt added to make it undrinkable, which classifies it as a seasoning rather than an alcoholic beverage in Japan. This allows it to be sold without a liquor license.\n\nCOMMON COLLOCATIONS:\n- {料理酒|りょうりしゅ}⟦を→を：00422_wo⟧⟦{加|くわ}える→加える：01941_kuwaeru⟧ (to add cooking sake)\n- {料理酒|りょうりしゅ}⟦で→で：00502_de⟧⟦{下味|したあじ}→下味：06809_shitaaji⟧⟦を→を：00422_wo⟧⟦つける→つける：00562_tsukeru⟧ (to season with cooking sake)\n- {料理酒|りょうりしゅ}⟦と→と：00512_to⟧⟦{醤油|しょうゆ}→醤油：01056_shouyu⟧ (cooking sake and soy sauce)\n\nSIMILAR WORDS:\n- ⟦{味醂|みりん}→味醂：04918_mirin⟧: mirin, sweet rice wine — sweeter, used for glazing and sweetening\n- ⟦{日本酒|にほんしゅ}→日本酒：12954_nihonshu⟧: sake — drinking sake, can also be used for cooking",
   "cross_references": [
     {
       "type": "related",
@@ -53,18 +59,29 @@
       "reading": "にほんしゅ",
       "headword": "{日本酒|にほんしゅ}",
       "label": "drinking sake"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28722_honmirin",
+      "reading": "ほんみりん",
+      "headword": "{本|ほん}みりん",
+      "label": "true mirin"
     }
   ],
   "metadata": {
     "created": "2026-03-16T05:46:18Z",
-    "modified": "2026-05-06T04:08:30Z",
+    "modified": "2026-09-02T04:01:47Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food"]
+      "semantic": [
+        "food"
+      ]
     }
   }
 }

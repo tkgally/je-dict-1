@@ -3,7 +3,7 @@
   "id": "14288_miburui",
   "headword": "{身震|みぶる}い",
   "reading": "みぶるい",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "shudder; shiver; trembling",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "14288_miburui_ex1",
-      "japanese": "{寒|さむ}さで{身震|みぶる}いした。",
+      "japanese": "⟦{寒|さむ}さ→寒さ：12336_samusa⟧⟦で→で：00502_de⟧{身震|みぶる}い⟦した→する：00392_suru⟧。",
       "english": "I shivered from the cold.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "14288_miburui_ex2",
-      "japanese": "{恐|おそ}ろしい{話|はなし}を{聞|き}いて{身震|みぶる}いした。",
+      "japanese": "⟦{恐|おそ}ろしい→恐ろしい：02338_osoroshii⟧⟦{話|はなし}→話：01496_hanashi⟧⟦を→を：00422_wo⟧⟦{聞|き}いて→聞く：00483_kiku⟧{身震|みぶる}い⟦した→する：00392_suru⟧。",
       "english": "I shuddered upon hearing the terrifying story.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "14288_miburui_ex3",
-      "japanese": "{初|はじ}めてオーケストラの{生|なま}{演奏|えんそう}を{聴|き}いたとき、{感動|かんどう}で{身震|みぶる}いするほどだった。",
+      "japanese": "⟦{初|はじ}めて→初めて：02932_hajimete⟧⟦オーケストラ→オーケストラ：04466_ookesutora⟧⟦の→の：09472_no⟧⟦{生|なま}{演奏|えんそう}→生演奏：16478_namaensou⟧⟦を→を：00422_wo⟧⟦{聴|き}いた→聴く：30010_kiku⟧とき、⟦{感動|かんどう}→感動：00167_kandou⟧⟦で→で：00502_de⟧{身震|みぶる}い⟦する→する：00392_suru⟧ほどだった。",
       "english": "When I heard a live orchestra for the first time, I was so moved that I shuddered.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,47 @@
       ]
     }
   ],
-  "notes": "Compound of {身|み} (body) + {震|ふる}い (shaking), with rendaku changing ふ to ぶ. Functions as both a noun and a する verb.\n\nUnlike {震|ふる}える (to tremble), which describes sustained shaking, {身震|みぶる}い typically refers to a sudden, involuntary shudder — a brief whole-body reaction.\n\nCOMMON COLLOCATIONS:\n- {身震|みぶる}いする (to shudder)\n- {身震|みぶる}いがする (to feel a shudder)\n- {身震|みぶる}いするほど (enough to make one shudder)\n- {恐怖|きょうふ}で{身震|みぶる}いする (to shudder with fear)\n\nSIMILAR WORDS:\n- {震|ふる}える: to tremble, to shake (sustained trembling)\n- {鳥肌|とりはだ}: goosebumps (a related physical reaction)\n- {武者震|むしゃぶる}い: trembling with excitement before action (anticipatory)",
-  "cross_references": [],
+  "notes": "Compound of ⟦{身|み}→身：01764_mi⟧ (body) + {震|ふる}い (shaking), with rendaku changing ふ to ぶ. Functions as both a noun and a ⟦する→する：00392_suru⟧ verb.\n\nUnlike ⟦{震|ふる}える→震える：02411_furueru⟧ (to tremble), which describes sustained shaking, {身震|みぶる}い typically refers to a sudden, involuntary shudder — a brief whole-body reaction.\n\nCOMMON COLLOCATIONS:\n- {身震|みぶる}い⟦する→する：00392_suru⟧ (to shudder)\n- {身震|みぶる}い⟦が→が：00051_ga⟧⟦する→する：00392_suru⟧ (to feel a shudder)\n- {身震|みぶる}い⟦する→する：00392_suru⟧ほど (enough to make one shudder)\n- ⟦{恐怖|きょうふ}→恐怖：02585_kyoufu⟧⟦で→で：00502_de⟧{身震|みぶる}い⟦する→する：00392_suru⟧ (to shudder with fear)\n\nSIMILAR WORDS:\n- ⟦{震|ふる}える→震える：02411_furueru⟧: to tremble, to shake (sustained trembling)\n- ⟦{鳥肌|とりはだ}→鳥肌：08544_torihada⟧: goosebumps (a related physical reaction)\n- ⟦{武者震|むしゃぶる}い→武者震い：17402_mushaburui⟧: trembling with excitement before action (anticipatory)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02411_furueru",
+      "reading": "ふるえる",
+      "headword": "{震|ふる}える",
+      "label": "to tremble, to shake"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08544_torihada",
+      "reading": "とりはだ",
+      "headword": "{鳥肌|とりはだ}",
+      "label": "goosebumps"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17402_mushaburui",
+      "reading": "むしゃぶるい",
+      "headword": "{武者震|むしゃぶる}い",
+      "label": "trembling with excitement before action"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07361_ononoku",
+      "reading": "おののく",
+      "headword": "おののく",
+      "label": "to tremble"
+    },
+    {
+      "type": "related",
+      "target_id": "18840_furue",
+      "reading": "ふるえ",
+      "headword": "{震|ふる}え",
+      "label": "shiver"
+    }
+  ],
   "metadata": {
     "created": "2026-02-28T09:27:12Z",
-    "modified": "2026-03-29T03:08:18Z",
+    "modified": "2026-09-02T04:01:36Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

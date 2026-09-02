@@ -3,8 +3,31 @@
   "id": "21855_dasshoku",
   "headword": "{脱色|だっしょく}",
   "reading": "だっしょく",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "bleaching; decolorization",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16995_hyouhaku",
+      "reading": "ひょうはく",
+      "headword": "{漂白|ひょうはく}",
+      "label": "bleaching"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20872_taishoku",
+      "reading": "たいしょく",
+      "headword": "{退色|たいしょく}",
+      "label": "fading, discoloration"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15817_senshoku",
+      "reading": "せんしょく",
+      "headword": "{染色|せんしょく}",
+      "label": "dyeing"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -12,16 +35,19 @@
         "noun",
         "verb-suru"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "appearance",
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "both"
     },
     "created": "2026-04-03T19:21:58Z",
-    "modified": "2026-07-29T12:35:11Z"
+    "modified": "2026-09-02T04:02:05Z"
   },
-  "notes": "Composed of {脱|だつ} (remove) and {色|しょく} (color). Most commonly encountered in the context of hair bleaching, but also used for fabric, chemicals, and industrial processes.\n\nCOMMON COLLOCATIONS:\n- {髪|かみ}を{脱色|だっしょく}する: to bleach hair\n- {脱色|だっしょく}{剤|ざい}: bleaching agent\n- {脱色|だっしょく}{作用|さよう}: bleaching action\n- {自然|しぜん}{脱色|だっしょく}: natural fading/bleaching\n\nSIMILAR WORDS:\n- {漂白|ひょうはく}: bleaching — more commonly used for laundry and cleaning\n- {退色|たいしょく}: fading, discoloration — gradual color loss over time, not intentional\n- {染色|せんしょく}: dyeing — the opposite process of adding color",
+  "notes": "Composed of {脱|だつ} (remove) and {色|しょく} (color). Most commonly encountered in the context of hair bleaching, but also used for fabric, chemicals, and industrial processes.\n\nCOMMON COLLOCATIONS:\n- ⟦{髪|かみ}→髪：02196_kami⟧⟦を→を：00422_wo⟧{脱色|だっしょく}⟦する→する：00392_suru⟧: to bleach hair\n- {脱色|だっしょく}{剤|ざい}: bleaching agent\n- {脱色|だっしょく}⟦{作用|さよう}→作用：05761_sayou⟧: bleaching action\n- ⟦{自然|しぜん}→自然：01423_shizen⟧{脱色|だっしょく}: natural fading/bleaching\n\nSIMILAR WORDS:\n- ⟦{漂白|ひょうはく}→漂白：16995_hyouhaku⟧: bleaching — more commonly used for laundry and cleaning\n- ⟦{退色|たいしょく}→退色：20872_taishoku⟧: fading, discoloration — gradual color loss over time, not intentional\n- ⟦{染色|せんしょく}→染色：15817_senshoku⟧: dyeing — the opposite process of adding color",
   "conjugation": {
     "type": "suru",
     "forms": [
@@ -122,7 +148,7 @@
   "examples": [
     {
       "id": "21855_dasshoku_ex1",
-      "japanese": "{髪|かみ}を{脱色|だっしょく}する。",
+      "japanese": "⟦{髪|かみ}→髪：02196_kami⟧⟦を→を：00422_wo⟧{脱色|だっしょく}⟦する→する：00392_suru⟧。",
       "english": "To bleach one's hair.",
       "sense_numbers": [
         1
@@ -132,7 +158,7 @@
     },
     {
       "id": "21855_dasshoku_ex2",
-      "japanese": "{日光|にっこう}で{布|ぬの}が{脱色|だっしょく}してしまった。",
+      "japanese": "⟦{日光|にっこう}→日光：03515_nikkou⟧⟦で→で：00502_de⟧⟦{布|ぬの}→布：01489_nuno⟧⟦が→が：00051_ga⟧{脱色|だっしょく}⟦して→する：00392_suru⟧しまった。",
       "english": "The fabric became discolored from sunlight.",
       "sense_numbers": [
         1
@@ -142,7 +168,7 @@
     },
     {
       "id": "21855_dasshoku_ex3",
-      "japanese": "{脱色|だっしょく}してから{好|す}きな{色|いろ}に{染|そ}めるのが{一般的|いっぱんてき}だ。",
+      "japanese": "{脱色|だっしょく}⟦して→する：00392_suru⟧⟦から→から：00504_kara⟧⟦{好|す}き→好き：02355_suki⟧な⟦{色|いろ}→色：00849_iro⟧⟦に→に：00314_ni⟧⟦{染|そ}める→染める：04253_someru⟧⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦{一般的|いっぱんてき}→一般的：04784_ippanteki⟧だ。",
       "english": "It's common to bleach first and then dye with your preferred color.",
       "sense_numbers": [
         1

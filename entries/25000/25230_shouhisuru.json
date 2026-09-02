@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25230_shouhisuru_ex1",
-      "japanese": "カロリーを{消費|しょうひ}する。",
+      "japanese": "⟦カロリー→カロリー：06109_karorii⟧⟦を→を：00422_wo⟧{消費|しょうひ}する。",
       "english": "I burn calories.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25230_shouhisuru_ex2",
-      "japanese": "{日本|にほん}は{大量|たいりょう}のエネルギーを{消費|しょうひ}している。",
+      "japanese": "⟦{日本|にほん}→日本：03876_nihon⟧⟦は→は：00079_ha⟧⟦{大量|たいりょう}→大量：03112_tairyou⟧⟦の→の：09472_no⟧⟦エネルギー→エネルギー：03834_enerugii⟧⟦を→を：00422_wo⟧{消費|しょうひ}して⟦いる→いる：00495_iru⟧。",
       "english": "Japan consumes a large amount of energy.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25230_shouhisuru_ex3",
-      "japanese": "この{作業|さぎょう}には{予想|よそう}より{多|おお}くの{時間|じかん}を{消費|しょうひ}してしまった。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{作業|さぎょう}→作業：02775_sagyou⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{予想|よそう}→予想：03664_yosou⟧⟦より→より：09476_yori⟧{多|おお}く⟦の→の：09472_no⟧⟦{時間|じかん}→時間：00468_jikan⟧⟦を→を：00422_wo⟧{消費|しょうひ}してしまった。",
       "english": "This task ended up consuming more time than expected.",
       "sense_numbers": [
         1
@@ -45,7 +45,7 @@
     },
     {
       "id": "25230_shouhisuru_ex4",
-      "japanese": "{消費|しょうひ}{者|しゃ}は{品質|ひんしつ}と{価格|かかく}のバランスを{重視|じゅうし}するようになった。",
+      "japanese": "⟦{消費|しょうひ}{者|しゃ}→消費者：09866_shouhisha⟧⟦は→は：00079_ha⟧⟦{品質|ひんしつ}→品質：09507_hinshitsu⟧⟦と→と：00512_to⟧⟦{価格|かかく}→価格：00147_kakaku⟧⟦の→の：09472_no⟧⟦バランス→バランス：03870_baransu⟧⟦を→を：00422_wo⟧⟦{重視|じゅうし}する→重視する：26832_juushisuru⟧ようになった。",
       "english": "Consumers have come to value the balance between quality and price.",
       "sense_numbers": [
         1
@@ -54,22 +54,62 @@
       "notes": null
     }
   ],
-  "notes": "Refers to using up goods, energy, time, or other resources. In economics, it specifically refers to the consumption of goods and services by consumers, as opposed to production or saving.\n\nCOMMON COLLOCATIONS:\n- {消費|しょうひ}{者|しゃ}: consumer\n- {消費|しょうひ}{税|ぜい}: consumption tax (sales tax)\n- {消費|しょうひ}{期限|きげん}: expiration date; use-by date\n- {消費|しょうひ}{量|りょう}: consumption volume\n- {個人|こじん}{消費|しょうひ}: personal consumption\n- {消費|しょうひ}{社会|しゃかい}: consumer society\n\nSIMILAR WORDS:\n- {浪費|ろうひ}する: to waste; to squander — implies wasteful or excessive consumption\n- {使|つか}う: to use — a general word for using something, without the nuance of using it up\n- {費|つい}やす: to spend; to expend — emphasizes the deliberate investment of time, effort, or money toward a purpose",
+  "notes": "Refers to using up goods, energy, time, or other resources. In economics, it specifically refers to the consumption of goods and services by consumers, as opposed to production or saving.\n\nCOMMON COLLOCATIONS:\n- ⟦{消費|しょうひ}{者|しゃ}→消費者：09866_shouhisha⟧: consumer\n- ⟦{消費|しょうひ}{税|ぜい}→消費税：04803_shouhizei⟧: consumption tax (sales tax)\n- ⟦{消費|しょうひ}{期限|きげん}→消費期限：06077_shouhikigen⟧: expiration date; use-by date\n- ⟦{消費|しょうひ}→消費：03240_shouhi⟧⟦{量|りょう}→量：03799_ryou⟧: consumption volume\n- ⟦{個人|こじん}→個人：02758_kojin⟧⟦{消費|しょうひ}→消費：03240_shouhi⟧: personal consumption\n- ⟦{消費|しょうひ}→消費：03240_shouhi⟧⟦{社会|しゃかい}→社会：01427_shakai⟧: consumer society\n\nSIMILAR WORDS:\n- ⟦{浪費|ろうひ}する→浪費する：25239_rouhisuru⟧: to waste; to squander — implies wasteful or excessive consumption\n- ⟦{使|つか}う→使う：00473_tsukau⟧: to use — a general word for using something, without the nuance of using it up\n- ⟦{費|つい}やす→費やす：10424_tsuiyasu⟧: to spend; to expend — emphasizes the deliberate investment of time, effort, or money toward a purpose",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25239_rouhisuru",
+      "reading": "ろうひする",
+      "headword": "{浪費|ろうひ}する",
+      "label": "to waste"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00473_tsukau",
+      "reading": "つかう",
+      "headword": "{使|つか}う",
+      "label": "to use"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10424_tsuiyasu",
+      "reading": "ついやす",
+      "headword": "{費|つい}やす",
+      "label": "to spend"
+    },
+    {
+      "type": "related",
+      "target_id": "09866_shouhisha",
+      "reading": "しょうひしゃ",
+      "headword": "{消費者|しょうひしゃ}",
+      "label": "consumer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27813_tsukaitsukusu",
+      "reading": "つかいつくす",
+      "headword": "{使|つか}い{尽|つ}くす",
+      "label": "to use up completely"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "verb-suru"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "economics",
         "daily-life"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-04-24T11:26:32Z",
-    "modified": "2026-04-24T11:26:32Z"
+    "modified": "2026-09-02T04:02:21Z"
   },
   "conjugation": {
     "type": "suru",

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "27952_gipusu_ex1",
-      "japanese": "{足|あし}にギプスをはめる。",
+      "japanese": "⟦{足|あし}→足：00575_ashi⟧⟦に→に：00314_ni⟧ギプス⟦を→を：00422_wo⟧はめる。",
       "english": "They put a cast on my leg.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "27952_gipusu_ex2",
-      "japanese": "{骨折|こっせつ}したので{腕|うで}にギプスをした。",
+      "japanese": "⟦{骨折|こっせつ}→骨折：02763_kossetsu⟧⟦した→する：00392_suru⟧⟦の→の：09472_no⟧で⟦{腕|うで}→腕：01006_ude⟧⟦に→に：00314_ni⟧ギプス⟦を→を：00422_wo⟧⟦した→する：00392_suru⟧。",
       "english": "I broke a bone, so I got a cast on my arm.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "27952_gipusu_ex3",
-      "japanese": "ギプスが{取|と}れるまで、{一|いっ}か{月|げつ}かかると{言|い}われた。",
+      "japanese": "ギプス⟦が→が：00051_ga⟧⟦{取|と}れる→取れる：02376_toreru⟧⟦まで→まで：00490_made⟧、{一|いっ}か{月|げつ}⟦かかる→かかる：00711_kakaru⟧⟦と→と：00512_to⟧⟦{言|い}われた→言う：00515_iu⟧。",
       "english": "I was told it would take a month until the cast comes off.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "From German \"Gips\" (gypsum, plaster), reflecting the historical influence of German on Japanese medical vocabulary.\n\nCOMMON COLLOCATIONS:\n- ギプスをはめる／する: to put on a cast\n- ギプスが{取|と}れる: the cast comes off\n- ギプスを{巻|ま}く: to wrap a cast (around a limb)\n\nSIMILAR WORDS:\n- {包帯|ほうたい}: bandage — soft cloth wrapping, not a rigid cast\n- {添|そ}え{木|ぎ}: splint — a stiff support placed alongside a limb",
+  "notes": "From German \"Gips\" (gypsum, plaster), reflecting the historical influence of German on Japanese medical vocabulary.\n\nCOMMON COLLOCATIONS:\n- ギプス⟦を→を：00422_wo⟧はめる／⟦する→する：00392_suru⟧: to put on a cast\n- ギプス⟦が→が：00051_ga⟧⟦{取|と}れる→取れる：02376_toreru⟧: the cast comes off\n- ギプス⟦を→を：00422_wo⟧⟦{巻|ま}く→巻く：02418_maku⟧: to wrap a cast (around a limb)\n\nSIMILAR WORDS:\n- ⟦{包帯|ほうたい}→包帯：05385_houtai⟧: bandage — soft cloth wrapping, not a rigid cast\n- {添|そ}え{木|ぎ}: splint — a stiff support placed alongside a limb",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05385_houtai",
+      "reading": "ほうたい",
+      "headword": "{包帯|ほうたい}",
+      "label": "bandage"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +62,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "health"
       ],
       "domain": []
     },
     "created": "2026-05-23T03:06:48Z",
-    "modified": "2026-08-08T03:27:39Z"
+    "modified": "2026-09-02T04:02:32Z"
   }
 }

@@ -16,7 +16,7 @@
   "examples": [
     {
       "id": "30291_noyouni_ex1",
-      "japanese": "{鳥|とり}のように{飛|と}びたい。",
+      "japanese": "⟦{鳥|とり}→鳥：00679_tori⟧のように⟦{飛|と}びたい→飛ぶ：00759_tobu⟧。",
       "english": "I want to fly like a bird.",
       "sense_numbers": [
         1
@@ -26,7 +26,7 @@
     },
     {
       "id": "30291_noyouni_ex2",
-      "japanese": "{毎年|まいとし}のように{台風|たいふう}が{来|く}る。",
+      "japanese": "⟦{毎年|まいとし}→毎年：00731_maitoshi⟧のように⟦{台風|たいふう}→台風：01455_taifuu⟧⟦が→が：00051_ga⟧⟦{来|く}る→来る：00254_kuru⟧。",
       "english": "Typhoons come almost every year.",
       "sense_numbers": [
         1
@@ -36,7 +36,7 @@
     },
     {
       "id": "30291_noyouni_ex3",
-      "japanese": "{先生|せんせい}がおっしゃったように、{準備|じゅんび}が{何|なに}より{大切|たいせつ}だと{分|わ}かった。",
+      "japanese": "⟦{先生|せんせい}→先生：00609_sensei⟧⟦が→が：00051_ga⟧⟦おっしゃった→おっしゃる：01299_ossharu⟧よう⟦に→に：00314_ni⟧、⟦{準備|じゅんび}→準備：01431_junbi⟧⟦が→が：00051_ga⟧⟦{何|なに}→何：00498_nani⟧⟦より→より：09476_yori⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧だ⟦と→と：00512_to⟧⟦{分|わ}かった→分かる：00463_wakaru⟧。",
       "english": "As the teacher said, I came to see that preparation matters more than anything.",
       "sense_numbers": [
         1
@@ -45,7 +45,7 @@
       "notes": null
     }
   ],
-  "notes": "USAGE:\nAfter a noun, use のように ({雪|ゆき}のように{白|しろ}い). After a verb or i-adjective, drop の and use ように directly ({言|い}ったように). With na-adjectives the linker is な ({静|しず}かなように).\n\nCOMMON COLLOCATIONS:\n- {夢|ゆめ}のように: like a dream\n- {毎日|まいにち}のように: almost every day\n- {前|まえ}のように: as before\n- {以下|いか}のように: as follows (written)\n\nSIMILAR WORDS:\n- のような: like — the same comparison used to modify a noun ({夢|ゆめ}のような{話|はなし})\n- みたいに: like — casual spoken equivalent, attaches directly to the noun\n- のごとく: like, as — literary and archaic-sounding",
+  "notes": "USAGE:\nAfter a noun, use のように (⟦{雪|ゆき}→雪：00584_yuki⟧のように⟦{白|しろ}い→白い：00587_shiroi⟧). After a verb or i-adjective, drop ⟦の→の：09472_no⟧ and use よう⟦に→に：00314_ni⟧ directly (⟦{言|い}った→言う：00515_iu⟧よう⟦に→に：00314_ni⟧). With na-adjectives the linker is な (⟦{静|しず}か→静か：00755_shizuka⟧なよう⟦に→に：00314_ni⟧).\n\nCOMMON COLLOCATIONS:\n- ⟦{夢|ゆめ}→夢：01519_yume⟧のように: like a dream\n- ⟦{毎日|まいにち}→毎日：00729_mainichi⟧のように: almost every day\n- ⟦{前|まえ}→前：02255_mae⟧のように: as before\n- ⟦{以下|いか}→以下：01294_ika⟧のように: as follows (written)\n\nSIMILAR WORDS:\n- のような: like — the same comparison used to modify a noun (⟦{夢|ゆめ}→夢：01519_yume⟧のような⟦{話|はなし}→話：01496_hanashi⟧)\n- ⟦みたい→みたい：10755_mitai⟧⟦に→に：00314_ni⟧: like — casual spoken equivalent, attaches directly to the noun\n- ⟦の→の：09472_no⟧ごとく: like, as — literary and archaic-sounding",
   "cross_references": [
     {
       "type": "related",
@@ -53,6 +53,13 @@
       "reading": "ような",
       "headword": "ような",
       "label": "like; such as (noun-modifying)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20861_gotoku",
+      "reading": "ごとく",
+      "headword": "ごとく",
+      "label": "like"
     }
   ],
   "metadata": {
@@ -62,13 +69,13 @@
         "expression"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "grammatical"
       ],
       "domain": []
     },
     "created": "2026-07-31T21:20:10Z",
-    "modified": "2026-07-31T21:20:10Z"
+    "modified": "2026-09-02T04:02:39Z"
   }
 }

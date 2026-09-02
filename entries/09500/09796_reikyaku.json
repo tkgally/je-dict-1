@@ -113,7 +113,7 @@
     },
     {
       "id": "09796_reikyaku_ex2",
-      "japanese": "{冷却|れいきゃく}{装置|そうち}⟦を→を：00422_wo⟧{使|つか}う。",
+      "japanese": "{冷却|れいきゃく}⟦{装置|そうち}→装置：03318_souchi⟧⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧。",
       "english": "To use a cooling device.",
       "has_audio": false,
       "sense_numbers": [
@@ -122,7 +122,7 @@
     },
     {
       "id": "09796_reikyaku_ex3",
-      "japanese": "{冷却|れいきゃく}{期間|きかん}⟦を→を：00422_wo⟧{置|お}く。",
+      "japanese": "{冷却|れいきゃく}⟦{期間|きかん}→期間：00229_kikan⟧⟦を→を：00422_wo⟧⟦{置|お}く→置く：01092_oku⟧。",
       "english": "To allow a cooling-off period.",
       "has_audio": false,
       "sense_numbers": [
@@ -130,10 +130,10 @@
       ]
     }
   ],
-  "notes": "{冷却|れいきゃく} combines {冷|れい} (cold) + {却|きゃく} (withdraw), referring to the process of reducing temperature. Primarily a technical/scientific term.\n\nUSAGE:\nMost common in technical and industrial contexts. Also used figuratively: {冷却|れいきゃく}{期間|きかん} means a \"cooling-off period\" for emotions or negotiations.\n\nCOMMON COLLOCATIONS:\n- {冷却|れいきゃく}する: to cool\n- {冷却|れいきゃく}{装置|そうち}: cooling system/device\n- {冷却|れいきゃく}{水|すい}: coolant water\n- {冷却|れいきゃく}{期間|きかん}: cooling-off period\n- {冷却|れいきゃく}ファン: cooling fan\n\nSIMILAR WORDS:\n- {冷|ひ}やす: to cool (everyday, e.g. food/drinks)\n- {冷凍|れいとう}: freezing (below 0°C)\n- {冷蔵|れいぞう}: refrigeration (above 0°C)\n- {加熱|かねつ}: heating (opposite process)",
+  "notes": "{冷却|れいきゃく} combines {冷|れい} (cold) + {却|きゃく} (withdraw), referring to the process of reducing temperature. Primarily a technical/scientific term.\n\nUSAGE:\nMost common in technical and industrial contexts. Also used figuratively: {冷却|れいきゃく}⟦{期間|きかん}→期間：00229_kikan⟧ means a \"cooling-off period\" for emotions or negotiations.\n\nCOMMON COLLOCATIONS:\n- {冷却|れいきゃく}⟦する→する：00392_suru⟧: to cool\n- {冷却|れいきゃく}⟦{装置|そうち}→装置：03318_souchi⟧: cooling system/device\n- {冷却|れいきゃく}{水|すい}: coolant water\n- {冷却|れいきゃく}⟦{期間|きかん}→期間：00229_kikan⟧: cooling-off period\n- {冷却|れいきゃく}ファン: cooling fan\n\nSIMILAR WORDS:\n- ⟦{冷|ひ}やす→冷やす：02403_hiyasu⟧: to cool (everyday, e.g. food/drinks)\n- ⟦{冷凍|れいとう}→冷凍：11730_reitou⟧: freezing (below 0°C)\n- ⟦{冷蔵|れいぞう}→冷蔵：11731_reizou⟧: refrigeration (above 0°C)\n- ⟦{加熱|かねつ}→加熱：00168_kanetsu⟧: heating (opposite process)",
   "metadata": {
     "created": "2026-02-03T11:36:14Z",
-    "modified": "2026-07-10T00:20:58Z",
+    "modified": "2026-09-02T04:01:19Z",
     "ai_model": "claude-opus-4-5-20251101",
     "vocabulary_tier": "general",
     "tags": {
@@ -177,6 +177,13 @@
       "reading": "れいぞう",
       "headword": "{冷蔵|れいぞう}",
       "label": "refrigeration"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24903_kanreika",
+      "reading": "かんれいか",
+      "headword": "{寒冷化|かんれいか}",
+      "label": "cooling"
     }
   ]
 }

@@ -109,7 +109,7 @@
   "examples": [
     {
       "id": "09232_hekiekisuru_ex1",
-      "japanese": "しつこさに{辟易|へきえき}した。",
+      "japanese": "しつこさ⟦に→に：00314_ni⟧{辟易|へきえき}した。",
       "english": "I was put off by the persistence.",
       "notes": null,
       "has_audio": false,
@@ -119,7 +119,7 @@
     },
     {
       "id": "09232_hekiekisuru_ex2",
-      "japanese": "あの{態度|たいど}には{辟易|へきえき}する。",
+      "japanese": "⟦あの→あの：00915_ano⟧⟦{態度|たいど}→態度：03396_taido⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{辟易|へきえき}する。",
       "english": "I'm disgusted by that attitude.",
       "notes": null,
       "has_audio": false,
@@ -129,7 +129,7 @@
     },
     {
       "id": "09232_hekiekisuru_ex3",
-      "japanese": "{毎日|まいにち}の{残業|ざんぎょう}に{辟易|へきえき}している。",
+      "japanese": "⟦{毎日|まいにち}→毎日：00729_mainichi⟧⟦の→の：09472_no⟧⟦{残業|ざんぎょう}→残業：01071_zangyou⟧⟦に→に：00314_ni⟧{辟易|へきえき}して⟦いる→いる：00495_iru⟧。",
       "english": "I'm fed up with the daily overtime work.",
       "notes": null,
       "has_audio": false,
@@ -139,7 +139,7 @@
     },
     {
       "id": "09232_hekiekisuru_ex4",
-      "japanese": "{彼|かれ}の{勢|いきお}いに{辟易|へきえき}した。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧⟦{勢|いきお}い→勢い：01782_ikioi⟧⟦に→に：00314_ni⟧{辟易|へきえき}した。",
       "english": "I was overwhelmed by his intensity.",
       "notes": null,
       "has_audio": false,
@@ -149,7 +149,7 @@
     },
     {
       "id": "09232_hekiekisuru_ex5",
-      "japanese": "{厳|きび}しい{質問|しつもん}に{辟易|へきえき}する。",
+      "japanese": "⟦{厳|きび}しい→厳しい：01125_kibishii⟧⟦{質問|しつもん}→質問：00888_shitsumon⟧⟦に→に：00314_ni⟧{辟易|へきえき}する。",
       "english": "I cower at the harsh questions.",
       "notes": null,
       "has_audio": false,
@@ -159,7 +159,7 @@
     },
     {
       "id": "09232_hekiekisuru_ex6",
-      "japanese": "{相手|あいて}の{強引|ごういん}な{態度|たいど}に{辟易|へきえき}して{引|ひ}き{下|さ}がった。",
+      "japanese": "⟦{相手|あいて}→相手：01677_aite⟧⟦の→の：09472_no⟧⟦{強引|ごういん}→強引：04156_gouin⟧な⟦{態度|たいど}→態度：03396_taido⟧⟦に→に：00314_ni⟧{辟易|へきえき}して⟦{引|ひ}き{下|さ}がった→引き下がる：05873_hikisagaru⟧。",
       "english": "I was overwhelmed by the other person's forceful attitude and backed off.",
       "notes": null,
       "has_audio": false,
@@ -168,11 +168,11 @@
       ]
     }
   ],
-  "notes": "{辟易|へきえき}する originally meant to retreat or cower from something, but the modern primary meaning is to be disgusted or fed up.\n\nUSAGE:\n- Often used with に to indicate what one is fed up with\n- Common pattern: Xに{辟易|へきえき}する (to be fed up with X)\n\nREGISTER: Somewhat formal/literary; neutral to negative connotation.\n\nCOMMON COLLOCATIONS:\n- しつこさに{辟易|へきえき}する: to be fed up with persistence\n- {暑|あつ}さに{辟易|へきえき}する: to be overwhelmed by the heat\n- {態度|たいど}に{辟易|へきえき}する: to be disgusted by one's attitude",
+  "notes": "{辟易|へきえき}する originally meant to retreat or cower from something, but the modern primary meaning is to be disgusted or fed up.\n\nUSAGE:\n- Often used with ⟦に→に：00314_ni⟧ to indicate what one is fed up with\n- Common pattern: X⟦に→に：00314_ni⟧{辟易|へきえき}する (to be fed up with X)\n\nREGISTER: Somewhat formal/literary; neutral to negative connotation.\n\nCOMMON COLLOCATIONS:\n- しつこさ⟦に→に：00314_ni⟧{辟易|へきえき}する: to be fed up with persistence\n- ⟦{暑|あつ}さ→暑さ：12973_atsusa⟧⟦に→に：00314_ni⟧{辟易|へきえき}する: to be overwhelmed by the heat\n- ⟦{態度|たいど}→態度：03396_taido⟧⟦に→に：00314_ni⟧{辟易|へきえき}する: to be disgusted by one's attitude",
   "cross_references": [],
   "metadata": {
     "created": "2026-02-01T04:57:35Z",
-    "modified": "2026-08-12T21:25:53Z",
+    "modified": "2026-09-02T04:01:17Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -184,7 +184,8 @@
       "semantic": [
         "emotion"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     }
   },
   "prominent_see_also": [

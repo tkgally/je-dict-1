@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "29312_jinsai_ex1",
-      "japanese": "これは{天災|てんさい}ではなく{人災|じんさい}だ。",
+      "japanese": "⟦これ→これ：00963_kore⟧⟦は→は：00079_ha⟧⟦{天災|てんさい}→天災：29302_tensai⟧⟦ではなく→ではなく：09578_dehanaku⟧{人災|じんさい}だ。",
       "english": "This is not a natural disaster but a man-made one.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "29312_jinsai_ex2",
-      "japanese": "{事故|じこ}の{原因|げんいん}は{人災|じんさい}とされた。",
+      "japanese": "⟦{事故|じこ}→事故：00851_jiko⟧⟦の→の：09472_no⟧⟦{原因|げんいん}→原因：01400_genin⟧⟦は→は：00079_ha⟧{人災|じんさい}⟦と→と：00512_to⟧⟦された→する：00392_suru⟧。",
       "english": "The cause of the accident was judged to be human error.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "29312_jinsai_ex3",
-      "japanese": "{対策|たいさく}を{怠|おこた}れば、{自然|しぜん}の{被害|ひがい}も{人災|じんさい}に{変|か}わりうる。",
+      "japanese": "⟦{対策|たいさく}→対策：02511_taisaku⟧⟦を→を：00422_wo⟧⟦{怠|おこた}れば→怠る：03936_okotaru⟧、⟦{自然|しぜん}→自然：01423_shizen⟧⟦の→の：09472_no⟧⟦{被害|ひがい}→被害：02572_higai⟧⟦も→も：00484_mo⟧{人災|じんさい}⟦に→に：00314_ni⟧⟦{変|か}わり→変わる：00714_kawaru⟧うる。",
       "english": "If precautions are neglected, even damage from nature can turn into a man-made disaster.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Formed from {人|ひと} (human) plus {災|さい} (disaster). The direct counterpart of {天災|てんさい} (natural disaster), and frequently paired with it to stress that a calamity was avoidable.\n\nCOMMON COLLOCATIONS:\n- {人災|じんさい}だ: it is a man-made disaster\n- {明|あき}らかな{人災|じんさい}: a clear case of human error\n- {人災|じんさい}の{側面|そくめん}: the man-made aspect (of a disaster)\n\nSIMILAR WORDS:\n- {天災|てんさい}: natural disaster — the opposite; caused by nature\n- {人為的|じんいてき}: man-made, artificial — adjective describing a human cause",
+  "notes": "Formed from ⟦{人|ひと}→人：00476_hito⟧ (human) plus {災|さい} (disaster). The direct counterpart of ⟦{天災|てんさい}→天災：29302_tensai⟧ (natural disaster), and frequently paired with it to stress that a calamity was avoidable.\n\nCOMMON COLLOCATIONS:\n- {人災|じんさい}だ: it is a man-made disaster\n- ⟦{明|あき}らか→明らか：02351_akiraka⟧な{人災|じんさい}: a clear case of human error\n- {人災|じんさい}⟦の→の：09472_no⟧⟦{側面|そくめん}→側面：05779_sokumen⟧: the man-made aspect (of a disaster)\n\nSIMILAR WORDS:\n- ⟦{天災|てんさい}→天災：29302_tensai⟧: natural disaster — the opposite; caused by nature\n- ⟦{人為的|じんいてき}→人為的：11661_jiniteki⟧: man-made, artificial — adjective describing a human cause",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "29302_tensai",
+      "reading": "てんさい",
+      "headword": "{天災|てんさい}",
+      "label": "natural disaster"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11661_jiniteki",
+      "reading": "じんいてき",
+      "headword": "{人為的|じんいてき}",
+      "label": "man-made, artificial"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29290_shizensaigai",
+      "reading": "しぜんさいがい",
+      "headword": "{自然|しぜん}{災害|さいがい}",
+      "label": "natural disaster"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +76,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "society"
       ],
       "domain": []
     },
     "created": "2026-06-18T00:19:57Z",
-    "modified": "2026-06-18T00:19:57Z"
+    "modified": "2026-09-02T04:02:36Z"
   }
 }

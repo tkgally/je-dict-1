@@ -15,40 +15,80 @@
   "examples": [
     {
       "id": "26995_robii_ex1",
-      "japanese": "ホテルのロビーで{待|ま}ち{合|あ}わせしよう。",
+      "japanese": "⟦ホテル→ホテル：01027_hoteru⟧⟦の→の：09472_no⟧ロビー⟦で→で：00502_de⟧⟦{待|ま}ち{合|あ}わせ→待ち合わせ：07397_machiawase⟧⟦しよう→する：00392_suru⟧。",
       "english": "Let's meet in the hotel lobby.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26995_robii_ex2",
-      "japanese": "{劇場|げきじょう}のロビーには{大|おお}きなポスターが{飾|かざ}られていた。",
+      "japanese": "⟦{劇場|げきじょう}→劇場：02714_gekijou⟧⟦の→の：09472_no⟧ロビー⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{大|おお}きな→大きな：02849_ookina⟧⟦ポスター→ポスター：09598_posutaa⟧⟦が→が：00051_ga⟧⟦{飾|かざ}られていた→飾る：01185_kazaru⟧。",
       "english": "Large posters were displayed in the theater lobby.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26995_robii_ex3",
-      "japanese": "チェックインまで{時間|じかん}があったので、ロビーのソファーで{本|ほん}を{読|よ}んで{過|す}ごした。",
+      "japanese": "⟦チェックイン→チェックイン：08281_chekkuin⟧⟦まで→まで：00490_made⟧⟦{時間|じかん}→時間：00468_jikan⟧⟦が→が：00051_ga⟧⟦あった→ある：00006_aru⟧⟦の→の：09472_no⟧で、ロビー⟦の→の：09472_no⟧⟦ソファー→ソファー：05607_sofaa⟧⟦で→で：00502_de⟧{本|ほん}⟦を→を：00422_wo⟧⟦{読|よ}んで→読む：00426_yomu⟧⟦{過|す}ごした→過ごす：02062_sugosu⟧。",
       "english": "Since I had time until check-in, I spent it reading a book on the lobby sofa.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "From English \"lobby.\" Used almost exclusively for the physical space (entrance hall), not for political lobbying, which is expressed as ロビー{活動|かつどう} or ロビイング.\n\nCOMMON COLLOCATIONS:\n- ホテルのロビー: hotel lobby\n- ロビーで{待|ま}つ: to wait in the lobby\n- ロビー{活動|かつどう}: lobbying (political)\n- {一階|いっかい}ロビー: first-floor lobby\n- ロビーラウンジ: lobby lounge\n\nSIMILAR WORDS:\n- {玄関|げんかん}: entrance; entryway — the entrance area of a Japanese house, not a large public space\n- エントランス: entrance — the entrance area of a building, often overlaps with ロビー\n- {待合室|まちあいしつ}: waiting room — a smaller, designated room for waiting, unlike a large open lobby",
+  "notes": "From English \"lobby.\" Used almost exclusively for the physical space (entrance hall), not for political lobbying, which is expressed as ロビー{活動|かつどう} or ロビイング.\n\nCOMMON COLLOCATIONS:\n- ⟦ホテル→ホテル：01027_hoteru⟧⟦の→の：09472_no⟧ロビー: hotel lobby\n- ロビー⟦で→で：00502_de⟧⟦{待|ま}つ→待つ：00469_matsu⟧: to wait in the lobby\n- ロビー{活動|かつどう}: lobbying (political)\n- ⟦{一階|いっかい}→一階：27512_ikkai⟧ロビー: first-floor lobby\n- ロビー⟦ラウンジ→ラウンジ：29687_raunji⟧: lobby lounge\n\nSIMILAR WORDS:\n- ⟦{玄関|げんかん}→玄関：05003_genkan⟧: entrance; entryway — the entrance area of a Japanese house, not a large public space\n- ⟦エントランス→エントランス：08938_entoransu⟧: entrance — the entrance area of a building, often overlaps with ロビー\n- ⟦{待合室|まちあいしつ}→待合室：07373_machiaishitsu⟧: waiting room — a smaller, designated room for waiting, unlike a large open lobby",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05003_genkan",
+      "reading": "げんかん",
+      "headword": "{玄関|げんかん}",
+      "label": "entrance"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08938_entoransu",
+      "reading": "えんとらんす",
+      "headword": "エントランス",
+      "label": "entrance"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07373_machiaishitsu",
+      "reading": "まちあいしつ",
+      "headword": "{待合室|まちあいしつ}",
+      "label": "waiting room"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29687_raunji",
+      "reading": "らうんじ",
+      "headword": "ラウンジ",
+      "label": "lounge"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["building"]
+      "semantic": [
+        "building"
+      ]
     },
     "created": "2026-05-06T13:11:06Z",
-    "modified": "2026-05-06T13:11:06Z"
+    "modified": "2026-09-02T04:02:28Z"
   }
 }

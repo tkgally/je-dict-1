@@ -2,7 +2,7 @@
   "id": "09502_rashii",
   "headword": "らしい",
   "reading": "らしい",
-  "part_of_speech": "auxiliary adjective",
+  "part_of_speech": "auxiliary",
   "gloss": "seems like, apparently, I heard that",
   "definitions": [
     {
@@ -19,7 +19,7 @@
   "examples": [
     {
       "id": "09502_rashii_ex1",
-      "japanese": "{明日|あした}⟦は→は：00079_ha⟧{雨|あめ}らしい。",
+      "japanese": "⟦{明日|あした}→明日：00501_ashita⟧⟦は→は：00079_ha⟧⟦{雨|あめ}→雨：00583_ame⟧らしい。",
       "english": "Apparently it will rain tomorrow.",
       "has_audio": false,
       "sense_numbers": [
@@ -28,7 +28,7 @@
     },
     {
       "id": "09502_rashii_ex2",
-      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{来|こ}ないらしい。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{来|こ}ない→来る：00254_kuru⟧らしい。",
       "english": "I heard he's not coming.",
       "has_audio": false,
       "sense_numbers": [
@@ -37,7 +37,7 @@
     },
     {
       "id": "09502_rashii_ex3",
-      "japanese": "{男|おとこ}らしい⟦{人|ひと}→人：00476_hito⟧。",
+      "japanese": "⟦{男|おとこ}→男：00561_otoko⟧らしい⟦{人|ひと}→人：00476_hito⟧。",
       "english": "A manly person.",
       "has_audio": false,
       "sense_numbers": [
@@ -45,10 +45,10 @@
       ]
     }
   ],
-  "notes": "らしい has two distinct uses with different grammatical behavior.\n\nSENSE 1 — HEARSAY/INFERENCE:\nAttaches to the plain form of verbs, adjectives, and nouns. Indicates the speaker has indirect evidence or heard from someone.\n- {雨|あめ}らしい (apparently it's rain / it seems like rain)\n- {来|こ}ないらしい (apparently [they] won't come)\n- {彼|かれ}は{学生|がくせい}らしい (I hear he's a student)\n\nSENSE 2 — TYPICAL OF:\nAttaches to nouns. Means \"-like\" or \"befitting.\"\n- {男|おとこ}らしい (manly, befitting a man)\n- {子供|こども}らしい (childlike)\n- {春|はる}らしい{天気|てんき} (weather befitting spring)\n\nCONTRAST WITH SIMILAR FORMS:\n- らしい: hearsay or inference (secondhand information)\n- そうだ (hearsay): I heard that... (reporting what someone said)\n- そうだ (appearance): looks like... (based on visual impression)\n- ようだ: it appears (based on the speaker's own observation)\n- みたいだ: seems like (casual equivalent of ようだ)",
+  "notes": "らしい has two distinct uses with different grammatical behavior.\n\nSENSE 1 — HEARSAY/INFERENCE:\nAttaches to the plain form of verbs, adjectives, and nouns. Indicates the speaker has indirect evidence or heard from someone.\n- ⟦{雨|あめ}→雨：00583_ame⟧らしい (apparently it's rain / it seems like rain)\n- ⟦{来|こ}ない→来る：00254_kuru⟧らしい (apparently [they] won't come)\n- ⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{学生|がくせい}→学生：00610_gakusei⟧らしい (I hear he's a student)\n\nSENSE 2 — TYPICAL OF:\nAttaches to nouns. Means \"-like\" or \"befitting.\"\n- ⟦{男|おとこ}→男：00561_otoko⟧らしい (manly, befitting a man)\n- ⟦{子供|こども}→子供：00554_kodomo⟧らしい (childlike)\n- ⟦{春|はる}→春：00627_haru⟧らしい⟦{天気|てんき}→天気：00582_tenki⟧ (weather befitting spring)\n\nCONTRAST WITH SIMILAR FORMS:\n- らしい: hearsay or inference (secondhand information)\n- そうだ (hearsay): I heard that... (reporting what someone said)\n- そうだ (appearance): looks like... (based on visual impression)\n- ようだ: it appears (based on the speaker's own observation)\n- ⟦みたい→みたい：10755_mitai⟧だ: seems like (casual equivalent of ようだ)",
   "metadata": {
     "created": "2026-02-02T10:21:20Z",
-    "modified": "2026-05-14T13:14:49Z",
+    "modified": "2026-09-02T04:01:18Z",
     "ai_model": "claude-opus-4-5-20251101",
     "vocabulary_tier": "general",
     "tags": {
@@ -76,6 +76,27 @@
       "reading": "よう",
       "headword": "よう",
       "label": "conjecture based on direct evidence rather than hearsay"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26593_youda",
+      "reading": "ようだ",
+      "headword": "ようだ",
+      "label": "it seems"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29147_mitaida",
+      "reading": "みたいだ",
+      "headword": "みたいだ",
+      "label": "it seems"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30292_youna",
+      "reading": "ような",
+      "headword": "ような",
+      "label": "like"
     }
   ]
 }

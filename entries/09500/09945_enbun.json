@@ -14,30 +14,36 @@
   "examples": [
     {
       "id": "09945_enbun_ex1",
-      "japanese": "{塩分|えんぶん}を{控|ひか}える。",
+      "japanese": "{塩分|えんぶん}⟦を→を：00422_wo⟧⟦{控|ひか}える→控える：10054_hikaeru⟧。",
       "english": "To cut down on salt.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09945_enbun_ex2",
-      "japanese": "{塩分|えんぶん}の{取|と}りすぎは{血圧|けつあつ}を{上|あ}げる。",
+      "japanese": "{塩分|えんぶん}⟦の→の：09472_no⟧⟦{取|と}り→取る：00565_toru⟧すぎ⟦は→は：00079_ha⟧⟦{血圧|けつあつ}→血圧：00218_ketsuatsu⟧⟦を→を：00422_wo⟧⟦{上|あ}げる→上げる：02443_ageru⟧。",
       "english": "Excessive salt intake raises blood pressure.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09945_enbun_ex3",
-      "japanese": "この{食品|しょくひん}は{塩分|えんぶん}が{高|たか}い。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{食品|しょくひん}→食品：03247_shokuhin⟧⟦は→は：00079_ha⟧{塩分|えんぶん}⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧。",
       "english": "This food is high in salt.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{塩分|えんぶん} refers to salt content, often in the context of diet and health.\n\nCOMMON EXPRESSIONS:\n- {塩分|えんぶん}を{控|ひか}える: to cut back on salt\n- {塩分|えんぶん}の{取|と}りすぎ: excessive salt intake\n- {塩分|えんぶん}{濃度|のうど}: salt concentration\n- {塩分|えんぶん}{制限|せいげん}: salt restriction\n\nHEALTH NOTE:\nIn Japan, there is awareness about reducing {塩分|えんぶん} intake due to traditionally high-sodium foods like soy sauce, miso, and pickled vegetables.",
+  "notes": "{塩分|えんぶん} refers to salt content, often in the context of diet and health.\n\nCOMMON EXPRESSIONS:\n- {塩分|えんぶん}⟦を→を：00422_wo⟧⟦{控|ひか}える→控える：10054_hikaeru⟧: to cut back on salt\n- {塩分|えんぶん}⟦の→の：09472_no⟧⟦{取|と}り→取る：00565_toru⟧すぎ: excessive salt intake\n- {塩分|えんぶん}⟦{濃度|のうど}→濃度：00325_noudo⟧: salt concentration\n- {塩分|えんぶん}⟦{制限|せいげん}→制限：03375_seigen⟧: salt restriction\n\nHEALTH NOTE:\nIn Japan, there is awareness about reducing {塩分|えんぶん} intake due to traditionally high-sodium foods like soy sauce, miso, and pickled vegetables.",
   "cross_references": [
     {
       "type": "related",
@@ -45,18 +51,36 @@
       "reading": "しお",
       "headword": "{塩|しお}",
       "label": "salt"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14675_shokuen",
+      "reading": "しょくえん",
+      "headword": "{食塩|しょくえん}",
+      "label": "table salt"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25472_shiomi",
+      "reading": "しおみ",
+      "headword": "{塩味|しおみ}",
+      "label": "saltiness"
     }
   ],
   "metadata": {
     "created": "2026-02-04T10:52:33Z",
-    "modified": "2026-04-23T08:17:03Z",
+    "modified": "2026-09-02T04:01:19Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food"]
+      "semantic": [
+        "food"
+      ]
     }
   }
 }

@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "12769_tedasuke_ex1",
-      "japanese": "{手助|てだす}けが{必要|ひつよう}ですか。",
+      "japanese": "{手助|てだす}け⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧です⟦か→か：09473_ka⟧。",
       "english": "Do you need help?",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12769_tedasuke_ex2",
-      "japanese": "{友人|ゆうじん}の{手助|てだす}けで{引|ひ}っ{越|こ}しを{終|お}えた。",
+      "japanese": "⟦{友人|ゆうじん}→友人：03649_yuujin⟧⟦の→の：09472_no⟧{手助|てだす}け⟦で→で：00502_de⟧{引|ひ}っ{越|こ}し⟦を→を：00422_wo⟧⟦{終|お}えた→終える：02019_oeru⟧。",
       "english": "I finished the move with a friend's help.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12769_tedasuke_ex3",
-      "japanese": "{困|こま}っている{人|ひと}がいたら、{少|すこ}しでも{手助|てだす}けをしたいと{思|おも}う。",
+      "japanese": "⟦{困|こま}っている→困る：00861_komaru⟧⟦{人|ひと}→人：00476_hito⟧がいたら、⟦{少|すこ}し→少し：00596_sukoshi⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧{手助|てだす}け⟦を→を：00422_wo⟧⟦したい→する：00392_suru⟧⟦と→と：00512_to⟧⟦{思|おも}う→思う：00492_omou⟧。",
       "english": "If someone is in trouble, I want to lend a hand, even if just a little.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{手助|てだす}け refers to practical, personal help — the kind you give by being directly involved rather than simply giving advice or money.\n\nCOMMON COLLOCATIONS:\n- {手助|てだす}けをする: to lend a hand, to help out\n- {手助|てだす}けが{必要|ひつよう}: to need help\n- {手助|てだす}けを{求|もと}める: to ask for help\n- {手助|てだす}けになる: to be of help\n\nSIMILAR WORDS:\n- {手伝|てつだ}い: help (often used for everyday tasks; more casual)\n- {援助|えんじょ}: aid, support (formal; often institutional or financial)\n- {助力|じょりょく}: assistance (formal, literary)",
+  "notes": "{手助|てだす}け refers to practical, personal help — the kind you give by being directly involved rather than simply giving advice or money.\n\nCOMMON COLLOCATIONS:\n- {手助|てだす}け⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧: to lend a hand, to help out\n- {手助|てだす}け⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧: to need help\n- {手助|てだす}け⟦を→を：00422_wo⟧⟦{求|もと}める→求める：02316_motomeru⟧: to ask for help\n- {手助|てだす}け⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧: to be of help\n\nSIMILAR WORDS:\n- ⟦{手伝|てつだ}い→手伝い：02488_tetsudai⟧: help (often used for everyday tasks; more casual)\n- ⟦{援助|えんじょ}→援助：01892_enjo⟧: aid, support (formal; often institutional or financial)\n- ⟦{助力|じょりょく}→助力：15249_joryoku⟧: assistance (formal, literary)",
   "cross_references": [
     {
       "type": "synonym",
@@ -46,18 +52,50 @@
       "reading": "てつだい",
       "headword": "{手伝|てつだ}い",
       "label": "help (more casual, everyday)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01892_enjo",
+      "reading": "えんじょ",
+      "headword": "{援助|えんじょ}",
+      "label": "aid, support (formal"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15249_joryoku",
+      "reading": "じょりょく",
+      "headword": "{助力|じょりょく}",
+      "label": "assistance"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07776_sapooto",
+      "reading": "さぽーと",
+      "headword": "サポート",
+      "label": "support"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22446_hitodasuke",
+      "reading": "ひとだすけ",
+      "headword": "{人助|ひとだす}け",
+      "label": "helping others"
     }
   ],
   "metadata": {
     "created": "2026-02-22T10:24:01Z",
-    "modified": "2026-04-27T08:29:13Z",
+    "modified": "2026-09-02T04:01:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action"]
+      "semantic": [
+        "action"
+      ]
     }
   }
 }

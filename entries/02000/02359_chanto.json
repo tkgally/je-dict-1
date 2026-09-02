@@ -109,7 +109,7 @@
     },
     {
       "id": "02359_chanto_ex10",
-      "japanese": "ちゃんとした⟦{服|ふく}→服：00695_fuku⟧⟦を→を：00422_wo⟧⟦{着|き}→着る：00541_kiru⟧⟦なさい→なさい：09856_nasai⟧。",
+      "japanese": "ちゃんと⟦した→する：00392_suru⟧⟦{服|ふく}→服：00695_fuku⟧⟦を→を：00422_wo⟧⟦{着|き}→着る：00541_kiru⟧⟦なさい→なさい：09856_nasai⟧。",
       "english": "Wear proper clothes.",
       "notes": null,
       "has_audio": false,
@@ -128,7 +128,7 @@
       ]
     }
   ],
-  "notes": "ちゃんと is a colloquial adverb meaning \"properly\" or \"correctly.\" Very common in everyday speech.\n\nMEANINGS:\n1. Properly, correctly (doing something the right way)\n2. Reliably, without fail (dependably)\n\nCOMMON PATTERNS:\n- ちゃんと⟦{食|た}べる→食べる：00396_taberu⟧: to eat properly\n- ちゃんと⟦{聞|き}く→聞く：00483_kiku⟧: to listen properly\n- ちゃんと⟦{来|く}る→来る：00254_kuru⟧: to come without fail\n- ちゃんとした: proper, decent (modifies nouns)\n\nSIMILAR ADVERBS:\n- ⟦きちんと→きちんと：00222_kichinto⟧: properly, neatly (slightly more formal)\n- ⟦しっかり→しっかり：01272_shikkari⟧: firmly, thoroughly\n- ⟦きっちり→きっちり：10310_kicchiri⟧: precisely, exactly\n\nREGISTER:\nColloquial. Often used by parents speaking to children, but common among all ages in casual speech.\n\nEXAMPLE CONTEXTS:\n- ちゃんとした⟦{服|ふく}→服：00695_fuku⟧: proper clothes\n- ちゃんとした⟦{仕事|しごと}→仕事：00480_shigoto⟧: a proper job\n- ちゃんとした⟦{大人|おとな}→大人：02856_otona⟧: a responsible adult",
+  "notes": "ちゃんと is a colloquial adverb meaning \"properly\" or \"correctly.\" Very common in everyday speech.\n\nUSAGE:\n1. Properly, correctly (doing something the right way)\n2. Reliably, without fail (dependably)\n\nCOMMON PATTERNS:\n- ちゃんと⟦{食|た}べる→食べる：00396_taberu⟧: to eat properly\n- ちゃんと⟦{聞|き}く→聞く：00483_kiku⟧: to listen properly\n- ちゃんと⟦{来|く}る→来る：00254_kuru⟧: to come without fail\n- ちゃんと⟦した→する：00392_suru⟧: proper, decent (modifies nouns)\n\nSIMILAR WORDS:\n- ⟦きちんと→きちんと：00222_kichinto⟧: properly, neatly (slightly more formal)\n- ⟦しっかり→しっかり：01272_shikkari⟧: firmly, thoroughly\n- ⟦きっちり→きっちり：10310_kicchiri⟧: precisely, exactly\n\nREGISTER:\nColloquial. Often used by parents speaking to children, but common among all ages in casual speech.\n\nEXAMPLE CONTEXTS:\n- ちゃんと⟦した→する：00392_suru⟧⟦{服|ふく}→服：00695_fuku⟧: proper clothes\n- ちゃんと⟦した→する：00392_suru⟧⟦{仕事|しごと}→仕事：00480_shigoto⟧: a proper job\n- ちゃんと⟦した→する：00392_suru⟧⟦{大人|おとな}→大人：02856_otona⟧: a responsible adult",
   "cross_references": [
     {
       "type": "synonym",
@@ -150,11 +150,25 @@
       "reading": "きっちり",
       "headword": "きっちり",
       "label": "precisely, exactly"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23304_tadashiku",
+      "reading": "ただしく",
+      "headword": "{正|ただ}しく",
+      "label": "correctly"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25802_kichintosuru",
+      "reading": "きちんとする",
+      "headword": "きちんとする",
+      "label": "to be neat"
     }
   ],
   "metadata": {
     "created": "2026-01-09T08:27:06Z",
-    "modified": "2026-05-20T15:17:09Z",
+    "modified": "2026-09-02T04:01:01Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

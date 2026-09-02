@@ -2,7 +2,7 @@
   "id": "00208_keibi",
   "headword": "{警備|けいび}",
   "reading": "けいび",
-  "part_of_speech": "noun / suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "security, guard",
   "conjugation": {
     "type": "suru",
@@ -130,10 +130,40 @@
       ]
     }
   ],
-  "notes": "{警備|けいび} refers to security or guard duties. It can be used as a noun or as a する verb ({警備|けいび}する = to guard, to provide security).\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- No standard intransitive pair\n- Pattern: [noun]を{警備|けいび}する\n\nCommon collocations:\n- {警備|けいび}⟦を→を：00422_wo⟧⟦{強化|きょうか}する→強化する：00260_kyouka⟧ (to strengthen security)\n- {警備|けいび}⟦に→に：00314_ni⟧⟦{当|あ}たる→当たる：01860_ataru⟧ (to be on guard duty)\n- ⟦{厳重|げんじゅう}→厳重：11887_genjuu⟧な{警備|けいび} (tight security)\n- ⟦{警備員|けいびいん}→警備員：09867_keibiin⟧ (security guard)\n- ⟦{警備会社|けいびがいしゃ}→警備会社：noentry⟧ (security company)\n\nRelated words:\n- ⟦{防犯|ぼうはん}→防犯：08192_bouhan⟧ focuses on crime prevention\n- ⟦{護衛|ごえい}→護衛：14225_goei⟧ refers to escorting/bodyguard services for VIPs",
+  "notes": "{警備|けいび} refers to security or guard duties. It can be used as a noun or as a ⟦する→する：00392_suru⟧ verb ({警備|けいび}⟦する→する：00392_suru⟧ = to guard, to provide security).\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- No standard intransitive pair\n- Pattern: [noun]⟦を→を：00422_wo⟧{警備|けいび}⟦する→する：00392_suru⟧\n\nCommon collocations:\n- {警備|けいび}⟦を→を：00422_wo⟧⟦{強化|きょうか}する→強化する：00260_kyouka⟧ (to strengthen security)\n- {警備|けいび}⟦に→に：00314_ni⟧⟦{当|あ}たる→当たる：01860_ataru⟧ (to be on guard duty)\n- ⟦{厳重|げんじゅう}→厳重：11887_genjuu⟧な{警備|けいび} (tight security)\n- ⟦{警備員|けいびいん}→警備員：09867_keibiin⟧ (security guard)\n- ⟦{警備会社|けいびがいしゃ}→警備会社：noentry⟧ (security company)\n\nRelated words:\n- ⟦{防犯|ぼうはん}→防犯：08192_bouhan⟧ focuses on crime prevention\n- ⟦{護衛|ごえい}→護衛：14225_goei⟧ refers to escorting/bodyguard services for VIPs",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "08192_bouhan",
+      "reading": "ぼうはん",
+      "headword": "{防犯|ぼうはん}",
+      "label": "crime prevention"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11657_hoan",
+      "reading": "ほあん",
+      "headword": "{保安|ほあん}",
+      "label": "security, public safety"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18525_mihari",
+      "reading": "みはり",
+      "headword": "{見張|みは}り",
+      "label": "lookout"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23440_keigo",
+      "reading": "けいご",
+      "headword": "{警護|けいご}",
+      "label": "guarding"
+    }
+  ],
   "metadata": {
     "created": "2026-01-13T11:15:03Z",
-    "modified": "2026-05-09T20:11:57Z",
+    "modified": "2026-09-02T04:00:57Z",
     "ai_model": "opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

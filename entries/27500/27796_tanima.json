@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "27796_tanima_ex1",
-      "japanese": "{谷間|たにま}に{村|むら}がある。",
+      "japanese": "{谷間|たにま}⟦に→に：00314_ni⟧⟦{村|むら}→村：02261_mura⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There is a village in the valley.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "27796_tanima_ex2",
-      "japanese": "{高層|こうそう}ビルの{谷間|たにま}を{歩|ある}く。",
+      "japanese": "⟦{高層|こうそう}ビル→高層ビル：16994_kousoubiru⟧⟦の→の：09472_no⟧{谷間|たにま}⟦を→を：00422_wo⟧⟦{歩|ある}く→歩く：00538_aruku⟧。",
       "english": "To walk through the canyon between skyscrapers.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "27796_tanima_ex3",
-      "japanese": "{深|ふか}い{谷間|たにま}を{川|かわ}が{勢|いきお}いよく{流|なが}れている。",
+      "japanese": "⟦{深|ふか}い→深い：01211_fukai⟧{谷間|たにま}⟦を→を：00422_wo⟧⟦{川|かわ}→川：02186_kawa⟧⟦が→が：00051_ga⟧⟦{勢|いきお}いよく→勢いよく：26093_ikioiyoku⟧⟦{流|なが}れている→流れる：01969_nagareru⟧。",
       "english": "A river flows swiftly through the deep ravine.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Literally a valley between mountains; by extension, any narrow gap between tall things, or a low point between high points.\n\nCOMMON COLLOCATIONS:\n- ビルの{谷間|たにま}: the gap between buildings\n- {景気|けいき}の{谷間|たにま}: a trough in the economy\n- {世代|せだい}の{谷間|たにま}: a gap between generations\n\nSIMILAR WORDS:\n- {谷|たに}: valley — the basic term; {谷間|たにま} emphasizes the enclosed space within\n- {渓谷|けいこく}: a gorge or ravine — larger and more dramatic in scale",
+  "notes": "Literally a valley between mountains; by extension, any narrow gap between tall things, or a low point between high points.\n\nCOMMON COLLOCATIONS:\n- ⟦ビル→ビル：01500_biru⟧⟦の→の：09472_no⟧{谷間|たにま}: the gap between buildings\n- ⟦{景気|けいき}→景気：02694_keiki⟧⟦の→の：09472_no⟧{谷間|たにま}: a trough in the economy\n- ⟦{世代|せだい}→世代：05102_sedai⟧⟦の→の：09472_no⟧{谷間|たにま}: a gap between generations\n\nSIMILAR WORDS:\n- ⟦{谷|たに}→谷：02223_tani⟧: valley — the basic term; {谷間|たにま} emphasizes the enclosed space within\n- ⟦{渓谷|けいこく}→渓谷：10932_keikoku⟧: a gorge or ravine — larger and more dramatic in scale",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "10932_keikoku",
+      "reading": "けいこく",
+      "headword": "{渓谷|けいこく}",
+      "label": "a gorge or ravine"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24276_sankyou",
+      "reading": "さんきょう",
+      "headword": "{山峡|さんきょう}",
+      "label": "mountain gorge"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +69,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "geography",
         "nature"
@@ -61,6 +77,6 @@
       "domain": []
     },
     "created": "2026-05-19T03:07:48Z",
-    "modified": "2026-08-07T16:11:18Z"
+    "modified": "2026-09-02T04:02:31Z"
   }
 }

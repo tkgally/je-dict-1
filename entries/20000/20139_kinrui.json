@@ -15,40 +15,74 @@
   "examples": [
     {
       "id": "20139_kinrui_ex1",
-      "japanese": "きのこは{菌類|きんるい}の{一種|いっしゅ}だ。",
+      "japanese": "きのこ⟦は→は：00079_ha⟧{菌類|きんるい}⟦の→の：09472_no⟧⟦{一種|いっしゅ}→一種：01628_isshu⟧だ。",
       "english": "Mushrooms are a type of fungus.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20139_kinrui_ex2",
-      "japanese": "{菌類|きんるい}は{生態系|せいたいけい}で{重要|じゅうよう}な{役割|やくわり}を{果|は}たしている。",
+      "japanese": "{菌類|きんるい}⟦は→は：00079_ha⟧⟦{生態系|せいたいけい}→生態系：04626_seitaikei⟧⟦で→で：00502_de⟧⟦{重要|じゅうよう}→重要：01575_juuyou⟧な⟦{役割|やくわり}→役割：03638_yakuwari⟧⟦を→を：00422_wo⟧⟦{果|は}たしている→果たす：10060_hatasu⟧。",
       "english": "Fungi play an important role in the ecosystem.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20139_kinrui_ex3",
-      "japanese": "{菌類|きんるい}には{有益|ゆうえき}なものと{有害|ゆうがい}なものがある。",
+      "japanese": "{菌類|きんるい}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{有益|ゆうえき}→有益：13004_yuueki⟧なもの⟦と→と：00512_to⟧⟦{有害|ゆうがい}→有害：13002_yuugai⟧なもの⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There are both beneficial and harmful fungi.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {菌|きん} (fungus, germ, bacteria) + {類|るい} (kind, category). A scientific classification term covering all fungal organisms.\n\nCOMMON COLLOCATIONS:\n- {菌類|きんるい}の{研究|けんきゅう}: study of fungi (mycology)\n- {菌類|きんるい}が{繁殖|はんしょく}する: fungi proliferate\n- {菌類|きんるい}の{分類|ぶんるい}: classification of fungi\n- {有害|ゆうがい}{菌類|きんるい}: harmful fungi\n\nSIMILAR WORDS:\n- {細菌|さいきん}: bacteria — a different kingdom of microorganisms; often confused with fungi\n- カビ: mold — a specific type of fungus; everyday term\n- {酵母|こうぼ}: yeast — a type of single-celled fungus used in brewing and baking\n- きのこ: mushroom — the visible fruiting body of certain fungi\n\nUSAGE:\nA formal, scientific term. In everyday conversation, people are more likely to refer to specific types of fungi (きのこ for mushrooms, カビ for mold) rather than using the umbrella term {菌類|きんるい}.",
+  "notes": "Composed of ⟦{菌|きん}→菌：02682_kin⟧ (fungus, germ, bacteria) + ⟦{類|るい}→類：15121_rui⟧ (kind, category). A scientific classification term covering all fungal organisms.\n\nCOMMON COLLOCATIONS:\n- {菌類|きんるい}⟦の→の：09472_no⟧⟦{研究|けんきゅう}→研究：01396_kenkyuu⟧: study of fungi (mycology)\n- {菌類|きんるい}⟦が→が：00051_ga⟧⟦{繁殖|はんしょく}→繁殖：08671_hanshoku⟧⟦する→する：00392_suru⟧: fungi proliferate\n- {菌類|きんるい}⟦の→の：09472_no⟧⟦{分類|ぶんるい}→分類：04790_bunrui⟧: classification of fungi\n- ⟦{有害|ゆうがい}→有害：13002_yuugai⟧{菌類|きんるい}: harmful fungi\n\nSIMILAR WORDS:\n- ⟦{細菌|さいきん}→細菌：13791_saikin⟧: bacteria — a different kingdom of microorganisms; often confused with fungi\n- ⟦カビ→カビ：07055_kabi⟧: mold — a specific type of fungus; everyday term\n- {酵母|こうぼ}: yeast — a type of single-celled fungus used in brewing and baking\n- きのこ: mushroom — the visible fruiting body of certain fungi\n\nUSAGE:\nA formal, scientific term. In everyday conversation, people are more likely to refer to specific types of fungi (きのこ for mushrooms, ⟦カビ→カビ：07055_kabi⟧ for mold) rather than using the umbrella term {菌類|きんるい}.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13791_saikin",
+      "reading": "さいきん",
+      "headword": "{細菌|さいきん}",
+      "label": "bacteria"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07055_kabi",
+      "reading": "かび",
+      "headword": "カビ",
+      "label": "mold"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04994_kinoko",
+      "reading": "きのこ",
+      "headword": "{茸|きのこ}",
+      "label": "mushroom"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["science", "nature"]
+      "semantic": [
+        "science",
+        "nature"
+      ]
     },
     "created": "2026-03-28T14:20:01Z",
-    "modified": "2026-03-28T14:20:01Z"
+    "modified": "2026-09-02T04:01:58Z"
   }
 }

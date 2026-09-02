@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "10178_nyuuryokusouchi_ex1",
-      "japanese": "キーボードは{入力装置|にゅうりょくそうち}だ。",
+      "japanese": "⟦キーボード→キーボード：04410_kiiboodo⟧⟦は→は：00079_ha⟧{入力装置|にゅうりょくそうち}だ。",
       "english": "A keyboard is an input device.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "10178_nyuuryokusouchi_ex2",
-      "japanese": "{入力装置|にゅうりょくそうち}を{交換|こうかん}した。",
+      "japanese": "{入力装置|にゅうりょくそうち}⟦を→を：00422_wo⟧⟦{交換|こうかん}→交換：02746_koukan⟧⟦した→する：00392_suru⟧。",
       "english": "I replaced the input device.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "10178_nyuuryokusouchi_ex3",
-      "japanese": "マウスやタッチパッドも{入力装置|にゅうりょくそうち}の{一種|いっしゅ}です。",
+      "japanese": "⟦マウス→マウス：04413_mausu⟧や⟦タッチ→タッチ：08915_tacchi⟧パッド⟦も→も：00484_mo⟧{入力装置|にゅうりょくそうち}⟦の→の：09472_no⟧⟦{一種|いっしゅ}→一種：01628_isshu⟧です。",
       "english": "A mouse and touchpad are also types of input devices.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{入力装置|にゅうりょくそうち} is a computing term for any hardware that sends data or commands to a computer. It is a formal, technical term used in textbooks and IT contexts.\n\nWORD FORMATION:\n{入力|にゅうりょく} (input) + {装置|そうち} (device, apparatus)\n\nCOMMON EXAMPLES:\n- キーボード: keyboard\n- マウス: mouse\n- タッチパネル: touchscreen\n- マイク: microphone\n- スキャナー: scanner\n- ペンタブレット: pen tablet\n\nCONTRAST:\n- {入力装置|にゅうりょくそうち}: input device (sends data to computer)\n- {出力装置|しゅつりょくそうち}: output device (presents data from computer)\n- {記憶装置|きおくそうち}: storage device\n- {周辺機器|しゅうへんきき}: peripheral device (broader category)\n\nLike {出力装置|しゅつりょくそうち}, this is a technical umbrella term. In everyday conversation, people refer to specific devices by name.",
+  "notes": "{入力装置|にゅうりょくそうち} is a computing term for any hardware that sends data or commands to a computer. It is a formal, technical term used in textbooks and IT contexts.\n\nFORMS:\n⟦{入力|にゅうりょく}→入力：04769_nyuuryoku⟧ (input) + ⟦{装置|そうち}→装置：03318_souchi⟧ (device, apparatus)\n\nCOMMON EXAMPLES:\n- ⟦キーボード→キーボード：04410_kiiboodo⟧: keyboard\n- ⟦マウス→マウス：04413_mausu⟧: mouse\n- ⟦タッチパネル→タッチパネル：05226_tacchipaneru⟧: touchscreen\n- ⟦マイク→マイク：00267_maiku⟧: microphone\n- ⟦スキャナー→スキャナー：05248_sukyanaa⟧: scanner\n- ⟦ペン→ペン：02960_pen⟧⟦タブレット→タブレット：05281_taburetto⟧: pen tablet\n\nSIMILAR WORDS:\n- {入力装置|にゅうりょくそうち}: input device (sends data to computer)\n- ⟦{出力装置|しゅつりょくそうち}→出力装置：10179_shutsuryokusouchi⟧: output device (presents data from computer)\n- ⟦{記憶装置|きおくそうち}→記憶装置：26493_kiokusouchi⟧: storage device\n- ⟦{周辺機器|しゅうへんきき}→周辺機器：09250_shuuhenkiki⟧: peripheral device (broader category)\n\nLike ⟦{出力装置|しゅつりょくそうち}→出力装置：10179_shutsuryokusouchi⟧, this is a technical umbrella term. In everyday conversation, people refer to specific devices by name.",
   "cross_references": [
     {
       "type": "contrast",
@@ -65,11 +65,18 @@
       "reading": "しゅうへんきき",
       "headword": "{周辺機器|しゅうへんきき}",
       "label": "peripheral device"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26493_kiokusouchi",
+      "reading": "きおくそうち",
+      "headword": "{記憶装置|きおくそうち}",
+      "label": "storage device"
     }
   ],
   "metadata": {
     "created": "2026-02-05T12:58:08Z",
-    "modified": "2026-08-14T01:00:44Z",
+    "modified": "2026-09-02T04:01:20Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

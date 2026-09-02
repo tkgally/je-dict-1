@@ -15,40 +15,80 @@
   "examples": [
     {
       "id": "20649_youmou_ex1",
-      "japanese": "{羊毛|ようもう}のセーターは{暖|あたた}かい。",
+      "japanese": "{羊毛|ようもう}⟦の→の：09472_no⟧⟦セーター→セーター：01371_seetaa⟧⟦は→は：00079_ha⟧⟦{暖|あたた}かい→暖かい：00618_atatakai⟧。",
       "english": "A wool sweater is warm.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20649_youmou_ex2",
-      "japanese": "オーストラリアは{羊毛|ようもう}の{産地|さんち}として{有名|ゆうめい}だ。",
+      "japanese": "⟦オーストラリア→オーストラリア：28144_oosutoraria⟧⟦は→は：00079_ha⟧{羊毛|ようもう}⟦の→の：09472_no⟧⟦{産地|さんち}→産地：04031_sanchi⟧⟦として→として：06802_toshite⟧⟦{有名|ゆうめい}→有名：01106_yuumei⟧だ。",
       "english": "Australia is famous as a wool-producing region.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20649_youmou_ex3",
-      "japanese": "この{毛布|もうふ}は{羊毛|ようもう}100%なので{肌触|はだざわ}りがとてもいい。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{毛布|もうふ}→毛布：03630_moufu⟧⟦は→は：00079_ha⟧{羊毛|ようもう}100%な⟦の→の：09472_no⟧で⟦{肌触|はだざわ}り→肌触り：06637_hadazawari⟧⟦が→が：00051_ga⟧⟦とても→とても：00593_totemo⟧⟦いい→いい：00118_ii⟧。",
       "english": "This blanket is 100% wool, so it feels very nice against the skin.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "The standard term for sheep's wool as a raw material or textile fiber. Commonly seen on clothing labels and in descriptions of textile products.\n\nCOMMON COLLOCATIONS:\n- {羊毛|ようもう}100%: 100% wool\n- {羊毛|ようもう}フェルト: wool felt\n- {羊毛|ようもう}の{産地|さんち}: wool-producing area\n- {羊毛|ようもう}{製品|せいひん}: wool products\n- {羊毛|ようもう}を{刈|か}る: to shear wool\n\nSIMILAR WORDS:\n- ウール: wool (loanword from English; common in fashion and retail)\n- {毛糸|けいと}: knitting yarn, woolen yarn\n- {毛織物|けおりもの}: woven wool fabric",
+  "notes": "The standard term for sheep's wool as a raw material or textile fiber. Commonly seen on clothing labels and in descriptions of textile products.\n\nCOMMON COLLOCATIONS:\n- {羊毛|ようもう}100%: 100% wool\n- {羊毛|ようもう}フェルト: wool felt\n- {羊毛|ようもう}⟦の→の：09472_no⟧⟦{産地|さんち}→産地：04031_sanchi⟧: wool-producing area\n- {羊毛|ようもう}⟦{製品|せいひん}→製品：01445_seihin⟧: wool products\n- {羊毛|ようもう}⟦を→を：00422_wo⟧⟦{刈|か}る→刈る：02043_karu⟧: to shear wool\n\nSIMILAR WORDS:\n- ⟦ウール→ウール：27712_uuru⟧: wool (loanword from English; common in fashion and retail)\n- ⟦{毛糸|けいと}→毛糸：00212_keito⟧: knitting yarn, woolen yarn\n- ⟦{毛織物|けおりもの}→毛織物：15572_keorimono⟧: woven wool fabric",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "27712_uuru",
+      "reading": "うーる",
+      "headword": "ウール",
+      "label": "wool (loanword from English"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00212_keito",
+      "reading": "けいと",
+      "headword": "{毛糸|けいと}",
+      "label": "knitting yarn, woolen yarn"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15572_keorimono",
+      "reading": "けおりもの",
+      "headword": "{毛織物|けおりもの}",
+      "label": "woven wool fabric"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03807_men",
+      "reading": "めん",
+      "headword": "{綿|めん}",
+      "label": "cotton"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["material"]
+      "semantic": [
+        "material"
+      ]
     },
     "created": "2026-03-29T21:20:44Z",
-    "modified": "2026-03-29T21:20:44Z"
+    "modified": "2026-09-02T04:02:00Z"
   }
 }

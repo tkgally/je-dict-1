@@ -15,40 +15,73 @@
   "examples": [
     {
       "id": "20172_ushirogawa_ex1",
-      "japanese": "{後|うし}ろ{側|がわ}に{回|まわ}る。",
+      "japanese": "{後|うし}ろ{側|がわ}⟦に→に：00314_ni⟧⟦{回|まわ}る→回る：01150_mawaru⟧。",
       "english": "To go around to the back.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20172_ushirogawa_ex2",
-      "japanese": "{車|くるま}の{後|うし}ろ{側|がわ}に{傷|きず}がある。",
+      "japanese": "⟦{車|くるま}→車：00516_kuruma⟧⟦の→の：09472_no⟧{後|うし}ろ{側|がわ}⟦に→に：00314_ni⟧⟦{傷|きず}→傷：02201_kizu⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There's a scratch on the back of the car.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20172_ushirogawa_ex3",
-      "japanese": "{会場|かいじょう}の{後|うし}ろ{側|がわ}の{席|せき}はまだ{空|あ}いている。",
+      "japanese": "⟦{会場|かいじょう}→会場：01269_kaijou⟧⟦の→の：09472_no⟧{後|うし}ろ{側|がわ}⟦の→の：09472_no⟧⟦{席|せき}→席：02215_seki⟧⟦は→は：00079_ha⟧⟦まだ→まだ：00603_mada⟧⟦{空|あ}いている→空く：11062_aku⟧。",
       "english": "The seats at the back of the venue are still available.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {後|うし}ろ (behind, back) and {側|がわ} (side). Part of the directional {側|がわ} series along with {前側|まえがわ} (front side), {右側|みぎがわ} (right side), {左側|ひだりがわ} (left side).\n\nCOMMON COLLOCATIONS:\n- {後|うし}ろ{側|がわ}の{席|せき} — back seat\n- {後|うし}ろ{側|がわ}から{見|み}る — to look from behind\n- {建物|たてもの}の{後|うし}ろ{側|がわ} — the back of a building\n\nSIMILAR WORDS:\n- {背面|はいめん} — back surface, rear (more formal/technical)\n- {裏側|うらがわ} — reverse side, back side (for flat objects, or hidden side)\n- {前側|まえがわ} — front side (antonym)",
+  "notes": "A compound of ⟦{後|うし}ろ→後ろ：00683_ushiro⟧ (behind, back) and ⟦{側|がわ}→〜側：03090_gawa⟧ (side). Part of the directional ⟦{側|がわ}→〜側：03090_gawa⟧ series along with ⟦{前側|まえがわ}→前側：20171_maegawa⟧ (front side), ⟦{右側|みぎがわ}→右側：24189_migigawa⟧ (right side), ⟦{左側|ひだりがわ}→左側：22836_hidarigawa⟧ (left side).\n\nCOMMON COLLOCATIONS:\n- {後|うし}ろ{側|がわ}⟦の→の：09472_no⟧⟦{席|せき}→席：02215_seki⟧ — back seat\n- {後|うし}ろ{側|がわ}⟦から→から：00504_kara⟧⟦{見|み}る→見る：00283_miru⟧ — to look from behind\n- ⟦{建物|たてもの}→建物：01458_tatemono⟧⟦の→の：09472_no⟧{後|うし}ろ{側|がわ} — the back of a building\n\nSIMILAR WORDS:\n- ⟦{背面|はいめん}→背面：20610_haimen⟧ — back surface, rear (more formal/technical)\n- ⟦{裏側|うらがわ}→裏側：03042_uragawa⟧ — reverse side, back side (for flat objects, or hidden side)\n- ⟦{前側|まえがわ}→前側：20171_maegawa⟧ — front side (antonym)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20610_haimen",
+      "reading": "はいめん",
+      "headword": "{背面|はいめん}",
+      "label": "back surface, rear"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03042_uragawa",
+      "reading": "うらがわ",
+      "headword": "{裏側|うらがわ}",
+      "label": "reverse side, back side"
+    },
+    {
+      "type": "antonym",
+      "target_id": "20171_maegawa",
+      "reading": "まえがわ",
+      "headword": "{前側|まえがわ}",
+      "label": "front side"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["position"]
+      "semantic": [
+        "position"
+      ]
     },
     "created": "2026-03-28T15:12:49Z",
-    "modified": "2026-03-28T15:12:49Z"
+    "modified": "2026-09-02T04:01:58Z"
   }
 }

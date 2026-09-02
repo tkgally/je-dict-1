@@ -15,40 +15,73 @@
   "examples": [
     {
       "id": "21402_shingakunen_ex1",
-      "japanese": "{新学年|しんがくねん}が{始|はじ}まった。",
+      "japanese": "{新学年|しんがくねん}⟦が→が：00051_ga⟧⟦{始|はじ}まった→始まる：00841_hajimaru⟧。",
       "english": "The new school year has started.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21402_shingakunen_ex2",
-      "japanese": "{新学年|しんがくねん}に{向|む}けて{教科書|きょうかしょ}を{準備|じゅんび}する。",
+      "japanese": "{新学年|しんがくねん}⟦に→に：00314_ni⟧⟦{向|む}けて→向ける：02306_mukeru⟧⟦{教科書|きょうかしょ}→教科書：01085_kyoukasho⟧⟦を→を：00422_wo⟧⟦{準備|じゅんび}する→準備する：22427_junbisuru⟧。",
       "english": "I'm preparing textbooks for the new school year.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21402_shingakunen_ex3",
-      "japanese": "{四月|しがつ}の{新学年|しんがくねん}から{新|あたら}しいクラスになって、{友達|ともだち}も{変|か}わった。",
+      "japanese": "⟦{四月|しがつ}→四月：00668_shigatsu⟧⟦の→の：09472_no⟧{新学年|しんがくねん}⟦から→から：00504_kara⟧⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦クラス→クラス：01084_kurasu⟧になって、⟦{友達|ともだち}→友達：01478_tomodachi⟧⟦も→も：00484_mo⟧⟦{変|か}わった→変わる：00714_kawaru⟧。",
       "english": "Starting from the new school year in April, I was put in a new class, and my friends changed too.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "In Japan, the academic year ({学年|がくねん}) starts in April and ends in March, unlike many Western countries where it begins in September. The start of the {新学年|しんがくねん} coincides with cherry blossom season and is a significant cultural milestone.\n\nCOMMON COLLOCATIONS:\n- {新学年|しんがくねん}が{始|はじ}まる: the new school year begins\n- {新学年|しんがくねん}に{向|む}けて: in preparation for the new school year\n- {新学年|しんがくねん}の{準備|じゅんび}: preparations for the new school year\n\nRELATED TERMS:\n- {新学期|しんがっき}: new school term — refers to the start of a new term/semester within the year\n- {入学式|にゅうがくしき}: school entrance ceremony — held at the beginning of the school year for new students\n- {始業式|しぎょうしき}: opening ceremony — marks the start of a new term for returning students",
+  "notes": "In Japan, the academic year (⟦{学年|がくねん}→学年：00056_gakunen⟧) starts in April and ends in March, unlike many Western countries where it begins in September. The start of the {新学年|しんがくねん} coincides with cherry blossom season and is a significant cultural milestone.\n\nCOMMON COLLOCATIONS:\n- {新学年|しんがくねん}⟦が→が：00051_ga⟧⟦{始|はじ}まる→始まる：00841_hajimaru⟧: the new school year begins\n- {新学年|しんがくねん}⟦に→に：00314_ni⟧⟦{向|む}けて→向ける：02306_mukeru⟧: in preparation for the new school year\n- {新学年|しんがくねん}⟦の→の：09472_no⟧⟦{準備|じゅんび}→準備：01431_junbi⟧: preparations for the new school year\n\nRELATED WORDS:\n- ⟦{新学期|しんがっき}→新学期：16070_shingakki⟧: new school term — refers to the start of a new term/semester within the year\n- ⟦{入学式|にゅうがくしき}→入学式：05495_nyuugakushiki⟧: school entrance ceremony — held at the beginning of the school year for new students\n- ⟦{始業式|しぎょうしき}→始業式：08555_shigyoushiki⟧: opening ceremony — marks the start of a new term for returning students",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "16070_shingakki",
+      "reading": "しんがっき",
+      "headword": "{新学期|しんがっき}",
+      "label": "new school term"
+    },
+    {
+      "type": "related",
+      "target_id": "05495_nyuugakushiki",
+      "reading": "にゅうがくしき",
+      "headword": "{入学式|にゅうがくしき}",
+      "label": "school entrance ceremony"
+    },
+    {
+      "type": "related",
+      "target_id": "08555_shigyoushiki",
+      "reading": "しぎょうしき",
+      "headword": "{始業式|しぎょうしき}",
+      "label": "opening ceremony"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["education"]
+      "semantic": [
+        "education"
+      ]
     },
     "created": "2026-04-02T02:49:12Z",
-    "modified": "2026-04-02T02:49:12Z"
+    "modified": "2026-09-02T04:02:03Z"
   }
 }

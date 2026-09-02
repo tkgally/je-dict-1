@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22302_fusenpai_ex1",
-      "japanese": "{怪我|けが}で{不戦敗|ふせんぱい}になった。",
+      "japanese": "{怪我|けが}⟦で→で：00502_de⟧{不戦敗|ふせんぱい}になった。",
       "english": "I lost by default due to an injury.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22302_fusenpai_ex2",
-      "japanese": "{相手|あいて}チームが{来|こ}なかったので{不戦敗|ふせんぱい}となった。",
+      "japanese": "⟦{相手|あいて}→相手：01677_aite⟧⟦チーム→チーム：03858_chiimu⟧⟦が→が：00051_ga⟧⟦{来|こ}なかった→来る：00254_kuru⟧⟦の→の：09472_no⟧で{不戦敗|ふせんぱい}⟦と→と：00512_to⟧⟦なった→なる：01970_naru⟧。",
       "english": "The opposing team didn't show up, so it was a forfeit.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22302_fusenpai_ex3",
-      "japanese": "{大関|おおぜき}が{体調不良|たいちょうふりょう}で{休場|きゅうじょう}し、{今日|きょう}の{取組|とりくみ}は{不戦敗|ふせんぱい}となった。",
+      "japanese": "⟦{大関|おおぜき}→大関：12662_oozeki⟧⟦が→が：00051_ga⟧⟦{体調不良|たいちょうふりょう}→体調不良：20233_taichoufuryou⟧⟦で→で：00502_de⟧{休場|きゅうじょう}し、⟦{今日|きょう}→今日：00496_kyou⟧⟦の→の：09472_no⟧{取組|とりくみ}⟦は→は：00079_ha⟧{不戦敗|ふせんぱい}⟦と→と：00512_to⟧⟦なった→なる：01970_naru⟧。",
       "english": "The ōzeki withdrew due to poor health, and today's bout was recorded as a loss by default.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {不戦|ふせん} (without fighting) and {敗|はい} (defeat). Commonly used in sumo, martial arts, and other competitive sports. The opposite is {不戦勝|ふせんしょう} (win by default).\n\nCOMMON COLLOCATIONS:\n- {不戦敗|ふせんぱい}になる: to lose by default\n- {不戦敗|ふせんぱい}が{付|つ}く: to have a default loss recorded\n- {不戦敗|ふせんぱい}を{喫|きっ}する: to suffer a forfeit loss\n\nSIMILAR WORDS:\n- {不戦勝|ふせんしょう}: win by default — the counterpart; a win without fighting\n- {棄権|きけん}: withdrawal, abstention — the act of withdrawing from a competition, which often causes a {不戦敗|ふせんぱい}\n- {反則負|はんそくま}け: loss by foul — losing due to a rule violation during an actual match",
+  "notes": "Compound of ⟦{不戦|ふせん}→不戦：24628_fusen⟧ (without fighting) and {敗|はい} (defeat). Commonly used in sumo, martial arts, and other competitive sports. The opposite is ⟦{不戦勝|ふせんしょう}→不戦勝：08409_fusenshou⟧ (win by default).\n\nCOMMON COLLOCATIONS:\n- {不戦敗|ふせんぱい}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧: to lose by default\n- {不戦敗|ふせんぱい}⟦が→が：00051_ga⟧⟦{付|つ}く→付く：01960_tsuku⟧: to have a default loss recorded\n- {不戦敗|ふせんぱい}⟦を→を：00422_wo⟧⟦{喫|きっ}する→喫する：29124_kissuru⟧: to suffer a forfeit loss\n\nSIMILAR WORDS:\n- ⟦{不戦勝|ふせんしょう}→不戦勝：08409_fusenshou⟧: win by default — the counterpart; a win without fighting\n- ⟦{棄権|きけん}→棄権：16194_kiken⟧: withdrawal, abstention — the act of withdrawing from a competition, which often causes a {不戦敗|ふせんぱい}\n- ⟦{反則負|はんそくま}け→反則負け：22305_hansokumake⟧: loss by foul — losing due to a rule violation during an actual match",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -59,7 +59,7 @@
       ]
     },
     "created": "2026-04-05T17:03:27Z",
-    "modified": "2026-04-20T07:13:52Z"
+    "modified": "2026-09-02T04:02:07Z"
   },
   "cross_references": [
     {
@@ -68,6 +68,20 @@
       "reading": "ふせんしょう",
       "headword": "{不戦勝|ふせんしょう}",
       "label": "win by default"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16194_kiken",
+      "reading": "きけん",
+      "headword": "{棄権|きけん}",
+      "label": "withdrawal, abstention"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22305_hansokumake",
+      "reading": "はんそくまけ",
+      "headword": "{反則負|はんそくま}け",
+      "label": "loss by foul"
     }
   ]
 }

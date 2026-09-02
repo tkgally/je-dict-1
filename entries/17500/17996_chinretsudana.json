@@ -15,41 +15,59 @@
   "examples": [
     {
       "id": "17996_chinretsudana_ex1",
-      "japanese": "{陳列棚|ちんれつだな}に{商品|しょうひん}を{並|なら}べる。",
+      "japanese": "{陳列棚|ちんれつだな}⟦に→に：00314_ni⟧⟦{商品|しょうひん}→商品：01436_shouhin⟧⟦を→を：00422_wo⟧⟦{並|なら}べる→並べる：01091_naraberu⟧。",
       "english": "To arrange products on the display shelf.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17996_chinretsudana_ex2",
-      "japanese": "{陳列棚|ちんれつだな}の{上|うえ}の{段|だん}にある{本|ほん}に{手|て}が{届|とど}かない。",
+      "japanese": "{陳列棚|ちんれつだな}⟦の→の：09472_no⟧⟦{上|うえ}→上：00682_ue⟧⟦の→の：09472_no⟧⟦{段|だん}→段：03424_dan⟧⟦に→に：00314_ni⟧⟦ある→ある：00006_aru⟧{本|ほん}⟦に→に：00314_ni⟧⟦{手|て}→手：00569_te⟧⟦が→が：00051_ga⟧⟦{届|とど}かない→届く：00899_todoku⟧。",
       "english": "I can't reach the books on the upper shelf of the display rack.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17996_chinretsudana_ex3",
-      "japanese": "{新商品|しんしょうひん}を{目立|めだ}つ{位置|いち}の{陳列棚|ちんれつだな}に{配置|はいち}して、{売|う}り{上|あ}げを{伸|の}ばした。",
+      "japanese": "⟦{新商品|しんしょうひん}→新商品：11504_shinshouhin⟧⟦を→を：00422_wo⟧⟦{目立|めだ}つ→目立つ：02431_medatsu⟧⟦{位置|いち}→位置：11554_ichi⟧⟦の→の：09472_no⟧{陳列棚|ちんれつだな}⟦に→に：00314_ni⟧⟦{配置|はいち}→配置：14409_haichi⟧⟦して→する：00392_suru⟧、{売|う}り{上|あ}げ⟦を→を：00422_wo⟧⟦{伸|の}ばした→伸ばす：01973_nobasu⟧。",
       "english": "We placed the new products on a display shelf in a prominent location and increased sales.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nUsed in retail and exhibition contexts. The base word {陳列|ちんれつ} means display or exhibition. More formal than simply saying {棚|たな} (shelf).\n\nCOMMON COLLOCATIONS:\n- {陳列棚|ちんれつだな}に{並|なら}べる (to line up on a display shelf)\n- {陳列棚|ちんれつだな}を{整理|せいり}する (to organize the display shelf)\n- {陳列棚|ちんれつだな}から{取|と}る (to take from the display shelf)\n\nSIMILAR WORDS:\n- ショーケース: showcase — an enclosed glass display case\n- {棚|たな}: shelf — the general word for any shelf",
-  "cross_references": [],
+  "notes": "USAGE:\nUsed in retail and exhibition contexts. The base word ⟦{陳列|ちんれつ}→陳列：17560_chinretsu⟧ means display or exhibition. More formal than simply saying ⟦{棚|たな}→棚：01650_tana⟧ (shelf).\n\nCOMMON COLLOCATIONS:\n- {陳列棚|ちんれつだな}⟦に→に：00314_ni⟧⟦{並|なら}べる→並べる：01091_naraberu⟧ (to line up on a display shelf)\n- {陳列棚|ちんれつだな}⟦を→を：00422_wo⟧⟦{整理|せいり}する→整理する：21729_seirisuru⟧ (to organize the display shelf)\n- {陳列棚|ちんれつだな}⟦から→から：00504_kara⟧⟦{取|と}る→取る：00565_toru⟧ (to take from the display shelf)\n\nSIMILAR WORDS:\n- ⟦ショーケース→ショーケース：17995_shookeesu⟧: showcase — an enclosed glass display case\n- ⟦{棚|たな}→棚：01650_tana⟧: shelf — the general word for any shelf",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17995_shookeesu",
+      "reading": "しょーけーす",
+      "headword": "ショーケース",
+      "label": "showcase"
+    }
+  ],
   "metadata": {
     "created": "2026-03-19T11:50:19Z",
-    "modified": "2026-03-19T11:50:19Z",
+    "modified": "2026-09-02T04:01:50Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["furniture"]
+      "semantic": [
+        "furniture"
+      ]
     }
   }
 }

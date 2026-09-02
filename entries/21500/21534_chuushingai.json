@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "21534_chuushingai_ex1",
-      "japanese": "{中心街|ちゅうしんがい}まで{歩|ある}いた。",
+      "japanese": "{中心街|ちゅうしんがい}⟦まで→まで：00490_made⟧⟦{歩|ある}いた→歩く：00538_aruku⟧。",
       "english": "I walked to the city center.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "21534_chuushingai_ex2",
-      "japanese": "{中心街|ちゅうしんがい}には{店|みせ}が{多|おお}い。",
+      "japanese": "{中心街|ちゅうしんがい}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{店|みせ}→店：00497_mise⟧⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "There are many shops in the downtown area.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "21534_chuushingai_ex3",
-      "japanese": "{中心街|ちゅうしんがい}の{再開発|さいかいはつ}が{進|すす}んで、{新|あたら}しいビルが{次々|つぎつぎ}と{建|た}っている。",
+      "japanese": "{中心街|ちゅうしんがい}⟦の→の：09472_no⟧⟦{再開発|さいかいはつ}→再開発：17066_saikaihatsu⟧⟦が→が：00051_ga⟧⟦{進|すす}んで→進む：01225_susumu⟧、⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦ビル→ビル：01500_biru⟧⟦が→が：00051_ga⟧⟦{次々|つぎつぎ}→次々：03522_tsugitsugi⟧⟦と→と：00512_to⟧⟦{建|た}っている→建つ：12544_tatsu⟧。",
       "english": "Redevelopment of the city center is underway, and new buildings are going up one after another.",
       "sense_numbers": [
         1
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {中心|ちゅうしん} (center) + {街|がい} (town, street area). Refers to the main commercial and entertainment hub of a city.\n\nCOMMON COLLOCATIONS:\n- {中心街|ちゅうしんがい}の{再開発|さいかいはつ}: downtown redevelopment\n- {中心街|ちゅうしんがい}に{住|す}む: to live downtown\n- {中心街|ちゅうしんがい}の{活性化|かっせいか}: revitalization of the city center\n- {中心街|ちゅうしんがい}から{離|はな}れた: away from the center\n\nSIMILAR WORDS:\n- {繁華街|はんかがい}: entertainment district — specifically the bustling, bright area with shops and nightlife\n- {都心|としん}: city center — specifically the center of a large metropolis like Tokyo\n- {商店街|しょうてんがい}: shopping street — a specific street or arcade lined with shops\n- {市街地|しがいち}: urban area — the built-up area of a city in general\n- ダウンタウン: downtown — the English loanword, also used in Japanese",
+  "notes": "Compound of ⟦{中心|ちゅうしん}→中心：01467_chuushin⟧ (center) + {街|がい} (town, street area). Refers to the main commercial and entertainment hub of a city.\n\nCOMMON COLLOCATIONS:\n- {中心街|ちゅうしんがい}⟦の→の：09472_no⟧⟦{再開発|さいかいはつ}→再開発：17066_saikaihatsu⟧: downtown redevelopment\n- {中心街|ちゅうしんがい}⟦に→に：00314_ni⟧⟦{住|す}む→住む：00673_sumu⟧: to live downtown\n- {中心街|ちゅうしんがい}⟦の→の：09472_no⟧⟦{活性化|かっせいか}→活性化：07563_kasseika⟧: revitalization of the city center\n- {中心街|ちゅうしんがい}⟦から→から：00504_kara⟧⟦{離|はな}れた→離れる：02397_hanareru⟧: away from the center\n\nSIMILAR WORDS:\n- ⟦{繁華街|はんかがい}→繁華街：09392_hankagai⟧: entertainment district — specifically the bustling, bright area with shops and nightlife\n- ⟦{都心|としん}→都心：04072_toshin⟧: city center — specifically the center of a large metropolis like Tokyo\n- ⟦{商店街|しょうてんがい}→商店街：09391_shoutengai⟧: shopping street — a specific street or arcade lined with shops\n- ⟦{市街地|しがいち}→市街地：17083_shigaichi⟧: urban area — the built-up area of a city in general\n- ダウンタウン: downtown — the English loanword, also used in Japanese",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09392_hankagai",
+      "reading": "はんかがい",
+      "headword": "{繁華街|はんかがい}",
+      "label": "entertainment district"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04072_toshin",
+      "reading": "としん",
+      "headword": "{都心|としん}",
+      "label": "city center"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09391_shoutengai",
+      "reading": "しょうてんがい",
+      "headword": "{商店街|しょうてんがい}",
+      "label": "shopping street"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17083_shigaichi",
+      "reading": "しがいち",
+      "headword": "{市街地|しがいち}",
+      "label": "urban area"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +89,6 @@
       ]
     },
     "created": "2026-04-02T15:23:52Z",
-    "modified": "2026-07-29T12:35:11Z"
+    "modified": "2026-09-02T04:02:04Z"
   }
 }

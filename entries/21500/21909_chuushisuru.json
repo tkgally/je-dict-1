@@ -3,8 +3,52 @@
   "id": "21909_chuushisuru",
   "headword": "{中止|ちゅうし}する",
   "reading": "ちゅうしする",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "to cancel; to call off; to discontinue",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02517_enkisuru",
+      "reading": "えんきする",
+      "headword": "{延期|えんき}する",
+      "label": "to postpone"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12483_haishi",
+      "reading": "はいし",
+      "headword": "{廃止|はいし}",
+      "label": "to abolish"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04224_torikesu",
+      "reading": "とりけす",
+      "headword": "{取|と}り{消|け}す",
+      "label": "to cancel, revoke"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04067_teishi",
+      "reading": "ていし",
+      "headword": "{停止|ていし}",
+      "label": "stoppage, suspension, halt"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20992_teishisuru",
+      "reading": "ていしする",
+      "headword": "{停止|ていし}する",
+      "label": "to stop"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27006_kyuushisuru",
+      "reading": "きゅうしする",
+      "headword": "{休止|きゅうし}する",
+      "label": "to suspend"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -12,15 +56,16 @@
         "noun",
         "verb-suru"
       ],
+      "politeness": "plain",
       "semantic": [
         "action"
       ],
       "verb_class": "suru"
     },
     "created": "2026-04-03T21:26:44Z",
-    "modified": "2026-04-03T21:26:44Z"
+    "modified": "2026-09-02T04:02:05Z"
   },
-  "notes": "A very common word for canceling or stopping something that was planned or in progress. Often used with になる in the passive-like construction {中止|ちゅうし}になる (to be canceled). Can refer to both permanent cancellation and temporary suspension.\n\nCOMMON COLLOCATIONS:\n- {中止|ちゅうし}になる: to be canceled\n- {中止|ちゅうし}を{決定|けってい}する: to decide on cancellation\n- {一時|いちじ}{中止|ちゅうし}: temporary halt\n- {中止|ちゅうし}{命令|めいれい}: stop order, cease order\n- {開催|かいさい}{中止|ちゅうし}: cancellation of an event\n\nUSAGE:\n{中止|ちゅうし}する is transitive (someone cancels something), while {中止|ちゅうし}になる describes the result (something gets canceled). The になる form is more common in announcements and news.\n\nSIMILAR WORDS:\n- キャンセルする: to cancel — more casual; commonly used for reservations and personal plans\n- {延期|えんき}する: to postpone — not canceling but moving to a later date\n- {廃止|はいし}する: to abolish — permanently ending a system, practice, or regulation\n- {取|と}り{消|け}す: to cancel, revoke — often used for official decisions, approvals, or orders",
+  "notes": "A very common word for canceling or stopping something that was planned or in progress. Often used with ⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧ in the passive-like construction ⟦{中止|ちゅうし}→中止：03481_chuushi⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧ (to be canceled). Can refer to both permanent cancellation and temporary suspension.\n\nCOMMON COLLOCATIONS:\n- ⟦{中止|ちゅうし}→中止：03481_chuushi⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧: to be canceled\n- ⟦{中止|ちゅうし}→中止：03481_chuushi⟧⟦を→を：00422_wo⟧⟦{決定|けってい}する→決定する：21022_ketteisuru⟧: to decide on cancellation\n- ⟦{一時|いちじ}→一時：01799_ichiji⟧⟦{中止|ちゅうし}→中止：03481_chuushi⟧: temporary halt\n- ⟦{中止|ちゅうし}→中止：03481_chuushi⟧⟦{命令|めいれい}→命令：03754_meirei⟧: stop order, cease order\n- ⟦{開催|かいさい}→開催：10457_kaisai⟧⟦{中止|ちゅうし}→中止：03481_chuushi⟧: cancellation of an event\n\nUSAGE:\n{中止|ちゅうし}する is transitive (someone cancels something), while ⟦{中止|ちゅうし}→中止：03481_chuushi⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧ describes the result (something gets canceled). The ⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧ form is more common in announcements and news.\n\nSIMILAR WORDS:\n- ⟦キャンセル→キャンセル：06776_kyanseru⟧⟦する→する：00392_suru⟧: to cancel — more casual; commonly used for reservations and personal plans\n- ⟦{延期|えんき}する→延期する：02517_enkisuru⟧: to postpone — not canceling but moving to a later date\n- ⟦{廃止|はいし}→廃止：12483_haishi⟧⟦する→する：00392_suru⟧: to abolish — permanently ending a system, practice, or regulation\n- ⟦{取|と}り{消|け}す→取り消す：04224_torikesu⟧: to cancel, revoke — often used for official decisions, approvals, or orders",
   "conjugation": {
     "type": "suru",
     "forms": [
@@ -121,7 +166,7 @@
   "examples": [
     {
       "id": "21909_chuushisuru_ex1",
-      "japanese": "{雨|あめ}で{試合|しあい}が{中止|ちゅうし}になった。",
+      "japanese": "⟦{雨|あめ}→雨：00583_ame⟧⟦で→で：00502_de⟧⟦{試合|しあい}→試合：01601_shiai⟧⟦が→が：00051_ga⟧⟦{中止|ちゅうし}→中止：03481_chuushi⟧になった。",
       "english": "The game was canceled due to rain.",
       "sense_numbers": [
         1
@@ -131,7 +176,7 @@
     },
     {
       "id": "21909_chuushisuru_ex2",
-      "japanese": "{工事|こうじ}を{一時|いちじ}{中止|ちゅうし}する。",
+      "japanese": "⟦{工事|こうじ}→工事：00244_kouji⟧⟦を→を：00422_wo⟧⟦{一時|いちじ}→一時：01799_ichiji⟧{中止|ちゅうし}する。",
       "english": "To temporarily halt the construction.",
       "sense_numbers": [
         1
@@ -141,7 +186,7 @@
     },
     {
       "id": "21909_chuushisuru_ex3",
-      "japanese": "{安全|あんぜん}{上|じょう}の{理由|りゆう}でイベントの{開催|かいさい}を{中止|ちゅうし}した。",
+      "japanese": "⟦{安全|あんぜん}→安全：01131_anzen⟧⟦{上|じょう}→〜上：30365_jou⟧⟦の→の：09472_no⟧⟦{理由|りゆう}→理由：01102_riyuu⟧⟦で→で：00502_de⟧⟦イベント→イベント：09594_ibento⟧⟦の→の：09472_no⟧⟦{開催|かいさい}→開催：10457_kaisai⟧⟦を→を：00422_wo⟧{中止|ちゅうし}した。",
       "english": "The event was canceled for safety reasons.",
       "sense_numbers": [
         1
@@ -151,7 +196,7 @@
     },
     {
       "id": "21909_chuushisuru_ex4",
-      "japanese": "{副作用|ふくさよう}が{出|で}たため、{薬|くすり}の{服用|ふくよう}を{中止|ちゅうし}するよう{医師|いし}から{指示|しじ}された。",
+      "japanese": "⟦{副作用|ふくさよう}→副作用：05015_fukusayou⟧⟦が→が：00051_ga⟧⟦{出|で}た→出る：00513_deru⟧⟦ため→ため：01145_tame⟧、⟦{薬|くすり}→薬：00793_kusuri⟧⟦の→の：09472_no⟧⟦{服用|ふくよう}→服用：15267_fukuyou⟧⟦を→を：00422_wo⟧{中止|ちゅうし}するよう⟦{医師|いし}→医師：11851_ishi⟧⟦から→から：00504_kara⟧⟦{指示|しじ}→指示：09674_shiji⟧⟦された→する：00392_suru⟧。",
       "english": "Because side effects appeared, the doctor instructed me to discontinue the medication.",
       "sense_numbers": [
         1

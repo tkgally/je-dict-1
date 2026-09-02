@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "19157_kuten_ex1",
-      "japanese": "{文|ぶん}の{終|お}わりに{句点|くてん}を{打|う}つ。",
+      "japanese": "⟦{文|ぶん}→文：03716_bun⟧⟦の→の：09472_no⟧⟦{終|お}わり→終わり：01361_owari⟧⟦に→に：00314_ni⟧{句点|くてん}⟦を→を：00422_wo⟧⟦{打|う}つ→打つ：01221_utsu⟧。",
       "english": "Place a period at the end of a sentence.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19157_kuten_ex2",
-      "japanese": "{句点|くてん}と{読点|とうてん}の{使|つか}い{方|かた}を{習|なら}った。",
+      "japanese": "{句点|くてん}⟦と→と：00512_to⟧⟦{読点|とうてん}→読点：16992_touten⟧⟦の→の：09472_no⟧⟦{使|つか}い{方|かた}→使い方：07797_tsukaikata⟧⟦を→を：00422_wo⟧⟦{習|なら}った→習う：00479_narau⟧。",
       "english": "I learned how to use periods and commas.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "19157_kuten_ex3",
-      "japanese": "メッセージアプリでは{句点|くてん}を{付|つ}けない{人|ひと}が{増|ふ}えている。",
+      "japanese": "⟦メッセージ→メッセージ：03828_messeeji⟧⟦アプリ→アプリ：04722_apuri⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧{句点|くてん}⟦を→を：00422_wo⟧⟦{付|つ}けない→付ける：00761_tsukeru⟧⟦{人|ひと}→人：00476_hito⟧⟦が→が：00051_ga⟧⟦{増|ふ}えている→増える：01183_fueru⟧。",
       "english": "More and more people don't use periods in messaging apps.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "The Japanese period is 。(a small circle), not a dot like in English. Common collocations: {句点|くてん}を{打|う}つ (to put a period), {句点|くてん}を{付|つ}ける (to add a period). The pair of {句点|くてん} (period) and {読点|とうてん} (comma、) are together called {句読点|くとうてん} (punctuation marks). In modern messaging, younger Japanese speakers often omit {句点|くてん} in casual texts, as ending with 。 can feel cold or distant.",
+  "notes": "The Japanese period is 。(a small circle), not a dot like in English. Common collocations: {句点|くてん}⟦を→を：00422_wo⟧⟦{打|う}つ→打つ：01221_utsu⟧ (to put a period), {句点|くてん}⟦を→を：00422_wo⟧⟦{付|つ}ける→付ける：00761_tsukeru⟧ (to add a period). The pair of {句点|くてん} (period) and ⟦{読点|とうてん}→読点：16992_touten⟧ (comma、) are together called ⟦{句読点|くとうてん}→句読点：08650_kutouten⟧ (punctuation marks). In modern messaging, younger Japanese speakers often omit {句点|くてん} in casual texts, as ending with 。 can feel cold or distant.",
   "prominent_see_also": [
     {
       "target_id": "16992_touten",
@@ -54,18 +60,29 @@
       "reading": "くとうてん",
       "headword": "{句読点|くとうてん}",
       "label": "punctuation marks (combined)"
+    },
+    {
+      "type": "related",
+      "target_id": "20765_nakaguro",
+      "reading": "なかぐろ",
+      "headword": "{中黒|なかぐろ}",
+      "label": "interpunct"
     }
   ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["education"]
+      "semantic": [
+        "education"
+      ]
     },
     "created": "2026-03-24T11:24:13Z",
-    "modified": "2026-05-05T07:03:24Z"
+    "modified": "2026-09-02T04:01:54Z"
   }
 }

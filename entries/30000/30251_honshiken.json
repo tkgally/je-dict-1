@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30251_honshiken_ex1",
-      "japanese": "{本試験|ほんしけん}は{来月|らいげつ}だ。",
+      "japanese": "{本試験|ほんしけん}⟦は→は：00079_ha⟧⟦{来月|らいげつ}→来月：00744_raigetsu⟧だ。",
       "english": "The actual exam is next month.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30251_honshiken_ex2",
-      "japanese": "{模擬|もぎ}{試験|しけん}より{本試験|ほんしけん}のほうが{難|むずか}しかった。",
+      "japanese": "⟦{模擬|もぎ}{試験|しけん}→模擬試験：18219_mogishiken⟧⟦より→より：09476_yori⟧{本試験|ほんしけん}⟦の→の：09472_no⟧ほう⟦が→が：00051_ga⟧⟦{難|むずか}しかった→難しい：00517_muzukashii⟧。",
       "english": "The actual exam was harder than the mock exam.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30251_honshiken_ex3",
-      "japanese": "{本試験|ほんしけん}を{受|う}けられなかった{学生|がくせい}は、{追試|ついし}を{受|う}けることになっている。",
+      "japanese": "{本試験|ほんしけん}⟦を→を：00422_wo⟧⟦{受|う}けられなかった→受ける：01215_ukeru⟧⟦{学生|がくせい}→学生：00610_gakusei⟧⟦は→は：00079_ha⟧、⟦{追試|ついし}→追試：09971_tsuishi⟧⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧ことになっている。",
       "english": "Students who could not sit the actual exam are to take a makeup test.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "{本|ほん} (main, actual, this very) + {試験|しけん} (examination). The same {本|ほん} appears in {本番|ほんばん} (the real performance) and {本大会|ほんたいかい} (the main tournament).\n\nCOMMON COLLOCATIONS:\n- {本試験|ほんしけん}を{受|う}ける: to sit the actual exam\n- {本試験|ほんしけん}に{向|む}けて: in preparation for the actual exam\n- {本試験|ほんしけん}{当日|とうじつ}: the day of the exam\n\nSIMILAR WORDS:\n- {追試|ついし}: makeup exam — taken later by those who missed or failed the main one\n- {模擬試験|もぎしけん}: mock exam — practice under exam conditions, results do not count\n- {本番|ほんばん}: the real thing — broader, used of performances and live broadcasts as well as tests",
+  "notes": "{本|ほん} (main, actual, this very) + ⟦{試験|しけん}→試験：01422_shiken⟧ (examination). The same {本|ほん} appears in ⟦{本番|ほんばん}→本番：19392_honban⟧ (the real performance) and {本大会|ほんたいかい} (the main tournament).\n\nCOMMON COLLOCATIONS:\n- {本試験|ほんしけん}⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧: to sit the actual exam\n- {本試験|ほんしけん}⟦に→に：00314_ni⟧⟦{向|む}けて→向ける：02306_mukeru⟧: in preparation for the actual exam\n- {本試験|ほんしけん}⟦{当日|とうじつ}→当日：04558_toujitsu⟧: the day of the exam\n\nSIMILAR WORDS:\n- ⟦{追試|ついし}→追試：09971_tsuishi⟧: makeup exam — taken later by those who missed or failed the main one\n- ⟦{模擬試験|もぎしけん}→模擬試験：18219_mogishiken⟧: mock exam — practice under exam conditions, results do not count\n- ⟦{本番|ほんばん}→本番：19392_honban⟧: the real thing — broader, used of performances and live broadcasts as well as tests",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09971_tsuishi",
+      "reading": "ついし",
+      "headword": "{追試|ついし}",
+      "label": "makeup exam"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18219_mogishiken",
+      "reading": "もぎしけん",
+      "headword": "{模擬試験|もぎしけん}",
+      "label": "mock exam"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19392_honban",
+      "reading": "ほんばん",
+      "headword": "{本番|ほんばん}",
+      "label": "the real thing"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +76,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "education"
       ],
@@ -62,6 +85,6 @@
       ]
     },
     "created": "2026-07-30T12:18:26Z",
-    "modified": "2026-07-30T12:18:26Z"
+    "modified": "2026-09-02T04:02:39Z"
   }
 }

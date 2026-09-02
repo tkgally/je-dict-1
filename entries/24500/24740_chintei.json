@@ -3,7 +3,7 @@
   "headword": "{鎮定|ちんてい}",
   "reading": "ちんてい",
   "romaji": "chintei",
-  "part_of_speech": "noun; verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "pacification; suppression; restoring order",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24740_chintei_ex1",
-      "japanese": "{反乱|はんらん}を{鎮定|ちんてい}する。",
+      "japanese": "⟦{反乱|はんらん}→反乱：11860_hanran⟧⟦を→を：00422_wo⟧{鎮定|ちんてい}⟦する→する：00392_suru⟧。",
       "english": "To suppress a rebellion.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24740_chintei_ex2",
-      "japanese": "{騒乱|そうらん}の{鎮定|ちんてい}に{数日|すうじつ}かかった。",
+      "japanese": "⟦{騒乱|そうらん}→騒乱：23902_souran⟧⟦の→の：09472_no⟧{鎮定|ちんてい}⟦に→に：00314_ni⟧⟦{数日|すうじつ}→数日：20517_suujitsu⟧⟦かかった→かかる：00711_kakaru⟧。",
       "english": "It took several days to pacify the disturbance.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24740_chintei_ex3",
-      "japanese": "{政府|せいふ}は{軍|ぐん}を{派遣|はけん}して{内乱|ないらん}を{鎮定|ちんてい}し、{秩序|ちつじょ}の{回復|かいふく}を{図|はか}った。",
+      "japanese": "⟦{政府|せいふ}→政府：03294_seifu⟧⟦は→は：00079_ha⟧⟦{軍|ぐん}→軍：02677_gun⟧⟦を→を：00422_wo⟧⟦{派遣|はけん}→派遣：13273_haken⟧⟦して→する：00392_suru⟧⟦{内乱|ないらん}→内乱：11749_nairan⟧⟦を→を：00422_wo⟧{鎮定|ちんてい}し、⟦{秩序|ちつじょ}→秩序：10591_chitsujo⟧⟦の→の：09472_no⟧⟦{回復|かいふく}→回復：03812_kaifuku⟧⟦を→を：00422_wo⟧⟦{図|はか}った→図る：12006_hakaru⟧。",
       "english": "The government dispatched the military to suppress the civil war and attempted to restore order.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {鎮|ちん} (to calm, suppress) + {定|てい} (to settle, fix). A formal literary word more commonly found in historical texts and official documents than in everyday conversation.\n\nCOMMON COLLOCATIONS:\n- {反乱|はんらん}を{鎮定|ちんてい}する: to suppress a rebellion\n- {騒乱|そうらん}を{鎮定|ちんてい}する: to quell a disturbance\n- {鎮定|ちんてい}に{当|あ}たる: to be assigned to pacification\n- {鎮定|ちんてい}{後|ご}: after pacification\n\nSIMILAR WORDS:\n- {鎮圧|ちんあつ}: suppression — emphasizes the use of force; more commonly used\n- {平定|へいてい}: subjugation, pacification — bringing an entire region under control\n- {鎮静|ちんせい}: calming, tranquilization — gentler; also used for medical sedation",
+  "notes": "Composed of {鎮|ちん} (to calm, suppress) + {定|てい} (to settle, fix). A formal literary word more commonly found in historical texts and official documents than in everyday conversation.\n\nCOMMON COLLOCATIONS:\n- ⟦{反乱|はんらん}→反乱：11860_hanran⟧⟦を→を：00422_wo⟧{鎮定|ちんてい}⟦する→する：00392_suru⟧: to suppress a rebellion\n- ⟦{騒乱|そうらん}→騒乱：23902_souran⟧⟦を→を：00422_wo⟧{鎮定|ちんてい}⟦する→する：00392_suru⟧: to quell a disturbance\n- {鎮定|ちんてい}⟦に→に：00314_ni⟧⟦{当|あ}たる→当たる：01860_ataru⟧: to be assigned to pacification\n- {鎮定|ちんてい}⟦{後|ご}→後：30157_go⟧: after pacification\n\nSIMILAR WORDS:\n- ⟦{鎮圧|ちんあつ}→鎮圧：14542_chinatsu⟧: suppression — emphasizes the use of force; more commonly used\n- ⟦{平定|へいてい}→平定：21861_heitei⟧: subjugation, pacification — bringing an entire region under control\n- ⟦{鎮静|ちんせい}→鎮静：19769_chinsei⟧: calming, tranquilization — gentler; also used for medical sedation",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14542_chinatsu",
+      "reading": "ちんあつ",
+      "headword": "{鎮圧|ちんあつ}",
+      "label": "suppression"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21861_heitei",
+      "reading": "へいてい",
+      "headword": "{平定|へいてい}",
+      "label": "subjugation, pacification"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19769_chinsei",
+      "reading": "ちんせい",
+      "headword": "{鎮静|ちんせい}",
+      "label": "calming, tranquilization"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -65,7 +88,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-20T13:19:44Z",
-    "modified": "2026-04-20T13:19:44Z"
+    "modified": "2026-09-02T04:02:19Z"
   },
   "conjugation": {
     "type": "suru",

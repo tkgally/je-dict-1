@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "17621_oyakodon_ex1",
-      "japanese": "お{昼|ひる}に{親子丼|おやこどん}を{食|た}べた。",
+      "japanese": "⟦お{昼|ひる}→お昼：02532_ohiru⟧⟦に→に：00314_ni⟧{親子丼|おやこどん}⟦を→を：00422_wo⟧⟦{食|た}べた→食べる：00396_taberu⟧。",
       "english": "I ate oyakodon for lunch.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "17621_oyakodon_ex2",
-      "japanese": "{親子丼|おやこどん}は{卵|たまご}がふわふわなのがおいしい。",
+      "japanese": "{親子丼|おやこどん}⟦は→は：00079_ha⟧⟦{卵|たまご}→卵：02222_tamago⟧⟦が→が：00051_ga⟧⟦ふわふわ→ふわふわ：05156_fuwafuwa⟧な⟦の→の：09472_no⟧⟦が→が：00051_ga⟧おいしい。",
       "english": "Oyakodon is delicious when the egg is fluffy.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "17621_oyakodon_ex3",
-      "japanese": "{定食屋|ていしょくや}で{親子丼|おやこどん}を{注文|ちゅうもん}した。",
+      "japanese": "{定食屋|ていしょくや}⟦で→で：00502_de⟧{親子丼|おやこどん}⟦を→を：00422_wo⟧⟦{注文|ちゅうもん}した→注文する：21390_chuumon⟧。",
       "english": "I ordered oyakodon at a set meal restaurant.",
       "sense_numbers": [
         1
@@ -43,7 +43,65 @@
       "notes": null
     }
   ],
-  "notes": "NAME ORIGIN:\n{親|おや} (parent) + {子|こ} (child) + {丼|どん} (rice bowl) → \"parent and child bowl\"\nThe name comes from the combination of chicken (parent) and egg (child).\n\nINGREDIENTS:\n- {鶏肉|とりにく} (chicken)\n- {卵|たまご} (egg)\n- {玉|たま}ねぎ (onion)\n- {醤油|しょうゆ} (soy sauce)\n- みりん (sweet cooking sake)\n- {出汁|だし} (dashi broth)\n- ご{飯|はん} (rice)\n\nCOOKING TIP:\nThe egg should be slightly runny ({半熟|はんじゅく}) for the best texture.\n\nRELATED {丼|どんぶり} DISHES:\n- カツ{丼|どん} (pork cutlet rice bowl)\n- {牛丼|ぎゅうどん} (beef rice bowl)\n- {天丼|てんどん} (tempura rice bowl)\n- {海鮮丼|かいせんどん} (seafood rice bowl)",
+  "notes": "NAME ORIGIN:\n⟦{親|おや}→親：01357_oya⟧ (parent) + ⟦{子|こ}→子：09851_ko⟧ (child) + {丼|どん} (rice bowl) → \"parent and child bowl\"\nThe name comes from the combination of chicken (parent) and egg (child).\n\nINGREDIENTS:\n- ⟦{鶏肉|とりにく}→鶏肉：02919_toriniku⟧ (chicken)\n- ⟦{卵|たまご}→卵：02222_tamago⟧ (egg)\n- {玉|たま}ねぎ (onion)\n- ⟦{醤油|しょうゆ}→醤油：01056_shouyu⟧ (soy sauce)\n- みりん (sweet cooking sake)\n- ⟦{出汁|だし}→出汁：04917_dashi⟧ (dashi broth)\n- ⟦ご{飯|はん}→ご飯：00776_gohan⟧ (rice)\n\nCOOKING TIP:\nThe egg should be slightly runny (⟦{半熟|はんじゅく}→半熟：11935_hanjuku⟧) for the best texture.\n\nRELATED {丼|どんぶり} DISHES:\n- ⟦カツ{丼|どん}→カツ丼：08539_katsudon⟧ (pork cutlet rice bowl)\n- ⟦{牛丼|ぎゅうどん}→牛丼：08600_gyuudon⟧ (beef rice bowl)\n- ⟦{天丼|てんどん}→天丼：19279_tendon⟧ (tempura rice bowl)\n- {海鮮丼|かいせんどん} (seafood rice bowl)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "08539_katsudon",
+      "reading": "かつどん",
+      "headword": "カツ{丼|どん}",
+      "label": "pork cutlet rice bowl"
+    },
+    {
+      "type": "related",
+      "target_id": "08600_gyuudon",
+      "reading": "ぎゅうどん",
+      "headword": "{牛丼|ぎゅうどん}",
+      "label": "beef rice bowl"
+    },
+    {
+      "type": "related",
+      "target_id": "19279_tendon",
+      "reading": "てんどん",
+      "headword": "{天丼|てんどん}",
+      "label": "tempura rice bowl"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07502_tamagoyakigohan",
+      "reading": "たまごやきごはん",
+      "headword": "{卵焼|たまごや}きご{飯|はん}",
+      "label": "rice with tamagoyaki"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07562_tamagokakegohan",
+      "reading": "たまごかけごはん",
+      "headword": "{卵|たまご}かけご{飯|はん}",
+      "label": "raw egg on rice"
+    },
+    {
+      "type": "related",
+      "target_id": "22328_butadon",
+      "reading": "ぶたどん",
+      "headword": "{豚丼|ぶたどん}",
+      "label": "pork bowl"
+    },
+    {
+      "type": "related",
+      "target_id": "22949_tanindon",
+      "reading": "たにんどん",
+      "headword": "{他人丼|たにんどん}",
+      "label": "beef (or pork) and egg rice bowl"
+    },
+    {
+      "type": "related",
+      "target_id": "22950_sanshokudon",
+      "reading": "さんしょくどん",
+      "headword": "{三色丼|さんしょくどん}",
+      "label": "three-color rice bowl"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -51,12 +109,13 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "food",
         "cooking"
       ]
     },
     "created": "2026-01-26T13:58:14Z",
-    "modified": "2026-03-18T10:11:24Z"
+    "modified": "2026-09-02T04:01:49Z"
   }
 }

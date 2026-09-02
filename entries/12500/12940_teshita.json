@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "12940_teshita_ex1",
-      "japanese": "{彼|かれ}はボスの{手下|てした}だ。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦ボス→ボス：11269_bosu⟧⟦の→の：09472_no⟧{手下|てした}だ。",
       "english": "He is the boss's henchman.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "12940_teshita_ex2",
-      "japanese": "{手下|てした}を{使|つか}って{汚|きたな}い{仕事|しごと}をさせた。",
+      "japanese": "{手下|てした}⟦を→を：00422_wo⟧⟦{使|つか}って→使う：00473_tsukau⟧⟦{汚|きたな}い→汚い：00788_kitanai⟧⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦を→を：00422_wo⟧⟦させた→する：00392_suru⟧。",
       "english": "He used his underlings to do the dirty work.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "12940_teshita_ex3",
-      "japanese": "{海賊|かいぞく}の{船長|せんちょう}は{大勢|おおぜい}の{手下|てした}を{従|したが}えて{島|しま}に{上陸|じょうりく}した。",
+      "japanese": "⟦{海賊|かいぞく}→海賊：13288_kaizoku⟧⟦の→の：09472_no⟧⟦{船長|せんちょう}→船長：18291_senchou⟧⟦は→は：00079_ha⟧⟦{大勢|おおぜい}→大勢：02850_oozei⟧⟦の→の：09472_no⟧{手下|てした}⟦を→を：00422_wo⟧⟦{従|したが}えて→従える：12561_shitagaeru⟧⟦{島|しま}→島：00885_shima⟧⟦に→に：00314_ni⟧⟦{上陸|じょうりく}→上陸：20591_jouriku⟧⟦した→する：00392_suru⟧。",
       "english": "The pirate captain landed on the island with a large number of henchmen in tow.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nCarries a negative or dramatic connotation. Unlike neutral words for subordinates like {部下|ぶか} (subordinate in a workplace), {手下|てした} implies a hierarchical relationship based on personal loyalty or fear, often in criminal, historical, or fictional contexts. Common in stories, movies, and manga.\n\nCOMMON COLLOCATIONS:\n- {手下|てした}を{従|したが}える: to have underlings in tow\n- {手下|てした}を{使|つか}う: to use one's henchmen\n- ～の{手下|てした}: someone's underling\n\nSIMILAR WORDS:\n- {部下|ぶか}: subordinate (neutral, workplace)\n- {子分|こぶん}: follower, henchman (boss-follower relationship)\n- {配下|はいか}: under one's command (formal/military)",
+  "notes": "USAGE:\nCarries a negative or dramatic connotation. Unlike neutral words for subordinates like ⟦{部下|ぶか}→部下：06453_buka⟧ (subordinate in a workplace), {手下|てした} implies a hierarchical relationship based on personal loyalty or fear, often in criminal, historical, or fictional contexts. Common in stories, movies, and manga.\n\nCOMMON COLLOCATIONS:\n- {手下|てした}⟦を→を：00422_wo⟧⟦{従|したが}える→従える：12561_shitagaeru⟧: to have underlings in tow\n- {手下|てした}⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧: to use one's henchmen\n- ～⟦の→の：09472_no⟧{手下|てした}: someone's underling\n\nSIMILAR WORDS:\n- ⟦{部下|ぶか}→部下：06453_buka⟧: subordinate (neutral, workplace)\n- ⟦{子分|こぶん}→子分：19895_kobun⟧: follower, henchman (boss-follower relationship)\n- ⟦{配下|はいか}→配下：14508_haika⟧: under one's command (formal/military)",
   "cross_references": [
     {
       "type": "synonym",
@@ -66,11 +66,18 @@
       "reading": "てさき",
       "headword": "{手先|てさき}",
       "label": "agent, pawn"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14508_haika",
+      "reading": "はいか",
+      "headword": "{配下|はいか}",
+      "label": "under one's command"
     }
   ],
   "metadata": {
     "created": "2026-02-22T23:05:12Z",
-    "modified": "2026-04-27T10:17:30Z",
+    "modified": "2026-09-02T04:01:31Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

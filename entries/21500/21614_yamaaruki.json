@@ -15,40 +15,88 @@
   "examples": [
     {
       "id": "21614_yamaaruki_ex1",
-      "japanese": "{週末|しゅうまつ}は{山歩|やまある}きをした。",
+      "japanese": "⟦{週末|しゅうまつ}→週末：03030_shuumatsu⟧⟦は→は：00079_ha⟧{山歩|やまある}き⟦を→を：00422_wo⟧⟦した→する：00392_suru⟧。",
       "english": "I went mountain walking on the weekend.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21614_yamaaruki_ex2",
-      "japanese": "{山歩|やまある}きには{丈夫|じょうぶ}な{靴|くつ}が{必要|ひつよう}だ。",
+      "japanese": "{山歩|やまある}き⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{丈夫|じょうぶ}→丈夫：01156_joubu⟧な⟦{靴|くつ}→靴：00725_kutsu⟧⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧だ。",
       "english": "You need sturdy shoes for mountain walking.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21614_yamaaruki_ex3",
-      "japanese": "{秋|あき}の{紅葉|こうよう}を{楽|たの}しみながら{山歩|やまある}きをするのが{好|す}きだ。",
+      "japanese": "⟦{秋|あき}→秋：02276_aki⟧⟦の→の：09472_no⟧⟦{紅葉|こうよう}→紅葉：04151_kouyou⟧⟦を→を：00422_wo⟧⟦{楽|たの}しみ→楽しむ：01203_tanoshimu⟧⟦ながら→ながら：10530_nagara⟧{山歩|やまある}き⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦{好|す}き→好き：02355_suki⟧だ。",
       "english": "I like going mountain walking while enjoying the autumn leaves.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A casual, accessible term for recreational hiking in the mountains. Implies a lighter, more leisurely activity compared to serious mountain climbing.\n\nCOMMON COLLOCATIONS:\n- {山歩|やまある}きを{楽|たの}しむ: to enjoy mountain walking\n- {山歩|やまある}き{用|よう}の{靴|くつ}: shoes for mountain walking\n- {山歩|やまある}きコース: mountain walking course/trail\n- {日帰|ひがえ}り{山歩|やまある}き: day-trip mountain walking\n\nSIMILAR WORDS:\n- ハイキング: hiking — loanword, similar casual level\n- {登山|とざん}: mountain climbing — more serious, higher elevation\n- トレッキング: trekking — longer, multi-day walks\n- {散策|さんさく}: strolling — gentler, less focused on mountains\n\nFORMATION:\n{山|やま} (mountain) + {歩|ある}き (walking). A compound noun following the common pattern of place + activity.",
+  "notes": "A casual, accessible term for recreational hiking in the mountains. Implies a lighter, more leisurely activity compared to serious mountain climbing.\n\nCOMMON COLLOCATIONS:\n- {山歩|やまある}き⟦を→を：00422_wo⟧⟦{楽|たの}しむ→楽しむ：01203_tanoshimu⟧: to enjoy mountain walking\n- {山歩|やまある}き⟦{用|よう}→〜用：09842_you⟧⟦の→の：09472_no⟧⟦{靴|くつ}→靴：00725_kutsu⟧: shoes for mountain walking\n- {山歩|やまある}き⟦コース→コース：10864_koosu⟧: mountain walking course/trail\n- ⟦{日帰|ひがえ}り→日帰り：17612_higaeri⟧{山歩|やまある}き: day-trip mountain walking\n\nSIMILAR WORDS:\n- ⟦ハイキング→ハイキング：03869_haikingu⟧: hiking — loanword, similar casual level\n- ⟦{登山|とざん}→登山：03457_tozan⟧: mountain climbing — more serious, higher elevation\n- ⟦トレッキング→トレッキング：28065_torekkingu⟧: trekking — longer, multi-day walks\n- ⟦{散策|さんさく}→散策：07618_sansaku⟧: strolling — gentler, less focused on mountains\n\nFORMS:\n⟦{山|やま}→山：02168_yama⟧ (mountain) + ⟦{歩|ある}き→歩く：00538_aruku⟧ (walking). A compound noun following the common pattern of place + activity.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03869_haikingu",
+      "reading": "はいきんぐ",
+      "headword": "ハイキング",
+      "label": "hiking"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03457_tozan",
+      "reading": "とざん",
+      "headword": "{登山|とざん}",
+      "label": "mountain climbing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28065_torekkingu",
+      "reading": "とれっきんぐ",
+      "headword": "トレッキング",
+      "label": "trekking"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07618_sansaku",
+      "reading": "さんさく",
+      "headword": "{散策|さんさく}",
+      "label": "strolling"
+    },
+    {
+      "type": "related",
+      "target_id": "21318_tozansha",
+      "reading": "とざんしゃ",
+      "headword": "{登山者|とざんしゃ}",
+      "label": "mountaineer"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["nature", "sports"]
+      "semantic": [
+        "nature",
+        "sports"
+      ]
     },
     "created": "2026-04-02T18:14:25Z",
-    "modified": "2026-04-02T18:14:25Z"
+    "modified": "2026-09-02T04:02:04Z"
   }
 }

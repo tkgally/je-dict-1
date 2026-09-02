@@ -15,39 +15,59 @@
   "examples": [
     {
       "id": "26205_teishinchou_ex1",
-      "japanese": "{低身長|ていしんちょう}でも{似合|にあ}う{服|ふく}はたくさんある。",
+      "japanese": "{低身長|ていしんちょう}⟦で→で：00502_de⟧⟦も→も：00484_mo⟧⟦{似合|にあ}う→似合う：02134_niau⟧⟦{服|ふく}→服：00695_fuku⟧⟦は→は：00079_ha⟧⟦たくさん→たくさん：00597_takusan⟧⟦ある→ある：00006_aru⟧。",
       "english": "There are many clothes that look good even with a short stature.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26205_teishinchou_ex2",
-      "japanese": "{子供|こども}の{低身長|ていしんちょう}が{気|き}になって{病院|びょういん}に{相談|そうだん}した。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧⟦の→の：09472_no⟧{低身長|ていしんちょう}⟦が→が：00051_ga⟧⟦{気|き}になって→気になる：03027_kininaru⟧⟦{病院|びょういん}→病院：00577_byouin⟧⟦に→に：00314_ni⟧⟦{相談|そうだん}した→相談する：01845_soudansuru⟧。",
       "english": "I was concerned about my child's short stature and consulted a hospital.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26205_teishinchou_ex3",
-      "japanese": "{低身長|ていしんちょう}の{原因|げんいん}には{遺伝的|いでんてき}なものと{成長|せいちょう}ホルモンの{不足|ふそく}によるものがある。",
+      "japanese": "{低身長|ていしんちょう}⟦の→の：09472_no⟧⟦{原因|げんいん}→原因：01400_genin⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{遺伝的|いでんてき}なもの⟦と→と：00512_to⟧⟦{成長|せいちょう}→成長：03290_seichou⟧⟦ホルモン→ホルモン：29936_horumon⟧⟦の→の：09472_no⟧⟦{不足|ふそく}→不足：03598_fusoku⟧⟦による→による：28349_niyoru⟧もの⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "Causes of short stature include genetic factors and growth hormone deficiency.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {低|てい} (low) and {身長|しんちょう} (height, stature). Used in medical contexts to describe children whose growth falls below standard curves, but also used casually in fashion and lifestyle contexts to discuss styling tips for shorter people. The medical threshold is typically below -2 standard deviations from the mean for age and sex.\n\nCOMMON COLLOCATIONS:\n- {低身長|ていしんちょう}の{治療|ちりょう} — treatment for short stature\n- {低身長|ていしんちょう}の{原因|げんいん} — cause of short stature\n- {低身長|ていしんちょう}{向|む}け — for short-statured people\n- {低身長|ていしんちょう}コーデ — outfit coordination for short stature\n\nSIMILAR WORDS:\n- {高身長|こうしんちょう} — tall stature (the opposite)\n- {身長|しんちょう} — height, stature (the base measurement)\n- {背|せ}が{低|ひく}い — short (casual way to say someone is short)",
-  "cross_references": [],
+  "notes": "Composed of ⟦{低|てい}→低〜：03961_tei⟧ (low) and ⟦{身長|しんちょう}→身長：03263_shinchou⟧ (height, stature). Used in medical contexts to describe children whose growth falls below standard curves, but also used casually in fashion and lifestyle contexts to discuss styling tips for shorter people. The medical threshold is typically below -2 standard deviations from the mean for age and sex.\n\nCOMMON COLLOCATIONS:\n- {低身長|ていしんちょう}⟦の→の：09472_no⟧⟦{治療|ちりょう}→治療：03503_chiryou⟧ — treatment for short stature\n- {低身長|ていしんちょう}⟦の→の：09472_no⟧⟦{原因|げんいん}→原因：01400_genin⟧ — cause of short stature\n- {低身長|ていしんちょう}{向|む}け — for short-statured people\n- {低身長|ていしんちょう}⟦コーデ→コーデ：17567_koode⟧ — outfit coordination for short stature\n\nSIMILAR WORDS:\n- ⟦{高身長|こうしんちょう}→高身長：26602_koushinchou⟧ — tall stature (the opposite)\n- ⟦{身長|しんちょう}→身長：03263_shinchou⟧ — height, stature (the base measurement)\n- ⟦{背|せ}→背：02907_se⟧⟦が→が：00051_ga⟧⟦{低|ひく}い→低い：02947_hikui⟧ — short (casual way to say someone is short)",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "26602_koushinchou",
+      "reading": "こうしんちょう",
+      "headword": "{高身長|こうしんちょう}",
+      "label": "tall stature"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["size", "health"]
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "size",
+        "health"
+      ]
     },
     "created": "2026-04-30T11:31:53Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T04:02:25Z"
   }
 }

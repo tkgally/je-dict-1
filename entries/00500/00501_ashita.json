@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "{明日|あした} means 'tomorrow' and is one of the most common time expressions in Japanese.\n\nREADINGS:\n- あした: most common, everyday speech\n- あす: slightly more formal\n- みょうにち: formal, written, news\n\nTIME SEQUENCE:\n- ⟦おととい→おととい：00877_ototoi⟧: day before yesterday\n- ⟦{昨日|きのう}→昨日：00859_kinou⟧: yesterday\n- ⟦{今日|きょう}→今日：00496_kyou⟧: today\n- {明日|あした}: tomorrow\n- ⟦あさって→あさって：00828_asatte⟧: day after tomorrow\n\nUSAGE:\nLike other time nouns, {明日|あした} typically appears without a particle: {明日|あした}⟦{行|い}きます→行く：00119_iku⟧ (I'll go tomorrow).\n\nCOMMON EXPRESSIONS:\n- {明日|あした}⟦の→の：09472_no⟧⟦{朝|あさ}→朝：02277_asa⟧: tomorrow morning\n- {明日|あした}⟦の→の：09472_no⟧⟦{夜|よる}→夜：00487_yoru⟧/⟦{晩|ばん}→晩：00542_ban⟧: tomorrow night\n- {明日|あした}⟦から→から：00504_kara⟧: from tomorrow\n- {明日|あした}⟦まで→まで：00490_made⟧: until tomorrow",
+  "notes": "{明日|あした} means 'tomorrow' and is one of the most common time expressions in Japanese.\n\nPRONUNCIATION:\n- あした: most common, everyday speech\n- あす: slightly more formal\n- みょうにち: formal, written, news\n\nTIME SEQUENCE:\n- ⟦おととい→おととい：00877_ototoi⟧: day before yesterday\n- ⟦{昨日|きのう}→昨日：00859_kinou⟧: yesterday\n- ⟦{今日|きょう}→今日：00496_kyou⟧: today\n- {明日|あした}: tomorrow\n- ⟦あさって→あさって：00828_asatte⟧: day after tomorrow\n\nUSAGE:\nLike other time nouns, {明日|あした} typically appears without a particle: {明日|あした}⟦{行|い}きます→行く：00119_iku⟧ (I'll go tomorrow).\n\nCOMMON EXPRESSIONS:\n- {明日|あした}⟦の→の：09472_no⟧⟦{朝|あさ}→朝：02277_asa⟧: tomorrow morning\n- {明日|あした}⟦の→の：09472_no⟧⟦{夜|よる}→夜：00487_yoru⟧/⟦{晩|ばん}→晩：00542_ban⟧: tomorrow night\n- {明日|あした}⟦から→から：00504_kara⟧: from tomorrow\n- {明日|あした}⟦まで→まで：00490_made⟧: until tomorrow",
   "cross_references": [
     {
       "type": "related",
@@ -85,11 +85,32 @@
       "reading": "あさって",
       "headword": "あさって",
       "label": "day after tomorrow"
+    },
+    {
+      "type": "related",
+      "target_id": "02487_yuube",
+      "reading": "ゆうべ",
+      "headword": "ゆうべ",
+      "label": "last night, yesterday evening"
+    },
+    {
+      "type": "related",
+      "target_id": "02877_kesa",
+      "reading": "けさ",
+      "headword": "{今朝|けさ}",
+      "label": "this morning"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20640_shiasatte",
+      "reading": "しあさって",
+      "headword": "{明明後日|しあさって}",
+      "label": "three days from now"
     }
   ],
   "metadata": {
     "created": "2026-01-05T12:53:19Z",
-    "modified": "2026-08-12T09:21:26Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

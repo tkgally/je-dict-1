@@ -2,7 +2,7 @@
   "id": "01127_ooi",
   "headword": "{多|おお}い",
   "reading": "おおい",
-  "part_of_speech": "adjective (i-adjective)",
+  "part_of_speech": "i-adjective",
   "gloss": "many, much",
   "definitions": [
     {
@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "{多|おお}い is an i-adjective meaning \"many\" or \"much.\"\n\nIMPORTANT GRAMMAR:\n{多|おお}い usually cannot directly modify nouns. You cannot say × {多|おお}い{人|ひと}. Instead:\n- ⟦{人|ひと}→人：00476_hito⟧が{多|おお}い: there are many people (predicative)\n- {多|おお}くの⟦{人|ひと}→人：00476_hito⟧: many people (attributive, using くの form)\n- ⟦たくさん→たくさん：00597_takusan⟧の⟦{人|ひと}→人：00476_hito⟧: many people (alternative)\n\nFORMS:\n- Negative: {多|おお}くない\n- Te-form: {多|おお}くて\n- Past: {多|おお}かった\n- Adverbial: {多|おお}く\n\nCONTRAST:\nOpposite of ⟦{少|すく}ない→少ない：01136_sukunai⟧ (few, little). Both share the restriction of not directly modifying nouns in standard Japanese.\n\nCOMMON PATTERNS:\n- 〜が{多|おお}い: there are many ~\n- {多|おお}くの〜: many ~ (formal/written)\n- 〜が{多|おお}いので: because there are many ~",
+  "notes": "{多|おお}い is an i-adjective meaning \"many\" or \"much.\"\n\nIMPORTANT GRAMMAR:\n{多|おお}い usually cannot directly modify nouns. You cannot say × {多|おお}い⟦{人|ひと}→人：00476_hito⟧. Instead:\n- ⟦{人|ひと}→人：00476_hito⟧⟦が→が：00051_ga⟧{多|おお}い: there are many people (predicative)\n- ⟦{多|おお}く→多く：18752_ooku⟧⟦の→の：09472_no⟧⟦{人|ひと}→人：00476_hito⟧: many people (attributive, using くの form)\n- ⟦たくさん→たくさん：00597_takusan⟧⟦の→の：09472_no⟧⟦{人|ひと}→人：00476_hito⟧: many people (alternative)\n\nFORMS:\n- Negative: {多|おお}く⟦ない→ない：01118_nai⟧\n- Te-form: {多|おお}くて\n- Past: {多|おお}かった\n- Adverbial: {多|おお}く\n\nSIMILAR WORDS:\nOpposite of ⟦{少|すく}ない→少ない：01136_sukunai⟧ (few, little). Both share the restriction of not directly modifying nouns in standard Japanese.\n\nCOMMON PATTERNS:\n- 〜⟦が→が：00051_ga⟧{多|おお}い: there are many ~\n- ⟦{多|おお}く→多く：18752_ooku⟧⟦の→の：09472_no⟧〜: many ~ (formal/written)\n- 〜⟦が→が：00051_ga⟧{多|おお}い⟦の→の：09472_no⟧で: because there are many ~",
   "cross_references": [
     {
       "type": "antonym",
@@ -71,11 +71,25 @@
       "reading": "すくない",
       "headword": "{少|すく}ない",
       "label": "few, little"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00335_ookii",
+      "reading": "おおきい",
+      "headword": "{大|おお}きい",
+      "label": "big, large"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00597_takusan",
+      "reading": "たくさん",
+      "headword": "たくさん",
+      "label": "a lot, many"
     }
   ],
   "metadata": {
     "created": "2026-01-07T12:23:37Z",
-    "modified": "2026-05-14T13:14:49Z",
+    "modified": "2026-09-02T04:00:59Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

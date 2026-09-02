@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "11061_yoteihyou_ex1",
-      "japanese": "{予定表|よていひょう}を{確認|かくにん}する。",
+      "japanese": "{予定表|よていひょう}⟦を→を：00422_wo⟧⟦{確認|かくにん}する→確認する：25332_kakuninsuru⟧。",
       "english": "To check the schedule.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11061_yoteihyou_ex2",
-      "japanese": "{来週|らいしゅう}の{予定表|よていひょう}を{作|つく}った。",
+      "japanese": "⟦{来週|らいしゅう}→来週：00746_raishuu⟧⟦の→の：09472_no⟧{予定表|よていひょう}⟦を→を：00422_wo⟧⟦{作|つく}った→作る：00481_tsukuru⟧。",
       "english": "I made next week's schedule.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11061_yoteihyou_ex3",
-      "japanese": "{旅行|りょこう}の{前|まえ}に{予定表|よていひょう}を{作|つく}っておくと、{安心|あんしん}して{楽|たの}しめる。",
+      "japanese": "⟦{旅行|りょこう}→旅行：00748_ryokou⟧⟦の→の：09472_no⟧⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧{予定表|よていひょう}⟦を→を：00422_wo⟧⟦{作|つく}って→作る：00481_tsukuru⟧おく⟦と→と：00512_to⟧、⟦{安心|あんしん}して→安心する：06067_anshinsuru⟧⟦{楽|たの}しめる→楽しむ：01203_tanoshimu⟧。",
       "english": "If you make a schedule before a trip, you can relax and enjoy it.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{予定表|よていひょう} is a compound of {予定|よてい} (plan/schedule) and {表|ひょう} (chart/table/list).\n\nCOMMON COLLOCATIONS:\n- {予定表|よていひょう}を{作|つく}る: to make a schedule\n- {予定表|よていひょう}を{確認|かくにん}する: to check the schedule\n- {予定表|よていひょう}に{書|か}き{込|こ}む: to write in the schedule\n\nSIMILAR WORDS:\n- スケジュール: schedule (loanword, more casual)\n- {時間割|じかんわり}: class timetable (school)\n- {日程表|にっていひょう}: itinerary, schedule of dates",
+  "notes": "{予定表|よていひょう} is a compound of ⟦{予定|よてい}→予定：00824_yotei⟧ (plan/schedule) and ⟦{表|ひょう}→表：19354_hyou⟧ (chart/table/list).\n\nCOMMON COLLOCATIONS:\n- {予定表|よていひょう}⟦を→を：00422_wo⟧⟦{作|つく}る→作る：00481_tsukuru⟧: to make a schedule\n- {予定表|よていひょう}⟦を→を：00422_wo⟧⟦{確認|かくにん}する→確認する：25332_kakuninsuru⟧: to check the schedule\n- {予定表|よていひょう}⟦に→に：00314_ni⟧⟦{書|か}き{込|こ}む→書き込む：04599_kakikomu⟧: to write in the schedule\n\nSIMILAR WORDS:\n- ⟦スケジュール→スケジュール：03850_sukejuuru⟧: schedule (loanword, more casual)\n- ⟦{時間割|じかんわり}→時間割：08552_jikanwari⟧: class timetable (school)\n- {日程表|にっていひょう}: itinerary, schedule of dates",
   "cross_references": [
     {
       "type": "related",
@@ -53,18 +59,36 @@
       "reading": "すけじゅーる",
       "headword": "スケジュール",
       "label": "casual loanword"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08552_jikanwari",
+      "reading": "じかんわり",
+      "headword": "{時間割|じかんわり}",
+      "label": "class timetable"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26268_keikakuhyou",
+      "reading": "けいかくひょう",
+      "headword": "{計画表|けいかくひょう}",
+      "label": "schedule"
     }
   ],
   "metadata": {
     "created": "2026-02-13T01:20:32Z",
-    "modified": "2026-04-25T04:12:08Z",
+    "modified": "2026-09-02T04:01:23Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["work"]
+      "semantic": [
+        "work"
+      ]
     }
   }
 }

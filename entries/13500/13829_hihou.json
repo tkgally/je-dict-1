@@ -15,41 +15,73 @@
   "examples": [
     {
       "id": "13829_hihou_ex1",
-      "japanese": "{寺|てら}の{秘宝|ひほう}が{公開|こうかい}された。",
+      "japanese": "⟦{寺|てら}→寺：01676_tera⟧⟦の→の：09472_no⟧{秘宝|ひほう}⟦が→が：00051_ga⟧⟦{公開|こうかい}→公開：11665_koukai⟧⟦された→する：00392_suru⟧。",
       "english": "The temple's hidden treasure was put on public display.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13829_hihou_ex2",
-      "japanese": "この{博物館|はくぶつかん}には{世界|せかい}の{秘宝|ひほう}が{集|あつ}められている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{博物館|はくぶつかん}→博物館：01494_hakubutsukan⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{世界|せかい}→世界：01447_sekai⟧⟦の→の：09472_no⟧{秘宝|ひほう}⟦が→が：00051_ga⟧⟦{集|あつ}められている→集める：01170_atsumeru⟧。",
       "english": "This museum has gathered treasures from around the world.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13829_hihou_ex3",
-      "japanese": "{冒険家|ぼうけんか}たちは、{古代文明|こだいぶんめい}の{秘宝|ひほう}を{求|もと}めてジャングルの{奥地|おくち}へと{向|む}かった。",
+      "japanese": "⟦{冒険家|ぼうけんか}→冒険家：20564_boukenka⟧たち⟦は→は：00079_ha⟧、⟦{古代文明|こだいぶんめい}→古代文明：16513_kodaibunmei⟧⟦の→の：09472_no⟧{秘宝|ひほう}⟦を→を：00422_wo⟧⟦{求|もと}めて→求める：02316_motomeru⟧⟦ジャングル→ジャングル：05496_janguru⟧⟦の→の：09472_no⟧⟦{奥地|おくち}→奥地：16541_okuchi⟧⟦へ→へ：02473_he⟧⟦と→と：00512_to⟧⟦{向|む}かった→向かう：01186_mukau⟧。",
       "english": "The adventurers headed deep into the jungle in search of an ancient civilization's hidden treasure.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nUsed in two main contexts: (1) real treasures held by temples, shrines, or institutions, often rarely displayed to the public, and (2) legendary or fictional hidden treasures in adventure stories and games.\n\nSIMILAR WORDS:\n- {宝物|たからもの}: a general word for treasure or prized possession, used in everyday speech\n- {国宝|こくほう}: national treasure, an official designation for culturally significant objects\n- {財宝|ざいほう}: treasure, riches (emphasizes monetary value)\n\nCOMMON COLLOCATIONS:\n- {秘宝|ひほう}{展|てん}: hidden treasures exhibition\n- {秘宝|ひほう}を{公開|こうかい}する: to put a hidden treasure on display\n- {秘宝|ひほう}を{探|さが}す: to search for hidden treasure\n- {寺|てら}の{秘宝|ひほう}: a temple's hidden treasure",
-  "cross_references": [],
+  "notes": "USAGE:\nUsed in two main contexts: (1) real treasures held by temples, shrines, or institutions, often rarely displayed to the public, and (2) legendary or fictional hidden treasures in adventure stories and games.\n\nSIMILAR WORDS:\n- ⟦{宝物|たからもの}→宝物：12269_takaramono⟧: a general word for treasure or prized possession, used in everyday speech\n- ⟦{国宝|こくほう}→国宝：09642_kokuhou⟧: national treasure, an official designation for culturally significant objects\n- ⟦{財宝|ざいほう}→財宝：18496_zaihou⟧: treasure, riches (emphasizes monetary value)\n\nCOMMON COLLOCATIONS:\n- {秘宝|ひほう}⟦{展|てん}→〜展：28468_ten⟧: hidden treasures exhibition\n- {秘宝|ひほう}⟦を→を：00422_wo⟧⟦{公開|こうかい}→公開：11665_koukai⟧⟦する→する：00392_suru⟧: to put a hidden treasure on display\n- {秘宝|ひほう}⟦を→を：00422_wo⟧⟦{探|さが}す→探す：00493_sagasu⟧: to search for hidden treasure\n- ⟦{寺|てら}→寺：01676_tera⟧⟦の→の：09472_no⟧{秘宝|ひほう}: a temple's hidden treasure",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12269_takaramono",
+      "reading": "たからもの",
+      "headword": "{宝物|たからもの}",
+      "label": "a general word for treasure or prized…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09642_kokuhou",
+      "reading": "こくほう",
+      "headword": "{国宝|こくほう}",
+      "label": "national treasure, an official…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18496_zaihou",
+      "reading": "ざいほう",
+      "headword": "{財宝|ざいほう}",
+      "label": "treasure, riches"
+    }
+  ],
   "metadata": {
     "created": "2026-02-27T05:08:19Z",
-    "modified": "2026-02-27T05:08:19Z",
+    "modified": "2026-09-02T04:01:34Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

@@ -15,40 +15,67 @@
   "examples": [
     {
       "id": "23006_rashinban_ex1",
-      "japanese": "{羅針盤|らしんばん}で{方角|ほうがく}を{確認|かくにん}する。",
+      "japanese": "{羅針盤|らしんばん}⟦で→で：00502_de⟧⟦{方角|ほうがく}→方角：08447_hougaku⟧⟦を→を：00422_wo⟧⟦{確認|かくにん}する→確認する：25332_kakuninsuru⟧。",
       "english": "To check the direction with a compass.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "23006_rashinban_ex2",
-      "japanese": "{船|ふね}の{羅針盤|らしんばん}が{北|きた}を{指|さ}している。",
+      "japanese": "⟦{船|ふね}→船：00775_fune⟧⟦の→の：09472_no⟧{羅針盤|らしんばん}⟦が→が：00051_ga⟧⟦{北|きた}→北：00644_kita⟧⟦を→を：00422_wo⟧⟦{指|さ}している→指す：02056_sasu⟧。",
       "english": "The ship's compass is pointing north.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "23006_rashinban_ex3",
-      "japanese": "{先生|せんせい}の{言葉|ことば}は、{私|わたし}の{人生|じんせい}の{羅針盤|らしんばん}となった。",
+      "japanese": "⟦{先生|せんせい}→先生：00609_sensei⟧⟦の→の：09472_no⟧⟦{言葉|ことば}→言葉：02880_kotoba⟧⟦は→は：00079_ha⟧、⟦{私|わたし}→私：02988_watashi⟧⟦の→の：09472_no⟧⟦{人生|じんせい}→人生：03355_jinsei⟧⟦の→の：09472_no⟧{羅針盤|らしんばん}⟦と→と：00512_to⟧⟦なった→なる：01970_naru⟧。",
       "english": "My teacher's words became the compass for my life.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "The traditional Japanese word for a magnetic compass, composed of {羅|ら} (net, gauze), {針|しん} (needle), and {盤|ばん} (plate, board). Commonly used both literally for navigation and figuratively for guidance.\n\nCOMMON COLLOCATIONS:\n- {人生|じんせい}の{羅針盤|らしんばん}: compass of one's life; guiding principle\n- {道徳|どうとく}の{羅針盤|らしんばん}: moral compass\n- {羅針盤|らしんばん}を{失|うしな}う: to lose one's compass; to lose direction\n\nSIMILAR WORDS:\n- コンパス: compass — the loanword, used more casually and also for a drawing compass\n- {方位磁針|ほういじしん}: compass needle — the technical term\n- {指針|ししん}: guiding principle — figurative sense only; used for policies or guiding ideas\n\nETYMOLOGY:\nThe character {羅|ら} originally referred to a silk net or fabric; {羅針|らしん} means 'a needle on a silk-covered plate,' referring to early compass designs. The word entered Japanese from Chinese maritime terminology.",
+  "notes": "The traditional Japanese word for a magnetic compass, composed of {羅|ら} (net, gauze), {針|しん} (needle), and ⟦{盤|ばん}→盤：18576_ban⟧ (plate, board). Commonly used both literally for navigation and figuratively for guidance.\n\nCOMMON COLLOCATIONS:\n- ⟦{人生|じんせい}→人生：03355_jinsei⟧⟦の→の：09472_no⟧{羅針盤|らしんばん}: compass of one's life; guiding principle\n- ⟦{道徳|どうとく}→道徳：03478_doutoku⟧⟦の→の：09472_no⟧{羅針盤|らしんばん}: moral compass\n- {羅針盤|らしんばん}⟦を→を：00422_wo⟧⟦{失|うしな}う→失う：01887_ushinau⟧: to lose one's compass; to lose direction\n\nSIMILAR WORDS:\n- ⟦コンパス→コンパス：05595_konpasu⟧: compass — the loanword, used more casually and also for a drawing compass\n- {方位磁針|ほういじしん}: compass needle — the technical term\n- ⟦{指針|ししん}→指針：12875_shishin⟧: guiding principle — figurative sense only; used for policies or guiding ideas\n\nETYMOLOGY:\nThe character {羅|ら} originally referred to a silk net or fabric; {羅針|らしん} means 'a needle on a silk-covered plate,' referring to early compass designs. The word entered Japanese from Chinese maritime terminology.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05595_konpasu",
+      "reading": "こんぱす",
+      "headword": "コンパス",
+      "label": "compass"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12875_shishin",
+      "reading": "ししん",
+      "headword": "{指針|ししん}",
+      "label": "guiding principle"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["tool", "travel"]
+      "semantic": [
+        "tool",
+        "travel"
+      ]
     },
     "created": "2026-04-08T15:39:21Z",
-    "modified": "2026-07-31T00:22:50Z"
+    "modified": "2026-09-02T04:02:10Z"
   }
 }

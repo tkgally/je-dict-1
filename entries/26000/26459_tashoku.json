@@ -3,7 +3,7 @@
   "headword": "{多色|たしょく}",
   "reading": "たしょく",
   "romaji": "tashoku",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "multiple colors; polychrome; multicolored",
   "definitions": [
     {
@@ -15,39 +15,66 @@
   "examples": [
     {
       "id": "26459_tashoku_ex1",
-      "japanese": "{多色|たしょく}{刷|ず}りのポスターを{作|つく}った。",
+      "japanese": "{多色|たしょく}{刷|ず}り⟦の→の：09472_no⟧⟦ポスター→ポスター：09598_posutaa⟧⟦を→を：00422_wo⟧⟦{作|つく}った→作る：00481_tsukuru⟧。",
       "english": "I made a multicolor-printed poster.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26459_tashoku_ex2",
-      "japanese": "この{花瓶|かびん}は{多色|たしょく}の{釉薬|ゆうやく}が{美|うつく}しい。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{花瓶|かびん}→花瓶：02867_kabin⟧⟦は→は：00079_ha⟧{多色|たしょく}⟦の→の：09472_no⟧⟦{釉薬|ゆうやく}→釉薬：23335_yuuyaku⟧⟦が→が：00051_ga⟧⟦{美|うつく}しい→美しい：01121_utsukushii⟧。",
       "english": "The multicolored glaze on this vase is beautiful.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26459_tashoku_ex3",
-      "japanese": "{多色|たしょく}ボールペンは{一本|いっぽん}で{何色|なんしょく}も{使|つか}えるので{便利|べんり}だ。",
+      "japanese": "{多色|たしょく}⟦ボールペン→ボールペン：00691_boorupen⟧⟦は→は：00079_ha⟧⟦{一本|いっぽん}→一本：08888_ippon⟧⟦で→で：00502_de⟧{何色|なんしょく}⟦も→も：00484_mo⟧⟦{使|つか}える→使う：00473_tsukau⟧⟦の→の：09472_no⟧で⟦{便利|べんり}→便利：00830_benri⟧だ。",
       "english": "A multicolor ballpoint pen is convenient because you can use several colors with one pen.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {多|た} (many) and {色|しょく} (color). Primarily used as a modifier before nouns with の, or in compound words. Common in printing, art, and product descriptions. The {多|た}+noun pattern is productive in Japanese ({多目的|たもくてき}, {多方面|たほうめん}, etc.).\n\nCOMMON COLLOCATIONS:\n- {多色|たしょく}{刷|ず}り: multicolor printing\n- {多色|たしょく}ボールペン: multicolor ballpoint pen\n- {多色|たしょく}{印刷|いんさつ}: polychrome printing\n- {多色|たしょく}の{デザイン|でざいん}: multicolored design\n\nSIMILAR WORDS:\n- カラフル: colorful — a loanword with a more casual, everyday feel\n- {極彩色|ごくさいしき}: richly colored, vivid coloring — implies brilliant, splendid use of many colors\n- {単色|たんしょく}: monochrome, single color — the opposite of {多色|たしょく}",
-  "cross_references": [],
+  "notes": "Composed of {多|た} (many) and {色|しょく} (color). Primarily used as a modifier before nouns with ⟦の→の：09472_no⟧, or in compound words. Common in printing, art, and product descriptions. The {多|た}+noun pattern is productive in Japanese (⟦{多目的|たもくてき}→多目的：18132_tamokuteki⟧, ⟦{多方面|たほうめん}→多方面：19726_tahoumen⟧, etc.).\n\nCOMMON COLLOCATIONS:\n- {多色|たしょく}{刷|ず}り: multicolor printing\n- {多色|たしょく}⟦ボールペン→ボールペン：00691_boorupen⟧: multicolor ballpoint pen\n- {多色|たしょく}⟦{印刷|いんさつ}→印刷：01844_insatsu⟧: polychrome printing\n- {多色|たしょく}⟦の→の：09472_no⟧⟦デザイン→デザイン：03860_dezain⟧: multicolored design\n\nSIMILAR WORDS:\n- ⟦カラフル→カラフル：10803_karafuru⟧: colorful — a loanword with a more casual, everyday feel\n- {極彩色|ごくさいしき}: richly colored, vivid coloring — implies brilliant, splendid use of many colors\n- ⟦{単色|たんしょく}→単色：22209_tanshoku⟧: monochrome, single color — the opposite of {多色|たしょく}",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "10803_karafuru",
+      "reading": "からふる",
+      "headword": "カラフル",
+      "label": "colorful"
+    },
+    {
+      "type": "antonym",
+      "target_id": "22209_tanshoku",
+      "reading": "たんしょく",
+      "headword": "{単色|たんしょく}",
+      "label": "monochrome, single color"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-no"],
-      "semantic": ["art"]
+      "pos": [
+        "noun",
+        "adjective-no"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "art"
+      ]
     },
     "created": "2026-05-02T11:29:58Z",
-    "modified": "2026-05-02T11:29:58Z"
+    "modified": "2026-09-02T04:02:26Z"
   }
 }

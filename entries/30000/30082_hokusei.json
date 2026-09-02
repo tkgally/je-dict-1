@@ -15,41 +15,75 @@
   "examples": [
     {
       "id": "30082_hokusei_ex1",
-      "japanese": "{冬|ふゆ}は{北西|ほくせい}の{風|かぜ}が{強|つよ}い。",
+      "japanese": "⟦{冬|ふゆ}→冬：00623_fuyu⟧⟦は→は：00079_ha⟧{北西|ほくせい}⟦の→の：09472_no⟧⟦{風|かぜ}→風：00641_kaze⟧⟦が→が：00051_ga⟧⟦{強|つよ}い→強い：00820_tsuyoi⟧。",
       "english": "In winter the northwest wind is strong.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "30082_hokusei_ex2",
-      "japanese": "{町|まち}の{北西|ほくせい}に{山|やま}が{見|み}える。",
+      "japanese": "⟦{町|まち}→町：00613_machi⟧⟦の→の：09472_no⟧{北西|ほくせい}⟦に→に：00314_ni⟧⟦{山|やま}→山：02168_yama⟧⟦が→が：00051_ga⟧⟦{見|み}える→見える：01165_mieru⟧。",
       "english": "You can see a mountain to the northwest of the town.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "30082_hokusei_ex3",
-      "japanese": "{低気圧|ていきあつ}が{北西|ほくせい}から{近|ちか}づき、{夜|よる}には{雨|あめ}になる{見込|みこ}みだ。",
+      "japanese": "⟦{低気圧|ていきあつ}→低気圧：21712_teikiatsu⟧⟦が→が：00051_ga⟧{北西|ほくせい}⟦から→から：00504_kara⟧⟦{近|ちか}づき→近づく：01958_chikazuku⟧、⟦{夜|よる}→夜：00487_yoru⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{雨|あめ}→雨：00583_ame⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦{見込|みこ}み→見込み：06872_mikomi⟧だ。",
       "english": "A low-pressure system is approaching from the northwest, and it is expected to rain by night.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {北|ほく} (north) + {西|せい} (west). One of the four intercardinal directions. In winter, Japan's characteristic {北西|ほくせい} monsoon wind ({季節風|きせつふう}) brings cold air and heavy snow to the Sea of Japan coast.\n\nCOMMON COLLOCATIONS:\n- {北西|ほくせい}の{風|かぜ}: northwest wind\n- {北西|ほくせい}に{位置|いち}する: to be located to the northwest\n- {北西|ほくせい}{方向|ほうこう}: northwest direction\n- {北西部|ほくせいぶ}: northwestern part/region\n\nRELATED COMPASS DIRECTIONS:\n- {北東|ほくとう}: northeast\n- {南東|なんとう}: southeast\n- {南西|なんせい}: southwest",
+  "notes": "Composed of {北|ほく} (north) + {西|せい} (west). One of the four intercardinal directions. In winter, Japan's characteristic {北西|ほくせい} monsoon wind (⟦{季節風|きせつふう}→季節風：21517_kisetsufuu⟧) brings cold air and heavy snow to the Sea of Japan coast.\n\nCOMMON COLLOCATIONS:\n- {北西|ほくせい}⟦の→の：09472_no⟧⟦{風|かぜ}→風：00641_kaze⟧: northwest wind\n- {北西|ほくせい}⟦に→に：00314_ni⟧⟦{位置|いち}する→位置する：09891_ichisuru⟧: to be located to the northwest\n- {北西|ほくせい}⟦{方向|ほうこう}→方向：03617_houkou⟧: northwest direction\n- {北西部|ほくせいぶ}: northwestern part/region\n\nRELATED COMPASS DIRECTIONS:\n- ⟦{北東|ほくとう}→北東：19715_hokutou⟧: northeast\n- ⟦{南東|なんとう}→南東：30083_nantou⟧: southeast\n- ⟦{南西|なんせい}→南西：19716_nansei⟧: southwest",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "19715_hokutou",
+      "reading": "ほくとう",
+      "headword": "{北東|ほくとう}",
+      "label": "northeast"
+    },
+    {
+      "type": "related",
+      "target_id": "30083_nantou",
+      "reading": "なんとう",
+      "headword": "{南東|なんとう}",
+      "label": "southeast"
+    },
+    {
+      "type": "related",
+      "target_id": "19716_nansei",
+      "reading": "なんせい",
+      "headword": "{南西|なんせい}",
+      "label": "southwest"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["geography", "direction"],
+      "semantic": [
+        "geography",
+        "direction"
+      ],
       "domain": []
     },
     "created": "2026-07-24T12:17:31Z",
-    "modified": "2026-07-24T12:17:31Z"
+    "modified": "2026-09-02T04:02:38Z"
   }
 }

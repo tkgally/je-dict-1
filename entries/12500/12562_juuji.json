@@ -3,7 +3,7 @@
   "id": "12562_juuji",
   "headword": "{従事|じゅうじ}",
   "reading": "じゅうじ",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "engaging in, working at",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "12562_juuji_ex1",
-      "japanese": "{農業|のうぎょう}に{従事|じゅうじ}している。",
+      "japanese": "⟦{農業|のうぎょう}→農業：01491_nougyou⟧⟦に→に：00314_ni⟧{従事|じゅうじ}⟦している→する：00392_suru⟧。",
       "english": "I am engaged in agriculture.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "12562_juuji_ex2",
-      "japanese": "{長年|ながねん}{研究|けんきゅう}に{従事|じゅうじ}してきた。",
+      "japanese": "⟦{長年|ながねん}→長年：09684_naganen⟧⟦{研究|けんきゅう}→研究：01396_kenkyuu⟧⟦に→に：00314_ni⟧{従事|じゅうじ}してきた。",
       "english": "I have been engaged in research for many years.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "12562_juuji_ex3",
-      "japanese": "この{工場|こうじょう}では{約|やく}{三百|さんびゃく}{人|にん}が{製造|せいぞう}{業務|ぎょうむ}に{従事|じゅうじ}している。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{工場|こうじょう}→工場：01082_koujou⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{約|やく}→約：09563_yaku⟧{三百|さんびゃく}⟦{人|にん}→〜人：00658_nin⟧⟦が→が：00051_ga⟧⟦{製造|せいぞう}→製造：03289_seizou⟧⟦{業務|ぎょうむ}→業務：09630_gyoumu⟧⟦に→に：00314_ni⟧{従事|じゅうじ}⟦している→する：00392_suru⟧。",
       "english": "About three hundred people are engaged in manufacturing work at this factory.",
       "notes": null,
       "has_audio": false,
@@ -134,11 +134,19 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA formal word most commonly seen in resumes, official documents, surveys, and news articles. In everyday conversation, {働|はたら}く or {仕事|しごと}をする is more natural. Almost always used with the particle に: Xに{従事|じゅうじ}する.\n\nCOMMON COLLOCATIONS:\n- {農業|のうぎょう}に{従事|じゅうじ}する: to be engaged in agriculture\n- {研究|けんきゅう}に{従事|じゅうじ}する: to be engaged in research\n- {業務|ぎょうむ}に{従事|じゅうじ}する: to be engaged in duties\n- {従事|じゅうじ}{者|しゃ}: worker, person engaged in",
-  "cross_references": [],
+  "notes": "USAGE:\nA formal word most commonly seen in resumes, official documents, surveys, and news articles. In everyday conversation, ⟦{働|はたら}く→働く：00503_hataraku⟧ or ⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧ is more natural. Almost always used with the particle ⟦に→に：00314_ni⟧: X⟦に→に：00314_ni⟧{従事|じゅうじ}⟦する→する：00392_suru⟧.\n\nCOMMON COLLOCATIONS:\n- ⟦{農業|のうぎょう}→農業：01491_nougyou⟧⟦に→に：00314_ni⟧{従事|じゅうじ}⟦する→する：00392_suru⟧: to be engaged in agriculture\n- ⟦{研究|けんきゅう}→研究：01396_kenkyuu⟧⟦に→に：00314_ni⟧{従事|じゅうじ}⟦する→する：00392_suru⟧: to be engaged in research\n- ⟦{業務|ぎょうむ}→業務：09630_gyoumu⟧⟦に→に：00314_ni⟧{従事|じゅうじ}⟦する→する：00392_suru⟧: to be engaged in duties\n- {従事|じゅうじ}{者|しゃ}: worker, person engaged in",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "29104_fukusu",
+      "reading": "ふくす",
+      "headword": "{服|ふく}す",
+      "label": "to comply with"
+    }
+  ],
   "metadata": {
     "created": "2026-02-21T13:24:33Z",
-    "modified": "2026-03-29T03:07:35Z",
+    "modified": "2026-09-02T04:01:29Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

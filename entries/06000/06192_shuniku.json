@@ -43,10 +43,33 @@
       ]
     }
   ],
-  "notes": "USAGE: {朱肉|しゅにく} is an essential item for using ⟦{印鑑|いんかん}→印鑑：05290_inkan⟧/⟦{判子|はんこ}→判子：00089_hanko⟧ (personal seals), which are widely used in Japan for signing documents.\n\nTYPES:\n・⟦{練|ね}り→練る：09751_neru⟧{朱肉|しゅにく} - paste-type ink pad (traditional, higher quality)\n・⟦スポンジ→スポンジ：04505_suponji⟧{朱肉|しゅにく} - sponge-type ink pad (common for everyday use)\n\nCOMMON PATTERNS:\n・{朱肉|しゅにく}⟦を→を：00422_wo⟧⟦つける→つける：00562_tsukeru⟧ (to apply red ink)\n・{朱肉|しゅにく}⟦に→に：00314_ni⟧⟦{押|お}しつける→押し付ける：04236_oshitsukeru⟧ (to press onto the ink pad)\n\nCULTURAL NOTE: While digital signatures are becoming more common, {朱肉|しゅにく} and ⟦{印鑑|いんかん}→印鑑：05290_inkan⟧ remain important in Japanese business and legal contexts.\n\nNOTE: The color is traditionally vermilion (⟦{朱|しゅ}→朱：24206_shu⟧), a red-orange shade considered auspicious in East Asian cultures.",
+  "notes": "USAGE: {朱肉|しゅにく} is an essential item for using ⟦{印鑑|いんかん}→印鑑：05290_inkan⟧/⟦{判子|はんこ}→判子：00089_hanko⟧ (personal seals), which are widely used in Japan for signing documents.\n\nTYPES:\n- ⟦{練|ね}り→練る：09751_neru⟧{朱肉|しゅにく} - paste-type ink pad (traditional, higher quality)\n- ⟦スポンジ→スポンジ：04505_suponji⟧{朱肉|しゅにく} - sponge-type ink pad (common for everyday use)\n\nCOMMON PATTERNS:\n- {朱肉|しゅにく}⟦を→を：00422_wo⟧⟦つける→つける：00562_tsukeru⟧ (to apply red ink)\n- {朱肉|しゅにく}⟦に→に：00314_ni⟧⟦{押|お}しつける→押し付ける：04236_oshitsukeru⟧ (to press onto the ink pad)\n\nCULTURAL NOTE: While digital signatures are becoming more common, {朱肉|しゅにく} and ⟦{印鑑|いんかん}→印鑑：05290_inkan⟧ remain important in Japanese business and legal contexts.\n\nNOTE: The color is traditionally vermilion (⟦{朱|しゅ}→朱：24206_shu⟧), a red-orange shade considered auspicious in East Asian cultures.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "09812_shachihata",
+      "reading": "しゃちはた",
+      "headword": "シャチハタ",
+      "label": "self-inking stamp"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23627_sutanpudai",
+      "reading": "すたんぷだい",
+      "headword": "スタンプ{台|だい}",
+      "label": "ink pad (for rubber stamps)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27357_ginkouin",
+      "reading": "ぎんこういん",
+      "headword": "{銀行印|ぎんこういん}",
+      "label": "bank seal (a personal seal registered with one's bank)"
+    }
+  ],
   "metadata": {
     "created": "2026-01-17T04:49:53Z",
-    "modified": "2026-06-19T18:20:51Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

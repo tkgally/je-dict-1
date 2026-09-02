@@ -15,41 +15,60 @@
   "examples": [
     {
       "id": "28783_kappamaki_ex1",
-      "japanese": "かっぱ{巻|ま}きを{一|ひと}つ{注文|ちゅうもん}した。",
+      "japanese": "かっぱ{巻|ま}き⟦を→を：00422_wo⟧⟦{一|ひと}つ→一つ：02948_hitotsu⟧⟦{注文|ちゅうもん}した→注文する：21390_chuumon⟧。",
       "english": "I ordered one cucumber roll.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28783_kappamaki_ex2",
-      "japanese": "かっぱ{巻|ま}きはさっぱりしていて{食|た}べやすい。",
+      "japanese": "かっぱ{巻|ま}き⟦は→は：00079_ha⟧⟦さっぱりして→さっぱりする：26802_sapparisuru⟧⟦いて→いる：00495_iru⟧⟦{食|た}べやすい→食べやすい：21799_tabeyasui⟧。",
       "english": "Cucumber rolls are refreshing and easy to eat.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28783_kappamaki_ex3",
-      "japanese": "{子供|こども}でも{食|た}べられるように、{回転寿司|かいてんずし}ではかっぱ{巻|ま}きが{定番|ていばん}だ。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧⟦{食|た}べられる→食べる：00396_taberu⟧よう⟦に→に：00314_ni⟧、⟦{回転寿司|かいてんずし}→回転寿司：11900_kaitenzushi⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧かっぱ{巻|ま}き⟦が→が：00051_ga⟧⟦{定番|ていばん}→定番：12265_teiban⟧だ。",
       "english": "So that children can eat them too, cucumber rolls are a standard item at conveyor-belt sushi restaurants.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Named after {河童|かっぱ}, the legendary water creature said to love cucumbers. かっぱ{巻|ま}き is one of the most basic and inexpensive items on a sushi menu.\n\nCOMMON COLLOCATIONS:\n- かっぱ{巻|ま}きを{注文|ちゅうもん}する: to order a cucumber roll\n- かっぱ{巻|ま}き{一|いち}{本|ぽん}: one cucumber roll\n\nSIMILAR WORDS:\n- {鉄火巻|てっかま}き: tuna roll — similarly thin roll, filled with raw tuna instead of cucumber\n- {細巻|ほそま}き: thin sushi roll — the general category that かっぱ{巻|ま}き and {鉄火巻|てっかま}き belong to",
+  "notes": "Named after ⟦{河童|かっぱ}→河童：06521_kappa⟧, the legendary water creature said to love cucumbers. かっぱ{巻|ま}き is one of the most basic and inexpensive items on a sushi menu.\n\nCOMMON COLLOCATIONS:\n- かっぱ{巻|ま}き⟦を→を：00422_wo⟧⟦{注文|ちゅうもん}する→注文する：21390_chuumon⟧: to order a cucumber roll\n- かっぱ{巻|ま}き⟦{一|いち}→一：00705_ichi⟧{本|ぽん}: one cucumber roll\n\nSIMILAR WORDS:\n- {鉄火巻|てっかま}き: tuna roll — similarly thin roll, filled with raw tuna instead of cucumber\n- ⟦{細巻|ほそま}き→細巻き：21366_hosomaki⟧: thin sushi roll — the general category that かっぱ{巻|ま}き and {鉄火巻|てっかま}き belong to",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21366_hosomaki",
+      "reading": "ほそまき",
+      "headword": "{細巻|ほそま}き",
+      "label": "thin sushi roll"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["food"],
+      "politeness": "plain",
+      "semantic": [
+        "food"
+      ],
       "domain": []
     },
     "created": "2026-06-05T03:07:50Z",
-    "modified": "2026-06-05T03:07:50Z"
+    "modified": "2026-09-02T04:02:34Z"
   }
 }

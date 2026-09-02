@@ -3,7 +3,7 @@
   "id": "17785_koushou",
   "headword": "{口承|こうしょう}",
   "reading": "こうしょう",
-  "part_of_speech": "noun / verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "oral tradition; oral transmission",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "17785_koushou_ex1",
-      "japanese": "この{物語|ものがたり}は{口承|こうしょう}で{伝|つた}えられてきた。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{物語|ものがたり}→物語：03634_monogatari⟧⟦は→は：00079_ha⟧{口承|こうしょう}⟦で→で：00502_de⟧⟦{伝|つた}えられて→伝える：01220_tsutaeru⟧きた。",
       "english": "This story has been passed down through oral tradition.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "17785_koushou_ex2",
-      "japanese": "{口承|こうしょう}{文学|ぶんがく}は{世界中|せかいじゅう}にある。",
+      "japanese": "{口承|こうしょう}⟦{文学|ぶんがく}→文学：01505_bungaku⟧⟦は→は：00079_ha⟧⟦{世界中|せかいじゅう}→世界中：10171_sekaijuu⟧⟦に→に：00314_ni⟧⟦ある→ある：00006_aru⟧。",
       "english": "Oral literature exists all over the world.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "17785_koushou_ex3",
-      "japanese": "{文字|もじ}を{持|も}たない{民族|みんぞく}の{歴史|れきし}は{口承|こうしょう}によって{受|う}け{継|つ}がれてきた。",
+      "japanese": "⟦{文字|もじ}→文字：03632_moji⟧⟦を→を：00422_wo⟧⟦{持|も}たない→持つ：00478_motsu⟧⟦{民族|みんぞく}→民族：13229_minzoku⟧⟦の→の：09472_no⟧⟦{歴史|れきし}→歴史：02267_rekishi⟧⟦は→は：00079_ha⟧{口承|こうしょう}⟦によって→によって：06801_niyotte⟧⟦{受|う}け{継|つ}がれて→受け継ぐ：06700_uketsugu⟧きた。",
       "english": "The history of peoples without a writing system has been carried on through oral tradition.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA compound of {口|こう} (mouth) + {承|しょう} (to receive, to carry on). Refers to the cultural practice of transmitting stories, songs, legends, and knowledge by word of mouth across generations. Common in anthropology, folklore studies, and literature.\n\nCOMMON COLLOCATIONS:\n- {口承|こうしょう}{文学|ぶんがく} (oral literature)\n- {口承|こうしょう}{文化|ぶんか} (oral culture)\n- {口承|こうしょう}で{伝|つた}える (to pass down orally)\n\nSIMILAR WORDS:\n- {口伝|くでん}: oral instruction — emphasizes teaching or transmitting skills by word of mouth\n- {言|い}い{伝|つた}え: legend, tradition — a specific story handed down, rather than the practice of oral transmission itself",
+  "notes": "USAGE:\nA compound of {口|こう} (mouth) + {承|しょう} (to receive, to carry on). Refers to the cultural practice of transmitting stories, songs, legends, and knowledge by word of mouth across generations. Common in anthropology, folklore studies, and literature.\n\nCOMMON COLLOCATIONS:\n- {口承|こうしょう}⟦{文学|ぶんがく}→文学：01505_bungaku⟧ (oral literature)\n- {口承|こうしょう}⟦{文化|ぶんか}→文化：01504_bunka⟧ (oral culture)\n- {口承|こうしょう}⟦で→で：00502_de⟧⟦{伝|つた}える→伝える：01220_tsutaeru⟧ (to pass down orally)\n\nSIMILAR WORDS:\n- ⟦{口伝|くでん}→口伝：27115_kuden⟧: oral instruction — emphasizes teaching or transmitting skills by word of mouth\n- ⟦{言|い}い{伝|つた}え→言い伝え：14145_iitsutae⟧: legend, tradition — a specific story handed down, rather than the practice of oral transmission itself",
   "cross_references": [
     {
       "type": "related",
@@ -142,11 +142,18 @@
       "reading": "いいつたえ",
       "headword": "{言|い}い{伝|つた}え",
       "label": "legend, tradition"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27115_kuden",
+      "reading": "くでん",
+      "headword": "{口伝|くでん}",
+      "label": "oral instruction"
     }
   ],
   "metadata": {
     "created": "2026-03-19T03:56:51Z",
-    "modified": "2026-05-07T07:05:50Z",
+    "modified": "2026-09-02T04:01:49Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

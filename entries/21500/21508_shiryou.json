@@ -15,40 +15,73 @@
   "examples": [
     {
       "id": "21508_shiryou_ex1",
-      "japanese": "{試料|しりょう}を{採取|さいしゅ}する。",
+      "japanese": "{試料|しりょう}⟦を→を：00422_wo⟧⟦{採取|さいしゅ}→採取：12901_saishu⟧⟦する→する：00392_suru⟧。",
       "english": "To collect a sample.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21508_shiryou_ex2",
-      "japanese": "{試料|しりょう}を{顕微鏡|けんびきょう}で{観察|かんさつ}した。",
+      "japanese": "{試料|しりょう}⟦を→を：00422_wo⟧⟦{顕微鏡|けんびきょう}→顕微鏡：05482_kenbikyou⟧⟦で→で：00502_de⟧⟦{観察|かんさつ}した→観察する：21989_kansatsusuru⟧。",
       "english": "I observed the specimen under a microscope.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21508_shiryou_ex3",
-      "japanese": "{実験|じっけん}に{使|つか}う{試料|しりょう}は、{汚染|おせん}されないように{注意|ちゅうい}して{保管|ほかん}する{必要|ひつよう}がある。",
+      "japanese": "⟦{実験|じっけん}→実験：03273_jikken⟧⟦に→に：00314_ni⟧⟦{使|つか}う→使う：00473_tsukau⟧{試料|しりょう}⟦は→は：00079_ha⟧、⟦{汚染|おせん}→汚染：02595_osen⟧⟦されない→する：00392_suru⟧よう⟦に→に：00314_ni⟧⟦{注意|ちゅうい}→注意：01464_chuui⟧⟦して→する：00392_suru⟧⟦{保管|ほかん}する→保管する：25536_hokansuru⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "Samples used in experiments must be stored carefully to prevent contamination.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A technical term for a sample or specimen used in scientific analysis, testing, or quality control. Composed of {試|し} (test, try) + {料|りょう} (material).\n\nCOMMON COLLOCATIONS:\n- {試料|しりょう}を{採取|さいしゅ}する: to collect a sample\n- {試料|しりょう}を{分析|ぶんせき}する: to analyze a sample\n- {試料|しりょう}を{準備|じゅんび}する: to prepare a specimen\n- {試料|しりょう}の{保存|ほぞん}: preservation of samples\n\nSIMILAR WORDS:\n- {資料|しりょう}: materials, documents — a homophone meaning reference materials or documents; completely different meaning\n- {標本|ひょうほん}: specimen, sample — used for biological specimens, statistical samples, and museum exhibits\n- サンプル: sample — the loanword from English; more casual and used broadly in both scientific and commercial contexts\n- {検体|けんたい}: test specimen — specifically for medical or forensic testing\n\nNOTE:\nBe careful not to confuse with the common homophone {資料|しりょう} (documents/materials). In spoken Japanese, context usually makes the distinction clear, but in writing the kanji are different.",
+  "notes": "A technical term for a sample or specimen used in scientific analysis, testing, or quality control. Composed of {試|し} (test, try) + ⟦{料|りょう}→料：28172_ryou⟧ (material).\n\nCOMMON COLLOCATIONS:\n- {試料|しりょう}⟦を→を：00422_wo⟧⟦{採取|さいしゅ}→採取：12901_saishu⟧⟦する→する：00392_suru⟧: to collect a sample\n- {試料|しりょう}⟦を→を：00422_wo⟧⟦{分析|ぶんせき}する→分析する：25338_bunsekisuru⟧: to analyze a sample\n- {試料|しりょう}⟦を→を：00422_wo⟧⟦{準備|じゅんび}する→準備する：22427_junbisuru⟧: to prepare a specimen\n- {試料|しりょう}⟦の→の：09472_no⟧⟦{保存|ほぞん}→保存：03626_hozon⟧: preservation of samples\n\nSIMILAR WORDS:\n- ⟦{資料|しりょう}→資料：04166_shiryou⟧: materials, documents — a homophone meaning reference materials or documents; completely different meaning\n- ⟦{標本|ひょうほん}→標本：13174_hyouhon⟧: specimen, sample — used for biological specimens, statistical samples, and museum exhibits\n- ⟦サンプル→サンプル：10939_sanpuru⟧: sample — the loanword from English; more casual and used broadly in both scientific and commercial contexts\n- {検体|けんたい}: test specimen — specifically for medical or forensic testing\n\nUSAGE:\nBe careful not to confuse with the common homophone ⟦{資料|しりょう}→資料：04166_shiryou⟧ (documents/materials). In spoken Japanese, context usually makes the distinction clear, but in writing the kanji are different.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "homophone",
+      "target_id": "04166_shiryou",
+      "reading": "しりょう",
+      "headword": "{資料|しりょう}",
+      "label": "materials, documents"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13174_hyouhon",
+      "reading": "ひょうほん",
+      "headword": "{標本|ひょうほん}",
+      "label": "specimen, sample"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10939_sanpuru",
+      "reading": "さんぷる",
+      "headword": "サンプル",
+      "label": "sample"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["science"]
+      "semantic": [
+        "science"
+      ]
     },
     "created": "2026-04-02T14:09:42Z",
-    "modified": "2026-04-02T14:09:42Z"
+    "modified": "2026-09-02T04:02:03Z"
   }
 }

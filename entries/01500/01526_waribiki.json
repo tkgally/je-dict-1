@@ -54,7 +54,7 @@
     },
     {
       "id": "01526_waribiki_ex5",
-      "japanese": "⟦この→この：00962_kono⟧⟦{店|みせ}→店：00497_mise⟧⟦は→は：00079_ha⟧⟦{毎週|まいしゅう}→毎週：00730_maishuu⟧⟦{金曜日|きんようび}→金曜日：00642_kinyoubi⟧⟦に→に：00314_ni⟧⟦セール→セール：07780_seeru⟧⟦を→を：00422_wo⟧⟦していて→する：00392_suru⟧、{全品|ぜんぴん}10%{割引|わりびき}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{店|みせ}→店：00497_mise⟧⟦は→は：00079_ha⟧⟦{毎週|まいしゅう}→毎週：00730_maishuu⟧⟦{金曜日|きんようび}→金曜日：00642_kinyoubi⟧⟦に→に：00314_ni⟧⟦セール→セール：07780_seeru⟧⟦を→を：00422_wo⟧⟦していて→する：00392_suru⟧、⟦{全品|ぜんぴん}→全品：26366_zenpin⟧10%{割引|わりびき}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧。",
       "english": "This store has a sale every Friday, and everything is 10% off.",
       "notes": null,
       "has_audio": false,
@@ -78,11 +78,53 @@
       "reading": "わりまし",
       "headword": "{割増|わりまし}",
       "label": "surcharge; premium"
+    },
+    {
+      "type": "related",
+      "target_id": "07780_seeru",
+      "reading": "せーる",
+      "headword": "セール",
+      "label": "sale"
+    },
+    {
+      "type": "related",
+      "target_id": "09546_hangaku",
+      "reading": "はんがく",
+      "headword": "{半額|はんがく}",
+      "label": "half price"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07583_nesage",
+      "reading": "ねさげ",
+      "headword": "{値下|ねさ}げ",
+      "label": "price reduction"
+    },
+    {
+      "type": "related",
+      "target_id": "08258_baagen",
+      "reading": "ばーげん",
+      "headword": "バーゲン",
+      "label": "bargain sale"
+    },
+    {
+      "type": "related",
+      "target_id": "15808_tokubaihin",
+      "reading": "とくばいひん",
+      "headword": "{特売品|とくばいひん}",
+      "label": "bargain item"
+    },
+    {
+      "type": "related",
+      "target_id": "18798_tokka",
+      "reading": "とっか",
+      "headword": "{特価|とっか}",
+      "label": "special price"
     }
   ],
   "metadata": {
     "created": "2026-01-08T12:39:30Z",
-    "modified": "2026-05-15T20:14:59Z",
+    "modified": "2026-09-02T04:00:59Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

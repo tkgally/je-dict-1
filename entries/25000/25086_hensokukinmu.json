@@ -15,38 +15,74 @@
   "examples": [
     {
       "id": "25086_hensokukinmu_ex1",
-      "japanese": "{変則勤務|へんそくきんむ}は{体|からだ}に{負担|ふたん}がかかる。",
+      "japanese": "{変則勤務|へんそくきんむ}⟦は→は：00079_ha⟧⟦{体|からだ}→体：00784_karada⟧⟦に→に：00314_ni⟧⟦{負担|ふたん}→負担：09752_futan⟧⟦が→が：00051_ga⟧⟦かかる→かかる：00711_kakaru⟧。",
       "english": "Irregular working hours put a strain on the body.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "25086_hensokukinmu_ex2",
-      "japanese": "{看護師|かんごし}は{変則勤務|へんそくきんむ}が{多|おお}い{職業|しょくぎょう}だ。",
+      "japanese": "⟦{看護師|かんごし}→看護師：05055_kangoshi⟧⟦は→は：00079_ha⟧{変則勤務|へんそくきんむ}⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧⟦{職業|しょくぎょう}→職業：03245_shokugyou⟧だ。",
       "english": "Nursing is a profession with many irregular shifts.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "25086_hensokukinmu_ex3",
-      "japanese": "{変則勤務|へんそくきんむ}のせいで{生活|せいかつ}リズムが{崩|くず}れて、{睡眠|すいみん}の{質|しつ}が{下|さ}がった。",
+      "japanese": "{変則勤務|へんそくきんむ}⟦の→の：09472_no⟧せい⟦で→で：00502_de⟧⟦{生活|せいかつ}→生活：01443_seikatsu⟧⟦リズム→リズム：04746_rizumu⟧⟦が→が：00051_ga⟧⟦{崩|くず}れて→崩れる：04248_kuzureru⟧、⟦{睡眠|すいみん}→睡眠：03359_suimin⟧⟦の→の：09472_no⟧⟦{質|しつ}→質：01425_shitsu⟧⟦が→が：00051_ga⟧⟦{下|さ}がった→下がる：01188_sagaru⟧。",
       "english": "Because of irregular working hours, my daily rhythm was disrupted and my sleep quality declined.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Combines {変則|へんそく} (irregular, non-standard) and {勤務|きんむ} (work, duty). Common in healthcare, manufacturing, transportation, and service industries where 24-hour operations require employees to work outside regular business hours.\n\nCOMMON COLLOCATIONS:\n- {変則勤務|へんそくきんむ}{手当|てあて}: irregular hours allowance\n- {変則勤務|へんそくきんむ}{体制|たいせい}: irregular shift system\n- {変則勤務|へんそくきんむ}に{慣|な}れる: to get used to irregular hours\n- {変則勤務|へんそくきんむ}を{強|し}いられる: to be forced into irregular hours\n\nSIMILAR WORDS:\n- {交代勤務|こうたいきんむ}: shift work — working in rotating shifts with other workers\n- {夜勤|やきん}: night shift — specifically working during nighttime hours\n- {不規則勤務|ふきそくきんむ}: irregular work — similar meaning with slightly different nuance\n- {フレックスタイム|ふれっくすたいむ}: flextime — flexible hours chosen by the worker, a positive arrangement",
+  "notes": "Combines ⟦{変則|へんそく}→変則：25314_hensoku⟧ (irregular, non-standard) and ⟦{勤務|きんむ}→勤務：04545_kinmu⟧ (work, duty). Common in healthcare, manufacturing, transportation, and service industries where 24-hour operations require employees to work outside regular business hours.\n\nCOMMON COLLOCATIONS:\n- {変則勤務|へんそくきんむ}{手当|てあて}: irregular hours allowance\n- {変則勤務|へんそくきんむ}⟦{体制|たいせい}→体制：04490_taisei⟧: irregular shift system\n- {変則勤務|へんそくきんむ}⟦に→に：00314_ni⟧⟦{慣|な}れる→慣れる：00870_nareru⟧: to get used to irregular hours\n- {変則勤務|へんそくきんむ}⟦を→を：00422_wo⟧⟦{強|し}いられる→強いる：15604_shiiru⟧: to be forced into irregular hours\n\nSIMILAR WORDS:\n- {交代勤務|こうたいきんむ}: shift work — working in rotating shifts with other workers\n- ⟦{夜勤|やきん}→夜勤：09549_yakin⟧: night shift — specifically working during nighttime hours\n- {不規則勤務|ふきそくきんむ}: irregular work — similar meaning with slightly different nuance\n- ⟦フレックスタイム→フレックスタイム：24473_furekkusutaimu⟧: flextime — flexible hours chosen by the worker, a positive arrangement",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09549_yakin",
+      "reading": "やきん",
+      "headword": "{夜勤|やきん}",
+      "label": "night shift"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24473_furekkusutaimu",
+      "reading": "ふれっくすたいむ",
+      "headword": "フレックスタイム",
+      "label": "flextime"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25627_koutaikinmu",
+      "reading": "こうたいきんむ",
+      "headword": "{交替勤務|こうたいきんむ}",
+      "label": "shift work"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["work", "daily-life"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "work",
+        "daily-life"
+      ]
     },
     "created": "2026-04-22T14:38:01Z",
-    "modified": "2026-04-22T14:38:01Z"
+    "modified": "2026-09-02T04:02:21Z"
   }
 }

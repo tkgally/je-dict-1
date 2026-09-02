@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "25067_sokke_ex1",
-      "japanese": "{彼|かれ}の{返事|へんじ}は{素|そ}っ{気|け}なかった。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧⟦{返事|へんじ}→返事：00844_henji⟧⟦は→は：00079_ha⟧{素|そ}っ{気|け}なかった。",
       "english": "His reply was curt.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "25067_sokke_ex2",
-      "japanese": "{素|そ}っ{気|け}ない{態度|たいど}を{取|と}らないでほしい。",
+      "japanese": "{素|そ}っ{気|け}ない⟦{態度|たいど}→態度：03396_taido⟧⟦を→を：00422_wo⟧⟦{取|と}らないで→取る：00565_toru⟧ほしい。",
       "english": "I wish you wouldn't act so cold toward me.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "25067_sokke_ex3",
-      "japanese": "{店員|てんいん}に{素|そ}っ{気|け}なく{断|ことわ}られて、がっかりした。",
+      "japanese": "⟦{店員|てんいん}→店員：00897_tenin⟧⟦に→に：00314_ni⟧{素|そ}っ{気|け}なく⟦{断|ことわ}られて→断る：02102_kotowaru⟧、⟦がっかりした→がっかりする：21758_gakkarisuru⟧。",
       "english": "I was disappointed when the shop clerk curtly turned me down.",
       "sense_numbers": [
         1
@@ -44,20 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "Almost exclusively used in the negative form {素|そ}っ{気|け}ない (curt, cold, unfriendly) or as the adverb {素|そ}っ{気|け}なく. The positive form {素|そ}っ{気|け} alone is rarely used. Describes a manner of speaking or behaving that lacks warmth or interest.\n\nCOMMON COLLOCATIONS:\n- {素|そ}っ{気|け}ない{返事|へんじ}: a curt reply\n- {素|そ}っ{気|け}ない{態度|たいど}: a cold attitude\n- {素|そ}っ{気|け}なく{言|い}う: to say curtly\n- {素|そ}っ{気|け}なく{断|ことわ}る: to refuse coldly\n\nSIMILAR WORDS:\n- {冷|つめ}たい: cold — describes both personality and physical temperature; broader than {素|そ}っ{気|け}ない\n- {愛想|あいそ}がない: unfriendly — emphasizes lack of sociability or charm\n- {無愛想|ぶあいそう}: brusque, unsociable — stronger than {素|そ}っ{気|け}ない, suggesting habitual unfriendliness",
+  "notes": "Almost exclusively used in the negative form {素|そ}っ{気|け}ない (curt, cold, unfriendly) or as the adverb {素|そ}っ{気|け}なく. The positive form {素|そ}っ{気|け} alone is rarely used. Describes a manner of speaking or behaving that lacks warmth or interest.\n\nCOMMON COLLOCATIONS:\n- {素|そ}っ{気|け}ない⟦{返事|へんじ}→返事：00844_henji⟧: a curt reply\n- {素|そ}っ{気|け}ない⟦{態度|たいど}→態度：03396_taido⟧: a cold attitude\n- {素|そ}っ{気|け}なく⟦{言|い}う→言う：00515_iu⟧: to say curtly\n- {素|そ}っ{気|け}なく⟦{断|ことわ}る→断る：02102_kotowaru⟧: to refuse coldly\n\nSIMILAR WORDS:\n- ⟦{冷|つめ}たい→冷たい：00681_tsumetai⟧: cold — describes both personality and physical temperature; broader than {素|そ}っ{気|け}ない\n- ⟦{愛想|あいそ}→愛想：12699_aiso⟧⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧: unfriendly — emphasizes lack of sociability or charm\n- ⟦{無愛想|ぶあいそう}→無愛想：07294_buaisou⟧: brusque, unsociable — stronger than {素|そ}っ{気|け}ない, suggesting habitual unfriendliness",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00681_tsumetai",
+      "reading": "つめたい",
+      "headword": "{冷|つめ}たい",
+      "label": "cold"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07294_buaisou",
+      "reading": "ぶあいそう",
+      "headword": "{無愛想|ぶあいそう}",
+      "label": "brusque, unsociable"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "personality",
         "emotion"
       ]
     },
     "created": "2026-04-22T13:15:18Z",
-    "modified": "2026-04-22T13:15:18Z"
+    "modified": "2026-09-02T04:02:21Z"
   }
 }

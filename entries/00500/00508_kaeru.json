@@ -153,7 +153,7 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive). Pair: ⟦{帰|かえ}す→帰す：02030_kaesu⟧ (transitive; send someone home). Pattern: X⟦に→に：00314_ni⟧{帰|かえ}る (return to X).\n\nASPECT: ている indicates resulting state. {帰|かえ}っている = 'has returned (and is there now).'\n\nCOMMON PATTERNS:\n- ⟦{家|いえ}→家：00612_ie⟧⟦に→に：00314_ni⟧{帰|かえ}る (go home)\n- ⟦{国|くに}→国：02204_kuni⟧⟦に→に：00314_ni⟧{帰|かえ}る (return to one's country)\n- ⟦お{帰|かえ}りなさい→お帰りなさい：01042_okaerinasai⟧ (welcome home - greeting)\n- {帰|かえ}り (return trip - noun)\n\nGodan verb despite ending in る. Different from ⟦{戻|もど}る→戻る：01117_modoru⟧ (return to previous state) and ⟦{変|か}える→変える：01089_kaeru⟧ (to change - ichidan).",
+  "notes": "TRANSITIVITY: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive). Pair: ⟦{帰|かえ}す→帰す：02030_kaesu⟧ (transitive; send someone home). Pattern: X⟦に→に：00314_ni⟧{帰|かえ}る (return to X).\n\nASPECT: て⟦いる→いる：00495_iru⟧ indicates resulting state. {帰|かえ}って⟦いる→いる：00495_iru⟧ = 'has returned (and is there now).'\n\nCOMMON PATTERNS:\n- ⟦{家|いえ}→家：00612_ie⟧⟦に→に：00314_ni⟧{帰|かえ}る (go home)\n- ⟦{国|くに}→国：02204_kuni⟧⟦に→に：00314_ni⟧{帰|かえ}る (return to one's country)\n- ⟦お{帰|かえ}りなさい→お帰りなさい：01042_okaerinasai⟧ (welcome home - greeting)\n- ⟦{帰|かえ}り→帰り：01275_kaeri⟧ (return trip - noun)\n\nGodan verb despite ending in る. Different from ⟦{戻|もど}る→戻る：01117_modoru⟧ (return to previous state) and ⟦{変|か}える→変える：01089_kaeru⟧ (to change - ichidan).",
   "cross_references": [
     {
       "type": "see_also",
@@ -174,11 +174,46 @@
       "reading": "でかける",
       "headword": "{出|で}かける",
       "label": "to go out"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21786_kikokusuru",
+      "reading": "きこくする",
+      "headword": "{帰国|きこく}する",
+      "label": "to return to one's country"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22169_kitakusuru",
+      "reading": "きたくする",
+      "headword": "{帰宅|きたく}する",
+      "label": "to return home"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23015_jikyosuru",
+      "reading": "じきょする",
+      "headword": "{辞去|じきょ}する",
+      "label": "to take one's leave"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27378_tachikaeru",
+      "reading": "たちかえる",
+      "headword": "{立|た}ち{返|かえ}る",
+      "label": "to return (to a starting point, principle, or original state)"
+    },
+    {
+      "type": "homophone",
+      "target_id": "29164_kaeru",
+      "reading": "かえる",
+      "headword": "{返|かえ}る",
+      "label": "to return"
     }
   ],
   "metadata": {
     "created": "2026-01-07T12:13:05Z",
-    "modified": "2026-08-15T15:21:36Z",
+    "modified": "2026-09-02T04:00:57Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

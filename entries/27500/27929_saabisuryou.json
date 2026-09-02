@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "27929_saabisuryou_ex1",
-      "japanese": "サービス{料|りょう}が{別|べつ}にかかります。",
+      "japanese": "サービス{料|りょう}⟦が→が：00051_ga⟧⟦{別|べつ}→別：01216_betsu⟧⟦に→に：00314_ni⟧⟦かかります→かかる：00711_kakaru⟧。",
       "english": "A service charge applies separately.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "27929_saabisuryou_ex2",
-      "japanese": "このホテルはサービス{料|りょう}が{含|ふく}まれている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦ホテル→ホテル：01027_hoteru⟧⟦は→は：00079_ha⟧サービス{料|りょう}⟦が→が：00051_ga⟧⟦{含|ふく}まれている→含む：01982_fukumu⟧。",
       "english": "At this hotel the service charge is included.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "27929_saabisuryou_ex3",
-      "japanese": "{料金|りょうきん}にはサービス{料|りょう}と{消費税|しょうひぜい}が{加|くわ}わります。",
+      "japanese": "⟦{料金|りょうきん}→料金：03797_ryoukin⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧サービス{料|りょう}⟦と→と：00512_to⟧⟦{消費税|しょうひぜい}→消費税：04803_shouhizei⟧⟦が→が：00051_ga⟧⟦{加|くわ}わります→加わる：01940_kuwawaru⟧。",
       "english": "A service charge and consumption tax are added to the price.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Compound of サービス (service) + {料|りょう} (fee, charge). Japan has no tipping custom, so a service charge added to the bill plays a similar role at upscale venues.\n\nCOMMON COLLOCATIONS:\n- サービス{料|りょう}{込|こ}み: service charge included\n- サービス{料|りょう}{別|べつ}: service charge not included\n- サービス{料|りょう}がかかる: a service charge applies\n\nSIMILAR WORDS:\n- {消費税|しょうひぜい}: consumption tax — a government tax, not a service fee\n- {手数料|てすうりょう}: handling fee; commission — charged for processing, not service",
+  "notes": "Compound of ⟦サービス→サービス：01531_saabisu⟧ (service) + ⟦{料|りょう}→料：28172_ryou⟧ (fee, charge). Japan has no tipping custom, so a service charge added to the bill plays a similar role at upscale venues.\n\nCOMMON COLLOCATIONS:\n- サービス{料|りょう}⟦{込|こ}み→込み：28615_komi⟧: service charge included\n- サービス{料|りょう}⟦{別|べつ}→別：01216_betsu⟧: service charge not included\n- サービス{料|りょう}⟦が→が：00051_ga⟧⟦かかる→かかる：00711_kakaru⟧: a service charge applies\n\nSIMILAR WORDS:\n- ⟦{消費税|しょうひぜい}→消費税：04803_shouhizei⟧: consumption tax — a government tax, not a service fee\n- ⟦{手数料|てすうりょう}→手数料：05423_tesuuryou⟧: handling fee; commission — charged for processing, not service",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04803_shouhizei",
+      "reading": "しょうひぜい",
+      "headword": "{消費税|しょうひぜい}",
+      "label": "consumption tax"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05423_tesuuryou",
+      "reading": "てすうりょう",
+      "headword": "{手数料|てすうりょう}",
+      "label": "handling fee"
+    },
+    {
+      "type": "related",
+      "target_id": "07142_shukuhakuryou",
+      "reading": "しゅくはくりょう",
+      "headword": "{宿泊料|しゅくはくりょう}",
+      "label": "accommodation fee"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +76,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "business",
         "money"
@@ -61,6 +84,6 @@
       "domain": []
     },
     "created": "2026-05-23T03:06:48Z",
-    "modified": "2026-08-08T03:24:52Z"
+    "modified": "2026-09-02T04:02:32Z"
   }
 }

@@ -3,7 +3,7 @@
   "headword": "{換金|かんきん}",
   "reading": "かんきん",
   "romaji": "kankin",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "conversion to cash; cashing in",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28179_kankin_ex1",
-      "japanese": "{株|かぶ}を{換金|かんきん}した。",
+      "japanese": "⟦{株|かぶ}→株：02592_kabu⟧⟦を→を：00422_wo⟧{換金|かんきん}⟦した→する：00392_suru⟧。",
       "english": "I converted my stocks into cash.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28179_kankin_ex2",
-      "japanese": "この{商品|しょうひん}{券|けん}は{換金|かんきん}できません。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{商品|しょうひん}{券|けん}→商品券：22121_shouhinken⟧⟦は→は：00079_ha⟧{換金|かんきん}⟦できません→できる：00557_dekiru⟧。",
       "english": "This gift voucher cannot be exchanged for cash.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28179_kankin_ex3",
-      "japanese": "{急|きゅう}にお{金|かね}が{必要|ひつよう}になり、{持|も}っていた{金|きん}を{換金|かんきん}することにした。",
+      "japanese": "⟦{急|きゅう}→急：13042_kyuu⟧⟦に→に：00314_ni⟧⟦お{金|かね}→お金：00611_okane⟧⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧⟦に→に：00314_ni⟧⟦なり→なる：01970_naru⟧、⟦{持|も}っていた→持つ：00478_motsu⟧{金|きん}⟦を→を：00422_wo⟧{換金|かんきん}⟦する→する：00392_suru⟧ことにした。",
       "english": "I suddenly needed money, so I decided to cash in the gold I had.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {換|かん} (exchange) + {金|きん} (money). Takes する to form a transitive verb (Xを{換金|かんきん}する).\n\nCOMMON COLLOCATIONS:\n- {換金|かんきん}する: to convert to cash\n- {換金|かんきん}{性|せい}: liquidity (ease of converting to cash)\n- {換金|かんきん}{作物|さくもつ}: cash crop\n\nSIMILAR WORDS:\n- {両替|りょうがえ}: money exchange — swapping one currency or denomination for another, not selling assets\n- {現金化|げんきんか}: turning into cash — near-synonym, often used for vouchers and points",
+  "notes": "Compound of {換|かん} (exchange) + {金|きん} (money). Takes ⟦する→する：00392_suru⟧ to form a transitive verb (X⟦を→を：00422_wo⟧{換金|かんきん}⟦する→する：00392_suru⟧).\n\nCOMMON COLLOCATIONS:\n- {換金|かんきん}⟦する→する：00392_suru⟧: to convert to cash\n- {換金|かんきん}⟦{性|せい}→性：09880_sei⟧: liquidity (ease of converting to cash)\n- {換金|かんきん}⟦{作物|さくもつ}→作物：02823_sakumotsu⟧: cash crop\n\nSIMILAR WORDS:\n- ⟦{両替|りょうがえ}→両替：03680_ryougae⟧: money exchange — swapping one currency or denomination for another, not selling assets\n- {現金化|げんきんか}: turning into cash — near-synonym, often used for vouchers and points",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03680_ryougae",
+      "reading": "りょうがえ",
+      "headword": "{両替|りょうがえ}",
+      "label": "money exchange"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,7 +71,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-27T02:07:43Z",
-    "modified": "2026-05-27T02:07:43Z"
+    "modified": "2026-09-02T04:02:32Z"
   },
   "conjugation": {
     "type": "suru",

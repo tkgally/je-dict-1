@@ -20,7 +20,7 @@
   "examples": [
     {
       "id": "26595_doregurai_ex1",
-      "japanese": "どれぐらいかかりますか。",
+      "japanese": "どれぐらい⟦かかります→かかる：00711_kakaru⟧⟦か→か：09473_ka⟧。",
       "english": "How much does it cost? / How long does it take?",
       "sense_numbers": [
         1,
@@ -31,7 +31,7 @@
     },
     {
       "id": "26595_doregurai_ex2",
-      "japanese": "{日本語|にほんご}をどれぐらい{勉強|べんきょう}しましたか。",
+      "japanese": "⟦{日本語|にほんご}→日本語：00614_nihongo⟧⟦を→を：00422_wo⟧どれぐらい⟦{勉強|べんきょう}しました→勉強する：00527_benkyousuru⟧⟦か→か：09473_ka⟧。",
       "english": "How long have you studied Japanese?",
       "sense_numbers": [
         2
@@ -41,7 +41,7 @@
     },
     {
       "id": "26595_doregurai_ex3",
-      "japanese": "この{仕事|しごと}がどれぐらい{大変|たいへん}か、やってみないと{分|わ}からない。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦が→が：00051_ga⟧どれぐらい⟦{大変|たいへん}→大変：00594_taihen⟧⟦か→か：09473_ka⟧、⟦やって→やる：02980_yaru⟧みない⟦と→と：00512_to⟧⟦{分|わ}からない→分かる：00463_wakaru⟧。",
       "english": "You won't know how hard this job is until you try it.",
       "sense_numbers": [
         1
@@ -51,7 +51,7 @@
     },
     {
       "id": "26595_doregurai_ex4",
-      "japanese": "{駅|えき}までどれぐらいですか。",
+      "japanese": "⟦{駅|えき}→駅：02180_eki⟧⟦まで→まで：00490_made⟧どれぐらいです⟦か→か：09473_ka⟧。",
       "english": "How far is it to the station?",
       "sense_numbers": [
         2
@@ -61,7 +61,7 @@
     },
     {
       "id": "26595_doregurai_ex5",
-      "japanese": "{完成|かんせい}までどれぐらい{時間|じかん}がかかりますか。",
+      "japanese": "⟦{完成|かんせい}→完成：01550_kansei⟧⟦まで→まで：00490_made⟧どれぐらい⟦{時間|じかん}→時間：00468_jikan⟧⟦が→が：00051_ga⟧⟦かかります→かかる：00711_kakaru⟧⟦か→か：09473_ka⟧。",
       "english": "How long will it take until completion?",
       "sense_numbers": [
         2
@@ -71,7 +71,7 @@
     },
     {
       "id": "26595_doregurai_ex6",
-      "japanese": "{去年|きょねん}と{比|くら}べてどれぐらい{売|う}り{上|あ}げが{増|ふ}えたか{報告|ほうこく}してください。",
+      "japanese": "⟦{去年|きょねん}→去年：00727_kyonen⟧⟦と→と：00512_to⟧⟦{比|くら}べて→比べる：01237_kuraberu⟧どれぐらい{売|う}り{上|あ}げ⟦が→が：00051_ga⟧⟦{増|ふ}えた→増える：01183_fueru⟧⟦か→か：09473_ka⟧⟦{報告|ほうこく}して→報告する：05644_houkokusuru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please report how much sales have increased compared to last year.",
       "sense_numbers": [
         1
@@ -80,8 +80,30 @@
       "notes": null
     }
   ],
-  "notes": "A very common interrogative expression used in everyday conversation to ask about quantity, degree, distance, or duration. Also written as どれくらい (without the voiced mark). The two forms are interchangeable, though どのくらい is slightly more formal.\n\nSIMILAR EXPRESSIONS:\n- どのくらい: same meaning, slightly more formal\n- どのぐらい: same meaning, alternative form\n- どれだけ: emphasizes extent or degree, often with an emotional nuance (\"how much\" with a sense of emphasis)\n- いくら: specifically asks about price or monetary amount\n- いくつ: asks about countable quantity or age\n\nUSAGE:\nOften used with かかる (to take/cost) to ask about time or expense. Can be used with any measurable quality including distance, temperature, weight, and abstract concepts like difficulty.",
-  "cross_references": [],
+  "notes": "A very common interrogative expression used in everyday conversation to ask about quantity, degree, distance, or duration. Also written as ⟦どれ→どれ：00547_dore⟧くらい (without the voiced mark). The two forms are interchangeable, though ⟦どの→どの：00551_dono⟧くらい is slightly more formal.\n\nSIMILAR WORDS:\n- ⟦どの→どの：00551_dono⟧くらい: same meaning, slightly more formal\n- ⟦どの→どの：00551_dono⟧⟦ぐらい→ぐらい：02900_gurai⟧: same meaning, alternative form\n- ⟦どれ→どれ：00547_dore⟧⟦だけ→〜だけ：03093_dake⟧: emphasizes extent or degree, often with an emotional nuance (\"how much\" with a sense of emphasis)\n- いくら: specifically asks about price or monetary amount\n- いくつ: asks about countable quantity or age\n\nUSAGE:\nOften used with ⟦かかる→かかる：00711_kakaru⟧ (to take/cost) to ask about time or expense. Can be used with any measurable quality including distance, temperature, weight, and abstract concepts like difficulty.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09584_donokurai",
+      "reading": "どのくらい",
+      "headword": "どのくらい",
+      "label": "same meaning, slightly more formal"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24191_doredake",
+      "reading": "どれだけ",
+      "headword": "どれだけ",
+      "label": "emphasizes extent or degree, often…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00944_ikutsu",
+      "reading": "いくつ",
+      "headword": "{幾|いく}つ",
+      "label": "asks about countable quantity or age"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -97,6 +119,6 @@
       "domain": []
     },
     "created": "2026-05-03T14:18:29Z",
-    "modified": "2026-05-03T14:18:29Z"
+    "modified": "2026-09-02T04:02:27Z"
   }
 }

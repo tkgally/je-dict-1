@@ -153,7 +153,7 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: {他動詞|たどうし} (transitive). No pair verb. Pattern: X⟦を→を：00422_wo⟧{捨|す}てる (throw away X).\n\nASPECT: ている indicates completed action with result. {捨|す}てている = 'has thrown away' or 'is in the process of discarding.'\n\nCOMMON PATTERNS:\n・⟦ゴミ→ゴミ：00840_gomi⟧⟦を→を：00422_wo⟧{捨|す}てる (throw away trash)\n・⟦{古|ふる}い→古い：00488_furui⟧⟦もの→物：02259_mono⟧⟦を→を：00422_wo⟧{捨|す}てる (throw away old things)\n・{捨|す}てないで (don't throw it away)\n・⟦{夢|ゆめ}→夢：01519_yume⟧⟦を→を：00422_wo⟧{捨|す}てる (give up a dream - figurative)\n\nCan mean 'to abandon' figuratively. Opposite: ⟦{拾|ひろ}う→拾う：00845_hirou⟧ (to pick up).",
+  "notes": "TRANSITIVITY: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive). No pair verb. Pattern: X⟦を→を：00422_wo⟧{捨|す}てる (throw away X).\n\nASPECT: て⟦いる→いる：00495_iru⟧ indicates completed action with result. {捨|す}てて⟦いる→いる：00495_iru⟧ = 'has thrown away' or 'is in the process of discarding.'\n\nCOMMON PATTERNS:\n- ⟦ゴミ→ゴミ：00840_gomi⟧⟦を→を：00422_wo⟧{捨|す}てる (throw away trash)\n- ⟦{古|ふる}い→古い：00488_furui⟧⟦もの→物：02259_mono⟧⟦を→を：00422_wo⟧{捨|す}てる (throw away old things)\n- {捨|す}てないで (don't throw it away)\n- ⟦{夢|ゆめ}→夢：01519_yume⟧⟦を→を：00422_wo⟧{捨|す}てる (give up a dream - figurative)\n\nCan mean 'to abandon' figuratively. Opposite: ⟦{拾|ひろ}う→拾う：00845_hirou⟧ (to pick up).",
   "cross_references": [
     {
       "type": "antonym",
@@ -161,11 +161,25 @@
       "headword": "{拾|ひろ}う",
       "label": "to pick up",
       "target_id": "00845_hirou"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25353_houkisuru",
+      "reading": "ほうきする",
+      "headword": "{放棄|ほうき}する",
+      "label": "to abandon"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25537_haikisuru",
+      "reading": "はいきする",
+      "headword": "{廃棄|はいき}する",
+      "label": "to discard"
     }
   ],
   "metadata": {
     "created": "2026-01-07T12:03:55Z",
-    "modified": "2026-05-13T13:23:13Z",
+    "modified": "2026-09-02T04:00:58Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24813_kagakuyakuhin_ex1",
-      "japanese": "{化学|かがく}{薬品|やくひん}の{取|と}り{扱|あつか}いに{注意|ちゅうい}する。",
+      "japanese": "{化学|かがく}{薬品|やくひん}⟦の→の：09472_no⟧⟦{取|と}り{扱|あつか}い→取り扱い：09806_toriatsukai⟧⟦に→に：00314_ni⟧⟦{注意|ちゅうい}→注意：01464_chuui⟧⟦する→する：00392_suru⟧。",
       "english": "Exercise caution when handling chemicals.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24813_kagakuyakuhin_ex2",
-      "japanese": "{化学|かがく}{薬品|やくひん}は{鍵|かぎ}のかかる{場所|ばしょ}に{保管|ほかん}してください。",
+      "japanese": "{化学|かがく}{薬品|やくひん}⟦は→は：00079_ha⟧⟦{鍵|かぎ}→鍵：02189_kagi⟧⟦の→の：09472_no⟧⟦かかる→かかる：00711_kakaru⟧⟦{場所|ばしょ}→場所：00829_basho⟧⟦に→に：00314_ni⟧⟦{保管|ほかん}して→保管する：25536_hokansuru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please store chemicals in a locked location.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24813_kagakuyakuhin_ex3",
-      "japanese": "{工場|こうじょう}から{化学|かがく}{薬品|やくひん}が{漏|も}れ、{周辺|しゅうへん}{住民|じゅうみん}が{避難|ひなん}した。",
+      "japanese": "⟦{工場|こうじょう}→工場：01082_koujou⟧⟦から→から：00504_kara⟧{化学|かがく}{薬品|やくひん}⟦が→が：00051_ga⟧⟦{漏|も}れ→漏れる：02435_moreru⟧、⟦{周辺|しゅうへん}→周辺：09896_shuuhen⟧⟦{住民|じゅうみん}→住民：03281_juumin⟧⟦が→が：00051_ga⟧⟦{避難|ひなん}した→避難する：26827_hinansuru⟧。",
       "english": "Chemicals leaked from the factory, and nearby residents evacuated.",
       "sense_numbers": [
         1
@@ -44,20 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "A general term for substances produced through chemical processes, including laboratory reagents, industrial chemicals, cleaning agents, and other synthetic compounds. Common in safety instructions, environmental news, and scientific contexts.\n\nCOMMON COLLOCATIONS:\n- {化学|かがく}{薬品|やくひん}の{取|と}り{扱|あつか}い — handling of chemicals\n- {化学|かがく}{薬品|やくひん}の{保管|ほかん} — storage of chemicals\n- {有害|ゆうがい}{化学|かがく}{薬品|やくひん} — hazardous chemicals\n- {化学|かがく}{薬品|やくひん}メーカー — chemical products manufacturer\n\nSIMILAR WORDS:\n- {薬品|やくひん} — chemicals; medicine (broader, includes pharmaceuticals)\n- {試薬|しやく} — reagent (specifically for laboratory use)\n- {化学|かがく}{物質|ぶっしつ} — chemical substance (more general/scientific)\n- {劇薬|げきやく} — powerful/dangerous drug or chemical",
+  "notes": "A general term for substances produced through chemical processes, including laboratory reagents, industrial chemicals, cleaning agents, and other synthetic compounds. Common in safety instructions, environmental news, and scientific contexts.\n\nCOMMON COLLOCATIONS:\n- {化学|かがく}{薬品|やくひん}⟦の→の：09472_no⟧⟦{取|と}り{扱|あつか}い→取り扱い：09806_toriatsukai⟧ — handling of chemicals\n- {化学|かがく}{薬品|やくひん}⟦の→の：09472_no⟧⟦{保管|ほかん}→保管：11442_hokan⟧ — storage of chemicals\n- ⟦{有害|ゆうがい}→有害：13002_yuugai⟧{化学|かがく}{薬品|やくひん} — hazardous chemicals\n- {化学|かがく}{薬品|やくひん}⟦メーカー→メーカー：11158_meekaa⟧ — chemical products manufacturer\n\nSIMILAR WORDS:\n- ⟦{薬品|やくひん}→薬品：11055_yakuhin⟧ — chemicals; medicine (broader, includes pharmaceuticals)\n- {試薬|しやく} — reagent (specifically for laboratory use)\n- ⟦{化学|かがく}{物質|ぶっしつ}→化学物質：19856_kagakubusshitsu⟧ — chemical substance (more general/scientific)\n- ⟦{劇薬|げきやく}→劇薬：21657_gekiyaku⟧ — powerful/dangerous drug or chemical",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19856_kagakubusshitsu",
+      "reading": "かがくぶっしつ",
+      "headword": "{化学物質|かがくぶっしつ}",
+      "label": "chemical substance"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21657_gekiyaku",
+      "reading": "げきやく",
+      "headword": "{劇薬|げきやく}",
+      "label": "powerful/dangerous drug or chemical"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "science"
       ],
       "usage": []
     },
     "created": "2026-04-20T16:28:52Z",
-    "modified": "2026-08-03T21:38:52Z"
+    "modified": "2026-09-02T04:02:19Z"
   }
 }

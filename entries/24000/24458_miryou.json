@@ -3,7 +3,7 @@
   "headword": "{未了|みりょう}",
   "reading": "みりょう",
   "romaji": "miryou",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "unfinished",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24458_miryou_ex1",
-      "japanese": "この{案件|あんけん}はまだ{未了|みりょう}だ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{案件|あんけん}→案件：13109_anken⟧⟦は→は：00079_ha⟧⟦まだ→まだ：00603_mada⟧{未了|みりょう}だ。",
       "english": "This matter is still pending.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24458_miryou_ex2",
-      "japanese": "{未了|みりょう}の{手続|てつづ}きを{早|はや}めに{済|す}ませてください。",
+      "japanese": "{未了|みりょう}⟦の→の：09472_no⟧⟦{手続|てつづ}き→手続き：05453_tetsuzuki⟧⟦を→を：00422_wo⟧⟦{早|はや}め→早め：11176_hayame⟧⟦に→に：00314_ni⟧⟦{済|す}ませて→済む：01950_sumu⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please complete the outstanding procedures as soon as possible.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24458_miryou_ex3",
-      "japanese": "{工事|こうじ}が{未了|みりょう}のまま{放置|ほうち}されている{建物|たてもの}がある。",
+      "japanese": "⟦{工事|こうじ}→工事：00244_kouji⟧⟦が→が：00051_ga⟧{未了|みりょう}⟦の→の：09472_no⟧まま⟦{放置|ほうち}→放置：12826_houchi⟧⟦されている→する：00392_suru⟧⟦{建物|たてもの}→建物：01458_tatemono⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There are buildings left abandoned with construction unfinished.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {未|み} (not yet) + {了|りょう} (completion). A formal word used in business, legal, and administrative settings to indicate that something remains incomplete or unresolved.\n\nCOMMON COLLOCATIONS:\n- {未了|みりょう}の{案件|あんけん}: pending matter\n- {未了|みりょう}の{手続|てつづ}き: outstanding procedures\n- {審議|しんぎ}{未了|みりょう}: deliberation not completed\n- {工事|こうじ}{未了|みりょう}: construction incomplete\n\nSIMILAR WORDS:\n- {未完|みかん}: unfinished (especially creative works like novels or paintings)\n- {未済|みさい}: unsettled, unpaid (financial contexts)\n- {未完了|みかんりょう}: incomplete (grammatical term or general use)\n- {途中|とちゅう}: in progress, midway (more neutral and conversational)",
+  "notes": "Composed of ⟦{未|み}→未〜：00277_mi⟧ (not yet) + {了|りょう} (completion). A formal word used in business, legal, and administrative settings to indicate that something remains incomplete or unresolved.\n\nCOMMON COLLOCATIONS:\n- {未了|みりょう}⟦の→の：09472_no⟧⟦{案件|あんけん}→案件：13109_anken⟧: pending matter\n- {未了|みりょう}⟦の→の：09472_no⟧⟦{手続|てつづ}き→手続き：05453_tetsuzuki⟧: outstanding procedures\n- ⟦{審議|しんぎ}→審議：19112_shingi⟧{未了|みりょう}: deliberation not completed\n- ⟦{工事|こうじ}→工事：00244_kouji⟧{未了|みりょう}: construction incomplete\n\nSIMILAR WORDS:\n- ⟦{未完|みかん}→未完：17862_mikan⟧: unfinished (especially creative works like novels or paintings)\n- {未済|みさい}: unsettled, unpaid (financial contexts)\n- {未完了|みかんりょう}: incomplete (grammatical term or general use)\n- ⟦{途中|とちゅう}→途中：01684_tochuu⟧: in progress, midway (more neutral and conversational)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17862_mikan",
+      "reading": "みかん",
+      "headword": "{未完|みかん}",
+      "label": "unfinished"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01684_tochuu",
+      "reading": "とちゅう",
+      "headword": "{途中|とちゅう}",
+      "label": "in progress, midway"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,12 +69,13 @@
         "noun",
         "adjective-no"
       ],
+      "politeness": "plain",
       "semantic": [
         "business",
         "abstract"
       ]
     },
     "created": "2026-04-19T11:13:05Z",
-    "modified": "2026-04-19T11:13:05Z"
+    "modified": "2026-09-02T04:02:18Z"
   }
 }

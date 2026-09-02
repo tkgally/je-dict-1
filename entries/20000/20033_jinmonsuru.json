@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "20033_jinmonsuru_ex1",
-      "japanese": "{容疑者|ようぎしゃ}を{尋問|じんもん}する。",
+      "japanese": "⟦{容疑者|ようぎしゃ}→容疑者：15039_yougisha⟧⟦を→を：00422_wo⟧{尋問|じんもん}する。",
       "english": "To interrogate the suspect.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "20033_jinmonsuru_ex2",
-      "japanese": "{証人|しょうにん}が{法廷|ほうてい}で{尋問|じんもん}された。",
+      "japanese": "⟦{証人|しょうにん}→証人：18845_shounin⟧⟦が→が：00051_ga⟧⟦{法廷|ほうてい}→法廷：15113_houtei⟧⟦で→で：00502_de⟧{尋問|じんもん}された。",
       "english": "The witness was questioned in court.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "20033_jinmonsuru_ex3",
-      "japanese": "{弁護士|べんごし}が{証人|しょうにん}に{対|たい}して{厳|きび}しい{尋問|じんもん}を{行|おこな}った。",
+      "japanese": "⟦{弁護士|べんごし}→弁護士：03150_bengoshi⟧⟦が→が：00051_ga⟧⟦{証人|しょうにん}→証人：18845_shounin⟧⟦に{対|たい}して→に対して：06800_nitaishite⟧⟦{厳|きび}しい→厳しい：01125_kibishii⟧{尋問|じんもん}⟦を→を：00422_wo⟧⟦{行|おこな}った→行う：01238_okonau⟧。",
       "english": "The lawyer conducted a rigorous examination of the witness.",
       "sense_numbers": [
         1
@@ -134,8 +134,31 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {尋|じん} (inquire) and {問|もん} (question). A formal legal and procedural term for questioning someone in an official capacity.\n\nCOMMON COLLOCATIONS:\n- {尋問|じんもん}を{行|おこな}う: to conduct an interrogation\n- {尋問|じんもん}を{受|う}ける: to be interrogated\n- {厳|きび}しい{尋問|じんもん}: harsh interrogation\n- {反対|はんたい}{尋問|じんもん}: cross-examination\n- {主|しゅ}{尋問|じんもん}: direct examination (in court)\n- {証人|しょうにん}{尋問|じんもん}: witness examination\n\nSIMILAR WORDS:\n- {取|と}り{調|しら}べ: police interrogation — specifically police questioning of a suspect; more commonly used in news\n- {質問|しつもん}: question — neutral and everyday; no implication of authority or investigation\n- {聴取|ちょうしゅ}: hearing, interviewing — formal questioning to gather information, less confrontational than {尋問|じんもん}\n\nUSAGE:\nMost commonly encountered in legal dramas, court reporting, and crime fiction. In legal contexts, {尋問|じんもん} specifically refers to the formal examination of witnesses in court proceedings.",
+  "notes": "Compound of {尋|じん} (inquire) and ⟦{問|もん}→〜問：04016_mon⟧ (question). A formal legal and procedural term for questioning someone in an official capacity.\n\nCOMMON COLLOCATIONS:\n- {尋問|じんもん}⟦を→を：00422_wo⟧⟦{行|おこな}う→行う：01238_okonau⟧: to conduct an interrogation\n- {尋問|じんもん}⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧: to be interrogated\n- ⟦{厳|きび}しい→厳しい：01125_kibishii⟧{尋問|じんもん}: harsh interrogation\n- ⟦{反対|はんたい}→反対：01497_hantai⟧{尋問|じんもん}: cross-examination\n- {主|しゅ}{尋問|じんもん}: direct examination (in court)\n- ⟦{証人|しょうにん}→証人：18845_shounin⟧{尋問|じんもん}: witness examination\n\nSIMILAR WORDS:\n- {取|と}り{調|しら}べ: police interrogation — specifically police questioning of a suspect; more commonly used in news\n- ⟦{質問|しつもん}→質問：00888_shitsumon⟧: question — neutral and everyday; no implication of authority or investigation\n- {聴取|ちょうしゅ}: hearing, interviewing — formal questioning to gather information, less confrontational than {尋問|じんもん}\n\nUSAGE:\nMost commonly encountered in legal dramas, court reporting, and crime fiction. In legal contexts, {尋問|じんもん} specifically refers to the formal examination of witnesses in court proceedings.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00888_shitsumon",
+      "reading": "しつもん",
+      "headword": "{質問|しつもん}",
+      "label": "question"
+    },
+    {
+      "type": "related",
+      "target_id": "09147_toitsumeru",
+      "reading": "といつめる",
+      "headword": "{問|と}い{詰|つ}める",
+      "label": "to press for answers, to interrogate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21386_kitsumon",
+      "reading": "きつもん",
+      "headword": "{詰問|きつもん}する",
+      "label": "to interrogate"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -148,9 +171,10 @@
       "semantic": [
         "law"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     },
     "created": "2026-03-28T05:28:50Z",
-    "modified": "2026-03-28T05:28:50Z"
+    "modified": "2026-09-02T04:01:58Z"
   }
 }

@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "14100_yakuzai_ex1",
-      "japanese": "{薬剤|やくざい}{師|し}に{相談|そうだん}する。",
+      "japanese": "{薬剤|やくざい}{師|し}⟦に→に：00314_ni⟧⟦{相談|そうだん}する→相談する：01845_soudansuru⟧。",
       "english": "Consult a pharmacist.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14100_yakuzai_ex2",
-      "japanese": "この{薬剤|やくざい}は{副作用|ふくさよう}が{少|すく}ないと{言|い}われている。",
+      "japanese": "⟦この→この：00962_kono⟧{薬剤|やくざい}⟦は→は：00079_ha⟧⟦{副作用|ふくさよう}→副作用：05015_fukusayou⟧⟦が→が：00051_ga⟧⟦{少|すく}ない→少ない：01136_sukunai⟧⟦と→と：00512_to⟧⟦{言|い}われている→言う：00515_iu⟧。",
       "english": "This pharmaceutical is said to have few side effects.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14100_yakuzai_ex3",
-      "japanese": "{新|あたら}しい{薬剤|やくざい}の{開発|かいはつ}には{長|なが}い{年月|ねんげつ}と{膨大|ぼうだい}な{費用|ひよう}がかかる。",
+      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧{薬剤|やくざい}⟦の→の：09472_no⟧⟦{開発|かいはつ}→開発：06746_kaihatsu⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{長|なが}い→長い：00491_nagai⟧⟦{年月|ねんげつ}→年月：00310_nengetsu⟧⟦と→と：00512_to⟧⟦{膨大|ぼうだい}→膨大：08997_boudai⟧な⟦{費用|ひよう}→費用：03588_hiyou⟧⟦が→が：00051_ga⟧⟦かかる→かかる：00711_kakaru⟧。",
       "english": "Developing a new pharmaceutical takes many years and enormous costs.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE NOTE:\n{薬剤|やくざい} is a formal, technical term for medicines and chemical agents. It is far more common in professional, medical, and scientific contexts than in everyday speech, where {薬|くすり} is preferred.\n\nCOMMON COLLOCATIONS:\n- {薬剤|やくざい}{師|し} (pharmacist)\n- {薬剤|やくざい}を{投与|とうよ}する (administer a drug)\n- {薬剤|やくざい}{耐性|たいせい} (drug resistance)\n- {薬剤|やくざい}{散布|さんぷ} (spraying chemicals)\n\nSIMILAR WORDS:\n- {薬|くすり}: medicine (everyday term)\n- {医薬品|いやくひん}: pharmaceutical product (regulatory/official term)\n- {薬品|やくひん}: chemicals (broader, includes non-medical chemicals)",
+  "notes": "USAGE:\n{薬剤|やくざい} is a formal, technical term for medicines and chemical agents. It is far more common in professional, medical, and scientific contexts than in everyday speech, where ⟦{薬|くすり}→薬：00793_kusuri⟧ is preferred.\n\nCOMMON COLLOCATIONS:\n- {薬剤|やくざい}{師|し} (pharmacist)\n- {薬剤|やくざい}⟦を→を：00422_wo⟧⟦{投与|とうよ}→投与：12894_touyo⟧⟦する→する：00392_suru⟧ (administer a drug)\n- {薬剤|やくざい}⟦{耐性|たいせい}→耐性：13917_taisei⟧ (drug resistance)\n- {薬剤|やくざい}⟦{散布|さんぷ}→散布：21064_sanpu⟧ (spraying chemicals)\n\nSIMILAR WORDS:\n- ⟦{薬|くすり}→薬：00793_kusuri⟧: medicine (everyday term)\n- ⟦{医薬品|いやくひん}→医薬品：19711_iyakuhin⟧: pharmaceutical product (regulatory/official term)\n- ⟦{薬品|やくひん}→薬品：11055_yakuhin⟧: chemicals (broader, includes non-medical chemicals)",
   "cross_references": [
     {
       "type": "related",
@@ -46,19 +52,46 @@
       "reading": "くすり",
       "headword": "{薬|くすり}",
       "label": "medicine (everyday)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19711_iyakuhin",
+      "reading": "いやくひん",
+      "headword": "{医薬品|いやくひん}",
+      "label": "pharmaceutical product"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11055_yakuhin",
+      "reading": "やくひん",
+      "headword": "{薬品|やくひん}",
+      "label": "chemicals"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14053_yakubutsu",
+      "reading": "やくぶつ",
+      "headword": "{薬物|やくぶつ}",
+      "label": "drug, chemical substance"
     }
   ],
   "metadata": {
     "created": "2026-02-28T00:47:21Z",
-    "modified": "2026-04-29T10:23:05Z",
+    "modified": "2026-09-02T04:01:36Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["medical"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "medical"
+      ]
     }
   }
 }

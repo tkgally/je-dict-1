@@ -15,41 +15,81 @@
   "examples": [
     {
       "id": "28992_nantoittemo_ex1",
-      "japanese": "{夏|なつ}は{何|なん}といってもビールだ。",
+      "japanese": "⟦{夏|なつ}→夏：02236_natsu⟧⟦は→は：00079_ha⟧{何|なん}といっても⟦ビール→ビール：01015_biiru⟧だ。",
       "english": "When it comes to summer, nothing beats beer.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28992_nantoittemo_ex2",
-      "japanese": "この{店|みせ}の{売|う}りは、{何|なん}といっても{値段|ねだん}の{安|やす}さだ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{店|みせ}→店：00497_mise⟧⟦の→の：09472_no⟧⟦{売|う}り→売り：12159_uri⟧⟦は→は：00079_ha⟧、{何|なん}といっても⟦{値段|ねだん}→値段：00871_nedan⟧⟦の→の：09472_no⟧{安|やす}さだ。",
       "english": "This shop's selling point is, above all, its low prices.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28992_nantoittemo_ex3",
-      "japanese": "{彼女|かのじょ}の{魅力|みりょく}は{何|なん}といっても{誰|だれ}にでも{優|やさ}しいところだ。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦の→の：09472_no⟧⟦{魅力|みりょく}→魅力：03749_miryoku⟧⟦は→は：00079_ha⟧{何|なん}といっても⟦{誰|だれ}→誰：00534_dare⟧⟦に→に：00314_ni⟧で⟦も→も：00484_mo⟧{優|やさ}しい⟦ところ→ところ：01137_tokoro⟧だ。",
       "english": "Her greatest charm is, without a doubt, that she's kind to everyone.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Used to emphasize the single most important or compelling factor. Often appears at the start of a clause or right before the highlighted noun phrase, frequently in the pattern AはなんといってもB (\"as for A, above all it's B\").\n\nCOMMON PATTERNS:\n- ～は{何|なん}といっても～: as for ~, above all it's ~\n- {何|なん}といっても～が{一番|いちばん}: above all, ~ is the best\n- {何|なん}といっても～の{良|よ}さ: the great thing about ~ above all\n\nSIMILAR WORDS:\n- やはり / やっぱり: as expected; still — confirms expectation rather than ranking importance\n- {特|とく}に: especially — flags one item among several, weaker emphasis\n- なにより: more than anything — close in meaning; slightly more emotional",
+  "notes": "Used to emphasize the single most important or compelling factor. Often appears at the start of a clause or right before the highlighted noun phrase, frequently in the pattern A⟦は→は：00079_ha⟧なんといってもB (\"as for A, above all it's B\").\n\nCOMMON PATTERNS:\n- ～⟦は→は：00079_ha⟧{何|なん}といっても～: as for ~, above all it's ~\n- {何|なん}といっても～⟦が→が：00051_ga⟧⟦{一番|いちばん}→一番：01140_ichiban⟧: above all, ~ is the best\n- {何|なん}といっても～⟦の→の：09472_no⟧{良|よ}さ: the great thing about ~ above all\n\nSIMILAR WORDS:\n- ⟦やはり→やはり：01991_yahari⟧ / ⟦やっぱり→やっぱり：03005_yappari⟧: as expected; still — confirms expectation rather than ranking importance\n- ⟦{特|とく}に→特に：01260_tokuni⟧: especially — flags one item among several, weaker emphasis\n- なに⟦より→より：09476_yori⟧: more than anything — close in meaning; slightly more emotional",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01991_yahari",
+      "reading": "やはり",
+      "headword": "やはり",
+      "label": "as expected"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03005_yappari",
+      "reading": "やっぱり",
+      "headword": "やっぱり",
+      "label": "as expected"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01260_tokuni",
+      "reading": "とくに",
+      "headword": "{特|とく}に",
+      "label": "especially"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28991_nanise",
+      "reading": "なにせ",
+      "headword": "なにせ",
+      "label": "after all"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["expression"],
+      "pos": [
+        "expression"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["communication"],
+      "politeness": "plain",
+      "semantic": [
+        "communication"
+      ],
       "domain": []
     },
     "created": "2026-06-08T07:55:39Z",
-    "modified": "2026-06-08T07:55:39Z"
+    "modified": "2026-09-02T04:02:35Z"
   }
 }

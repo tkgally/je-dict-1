@@ -164,7 +164,7 @@
     },
     {
       "id": "02124_sosogu_ex6",
-      "japanese": "⟦{小|ちい}さな→小さい：00025_chiisai⟧⟦{川|かわ}→川：02186_kawa⟧⟦が→が：00051_ga⟧⟦{湖|みずうみ}→湖：00867_mizuumi⟧⟦に→に：00314_ni⟧{注|そそ}いでいる。",
+      "japanese": "⟦{小|ちい}さな→小さい：00025_chiisai⟧⟦{川|かわ}→川：02186_kawa⟧⟦が→が：00051_ga⟧⟦{湖|みずうみ}→湖：00867_mizuumi⟧⟦に→に：00314_ni⟧{注|そそ}いで⟦いる→いる：00495_iru⟧。",
       "english": "A small river flows into the lake.",
       "notes": null,
       "has_audio": false,
@@ -204,10 +204,32 @@
     }
   ],
   "notes": "{注|そそ}ぐ is a godan verb with both literal (pouring) and figurative (devoting) meanings.\n\nTRANSITIVITY:\nCan be both transitive and intransitive depending on usage:\n- Transitive: ⟦お{茶|ちゃ}→お茶：00576_ocha⟧⟦を→を：00422_wo⟧{注|そそ}ぐ (to pour tea)\n- Intransitive: ⟦{川|かわ}→川：02186_kawa⟧⟦が→が：00051_ga⟧⟦{海|うみ}→海：00556_umi⟧⟦に→に：00314_ni⟧{注|そそ}ぐ (river flows into sea)\n\nCOMMON PATTERNS:\n- ⟦お{茶|ちゃ}→お茶：00576_ocha⟧⟦を→を：00422_wo⟧{注|そそ}ぐ: to pour tea\n- ⟦{水|みず}→水：02258_mizu⟧⟦を→を：00422_wo⟧{注|そそ}ぐ: to pour water\n- ⟦{愛情|あいじょう}→愛情：01673_aijou⟧⟦を→を：00422_wo⟧{注|そそ}ぐ: to pour love into, to devote love\n- ⟦{力|ちから}→力：01661_chikara⟧⟦を→を：00422_wo⟧{注|そそ}ぐ: to devote effort\n- ⟦{注目|ちゅうもく}→注目：03483_chuumoku⟧⟦を→を：00422_wo⟧{注|そそ}ぐ: to direct attention to\n\nCOMPOUND VERB:\n- ⟦{注|そそ}ぎ{込|こ}む→注ぎ込む：18052_sosogikomu⟧: to pour into (emphasizes thoroughness)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19727_keichuusuru",
+      "reading": "けいちゅうする",
+      "headword": "{傾注|けいちゅう}する",
+      "label": "to devote"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22410_chuunyuu",
+      "reading": "ちゅうにゅう",
+      "headword": "{注入|ちゅうにゅう}",
+      "label": "injection"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28723_mawashikakeru",
+      "reading": "まわしかける",
+      "headword": "{回|まわ}しかける",
+      "label": "to drizzle in a circular motion"
+    }
+  ],
   "metadata": {
     "created": "2026-01-09T12:11:43Z",
-    "modified": "2026-05-18T15:06:40Z",
+    "modified": "2026-09-02T04:01:01Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "09824_shuugawari_ex1",
-      "japanese": "{週替|しゅうが}わりランチにする。",
+      "japanese": "{週替|しゅうが}わり⟦ランチ→ランチ：11196_ranchi⟧⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧。",
       "english": "I'll have the weekly lunch special.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "09824_shuugawari_ex2",
-      "japanese": "{今週|こんしゅう}の{週替|しゅうが}わりメニューは{何|なに}？",
+      "japanese": "⟦{今週|こんしゅう}→今週：00721_konshuu⟧⟦の→の：09472_no⟧{週替|しゅうが}わり⟦メニュー→メニュー：11166_menyuu⟧⟦は→は：00079_ha⟧⟦{何|なに}→何：00498_nani⟧？",
       "english": "What's this week's special?",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "09824_shuugawari_ex3",
-      "japanese": "{週替|しゅうが}わり{定食|ていしょく}は{毎週|まいしゅう}{月曜日|げつようび}に{変|か}わる。",
+      "japanese": "{週替|しゅうが}わり⟦{定食|ていしょく}→定食：03123_teishoku⟧⟦は→は：00079_ha⟧⟦{毎週|まいしゅう}→毎週：00730_maishuu⟧⟦{月曜日|げつようび}→月曜日：00624_getsuyoubi⟧⟦に→に：00314_ni⟧⟦{変|か}わる→変わる：00714_kawaru⟧。",
       "english": "The weekly set meal changes every Monday.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{週替|しゅうが}わり menus are popular at company cafeterias, family restaurants, and lunch spots. They offer variety and encourage repeat visits.\n\nCOMMON COLLOCATIONS:\n- {週替|しゅうが}わりランチ (weekly lunch special)\n- {週替|しゅうが}わり{定食|ていしょく} (weekly set meal)\n- {週替|しゅうが}わりメニュー (weekly menu)\n\nRELATED TERMS:\n- {日替|ひが}わり: daily special\n- {月替|つきが}わり: monthly special\n- {本日|ほんじつ}の: today's (special)",
+  "notes": "{週替|しゅうが}わり menus are popular at company cafeterias, family restaurants, and lunch spots. They offer variety and encourage repeat visits.\n\nCOMMON COLLOCATIONS:\n- {週替|しゅうが}わり⟦ランチ→ランチ：11196_ranchi⟧ (weekly lunch special)\n- {週替|しゅうが}わり⟦{定食|ていしょく}→定食：03123_teishoku⟧ (weekly set meal)\n- {週替|しゅうが}わり⟦メニュー→メニュー：11166_menyuu⟧ (weekly menu)\n\nRELATED WORDS:\n- ⟦{日替|ひが}わり→日替わり：09745_higawari⟧: daily special\n- ⟦{月替|つきが}わり→月替わり：23949_tsukigawari⟧: monthly special\n- ⟦{本日|ほんじつ}→本日：09643_honjitsu⟧⟦の→の：09472_no⟧: today's (special)",
   "cross_references": [
     {
       "type": "related",
@@ -51,11 +51,18 @@
       "reading": "ひがわり",
       "headword": "{日替|ひが}わり",
       "label": "daily special"
+    },
+    {
+      "type": "related",
+      "target_id": "23949_tsukigawari",
+      "reading": "つきがわり",
+      "headword": "{月替|つきが}わり",
+      "label": "monthly special"
     }
   ],
   "metadata": {
     "created": "2026-02-03T12:23:06Z",
-    "modified": "2026-06-26T03:27:23Z",
+    "modified": "2026-09-02T04:01:19Z",
     "ai_model": "claude-opus-4-5-20251101",
     "vocabulary_tier": "general",
     "tags": {

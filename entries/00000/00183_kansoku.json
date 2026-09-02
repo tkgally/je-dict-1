@@ -2,7 +2,7 @@
   "id": "00183_kansoku",
   "headword": "{観測|かんそく}",
   "reading": "かんそく",
-  "part_of_speech": "noun, suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "observation, monitoring",
   "definitions": [
     {
@@ -43,11 +43,33 @@
       ]
     }
   ],
-  "notes": "{観測|かんそく} is used for scientific observation, especially of natural phenomena.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- No standard intransitive pair\n- Pattern: [noun]⟦を→を：00422_wo⟧{観測|かんそく}する\n\nCommon collocations:\n- ⟦{天体|てんたい}→天体：06361_tentai⟧{観測|かんそく} (astronomical observation)\n- ⟦{気象|きしょう}→気象：09943_kishou⟧{観測|かんそく} (weather observation)\n- ⟦{地震|じしん}→地震：01608_jishin⟧{観測|かんそく} (earthquake monitoring)\n- ⟦{観測|かんそく}{所|しょ}→観測所：26242_kansokujo⟧/⟦{観測|かんそく}{点|てん}→観測点：noentry⟧ (observation station/point)\n- {観測|かんそく}⟦データ→データ：03944_deeta⟧ (observation data)\n\nRelated terms:\n- ⟦{観察|かんさつ}→観察：02558_kansatsu⟧ (observation - more general, often visual)\n- ⟦{測定|そくてい}→測定：04398_sokutei⟧ (measurement)\n- ⟦モニタリング→モニタリング：27369_monitaringu⟧ (monitoring - loanword)",
-  "cross_references": [],
+  "notes": "{観測|かんそく} is used for scientific observation, especially of natural phenomena.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- No standard intransitive pair\n- Pattern: [noun]⟦を→を：00422_wo⟧{観測|かんそく}⟦する→する：00392_suru⟧\n\nCommon collocations:\n- ⟦{天体|てんたい}→天体：06361_tentai⟧{観測|かんそく} (astronomical observation)\n- ⟦{気象|きしょう}→気象：09943_kishou⟧{観測|かんそく} (weather observation)\n- ⟦{地震|じしん}→地震：01608_jishin⟧{観測|かんそく} (earthquake monitoring)\n- ⟦{観測|かんそく}{所|しょ}→観測所：26242_kansokujo⟧/⟦{観測|かんそく}{点|てん}→観測点：noentry⟧ (observation station/point)\n- {観測|かんそく}⟦データ→データ：03944_deeta⟧ (observation data)\n\nRelated terms:\n- ⟦{観察|かんさつ}→観察：02558_kansatsu⟧ (observation - more general, often visual)\n- ⟦{測定|そくてい}→測定：04398_sokutei⟧ (measurement)\n- ⟦モニタリング→モニタリング：27369_monitaringu⟧ (monitoring - loanword)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "09949_tenmondai",
+      "reading": "てんもんだい",
+      "headword": "{天文台|てんもんだい}",
+      "label": "astronomical observatory"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21989_kansatsusuru",
+      "reading": "かんさつする",
+      "headword": "{観察|かんさつ}する",
+      "label": "to observe"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27369_monitaringu",
+      "reading": "もにたりんぐ",
+      "headword": "モニタリング",
+      "label": "monitoring"
+    }
+  ],
   "metadata": {
     "created": "2026-01-13T12:17:38Z",
-    "modified": "2026-08-08T09:25:02Z",
+    "modified": "2026-09-02T04:00:56Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

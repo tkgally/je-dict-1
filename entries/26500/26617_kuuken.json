@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26617_kuuken_ex1",
-      "japanese": "{空拳|くうけん}で{戦|たたか}う。",
+      "japanese": "{空拳|くうけん}⟦で→で：00502_de⟧⟦{戦|たたか}う→戦う：02071_tatakau⟧。",
       "english": "Fight with bare fists.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26617_kuuken_ex2",
-      "japanese": "{彼|かれ}は{空拳|くうけん}から{事業|じぎょう}を{立|た}ち{上|あ}げた。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{空拳|くうけん}⟦から→から：00504_kara⟧⟦{事業|じぎょう}→事業：11421_jigyou⟧⟦を→を：00422_wo⟧⟦{立|た}ち{上|あ}げた→立ち上げる：07892_tachiageru⟧。",
       "english": "He built the business from nothing.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26617_kuuken_ex3",
-      "japanese": "{武器|ぶき}も{道具|どうぐ}もなく{空拳|くうけん}で{困難|こんなん}に{立|た}ち{向|む}かわなければならなかった。",
+      "japanese": "⟦{武器|ぶき}→武器：03605_buki⟧⟦も→も：00484_mo⟧⟦{道具|どうぐ}→道具：01479_dougu⟧⟦も→も：00484_mo⟧⟦なく→ない：01118_nai⟧{空拳|くうけん}⟦で→で：00502_de⟧⟦{困難|こんなん}→困難：01410_konnan⟧⟦に→に：00314_ni⟧⟦{立|た}ち{向|む}かわなければ→立ち向かう：06981_tachimukau⟧⟦ならなかった→なる：01970_naru⟧。",
       "english": "Without weapons or tools, we had to face the difficulty empty-handed.",
       "sense_numbers": [
         1
@@ -44,13 +44,15 @@
       "notes": null
     }
   ],
-  "notes": "Literally \"empty fists,\" composed of {空|くう} (empty) and {拳|けん} (fist). Used both in martial arts contexts to mean fighting without weapons and figuratively to describe starting an endeavor with no resources or capital.\n\nCOMMON COLLOCATIONS:\n- {空拳|くうけん}で{戦|たたか}う: fight bare-handed\n- {空拳|くうけん}から{始|はじ}める: start from nothing\n- {徒手|としゅ}{空拳|くうけん}: completely empty-handed (four-character compound emphasizing total lack of resources)\n\nSIMILAR WORDS:\n- {素手|すで}: bare hands (more common in everyday speech)\n- {徒手|としゅ}: empty-handed (often paired with {空拳|くうけん})\n- {丸腰|まるごし}: unarmed (specifically without weapons)\n\nUSAGE:\nThe four-character compound {徒手|としゅ}{空拳|くうけん} is a well-known expression meaning to have absolutely no resources, capital, or advantages. It is frequently used when describing entrepreneurs who built something from nothing.",
+  "notes": "Literally \"empty fists,\" composed of ⟦{空|くう}→空〜：03949_kuu⟧ (empty) and {拳|けん} (fist). Used both in martial arts contexts to mean fighting without weapons and figuratively to describe starting an endeavor with no resources or capital.\n\nCOMMON COLLOCATIONS:\n- {空拳|くうけん}⟦で→で：00502_de⟧⟦{戦|たたか}う→戦う：02071_tatakau⟧: fight bare-handed\n- {空拳|くうけん}⟦から→から：00504_kara⟧{始|はじ}める: start from nothing\n- {徒手|としゅ}{空拳|くうけん}: completely empty-handed (four-character compound emphasizing total lack of resources)\n\nSIMILAR WORDS:\n- ⟦{素手|すで}→素手：13817_sude⟧: bare hands (more common in everyday speech)\n- ⟦{徒手|としゅ}→徒手：26454_toshu⟧: empty-handed (often paired with {空拳|くうけん})\n- ⟦{丸腰|まるごし}→丸腰：27230_marugoshi⟧: unarmed (specifically without weapons)\n\nUSAGE:\nThe four-character compound {徒手|としゅ}{空拳|くうけん} is a well-known expression meaning to have absolutely no resources, capital, or advantages. It is frequently used when describing entrepreneurs who built something from nothing.",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "sports",
         "idiom"
@@ -58,7 +60,29 @@
     },
     "schema_version": "2.0",
     "created": "2026-05-03T00:00:00Z",
-    "modified": "2026-08-06T00:43:53Z"
+    "modified": "2026-09-02T04:02:27Z"
   },
-  "cross_references": []
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13817_sude",
+      "reading": "すで",
+      "headword": "{素手|すで}",
+      "label": "bare hands"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26454_toshu",
+      "reading": "としゅ",
+      "headword": "{徒手|としゅ}",
+      "label": "empty-handed"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27230_marugoshi",
+      "reading": "まるごし",
+      "headword": "{丸腰|まるごし}",
+      "label": "unarmed"
+    }
+  ]
 }

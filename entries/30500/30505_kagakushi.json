@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30505_kagakushi_ex1",
-      "japanese": "{大学|だいがく}で{科学史|かがくし}を{学|まな}んだ。",
+      "japanese": "⟦{大学|だいがく}→大学：00608_daigaku⟧⟦で→で：00502_de⟧{科学史|かがくし}⟦を→を：00422_wo⟧⟦{学|まな}んだ→学ぶ：01987_manabu⟧。",
       "english": "I studied the history of science at university.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30505_kagakushi_ex2",
-      "japanese": "この{発見|はっけん}は{科学史|かがくし}に{残|のこ}るだろう。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{発見|はっけん}→発見：00085_hakken⟧⟦は→は：00079_ha⟧{科学史|かがくし}⟦に→に：00314_ni⟧⟦{残|のこ}る→残る：01187_nokoru⟧だろう。",
       "english": "This discovery will surely go down in the history of science.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30505_kagakushi_ex3",
-      "japanese": "{科学史|かがくし}を{読|よ}むと、{今|いま}では{当|あ}たり{前|まえ}の{考|かんが}えがどれほど{激|はげ}しい{議論|ぎろん}を{呼|よ}んだかが{分|わ}かる。",
+      "japanese": "{科学史|かがくし}⟦を→を：00422_wo⟧⟦{読|よ}む→読む：00426_yomu⟧⟦と→と：00512_to⟧、⟦{今|いま}→今：00945_ima⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{当|あ}たり{前|まえ}→当たり前：01685_atarimae⟧⟦の→の：09472_no⟧⟦{考|かんが}え→考え：00855_kangae⟧⟦が→が：00051_ga⟧⟦どれ→どれ：00547_dore⟧ほど⟦{激|はげ}しい→激しい：02348_hageshii⟧⟦{議論|ぎろん}→議論：02650_giron⟧⟦を→を：00422_wo⟧⟦{呼|よ}んだ→呼ぶ：00766_yobu⟧⟦か→か：09473_ka⟧⟦が→が：00051_ga⟧⟦{分|わ}かる→分かる：00463_wakaru⟧。",
       "english": "Reading the history of science shows you how fierce the debate was over ideas we now take for granted.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "{科学|かがく} (science) + {史|し} (history). The {史|し} suffix names a field's history and attaches freely: {日本史|にほんし} (Japanese history), {美術史|びじゅつし} (art history), {医学史|いがくし} (history of medicine).\n\nCOMMON COLLOCATIONS:\n- {科学史|かがくし}を{学|まな}ぶ: to study the history of science\n- {科学史|かがくし}に{残|のこ}る: to go down in the history of science\n- {科学史|かがくし}{上|じょう}の{発見|はっけん}: a discovery in the history of science\n- {科学史|かがくし}{家|か}: historian of science\n\nSIMILAR WORDS:\n- {科学|かがく}: science — the subject itself, not its history\n- {技術史|ぎじゅつし}: history of technology — often paired with it, but focused on tools and industry\n- {化学|かがく}: chemistry — a homophone of {科学|かがく}; speakers say {ばけがく} to disambiguate in speech",
+  "notes": "⟦{科学|かがく}→科学：01277_kagaku⟧ (science) + ⟦{史|し}→〜史：28471_shi⟧ (history). The ⟦{史|し}→〜史：28471_shi⟧ suffix names a field's history and attaches freely: {日本史|にほんし} (Japanese history), {美術史|びじゅつし} (art history), {医学史|いがくし} (history of medicine).\n\nCOMMON COLLOCATIONS:\n- {科学史|かがくし}⟦を→を：00422_wo⟧⟦{学|まな}ぶ→学ぶ：01987_manabu⟧: to study the history of science\n- {科学史|かがくし}⟦に→に：00314_ni⟧⟦{残|のこ}る→残る：01187_nokoru⟧: to go down in the history of science\n- {科学史|かがくし}⟦{上|じょう}→〜上：30365_jou⟧⟦の→の：09472_no⟧⟦{発見|はっけん}→発見：00085_hakken⟧: a discovery in the history of science\n- {科学史|かがくし}⟦{家|か}→〜家：28339_ka⟧: historian of science\n\nSIMILAR WORDS:\n- ⟦{科学|かがく}→科学：01277_kagaku⟧: science — the subject itself, not its history\n- {技術史|ぎじゅつし}: history of technology — often paired with it, but focused on tools and industry\n- ⟦{化学|かがく}→化学：05336_kagaku_chem⟧: chemistry — a homophone of ⟦{科学|かがく}→科学：01277_kagaku⟧; speakers say ばけがく to disambiguate in speech",
   "cross_references": [
     {
       "type": "related",
@@ -59,6 +59,13 @@
       "reading": "れきし",
       "headword": "{歴史|れきし}",
       "label": "history"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05336_kagaku_chem",
+      "reading": "かがく",
+      "headword": "{化学|かがく}",
+      "label": "chemistry"
     }
   ],
   "schema_version": "2.0",
@@ -69,7 +76,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "science",
         "history"
@@ -79,6 +86,6 @@
       ]
     },
     "created": "2026-08-08T12:24:37Z",
-    "modified": "2026-08-08T12:24:37Z"
+    "modified": "2026-09-02T04:02:40Z"
   }
 }

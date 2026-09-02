@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30122_koushijima_ex1",
-      "japanese": "{格子縞|こうしじま}のシャツを{着|き}ている。",
+      "japanese": "{格子縞|こうしじま}⟦の→の：09472_no⟧⟦シャツ→シャツ：01052_shatsu⟧⟦を→を：00422_wo⟧⟦{着|き}ている→着る：00541_kiru⟧。",
       "english": "He is wearing a checked shirt.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30122_koushijima_ex2",
-      "japanese": "{祖母|そぼ}は{格子縞|こうしじま}の{着物|きもの}を{大切|たいせつ}にしていた。",
+      "japanese": "⟦{祖母|そぼ}→祖母：00813_sobo⟧⟦は→は：00079_ha⟧{格子縞|こうしじま}⟦の→の：09472_no⟧⟦{着物|きもの}→着物：01309_kimono⟧⟦を→を：00422_wo⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧にして⟦いた→いる：00495_iru⟧。",
       "english": "My grandmother treasured a checked kimono.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30122_koushijima_ex3",
-      "japanese": "{赤|あか}と{黒|くろ}の{格子縞|こうしじま}は、{遠|とお}くから{見|み}ても{目立|めだ}つ{柄|がら}だ。",
+      "japanese": "⟦{赤|あか}→赤：02842_aka⟧⟦と→と：00512_to⟧⟦{黒|くろ}→黒：02205_kuro⟧⟦の→の：09472_no⟧{格子縞|こうしじま}⟦は→は：00079_ha⟧、{遠|とお}く⟦から→から：00504_kara⟧⟦{見|み}て→見る：00283_miru⟧⟦も→も：00484_mo⟧⟦{目立|めだ}つ→目立つ：02431_medatsu⟧⟦{柄|がら}→柄：02609_gara⟧だ。",
       "english": "A red and black check is a pattern that stands out even from a distance.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "{格子|こうし} is a lattice or grid; {縞|しま} is a stripe. Often shortened to {格子|こうし} when describing a pattern.\n\nCOMMON COLLOCATIONS:\n- {格子縞|こうしじま}の{布|ぬの}: checked cloth\n- {格子縞|こうしじま}の{柄|がら}: a check pattern\n- {細|こま}かい{格子縞|こうしじま}: a fine check\n\nSIMILAR WORDS:\n- チェック: check — the everyday loanword; far more common in clothing shops today\n- {縞模様|しまもよう}: stripes — parallel lines only, with no crossing\n- {市松模様|いちまつもよう}: checkerboard pattern — alternating solid squares rather than crossing stripes",
+  "notes": "{格子|こうし} is a lattice or grid; ⟦{縞|しま}→縞：27905_shima⟧ is a stripe. Often shortened to {格子|こうし} when describing a pattern.\n\nCOMMON COLLOCATIONS:\n- {格子縞|こうしじま}⟦の→の：09472_no⟧⟦{布|ぬの}→布：01489_nuno⟧: checked cloth\n- {格子縞|こうしじま}⟦の→の：09472_no⟧⟦{柄|がら}→柄：02609_gara⟧: a check pattern\n- ⟦{細|こま}かい→細かい：01245_komakai⟧{格子縞|こうしじま}: a fine check\n\nSIMILAR WORDS:\n- ⟦チェック→チェック：03000_chekku⟧: check — the everyday loanword; far more common in clothing shops today\n- ⟦{縞模様|しまもよう}→縞模様：26237_shimamoyou⟧: stripes — parallel lines only, with no crossing\n- ⟦{市松模様|いちまつもよう}→市松模様：30129_ichimatsumoyou⟧: checkerboard pattern — alternating solid squares rather than crossing stripes",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03000_chekku",
+      "reading": "ちぇっく",
+      "headword": "チェック",
+      "label": "check"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26237_shimamoyou",
+      "reading": "しまもよう",
+      "headword": "{縞模様|しまもよう}",
+      "label": "stripes"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30129_ichimatsumoyou",
+      "reading": "いちまつもよう",
+      "headword": "{市松模様|いちまつもよう}",
+      "label": "checkerboard pattern"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +76,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "clothing"
       ],
       "domain": []
     },
     "created": "2026-07-25T18:20:39Z",
-    "modified": "2026-07-25T18:20:39Z"
+    "modified": "2026-09-02T04:02:38Z"
   }
 }

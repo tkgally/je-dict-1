@@ -15,38 +15,66 @@
   "examples": [
     {
       "id": "25445_yobouhou_ex1",
-      "japanese": "{風邪|かぜ}の{予防法|よぼうほう}を{知|し}りたい。",
+      "japanese": "⟦{風邪|かぜ}→風邪：02188_kaze⟧⟦の→の：09472_no⟧{予防法|よぼうほう}⟦を→を：00422_wo⟧⟦{知|し}りたい→知る：00458_shiru⟧。",
       "english": "I want to know how to prevent colds.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "25445_yobouhou_ex2",
-      "japanese": "{効果的|こうかてき}な{予防法|よぼうほう}はありますか。",
+      "japanese": "⟦{効果的|こうかてき}→効果的：04793_koukateki⟧な{予防法|よぼうほう}⟦は→は：00079_ha⟧⟦あります→ある：00006_aru⟧⟦か→か：09473_ka⟧。",
       "english": "Are there effective prevention methods?",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "25445_yobouhou_ex3",
-      "japanese": "{熱中症|ねっちゅうしょう}の{予防法|よぼうほう}として、こまめな{水分|すいぶん}{補給|ほきゅう}が{大切|たいせつ}だ。",
+      "japanese": "⟦{熱中症|ねっちゅうしょう}→熱中症：08330_necchuushou⟧⟦の→の：09472_no⟧{予防法|よぼうほう}⟦として→として：06802_toshite⟧、⟦こまめ→こまめ：10325_komame⟧な⟦{水分|すいぶん}{補給|ほきゅう}→水分補給：14832_suibunhokyuu⟧⟦が→が：00051_ga⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧だ。",
       "english": "As a way to prevent heatstroke, frequent hydration is important.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {予防|よぼう} (prevention) and {法|ほう} (method). Commonly used in health, medical, and safety contexts. Note that {予防法|よぼうほう} can also refer to specific prevention-related laws (e.g., {感染症|かんせんしょう}{予防法|よぼうほう} — the Infectious Disease Prevention Act), where {法|ほう} means \"law\" rather than \"method.\"\n\nCOMMON COLLOCATIONS:\n- {風邪|かぜ}の{予防法|よぼうほう}: cold prevention methods\n- {効果的|こうかてき}な{予防法|よぼうほう}: effective prevention method\n- {予防法|よぼうほう}を{実践|じっせん}する: to practice a prevention method\n- {予防法|よぼうほう}を{紹介|しょうかい}する: to introduce prevention methods\n\nSIMILAR WORDS:\n- {予防|よぼう}{策|さく}: preventive measure — emphasizes it as a planned countermeasure\n- {予防|よぼう}{対策|たいさく}: preventive countermeasure — often used in organizational or governmental contexts\n- {防止|ぼうし}{策|さく}: prevention measure — focuses on stopping something from occurring",
+  "notes": "A compound of ⟦{予防|よぼう}→予防：03669_yobou⟧ (prevention) and ⟦{法|ほう}→法：13620_hou⟧ (method). Commonly used in health, medical, and safety contexts. Note that {予防法|よぼうほう} can also refer to specific prevention-related laws (e.g., {感染症|かんせんしょう}{予防法|よぼうほう} — the Infectious Disease Prevention Act), where ⟦{法|ほう}→法：13620_hou⟧ means \"law\" rather than \"method.\"\n\nCOMMON COLLOCATIONS:\n- ⟦{風邪|かぜ}→風邪：02188_kaze⟧⟦の→の：09472_no⟧{予防法|よぼうほう}: cold prevention methods\n- ⟦{効果的|こうかてき}→効果的：04793_koukateki⟧な{予防法|よぼうほう}: effective prevention method\n- {予防法|よぼうほう}⟦を→を：00422_wo⟧⟦{実践|じっせん}→実践：08241_jissen⟧⟦する→する：00392_suru⟧: to practice a prevention method\n- {予防法|よぼうほう}⟦を→を：00422_wo⟧⟦{紹介|しょうかい}する→紹介する：05641_shoukaisuru⟧: to introduce prevention methods\n\nSIMILAR WORDS:\n- ⟦{予防|よぼう}{策|さく}→予防策：18498_yobousaku⟧: preventive measure — emphasizes it as a planned countermeasure\n- ⟦{予防|よぼう}→予防：03669_yobou⟧⟦{対策|たいさく}→対策：02511_taisaku⟧: preventive countermeasure — often used in organizational or governmental contexts\n- ⟦{防止|ぼうし}{策|さく}→防止策：21966_boushisaku⟧: prevention measure — focuses on stopping something from occurring",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18498_yobousaku",
+      "reading": "よぼうさく",
+      "headword": "{予防策|よぼうさく}",
+      "label": "preventive measure"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21966_boushisaku",
+      "reading": "ぼうしさく",
+      "headword": "{防止策|ぼうしさく}",
+      "label": "prevention measure"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["health"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "health"
+      ]
     },
     "created": "2026-04-25T13:31:06Z",
-    "modified": "2026-04-25T13:31:06Z"
+    "modified": "2026-09-02T04:02:22Z"
   }
 }

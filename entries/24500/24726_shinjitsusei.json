@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24726_shinjitsusei_ex1",
-      "japanese": "{証言|しょうげん}の{真実性|しんじつせい}を{疑|うたが}う。",
+      "japanese": "⟦{証言|しょうげん}→証言：11088_shougen⟧⟦の→の：09472_no⟧{真実性|しんじつせい}⟦を→を：00422_wo⟧⟦{疑|うたが}う→疑う：01889_utagau⟧。",
       "english": "To doubt the truthfulness of the testimony.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "24726_shinjitsusei_ex2",
-      "japanese": "この{報道|ほうどう}の{真実性|しんじつせい}は{確認|かくにん}されていない。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{報道|ほうどう}→報道：04438_houdou⟧⟦の→の：09472_no⟧{真実性|しんじつせい}⟦は→は：00079_ha⟧⟦{確認|かくにん}→確認：00158_kakunin⟧⟦されていない→する：00392_suru⟧。",
       "english": "The veracity of this news report has not been confirmed.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "24726_shinjitsusei_ex3",
-      "japanese": "{歴史的|れきしてき}{文書|ぶんしょ}の{真実性|しんじつせい}を{検証|けんしょう}するために、{複数|ふくすう}の{資料|しりょう}と{照合|しょうごう}する{必要|ひつよう}がある。",
+      "japanese": "⟦{歴史的|れきしてき}→歴史的：05671_rekishiteki⟧⟦{文書|ぶんしょ}→文書：12947_bunsho⟧⟦の→の：09472_no⟧{真実性|しんじつせい}⟦を→を：00422_wo⟧⟦{検証|けんしょう}→検証：04792_kenshou⟧⟦する→する：00392_suru⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧、⟦{複数|ふくすう}→複数：14236_fukusuu⟧⟦の→の：09472_no⟧⟦{資料|しりょう}→資料：04166_shiryou⟧⟦と→と：00512_to⟧⟦{照合|しょうごう}→照合：15989_shougou⟧⟦する→する：00392_suru⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "To verify the authenticity of historical documents, it is necessary to cross-reference them with multiple sources.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Formed from {真実|しんじつ} (truth, reality) + {性|せい} (nature, quality). A formal term used primarily in legal proceedings, journalism, and academic research to discuss whether claims or evidence are genuine.\n\nCOMMON COLLOCATIONS:\n- {真実性|しんじつせい}を{検証|けんしょう}する: to verify authenticity\n- {真実性|しんじつせい}に{疑問|ぎもん}がある: there are doubts about the truthfulness\n- {真実性|しんじつせい}が{高|たか}い/{低|ひく}い: high/low veracity\n- {真実性|しんじつせい}を{担保|たんぽ}する: to guarantee authenticity\n\nSIMILAR WORDS:\n- {信憑性|しんぴょうせい}: credibility — focuses on whether something is believable, not necessarily whether it is true\n- {正確性|せいかくせい}: accuracy — whether information is precise and error-free\n- {真正性|しんせいせい}: genuineness, authenticity — used for objects (art, documents) rather than statements",
+  "notes": "Formed from ⟦{真実|しんじつ}→真実：05316_shinjitsu⟧ (truth, reality) + ⟦{性|せい}→性：09880_sei⟧ (nature, quality). A formal term used primarily in legal proceedings, journalism, and academic research to discuss whether claims or evidence are genuine.\n\nCOMMON COLLOCATIONS:\n- {真実性|しんじつせい}⟦を→を：00422_wo⟧⟦{検証|けんしょう}→検証：04792_kenshou⟧⟦する→する：00392_suru⟧: to verify authenticity\n- {真実性|しんじつせい}⟦に→に：00314_ni⟧⟦{疑問|ぎもん}→疑問：02648_gimon⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧: there are doubts about the truthfulness\n- {真実性|しんじつせい}⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧/⟦{低|ひく}い→低い：02947_hikui⟧: high/low veracity\n- {真実性|しんじつせい}⟦を→を：00422_wo⟧⟦{担保|たんぽ}→担保：05974_tanpo⟧⟦する→する：00392_suru⟧: to guarantee authenticity\n\nSIMILAR WORDS:\n- ⟦{信憑性|しんぴょうせい}→信憑性：11618_shinpyousei⟧: credibility — focuses on whether something is believable, not necessarily whether it is true\n- ⟦{正確性|せいかくせい}→正確性：05801_seikakusei⟧: accuracy — whether information is precise and error-free\n- {真正性|しんせいせい}: genuineness, authenticity — used for objects (art, documents) rather than statements",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11618_shinpyousei",
+      "reading": "しんぴょうせい",
+      "headword": "{信憑性|しんぴょうせい}",
+      "label": "credibility"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05801_seikakusei",
+      "reading": "せいかくせい",
+      "headword": "{正確性|せいかくせい}",
+      "label": "accuracy"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -64,6 +80,6 @@
       ]
     },
     "created": "2026-04-20T13:13:19Z",
-    "modified": "2026-06-15T07:58:51Z"
+    "modified": "2026-09-02T04:02:19Z"
   }
 }

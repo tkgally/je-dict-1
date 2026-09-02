@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "26058_shouku_ex1",
-      "japanese": "{聖書|せいしょ}の{章句|しょうく}を{引用|いんよう}する。",
+      "japanese": "⟦{聖書|せいしょ}→聖書：17969_seisho⟧⟦の→の：09472_no⟧{章句|しょうく}⟦を→を：00422_wo⟧⟦{引用|いんよう}する→引用する：26928_inyousuru⟧。",
       "english": "To quote a passage from the Bible.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "26058_shouku_ex2",
-      "japanese": "{古典|こてん}の{章句|しょうく}を{暗記|あんき}するのは{大変|たいへん}だ。",
+      "japanese": "⟦{古典|こてん}→古典：00242_koten⟧⟦の→の：09472_no⟧{章句|しょうく}⟦を→を：00422_wo⟧⟦{暗記|あんき}→暗記：01701_anki⟧⟦する→する：00392_suru⟧⟦の→の：09472_no⟧⟦は→は：00079_ha⟧⟦{大変|たいへん}→大変：00594_taihen⟧だ。",
       "english": "Memorizing passages from the classics is difficult.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "26058_shouku_ex3",
-      "japanese": "{論語|ろんご}の{有名|ゆうめい}な{章句|しょうく}は、{現代|げんだい}でも{多|おお}くの{人|ひと}に{親|した}しまれている。",
+      "japanese": "{論語|ろんご}⟦の→の：09472_no⟧⟦{有名|ゆうめい}→有名：01106_yuumei⟧な{章句|しょうく}⟦は→は：00079_ha⟧、⟦{現代|げんだい}→現代：02722_gendai⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧{多|おお}く⟦の→の：09472_no⟧⟦{人|ひと}→人：00476_hito⟧⟦に→に：00314_ni⟧⟦{親|した}しまれている→親しむ：14139_shitashimu⟧。",
       "english": "Famous passages from the Analects of Confucius are still enjoyed by many people today.",
       "sense_numbers": [
         1
@@ -44,19 +44,42 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {章|しょう} (chapter) + {句|く} (phrase, verse). A somewhat literary term used when referring to passages from classical, religious, or important texts. In classical Chinese studies ({漢学|かんがく}), {章句|しょうく}の{学|がく} referred to the meticulous study of texts line by line.\n\nCOMMON COLLOCATIONS:\n- {章句|しょうく}を{引|ひ}く: to cite a passage\n- {章句|しょうく}を{暗唱|あんしょう}する: to recite passages from memory\n- {有名|ゆうめい}な{章句|しょうく}: a famous passage\n\nSIMILAR WORDS:\n- {節|せつ}: section, verse -- a division of a text, less literary\n- {一節|いっせつ}: a passage, a section -- refers to one specific part\n- {文句|もんく}: phrase, words -- in modern usage usually means complaint, but originally meant a phrase of text\n- {引用|いんよう}: quotation, citation -- the act of quoting rather than the passage itself",
+  "notes": "Composed of ⟦{章|しょう}→章：03768_shou⟧ (chapter) + ⟦{句|く}→句：02137_ku⟧ (phrase, verse). A somewhat literary term used when referring to passages from classical, religious, or important texts. In classical Chinese studies (⟦{漢学|かんがく}→漢学：24281_kangaku⟧), {章句|しょうく}⟦の→の：09472_no⟧⟦{学|がく}→〜学：09846_gaku⟧ referred to the meticulous study of texts line by line.\n\nCOMMON COLLOCATIONS:\n- {章句|しょうく}⟦を→を：00422_wo⟧⟦{引|ひ}く→引く：01978_hiku⟧: to cite a passage\n- {章句|しょうく}⟦を→を：00422_wo⟧⟦{暗唱|あんしょう}する→暗唱する：26776_anshousuru⟧: to recite passages from memory\n- ⟦{有名|ゆうめい}→有名：01106_yuumei⟧な{章句|しょうく}: a famous passage\n\nSIMILAR WORDS:\n- ⟦{節|せつ}→節：19359_setsu⟧: section, verse -- a division of a text, less literary\n- {一節|いっせつ}: a passage, a section -- refers to one specific part\n- ⟦{文句|もんく}→文句：03636_monku⟧: phrase, words -- in modern usage usually means complaint, but originally meant a phrase of text\n- ⟦{引用|いんよう}→引用：01850_inyou⟧: quotation, citation -- the act of quoting rather than the passage itself",
   "metadata": {
     "tags": {
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "general"
       ]
     },
     "vocabulary_tier": "general",
     "created": "2026-04-29T11:22:42Z",
-    "modified": "2026-04-29T11:22:42Z"
+    "modified": "2026-09-02T04:02:24Z"
   },
-  "cross_references": []
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19359_setsu",
+      "reading": "せつ",
+      "headword": "{節|せつ}",
+      "label": "section, verse -- a division of a text…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03636_monku",
+      "reading": "もんく",
+      "headword": "{文句|もんく}",
+      "label": "phrase, words -- in modern usage…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01850_inyou",
+      "reading": "いんよう",
+      "headword": "{引用|いんよう}",
+      "label": "quotation, citation -- the act…"
+    }
+  ]
 }

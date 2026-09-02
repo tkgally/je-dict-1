@@ -15,41 +15,59 @@
   "examples": [
     {
       "id": "17496_monomiyagura_ex1",
-      "japanese": "{城|しろ}の{物見櫓|ものみやぐら}から{遠|とお}くが{見渡|みわた}せる。",
+      "japanese": "⟦{城|しろ}→城：03255_shiro⟧⟦の→の：09472_no⟧{物見櫓|ものみやぐら}⟦から→から：00504_kara⟧{遠|とお}く⟦が→が：00051_ga⟧⟦{見渡|みわた}せる→見渡す：07169_miwatasu⟧。",
       "english": "You can see far into the distance from the castle's watchtower.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17496_monomiyagura_ex2",
-      "japanese": "{物見櫓|ものみやぐら}に{登|のぼ}って{敵|てき}の{動|うご}きを{監視|かんし}した。",
+      "japanese": "{物見櫓|ものみやぐら}⟦に→に：00314_ni⟧⟦{登|のぼ}って→登る：00660_noboru⟧⟦{敵|てき}→敵：03546_teki⟧⟦の→の：09472_no⟧⟦{動|うご}き→動き：11926_ugoki⟧⟦を→を：00422_wo⟧⟦{監視|かんし}→監視：05521_kanshi⟧⟦した→する：00392_suru⟧。",
       "english": "They climbed the watchtower and monitored the enemy's movements.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17496_monomiyagura_ex3",
-      "japanese": "{復元|ふくげん}された{物見櫓|ものみやぐら}が{歴史|れきし}{公園|こうえん}の{中心|ちゅうしん}に{建|た}っている。",
+      "japanese": "⟦{復元|ふくげん}→復元：09249_fukugen⟧⟦された→する：00392_suru⟧{物見櫓|ものみやぐら}⟦が→が：00051_ga⟧⟦{歴史|れきし}→歴史：02267_rekishi⟧⟦{公園|こうえん}→公園：00581_kouen⟧⟦の→の：09472_no⟧⟦{中心|ちゅうしん}→中心：01467_chuushin⟧⟦に→に：00314_ni⟧⟦{建|た}っている→建つ：12544_tatsu⟧。",
       "english": "A reconstructed watchtower stands at the center of the historical park.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nComposed of {物見|ものみ} (watching, lookout) + {櫓|やぐら} (tower, turret). Primarily associated with Japanese castles and historical settings. The word {櫓|やぐら} alone also appears in other compounds like {太鼓櫓|たいこやぐら} (drum tower) and {火|ひ}の{見|み}{櫓|やぐら} (fire lookout tower).\n\nRELATED TERMS:\n- {櫓|やぐら}: tower, turret\n- {天守閣|てんしゅかく}: castle keep, main tower of a Japanese castle\n- {火|ひ}の{見|み}{櫓|やぐら}: fire watchtower — once common in Japanese towns for spotting fires",
-  "cross_references": [],
+  "notes": "USAGE:\nComposed of {物見|ものみ} (watching, lookout) + ⟦{櫓|やぐら}→櫓：10646_yagura⟧ (tower, turret). Primarily associated with Japanese castles and historical settings. The word ⟦{櫓|やぐら}→櫓：10646_yagura⟧ alone also appears in other compounds like {太鼓櫓|たいこやぐら} (drum tower) and {火|ひ}の{見|み}⟦{櫓|やぐら}→櫓：10646_yagura⟧ (fire lookout tower).\n\nRELATED WORDS:\n- ⟦{櫓|やぐら}→櫓：10646_yagura⟧: tower, turret\n- ⟦{天守閣|てんしゅかく}→天守閣：17449_tenshukaku⟧: castle keep, main tower of a Japanese castle\n- {火|ひ}の{見|み}⟦{櫓|やぐら}→櫓：10646_yagura⟧: fire watchtower — once common in Japanese towns for spotting fires",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "17449_tenshukaku",
+      "reading": "てんしゅかく",
+      "headword": "{天守閣|てんしゅかく}",
+      "label": "castle keep, main tower of a Japanese…"
+    }
+  ],
   "metadata": {
     "created": "2026-03-18T04:30:44Z",
-    "modified": "2026-07-20T18:18:50Z",
+    "modified": "2026-09-02T04:01:48Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["building"]
+      "semantic": [
+        "building"
+      ]
     }
   }
 }

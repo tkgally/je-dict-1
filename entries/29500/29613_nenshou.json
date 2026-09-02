@@ -3,7 +3,7 @@
   "headword": "{年少|ねんしょう}",
   "reading": "ねんしょう",
   "romaji": "nenshou",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "young; junior in age",
   "definitions": [
     {
@@ -15,30 +15,36 @@
   "examples": [
     {
       "id": "29613_nenshou_ex1",
-      "japanese": "{年少|ねんしょう}の{子|こ}ども。",
+      "japanese": "{年少|ねんしょう}⟦の→の：09472_no⟧{子|こ}ども。",
       "english": "A younger child.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29613_nenshou_ex2",
-      "japanese": "{弟|おとうと}は{私|わたし}より{三|みっ}つ{年少|ねんしょう}だ。",
+      "japanese": "⟦{弟|おとうと}→弟：00572_otouto⟧⟦は→は：00079_ha⟧⟦{私|わたし}→私：02988_watashi⟧⟦より→より：09476_yori⟧⟦{三|みっ}つ→三つ：02970_mittsu⟧{年少|ねんしょう}だ。",
       "english": "My younger brother is three years younger than me.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29613_nenshou_ex3",
-      "japanese": "チームの{中|なか}で{最|さい}{年少|ねんしょう}の{選手|せんしゅ}が{活躍|かつやく}した。",
+      "japanese": "⟦チーム→チーム：03858_chiimu⟧⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧⟦で→で：00502_de⟧{最|さい}{年少|ねんしょう}⟦の→の：09472_no⟧⟦{選手|せんしゅ}→選手：03823_senshu⟧⟦が→が：00051_ga⟧⟦{活躍|かつやく}した→活躍する：25354_katsuyakusuru⟧。",
       "english": "The youngest player on the team performed well.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "USAGE: {年少|ねんしょう} means younger or junior in age, most often used attributively with の or inside compounds. It is the antonym of {年長|ねんちょう}.\n\nCOMMON COLLOCATIONS:\n- {年少|ねんしょう}{組|ぐみ}: the younger group (e.g. in kindergarten)\n- {年少|ねんしょう}{者|しゃ}: a younger/junior person\n- {最|さい}{年少|ねんしょう}: the youngest\n\nSIMILAR WORDS:\n- {年下|としした}: younger — the everyday, colloquial word for someone younger\n- {年長|ねんちょう}: older, senior — the direct antonym",
+  "notes": "USAGE: {年少|ねんしょう} means younger or junior in age, most often used attributively with ⟦の→の：09472_no⟧ or inside compounds. It is the antonym of ⟦{年長|ねんちょう}→年長：29601_nenchou⟧.\n\nCOMMON COLLOCATIONS:\n- {年少|ねんしょう}{組|ぐみ}: the younger group (e.g. in kindergarten)\n- {年少|ねんしょう}⟦{者|しゃ}→〜者：04662_sha⟧: a younger/junior person\n- {最|さい}{年少|ねんしょう}: the youngest\n\nSIMILAR WORDS:\n- ⟦{年下|としした}→年下：07303_toshishita⟧: younger — the everyday, colloquial word for someone younger\n- ⟦{年長|ねんちょう}→年長：29601_nenchou⟧: older, senior — the direct antonym",
   "cross_references": [
     {
       "type": "antonym",
@@ -46,19 +52,31 @@
       "reading": "ねんちょう",
       "headword": "{年長|ねんちょう}",
       "label": "senior in age"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07303_toshishita",
+      "reading": "としした",
+      "headword": "{年下|としした}",
+      "label": "younger"
     }
   ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-no"],
+      "pos": [
+        "noun",
+        "adjective-no"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["person"],
+      "politeness": "plain",
+      "semantic": [
+        "person"
+      ],
       "domain": []
     },
     "created": "2026-07-01T18:18:59Z",
-    "modified": "2026-07-01T18:18:59Z"
+    "modified": "2026-09-02T04:02:37Z"
   }
 }

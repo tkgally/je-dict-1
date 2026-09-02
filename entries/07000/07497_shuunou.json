@@ -2,7 +2,7 @@
   "id": "07497_shuunou",
   "headword": "{収納|しゅうのう}",
   "reading": "しゅうのう",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "storage; storing; organization",
   "conjugation": {
     "type": "suru",
@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "07497_shuunou_ex1",
-      "japanese": "この{部屋|へや}は{収納|しゅうのう}スペースが{多|おお}い。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{部屋|へや}→部屋：00507_heya⟧⟦は→は：00079_ha⟧{収納|しゅうのう}⟦スペース→スペース：11049_supeesu⟧⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "This room has a lot of storage space.",
       "has_audio": false,
       "sense_numbers": [
@@ -113,7 +113,7 @@
     },
     {
       "id": "07497_shuunou_ex2",
-      "japanese": "{冬物|ふゆもの}を{押入|おしい}れに{収納|しゅうのう}する。",
+      "japanese": "⟦{冬物|ふゆもの}→冬物：27498_fuyumono⟧⟦を→を：00422_wo⟧{押入|おしい}れ⟦に→に：00314_ni⟧{収納|しゅうのう}⟦する→する：00392_suru⟧。",
       "english": "Store winter clothes in the closet.",
       "has_audio": false,
       "sense_numbers": [
@@ -122,7 +122,7 @@
     },
     {
       "id": "07497_shuunou_ex3",
-      "japanese": "{収納|しゅうのう}{術|じゅつ}を{学|まな}んで{部屋|へや}を{片付|かたづ}ける。",
+      "japanese": "{収納|しゅうのう}⟦{術|じゅつ}→術：14265_jutsu⟧⟦を→を：00422_wo⟧⟦{学|まな}んで→学ぶ：01987_manabu⟧⟦{部屋|へや}→部屋：00507_heya⟧⟦を→を：00422_wo⟧⟦{片付|かたづ}ける→片付ける：01192_katazukeru⟧。",
       "english": "Learn organization techniques and tidy up the room.",
       "has_audio": false,
       "sense_numbers": [
@@ -130,10 +130,33 @@
       ]
     }
   ],
-  "notes": "WORD STRUCTURE:\n{収|しゅう} (collect, store) + {納|のう} (put in, store)\n\nJAPANESE STORAGE FEATURES:\n・{押入|おしい}れ - traditional Japanese closet (for futons)\n・クローゼット - Western-style closet\n・{物置|ものお}き - storage room/shed\n・{納戸|なんど} - storeroom\n・{床下収納|ゆかしたしゅうのう} - under-floor storage\n\nCOMMON EXPRESSIONS:\n・{収納|しゅうのう}スペース - storage space\n・{収納|しゅうのう}ボックス - storage box\n・{収納|しゅうのう}{棚|だな} - storage shelf\n・{収納|しゅうのう}{術|じゅつ} - organization skills/techniques\n・{収納|しゅうのう}{力|りょく} - storage capacity\n\nPOPULAR TOPIC:\n{収納|しゅうのう} is a popular topic in Japanese lifestyle media due to:\n- Limited living space in Japanese homes\n- Interest in minimalism and organization\n- Popularity of organizers like Marie Kondo\n\nREAL ESTATE TERMINOLOGY:\nWhen apartment hunting, {収納|しゅうのう} is a key feature people look for.",
+  "notes": "ETYMOLOGY:\n{収|しゅう} (collect, store) + {納|のう} (put in, store)\n\nJAPANESE STORAGE FEATURES:\n- {押入|おしい}れ - traditional Japanese closet (for futons)\n- ⟦クローゼット→クローゼット：04491_kuroozetto⟧ - Western-style closet\n- ⟦{物置|ものお}き→物置き：07372_monooki⟧ - storage room/shed\n- ⟦{納戸|なんど}→納戸：20650_nando⟧ - storeroom\n- {床下収納|ゆかしたしゅうのう} - under-floor storage\n\nCOMMON EXPRESSIONS:\n- {収納|しゅうのう}⟦スペース→スペース：11049_supeesu⟧ - storage space\n- {収納|しゅうのう}⟦ボックス→ボックス：30522_bokkusu⟧ - storage box\n- {収納|しゅうのう}{棚|だな} - storage shelf\n- {収納|しゅうのう}⟦{術|じゅつ}→術：14265_jutsu⟧ - organization skills/techniques\n- {収納|しゅうのう}{力|りょく} - storage capacity\n\nPOPULAR TOPIC:\n{収納|しゅうのう} is a popular topic in Japanese lifestyle media due to:\n- Limited living space in Japanese homes\n- Interest in minimalism and organization\n- Popularity of organizers like Marie Kondo\n\nREAL ESTATE TERMINOLOGY:\nWhen apartment hunting, {収納|しゅうのう} is a key feature people look for.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03064_shimau",
+      "reading": "しまう",
+      "headword": "{仕舞|しま}う",
+      "label": "to put away, to finish"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11442_hokan",
+      "reading": "ほかん",
+      "headword": "{保管|ほかん}",
+      "label": "storage, safekeeping"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22477_okiba",
+      "reading": "おきば",
+      "headword": "{置|お}き{場|ば}",
+      "label": "place for keeping something"
+    }
+  ],
   "metadata": {
     "created": "2026-01-20T05:43:45Z",
-    "modified": "2026-08-10T18:29:45Z",
+    "modified": "2026-09-02T04:01:11Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -142,6 +165,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "daily-life",
         "building"

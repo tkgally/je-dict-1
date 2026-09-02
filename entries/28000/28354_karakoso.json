@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28354_karakoso_ex1",
-      "japanese": "{家族|かぞく}の{理解|りかい}があったからこそ、{夢|ゆめ}を{追|お}い{続|つづ}けることができた。",
+      "japanese": "⟦{家族|かぞく}→家族：00552_kazoku⟧⟦の→の：09472_no⟧⟦{理解|りかい}→理解：03674_rikai⟧⟦が→が：00051_ga⟧⟦あった→ある：00006_aru⟧からこそ、⟦{夢|ゆめ}→夢：01519_yume⟧⟦を→を：00422_wo⟧⟦{追|お}い→追う：02016_ou⟧⟦{続|つづ}ける→続く：00903_tsuzuku⟧こと⟦が→が：00051_ga⟧⟦できた→できる：00557_dekiru⟧。",
       "english": "It was precisely because my family understood me that I could keep chasing my dream.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28354_karakoso_ex2",
-      "japanese": "{君|きみ}だからこそ{頼|たの}みたい。",
+      "japanese": "⟦{君|きみ}→君：01384_kimi⟧だからこそ⟦{頼|たの}みたい→頼む：01104_tanomu⟧。",
       "english": "It's precisely because it's you that I want to ask.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28354_karakoso_ex3",
-      "japanese": "{苦労|くろう}したからこそ、{今|いま}の{成功|せいこう}に{感謝|かんしゃ}できる。",
+      "japanese": "⟦{苦労|くろう}した→苦労する：25357_kurousuru⟧からこそ、⟦{今|いま}→今：00945_ima⟧⟦の→の：09472_no⟧⟦{成功|せいこう}→成功：02638_seikou⟧⟦に→に：00314_ni⟧⟦{感謝|かんしゃ}できる→感謝する：06055_kanshasuru⟧。",
       "english": "It's precisely because I struggled that I can appreciate my present success.",
       "sense_numbers": [
         1
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "Emphatic version of から (because). The こそ singles out the stated reason as the decisive one, often implying that this — and not some other plausible cause — is the true reason. Common in heartfelt speech, motivational writing, and arguments where the speaker is pushing back on an alternative reading.\n\nGRAMMAR:\n- [Verb / i-adj plain] + からこそ\n- Noun / na-adj stem + だ + からこそ\n- Often followed by 〜のだ / のです to round off the emphasis ({君|きみ}だからこそ{頼|たの}めるのだ)\n\nSIMILAR WORDS:\n- から: because — neutral cause; no emphasis\n- だけに: precisely because — emphasizes a heightened result from the cause\n- ばこそ: precisely because — literary equivalent of からこそ\n- だからこそ: precisely because (sentence-initial) — same logic at the start of a new sentence",
+  "notes": "Emphatic version of ⟦から→から：00504_kara⟧ (because). The ⟦こそ→こそ：12731_koso⟧ singles out the stated reason as the decisive one, often implying that this — and not some other plausible cause — is the true reason. Common in heartfelt speech, motivational writing, and arguments where the speaker is pushing back on an alternative reading.\n\nCOMMON PATTERNS:\n- [Verb / i-adj plain] + からこそ\n- Noun / na-adj stem + だ + からこそ\n- Often followed by 〜⟦の→の：09472_no⟧だ / ⟦の→の：09472_no⟧です to round off the emphasis (⟦{君|きみ}→君：01384_kimi⟧だからこそ⟦{頼|たの}める→頼む：01104_tanomu⟧⟦の→の：09472_no⟧だ)\n\nSIMILAR WORDS:\n- から: because — neutral cause; no emphasis\n- ⟦だけ→〜だけ：03093_dake⟧⟦に→に：00314_ni⟧: precisely because — emphasizes a heightened result from the cause\n- ば⟦こそ→こそ：12731_koso⟧: precisely because — literary equivalent of からこそ\n- だからこそ: precisely because (sentence-initial) — same logic at the start of a new sentence",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "28340_dakeni",
+      "reading": "だけに",
+      "headword": "だけに",
+      "label": "precisely because"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +62,13 @@
         "expression"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "grammatical"
       ],
       "domain": []
     },
     "created": "2026-05-29T03:08:25Z",
-    "modified": "2026-08-08T18:34:17Z"
+    "modified": "2026-09-02T04:02:33Z"
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "17489_eibunpou_ex1",
-      "japanese": "{英文法|えいぶんぽう}が{苦手|にがて}だ。",
+      "japanese": "{英文法|えいぶんぽう}⟦が→が：00051_ga⟧⟦{苦手|にがて}→苦手：03513_nigate⟧だ。",
       "english": "I'm bad at English grammar.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "17489_eibunpou_ex2",
-      "japanese": "{英文法|えいぶんぽう}の{参考書|さんこうしょ}を{買|か}った。",
+      "japanese": "{英文法|えいぶんぽう}⟦の→の：09472_no⟧⟦{参考書|さんこうしょ}→参考書：05142_sankousho⟧⟦を→を：00422_wo⟧⟦{買|か}った→買う：00489_kau⟧。",
       "english": "I bought an English grammar reference book.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "17489_eibunpou_ex3",
-      "japanese": "{英文法|えいぶんぽう}をしっかり{学|まな}んでから、{英会話|えいかいわ}の{練習|れんしゅう}に{取|と}り{組|く}んだ。",
+      "japanese": "{英文法|えいぶんぽう}⟦を→を：00422_wo⟧⟦しっかり→しっかり：01272_shikkari⟧⟦{学|まな}んで→学ぶ：01987_manabu⟧⟦から→から：00504_kara⟧、⟦{英会話|えいかいわ}→英会話：14810_eikaiwa⟧⟦の→の：09472_no⟧⟦{練習|れんしゅう}→練習：05323_renshuu⟧⟦に→に：00314_ni⟧⟦{取|と}り{組|く}んだ→取り組む：04225_torikumu⟧。",
       "english": "After studying English grammar thoroughly, I worked on practicing English conversation.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nFormed from {英|えい} (English) + {文法|ぶんぽう} (grammar). A standard compound in the Japanese education system. The ～{文法|ぶんぽう} pattern is productive: {日本語|にほんご}{文法|ぶんぽう} (Japanese grammar), {仏|ふつ}{文法|ぶんぽう} (French grammar), etc.\n\nRELATED TERMS:\n- {英語|えいご}: English (language)\n- {英会話|えいかいわ}: English conversation\n- {英作文|えいさくぶん}: English composition\n- {文法|ぶんぽう}: grammar (general)",
+  "notes": "USAGE:\nFormed from {英|えい} (English) + ⟦{文法|ぶんぽう}→文法：01506_bunpou⟧ (grammar). A standard compound in the Japanese education system. The ～⟦{文法|ぶんぽう}→文法：01506_bunpou⟧ pattern is productive: ⟦{日本語|にほんご}→日本語：00614_nihongo⟧⟦{文法|ぶんぽう}→文法：01506_bunpou⟧ (Japanese grammar), {仏|ふつ}⟦{文法|ぶんぽう}→文法：01506_bunpou⟧ (French grammar), etc.\n\nRELATED WORDS:\n- ⟦{英語|えいご}→英語：02274_eigo⟧: English (language)\n- ⟦{英会話|えいかいわ}→英会話：14810_eikaiwa⟧: English conversation\n- {英作文|えいさくぶん}: English composition\n- ⟦{文法|ぶんぽう}→文法：01506_bunpou⟧: grammar (general)",
   "cross_references": [
     {
       "type": "related",
@@ -52,11 +52,25 @@
       "reading": "ぶんぽう",
       "headword": "{文法|ぶんぽう}",
       "label": "grammar"
+    },
+    {
+      "type": "related",
+      "target_id": "02274_eigo",
+      "reading": "えいご",
+      "headword": "{英語|えいご}",
+      "label": "English"
+    },
+    {
+      "type": "related",
+      "target_id": "14810_eikaiwa",
+      "reading": "えいかいわ",
+      "headword": "{英会話|えいかいわ}",
+      "label": "English conversation"
     }
   ],
   "metadata": {
     "created": "2026-03-18T04:28:06Z",
-    "modified": "2026-05-06T08:07:18Z",
+    "modified": "2026-09-02T04:01:48Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

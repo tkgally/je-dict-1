@@ -15,40 +15,66 @@
   "examples": [
     {
       "id": "20764_hasen_ex1",
-      "japanese": "{破線|はせん}に{沿|そ}って{切|き}る。",
+      "japanese": "{破線|はせん}⟦に→に：00314_ni⟧⟦{沿|そ}って→沿う：13279_sou⟧⟦{切|き}る→切る：02693_kiru⟧。",
       "english": "Cut along the dashed line.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20764_hasen_ex2",
-      "japanese": "{地図|ちず}の{破線|はせん}は{登山道|とざんどう}を{表|あらわ}している。",
+      "japanese": "⟦{地図|ちず}→地図：02914_chizu⟧⟦の→の：09472_no⟧{破線|はせん}⟦は→は：00079_ha⟧⟦{登山道|とざんどう}→登山道：19132_tozandou⟧⟦を→を：00422_wo⟧⟦{表|あらわ}している→表す：01868_arawasu⟧。",
       "english": "The dashed lines on the map indicate mountain trails.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20764_hasen_ex3",
-      "japanese": "{設計図|せっけいず}では、{見|み}えない{部分|ぶぶん}を{破線|はせん}で{表示|ひょうじ}する{決|き}まりになっている。",
+      "japanese": "⟦{設計図|せっけいず}→設計図：14805_sekkeizu⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧、⟦{見|み}えない→見える：01165_mieru⟧⟦{部分|ぶぶん}→部分：03715_bubun⟧⟦を→を：00422_wo⟧{破線|はせん}⟦で→で：00502_de⟧⟦{表示|ひょうじ}する→表示する：26973_hyoujisuru⟧⟦{決|き}まり→決まり：02548_kimari⟧になっている。",
       "english": "In technical drawings, it is conventional to show hidden parts with dashed lines.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {破|は} (broken) and {線|せん} (line). In technical drawing, {破線|はせん} specifically refers to lines made of short dashes, as distinct from {点線|てんせん} (dotted lines made of dots).\n\nUSAGE:\nUsed in technical drawing, engineering, cartography, graphic design, and everyday instructions (such as \"cut here\" lines on packaging). In technical drawing standards (JIS), {破線|はせん} specifically indicates hidden edges or outlines.\n\nCOMMON COLLOCATIONS:\n- {破線|はせん}で{示|しめ}す — to indicate with a dashed line\n- {破線|はせん}に{沿|そ}って — along the dashed line\n- {破線|はせん}で{囲|かこ}む — to enclose with a dashed line\n- {一点鎖線|いってんさせん} — dash-dot line; another technical line type\n\nSIMILAR WORDS:\n- {実線|じっせん} — solid line; the contrasting continuous line\n- {点線|てんせん} — dotted line; a line made of dots rather than dashes\n- {二点鎖線|にてんさせん} — double-dot-dash line; used in technical drawings for centerlines",
+  "notes": "A compound of {破|は} (broken) and ⟦{線|せん}→線：09901_sen⟧ (line). In technical drawing, {破線|はせん} specifically refers to lines made of short dashes, as distinct from ⟦{点線|てんせん}→点線：18308_tensen⟧ (dotted lines made of dots).\n\nUSAGE:\nUsed in technical drawing, engineering, cartography, graphic design, and everyday instructions (such as \"cut here\" lines on packaging). In technical drawing standards (JIS), {破線|はせん} specifically indicates hidden edges or outlines.\n\nCOMMON COLLOCATIONS:\n- {破線|はせん}⟦で→で：00502_de⟧⟦{示|しめ}す→示す：01948_shimesu⟧ — to indicate with a dashed line\n- {破線|はせん}⟦に→に：00314_ni⟧⟦{沿|そ}って→沿う：13279_sou⟧ — along the dashed line\n- {破線|はせん}⟦で→で：00502_de⟧⟦{囲|かこ}む→囲む：02037_kakomu⟧ — to enclose with a dashed line\n- {一点鎖線|いってんさせん} — dash-dot line; another technical line type\n\nSIMILAR WORDS:\n- ⟦{実線|じっせん}→実線：20763_jissen⟧ — solid line; the contrasting continuous line\n- ⟦{点線|てんせん}→点線：18308_tensen⟧ — dotted line; a line made of dots rather than dashes\n- {二点鎖線|にてんさせん} — double-dot-dash line; used in technical drawings for centerlines",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20763_jissen",
+      "reading": "じっせん",
+      "headword": "{実線|じっせん}",
+      "label": "solid line"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18308_tensen",
+      "reading": "てんせん",
+      "headword": "{点線|てんせん}",
+      "label": "dotted line"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["technology"]
+      "semantic": [
+        "technology"
+      ]
     },
     "created": "2026-03-30T15:16:25Z",
-    "modified": "2026-03-30T15:16:25Z"
+    "modified": "2026-09-02T04:02:00Z"
   }
 }

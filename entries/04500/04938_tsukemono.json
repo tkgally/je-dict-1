@@ -54,7 +54,7 @@
     },
     {
       "id": "04938_tsukemono_ex5",
-      "japanese": "⟦{日本|にほん}→日本：03876_nihon⟧⟦の→の：09472_no⟧⟦{旅館|りょかん}→旅館：01049_ryokan⟧では⟦{朝食|ちょうしょく}→朝食：03122_choushoku⟧⟦に→に：00314_ni⟧{漬物|つけもの}⟦が→が：00051_ga⟧⟦{出|で}る→出る：00513_deru⟧⟦こと→こと：01164_koto⟧⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
+      "japanese": "⟦{日本|にほん}→日本：03876_nihon⟧⟦の→の：09472_no⟧⟦{旅館|りょかん}→旅館：01049_ryokan⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{朝食|ちょうしょく}→朝食：03122_choushoku⟧⟦に→に：00314_ni⟧{漬物|つけもの}⟦が→が：00051_ga⟧⟦{出|で}る→出る：00513_deru⟧⟦こと→こと：01164_koto⟧⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "Japanese inns often serve pickles with breakfast.",
       "notes": null,
       "has_audio": false,
@@ -63,11 +63,47 @@
       ]
     }
   ],
-  "notes": "{漬物|つけもの} refers to Japanese-style pickled vegetables, a staple side dish served with most traditional meals. Vegetables are preserved using salt, rice bran, vinegar, miso, or sake lees.\n\nMAJOR TYPES:\n- ⟦{糠漬|ぬかづ}け→糠漬け：17712_nukazuke⟧: rice bran pickles\n- ⟦{塩漬|しおづ}け→塩漬け：09008_shiozuke⟧: salt pickles\n- {醤油漬|しょうゆづ}け: soy sauce pickles\n- {味噌漬|みそづ}け: miso pickles\n- {酢漬|すづ}け: vinegar pickles\n\nCOMMON VEGETABLES:\n⟦{大根|だいこん}→大根：05186_daikon⟧ (daikon), ⟦きゅうり→胡瓜：05195_kyuuri⟧ (cucumber), ⟦{白菜|はくさい}→白菜：13606_hakusai⟧ (napa cabbage), ⟦なす→ナス：11146_nasu⟧ (eggplant).\n\nALTERNATE NAMES:\nAlso called お{新香|しんこ} or お{香々|こうこ} in polite or traditional speech.\n\nCULTURAL NOTE:\n{漬物|つけもの} is served as a side dish with almost every traditional Japanese meal. Many households make their own, and regional varieties are a source of local pride.",
-  "cross_references": [],
+  "notes": "{漬物|つけもの} refers to Japanese-style pickled vegetables, a staple side dish served with most traditional meals. Vegetables are preserved using salt, rice bran, vinegar, miso, or sake lees.\n\nMAJOR TYPES:\n- ⟦{糠漬|ぬかづ}け→糠漬け：17712_nukazuke⟧: rice bran pickles\n- ⟦{塩漬|しおづ}け→塩漬け：09008_shiozuke⟧: salt pickles\n- {醤油漬|しょうゆづ}け: soy sauce pickles\n- ⟦{味噌漬|みそづ}け→味噌漬け：24781_misozuke⟧: miso pickles\n- ⟦{酢漬|すづ}け→酢漬け：08229_suzuke⟧: vinegar pickles\n\nCOMMON VEGETABLES:\n⟦{大根|だいこん}→大根：05186_daikon⟧ (daikon), ⟦きゅうり→胡瓜：05195_kyuuri⟧ (cucumber), ⟦{白菜|はくさい}→白菜：13606_hakusai⟧ (napa cabbage), ⟦なす→ナス：11146_nasu⟧ (eggplant).\n\nALTERNATE NAMES:\nAlso called お{新香|しんこ} or お{香々|こうこ} in polite or traditional speech.\n\nCULTURAL NOTE:\n{漬物|つけもの} is served as a side dish with almost every traditional Japanese meal. Many households make their own, and regional varieties are a source of local pride.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23064_amazuzuke",
+      "reading": "あまずづけ",
+      "headword": "{甘酢漬|あまずづ}け",
+      "label": "sweet vinegar pickle"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24591_binzume",
+      "reading": "びんづめ",
+      "headword": "{瓶詰|びんづめ}",
+      "label": "bottled (goods)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24733_nukamiso",
+      "reading": "ぬかみそ",
+      "headword": "ぬかみそ",
+      "label": "rice-bran paste (for pickling)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24781_misozuke",
+      "reading": "みそづけ",
+      "headword": "{味噌漬|みそづ}け",
+      "label": "miso-pickled, preserved in miso"
+    },
+    {
+      "type": "related",
+      "target_id": "24953_wasabizuke",
+      "reading": "わさびづけ",
+      "headword": "{山葵漬|わさびづ}け",
+      "label": "wasabi pickles"
+    }
+  ],
   "metadata": {
     "created": "2026-01-14T12:50:17Z",
-    "modified": "2026-07-29T21:21:40Z",
+    "modified": "2026-09-02T04:01:05Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

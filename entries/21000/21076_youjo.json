@@ -15,40 +15,87 @@
   "examples": [
     {
       "id": "21076_youjo_ex1",
-      "japanese": "{彼女|かのじょ}は{養女|ようじょ}として{迎|むか}えられた。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧{養女|ようじょ}⟦として→として：06802_toshite⟧⟦{迎|むか}えられた→迎える：01193_mukaeru⟧。",
       "english": "She was taken in as an adopted daughter.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21076_youjo_ex2",
-      "japanese": "{子|こ}どもがいなかった{夫婦|ふうふ}は、{養女|ようじょ}を{迎|むか}えた。",
+      "japanese": "{子|こ}どもがいなかった⟦{夫婦|ふうふ}→夫婦：03592_fuufu⟧⟦は→は：00079_ha⟧、{養女|ようじょ}⟦を→を：00422_wo⟧⟦{迎|むか}えた→迎える：01193_mukaeru⟧。",
       "english": "The childless couple adopted a daughter.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "21076_youjo_ex3",
-      "japanese": "{歴史的|れきしてき}に、{家業|かぎょう}を{継|つ}がせるために{養女|ようじょ}を{取|と}り、その{夫|おっと}を{婿養子|むこようし}として{迎|むか}えることがあった。",
+      "japanese": "⟦{歴史的|れきしてき}→歴史的：05671_rekishiteki⟧⟦に→に：00314_ni⟧、⟦{家業|かぎょう}→家業：12353_kagyou⟧⟦を→を：00422_wo⟧⟦{継|つ}がせる→継ぐ：02292_tsugu⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧{養女|ようじょ}⟦を→を：00422_wo⟧⟦{取|と}り→取る：00565_toru⟧、⟦その→その：00993_sono⟧⟦{夫|おっと}→夫：00982_otto⟧⟦を→を：00422_wo⟧{婿養子|むこようし}⟦として→として：06802_toshite⟧⟦{迎|むか}える→迎える：01193_mukaeru⟧こと⟦が→が：00051_ga⟧⟦あった→ある：00006_aru⟧。",
       "english": "Historically, families would sometimes adopt a daughter and bring in her husband as an adopted son-in-law to continue the family business.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "The formal term for an adopted daughter, as opposed to {養子|ようし} which can mean adopted child in general but traditionally refers to an adopted son.\n\nCOMMON COLLOCATIONS:\n- {養女|ようじょ}を{迎|むか}える: to adopt a daughter\n- {養女|ようじょ}として{育|そだ}てる: to raise as an adopted daughter\n- {養女|ようじょ}に{出|だ}す: to give up (a daughter) for adoption\n\nCULTURAL NOTE:\nIn traditional Japan, adoption was often strategic — to secure an heir for a family line. Adopting a daughter ({養女|ようじょ}) and then bringing in a son-in-law ({婿養子|むこようし}) was one way to continue a family name.\n\nRELATED TERMS:\n- {養子|ようし}: adopted child (general/male)\n- {養母|ようぼ}: adoptive mother\n- {養父|ようふ}: adoptive father\n- {養親|ようしん}: adoptive parent\n- {実子|じっし}: biological child",
+  "notes": "The formal term for an adopted daughter, as opposed to ⟦{養子|ようし}→養子：14626_youshi⟧ which can mean adopted child in general but traditionally refers to an adopted son.\n\nCOMMON COLLOCATIONS:\n- {養女|ようじょ}⟦を→を：00422_wo⟧⟦{迎|むか}える→迎える：01193_mukaeru⟧: to adopt a daughter\n- {養女|ようじょ}⟦として→として：06802_toshite⟧⟦{育|そだ}てる→育てる：01235_sodateru⟧: to raise as an adopted daughter\n- {養女|ようじょ}⟦に→に：00314_ni⟧⟦{出|だ}す→出す：01087_dasu⟧: to give up (a daughter) for adoption\n\nCULTURAL NOTE:\nIn traditional Japan, adoption was often strategic — to secure an heir for a family line. Adopting a daughter ({養女|ようじょ}) and then bringing in a son-in-law ({婿養子|むこようし}) was one way to continue a family name.\n\nRELATED WORDS:\n- ⟦{養子|ようし}→養子：14626_youshi⟧: adopted child (general/male)\n- ⟦{養母|ようぼ}→養母：21105_youbo⟧: adoptive mother\n- ⟦{養父|ようふ}→養父：17834_youfu⟧: adoptive father\n- ⟦{養親|ようしん}→養親：16814_youshin⟧: adoptive parent\n- ⟦{実子|じっし}→実子：21069_jisshi⟧: biological child",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "14626_youshi",
+      "reading": "ようし",
+      "headword": "{養子|ようし}",
+      "label": "adopted child"
+    },
+    {
+      "type": "related",
+      "target_id": "21105_youbo",
+      "reading": "ようぼ",
+      "headword": "{養母|ようぼ}",
+      "label": "adoptive mother"
+    },
+    {
+      "type": "related",
+      "target_id": "17834_youfu",
+      "reading": "ようふ",
+      "headword": "{養父|ようふ}",
+      "label": "adoptive father"
+    },
+    {
+      "type": "related",
+      "target_id": "16814_youshin",
+      "reading": "ようしん",
+      "headword": "{養親|ようしん}",
+      "label": "adoptive parent"
+    },
+    {
+      "type": "related",
+      "target_id": "21069_jisshi",
+      "reading": "じっし",
+      "headword": "{実子|じっし}",
+      "label": "biological child"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["family"]
+      "semantic": [
+        "family"
+      ]
     },
     "created": "2026-03-31T16:27:36Z",
-    "modified": "2026-03-31T16:27:36Z"
+    "modified": "2026-09-02T04:02:02Z"
   }
 }

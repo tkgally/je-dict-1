@@ -68,7 +68,7 @@
       ]
     }
   ],
-  "notes": "From English \"mouse.\"\n\nCOMPUTER MOUSE COLLOCATIONS:\n・マウス⟦を→を：00422_wo⟧⟦クリックする→クリック：05275_kurikku⟧ (to click the mouse)\n・マウス⟦を→を：00422_wo⟧⟦{動|うご}かす→動かす：01885_ugokasu⟧ (to move the mouse)\n・マウス⟦を→を：00422_wo⟧⟦{接続|せつぞく}する→接続：04367_setsuzoku⟧ (to connect a mouse)\n・⟦マウスパッド→マウスパッド：28607_mausupaddo⟧ (mouse pad)\n・⟦ワイヤレス→ワイヤレス：08509_waiyaresu⟧マウス (wireless mouse)\n\nNOTE: For the animal \"mouse,\" Japanese typically uses ⟦{鼠|ねずみ}→鼠：02238_nezumi⟧ or ⟦ハツカネズミ→二十日鼠：23655_hatsukanezumi⟧. マウス specifically refers to computer mice or lab mice.\n\nRELATED TERMS:\n・⟦キーボード→キーボード：04410_kiiboodo⟧ (keyboard)\n・⟦クリック→クリック：05275_kurikku⟧ (click)\n・⟦カーソル→カーソル：noentry⟧ (cursor)",
+  "notes": "From English \"mouse.\"\n\nCOMPUTER MOUSE COLLOCATIONS:\n- マウス⟦を→を：00422_wo⟧⟦クリックする→クリック：05275_kurikku⟧ (to click the mouse)\n- マウス⟦を→を：00422_wo⟧⟦{動|うご}かす→動かす：01885_ugokasu⟧ (to move the mouse)\n- マウス⟦を→を：00422_wo⟧⟦{接続|せつぞく}する→接続：04367_setsuzoku⟧ (to connect a mouse)\n- ⟦マウスパッド→マウスパッド：28607_mausupaddo⟧ (mouse pad)\n- ⟦ワイヤレス→ワイヤレス：08509_waiyaresu⟧マウス (wireless mouse)\n\nNOTE: For the animal \"mouse,\" Japanese typically uses ⟦{鼠|ねずみ}→鼠：02238_nezumi⟧ or ⟦ハツカネズミ→二十日鼠：23655_hatsukanezumi⟧. マウス specifically refers to computer mice or lab mice.\n\nRELATED WORDS:\n- ⟦キーボード→キーボード：04410_kiiboodo⟧ (keyboard)\n- ⟦クリック→クリック：05275_kurikku⟧ (click)\n- ⟦カーソル→カーソル：noentry⟧ (cursor)",
   "cross_references": [
     {
       "type": "related",
@@ -83,11 +83,39 @@
       "headword": "{鼠|ねずみ}",
       "label": "animal",
       "target_id": "02238_nezumi"
+    },
+    {
+      "type": "related",
+      "target_id": "05275_kurikku",
+      "reading": "くりっく",
+      "headword": "クリック",
+      "label": "click"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23655_hatsukanezumi",
+      "reading": "はつかねずみ",
+      "headword": "{二十日鼠|はつかねずみ}",
+      "label": "house mouse (Mus musculus)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25901_pointaa",
+      "reading": "ぽいんたー",
+      "headword": "ポインター",
+      "label": "pointer"
+    },
+    {
+      "type": "related",
+      "target_id": "28607_mausupaddo",
+      "reading": "まうすぱっど",
+      "headword": "マウスパッド",
+      "label": "mouse pad"
     }
   ],
   "metadata": {
     "created": "2026-01-14T14:59:53Z",
-    "modified": "2026-08-08T09:25:02Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

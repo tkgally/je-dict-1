@@ -3,7 +3,7 @@
   "headword": "{上質|じょうしつ}",
   "reading": "じょうしつ",
   "romaji": "joushitsu",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, na-adjective",
   "gloss": "high quality; superior quality",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "20493_joushitsu_ex1",
-      "japanese": "{上質|じょうしつ}な{紙|かみ}を{使|つか}う。",
+      "japanese": "{上質|じょうしつ}な⟦{紙|かみ}→紙：00712_kami⟧⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧。",
       "english": "To use high-quality paper.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "20493_joushitsu_ex2",
-      "japanese": "この{革|かわ}は{上質|じょうしつ}で{長持|ながも}ちする。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{革|かわ}→革：19310_kawa⟧⟦は→は：00079_ha⟧{上質|じょうしつ}⟦で→で：00502_de⟧⟦{長持|ながも}ち→長持ち：14474_nagamochi⟧⟦する→する：00392_suru⟧。",
       "english": "This leather is high quality and lasts a long time.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "20493_joushitsu_ex3",
-      "japanese": "{上質|じょうしつ}な{素材|そざい}を{厳選|げんせん}して{作|つく}られたバッグです。",
+      "japanese": "{上質|じょうしつ}な⟦{素材|そざい}→素材：09492_sozai⟧⟦を→を：00422_wo⟧⟦{厳選|げんせん}→厳選：11865_gensen⟧⟦して→する：00392_suru⟧⟦{作|つく}られた→作る：00481_tsukuru⟧⟦バッグ→バッグ：00008_baggu⟧です。",
       "english": "This is a bag made from carefully selected high-quality materials.",
       "sense_numbers": [
         1
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Describes superior quality of materials, products, or craftsmanship. Composed of {上|じょう} (upper/superior) + {質|しつ} (quality). Used as a noun modifier with な or の.\n\nCOMMON COLLOCATIONS:\n- {上質|じょうしつ}な{紙|かみ}: high-quality paper\n- {上質|じょうしつ}な{素材|そざい}: fine materials\n- {上質|じょうしつ}な{革|かわ}: high-grade leather\n- {上質|じょうしつ}な{睡眠|すいみん}: quality sleep\n\nSIMILAR WORDS:\n- {高品質|こうひんしつ}: high quality — more technical, often used for manufactured products and standards\n- {良質|りょうしつ}: good quality — slightly broader, also used for abstract things like education or information\n- {高級|こうきゅう}: high-class, luxury — emphasizes prestige and price rather than material quality",
+  "notes": "Describes superior quality of materials, products, or craftsmanship. Composed of ⟦{上|じょう}→〜上：30365_jou⟧ (upper/superior) + ⟦{質|しつ}→質：01425_shitsu⟧ (quality). Used as a noun modifier with な or ⟦の→の：09472_no⟧.\n\nCOMMON COLLOCATIONS:\n- {上質|じょうしつ}な⟦{紙|かみ}→紙：00712_kami⟧: high-quality paper\n- {上質|じょうしつ}な⟦{素材|そざい}→素材：09492_sozai⟧: fine materials\n- {上質|じょうしつ}な⟦{革|かわ}→革：19310_kawa⟧: high-grade leather\n- {上質|じょうしつ}な⟦{睡眠|すいみん}→睡眠：03359_suimin⟧: quality sleep\n\nSIMILAR WORDS:\n- ⟦{高品質|こうひんしつ}→高品質：18051_kouhinshitsu⟧: high quality — more technical, often used for manufactured products and standards\n- ⟦{良質|りょうしつ}→良質：13949_ryoushitsu⟧: good quality — slightly broader, also used for abstract things like education or information\n- ⟦{高級|こうきゅう}→高級：08644_koukyuu⟧: high-class, luxury — emphasizes prestige and price rather than material quality",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18051_kouhinshitsu",
+      "reading": "こうひんしつ",
+      "headword": "{高品質|こうひんしつ}",
+      "label": "high quality"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13949_ryoushitsu",
+      "reading": "りょうしつ",
+      "headword": "{良質|りょうしつ}",
+      "label": "good quality"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08644_koukyuu",
+      "reading": "こうきゅう",
+      "headword": "{高級|こうきゅう}",
+      "label": "high-class, luxury"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +83,6 @@
       ]
     },
     "created": "2026-03-29T16:16:12Z",
-    "modified": "2026-07-28T09:35:50Z"
+    "modified": "2026-09-02T04:01:59Z"
   }
 }

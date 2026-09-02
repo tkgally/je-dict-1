@@ -15,40 +15,80 @@
   "examples": [
     {
       "id": "22333_houshokuhin_ex1",
-      "japanese": "{宝飾品|ほうしょくひん}{売|う}り{場|ば}はどこですか。",
+      "japanese": "{宝飾品|ほうしょくひん}⟦{売|う}り{場|ば}→売り場：01331_uriba⟧⟦は→は：00079_ha⟧⟦どこ→どこ：00539_doko⟧です⟦か→か：09473_ka⟧。",
       "english": "Where is the jewelry department?",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "22333_houshokuhin_ex2",
-      "japanese": "{高級|こうきゅう}{宝飾品|ほうしょくひん}のブランドが{並|なら}んでいる。",
+      "japanese": "⟦{高級|こうきゅう}→高級：08644_koukyuu⟧{宝飾品|ほうしょくひん}⟦の→の：09472_no⟧⟦ブランド→ブランド：05221_burando⟧⟦が→が：00051_ga⟧⟦{並|なら}んでいる→並ぶ：00605_narabu⟧。",
       "english": "Luxury jewelry brands are lined up.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "22333_houshokuhin_ex3",
-      "japanese": "{祖母|そぼ}から{受|う}け{継|つ}いだ{宝飾品|ほうしょくひん}を{大切|たいせつ}にしている。",
+      "japanese": "⟦{祖母|そぼ}→祖母：00813_sobo⟧⟦から→から：00504_kara⟧⟦{受|う}け{継|つ}いだ→受け継ぐ：06700_uketsugu⟧{宝飾品|ほうしょくひん}⟦を→を：00422_wo⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧にして⟦いる→いる：00495_iru⟧。",
       "english": "I treasure the jewelry I inherited from my grandmother.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {宝飾|ほうしょく} (jewelry/ornamentation with gems) + {品|ひん} (item/product). A somewhat formal and commercial term, commonly used in department stores, advertisements, and industry contexts. In everyday conversation, アクセサリー is more common for casual accessories.\n\nCOMMON COLLOCATIONS:\n- {宝飾品|ほうしょくひん}{店|てん}: jewelry store\n- {高級|こうきゅう}{宝飾品|ほうしょくひん}: luxury jewelry\n- {宝飾品|ほうしょくひん}{売|う}り{場|ば}: jewelry counter/department\n- {宝飾品|ほうしょくひん}メーカー: jewelry manufacturer\n\nSIMILAR WORDS:\n- アクセサリー: accessories — broader, includes costume jewelry\n- {装身具|そうしんぐ}: personal ornaments — formal/literary term\n- ジュエリー: jewelry — English loanword, commonly used\n- {貴金属|ききんぞく}: precious metals — the material, not the finished product",
+  "notes": "Composed of ⟦{宝飾|ほうしょく}→宝飾：24299_houshoku⟧ (jewelry/ornamentation with gems) + ⟦{品|ひん}→品：03712_hin⟧ (item/product). A somewhat formal and commercial term, commonly used in department stores, advertisements, and industry contexts. In everyday conversation, ⟦アクセサリー→アクセサリー：01761_akusesarii⟧ is more common for casual accessories.\n\nCOMMON COLLOCATIONS:\n- {宝飾品|ほうしょくひん}⟦{店|てん}→店：10011_ten⟧: jewelry store\n- ⟦{高級|こうきゅう}→高級：08644_koukyuu⟧{宝飾品|ほうしょくひん}: luxury jewelry\n- {宝飾品|ほうしょくひん}⟦{売|う}り{場|ば}→売り場：01331_uriba⟧: jewelry counter/department\n- {宝飾品|ほうしょくひん}⟦メーカー→メーカー：11158_meekaa⟧: jewelry manufacturer\n\nSIMILAR WORDS:\n- ⟦アクセサリー→アクセサリー：01761_akusesarii⟧: accessories — broader, includes costume jewelry\n- ⟦{装身具|そうしんぐ}→装身具：24234_soushingu⟧: personal ornaments — formal/literary term\n- ⟦ジュエリー→ジュエリー：25591_juerii⟧: jewelry — English loanword, commonly used\n- ⟦{貴金属|ききんぞく}→貴金属：17138_kikinzoku⟧: precious metals — the material, not the finished product",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01761_akusesarii",
+      "reading": "あくせさりー",
+      "headword": "アクセサリー",
+      "label": "accessories"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24234_soushingu",
+      "reading": "そうしんぐ",
+      "headword": "{装身具|そうしんぐ}",
+      "label": "personal ornaments"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25591_juerii",
+      "reading": "じゅえりー",
+      "headword": "ジュエリー",
+      "label": "jewelry"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17138_kikinzoku",
+      "reading": "ききんぞく",
+      "headword": "{貴金属|ききんぞく}",
+      "label": "precious metals"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["shopping"]
+      "semantic": [
+        "shopping"
+      ]
     },
     "created": "2026-04-05T18:31:47Z",
-    "modified": "2026-04-05T18:31:47Z"
+    "modified": "2026-09-02T04:02:07Z"
   }
 }

@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "17311_ijisuru_ex1",
-      "japanese": "{健康|けんこう}を{維持|いじ}する。",
+      "japanese": "⟦{健康|けんこう}→健康：02706_kenkou⟧⟦を→を：00422_wo⟧{維持|いじ}する。",
       "english": "To maintain one's health.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "17311_ijisuru_ex2",
-      "japanese": "この{建物|たてもの}を{維持|いじ}するには{費用|ひよう}がかかる。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{建物|たてもの}→建物：01458_tatemono⟧⟦を→を：00422_wo⟧{維持|いじ}する⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{費用|ひよう}→費用：03588_hiyou⟧⟦が→が：00051_ga⟧⟦かかる→かかる：00711_kakaru⟧。",
       "english": "It costs money to maintain this building.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "17311_ijisuru_ex3",
-      "japanese": "{社会|しゃかい}の{秩序|ちつじょ}を{維持|いじ}するためには、{法律|ほうりつ}が{必要|ひつよう}だ。",
+      "japanese": "⟦{社会|しゃかい}→社会：01427_shakai⟧⟦の→の：09472_no⟧⟦{秩序|ちつじょ}→秩序：10591_chitsujo⟧⟦を→を：00422_wo⟧{維持|いじ}する⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧、⟦{法律|ほうりつ}→法律：01722_houritsu⟧⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧だ。",
       "english": "Laws are necessary to maintain social order.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{維持|いじ}する emphasizes keeping something in its existing state over time. It implies ongoing effort to prevent decline or change. The noun form {維持|いじ} is also common, especially in compounds.\n\nCOMMON COLLOCATIONS:\n- {健康|けんこう}を{維持|いじ}する (to maintain health)\n- {秩序|ちつじょ}を{維持|いじ}する (to maintain order)\n- {体重|たいじゅう}を{維持|いじ}する (to maintain one's weight)\n- {維持費|いじひ} (maintenance costs)\n- {現状維持|げんじょういじ} (maintaining the status quo)\n\nSIMILAR WORDS:\n- {保|たも}つ: to keep, to maintain — native Japanese word with similar meaning, used in everyday speech\n- {保持|ほじ}する: to hold, to retain — emphasizes holding onto something rather than upkeep",
+  "notes": "USAGE:\n{維持|いじ}する emphasizes keeping something in its existing state over time. It implies ongoing effort to prevent decline or change. The noun form ⟦{維持|いじ}→維持：01624_iji⟧ is also common, especially in compounds.\n\nCOMMON COLLOCATIONS:\n- ⟦{健康|けんこう}→健康：02706_kenkou⟧⟦を→を：00422_wo⟧{維持|いじ}する (to maintain health)\n- ⟦{秩序|ちつじょ}→秩序：10591_chitsujo⟧⟦を→を：00422_wo⟧{維持|いじ}する (to maintain order)\n- ⟦{体重|たいじゅう}→体重：03395_taijuu⟧⟦を→を：00422_wo⟧{維持|いじ}する (to maintain one's weight)\n- ⟦{維持費|いじひ}→維持費：23066_ijihi⟧ (maintenance costs)\n- ⟦{現状維持|げんじょういじ}→現状維持：14766_genjouiji⟧ (maintaining the status quo)\n\nSIMILAR WORDS:\n- ⟦{保|たも}つ→保つ：10134_tamotsu⟧: to keep, to maintain — native Japanese word with similar meaning, used in everyday speech\n- ⟦{保持|ほじ}→保持：05618_hoji⟧⟦する→する：00392_suru⟧: to hold, to retain — emphasizes holding onto something rather than upkeep",
   "cross_references": [
     {
       "type": "synonym",
@@ -142,11 +142,32 @@
       "reading": "たもつ",
       "headword": "{保|たも}つ",
       "label": "to maintain (everyday)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05618_hoji",
+      "reading": "ほじ",
+      "headword": "{保持|ほじ}",
+      "label": "to hold, to retain"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21910_kanrisuru",
+      "reading": "かんりする",
+      "headword": "{管理|かんり}する",
+      "label": "to manage"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26920_jizokusuru",
+      "reading": "じぞくする",
+      "headword": "{持続|じぞく}する",
+      "label": "to continue"
     }
   ],
   "metadata": {
     "created": "2026-03-17T05:57:31Z",
-    "modified": "2026-05-06T06:14:35Z",
+    "modified": "2026-09-02T04:01:48Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

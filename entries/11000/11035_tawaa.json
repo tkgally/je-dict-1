@@ -15,41 +15,59 @@
   "examples": [
     {
       "id": "11035_tawaa_ex1",
-      "japanese": "タワーの{展望台|てんぼうだい}に{登|のぼ}った。",
+      "japanese": "タワー⟦の→の：09472_no⟧⟦{展望台|てんぼうだい}→展望台：18278_tenboudai⟧⟦に→に：00314_ni⟧⟦{登|のぼ}った→登る：00660_noboru⟧。",
       "english": "I went up to the tower's observation deck.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11035_tawaa_ex2",
-      "japanese": "{駅前|えきまえ}にタワーマンションが{建|た}った。",
+      "japanese": "⟦{駅前|えきまえ}→駅前：09593_ekimae⟧⟦に→に：00314_ni⟧タワーマンション⟦が→が：00051_ga⟧⟦{建|た}った→建つ：12544_tatsu⟧。",
       "english": "A tower apartment building was built in front of the station.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11035_tawaa_ex3",
-      "japanese": "{夜|よる}になるとタワーがライトアップされて{街|まち}の{景色|けしき}が{美|うつく}しくなる。",
+      "japanese": "⟦{夜|よる}→夜：00487_yoru⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦と→と：00512_to⟧タワー⟦が→が：00051_ga⟧⟦ライトアップ→ライトアップ：11220_raitoappu⟧⟦されて→する：00392_suru⟧⟦{街|まち}→街：17306_machi⟧⟦の→の：09472_no⟧⟦{景色|けしき}→景色：01395_keshiki⟧⟦が→が：00051_ga⟧⟦{美|うつく}しく→美しい：01121_utsukushii⟧⟦なる→なる：01970_naru⟧。",
       "english": "At night the tower is lit up and the cityscape becomes beautiful.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nタワー is used in proper nouns ({東京|とうきょう}タワー, スカイツリー is not タワー but is a tower) and compound words. タワーマンション (often abbreviated タワマン) refers to high-rise residential buildings, a common feature of Japanese urban development.\n\nCOMMON COLLOCATIONS:\n- {東京|とうきょう}タワー: Tokyo Tower\n- タワーマンション (タワマン): high-rise apartment building\n- {電波|でんぱ}タワー: broadcast/radio tower\n- タワーの{展望台|てんぼうだい}: tower observation deck",
-  "cross_references": [],
+  "notes": "USAGE:\nタワー is used in proper nouns (⟦{東京|とうきょう}→東京：09564_toukyou⟧タワー, スカイツリー is not タワー but is a tower) and compound words. タワーマンション (often abbreviated タワマン) refers to high-rise residential buildings, a common feature of Japanese urban development.\n\nCOMMON COLLOCATIONS:\n- ⟦{東京|とうきょう}→東京：09564_toukyou⟧タワー: Tokyo Tower\n- タワーマンション (タワマン): high-rise apartment building\n- ⟦{電波|でんぱ}→電波：04070_denpa⟧タワー: broadcast/radio tower\n- タワー⟦の→の：09472_no⟧⟦{展望台|てんぼうだい}→展望台：18278_tenboudai⟧: tower observation deck",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21449_choukousoubiru",
+      "reading": "ちょうこうそうびる",
+      "headword": "{超高層|ちょうこうそう}ビル",
+      "label": "skyscraper"
+    }
+  ],
   "metadata": {
     "created": "2026-02-12T20:10:50Z",
-    "modified": "2026-02-12T20:10:50Z",
+    "modified": "2026-09-02T04:01:23Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["building"]
+      "semantic": [
+        "building"
+      ]
     }
   }
 }

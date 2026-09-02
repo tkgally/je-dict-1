@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "13823_kikou_ex1",
-      "japanese": "{紀行|きこう}{文|ぶん}を{書|か}く。",
+      "japanese": "{紀行|きこう}{文|ぶん}⟦を→を：00422_wo⟧⟦{書|か}く→書く：00477_kaku⟧。",
       "english": "Write a travelogue.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "13823_kikou_ex2",
-      "japanese": "{松尾芭蕉|まつおばしょう}の『{奥|おく}の{細道|ほそみち}』は{有名|ゆうめい}な{紀行|きこう}{文学|ぶんがく}だ。",
+      "japanese": "⟦{松尾芭蕉|まつおばしょう}→松尾芭蕉：30772_matsuobashou⟧⟦の→の：09472_no⟧『⟦{奥|おく}→奥：00980_oku⟧⟦の→の：09472_no⟧⟦{細道|ほそみち}→細道：23053_hosomichi⟧』⟦は→は：00079_ha⟧⟦{有名|ゆうめい}→有名：01106_yuumei⟧な{紀行|きこう}⟦{文学|ぶんがく}→文学：01505_bungaku⟧だ。",
       "english": "Matsuo Bashō's 'Oku no Hosomichi' is a famous work of travel literature.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "13823_kikou_ex3",
-      "japanese": "{毎週|まいしゅう}{日曜日|にちようび}に{世界|せかい}の{各地|かくち}を{紹介|しょうかい}する{紀行|きこう}{番組|ばんぐみ}を{楽|たの}しみにしている。",
+      "japanese": "⟦{毎週|まいしゅう}→毎週：00730_maishuu⟧⟦{日曜日|にちようび}→日曜日：00656_nichiyoubi⟧⟦に→に：00314_ni⟧⟦{世界|せかい}→世界：01447_sekai⟧⟦の→の：09472_no⟧⟦{各地|かくち}→各地：00155_kakuchi⟧⟦を→を：00422_wo⟧⟦{紹介|しょうかい}する→紹介する：05641_shoukaisuru⟧{紀行|きこう}⟦{番組|ばんぐみ}→番組：01705_bangumi⟧⟦を→を：00422_wo⟧⟦{楽|たの}しみ→楽しみ：01651_tanoshimi⟧にして⟦いる→いる：00495_iru⟧。",
       "english": "Every Sunday I look forward to a travel program that introduces various places around the world.",
       "notes": null,
       "has_audio": false,
@@ -44,8 +44,16 @@
       ]
     }
   ],
-  "notes": "USAGE:\nOften appears in compound forms like {紀行|きこう}{文|ぶん} (travel essay) and {紀行|きこう}{番組|ばんぐみ} (travel TV program). In Japanese literary tradition, travel writing is an important genre dating back to classical works.\n\nHOMOPHONES:\nNot to be confused with {気候|きこう} (climate/weather) or {機構|きこう} (mechanism/organization).\n\nCOMMON COLLOCATIONS:\n- {紀行|きこう}{文|ぶん}: travel essay\n- {紀行|きこう}{文学|ぶんがく}: travel literature\n- {紀行|きこう}{番組|ばんぐみ}: travel program\n- ○○{紀行|きこう}: travelogue about ○○ (e.g., {東北|とうほく}{紀行|きこう})",
-  "cross_references": [],
+  "notes": "USAGE:\nOften appears in compound forms like {紀行|きこう}{文|ぶん} (travel essay) and {紀行|きこう}⟦{番組|ばんぐみ}→番組：01705_bangumi⟧ (travel TV program). In Japanese literary tradition, travel writing is an important genre dating back to classical works.\n\nWATCH OUT:\nNot to be confused with ⟦{気候|きこう}→気候：00231_kikou⟧ (climate/weather) or ⟦{機構|きこう}→機構：02784_kikou⟧ (mechanism/organization).\n\nCOMMON COLLOCATIONS:\n- {紀行|きこう}{文|ぶん}: travel essay\n- {紀行|きこう}⟦{文学|ぶんがく}→文学：01505_bungaku⟧: travel literature\n- {紀行|きこう}⟦{番組|ばんぐみ}→番組：01705_bangumi⟧: travel program\n- ○○{紀行|きこう}: travelogue about ○○ (e.g., ⟦{東北|とうほく}→東北：27542_touhoku⟧{紀行|きこう})",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22691_tabinikki",
+      "reading": "たびにっき",
+      "headword": "{旅日記|たびにっき}",
+      "label": "travel diary"
+    }
+  ],
   "prominent_see_also": [
     {
       "target_id": "00231_kikou",
@@ -62,7 +70,7 @@
   ],
   "metadata": {
     "created": "2026-02-27T05:06:15Z",
-    "modified": "2026-08-26T13:02:00Z",
+    "modified": "2026-09-02T04:01:34Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

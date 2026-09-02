@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "09367_pintokonai_ex1",
-      "japanese": "{説明|せつめい}を{聞|き}いてもピンとこない。",
+      "japanese": "⟦{説明|せつめい}→説明：01449_setsumei⟧⟦を→を：00422_wo⟧⟦{聞|き}いて→聞く：00483_kiku⟧⟦も→も：00484_mo⟧ピンとこない。",
       "english": "I don't get it even after hearing the explanation.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "09367_pintokonai_ex2",
-      "japanese": "この{例|れい}えはピンとこないな。",
+      "japanese": "⟦この→この：00962_kono⟧{例|れい}え⟦は→は：00079_ha⟧ピンとこないな。",
       "english": "This example doesn't really click for me.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "09367_pintokonai_ex3",
-      "japanese": "{彼|かれ}の{言|い}いたいことがピンとこなかった。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧⟦{言|い}いたい→言う：00515_iu⟧こと⟦が→が：00051_ga⟧ピンとこなかった。",
       "english": "I couldn't grasp what he was trying to say.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
     },
     {
       "id": "09367_pintokonai_ex4",
-      "japanese": "{実感|じっかん}がわかなくてピンとこないんだよね。",
+      "japanese": "⟦{実感|じっかん}→実感：04213_jikkan⟧⟦が→が：00051_ga⟧わかなくてピンとこないんだ⟦よ→よ：09475_yo⟧⟦ね→ね：09474_ne⟧。",
       "english": "It doesn't feel real to me, so it doesn't resonate.",
       "notes": null,
       "has_audio": false,
@@ -53,10 +53,19 @@
       ]
     }
   ],
-  "notes": "ピンとこない is a casual expression using the onomatopoeia ピン (a snapping or clicking sound) to describe when something fails to \"click\" or make intuitive sense.\n\nThe positive form ピンとくる means something immediately makes sense, resonates, or feels right.\n\nCommon situations:\n- Not understanding an explanation\n- Not relating to a concept or idea\n- Not feeling a connection to something\n- Not finding something memorable or striking",
+  "notes": "ピンとこない is a casual expression using the onomatopoeia ⟦ピン→ピン：00344_pin⟧ (a snapping or clicking sound) to describe when something fails to \"click\" or make intuitive sense.\n\nThe positive form ⟦ピン→ピン：00344_pin⟧⟦と→と：00512_to⟧くる means something immediately makes sense, resonates, or feels right.\n\nCommon situations:\n- Not understanding an explanation\n- Not relating to a concept or idea\n- Not feeling a connection to something\n- Not finding something memorable or striking",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25853_funiochinai",
+      "reading": "ふにおちない",
+      "headword": "{腑|ふ}に{落|お}ちない",
+      "label": "to not make sense"
+    }
+  ],
   "metadata": {
     "created": "2026-02-01T08:18:45Z",
-    "modified": "2026-08-13T09:37:24Z",
+    "modified": "2026-09-02T04:01:18Z",
     "ai_model": "opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

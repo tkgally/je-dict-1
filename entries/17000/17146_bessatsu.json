@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "17146_bessatsu_ex1",
-      "japanese": "{別冊|べっさつ}{付録|ふろく}が{付|つ}いている。",
+      "japanese": "{別冊|べっさつ}⟦{付録|ふろく}→付録：06206_furoku⟧⟦が→が：00051_ga⟧⟦{付|つ}いている→付く：01960_tsuku⟧。",
       "english": "It comes with a separate supplement.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "17146_bessatsu_ex2",
-      "japanese": "この{雑誌|ざっし}の{別冊|べっさつ}が{来月|らいげつ}{発売|はつばい}される。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{雑誌|ざっし}→雑誌：00686_zasshi⟧⟦の→の：09472_no⟧{別冊|べっさつ}⟦が→が：00051_ga⟧⟦{来月|らいげつ}→来月：00744_raigetsu⟧⟦{発売|はつばい}→発売：04315_hatsubai⟧⟦される→する：00392_suru⟧。",
       "english": "A special issue of this magazine will be released next month.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "17146_bessatsu_ex3",
-      "japanese": "{料理|りょうり}レシピをまとめた{別冊|べっさつ}が{人気|にんき}{雑誌|ざっし}の{付録|ふろく}として{配布|はいふ}された。",
+      "japanese": "⟦{料理|りょうり}→料理：01523_ryouri⟧⟦レシピ→レシピ：07157_reshipi⟧⟦を→を：00422_wo⟧⟦まとめた→まとめる：02424_matomeru⟧{別冊|べっさつ}⟦が→が：00051_ga⟧⟦{人気|にんき}→人気：01488_ninki⟧⟦{雑誌|ざっし}→雑誌：00686_zasshi⟧⟦の→の：09472_no⟧⟦{付録|ふろく}→付録：06206_furoku⟧⟦として→として：06802_toshite⟧⟦{配布|はいふ}→配布：14410_haifu⟧⟦された→する：00392_suru⟧。",
       "english": "A separate volume compiling cooking recipes was distributed as a supplement to a popular magazine.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,26 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA compound of {別|べつ} (separate) + {冊|さつ} (volume, book). Used in publishing to refer to supplementary or special publications issued alongside a main series.\n\nCOMMON COLLOCATIONS:\n- {別冊|べっさつ}{付録|ふろく} (separate supplement)\n- {別冊|べっさつ}○○ (Bessatsu + magazine name, e.g., {別冊|べっさつ}マーガレット)\n- {別冊|べっさつ}を{出|だ}す (to publish a special issue)\n\nSIMILAR WORDS:\n- {増刊|ぞうかん}: extra issue — a special additional issue of a periodical\n- {付録|ふろく}: appendix, supplement — an extra item bundled with a publication",
-  "cross_references": [],
+  "notes": "USAGE:\nA compound of ⟦{別|べつ}→別：01216_betsu⟧ (separate) + ⟦{冊|さつ}→〜冊：00666_satsu⟧ (volume, book). Used in publishing to refer to supplementary or special publications issued alongside a main series.\n\nCOMMON COLLOCATIONS:\n- {別冊|べっさつ}⟦{付録|ふろく}→付録：06206_furoku⟧ (separate supplement)\n- {別冊|べっさつ}○○ (Bessatsu + magazine name, e.g., {別冊|べっさつ}マーガレット)\n- {別冊|べっさつ}⟦を→を：00422_wo⟧⟦{出|だ}す→出す：01087_dasu⟧ (to publish a special issue)\n\nSIMILAR WORDS:\n- ⟦{増刊|ぞうかん}→増刊：24084_zoukan⟧: extra issue — a special additional issue of a periodical\n- ⟦{付録|ふろく}→付録：06206_furoku⟧: appendix, supplement — an extra item bundled with a publication",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24084_zoukan",
+      "reading": "ぞうかん",
+      "headword": "{増刊|ぞうかん}",
+      "label": "extra issue"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06206_furoku",
+      "reading": "ふろく",
+      "headword": "{付録|ふろく}",
+      "label": "appendix, supplement"
+    }
+  ],
   "metadata": {
     "created": "2026-03-16T03:11:20Z",
-    "modified": "2026-07-22T18:50:18Z",
+    "modified": "2026-09-02T04:01:47Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

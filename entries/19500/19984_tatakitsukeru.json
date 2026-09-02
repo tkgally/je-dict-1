@@ -3,7 +3,7 @@
   "headword": "{叩|たた}きつける",
   "reading": "たたきつける",
   "romaji": "tatakitsukeru",
-  "part_of_speech": "ichidan verb, transitive",
+  "part_of_speech": "verb (ichidan, transitive)",
   "gloss": "to slam; to hurl; to dash against",
   "conjugation": {
     "type": "ichidan",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "19984_tatakitsukeru_ex1",
-      "japanese": "ドアを{叩|たた}きつけた。",
+      "japanese": "⟦ドア→ドア：00773_doa⟧⟦を→を：00422_wo⟧{叩|たた}きつけた。",
       "english": "I slammed the door.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "19984_tatakitsukeru_ex2",
-      "japanese": "{彼|かれ}は{怒|いか}りで{本|ほん}をテーブルに{叩|たた}きつけた。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{怒|いか}り→怒り：01780_ikari⟧⟦で→で：00502_de⟧{本|ほん}⟦を→を：00422_wo⟧⟦テーブル→テーブル：04488_teeburu⟧⟦に→に：00314_ni⟧{叩|たた}きつけた。",
       "english": "He slammed the book on the table in anger.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "19984_tatakitsukeru_ex3",
-      "japanese": "{辞表|じひょう}を{上司|じょうし}に{叩|たた}きつけてやりたい{気分|きぶん}だ。",
+      "japanese": "⟦{辞表|じひょう}→辞表：27086_jihyou⟧⟦を→を：00422_wo⟧⟦{上司|じょうし}→上司：03286_joushi⟧⟦に→に：00314_ni⟧{叩|たた}きつけて⟦やりたい→やる：02980_yaru⟧⟦{気分|きぶん}→気分：01306_kibun⟧だ。",
       "english": "I feel like slamming my resignation letter on my boss's desk.",
       "sense_numbers": [
         1
@@ -134,8 +134,31 @@
       "notes": null
     }
   ],
-  "notes": "A compound verb of {叩|たた}く (to hit, to strike) and つける (to attach, directed at). Conveys violent or forceful impact against a target surface or person.\n\nTRANSITIVITY:\nTransitive. Takes を for the object being hurled and に for the target surface.\n\nUSAGE:\nOften used figuratively to describe forcefully presenting or confronting someone with something, such as {辞表|じひょう}を{叩|たた}きつける (to slam down a resignation letter), which implies defiance or anger.\n\nCOMMON COLLOCATIONS:\n- ドアを{叩|たた}きつける — to slam a door\n- {壁|かべ}に{叩|たた}きつける — to hurl against a wall\n- {辞表|じひょう}を{叩|たた}きつける — to throw down a resignation letter\n- {雨|あめ}が{窓|まど}に{叩|たた}きつける — rain lashing against the window\n\nSIMILAR WORDS:\n- {投|な}げつける — to hurl, to throw at (focuses on throwing)\n- ぶつける — to hit against, to bump (less violent nuance)\n- {叩|たた}く — to hit, to strike (simpler action without directed force)",
+  "notes": "A compound verb of ⟦{叩|たた}く→叩く：02072_tataku⟧ (to hit, to strike) and ⟦つける→つける：00562_tsukeru⟧ (to attach, directed at). Conveys violent or forceful impact against a target surface or person.\n\nTRANSITIVITY:\nTransitive. Takes ⟦を→を：00422_wo⟧ for the object being hurled and ⟦に→に：00314_ni⟧ for the target surface.\n\nUSAGE:\nOften used figuratively to describe forcefully presenting or confronting someone with something, such as ⟦{辞表|じひょう}→辞表：27086_jihyou⟧⟦を→を：00422_wo⟧{叩|たた}きつける (to slam down a resignation letter), which implies defiance or anger.\n\nCOMMON COLLOCATIONS:\n- ⟦ドア→ドア：00773_doa⟧⟦を→を：00422_wo⟧{叩|たた}きつける — to slam a door\n- ⟦{壁|かべ}→壁：01290_kabe⟧⟦に→に：00314_ni⟧{叩|たた}きつける — to hurl against a wall\n- ⟦{辞表|じひょう}→辞表：27086_jihyou⟧⟦を→を：00422_wo⟧{叩|たた}きつける — to throw down a resignation letter\n- ⟦{雨|あめ}→雨：00583_ame⟧⟦が→が：00051_ga⟧⟦{窓|まど}→窓：02254_mado⟧⟦に→に：00314_ni⟧{叩|たた}きつける — rain lashing against the window\n\nSIMILAR WORDS:\n- ⟦{投|な}げつける→投げつける：15621_nagetsukeru⟧ — to hurl, to throw at (focuses on throwing)\n- ⟦ぶつける→ぶつける：02413_butsukeru⟧ — to hit against, to bump (less violent nuance)\n- ⟦{叩|たた}く→叩く：02072_tataku⟧ — to hit, to strike (simpler action without directed force)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15621_nagetsukeru",
+      "reading": "なげつける",
+      "headword": "{投|な}げつける",
+      "label": "to hurl, to throw at"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02413_butsukeru",
+      "reading": "ぶつける",
+      "headword": "ぶつける",
+      "label": "to hit against, to bump"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02072_tataku",
+      "reading": "たたく",
+      "headword": "{叩|たた}く",
+      "label": "to hit, to strike"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -151,6 +174,6 @@
       "verb_class": "ichidan"
     },
     "created": "2026-03-28T04:34:49Z",
-    "modified": "2026-03-28T04:34:49Z"
+    "modified": "2026-09-02T04:01:58Z"
   }
 }

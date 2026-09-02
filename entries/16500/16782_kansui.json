@@ -3,7 +3,7 @@
   "id": "16782_kansui",
   "headword": "{完遂|かんすい}",
   "reading": "かんすい",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "accomplishment; carrying through to completion",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "16782_kansui_ex1",
-      "japanese": "{任務|にんむ}を{完遂|かんすい}した。",
+      "japanese": "⟦{任務|にんむ}→任務：05513_ninmu⟧⟦を→を：00422_wo⟧{完遂|かんすい}⟦した→する：00392_suru⟧。",
       "english": "I accomplished the mission.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "16782_kansui_ex2",
-      "japanese": "{計画|けいかく}を{完遂|かんすい}するには{時間|じかん}がかかる。",
+      "japanese": "⟦{計画|けいかく}→計画：01172_keikaku⟧⟦を→を：00422_wo⟧{完遂|かんすい}⟦する→する：00392_suru⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{時間|じかん}がかかる→時間がかかる：26082_jikangakakaru⟧。",
       "english": "It takes time to carry the plan through to completion.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "16782_kansui_ex3",
-      "japanese": "{困難|こんなん}に{負|ま}けず、{最後|さいご}まで{目標|もくひょう}を{完遂|かんすい}することが{大切|たいせつ}だ。",
+      "japanese": "⟦{困難|こんなん}→困難：01410_konnan⟧⟦に→に：00314_ni⟧⟦{負|ま}け→負ける：01134_makeru⟧ず、⟦{最後|さいご}→最後：01413_saigo⟧⟦まで→まで：00490_made⟧⟦{目標|もくひょう}→目標：03631_mokuhyou⟧⟦を→を：00422_wo⟧{完遂|かんすい}⟦する→する：00392_suru⟧こと⟦が→が：00051_ga⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧だ。",
       "english": "It's important not to give in to difficulties and carry your goals through to the end.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA formal word often used in business, military, and project contexts. Emphasizes the completion aspect more strongly than {達成|たっせい}, which focuses on achievement.\n\nCOMMON COLLOCATIONS:\n- {任務|にんむ}を{完遂|かんすい}する (to accomplish a mission)\n- {計画|けいかく}を{完遂|かんすい}する (to carry out a plan)\n- {目標|もくひょう}の{完遂|かんすい} (completion of a goal)\n\nSIMILAR WORDS:\n- {達成|たっせい}: achievement — focuses on reaching a goal, less emphasis on the process\n- {遂行|すいこう}: execution, carrying out — focuses on the process of performing a task",
+  "notes": "USAGE:\nA formal word often used in business, military, and project contexts. Emphasizes the completion aspect more strongly than ⟦{達成|たっせい}→達成：04816_tassei⟧, which focuses on achievement.\n\nCOMMON COLLOCATIONS:\n- ⟦{任務|にんむ}→任務：05513_ninmu⟧⟦を→を：00422_wo⟧{完遂|かんすい}⟦する→する：00392_suru⟧ (to accomplish a mission)\n- ⟦{計画|けいかく}→計画：01172_keikaku⟧⟦を→を：00422_wo⟧{完遂|かんすい}⟦する→する：00392_suru⟧ (to carry out a plan)\n- ⟦{目標|もくひょう}→目標：03631_mokuhyou⟧⟦の→の：09472_no⟧{完遂|かんすい} (completion of a goal)\n\nSIMILAR WORDS:\n- ⟦{達成|たっせい}→達成：04816_tassei⟧: achievement — focuses on reaching a goal, less emphasis on the process\n- ⟦{遂行|すいこう}→遂行：05619_suikou⟧: execution, carrying out — focuses on the process of performing a task",
   "cross_references": [
     {
       "type": "synonym",
@@ -153,7 +153,7 @@
   ],
   "metadata": {
     "created": "2026-03-14T10:32:03Z",
-    "modified": "2026-05-05T04:05:07Z",
+    "modified": "2026-09-02T04:01:46Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -167,7 +167,8 @@
         "achievement",
         "work"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

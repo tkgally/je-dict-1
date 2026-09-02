@@ -3,7 +3,7 @@
   "headword": "{耳打|みみう}ち",
   "reading": "みみうち",
   "romaji": "mimiuchi",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "whispering in someone's ear",
   "conjugation": {
     "type": "suru",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "18899_mimiuchi_ex1",
-      "japanese": "{彼女|かのじょ}に{耳打|みみう}ちした。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦に→に：00314_ni⟧{耳打|みみう}ち⟦した→する：00392_suru⟧。",
       "english": "I whispered in her ear.",
       "sense_numbers": [
         1
@@ -115,7 +115,7 @@
     },
     {
       "id": "18899_mimiuchi_ex2",
-      "japanese": "{隣|となり}の{人|ひと}にそっと{耳打|みみう}ちする。",
+      "japanese": "⟦{隣|となり}→隣：01003_tonari⟧⟦の→の：09472_no⟧⟦{人|ひと}→人：00476_hito⟧⟦に→に：00314_ni⟧⟦そっと→そっと：03321_sotto⟧{耳打|みみう}ち⟦する→する：00392_suru⟧。",
       "english": "To quietly whisper to the person next to you.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "18899_mimiuchi_ex3",
-      "japanese": "{会議中|かいぎちゅう}に{部長|ぶちょう}が{秘書|ひしょ}に{何|なに}か{耳打|みみう}ちしていた。",
+      "japanese": "⟦{会議中|かいぎちゅう}→会議中：16781_kaigichuu⟧⟦に→に：00314_ni⟧⟦{部長|ぶちょう}→部長：01017_buchou⟧⟦が→が：00051_ga⟧⟦{秘書|ひしょ}→秘書：05502_hisho⟧⟦に→に：00314_ni⟧⟦{何|なに}か→何か：03873_nanika⟧{耳打|みみう}ち⟦していた→する：00392_suru⟧。",
       "english": "During the meeting, the department head was whispering something to the secretary.",
       "sense_numbers": [
         1
@@ -134,8 +134,24 @@
       "notes": null
     }
   ],
-  "notes": "The act of leaning close and whispering directly into someone's ear. Composed of {耳|みみ} (ear) + {打|う}ち (striking, approaching).\n\nPATTERN:\n[person]に{耳打|みみう}ちする — the person being whispered to is marked with に.\n\nCOMMON COLLOCATIONS:\n- そっと{耳打|みみう}ちする: to whisper quietly\n- {何|なに}か{耳打|みみう}ちする: to whisper something\n- こっそり{耳打|みみう}ちする: to whisper secretly\n\nSIMILAR WORDS:\n- {囁|ささや}く: to whisper (general soft speech, not necessarily into someone's ear)\n- {内緒話|ないしょばなし}: secret talk, private conversation (broader than a single whispered remark)\n\nUSAGE:\n{耳打|みみう}ち specifically implies physical closeness — leaning toward the listener's ear. Often used in situations where discretion is needed, such as meetings, classrooms, or public settings. It implies sharing something that others should not hear.",
+  "notes": "The act of leaning close and whispering directly into someone's ear. Composed of ⟦{耳|みみ}→耳：01513_mimi⟧ (ear) + {打|う}ち (striking, approaching).\n\nCOMMON PATTERNS:\n[person]⟦に→に：00314_ni⟧{耳打|みみう}ち⟦する→する：00392_suru⟧ — the person being whispered to is marked with ⟦に→に：00314_ni⟧.\n\nCOMMON COLLOCATIONS:\n- ⟦そっと→そっと：03321_sotto⟧{耳打|みみう}ち⟦する→する：00392_suru⟧: to whisper quietly\n- ⟦{何|なに}か→何か：03873_nanika⟧{耳打|みみう}ち⟦する→する：00392_suru⟧: to whisper something\n- ⟦こっそり→こっそり：05890_kossori⟧{耳打|みみう}ち⟦する→する：00392_suru⟧: to whisper secretly\n\nSIMILAR WORDS:\n- ⟦{囁|ささや}く→囁く：03933_sasayaku⟧: to whisper (general soft speech, not necessarily into someone's ear)\n- ⟦{内緒話|ないしょばなし}→内緒話：21425_naishobanashi⟧: secret talk, private conversation (broader than a single whispered remark)\n\nUSAGE:\n{耳打|みみう}ち specifically implies physical closeness — leaning toward the listener's ear. Often used in situations where discretion is needed, such as meetings, classrooms, or public settings. It implies sharing something that others should not hear.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03933_sasayaku",
+      "reading": "ささやく",
+      "headword": "{囁|ささや}く",
+      "label": "to whisper"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21425_naishobanashi",
+      "reading": "ないしょばなし",
+      "headword": "{内緒話|ないしょばなし}",
+      "label": "secret talk, private conversation"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -151,6 +167,6 @@
       "verb_class": "suru"
     },
     "created": "2026-03-23T09:22:15Z",
-    "modified": "2026-03-29T09:08:20Z"
+    "modified": "2026-09-02T04:01:54Z"
   }
 }

@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "28717_kan_ex1",
-      "japanese": "マグロを{二|に}{貫|かん}{注文|ちゅうもん}した。",
+      "japanese": "⟦マグロ→マグロ：11134_maguro⟧⟦を→を：00422_wo⟧⟦{二|に}→二：00736_ni⟧{貫|かん}⟦{注文|ちゅうもん}した→注文する：21390_chuumon⟧。",
       "english": "I ordered two pieces of tuna sushi.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "28717_kan_ex2",
-      "japanese": "このセットは{十|じゅっ}{貫|かん}{入|はい}っている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦セット→セット：03853_setto⟧⟦は→は：00079_ha⟧{十|じゅっ}{貫|かん}⟦{入|はい}っている→入る：00494_hairu⟧。",
       "english": "This set contains ten pieces of sushi.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "28717_kan_ex3",
-      "japanese": "{大将|たいしょう}、{今日|きょう}のおすすめを{五|ご}{貫|かん}{握|にぎ}ってください。",
+      "japanese": "⟦{大将|たいしょう}→大将：19140_taishou⟧、⟦{今日|きょう}→今日：00496_kyou⟧⟦の→の：09472_no⟧⟦おすすめ→おすすめ：09746_osusume⟧⟦を→を：00422_wo⟧⟦{五|ご}→五：00697_go⟧{貫|かん}⟦{握|にぎ}って→握る：02383_nigiru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Chef, please make me five pieces of today's recommendation.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "A counter used almost exclusively in sushi contexts. Origin is debated, but it likely comes from older units of weight or coinage. A piece of nigiri sushi is sometimes (originally) two pieces served together as one {貫|かん}, but modern usage treats one piece as one {貫|かん}.\n\nCOMMON COLLOCATIONS:\n- {一|いっ}{貫|かん}, {二|に}{貫|かん}, {三|さん}{貫|がん}: 1, 2, 3 pieces (counting changes with sound shifts)\n- {一|いち}{人前|にんまえ}{十|じゅっ}{貫|かん}: ten pieces per serving\n- {握|にぎ}り{寿司|ずし}{二|に}{貫|かん}: two pieces of nigiri sushi\n\nUSAGE NOTE:\nFor maki rolls (cut rolls), the counter is usually {切|き}れ or {本|ほん} (for the whole roll). {貫|かん} is reserved mainly for nigiri.\n\nSIMILAR WORDS:\n- {個|こ}: piece (general counter) — works for sushi too in casual speech but lacks the specialist feel\n- {人前|にんまえ}: portion; serving — for full sets, not individual pieces",
+  "notes": "A counter used almost exclusively in sushi contexts. Origin is debated, but it likely comes from older units of weight or coinage. A piece of nigiri sushi is sometimes (originally) two pieces served together as one {貫|かん}, but modern usage treats one piece as one {貫|かん}.\n\nCOMMON COLLOCATIONS:\n- ⟦{一|いっ}{貫|かん}→一貫：17700_ikkan_b⟧, ⟦{二|に}→二：00736_ni⟧{貫|かん}, ⟦{三|さん}→三：00749_san⟧{貫|がん}: 1, 2, 3 pieces (counting changes with sound shifts)\n- ⟦{一|いち}{人前|にんまえ}→一人前：06782_ichininmae⟧{十|じゅっ}{貫|かん}: ten pieces per serving\n- ⟦{握|にぎ}り{寿司|ずし}→握り寿司：19145_nigirizushi⟧⟦{二|に}→二：00736_ni⟧{貫|かん}: two pieces of nigiri sushi\n\nUSAGE:\nFor maki rolls (cut rolls), the counter is usually {切|き}れ or {本|ほん} (for the whole roll). {貫|かん} is reserved mainly for nigiri.\n\nSIMILAR WORDS:\n- ⟦{個|こ}→〜個：00645_ko⟧: piece (general counter) — works for sushi too in casual speech but lacks the specialist feel\n- {人前|にんまえ}: portion; serving — for full sets, not individual pieces",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,7 +53,7 @@
         "counter"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "food",
         "quantity"
@@ -61,6 +61,6 @@
       "domain": []
     },
     "created": "2026-06-04T03:15:54Z",
-    "modified": "2026-08-08T18:34:17Z"
+    "modified": "2026-09-02T04:02:34Z"
   }
 }

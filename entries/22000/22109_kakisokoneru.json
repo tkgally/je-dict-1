@@ -3,7 +3,7 @@
   "headword": "{書|か}き{損|そこ}ねる",
   "reading": "かきそこねる",
   "romaji": "kakisokoneru",
-  "part_of_speech": "verb",
+  "part_of_speech": "verb (ichidan)",
   "gloss": "to fail to write; to make a mistake in writing",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "22109_kakisokoneru_ex1",
-      "japanese": "{名前|なまえ}を{書|か}き{損|そこ}ねた。",
+      "japanese": "⟦{名前|なまえ}→名前：02234_namae⟧⟦を→を：00422_wo⟧{書|か}き{損|そこ}ねた。",
       "english": "I made a mistake writing the name.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "22109_kakisokoneru_ex2",
-      "japanese": "{住所|じゅうしょ}を{書|か}き{損|そこ}ねて、{最初|さいしょ}から{書|か}き{直|なお}した。",
+      "japanese": "⟦{住所|じゅうしょ}→住所：01430_juusho⟧⟦を→を：00422_wo⟧{書|か}き{損|そこ}ねて、⟦{最初|さいしょ}→最初：00882_saisho⟧⟦から→から：00504_kara⟧⟦{書|か}き{直|なお}した→書き直す：04597_kakinaosu⟧。",
       "english": "I made an error writing the address and rewrote it from the beginning.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "22109_kakisokoneru_ex3",
-      "japanese": "{電話番号|でんわばんごう}を{書|か}き{損|そこ}ねて、{連絡|れんらく}が{取|と}れなくなってしまった。",
+      "japanese": "⟦{電話番号|でんわばんごう}→電話番号：10159_denwabangou⟧⟦を→を：00422_wo⟧{書|か}き{損|そこ}ねて、⟦{連絡|れんらく}→連絡：01524_renraku⟧⟦が→が：00051_ga⟧⟦{取|と}れなく→取れる：02376_toreru⟧⟦なって→なる：01970_naru⟧しまった。",
       "english": "I wrote the phone number down wrong and couldn't get in touch.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "A compound verb: {書|か}く (to write) + {損|そこ}ねる (to fail to do, to botch). The auxiliary verb 〜{損|そこ}ねる attaches to the stem of another verb to express failure or a missed opportunity. It follows the ichidan conjugation pattern.\n\nRELATED COMPOUND VERBS WITH 〜{損|そこ}ねる:\n- {言|い}い{損|そこ}ねる: to fail to say, to misspeak\n- {読|よ}み{損|そこ}ねる: to misread, to fail to read\n- {食|た}べ{損|そこ}ねる: to miss out on eating\n- {乗|の}り{損|そこ}ねる: to miss (a train, bus)\n\nSIMILAR WORDS:\n- {書|か}き{間違|まちが}える: to write incorrectly — focuses on the error itself rather than the failure\n- {書|か}き{直|なお}す: to rewrite — the action taken after making a writing mistake\n- {書|か}き{落|お}とす: to omit in writing — to accidentally leave something out",
+  "notes": "A compound verb: ⟦{書|か}く→書く：00477_kaku⟧ (to write) + ⟦{損|そこ}ねる→損ねる：12710_sokoneru⟧ (to fail to do, to botch). The auxiliary verb 〜⟦{損|そこ}ねる→損ねる：12710_sokoneru⟧ attaches to the stem of another verb to express failure or a missed opportunity. It follows the ichidan conjugation pattern.\n\nRELATED COMPOUND VERBS WITH 〜{損|そこ}ねる:\n- ⟦{言|い}い→言う：00515_iu⟧⟦{損|そこ}ねる→損ねる：12710_sokoneru⟧: to fail to say, to misspeak\n- ⟦{読|よ}み→読む：00426_yomu⟧⟦{損|そこ}ねる→損ねる：12710_sokoneru⟧: to misread, to fail to read\n- ⟦{食|た}べ→食べる：00396_taberu⟧⟦{損|そこ}ねる→損ねる：12710_sokoneru⟧: to miss out on eating\n- {乗|の}り⟦{損|そこ}ねる→損ねる：12710_sokoneru⟧: to miss (a train, bus)\n\nSIMILAR WORDS:\n- ⟦{書|か}き{間違|まちが}える→書き間違える：21977_kakimachigaeru⟧: to write incorrectly — focuses on the error itself rather than the failure\n- ⟦{書|か}き{直|なお}す→書き直す：04597_kakinaosu⟧: to rewrite — the action taken after making a writing mistake\n- {書|か}き{落|お}とす: to omit in writing — to accidentally leave something out",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21977_kakimachigaeru",
+      "reading": "かきまちがえる",
+      "headword": "{書|か}き{間違|まちが}える",
+      "label": "to write incorrectly"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04597_kakinaosu",
+      "reading": "かきなおす",
+      "headword": "{書|か}き{直|なお}す",
+      "label": "to rewrite"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -57,10 +73,11 @@
       "semantic": [
         "language"
       ],
-      "verb_class": "ichidan"
+      "verb_class": "ichidan",
+      "transitivity": "transitive"
     },
     "created": "2026-04-05T02:21:17Z",
-    "modified": "2026-04-05T02:21:17Z"
+    "modified": "2026-09-02T04:02:06Z"
   },
   "conjugation": {
     "type": "ichidan",

@@ -15,41 +15,62 @@
   "examples": [
     {
       "id": "13919_kikikomi_ex1",
-      "japanese": "{刑事|けいじ}が{聞|き}き{込|こ}みに{回|まわ}る。",
+      "japanese": "⟦{刑事|けいじ}→刑事：02741_keiji⟧⟦が→が：00051_ga⟧{聞|き}き{込|こ}み⟦に→に：00314_ni⟧⟦{回|まわ}る→回る：01150_mawaru⟧。",
       "english": "The detective goes around conducting inquiries.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13919_kikikomi_ex2",
-      "japanese": "{近所|きんじょ}で{聞|き}き{込|こ}み{調査|ちょうさ}を{行|おこな}った。",
+      "japanese": "⟦{近所|きんじょ}→近所：01318_kinjo⟧⟦で→で：00502_de⟧{聞|き}き{込|こ}み⟦{調査|ちょうさ}→調査：03489_chousa⟧⟦を→を：00422_wo⟧⟦{行|おこな}った→行う：01238_okonau⟧。",
       "english": "They conducted door-to-door inquiries in the neighborhood.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13919_kikikomi_ex3",
-      "japanese": "{聞|き}き{込|こ}みの{結果|けっか}、{事件|じけん}{当日|とうじつ}に{不審|ふしん}な{人物|じんぶつ}を{見|み}たという{証言|しょうげん}が{得|え}られた。",
+      "japanese": "{聞|き}き{込|こ}み⟦の→の：09472_no⟧⟦{結果|けっか}→結果：02486_kekka⟧、⟦{事件|じけん}→事件：01568_jiken⟧⟦{当日|とうじつ}→当日：04558_toujitsu⟧⟦に→に：00314_ni⟧⟦{不審|ふしん}→不審：16934_fushin⟧な⟦{人物|じんぶつ}→人物：03356_jinbutsu⟧⟦を→を：00422_wo⟧⟦{見|み}た→見る：00283_miru⟧⟦という→という：09577_toiu⟧⟦{証言|しょうげん}→証言：11088_shougen⟧⟦が→が：00051_ga⟧⟦{得|え}られた→得る：02014_eru⟧。",
       "english": "As a result of the door-to-door inquiries, they obtained a testimony that a suspicious person was seen on the day of the incident.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE NOTE:\nStrongly associated with police investigations. Very commonly heard in crime dramas, mystery novels, and news reports. The verb form is {聞|き}き{込|こ}みをする.\n\nCOMMON COLLOCATIONS:\n- {聞|き}き{込|こ}みをする (conduct inquiries)\n- {聞|き}き{込|こ}みに{回|まわ}る (go around asking questions)\n- {聞|き}き{込|こ}み{調査|ちょうさ} (inquiry-based investigation)\n- {聞|き}き{込|こ}み{捜査|そうさ} (investigation through questioning)\n\nSIMILAR WORDS:\n- {取材|しゅざい}: news-gathering, reporting (journalistic context)\n- {尋問|じんもん}: interrogation (more formal, at the station)",
+  "notes": "USAGE:\nStrongly associated with police investigations. Very commonly heard in crime dramas, mystery novels, and news reports. The verb form is {聞|き}き{込|こ}み⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧.\n\nCOMMON COLLOCATIONS:\n- {聞|き}き{込|こ}み⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧ (conduct inquiries)\n- {聞|き}き{込|こ}み⟦に→に：00314_ni⟧⟦{回|まわ}る→回る：01150_mawaru⟧ (go around asking questions)\n- {聞|き}き{込|こ}み⟦{調査|ちょうさ}→調査：03489_chousa⟧ (inquiry-based investigation)\n- {聞|き}き{込|こ}み⟦{捜査|そうさ}→捜査：03688_sousa⟧ (investigation through questioning)\n\nSIMILAR WORDS:\n- ⟦{取材|しゅざい}→取材：05227_shuzai⟧: news-gathering, reporting (journalistic context)\n- {尋問|じんもん}: interrogation (more formal, at the station)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05227_shuzai",
+      "reading": "しゅざい",
+      "headword": "{取材|しゅざい}",
+      "label": "news-gathering, reporting"
+    }
+  ],
   "metadata": {
     "created": "2026-02-27T06:59:25Z",
-    "modified": "2026-02-27T06:59:25Z",
+    "modified": "2026-09-02T04:01:35Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["communication"],
-      "domain": ["legal"]
+      "semantic": [
+        "communication"
+      ],
+      "domain": [
+        "legal"
+      ]
     }
   }
 }

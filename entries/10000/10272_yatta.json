@@ -14,30 +14,36 @@
   "examples": [
     {
       "id": "10272_yatta_ex1",
-      "japanese": "やった！{合格|ごうかく}した！",
+      "japanese": "やった！⟦{合格|ごうかく}した→合格する：27949_goukakusuru⟧！",
       "english": "Yay! I passed!",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10272_yatta_ex2",
-      "japanese": "やった、{試合|しあい}に{勝|か}ったぞ！",
+      "japanese": "やった、⟦{試合|しあい}→試合：01601_shiai⟧⟦に→に：00314_ni⟧⟦{勝|か}った→勝つ：01199_katsu⟧ぞ！",
       "english": "Yes! We won the game!",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10272_yatta_ex3",
-      "japanese": "やったー！{念願|ねんがん}の{一等賞|いっとうしょう}をもらった！",
+      "japanese": "やったー！⟦{念願|ねんがん}→念願：17955_nengan⟧⟦の→の：09472_no⟧{一等賞|いっとうしょう}⟦を→を：00422_wo⟧⟦もらった→もらう：00520_morau⟧！",
       "english": "Hooray! I got the first prize I've been dreaming of!",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "Derived from the past tense of やる (to do). Used independently as an exclamation of success or joy.\n\nOften elongated for emphasis: やったー！ The longer the vowel, the more excitement is expressed.\n\nUsed by all genders and ages. One of the most common exclamations of happiness in spoken Japanese.\n\nCONTRAST: しまった (oh no!) expresses dismay over a mistake — the opposite emotional reaction.",
+  "notes": "Derived from the past tense of ⟦やる→やる：02980_yaru⟧ (to do). Used independently as an exclamation of success or joy.\n\nOften elongated for emphasis: やったー！ The longer the vowel, the more excitement is expressed.\n\nUsed by all genders and ages. One of the most common exclamations of happiness in spoken Japanese.\n\nCONTRAST: しまった (oh no!) expresses dismay over a mistake — the opposite emotional reaction.",
   "prominent_see_also": [
     {
       "target_id": "10271_shimatta",
@@ -53,17 +59,28 @@
       "reading": "やる",
       "headword": "やる",
       "label": "base verb"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28667_ossha",
+      "reading": "おっしゃ",
+      "headword": "おっしゃ",
+      "label": "Alright!"
     }
   ],
   "metadata": {
     "created": "2026-02-05T18:05:03Z",
-    "modified": "2026-04-24T06:24:12Z",
+    "modified": "2026-09-02T04:01:20Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["interjection"],
+      "pos": [
+        "interjection"
+      ],
       "formality": "informal",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

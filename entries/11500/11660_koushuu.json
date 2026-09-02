@@ -15,40 +15,58 @@
   "examples": [
     {
       "id": "11660_koushuu_ex1",
-      "japanese": "{公衆|こうしゅう}トイレを{探|さが}す。",
+      "japanese": "{公衆|こうしゅう}トイレ⟦を→を：00422_wo⟧⟦{探|さが}す→探す：00493_sagasu⟧。",
       "english": "Look for a public restroom.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11660_koushuu_ex2",
-      "japanese": "{公衆|こうしゅう}{電話|でんわ}はだんだん{少|すく}なくなっている。",
+      "japanese": "{公衆|こうしゅう}⟦{電話|でんわ}→電話：01471_denwa⟧⟦は→は：00079_ha⟧⟦だんだん→だんだん：00832_dandan⟧⟦{少|すく}なく→少ない：01136_sukunai⟧⟦なっている→なる：01970_naru⟧。",
       "english": "Public phones are gradually becoming fewer.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11660_koushuu_ex3",
-      "japanese": "{公衆|こうしゅう}{衛生|えいせい}の{向上|こうじょう}は、{感染症|かんせんしょう}の{予防|よぼう}に{欠|か}かせない。",
+      "japanese": "{公衆|こうしゅう}{衛生|えいせい}⟦の→の：09472_no⟧⟦{向上|こうじょう}→向上：02731_koujou⟧⟦は→は：00079_ha⟧、⟦{感染症|かんせんしょう}→感染症：15681_kansenshou⟧⟦の→の：09472_no⟧⟦{予防|よぼう}→予防：03669_yobou⟧⟦に→に：00314_ni⟧⟦{欠|か}かせない→欠かす：10138_kakasu⟧。",
       "english": "Improvement of public hygiene is essential for the prevention of infectious diseases.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "Almost exclusively used as a compound modifier before another noun. Rarely appears on its own.\n\nCOMMON COLLOCATIONS:\n・{公衆|こうしゅう}トイレ (public restroom)\n・{公衆|こうしゅう}{電話|でんわ} (public telephone, payphone)\n・{公衆|こうしゅう}{衛生|えいせい} (public hygiene/health)\n・{公衆|こうしゅう}{浴場|よくじょう} (public bathhouse)\n・{公衆|こうしゅう}{道徳|どうとく} (public morals)\n・{公衆|こうしゅう}の{面前|めんぜん} (in public, in front of everyone)\n\nCOMPARISON:\n・{公共|こうきょう}: public (emphasizing communal ownership or service)\n・{公衆|こうしゅう}: the public as people / for public use (often in compound nouns for shared facilities)",
-  "cross_references": [],
+  "notes": "Almost exclusively used as a compound modifier before another noun. Rarely appears on its own.\n\nCOMMON COLLOCATIONS:\n- {公衆|こうしゅう}トイレ (public restroom)\n- {公衆|こうしゅう}⟦{電話|でんわ}→電話：01471_denwa⟧ (public telephone, payphone)\n- {公衆|こうしゅう}{衛生|えいせい} (public hygiene/health)\n- {公衆|こうしゅう}⟦{浴場|よくじょう}→浴場：13350_yokujou⟧ (public bathhouse)\n- {公衆|こうしゅう}⟦{道徳|どうとく}→道徳：03478_doutoku⟧ (public morals)\n- {公衆|こうしゅう}⟦の→の：09472_no⟧{面前|めんぜん} (in public, in front of everyone)\n\nSIMILAR WORDS:\n- ⟦{公共|こうきょう}→公共：11652_koukyou⟧: public (emphasizing communal ownership or service)\n- {公衆|こうしゅう}: the public as people / for public use (often in compound nouns for shared facilities)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11652_koukyou",
+      "reading": "こうきょう",
+      "headword": "{公共|こうきょう}",
+      "label": "public"
+    }
+  ],
   "metadata": {
     "created": "2026-02-17T18:43:10Z",
-    "modified": "2026-02-17T18:43:10Z",
+    "modified": "2026-09-02T04:01:25Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["person"]
+      "semantic": [
+        "person"
+      ]
     }
   }
 }

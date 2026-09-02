@@ -15,41 +15,59 @@
   "examples": [
     {
       "id": "11284_herupaa_ex1",
-      "japanese": "ヘルパーが{週|しゅう}に{三回|さんかい}{来|く}る。",
+      "japanese": "ヘルパー⟦が→が：00051_ga⟧⟦{週|しゅう}→週：03204_shuu⟧⟦に→に：00314_ni⟧⟦{三回|さんかい}→三回：30448_sankai⟧⟦{来|く}る→来る：00254_kuru⟧。",
       "english": "A care worker comes three times a week.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11284_herupaa_ex2",
-      "japanese": "{祖母|そぼ}はヘルパーに{買|か}い{物|もの}を{手伝|てつだ}ってもらっている。",
+      "japanese": "⟦{祖母|そぼ}→祖母：00813_sobo⟧⟦は→は：00079_ha⟧ヘルパー⟦に→に：00314_ni⟧⟦{買|か}い{物|もの}→買い物：00853_kaimono⟧⟦を→を：00422_wo⟧⟦{手伝|てつだ}って→手伝う：00898_tetsudau⟧⟦もらっている→もらう：00520_morau⟧。",
       "english": "My grandmother has a care worker help her with shopping.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11284_herupaa_ex3",
-      "japanese": "ホームヘルパーの{資格|しかく}を{取|と}って、{介護|かいご}の{仕事|しごと}を{始|はじ}めた。",
+      "japanese": "⟦ホーム→ホーム：00113_hoomu⟧ヘルパー⟦の→の：09472_no⟧⟦{資格|しかく}→資格：02834_shikaku⟧⟦を→を：00422_wo⟧⟦{取|と}って→取る：00565_toru⟧、⟦{介護|かいご}→介護：04805_kaigo⟧⟦の→の：09472_no⟧⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦を→を：00422_wo⟧⟦{始|はじ}めた→始める：00531_hajimeru⟧。",
       "english": "I got certified as a home helper and started working in care.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nIn Japan, ヘルパー most commonly refers to a ホームヘルパー (home helper) — a certified care worker who visits homes to assist with daily living tasks for the elderly or disabled. This is the primary meaning in everyday conversation.\n\nCOMMON COLLOCATIONS:\n- ホームヘルパー: home care worker\n- ヘルパーを{頼|たの}む: to request a care worker\n- ヘルパーの{資格|しかく}: care worker certification\n- ヘルパー{派遣|はけん}: care worker dispatch\n\nSIMILAR WORDS:\n{介護士|かいごし} (care worker) is the more formal term for a certified care professional. ヘルパー is the common everyday term.",
-  "cross_references": [],
+  "notes": "USAGE:\nIn Japan, ヘルパー most commonly refers to a ⟦ホーム→ホーム：00113_hoomu⟧ヘルパー (home helper) — a certified care worker who visits homes to assist with daily living tasks for the elderly or disabled. This is the primary meaning in everyday conversation.\n\nCOMMON COLLOCATIONS:\n- ⟦ホーム→ホーム：00113_hoomu⟧ヘルパー: home care worker\n- ヘルパー⟦を→を：00422_wo⟧⟦{頼|たの}む→頼む：01104_tanomu⟧: to request a care worker\n- ヘルパー⟦の→の：09472_no⟧⟦{資格|しかく}→資格：02834_shikaku⟧: care worker certification\n- ヘルパー⟦{派遣|はけん}→派遣：13273_haken⟧: care worker dispatch\n\nSIMILAR WORDS:\n⟦{介護士|かいごし}→介護士：20025_kaigoshi⟧ (care worker) is the more formal term for a certified care professional. ヘルパー is the common everyday term.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20025_kaigoshi",
+      "reading": "かいごし",
+      "headword": "{介護士|かいごし}",
+      "label": "care worker"
+    }
+  ],
   "metadata": {
     "created": "2026-02-15T10:01:30Z",
-    "modified": "2026-02-15T10:01:30Z",
+    "modified": "2026-09-02T04:01:24Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["occupation"]
+      "semantic": [
+        "occupation"
+      ]
     }
   }
 }

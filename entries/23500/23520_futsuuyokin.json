@@ -15,40 +15,73 @@
   "examples": [
     {
       "id": "23520_futsuuyokin_ex1",
-      "japanese": "{普通|ふつう}{預金|よきん}の{口座|こうざ}を{開|ひら}く。",
+      "japanese": "{普通|ふつう}{預金|よきん}⟦の→の：09472_no⟧⟦{口座|こうざ}→口座：05419_kouza⟧⟦を→を：00422_wo⟧⟦{開|ひら}く→開く：01979_hiraku⟧。",
       "english": "To open an ordinary savings account.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "23520_futsuuyokin_ex2",
-      "japanese": "{給料|きゅうりょう}は{普通|ふつう}{預金|よきん}に{振|ふ}り{込|こ}まれる。",
+      "japanese": "⟦{給料|きゅうりょう}→給料：01086_kyuuryou⟧⟦は→は：00079_ha⟧{普通|ふつう}{預金|よきん}⟦に→に：00314_ni⟧⟦{振|ふ}り{込|こ}まれる→振り込む：10992_furikomu⟧。",
       "english": "The salary is deposited into the ordinary savings account.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "23520_futsuuyokin_ex3",
-      "japanese": "{普通|ふつう}{預金|よきん}の{金利|きんり}は{今|いま}とても{低|ひく}い。",
+      "japanese": "{普通|ふつう}{預金|よきん}⟦の→の：09472_no⟧⟦{金利|きんり}→金利：04856_kinri⟧⟦は→は：00079_ha⟧⟦{今|いま}→今：00945_ima⟧⟦とても→とても：00593_totemo⟧⟦{低|ひく}い→低い：02947_hikui⟧。",
       "english": "The interest rate on ordinary savings accounts is very low right now.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "The standard, most common type of bank account in Japan. When opening a bank account, this is typically the default choice. Money can be deposited and withdrawn freely, and it serves as the destination for salary payments, utility bill debits, and everyday transactions.\n\nCOMMON COLLOCATIONS:\n- {普通|ふつう}{預金|よきん}{口座|こうざ}: ordinary savings account (the full formal term)\n- {普通|ふつう}{預金|よきん}の{残高|ざんだか}: savings account balance\n- {普通|ふつう}{預金|よきん}の{通帳|つうちょう}: savings account passbook\n\nRELATED ACCOUNT TYPES:\n- {定期|ていき}{預金|よきん}: fixed-term deposit — money is locked for a set period in exchange for higher interest\n- {当座|とうざ}{預金|よきん}: current account / checking account — used mainly by businesses, does not earn interest\n- {貯蓄|ちょちく}{預金|よきん}: savings deposit — a higher-interest account with minimum balance requirements",
+  "notes": "The standard, most common type of bank account in Japan. When opening a bank account, this is typically the default choice. Money can be deposited and withdrawn freely, and it serves as the destination for salary payments, utility bill debits, and everyday transactions.\n\nCOMMON COLLOCATIONS:\n- {普通|ふつう}{預金|よきん}{口座|こうざ}: ordinary savings account (the full formal term)\n- {普通|ふつう}{預金|よきん}⟦の→の：09472_no⟧⟦{残高|ざんだか}→残高：05422_zandaka⟧: savings account balance\n- {普通|ふつう}{預金|よきん}⟦の→の：09472_no⟧⟦{通帳|つうちょう}→通帳：09924_tsuuchou⟧: savings account passbook\n\nRELATED ACCOUNT TYPES:\n- ⟦{定期|ていき}{預金|よきん}→定期預金：22251_teikiyokin⟧: fixed-term deposit — money is locked for a set period in exchange for higher interest\n- ⟦{当座|とうざ}{預金|よきん}→当座預金：27031_touzayokin⟧: current account / checking account — used mainly by businesses, does not earn interest\n- ⟦{貯蓄|ちょちく}→貯蓄：18972_chochiku⟧⟦{預金|よきん}→預金：05420_yokin⟧: savings deposit — a higher-interest account with minimum balance requirements",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "22251_teikiyokin",
+      "reading": "ていきよきん",
+      "headword": "{定期預金|ていきよきん}",
+      "label": "fixed-term deposit"
+    },
+    {
+      "type": "related",
+      "target_id": "27031_touzayokin",
+      "reading": "とうざよきん",
+      "headword": "{当座預金|とうざよきん}",
+      "label": "current account / checking account"
+    },
+    {
+      "type": "related",
+      "target_id": "27021_ginkoukouza",
+      "reading": "ぎんこうこうざ",
+      "headword": "{銀行口座|ぎんこうこうざ}",
+      "label": "bank account"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["finance"]
+      "semantic": [
+        "finance"
+      ]
     },
     "created": "2026-04-12T15:07:55Z",
-    "modified": "2026-04-12T15:07:55Z"
+    "modified": "2026-09-02T04:02:13Z"
   }
 }

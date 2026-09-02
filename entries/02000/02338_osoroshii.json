@@ -34,7 +34,7 @@
     },
     {
       "id": "02338_osoroshii_ex2",
-      "japanese": "{恐|おそ}ろしい⟦{顔|かお}→顔：00558_kao⟧⟦を→を：00422_wo⟧している。",
+      "japanese": "{恐|おそ}ろしい⟦{顔|かお}→顔：00558_kao⟧⟦を→を：00422_wo⟧⟦している→する：00392_suru⟧。",
       "english": "He has a frightening face.",
       "notes": null,
       "has_audio": false,
@@ -113,7 +113,7 @@
       ]
     }
   ],
-  "notes": "{恐|おそ}ろしい is an i-adjective meaning frightening or terrible, stronger than ⟦{怖|こわ}い→怖い：00864_kowai⟧.\n\nFORMS:\n- Adverbial: {恐|おそ}ろしく\n- Noun form: ⟦{恐|おそ}ろしさ→恐ろしさ：28403_osoroshisa⟧ (terribleness)\n\nINTENSIFIER USE:\n{恐|おそ}ろしく + adjective/adverb means 'terribly, incredibly':\n- {恐|おそ}ろしく⟦{速|はや}い→速い：00514_hayai⟧: terribly fast\n- {恐|おそ}ろしく⟦{高|たか}い→高い：00500_takai⟧: incredibly expensive\n\nSIMILAR WORDS:\n- ⟦{怖|こわ}い→怖い：00864_kowai⟧: scary, afraid (more common in daily speech)\n- ⟦{恐怖|きょうふ}→恐怖：02585_kyoufu⟧: fear, terror (noun)\n- ⟦{物|もの}{凄|すご}い→物凄い：27844_monosugoi⟧: tremendous, incredible\n\nNOTE:\nIn colloquial use, {恐|おそ}ろしい can express amazement at something extreme, not necessarily fear.",
+  "notes": "{恐|おそ}ろしい is an i-adjective meaning frightening or terrible, stronger than ⟦{怖|こわ}い→怖い：00864_kowai⟧.\n\nFORMS:\n- Adverbial: {恐|おそ}ろしく\n- Noun form: ⟦{恐|おそ}ろしさ→恐ろしさ：28403_osoroshisa⟧ (terribleness)\n\nINTENSIFIER USE:\n{恐|おそ}ろしく + adjective/adverb means 'terribly, incredibly':\n- {恐|おそ}ろしく⟦{速|はや}い→速い：00514_hayai⟧: terribly fast\n- {恐|おそ}ろしく⟦{高|たか}い→高い：00500_takai⟧: incredibly expensive\n\nSIMILAR WORDS:\n- ⟦{怖|こわ}い→怖い：00864_kowai⟧: scary, afraid (more common in daily speech)\n- ⟦{恐怖|きょうふ}→恐怖：02585_kyoufu⟧: fear, terror (noun)\n- ⟦{物|もの}{凄|すご}い→物凄い：27844_monosugoi⟧: tremendous, incredible\n\nUSAGE:\nIn colloquial use, {恐|おそ}ろしい can express amazement at something extreme, not necessarily fear.",
   "cross_references": [
     {
       "type": "synonym",
@@ -128,11 +128,46 @@
       "reading": "きょうふ",
       "headword": "{恐怖|きょうふ}",
       "label": "fear, terror (noun)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27844_monosugoi",
+      "reading": "ものすごい",
+      "headword": "{物凄|ものすご}い",
+      "label": "tremendous, incredible"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02023_osoreru",
+      "reading": "おそれる",
+      "headword": "{恐|おそ}れる",
+      "label": "to fear, to be afraid of"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07932_ozomashii",
+      "reading": "おぞましい",
+      "headword": "おぞましい",
+      "label": "disgusting"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20292_imawashii",
+      "reading": "いまわしい",
+      "headword": "{忌|い}まわしい",
+      "label": "abominable"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26250_odoroodoroshii",
+      "reading": "おどろおどろしい",
+      "headword": "おどろおどろしい",
+      "label": "eerie"
     }
   ],
   "metadata": {
     "created": "2026-01-09T08:23:41Z",
-    "modified": "2026-08-12T06:27:51Z",
+    "modified": "2026-09-02T04:01:01Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

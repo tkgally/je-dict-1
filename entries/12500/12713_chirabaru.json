@@ -3,7 +3,7 @@
   "id": "12713_chirabaru",
   "headword": "{散|ち}らばる",
   "reading": "ちらばる",
-  "part_of_speech": "godan verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to be scattered, to be dispersed",
   "conjugation": {
     "type": "godan",
@@ -105,7 +105,7 @@
   "examples": [
     {
       "id": "12713_chirabaru_ex1",
-      "japanese": "おもちゃが{床|ゆか}に{散|ち}らばっている。",
+      "japanese": "⟦おもちゃ→おもちゃ：01334_omocha⟧⟦が→が：00051_ga⟧⟦{床|ゆか}→床：03652_yuka⟧⟦に→に：00314_ni⟧{散|ち}らばって⟦いる→いる：00495_iru⟧。",
       "english": "Toys are scattered on the floor.",
       "notes": null,
       "has_audio": false,
@@ -115,7 +115,7 @@
     },
     {
       "id": "12713_chirabaru_ex2",
-      "japanese": "{落|お}ち{葉|ば}が{庭|にわ}に{散|ち}らばっていた。",
+      "japanese": "⟦{落|お}ち{葉|ば}→落ち葉：14108_ochiba⟧⟦が→が：00051_ga⟧⟦{庭|にわ}→庭：02239_niwa⟧⟦に→に：00314_ni⟧{散|ち}らばって⟦いた→いる：00495_iru⟧。",
       "english": "Fallen leaves were strewn across the garden.",
       "notes": null,
       "has_audio": false,
@@ -125,7 +125,7 @@
     },
     {
       "id": "12713_chirabaru_ex3",
-      "japanese": "{住民|じゅうみん}は{広|ひろ}い{地域|ちいき}に{散|ち}らばって{暮|く}らしている。",
+      "japanese": "⟦{住民|じゅうみん}→住民：03281_juumin⟧⟦は→は：00079_ha⟧⟦{広|ひろ}い→広い：00704_hiroi⟧⟦{地域|ちいき}→地域：01461_chiiki⟧⟦に→に：00314_ni⟧{散|ち}らばって⟦{暮|く}らしている→暮らす：01937_kurasu⟧。",
       "english": "The residents live scattered across a wide area.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY:\nIntransitive ({自動詞|じどうし}). The transitive pair is {散|ち}らす (to scatter something).\n\nASPECT (ている):\n{散|ち}らばっている describes the resulting state of being scattered — things are in a scattered arrangement.\n\nPARTICLE PATTERNS:\n- Xが{散|ち}らばる: X is scattered\n- Xに{散|ち}らばる: scattered across/in X\n\nCOMMON COLLOCATIONS:\n- {書類|しょるい}が{散|ち}らばる: papers are strewn about\n- あちこちに{散|ち}らばる: scattered here and there\n- {広範囲|こうはんい}に{散|ち}らばる: dispersed over a wide area\n\nSIMILAR WORDS:\n- {散|ち}らかる: to be messy, in disarray (implies untidiness)\n- {散|ち}らばる: to be scattered, dispersed (more neutral, spatial distribution)",
+  "notes": "TRANSITIVITY:\nIntransitive (⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧). The transitive pair is ⟦{散|ち}らす→散らす：02288_chirasu⟧ (to scatter something).\n\nASPECT (ている):\n{散|ち}らばって⟦いる→いる：00495_iru⟧ describes the resulting state of being scattered — things are in a scattered arrangement.\n\nCOMMON PATTERNS:\n- X⟦が→が：00051_ga⟧{散|ち}らばる: X is scattered\n- X⟦に→に：00314_ni⟧{散|ち}らばる: scattered across/in X\n\nCOMMON COLLOCATIONS:\n- ⟦{書類|しょるい}→書類：01103_shorui⟧⟦が→が：00051_ga⟧{散|ち}らばる: papers are strewn about\n- ⟦あちこち→あちこち：01687_achikochi⟧⟦に→に：00314_ni⟧{散|ち}らばる: scattered here and there\n- ⟦{広範囲|こうはんい}→広範囲：17171_kouhani⟧⟦に→に：00314_ni⟧{散|ち}らばる: dispersed over a wide area\n\nSIMILAR WORDS:\n- ⟦{散|ち}らかる→散らかる：04357_chirakaru⟧: to be messy, in disarray (implies untidiness)\n- {散|ち}らばる: to be scattered, dispersed (more neutral, spatial distribution)",
   "cross_references": [
     {
       "type": "contrast",
@@ -142,11 +142,32 @@
       "reading": "ちらかる",
       "headword": "{散|ち}らかる",
       "label": "to be messy"
+    },
+    {
+      "type": "related",
+      "target_id": "08433_makichirasu",
+      "reading": "まきちらす",
+      "headword": "{撒|ま}き{散|ち}らす",
+      "label": "to scatter"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13392_tenzai",
+      "reading": "てんざい",
+      "headword": "{点在|てんざい}",
+      "label": "scattered, dotted about"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21487_sanran",
+      "reading": "さんらん",
+      "headword": "{散乱|さんらん}",
+      "label": "scattering"
     }
   ],
   "metadata": {
     "created": "2026-02-22T06:20:30Z",
-    "modified": "2026-04-27T07:31:57Z",
+    "modified": "2026-09-02T04:01:30Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

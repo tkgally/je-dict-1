@@ -15,41 +15,75 @@
   "examples": [
     {
       "id": "27247_nouhanki_ex1",
-      "japanese": "{農繁期|のうはんき}は{人手|ひとで}が{足|た}りない。",
+      "japanese": "{農繁期|のうはんき}⟦は→は：00079_ha⟧⟦{人手|ひとで}→人手：25438_hitode⟧⟦が→が：00051_ga⟧⟦{足|た}りない→足りる：01209_tariru⟧。",
       "english": "There aren't enough workers during the busy farming season.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27247_nouhanki_ex2",
-      "japanese": "{農繁期|のうはんき}には{朝|あさ}から{晩|ばん}まで{田|た}んぼで{働|はたら}く。",
+      "japanese": "{農繁期|のうはんき}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{朝|あさ}→朝：02277_asa⟧⟦から→から：00504_kara⟧⟦{晩|ばん}→晩：00542_ban⟧⟦まで→まで：00490_made⟧⟦{田|た}んぼ→田んぼ：00402_tanbo⟧⟦で→で：00502_de⟧⟦{働|はたら}く→働く：00503_hataraku⟧。",
       "english": "During the busy farming season, we work in the rice paddies from morning to night.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27247_nouhanki_ex3",
-      "japanese": "かつては{農繁期|のうはんき}になると{学校|がっこう}を{休|やす}む{子|こ}どもも{多|おお}かった。",
+      "japanese": "⟦かつて→かつて：10303_katsute⟧⟦は→は：00079_ha⟧{農繁期|のうはんき}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦と→と：00512_to⟧⟦{学校|がっこう}→学校：00055_gakkou⟧⟦を→を：00422_wo⟧⟦{休|やす}む→休む：00606_yasumu⟧{子|こ}ども⟦も→も：00484_mo⟧⟦{多|おお}かった→多い：01127_ooi⟧。",
       "english": "In the past, many children would miss school during the busy farming season.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Compound of {農|のう} (agriculture) + {繁|はん} (busy/flourishing) + {期|き} (period). In Japan, the main {農繁期|のうはんき} periods are spring ({田植|たう}え, rice planting) and autumn ({稲刈|いねか}り, rice harvesting). Historically, school schedules and local events were arranged around these periods.\n\nCOMMON COLLOCATIONS:\n- {農繁期|のうはんき}に{入|はい}る: to enter the busy farming season\n- {農繁期|のうはんき}の{手伝|てつだ}い: helping during busy farming season\n- {農繁期|のうはんき}{休暇|きゅうか}: farming season leave (historically given to school children)\n\nSIMILAR WORDS:\n- {農閑期|のうかんき}: slack farming season — the opposite, the quiet period between planting and harvesting\n- {繁忙期|はんぼうき}: busy season — a general term for any industry's peak period, not limited to farming\n- {収穫期|しゅうかくき}: harvest season — specifically the autumn harvest period",
+  "notes": "Compound of {農|のう} (agriculture) + {繁|はん} (busy/flourishing) + {期|き} (period). In Japan, the main {農繁期|のうはんき} periods are spring (⟦{田植|たう}え→田植え：22734_taue⟧, rice planting) and autumn (⟦{稲刈|いねか}り→稲刈り：05933_inekari⟧, rice harvesting). Historically, school schedules and local events were arranged around these periods.\n\nCOMMON COLLOCATIONS:\n- {農繁期|のうはんき}⟦に→に：00314_ni⟧⟦{入|はい}る→入る：00494_hairu⟧: to enter the busy farming season\n- {農繁期|のうはんき}⟦の→の：09472_no⟧⟦{手伝|てつだ}い→手伝い：02488_tetsudai⟧: helping during busy farming season\n- {農繁期|のうはんき}⟦{休暇|きゅうか}→休暇：02547_kyuuka⟧: farming season leave (historically given to school children)\n\nSIMILAR WORDS:\n- ⟦{農閑期|のうかんき}→農閑期：25613_noukanki⟧: slack farming season — the opposite, the quiet period between planting and harvesting\n- ⟦{繁忙期|はんぼうき}→繁忙期：08366_hanbouki⟧: busy season — a general term for any industry's peak period, not limited to farming\n- ⟦{収穫期|しゅうかくき}→収穫期：21343_shuukakuki⟧: harvest season — specifically the autumn harvest period",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "25613_noukanki",
+      "reading": "のうかんき",
+      "headword": "{農閑期|のうかんき}",
+      "label": "slack farming season"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08366_hanbouki",
+      "reading": "はんぼうき",
+      "headword": "{繁忙期|はんぼうき}",
+      "label": "busy season"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21343_shuukakuki",
+      "reading": "しゅうかくき",
+      "headword": "{収穫期|しゅうかくき}",
+      "label": "harvest season"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["time-period", "nature"],
+      "semantic": [
+        "time-period",
+        "nature"
+      ],
       "domain": []
     },
     "created": "2026-05-08T11:16:19Z",
-    "modified": "2026-08-07T06:30:43Z"
+    "modified": "2026-09-02T04:02:29Z"
   }
 }

@@ -3,7 +3,7 @@
   "headword": "{客演|きゃくえん}",
   "reading": "きゃくえん",
   "romaji": "kyakuen",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "guest performance; guest appearance",
   "definitions": [
     {
@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "30014_kyakuen_ex1",
-      "japanese": "{有名|ゆうめい}な{指揮者|しきしゃ}が{客演|きゃくえん}する。",
+      "japanese": "⟦{有名|ゆうめい}→有名：01106_yuumei⟧な⟦{指揮者|しきしゃ}→指揮者：06565_shikisha⟧⟦が→が：00051_ga⟧{客演|きゃくえん}⟦する→する：00392_suru⟧。",
       "english": "A famous conductor will make a guest appearance.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "30014_kyakuen_ex2",
-      "japanese": "{今回|こんかい}の{公演|こうえん}には{海外|かいがい}の{歌手|かしゅ}が{客演|きゃくえん}する。",
+      "japanese": "⟦{今回|こんかい}→今回：01409_konkai⟧⟦の→の：09472_no⟧⟦{公演|こうえん}→公演：11639_kouen⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{海外|かいがい}→海外：00134_kaigai⟧⟦の→の：09472_no⟧⟦{歌手|かしゅ}→歌手：00197_kashu⟧⟦が→が：00051_ga⟧{客演|きゃくえん}⟦する→する：00392_suru⟧。",
       "english": "A singer from overseas will make a guest appearance in this performance.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "30014_kyakuen_ex3",
-      "japanese": "{彼女|かのじょ}は{別|べつ}の{劇団|げきだん}に{客演|きゃくえん}して、{主役|しゅやく}を{演|えん}じた。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧⟦{別|べつ}→別：01216_betsu⟧⟦の→の：09472_no⟧⟦{劇団|げきだん}→劇団：20045_gekidan⟧⟦に→に：00314_ni⟧{客演|きゃくえん}⟦して→する：00392_suru⟧、⟦{主役|しゅやく}→主役：04199_shuyaku⟧⟦を→を：00422_wo⟧⟦{演|えん}じた→演じる：13330_enjiru⟧。",
       "english": "She made a guest appearance with another theater company and played the lead role.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Used of the performing arts — concerts, theater, opera, ballet. The guest is invited from outside the regular company for a particular production.\n\nCOMMON COLLOCATIONS:\n- {客演|きゃくえん}{指揮者|しきしゃ}: guest conductor\n- {客演|きゃくえん}する: to appear as a guest performer\n- {客演|きゃくえん}を{迎|むか}える: to welcome a guest performer\n\nSIMILAR WORDS:\n- {出演|しゅつえん}: appearing/performing (in general) — does not imply being an outside guest\n- {共演|きょうえん}: co-starring — performing together with others, from the performers' point of view",
+  "notes": "Used of the performing arts — concerts, theater, opera, ballet. The guest is invited from outside the regular company for a particular production.\n\nCOMMON COLLOCATIONS:\n- {客演|きゃくえん}⟦{指揮者|しきしゃ}→指揮者：06565_shikisha⟧: guest conductor\n- {客演|きゃくえん}⟦する→する：00392_suru⟧: to appear as a guest performer\n- {客演|きゃくえん}⟦を→を：00422_wo⟧⟦{迎|むか}える→迎える：01193_mukaeru⟧: to welcome a guest performer\n\nSIMILAR WORDS:\n- ⟦{出演|しゅつえん}→出演：11732_shutsuen⟧: appearing/performing (in general) — does not imply being an outside guest\n- ⟦{共演|きょうえん}→共演：11676_kyouen⟧: co-starring — performing together with others, from the performers' point of view",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11732_shutsuen",
+      "reading": "しゅつえん",
+      "headword": "{出演|しゅつえん}",
+      "label": "appearing/performing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11676_kyouen",
+      "reading": "きょうえん",
+      "headword": "{共演|きょうえん}",
+      "label": "co-starring"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -54,15 +70,16 @@
         "verb-suru"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "entertainment"
       ],
       "domain": [],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "intransitive"
     },
     "created": "2026-07-21T18:18:56Z",
-    "modified": "2026-07-21T18:25:49Z"
+    "modified": "2026-09-02T04:02:38Z"
   },
   "conjugation": {
     "type": "suru",

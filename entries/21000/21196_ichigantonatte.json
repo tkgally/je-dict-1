@@ -15,41 +15,67 @@
   "examples": [
     {
       "id": "21196_ichigantonatte_ex1",
-      "japanese": "チームが{一丸|いちがん}となって{戦|たたか}った。",
+      "japanese": "⟦チーム→チーム：03858_chiimu⟧⟦が→が：00051_ga⟧{一丸|いちがん}となって⟦{戦|たたか}った→戦う：02071_tatakau⟧。",
       "english": "The team fought as one.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "21196_ichigantonatte_ex2",
-      "japanese": "{社員|しゃいん}{全員|ぜんいん}が{一丸|いちがん}となって{目標|もくひょう}に{取|と}り{組|く}んだ。",
+      "japanese": "⟦{社員|しゃいん}→社員：03065_shain⟧⟦{全員|ぜんいん}→全員：03310_zenin⟧⟦が→が：00051_ga⟧{一丸|いちがん}となって⟦{目標|もくひょう}→目標：03631_mokuhyou⟧⟦に→に：00314_ni⟧⟦{取|と}り{組|く}んだ→取り組む：04225_torikumu⟧。",
       "english": "All employees united and worked toward the goal.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "21196_ichigantonatte_ex3",
-      "japanese": "{被災地|ひさいち}の{復興|ふっこう}に{向|む}けて、{地域|ちいき}が{一丸|いちがん}となって{力|ちから}を{合|あ}わせている。",
+      "japanese": "⟦{被災地|ひさいち}→被災地：27434_hisaichi⟧⟦の→の：09472_no⟧⟦{復興|ふっこう}→復興：07590_fukkou⟧⟦に→に：00314_ni⟧⟦{向|む}けて→向ける：02306_mukeru⟧、⟦{地域|ちいき}→地域：01461_chiiki⟧⟦が→が：00051_ga⟧{一丸|いちがん}となって⟦{力|ちから}→力：01661_chikara⟧⟦を→を：00422_wo⟧⟦{合|あ}わせている→合わせる：01872_awaseru⟧。",
       "english": "The community is coming together as one and joining forces toward the recovery of the disaster area.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{一丸|いちがん} literally means 'one ball' or 'one mass,' and となって means 'becoming.' The expression conveys the image of many individuals merging into a single entity. It is frequently used in sports coverage, business settings, and discussions of community efforts.\n\nCOMMON COLLOCATIONS:\n- {一丸|いちがん}となって{取|と}り{組|く}む (to work on something as one)\n- {一丸|いちがん}となって{戦|たたか}う (to fight as one)\n- {一丸|いちがん}となって{努力|どりょく}する (to make a united effort)\n- {一丸|いちがん}となって{立|た}ち{向|む}かう (to stand up together against something)\n\nUSAGE:\nThis expression is especially common in encouraging speeches, news reporting on team sports, and descriptions of collective action during crises or challenges. It conveys a strong, motivational tone.\n\nSIMILAR WORDS:\n- {団結|だんけつ}する — to unite, to band together (more formal; emphasizes the act of unifying)\n- {力|ちから}を{合|あ}わせる — to join forces (more neutral and everyday)\n- {結束|けっそく}する — to rally together, to unite (emphasizes solidarity and cohesion)",
-  "cross_references": [],
+  "notes": "⟦{一丸|いちがん}→一丸：28278_ichigan⟧ literally means 'one ball' or 'one mass,' and ⟦と→と：00512_to⟧⟦なって→なる：01970_naru⟧ means 'becoming.' The expression conveys the image of many individuals merging into a single entity. It is frequently used in sports coverage, business settings, and discussions of community efforts.\n\nCOMMON COLLOCATIONS:\n- {一丸|いちがん}となって⟦{取|と}り{組|く}む→取り組む：04225_torikumu⟧ (to work on something as one)\n- {一丸|いちがん}となって⟦{戦|たたか}う→戦う：02071_tatakau⟧ (to fight as one)\n- {一丸|いちがん}となって⟦{努力|どりょく}する→努力する：20201_doryokusuru⟧ (to make a united effort)\n- {一丸|いちがん}となって⟦{立|た}ち{向|む}かう→立ち向かう：06981_tachimukau⟧ (to stand up together against something)\n\nUSAGE:\nThis expression is especially common in encouraging speeches, news reporting on team sports, and descriptions of collective action during crises or challenges. It conveys a strong, motivational tone.\n\nSIMILAR WORDS:\n- ⟦{団結|だんけつ}する→団結する：19218_danketsusuru⟧ — to unite, to band together (more formal; emphasizes the act of unifying)\n- ⟦{力|ちから}→力：01661_chikara⟧⟦を→を：00422_wo⟧⟦{合|あ}わせる→合わせる：01872_awaseru⟧ — to join forces (more neutral and everyday)\n- ⟦{結束|けっそく}→結束：13799_kessoku⟧⟦する→する：00392_suru⟧ — to rally together, to unite (emphasizes solidarity and cohesion)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19218_danketsusuru",
+      "reading": "だんけつする",
+      "headword": "{団結|だんけつ}する",
+      "label": "to unite, to band together (more formal"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13799_kessoku",
+      "reading": "けっそく",
+      "headword": "{結束|けっそく}",
+      "label": "to rally together, to unite"
+    }
+  ],
   "metadata": {
     "created": "2026-03-31T22:22:46Z",
-    "modified": "2026-03-31T22:22:46Z",
+    "modified": "2026-09-02T04:02:02Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["expression", "adverb"],
+      "pos": [
+        "expression",
+        "adverb"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["abstract"]
+      "semantic": [
+        "abstract"
+      ]
     }
   }
 }

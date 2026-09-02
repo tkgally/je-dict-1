@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "09692_tacchikessai_ex1",
-      "japanese": "タッチ{決済|けっさい}で{払|はら}った。",
+      "japanese": "タッチ{決済|けっさい}⟦で→で：00502_de⟧⟦{払|はら}った→払う：00535_harau⟧。",
       "english": "I paid with contactless payment.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "09692_tacchikessai_ex2",
-      "japanese": "このカードはタッチ{決済|けっさい}に{対応|たいおう}している。",
+      "japanese": "⟦この→この：00962_kono⟧⟦カード→カード：03836_kaado⟧⟦は→は：00079_ha⟧タッチ{決済|けっさい}⟦に→に：00314_ni⟧⟦{対応|たいおう}→対応：02510_taiou⟧⟦している→する：00392_suru⟧。",
       "english": "This card supports contactless payment.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "09692_tacchikessai_ex3",
-      "japanese": "コンビニではタッチ{決済|けっさい}が{使|つか}えるので、{小銭|こぜに}を{出|だ}さなくて{済|す}む。",
+      "japanese": "⟦コンビニ→コンビニ：01081_konbini⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧タッチ{決済|けっさい}⟦が→が：00051_ga⟧⟦{使|つか}える→使う：00473_tsukau⟧⟦の→の：09472_no⟧で、⟦{小銭|こぜに}→小銭：02759_kozeni⟧⟦を→を：00422_wo⟧⟦{出|だ}さなくて→出す：01087_dasu⟧⟦{済|す}む→済む：01950_sumu⟧。",
       "english": "At convenience stores, you can use contactless payment, so you don't need to get out coins.",
       "notes": null,
       "has_audio": false,
@@ -43,10 +43,33 @@
       ]
     }
   ],
-  "notes": "タッチ{決済|けっさい} refers to contactless payment where you hold a card or smartphone near a reader to pay. A wasei-eigo compound combining English \"touch\" with {決済|けっさい} (settlement/payment).\n\nCOMMON PATTERNS:\n- タッチ{決済|けっさい}で{払|はら}う: to pay by contactless\n- タッチ{決済|けっさい}に{対応|たいおう}する: to support contactless payment\n- タッチ{決済|けっさい}が{使|つか}える: contactless payment is available\n\nSCOPE:\nCovers NFC-based credit/debit cards, transportation IC cards (Suica, PASMO), and smartphone payment apps. The formal term is {非接触|ひせっしょく}{決済|けっさい}.\n\nRELATED TERMS:\n- {電子|でんし}マネー: electronic money (broader category)\n- QRコード{決済|けっさい}: QR code payment (a different method)\n- {現金|げんきん}{払|ばら}い: cash payment\n- キャッシュレス: cashless (the overall trend)",
+  "notes": "タッチ{決済|けっさい} refers to contactless payment where you hold a card or smartphone near a reader to pay. A wasei-eigo compound combining English \"touch\" with ⟦{決済|けっさい}→決済：05466_kessai⟧ (settlement/payment).\n\nCOMMON PATTERNS:\n- タッチ{決済|けっさい}⟦で→で：00502_de⟧⟦{払|はら}う→払う：00535_harau⟧: to pay by contactless\n- タッチ{決済|けっさい}⟦に→に：00314_ni⟧⟦{対応|たいおう}→対応：02510_taiou⟧⟦する→する：00392_suru⟧: to support contactless payment\n- タッチ{決済|けっさい}⟦が→が：00051_ga⟧⟦{使|つか}える→使う：00473_tsukau⟧: contactless payment is available\n\nUSAGE:\nCovers NFC-based credit/debit cards, transportation IC cards (Suica, PASMO), and smartphone payment apps. The formal term is ⟦{非接触|ひせっしょく}→非接触：15813_hisesshoku⟧⟦{決済|けっさい}→決済：05466_kessai⟧.\n\nRELATED WORDS:\n- ⟦{電子|でんし}マネー→電子マネー：06694_denshimanee⟧: electronic money (broader category)\n- QRコード⟦{決済|けっさい}→決済：05466_kessai⟧: QR code payment (a different method)\n- ⟦{現金|げんきん}→現金：02716_genkin⟧⟦{払|ばら}い→払い：09655_barai⟧: cash payment\n- ⟦キャッシュレス→キャッシュレス：06096_kyasshuresu⟧: cashless (the overall trend)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "06694_denshimanee",
+      "reading": "でんしまねー",
+      "headword": "{電子|でんし}マネー",
+      "label": "electronic money"
+    },
+    {
+      "type": "related",
+      "target_id": "06096_kyasshuresu",
+      "reading": "きゃっしゅれす",
+      "headword": "キャッシュレス",
+      "label": "cashless"
+    },
+    {
+      "type": "related",
+      "target_id": "15813_hisesshoku",
+      "reading": "ひせっしょく",
+      "headword": "{非接触|ひせっしょく}",
+      "label": "contactless"
+    }
+  ],
   "metadata": {
     "created": "2026-02-03T06:49:06Z",
-    "modified": "2026-06-24T18:40:49Z",
+    "modified": "2026-09-02T04:01:19Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

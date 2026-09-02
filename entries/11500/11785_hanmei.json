@@ -2,7 +2,7 @@
   "id": "11785_hanmei",
   "headword": "{判明|はんめい}",
   "reading": "はんめい",
-  "part_of_speech": "noun / suru verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "becoming clear; being revealed",
   "conjugation": {
     "type": "suru",
@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "11785_hanmei_ex1",
-      "japanese": "{原因|げんいん}が{判明|はんめい}した。",
+      "japanese": "⟦{原因|げんいん}→原因：01400_genin⟧⟦が→が：00051_ga⟧{判明|はんめい}⟦した→する：00392_suru⟧。",
       "english": "The cause was determined.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "11785_hanmei_ex2",
-      "japanese": "{調査|ちょうさ}の{結果|けっか}、{事実|じじつ}が{判明|はんめい}した。",
+      "japanese": "⟦{調査|ちょうさ}→調査：03489_chousa⟧⟦の→の：09472_no⟧⟦{結果|けっか}→結果：02486_kekka⟧、⟦{事実|じじつ}→事実：03271_jijitsu⟧⟦が→が：00051_ga⟧{判明|はんめい}⟦した→する：00392_suru⟧。",
       "english": "As a result of the investigation, the facts came to light.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "11785_hanmei_ex3",
-      "japanese": "{犯人|はんにん}の{身元|みもと}がようやく{判明|はんめい}し、{警察|けいさつ}が{発表|はっぴょう}した。",
+      "japanese": "⟦{犯人|はんにん}→犯人：03572_hannin⟧⟦の→の：09472_no⟧⟦{身元|みもと}→身元：15710_mimoto⟧⟦が→が：00051_ga⟧ようやく{判明|はんめい}し、⟦{警察|けいさつ}→警察：01393_keisatsu⟧⟦が→が：00051_ga⟧⟦{発表|はっぴょう}した→発表する：25231_happyousuru⟧。",
       "english": "The suspect's identity was finally determined, and the police made an announcement.",
       "notes": null,
       "has_audio": false,
@@ -133,11 +133,33 @@
       ]
     }
   ],
-  "notes": "Used with する to form the verb {判明|はんめい}する, meaning 'to become clear' or 'to be revealed.' The subject is typically the thing being discovered, not the person discovering it. Common in news reports and formal contexts.\n\nCOMMON COLLOCATIONS:\n・{原因|げんいん}が{判明|はんめい}する: the cause is determined\n・{事実|じじつ}が{判明|はんめい}する: the facts come to light\n・{身元|みもと}が{判明|はんめい}する: the identity is determined",
-  "cross_references": [],
+  "notes": "Used with ⟦する→する：00392_suru⟧ to form the verb {判明|はんめい}⟦する→する：00392_suru⟧, meaning 'to become clear' or 'to be revealed.' The subject is typically the thing being discovered, not the person discovering it. Common in news reports and formal contexts.\n\nCOMMON COLLOCATIONS:\n- ⟦{原因|げんいん}→原因：01400_genin⟧⟦が→が：00051_ga⟧{判明|はんめい}⟦する→する：00392_suru⟧: the cause is determined\n- ⟦{事実|じじつ}→事実：03271_jijitsu⟧⟦が→が：00051_ga⟧{判明|はんめい}⟦する→する：00392_suru⟧: the facts come to light\n- ⟦{身元|みもと}→身元：15710_mimoto⟧⟦が→が：00051_ga⟧{判明|はんめい}⟦する→する：00392_suru⟧: the identity is determined",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "15423_hakkakusuru",
+      "reading": "はっかくする",
+      "headword": "{発覚|はっかく}する",
+      "label": "to be revealed"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19642_tokuteisuru",
+      "reading": "とくていする",
+      "headword": "{特定|とくてい}する",
+      "label": "to identify"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20077_roken",
+      "reading": "ろけん",
+      "headword": "{露見|ろけん}",
+      "label": "disclosure"
+    }
+  ],
   "metadata": {
     "created": "2026-02-18T06:08:50Z",
-    "modified": "2026-03-29T03:07:35Z",
+    "modified": "2026-09-02T04:01:26Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",

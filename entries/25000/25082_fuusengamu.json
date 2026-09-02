@@ -15,38 +15,67 @@
   "examples": [
     {
       "id": "25082_fuusengamu_ex1",
-      "japanese": "{風船|ふうせん}ガムを{膨|ふく}らませた。",
+      "japanese": "{風船|ふうせん}ガム⟦を→を：00422_wo⟧⟦{膨|ふく}らませた→膨らむ：05342_fukuramu⟧。",
       "english": "I blew a bubble with bubble gum.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "25082_fuusengamu_ex2",
-      "japanese": "{子供|こども}が{風船|ふうせん}ガムで{大|おお}きな{泡|あわ}を{作|つく}っている。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧⟦が→が：00051_ga⟧{風船|ふうせん}ガム⟦で→で：00502_de⟧⟦{大|おお}きな→大きな：02849_ookina⟧⟦{泡|あわ}→泡：02175_awa⟧⟦を→を：00422_wo⟧⟦{作|つく}っている→作る：00481_tsukuru⟧。",
       "english": "The child is making a big bubble with bubble gum.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "25082_fuusengamu_ex3",
-      "japanese": "{授業中|じゅぎょうちゅう}に{風船|ふうせん}ガムを{噛|か}んでいて{先生|せんせい}に{叱|しか}られた。",
+      "japanese": "⟦{授業中|じゅぎょうちゅう}→授業中：20544_jugyouchuu⟧⟦に→に：00314_ni⟧{風船|ふうせん}ガム⟦を→を：00422_wo⟧⟦{噛|か}んでいて→噛む：01205_kamu⟧⟦{先生|せんせい}→先生：00609_sensei⟧⟦に→に：00314_ni⟧⟦{叱|しか}られた→叱る：01202_shikaru⟧。",
       "english": "I was chewing bubble gum during class and got scolded by the teacher.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Refers to the type of chewing gum that can be blown into bubbles. In Japan, bubble gum is popular with children and is sold in both ball-shaped and stick forms. The word combines {風船|ふうせん} (balloon) and ガム (gum).\n\nCOMMON COLLOCATIONS:\n- {風船|ふうせん}ガムを{噛|か}む: to chew bubble gum\n- {風船|ふうせん}ガムを{膨|ふく}らませる: to blow a bubble\n- {風船|ふうせん}ガムが{割|わ}れる: the bubble pops\n\nSIMILAR WORDS:\n- {粒|つぶ}ガム: pellet gum — small coated gum pieces, not specifically for blowing bubbles\n- {板|いた}ガム: stick gum — flat rectangular pieces of chewing gum\n- チューインガム: chewing gum — the general term for gum",
+  "notes": "Refers to the type of chewing gum that can be blown into bubbles. In Japan, bubble gum is popular with children and is sold in both ball-shaped and stick forms. The word combines ⟦{風船|ふうせん}→風船：14623_fuusen⟧ (balloon) and ⟦ガム→ガム：00058_gamu⟧ (gum).\n\nCOMMON COLLOCATIONS:\n- {風船|ふうせん}ガム⟦を→を：00422_wo⟧⟦{噛|か}む→噛む：01205_kamu⟧: to chew bubble gum\n- {風船|ふうせん}ガム⟦を→を：00422_wo⟧⟦{膨|ふく}らませる→膨らむ：05342_fukuramu⟧: to blow a bubble\n- {風船|ふうせん}ガム⟦が→が：00051_ga⟧⟦{割|わ}れる→割れる：00907_wareru⟧: the bubble pops\n\nSIMILAR WORDS:\n- ⟦{粒|つぶ}→粒：03892_tsubu⟧⟦ガム→ガム：00058_gamu⟧: pellet gum — small coated gum pieces, not specifically for blowing bubbles\n- ⟦{板|いた}ガム→板ガム：18366_itagamu⟧: stick gum — flat rectangular pieces of chewing gum\n- ⟦チューインガム→チューインガム：24996_chuuingamu⟧: chewing gum — the general term for gum",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18366_itagamu",
+      "reading": "いたがむ",
+      "headword": "{板|いた}ガム",
+      "label": "stick gum"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24996_chuuingamu",
+      "reading": "ちゅーいんがむ",
+      "headword": "チューインガム",
+      "label": "chewing gum"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["food", "daily-life"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "food",
+        "daily-life"
+      ]
     },
     "created": "2026-04-22T14:36:34Z",
-    "modified": "2026-04-22T14:36:34Z"
+    "modified": "2026-09-02T04:02:21Z"
   }
 }

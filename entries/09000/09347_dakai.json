@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "09347_dakai_ex1",
-      "japanese": "{局面|きょくめん}を{打開|だかい}する。",
+      "japanese": "⟦{局面|きょくめん}→局面：05777_kyokumen⟧⟦を→を：00422_wo⟧{打開|だかい}⟦する→する：00392_suru⟧。",
       "english": "Break through the impasse.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "09347_dakai_ex2",
-      "japanese": "{現状|げんじょう}{打開|だかい}のために{対策|たいさく}を{練|ね}る。",
+      "japanese": "⟦{現状|げんじょう}→現状：02721_genjou⟧{打開|だかい}⟦の→の：09472_no⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧⟦{対策|たいさく}→対策：02511_taisaku⟧⟦を→を：00422_wo⟧⟦{練|ね}る→練る：09751_neru⟧。",
       "english": "Devise measures to break through the current situation.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "09347_dakai_ex3",
-      "japanese": "{打開|だかい}の{糸口|いとぐち}を{探|さが}しているが、なかなか{見|み}つからない。",
+      "japanese": "{打開|だかい}⟦の→の：09472_no⟧⟦{糸口|いとぐち}→糸口：10110_itoguchi⟧⟦を→を：00422_wo⟧⟦{探|さが}している→探す：00493_sagasu⟧⟦が→が：00051_ga⟧、⟦なかなか→なかなか：01547_nakanaka⟧⟦{見|み}つからない→見つかる：01173_mitsukaru⟧。",
       "english": "I'm looking for a way to break through, but I can't seem to find one.",
       "notes": null,
       "has_audio": false,
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "{打開|だかい} refers to breaking through a difficult situation or deadlock.\n\nCOMMON COLLOCATIONS:\n- {局面|きょくめん}を{打開|だかい}する (break through an impasse)\n- {現状|げんじょう}{打開|だかい} (breaking through the status quo)\n- {打開|だかい}{策|さく} (breakthrough strategy)\n- {打開|だかい}の{糸口|いとぐち} (clue to a breakthrough)\n\nRELATED TERM: {突破|とっぱ} is similar but emphasizes forcefully breaking through, while {打開|だかい} emphasizes resolving a difficult situation.",
+  "notes": "{打開|だかい} refers to breaking through a difficult situation or deadlock.\n\nCOMMON COLLOCATIONS:\n- ⟦{局面|きょくめん}→局面：05777_kyokumen⟧⟦を→を：00422_wo⟧{打開|だかい}⟦する→する：00392_suru⟧ (break through an impasse)\n- ⟦{現状|げんじょう}→現状：02721_genjou⟧{打開|だかい} (breaking through the status quo)\n- {打開|だかい}⟦{策|さく}→策：09997_saku⟧ (breakthrough strategy)\n- {打開|だかい}⟦の→の：09472_no⟧⟦{糸口|いとぐち}→糸口：10110_itoguchi⟧ (clue to a breakthrough)\n\nRELATED TERM: ⟦{突破|とっぱ}→突破：13755_toppa⟧ is similar but emphasizes forcefully breaking through, while {打開|だかい} emphasizes resolving a difficult situation.",
   "cross_references": [
     {
       "type": "related",
@@ -148,11 +148,18 @@
       "reading": "いきづまる",
       "headword": "{行|い}き{詰|づ}まる",
       "label": "to reach a dead end"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26071_mondaikaiketsu",
+      "reading": "もんだいかいけつ",
+      "headword": "{問題解決|もんだいかいけつ}",
+      "label": "problem solving"
     }
   ],
   "metadata": {
     "created": "2026-02-01T07:52:12Z",
-    "modified": "2026-06-23T15:56:03Z",
+    "modified": "2026-09-02T04:01:18Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -165,7 +172,8 @@
       "semantic": [
         "action"
       ],
-      "verb_class": "suru"
+      "verb_class": "suru",
+      "transitivity": "transitive"
     }
   }
 }

@@ -15,42 +15,67 @@
   "examples": [
     {
       "id": "26512_komekopan_ex1",
-      "japanese": "{米粉|こめこ}パンはもちもちしている。",
+      "japanese": "{米粉|こめこ}パン⟦は→は：00079_ha⟧⟦もちもち→もちもち：05260_mochimochi⟧⟦している→する：00392_suru⟧。",
       "english": "Rice flour bread has a chewy, springy texture.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26512_komekopan_ex2",
-      "japanese": "{小麦|こむぎ}アレルギーの{子|こ}どもに{米粉|こめこ}パンを{焼|や}いた。",
+      "japanese": "⟦{小麦|こむぎ}→小麦：01407_komugi⟧⟦アレルギー→アレルギー：04645_arerugii⟧⟦の→の：09472_no⟧{子|こ}ども⟦に→に：00314_ni⟧{米粉|こめこ}パン⟦を→を：00422_wo⟧⟦{焼|や}いた→焼く：01123_yaku⟧。",
       "english": "I baked rice flour bread for a child with a wheat allergy.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26512_komekopan_ex3",
-      "japanese": "{最近|さいきん}は{学校給食|がっこうきゅうしょく}でも{米粉|こめこ}パンが{出|で}るようになり、{地元|じもと}の{米|こめ}を{使|つか}ったものが{人気|にんき}だ。",
+      "japanese": "⟦{最近|さいきん}→最近：00881_saikin⟧⟦は→は：00079_ha⟧{学校給食|がっこうきゅうしょく}⟦で→で：00502_de⟧⟦も→も：00484_mo⟧{米粉|こめこ}パン⟦が→が：00051_ga⟧⟦{出|で}る→出る：00513_deru⟧よう⟦に→に：00314_ni⟧⟦なり→なる：01970_naru⟧、⟦{地元|じもと}→地元：09941_jimoto⟧⟦の→の：09472_no⟧⟦{米|こめ}→米：01323_kome⟧⟦を→を：00422_wo⟧⟦{使|つか}った→使う：00473_tsukau⟧もの⟦が→が：00051_ga⟧⟦{人気|にんき}→人気：01488_ninki⟧だ。",
       "english": "Rice flour bread has recently started appearing in school lunches, and versions using locally grown rice are popular.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {米粉|こめこ} (rice flour) and パン (bread, from Portuguese \"pão\"). Part of a broader trend in Japan toward using domestically produced rice in non-traditional ways. Rice flour bread has a distinctive moist, chewy (もちもち) texture that differs from wheat bread.\n\nCOMMON COLLOCATIONS:\n- {米粉|こめこ}パン{専門店|せんもんてん}: rice flour bread specialty shop\n- {米粉|こめこ}パンを{焼|や}く: to bake rice flour bread\n- グルテンフリーの{米粉|こめこ}パン: gluten-free rice flour bread\n\nCULTURAL NOTE:\nThe Japanese government has promoted {米粉|こめこ} products since the 2000s as part of efforts to increase rice consumption, which has been declining as Japanese diets become more westernized. Many school lunch programs now include rice flour bread made from locally grown rice.\n\nSIMILAR WORDS:\n- {食パン|しょくぱん}: white bread / sandwich bread — the standard bread loaf in Japan\n- {米粉|こめこ}: rice flour — the ingredient itself",
-  "cross_references": [],
+  "notes": "Composed of ⟦{米粉|こめこ}→米粉：13771_komeko⟧ (rice flour) and ⟦パン→パン：00553_pan⟧ (bread, from Portuguese \"pão\"). Part of a broader trend in Japan toward using domestically produced rice in non-traditional ways. Rice flour bread has a distinctive moist, chewy (⟦もちもち→もちもち：05260_mochimochi⟧) texture that differs from wheat bread.\n\nCOMMON COLLOCATIONS:\n- {米粉|こめこ}パン⟦{専門店|せんもんてん}→専門店：15924_senmonten⟧: rice flour bread specialty shop\n- {米粉|こめこ}パン⟦を→を：00422_wo⟧⟦{焼|や}く→焼く：01123_yaku⟧: to bake rice flour bread\n- ⟦グルテンフリー→グルテンフリー：23413_gurutenfurii⟧⟦の→の：09472_no⟧{米粉|こめこ}パン: gluten-free rice flour bread\n\nCULTURAL NOTE:\nThe Japanese government has promoted ⟦{米粉|こめこ}→米粉：13771_komeko⟧ products since the 2000s as part of efforts to increase rice consumption, which has been declining as Japanese diets become more westernized. Many school lunch programs now include rice flour bread made from locally grown rice.\n\nSIMILAR WORDS:\n- ⟦{食パン|しょくぱん}→食パン：14636_shokupan⟧: white bread / sandwich bread — the standard bread loaf in Japan\n- ⟦{米粉|こめこ}→米粉：13771_komeko⟧: rice flour — the ingredient itself",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14636_shokupan",
+      "reading": "しょくぱん",
+      "headword": "{食|しょく}パン",
+      "label": "white bread / sandwich bread"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23413_gurutenfurii",
+      "reading": "ぐるてんふりー",
+      "headword": "グルテンフリー",
+      "label": "gluten-free"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
+      "semantic": [
+        "general"
+      ],
       "domain": []
     },
     "created": "2026-05-02T13:36:28Z",
-    "modified": "2026-05-02T13:36:28Z"
+    "modified": "2026-09-02T04:02:26Z"
   }
 }

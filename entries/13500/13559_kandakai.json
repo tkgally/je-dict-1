@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "13559_kandakai_ex1",
-      "japanese": "{甲高|かんだか}い{声|こえ}が{聞|き}こえた。",
+      "japanese": "{甲高|かんだか}い⟦{声|こえ}→声：02207_koe⟧⟦が→が：00051_ga⟧⟦{聞|き}こえた→聞こえる：01229_kikoeru⟧。",
       "english": "I heard a shrill voice.",
       "notes": null,
       "has_audio": false,
@@ -25,7 +25,7 @@
     },
     {
       "id": "13559_kandakai_ex2",
-      "japanese": "{子|こ}どもたちの{甲高|かんだか}い{笑|わら}い{声|ごえ}が{公園|こうえん}に{響|ひび}いていた。",
+      "japanese": "{子|こ}どもたち⟦の→の：09472_no⟧{甲高|かんだか}い⟦{笑|わら}い{声|ごえ}→笑い声：24414_waraigoe⟧⟦が→が：00051_ga⟧⟦{公園|こうえん}→公園：00581_kouen⟧⟦に→に：00314_ni⟧⟦{響|ひび}いていた→響く：00099_hibiku⟧。",
       "english": "The children's shrill laughter echoed through the park.",
       "notes": null,
       "has_audio": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "13559_kandakai_ex3",
-      "japanese": "{隣|となり}の{部屋|へや}から{甲高|かんだか}い{悲鳴|ひめい}が{聞|き}こえてきたので、{慌|あわ}てて{様子|ようす}を{見|み}に{行|い}った。",
+      "japanese": "⟦{隣|となり}→隣：01003_tonari⟧⟦の→の：09472_no⟧⟦{部屋|へや}→部屋：00507_heya⟧⟦から→から：00504_kara⟧{甲高|かんだか}い⟦{悲鳴|ひめい}→悲鳴：12621_himei⟧⟦が→が：00051_ga⟧⟦{聞|き}こえて→聞こえる：01229_kikoeru⟧きた⟦の→の：09472_no⟧で、⟦{慌|あわ}てて→慌てる：01874_awateru⟧⟦{様子|ようす}→様子：01521_yousu⟧⟦を→を：00422_wo⟧⟦{見|み}→見る：00283_miru⟧⟦に→に：00314_ni⟧⟦{行|い}った→行く：00119_iku⟧。",
       "english": "I heard a piercing scream from the next room, so I rushed to check what was going on.",
       "notes": null,
       "has_audio": false,
@@ -44,11 +44,26 @@
       ]
     }
   ],
-  "notes": "USAGE:\nAlmost exclusively used to describe sounds, especially voices and screams. Carries a slightly negative connotation — the sound is not just high, but piercingly so.\n\nFORMS:\n- Adverbial: {甲高|かんだか}く\n- Noun form: not commonly used\n\nCOMMON COLLOCATIONS:\n- {甲高|かんだか}い{声|こえ} (shrill voice)\n- {甲高|かんだか}い{笑|わら}い{声|ごえ} (shrill laughter)\n- {甲高|かんだか}い{悲鳴|ひめい} (piercing scream)\n- {甲高|かんだか}く{叫|さけ}ぶ (to scream shrilly)\n\nSIMILAR WORDS:\n- {高|たか}い: high (general — pitch, height, price; neutral in tone)\n- {鋭|するど}い: sharp, keen (describes quality of sound or sensation, not specifically pitch)\n- {耳障|みみざわ}り: grating, unpleasant to the ear (focuses on the listener's discomfort)",
-  "cross_references": [],
+  "notes": "USAGE:\nAlmost exclusively used to describe sounds, especially voices and screams. Carries a slightly negative connotation — the sound is not just high, but piercingly so.\n\nFORMS:\n- Adverbial: {甲高|かんだか}く\n- Noun form: not commonly used\n\nCOMMON COLLOCATIONS:\n- {甲高|かんだか}い⟦{声|こえ}→声：02207_koe⟧ (shrill voice)\n- {甲高|かんだか}い⟦{笑|わら}い{声|ごえ}→笑い声：24414_waraigoe⟧ (shrill laughter)\n- {甲高|かんだか}い⟦{悲鳴|ひめい}→悲鳴：12621_himei⟧ (piercing scream)\n- {甲高|かんだか}く⟦{叫|さけ}ぶ→叫ぶ：02108_sakebu⟧ (to scream shrilly)\n\nSIMILAR WORDS:\n- ⟦{高|たか}い→高い：00500_takai⟧: high (general — pitch, height, price; neutral in tone)\n- ⟦{鋭|するど}い→鋭い：02347_surudoi⟧: sharp, keen (describes quality of sound or sensation, not specifically pitch)\n- ⟦{耳障|みみざわ}り→耳障り：20216_mimizawari⟧: grating, unpleasant to the ear (focuses on the listener's discomfort)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02347_surudoi",
+      "reading": "するどい",
+      "headword": "{鋭|するど}い",
+      "label": "sharp, keen"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20216_mimizawari",
+      "reading": "みみざわり",
+      "headword": "{耳障|みみざわ}り",
+      "label": "grating, unpleasant to the ear"
+    }
+  ],
   "metadata": {
     "created": "2026-02-25T14:27:56Z",
-    "modified": "2026-02-25T14:27:56Z",
+    "modified": "2026-09-02T04:01:33Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
